@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gelişmiş Excel Grafikleri
@@ -47,9 +49,11 @@ Java için Aspose.Cells ile büyüleyici grafik animasyonları oluşturmayı ö�
 Java için Aspose.Cells ile çarpıcı Şelale Grafikleri oluşturmayı öğrenin. Etkili veri görselleştirme için kaynak kodlu adım adım kılavuz.
 ### [Grafik Etkileşimi](./chart-interactivity/)
 Java için Aspose.Cells'i kullanarak etkileşimli grafiklerin nasıl oluşturulacağını öğrenin. Veri görselleştirmenizi etkileşimle geliştirin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

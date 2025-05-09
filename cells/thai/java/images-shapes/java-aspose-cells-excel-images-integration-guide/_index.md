@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ public class CreateAndModifyWorkbook {
 
 ### คุณลักษณะที่ 3: การกำหนดและการใช้คลาสข้อมูลที่กำหนดเอง
 
-ในการจัดการข้อมูลภาพ เราจำเป็นต้องมีคลาสที่กำหนดเอง คุณสามารถกำหนดคลาสได้ดังนี้:
+ในการจัดการข้อมูลภาพ เราจำเป็นต้องมีคลาสที่กำหนดเอง คุณสามารถกำหนดคลาสดังกล่าวได้ดังนี้:
 
 ```java
 class Person {
@@ -183,7 +185,7 @@ class Person {
 }
 ```
 
-- **เหตุใดจึงต้องใช้คลาสแบบกำหนดเอง?** จัดระเบียบข้อมูลอย่างมีประสิทธิภาพ ทำให้จัดการและขยายการใช้งานในแอพพลิเคชั่นขนาดใหญ่ได้ง่ายขึ้น
+- **เหตุใดจึงต้องใช้คลาสที่กำหนดเอง?** จัดระเบียบข้อมูลอย่างมีประสิทธิภาพ ทำให้จัดการและขยายการใช้งานในแอพพลิเคชั่นขนาดใหญ่ได้ง่ายขึ้น
 
 ## การประยุกต์ใช้งานจริง
 
@@ -208,6 +210,9 @@ class Person {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

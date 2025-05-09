@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Speciális adatérvényesítési technikák
@@ -20,7 +22,7 @@ Az adatérvényesítés olyan szabályok és korlátozások meghatározásának 
 
 ## Az Aspose.Cells beállítása Java-hoz
 
-Mielőtt belemerülnénk a haladó technikákba, kezdjük az Aspose.Cells for Java használatát. A könyvtárat letöltheted innen: [Aspose.Cells Java letöltési link](https://releases.aspose.com/cells/java/). Ügyeljen arra, hogy kövesse a dokumentációban található telepítési utasításokat a következő címen: [Aspose.Cells Java API-hivatkozásokhoz](https://reference.aspose.com/cells/java/).
+Mielőtt belemerülnénk a haladó technikákba, kezdjük az Aspose.Cells for Java használatát. A könyvtárat letöltheted innen: [Aspose.Cells Java letöltési link](https://releases.aspose.com/cells/java/)Ügyeljen arra, hogy kövesse a dokumentációban található telepítési utasításokat a következő címen: [Aspose.Cells Java API-hivatkozásokhoz](https://reference.aspose.com/cells/java/).
 
 ## Alapvető adatellenőrzés
 
@@ -67,7 +69,7 @@ dataValidation.setFormula1("AND(ISNUMBER(A1), A1>=10, A1<=50)");
 Legördülő listákat is létrehozhat, hogy előre definiált adatbeviteli lehetőségeket biztosítson.
 
 ```java
-// Java kód listaadatok érvényesítéséhez
+// Java kód listaadatok validálásához
 dataValidation.setType(DataValidationType.LIST);
 dataValidation.setFormula1("Option1,Option2,Option3");
 ```
@@ -113,6 +115,7 @@ Részletes dokumentációt és hivatkozásokat találhat a következő címen: [
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,6 +141,9 @@ A5: Navštivte fóra Aspose, kde vám pomohou komunity, nebo se obraťte přímo
 Dodržováním tohoto průvodce jste nyní vybaveni k zefektivnění procesů konverze dokumentů pomocí Aspose.Cells pro Javu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

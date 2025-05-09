@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Dowiedz się, jak obracać tekst w komórkach Excela za pomocą Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne dzięki lepszej czytelności i projektowi."
+"description": "Dowiedz się, jak obracać tekst w komórkach programu Excel za pomocą Aspose.Cells dla języka Java. Ulepsz swoje arkusze kalkulacyjne dzięki lepszej czytelności i projektowi."
 "title": "Obróć tekst w komórkach Excela za pomocą Aspose.Cells Java&#58; Kompletny przewodnik"
 "url": "/pl/java/formatting/rotate-text-excel-cells-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,6 +147,9 @@ A: Odwiedź [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/
 - **Wsparcie:** [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

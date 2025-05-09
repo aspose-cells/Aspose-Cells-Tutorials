@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ String uniqueId = worksheet.getUniqueId();
 // Wydrukuj unikalny identyfikator
 System.out.println("Unique Id: " + uniqueId);
 ```
-Ten kod pobiera ciąg znaków, który jednoznacznie identyfikuje ten arkusz w skoroszycie, co jest niezbędne w przypadku programowego odwoływania się.
+Ten kod pobiera ciąg znaków, który jednoznacznie identyfikuje ten arkusz w skoroszycie, co jest niezbędne w przypadku odwołań programowych.
 
 ### Wskazówki dotyczące rozwiązywania problemów:
 - Upewnij się, że ścieżka do pliku Excel jest prawidłowa, aby zapobiec `FileNotFoundException`.
@@ -186,6 +188,9 @@ Zacznij już dziś korzystać z Aspose.Cells for Java, aby zwiększyć możliwo�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

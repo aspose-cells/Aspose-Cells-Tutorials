@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ A5 : Visite [Page de licence temporaire d'Aspose](https://purchase.aspose.com/te
 - **Soutien:** Rejoignez les discussions et demandez de l'aide sur le [Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

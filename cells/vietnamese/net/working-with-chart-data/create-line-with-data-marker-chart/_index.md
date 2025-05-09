@@ -1,14 +1,16 @@
 ---
-title: Tạo biểu đồ đường thẳng với dữ liệu đánh dấu
-linktitle: Tạo biểu đồ đường thẳng với dữ liệu đánh dấu
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo biểu đồ Line with Data Markers trong Excel bằng Aspose.Cells for .NET. Thực hiện theo hướng dẫn từng bước này để dễ dàng tạo và tùy chỉnh biểu đồ.
-weight: 10
-url: /vi/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Tìm hiểu cách tạo biểu đồ Line with Data Markers trong Excel bằng Aspose.Cells for .NET. Thực hiện theo hướng dẫn từng bước này để dễ dàng tạo và tùy chỉnh biểu đồ."
+"linktitle": "Tạo biểu đồ đường thẳng với dữ liệu đánh dấu"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo biểu đồ đường thẳng với dữ liệu đánh dấu"
+"url": "/vi/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo biểu đồ đường thẳng với dữ liệu đánh dấu
@@ -21,10 +23,10 @@ Bạn đã bao giờ tự hỏi làm thế nào để tạo biểu đồ tuyệt
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị mọi thứ để có thể thực hiện theo một cách liền mạch.
 
-1. Aspose.Cells cho Thư viện .NET – Bạn sẽ cần cài đặt cái này. Bạn có thể lấy nó[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho Thư viện .NET – Bạn sẽ cần cài đặt cái này. Bạn có thể lấy nó [đây](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Đảm bảo môi trường phát triển của bạn được thiết lập với phiên bản .NET mới nhất.
 3. IDE (Môi trường phát triển tích hợp) – Khuyến khích sử dụng Visual Studio.
-4.  Giấy phép Aspose.Cells hợp lệ – Nếu bạn không có, bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc kiểm tra của họ[dùng thử miễn phí](https://releases.aspose.com/).
+4. Giấy phép Aspose.Cells hợp lệ – Nếu bạn không có, bạn có thể yêu cầu [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc kiểm tra của họ [dùng thử miễn phí](https://releases.aspose.com/).
 
 Bạn đã sẵn sàng chưa? Chúng ta hãy cùng phân tích nhé!
 
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // Đặt màu nền trước thành màu trắng
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Đặt thuộc tính tiêu đề biểu đồ
+// Đặt thuộc tính tiêu đề biểu đồ
 chart.Title.Text = "Sample Chart";
 
 // Đặt loại biểu đồ
@@ -171,7 +173,7 @@ chart.NSeries[s3_idx].Values = "B22: B41";
 
 Các giá trị dựa trên dữ liệu chúng tôi đã điền ở bước 2.
 
-## Bước 8: Lưu Workbook
+## Bước 8: Lưu sổ làm việc
 
 Bây giờ mọi thứ đã sẵn sàng, hãy lưu bảng tính để có thể xem biểu đồ hoạt động.
 
@@ -184,7 +186,7 @@ Và thế là xong! Bạn vừa tạo xong biểu đồ đường có đánh d�
 
 ## Phần kết luận
 
-Tạo biểu đồ theo chương trình trong Excel có vẻ khó khăn, nhưng với Aspose.Cells for .NET, việc này dễ dàng như làm theo công thức từng bước. Từ việc thiết lập sổ làm việc đến tùy chỉnh giao diện biểu đồ, thư viện mạnh mẽ này xử lý tất cả. Cho dù bạn đang xây dựng báo cáo, bảng thông tin hay hình ảnh hóa dữ liệu, Aspose.Cells cho phép bạn thực hiện dễ dàng.
+Tạo biểu đồ theo chương trình trong Excel có vẻ khó khăn, nhưng với Aspose.Cells for .NET, việc này dễ như làm theo công thức từng bước. Từ việc thiết lập sổ làm việc đến tùy chỉnh giao diện biểu đồ, thư viện mạnh mẽ này xử lý tất cả. Cho dù bạn đang xây dựng báo cáo, bảng thông tin hay hình ảnh hóa dữ liệu, Aspose.Cells cho phép bạn thực hiện dễ dàng.
 
 ## Câu hỏi thường gặp
 
@@ -192,19 +194,21 @@ Tạo biểu đồ theo chương trình trong Excel có vẻ khó khăn, nhưng 
 Chắc chắn rồi! Aspose.Cells cung cấp rất nhiều tùy chọn tùy chỉnh, từ phông chữ đến đường lưới và nhiều hơn nữa.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Có, cần có giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/).
+Có, cần có giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể thêm nhiều chuỗi dữ liệu hơn?  
- Chỉ cần thêm chuỗi bổ sung bằng cách sử dụng`NSeries.Add` phương pháp, chỉ định phạm vi ô cho dữ liệu mới.
+Chỉ cần thêm chuỗi bổ sung bằng cách sử dụng `NSeries.Add` phương pháp, chỉ định phạm vi ô cho dữ liệu mới.
 
 ### Tôi có thể xuất biểu đồ dưới dạng hình ảnh không?  
- Có, bạn có thể xuất biểu đồ trực tiếp dưới dạng hình ảnh bằng cách sử dụng`Chart.ToImage` phương pháp.
+Có, bạn có thể xuất biểu đồ trực tiếp dưới dạng hình ảnh bằng cách sử dụng `Chart.ToImage` phương pháp.
 
 ### Aspose.Cells có hỗ trợ biểu đồ 3D không?  
 Có, Aspose.Cells hỗ trợ nhiều loại biểu đồ, bao gồm cả biểu đồ 3D.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

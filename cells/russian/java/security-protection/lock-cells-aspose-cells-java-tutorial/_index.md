@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## Предпосылки
 Прежде чем начать, убедитесь, что у вас есть:
 
-### Требуемые библиотеки:
+### Необходимые библиотеки:
 - **Aspose.Cells для Java** (версия 25.3 или более поздняя)
 
 ### Требования к настройке среды:
@@ -89,7 +91,7 @@ import com.aspose.cells.WorksheetCollection;
 WorksheetCollection worksheets = excel.getWorksheets();
 Worksheet worksheet = worksheets.get(0);
 ```
-- **Цель**: Получите коллекцию всех рабочих листов и выберите один для работы.
+- **Цель**: Извлеките коллекцию всех рабочих листов и выберите один для работы.
 
 ### Заблокировать ячейку
 **Обзор:**
@@ -162,6 +164,9 @@ A5: Используйте функции потоковой передачи и
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

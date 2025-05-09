@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 
 Прежде чем приступить к реализации, убедитесь, что ваша среда настроена правильно. Вам понадобится:
 
-- **Требуемые библиотеки:** Aspose.Cells для Java версии 25.3
+- **Необходимые библиотеки:** Aspose.Cells для Java версии 25.3
 - **Требования к настройке среды:** Установленный на вашем компьютере Java Development Kit (JDK) и IDE, например IntelliJ IDEA или Eclipse.
 - **Необходимые знания:** Базовые знания программирования на Java и знакомство с системами сборки Maven или Gradle.
 
@@ -186,6 +188,9 @@ render.toImage("YOUR_OUTPUT_DIRECTORY/ExportWholeWorkbookToXPS_out.xps");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

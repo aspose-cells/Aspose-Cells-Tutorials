@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Schritte zum Lizenzerwerb
 
 - **Kostenlose Testversion**: Laden Sie eine kostenlose Testversion herunter, um die Funktionen von Aspose.Cells zu testen.
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
+- **Temporäre Lizenz**Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
 - **Kaufen**: Erwerben Sie eine Volllizenz, wenn Sie sich entscheiden, dies dauerhaft in Ihre Projekte zu integrieren.
 
 Nach der Installation initialisieren und richten Sie Aspose.Cells in Ihrer Java-Anwendung ein:
@@ -226,6 +228,9 @@ Versuchen Sie, diese Anpassungen in Ihren Projekten zu implementieren und sehen 
 Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells und verändern Sie die Art und Weise, wie Sie mit Tabellenkalkulationsdaten umgehen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

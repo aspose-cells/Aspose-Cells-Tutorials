@@ -1,29 +1,31 @@
 ---
-title: Zastavte převod nebo načítání pomocí sledování přerušení
-linktitle: Zastavte převod nebo načítání pomocí sledování přerušení
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se zastavit převod sešitu v Aspose.Cells pro .NET pomocí Interrupt Monitor s podrobným, podrobným návodem.
-weight: 26
-url: /cs/net/workbook-operations/stop-conversion-or-loading/
+"description": "Naučte se zastavit konverzi sešitu v Aspose.Cells pro .NET pomocí Monitoru přerušení s podrobným návodem krok za krokem."
+"linktitle": "Zastavení převodu nebo načítání pomocí monitoru přerušení"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Zastavení převodu nebo načítání pomocí monitoru přerušení"
+"url": "/cs/net/workbook-operations/stop-conversion-or-loading/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zastavte převod nebo načítání pomocí sledování přerušení
+# Zastavení převodu nebo načítání pomocí monitoru přerušení
 
 ## Zavedení
-Práce s velkými soubory aplikace Excel často zahrnuje zdlouhavé procesy, které mohou spotřebovat čas a zdroje. Ale co kdybyste mohli zastavit proces konverze uprostřed cesty, když si uvědomíte, že je třeba něco změnit? Aspose.Cells for .NET má funkci zvanou Monitor přerušení, která umožňuje přerušit převod sešitu do jiného formátu, jako je PDF. To může být záchranou, zejména při práci s velkými datovými soubory. V této příručce si projdeme, jak přerušit proces převodu pomocí nástroje Interrupt Monitor v Aspose.Cells for .NET.
+Práce s velkými soubory aplikace Excel často zahrnuje zdlouhavé procesy, které mohou zabírat čas a zdroje. Co kdybyste ale mohli proces převodu zastavit uprostřed, když si uvědomíte, že je třeba něco změnit? Aspose.Cells pro .NET má funkci s názvem Monitor přerušení, která umožňuje přerušit převod sešitu do jiného formátu, jako je PDF. To může být záchrana, zejména při práci s rozsáhlými datovými soubory. V této příručce si ukážeme, jak přerušit proces převodu pomocí Monitoru přerušení v Aspose.Cells pro .NET.
 ## Předpoklady
-Před potápěním se ujistěte, že máte na svém místě následující:
-1.  Aspose.Cells for .NET – Stáhněte si ji[zde](https://releases.aspose.com/cells/net/).
-2. Vývojové prostředí .NET – jako je Visual Studio.
-3. Základní znalost programování v C# – znalost syntaxe C# vám pomůže pokračovat.
-## Importujte balíčky
-Pro začátek naimportujeme potřebné balíčky. Mezi tyto dovozy patří:
-- Aspose.Cells: Hlavní knihovna pro manipulaci se soubory Excel.
-- System.Threading: Pro správu vláken, protože tento příklad spustí dva paralelní procesy.
+Než se ponoříte, ujistěte se, že máte připraveno následující:
+1. Aspose.Cells pro .NET - Stáhněte si jej [zde](https://releases.aspose.com/cells/net/).
+2. Vývojové prostředí .NET – například Visual Studio.
+3. Základní znalost programování v C# – Znalost syntaxe C# vám pomůže s nácvikem.
+## Importovat balíčky
+Pro začátek importujme potřebné balíčky. Mezi tyto importy patří:
+- Aspose.Cells: Hlavní knihovna pro manipulaci s Excelovými soubory.
+- System.Threading: Pro správu vláken, protože v tomto příkladu budou spuštěny dva paralelní procesy.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -32,24 +34,24 @@ using System.Text;
 using System.Threading;
 using System.IO;
 ```
-Rozdělme si proces do podrobných kroků. Každý krok vám pomůže pochopit důležitost nastavení a používání Monitoru přerušení pro správu převodu sešitu aplikace Excel.
+Rozeberme si proces do podrobných kroků. Každý krok vám pomůže pochopit důležitost nastavení a používání monitoru přerušení pro správu převodu sešitů aplikace Excel.
 ## Krok 1: Vytvořte třídu a nastavte výstupní adresář
-Nejprve potřebujeme třídu, která zapouzdří naše funkce, spolu s adresářem, kam bude uložen výstupní soubor.
+Nejprve potřebujeme třídu pro zapouzdření našich funkcí a také adresář, kam bude uložen výstupní soubor.
 ```csharp
 class StopConversionOrLoadingUsingInterruptMonitor
 {
     static string outputDir = "Your Document Directory";
 }
 ```
- Nahradit`"Your Document Directory"` se skutečnou cestou, kam chcete soubor PDF uložit.
-## Krok 2: Spusťte funkci Monitor přerušení
-Dále vytvořte objekt InterruptMonitor. Tento monitor pomůže řídit proces tím, že nastaví schopnost jej přerušit v jakémkoli daném bodě.
+Nahradit `"Your Document Directory"` se skutečnou cestou, kam chcete soubor PDF uložit.
+## Krok 2: Vytvoření instance monitoru přerušení
+Dále vytvořte objekt InterruptMonitor. Tento monitor pomůže řídit proces nastavením možnosti jeho přerušení v libovolném daném bodě.
 ```csharp
 InterruptMonitor im = new InterruptMonitor();
 ```
-Tento monitor přerušení bude připojen k našemu sešitu, což nám umožní řídit proces převodu.
-## Krok 3: Nastavte sešit pro převod
-Nyní vytvoříme objekt sešitu, přiřadíme mu InterruptMonitor a poté zpřístupníme první list, kde vložíme nějaký ukázkový text.
+Tento monitor přerušení bude připojen k našemu sešitu, což nám umožní spravovat proces převodu.
+## Krok 3: Nastavení sešitu pro převod
+Nyní si vytvořme objekt sešitu, přiřadíme mu InterruptMonitor a poté otevřeme první list pro vložení ukázkového textu.
 ```csharp
 void CreateWorkbookAndConvertItToPdfFormat()
 {
@@ -60,9 +62,9 @@ void CreateWorkbookAndConvertItToPdfFormat()
     cell.PutValue("This is text.");
 }
 ```
-Výše uvedený kód vytvoří sešit, nastaví pro něj InterruptMonitor a umístí text do vzdálené buňky (`J1000000`). Umístěním textu na tuto pozici buňky zajistíte, že zpracování sešitu bude časově náročnější a poskytne InterruptMonitor dostatek času na zásah.
-## Krok 4: Uložte sešit jako PDF a zpracujte přerušení
- Nyní se pokusíme uložit sešit jako PDF. Použijeme a`try-catch` blokovat, aby zvládl jakékoli přerušení, které by mohlo nastat.
+Výše uvedený kód vytvoří sešit, nastaví pro něj InterruptMonitor a umístí text do vzdálené buňky (`J1000000`). Umístění textu na tuto pozici buňky zajistí, že zpracování sešitu bude časově náročnější, což poskytne InterruptMonitoru dostatek času na zásah.
+## Krok 4: Uložení sešitu jako PDF a zpracování přerušení
+Nyní se pokusme uložit sešit jako PDF. Použijeme `try-catch` blok pro zpracování jakéhokoli přerušení, ke kterému by mohlo dojít.
 ```csharp
 try
 {
@@ -73,9 +75,9 @@ catch (Aspose.Cells.CellsException ex)
     Console.WriteLine("Process Interrupted - Message: " + ex.Message);
 }
 ```
-Pokud je proces přerušen, výjimka jej zachytí a zobrazí příslušnou zprávu. Jinak se sešit uloží jako PDF.
-## Krok 5: Přerušte proces převodu
- Hlavním rysem je zde možnost přerušit proces. Přidáme zpoždění pomocí`Thread.Sleep` a pak zavolejte`Interrupt()` způsob zastavení převodu po 10 sekundách.
+Pokud je proces přerušen, výjimka jej zachytí a zobrazí příslušnou zprávu. V opačném případě se sešit uloží jako PDF.
+## Krok 5: Přerušení procesu převodu
+Hlavní funkcí je možnost přerušení procesu. Zpoždění přidáme pomocí `Thread.Sleep` a pak zavolejte `Interrupt()` metoda pro zastavení konverze po 10 sekundách.
 ```csharp
 void WaitForWhileAndThenInterrupt()
 {
@@ -83,9 +85,9 @@ void WaitForWhileAndThenInterrupt()
     im.Interrupt();
 }
 ```
-Tato prodleva poskytuje sešitu čas na zahájení převodu do PDF před odesláním signálu přerušení.
-## Krok 6: Proveďte vlákna současně
-Abychom vše spojili, musíme obě funkce spustit v samostatných vláknech. Tímto způsobem může dojít k převodu sešitu a čekání na přerušení současně.
+Toto zpoždění dává sešitu čas na zahájení převodu do PDF před odesláním signálu přerušení.
+## Krok 6: Současné spuštění vláken
+Abychom vše spojili, musíme obě funkce spustit v oddělených vláknech. Tímto způsobem může konverze sešitu a čekání na přerušení probíhat současně.
 ```csharp
 public void TestRun()
 {
@@ -99,9 +101,9 @@ public void TestRun()
     t2.Join();
 }
 ```
- Výše uvedený kód běží`CreateWorkbookAndConvertItToPdfFormat` a`WaitForWhileAndThenInterrupt` v paralelních vláknech, které se spojí, jakmile oba procesy skončí.
+Výše uvedený kód běží `CreateWorkbookAndConvertItToPdfFormat` a `WaitForWhileAndThenInterrupt` v paralelních vláknech a jejich spojení po dokončení obou procesů.
 ## Krok 7: Konečné provedení
- Nakonec přidáme a`Run()` způsob spuštění kódu.
+Nakonec přidáme `Run()` metoda pro spuštění kódu.
 ```csharp
 public static void Run()
 {
@@ -109,24 +111,26 @@ public static void Run()
     Console.WriteLine("StopConversionOrLoadingUsingInterruptMonitor executed successfully.");
 }
 ```
- Tento`Run` metoda je vstupním bodem pro zahájení a sledování přerušení v akci.
+Tento `Run` Metoda je vstupním bodem pro spuštění a pozorování přerušení v akci.
 ## Závěr
-V tomto tutoriálu jsme prozkoumali, jak přerušit proces převodu v Aspose.Cells pro .NET. Monitor přerušení je užitečný nástroj při práci s velkými soubory aplikace Excel, který vám umožní zastavit procesy, aniž byste čekali na jejich dokončení. To je užitečné zejména ve scénářích, kde je čas a zdroje cenné a je potřeba rychlá zpětná vazba.
-## FAQ
-### Co je to Monitor přerušení v Aspose.Cells pro .NET?  
-Sledování přerušení umožňuje zastavit převod sešitu nebo proces načítání v jeho průběhu.
+tomto tutoriálu jsme se podívali na to, jak přerušit proces převodu v Aspose.Cells pro .NET. Monitor přerušení je užitečný nástroj při práci s velkými soubory aplikace Excel, který umožňuje zastavit procesy bez čekání na jejich dokončení. To je obzvláště užitečné v situacích, kdy je čas a zdroje vzácné a je potřeba rychlá zpětná vazba.
+## Často kladené otázky
+### Co je monitor přerušení v Aspose.Cells pro .NET?  
+Monitor přerušení umožňuje zastavit převod sešitu nebo proces načítání v jeho průběhu.
 ### Mohu použít Monitor přerušení pro jiné formáty než PDF?  
 Ano, můžete přerušit i převody do jiných podporovaných formátů.
 ### Jak Thread.Sleep() ovlivňuje načasování přerušení?  
-Thread.Sleep() vytváří zpoždění před spuštěním přerušení a poskytuje čas na zahájení převodu.
-### Mohu proces přerušit před 10 sekundami?  
- Ano, upravit zpoždění v`WaitForWhileAndThenInterrupt()` na kratší dobu.
+Thread.Sleep() vytvoří zpoždění před spuštěním přerušení, což dává čas na zahájení konverze.
+### Mohu proces přerušit před uplynutím 10 sekund?  
+Ano, upravit zpoždění v `WaitForWhileAndThenInterrupt()` na kratší dobu.
 ### Ovlivní proces přerušení výkon?  
-Dopad je minimální a je velmi přínosný pro řízení dlouhotrvajících procesů.
- Další informace naleznete v části[Aspose.Cells pro .NET dokumentaci](https://reference.aspose.com/cells/net/) . Pokud potřebujete pomoc, podívejte se na[Fórum podpory](https://forum.aspose.com/c/cells/9)nebo získat a[Bezplatná zkušební verze](https://releases.aspose.com/).
+Dopad je minimální a je to velmi prospěšné pro správu dlouhodobých procesů.
+Více informací naleznete v [Dokumentace k Aspose.Cells pro .NET](https://reference.aspose.com/cells/net/)Pokud potřebujete pomoc, podívejte se na [Fórum podpory](https://forum.aspose.com/c/cells/9) nebo si pořiďte [Bezplatná zkušební verze](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

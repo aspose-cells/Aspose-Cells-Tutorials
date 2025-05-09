@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2 : Assurez-vous que le chemin d'accès au fichier est correct et que le sché
 A3 : Une licence temporaire ou achetée est essentielle pour supprimer les limitations d’évaluation dans les paramètres de production.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

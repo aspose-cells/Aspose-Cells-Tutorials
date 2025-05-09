@@ -7,33 +7,35 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menambahkan Header Gambar di Excel Menggunakan Aspose.Cells untuk Java (Header & Footer)
 
-## Perkenalan
+## Bevezetés
 
 Menggabungkan elemen branding seperti logo atau gambar ke dalam lembar kerja Excel dapat meningkatkan profesionalisme mereka. Tutorial ini akan memandu Anda menambahkan header gambar menggunakan **Aspose.Cells untuk Java** secara efisien. Pada akhirnya, Anda akan mengetahui cara membuat buku kerja, mengonfigurasi pengaturan halaman, menyisipkan gambar ke dalam tajuk, dan menyimpan dokumen Anda.
 
 Kami akan membahas:
 - Menyiapkan Aspose.Cells untuk Java dengan Maven atau Gradle
-- Membuat buku kerja Excel baru
+- Új Excel-munkafüzet létrehozása
 - Mengonfigurasi pengaturan halaman untuk header yang disesuaikan
 - Memasukkan gambar hanya ke header halaman pertama
 - Menyimpan dan mengelola sumber daya
 
-## Prasyarat
+## Előfeltételek
 
-Pastikan Anda memiliki:
+Győződjön meg róla, hogy rendelkezik:
 - **Kit Pengembangan Java (JDK)**: Java 8 atau lebih baru
-- **Maven atau Gradle**: Untuk manajemen ketergantungan
+- **Maven atau Gradle**:Untuk manajemen ketergantungan
 - **Aspose.Cells untuk Pustaka Java**: Versi 25.3 atau lebih baru
 
 Jika baru mengenal Maven atau Gradle, pertimbangkan langkah-langkah berikut untuk pengaturan lingkungan:
 
-### Pengaturan Lingkungan
+### Környezet beállítása
 1. Instal JDK dari [Situs resmi Oracle](https://www.oracle.com/java/technologies/javase-downloads.html).
 2. Pilih antara Maven atau Gradle.
 3. Siapkan IDE seperti IntelliJ IDEA atau Eclipse.
@@ -56,16 +58,16 @@ Sertakan ini di dalam `build.gradle`:
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Unduh dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**:Dapatkan melalui [halaman pembelian](https://purchase.aspose.com/temporary-license/) untuk evaluasi lebih lanjut.
-- **Pembelian**:Untuk penggunaan komersial, dapatkan melalui mereka [portal pembelian](https://purchase.aspose.com/buy).
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**Letöltés innen: [Aspose weboldala](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**:Dapatkan melalui [vásárlási oldal](https://purchase.aspose.com/temporary-license/) hosszabb értékeléshez.
+- **Vásárlás**:Untuk penggunaan komersial, dapatkan melalui mereka [portal pembelian](https://purchase.aspose.com/buy).
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat Buku Kerja dan Menambahkan Nilai Sampel
 Mulailah dengan membuat buku kerja dan mengisinya:
-1. **Inisialisasi Buku Kerja**:
+1. **A munkafüzet inicializálása**:
    ```java
    import com.aspose.cells.Workbook;
    import com.aspose.cells.Worksheet;
@@ -123,13 +125,13 @@ workbook.save(outDir + "IGInFirstPageHeaderOnly_out.xlsx");
 ```
 Langkah ini menulis buku kerja yang dikonfigurasi ke direktori yang ditentukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Pelaporan Keuangan**: Masukkan logo perusahaan dalam laporan.
+- **Pénzügyi jelentéstétel**: Masukkan logo perusahaan dalam laporan.
 - **Materi Pemasaran**: Membuat spreadsheet bermerek untuk katalog.
-- **Konten Edukasi**: Tambahkan logo institusi dalam materi kursus.
+- **Oktatási tartalom**: Tambahkan logo institusi dalam materi kursus.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk kumpulan data besar, optimalkan kinerja dengan:
 - Memproses data dalam potongan-potongan untuk meminimalkan penggunaan memori.
 - Menggunakan struktur data yang efisien.
@@ -137,12 +139,12 @@ Untuk kumpulan data besar, optimalkan kinerja dengan:
 
 Lihat dokumentasi Aspose.Cells di [optimasi memori](https://reference.aspose.com/cells/java/) untuk teknik khusus Java.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara menambahkan header gambar di Excel menggunakan Aspose.Cells untuk Java, yang akan meningkatkan tampilan profesional spreadsheet Anda. Jelajahi lebih banyak fitur seperti validasi data atau pembuatan bagan berikutnya.
 
-Untuk bacaan lebih lanjut dan dukungan, kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
+Untuk bacaan lebih lanjut dan dukungan, kunjungi [Az Aspose dokumentációja](https://reference.aspose.com/cells/java/).
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bisakah saya menggunakan format gambar lain?**
    - Ya, format seperti JPEG, PNG, BMP didukung.
 2. **Bagaimana cara menerapkan header ke semua halaman?**
@@ -154,15 +156,18 @@ Untuk bacaan lebih lanjut dan dukungan, kunjungi [Dokumentasi Aspose](https://re
 5. **Contoh fitur Aspose.Cells lainnya?**
    - Memeriksa [Contoh resmi Aspose](https://reference.aspose.com/cells/java/).
 
-## Sumber daya
-- Dokumentasi: [Aspose.Cells untuk Dokumen Java](https://reference.aspose.com/cells/java/)
-- Unduh: [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- Beli Lisensi: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- Uji Coba Gratis: [Unduhan Gratis](https://releases.aspose.com/cells/java/)
-- Lisensi Sementara: [Akuisisi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- Forum Dukungan: [Komunitas Sel Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- Dokumentáció: [Aspose.Cells untuk Dokumen Java](https://reference.aspose.com/cells/java/)
+- Letöltés: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- Licenc vásárlása: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- Ingyenes próbaverzió: [Unduhan Gratis](https://releases.aspose.com/cells/java/)
+- Ideiglenes engedély: [Akuisisi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- Támogatási fórum: [Komunitas Sel Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

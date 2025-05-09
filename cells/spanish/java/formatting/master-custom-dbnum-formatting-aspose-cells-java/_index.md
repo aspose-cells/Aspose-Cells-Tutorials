@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Ya domina la implementación de formato decimal personalizado en Java con Aspose
 ¡Embárquese hoy mismo en su viaje con Aspose.Cells y mejore la forma en que maneja los datos de Excel en Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

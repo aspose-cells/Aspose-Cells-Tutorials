@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ cellArea.EndRow = 13;
 cellArea.EndColumn = 1; // 根據您的數據範圍調整這些指數。
 ```
 
-#### 第 2 步：執行排序操作
+#### 步驟 2：執行排序操作
 ```java
 sorter.sort(workbook.getWorksheets().get(0).getCells(), cellArea);
 ```
@@ -193,6 +195,9 @@ workbook.save(outDir + "DataSorting_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

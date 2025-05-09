@@ -1,17 +1,19 @@
 ---
-title: Mật khẩu bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ
-linktitle: Mật khẩu bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Bảo mật các tệp Excel được chia sẻ của bạn bằng Aspose.Cells cho .NET với hướng dẫn dễ dàng của chúng tôi về kỹ thuật bảo vệ bằng mật khẩu và bỏ bảo vệ.
-weight: 120
-url: /vi/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
+"description": "Bảo mật các tệp Excel được chia sẻ của bạn bằng Aspose.Cells cho .NET với hướng dẫn dễ dàng của chúng tôi về kỹ thuật bảo vệ bằng mật khẩu và bỏ bảo vệ."
+"linktitle": "Bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ bằng mật khẩu"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ bằng mật khẩu"
+"url": "/vi/net/excel-workbook/password-protect-or-unprotect-shared-workbook/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mật khẩu bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ
+# Bảo vệ hoặc bỏ bảo vệ sổ làm việc được chia sẻ bằng mật khẩu
 
 ## Giới thiệu
 
@@ -22,7 +24,7 @@ Trong không gian làm việc kỹ thuật số ngày nay, việc chia sẻ tài
 Trước khi tìm hiểu mã, hãy đảm bảo bạn đã chuẩn bị những thông tin sau:
 
 - Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia lập trình, nhưng bạn nên nắm rõ cú pháp và khái niệm của C#.
--  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện trong dự án của mình. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện trong dự án của mình. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 - .NET SDK: Đảm bảo bạn đã cài đặt .NET SDK để chạy ứng dụng.
 - Visual Studio hoặc bất kỳ IDE nào: Thiết lập môi trường lập trình ưa thích của bạn để viết và thực thi mã.
 
@@ -59,7 +61,7 @@ Tiếp theo, chúng ta sẽ tạo một phiên bản của sổ làm việc Exce
 Workbook wb = new Workbook();
 ```
 
- Dòng này khởi tạo một đối tượng sổ làm việc mới có tên`wb`. Bây giờ chúng ta đã sẵn sàng để làm việc trên bức tranh mới này.
+Dòng này khởi tạo một đối tượng sổ làm việc mới có tên `wb`. Bây giờ chúng ta đã sẵn sàng để làm việc trên bức tranh mới này.
 
 ## Bước 3: Bảo vệ Workbook được chia sẻ bằng mật khẩu
 
@@ -117,16 +119,18 @@ Hoàn toàn được! Bạn có thể sử dụng bất kỳ chuỗi ký tự n�
 Thật không may, nếu bạn quên mật khẩu, bạn sẽ không thể bỏ bảo vệ sổ làm việc mà không cần nhờ đến các công cụ hoặc chuyên gia của bên thứ ba.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí trong thời gian có hạn thông qua bản dùng thử miễn phí của họ:[Dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí trong thời gian có hạn thông qua bản dùng thử miễn phí của họ: [Dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Có cách nào để sử dụng điều này trong các ngôn ngữ lập trình khác không?
 Aspose.Cells chủ yếu hỗ trợ .NET, nhưng họ cũng có thư viện cho Java và các ngôn ngữ khác. Hãy kiểm tra trang web của họ để biết thêm thông tin!
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể liên hệ để được trợ giúp thông qua diễn đàn hỗ trợ của họ:[Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể liên hệ để được trợ giúp thông qua diễn đàn hỗ trợ của họ: [Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

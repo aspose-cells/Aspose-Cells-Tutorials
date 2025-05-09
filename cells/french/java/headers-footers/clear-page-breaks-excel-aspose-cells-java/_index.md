@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Tout au long de ce guide, nous avons exploré comment supprimer les sauts de pag
 - Explorez les fonctionnalités supplémentaires d'Aspose.Cells pour Java pour améliorer davantage vos capacités de gestion de documents Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

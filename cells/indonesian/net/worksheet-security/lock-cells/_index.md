@@ -1,145 +1,149 @@
 ---
-title: Mengunci Sel di Lembar Kerja menggunakan Aspose.Cells
-linktitle: Mengunci Sel di Lembar Kerja menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengunci sel di Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Lindungi data Anda dengan contoh kode terperinci dan petunjuk mudah.
-weight: 25
-url: /id/net/worksheet-security/lock-cells/
+"description": "Tanuld meg, hogyan zárolhatsz cellákat az Excelben az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Védd adataidat részletes kódpéldákkal és egyszerű utasításokkal."
+"linktitle": "Cellák zárolása a munkalapban az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Cellák zárolása a munkalapban az Aspose.Cells használatával"
+"url": "/id/net/worksheet-security/lock-cells/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengunci Sel di Lembar Kerja menggunakan Aspose.Cells
+# Cellák zárolása a munkalapban az Aspose.Cells használatával
 
-## Perkenalan
-Mengunci sel dalam lembar kerja Excel merupakan fitur penting, terutama saat Anda berbagi dokumen dengan orang lain. Dengan mengunci sel, Anda dapat mengontrol bagian mana dari lembar kerja yang tetap dapat diedit, menjaga integritas data, dan mencegah perubahan yang tidak diinginkan. Dalam panduan ini, kami akan membahas secara mendalam cara mengunci sel tertentu dalam lembar kerja menggunakan Aspose.Cells untuk .NET. Aspose.Cells merupakan pustaka canggih yang memungkinkan Anda memanipulasi file Excel secara terprogram dengan mudah, dan mengunci sel merupakan salah satu dari banyak fitur yang ditawarkannya.
+## Bevezetés
+Az Excel-munkalapok celláinak zárolása kritikus fontosságú funkció, különösen akkor, ha dokumentumokat oszt meg másokkal. A cellák zárolásával szabályozhatja, hogy a munkalap mely részei maradjanak szerkeszthetők, megőrizve az adatok integritását és megakadályozva a nem kívánt változtatásokat. Ebben az útmutatóban részletesen bemutatjuk, hogyan zárolhat bizonyos cellákat egy munkalapban az Aspose.Cells for .NET segítségével. Az Aspose.Cells egy hatékony függvénytár, amely lehetővé teszi az Excel-fájlok programozott kezelését, és a cellák zárolása a számos funkció egyike, amelyet kínál.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai tutorial, mari kita bahas hal-hal penting yang perlu Anda ikuti.
+Mielőtt belevágnánk az oktatóanyagba, nézzük át a legfontosabb tudnivalókat, amelyeket követned kell.
 
-1.  Aspose.Cells untuk .NET: Pertama, pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/) atau menginstalnya melalui NuGet di Visual Studio dengan menjalankan:
+1. Aspose.Cells .NET-hez: Először is győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ezt megteheti [töltsd le itt](https://releases.aspose.com/cells/net/) vagy telepítse a NuGet segítségével a Visual Studio-ban a következő futtatásával:
 
 ```bash
 Install-Package Aspose.Cells
 ```
 
-2. Lingkungan Pengembangan: Tutorial ini mengasumsikan Anda menggunakan lingkungan pengembangan .NET (seperti Visual Studio). Pastikan lingkungan tersebut telah diatur dan siap untuk menjalankan kode C#.
+2. Fejlesztői környezet: Ez az oktatóanyag feltételezi, hogy .NET fejlesztői környezetet (például Visual Studio) használsz. Győződj meg róla, hogy be van állítva és készen áll a C# kód futtatására.
 
-3.  Pengaturan Lisensi (Opsional): Meskipun Aspose.Cells dapat digunakan dengan uji coba gratis, Anda memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/) jika Anda ingin menguji set fitur yang lengkap.
+3. Licenc beállítása (opcionális): Bár az Aspose.Cells használható ingyenes próbaverzióval, a teljes funkcionalitás eléréséhez licencre van szükség. Szerezhet egy [ideiglenes jogosítvány itt](https://purchase.aspose.com/temporary-license/) ha a teljes funkciókészletet tesztelni szeretnéd.
 
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk memulai dengan Aspose.Cells, Anda perlu mengimpor namespace yang diperlukan. Namespace ini menyediakan akses ke kelas dan metode yang akan Anda gunakan untuk memanipulasi file Excel.
+Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket. Ezek a névterek hozzáférést biztosítanak azokhoz az osztályokhoz és metódusokhoz, amelyeket az Excel-fájlok kezeléséhez fog használni.
 
-Tambahkan baris berikut di bagian atas file C# Anda:
+Add hozzá a következő sort a C# fájlod elejéhez:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Mari kita uraikan proses penguncian sel menjadi beberapa langkah yang jelas dan mudah dikelola.
+Bontsuk le a cellák zárolásának folyamatát világos, kezelhető lépésekre.
 
-## Langkah 1: Siapkan Buku Kerja Anda dan Muat File Excel
+## 1. lépés: Munkafüzet beállítása és Excel-fájl betöltése
 
-Pertama, mari kita muat berkas Excel tempat kita ingin mengunci sel tertentu. Ini bisa berupa berkas yang sudah ada atau berkas baru yang Anda buat untuk tujuan pengujian.
+Először töltsük be azt az Excel fájlt, amelyben bizonyos cellákat zárolni szeretnénk. Ez lehet egy meglévő fájl, vagy egy új, tesztelési célokra létrehozott fájl.
 
 ```csharp
-// Tentukan jalur ke file Excel Anda
+// Adja meg az Excel-fájl elérési útját
 string dataDir = "Your Document Directory";
 
-// Memuat buku kerja
+// A munkafüzet betöltése
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
-Inilah yang terjadi:
-- Kami menentukan direktori tempat file Excel Anda berada.
--  Itu`Workbook`objek mewakili seluruh file Excel, dan dengan memuat`Book1.xlsx`, kita membawanya ke dalam ingatan.
+Íme, mi történik:
+- Megadjuk azt a könyvtárat, ahol az Excel fájl található.
+- A `Workbook` az objektum a teljes Excel fájlt jelöli, és a betöltéssel `Book1.xlsx`, emlékezetünkbe vesszük.
 
-## Langkah 2: Akses Lembar Kerja yang Diinginkan
+## 2. lépés: Nyissa meg a kívánt munkalapot
 
-Sekarang buku kerja sudah dimuat, mari akses lembar kerja spesifik tempat Anda ingin mengunci sel.
+Most, hogy a munkafüzet betöltődött, nyissuk meg azt a munkalapot, amelyiken zárolni szeretné a cellákat.
 
 ```csharp
-// Akses lembar kerja pertama dalam file Excel
+// Az Excel-fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Baris ini memungkinkan Anda berinteraksi dengan lembar kerja pertama di buku kerja Anda. Jika Anda ingin menargetkan lembar kerja yang berbeda, cukup sesuaikan indeks atau tentukan nama lembar tersebut.
+Ez a sor lehetővé teszi a munkafüzet első munkalapjával való interakciót. Ha egy másik munkalapot szeretne használni, egyszerűen állítsa be az indexet, vagy adja meg a munkalap nevét.
 
-## Langkah 3: Kunci Sel Tertentu
+## 3. lépés: Meghatározott cellák zárolása
 
-Pada langkah ini, kita akan mengunci sel tertentu, mencegah siapa pun mengeditnya. Berikut cara melakukannya untuk sel “A1” sebagai contoh.
+Ebben a lépésben zárolunk egy adott cellát, megakadályozva, hogy bárki szerkeszthesse. Példaként bemutatjuk, hogyan teheted ezt meg az „A1” cellával.
 
 ```csharp
-// Akses sel A1 dan kunci
+// Nyissa meg az A1 cellát, és zárja be
 Style style = worksheet.Cells["A1"].GetStyle();
 style.IsLocked = true;
 worksheet.Cells["A1"].SetStyle(style);
 ```
 
-Potongan kode ini:
-- Mengakses sel di “A1”.
-- Mengambil gaya sel saat ini.
--  Mengatur`IsLocked` properti untuk`true`, yang mengunci sel.
-- Menerapkan kembali gaya yang diperbarui ke sel.
+Ez a kódrészlet:
+- Hozzáférés az „A1” cellához.
+- Lekéri a cella aktuális stílusát.
+- Beállítja a `IsLocked` ingatlan `true`, ami zárolja a cellát.
+- A frissített stílust visszahelyezi a cellára.
 
-## Langkah 4: Lindungi Lembar Kerja
+## 4. lépés: Védje a munkalapot
 
-Mengunci sel saja tidak cukup; kita juga perlu melindungi lembar kerja untuk memberlakukan kunci tersebut. Tanpa perlindungan, sel yang terkunci masih dapat diedit.
+A cellák zárolása önmagában nem elég; a zárolás érvényesítéséhez a munkalapot is védeni kell. Védelem nélkül a zárolt cellák továbbra is szerkeszthetők.
 
 ```csharp
-// Lindungi lembar kerja untuk mengaktifkan penguncian sel
+// Munkalap védelme a cellazárolás engedélyezéséhez
 worksheet.Protect(ProtectionType.All);
 ```
 
-Inilah yang dilakukannya:
--  Itu`Protect` metode dipanggil pada`worksheet` objek, menerapkan perlindungan ke seluruh lembar.
--  Kami menggunakan`ProtectionType.All` untuk mencakup semua jenis perlindungan, memastikan sel kita yang terkunci tetap aman.
+Íme, mit csinál ez:
+- A `Protect` metódust hívjuk meg a `worksheet` objektum, védelmet alkalmazva a teljes lapra.
+- Használjuk `ProtectionType.All` mindenféle védelem lefedésére, biztosítva a zárt celláink biztonságát.
 
-## Langkah 5: Simpan Buku Kerja
+## 5. lépés: A munkafüzet mentése
 
-Setelah menerapkan kunci sel dan proteksi lembar kerja, saatnya menyimpan perubahan Anda. Anda dapat menyimpannya sebagai file baru atau menimpa file yang sudah ada.
+A cellazárolások és a munkalapvédelem alkalmazása után itt az ideje menteni a módosításokat. Mentheti új fájlként, vagy felülírhatja a meglévőt.
 
 ```csharp
-// Simpan buku kerja dengan sel terkunci
+// A munkafüzet mentése zárolt cellákkal
 workbook.Save(dataDir + "output.xlsx");
 ```
 
-Kode ini:
--  Menyimpan buku kerja, dengan sel terkunci, ke file baru bernama`output.xlsx` di direktori yang ditentukan.
-- Jika Anda ingin menimpa berkas asli, Anda dapat menggunakan nama berkas asli sebagai gantinya.
+Ez a kód:
+- A zárolt cellákkal ellátott munkafüzetet egy új, a következő nevű fájlba menti. `output.xlsx` a megadott könyvtárban.
+- Ha felül szeretné írni az eredeti fájlt, akkor az eredeti fájlnevet használhatja.
 
 
-## Kesimpulan
+## Következtetés
 
-Selesai! Anda telah berhasil mengunci sel tertentu dalam lembar kerja menggunakan Aspose.Cells untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat melindungi data penting dalam file Excel Anda, memastikan hanya sel yang Anda pilih yang dapat diedit. Aspose.Cells memudahkan penambahan fungsi ini dengan kode minimal, membuat dokumen Anda lebih aman dan profesional.
+És ennyi! Sikeresen zároltál bizonyos cellákat egy munkalapon az Aspose.Cells for .NET segítségével. A következő lépéseket követve megvédheted a fontos adatokat az Excel-fájljaidban, biztosítva, hogy csak a kiválasztott cellák szerkeszthetők legyenek. Az Aspose.Cells segítségével minimális kóddal könnyedén hozzáadhatod ezt a funkciót, így a dokumentumaid biztonságosabbak és professzionálisabbak lesznek.
 
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah saya mengunci beberapa sel sekaligus?
-Ya, Anda dapat melakukan pengulangan melalui serangkaian sel dan menerapkan gaya yang sama ke setiap sel untuk mengunci beberapa sel sekaligus.
+### Lezárhatok egyszerre több cellát?
+Igen, végiglépkedhet egy cellatartományon, és ugyanazt a stílust alkalmazhatja minden cellára, hogy egyszerre több cellát zároljon.
 
-### Apakah saya perlu melindungi seluruh lembar kerja untuk mengunci sel?
-Ya, penguncian sel memerlukan perlindungan lembar kerja agar berlaku. Tanpa perlindungan tersebut, properti terkunci diabaikan.
+### Védeni kell a teljes munkalapot a cellák zárolásához?
+Igen, a cellák zárolásához munkalapvédelem szükséges. Enélkül a zárolt tulajdonság figyelmen kívül marad.
 
-### Dapatkah saya menggunakan Aspose.Cells dengan uji coba gratis?
- Tentu saja! Anda dapat mencobanya dengan uji coba gratis. Untuk pengujian lebih lanjut, pertimbangkan[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+### Használhatom az Aspose.Cells-t ingyenes próbaverzióval?
+Természetesen! Ingyenes próbaverzióval kipróbálhatod. Hosszabb teszteléshez érdemes megfontolni egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
-### Bagaimana cara membuka kunci sel setelah menguncinya?
- Anda dapat mengatur`IsLocked` ke`false` pada gaya sel untuk membukanya, lalu hapus proteksi dari lembar kerja.
+### Hogyan oldhatom fel a cellák zárolását a zárolás után?
+Beállíthatja `IsLocked` hogy `false` cella stílusán a zárolás feloldásához, majd távolítsa el a védelmet a munkalapról.
 
-### Apakah mungkin untuk melindungi lembar kerja dengan kata sandi?
-Ya, Aspose.Cells memungkinkan Anda menambahkan kata sandi saat Anda melindungi lembar kerja, sehingga menambah lapisan keamanan ekstra.
+### Lehetséges jelszóval védeni a munkalapot?
+Igen, az Aspose.Cells lehetővé teszi jelszó hozzáadását a munkalap védelmekor, ami egy extra biztonsági réteget biztosít.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ import com.aspose.cells.Name;
 
 // Zdefiniuj nazwę i wartość formuły w ustawieniach regionalnych języka niemieckiego
 String name = "HasFormula";
-String value = ".=GET.CELL(48, INDIRECT(""ZS",FALSE))"; // Uwaga: Do formuły należy dodać prefiks „=”
+String value = ".=GET.CELL(48, INDIRECT(""ZS",FALSE))"; // Uwaga: Do formuły dodaj prefiks „=”
 
 // Dodaj nową nazwę do zbioru nazw
 int nameIndex = wsCol.getNames().add(name);
@@ -163,6 +165,9 @@ Aby rozwinąć swoje umiejętności, zapoznaj się z bardziej zaawansowanymi fun
 - **Wsparcie**:Dołącz do społeczności i uzyskaj wsparcie pod adresem [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

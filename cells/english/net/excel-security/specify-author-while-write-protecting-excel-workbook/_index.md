@@ -8,7 +8,9 @@ url: /net/excel-security/specify-author-while-write-protecting-excel-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Author While Write Protecting Excel Workbook
@@ -121,6 +123,7 @@ For questions and troubleshooting, the Aspose community is very helpful. You can
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

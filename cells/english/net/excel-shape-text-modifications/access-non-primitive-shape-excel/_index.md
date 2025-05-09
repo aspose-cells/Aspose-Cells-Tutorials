@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/access-non-primitive-shape-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Non-Primitive Shape in Excel
@@ -130,6 +132,7 @@ You can get help and support from the Aspose community forum [here](https://foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

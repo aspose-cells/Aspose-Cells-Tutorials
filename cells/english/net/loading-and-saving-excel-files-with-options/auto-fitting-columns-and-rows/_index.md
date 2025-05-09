@@ -8,7 +8,9 @@ url: /net/loading-and-saving-excel-files-with-options/auto-fitting-columns-and-r
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto-Fit Columns and Rows while Loading HTML in Workbook
@@ -90,6 +92,7 @@ Yes, Aspose.Cells supports loading various formats like CSV, JSON, and XML into 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

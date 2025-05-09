@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ Với các bước này, bạn đã sẵn sàng khám phá các chức năng c�
 ### Khởi tạo sổ làm việc
 
 **Tổng quan:**
-Việc tạo một tệp Excel mới liên quan đến việc khởi tạo một `Workbook` đối tượng. Đây là điểm khởi đầu cho các hoạt động tiếp theo như thêm trang tính và dữ liệu.
+Việc tạo một tệp Excel mới liên quan đến việc tạo một `Workbook` đối tượng. Đây là điểm khởi đầu cho các hoạt động tiếp theo như thêm trang tính và dữ liệu.
 
 **Các bước thực hiện:**
 1. **Nhập các lớp bắt buộc:**
@@ -208,6 +210,9 @@ A5: Xác minh các tham chiếu ô và định dạng URL. Kiểm tra [Diễn đ
 - **Mua giấy phép:** [Mua Aspose.Cells cho Java](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

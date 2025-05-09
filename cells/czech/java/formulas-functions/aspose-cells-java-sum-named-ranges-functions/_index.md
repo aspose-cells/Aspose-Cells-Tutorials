@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Tento tutoriál ukázal, jak používat pojmenované oblasti s funkcemi SUM v As
 Tento tutoriál vám nabízí komplexní pochopení implementace pojmenovaných rozsahů a funkcí sum pomocí Aspose.Cells pro Javu. Vyzkoušejte si ho a plně využijte potenciál automatizace Excelu ve svých aplikacích!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

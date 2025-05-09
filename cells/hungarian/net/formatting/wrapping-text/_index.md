@@ -1,49 +1,54 @@
 ---
-title: Öntözze a szöveget az Excel-sejtekben Az Aspose.Cells használatával a .NET-hez
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan lehet bepakolni a szöveget az Excel-sejtekben az .NET-hez használt Aspose.Cells segítségével. Ez a útmutató tartalmazza a munkafüzet létrehozását, a munkalap hozzáadását és a szövegbepakolást.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /hu/net/formatting/wrapping-text/
----  
+"description": "Ismerje meg, hogyan lehet szöveget tördelni az Excel cellákban az Aspose.Cells for .NET használatával. Ez az útmutató a munkafüzet létrehozását, a munkalap hozzáadását és a szövegkörnyezet alkalmazását ismerteti."
+"title": "Szöveg tördelése Excel cellákban az Aspose.Cells for .NET használatával"
+"url": "/hu/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# Szöveg tördelése Excel cellákban az Aspose.Cells használatával 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+A szöveg tördelése az Excel cellákban biztosítja, hogy a hosszú szöveges bejegyzések teljes mértékben láthatóak legyenek az oszlopszélesség növelése nélkül. Az Aspose.Cells for .NET segítségével programozottan alkalmazhat szövegtördelést egy Excel munkalap bármely cellájára. Ez az oktatóanyag végigvezeti Önt egy új Excel munkafüzet létrehozásán, egy munkalap hozzáadásán, szöveg cellába való beszúrásán és a szövegtördelés engedélyezésén. A következő lépéseket követve hatékonyan formázhatja az Excel dokumentumokat a C# alkalmazásokban.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
-A .NET-ben az Aspose.Cells használatához kövesse az alábbi lépéseket:  
+## Telepítési utasítások:  
+Az Aspose.Cells .NET-hez való használatához kövesse az alábbi lépéseket:  
 
-1. A NuGet segítségével telepítse:  
-   * Nyissa ki a Visual Studio-t.  
-   * Navigáljon a Szerszámok → NuGet csomagkezelő → A megoldáshoz a NuGet csomagok kezelésére.  
-   * Keresd a Aspose.Cells és kattintson Install.  
+1. Telepítés NuGet-en keresztül:  
+   - Nyisd meg a Visual Studio-t.  
+   - Lépjen az Eszközök → NuGet csomagkezelő → Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.Cells fájlt, és kattints a Telepítés gombra.  
 
-2. A csomagkezelő konzolon keresztül telepítse:  
-   * Nyissa ki az eszközöket → NuGet csomagkezelő → csomagkezelő konzol.  
-   * Csináld ki a parancsot:  
+2. Telepítés a Package Manager Console-on keresztül:  
+   - Nyissa meg az Eszközök → NuGet csomagkezelő → Csomagkezelő konzol menüpontot.  
+   - Futtassa a parancsot:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Kézilag Adj hivatkozást:  
-   * Letöltsd az Aspose.Cells .NET DLL-t a [A felszabadulások](https://releases.aspose.com/)\- Nem.  
-   * Adja be a letöltött Aspose.Cells.dll-t a projektre vonatkozó hivatkozásokhoz.  
-## Lásd:  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+3. Referencia manuális hozzáadása:  
+   - Töltse le az Aspose.Cells for .NET DLL-t innen: [Aspose kiadások](https://releases.aspose.com/).  
+   - Adja hozzá a letöltött Aspose.Cells.dll fájlt a projekt referenciáihoz.  
+## Lásd még  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

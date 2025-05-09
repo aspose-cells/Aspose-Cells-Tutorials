@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 圖表註釋
@@ -16,7 +18,7 @@
 
 ## 使用 Aspose.Cells for Java 進行圖表註解的簡介
 
-在數據視覺化領域，圖表在有效傳達訊息方面發揮著至關重要的作用。它們使我們能夠以視覺上吸引人且易於理解的方式表示複雜的數據。然而，為了使這些圖表更具資訊量，註釋就發揮了作用。註釋為圖表中呈現的數據提供了額外的背景和見解。在本文中，我們將探討如何使用 Aspose.Cells for Java（用於處理 Excel 檔案的強大的 Java API）來新增圖表註解。
+在數據視覺化領域，圖表在有效傳達訊息方面發揮著至關重要的作用。它們使我們能夠以視覺上吸引人且易於理解的方式表示複雜的數據。然而，為了使這些圖表更具資訊量，註釋就發揮了作用。註釋為圖表中呈現的數據提供了額外的背景和見解。在本文中，我們將探討如何使用 Aspose.Cells for Java（用於處理 Excel 檔案的強大 Java API）新增圖表註解。
 
 ## 先決條件
 
@@ -127,6 +129,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

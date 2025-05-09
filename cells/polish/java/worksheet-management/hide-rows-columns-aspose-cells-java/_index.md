@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Nauczyłeś się, jak używać Aspose.Cells z Javą, aby ukryć określone wiers
 Gotowy na ulepszenie zarządzania plikami Excel? Wdróż te rozwiązania w swoich projektach już dziś!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

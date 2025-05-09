@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Bemästra manipulation av Excel-filer med Aspose.Cells i Java
+# Bemästra Excel-filmanipulation med Aspose.Cells i Java
 ## Introduktion
 Att arbeta med Excel-filer programmatiskt kan vara utmanande, särskilt när det gäller uppgifter som att läsa in eller spara dokument och hantera former i kalkylblad. Med det kraftfulla Aspose.Cells-biblioteket i Java blir dessa utmaningar hanterbara och effektiva. Den här handledningen guidar dig genom att använda Aspose.Cells för Java för att läsa in och spara Excel-filer samt manipulera formar i Z-ordning i dina kalkylblad.
 
@@ -119,7 +121,7 @@ För att ändra ordningen, använd `toFrontOrBack` metod:
 ```java
 sh1.toFrontOrBack(2); // Flytta till framsidan genom att öka dess värde
 double initialZPosition4 = sh4.getZOrderPosition();
-sh4.toFrontOrBack(-2); // Flytta bakåt genom att minska dess värde
+sh4.toFrontOrBack(-2); // Flytta längst bak genom att minska dess värde
 ```
 Den här metoden låter dig effektivt kontrollera lagerläggningen.
 ## Praktiska tillämpningar
@@ -161,6 +163,9 @@ Se till att din utdatasökväg är giltig och kontrollera att du har tillräckli
 - **Supportforum:** [Stöd för Aspose-celler](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

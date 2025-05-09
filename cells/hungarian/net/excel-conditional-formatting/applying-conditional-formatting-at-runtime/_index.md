@@ -1,34 +1,36 @@
 ---
-title: Feltételes formázás alkalmazása futásidőben az Excelben
-linktitle: Feltételes formázás alkalmazása futásidőben az Excelben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből az átfogó, lépésenkénti útmutatóból megtudhatja, hogyan alkalmazhat feltételes formázást futás közben az Excelben az Aspose.Cells for .NET segítségével.
-weight: 11
-url: /hu/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/
+"description": "Ismerje meg, hogyan alkalmazhat feltételes formázást futásidőben Excelben az Aspose.Cells for .NET segítségével ebben az átfogó, lépésről lépésre haladó útmutatóban."
+"linktitle": "Feltételes formázás alkalmazása futásidejű Excelben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Feltételes formázás alkalmazása futásidejű Excelben"
+"url": "/hu/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Feltételes formázás alkalmazása futásidőben az Excelben
+# Feltételes formázás alkalmazása futásidejű Excelben
 
 ## Bevezetés
 
-hatékony eszközök az adatok elemzéséhez és megjelenítéséhez. Az Excel egyik kiemelkedő funkciója a feltételes formázás, amely lehetővé teszi a felhasználók számára, hogy az értékek alapján meghatározott formázási stílusokat alkalmazzanak a cellákban. Ez megkönnyítheti a trendek azonosítását, a fontos adatpontok kiemelését, vagy egyszerűen olvashatóbbá teheti az adatokat. Ha programozottan szeretné megvalósítani a feltételes formázást Excel-fájljaiban, akkor jó helyen jár! Ebben az útmutatóban bemutatjuk, hogyan alkalmazhat feltételes formázást futás közben az Aspose.Cells for .NET használatával.
+Ezek hatékony eszközök az adatelemzéshez és -vizualizációhoz. Az Excel egyik kiemelkedő funkciója a feltételes formázás, amely lehetővé teszi a felhasználók számára, hogy az értékeik alapján meghatározott formázási stílusokat alkalmazzanak a cellákra. Ez megkönnyítheti a trendek azonosítását, kiemelheti a fontos adatpontokat, vagy egyszerűen olvashatóbbá teheti az adatokat. Ha programozott módon szeretné megvalósítani a feltételes formázást az Excel-fájljaiban, jó helyen jár! Ebben az útmutatóban bemutatjuk, hogyan alkalmazhat feltételes formázást futásidejűleg az Aspose.Cells for .NET használatával.
 
 ## Előfeltételek
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami a kezdéshez szükséges:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden megvan, amire szükséged van a kezdéshez:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Bármilyen verziót használhat, amely támogatja a .NET fejlesztést.
-2.  Aspose.Cells for .NET: telepíteni kell az Aspose.Cells for .NET programot. Letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kódrészleteket.
-4. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verzióját célozza meg.
+1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén. Bármelyik verziót használhatja, amely támogatja a .NET fejlesztést.
+2. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells .NET-hez készült verzióját. Letöltheti innen: [Aspose weboldal](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódrészleteket.
+4. .NET-keretrendszer: Győződjön meg arról, hogy a projekt a .NET-keretrendszer egy kompatibilis verzióját célozza meg.
 
-Most, hogy megvannak az előfeltételek, ugorjunk a szórakoztató részre!
+Most, hogy az előfeltételekkel tisztában vagyunk, jöhet a mókás rész!
 
 ## Csomagok importálása
-Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket a C#-projektbe. Ezt a következőképpen teheti meg:
+Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket a C# projektjébe. Ezt így teheti meg:
 
 ```csharp
 using System.IO;
@@ -38,41 +40,41 @@ using System.Drawing;
 
 Ezek a névterek hozzáférést biztosítanak az Excel-fájlok kezeléséhez és a feltételes formázás alkalmazásához szükséges osztályokhoz és metódusokhoz.
 
-Most bontsuk fel a feltételes formázás alkalmazásának folyamatát kezelhető lépésekre.
+Most bontsuk le a feltételes formázás alkalmazásának folyamatát kezelhető lépésekre.
 
-## 1. lépés: Állítsa be projektjét
-Először is létre kell hoznia egy új C#-projektet a Visual Studióban. Íme, hogyan:
+## 1. lépés: A projekt beállítása
+Először is létre kell hoznod egy új C# projektet a Visual Studioban. Így csináld:
 
-1. Nyissa meg a Visual Studio-t, és válassza a Fájl > Új > Projekt lehetőséget.
-2. Válassza a Konzolalkalmazást (.NET-keretrendszer), és adjon nevet a projektnek.
+1. Nyissa meg a Visual Studiot, és válassza a Fájl > Új > Projekt lehetőséget.
+2. Válaszd a Konzolalkalmazás (.NET-keretrendszer) lehetőséget, és adj nevet a projektednek.
 3. Kattintson a Létrehozás gombra.
 
-## 2. lépés: Adja hozzá az Aspose.Cells Reference fájlt
-A projekt beállítása után hozzá kell adni egy hivatkozást az Aspose.Cells könyvtárhoz:
+## 2. lépés: Aspose.Cells hivatkozás hozzáadása
+Miután a projekted beállítottad, hozzá kell adnod egy hivatkozást az Aspose.Cells könyvtárhoz:
 
-1. Kattintson a jobb gombbal a projektre a Solution Explorerben.
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
 2. Válassza a NuGet-csomagok kezelése lehetőséget.
-3. Keresse meg az Aspose.Cells elemet, és telepítse.
+3. Keresd meg az Aspose.Cells fájlt és telepítsd.
 
-Ez lehetővé teszi az Aspose.Cells könyvtár által biztosított összes funkció használatát.
+Ez lehetővé teszi az Aspose.Cells könyvtár összes funkciójának használatát.
 
-## 3. lépés: Hozzon létre egy munkafüzet-objektumot
-Ezután hozzunk létre egy új munkafüzetet és egy munkalapot. Itt történik minden varázslat:
+## 3. lépés: Munkafüzet-objektum létrehozása
+Következő lépésként hozzunk létre egy új munkafüzetet és egy munkalapot. Itt történik a varázslat:
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 string filePath = dataDir + "Book1.xlsx";
 
-// Munkafüzet objektum példányosítása
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Ebben a lépésben meghatározzuk azt a könyvtárat, ahová az Excel-fájlunk mentésre kerül, létrehozunk egy új munkafüzetet, és elérjük az első munkalapot.
+Ebben a lépésben meghatározzuk azt a könyvtárat, ahová az Excel-fájlunkat menteni fogjuk, létrehozunk egy új munkafüzetet, és elérjük az első munkalapot.
 
 ## 4. lépés: Feltételes formázás hozzáadása
-Most adjunk hozzá néhány feltételes formázást. Kezdjük egy üres feltételes formázási objektum létrehozásával:
+Most adjunk hozzá némi feltételes formázást. Először hozzunk létre egy üres feltételes formázási objektumot:
 
 ```csharp
 // Üres feltételes formázást ad hozzá
@@ -80,13 +82,13 @@ int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 ```
 
-Itt egy új feltételes formázási gyűjteményt adunk a munkalapunkhoz, amely tartalmazza a formázási szabályainkat.
+Itt egy új feltételes formázási gyűjteményt adunk hozzá a munkalapunkhoz, amely a formázási szabályainkat fogja tartalmazni.
 
-## 5. lépés: Határozza meg a formátumtartományt
-Ezután meg kell adnunk a cellák tartományát, amelyekre a feltételes formázás vonatkozik. Tegyük fel, hogy formázni szeretnénk az első sort és a második oszlopot:
+## 5. lépés: A formátumtartomány meghatározása
+Ezután meg kell adnunk azt a cellatartományt, amelyre a feltételes formázás vonatkozni fog. Tegyük fel, hogy az első sort és a második oszlopot szeretnénk formázni:
 
 ```csharp
-// Beállítja a feltételes formátumtartományt.
+// Beállítja a feltételes formázási tartományt.
 CellArea ca = new CellArea();
 ca.StartRow =0;
 ca.EndRow =0;
@@ -102,10 +104,10 @@ ca.EndColumn =1;
 fcs.AddArea(ca);
 ```
 
-Ebben a kódban két területet határozunk meg a feltételes formázáshoz. Az első terület a (0,0), a második pedig az (1,1) cellához tartozik. Nyugodtan állítsa be ezeket a tartományokat egyedi igényei szerint!
+Ebben a kódban két területet definiálunk a feltételes formázáshoz. Az első terület a (0,0)-nál lévő cellának, a második pedig az (1,1)-nek van. Nyugodtan módosítsd ezeket a tartományokat az igényeid szerint!
 
-## 6. lépés: Adjon hozzá feltételes formázási feltételeket
-Itt az ideje, hogy meghatározzuk a formázás feltételeit. Tegyük fel, hogy értékeik alapján szeretnénk kiemelni a cellákat:
+## 6. lépés: Feltételes formázási feltételek hozzáadása
+Most itt az ideje, hogy meghatározzuk a formázás feltételeit. Tegyük fel, hogy a cellákat az értékeik alapján szeretnénk kiemelni:
 
 ```csharp
 // Feltételt ad hozzá.
@@ -115,10 +117,10 @@ int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorTyp
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 ```
 
- Ebben a lépésben két feltételt adunk hozzá: egyet a közötti értékekhez`A2` és`100` , egy másik pedig a közötti értékekhez`50` és`100`. Ez lehetővé teszi a cellák dinamikus kiemelését azok értékei alapján.
+Ebben a lépésben két feltételt adunk hozzá: egyet a következő értékekhez: `A2` és `100`, és egy másik a közötti értékekre `50` és `100`Ez lehetővé teszi a cellák dinamikus kiemelését az értékeik alapján.
 
-## 7. lépés: Állítsa be a formázási stílusokat
-Feltételeinkkel most már beállíthatjuk a formázási stílusokat. Változtassuk meg a háttérszínt a feltételeinknek megfelelően:
+## 7. lépés: Formázási stílusok beállítása
+Miután a feltételek adottak, beállíthatjuk a formázási stílusokat. Változtassuk meg a feltételek háttérszínét:
 
 ```csharp
 // Beállítja a háttérszínt.
@@ -126,41 +128,43 @@ FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
 ```
 
-Itt az első feltétel háttérszínét pirosra állítjuk. Ezt tovább szabhatja a betűszín, a szegélyek és más stílusok szükség szerinti módosításával!
+Itt az első feltétel háttérszínét pirosra állítjuk. Ezt tovább testreszabhatod a betűszín, a szegélyek és egyéb stílusok szükség szerinti módosításával!
 
-## 8. lépés: Mentse el az Excel fájlt
-Végre itt az ideje megmenteni a munkánkat! A munkafüzetet a megadott könyvtárba mentjük:
+## 8. lépés: Mentse el az Excel-fájlt
+Végre itt az ideje menteni a munkánkat! A munkafüzetet a megadott könyvtárba fogjuk menteni:
 
 ```csharp
 // Az Excel fájl mentése
 workbook.Save(dataDir + "output.xls");
 ```
 
-Ez a kódsor menti az Excel-fájlt az alkalmazott feltételes formázással. Ügyeljen arra, hogy ellenőrizze a kimeneti fájl megadott könyvtárát!
+Ez a kódsor a feltételes formázással menti el az Excel fájlt. Ellenőrizd a kimeneti fájl megadott könyvtárát!
 
 ## Következtetés
-És megvan! Sikeresen alkalmazta a feltételes formázást futás közben az Excelben az Aspose.Cells for .NET használatával. Ez a nagy teljesítményű könyvtár megkönnyíti az Excel-fájlok programozott kezelését, lehetővé téve az unalmas feladatok automatizálását és az adatbemutatók javítását. Akár egy kis projekten, akár egy nagyszabású alkalmazáson dolgozik, az Aspose.Cells segíthet a munkafolyamat egyszerűsítésében és a termelékenység javításában.
+És íme! Sikeresen alkalmaztad a feltételes formázást futásidőben az Excelben az Aspose.Cells for .NET használatával. Ez a hatékony függvénytár megkönnyíti az Excel-fájlok programozott kezelését, lehetővé téve a fárasztó feladatok automatizálását és az adatprezentációk javítását. Akár egy kis projekten, akár egy nagyméretű alkalmazáson dolgozol, az Aspose.Cells segíthet a munkafolyamatok egyszerűsítésében és a termelékenység javításában.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, manipuláljanak és konvertáljanak Excel fájlokat.
 
 ### Használhatom az Aspose.Cells-t más programozási nyelvekkel?
-Igen, az Aspose.Cells több programozási nyelvhez is elérhető, beleértve a Java, Python és sok más nyelvet.
+Igen, az Aspose.Cells több programozási nyelven is elérhető, beleértve a Java-t, a Python-t és egyebeket.
 
-### Létezik ingyenes próbaverzió az Aspose.Cells számára?
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[Aspose honlapja](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Igen, letölthetsz egy ingyenes próbaverziót innen: [Aspose weboldal](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- Támogatást kaphat, ha ellátogat a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
+Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose támogatói fórum](https://forum.aspose.com/c/cells/9).
 
-### Szükségem van engedélyre az Aspose.Cells használatához?
- Igen, kereskedelmi használatra engedély szükséges, de kérhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+### Szükségem van licencre az Aspose.Cells használatához?
+Igen, kereskedelmi célú felhasználáshoz engedély szükséges, de ideiglenes engedélyt is kérhet. [itt](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

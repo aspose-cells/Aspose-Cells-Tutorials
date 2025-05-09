@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Agora, você já deve ter uma sólida compreensão de como personalizar as propr
 Embarque em sua jornada para dominar a personalização do segmentador do Excel com o Aspose.Cells para Java e leve suas apresentações de dados para o próximo nível!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

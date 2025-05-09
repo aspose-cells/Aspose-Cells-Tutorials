@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells를 최대한 활용하려면 라이선스를 취득해야 합니다.
 - **무료 체험:** 무료 평가판을 다운로드하세요 [아스포제](https://releases.aspose.com/cells/java/) 제한 없이 기능을 탐색합니다.
-- **임시 면허:** 평가 제한을 넘어 테스트하려면 Aspose 웹사이트에서 임시 라이선스를 신청하세요.
+- **임시 면허:** 평가 제한을 넘어 테스트하려면 Aspose 웹사이트에서 임시 라이센스를 신청하세요.
 - **라이센스 구매:** 방문하다 [Aspose 구매](https://purchase.aspose.com/buy) 상업용 라이센스에 대해서.
 
 ### 기본 초기화 및 설정
@@ -198,6 +200,9 @@ public class IdentifyRangeCells {
 Aspose.Cells와 함께 여정을 시작하고 Java 애플리케이션을 새로운 차원으로 끌어올리세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

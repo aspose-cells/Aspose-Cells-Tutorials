@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,10 +57,10 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Lisans Edinimi
 
-Java için Aspose.Cells'i kullanmak için, özelliklerini keşfetmek üzere ücretsiz bir denemeyle başlayabilirsiniz. Genişletilmiş kullanım için, geçici veya tam lisans edinmeyi düşünün:
+Aspose.Cells for Java'yı kullanmak için, özelliklerini keşfetmek üzere ücretsiz bir denemeyle başlayabilirsiniz. Genişletilmiş kullanım için, geçici veya tam lisans edinmeyi düşünün:
 
-- **Ücretsiz Deneme**En son sürümü şu adresten indirin: [Aspose Sürümleri](https://releases.aspose.com/cells/java/).
-- **Geçici Lisans**Geçici lisans talebinde bulunun [Aspose Satın Alma](https://purchase.aspose.com/temporary-license/).
+- **Ücretsiz Deneme**: En son sürümü şu adresten indirin: [Aspose Sürümleri](https://releases.aspose.com/cells/java/).
+- **Geçici Lisans**: Geçici lisans talebinde bulunun [Aspose Satın Alma](https://purchase.aspose.com/temporary-license/).
 - **Satın almak**: Ticari kullanım için, doğrudan şu adresten bir lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
 Kütüphane kurulduktan sonra kodlamaya başlamaya hazırsınız.
@@ -181,7 +183,7 @@ workbook.save(outDir + "/AddinganArrowHead_out.xlsx");
 
 Aspose.Cells for Java'nın Excel dosyalarını özelleştirme yeteneği temel görevlerin ötesine uzanır. İşte bazı pratik kullanımlar:
 
-1. **Finansal Raporlama**: Gösterge panellerini yön göstergeleriyle geliştirin.
+1. **Finansal Raporlama**: Gösterge panellerinizi yön göstergeleriyle geliştirin.
 2. **Proje Yönetimi**: Görev akışlarını Gantt şemalarında görselleştirin.
 3. **Veri Analizi**:Açıklamalı grafikler ve diyagramlar oluşturun.
 
@@ -218,6 +220,9 @@ A: Bunlara erişmek için şunları kullanın: `getWorksheets().get(index)` iste
 A: Evet, döngüler içinde nesne oluşturmayı en aza indirerek kodu optimize edin ve sızıntıları önlemek için bellek kullanımını izleyin. Daha iyi performans için Aspose.Cells tarafından sağlanan verimli veri yapılarını kullanın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

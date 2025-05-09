@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ A5: Ano, s odpovídajícím zakoupením licence nebo zkušební verze. Ujistěte
 Tato příručka vám poskytne nástroje a znalosti pro efektivní využití Aspose.Cells pro Javu a rozšíření vašich možností zpracování dokumentů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

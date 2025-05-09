@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sütunları Koru
-linktitle: Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sütunları Koru
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'deki sütunları nasıl koruyacağınızı öğrenin. Excel sayfalarındaki sütunları etkili bir şekilde kilitlemek için bu ayrıntılı öğreticiyi izleyin.
-weight: 13
-url: /tr/net/worksheet-security/protect-columns/
+"description": "Aspose.Cells for .NET kullanarak Excel'deki sütunları nasıl koruyacağınızı öğrenin. Excel sayfalarındaki sütunları etkili bir şekilde kilitlemek için bu ayrıntılı öğreticiyi izleyin."
+"linktitle": "Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sütunları Koru"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sütunları Koru"
+"url": "/tr/net/worksheet-security/protect-columns/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sütunları Koru
@@ -18,9 +20,9 @@ Excel dosyalarıyla programatik olarak çalışırken, çalışma sayfasının b
 ## Ön koşullar
 Sütunları korumaya başlamadan önce, yerinde olması gereken birkaç şey vardır:
 - Visual Studio: Bilgisayarınızda Visual Studio veya herhangi bir .NET uyumlu IDE yüklü olmalıdır.
--  Aspose.Cells for .NET: Projenize Aspose.Cells for .NET kütüphanesini entegre etmeniz gerekir. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Projenize Aspose.Cells for .NET kütüphanesini entegre etmeniz gerekir. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/cells/net/).
 - Temel C# bilgisi: Bu eğitimde C# programlama hakkında temel bir anlayışa sahip olduğunuzu varsayıyoruz.
- Aspose.Cells'e yeniyseniz, şuraya göz atmaya değer:[belgeleme](https://reference.aspose.com/cells/net/) Kütüphanenin işlevleri ve onunla nasıl çalışılacağı hakkında daha fazla bilgi edinmek için.
+Aspose.Cells'e yeniyseniz, şuraya göz atmaya değer: [belgeleme](https://reference.aspose.com/cells/net/) Kütüphanenin işlevleri ve onunla nasıl çalışılacağı hakkında daha fazla bilgi edinmek için.
 ## Paketleri İçe Aktar
 Başlamak için, Aspose.Cells ile çalışmanıza olanak tanıyan gerekli ad alanlarını içe aktarmanız gerekir. Bu örnek için ihtiyacınız olan içe aktarmalar aşağıdadır:
 ```csharp
@@ -55,7 +57,7 @@ Her çalışma kitabının birden fazla çalışma sayfası vardır ve sütun ko
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 ```
-- Çalışma sayfaları[0]: Bu, çalışma kitabındaki ilk çalışma sayfasını alır (Excel çalışma sayfaları sıfır dizinlidir).
+- Çalışma Sayfaları[0]: Bu, çalışma kitabındaki ilk çalışma sayfasını alır (Excel çalışma sayfaları sıfır dizinlidir).
 ## Adım 4: Style ve StyleFlag Nesnelerini Tanımlayın
 Daha sonra hücrelerin görünüm ve koruma ayarlarını özelleştirmek için kullanılan Style ve StyleFlag adlı iki nesneyi tanımlayacağız.
 ```csharp
@@ -76,9 +78,9 @@ for (int i = 0; i <= 255; i++)
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag);
 }
 ```
-- Sütunlar[(bayt)i]: Bu, çalışma sayfasındaki belirli bir sütuna dizinine göre erişir (burada 0 ile 255 arasındaki sütunlar arasında döngü yapıyoruz).
+- Sütunlar[(bayt)i]: Bu, çalışma sayfasındaki belirli bir sütuna dizinine göre erişir (burada 0'dan 255'e kadar olan sütunlar arasında döngü yapıyoruz).
 - style.IsLocked = false: Bu, sütundaki tüm hücrelerin kilidini açar.
-- ApplyStyle(): Bu, bayrağa göre stili (kilitli veya kilitsiz) sütuna uygular.
+- ApplyStyle(): Bu, bayrağa göre sütuna stili (kilitli veya kilitsiz) uygular.
 ## Adım 6: İlk Sütunu Kilitleyin
 Artık tüm sütunlar kilitsiz olduğuna göre, ilk sütunu korumak için kilitleyelim. Bu, kullanıcıların değiştiremeyeceği sütundur.
 ```csharp
@@ -88,14 +90,14 @@ flag = new StyleFlag();
 flag.Locked = true;
 sheet.Cells.Columns[0].ApplyStyle(style, flag);
 ```
-- Sütunlar[0]: Bu, ilk sütuna (indeks 0) erişir.
+- Sütunlar[0]: Bu, ilk sütuna (dizin 0) erişir.
 - style.IsLocked = true: Bu, ilk sütunu kilitler ve kullanıcıların üzerinde değişiklik yapmasını engeller.
 ## Adım 7: Çalışma Sayfasını Koruyun
 Artık ilk sütun için korumayı ayarladığımıza göre, korumayı tüm çalışma sayfasına uygulamamız gerekiyor. Bu, herhangi bir kilitli hücrenin (ilk sütun gibi) koruma kaldırılmadığı sürece değiştirilemeyeceğini garanti eder.
 ```csharp
 sheet.Protect(ProtectionType.All);
 ```
-- sheet.Protect(): Bu korumayı tüm sayfaya uygular. Herhangi bir değişikliği önlemek için ProtectionType.All'ı belirtiriz, ancak kullanıcıların belirli öğelerle etkileşime girebilmesini istiyorsanız bunu değiştirebilirsiniz.
+- sheet.Protect(): Bu, korumayı tüm sayfaya uygular. Herhangi bir değişikliği önlemek için ProtectionType.All'ı belirtiriz, ancak kullanıcıların belirli öğelerle etkileşime girebilmesini istiyorsanız bunu değiştirebilirsiniz.
 ## Adım 8: Çalışma Kitabını Kaydedin
 Son olarak çalışma kitabını belirtilen bir konuma kaydediyoruz. Bu örnekte, daha önce oluşturduğumuz dizine kaydediyoruz.
 ```csharp
@@ -109,17 +111,19 @@ Bu eğitimde, .NET için Aspose.Cells kullanarak bir çalışma sayfasındaki s�
 ### Birden fazla sütunu aynı anda koruyabilir miyim?  
 Evet, tıpkı ilk sütunda yaptığımız gibi, her birine kilit uygulayarak birden fazla sütunu koruyabilirsiniz.
 ### Kullanıcıların geri kalanını koruyarak belirli sütunları düzenlemesine izin verebilir miyim?  
- Kesinlikle! Belirli sütunların kilidini ayarlayarak açabilirsiniz.`style.IsLocked = false` onlar için, daha sonra çalışma kağıdına koruma uygulayın.
+Kesinlikle! Belirli sütunların kilidini ayarlayarak açabilirsiniz. `style.IsLocked = false` onlar için, daha sonra çalışma kağıdına koruma uygulayın.
 ### Bir çalışma sayfasından korumayı nasıl kaldırabilirim?  
- Korumayı kaldırmak için sadece arayın`sheet.Unprotect()`Koruma sırasında bir şifre belirlenmişse, bunu da kullanabilirsiniz.
+Korumayı kaldırmak için sadece arayın `sheet.Unprotect()`Koruma sırasında bir şifre belirlenmişse, bunu da kullanabilirsiniz.
 ### Çalışma sayfasını korumak için bir şifre belirleyebilir miyim?  
-Evet, bir parametre olarak bir parola geçirebilirsiniz`sheet.Protect("yourPassword")` yalnızca yetkili kullanıcıların sayfayı korumasını kaldırabilmesini sağlamak için.
+Evet, bir parametre olarak bir parola geçirebilirsiniz `sheet.Protect("yourPassword")` yalnızca yetkili kullanıcıların sayfayı korumasını kaldırabilmesini sağlamak için.
 ### Tüm sütunlar yerine tek tek hücreleri korumak mümkün müdür?  
 Evet, her bir hücrenin stiline erişip, kilit özelliğini uygulayarak tek tek hücreleri kilitleyebilirsiniz.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

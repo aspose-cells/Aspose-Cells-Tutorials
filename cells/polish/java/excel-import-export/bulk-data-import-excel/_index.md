@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importowanie danych zbiorczych do programu Excel
 
 
-W tym kompleksowym przewodniku przeprowadzimy Cię przez proces masowego importu danych z programu Excel przy użyciu potężnego interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy masz do czynienia z dużym zestawem danych, czy po prostu chcesz usprawnić przetwarzanie danych, ten samouczek krok po kroku z przykładami kodu źródłowego pomoże Ci skutecznie osiągnąć Twoje cele.
+tym kompleksowym przewodniku przeprowadzimy Cię przez proces masowego importu danych z programu Excel przy użyciu potężnego interfejsu API Aspose.Cells for Java. Niezależnie od tego, czy masz do czynienia z dużym zestawem danych, czy po prostu chcesz usprawnić przetwarzanie danych, ten samouczek krok po kroku z przykładami kodu źródłowego pomoże Ci skutecznie osiągnąć Twoje cele.
 
 ## Wstęp
 
@@ -99,9 +101,11 @@ Oczywiście! Aspose.Cells for Java obsługuje zarówno importowanie, jak i ekspo
 Tak, zapoznaj się z informacjami o licencjach na stronie internetowej Aspose, aby uzyskać szczegółowe informacje na temat licencjonowania i cen.
 
 Możesz swobodnie eksplorować dalej i dostosowywać przykłady kodu do swoich konkretnych wymagań. Miłego kodowania!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Cập nhật Lịch sử Nhật ký Sửa đổi trong Sổ làm việc Chia sẻ
-linktitle: Cập nhật Lịch sử Nhật ký Sửa đổi trong Sổ làm việc Chia sẻ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách cập nhật lịch sử nhật ký sửa đổi trong sổ làm việc được chia sẻ bằng Aspose.Cells cho .NET. Đơn giản hóa việc cộng tác và duy trì hồ sơ tài liệu rõ ràng.
-weight: 26
-url: /vi/net/worksheet-operations/update-revision-log-history/
+"description": "Học cách cập nhật lịch sử nhật ký sửa đổi trong sổ làm việc được chia sẻ bằng Aspose.Cells cho .NET. Đơn giản hóa việc cộng tác và duy trì hồ sơ tài liệu rõ ràng."
+"linktitle": "Cập nhật Lịch sử Nhật ký Sửa đổi trong Sổ làm việc Chia sẻ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Cập nhật Lịch sử Nhật ký Sửa đổi trong Sổ làm việc Chia sẻ"
+"url": "/vi/net/worksheet-operations/update-revision-log-history/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật Lịch sử Nhật ký Sửa đổi trong Sổ làm việc Chia sẻ
@@ -19,7 +21,7 @@ Khi nói đến việc quản lý sổ làm việc Excel hiệu quả, đặc bi
 Trước khi đi sâu vào mã và ví dụ, có một số điều kiện tiên quyết bạn cần phải có. Đừng lo lắng; chúng rất đơn giản!
 ### Môi trường phát triển .NET
 1. Cài đặt IDE: Đảm bảo bạn đã cài đặt Môi trường phát triển tích hợp (IDE) nơi bạn có thể viết và thực thi mã .NET. Visual Studio là một lựa chọn tuyệt vời cho việc này.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần tải xuống và đưa Aspose.Cells cho .NET vào dự án của mình. Bạn có thể lấy phiên bản mới nhất từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần tải xuống và đưa Aspose.Cells cho .NET vào dự án của mình. Bạn có thể lấy phiên bản mới nhất từ [đây](https://releases.aspose.com/cells/net/).
 3. Làm quen với C#: Vì chúng ta sẽ sử dụng C# trong các ví dụ, nên hiểu biết cơ bản về ngôn ngữ này sẽ rất hữu ích.
 Bằng cách hoàn thành các điều kiện tiên quyết này, bạn sẽ sẵn sàng làm theo hướng dẫn.
 ## Nhập gói
@@ -27,11 +29,11 @@ Bây giờ, để bất kỳ ứng dụng .NET nào sử dụng Aspose.Cells, b�
 ### Tạo một dự án mới
 - Mở Visual Studio.
 - Nhấp vào “Tạo dự án mới”.
--  Chọn “Console App (.NET Framework)” và đặt tên cho nó, như`ExcelRevisionLogDemo`.
-### Thêm Thư viện Aspose.Cells
+- Chọn “Console App (.NET Framework)” và đặt tên cho nó, như `ExcelRevisionLogDemo`.
+### Thêm thư viện Aspose.Cells
 - Vào menu “Công cụ” và chọn “Trình quản lý gói NuGet”.
 - Chọn “Quản lý các gói NuGet cho giải pháp...”.
--  Tìm kiếm`Aspose.Cells` và cài đặt nó.
+- Tìm kiếm `Aspose.Cells` và cài đặt nó.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -45,7 +47,7 @@ Bây giờ dự án của bạn đã được thiết lập, chúng ta hãy bắ
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Chỉ định đường dẫn thư mục của bạn
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tập tin. 
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tập tin. 
 ## Bước 2: Tạo một Workbook trống
 Tiếp theo, chúng ta sẽ tạo một bảng tính trống. Giống như việc đặt một tấm vải trắng trước mặt một nghệ sĩ.
 ```csharp
@@ -59,7 +61,7 @@ Bây giờ, chúng ta hãy biến sổ làm việc này thành sổ làm việc 
 // Chia sẻ sổ làm việc
 wb.Settings.Shared = true;
 ```
- Bằng cách thiết lập`Shared` đúng, bạn cho phép nhiều người dùng truy cập và sửa đổi sổ làm việc này.
+Bằng cách thiết lập `Shared` đúng, bạn cho phép nhiều người dùng truy cập và sửa đổi sổ làm việc này.
 ## Bước 4: Cập nhật Ngày lưu giữ Lịch sử Nhật ký Sửa đổi
 Đây chính là nơi phép thuật xảy ra! Chúng tôi sẽ chỉ định thời gian lưu trữ nhật ký sửa đổi—trong trường hợp này là 7 ngày. Hãy tưởng tượng việc đặt giới hạn thời gian lưu trữ một mục nhật ký trên blog trực tuyến. 
 ```csharp
@@ -73,7 +75,7 @@ Cuối cùng, chúng ta sẽ lưu sổ làm việc đã sửa đổi của mình
 // Lưu sổ làm việc
 wb.Save(outputDir + "outputShared_DaysPreservingHistory.xlsx");
 ```
- Đảm bảo đường dẫn kết hợp được định dạng đúng; thay thế`outputDir` bằng đường dẫn thư mục bạn đã xác định trước đó.
+Đảm bảo đường dẫn kết hợp được định dạng đúng; thay thế `outputDir` bằng đường dẫn thư mục bạn đã xác định trước đó.
 ## Bước 6: Phản hồi về việc thực hiện
 Sau khi lưu, một nhật ký bảng điều khiển đơn giản có thể giúp xác nhận rằng mọi thứ diễn ra suôn sẻ. 
 ```csharp
@@ -86,17 +88,19 @@ Cập nhật lịch sử nhật ký sửa đổi trong sổ làm việc được
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là một thư viện mạnh mẽ được thiết kế để tạo và thao tác các tệp Excel trong các ứng dụng .NET.
 ### Làm thế nào để tải xuống Aspose.Cells?
- Bạn có thể tải xuống thư viện từ[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống thư viện từ [đây](https://releases.aspose.com/cells/net/).
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể nhận phiên bản dùng thử miễn phí để kiểm tra các tính năng của nó. Hãy kiểm tra nó[đây](https://releases.aspose.com/).
+Có! Bạn có thể nhận phiên bản dùng thử miễn phí để kiểm tra các tính năng của nó. Hãy kiểm tra nó [đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Nếu bạn cần trợ giúp, hãy truy cập[Diễn đàn Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Nếu bạn cần trợ giúp, hãy truy cập [Diễn đàn Aspose.Cells](https://forum.aspose.com/c/cells/9).
 ### Làm thế nào để tôi mua Aspose.Cells?
- Bạn có thể mua nó một cách an toàn[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua nó một cách an toàn [đây](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

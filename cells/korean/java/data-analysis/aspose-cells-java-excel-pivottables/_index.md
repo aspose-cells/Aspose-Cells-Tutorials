@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,13 +77,13 @@ import com.aspose.cells.PivotFieldType;
 #### 개요
 Excel 데이터 관리의 첫 번째 단계는 통합 문서를 만들고 해당 워크시트에 액세스하는 것입니다. Aspose.Cells를 사용하면 최소한의 코드로 이 작업을 수행할 수 있으므로 사용자 지정 로직을 쉽게 추가할 수 있습니다.
 ##### 1단계: 새 통합 문서 만들기
-인스턴스화로 시작하세요 `Workbook` Excel 파일을 나타내는 객체:
+인스턴스화로 시작하세요 `Workbook` Excel 파일을 나타내는 개체:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-Workbook workbook = new Workbook(); // Workbook 개체를 인스턴스화합니다.
+Workbook workbook = new Workbook(); // Workbook 객체를 인스턴스화합니다.
 ```
 ##### 2단계: 워크시트 추가 및 액세스
 다음으로, 통합 문서에 워크시트를 추가하고 추가 작업을 위해 액세스합니다.
@@ -176,6 +178,9 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서를 만들고, 데이�
 - **다운로드:** 공식 사이트에서 Java용 Aspose.Cells의 최신 버전을 다운로드하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

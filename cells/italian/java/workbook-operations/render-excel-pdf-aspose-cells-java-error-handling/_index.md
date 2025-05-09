@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ public class InitializeAspose {
 Questa sezione riguarda l'implementazione della gestione degli errori durante la conversione da Excel a PDF utilizzando Aspose.Cells per Java. 
 
 ### Ignora errori durante la conversione
-Per gestire correttamente gli errori nel file sorgente, configura Aspose.Cells in modo che li ignori durante la conversione. 
+Per gestire in modo corretto gli errori nel file sorgente, configura Aspose.Cells in modo che li ignori durante la conversione. 
 
 #### Passaggio 1: caricare la cartella di lavoro
 Carica la cartella di lavoro di Excel con `Workbook` classe:
@@ -144,6 +146,9 @@ Questo tutorial ha fornito un approccio dettagliato alla gestione degli errori d
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

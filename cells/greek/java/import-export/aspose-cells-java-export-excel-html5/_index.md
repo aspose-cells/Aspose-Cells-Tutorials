@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,6 +175,9 @@ cell.putValue("Αυτό είναι κείμενο.");
 - **Αγορά & Άδεια Χρήσης:** Μάθετε περισσότερα σχετικά με τις άδειες χρήσης και τις αγορές στη διεύθυνση [Σελίδα Αγοράς Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

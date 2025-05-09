@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Aspose.Cells for Java를 사용하여 A4, A3, A2, Letter 등의 용지 크기를 설정하고 가져오는 방법을 알아보세요. 이 가이드에서는 설정부터 고급 구성까지 모든 것을 다룹니다."
-"title": "Aspose.Cells Java에서 마스터 용지 크기 설정 및 머리글과 바닥글을 쉽게 구성"
+"title": "Aspose.Cells Java에서 마스터 용지 크기 설정, 머리글 및 바닥글을 쉽게 구성"
 "url": "/ko/java/headers-footers/set-paper-size-aspose-cells-java-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,7 +205,7 @@ A2를 설정하는 것과 유사하게, 이 기능을 사용하면 워크시트�
 - **사용자 정의 템플릿:** 특정 용지 크기 요구 사항에 맞게 조정되는 템플릿을 만듭니다.
 
 **성능 고려 사항**
-- **메모리 관리:** 항상 가까이 `Workbook` 사용 후 인스턴스를 해제하여 리소스를 확보합니다.
+- **메모리 관리:** 항상 닫아요 `Workbook` 사용 후 인스턴스를 해제하여 리소스를 확보합니다.
 - **일괄 처리:** 일괄 처리 로직을 설정하여 여러 문서를 효율적으로 처리합니다.
 
 **결론**
@@ -222,6 +224,9 @@ Java에서 Aspose.Cells를 사용하여 워크시트 용지 크기를 설정하�
 - [자바 프로그래밍 기초](https://docs.oracle.com/javase/tutorial/index.html)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

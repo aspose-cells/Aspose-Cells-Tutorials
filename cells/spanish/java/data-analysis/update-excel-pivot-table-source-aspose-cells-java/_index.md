@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ En esta guía, aprendió a cambiar los datos de origen de una tabla dinámica ut
 Con estos recursos y esta guía completa, ya está preparado para gestionar eficazmente los cambios en los datos fuente de las tablas dinámicas mediante Aspose.Cells en Java. ¡Que disfrute programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

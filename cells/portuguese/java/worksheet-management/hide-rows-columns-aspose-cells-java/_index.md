@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Aquisição de Licença
 
-Aspose.Cells é um produto comercial, mas você pode começar com um teste gratuito para explorar seus recursos. Para obter uma licença temporária ou comprar a versão completa, visite [Página de Licenciamento da Aspose](https://purchase.aspose.com/buy) e siga suas instruções.
+Aspose.Cells é um produto comercial, mas você pode começar com um teste gratuito para explorar seus recursos. Para obter uma licença temporária ou comprar a versão completa, visite [Página de licenciamento da Aspose](https://purchase.aspose.com/buy) e siga suas instruções.
 
 ### Inicialização básica
 
@@ -147,6 +149,9 @@ Você aprendeu a usar Aspose.Cells com Java para ocultar linhas e colunas espec�
 Pronto para aprimorar seu gerenciamento de arquivos do Excel? Implemente essas soluções em seus projetos hoje mesmo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

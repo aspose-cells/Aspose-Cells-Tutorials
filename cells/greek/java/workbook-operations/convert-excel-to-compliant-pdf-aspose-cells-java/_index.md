@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
    - Μπορείτε να εξερευνήσετε το [Διεθνής Οργανισμός Τυποποίησης (ISO)](https://www.iso.org/standards.html) ιστότοπος για λεπτομερή τεκμηρίωση σχετικά με διάφορα επίπεδα συμμόρφωσης PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

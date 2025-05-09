@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5：大檔案和複雜操作會增加記憶體使用量。透過分塊處理或
 探索這些資源可以加深您對 Aspose.Cells for Java 的理解，並充分發揮應用程式中 Excel 操作的潛力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

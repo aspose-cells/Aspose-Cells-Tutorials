@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ La implementación de Aspose.Cells para ordenar por color de columna es benefici
 ## Consideraciones de rendimiento
 Al trabajar con grandes conjuntos de datos, tenga en cuenta estos consejos de optimización:
 - Utilice prácticas de gestión de memoria eficientes en Java para manejar archivos grandes de Excel sin problemas.
-- Sólo cargue las hojas o rangos necesarios en la memoria cuando sea posible.
+- Cargue en la memoria únicamente las hojas o rangos necesarios cuando sea posible.
 - Limpie periódicamente los objetos y recursos no utilizados después de procesar cada segmento de archivo.
 
 ## Conclusión
@@ -176,6 +178,9 @@ Para llevarlo más allá, explore las funciones de clasificación adicionales qu
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

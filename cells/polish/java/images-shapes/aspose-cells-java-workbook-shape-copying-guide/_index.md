@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
   
 - **Licencja tymczasowa:** Złóż wniosek o tymczasową licencję rozszerzonego dostępu na Aspose [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
 
-- **Zakup:** celu długoterminowego użytkowania należy zakupić licencję od [Strona zakupu Aspose](https://purchase.aspose.com/buy) aby zapewnić pełną funkcjonalność bez ograniczeń.
+- **Zakup:** W celu długoterminowego użytkowania należy zakupić licencję od [Strona zakupu Aspose](https://purchase.aspose.com/buy) aby zapewnić pełną funkcjonalność bez ograniczeń.
 
 Gdy środowisko jest już skonfigurowane i nabyte zostały licencje, możemy wdrożyć funkcje Aspose.Cells.
 
@@ -183,6 +185,9 @@ Podczas pracy z dużymi skoroszytami lub złożonymi kształtami:
 - Zminimalizuj liczbę operacji kształtowania poprzez grupowanie ich razem, gdzie to możliwe, zmniejszając w ten sposób czas przetwarzania i zużycie zasobów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

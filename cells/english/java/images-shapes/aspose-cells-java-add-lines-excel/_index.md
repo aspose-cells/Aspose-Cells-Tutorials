@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Ready to put this knowledge into practice? Start by experimenting with line shap
 This comprehensive guide aims to equip you with the knowledge and tools necessary for effectively using Aspose.Cells Java to enhance your Excel documents. Start implementing these techniques today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

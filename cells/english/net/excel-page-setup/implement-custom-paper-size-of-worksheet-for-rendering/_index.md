@@ -8,7 +8,9 @@ url: /net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-renderin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Custom Paper Size Of Worksheet For Rendering
@@ -147,6 +149,7 @@ Absolutely! Aspose.Cells offers a robust set of features for customizing workshe
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

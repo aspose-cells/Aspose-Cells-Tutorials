@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
 
 **Modyfikuj zawartość**
-Na przykład zmodyfikuj zawartość komórki w pierwszym arkuszu kalkulacyjnym:
+Na przykład zmodyfikuj zawartość komórki w pierwszym arkuszu:
 ```java
 workbook.getWorksheets().get(0).getCells().get("A1").setValue("Hello, Aspose.Cells!");
 ```
@@ -171,6 +173,9 @@ Gratulacje! Nauczyłeś się, jak ustawiać komentarze na obiektach listy Excela
 Zapoznaj się z tymi zasobami, kontynuując przygodę z Aspose.Cells dla Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

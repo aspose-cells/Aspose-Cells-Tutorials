@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ import com.aspose.cells.Workbook;
 double value = 50;
 workbook.getWorksheets().get(0).getCells().get("A1").setValue(value);
 ```
-Ten `Workbook` Klasa reprezentuje plik Excela, pozwalając na wykonywanie operacji na jego zawartości.
+Ten `Workbook` Klasa reprezentuje plik Excela, umożliwiając wykonywanie operacji na jego zawartości.
 
 ##### 2. Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 ```java
@@ -210,6 +212,9 @@ Poznaj więcej możliwości, integrując Aspose.Cells z innymi systemami lub eks
 Zacznij już dziś używać Aspose.Cells for Java, aby zwiększyć możliwości wizualizacji danych!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,12 +168,15 @@ A3: Du kan läsa in en skyddad arbetsbok genom att ange lösenordet i arbetsboks
 A4: Ja, justera JPEG-komprimeringsnivån med `imgOptions.setJpegQuality(int value)` där värdet varierar från 0 (lägsta kvalitet) till 100 (högsta kvalitet).
 
 **F5: Var kan jag ladda ner den senaste versionen av Aspose.Cells för Java?**
-A5: Du hittar den på [Aspose nedladdningssida](https://releases.aspose.com/cells/java/)Se till att du har en giltig licens eller provkörning.
+A5: Du hittar den på [Aspose nedladdningssida](https://releases.aspose.com/cells/java/)Se till att du har en giltig licens eller provperiod.
 
 Med den här guiden är du nu rustad för att sömlöst konvertera dina Excel-data till bilder med hjälp av Aspose.Cells för Java. Börja utforska och integrera dessa tekniker i dina projekt!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

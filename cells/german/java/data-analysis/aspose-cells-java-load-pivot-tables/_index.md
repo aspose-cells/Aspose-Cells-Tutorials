@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ A1: Erwägen Sie bei großen Dateien eine Optimierung der Speichernutzung, indem
 A2: Ja, Aspose.Cells können in Anwendungen integriert werden, die auf verschiedenen Cloud-Plattformen gehostet werden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

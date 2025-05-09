@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tích hợp dữ liệu trong Excel
@@ -109,9 +111,11 @@ Chắc chắn rồi! Aspose.Cells for Java cung cấp API mạnh mẽ để tự
 Trong khi Aspose.Cells for Java là một lựa chọn tốt thì các giải pháp thay thế như Apache POI cũng cung cấp khả năng tích hợp Excel.
 
 Hướng dẫn toàn diện này sẽ giúp bạn làm chủ việc tích hợp dữ liệu trong Excel bằng Aspose.Cells for Java. Hãy thoải mái khám phá thêm và điều chỉnh các bước này theo nhu cầu cụ thể của bạn. Chúc bạn tích hợp dữ liệu vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Δυναμικοί Συγκεντρωτικοί Πίνακες
@@ -107,9 +109,11 @@ pivotTable.calculateData();
 ### Ε5: Υποστηρίζει το Aspose.Cells τις προηγμένες δυνατότητες του Συγκεντρωτικού Πίνακα του Excel;
 
 Ναι, το Aspose.Cells παρέχει εκτεταμένη υποστήριξη για τις προηγμένες λειτουργίες του συγκεντρωτικού πίνακα του Excel, επιτρέποντάς σας να δημιουργείτε σύνθετους συγκεντρωτικούς πίνακες.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,11 +30,11 @@
 このガイドを開始するには、次の設定がされていることを確認してください。
 - **Java 開発キット (JDK):** お使いのマシンには JDK 8 以降が必要です。
 - **統合開発環境 (IDE):** IntelliJ IDEA や Eclipse などの任意の IDE が動作します。
-- **Java 用 Aspose.Cells:** このプライマリライブラリは、Maven または Gradle を介してプロジェクトに簡単に追加できます。
+- **Java 用 Aspose.Cells:** このプライマリ ライブラリは、Maven または Gradle を介してプロジェクトに簡単に追加できます。
 
 ## Aspose.Cells for Java のセットアップ
 
-まず、プロジェクトにAspose.Cellsの依存関係を追加します。手順は以下のとおりです。
+まず、Aspose.Cells の依存関係をプロジェクトに含めます。手順は以下のとおりです。
 
 **メイヴン**
 ```xml
@@ -162,6 +164,9 @@ Aspose.Cells for Java を使ったワークブックの読み込みと名前付�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Pengaturan Data Bagan
-linktitle: Pengaturan Data Bagan
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur data bagan menggunakan Aspose.Cells untuk .NET melalui panduan langkah demi langkah terperinci yang sempurna untuk meningkatkan visualisasi data.
-weight: 16
-url: /id/net/advanced-chart-operations/setting-chart-data/
+"description": "Pelajari cara mengatur data bagan menggunakan Aspose.Cells untuk .NET melalui panduan langkah demi langkah terperinci yang sempurna untuk meningkatkan visualisasi data."
+"linktitle": "Pengaturan Data Bagan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pengaturan Data Bagan"
+"url": "/id/net/advanced-chart-operations/setting-chart-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengaturan Data Bagan
 
-## Perkenalan
+## Bevezetés
 
 Dalam hal visualisasi data, grafik dan bagan sangatlah penting. Grafik dan bagan membantu Anda menyampaikan cerita melalui data, sehingga informasi yang rumit menjadi lebih mudah dipahami dan ditafsirkan. Aspose.Cells for .NET adalah pustaka luar biasa yang memungkinkan Anda memanipulasi file Excel, termasuk kemampuan untuk membuat bagan yang mengagumkan. Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan data bagan dengan mudah menggunakan Aspose.Cells for .NET.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, ada beberapa hal yang Anda perlukan untuk memulai perjalanan ini. 
 
 ### Instal Aspose.Cells untuk .NET
 
 1. Visual Studio: Anda harus menginstal Microsoft Visual Studio di komputer Anda untuk menulis dan mengeksekusi kode .NET.
-2.  Aspose.Cells: Pastikan untuk mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbarunya[Di Sini](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells: Pastikan untuk mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbarunya [itt](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Keakraban dengan C# dan kerangka kerja .NET akan berguna untuk memahami potongan kode yang akan kita gunakan sepanjang tutorial ini.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum Anda dapat mulai menulis kode, Anda perlu mengimpor namespace yang diperlukan dari paket Aspose.Cells. Berikut ini cara melakukannya di bagian atas berkas C# Anda:
 
@@ -42,23 +44,23 @@ Dengan melakukan ini, Anda terhindar dari keharusan mengetikkan path lengkap kel
 
 Sekarang setelah semuanya siap, mari kita bahas proses pengaturan data grafik langkah demi langkah. Kita akan membuat grafik kolom berdasarkan beberapa contoh data.
 
-## Langkah 1: Tentukan Direktori Output
+## 1. lépés: Kimeneti könyvtár definiálása
 
 ```csharp
 string outputDir = "Your Output Directory";
 ```
 
- Pada langkah ini, Anda menentukan di mana Anda ingin menyimpan file Excel Anda. Ganti`"Your Output Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas tersebut. Ini seperti menyiapkan ruang kerja sebelum Anda mulai melukis – Anda tidak ingin cat berceceran di mana-mana!
+Pada langkah ini, Anda menentukan di mana Anda ingin menyimpan file Excel Anda. Ganti `"Your Output Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas tersebut. Ini seperti menyiapkan ruang kerja sebelum Anda mulai melukis – Anda tidak ingin cat berceceran di mana-mana!
 
-## Langkah 2: Buat Buku Kerja
+## 2. lépés: Munkafüzet létrehozása
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Di sini, Anda membuat contoh dari`Workbook` kelas, yang pada dasarnya adalah berkas Excel Anda. Anggap saja seperti kanvas kosong yang menunggu Anda untuk mengisinya dengan data dan grafik. 
+Di sini, Anda membuat contoh dari `Workbook` kelas, yang pada dasarnya adalah berkas Excel Anda. Anggap saja seperti kanvas kosong yang menunggu Anda untuk mengisinya dengan data dan grafik. 
 
-## Langkah 3: Akses Lembar Kerja Pertama
+## 3. lépés: Az első munkalap elérése
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -66,7 +68,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 Sekarang kita mengakses lembar kerja pertama dalam buku kerja. Lembar kerja seperti halaman dalam buku, yang masing-masing halamannya dapat berisi kumpulan data dan grafiknya sendiri.
 
-## Langkah 4: Tambahkan Nilai Sampel ke Sel
+## 4. lépés: Mintaértékek hozzáadása cellákhoz
 
 Sekarang Anda dapat memasukkan data grafik ke dalam lembar kerja. Berikut caranya:
 
@@ -98,7 +100,7 @@ Langkah ini menambahkan data kategori ke kolom 'C', membantu audiens Anda memaha
 
 ## Langkah 6: Tambahkan Bagan ke Lembar Kerja
 
-Sekarang saatnya menambahkan bagan itu sendiri.
+Sekarang saatnya untuk menambahkan bagan itu sendiri.
 
 ```csharp
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 15, 5);
@@ -134,7 +136,7 @@ workbook.Save(outputDir + "outputSettingChartsData.xlsx");
 
 Dengan baris kode ini, Anda menyimpan buku kerja Anda sebagai file Excel. Anggap ini sebagai sapuan kuas terakhir pada mahakarya Anda – saatnya memamerkan karya Anda!
 
-## Langkah 10: Pesan Konfirmasi
+## 10. lépés: Megerősítő üzenet
 
 Terakhir, kita dapat mencetak pesan sukses untuk meyakinkan diri bahwa semuanya berjalan lancar.
 
@@ -144,29 +146,31 @@ Console.WriteLine("SettingChartsData executed successfully.");
 
 Langkah ini mengakhiri proses kami, memberi tahu kami bahwa bagan kami telah dibuat dan disimpan dengan sukses. Anggap saja ini sebagai tepuk tangan setelah penampilan yang hebat!
 
-## Kesimpulan
+## Következtetés
 
 Menetapkan data bagan menggunakan Aspose.Cells untuk .NET tidak harus menjadi tugas yang sulit. Dengan mengikuti langkah-langkah ini, Anda dapat membuat bagan yang menarik secara visual yang menyederhanakan interpretasi data. Baik Anda bekerja dengan data keuangan, jadwal proyek, atau hasil survei, wawasan yang diberikan oleh representasi visual ini sangat berharga. Jadi, mengapa tidak memasukkan bagan ke dalam laporan Anda berikutnya dan membuat audiens Anda terkesan?
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?  
+### Mi az Aspose.Cells?  
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengguna untuk membuat, memanipulasi, mengonversi, dan merender file Excel.
 
-### Bagaimana cara menginstal Aspose.Cells untuk .NET?  
- Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) dan menambahkannya ke proyek Anda melalui NuGet Package Manager.
+### Hogyan telepíthetem az Aspose.Cells for .NET-et?  
+Letöltheted innen [itt](https://releases.aspose.com/cells/net/) dan menambahkannya ke proyek Anda melalui NuGet Package Manager.
 
 ### Bisakah saya membuat berbagai jenis bagan dengan Aspose.Cells?  
 Ya! Aspose.Cells mendukung berbagai jenis bagan, termasuk garis, batang, pai, dan banyak lagi.
 
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?  
- Tentu saja! Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Cells-hez?  
+Tentu saja! Anda dapat mengakses uji coba gratis [itt](https://releases.aspose.com/).
 
-### Bagaimana cara mendapatkan dukungan teknis untuk Aspose.Cells?  
- Untuk dukungan, Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok technikai támogatást az Aspose.Cells-hez?  
+Támogatásért látogassa meg a következőt: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

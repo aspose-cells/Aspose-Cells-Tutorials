@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ Un tutorial sul codice per Aspose.Words Java
 ### [Master Aspose.Cells Java: Stili delle cartelle di lavoro e streaming dati efficiente in Excel](./aspose-cells-java-workbook-styles-streaming/)
 Scopri come utilizzare Aspose.Cells per Java per creare stili di cartelle di lavoro personalizzati e trasmettere in modo efficiente grandi set di dati con LightCellsDataProvider. Migliora le tue competenze nella gestione dei file Excel oggi stesso.
 
-### [Stile del libro di lavoro principale in Java con Aspose.Cells: una guida completa](./aspose-cells-java-workbook-styling-guide/)
+### [Stile del Master Workbook in Java con Aspose.Cells: una guida completa](./aspose-cells-java-workbook-styling-guide/)
 Scopri come utilizzare Aspose.Cells per Java per creare e personalizzare cartelle di lavoro di Excel. Questa guida illustra la creazione di cartelle di lavoro, le tecniche di stile e le applicazioni pratiche.
 
 ### [Automatizzare la formattazione condizionale di Excel utilizzando Aspose.Cells per Java: una guida completa](./automate-conditional-formatting-excel-aspose-cells-java/)
@@ -243,6 +245,9 @@ Padroneggia lo stile delle celle di Excel e aggiungi collegamenti ipertestuali n
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

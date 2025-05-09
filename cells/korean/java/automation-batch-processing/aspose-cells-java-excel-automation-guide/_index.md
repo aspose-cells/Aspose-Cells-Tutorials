@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ import com.aspose.cells.Worksheet;
 // 첫 번째 워크시트에서 셀 "A1"에 액세스합니다.
 Cell cell = worksheet.getCells().get("A1");
 
-// 셀 "A1"에 값을 할당합니다.
+// 셀 "A1"에 값을 할당하세요
 cell.setValue("Hello World From Aspose");
 ```
 
@@ -241,6 +243,9 @@ Aspose.Cells Java는 다양한 실제 응용 분야에 활용할 수 있습니�
    - Excel 외에도 CSV, PDF, HTML 등을 지원합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

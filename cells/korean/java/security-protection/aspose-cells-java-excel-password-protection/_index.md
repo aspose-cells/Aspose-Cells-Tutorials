@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 민감한 정보를 다룰 때는 암호로 보호된 Excel 파일을 불러오는 것이 필수적입니다. Aspose.Cells는 필요한 암호를 지정하여 이러한 파일을 쉽게 열 수 있는 방법을 제공합니다.
 
 #### 단계별 구현
-1. **로드 옵션 설정**: 생성하다 `LoadOptions` 객체를 만들고 필요한 비밀번호를 설정합니다.
+1. **로드 옵션 설정**생성하다 `LoadOptions` 객체를 만들고 필요한 비밀번호를 설정합니다.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -134,10 +136,13 @@ A5: 라이선스 파일 경로가 올바른지, 그리고 애플리케이션에�
 - **다운로드**: [Java용 Aspose.Cells 릴리스](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 라이선스 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 포럼 지원](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

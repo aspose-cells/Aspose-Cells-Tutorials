@@ -1,14 +1,16 @@
 ---
-title: Thiết lập chiều cao hàng trong Excel với Aspose.Cells
-linktitle: Thiết lập chiều cao hàng trong Excel với Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách thiết lập chiều cao hàng trong Excel một cách dễ dàng bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 14
-url: /vi/net/size-and-spacing-customization/setting-height-of-row/
+"description": "Học cách thiết lập chiều cao hàng trong Excel một cách dễ dàng bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Thiết lập chiều cao hàng trong Excel với Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập chiều cao hàng trong Excel với Aspose.Cells"
+"url": "/vi/net/size-and-spacing-customization/setting-height-of-row/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập chiều cao hàng trong Excel với Aspose.Cells
@@ -19,18 +21,18 @@ Vậy, chúng ta hãy cùng bắt đầu nhé?
 ## Điều kiện tiên quyết
 Trước khi bắt đầu phần lập trình, điều quan trọng là phải đảm bảo bạn đã sẵn sàng mọi thứ. 
 1. Cài đặt .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Nếu bạn đang sử dụng Visual Studio, việc này sẽ rất dễ dàng.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt Aspose.Cells cho .NET. Bạn có thể tìm thấy gói[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt Aspose.Cells cho .NET. Bạn có thể tìm thấy gói [đây](https://releases.aspose.com/cells/net/).
 3. IDE: Bạn sẽ cần một Môi trường phát triển tích hợp (IDE) để viết mã. Visual Studio là một lựa chọn tuyệt vời nếu bạn làm việc trong môi trường Windows.
 4. Kiến thức cơ bản về C#: Mặc dù tôi sẽ hướng dẫn bạn từng bước, nhưng việc nắm vững kiến thức cơ bản về C# sẽ giúp mọi thứ rõ ràng hơn.
 Bây giờ bạn đã chuẩn bị xong các điều kiện tiên quyết, hãy bắt đầu viết mã nhé!
 ## Nhập gói
 Trước khi có thể làm bất cứ điều gì, chúng ta cần nhập các gói giúp Aspose.Cells hoạt động. Sau đây là cách thực hiện:
 ### Tạo một dự án mới
-Mở Visual Studio và tạo một dự án C# mới. Chọn Ứng dụng Console để đơn giản hơn. 
+Mở Visual Studio và tạo một dự án C# mới. Chọn một Ứng dụng Console để đơn giản hơn. 
 ### Cài đặt Aspose.Cells qua NuGet
- Trong dự án của bạn, hãy đi tới`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution`. Tìm kiếm Aspose.Cells và nhấn cài đặt. Thao tác này sẽ cho phép bạn truy cập vào tất cả các tính năng kỳ diệu mà Aspose.Cells cung cấp.
+Trong dự án của bạn, hãy đi tới `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`Tìm kiếm Aspose.Cells và nhấn cài đặt. Thao tác này sẽ cho phép bạn truy cập vào tất cả các tính năng kỳ diệu mà Aspose.Cells cung cấp.
 ### Thêm Sử dụng Chỉ thị
- Ở đầu trang của bạn`Program.cs`tệp, bạn cần bao gồm các lệnh sau:
+Ở đầu trang của bạn `Program.cs` tệp, bạn cần bao gồm các lệnh sau:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -42,15 +44,15 @@ Với thiết lập đó, chúng ta hãy chia nhỏ mã thành các bước rõ 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế trên hệ thống của bạn nơi tệp Excel nằm. Đây là nơi chương trình của chúng tôi sẽ tìm kiếm tệp. Đảm bảo rằng nó được thiết kế hoàn hảo như một bản đồ hướng dẫn chúng ta đến kho báu!
+Thay thế `"Your Document Directory"` với đường dẫn thực tế trên hệ thống của bạn nơi tệp Excel nằm. Đây là nơi chương trình của chúng tôi sẽ tìm kiếm tệp. Đảm bảo rằng nó được thiết kế hoàn hảo như một bản đồ hướng dẫn chúng ta đến kho báu!
 ## Bước 2: Tạo luồng tệp
 Bây giờ, chúng ta mở tệp Excel bằng FileStream. 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Sử dụng`FileMode.Open` cho ứng dụng biết rằng chúng ta muốn mở một tệp hiện có. Giống như nói, "Này, tôi muốn xem một cái gì đó đã có ở đây!"
+Sử dụng `FileMode.Open` cho ứng dụng biết rằng chúng ta muốn mở một tệp hiện có. Giống như nói, "Này, tôi muốn xem một cái gì đó đã có ở đây!"
 ## Bước 3: Khởi tạo một đối tượng Workbook
- Tiếp theo, chúng ta khởi tạo`Workbook` đối tượng. Đối tượng này đại diện cho toàn bộ tệp Excel. 
+Tiếp theo, chúng ta khởi tạo `Workbook` đối tượng. Đối tượng này đại diện cho toàn bộ tệp Excel. 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -60,7 +62,7 @@ Khi bạn đã có sổ làm việc, bạn có thể truy cập từng trang tí
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Đây,`Worksheets[0]` tham chiếu đến trang tính đầu tiên trong bảng tính. 
+Đây, `Worksheets[0]` tham chiếu đến trang tính đầu tiên trong bảng tính. 
 ## Bước 5: Thiết lập Chiều cao Hàng
 Bây giờ đến phần thú vị: thiết lập chiều cao của hàng! 
 ```csharp
@@ -86,16 +88,18 @@ Ai mà biết được một chút mã hóa có thể thay đổi cách bạn x�
 ### Aspose.Cells hỗ trợ những phiên bản .NET nào?
 Aspose.Cells cho .NET tương thích với nhiều phiên bản của .NET Framework, bao gồm .NET Core.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells [đây](https://releases.aspose.com/).
 ### Aspose.Cells có thể xử lý những định dạng Excel nào?
 Aspose.Cells hỗ trợ nhiều định dạng như XLSX, XLS, CSV, v.v.
 ### Aspose.Cells có phù hợp cho các ứng dụng phía máy chủ không?
 Chắc chắn rồi! Aspose.Cells được thiết kế để xử lý nhiều ứng dụng khác nhau, bao gồm cả xử lý phía máy chủ.
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể xem tài liệu chi tiết về Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể xem tài liệu chi tiết về Aspose.Cells [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

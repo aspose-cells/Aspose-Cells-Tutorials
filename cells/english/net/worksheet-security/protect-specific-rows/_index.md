@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-specific-rows/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Specific Rows in Worksheet using Aspose.Cells
@@ -121,6 +123,7 @@ You can remove protection by calling the `Unprotect` method on the worksheet and
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

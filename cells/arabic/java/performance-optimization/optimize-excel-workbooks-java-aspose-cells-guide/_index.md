@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "تعلم كيفية تحسين مصنفات Excel في Java باستخدام Aspose.Cells لتحسين الأداء وتقليل استخدام الذاكرة. يغطي هذا الدليل تكوين المصنفات، وإدارة أوراق العمل، ودمج الخلايا، والروابط التشعبية، وتقنيات الحفظ الفعالة."
+"description": "تعلم كيفية تحسين مصنفات Excel في Java باستخدام Aspose.Cells لتحسين الأداء وتقليل استخدام الذاكرة. يغطي هذا الدليل تكوين المصنفات، وإدارة أوراق العمل، ودمج الخلايا، والروابط التشعبية، وتقنيات الحفظ الفعّالة."
 "title": "تحسين مصنفات Excel في Java باستخدام Aspose.Cells - دليل الأداء"
 "url": "/ar/java/performance-optimization/optimize-excel-workbooks-java-aspose-cells-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ wb.save(outDir + "/Demo_out.xlsx", opt);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

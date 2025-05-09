@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ wb.save(outDir + "/outputDisableDownlevelRevealedComments_true.html", opts);
 
 1. **वेब रिपोर्टिंग**: टिप्पणियों को निजी रखते हुए वेब प्रदर्शन के लिए वित्तीय रिपोर्टों को स्वचालित रूप से HTML में परिवर्तित करें।
 2. **दस्तावेज़ प्रबंधन प्रणालियाँ**: ऑनलाइन अपलोड करने से पहले गोपनीय एनोटेशन वाले दस्तावेज़ तैयार करने के लिए Aspose.Cells का उपयोग करें।
-3. **डेटा शेयरिंग प्लेटफ़ॉर्म**: साझा HTML प्रारूप में संवेदनशील नोट्स या टिप्पणियों को उजागर किए बिना Excel डेटा साझा करें।
+3. **डेटा शेयरिंग प्लेटफॉर्म**: साझा HTML प्रारूप में संवेदनशील नोट्स या टिप्पणियों को उजागर किए बिना Excel डेटा साझा करें।
 
 एकीकरण संभावनाओं में इस रूपांतरण प्रक्रिया को बड़े जावा-आधारित अनुप्रयोगों से जोड़ना शामिल है, जैसे स्वचालित रिपोर्टिंग उपकरण या दस्तावेज़ प्रसंस्करण पाइपलाइन।
 
@@ -160,6 +162,9 @@ wb.save(outDir + "/outputDisableDownlevelRevealedComments_true.html", opts);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

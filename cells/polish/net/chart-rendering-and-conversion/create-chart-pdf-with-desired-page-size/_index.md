@@ -1,14 +1,16 @@
 ---
-title: Utwórz wykres PDF z żądanym rozmiarem strony
-linktitle: Utwórz wykres PDF z żądanym rozmiarem strony
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Utwórz plik PDF z wykresem programu Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak to zrobić, korzystając z tego przewodnika krok po kroku.
-weight: 12
-url: /pl/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": "Utwórz plik PDF z wykresem programu Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak to zrobić, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Utwórz wykres PDF z żądanym rozmiarem strony"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz wykres PDF z żądanym rozmiarem strony"
+"url": "/pl/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wykres PDF z żądanym rozmiarem strony
@@ -27,11 +29,11 @@ Będziesz potrzebować podstawowej wiedzy na temat programowania w języku C# i 
 
 ### Aspose.Cells dla .NET
 
-Upewnij się, że masz zainstalowany Aspose.Cells dla .NET. Wszystkie szczegóły znajdziesz na[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/). 
+Upewnij się, że masz zainstalowany Aspose.Cells dla .NET. Wszystkie szczegóły znajdziesz na [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 ### Środowisko programistyczne
 
- Skonfiguruj środowisko programistyczne. Może to być Visual Studio lub dowolne inne IDE obsługujące C#. Pobierz i zainstaluj bibliotekę Aspose.Cells z[strona do pobrania](https://releases.aspose.com/cells/net/).
+Skonfiguruj środowisko programistyczne. Może to być Visual Studio lub dowolne inne IDE obsługujące C#. Pobierz i zainstaluj bibliotekę Aspose.Cells z [strona do pobrania](https://releases.aspose.com/cells/net/).
 
 ### Przykładowy plik Excela
 
@@ -77,7 +79,7 @@ Następnie musisz załadować plik Excel zawierający wykres. Oto jak to zrobić
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
- Ten`Workbook` Klasa jest kluczowa dla interakcji z dokumentem Excel. Upewnij się, że ścieżka wskazuje poprawnie plik Excel — błąd w tym miejscu uniemożliwi wykonanie reszty kodu.
+Ten `Workbook` Klasa jest kluczowa dla interakcji z dokumentem Excel. Upewnij się, że ścieżka wskazuje poprawnie plik Excel — błąd w tym miejscu uniemożliwi wykonanie reszty kodu.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -88,7 +90,7 @@ Po załadowaniu skoroszytu następnym krokiem jest uzyskanie dostępu do arkusza
 Worksheet ws = wb.Worksheets[0];
 ```
 
- W Aspose.Cells arkusze kalkulacyjne są indeksowane od zera, więc`Worksheets[0]` odnosi się do pierwszego arkusza.
+W Aspose.Cells arkusze kalkulacyjne są indeksowane od zera, więc `Worksheets[0]` odnosi się do pierwszego arkusza.
 
 ## Krok 4: Uzyskaj dostęp do pierwszego wykresu
 
@@ -112,12 +114,12 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 
 W tym kodzie:
 - Plik PDF zostanie zapisany w określonym wcześniej katalogu wyjściowym.
--  Księga Liczb`7, 7` reprezentują odpowiednio szerokość i wysokość pożądanego rozmiaru strony.
+- Księga Liczb `7, 7` reprezentują odpowiednio szerokość i wysokość pożądanego rozmiaru strony.
 - PageLayoutAlignmentType.Center zapewnia wyśrodkowanie wykresu na stronie.
 
 ## Krok 6: Wiadomość potwierdzająca
 
-Aby dać znać (i dać znać innym), że wszystko poszło gładko, na końcu kodu umieść komunikat potwierdzający:
+Aby dać znać (i innym), że wszystko przebiegło pomyślnie, na końcu kodu umieść komunikat potwierdzający:
 
 ```csharp
 Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
@@ -135,19 +137,21 @@ Gratulacje! Właśnie nauczyłeś się, jak wykorzystać Aspose.Cells dla .NET d
 Aspose.Cells for .NET służy do programistycznego tworzenia, edytowania i konwertowania dokumentów Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak, Aspose.Cells oferuje[bezpłatny okres próbny](https://releases.aspose.com/) w celach ewaluacyjnych.
+Tak, Aspose.Cells oferuje [bezpłatny okres próbny](https://releases.aspose.com/) celach ewaluacyjnych.
 
 ### Czy istnieje możliwość przedłużenia okresu próbnego poza okres początkowy?  
- Możesz złożyć wniosek o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do rozszerzonego testowania.
+Możesz złożyć wniosek o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do rozszerzonego testowania.
 
 ### Co zrobić, jeśli napotkam problemy lub będę miał pytania?  
- Możesz szukać pomocy u społeczności Aspose na ich stronie[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy u społeczności Aspose na ich stronie [forum wsparcia](https://forum.aspose.com/c/cells/9).
 
 ### Jak mogę kupić Aspose.Cells?  
- Możesz kupić Aspose.Cells w[strona zakupu](https://purchase.aspose.com/buy).
+Możesz kupić Aspose.Cells w [strona zakupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

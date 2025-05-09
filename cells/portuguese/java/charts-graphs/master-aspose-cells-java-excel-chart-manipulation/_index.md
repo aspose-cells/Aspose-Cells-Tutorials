@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Para mais exploração e informações detalhadas:
 Ao seguir este tutorial, você estará no caminho certo para se tornar proficiente no Aspose.Cells para Java, tornando a manipulação de gráficos do Excel muito mais fácil em seus projetos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

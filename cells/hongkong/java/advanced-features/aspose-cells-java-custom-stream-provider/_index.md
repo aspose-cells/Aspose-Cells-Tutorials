@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 在內部實施適當的異常處理 `initStream` 優雅地管理檔案讀取錯誤或資源不可用。
 
 **Q3：Aspose.Cells 可以處理的資源數量有限制嗎？**
-儘管 Aspose.Cells 非常強大，但性能可能會隨著資源數量的增加而變化。監控應用程式的記憶體使用情況並在必要時進行最佳化。
+儘管 Aspose.Cells 非常強大，但性能可能會隨著大量資源而變化。監控應用程式的記憶體使用情況並在必要時進行最佳化。
 
 **Q4：我可以將此設定用於非影像資源嗎？**
 是的，您可以透過修改流程提供者實作來擴展此方法來管理其他類型的外部資源。
@@ -190,6 +192,9 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

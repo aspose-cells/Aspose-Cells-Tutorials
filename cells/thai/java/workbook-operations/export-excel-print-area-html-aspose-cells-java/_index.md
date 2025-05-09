@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ Workbook wb = new Workbook(dataDir + "/sampleInlineCharts.xlsx");
 - **`Workbook` ระดับ**: หมายถึงไฟล์ Excel โหลดเวิร์กบุ๊กจากเส้นทางที่คุณระบุลงในหน่วยความจำ
 - **พารามิเตอร์**:ตัวสร้างรับอาร์กิวเมนต์สตริงเพื่อระบุตำแหน่งของไฟล์
 
-### คุณสมบัติ 2: ตั้งค่าพื้นที่พิมพ์ในเวิร์กชีต
+### คุณลักษณะที่ 2: ตั้งค่าพื้นที่การพิมพ์ในเวิร์กชีต
 
 **ภาพรวม**
 
@@ -228,6 +230,9 @@ wb.save(outDir + "/outputInlineCharts.html", options);
 - **สนับสนุน:** รับความช่วยเหลือจากชุมชนหรือทีมสนับสนุน Aspose บน [ฟอรั่ม](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

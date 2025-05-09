@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 데이터 검증 규칙
@@ -42,9 +44,11 @@ Aspose.Cells for Java를 사용하여 Excel에서 데이터 유효성 검사를 
 Aspose.Cells for Java를 사용하여 조건부 데이터 유효성 검사를 구현하는 방법을 알아보세요. Excel 스프레드시트에서 정확한 데이터 처리를 위한 소스 코드와 함께 제공되는 단계별 가이드입니다.
 ### [데이터 검증의 입력 메시지](./input-message-in-data-validation/)
 Aspose.Cells for Java를 사용하여 Excel에서 데이터 유효성 검사를 강화하는 방법을 알아보세요. 데이터 정확도를 높이고 사용자 지침을 제공하는 코드 예제가 포함된 단계별 가이드입니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

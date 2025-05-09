@@ -8,7 +8,9 @@ url: /net/row-and-column-management/grouping-rows-and-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Group Rows and Columns in Excel with Aspose.Cells
@@ -109,6 +111,7 @@ Yes! You can create conditional grouping by incorporating logic into your code b
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

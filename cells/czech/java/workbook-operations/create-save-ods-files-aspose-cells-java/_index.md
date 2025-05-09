@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ A5: Ano, Aspose.Cells lze bez problémů integrovat s různými Java frameworky 
 Vydejte se na svou cestu s Aspose.Cells pro Javu ještě dnes a zjednodušte si správu tabulek!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

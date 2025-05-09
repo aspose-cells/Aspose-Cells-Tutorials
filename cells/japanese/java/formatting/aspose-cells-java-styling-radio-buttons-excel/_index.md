@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 
 **学習内容:**
 - Java でワークシートを作成し、スタイルを設定する
-- ユーザーインタラクションを強化するためにラジオボタンコントロールを追加する
+- ユーザーインタラクションを強化するためのラジオボタンコントロールの追加
 - これらの機能を使用してワークブックを保存する
 
 このチュートリアルを終える頃には、プロレベルの動的なExcelレポートを作成できるようになります。まずは、これらの機能を実装する前に必要な前提条件を確認しましょう。
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### 説明：
-- **`Workbook`**: Excel ファイルを表します。
+- **`Workbook`**Excel ファイルを表します。
 - **`Worksheet`**: ワークブック内のシートを参照します。
 - **`Cells`**: ワークシート内のセルの集合。
 - **`Style`**: セルの書式設定に使用されます。
@@ -200,6 +202,9 @@ Aspose.Cells for Java を使用する場合は、次のヒントを考慮して�
 - **ドキュメント**包括的なガイドとAPIリファレンスは以下にあります。 [Aspose.Cells ドキュメント](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

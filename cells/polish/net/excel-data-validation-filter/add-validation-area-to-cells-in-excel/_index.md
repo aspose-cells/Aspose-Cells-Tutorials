@@ -1,14 +1,16 @@
 ---
-title: Dodaj obszar walidacji do komórek w programie Excel
-linktitle: Dodaj obszar walidacji do komórek w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się dodawać obszary walidacji w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Zwiększ integralność swoich danych.
-weight: 11
-url: /pl/net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/
+"description": "Naucz się dodawać obszary walidacji w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Zwiększ integralność swoich danych."
+"linktitle": "Dodaj obszar walidacji do komórek w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj obszar walidacji do komórek w programie Excel"
+"url": "/pl/net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obszar walidacji do komórek w programie Excel
@@ -21,11 +23,11 @@ Czy kiedykolwiek czułeś się przytłoczony ogromną ilością danych w arkusza
 
 Zanim zanurzysz się w naszych przygodach z Excelem, upewnijmy się, że wszystko masz uporządkowane. Oto, czego będziesz potrzebować:
 
-1.  Aspose.Cells for .NET Library: Ta biblioteka jest Twoim narzędziem do zarządzania plikami Excel. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library: Ta biblioteka jest Twoim narzędziem do zarządzania plikami Excel. Jeśli jeszcze jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 2. Visual Studio: Potrzebujemy przyjaznego środowiska do zabawy z naszymi kodami. Przygotuj Visual Studio.
 3. Podstawowa znajomość języka C#: Nie musisz być mistrzem programowania, ale dobra znajomość języka C# ułatwi Ci pracę.
 4. Działający projekt .NET: Czas utworzyć lub wybrać istniejący projekt, aby zintegrować naszą funkcjonalność.
-5.  Plik Excela: W naszym samouczku będziemy pracować z plikiem Excela o nazwie`ValidationsSample.xlsx`. Upewnij się, że jest on dostępny w katalogu Twojego projektu.
+5. Plik Excela: W naszym samouczku będziemy pracować z plikiem Excela o nazwie `ValidationsSample.xlsx`. Upewnij się, że jest on dostępny w katalogu Twojego projektu.
 
 ## Importuj pakiety
 
@@ -122,19 +124,21 @@ Udało Ci się! Postępując zgodnie z tymi krokami, pomyślnie dodałeś obszar
 Walidacja danych to funkcja, która ogranicza typ danych wprowadzanych do komórek. Zapewnia użytkownikom wprowadzanie prawidłowych wartości, zachowując w ten sposób integralność danych.
 
 ### Jak pobrać Aspose.Cells dla .NET?
- Możesz pobrać stąd[połączyć](https://releases.aspose.com/cells/net/).
+Możesz pobrać stąd [połączyć](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Możesz łatwo zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
+Tak! Możesz łatwo zacząć od bezpłatnego okresu próbnego dostępnego [Tutaj](https://releases.aspose.com/).
 
 ### Jakie języki programowania są obsługiwane przez Aspose?
 Aspose oferuje biblioteki dla różnych języków programowania, w tym C#, Java, Python i innych.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Możesz szukać pomocy u nich[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy u nich [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

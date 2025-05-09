@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Kolejne kroki obejmują eksperymentowanie z różnymi typami plików, integrowan
 Postępując zgodnie z tym przewodnikiem, jesteś teraz wyposażony do implementacji wykrywania formatu pliku dla zaszyfrowanych plików przy użyciu Aspose.Cells w Javie. Udanego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

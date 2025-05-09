@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@
 - Personalice la orientación de la página, la configuración de ajuste a la página, el tamaño del papel, la calidad de impresión y más.
 - Implementar soluciones prácticas para aplicaciones del mundo real
 
-¡Profundicemos en los requisitos previos que necesitas para comenzar a utilizar esta poderosa biblioteca!
+¡Veamos los requisitos previos que necesitas para comenzar a utilizar esta poderosa biblioteca!
 
 ## Prerrequisitos
 
@@ -234,6 +236,9 @@ Explora estos recursos para profundizar tu comprensión y ampliar tus capacidade
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

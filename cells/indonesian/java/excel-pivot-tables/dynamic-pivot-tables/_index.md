@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabel Pivot Dinamis
@@ -22,7 +24,7 @@ Tabel pivot adalah tabel interaktif yang memungkinkan Anda meringkas dan mengana
 
 ## Langkah 1: Mengimpor Pustaka Aspose.Cells
 
-Sebelum kita dapat membuat tabel pivot dinamis, kita perlu mengimpor pustaka Aspose.Cells ke dalam proyek Java kita. Anda dapat mengunduh pustaka tersebut dari rilis Aspose [Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum kita dapat membuat tabel pivot dinamis, kita perlu mengimpor pustaka Aspose.Cells ke dalam proyek Java kita. Anda dapat mengunduh pustaka tersebut dari rilis Aspose [itt](https://releases.aspose.com/cells/java/).
 
 Setelah Anda mengunduh pustaka, tambahkan ke jalur pembuatan proyek Anda.
 
@@ -31,18 +33,18 @@ Setelah Anda mengunduh pustaka, tambahkan ke jalur pembuatan proyek Anda.
 Untuk bekerja dengan tabel pivot, pertama-tama kita perlu memuat buku kerja yang berisi data yang ingin kita analisis. Anda dapat melakukannya dengan menggunakan kode berikut:
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
-Mengganti `"your_excel_file.xlsx"` dengan jalur ke berkas Excel Anda.
+Csere `"your_excel_file.xlsx"` dengan jalur ke berkas Excel Anda.
 
 ## Langkah 3: Membuat Tabel Pivot
 
 Sekarang setelah kita memuat buku kerja, mari buat tabel pivot. Kita perlu menentukan rentang data sumber untuk tabel pivot dan lokasi tempat kita ingin meletakkannya di lembar kerja. Berikut contohnya:
 
 ```java
-// Dapatkan lembar kerja pertama
+// Szerezd meg az első munkalapot
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Tentukan rentang data untuk tabel pivot
@@ -80,7 +82,7 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kita telah mempelajari cara membuat tabel pivot dinamis menggunakan Aspose.Cells untuk API Java. Tabel pivot adalah alat yang berharga untuk analisis data, dan dengan Aspose.Cells, Anda dapat mengotomatiskan pembuatan dan manipulasi tabel pivot dalam aplikasi Java Anda.
 
@@ -107,9 +109,11 @@ Ya, Anda dapat menerapkan filter ke tabel pivot untuk menampilkan subset data te
 ### Q5: Apakah Aspose.Cells mendukung fitur tabel pivot tingkat lanjut Excel?
 
 Ya, Aspose.Cells menyediakan dukungan luas untuk fitur tabel pivot Excel yang canggih, memungkinkan Anda membuat tabel pivot yang kompleks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

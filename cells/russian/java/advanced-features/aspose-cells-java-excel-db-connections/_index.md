@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 ## Предпосылки
 Перед внедрением нашего решения убедитесь, что у вас есть следующее:
 
-1. **Требуемые библиотеки:** Библиотека Aspose.Cells для Java версии 25.3.
+1. **Необходимые библиотеки:** Библиотека Aspose.Cells для Java версии 25.3.
 2. **Требования к настройке среды:** Среда разработки с Maven или Gradle в качестве менеджера зависимостей.
 3. **Необходимые знания:** Базовые знания программирования на Java и работы с Excel приветствуются.
 
@@ -167,6 +169,9 @@ for (int i = 0; i < connectionCount; i++) {
    - Временная лицензия позволяет вам изучить все возможности Aspose.Cells в течение пробного периода.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

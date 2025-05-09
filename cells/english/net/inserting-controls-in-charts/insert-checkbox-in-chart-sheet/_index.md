@@ -8,7 +8,9 @@ url: /net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Checkbox in Chart Sheet
@@ -151,6 +153,7 @@ Aspose provides a support forum where you can ask questions and find solutions. 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

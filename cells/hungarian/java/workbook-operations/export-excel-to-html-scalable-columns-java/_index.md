@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,7 +197,7 @@ A következő lépések magukban foglalhatják az Aspose.Cells egyéb funkcióin
 5. **Milyen más formátumokat tud kezelni az Aspose.Cells az Excelen kívül?**
    - Az Excel fájlok (XLS, XLSX) mellett támogatja a CSV, PDF és egyebeket is.
 
-További információkért és dokumentációért látogassa meg a [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/).
+További információkért és dokumentációért látogassa meg a [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/).
 
 ## Erőforrás
 
@@ -209,6 +211,9 @@ További információkért és dokumentációért látogassa meg a [Aspose.Cells
 Kezdje el az Excel fájlkezelés elsajátításának útját az Aspose.Cells for Java segítségével, és fejlessze adatprezentációját még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

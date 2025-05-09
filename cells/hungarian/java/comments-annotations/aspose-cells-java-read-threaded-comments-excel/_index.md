@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Paraméterek és módszerek
 - **Munkafüzet**: A teljes Excel fájlt jelöli.
-- **Munkalap**: A munkafüzet egyetlen munkalapjára utal.
+- **Munkalap**A munkafüzet egyetlen munkalapjára utal.
 - **Menetes megjegyzésgyűjtemény**Egy cellához társított megjegyzések gyűjteménye.
 
 ## Gyakorlati alkalmazások
@@ -148,6 +150,9 @@ Készen állsz mélyebbre merülni? Próbáld ki ezt a megoldást a saját proje
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/excel-data-security/workbook-encryption-methods/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Workbook Encryption Methods
@@ -106,6 +108,7 @@ Aspose.Cells for Java primarily focuses on Excel workbooks, but it may offer enc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

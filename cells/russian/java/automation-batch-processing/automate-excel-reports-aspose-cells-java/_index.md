@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Перебрать ячейки в столбце, определить ма
 Используя эти ресурсы, вы будете полностью готовы к дальнейшему совершенствованию своих навыков и реализации более сложных задач автоматизации Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

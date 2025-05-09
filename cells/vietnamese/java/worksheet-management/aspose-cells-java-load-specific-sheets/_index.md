@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Xử lý các tệp Excel lớn có thể là một thách thức. Thông thường, các nhà phát triển chỉ cần truy cập vào các bảng tính cụ thể trong một sổ làm việc, tránh xử lý dữ liệu không liên quan không cần thiết. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng **Aspose.Cells cho Java** để tải và thao tác các bảng tính đã chọn một cách hiệu quả, tối ưu hóa cả hiệu suất và việc sử dụng tài nguyên.
 
-Đến cuối bài viết này, bạn sẽ học được:
+Đến cuối bài viết này, bạn sẽ biết:
 - Cách thiết lập Aspose.Cells trong môi trường Java của bạn
 - Các bước để tải các trang tính cụ thể trong sổ làm việc Excel
 - Ứng dụng thực tế và mẹo tích hợp
@@ -204,6 +206,9 @@ Bạn đã sẵn sàng nâng cao kỹ năng xử lý Java Excel của mình chư
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

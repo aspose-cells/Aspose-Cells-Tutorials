@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ public class EnumConversion {
 ### Carregando arquivo Excel e acessando dados do gráfico
 **Visão geral**: Este recurso demonstra como carregar um arquivo Excel existente, acessar uma planilha e recuperar dados de gráfico usando o Aspose.Cells.
 
-#### Etapa 1: Importar os pacotes necessários
+#### Etapa 1: Importar pacotes necessários
 ```java
 import com.aspose.cells.*;
 ```
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 Seguindo este guia, você adquiriu as habilidades necessárias para utilizar o Aspose.Cells no gerenciamento de gráficos do Excel e na manipulação de enumerações. Esses recursos podem aprimorar significativamente seus aplicativos Java, fornecendo recursos poderosos de manipulação de dados. Continue explorando a documentação da biblioteca para funcionalidades mais avançadas e boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

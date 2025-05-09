@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Single Sheet Tab Name in HTML Export
@@ -117,6 +119,7 @@ Absolutely! By setting `options.ExportHiddenWorksheet = true;`, hidden sheets ar
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

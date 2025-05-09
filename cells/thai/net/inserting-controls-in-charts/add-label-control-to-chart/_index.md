@@ -1,14 +1,16 @@
 ---
-title: เพิ่มการควบคุมฉลากลงในแผนภูมิ
-linktitle: เพิ่มการควบคุมฉลากลงในแผนภูมิ
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีเพิ่มตัวควบคุมป้ายกำกับลงในแผนภูมิของคุณใน Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ปรับปรุงการแสดงภาพข้อมูลของคุณ
-weight: 10
-url: /th/net/inserting-controls-in-charts/add-label-control-to-chart/
+"description": "เรียนรู้วิธีเพิ่มตัวควบคุมป้ายกำกับลงในแผนภูมิของคุณใน Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ปรับปรุงการแสดงภาพข้อมูลของคุณ"
+"linktitle": "เพิ่มการควบคุมฉลากลงในแผนภูมิ"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "เพิ่มการควบคุมฉลากลงในแผนภูมิ"
+"url": "/th/net/inserting-controls-in-charts/add-label-control-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มการควบคุมฉลากลงในแผนภูมิ
@@ -22,7 +24,7 @@ url: /th/net/inserting-controls-in-charts/add-label-control-to-chart/
 ก่อนที่เราจะเจาะลึกรายละเอียด มาดูสิ่งที่คุณต้องเริ่มต้นกันก่อน:
 
 - ความรู้พื้นฐานเกี่ยวกับ C#: การเข้าใจพื้นฐานของการเขียนโปรแกรม C# ถือเป็นสิ่งสำคัญ หากคุณเป็นมือใหม่ ไม่ต้องกังวล เพราะขั้นตอนต่างๆ จะชัดเจนและกระชับ
-- ไลบรารี Aspose.Cells: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells แล้ว คุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หากคุณยังไม่ได้ติดตั้ง ให้ลองดู[ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/net/) สำหรับห้องสมุด
+- ไลบรารี Aspose.Cells: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells แล้ว คุณสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio หากคุณยังไม่ได้ติดตั้ง ให้ลองดู [ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/net/) สำหรับห้องสมุด
 - Visual Studio: คุณจะต้องมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio เพื่อเขียนและดำเนินการโค้ดของคุณ
 
 ## แพ็คเกจนำเข้า
@@ -68,7 +70,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- ที่นี่เราใช้`Workbook` คลาสจาก Aspose.Cells เพื่อเปิดไฟล์ Excel ของเรา เหมือนกับการปลดล็อกประตูเพื่อให้ความคิดสร้างสรรค์ไหลลื่น!
+ที่นี่เราใช้ `Workbook` คลาสจาก Aspose.Cells เพื่อเปิดไฟล์ Excel ของเรา เหมือนกับการปลดล็อกประตูเพื่อให้ความคิดสร้างสรรค์ไหลลื่น!
 
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงาน
 
@@ -100,7 +102,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- ที่นี่,`AddLabelInChart` ช่วยสร้างป้ายกำกับตามพิกัดและขนาดที่คุณระบุ เหมือนกับการติดกรอบสวยๆ ไว้รอบงานศิลปะของคุณ!
+ที่นี่, `AddLabelInChart` ช่วยสร้างป้ายกำกับตามพิกัดและขนาดที่คุณระบุ เหมือนกับการติดกรอบสวยๆ ไว้รอบงานศิลปะของคุณ!
 
 ## ขั้นตอนที่ 6: ตั้งค่าข้อความป้ายกำกับ
 
@@ -122,7 +124,7 @@ label.Text = "A Label In Chart";
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
-ลองคิดดูว่าขั้นตอนนี้จะทำให้ฉลากของคุณมีอิสระในการเคลื่อนตัวไปรอบๆ ผืนผ้าใบได้ ฉลากจะมีเอกลักษณ์เฉพาะตัว!
+ลองคิดดูว่าขั้นตอนนี้เหมือนกับการให้ฉลากของคุณมีอิสระในการเคลื่อนไปรอบๆ ผืนผ้าใบ ฉลากจะมีเอกลักษณ์เฉพาะตัว!
 
 ## ขั้นตอนที่ 8: บันทึกสมุดงาน
 
@@ -155,7 +157,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ใช่! คุณสามารถเปลี่ยนแบบอักษร สี ขนาด และคุณสมบัติอื่นๆ ของฉลากให้เหมาะกับความต้องการของคุณได้
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
- Aspose.Cells เป็นผลิตภัณฑ์ที่ต้องชำระเงิน อย่างไรก็ตาม คุณสามารถเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติของมัน
+Aspose.Cells เป็นผลิตภัณฑ์ที่ต้องชำระเงิน อย่างไรก็ตาม คุณสามารถเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติของมัน
 
 ### หากฉันต้องการเพิ่มฉลากหลายรายการจะทำอย่างไร
 คุณสามารถทำซ้ำขั้นตอนการเพิ่มฉลากได้มากเท่าที่จำเป็น โดยแต่ละขั้นตอนจะมีตำแหน่งและข้อความที่แตกต่างกัน
@@ -164,10 +166,12 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 หากคุณตั้งค่าประเภทการวางเป็นคงที่ ประเภทการวางจะเคลื่อนที่ไปพร้อมกับข้อมูลแผนภูมิ หากเป็นแบบลอยอิสระ ประเภทการวางจะยังคงอยู่ในตำแหน่งที่ระบุ
 
 ### ฉันสามารถหาเอกสาร Aspose.Cells ที่มีรายละเอียดเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำที่ครอบคลุมและการอ้างอิง API
+ตรวจสอบออก [เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำที่ครอบคลุมและการอ้างอิง API
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

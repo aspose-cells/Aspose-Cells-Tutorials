@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datamaskeringstekniker
@@ -16,7 +18,7 @@
 
 ## Introduktion
 
-I datasäkerhetens värld är det av största vikt att skydda känslig information. Datamaskering, även känd som dataanonymisering, är en viktig teknik som används för att skydda konfidentiella data samtidigt som dess användbarhet bibehålls. Den här artikeln utforskar hur man implementerar datamaskeringstekniker med Aspose.Cells för Java, ett kraftfullt API för att arbeta med Excel-filer. Vi går igenom processen steg för steg och ger kodexempel och insikter längs vägen.
+datasäkerhetens värld är det av största vikt att skydda känslig information. Datamaskering, även känd som dataanonymisering, är en viktig teknik som används för att skydda konfidentiella data samtidigt som dess användbarhet bibehålls. Den här artikeln utforskar hur man implementerar datamaskeringstekniker med Aspose.Cells för Java, ett kraftfullt API för att arbeta med Excel-filer. Vi går igenom processen steg för steg och ger kodexempel och insikter längs vägen.
 
 ## Förkunskapskrav
 
@@ -133,6 +135,7 @@ För att utforska bästa praxis för datamaskering och datasäkerhet, överväg 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 Trong thế giới dữ liệu ngày nay, việc quản lý và phân tích hiệu quả các tập dữ liệu lớn là rất quan trọng để đưa ra quyết định sáng suốt. Tuy nhiên, việc xử lý các bảng tính phức tạp có thể rất khó khăn. Hướng dẫn toàn diện này sẽ hướng dẫn bạn sử dụng Aspose.Cells for Java để làm chủ các bảng trục, đơn giản hóa đáng kể các tác vụ phân tích dữ liệu của bạn.
 
 **Những gì bạn sẽ học được:**
-- Cách tải một bảng tính từ một thư mục được chỉ định.
+- Cách tải bảng tính từ một thư mục được chỉ định.
 - Truy cập các bảng trục cụ thể trong một bảng tính.
 - Hiển thị các trang lọc báo cáo bằng cách sử dụng đối tượng trường hoặc theo chỉ mục và tên.
 - Lưu bảng tính đã sửa đổi một cách hiệu quả.
@@ -186,6 +188,9 @@ Bằng cách làm theo hướng dẫn này, bạn sẽ có được các kỹ n�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

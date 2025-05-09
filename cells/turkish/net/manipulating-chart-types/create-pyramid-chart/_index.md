@@ -1,14 +1,16 @@
 ---
-title: Piramit Grafiği Oluştur
-linktitle: Piramit Grafiği Oluştur
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de piramit grafiğinin nasıl kolayca oluşturulacağını öğrenin. Veri görselleştirme için mükemmeldir.
-weight: 13
-url: /tr/net/manipulating-chart-types/create-pyramid-chart/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de piramit grafiğinin nasıl kolayca oluşturulacağını öğrenin. Veri görselleştirme için mükemmeldir."
+"linktitle": "Piramit Grafiği Oluştur"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Piramit Grafiği Oluştur"
+"url": "/tr/net/manipulating-chart-types/create-pyramid-chart/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Piramit Grafiği Oluştur
@@ -24,14 +26,14 @@ Piramit grafiklerinin heyecan verici dünyasına dalmadan önce, sorunsuz bir se
 ### C# ve .NET'in Temel Bilgileri
 C# ve .NET geliştirme konusunda temel bir anlayışa sahip olmalısınız. Visual Studio ortamına aşinalık da faydalı olacaktır.
 
-### Aspose.Cells for .NET Kütüphanesi
- Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu doğrudan şuradan indirebilirsiniz:[Aspose.Cells for .NET Sürüm Sayfası](https://releases.aspose.com/cells/net/)Kurulum talimatlarını izleyin veya NuGet Paket Yöneticisini kullanarak projenize kolayca dahil edin.
+### Aspose.Cells .NET Kütüphanesi
+Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu doğrudan şuradan indirebilirsiniz: [Aspose.Cells for .NET Sürüm Sayfası](https://releases.aspose.com/cells/net/)Kurulum talimatlarını izleyin veya NuGet Paket Yöneticisini kullanarak projenize kolayca dahil edin.
 
 ### Görsel Stüdyo
 Örnek programımızı kodlamak için çalışan bir Visual Studio kurulumu önerilir. 
 
 ### Lisanslama (İsteğe bağlı)
- Ücretsiz denemeyi deneyebilmenize rağmen[Ücretsiz Deneme bağlantısı](https://releases.aspose.com/) Üretim amaçlı kullanım için, ziyaret etmeyi düşünün[Satın alma bağlantısı](https://purchase.aspose.com/buy) veya geçici bir lisans almayı tercih edin[Geçici Lisans bağlantısı](https://purchase.aspose.com/temporary-license/).
+Ücretsiz denemeyi deneyebilmenize rağmen [Ücretsiz Deneme bağlantısı](https://releases.aspose.com/)Üretim amaçlı kullanım için, ziyaret etmeyi düşünün [Satın alma bağlantısı](https://purchase.aspose.com/buy) veya geçici bir lisans almayı tercih edin [Geçici Lisans bağlantısı](https://purchase.aspose.com/temporary-license/).
 
 Artık her şey hazır olduğuna göre, ellerimizi kirletmeye başlayalım!
 
@@ -62,7 +64,7 @@ Tamam, piramit grafiği oluşturma sürecini basit adımlara bölelim. Bu kılav
 string outputDir = "Your Output Directory";
 ```
 
- Değiştirdiğinizden emin olun`"Your Output Directory"` Bilgisayarınızda geçerli bir yol ile. Bu yol, oluşturulan Excel dosyanızın kaydedileceği yerdir.
+Değiştirdiğinizden emin olun `"Your Output Directory"` Bilgisayarınızda geçerli bir yol ile. Bu yol, oluşturulan Excel dosyanızın kaydedileceği yerdir.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -84,7 +86,7 @@ Her çalışma kitabı en az bir çalışma sayfası içerir. Burada çalışmak
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Referans vererek`Worksheets[0]`, doğrudan verilerimizi ve grafiğimizi ekleyeceğimiz ilk sayfayla etkileşime giriyoruz.
+Referans vererek `Worksheets[0]`, doğrudan verilerimizi ve grafiğimizi ekleyeceğimiz ilk sayfayla etkileşime giriyoruz.
 
 ## Adım 4: Hücrelere Örnek Veriler Ekleyin
 
@@ -111,7 +113,7 @@ Burada, A1'den A3'e (piramidin etiketleri veya seviyeleri) ve B1'den B3'e (bu se
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pyramid, 5, 0, 25, 10);
 ```
 
- Bu satırda grafik türünü şu şekilde belirtiyoruz:`Pyramid` ve satır ve sütun dizinlerini kullanarak çalışma sayfasındaki konumunu tanımlayın. Bu, duvarınıza bir resim çerçevelemeye benzer - en iyi nerede görüneceğini seçmeniz gerekir!
+Bu satırda grafik türünü şu şekilde belirtiyoruz: `Pyramid` ve satır ve sütun dizinlerini kullanarak çalışma sayfasındaki konumunu tanımlayın. Bu, duvarınıza bir resim çerçevelemeye benzer - en iyi nerede görüneceğini seçmeniz gerekir!
 
 ## Adım 6: Yeni Eklenen Tabloya Erişim
 
@@ -144,7 +146,7 @@ Son olarak, şaheserimizi kaydetme zamanı geldi. Excel çalışma kitabını bi
 workbook.Save(outputDir + "outputHowToCreatePyramidChart.xlsx");
 ```
 
- Bu eylem, adında bir Excel dosyası oluşturacaktır.`outputHowToCreatePyramidChart.xlsx` belirttiğiniz çıktı dizininde.
+Bu eylem, adında bir Excel dosyası oluşturacaktır. `outputHowToCreatePyramidChart.xlsx` belirttiğiniz çıktı dizininde.
 
 ## Adım 9: Konsol Onayı
 
@@ -175,10 +177,12 @@ Birkaçını saymak gerekirse, çubuk, çizgi, pasta, alan ve piramit grafikleri
 Aspose.Cells ile sorunsuz bir şekilde çalışmak için makinenizde Visual Studio gibi .NET geliştirme araçlarının kurulu olduğundan emin olun.
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Destek için şu adresi ziyaret edebilirsiniz:[Aspose.Cells Destek forumu](https://forum.aspose.com/c/cells/9).
+Destek için şu adresi ziyaret edebilirsiniz: [Aspose.Cells Destek forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

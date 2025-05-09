@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,6 +152,9 @@ Ready to put this into practice? Head over to the resources below for more infor
 Implementing this solution can greatly enhance your .NET applications' capabilities, ensuring you have a robust tool for converting Excel workbooks into TIFF images with ease.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

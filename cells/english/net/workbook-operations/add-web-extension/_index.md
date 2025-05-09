@@ -8,7 +8,9 @@ url: /net/workbook-operations/add-web-extension/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Web Extension to Workbook using Aspose.Cells
@@ -101,6 +103,7 @@ You can access the full documentation of Aspose.Cells [here](https://reference.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

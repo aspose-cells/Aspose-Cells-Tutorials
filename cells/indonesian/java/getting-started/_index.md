@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Mulailah perjalanan Anda dengan tutorial Aspose.Cells penting ini yang memandu Anda melalui penginstalan, konfigurasi lisensi, dan pembuatan dokumen Excel pertama Anda di Java. Panduan yang mudah dipahami bagi pemula kami menunjukkan cara menyiapkan lingkungan pengembangan Anda, menginisialisasi pustaka Aspose.Cells, dan melakukan operasi spreadsheet mendasar. Ikuti tutorial ini untuk menguasai dasar-dasar dengan cepat dan mempersiapkan diri untuk tugas otomatisasi Excel yang lebih canggih di aplikasi Java Anda.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi memulai
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -77,10 +79,13 @@ Pelajari cara memeriksa versi Aspose.Cells di proyek Java Anda dengan panduan le
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

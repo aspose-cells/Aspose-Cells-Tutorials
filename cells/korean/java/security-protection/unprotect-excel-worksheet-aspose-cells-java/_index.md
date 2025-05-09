@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,7 +175,7 @@ A: 사용하세요 `unprotect(String password)` 워크시트가 암호로 보호
 A: 물론입니다! Aspose.Cells for Java는 모든 Java 애플리케이션이나 프레임워크와 완벽하게 통합됩니다.
 
 **질문: 대용량 파일을 처리할 때 성능 제한이 있나요?**
-답변: Aspose.Cells는 효율성을 위해 최적화되어 있지만, 매우 큰 파일의 경우 특정 시트나 데이터 범위를 로드하여 리소스 사용을 최적화하는 것을 고려하세요.
+답변: Aspose.Cells는 효율성을 위해 최적화되어 있지만, 특정 시트나 데이터 범위를 로드하여 매우 큰 파일의 리소스 사용을 최적화하는 것을 고려하세요.
 
 ## 자원
 
@@ -186,6 +188,9 @@ A: 물론입니다! Aspose.Cells for Java는 모든 Java 애플리케이션이�
 오늘부터 Aspose.Cells for Java를 사용하여 Excel 파일 관리를 간소화하는 솔루션을 구현해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

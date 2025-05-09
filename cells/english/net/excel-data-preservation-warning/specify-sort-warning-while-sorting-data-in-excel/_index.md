@@ -8,7 +8,9 @@ url: /net/excel-data-preservation-warning/specify-sort-warning-while-sorting-dat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Sort Warning While Sorting Data in Excel
@@ -151,9 +153,11 @@ Absolutely! You can check out the free trial [here](https://releases.aspose.com/
 
 ### How can I get support for Aspose.Cells?  
 You can get assistance on the [Aspose support forum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

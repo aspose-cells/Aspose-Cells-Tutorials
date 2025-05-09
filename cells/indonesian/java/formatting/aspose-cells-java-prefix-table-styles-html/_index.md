@@ -7,39 +7,41 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Awalan Gaya Tabel dalam HTML dengan Aspose.Cells untuk Java
 
-## Perkenalan
-Ubah data Excel Anda menjadi format HTML yang menarik secara visual dengan mudah menggunakan Aspose.Cells untuk Java. Tutorial ini memandu Anda melalui penyempurnaan presentasi buku kerja dengan menambahkan gaya tabel dengan ID CSS khusus menggunakan `HtmlSaveOptions` kelas.
+## Bevezetés
+Ubah data Excel Anda menjadi format HTML yang menarik secara visual dengan mudah menggunakan Aspose.Cells untuk Java. Tutorial ini memandu Anda melalui penyempurnaan presentasi buku kerja dengan menambahkan gaya tabel dengan ID CSS khusus menggunakan `HtmlSaveOptions` osztály.
 
-**Mengapa Hal Ini Penting:**
+**Miért fontos ez:**
 Menetapkan ID CSS tertentu ke tabel Excel saat mengonversinya ke HTML meningkatkan aksesibilitas dan daya tarik visual, memfasilitasi integrasi web yang mulus.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java di lingkungan Anda.
 - Membuat dan memformat sel buku kerja.
 - Menyesuaikan keluaran HTML dengan `HtmlSaveOptions`.
-- Aplikasi praktis dari fitur ini.
+- Ennek a funkciónak a gyakorlati alkalmazásai.
 
 Pastikan Anda memenuhi prasyarat sebelum melanjutkan!
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikutinya, pastikan Anda memiliki:
+A folytatáshoz győződjön meg arról, hogy rendelkezik a következőkkel:
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak, verziók és függőségek
 - Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
 - Maven atau Gradle untuk manajemen ketergantungan.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) yang berfungsi telah terpasang.
 - IDE seperti IntelliJ IDEA atau Eclipse yang mendukung pengembangan Java.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan format Excel dan HTML akan bermanfaat namun bukanlah hal yang diwajibkan.
 
@@ -61,12 +63,12 @@ Sertakan pustaka Aspose.Cells dalam proyek Anda menggunakan Maven atau Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis:** [Unduh uji coba gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta lisensi sementara](https://purchase.aspose.com/temporary-license/)
-- **Pembelian:** [Beli lisensi untuk akses penuh](https://purchase.aspose.com/buy)
+### Licencbeszerzés lépései
+- **Ingyenes próbaverzió:** [Unduh uji coba gratis](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Vásárlás:** [Beli lisensi untuk akses penuh](https://purchase.aspose.com/buy)
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Inisialisasi Aspose.Cells di proyek Anda:
 
 ```java
@@ -83,18 +85,18 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat dan Memformat Sel Buku Kerja
 
-**Ringkasan:**
+**Áttekintés:**
 Mulailah dengan membuat buku kerja dan memformat sel untuk memastikan tampilan data yang efektif dalam keluaran HTML.
 
-#### Langkah 1: Buat Objek Buku Kerja
-Buat contoh dari `Workbook`, yang mewakili berkas Excel.
+#### 1. lépés: Munkafüzet-objektum létrehozása
+Hozz létre egy példányt a következőből: `Workbook`, yang mewakili berkas Excel.
 
 ```java
-// Membuat objek buku kerja
+// Munkafüzet objektum létrehozása
 Workbook wb = new Workbook();
 ```
 
@@ -102,7 +104,7 @@ Workbook wb = new Workbook();
 Akses sel tertentu untuk menerapkan gaya. Di sini, kita ubah warna font menjadi merah untuk penekanan.
 
 ```java
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet ws = wb.getWorksheets().get(0);
 
 // Akses sel B5 dan masukkan nilai di dalamnya
@@ -117,8 +119,8 @@ cell.setStyle(st);
 
 ### Menyesuaikan Output HTML dengan HtmlSaveOptions
 
-**Ringkasan:**
-Memanfaatkan `HtmlSaveOptions` untuk menyesuaikan keluaran HTML buku kerja Anda, termasuk menetapkan ID CSS untuk gaya tabel.
+**Áttekintés:**
+Használd `HtmlSaveOptions` untuk menyesuaikan keluaran HTML buku kerja Anda, termasuk menetapkan ID CSS untuk gaya tabel.
 
 #### Langkah 3: Tentukan Opsi Penyimpanan HTML
 Konfigurasikan opsi penyimpanan HTML untuk menyertakan ID CSS kustom untuk elemen tabel di buku kerja Anda.
@@ -137,50 +139,53 @@ Simpan buku kerja menggunakan pengaturan ini untuk menghasilkan file HTML dengan
 wb.save(outDir + "outputTableCssId.html", opts);
 ```
 
-### Tips Pemecahan Masalah
-- **Masalah Umum:** Jika mengalami kesalahan terkait hilangnya pustaka, pastikan dependensi Maven atau Gradle dikonfigurasikan dengan benar.
+### Hibaelhárítási tippek
+- **Gyakori probléma:** Jika mengalami kesalahan terkait hilangnya pustaka, pastikan dependensi Maven atau Gradle dikonfigurasikan dengan benar.
 - **Gaya CSS Tidak Diterapkan:** Verifikasi bahwa ID CSS yang ditentukan dalam `setTableCssId` cocok dengan file HTML/CSS Anda.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 ### Kasus Penggunaan untuk ID CSS Tabel
 1. **Integrasi Web:** Integrasikan data Excel ke halaman web dengan gaya khusus.
-2. **Pelaporan:** Tingkatkan laporan dengan menerapkan pencitraan merek yang konsisten melalui gaya CSS.
+2. **Jelentéstétel:** Tingkatkan laporan dengan menerapkan pencitraan merek yang konsisten melalui gaya CSS.
 3. **Portabilitas Data:** Bagikan data Excel yang diberi gaya dengan mudah di berbagai platform tanpa perangkat lunak tambahan.
 
-## Pertimbangan Kinerja
-- **Mengoptimalkan Penggunaan Sumber Daya:** Untuk kumpulan data besar, bagi buku kerja menjadi bagian-bagian yang lebih kecil untuk mengelola penggunaan memori secara efektif.
+## Teljesítménybeli szempontok
+- **Erőforrás-felhasználás optimalizálása:** Untuk kumpulan data besar, bagi buku kerja menjadi bagian-bagian yang lebih kecil untuk mengelola penggunaan memori secara efektif.
 - **Manajemen Memori Java:** Gunakan praktik pengkodean yang efisien dan opsi JVM untuk memproses file Excel yang ekstensif.
 
-## Kesimpulan
+## Következtetés
 Tutorial ini menunjukkan cara menggunakan Aspose.Cells untuk Java guna memformat sel buku kerja dan menyesuaikan keluaran HTML dengan ID CSS. Fitur ini menyempurnakan penyajian data saat mengonversi buku kerja Excel ke dalam format HTML.
 
-**Langkah Berikutnya:**
-- Bereksperimen dengan yang lain `HtmlSaveOptions` pengaturan.
+**Következő lépések:**
+- Kísérletezzen másokkal `HtmlSaveOptions` beállítások.
 - Jelajahi fitur Aspose.Cells tambahan untuk menyesuaikan keluaran lebih lanjut.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?** 
    Sebuah pustaka yang memungkinkan pengembang untuk mengelola dan mengonversi berkas Excel dalam aplikasi Java.
 2. **Bagaimana cara menambahkan lebih banyak gaya ke sel saya?**
-   Gunakan `Style` kelas untuk menyesuaikan opsi pemformatan seperti ukuran font, warna latar belakang, batas, dll.
+   Használd a `Style` kelas untuk menyesuaikan opsi pemformatan seperti ukuran font, warna latar belakang, batas, dll.
 3. **Bisakah saya menerapkan ID CSS yang berbeda untuk setiap tabel dalam buku kerja?**
    Ya, tetapkan ID CSS unik menggunakan `setTableCssId` untuk lembar atau tabel individual sesuai kebutuhan.
 4. **Bagaimana jika proyek Java saya tidak menggunakan Maven atau Gradle?**
-   Unduh file JAR langsung dari Aspose [halaman unduhan](https://releases.aspose.com/cells/java/) dan memasukkannya ke dalam jalur pembangunan proyek Anda.
-5. **Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+   Unduh file JAR langsung dari Aspose [letöltési oldal](https://releases.aspose.com/cells/java/) dan memasukkannya ke dalam jalur pembangunan proyek Anda.
+5. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
    Optimalkan dengan menggunakan aliran, memproses data dalam potongan, atau memanfaatkan pemrosesan paralel jika memungkinkan.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Dapatkan versi terbaru Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli lisensi untuk akses penuh](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Mulailah dengan uji coba gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta lisensi sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung:** [Bergabunglah dengan forum Aspose untuk mendapatkan bantuan](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Dapatkan versi terbaru Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Beli lisensi untuk akses penuh](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Mulailah dengan uji coba gratis](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás:** [Bergabunglah dengan forum Aspose untuk mendapatkan bantuan](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

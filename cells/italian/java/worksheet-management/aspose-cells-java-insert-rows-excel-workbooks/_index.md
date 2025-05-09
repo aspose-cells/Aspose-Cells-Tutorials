@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Congratulazioni! Hai imparato come inserire righe in modo efficace nelle cartell
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells per Java e rivoluziona il modo in cui gestisci i dati Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ V: Gyakori problémák közé tartozik a helytelen fájlelérési út és a lice
 V: Kezdjük az Aspose.Cells átfogó funkciókönyvtárának felfedezésével, kezdve az olyan alapvető műveletekkel, mint a fájlok betöltése és az aláírások ellenőrzése.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Szerezd meg az Aspose.Cells ingyenes próbaverzióját](https://releases.aspose.com/cells/java/)
@@ -172,6 +174,9 @@ V: Kezdjük az Aspose.Cells átfogó funkciókönyvtárának felfedezésével, k
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

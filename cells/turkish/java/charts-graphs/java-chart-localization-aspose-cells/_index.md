@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Daha fazla özelleştirme seçeneğini keşfedin ve gelişmiş işlevsellik içi
 Java uygulamalarınızın erişimini ve etkisini artırarak Aspose.Cells ile grafikleri etkili bir şekilde yerelleştirme yolculuğunuza başlayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

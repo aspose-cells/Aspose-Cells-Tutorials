@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Una comprensión básica de programación Java y familiaridad con archivos Excel
 
 ## Configuración de Aspose.Cells para Java
 
-Antes de empezar a manipular archivos de Excel, debe configurar Aspose.Cells para Java. A continuación, le explicamos cómo:
+Antes de empezar a manipular archivos de Excel, debes configurar Aspose.Cells para Java. A continuación te explicamos cómo:
 
 1. **Instalación**:Utilice Maven o Gradle como se muestra arriba para incluir la biblioteca en su proyecto.
 2. **Adquisición de licencias**:
@@ -72,7 +74,7 @@ Antes de empezar a manipular archivos de Excel, debe configurar Aspose.Cells par
 
 ## Guía de implementación
 
-Desglosemos la implementación en características distintas para mayor claridad y facilidad.
+Dividiremos la implementación en características distintas para mayor claridad y facilidad.
 
 ### Característica 1: Cargar y mostrar la versión de Aspose.Cells
 
@@ -214,6 +216,9 @@ Optimizar el rendimiento es fundamental cuando se trabaja con archivos grandes u
 En esta guía, exploramos cómo actualizar segmentaciones de datos en archivos Excel de Java con Aspose.Cells. Aprendió a cargar y mostrar la versión de la biblioteca, manipular segmentaciones de datos mediante programación y guardar los cambios en su archivo Excel. Con estas habilidades, podrá automatizar los procesos de filtrado de datos, mejorando así la productividad y la precisión en las tareas de análisis de datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

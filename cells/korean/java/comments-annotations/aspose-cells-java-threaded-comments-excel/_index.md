@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ Excel에서 스레드된 댓글을 관리하는 것은 다양한 시나리오에
 3. **감사 추적**: 특정 변경 사항이나 의견을 작성한 사람을 추적하여 의사 결정 프로세스의 기록을 유지하는 데 유용합니다.
 ## 성능 고려 사항
 대용량 Excel 파일로 작업할 때:
-- 통합 문서 개체를 효율적으로 관리하고 더 이상 필요하지 않을 때 삭제하여 메모리 사용을 최적화합니다.
+- 통합 문서 개체를 효율적으로 관리하고 더 이상 필요하지 않은 개체를 삭제하여 메모리 사용을 최적화합니다.
 - Aspose의 내장 기능을 사용하면 대규모 데이터 세트를 효과적으로 처리하고 리소스 소비를 최소화할 수 있습니다.
 ## 결론
 이제 Aspose.Cells for Java를 사용하여 Excel 통합 문서에 스레드 댓글을 추가하고 관리하는 기본 방법을 익혔습니다. 이 강력한 도구는 조직이나 프로젝트 내 협업 활동을 크게 향상시킬 수 있습니다.
@@ -165,6 +167,9 @@ A2: 앞서 보여준 것처럼 Maven이나 Gradle 종속성을 사용하고 적�
 A3: 네, Excel 통합 문서에서 다양한 의견 작성자를 처리하기 위해 여러 작성자를 추가할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

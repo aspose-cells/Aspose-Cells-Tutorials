@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Besuchen Sie die [Aspose-Dokumentation](https://reference.aspose.com/cells/java/
 Mit diesem Tutorial können Sie Spaltenbreiten in Excel mithilfe von Aspose.Cells für Java festlegen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

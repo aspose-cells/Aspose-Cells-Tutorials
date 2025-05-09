@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Stappen voor het verkrijgen van een licentie
 
 - **Gratis proefperiode**: Download een gratis proefversie om de functies van Aspose.Cells te testen.
-- **Tijdelijke licentie**: Vraag een tijdelijke vergunning aan voor uitgebreide evaluatie.
+- **Tijdelijke licentie**Vraag een tijdelijke vergunning aan voor uitgebreide evaluatie.
 - **Aankoop**: Schaf een volledige licentie aan als u dit permanent in uw projecten wilt integreren.
 
 Nadat u Aspose.Cells hebt geïnstalleerd, initialiseert en configureert u het in uw Java-toepassing:
@@ -226,6 +228,9 @@ Probeer deze aanpassingen in uw projecten uit en zie hoe ze uw gegevenspresentat
 Begin vandaag nog met Aspose.Cells en transformeer de manier waarop u met spreadsheetgegevens omgaat!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

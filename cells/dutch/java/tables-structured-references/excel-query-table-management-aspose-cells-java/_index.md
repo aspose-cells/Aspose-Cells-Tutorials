@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Je hebt nu ontdekt hoe je Excel-querytabellen kunt lezen, wijzigen en schrijven 
 Veel plezier met coderen en beheer Excel-gegevens als een professional met Aspose.Cells voor Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

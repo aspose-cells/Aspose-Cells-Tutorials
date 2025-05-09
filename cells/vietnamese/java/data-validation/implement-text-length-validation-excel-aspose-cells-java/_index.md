@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Hãy thoải mái khám phá thêm các tính năng của Aspose.Cells, chẳng 
 - Có, Aspose.Cells hỗ trợ nhiều loại xác thực dữ liệu khác nhau, cho phép bạn áp dụng nhiều quy tắc khác nhau trên toàn bộ sổ làm việc của mình.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

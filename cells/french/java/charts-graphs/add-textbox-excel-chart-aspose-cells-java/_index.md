@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Nous avons expliqué comment ajouter une zone de texte à un graphique Excel ave
 En suivant ce guide, vous pourrez intégrer efficacement Aspose.Cells à vos projets Java pour enrichir les fonctionnalités des graphiques Excel avec des annotations textuelles personnalisées. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

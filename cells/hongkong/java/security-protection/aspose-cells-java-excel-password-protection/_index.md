@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 處理敏感資訊時，載入受密碼保護的 Excel 檔案至關重要。 Aspose.Cells 透過指定必要的密碼提供了一種直接開啟這些檔案的方法。
 
 #### 逐步實施
-1. **設定載入選項**：創建一個 `LoadOptions` 物件並設定所需的密碼。
+1. **設定載入選項**：創建 `LoadOptions` 物件並設定所需的密碼。
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5：確保您的許可證文件的路徑正確並且您的應用程式可以存
 - **支援**： [Aspose 論壇支持](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

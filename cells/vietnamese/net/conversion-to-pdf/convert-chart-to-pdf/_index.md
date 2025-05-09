@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi biểu đồ sang PDF trong .NET
-linktitle: Chuyển đổi biểu đồ sang PDF trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chuyển đổi biểu đồ Excel sang PDF trong .NET bằng Aspose.Cells với hướng dẫn từng bước này! Hoàn hảo cho các lập trình viên ở mọi cấp độ.
-weight: 11
-url: /vi/net/conversion-to-pdf/convert-chart-to-pdf/
+"description": "Tìm hiểu cách chuyển đổi biểu đồ Excel sang PDF trong .NET bằng Aspose.Cells với hướng dẫn từng bước này! Hoàn hảo cho các lập trình viên ở mọi cấp độ."
+"linktitle": "Chuyển đổi biểu đồ sang PDF trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi biểu đồ sang PDF trong .NET"
+"url": "/vi/net/conversion-to-pdf/convert-chart-to-pdf/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi biểu đồ sang PDF trong .NET
@@ -21,7 +23,7 @@ Trước khi bắt đầu cuộc hành trình khai sáng này, có một số đ
 ### 1. Đã cài đặt .NET Framework hoặc .NET Core
 Hãy đảm bảo rằng bạn đã cài đặt .NET Framework hoặc .NET Core trên máy của mình. Hướng dẫn này áp dụng cho cả hai môi trường, vì vậy đừng lo lắng nếu bạn thích môi trường này hơn môi trường kia!
 ### 2. Thư viện Aspose.Cells
- Phép thuật xảy ra nhờ thư viện Aspose.Cells mà bạn cần đưa vào dự án của mình. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+Phép thuật xảy ra nhờ thư viện Aspose.Cells mà bạn cần đưa vào dự án của mình. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 ### 3. Hiểu biết cơ bản về lập trình C#
 Nếu bạn có hiểu biết cơ bản về C#, thì thật tuyệt! Bạn sẽ thấy dễ dàng theo dõi các ví dụ chúng tôi cung cấp. Nếu bạn là người mới bắt đầu, đừng lo lắng quá nhiều; chúng tôi giữ mọi thứ đơn giản và dễ hiểu.
 ### 4. Thiết lập Visual Studio
@@ -51,21 +53,21 @@ Trước tiên, bạn cần chỉ định đường dẫn lưu trữ tài liệu
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Dòng này thiết lập`dataDir` biến đến vị trí tệp Excel của bạn. Hãy đảm bảo thay thế`"Your Document Directory"` với đường dẫn thực tế của bạn.
+Dòng này thiết lập `dataDir` biến đến vị trí tệp Excel của bạn. Hãy đảm bảo thay thế `"Your Document Directory"` với đường dẫn thực tế của bạn.
 ## Bước 2: Tải tệp Excel
 Bây giờ bạn đã thiết lập thư mục, đã đến lúc tải tệp Excel chứa biểu đồ. Sau đây là cách thực hiện:
 ```csharp
 // Tải tệp Excel có chứa biểu đồ
 Workbook workbook = new Workbook(dataDir + "Sample1.xls");
 ```
- Bằng cách này, bạn đang tạo ra một phiên bản mới của`Workbook` và yêu cầu nó tải tệp Excel mẫu của bạn. Đảm bảo rằng tên tệp và phần mở rộng khớp với tệp thực tế của bạn.
+Bằng cách này, bạn đang tạo ra một phiên bản mới của `Workbook` và yêu cầu nó tải tệp Excel mẫu của bạn. Đảm bảo rằng tên tệp và phần mở rộng khớp với tệp thực tế của bạn.
 ## Bước 3: Truy cập vào Bảng tính chính xác
 Các tệp Excel có thể có nhiều trang tính, vì vậy bạn cần chỉ định trang tính nào bạn muốn làm việc. Ở đây, chúng ta đang truy cập trang tính đầu tiên:
 ```csharp
 // Truy cập vào bảng tính đầu tiên
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Sử dụng chỉ số`0` lấy bảng tính đầu tiên. Điều chỉnh chỉ mục nếu biểu đồ của bạn nằm trên một bảng tính khác.
+Sử dụng chỉ số `0` lấy bảng tính đầu tiên. Điều chỉnh chỉ mục nếu biểu đồ của bạn nằm trên một bảng tính khác.
 ## Bước 4: Truy cập Biểu đồ
 Bây giờ bạn đã có bảng tính, hãy lấy biểu đồ bạn muốn chuyển đổi:
 ```csharp
@@ -87,7 +89,7 @@ Nếu bạn muốn lưu biểu đồ vào luồng bộ nhớ chứ không phải
 MemoryStream ms = new MemoryStream();
 chart.ToPdf(ms);
 ```
- Bằng cách này, bạn lưu biểu đồ vào một`MemoryStream` thay vì trực tiếp vào một tệp. Điều này có thể đặc biệt hữu ích cho các ứng dụng web yêu cầu tạo tệp động.
+Bằng cách này, bạn lưu biểu đồ vào một `MemoryStream` thay vì trực tiếp vào một tệp. Điều này có thể đặc biệt hữu ích cho các ứng dụng web yêu cầu tạo tệp động.
 ## Phần kết luận
 Và bạn đã có nó! Bạn vừa học cách chuyển đổi biểu đồ Excel sang tệp PDF bằng Aspose.Cells trong .NET. Quy trình này không chỉ bao gồm các lệnh đơn giản mà còn cung cấp cho bạn sự linh hoạt về cách thức và nơi bạn muốn lưu biểu đồ của mình. Cho dù bạn sử dụng hệ thống tệp hay luồng bộ nhớ, thì bạn có thể tự lựa chọn!
 Bây giờ, bạn có thể tự tin chuyển đổi biểu đồ sang PDF trong các ứng dụng .NET trong tương lai của mình. Đừng ngần ngại thử nghiệm các tính năng bổ sung của Aspose.Cells, vì còn nhiều điều để khám phá hơn nữa!
@@ -95,16 +97,18 @@ Bây giờ, bạn có thể tự tin chuyển đổi biểu đồ sang PDF trong
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa, chuyển đổi và hiển thị các tệp Excel theo cách lập trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử từ[địa điểm](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử từ [địa điểm](https://releases.aspose.com/).
 ### Làm thế nào để khắc phục lỗi khi sử dụng Aspose.Cells?
- Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được giúp đỡ.
+Nếu bạn gặp bất kỳ vấn đề nào, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được giúp đỡ.
 ### Aspose.Cells có hỗ trợ các định dạng tài liệu khác không?
 Có, ngoài XLS/XLSX, Aspose.Cells còn hỗ trợ nhiều định dạng khác, bao gồm CSV, PDF, HTML, v.v.
 ### Tôi có thể mua giấy phép cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể[mua giấy phép](https://purchase.aspose.com/buy) trên trang web Aspose để biết các lợi ích của phiên bản đầy đủ.
+Chắc chắn rồi! Bạn có thể [mua giấy phép](https://purchase.aspose.com/buy) trên trang web Aspose để biết thêm thông tin về phiên bản đầy đủ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

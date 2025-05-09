@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ Ebben az útmutatóban azt tárgyaltuk, hogyan lehet hatékonyan egyesíteni és
 3. **Hogyan befolyásolja az automatikus illesztés a teljesítményt nagy adathalmazok esetén?**
    - Míg az automatikus illesztés javítja az olvashatóságot, növelheti a feldolgozási időt nagy mennyiségű adat esetén; optimalizáláshoz szelektíven használja.
 4. **Visszavonhatok egy egyesítési műveletet a kódban?**
-   - Igen, a cellákat szétválaszthatod a következővel: `range.unMerge()` ha szükséges.
+   - Igen, a cellákat szétválaszthatja a következővel: `range.unMerge()` ha szükséges.
 5. **Milyen gyakori problémák merülhetnek fel az egyesített cellák formázásával kapcsolatban?**
    - Az illesztési hibák és a helytelen formázás elkerülése érdekében ügyeljen arra, hogy az egyesítés után a stílusok megfelelően legyenek alkalmazva.
 
@@ -172,6 +174,9 @@ Használja ki az Aspose.Cells for Java erejét a következő Excel-projektjében
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

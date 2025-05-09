@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de validação de dados demonstram como garantir a integridade dos dados em planilhas do Excel usando o Aspose.Cells para Java. Esses guias passo a passo ensinam como criar diversas regras de validação, personalizar mensagens de entrada, configurar alertas de erro e controlar programaticamente o comportamento de validação. Cada tutorial inclui exemplos completos de código Java para cenários comuns de validação, ajudando você a criar aplicativos que orientam os usuários na entrada correta de dados, evitando entradas inválidas.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de validação de dados
 - Implementação passo a passo com exemplos de código completos
@@ -66,6 +68,9 @@ Aprenda a validar listas suspensas em células do Excel usando o Aspose.Cells pa
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

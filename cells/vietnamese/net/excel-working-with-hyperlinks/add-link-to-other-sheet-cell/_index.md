@@ -1,14 +1,16 @@
 ---
-title: Thêm liên kết đến ô trang tính khác trong Excel
-linktitle: Thêm liên kết đến ô trang tính khác trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách thêm liên kết nội bộ vào các ô trong bảng tính Excel bằng Aspose.Cells cho .NET. Cải thiện khả năng điều hướng trong bảng tính của bạn một cách dễ dàng.
-weight: 11
-url: /vi/net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/
+"description": "Học cách thêm liên kết nội bộ vào các ô trong bảng tính Excel bằng Aspose.Cells cho .NET. Cải thiện khả năng điều hướng trong bảng tính của bạn một cách dễ dàng."
+"linktitle": "Thêm liên kết đến ô trang tính khác trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm liên kết đến ô trang tính khác trong Excel"
+"url": "/vi/net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm liên kết đến ô trang tính khác trong Excel
@@ -18,7 +20,7 @@ Hãy tưởng tượng bạn đang di chuyển qua một sân bay đông đúc; 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là công cụ tiện dụng để phát triển .NET.
-2. Thư viện Aspose.Cells: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể lấy nó từ[Trang tải xuống Aspose Cells](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể lấy nó từ [Trang tải xuống Aspose Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp ích rất nhiều. Hướng dẫn này giả định rằng bạn đã quen thuộc với cú pháp C#.
 4. Microsoft Excel: Có Excel trên máy giúp bạn hình dung được kết quả của những gì bạn sẽ tạo ra.
 5. .NET Framework: Đảm bảo bạn đang làm việc trong phiên bản .NET Framework tương thích có hỗ trợ thư viện Aspose.Cells.
@@ -43,7 +45,7 @@ Tiếp theo, bạn cần chỉ định nơi bạn muốn lưu tệp Excel đầu
 // Thư mục đầu ra cho tệp Excel của bạn
 string outputDir = "Your Document Directory"; // Thay thế bằng thư mục của bạn
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn mà bạn muốn lưu tập tin đầu ra.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn mà bạn muốn lưu tập tin đầu ra.
 ## Bước 3: Khởi tạo đối tượng Workbook
 Bây giờ bạn đã sẵn sàng tạo sổ làm việc Excel của mình! Đây là nơi lưu trữ tất cả các trang tính và dữ liệu của bạn.
 ```csharp
@@ -57,14 +59,14 @@ Trong Excel, mỗi sổ làm việc có thể chứa nhiều trang tính. Hãy t
 // Thêm một trang tính mới vào đối tượng Workbook
 workbook.Worksheets.Add(); // Thêm một bảng tính trống mới theo mặc định
 ```
-Lệnh này sẽ thêm một bảng tính mới và bây giờ bảng tính của bạn sẽ chứa ít nhất một bảng tính để bạn thao tác.
+Lệnh này sẽ thêm một bảng tính mới và bây giờ sổ làm việc của bạn sẽ chứa ít nhất một bảng tính để bạn thao tác.
 ## Bước 5: Truy cập trang tính đầu tiên
 Để làm việc với bảng tính đầu tiên (được gọi là bảng tính mặc định), bạn sẽ cần tham chiếu đến bảng tính đó.
 ```csharp
 // Lấy tham chiếu của bảng tính đầu tiên (mặc định)
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Hiện nay,`worksheet` là tham chiếu đến trang tính đầu tiên mà chúng ta sẽ thêm siêu liên kết.
+Hiện nay, `worksheet` là tham chiếu đến trang tính đầu tiên mà chúng ta sẽ thêm siêu liên kết.
 ## Bước 6: Thêm siêu liên kết nội bộ
 Đây là phần thú vị! Chúng ta sẽ tạo một siêu liên kết trong ô “B3” trỏ đến ô “B9” trong một bảng tính khác.
 ```csharp
@@ -87,7 +89,7 @@ Sau khi mọi thứ đã được thiết lập, đã đến lúc lưu bảng t�
 // Lưu tệp Excel bằng siêu liên kết
 workbook.Save(outputDir + "outputAddingLinkToOtherSheetCell.xlsx");
 ```
- Hãy chắc chắn để chỉ định đường dẫn chính xác trong`outputDir` để tệp Excel của bạn được lưu đúng cách.
+Hãy chắc chắn để chỉ định đường dẫn chính xác trong `outputDir` để tệp Excel của bạn được lưu đúng cách.
 ## Bước 9: Xác nhận thao tác
 Cuối cùng, hãy cho người dùng biết rằng thao tác đã hoàn tất thành công.
 ```csharp
@@ -100,16 +102,18 @@ Trong hướng dẫn này, chúng ta đã đi qua các bước cần thiết đ�
 ### Aspose.Cells là gì?  
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo và thao tác các tệp Excel mà không cần sử dụng Microsoft Excel.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có! Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?  
 Không, Aspose.Cells hoạt động độc lập với Microsoft Excel.
 ### Có thể liên kết tới nhiều trang tính không?  
 Hoàn toàn có thể! Bạn có thể tạo nhiều siêu liên kết trỏ đến nhiều trang tính khác nhau bằng cách sử dụng cùng một phương pháp.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể liên hệ với cộng đồng Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể liên hệ với cộng đồng Aspose để được hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

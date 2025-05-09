@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Ce guide vous explique comment utiliser Aspose.Cells pour Java pour créer, prot
    - Aspose.Cells peut être facilement intégré dans Spring Boot, Spring MVC ou tout autre framework basé sur Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Minden munkafüzet több munkalapból áll. Így érheti el és kezelheti ezeket
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Cells;
 
-// A munkafüzet első munkalapjának lekérése
+// munkafüzet első munkalapjának lekérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -222,6 +224,9 @@ V5: Győződjön meg arról, hogy a helyes fájlelérési utat használja, és h
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Java 애플리케이션에서 Aspose.Cells를 사용하려면:
 ## 실제 응용 프로그램
 - **데이터 보고:** 피벗 테이블을 활용해 데이터를 효율적으로 요약하여 복잡한 보고서 생성을 자동화합니다.
 - **재무 분석:** 피벗 테이블을 사용하여 재무 지표를 집계하고 성과 추세에 대한 통찰력을 얻습니다.
-- **재고 관리:** 다양한 범주나 기간에 걸쳐 재고 수준을 분석하여 전략적 계획 수립에 도움이 됩니다.
+- **재고 관리:** 다양한 범주나 기간에 걸쳐 재고 수준을 분석하여 전략적 계획 수립에 도움을 줍니다.
 - **고객 세분화:** 피벗 테이블의 필터를 사용하여 다양한 기준에 따라 고객 데이터를 세분화합니다.
 
 ## 성능 고려 사항
@@ -186,6 +188,9 @@ Aspose.Cells for Java를 마스터하면 피벗 테이블과 관련된 복잡한
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

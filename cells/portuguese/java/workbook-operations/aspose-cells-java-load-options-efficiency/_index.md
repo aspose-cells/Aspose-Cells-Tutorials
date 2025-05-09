@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Integrar o Aspose.Cells em outros sistemas, como bancos de dados ou aplicativos 
 
 ## Considerações de desempenho
 Ao lidar com arquivos grandes do Excel:
-- **Otimize o uso da memória**: Usar `LightCellsDataHandler` para minimizar o consumo de memória.
+- **Otimizar o uso da memória**: Usar `LightCellsDataHandler` para minimizar o consumo de memória.
 - **Gestão de Recursos**: Feche pastas de trabalho e recursos imediatamente para liberar memória.
 - **Melhores Práticas**: Siga as práticas recomendadas do Java para coleta de lixo e gerenciamento de recursos.
 
@@ -135,6 +137,9 @@ Explore recursos mais avançados do Aspose.Cells ou integre-o aos seus projetos 
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

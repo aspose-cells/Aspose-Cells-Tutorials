@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ A4: Zorg ervoor dat de directorypaden bestaan en de juiste schrijfrechten hebben
 A5: Ja, het ondersteunt verschillende formaten, waaronder JPEG, PNG, BMP, GIF en andere.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

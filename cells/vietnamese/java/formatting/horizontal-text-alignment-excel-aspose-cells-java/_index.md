@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Sẵn sàng tiến xa hơn nữa? Áp dụng các kỹ thuật này vào dự á
 Bắt đầu khám phá các tài nguyên này để nâng cao khả năng xử lý Excel của bạn trong các ứng dụng Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Bạn đã sẵn sàng để sắp xếp hợp lý việc quản lý tệp Excel
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong những điều sau:
 
-**Thư viện bắt buộc:**
+**Thư viện cần thiết:**
 - Aspose.Cells cho Java phiên bản 25.3 trở lên.
 
 **Thiết lập môi trường:**
@@ -190,6 +192,9 @@ Tại sao phải chờ đợi? Hãy bắt đầu áp dụng những kỹ thuật
 Hãy bắt đầu hành trình với Aspose.Cells Java ngay hôm nay và khai thác toàn bộ tiềm năng của việc thao tác với tệp Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

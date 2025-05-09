@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells licenc beszerzése:
 - **Ingyenes próbaverzió**Letöltés innen: [Az Aspose hivatalos weboldala](https://releases.aspose.com/cells/java/) az alapvető funkciók megismeréséhez.
 - **Ideiglenes engedély**: Beszerzés a következőn keresztül: [licencoldal](https://purchase.aspose.com/temporary-license/) teljes hozzáférést biztosít az értékelés során.
-- **Vásárlás**: Vásároljon állandó licencet az ő oldalukon [vásárlási oldal](https://purchase.aspose.com/buy).
+- **Vásárlás**: Vásároljon állandó licencet az ő [vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### Alapvető inicializálás és beállítás
 
@@ -163,6 +165,9 @@ Böngészd át ezeket az anyagokat, hogy elmélyítsd az Aspose.Cells megértés
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ workbook.save("Output.xlsx");
 
 ## Pratik Uygulamalar
 
-1. **Bilimsel Gösterim**:Kimyasal formüller veya matematiksel denklemler içeren belgeler oluşturun.
+1. **Bilimsel Gösterim**: Kimyasal formüller veya matematiksel denklemler içeren belgeler oluşturun.
 2. **Dipnotlar ve Referanslar**: Akademik makalelerde veya hukuki belgelerde dipnotları biçimlendirin.
 3. **Sürümleme**: Belge sürümlerini belirtin, örneğin, "Belge v1.0^".
 4. **Veri Açıklaması**: Veri kümelerindeki özel açıklamaları vurgulayın.
@@ -183,6 +185,9 @@ Belge işleme görevlerini kolaylaştırmak için bu çözümü bir sonraki proj
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

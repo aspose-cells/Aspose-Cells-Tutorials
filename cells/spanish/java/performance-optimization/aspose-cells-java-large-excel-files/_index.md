@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Para continuar su viaje con Aspose.Cells, explore el [documentación oficial](ht
 ¡Con esta guía completa, ahora está equipado para manejar archivos grandes de Excel como un profesional usando Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Veri Entegrasyonu
@@ -109,9 +111,11 @@ Kesinlikle! Java için Aspose.Cells, karmaşık veri bütünleştirme süreçler
 Java için Aspose.Cells sağlam bir seçim olsa da Apache POI gibi alternatifler de Excel entegrasyon yetenekleri sağlar.
 
 Bu kapsamlı kılavuz, Aspose.Cells for Java kullanarak Excel'de veri entegrasyonunda ustalaşmanıza yardımcı olacaktır. Daha fazla araştırma yapmaktan ve bu adımları kendi özel ihtiyaçlarınıza göre uyarlamaktan çekinmeyin. Mutlu veri entegrasyonu!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

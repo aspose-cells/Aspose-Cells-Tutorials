@@ -1,14 +1,16 @@
 ---
-title: Excel Yazdırma Seçeneklerini Ayarla
-linktitle: Excel Yazdırma Seçeneklerini Ayarla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel'de yazdırma seçeneklerini nasıl ayarlayacağınızı öğrenin.
-weight: 150
-url: /tr/net/excel-page-setup/set-excel-print-options/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel'de yazdırma seçeneklerini nasıl ayarlayacağınızı öğrenin."
+"linktitle": "Excel Yazdırma Seçeneklerini Ayarla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Yazdırma Seçeneklerini Ayarla"
+"url": "/tr/net/excel-page-setup/set-excel-print-options/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Yazdırma Seçeneklerini Ayarla
@@ -22,7 +24,7 @@ Yazdırıldığında yarım yamalak görünen Excel sayfaları sunmaktan bıktı
 Koda geçmeden önce, sorunsuz bir şekilde ilerlemek için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Visual Studio veya Herhangi Bir .NET IDE: Güvenilir bir geliştirme ortamı isteyeceksiniz.
-2. .NET için Aspose.Cells Kütüphanesi: Bu kütüphaneyi yüklediğinizden emin olun; indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells Kütüphanesi: Bu kütüphaneyi yüklediğinizden emin olun; indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlama kavramlarına aşinalık, ele alacağımız örnekler arasında gezinmenize yardımcı olacaktır.
 4. .NET Framework: Projenizin Aspose.Cells'i destekleyen bir .NET sürümünü hedeflediğinden emin olun.
    
@@ -69,11 +71,11 @@ Bunları hallettikten sonra yazdırma seçeneklerimizi ayarlamaya hazırız!
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile. Bunu bir projeye başlamadan önce çalışma alanınızı ayarlamak olarak düşünün!
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile. Bunu bir projeye başlamadan önce çalışma alanınızı ayarlamak olarak düşünün!
 
 ## Adım 2: Çalışma Kitabının Bir Örneğini Oluşturun
 
- Daha sonra, bir tane oluşturmamız gerekecek`Workbook` nesne. Bu nesne, elektronik tablo verileriniz için bir kapsayıcı görevi görür.
+Daha sonra, bir tane oluşturmamız gerekecek `Workbook` nesne. Bu nesne, elektronik tablo verileriniz için bir kapsayıcı görevi görür.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesini örnekleme
@@ -84,7 +86,7 @@ Burada, basitçe yeni bir çalışma kitabı örneği oluşturuyoruz. Bunu boş 
 
 ## Adım 3: Sayfa Düzenine Erişim
 
- Excel sayfanızın nasıl yazdırılacağını kontrol etmek için şuraya erişmeniz gerekir:`PageSetup` çalışma sayfasının özelliği.
+Excel sayfanızın nasıl yazdırılacağını kontrol etmek için şuraya erişmeniz gerekir: `PageSetup` çalışma sayfasının özelliği.
 
 ```csharp
 // Çalışma sayfasının PageSetup referansını edinme
@@ -152,19 +154,21 @@ Tebrikler! Artık Aspose.Cells for .NET kullanarak yazdırma seçeneklerini ayar
 Aspose.Cells, Excel dosyalarının işlenmesine ve yönetilmesine olanak tanıyan güçlü bir .NET kütüphanesidir.
 
 ### Aspose.Cells'in ücretsiz deneme sürümünü alabilir miyim?  
- Evet, Aspose.Cells'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.Cells'in ücretsiz deneme sürümüne erişebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?  
- Bu yolla geçici lisans talebinde bulunabilirsiniz[bağlantı](https://purchase.aspose.com/temporary-license/).
+Bu yolla geçici lisans talebinde bulunabilirsiniz [bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells için yardım veya desteği nerede bulabilirim?  
- Destek için Aspose forumunu ziyaret edin[Burada](https://forum.aspose.com/c/cells/9).
+Destek için Aspose forumunu ziyaret edin [Burada](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells büyük Excel dosyaları için uygun mudur?  
 Kesinlikle! Aspose.Cells büyük Excel dosyalarını verimli bir şekilde işlemek için tasarlanmıştır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

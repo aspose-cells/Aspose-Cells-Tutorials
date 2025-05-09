@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
 ```
 
-##### Instansiera arbetsboken och Access First-arbetsbladet
+##### Instansiera arbetsbok och Access First-arbetsblad
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -180,6 +182,9 @@ Med dessa resurser är du väl rustad att börja implementera Aspose.Cells i din
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

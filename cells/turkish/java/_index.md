@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java E-Tablo İşleme Eğitimleri
@@ -17,7 +19,7 @@
 
 Aspose.Cells for Java, Java geliştiricilerinin Excel dosyalarını programatik olarak yönetmesini sağlayan sağlam bir kütüphanedir. Excel belgeleri oluşturmanız, düzenlemeniz veya dönüştürmeniz gerekip gerekmediğine bakılmaksızın, Aspose.Cells kapsamlı özellik setiyle süreci basitleştirir. Bu eğitimlerde, Aspose.Cells for Java ile çalışmanın çeşitli yönlerine rehberlik edeceğiz ve Excel dosya yönetiminde uzmanlaşmanıza yardımcı olacak kod örnekleri ve içgörüler sunacağız.
 
-## Java için Aspose.Cells'e Başlarken
+## Java için Aspose.Cells ile Başlarken
 
 Bu giriş bölümünde, Aspose.Cells for Java ile başlamak için gerekli adımlarda size yol göstereceğiz. Projenize kütüphaneyi eklemek de dahil olmak üzere geliştirme ortamınızı nasıl kuracağınızı öğreneceksiniz. Ayrıca, üzerine inşa edebileceğiniz sağlam bir temel sağlamak için bir Excel dosyasını yükleme ve değiştirmeye ilişkin temel bir örnek sunacağız.
 
@@ -99,13 +101,13 @@ Aspose.Cells for Java kullanarak Excel ile çeşitli formatlar arasında veri i�
 Bu Aspose.Cells Java eğitimleriyle Excel elektronik tablolarında veri temizleme, dönüştürme, birleştirme ve metin işlemlerini öğrenin.
 
 ### [Gelişmiş Özellikler](./advanced-features/)
-Aspose.Cells for Java ile AutoFilter'ları, dilimleyicileri, köprü metinlerini, harici bağlantıları ve gelişmiş Excel işlevlerini uygulamaya yönelik eksiksiz eğitimler.
+Java için Aspose.Cells ile Otomatik Filtreler, dilimleyiciler, köprüler, harici bağlantılar ve gelişmiş Excel işlevlerini uygulamaya yönelik eksiksiz eğitimler.
 
 ### [Performans Optimizasyonu](./performance-optimization/)
 Aspose.Cells for Java ile bellek kullanımını optimize etme, yürütme hızını artırma ve büyük Excel dosyalarını yönetmeye yönelik adım adım eğitimler.
 
 ### [Entegrasyon ve Birlikte Çalışabilirlik](./integration-interoperability/)
-Aspose.Cells'i diğer Aspose ürünleriyle, üçüncü taraf kütüphanelerle ve harici sistemlerle Java'da entegre etmeye yönelik kapsamlı eğitimler.
+Aspose.Cells'i diğer Aspose ürünleriyle, üçüncü taraf kütüphanelerle ve Java'daki harici sistemlerle entegre etmeye yönelik kapsamlı eğitimler.
 
 ### [OLE Nesneleri ve Gömülü İçerik](./ole-objects-embedded-content/)
 Aspose.Cells for Java'yı kullanarak Excel'de OLE nesneleri, gömülü belgeler, bağlantılı dosyalar ve eklerle çalışmayı öğrenin.
@@ -118,9 +120,11 @@ Aspose.Cells for Java ile rapor şablonları oluşturma, belgeler üretme ve pos
 
 ### [Otomasyon ve Toplu İşleme](./automation-batch-processing/)
 Aspose.Cells for Java ile Excel görevlerini otomatikleştirme, birden fazla dosyayı toplu işleme ve işlemleri planlama konusunda adım adım eğitimler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

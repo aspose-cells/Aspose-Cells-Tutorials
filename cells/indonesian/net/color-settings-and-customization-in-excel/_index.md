@@ -1,19 +1,21 @@
 ---
-title: Pengaturan Warna dan Kustomisasi di Excel
-linktitle: Pengaturan Warna dan Kustomisasi di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Kuasai pengaturan dan kustomisasi warna di Excel dengan Aspose.Cells for .NET. Pelajari cara menghitung warna pilihan Excel secara terprogram dalam tutorial langkah demi langkah ini.
-weight: 27
-url: /id/net/color-settings-and-customization-in-excel/
+"description": "Kuasai pengaturan dan kustomisasi warna di Excel dengan Aspose.Cells for .NET. Pelajari cara menghitung warna pilihan Excel secara terprogram dalam tutorial langkah demi langkah ini."
+"linktitle": "Pengaturan Warna dan Kustomisasi di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pengaturan Warna dan Kustomisasi di Excel"
+"url": "/id/net/color-settings-and-customization-in-excel/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pengaturan Warna dan Kustomisasi di Excel
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan Excel, warna bukan hanya tentang estetika—warna dapat memiliki makna yang signifikan, terutama dalam analisis data. Pikirkanlah. Bukankah akan luar biasa jika Anda dapat mengakses atau mengubah pengaturan warna di Excel secara terprogram? Itulah yang dapat Anda lakukan dengan Aspose.Cells for .NET. API yang canggih ini memungkinkan Anda untuk menyesuaikan warna, mengelola pemformatan bersyarat, dan menyempurnakan representasi data Anda.
 
@@ -26,9 +28,11 @@ Salah satu fitur Excel yang menarik adalah pemformatan bersyarat. Excel secara o
 ## Pengaturan Warna dan Kustomisasi dalam Tutorial Excel
 ### [Hitung Warna yang Dipilih oleh MS Excel Secara Terprogram](./compute-color-chosen-by-ms-excel/)
 Pelajari cara menghitung warna yang dipilih oleh MS Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah ini untuk mengakses warna format bersyarat Excel secara terprogram.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

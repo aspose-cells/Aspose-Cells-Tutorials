@@ -1,14 +1,16 @@
 ---
-title: การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET
-linktitle: การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการแปลงไฟล์ Excel เป็น DOCX โดยใช้โปรแกรม Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการสร้างรายงานและการแชร์ข้อมูล
-weight: 11
-url: /th/net/converting-excel-files-to-other-formats/converting-excel-file-to-docx/
+"description": "เรียนรู้วิธีการแปลงไฟล์ Excel เป็น DOCX โดยใช้โปรแกรม Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการสร้างรายงานและการแชร์ข้อมูล"
+"linktitle": "การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET"
+"url": "/th/net/converting-excel-files-to-other-formats/converting-excel-file-to-docx/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงไฟล์ Excel เป็น DOCX ด้วยโปรแกรมใน .NET
@@ -27,14 +29,14 @@ url: /th/net/converting-excel-files-to-other-formats/converting-excel-file-to-do
 หากคุณยังไม่ได้มี คุณจะต้องมี Integrated Development Environment (IDE) เช่น Visual Studio ซึ่งคุณจะเขียนและรันโค้ด C# ได้
 
 ### 2. ดาวน์โหลด Aspose.Cells สำหรับ .NET
- หากต้องการเริ่มใช้ Aspose.Cells คุณต้องติดตั้งไลบรารี คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก[ลิงก์ดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases.aspose.com/cells/net/)อีกวิธีหนึ่งคุณสามารถติดตั้งผ่าน NuGet ในโครงการของคุณโดยรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็คเกจของคุณ:
+หากต้องการเริ่มใช้ Aspose.Cells คุณต้องติดตั้งไลบรารี คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [ลิงก์ดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases.aspose.com/cells/net/)อีกวิธีหนึ่งคุณสามารถติดตั้งผ่าน NuGet ในโครงการของคุณโดยรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็คเกจของคุณ:
 
 ```bash
 Install-Package Aspose.Cells
 ```
 
 ### 3. การขอใบอนุญาตชั่วคราว (ทางเลือก)
- Aspose.Cells มีข้อจำกัดบางประการในเวอร์ชันฟรี ดังนั้นหากคุณต้องการทดสอบคุณสมบัติทั้งหมด ให้รับใบอนุญาตชั่วคราวฟรีจาก[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells มีข้อจำกัดบางประการในเวอร์ชันฟรี ดังนั้นหากคุณต้องการทดสอบคุณสมบัติทั้งหมด ให้รับใบอนุญาตชั่วคราวฟรีจาก [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### 4. เตรียมไฟล์ Excel ให้พร้อม
 คุณจะต้องมีไฟล์ Excel ที่เราจะแปลงเป็น DOCX สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ชื่อ "Book1.xlsx" โปรดแน่ใจว่าไฟล์นั้นอยู่ในไดเร็กทอรีที่เข้าถึงได้ง่าย
@@ -47,7 +49,7 @@ Install-Package Aspose.Cells
 เปิด Visual Studio หรือ IDE C# ที่คุณต้องการ และสร้างแอปพลิเคชันคอนโซลใหม่หรือเปิดแอปพลิเคชันที่มีอยู่
 
 ### นำเข้าเนมสเปซที่จำเป็น
- ที่ด้านบนของคุณ`.cs` ไฟล์ คุณจะต้องนำเข้าเนมสเปซต่อไปนี้เพื่อเข้าถึงฟังก์ชันการทำงานของ Aspose.Cells:
+ที่ด้านบนของคุณ `.cs` ไฟล์ คุณจะต้องนำเข้าเนมสเปซต่อไปนี้เพื่อเข้าถึงฟังก์ชันการทำงานของ Aspose.Cells:
 
 ```csharp
 using System;
@@ -69,18 +71,18 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"` โดยมีเส้นทางไดเรกทอรีจริงที่ไฟล์ Excel ของคุณตั้งอยู่ ตัวอย่างเช่น อาจมีลักษณะดังนี้`C:\\Documents\\` บนเครื่องของคุณ
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางไดเรกทอรีจริงที่ไฟล์ Excel ของคุณตั้งอยู่ ตัวอย่างเช่น อาจมีลักษณะดังนี้ `C:\\Documents\\` บนเครื่องของคุณ
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ Excel
 
-ตอนนี้ถึงเวลาโหลดไฟล์ Excel ลงในโค้ดของคุณแล้ว ลองนึกภาพว่านี่เป็นการสั่งให้โปรแกรมของคุณเปิดไฟล์ Excel เพื่อให้สามารถอ่านและประมวลผลข้อมูลได้
+ตอนนี้ถึงเวลาโหลดไฟล์ Excel ลงในโค้ดของคุณแล้ว ลองนึกภาพว่านี่เป็นการบอกโปรแกรมของคุณให้เปิดไฟล์ Excel เพื่อให้สามารถอ่านและประมวลผลข้อมูลได้
 
 ```csharp
 // เปิดไฟล์เทมเพลต
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
- ที่นี่เราจะสร้างใหม่`Workbook` วัตถุซึ่งแสดงถึงไฟล์ Excel เราส่งเส้นทางของไฟล์ Excel (`Book1.xlsx`) เป็นพารามิเตอร์ซึ่งจะโหลดเข้าสู่หน่วยความจำ
+ที่นี่เราจะสร้างใหม่ `Workbook` วัตถุซึ่งแสดงถึงไฟล์ Excel เราส่งเส้นทางของไฟล์ Excel (`Book1.xlsx`) เป็นพารามิเตอร์ซึ่งจะโหลดเข้าสู่หน่วยความจำ
 
 ## ขั้นตอนที่ 3: แปลง Excel เป็น DOCX
 
@@ -91,7 +93,7 @@ Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 workbook.Save(outputDir + "Book1.docx", SaveFormat.Docx);
 ```
 
-ในบรรทัดนี้ เราจะบันทึกไฟล์ Excel ที่โหลดเป็นไฟล์ DOCX`SaveFormat.Docx` พารามิเตอร์ช่วยให้แน่ใจว่าไฟล์จะถูกแปลงเป็นรูปแบบที่ถูกต้อง
+ในบรรทัดนี้ เราจะบันทึกไฟล์ Excel ที่โหลดเป็นไฟล์ DOCX `SaveFormat.Docx` พารามิเตอร์ช่วยให้แน่ใจว่าไฟล์จะถูกแปลงเป็นรูปแบบที่ถูกต้อง
 
 ## ขั้นตอนที่ 4: ยืนยันการแปลง
 
@@ -113,7 +115,7 @@ Console.WriteLine("ConvertExcelFileToDocx executed successfully.");
 แน่นอน! Aspose.Cells รองรับการแปลงไฟล์ Excel เป็นรูปแบบต่างๆ รวมถึง PDF, HTML, CSV และอื่นๆ อีกมากมาย
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells หรือไม่?
-คุณสามารถใช้ Aspose.Cells ได้ฟรีโดยมีข้อจำกัดบางประการ อย่างไรก็ตาม หากต้องการใช้งานฟังก์ชันเต็มรูปแบบ คุณจะต้องมีใบอนุญาต คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+คุณสามารถใช้ Aspose.Cells ได้ฟรีโดยมีข้อจำกัดบางประการ อย่างไรก็ตาม หากต้องการใช้งานฟังก์ชันเต็มรูปแบบ คุณจะต้องมีใบอนุญาต คุณสามารถขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถปรับแต่งไฟล์ DOCX หลังจากการแปลงได้หรือไม่
 ใช่! เมื่อข้อมูล Excel ถูกแปลงเป็น DOCX แล้ว คุณสามารถเปิดไฟล์ DOCX และทำการปรับเปลี่ยนโดยใช้ Word หรือไลบรารีประมวลผล DOCX
@@ -123,9 +125,11 @@ Console.WriteLine("ConvertExcelFileToDocx executed successfully.");
 
 ### เค้าโครงไฟล์ Excel ส่งผลต่อการแปลง DOCX หรือไม่?
 เค้าโครงของไฟล์ Excel จะถูกเก็บรักษาไว้เท่าที่เป็นไปได้ระหว่างการแปลง อย่างไรก็ตาม การจัดรูปแบบที่ซับซ้อนอาจต้องมีการปรับเปลี่ยนด้วยตนเองบางส่วนหลังจากการแปลง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

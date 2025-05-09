@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells 可视化教程
 深入了解我们专为渴望掌握电子表格操作的开发人员和爱好者设计的 Aspose.Cells 可视化教程。每个教程涵盖 Aspose.Cells 库的基本功能，从创建和格式化电子表格等基本操作到数据可视化和公式操作等高级功能。无论您是初学者还是经验丰富的开发人员，我们的可视化指南都能提供全面、易懂的说明以及实用示例。
@@ -24,46 +26,75 @@ Aspose.Cells for .NET 可视化教程为希望在 .NET 应用程序中实现 Exc
 学习如何使用 Aspose.Cells 在 .NET 应用程序中创建、自定义和管理图表。通过简单高效的示例探索各种图表类型。
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="在 Excel 中创建和格式化 3D 图表" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="在 Excel 中调整图表大小和重新定位" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="在 Excel 中更改图表刻度标签方向" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="使用指定页面大小从 Excel 图表创建 PDF" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="在 Aspose.Cells 中创建带有数据标记的折线图" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="查找图表点中的 X 和 Y 值的类型" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="使用 Aspose.Cells 从 ODS 文件获取图表副标题" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="在 Excel 中修改图表数据标签形状" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="使用 Aspose.Cells for .NET 创建 Excel 图表" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [使用 Aspose.Cells for .NET 绘制对象](./net/drawing-objects/)
 学习如何使用 Aspose.Cells 在 .NET 应用程序中创建、自定义和管理图表。通过简单高效的示例探索各种图表类型。
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="使用 Aspose.Cells 修改 Excel 中的 Ole 对象标签" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="使用 Aspose.Cells 创建和保存 Excel 文件" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="使用 Aspose.Cells 修改 Excel 中形状文本的对齐方式" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="使用 Aspose.Cells 操作 Excel 中形状的 Z 顺序" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="使用远东和拉丁字体创建 Excel 工作簿" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="使用 Aspose.Cells 在 Excel 中平铺纹理填充" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.Cells for .NET 中的格式化 – 样式、颜色等](./net/formatting/)
 了解如何在 Aspose.Cells for .NET 中应用格式，包括专业 Excel 报告的样式、颜色、字体、边框等。
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="使用 Aspose.Cells 在 Excel 中为某个区域添加边框" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="使用 Aspose.Cells 在 Excel 中应用颜色和背景" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="使用 Aspose.Cells for .NET 合并 Excel 中的单元格" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="使用 Aspose.Cells 设置 Excel 单元格中的字体颜色" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="使用 Aspose.Cells 在 Excel 中设置字体名称" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="使用 Aspose.Cells 在 Excel 中设置字体大小" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="使用 Aspose.Cells 在 Excel 中实现水平文本对齐" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="使用 Aspose.Cells 在 Excel 单元格中换行" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.Cells for .NET 中的数据透视表](./net/pivot-tables/)
 学习如何在 Aspose.Cells for .NET 中创建、格式化和管理数据透视表。使用 C# 轻松生成动态报告并分析数据。
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="使用 Aspose.Cells 在 Excel 中创建数据透视表" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="在 Aspose.Cells 中将数据透视表保存为 ODS" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 以下是一些有用资源的链接：
@@ -181,8 +212,10 @@ Aspose.Cells for .NET 可视化教程为希望在 .NET 应用程序中实现 Exc
 
 
 ## Aspose.Cells for Java教程
+
 {{% alert color="primary" %}}
 探索 Aspose.Cells for Java 教程。通过代码示例掌握 Excel 文件操作。立即提升您的 Java 技能！
+
 {{% /alert %}}
 
 以下是一些有用资源的链接：
@@ -219,6 +252,7 @@ Aspose.Cells for .NET 可视化教程为希望在 .NET 应用程序中实现 Exc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

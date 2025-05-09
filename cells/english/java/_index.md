@@ -7,7 +7,9 @@ description: Explore Aspose.Cells for Java tutorials. Master Excel file manipula
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java Spreadsheet Processing Tutorials
@@ -118,9 +120,11 @@ Complete tutorials for creating report templates, generating documents, and impl
 
 ### [Automation & Batch Processing](./automation-batch-processing/)
 Step-by-step tutorials for automating Excel tasks, batch processing multiple files, and scheduling operations with Aspose.Cells for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özel Grafik Şablonları
@@ -26,7 +28,7 @@ Sürekli gelişen veri görselleştirme dünyasında, verilerinizin hikayesini e
 
 Bu eğitimi takip edebilmek için aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Özel Bir Grafik Şablonu Oluşturma
@@ -122,11 +124,12 @@ Kesinlikle! Aspose.Cells for Java çok yönlüdür ve hem basit hem de karmaşı
 
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
-Kapsamlı belgeler ve örnekler için Java için Aspose.Cells belgelerini şu adreste ziyaret edin: [Burada](https://reference.aspose.com/cells/java/).
+Kapsamlı dokümantasyon ve örnekler için Java için Aspose.Cells dokümantasyonunu şu adreste ziyaret edin: [Burada](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обновление данных сводной таблицы
@@ -90,9 +92,11 @@ workbook.save(outputFilePath);
    - Да, вы можете запланировать автоматическое обновление данных с помощью библиотек планирования Aspose.Cells и Java. Это позволяет вам поддерживать сводные таблицы в актуальном состоянии без ручного вмешательства.
 
 Теперь у вас есть знания, как обновить данные сводной таблицы в Aspose.Cells для Java. Сохраняйте точность анализов и опережайте свои решения, основанные на данных.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

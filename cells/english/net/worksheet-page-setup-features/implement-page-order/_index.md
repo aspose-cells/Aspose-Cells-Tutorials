@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-page-order/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Page Order in Worksheet
@@ -78,6 +80,7 @@ Yes, once set, the page order will apply to PDF exports or other supported forma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

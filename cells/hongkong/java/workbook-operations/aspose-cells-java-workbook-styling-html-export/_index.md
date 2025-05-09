@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 讓我們深入了解先決條件並開始吧！
 
 ## 先決條件
-在踏上這趟旅程之前，請確保您在以下領域擁有堅實的基礎：
+在踏上這段旅程之前，請確保您在以下領域擁有堅實的基礎：
 - **Java 開發環境**：請確保您已安裝並設定了 JDK。 IntelliJ IDEA 或 Eclipse 之類的 IDE 將會很有幫助。
 - **Aspose.Cells for Java函式庫**：使用 Maven 或 Gradle 下載並設定 Aspose.Cells 函式庫。
 - **Excel 操作基礎知識**：熟悉Java中的Excel操作可以增強你的理解。
@@ -189,6 +191,9 @@ Aspose.Cells for Java 不僅僅涉及基本的文件操作；它為實際應用�
 - 探索專案中的實際實施。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

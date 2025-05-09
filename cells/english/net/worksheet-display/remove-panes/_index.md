@@ -8,7 +8,9 @@ url: /net/worksheet-display/remove-panes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Panes from Worksheet using Aspose.Cells
@@ -81,6 +83,7 @@ Yes, Aspose.Cells is compatible with .NET Core as well as .NET Framework, making
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

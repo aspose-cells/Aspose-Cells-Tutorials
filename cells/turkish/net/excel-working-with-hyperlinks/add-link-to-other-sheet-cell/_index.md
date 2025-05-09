@@ -1,14 +1,16 @@
 ---
-title: Excel'de Diğer Sayfa Hücresine Bağlantı Ekleme
-linktitle: Excel'de Diğer Sayfa Hücresine Bağlantı Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel sayfalarındaki hücrelere dahili bağlantılar eklemeyi öğrenin. E-tablolarınızdaki gezinmeyi zahmetsizce geliştirin.
-weight: 11
-url: /tr/net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/
+"description": "Aspose.Cells for .NET kullanarak Excel sayfalarındaki hücrelere dahili bağlantılar eklemeyi öğrenin. E-tablolarınızdaki gezinmeyi zahmetsizce geliştirin."
+"linktitle": "Excel'de Diğer Sayfa Hücresine Bağlantı Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Diğer Sayfa Hücresine Bağlantı Ekleme"
+"url": "/tr/net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Diğer Sayfa Hücresine Bağlantı Ekleme
@@ -18,7 +20,7 @@ Yoğun bir havaalanında dolaştığınızı hayal edin; kapınızı aramakla za
 ## Ön koşullar
 Başlamadan önce ihtiyacınız olacak birkaç şey var:
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için kullanışlı bir araçtır.
-2. Aspose.Cells Kütüphanesi: .NET için Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[Aspose Cells indirme sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: .NET için Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz: [Aspose Cells indirme sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamanın temel bir anlayışı çok işe yarayacaktır. Bu kılavuz, C# sözdizimine biraz aşina olduğunuzu varsayar.
 4. Microsoft Excel: Excel'i bilgisayarınızda bulundurmak, oluşturacağınız şeyin sonuçlarını görselleştirmenize yardımcı olur.
 5. .NET Framework: Aspose.Cells kitaplığını destekleyen uyumlu bir .NET Framework sürümünde çalıştığınızdan emin olun.
@@ -43,7 +45,7 @@ Sonra, çıktı Excel dosyanızı nereye kaydetmek istediğinizi belirtmeniz ger
 // Excel dosyanız için çıktı dizini
 string outputDir = "Your Document Directory"; // Dizininizle değiştirin
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` çıktı dosyasının bulunmasını istediğiniz yolu belirtin.
+Değiştirdiğinizden emin olun `"Your Document Directory"` çıktı dosyasının bulunmasını istediğiniz yolu belirtin.
 ## Adım 3: Çalışma Kitabı Nesnesini Örneklendirin
 Artık Excel çalışma kitabınızı oluşturmaya hazırsınız! Tüm sayfalarınız ve verileriniz burada bulunacaktır.
 ```csharp
@@ -61,10 +63,10 @@ Bu komut yeni bir çalışma sayfası ekler ve artık çalışma kitabınız üz
 ## Adım 5: İlk Çalışma Sayfasına Erişim
 İlk çalışma sayfasıyla (varsayılan sayfa olarak bilinir) çalışmak için ona başvurmanız gerekir.
 ```csharp
-// İlk (varsayılan) çalışma sayfasının referansını alma
+// İlk (varsayılan) çalışma sayfasının referansını edinme
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Şimdi,`worksheet` hiperlinkimizi ekleyeceğimiz ilk sayfaya bir referanstır.
+Şimdi, `worksheet` hiperlinkimizi ekleyeceğimiz ilk sayfaya bir referanstır.
 ## Adım 6: Dahili Bir Köprü Ekleme
 İşte heyecan verici kısım! “B3” hücresinde farklı bir çalışma sayfasındaki “B9” hücresini işaret eden bir köprü oluşturacağız.
 ```csharp
@@ -80,14 +82,14 @@ Bir köprü metnine tıkladığınızda, nereye yönlendirdiğinin anlaşılmas�
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Link To Other Sheet Cell";
 ```
-Bu, elektronik tabloyu kullanan herkese rehberlik ederek, "Diğer Sayfa Hücresine Bağlantı" ifadesinin "B3" hücresinde görünmesini sağlayacaktır.
+Bu, elektronik tabloyu kullanan herkese rehberlik ederek, “Diğer Sayfa Hücresine Bağlantı” ifadesinin “B3” hücresinde görünmesini sağlayacaktır.
 ## Adım 8: Çalışma Kitabınızı Kaydedin
 Her şey ayarlandıktan sonra, yeni oluşturduğunuz çalışma kitabını gömülü köprü metniyle birlikte kaydetme zamanı geldi.
 ```csharp
 // Köprü metni içeren Excel dosyasını kaydetme
 workbook.Save(outputDir + "outputAddingLinkToOtherSheetCell.xlsx");
 ```
- Doğru yolu belirttiğinizden emin olun`outputDir` Böylece Excel dosyanız doğru bir şekilde kaydedilir.
+Doğru yolu belirttiğinizden emin olun `outputDir` Böylece Excel dosyanız doğru bir şekilde kaydedilir.
 ## Adım 9: İşlemi Onaylayın
 Son olarak kullanıcıya işlemin başarıyla tamamlandığını bildirelim.
 ```csharp
@@ -100,16 +102,18 @@ Bu eğitimde, .NET için Aspose.Cells ile bir Excel çalışma kitabındaki baş
 ### Aspose.Cells Nedir?  
 Aspose.Cells, Microsoft Excel kullanmadan Excel dosyaları oluşturmak ve düzenlemek için güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet! Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 ### Aspose.Cells'i kullanmak için Microsoft Excel'i yüklemem gerekiyor mu?  
 Hayır, Aspose.Cells Microsoft Excel'den bağımsız olarak çalışır.
 ### Birden fazla sayfaya bağlantı vermek mümkün müdür?  
 Kesinlikle! Aynı yaklaşımı kullanarak farklı sayfalara işaret eden birden fazla köprü metni oluşturabilirsiniz.
 ### Aspose.Cells için desteği nereden alabilirim?  
- Destek için Aspose topluluğuna ulaşabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Destek için Aspose topluluğuna ulaşabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

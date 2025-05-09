@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A : Examinez les schémas d'utilisation de la mémoire et optimisez votre code 
 En suivant ce guide, vous êtes désormais prêt à enrichir vos feuilles de calcul Excel avec des formes personnalisées grâce à Aspose.Cells pour Java. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datenimport aus Excel
@@ -96,9 +98,11 @@ Sie haben nun gelernt, wie Sie mit Aspose.Cells für Java Daten aus Excel import
    Besuchen Sie die Aspose.Cells-Dokumentation [Hier](https://reference.aspose.com/cells/java/) für ausführliche Ressourcen und Beispiele.
 
 Sie können diesen Code gerne weiter erkunden und an Ihre spezifischen Datenimportanforderungen anpassen. Viel Spaß beim Programmieren!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

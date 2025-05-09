@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi các tập tin Excel sang các định dạng khác
-linktitle: Chuyển đổi các tập tin Excel sang các định dạng khác
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá danh sách hướng dẫn toàn diện về Aspose.Cells cho .NET để chuyển đổi các tệp Excel sang các định dạng như JSON, DOCX, HTML, PDF, Markdown, v.v.
-weight: 35
-url: /vi/net/converting-excel-files-to-other-formats/
+"description": "Khám phá danh sách hướng dẫn toàn diện về Aspose.Cells cho .NET để chuyển đổi các tệp Excel sang các định dạng như JSON, DOCX, HTML, PDF, Markdown, v.v."
+"linktitle": "Chuyển đổi các tập tin Excel sang các định dạng khác"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi các tập tin Excel sang các định dạng khác"
+"url": "/vi/net/converting-excel-files-to-other-formats/"
+"weight": 35
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi các tập tin Excel sang các định dạng khác
@@ -19,13 +21,13 @@ url: /vi/net/converting-excel-files-to-other-formats/
 
 ## Chuyển đổi tệp Excel sang JSON, DOCX, HTML và nhiều hơn nữa
 
-1. [Chuyển đổi CSV sang JSON theo chương trình trong .NET](./converting-csv-to-json/): Chuyển đổi tệp CSV sang định dạng JSON giờ đây dễ dàng hơn bao giờ hết. Hướng dẫn này cung cấp phương pháp tiếp cận đơn giản, dựa trên mã để chuyển đổi dữ liệu, hoàn hảo cho các ứng dụng cần dữ liệu JSON có cấu trúc từ đầu vào CSV thô.
+1. [Chuyển đổi CSV sang JSON theo chương trình trong .NET](./converting-csv-to-json/)Chuyển đổi tệp CSV sang định dạng JSON giờ đây dễ dàng hơn bao giờ hết. Hướng dẫn này cung cấp phương pháp tiếp cận đơn giản, dựa trên mã để chuyển đổi dữ liệu, hoàn hảo cho các ứng dụng cần dữ liệu JSON có cấu trúc từ đầu vào CSV thô.
 
 2. [Chuyển đổi tệp Excel sang DOCX theo chương trình trong .NET](./converting-excel-file-to-docx/): Hướng dẫn này cung cấp một cách đơn giản để chuyển đổi dữ liệu Excel sang định dạng DOCX, lý tưởng để tạo báo cáo hoặc tài liệu có thể chia sẻ. Bạn có thể làm theo cách tiếp cận từng bước này để tạo tài liệu DOCX có dữ liệu nhúng.
 
 3. [Chuyển đổi tệp Excel sang HTML bằng Tooltip trong .NET](./converting-excel-file-to-html-with-tooltip/): Nâng cao tính tương tác của ứng dụng web bằng cách nhúng dữ liệu Excel dưới dạng HTML với chú giải công cụ. Aspose.Cells giúp bạn dễ dàng chuyển đổi dữ liệu Excel sang HTML, thêm lớp phủ thông tin phong phú vào nội dung web của bạn.
 
-4. [Chuyển đổi tệp Excel sang PDF (A-1a) theo chương trình trong .NET](./converting-excel-file-to-pdf-a-1a/): Chuyển đổi tệp sang PDF/A-1a đảm bảo dữ liệu của bạn được bảo quản lâu dài. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình chuyển đổi, nêu chi tiết các mẫu mã để tạo tệp PDF/A-1a nhằm lưu trữ an toàn.
+4. [Chuyển đổi tệp Excel sang PDF (A-1a) theo chương trình trong .NET](./converting-excel-file-to-pdf-a-1a/)Chuyển đổi tệp sang PDF/A-1a đảm bảo dữ liệu của bạn được bảo quản lâu dài. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình chuyển đổi, nêu chi tiết các mẫu mã để tạo tệp PDF/A-1a nhằm lưu trữ an toàn.
 
 5. [Theo dõi tiến trình chuyển đổi tài liệu theo chương trình trong .NET](./tracking-document-conversion-progress/): Theo dõi tiến trình chuyển đổi theo thời gian thực! Aspose.Cells for .NET bao gồm các tính năng cho phép bạn theo dõi và quản lý quá trình chuyển đổi tài liệu, giúp các quy trình minh bạch và hiệu quả.
 
@@ -59,14 +61,16 @@ Tìm hiểu cách chỉ định HTML CrossType trong Aspose.Cells cho .NET. Làm
 ### [Đọc bảng tính số theo chương trình trong .NET](./reading-numbers-spreadsheet/)
 Tìm hiểu cách đọc bảng tính Numbers và chuyển đổi chúng sang PDF bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Lưu sổ làm việc theo định dạng bảng tính Open XML nghiêm ngặt trong .NET](./saving-workbook-to-strict-open-xml-spreadsheet-format/)
-Tìm hiểu cách lưu sổ làm việc theo định dạng Bảng tính Strict Open XML bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
+Tìm hiểu cách lưu bảng tính theo định dạng Strict Open XML Spreadsheet bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Theo dõi tiến trình chuyển đổi tài liệu theo chương trình trong .NET](./tracking-document-conversion-progress/)
 mô tả: Tìm hiểu cách theo dõi tiến trình chuyển đổi tài liệu theo chương trình bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
 ### [Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET](./tracking-document-conversion-progress-for-tiff/)
 Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

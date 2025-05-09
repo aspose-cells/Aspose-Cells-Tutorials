@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/change-slicer-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Slicer Properties in Aspose.Cells .NET
@@ -169,6 +171,7 @@ Yes! Aspose.Cells has extensive features for creating and manipulating charts, i
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Konwersja wykresu na obraz w .NET
-linktitle: Konwersja wykresu na obraz w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak konwertować wykresy na obrazy w .NET za pomocą Aspose.Cells dzięki temu przewodnikowi krok po kroku. Łatwo konwertuj wykresy Excela na wysokiej jakości obrazy.
-weight: 10
-url: /pl/net/image-and-chart-operations/chart-to-image-conversion/
+"description": "Dowiedz się, jak konwertować wykresy na obrazy w .NET za pomocą Aspose.Cells dzięki temu przewodnikowi krok po kroku. Łatwo konwertuj wykresy Excela na obrazy wysokiej jakości."
+"linktitle": "Konwersja wykresu na obraz w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konwersja wykresu na obraz w .NET"
+"url": "/pl/net/image-and-chart-operations/chart-to-image-conversion/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja wykresu na obraz w .NET
@@ -23,7 +25,7 @@ Najpierw musisz pobrać i odwołać się do biblioteki Aspose.Cells for .NET w s
 ### Środowisko .NET
 Upewnij się, że masz zainstalowany .NET Framework w swoim systemie. Możesz użyć Visual Studio lub dowolnego innego środowiska programistycznego .NET, aby uruchomić ten przykład.
 ### Konfiguracja licencji (opcjonalnie)
- Chociaż możesz używać Aspose.Cells w ramach bezpłatnej wersji próbnej, aby uzyskać pełną funkcjonalność bez ograniczeń, rozważ złożenie wniosku o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup jeden z[Tutaj](https://purchase.aspose.com/buy).
+Chociaż możesz używać Aspose.Cells w ramach bezpłatnej wersji próbnej, aby uzyskać pełną funkcjonalność bez ograniczeń, rozważ złożenie wniosku o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kup jeden z [Tutaj](https://purchase.aspose.com/buy).
 
 ## Importuj pakiety
 Na początek zaimportujmy niezbędne przestrzenie nazw do pracy z biblioteką Aspose.Cells. Pozwoli nam to manipulować plikami Excela i generować obrazy.
@@ -42,7 +44,7 @@ Zaczynamy od zdefiniowania ścieżki do naszego katalogu dokumentów i upewnieni
 ```csharp
 // Zdefiniuj katalog, w którym będą zapisywane obrazy
 string dataDir = "Your Document Directory";
-//Sprawdź czy katalog istnieje
+// Sprawdź czy katalog istnieje
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -99,7 +101,7 @@ chart.NSeries.Add("A1:B3", true);
 ## Krok 7: Konwersja wykresu na obraz
 Chwila prawdy: zamierzamy przekonwertować ten wykres na plik graficzny!
 
- Tutaj używamy`ToImage` metoda konwersji wykresu do wybranego formatu obrazu. W tym przypadku konwertujemy go do formatu EMF (Enhanced Metafile).
+Tutaj używamy `ToImage` metoda konwersji wykresu do wybranego formatu obrazu. W tym przypadku konwertujemy go do formatu EMF (Enhanced Metafile).
 ```csharp
 // Przekonwertuj wykres na obraz i zapisz go w katalogu
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);
@@ -116,18 +118,20 @@ Bum! Tak łatwo jest przekonwertować wykres z Excela na obraz za pomocą Aspose
 Postępując zgodnie z instrukcjami zawartymi w tym przewodniku, możesz teraz przekonwertować dowolny wykres programu Excel na obraz, co umożliwi bezproblemową integrację danych wizualnych z różnymi aplikacjami.
 ## Najczęściej zadawane pytania
 ### Czy mogę konwertować różne typy wykresów za pomocą tej metody?
-Tak, możesz konwertować dowolny typ wykresu obsługiwany przez Aspose.Cells, w tym wykresy kołowe, słupkowe, liniowe i inne!
+Tak, możesz konwertować dowolne typy wykresów obsługiwane przez Aspose.Cells, w tym wykresy kołowe, słupkowe, liniowe i inne!
 ### Czy można zmienić format obrazu?
- Oczywiście! Podczas gdy w tym przykładzie użyliśmy EMF, możesz zmienić format obrazu na PNG, JPEG, BMP i inne, po prostu modyfikując`ImageFormat` parametr.
+Oczywiście! Podczas gdy w tym przykładzie użyliśmy EMF, możesz zmienić format obrazu na PNG, JPEG, BMP i inne, po prostu modyfikując `ImageFormat` parametr.
 ### Czy Aspose.Cells obsługuje obrazy o wysokiej rozdzielczości?
 Tak, Aspose.Cells pozwala kontrolować rozdzielczość obrazu i ustawienia jakości podczas eksportowania wykresów do obrazów.
 ### Czy mogę przekonwertować wiele wykresów na obrazy na raz?
 Tak, możesz przeglądać wiele wykresów w skoroszycie i konwertować je wszystkie na obrazy za pomocą zaledwie kilku linijek kodu.
 ### Czy liczba wykresów, które mogę przekonwertować, jest ograniczona?
 Aspose.Cells nie nakłada żadnych ograniczeń, ale przetwarzanie dużych ilości danych może zależeć od pamięci i wydajności systemu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

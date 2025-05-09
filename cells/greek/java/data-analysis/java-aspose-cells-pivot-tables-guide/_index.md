@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ pivotField.setNumber(10);  // Εφαρμόζει μια προκαθορισμέ
 ΕΝΑ:** Βεβαιωθείτε ότι έχουν οριστεί οι σωστοί δείκτες και θέσεις για να αποφύγετε σφάλματα υπολογισμού. Να δοκιμάζετε πάντα τις διαμορφώσεις σας με δείγματα δεδομένων πριν τις εφαρμόσετε σε βιβλία εργασίας παραγωγής.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ustawianie obramowania programowo w programie Excel
-linktitle: Ustawianie obramowania programowo w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo ustawić obramowania w programie Excel przy użyciu Aspose.Cells dla .NET. Oszczędź czas i zautomatyzuj zadania w programie Excel.
-weight: 10
-url: /pl/net/excel-borders-and-formatting-options/setting-border/
+"description": "Dowiedz się, jak programowo ustawić obramowania w programie Excel przy użyciu Aspose.Cells dla .NET. Oszczędź czas i zautomatyzuj zadania w programie Excel."
+"linktitle": "Ustawianie obramowania programowo w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie obramowania programowo w programie Excel"
+"url": "/pl/net/excel-borders-and-formatting-options/setting-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie obramowania programowo w programie Excel
@@ -23,8 +25,8 @@ Więc, czy jesteś gotowy, aby podnieść poziom swoich umiejętności automatyz
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania wstępne:
 
-1.  Visual Studio: Powinieneś mieć zainstalowany program Visual Studio na swoim komputerze. Jeśli nie masz, pobierz go z[Tutaj](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać, pobierając DLL z[ten link](https://releases.aspose.com/cells/net/) lub używając NuGet w swoim projekcie:
+1. Visual Studio: Powinieneś mieć zainstalowany program Visual Studio na swoim komputerze. Jeśli nie masz, pobierz go z [Tutaj](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać, pobierając DLL z [ten link](https://releases.aspose.com/cells/net/) lub używając NuGet w swoim projekcie:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -54,11 +56,11 @@ Po pierwsze, musimy określić, gdzie zostanie zapisany nasz plik Excel. Określ
 string dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela. 
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela. 
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie utwórzmy instancję`Workbook` klasa. To będzie reprezentować nasz skoroszyt programu Excel.
+Następnie utwórzmy instancję `Workbook` klasa. To będzie reprezentować nasz skoroszyt programu Excel.
 
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
@@ -133,7 +135,7 @@ Na koniec zapiszmy nasz skoroszyt. Użyj następującego kodu, aby zapisać zmia
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- Spowoduje to zapisanie pliku Excel jako`output.xlsx` w określonym katalogu. 
+Spowoduje to zapisanie pliku Excel jako `output.xlsx` w określonym katalogu. 
 
 ## Wniosek
 
@@ -145,19 +147,21 @@ I masz to! Udało Ci się ustawić granice programowo w pliku Excela przy użyci
 Tak, Aspose.Cells koncentruje się głównie na programie Excel, ale umożliwia również konwersję plików Excel do różnych formatów, takich jak PDF i HTML.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?  
- Możesz skorzystać z bezpłatnej wersji próbnej, aby przetestować jego funkcjonalności. Do długoterminowego użytkowania będziesz musiał kupić licencję, którą znajdziesz[Tutaj](https://purchase.aspose.com/buy).
+Możesz skorzystać z bezpłatnej wersji próbnej, aby przetestować jego funkcjonalności. Do długoterminowego użytkowania będziesz musiał kupić licencję, którą znajdziesz [Tutaj](https://purchase.aspose.com/buy).
 
 ### Jak zainstalować Aspose.Cells?  
 Możesz zainstalować Aspose.Cells za pomocą NuGet lub pobierając bibliotekę DLL ze strony.
 
 ### Czy jest dostępna jakaś dokumentacja?  
- Oczywiście! Możesz uzyskać dostęp do pełnej dokumentacji[Tutaj](https://reference.aspose.com/cells/net/).
+Oczywiście! Możesz uzyskać dostęp do pełnej dokumentacji [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?  
- W przypadku jakichkolwiek pytań lub problemów możesz odwiedzić forum pomocy technicznej Aspose:[Forum Aspose](https://forum.aspose.com/c/cells/9).
+W przypadku jakichkolwiek pytań lub problemów możesz odwiedzić forum pomocy technicznej Aspose: [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การตรวจสอบข้อมูลทศนิยมใน Excel
-linktitle: การตรวจสอบข้อมูลทศนิยมใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ค้นพบวิธีการนำการตรวจสอบข้อมูลทศนิยมไปใช้ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือที่ทำตามได้ง่ายของเรา ปรับปรุงความสมบูรณ์ของข้อมูลได้อย่างง่ายดาย
-weight: 11
-url: /th/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "ค้นพบวิธีการนำการตรวจสอบข้อมูลทศนิยมไปใช้ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือที่ทำตามได้ง่ายของเรา ปรับปรุงความสมบูรณ์ของข้อมูลได้อย่างง่ายดาย"
+"linktitle": "การตรวจสอบข้อมูลทศนิยมใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การตรวจสอบข้อมูลทศนิยมใน Excel"
+"url": "/th/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตรวจสอบข้อมูลทศนิยมใน Excel
@@ -22,7 +24,7 @@ url: /th/net/excel-autofilter-validation/decimal-data-validation-in-excel/
 ก่อนจะเจาะลึกโค้ด ให้แน่ใจว่าคุณได้ตั้งค่าทุกอย่างให้พร้อมเพื่อให้ใช้งานได้อย่างราบรื่น:
 
 1. Visual Studio: ดาวน์โหลดและติดตั้ง Visual Studio หากคุณยังไม่ได้ทำ เป็นสภาพแวดล้อมที่สมบูรณ์แบบสำหรับการพัฒนาแอปพลิเคชัน .NET
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องเพิ่มไลบรารี Aspose.Cells ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้ทาง[ลิงค์นี้](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องเพิ่มไลบรารี Aspose.Cells ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้ผ่าน [ลิงค์นี้](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: แม้ว่าเราจะอธิบายทุกอย่างทีละขั้นตอน แต่การมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจแนวคิดต่างๆ ได้ดีขึ้น
 4. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ที่จำเป็นและเข้ากันได้กับ Aspose.Cells แล้ว
 5. ไลบรารี: อ้างอิงไลบรารี Aspose.Cells ในโปรเจ็กต์ของคุณเพื่อหลีกเลี่ยงข้อผิดพลาดในการคอมไพล์
@@ -51,7 +53,7 @@ using System;
 string dataDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"` ด้วยเส้นทางที่คุณต้องการบันทึกไฟล์ Excel ของคุณ
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางที่คุณต้องการบันทึกไฟล์ Excel ของคุณ
 
 ## ขั้นตอนที่ 2: ตรวจสอบการมีอยู่ของไดเร็กทอรี
 
@@ -209,16 +211,18 @@ workbook.Save(dataDir + "output.out.xls");
 ใช่! คุณสามารถกำหนดข้อความแสดงข้อผิดพลาดแบบกำหนดเองเพื่อแนะนำผู้ใช้เมื่อป้อนข้อมูลไม่ถูกต้อง
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
- Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่คุณจะต้องมีใบอนุญาตเพื่อใช้งานในระยะยาว คุณสามารถดูข้อมูลเพิ่มเติมเกี่ยวกับการขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่คุณจะต้องมีใบอนุญาตเพื่อใช้งานในระยะยาว คุณสามารถดูข้อมูลเพิ่มเติมเกี่ยวกับการขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถตรวจสอบชนิดข้อมูลใดได้บ้างใน Excel?
 ด้วย Aspose.Cells คุณสามารถตรวจสอบประเภทข้อมูลต่างๆ ได้ เช่น จำนวนเต็ม ทศนิยม วันที่ รายการ และสูตรที่กำหนดเอง
 
 ### ฉันสามารถหาเอกสาร Aspose.Cells เพิ่มเติมได้ที่ไหน
- คุณสามารถสำรวจเอกสารประกอบที่ครอบคลุม[ที่นี่](https://reference.aspose.com/cells/net/).
+คุณสามารถสำรวจเอกสารประกอบที่ครอบคลุม [ที่นี่](https://reference-aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

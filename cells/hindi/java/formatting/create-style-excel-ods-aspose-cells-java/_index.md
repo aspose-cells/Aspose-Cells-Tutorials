@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है, जिससे आप इसकी विशेषताओं का पता लगा सकते हैं। पूर्ण क्षमताओं को अनलॉक करने के लिए:
 1. **मुफ्त परीक्षण**: Aspose वेबसाइट से डाउनलोड करें और अस्थायी लाइसेंस के लिए आवेदन करें।
 2. **अस्थायी लाइसेंस**: मिलने जाना [Aspose का लाइसेंसिंग पृष्ठ](https://purchase.aspose.com/temporary-license/) एक प्राप्त करने के लिए.
-3. **खरीदना**: दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy).
+3. **खरीदना**दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy).
 
 ### बुनियादी आरंभीकरण और सेटअप
 Aspose.Cells के साथ आरंभ करने के लिए:
@@ -171,6 +173,9 @@ Aspose.Cells की और अधिक उन्नत सुविधाओं
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

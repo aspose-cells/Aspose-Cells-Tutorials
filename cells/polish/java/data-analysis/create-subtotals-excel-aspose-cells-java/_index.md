@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Aby skorzystać z tego samouczka, upewnij się, że posiadasz:
 - **Maven lub Gradle**:Do zarządzania zależnościami użyjemy Mavena, ale te same kroki należy wykonać w przypadku użytkowników Gradle.
 
 ### Konfigurowanie Aspose.Cells dla Java
-Aspose.Cells for Java to solidna biblioteka do zarządzania plikami Excel. Oto jak możesz dodać ją do swojego projektu:
+Aspose.Cells for Java to solidna biblioteka do zarządzania plikami Excel. Oto jak możesz ją dodać do swojego projektu:
 
 **Używanie Maven:**
 
@@ -154,6 +156,9 @@ O: Tak, obsługuje szeroką gamę formatów Excel, w tym XLS i XLSX.
 Postępując zgodnie z tym przewodnikiem, powinieneś być teraz dobrze wyposażony, aby włączyć funkcjonalności subtotal do swoich aplikacji Java przy użyciu Aspose.Cells. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

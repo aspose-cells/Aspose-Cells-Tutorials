@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@ För att följa den här handledningen, se till att du har följande:
    - Java Development Kit (JDK) installerat på din dator
    - En Maven- eller Gradle-byggsysteminstallation i din utvecklingsmiljö
 
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för filhantering i Java
    - Bekantskap med Excel-filformat och diagramstrukturer
 
@@ -186,6 +188,9 @@ För vidare läsning och resurser:
 - **Stöd:** [Aspose-forum för frågor och hjälp](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

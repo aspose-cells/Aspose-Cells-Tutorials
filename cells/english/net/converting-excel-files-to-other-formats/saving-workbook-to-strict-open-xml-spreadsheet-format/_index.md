@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/saving-workbook-to-strict-open
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Workbook to Strict Open XML Spreadsheet Format in .NET
@@ -96,6 +98,7 @@ Absolutely! Aspose.Cells allows you to save your workbook in various formats lik
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

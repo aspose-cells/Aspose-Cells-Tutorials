@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 数据验证规则
@@ -42,9 +44,11 @@ Aspose.Cells 让您能够根据特定需求创建自定义数据验证规则。�
 学习如何使用 Aspose.Cells for Java 实现条件数据验证。本指南包含源代码，可帮助您在 Excel 电子表格中实现精准的数据处理。
 ### [数据验证中的输入信息](./input-message-in-data-validation/)
 了解如何使用 Aspose.Cells for Java 增强 Excel 中的数据验证。本指南包含代码示例，旨在提高数据准确性并提供用户指导。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

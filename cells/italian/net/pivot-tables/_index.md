@@ -1,26 +1,30 @@
 ---
-title: Tabelle pivot in Aspose.Cells per .NET 
-weight: 10
-limit:
-description: Impara come creare, formattare e gestire le tabelle di pivot in Aspose.Cells per .NET. Generare rapporti dinamici e analizzare i dati senza sforzo in C #.
-keywords:
-url: /it/net/pivot-tables/
+"description": "Scopri come creare, formattare e gestire tabelle pivot in Aspose.Cells per .NET. Genera report dinamici e analizza i dati senza sforzo in C#."
+"title": "Tabelle pivot in Aspose.Cells per .NET"
+"url": "/it/net/pivot-tables/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Introduzione 
  
-Pivot tables are a powerful feature in Aspose.Cells for .NET, allowing developers to create dynamic, interactive data summaries within Excel files programmatically. With just a few lines of C# code, you can generate pivot tables, define data sources, set row and column fields, apply filters, and even format the output for better readability. Whether you're working with large datasets or need quick insights, pivot tables streamline the data analysis process, making them an essential tool for reporting and business intelligence.  
+Le tabelle pivot sono una potente funzionalità di Aspose.Cells per .NET, che consente agli sviluppatori di creare riepiloghi di dati dinamici e interattivi all'interno dei file Excel a livello di programmazione. Con poche righe di codice C#, è possibile generare tabelle pivot, definire origini dati, impostare campi di riga e colonna, applicare filtri e persino formattare l'output per una migliore leggibilità. Che si lavori con set di dati di grandi dimensioni o che si necessiti di informazioni rapide, le tabelle pivot semplificano il processo di analisi dei dati, rendendole uno strumento essenziale per il reporting e la business intelligence.  
 
-Utilizzando Aspose.Cells per .NET, è possibile personalizzare completamente le tabelle pivot aggiungendo campi calcolati, modificando i tipi di aggregazione dei dati e applicando stili per un aspetto professionale. L'API supporta funzionalità avanzate come il raggruppamento dei dati, il rinfresco dinamico delle tabelle pivot e la gestione efficiente di molteplici fonti di dati. Questo consente agli sviluppatori di automatizzare la generazione di report Excel, assicurando agli utenti di ottenere riassunti accurati e aggiornati con minimo sforzo.
+Utilizzando Aspose.Cells per .NET, è possibile personalizzare completamente le tabelle pivot aggiungendo campi calcolati, modificando i tipi di aggregazione dei dati e applicando stili per un aspetto professionale. L'API supporta funzionalità avanzate come il raggruppamento dei dati, l'aggiornamento dinamico delle tabelle pivot e la gestione efficiente di più origini dati. Ciò consente agli sviluppatori di automatizzare la generazione di report Excel, garantendo agli utenti riepiloghi accurati e aggiornati con il minimo sforzo.
 
-{{< tutorial-card link="./create-pivot-table/" title="Crea una tabella pivot in Excel utilizzando Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-table-save-in-ods/" title="Salvare la tabella pivot come ODS in Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./create-pivot-table/" title="Creare una tabella pivot in Excel utilizzando Aspose.Cells" imgSrc="./create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-table-save-in-ods/" title="Salva la tabella pivot come ODS in Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

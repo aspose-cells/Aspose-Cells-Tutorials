@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Trabalhar com arquivos grandes do Excel pode levar a problemas significativos de desempenho devido ao excesso de estilos desnecessários. Esses estilos desnecessários podem tornar seus aplicativos lentos e complicar o gerenciamento de arquivos. **Aspose.Cells para Java** oferece uma solução que permite limpar com eficiência esses estilos não utilizados, otimizando suas pastas de trabalho do Excel. Este tutorial guiará você pelo processo de aprimoramento de seus arquivos do Excel usando o Aspose.Cells, com foco na melhoria do desempenho por meio da remoção de estilos redundantes.
 
-### que você aprenderá
+### O que você aprenderá
 
 - Como configurar e configurar o Aspose.Cells para Java
 - Etapas para remover estilos não utilizados de uma pasta de trabalho do Excel de forma eficaz
@@ -187,11 +189,14 @@ A5: Visita [Documentação oficial da Aspose](https://reference.aspose.com/cells
 - **Documentação**: Explore referências detalhadas de API em [Documentação Aspose](https://reference.aspose.com/cells/java/).
 - **Download**: Obtenha a versão mais recente em [Lançamentos Aspose](https://releases.aspose.com/cells/java/).
 - **Comprar**: Garanta sua licença através de [Aspose Compra](https://purchase.aspose.com/buy).
-- **Teste grátis**: Teste os recursos com uma avaliação gratuita em [Teste gratuito do Aspose](https://releases.aspose.com/cells/java/).
+- **Teste grátis**Teste os recursos com uma avaliação gratuita em [Teste gratuito do Aspose](https://releases.aspose.com/cells/java/).
 - **Licença Temporária**: Solicite uma licença temporária para seu [página de licença temporária](https://purchase.aspose.com/temporary-license/).
 - **Apoiar**Junte-se ao fórum da comunidade para obter suporte em [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ cells.get("A1").setValue(50);
 cells.get("A2").setValue(100);
 // Continue para outras células...
 ```
-*Explicação*: O `get` método acessa localizações celulares específicas e `setValue` preenche-os. É assim que você insere dados na sua planilha do Excel.
+*Explicação*: O `get` o método acessa localizações específicas de células e `setValue` preenche-os. É assim que você insere dados na sua planilha do Excel.
 
 ### Recurso 4: Criação de gráficos
 **Visão geral**: Visualizar dados com gráficos pode melhorar a compreensão e a qualidade da apresentação.
@@ -194,6 +196,9 @@ Pronto para levar suas habilidades de automação do Excel para o próximo níve
    - Com certeza! Você pode exportar pastas de trabalho em vários formatos, incluindo PDF e HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

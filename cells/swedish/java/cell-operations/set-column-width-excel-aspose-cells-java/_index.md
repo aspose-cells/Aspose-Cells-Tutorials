@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,10 +154,10 @@ Redo att implementera den här lösningen? Läs mer i dokumentationen och börja
 ## FAQ-sektion
 
 **F1: Vad är Aspose.Cells för Java?**
-Aspose.Cells för Java är ett bibliotek som gör det möjligt för utvecklare att skapa, modifiera och konvertera Excel-filer programmatiskt utan att Microsoft Excel behöver installeras på datorn.
+Aspose.Cells för Java är ett bibliotek som gör det möjligt för utvecklare att skapa, modifiera och konvertera Excel-filer programmatiskt utan att behöva installera Microsoft Excel på sin dator.
 
 **F2: Hur installerar jag Aspose.Cells med hjälp av Maven eller Gradle?**
-Lägg till beroendet som anges i installationsavsnittet i den här guiden till din `pom.xml` eller `build.gradle`.
+Lägg till beroendet som anges i avsnittet Installation i den här guiden till din `pom.xml` eller `build.gradle`.
 
 **F3: Kan jag använda Aspose.Cells för kommersiella ändamål?**
 Ja, men du behöver en köpt licens. En gratis provversion finns tillgänglig för utvärdering.
@@ -178,6 +180,9 @@ Besök [Aspose-dokumentation](https://reference.aspose.com/cells/java/) och utfo
 Den här handledningen bör hjälpa dig att ställa in och komma igång med att ställa in kolumnbredder i Excel med Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

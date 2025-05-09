@@ -1,35 +1,37 @@
 ---
-title: Configuración de la propiedad Enlace a documento de contenido en .NET
-linktitle: Configuración de la propiedad Enlace a documento de contenido en .NET
-second_title: API de procesamiento de Excel Aspose.Cells .NET
-description: Aprenda a vincular propiedades de documentos a contenido en Excel mediante Aspose.Cells para .NET. Tutorial paso a paso para desarrolladores.
-weight: 10
-url: /es/net/link-and-configuration-operations/configuring-link-to-content-document-property/
+"description": "Aprenda a vincular propiedades de documentos a contenido en Excel con Aspose.Cells para .NET. Tutorial paso a paso para desarrolladores."
+"linktitle": "Configuración de la propiedad Enlace al documento de contenido en .NET"
+"second_title": "API de procesamiento de Excel Aspose.Cells .NET"
+"title": "Configuración de la propiedad Enlace al documento de contenido en .NET"
+"url": "/es/net/link-and-configuration-operations/configuring-link-to-content-document-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Configuración de la propiedad Enlace a documento de contenido en .NET
+# Configuración de la propiedad Enlace al documento de contenido en .NET
 
 ## Introducción
 
-En este tutorial, explicaremos cómo configurar un vínculo a contenido para propiedades de documentos personalizadas en archivos de Excel mediante Aspose.Cells para .NET. Desglosaré cada parte del proceso para que sea lo más fácil posible de seguir, así que abróchese el cinturón y sumerjámonos en el mundo de la vinculación de propiedades de documentos personalizadas con contenido en sus libros de Excel.
+En este tutorial, explicaremos cómo configurar un enlace al contenido de propiedades de documento personalizadas en archivos de Excel usando Aspose.Cells para .NET. Desglosaré cada parte del proceso para que sea lo más fácil posible de seguir, así que prepárese y adentrémonos en el mundo de la vinculación de propiedades de documento personalizadas con el contenido de sus libros de Excel.
 
 ## Prerrequisitos
 
-Antes de comenzar, asegúrese de tener todo lo que necesita. Sin los siguientes requisitos previos, el proceso no se desarrollará sin problemas:
+Antes de empezar, asegúrese de tener todo lo necesario. Sin los siguientes requisitos previos, el proceso no se desarrollará correctamente:
 
-1.  Biblioteca Aspose.Cells para .NET: Debe tener Aspose.Cells para .NET instalado en su equipo. Si aún no lo ha descargado, descárguelo desde[Página de descarga de Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).
+1. Biblioteca Aspose.Cells para .NET: Necesita tener Aspose.Cells para .NET instalado en su equipo. Si aún no lo ha descargado, descárguelo desde [Página de descarga de Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).
 2. Entorno de desarrollo: utilice cualquier entorno de desarrollo compatible con .NET, como Visual Studio.
 3. Conocimientos básicos de C#: esta guía asume que tiene cierta familiaridad con C# y .NET.
-4. Archivo de Excel: tenga un archivo de Excel existente con el que trabajar. En nuestro ejemplo, utilizaremos un archivo llamado "sample-document-properties.xlsx".
-5. Licencia Temporal: Si no tienes una licencia completa, puedes obtener una[Licencia temporal aquí](https://purchase.aspose.com/temporary-license/) para evitar limitaciones en la manipulación de archivos.
+4. Archivo de Excel: Dispone de un archivo de Excel con el que trabajar. En nuestro ejemplo, usaremos el archivo "sample-document-properties.xlsx".
+5. Licencia Temporal: Si no tienes una licencia completa, puedes obtener una [licencia temporal aquí](https://purchase.aspose.com/temporary-license/) para evitar limitaciones en la manipulación de archivos.
 
 ## Importar paquetes
 
-Antes de escribir cualquier código, asegúrese de que los espacios de nombres y las bibliotecas necesarios se hayan importado en su proyecto. Puede hacerlo agregando las siguientes instrucciones de importación en la parte superior de su archivo de código.
+Antes de escribir código, asegúrese de que los espacios de nombres y las bibliotecas necesarios se hayan importado a su proyecto. Puede hacerlo añadiendo las siguientes instrucciones de importación al principio de su archivo de código.
 
 ```csharp
 using System;
@@ -40,7 +42,7 @@ using System.Text;
 
 Estos espacios de nombres le darán acceso a las clases y métodos necesarios para manipular las propiedades y el contenido del documento en sus archivos de Excel.
 
-Vamos a dividirlo en pasos fáciles de digerir para que puedas seguirlo sin sentirte abrumado. Cada paso es crucial, así que presta mucha atención a medida que los repasamos.
+Vamos a dividir esto en pasos fáciles de entender para que puedas seguirlo sin sentirte abrumado. Cada paso es crucial, así que presta mucha atención a medida que los repasamos.
 
 ## Paso 1: Cargue el archivo Excel
 
@@ -50,26 +52,26 @@ Lo primero que debemos hacer es cargar el archivo de Excel con el que queremos t
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
 
-// Crear una instancia de un objeto de Workbook
+// Instanciar un objeto de Workbook
 // Abrir un archivo de Excel
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Libro de trabajo workbook = new Workbook(): Esta línea crea un nuevo`Workbook`objeto, que es la clase principal utilizada para trabajar con archivos Excel en Aspose.Cells.
-- dataDir: aquí se especifica la ruta al archivo de Excel. Reemplace "Directorio de documentos" por la ruta real en su equipo.
+- Libro de trabajo workbook = new Workbook(): Esta línea crea un nuevo `Workbook` objeto, que es la clase principal utilizada para trabajar con archivos Excel en Aspose.Cells.
+- dataDir: Aquí se especifica la ruta a su archivo de Excel. Reemplace "Directorio de documentos" con la ruta actual en su equipo.
 
 Piense en este paso como si estuviera abriendo una puerta: ¡está accediendo al archivo para poder realizar los cambios que necesita!
 
-## Paso 2: Acceda a las propiedades personalizadas del documento
+## Paso 2: Acceder a las propiedades personalizadas del documento
 
-Una vez cargado el archivo, necesitamos acceder a sus propiedades de documento personalizadas. Estas propiedades se almacenan en una colección que puedes recuperar y manipular.
+Una vez cargado el archivo, necesitamos acceder a sus propiedades de documento personalizadas. Estas propiedades se almacenan en una colección que se puede recuperar y manipular.
 
 ```csharp
-// Recupere una lista de todas las propiedades de documento personalizadas del archivo Excel
+// Recupere una lista de todas las propiedades de documento personalizadas del archivo de Excel
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
-- CustomDocumentPropertyCollection: esta colección contiene todas las propiedades personalizadas relacionadas con el archivo de Excel. La estamos recuperando para poder agregar o modificar propiedades.
+- CustomDocumentPropertyCollection: Esta colección contiene todas las propiedades personalizadas relacionadas con el archivo de Excel. La recuperamos para poder agregar o modificar propiedades.
 
 Imagine esta colección como una "bolsa" que contiene toda la información adicional sobre su documento, como el autor, el propietario o las etiquetas personalizadas.
 
@@ -82,7 +84,7 @@ Ahora que tenemos las propiedades personalizadas, el siguiente paso es agregar u
 customProperties.AddLinkToContent("Owner", "MyRange");
 ```
 
-- AddLinkToContent: este método agrega una propiedad personalizada (en este caso, "Propietario") y la vincula a un rango específico o área nombrada ("MyRange") dentro de la hoja de cálculo.
+- AddLinkToContent: este método agrega una propiedad personalizada (en este caso, "Propietario") y la vincula a un rango específico o área con nombre ("MyRange") dentro de la hoja de cálculo.
 
 Imagina que estás adjuntando una etiqueta a una parte específica de tu hoja de cálculo, y esa etiqueta ahora puede interactuar con el contenido de esa sección.
 
@@ -98,14 +100,14 @@ Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["Own
 bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
-- Propiedades personalizadas["Propietario"]: Estamos obteniendo la propiedad "Propietario" por nombre para inspeccionar sus detalles.
-- IsLinkedToContent: este valor booleano devuelve`true` si la propiedad está vinculada correctamente al contenido.
+- customProperties["Owner"]: Estamos obteniendo la propiedad "Owner" por nombre para inspeccionar sus detalles.
+- IsLinkedToContent: Este valor booleano devuelve `true` si la propiedad está vinculada correctamente al contenido.
 
-En esta etapa, es como comprobar si la etiqueta (propiedad) está correctamente adjunta al contenido. Te aseguras de que tu código hizo lo que esperabas.
+En esta etapa, es como comprobar si la etiqueta (propiedad) está correctamente asociada al contenido. Te aseguras de que tu código haya hecho lo esperado.
 
 ## Paso 5: Recuperar la fuente de la propiedad
 
-Si necesita saber el contenido exacto o el rango al que está vinculada su propiedad, puede recuperar la fuente utilizando el siguiente código.
+Si necesita averiguar el contenido exacto o el rango al que está vinculada su propiedad, puede recuperar la fuente utilizando el siguiente código.
 
 ```csharp
 // Obtenga la fuente de la propiedad
@@ -114,9 +116,9 @@ string source = customProperty1.Source;
 
 - Fuente: Esto proporciona el contenido específico (en este caso, "MyRange") al que está vinculada la propiedad.
 
-Considere esto como una forma de rastrear dónde apunta la propiedad dentro de su archivo Excel.
+Considere esto como una forma de rastrear hacia dónde apunta la propiedad dentro de su archivo Excel.
 
-## Paso 6: Guarde el archivo Excel actualizado
+## Paso 6: Guarde el archivo de Excel actualizado
 
 Después de realizar todos estos cambios, no olvide guardar el archivo para asegurarse de que la nueva propiedad y su vínculo se almacenen.
 
@@ -131,8 +133,8 @@ Piense en este paso como presionar el botón "Guardar" para fijar todas sus modi
 
 ## Conclusión
 
-¡Y ya está! Vincular una propiedad de documento personalizada al contenido de su archivo de Excel mediante Aspose.Cells para .NET es una función sencilla pero increíblemente útil. Ya sea que esté automatizando la generación de informes o administrando grandes conjuntos de archivos de Excel, esta funcionalidad lo ayuda a conectar de manera dinámica los metadatos con el contenido real de sus documentos.
-En este tutorial, repasamos todo el proceso paso a paso, desde cargar el libro de trabajo hasta guardar el archivo actualizado. Si sigue estos pasos, ahora tendrá las herramientas para automatizar este proceso en sus propios proyectos.
+¡Y listo! Vincular una propiedad de documento personalizada al contenido de tu archivo de Excel con Aspose.Cells para .NET es una función sencilla pero increíblemente útil. Tanto si automatizas la generación de informes como si gestionas grandes conjuntos de archivos de Excel, esta funcionalidad te ayuda a conectar dinámicamente los metadatos con el contenido real de tus documentos.
+En este tutorial, explicamos todo el proceso paso a paso, desde cargar el libro de trabajo hasta guardar el archivo actualizado. Siguiendo estos pasos, ahora cuenta con las herramientas para automatizar este proceso en sus propios proyectos.
 
 ## Preguntas frecuentes
 
@@ -143,16 +145,18 @@ Sí, puede vincular varias propiedades al mismo rango o área con nombre en su l
 La propiedad vinculada se actualizará automáticamente para reflejar el nuevo contenido en el rango especificado.
 
 ### ¿Puedo eliminar un vínculo entre una propiedad y un contenido?
- Sí, puedes desvincular la propiedad eliminándola del`CustomDocumentPropertyCollection`.
+Sí, puedes desvincular la propiedad eliminándola del registro. `CustomDocumentPropertyCollection`.
 
 ### ¿Esta función está disponible en la versión gratuita de Aspose.Cells?
- Sí, pero la versión gratuita tiene limitaciones. Puedes conseguir una[licencia temporal](https://purchase.aspose.com/temporary-license/) para explorar las funciones completas.
+Sí, pero la versión gratuita tiene limitaciones. Puedes obtener una [licencia temporal](https://purchase.aspose.com/temporary-license/) para explorar todas las funciones.
 
 ### ¿Puedo utilizar esta función con otros formatos de documentos como CSV?
 No, esta función es específicamente para archivos Excel, ya que los archivos CSV no admiten propiedades de documento personalizadas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

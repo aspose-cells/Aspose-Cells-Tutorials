@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Akıllı işaretleyicileri uygulamadan önce kurulumunuzun şu gereksinimleri ka
 
 1. **Kütüphaneler ve Bağımlılıklar**: 
    - Aspose.Cells for Java sürüm 25.3 veya daha yenisi.
-   - Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+   - Sisteminizde Java Development Kit (JDK) yüklü.
 
 2. **Çevre Kurulumu**:
    - Tercihinize bağlı olarak IDE'niz Maven veya Gradle projelerini yönetebilecek şekilde yapılandırılmalıdır.
@@ -202,6 +204,9 @@ Sonraki adımlar daha karmaşık şablonlarla denemeler yapmayı veya bu teknikl
 Java için Aspose.Cells'in gücünü kucaklayın ve veri işleme görevlerinizi kolaylıkla dönüştürün!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

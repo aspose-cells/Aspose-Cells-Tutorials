@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -103,7 +105,7 @@ In questa sezione esploreremo come convertire i file Excel nei formati PNG, TIFF
    sr.toImage(0, "YOUR_OUTPUT_DIRECTORY/output.png"); // Salva il file PNG
    ```
 
-### Trasforma Excel in TIFF con il carattere predefinito
+### Rendi Excel in TIFF con il carattere predefinito
 **Panoramica:** Converti un'intera cartella di lavoro di Excel in un'immagine TIFF multipagina, assicurandoti che tutti i caratteri vengano visualizzati utilizzando un font predefinito.
 
 #### Guida passo passo:
@@ -185,6 +187,9 @@ Ora hai imparato a convertire file Excel nei formati PNG, TIFF e PDF utilizzando
 Con questa guida, ora sei pronto a convertire file Excel in formati PNG, TIFF e PDF utilizzando Aspose.Cells per Java. Migliora le tue capacità di condivisione dei dati con queste versatili tecniche di conversione.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

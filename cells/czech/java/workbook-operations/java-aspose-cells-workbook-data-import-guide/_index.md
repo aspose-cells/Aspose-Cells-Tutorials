@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Prozkoumejte dále experimentováním s různými datovými strukturami nebo int
 Vybavením se znalostmi a nástroji popsanými v této příručce jste na dobré cestě k zvládnutí úkolů importu a správy dat pomocí Aspose.Cells pro Javu. Přeji vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

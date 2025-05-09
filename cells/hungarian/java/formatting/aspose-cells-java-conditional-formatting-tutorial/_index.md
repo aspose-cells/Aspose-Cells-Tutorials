@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook book = new Workbook();
 
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet sheet = book.getWorksheets().get(0);
 ```
 
@@ -182,6 +184,9 @@ Igen, a különböző munkalapokon található cellákra a szokásos Excel-hivat
 Adja meg a kívánt mentési formátumot (pl. XLS vagy XLSX) a különböző Excel-verziókkal való kompatibilitás megőrzése érdekében. Az Aspose.Cells több formátumot támogat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

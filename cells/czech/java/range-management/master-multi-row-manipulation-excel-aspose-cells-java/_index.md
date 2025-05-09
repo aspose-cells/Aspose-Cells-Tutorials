@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ A5: Uložte a otevřete sešit v Excelu, abyste si mohli vizuálně prohlédnout
 Prozkoumejte tyto zdroje a prohloubete si znalosti a schopnosti s Aspose.Cells pro Javu. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

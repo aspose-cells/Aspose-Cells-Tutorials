@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,6 +177,9 @@ För vidare utforskning kan du experimentera med mer avancerade funktioner i Asp
 Den här guiden bör ge dig möjlighet att effektivt använda Aspose.Cells för Java i dina projekt, vilket förbättrar datahantering och produktivitet. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

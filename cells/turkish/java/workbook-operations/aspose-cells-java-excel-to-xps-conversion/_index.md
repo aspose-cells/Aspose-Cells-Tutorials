@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Eğer sorunlarla karşılaşırsanız:
 Excel dosyalarını XPS'e dönüştürmek çeşitli amaçlara hizmet edebilir:
 1. **Yayımlama**: Resmi dokümantasyona uygun, son halini almış raporları veya veri sayfalarını düzenlemeye izin vermeden paylaşın.
 2. **Arşivleme**: Belgeleri salt okunur biçimde saklayın, böylece içerik bütünlüğünün zaman içinde korunmasını sağlayın.
-3. **Platformlar Arası Paylaşım**: Farklı işletim sistemlerinde tutarlı belge görünümü sağlayın.
+3. **Platformlar arası paylaşım**: Farklı işletim sistemlerinde tutarlı belge görünümü sağlayın.
 
 ## Performans Hususları
 
@@ -144,6 +146,9 @@ Daha fazla bilgi edinmek için Aspose.Cells tarafından desteklenen diğer dön�
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

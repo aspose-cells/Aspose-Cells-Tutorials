@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,7 +182,7 @@ Gotowy, aby przenieść swój rozwój Java na wyższy poziom? Wdrażaj te techni
    - Bezpłatna wersja próbna umożliwia przetestowanie wszystkich funkcji, ale może wiązać się z pewnymi ograniczeniami użytkowania.
 
 **5. Jak mogę poprawić wydajność mojej aplikacji Java podczas przetwarzania dużych plików?**
-   - Używaj buforowanych strumieni i optymalizuj logikę przetwarzania danych, aby zwiększyć wydajność.
+   - Użyj buforowanych strumieni i zoptymalizuj logikę przetwarzania danych, aby zwiększyć wydajność.
 
 ## Zasoby
 - **Dokumentacja**: [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -191,6 +193,9 @@ Gotowy, aby przenieść swój rozwój Java na wyższy poziom? Wdrażaj te techni
 Dzięki temu kompleksowemu przewodnikowi jesteś na dobrej drodze do opanowania obsługi plików w Javie z Aspose.Cells. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

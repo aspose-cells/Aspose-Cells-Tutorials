@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมี:
 - **ห้องสมุดที่จำเป็น:** ไลบรารี Aspose.Cells สำหรับ Java ใช้ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 - **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** ความเข้าใจพื้นฐานเกี่ยวกับ Java และมีความคุ้นเคยกับ IDE ของคุณ (เช่น IntelliJ IDEA หรือ Eclipse)
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยกับโครงสร้างไฟล์ Excel และประสบการณ์การทำงานกับไลบรารีในโครงการ Java
+- **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยกับโครงสร้างไฟล์ Excel และประสบการณ์การทำงานกับไลบรารีในโครงการ Java
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -64,7 +66,7 @@ public class AccessCellByName {
         // ระบุเส้นทางไปยังไฟล์ Excel ของคุณ
         String dataDir = "path/to/your/excel/file.xls";
         
-        // สร้างวัตถุเวิร์กบุ๊กเริ่มต้น
+        // เริ่มต้นวัตถุเวิร์กบุ๊ก
         Workbook workbook = new Workbook(dataDir);
         
         // เข้าถึงเวิร์กชีตแรกในเวิร์กบุ๊ก
@@ -149,6 +151,9 @@ public class AccessCellByName {
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

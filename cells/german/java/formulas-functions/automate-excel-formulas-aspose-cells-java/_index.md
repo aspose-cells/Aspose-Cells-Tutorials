@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Zögern Sie nicht, zu experimentieren und die umfangreichen Möglichkeiten von A
    Eine sich verbreitende Formel wird automatisch aktualisiert, wenn neue Datenzeilen hinzugefügt werden, und gewährleistet so kontinuierliche Genauigkeit ohne manuelles Eingreifen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

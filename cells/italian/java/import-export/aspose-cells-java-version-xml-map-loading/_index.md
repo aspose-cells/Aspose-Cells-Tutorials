@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: Assicurarsi che il percorso del file sia corretto e che lo schema XML corris
 A3: Una licenza temporanea o acquistata è essenziale per rimuovere le limitazioni di valutazione negli ambienti di produzione.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

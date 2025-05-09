@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Egy meglévő Excel-fájlból exportálhatsz egy diagramot az Aspose.Cells Java 
 
 #### Lépésről lépésre történő megvalósítás
 **1. Munkafüzet-objektum létrehozása és konfigurálása**
-Töltsd be a forrás Excel fájlt egy `Workbook` objektum.
+Töltse be a forrás Excel fájlt egy `Workbook` objektum.
 ```java
 // Töltse be az Excel munkafüzetet
 String dataDir = "YOUR_DATA_DIRECTORY"; // Frissítés a tényleges elérési úttal
@@ -153,6 +155,9 @@ Próbálja ki ennek a funkciónak a megvalósítását még ma, és fejlessze Ja
 - **Támogatási fórum:** [Aspose közösségi támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

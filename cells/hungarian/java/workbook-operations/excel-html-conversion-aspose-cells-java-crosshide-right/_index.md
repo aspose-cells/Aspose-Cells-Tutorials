@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Fedezze fel az Aspose.Cells további funkcióit, például a diagramkonvertálá
 Ez az oktatóanyag átfogó útmutatóként szolgál az Excel-fájlok HTML-be konvertálásához az Aspose.Cells for Java használatával, biztosítva a webes prezentációk átláthatóságát és funkcionalitását.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

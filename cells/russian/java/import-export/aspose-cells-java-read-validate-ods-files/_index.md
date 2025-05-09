@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ import com.aspose.cells.Cell;
 Cell cell = worksheet.getCells().get("A9");
 if (cell.getValidation() != null) {
     int validationType = cell.getValidation().getType();
-    // Обработайте тип проверки по мере необходимости
+    // Обработайте тип проверки по мере необходимости.
 }
 ```
 
@@ -192,6 +194,9 @@ if (cell.getValidation() != null) {
 - **Форум поддержки:** [Поддержка Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

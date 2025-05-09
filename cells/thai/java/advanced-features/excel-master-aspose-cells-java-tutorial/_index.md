@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@
 
 ### การใช้ Maven
 
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 
 ```xml
 <dependency>
@@ -220,6 +222,9 @@ Aspose.Cells สำหรับ Java สามารถใช้ได้ใน�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

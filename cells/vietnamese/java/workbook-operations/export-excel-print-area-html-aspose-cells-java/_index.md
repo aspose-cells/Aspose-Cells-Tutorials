@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ Sự quen thuộc với các khái niệm lập trình Java cơ bản và hiểu
 
    Sử dụng Maven hoặc Gradle như được hiển thị ở trên để đưa Aspose.Cells vào các phụ thuộc của dự án bạn.
 
-2. **Các bước xin cấp giấy phép:**
+2. **Các bước xin cấp phép:**
 
    Bạn có thể nhận được giấy phép dùng thử miễn phí từ [Trang web chính thức của Aspose](https://purchase.aspose.com/temporary-license/). Điều này cho phép bạn khám phá tất cả các tính năng mà không có giới hạn. Để sử dụng lâu dài, hãy cân nhắc mua giấy phép.
 
@@ -228,6 +230,9 @@ Sẵn sàng triển khai các giải pháp này? Hãy tìm hiểu tài liệu đ
 - **Ủng hộ:** Nhận sự hỗ trợ từ cộng đồng hoặc nhóm hỗ trợ Aspose trên [Diễn đàn](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

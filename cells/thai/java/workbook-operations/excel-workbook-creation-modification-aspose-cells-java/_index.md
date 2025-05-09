@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### การขอใบอนุญาต
 Aspose.Cells ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ:
 - **ทดลองใช้งานฟรี**: ดาวน์โหลดจาก [การเปิดตัว Aspose](https://releases.aspose.com/cells/java/) เพื่อทดสอบโดยมีข้อจำกัด
-- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวผ่านทาง [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/temporary-license/).
+- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวผ่านทาง [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/temporary-license/).
 - **ซื้อ**:หากต้องการเข้าถึงแบบไม่หยุดชะงัก ให้ซื้อใบอนุญาตเต็มรูปแบบได้ที่ [การซื้อ Aspose](https://purchase-aspose.com/buy).
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
@@ -206,6 +208,9 @@ public class CalculateWorkbookFormulas {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

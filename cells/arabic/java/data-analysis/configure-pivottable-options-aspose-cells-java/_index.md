@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ wb.save("SettingPivotTableOption_out.xlsx");
 يُمكّنك هذا الدليل من الاستفادة الكاملة من إمكانات Aspose.Cells لجافا في تهيئة جداول البيانات المحورية بفعالية. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

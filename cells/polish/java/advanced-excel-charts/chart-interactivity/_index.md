@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interaktywność wykresu
@@ -88,7 +90,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ## Wniosek
 
-W tym samouczku pokazaliśmy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells for Java. Nauczyłeś się, jak dodawać podpowiedzi, etykiety danych, a nawet implementować funkcjonalność przechodzenia w dół. Funkcje te zwiększają interaktywność wykresów i poprawiają zrozumienie danych przez użytkowników.
+tym samouczku pokazaliśmy, jak tworzyć interaktywne wykresy przy użyciu Aspose.Cells for Java. Nauczyłeś się, jak dodawać podpowiedzi, etykiety danych, a nawet implementować funkcjonalność przechodzenia w dół. Funkcje te zwiększają interaktywność wykresów i poprawiają zrozumienie danych przez użytkowników.
 
 ## Najczęściej zadawane pytania
 
@@ -111,6 +113,7 @@ Więcej przykładów i szczegółową dokumentację dotyczącą korzystania z As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Truy cập hình dạng không nguyên thủy trong Excel
-linktitle: Truy cập hình dạng không nguyên thủy trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách truy cập các hình dạng không nguyên thủy trong Excel bằng Aspose.Cells cho .NET. Khám phá các phương pháp từng bước trong hướng dẫn toàn diện này.
-weight: 19
-url: /vi/net/excel-shape-text-modifications/access-non-primitive-shape-excel/
+"description": "Học cách truy cập các hình dạng không nguyên thủy trong Excel bằng Aspose.Cells cho .NET. Khám phá các phương pháp từng bước trong hướng dẫn toàn diện này."
+"linktitle": "Truy cập hình dạng không nguyên thủy trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Truy cập hình dạng không nguyên thủy trong Excel"
+"url": "/vi/net/excel-shape-text-modifications/access-non-primitive-shape-excel/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập hình dạng không nguyên thủy trong Excel
@@ -19,20 +21,20 @@ Bạn đã bao giờ tình cờ thấy một hình dạng không nguyên thủy 
 Trước khi đi sâu vào mã, bạn cần phải có một số điều kiện tiên quyết sau:
 1. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# là điều cần thiết để có thể theo dõi một cách trôi chảy.
 2. Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết mã.
-3.  Thư viện Aspose.Cells: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
-4. Tệp Excel: Tạo hoặc lấy tệp Excel chứa các hình dạng không nguyên thủy để thử nghiệm. Đối với hướng dẫn này, chúng tôi sẽ sử dụng`"NonPrimitiveShape.xlsx"`.
+3. Thư viện Aspose.Cells: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/).
+4. Tệp Excel: Tạo hoặc lấy tệp Excel chứa các hình dạng không nguyên thủy để thử nghiệm. Đối với hướng dẫn này, chúng tôi sẽ sử dụng `"NonPrimitiveShape.xlsx"`.
 Khi bạn đã có đủ những điều kiện tiên quyết này, chúng ta có thể tiến tới phần thú vị!
 ## Nhập gói
 Bước đầu tiên để mọi thứ hoạt động là nhập các gói cần thiết vào dự án C# của bạn. Sau đây là những gì bạn cần làm:
 ### Tạo một dự án mới
 - Mở Visual Studio và tạo một dự án Ứng dụng bảng điều khiển C# mới.
--  Chọn một tên thích hợp cho dự án của bạn, chẳng hạn như`AsposeShapeAccess`.
+- Chọn một tên thích hợp cho dự án của bạn, chẳng hạn như `AsposeShapeAccess`.
 ### Cài đặt gói NuGet Aspose.Cells
 - Nhấp chuột phải vào dự án trong Solution Explorer.
 - Chọn "Quản lý gói NuGet".
--  Tìm kiếm`Aspose.Cells` và nhấp vào "Cài đặt".
+- Tìm kiếm `Aspose.Cells` và nhấp vào "Cài đặt".
 ### Nhập không gian tên
- Ở đầu trang của bạn`Program.cs` tệp, nhập không gian tên Aspose.Cells bằng cách thêm dòng sau:
+Ở đầu trang của bạn `Program.cs` tệp, nhập không gian tên Aspose.Cells bằng cách thêm dòng sau:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -46,13 +48,13 @@ Trước khi chúng ta truy cập vào hình dạng, chúng ta cần chỉ đị
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`NonPrimitiveShape.xlsx` tập tin được lưu trữ. 
+Thay thế `"Your Document Directory"` với con đường thực tế nơi bạn `NonPrimitiveShape.xlsx` tập tin được lưu trữ. 
 ## Bước 2: Tải Workbook
 Bây giờ chúng ta đã thiết lập đường dẫn tài liệu, đã đến lúc tải sổ làm việc. Sau đây là cách bạn có thể thực hiện:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "NonPrimitiveShape.xlsx");
 ```
- Dòng này tạo ra một cái mới`Workbook`đối tượng dùng để đọc tệp Excel mà bạn đã chỉ định trước đó.
+Dòng này tạo ra một cái mới `Workbook` đối tượng dùng để đọc tệp Excel mà bạn đã chỉ định trước đó.
 ## Bước 3: Truy cập vào Bảng tính
 Tiếp theo, chúng ta sẽ truy cập vào trang tính đầu tiên trong sổ làm việc. Hãy thực hiện:
 ```csharp
@@ -66,7 +68,7 @@ Shape shape = worksheet.Shapes[0];
 ```
 Ở đây, chúng ta đang truy cập hình dạng đầu tiên trong bảng tính. Bạn có thể thay đổi chỉ mục nếu bạn có nhiều hình dạng.
 ## Bước 5: Kiểm tra xem hình dạng có phải là hình dạng không nguyên thủy không
-Điều quan trọng là phải xác nhận xem hình dạng đó có phải là hình dạng nguyên thủy hay không trước khi tiếp tục truy cập vào chi tiết của nó:
+Điều quan trọng là phải xác nhận xem hình dạng đó có phải là hình dạng nguyên thủy hay không trước khi tiếp tục truy cập vào thông tin chi tiết của nó:
 ```csharp
 if (shape.AutoShapeType == AutoShapeType.NotPrimitive)
 {
@@ -119,16 +121,18 @@ Và bạn đã có nó! Bạn đã truy cập và khám phá thành công các c
 ### Hình dạng không nguyên thủy trong Excel là gì?
 Các hình dạng không nguyên thủy là các hình dạng phức tạp được tạo thành từ nhiều đoạn thẳng và đường cong thay vì các dạng hình học đơn giản.
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?
- Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
+Bạn có thể cài đặt nó thông qua NuGet Package Manager trong Visual Studio hoặc tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/).
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
-Có, bạn có thể dùng thử miễn phí trên trang web của họ để khám phá các tính năng của nó[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí trên trang web của họ để khám phá các tính năng của nó [đây](https://releases.aspose.com/).
 ### Lợi ích của việc sử dụng Aspose.Cells là gì?
 Aspose.Cells cung cấp các tính năng mạnh mẽ để thao tác bảng tính Excel theo chương trình mà không cần cài đặt Excel trên máy của bạn.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được sự trợ giúp và hỗ trợ từ diễn đàn cộng đồng Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự trợ giúp và hỗ trợ từ diễn đàn cộng đồng Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

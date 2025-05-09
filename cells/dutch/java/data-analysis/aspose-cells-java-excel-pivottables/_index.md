@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,6 +178,9 @@ Verken vervolgens de verdere functionaliteiten van Aspose.Cells, zoals het maken
 - **Downloaden:** Download de nieuwste versie van Aspose.Cells voor Java vanaf hun officiële site.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Khi làm việc với các tệp Excel, việc chuyển đổi giữa các đị
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-- **Thư viện bắt buộc:** Aspose.Cells cho Java (phiên bản 25.3 trở lên).
+- **Thư viện cần thiết:** Aspose.Cells cho Java (phiên bản 25.3 trở lên).
 - **Thiết lập môi trường:** Môi trường phát triển Java đang hoạt động.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về Java và quen thuộc với các công cụ xây dựng Maven/Gradle.
 
@@ -172,6 +174,9 @@ Hãy bắt đầu triển khai giải pháp này ngay hôm nay và cải thiện
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Excel Yazdırma Başlığını Ayarla
-linktitle: Excel Yazdırma Başlığını Ayarla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel yazdırma başlıklarını etkili bir şekilde ayarlamayı öğrenin. Adım adım kılavuzumuzla yazdırma sürecinizi kolaylaştırın.
-weight: 170
-url: /tr/net/excel-page-setup/set-excel-print-title/
+"description": "Aspose.Cells for .NET kullanarak Excel yazdırma başlıklarını etkili bir şekilde ayarlamayı öğrenin. Adım adım kılavuzumuzla yazdırma sürecinizi kolaylaştırın."
+"linktitle": "Excel Yazdırma Başlığını Ayarla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Yazdırma Başlığını Ayarla"
+"url": "/tr/net/excel-page-setup/set-excel-print-title/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Yazdırma Başlığını Ayarla
@@ -22,7 +24,7 @@ Excel elektronik tablolarıyla çalışırken, basılı belgelerinizde netlik sa
 Adımlara geçmeden önce, her şeyin sorunsuz bir şekilde takip edilebilmesi için gerekli ayarlamaları yaptığınızdan emin olalım:
 
 1. Visual Studio Kurulu: .NET uygulamalarını çalıştırabileceğiniz makinenizde çalışan bir Visual Studio sürümüne ihtiyacınız olacak.
-2.  Aspose.Cells for .NET: Daha önce yapmadıysanız, Aspose.Cells for .NET'i şu adresten indirin:[alan](https://releases.aspose.com/cells/net/)Bu kütüphane, Excel dosyalarını programlı olarak yönetme operasyonumuzun kalbidir.
+2. Aspose.Cells for .NET: Daha önce yapmadıysanız, Aspose.Cells for .NET'i şu adresten indirin: [alan](https://releases.aspose.com/cells/net/)Bu kütüphane, Excel dosyalarını programlı olarak yönetme operasyonumuzun kalbidir.
 3. Temel Programlama Bilgisi: C# programlamaya aşinalık, verilen kod parçacıklarını anlamanıza ve değiştirmenize yardımcı olacaktır.
 4. .NET Framework: Aspose.Cells ile uyumluluk için doğru .NET sürümünün yüklü olduğundan emin olun.
 
@@ -65,31 +67,31 @@ Yapmamız gereken ilk şey Excel belgemizin nereye kaydedileceğini belirtmektir
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Sadece değiştir`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızı kaydetmek istediğiniz yol ile. Örneğin, şunu kullanabilirsiniz`@"C:\Reports\"`.
+Sadece değiştir `"YOUR DOCUMENT DIRECTORY"` Excel dosyanızı kaydetmek istediğiniz yol ile. Örneğin, şunu kullanabilirsiniz `@"C:\Reports\"`.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Daha sonra, bir örnek oluşturuyoruz`Workbook` Excel dosyasını temsil eden sınıf.
+Daha sonra, bir örnek oluşturuyoruz `Workbook` Excel dosyasını temsil eden sınıf.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Bu satır yeni bir çalışma kitabı başlatır ve onu işleme hazır hale getirir.
+Bu satır yeni bir çalışma kitabını başlatır ve onu işleme hazır hale getirir.
 
 ## Adım 3: PageSetup Referansını Edinin
 
- Şimdi çalışma sayfalarına erişelim`PageSetup` özellik. Yazdırma ayarlarımızın çoğunun yapılandırılacağı yer burasıdır.
+Şimdi çalışma sayfalarına erişelim `PageSetup` özellik. Yazdırma ayarlarımızın çoğunun yapılandırılacağı yer burasıdır.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- İşte, onu alıyoruz`PageSetup` ilk çalışma sayfasından. Bu bize sayfanın yazdırma için nasıl ayarlandığı konusunda kontrol sağlar.
+İşte, onu alıyoruz `PageSetup` ilk çalışma sayfasından. Bu bize sayfanın yazdırma için nasıl ayarlandığı konusunda kontrol sağlar.
 
 ## Adım 4: Başlık Sütunlarını Tanımlayın
 
- Hangi sütunların başlık olarak yazdırılacağını belirtmek için sütun tanımlayıcılarını atarız.`PrintTitleColumns` mülk. 
+Hangi sütunların başlık olarak yazdırılacağını belirtmek için sütun tanımlayıcılarını atarız. `PrintTitleColumns` mülk. 
 
 ```csharp
 pageSetup.PrintTitleColumns = "$A:$B";
@@ -105,7 +107,7 @@ Benzer şekilde hangi satırların başlık olarak görüneceğini de ayarlamak 
 pageSetup.PrintTitleRows = "$1:$2";
 ```
 
-Bunu yaparak, 1. ve 2. satırlar başlık satırları olarak işaretlenir. Yani, orada bir başlık bilginiz varsa, birden fazla yazdırılmış sayfada görünür kalacaktır.
+Bunu yaparak, 1. ve 2. satırlar başlık satırları olarak işaretlenir. Yani, orada bir başlık bilginiz varsa, birden fazla yazdırılan sayfada görünür kalacaktır.
 
 ## Adım 6: Çalışma Kitabını Kaydedin
 
@@ -138,10 +140,12 @@ Aspose.Cells, sınırlamalarla ücretsiz bir deneme sunar. Tam özellikler için
 XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Daha fazla bilgiyi nerede bulabilirim?
- Belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Belgeleri inceleyebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Analicemos cada característica y exploremos su implementación.
     Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
     Cells cells = worksheet.getCells();
     ```
-   *Explicación*:Este fragmento agrega una nueva hoja de trabajo y la recupera por índice, lo que permite realizar operaciones en celdas.
+   *Explicación*:Este fragmento agrega una nueva hoja de trabajo y la recupera por índice, lo que permite realizar operaciones en las celdas.
 
 ### Modificar el valor de la celda
 
@@ -192,6 +194,9 @@ Esta guía le mostró las características esenciales de Aspose.Cells para Java 
 Siguiendo esta guía, estarás bien preparado para automatizar tareas de Excel con Aspose.Cells para Java. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

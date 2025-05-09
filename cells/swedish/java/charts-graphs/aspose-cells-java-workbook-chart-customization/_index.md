@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Innan du börjar, se till att du uppfyller följande krav:
 - En fungerande utvecklingsmiljö med antingen Maven eller Gradle.
 - Grundläggande förståelse för Java-programmeringskoncept.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Erfarenhet av att konfigurera Java-projekt med hjälp av byggverktyg som Maven eller Gradle.
 - Förståelse för Excel-filer och deras komponenter såsom kalkylblad och diagram.
 
@@ -175,6 +177,9 @@ Redo att ta dina Excel-hanteringsfärdigheter till nästa nivå? Testa att imple
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

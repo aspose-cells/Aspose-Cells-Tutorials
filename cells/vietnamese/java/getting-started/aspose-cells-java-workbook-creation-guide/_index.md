@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Trong suốt hướng dẫn này, chúng tôi đã khám phá cách tạo, truy 
 Hãy bắt đầu hành trình cùng Aspose.Cells for Java và khai thác toàn bộ tiềm năng tự động hóa Excel trong các ứng dụng của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

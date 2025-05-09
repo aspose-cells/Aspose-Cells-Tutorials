@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Integrace dat v Excelu
@@ -109,9 +111,11 @@ Rozhodně! Aspose.Cells pro Javu poskytuje výkonné API pro automatizaci, kter�
 Zatímco Aspose.Cells pro Javu je robustní volbou, alternativy jako Apache POI také poskytují možnosti integrace s Excelem.
 
 Tato komplexní příručka by vám měla pomoci zvládnout integraci dat v Excelu pomocí Aspose.Cells pro Javu. Neváhejte se dozvědět více a přizpůsobit si tyto kroky svým specifickým potřebám. Šťastnou integraci dat!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

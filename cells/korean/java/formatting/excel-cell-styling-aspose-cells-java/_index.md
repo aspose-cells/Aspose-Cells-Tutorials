@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Excel 파일에서 셀을 수동으로 정렬하는 데 지치셨나요? 매번 
 
 ## 필수 조건
 
-시작하기 전에 다음 사항이 있는지 확인하세요.
+시작하기에 앞서 다음 사항이 있는지 확인하세요.
 - **자바 개발 키트(JDK)**: 버전 8 이상이 컴퓨터에 설치되어 있어야 합니다.
 - **메이븐** 또는 **그래들**: 종속성을 처리하고 구성을 빌드합니다.
 - Java 프로그래밍에 대한 기본적인 이해.
@@ -197,6 +199,9 @@ Excel 워크플로를 개선할 준비가 되셨나요? 이 기술들을 직접 
 - **지원 포럼**: [Aspose 지원 커뮤니티](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/rendering-and-export/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rendering and Export
@@ -60,9 +62,11 @@ Learn to ignore errors while converting Excel files to PDF with Aspose.Cells for
 Learn how to print a blank page using Aspose.Cells for .NET, ensuring your reports always appear professional, even when empty.
 ### [Render Sequential Pages in Aspose.Cells](./render-limited-number-of-sequential-pages/)
 Learn to render sequential pages in Excel with Aspose.Cells for .NET. This step-by-step tutorial provides a detailed guide to convert selected pages to images.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

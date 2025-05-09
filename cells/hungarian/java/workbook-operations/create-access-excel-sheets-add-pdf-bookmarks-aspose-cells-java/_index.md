@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ lst.add(ent2);
 *Cél*A hierarchia létrehozása lehetővé teszi a kapcsolódó könyvjelzők csoportosítását, ami javítja a PDF navigálhatóságát.
 
 ### Munkafüzet konfigurálása és mentése PDF formátumban könyvjelzőkkel
-**Áttekintés:** Konfigurálja a munkafüzetet úgy, hogy PDF formátumban mentse el, könyvjelzőbejegyzésekkel kiegészítve az egyszerű navigáció érdekében.
+**Áttekintés:** Konfigurálja a munkafüzetét úgy, hogy PDF formátumban mentse el, könyvjelzőbejegyzésekkel kiegészítve az egyszerű navigáció érdekében.
 
 #### Lépések:
 
@@ -198,6 +200,9 @@ Ez az oktatóanyag bemutatta, hogyan használható az Aspose.Cells Java-ban Exce
 Kezdje el utazását még ma az Aspose.Cells segítségével, és alakítsa át az Excel-adatokkal való interakcióját!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

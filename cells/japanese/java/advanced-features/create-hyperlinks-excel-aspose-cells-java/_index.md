@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,7 +190,7 @@ Excelワークフローの自動化を始める準備はできましたか？ [A
 ## FAQセクション
 
 **Q1: Aspose.Cells の一時ライセンスを取得するにはどうすればよいですか?**
-A1: 臨時ライセンスを申請することができます。 [Aspose ウェブサイト](https://purchase.aspose.com/temporary-license/)これにより、評価期間中にすべての機能にアクセスできるようになります。
+A1: 臨時免許証を申請することができます。 [Aspose ウェブサイト](https://purchase.aspose.com/temporary-license/)これにより、評価期間中にすべての機能にアクセスできるようになります。
 
 **Q2: Aspose.Cells は大きな Excel ファイルを効率的に処理できますか?**
 A2: はい、適切なメモリ管理と効率的なコーディング手法を用いれば、大きなファイルを効率的に処理できます。
@@ -208,6 +210,9 @@ A5: セル参照とURLの形式を確認してください。 [Asposeのサポ�
 - **ライセンスを購入:** [Aspose.Cells for Java を購入](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

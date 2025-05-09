@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Erläuterung:
-- **`Workbook`**: Stellt eine Excel-Datei dar.
+- **`Workbook`**Stellt eine Excel-Datei dar.
 - **`Worksheet`**: Bezieht sich auf ein Blatt in der Arbeitsmappe.
 - **`Cells`**: Eine Sammlung von Zellen im Arbeitsblatt.
 - **`Style`**: Wird zum Formatieren von Zellen verwendet.
@@ -200,6 +202,9 @@ In diesem Tutorial haben wir gezeigt, wie Sie mit Aspose.Cells für Java ein Arb
 - **Dokumentation**: Umfassende Anleitungen und API-Referenzen finden Sie unter [Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ public class ExcludeVbaMacros {
         LoadOptions loadOptions = new LoadOptions(LoadFormat.AUTO);
         loadOptions.setLoadFilter(new LoadFilter(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.VBA));
 
-        // Загрузите книгу с указанными параметрами загрузки
+        // Загрузите рабочую книгу с указанными параметрами загрузки
         Workbook book = new Workbook(dataDir + "/sampleMacroEnabledWorkbook.xlsm", loadOptions);
 
         System.out.println("Workbook loaded without VBA macros.");
@@ -198,6 +200,9 @@ The `save()` Метод записывает измененную книгу н�
    - Убедитесь, что указан правильный путь к файлу и проверьте, что `LoadOptions` настроены правильно.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

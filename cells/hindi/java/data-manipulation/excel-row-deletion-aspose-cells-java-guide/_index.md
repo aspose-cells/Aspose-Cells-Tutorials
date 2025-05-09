@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 यह मार्गदर्शिका Java के लिए Aspose.Cells का उपयोग करके Excel में पंक्तियों को हटाने की संपूर्ण समझ प्रदान करती है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

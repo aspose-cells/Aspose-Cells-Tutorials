@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ String dataDir = "YOUR_DATA_DIRECTORY"; // 実際のディレクトリパスに�
 Workbook workbook4 = new Workbook(dataDir + "Book_Excel2007.xlsx");
 ```
 ##### 説明
-- **パラメータ:** のコンストラクタ `Workbook` ファイル パスをパラメーターとして受け取り、Aspose.Cells がスプレッドシート データをメモリに読み込むことができるようになります。
+- **パラメータ:** コンストラクタ `Workbook` ファイル パスをパラメーターとして受け取り、Aspose.Cells がスプレッドシート データをメモリに読み込むことができるようになります。
 
 ### ワークブックからファイル名を取得する
 #### 概要
@@ -133,6 +135,9 @@ Aspose.Cells for Javaを使ってExcel 2007 XLSXファイルを開き、ファ�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

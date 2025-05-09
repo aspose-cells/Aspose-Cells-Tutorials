@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A5: Optimalizálja a kódot a szükséges adatok betöltésével, az eredmények
 - **Letöltés**: Az Aspose.Cells for Java legújabb verziójának elérése érdekében máris elkezdheti ezen megoldások megvalósítását.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

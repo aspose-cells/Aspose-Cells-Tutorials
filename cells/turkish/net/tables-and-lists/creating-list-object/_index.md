@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells kullanarak Excel'de Liste Nesnesi Oluşturma
-linktitle: Aspose.Cells kullanarak Excel'de Liste Nesnesi Oluşturma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu detaylı kılavuzla Aspose.Cells for .NET kullanarak Excel'de bir liste nesnesi oluşturun. Kolay veri yönetimi ve hesaplamalarda ustalaşın.
-weight: 10
-url: /tr/net/tables-and-lists/creating-list-object/
+"description": "Bu detaylı kılavuzla Aspose.Cells for .NET kullanarak Excel'de bir liste nesnesi oluşturun. Kolay veri yönetimi ve hesaplamalarda ustalaşın."
+"linktitle": "Aspose.Cells kullanarak Excel'de Liste Nesnesi Oluşturma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells kullanarak Excel'de Liste Nesnesi Oluşturma"
+"url": "/tr/net/tables-and-lists/creating-list-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells kullanarak Excel'de Liste Nesnesi Oluşturma
@@ -28,12 +30,12 @@ C# programlama diliyle ilgili biraz bilgi sahibi olmak, takip etmenize önemli �
 C# kodunuzu çalıştırmak için Entegre Geliştirme Ortamı'na (IDE) ihtiyacınız olacak. Visual Studio çok popülerdir ve .NET projelerini anında destekler. Alternatifleri tercih ederseniz, JetBrains Rider'ı veya hatta Visual Studio Code'u kullanabilirsiniz.
 
 ### .NET için Aspose.Cells
- Aspose.Cells kütüphanesine sahip olmalısınız. Eğer sahip değilseniz, indirin[Burada](https://releases.aspose.com/cells/net/) Ayrıca ücretsiz deneme sürümüyle de deneyebilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Cells kütüphanesine sahip olmalısınız. Eğer sahip değilseniz, indirin [Burada](https://releases.aspose.com/cells/net/)Ayrıca ücretsiz deneme sürümüyle de deneyebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Bir proje oluşturun ve Aspose.Cells'e başvurun
 İlgili DLL'leri ekleyerek projenizin Aspose.Cells kütüphanesine başvurduğundan emin olun.
 
-Her şeyi ayarladıktan sonra koda geçebiliriz!
+Her şeyi ayarladıktan sonra koda dalabiliriz!
 
 ## Paketleri İçe Aktar
 
@@ -86,7 +88,7 @@ Bu komut, belirli bir aracı almak için bir araç kutusuna uzanmaya benzer şek
 listObjects.Add(1, 1, 7, 5, true);
 ```
 
- Burada, (1, 1, 7, 5) parametreleri listenizin veri aralığının başlangıç ve bitiş koordinatlarını tanımlarken,`true` sonunda, aralığınızın başlıkları içerdiğini belirtir. Bunu listenizin temelini atmak olarak düşünün—temel veriler doğru olmalıdır!
+Burada, (1, 1, 7, 5) parametreleri listenizin veri aralığının başlangıç ve bitiş koordinatlarını tanımlarken, `true` sonunda, aralığınızın başlıkları içerdiğini belirtir. Bunu listenizin temelini atmak olarak düşünün—temel veriler doğru olmalıdır!
 
 ## Adım 5: Listenizdeki Toplamları Gösterin
 
@@ -131,16 +133,18 @@ Aspose.Cells, C# dahil olmak üzere çeşitli programlama dillerinde Excel belge
 Evet! Bu eğitim .NET'e odaklansa da, Aspose.Cells Java, Android ve Python için de mevcuttur.
 
 ### Aspose.Cells için lisansa ihtiyacım var mı?  
- Evet, tam işlevsellik için bir lisansa ihtiyacınız var, ancak şeyleri test etmek için ücretsiz bir denemeyle başlayabilirsiniz. Kontrol edin[Burada](https://releases.aspose.com/).
+Evet, tam işlevsellik için bir lisansa ihtiyacınız var, ancak şeyleri test etmek için ücretsiz bir denemeyle başlayabilirsiniz. Kontrol edin [Burada](https://releases.aspose.com/).
 
 ### Bilgisayarımda Excel'in yüklü olması gerekli mi?  
 Hayır, Aspose.Cells'in Excel dosyalarını oluşturması veya düzenlemesi için makinede Excel'in yüklü olması gerekmez.
 
 ### Daha fazla dokümanı nerede bulabilirim?  
- Daha fazla bilgi ve ayrıntılı belgeler için siteyi ziyaret edin[Burada](https://reference.aspose.com/cells/net/).
+Daha fazla bilgi ve ayrıntılı belgeler için siteyi ziyaret edin [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

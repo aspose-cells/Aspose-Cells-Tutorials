@@ -1,14 +1,16 @@
 ---
-title: Thêm bảng tính Excel vào bảng tính hiện có Hướng dẫn C#
-linktitle: Thêm bảng tính Excel vào sổ làm việc hiện có
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thêm bảng tính Excel vào sổ làm việc hiện có bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này.
-weight: 10
-url: /vi/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-workbook-csharp-tutorial/
+"description": "Tìm hiểu cách thêm bảng tính Excel vào sổ làm việc hiện có bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này."
+"linktitle": "Thêm bảng tính Excel vào sổ làm việc hiện có"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thêm bảng tính Excel vào bảng tính hiện có Hướng dẫn C#"
+"url": "/vi/net/excel-worksheet-csharp-tutorials/add-excel-worksheet-to-existing-workbook-csharp-tutorial/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm bảng tính Excel vào bảng tính hiện có Hướng dẫn C#
@@ -21,8 +23,8 @@ Với thế giới kỹ thuật số liên tục phát triển, làm việc vớ
 
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để triển khai thành công hướng dẫn này. Sau đây là những gì bạn cần:
 
-1.  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[đây](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải tích hợp Aspose.Cells cho .NET vào dự án của bạn. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/)Thư viện này rất cần thiết để làm việc với các tệp Excel và hỗ trợ nhiều chức năng khác nhau.
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ [đây](https://visualstudio.microsoft.com/vs/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần phải tích hợp Aspose.Cells cho .NET vào dự án của bạn. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/cells/net/)Thư viện này rất cần thiết để làm việc với các tệp Excel và hỗ trợ nhiều chức năng khác nhau.
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn dễ dàng theo dõi hơn. Đừng lo lắng; chúng tôi sẽ hướng dẫn bạn từng bước trong quy trình!
 4. Thư mục tài liệu của bạn: Đảm bảo bạn có một thư mục trên máy tính để lưu trữ các tệp Excel cho hướng dẫn này. 
 
@@ -37,7 +39,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
- Các`System.IO` không gian tên giúp chúng ta xử lý các hoạt động tập tin, trong khi`Aspose.Cells` cung cấp tất cả các chức năng cần thiết để thao tác với các tệp Excel. Bây giờ chúng ta đã nhập các gói, hãy cùng phân tích từng bước quy trình thêm bảng tính.
+Các `System.IO` không gian tên giúp chúng ta xử lý các hoạt động tập tin, trong khi `Aspose.Cells` cung cấp tất cả các chức năng cần thiết để thao tác với các tệp Excel. Bây giờ chúng ta đã nhập các gói, hãy cùng phân tích từng bước quy trình thêm bảng tính.
 
 ## Bước 1: Thiết lập đường dẫn thư mục tài liệu
 
@@ -48,7 +50,7 @@ Hãy bắt đầu bằng cách xác định nơi lưu trữ các tệp Excel c�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi các tệp Excel của bạn nằm. Điều này sẽ cho phép chúng ta dễ dàng điều hướng đến tệp chúng ta muốn chỉnh sửa.
+Thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế nơi các tệp Excel của bạn nằm. Điều này sẽ cho phép chúng ta dễ dàng điều hướng đến tệp chúng ta muốn chỉnh sửa.
 
 ## Bước 2: Tạo một luồng tệp để mở sổ làm việc
 
@@ -59,7 +61,7 @@ Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tạo 
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Trong bước này, chúng ta đang mở`book1.xls`, tệp này phải có trong thư mục bạn chỉ định. Hãy đảm bảo bạn có tệp này trong tay, nếu không quá trình này sẽ báo lỗi.
+Trong bước này, chúng ta đang mở `book1.xls`, tệp này phải có trong thư mục bạn chỉ định. Hãy đảm bảo bạn có tệp này trong tay, nếu không quá trình này sẽ báo lỗi.
 
 ## Bước 3: Khởi tạo một đối tượng Workbook
 
@@ -75,14 +77,14 @@ Bằng cách tạo một phiên bản sổ làm việc từ luồng tệp, giờ
 
 ## Bước 4: Thêm một bảng tính mới
 
- Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng`Add()` phương pháp từ`Worksheets`bộ sưu tập.
+Đây là phần thú vị! Chúng ta hãy thêm một bảng tính mới vào sổ làm việc của chúng ta. Điều này được thực hiện bằng cách sử dụng `Add()` phương pháp từ `Worksheets` bộ sưu tập.
 
 ```csharp
 // Thêm một trang tính mới vào đối tượng Workbook
 int i = workbook.Worksheets.Add();
 ```
 
-Với dòng mã này, chúng ta đang thêm một trang tính mới và chỉ mục của trang tính mới này được ghi lại trong biến`i`.
+Với dòng mã này, chúng ta đang thêm một trang tính mới và chỉ mục của trang tính mới này được ghi lại trong biến `i`.
 
 ## Bước 5: Lấy tham chiếu đến bảng tính mới được thêm vào
 
@@ -93,18 +95,18 @@ Sau khi tạo bảng tính mới, điều quan trọng là phải có tham chi�
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
- Ở đây, chúng tôi đang sử dụng chỉ mục`i` để tham chiếu đến bảng tính mới tạo của chúng tôi. Điều này cho phép chúng tôi thao tác nó xa hơn.
+Ở đây, chúng tôi đang sử dụng chỉ mục `i` để tham chiếu đến bảng tính mới tạo của chúng tôi. Điều này cho phép chúng tôi thao tác nó xa hơn.
 
 ## Bước 6: Đặt tên cho trang tính mới
 
-Một bảng tính không có tên thì sao nhỉ? Hãy cùng tạo cho bảng tính mới thêm của chúng ta một danh tính nhé!
+Một bảng tính không có tên thì sao nhỉ? Hãy cùng tạo cho bảng tính mới thêm của chúng ta một bản sắc nhé!
 
 ```csharp
 // Đặt tên cho worksheet mới được thêm vào
 worksheet.Name = "My Worksheet";
 ```
 
- Bạn có thể thay đổi`"My Worksheet"` bất kỳ tên nào bạn muốn. Đây là cách bạn có thể sắp xếp các trang tính Excel của mình hiệu quả hơn.
+Bạn có thể thay đổi `"My Worksheet"` bất kỳ tên nào bạn muốn. Đây là cách bạn có thể sắp xếp các trang tính Excel của mình hiệu quả hơn.
 
 ## Bước 7: Lưu tệp Excel
 
@@ -115,7 +117,7 @@ Sau khi hoàn tất các sửa đổi, đã đến lúc lưu sổ làm việc c�
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Ở đây, chúng tôi lưu sổ làm việc của mình dưới dạng`output.out.xls`Bạn có thể đặt tên cho tệp này bất kỳ tên nào bạn muốn; chỉ cần đảm bảo rằng nó được lưu trong đúng thư mục.
+Ở đây, chúng tôi lưu sổ làm việc của mình dưới dạng `output.out.xls`. Bạn có thể đặt tên cho tệp này bất kỳ tên nào bạn muốn; chỉ cần đảm bảo rằng nó được lưu trong đúng thư mục.
 
 ## Bước 8: Đóng luồng tập tin
 
@@ -140,19 +142,21 @@ Cho dù bạn đang quản lý các tập dữ liệu lớn hay tạo báo cáo 
 Aspose.Cells là một thư viện mạnh mẽ để làm việc với các tệp Excel trong các ứng dụng .NET, cho phép người dùng tạo, chỉnh sửa và quản lý bảng tính mà không cần đến Microsoft Excel.
 
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells cung cấp bản dùng thử miễn phí cho người dùng, cho phép họ dùng thử sản phẩm trước khi mua. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+Aspose.Cells cung cấp bản dùng thử miễn phí cho người dùng, cho phép họ dùng thử sản phẩm trước khi mua. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể sử dụng Aspose.Cells trên Linux không?
 Có, Aspose.Cells cho .NET tương thích với .NET Core, cho phép bạn chạy ứng dụng trên môi trường Linux.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể yêu cầu giấy phép tạm thời từ trang web của Aspose[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời từ trang web của Aspose [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

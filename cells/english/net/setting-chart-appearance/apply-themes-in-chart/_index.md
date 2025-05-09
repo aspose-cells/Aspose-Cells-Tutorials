@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/apply-themes-in-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Themes in Chart
@@ -172,6 +174,7 @@ You can get support and engage with a community of users [here](https://forum.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Veri yönetim sürecinizi kolaylaştıralım!
 Başlamadan önce aşağıdaki ön koşulların karşılandığından emin olun:
 
 - **Kütüphaneler ve Bağımlılıklar**: Java için Aspose.Cells'i yükleyin. 25.3 sürümünü kullanmanızı öneririz.
-- **Çevre Kurulumu**Geliştirme ortamınızı Java JDK ve IntelliJ IDEA veya Eclipse gibi bir IDE ile kurun.
+- **Çevre Kurulumu**: Geliştirme ortamınızı Java JDK ve IntelliJ IDEA veya Eclipse gibi bir IDE ile kurun.
 - **Bilgi Önkoşulları**:Java programlama kavramlarının temel düzeyde anlaşılması faydalı olacaktır.
 
 ### Java için Aspose.Cells Kurulumu
@@ -88,7 +90,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 **Adım 2: İlk Çalışma Sayfasına Erişim**
 ```java
 import com.aspose.cells.Worksheet;
-// Çalışma kitabındaki ilk çalışma kağıdını alın.
+// Çalışma kitabındaki ilk çalışma kağıdını al.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -104,7 +106,7 @@ worksheet.autoFitColumn(4, 4, 6);
 
 #### Bir Excel Çalışma Kitabını Kaydetme
 
-**Genel bakış**: Değişiklikleri yaptıktan sonra çalışma kitabını tercih ettiğiniz biçimde diske kaydedin.
+**Genel bakış**Değişiklikleri yaptıktan sonra çalışma kitabını tercih ettiğiniz biçimde diske kaydedin.
 
 **Adım 4: Değiştirilen Çalışma Kitabını Kaydedin**
 ```java
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **Veri Raporlaması**: İş raporlarında daha temiz veri sunumu için sütun genişliklerini otomatik olarak ayarlayın.
 - **Stok Yönetimi**: Ürün listelerinin manuel ayarlamalar yapılmadan düzgün bir biçimde biçimlendirildiğinden emin olun.
-- **Finansal Analiz**Daha doğru analiz ve sunumlar için finansal rakamları tablolar arasında hizalayın.
+- **Finansal Analiz**: Daha doğru analiz ve sunumlar için finansal rakamları tablolar arasında hizalayın.
 
 Aspose.Cells'i veritabanları veya CRM sistemleriyle entegre etmek iş akışınızı daha da hızlandırabilir ve bu kaynaklardan gelen Excel dosyalarına otomatik güncellemeler yapılmasını sağlayabilir.
 
@@ -160,6 +162,9 @@ Java için Aspose.Cells'deki otomatik uyum özelliğini öğrenerek, Excel dosya
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

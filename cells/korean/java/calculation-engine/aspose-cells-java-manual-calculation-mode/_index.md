@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Aspose.Cells의 자동 보고서 생성이나 고급 수식 조작과 같은 추
 이 튜토리얼을 통해 Aspose.Cells for Java에서 수식 계산을 효과적으로 관리하는 데 필요한 지식과 도구를 익힐 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

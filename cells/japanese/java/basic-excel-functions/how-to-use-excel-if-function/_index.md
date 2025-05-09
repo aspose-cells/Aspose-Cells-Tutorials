@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ExcelのIF関数の使い方
@@ -97,7 +99,7 @@ Aspose.Cells for Javaをインストールするには、AsposeのWebサイト�
 
 はい、Excelでは標準的なExcelの数式と同様に、複数のIF関数をネストして複雑な条件を作成できます。Aspose.Cells for Javaもこれらの複雑な条件をサポートしています。
 
-### Aspose.Cells for Java にはライセンス要件はありますか?
+### Aspose.Cells for Java にはライセンス要件がありますか?
 
 はい、Aspose.Cells for Javaは商用ライブラリです。アプリケーションで使用するにはライセンスの取得が必要になる場合があります。ライセンスの詳細については、AsposeのWebサイトをご覧ください。
 
@@ -112,6 +114,7 @@ Aspose.Cells for Javaをインストールするには、AsposeのWebサイト�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A2: Utilizzare le dipendenze Maven o Gradle come mostrato in precedenza e assicu
 R3: Sì, puoi aggiungere più autori per gestire i vari commentatori nella tua cartella di lavoro di Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

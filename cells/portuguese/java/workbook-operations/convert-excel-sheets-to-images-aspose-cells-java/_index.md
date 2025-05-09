@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ sr.toImage(0, outDir + "/CTransparentImage_out.png");
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**:Para pastas de trabalho grandes, gerencie a memória processando as planilhas uma por vez.
+- **Otimizar o uso da memória**:Para pastas de trabalho grandes, gerencie a memória processando as planilhas uma por vez.
 - **Configurações de resolução**: Equilibre a qualidade da imagem com o tamanho do arquivo; resoluções mais altas aumentam a clareza, mas também os requisitos de armazenamento.
 - **Melhores práticas do Java**: Aproveite a coleta de lixo do Java anulando objetos que não são mais necessários.
 
@@ -220,6 +222,9 @@ Comece a aproveitar o Aspose.Cells para Java hoje mesmo para otimizar seus fluxo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

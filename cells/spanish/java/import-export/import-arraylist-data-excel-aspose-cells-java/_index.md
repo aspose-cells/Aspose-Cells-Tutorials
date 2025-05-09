@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,6 +177,9 @@ Para una mayor exploración, considere experimentar con características más av
 Esta guía te permitirá usar Aspose.Cells para Java eficazmente en tus proyectos, mejorando la gestión de datos y la productividad. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

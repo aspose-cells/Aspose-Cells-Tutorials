@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ Cell cell = cells.find("SH", null, findOptions); // 「es」で終わるセル�
 ```
 **説明：** `FindOptions` 検索パラメータを指定できます。ここでは、特定の文字で終わる文字列を検索するように設定します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 Excel ファイルでデータを読み込んで検索する方法を理解すると、次のようなさまざまな現実的な可能性が開けます。
 
 1. **データ分析:** 分析のための重要なデータ ポイントをすばやく見つけます。
@@ -163,6 +165,9 @@ Aspose.Cells for Java を使用して、今すぐ効率的な Excel 自動化へ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đọc và ghi kết nối bên ngoài của tệp XLSB
-linktitle: Đọc và ghi kết nối bên ngoài của tệp XLSB
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách đọc và ghi các kết nối bên ngoài trong các tệp XLSB bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 24
-url: /vi/net/workbook-operations/read-and-write-external-connection/
+"description": "Tìm hiểu cách đọc và ghi các kết nối bên ngoài trong các tệp XLSB bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Đọc và ghi kết nối bên ngoài của tệp XLSB"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đọc và ghi kết nối bên ngoài của tệp XLSB"
+"url": "/vi/net/workbook-operations/read-and-write-external-connection/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc và ghi kết nối bên ngoài của tệp XLSB
@@ -23,9 +25,9 @@ Trước khi bắt đầu hành trình này, hãy đảm bảo bạn có mọi t
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio đang chạy trên máy tính của mình. Bạn sẽ mã hóa bằng C# khi chúng ta làm việc với Aspose.Cells.
    
-2.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể dễ dàng[tải xuống ở đây](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể dễ dàng [tải xuống ở đây](https://releases.aspose.com/cells/net/). 
 
-3. Tệp XLSB: Chuẩn bị sẵn tệp XLSB mẫu để thử nghiệm. Bạn có thể tạo một tệp từ Excel nếu bạn không có tệp sẵn có.
+3. Tệp XLSB: Chuẩn bị một tệp XLSB mẫu để thử nghiệm. Bạn có thể tạo một tệp từ Excel nếu bạn không có tệp sẵn có.
 
 4. Kiến thức lập trình cơ bản: Một chút quen thuộc với C# sẽ giúp bạn hiểu các đoạn mã chúng ta sẽ khám phá.
 
@@ -119,19 +121,21 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn bạn qua quy trình 
 Tệp XLSB là tệp Excel nhị phân lưu trữ dữ liệu bảng tính ở định dạng nhị phân, giúp tệp này nhỏ gọn hơn và mở nhanh hơn so với tệp XLSX truyền thống.
 
 ### Tôi có cần giấy phép đặc biệt cho Aspose.Cells không?  
- Có, Aspose.Cells yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể đánh giá nó bằng bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Có, Aspose.Cells yêu cầu giấy phép để có đầy đủ chức năng. Bạn có thể đánh giá nó bằng bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
 
 ### Tôi có thể truy cập các nguồn dữ liệu bên ngoài ngoài cơ sở dữ liệu bằng Aspose.Cells không?  
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều kết nối dữ liệu ngoài, bao gồm OLEDB và ODBC. 
 
 ### Có diễn đàn cộng đồng nào dành cho người dùng Aspose.Cells không?  
- Vâng! Bạn có thể tham gia[Diễn đàn hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9) để giao lưu với những người dùng khác và tìm kiếm sự giúp đỡ.
+Vâng! Bạn có thể tham gia [Diễn đàn hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9) để giao lưu với những người dùng khác và tìm kiếm sự giúp đỡ.
 
 ### Tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells không?  
- Có, Aspose cung cấp một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) dành cho người dùng muốn đánh giá phần mềm trước khi mua.
+Có, Aspose cung cấp một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) dành cho người dùng muốn đánh giá phần mềm trước khi mua.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

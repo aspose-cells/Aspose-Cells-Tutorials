@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ A: はい、画像コレクションを反復処理して使用します `sheet.
 A: XLS、XLSX、CSV など、さまざまな Excel 形式をサポートしています。
 
 **Q: 追加できる画像の数に制限はありますか?**
-A: Aspose.Cells によって明示的な制限は課されていませんが、システム リソースによってパフォーマンスが異なる場合があります。
+A: Aspose.Cells によって明示的な制限は課せられませんが、システム リソースによってパフォーマンスが異なる場合があります。
 
 **Q: 画像挿入中にエラーが発生した場合、どのように処理すればよいですか?**
 A: コードの周囲に try-catch ブロックを実装し、具体的なエラー処理戦略については Aspose のドキュメントを参照してください。
@@ -187,6 +189,9 @@ A: コードの周囲に try-catch ブロックを実装し、具体的なエラ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

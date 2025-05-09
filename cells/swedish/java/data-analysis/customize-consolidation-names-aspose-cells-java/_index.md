@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Låt oss dyka ner i hur du kan uppnå detta, med början i de förutsättningar 
 Innan du fortsätter, se till att du har följande:
 - **Bibliotek och beroenden:** Du behöver Aspose.Cells för Java version 25.3 eller senare.
 - **Krav för miljöinstallation:** Ett kompatibelt JDK (Java Development Kit) installerat på ditt system.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och förtrogenhet med byggsystemen Maven eller Gradle.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och förtrogenhet med byggsystemen Maven eller Gradle.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -188,6 +190,9 @@ Testa det och se hur anpassade konsolideringsnamn kan förbättra dina arbetsfl�
 Utforska dessa resurser för ytterligare vägledning och stöd om hur du använder Aspose.Cells Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

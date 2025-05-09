@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Poznaj inne funkcje pakietu Aspose.Cells, takie jak automatyczne generowanie rap
 Ten samouczek powinien wyposażyć Cię w wiedzę i narzędzia do efektywnego zarządzania obliczeniami formuł w Aspose.Cells dla Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

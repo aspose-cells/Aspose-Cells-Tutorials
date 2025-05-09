@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Domine componentes complexos de documentos com nossos tutoriais Aspose.Cells para objetos OLE e conteúdo incorporado em Java. Estes guias detalhados demonstram como inserir, extrair e manipular objetos incorporados, gerenciar arquivos vinculados e trabalhar com documentos compostos programaticamente. Cada tutorial inclui exemplos práticos de código Java que mostram como implementar documentos avançados do Excel com conteúdo incorporado de diversas fontes, aprimorando suas planilhas com elementos multimídia e interativos.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações com objetos OLE e conteúdo incorporado
 - Implementação passo a passo com exemplos de código completos
@@ -57,6 +59,9 @@ Um tutorial de código para Aspose.Words Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

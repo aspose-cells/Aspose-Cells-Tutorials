@@ -1,14 +1,16 @@
 ---
-title: Triển khai Header và Footer trong Worksheet
-linktitle: Triển khai Header và Footer trong Worksheet
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập tiêu đề và chân trang trong bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước, ví dụ thực tế và mẹo hữu ích.
-weight: 22
-url: /vi/net/worksheet-page-setup-features/implement-header-and-footer/
+"description": "Tìm hiểu cách thiết lập tiêu đề và chân trang trong bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước, ví dụ thực tế và mẹo hữu ích."
+"linktitle": "Triển khai Header và Footer trong Worksheet"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Triển khai Header và Footer trong Worksheet"
+"url": "/vi/net/worksheet-page-setup-features/implement-header-and-footer/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Triển khai Header và Footer trong Worksheet
@@ -21,11 +23,11 @@ Khi làm việc với bảng tính Excel, tiêu đề và chân trang đóng vai
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những điều sau:
 
-1.  Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET.[Tải xuống tại đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET. [Tải xuống tại đây](https://releases.aspose.com/cells/net/).
 2. Thiết lập IDE: Visual Studio (hoặc IDE bạn thích) đã cài đặt .NET framework.
-3.  Giấy phép: Mặc dù bạn có thể bắt đầu dùng thử miễn phí, nhưng việc mua giấy phép đầy đủ hoặc tạm thời sẽ mở khóa toàn bộ tiềm năng của Aspose.Cells.[Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+3. Giấy phép: Mặc dù bạn có thể bắt đầu dùng thử miễn phí, nhưng việc mua giấy phép đầy đủ hoặc tạm thời sẽ mở khóa toàn bộ tiềm năng của Aspose.Cells. [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
-Tài liệu hướng dẫn cho Aspose.Cells là một nguồn tài nguyên hữu ích để tham khảo trong suốt quá trình này. Bạn có thể tìm thấy nó[đây](https://reference.aspose.com/cells/net/).
+Tài liệu hướng dẫn cho Aspose.Cells là một nguồn tài nguyên hữu ích để tham khảo trong suốt quá trình này. Bạn có thể tìm thấy nó [đây](https://reference.aspose.com/cells/net/).
 
 ## Nhập gói
 
@@ -53,19 +55,19 @@ string dataDir = "Your Document Directory";
 Workbook excel = new Workbook();
 ```
 
- Ở đây, chúng tôi đã tạo ra một`Workbook` đối tượng, đại diện cho tệp Excel của chúng tôi.`PageSetup` của bảng tính là nơi chúng ta có thể sửa đổi các tùy chọn đầu trang và chân trang.
+Ở đây, chúng tôi đã tạo ra một `Workbook` đối tượng, đại diện cho tệp Excel của chúng tôi. `PageSetup` của bảng tính là nơi chúng ta có thể sửa đổi các tùy chọn đầu trang và chân trang.
 
 
 ## Bước 2: Truy cập Thuộc tính Worksheet và PageSetup
 
- Trong Aspose.Cells, mỗi trang tính có một`PageSetup`thuộc tính kiểm soát các tính năng bố trí, bao gồm cả tiêu đề và chân trang. Hãy lấy`PageSetup` đối tượng cho bài tập của chúng ta.
+Trong Aspose.Cells, mỗi trang tính có một `PageSetup` thuộc tính kiểm soát các tính năng bố trí, bao gồm cả tiêu đề và chân trang. Hãy lấy `PageSetup` đối tượng cho bài tập của chúng ta.
 
 ```csharp
 // Lấy tham chiếu đến PageSetup của trang tính đầu tiên
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 ```
 
- Với điều này,`pageSetup` hiện có tất cả các thiết lập cần thiết để tùy chỉnh đầu trang và chân trang.
+Với điều này, `pageSetup` hiện có tất cả các thiết lập cần thiết để tùy chỉnh đầu trang và chân trang.
 
 
 ## Bước 3: Đặt Phần Bên Trái của Tiêu Đề
@@ -77,7 +79,7 @@ Tiêu đề trong Excel được chia thành ba phần: trái, giữa và phải
 pageSetup.SetHeader(0, "&A");
 ```
 
- Sử dụng`&A` cho phép bạn hiển thị động tên trang tính. Điều này đặc biệt hữu ích nếu bạn có nhiều trang tính trong một sổ làm việc và muốn mỗi tiêu đề phản ánh tiêu đề trang tính của nó.
+Sử dụng `&A` cho phép bạn hiển thị động tên trang tính. Điều này đặc biệt hữu ích nếu bạn có nhiều trang tính trong một sổ làm việc và muốn mỗi tiêu đề phản ánh tiêu đề trang tính của nó.
 
 
 ## Bước 4: Thêm Ngày và Giờ vào Giữa Tiêu đề
@@ -90,7 +92,7 @@ pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
 Trong đoạn mã này:
-- `&D`chèn ngày hiện tại.
+- `&D` chèn ngày hiện tại.
 - `&T` chèn thời gian hiện tại.
 - `"Times New Roman,Bold"` áp dụng phông chữ Times New Roman in đậm cho các thành phần này.
 
@@ -117,7 +119,7 @@ Chuyển sang phần chân trang! Chúng ta sẽ bắt đầu bằng cách thi�
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Các`&\"Courier New\"&14` thiết lập trong mã trên áp dụng phông chữ "Courier New" với kích thước 14 cho văn bản đã chỉ định (`123`). Phần còn lại của văn bản vẫn giữ nguyên phông chữ chân trang mặc định.
+Các `&\"Courier New\"&14` thiết lập trong mã trên áp dụng phông chữ "Courier New" với kích thước 14 cho văn bản đã chỉ định (`123`). Phần còn lại của văn bản vẫn giữ nguyên phông chữ chân trang mặc định.
 
 
 ## Bước 7: Chèn số trang vào giữa chân trang
@@ -129,7 +131,7 @@ pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 pageSetup.SetFooter(1, "&P");
 ```
 
- Đây,`&P` thêm số trang hiện tại vào phần giữa của chân trang. Đây là một chi tiết nhỏ nhưng rất quan trọng đối với các tài liệu có giao diện chuyên nghiệp.
+Đây, `&P` thêm số trang hiện tại vào phần giữa của chân trang. Đây là một chi tiết nhỏ nhưng rất quan trọng đối với các tài liệu có giao diện chuyên nghiệp.
 
 
 ## Bước 8: Hiển thị Tổng số trang trong Phần chân trang bên phải
@@ -144,7 +146,7 @@ pageSetup.SetFooter(2, "&N");
 - `&N` cung cấp tổng số trang, cho người đọc biết tài liệu dài bao nhiêu.
 
 
-## Bước 9: Lưu sổ làm việc
+## Bước 9: Lưu Workbook
 
 Sau khi thiết lập xong header và footer, đã đến lúc lưu workbook. Đây là bước cuối cùng để tạo tệp Excel với header và footer được tùy chỉnh hoàn toàn.
 
@@ -166,19 +168,21 @@ Thêm tiêu đề và chân trang vào bảng tính Excel là một kỹ năng c
 Có, Aspose.Cells for .NET cho phép bạn chỉ định phông chữ cho từng phần của đầu trang và chân trang bằng cách sử dụng các thẻ phông chữ cụ thể.
 
 ### Làm thế nào để xóa phần đầu trang và phần chân trang?  
- Bạn có thể xóa tiêu đề và chân trang bằng cách đặt văn bản tiêu đề hoặc chân trang thành một chuỗi trống với`SetHeader` hoặc`SetFooter`.
+Bạn có thể xóa tiêu đề và chân trang bằng cách đặt văn bản tiêu đề hoặc chân trang thành một chuỗi trống với `SetHeader` hoặc `SetFooter`.
 
 ### Tôi có thể chèn hình ảnh vào đầu trang hoặc chân trang bằng Aspose.Cells cho .NET không?  
 Hiện tại, Aspose.Cells chủ yếu hỗ trợ văn bản trong tiêu đề và chân trang. Hình ảnh có thể cần giải pháp thay thế, chẳng hạn như chèn hình ảnh vào chính trang tính.
 
 ### Aspose.Cells có hỗ trợ dữ liệu động ở phần đầu trang và chân trang không?  
- Có, bạn có thể sử dụng nhiều mã động khác nhau (như`&D` cho ngày hoặc`&P` để thêm số trang) để thêm nội dung động.
+Có, bạn có thể sử dụng nhiều mã động khác nhau (như `&D` cho ngày hoặc `&P` để thêm số trang) để thêm nội dung động.
 
 ### Làm thế nào để điều chỉnh chiều cao của phần đầu trang hoặc phần chân trang?  
- Aspose.Cells cung cấp các tùy chọn trong`PageSetup` lớp để điều chỉnh lề đầu trang và chân trang, cho phép bạn kiểm soát khoảng cách.
+Aspose.Cells cung cấp các tùy chọn trong `PageSetup` lớp để điều chỉnh lề đầu trang và chân trang, cho phép bạn kiểm soát khoảng cách.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

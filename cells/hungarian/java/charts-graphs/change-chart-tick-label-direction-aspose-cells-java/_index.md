@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ public class ChangeTickLabelDirection {
         // Munkafüzet betöltése fájlból
         Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
         
-        // A munkafüzet első munkalapjának lekérése
+        // munkafüzet első munkalapjának lekérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         // A diagram lekérése a munkalapról
@@ -112,7 +114,7 @@ public class ChangeTickLabelDirection {
 4. **Jelölőcímke tájolásának módosítása**: Állítsa be a kategóriatengely jelölőnégyzeteinek iránytípusát.
 
 ```java
-// A jelölőnégyzet feliratának tájolását vízszintesre kell állítani
+// Jelölőcímke tájolásának módosítása vízszintesre
 chart.getCategoryAxis().getTickLabels().setDirectionType(ChartTextDirectionType.HORIZONTAL);
 ```
 
@@ -172,6 +174,9 @@ A következő lépések közé tartozik a különböző diagramtípusokkal való
 Böngészd át ezeket a forrásokat részletesebb információkért és támogatásért!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Lizenzerwerb
 Bevor Sie Aspose.Cells verwenden, sollten Sie eine Lizenz für den vollständigen Zugriff ohne Einschränkungen erwerben:
 - **Kostenlose Testversion**: Testen Sie die Funktionen mit einer kostenlosen Testversion von [Aspose](https://releases.aspose.com/cells/java/).
-- **Temporäre Lizenz**Erhalten Sie eine temporäre Lizenz über [Asposes Kaufseite](https://purchase.aspose.com/temporary-license/).
+- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz über [Asposes Kaufseite](https://purchase.aspose.com/temporary-license/).
 - **Kaufen**Für eine langfristige Nutzung sollten Sie den Kauf einer Volllizenz über [Aspose](https://purchase.aspose.com/buy).
 
 ### Grundlegende Initialisierung
@@ -174,6 +176,9 @@ In diesem Tutorial haben wir gezeigt, wie Sie Diagramme in einer Excel-Arbeitsma
 - **Kauf & kostenlose Testversion**: Beginnen Sie mit einer Testversion oder kaufen Sie über [Asposes Website](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

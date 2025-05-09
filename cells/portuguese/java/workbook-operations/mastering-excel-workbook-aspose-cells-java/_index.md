@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ import com.aspose.cells.Worksheet;
 
 **2. Instanciar uma nova pasta de trabalho**
 
-Crie uma instância de `Workbook`. Isso representa seu arquivo do Excel.
+Crie uma instância de `Workbook`. Isso representa seu arquivo Excel.
 
 ```java
 Workbook workbook = new Workbook();
@@ -255,6 +257,9 @@ Para explorar mais a fundo, considere explorar recursos mais avançados, como ma
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自动数据提取
@@ -111,9 +113,11 @@ String[][] extractedData = worksheet.getCells().exportArray(cellArea);
    探索 API 文档 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 以获得深入的信息和示例。
 
 立即开始使用 Aspose.Cells for Java 自动执行数据提取任务并简化数据检索流程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

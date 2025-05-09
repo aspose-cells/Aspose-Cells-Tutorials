@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Podstawowa znajomość programowania w Javie, w tym pojęć obiektowych, operacj
 ## Konfigurowanie Aspose.Cells dla Java
 Przed przystąpieniem do manipulowania plikami Excela za pomocą Aspose.Cells należy skonfigurować bibliotekę w swoim środowisku:
 
-1. **Instalacja**: Dodaj zależność Aspose.Cells za pomocą Maven lub Gradle, jak pokazano powyżej.
+1. **Instalacja**Dodaj zależność Aspose.Cells za pomocą Maven lub Gradle, jak pokazano powyżej.
 2. **Nabycie licencji**:Rozpocznij bezpłatny okres próbny, pobierając tymczasową licencję ze strony [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -69,7 +71,7 @@ public class ExcelSetup {
 ```
 
 ## Przewodnik wdrażania
-tej sekcji dowiesz się, jak automatycznie dopasowywać wiersze w skoroszycie programu Excel za pomocą pakietu Aspose.Cells for Java.
+W tej sekcji dowiesz się, jak automatycznie dopasowywać wiersze w skoroszycie programu Excel za pomocą pakietu Aspose.Cells for Java.
 
 ### Tworzenie skoroszytu i uzyskiwanie dostępu do arkusza kalkulacyjnego
 
@@ -163,6 +165,9 @@ Dzięki tym zasobom możesz zagłębić się w możliwości Aspose.Cells dla Jav
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

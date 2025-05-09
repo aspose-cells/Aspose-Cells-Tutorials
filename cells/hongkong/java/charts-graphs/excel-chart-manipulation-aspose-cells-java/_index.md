@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "了解如何使用 Aspose.Cells for Java 自動執行 Excel 圖表操作。本指南涵蓋載入工作簿、存取圖表和提取趨勢線方程式。"
-"title": "使用 Aspose.Cells 自動化 Java 中的 Excel 圖表操作綜合指南"
+"title": "使用 Aspose.Cells 在 Java 中自動化 Excel 圖表操作綜合指南"
 "url": "/zh-hant/java/charts-graphs/excel-chart-manipulation-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ String equationText = trendLine.getDataLabels().getText(); // 檢索趨勢線的
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

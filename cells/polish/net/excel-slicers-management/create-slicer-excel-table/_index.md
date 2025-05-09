@@ -1,14 +1,16 @@
 ---
-title: Utwórz fragmentator dla tabeli Excel w Aspose.Cells .NET
-linktitle: Utwórz fragmentator dla tabeli Excel w Aspose.Cells .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak utworzyć fragmentator w tabelach programu Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący wydajnego filtrowania danych.
-weight: 11
-url: /pl/net/excel-slicers-management/create-slicer-excel-table/
+"description": "Dowiedz się, jak utworzyć fragmentator w tabelach programu Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący wydajnego filtrowania danych."
+"linktitle": "Utwórz fragmentator dla tabeli Excel w Aspose.Cells .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz fragmentator dla tabeli Excel w Aspose.Cells .NET"
+"url": "/pl/net/excel-slicers-management/create-slicer-excel-table/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz fragmentator dla tabeli Excel w Aspose.Cells .NET
@@ -23,13 +25,13 @@ Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Aspose.
 ### Studio wizualne
 Zainstaluj Visual Studio (najlepiej najnowszą wersję), aby wygodnie pisać i uruchamiać kod .NET. Użyjemy tego środowiska do zintegrowania Aspose.Cells.
 ### Aspose.Cells dla .NET
- Pobierz i zainstaluj Aspose.Cells dla .NET, odwiedzając tę stronę[link do pobrania](https://releases.aspose.com/cells/net/). Ta biblioteka jest Twoją bramą do programowego manipulowania plikami Excela.
+Pobierz i zainstaluj Aspose.Cells dla .NET, odwiedzając tę stronę [link do pobrania](https://releases.aspose.com/cells/net/). Ta biblioteka jest Twoją bramą do programowego manipulowania plikami Excela.
 ### Przykładowy plik Excela
 Powinieneś mieć przykładowy plik Excel zawierający tabelę, ponieważ będziesz manipulować tym plikiem w trakcie całego kursu. Możesz utworzyć prosty arkusz kalkulacyjny Excel w samym Excelu lub użyć dostarczonego przykładu do testowania.
 ## Importuj pakiety
 Teraz, gdy mamy już uporządkowane nasze wymagania wstępne, zaimportujmy niezbędne pakiety. To krytyczny krok, ponieważ definiuje, jakie funkcjonalności możemy wykorzystać w naszym kodzie.
 ### Skonfiguruj odniesienia importu
-swoim projekcie Visual Studio upewnij się, że dodałeś odwołanie do Aspose.Cells. Możesz to zrobić, przechodząc do Project ➔ Add Reference... ➔ Assemblies ➔ Aspose.Cells. Upewnij się, że używasz odpowiedniej wersji zgodnej z Twoim projektem.
+W swoim projekcie Visual Studio upewnij się, że dodałeś odwołanie do Aspose.Cells. Możesz to zrobić, przechodząc do Project ➔ Add Reference... ➔ Assemblies ➔ Aspose.Cells. Upewnij się, że używasz odpowiedniej wersji zgodnej z Twoim projektem.
 Oto przykład, jak powinny wyglądać dyrektywy using na górze pliku C#:
 ```csharp
 using Aspose.Cells.Tables;
@@ -48,7 +50,7 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistym katalogiem, w którym znajduje się plik Excel.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistym katalogiem, w którym znajduje się plik Excel.
 ## Krok 2: Załaduj skoroszyt programu Excel
 Następnie chcemy załadować skoroszyt programu Excel zawierający tabelę, z którą będziemy pracować. Jest to kluczowe, ponieważ wszystkie kolejne działania opierają się na danych w tym pliku.
 ```csharp
@@ -63,7 +65,7 @@ Po załadowaniu skoroszytu uzyskamy dostęp do konkretnego arkusza zawierająceg
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## Krok 4: Uzyskaj dostęp do tabeli programu Excel
-Gdy masz już arkusz roboczy pod ręką, czas na wskazanie tabeli. To tutaj dzieje się magia — dane, którymi będziesz manipulować, znajdują się w tej tabeli.
+Gdy masz już arkusz roboczy pod ręką, czas na wskazanie tabeli. To właśnie tutaj dzieje się magia — dane, którymi będziesz manipulować, znajdują się w tej tabeli.
 ```csharp
 // Uzyskaj dostęp do pierwszej tabeli w arkuszu kalkulacyjnym.
 ListObject table = worksheet.ListObjects[0];
@@ -100,13 +102,15 @@ Tak, możesz dostosować styl i wymiary fragmentatorów, korzystając z udostęp
 Aspose.Cells dla .NET jest przeznaczony dla systemu Windows. Możesz jednak użyć .NET Core, aby uruchomić go na komputerze Mac z odpowiednimi ustawieniami.
   
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do pełnego wykorzystania musisz kupić licencję. Aby uzyskać szczegółowe informacje, odwiedź[Kupić](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do pełnego wykorzystania musisz kupić licencję. Aby uzyskać szczegółowe informacje, odwiedź [Kupić](https://purchase.aspose.com/buy).
   
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Pomoc możesz uzyskać za pośrednictwem dedykowanego forum wsparcia dostępnego[Tutaj](https://forum.aspose.com/c/cells/9).
+Pomoc możesz uzyskać za pośrednictwem dedykowanego forum wsparcia dostępnego [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

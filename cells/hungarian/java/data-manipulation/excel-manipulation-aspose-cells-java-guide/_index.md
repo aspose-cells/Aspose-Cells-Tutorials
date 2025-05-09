@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@ Az Excel-fájlok programozott kezelése kihívást jelenthet, különösen olyan
 
 **Amit tanulni fogsz:**
 - Hogyan használható az Aspose.Cells Java egy Excel fájl betöltéséhez és mentéséhez.
-- Munkafüzetben lévő adott munkalapok és alakzatok elérése.
+- Munkafüzetben található adott munkalapok és alakzatok elérése.
 - Alakzatok Z sorrendjének pozíciójának módosítása a munkalapon lévő rétegezésük szabályozásához.
 Mielőtt belevágnánk a megvalósításba, győződjünk meg róla, hogy minden elő van készítve a sikerhez.
 
@@ -132,7 +134,7 @@ Interaktív oktatási anyagokat hozhat létre dinamikus alakzatokkal, amelyek r�
 Ezek a példák bemutatják, milyen sokoldalú és hatékony lehet az Aspose.Cells Java valós helyzetekben.
 ## Teljesítménybeli szempontok
 - Optimalizálja a teljesítményt a memóriahasználat hatékony kezelésével.
-- A nem használt munkafüzetek megsemmisítésével felszabadíthat erőforrásokat.
+- A nem használt munkafüzetek selejtezésével felszabadíthat erőforrásokat.
 - Nagy adathalmazok esetén használjon kötegelt feldolgozást a terhelés minimalizálása érdekében.
 Ezen ajánlott gyakorlatok betartása biztosítja a zökkenőmentes működést a terjedelmes Excel-fájlok Aspose.Cells segítségével történő kezelésekor.
 ## Következtetés
@@ -161,6 +163,9 @@ Győződjön meg arról, hogy a kimeneti útvonal érvényes, és ellenőrizze, 
 - **Támogatási fórum:** [Aspose sejtek támogatása](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

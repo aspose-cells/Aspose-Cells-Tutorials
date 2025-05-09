@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ import com.aspose.cells.DateTime;
 public class CustomFunctionStaticValue extends AbstractCalculationEngine {
     @Override
     public void calculate(CalculationData calculationData) {
-        // Установить статические расчетные значения для заданных ячеек
+        // Установить статические расчетные значения для указанных ячеек
         calculationData.setCalculatedValue(new Object[][] { 
             new Object[] { new DateTime(2015, 6, 12, 10, 6, 30), 2 },
             new Object[] { 3.0, "Test" }
@@ -180,6 +182,9 @@ public class Main {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

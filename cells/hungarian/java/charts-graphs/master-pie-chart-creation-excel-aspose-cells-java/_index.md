@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Workbook workbook = new Workbook();
 ## Megvalósítási útmutató
 Most pedig lépésről lépésre implementáljuk az egyes funkciókat egy kördiagrammal ellátott Excel-munkafüzet létrehozásához.
 ### 1. A munkafüzet létrehozása és inicializálása
-**Áttekintés**Azzal kezdjük, hogy inicializáljuk a `Workbook` objektumot, és hozzáférünk az első munkalapjához, ahol adatokat és diagramokat fogunk hozzáadni.
+**Áttekintés**Kezdjük az inicializálással `Workbook` objektumot, és hozzáférünk az első munkalapjához, ahol adatokat és diagramokat fogunk hozzáadni.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -69,7 +71,7 @@ import com.aspose.cells.WorksheetCollection;
 String dataDir = "YOUR_DATA_DIRECTORY";
 // Új munkafüzet-példány létrehozása
 Workbook workbook = new Workbook();
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 ```
@@ -85,7 +87,7 @@ Cell cell = cells.get("A1");
 cell.setValue("Italy");
 cell = cells.get("A2");
 cell.setValue("Germany");
-// Folytassa más országokra vonatkozóan...
+// Folytassa a többi országgal kapcsolatban...
 // Adja hozzá a megfelelő értékesítési adatokat a B oszlophoz
 cell = cells.get("B1");
 cell.setValue(10000);
@@ -178,6 +180,9 @@ További kutatás céljából érdemes lehet más diagramtípusokat is megvizsg�
    - Használjon hatékony adatbetöltési technikákat, és fontolja meg a streamelést nagyon nagy fájlok esetén.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

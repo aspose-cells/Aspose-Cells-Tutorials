@@ -8,7 +8,9 @@ url: /net/excel-subtotal-calculation/tracing-precedents-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tracing Precedents in Excel
@@ -97,6 +99,7 @@ You can get help on the [Aspose support forum](https://forum.aspose.com/c/cells/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/remove-existing-printer-settings/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Existing Printer Settings from Worksheets
@@ -116,6 +118,7 @@ You can find community support and resources at the [Aspose forum](https://forum
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

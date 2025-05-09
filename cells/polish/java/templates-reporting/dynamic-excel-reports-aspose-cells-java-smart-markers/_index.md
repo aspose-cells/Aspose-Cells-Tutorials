@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ A: Inteligentne znaczniki pozwalają na zagnieżdżanie właściwości, dzięki 
 A: Opcje obejmują bezpłatną wersję próbną, tymczasową licencję i pełny zakup. Odwiedź [Strona internetowa Aspose](https://purchase.aspose.com/buy) Aby uzyskać więcej informacji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

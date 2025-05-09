@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 
 ### การตั้งค่า Aspose.Cells สำหรับ Java
 
-เพิ่ม Aspose.Cells สำหรับ Java ลงในส่วนที่ต้องมีของโปรเจ็กต์ของคุณ ทำได้ดังนี้:
+เพิ่ม Aspose.Cells สำหรับ Java ลงในส่วนที่ต้องมีของโปรเจ็กต์ของคุณ ดังต่อไปนี้:
 
 **การตั้งค่า Maven:**
 
@@ -215,6 +217,9 @@ A5: เยี่ยมชม [เอกสารประกอบ Aspose.Cells]
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

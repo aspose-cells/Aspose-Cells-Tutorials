@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Table Data Display Format Ranking in .NET
@@ -109,6 +111,7 @@ If you face any problems, feel free to reach out to the community and support on
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

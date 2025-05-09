@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ Rozłóżmy proces usuwania wierszy w arkuszu kalkulacyjnym Excela za pomocą As
 
 ### Tworzenie instancji obiektu skoroszytu
 
-Zacznij od utworzenia `Workbook` obiekt reprezentujący plik Excel:
+Zacznij od utworzenia `Workbook` obiekt, który reprezentuje Twój plik Excel:
 
 ```java
 // Załaduj istniejący plik Excel
@@ -161,6 +163,9 @@ Aby jeszcze lepiej poznać możliwości pakietu Aspose.Cells dla języka Java, w
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Acquisizione della licenza
 Aspose.Cells per Java richiede una licenza per sbloccare tutte le funzionalità. Puoi ottenere:
 - UN **prova gratuita** per esplorarne tutte le potenzialità.
-- UN **licenza temporanea** a fini di valutazione.
+- UN **licenza temporanea** fini di valutazione.
 - Acquista un completo **licenza** per uso produttivo.
 
 Visita il [pagina di acquisto](https://purchase.aspose.com/buy) per acquisire la tua licenza e iniziare con l'inizializzazione di base impostando la licenza nel tuo codice:
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Il caricamento di file Excel protetti da password è essenziale quando si tratta di informazioni sensibili. Aspose.Cells offre un modo semplice per aprire questi file specificando la password necessaria.
 
 #### Implementazione passo dopo passo
-1. **Imposta LoadOptions**: Crea un `LoadOptions` oggetto e impostare la password richiesta.
+1. **Imposta LoadOptions**Crea un `LoadOptions` oggetto e impostare la password richiesta.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5: Assicurati che il percorso al file di licenza sia corretto e che sia accessi
 - **Supporto**: [Supporto del forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

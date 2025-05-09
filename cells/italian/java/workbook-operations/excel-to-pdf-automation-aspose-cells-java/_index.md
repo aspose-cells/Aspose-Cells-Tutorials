@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ Pronti a provarlo? Immergetevi nell'elaborazione automatizzata di Excel in tutta
 Prendi il controllo dei tuoi dati Excel oggi stesso con Aspose.Cells Java e scopri la potenza dell'automazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

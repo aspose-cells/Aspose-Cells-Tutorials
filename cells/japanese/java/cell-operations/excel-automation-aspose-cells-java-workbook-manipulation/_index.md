@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - ワークブックを初期化し、ワークシートにアクセスします。
 - 数式を使用してセルの値を操作し、カスタム スタイルを適用するテクニック。
 - 高度な検索オプションを使用して、書式が変更されても特定の値を検索します。
-- 現実世界のシナリオにおける実用的なアプリケーション。
+- 現実のシナリオにおける実践的なアプリケーション。
 
 まず、Aspose.Cells Java に必要な前提条件から始めましょう。
 
@@ -79,7 +81,7 @@ Workbook workbook = new Workbook();
 Excel ブックを作成し、ワークシートにアクセスし、数式を使用してセルの値を操作し、プログラムでカスタム スタイルを適用します。
 
 #### ステップバイステップの実装
-**1. 新しいワークブックを作成します。**
+**1. 新しいワークブックを作成する:**
 まず、 `Workbook` クラス：
 ```java
 import com.aspose.cells.Workbook;
@@ -204,6 +206,9 @@ Excel 自動化スキルを次のレベルに引き上げる準備はできて�
    - はい、使用しています `FindOptions` 元の値を確認するように設定することで、このような検索を実行できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

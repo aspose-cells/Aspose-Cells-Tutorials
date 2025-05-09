@@ -1,14 +1,16 @@
 ---
-title: Utwórz wykres liniowy z znacznikami danych
-linktitle: Utwórz wykres liniowy z znacznikami danych
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak utworzyć wykres liniowy ze znacznikami danych w programie Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby łatwo generować i dostosowywać wykresy.
-weight: 10
-url: /pl/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Dowiedz się, jak utworzyć wykres liniowy ze znacznikami danych w programie Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby łatwo generować i dostosowywać wykresy."
+"linktitle": "Utwórz wykres liniowy z znacznikami danych"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz wykres liniowy z znacznikami danych"
+"url": "/pl/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wykres liniowy z znacznikami danych
@@ -19,12 +21,12 @@ Czy kiedykolwiek zastanawiałeś się, jak programowo tworzyć oszałamiające w
 
 ## Wymagania wstępne
 
-Zanim zaczniemy, upewnij się, że wszystko jest gotowe, by wszystko przebiegło bezproblemowo.
+Zanim zaczniemy, upewnij się, że wszystko jest gotowe, by móc płynnie kontynuować pracę.
 
-1. Aspose.Cells for .NET Library – Musisz to zainstalować. Możesz to pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – Musisz to zainstalować. Możesz to pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane przy użyciu najnowszej wersji .NET.
 3. IDE (zintegrowane środowisko programistyczne) – zalecany jest program Visual Studio.
-4.  Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub sprawdź ich[bezpłatny okres próbny](https://releases.aspose.com/).
+4. Ważna licencja Aspose.Cells – jeśli jej nie posiadasz, możesz poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub sprawdź ich [bezpłatny okres próbny](https://releases.aspose.com/).
 
 Gotowy do drogi? Rozłóżmy to na czynniki pierwsze!
 
@@ -68,7 +70,7 @@ Teraz, gdy mamy nasz arkusz kalkulacyjny, wypełnijmy go danymi. Tworzymy losowe
 worksheet.Cells[0, 0].Value = "X";
 worksheet.Cells[0, 1].Value = "Y";
 
-// Losowe dane do generowania wykresu
+// Losowe dane do wygenerowania wykresu
 Random R = new Random();
 
 // Utwórz losowe dane i zapisz je w komórkach
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // Ustaw kolor pierwszego planu na biały
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Ustaw właściwości tytułu wykresu
+// Ustaw właściwości tytułu wykresu
 chart.Title.Text = "Sample Chart";
 
 // Ustaw typ wykresu
@@ -157,7 +159,7 @@ Dzięki dostosowaniu kolorów wykres staje się nie tylko funkcjonalny, ale i at
 
 ## Krok 7: Ustaw wartości X i Y dla każdej serii
 
-Na koniec przypiszmy wartości X i Y każdemu z naszych szeregów.
+Na koniec przypiszmy wartości X i Y dla każdej z naszych serii.
 
 ```csharp
 // Ustaw wartości X i Y pierwszej serii
@@ -192,19 +194,21 @@ Tworzenie wykresów programowo w programie Excel może wydawać się zniechęcaj
 Oczywiście! Aspose.Cells oferuje mnóstwo opcji dostosowywania, od czcionek po linie siatki i wiele więcej.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?  
- Tak, licencja jest wymagana do pełnej funkcjonalności. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zacznij od[bezpłatny okres próbny](https://releases.aspose.com/).
+Tak, licencja jest wymagana do pełnej funkcjonalności. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zacznij od [bezpłatny okres próbny](https://releases.aspose.com/).
 
 ### Jak mogę dodać więcej serii danych?  
- Wystarczy dodać dodatkowe serie za pomocą`NSeries.Add` metoda, określająca zakresy komórek dla nowych danych.
+Wystarczy dodać dodatkowe serie za pomocą `NSeries.Add` metoda, określająca zakresy komórek dla nowych danych.
 
 ### Czy mogę wyeksportować wykres jako obraz?  
- Tak, możesz eksportować wykresy bezpośrednio jako obrazy, korzystając z`Chart.ToImage` metoda.
+Tak, możesz eksportować wykresy bezpośrednio jako obrazy, korzystając z `Chart.ToImage` metoda.
 
 ### Czy Aspose.Cells obsługuje wykresy 3D?  
 Tak, Aspose.Cells obsługuje szeroką gamę typów wykresów, w tym wykresy 3D.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Áp dụng chủ đề trong biểu đồ
-linktitle: Áp dụng chủ đề trong biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách áp dụng chủ đề vào biểu đồ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ làm theo của chúng tôi. Cải thiện cách trình bày dữ liệu của bạn.
-weight: 10
-url: /vi/net/setting-chart-appearance/apply-themes-in-chart/
+"description": "Tìm hiểu cách áp dụng chủ đề vào biểu đồ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ làm theo của chúng tôi. Cải thiện cách trình bày dữ liệu của bạn."
+"linktitle": "Áp dụng chủ đề trong biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Áp dụng chủ đề trong biểu đồ"
+"url": "/vi/net/setting-chart-appearance/apply-themes-in-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng chủ đề trong biểu đồ
@@ -24,8 +26,8 @@ Trước khi đi vào phần viết mã, bạn cần phải có một số đi�
 ### Phần mềm cần thiết
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nó cung cấp một môi trường thân thiện để phát triển các ứng dụng .NET.
-2. .NET Framework hoặc .NET Core: Tùy thuộc vào sở thích của bạn, bạn nên thiết lập .NET Framework hoặc .NET Core để tuân theo mã của chúng tôi.
-3.  Aspose.Cells cho .NET: Bạn không thể bỏ lỡ điều này! Tải xuống Aspose.Cells cho .NET để bắt đầu. Bạn có thể tìm thấy các tệp DLL[đây](https://releases.aspose.com/cells/net/).
+2. .NET Framework hoặc .NET Core: Tùy thuộc vào sở thích của bạn, bạn nên thiết lập .NET Framework hoặc .NET Core để theo dõi mã của chúng tôi.
+3. Aspose.Cells cho .NET: Bạn không thể bỏ lỡ điều này! Tải xuống Aspose.Cells cho .NET để bắt đầu. Bạn có thể tìm thấy các tệp DLL [đây](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ hướng dẫn bạn từng bước viết mã, nhưng một số hiểu biết cơ bản về C# chắc chắn sẽ hữu ích.
 
 ## Nhập gói
@@ -54,18 +56,18 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Ở đây, thay thế`Your Output Directory` Và`Your Document Directory` với các đường dẫn cụ thể của bạn. Việc xác định rõ ràng các thư mục này sẽ hợp lý hóa quy trình làm việc của bạn và tránh mọi nhầm lẫn sau này.
+Ở đây, thay thế `Your Output Directory` Và `Your Document Directory` với các đường dẫn cụ thể của bạn. Việc xác định rõ ràng các thư mục này sẽ hợp lý hóa quy trình làm việc của bạn và tránh mọi nhầm lẫn sau này.
 
 ## Bước 2: Khởi tạo Workbook
 
- Tiếp theo, đã đến lúc mở tệp Excel có chứa biểu đồ bạn muốn sửa đổi. Chúng tôi thực hiện việc này bằng cách tạo một phiên bản của`Workbook` lớp và tải tệp nguồn của chúng tôi.
+Tiếp theo, đã đến lúc mở tệp Excel có chứa biểu đồ bạn muốn sửa đổi. Chúng tôi thực hiện việc này bằng cách tạo một phiên bản của `Workbook` lớp và tải tệp nguồn của chúng tôi.
 
 ```csharp
 // Khởi tạo sổ làm việc để mở tệp có chứa biểu đồ
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Đảm bảo rằng`sampleApplyingThemesInChart.xlsx` có trong thư mục nguồn của bạn.
+Đảm bảo rằng `sampleApplyingThemesInChart.xlsx` có trong thư mục nguồn của bạn.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -102,10 +104,10 @@ Dòng mã này đảm bảo rằng chuỗi đầu tiên trong biểu đồ đư�
 
 ## Bước 6: Cấu hình màu
 
- Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một`CellsColor` đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
+Bây giờ series của chúng ta đã sẵn sàng, chúng ta cần sửa đổi màu sắc của nó. Điều này liên quan đến việc tạo ra một `CellsColor` đối tượng và chỉ định màu chủ đề. Chúng tôi sẽ chọn một kiểu nhấn cho ví dụ này.
 
 ```csharp
-//Lấy CellsColor của SolidFill
+// Lấy CellsColor của SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Tạo chủ đề theo phong cách Accent
@@ -114,7 +116,7 @@ cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 
 Sau đây là những gì đang xảy ra:
 1. Chúng ta thu được màu của vật liệu rắn.
-2.  Sử dụng`ThemeColor` , chúng tôi đặt một màu cho phần tô đặc của chúng tôi. Bạn có thể thay đổi`Accent6` sang bất kỳ màu chủ đề nào khác tùy theo sở thích của bạn.
+2. Sử dụng `ThemeColor`chúng tôi đặt một màu cho phần tô đặc của chúng tôi. Bạn có thể thay đổi `Accent6` sang bất kỳ màu chủ đề nào khác tùy theo sở thích của bạn.
 
 ## Bước 7: Áp dụng chủ đề cho Series
 
@@ -127,7 +129,7 @@ chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 
 Dòng này có tác dụng cập nhật màu sắc trong biểu đồ. 
 
-## Bước 8: Lưu Workbook
+## Bước 8: Lưu sổ làm việc
 
 Sau tất cả những công sức bỏ ra, chúng ta cần lưu những thay đổi vào một tệp Excel mới.
 
@@ -158,19 +160,21 @@ Dòng này sẽ đưa ra thông báo trong bảng điều khiển cho biết tá
 Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nhà phát triển thao tác với các tệp Excel theo cách lập trình.
 
 ### Tôi có thể dùng thử Aspose.Cells trước khi mua không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể áp dụng những loại chủ đề biểu đồ nào?
 Aspose.Cells hỗ trợ nhiều màu chủ đề khác nhau bao gồm cả kiểu Accent và nhiều kiểu khác.
 
 ### Có thể áp dụng chủ đề cho nhiều biểu đồ không?
-Chắc chắn rồi! Bạn có thể lặp lại`worksheet.Charts` và áp dụng chủ đề khi cần thiết.
+Chắc chắn rồi! Bạn có thể lặp lại `worksheet.Charts` và áp dụng chủ đề khi cần thiết.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được sự hỗ trợ và tham gia vào cộng đồng người dùng[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ và tham gia vào cộng đồng người dùng [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

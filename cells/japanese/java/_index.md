@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Javaスプレッドシート処理チュートリアル
@@ -102,7 +104,7 @@ Aspose.Cells Java チュートリアルを使用して、Excel スプレッド�
 Aspose.Cells for Java を使用してオートフィルター、スライサー、ハイパーリンク、外部接続、高度な Excel 機能を実装するための完全なチュートリアル。
 
 ### [パフォーマンスの最適化](./performance-optimization/)
-Aspose.Cells for Java を使用してメモリ使用量を最適化し、実行速度を向上させ、大規模な Excel ファイルを処理するためのステップバイステップのチュートリアルです。
+Aspose.Cells for Java を使用してメモリ使用量を最適化し、実行速度を向上させ、大規模な Excel ファイルを処理するためのステップバイステップのチュートリアル。
 
 ### [統合と相互運用性](./integration-interoperability/)
 Aspose.Cells を他の Aspose 製品、サードパーティ ライブラリ、Java の外部システムと統合するための完全なチュートリアル。
@@ -118,9 +120,11 @@ Aspose.Cells for Java を使用してレポート テンプレートを作成し
 
 ### [自動化とバッチ処理](./automation-batch-processing/)
 Aspose.Cells for Java を使用して Excel タスクを自動化し、複数のファイルをバッチ処理し、操作をスケジュールするためのステップバイステップのチュートリアル。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

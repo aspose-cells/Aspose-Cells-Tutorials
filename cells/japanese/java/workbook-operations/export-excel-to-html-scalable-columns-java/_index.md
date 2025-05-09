@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### ライセンス取得
 
-評価制限なしで Aspose.Cells を使用するには、次の操作を実行します。
+評価制限なしで Aspose.Cells を使用するには、次の操作を行います。
 - **無料トライアル**試用ライセンスをダウンロード [Asposeのウェブサイト](https://releases。aspose.com/cells/java/).
 - **一時ライセンス**一時ライセンスを申請するには [Aspose 一時ライセンスページ](https://purchase。aspose.com/temporary-license/).
 - **購入**商用利用のためのフルライセンスを取得するには、 [購入ページ](https://purchase。aspose.com/buy).
@@ -132,7 +134,7 @@ public class ExcelToHtmlConverter {
 
    *なぜ？* 列幅のスケーラビリティにより、HTMLは様々な画面サイズで適切に表示されます。Base64で画像を埋め込むことで外部ファイルが不要になり、配布が簡素化されます。
 
-### 機能3: 構成したオプションを使用してワークブックをHTML形式で保存する
+### 機能3: 設定されたオプションを使用してワークブックをHTML形式で保存する
 
 **概要**最後の手順は、構成されたオプションを使用して、ワークブックを HTML ファイルとして保存することです。
 
@@ -209,6 +211,9 @@ Aspose.Cells を使用する際にパフォーマンスを最適化するには�
 Aspose.Cells for Java を使用して Excel ファイルの操作をマスターし、今すぐデータのプレゼンテーションを強化しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

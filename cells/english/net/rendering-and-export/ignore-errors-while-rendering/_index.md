@@ -8,7 +8,9 @@ url: /net/rendering-and-export/ignore-errors-while-rendering/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignore Errors in Excel to PDF Rendering with Aspose.Cells
@@ -85,6 +87,7 @@ Check out the [documentation](https://reference.aspose.com/cells/net/) for more 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -216,6 +218,9 @@ A: Aspose poskytuje komplexní [fórum podpory](https://forum.aspose.com/c/cells
 - **Dokumentace:** Prozkoumejte celé [Dokumentace k Aspose.Cells](https://docs.aspose.com/cells/java/) pro pokročilejší funkce.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

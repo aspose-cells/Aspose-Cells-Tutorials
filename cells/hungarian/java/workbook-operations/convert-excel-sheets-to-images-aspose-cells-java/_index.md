@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ sr.toImage(0, outDir + "/CTransparentImage_out.png");
 
 ## Teljesítménybeli szempontok
 
-- **Memóriahasználat optimalizálása**Nagy munkafüzetek esetén a memória kezeléséhez egyszerre csak egy munkalapot kell feldolgozni.
+- **Memóriahasználat optimalizálása**Nagy munkafüzetek esetén a memóriakezeléshez egyszerre egy munkalapot kell feldolgozni.
 - **Felbontási beállítások**: Keresse a képminőség és a fájlméret egyensúlyát; a nagyobb felbontás növeli a képtisztaságot, de a tárhelyigényt is.
 - **Java legjobb gyakorlatok**: Használja ki a Java szemétgyűjtését a már nem szükséges objektumok érvénytelenítésével.
 
@@ -220,6 +222,9 @@ Kezdje el használni az Aspose.Cells for Java-t még ma, hogy egyszerűsítse Ex
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

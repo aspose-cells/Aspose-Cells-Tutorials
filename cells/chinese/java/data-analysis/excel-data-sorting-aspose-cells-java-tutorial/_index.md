@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Aspose.Cells 可以与数据库或 Web 应用程序等其他系统集成，实�
 通过遵循这个全面的指南，您可以自信地使用 Aspose.Cells 在 Java 应用程序中实现和优化 Excel 数据排序。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

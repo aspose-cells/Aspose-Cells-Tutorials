@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Excel Charts
@@ -47,9 +49,11 @@ Learn how to create captivating chart animations with Aspose.Cells for Java. Ste
 Learn how to create stunning Waterfall Charts with Aspose.Cells for Java. Step-by-step guide with source code for effective data visualization.
 ### [Chart Interactivity](./chart-interactivity/)
 Learn how to create interactive charts using Aspose.Cells for Java. Enhance your data visualization with interactivity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

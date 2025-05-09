@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ estas alturas, debería tener una comprensión sólida de cómo personalizar fó
 Aprovecha estos recursos para mejorar tu comprensión e implementación de Aspose.Cells para Java. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

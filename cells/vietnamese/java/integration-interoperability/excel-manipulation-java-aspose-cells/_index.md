@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động hóa Excel bằng Java - Tạo bảng và biểu đồ tương tác bằng Aspose.Cells
@@ -237,7 +239,7 @@ Khi xử lý lượng lớn dữ liệu Excel hoặc tạo nhiều báo cáo, h�
 
 * **Hoạt động hàng loạt:** Nhóm các hoạt động tương tự lại với nhau thay vì thực hiện riêng lẻ để giảm chi phí.
 * **Bộ nhớ đệm tế bào:** Bật tính năng lưu trữ đệm ô cho các hoạt động đọc chuyên sâu trên các bảng tính lớn để cải thiện thời gian truy cập.
-* **Tính toán thủ công:** Đặt chế độ tính toán thủ công khi thực hiện nhiều cập nhật công thức để tránh các phép tính trùng lặp cho đến khi được kích hoạt rõ ràng.
+* **Tính toán thủ công:** Đặt chế độ tính toán thủ công khi thực hiện nhiều cập nhật công thức để tránh tính toán trùng lặp cho đến khi được kích hoạt rõ ràng.
 
 ## Xử lý sự cố thường gặp
 
@@ -287,6 +289,9 @@ Bằng cách thành thạo các kỹ thuật này, bạn có thể hợp lý hó
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

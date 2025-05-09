@@ -1,50 +1,55 @@
 ---
-title: PDF-t készíts Excel- grafikonból meghatározott oldalszámmal
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan készítsen egy PDF-t egy Excel-tervből egy meghatározott oldalszámú oldal segítségével Aspose.Cells a .NET-hez.
-keywords: [Aspose.Cells for .NET, Excel to PDF, export chart to PDF, generate PDF from Excel, C# Excel PDF conversion, chart to PDF C#, .NET Excel library]
-url: /hu/net/charts/create-chart-pdf-with-desired-page-size/
+"description": "Tanuld meg, hogyan hozhatsz létre PDF-et egy Excel-diagramból megadott oldalmérettel az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal."
+"title": "PDF létrehozása Excel táblázatból megadott oldalmérettel"
+"url": "/hu/net/charts/create-chart-pdf-with-desired-page-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF-t készíts Excel- grafikonból meghatározott oldalszámmal
+# PDF létrehozása Excel táblázatból megadott oldalmérettel
 
-Az Excel-ből egy PDF-fájlba történő exportálása egy pontos oldalrendezéssel elengedhetetlen követelmény a jelentések és az adatmegelőzéshez. Ez a tanár bemutatja, hogyan használhatja az Aspose.Cells a .NET-hez egy Excel-tábláról PDF-t létrehozni, miközben megadja a oldal méretét és az összehangolást. Megtanulhatja, hogyan tölthess egy Excel-fájlt, hozzáférhet egy munkalaphoz és a táblához, és jól formátált PDF-fájlokba alakítaná.  
+Az Excelből PDF-fájlba exportált diagramok pontos oldalelrendezéssel történő exportálása kulcsfontosságú a jelentéskészítéshez és az adatvizualizációhoz. Ez az oktatóanyag bemutatja, hogyan használható az Aspose.Cells for .NET PDF-fájl létrehozására egy Excel-diagramból az oldalméret és az igazítás megadásával. Megtanulod, hogyan tölthetsz be egy Excel-fájlt, hogyan érhetsz el egy munkalapot és annak diagramját, és hogyan alakíthatod át jól formázott PDF-fájllá.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-chart-pdf-with-desired-page-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A .NET-ben az Aspose.Cells használatához kövesse az alábbi lépéseket:  
 
-1. A NuGet segítségével telepítse:  
-   Nyissa ki a NuGet csomagkezelőt a Visual Studio-ban, és futtassa:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások  
+Az Aspose.Cells .NET-hez való használatához kövesse az alábbi lépéseket:  
+
+1. Telepítés NuGet-en keresztül:  
+   Nyisd meg a NuGet csomagkezelőt a Visual Studioban, és futtasd a következőt:  
    ```sh
    Install-Package Aspose.Cells
    ```  
 
-2. Letöltsd a DLL-t:  
-   Kapd a legújabb verziót a [Aspose.Cells a .NET letöltőoldalhoz](https://releases.aspose.com/cells/net/)\- Nem.  
+2. Töltsd le a DLL-t:  
+   Szerezd meg a legújabb verziót a [Aspose.Cells .NET letöltési oldal](https://releases.aspose.com/cells/net/).  
 
-3. Be kell foglalni a névterületet:  
-   Add the following in your C# file:  
+3. Névtér hozzáadása:  
+   Add hozzá a következőket a C# fájlodhoz:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Rendering;
    ```  
-## Lásd:
-A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még
+Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

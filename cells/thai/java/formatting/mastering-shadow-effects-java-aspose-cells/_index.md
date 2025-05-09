@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,11 +64,11 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 เริ่มต้น Aspose.Cells ในแอปพลิเคชัน Java ของคุณ:
 
 ```java
-// สร้างวัตถุเวิร์กบุ๊กเริ่มต้น
+// เริ่มต้นวัตถุเวิร์กบุ๊ก
 Workbook workbook = new Workbook();
 ```
 
-การดำเนินการนี้จะเริ่มต้นเอกสาร Excel ที่ว่างเปล่า โหลดเอกสารที่มีอยู่โดยระบุเส้นทางของไฟล์
+การดำเนินการนี้จะเริ่มต้นเอกสาร Excel ที่ว่างเปล่า โหลดเอกสารที่มีอยู่โดยระบุเส้นทางไฟล์
 
 ## คู่มือการใช้งาน
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook(dataDir + "WorkingWithShadowEffect_in.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**คำอธิบาย**:การดำเนินการนี้จะโหลดเวิร์กบุ๊กและเรียกค้นเวิร์กชีตแรกเพื่อปรับเปลี่ยน
+**คำอธิบาย**:การดำเนินการนี้จะโหลดเวิร์กบุ๊กและดึงเวิร์กชีตแรกเพื่อปรับเปลี่ยน
 
 ### การเข้าถึงและการปรับเปลี่ยนรูปทรง
 
@@ -136,7 +138,7 @@ workbook.save(dataDir + "WorkingWithShadowEffect_out.xlsx");
 
 ## บทสรุป
 
-ตอนนี้คุณรู้วิธีใช้เอฟเฟกต์เงาโดยใช้ Aspose.Cells สำหรับ Java แล้ว ช่วยให้คุณสร้างเอกสาร Excel ที่น่าสนใจและน่ามองยิ่งขึ้น สำรวจฟีเจอร์อื่นๆ ของ Aspose.Cells หรือเจาะลึกเทคนิคการเขียนโปรแกรม Java เพื่อเพิ่มทักษะของคุณให้ดียิ่งขึ้น
+ตอนนี้คุณรู้วิธีใช้เอฟเฟกต์เงาโดยใช้ Aspose.Cells สำหรับ Java แล้ว ช่วยให้คุณสร้างเอกสาร Excel ที่น่าสนใจและน่ามองยิ่งขึ้น สำรวจฟีเจอร์อื่นๆ ของ Aspose.Cells หรือเจาะลึกเทคนิคการเขียนโปรแกรม Java เพื่อเพิ่มพูนทักษะของคุณ
 
 **ขั้นตอนต่อไป**:ทดลองใช้การตั้งค่าที่แตกต่างกันสำหรับคุณสมบัติ ShadowEffect เพื่อดูผลกระทบที่เกิดขึ้นกับรูปร่างของคุณ!
 
@@ -164,6 +166,9 @@ workbook.save(dataDir + "WorkingWithShadowEffect_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

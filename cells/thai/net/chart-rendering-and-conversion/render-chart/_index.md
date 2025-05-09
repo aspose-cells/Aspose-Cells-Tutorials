@@ -1,14 +1,16 @@
 ---
-title: แผนภูมิการแสดงผล
-linktitle: แผนภูมิการแสดงผล
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ค้นพบวิธีการเรนเดอร์แผนภูมิใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อสร้างภาพที่สวยงามได้อย่างง่ายดาย
-weight: 10
-url: /th/net/chart-rendering-and-conversion/render-chart/
+"description": "ค้นพบวิธีการเรนเดอร์แผนภูมิใน .NET โดยใช้ Aspose.Cells ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อสร้างภาพที่สวยงามได้อย่างง่ายดาย"
+"linktitle": "แผนภูมิการแสดงผล"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "แผนภูมิการแสดงผล"
+"url": "/th/net/chart-rendering-and-conversion/render-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แผนภูมิการแสดงผล
@@ -22,7 +24,7 @@ url: /th/net/chart-rendering-and-conversion/render-chart/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณเตรียมทุกอย่างพร้อมแล้ว นี่คือสิ่งที่คุณต้องการ:
 
 1. สภาพแวดล้อมการพัฒนา .NET: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ไว้แล้ว คุณสามารถใช้ Visual Studio หรือ IDE อื่น ๆ ที่รองรับ .NET ได้
-2.  Aspose.Cells สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้จาก[หน้าการเปิดตัวของ Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณต้องติดตั้งไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้จาก [หน้าการเปิดตัวของ Aspose](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจตัวอย่างได้ดีขึ้น แต่ไม่ต้องกังวลหากคุณเป็นมือใหม่ เพราะคู่มือนี้จะอธิบายทุกอย่างทีละขั้นตอน!
 
 ## แพ็คเกจนำเข้า
@@ -60,7 +62,7 @@ string outputDir = "Your Output Directory"; // ระบุไดเร็กท
 Workbook workbook = new Workbook();
 ```
 
- บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ`Workbook` คลาสที่ช่วยให้เราทำงานกับแผ่นงานและแผนภูมิได้
+บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ `Workbook` คลาสที่ช่วยให้เราทำงานกับแผ่นงานและแผนภูมิได้
 
 ## ขั้นตอนที่ 3: เพิ่มเวิร์กชีตใหม่
 
@@ -97,7 +99,7 @@ int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 15, 5);
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-ที่นี่ เรากำลังเพิ่มแผนภูมิในตำแหน่งที่ระบุโดยการกำหนดเค้าโครงของแผนภูมิ ชุดตัวเลขแรกแสดงตำแหน่งของแผนภูมิบนกริด
+ที่นี่ เรากำลังเพิ่มแผนภูมิในตำแหน่งที่ระบุโดยการกำหนดเค้าโครง: ชุดตัวเลขแรกแสดงตำแหน่งของแผนภูมิบนกริด
 
 ## ขั้นตอนที่ 6: การเพิ่มชุดข้อมูลลงในแผนภูมิ
 
@@ -178,16 +180,18 @@ chart.ToPdf(outputDir + "outputChartRendering.pdf");
 ใช่ Aspose.Cells รองรับการปรับแต่งมากมาย รวมถึงสี สไตล์ และองค์ประกอบแผนภูมิ
 
 ### มีการทดลองใช้ฟรีหรือไม่?
-แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้จากที่ไหน
- คุณสามารถค้นหาการสนับสนุนและทรัพยากรชุมชนได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถค้นหาการสนับสนุนและทรัพยากรชุมชนได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells หรือไม่?
- ใช่ ต้องมีใบอนุญาตจึงจะใช้งานต่อได้หลังจากช่วงทดลองใช้ แต่คุณสามารถสมัครใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ ต้องมีใบอนุญาตจึงจะใช้งานต่อได้หลังจากช่วงทดลองใช้ แต่คุณสามารถสมัครใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

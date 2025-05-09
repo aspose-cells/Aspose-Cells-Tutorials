@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ fillformat.setOneColorGradient(Color.getNavy(), 1, GradientStyleType.HORIZONTAL,
 ```
 **説明：** 
 - `Color.getNavy()` グラデーションの色を指定します。
-- `GradientStyleType.HORIZONTAL` 水平グラデーション効果を適用します。
+- `GradientStyleType.HORIZONTAL` 水平方向のグラデーション効果を適用します。
 
 ##### ステップ4: 線の書式を設定する
 楕円の境界をカスタマイズします。
@@ -179,6 +181,9 @@ A: メモリの使用パターンを確認し、大規模なデータセット�
 このガイドに従うことで、Aspose.Cells for Java を使って Excel スプレッドシートにカスタム図形を追加できるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

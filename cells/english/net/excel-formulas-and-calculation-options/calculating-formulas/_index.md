@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/calculating-formulas/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Calculating Formulas in Excel Programmatically
@@ -116,9 +118,11 @@ Absolutely! You can get a free trial [here](https://releases.aspose.com/).
 Yes, Aspose.Cells allows you to load existing Excel files and modify them as needed.
 ### Where can I find more documentation on Aspose.Cells for .NET?
 You can find comprehensive documentation [here](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Các bước tiếp theo có thể bao gồm khám phá các tùy chọn tùy ch
 Khám phá các tài nguyên này để nâng cao hiểu biết và khả năng của bạn với Aspose.Cells Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

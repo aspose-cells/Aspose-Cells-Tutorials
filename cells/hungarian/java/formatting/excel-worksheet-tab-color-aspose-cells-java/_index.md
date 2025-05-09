@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licencbeszerzés lépései
 Az Aspose.Cells for Java ideiglenes licenccel használható, amely a hivatalos weboldalukon érhető el. Így működik:
 1. **Ingyenes próbaverzió**Töltsd le a könyvtárat és használd kiértékelési módban.
-2. **Ideiglenes engedély**Ingyenes ideiglenes engedély igénylése [itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+2. **Ideiglenes engedély**: Ingyenes ideiglenes engedély igénylése [itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
 3. **Vásárlás**Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását a következő cégtől: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
 Miután a környezeted beállítottad és a könyvtár is készen van, itt az ideje belevágni a kódolásba.
@@ -95,7 +97,7 @@ Workbook workbook = new Workbook(dirPath + "Book1.xls");
 ##### Hozzáférés a munkalaphoz
 Ezután keresse meg azt a munkalapot, amelynek a tabulátor színét módosítani szeretné:
 ```java
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 *Magyarázat*A `getWorksheets()` metódus az összes munkalap gyűjteményét adja vissza. Az elsőhöz a következőképpen férünk hozzá: `get(0)`.
@@ -111,7 +113,7 @@ worksheet.setTabColor(Color.getRed());
 ##### Változtatások mentése
 Végül mentse el a módosításokat egy kimeneti fájlba:
 ```java
-// A módosított munkafüzet mentése új fájlba
+// módosított munkafüzet mentése új fájlba
 workbook.save(outDir + "worksheettabcolor.xls");
 ```
 *Magyarázat*A `save` A metódus az összes módosítást visszaírja az elérési út által megadott Excel-fájlba.
@@ -165,6 +167,9 @@ Böngészd át ezeket az anyagokat, hogy elmélyítsd az Aspose.Cells for Java s
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

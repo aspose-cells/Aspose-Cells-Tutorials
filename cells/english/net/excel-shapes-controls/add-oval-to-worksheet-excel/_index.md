@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-oval-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Oval to Worksheet in Excel
@@ -120,6 +122,7 @@ While you can try Aspose.Cells with a free trial, you'll need a [license](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: OLE Nesnesini Excel'e Ekle
-linktitle: OLE Nesnesini Excel'e Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı kılavuzda, adım adım talimatlarla Aspose.Cells for .NET kullanarak Excel dosyalarına OLE nesnelerinin nasıl ekleneceğini öğrenin.
-weight: 11
-url: /tr/net/excel-ole-picture-objects/insert-ole-object-into-excel/
+"description": "Bu kapsamlı kılavuzda, adım adım talimatlarla Aspose.Cells for .NET kullanarak Excel dosyalarına OLE nesnelerinin nasıl ekleneceğini öğrenin."
+"linktitle": "OLE Nesnesini Excel'e Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "OLE Nesnesini Excel'e Ekle"
+"url": "/tr/net/excel-ole-picture-objects/insert-ole-object-into-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OLE Nesnesini Excel'e Ekle
@@ -18,8 +20,8 @@ url: /tr/net/excel-ole-picture-objects/insert-ole-object-into-excel/
 ## Ön koşullar
 Kodun ayrıntılarına dalmadan önce, elinizin altında bulunması gereken birkaç şey var:
 1. Visual Studio: İdeal olarak, Visual Studio gibi .NET'i destekleyen bir ortamda çalışmalısınız. Bu IDE, uygulamalarınızı yazmayı, test etmeyi ve hata ayıklamayı kolaylaştırır.
-2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu NuGet paket yöneticisi aracılığıyla edinebilir veya doğrudan şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
-3.  Örnek Dosyalar: Tanıtım amaçlı olarak, bir görüntünüz olduğundan emin olun (örneğin`logo.jpg`) ve bir Excel dosyası (`book1.xls`) ile çalışmak için. Bunlara kodda başvurulacaktır.
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu NuGet paket yöneticisi aracılığıyla edinebilir veya doğrudan şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
+3. Örnek Dosyalar: Tanıtım amaçlı olarak, bir görüntünüz olduğundan emin olun (örneğin `logo.jpg`) ve bir Excel dosyası (`book1.xls`) ile çalışmak için. Bunlara kodda başvurulacaktır.
 4. C# Temel Anlayışı: C#'a aşina olmak, söz konusu adımları anlamanıza ve gerekirse değişiklikler yapmanıza yardımcı olacaktır.
 Her şeyi yerli yerine oturttuktan sonra, kolları sıvayıp OLE nesnelerini Excel'e eklemeye başlamanın zamanı geldi!
 ## Paketleri İçe Aktar
@@ -37,7 +39,7 @@ Bunu kolayca sindirilebilir adımlara bölelim.
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` Sisteminizde dosyalarınızı kaydetmeyi planladığınız gerçek bir dizin yolu ile.
+Değiştirdiğinizden emin olun `"Your Document Directory"` Sisteminizde dosyalarınızı kaydetmeyi planladığınız gerçek bir dizin yolu ile.
 ## Adım 2: Dizin Yoksa Oluşturun
 Sonra, bu dizinin var olduğundan emin olmak istiyoruz. Eğer yoksa, onu oluşturmamız gerekiyor.
 ```csharp
@@ -64,10 +66,10 @@ Güzel ve basit! Bu çalışma sayfasına içerik eklemeye başlamaya hazırız.
 ## Adım 5: Görüntü için Yolu Tanımlayın
 Şimdi Excel dosyanıza yerleştirmek istediğiniz resim için bir yol belirleyelim.
 ```csharp
-//Görüntü yolunu saklamak için bir dize değişkeni tanımlayın.
+// Görüntü yolunu saklamak için bir dize değişkeni tanımlayın.
 string ImageUrl = dataDir + "logo.jpg";
 ```
- Bu yolun, bulunduğunuz yeri doğru şekilde yansıttığından emin olun.`logo.jpg` dosya saklandı.
+Bu yolun, bulunduğunuz yeri doğru şekilde yansıttığından emin olun. `logo.jpg` dosya saklandı.
 ## Adım 6: Görüntüyü bir Bayt Dizisine Yükleyin
 Görüntüyü çalışabileceğimiz bir biçime dönüştürmemiz gerekecek. Bunu yapmak için dosya akışını açıp verilerini bir bayt dizisine okuruz.
 ```csharp
@@ -93,7 +95,7 @@ Tıpkı resimde yaptığımız gibi Excel dosyasını da bir bayt dizisine yükl
 ```csharp
 // Dosyayı akışlara alın.
 fs = File.OpenRead(path);
-//Bir bayt dizisi tanımlayın.
+// Bir bayt dizisi tanımlayın.
 byte[] objectData = new Byte[fs.Length];
 // Akışlardan gelen dosyayı depola.
 fs.Read(objectData, 0, objectData.Length);
@@ -109,7 +111,7 @@ sheet.OleObjects.Add(14, 3, 200, 220, imageData);
 // Gömülü OLE nesnesi verilerini ayarlayın.
 sheet.OleObjects[0].ObjectData = objectData;
 ```
- Bu satır Excel belgesinde gömülü bir nesne oluşturur. Parametreler`(14, 3, 200, 220)` gömülü nesnenin konumunu ve boyutunu belirtin. Bu değerleri, özel kullanım durumunuz için gerektiği şekilde ayarlayın.
+Bu satır Excel belgesinde gömülü bir nesne oluşturur. Parametreler `(14, 3, 200, 220)` gömülü nesnenin konumunu ve boyutunu belirtin. Bu değerleri, özel kullanım durumunuz için gerektiği şekilde ayarlayın.
 ## Adım 10: Excel Dosyasını Kaydedin
 Son olarak değişikliklerinizi Excel dosyasına kaydetmenin zamanı geldi.
 ```csharp
@@ -123,16 +125,18 @@ Aspose.Cells for .NET kullanarak Excel dosyalarına OLE nesneleri eklemek, yöne
 ### OLE nesnesi nedir?
 OLE nesnesi, farklı uygulamaların birbirleriyle bütünleşmesine olanak tanıyan bir belgeye gömülebilen bir dosyadır. Örnekler arasında resimler, Word belgeleri ve sunumlar bulunur.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Aspose.Cells'i kendi web sitelerinden indirebileceğiniz deneme sürümünü kullanarak ücretsiz deneyebilirsiniz.[web sitesi](https://releases.aspose.com/).
+Aspose.Cells'i kendi web sitelerinden indirebileceğiniz deneme sürümünü kullanarak ücretsiz deneyebilirsiniz. [web sitesi](https://releases.aspose.com/).
 ### OLE nesneleriyle hangi dosya biçimlerini kullanabilirim?
 Uygulamanıza bağlı olarak resimler (JPEG, PNG), Word belgeleri, PDF'ler ve daha fazlası dahil olmak üzere çeşitli formatları kullanabilirsiniz.
 ### Aspose.Cells tüm platformlarda destekleniyor mu?
 Aspose.Cells for .NET, öncelikle .NET platformu için tasarlanmıştır. Ancak, işlevsellik farklı Windows, Mac veya bulut ortamlarında farklılık gösterebilir.
 ### Sorunlarla karşılaşırsam nasıl yardım alabilirim?
- Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9) Geliştiricilerin içgörülerini ve çözümlerini paylaştığı yer.
+Desteğe şu şekilde erişebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9) Geliştiricilerin içgörülerini ve çözümlerini paylaştığı yer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

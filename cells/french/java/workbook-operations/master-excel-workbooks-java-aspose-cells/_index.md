@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Dans les prochaines étapes, envisagez d’approfondir les fonctionnalités plus
 Prêt à implémenter votre solution ? Suivez ces étapes, explorez les ressources fournies et commencez dès aujourd'hui à améliorer vos applications Java avec Aspose.Cells !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

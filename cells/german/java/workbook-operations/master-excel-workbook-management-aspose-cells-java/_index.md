@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ Der `save` Die Methode schreibt Ihre Arbeitsmappe in eine Datei und behält alle
 Mit dieser Anleitung können Sie Excel-Arbeitsmappen nun programmgesteuert mit Aspose.Cells für Java verwalten. Dieses leistungsstarke Tool vereinfacht komplexe Aufgaben und steigert die Produktivität bei der Bearbeitung von Excel-Dateien. Entdecken Sie die Funktionen weiter, um Ihre Datenverwaltungs-Workflows weiter zu verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

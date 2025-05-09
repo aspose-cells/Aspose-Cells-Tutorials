@@ -1,14 +1,16 @@
 ---
-title: Şifre Korumalı Excel Çalışma Sayfasını Aç
-linktitle: Şifre Korumalı Excel Çalışma Sayfasını Aç
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak parola korumalı bir Excel elektronik tablosunun kilidini nasıl açacağınızı öğrenin. C# dilinde adım adım eğitim.
-weight: 10
-url: /tr/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
+"description": "Aspose.Cells for .NET kullanarak parola korumalı bir Excel elektronik tablosunun kilidini nasıl açacağınızı öğrenin. C# dilinde adım adım eğitim."
+"linktitle": "Şifre Korumalı Excel Çalışma Sayfasını Aç"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Şifre Korumalı Excel Çalışma Sayfasını Aç"
+"url": "/tr/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Şifre Korumalı Excel Çalışma Sayfasını Aç
@@ -19,15 +21,15 @@ Hiç kendinizi bir Excel çalışma sayfasından kilitlenmiş, düzenlenemeyen v
 
 ## Ön koşullar
 
-Çalışma sayfanızın kilidini açmanın inceliklerine girmeden önce, yerinde olması gereken birkaç şey var:
+Çalışma sayfanızın kilidini açmanın inceliklerine girmeden önce, elinizde olması gereken birkaç şey var:
 
 ### .NET Ortamı
 
-Çalışan bir .NET ortamına ihtiyacınız var. Henüz hazır değilseniz, Visual Studio'yu veya tercih ettiğiniz herhangi bir .NET IDE'yi yüklemeyi düşünün. 
+Çalışan bir .NET ortamına ihtiyacınız var. Henüz hazır değilseniz, Visual Studio'yu veya tercih ettiğiniz başka bir .NET IDE'yi yüklemeyi düşünün. 
 
 ### .NET için Aspose.Cells
 
- .NET için Aspose.Cells'e ihtiyacınız var. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/) . Bulunabilecek belgelerle kendinizi tanıştırdığınızdan emin olun.[Burada](https://reference.aspose.com/cells/net/).
+.NET için Aspose.Cells'e ihtiyacınız var. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/). Bulunabilecek belgelerle kendinizi tanıştırdığınızdan emin olun. [Burada](https://reference.aspose.com/cells/net/).
 
 ### Temel Kodlama Bilgisi
 
@@ -76,7 +78,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- İpucu: Değiştir`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın (adını koyalım) bulunduğu gerçek yol ile`book1.xls`) yer almaktadır. 
+İpucu: Değiştir `"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın (adını koyalım) bulunduğu gerçek yol ile `book1.xls`) yer almaktadır. 
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -106,7 +108,7 @@ Burada, çalışma kitabımızdaki ilk çalışma sayfasına erişiyoruz. Çalı
 worksheet.Unprotect("");
 ```
 
- Çalışma sayfanız bir parola ile korunuyorsa ve parolayı biliyorsanız, boş dizeyi değiştirirsiniz`""` gerçek şifre ile. Eğer bilmiyorsanız, boş bırakın ve çalışıp çalışmadığını görmek için çalıştırın.
+Çalışma sayfanız bir parola ile korunuyorsa ve parolayı biliyorsanız, boş dizeyi değiştirirsiniz `""` gerçek şifre ile. Eğer bilmiyorsanız, boş bırakın ve çalışıp çalışmadığını görmek için çalıştırın.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
@@ -142,19 +144,21 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak parola korumalı bir Ex
 Evet, şifre alanını boş bırakarak şifreyi bilmeden korumalı bir sayfanın kilidini açmayı deneyebilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
- Aspose.Cells ücretsiz deneme sunuyor, ancak uzun süreli kullanım için bir lisans satın almanız gerekecek. Kontrol edin[Sayfayı satın al](https://purchase.aspose.com/buy).
+Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisans satın almanız gerekiyor. [Sayfayı satın al](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells hangi formatları destekliyor?  
 Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli Excel formatlarını destekler.
 
 ### Aspose.Cells'i nasıl kurarım?  
- NuGet üzerinden kurabilir veya doğrudan şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+NuGet üzerinden kurabilir veya doğrudan şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells için desteği nereden alabilirim?  
- Topluluk odaklı desteği şu adreste bulabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Topluluk odaklı desteği şu adreste bulabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

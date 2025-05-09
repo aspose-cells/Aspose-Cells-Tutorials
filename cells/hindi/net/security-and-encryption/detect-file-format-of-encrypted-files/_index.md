@@ -1,14 +1,16 @@
 ---
-title: .NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का पता लगाएं
-linktitle: .NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का पता लगाएं
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: जानें कि Aspose.Cells का उपयोग करके .NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का कुशलतापूर्वक पता कैसे लगाया जाए। डेवलपर्स के लिए एक सरल गाइड।
-weight: 10
-url: /hi/net/security-and-encryption/detect-file-format-of-encrypted-files/
+"description": "जानें कि Aspose.Cells का उपयोग करके .NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का कुशलतापूर्वक पता कैसे लगाया जाए। डेवलपर्स के लिए एक सरल गाइड।"
+"linktitle": ".NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का पता लगाएं"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": ".NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का पता लगाएं"
+"url": "/hi/net/security-and-encryption/detect-file-format-of-encrypted-files/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET में एन्क्रिप्टेड फ़ाइलों के फ़ाइल स्वरूप का पता लगाएं
@@ -18,8 +20,8 @@ url: /hi/net/security-and-encryption/detect-file-format-of-encrypted-files/
 ## आवश्यक शर्तें
 आरंभ करने से पहले, आपके पास कुछ पूर्व-आवश्यकताएं होनी चाहिए:
 1. विज़ुअल स्टूडियो स्थापित: सुनिश्चित करें कि आपके पास विज़ुअल स्टूडियो या कोई अन्य .NET विकास वातावरण स्थापित है।
-2. .NET फ्रेमवर्क: सुनिश्चित करें कि आप एक संगत .NET फ्रेमवर्क (कम से कम .NET Core या .NET फ्रेमवर्क) को लक्ष्य कर रहे हैं।
-3. .NET के लिए Aspose.Cells: Aspose.Cells लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+2. .NET फ्रेमवर्क: सुनिश्चित करें कि आप एक संगत .NET फ्रेमवर्क (कम से कम .NET Core या .NET फ्रेमवर्क) को लक्षित कर रहे हैं।
+3. .NET के लिए Aspose.Cells: Aspose.Cells लाइब्रेरी डाउनलोड करें और इंस्टॉल करें। आप डाउनलोड लिंक पा सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 4. C# की बुनियादी समझ: C# प्रोग्रामिंग की बुनियादी समझ इस प्रक्रिया को आसान बना देगी।
 अब जबकि हमने आधारभूत कार्य पूरा कर लिया है, तो आइए कोड के साथ आरंभ करने के लिए आवश्यक पैकेजों को आयात करें।
 ## पैकेज आयात करें
@@ -39,10 +41,10 @@ using System;
 // स्रोत निर्देशिका
 string sourceDir = "Your Document Directory";
 ```
- प्रतिस्थापित करें`"Your Document Directory"`आपके कंप्यूटर पर उस निर्देशिका का वास्तविक पथ जहां आपकी एन्क्रिप्टेड फ़ाइल स्थित है।
+प्रतिस्थापित करें `"Your Document Directory"` आपके कंप्यूटर पर उस निर्देशिका का वास्तविक पथ जहां आपकी एन्क्रिप्टेड फ़ाइल स्थित है।
 ## चरण 2: अपनी एन्क्रिप्टेड फ़ाइल तैयार करें
 
- इस चरण में, सुनिश्चित करें कि आपके पास अपनी निर्दिष्ट निर्देशिका में एक एन्क्रिप्टेड एक्सेल फ़ाइल उपलब्ध है। यहाँ, हम मान लेंगे कि फ़ाइल का नाम है`encryptedBook1.out.tmp`.
+इस चरण में, सुनिश्चित करें कि आपके पास अपनी निर्दिष्ट निर्देशिका में एक एन्क्रिप्टेड एक्सेल फ़ाइल उपलब्ध है। यहाँ, हम मान लेंगे कि फ़ाइल का नाम है `encryptedBook1.out.tmp`.
 
 ```csharp
 var filename = sourceDir + "encryptedBook1.out.tmp";
@@ -56,7 +58,7 @@ Stream stream = File.Open(filename, FileMode.Open);
 ```
 ## चरण 4: फ़ाइल प्रारूप का पता लगाएं
 
- अब आता है जादू का हिस्सा!`FileFormatUtil.DetectFileFormat` विधि आपको फ़ाइल प्रारूप की जांच करने की अनुमति देती है। यदि फ़ाइल एन्क्रिप्टेड है, तो विधि को पासवर्ड की भी आवश्यकता होती है, इसलिए इसे सही ढंग से इनपुट करना सुनिश्चित करें।
+अब आता है जादू का हिस्सा! `FileFormatUtil.DetectFileFormat` विधि आपको फ़ाइल प्रारूप की जांच करने की अनुमति देती है। यदि फ़ाइल एन्क्रिप्टेड है, तो विधि को पासवर्ड की भी आवश्यकता होती है, इसलिए इसे सही ढंग से इनपुट करना सुनिश्चित करें।
 
 ```csharp
 FileFormatInfo fileFormatInfo = FileFormatUtil.DetectFileFormat(stream, "1234"); // पासवर्ड 1234 है
@@ -79,12 +81,14 @@ Console.WriteLine("File Format: " + fileFormatInfo.FileFormatType);
 ### अगर मैं अपना पासवर्ड भूल जाऊं तो?
 दुर्भाग्यवश, आप पासवर्ड के बिना फ़ाइल प्रारूप तक नहीं पहुंच पाएंगे।
 ### क्या मैं Aspose.Cells का निःशुल्क परीक्षण डाउनलोड कर सकता हूँ?
- हां, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं अधिक विस्तृत दस्तावेज कहां पा सकता हूं?
- आप Aspose.Cells पर व्यापक दस्तावेज़ीकरण देख सकते हैं[यहाँ](https://reference.aspose.com/cells/net/).
+आप Aspose.Cells पर व्यापक दस्तावेज़ीकरण देख सकते हैं [यहाँ](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

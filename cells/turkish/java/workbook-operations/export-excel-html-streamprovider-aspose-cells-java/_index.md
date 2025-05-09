@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ The `IStreamProvider` arayüz, dışa aktarma işlemi sırasında akışları y�
    }
    ```
 
-2. **Akış Sağlayıcısını Çalışma Kitabıyla Entegre Etme**
+2. **Akış Sağlayıcısını Çalışma Kitabıyla Entegre Et**
 
    ```java
    import com.aspose.cells.Workbook;
@@ -201,6 +203,9 @@ Aspose.Cells özelliklerini daha fazla keşfetmek için daha gelişmiş işlevle
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

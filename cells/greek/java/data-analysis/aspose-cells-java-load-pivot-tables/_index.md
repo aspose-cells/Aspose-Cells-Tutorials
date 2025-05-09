@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ A1: Για μεγάλα αρχεία, εξετάστε το ενδεχόμενο
 A2: Ναι, το Aspose.Cells μπορεί να ενσωματωθεί σε εφαρμογές που φιλοξενούνται σε διάφορες πλατφόρμες cloud.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

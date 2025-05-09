@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Dominando a criação e o estilo de pastas de trabalho do Excel com Aspose.Cells para Java
 No mundo atual, movido a dados, gerenciar planilhas com eficiência é crucial. Se você busca automatizar ou aprimorar suas tarefas do Excel usando Java, o "Aspose.Cells para Java" oferece um kit de ferramentas poderoso. Este tutorial guiará você na criação e estilização de pastas de trabalho do Excel, adicionando e configurando caixas de texto com estilos de WordArt predefinidos.
 
-## que você aprenderá
+## O que você aprenderá
 - Crie uma nova pasta de trabalho do Excel usando Aspose.Cells para Java
 - Adicionar e configurar uma caixa de texto em uma planilha do Excel
 - Aplique o estilo predefinido do WordArt para aprimorar sua apresentação de texto
@@ -168,6 +170,9 @@ Para explorar mais, considere integrar essas técnicas em aplicativos maiores ou
 - **Apoiar**: [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

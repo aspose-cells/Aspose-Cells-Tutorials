@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ Fedezze fel az Aspose.Cells által kínált további funkciókat, vagy integrál
 Kezdj neki az Aspose.Cells segítségével az Excel függvények teljes erejének kiaknázásának útján Java nyelven. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gegevensvalidatieregels
@@ -42,9 +44,11 @@ Leer gegevensvalidatie in Excel met Aspose.Cells voor Java. Implementeer regels,
 Leer hoe u voorwaardelijke gegevensvalidatie implementeert met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor nauwkeurige gegevensverwerking in Excel-spreadsheets.
 ### [Invoerbericht bij gegevensvalidatie](./input-message-in-data-validation/)
 Leer hoe u de gegevensvalidatie in Excel kunt verbeteren met Aspose.Cells voor Java. Stapsgewijze handleiding met codevoorbeelden om de nauwkeurigheid van de gegevens en de gebruikersondersteuning te verbeteren.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Bằng cách triển khai các tính năng được đề cập trong hướng d
 - **Dùng thử miễn phí và Giấy phép tạm thời:** Bắt đầu với bản dùng thử miễn phí hoặc lấy giấy phép tạm thời tại [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/) Và [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

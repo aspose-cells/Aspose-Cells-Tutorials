@@ -1,40 +1,45 @@
 ---
-title: إنشاء وتخزين ملفات Excel باستخدام Aspose.Cells ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء ملف Excel الجديد، وإضافة ورقة عمل، وإدخال صورة باستخدام Aspose.Cells ل .NET في هذا المثال خطوة بخطوة.
-keywords: [Aspose.Cells, .NET, Excel file, create Excel, add worksheet, insert image, save Excel]
-url: /ar/net/drawing-objects/adding-pictures/
+"description": "تعلم كيفية إنشاء ملف Excel جديد وإضافة ورقة عمل وإدراج صورة باستخدام Aspose.Cells لـ .NET في هذا المثال خطوة بخطوة."
+"title": "إنشاء ملفات Excel وحفظها باستخدام Aspose.Cells لـ .NET"
+"url": "/ar/net/drawing-objects/adding-pictures/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء وتخزين ملفات Excel باستخدام Aspose.Cells
-هذه الدروسة تظهر كيفية استخدام Aspose.Cells ل .NET لإنشاء ملف Excel الجديد بشكل برنامجي. سوف تتعلم كيفية التحقق من وجود دليل، وتحقيق كائن كتاب العمل، وإضافة ورقة عمل، وإدخال صورة في خلية معينة، وتحفظ الملف إلى المسار المرغوب فيه. اتبع اقتباسات الشفرة البسيطة المقدمة للبدء في تعزيز مهام التلقائية الخاصة بك.
+# إنشاء ملفات Excel وحفظها باستخدام Aspose.Cells
+يوضح هذا البرنامج التعليمي كيفية استخدام Aspose.Cells لـ .NET لإنشاء ملف Excel جديد برمجيًا. ستتعلم كيفية التحقق من وجود دليل، وإنشاء مثيل لكائن مصنف، وإضافة ورقة عمل، وإدراج صورة في خلية محددة، وحفظ الملف في المسار المطلوب. اتبع التعليمات البرمجية البسيطة المرفقة للبدء في تحسين مهام أتمتة Excel.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/adding-pictures" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت
-1. قم بتثبيت Aspose.Cells: تأكد من أن لديك مكتبة Aspose.Cells مثبتة. يمكنك القيام بذلك باستخدام مدير الحزمة NuGet عن طريق تشغيل:
+1. تثبيت Aspose.Cells: تأكد من تثبيت مكتبة Aspose.Cells. يمكنك القيام بذلك باستخدام مدير الحزم NuGet بتشغيل:
    ```
    Install-Package Aspose.Cells
    ```
-2. إعداد بيئتك: قم بإنشاء دليل على جهازك حيث تريد تخزين ملفات Excel المولدة. استبدل `"مؤشر الوثائق الخاصة بك"`في المثال مع مسار المجلد الفعلي الخاص بك.
-3. تنفيذ الرمز: نسخ الرمز المقدم في برنامج .NET الخاص بك. تأكد من تحديث مسار الصورة (`البياناتDir + "logo.jpg"`) للإشارة إلى صورة موجودة تريد إدراجها في ملف Excel.
-4. تشغيل التطبيق: تشغيل التطبيق الخاص بك. سيتم إنشاء الشفرة ملف إكسيل الجديد المسمى `output.xls`في الإرشاد المحدد، مع صورة وضعت في الخلية "F6".
+2. إعداد بيئتك: أنشئ دليلاً على جهازك لتخزين ملفات Excel المُولّدة. استبدل `"Your Document Directory"` في المثال مع مسار الدليل الفعلي الخاص بك.
+3. نفّذ الكود: انسخ الكود المُقدّم إلى تطبيق .NET. تأكد من تحديث مسار الصورة (`dataDir + "logo.jpg"`) للإشارة إلى صورة موجودة تريد إدراجها في ملف Excel.
+4. تشغيل التطبيق: شغّل تطبيقك. سيُنشئ الكود ملف إكسل جديدًا باسم `output.xls` في الدليل المحدد، مع وضع الصورة في الخلية "F6".
 
-## انظر أيضاً
-للحصول على تجربة مجانية، زيارة [تَوَجُّبُ الْمُحَاكَمَةَ المُجانيةَ](https://releases.aspose.com/). . .  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا
+للحصول على تجربة مجانية، قم بزيارة [نسخة تجريبية مجانية من Aspose](https://releases.aspose.com/).  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

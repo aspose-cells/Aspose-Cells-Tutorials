@@ -8,7 +8,9 @@ url: /net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Comments to Cells or Shapes in Excel
@@ -116,6 +118,7 @@ A temporary license can be obtained from the [Aspose license page](https://purch
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

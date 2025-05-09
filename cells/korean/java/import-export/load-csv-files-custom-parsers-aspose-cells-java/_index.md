@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ CSV 파일을 Java 애플리케이션에 로드하는 것은 특히 날짜와 �
 ### 지식 전제 조건
 
 - Java 프로그래밍에 대한 기본적인 이해.
-- CSV 파일 구조와 일반적인 구문 분석 문제에 대한 지식이 있습니다.
+- CSV 파일 구조와 일반적인 구문 분석 문제에 대한 지식이 필요합니다.
 
 ## Java용 Aspose.Cells 설정
 
@@ -243,6 +245,9 @@ Aspose.Cells가 제공하는 기능을 계속 알아보려면 데이터 조작, 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

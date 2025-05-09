@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hướng dẫn sử dụng hàm ngày tháng trong Excel
@@ -170,7 +172,7 @@ Có, bạn có thể thực hiện các phép tính ngày nâng cao với Aspose
 
 Aspose.Cells for Java phù hợp cho cả xử lý ngày tháng quy mô nhỏ và quy mô lớn. Nó cung cấp hiệu suất và độ tin cậy cao, khiến nó trở thành lựa chọn tuyệt vời để xử lý dữ liệu liên quan đến ngày tháng trong nhiều ứng dụng khác nhau.
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
+### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
 
 Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
 
@@ -181,6 +183,7 @@ Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,6 +170,9 @@ Hãy thử triển khai tính năng trích xuất này ngay hôm nay và nâng c
 Khám phá các tài nguyên này để hiểu sâu hơn và tối đa hóa tiềm năng của Aspose.Cells for Java trong các dự án của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

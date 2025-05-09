@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,10 +216,13 @@ Opanowując korzystanie z Aspose.Cells dla Javy, możesz znacznie ulepszyć mani
 **P: W jaki sposób mogę wydajnie obsługiwać duże pliki Excela za pomocą Aspose.Cells?**
 A: Załaduj tylko niezbędne arkusze kalkulacyjne lub skorzystaj z interfejsów API przesyłania strumieniowego w celu przyrostowego przetwarzania dużych zbiorów danych.
 
-**P: Jakie są najczęstsze pułapki występujące przy konfigurowaniu tabel przestawnych w języku Java przy użyciu Aspose.Cells?
+**P: Jakie są najczęstsze pułapki przy konfigurowaniu tabel przestawnych w Javie przy użyciu Aspose.Cells?
 A:** Upewnij się, że indeksy i pozycje są ustawione poprawnie, aby uniknąć błędów obliczeniowych. Zawsze testuj konfiguracje za pomocą danych przykładowych przed zastosowaniem ich w skoroszytach produkcyjnych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

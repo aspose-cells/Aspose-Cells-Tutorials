@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ A5: Ναι, επαναλαμβάνω έναν κατάλογο αρχείων Ex
 Κάντε το επόμενο βήμα στην εκμάθηση του Aspose.Cells για Java και αξιοποιήστε πλήρως τις δυνατότητές του για να βελτιώσετε τα έργα παρουσίασης δεδομένων σας!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

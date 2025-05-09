@@ -8,7 +8,9 @@ url: /java/excel-import-export/export-excel-to-html-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Excel to HTML Java
@@ -84,6 +86,7 @@ For more advanced features and customization options, refer to the Aspose.Cells 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

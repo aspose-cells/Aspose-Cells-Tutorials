@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-arc-control-with-connection-points/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Arc Control with Connection Points
@@ -117,6 +119,7 @@ Absolutely! You can access the [Aspose support forum](https://forum.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

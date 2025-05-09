@@ -1,14 +1,16 @@
 ---
-title: Cập nhật mục công thức Power Query
-linktitle: Cập nhật mục công thức Power Query
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Dễ dàng cập nhật các mục công thức Power Query trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để hợp lý hóa quy trình thao tác dữ liệu của bạn.
-weight: 160
-url: /vi/net/excel-workbook/update-power-query-formula-item/
+"description": "Dễ dàng cập nhật các mục công thức Power Query trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để hợp lý hóa quy trình thao tác dữ liệu của bạn."
+"linktitle": "Cập nhật mục công thức Power Query"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Cập nhật mục công thức Power Query"
+"url": "/vi/net/excel-workbook/update-power-query-formula-item/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cập nhật mục công thức Power Query
@@ -22,7 +24,7 @@ Nếu bạn đã từng làm việc với Excel, bạn sẽ biết nó mạnh m�
 Trước khi bắt đầu viết mã, bạn cần thiết lập một số thứ sau:
 
 1. Visual Studio: Bạn sẽ cần một môi trường phát triển tích hợp (IDE) để viết và chạy mã .NET của mình. Visual Studio là lựa chọn phù hợp.
-2.  Thư viện Aspose.Cells: Đảm bảo bạn có thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Đảm bảo bạn có thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Mặc dù chúng ta sẽ cùng nhau tìm hiểu, nhưng việc có một số hiểu biết cơ bản về C# chắc chắn sẽ hữu ích, đặc biệt là khi điều hướng qua các lớp và phương thức khác nhau.
 4. Tệp Excel mẫu: Bạn sẽ cần các tệp Excel được đề cập trong đoạn mã. Đảm bảo bạn có:
    - `SamplePowerQueryFormula.xlsx`
@@ -64,7 +66,7 @@ Bây giờ, hãy tải tệp Excel có chứa Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Các`Workbook` class là điểm vào của bạn vào tệp Excel. Bằng cách truyền đường dẫn đến tệp nguồn của chúng tôi, chúng tôi đang tạo một thể hiện cho phép chúng tôi thao tác nó. Bạn có thể tưởng tượng nó giống như việc mở một cuốn sách—bạn đang chuẩn bị đọc (hoặc chỉnh sửa) nội dung của nó.
+Các `Workbook` class là điểm vào của bạn vào tệp Excel. Bằng cách truyền đường dẫn đến tệp nguồn, chúng ta đang tạo một thể hiện cho phép chúng ta thao tác nó. Bạn có thể tưởng tượng nó giống như việc mở một cuốn sách—bạn đang chuẩn bị đọc (hoặc chỉnh sửa) nội dung của nó.
 
 ## Bước 3: Truy cập vào Data Mashup
 
@@ -73,7 +75,7 @@ Tiếp theo, chúng ta sẽ truy cập các công thức Power Query được l�
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- Các`DataMashup` lớp chứa tất cả các công thức Power Query liên quan đến sổ làm việc của bạn. Đây là nơi chúng ta sẽ thực hiện công việc nặng nhọc, giống như khi bạn mở hộp công cụ để sửa chữa.
+Các `DataMashup` lớp chứa tất cả các công thức Power Query liên quan đến sổ làm việc của bạn. Đây là nơi chúng ta sẽ thực hiện công việc nặng nhọc, giống như khi bạn mở hộp công cụ để sửa chữa.
 
 ## Bước 4: Lặp qua các công thức Power Query
 
@@ -92,8 +94,8 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 }
 ```
 
--  Chúng tôi lặp lại từng cái một`PowerQueryFormula` TRONG`mashupData`.
-- Trong vòng lặp đó, chúng ta đi sâu vào từng`PowerQueryFormulaItem`.
+- Chúng tôi lặp lại từng cái một `PowerQueryFormula` TRONG `mashupData`.
+- Trong vòng lặp đó, chúng ta đi sâu vào từng `PowerQueryFormulaItem`.
 - Chúng tôi kiểm tra xem tên mục có khớp với "Nguồn" hay không. Nếu khớp, chúng tôi sẽ cập nhật giá trị của mục đó để liên kết đến tệp nguồn mới.
 
 Điều này giống như việc tìm đúng trang trong sách hướng dẫn rồi thực hiện các cập nhật cần thiết—đây là một quá trình đơn giản và tỉ mỉ.
@@ -107,7 +109,7 @@ Sau khi thực hiện các cập nhật, đã đến lúc lưu lại những tha
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Các`Save` phương pháp ghi sổ làm việc đã cập nhật vào thư mục đầu ra đã chỉ định. Giống như niêm phong các chỉnh sửa của bạn trong phiên bản mới của hướng dẫn, sẵn sàng để người khác sử dụng!
+Các `Save` phương pháp ghi sổ làm việc đã cập nhật vào thư mục đầu ra đã chỉ định. Giống như niêm phong các chỉnh sửa của bạn trong phiên bản mới của hướng dẫn, sẵn sàng để người khác sử dụng!
 
 ## Phần kết luận
 
@@ -116,7 +118,7 @@ Xin chúc mừng! Bạn đã cập nhật thành công một mục công thức 
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện mạnh mẽ để thao tác các tệp Excel trong các ứng dụng .NET mà không cần cài đặt Microsoft Excel.
+Aspose.Cells là một thư viện mạnh mẽ để xử lý các tệp Excel trong các ứng dụng .NET mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có cần Microsoft Excel để chạy Aspose.Cells không?
 Không, Aspose.Cells cho phép bạn tạo và chỉnh sửa các tệp Excel theo chương trình mà không cần Excel trên máy chủ hoặc máy phát triển của bạn.
@@ -125,13 +127,15 @@ Không, Aspose.Cells cho phép bạn tạo và chỉnh sửa các tệp Excel th
 Bạn có thể làm việc với .xlsx, .xls, .xlsm và một số định dạng Excel khác bằng Aspose.Cells.
 
 ### Có phiên bản dùng thử nào cho Aspose.Cells không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang phát hành Aspose Cells](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ [Trang phát hành Aspose Cells](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi bạn có thể đặt câu hỏi và tìm câu trả lời từ cộng đồng và nhóm Aspose.
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi bạn có thể đặt câu hỏi và tìm câu trả lời từ cộng đồng và nhóm Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

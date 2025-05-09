@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: 必要なワークシートのみをロードするか、ストリーミン�
 答え:** 計算エラーを回避するため、正しいインデックスと位置が設定されていることを確認してください。本番環境のワークブックに適用する前に、必ずサンプルデータで設定をテストしてください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

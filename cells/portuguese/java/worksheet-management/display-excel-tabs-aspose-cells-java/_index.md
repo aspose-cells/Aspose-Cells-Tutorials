@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ A integração com outros sistemas pode agilizar a geração e o compartilhament
 
 ## Considerações de desempenho
 Ao trabalhar com arquivos grandes do Excel:
-- **Otimize o uso da memória**Use a API de streaming do Aspose.Cells para processar grandes conjuntos de dados com eficiência.
+- **Otimizar o uso da memória**Use a API de streaming do Aspose.Cells para processar grandes conjuntos de dados com eficiência.
 - **Gestão de Recursos**: Monitore regularmente o uso de memória do seu aplicativo para evitar vazamentos ou consumo excessivo.
 
 A adoção de práticas recomendadas no gerenciamento de memória Java garante que seus aplicativos permaneçam responsivos e eficientes.
@@ -146,6 +148,9 @@ Embarque em sua jornada para dominar a manipulação de guias do Excel com o Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

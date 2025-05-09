@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ wr.toImage("path/to/DocumentConversionProgressForTiff_out.tiff");
 
 透過本教程，您學習如何使用 **Aspose.Cells for Java**，專注於 TIFF 影像。透過利用進度回調，您可以有效地監控和控制轉換過程，使其適應各種業務需求。
 
-考慮探索 Aspose.Cells 的更多功能，例如資料操作或進階格式化選項，以便在您的專案中充分利用其功能。
+考慮探索 Aspose.Cells 的更多功能，例如資料操作或進階格式選項，以便在您的專案中充分利用其功能。
 
 ## 常見問題部分（H2）
 
@@ -181,6 +183,9 @@ A5：當然！它與大多數基於 Java 的系統相容，並且可以無縫整
 - **支援論壇**： [Aspose 支持社區](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

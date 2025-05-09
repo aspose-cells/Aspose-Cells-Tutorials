@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 ในบทความนี้ คุณจะได้เรียนรู้วิธีการ:
 - ตั้งค่า Aspose.Cells สำหรับ Java
 - ขยายกลไกการคำนวณสำหรับการทำงานแบบกำหนดเอง
-- นำไปปฏิบัติแก้ไข `SUM` การทำงาน
+- ปฏิบัติตามการแก้ไข `SUM` การทำงาน
 - นำความสามารถใหม่ของคุณไปใช้ในสถานการณ์โลกแห่งความเป็นจริง
 
 มาลองทำการปรับเปลี่ยนเหล่านี้อย่างง่ายดายด้วย Aspose.Cells Java กันดีกว่า!
@@ -139,6 +141,9 @@ license.setLicense("path/to/your/license/file");
 เริ่มทดลองใช้ Aspose.Cells สำหรับ Java วันนี้และปลดล็อกศักยภาพใหม่ๆ ในงานประมวลผลข้อมูลของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

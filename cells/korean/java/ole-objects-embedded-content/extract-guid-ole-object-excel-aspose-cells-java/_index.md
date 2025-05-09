@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ Aspose.Cells는 Java에서 Excel 파일 작업을 간소화하는 강력한 라�
 ```
 
 ### 그래들
-그것을 당신의에 포함 `build.gradle`:
+그것을 당신의에 포함시키세요 `build.gradle`:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -193,6 +195,9 @@ A5: 방문 [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 지역사�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

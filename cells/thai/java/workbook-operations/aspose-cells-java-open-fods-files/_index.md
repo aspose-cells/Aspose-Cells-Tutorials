@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 ก่อนที่คุณจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณได้ปฏิบัติตามข้อกำหนดต่อไปนี้:
 
 ### ไลบรารี เวอร์ชัน และการอ้างอิงที่จำเป็น
-- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
+- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
 - IDE ที่เข้ากันได้ (เช่น IntelliJ IDEA, Eclipse)
@@ -167,6 +169,9 @@ public class OpeningFODSFiles {
 - [สนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

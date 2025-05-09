@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Ja, Sie können Zellen über verschiedene Tabellen hinweg referenzieren, indem S
 Geben Sie das gewünschte Speicherformat (z. B. XLS oder XLSX) an, um die Kompatibilität mit verschiedenen Excel-Versionen sicherzustellen. Aspose.Cells unterstützt mehrere Formate.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

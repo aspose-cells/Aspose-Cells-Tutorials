@@ -8,7 +8,9 @@ url: /net/worksheet-operations/setting-image-preferences-for-html/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Image Preferences for HTML in .NET
@@ -161,6 +163,7 @@ For support, you can visit the [Aspose forum](https://forum.aspose.com/c/cells/9
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

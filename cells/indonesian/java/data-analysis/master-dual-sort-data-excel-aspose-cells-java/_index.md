@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Pengurutan Data Ganda yang Efisien di Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Bekerja dengan kumpulan data besar di Excel sering kali memerlukan pengurutan data berdasarkan beberapa kriteria secara efisien. Pengurutan manual bisa jadi merepotkan, terutama saat kumpulan data Anda bertambah rumit. **Aspose.Cells untuk Java** menawarkan kemampuan sortir yang hebat langsung dalam aplikasi Java. Tutorial ini membahas penerapan fungsi sortir ganda menggunakan Aspose.Cells untuk Java—fitur yang memungkinkan sortir multi-kunci tanpa hambatan.
 
-### Apa yang Akan Anda Pelajari
+### Amit tanulni fogsz
 - Inisialisasi dan konfigurasikan objek Buku Kerja dengan Aspose.Cells.
 - Siapkan kriteria penyortiran utama dan sekunder.
 - Terapkan pengurutan dalam rentang sel tertentu.
@@ -25,9 +27,9 @@ Bekerja dengan kumpulan data besar di Excel sering kali memerlukan pengurutan da
 
 Mari kita mulai dengan menguraikan prasyarat untuk tutorial ini.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum melanjutkan, pastikan Anda memiliki:
+Mielőtt folytatná, győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau yang lebih baru terinstal di sistem Anda.
 - **Aspose.Cells untuk Pustaka Java:** Diperlukan untuk melakukan operasi Excel di Java.
 - **Dukungan IDE:** IDE apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans dapat digunakan.
@@ -39,7 +41,7 @@ Selain itu, pemahaman dasar tentang pemrograman Java dan bekerja dengan alat pem
 Untuk menggunakan Aspose.Cells untuk Java, tambahkan pustaka ke proyek Anda:
 
 ### Pengaturan Maven
-Tambahkan dependensi berikut di `pom.xml` mengajukan:
+Tambahkan dependensi berikut di `pom.xml` fájl:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -49,15 +51,15 @@ Tambahkan dependensi berikut di `pom.xml` mengajukan:
 ```
 
 ### Pengaturan Gradle
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
-Dapatkan lisensi sementara gratis untuk menguji Aspose.Cells tanpa batasan evaluasi dengan mengunjungi [Halaman Pembelian Aspose](https://purchase.aspose.com/temporary-license/).
+### Licencszerzés
+Dapatkan lisensi sementara gratis untuk menguji Aspose.Cells tanpa batasan evaluasi dengan mengunjungi [Aspose vásárlási oldala](https://purchase.aspose.com/temporary-license/).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Berikut cara menginisialisasi Buku Kerja pertama Anda menggunakan Aspose.Cells di Java:
 ```java
 import com.aspose.cells.*;
@@ -68,12 +70,12 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 Sekarang, mari kita mulai penerapan fitur penyortiran ganda.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Inisialisasi Buku Kerja dan DataSorter
 Untuk mengurutkan data di Excel menggunakan Aspose.Cells untuk Java, mulailah dengan membuat `Workbook` objek dan mengaksesnya `DataSorter`.
 
-#### Langkah 1: Membuat Instansi Objek Buku Kerja
+#### 1. lépés: Munkafüzet-objektum példányosítása
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -84,7 +86,7 @@ Kode ini menginisialisasi buku kerja dari file Excel yang terletak di direktori 
 ```java
 DataSorter sorter = workbook.getDataSorter();
 ```
-Itu `DataSorter` Objek ini penting untuk menyiapkan parameter penyortiran dan menjalankan operasi penyortiran.
+A `DataSorter` Objek ini penting untuk menyiapkan parameter penyortiran dan menjalankan operasi penyortiran.
 
 ### Konfigurasikan Penyortiran Utama
 Tetapkan kunci pengurutan utama Anda untuk menentukan bagaimana data harus diurutkan terlebih dahulu.
@@ -107,7 +109,7 @@ Tambahkan kriteria penyortiran sekunder untuk kontrol yang lebih baik atas organ
 ```java
 sorter.setOrder2(SortOrder.ASCENDING);
 ```
-Itu `ASCENDING` mengurutkan kunci kedua dalam urutan menaik, melengkapi urutan utama.
+A `ASCENDING` mengurutkan kunci kedua dalam urutan menaik, melengkapi urutan utama.
 
 #### Langkah 2: Tentukan Indeks Kolom Kunci Kedua
 ```java
@@ -135,26 +137,26 @@ Kode ini mengurutkan area yang ditentukan dalam lembar kerja pertama buku kerja.
 ### Simpan Buku Kerja yang Diurutkan
 Terakhir, simpan kembali data yang telah Anda sortir ke dalam berkas Excel untuk mempertahankan perubahan.
 
-#### Langkah 1: Tentukan Direktori Output
+#### 1. lépés: Kimeneti könyvtár definiálása
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-#### Langkah 2: Simpan Buku Kerja
+#### 2. lépés: Munkafüzet mentése
 ```java
 workbook.save(outDir + "DataSorting_out.xls");
 ```
 Perintah ini menyimpan buku kerja yang dimodifikasi ke direktori keluaran yang Anda tentukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Fungsionalitas pengurutan ganda master dapat dimanfaatkan dalam berbagai skenario:
 1. **Analisis Data Keuangan:** Urutkan transaksi berdasarkan tanggal dan jumlah untuk wawasan yang lebih baik.
-2. **Manajemen Inventaris:** Atur produk berdasarkan kategori dan tingkat stok.
+2. **Készletgazdálkodás:** Atur produk berdasarkan kategori dan tingkat stok.
 3. **Manajemen Data Pelanggan:** Prioritaskan interaksi pelanggan berdasarkan wilayah dan metrik keterlibatan.
 
 Mengintegrasikan Aspose.Cells dengan aplikasi Java Anda dapat menyederhanakan tugas pemrosesan data, terutama saat menangani kumpulan data kompleks yang memerlukan penyortiran bertingkat.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells untuk pengurutan ganda:
 - Batasi ukuran kumpulan data dalam batasan memori.
 - Gunakan struktur data yang efisien untuk mengelola file Excel yang besar.
@@ -162,17 +164,17 @@ Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells untuk pengurutan 
 
 Mematuhi praktik ini akan membantu menjaga kelancaran operasi bahkan dengan kumpulan data yang cukup besar.
 
-## Kesimpulan
+## Következtetés
 Dalam panduan ini, kami mengeksplorasi cara mengimplementasikan fungsi pengurutan ganda utama di Excel menggunakan Aspose.Cells untuk Java. Dengan menyiapkan kunci pengurutan primer dan sekunder, Anda dapat mengatur kumpulan data kompleks secara efisien langsung dari aplikasi Java Anda. 
 
 Untuk eksplorasi lebih lanjut mengenai kemampuan Aspose.Cells, pertimbangkan untuk mempelajari dokumentasinya yang luas atau bereksperimen dengan fitur tambahan.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa cara terbaik untuk menangani file Excel yang sangat besar dengan Aspose.Cells untuk Java?**
    - Pertimbangkan untuk menggunakan API streaming untuk meminimalkan penggunaan memori.
 
 2. **Bisakah saya mengurutkan data dalam lembar kerja yang berbeda dalam buku kerja yang sama?**
-   - Ya, tentukan lembar kerja target saat memanggil `sort` metode.
+   - Ya, tentukan lembar kerja target saat memanggil `sort` módszer.
 
 3. **Bagaimana cara memecahkan masalah kesalahan penyortiran?**
    - Pastikan indeks sel dan definisi rentang Anda benar.
@@ -180,19 +182,22 @@ Untuk eksplorasi lebih lanjut mengenai kemampuan Aspose.Cells, pertimbangkan unt
 4. **Apakah Aspose.Cells kompatibel dengan kerangka kerja atau pustaka Java lainnya?**
    - Ia terintegrasi dengan baik dengan berbagai alat pembangun Java seperti Maven dan Gradle.
 
-5. **Apa saja pilihan lisensi untuk Aspose.Cells?**
+5. **Milyen licencelési lehetőségek vannak az Aspose.Cells-hez?**
    - Dapatkan lisensi sementara untuk menjelajahi fitur tanpa batasan, atau beli lisensi permanen untuk penggunaan jangka panjang.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Unduhan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licencek vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverziók letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

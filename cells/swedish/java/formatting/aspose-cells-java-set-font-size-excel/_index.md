@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Innan du går in i koden, se till att du har följande inställningar:
 ### Krav för miljöinstallation:
 - En IDE som IntelliJ IDEA eller Eclipse för att skriva och köra Java-kod.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Det är meriterande att du har goda kunskaper i Excel-filstrukturer men det är inte ett krav.
 
@@ -190,6 +192,9 @@ Redo att ta dina färdigheter till nästa nivå? Försök att implementera dessa
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

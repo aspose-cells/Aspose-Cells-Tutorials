@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### การขอใบอนุญาต
 
-เริ่มต้นด้วย **ทดลองใช้งานฟรี** ของ Aspose.Cells เพื่อสำรวจคุณลักษณะของมัน:
+เริ่มต้นด้วย **ทดลองใช้งานฟรี** ของ Aspose.Cells เพื่อสำรวจคุณสมบัติของมัน:
 - [ทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
 หากต้องการเข้าถึงแบบเต็มรูปแบบ โปรดพิจารณาซื้อใบอนุญาตหรือรับใบอนุญาตชั่วคราว:
 - [ซื้อ](https://purchase.aspose.com/buy)
@@ -180,6 +182,9 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 เริ่มต้นการเดินทางสู่การเรียนรู้วิธีปรับแต่งตัวแบ่งส่วน Excel ด้วย Aspose.Cells สำหรับ Java และยกระดับการนำเสนอข้อมูลของคุณสู่ระดับใหม่!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

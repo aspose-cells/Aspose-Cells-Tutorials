@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Podstawowa znajomość programowania w Javie i operacji w programie Excel będzi
 ## Konfigurowanie Aspose.Cells dla Java
 
 Aby rozpocząć, wykonaj następujące kroki, aby skonfigurować Aspose.Cells w swoim projekcie:
-1. **Zainstaluj bibliotekę:** Użyj Mavena lub Gradle, jak pokazano powyżej, aby dodać zależność biblioteki.
+1. **Zainstaluj bibliotekę:** Aby dodać zależność biblioteki, użyj Mavena lub Gradle, jak pokazano powyżej.
 2. **Nabycie licencji:**
    - Uzyskaj bezpłatną licencję próbną od [Strona internetowa Aspose](https://purchase.aspose.com/temporary-license/).
    - Kup pełną licencję, aby uzyskać nieograniczony dostęp.
@@ -171,6 +173,9 @@ Ten samouczek powinien pomóc Ci rozpocząć stylizację komórek Excela w Javie
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

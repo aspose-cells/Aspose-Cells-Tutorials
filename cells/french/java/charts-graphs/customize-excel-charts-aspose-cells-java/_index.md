@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,6 +183,9 @@ A5 : Enregistrez vos classeurs dans des formats compatibles avec les anciennes 
 N'hésitez pas à contacter le forum d'assistance si vous rencontrez des problèmes ou si vous avez besoin d'aide supplémentaire.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

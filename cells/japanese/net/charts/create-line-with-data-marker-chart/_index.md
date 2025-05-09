@@ -1,59 +1,64 @@
 ---
-title: .NET のAspose.Cellsでデータマークでラインチャートを作成する
-weight: 7700
-limit: 
-description: ワークブックを作成し, .NET のAspose.Cellsを使用してデータマークを持つラインチャートを生成する方法について学びましょう. コード例のステップバイ・ステップガイドに従ってください.
-keywords: [Aspose.Cells for .NET, create line chart, data markers, workbook, .NET Excel chart, C# chart example, Excel automation, Aspose.Cells tutorial]
-url: /ja/net/charts/create-line-with-data-marker-chart/
+"description": "Aspose.Cells for .NET を使用してワークブックを作成し、データマーカー付きの折れ線グラフを生成する方法を学びましょう。コード例付きのステップバイステップガイドをご覧ください。"
+"title": "Aspose.Cells for .NET でデータマーカー付きの折れ線グラフを作成する"
+"url": "/ja/net/charts/create-line-with-data-marker-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cellsでデータマークを用いたラインチャートを作成する
+# Aspose.Cells でデータマーカー付きの折れ線グラフを作成する
 
-このチュートリアルでは, .NET のAspose.Cellsを使用して Excel のワークブックにデータマークを備えたラインチャートを作成する方法を示します.ランダムなデータを生成し,ワークシートに挿入し,カスタマイズ可能なスタイルで視覚的に魅力的なチャートを構成する方法を学びます.ガイドは,ワークブックを設定するから最終ファイル保存するまでのすべてをカバーします. Excel のレポートを自動化したり,データビジュアライゼーションを向上させたりするかどうかにかかわらず,このステップバイ・ステップ例は,C# を使用してラインチャートを簡単に実装するのに役立ちます.  
+このチュートリアルでは、Aspose.Cells for .NET を使用して、Excel ブックにデータマーカー付きの折れ線グラフを作成する方法を説明します。ランダムデータを生成し、ワークシートに挿入し、カスタマイズ可能なスタイルで視覚的に魅力的なグラフを作成する方法を学習します。このガイドでは、ブックの設定から最終ファイルの保存まで、あらゆる手順を網羅しています。Excel レポートの自動化やデータ視覚化の強化など、このステップバイステップの例を参考にすれば、C# を使って簡単に折れ線グラフを実装できます。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示:  
+## インストール手順:  
 
-プロジェクトで .NET のAspose.Cellsを使用するには,次の手順を実行してください.  
+プロジェクトで Aspose.Cells for .NET を使用するには、次の手順に従います。  
 
-1. NuGet を介してインストールする  
-   Visual Studio で パッケージ管理コンソールを開いて:  
+1. NuGet 経由でインストール:  
+   Visual Studio でパッケージ マネージャー コンソールを開き、次を実行します。  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. ダウンロード DLL:  
-   ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする ダウンロードする[ダウンロードを目的とする](https://releases.aspose.com/cells/net/)やってくれ
+2. DLLをダウンロード:  
+   または、Aspose.Cells for .NETの最新バージョンを以下からダウンロードすることもできます。 [Aspose ダウンロード](https://releases。aspose.com/cells/net/).
 
-3. 参照を追加する  
-   参照を追加してください.`Aspose.Cells.dll`ネットワークプロジェクトに
+3. 参照を追加:  
+   DLLを手動でダウンロードした場合は、 `Aspose.Cells.dll` .NET プロジェクトで。
 
-4. 名前空間を入力する  
-   C#ファイルに追加する:  
+4. 名前空間を含める:  
+   C# ファイルに以下を追加します。  
    ```csharp
    using Aspose.Cells;
    using System;
    using System.Drawing;
    ```
 
-5. 例を実行する:  
-   プロジェクトに提供された C# コードをコピーしてペストし,出力ディレクトリを更新し,ラインチャートを持つ Excel ファイルを作成するための脚本を実行します.
+5. 例を実行します:  
+   提供されている C# コードをコピーしてプロジェクトに貼り付け、出力ディレクトリを更新し、スクリプトを実行して折れ線グラフを含む Excel ファイルを生成します。
 
-## また見てください
-試用無料は 訪問してください[無料 な 試行 を 目指す](https://releases.aspose.com/)やってくれ  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください
+無料トライアルについては、 [Aspose 無料トライアル](https://releases。aspose.com/).  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

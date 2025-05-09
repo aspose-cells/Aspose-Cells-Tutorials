@@ -8,7 +8,9 @@ url: /java/excel-data-security/auditing-file-access/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auditing File Access
@@ -137,6 +139,7 @@ You can extend the `ExcelFileManager` class to log other actions such as editing
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ public class MaxRowsColsXLSXFormat {
 A integração com outros sistemas, como bancos de dados, também pode ser simplificada ao entender essas limitações, facilitando a troca e o processamento de dados.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Gerencie recursos de forma eficiente ao lidar com arquivos grandes para evitar estouro de memória.
+- **Otimizar o uso da memória**: Gerencie recursos de forma eficiente ao lidar com arquivos grandes para evitar estouro de memória.
 - **Usar E/S com buffer**:Para ler ou gravar dados extensos, fluxos de entrada/saída armazenados em buffer ajudam a melhorar o desempenho.
 - **Gerencie os tópicos com sabedoria**Use multithreading para processamento paralelo, mas garanta a segurança do thread ao acessar recursos compartilhados.
 
@@ -186,6 +188,9 @@ Visite o site oficial [Documentação Aspose](https://reference.aspose.com/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

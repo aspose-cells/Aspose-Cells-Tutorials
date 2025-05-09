@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ public class FontSubstitutionHandler {
 ### Hibaelhárítási tippek
 
 - **Győződjön meg a megfelelő könyvtárverzióról:** Ellenőrizd, hogy az Aspose.Cells for Java 25.3-as vagy újabb verzióját használod-e a megadottak szerint.
-- **Fájlútvonalak ellenőrzése:** Győződjön meg arról, hogy az összes fájlútvonalat használja `Workbook` és `save()` a módszerek pontosak.
+- **Fájlútvonalak ellenőrzése:** Győződjön meg arról, hogy az összes fájlútvonalat használta `Workbook` és `save()` a módszerek pontosak.
 - **Konzol kimenet:** Győződjön meg róla, hogy a konzol látható, hogy a végrehajtás során figyelmeztető üzeneteket lehessen rögzíteni.
 
 ## Gyakorlati alkalmazások
@@ -167,10 +169,13 @@ A következő lépések magukban foglalhatják más figyelmeztetési típusok fe
 ## Erőforrás
 
 - **Dokumentáció:** Részletes API-referenciákat itt talál: [Aspose Cells dokumentáció](https://reference.aspose.com/cells/java/).
-- **Letöltési könyvtár:** Az Aspose.Cells legújabb verzióinak elérése innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
+- **Könyvtár letöltése:** Az Aspose.Cells legújabb verzióinak elérése innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
 - **Vásárlás és licencelés:** Szerezd meg a licencedet, vagy próbáld ki az ingyenes próbaverziót itt: [Aspose vásárlás](https://purchase.aspose.com/buy) vagy [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

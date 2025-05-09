@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Låt oss dyka in i de förutsättningar som krävs innan du optimerar dina Excel
 Innan du implementerar dessa funktioner, se till att du har följande:
 - **Java-utvecklingspaket (JDK):** Version 8 eller senare rekommenderas.
 - **Integrerad utvecklingsmiljö (IDE):** Såsom IntelliJ IDEA eller Eclipse.
-- **Maven eller Gradle:** För hantering av beroenden och projektbyggen.
+- **Maven eller Gradle:** För att hantera beroenden och projektbyggen.
 - **Grundläggande Java-kunskaper:** Förståelse för Javas syntax, klasser och metoder.
 
 ## Konfigurera Aspose.Cells för Java
@@ -207,6 +209,9 @@ Redo att ta kontroll över dina Excel-arbetsböcker? Börja implementera dessa l
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

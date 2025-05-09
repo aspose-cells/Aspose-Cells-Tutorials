@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ W tym samouczku przeprowadziliśmy Cię przez proces zmiany położenia wykresó
 - **Zakup i bezpłatna wersja próbna**:Rozpocznij okres próbny lub dokonaj zakupu za pośrednictwem [Strona internetowa Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

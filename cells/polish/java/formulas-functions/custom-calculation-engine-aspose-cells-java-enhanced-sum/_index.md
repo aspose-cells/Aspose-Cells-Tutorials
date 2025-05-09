@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ W tym samouczku przeprowadzimy Cię przez udoskonalanie funkcjonalności SUMY za
 - Zintegruj logikę dostosowaną do swoich operacji na arkuszach kalkulacyjnych.
 - Zastosuj najlepsze praktyki optymalizacji wydajności.
 
-Zacznijmy od skonfigurowania środowiska i upewnienia się, że mamy pod ręką wszystkie niezbędne narzędzia.
+Zacznijmy od skonfigurowania naszego środowiska i upewnienia się, że mamy pod ręką wszystkie niezbędne narzędzia.
 
 ### Wymagania wstępne
 
@@ -219,6 +221,9 @@ W kolejnym kroku rozważ zapoznanie się z bardziej zaawansowanymi funkcjami pak
 Teraz, gdy opanowałeś już implementację niestandardowego silnika obliczeniowego w Aspose.Cells Java, możesz sprawdzić swoje umiejętności i zacząć optymalizować arkusze kalkulacyjne w zupełnie nowy sposób!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 스프레드시트의 날짜 유효성 검사
@@ -65,7 +67,7 @@ for (int row = 0; row < worksheet.getCells().getMaxDataRow(); row++) {
 
         // 셀에 날짜가 포함되어 있는지 확인하세요
         if (cell.getType() == CellValueType.IS_DATE) {
-            // 여기에서 날짜 검증 논리를 수행하세요
+            // 여기에서 날짜 검증 논리를 수행하세요.
             Date date = cell.getDateValue();
 
             // 예: 날짜가 미래인지 확인하세요
@@ -117,6 +119,7 @@ Aspose 웹사이트에서 Aspose.Cells for Java 라이브러리를 다운로드�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

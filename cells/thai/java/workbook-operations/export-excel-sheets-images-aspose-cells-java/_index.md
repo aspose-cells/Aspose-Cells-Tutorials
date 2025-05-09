@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ ImageIO.write(img1, "jpg", new File(dataDir + "/GTOfWorksheet_out.jpg"));
 1. **ฉันจะเปลี่ยนรูปแบบภาพจาก JPEG เป็น PNG ได้อย่างไร?**
    - แก้ไข `setImageType(ImageType.PNG);` ในการกำหนดค่าตัวเลือกภาพ
 2. **ฉันสามารถส่งออกเวิร์กชีตหลายแผ่นเป็นรูปภาพแยกกันได้หรือไม่**
-   - ใช่ วนซ้ำผ่านแต่ละเวิร์กชีตโดยใช้ `getWorksheets().toArray()` และแสดงแต่ละอย่างแยกกัน
+   - ใช่ วนซ้ำผ่านแต่ละเวิร์กชีตโดยใช้ `getWorksheets().toArray()` และแสดงเป็นรายบุคคล
 3. **จะเกิดอะไรขึ้นหากรูปภาพที่ฉันส่งออกมีคุณภาพต่ำ?**
    - เพิ่มการตั้งค่าความละเอียดเพื่อความคมชัดที่ดีขึ้น
 4. **ฉันจะจัดการไฟล์ Excel ขนาดใหญ่อย่างมีประสิทธิภาพด้วย Aspose.Cells ได้อย่างไร**
@@ -151,6 +153,9 @@ ImageIO.write(img1, "jpg", new File(dataDir + "/GTOfWorksheet_out.jpg"));
 เจาะลึก Aspose.Cells และเริ่มส่งออกแผ่นงาน Excel ของคุณเป็นรูปภาพวันนี้!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

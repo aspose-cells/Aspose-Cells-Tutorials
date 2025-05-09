@@ -8,7 +8,9 @@ url: /net/worksheet-security/unprotect-protect-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unprotect Protect Sheet using Aspose.Cells
@@ -99,6 +101,7 @@ Yes, Aspose.Cells supports various Excel formats, including XLSX, XLS, and XLSM,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

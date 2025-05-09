@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### ประชากรเซลล์
 การเติมข้อมูลในเซลล์มีความจำเป็นสำหรับการสร้างรายงานหรือการประมวลผลข้อมูล:
 
-- **นำเข้า `Cells` คลาสและการเข้าถึงเซลล์ของแผ่นงาน:**
+- **นำเข้า `Cells` คลาสและการเข้าถึงเซลล์ของเวิร์กชีต:**
   
   ```java
   import com.aspose.cells.Cells;
@@ -229,6 +231,9 @@ implementation 'com.aspose:aspose-cells:25.3'
 เมื่อทำตามคำแนะนำนี้แล้ว คุณจะมีทักษะในการจัดการเวิร์กบุ๊ก Excel ด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ Java เครื่องมืออันทรงพลังนี้ช่วยลดขั้นตอนการทำงานที่ซับซ้อนและเพิ่มประสิทธิภาพในการจัดการไฟล์ Excel สำรวจคุณลักษณะต่างๆ ของเครื่องมือนี้ต่อไปเพื่อปรับปรุงเวิร์กโฟลว์การจัดการข้อมูลของคุณให้ดียิ่งขึ้น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: İçerik Türü Özellikleriyle Çalışma
-linktitle: İçerik Türü Özellikleriyle Çalışma
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin.
-weight: 180
-url: /tr/net/excel-workbook/working-with-content-type-properties/
+"description": "Gelişmiş Excel meta veri yönetimi için içerik türü özellikleriyle çalışmak üzere Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin. Bu basit adım adım kılavuzu izleyin."
+"linktitle": "İçerik Türü Özellikleriyle Çalışma"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "İçerik Türü Özellikleriyle Çalışma"
+"url": "/tr/net/excel-workbook/working-with-content-type-properties/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İçerik Türü Özellikleriyle Çalışma
@@ -22,7 +24,7 @@ url: /tr/net/excel-workbook/working-with-content-type-properties/
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte birkaç ön koşul:
 
 1. .NET Framework: Makinenizde .NET'in yüklü olduğundan emin olun. Aspose.Cells, .NET Standard veya .NET Core ile en iyi şekilde çalışır.
-2.  Aspose.Cells Kütüphanesi: En son sürümü şu adresten indirebilirsiniz:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/). NuGet üzerinden yükleyin veya projenize manuel olarak bir referans ekleyin.
+2. Aspose.Cells Kütüphanesi: En son sürümü şu adresten indirebilirsiniz: [Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/). NuGet üzerinden yükleyin veya projenize manuel olarak bir referans ekleyin.
 3. Visual Studio: Sağlam bir IDE hayatınızı kolaylaştıracaktır. Bilgisayarınızda kurulu olduğundan emin olun.
 4. Temel C# Bilgisi: Bu dilde kod parçacıkları yazacağımız için C# programlamaya aşinalık şarttır.
 5. Excel'i Anlamak: Excel ve bileşenleri hakkında temel bir anlayışa sahip olmak, burada yaptığımız şeyi anlamanıza yardımcı olacaktır.
@@ -40,7 +42,7 @@ Aspose.Cells işlevlerine kolay erişim sağlamak için bu yönergeleri C# dosya
 
 ## Adım 1: Çıktı Dizininizi Ayarlayın
 
-Öncelikle yeni Excel dosyamızı kaydedeceğimiz çıktı dizinini ayarlayalım. Bu projenizi düzenli tutmanıza yardımcı olacaktır.
+İlk olarak, yeni Excel dosyamızı kaydedeceğimiz çıktı dizinini ayarlayalım. Bu, projenizi düzenli tutmanıza yardımcı olacaktır.
 
 ```csharp
 string outputDir = "Your Document Directory";
@@ -48,7 +50,7 @@ string outputDir = "Your Document Directory";
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
- Artık çıktı dizinimiz olduğuna göre yeni bir çalışma kitabı oluşturalım.`Workbook` sınıf, Excel dosyalarıyla uğraşmanın başlangıç noktasıdır.
+Artık çıktı dizinimiz olduğuna göre yeni bir çalışma kitabı oluşturalım. `Workbook` sınıf, Excel dosyalarıyla uğraşmanın başlangıç noktasıdır.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -66,7 +68,7 @@ Bu satır XLSX biçiminde yeni bir çalışma kitabı başlatır. Başka biçiml
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Bu adımda, "Simple Data" değerine sahip "MK31" adlı bir özellik ekledik.`Add`metodu daha sonra kullanabileceğimiz yeni eklenen özelliğin indeksini döndürür.
+Bu adımda, "Simple Data" değerine sahip "MK31" adlı bir özellik ekledik. `Add` metodu daha sonra kullanabileceğimiz yeni eklenen özelliğin indeksini döndürür.
 
 ### Boş Özelliği Ayarla
 
@@ -74,7 +76,7 @@ int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 workbook.ContentTypeProperties[index].IsNillable = false;
 ```
 
- Burada, şunu ayarladık:`IsNillable` atfetmek`false`Bu alanın bir değere sahip olması gerektiğini belirtir.
+Burada, şunu ayarladık: `IsNillable` atfetmek `false`Bu alanın bir değere sahip olması gerektiğini belirtir.
 
 ### İkinci Bir İçerik Türü Özelliği Ekleyin
 
@@ -85,7 +87,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- Bu kod parçacığında, ISO 8601'e göre biçimlendirilmiş geçerli tarih ve saate sahip "MK32" adlı bir özellik oluşturuyoruz. Bu özelliği, şu şekilde ayarlayarak geçersiz kıldık:`IsNillable` ile`true`.
+Bu kod parçacığında, ISO 8601'e göre biçimlendirilmiş geçerli tarih ve saate sahip "MK32" adlı bir özellik oluşturuyoruz. Bu özelliği, şu şekilde ayarlayarak geçersiz kıldık: `IsNillable` ile `true`.
 
 ## Adım 4: Çalışma Kitabını Kaydedin
 
@@ -120,16 +122,18 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyaları oluşturmak, düze
 Evet! Aspose.Cells, XLS, XLSX, CSV ve diğerleri dahil olmak üzere çeşitli formatları destekler.
 
 ### Aspose.Cells'in ücretsiz deneme sürümünü nasıl edinebilirim?
- Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[alan](https://releases.aspose.com/).
+Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [alan](https://releases.aspose.com/).
 
 ### Daha karmaşık özellikler eklemenin bir yolu var mı?
 Kesinlikle! İçerik türü özelliklerine, düzgün bir şekilde serileştirilebildikleri sürece karmaşık nesneler ekleyebilirsiniz.
 
 ### Daha fazla dokümanı nerede bulabilirim?
-Daha ayrıntılı rehberlik için şuraya bakın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Daha ayrıntılı rehberlik için şuraya bakın: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: เข้าถึงช่วงที่ตั้งชื่อทั้งหมดใน Excel
-linktitle: เข้าถึงช่วงที่ตั้งชื่อทั้งหมดใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ปลดล็อกพลังของ Excel โดยการเข้าถึงช่วงที่มีชื่อด้วยคู่มือง่าย ๆ ของเราโดยใช้ Aspose.Cells สำหรับ .NET เหมาะอย่างยิ่งสำหรับการจัดการข้อมูล
-weight: 10
-url: /th/net/excel-working-with-named-ranges/access-all-named-ranges/
+"description": "ปลดล็อกพลังของ Excel โดยการเข้าถึงช่วงที่มีชื่อด้วยคู่มือง่าย ๆ ของเราโดยใช้ Aspose.Cells สำหรับ .NET เหมาะอย่างยิ่งสำหรับการจัดการข้อมูล"
+"linktitle": "เข้าถึงช่วงที่ตั้งชื่อทั้งหมดใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "เข้าถึงช่วงที่ตั้งชื่อทั้งหมดใน Excel"
+"url": "/th/net/excel-working-with-named-ranges/access-all-named-ranges/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เข้าถึงช่วงที่ตั้งชื่อทั้งหมดใน Excel
@@ -18,7 +20,7 @@ url: /th/net/excel-working-with-named-ranges/access-all-named-ranges/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบกันก่อนว่าคุณมีทุกอย่างที่จำเป็นในการปฏิบัติตาม นี่คือสิ่งที่คุณควรมี:
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว (เวอร์ชันล่าสุดใดๆ ก็ใช้ได้)
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องรวม Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องรวม Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: หากคุณคุ้นเคยกับ C# คุณจะอ่านบทช่วยสอนนี้ได้อย่างง่ายดาย
 ## แพ็คเกจนำเข้า
 ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นเพื่อให้สามารถเข้าถึงฟังก์ชันการทำงานของ Aspose.Cells ได้ โดยทำได้ดังนี้:
@@ -37,21 +39,21 @@ using Aspose.Cells;
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- แทนที่`"Your Document Directory"` ด้วยเส้นทางจริง นี่คือที่ที่ไฟล์ Excel ของคุณอยู่
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริง นี่คือที่ที่ไฟล์ Excel ของคุณอยู่
 ## ขั้นตอนที่ 2: เปิดไฟล์ Excel
 นี่คือจุดที่เวทมนตร์เกิดขึ้น! ตอนนี้เราจะเรียนรู้วิธีเปิดไฟล์ Excel เพื่อเข้าถึงช่วงที่ตั้งชื่อไว้
- เราจะใช้ประโยชน์จาก`Workbook` คลาสจาก Aspose.Cells เพื่อเปิดไฟล์ของเรา คุณสามารถทำได้ดังนี้:
+เราจะใช้ประโยชน์จาก `Workbook` คลาสจาก Aspose.Cells เพื่อเปิดไฟล์ของเรา คุณสามารถทำได้ดังนี้:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleAccessAllNamedRanges.xlsx");
 ```
-เส้นนี้สร้าง`Workbook` วัตถุที่ช่วยให้เราโต้ตอบกับไฟล์ Excel เป้าหมายของเรา`sampleAccessAllNamedRanges.xlsx`. 
+เส้นนี้สร้าง `Workbook` วัตถุที่ช่วยให้เราโต้ตอบกับไฟล์ Excel เป้าหมายของเรา `sampleAccessAllNamedRanges-xlsx`. 
 ## ขั้นตอนที่ 3: รับช่วงที่ตั้งชื่อทั้งหมด
 ตอนนี้เรามาถึงหัวใจของการดำเนินการ: การดึงช่วงที่ตั้งชื่อเหล่านั้น
- หากต้องการรับช่วงที่ตั้งชื่อทั้งหมดจากเวิร์กบุ๊กของคุณ คุณจะใช้`GetNamedRanges` วิธีการนี้ คุณสามารถทำได้ดังนี้:
+หากต้องการรับช่วงที่ตั้งชื่อทั้งหมดจากเวิร์กบุ๊กของคุณ คุณจะใช้ `GetNamedRanges` วิธีการนี้ คุณสามารถทำได้ดังนี้:
 ```csharp
 Range[] range = workbook.Worksheets.GetNamedRanges();
 ```
- บรรทัดนี้จะดึงช่วงที่ตั้งชื่อทั้งหมดในเวิร์กบุ๊กและจัดเก็บไว้ในอาร์เรย์ของ`Range` วัตถุ 
+บรรทัดนี้จะดึงช่วงที่ตั้งชื่อทั้งหมดในเวิร์กบุ๊กและจัดเก็บไว้ในอาร์เรย์ของ `Range` วัตถุ 
 ## ขั้นตอนที่ 4: นับช่วงที่ตั้งชื่อ
 การรู้ว่าคุณกำลังทำงานกับอะไรถือเป็นแนวทางที่ดีเสมอ มาดูกันว่าเราดึงช่วงที่ตั้งชื่อไว้ได้กี่ช่วง
 เราจะพิมพ์จำนวนรวมของช่วงที่ตั้งชื่อไปยังคอนโซล:
@@ -74,14 +76,16 @@ Console.WriteLine("AccessAllNamedRanges executed successfully.");
 ### ฉันสามารถปรับเปลี่ยนช่วงที่ตั้งชื่อโดยใช้ Aspose.Cells ได้หรือไม่
 ใช่ ผ่าน Aspose.Cells คุณสามารถสร้าง แก้ไข และลบช่วงที่ตั้งชื่อโดยโปรแกรมได้
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
- Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้งานเต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถตรวจสอบได้[การกำหนดราคา](https://purchase.aspose.com/buy).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้งานเต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถตรวจสอบได้ [การกำหนดราคา](https://purchase-aspose.com/buy).
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถเยี่ยมชม[เอกสารประกอบ Aspose](https://reference.aspose.com/cells/net/) เพื่อดูข้อมูลโดยละเอียดเพิ่มเติม
+คุณสามารถเยี่ยมชม [เอกสารประกอบ Aspose](https://reference.aspose.com/cells/net/) เพื่อดูข้อมูลโดยละเอียดเพิ่มเติม
 ### ฉันควรทำอย่างไรหากพบปัญหา?
- หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+หากคุณประสบปัญหาใดๆ คุณสามารถขอรับการสนับสนุนได้ที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 - IntelliJ IDEA, Eclipse veya NetBeans gibi uygun bir IDE.
 
 ### Bilgi Önkoşulları
-Java programlamanın temellerine dair bir anlayışa ve XML yapılandırmalarına aşinalığa sahip olmak faydalı olacaktır.
+Java programlamaya dair temel bir anlayışa ve XML yapılandırmalarına aşinalığa sahip olmak faydalı olacaktır.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -110,7 +112,7 @@ public class LoadExcelFile {
 }
 ```
 
-### Erişim ve Yapılandırma Çalışma Sayfası
+### Erişim ve Çalışma Sayfasını Yapılandır
 Dosya yüklendikten sonra, belirli çalışma sayfalarına erişin. Burada, işlemeyi optimize etmek için bir yazdırma alanı ayarladık.
 
 ```java
@@ -221,6 +223,9 @@ Becerilerinizi daha da ileri götürmeye hazır mısınız? Bu teknikleri gerçe
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

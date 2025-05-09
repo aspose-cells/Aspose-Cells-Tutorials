@@ -1,14 +1,16 @@
 ---
-title: Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells
-linktitle: Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Łatwo eksportuj zakresy komórek Excela do obrazów za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje raporty i prezentacje.
-weight: 14
-url: /pl/net/rendering-and-export/export-range-of-cells-to-image/
+"description": "Łatwo eksportuj zakresy komórek Excela do obrazów za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje raporty i prezentacje."
+"linktitle": "Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells"
+"url": "/pl/net/rendering-and-export/export-range-of-cells-to-image/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj zakres komórek do obrazu za pomocą Aspose.Cells
@@ -18,9 +20,9 @@ Podczas pracy z plikami Excela możliwość konwersji określonych zakresów kom
 ## Wymagania wstępne
 Zanim przejdziesz do samouczka, musisz spełnić kilka warunków wstępnych, aby mieć pewność, że wszystko jest skonfigurowane poprawnie:
 1. Visual Studio: Upewnij się, że w systemie jest zainstalowany program Visual Studio.
-2.  Aspose.Cells dla .NET: Pobierz tę bibliotekę ze strony[Strona Aspose](https://releases.aspose.com/cells/net/). Możesz również rozpocząć bezpłatny okres próbny, jeśli chcesz poznać jego możliwości przed podjęciem decyzji.
+2. Aspose.Cells dla .NET: Pobierz tę bibliotekę ze strony [Strona Aspose](https://releases.aspose.com/cells/net/). Możesz również rozpocząć bezpłatny okres próbny, jeśli chcesz poznać jego możliwości przed podjęciem decyzji.
 3. Podstawowa wiedza o języku C#: Znajomość języka C# i platformy .NET pomoże Ci lepiej zrozumieć kod.
-4.  Przykładowy plik Excela: W tym samouczku użyjemy pliku o nazwie`sampleExportRangeOfCellsInWorksheetToImage.xlsx`. Możesz utworzyć prosty plik Excela do celów testowych.
+4. Przykładowy plik programu Excel: W tym samouczku użyjemy pliku o nazwie `sampleExportRangeOfCellsInWorksheetToImage.xlsx`Możesz utworzyć prosty plik Excela do celów testowych.
 Teraz, gdy omówiliśmy już wszystkie wymagania wstępne, możemy przejść bezpośrednio do kodu!
 ## Importuj pakiety
 Na początek musimy zaimportować niezbędne przestrzenie nazw. Oto jak to zrobić:
@@ -42,28 +44,28 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` rzeczywistą ścieżką, gdzie znajdują się Twoje pliki. Może to być ścieżka na Twoim dysku lokalnym lub katalog sieciowy.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki. Może to być ścieżka na Twoim dysku lokalnym lub katalog sieciowy.
 ## Krok 2: Utwórz skoroszyt z pliku źródłowego
- Następnym krokiem jest utworzenie`Workbook` obiekt, który służy jako punkt wejścia do pliku Excel.
+Następnym krokiem jest utworzenie `Workbook` obiekt, który służy jako punkt wejścia do pliku Excel.
 ```csharp
 // Utwórz skoroszyt z pliku źródłowego.
 Workbook workbook = new Workbook(sourceDir + "sampleExportRangeOfCellsInWorksheetToImage.xlsx");
 ```
- Tutaj tworzymy nowy`Workbook` instancja, przekazując pełną ścieżkę pliku Excel, z którym chcesz pracować. Ten krok otwiera plik i przygotowuje go do manipulacji.
+Tutaj tworzymy nowy `Workbook` instancja, przekazując pełną ścieżkę pliku Excel, z którym chcesz pracować. Ten krok otwiera plik i przygotowuje go do manipulacji.
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Gdy już mamy skoroszyt, musimy uzyskać dostęp do arkusza zawierającego dane, które chcemy wyeksportować.
 ```csharp
 // Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Ten`Worksheets` kolekcja jest indeksowana od 0, co oznacza, że`Worksheets[0]` daje nam pierwszy arkusz. Możesz dostosować indeks, jeśli chcesz inny arkusz.
+Ten `Worksheets` kolekcja jest indeksowana od 0, co oznacza, że `Worksheets[0]` daje nam pierwszy arkusz. Możesz dostosować indeks, jeśli chcesz inny arkusz.
 ## Krok 4: Ustaw obszar wydruku
 Następnie musimy zdefiniować obszar, który chcemy wyeksportować jako obraz. Robimy to, ustawiając obszar wydruku na arkuszu kalkulacyjnym.
 ```csharp
 // Ustaw obszar wydruku zgodnie z żądanym zakresem
 worksheet.PageSetup.PrintArea = "D8:G16";
 ```
-tym przypadku określamy, że chcemy eksportować komórki z D8 do G16. Dostosuj te odwołania do komórek na podstawie danych, które chcesz przechwycić.
+W tym przypadku określamy, że chcemy eksportować komórki z D8 do G16. Dostosuj te odwołania do komórek na podstawie danych, które chcesz przechwycić.
 ## Krok 5: Skonfiguruj marginesy
 Upewnijmy się, że nasz eksportowany obraz nie ma żadnych niepotrzebnych odstępów. Ustawimy wszystkie marginesy na zero.
 ```csharp
@@ -92,7 +94,7 @@ A teraz zaczyna się ekscytująca część: faktyczne przekształcenie arkusza k
 SheetRender sr = new SheetRender(worksheet, options);
 sr.ToImage(0, outputDir + "outputExportRangeOfCellsInWorksheetToImage.jpg");
 ```
- Tworzymy`SheetRender` instancja i wywołanie`ToImage`aby wygenerować obraz z pierwszej strony określonego arkusza kalkulacyjnego. Obraz jest zapisywany w katalogu wyjściowym pod określoną nazwą pliku.
+Tworzymy `SheetRender` instancja i wywołanie `ToImage` aby wygenerować obraz z pierwszej strony określonego arkusza kalkulacyjnego. Obraz jest zapisywany w katalogu wyjściowym pod określoną nazwą pliku.
 ## Krok 8: Potwierdź wykonanie
 Na koniec, zawsze dobrze jest przekazać informację zwrotną po zakończeniu operacji, dlatego wypiszemy komunikat na konsoli.
 ```csharp
@@ -103,7 +105,7 @@ Ten krok jest kluczowy dla potwierdzenia powodzenia operacji, zwłaszcza gdy kod
 I oto masz — przewodnik krok po kroku, jak eksportować zakres komórek do obrazu za pomocą Aspose.Cells dla .NET! Ta potężna biblioteka pozwala na bezproblemową manipulację plikami Excela i pracę z nimi, a teraz wiesz, jak przechwytywać te ważne komórki jako obrazy. Niezależnie od tego, czy chodzi o raportowanie, prezentacje, czy po prostu udostępnianie określonych danych, ta metoda jest niezwykle przydatna i wydajna. 
 ## Najczęściej zadawane pytania
 ### Czy mogę zmienić format obrazu?
- Tak! Możesz ustawić`ImageType` właściwość umożliwiająca obsługę innych formatów, takich jak PNG lub BMP.
+Tak! Możesz ustawić `ImageType` właściwość umożliwiająca obsługę innych formatów, takich jak PNG lub BMP.
 ### Co zrobić, jeśli chcę wyeksportować wiele zakresów?
 Konieczne będzie powtórzenie kroków renderowania dla każdego zakresu, który chcesz wyeksportować.
 ### Czy istnieje ograniczenie rozmiaru zakresu, który mogę wyeksportować?
@@ -111,10 +113,12 @@ Chociaż Aspose.Cells jest dość solidny, ekstremalnie duże zakresy mogą mie�
 ### Czy mogę zautomatyzować ten proces?
 Oczywiście! Możesz zintegrować ten kod z większymi aplikacjami lub skryptami, aby zautomatyzować zadania w programie Excel.
 ### Gdzie mogę uzyskać dodatkową pomoc?
- Aby uzyskać dalszą pomoc, odwiedź stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Aby uzyskać dalszą pomoc, odwiedź stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 피벗 테이블 스타일 사용자 지정
@@ -71,7 +73,7 @@ Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정�
 
 ## 자주 묻는 질문
 
-### 피벗 테이블 데이터의 글꼴 크기를 사용자 정의할 수 있나요?
+### 피벗 테이블 데이터의 글꼴 크기를 사용자 지정할 수 있나요?
    네, 기본 설정에 따라 글꼴 크기 및 기타 서식 속성을 조정할 수 있습니다.
 
 ### 피벗 테이블에 미리 정의된 스타일을 사용할 수 있나요?
@@ -87,9 +89,11 @@ Aspose.Cells for Java API에서 피벗 테이블 스타일을 사용자 지정�
    API 설명서를 참조할 수 있습니다. [Java API 참조용 Aspose.Cells](https://reference.aspose.com/cells/java/) 자세한 내용은.
 
 이제 Aspose.Cells for Java에서 피벗 테이블 스타일을 만들고 사용자 지정하는 방법을 익혔습니다. 더 깊이 있게 살펴보고 데이터 프레젠테이션을 더욱 특별하게 만들어 보세요!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

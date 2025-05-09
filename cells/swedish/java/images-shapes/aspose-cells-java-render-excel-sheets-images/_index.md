@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Har du svårt att visualisera Excel-data effektivt? Att omvandla ark till bilder
 
 **Vad du kommer att lära dig:**
 - Initiera och iterera över kalkylblad i en arbetsbok.
-- Konfigurera bildutskriftsalternativ för optimal rendering.
+- Konfigurera alternativ för bildutskrift för optimal rendering.
 - Rendera arbetsblad till bilder med hjälp av Aspose.Cells.
 - Förstå praktiska tillämpningar och prestandaaspekter.
 
@@ -175,6 +177,9 @@ Genom att bemästra Aspose.Cells för Java kan du höja din datavisualiseringsf�
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

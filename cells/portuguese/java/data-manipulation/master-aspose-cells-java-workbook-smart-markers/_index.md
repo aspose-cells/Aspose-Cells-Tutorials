@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,6 +164,9 @@ Pronto para levar suas habilidades de gerenciamento do Excel para o próximo ní
 Explore estes recursos para aprofundar seu conhecimento e aprimorar suas tarefas de processamento no Excel usando o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/data-validation-rules/list-data-validation-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # List Data Validation in Excel
@@ -138,6 +140,7 @@ Yes, you can customize the error messages displayed when users enter invalid dat
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

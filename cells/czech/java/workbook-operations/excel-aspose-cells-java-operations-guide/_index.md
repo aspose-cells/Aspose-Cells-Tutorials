@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Naučili jste se, jak vytvářet, načítat, manipulovat a ukládat sešity apli
 Dodržováním tohoto návodu byste měli být dobře vybaveni k využití možností Aspose.Cells pro Javu ve vašich projektech souvisejících s Excelem. Přejeme vám šťastné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

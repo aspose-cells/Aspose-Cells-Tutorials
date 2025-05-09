@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Most már megtanultad, hogyan csatlakoztathatsz egy Java-alkalmazást egy Access
 Ez az átfogó útmutató felvértezi Önt az Aspose.Cells Java-ban való használatához szükséges tudással, az automatizálás révén egyszerűsítve az adatkezelési feladatait. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

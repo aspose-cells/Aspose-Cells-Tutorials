@@ -1,165 +1,169 @@
 ---
-title: Mengatur Preferensi Gambar untuk HTML di .NET
-linktitle: Mengatur Preferensi Gambar untuk HTML di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Manfaatkan kekuatan Aspose.Cells untuk .NET. Pelajari cara mengatur preferensi gambar untuk konversi HTML guna menyajikan data Excel Anda dengan indah di web.
-weight: 11
-url: /id/net/worksheet-operations/setting-image-preferences-for-html/
+"description": "Engedd szabadjára az Aspose.Cells for .NET erejét. Ismerd meg, hogyan állíthatod be a HTML-konvertálás képbeállításait, hogy Excel-adataid gyönyörűen jelenjenek meg a weben."
+"linktitle": "Képbeállítások megadása HTML-hez .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Képbeállítások megadása HTML-hez .NET-ben"
+"url": "/id/net/worksheet-operations/setting-image-preferences-for-html/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Preferensi Gambar untuk HTML di .NET
+# Képbeállítások megadása HTML-hez .NET-ben
 
-## Perkenalan
-Membuat halaman web yang menarik secara visual dari lembar kerja Excel dapat meningkatkan penyajian data daring Anda. Dengan Aspose.Cells untuk .NET, Anda tidak hanya dapat mengonversi lembar kerja menjadi HTML, tetapi juga menentukan berbagai pengaturan untuk mengoptimalkan gambar untuk web. Dalam panduan ini, kita akan membahas cara mengatur preferensi gambar saat mengonversi file Excel ke HTML. Siap untuk mencobanya? Mari kita mulai!
+## Bevezetés
+vizuálisan vonzó weboldalak Excel-táblázatokból történő létrehozása javíthatja az adatok online prezentációját. Az Aspose.Cells for .NET segítségével nemcsak táblázatokat konvertálhat HTML-be, hanem különféle beállításokat is megadhat a képek webes optimalizálásához. Ebben az útmutatóban megvizsgáljuk, hogyan adhatja meg a képbeállításokat egy Excel-fájl HTML-be konvertálásakor. Készen áll a belevágni? Kezdjük is!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita masuk ke kode, pastikan Anda memiliki yang berikut ini:
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy a következők megvannak:
 
-1. Visual Studio Terpasang: Anda memerlukan lingkungan pengembangan seperti Visual Studio untuk menjalankan dan menguji aplikasi .NET Anda.
-2.  Aspose.Cells untuk .NET: Unduh dan instal Aspose.Cells. Anda dapat mengunduh versi terbaru dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
-3. Pengetahuan dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami contoh-contoh dengan lebih baik.
-4. Contoh file Excel: Siapkan file Excel bernama "Book1.xlsx" untuk digunakan. Letakkan di folder tertentu yang akan Anda rujuk dalam kode Anda.
+1. Visual Studio telepítve: A .NET-alkalmazások futtatásához és teszteléséhez szüksége lesz egy fejlesztői környezetre, például a Visual Studio-ra.
+2. Aspose.Cells .NET-hez: Töltse le és telepítse az Aspose.Cells fájlt. A legújabb verziót innen szerezheti be: [Aspose weboldal](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a példákat.
+4. Egy minta Excel-fájl: Készítsen elő egy „Book1.xlsx” nevű Excel-fájlt a munkához. Helyezze el egy kijelölt mappában, amelyre a kódjában hivatkozni fog.
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk memanfaatkan kemampuan Aspose.Cells, Anda perlu menyertakan pustaka yang diperlukan dalam proyek Anda. Berikut cara melakukannya:
+Az Aspose.Cells képességeinek kihasználásához a szükséges könyvtárat bele kell foglalnod a projektedbe. Íme, hogyan teheted meg:
 
-### Buka Proyek Anda
+### Nyisd meg a projektedet
 
-Luncurkan Visual Studio dan buka proyek C# Anda yang ada (atau buat yang baru).
+Indítsd el a Visual Studio-t, és nyisd meg a meglévő C# projektedet (vagy hozz létre egy újat).
 
-### Tambahkan Referensi Aspose.Cells
+### Aspose.Cells hivatkozás hozzáadása
 
-1. Klik kanan pada proyek Anda di Solution Explorer.
-2. Pilih “Kelola Paket NuGet”.
-3. Cari “Aspose.Cells” dan instal paketnya.
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Keresd meg az „Aspose.Cells” csomagot, és telepítsd.
 
-### Sertakan Menggunakan Arahan
+### Using Directive (Használati irányelv beillesztése)
 
-Di bagian atas berkas kode C# Anda, sertakan namespace Aspose.Cells:
+A C# kódfájl tetején szerepeljen az Aspose.Cells névtér:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Sekarang Anda siap memanfaatkan fungsionalitas Aspose.Cells dalam proyek Anda!
+Most már készen állsz az Aspose.Cells funkcióinak használatára a projektedben!
 
-Mari kita uraikan proses pengaturan preferensi gambar saat mengekspor Excel ke HTML menggunakan Aspose.Cells.
+Nézzük meg a képbeállítások megadásának folyamatát, amikor Excelből HTML-be exportálunk az Aspose.Cells használatával.
 
-## Langkah 1: Tentukan Direktori Dokumen
+## 1. lépés: Adja meg a dokumentumkönyvtárat
 
-Pertama, Anda perlu mengatur jalur penyimpanan dokumen Anda. Hal ini penting untuk akses dan pengelolaan berkas.
+Először is be kell állítania a dokumentumok tárolási útvonalát. Ez kulcsfontosságú a fájlok eléréséhez és kezeléséhez.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya di mesin Anda.
+Mindenképpen cserélje ki `"Your Document Directory"` a gépeden lévő tényleges elérési úttal.
 
-## Langkah 2: Tentukan Jalur File
+## 2. lépés: A fájl elérési útjának meghatározása
 
-Berikutnya, tentukan jalur file untuk dokumen Excel yang ingin Anda konversi.
+Ezután adja meg a konvertálni kívánt Excel-dokumentum fájlelérési útját.
 
 ```csharp
 string filePath = dataDir + "Book1.xlsx";
 ```
 
-Di sini kita gabungkan jalur direktori dengan nama file untuk membentuk jalur file lengkap.
+Itt a könyvtár elérési útját a fájlnévvel összefűzzük, hogy egy teljes fájl elérési utat hozzunk létre.
 
-## Langkah 3: Muat Buku Kerja
+## 3. lépés: A munkafüzet betöltése
 
-Sekarang, saatnya memuat berkas Excel Anda ke dalam objek Workbook. Objek ini akan memungkinkan Anda berinteraksi dengan data dalam spreadsheet Anda.
+Most itt az ideje, hogy betöltsd az Excel-fájlt egy Workbook objektumba. Ez az objektum lehetővé teszi, hogy interakcióba lépj a táblázatodban lévő adatokkal.
 
 ```csharp
 Workbook book = new Workbook(filePath);
 ```
 
-Dengan baris ini, Aspose.Cells membaca berkas Excel Anda dan mempersiapkannya untuk manipulasi.
+Ezzel a sorral az Aspose.Cells beolvassa az Excel fájlodat, és előkészíti azt a feldolgozásra.
 
-## Langkah 4: Buat Instansi HtmlSaveOptions
+## 4. lépés: HtmlSaveOptions példány létrehozása
 
- Untuk menyesuaikan bagaimana konversi terjadi, Anda perlu membuat contoh`HtmlSaveOptions`Kelas ini memungkinkan Anda menentukan bagaimana Anda ingin data Excel Anda direpresentasikan dalam format HTML.
+A konverzió testreszabásához létre kell hoznia egy példányt a következőből: `HtmlSaveOptions`Ez az osztály lehetővé teszi annak meghatározását, hogy az Excel-adatok hogyan jelenjenek meg HTML formátumban.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 ```
 
- Dengan pengaturan`SaveFormat.Html`, Anda menunjukkan bahwa format keluaran Anda akan berupa HTML.
+Beállítással `SaveFormat.Html`, akkor azt jelezed, hogy a kimeneti formátum HTML lesz.
 
-## Langkah 5: Atur Format Gambar ke PNG
+## 5. lépés: Állítsa a képformátumot PNG-re
 
-Saat mengonversi gambar dalam spreadsheet Anda ke HTML, Anda dapat menentukan format gambar tersebut. Dalam contoh ini, kami akan mengaturnya ke PNG, yang merupakan format gambar yang banyak digunakan untuk tampilan berkualitas.
+Amikor a táblázatban lévő képeket HTML-be konvertálod, megadhatod a képek formátumát. Ebben a példában PNG-re állítjuk be, amely egy széles körben használt képformátum a minőségi megjelenítéshez.
 
 ```csharp
 saveOptions.ImageOptions.ImageType = Drawing.ImageType.Png;
 ```
 
-Memilih PNG memastikan Anda mempertahankan kualitas gambar selama konversi.
+PNG kiválasztása biztosítja a képminőség megőrzését a konvertálás során.
 
-## Langkah 6: Konfigurasikan Mode Smoothing
+## 6. lépés: Simítási mód konfigurálása
 
-Untuk menyempurnakan tampilan gambar, Anda dapat mengatur mode penghalusan. Penghalusan membantu mengurangi tepi bergerigi yang mungkin muncul pada gambar.
+A képek megjelenésének javítása érdekében beállíthatja a simítási módot. A simítás segít csökkenteni a képeken megjelenő szaggatott éleket.
 
 ```csharp
 saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
 ```
 
- Dengan memilih`SmoothingMode.AntiAlias`, Anda membuat gambar Anda terlihat lebih halus dan lebih profesional.
+Kiválasztásával `SmoothingMode.AntiAlias`, simábbá és professzionálisabbá teheted a képeidet.
 
-## Langkah 7: Optimalkan Rendering Teks
+## 7. lépés: Szövegmegjelenítés optimalizálása
 
-Rendering teks juga dapat dioptimalkan untuk pengalaman visual yang lebih baik. Atur petunjuk rendering teks ke AntiAlias untuk mendapatkan rendering teks yang lebih halus.
+A szövegmegjelenítés is optimalizálható a jobb vizuális élmény érdekében. Állítsa a szövegmegjelenítési tippet AntiAlias értékre a simább szövegmegjelenítés eléréséhez.
 
 ```csharp
 saveOptions.ImageOptions.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAlias;
 ```
 
-Perubahan kecil ini dapat meningkatkan keterbacaan teks dalam gambar Anda secara signifikan.
+Ez a kis módosítás jelentősen javíthatja a képeken található szöveg olvashatóságát.
 
-## Langkah 8: Simpan Buku Kerja sebagai HTML
+## 8. lépés: A munkafüzet mentése HTML formátumban
 
-Akhirnya, saatnya menyimpan buku kerja Anda sebagai file HTML menggunakan opsi yang telah Anda konfigurasikan. Langkah ini adalah tempat terjadinya konversi yang sebenarnya.
+Végül itt az ideje, hogy a munkafüzetet HTML-fájlként mentse a megadott beállításokkal. Ebben a lépésben történik meg a tényleges átalakítás.
 
 ```csharp
 book.Save(dataDir + "output.html", saveOptions);
 ```
 
- Di sini, file HTML baru akan disimpan di direktori yang sama dengan nama`output.html`.
+Itt az új HTML fájl ugyanabba a könyvtárba kerül mentésre, a következő névvel: `output.html`.
 
-## Kesimpulan
+## Következtetés
 
-Dengan mengikuti panduan langkah demi langkah ini, Anda telah mempelajari cara mengatur preferensi gambar untuk ekspor HTML menggunakan Aspose.Cells untuk .NET. Pendekatan ini tidak hanya membantu dalam menciptakan representasi data Excel yang menarik secara visual, tetapi juga mengoptimalkannya untuk penggunaan web. Baik Anda membuat laporan, dasbor, atau sekadar memvisualisasikan data, konfigurasi praktis ini dapat membuat perbedaan yang signifikan!
+Ezzel a lépésről lépésre haladó útmutatóval megtanultad, hogyan állíthatod be a képbeállításokat HTML exportáláshoz az Aspose.Cells for .NET használatával. Ez a megközelítés nemcsak az Excel-adatok vizuálisan vonzó ábrázolásában segít, hanem optimalizálja azokat webes használatra is. Akár jelentéseket, irányítópultokat hozol létre, vagy egyszerűen csak adatokat vizualizálsz, ezek a praktikus konfigurációk figyelemre méltó különbséget jelenthetnek!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells untuk .NET?
+### Mi az Aspose.Cells .NET-hez?
 
-Aspose.Cells untuk .NET adalah pustaka hebat yang dirancang untuk membuat, membaca, dan memanipulasi file Excel dalam aplikasi .NET.
+Az Aspose.Cells for .NET egy hatékony függvénytár, amelyet Excel-fájlok létrehozására, olvasására és kezelésére terveztek .NET-alkalmazásokban.
 
-### Bisakah saya menggunakan Aspose.Cells tanpa Visual Studio?
+### Használhatom az Aspose.Cells-t Visual Studio nélkül?
 
-Ya, Anda dapat menggunakan Aspose.Cells di IDE atau aplikasi konsol mana pun yang kompatibel dengan .NET, bukan hanya Visual Studio.
+Igen, az Aspose.Cells-t bármilyen .NET-kompatibilis IDE-ben vagy konzolalkalmazásban használhatod, nem csak a Visual Studio-ban.
 
-### Apakah ada versi uji coba yang tersedia?
+### Van elérhető próbaverzió?
 
- Tentu saja! Anda dapat mengunduh versi uji coba gratis Aspose.Cells dari[Situs web Aspose](https://releases.aspose.com/).
+Természetesen! Az Aspose.Cells ingyenes próbaverzióját letöltheted innen: [Aspose weboldal](https://releases.aspose.com/).
 
-### Format gambar apa yang dapat saya gunakan dengan Aspose.Cells?
+### Milyen képformátumokat használhatok az Aspose.Cells-szel?
 
-Aspose.Cells mendukung berbagai format gambar untuk ekspor, termasuk PNG, JPEG, dan BMP.
+Az Aspose.Cells több képformátumot támogat exportáláshoz, beleértve a PNG-t, JPEG-et és BMP-t.
 
-### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
 
- Untuk dukungan, Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) di mana komunitas dan tim dukungan dapat membantu Anda.
+Támogatásért látogassa meg a következőt: [Aspose fórum](https://forum.aspose.com/c/cells/9) ahol a közösség és a támogató csapatok segíthetnek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

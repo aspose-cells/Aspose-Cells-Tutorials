@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ A következő lépések magukban foglalhatják más funkciók, például a diagr
 Ez az útmutató segít abban, hogy teljes mértékben kihasználd az Aspose.Cells Java-ban rejlő lehetőségeket a PivotTables hatékony konfigurálásában. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

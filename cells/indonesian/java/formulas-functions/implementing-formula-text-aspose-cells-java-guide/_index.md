@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menerapkan FormulaText di Aspose.Cells untuk Java: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan mengekstrak dan menganalisis teks rumus dari sel Excel menggunakan Java? Dengan kekuatan Aspose.Cells, tugas ini menjadi mudah. Panduan ini akan memandu Anda dalam menerapkan `FormulaText` fungsi dalam Aspose.Cells untuk Java, yang memungkinkan pengambilan kembali representasi tekstual rumus secara lancar di dalam lembar kerja Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells dengan Java.
 - Menyiapkan Aspose.Cells untuk Java di lingkungan proyek Anda.
 - Aplikasi praktis dan kemungkinan integrasi.
@@ -25,9 +27,9 @@ Kesulitan mengekstrak dan menganalisis teks rumus dari sel Excel menggunakan Jav
 
 Mari kita mulai dengan meninjau prasyarat yang Anda perlukan sebelum memulai panduan ini.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum melanjutkan, pastikan Anda memiliki:
+Mielőtt folytatná, győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi terinstal di sistem Anda.
 - **IDE:** IDE Java apa pun seperti IntelliJ IDEA atau Eclipse untuk pengkodean dan pengujian.
 - **Maven atau Gradle:** Kemampuan menggunakan alat manajemen ketergantungan akan bermanfaat.
@@ -48,18 +50,18 @@ Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven, sert
 
 ### Pengaturan Gradle
 
-Bagi mereka yang menggunakan Gradle, tambahkan baris ini ke `build.gradle` mengajukan:
+Bagi mereka yang menggunakan Gradle, tambahkan baris ini ke `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis:** Anda dapat memulai dengan uji coba gratis [Di Sini](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Untuk penggunaan jangka panjang, dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Untuk membuka semua fitur, pertimbangkan untuk membeli lisensi penuh [Di Sini](https://purchase.aspose.com/buy).
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió:** Anda dapat memulai dengan uji coba gratis [itt](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Untuk penggunaan jangka panjang, dapatkan lisensi sementara [itt](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás:** Untuk membuka semua fitur, pertimbangkan untuk membeli lisensi penuh [itt](https://purchase.aspose.com/buy).
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 Untuk mulai menggunakan Aspose.Cells di aplikasi Java Anda:
 
 ```java
@@ -67,7 +69,7 @@ import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Buat contoh buku kerja baru
+        // Új munkafüzet-példány létrehozása
         Workbook workbook = new Workbook();
 
         // Cetak versi untuk memverifikasi pengaturan
@@ -76,16 +78,16 @@ public class InitializeAspose {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Mengekstrak Teks Rumus Menggunakan `FormulaText`
 
-#### Ringkasan
-Itu `FormulaText` Fungsi ini memungkinkan Anda mengambil teks rumus dalam sel Excel yang berguna untuk keperluan audit atau pencatatan.
+#### Áttekintés
+A `FormulaText` Fungsi ini memungkinkan Anda mengambil teks rumus dalam sel Excel yang berguna untuk keperluan audit atau pencatatan.
 
-#### Implementasi Langkah demi Langkah
-1. **Membuat Objek Buku Kerja**
-   Mulailah dengan membuat contoh baru dari `Workbook` kelas:
+#### Lépésről lépésre történő megvalósítás
+1. **Munkafüzet-objektum létrehozása**
+   Mulailah dengan membuat contoh baru dari `Workbook` osztály:
    
    ```java
    import com.aspose.cells.Workbook;
@@ -97,11 +99,11 @@ Itu `FormulaText` Fungsi ini memungkinkan Anda mengambil teks rumus dalam sel Ex
            Workbook workbook = new Workbook();
    ```
 
-2. **Akses Lembar Kerja Pertama**
+2. **Hozzáférés az első munkalaphoz**
    Akses lembar kerja pertama di buku kerja:
    
    ```java
-   // Dapatkan lembar kerja pertama
+   // Szerezd meg az első munkalapot
    Worksheet worksheet = workbook.getWorksheets().get(0);
    ```
 
@@ -115,7 +117,7 @@ Itu `FormulaText` Fungsi ini memungkinkan Anda mengambil teks rumus dalam sel Ex
    ```
 
 4. **Mengambil Teks Rumus Menggunakan `FormulaText`**
-   Gunakan `FormulaText` fungsi untuk mengekstrak dan menampilkan teks rumus di sel A2:
+   Használd a `FormulaText` fungsi untuk mengekstrak dan menampilkan teks rumus di sel A2:
    
    ```java
    // Ambil dan atur teks rumus di sel A2
@@ -131,36 +133,36 @@ Itu `FormulaText` Fungsi ini memungkinkan Anda mengambil teks rumus dalam sel Ex
    }
    ```
 
-### Penjelasan Parameter dan Metode
+### Paraméterek és módszerek magyarázata
 - **`setFormula(String formula)`**: Menetapkan rumus dalam sel yang ditentukan.
 - **`getStringValue()`**: Mengambil representasi string dari nilai sel, berguna untuk memverifikasi keluaran.
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 - Pastikan Aspose.Cells ditambahkan dengan benar ke dependensi proyek Anda.
 - Verifikasi bahwa versi JDK sesuai dengan persyaratan lingkungan Anda.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Pembuatan Jejak Audit:** Ekstrak dan catat rumus dari lembar kerja untuk keperluan audit.
-2. **Validasi Data:** Gunakan pengambilan teks rumus untuk memvalidasi perhitungan rumit di seluruh sel.
-3. **Integrasi dengan Alat Pelaporan:** Ekstrak rumus untuk mengintegrasikan data spreadsheet ke dalam laporan intelijen bisnis.
+2. **Adatellenőrzés:** Gunakan pengambilan teks rumus untuk memvalidasi perhitungan rumit di seluruh sel.
+3. **Integráció a jelentéskészítő eszközökkel:** Ekstrak rumus untuk mengintegrasikan data spreadsheet ke dalam laporan intelijen bisnis.
 
-## Pertimbangan Kinerja
-- **Manajemen Memori:** Pantau penggunaan memori secara berkala, terutama saat menangani kumpulan data besar, dengan mengoptimalkan struktur buku kerja Anda dan menggunakan tipe data yang efisien.
+## Teljesítménybeli szempontok
+- **Memóriakezelés:** Pantau penggunaan memori secara berkala, terutama saat menangani kumpulan data besar, dengan mengoptimalkan struktur buku kerja Anda dan menggunakan tipe data yang efisien.
 - **Efisiensi Perhitungan Rumus:** Hitung terlebih dahulu bagian statis rumus jika memungkinkan untuk mengurangi waktu pemrosesan.
 
-## Kesimpulan
+## Következtetés
 Dengan mengikuti panduan ini, Anda telah mempelajari cara memanfaatkan `FormulaText` fungsi dalam Aspose.Cells untuk Java untuk mengekstrak teks rumus dari sel Excel. Kemampuan ini membuka banyak peluang untuk mengotomatiskan dan meningkatkan tugas manajemen data.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan rumus yang lebih rumit.
 - Jelajahi kemungkinan integrasi dengan aplikasi bisnis lainnya.
 
 Siap untuk meningkatkan keterampilan otomatisasi spreadsheet Anda ke tingkat berikutnya? Mulailah menerapkan teknik ini dalam proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Bagaimana cara menangani file Excel besar secara efisien dengan Aspose.Cells?**
+1. **Hogyan kezelhetek nagyméretű Excel fájlokat hatékonyan az Aspose.Cells segítségével?**
    Optimalkan dengan hanya memuat lembar kerja yang diperlukan dan menggunakan struktur data yang hemat memori.
 
 2. **Bisakah saya menggunakan `FormulaText` untuk sel yang berisi rumus array?**
@@ -175,17 +177,20 @@ Siap untuk meningkatkan keterampilan otomatisasi spreadsheet Anda ke tingkat ber
 5. **Bagaimana cara memastikan kompatibilitas dengan versi Excel yang berbeda?**
    Aspose.Cells mendukung berbagai format Excel; verifikasi dukungan versi spesifik melalui dokumentasi.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan memanfaatkan Aspose.Cells dengan Java, Anda dapat mengelola dan memanipulasi file Excel secara efisien dalam aplikasi Anda. Jelajahi lebih banyak fungsi untuk memaksimalkan potensinya dalam proyek Anda!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

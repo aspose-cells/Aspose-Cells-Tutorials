@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@
 - ความเข้าใจพื้นฐานเกี่ยวกับเครื่องมือสร้าง Java และ Maven/Gradle
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 
-**ข้อกำหนดเบื้องต้นของความรู้:**
+**ข้อกำหนดความรู้เบื้องต้น:**
 - ความคุ้นเคยกับการจัดการไฟล์ใน Java
 - ทำความเข้าใจวัตถุ OLE ใน Excel
 
@@ -196,6 +198,9 @@ oleBook.save("YOUR_OUTPUT_DIRECTORY/object.xlsx");
 - [ฟอรั่มการสนับสนุนชุมชน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

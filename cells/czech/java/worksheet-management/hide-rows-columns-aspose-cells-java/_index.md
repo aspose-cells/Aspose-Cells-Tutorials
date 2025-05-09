@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Naučili jste se, jak používat Aspose.Cells v Javě ke skrytí konkrétních �
 Jste připraveni vylepšit správu souborů v Excelu? Implementujte tato řešení ve svých projektech ještě dnes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ for (int i = 0; i < series.getPoints().getCount(); i++) {
 - **NULL値**例外を回避するために、プロパティにアクセスする前に null 値をチェックします。
 - **ライセンスの問題**特に機能の制限に遭遇した場合は、Aspose.Cells ライセンスが正しく設定されていることを確認してください。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 1. **財務報告**Excel データから財務レポートを自動的に生成および分析します。
 2. **データの可視化**動的なレポート ダッシュボードのグラフをプログラムでカスタマイズします。
@@ -225,6 +227,9 @@ A5: コンソール出力で特定のエラー メッセージを確認し、す
 Aspose.Cells を使用して Excel チャート分析を習得し、Java プロジェクトを次のレベルに引き上げましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

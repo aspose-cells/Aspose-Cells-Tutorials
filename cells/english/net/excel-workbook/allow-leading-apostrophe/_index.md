@@ -8,7 +8,9 @@ url: /net/excel-workbook/allow-leading-apostrophe/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Allow Leading Apostrophe
@@ -164,6 +166,7 @@ You can buy a license for Aspose.Cells directly from their purchase page [here](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

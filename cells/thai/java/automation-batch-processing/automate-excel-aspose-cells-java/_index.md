@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ workbook.save(dataDir + "/FormatRanges2_out.xls");
 ลองนำคุณลักษณะเหล่านี้ไปใช้ในโปรเจ็กต์ Java ของคุณแล้วดูว่า Aspose.Cells สามารถปรับกระบวนการจัดการไฟล์ Excel ของคุณได้อย่างไร
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

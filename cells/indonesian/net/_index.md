@@ -1,69 +1,162 @@
 ---
-title: Aspose.Cells untuk Tutorial Visual .NET
-weight: 10
-limit:
-description: Pelajari Aspose.Cells untuk Tutorial Visual .NET. Pelajari mengelola file Excel di .NET dengan panduan langkah demi langkah yang mudah untuk pengembang dari semua tingkat.
-keywords:
-url: /id/net/
+"description": "Jelajahi Aspose.Cells untuk Tutorial Visual .NET. Pelajari cara mengelola file Excel dalam .NET dengan panduan langkah demi langkah yang mudah bagi pengembang di semua tingkatan."
+"title": "Tutorial Visual Aspose.Cells untuk .NET"
+"url": "/id/net/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Cells untuk Tutorial Visual .NET  
-Aspose.Cells untuk .NET Visual Tutorials menyediakan pengalaman belajar komprehensif, langkah demi langkah bagi pengembang yang ingin mengotomatisasi pemrosesan file Excel dalam aplikasi .NET. Tutorials ini mencakup berbagai macam tugas, mulai dari pembuatan spreadsheet dasar dan manipulasi data hingga fitur canggih seperti grafik, tabel pivot, dan perhitungan rumus. Setiap tutorial dirancang untuk menarik secara visual dan mudah diikuti, sehingga tugas otomatisasi Excel yang kompleks lebih mudah diakses bahkan bagi pengembang dengan pengalaman minimal.  
 
-Tutorial ini diatur dalam halaman yang terpasang, masing-masing berfokus pada fungsi khusus untuk merampingkan proses pembelajaran. Apakah Anda ingin mengimpor / mengekspor data, memformat sel secara dinamis, atau menghasilkan laporan profesional, panduan ini akan membimbing Anda melalui kode dan teknik yang diperlukan. Dengan mengikuti tutorial ini, Anda akan mendapatkan wawasan praktis dalam memaksimalkan kemampuan Aspose.Cells untuk .NET dan membangun solusi spreadsheet yang efisien dan kaya fitur dengan mudah.
+{{< blocks/products/pf/tutorial-page-section >}}
+# Tutorial Visual Aspose.Cells untuk .NET  
+Tutorial Visual Aspose.Cells untuk .NET menyediakan pengalaman belajar langkah demi langkah yang komprehensif bagi para pengembang yang ingin mengotomatiskan pemrosesan file Excel dalam aplikasi .NET. Tutorial ini mencakup berbagai macam tugas, mulai dari pembuatan spreadsheet dasar dan manipulasi data hingga fitur-fitur tingkat lanjut seperti bagan, tabel pivot, dan kalkulasi rumus. Setiap tutorial dirancang agar menarik secara visual dan mudah diikuti, sehingga tugas-tugas otomatisasi Excel yang rumit lebih mudah diakses bahkan oleh para pengembang dengan pengalaman minimal.  
+
+Tutorial disusun dalam beberapa halaman bertingkat, masing-masing berfokus pada fungsi tertentu untuk memperlancar proses pembelajaran. Baik Anda ingin mengimpor/mengekspor data, memformat sel secara dinamis, atau membuat laporan profesional, panduan ini akan memandu Anda melalui kode dan teknik yang diperlukan. Dengan mengikuti tutorial ini, Anda akan memperoleh wawasan praktis untuk memaksimalkan kemampuan Aspose.Cells untuk .NET dan membangun solusi spreadsheet yang efisien dan kaya fitur dengan mudah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Mengelola grafik dengan Aspose.Cells di .NET](./charts/)
-Pelajari cara membuat, menyesuaikan, dan mengelola grafik dalam aplikasi .NET menggunakan Aspose.Cells. Jelajahi berbagai jenis grafik dengan contoh yang mudah dan efisien.
+## [Menguasai Grafik dengan Aspose.Cells di .NET](./charts/)
+Pelajari cara membuat, menyesuaikan, dan mengelola bagan dalam aplikasi .NET menggunakan Aspose.Cells. Jelajahi berbagai jenis bagan dengan contoh yang mudah dan efisien.
 
-{{< tutorial-card link="./charts/applying-3d-format/" title="Buat dan Formatkan grafik 3D di Excel" imgSrc="/cells/net/charts/applying-3d-format/images/thumb.png" >}}
-{{< tutorial-card link="./charts/change-chart-size-and-position/" title="Mengubah Ukuran dan Pembagian Grafik di Excel" imgSrc="/cells/net/charts/change-chart-size-and-position/images/thumb.png" >}}
-{{< tutorial-card link="./charts/change-tick-label-direction/" title="Mengubah arah Tick Label Chart di Excel" imgSrc="/cells/net/charts/change-tick-label-direction/images/thumb.png" >}}
-{{< tutorial-card link="./charts/create-chart-pdf-with-desired-page-size/" title="Buat PDF dari Excel Chart dengan ukuran halaman yang ditentukan" imgSrc="/cells/net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
-{{< tutorial-card link="./charts/create-line-with-data-marker-chart/" title="Buat grafik garis dengan penanda data di Aspose.Cells" imgSrc="/cells/net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
-{{< tutorial-card link="./charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Temukan Jenis Nilai X dan Y di Titik Chart" imgSrc="/cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
-{{< tutorial-card link="./charts/get-chart-sub-title-for-ods-file/" title="Dapatkan subtitle grafik dari file ODS menggunakan Aspose.Cells" imgSrc="/cells/net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
-{{< tutorial-card link="./charts/set-shape-type-of-data-labels-of-chart/" title="Mengubah Format Label Data Grafik di Excel" imgSrc="/cells/net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
-{{< tutorial-card link="./charts/setting-category-data/" title="Buat Chart Excel dengan Aspose.Cells untuk .NET" imgSrc="/cells/net/charts/setting-category-data/images/thumb.png" >}}
+{{< tutorial-card link="./charts/applying-3d-format/" title="Membuat dan Memformat Bagan 3D di Excel" imgSrc="./charts/applying-3d-format/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/change-chart-size-and-position/" title="Mengubah Ukuran dan Memposisikan Ulang Bagan di Excel" imgSrc="./charts/change-chart-size-and-position/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/change-tick-label-direction/" title="Ubah Arah Label Centang Grafik di Excel" imgSrc="./charts/change-tick-label-direction/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/create-chart-pdf-with-desired-page-size/" title="Buat PDF dari Bagan Excel dengan Ukuran Halaman Tertentu" imgSrc="./charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/create-line-with-data-marker-chart/" title="Membuat Bagan Garis dengan Penanda Data di Aspose.Cells" imgSrc="./charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Temukan Jenis Nilai X dan Y di Titik Grafik" imgSrc="./charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/get-chart-sub-title-for-ods-file/" title="Dapatkan Subjudul Bagan dari File ODS menggunakan Aspose.Cells" imgSrc="./charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/set-shape-type-of-data-labels-of-chart/" title="Memodifikasi Bentuk Label Data Bagan di Excel" imgSrc="./charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/setting-category-data/" title="Buat Bagan Excel dengan Aspose.Cells untuk .NET" imgSrc="./charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Menggambar Objek dengan Aspose.Cells untuk .NET](./drawing-objects/)
-Pelajari cara membuat, menyesuaikan, dan mengelola grafik dalam aplikasi .NET menggunakan Aspose.Cells. Jelajahi berbagai jenis grafik dengan contoh yang mudah dan efisien.
+Pelajari cara membuat, menyesuaikan, dan mengelola bagan dalam aplikasi .NET menggunakan Aspose.Cells. Jelajahi berbagai jenis bagan dengan contoh yang mudah dan efisien.
 
-{{< tutorial-card link="./drawing-objects/access-and-modify-label-of-ole-object/" title="Mengubah Label Objek Ole di Excel Menggunakan Aspose.Cells" imgSrc="/cells/net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/adding-pictures/" title="Buat dan Simpan File Excel dengan Aspose.Cells" imgSrc="/cells/net/drawing-objects/adding-pictures/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Mengubah Alinasi Teks Bentuk di Excel Menggunakan Aspose.Cells" imgSrc="/cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/send-shape-front-or-back-in-worksheet/" title="Mengendalikan urutan Z-Bentuk di Excel menggunakan Aspose.Cells" imgSrc="/cells/net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Buat Excel Workbook dengan Fonts Timur Jauh & Latin" imgSrc="/cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/tile-picture-as-texture-inside-shape/" title="Tiling Texture Isi di Excel dengan Aspose.Cells" imgSrc="/cells/net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/access-and-modify-label-of-ole-object/" title="Memodifikasi Label Objek Ole di Excel Menggunakan Aspose.Cells" imgSrc="./drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/adding-pictures/" title="Membuat dan Menyimpan File Excel dengan Aspose.Cells" imgSrc="./drawing-objects/adding-pictures/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Memodifikasi Penyelarasan Teks Bentuk di Excel Menggunakan Aspose.Cells" imgSrc="./drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/send-shape-front-or-back-in-worksheet/" title="Memanipulasi Urutan Bentuk Z di Excel menggunakan Aspose.Cells" imgSrc="./drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Buat Buku Kerja Excel dengan Font Timur Jauh & Latin" imgSrc="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/tile-picture-as-texture-inside-shape/" title="Mengisi Tekstur Ubin di Excel dengan Aspose.Cells" imgSrc="./drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Format dalam Aspose.Cells untuk .NET Gaya, Warna & More](./formatting/)
-Pelajari cara menerapkan pemformatan dalam Aspose.Cells untuk .NET, termasuk gaya, warna, font, perbatasan, dan banyak lagi untuk laporan Excel profesional.
 
-{{< tutorial-card link="./formatting/adding-borders-to-range/" title="Menambahkan Border ke Range di Excel menggunakan Aspose.Cells" imgSrc="/cells/net/formatting/adding-borders-to-range/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/colors-and-background/" title="Menggunakan Aspose.Cells untuk menerapkan Warna & latar belakang di Excel" imgSrc="/cells/net/formatting/colors-and-background/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/merging-cells/" title="Merger Sel di Excel menggunakan Aspose.Cells untuk .NET" imgSrc="/cells/net/formatting/merging-cells/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/setting-font-color/" title="Set Font Color di Excel Cell menggunakan Aspose.Cells" imgSrc="/cells/net/formatting/setting-font-color/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/setting-font-name/" title="Menyetapkan Nama Font di Excel menggunakan Aspose.Cells" imgSrc="/cells/net/formatting/setting-font-name/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/setting-font-size/" title="Set Size Font di Excel Dengan Menggunakan Aspose.Cells" imgSrc="/cells/net/formatting/setting-font-size/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/text-alignment-horizontal/" title="Alignment Teks Horizontal di Excel dengan Aspose.Cells" imgSrc="/cells/net/formatting/text-alignment-horizontal/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/wrapping-text/" title="Wrap Text di Excel Sel Dengan Menggunakan Aspose.Cells" imgSrc="/cells/net/formatting/wrapping-text/images/thumb.png" >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Pemformatan di Aspose.Cells untuk .NET – Gaya, Warna & Lainnya](./formatting/)
+Pelajari cara menerapkan pemformatan di Aspose.Cells untuk .NET, termasuk gaya, warna, font, batas, dan lainnya untuk laporan Excel profesional.
+
+{{< tutorial-card link="./formatting/adding-borders-to-range/" title="Menambahkan Batas ke Rentang di Excel menggunakan Aspose.Cells" imgSrc="./formatting/adding-borders-to-range/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/colors-and-background/" title="Terapkan Warna & Latar Belakang di Excel menggunakan Aspose.Cells" imgSrc="./formatting/colors-and-background/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/merging-cells/" title="Menggabungkan Sel di Excel menggunakan Aspose.Cells untuk .NET" imgSrc="./formatting/merging-cells/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/setting-font-color/" title="Mengatur Warna Font di Sel Excel menggunakan Aspose.Cells" imgSrc="./formatting/setting-font-color/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/setting-font-name/" title="Mengatur Nama Font di Excel menggunakan Aspose.Cells" imgSrc="./formatting/setting-font-name/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/setting-font-size/" title="Mengatur Ukuran Font di Excel Menggunakan Aspose.Cells" imgSrc="./formatting/setting-font-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/text-alignment-horizontal/" title="Penyelarasan Teks Horizontal di Excel dengan Aspose.Cells" imgSrc="./formatting/text-alignment-horizontal/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/wrapping-text/" title="Membungkus Teks dalam Sel Excel Menggunakan Aspose.Cells" imgSrc="./formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Tabel Pivot dalam Aspose.Cells untuk .NET](./pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
 
-{{< tutorial-card link="./pivot-tables/create-pivot-table/" title="Buat Tabel Pivot di Excel Dengan Menggunakan Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Simpan Tabel Pivot sebagai ODS di Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Tabel Pivot di Aspose.Cells untuk .NET](./pivot-tables/)
+Pelajari cara membuat, memformat, dan mengelola tabel pivot di Aspose.Cells untuk .NET. Hasilkan laporan dinamis dan analisis data dengan mudah di C#.
+
+{{< tutorial-card link="./pivot-tables/create-pivot-table/" title="Membuat Tabel Pivot di Excel Menggunakan Aspose.Cells" imgSrc="./pivot-tables/create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Simpan Tabel Pivot sebagai ODS di Aspose.Cells" imgSrc="./pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Tutorial
+## Oktatóanyagok
 
+### [Memulai](./getting-started/)
+Pelajari dasar-dasar Aspose.Cells untuk .NET, termasuk instalasi, lisensi, dan operasi Excel dasar.
+
+### [Adatérvényesítés](./data-validation/)
+Terapkan aturan validasi data Excel yang kuat menggunakan Aspose.Cells untuk .NET untuk memastikan keakuratan dan konsistensi data.
+
+### [Otomasi & Pemrosesan Batch](./automation-batch-processing/)
+Otomatisasi tugas Excel dan proses beberapa file secara efisien dengan Aspose.Cells untuk .NET.
+
+### [Template & Pelaporan](./templates-reporting/)
+Buat laporan Excel yang dinamis menggunakan penanda pintar, pengikatan data, dan pembuatan berbasis templat.
+
+### [Mesin Kalkulasi](./calculation-engine/)
+Optimalkan perhitungan rumus Excel dan terapkan logika perhitungan khusus dalam aplikasi .NET.
+
+### [Objek OLE & Konten Tertanam](./ole-objects-embedded-content/)
+Kelola objek OLE, file tertanam, dan kontrol ActiveX dalam buku kerja Excel secara terprogram.
+
+### [Integrasi & Interoperabilitas](./integration-interoperability/)
+Integrasikan Aspose.Cells dengan sistem lain dan perluas fungsionalitas Excel dalam aplikasi .NET.
+
+### [Optimasi Kinerja](./performance-optimization/)
+Meningkatkan penggunaan memori dan kecepatan eksekusi saat memproses buku kerja Excel yang besar.
+
+### [Fitur Lanjutan](./advanced-features/)
+Jelajahi kemampuan Excel yang canggih seperti pemotong, hyperlink, dan ekstensi web.
+
+### [Manipulasi Data](./data-manipulation/)
+Pelajari teknik untuk membersihkan, mengubah, dan mengelola data Excel secara efisien.
+
+### [Impor & Ekspor](./import-export/)
+Kuasai impor dari dan ekspor ke berbagai format menggunakan Aspose.Cells untuk .NET.
+
+### [Header dan Catatan Kaki](./headers-footers/)
+Sesuaikan pengaturan halaman, header, footer, dan pengaturan cetak dalam dokumen Excel.
+
+### [Komentar & Anotasi](./comments-annotations/)
+Tambahkan, edit, dan kelola komentar dan diskusi berulir di buku kerja Excel.
+
+### [Keamanan & Perlindungan](./security-protection/)
+Terapkan fitur keamanan dokumen Excel, enkripsi, dan kontrol akses.
+
+### [Gambar & Bentuk](./images-shapes/)
+Membuat, memanipulasi, dan mengoptimalkan elemen visual dalam lembar kerja Excel.
+
+### [Tabel & Referensi Terstruktur](./tables-structured-references/)
+Bekerja dengan tabel Excel, objek daftar, dan rentang data terstruktur.
+
+### [Adatelemzés](./data-analysis/)
+Lakukan analisis data tingkat lanjut menggunakan PivotTable, pemfilteran, dan pemrosesan data kompleks.
+
+### [Bagan & Grafik](./charts-graphs/)
+Buat, sesuaikan, dan kelola bagan dan visualisasi data di Excel.
+
+### [Rumus & Fungsi](./formulas-functions/)
+Kuasai pembuatan rumus Excel, perhitungan, dan implementasi fungsi kustom.
+
+### [Manajemen Jangkauan](./range-management/)
+Bekerja secara efisien dengan rentang sel, rentang bernama, dan operasi rentang tingkat lanjut.
+
+### [Operasi Sel](./cell-operations/)
+Pelajari cara mengakses, memanipulasi, dan mengelola sel individual dalam lembar kerja Excel.
 ### [Lembar Kerja Excel](./excel-worksheet-csharp-tutorials/)
 Tutorial Aspose.Cells C# menawarkan petunjuk langkah demi langkah untuk memanipulasi lembar kerja Excel dengan mudah dan efisien.
 ### [Pengaturan Tampilan Excel](./excel-display-settings-csharp-tutorials)
@@ -78,24 +171,24 @@ Jelajahi tutorial Aspose.Cells untuk .NET untuk menguasai cara bekerja dengan bu
 Pelajari cara menyalin dan menyesuaikan lembar kerja Excel dengan Aspose.Cells untuk .NET. Tutorial terperinci untuk menguasai manipulasi dan pemformatan data.
 ### [Hentian Halaman Excel](./excel-page-breaks/)
 Lihat tutorial terperinci tentang pemisah halaman Excel dengan Aspose.Cells untuk .NET. Sempurnakan tata letak buku kerja Excel Anda dengan mudah.
-### [Buka Proteksi Lembar Excel](./unprotect-excel-sheet/)
-Pelajari cara membuka proteksi lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial terperinci untuk pengembang dalam C#.
+### [Excel-tábla védelmének feloldása](./unprotect-excel-sheet/)
+Ismerd meg, hogyan oldhatod fel egy Excel-táblázat védelmét az Aspose.Cells for .NET használatával. Részletes oktatóanyagok fejlesztőknek C#-ban.
 ### [Keamanan Excel](./excel-security/)
 Temukan tutorial keamanan Excel yang komprehensif dengan Aspose.Cells untuk .NET. Lindungi file Excel Anda dan kendalikan akses ke data sensitif.
-### [Buka Proteksi Lembar Excel](./unprotect-excel-sheet/)
-Pelajari cara membuka proteksi lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial terperinci untuk pengembang dalam C#.
+### [Excel-tábla védelmének feloldása](./unprotect-excel-sheet/)
+Ismerd meg, hogyan oldhatod fel egy Excel-táblázat védelmét az Aspose.Cells for .NET használatával. Részletes oktatóanyagok fejlesztőknek C#-ban.
 ### [Memasukkan Kontrol ke dalam Bagan](./inserting-controls-in-charts/)
 Temukan tutorial Aspose.Cells untuk .NET tentang menyisipkan kontrol dalam bagan, termasuk menambahkan label, gambar, kotak teks, dan kotak centang untuk menyempurnakan visualisasi data.
 ### [Memanipulasi Jenis Bagan](./manipulating-chart-types/)
 Temukan tutorial manipulasi bagan Aspose.Cells for .NET yang penting, termasuk membuat bagan garis, bagan pai, dan bagan khusus. Pelajari cara memodifikasi bagan dan menerapkan warna tema Microsoft.
-### [Mengatur Tampilan Bagan](./setting-chart-appearance/)
+### [Beállítási táblázat megjelenése](./setting-chart-appearance/)
 xplore Aspose.Cells untuk tutorial .NET tentang pengaturan tampilan bagan. Pelajari cara menerapkan tema, mengubah garis kisi, mengatur area bagan, judul, sumbu, dan banyak lagi dengan panduan mudah.
 ### [Operasi Grafik Lanjutan](./advanced-chart-operations/)
 Jelajahi tutorial operasi bagan tingkat lanjut untuk Aspose.Cells for .NET, termasuk bagan 3D, ukuran bagan, label centang, dan banyak lagi, dengan panduan yang mudah diikuti.
 ### [Pembuatan dan Konversi Grafik](./chart-rendering-and-conversion/)
 Jelajahi tutorial Aspose.Cells untuk .NET tentang rendering bagan, konversi, dan pembuatan PDF dengan ukuran halaman yang diinginkan. Panduan langkah demi langkah untuk penanganan bagan Excel yang lancar.
-### [Bekerja dengan Data Bagan](./working-with-chart-data/)
-Temukan tutorial Aspose.Cells for .NET yang komprehensif yang berfokus pada pengerjaan data grafik. Pelajari, buat, dan sesuaikan grafik Anda.
+### [Diagramadatokkal való munka](./working-with-chart-data/)
+Fedezz fel átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek a diagramadatokkal való munkára összpontosítanak. Tanulj meg diagramokat létrehozni és testreszabni.
 ### [Menyesuaikan Sumbu dan Unit Bagan](./customizing-chart-axes-and-units/)
 Kuasai kustomisasi sumbu grafik di Aspose.Cells untuk .NET dengan tutorial mudah. Pelajari cara menangani unit otomatis dan membaca label sumbu seperti seorang profesional Excel.
 ### [Bekerja dengan Hyperlink di Excel](./excel-working-with-hyperlinks/)
@@ -152,34 +245,34 @@ Jelajahi tutorial Aspose.Cells for .NET yang komprehensif tentang penanganan fil
 Buka kunci data Excel Anda dengan mudah dengan tutorial Aspose.Cells untuk .NET. Pelajari cara membuka file terenkripsi, hanya data, FODS, dan SXC.
 ### [Menyimpan File dalam Format Berbeda](./saving-files-in-different-formats/)
 Temukan tutorial lengkap tentang cara menyimpan file Excel dalam berbagai format menggunakan Aspose.Cells for .NET. Tingkatkan keterampilan Excel Anda.
-### [Penanganan Berkas](./file-handling/)
-Temukan tutorial terperinci untuk menangani file di Aspose.Cells untuk .NET, termasuk menyimpan ke berbagai format, lokasi, dan pemisah khusus.
+### [Fájlkezelés](./file-handling/)
+Temukan tutorial terperinci untuk menangani file di Aspose.Cells untuk .NET, termasuk menyimpan dalam berbagai format, lokasi, dan pemisah khusus.
 ### [Properti Dokumen](./document-properties/)
 Buka kemampuan Aspose.Cells untuk .NET dengan tutorial komprehensif kami tentang properti dokumen untuk meningkatkan keterampilan manajemen file Excel Anda.
 ### [Konversi dan Rendering](./conversion-and-rendering/)
 Jelajahi tutorial Aspose.Cells untuk .NET yang menampilkan panduan tingkat lanjut tentang mengonversi dan merender file Excel ke berbagai format dengan mudah.
 ### [Keamanan dan Enkripsi](./security-and-encryption/)
 Manfaatkan kekuatan Aspose.Cells untuk .NET dengan tutorial kami tentang keamanan dan enkripsi. Pelajari cara mendeteksi dan mengenkripsi file dengan mudah.
-### [Operasi Lembar Kerja](./worksheet-operations/)
-Buka potensi penuh Aspose.Cells untuk .NET dengan tutorial praktis ini yang mencakup operasi lembar kerja dan menyempurnakan file Excel Anda.
+### [Munkalap műveletek](./worksheet-operations/)
+Engedd szabadjára az Aspose.Cells for .NET teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek a munkalapműveleteket és az Excel-fájlok fejlesztését ismertetik.
 ### [Konversi ke PDF](./conversion-to-pdf/)
-Ubah berkas Excel dan bagan Anda menjadi PDF yang mudah dipahami dengan tutorial Aspose.Cells untuk .NET kami yang mudah diikuti.
+Ubah file Excel dan bagan Anda menjadi PDF yang lancar dengan tutorial Aspose.Cells untuk .NET yang mudah diikuti.
 ### [Operasi Gambar dan Bagan](./image-and-chart-operations/)
 Jelajahi panduan lengkap tentang tutorial Aspose.Cells untuk .NET. Pelajari tentang operasi gambar dan bagan untuk meningkatkan produktivitas Anda.
-### [Operasi XPS dan PDF](./xps-and-pdf-operations/)
-Temukan tutorial Aspose.Cells for .NET yang komprehensif mengenai operasi XPS dan PDF untuk menyederhanakan konversi file Anda.
+### [XPS és PDF műveletek](./xps-and-pdf-operations/)
+Fedezze fel az Aspose.Cells for .NET átfogó XPS és PDF műveletekkel kapcsolatos oktatóanyagait, amelyekkel egyszerűsítheti a fájlkonvertálást.
 ### [Operasi Tautan dan Konfigurasi](./link-and-configuration-operations/)
 Temukan tutorial lengkap tentang Aspose.Cells untuk .NET, termasuk konfigurasi tautan dan banyak lagi. Sempurna bagi pengembang yang ingin menyempurnakan aplikasi Excel mereka.
-### [Bekerja dengan Font di Spreadsheet](./working-with-fonts-in-spreadsheets/)
-Temukan tutorial penting tentang penggunaan Aspose.Cells untuk .NET, dengan fokus pada manajemen font dalam spreadsheet dan memastikan presentasi dokumen yang optimal.
+### [Betűtípusok használata táblázatokban](./working-with-fonts-in-spreadsheets/)
+Ismerkedjen meg az Aspose.Cells .NET-hez való használatáról szóló alapvető oktatóanyagokkal, amelyek a táblázatokban a betűtípus-kezelésre és az optimális dokumentummegjelenítés biztosítására összpontosítanak.
 ### [Pemformatan dan Gaya Excel](./excel-formatting-and-styling/)
 Temukan tutorial penting Aspose.Cells untuk .NET tentang pemformatan dan gaya Excel. Tingkatkan lembar kerja Anda dengan panduan praktis langkah demi langkah.
-### [Bekerja dengan Font di Excel](./working-with-fonts-in-excel/)
-Buka kekuatan Aspose.Cells untuk .NET dengan tutorial tentang cara bekerja dengan font di Excel, mulai dari mengatur warna hingga menerapkan gaya untuk spreadsheet yang menakjubkan.
+### [Betűtípusok használata az Excelben](./working-with-fonts-in-excel/)
+Engedd szabadjára az Aspose.Cells for .NET erejét az Excelben használt betűtípusok használatáról szóló oktatóanyagokkal, a színek beállításától a stílusok alkalmazásáig a lenyűgöző táblázatokhoz.
 ### [Tema dan Pemformatan Excel](./excel-themes-and-formatting/)
 Jelajahi tutorial Aspose.Cells untuk .NET tentang cara menyesuaikan tema Excel, mengatur warna tema, dan memanfaatkan warna tema secara terprogram. Tingkatkan keterampilan Excel Anda.
 ### [Memformat Baris dan Kolom di Excel](./formatting-rows-and-columns-in-excel/)
-Manfaatkan kekuatan Aspose.Cells untuk .NET melalui tutorial terperinci kami tentang memformat baris dan kolom di Excel, cocok untuk pengembang.
+Buka kekuatan Aspose.Cells untuk .NET melalui tutorial terperinci kami tentang memformat baris dan kolom di Excel, cocok untuk pengembang.
 ### [Format Angka dan Tampilan di Excel](./number-and-display-formats-in-excel/)
 Jelajahi tutorial Aspose.Cells untuk .NET tentang format angka dan tampilan, termasuk opsi pemformatan bawaan dan khusus untuk otomatisasi Excel.
 ### [Pengaturan Warna dan Latar Belakang Excel](./excel-colors-and-background-settings/)
@@ -189,7 +282,7 @@ Kuasai pengaturan dan kustomisasi warna di Excel dengan Aspose.Cells for .NET. P
 ### [Pemformatan Bersyarat Excel](./excel-conditional-formatting/)
 Pelajari cara menerapkan pemformatan bersyarat saat dijalankan di Excel menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah ini membantu pengembang mengotomatiskan pemformatan Excel.
 ### [Pemformatan Karakter dan Sel Excel](./excel-character-and-cell-formatting/)
-Pelajari format karakter dan pengaturan sel aktif secara terprogram di Excel menggunakan Aspose.Cells for .NET. Jelajahi panduan lengkap untuk menyederhanakan tugas pengembangan Anda.
+Pelajari format karakter dan pengaturan sel aktif secara terprogram di Excel menggunakan Aspose.Cells untuk .NET. Jelajahi panduan lengkap untuk menyederhanakan tugas pengembangan Anda.
 ### [Batas dan Opsi Pemformatan Excel](./excel-borders-and-formatting-options/)
 Temukan tutorial Aspose.Cells untuk .NET yang mengajarkan Anda cara mengatur batas, font, dan pola Excel secara terprogram, menghemat waktu dan menyempurnakan spreadsheet Anda.
 ### [Metode dan Opsi Pemformatan Excel](./excel-formatting-methods-and-options/)
@@ -212,39 +305,41 @@ Tingkatkan keterampilan Anda dengan Aspose.Cells untuk .NET. Pelajari tutorial u
 Tutorial Aspose.Cells untuk .NET tentang merender add-in Office di Excel ke PDF dan mengabaikan kesalahan selama konversi Excel ke PDF. Sederhanakan tugas dokumen Anda.
 ### [Manajemen Baris dan Kolom](./row-and-column-management/)
 Manfaatkan kekuatan Aspose.Cells untuk .NET dengan tutorial lengkap kami tentang manajemen baris dan kolom untuk meningkatkan keterampilan Excel Anda dengan mudah.
-### [Kustomisasi Ukuran dan Jarak](./size-and-spacing-customization/)
-Sempurnakan berkas Excel Anda dengan Aspose.Cells untuk .NET. Temukan tutorial yang mudah diikuti untuk menyesuaikan ukuran dan spasi, mengatur lebar kolom dan tinggi baris dengan mudah.
+### [Méret és térköz testreszabása](./size-and-spacing-customization/)
+Javítsa Excel-fájljait az Aspose.Cells for .NET segítségével. Fedezzen fel könnyen követhető oktatóanyagokat a méret és a térköz testreszabásához, az oszlopszélességek és a sormagasságok egyszerű beállításához.
 ### [Penyesuaian Otomatis Baris dan Kolom](./row-column-autofit-conversion/)
 Kuasai penyesuaian baris dan kolom secara otomatis di Excel dengan Aspose.Cells untuk .NET. Sempurnakan tampilan data dengan tutorial langkah demi langkah untuk lembar kerja yang jelas dan profesional.
 ### [Manajemen Pemotong Excel](./excel-slicers-management/)
 Jelajahi tutorial lengkap tentang mengelola pemotong Excel dengan Aspose.Cells untuk .NET. Pelajari cara membuat, memperbarui, memformat, dan mengekspor pemotong dengan mudah.
-### [Penanda Cerdas di Aspose.Cells untuk Data Dinamis](./smart-markers-dynamic-data/)
-Jelajahi Tutorial Penanda Cerdas Aspose.Cells for .NET untuk membuat laporan Excel yang dinamis. Pelajari cara menambahkan label, mengisi data secara otomatis, menggunakan rumus, dan banyak lagi.
-### [Tabel dan Daftar](./tables-and-lists/)
-Jelajahi tutorial Aspose.Cells for .NET yang komprehensif untuk mengelola data Excel secara efisien, membuat tabel, dan meningkatkan keterampilan Anda dengan panduan yang mudah diikuti.
-### [Operasi Buku Kerja Aspose.Cells](./workbook-operations/)
-Jelajahi tutorial buku kerja Aspose.Cells untuk .NET yang mencakup akses data, kustomisasi XML, tanda tangan, ekstensi web, dan banyak lagi. Tingkatkan keterampilan otomatisasi Excel dengan mudah.
-### [Pengaturan Buku Kerja](./workbook-settings/)
-Jelajahi tutorial Aspose.Cells untuk .NET yang komprehensif, yang mencakup pengaturan buku kerja, sumber daya eksternal, dan banyak lagi.
-### [Buku Kerja Proyek VBA](./workbook-vba-project/)
-Manfaatkan kekuatan Excel dengan Aspose.Cells untuk .NET. Jelajahi tutorial lengkap tentang perlindungan proyek VBA, penyalinan formulir pengguna, dan pengamanan buku kerja Anda.
-### [Tampilan Lembar Kerja](./worksheet-display/)
-Temukan daftar lengkap tutorial Aspose.Cells untuk .NET. Tingkatkan keterampilan Excel Anda dengan panduan langkah demi langkah tentang fitur-fitur lembar kerja utama.
-### [Manajemen Lembar Kerja](./worksheet-management/)
+### [Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz](./smart-markers-dynamic-data/)
+Fedezd fel az Aspose.Cells for .NET intelligens jelölőit bemutató oktatóanyagokat dinamikus Excel-jelentések létrehozásához. Tanuld meg, hogyan adhatsz hozzá címkéket, hogyan töltsd ki automatikusan az adatokat, hogyan használj képleteket és sok mást.
+### [Táblázatok és listák](./tables-and-lists/)
+Fedezze fel az átfogó Aspose.Cells for .NET oktatóanyagokat, hogy hatékonyan kezelhesse az Excel-adatokat, táblázatokat hozhasson létre, és könnyen követhető útmutatókkal fejlessze készségeit.
+### [Aspose.Cells munkafüzet-műveletek](./workbook-operations/)
+Ismerkedjen meg az Aspose.Cells for .NET munkafüzet oktatóanyagaival, amelyek az adathozzáférést, az XML testreszabását, az aláírásokat, a webbővítményeket és egyebeket tárgyalják. Könnyen fejlesztheti Excel automatizálási készségeit.
+### [Munkafüzet beállításai](./workbook-settings/)
+Fedezd fel az átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek a munkafüzetek beállításait, külső forrásokat és egyebeket tárgyalnak.
+### [Munkafüzet VBA projekt](./workbook-vba-project/)
+Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Fedezz fel átfogó oktatóanyagokat a VBA-projektek védelméről, a felhasználói űrlapok másolásáról és a munkafüzet biztonságossá tételéről.
+### [Munkalap megjelenítése](./worksheet-display/)
+Fedezze fel az Aspose.Cells for .NET oktatóanyagok átfogó listáját. Fejlessze Excel-ismereteit a munkalapok főbb funkcióit bemutató lépésenkénti útmutatókkal.
+### [Munkalapkezelés](./worksheet-management/)
 Buka kekuatan Aspose.Cells untuk .NET dengan tutorial komprehensif kami yang memandu Anda melalui manajemen lembar kerja dengan petunjuk langkah demi langkah.
-### [Fitur Pengaturan Halaman Lembar Kerja](./worksheet-page-setup-features/)
-Temukan tutorial pengaturan halaman lembar kerja Aspose.Cells untuk .NET, termasuk pengaturan halaman penyalinan, pengelolaan ukuran kertas, dan pengaturan kualitas cetak untuk lembar kerja Excel.
-### [Lembar Kerja Keamanan](./worksheet-security/)
-Ungkap rahasia keamanan Excel. Jelajahi tutorial Aspose.Cells for .NET kami yang komprehensif untuk melindungi, mengedit, dan mengelola lembar kerja Anda dengan mudah.
-### [Lembar Kerja Operasi Nilai](./worksheet-value-operations/)
-Temukan tutorial penting tentang Aspose.Cells untuk .NET, yang mencakup operasi nilai lembar kerja untuk menyempurnakan proyek Excel Anda.
-### [Operasi Lembar Kerja](./worksheet-operations/)
-Jelajahi tutorial buku kerja Aspose.Cells untuk .NET yang mencakup akses data, kustomisasi XML, tanda tangan, ekstensi web, dan banyak lagi. Tingkatkan keterampilan otomatisasi Excel dengan mudah.
-### [Operasi Peta XML](./xml-map-operations/)
-Temukan tutorial Aspose.Cells untuk .NET yang komprehensif yang mencakup operasi peta XML untuk meningkatkan keterampilan Excel Anda dengan mudah.
+### [Munkalap Oldalbeállítási funkciók](./worksheet-page-setup-features/)
+Ismerd meg az Aspose.Cells for .NET munkalapbeállítási oktatóanyagait, beleértve az oldalbeállítások másolását, a papírméret kezelését és a nyomtatási minőség beállítását Excel-munkalapokon.
+### [Munkalap biztonság](./worksheet-security/)
+Fedezze fel az Excel biztonságának titkait. Fedezze fel átfogó Aspose.Cells for .NET oktatóanyagainkat, hogy könnyedén megvédhesse, szerkeszthesse és kezelhesse munkalapjait.
+### [Munkalap Értékműveletek](./worksheet-value-operations/)
+Fedezze fel az Aspose.Cells for .NET alapvető oktatóanyagait, amelyek a munkalap értékműveleteit ismertetik az Excel-projektek fejlesztése érdekében.
+### [Munkalap műveletek](./worksheet-operations/)
+Ismerkedjen meg az Aspose.Cells for .NET munkafüzet oktatóanyagaival, amelyek az adathozzáférést, az XML testreszabását, az aláírásokat, a webbővítményeket és egyebeket tárgyalják. Könnyen fejlesztheti Excel automatizálási készségeit.
+### [XML térképműveletek](./xml-map-operations/)
+Fedezz fel átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek XML map műveleteket ismertetnek, hogy könnyedén fejleszthesd Excel-készségeidet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

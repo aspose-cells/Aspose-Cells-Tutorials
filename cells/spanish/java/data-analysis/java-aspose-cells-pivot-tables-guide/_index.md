@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Cargue únicamente las hojas de trabajo necesarias o utilice API de transmisi
 A:** Asegúrese de que los índices y las posiciones estén configurados correctamente para evitar errores de cálculo. Pruebe siempre sus configuraciones con datos de muestra antes de aplicarlas a los libros de trabajo de producción.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

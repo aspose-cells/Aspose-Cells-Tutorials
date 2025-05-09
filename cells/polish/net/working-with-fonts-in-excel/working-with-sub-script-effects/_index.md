@@ -1,23 +1,25 @@
 ---
-title: Praca z efektami skryptów podrzędnych w programie Excel
-linktitle: Praca z efektami skryptów podrzędnych w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak stosować efekty indeksu dolnego w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego kompleksowego przewodnika. Zawiera instrukcje krok po kroku.
-weight: 16
-url: /pl/net/working-with-fonts-in-excel/working-with-sub-script-effects/
+"description": "Dowiedz się, jak stosować efekty indeksu dolnego w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego kompleksowego przewodnika. Zawiera instrukcje krok po kroku."
+"linktitle": "Praca z efektami skryptów podrzędnych w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Praca z efektami skryptów podrzędnych w programie Excel"
+"url": "/pl/net/working-with-fonts-in-excel/working-with-sub-script-effects/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Praca z efektami skryptów podrzędnych w programie Excel
 
 ## Wstęp
-Jeśli chodzi o Excela, formatowanie może mieć znaczący wpływ na sposób prezentacji danych. Jednym ze stylów formatowania, który często pozostaje niezauważony, ale może poprawić przejrzystość informacji, jest efekt indeksu dolnego. Jest to szczególnie przydatne w przypadku wzorów chemicznych, wyrażeń matematycznych, a nawet przypisów. W tym samouczku przyjrzymy się, jak stosować formatowanie indeksu dolnego do komórek w skoroszycie programu Excel przy użyciu Aspose.Cells dla .NET.
+Jeśli chodzi o Excela, formatowanie może mieć znaczący wpływ na sposób prezentacji danych. Jednym ze stylów formatowania, który często pozostaje niezauważony, ale może poprawić przejrzystość informacji, jest efekt indeksu dolnego. Jest on szczególnie przydatny w przypadku wzorów chemicznych, wyrażeń matematycznych, a nawet przypisów. W tym samouczku przyjrzymy się, jak stosować formatowanie indeksu dolnego do komórek w skoroszycie programu Excel przy użyciu Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziemy do samouczka, upewnijmy się, że wszystko jest skonfigurowane, aby zapewnić płynną jazdę:
-1. Aspose.Cells dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Cells. Jeśli nie, możesz ją łatwo pobrać z[Link do pobrania Aspose Cells](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Cells. Jeśli nie, możesz ją łatwo pobrać z [Link do pobrania Aspose Cells](https://releases.aspose.com/cells/net/).
 2. Visual Studio: Aby uruchomić przykłady kodu, będziesz potrzebować programu Visual Studio lub dowolnego kompatybilnego środowiska IDE .NET.
 3. Podstawowa znajomość języka C#: Znajomość języka C# i programowania .NET będzie pomocna, jednak kod zostanie rozbity na mniejsze części, aby ułatwić jego zrozumienie.
 4. Środowisko robocze: Przygotuj katalog, w którym będziesz zapisywać pliki wyjściowe, i upewnij się, że masz uprawnienia do zapisu w tej lokalizacji.
@@ -30,9 +32,9 @@ Otwórz IDE i utwórz nowy projekt C#. Możesz wybrać albo aplikację konsolow�
 Następnie dodaj odwołanie do biblioteki Aspose.Cells w swoim projekcie. Możesz to zrobić za pomocą NuGet Package Manager:
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
--  Szukaj`Aspose.Cells` i zainstaluj.
+- Szukaj `Aspose.Cells` i zainstaluj.
 ### Importuj przestrzeń nazw
- Na górze głównego pliku programu (zwykle`Program.cs`), uwzględnij następującą przestrzeń nazw:
+Na górze głównego pliku programu (zwykle `Program.cs`), uwzględnij następującą przestrzeń nazw:
 ```csharp
 using System;
 using System.IO;
@@ -45,14 +47,14 @@ Najpierw musimy zdefiniować, gdzie zostanie zapisany nasz plik wyjściowy Excel
 // Katalog wyjściowy
 string outputDir = "Your Document Directory\\";
 ```
- Zastępować`"Your Document Directory\\"` z rzeczywistą ścieżką katalogu. To tutaj zostanie zapisany wygenerowany plik Excel.
+Zastępować `"Your Document Directory\\"` z rzeczywistą ścieżką katalogu. To tutaj zostanie zapisany wygenerowany plik Excel.
 ## Krok 2: Utwórz obiekt skoroszytu
- Następnie utworzymy instancję`Workbook` Klasa. Ta klasa reprezentuje plik Excela i pozwala nam łatwo nim manipulować.
+Następnie utworzymy instancję `Workbook` Klasa. Ta klasa reprezentuje plik Excela i pozwala nam łatwo nim manipulować.
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
- Kiedy tworzysz nowy`Workbook`, automatycznie generuje nowy plik Excela zawierający jeden arkusz kalkulacyjny.
+Kiedy tworzysz nowy `Workbook`, automatycznie generuje nowy plik Excela zawierający jeden arkusz kalkulacyjny.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Teraz, gdy mamy nasz skoroszyt, przejdźmy do arkusza, w którym chcemy wprowadzić zmiany. W tym przypadku będziemy pracować z pierwszym arkuszem.
 ```csharp
@@ -79,7 +81,7 @@ Style style = cell.GetStyle();
 style.Font.IsSubscript = true;
 cell.SetStyle(style);
 ```
- W powyższym kodzie najpierw pobieramy aktualny styl komórki za pomocą`GetStyle()` Następnie ustawiamy`IsSubscript` własność`Font` oponować`true`Na koniec stosujemy zmodyfikowany styl z powrotem do komórki.
+W powyższym kodzie najpierw pobieramy aktualny styl komórki za pomocą `GetStyle()`Następnie ustawiamy `IsSubscript` własność `Font` oponować `true`Na koniec stosujemy zmodyfikowany styl z powrotem do komórki.
 ## Krok 7: Zapisz plik Excel
 Po zastosowaniu efektu indeksu dolnego musimy zapisać nasze zmiany w pliku Excel. Oto jak to zrobić:
 ```csharp
@@ -101,14 +103,16 @@ Aspose.Cells to biblioteka .NET przeznaczona do pracy z plikami Excela, umożliw
 ### Czy mogę zastosować inne efekty tekstowe oprócz indeksu dolnego?
 Tak! Aspose.Cells obsługuje różne opcje formatowania tekstu, w tym indeks górny, pogrubienie, kursywę i inne.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania musisz kupić licencję. Sprawdź[Kup link](https://purchase.aspose.com/buy) Aby uzyskać więcej informacji.
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania musisz kupić licencję. Sprawdź [Kup link](https://purchase.aspose.com/buy) Aby uzyskać więcej informacji.
 ### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy?
- Pomoc i pytania można uzyskać na stronie[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Pomoc i pytania można uzyskać na stronie [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
- O tymczasową licencję możesz się ubiegać za pośrednictwem[Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+O licencję tymczasową możesz się ubiegać za pośrednictwem [Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

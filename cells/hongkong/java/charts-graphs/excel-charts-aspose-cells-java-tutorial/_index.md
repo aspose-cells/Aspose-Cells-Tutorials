@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4：使用預先定義的樣式識別碼或使用 API 的樣式方法建立自�
 A5：最佳化資料範圍，最大限度地降低圖表複雜性，並透過在不需要時處置物件來有效管理記憶體。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

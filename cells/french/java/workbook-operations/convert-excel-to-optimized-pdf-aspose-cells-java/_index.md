@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ En suivant ce guide, vous avez appris à charger un fichier Excel dans un `Workb
 Passez à l’étape suivante de votre parcours de développement en expérimentant Aspose.Cells pour Java et améliorez vos processus de conversion Excel en PDF dès aujourd’hui !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

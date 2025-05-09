@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면:
 - **배치 작업**: 처리 시간을 줄이기 위해 하나씩 삭제하는 대신 일괄적으로 행 삭제를 수행합니다.
 
 ## 결론
-이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Excel 워크시트에서 여러 행을 효율적으로 삭제하는 방법을 보여드리고, 반복적인 작업을 자동화하고 워크플로를 최적화하여 데이터 관리 프로세스를 향상시킵니다.
+이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Excel 워크시트에서 여러 행을 효율적으로 삭제하는 방법을 보여드리며, 반복적인 작업을 자동화하고 워크플로를 최적화하여 데이터 관리 프로세스를 향상시킵니다.
 
 **다음 단계:**
 - 셀 서식 지정이나 수식 추가와 같은 추가 기능을 살펴보세요.
@@ -180,6 +182,9 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면:
 이 가이드에서는 Aspose.Cells for Java를 사용하여 Excel에서 행을 삭제하는 방법에 대한 자세한 내용을 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

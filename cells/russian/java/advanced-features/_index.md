@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@
 Узнайте, как эффективно управлять и изменять внешние ссылки в файлах Excel с помощью Aspose.Cells для Java. Улучшите свои навыки управления данными с помощью нашего пошагового руководства.
 
 ### [Освоение создания и стилизации рабочих книг Excel с помощью Aspose.Cells на Java](./excel-master-aspose-cells-java-tutorial/)
-Научитесь эффективно создавать, оформлять и обрабатывать книги Excel с помощью Aspose.Cells для Java. Идеально подходит для автоматизации отчетов, ввода данных и многого другого.
+Научитесь эффективно создавать, стилизовать и управлять книгами Excel с помощью Aspose.Cells для Java. Идеально подходит для автоматизации отчетов, ввода данных и многого другого.
 
 ### [Автоматизируйте изменения среза Excel в Java с помощью Aspose.Cells](./excel-slicer-modifications-java-aspose-cells/)
 Узнайте, как автоматизировать изменения слайсеров в файлах Excel с помощью Java и Aspose.Cells. В этом руководстве рассматривается загрузка рабочих книг, доступ к рабочим листам, изменение слайсеров и сохранение изменений.
@@ -93,6 +95,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

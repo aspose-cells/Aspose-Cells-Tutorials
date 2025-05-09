@@ -1,27 +1,29 @@
 ---
-title: Mendukung Rumus Rentang Bernama dalam Lokal Jerman
-linktitle: Mendukung Rumus Rentang Bernama dalam Lokal Jerman
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara menangani rumus rentang bernama dalam bahasa Jerman menggunakan Aspose.Cells untuk .NET. Pelajari cara membuat, memanipulasi, dan menyimpan file Excel secara terprogram.
-weight: 14
-url: /id/net/workbook-settings/support-named-range-formulas-in-german/
+"description": "Ismerje meg, hogyan kezelheti a névvel ellátott tartományképleteket német területi beállításokkal az Aspose.Cells for .NET használatával. Tanulja meg, hogyan hozhat létre, kezelhet és menthet Excel-fájlokat programozottan."
+"linktitle": "Névvel ellátott tartományképletek támogatása német területi beállításokban"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Névvel ellátott tartományképletek támogatása német területi beállításokban"
+"url": "/id/net/workbook-settings/support-named-range-formulas-in-german/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mendukung Rumus Rentang Bernama dalam Lokal Jerman
+# Névvel ellátott tartományképletek támogatása német területi beállításokban
 
-## Perkenalan
-Dalam tutorial ini, kita akan menjelajahi cara bekerja dengan rumus rentang bernama dalam bahasa Jerman menggunakan pustaka Aspose.Cells for .NET. Aspose.Cells adalah API manipulasi spreadsheet yang canggih yang memungkinkan Anda membuat, membaca, dan memodifikasi file Excel secara terprogram. Kami akan memandu Anda melalui proses ini langkah demi langkah, yang mencakup berbagai aspek dalam bekerja dengan rentang bernama dan rumus dalam bahasa Jerman.
-## Prasyarat
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
-1.  Visual Studio: Anda harus menginstal Microsoft Visual Studio di sistem Anda. Anda dapat mengunduh versi terbaru Visual Studio dari[situs web](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells untuk .NET: Anda harus menginstal pustaka Aspose.Cells untuk .NET di proyek Anda. Anda dapat mengunduh versi terbaru pustaka dari[Halaman unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/).
-3. Pengetahuan tentang C#: Karena kita akan bekerja dengan kode C#, pemahaman dasar tentang bahasa pemrograman C# diperlukan.
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# Anda. Tambahkan yang berikut ini`using` pernyataan di bagian atas file kode Anda:
+## Bevezetés
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan dolgozhatunk elnevezett tartományképletekkel német nyelvi beállításokkal az Aspose.Cells for .NET könyvtár segítségével. Az Aspose.Cells egy hatékony táblázatkezelő API, amely lehetővé teszi Excel-fájlok programozott létrehozását, olvasását és módosítását. Lépésről lépésre végigvezetjük a folyamaton, áttekintve a elnevezett tartományokkal és képletekkel való munka különböző aspektusait német nyelvi beállításokkal.
+## Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. Visual Studio: Telepítenie kell a Microsoft Visual Studio programot a rendszerére. A Visual Studio legújabb verzióját letöltheti innen: [weboldal](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Cells for .NET: A projektedben telepíteni kell az Aspose.Cells for .NET könyvtárat. A könyvtár legújabb verzióját innen töltheted le: [Aspose.Cells .NET letöltési oldal](https://releases.aspose.com/cells/net/).
+3. C# ismerete: Mivel C# kóddal fogunk dolgozni, a C# programozási nyelv alapvető ismerete szükséges.
+## Csomagok importálása
+Kezdéshez importálnod kell a szükséges csomagokat a C# projektedbe. Add hozzá a következőket: `using` utasítások a kódfájl tetején:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -31,17 +33,17 @@ using System.IO;
 using Aspose.Cells.Rendering;
 using System.Drawing.Imaging;
 ```
-## Langkah 1: Siapkan Direktori Sumber dan Output
-Pertama, mari kita tentukan direktori sumber dan keluaran untuk contoh kita:
+## 1. lépés: A forrás- és kimeneti könyvtárak beállítása
+Először is, definiáljuk a forrás- és kimeneti könyvtárakat a példánkhoz:
 ```csharp
-//Direktori sumber
+//Forráskönyvtár
 string sourceDir = "Your Document Directory";
-//Direktori keluaran
+//Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori sumber dan keluaran Anda.
-## Langkah 2: Buat Rentang Bernama dengan Rumus Lokal Jerman
-Berikutnya, kita akan membuat rentang bernama baru dengan rumus dalam lokal Jerman:
+Csere `"Your Document Directory"` a forrás- és kimeneti könyvtárak tényleges elérési útjával.
+## 2. lépés: Hozzon létre egy elnevezett tartományt képlettel német területi beállításokkal
+Következő lépésként létrehozunk egy új, elnevezett tartományt egy német területi beállítású képlettel:
 ```csharp
 const string name = "HasFormula";
 const string value = "=GET.ZELLE(48, INDIREKT(\"ZS\",FALSCH))";
@@ -51,37 +53,39 @@ int nameIndex = wsCol.Names.Add(name);
 Name namedRange = wsCol.Names[nameIndex];
 namedRange.RefersTo = value;
 ```
-Pada langkah ini, kita:
-1.  Menentukan nama dan nilai dari rentang bernama. Rumusnya`=GET.ZELLE(48, INDIREKT("ZS",FALSCH))` adalah padanan bahasa Jerman dari rumus bahasa Inggris`=GET.CELL(48, INDIRECT("ZS",FALSE))`.
-2.  Membuat yang baru`Workbook` objek dan memperoleh`WorksheetCollection` dari itu.
-3.  Menambahkan rentang bernama baru dengan nama dan rumus yang ditentukan menggunakan`Add` metode dari`Names`koleksi.
-4.  Mendapatkan yang baru dibuat`Name` objek dan mengaturnya`RefersTo` properti ke nilai rumus.
-## Langkah 3: Simpan Buku Kerja dengan Rentang Bernama
-Terakhir, kita akan menyimpan buku kerja dengan rentang bernama:
+Ebben a lépésben a következőket tesszük:
+1. Meghatározta a megnevezett tartomány nevét és értékét. A képlet `=GET.ZELLE(48, INDIREKT("ZS",FALSCH))` az angol formula német megfelelője `=GET.CELL(48, INDIRECT("ZS",FALSE))`.
+2. Létrehozott egy újat `Workbook` tárgyat és megszerezte a `WorksheetCollection` attól.
+3. Hozzáadott egy új, elnevezett tartományt a megadott névvel és képlettel a következő használatával: `Add` a módszer `Names` gyűjtemény.
+4. Megszerezte az újonnan létrehozott `Name` objektumot, és állítsa be annak `RefersTo` tulajdonságot a képlet értékéhez.
+## 3. lépés: Mentse el a munkafüzetet a névvel ellátott tartománnyal
+Végül a munkafüzetet a megadott tartománnyal mentjük el:
 ```csharp
 wbSource.Save(outputDir + "sampleOutputNamedRangeTest.xlsm");
 Console.WriteLine("SupportNamedRangeFormulasInGermanLocale executed successfully.\r\n");
 ```
-Pada langkah ini, kita:
-1.  Menyimpan yang dimodifikasi`Workbook`objek ke direktori keluaran yang ditentukan.
-2. Mencetak pesan sukses ke konsol.
-Selesai! Anda kini telah berhasil membuat rentang bernama dengan rumus dalam bahasa Jerman menggunakan Aspose.Cells for .NET.
-## Kesimpulan
-Dalam tutorial ini, Anda mempelajari cara bekerja dengan rumus rentang bernama dalam bahasa Jerman menggunakan pustaka Aspose.Cells for .NET. Anda menemukan cara membuat rentang bernama baru, mengatur rumusnya, dan menyimpan buku kerja yang dimodifikasi. Pengetahuan ini dapat berguna saat menangani file Excel yang memerlukan pelokalan tertentu atau saat Anda perlu mengelola rentang bernama dan rumus secara terprogram dalam aplikasi Anda.
-## Pertanyaan yang Sering Diajukan
-### Apa tujuan rentang bernama di Excel?
-Rentang bernama di Excel memungkinkan Anda menetapkan nama deskriptif pada sel atau rentang sel. Hal ini memudahkan untuk merujuk dan menggunakan data dalam rumus dan fungsi.
-### Bisakah Aspose.Cells untuk .NET menangani rentang bernama di lokal yang berbeda?
-Ya, Aspose.Cells untuk .NET mendukung penggunaan rentang bernama dalam berbagai lokal, termasuk lokal Jerman. Contoh dalam tutorial ini menunjukkan cara membuat rentang bernama dengan rumus dalam lokal Jerman.
-### Apakah ada cara untuk mengonversi rumus rentang bernama dari satu lokal ke lokal lainnya?
- Ya, Aspose.Cells untuk .NET menyediakan metode untuk mengonversi rumus antar lokal yang berbeda. Anda dapat menggunakan`ConvertFormula` metode dari`Formula` kelas untuk mengonversi rumus dari satu lokal ke lokal lainnya.
-### Dapatkah saya menggunakan Aspose.Cells untuk .NET untuk membuat dan memanipulasi file Excel secara terprogram?
-Ya, Aspose.Cells untuk .NET adalah pustaka canggih yang memungkinkan Anda membuat, membaca, dan memodifikasi file Excel secara terprogram. Anda dapat melakukan berbagai operasi, seperti membuat lembar kerja, memformat sel, dan menerapkan rumus dan fungsi.
-### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Cells for .NET?
- Anda dapat menemukan dokumentasi untuk Aspose.Cells untuk .NET di[Situs web dokumentasi Aspose](https://reference.aspose.com/cells/net/)Selain itu, Anda dapat mengunduh versi terbaru perpustakaan dari[Halaman unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/) Jika Anda memerlukan bantuan lebih lanjut atau memiliki pertanyaan, Anda dapat menghubungi tim dukungan Aspose melalui[Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Ebben a lépésben a következőket tesszük:
+1. Mentette a módosítottat `Workbook` objektumot a megadott kimeneti könyvtárba.
+2. Sikeres üzenetet nyomtatott a konzolra.
+És ennyi! Sikeresen létrehoztál egy elnevezett tartományt egy képlettel a német területi beállításokkal az Aspose.Cells for .NET használatával.
+## Következtetés
+Ebben az oktatóanyagban megtanultad, hogyan dolgozhatsz elnevezett tartományképletekkel német nyelvi beállításokkal az Aspose.Cells for .NET könyvtár használatával. Felfedezted, hogyan hozhatsz létre egy új elnevezett tartományt, hogyan állíthatod be a képletét, és hogyan mentheted a módosított munkafüzetet. Ez a tudás hasznos lehet, ha olyan Excel-fájlokkal dolgozol, amelyek speciális lokalizációt igényelnek, vagy ha programozottan kell kezelned az elnevezett tartományokat és képleteket az alkalmazásaidban.
+## GYIK
+### Mi a célja az elnevezett tartományoknak az Excelben?
+Az Excelben az elnevezett tartományok lehetővé teszik, hogy leíró nevet rendeljünk egy cellához vagy cellatartományhoz. Ez megkönnyíti az adatokra való hivatkozást és azok használatát képletekben és függvényekben.
+### Az Aspose.Cells for .NET képes kezelni a névvel ellátott tartományokat különböző területi beállításokban?
+Igen, az Aspose.Cells for .NET támogatja az elnevezett tartományok használatát különböző területi beállításokkal, beleértve a német területi beállításokat is. Az oktatóanyagban szereplő példa bemutatja, hogyan hozhat létre elnevezett tartományt egy képlettel a német területi beállításokkal.
+### Van mód arra, hogy egy elnevezett tartományképletet egyik területi beállításból a másikba konvertáljak?
+Igen, az Aspose.Cells for .NET metódusokat biztosít a képletek különböző területi beállítások közötti konvertálásához. Használhatja a `ConvertFormula` a módszer `Formula` osztály egy képlet egyik területi beállításból a másikba konvertálásához.
+### Használhatom az Aspose.Cells for .NET-et Excel fájlok programozott létrehozásához és kezeléséhez?
+Igen, az Aspose.Cells for .NET egy hatékony függvénytár, amely lehetővé teszi Excel-fájlok programozott létrehozását, olvasását és módosítását. Számos műveletet végezhet, például munkalapokat hozhat létre, cellákat formázhat, valamint képleteket és függvényeket alkalmazhat.
+### Hol találok további forrásokat és támogatást az Aspose.Cells for .NET-hez?
+Az Aspose.Cells for .NET dokumentációját a következő címen találja: [Aspose dokumentációs weboldal](https://reference.aspose.com/cells/net/)Ezenkívül letöltheti a könyvtár legújabb verzióját a következő helyről: [Aspose.Cells .NET letöltési oldal](https://releases.aspose.com/cells/net/)Ha további segítségre van szüksége, vagy bármilyen kérdése van, az Aspose ügyfélszolgálatához fordulhat a következő címen: [Aspose.Cells fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

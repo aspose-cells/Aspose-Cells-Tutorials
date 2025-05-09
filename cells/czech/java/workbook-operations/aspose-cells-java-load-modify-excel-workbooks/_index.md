@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ Pro další zkoumání zvažte ponoření se do pokročilých funkcí, jako je v
 Tato komplexní příručka vám umožní využít plný potenciál Aspose.Cells pro Javu a vylepšit správu souborů Excelu v aplikacích Java. Začněte ještě dnes a odemkněte si novou úroveň produktivity!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

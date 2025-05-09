@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Java에서 Excel 파일을 다루도록 설계된 강력한 라이브러리인 A
 
 ### 필수 조건
 
-시작하기 전에 다음 사항이 있는지 확인하세요.
+시작하기에 앞서 다음 사항이 있는지 확인하세요.
 
 - **자바 개발 키트(JDK):** 컴퓨터에 8 이상 버전이 설치되어 있어야 합니다.
 - **IDE:** IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경.
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 - **무료 체험:** 평가판을 다운로드하세요 [Aspose 웹사이트](https://releases.aspose.com/cells/java/).
 - **임시 면허:** 방문하여 연장된 테스트를 위한 임시 라이센스를 얻으십시오. [이 링크](https://purchase.aspose.com/temporary-license/).
-- **구입:** 전체 액세스를 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+- **구입:** 전체 액세스를 위해서는 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 #### 환경 설정
 
@@ -190,12 +192,15 @@ public void localizeChart(Chart chart) {
 - **다운로드:** [Aspose 다운로드](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다:** [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 Aspose.Cells를 사용하여 차트를 효과적으로 현지화하고 Java 애플리케이션의 도달 범위와 영향력을 향상시키는 여정을 시작하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

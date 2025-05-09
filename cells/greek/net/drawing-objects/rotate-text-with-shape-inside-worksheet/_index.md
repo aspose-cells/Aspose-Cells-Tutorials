@@ -1,51 +1,56 @@
 ---
-title: Προσαρμόστε τη διαμόρφωση κειμένου σε Excel χρησιμοποιώντας Aspose.Cells
-weight: 7700
-limit: 
-description: Μάθετε πώς να χειριστείτε το κείμενο μέσα σε ένα σχήμα σε ένα φύλλο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για .NET. Εγκαταστήστε τις ιδιότητες ευθυγράμμισης κειμένου και αποθηκεύστε το τροποποιημένο βιβλίο εργασίας.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /el/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Μάθετε πώς να χειρίζεστε κείμενο μέσα σε ένα σχήμα σε ένα φύλλο εργασίας του Excel χρησιμοποιώντας το Aspose.Cells για .NET. Ορίστε ιδιότητες στοίχισης κειμένου και αποθηκεύστε το τροποποιημένο βιβλίο εργασίας."
+"title": "Τροποποίηση στοίχισης κειμένου σχήματος στο Excel χρησιμοποιώντας το Aspose.Cells"
+"url": "/el/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσαρμόστε τη διαμόρφωση κειμένου σε Excel χρησιμοποιώντας Aspose.Cells
+# Τροποποίηση στοίχισης κειμένου σχήματος στο Excel χρησιμοποιώντας το Aspose.Cells
 
-Αυτό το εγχειρίδιο δείχνει πώς να τροποποιήσετε την ευθυγράμμιση κειμένου μέσα σε ένα σχήμα σε ένα φύλλο εργασίας Excel χρησιμοποιώντας το Aspose.Cells για .NET. Με την αξιοποίηση των ισχυρών χαρακτηριστικών του Aspose.Cells, μπορείτε να αποτρέψετε το κείμενο από την περιστροφή με ένα σχήμα και να προσαρμόσετε τις ιδιότητες ευθυγράμμισης κειμένου. Το παράδειγμα σας καθοδηγεί μέσω της φόρτωσης ενός αρχείου Excel, της πρόσβασης σε ένα φύλλο εργασίας, της τροποποίησης κειμένου μέσα σε ένα σχήμα και της αποθήκευσης του ενημερωμένου βιβλίου εργασίας. Είτε αυτόματοποιείτε αναφορές, δημιουργείτε πρότυπα, ή προσαρμόζετε οπτικά Excel, αυτό το βήμα-με-βήμα οδηγός  
+Αυτό το σεμινάριο δείχνει πώς να τροποποιήσετε τη στοίχιση κειμένου μέσα σε ένα σχήμα σε ένα φύλλο εργασίας του Excel χρησιμοποιώντας το Aspose.Cells για .NET. Αξιοποιώντας τις ισχυρές λειτουργίες του Aspose.Cells, μπορείτε να αποτρέψετε την περιστροφή κειμένου με ένα σχήμα και να προσαρμόσετε τις ιδιότητες στοίχισης κειμένου. Το παράδειγμα σας καθοδηγεί στη φόρτωση ενός αρχείου Excel, στην πρόσβαση σε ένα φύλλο εργασίας, στην τροποποίηση κειμένου μέσα σε ένα σχήμα και στην αποθήκευση του ενημερωμένου βιβλίου εργασίας. Είτε αυτοματοποιείτε αναφορές, είτε δημιουργείτε πρότυπα είτε προσαρμόζετε απεικονίσεις Excel, αυτός ο οδηγός βήμα προς βήμα το κάνει απλό.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης:  
+## Οδηγίες εγκατάστασης:  
 
-Για να χρησιμοποιήσετε το Aspose.Cells για το .NET στο έργο σας, ακολουθήστε τα παρακάτω βήματα:  
+Για να χρησιμοποιήσετε το Aspose.Cells για .NET στο έργο σας, ακολουθήστε τα εξής βήματα:  
 
-1. Εγκατάσταση μέσω του διαχειριστή πακέτων NuGet:  
-   * Ανοίξτε το Visual Studio.  
-   * Πηγαίνετε στα εργαλεία → Διαχειριστής πακέτων NuGet → Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξε για Aspose.Cells και εγκαταστήστε την τελευταία έκδοση.  
+1. Εγκατάσταση μέσω του NuGet Package Manager:  
+   - Ανοίξτε το Visual Studio.  
+   - Μεταβείτε στα Εργαλεία → Διαχειριστής πακέτων NuGet → Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζητήστε το Aspose.Cells και εγκαταστήστε την πιο πρόσφατη έκδοση.  
 
-2. Εγκατάσταση μέσω της κονσόλας διαχειριστής πακέτων:  
-   * Ανοίξτε τη κονσόλα διαχειριστή πακέτων στο Visual Studio.  
-   * Δράσε την εντολή:  
+2. Εγκατάσταση μέσω της Κονσόλας Διαχείρισης Πακέτων:  
+   - Ανοίξτε την Κονσόλα Διαχείρισης Πακέτων στο Visual Studio.  
+   - Εκτελέστε την εντολή:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Κατεβάστε από το ιστοτόπιο Aspose:  
-   * Κατεβάστε την τελευταία έκδοση από [Aspose.Cells για .NET Download](https://releases.aspose.com/cells/net/)\- Δεν ξέρω .  
-   * Προσθέστε το DLL στις αναφορές του έργου σας.  
+3. Λήψη από την ιστοσελίδα της Aspose:  
+   - Κατεβάστε την τελευταία έκδοση από [Λήψη Aspose.Cells για .NET](https://releases.aspose.com/cells/net/).  
+   - Προσθέστε το αρχείο DLL στις αναφορές του έργου σας.  
 
 ## Δείτε επίσης  
-Για να αγοράσετε άδεια, πηγαίνετε στο [Στόχος της σελίδας αγοράς](https://purchase.aspose.com/buy)\- Δεν ξέρω .  
-Για πλήρη τεκμηρίωση, επισκεφθείτε [Aspose.Cells για το .NET Documentation](https://docs.aspose.com/cells/net/)\- Δεν ξέρω .  
-Για να εξερευνήσετε την πλήρη αναφορά API, ελέγξτε [Aspose.Cells για το .NET API Reference](https://reference.aspose.com/cells/net/)\- Δεν ξέρω . 
+Για να αγοράσετε μια άδεια χρήσης, μεταβείτε στη διεύθυνση [Σελίδα Αγοράς Aspose](https://purchase.aspose.com/buy).  
+Για πλήρη τεκμηρίωση, επισκεφθείτε την ιστοσελίδα [Τεκμηρίωση Aspose.Cells για .NET](https://docs.aspose.com/cells/net/).  
+Για να εξερευνήσετε την πλήρη αναφορά API, ανατρέξτε στο [Aspose.Cells για αναφορά API .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Узнайте, как легко сохранять файлы Excel в различных форматах с помощью Aspose.Cells для Java. Это руководство охватывает XLSX, PDF, HTML и многое другое."
+"description": "Узнайте, как легко сохранять файлы Excel в нескольких форматах с помощью Aspose.Cells для Java. Это руководство охватывает XLSX, PDF, HTML и многое другое."
 "title": "Как сохранить файлы Excel в различных форматах с помощью Aspose.Cells Java"
 "url": "/ru/java/workbook-operations/save-excel-files-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ workbook.save("output.html", SaveFormat.HTML);
 Отправьтесь в путешествие с Aspose.Cells Java и измените свой способ управления файлами Excel в различных форматах!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

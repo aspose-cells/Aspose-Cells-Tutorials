@@ -8,7 +8,9 @@ url: /net/workbook-operations/add-digital-signature-to-signed-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Digital Signature to Signed Excel File
@@ -114,6 +116,7 @@ You can check the [Aspose.Cells documentation](https://reference.aspose.com/cell
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

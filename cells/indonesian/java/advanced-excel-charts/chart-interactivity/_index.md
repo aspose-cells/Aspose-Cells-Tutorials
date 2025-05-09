@@ -8,21 +8,23 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interaktivitas Bagan
 
 
-## Perkenalan
+## Bevezetés
 
 Bagan interaktif menambahkan dimensi baru pada visualisasi data, yang memungkinkan pengguna menjelajahi dan memahami data dengan lebih baik. Dalam tutorial ini, kami akan menunjukkan cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda akan mempelajari cara menambahkan fitur seperti tooltip, label data, dan fungsi drill-down ke bagan Anda, yang membuat presentasi data Anda lebih menarik.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 - Lingkungan Pengembangan Java
-- Aspose.Cells untuk Pustaka Java (Unduh dari [Di Sini](https://releases.aspose.com/cells/java/)
+- Aspose.Cells untuk Pustaka Java (Unduh dari [itt](https://releases.aspose.com/cells/java/)
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -34,7 +36,7 @@ Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 Untuk membuat grafik interaktif, Anda memerlukan data. Mari kita mulai dengan memuat beberapa contoh data dari file Excel menggunakan Aspose.Cells.
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("data.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -78,23 +80,23 @@ String url = "https://contoh.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
-## Langkah 5: Menyimpan Buku Kerja
+## 5. lépés: A munkafüzet mentése
 Terakhir, simpan buku kerja dengan bagan interaktif.
 
 ```java
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.save("interactive_chart_output.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah menunjukkan kepada Anda cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menambahkan keterangan alat, label data, dan bahkan menerapkan fungsi drill-down. Fitur-fitur ini meningkatkan interaktivitas bagan Anda dan meningkatkan pemahaman data bagi pengguna Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengubah jenis grafik?
 
-Anda dapat mengubah jenis grafik dengan memodifikasi `ChartType` parameter saat membuat grafik. Misalnya, ganti `ChartType.COLUMN` dengan `ChartType.LINE` untuk membuat diagram garis.
+Anda dapat mengubah jenis grafik dengan memodifikasi `ChartType` parameter saat membuat grafik. Misalnya, ganti `ChartType.COLUMN` -vel `ChartType.LINE` untuk membuat diagram garis.
 
 ### Bisakah saya menyesuaikan tampilan tooltip?
 
@@ -104,13 +106,14 @@ Ya, Anda dapat menyesuaikan tampilan tooltip dengan menyesuaikan properti sepert
 
 Untuk menangani interaksi pengguna, Anda dapat menggunakan JavaScript bersama dengan aplikasi web Anda untuk menangkap peristiwa yang dipicu oleh interaksi bagan seperti klik atau tindakan mengarahkan kursor.
 
-### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
+### Hol találok további példákat és dokumentációt?
 
 Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Cells untuk Java di [Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

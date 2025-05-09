@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamische draaitabellen
@@ -94,7 +96,7 @@ Ja, u kunt aangepaste berekeningen op gegevensvelden toepassen door uw eigen log
 
 ### V2: Hoe kan ik de opmaak van de draaitabel wijzigen?
 
-U kunt de opmaak van de draaitabel wijzigen door de stijleigenschappen te openen en de gewenste opmaak toe te passen.
+kunt de opmaak van de draaitabel wijzigen door de stijleigenschappen te openen en de gewenste opmaak toe te passen.
 
 ### V3: Is het mogelijk om meerdere draaitabellen in hetzelfde werkblad te maken?
 
@@ -107,9 +109,11 @@ Ja, u kunt filters toepassen op draaitabellen om specifieke subsets van gegevens
 ### V5: Ondersteunt Aspose.Cells de geavanceerde draaitabelfuncties van Excel?
 
 Ja, Aspose.Cells biedt uitgebreide ondersteuning voor de geavanceerde draaitabelfuncties van Excel, zodat u complexe draaitabellen kunt maken.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

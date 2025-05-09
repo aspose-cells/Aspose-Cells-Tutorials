@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengubah Lembar Kerja Excel ke JPEG di Java Menggunakan Aspose.Cells: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Perlu berbagi data Excel Anda secara visual? Mengonversi lembar Excel menjadi gambar JPEG merupakan solusi efektif untuk presentasi atau halaman web. Tutorial ini memandu Anda dalam menggunakan **Aspose.Cells untuk Java** untuk mengubah lembar kerja Excel Anda menjadi gambar berkualitas tinggi dengan mudah.
 
@@ -24,7 +26,7 @@ Di akhir panduan ini, Anda akan mempelajari cara:
 
 Mari siapkan semua yang Anda butuhkan sebelum terjun ke coding!
 
-### Prasyarat
+### Előfeltételek
 
 Pastikan Anda telah menyiapkan hal-hal berikut:
 - **Aspose.Cells untuk Java** versi pustaka 25.3 atau yang lebih baru.
@@ -49,9 +51,9 @@ Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven atau Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Dapatkan lisensi sementara untuk pengujian fitur lengkap atau beli langganan untuk menggunakan Aspose.Cells di lingkungan produksi. Kunjungi [Aspose Pembelian](https://purchase.aspose.com/buy) untuk detail pembelian dan [Lisensi Sementara](https://purchase.aspose.com/temporary-license/) untuk pilihan uji coba.
+Dapatkan lisensi sementara untuk pengujian fitur lengkap atau beli langganan untuk menggunakan Aspose.Cells di lingkungan produksi. Kunjungi [Aspose vásárlás](https://purchase.aspose.com/buy) untuk detail pembelian dan [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/) untuk pilihan uji coba.
 
 Setelah Anda menyiapkan perpustakaan, inisialisasikan:
 
@@ -64,11 +66,11 @@ Workbook book = new Workbook(dataDir + "/book1.xlsx");
 
 Kode ini memuat buku kerja Excel yang sudah ada dari direktori yang Anda tentukan. Ganti `"YOUR_DATA_DIRECTORY"` dengan jalur tempat file Excel Anda disimpan.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Memuat dan Membuka Buku Kerja
 
-**Ringkasan**
+**Áttekintés**
 Mulailah dengan memuat buku kerja Excel yang ingin Anda ubah menjadi gambar. Langkah ini memastikan akses ke semua lembar kerja dalam file tersebut.
 
 ```java
@@ -78,14 +80,14 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "/book1.xlsx");
 ```
 
-**Penjelasan**
-- `Workbook`: Mewakili berkas Excel Anda.
+**Magyarázat**
+- `Workbook`: Az Excel-fájlt jelöli.
 - `dataDir`Jalur direktori tempat buku kerja Anda disimpan.
 - Metode ini memuat buku kerja yang ditentukan, memungkinkan Anda memanipulasi isinya.
 
 ### Fitur 2: Mengakses Lembar Kerja dari Buku Kerja
 
-**Ringkasan**
+**Áttekintés**
 Mengakses lembar kerja tertentu dalam buku kerja sangat penting untuk mengubahnya menjadi gambar.
 
 ```java
@@ -94,12 +96,12 @@ import com.aspose.cells.Worksheet;
 Worksheet sheet = book.getWorksheets().get(0);
 ```
 
-**Penjelasan**
+**Magyarázat**
 - `get(0)`: Mengambil lembar kerja pertama dalam buku kerja. Ubah indeks untuk mengakses lembar kerja yang berbeda.
 
 ### Fitur 3: Tentukan ImageOrPrintOptions
 
-**Ringkasan**
+**Áttekintés**
 Sebelum merender, tentukan pilihan gambar Anda seperti format dan kualitas.
 
 ```java
@@ -110,13 +112,13 @@ ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 imgOptions.setImageType(ImageType.JPEG);
 ```
 
-**Penjelasan**
+**Magyarázat**
 - `ImageOrPrintOptions`: Mengonfigurasi bagaimana lembar kerja dikonversi.
 - `setImageType(ImageType.JPEG)`: Mengatur format keluaran ke JPEG.
 
 ### Fitur 4: Render Lembar Kerja sebagai Gambar
 
-**Ringkasan**
+**Áttekintés**
 Ubah dan simpan lembar kerja Anda sebagai gambar JPEG.
 
 ```java
@@ -126,38 +128,38 @@ SheetRender render = new SheetRender(sheet, imgOptions);
 render.toImage(0, "YOUR_OUTPUT_DIRECTORY" + "/CWToImageFile.jpg");
 ```
 
-**Penjelasan**
+**Magyarázat**
 - `SheetRender`: Menangani proses rendering lembar kerja.
 - `toImage(0, "...")`: Mengonversi dan menyimpan halaman pertama (indeks 0) sebagai gambar. Ganti `"YOUR_OUTPUT_DIRECTORY"` dengan jalur keluaran yang Anda inginkan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Mengubah lembar Excel menjadi gambar dapat bermanfaat dalam berbagai skenario:
 
 1. **Laporan Berbagi**: Bagikan laporan dengan mudah melalui email atau presentasi tanpa mengharuskan penerima membuka file Excel.
-2. **Integrasi Web**: Menampilkan data Excel statis pada halaman web di mana fitur interaktif tidak diperlukan.
-3. **Pengarsipan**: Menyimpan cuplikan spreadsheet penting dalam format yang dapat diakses secara universal.
+2. **Webintegráció**: Menampilkan data Excel statis pada halaman web di mana fitur interaktif tidak diperlukan.
+3. **Archiválás**: Menyimpan cuplikan spreadsheet penting dalam format yang dapat diakses secara universal.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat menangani buku kerja Excel yang besar, pertimbangkan hal berikut:
 
 - **Optimalkan Opsi Gambar**: Sesuaikan pengaturan resolusi dan kualitas untuk menyeimbangkan antara ukuran dan kejelasan gambar.
-- **Manajemen Memori**: Pantau penggunaan memori Java dan optimalkan sumber daya sistem Anda untuk kinerja yang lebih baik.
+- **Memóriakezelés**: Pantau penggunaan memori Java dan optimalkan sumber daya sistem Anda untuk kinerja yang lebih baik.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah berhasil mempelajari cara mengonversi lembar kerja Excel menjadi gambar JPEG menggunakan Aspose.Cells untuk Java. Kemampuan ini sangat berharga untuk berbagi data dalam format yang menarik secara visual di berbagai platform. Jelajahi lebih jauh dengan bereksperimen dengan fitur Aspose.Cells tambahan, seperti mengedit sel atau membuat bagan secara terprogram.
 
-Untuk informasi dan dukungan lebih lanjut, kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) dan terlibat dengan komunitas mereka di [Forum](https://forum.aspose.com/c/cells/9).
+Untuk informasi dan dukungan lebih lanjut, kunjungi [Aspose dokumentáció](https://reference.aspose.com/cells/java/) dan terlibat dengan komunitas mereka di [Forum](https://forum.aspose.com/c/cells/9).
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara mengubah beberapa lembar kerja menjadi gambar?**
 A1: Ulangi setiap lembar kerja di buku kerja, menggunakan `book.getWorksheets().get(i)`, dan terapkan proses rendering untuk masing-masing.
 
 **Q2: Dapatkah saya mengubah format gambar ke PNG atau BMP?**
-A2: Ya, dengan pengaturan `imgOptions.setImageType(ImageType.PNG)` atau `ImageType.BMP` masing-masing.
+A2: Ya, dengan pengaturan `imgOptions.setImageType(ImageType.PNG)` vagy `ImageType.BMP` masing-masing.
 
 **Q3: Bagaimana jika buku kerja saya dilindungi kata sandi?**
 A3: Anda dapat memuat buku kerja yang dilindungi dengan memberikan kata sandi dalam konstruktor Buku Kerja seperti berikut: `new Workbook(dataDir + "/book1.xlsx", password)`. 
@@ -172,6 +174,9 @@ Dengan panduan ini, Anda kini siap mengonversi data Excel Anda menjadi gambar de
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

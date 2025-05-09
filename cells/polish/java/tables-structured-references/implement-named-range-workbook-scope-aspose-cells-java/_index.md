@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ Podczas pracy z Aspose.Cells, zwłaszcza na większych arkuszach kalkulacyjnych,
 Dzięki temu przewodnikowi nauczyłeś się, jak wydajnie tworzyć nazwany zakres z zakresem skoroszytu przy użyciu Aspose.Cells Java. Ta możliwość umożliwia usprawnione zarządzanie danymi i ulepszoną łatwość obsługi kodu w projektach Excel.
 
 **Następne kroki:**
-- Poznaj dodatkowe funkcje pakietu Aspose.Cells, takie jak tworzenie wykresów i obliczanie formuł.
+- Poznaj dodatkowe funkcje Aspose.Cells, takie jak tworzenie wykresów i obliczanie formuł.
 - Eksperymentuj, dodając bardziej złożone zakresy i integrując je w większych aplikacjach.
 
 Zachęcamy do wypróbowania tego rozwiązania w kolejnym projekcie. Aby uzyskać dalsze wsparcie, skonsultuj się z [Dokumentacja Aspose](https://reference.aspose.com/cells/java/) lub skontaktuj się z nimi [forum wsparcia](https://forum.aspose.com/c/cells/9).
@@ -149,6 +151,9 @@ A5: Upewnij się, że nazwy zakresów są unikalne i prawidłowe w całym skoros
 Aby uzyskać więcej informacji, zapoznaj się z materiałami dostępnymi na stronie [Pobieranie Aspose](https://releases.aspose.com/cells/java/) i rozważ uzyskanie tymczasowej licencji zapewniającej pełny dostęp do funkcji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

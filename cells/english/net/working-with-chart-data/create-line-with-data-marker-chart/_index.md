@@ -8,7 +8,9 @@ url: /net/working-with-chart-data/create-line-with-data-marker-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Line with Data Marker Chart
@@ -206,6 +208,7 @@ Yes, Aspose.Cells supports a wide range of chart types, including 3D charts.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

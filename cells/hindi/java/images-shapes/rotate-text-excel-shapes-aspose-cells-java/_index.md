@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells को आज़माने के लिए, आप एक निःशुल्क अस्थायी लाइसेंस प्राप्त कर सकते हैं या इसे पूर्ण कार्यक्षमता के लिए खरीद सकते हैं। इन चरणों का पालन करें:
 
 1. **मुफ्त परीक्षण**: लाइब्रेरी को यहां से डाउनलोड करें [Aspose डाउनलोड](https://releases.aspose.com/cells/java/).
-2. **अस्थायी लाइसेंस**अस्थायी लाइसेंस के लिए अनुरोध करें [Aspose अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
-3. **खरीदना**: दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy).
+2. **अस्थायी लाइसेंस**: अस्थायी लाइसेंस के लिए अनुरोध करें [Aspose अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/).
+3. **खरीदना**दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy).
 
 ### बुनियादी आरंभीकरण और सेटअप
 
@@ -199,6 +201,9 @@ wb.save(outDir + "/outputRotateTextWithShapeInsideWorksheet.xlsx");
 इन तकनीकों के साथ प्रयोग करें, और Aspose.Cells for Java का उपयोग करके अपने Excel दस्तावेज़ हेरफेर को अगले स्तर तक ले जाएं!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

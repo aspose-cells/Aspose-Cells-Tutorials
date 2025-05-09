@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,7 +187,7 @@ Fedezze fel a lehetőségeket további kísérletezéssel különböző adatszer
 
 ## Erőforrás
 - **Dokumentáció:** [Aspose.Cells referencia](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Kiadások oldala](https://releases.aspose.com/cells/java/)
 - **Vásárlási lehetőségek:** [Vásároljon most](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Próbálja ki az Aspose-t ingyen](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
@@ -194,6 +196,9 @@ Fedezze fel a lehetőségeket további kísérletezéssel különböző adatszer
 Az ebben az útmutatóban vázolt ismeretek és eszközök elsajátításával jó úton haladsz az adatimportálási és -kezelési feladatok elsajátítása felé az Aspose.Cells for Java használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Excel 파일을 프로그래밍 방식으로 작업할 때 특정 셀에 드롭�
 ## 필수 조건
 
 다음 사항이 있는지 확인하세요.
-- **자바 개발 키트(JDK):** 시스템에 8버전 이상이 설치되어 있어야 합니다.
+- **자바 개발 키트(JDK):** 시스템에 8 이상 버전이 설치되어 있어야 합니다.
 - **IDE:** Java 코드를 작성하고 실행하기 위한 IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경.
 - **Maven 또는 Gradle:** 종속성을 관리하기 위한 것입니다. 이 튜토리얼에는 두 가지 모두에 대한 설정 지침이 포함되어 있습니다.
 
@@ -84,7 +86,7 @@ public class ExcelDropdownValidation {
         // 원하는 워크시트에 접근하세요
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // 추가 작업을 위해 워크시트에서 셀 수집을 얻으세요.
+        // 추가 작업을 위해 워크시트에서 셀 수집을 얻으세요
         Cells cells = sheet.getCells();
     }
 }
@@ -194,6 +196,9 @@ System.out.println("CheckIfValidationInCellDropDown completed successfully");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

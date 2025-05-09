@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ dependencies {
 ### Fasi di acquisizione della licenza
 - **Prova gratuita:** Scarica una prova gratuita da [Prova gratuita di Aspose.Cells](https://releases.aspose.com/cells/java/).
 - **Licenza temporanea:** Per effettuare test senza limitazioni di valutazione, richiedi una licenza temporanea a [Pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
-- **Acquistare:** Acquista una licenza completa per uso continuativo da [Pagina di acquisto Aspose](https://purchase.aspose.com/buy).
+- **Acquistare:** Acquista una licenza completa per un utilizzo continuativo da [Pagina di acquisto Aspose](https://purchase.aspose.com/buy).
 
 ### Inizializzazione e configurazione di base
 Per inizializzare Aspose.Cells nel tuo progetto Java, segui questi passaggi:
@@ -209,6 +211,9 @@ Pronti a migliorare le vostre competenze di integrazione tra Java ed Excel? Prov
 - **A4:** Utilizza le opzioni di stile delle celle fornite da Aspose.Cells per formattare numeri, testo e altro ancora.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

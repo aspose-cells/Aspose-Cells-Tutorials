@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ A5: Besuchen Sie die [Aspose.Cells-Dokumentation](https://reference.aspose.com/c
 Entdecken Sie diese Ressourcen, um Ihr Verständnis zu vertiefen und Ihre Implementierung von Aspose.Cells in Java-Projekten zu verbessern. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tablolar Oluşturma
@@ -102,9 +104,11 @@ Bu eğitimde, Aspose.Cells for Java API'sini kullanarak Pivot Tablolar oluşturm
    Bu eğitimde gösterildiği gibi, Aspose.Cells for Java API'sini kullanarak Java'da Pivot Tablo oluşturmayı otomatikleştirebilirsiniz.
 
 Artık Aspose.Cells kullanarak Java'da güçlü Pivot Tablolar oluşturmak için gereken bilgiye ve koda sahipsiniz. Pivot Tablolarınızı özel ihtiyaçlarınıza göre uyarlamak için farklı veri kaynakları ve yapılandırmaları deneyin. Mutlu veri analizi!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

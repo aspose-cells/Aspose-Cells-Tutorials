@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ Az Aspose.Cells Java-beli használatának megkezdéséhez kövesse az alábbi l�
 2. **Licencszerzés**:
    - **Ingyenes próbaverzió**Ideális a funkciók kipróbálására a vásárlás előtt.
    - **Ideiglenes engedély**: Használja ezt, ha a próbaidőszakon túl hosszabb hozzáférésre van szüksége.
-   - **Vásárlás**Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását.
+   - **Vásárlás**Hosszú távú használat esetén érdemes megfontolni a licenc megvásárlását.
 3. **Alapvető inicializálás**:
    ```java
    // Az Aspose.Cells inicializálása Java-ban
@@ -165,6 +167,9 @@ Készen állsz arra, hogy beépített stílusokkal gazdagítsd Excel-fájljaidat
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

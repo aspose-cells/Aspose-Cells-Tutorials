@@ -6,8 +6,11 @@ description: Learn how to load an Excel workbook, modify shape Z-orders, and sav
 keywords: [Aspose.Cells, C#, .NET, Excel manipulation, Z-order, shapes, workbook, developers, code example]
 url: /net/drawing-objects/send-shape-front-or-back-in-worksheet/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulating Z-Order of Shapes in Excel using Aspose.Cells
@@ -15,9 +18,11 @@ url: /net/drawing-objects/send-shape-front-or-back-in-worksheet/
 This example demonstrates how to use Aspose.Cells for .NET to load an Excel workbook, manipulate the Z-order positions of shapes within a worksheet, and save the updated workbook. By following this guide, developers can gain insight into accessing shapes, adjusting their visual stacking order, and ensuring the correct representation of elements in Excel files. The code snippets provided offer a clear step-by-step approach to performing these operations efficiently.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/send-shape-front-or-back-in-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 1. Ensure you have a .NET development environment set up, such as Visual Studio.  
@@ -40,7 +45,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

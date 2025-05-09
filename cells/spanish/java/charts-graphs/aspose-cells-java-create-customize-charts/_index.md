@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ Ya domina la creación y personalización de gráficos con Aspose.Cells en Java.
 Siguiendo esta guía, podrás crear y personalizar gráficos en aplicaciones Java con Aspose.Cells fácilmente. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

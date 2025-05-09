@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "जानें कि Aspose.Cells for Java का उपयोग करके विरासत SXC फ़ाइलों को कैसे सहजता से लोड और मैनिपुलेट किया जाए। यह गाइड सेटअप से लेकर वर्कशीट और सेल तक पहुँचने तक सब कुछ कवर करती है।"
+"description": "जानें कि Aspose.Cells for Java का उपयोग करके विरासत SXC फ़ाइलों को कैसे सहजता से लोड और मैनिपुलेट किया जाए। यह गाइड सेटअप से लेकर वर्कशीट और सेल तक पहुँचने तक सब कुछ बताती है।"
 "title": "Java में Aspose.Cells के साथ SXC फ़ाइलों को कैसे लोड और एक्सेस करें&#58; एक व्यापक गाइड"
 "url": "/hi/java/workbook-operations/aspose-cells-java-load-access-sxc-files/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells मैक्रो-सक्षम फ़ाइलों को प
 इस व्यापक गाइड का पालन करके, अब आप Java के लिए Aspose.Cells का उपयोग करके SXC फ़ाइलों के साथ कुशलतापूर्वक काम करने के लिए तैयार हैं। चाहे आप अपने अनुप्रयोगों को बेहतर बनाने के इच्छुक डेवलपर हों या डेटा प्रोसेसिंग कार्यों को सुव्यवस्थित करने का लक्ष्य रखने वाला संगठन, Aspose.Cells इन लक्ष्यों को सहजता से प्राप्त करने के लिए आवश्यक उपकरण प्रदान करता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

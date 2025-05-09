@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licencszerzés
 Az Aspose.Cells teljes funkcionalitásához licenc szükséges:
 - **Ingyenes próbaverzió**Letöltés innen: [Aspose kiadások](https://releases.aspose.com/cells/java/) korlátozásokkal tesztelni.
-- **Ideiglenes engedély**Ideiglenes jogosítvány beszerzése a következőn keresztül: [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/).
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás**A megszakítás nélküli hozzáféréshez vásároljon teljes licencet a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
 ## Az Aspose.Cells beállítása Java-hoz
@@ -102,7 +104,7 @@ public class CreateWorkbook {
 - **Magyarázat**A `Workbook` konstruktor inicializál egy üres Excel fájlt, amely kiindulópontként szolgál az adatkezeléshez.
 
 ### Munkalap cellák elérése és módosítása
-**Áttekintés**: Ismerje meg, hogyan férhet hozzá egy munkalap adott celláihoz, és hogyan módosíthatja azok tartalmát, ami elengedhetetlen a jelentések vagy adathalmazok testreszabásához.
+**Áttekintés**: Ismerje meg, hogyan férhet hozzá egy munkalapon belüli adott cellákhoz, és hogyan módosíthatja azok tartalmát, ami elengedhetetlen a jelentések vagy adathalmazok testreszabásához.
 
 #### Lépésről lépésre történő megvalósítás
 **Új munkafüzet-példány létrehozása**
@@ -135,7 +137,7 @@ public class ModifyWorksheetCells {
 - **Magyarázat**A `get()` metódus bizonyos cellákhoz fér hozzá, lehetővé téve az adatok bevitelét a `putValue()` módszer.
 
 ### Képletek hozzárendelése cellákhoz
-**Áttekintés**: Ez a funkció bemutatja, hogyan állíthat be képleteket programozottan az Excel cellákban. Hasznos a táblázatokon belüli dinamikus számításokhoz.
+**Áttekintés**Ez a funkció bemutatja, hogyan állíthat be képleteket programozottan az Excel cellákban. Hasznos a táblázatokon belüli dinamikus számításokhoz.
 
 #### Lépésről lépésre történő megvalósítás
 **Új munkafüzet-példány létrehozása**
@@ -206,6 +208,9 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan hozhatunk létre és módos
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

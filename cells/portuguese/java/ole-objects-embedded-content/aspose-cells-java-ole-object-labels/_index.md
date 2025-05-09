@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ Para garantir o desempenho ideal ao usar o Aspose.Cells para Java, considere est
 Seguindo este guia, você aprendeu a modificar e verificar rótulos de objetos OLE usando o Aspose.Cells para Java. Essas habilidades ajudarão você a gerenciar arquivos do Excel com mais eficiência em diversos cenários profissionais. Para explorar mais a fundo, considere explorar outros recursos do Aspose.Cells para liberar um potencial ainda maior em suas tarefas de gerenciamento de dados.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

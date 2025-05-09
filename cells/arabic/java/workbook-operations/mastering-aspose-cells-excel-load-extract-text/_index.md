@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,6 +200,9 @@ for (int i = 0; i < shps.length; i++) {
 ابدأ رحلتك مع Aspose.Cells for Java اليوم واكتشف الإمكانات الكاملة لمعالجة ملفات Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

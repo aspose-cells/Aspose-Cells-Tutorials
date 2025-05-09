@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ title = valueAxis.getTitle();
 title.setText("Value");
 ```
 
-### Lägga till N-serien i diagrammet (H2)
+### Lägga till NSeries i diagrammet (H2)
 
 N-serier representerar datapunkter i ditt diagram. Det här avsnittet visar hur du lägger till serier från ett specifikt cellområde och anpassar deras utseende.
 
@@ -186,7 +188,7 @@ point.getArea().setForegroundColor(Color.getCyan());
 
 I den här handledningen har du lärt dig hur du använder Aspose.Cells för Java för att förbättra Excel-diagram genom att ange titlar, anpassa axeletiketter och tillämpa färgscheman. Dessa tekniker förbättrar inte bara det visuella intrycket utan hjälper också till vid datatolkning. Nästa steg inkluderar att utforska mer avancerade funktioner som villkorsstyrd formatering och integrera dina diagram i större applikationer.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Hur installerar jag Aspose.Cells för Java?** 
    Följ instruktionerna för Maven eller Gradle som finns i installationsavsnittet för att lägga till det som ett beroende.
@@ -212,6 +214,9 @@ I den här handledningen har du lärt dig hur du använder Aspose.Cells för Jav
 - **Stöd**: [Aspose-forum för support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

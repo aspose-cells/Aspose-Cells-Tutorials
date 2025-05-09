@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportar Excel a PDF
@@ -106,9 +108,11 @@ Si bien Aspose.Cells está optimizado para el manejo eficiente de archivos grand
 Q5: ¿Dónde puedo encontrar más documentación y ejemplos para Aspose.Cells?
 
 Explora la documentación de la API de Aspose.Cells en [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para obtener documentación completa y una gran cantidad de ejemplos para ampliar aún más sus conocimientos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

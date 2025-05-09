@@ -1,28 +1,30 @@
 ---
-title: Bảo vệ hàng cụ thể trong bảng tính Excel
-linktitle: Bảo vệ hàng cụ thể trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách bảo vệ các hàng cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành riêng cho nhà phát triển.
-weight: 90
-url: /vi/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
+"description": "Tìm hiểu cách bảo vệ các hàng cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành riêng cho nhà phát triển."
+"linktitle": "Bảo vệ hàng cụ thể trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ hàng cụ thể trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/protect-specific-row-in-excel-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ hàng cụ thể trong bảng tính Excel
 
 ## Giới thiệu
 
-Trong thế giới phát triển nhanh như hiện nay, việc quản lý bảng tính hiệu quả quan trọng hơn bao giờ hết. Microsoft Excel là một công cụ không thể thiếu trong nhiều ngành và nghề. Tuy nhiên, khi chúng ta chia sẻ những tài liệu này, đặc biệt là trong môi trường cộng tác, việc bảo vệ thông tin cụ thể trong bảng tính trở nên rất quan trọng. Vậy, làm thế nào bạn có thể niêm phong một hàng trong Excel để ngăn chặn các sửa đổi không mong muốn? Vâng, nếu bạn đang làm việc với .NET, bạn thật may mắn! Aspose.Cells là một thư viện tuyệt vời để xử lý các tệp Excel theo chương trình, cho phép chúng ta bảo vệ các hàng cụ thể một cách hiệu quả.
+Trong thế giới phát triển nhanh như ngày nay, việc quản lý bảng tính hiệu quả quan trọng hơn bao giờ hết. Microsoft Excel là một công cụ không thể thiếu trong nhiều ngành và nghề. Tuy nhiên, khi chúng ta chia sẻ những tài liệu này, đặc biệt là trong môi trường cộng tác, việc bảo vệ thông tin cụ thể trong bảng tính trở nên rất quan trọng. Vậy, làm thế nào bạn có thể niêm phong một hàng trong Excel để ngăn chặn các sửa đổi không mong muốn? Vâng, nếu bạn đang làm việc với .NET, bạn thật may mắn! Aspose.Cells là một thư viện tuyệt vời để xử lý các tệp Excel theo chương trình, cho phép chúng ta bảo vệ các hàng cụ thể một cách hiệu quả.
 
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể sử dụng bất kỳ phiên bản nào hỗ trợ phát triển .NET.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Truy cập[liên kết này để tải xuống](https://releases.aspose.com/cells/net/) bản phát hành mới nhất.
+2. Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Truy cập [liên kết này để tải xuống](https://releases.aspose.com/cells/net/) bản phát hành mới nhất.
 3. Kiến thức cơ bản về .NET: Sự quen thuộc với C# và các khái niệm lập trình cơ bản sẽ hữu ích vì chúng ta sẽ làm việc với các đoạn mã.
 
 Khi bạn đã chuẩn bị mọi thứ xong xuôi, chúng ta hãy bắt tay vào làm thôi!
@@ -61,11 +63,11 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel mới của mình.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel mới của mình.
 
 ## Bước 2: Tạo một Workbook mới
 
-Tiếp theo, chúng ta sẽ tạo một sổ làm việc mới bằng Aspose.Cells. Đây là khung trống để bạn tạo bảng tính.
+Tiếp theo, chúng ta sẽ tạo một sổ làm việc mới bằng Aspose.Cells. Đây là khung làm việc trống để tạo bảng tính.
 
 ```csharp
 // Tạo một bảng tính mới.
@@ -106,11 +108,11 @@ for (int i = 0; i <= 255; i++)
 Bây giờ, đã đến lúc khóa hàng bạn muốn bảo vệ. Trong trường hợp này, chúng ta đang khóa hàng đầu tiên.
 
 ```csharp
-//Nhận kiểu hàng đầu tiên.
+// Nhận kiểu hàng đầu tiên.
 style = sheet.Cells.Rows[0].Style;
 // Khóa nó lại.
 style.IsLocked = true;
-//Tạo cờ.
+// Tạo cờ.
 flag = new StyleFlag();
 // Thiết lập cài đặt khóa.
 flag.Locked = true;
@@ -149,16 +151,18 @@ Có, bạn có thể lặp lại quy trình khóa cho bất kỳ hàng nào khá
 Bạn có thể chọn từng ô và áp dụng kiểu khóa, tương tự như cách bạn khóa một hàng.
 
 ### Aspose.Cells có miễn phí sử dụng không?  
- Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có cần kết nối Internet để sử dụng Aspose.Cells không?  
 Không, Aspose.Cells là thư viện .NET và có thể hoạt động ngoại tuyến sau khi bạn đã cài đặt.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?  
- Đối với bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Đối với bất kỳ thắc mắc hoặc hỗ trợ nào, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

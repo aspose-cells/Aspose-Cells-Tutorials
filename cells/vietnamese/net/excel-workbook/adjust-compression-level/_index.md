@@ -1,14 +1,16 @@
 ---
-title: Điều chỉnh mức độ nén
-linktitle: Điều chỉnh mức độ nén
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách điều chỉnh mức độ nén cho các tệp Excel bằng Aspose.Cells cho .NET. Tối ưu hóa kích thước tệp của bạn một cách hiệu quả với hướng dẫn từng bước này.
-weight: 50
-url: /vi/net/excel-workbook/adjust-compression-level/
+"description": "Tìm hiểu cách điều chỉnh mức độ nén cho các tệp Excel bằng Aspose.Cells cho .NET. Tối ưu hóa kích thước tệp của bạn một cách hiệu quả với hướng dẫn từng bước này."
+"linktitle": "Điều chỉnh mức độ nén"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Điều chỉnh mức độ nén"
+"url": "/vi/net/excel-workbook/adjust-compression-level/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Điều chỉnh mức độ nén
@@ -22,7 +24,7 @@ Khi nói đến việc xử lý các tệp Excel lớn, lưu trữ hiệu quả 
 Trước khi đi sâu vào chi tiết về các mức nén, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# là điều cần thiết. Nếu bạn thoải mái với các biến, vòng lặp và các thao tác tệp cơ bản, bạn đã sẵn sàng!
-2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/cells/net/) . Nếu bạn mới bắt đầu, hãy cân nhắc dùng thử miễn phí[đây](https://releases.aspose.com/).
+2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/cells/net/). Nếu bạn mới bắt đầu, hãy cân nhắc dùng thử miễn phí [đây](https://releases.aspose.com/).
 3. Môi trường phát triển: Thiết lập môi trường phát triển, lý tưởng nhất là Visual Studio, để viết và thực thi mã C#. 
 4. Tệp Excel mẫu: Chuẩn bị một tệp Excel lớn để thử nghiệm. Bạn có thể tạo một tệp hoặc sử dụng bất kỳ tệp nào hiện có, nhưng hãy đảm bảo tệp đủ lớn để thấy được hiệu ứng nén.
 
@@ -40,7 +42,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
- Đoạn mã này nhập`Aspose.Cells` không gian tên, chứa tất cả các lớp cần thiết để làm việc với các tệp Excel.`Aspose.Cells.Xlsb` không gian tên dành riêng để xử lý các định dạng tệp XLSB.
+Đoạn mã này nhập `Aspose.Cells` không gian tên, chứa tất cả các lớp cần thiết để làm việc với các tệp Excel. `Aspose.Cells.Xlsb` không gian tên dành riêng để xử lý các định dạng tệp XLSB.
 
 Bây giờ chúng ta đã thiết lập mọi thứ, hãy chia nhỏ quy trình điều chỉnh mức độ nén thành các bước dễ quản lý. Chúng ta sẽ lưu một sổ làm việc với các mức độ nén khác nhau và đo thời gian thực hiện cho từng thao tác. 
 
@@ -62,11 +64,11 @@ Tiếp theo, chúng ta sẽ tải bảng tính Excel mà chúng ta muốn nén. 
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Dòng này khởi tạo một cái mới`Workbook` đối tượng với tệp đã chỉ định. Đảm bảo đường dẫn tệp là chính xác; nếu không, bạn sẽ gặp lỗi.
+Dòng này khởi tạo một cái mới `Workbook` đối tượng với tệp đã chỉ định. Đảm bảo đường dẫn tệp là chính xác; nếu không, bạn sẽ gặp lỗi.
 
 ## Bước 3: Tạo tùy chọn lưu cho XLSB
 
- Bây giờ, chúng ta sẽ tạo một thể hiện của`XlsbSaveOptions`, cho phép chúng ta chỉ định cách chúng ta muốn lưu sổ làm việc, bao gồm cả mức độ nén.
+Bây giờ, chúng ta sẽ tạo một thể hiện của `XlsbSaveOptions`, cho phép chúng ta chỉ định cách chúng ta muốn lưu sổ làm việc, bao gồm cả mức độ nén.
 
 ```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
@@ -131,7 +133,7 @@ Sau khi thực hiện tất cả các bước trên, bạn sẽ thấy thời gi
 Console.WriteLine("AdjustCompressionLevel executed successfully.");
 ```
 
-Dòng này xác nhận toàn bộ quá trình đã hoàn tất mà không có vấn đề gì.
+Dòng này xác nhận rằng toàn bộ quá trình đã hoàn tất mà không có vấn đề gì.
 
 ## Phần kết luận
 
@@ -140,22 +142,24 @@ Dòng này xác nhận toàn bộ quá trình đã hoàn tất mà không có v�
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
 ### Làm thế nào để tải xuống Aspose.Cells?
- Bạn có thể tải xuống thư viện Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống thư viện Aspose.Cells từ [trang web](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể truy cập[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể truy cập [đây](https://releases.aspose.com/).
 
 ### Có những mức độ nén nào?
 Aspose.Cells hỗ trợ nhiều mức nén khác nhau, từ Mức 1 (nén ít nhất) đến Mức 9 (nén tối đa).
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được hỗ trợ và đặt câu hỏi trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ và đặt câu hỏi trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

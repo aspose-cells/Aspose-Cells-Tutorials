@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Параметры и методы
 - **Рабочая тетрадь**: Представляет весь файл Excel.
-- **Рабочий лист**: Относится к одному листу в рабочей книге.
+- **Рабочий лист**Относится к одному листу в рабочей книге.
 - **ThreadedCommentКоллекция**Коллекция комментариев, связанных с ячейкой.
 
 ## Практические применения
@@ -148,6 +150,9 @@ for (Object obj : threadedComments) {
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

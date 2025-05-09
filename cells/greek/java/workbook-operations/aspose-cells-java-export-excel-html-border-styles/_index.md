@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ public class SaveWorkbookAsHtml {
 - **Αγορά**Αγοράστε μια άδεια χρήσης στο [Σελίδα Αγοράς Aspose](https://purchase.aspose.com/temporary-license/) για μακροχρόνια χρήση.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

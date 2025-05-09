@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Microsoft Office 라이브러리를 통합하면 Excel 매크로에서 광범위
 
 ## 성능 고려 사항
 - **메모리 사용 최적화**: 사용 `Workbook.setMemorySetting` 메모리 사용을 효과적으로 관리합니다.
-- **대용량 파일을 효율적으로 처리**: 필요한 경우 큰 작업 문서를 관리하기 쉬운 덩어리로 나누고 부분별로 처리합니다.
+- **대용량 파일을 효율적으로 처리**: 필요한 경우 큰 작업 문서를 관리하기 쉬운 덩어리로 나누고, 각 부분별로 처리합니다.
 - **모범 사례**: 라이브러리를 정기적으로 업데이트하고 Aspose.Cells의 기본 성능 향상 기능을 활용하세요.
 
 ## 결론
@@ -172,6 +174,9 @@ Microsoft Office 라이브러리를 통합하면 Excel 매크로에서 광범위
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

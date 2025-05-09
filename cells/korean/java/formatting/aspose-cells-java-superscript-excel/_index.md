@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Java 애플리케이션에서 직접 상위 첨자 서식을 추가하여 Excel 
 
 ## 필수 조건
 
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 - **자바용 Aspose.Cells** 라이브러리(버전 25.3 이상)
 - Java 코드를 작성하고 실행하기 위한 IntelliJ IDEA 또는 Eclipse와 같은 IDE
 - 객체 지향 원칙을 포함한 Java 프로그래밍 개념에 대한 기본 이해
@@ -122,7 +124,7 @@ font.setSuperscript(true);
 cell.setStyle(style);
 ```
 
-- `setValue("Hello Aspose!")`: 초기 내용을 설정합니다.
+- `setValue("Hello Aspose!")`: 초기 콘텐츠를 설정합니다.
 - `setSuperscript(true)`: 텍스트에 상위 첨자 서식을 적용합니다.
 
 ### 통합 문서 저장
@@ -183,6 +185,9 @@ Java를 사용하여 Aspose.Cells에서 위 첨자 서식을 설정하는 방법
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

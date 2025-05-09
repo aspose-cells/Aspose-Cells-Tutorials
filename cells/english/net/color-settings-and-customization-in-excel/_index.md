@@ -8,7 +8,9 @@ url: /net/color-settings-and-customization-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Color Settings and Customization in Excel
@@ -26,9 +28,11 @@ One fascinating feature of Excel is conditional formatting. Excel automatically 
 ## Color Settings and Customization in Excel Tutorials
 ### [Compute Color Chosen by MS Excel Programmatically](./compute-color-chosen-by-ms-excel/)
 Learn how to compute the color chosen by MS Excel using Aspose.Cells for .NET. Follow this step-by-step guide to access Excel’s conditional formatting color programmatically.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

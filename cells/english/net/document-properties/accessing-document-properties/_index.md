@@ -8,7 +8,9 @@ url: /net/document-properties/accessing-document-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accessing Document Properties in .NET
@@ -76,9 +78,11 @@ While you can obtain a free trial, a valid license is required for the full vers
 Yes, you can access extensive support resources, including forums and documentation, available [here](https://forum.aspose.com/c/cells/9).
 ### How can I get a temporary license for Aspose.Cells?
 You can apply for a temporary license to evaluate the product by visiting [this link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

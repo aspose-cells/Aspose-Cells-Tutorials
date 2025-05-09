@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A2: استخدم تبعيات Maven أو Gradle كما هو موضح سابقً�
 ج3: نعم، يمكنك إضافة مؤلفين متعددين للتعامل مع المعلقين المختلفين في مصنف Excel الخاص بك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

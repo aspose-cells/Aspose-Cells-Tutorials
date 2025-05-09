@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ workbook.save(outDir + "/outputSampleBackgroundFile.xlsx", SaveFormat.XLSX);
 ابدأ رحلتك مع Aspose.Cells اليوم وقم بتغيير طريقة تعاملك مع ملفات Excel في Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

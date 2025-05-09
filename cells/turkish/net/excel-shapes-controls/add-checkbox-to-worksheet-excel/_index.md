@@ -1,14 +1,16 @@
 ---
-title: Excel'de Çalışma Sayfasına Onay Kutusu Ekleme
-linktitle: Excel'de Çalışma Sayfasına Onay Kutusu Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına onay kutularını nasıl kolayca ekleyeceğinizi adım adım anlatan, kod örnekleri ve açıklamalarla dolu eğitimimiz ile keşfedin.
-weight: 18
-url: /tr/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına onay kutularını nasıl kolayca ekleyeceğinizi adım adım anlatan, kod örnekleri ve açıklamalarla dolu eğitimimiz ile keşfedin."
+"linktitle": "Excel'de Çalışma Sayfasına Onay Kutusu Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Çalışma Sayfasına Onay Kutusu Ekleme"
+"url": "/tr/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Çalışma Sayfasına Onay Kutusu Ekleme
@@ -17,9 +19,9 @@ url: /tr/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
 Excel'de veri yönetimi söz konusu olduğunda, görevlerinizi kolaylaştırabilecek ve elektronik tablolarınızı geliştirebilecek sayısız işlev ve yöntem vardır. Bu özelliklerden biri de onay kutusudur - kullanıcıların doğrudan Excel çalışma sayfalarında ikili seçimler yapmalarına olanak tanıyan kullanışlı bir küçük araçtır. Bu kılavuzda, .NET için Aspose.Cells kitaplığını kullanarak bir Excel çalışma sayfasına onay kutusu ekleme sürecini adım adım anlatacağız. O halde, kemerlerinizi bağlayın ve Excel otomasyon dünyasına heyecan verici bir yolculuğa hazır olun!
 ## Ön koşullar
 Kodlamanın inceliklerine dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşullar:
-- Görsel Stüdyo: Visual Studio ile çalışan bir ortamınız olduğunu varsayıyoruz. Değilse, bunu şuradan kolayca indirebilirsiniz:[Visual Studio](https://visualstudio.microsoft.com/vs/).
+- Visual Studio: Visual Studio ile çalışan bir ortamınız olduğunu varsayıyoruz. Değilse, bunu şuradan kolayca indirebilirsiniz: [Görsel Stüdyo](https://visualstudio.microsoft.com/vs/).
 - .NET Framework: Sisteminizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells'in .NET sürümünüzle uyumluluğunu kontrol edin.
--  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesini indirmeniz ve referans almanız gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+- .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesini indirmeniz ve referans almanız gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 - C# Temel Anlayışı: C# programlamaya dair temel bir anlayışa sahip olmak, örnekleri daha kolay takip etmenize yardımcı olacaktır.
 Bu ön koşulları tamamladığınıza göre, başlayalım!
 ## Paketleri İçe Aktar
@@ -56,7 +58,7 @@ Sonra, yeni bir çalışma kitabı örneği oluşturmamız gerekiyor. Bu, tüm E
 Workbook excelBook = new Workbook();
 ```
 ## Adım 3: Çalışma Sayfasına Bir Onay Kutusu Ekleyin
- Şimdi, çalışma kitabımızın ilk çalışma sayfasına bir onay kutusu ekleyelim. Onay kutusunun konumunu ve boyutunu şunu kullanarak belirtebilirsiniz:`Add` yöntem:
+Şimdi, çalışma kitabımızın ilk çalışma sayfasına bir onay kutusu ekleyelim. Onay kutusunun konumunu ve boyutunu şunu kullanarak belirtebilirsiniz: `Add` yöntem:
 ```csharp
 // Çalışma kitabındaki ilk çalışma sayfasına bir onay kutusu ekleyin.
 int index = excelBook.Worksheets[0].CheckBoxes.Add(5, 5, 100, 120);
@@ -100,16 +102,18 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasına bir 
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmalarına, düzenlemelerine ve yönetmelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose, Aspose.Cells'in ücretsiz deneme sürümünü sunuyor. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, Aspose, Aspose.Cells'in ücretsiz deneme sürümünü sunuyor. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Deneme sürümünü ücretsiz olarak kullanabilmenize rağmen, sürekli kullanım ve tüm özelliklere erişim için ücretli bir lisans gereklidir. Bunu satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Deneme sürümünü ücretsiz olarak kullanabilmenize rağmen, sürekli kullanım ve tüm özelliklere erişim için ücretli bir lisans gereklidir. Bunu satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Aspose.Cells için dokümanları nerede bulabilirim?
- Tam dokümantasyon mevcuttur[Burada](https://reference.aspose.com/cells/net/).
+Tam dokümantasyon mevcuttur [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için nasıl destek alabilirim?
- Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa Aspose destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Herhangi bir sorunuz varsa veya yardıma ihtiyacınız varsa Aspose destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

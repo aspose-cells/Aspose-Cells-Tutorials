@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ R : Oui, l’utilisation de son API de streaming permet de gérer efficacement l
 En suivant ces étapes et ressources, vous serez bien équipé pour implémenter efficacement Aspose.Cells pour Java dans vos projets. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

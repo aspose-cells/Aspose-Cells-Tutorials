@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@
 - สภาพแวดล้อมการพัฒนาการทำงานด้วย Maven หรือ Gradle
 - ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรมภาษา Java
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความคุ้นเคยกับการตั้งค่าโครงการ Java โดยใช้เครื่องมือสร้างเช่น Maven หรือ Gradle
 - ความเข้าใจเกี่ยวกับไฟล์ Excel และส่วนประกอบต่างๆ เช่น เวิร์กชีตและแผนภูมิ
 
@@ -175,6 +177,9 @@ workbook.save(outDir + "SCellRAsTheDataLabels_out.xlsx");
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ workbook.save(outDir + "/HTCCustomChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 立即開始使用 Aspose.Cells for Java 來增強您的資料視覺化能力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

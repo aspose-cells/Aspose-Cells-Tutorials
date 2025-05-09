@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Gratulujeme! Naučili jste se, jak efektivně vkládat řádky do sešitů aplik
 Vydejte se na svou cestu s Aspose.Cells pro Javu ještě dnes a zrevolucionizujte způsob, jakým pracujete s daty v Excelu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

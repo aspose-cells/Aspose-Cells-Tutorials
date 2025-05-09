@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Skapa pivottabeller
@@ -102,9 +104,11 @@ I den här handledningen har vi gått igenom processen för att skapa pivottabel
    Du kan automatisera skapandet av pivottabeller i Java med hjälp av Aspose.Cells för Java API, vilket visas i den här handledningen.
 
 Nu har du kunskapen och koden för att skapa kraftfulla pivottabeller i Java med Aspose.Cells. Experimentera med olika datakällor och konfigurationer för att skräddarsy dina pivottabeller efter dina specifika behov. Lycka till med dataanalysen!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Operacje łączenia i konfiguracji
-linktitle: Operacje łączenia i konfiguracji
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odkryj kompleksowe samouczki dotyczące Aspose.Cells dla .NET, w tym konfigurację linków i wiele więcej. Idealne dla programistów, którzy chcą udoskonalić swoje aplikacje Excel.
-weight: 37
-url: /pl/net/link-and-configuration-operations/
+"description": "Odkryj kompleksowe samouczki dotyczące Aspose.Cells dla .NET, w tym konfigurację linków i wiele więcej. Idealne dla programistów, którzy chcą udoskonalić swoje aplikacje Excel."
+"linktitle": "Operacje łączenia i konfiguracji"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Operacje łączenia i konfiguracji"
+"url": "/pl/net/link-and-configuration-operations/"
+"weight": 37
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Operacje łączenia i konfiguracji
@@ -21,14 +23,16 @@ Aspose.Cells dla .NET oferuje mnóstwo funkcjonalności, które mogą zmienić s
 
 Dzięki postępowi technologicznemu zapotrzebowanie na efektywne zarządzanie dokumentami jest najwyższe w historii. Podczas eksplorowania naszych samouczków pamiętaj, że dołączasz do społeczności osób o podobnych poglądach, które chcą się uczyć i dzielić swoimi doświadczeniami. 
 
-Gotowy do skoku? Odwiedź naszą[Konfigurowanie właściwości dokumentu Link to Content w .NET](./configuring-link-to-content-document-property/) samouczek i sprawmy, aby te skomplikowane zadania stały się dziecinnie proste! Twoja podróż do opanowania Aspose.Cells zaczyna się tutaj i jesteśmy podekscytowani, że możemy być jej częścią razem z Tobą. Zacznijmy kodować!
+Gotowy do skoku? Odwiedź naszą [Konfigurowanie właściwości dokumentu Link to Content w .NET](./configuring-link-to-content-document-property/) samouczek i sprawmy, aby te skomplikowane zadania stały się dziecinnie proste! Twoja podróż do opanowania Aspose.Cells zaczyna się tutaj i jesteśmy podekscytowani, że możemy być jej częścią razem z Tobą. Zacznijmy kodować!
 
 ## Samouczki dotyczące operacji łączenia i konfiguracji
 ### [Konfigurowanie właściwości dokumentu Link to Content w .NET](./configuring-link-to-content-document-property/)
 Dowiedz się, jak łączyć właściwości dokumentu z zawartością w programie Excel przy użyciu Aspose.Cells dla .NET. Samouczek krok po kroku dla programistów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

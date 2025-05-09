@@ -8,7 +8,9 @@ url: /net/worksheet-value-operations/clear-all-page-breaks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clear All Page Breaks from Worksheet using Aspose.Cells
@@ -78,6 +80,7 @@ Yes, Aspose.Cells provides a robust API for manipulating Excel files, including 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

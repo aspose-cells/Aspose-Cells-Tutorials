@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 Прежде чем приступить к работе, давайте убедимся, что у вас все готово для легкого изучения этого руководства!
 ## Предпосылки
 Для прохождения этого урока вам понадобится:
-- **Требуемые библиотеки:** Aspose.Cells для Java версии 25.3
+- **Необходимые библиотеки:** Aspose.Cells для Java версии 25.3
 - **Настройка среды:** Установленная среда разработки Java (например, IntelliJ IDEA или Eclipse) и Maven/Gradle.
 - **Необходимые знания:** Базовые знания программирования на Java и понимание файлов Excel.
 ## Настройка Aspose.Cells для Java
@@ -133,6 +135,9 @@ workbook.save(outDir + "/CustomizingThemes_out.xlsx");
 - Временная лицензия: [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

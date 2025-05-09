@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,7 +203,7 @@ pivotField.setNumber(10);  // Aplica um formato predefinido, por exemplo, moeda 
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**: Carregue somente planilhas e tabelas dinâmicas necessárias ao trabalhar com arquivos grandes do Excel.
+- **Otimizar o uso da memória**: Carregue somente planilhas e tabelas dinâmicas necessárias ao trabalhar com arquivos grandes do Excel.
 - **Manipulação Eficiente de Dados**: Minimize as operações dentro de loops sobre campos de dados para reduzir o tempo de processamento.
 - **Utilize os recursos do Aspose.Cells**: Aproveite métodos integrados para tarefas comuns, como formatação, que são otimizados para desempenho.
 
@@ -218,6 +220,9 @@ R: Carregue apenas planilhas necessárias ou use APIs de streaming para processa
 UM:** Certifique-se de que os índices e posições corretos estejam definidos para evitar erros de cálculo. Sempre teste suas configurações com dados de amostra antes de aplicá-los às pastas de trabalho de produção.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

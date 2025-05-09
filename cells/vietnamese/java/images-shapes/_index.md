@@ -1,16 +1,18 @@
 ---
 "description": "Hướng dẫn đầy đủ về cách thêm và thao tác hình ảnh, hình dạng, biểu đồ và thành phần trực quan trong Excel bằng Aspose.Cells cho Java."
-"title": "Hướng dẫn về hình ảnh và hình khối Excel cho Aspose.Cells Java"
+"title": "Hướng dẫn về hình ảnh và hình dạng Excel cho Aspose.Cells Java"
 "url": "/vi/java/images-shapes/"
 "weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Hướng dẫn về hình ảnh và hình khối Excel cho Aspose.Cells Java
+# Hướng dẫn về hình ảnh và hình dạng Excel cho Aspose.Cells Java
 
 Hướng dẫn về hình ảnh và hình dạng của chúng tôi sẽ chỉ cho bạn cách cải thiện bảng tính Excel bằng các thành phần trực quan bằng cách sử dụng Aspose.Cells trong Java. Những hướng dẫn thực tế này hướng dẫn cách chèn và định dạng hình ảnh, tạo hình dạng tùy chỉnh, triển khai sơ đồ và quản lý các đối tượng vẽ trong bảng tính. Mỗi hướng dẫn đều bao gồm các ví dụ mã Java chi tiết cho các tình huống cải thiện hình ảnh phổ biến, giúp bạn xây dựng các ứng dụng bảng tính hấp dẫn hơn, kết hợp dữ liệu với các thành phần đồ họa một cách hiệu quả.
 
@@ -141,6 +143,9 @@ Tìm hiểu cách cải thiện báo cáo Excel của bạn bằng cách thêm h
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

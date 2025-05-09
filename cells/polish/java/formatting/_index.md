@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ Opanuj inicjowanie i stylizowanie skoroszytów programu Excel za pomocą Aspose.
 Dowiedz się, jak usprawnić stylizację skoroszytu programu Excel i manipulację danymi za pomocą Aspose.Cells Java. Ten przewodnik obejmuje inicjalizację, techniki stylizacji i wydajne przetwarzanie danych.
 
 ### [Ustawianie koloru karty arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla języka Java: kompletny przewodnik](./excel-worksheet-tab-color-aspose-cells-java/)
-Dowiedz się, jak dostosować kolory kart arkusza kalkulacyjnego w programie Excel za pomocą Aspose.Cells dla języka Java. Ten przewodnik obejmuje konfigurację, kodowanie i praktyczne zastosowania.
+Dowiedz się, jak dostosować kolory kart arkusza kalkulacyjnego w programie Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, kodowanie i praktyczne zastosowania.
 
 ### [Opanuj formatowanie komentarzy w programie Excel za pomocą Aspose.Cells dla języka Java](./format-excel-comments-aspose-cells-java/)
 Naucz się formatować komentarze w programie Excel z łatwością, używając Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne, dodając i stylizując komentarze programowo.
@@ -187,9 +189,9 @@ Dowiedz się, jak scalać i stylizować komórki w programie Excel za pomocą As
 Opanuj zawijanie tekstu w komórkach Excela dzięki Aspose.Cells dla Java. Dowiedz się, jak skonfigurować, wdrożyć style zawijania tekstu i zoptymalizować prezentację komórek.
 
 ### [Opanowanie kierunku tekstu w komórkach programu Excel za pomocą Aspose.Cells dla języka Java: kompleksowy przewodnik](./mastering-aspose-cells-java-text-direction/)
-Dowiedz się, jak ustawić kierunek tekstu w komórkach programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, ustawianie wartości komórek i zapisywanie plików.
+Dowiedz się, jak ustawić kierunek tekstu w komórkach Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, ustawianie wartości komórek i zapisywanie plików.
 
-### [Tworzenie i stylizowanie skoroszytu głównego w Javie przy użyciu Aspose.Cells](./mastering-aspose-cells-java-workbook-creation-styling/)
+### [Tworzenie i stylizowanie skoroszytów w Javie przy użyciu Aspose.Cells](./mastering-aspose-cells-java-workbook-creation-styling/)
 Dowiedz się, jak programowo tworzyć i stylizować skoroszyty programu Excel za pomocą Aspose.Cells for Java. Z łatwością automatyzuj prezentację danych.
 
 ### [Opanuj wbudowane style w Aspose.Cells dla Java: kompleksowy przewodnik](./mastering-built-in-styles-aspose-cells-java-guide/)
@@ -220,7 +222,7 @@ Dowiedz się, jak zautomatyzować modyfikacje stylów w arkuszach kalkulacyjnych
 Naucz się optymalizować arkusze Excela, łącząc komórki za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje manipulację skoroszytem, stylizowanie i wydajne zapisywanie.
 
 ### [Obróć tekst w komórkach Excela za pomocą Aspose.Cells Java: Kompletny przewodnik](./rotate-text-excel-cells-aspose-cells-java/)
-Dowiedz się, jak obracać tekst w komórkach Excela za pomocą Aspose.Cells dla Java. Ulepsz swoje arkusze kalkulacyjne dzięki lepszej czytelności i projektowi.
+Dowiedz się, jak obracać tekst w komórkach programu Excel za pomocą Aspose.Cells dla języka Java. Ulepsz swoje arkusze kalkulacyjne dzięki lepszej czytelności i projektowi.
 
 ### [Jak ustawić współczynnik powiększenia arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla języka Java](./set-zoom-factor-excel-aspose-cells-java/)
 Dowiedz się, jak ustawić współczynnik powiększenia w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla języka Java. Ulepsz swoje możliwości prezentacji i przeglądania danych programowo.
@@ -236,13 +238,16 @@ Opanuj stylizowanie komórek Excela i dodawanie hiperłączy w aplikacjach Java 
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells dla API Java Odniesienie](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/)
 - [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,6 +137,9 @@ A: いいえ。ただし、非常に大きなワークブックを扱う場合�
 このチュートリアルが、データ管理タスクにおいて Aspose.Cells for Java の潜在能力を最大限に活用するのに役立つことを願っています。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

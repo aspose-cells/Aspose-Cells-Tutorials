@@ -1,14 +1,16 @@
 ---
-title: Zamroź panele arkusza kalkulacyjnego
-linktitle: Zamroź panele arkusza kalkulacyjnego
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak zamrażać panele w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka, który zawiera instrukcje krok po kroku i niezbędne wskazówki.
-weight: 70
-url: /pl/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
+"description": "Dowiedz się, jak zamrażać panele w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka, który zawiera instrukcje krok po kroku i niezbędne wskazówki."
+"linktitle": "Zamroź panele arkusza kalkulacyjnego"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zamroź panele arkusza kalkulacyjnego"
+"url": "/pl/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamroź panele arkusza kalkulacyjnego
@@ -25,13 +27,13 @@ Zanim przejdziemy do właściwej części kodowania, upewnijmy się, że masz ws
 - Znajomość języka programowania C# jest niezbędna, ponieważ będziemy go używać do pisania naszego kodu.
 
 ### Aspose.Cells zainstalowane
--  Upewnij się, że masz zainstalowany Aspose.Cells for .NET w swoim środowisku programistycznym. Jeśli jeszcze go nie zainstalowałeś, przejdź do[Link do pobrania](https://releases.aspose.com/cells/net/) aby zacząć.
+- Upewnij się, że masz zainstalowany Aspose.Cells for .NET w swoim środowisku programistycznym. Jeśli jeszcze go nie zainstalowałeś, przejdź do [Link do pobrania](https://releases.aspose.com/cells/net/) aby zacząć.
 
 ### Studio wizualne
 - Do tworzenia i uruchamiania aplikacji C# potrzebne będzie środowisko IDE, np. Visual Studio.
 
 ### Przykładowy plik Excela
-- Do celów demonstracyjnych potrzebny będzie plik Excel, który nazwiemy`book1.xls`Możesz utworzyć prosty plik Excela za pomocą programu Microsoft Excel lub dowolnej kompatybilnej aplikacji.
+- Do celów demonstracyjnych potrzebny będzie plik Excel, który nazwiemy `book1.xls`Możesz utworzyć prosty plik Excela za pomocą programu Microsoft Excel lub dowolnej kompatybilnej aplikacji.
 
 Gdy już spełnisz te wymagania wstępne, możemy rozpocząć kodowanie!
 
@@ -62,7 +64,7 @@ Określ katalog, w którym znajduje się Twój plik Excel. Oto przykład:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ta linia ustawia ścieżkę do twojego katalogu. Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do miejsca, w którym jesteś`book1.xls` plik jest zapisywany. To tak, jakby podać kodowi adres swojego domu, w którym znajduje się plik Excela — musi wiedzieć, gdzie go znaleźć!
+Ta linia ustawia ścieżkę do twojego katalogu. Zastąp `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką do miejsca, w którym jesteś `book1.xls` plik jest zapisywany. To tak, jakby podać kodowi adres swojego domu, w którym znajduje się plik Excela — musi wiedzieć, gdzie go znaleźć!
 
 ## Krok 3: Utwórz strumień plików
 
@@ -72,17 +74,17 @@ Użyj FileStream, aby otworzyć istniejący plik Excel. Oto jak:
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Ten`FileStream` pozwala na odczyt i zapis plików poprzez dostarczanie strumienia bajtów. Mówiąc prościej, otwiera drzwi do pliku Excel, dzięki czemu możesz zacząć z nim pracować.
+Ten `FileStream` pozwala na odczyt i zapis plików poprzez dostarczanie strumienia bajtów. Mówiąc prościej, otwiera drzwi do pliku Excel, dzięki czemu możesz zacząć z nim pracować.
 
 ## Krok 4: Utwórz obiekt skoroszytu
 
- Utwórz nowy`Workbook` obiekt do pracy z otwartym plikiem:
+Utwórz nowy `Workbook` obiekt do pracy z otwartym plikiem:
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
 
- Ten`Workbook` obiekt reprezentuje cały plik Excel w pamięci. Pomyśl o tym jak o przeniesieniu całego pliku do obszaru roboczego, aby móc zacząć wprowadzać modyfikacje.
+Ten `Workbook` obiekt reprezentuje cały plik Excel w pamięci. Pomyśl o tym jako o przeniesieniu całego pliku do obszaru roboczego, aby móc rozpocząć wprowadzanie modyfikacji.
 
 ## Krok 5: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -112,7 +114,7 @@ Po wprowadzeniu zmian pamiętaj o zapisaniu skoroszytu:
 workbook.Save(dataDir + "output.xls");
 ```
 
- Zapisanie pliku jest kluczowe! Ten wiersz zapewnia, że wszystkie wprowadzone przez Ciebie zmiany, w tym zamrożone panele, zostaną zapisane z powrotem w nowym pliku Excel o nazwie`output.xls`Można to porównać do zaklejenia koperty po napisaniu ważnego listu.
+Zapisanie pliku jest kluczowe! Ten wiersz zapewnia, że wszystkie wprowadzone przez Ciebie zmiany, w tym zamrożone panele, zostaną zapisane z powrotem w nowym pliku Excel o nazwie `output.xls`Można to porównać do zaklejenia koperty po napisaniu ważnego listu.
 
 ## Krok 8: Zamknij strumień plików
 
@@ -131,22 +133,24 @@ Gratulacje! Opanowałeś proces zamrażania okienek w arkuszu kalkulacyjnym Exce
 ## Najczęściej zadawane pytania
 
 ### Jaki jest cel zamrażania okien w programie Excel?
-Zamrażanie paneli umożliwia zachowanie widoczności określonych wierszy lub kolumn podczas przewijania dużych zestawów danych.
+Zamrażanie paneli umożliwia zachowanie widoczności konkretnych wierszy lub kolumn podczas przewijania dużych zestawów danych.
 
 ### Czy mogę zamrozić wiele wierszy i kolumn jednocześnie?
- Tak, możesz zamrozić dowolną liczbę wierszy i kolumn, określając ich pozycje za pomocą`FreezePanes` metoda.
+Tak, możesz zamrozić dowolną liczbę wierszy i kolumn, określając ich pozycje za pomocą `FreezePanes` metoda.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania trzeba będzie kupić licencję. Sprawdź[strona zakupu](https://purchase.aspose.com/buy) Więcej szczegółów.
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania trzeba będzie kupić licencję. Sprawdź [strona zakupu](https://purchase.aspose.com/buy) Więcej szczegółów.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadawać pytania i szukać rozwiązań u społeczności.
+Możesz uzyskać wsparcie poprzez [Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadawać pytania i szukać rozwiązań u społeczności.
 
 ### Czy mogę używać Aspose.Cells na różnych platformach?
 Aspose.Cells for .NET jest przeznaczony do współpracy z .NET Framework, .NET Core i .NET Standard, dzięki czemu sprawdza się w różnych zastosowaniach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

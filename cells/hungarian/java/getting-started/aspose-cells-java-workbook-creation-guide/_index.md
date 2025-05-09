@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Ez a kódrészlet inicializál egy üres munkafüzetet, amely a további manipul
 ```java
 import com.aspose.cells.Worksheet;
 
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 A `get` A metódus lekéri a megadott munkalapra mutató hivatkozást, lehetővé téve annak tartalmának manipulálását.
@@ -154,8 +156,8 @@ Az Aspose.Cells Java-ban számos lehetőséget kínál, többek között:
 Ezek a funkciók integrálhatók különféle rendszerekkel, például CRM-eszközökkel vagy ERP-szoftverekkel, a rutinfeladatok hatékony automatizálása érdekében.
 
 ## Teljesítménybeli szempontok
-teljesítmény optimalizálása az Aspose.Cells használatakor:
-- A memória hatékony kezelése a nem használt objektumok megszabadulásával.
+A teljesítmény optimalizálása az Aspose.Cells használatakor:
+- memória hatékony kezelése a nem használt objektumok megszabadulásával.
 - Használat `Workbook.save()` körültekintően; csak akkor takarítson meg, ha feltétlenül szükséges.
 - Használja ki a Java szemétgyűjtési funkcióit a hatékony erőforrás-kezeléshez.
 
@@ -188,6 +190,9 @@ Az Aspose.Cells megismerésének elmélyítéséhez fedezd fel a következőt: [
 Indulj el az Aspose.Cells for Java segítségével, és hozd ki az Excel automatizálásában rejlő összes lehetőséget az alkalmazásaidban!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

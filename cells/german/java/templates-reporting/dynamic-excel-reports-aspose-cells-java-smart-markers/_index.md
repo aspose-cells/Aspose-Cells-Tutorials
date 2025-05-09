@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ A: Intelligente Markierungen ermöglichen verschachtelte Eigenschaften, sodass S
 A: Sie haben die Wahl zwischen einer kostenlosen Testversion, einer temporären Lizenz und dem Kauf der Vollversion. Besuchen Sie [Asposes Website](https://purchase.aspose.com/buy) für weitere Informationen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

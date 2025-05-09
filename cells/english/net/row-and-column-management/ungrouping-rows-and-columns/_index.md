@@ -8,7 +8,9 @@ url: /net/row-and-column-management/ungrouping-rows-and-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ungroup Rows and Columns in Excel with Aspose.Cells
@@ -104,6 +106,7 @@ Yes, you can use Aspose.Cells for free with certain limitations, and you can sta
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

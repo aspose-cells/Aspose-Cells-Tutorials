@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ wb.save(outDir + "/outputHidingOverlavedContent.html", SaveFormat.HTML);
 
 ### 기능 2: 오버레이된 콘텐츠에 대한 HtmlSaveOptions 구성
 
-**개요:** 이 기능은 CrossHideRight 메서드를 사용하여 HTML로 변환할 때 Excel에서 겹치는 데이터를 처리하고 출력 파일의 명확성과 가독성을 보장하는 방법을 보여줍니다.
+**개요:** 이 기능은 CrossHideRight 메서드를 사용하여 HTML로 변환할 때 Excel에서 겹치는 데이터를 처리하는 방법을 보여주며, 출력 파일의 명확성과 가독성을 보장합니다.
 
 #### 단계별 구현
 ##### 1단계: 통합 문서 로드(위와 같음)
@@ -101,7 +103,7 @@ opts.setHtmlCrossStringType(HtmlCrossType.CROSS_HIDE_RIGHT);
 ```java
 wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 ```
-이러한 옵션을 사용하여 통합 문서를 저장하면 오버레이된 콘텐츠가 적절히 숨겨져 HTML 출력의 가독성이 향상됩니다.
+이러한 옵션을 사용하여 통합 문서를 저장하면 오버레이된 콘텐츠가 적절하게 숨겨져 HTML 출력의 가독성이 향상됩니다.
 
 ### 문제 해결 팁
 
@@ -133,8 +135,8 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
    - 네, 적절한 구성과 Java 메모리 관리 기술을 사용하면 가능합니다.
 2. **Excel에서 HTML로 변환할 때 겹치는 데이터를 어떻게 처리합니까?**
    - 사용 `HtmlSaveOptions` CrossHideRight 방법을 시연해 보인 것과 같습니다.
-3. **무료 평가판 라이센스의 제한 사항은 무엇입니까?**
-   - 무료 평가판을 사용하면 전체 기능을 평가할 수 있지만, 라이선스를 구매하기 전까지는 출력 파일에 워터마크가 나타날 수 있습니다.
+3. **무료 체험판 라이센스의 제한 사항은 무엇입니까?**
+   - 무료 평가판을 사용하면 전체 기능을 평가할 수 있지만 라이선스를 구매하기 전까지는 출력 파일에 워터마크가 나타날 수 있습니다.
 4. **Aspose.Cells는 모든 버전의 Excel 파일과 호환됩니까?**
    - 네, XLS, XLSX 등 다양한 형식을 지원합니다.
 5. **HTML 출력을 더욱 세부적으로 사용자 지정하려면 어떻게 해야 합니까?**
@@ -151,6 +153,9 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 이 튜토리얼은 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하는 방법에 대한 포괄적인 가이드로, 웹 프레젠테이션에서 명확성과 기능성을 보장합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

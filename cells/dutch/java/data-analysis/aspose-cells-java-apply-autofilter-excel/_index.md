@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Je beheerst het automatiseren van Excel-filtertaken met Aspose.Cells voor Java. 
 - **Steun**: Word lid van het communityforum op [Aspose-ondersteuning](https://forum.aspose.com/c/cells/9) voor hulp.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

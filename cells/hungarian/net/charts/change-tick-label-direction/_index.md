@@ -1,51 +1,55 @@
 ---
-title: A Excelben a Aspose.Cells segítségével módosítsa a táblázat címkék irányát 
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell megváltoztatni a táblázat-jelölés címkéinek irányát egy Excel-es munkalapban az .NET-hez használt Aspose.Cells segítségével egy egyszerű kód példa segítségével.
-keywords: [Aspose.Cells for .NET, change tick label direction, Excel chart labels, .NET Excel library, chart text direction]
-url: /hu/net/charts/change-tick-label-direction/
+"description": "Tanuld meg egy egyszerű kódpéldán keresztül, hogyan módosíthatod a diagramjel-feliratok irányát egy Excel-munkafüzetben az Aspose.Cells for .NET használatával."
+"title": "Diagram jelölőnégyzetének irányának módosítása Excelben az Aspose.Cells használatával"
+"url": "/hu/net/charts/change-tick-label-direction/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Excelben a Aspose.Cells segítségével módosítsa a táblázat címkék irányát 
+# Diagram jelölőnégyzetének irányának módosítása Excelben az Aspose.Cells használatával 
 
-Ez a példa bemutatja, hogyan módosíthatjuk a táblázat-jelölés címkéinek irányát egy Excel munkalapban az Aspose.Cells használatával a .NET-hez. A kategória tengely-jelölés címkéinek szöveges irányának módosításával növelheti a táblázatadatok olvashatóságát. A kód tölt egy meglévő Excel munkalapot, hozzáfér az első munkalaphoz, visszanyeri a táblázat, horizontálisra állítja a táblázat címké irányát, majd megőrzi a módosított munkalapot. Ez a megközelítés biztosítja a táblázat címkéjének irányításának pontos ellenőrzését a .NET alkalmazásokban. 
+Ez a példa bemutatja, hogyan módosítható a diagramjel-feliratok iránya egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. A kategóriatengely-feliratok szövegirányának módosításával javítható a diagramadatok olvashatósága. A kód betölt egy meglévő Excel-munkafüzetet, megnyitja az első munkalapot, lekéri a diagramot, vízszintesre állítja a jelölőcímke irányát, majd menti a módosított munkafüzetet. Ez a megközelítés biztosítja a diagramcímkék tájolásának pontos szabályozását a .NET-alkalmazásokban. 
  
 ---
 
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A következő lépéseket kell követni:  
 
-1. A .NET-re telepítse az Aspose.Cells  
-   * Letöltsük a [Aspose.Cells a .NET-re](https://releases.aspose.com/cells/net/)  
-   * Vagy telepítse a NuGet-en keresztül:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások  
+A példa futtatásához kövesse az alábbi lépéseket:  
+
+1. Aspose.Cells telepítése .NET-hez  
+   - Letöltés innen [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/)  
+   - Vagy telepítsd NuGet-en keresztül:  
      ```shell
      Install-Package Aspose.Cells
      ```  
 
-2. Tervezd ki a tervedet  
-   * Hozz egy új .NET projektet.  
-   * Adjon hozzá egy hivatkozást az Aspose.Cells.dll.  
+2. Projekt beállítása  
+   - Hozz létre egy új .NET projektet.  
+   - Adjon hozzá egy hivatkozást az Aspose.Cells.dll fájlra.  
 
-3. A kódot futtasd  
-   * Cserélje`"A dokumentumkönyv"`a tényleges fájl útvonalával.  
-   * A programot futtasd ki a táblázatban található jelölési irány felfrissítésére.  
+3. Futtassa a kódot  
+   - Csere `"Your Document Directory"` a tényleges fájlútvonallal.  
+   - Futtassa a programot a tick felirat irányának frissítéséhez a diagramon.  
 
-## Lásd:
-A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem.
+## Lásd még
+Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

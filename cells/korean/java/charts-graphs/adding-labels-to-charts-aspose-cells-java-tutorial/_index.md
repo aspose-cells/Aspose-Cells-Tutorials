@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Aspose.Cells를 사용하여 Java로 Excel 차트를 프로그래밍 방식으�
 **배울 내용:**
 - Java 프로젝트에 Aspose.Cells 설정하기
 - Aspose.Cells를 사용하여 Excel 통합 문서 로드 및 조작
-- Excel 차트에 자유 부동 레이블 추가
+- Excel 차트에 자유롭게 움직이는 레이블 추가
 - 업데이트된 통합 문서 저장
 
 ## 필수 조건
@@ -154,6 +156,9 @@ Aspose.Cells Java로 강력한 Excel 자동화 기능을 활용하는 여정을 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

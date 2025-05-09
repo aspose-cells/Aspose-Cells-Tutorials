@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,6 +175,9 @@ A: Unisciti al [Forum di Aspose](https://forum.aspose.com/c/cells/9) per l'assis
 - **Acquisto e licenza:** Scopri di più su licenze e acquisti su [Pagina di acquisto Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

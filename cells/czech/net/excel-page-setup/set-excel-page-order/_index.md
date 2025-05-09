@@ -1,33 +1,35 @@
 ---
-title: Nastavte pořadí stránek aplikace Excel
-linktitle: Nastavte pořadí stránek aplikace Excel
-second_title: Aspose.Cells for .NET API Reference
-description: Pomocí Aspose.Cells for .NET můžete bez námahy ovládat pořadí tisku stránek Excelu. V tomto podrobném průvodci se dozvíte, jak přizpůsobit pracovní postup.
-weight: 120
-url: /cs/net/excel-page-setup/set-excel-page-order/
+"description": "Snadno ovládejte pořadí stránek při tisku v Excelu pomocí Aspose.Cells pro .NET. V tomto podrobném návodu se naučte, jak si přizpůsobit pracovní postup."
+"linktitle": "Nastavení pořadí stránek v Excelu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Nastavení pořadí stránek v Excelu"
+"url": "/cs/net/excel-page-setup/set-excel-page-order/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte pořadí stránek aplikace Excel
+# Nastavení pořadí stránek v Excelu
 
 ## Zavedení
 
-Přistihli jste se někdy, že procházíte neuspořádanou změtí stránek v souboru aplikace Excel? Víte, co tím myslím – tištěný výstup nevypadá tak, jak jste si představovali. Co kdybych vám řekl, že můžete ovládat pořadí, ve kterém se vaše stránky tisknou? To je pravda! S Aspose.Cells for .NET můžete snadno nastavit pořadí stránek sešitů aplikace Excel, aby nejen vypadaly profesionálně, ale aby byly také snadno čitelné. Tento výukový program vás provede kroky potřebnými k nastavení pořadí stránek aplikace Excel a zajistí, že vaše tištěné dokumenty budou zobrazovat informace jasným a organizovaným způsobem.
+Už jste se někdy ocitli v situaci, kdy se vám v souboru Excelu neustále prodírá zmateným zmateným množstvím stránek? Víte, co tím myslím – vytištěný výstup nevypadá tak, jak jste si představovali. Co kdybych vám řekl, že můžete sami ovládat pořadí, ve kterém se stránky tisknou? Přesně tak! S Aspose.Cells pro .NET můžete snadno nastavit pořadí stránek v sešitech Excelu, aby nejen vypadaly profesionálně, ale aby se také snadno četly. Tento tutoriál vás provede kroky potřebnými k nastavení pořadí stránek v Excelu a zajistí, že vaše tištěné dokumenty budou prezentovat informace jasně a uspořádaně.
 
 ## Předpoklady
 
-Než se ponoříte do kódu, měli byste mít připraveno několik věcí:
+Než se ponoříme do kódu, měli bychom mít připraveno několik věcí:
 
-- Prostředí .NET: Ujistěte se, že máte na svém počítači nastaveno prostředí .NET. Ať už je to .NET Framework nebo .NET Core, mělo by to fungovat hladce.
--  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells for .NET. Nebojte se – začít je snadné! Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/) nebo získejte bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
-- Základní znalosti programování: Základní znalost programování v C# vám pomůže lépe porozumět pojmům.
+- Prostředí .NET: Ujistěte se, že máte na svém počítači nastavené prostředí .NET. Ať už se jedná o .NET Framework nebo .NET Core, mělo by fungovat hladce.
+- Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells pro .NET. Nebojte se – začít je snadné! Můžete [stáhněte si to zde](https://releases.aspose.com/cells/net/) nebo si získejte bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+- Základní znalosti programování: Základní znalost programování v C# vám pomůže lépe pochopit dané koncepty.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nejprve musíte importovat potřebné balíčky do vaší aplikace C#. Postupujte takto:
+Nejdříve je nutné importovat potřebné balíčky do vaší C# aplikace. Zde je návod, jak to udělat:
 
 ```csharp
 using System.IO;
@@ -35,21 +37,21 @@ using Aspose.Cells;
 using System;
 ```
 
-Tento řádek kódu vám umožňuje využít výkonné funkce nabízené Aspose.Cells ve vašem projektu a poskytuje vám nástroje potřebné k bezproblémové manipulaci se soubory aplikace Excel.
+Tento řádek kódu vám umožňuje využít výkonné funkce nabízené Aspose.Cells ve vašem projektu a poskytnout vám nástroje potřebné k bezproblémové manipulaci s excelovými soubory.
 
-Nyní, když jsme položili základy, pojďme rozdělit nastavení pořadí stránek aplikace Excel do zvládnutelných kroků!
+Nyní, když jsme položili základy, pojďme rozdělit nastavení pořadí stránek v Excelu na zvládnutelné kroky!
 
-## Krok 1: Zadejte svůj adresář dokumentů
+## Krok 1: Zadejte adresář dokumentů
 
-Než se pustíte do vytváření sešitu, musíte určit, kam se má výstupní soubor uložit. To vám dává místo, kde můžete mít přehled o své práci. 
+Než se pustíte do vytváření sešitu, je třeba určit, kam se má výstupní soubor uložit. To vám poskytne místo, kde si můžete sledovat svou práci. 
 
-Proměnnou, která ukazuje na váš adresář dokumentů, nastavíte takto:
+Proměnnou, která bude odkazovat na adresář s dokumenty, nastavíte takto:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- V tomto řádku vyměňte`"YOUR DOCUMENT DIRECTORY"` s cestou, kam chcete soubor uložit. Pokud například chcete uložit soubor do složky s názvem „ExcelFiles“ na ploše, může vypadat nějak takto:
+V tomto řádku nahraďte `"YOUR DOCUMENT DIRECTORY"` cestou, kam chcete soubor uložit. Pokud chcete například soubor uložit do složky s názvem „ExcelFiles“ na ploše, může vypadat nějak takto:
 
 ```csharp
 string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
@@ -58,33 +60,33 @@ string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
 ## Krok 2: Vytvořte nový sešit
 
 
-Dále musíme vytvořit nový objekt sešitu. Tento objekt bude sloužit jako vaše plátno, se kterým budete pracovat.
+Dále musíme vytvořit nový objekt sešitu. Tento objekt bude sloužit jako plátno pro práci.
 
-Zde je návod, jak vytvořit sešit:
+Zde je návod, jak si můžete vytvořit sešit:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Tento řádek inicializuje novou instanci souboru`Workbook` třídy, což je základní prvek pro práci se soubory Excel v Aspose.Cells.
+Tento řádek inicializuje novou instanci třídy `Workbook` třída, která je základním prvkem pro práci s excelovými soubory v Aspose.Cells.
 
 ## Krok 3: Otevřete Nastavení stránky
 
 
- Nyní musíme získat přístup k`PageSetup` vlastnost pracovního listu. To vám umožní upravit způsob tisku stránek.
+Nyní potřebujeme přístup k `PageSetup` vlastnost listu. To vám umožní upravit způsob tisku stránek.
 
- Pro přístup`PageSetup`, použijte následující kód:
+Pro přístup `PageSetup`, použijte následující kód:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Zde,`workbook.Worksheets[0]` odkazuje na první list ve vašem sešitu. The`PageSetup` vlastnost vám poskytne kontrolu nad nastavením stránkování vašeho listu.
+Zde, `workbook.Worksheets[0]` odkazuje na první list ve vašem sešitu. `PageSetup` vám poskytne kontrolu nad nastavením stránkování vašeho listu.
 
-## Krok 4: Nastavte pořadí tisku
+## Krok 4: Nastavení pořadí tisku
 
 
- s`PageSetup`objekt, je čas sdělit Excelu, jak chcete stránky vytisknout. Máte možnost nastavit pořadí buď jako „Přes, pak dolů“ nebo „Dolů a potom přes“.
+S `PageSetup` objekt, je čas sdělit Excelu, jak chcete stránky vytisknout. Máte možnost nastavit pořadí buď „Přes, pak dolů“, nebo „Dolů, pak přes“.
 
 Zde je kód pro nastavení pořadí tisku:
 
@@ -92,12 +94,12 @@ Zde je kód pro nastavení pořadí tisku:
 pageSetup.Order = PrintOrderType.OverThenDown;
 ```
 
- V tomto příkladu výběr`PrintOrderType.OverThenDown` znamená, že Excel vytiskne stránky počínaje shora dolů pro každý sloupec a poté přejde na další sloupec. Mohli jste si také vybrat`PrintOrderType.DownThenOver` pokud dáváte přednost jinému uspořádání.
+V tomto příkladu výběrem `PrintOrderType.OverThenDown` znamená, že Excel vytiskne stránky shora dolů pro každý sloupec a poté přejde k dalšímu sloupci. Můžete také zvolit `PrintOrderType.DownThenOver` pokud preferujete jiné uspořádání.
 
-## Krok 5: Uložte sešit
+## Krok 5: Uložení sešitu
 
 
-Konečně je čas uložit si práci! Tento krok zajistí, že všechna vaše přizpůsobení budou uložena pro budoucí použití.
+Konečně je čas uložit si práci! Tento krok zajistí, že všechna vaše úpravy budou uložena pro budoucí použití.
 
 Sešit můžete uložit pomocí tohoto kódu:
 
@@ -105,31 +107,33 @@ Sešit můžete uložit pomocí tohoto kódu:
 workbook.Save(dataDir + "SetPageOrder_out.xls");
 ```
 
- Ujistěte se, že jste uvedli název souboru, v tomto případě „SetPageOrder_out.xls“, a ověřte, že`dataDir` proměnná správně ukazuje na zamýšlený adresář.
+Ujistěte se, že jste zadali název souboru, v tomto případě „SetPageOrder_out.xls“, a ověřte, že váš `dataDir` proměnná správně ukazuje na vámi zamýšlený adresář.
 
 ## Závěr
 
-Gratuluji! Právě jste se naučili, jak nastavit pořadí stránek v Excelu pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu máte možnost přizpůsobit si způsob tisku dokumentů aplikace Excel, aby se daly snadno sledovat a byly vizuálně přitažlivé. Tato funkce se hodí zejména při práci s velkými datovými sadami, kde může pořadí stránek výrazně ovlivnit čitelnost. 
+Gratulujeme! Právě jste se naučili, jak nastavit pořadí stránek v Excelu pomocí Aspose.Cells pro .NET. S několika řádky kódu máte možnost přizpůsobit způsob tisku dokumentů v Excelu, aby byly snadno čitelné a vizuálně přitažlivé. Tato funkce se hodí zejména při práci s velkými datovými sadami, kde pořadí stránek může výrazně ovlivnit čitelnost. 
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?
-Aspose.Cells je knihovna .NET, která poskytuje funkce pro manipulaci s tabulkami aplikace Microsoft Excel a umožňuje vývojářům vytvářet, upravovat a převádět soubory aplikace Excel programově.
+Aspose.Cells je knihovna .NET, která poskytuje funkce pro manipulaci s tabulkami aplikace Microsoft Excel a umožňuje vývojářům programově vytvářet, upravovat a převádět soubory aplikace Excel.
 
 ### Jak získám dočasnou licenci pro Aspose.Cells?
- O dočasnou licenci můžete požádat na adrese[Stránka dočasné licence](https://purchase.aspose.com/temporary-license/) na webu Aspose.
+O dočasnou licenci můžete požádat na adrese [Stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/) na webových stránkách Aspose.
 
-### Mohu změnit pořadí stránek pro více listů?
- Ano! Ke každému listu máte přístup`PageSetup` a individuálně nakonfigurujte pořadí stránek.
+### Mohu změnit pořadí stránek u více pracovních listů?
+Ano! Můžete přistupovat ke každému pracovnímu listu `PageSetup` a individuálně nakonfigurovat pořadí stránek.
 
-### Jaké jsou možnosti pro pořadí tisku stránek?
-Pro objednávku tisku stránky si můžete vybrat mezi "Over Then Down" a "Down Then Over".
+### Jaké jsou možnosti pro pořadí stránek při tisku?
+Pro pořadí tisku stránek si můžete vybrat mezi možnostmi „Přes a pak dolů“ a „Dolů a pak přes“.
 
 ### Kde najdu další příklady použití Aspose.Cells?
-Další příklady a funkce můžete prozkoumat v[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/).
+Další příklady a funkce si můžete prohlédnout v [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

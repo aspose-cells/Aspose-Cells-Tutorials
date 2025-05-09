@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel İçe Aktarma Dışa Aktarma
@@ -22,7 +24,7 @@ Veri işleme dünyasında, Excel dosyalarını sorunsuz bir şekilde içe ve dı
 
 Kapsamlı eğitimlerimiz, Aspose.Cells for Java kullanarak Excel içe aktarma ve dışa aktarma işleminin karmaşık sürecinde size rehberlik edecektir. İster acemi ister deneyimli bir Java geliştiricisi olun, adım adım kılavuzlarımız temel becerileri edinmenizi sağlamak için tasarlanmıştır. Verileri Excel dosyalarına verimli bir şekilde nasıl içe aktaracağınızı ve Excel çalışma kitaplarından hassas ve kolay bir şekilde nasıl dışa aktaracağınızı öğreneceksiniz.
 
-## Excel Kullanımında Bugün Ustalaşmak:
+## Bugün Excel Kullanımında Uzmanlaşmak:
 
 Aspose.Cells for Java ile Excel içe ve dışa aktarma sanatında ustalaşarak, kendinize değerli bir beceri seti kazandırın. Analiz için veri içe aktarmanız, raporlar oluşturmanız veya veri alışverişini otomatikleştirmeniz gerekip gerekmediğine bakılmaksızın, bu eğitimler size veri işleme çabalarınızda mükemmelleşmeniz için gereken bilgiyi sağlar. Eğitimlerimize dalın ve bugün Aspose.Cells for Java ile Excel içe ve dışa aktarma konusunda ustalaşmaya başlayın!
 
@@ -45,9 +47,11 @@ Aspose.Cells for Java kullanarak Excel verilerini JSON'a nasıl aktaracağınız
 Bu kapsamlı adım adım kılavuzla Java için Aspose.Cells'i kullanarak Excel içe aktarma veri doğrulamasını nasıl uygulayacağınızı öğrenin. Veri doğruluğunu sağlayın ve kullanıcı deneyimini geliştirin. 
 ### [Excel'i HTML Java'ya Aktar](./export-excel-to-html-java/)
 Aspose.Cells for Java kullanarak Excel'i Java'da HTML'ye nasıl aktaracağınızı öğrenin. Excel dosyalarınızı zahmetsizce HTML'ye dönüştürmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

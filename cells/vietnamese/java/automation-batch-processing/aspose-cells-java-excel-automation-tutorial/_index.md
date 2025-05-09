@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ class Initialization {
 
 ## Hướng dẫn thực hiện
 
-### Tính năng 1: Khởi tạo sổ làm việc và trang tính
+### Tính năng 1: Khởi tạo Workbook và Worksheet
 **Tổng quan**
 Bắt đầu bằng cách tạo một bảng tính Excel mới và truy cập trang tính đầu tiên của bảng tính đó, đặt nền tảng cho các hoạt động tiếp theo.
 
@@ -204,6 +206,9 @@ Bằng cách làm theo hướng dẫn này, bạn sẽ có nền tảng vững c
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Workbook workbook = new Workbook(dataDir + "source.xlsm");
 ```
 **為什麼：** 載入工作簿會對其進行初始化，以便進一步處理並存取其 VBA 專案。
 
-#### 步驟 2：檢查項目是否已簽名
+#### 第 2 步：檢查項目是否已簽名
 利用 `getVbaProject().isSigned()` 方法來驗證簽章狀態。
 ```java
 boolean isSigned = workbook.getVbaProject().isSigned();
@@ -151,6 +153,9 @@ system.out.println("VBA Project is Signed: " + isSigned);
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

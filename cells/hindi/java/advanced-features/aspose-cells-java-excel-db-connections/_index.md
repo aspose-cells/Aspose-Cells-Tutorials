@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Aspose.Cells और बड़ी Excel फ़ाइलों के साथ �
    - एक अस्थायी लाइसेंस आपको परीक्षण अवधि के दौरान Aspose.Cells की पूर्ण क्षमताओं का पता लगाने की अनुमति देता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

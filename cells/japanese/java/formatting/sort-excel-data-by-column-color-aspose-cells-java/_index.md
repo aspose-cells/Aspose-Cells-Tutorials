@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Workbook workbook = new Workbook("path/to/your/source/file.xlsx");
 ```
 
 ### データソーターオブジェクトのインスタンス化
-**概要：** 使用 `DataSorter` セルの色に基づいて並べ替えの基準を定義するクラスです。このオブジェクトを使用すると、並べ替えのキーを指定できます。
+**概要：** 使用 `DataSorter` セルの色に基づいて並べ替えの基準を定義するクラスです。このオブジェクトでは、並べ替えのキーを指定できます。
 
 ```java
 // データソーターオブジェクトのインスタンス化
@@ -176,6 +178,9 @@ Excel の処理能力を強化する準備はできていますか? このソリ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

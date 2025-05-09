@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Với câu lệnh import này, bạn đã sẵn sàng tạo và thao tác với 
 
 ## Hướng dẫn thực hiện
 Chúng ta hãy cùng tìm hiểu cách triển khai kiểu trong tài liệu Excel của bạn theo từng bước.
-### Tạo một đối tượng Style sử dụng lớp CellsFactory
+### Tạo một đối tượng kiểu bằng cách sử dụng lớp CellsFactory
 #### Tổng quan
 Chúng ta sẽ bắt đầu bằng cách tạo một đối tượng kiểu tùy chỉnh. Điều này bao gồm việc cấu hình nhiều thuộc tính kiểu khác nhau như màu nền, cài đặt phông chữ, v.v.
 #### Bước 1: Khởi tạo CellsFactory
@@ -133,6 +135,9 @@ Các bước tiếp theo bao gồm khám phá các tính năng khác của Aspos
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

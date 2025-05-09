@@ -1,42 +1,47 @@
 ---
-title: 填写Excel中Aspose.Cells为 .NET
-weight: 7700
-limit: 
-description: 学习如何将纹填充到Excel中的形状中,使用 .NET的Aspose.Cells. 按照这个例子,可以轻松修改Excel文件.
-keywords: [Aspose.Cells, .NET, Excel, Tiling Texture Fill, Shape Modification, Programming Example, File Handling, Workbook, Worksheet]
-url: /zh/net/drawing-objects/tile-picture-as-texture-inside-shape/
+"description": "了解如何使用 Aspose.Cells for .NET 将平铺纹理填充应用于 Excel 中的形状。按照此示例轻松修改您的 Excel 文件。"
+"title": "使用 Aspose.Cells for .NET 在 Excel 中平铺纹理填充"
+"url": "/zh/net/drawing-objects/tile-picture-as-texture-inside-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 填写Excel中Aspose.Cells为 .NET
+# 使用 Aspose.Cells for .NET 在 Excel 中平铺纹理填充
   
-通过使用此步骤指南,开发人员可以快速掌握如何操作Excel内容,通过先进功能增强他们的应用程序.最终输出将保存在您选择的目录中,展示Excel文件处理中的Aspose.Cells的力量.
+本示例演示如何有效地使用 Aspose.Cells for .NET 加载 Excel 文件、访问特定工作表以及修改形状的填充以包含平铺纹理。通过遵循本分步指南，开发人员可以快速掌握如何以编程方式操作 Excel 内容，并使用高级功能增强其应用程序。最终输出将保存在您选择的目录中，展现 Aspose.Cells 在处理 Excel 文件方面的强大功能。
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/tile-picture-as-texture-inside-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明
-1. 确保您的机器上设置了 .NET 环境.
-2. 在官方的Aspose网站上下载和安装Aspose.Cells库,或者使用NuGet包管理器:
+## 安装说明
+1. 确保您的机器上已设置 .NET 环境。
+2. 从 Aspose 官方网站或使用 NuGet 包管理器下载并安装 Aspose.Cells 库：
    ```
    Install-Package Aspose.Cells
    ```
-3. Create a new C# project or open your existing .NET project.
-4. 在您的项目中添加Aspose.Cells图书馆的引用.
-5. 复制提供的示例代码,按需要更换输入/输出目录路径.
-6. 编译和运行项目,以查看 Excel 文件中的形状上应用的纹填充.
+3. 创建一个新的 C# 项目或打开现有的 .NET 项目。
+4. 在您的项目中添加对 Aspose.Cells 库的引用。
+5. 将提供的示例代码复制到您的项目中，根据需要替换输入/输出目录路径。
+6. 编译并运行您的项目以查看应用于 Excel 文件中的形状的平铺纹理填充。
 
-## 查看  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+## 另请参阅  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Klaar om je vaardigheden verder te ontwikkelen? Duik in de [Aspose.Cells-documen
 - **Gratis proefversie en tijdelijke licentie:** Ontdek de functies met een gratis proefversie of vraag een tijdelijke licentie aan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

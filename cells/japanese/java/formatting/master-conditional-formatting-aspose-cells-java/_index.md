@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -206,7 +208,7 @@ workbook.save(outDir + "/CFBasedOnFormula_out.xls", SaveFormat.EXCEL_97_TO_2003)
 ## FAQセクション
 
 **Q1: Maven 以外のプロジェクトに Aspose.Cells をインストールするにはどうすればよいですか?**
-A: JARをダウンロードしてください [Asposeのリリースページ](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスに追加します。
+A: JARをここからダウンロードしてください [Asposeのリリースページ](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスに追加します。
 
 **Q2: 複数のセルに対して条件付き書式を適用できますか?**
 A: はい、複数定義します `CellArea` あなたの中のオブジェクト `FormatConditionCollection`。
@@ -232,6 +234,9 @@ A: はい、ストリーミング API を使用すると、大規模なデータ
 これらの手順とリソースに従うことで、Aspose.Cells for Java をプロジェクトに効果的に実装できるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

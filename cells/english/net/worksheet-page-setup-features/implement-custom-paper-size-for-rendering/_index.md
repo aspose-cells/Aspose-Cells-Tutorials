@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-custom-paper-size-for-renderin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Custom Paper Size in Worksheet for Rendering
@@ -97,6 +99,7 @@ You can get support and engage with the community on the [Aspose forum](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

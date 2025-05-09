@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -237,6 +239,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá những điều cần thi
    - Sử dụng Maven hoặc Gradle để đưa trực tiếp từ kho lưu trữ vào dự án của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

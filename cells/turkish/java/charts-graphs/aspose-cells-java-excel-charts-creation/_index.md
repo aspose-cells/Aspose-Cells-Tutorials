@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -47,7 +49,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Çevre Kurulum Gereksinimleri
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Kodlama ve test için IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
 
 ### Bilgi Önkoşulları
@@ -233,6 +235,9 @@ public class FeatureWorkbookSaving {
 - "Excel otomasyonu için Java programlama"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

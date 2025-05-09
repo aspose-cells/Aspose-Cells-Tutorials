@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
 "description": "了解如何使用 Aspose.Cells for Java 新增具有漸層填滿的弧形來增強您的 Excel 報表。請按照本綜合指南來建立具有視覺吸引力的文件。"
-"title": "增強 Excel 報表：使用 Aspose.Cells for Java 新增帶有漸層的弧形"
+"title": "增強 Excel 報表使用 Aspose.Cells for Java 新增帶有漸層的弧形"
 "url": "/zh-hant/java/images-shapes/aspose-cells-java-arc-shapes-gradients-excel/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Aspose.Cells 可用於各種場景，例如：
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

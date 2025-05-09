@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Regras de Validação de Dados
@@ -42,9 +44,11 @@ Aprenda validação de dados no Excel usando Aspose.Cells para Java. Implemente 
 Aprenda a implementar validação condicional de dados usando Aspose.Cells para Java. Guia passo a passo com código-fonte para tratamento preciso de dados em planilhas do Excel.
 ### [Mensagem de entrada na validação de dados](./input-message-in-data-validation/)
 Aprenda a aprimorar a validação de dados no Excel usando o Aspose.Cells para Java. Guia passo a passo com exemplos de código para melhorar a precisão dos dados e orientações ao usuário.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

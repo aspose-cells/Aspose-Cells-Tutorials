@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ Przyjrzyjmy się teraz bardziej zaawansowanym operacjom strzeleckim:
 #### Przegląd
 Obliczanie przesunięć i dostęp do całych kolumn lub wierszy ma kluczowe znaczenie w przypadku dynamicznej manipulacji danymi.
 #### Etapy wdrażania
-- **Utwórz zakres pojedynczych komórek** - Zainicjuj zakres pojedynczej komórki za pomocą `createRange("A1")`.
+- **Utwórz pojedynczy zakres komórek** - Zainicjuj zakres pojedynczej komórki za pomocą `createRange("A1")`.
 - **Oblicz przesunięcie** - Używać `getOffset(2, 2)` aby przesunąć zakres o dwa wiersze w dół i o dwie kolumny w prawo.
 - **Dostęp do całej kolumny i wiersza** - Pobierz adresy dla całej kolumny i wiersza za pomocą `getEntireColumn().getAddress()` I `getEntireRow().getAddress()`.
 
@@ -165,6 +167,9 @@ Mamy nadzieję, że ten przewodnik był oświecający i zachęcił Cię do głę
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

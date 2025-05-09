@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ Aspose.Cells'i Java projenize entegre etmek basittir. Maven veya Gradle kullanar
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-**Lisans Edinimi:** Aspose.Cells lisanslama modeliyle çalışır. Ücretsiz deneme lisansı alabilir, değerlendirme için geçici lisans talep edebilir veya üretim kullanımı için tam lisans satın alabilirsiniz. Ziyaret edin [Aspose web sitesi](https://purchase.aspose.com/buy) Daha fazla bilgi için.
+**Lisans Edinimi:** Aspose.Cells bir lisanslama modeliyle çalışır. Ücretsiz deneme lisansı edinebilir, değerlendirme için geçici lisans talep edebilir veya üretim kullanımı için tam lisans satın alabilirsiniz. Ziyaret edin [Aspose web sitesi](https://purchase.aspose.com/buy) Daha fazla bilgi için.
 
 **Temel Başlatma:**
 Bağımlılığı ekledikten ve ortamınızı ayarladıktan sonra, Aspose.Cells'i bir örnek oluşturarak başlatın `Workbook`:
@@ -171,6 +173,9 @@ Artık Java için Aspose.Cells kullanarak bir düğmeyle çalışma kitabı olu�
 Java projelerinizde Aspose.Cells'i etkili bir şekilde kullanma konusunda ek destek ve bilgi için bu kaynakları incelemekten çekinmeyin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

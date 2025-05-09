@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ import com.aspose.cells.*;
 
 **Genel Bakış:** Aspose.Cells sürümünü kontrol etmek uyumluluğu garanti altına alır ve hata ayıklamaya yardımcı olur.
 
-1. **Gerekli Sınıfları İthal Edin:**
+1. **Gerekli Sınıfları İçeri Aktarın:**
 
    ```java
    import com.aspose.cells.CellsHelper;
@@ -190,6 +192,9 @@ Excel dosyalarınızda grafik dönüştürme veya veri işleme gibi Aspose.Cells
 Bu kılavuz, Excel dosyalarını PDF'ye dönüştürmek için Aspose.Cells for Java'nın kullanımına ilişkin kapsamlı bir genel bakış sunarak, bu çözümü etkili bir şekilde uygulamak için gereken araçlara ve bilgiye sahip olmanızı sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

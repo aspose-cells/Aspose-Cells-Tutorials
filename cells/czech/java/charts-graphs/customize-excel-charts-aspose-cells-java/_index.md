@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,6 +183,9 @@ A5: Uložte si sešity ve formátech kompatibilních se staršími verzemi Excel
 Pokud narazíte na nějaké problémy nebo potřebujete další pomoc, neváhejte se obrátit na fórum podpory.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

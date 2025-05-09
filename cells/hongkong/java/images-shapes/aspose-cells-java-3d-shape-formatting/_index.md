@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ threeDFormat.setTopBevelHeight(30);
 這 `ThreeDFormat` 允許您設定輪廓寬度和斜角類型等屬性。方法如 `setContourWidth` 調整形狀的特定視覺屬性。
 
 ### 儲存修改後的 Excel 文件
-修改後，儲存工作簿：
+進行修改後，儲存工作簿：
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outputDir + "WorkingWithThreeDFormat_out.xlsx");
@@ -164,13 +166,16 @@ workbook.save(outputDir + "WorkingWithThreeDFormat_out.xlsx");
 - [下載 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [購買 Aspose.Cells](https://purchase.aspose.com/buy)
 - [免費試用版](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9) 
 
 利用 Aspose.Cells Java 的強大功能來立即改變您的 Excel 資料示範！
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

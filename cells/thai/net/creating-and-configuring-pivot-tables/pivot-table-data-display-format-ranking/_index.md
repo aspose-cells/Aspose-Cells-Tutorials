@@ -1,14 +1,16 @@
 ---
-title: การจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET
-linktitle: การจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการสร้างและจัดการการจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET โดยใช้ Aspose.Cells ด้วยคู่มือทีละขั้นตอนนี้
-weight: 30
-url: /th/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/
+"description": "เรียนรู้วิธีการสร้างและจัดการการจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET โดยใช้ Aspose.Cells ด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "การจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET"
+"url": "/th/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดอันดับรูปแบบการแสดงข้อมูลตารางสรุปข้อมูลใน .NET
@@ -18,8 +20,8 @@ url: /th/net/creating-and-configuring-pivot-tables/pivot-table-data-display-form
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะลงรายละเอียด เรามาตรวจสอบกันก่อนว่าคุณได้เตรียมทุกอย่างให้พร้อมแล้ว นี่คือสิ่งที่คุณต้องการ:
 1. สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนา .NET ที่ใช้งานได้ ซึ่งอาจเป็น Visual Studio หรือ IDE อื่นที่เข้ากันได้
-2. ไลบรารี Aspose.Cells: คุณจะต้องมีไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/cells/net/)คุณสามารถเริ่มทดลองใช้งานฟรีได้โดยไม่มีค่าใช้จ่ายใดๆ ทันที
-3.  ข้อมูลตัวอย่าง: สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ Excel ชื่อ`PivotTableSample.xlsx`ตรวจสอบให้แน่ใจว่าคุณจัดโครงสร้างข้อมูลอย่างถูกต้องในไฟล์นี้เพื่อสร้างตารางสรุปข้อมูล
+2. ไลบรารี Aspose.Cells: คุณจะต้องมีไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases.aspose.com/cells/net/)คุณสามารถเริ่มทดลองใช้งานฟรีได้โดยไม่มีค่าใช้จ่ายใดๆ ทันที
+3. ข้อมูลตัวอย่าง: สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ Excel ชื่อ `PivotTableSample.xlsx`ตรวจสอบให้แน่ใจว่าคุณจัดโครงสร้างข้อมูลอย่างถูกต้องในไฟล์นี้เพื่อสร้างตารางสรุปข้อมูล
 ตอนนี้เราได้ครอบคลุมสิ่งสำคัญแล้ว มาเจาะลึกโค้ดกันเลย!
 ## แพ็คเกจนำเข้า
 ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็นในโครงการ .NET ของคุณ ซึ่งถือเป็นขั้นตอนสำคัญเพื่อให้แน่ใจว่าแอปพลิเคชันของคุณสามารถเข้าถึงฟังก์ชัน Aspose.Cells ได้ โดยทำได้ดังนี้:
@@ -36,14 +38,14 @@ using Aspose.Cells.Pivot;
 string sourceDir = "Your Document Directory"; // อัปเดตด้วยไดเร็กทอรีจริงของคุณ
 string outputDir = "Your Document Directory"; // อัปเดตด้วยไดเร็กทอรีจริงของคุณ
 ```
- อย่าลืมเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางจริงที่คุณเก็บไฟล์ไว้
+อย่าลืมเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงที่คุณเก็บไฟล์ไว้
 ## ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก
 ขั้นตอนต่อไป คุณจะต้องโหลดไฟล์ Excel ที่มีตารางสรุปข้อมูลของคุณ ดังต่อไปนี้:
 ```csharp
 // โหลดไฟล์เทมเพลต
 Workbook workbook = new Workbook(sourceDir + "PivotTableSample.xlsx");
 ```
- การ`Workbook` คลาสเป็นเกตเวย์ของคุณในการทำงานกับไฟล์ Excel โดยการส่งต่อเส้นทางของไฟล์อินพุตของคุณ คุณกำลังแจ้งให้ Aspose.Cells โหลดไฟล์นั้นลงในหน่วยความจำ
+การ `Workbook` คลาสเป็นเกตเวย์ของคุณในการทำงานกับไฟล์ Excel โดยการส่งต่อเส้นทางของไฟล์อินพุตของคุณ คุณกำลังแจ้งให้ Aspose.Cells โหลดไฟล์นั้นลงในหน่วยความจำ
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงาน
 หลังจากโหลดเวิร์กบุ๊กแล้ว คุณต้องเข้าถึงเวิร์กชีตเฉพาะที่ประกอบด้วยตารางสรุปข้อมูลของคุณ:
 ```csharp
@@ -57,7 +59,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 int pivotIndex = 0; // ดัชนีของตารางสรุปข้อมูล
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 ```
-ในสถานการณ์นี้ เราจะเข้าถึง Pivot Table แรก หากคุณมี Pivot Table หลายรายการ ให้ปรับ`pivotIndex`.
+ในสถานการณ์นี้ เราจะเข้าถึง Pivot Table แรก หากคุณมี Pivot Table หลายรายการ ให้ปรับ `pivotIndex`-
 ## ขั้นตอนที่ 5: เข้าถึงช่องข้อมูล
 เมื่อเข้าถึงตารางสรุปข้อมูลแล้ว ขั้นตอนต่อไปคือการค้นหาข้อมูลในฟิลด์ข้อมูล ดังต่อไปนี้:
 ```csharp
@@ -98,16 +100,18 @@ Console.WriteLine("PivotTableDataDisplayFormatRanking executed successfully.");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells คือไลบรารี .NET ที่ช่วยให้นักพัฒนาสามารถทำงานกับไฟล์ Excel ได้โดยไม่ต้องใช้ Microsoft Excel ช่วยให้สามารถอ่าน เขียน และจัดการเอกสาร Excel ได้อย่างราบรื่น
 ### ฉันจำเป็นต้องจ่ายเงินสำหรับ Aspose.Cells หรือไม่?
-แม้ว่า Aspose.Cells จะเสนอให้ทดลองใช้งานฟรี แต่คุณต้องซื้อหากต้องการใช้ฟีเจอร์ทั้งหมด คุณสามารถตรวจสอบได้[หน้าการซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
+แม้ว่า Aspose.Cells จะเสนอให้ทดลองใช้งานฟรี แต่คุณต้องซื้อหากต้องการใช้ฟีเจอร์ทั้งหมด คุณสามารถตรวจสอบได้ [หน้าการซื้อ](https://purchase.aspose.com/buy) สำหรับรายละเอียดเพิ่มเติม
 ### ฉันสามารถสร้าง Pivot Table โดยใช้ Aspose.Cells ได้หรือไม่
 ใช่ Aspose.Cells มีฟีเจอร์ที่แข็งแกร่งในการสร้างและจัดการ Pivot Tables โดยทางโปรแกรม
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells ได้จากที่ใด
- คุณสามารถดูแบบครอบคลุมได้[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำโดยละเอียดและการอ้างอิง API
+คุณสามารถดูแบบครอบคลุมได้ [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำโดยละเอียดและการอ้างอิง API
 ### หากฉันประสบปัญหาจะทำอย่างไร?
- หากคุณประสบปัญหาใดๆ โปรดติดต่อชุมชนและให้การสนับสนุนได้ที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+หากคุณประสบปัญหาใดๆ โปรดติดต่อชุมชนและให้การสนับสนุนได้ที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

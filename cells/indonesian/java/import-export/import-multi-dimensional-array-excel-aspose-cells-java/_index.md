@@ -7,35 +7,37 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengimpor Array Multi-Dimensi ke Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengimpor data secara efisien dari array multidimensi langsung ke lembar kerja Excel menggunakan Java? Mengotomatiskan tugas Excel dengan kumpulan data yang kompleks bisa jadi menantang. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk Java, pustaka canggih yang menyederhanakan operasi ini.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan dan menggunakan Aspose.Cells untuk Java
 - Mengimpor data dari array multidimensi ke dalam lembar kerja Excel
 - Menyimpan data sebagai file Excel
-- Aplikasi dunia nyata dari fungsi ini
+- A funkció valós alkalmazásai
 
-## Prasyarat (H2)
+## Előfeltételek (H2)
 
-Sebelum memulai, pastikan Anda memiliki:
-- **Perpustakaan yang Diperlukan**: Aspose.Cells untuk pustaka Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: IDE yang cocok seperti IntelliJ IDEA, Eclipse, atau NetBeans; Java Development Kit (JDK) terpasang.
-- **Prasyarat Pengetahuan**: Keakraban dengan pemrograman Java dan pemahaman dasar tentang Excel.
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+- **Kötelező könyvtárak**: Aspose.Cells untuk pustaka Java versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**: IDE yang cocok seperti IntelliJ IDEA, Eclipse, atau NetBeans; Java Development Kit (JDK) terpasang.
+- **Ismereti előfeltételek**: Keakraban dengan pemrograman Java dan pemahaman dasar tentang Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java (H2)
 
 Untuk menggunakan Aspose.Cells untuk Java, sertakan dalam dependensi proyek Anda. Berikut caranya:
 
 ### Pakar
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,30 +47,30 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Unduh uji coba dari [Halaman rilis Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**Dapatkan lisensi sementara melalui [tautan ini](https://purchase.aspose.com/temporary-license/) untuk pengujian tanpa batasan.
-- **Pembelian**:Untuk akses dan dukungan penuh, pertimbangkan untuk membeli perpustakaan dari [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**: Unduh uji coba dari [Az Aspose kiadási oldala](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [ezt a linket](https://purchase.aspose.com/temporary-license/) untuk pengujian tanpa batasan.
+- **Vásárlás**:Untuk akses dan dukungan penuh, pertimbangkan untuk membeli perpustakaan dari [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 Setelah menyiapkan proyek Anda dengan Aspose.Cells, inisialisasi `Workbook` objek seperti yang ditunjukkan dalam contoh kita. Ini akan berfungsi sebagai dasar untuk membuat atau memanipulasi file Excel.
 
-## Panduan Implementasi (H2)
+## Megvalósítási útmutató (H2)
 
 Mari kita telusuri proses mengimpor data dari array multidimensi ke dalam lembar kerja Excel menggunakan Aspose.Cells Java.
 
 ### Fitur: Mengimpor Data dari Array Multi-Dimensi (H2)
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini memungkinkan pemindahan data terstruktur secara lancar dari aplikasi Java ke lembar Excel, menghemat waktu dan mengurangi kesalahan yang terkait dengan entri manual.
 
-#### Langkah 1: Buat Contoh Buku Kerja
-Membuat contoh `Workbook` kelas untuk mewakili berkas Excel Anda:
+#### 1. lépés: Munkafüzet-példány létrehozása
+Példányosítsa a `Workbook` kelas untuk mewakili berkas Excel Anda:
 ```java
 // Buat contoh baru kelas Buku Kerja yang merepresentasikan berkas Excel.
 Workbook workbook = new Workbook();
@@ -89,48 +91,48 @@ String[][] strArray = { { "A", "1A", "2A" }, { "B", "2B", "3B" } };
 ```
 
 #### Langkah 4: Impor Array
-Gunakan `importArray` metode untuk menempatkan data array Anda mulai dari indeks baris dan kolom yang ditentukan:
+Használd a `importArray` metode untuk menempatkan data array Anda mulai dari indeks baris dan kolom yang ditentukan:
 ```java
 // Impor array multidimensi ke dalam lembar kerja dengan memulai indeks baris 0 dan indeks kolom 0.
 cells.importArray(strArray, 0, 0);
 ```
 
-#### Langkah 5: Simpan Buku Kerja Anda
+#### 5. lépés: Mentse el a munkafüzetét
 Simpan buku kerja ke lokasi yang Anda inginkan dengan nama file yang sesuai:
 ```java
 // Simpan buku kerja ke file di direktori keluaran yang ditentukan.
 workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 ```
 
-### Tips Pemecahan Masalah
-- **Masalah Jalur File**Pastikan direktori didefinisikan dengan benar dan dapat diakses.
+### Hibaelhárítási tippek
+- **Fájlútvonal-problémák**Pastikan direktori didefinisikan dengan benar dan dapat diakses.
 - **Konflik Perpustakaan**: Periksa konflik versi atau dependensi yang hilang.
 
-## Aplikasi Praktis (H2)
+## Gyakorlati alkalmazások (H2)
 
 Berikut adalah beberapa skenario praktis di mana fitur ini berguna:
-1. **Pelaporan Keuangan**: Secara otomatis mengimpor data transaksional ke Excel untuk analisis dan visualisasi.
-2. **Manajemen Inventaris**: Perbarui tingkat stok langsung dari aplikasi Java ke lembar Excel.
-3. **Migrasi Data**: Mentransfer data antar sistem secara efisien, meminimalkan input manual.
+1. **Pénzügyi jelentéstétel**: Secara otomatis mengimpor data transaksional ke Excel untuk analisis dan visualisasi.
+2. **Készletgazdálkodás**: Perbarui tingkat stok langsung dari aplikasi Java ke lembar Excel.
+3. **Adatmigráció**: Mentransfer data antar sistem secara efisien, meminimalkan input manual.
 
-## Pertimbangan Kinerja (H2)
+## Teljesítményszempontok (H2)
 
 Saat bekerja dengan kumpulan data besar, pertimbangkan hal berikut:
 - Gunakan pemrosesan batch jika memungkinkan.
 - Optimalkan penggunaan memori dengan mengelola siklus hidup objek secara efektif dalam kode Java Anda.
 - Memanfaatkan fitur pengoptimalan bawaan Aspose.Cells untuk menangani file Excel berukuran besar.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah menguasai cara mengimpor data dari array multidimensi ke dalam lembar kerja Excel menggunakan Aspose.Cells untuk Java. Alat canggih ini menyederhanakan tugas pengelolaan data dan meningkatkan produktivitas dengan mengotomatiskan proses yang berulang.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimen dengan kumpulan data yang berbeda.
 - Jelajahi lebih jauh fitur Aspose.Cells untuk memperluas keterampilan otomatisasi Excel Anda.
 
-Jangan lupa untuk mengunduh [uji coba gratis](https://releases.aspose.com/cells/java/) dan mulailah menerapkannya hari ini!
+Jangan lupa untuk mengunduh [ingyenes próba](https://releases.aspose.com/cells/java/) dan mulailah menerapkannya hari ini!
 
-## Bagian FAQ (H2)
+## GYIK szekció (H2)
 
 1. **T: Bagaimana cara menangani nilai null dalam array saya saat mengimpor?**
    - A: Aspose.Cells akan membiarkan sel kosong jika nilai yang sesuai adalah `null`.
@@ -145,18 +147,21 @@ Jangan lupa untuk mengunduh [uji coba gratis](https://releases.aspose.com/cells/
    - A: Ya, Aspose.Cells mendukung berbagai tipe data seperti bilangan bulat dan tanggal.
 
 5. **T: Bagaimana cara memformat sel setelah mengimpor array?**
-   - A: Gunakan `Style` objek untuk menerapkan pemformatan pasca-impor menggunakan `cells.get(rowIndex, colIndex).setStyle(style)`.
+   - V: Használja a `Style` objek untuk menerapkan pemformatan pasca-impor menggunakan `cells.get(rowIndex, colIndex).setStyle(style)`.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

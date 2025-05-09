@@ -1,64 +1,66 @@
 ---
-title: Konversi Bagan ke PDF
-linktitle: Konversi Bagan ke PDF
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengonversi grafik Excel ke PDF menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Jelajahi kiat-kiat penting dan contoh-contoh pengodean.
-weight: 11
-url: /id/net/chart-rendering-and-conversion/convert-chart-to-pdf/
+"description": "Pelajari cara mengonversi grafik Excel ke PDF menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Jelajahi kiat-kiat penting dan contoh-contoh pengodean."
+"linktitle": "Konversi Bagan ke PDF"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Konversi Bagan ke PDF"
+"url": "/id/net/chart-rendering-and-conversion/convert-chart-to-pdf/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Bagan ke PDF
 
-## Perkenalan
+## Bevezetés
 
 Dalam hal penanganan lembar kerja, bagan sering kali memainkan peran penting dalam memvisualisasikan data secara efektif. Baik Anda sedang mempersiapkan laporan, melakukan presentasi, atau sekadar memfasilitasi analisis data, mengonversi bagan ini ke PDF memberikan sentuhan profesional. Di sini, kami akan memandu Anda melalui langkah-langkah untuk mengonversi bagan Excel ke format PDF menggunakan Aspose.Cells for .NET, pustaka canggih yang dirancang untuk menyederhanakan manipulasi Excel.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai tutorial, Anda perlu memastikan bahwa Anda memiliki pengaturan yang tepat. Berikut ini yang Anda perlukan:
 
-### Kerangka .NET
-Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells kompatibel dengan berbagai versi, tetapi cenderung berfungsi paling baik dengan versi terbaru.
+### .NET keretrendszer
+Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells kompatibel dengan berbagai versi tetapi cenderung berfungsi paling baik dengan versi terbaru.
 
-### Pustaka Aspose.Cells
- Anda akan memerlukan pustaka Aspose.Cells for .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/)Pustaka ini dilengkapi dengan API lengkap yang merangkum semua fungsi yang Anda perlukan untuk manipulasi Excel.
+### Aspose.Cells könyvtár
+Anda akan memerlukan pustaka Aspose.Cells for .NET. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/net/)Pustaka ini dilengkapi dengan API lengkap yang merangkum semua fungsi yang Anda perlukan untuk manipulasi Excel.
 
-### Bahasa Indonesia: Studio Visual
+### Vizuális Stúdió
 Menginstal Visual Studio sangatlah penting, karena ini merupakan IDE hebat untuk menulis kode .NET Anda dengan lancar.
 
-### Pengetahuan Dasar C#
+### C# alapismeretek
 Sedikit pengetahuan tentang bahasa pemrograman C# akan membantu Anda memahami segmen kode dengan lebih baik.
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk berhasil menggunakan Aspose.Cells di proyek Anda, Anda perlu mengimpor paket yang diperlukan. Berikut cara melakukannya:
 
-### Buat Proyek Baru
+### Új projekt létrehozása
 
 Mulailah dengan membuat proyek C# baru di Visual Studio:
 
-1. Buka Visual Studio.
+1. Nyisd meg a Visual Studio-t.
 2. Klik “Buat proyek baru.”
 3. Pilih “Aplikasi Konsol (.NET Core)” atau “Aplikasi Konsol (.NET Framework)” berdasarkan kebutuhan Anda.
 4. Beri nama proyek Anda dan klik “Buat.”
 
-### Tambahkan Referensi Aspose.Cells
+### Aspose.Cells hivatkozás hozzáadása
 
 Setelah membuat proyek Anda, Anda harus menambahkan referensi ke pustaka Aspose.Cells:
 
 1. Di Solution Explorer, klik kanan pada proyek Anda.
 2. Pilih “Kelola Paket NuGet.”
-3. Cari “Aspose.Cells” dan instal.
+3. Keresd meg az „Aspose.Cells” fájlt, és telepítsd.
 
 Setelah pustaka disertakan dalam proyek Anda, Anda siap untuk beralih ke kode.
 
-### Impor Namespace yang Diperlukan
+### Importálja a szükséges névtereket
 
- Di bagian atas Anda`Program.cs` file, tambahkan namespace berikut:
+A te tetején `Program.cs` file, tambahkan namespace berikut:
 
 ```csharp
 using System;
@@ -76,16 +78,16 @@ Berikut cara mengonversi grafik Excel ke PDF secara sistematis. Ikuti langkah de
 Untuk memulai kode Anda, pertama-tama Anda ingin menentukan di mana Anda akan menyimpan keluaran Anda dan di mana dokumen sumber Anda berada.
 
 ```csharp
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Output Directory"` Dan`"Your Document Directory"` dengan jalur sebenarnya tempat file Anda berada.
+Mindenképpen cserélje ki `"Your Output Directory"` és `"Your Document Directory"` a fájlok tényleges elérési útjával.
 
-## Langkah 2: Muat Buku Kerja Excel
+## 2. lépés: Töltse be az Excel-munkafüzetet
 
 Sekarang, mari kita muat berkas Excel yang berisi grafik yang ingin Anda ubah. Ini cukup mudah:
 
@@ -96,23 +98,23 @@ Workbook workbook = new Workbook(sourceDir + "sampleChartToPdf.xlsx");
 
 Kode ini menginisialisasi objek buku kerja baru dan memuat berkas Excel yang ditentukan. Pastikan nama berkas sesuai dengan yang ada di direktori sumber Anda.
 
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: A munkalap elérése
 
 Selanjutnya, Anda perlu mengakses lembar kerja yang berisi bagan yang ingin Anda ubah. Berikut cara melakukannya:
 
 ```csharp
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 Kode ini mengakses lembar kerja pertama dalam buku kerja Anda, memungkinkan Anda untuk mengerjakannya.
 
-## Langkah 4: Akses Bagan 
+## 4. lépés: Hozzáférés a diagramhoz 
 
 Setelah Anda memiliki lembar kerja, saatnya mengakses bagan spesifik yang ingin Anda ubah:
 
 ```csharp
-// Akses bagan pertama di dalam lembar kerja
+// Hozzáférés a munkalap első diagramjához
 Chart chart = worksheet.Charts[0];
 ```
 
@@ -153,29 +155,31 @@ Terakhir, akan lebih baik jika Anda menunjukkan bahwa operasi Anda berhasil. And
 Console.WriteLine("ChartToPdf executed successfully.");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Dengan memanfaatkan Aspose.Cells for .NET, mengonversi grafik Excel ke format PDF menjadi sangat mudah. Baik Anda memilih untuk menyimpan ke file atau aliran memori, pustaka ini menjanjikan fleksibilitas dan kemudahan penggunaan. Jadi, mengapa tidak mencobanya? Laporan Anda akan terlihat jauh lebih tajam dengan grafik PDF yang diformat secara profesional!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bisakah Aspose.Cells mengonversi beberapa bagan sekaligus?
- Ya, Anda dapat melakukan pengulangan melalui`worksheet.Charts` koleksi untuk mengonversi setiap grafik satu per satu.
+Ya, Anda dapat melakukan pengulangan melalui `worksheet.Charts` koleksi untuk mengonversi setiap grafik satu per satu.
 
 ### Apakah Aspose.Cells cocok untuk file Excel berukuran besar?
 Tentu saja! Aspose.Cells dioptimalkan untuk kinerja dan dapat menangani file Excel berukuran besar secara efisien.
 
-### Versi .NET apa yang didukung Aspose.Cells?
+### A .NET mely verzióit támogatja az Aspose.Cells?
 Aspose.Cells mendukung berbagai versi .NET, termasuk .NET Framework dan .NET Core.
 
 ### Di mana saya dapat menemukan dokumentasi terperinci?
- Kunjungi[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk informasi dan contoh yang mendalam.
+Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) untuk informasi dan contoh yang mendalam.
 
 ### Apakah ada versi uji coba gratis yang tersedia?
- Ya! Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+Ya! Anda dapat mengunduh uji coba gratis dari [itt](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

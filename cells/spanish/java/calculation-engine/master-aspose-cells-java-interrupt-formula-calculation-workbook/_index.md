@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ Como próximos pasos, considere explorar características adicionales de Aspose.
 Siguiendo esta guía completa, ya está preparado para implementar y aprovechar eficazmente las funciones de interrupción del cálculo de fórmulas de Aspose.Cells para Java. ¡Que disfrute programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

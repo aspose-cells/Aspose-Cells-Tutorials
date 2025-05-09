@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách sao chép
 ### Những gì bạn sẽ học được:
 - Khởi tạo đối tượng Workbook bằng Aspose.Cells
 - Truy cập và thao tác các trang tính trong một sổ làm việc
-- Truy xuất và sao chép hình ảnh (pictures) từ trang tính này sang trang tính khác
+- Lấy và sao chép hình ảnh (pictures) từ trang tính này sang trang tính khác
 - Lưu các thay đổi vào sổ làm việc Excel
 
 Đầu tiên, chúng ta hãy cùng tìm hiểu những điều kiện tiên quyết cần thiết trước khi bắt đầu.
@@ -189,7 +191,7 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách sử dụng A
    - Aspose.Cells sẽ đưa ra ngoại lệ; xử lý bằng cách kiểm tra xem trang tính có tồn tại hay không trước khi cố gắng truy cập vào trang tính đó.
 4. **Có cách nào để tự động hóa quy trình này cho nhiều sổ làm việc không?**
    - Triển khai vòng lặp duyệt qua tất cả các tệp trong thư mục, áp dụng các bước sau cho từng tệp.
-5. **Tôi có thể giải quyết các lỗi liên quan đến giấy phép như thế nào?**
+5. **Tôi có thể giải quyết lỗi liên quan đến giấy phép như thế nào?**
    - Đảm bảo đường dẫn tệp giấy phép của bạn là chính xác và bạn đã khởi tạo nó trước khi tạo bất kỳ đối tượng Workbook nào.
 
 ## Tài nguyên
@@ -203,6 +205,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách sử dụng A
 Bằng cách khám phá các tài nguyên này, bạn có thể tìm hiểu sâu hơn về Aspose.Cells for Java và nâng cao khả năng tự động hóa Excel của mình. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

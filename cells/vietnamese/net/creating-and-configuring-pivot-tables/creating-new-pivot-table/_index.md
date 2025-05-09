@@ -1,14 +1,16 @@
 ---
-title: Tạo một bảng Pivot mới theo chương trình trong .NET
-linktitle: Tạo một bảng Pivot mới theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách tạo bảng trục theo chương trình trong .NET bằng Aspose.Cells với hướng dẫn từng bước của chúng tôi. Phân tích dữ liệu của bạn một cách hiệu quả.
-weight: 13
-url: /vi/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
+"description": "Học cách tạo bảng trục theo chương trình trong .NET bằng Aspose.Cells với hướng dẫn từng bước của chúng tôi. Phân tích dữ liệu của bạn một cách hiệu quả."
+"linktitle": "Tạo một bảng Pivot mới theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo một bảng Pivot mới theo chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo một bảng Pivot mới theo chương trình trong .NET
@@ -20,7 +22,7 @@ Việc tạo một bảng trục có vẻ như là một nhiệm vụ khó khăn
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị mọi thứ sẵn sàng. Sau đây là những gì bạn cần làm:
 
 1. Cài đặt .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.Cells hỗ trợ nhiều phiên bản khác nhau, nhưng tốt nhất là bạn nên sử dụng phiên bản mới nhất.
-2.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/)hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
+2. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá.
 3. Thiết lập IDE: Chuẩn bị một IDE tương thích với C#, như Visual Studio, nơi bạn có thể bắt đầu một dự án mới.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi mà không bị bối rối.
 
@@ -50,7 +52,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- Trong bước này, chúng ta tạo ra một`Workbook`trường hợp đại diện cho tệp Excel của chúng ta và lấy bảng tính đầu tiên, đây sẽ là sân chơi cho bảng trục.
+Trong bước này, chúng ta tạo ra một `Workbook` trường hợp đại diện cho tệp Excel của chúng ta và lấy bảng tính đầu tiên, đây sẽ là sân chơi cho bảng trục.
 
 ## Bước 2: Chèn dữ liệu vào ô
 Tiếp theo, hãy điền một số dữ liệu mẫu vào bảng tính của chúng ta. Chúng ta sẽ nhập các hàng cho các môn thể thao, quý và số liệu bán hàng khác nhau để cung cấp cho bảng trục của chúng ta một cái gì đó để tóm tắt.
@@ -125,19 +127,21 @@ Tạo bảng trục theo chương trình bằng Aspose.Cells cho .NET có thể 
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo và quản lý bảng tính Excel theo chương trình.
 
 ### Có bản dùng thử miễn phí Aspose.Cells không?
- Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tùy chỉnh giao diện của bảng trục không?
 Chắc chắn rồi! Bạn có thể tùy chỉnh định dạng, bố cục và thậm chí cả kiểu của bảng trục theo nhu cầu của mình.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Cells ở đâu?
- Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn và ví dụ toàn diện.
+Bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn và ví dụ toàn diện.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

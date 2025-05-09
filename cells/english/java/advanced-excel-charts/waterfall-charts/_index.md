@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/waterfall-charts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Waterfall Charts
@@ -118,6 +120,7 @@ You can explore the documentation for Aspose.Cells for Java at [reference.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

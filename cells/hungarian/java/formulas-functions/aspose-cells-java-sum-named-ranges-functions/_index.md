@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ Kezdje egy alapvető struktúra beállításával, ahol munkalapokat adhat hozz�
 Workbook book = new Workbook();
 ```
 
-#### 2. lépés: Hozzáférés a Munkalapgyűjteményhez
+#### 2. lépés: Access WorksheetCollection
 ```java
 WorksheetCollection worksheets = book.getWorksheets();
 ```
@@ -169,7 +171,7 @@ Ez az oktatóanyag bemutatta, hogyan használhatók az elnevezett tartományok a
    - Használjon optimális adatszerkezeteket és kezelje hatékonyan a memóriát a már nem szükséges objektumok megsemmisítésével.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -179,6 +181,9 @@ Ez az oktatóanyag bemutatta, hogyan használhatók az elnevezett tartományok a
 Ez az oktatóanyag átfogó ismereteket nyújt a névvel ellátott tartományok és összegfüggvények megvalósításáról az Aspose.Cells for Java használatával. Próbáld ki, hogy kihasználhasd az Excel automatizálásának teljes potenciálját az alkalmazásaidban!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

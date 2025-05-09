@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 **您將學到什麼：**
 - 在 Aspose.Cells for Java 中實例化 Workbook 對象
 - 在 Excel 檔案中新增和存取工作表
-- 以程式方式修改儲存格值
+- 以程式方式修改單元格值
 - 套用字體樣式（例如刪除線效果）
 
 在深入實施之前，讓我們先探討先決條件。
@@ -192,6 +194,9 @@ Aspose.Cells for Java 功能多樣，可用於各種場景：
 透過遵循本指南，您可以使用 Aspose.Cells for Java 自動執行 Excel 任務。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

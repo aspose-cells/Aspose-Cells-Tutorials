@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ workbook.save(outDir + "outSourceWithCustProps.pdf", pdfSaveOpt);
 ### Suggerimenti per la risoluzione dei problemi
 - Assicurati che i percorsi dei file (`dataDir` E `outDir`) sono impostati correttamente per evitare `FileNotFoundException`.
 - Verifica di aver installato la versione corretta di Aspose.Cells.
-- Ricontrolla la tua richiesta di licenza se durante il test non tutte le funzionalità non sono accessibili.
+- Ricontrolla la tua richiesta di licenza se durante il test non tutte le funzionalità sono accessibili.
 
 ## Applicazioni pratiche
 
@@ -126,7 +128,7 @@ Questa funzionalità può essere applicata in vari scenari, ad esempio:
 
 ## Considerazioni sulle prestazioni
 Per ottimizzare le prestazioni quando si utilizza Aspose.Cells:
-- Gestisci la memoria in modo efficiente eliminando gli oggetti della cartella di lavoro quando non sono più necessari.
+- Gestire la memoria in modo efficiente eliminando gli oggetti della cartella di lavoro quando non sono più necessari.
 - Utilizzo `Workbook.dispose()` metodo per liberare rapidamente le risorse.
 - Profila la tua applicazione per identificare e mitigare i colli di bottiglia nell'elaborazione di file di grandi dimensioni.
 
@@ -160,6 +162,9 @@ Hai imparato come esportare proprietà personalizzate da un file Excel in un PDF
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

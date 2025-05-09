@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Az Aspose.Cells használatakor:
 
 Most már megtanultad, hogyan adhatsz hozzá HTML-gazdag szöveget Excel fájlokhoz az Aspose.Cells for Java segítségével, amivel javíthatod a táblázataid vizuális megjelenését és funkcionalitását. Az Aspose.Cells képességeinek további felfedezéséhez érdemes lehet más funkciókat is megvizsgálni, például diagramkészítést, adatérvényesítést vagy makrótámogatást.
 
-következő lépések közé tartozik a bonyolultabb HTML-formázásokkal való kísérletezés és ezen technikák integrálása nagyobb projektekbe.
+A következő lépések közé tartozik a bonyolultabb HTML-formázásokkal való kísérletezés és ezen technikák integrálása nagyobb projektekbe.
 
 ## GYIK szekció
 
@@ -150,6 +152,9 @@ Használd ki az Aspose.Cells for Java erejét, hogy átalakítsd az Excel adatke
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

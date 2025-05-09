@@ -8,7 +8,9 @@ url: /net/excel-file-handling/load-visible-sheets-only/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load Visible Sheets Only from Excel File
@@ -114,6 +116,7 @@ You can easily [buy Aspose.Cells](https://purchase.aspose.com/buy) from their pu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

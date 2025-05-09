@@ -1,14 +1,16 @@
 ---
-title: Tạo biểu đồ tùy chỉnh
-linktitle: Tạo biểu đồ tùy chỉnh
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo biểu đồ tùy chỉnh trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để nâng cao kỹ năng trực quan hóa dữ liệu của bạn.
-weight: 10
-url: /vi/net/manipulating-chart-types/create-custom-chart/
+"description": "Tìm hiểu cách tạo biểu đồ tùy chỉnh trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để nâng cao kỹ năng trực quan hóa dữ liệu của bạn."
+"linktitle": "Tạo biểu đồ tùy chỉnh"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo biểu đồ tùy chỉnh"
+"url": "/vi/net/manipulating-chart-types/create-custom-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo biểu đồ tùy chỉnh
@@ -21,9 +23,9 @@ Tạo biểu đồ tùy chỉnh trong Excel bằng thư viện Aspose.Cells cho 
 
 Trước khi đi sâu vào chi tiết của việc tạo biểu đồ, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 
-1. Visual Studio hoặc bất kỳ IDE nào tương thích với .NET: Đây sẽ là sân chơi để bạn viết và thử nghiệm mã của mình.
-2.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
-3. Hiểu biết cơ bản về C#: Bạn sẽ được hưởng lợi nếu nắm được các khái niệm cơ bản về C# vì chúng ta sẽ sử dụng chúng trong các ví dụ mã.
+1. Visual Studio hoặc bất kỳ IDE nào tương thích với .NET: Đây sẽ là nơi để bạn viết và thử nghiệm mã của mình.
+2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
+3. Hiểu biết cơ bản về C#: Bạn sẽ được hưởng lợi nếu nắm được các khái niệm cơ bản về C# vì chúng ta sẽ sử dụng chúng trong các ví dụ mã của mình.
 4. Một tập dữ liệu mẫu: Để tạo biểu đồ, việc có một số dữ liệu là điều cần thiết. Chúng tôi sẽ sử dụng một tập dữ liệu đơn giản trong ví dụ của mình, nhưng bạn có thể điều chỉnh nó theo nhu cầu của mình.
 
 ## Nhập gói
@@ -55,7 +57,7 @@ Thay vì "Your Output Directory", bạn có thể chỉ định đường dẫn 
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Bây giờ, bạn sẽ muốn bắt đầu bằng cách tạo một phiên bản mới của`Workbook`lớp. Đây là khối xây dựng cơ bản cho bất kỳ hoạt động Excel nào sử dụng Aspose.Cells.
+Bây giờ, bạn sẽ muốn bắt đầu bằng cách tạo một phiên bản mới của `Workbook` lớp. Đây là khối xây dựng cơ bản cho bất kỳ hoạt động Excel nào sử dụng Aspose.Cells.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
@@ -78,7 +80,7 @@ Dòng này truy cập vào trang tính đầu tiên (chỉ mục 0). Aspose.Cell
 ## Bước 4: Thêm dữ liệu mẫu vào bảng tính
 
 
-Khi đã có bảng tính, giờ là lúc thêm một số dữ liệu mẫu vào ô của bạn. Một tập dữ liệu đơn giản sẽ giúp chúng ta hình dung biểu đồ hiệu quả hơn.
+Khi đã có bảng tính, giờ là lúc thêm một số dữ liệu mẫu vào ô của bạn. Một tập dữ liệu đơn giản sẽ giúp chúng ta trực quan hóa biểu đồ hiệu quả hơn.
 
 ```csharp
 // Thêm giá trị mẫu vào ô
@@ -114,7 +116,7 @@ Sau khi thêm biểu đồ, chúng ta cần tham chiếu đến biểu đồ đ�
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
- Tại thời điểm này, bạn có một`chart` đối tượng cho phép bạn sửa đổi các thuộc tính của nó khi cần.
+Tại thời điểm này, bạn có một `chart` đối tượng cho phép bạn sửa đổi các thuộc tính của nó khi cần.
 
 ## Bước 7: Thêm Chuỗi Dữ Liệu vào Biểu Đồ
 
@@ -147,7 +149,7 @@ Sau tất cả những cấu hình đó, đã đến lúc lưu tệp Excel của
 workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 ```
 
- Hãy chắc chắn rằng bạn thêm tên tệp với`.xlsx` phần mở rộng để đảm bảo sổ làm việc được lưu đúng cách.
+Hãy chắc chắn rằng bạn thêm tên tệp với `.xlsx` phần mở rộng để đảm bảo sổ làm việc được lưu đúng cách.
 
 ## Phần kết luận
 
@@ -161,19 +163,21 @@ Hãy nhớ rằng, sức mạnh của biểu đồ nằm ở khả năng kể m�
 Aspose.Cells là một thư viện mạnh mẽ để làm việc với các tệp Excel trong các ứng dụng .NET, cho phép thao tác, tạo và chuyển đổi các tài liệu Excel.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?
- Bạn có thể cài đặt nó thông qua NuGet trong Visual Studio hoặc tải xuống thư viện trực tiếp từ[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể cài đặt nó thông qua NuGet trong Visual Studio hoặc tải xuống thư viện trực tiếp từ [đây](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể tạo nhiều loại biểu đồ khác nhau không?
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều loại biểu đồ, bao gồm biểu đồ Cột, Đường, Hình tròn và Thanh.
 
 ### Có cách nào để có được giấy phép tạm thời cho Aspose.Cells không?
- Có, bạn có thể xin giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể xin giấy phép tạm thời từ [liên kết này](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể khám phá tài liệu đầy đủ[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu đầy đủ [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

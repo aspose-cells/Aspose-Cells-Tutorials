@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-### Çalışma Sayfalarına Erişim ve Bunları Düzenleme
+### Çalışma Sayfalarına Erişim ve Düzenleme
 Verileri grafiklere hazırlamak için çalışma sayfalarına erişin:
 ```java
 import com.aspose.cells.WorksheetCollection;
@@ -179,6 +181,9 @@ Artık Java için Aspose.Cells kullanarak kabarcık grafikleri oluşturmayı ve 
 - **Destek Forumu**:Herhangi bir sorunuz varsa, [destek forumu](https://forum.aspose.com/c/cells/9) Mevcuttur.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

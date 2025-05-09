@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ Una marca de agua de WordArt en Excel puede impedir eficazmente la distribución
 
 **Paso 1: Crear o cargar un libro de trabajo**
 ```java
-// Crear una instancia de un nuevo objeto Workbook
+// Crear una instancia de un nuevo objeto de libro de trabajo
 Workbook workbook = new Workbook();
 ```
 Este paso inicializa un nuevo archivo Excel donde puedes comenzar a agregar contenido y marcas de agua.
@@ -186,6 +188,9 @@ Los próximos pasos podrían incluir explorar funcionalidades más avanzadas ofr
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

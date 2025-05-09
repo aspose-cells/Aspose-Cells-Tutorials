@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ Most már megtanultad, hogyan hozhatsz létre, menthetsz és tölthetsz be haté
 - Fedezze fel az Aspose.Cells egyéb funkcióit, például a diagramkészítést vagy az adatellenőrzést.
 - Integrálja ezeket a funkciókat a meglévő projektjeibe.
 
-Javasoljuk, hogy vizsgálja meg jobban ezeket a megoldásokat, és implementálja azokat saját Java-alkalmazásaiba. További információkért lásd a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) és próbálják ki őket [ingyenes próba](https://releases.aspose.com/cells/java/).
+Javasoljuk, hogy vizsgálja meg jobban ezeket a megoldásokat, és implementálja azokat saját Java-alkalmazásaiba. További információkért lásd a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) és próbálják ki az [ingyenes próba](https://releases.aspose.com/cells/java/).
 
 ## GYIK szekció
 
@@ -188,6 +190,9 @@ Javasoljuk, hogy vizsgálja meg jobban ezeket a megoldásokat, és implementálj
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

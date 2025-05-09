@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ workbook.save(outDir + "/test_udf.xlsx", com.aspose.cells.SaveFormat.XLSX);
 开启您的旅程，使用 Aspose.Cells 在 Java 中充分发挥 Excel 函数的强大功能。祝您编程愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

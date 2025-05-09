@@ -1,14 +1,16 @@
 ---
-title: Dodaj kontrolę łuku za pomocą punktów połączeń
-linktitle: Dodaj kontrolę łuku za pomocą punktów połączeń
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym szczegółowym przewodniku dowiesz się, jak dodawać kontrolki łuku z punktami połączenia za pomocą Aspose.Cells dla .NET.
-weight: 27
-url: /pl/net/excel-shapes-controls/add-arc-control-with-connection-points/
+"description": "W tym szczegółowym przewodniku dowiesz się, jak dodawać kontrolki łuku z punktami połączenia za pomocą Aspose.Cells dla .NET."
+"linktitle": "Dodaj kontrolę łuku za pomocą punktów połączeń"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj kontrolę łuku za pomocą punktów połączeń"
+"url": "/pl/net/excel-shapes-controls/add-arc-control-with-connection-points/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj kontrolę łuku za pomocą punktów połączeń
@@ -18,7 +20,7 @@ Jeśli chodzi o tworzenie wizualnie angażujących raportów w programie Excel, 
 ## Wymagania wstępne
 Zanim wskoczymy w ekscytację kodowania, upewnijmy się, że wszystko jest gotowe. Oto, czego potrzebujesz:
 1. .NET Framework: Upewnij się, że masz zainstalowaną kompatybilną wersję. Aspose.Cells współpracuje z wieloma wersjami, w tym .NET Core.
-2.  Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz ją łatwo pobrać z[link do pobrania](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz ją łatwo pobrać z [link do pobrania](https://releases.aspose.com/cells/net/).
 3. Dobre środowisko IDE: Visual Studio, wierny towarzysz każdego programisty .NET, pomoże Ci usprawnić proces kodowania.
 4. Podstawowa wiedza o języku C#: Jeśli znasz język C#, ten samouczek będzie dla Ciebie pestką.
 5. Dostęp do katalogu dokumentów: Dowiedz się, gdzie zapiszesz pliki Excel. Jest to niezbędne do efektywnego organizowania wyników.
@@ -46,7 +48,7 @@ Teraz, gdy mamy już gotowy katalog, możemy utworzyć nowy skoroszyt w programi
 ```csharp
 Workbook excelbook = new Workbook();
 ```
- Dzwoniąc do`Workbook` konstruktora, w zasadzie mówisz: „Hej, zacznijmy nowy plik Excela!”. Będzie to płótno dla wszystkich Twoich kształtów i danych.
+Dzwoniąc do `Workbook` konstruktora, w zasadzie mówisz: „Hej, zacznijmy nowy plik Excela!”. Będzie to płótno dla wszystkich Twoich kształtów i danych.
 ## Krok 3: Dodawanie pierwszego kształtu łuku
 Tutaj zaczyna się zabawa! Dodajmy nasz pierwszy kształt łuku.
 ```csharp
@@ -60,7 +62,7 @@ Pusty kształt łuku jest jak płótno bez farby — potrzebuje odrobiny polotu!
 arc1.Fill.FillType = FillType.Solid;
 arc1.Fill.SolidFill.Color = Color.Blue;
 ```
-To sprawia, że łuk jest jednolity na niebiesko. Możesz zmienić kolor na dowolny odcień, zamieniając`Color.Blue` na inny kolor.
+To sprawia, że łuk jest jednolity na niebiesko. Możesz zmienić kolor na dowolny odcień, zamieniając `Color.Blue` na inny kolor.
 ### Ustaw położenie łuku
 ```csharp
 arc1.Placement = PlacementType.FreeFloating;
@@ -85,7 +87,7 @@ Nadajmy również naszemu drugiemu rozdziałowi trochę osobowości!
 arc2.Line.FillType = FillType.Solid;
 arc2.Line.SolidFill.Color = Color.Blue;
 ```
-Utrzymaliśmy spójny kolor niebieski, ale możesz dowolnie mieszać i dopasowywać, aby znaleźć to, co najlepiej pasuje do Twojego projektu!
+Utrzymaliśmy spójny kolor niebieski, ale zawsze możesz dowolnie mieszać i dopasowywać, aby znaleźć to, co najlepiej pasuje do Twojego projektu!
 ### Ustaw właściwości podobne do pierwszego łuku
 Pamiętaj o powtórzeniu tych wyborów estetycznych:
 ```csharp
@@ -93,7 +95,7 @@ arc2.Placement = PlacementType.FreeFloating;
 arc2.Line.Weight = 1;           
 arc2.Line.DashStyle = MsoLineDashStyle.Solid;
 ```
-Tutaj po prostu upewniasz się, że drugi łuk pasuje do pierwszego, tworząc spójny wygląd całego arkusza kalkulacyjnego.
+Tutaj po prostu upewniasz się, że drugi łuk pasuje do pierwszego, tworząc w ten sposób spójny wygląd całego arkusza kalkulacyjnego.
 ## Krok 7: Zapisz swój skoroszyt
 Żadne arcydzieło nie jest kompletne bez zapisania, prawda? Czas zapisać swoje łuki w pliku Excel.
 ```csharp
@@ -104,18 +106,20 @@ Ten wiersz zapisuje nowo utworzone łuki w pliku Excel o nazwie „book1.out.xls
 Gratulacje! Właśnie opanowałeś podstawy dodawania kontrolek łuku z punktami połączenia w arkuszach Excela przy użyciu Aspose.Cells dla .NET. Ta funkcjonalność nie tylko upiększa arkusze kalkulacyjne, ale także może sprawić, że złożone dane będą łatwiejsze do przyswojenia. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, te elementy wizualne mogą przekształcić Twoje raporty z nudnych w wspaniałe.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie i modyfikowanie plików Excel.
+Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie i modyfikowanie plików Excela.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak! Możesz wypróbować bezpłatną wersję próbną. Odwiedź[ten link](https://releases.aspose.com/) zacząć.
+Tak! Możesz wypróbować bezpłatną wersję próbną. Odwiedź [ten link](https://releases.aspose.com/) zacząć.
 ### Jak dodać inne kształty oprócz łuków?
 Możesz użyć różnych klas dostępnych w przestrzeni nazw Aspose.Cells.Drawing, aby dodać różne kształty, takie jak prostokąty, okręgi i inne.
 ### Jakie typy plików mogę tworzyć za pomocą Aspose.Cells?
 Możesz tworzyć i edytować różne formaty plików Excel, w tym XLS, XLSX, CSV i inne.
 ### Czy dla Aspose.Cells dostępna jest pomoc techniczna?
- Oczywiście! Możesz uzyskać dostęp do[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+Oczywiście! Możesz uzyskać dostęp do [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

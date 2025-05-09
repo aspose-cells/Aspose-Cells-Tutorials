@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Suddivideremo il processo in sezioni gestibili.
    // Accede al primo foglio di lavoro nella cartella di lavoro.
    ```
 
-#### Grafico di accesso
+#### Tabella di accesso
 **Panoramica**: Estrarre e manipolare grafici all'interno di un foglio di lavoro.
 1. **Importa la classe Chart**
    ```java
@@ -149,7 +151,7 @@ Ora sai come caricare cartelle di lavoro, accedere a fogli di lavoro e grafici e
 A1: Utilizzare un ciclo per scorrere tutti i grafici, applicando i controlli degli assi come mostrato sopra.
 
 **D2: Cosa succede se nel grafico non sono presenti assi di categoria o di valore?**
-A2: Aggiungere assi a livello di codice utilizzando i metodi Aspose.Cells.
+A2: Aggiungere assi a livello di programmazione utilizzando i metodi Aspose.Cells.
 
 **D3: Posso usare Aspose.Cells per altri formati Excel come `.xls` O `.xlsm`?**
 R3: Sì, supporta vari formati. Assicurati di utilizzare l'estensione di file corretta quando carichi le cartelle di lavoro.
@@ -165,6 +167,9 @@ A5: Ottimizzare il codice caricando i dati necessari, memorizzando nella cache i
 - **Scaricamento**: Accedi all'ultima versione di Aspose.Cells per Java per iniziare a implementare queste soluzioni oggi stesso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

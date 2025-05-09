@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ Excel डेटा को HTML5 के रूप में निर्यात
 उत्तर: एक संगत JDK और Maven या Gradle जैसे बिल्ड टूल की आवश्यकता है। विशिष्ट संस्करण संगतता की जाँच करें [Aspose वेबसाइट](https://reference.aspose.com/cells/java/).
 
 **प्रश्न: यदि मुझे कोई समस्या आती है तो मैं सहायता कहां से प्राप्त कर सकता हूं?**
-उत्तर: शामिल हों [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) समुदाय और विशेषज्ञ सहायता के लिए।
+उत्तर: शामिल हों [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) समुदाय और विशेषज्ञ सहायता के लिए।
 
 ## संसाधन
 
@@ -173,6 +175,9 @@ Excel डेटा को HTML5 के रूप में निर्यात
 - **खरीद और लाइसेंसिंग:** लाइसेंस और खरीदारी के बारे में अधिक जानें [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

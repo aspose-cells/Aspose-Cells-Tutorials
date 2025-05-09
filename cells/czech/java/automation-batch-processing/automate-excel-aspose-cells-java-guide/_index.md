@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Tato příručka vás provede základními funkcemi Aspose.Cells pro Javu a uká
 Dodržováním tohoto návodu budete dobře vybaveni k automatizaci úloh v Excelu pomocí Aspose.Cells pro Javu. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Bu özellik satır gruplandırmaya benzer şekilde çalışır ancak dikey eksen
     ```
 3. **Grup Sütunları**: Hangi sütunların gruplanacağını tanımlayın ve görünürlüğünü ayarlayın.
     ```java
-    // 0'dan 2'ye kadar olan sütunları gizli olarak ayarlayarak gruplandırın
+    // 0'dan 2'ye kadar olan indekslerdeki sütunları gizli olarak ayarlayın
     cells.groupColumns(0, 2, true);
     ```
 4. **Değişiklikleri Kaydet**: Çalışma kitabını değişikliklerle kaydedin.
@@ -195,6 +197,9 @@ Artık satırları ve sütunları gruplama ve Java için Aspose.Cells kullanarak
 - **Belgeleme**: [Aspose.Cells Java Belgeleri](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

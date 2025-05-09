@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,7 +231,7 @@ public class ExcelDemo {
 
 ### Lưu sổ làm việc
 
-Cuối cùng, lưu bảng tính của bạn với hộp văn bản vừa được thêm và định dạng.
+Cuối cùng, lưu sổ làm việc của bạn với hộp văn bản vừa được thêm và định dạng.
 
 ```java
 import com.aspose.cells.SaveFormat;
@@ -273,7 +275,7 @@ public class ExcelDemo {
 Bạn đã học thành công cách thêm hộp văn bản và đặt khoảng cách dòng trong sổ làm việc Excel bằng Aspose.Cells for Java. Điều này giúp bạn nâng cao khả năng tạo báo cáo động, hấp dẫn về mặt hình ảnh.
 
 ## Khuyến nghị từ khóa
-- "Aspose.Cells cho Java"
+- "Aspose.Cells dành cho Java"
 - "Thêm hộp văn bản vào Excel"
 - "Thiết lập khoảng cách dòng trong Excel"
 - "Sổ làm việc Excel có văn bản được định dạng"
@@ -281,6 +283,9 @@ Bạn đã học thành công cách thêm hộp văn bản và đặt khoảng c
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

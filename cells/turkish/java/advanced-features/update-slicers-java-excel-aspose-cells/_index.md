@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -47,7 +49,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Çevre Kurulum Gereksinimleri
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
 
 ### Bilgi Önkoşulları
@@ -214,6 +216,9 @@ Büyük dosyalarla veya karmaşık işlemlerle uğraşırken performansı optimi
 Bu kılavuzda, Aspose.Cells kullanarak Java Excel dosyalarındaki dilimleyicilerin nasıl güncelleneceğini inceledik. Kütüphane sürümünü nasıl yükleyeceğinizi ve görüntüleyeceğinizi, dilimleyicileri programatik olarak nasıl yöneteceğinizi ve değişiklikleri Excel dosyanıza nasıl kaydedeceğinizi öğrendiniz. Bu becerilerle, veri filtreleme süreçlerini otomatikleştirebilir, veri analizi görevlerinde üretkenliği ve doğruluğu artırabilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

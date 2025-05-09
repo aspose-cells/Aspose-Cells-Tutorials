@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ public class ConvertExample {
 **Dlaczego:** Określanie `SaveFormat.XLSM` zapewnia, że plik wyjściowy będzie zawierał funkcje makr, dzięki czemu będzie odpowiedni do zaawansowanych operacji.
 
 ### Porady dotyczące rozwiązywania problemów
-- **Wyjątek: Nie znaleziono pliku:** Sprawdź, czy ścieżki plików są poprawne.
+- **Wyjątek: Nie znaleziono pliku:** Sprawdź, czy ścieżki plików są prawidłowe.
 - **Problemy ze zgodnością wersji:** Sprawdź, czy używasz zgodnej wersji Aspose.Cells (25.3 lub nowszej).
 
 ## Zastosowania praktyczne
@@ -172,6 +174,9 @@ Zacznij wdrażać to rozwiązanie już dziś i usprawnij obsługę plików Excel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

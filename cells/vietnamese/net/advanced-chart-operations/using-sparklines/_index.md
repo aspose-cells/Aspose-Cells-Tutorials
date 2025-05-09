@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Sparklines
-linktitle: Sử dụng Sparklines
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sử dụng sparkline hiệu quả trong Excel với Aspose.Cells cho .NET. Có hướng dẫn từng bước để có trải nghiệm mượt mà.
-weight: 18
-url: /vi/net/advanced-chart-operations/using-sparklines/
+"description": "Tìm hiểu cách sử dụng sparkline hiệu quả trong Excel với Aspose.Cells cho .NET. Có hướng dẫn từng bước để có trải nghiệm mượt mà."
+"linktitle": "Sử dụng Sparklines"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sử dụng Sparklines"
+"url": "/vi/net/advanced-chart-operations/using-sparklines/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Sparklines
@@ -23,8 +25,8 @@ Trước khi đi sâu vào thế giới biểu đồ tia, chúng ta hãy cùng t
 
 1. Quen thuộc với C#: Kiến thức cơ bản về lập trình C# sẽ giúp bạn hiểu rõ hơn về phần mã hóa.
 2. Đã cài đặt .NET Framework: Đảm bảo rằng .NET Framework đã được cài đặt trên hệ thống của bạn.
-3. Aspose.Cells cho .NET: Bạn sẽ cần phải có thư viện Aspose.Cells trong dự án của bạn. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
-4.  Mẫu Excel: Chúng tôi sẽ sử dụng một tệp Excel có tên là`sampleUsingSparklines.xlsx`. Lưu nó vào thư mục làm việc.
+3. Aspose.Cells cho .NET: Bạn sẽ cần phải có thư viện Aspose.Cells trong dự án của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
+4. Mẫu Excel: Chúng tôi sẽ sử dụng một tệp Excel có tên là `sampleUsingSparklines.xlsx`. Lưu nó vào thư mục làm việc.
 
 Bây giờ chúng ta đã có những thiết lập cần thiết, hãy cùng phân tích các bước để triển khai biểu đồ tia!
 
@@ -54,19 +56,19 @@ string outputDir = "Your Output Directory"; // chỉ rõ đường dẫn
 string sourceDir = "Your Document Directory"; // chỉ rõ đường dẫn
 ```
 
- Ở đây, thay thế`Your Output Directory` Và`Your Document Directory` với các đường dẫn thực tế trên hệ thống của bạn.
+Ở đây, thay thế `Your Output Directory` Và `Your Document Directory` với các đường dẫn thực tế trên hệ thống của bạn.
 
 ## Bước 2: Tạo và mở một bảng tính
 
 Bây giờ, chúng ta hãy tạo một bảng tính và mở tệp mẫu Excel.
 
 ```csharp
-//Khởi tạo một Workbook
+// Khởi tạo một Workbook
 // Mở một tập tin mẫu
 Workbook book = new Workbook(sourceDir + "sampleUsingSparklines.xlsx");
 ```
 
- Mã này khởi tạo`Workbook` lớp và tải tệp mẫu được chỉ định từ thư mục nguồn.
+Mã này khởi tạo `Workbook` lớp và tải tệp mẫu được chỉ định từ thư mục nguồn.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -100,7 +102,7 @@ foreach (SparklineGroup g in sheet.SparklineGroupCollection)
 
 Thực hiện lệnh này sẽ hiển thị thông tin về mọi biểu đồ tia đã có trong tệp Excel của bạn—một cách hữu ích để xem xu hướng dữ liệu nào đã được trực quan hóa!
 
-## Bước 5: Xác định diện tích ô cho Sparkline mới
+## Bước 5: Xác định diện tích ô cho biểu đồ Sparkline mới
 
 Tiếp theo, chúng ta muốn xác định vị trí đặt biểu đồ tia lửa mới trong bảng tính. 
 
@@ -125,7 +127,7 @@ int idx = sheet.SparklineGroupCollection.Add(SparklineType.Column, "Sheet1!B2:D8
 SparklineGroup group = sheet.SparklineGroupCollection[idx];
 ```
 
- Ở đây, chúng tôi đang thêm một biểu đồ tia kiểu cột cho dữ liệu trải dài`Sheet1!B2:D8` vào vùng ô đã xác định trước đó. Đừng quên sửa đổi phạm vi dữ liệu theo yêu cầu của bạn.
+Ở đây, chúng tôi đang thêm một biểu đồ tia kiểu cột cho dữ liệu trải dài `Sheet1!B2:D8` vào vùng ô đã xác định trước đó. Đừng quên sửa đổi phạm vi dữ liệu theo yêu cầu của bạn.
 
 ## Bước 7: Tùy chỉnh màu Sparkline
 
@@ -138,7 +140,7 @@ clr.Color = Color.Orange; // Chọn màu bạn mong muốn
 group.SeriesColor = clr;
 ```
 
- Trong mã này, chúng ta đang tạo một cái mới`CellsColor` Ví dụ, đặt nó thành màu cam và áp dụng nó vào chuỗi biểu đồ tia mà chúng ta vừa tạo.
+Trong mã này, chúng ta đang tạo một cái mới `CellsColor` Ví dụ, đặt nó thành màu cam và áp dụng nó vào chuỗi biểu đồ tia mà chúng ta vừa tạo.
 
 ## Bước 8: Lưu sổ làm việc đã sửa đổi
 
@@ -163,19 +165,21 @@ Và đó là hướng dẫn từng bước toàn diện để tạo và sử d�
 Sparkline là biểu đồ thu nhỏ nằm gọn trong một ô duy nhất, cung cấp hình ảnh trực quan về xu hướng dữ liệu một cách đơn giản và gọn nhẹ.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Có, bạn sẽ cần một giấy phép hợp lệ để sử dụng tất cả các tính năng của Aspose.Cells. Bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn mới bắt đầu.
+Có, bạn sẽ cần một giấy phép hợp lệ để sử dụng tất cả các tính năng của Aspose.Cells. Bạn có thể nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn mới bắt đầu.
 
 ### Tôi có thể tạo nhiều loại biểu đồ tia lửa khác nhau không?
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều loại sparkline khác nhau, bao gồm sparkline dạng đường, dạng cột và dạng win/loss.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể truy cập tài liệu chi tiết và ví dụ về Aspose.Cells cho .NET[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể truy cập tài liệu chi tiết và ví dụ về Aspose.Cells cho .NET [đây](https://reference.aspose.com/cells/net/).
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells [đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

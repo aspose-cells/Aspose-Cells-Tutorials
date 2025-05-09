@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@ Trước khi triển khai bất kỳ chức năng nào bằng Aspose.Cells, hãy
 
 ## Thiết lập Aspose.Cells cho Java
 
-Để bắt đầu làm việc với Aspose.Cells, bạn cần thêm nó dưới dạng phần phụ thuộc vào tệp cấu hình dựng của dự án.
+Để bắt đầu làm việc với Aspose.Cells, bạn cần thêm nó dưới dạng phần phụ thuộc vào tệp cấu hình bản dựng của dự án.
 
 **Chuyên gia:**
 
@@ -180,7 +182,7 @@ Sẵn sàng nâng cao kỹ năng của bạn lên một tầm cao mới? Hãy th
 Aspose.Cells for Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và thao tác các tệp Excel theo cách lập trình.
 
 **2. Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?**
-Bạn có thể có được giấy phép tạm thời từ [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
+Bạn có thể có được giấy phép tạm thời từ [Trang Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
 
 **3. Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?**
 Có, Aspose cung cấp thư viện cho nhiều nền tảng bao gồm .NET, C++, Python, v.v.
@@ -200,6 +202,9 @@ Các chủ đề được trích xuất có thể được sử dụng làm mẫ
 - **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

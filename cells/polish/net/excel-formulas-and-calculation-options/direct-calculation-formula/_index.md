@@ -1,14 +1,16 @@
 ---
-title: Formuła bezpośredniego obliczenia w programie Excel programowo
-linktitle: Formuła bezpośredniego obliczenia w programie Excel programowo
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak używać Aspose.Cells dla .NET do wykonywania obliczeń w programie Excel programowo. Przewodnik krok po kroku dla bezproblemowych operacji w programie Excel.
-weight: 14
-url: /pl/net/excel-formulas-and-calculation-options/direct-calculation-formula/
+"description": "Dowiedz się, jak używać Aspose.Cells dla .NET do wykonywania obliczeń w programie Excel programowo. Przewodnik krok po kroku dla bezproblemowych operacji w programie Excel."
+"linktitle": "Formuła bezpośredniego obliczenia w programie Excel programowo"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Formuła bezpośredniego obliczenia w programie Excel programowo"
+"url": "/pl/net/excel-formulas-and-calculation-options/direct-calculation-formula/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formuła bezpośredniego obliczenia w programie Excel programowo
@@ -20,7 +22,7 @@ Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujes
 ### Czy masz zainstalowany .NET?
 Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Aspose.Cells dla .NET jest kompatybilny z kilkoma wersjami .NET, więc upewnij się, że masz zainstalowany co najmniej .NET Framework 4.0 lub nowszy.
 ### Pobierz Aspose.Cells
- Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Można to łatwo zrobić za pomocą NuGet lub pobierając ją bezpośrednio z[ich strona wydania](https://releases.aspose.com/cells/net/).
+Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Można to łatwo zrobić za pomocą NuGet lub pobierając ją bezpośrednio z [ich strona wydania](https://releases.aspose.com/cells/net/).
 ### Podstawowa wiedza z języka C#
 Ponieważ nasze przykłady kodu będą w C#, kluczowe jest, abyś był zaznajomiony z podstawami języka. Znajomość pojęć programowania obiektowego również będzie pomocna!
 ### Trochę cierpliwości!
@@ -41,7 +43,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-Ten fragment kodu najpierw sprawdza, czy wskazany katalog istnieje; jeśli nie, tworzy go. Wyobraź sobie ten katalog jako swoją przestrzeń roboczą, w której będą się znajdować wszystkie Twoje niezbędne dokumenty!
+Ten fragment kodu najpierw sprawdza, czy wskazany katalog istnieje; jeśli nie, tworzy go. Wyobraź sobie ten katalog jako swoją przestrzeń roboczą, w której będą znajdować się wszystkie Twoje niezbędne dokumenty!
 ## Krok 2: Tworzenie nowego skoroszytu
 W tym kroku utworzymy nowy skoroszyt, w którym wykonamy obliczenia.
 ```csharp
@@ -68,7 +70,7 @@ Teraz, gdy nasze komórki są już wypełnione liczbami, obliczymy sumę A1 i A2
 ```csharp
 var results = worksheet.CalculateFormula("=Sum(A1:A2)");
 ```
- Tutaj przywołujemy`CalculateFormula` obliczyć sumę na podstawie naszych danych wejściowych. To tak, jakby poprosić Excela, żeby zrobił za nas ciężką robotę — jak wygodnie!
+Tutaj przywołujemy `CalculateFormula` obliczyć sumę na podstawie naszych danych wejściowych. To tak, jakby poprosić Excela, żeby zrobił za nas ciężką robotę — jak wygodnie!
 ## Krok 6: Wyświetlanie wyników
 Aby przejrzeć nasze obliczenia, wydrukujemy wartości na konsoli:
 ```csharp
@@ -84,16 +86,18 @@ Niezależnie od tego, czy chodzi o raportowanie, analizę danych, czy po prostu 
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells for .NET to potężna biblioteka do programowego zarządzania plikami Excel, umożliwiająca tworzenie, modyfikowanie i obliczanie arkuszy kalkulacyjnych Excel.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej pod adresem[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej pod adresem [Tutaj](https://releases.aspose.com/).
 ### Czy znajomość funkcji programu Excel jest konieczna?
 Choć pomocne, nie jest to absolutnie konieczne. Używanie Aspose.Cells pozwala na programowe zarządzanie funkcjami Excela.
 ### Gdzie mogę znaleźć więcej dokumentacji?
-Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/cells/net/).
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Jeśli potrzebujesz wsparcia, skontaktuj się z nami za pośrednictwem ich[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Jeśli potrzebujesz wsparcia, skontaktuj się z nami za pośrednictwem ich [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

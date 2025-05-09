@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تخصيص أنماط الجدول المحوري
@@ -87,9 +89,11 @@ workbook.save("output.xlsx");
    يمكنك الرجوع إلى وثائق API على [مراجع واجهة برمجة تطبيقات Aspose.Cells لـ Java](https://reference.aspose.com/cells/java/) لمزيد من المعلومات التفصيلية.
 
 الآن لديك المعرفة اللازمة لإنشاء وتخصيص أنماط جداول البيانات المحورية في Aspose.Cells لجافا. استكشف أكثر واجعل عروض بياناتك التقديمية استثنائية حقًا!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

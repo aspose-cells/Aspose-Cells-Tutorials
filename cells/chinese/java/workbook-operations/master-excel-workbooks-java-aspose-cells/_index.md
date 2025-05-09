@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Aspose.Cells Java 支持各种实际应用：
 准备好实施您的解决方案了吗？按照以下步骤操作，探索提供的资源，立即开始使用 Aspose.Cells 增强您的 Java 应用程序！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

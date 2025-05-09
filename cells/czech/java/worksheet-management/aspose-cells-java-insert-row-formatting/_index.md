@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ tomto tutoriálu jsme prozkoumali, jak vložit řádek s formátováním do soub
 Jste připraveni implementovat toto řešení ve vaší Java aplikaci? Vyzkoušejte si ho a uvidíte, jak vám Aspose.Cells může zefektivnit manipulaci s excelovými soubory!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

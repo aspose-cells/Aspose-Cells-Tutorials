@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 이 가이드를 따라 하면 Aspose.Cells를 활용하여 Excel 차트를 관리하고 열거형을 처리하는 데 필요한 기술을 습득하게 됩니다. 이러한 기능은 강력한 데이터 조작 기능을 제공하여 Java 애플리케이션을 크게 향상시킬 수 있습니다. 더 많은 고급 기능과 즐거운 코딩 경험을 위해 라이브러리 문서를 계속 살펴보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

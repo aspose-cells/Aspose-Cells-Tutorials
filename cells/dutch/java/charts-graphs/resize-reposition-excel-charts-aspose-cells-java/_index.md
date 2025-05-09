@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ Volgende stappen kunnen bestaan uit het helemaal opnieuw maken van grafieken of 
 Duik in deze bronnen om grafiekmanipulaties in Excel-bestanden onder de knie te krijgen met Aspose.Cells voor Java. Veel plezier met programmeren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

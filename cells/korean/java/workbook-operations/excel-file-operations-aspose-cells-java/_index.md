@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Aspose.Cells의 추가 기능을 탐색하려면 다음을 살펴보세요. [선
 - **구매 및 라이센스:** 구매 또는 라이센스 문의는 다음을 방문하세요. [구매 페이지](https://purchase.aspose.com/buy) 그리고 [임시 면허 페이지](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

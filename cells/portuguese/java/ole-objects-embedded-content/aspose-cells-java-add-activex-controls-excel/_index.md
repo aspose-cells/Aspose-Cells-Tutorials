@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,7 +175,7 @@ Você aprendeu a adicionar controles ActiveX ao Excel usando o Aspose.Cells para
 - Explore outras formas disponíveis no Aspose.Cells.
 - Experimente propriedades de controle para maior personalização.
 
-Incentivamos você a tentar isso em seus projetos e se envolver com a comunidade para obter mais insights.
+Incentivamos você a experimentar isso em seus projetos e se envolver com a comunidade para obter mais insights.
 
 ## Seção de perguntas frequentes
 **P: O que é um controle ActiveX?**
@@ -196,9 +198,12 @@ R: Embora otimizados para desempenho, diversos formatos e controles complexos po
 - **Download**: Acesse a versão mais recente do Aspose.Cells Java em [esta página](https://releases.aspose.com/cells/java/).
 - **Comprar**: Compre uma licença através de [Site de compras da Aspose](https://purchase.aspose.com/buy).
 - **Teste gratuito e licença temporária**Comece com acesso gratuito ou temporário por meio dos links fornecidos.
-- **Apoiar**: Participe de discussões ou faça perguntas sobre [Fórum Aspose](https://forum.aspose.com/c/cells/9).
+- **Apoiar**Participe de discussões ou faça perguntas sobre [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

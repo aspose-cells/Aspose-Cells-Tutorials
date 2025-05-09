@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 WorkbookDesigner report = new WorkbookDesigner();
 ```
 
-यहाँ, हम एक उदाहरण बनाते हैं `WorkbookDesigner`, जो कार्यपुस्तिका के प्रबंधन और स्मार्ट मार्करों के प्रसंस्करण में मदद करता है।
+यहाँ, हम इसका एक उदाहरण बनाते हैं `WorkbookDesigner`, जो कार्यपुस्तिका के प्रबंधन और स्मार्ट मार्करों के प्रसंस्करण में मदद करता है।
 
 ##### चरण 2: स्मार्ट मार्कर सेट करें
 
@@ -204,6 +206,9 @@ A5: पर जाएँ [Aspose दस्तावेज़ीकरण](https:/
 - **सहयता मंच**: [Aspose समर्थन](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

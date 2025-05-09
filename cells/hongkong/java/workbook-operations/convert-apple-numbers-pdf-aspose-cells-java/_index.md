@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ wb.save(outDir + "/outputNumbersByAppleInc.pdf", com.aspose.cells.SaveFormat.PDF
 **後續步驟：**
 探索 Aspose.Cells 的其他功能，例如資料處理和圖表創建，以進一步增強您的 Java 應用程式。
 
-嘗試透過免費試用自行實施解決方案，並了解更多信息 [Aspose的官方文檔](https://reference。aspose.com/cells/java/).
+嘗試透過免費試用自行實施該解決方案，並了解更多信息 [Aspose的官方文檔](https://reference。aspose.com/cells/java/).
 
 ## 常見問題部分
 
@@ -182,6 +184,9 @@ wb.save(outDir + "/outputNumbersByAppleInc.pdf", com.aspose.cells.SaveFormat.PDF
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

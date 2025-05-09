@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introdução
 Deseja integrar perfeitamente o gerenciamento de arquivos do Excel aos seus aplicativos Java? Tem dificuldade em manter as propriedades dos documentos ou salvar arquivos no formato desejado? Este guia completo o guiará pelo uso do Aspose.Cells para Java, uma biblioteca poderosa que simplifica essas tarefas. Com o Aspose.Cells, você pode recuperar informações de versão, criar e manipular propriedades de pastas de trabalho, definir preferências de idioma e salvar seus documentos do Excel com eficiência.
 
-### que você aprenderá
+### O que você aprenderá
 - Recupere a versão atual do Aspose.Cells para Java.
 - Crie novas pastas de trabalho e acesse propriedades de documentos integradas.
 - Defina idiomas específicos em um arquivo do Excel usando suas propriedades.
@@ -166,7 +168,7 @@ Esses recursos podem ser integrados a sistemas maiores, como plataformas de gere
 
 ## Considerações de desempenho
 Para garantir o desempenho ideal ao usar Aspose.Cells:
-- **Otimize o uso da memória**: Trabalhe com conjuntos de dados menores, se possível.
+- **Otimizar o uso da memória**: Trabalhe com conjuntos de dados menores, se possível.
 - **Processamento em lote**: Lide com arquivos grandes do Excel dividindo tarefas em lotes.
 - **Coleta de lixo**: Garanta o gerenciamento adequado da memória para evitar vazamentos.
 
@@ -207,6 +209,9 @@ Embarque em sua jornada com o Aspose.Cells para Java e descubra novas possibilid
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

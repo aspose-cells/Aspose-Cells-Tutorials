@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 لاستخدام Aspose.Cells دون قيود التقييم، يمكنك:
 - **نسخة تجريبية مجانية**:تحميل ترخيص تجريبي من [موقع Aspose](https://releases.aspose.com/cells/java/).
-- **رخصة مؤقتة**اطلب ترخيصًا مؤقتًا في [صفحة ترخيص Aspose المؤقت](https://purchase.aspose.com/temporary-license/).
+- **رخصة مؤقتة**: اطلب ترخيصًا مؤقتًا في [صفحة ترخيص Aspose المؤقت](https://purchase.aspose.com/temporary-license/).
 - **شراء**:احصل على ترخيص كامل للاستخدام التجاري من [صفحة الشراء](https://purchase.aspose.com/buy).
 
 ### التهيئة الأساسية
@@ -209,6 +211,9 @@ public class ExcelToHtmlConverter {
 ابدأ رحلتك لإتقان التعامل مع ملفات Excel باستخدام Aspose.Cells for Java وقم بتحسين عرض البيانات الخاص بك اليوم!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

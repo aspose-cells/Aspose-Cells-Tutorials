@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ Ya ha aprendido a cifrar y descifrar archivos ODS con Aspose.Cells para Java. Es
 **Próximos pasos**:Experimente con diferentes configuraciones e integre estas funciones en sus proyectos.
 
 ## Sección de preguntas frecuentes
-1. **¿Puedo usar esto con archivos de Excel?**
+1. **¿Puedo usar esto con archivos Excel?**
    - Sí, Aspose.Cells admite los formatos ODS y Excel.
 2. **¿Qué pasa si se pierde la contraseña durante el descifrado?**
    - Sin la contraseña correcta, no podrá descifrar el archivo. Guarde siempre las contraseñas de forma segura.
@@ -172,6 +174,9 @@ Ya ha aprendido a cifrar y descifrar archivos ODS con Aspose.Cells para Java. Es
 Siguiendo esta guía, estarás bien preparado para implementar el cifrado y descifrado de archivos en tus aplicaciones Java usando Aspose.Cells. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

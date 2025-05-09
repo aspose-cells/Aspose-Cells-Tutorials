@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ serieses.setCategoryData("A1:A8");
 // 各スライスごとに異なる色を有効にする
 serieses.setColorVaried(true);
 
-// わかりやすくするためにグラフにデータテーブルを表示する
+// わかりやすくするためにグラフ上にデータテーブルを表示する
 chart.setShowDataTable(true);
 ```
 ### 5. グラフのタイトルとスタイルの設定
@@ -178,6 +180,9 @@ workbook.save(outDir + "/HTCPChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
    - 効率的なデータ読み込みテクニックを使用し、非常に大きなファイルのストリーミングを検討してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

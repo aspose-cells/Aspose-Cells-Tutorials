@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 क्या आप जावा का उपयोग करके स्प्रेडशीट गणनाओं को बेहतर बनाना चाहते हैं? यह गाइड आपको शक्तिशाली Aspose.Cells लाइब्रेरी का उपयोग करने का तरीका दिखाएगा, जिससे डेवलपर्स को Microsoft Office की आवश्यकता के बिना Excel फ़ाइलों के साथ काम करने में सक्षम बनाया जा सके। हम विस्तार का प्रदर्शन करेंगे `AbstractCalculationEngine` कस्टम स्थैतिक मानों के लिए.
 
 **आप क्या सीखेंगे:**
-- अपने Java प्रोजेक्ट में Aspose.Cells सेट अप करना
+- अपने जावा प्रोजेक्ट में Aspose.Cells सेट अप करना
 - विस्तार `AbstractCalculationEngine` कस्टम गणना के लिए
 - पूर्वनिर्धारित मान लौटाने वाले फ़ंक्शन का कार्यान्वयन
 - वास्तविक दुनिया के अनुप्रयोगों और एकीकरण संभावनाओं की खोज
@@ -180,6 +182,9 @@ public class Main {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

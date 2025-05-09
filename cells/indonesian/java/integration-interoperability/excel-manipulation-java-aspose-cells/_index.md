@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Otomatiskan Excel dengan Java - Buat Tabel & Bagan Interaktif menggunakan Aspose.Cells
@@ -20,9 +22,9 @@
 * **Pembuatan Tabel Excel:** Pelajari cara membuat dan memformat tabel Excel yang tampak profesional dengan data.
 * **Pembuatan Bagan Dinamis:** Buat berbagai bagan interaktif langsung dari data Excel Anda.
 * **Aplikasi Bisnis Praktis:** Temukan kasus penggunaan dunia nyata untuk mengotomatisasi pelaporan keuangan, analisis penjualan, manajemen inventaris, dan pelaporan proyek.
-* **Optimasi Kinerja:** Terapkan strategi untuk menangani kumpulan data Excel yang besar secara efisien.
+* **Teljesítményoptimalizálás:** Terapkan strategi untuk menangani kumpulan data Excel yang besar secara efisien.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
@@ -30,7 +32,7 @@ Sebelum memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
 * **Aspose.Cells untuk Java** (Versi 25.3 atau lebih baru) - Pustaka inti untuk manipulasi Excel.
 
-### Lingkungan Pengembangan:
+### Fejlesztői környezet:
 
 * **Kit Pengembangan Java (JDK)** - JDK yang kompatibel terpasang pada sistem Anda.
 * **Lingkungan Pengembangan Terpadu (IDE)** - IDE yang direkomendasikan adalah IntelliJ IDEA atau Eclipse untuk pengalaman pengembangan yang lebih lancar.
@@ -46,7 +48,7 @@ Integrasikan pustaka Aspose.Cells untuk Java ke dalam proyek Anda menggunakan al
 
 ### Instalasi Maven
 
-Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
+Tambahkan ketergantungan ini ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -58,7 +60,7 @@ Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
 
 ### Instalasi Gradle
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
@@ -101,7 +103,7 @@ import com.aspose.cells.*;
 
 public class CreatingExcelTables {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi Buku Kerja baru
+        // Új munkafüzet inicializálása
         Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);
         Cells cells = worksheet.getCells();
@@ -154,7 +156,7 @@ public class CreatingExcelTables {
 
 * **Input Data Terstruktur:** Kode tersebut secara sistematis memasukkan kategori, jenis makanan, biaya, dan data keuntungan ke dalam sel lembar kerja.
 * **Populasi Data Terorganisasi:** Loop bersarang memastikan pengisian data terkait secara efisien.
-* **Pembuatan Tabel dengan `ListObject`:** Itu `listObjects.add()` metode mengubah rentang sel yang ditentukan menjadi tabel Excel yang berfungsi penuh, termasuk tajuk dan opsi pemfilteran.
+* **Pembuatan Tabel dengan `ListObject`:** A `listObjects.add()` metode mengubah rentang sel yang ditentukan menjadi tabel Excel yang berfungsi penuh, termasuk tajuk dan opsi pemfilteran.
 * **Keterbacaan yang Ditingkatkan:** `autoFitColumns()` secara otomatis menyesuaikan lebar setiap kolom agar sesuai dengan kontennya, meningkatkan presentasi visual.
 
 Menjalankan kode Java ini akan menghasilkan file Excel yang berisi tabel terstruktur dengan baik dengan contoh data Anda, siap untuk analisis lebih lanjut atau dibagikan.
@@ -188,10 +190,10 @@ Sekarang, mari visualisasikan data tabel dengan membuat bagan dinamis menggunaka
 
 #### Fitur Utama Pembuatan Grafik:
 
-* **Penempatan Bagan Strategis:** Itu `add()` metode memposisikan bagan di bawah tabel untuk tata letak yang jelas dan terorganisir.
+* **Penempatan Bagan Strategis:** A `add()` metode memposisikan bagan di bawah tabel untuk tata letak yang jelas dan terorganisir.
 * **Penghubungan Data Dinamis:** `setChartDataRange()` menghubungkan bagan langsung ke tabel yang dibuat, memastikan bagan mencerminkan data yang mendasarinya.
 * **Label Sumbu yang Bermakna:** `setCategoryData()` menggunakan kolom 'Kategori' untuk memberi label sumbu X bagan, memberikan konteks pada visualisasi data.
-* **Rendering Grafik Akurat:** Itu `calculate()` Metode ini memastikan grafik dihitung dan ditampilkan dengan benar beserta semua titik data.
+* **Rendering Grafik Akurat:** A `calculate()` Metode ini memastikan grafik dihitung dan ditampilkan dengan benar beserta semua titik data.
 
 Menjalankan kode yang diperbarui ini akan menghasilkan berkas Excel yang berisi tabel data dan bagan kolom terkait, yang menawarkan wawasan visual langsung ke dalam data Anda.
 
@@ -227,15 +229,15 @@ Memanfaatkan kemampuan Aspose.Cells untuk Java untuk mengotomatiskan dan meningk
 
 Saat menangani sejumlah besar data Excel atau membuat banyak laporan, pertimbangkan teknik pengoptimalan berikut:
 
-### Manajemen Memori yang Efisien
+### Hatékony memóriakezelés
 
 * **Pemrosesan Aliran:** Memanfaatkan API berbasis aliran Aspose.Cells untuk memproses file yang sangat besar guna meminimalkan konsumsi memori.
 * **Pembersihan Sumber Daya:** Selalu pastikan untuk menutup `Workbook` objek dan sumber daya lainnya setelah digunakan untuk melepaskan memori.
-* **Ukuran Heap JVM:** Sesuaikan pengaturan heap Java Virtual Machine (JVM) (misalnya, menggunakan `-Xmx` parameter) untuk mengalokasikan memori yang cukup untuk operasi besar.
+* **Ukuran Tumpukan JVM:** Sesuaikan pengaturan heap Java Virtual Machine (JVM) (misalnya, menggunakan `-Xmx` parameter) untuk mengalokasikan memori yang cukup untuk operasi besar.
 
 ### Teknik Pemrosesan yang Dioptimalkan
 
-* **Operasi Batch:** Kelompokkan operasi yang serupa bersama-sama alih-alih melakukannya secara individual untuk mengurangi biaya overhead.
+* **Kötegelt műveletek:** Kelompokkan operasi yang serupa bersama-sama alih-alih melakukannya secara individual untuk mengurangi biaya overhead.
 * **Penyimpanan Sel:** Aktifkan penyimpanan sel untuk operasi baca intensif pada lembar kerja besar guna meningkatkan waktu akses.
 * **Perhitungan Manual:** Atur mode perhitungan ke manual saat membuat beberapa pembaruan rumus untuk menghindari perhitungan yang berlebihan hingga dipicu secara eksplisit.
 
@@ -250,7 +252,7 @@ Saat menangani sejumlah besar data Excel atau membuat banyak laporan, pertimbang
 3.  **Masalah Rendering Grafik:** Bagan tidak ditampilkan dengan benar atau datanya hilang.
     * **Larutan:** Verifikasi rentang data yang ditentukan untuk bagan dan pastikan `chart.calculate()` dipanggil setelah mengatur data.
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda kini telah memperoleh pengetahuan dasar dan keterampilan praktis untuk:
 
@@ -287,6 +289,9 @@ Dengan menguasai teknik-teknik ini, Anda dapat secara signifikan menyederhanakan
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

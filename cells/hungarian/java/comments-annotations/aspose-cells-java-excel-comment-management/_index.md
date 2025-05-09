@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Ez az oktatóanyag az Aspose.Cells for Java használatát mutatta be az Excel-me
    - Csak a szükséges munkalapokat töltse be, és optimalizálja a memóriahasználatot az adatok darabokban történő feldolgozásával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

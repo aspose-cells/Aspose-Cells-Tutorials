@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Cell foundCell = worksheet.getCells().find(obj, null, options);
    - Ναι, χρησιμοποιώντας `FindOptions` που έχει ρυθμιστεί ώστε να βλέπει τις αρχικές τιμές σάς επιτρέπει να εκτελείτε τέτοιες αναζητήσεις.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

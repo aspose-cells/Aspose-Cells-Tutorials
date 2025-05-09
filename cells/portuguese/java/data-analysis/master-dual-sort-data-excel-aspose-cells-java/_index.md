@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Trabalhar com grandes conjuntos de dados no Excel geralmente exige uma classificação eficiente dos dados com base em múltiplos critérios. A classificação manual pode ser trabalhosa, especialmente à medida que seu conjunto de dados se torna mais complexo. **Aspose.Cells para Java** oferece recursos avançados de classificação diretamente em aplicativos Java. Este tutorial explora a implementação da funcionalidade de classificação dupla usando Aspose.Cells para Java — um recurso que permite a classificação contínua de várias chaves.
 
-### que você aprenderá
+### O que você aprenderá
 - Inicialize e configure um objeto Workbook com Aspose.Cells.
 - Defina critérios de classificação primários e secundários.
 - Aplique a classificação dentro de um intervalo especificado de células.
@@ -73,7 +75,7 @@ Agora, vamos nos aprofundar na implementação do recurso de classificação dup
 ### Inicializar pasta de trabalho e classificador de dados
 Para classificar dados no Excel usando Aspose.Cells para Java, comece criando um `Workbook` objeto e acessando seu `DataSorter`.
 
-#### Etapa 1: instanciar um objeto de pasta de trabalho
+#### Etapa 1: Instanciar um objeto de pasta de trabalho
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -193,6 +195,9 @@ Para explorar mais a fundo os recursos do Aspose.Cells, considere consultar sua 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@
 Aspose.Cells เป็นไลบรารีอันทรงพลังที่ช่วยลดความซับซ้อนในการทำงานกับไฟล์ Excel ใน Java เมื่อต้องการเริ่มใช้งาน ให้เพิ่มการอ้างอิงลงในโปรเจ็กต์ของคุณ:
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml`-
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml`-
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -193,6 +195,9 @@ A5: เยี่ยมชม [ฟอรั่มสนับสนุน Aspose]
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

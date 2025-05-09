@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ class SetCellBackground {
 }
 ```
 
-#### Passaggio 2: applica gli stili
+#### Passaggio 2: applicare gli stili
 
 ```java
 style.setBackgroundColor(Color.getYellow());
@@ -216,6 +218,9 @@ A: Aspose fornisce una soluzione completa [forum di supporto](https://forum.aspo
 - **Documentazione:** Esplora l'intero [Documentazione di Aspose.Cells](https://docs.aspose.com/cells/java/) per funzionalità più avanzate.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

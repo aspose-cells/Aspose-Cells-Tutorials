@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ Aspose.Cells se puede utilizar en varios escenarios, incluidos:
 3. **Análisis de datos de la encuesta:** Aplicar reglas de validación para garantizar respuestas consistentes en la encuesta.
 ## Consideraciones de rendimiento
 Al trabajar con grandes conjuntos de datos, tenga en cuenta lo siguiente:
-- **Optimizar la carga del libro de trabajo:** Si es posible, cargue sólo las hojas necesarias.
+- **Optimizar la carga del libro de trabajo:** Si es posible, cargue únicamente las hojas necesarias.
 - **Gestión eficiente de la memoria:** Maneje adecuadamente los recursos y utilice la recolección de basura de Java de manera efectiva.
 - **Procesamiento por lotes:** Validaciones de procesos por lotes en varios libros de trabajo para ahorrar tiempo.
 ## Conclusión
@@ -148,6 +150,9 @@ Esta guía le ayuda a implementar validaciones de Excel con Aspose.Cells en apli
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

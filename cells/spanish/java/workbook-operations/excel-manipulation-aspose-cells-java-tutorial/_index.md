@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ Al trabajar con Aspose.Cells, tenga en cuenta estos consejos de rendimiento:
 
 Ya aprendiste a crear libros de Excel desde cero y a aplicar estilos a las celdas con Aspose.Cells para Java. Con estas habilidades, podrás automatizar muchos aspectos de la gestión de archivos de Excel en tus aplicaciones.
 
-Para explorar más, pruebe con funciones más avanzadas, como el cálculo de fórmulas o la generación de gráficos. No olvide consultar... [Documentación de Aspose](https://reference.aspose.com/cells/java/) para obtener información más detallada y ejemplos.
+Para explorar más, pruebe con funciones más avanzadas, como el cálculo de fórmulas o la generación de gráficos. No olvide consultar... [Documentación de Aspose](https://reference.aspose.com/cells/java/) Para obtener información más detallada y ejemplos.
 
 ## Sección de preguntas frecuentes (H2)
 
@@ -183,6 +185,9 @@ A: Visita el [Sitio web de Aspose](https://purchase.aspose.com/temporary-license
 - **Apoyo**Únase a la comunidad o obtenga ayuda a través de [Foro de Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

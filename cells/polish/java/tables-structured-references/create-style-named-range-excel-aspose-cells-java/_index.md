@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Wstęp
 
-Czy chcesz usprawnić zadania związane z zarządzaniem danymi w programie Excel, tworząc i stylizując nazwane zakresy? Dzięki **Aspose.Cells dla Javy**, możesz sprawnie zarządzać tymi zadaniami, zwiększając zarówno funkcjonalność, jak i estetykę. Ten samouczek przeprowadzi Cię przez konfigurację środowiska z Aspose.Cells dla Java i bezproblemową implementację tych funkcji.
+Czy chcesz usprawnić zadania zarządzania danymi w programie Excel, tworząc i stylizując nazwane zakresy? Dzięki **Aspose.Cells dla Javy**, możesz sprawnie zarządzać tymi zadaniami, zwiększając zarówno funkcjonalność, jak i estetykę. Ten samouczek przeprowadzi Cię przez konfigurację środowiska z Aspose.Cells dla Java i bezproblemową implementację tych funkcji.
 
 **Czego się nauczysz:**
 - Jak skonfigurować Aspose.Cells dla Java
@@ -192,6 +194,9 @@ A5: Stosuj efektywne praktyki zarządzania pamięcią i rozważ podzielenie dany
 Wykorzystując Aspose.Cells dla Java, możesz podnieść zadania automatyzacji Excela na nowy poziom wydajności i przejrzystości. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

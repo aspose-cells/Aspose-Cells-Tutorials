@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,6 +164,9 @@ Gotowy, aby przenieść swoje możliwości obsługi programu Excel na wyższy po
 Przeglądaj te zasoby, aby pogłębić swoje zrozumienie i udoskonalić zadania przetwarzania w programie Excel przy użyciu Aspose.Cells dla języka Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

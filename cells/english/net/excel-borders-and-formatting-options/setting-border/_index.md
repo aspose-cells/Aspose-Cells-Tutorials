@@ -8,7 +8,9 @@ url: /net/excel-borders-and-formatting-options/setting-border/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Border Programmatically in Excel
@@ -159,6 +161,7 @@ You can visit the Aspose support forum for any queries or issues you encounter: 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

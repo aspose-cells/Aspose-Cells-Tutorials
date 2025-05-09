@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Hãy cùng khám phá cách Aspose.Cells có thể chuyển đổi các tác v�
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
-1. **Thư viện bắt buộc:**
+1. **Thư viện cần thiết:**
    - Aspose.Cells cho Java phiên bản 25.3 trở lên
 2. **Yêu cầu thiết lập môi trường:**
    - Bộ công cụ phát triển Java (JDK) được cài đặt trên hệ thống của bạn
@@ -189,6 +191,9 @@ Khám phá các tính năng nâng cao trong [Tài liệu Aspose](https://referen
 Tận dụng sức mạnh của Aspose.Cells for Java trong dự án tiếp theo của bạn và nâng cao khả năng tự động hóa Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

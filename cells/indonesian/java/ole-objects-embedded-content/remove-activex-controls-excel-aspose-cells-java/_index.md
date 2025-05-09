@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menghapus Kontrol ActiveX dari Buku Kerja Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Mengelola dan memanipulasi file Excel secara terprogram dapat menjadi tantangan, terutama saat menangani fitur-fitur yang rumit seperti kontrol ActiveX. Komponen-komponen ini sering kali memerlukan penanganan yang tepat untuk memastikan buku kerja Anda tetap efisien dan bebas dari elemen-elemen yang tidak diperlukan. Dalam tutorial ini, kita akan membahas cara menghapus kontrol ActiveX secara efektif dari buku kerja Excel menggunakan Aspose.Cells for Java—pustaka canggih yang menyederhanakan tugas-tugas pemrosesan dokumen.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 
 - Cara memuat buku kerja Excel di Java
 - Mengakses dan memanipulasi bentuk dalam lembar kerja
@@ -26,18 +28,18 @@ Mengelola dan memanipulasi file Excel secara terprogram dapat menjadi tantangan,
 
 Siap untuk menyederhanakan pengelolaan berkas Excel Anda dengan Aspose.Cells Java? Mari selami prasyaratnya dan mulai!
 
-### Prasyarat (H2)
+### Előfeltételek (H2)
 
 Sebelum kita mulai, pastikan Anda memiliki pengaturan berikut:
 
-**Pustaka yang dibutuhkan:**
+**Szükséges könyvtárak:**
 - Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
 
-**Pengaturan Lingkungan:**
+**Környezet beállítása:**
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - IDE seperti IntelliJ IDEA, Eclipse, atau editor teks apa pun dengan dukungan Java.
 
-**Prasyarat Pengetahuan:**
+**Előfeltételek a tudáshoz:**
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan dalam menangani jalur berkas di Java.
 
@@ -59,15 +61,15 @@ Untuk mulai menggunakan Aspose.Cells untuk Java, Anda perlu memasukkannya sebaga
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
 Aspose.Cells adalah pustaka komersial, tetapi Anda dapat memulai dengan uji coba gratis untuk mengevaluasi kemampuannya:
 
-1. **Uji Coba Gratis:** Unduh perpustakaan dari [Rilis Gratis Aspose](https://releases.aspose.com/cells/java/) untuk penggunaan sementara.
-2. **Lisensi Sementara:** Dapatkan lisensi sementara dengan mengunjungi [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian:** Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi dari [Aspose Pembelian](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió:** Unduh perpustakaan dari [Rilis Gratis Aspose](https://releases.aspose.com/cells/java/) untuk penggunaan sementara.
+2. **Ideiglenes engedély:** Dapatkan lisensi sementara dengan mengunjungi [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás:** Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi dari [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah Aspose.Cells disertakan dalam proyek Anda, inisialisasi `Workbook` objek untuk memuat file Excel:
 
@@ -78,23 +80,23 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/sampleUpdateActiveXComboBoxControl.xlsx");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memuat Buku Kerja (H2)
 
-**Ringkasan:** Langkah pertama adalah memuat buku kerja Excel yang berisi kontrol ActiveX yang ingin Anda hapus.
+**Áttekintés:** Langkah pertama adalah memuat buku kerja Excel yang berisi kontrol ActiveX yang ingin Anda hapus.
 
 #### Langkah 1: Impor Kelas yang Diperlukan
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-#### Langkah 2: Inisialisasi Objek Buku Kerja
-Membuat sebuah `Workbook` Misalnya dengan memberikan jalur ke berkas Anda. Tindakan ini memuat dokumen Excel ke dalam memori untuk dimanipulasi.
+#### 2. lépés: Munkafüzet-objektum inicializálása
+Hozz létre egy `Workbook` Misalnya dengan memberikan jalur ke berkas Anda. Tindakan ini memuat dokumen Excel ke dalam memori untuk dimanipulasi.
 
 ### Mengakses dan Memanipulasi Bentuk pada Lembar Kerja (H2)
 
-**Ringkasan:** Setelah dimuat, identifikasi dan akses bentuk dalam lembar kerja yang berisi kontrol ActiveX.
+**Áttekintés:** Setelah dimuat, identifikasi dan akses bentuk dalam lembar kerja yang berisi kontrol ActiveX.
 
 #### Langkah 1: Impor Kelas yang Diperlukan
 ```java
@@ -122,7 +124,7 @@ if (shape.getActiveXControl() != null) {
 
 ### Simpan Buku Kerja ke Direktori Output (H2)
 
-**Ringkasan:** Setelah memodifikasi buku kerja, simpan perubahan untuk memastikan pembaruan Anda dipertahankan.
+**Áttekintés:** Setelah memodifikasi buku kerja, simpan perubahan untuk memastikan pembaruan Anda dipertahankan.
 
 #### Langkah 1: Impor Kelas SaveFormat
 ```java
@@ -138,13 +140,13 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/RemoveActiveXControl_out.xlsx", SaveFormat.XLSX);
 ```
 
-## Aplikasi Praktis (H2)
+## Gyakorlati alkalmazások (H2)
 
-1. **Pembuatan Laporan Otomatis:** Hapus kontrol ActiveX untuk menyederhanakan pembuatan laporan otomatis.
+1. **Automatizált jelentéskészítés:** Hapus kontrol ActiveX untuk menyederhanakan pembuatan laporan otomatis.
 2. **Pembersihan Data dalam Model Keuangan:** Sederhanakan model keuangan yang rumit dengan menghilangkan kontrol yang tidak diperlukan untuk kinerja dan keterbacaan yang lebih baik.
 3. **Proyek Integrasi Sistem:** Pastikan kompatibilitas dengan sistem yang tidak mendukung kontrol ActiveX.
 
-## Pertimbangan Kinerja (H2)
+## Teljesítményszempontok (H2)
 
 Untuk mengoptimalkan kinerja saat bekerja dengan Aspose.Cells, pertimbangkan tips berikut:
 
@@ -152,17 +154,17 @@ Untuk mengoptimalkan kinerja saat bekerja dengan Aspose.Cells, pertimbangkan tip
 - Bersihkan sumber daya secara berkala dengan meniadakan objek saat objek tersebut tidak lagi diperlukan.
 - Memanfaatkan multi-threading jika berlaku untuk menangani beberapa buku kerja secara bersamaan.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara menghapus kontrol ActiveX secara efektif dari buku kerja Excel menggunakan Aspose.Cells Java. Alat canggih ini menyederhanakan pemrosesan dokumen, sehingga Anda dapat fokus pada penyampaian laporan atau model yang bersih dan efisien.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi fitur Aspose.Cells lainnya seperti manipulasi data dan pembuatan bagan.
 - Bereksperimenlah dengan konfigurasi yang berbeda untuk menyesuaikan solusi Anda lebih lanjut.
 
 Tunggu apa lagi? Mulailah menerapkan teknik ini dalam proyek Anda hari ini!
 
-## Bagian FAQ (H2)
+## GYIK szekció (H2)
 
 1. **Apa itu kontrol ActiveX di Excel?**
    - Kontrol ActiveX adalah komponen yang memperluas fungsionalitas Excel dengan menyediakan elemen interaktif seperti tombol dan formulir.
@@ -170,26 +172,29 @@ Tunggu apa lagi? Mulailah menerapkan teknik ini dalam proyek Anda hari ini!
 2. **Bisakah saya menghapus jenis bentuk lain selain kontrol ActiveX?**
    - Ya, Aspose.Cells memungkinkan Anda mengakses dan memanipulasi berbagai jenis bentuk dalam buku kerja Excel.
 
-3. **Apakah mungkin untuk mengotomatiskan proses ini untuk beberapa file?**
+3. **Lehetséges ez a folyamat automatizálni több fájl esetében?**
    - Tentu saja! Anda dapat menulis skrip untuk mengulang beberapa buku kerja dan menerapkan logika yang sama secara terprogram.
 
 4. **Apa saja masalah umum saat menggunakan Aspose.Cells?**
    - Masalah umum mencakup dependensi yang hilang atau jalur file yang salah, yang dapat Anda atasi dengan memverifikasi pengaturan dan konfigurasi proyek Anda.
 
-5. **Bagaimana cara menangani file Excel besar dengan Aspose.Cells?**
+5. **Hogyan kezelhetek nagy Excel fájlokat az Aspose.Cells segítségével?**
    - Untuk menangani file besar secara efisien, pertimbangkan untuk mengoptimalkan penggunaan memori dengan memanfaatkan metode streaming yang disediakan oleh Aspose.Cells.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Dokumentasi Aspose Cells untuk Java](https://reference.aspose.com/cells/java/)
-- **Unduh Perpustakaan:** [Sel Aspose Rilis](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** [Beli Lisensi Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis dan Lisensi Sementara:** [Memulai dengan Aspose](https://releases.aspose.com/cells/java/)Bahasa Indonesia: [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan:** [Komunitas Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció:** [Dokumentasi Aspose Cells untuk Java](https://reference.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** [Beli Lisensi Aspose](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió és ideiglenes licenc:** [Memulai dengan Aspose](https://releases.aspose.com/cells/java/), [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum:** [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda dengan Aspose.Cells Java hari ini dan buka potensi penuh manipulasi file Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

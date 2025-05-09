@@ -1,17 +1,19 @@
 ---
-title: एक्सेल में कक्षों की नामित श्रेणी बनाएँ
-linktitle: एक्सेल में कक्षों की नामित श्रेणी बनाएँ
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में कक्षों की नामित श्रेणी को आसानी से बनाने का तरीका जानें। अपने डेटा प्रबंधन को सुव्यवस्थित करें।
-weight: 10
-url: /hi/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में कक्षों की नामित श्रेणी को आसानी से बनाने का तरीका जानें। अपने डेटा प्रबंधन को सुव्यवस्थित करें।"
+"linktitle": "Excel में कक्षों की नामित श्रेणी बनाएँ"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Excel में कक्षों की नामित श्रेणी बनाएँ"
+"url": "/hi/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# एक्सेल में कक्षों की नामित श्रेणी बनाएँ
+# Excel में कक्षों की नामित श्रेणी बनाएँ
 
 ## परिचय
 
@@ -22,7 +24,7 @@ url: /hi/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
 इससे पहले कि हम Aspose.Cells के साथ नामित श्रेणियाँ बनाना शुरू करें, आपको कुछ चीजों को सेट अप करने की आवश्यकता होगी:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके कंप्यूटर पर विज़ुअल स्टूडियो स्थापित है।
-2.  .NET के लिए Aspose.Cells: Aspose.Cells को डाउनलोड करें और इंस्टॉल करें[साइट](https://releases.aspose.com/cells/net/).
+2. .NET के लिए Aspose.Cells: Aspose.Cells को डाउनलोड करें और इंस्टॉल करें [साइट](https://releases.aspose.com/cells/net/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको अधिक आसानी से अनुसरण करने में मदद मिलेगी।
 4. .NET फ्रेमवर्क: सुनिश्चित करें कि आपका प्रोजेक्ट संगत .NET संस्करण को लक्षित करता है।
 
@@ -51,7 +53,7 @@ using Aspose.Cells;
 string dataDir = "Your Document Directory";
 ```
 
- बस प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ जहाँ आप अपनी एक्सेल फ़ाइल को सहेजना चाहते हैं। यह कुछ इस तरह हो सकता है`@"C:\Users\YourName\Documents\"`.
+बस प्रतिस्थापित करें `"Your Document Directory"` वास्तविक पथ के साथ जहाँ आप अपनी एक्सेल फ़ाइल को सहेजना चाहते हैं। यह कुछ इस तरह हो सकता है `@"C:\Users\YourName\Documents\"`.
 
 ## चरण 2: नई कार्यपुस्तिका बनाएँ
 
@@ -112,14 +114,14 @@ range.SetStyle(st);
 
 ## चरण 7: संशोधित कार्यपुस्तिका को सहेजें
 
-ये सभी बदलाव करने के बाद, अगला चरण वर्कबुक को सेव करना है। आप यह जांचना चाहेंगे कि फ़ाइल सही तरीके से सेव हुई है या नहीं।
+ये सभी बदलाव करने के बाद, अगला चरण वर्कबुक को सेव करना है। आपको यह जांचना होगा कि फ़ाइल सही तरीके से सेव हुई है या नहीं।
 
 ```csharp
 // संशोधित एक्सेल फ़ाइल को सहेजना
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
- यह पंक्ति आपके परिवर्तनों को नामक फ़ाइल में सहेजती है`outputCreateNamedRangeofCells.xlsx`सुनिश्चित करें कि निर्दिष्ट पथ सही है; अन्यथा, प्रोग्राम एक त्रुटि फेंक देगा!
+यह पंक्ति आपके परिवर्तनों को नामक फ़ाइल में सहेजती है `outputCreateNamedRangeofCells.xlsx`सुनिश्चित करें कि निर्दिष्ट पथ सही है; अन्यथा, प्रोग्राम एक त्रुटि फेंक देगा!
 
 ## चरण 8: ऑपरेशन की सफलता की पुष्टि करें
 
@@ -150,10 +152,12 @@ Aspose.Cells आपको इसकी विशेषताओं का पत
 Aspose.Cells मुख्य रूप से .NET भाषाओं जैसे C#, VB.NET, आदि का समर्थन करता है।
 
 ### मैं Aspose.Cells के लिए अतिरिक्त दस्तावेज़ कहां पा सकता हूं?
- आप यहाँ पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं।[Aspose.Cells दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/cells/net/).
+आप यहाँ पर विस्तृत दस्तावेज और उदाहरण पा सकते हैं। [Aspose.Cells दस्तावेज़ीकरण पृष्ठ](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

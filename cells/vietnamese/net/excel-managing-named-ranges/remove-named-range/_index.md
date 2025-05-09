@@ -1,14 +1,16 @@
 ---
-title: Xóa Name Range trong Excel
-linktitle: Xóa Name Range trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách xóa các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết.
-weight: 11
-url: /vi/net/excel-managing-named-ranges/remove-named-range/
+"description": "Tìm hiểu cách xóa các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết."
+"linktitle": "Xóa Name Range trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xóa Name Range trong Excel"
+"url": "/vi/net/excel-managing-named-ranges/remove-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa Name Range trong Excel
@@ -24,9 +26,9 @@ Trước khi bắt đầu viết mã thực tế, bạn cần chuẩn bị một
 
 Để làm việc với Aspose.Cells for .NET một cách liền mạch, hãy đảm bảo bạn có những điều sau:
 
-1.  Visual Studio: Tải xuống và cài đặt Visual Studio (Phiên bản cộng đồng hoàn toàn ổn) mà bạn có thể tìm thấy trên[Trang web Visual Studio](https://visualstudio.microsoft.com/).
+1. Visual Studio: Tải xuống và cài đặt Visual Studio (Phiên bản cộng đồng hoàn toàn ổn) mà bạn có thể tìm thấy trên [Trang web Visual Studio](https://visualstudio.microsoft.com/).
 2. .NET Framework: Đảm bảo bạn đang sử dụng phiên bản .NET Framework phù hợp. Aspose.Cells hỗ trợ .NET Framework 4.0 trở lên.
-3. Thư viện Aspose.Cells: Bạn cần tải xuống và tham chiếu thư viện Aspose.Cells cho .NET trong ứng dụng của mình. Bạn có thể tìm thấy gói có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Bạn cần tải xuống và tham chiếu thư viện Aspose.Cells cho .NET trong ứng dụng của mình. Bạn có thể tìm thấy gói có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 
 ### Hiểu biết cơ bản về C#
 
@@ -58,7 +60,7 @@ Trước hết, chúng ta cần xác định nơi lưu tệp đầu ra. Điều 
 string outputDir = "Your Document Directory Here\\";
 ```
 
- Thay thế`"Your Document Directory Here\\"`bằng đường dẫn trên máy tính nơi bạn muốn lưu tệp của mình.
+Thay thế `"Your Document Directory Here\\"` bằng đường dẫn trên máy tính nơi bạn muốn lưu tệp của mình.
 
 ## Bước 2: Khởi tạo một Workbook mới
 
@@ -95,7 +97,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 
 ## Bước 5: Tạo phạm vi được đặt tên
 
-Bây giờ, chúng ta hãy tạo một phạm vi được đặt tên, đây là một phần thiết yếu của hướng dẫn này. Điều này sẽ cho phép chúng ta minh họa cách xóa một phạm vi được đặt tên sau này.
+Bây giờ, hãy tạo một phạm vi được đặt tên, đây là phần thiết yếu của hướng dẫn này. Điều này sẽ cho phép chúng ta minh họa cách xóa một phạm vi được đặt tên sau.
 
 ```csharp
 // Tạo một dãy ô.
@@ -138,7 +140,7 @@ range1[0, 4].PutValue(123);
 Để minh họa rõ hơn quan điểm của mình, chúng ta sẽ tạo một phạm vi được đặt tên khác tương tự như phạm vi đầu tiên.
 
 ```csharp
-//Tạo một dãy ô khác.
+// Tạo một dãy ô khác.
 Range range2 = worksheet.Cells.CreateRange("B3", "F3");
 
 // Đặt tên cho phạm vi.
@@ -149,7 +151,7 @@ Bây giờ chúng ta có một phạm vi tên khác có tên là "SecondRange" c
 
 ## Bước 9: Sao chép Phạm vi đầu tiên vào Phạm vi thứ hai
 
-Chúng ta hãy cùng xem cách sử dụng phạm vi thứ hai bằng cách sao chép dữ liệu từ phạm vi đầu tiên.
+Chúng ta hãy cùng xem cách sử dụng phạm vi thứ hai bằng cách sao chép dữ liệu từ phạm vi thứ nhất.
 
 ```csharp
 // Sao chép phạm vi đầu tiên vào phạm vi thứ hai.
@@ -177,7 +179,7 @@ Bước cuối cùng quan trọng là xóa phạm vi được đặt tên khỏi
 worksheets.Names.RemoveAt(0);
 ```
 
-Thao tác này sẽ xóa vùng có tên “FirstRange” khỏi bảng tính.
+Thao tác này sẽ xóa vùng có tên “FirstRange” khỏi sổ làm việc.
 
 ## Bước 12: Lưu sổ làm việc
 
@@ -188,7 +190,7 @@ Cuối cùng nhưng không kém phần quan trọng, hãy lưu lại công việ
 workbook.Save(outputDir + "outputRemoveNamedRange.xlsx");
 ```
 
-Lệnh này lưu sổ làm việc của bạn với những thay đổi chúng ta đã thực hiện—đây là nơi lưu giữ mọi công sức của bạn!
+Lệnh này lưu sổ làm việc của bạn với những thay đổi chúng ta đã thực hiện—đây là nơi lưu giữ toàn bộ công sức của bạn!
 
 ## Bước 13: Xác nhận thực hiện thành công
 
@@ -207,22 +209,24 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách thao tác cá
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET được thiết kế để xử lý các tệp Excel theo chương trình.
+Aspose.Cells là một thư viện .NET được thiết kế để xử lý các tệp Excel theo cách lập trình.
 
 ### Tôi có thể xóa nhiều phạm vi được đặt tên cùng một lúc không?
 Có, bạn có thể lặp qua bộ sưu tập các phạm vi được đặt tên và xóa chúng khi cần.
 
 ### Có phiên bản dùng thử không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells [đây](https://releases.aspose.com/).
 
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Nó chủ yếu hỗ trợ các ngôn ngữ .NET như C# và VB.NET, cùng nhiều ngôn ngữ khác.
 
 ### Tôi có thể tìm kiếm sự hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được trợ giúp giải đáp mọi thắc mắc.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được trợ giúp giải đáp mọi thắc mắc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

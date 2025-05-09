@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Az Aspose.Cells licencmodell alapján működik. A következőket teheti:
 - **Ingyenes próbaverzió:** Töltsön le egy próbalicencet a teljes funkcionalitás kipróbálásához.
 - **Ideiglenes engedély:** Kérjen ideiglenes engedélyt korlátozás nélküli értékelésre.
-- **Vásárlás:** Vásároljon kereskedelmi licencet termelési célú felhasználásra.
+- **Vásárlás:** Vásároljon kereskedelmi licencet termelési felhasználásra.
 
 Miután a környezeted elkészült, inicializáld az Aspose.Cells-t:
 ```java
@@ -158,6 +160,9 @@ Készen állsz arra, hogy továbbfejlesszed automatizálási készségeidet? Mer
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

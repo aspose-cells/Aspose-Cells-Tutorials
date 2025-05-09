@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ Label label = chart.getShapes().addLabelInChart(100, 100, 350, 900);
 label.setText("Write Label here");
 label.setPlacement(PlacementType.FREE_FLOATING);
 ```
-### ขั้นตอนที่ 4: ปรับแต่งลักษณะที่ปรากฏของฉลาก
+### ขั้นตอนที่ 4: ปรับแต่งลักษณะฉลาก
 
 ปรับแต่งลักษณะที่ปรากฏของฉลากของคุณโดยการตั้งค่าสีเติมเป็นสีช็อกโกแลต:
 ```java
@@ -154,6 +156,9 @@ system.out.println("Label added to chart successfully.");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

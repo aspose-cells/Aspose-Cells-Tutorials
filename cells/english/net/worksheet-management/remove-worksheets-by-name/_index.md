@@ -8,7 +8,9 @@ url: /net/worksheet-management/remove-worksheets-by-name/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Worksheets by Name using Aspose.Cells
@@ -87,6 +89,7 @@ With Aspose.Cells for .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

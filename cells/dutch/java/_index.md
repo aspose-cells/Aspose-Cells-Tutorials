@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handleidingen voor het verwerken van Aspose.Cells Java-spreadsheets
@@ -110,7 +112,7 @@ Volledige tutorials voor het integreren van Aspose.Cells met andere Aspose-produ
 ### [OLE-objecten en ingesloten inhoud](./ole-objects-embedded-content/)
 Leer werken met OLE-objecten, ingesloten documenten, gekoppelde bestanden en bijlagen in Excel met behulp van Aspose.Cells voor Java.
 
-### [Berekeningsmachine](./calculation-engine/)
+### [Berekeningsmotor](./calculation-engine/)
 Stapsgewijze handleidingen voor het configureren en aanpassen van de Aspose.Cells-berekeningsengine voor Excel-formuleverwerking in Java.
 
 ### [Sjablonen en rapportage](./templates-reporting/)
@@ -118,9 +120,11 @@ Volledige tutorials voor het maken van rapportsjablonen, het genereren van docum
 
 ### [Automatisering en batchverwerking](./automation-batch-processing/)
 Stapsgewijze handleidingen voor het automatiseren van Excel-taken, het batchverwerken van meerdere bestanden en het plannen van bewerkingen met Aspose.Cells voor Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

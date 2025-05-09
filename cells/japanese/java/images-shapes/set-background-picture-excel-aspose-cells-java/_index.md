@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ workbook.save(outDir + "SBPforWorksheet.xlsx");
 
 ## パフォーマンスに関する考慮事項
 ### パフォーマンスの最適化
-- 画像ファイルのサイズを最小限に抑えて読み込み時間を短縮します。
+- 画像ファイルのサイズを最小限に抑えて、読み込み時間を短縮します。
 - 再利用 `Workbook` 頻繁に新しいインスタンスを作成するのではなく、可能な場合はオブジェクトを作成します。
 
 ### リソース使用ガイドライン
@@ -164,6 +166,9 @@ Aspose.Cells Java を使いこなして、強力なスプレッドシート操�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

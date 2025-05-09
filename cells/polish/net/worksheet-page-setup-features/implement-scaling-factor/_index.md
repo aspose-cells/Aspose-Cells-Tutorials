@@ -1,14 +1,16 @@
 ---
-title: Wdrażanie współczynnika skalowania w arkuszu kalkulacyjnym
-linktitle: Wdrażanie współczynnika skalowania w arkuszu kalkulacyjnym
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zastosować współczynnik skalowania w arkuszu kalkulacyjnym za pomocą Aspose.Cells dla .NET, korzystając z samouczka krok po kroku, przykładów i FAQ. Idealne do bezproblemowego skalowania.
-weight: 20
-url: /pl/net/worksheet-page-setup-features/implement-scaling-factor/
+"description": "Dowiedz się, jak zastosować współczynnik skalowania w arkuszu kalkulacyjnym za pomocą Aspose.Cells dla .NET, korzystając z samouczka krok po kroku, przykładów i FAQ. Idealne do bezproblemowego skalowania."
+"linktitle": "Wdrażanie współczynnika skalowania w arkuszu kalkulacyjnym"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wdrażanie współczynnika skalowania w arkuszu kalkulacyjnym"
+"url": "/pl/net/worksheet-page-setup-features/implement-scaling-factor/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wdrażanie współczynnika skalowania w arkuszu kalkulacyjnym
@@ -21,10 +23,10 @@ Czy chcesz dostosować arkusz kalkulacyjny programu Excel, aby idealnie pasował
 
 Zanim zaczniemy, upewnij się, że spełniasz następujące wymagania:
 
--  Aspose.Cells dla .NET:[Pobierz tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: [Pobierz tutaj](https://releases.aspose.com/cells/net/).
 - IDE: Dowolne środowisko IDE zgodne ze standardem .NET, np. Visual Studio.
 - .NET Framework: wersja .NET zgodna z Aspose.Cells.
--  Licencja: Aby uzyskać pełne możliwości, należy uzyskać[Wystawiam tymczasową licencję](https://purchase.aspose.com/temporary-license/) lub rozważ zakup[pełna licencja](https://purchase.aspose.com/buy).
+- Licencja: Aby uzyskać pełne możliwości, należy uzyskać [Wystawiam tymczasową licencję](https://purchase.aspose.com/temporary-license/) lub rozważ zakup [pełna licencja](https://purchase.aspose.com/buy).
 
 Upewnij się, że zainstalowałeś Aspose.Cells dla .NET. Gdy wszystko będzie gotowe, zaimportujmy niezbędne przestrzenie nazw.
 
@@ -51,12 +53,12 @@ string dataDir = "Your Document Directory";
 ```
 
 
- Ten wiersz inicjuje ścieżkę do folderu, w którym zostanie zapisany plik wyjściowy. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką, do której chcesz, aby trafił plik Excela. Proste, prawda? Przejdźmy do następnego kroku.
+Ten wiersz inicjuje ścieżkę do folderu, w którym zostanie zapisany plik wyjściowy. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką, do której chcesz, aby trafił plik Excela. Proste, prawda? Przejdźmy do następnego kroku.
 
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Aby rozpocząć pracę z plikami Excel, utwórz wystąpienie`Workbook` klasa. Ten skoroszyt będzie zawierał wszystkie twoje arkusze i dane.
+Aby rozpocząć pracę z plikami Excel, utwórz wystąpienie `Workbook` klasa. Ten skoroszyt będzie zawierał wszystkie twoje arkusze i dane.
 
 ```csharp
 // Utwórz nowy skoroszyt
@@ -64,7 +66,7 @@ Workbook workbook = new Workbook();
 ```
 
 
- Tutaj inicjujemy nowy`Workbook` obiekt. Pomyśl o skoroszycie jako o całym pliku Excela, który może zawierać wiele arkuszy. W tej chwili jest pusty, ale gotowy do wprowadzenia modyfikacji.
+Tutaj inicjujemy nowy `Workbook` obiekt. Pomyśl o skoroszycie jako o całym pliku Excela, który może zawierać wiele arkuszy. W tej chwili jest pusty, ale gotowy do wprowadzenia modyfikacji.
 
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
@@ -77,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 
-`Worksheets[0]`jest tutaj używane, aby uzyskać pierwszy arkusz kalkulacyjny. Jeśli jesteś przyzwyczajony do pracy z programem Excel, pomyśl o tym jako o prostym wybraniu pierwszego arkusza w skoroszycie. Utrzymujemy prostotę, pracując z pierwszym arkuszem.
+`Worksheets[0]` jest tutaj używane, aby uzyskać pierwszy arkusz kalkulacyjny. Jeśli jesteś przyzwyczajony do pracy z programem Excel, pomyśl o tym jako o prostym wybraniu pierwszego arkusza w skoroszycie. Utrzymujemy prostotę, pracując z pierwszym arkuszem.
 
 
 ## Krok 4: Ustaw współczynnik skalowania dla arkusza kalkulacyjnego
@@ -103,7 +105,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
 
- Tutaj zapisujemy skoroszyt pod nazwą pliku`ScalingFactor_out.xls` . Ten plik będzie zawierał arkusz roboczy z zastosowanym współczynnikiem skalowania. Upewnij się, że określona ścieżka (w`dataDir`) jest poprawny, więc nie będziesz miał problemów ze znalezieniem pliku.
+Tutaj zapisujemy skoroszyt pod nazwą pliku `ScalingFactor_out.xls`. Ten plik będzie zawierał arkusz roboczy z zastosowanym współczynnikiem skalowania. Upewnij się, że określona ścieżka (w `dataDir`) jest poprawny, więc nie będziesz miał problemów ze znalezieniem pliku.
 
 
 ## Wniosek
@@ -125,10 +127,12 @@ Nie, ustawienie współczynnika skalowania zmienia tylko rozmiar wyświetlania l
 Ustawienie współczynnika skalowania na 0 jest nieprawidłowe i prawdopodobnie spowoduje błąd. Trzymaj się dodatnich wartości, które reprezentują pożądany rozmiar procentowy.
 
 ### Czy potrzebuję licencji, aby korzystać z funkcji współczynnika skalowania Aspose.Cells w środowisku .NET?  
- Możesz spróbować z[bezpłatny okres próbny](https://releases.aspose.com/) , ale dla pełnej funkcjonalności,[tymczasowy](https://purchase.aspose.com/temporary-license/) lub zalecana jest płatna licencja.
+Możesz spróbować z [bezpłatny okres próbny](https://releases.aspose.com/), ale dla pełnej funkcjonalności, [tymczasowy](https://purchase.aspose.com/temporary-license/) lub zalecana jest płatna licencja.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

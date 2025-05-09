@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ A: 直接的な統合は提供されていませんが、Java の I/O 機能を�
 A: Aspose.Cells は、XLS、XLSX、CSV などさまざまな Excel 形式をサポートしています。
 
 **Q: Maven または Gradle を使用しない場合、Aspose.Cells をインストールするにはどうすればよいですか?**
-A: JARをダウンロードしてください [Aspose ダウンロード](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスに手動で追加します。
+A: JARをここからダウンロードしてください [Aspose ダウンロード](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスに手動で追加します。
 
 ## リソース
 - **ドキュメント:** [Aspose.Cells for Java ドキュメント](https://reference.aspose.com/cells/java/)
@@ -176,6 +178,9 @@ A: JARをダウンロードしてください [Aspose ダウンロード](https:
 - **サポート：** [Aspose フォーラム サポート](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

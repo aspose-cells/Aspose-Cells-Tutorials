@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Проверка данных импорта Excel
@@ -80,9 +82,11 @@ Aspose.Cells для Java поддерживает различные типы п
 В этом подробном руководстве мы изучили процесс реализации проверки данных импорта Excel с помощью Aspose.Cells for Java. Выполняя шаги, описанные в этой статье, вы можете обеспечить точность и надежность импортированных данных в ваших приложениях Java. Проверка данных является критически важным аспектом управления данными, и Aspose.Cells for Java упрощает этот процесс.
 
 Теперь, вооружившись предоставленными знаниями и исходным кодом, вы готовы улучшить свои возможности проверки данных и улучшить пользовательский опыт. Удачного кодирования!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

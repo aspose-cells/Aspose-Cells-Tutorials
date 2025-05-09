@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ class CreateWorkbook {
 - **`new Workbook()`**：實例化一個空工作簿。
 - **`workbook.getWorksheets().add()`**：新增新的工作表並返回其索引。
 
-### 特性 2：存取和修改儲存格
+### 功能 2：存取和修改儲存格
 
 #### 概述
 存取工作簿中的特定儲存格以修改其樣式，例如邊框或字型。這種靈活性使您能夠精確地自訂資料的外觀。
@@ -235,6 +237,9 @@ class SaveWorkbook {
 透過掌握這些技術，您可以使用 Java 中的 Aspose.Cells 來提高 Excel 自動化任務的效能和可靠性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

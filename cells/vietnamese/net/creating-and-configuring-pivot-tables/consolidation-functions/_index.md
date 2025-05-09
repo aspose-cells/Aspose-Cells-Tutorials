@@ -1,14 +1,16 @@
 ---
-title: Các hàm hợp nhất theo chương trình trong .NET
-linktitle: Các hàm hợp nhất theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sử dụng Aspose.Cells cho .NET để áp dụng các hàm hợp nhất theo chương trình. Tự động hóa các tác vụ phân tích dữ liệu của bạn một cách hiệu quả.
-weight: 12
-url: /vi/net/creating-and-configuring-pivot-tables/consolidation-functions/
+"description": "Tìm hiểu cách sử dụng Aspose.Cells cho .NET để áp dụng các hàm hợp nhất theo chương trình. Tự động hóa các tác vụ phân tích dữ liệu của bạn một cách hiệu quả."
+"linktitle": "Các hàm hợp nhất theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Các hàm hợp nhất theo chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/consolidation-functions/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các hàm hợp nhất theo chương trình trong .NET
@@ -18,12 +20,12 @@ Bạn đang muốn tận dụng sức mạnh của Excel để phân tích dữ 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu hành trình phân tích dữ liệu, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 1. Môi trường .NET: Bạn phải có môi trường .NET đang hoạt động. Cho dù bạn đang sử dụng .NET Core hay .NET Framework, các bước sẽ phần lớn vẫn giống nhau.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ có lợi. Nếu bạn đã viết mã bằng C#, bạn đã sẵn sàng!
-4. Tệp Excel mẫu: Đối với ví dụ của chúng tôi, hãy đảm bảo bạn có tệp Excel có tên`Book.xlsx` có sẵn trong thư mục tài liệu của bạn.
+4. Tệp Excel mẫu: Đối với ví dụ của chúng tôi, hãy đảm bảo bạn có tệp Excel có tên `Book.xlsx` có sẵn trong thư mục tài liệu của bạn.
 ## Nhập gói
 Để bắt đầu mã hóa, trước tiên bạn cần nhập các gói cần thiết. Thư viện Aspose.Cells cần được tham chiếu trong dự án của bạn. Sau đây là cách thực hiện:
-1.  Cài đặt Gói NuGet: Mở dự án của bạn trong Visual Studio, nhấp chuột phải vào Giải pháp và chọn "Quản lý Gói NuGet". Tìm kiếm`Aspose.Cells` và nhấn cài đặt.
+1. Cài đặt Gói NuGet: Mở dự án của bạn trong Visual Studio, nhấp chuột phải vào Giải pháp và chọn "Quản lý Gói NuGet". Tìm kiếm `Aspose.Cells` và nhấn cài đặt.
 2. Sử dụng Directive: Ở đầu tệp C#, bạn sẽ cần bao gồm các không gian tên sau để truy cập các lớp chúng ta cần:
 ```csharp
 using System.IO;
@@ -39,9 +41,9 @@ Bây giờ, chúng ta sẽ chia nhỏ chương trình chính thành các bước
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với con đường thực tế đến nơi bạn`Book.xlsx` tập tin lưu trữ.
+Hãy chắc chắn thay thế `"Your Document Directory"` với con đường thực tế đến nơi bạn `Book.xlsx` tập tin lưu trữ.
 ## Bước 2: Tạo một phiên bản Workbook
-Tiếp theo, hãy tạo một phiên bản sổ làm việc từ tệp Excel nguồn của chúng ta. Đối tượng này sẽ cho phép chúng ta tương tác với dữ liệu trong`Book.xlsx`.
+Tiếp theo, hãy tạo một phiên bản sổ làm việc từ tệp Excel nguồn của chúng ta. Đối tượng này sẽ cho phép chúng ta tương tác với dữ liệu trong `Book.xlsx`.
 ```csharp
 // Tạo sổ làm việc từ tệp excel nguồn
 Workbook workbook = new Workbook(dataDir + "Book.xlsx");
@@ -78,7 +80,7 @@ pivotTable.CalculateData();
 ```
 Hãy nghĩ đến bước này như việc đảm bảo cà phê của bạn được pha trước khi nhấp một ngụm. Bạn sẽ không muốn bỏ lỡ kết quả đâu!
 ## Bước 7: Lưu thay đổi của bạn
- Cuối cùng, đã đến lúc lưu công việc của chúng ta. Chúng ta sẽ lưu sổ làm việc đã sửa đổi vào một tệp Excel mới có tên là`output.xlsx`.
+Cuối cùng, đã đến lúc lưu công việc của chúng ta. Chúng ta sẽ lưu sổ làm việc đã sửa đổi vào một tệp Excel mới có tên là `output.xlsx`.
 ```csharp
 // Lưu tệp Excel
 workbook.Save(dataDir + "output.xlsx");
@@ -90,16 +92,18 @@ Bạn đã hoàn thành hướng dẫn của chúng tôi về việc hợp nhấ
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và quản lý các tệp Excel theo chương trình trong ứng dụng của họ.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể tìm thấy[đây](https://releases.aspose.com).
+Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể tìm thấy [đây](https://releases.aspose.com).
 ### Làm thế nào để tôi truy cập tài liệu Aspose.Cells?
- Bạn có thể truy cập tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể truy cập tài liệu toàn diện [đây](https://reference.aspose.com/cells/net/).
 ### Có hỗ trợ cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể tìm kiếm sự hỗ trợ trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể tìm kiếm sự hỗ trợ trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể mua giấy phép Aspose.Cells ở đâu?
- Bạn có thể mua giấy phép[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

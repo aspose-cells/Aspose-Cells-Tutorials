@@ -1,14 +1,16 @@
 ---
-title: Zablokuj komórkę w arkuszu kalkulacyjnym programu Excel
-linktitle: Zablokuj komórkę w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się blokować komórki w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Łatwy samouczek krok po kroku dotyczący bezpiecznego zarządzania danymi.
-weight: 20
-url: /pl/net/excel-security/lock-cell-in-excel-worksheet/
+"description": "Naucz się blokować komórki w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Łatwy samouczek krok po kroku dotyczący bezpiecznego zarządzania danymi."
+"linktitle": "Zablokuj komórkę w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zablokuj komórkę w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/excel-security/lock-cell-in-excel-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zablokuj komórkę w arkuszu kalkulacyjnym programu Excel
@@ -21,12 +23,12 @@ dzisiejszym szybko zmieniającym się świecie bezpieczne zarządzanie danymi je
 
 Zanim przejdziemy do szczegółów kodu, musisz przygotować kilka rzeczy:
 
-1.  Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Środowisko programistyczne skonfigurowane dla .NET. Popularne opcje to Visual Studio lub JetBrains Rider.
 3. Podstawowa znajomość języka C#: Chociaż przeprowadzimy Cię przez kod krok po kroku, podstawowa znajomość programowania w języku C# pomoże Ci szybciej zrozumieć koncepcje.
-4. Katalog dokumentów: Upewnij się, że masz utworzony katalog, w którym możesz przechowywać pliki programu Excel w celu przeprowadzenia testów.
+4. Katalog dokumentów: Upewnij się, że masz utworzony katalog, w którym możesz przechowywać pliki programu Excel w celu testowania.
 
-Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy zaimportować niezbędne pakiety!
+Teraz, gdy zadbaliśmy o wszystkie wymagania wstępne, możemy zaimportować niezbędne pakiety!
 
 ## Importuj pakiety
 
@@ -47,11 +49,11 @@ Przede wszystkim musisz określić ścieżkę do katalogu dokumentów, w którym
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na twoim komputerze. Może to być coś takiego`@"C:\MyExcelFiles\"`.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na twoim komputerze. Może to być coś takiego `@"C:\MyExcelFiles\"`.
 
 ## Krok 2: Załaduj swój skoroszyt
 
-Następnie należy załadować skoroszyt programu Excel, w którym zamierzasz zablokować komórki. Można to zrobić, tworząc wystąpienie`Workbook` klasę i wskazując na wybrany plik Excela.
+Następnie należy załadować skoroszyt programu Excel, w którym zamierzasz zablokować komórki. Można to zrobić, tworząc wystąpienie `Workbook` klasę i wskazując na wybrany plik Excela.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -105,23 +107,25 @@ Blokowanie komórek w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla 
 
 ## Najczęściej zadawane pytania
 
-### Czy mogę zablokować kilka cel jednocześnie?
+### Czy mogę zablokować wiele cel jednocześnie?
 Tak, można zablokować wiele komórek, stosując właściwość blokowania do tablicy odwołań do komórek.
 
 ### Czy do zablokowania komórki wymagane jest hasło?
 Nie, samo blokowanie komórek nie wymaga podania hasła. Możesz jednak dodać ochronę hasłem podczas zabezpieczania arkusza kalkulacyjnego, aby zwiększyć bezpieczeństwo.
 
 ### Co się stanie, jeśli zapomnę hasła do chronionego arkusza kalkulacyjnego?
-Jeśli zapomnisz hasła, nie będziesz mógł usunąć zabezpieczenia arkusza, dlatego ważne jest, aby chronić go.
+Jeśli zapomnisz hasła, nie będziesz mógł usunąć zabezpieczenia arkusza, dlatego bardzo ważne jest, aby chronić go.
 
 ### Czy mogę odblokować telefony, gdy są już zablokowane?
- Oczywiście! Możesz odblokować komórki, ustawiając`IsLocked` nieruchomość do`false` i usuwanie ochrony.
+Oczywiście! Możesz odblokować komórki, ustawiając `IsLocked` nieruchomość do `false` i usuwanie ochrony.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje użytkownikom bezpłatną wersję próbną. Jednak do ciągłego użytkowania musisz kupić licencję. Odwiedź[Strona zakupu Aspose](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.
+Aspose.Cells oferuje użytkownikom bezpłatny okres próbny. Jednak do ciągłego użytkowania należy zakupić licencję. Odwiedź [Strona zakupu Aspose](https://purchase.aspose.com/buy) Aby uzyskać więcej szczegółów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

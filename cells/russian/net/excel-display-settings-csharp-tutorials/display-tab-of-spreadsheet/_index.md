@@ -1,14 +1,16 @@
 ---
-title: Показать вкладку электронной таблицы
-linktitle: Показать вкладку электронной таблицы
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как отобразить вкладку электронной таблицы с помощью Aspose.Cells для .NET в этом пошаговом руководстве. Освойте автоматизацию Excel с легкостью на C#.
-weight: 60
-url: /ru/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
+"description": "Узнайте, как отобразить вкладку электронной таблицы с помощью Aspose.Cells для .NET в этом пошаговом руководстве. Освойте автоматизацию Excel с легкостью на C#."
+"linktitle": "Показать вкладку электронной таблицы"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Показать вкладку электронной таблицы"
+"url": "/ru/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Показать вкладку электронной таблицы
@@ -21,7 +23,7 @@ url: /ru/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 Прежде чем перейти к реальному коду, давайте убедимся, что у вас все готово. Вот что вам нужно:
 
-1.  Библиотека Aspose.Cells for .NET – Убедитесь, что она у вас установлена. Вы можете[скачать библиотеку здесь](https://releases.aspose.com/cells/net/).
+1. Библиотека Aspose.Cells for .NET – Убедитесь, что она у вас установлена. Вы можете [скачать библиотеку здесь](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Убедитесь, что вы используете совместимую версию .NET Framework. Aspose.Cells для .NET поддерживает версии .NET Framework, начиная с 2.0.
 3. Среда разработки – Visual Studio или любая другая C# IDE идеально подойдет для этой задачи.
 4. Базовые знания C# — вам не нужно быть волшебником, но понимание базового синтаксиса будет полезно.
@@ -47,7 +49,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу в вашей системе. Этот каталог будет местом, куда вы загрузите существующий файл Excel и сохраните вывод.
+Заменять `"YOUR DOCUMENT DIRECTORY"` с фактическим путем к каталогу в вашей системе. Этот каталог будет местом, куда вы загрузите существующий файл Excel и сохраните вывод.
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
@@ -57,17 +59,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Здесь мы создаем новый экземпляр класса Workbook и открываем файл с именем`book1.xls`. Убедитесь, что файл существует в указанном вами каталоге.
+Здесь мы создаем новый экземпляр класса Workbook и открываем файл с именем `book1.xls`. Убедитесь, что файл существует в указанном вами каталоге.
 
 ## Шаг 3: Отображение вкладок
 
 В Excel вкладки внизу (Лист1, Лист2 и т. д.) можно скрыть или отобразить. Используя Aspose.Cells, вы можете легко управлять их видимостью. Давайте включим видимость вкладок.
 
 ```csharp
-workbook.Settings.ShowTabs = true;
+workbook.Параметрs.ShowTabs = true;
 ```
 
- Параметр`ShowTabs` к`true` обеспечит видимость вкладок при открытии файла Excel.
+Setting `ShowTabs` к `true` обеспечит видимость вкладок при открытии файла Excel.
 
 ## Шаг 4: Сохраните измененный файл Excel.
 
@@ -77,7 +79,7 @@ workbook.Settings.ShowTabs = true;
 workbook.Save(dataDir + "output.xls");
 ```
 
- Файл сохраняется под именем`output.xls` в указанном ранее каталоге. Вы также можете выбрать другое имя или формат файла (например,`.xlsx`) при необходимости.
+Файл сохраняется под именем `output.xls` в указанном ранее каталоге. Вы также можете выбрать другое имя или формат файла (например, `.xlsx`) при необходимости.
 
 ## Заключение
 
@@ -86,7 +88,7 @@ workbook.Save(dataDir + "output.xls");
 ## Часто задаваемые вопросы
 
 ### Можно ли скрыть вкладки в Excel с помощью Aspose.Cells для .NET?
- Конечно! Просто установите`workbook.Settings.ShowTabs = false;` и сохраните файл. Это скроет вкладки при открытии книги.
+Конечно! Просто установите `workbook.Settings.ShowTabs = false;` и сохраните файл. Это скроет вкладки при открытии книги.
 
 ### Поддерживает ли Aspose.Cells другие функции Excel, такие как диаграммы и сводные таблицы?
 Да, Aspose.Cells — это комплексная библиотека, которая поддерживает практически все функции Excel, включая диаграммы, сводные таблицы, формулы и многое другое.
@@ -98,10 +100,12 @@ workbook.Save(dataDir + "output.xls");
 Да, Aspose.Cells поддерживает преобразование файлов Excel в различные форматы, такие как PDF, HTML, CSV и другие.
 
 ### Существует ли бесплатная пробная версия Aspose.Cells?
- Да, вы можете скачать[бесплатная пробная версия здесь](https://releases.aspose.com/) чтобы изучить все возможности Aspose.Cells перед покупкой.
+Да, вы можете скачать [бесплатная пробная версия здесь](https://releases.aspose.com/) чтобы изучить все возможности Aspose.Cells перед покупкой.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

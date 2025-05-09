@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Các bước tiếp theo có thể bao gồm khám phá các loại cảnh báo 
 - **Mua và cấp phép:** Nhận giấy phép của bạn hoặc dùng thử miễn phí qua [Mua Aspose](https://purchase.aspose.com/buy) hoặc [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

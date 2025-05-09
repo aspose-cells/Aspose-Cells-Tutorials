@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Pronto para experimentar? Implemente esta solução hoje mesmo!
 Este guia abrangente foi criado para ajudar você a implementar a funcionalidade de exportação de comentários de forma eficaz, garantindo que seus aplicativos ofereçam experiências aprimoradas ao usuário.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 इस गाइड का पालन करके, आप जावा में Aspose.Cells का उपयोग करके एक्सेल शीट को कुशलतापूर्वक प्रबंधित करने के लिए अच्छी तरह से सुसज्जित होंगे। आज ही लागू करना शुरू करें और देखें कि यह आपकी परियोजनाओं को कैसे बेहतर बना सकता है!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

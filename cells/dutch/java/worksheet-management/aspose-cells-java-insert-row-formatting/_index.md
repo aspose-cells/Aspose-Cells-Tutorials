@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ In deze tutorial hebben we laten zien hoe je een rij met opmaak in een Excel-bes
 Klaar om deze oplossing in uw Java-applicatie te implementeren? Probeer het uit en ontdek hoe Aspose.Cells uw Excel-bestandsbewerkingen kan stroomlijnen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

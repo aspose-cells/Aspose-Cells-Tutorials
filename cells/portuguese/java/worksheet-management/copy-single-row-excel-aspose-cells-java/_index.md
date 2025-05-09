@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ Copiar linhas no Excel pode ser benéfico em vários cenários:
 ## Considerações de desempenho
 
 Ao trabalhar com grandes conjuntos de dados:
-- **Otimize o uso da memória**: O Aspose.Cells gerencia a memória com eficiência; monitora o uso de recursos do seu aplicativo.
+- **Otimizar o uso da memória**: O Aspose.Cells gerencia a memória com eficiência; monitora o uso de recursos do seu aplicativo.
 - **Use Streams para Arquivos Grandes**:Para arquivos muito grandes do Excel, considere usar fluxos para processar dados em blocos.
 - **Operações em lote**: Agrupe operações semelhantes para minimizar o tempo de processamento.
 
@@ -170,6 +172,9 @@ R5: Arquivos grandes e operações complexas podem aumentar o uso de memória. O
 Explore estes recursos para aprofundar seu conhecimento do Aspose.Cells para Java e liberar todo o potencial da manipulação do Excel em seus aplicativos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

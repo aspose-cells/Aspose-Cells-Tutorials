@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan du implementerar vår lösning, se till att du har följande:
 
 - **Bibliotek och beroenden:** Du behöver Aspose.Cells för Java version 25.3 eller senare.
 - **Miljöinställningar:** En fungerande Java-utvecklingsmiljö (Java Development Kit - JDK) krävs på Windows-, macOS- eller Linux-system.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmeringskoncept och förtrogenhet med Excel-diagram är meriterande.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmeringskoncept och förtrogenhet med Excel-diagram är meriterande.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -193,6 +195,9 @@ För vidare utforskning och detaljerad information:
 Genom att följa den här handledningen är du på god väg att bli skicklig med Aspose.Cells för Java, vilket gör hantering av Excel-diagram till en barnlek i dina projekt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

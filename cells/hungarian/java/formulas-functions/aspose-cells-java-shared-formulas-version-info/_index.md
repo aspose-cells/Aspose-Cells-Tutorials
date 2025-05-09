@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ A mai adatvezérelt világban az összetett Excel-munkafüzetek hatékony kezel�
 - Megosztott képletek alkalmazása több soron keresztül, korlátozásokkal
 - A munkafüzet mentése egy megadott könyvtárba
 
-Készen állsz belemerülni ezekbe a funkciókba? Kezdjük a környezetünk beállításával.
+Készen állsz belemerülni ezekbe a funkciókba? Kezdjük a környezet beállításával.
 
 ## Előfeltételek
 
@@ -199,12 +201,15 @@ A további felfedezéshez érdemes lehet mélyebben is elmerülni az Aspose.Cell
 - **Dokumentáció**Átfogó útmutatók és API-hivatkozások a következő címen: [Aspose Cells Java referencia](https://reference.aspose.com/cells/java/)
 - **Letöltési könyvtár**Legújabb kiadások elérhetők itt: [Aspose kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása**: Biztosítsa vásárlását a következővel: [Aspose Vásárlási Portál](https://purchase.aspose.com/buy)
-- **Ingyenes próbaverzió**: Tesztelje a funkciókat ingyenes próbaverzióval a következő címen: [Aspose kiadások](https://releases.aspose.com/cells/java/)
+- **Ingyenes próbaverzió**Tesztelje a funkciókat ingyenes próbaverzióval a következő címen: [Aspose kiadások](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély**Ideiglenes engedélyt kell kérnie a következő címen: [Aspose ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/)
 - **Támogatási fórum**Kérjen segítséget más felhasználóktól és az Aspose szakértőitől a támogatási fórumon
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

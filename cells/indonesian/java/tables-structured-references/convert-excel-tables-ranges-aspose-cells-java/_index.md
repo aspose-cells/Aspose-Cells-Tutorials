@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konversi Tabel Excel ke Rentang Menggunakan Aspose.Cells Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin menyederhanakan alur kerja dengan mengotomatiskan konversi tabel Excel menjadi rentang? Dengan Aspose.Cells untuk Java, pustaka canggih yang dirancang untuk manipulasi file Excel yang lancar, Anda dapat mengubah tugas ini dengan mudah. Tutorial ini akan memandu Anda melalui inisialisasi objek Workbook dan mengonversi tabel Excel menjadi rentang dengan mudah.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java
 - Menginisialisasi Buku Kerja dan memuat file Excel yang ada
 - Mengubah tabel/daftar di lembar kerja Excel menjadi rentang
@@ -25,16 +27,16 @@ Apakah Anda ingin menyederhanakan alur kerja dengan mengotomatiskan konversi tab
 
 Mari selami peningkatan proses penanganan data Anda dengan Aspose.Cells Java!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
-1. **Perpustakaan yang Diperlukan**: 
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+1. **Kötelező könyvtárak**: 
    - Maven atau Gradle untuk manajemen ketergantungan.
    - Pustaka Aspose.Cells (versi 25.3 direkomendasikan).
-2. **Pengaturan Lingkungan**:
+2. **Környezet beállítása**:
    - JDK terinstal di komputer Anda.
    - Editor kode seperti IntelliJ IDEA atau Eclipse.
-3. **Prasyarat Pengetahuan**:
+3. **Ismereti előfeltételek**:
    - Pemahaman dasar tentang pemrograman Java.
    - Kemampuan menggunakan alat pembangun Maven/Gradle dan sintaks XML.
 
@@ -56,23 +58,23 @@ Untuk memulai, integrasikan pustaka Aspose.Cells ke dalam proyek Anda menggunaka
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk memanfaatkan Aspose.Cells sepenuhnya, pertimbangkan untuk mendapatkan lisensi:
-- **Uji Coba Gratis**:Akses fitur terbatas dengan [Uji Coba Gratis Aspose.Cells](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Untuk fungsionalitas penuh tanpa batasan selama pengujian.
-- **Pembelian**: Jika Anda memutuskan alat ini cocok untuk kebutuhan Anda.
+- **Ingyenes próbaverzió**:Akses fitur terbatas dengan [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Untuk fungsionalitas penuh tanpa batasan selama pengujian.
+- **Vásárlás**: Jika Anda memutuskan alat ini cocok untuk kebutuhan Anda.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Siapkan proyek Anda untuk menyertakan pustaka Aspose.Cells. Pastikan variabel lingkungan Anda mengarah dengan benar ke jalur JDK Java, yang memungkinkan eksekusi kode Anda lancar.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan proses ini menjadi beberapa langkah yang dapat dikelola:
 
 ### 1. Inisialisasi dan Pemuatan Buku Kerja
-#### Ringkasan
+#### Áttekintés
 Mulailah dengan menginisialisasi `Workbook` objek dan memuat berkas Excel yang ada.
 
 **Cuplikan Kode:**
@@ -83,12 +85,12 @@ String dataDir = "YOUR_DATA_DIRECTORY"; // Tentukan jalur direktori data Anda di
 Workbook wb = new Workbook(dataDir + "book1.xlsx");
 ```
 
-**Penjelasan:** 
+**Magyarázat:** 
 - `Workbook` adalah kelas utama untuk menangani file Excel.
 - Konstruktor memuat berkas yang sudah ada yang ditentukan oleh jalurnya.
 
 ### 2. Mengubah Objek Tabel/Daftar ke Rentang
-#### Ringkasan
+#### Áttekintés
 Ubah objek tabel atau daftar di lembar kerja Anda menjadi rentang reguler untuk manipulasi tingkat lanjut.
 
 **Cuplikan Kode:**
@@ -100,12 +102,12 @@ Workbook wb = new Workbook(dataDir + "book1.xlsx");
 wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - Akses lembar kerja pertama dan objek daftarnya.
-- Menggunakan `convertToRange()` untuk mengubah tabel menjadi rentang data standar.
+- Használat `convertToRange()` untuk mengubah tabel menjadi rentang data standar.
 
 ### 3. Simpan Buku Kerja yang Dimodifikasi
-#### Ringkasan
+#### Áttekintés
 Setelah modifikasi, simpan buku kerja Anda untuk mempertahankan perubahan.
 
 **Cuplikan Kode:**
@@ -113,38 +115,38 @@ Setelah modifikasi, simpan buku kerja Anda untuk mempertahankan perubahan.
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY"; // Tentukan jalur direktori data Anda di sini
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Tentukan jalur direktori keluaran Anda di sini
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Itt adhatja meg a kimeneti könyvtár elérési útját
 Workbook wb = new Workbook(dataDir + "book1.xlsx");
 wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 wb.save(outDir + "ConvertTableToRange_out.xlsx");
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - Panggilan `save()` untuk menulis buku kerja kembali ke disk.
 - Pastikan direktori keluaran diatur dengan benar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa kasus penggunaan praktis untuk fitur ini:
-1. **Pelaporan Data**: Secara otomatis mempersiapkan rentang data sebelum membuat laporan.
-2. **Pemrosesan Batch**: Mengonversi beberapa tabel dalam alur kerja pemrosesan massal.
-3. **Integrasi dengan Basis Data**: Meningkatkan proses impor/ekspor data dengan mengubah struktur tabel ke format yang kompatibel.
+1. **Adatjelentés**: Secara otomatis mempersiapkan rentang data sebelum membuat laporan.
+2. **Kötegelt feldolgozás**: Mengonversi beberapa tabel dalam alur kerja pemrosesan massal.
+3. **Integráció adatbázisokkal**: Meningkatkan proses impor/ekspor data dengan mengubah struktur tabel ke format yang kompatibel.
 4. **Pembersihan Data Otomatis**Mempersiapkan kumpulan data untuk model pembelajaran mesin atau analitik.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells:
-- **Mengoptimalkan Penggunaan Sumber Daya**: Kelola memori dan sumber daya pemrosesan secara efisien, terutama dengan file besar.
+Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
+- **Erőforrás-felhasználás optimalizálása**: Kelola memori dan sumber daya pemrosesan secara efisien, terutama dengan file besar.
 - **Manajemen Memori Java**Gunakan pengumpulan sampah Java dengan bijak untuk menangani manipulasi file Excel dengan lancar.
-- **Praktik Terbaik**Ikuti praktik yang direkomendasikan untuk menangani kumpulan data besar guna mencegah kebocoran atau pelambatan memori.
+- **Bevált gyakorlatok**Ikuti praktik yang direkomendasikan untuk menangani kumpulan data besar guna mencegah kebocoran atau pelambatan memori.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah menguasai dasar-dasar mengonversi tabel Excel menjadi rentang menggunakan Aspose.Cells untuk Java. Langkah selanjutnya melibatkan penjelajahan fitur yang lebih canggih seperti pemformatan, validasi data, dan integrasi dengan aplikasi lain. 
 
 Siap untuk mengembangkan keterampilan Anda lebih jauh? Mulailah bereksperimen dengan berbagai skenario dan lihat bagaimana Aspose.Cells dapat menyederhanakan alur kerja Anda.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Apa saja persyaratan sistem untuk menggunakan Aspose.Cells?**
 - Java Development Kit (JDK) diperlukan, bersama dengan editor kode yang sesuai.
@@ -161,20 +163,23 @@ Siap untuk mengembangkan keterampilan Anda lebih jauh? Mulailah bereksperimen de
 **Q5: Apakah ada batasan kinerja saat mengonversi file Excel berukuran besar?**
 - Kinerjanya secara umum kuat, tetapi pengelolaan sumber daya dan penggunaan memori secara optimal sangat penting untuk kumpulan data yang lebih besar.
 
-## Sumber daya
+## Erőforrás
 
-Jelajahi lebih jauh dengan sumber daya berikut:
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilisan Aspose.Cells Terbaru](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Lisensi](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulai Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Dapatkan Akses Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
+Fedezze fel további információit ezekkel az erőforrásokkal:
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Legújabb Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Licenc vásárlása](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Dapatkan Akses Sementara](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 Manfaatkan Aspose.Cells untuk proyek Java Anda dan sederhanakan cara Anda mengelola file Excel hari ini!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

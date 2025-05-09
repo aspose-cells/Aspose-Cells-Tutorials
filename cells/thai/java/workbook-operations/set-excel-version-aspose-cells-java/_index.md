@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 
 - **ห้องสมุดที่จำเป็น:** รวม Aspose.Cells สำหรับ Java (เวอร์ชัน 25.3 หรือใหม่กว่า) ในโครงการของคุณ
 - **การตั้งค่าสภาพแวดล้อม:** ถือว่ามีความคุ้นเคยกับการพัฒนา Java และระบบการสร้างเช่น Maven หรือ Gradle
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรมภาษา Java โดยเฉพาะหลักการเชิงวัตถุ
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรมภาษา Java โดยเฉพาะหลักการเชิงวัตถุ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -167,6 +169,9 @@ dwb.save(outDir + "outputSpecifyDocumentVersionOfExcelFile.xlsx", dSaveFormat.XL
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

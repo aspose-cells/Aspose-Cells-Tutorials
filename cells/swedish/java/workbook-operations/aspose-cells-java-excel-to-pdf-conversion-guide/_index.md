@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Låt oss gå in på vilka förkunskapskrav som krävs innan vi börjar.
 Innan du börjar arbeta med Aspose.Cells för Java, se till att du har följande:
 - **Java-utvecklingspaket (JDK):** Se till att JDK är installerat på ditt system. Den här handledningen förutsätter att du använder Java 8 eller senare.
 - **Maven/Gradle:** Vi kommer att använda Maven eller Gradle för beroendehantering. Om du inte är bekant med dessa verktyg är det värt att utforska deras dokumentation för installationsanvisningar.
-- **Grundläggande kunskaper i Java:** Det är meriterande om du har kunskaper i Java-programmering, såsom klasser och metoder.
+- **Grundläggande kunskaper i Java:** Det är meriterande med kunskaper i Java-programmering, såsom klasser och metoder.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -172,6 +174,9 @@ A: Absolut! Du kan enkelt iterera över en samling Excel-filer, tillämpa samma 
 A: Aspose.Cells stöder olika språkinställningar, som du kan konfigurera under sparningen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

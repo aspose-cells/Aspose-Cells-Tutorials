@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells Java: Cara Menghentikan Perhitungan Rumus di Buku Kerja Excel
 
-## Perkenalan
+## Bevezetés
 Bayangkan Anda sedang mengerjakan buku kerja Excel yang rumit yang penuh dengan rumus yang rumit, dan tiba-tiba Anda perlu menghentikan proses perhitungan pada titik tertentu tanpa mengganggu seluruh alur kerja. Skenario ini adalah tempat Aspose.Cells untuk Java bersinar, menawarkan kemampuan yang hebat untuk mengelola perhitungan rumus secara efisien. Dalam tutorial ini, kita akan menyelami lebih dalam penerapan "Interrupt Formula Calculation in Workbook" menggunakan Aspose.Cells untuk Java. Dengan memanfaatkan fitur-fiturnya yang tangguh, Anda dapat memperoleh kontrol yang tepat atas proses perhitungan buku kerja Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur dan menggunakan Aspose.Cells untuk Java.
 - Menerapkan monitor perhitungan khusus untuk menghentikan perhitungan rumus.
 - Contoh praktis kapan dan mengapa menggunakan fitur ini.
@@ -24,17 +26,17 @@ Bayangkan Anda sedang mengerjakan buku kerja Excel yang rumit yang penuh dengan 
 
 Mari beralih ke prasyarat yang diperlukan sebelum terjun ke implementasi.
 
-## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+## Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-### Pustaka yang dibutuhkan:
+### Szükséges könyvtárak:
 - **Aspose.Cells untuk Java:** Pastikan versi 25.3 atau yang lebih baru tersedia di proyek Anda.
 
-### Pengaturan Lingkungan:
+### Környezet beállítása:
 - Java Development Kit (JDK) terinstal pada sistem Anda.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse.
 
-### Prasyarat Pengetahuan:
+### Előfeltételek a tudáshoz:
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan untuk mengenali struktur dan rumus buku kerja Excel.
 
@@ -44,7 +46,7 @@ Dengan prasyarat ini terpenuhi, mari siapkan Aspose.Cells untuk Java di lingkung
 Untuk mulai menggunakan Aspose.Cells untuk Java, Anda perlu menambahkannya sebagai dependensi pada proyek Anda. Berikut caranya:
 
 ### Pakar
-Tambahkan cuplikan berikut ke `pom.xml` mengajukan:
+Tambahkan cuplikan berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,17 +56,17 @@ Tambahkan cuplikan berikut ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
-- **Uji Coba Gratis:** Unduh paket uji coba dari situs web Aspose untuk menguji fitur-fiturnya.
-- **Lisensi Sementara:** Dapatkan ini untuk kemampuan pengujian yang diperluas tanpa batasan.
-- **Pembelian:** Dapatkan lisensi penuh untuk penggunaan komersial.
+#### Licencszerzés
+- **Ingyenes próbaverzió:** Unduh paket uji coba dari situs web Aspose untuk menguji fitur-fiturnya.
+- **Ideiglenes engedély:** Dapatkan ini untuk kemampuan pengujian yang diperluas tanpa batasan.
+- **Vásárlás:** Dapatkan lisensi penuh untuk penggunaan komersial.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Untuk menginisialisasi Aspose.Cells, ikuti langkah-langkah berikut:
 ```java
 import com.aspose.cells.*;
@@ -82,11 +84,11 @@ public class Main {
 
 Sekarang setelah kita menyiapkan Aspose.Cells, mari masuk ke panduan implementasi.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Menerapkan Interupsi Perhitungan di Buku Kerja
 Fitur ini memungkinkan Anda untuk menjeda atau menghentikan perhitungan rumus pada sel tertentu. Mari kita uraikan prosesnya:
 
-#### Ringkasan
+#### Áttekintés
 Dengan membuat kelas monitor perhitungan khusus, Anda dapat menyadap dan mengendalikan proses perhitungan berdasarkan kebutuhan Anda.
 
 #### Langkah 1: Tentukan Kelas Monitor Perhitungan Kustom
@@ -105,7 +107,7 @@ class clsCalculationMonitor extends AbstractCalculationMonitor {
     }
 }
 ```
-- **Tujuan:** Metode ini dijalankan sebelum rumus sel dihitung. Metode ini memeriksa apakah sel saat ini cocok dengan kondisi tertentu untuk menghentikan proses.
+- **Cél:** Metode ini dijalankan sebelum rumus sel dihitung. Metode ini memeriksa apakah sel saat ini cocok dengan kondisi tertentu untuk menghentikan proses.
 
 #### Langkah 2: Memuat dan Mengonfigurasi Buku Kerja
 Muat buku kerja Anda dan konfigurasikan dengan opsi perhitungan khusus.
@@ -117,9 +119,9 @@ public void Run() throws Exception {
     wb.calculateFormula(opts);
 }
 ```
-- **Parameternya:** Itu `Workbook` objek mewakili file Excel, dan `CalculationOptions` memungkinkan pengaturan monitor perhitungan kustom.
+- **Paraméterek:** A `Workbook` objek mewakili file Excel, dan `CalculationOptions` memungkinkan pengaturan monitor perhitungan kustom.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 Mengganggu perhitungan rumus bisa sangat berguna dalam beberapa skenario:
 
 1. **Mencegah Loop Tak Terbatas:**
@@ -129,19 +131,19 @@ Mengganggu perhitungan rumus bisa sangat berguna dalam beberapa skenario:
 3. **Buku Kerja Debugging:**
    - Mengisolasi dan mengidentifikasi masalah dalam buku kerja yang kompleks dengan menghentikan perhitungan pada sel yang ditargetkan.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 Mengoptimalkan kinerja sangat penting untuk menangani kumpulan data besar secara efisien:
 
-- **Manajemen Memori:** Gunakan pengumpulan sampah Java secara efektif untuk mengelola sumber daya saat bekerja dengan data yang besar.
+- **Memóriakezelés:** Gunakan pengumpulan sampah Java secara efektif untuk mengelola sumber daya saat bekerja dengan data yang besar.
 - **Desain Formula yang Efisien:** Sederhanakan rumus jika memungkinkan untuk mengurangi beban komputasi.
-- **Pemrosesan Batch:** Bila berlaku, proses perhitungan secara bertahap daripada menghitung keseluruhan buku kerja sekaligus.
+- **Kötegelt feldolgozás:** Bila berlaku, proses perhitungan secara bertahap daripada menghitung keseluruhan buku kerja sekaligus.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami mengeksplorasi cara menerapkan penghentian penghitungan rumus dalam buku kerja menggunakan Aspose.Cells untuk Java. Dengan mengikuti langkah-langkah ini dan memahami aplikasi praktisnya, Anda dapat meningkatkan efisiensi alur kerja secara signifikan saat menangani tugas Excel yang rumit. 
 
 Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur tambahan Aspose.Cells, seperti manipulasi data dan opsi pemformatan lanjutan.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa kegunaan utama penghentian kalkulasi rumus di buku kerja?**
    - Untuk mencegah pengulangan tak terbatas atau waktu pemrosesan yang berlebihan selama perhitungan yang rumit.
 2. **Bagaimana saya dapat memperluas fungsi ini ke skenario lain di luar sel B8?**
@@ -151,19 +153,22 @@ Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur tambahan Aspo
 4. **Dapatkah saya mengintegrasikan Aspose.Cells dengan sistem lain seperti basis data atau aplikasi web?**
    - Ya, mendukung integrasi melalui berbagai antarmuka dan format pemrograman.
 5. **Di mana saya dapat menemukan informasi lebih lanjut tentang fitur lanjutan Aspose.Cells?**
-   - Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk panduan dan contoh yang lengkap.
+   - Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és példákért.
 
-## Sumber daya
-- **Dokumentasi:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Mulai Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung:** [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Legújabb kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Mulai Uji Coba Gratis](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan lengkap ini, Anda kini siap untuk menerapkan dan memanfaatkan fitur interupsi kalkulasi rumus Aspose.Cells for Java secara efektif. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

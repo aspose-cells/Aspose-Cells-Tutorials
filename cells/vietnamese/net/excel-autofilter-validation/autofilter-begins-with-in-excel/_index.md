@@ -1,14 +1,16 @@
 ---
-title: Bộ lọc tự động bắt đầu bằng trong Excel
-linktitle: Bộ lọc tự động bắt đầu bằng trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tự động lọc các hàng Excel bằng Aspose.Cells trong .NET một cách dễ dàng với hướng dẫn từng bước toàn diện này.
-weight: 10
-url: /vi/net/excel-autofilter-validation/autofilter-begins-with-in-excel/
+"description": "Tìm hiểu cách tự động lọc các hàng Excel bằng Aspose.Cells trong .NET một cách dễ dàng với hướng dẫn từng bước toàn diện này."
+"linktitle": "Bộ lọc tự động bắt đầu bằng trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Bộ lọc tự động bắt đầu bằng trong Excel"
+"url": "/vi/net/excel-autofilter-validation/autofilter-begins-with-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bộ lọc tự động bắt đầu bằng trong Excel
@@ -22,10 +24,10 @@ Khi nói đến việc làm việc với dữ liệu, Excel đã khẳng định
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
 1. Môi trường phát triển: Làm quen với môi trường phát triển .NET. Có thể là Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
-2.  Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống một cách thuận tiện[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET. Nếu bạn chưa thực hiện việc này, bạn có thể tải xuống một cách thuận tiện [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# và cách làm việc với thư viện .NET sẽ giúp bạn theo dõi dễ dàng.
-4.  Dữ liệu mẫu: Bạn nên có một tệp Excel, tốt nhất là có tên`sourseSampleCountryNames.xlsx`, nằm trong thư mục nguồn được chỉ định của bạn. Tệp này sẽ chứa dữ liệu chúng tôi sẽ lọc.
-5.  Cấp phép: Để có đầy đủ chức năng, hãy cân nhắc việc mua giấy phép thông qua đây[liên kết](https://purchase.aspose.com/buy) . Nếu bạn muốn kiểm tra các tính năng, bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+4. Dữ liệu mẫu: Bạn nên có một tệp Excel, tốt nhất là có tên `sourseSampleCountryNames.xlsx`, nằm trong thư mục nguồn được chỉ định của bạn. Tệp này sẽ chứa dữ liệu chúng tôi sẽ lọc.
+5. Cấp phép: Để có đầy đủ chức năng, hãy cân nhắc việc mua giấy phép thông qua đây [liên kết](https://purchase.aspose.com/buy). Nếu bạn muốn kiểm tra các tính năng, bạn có thể yêu cầu [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 Bạn đã chuẩn bị xong mọi thứ chưa? Đi thôi!
 
@@ -55,7 +57,7 @@ string sourceDir = "Your Document Directory\\";
 string outputDir = "Your Document Directory\\";
 ```
 
- Giải thích: Ở đây, thay thế`"Your Document Directory\\"` với đường dẫn thực tế đến thư mục của bạn. Đảm bảo kết thúc đường dẫn thư mục bằng dấu gạch chéo ngược kép (`\\`) để tránh mọi vấn đề về đường dẫn.
+Giải thích: Ở đây, thay thế `"Your Document Directory\\"` với đường dẫn thực tế đến thư mục của bạn. Đảm bảo kết thúc đường dẫn thư mục bằng dấu gạch chéo ngược kép (`\\`) để tránh mọi vấn đề về đường dẫn.
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
@@ -66,7 +68,7 @@ Tiếp theo, chúng ta sẽ tạo một đối tượng Workbook trỏ tới t�
 Workbook workbook = new Workbook(sourceDir + "sourseSampleCountryNames.xlsx");
 ```
 
- Giải thích: Dòng này khởi tạo một phiên bản Workbook mới bằng cách sử dụng đường dẫn tệp được chỉ định.`Workbook` lớp này rất cơ bản vì nó đại diện cho toàn bộ tệp Excel.
+Giải thích: Dòng này khởi tạo một phiên bản Workbook mới bằng cách sử dụng đường dẫn tệp được chỉ định. `Workbook` lớp này rất cơ bản vì nó đại diện cho toàn bộ tệp Excel.
 
 ## Bước 3: Truy cập trang tính đầu tiên
 
@@ -77,7 +79,7 @@ Bây giờ, chúng ta cần truy cập vào bảng tính cụ thể mà chúng t
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Giải thích:`Worksheets` bộ sưu tập cho phép chúng ta truy cập vào từng trang tính. Sử dụng`[0]` tham chiếu đến bảng tính đầu tiên trong tệp Excel của bạn, đây thường là thông lệ phổ biến khi làm việc với tệp chỉ có một trang tính.
+Giải thích: `Worksheets` bộ sưu tập cho phép chúng ta truy cập vào từng trang tính. Sử dụng `[0]` tham chiếu đến bảng tính đầu tiên trong tệp Excel của bạn, đây thường là thông lệ phổ biến khi làm việc với tệp chỉ có một trang tính.
 
 ## Bước 4: Thiết lập Bộ lọc tự động
 
@@ -88,7 +90,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.AutoFilter.Range = "A1:A18";
 ```
 
- Giải thích:`AutoFilter.Range` thuộc tính cho phép bạn chỉ định những hàng nào cần lọc. Trong trường hợp này, chúng tôi đang lọc các hàng trong phạm vi A1 đến A18, được cho là chứa dữ liệu của chúng tôi.
+Giải thích: `AutoFilter.Range` thuộc tính cho phép bạn chỉ định những hàng nào cần lọc. Trong trường hợp này, chúng tôi đang lọc các hàng trong phạm vi A1 đến A18, được cho là chứa dữ liệu của chúng tôi.
 
 ## Bước 5: Áp dụng điều kiện lọc
 
@@ -99,7 +101,7 @@ Bước tiếp theo là xác định điều kiện lọc. Chúng tôi muốn ch
 worksheet.AutoFilter.Custom(0, FilterOperatorType.BeginsWith, "Ba");
 ```
 
- Giải thích:`Custom` phương pháp xác định logic lọc của chúng tôi. Đối số đầu tiên (`0` ) cho biết chúng tôi đang lọc dựa trên cột đầu tiên (A) và`FilterOperatorType.BeginsWith` chỉ rõ điều kiện của chúng tôi là tìm kiếm các hàng bắt đầu bằng "Ba".
+Giải thích: `Custom` phương pháp xác định logic lọc của chúng tôi. Đối số đầu tiên (`0`) cho biết chúng tôi đang lọc dựa trên cột đầu tiên (A) và `FilterOperatorType.BeginsWith` chỉ rõ điều kiện của chúng tôi là tìm kiếm các hàng bắt đầu bằng "Ba".
 
 ## Bước 6: Làm mới bộ lọc
 
@@ -121,7 +123,7 @@ Bây giờ là lúc lưu những thay đổi chúng ta đã thực hiện:
 workbook.Save(outputDir + "outSourseSampleCountryNames.xlsx");
 ```
 
- Giải thích:`Save` phương pháp ghi lại Sổ làm việc đã sửa đổi vào đường dẫn đầu ra đã chỉ định. Điều này nằm trong việc ghi các bộ lọc đã xác định của bạn vào một tệp mới để dữ liệu gốc của bạn vẫn còn nguyên vẹn.
+Giải thích: `Save` phương pháp ghi lại Sổ làm việc đã sửa đổi vào đường dẫn đầu ra đã chỉ định. Điều này nằm trong việc ghi các bộ lọc đã xác định của bạn vào một tệp mới để dữ liệu gốc của bạn vẫn còn nguyên vẹn.
 
 ## Bước 8: Xác nhận đầu ra
 
@@ -146,16 +148,18 @@ Tính năng Lọc tự động cho phép người dùng nhanh chóng sắp xếp
 Có, Aspose.Cells hỗ trợ các tùy chọn lọc nâng cao cho phép bạn đặt nhiều tiêu chí.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?  
-Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng bạn vẫn cần phải có giấy phép để sử dụng đầy đủ chức năng và xóa bỏ mọi hạn chế dùng thử.
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng cần phải có giấy phép để sử dụng đầy đủ chức năng và xóa bỏ mọi hạn chế dùng thử.
 
 ### Tôi có thể thực hiện những loại lọc nào khi sử dụng Aspose.Cells?  
 Bạn có thể lọc dữ liệu theo giá trị, điều kiện (như bắt đầu bằng hoặc kết thúc bằng) và lọc tùy chỉnh để đáp ứng các yêu cầu cụ thể của bạn.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells cho .NET ở đâu?  
- Bạn có thể kiểm tra tài liệu[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể kiểm tra tài liệu [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

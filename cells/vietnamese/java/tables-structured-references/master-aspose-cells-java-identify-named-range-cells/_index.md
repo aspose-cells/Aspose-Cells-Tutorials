@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,7 +175,7 @@ Xin chúc mừng! Bạn đã triển khai thành công Aspose.Cells cho Java đ�
 ## Phần Câu hỏi thường gặp
 
 1. **Phạm vi được đặt tên trong Excel là gì?**
-   - Phạm vi được đặt tên sẽ gán tên cho một ô, nhóm ô, hàng, cột hoặc thậm chí là một phạm vi phức tạp.
+   - Một phạm vi được đặt tên sẽ gán tên cho một ô, nhóm ô, hàng, cột hoặc thậm chí là một phạm vi phức tạp.
 
 2. **Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?**
    - Có! Aspose.Cells hỗ trợ nhiều ngôn ngữ bao gồm .NET, C++ và Python.
@@ -198,6 +200,9 @@ Xin chúc mừng! Bạn đã triển khai thành công Aspose.Cells cho Java đ�
 Hãy bắt đầu hành trình cùng Aspose.Cells và đưa các ứng dụng Java của bạn lên tầm cao mới!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 ### 先決條件
 
 要遵循本教程，您需要：
-- **Aspose.Cells for Java** 庫（版本 25.3 或更新版本）
+- **Aspose.Cells for Java** 庫（25.3 或更新版本）
 - 對 Java 程式設計有基本的了解
 - 用於開發的 IDE，例如 IntelliJ IDEA 或 Eclipse
 - 您的系統上安裝了 Maven 或 Gradle 建置工具
@@ -112,7 +114,7 @@ public class FeatureLoadWorkbook {
 1. **訪問工作表**
    透過索引或名稱檢索工作表。
    
-2. **創建範圍**
+2. **建立範圍**
    使用儲存格參考定義一個範圍來封裝一個儲存格區塊。
 
 ```java
@@ -145,7 +147,7 @@ public class FeatureAccessWorksheetAndRange {
 ##### 逐步實施
 
 1. **檢索超連結**
-   使用 `getHyperlinks()` 方法在一個範圍內取得所有超連結。
+   使用 `getHyperlinks()` 方法在一定範圍內取得所有超連結。
    
 2. **處理每個超鏈接**
    迭代檢索到的超鏈接，提取顯示文字和鏈接類型等資訊。
@@ -215,6 +217,9 @@ A1：Aspose.Cells for Java 支援 Java 8 及更高版本。確保您的環境配
 A2：是的，透過專注於特定範圍或工作表，即使檔案較大，您也可以優化效能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kötegelt Excel-feldolgozás
@@ -109,9 +111,11 @@ Az Aspose.Cells for Java segítségével automatizált kötegelt Excel-feldolgoz
    Tekintse meg az API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és példákért.
 
 Optimalizálja kötegelt Excel-feldolgozási feladatait és növelje a termelékenységet az Aspose.Cells for Java használatával.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

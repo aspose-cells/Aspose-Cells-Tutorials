@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Nästa steg kan inkludera att utforska andra funktioner som diagramintegration e
 Den här guiden bör ge dig möjlighet att utnyttja Aspose.Cells fulla potential för Java för att effektivt konfigurera pivottabeller. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

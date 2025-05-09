@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Etapas de aquisição de licença
 
 1. **Teste grátis**: Comece baixando uma versão de avaliação gratuita em [Página de lançamento da Aspose](https://releases.aspose.com/cells/java/). Isso permitirá que você teste todos os recursos sem limitações.
-2. **Licença Temporária**:Para testes prolongados, solicite uma licença temporária através de [Portal de compras da Aspose](https://purchase.aspose.com/temporary-license/).
+2. **Licença Temporária**: Para testes prolongados, solicite uma licença temporária através de [Portal de compras da Aspose](https://purchase.aspose.com/temporary-license/).
 3. **Comprar**:Se estiver satisfeito com o teste, considere comprar uma licença completa para uso em produção.
 
 Depois de obter seu arquivo de licença, siga estas etapas para inicializar o Aspose.Cells no seu projeto Java:
@@ -167,6 +169,9 @@ Os próximos passos podem incluir explorar outros recursos, como integração de
 Este guia deve capacitá-lo a aproveitar todo o potencial do Aspose.Cells para Java na configuração eficaz de Tabelas Dinâmicas. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

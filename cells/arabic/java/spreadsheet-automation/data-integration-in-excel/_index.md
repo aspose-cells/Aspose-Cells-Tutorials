@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تكامل البيانات في Excel
@@ -109,9 +111,11 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 على الرغم من أن Aspose.Cells for Java يعد خيارًا قويًا، فإن البدائل مثل Apache POI توفر أيضًا إمكانيات التكامل مع Excel.
 
 سيساعدك هذا الدليل الشامل على إتقان دمج البيانات في Excel باستخدام Aspose.Cells لجافا. لا تتردد في الاستكشاف أكثر وتعديل هذه الخطوات لتناسب احتياجاتك. نتمنى لك دمج بيانات ممتعًا!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

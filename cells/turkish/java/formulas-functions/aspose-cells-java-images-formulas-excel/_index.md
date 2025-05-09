@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,7 +237,7 @@ pic.setFormula("A1:C10");
 
 #### Genel bakış
 
-Şekillerde yapılan değişikliklerin çalışma kitabınıza doğru şekilde yansıtıldığından emin olun.
+Şekillerde yaptığınız değişikliklerin çalışma kitabınıza doğru şekilde yansıdığından emin olun.
 
 #### Adım Adım Uygulama
 
@@ -301,6 +303,9 @@ workbook.save(outDir + "IPCellReference_out.xlsx");
 - En son özelliklerden ve performans iyileştirmelerinden yararlanmak için Aspose.Cells'i düzenli olarak güncelleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

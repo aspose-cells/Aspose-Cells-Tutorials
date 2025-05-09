@@ -1,14 +1,16 @@
 ---
-title: Excel Çalışma Sayfasındaki Hücreleri Koru
-linktitle: Excel Çalışma Sayfasındaki Hücreleri Koru
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu ayrıntılı kılavuzda, kod örnekleriyle birlikte Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli hücreleri nasıl koruyacağınızı öğrenin.
-weight: 30
-url: /tr/net/protect-excel-file/protect-cells-in-excel-worksheet/
+"description": "Bu ayrıntılı kılavuzda, kod örnekleriyle birlikte Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli hücreleri nasıl koruyacağınızı öğrenin."
+"linktitle": "Excel Çalışma Sayfasındaki Hücreleri Koru"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Çalışma Sayfasındaki Hücreleri Koru"
+"url": "/tr/net/protect-excel-file/protect-cells-in-excel-worksheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Çalışma Sayfasındaki Hücreleri Koru
@@ -22,7 +24,7 @@ Günümüzün dijital dünyasında, verileri elektronik tablolarda güvenli bir 
 Hücreleri korumanın inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için birincil IDE'dir.
-2.  Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olması gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla kolayca yükleyebilir veya doğrudan şuradan indirebilirsiniz:[Aspose.Cells sitesi](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olması gerekir. Bunu NuGet Paket Yöneticisi aracılığıyla kolayca yükleyebilir veya doğrudan şuradan indirebilirsiniz: [Aspose.Cells sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya dair biraz bilgi sahibi olmak, konuyu rahatça takip etmenize yardımcı olacaktır.
 
 ## Paketleri İçe Aktarma
@@ -131,7 +133,7 @@ Kilitlemeyi uygulamak için, tüm sayfayı korumalısınız. Bu, aşağıdaki ko
 sheet.Protect(ProtectionType.All);
 ```
 
- Arayarak`Protect` Bu yöntemle Excel'e, koruma kaldırılmadığı sürece herhangi bir değişikliği engellemesini söylüyorsunuz.
+Arayarak `Protect` Bu yöntemle Excel'e, koruma kaldırılmadığı sürece herhangi bir değişikliği engellemesini söylüyorsunuz.
 
 ## Adım 7: Çalışma Kitabını Kaydetme
 
@@ -156,16 +158,18 @@ Aspose.Cells, .NET dillerini kullanarak farklı formatlardaki Excel dosyaların�
 Kesinlikle! İstediğiniz her hücre için hücre kilitleme adımlarını tekrarlayarak istediğiniz kadar hücreyi kilitleyebilirsiniz.
 
 ### Aspose.Cells ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım lisans gerektiriyor. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım lisans gerektiriyor. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Dokümantasyonu nerede bulabilirim?
- Belgeler bulunabilir[Burada](https://reference.aspose.com/cells/net/).
+Belgeler bulunabilir [Burada](https://reference.aspose.com/cells/net/).
 
 ### Excel dosyalarını hangi dosya biçimlerinde kaydedebilirim?
 Aspose.Cells, XLSX, XLS, CSV ve daha fazlası dahil olmak üzere birden fazla formatı destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

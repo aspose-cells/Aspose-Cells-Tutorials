@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ opts.setLookInType(LookInType.VALUES); // 僅在單元格值內搜尋
 opts.setLookAtType(LookAtType.ENTIRE_CONTENT); // 匹配單元格的全部內容
 opts.setRange(area); // 將搜尋限制在定義區域內
 ```
-#### 步驟3：執行搜尋和替換
+#### 步驟 3：執行搜尋和替換
 實作一個循環來尋找所有出現的情況並取代它們：
 ```java
 Cell cell = null;
@@ -124,6 +126,9 @@ workbook.save("SRDataInRange_out.xlsx");
 如有任何疑問，請訪問 [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

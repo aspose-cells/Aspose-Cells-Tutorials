@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Strategie di blocco cellulare
@@ -105,7 +107,7 @@ Con questa singola riga di codice puoi proteggere l'intero foglio di lavoro da q
 
 ## Scenari di blocco delle celle personalizzati
 
-requisiti specifici del tuo progetto potrebbero richiedere strategie di blocco delle celle uniche. Aspose.Cells per Java offre la flessibilità necessaria per soddisfare scenari personalizzati. Che tu debba bloccare le celle in base all'input dell'utente o adattare dinamicamente le regole di blocco, puoi farlo grazie alle ampie funzionalità dell'API.
+I requisiti specifici del tuo progetto potrebbero richiedere strategie di blocco delle celle uniche. Aspose.Cells per Java offre la flessibilità necessaria per soddisfare scenari personalizzati. Che tu debba bloccare le celle in base all'input dell'utente o adattare dinamicamente le regole di blocco, puoi farlo grazie alle ampie funzionalità dell'API.
 
 ## Migliori pratiche
 
@@ -142,6 +144,7 @@ Per garantire l'efficacia delle strategie di blocco delle celle, testatele atten
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

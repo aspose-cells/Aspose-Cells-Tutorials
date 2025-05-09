@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ Bontsuk le a megvalósítást kezelhető funkciókra:
 
 ### 1. funkció: Munkafüzet létrehozása és inicializálása
 
-**Áttekintés**: Ez a funkció bemutatja, hogyan hozhat létre Excel-munkafüzetet és hogyan inicializálhatja a munkalapokat.
+**Áttekintés**Ez a funkció bemutatja, hogyan hozhat létre Excel-munkafüzetet és hogyan inicializálhatja a munkalapokat.
 
 #### Új munkafüzet létrehozása
 ```java
@@ -214,6 +216,9 @@ Most már elsajátítottad az Excel-munkafüzetek létrehozását és kezelésé
    - Abszolút! Az Aspose.Cells számos formátumot támogat, beleértve az XLS-t és a CSV-t is.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parametrar och metoder
 - **Arbetsbok**Representerar hela Excel-filen.
-- **Arbetsblad**: Refererar till ett enda blad i arbetsboken.
+- **Arbetsblad**Refererar till ett enda blad i arbetsboken.
 - **Trådad kommentarsamling**En samling kommentarer associerade med en cell.
 
 ## Praktiska tillämpningar
@@ -148,6 +150,9 @@ Redo att dyka djupare? Försök att implementera den här lösningen i dina egna
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

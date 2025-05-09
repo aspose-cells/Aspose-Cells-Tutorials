@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ public class SetDocumentProperties {
 
 **Шаг 3: Установите свойство «ScaleCrop»**
 ```java
-        // Включить масштабирование для улучшения макетов печати
+        // Включите масштабную обрезку для улучшения макетов печати
         props.setScaleCrop(true);
 ```
 
@@ -185,6 +187,9 @@ public class SetDocumentProperties {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

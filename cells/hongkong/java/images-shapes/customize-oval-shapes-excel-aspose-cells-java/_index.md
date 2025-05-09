@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ excelbook.save("YOUR_OUTPUT_DIRECTORY/AddingAnOvalShape_out.xls");
 透過遵循本指南，您現在可以使用 Aspose.Cells for Java 透過自訂形狀增強您的 Excel 電子表格。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

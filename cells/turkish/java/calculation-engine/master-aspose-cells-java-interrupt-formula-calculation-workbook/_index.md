@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ Bir sonraki adım olarak Aspose.Cells'in veri işleme ve gelişmiş biçimlendir
 Bu kapsamlı kılavuzu takip ederek, artık Aspose.Cells for Java'nın formül hesaplama kesintisi özelliklerini etkili bir şekilde uygulamak ve bunlardan yararlanmak için donanımlısınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

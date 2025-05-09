@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
 **บันทึกสมุดงาน:**
-บันทึกสมุดงานที่อัปเดต:
+บันทึกสมุดงานที่อัพเดต:
 ```java
 wb.save(outDir + "outputSheetId.xlsx");
 ```
@@ -212,6 +214,9 @@ wb.save(outDir + "outputSheetId.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

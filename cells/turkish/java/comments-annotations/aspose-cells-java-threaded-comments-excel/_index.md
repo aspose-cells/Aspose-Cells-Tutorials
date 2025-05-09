@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ public class AddThreadedCommentAuthor {
 - **Amaç**: Bu adım, iş parçacıklı yorumlar için bir yazar nesnesi oluşturur ve yorumları belirli kullanıcılara atamanıza olanak tanır.
 ### Bir Hücreye Konulu Yorum Ekleme
 **Genel bakış**:Çalışma kitabında bağlam veya geri bildirim sağlamak için hücrelere doğrudan yorum eklemek hayati önem taşır.
-#### Çalışma Kitabını ve Yazarı Ayarla
+#### Çalışma Kitabı ve Yazarı Ayarla
 ```java
 import com.aspose.cells.ThreadedCommentAuthor;
 import com.aspose.cells.Workbook;
@@ -165,6 +167,9 @@ C2: Daha önce gösterildiği gibi Maven veya Gradle bağımlılıklarını kull
 C3: Evet, Excel çalışma kitabınızdaki çeşitli yorumcuları yönetmek için birden fazla yazar ekleyebilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

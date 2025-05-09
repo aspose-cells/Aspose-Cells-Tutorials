@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Fedezze fel tovább ezeket a technikákat nagyobb alkalmazásokba integrálva, v
 Kezdje el utazását még ma az Aspose.Cells for Java segítségével, és alakítsa át az Excel-munkafüzetek kezelését az alkalmazásaiban!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

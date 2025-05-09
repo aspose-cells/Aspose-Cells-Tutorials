@@ -1,39 +1,41 @@
 ---
-title: Lezen en schrijven van externe verbinding van XLSB-bestand
-linktitle: Lezen en schrijven van externe verbinding van XLSB-bestand
-second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u externe verbindingen in XLSB-bestanden kunt lezen en schrijven met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie.
-weight: 24
-url: /nl/net/workbook-operations/read-and-write-external-connection/
+"description": "Leer hoe u externe verbindingen in XLSB-bestanden kunt lezen en schrijven met Aspose.Cells voor .NET met deze stapsgewijze zelfstudie."
+"linktitle": "Lezen en schrijven van externe verbinding van XLSB-bestand"
+"second_title": "Aspose.Cells .NET Excel-verwerkings-API"
+"title": "Lezen en schrijven van externe verbinding van XLSB-bestand"
+"url": "/nl/net/workbook-operations/read-and-write-external-connection/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lezen en schrijven van externe verbinding van XLSB-bestand
 
 ## Invoering
 
-Werkt u met Excel-bestanden en moet u externe verbindingen beheren? Als u vaak verstrikt raakt in gegevensbeheer, met name met Excel-bestanden zoals XLSB, dan staat u een traktatie te wachten. In deze gids duiken we diep in de mogelijkheden van Aspose.Cells voor .NET. We zullen specifiek onderzoeken hoe u externe verbindingen in XLSB-bestanden kunt lezen en schrijven. Of u nu een doorgewinterde ontwikkelaar bent of een nieuwsgierige beginner, u vindt hier bruikbare inzichten die u tijd kunnen besparen en uw Excel-beheerspel naar een hoger niveau kunnen tillen. Dus laten we de mouwen opstropen en aan de slag gaan!
+Werk je met Excel-bestanden en moet je externe verbindingen beheren? Als je vaak verstrikt raakt in gegevensbeheer, met name met Excel-bestanden zoals XLSB, dan staat je een verrassing te wachten. In deze handleiding duiken we dieper in de mogelijkheden van Aspose.Cells voor .NET. We zullen specifiek ingaan op het lezen en schrijven van externe verbindingen in XLSB-bestanden. Of je nu een ervaren ontwikkelaar bent of een nieuwsgierige beginner, je vindt hier bruikbare inzichten die je tijd kunnen besparen en je Excel-beheer naar een hoger niveau kunnen tillen. Dus, laten we de handen uit de mouwen steken en aan de slag gaan!
 
 ## Vereisten
 
-Voordat we aan deze reis beginnen, zorgen we ervoor dat je alles hebt wat je nodig hebt. Hier is een eenvoudige checklist met vereisten om je te helpen voorbereiden:
+Voordat we aan deze reis beginnen, zorgen we ervoor dat je alles hebt wat je nodig hebt. Hier is een eenvoudige checklist met vereisten om je te helpen bij de voorbereiding:
 
-1. Visual Studio: Zorg ervoor dat u een werkende versie van Visual Studio op uw computer hebt geïnstalleerd. U codeert in C# terwijl we met Aspose.Cells werken.
+1. Visual Studio: Zorg ervoor dat je een werkende versie van Visual Studio op je computer hebt geïnstalleerd. Je codeert in C# terwijl we met Aspose.Cells werken.
    
-2.  Aspose.Cells voor .NET: U hebt de Aspose.Cells-bibliotheek nodig. Als u deze nog niet hebt, kunt u deze eenvoudig downloaden[download het hier](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells voor .NET: Je hebt de Aspose.Cells-bibliotheek nodig. Als je deze nog niet hebt, kun je deze eenvoudig downloaden. [download het hier](https://releases.aspose.com/cells/net/). 
 
-3. XLSB-bestand: Zorg dat u een voorbeeld-XLSB-bestand bij de hand hebt om te testen. U kunt er een maken vanuit Excel als u er geen bij de hand hebt.
+3. XLSB-bestand: Zorg dat u een voorbeeld-XLSB-bestand bij de hand hebt om te testen. U kunt er een maken vanuit Excel als u geen bestaand bestand bij de hand hebt.
 
-4. Basiskennis programmeren: Een beetje bekendheid met C# helpt u de codefragmenten die we gaan bespreken, te begrijpen.
+4. Basiskennis programmeren: enige bekendheid met C# helpt u de codefragmenten te begrijpen die we gaan bespreken.
 
-Zodra u deze taken hebt afgevinkt, kunnen we beginnen met het lezen en aanpassen van externe verbindingen in XLSB-bestanden!
+Zodra je deze taken hebt afgevinkt, kunnen we aan de slag met het lezen en aanpassen van externe verbindingen in XLSB-bestanden!
 
 ## Pakketten importeren
 
-Om te beginnen moet u de benodigde naamruimten importeren. Het volgende codefragment moet bovenaan uw C#-bestand staan. Deze naamruimten geven u toegang tot de Aspose.Cells-functionaliteit en helpen u uw toepassing correct te structureren.
+Om te beginnen moet u de benodigde naamruimten importeren. Het volgende codefragment zou bovenaan uw C#-bestand moeten staan. Deze naamruimten geven u toegang tot de Aspose.Cells-functionaliteit en helpen u bij het correct structureren van uw applicatie.
 
 ```csharp
 using System;
@@ -60,16 +62,16 @@ Laten we vervolgens het XLSB-bestand laden dat onze externe verbindingen bevat. 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
-Het laden van de werkmap is vergelijkbaar met het openen van uw favoriete boek – het geeft u toegang tot alle geweldige content erin. Zorg er alleen voor dat u het juiste bestandspad hebt!
+Het laden van de werkmap is vergelijkbaar met het openen van je favoriete boek: het geeft je toegang tot alle prachtige inhoud erin. Zorg er wel voor dat je het juiste bestandspad hebt!
 
 ## Stap 3: Databaseverbinding ophalen
 
-Nu moeten we toegang krijgen tot de externe verbindingen die aanwezig zijn in de werkmap. We zijn vooral geïnteresseerd in de databaseverbinding.
+Nu moeten we toegang krijgen tot de externe verbindingen in de werkmap. We zijn met name geïnteresseerd in de databaseverbinding.
 
 ```csharp
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
-Hier vragen we de werkmap om zijn eerste dataverbinding te onthullen. Zie het als het kijken onder een deksel om te zien wat erin zit; je graaft de databaseverbinding op die mogelijk kritieke data bevat.
+Hier vragen we de werkmap om de eerste gegevensverbinding te onthullen. Zie het als een blik onder een deksel om te zien wat erin zit; je ontdekt de databaseverbinding die mogelijk cruciale gegevens bevat.
 
 ## Stap 4: Verbindingsgegevens afdrukken
 
@@ -80,16 +82,16 @@ Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
 ```
-Dit helpt je te begrijpen waar je mee werkt. Stel je voor dat je de sleutels van een afgesloten kamer krijgt voordat je besluit de sloten te vervangen.
+Dit helpt je te begrijpen waar je mee bezig bent. Stel je voor dat je de sleutels van een afgesloten kamer krijgt voordat je besluit de sloten te vervangen.
 
 ## Stap 5: Wijzig de verbindingsnaam
 
-Nu is het tijd voor wat actie! Laten we de naam van de databaseverbinding veranderen naar iets relevanters.
+Nu is het tijd voor actie! Laten we de naam van de databaseverbinding wijzigen naar iets relevanters.
 
 ```csharp
 dbCon.Name = "NewCust";
 ```
-Deze verandering is alsof je je favoriete plant een nieuwe naam geeft nadat je hem hebt verpot. Het helpt je om alles georganiseerd en relevant te houden.
+Deze verandering is vergelijkbaar met het geven van een nieuwe naam aan je favoriete plant nadat je hem hebt verpot. Het helpt je om alles overzichtelijk en relevant te houden.
 
 ## Stap 6: Sla het gewijzigde XLSB-bestand op
 
@@ -111,7 +113,7 @@ Dit is de kers op de taart! Het stelt je gerust dat de operatie die je net hebt 
 
 ## Conclusie
 
-In deze handleiding hebben we het ingewikkelde proces van het lezen en schrijven van externe verbindingen in XLSB-bestanden met Aspose.Cells voor .NET doorlopen. Van het instellen van de benodigde mappen en het laden van uw werkmappen tot het openen, wijzigen en opslaan van verbindingsdetails, u hebt nu waardevolle vaardigheden binnen handbereik. Aspose.Cells maakt werken met Excel een fluitje van een cent, zodat u zich meer kunt richten op gegevensbeheer en minder op technische problemen.
+In deze handleiding hebben we het ingewikkelde proces van het lezen en schrijven van externe verbindingen in XLSB-bestanden met Aspose.Cells voor .NET doorlopen. Van het instellen van de benodigde mappen en het laden van uw werkmappen tot het openen, wijzigen en opslaan van verbindingsgegevens: u hebt nu waardevolle vaardigheden binnen handbereik. Aspose.Cells maakt werken met Excel een fluitje van een cent, zodat u zich meer kunt richten op gegevensbeheer en minder op technische problemen.
 
 ## Veelgestelde vragen
 
@@ -119,19 +121,21 @@ In deze handleiding hebben we het ingewikkelde proces van het lezen en schrijven
 Een XLSB-bestand is een binair Excel-bestand waarin spreadsheetgegevens in een binaire indeling worden opgeslagen. Hierdoor is het compacter en sneller te openen dan traditionele XLSX-bestanden.
 
 ### Heb ik een speciale licentie nodig voor Aspose.Cells?  
- Ja, Aspose.Cells vereist een licentie voor volledige functionaliteit. U kunt het evalueren met een gratis proefversie die beschikbaar is[hier](https://releases.aspose.com/).
+Ja, Aspose.Cells vereist een licentie voor volledige functionaliteit. U kunt het uitproberen met een gratis proefversie. [hier](https://releases.aspose.com/).
 
 ### Kan ik met Aspose.Cells toegang krijgen tot andere externe gegevensbronnen dan databases?  
-Absoluut! Aspose.Cells ondersteunt verschillende externe dataverbindingen, waaronder OLEDB en ODBC. 
+Absoluut! Aspose.Cells ondersteunt diverse externe dataverbindingen, waaronder OLEDB en ODBC. 
 
 ### Bestaat er een communityforum voor Aspose.Cells-gebruikers?  
- Ja! Je kunt meedoen met de[Aspose.Cells Ondersteuningsforum](https://forum.aspose.com/c/cells/9) om met andere gebruikers in contact te komen en hulp te vragen.
+Ja! Je kunt meedoen met de [Aspose.Cells Ondersteuningsforum](https://forum.aspose.com/c/cells/9) om met andere gebruikers in contact te komen en hulp te vragen.
 
 ### Kan ik een tijdelijke licentie voor Aspose.Cells krijgen?  
- Ja, Aspose biedt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor gebruikers die de software willen evalueren voordat ze deze kopen.
+Ja, Aspose biedt een [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor gebruikers die de software willen evalueren voordat ze deze kopen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

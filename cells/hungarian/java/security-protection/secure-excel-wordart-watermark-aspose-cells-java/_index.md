@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Az Aspose.Cells Java projektekben való használatához függőségként kell be
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió**Töltsd le és teszteld az Aspose.Cells-t egy ideiglenes licenccel a következő címről: [ingyenes próbaoldal](https://releases.aspose.com/cells/java/).
 2. **Ideiglenes engedély**Szerezzen be egyet a következő címen: [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) a teljes funkcionalitás eléréséhez a próbaidőszak alatt.
 3. **Vásárlás**Hosszú távú használathoz vásároljon előfizetést a következő helyről: [Aspose vásárlási portál](https://purchase.aspose.com/buy).
@@ -178,7 +180,7 @@ Próbálja ki a megoldás bevezetését még ma, és nézze meg, hogyan alakítj
    - Igen, támogatja a védett munkafüzetek megnyitását és kezelését a megfelelő licencekkel.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -186,6 +188,9 @@ Próbálja ki a megoldás bevezetését még ma, és nézze meg, hogyan alakítj
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

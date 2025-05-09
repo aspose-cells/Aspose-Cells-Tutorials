@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,7 +199,7 @@ Utforska ytterligare funktioner i Aspose.Cells, som till exempel diagramskapande
 
 Försök att implementera dessa anpassningar i dina projekt och se hur de förbättrar din datapresentation!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Hur installerar jag Aspose.Cells för Java?**
    - Använd Maven- eller Gradle-beroenden enligt beskrivningen ovan.
@@ -226,6 +228,9 @@ Försök att implementera dessa anpassningar i dina projekt och se hur de förb�
 Ge dig ut på din resa med Aspose.Cells idag och förändra hur du hanterar kalkylbladsdata!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

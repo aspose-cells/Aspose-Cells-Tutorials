@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
 #### Bước 2: Truy cập Bộ sưu tập bảng tính
-Các tệp Excel có thể chứa nhiều trang tính. Truy xuất tất cả các trang tính bằng cách sử dụng `WorksheetCollection`.
+Các tệp Excel có thể chứa nhiều trang tính. Lấy tất cả các trang tính bằng cách sử dụng `WorksheetCollection`.
 
 ```java
 // Nhận tham chiếu đến đối tượng Worksheets, chứa tất cả các trang tính trong sổ làm việc
@@ -162,6 +164,9 @@ Tối ưu hóa hiệu suất là điều quan trọng khi xử lý các tệp Ex
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

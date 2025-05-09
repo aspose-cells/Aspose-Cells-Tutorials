@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Bạn đã bao giờ thấy mình chìm trong dữ liệu, vật lộn để tr�
 - Cách khởi tạo bảng tính và thêm trang tính.
 - Các kỹ thuật tạo và cấu hình bảng trục.
 - Phương pháp làm mới và tính toán dữ liệu trong bảng tổng hợp.
-- Các bước để lưu công việc hiệu quả.
+- Các bước lưu công việc hiệu quả.
 
 Bạn đã sẵn sàng bước vào thế giới thao tác dữ liệu chưa? Hãy bắt đầu bằng cách đảm bảo bạn đã chuẩn bị mọi thứ!
 
@@ -87,7 +89,7 @@ public class AsposeSetup {
 
 Bây giờ, chúng ta hãy cùng khám phá cách thiết lập và thao tác bảng trục trong ứng dụng Java của bạn.
 
-### Thiết lập bảng tính và bảng tính
+### Thiết lập một bảng tính và bảng tính
 
 **Tổng quan**: Bắt đầu bằng cách khởi tạo một sổ làm việc mới và thêm một trang tính. Đây là nơi chúng ta sẽ tạo bảng trục.
 
@@ -247,6 +249,9 @@ Bây giờ bạn đã nắm vững những điều cơ bản về thiết lập 
 Bằng cách làm theo hướng dẫn toàn diện này, bạn sẽ có thể tận dụng tốt các tính năng mạnh mẽ của Aspose.Cells for Java trong các dự án dựa trên dữ liệu của mình. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

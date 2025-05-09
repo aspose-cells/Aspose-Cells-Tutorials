@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ A következő lépések magukban foglalhatják az Aspose.Cells által biztosíto
 4. **Milyen gyakori problémák merülhetnek fel az Aspose.Cells beállításakor?**
    - Győződjön meg arról, hogy a projekt függőségei között szerepel a megfelelő könyvtárverzió. Ellenőrizze, hogy a licencfájl (ha van) megfelelően van-e konfigurálva.
 5. **Hol találok részletesebb dokumentációt az Aspose.Cells-ről?**
-   - Látogassa meg a [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/) átfogó útmutatókért és API-referenciákért.
+   - Látogassa meg a [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/) átfogó útmutatókért és API-referenciákért.
 
 ## Erőforrás
 - **Dokumentáció:** https://reference.aspose.com/cells/java/
@@ -187,6 +189,9 @@ A következő lépések magukban foglalhatják az Aspose.Cells által biztosíto
 - **Támogatás:** https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

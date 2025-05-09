@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dataintegration i Excel
@@ -24,7 +26,7 @@ Excel är ett mångsidigt verktyg för datamanipulation, men att integrera data 
 
 Innan du börjar med dataintegration måste du konfigurera Aspose.Cells för Java. Du kan ladda ner biblioteket från [här](https://releases.aspose.com/cells/java/)Följ installationsanvisningarna för att komma igång.
 
-## 3. Ladda data till Excel
+## 3. Ladda in data i Excel
 
 För att integrera data måste du först ladda in dem i ett Excel-ark. Här är ett Java-kodavsnitt för att komma igång:
 
@@ -109,9 +111,11 @@ Absolut! Aspose.Cells för Java tillhandahåller ett kraftfullt API för automat
 Även om Aspose.Cells för Java är ett robust val, erbjuder alternativ som Apache POI även Excel-integrationsfunktioner.
 
 Den här omfattande guiden bör hjälpa dig att bemästra dataintegration i Excel med Aspose.Cells för Java. Utforska gärna vidare och anpassa dessa steg till dina specifika behov. Lycka till med dataintegrationen!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

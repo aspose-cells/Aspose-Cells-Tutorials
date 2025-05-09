@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Membuat Bagan Dinamis dengan Penanda Cerdas Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 Membuat bagan dinamis berdasarkan data di Excel dapat menjadi rumit tanpa alat yang tepat. **Aspose.Cells untuk Java** menyederhanakan proses ini menggunakan penanda cerdas—placeholder yang mengotomatiskan pengikatan data dan pembuatan bagan. Tutorial ini akan memandu Anda membuat lembar kerja, mengisinya dengan data dinamis menggunakan penanda cerdas, mengubah nilai string menjadi numerik, dan membuat bagan yang informatif.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java
 - Membuat dan memberi nama lembar kerja secara terprogram
 - Menempatkan dan mengonfigurasi penanda pintar dalam sel
@@ -24,12 +26,12 @@ Membuat bagan dinamis berdasarkan data di Excel dapat menjadi rumit tanpa alat y
 - Mengonversi nilai string menjadi numerik untuk pembuatan grafik
 - Menambahkan dan menyesuaikan grafik
 
-Mari kita tinjau prasyaratnya sebelum kita mulai.
+Mielőtt belekezdenénk, tekintsük át az előfeltételeket.
 
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
+## Előfeltételek
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak, verziók és függőségek
 Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru. Sertakan pustaka ini dalam proyek Anda menggunakan Maven atau Gradle seperti yang ditunjukkan di bawah ini:
 
 **Pakar:**
@@ -46,39 +48,39 @@ Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru. Sertaka
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 Pastikan Anda telah menginstal Java Development Kit (JDK) dan IDE seperti IntelliJ IDEA atau Eclipse untuk pengembangan kode.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java, alat bantu pembangunan Maven/Gradle, dan keakraban dengan file Excel akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
 Untuk mulai menggunakan Aspose.Cells untuk Java:
 
-1. **Instalasi**: Tambahkan ketergantungan pada proyek Anda `pom.xml` (Maven) atau `build.gradle` (Gradle) seperti yang ditunjukkan di atas.
-2. **Akuisisi Lisensi**:
-   - Unduh [uji coba gratis](https://releases.aspose.com/cells/java/) untuk fungsionalitas terbatas.
-   - Untuk akses penuh, pertimbangkan untuk memperoleh lisensi sementara melalui [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/), atau membeli lisensi dari [Portal pembelian Aspose](https://purchase.aspose.com/buy).
-3. **Inisialisasi Dasar**: 
+1. **Telepítés**: Tambahkan ketergantungan pada proyek Anda `pom.xml` (Maven) atau `build.gradle` (Gradle) seperti yang ditunjukkan di atas.
+2. **Licencszerzés**:
+   - Unduh [ingyenes próba](https://releases.aspose.com/cells/java/) untuk fungsionalitas terbatas.
+   - Untuk akses penuh, pertimbangkan untuk memperoleh lisensi sementara melalui [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/), atau membeli lisensi dari [Az Aspose vásárlási portálja](https://purchase.aspose.com/buy).
+3. **Alapvető inicializálás**: 
    ```java
    import com.aspose.cells.Workbook;
    
    public class AsposeCellsSetup {
        public static void main(String[] args) throws Exception {
-           Workbook workbook = new Workbook(); // Inisialisasi Buku Kerja baru
+           Workbook workbook = new Workbook(); // Új munkafüzet inicializálása
            System.out.println("Aspose.Cells for Java initialized successfully!");
        }
    }
    ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita uraikan implementasinya ke dalam beberapa bagian yang dapat dikelola, dengan fokus pada fitur-fitur utama.
 
 ### Membuat dan Memberi Nama Lembar Kerja
-#### Ringkasan
+#### Áttekintés
 Mulailah dengan membuat contoh buku kerja baru dan mengakses lembar kerja pertamanya. Ubah nama lembar ini agar lebih sesuai dengan konteks data Anda.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 1. **Buat Buku Kerja dan Akses Lembar Pertama**: 
    ```java
    import com.aspose.cells.Workbook;
@@ -94,10 +96,10 @@ Mulailah dengan membuat contoh buku kerja baru dan mengakses lembar kerja pertam
    ```
 
 ### Tempatkan Penanda Cerdas di Sel
-#### Ringkasan
+#### Áttekintés
 Penanda pintar berfungsi sebagai pengganti yang secara dinamis diganti dengan data aktual saat diproses.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 1. **Akses Sel Buku Kerja**: 
    ```java
    import com.aspose.cells.Cells;
@@ -112,10 +114,10 @@ Penanda pintar berfungsi sebagai pengganti yang secara dinamis diganti dengan da
    ```
 
 ### Tetapkan Sumber Data untuk Penanda Cerdas
-#### Ringkasan
+#### Áttekintés
 Tentukan sumber data yang sesuai dengan penanda pintar, yang akan digunakan selama pemrosesan.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 1. **Inisialisasi WorkbookDesigner**: 
    ```java
    import com.aspose.cells.WorkbookDesigner;
@@ -134,30 +136,30 @@ Tentukan sumber data yang sesuai dengan penanda pintar, yang akan digunakan sela
    ```
 
 ### Proses Penanda Cerdas
-#### Ringkasan
+#### Áttekintés
 Setelah menyiapkan penanda pintar dan sumber data terkait, proses penanda tersebut untuk mengisi lembar kerja.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 1. **Proses Penanda Cerdas**: 
    ```java
    designer.process();
    ```
 
 ### Mengubah Nilai String menjadi Numerik di Lembar Kerja
-#### Ringkasan
+#### Áttekintés
 Sebelum membuat bagan berdasarkan nilai string, ubahlah string tersebut menjadi nilai numerik agar representasi bagan menjadi akurat.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 1. **Mengubah Nilai String menjadi Numerik**: 
    ```java
    dataSheet.getCells().convertStringToNumericValue();
    ```
 
 ### Tambahkan dan Konfigurasikan Bagan
-#### Ringkasan
+#### Áttekintés
 Tambahkan lembar bagan baru ke buku kerja Anda, konfigurasikan jenisnya, atur rentang data, dan sesuaikan tampilannya.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 1. **Membuat dan Memberi Nama Lembar Bagan**: 
    ```java
    import com.aspose.cells.SheetType;
@@ -184,40 +186,43 @@ Tambahkan lembar bagan baru ke buku kerja Anda, konfigurasikan jenisnya, atur re
    book.save("GCByPSmartMarkers.xlsx");
    ```
 
-## Aplikasi Praktis
-- **Pelaporan Keuangan**:Otomatiskan pembuatan ringkasan dan prakiraan keuangan.
-- **Manajemen Inventaris**: Visualisasikan tingkat stok dari waktu ke waktu dengan grafik dinamis.
+## Gyakorlati alkalmazások
+- **Pénzügyi jelentéstétel**:Otomatiskan pembuatan ringkasan dan prakiraan keuangan.
+- **Készletgazdálkodás**: Visualisasikan tingkat stok dari waktu ke waktu dengan grafik dinamis.
 - **Analisis Pemasaran**: Buat dasbor kinerja dari data kampanye.
 
 Integrasi dengan sistem lain seperti basis data atau CRM dapat lebih meningkatkan kemampuan dengan menyediakan umpan data waktu nyata ke dalam laporan Excel.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat menangani kumpulan data besar, pertimbangkan untuk mengoptimalkan penggunaan sumber daya buku kerja Anda. Terapkan praktik terbaik untuk manajemen memori Java guna memastikan kelancaran operasi saat menggunakan Aspose.Cells.
 
 - Gunakan fitur streaming jika menangani file yang sangat besar.
 - Rilis sumber daya secara teratur menggunakan `Workbook.dispose()` setelah pemrosesan selesai.
 - Profil dan monitor penggunaan memori selama pengembangan.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara menggunakan Aspose.Cells untuk Java guna membuat bagan dinamis dengan penanda cerdas, yang mengubah data menjadi representasi visual yang mendalam. Terus jelajahi fitur-fitur pustaka yang lengkap dengan bereksperimen dengan berbagai jenis bagan dan opsi penyesuaian.
 
-**Langkah Berikutnya**: Cobalah integrasikan pengaturan Anda dengan kumpulan data nyata atau jelajahi kemampuan pembuatan grafik tambahan yang disediakan oleh Aspose.Cells.
+**Következő lépések**: Cobalah integrasikan pengaturan Anda dengan kumpulan data nyata atau jelajahi kemampuan pembuatan grafik tambahan yang disediakan oleh Aspose.Cells.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa tujuan penanda pintar di Aspose.Cells?**
    - Penanda pintar menyederhanakan pengikatan data, yang memungkinkan tempat penampung diganti secara dinamis dengan data aktual selama pemrosesan.
 2. **Dapatkah saya menggunakan Aspose.Cells untuk Java dengan bahasa pemrograman lain?**
    - Ya, Aspose.Cells juga mendukung .NET dan menawarkan pustaka untuk C++, Python, PHP, dan banyak lagi.
-3. **Jenis bagan apa yang dapat saya buat dengan Aspose.Cells?**
+3. **Milyen típusú diagramokat hozhatok létre az Aspose.Cells segítségével?**
    - Anda dapat membuat berbagai jenis bagan, termasuk kolom, garis, pai, batang, area, sebaran, radar, gelembung, saham, permukaan, dan banyak lagi.
 4. **Bagaimana cara mengubah nilai string menjadi numerik di lembar kerja saya?**
-   - Gunakan `convertStringToNumericValue()` metode pada koleksi sel lembar kerja Anda.
+   - Használd a `convertStringToNumericValue()` metode pada koleksi sel lembar kerja Anda.
 5. **Bisakah Aspose.Cells menangani kumpulan data besar secara efisien?**
    - Ya, ia menawarkan fitur seperti streaming dan manajemen sumber daya untuk menangani kumpulan data besar.
 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

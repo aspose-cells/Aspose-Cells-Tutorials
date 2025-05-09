@@ -1,51 +1,56 @@
 ---
-title: Změnit nastavení textu tvaru v programu Excel pomocí Aspose.Cells
-weight: 7700
-limit: 
-description: Naučte se manipulovat textem uvnitř tvaru v pracovním listu Excel pomocí Aspose.Cells pro .NET. Nastavte vlastnosti vyrovnání textu a uložte upravenou pracovní knihu.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /cs/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Naučte se, jak manipulovat s textem uvnitř tvaru v listu aplikace Excel pomocí Aspose.Cells pro .NET. Nastavte vlastnosti zarovnání textu a uložte upravený sešit."
+"title": "Úprava zarovnání textu tvaru v Excelu pomocí Aspose.Cells"
+"url": "/cs/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změnit nastavení textu tvaru v programu Excel pomocí Aspose.Cells
+# Úprava zarovnání textu tvaru v Excelu pomocí Aspose.Cells
 
-Tento příruční program ukazuje, jak upravit textové uspořádání v tvaru v pracovním listu Excel pomocí Aspose.Cells pro .NET. Použitím výkonných funkcí Aspose.Cells můžete zabránit otáčení textu tvarem a přizpůsobit vlastnosti textového uspořádání. Příklad vás vede za účelem načítání souboru Excel, přístupu k pracovní listu, úpravy textu v tvaru a ukládání aktualizovaného pracovního seznamu. Ať už automatizujete zprávy, vytváříte šablony nebo přizpůsobujete vizuální obrázky Excel, tento krok-v-krok průvodce to zjednodušuje.  
+Tento tutoriál ukazuje, jak upravit zarovnání textu uvnitř tvaru v listu aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Využitím výkonných funkcí nástroje Aspose.Cells můžete zabránit otáčení textu s tvarem a přizpůsobit vlastnosti zarovnání textu. Příklad vás provede načtením souboru aplikace Excel, přístupem k listu, úpravou textu uvnitř tvaru a uložením aktualizovaného sešitu. Ať už automatizujete sestavy, vytváříte šablony nebo přizpůsobujete vizuály aplikace Excel, tento podrobný návod vám to usnadní.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci:  
+## Pokyny k instalaci:  
 
-Chcete-li v projektu používat Aspose.Cells pro .NET, postupujte podle těchto kroků:  
+Chcete-li ve svém projektu použít Aspose.Cells pro .NET, postupujte takto:  
 
-1. Instalace prostřednictvím programu NuGet Package Manager:  
-   * Otevři Visual Studio.  
-   * Jděte do nástroje → NuGet Package Manager → Správte pakety NuGet pro řešení.  
-   * Hledejte Aspose.Cells a nainstalujte nejnovější verzi.  
+1. Instalace přes Správce balíčků NuGet:  
+   - Otevřete Visual Studio.  
+   - Přejděte do nabídky Nástroje → Správce balíčků NuGet → Spravovat balíčky NuGet pro řešení.  
+   - Vyhledejte Aspose.Cells a nainstalujte nejnovější verzi.  
 
-2. Instalace prostřednictvím konzole pro správu balíček:  
-   * Konzola pro správu balíčků v Visual Studio.  
-   * Vypravte příkaz:  
+2. Instalace přes konzoli Správce balíčků:  
+   - Otevřete konzolu Správce balíčků ve Visual Studiu.  
+   - Spusťte příkaz:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Stáhněte si z webové stránky Aspose:  
-   * Sundejte poslední verzi z [Aspose.Cells pro .NET Download](https://releases.aspose.com/cells/net/)\- Ne , ne .  
-   * Přidejte DLL do odkazů na projekt.  
+3. Stáhnout z webových stránek Aspose:  
+   - Stáhněte si nejnovější verzi z [Stažení Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/).  
+   - Přidejte DLL do referencí projektu.  
 
 ## Viz také  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne . 
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

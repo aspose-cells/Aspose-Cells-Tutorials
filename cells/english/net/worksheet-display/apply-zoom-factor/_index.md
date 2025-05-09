@@ -8,7 +8,9 @@ url: /net/worksheet-display/apply-zoom-factor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Zoom Factor to Worksheet
@@ -141,6 +143,7 @@ You can find support on the Aspose forum [here](https://forum.aspose.com/c/cells
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

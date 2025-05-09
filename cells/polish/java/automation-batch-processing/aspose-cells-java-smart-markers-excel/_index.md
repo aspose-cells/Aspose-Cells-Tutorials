@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ O: Chociaż Aspose.Cells wydajnie obsługuje duże pliki, warto rozważyć optym
 - **Wsparcie**:Jeśli masz pytania, skontaktuj się z nami za pośrednictwem forum Aspose pod adresem [forum.aspose.com/c/cells/9](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

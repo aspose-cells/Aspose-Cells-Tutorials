@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,7 +180,7 @@ Siguiendo esta guía, ha aprendido a exportar comentarios de Excel y guardar sus
 
    Sí, modificando el libro de trabajo antes de guardarlo o utilizando funciones adicionales de Aspose.Cells para filtrar datos.
 
-3. **¿Aspose.Cells es de uso gratuito para proyectos comerciales?**
+3. **¿Aspose.Cells se puede utilizar de forma gratuita para proyectos comerciales?**
 
    Necesitará una licencia adquirida para obtener funcionalidad completa en configuraciones comerciales, aunque hay una versión de prueba disponible.
 
@@ -202,6 +204,9 @@ Siguiendo esta guía, ha aprendido a exportar comentarios de Excel y guardar sus
 Esta guía completa está diseñada para ayudarlo a implementar la funcionalidad de exportación de comentarios de manera efectiva, garantizando así que sus aplicaciones brinden experiencias de usuario mejoradas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

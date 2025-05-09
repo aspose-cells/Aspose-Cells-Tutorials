@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ Pronto para começar a salvar suas pastas de trabalho em vários formatos? Exper
 Embarque em sua jornada com o Aspose.Cells Java e transforme a maneira como você gerencia arquivos do Excel em diferentes formatos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ダイナミックピボットテーブル
@@ -107,9 +109,11 @@ pivotTable.calculateData();
 ### Q5: Aspose.Cells は Excel の高度なピボット テーブル機能をサポートしていますか?
 
 はい、Aspose.Cells は Excel の高度なピボット テーブル機能を幅広くサポートしており、複雑なピボット テーブルを作成できます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Bereit, es auszuprobieren? Setzen Sie diese Schritte um und sehen Sie, wie sie I
 - **Unterstützung**: Wenden Sie sich an die Aspose-Community-Foren, um Hilfe zu erhalten unter [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

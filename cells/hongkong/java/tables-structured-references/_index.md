@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 ## 您將學到什麼
 
 - 如何使用 Aspose.Cells for Java 執行表格和結構化參考操作
-- 逐步實現並附帶完整程式碼範例
+- 完整的程式碼範例逐步實現
 - 最佳實踐和優化技術
 - 表格和結構化引用中常見問題的解決方案
 
@@ -52,7 +54,7 @@
 了解如何使用 Aspose.Cells for Java 管理 Excel 中的文字方塊。本指南介紹如何以程式設計方式建立、命名和存取文字方塊。
 
 ### [掌握 Aspose.Cells Java：識別指定範圍內的儲存格以進行 Excel 資料操作](./master-aspose-cells-java-identify-named-range-cells/)
-了解如何使用 Aspose.Cells 和 Java 來有效地識別和操作 Excel 電子表格中指定範圍內的儲存格。
+了解如何使用 Aspose.Cells 和 Java 來有效識別和操作 Excel 電子表格中命名範圍內的儲存格。
 
 
 
@@ -66,6 +68,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

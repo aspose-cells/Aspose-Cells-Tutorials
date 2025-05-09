@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Excel ファイル内でのグラフ変換やデータ操作など、Aspose.Cell
 このガイドでは、Aspose.Cells for Java を使用して Excel ファイルを PDF に変換する方法について包括的な概要を提供し、このソリューションを効果的に実装するために必要なツールと知識が身につくようにします。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

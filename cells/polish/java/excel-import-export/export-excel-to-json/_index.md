@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj Excela do JSON
@@ -76,9 +78,11 @@ Gratulacje! Udało Ci się wyeksportować dane Excela do JSON przy użyciu Aspos
    Tak, możesz pobrać wersję próbną Aspose.Cells for Java ze strony internetowej i zapoznać się z jej funkcjami.
 
 Zachęcamy do zapoznania się z dalszymi możliwościami pakietu Aspose.Cells for Java, dzięki którym rozszerzysz swoje możliwości przetwarzania danych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

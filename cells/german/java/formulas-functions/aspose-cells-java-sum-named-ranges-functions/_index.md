@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Dieses Tutorial zeigt Ihnen, wie Sie benannte Bereiche mit SUM-Funktionen in Asp
 Dieses Tutorial bietet Ihnen ein umfassendes Verständnis der Implementierung benannter Bereiche und Summenfunktionen mit Aspose.Cells für Java. Probieren Sie es aus, um das volle Potenzial der Excel-Automatisierung in Ihren Anwendungen auszuschöpfen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

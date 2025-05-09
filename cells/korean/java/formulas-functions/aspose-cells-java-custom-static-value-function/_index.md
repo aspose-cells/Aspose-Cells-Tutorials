@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ public class Main {
 ```
 **설명:**
 - **사용자 정의 함수 등록:** 사용 `addCustomFunction` 사용자 정의 계산 엔진을 등록하세요.
-- **수식에서의 사용:** 모든 셀에 수식으로 적용합니다. `"=MyStaticFunc()"`.
+- **수식에서의 사용:** 셀 내에서 수식으로 적용합니다. `"=MyStaticFunc()"`.
 
 #### 문제 해결 팁
 - 올바른 Aspose.Cells 버전을 사용하고 있는지 확인하세요. 버전이 일치하지 않으면 API 변경이나 기능 누락으로 이어질 수 있습니다.
@@ -180,6 +182,9 @@ public class Main {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

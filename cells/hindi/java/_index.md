@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells जावा स्प्रेडशीट प्रसंस्करण ट्यूटोरियल
@@ -118,9 +120,11 @@ Java के लिए Aspose.Cells का उपयोग करके Excel म
 
 ### [स्वचालन और बैच प्रसंस्करण](./automation-batch-processing/)
 Excel कार्यों को स्वचालित करने, एकाधिक फ़ाइलों की बैच प्रोसेसिंग करने, तथा Java के लिए Aspose.Cells के साथ संचालन शेड्यूल करने के लिए चरण-दर-चरण ट्यूटोरियल।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

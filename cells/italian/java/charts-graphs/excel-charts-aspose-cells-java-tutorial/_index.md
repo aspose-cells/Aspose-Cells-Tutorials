@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ cells.get("B3").setValue(50);
 #### Panoramica
 Questa funzionalità si concentra sull'aggiunta di un grafico a colonne e sull'impostazione della relativa origine dati.
 
-##### Raccolta di grafici di accesso e aggiunta di un grafico a colonne
+##### Accedi alla raccolta di grafici e aggiungi un grafico a colonne
 
 ```java
 ChartCollection charts = worksheet.getCharts();
@@ -193,7 +195,7 @@ Aspose.Cells per Java offre funzionalità versatili di personalizzazione dei gra
 ## Considerazioni sulle prestazioni
 
 Quando si lavora con Aspose.Cells in Java:
-- **Ottimizza la complessità del grafico:** Mantieni semplici i grafici per garantire un rendering rapido e un utilizzo ridotto della memoria.
+- **Ottimizza la complessità del grafico:** Mantieni i grafici semplici per garantire un rendering rapido e un utilizzo ridotto della memoria.
 - **Gestione efficiente della memoria:** Eliminare gli oggetti della cartella di lavoro quando non sono più necessari per liberare risorse.
 - **Elaborazione batch:** Se si elaborano più file, valutare l'esecuzione di operazioni in batch per migliorare l'efficienza.
 
@@ -225,6 +227,9 @@ A4: Utilizza identificatori di stile predefiniti o crea stili personalizzati uti
 A5: Ottimizza gli intervalli di dati, riduci al minimo la complessità dei grafici e gestisci la memoria in modo efficace eliminando gli oggetti quando non sono necessari.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ public class AsposeCellsSetup {
         // Excel 파일 로드
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // 여기에 코드 논리가 있습니다...
+        // 여기에 코드 로직이 있습니다...
     }
 }
 ```
@@ -179,7 +181,7 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 ```
 
 **설명:**
-- `Worksheet.getCells().getMaxDisplayRange()` 보이는 셀의 범위를 검색합니다.
+- `Worksheet.getCells().getMaxDisplayRange()` 표시되는 셀의 범위를 검색합니다.
 - 이 범위를 반복하면 셀에 데이터가 있는지 식별하는 데 도움이 됩니다.
 
 ## 실제 응용 프로그램
@@ -207,6 +209,9 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 스트리밍 API를 사용하고 처리를 더 작은 작업으로 나누어 메모리 사용량을 효과적으로 관리하는 것을 고려하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

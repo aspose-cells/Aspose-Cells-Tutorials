@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ A5: Ναι, με την αγορά κατάλληλης άδειας χρήση�
 Αυτός ο οδηγός σάς παρέχει τα εργαλεία και τις γνώσεις για να αξιοποιήσετε αποτελεσματικά το Aspose.Cells για Java, βελτιώνοντας τις δυνατότητες επεξεργασίας εγγράφων σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

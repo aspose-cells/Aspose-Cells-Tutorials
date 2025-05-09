@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ import com.aspose.cells.Workbook;
    options.setStyle(style);
    ```
 
-### Tìm kiếm các tế bào có phong cách cụ thể
+### Tìm các tế bào có kiểu cụ thể
 
 **Tổng quan:** Xác định các ô phù hợp với kiểu cụ thể và sửa đổi nội dung của chúng.
 
@@ -192,6 +194,9 @@ A5: Sử dụng `save()` phương pháp trên một `Workbook` đối tượng, 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

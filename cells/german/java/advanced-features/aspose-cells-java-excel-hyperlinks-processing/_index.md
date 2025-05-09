@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A1: Aspose.Cells für Java unterstützt Java 8 und höher. Stellen Sie sicher, d
 A2: Ja, indem Sie sich auf bestimmte Bereiche oder Arbeitsblätter konzentrieren, können Sie die Leistung auch bei größeren Dateien optimieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

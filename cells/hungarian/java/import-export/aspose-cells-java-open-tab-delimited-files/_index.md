@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Az Aspose.Cells egy kereskedelmi forgalomban kapható termék, de kipróbálhato
 - **Ideiglenes engedély:** Szükség esetén ideiglenes engedélyt igényelhet a weboldalukon.
 - **Vásárlás:** Fontolja meg a licenc megvásárlását a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-A teljes funkcionalitás eléréséhez csatold a licencfájlodat a projektedhez.
+A licencfájlt is csatold a projektedhez a teljes funkcionalitás eléréséhez.
 
 ## Megvalósítási útmutató
 
@@ -134,6 +136,9 @@ következő lépések közé tartozik az Aspose.Cells fejlettebb funkcióinak fe
 - **Támogatás:** Kérdések esetén látogassa meg a [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

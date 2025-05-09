@@ -1,5 +1,5 @@
 ---
-"description": "Scopri come personalizzare gli stili delle tabelle pivot nell'API Aspose.Cells per Java. Crea tabelle pivot visivamente accattivanti con facilità."
+"description": "Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità."
 "linktitle": "Personalizzazione degli stili della tabella pivot"
 "second_title": "API di elaborazione Excel Java Aspose.Cells"
 "title": "Personalizzazione degli stili della tabella pivot"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Personalizzazione degli stili della tabella pivot
@@ -49,7 +51,7 @@ pivotTableHeaderStyle.getFont().setColor(Color.getBlue());
 pivotTableHeaderStyle.setForegroundColor(Color.getLightGray());
 ```
 
-## Passaggio 3: applica uno stile personalizzato alla tabella pivot
+## Passaggio 3: applicare uno stile personalizzato alla tabella pivot
 
 Dopo aver personalizzato lo stile, applicalo alla tabella pivot:
 
@@ -87,9 +89,11 @@ Personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API è sem
    Puoi fare riferimento alla documentazione API all'indirizzo [Riferimenti API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/) per informazioni dettagliate.
 
 Ora hai le conoscenze necessarie per creare e personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java. Esplora ulteriormente e rendi le tue presentazioni di dati davvero eccezionali!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

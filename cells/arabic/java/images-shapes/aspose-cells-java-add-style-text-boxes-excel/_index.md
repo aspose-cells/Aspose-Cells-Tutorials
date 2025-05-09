@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,6 +191,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/AddingTextBoxControl_out3.xls");
 - [تنزيل Aspose.Cells لـ Java](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

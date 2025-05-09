@@ -8,7 +8,9 @@ url: /net/excel-custom-number-date-formatting/specify-formula-fields-while-impor
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Formula Fields When Importing Data to Excel Sheet
@@ -189,6 +191,7 @@ You can seek help from the Aspose support forum [here](https://forum.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

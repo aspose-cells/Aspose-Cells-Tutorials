@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafik Animasyonu
@@ -28,7 +30,7 @@ Grafik animasyonları oluşturmaya başlamadan önce, aşağıdaki ön koşullar
 
 Şimdi adım adım grafik animasyonları oluşturmaya başlayalım.
 
-## Adım 1: Aspose.Cells Kütüphanesini İçe Aktarın
+## Adım 1: Aspose.Cells Kütüphanesini İçe Aktar
 
 Öncelikle Aspose.Cells kütüphanesini Java projenize aktarmanız gerekir. Bunu Java dosyanıza aşağıdaki kodu ekleyerek yapabilirsiniz:
 
@@ -101,6 +103,7 @@ Animasyon gecikmesi, grafik animasyonu başlamadan önceki zaman aralığını b
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

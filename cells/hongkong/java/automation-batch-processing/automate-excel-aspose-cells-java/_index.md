@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 
 為了有效地遵循本教程，您需要：
 
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 使用 Maven 或 Gradle 設定的開發環境。
 - Aspose.Cells for Java 函式庫版本 25.3 或更高版本。
 
@@ -49,7 +51,7 @@
 </dependency>
 ```
 
-對於 Gradle 用戶，請將其包含在您的 `build.gradle` 文件：
+對於 Gradle 用戶，將其包含在您的 `build.gradle` 文件：
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -202,6 +204,9 @@ workbook.save(dataDir + "/FormatRanges2_out.xls");
 嘗試在您的 Java 專案中實作這些功能，看看 Aspose.Cells 如何簡化您的 Excel 檔案處理任務。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

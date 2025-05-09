@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ Erwägen Sie als nächste Schritte die Erkundung zusätzlicher Funktionen von As
 Mit dieser umfassenden Anleitung sind Sie nun in der Lage, die Funktionen zur Unterbrechung der Formelberechnung in Aspose.Cells für Java effektiv zu implementieren und zu nutzen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

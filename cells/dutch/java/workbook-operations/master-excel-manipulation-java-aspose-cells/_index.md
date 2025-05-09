@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Probeer deze oplossingen in uw volgende project te implementeren en verken verde
 Begin vandaag nog aan uw reis om Excel-manipulatie in Java onder de knie te krijgen met Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ Aspose.Cells ve büyük Excel dosyalarıyla çalışırken:
 - **Verimli Sorgulama:** Yükleme süresini azaltmak için Excel içindeki SQL sorgularınızı optimize edin.
 
 ## Çözüm
-Bu kılavuzu takip ederek, Excel'in harici veritabanı bağlantılarını verimli bir şekilde yönetmek için Java için Aspose.Cells'i nasıl kullanacağınızı öğrendiniz. Artık çalışma kitaplarını yükleyebilir, veri bağlantılarına erişebilir ve bunlar üzerinde yineleme yapabilir, veritabanı bağlantılarının ayrıntılı özelliklerini alabilir ve bağlantı parametrelerini kolaylıkla işleyebilirsiniz.
+Bu kılavuzu takip ederek, Excel'in harici veritabanı bağlantılarını verimli bir şekilde yönetmek için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrendiniz. Artık çalışma kitaplarını yükleyebilir, veri bağlantılarına erişebilir ve bunlar üzerinde yineleme yapabilir, veritabanı bağlantılarının ayrıntılı özelliklerini alabilir ve bağlantı parametrelerini kolaylıkla işleyebilirsiniz.
 
 **Sonraki Adımlar:**
 - Çeşitli türde harici bağlantılar içeren farklı çalışma kitabı dosyalarıyla denemeler yapın.
@@ -167,6 +169,9 @@ Java uygulamanızı bir üst seviyeye taşımaya hazır mısınız? Şimdi Aspos
    - Geçici lisans, deneme süresi boyunca Aspose.Cells'in tüm yeteneklerini keşfetmenize olanak tanır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

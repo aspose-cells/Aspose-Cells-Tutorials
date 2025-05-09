@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ workbook.save(outDir + "/SSharedFormula_out.xlsx", SaveFormat.XLSX);
 - **효율적인 공식 적용:** 계산 오버헤드를 최소화하기 위해 필요한 경우에만 공유 수식을 적용합니다.
 
 ## 결론
-이 튜토리얼을 따라 하면 Aspose.Cells for Java를 사용하여 Excel 통합 문서를 로드하고, 공유 수식을 적용하고, 작업을 효율적으로 저장하는 방법을 배울 수 있습니다. 이러한 기술은 데이터 처리 워크플로를 크게 향상시킬 수 있습니다.
+이 튜토리얼을 따라 하면 Aspose.Cells for Java를 사용하여 Excel 통합 문서를 로드하고, 공유 수식을 적용하고, 작업을 효율적으로 저장하는 방법을 배우게 됩니다. 이러한 기술은 데이터 처리 워크플로를 크게 향상시킬 수 있습니다.
 
 **다음 단계:**
 - Aspose.Cells의 더욱 고급 기능을 살펴보세요.
@@ -172,6 +174,9 @@ Aspose.Cells Java를 사용하여 Excel 자동화를 마스터하는 여정을 �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

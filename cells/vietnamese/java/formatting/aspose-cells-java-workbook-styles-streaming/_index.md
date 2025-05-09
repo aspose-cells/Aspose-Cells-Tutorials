@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ public class AsposeCellsSetup {
 Trong phần này, chúng ta sẽ khám phá cách tạo kiểu tùy chỉnh cho sổ làm việc của bạn bằng Aspose.Cells. Tính năng này tăng cường sức hấp dẫn trực quan cho bảng tính của bạn bằng cách thiết lập các thuộc tính phông chữ, màu nền và đường viền cụ thể.
 
 #### Thực hiện từng bước:
-**Khởi tạo kiểu**
+**Khởi tạo các kiểu**
 Bắt đầu bằng cách tạo một lớp sẽ xử lý cấu hình kiểu:
 ```java
 import com.aspose.cells.*;
@@ -221,6 +223,9 @@ Với các kỹ thuật phù hợp, Aspose.Cells for Java trở thành công c�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ workbook.save(outDir + "/InstantiatingWorkbook_out.xls");
 
 ### Oldalbeállítás tulajdonságainak megadása
 
-**Áttekintés**: Módosítsa az oldalbeállításokat, például a munkalap nagyítási szintjeit, hogy az Excel-dokumentum megfeleljen az adott nyomtatási vagy megtekintési követelményeknek.
+**Áttekintés**: Módosítsa az oldalbeállítási tulajdonságokat, például a munkalap nagyítási szintjeit, hogy az Excel-dokumentum megfeleljen az adott nyomtatási vagy megtekintési követelményeknek.
 
 #### 1. lépés: Munkafüzet és Access-munkalap inicializálása
 Kezdje egy új munkafüzet létrehozásával és a kívánt munkalap elérésével.
@@ -169,7 +171,7 @@ workbook.save(outDir + "/SettingPageSetupProperties_out.xls");
 ### Hibaelhárítási tippek
 
 - **Gyakori probléma**: Ha problémákat tapasztal a könyvtár betöltésével, ellenőrizze, hogy az építőeszköz konfigurációja helyes-e, és a függőségek megoldódtak-e.
-- **Fájl nem található**: Ellenőrizd még egyszer a `outDir` elérési utat, hogy biztosítsa az érvényes könyvtárra mutató hivatkozást.
+- **Fájl nem található**: Ellenőrizd a `outDir` elérési utat, hogy biztosítsa az érvényes könyvtárra mutató hivatkozást.
 
 ## Gyakorlati alkalmazások
 
@@ -202,6 +204,9 @@ Az Aspose.Cells képességeinek mélyebb megismeréséhez érdemes lehet olyan f
    - Igen, manuálisan is letölthetsz és hozzáadhatsz JAR fájlokat a projekted osztályútvonalához.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

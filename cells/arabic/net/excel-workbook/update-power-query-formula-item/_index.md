@@ -1,30 +1,32 @@
 ---
-title: تحديث عنصر صيغة Power Query
-linktitle: تحديث عنصر صيغة Power Query
-second_title: مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET
-description: يمكنك بسهولة تحديث عناصر صيغة Power Query في Excel باستخدام Aspose.Cells for .NET. دليل خطوة بخطوة لتبسيط عمليات معالجة البيانات.
-weight: 160
-url: /ar/net/excel-workbook/update-power-query-formula-item/
+"description": "حدّث عناصر صيغ Power Query بسهولة في Excel باستخدام Aspose.Cells لـ .NET. دليل خطوة بخطوة لتبسيط عمليات معالجة البيانات."
+"linktitle": "تحديث عنصر صيغة Power Query"
+"second_title": "مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET"
+"title": "تحديث عنصر صيغة Power Query"
+"url": "/ar/net/excel-workbook/update-power-query-formula-item/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحديث عنصر صيغة Power Query
 
 ## مقدمة
 
-إذا سبق لك العمل باستخدام Excel، فأنت تعلم مدى قوته، وخاصةً عندما تبدأ في استخدام Power Query. فهي الصلصة السرية التي تسمح لك بتحويل بياناتك وتنظيفها وتحليلها دون عناء. إحدى الطرق الرائعة للتعامل مع صيغ Power Query في Excel هي من خلال Aspose.Cells for .NET. اليوم، سنرشدك خلال تحديث عناصر صيغ Power Query خطوة بخطوة. لذا، استعد للبدء!
+إذا سبق لك العمل مع Excel، فأنت تعلم مدى فعاليته، خاصةً عند البدء في استخدام Power Query. إنها الوسيلة السحرية التي تُمكّنك من تحويل بياناتك وتنظيفها وتحليلها بسهولة. إحدى الطرق الرائعة للتعامل مع صيغ Power Query في Excel هي استخدام Aspose.Cells لـ .NET. اليوم، سنرشدك خلال تحديث عناصر صيغ Power Query خطوة بخطوة. هيا، هيا بنا نبدأ!
 
 ## المتطلبات الأساسية
 
 قبل أن تتعمق في الكود، هناك بعض الأشياء التي قد ترغب في إعدادها:
 
-1. Visual Studio: ستحتاج إلى بيئة تطوير متكاملة (IDE) لكتابة وتشغيل كود .NET الخاص بك. Visual Studio هو الخيار الأمثل.
-2.  مكتبة Aspose.Cells: تأكد من توفر مكتبة Aspose.Cells ضمن مشروعك. يمكنك تنزيلها من[موقع](https://releases.aspose.com/cells/net/).
+1. Visual Studio: ستحتاج إلى بيئة تطوير متكاملة (IDE) لكتابة وتشغيل أكواد .NET. Visual Studio هو الخيار الأمثل.
+2. مكتبة Aspose.Cells: تأكد من توفر مكتبة Aspose.Cells في مشروعك. يمكنك تنزيلها من [موقع](https://releases.aspose.com/cells/net/).
 3. المعرفة الأساسية بلغة C#: بينما سنتناول هذا الأمر معًا، فإن الحصول على بعض الفهم الأساسي للغة C# سيساعدك بالتأكيد، خاصة عند التنقل عبر فئات وطرق مختلفة.
-4. ملفات Excel النموذجية: ستحتاج إلى ملفات Excel المذكورة في مقتطف التعليمات البرمجية. تأكد من توفر ما يلي:
+4. ملفات إكسل نموذجية: ستحتاج إلى ملفات إكسل المذكورة في مقتطف الكود. تأكد من توفر ما يلي:
    - `SamplePowerQueryFormula.xlsx`
    - `SamplePowerQueryFormulaSource.xlsx`
 
@@ -34,7 +36,7 @@ url: /ar/net/excel-workbook/update-power-query-formula-item/
 
 ## استيراد الحزم
 
-أولاً وقبل كل شيء، ستحتاج إلى استيراد مساحات الأسماء الضرورية. وإليك كيفية القيام بذلك:
+أولاً، ستحتاج إلى استيراد مساحات الأسماء اللازمة. إليك كيفية القيام بذلك:
 
 ```csharp
 using Aspose.Cells.DigitalSignatures;
@@ -43,13 +45,13 @@ using System;
 using System.IO;
 ```
 
-من خلال إضافة هذه المساحات الاسمية، فأنت بذلك تخبر المترجم بأنك تنوي استخدام الفئات والطرق من مكتبة Aspose.Cells. هذه الخطوة بالغة الأهمية لأنها تضع الأساس للكود الذي يليها.
+بإضافة هذه المساحات، تُعلم المُجمِّع بأنك تنوي استخدام الفئات والأساليب من مكتبة Aspose.Cells. هذه الخطوة بالغة الأهمية لأنها تُمهِّد الطريق للكود الذي يليه.
 
-دعنا نستعرض مقتطف التعليمات البرمجية الذي قدمته. سيرشدك هذا البرنامج التعليمي إلى كل جزء، مما يضمن فهمك لما يحدث.
+لنبدأ بشرح مقتطف الشفرة الذي قدمته. سيشرح لك هذا البرنامج التعليمي كل جزء، ويضمن فهمك لما يحدث.
 
 ## الخطوة 1: إعداد أدلة العمل
 
-في هذه الخطوة، سنحدد مكان وجود ملفات المصدر والإخراج. وهذا يضمن أن Aspose يعرف المكان الذي يبحث فيه عن ملفات Excel الخاصة بك.
+في هذه الخطوة، سنحدد مكان ملفات المصدر والإخراج. هذا يضمن أن يعرف Aspose مكان البحث عن ملفات Excel.
 
 ```csharp
 // أدلة العمل
@@ -59,12 +61,12 @@ string outputDir = "Your Output Directory";
 
 ## الخطوة 2: تحميل المصنف
 
-الآن، لنقم بتحميل ملف Excel الذي يوجد فيه Power Query.
+الآن، دعنا نحمل ملف Excel الذي يوجد به Power Query.
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- ال`Workbook` تعتبر الفئة نقطة دخولك إلى ملف Excel. من خلال تمرير مسار ملف المصدر الخاص بنا، نقوم بإنشاء مثيل يسمح لنا بالتعامل معه. يمكنك تخيل الأمر مثل فتح كتاب - فأنت تستعد لقراءة (أو تحرير) محتوياته.
+ال `Workbook` الفئة هي نقطة دخولك إلى ملف Excel. بتمرير مسار ملف المصدر، ننشئ مثيلًا يسمح لنا بالتعامل معه. يمكنك تخيل الأمر كفتح كتاب - تستعد لقراءة (أو تحرير) محتوياته.
 
 ## الخطوة 3: الوصول إلى مجموعة البيانات
 
@@ -73,7 +75,7 @@ Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- ال`DataMashup` تحتوي الفئة على جميع صيغ Power Query المرتبطة بمصنف العمل الخاص بك. هذا هو المكان الذي سنقوم فيه بالعمل الشاق، تمامًا كما هو الحال عندما تفتح صندوق أدوات للإصلاحات.
+ال `DataMashup` تحتوي الفئة على جميع صيغ Power Query المرتبطة بمصنف عملك. هنا سنبدأ العمل الشاق، تمامًا كما لو كنت تفتح صندوق أدوات للإصلاحات.
 
 ## الخطوة 4: تكرار صيغ Power Query
 
@@ -92,13 +94,13 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 }
 ```
 
--  نحن نمر عبر كل منها`PowerQueryFormula` في`mashupData`.
-- في هذه الحلقة، نغوص في كل منها`PowerQueryFormulaItem`.
-- نتحقق مما إذا كان اسم العنصر يتطابق مع "المصدر". إذا كان الأمر كذلك، نقوم بتحديث قيمته للارتباط بملف المصدر الجديد.
+- نحن نمر عبر كل `PowerQueryFormula` في `mashupData`.
+- في هذه الحلقة، نغوص في كل منها `PowerQueryFormulaItem`.
+- نتحقق من تطابق اسم العنصر مع "المصدر". إذا كان الأمر كذلك، نقوم بتحديث قيمته للارتباط بملف المصدر الجديد.
 
 وهذا يشبه العثور على الصفحة الصحيحة في دليل ثم إجراء التحديثات اللازمة - إنها عملية مباشرة ودقيقة.
 
-## الخطوة 5: احفظ المصنف المحدث
+## الخطوة 5: حفظ المصنف المحدث
 
 بعد إجراء التحديثات، حان الوقت لحفظ التغييرات.
 
@@ -107,31 +109,33 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- ال`Save` تكتب الطريقة المصنف المحدث إلى دليل الإخراج المحدد. الأمر أشبه بختم تعديلاتك في إصدار جديد من الدليل، جاهزًا لاستخدام الآخرين!
+ال `Save` تكتب هذه الطريقة المصنف المُحدّث إلى دليل الإخراج المُحدد. يشبه الأمر حفظ تعديلاتك في نسخة جديدة من الدليل، جاهزة للاستخدام من قِبل الآخرين!
 
 ## خاتمة
 
-مبروك! لقد نجحت في تحديث عنصر صيغة Power Query باستخدام Aspose.Cells for .NET. باستخدام هذه الطريقة، يمكنك أتمتة تعديل صيغ Power Query في ملفات Excel، مما يوفر لك الوقت والجهد الثمينين.
+تهانينا! لقد نجحت في تحديث عنصر صيغة Power Query باستخدام Aspose.Cells لـ .NET. بهذه الطريقة، يمكنك أتمتة تعديل صيغ Power Query في ملفات Excel، مما يوفر عليك وقتًا وجهدًا كبيرين.
 
 ## الأسئلة الشائعة
 
 ### ما هو Aspose.Cells؟
-Aspose.Cells عبارة عن مكتبة فعالة للتعامل مع ملفات Excel في تطبيقات .NET دون الحاجة إلى تثبيت Microsoft Excel.
+Aspose.Cells هي مكتبة قوية للتعامل مع ملفات Excel في تطبيقات .NET دون الحاجة إلى تثبيت Microsoft Excel.
 
 ### هل أحتاج إلى Microsoft Excel لتشغيل Aspose.Cells؟
 لا، يتيح لك Aspose.Cells إنشاء ملفات Excel وتحريرها برمجيًا دون الحاجة إلى Excel على الخادم أو جهاز التطوير الخاص بك.
 
 ### ما هي أنواع ملفات Excel التي يمكنني العمل عليها باستخدام Aspose.Cells؟
-بإمكانك العمل مع .xlsx، و.xls، و.xlsm، والعديد من تنسيقات Excel الأخرى باستخدام Aspose.Cells.
+يمكنك العمل مع .xlsx، و.xls، و.xlsm، والعديد من تنسيقات Excel الأخرى باستخدام Aspose.Cells.
 
 ### هل هناك نسخة تجريبية متاحة لـ Aspose.Cells؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من[صفحة إصدار Aspose Cells](https://releases.aspose.com/).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من [صفحة إصدار Aspose Cells](https://releases.aspose.com/).
 
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Cells؟
- يمكنك الوصول إلى الدعم من خلال[منتدى اسبوس](https://forum.aspose.com/c/cells/9)حيث يمكنك طرح الأسئلة والعثور على إجابات من المجتمع وفريق Aspose.
+يمكنك الوصول إلى الدعم من خلال [منتدى Aspose](https://forum.aspose.com/c/cells/9)، حيث يمكنك طرح الأسئلة والعثور على إجابات من المجتمع وفريق Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

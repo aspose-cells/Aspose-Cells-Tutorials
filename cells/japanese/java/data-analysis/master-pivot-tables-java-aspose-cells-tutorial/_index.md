@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 - 指定されたディレクトリからワークブックを読み込む方法。
 - ワークシート内の特定のピボット テーブルにアクセスします。
 - フィールド オブジェクトまたはインデックスと名前を使用してレポート フィルター ページを表示します。
-- 変更されたワークブックを効率的に保存します。
+- 変更されたブックを効率的に保存します。
 
 実装に進む前に、シームレスなエクスペリエンスを実現するための前提条件がすべて満たされていることを確認しましょう。
 
@@ -186,6 +188,9 @@ Aspose.Cells for Javaを習得することで、ピボットテーブルを含�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

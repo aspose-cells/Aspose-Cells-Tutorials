@@ -1,23 +1,25 @@
 ---
 "date": "2025-04-08"
 "description": "Ismerje meg, hogyan szerkesztheti hatékonyan a hiperhivatkozásokat Excel-fájlokban az Aspose.Cells for Java segítségével. Ez az útmutató részletes kódpéldákkal ismerteti a munkafüzetek betöltését, módosítását és mentését."
-"title": "Hivatkozások szerkesztésének mesteri elsajátítása Excel-táblázatokban Aspose.Cells Java használatával"
+"title": "Hivatkozások szerkesztésének mesteri elsajátítása Excel táblázatokban Aspose.Cells Java használatával"
 "url": "/hu/java/advanced-features/edit-excel-hyperlinks-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Hivatkozások szerkesztésének mesteri elsajátítása Excel-táblázatokban Aspose.Cells Java használatával
+# Hivatkozások szerkesztésének mesteri elsajátítása Excel táblázatokban Aspose.Cells Java használatával
 
 ## Bevezetés
 Az Excel-táblázatokban a hiperhivatkozások kezelése kihívást jelenthet, különösen nagy adathalmazok vagy több dokumentum esetén. Akár új webcímekhez kell frissítenie a hivatkozásokat, akár a fájlok közötti konzisztenciát kell biztosítania, egy egyszerűsített megoldás elengedhetetlen. Ez az oktatóanyag végigvezeti Önt a használatán. **Aspose.Cells Java-hoz** hatékonyan szerkesztheti a hiperhivatkozásokat egy Excel-munkalapon belül.
 
 Ebben az átfogó útmutatóban megvizsgáljuk, hogyan:
-- Excel munkafüzet betöltése
+- Excel-munkafüzet betöltése
 - Hivatkozások elérése és módosítása egy munkalapon
 - Mentse el a frissített dokumentumot
 
@@ -96,7 +98,7 @@ public class LoadWorkbook {
         // Nyisson meg egy meglévő munkafüzetet a megadott fájlútvonalról
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
     }
 }
@@ -116,7 +118,7 @@ public class EditHyperlinks {
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        // Végigmegy minden egyes hivatkozáson a munkalapon
+        // Végigmegyek a munkalapon található összes hivatkozáson
         for (int i = 0; i < worksheet.getHyperlinks().getCount(); i++) {
             Hyperlink hl = worksheet.getHyperlinks().get(i);
             
@@ -186,6 +188,9 @@ Ha további kérdései vannak, vagy segítségre van szüksége, látogassa meg 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ Sind Sie bereit, das Gelernte in die Praxis umzusetzen? Versuchen Sie noch heute
    - Sie können die [Internationale Organisation für Normung (ISO)](https://www.iso.org/standards.html) Website für detaillierte Dokumentation zu verschiedenen PDF/A-Konformitätsstufen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

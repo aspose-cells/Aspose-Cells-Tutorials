@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ O Aspose.Cells para Java permite diversas aplicações práticas:
 
 ## Considerações de desempenho
 Para otimizar o desempenho ao usar Aspose.Cells:
-- **Otimize o uso da memória**: Libere recursos prontamente para gerenciar a memória Java de forma eficaz.
+- **Otimizar o uso da memória**: Libere recursos prontamente para gerenciar a memória Java de forma eficaz.
 - **Manuseio eficiente de arquivos**: Use fluxos para operações de arquivo se estiver lidando com grandes conjuntos de dados.
 - **Operações em lote**: Execute exclusões de linhas em lotes em vez de uma por uma para reduzir o tempo de processamento.
 
@@ -180,6 +182,9 @@ Este tutorial mostrou como excluir com eficiência várias linhas de uma planilh
 Este guia fornece uma compreensão completa da exclusão de linhas no Excel usando o Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

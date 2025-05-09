@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # データ分析 Excel ピボット
@@ -77,7 +79,7 @@ pivotTable.addFieldToArea(0, PivotFieldType.DATA); // 最初の列をデータ�
 pivotTable.getDataFields().get(0).setFunction(PivotFieldFunctionType.SUM); // SUM関数を使用する
 ```
 
-## ピボットテーブルのレイアウトのカスタマイズ
+## ピボットテーブルレイアウトのカスタマイズ
 
 ピボット テーブルをより有益なものにするために、フィルターの追加、並べ替え、フィールドの位置の変更など、レイアウトをカスタマイズできます。
 
@@ -113,13 +115,14 @@ Aspose.Cells for Javaはウェブサイトからダウンロードできます�
 
 もちろんです！Aspose.Cells for Javaを使えば、Excelファイルを操作するJavaコードを記述することで、データ分析タスクを自動化できます。これらのタスクをスケジュール設定したり、アプリケーションに統合してシームレスな自動化を実現できます。
 
-### Aspose.Cells for Java にはライセンス要件はありますか?
+### Aspose.Cells for Java にはライセンス要件がありますか?
 
 はい、Aspose.Cells for Javaは商用ライブラリです。プロジェクトで使用するには有効なライセンスが必要です。ライセンスの詳細と価格については、AsposeのWebサイトをご覧ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

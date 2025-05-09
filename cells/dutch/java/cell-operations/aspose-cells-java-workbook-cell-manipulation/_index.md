@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ A: Ja, Aspose.Cells ondersteunt export naar verschillende formaten, zoals PDF, C
 Door de mogelijkheden van Aspose.Cells voor Java te benutten, kunt u uw mogelijkheden voor het programmatisch maken en bewerken van Excel-bestanden aanzienlijk verbeteren. Ontdek vandaag nog de mogelijkheden!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

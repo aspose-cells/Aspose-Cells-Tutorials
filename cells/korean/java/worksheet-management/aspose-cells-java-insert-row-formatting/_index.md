@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ workbook.save(dataDir + "InsertingARowWithFormatting_out.xlsx");
 Aspose.Cells를 사용하여 Excel에서 서식이 적용된 행을 삽입하는 실제 사용 사례는 다음과 같습니다.
 1. **재무 보고서**: 회사의 표준 형식을 유지하면서 요약 행을 자동으로 삽입합니다.
 2. **재고 관리**: 기존 데이터 레이아웃을 방해하지 않고 새로운 제품 항목을 추가합니다.
-3. **데이터 분석**: 계산된 행(예: 평균 또는 합계)을 특정 간격으로 삽입합니다.
+3. **데이터 분석**: 특정 간격으로 계산된 행(예: 평균 또는 합계)을 삽입합니다.
 
 ## 성능 고려 사항
 
@@ -158,6 +160,9 @@ Aspose.Cells를 사용하여 Excel에서 서식이 적용된 행을 삽입하는
 이 솔루션을 Java 애플리케이션에 구현할 준비가 되셨나요? Aspose.Cells를 사용하여 Excel 파일 작업을 얼마나 간소화할 수 있는지 직접 확인해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

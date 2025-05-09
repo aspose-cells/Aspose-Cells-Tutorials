@@ -1,14 +1,16 @@
 ---
-title: Sử dụng bảng màu có sẵn trong Excel
-linktitle: Sử dụng bảng màu có sẵn trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo bảng màu tùy chỉnh và áp dụng chúng vào bảng tính Excel của bạn bằng Aspose.Cells cho .NET. Tăng cường sức hấp dẫn trực quan cho dữ liệu của bạn bằng màu sắc sống động và các tùy chọn định dạng.
-weight: 11
-url: /vi/net/excel-colors-and-background-settings/using-palette-of-available-colors/
+"description": "Tìm hiểu cách tạo bảng màu tùy chỉnh và áp dụng chúng vào bảng tính Excel của bạn bằng Aspose.Cells cho .NET. Tăng cường sức hấp dẫn trực quan cho dữ liệu của bạn bằng màu sắc sống động và các tùy chọn định dạng."
+"linktitle": "Sử dụng bảng màu có sẵn trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sử dụng bảng màu có sẵn trong Excel"
+"url": "/vi/net/excel-colors-and-background-settings/using-palette-of-available-colors/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng bảng màu có sẵn trong Excel
@@ -24,7 +26,7 @@ Bạn đã bao giờ nhìn chằm chằm vào một bảng tính đơn sắc, nh
 
 ## Nhập gói
 
- Ngoài ra, bạn sẽ cần phải nhập một số không gian tên hệ thống như`System.IO` để thao tác với tập tin. 
+Ngoài ra, bạn sẽ cần phải nhập một số không gian tên hệ thống như `System.IO` để thao tác với tập tin. 
 
 ```csharp
 using System.IO;
@@ -59,7 +61,7 @@ if (!isExists)
 Workbook workbook = new Workbook();
 ```
 
- Nghĩ về`Workbook` đối tượng như một khung vẽ trống nơi bạn sẽ tô màu cho kiệt tác đầy màu sắc của mình. Dòng này tạo ra một phiên bản sổ làm việc mới, sẵn sàng để điền dữ liệu và định dạng.
+Nghĩ về `Workbook` đối tượng như một khung vẽ trống nơi bạn sẽ tô vẽ kiệt tác đầy màu sắc của mình. Dòng này tạo ra một phiên bản sổ làm việc mới, sẵn sàng để điền dữ liệu và định dạng.
 
 ## Bước 3: Thêm màu tùy chỉnh vào bảng màu:
 
@@ -68,7 +70,7 @@ Workbook workbook = new Workbook();
 workbook.ChangePalette(Color.Orchid, 55);
 ```
 
-Đây là nơi phép thuật xảy ra! Dòng này thêm một màu tùy chỉnh, "Orchid" trong trường hợp này, vào bảng màu Excel.`ChangePalette` Phương pháp này sử dụng hai đối số: màu mong muốn và chỉ số trong bảng màu (từ 0 đến 55) nơi bạn muốn đặt màu đó. 
+Đây là nơi phép thuật xảy ra! Dòng này thêm một màu tùy chỉnh, "Orchid" trong trường hợp này, vào bảng màu Excel. `ChangePalette` Phương pháp này sử dụng hai đối số: màu mong muốn và chỉ số trong bảng màu (từ 0 đến 55) nơi bạn muốn đặt màu đó. 
 
 Lưu ý quan trọng: Excel có bảng màu mặc định hạn chế. Nếu bạn thử sử dụng màu không có trong bộ mặc định, bạn sẽ cần thêm màu đó vào bảng màu bằng phương pháp này trước khi áp dụng cho bất kỳ phần tử nào trong bảng tính của bạn.
 
@@ -115,7 +117,7 @@ styleObject.Font.Color = Color.Orchid;
 cell.SetStyle(styleObject);
 ```
 
- Trong bước này, chúng tôi đang tạo một cái mới`Style` đối tượng để xác định định dạng cho văn bản của chúng tôi.`styleObject.Font.Color` thuộc tính được đặt thành màu "Orchid" mà chúng tôi đã thêm vào bảng màu trước đó. Cuối cùng,`cell.SetStyle` phương pháp này áp dụng kiểu cho ô đã chọn trước đó tại "A1".
+Trong bước này, chúng tôi đang tạo một cái mới `Style` đối tượng để xác định định dạng cho văn bản của chúng tôi. `styleObject.Font.Color` thuộc tính được đặt thành màu "Orchid" mà chúng tôi đã thêm vào bảng màu trước đó. Cuối cùng, `cell.SetStyle` phương pháp này áp dụng kiểu cho ô đã chọn trước đó tại "A1".
 
 ## Bước 8: Lưu sổ làm việc
 
@@ -124,7 +126,7 @@ cell.SetStyle(styleObject);
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Auto);
 ```
 
-Dòng cuối cùng này lưu sổ làm việc với tất cả các thay đổi định dạng của nó vào thư mục được chỉ định.`SaveFormat.Auto` đối số tự động xác định định dạng tệp phù hợp dựa trên phần mở rộng tệp.
+Dòng cuối cùng này lưu sổ làm việc với tất cả các thay đổi định dạng của nó vào thư mục được chỉ định. `SaveFormat.Auto` đối số tự động xác định định dạng tệp phù hợp dựa trên phần mở rộng tệp.
 
 ## Phần kết luận
 
@@ -133,22 +135,24 @@ Bằng cách làm theo các bước này, bạn đã tùy chỉnh thành công b
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng định dạng màu khác ngoài Color.Orchid không?
- Chắc chắn rồi! Bạn có thể sử dụng bất kỳ màu nào từ`Color` liệt kê hoặc xác định màu tùy chỉnh bằng cách sử dụng`Color` kết cấu.
+Chắc chắn rồi! Bạn có thể sử dụng bất kỳ màu nào từ `Color` liệt kê hoặc xác định màu tùy chỉnh bằng cách sử dụng `Color` kết cấu.
 
 ### Làm thế nào để áp dụng màu tùy chỉnh cho nhiều ô?
- Bạn có thể tạo ra một`Style` đối tượng và áp dụng nó vào nhiều ô bằng cách sử dụng vòng lặp hoặc phạm vi.
+Bạn có thể tạo ra một `Style` đối tượng và áp dụng nó vào nhiều ô bằng cách sử dụng vòng lặp hoặc phạm vi.
 
 ### Tôi có thể tạo hiệu ứng chuyển màu tùy chỉnh không?
 Có, Aspose.Cells cho phép bạn tạo các gradient màu tùy chỉnh cho ô hoặc hình dạng. Tham khảo tài liệu để biết thêm chi tiết.
 
 ### Có thể thay đổi màu nền của ô không?
-Chắc chắn rồi! Bạn có thể sửa đổi`Style` đối tượng của`BackgroundColor` Thuộc tính để thay đổi màu nền.
+Chắc chắn rồi! Bạn có thể sửa đổi `Style` đối tượng của `BackgroundColor` Thuộc tính để thay đổi màu nền.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
 Truy cập Aspose.Cells để biết tài liệu .NET ([https://reference.aspose.com/cells/net/](https://reference.aspose.com/cells/net/)) để biết thêm thông tin và ví dụ về mã.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

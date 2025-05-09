@@ -1,105 +1,109 @@
 ---
-title: Zadejte písma pro vykreslování sešitu
-linktitle: Zadejte písma pro vykreslování sešitu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Přečtěte si, jak určit vlastní písma pro vykreslování sešitu pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro zajištění dokonalého výstupu PDF.
-weight: 12
-url: /cs/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-rendering/
+"description": "Naučte se, jak pomocí Aspose.Cells pro .NET zadat vlastní písma pro vykreslování sešitu. Podrobný návod, jak zajistit perfektní výstup do PDF."
+"linktitle": "Určení písem pro vykreslování sešitu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Určení písem pro vykreslování sešitu"
+"url": "/cs/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-rendering/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zadejte písma pro vykreslování sešitu
+# Určení písem pro vykreslování sešitu
 
 ## Zavedení
-Pokud jde o správu a vykreslování souborů aplikace Excel programově, Aspose.Cells for .NET vyniká jako výkonná knihovna. Umožňuje vývojářům snadno manipulovat, vytvářet a převádět soubory Excel. Jedním z běžných úkolů je určení vlastních písem pro vykreslování sešitu, aby se zajistilo, že si dokumenty udrží požadovanou estetiku a formát. Tento článek vás krok za krokem provede procesem, jak toho dosáhnout pomocí Aspose.Cells for .NET, a zajistit tak bezproblémové vykreslování.
+Pokud jde o programovou správu a vykreslování souborů Excelu, Aspose.Cells pro .NET vyniká jako výkonná knihovna. Umožňuje vývojářům snadno manipulovat s excelovými soubory, vytvářet je a převádět. Jedním z běžných úkolů je specifikace vlastních písem pro vykreslování sešitů, aby si dokumenty zachovaly požadovanou estetiku a formát. Tento článek vás krok za krokem provede procesem, jak toho dosáhnout pomocí Aspose.Cells pro .NET a zajistit tak bezproblémové vykreslování.
 ## Předpoklady
-Než se ponoříme do vzrušujícího světa Aspose.Cells a přizpůsobení písem, ujistěte se, že máte vše, co potřebujete, abyste mohli začít:
-1. Základní znalost .NET: Znalost programování .NET je zásadní, protože budeme pracovat v prostředí .NET.
-2. Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
-3. Visual Studio: Tato příručka předpokládá, že používáte Visual Studio jako své IDE. Ujistěte se, že jej máte nainstalovaný a nastavený.
-4. Vzorový soubor Excel: Připravte si vzorový soubor Excel pro tento výukový program. To usnadní pochopení toho, jak vlastní písma ovlivňují výstup vykreslování.
-5. Vlastní písma: Připravte si adresář vlastních písem, která chcete použít. To je zásadní pro testování našeho procesu vykreslování.
-S těmito předpoklady jsme připraveni vrhnout se na to, že specifikujeme fonty pro vykreslování sešitu!
-## Importujte balíčky
-Než začneme kódovat, je nezbytné zahrnout potřebné knihovny. Zde je postup:
-1. Otevřete projekt sady Visual Studio.
-2. V Průzkumníku řešení klikněte pravým tlačítkem na svůj projekt a vyberte „Spravovat balíčky NuGet“.
+Než se ponoříme do vzrušujícího světa Aspose.Cells a úpravy písem, ujistěme se, že máte vše, co potřebujete k zahájení:
+1. Základní znalost .NET: Znalost programování v .NET je klíčová, protože budeme pracovat v prostředí .NET.
+2. Aspose.Cells pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si ji stáhnout. [zde](https://releases.aspose.com/cells/net/).
+3. Visual Studio: Tato příručka předpokládá, že jako IDE používáte Visual Studio. Ujistěte se, že ho máte nainstalované a nastavené.
+4. Ukázkový soubor Excel: Pro tento tutoriál si připravte ukázkový soubor Excel. Usnadní vám to pochopení toho, jak vlastní písma ovlivňují výstup vykreslování.
+5. Vlastní fonty: Připravte si adresář s vlastními fonty, které chcete použít. To je nezbytné pro testování našeho procesu vykreslování.
+S těmito předpoklady jsme připraveni pustit se do detailů specifikace písem pro vykreslování sešitu!
+## Importovat balíčky
+Než začneme s kódováním, je nezbytné zahrnout potřebné knihovny. Zde je návod:
+1. Otevřete svůj projekt ve Visual Studiu.
+2. V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte možnost „Spravovat balíčky NuGet“.
 3. Vyhledejte „Aspose.Cells“ a nainstalujte nejnovější verzi.
-Jakmile budete mít balíček nainstalován, je čas naimportovat požadované jmenné prostory do vašeho kódu:
+Jakmile máte balíček nainstalovaný, je čas importovat požadované jmenné prostory do kódu:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Nyní, když máme naše balíčky roztříděné, pojďme si projít kroky k určení písem.
-## Krok 1: Nastavte cesty k adresáři
-Než cokoli jiného, musíte vytvořit adresáře, kde se nacházejí vaše soubory Excel a vlastní písma. Zde je postup:
+Nyní, když máme balíčky vyřešené, pojďme si projít kroky pro určení písem.
+## Krok 1: Nastavení cest k adresářům
+Především je třeba nastavit adresáře, kde se nacházejí vaše soubory aplikace Excel a vlastní písma. Postupujte takto:
 ```csharp
-// Zdrojový adresář pro vaše soubory Excel.
+// Zdrojový adresář pro vaše soubory Excelu.
 string sourceDir = "Your Document Directory";
-// Výstupní adresář, kam se budou ukládat vykreslené soubory.
+// Výstupní adresář, kam budou uloženy vykreslené soubory.
 string outputDir = "Your Document Directory";
-// Vlastní adresář písem.
+// Adresář vlastních písem.
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
- Představte si, že máte kartotéku plnou důležitých dokumentů (v tomto případě souborů Excel). Nastavení vašich adresářů je jako uspořádání té skříně; zajišťuje, že přesně víte, kde jsou vaše soubory uloženy. Definováním`sourceDir`, `outputDir` a`customFontsDir`, připravujete pracovní prostor, díky kterému bude váš kód čistší a lépe spravovatelný.
-## Krok 2: Zadejte konfigurace jednotlivých písem
-Dále musíme vytvořit individuální konfigurace písem. Tento krok je zásadní pro to, abyste Aspose.Cells řekli, kde najdou vaše vlastní písma.
+Představte si, že máte kartotéku plnou důležitých dokumentů (v tomto případě souborů aplikace Excel). Nastavení adresářů je jako organizace této kartotéky; zajišťuje, že přesně víte, kde jsou vaše soubory uloženy. Definováním `sourceDir`, `outputDir`a `customFontsDir`, připravujete si pracovní prostor, díky kterému bude váš kód čistší a lépe spravovatelný.
+## Krok 2: Zadání individuálních konfigurací písem
+Dále musíme vytvořit individuální konfigurace písem. Tento krok je klíčový pro to, abychom Aspose.Cells sdělili, kde má vaše vlastní písma najít.
 ```csharp
-// Určete jednotlivé konfigurace písem ve vlastním adresáři písem.
+// Zadejte jednotlivé konfigurace písem v adresáři vlastních písem.
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Berte tento krok jako poskytnutí pokynů příteli, který se snaží najít konkrétní kavárnu. Zadáním`customFontsDir`ukazujete Aspose.Cells na přesné umístění vašich písem. Pokud je směr nesprávný (nebo pokud tam nejsou písma), můžete skončit s neuspokojivým výstupem PDF. Ujistěte se tedy, že váš adresář písem je přesný!
-## Krok 3: Nastavte možnosti načítání
-Nyní je čas definovat možnosti načítání, které integrují naše nastavení písem do sešitu.
+Představte si tento krok jako pokyn příteli, který se snaží najít konkrétní kavárnu. Zadáním `customFontsDir`, ukazujete Aspose.Cells na přesné umístění vašich písem. Pokud je směr nesprávný (nebo pokud tam písma nejsou), může dojít k neuspokojivému výstupu PDF. Proto se ujistěte, že máte správný adresář písem!
+## Krok 3: Nastavení možností načítání
+Nyní je čas definovat možnosti načítání, které integrují naše nastavení písma do sešitu.
 ```csharp
-// Určete možnosti načtení pomocí konfigurace písem.
+// Zadejte možnosti načítání s konfiguracemi písem.
 LoadOptions opts = new LoadOptions(LoadFormat.Xlsx);
 opts.FontConfigs = fontConfigs;
 ```
- Je najako balit si kufry na výlet. The`LoadOptions` slouží jako nezbytnost vašeho cestování – připravují sešit na nadcházející cestu (proces vykreslování). Propojením`fontConfigs` to `opts`, zajistíte, že když se sešit načte, bude vědět, že má hledat vaše vlastní písma.
+Je to jako sbalit si kufry na cestu. `LoadOptions` slouží jako vaše cestovní nezbytnosti – připravují pracovní sešit na nadcházející cestu (proces vykreslování). Propojením `fontConfigs` na `opts`zajistíte, že sešit po načtení bude vědět, že má hledat vaše vlastní písma.
 ## Krok 4: Načtěte soubor Excel
-S našimi pevně nastavenými možnostmi načtení načtěte soubor Excel, který hodláme vykreslit.
+S pevně nastavenými možnostmi načítání načtěme soubor Excel, který chceme vykreslit.
 ```csharp
-// Načtěte ukázkový soubor Excel s jednotlivými konfiguracemi písem.
+// Načtěte ukázkový soubor aplikace Excel s jednotlivými konfiguracemi písem.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Tento krok je podobný otevření vaší oblíbené knihy. Zde říkáte Aspose.Cells, se kterým souborem Excel pracovat. Pomocí`Workbook`třídy a specifikovaných možností načtení, v podstatě otevíráte kryt a ponoříte se do obsahu, připraveni provést změny.
+Tento krok je podobný otevření vaší oblíbené knihy. Zde sdělujete Aspose.Cells, se kterým souborem Excelu má pracovat. Pomocí `Workbook` třídu a zadané možnosti načítání v podstatě otevíráte obal a ponořujete se do obsahu, připraveni provádět změny.
 ## Krok 5: Uložte sešit v požadovaném formátu
-Nakonec je čas upravený sešit uložit v požadovaném formátu (v tomto případě PDF).
+Nakonec je čas uložit upravený sešit v požadovaném formátu (v tomto případě PDF).
 ```csharp
 // Uložit do formátu PDF.
 wb.Save(outputDir + "outputSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.pdf", SaveFormat.Pdf);
 ```
-Je to, jako když knihu po přečtení vrátíte na poličku, ale nyní je v jiném formátu. Uložením sešitu ve formátu PDF zajistíte, že vykreslení bude provedeno s neporušenými zadanými fonty, takže bude reprezentativní a profesionální.
-## Krok 6: Potvrďte úspěch
-Nakonec si potvrďte, že vše proběhlo hladce vytištěním zprávy o úspěchu.
+Je to jako byste po přečtení vrátili knihu zpět na poličku, ale teď je v jiném formátu. Uložením sešitu ve formátu PDF zajistíte, že vykreslení bude provedeno s neporušenými zadanými fonty, takže bude vypadat reprezentativně a profesionálně.
+## Krok 6: Potvrzení úspěchu
+Nakonec si ověřme, že vše proběhlo hladce, vypsáním zprávy o úspěchu.
 ```csharp
 Console.WriteLine("SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering executed successfully.");
 ```
-To je třešnička navrchu! Stejně jako při oslavě po dosažení cíle vám tato zpráva o úspěchu dává vědět, že váš proces byl dokončen bez problémů. Vždy je dobré mít při programování zpětnou vazbu, která potvrdí, že váš kód běží podle očekávání.
+A tohle je třešnička na dortu! Stejně jako oslava po dosažení cíle, i tato zpráva o úspěchu vám oznámí, že váš proces proběhl bez problémů. Vždy je dobré mít zpětnou vazbu v programování, abyste si byli jisti, že váš kód běží podle očekávání.
 ## Závěr
-tady to máte! Určení písem pro vykreslování sešitu pomocí Aspose.Cells for .NET je nejen jednoduché, ale také klíčové pro vytváření vizuálně poutavých dokumentů. Dodržením těchto kroků můžete zajistit, že si vaše soubory Excel zachovají svůj zamýšlený vzhled i po převodu do PDF. Ať už vytváříte sestavu, finanční dokument nebo jakýkoli jiný typ excelového sešitu, vlastní písma mohou zlepšit čitelnost a prezentaci. Neváhejte tedy experimentovat s různými konfiguracemi písem a uvidíte, jak mohou pozvednout vaše dokumenty!
-## FAQ
+A tady to máte! Určení písem pro vykreslování sešitu pomocí Aspose.Cells pro .NET je nejen jednoduché, ale také klíčové pro vytváření vizuálně poutavých dokumentů. Dodržením těchto kroků si můžete zajistit, že si vaše soubory Excelu zachovají zamýšlený vzhled i po převodu do PDF. Ať už vyvíjíte zprávu, finanční dokument nebo jakýkoli jiný typ sešitu Excelu, vlastní písma mohou zlepšit čitelnost a prezentaci. Neváhejte tedy experimentovat s různými konfiguracemi písem a uvidíte, jak mohou vylepšit vaše dokumenty!
+## Často kladené otázky
 ### Co je Aspose.Cells pro .NET?  
-Aspose.Cells for .NET je výkonná knihovna umožňující vývojářům pracovat s formáty souborů aplikace Excel, včetně vytváření, úprav a převodu dokumentů aplikace Excel programově.
+Aspose.Cells pro .NET je výkonná knihovna, která umožňuje vývojářům pracovat s formáty souborů aplikace Excel, včetně programově vytvářet, upravovat a převádět dokumenty aplikace Excel.
 ### Potřebuji licenci k používání Aspose.Cells?  
- Ano, pro komerční použití budete potřebovat licenci. Můžete však začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
-### Mohu použít jakékoli písmo s Aspose.Cells?  
+Ano, pro komerční použití budete potřebovat licenci. Můžete však začít s bezplatnou zkušební verzí, která je k dispozici. [zde](https://releases.aspose.com/).
+### Mohu s Aspose.Cells použít jakékoli písmo?  
 Obecně ano! Můžete použít jakékoli písmo nainstalované ve vašem systému nebo obsažené ve vaší vlastní složce písem.
-### Co se stane, když neurčím složku písem?  
-Pokud neurčíte složku písem nebo pokud je složka nesprávná, výstupní PDF nemusí správně vykreslit požadovaná písma.
+### Co se stane, když neuvedu složku s písmy?  
+Pokud nezadáte složku s písmy nebo pokud je složka nesprávná, výstupní PDF nemusí správně vykreslit požadovaná písma.
 ### Jak mohu získat podporu pro Aspose.Cells?  
- Můžete získat přístup k podpoře nebo klást otázky na[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).
+Můžete se obrátit na podporu nebo se zeptat na [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

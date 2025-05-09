@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ Az Aspose.Cells képességeinek vagy más funkcióknak, például a diagramkész
 További kérdésekért vagy támogatásért látogassa meg a [Aspose Fórum](https://forum.aspose.com/c/cells/9)Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

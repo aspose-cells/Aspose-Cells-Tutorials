@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Funzione CONTA.SE in Excel
@@ -24,7 +26,7 @@ Aspose.Cells per Java è una libreria Java ricca di funzionalità che consente a
 
 ## Installazione di Aspose.Cells per Java
 
-Prima di addentrarci nell'utilizzo della funzione CONTA.SE, dobbiamo configurare Aspose.Cells per Java nel nostro progetto. Segui questi passaggi per iniziare:
+Prima di immergerci nell'utilizzo della funzione CONTA.SE, dobbiamo configurare Aspose.Cells per Java nel nostro progetto. Segui questi passaggi per iniziare:
 
 1. Scarica la libreria Aspose.Cells per Java: puoi ottenere la libreria dal sito web di Aspose. Visita [Qui](https://releases.aspose.com/cells/java/) per scaricare l'ultima versione.
 
@@ -74,7 +76,7 @@ Ora arriva la parte interessante: implementare la funzione COUNTIF utilizzando A
 1. Crea una formula: usa il `setFormula` Metodo per creare una formula CONTA.SE in una cella.
 
 ```java
-// Creare una formula CONTA.SE
+// Crea una formula CONTA.SE
 worksheet.getCells().get("B1").setFormula("=COUNTIF(A1:A5, \"Apples\")");
 ```
 
@@ -108,7 +110,7 @@ workbook.save("CountifExample.xlsx");
 
 ## Test e verifica dei risultati
 
-Apri il file Excel generato per controllare i risultati della funzione CONTA.SE. Dovresti vedere i conteggi in base ai criteri specificati nelle celle specificate.
+Apri il file Excel generato per controllare i risultati della funzione CONTA.SE. Dovresti vedere i conteggi basati sui criteri specificati nelle celle specificate.
 
 ## Risoluzione dei problemi comuni
 
@@ -155,6 +157,7 @@ Puoi trovare tutorial avanzati e documentazione per Aspose.Cells per Java su [Qu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

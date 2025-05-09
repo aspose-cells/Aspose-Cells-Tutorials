@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ Definire le posizioni dei file di input e output:
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
-Assicurati che questi percorsi puntino alle directory contenenti il tuo file Excel (`SampleInput.xlsx`) e dove vuoi salvare il PDF.
+Assicurati che questi percorsi puntino alle directory contenenti il tuo file Excel (`SampleInput.xlsx`) e dove vuoi che venga salvato il PDF.
 
 #### Passaggio 2: caricare il file Excel
 Carica il tuo documento Excel in un `Workbook` oggetto:
@@ -136,6 +138,9 @@ A5: Controlla i percorsi dei file, assicurati di avere le autorizzazioni corrett
 Ora che hai gli strumenti e le conoscenze, inizia a convertire in modo efficiente i file Excel in PDF con Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

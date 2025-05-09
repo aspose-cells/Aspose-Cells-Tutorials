@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ Wir empfehlen Ihnen, diese Lösungen in Ihren Projekten zu implementieren. Bei F
    - Ändern Sie die Versionsnummer in Ihrem `pom.xml` Datei auf die neueste Version und aktualisieren Sie die Abhängigkeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

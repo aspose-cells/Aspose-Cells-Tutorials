@@ -1,14 +1,16 @@
 ---
-title: Áp dụng định dạng 3D cho biểu đồ
-linktitle: Áp dụng định dạng 3D cho biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách tạo biểu đồ 3D tuyệt đẹp trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước đơn giản của chúng tôi.
-weight: 10
-url: /vi/net/advanced-chart-operations/apply-3d-format-to-chart/
+"description": "Khám phá cách tạo biểu đồ 3D tuyệt đẹp trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước đơn giản của chúng tôi."
+"linktitle": "Áp dụng định dạng 3D cho biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Áp dụng định dạng 3D cho biểu đồ"
+"url": "/vi/net/advanced-chart-operations/apply-3d-format-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng định dạng 3D cho biểu đồ
@@ -24,7 +26,7 @@ Trước khi đi sâu vào cách áp dụng định dạng 3D vào biểu đồ,
 ### Yêu cầu phần mềm
 
 - Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio để làm việc với các ứng dụng .NET.
--  Aspose.Cells cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Cells từ[đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Nếu bạn chưa tải xuống và cài đặt Aspose.Cells từ [đây](https://releases.aspose.com/cells/net/).
 
 ### Thiết lập môi trường mã hóa
 
@@ -56,14 +58,14 @@ Phần này sẽ chia nhỏ quy trình thành các bước dễ quản lý, giú
 
 ## Bước 1: Khởi tạo sổ làm việc của bạn
 
- Đầu tiên, bạn cần tạo một phiên bản của`Workbook` lớp. Đối tượng này sẽ đóng vai trò là nền tảng cho tài liệu Excel của bạn.
+Đầu tiên, bạn cần tạo một phiên bản của `Workbook` lớp. Đối tượng này sẽ đóng vai trò là nền tảng cho tài liệu Excel của bạn.
 
 ```csharp
 //Thư mục đầu ra
 string outputDir = "Your Document Directory";
 Workbook book = new Workbook();
 ```
- Hãy nghĩ về điều này`Workbook` như một trang giấy trắng—sẵn sàng để bạn điền vào bằng dữ liệu đầy màu sắc và hình ảnh trực quan có sức tác động.
+Hãy nghĩ về điều này `Workbook` như một trang giấy trắng—sẵn sàng để bạn điền vào bằng dữ liệu đầy màu sắc và hình ảnh trực quan có sức tác động.
 
 ## Bước 2: Đổi tên trang tính đầu tiên
 
@@ -148,7 +150,7 @@ ShapePropertyCollection spPr = ser.ShapeProperties;
 Format3D fmt3d = spPr.Format3D;
 ```
 
-Chúng ta đang chuẩn bị thêm chút gia vị vào món ăn của mình - hãy coi đó như một loại gia vị giúp tăng thêm hương vị tổng thể.
+Chúng ta đang chuẩn bị thêm một chút gia vị vào món ăn của mình - hãy coi đó như một loại gia vị làm tăng thêm hương vị tổng thể.
 
 ## Bước 9: Áp dụng hiệu ứng vát 3D
 
@@ -211,16 +213,18 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phá
 Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ như Cột, Đường, Hình tròn và nhiều loại khác nữa, có thể tùy chỉnh dễ dàng.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể áp dụng các hiệu ứng khác cho biểu đồ ngoài định dạng 3D không?
 Có, bạn có thể áp dụng nhiều hiệu ứng khác nhau như đổ bóng, chuyển màu và nhiều kiểu khác nhau để nâng cao biểu đồ của mình vượt ra ngoài phạm vi 3D.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và giúp đỡ từ cộng đồng.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và giúp đỡ từ cộng đồng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

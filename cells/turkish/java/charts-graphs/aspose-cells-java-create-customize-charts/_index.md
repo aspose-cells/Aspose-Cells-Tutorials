@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ Artık Java'da Aspose.Cells kullanarak grafik oluşturma ve özelleştirme konus
 Bu kılavuzu takip ederek, Aspose.Cells'i kullanarak Java uygulamalarında kolaylıkla grafikler oluşturabilecek ve özelleştirebileceksiniz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

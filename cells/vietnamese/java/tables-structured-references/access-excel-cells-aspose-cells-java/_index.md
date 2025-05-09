@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Hãy cùng tìm hiểu những điều kiện tiên quyết bạn cần có đ�
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện bắt buộc:** Thư viện Aspose.Cells cho Java. Sử dụng Maven hoặc Gradle để quản lý sự phụ thuộc.
+- **Thư viện cần thiết:** Thư viện Aspose.Cells cho Java. Sử dụng Maven hoặc Gradle để quản lý sự phụ thuộc.
 - **Yêu cầu thiết lập môi trường:** Hiểu biết cơ bản về Java và quen thuộc với IDE của bạn (như IntelliJ IDEA hoặc Eclipse).
 - **Điều kiện tiên quyết về kiến thức:** Quen thuộc với cấu trúc tệp Excel và kinh nghiệm làm việc với các thư viện trong các dự án Java.
 
@@ -149,6 +151,9 @@ Khám phá các chức năng bổ sung của Aspose.Cells, chẳng hạn như t�
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

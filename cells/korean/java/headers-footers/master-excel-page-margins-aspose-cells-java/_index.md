@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Aspose.Cells Java로 작업할 때 성능을 최적화하기 위해 다음 팁�
 
 ## 결론
 
-이 가이드에서는 Aspose.Cells Java를 사용하여 Excel 페이지 여백을 프로그래밍 방식으로 설정하는 방법을 안내합니다. 최적의 성능을 보장하면서 통합 문서와 워크시트를 효과적으로 생성, 액세스 및 조작하는 방법을 익혔습니다. 이러한 기술을 프로젝트에 적용하거나 Aspose.Cells의 다른 기능을 살펴보고 자동화 기능을 더욱 강화해 보세요.
+이 가이드에서는 Aspose.Cells Java를 사용하여 Excel 페이지 여백을 프로그래밍 방식으로 설정하는 방법을 설명합니다. 최적의 성능을 보장하면서 통합 문서와 워크시트를 효과적으로 생성, 액세스 및 조작하는 방법을 학습했습니다. 이러한 기술을 프로젝트에 적용하거나 Aspose.Cells의 다른 기능을 살펴보고 자동화 기능을 더욱 향상시켜 보세요.
 
 ## FAQ 섹션
 
@@ -173,6 +175,9 @@ Aspose.Cells Java로 작업할 때 성능을 최적화하기 위해 다음 팁�
    - 빌드 구성(Maven 또는 Gradle)에 Aspose.Cells에 대한 올바른 종속성 항목이 포함되어 있는지 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

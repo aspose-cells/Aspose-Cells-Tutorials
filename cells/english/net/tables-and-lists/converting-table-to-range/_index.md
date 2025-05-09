@@ -8,7 +8,9 @@ url: /net/tables-and-lists/converting-table-to-range/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Table to Range in Excel
@@ -78,6 +80,7 @@ You can seek support by visiting the Aspose forum for help and insights [here](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

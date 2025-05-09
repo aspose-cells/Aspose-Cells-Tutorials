@@ -1,14 +1,16 @@
 ---
-title: Ustaw tło graficzne w pliku ODS
-linktitle: Ustaw tło graficzne w pliku ODS
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się ustawiać tło graficzne w plikach ODS za pomocą Aspose.Cells dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku.
-weight: 25
-url: /pl/net/worksheet-operations/set-ods-graphic-background/
+"description": "Naucz się ustawiać tło graficzne w plikach ODS za pomocą Aspose.Cells dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku."
+"linktitle": "Ustaw tło graficzne w pliku ODS"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustaw tło graficzne w pliku ODS"
+"url": "/pl/net/worksheet-operations/set-ods-graphic-background/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw tło graficzne w pliku ODS
@@ -25,7 +27,7 @@ Zanim rozpoczniemy pracę nad ustawieniem tła graficznego w pliku ODS, musimy z
 - Znajomość języka programowania C# pomoże Ci sprawnie poruszać się po kodzie.
 
 ### 2. Biblioteka Aspose.Cells dla .NET
--  Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w Twoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/). 
+- Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w Twoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz [pobierz tutaj](https://releases.aspose.com/cells/net/). 
 
 ### 3. Obraz na tło
 - Będziesz potrzebować obrazu graficznego (np. JPG lub PNG), aby ustawić go jako tło. Przygotuj ten obraz i zanotuj ścieżkę do jego katalogu.
@@ -60,11 +62,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką do katalogów, w których przechowywany jest obraz wejściowy i w których chcesz zapisać plik wyjściowy.
+W tym fragmencie kodu zamień `"Your Document Directory"` z rzeczywistą ścieżką do katalogów, w których przechowywany jest obraz wejściowy i w których chcesz zapisać plik wyjściowy.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie musisz utworzyć instancję`Workbook`Klasa, która reprezentuje Twój dokument.
+Następnie musisz utworzyć instancję `Workbook` Klasa, która reprezentuje Twój dokument.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -105,7 +107,7 @@ Tutaj wypełniliśmy pierwsze dwie kolumny kolejnymi liczbami. To nadaje konteks
 
 ## Krok 5: Ustaw tło strony
 
- Oto zabawna część — ustawienie graficznego tła. Użyjemy`ODSPageBackground` klasę, aby to osiągnąć.
+Oto zabawna część — ustawienie graficznego tła. Użyjemy `ODSPageBackground` klasa, aby to osiągnąć.
 
 ```csharp
 OdsPageBackground background = worksheet.PageSetup.ODSPageBackground;
@@ -116,9 +118,9 @@ background.GraphicType = OdsPageBackgroundGraphicType.Area;
 
 Omówmy to szczegółowo:
 - Uzyskaj dostęp do PageSetup: Chcemy zmienić ustawienia strony naszego arkusza kalkulacyjnego.
--  Ustaw typ tła: Zmiana`Type` Do`Graphic` pozwala nam używać obrazu.
--  Załaduj obraz:`GraphicData`Właściwość przyjmuje tablicę bajtów Twojego obrazu — to tutaj odwołujesz się do obrazu tła.
--  Określ typ grafiki: Ustaw typ na`Area` oznacza, że obraz będzie obejmował cały obszar arkusza kalkulacyjnego.
+- Ustaw typ tła: Zmiana `Type` Do `Graphic` pozwala nam używać obrazu.
+- Załaduj obraz: `GraphicData` Właściwość przyjmuje tablicę bajtów Twojego obrazu — to tutaj odwołujesz się do obrazu tła.
+- Określ typ grafiki: Ustaw typ na `Area` oznacza, że obraz będzie obejmował cały obszar arkusza kalkulacyjnego.
 
 ## Krok 6: Zapisz skoroszyt
 
@@ -128,17 +130,17 @@ Gdy wszystko będzie już skonfigurowane, należy zapisać nowo utworzony plik O
 workbook.Save(outputDir + "GraphicBackground.ods");
 ```
 
- Ta linia kodu zapisuje skoroszyt w określonym katalogu wyjściowym jako`GraphicBackground.ods`. Voila! Twoja arkusz kalkulacyjny jest gotowy ze spektakularnym graficznym tłem.
+Ta linia kodu zapisuje skoroszyt w określonym katalogu wyjściowym jako `GraphicBackground.ods`. Voila! Twoja arkusz kalkulacyjny jest gotowy ze spektakularnym graficznym tłem.
 
 ## Krok 7: Potwierdź powodzenie
 
-Dobrą praktyką jest wyświetlenie na konsoli komunikatu o powodzeniu operacji, aby potwierdzić, że wszystko przebiegło pomyślnie.
+Dobrą praktyką jest wyświetlanie na konsoli komunikatu o powodzeniu operacji, aby potwierdzić, że wszystko przebiegło pomyślnie.
 
 ```csharp
 Console.WriteLine("SetODSGraphicBackground executed successfully.");
 ```
 
-Dzięki temu będziesz na bieżąco informowany i będziesz mieć pewność, że Twoje zadanie zostało wykonane bez żadnych zakłóceń!
+Dzięki temu będziesz na bieżąco informowany i będziesz mieć pewność, że Twoje zadanie zostało wykonane bez zakłóceń!
 
 ## Wniosek
 
@@ -153,17 +155,19 @@ Większość formatów JPG i PNG współpracuje bezproblemowo z Aspose.Cells.
 Nie jest wymagane żadne dodatkowe oprogramowanie; wystarczy upewnić się, że posiadasz wymagane środowisko uruchomieniowe .NET.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do dalszego korzystania potrzebna będzie licencja. Sprawdź[tutaj, aby uzyskać tymczasową licencję](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do dalszego korzystania potrzebna będzie licencja. Sprawdź [tutaj, aby uzyskać tymczasową licencję](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę stosować różne tła w różnych arkuszach kalkulacyjnych?
-Oczywiście! Możesz powtórzyć kroki dla każdego arkusza w swoim skoroszycie.
+Oczywiście! Możesz powtórzyć kroki dla każdego arkusza w skoroszycie.
 
 ### Czy jest dostępne jakieś wsparcie dla Aspose.Cells?
-Tak, możesz znaleźć wsparcie na[Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Tak, możesz znaleźć wsparcie na [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

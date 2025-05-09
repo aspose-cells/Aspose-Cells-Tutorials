@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Javaを使ってExcelワークシートを高品質な画像に変換する効率的な方法をお探しですか？Aspose.Cells for Javaは、JavaアプリケーションにExcelの機能をシームレスに統合する強力なソリューションを提供します。このチュートリアルでは、Aspose.Cellsの機能を活用して、ExcelシートをJPEG画像に変換する方法を説明します。
 
 **学習内容:**
-- JavaでExcelブックを読み込んでアクセスする
+- JavaでExcelワークブックを読み込んでアクセスする
 - 最適な品質を得るために画像のレンダリング設定を構成する
 - Excelワークシートを簡単に画像に変換
 - パフォーマンスを最適化し、一般的な問題をトラブルシューティングする
@@ -142,6 +144,9 @@ Aspose.Cells for Javaを使えば、Excelワークシートを画像に変換す
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

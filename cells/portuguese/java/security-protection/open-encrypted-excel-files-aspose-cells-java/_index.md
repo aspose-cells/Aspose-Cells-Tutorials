@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,6 +171,9 @@ Incentivamos você a implementar o que aprendeu hoje e ver como isso pode aprimo
 - **Apoiar:** Junte-se à comunidade Aspose nos fóruns de suporte para obter ajuda e discussões.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

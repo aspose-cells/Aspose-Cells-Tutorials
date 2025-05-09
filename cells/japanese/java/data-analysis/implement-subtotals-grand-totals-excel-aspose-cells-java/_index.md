@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ Aspose.Cellsの機能をさらに詳しく知るには、 [Aspose ドキュメ�
 Aspose.Cells for Java のパワーを活用して、Excel の自動化を次のレベルに引き上げましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

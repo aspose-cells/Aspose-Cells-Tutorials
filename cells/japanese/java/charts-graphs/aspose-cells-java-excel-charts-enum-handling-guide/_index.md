@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 このガイドに従うことで、Aspose.Cellsを活用してExcelのグラフや列挙型を扱うために必要なスキルを習得できました。これらの機能は、強力なデータ操作機能を提供することで、Javaアプリケーションを大幅に強化します。より高度な機能と楽しいコーディングについては、ライブラリのドキュメントをご覧ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

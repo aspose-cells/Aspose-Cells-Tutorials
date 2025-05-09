@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 अपने जावा प्रोजेक्ट्स में इन सुविधाओं को लागू करने का प्रयास करें और देखें कि कैसे Aspose.Cells आपके एक्सेल फ़ाइल हैंडलिंग कार्यों को सुव्यवस्थित कर सकता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/workbook-operations/regex-replace/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Regex Replace in Workbook using Aspose.Cells
@@ -138,6 +140,7 @@ You can get support by visiting the [Aspose Forum](https://forum.aspose.com/c/ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

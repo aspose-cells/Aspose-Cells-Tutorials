@@ -1,14 +1,16 @@
 ---
-title: Zezwalaj użytkownikowi na edycję zakresów w arkuszu kalkulacyjnym programu Excel
-linktitle: Zezwalaj użytkownikowi na edycję zakresów w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Zezwól użytkownikom na edycję określonych zakresów w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z kodem źródłowym w C#.
-weight: 10
-url: /pl/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
+"description": "Zezwól użytkownikom na edycję określonych zakresów w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z kodem źródłowym w C#."
+"linktitle": "Zezwalaj użytkownikowi na edycję zakresów w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zezwalaj użytkownikowi na edycję zakresów w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zezwalaj użytkownikowi na edycję zakresów w arkuszu kalkulacyjnym programu Excel
@@ -22,7 +24,7 @@ Jeśli chodzi o pracę z arkuszami kalkulacyjnymi programu Excel, elastyczność
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1. Środowisko programistyczne .NET: Musisz mieć skonfigurowane, działające środowisko programistyczne .NET (może to być Visual Studio lub dowolne inne wybrane przez Ciebie środowisko IDE).
-2.  Aspose.Cells for .NET Library: Pobierz i zainstaluj bibliotekę Aspose.Cells. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pozwoli Ci na łatwe poruszanie się po przykładach kodu.
 4. Podstawy programu Excel: Wiedza o tym, jak działa program Excel, będzie stanowić podstawę dla funkcji, które omówimy.
 
@@ -41,7 +43,7 @@ Teraz, gdy zaimportowaliśmy już wszystko, czego potrzebowaliśmy, możemy prze
 
 ## Krok 1: Skonfiguruj katalog dokumentów
 
-przypadku wszelkich operacji na plikach kluczowe jest określenie lokalizacji, w której będą zapisywane nasze dokumenty. Skonfigurujmy nasz katalog roboczy do przechowywania plików Excel.
+W przypadku wszelkich operacji na plikach kluczowe jest określenie lokalizacji, w której będą zapisywane nasze dokumenty. Skonfigurujmy nasz katalog roboczy, aby przechowywać pliki Excela.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
@@ -53,7 +55,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Po pierwsze, zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać swoje pliki. Ten kod sprawdza, czy katalog istnieje; jeśli nie, tworzy go.
+Po pierwsze, zamień `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, pod którą chcesz zapisać swoje pliki. Ten kod sprawdza, czy katalog istnieje; jeśli nie, tworzy go.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -64,7 +66,7 @@ Mając już gotowy katalog roboczy, czas utworzyć skoroszyt w programie Excel.
 Workbook book = new Workbook();
 ```
 
- Tutaj tworzymy nową instancję`Workbook` Klasa udostępniana przez Aspose.Cells, która umożliwia nam manipulowanie plikiem Excel.
+Tutaj tworzymy nową instancję `Workbook` Klasa udostępniana przez Aspose.Cells, która umożliwia nam manipulowanie plikiem Excel.
 
 ## Krok 3: Uzyskaj dostęp do domyślnego arkusza kalkulacyjnego
 
@@ -79,7 +81,7 @@ W tym fragmencie kodu uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego na
 
 ## Krok 4: Uzyskaj opcję Zezwalaj na edycję zakresów
 
- Aby umożliwić edycję określonych zakresów arkusza kalkulacyjnego, musimy uzyskać dostęp do`AllowEditRanges` nieruchomość.
+Aby umożliwić edycję określonych zakresów arkusza kalkulacyjnego, musimy uzyskać dostęp do `AllowEditRanges` nieruchomość.
 
 ```csharp
 // Pobierz opcję Zezwalaj na edycję zakresów
@@ -135,10 +137,10 @@ Oto i masz! Udało Ci się utworzyć arkusz kalkulacyjny programu Excel, który 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to potężna biblioteka .NET do obsługi plików Excel, oferująca takie funkcje, jak programowe tworzenie, edytowanie i konwertowanie arkuszy kalkulacyjnych.
+Aspose.Cells to zaawansowana biblioteka .NET do obsługi plików Excel, oferująca takie funkcje, jak programowe tworzenie, edytowanie i konwertowanie arkuszy kalkulacyjnych.
 
 ### Czy mogę zastosować wiele zakresów edytowalnych?
- Oczywiście! Możesz zadzwonić`Add` metoda na`allowRanges` kolekcję można powtarzać wielokrotnie, aby określić wiele edytowalnych zakresów.
+Oczywiście! Możesz zadzwonić `Add` metoda na `allowRanges` kolekcję można powtarzać wielokrotnie, aby określić wiele edytowalnych zakresów.
 
 ### Co się stanie jeśli zapomnę hasła?
 Niestety, jeśli zapomnisz hasła do edytowalnego zakresu, będziesz musiał usunąć zabezpieczenie lub uzyskać dostęp do pliku w zdefiniowany sposób, który może wymagać podania danych uwierzytelniających.
@@ -147,10 +149,12 @@ Niestety, jeśli zapomnisz hasła do edytowalnego zakresu, będziesz musiał usu
 Tak, Aspose oferuje bezpłatną wersję próbną, z której możesz skorzystać, aby zapoznać się z funkcjami przed zakupem.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?
- Możesz sprawdzić[dokumentacja](https://reference.aspose.com/cells/net/)aby uzyskać szczegółowe wskazówki i odniesienia.
+Możesz sprawdzić [dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać szczegółowe wskazówki i odniesienia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

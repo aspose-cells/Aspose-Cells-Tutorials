@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # บทช่วยสอนแบบภาพ Aspose.Cells
 เจาะลึกบทช่วยสอนแบบเห็นภาพ Aspose.Cells ของเรา ซึ่งออกแบบมาสำหรับนักพัฒนาและผู้ที่ชื่นชอบการจัดการสเปรดชีต บทช่วยสอนแต่ละบทจะครอบคลุมฟีเจอร์สำคัญของไลบรารี Aspose.Cells ตั้งแต่การทำงานพื้นฐาน เช่น การสร้างและจัดรูปแบบสเปรดชีต ไปจนถึงฟังก์ชันขั้นสูง เช่น การแสดงข้อมูลและการจัดการสูตร ไม่ว่าคุณจะเป็นมือใหม่หรือเป็นนักพัฒนาที่มีประสบการณ์ คู่มือแบบเห็นภาพของเรามีคำแนะนำที่ครอบคลุมและปฏิบัติตามได้ง่าย พร้อมตัวอย่างในทางปฏิบัติ
@@ -24,46 +26,75 @@
 เรียนรู้วิธีการสร้าง ปรับแต่ง และจัดการแผนภูมิในแอปพลิเคชัน .NET โดยใช้ Aspose.Cells สำรวจแผนภูมิประเภทต่างๆ ด้วยตัวอย่างที่ง่ายและมีประสิทธิภาพ
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="สร้างและจัดรูปแบบแผนภูมิ 3 มิติใน Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="การปรับขนาดและย้ายตำแหน่งแผนภูมิใน Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="เปลี่ยนทิศทางของป้ายเครื่องหมายถูกในแผนภูมิใน Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="สร้าง PDF จากแผนภูมิ Excel พร้อมระบุขนาดหน้ากระดาษ" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="สร้างแผนภูมิเส้นด้วยตัวระบุข้อมูลใน Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="ค้นหาประเภทของค่า X และ Y ในจุดแผนภูมิ" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="รับคำบรรยายแผนภูมิจากไฟล์ ODS โดยใช้ Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="ปรับเปลี่ยนรูปร่างป้ายข้อมูลแผนภูมิใน Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="สร้างแผนภูมิ Excel ด้วย Aspose.Cells สำหรับ .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [การวาดวัตถุด้วย Aspose.Cells สำหรับ .NET](./net/drawing-objects/)
 เรียนรู้วิธีการสร้าง ปรับแต่ง และจัดการแผนภูมิในแอปพลิเคชัน .NET โดยใช้ Aspose.Cells สำรวจแผนภูมิประเภทต่างๆ ด้วยตัวอย่างที่ง่ายและมีประสิทธิภาพ
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="ปรับเปลี่ยนป้ายชื่อวัตถุ Ole ใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="สร้างและบันทึกไฟล์ Excel ด้วย Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="ปรับเปลี่ยนการจัดตำแหน่งข้อความรูปร่างใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="การจัดการลำดับ Z ของรูปร่างใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="สร้างสมุดงาน Excel ด้วยแบบอักษรตะวันออกไกลและละติน" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="การเติมพื้นผิวกระเบื้องใน Excel ด้วย Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [การจัดรูปแบบใน Aspose.Cells สำหรับ .NET – สไตล์ สี และอื่นๆ](./net/formatting/)
 เรียนรู้วิธีการใช้การจัดรูปแบบใน Aspose.Cells สำหรับ .NET รวมถึงสไตล์ สี แบบอักษร ขอบ และอื่นๆ สำหรับรายงาน Excel แบบมืออาชีพ
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="การเพิ่มเส้นขอบให้กับช่วงใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="ใช้สีและพื้นหลังใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="การผสานเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="ตั้งค่าสีแบบอักษรในเซลล์ Excel โดยใช้ Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="การตั้งชื่อฟอนต์ใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="ตั้งค่าขนาดฟอนต์ใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="การจัดตำแหน่งข้อความแนวนอนใน Excel ด้วย Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="การห่อข้อความในเซลล์ Excel โดยใช้ Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [ตารางสรุปข้อมูลใน Aspose.Cells สำหรับ .NET](./net/pivot-tables/)
 เรียนรู้วิธีการสร้าง จัดรูปแบบ และจัดการตารางสรุปข้อมูลใน Aspose.Cells สำหรับ .NET สร้างรายงานแบบไดนามิกและวิเคราะห์ข้อมูลได้อย่างง่ายดายใน C#
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="สร้างตารางสรุปข้อมูลใน Excel โดยใช้ Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="บันทึกตารางสรุปข้อมูลเป็น ODS ใน Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
@@ -112,7 +143,7 @@
 - [การสร้างและการจัดรูปแบบช่วงที่มีชื่อใน Excel](./net/excel-creating-formatting-named-ranges/)
 - [การดำเนินการขั้นสูงกับช่วงที่มีชื่อใน Excel](./net/excel-advanced-named-ranges/)
 - [การจัดการช่วงที่มีชื่อใน Excel](./net/excel-managing-named-ranges/)
-- [การส่งออกและดึงข้อมูล Excel](./net/excel-data-export-retrieval/)
+- [การส่งออกและการดึงข้อมูล Excel](./net/excel-data-export-retrieval/)
 - [การกรองอัตโนมัติและการตรวจสอบของ Excel](./net/excel-autofilter-validation/)
 - [ผลรวมย่อยและการคำนวณของ Excel](./net/excel-subtotal-calculation/)
 - [การคำนวณและความสัมพันธ์ของข้อมูล Excel](./net/excel-data-dependency-calculation/)
@@ -181,8 +212,10 @@
 
 
 ## บทช่วยสอน Aspose.Cells สำหรับ Java
+
 {{% alert color="primary" %}}
 สำรวจบทช่วยสอน Aspose.Cells สำหรับ Java เรียนรู้การจัดการไฟล์ Excel ด้วยตัวอย่างโค้ด พัฒนาทักษะ Java ของคุณวันนี้!
+
 {{% /alert %}}
 
 เหล่านี้คือลิงก์ไปยังแหล่งข้อมูลที่มีประโยชน์:
@@ -219,6 +252,7 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

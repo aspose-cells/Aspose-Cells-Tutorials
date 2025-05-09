@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Protection protection = worksheet.getProtection();
 ```
 Bây giờ, áp dụng các hạn chế khác nhau bằng cách sử dụng `protection` phương pháp. Các phương pháp này kiểm soát những gì người dùng có thể hoặc không thể làm.
 
-**Bước 3: Cấu hình Tùy chọn Bảo vệ**
+**Bước 3: Cấu hình Tùy chọn bảo vệ**
 Thiết lập mức độ bảo vệ mong muốn cho bảng tính của bạn:
 ```java
 // Hạn chế các hành động cụ thể trên bảng tính
@@ -174,6 +176,9 @@ Hãy bắt đầu hành trình bảo vệ sổ làm việc Excel của bạn nga
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

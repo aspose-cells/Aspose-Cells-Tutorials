@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Licensförvärv
-För att använda Aspose.Cells behöver du en licens. Du kan få en gratis provperiod eller köpa en tillfällig licens för att utvärdera bibliotekets fulla kapacitet. Besök [Asposes köpsida](https://purchase.aspose.com/buy) för mer information.
+För att använda Aspose.Cells behöver du en licens. Du kan få en gratis provperiod eller köpa en tillfällig licens för att utvärdera bibliotekets fulla funktioner. Besök [Asposes köpsida](https://purchase.aspose.com/buy) för mer information.
 
 #### Grundläggande initialisering och installation
 Efter att du har installerat de nödvändiga biblioteken, initiera din Aspose.Cells-miljö med:
@@ -139,6 +141,9 @@ För att utforska Aspose.Cells funktioner ytterligare, överväg att experimente
 Börja experimentera med Aspose.Cells för Java idag och lås upp nya potentialer i dina databehandlingsuppgifter!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

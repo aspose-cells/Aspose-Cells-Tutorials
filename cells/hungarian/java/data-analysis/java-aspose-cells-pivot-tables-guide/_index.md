@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelke
 - **Integrált fejlesztői környezet (IDE)**Például az IntelliJ IDEA vagy az Eclipse.
 - **Aspose.Cells Java könyvtárhoz**: 25.3-as vagy újabb verzió.
 
-Győződjön meg róla, hogy magabiztosan ismeri az alapvető Java programozási ismereteket, és érti az Excel fájlok, például a munkalapok és a pivot táblázatok koncepcióját.
+Győződjön meg róla, hogy magabiztosan ismeri az alapvető Java programozási ismereteket, és érti az Excel fájlok, például a munkalapok és a kimutatástáblák alapfogalmait.
 
 ## Az Aspose.Cells beállítása Java-hoz
 
@@ -218,6 +220,9 @@ A: Csak a szükséges munkalapokat töltse be, vagy használjon streamelési API
 V:** A számítási hibák elkerülése érdekében győződjön meg arról, hogy a helyes indexek és pozíciók vannak beállítva. Mindig tesztelje a konfigurációkat mintaadatokkal, mielőtt éles munkafüzetekben alkalmazná őket.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

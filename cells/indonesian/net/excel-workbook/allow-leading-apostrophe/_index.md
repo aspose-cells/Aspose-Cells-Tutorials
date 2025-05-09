@@ -1,34 +1,36 @@
 ---
-title: Izinkan Apostrof Utama
-linktitle: Izinkan Apostrof Utama
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Kelola apostrof awal di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah melalui prosesnya.
-weight: 60
-url: /id/net/excel-workbook/allow-leading-apostrophe/
+"description": "Kelola apostrof awal di Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Tutorial komprehensif ini memandu Anda langkah demi langkah melalui prosesnya."
+"linktitle": "Izinkan Apostrof Utama"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Izinkan Apostrof Utama"
+"url": "/id/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Izinkan Apostrof Utama
 
-## Perkenalan
+## Bevezetés
 
 Selamat datang di panduan langkah demi langkah tentang cara menggunakan Aspose.Cells untuk .NET guna mengelola lembar kerja dengan lancar, khususnya berfokus pada penanganan apostrof awal dalam nilai sel. Kemampuan mengelola data secara efektif sangat penting dalam dunia yang berpusat pada data saat ini. Pernahkah Anda memperhatikan bagaimana Excel terkadang dapat memperlakukan nilai teks yang diawali dengan apostrof secara berbeda? Hal ini dapat menyebabkan hasil yang tidak diharapkan jika Anda mengotomatiskan tugas Excel dengan kode .NET. Jangan khawatir! Tutorial ini akan membantu Anda mengatasinya. 
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kodenya, berikut adalah beberapa prasyarat yang perlu Anda penuhi:
 
 1. Pengetahuan Dasar tentang .NET: Keakraban dengan framework .NET sangatlah penting. Jika Anda sudah menguasai C# atau VB.NET, anggaplah Anda sudah siap.
-2.  Pustaka Aspose.Cells untuk .NET: Anda harus menginstal Aspose.Cells. Anda dapat melakukannya dengan mudah melalui pengelola paket NuGet atau mengunduhnya dari[Situs Aspose](https://releases.aspose.com/cells/net/).
+2. Pustaka Aspose.Cells untuk .NET: Anda harus menginstal Aspose.Cells. Anda dapat melakukannya dengan mudah melalui pengelola paket NuGet atau mengunduhnya dari [Aspose oldal](https://releases.aspose.com/cells/net/).
 3. Penyiapan IDE: Pastikan Anda memiliki Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio yang siap untuk pengkodean.
 4. Contoh File Excel: Anda dapat menggunakan file contoh ("AllowLeadingApostropheSample.xlsx") yang akan kita gunakan dalam kode.
 
 Sekarang setelah Anda memenuhi prasyarat, mari impor paket yang diperlukan dan siapkan proyek kita.
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai, Anda perlu mengimpor beberapa paket penting. Berikut cara melakukannya:
 
@@ -48,7 +50,7 @@ Kami akan membagi tugas kami menjadi langkah-langkah yang dapat dikelola untuk m
 Pada langkah ini, kita perlu menentukan di mana file masukan dan keluaran kita akan ditempatkan.
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
@@ -62,7 +64,7 @@ Sekarang, kita akan membuat WorkbookDesigner, yang sangat penting untuk bekerja 
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Itu`WorkbookDesigner`mengelola desain dan pengikatan data buku kerja kita, membuat hidup kita lebih mudah saat mengonversi data ke dalam format visual.
+A `WorkbookDesigner` mengelola desain dan pengikatan data buku kerja kita, membuat hidup kita lebih mudah saat mengonversi data ke dalam format visual.
 
 ## Langkah 3: Muat Buku Kerja yang Ada
 
@@ -82,7 +84,7 @@ Sekarang, Anda perlu memastikan pengaturan buku kerja dikonfigurasikan untuk men
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Dengan pengaturan`QuotePrefixToStyle` menjadi false, kami menginstruksikan Aspose.Cells untuk memperlakukan apostrof di depan sebagai karakter biasa, yang memungkinkan kami menanganinya secara akurat dalam keluaran kami.
+Beállítással `QuotePrefixToStyle` menjadi false, kami menginstruksikan Aspose.Cells untuk memperlakukan apostrof di depan sebagai karakter biasa, yang memungkinkan kami menanganinya secara akurat dalam keluaran kami.
 
 ## Langkah 5: Muat Data untuk Penanda Cerdas
 
@@ -96,7 +98,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Kami sedang membuat daftar`DataObject`di mana salah satu nama sengaja menyertakan apostrof di awal. Ini akan membantu mengilustrasikan bagaimana Aspose.Cells menangani skenario semacam itu.
+Kami sedang membuat daftar `DataObject`, di mana salah satu nama sengaja menyertakan apostrof di awal. Ini akan membantu mengilustrasikan bagaimana Aspose.Cells menangani skenario semacam itu.
 
 ## Langkah 6: Ikat Sumber Data ke Desainer
 
@@ -108,7 +110,7 @@ designer.SetDataSource("sampleData", list);
 
 Pastikan "sampleData" cocok dengan penanda cerdas dalam berkas Excel Anda. Dengan cara ini, Aspose.Cells mengetahui tempat memasukkan data.
 
-## Langkah 7: Memproses Penanda Cerdas
+## 7. lépés: Az intelligens jelölők feldolgozása
 
 Mari kita lanjutkan untuk memproses penanda pintar dengan data yang telah kita sediakan.
 
@@ -138,31 +140,33 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 
 Keluaran konsol sederhana ini dapat meyakinkan Anda bahwa semua langkah telah dieksekusi tanpa hambatan apa pun.
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan ini, kami telah menjelajahi seluk-beluk penanganan apostrof awal di Excel menggunakan Aspose.Cells untuk .NET. Dari menyiapkan lingkungan hingga memanipulasi file Excel secara efektif, Anda telah belajar menghilangkan potensi jebakan yang sering ditemui saat bekerja dengan string numerik dan pemformatan otomatis.
 
 Sekarang, apakah Anda membuat laporan, membuat fungsionalitas untuk analisis data, atau mengelola impor dan ekspor data, Anda memiliki alat untuk menangani skenario tersebut dengan percaya diri!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka .NET yang canggih untuk membuat, memanipulasi, dan mengonversi file Excel dalam berbagai format secara terprogram.
 
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Anda dapat menggunakan Aspose.Cells dengan mendaftar untuk uji coba gratis [itt](https://releases.aspose.com/).
 
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat menemukan bantuan dan mengajukan pertanyaan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Segítséget kérhet és kérdéseket tehet fel a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
-### Jenis file apa yang didukung Aspose.Cells?
+### Milyen típusú fájlokat támogat az Aspose.Cells?
 Aspose.Cells mendukung berbagai format, seperti XLS, XLSX, CSV, dan banyak lainnya.
 
-### Bagaimana cara membeli lisensi untuk Aspose.Cells?
- Anda dapat membeli lisensi untuk Aspose.Cells langsung dari halaman pembelian mereka[Di Sini](https://purchase.aspose.com/buy).
+### Hogyan vásárolhatok licencet az Aspose.Cells-hez?
+Anda dapat membeli lisensi untuk Aspose.Cells langsung dari halaman pembelian mereka [itt](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

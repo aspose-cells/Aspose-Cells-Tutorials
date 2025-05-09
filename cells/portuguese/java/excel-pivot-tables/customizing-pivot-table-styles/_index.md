@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Personalizando estilos de tabela dinâmica
@@ -87,9 +89,11 @@ Personalizar estilos de tabelas dinâmicas no Aspose.Cells para API Java é simp
    Você pode consultar a documentação da API em [Referências da API Aspose.Cells para Java](https://reference.aspose.com/cells/java/) para obter informações detalhadas.
 
 Agora você tem o conhecimento necessário para criar e personalizar estilos de tabela dinâmica no Aspose.Cells para Java. Explore mais e torne suas apresentações de dados verdadeiramente excepcionais!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

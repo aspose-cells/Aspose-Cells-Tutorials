@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengoptimalkan Buku Kerja Excel di Java menggunakan Aspose.Cells: Panduan Kinerja
 
-## Perkenalan
+## Bevezetés
 Kesulitan mengelola buku kerja Excel yang besar secara efisien dalam aplikasi Java Anda? Tutorial komprehensif ini akan menunjukkan cara menggunakan **Aspose.Cells untuk Java** untuk mengoptimalkan penanganan buku kerja Anda. Dengan memanfaatkan kustom `LightCellsDataProvider`, kami akan mengeksplorasi teknik untuk menyederhanakan operasi, mengurangi penggunaan memori, dan meningkatkan kinerja.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Membuat dan mengonfigurasi Buku Kerja Aspose.Cells
 - Tambahkan dan konfigurasikan lembar kerja dengan pengaturan tertentu
 - Gabungkan sel dan tambahkan hyperlink secara efisien
@@ -24,19 +26,19 @@ Kesulitan mengelola buku kerja Excel yang besar secara efisien dalam aplikasi Ja
 
 Panduan ini mengasumsikan pemahaman dasar tentang Java dan keakraban dengan Maven atau Gradle. Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
 
-### Pustaka dan Versi yang Diperlukan
+### Szükséges könyvtárak és verziók
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru.
-- **Pakar** atau **Bahasa Inggris Gradle** untuk manajemen ketergantungan.
+- **Pakar** vagy **Bahasa Inggris Gradle** untuk manajemen ketergantungan.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang konsep pemrograman Java.
 - Kemampuan menggunakan Maven atau Gradle untuk pengaturan proyek dan manajemen ketergantungan.
 
@@ -58,17 +60,17 @@ Untuk mulai menggunakan Aspose.Cells untuk Java, sertakan dalam proyek Anda seba
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-1. **Uji Coba Gratis**: Unduh lisensi sementara untuk evaluasi dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
-2. **Pembelian**:Untuk akses penuh, beli lisensi melalui [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+### Licencbeszerzés lépései
+1. **Ingyenes próbaverzió**: Unduh lisensi sementara untuk evaluasi dari [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
+2. **Vásárlás**Teljes hozzáféréshez vásároljon licencet a következő címen: [Aspose Vásárlási oldal](https://purchase.aspose.com/buy).
 
 Siapkan berkas lisensi di proyek Anda untuk menghapus segala batasan evaluasi.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Kami akan menguraikan implementasi ini menjadi beberapa fitur berbeda demi kejelasan dan kemudahan pemahaman.
 
 ### Fitur 1: Membuat Instansiasi dan Mengonfigurasi Buku Kerja
-#### Ringkasan
+#### Áttekintés
 Fitur ini menunjukkan cara membuat instance baru dari Aspose.Cells `Workbook` dan mengonfigurasi jumlah lembarnya.
 ```java
 import com.aspose.cells.Workbook;
@@ -80,7 +82,7 @@ int sheetCount = 1; // Sesuaikan sesuai kebutuhan
 - Ubah `sheetCount` untuk mendapatkan jumlah lembar kerja yang diinginkan pada awalnya.
 
 ### Fitur 2: Tambahkan dan Konfigurasikan Lembar Kerja
-#### Ringkasan
+#### Áttekintés
 Di sini, kami menambahkan lembar kerja baru ke buku kerja, menetapkan namanya, dan mengonfigurasi lebar kolom untuk organisasi data yang lebih baik.
 ```java
 import com.aspose.cells.Worksheet;
@@ -105,12 +107,12 @@ for (int k = 0; k < sheetCount; k++) {
     }
 }
 ```
-#### Opsi Konfigurasi Utama
-- Menyesuaikan `sheet.getName()` agar sesuai dengan konvensi penamaan Anda.
+#### Kulcskonfigurációs beállítások
+- Beállítás `sheet.getName()` agar sesuai dengan konvensi penamaan Anda.
 - Memodifikasi `cells.setColumnWidth()` sesuai dengan persyaratan presentasi data.
 
 ### Fitur 3: Gabungkan Sel dan Tambahkan Hyperlink
-#### Ringkasan
+#### Áttekintés
 Bagian ini mengilustrasikan penggabungan sel dalam pola tertentu dan menambahkan hyperlink internal dan eksternal.
 ```java
 import com.aspose.cells.HyperlinkCollection;
@@ -147,12 +149,12 @@ for (int k = 0; k < sheetCount; k++) {
     }
 }
 ```
-#### Pertimbangan Utama
-- Menggunakan `cells.merge()` untuk mengelompokkan data secara logis dalam buku kerja Anda.
-- Memanfaatkan `hyperlinks.add()` untuk menghubungkan informasi terkait di seluruh lembar atau sumber eksternal.
+#### Főbb szempontok
+- Használat `cells.merge()` untuk mengelompokkan data secara logis dalam buku kerja Anda.
+- Használd `hyperlinks.add()` untuk menghubungkan informasi terkait di seluruh lembar atau sumber eksternal.
 
 ### Fitur 4: Konfigurasikan dan Simpan Buku Kerja dengan Penyedia Data LightCells
-#### Ringkasan
+#### Áttekintés
 Fitur terakhir ini menunjukkan pengaturan kustom `LightCellsDataProvider` untuk menyimpan buku kerja besar secara efisien, mengurangi jejak memori secara signifikan.
 ```java
 import com.aspose.cells.OoxmlSaveOptions;
@@ -165,41 +167,44 @@ opt.setLightCellsDataProvider(dataProvider);
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "/Demo_out.xlsx", opt);
 ```
-#### Opsi Konfigurasi Utama
+#### Kulcskonfigurációs beállítások
 - Sesuaikan `LightCellsDataProviderDemo` untuk menangani data tertentu secara efisien.
-- Menggunakan `OoxmlSaveOptions.setLightCellsDataProvider()` untuk penghematan yang optimal.
+- Használat `OoxmlSaveOptions.setLightCellsDataProvider()` untuk penghematan yang optimal.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut adalah beberapa skenario dunia nyata di mana teknik ini dapat diterapkan:
-1. **Pelaporan Keuangan**Sederhanakan laporan keuangan bulanan dengan menggabungkan sel terkait dan menautkan lembar anggaran.
-2. **Manajemen Inventaris**: Buat daftar inventaris dinamis yang tertaut ke URL pemasok, sehingga pembaruan dapat dilakukan dengan mudah.
-3. **Perencanaan Proyek**: Kelola jadwal proyek secara efisien dengan kolom tanggal yang digabungkan dan detail tugas yang ditautkan.
+1. **Pénzügyi jelentéstétel**Sederhanakan laporan keuangan bulanan dengan menggabungkan sel terkait dan menautkan lembar anggaran.
+2. **Készletgazdálkodás**: Buat daftar inventaris dinamis yang tertaut ke URL pemasok, sehingga pembaruan dapat dilakukan dengan mudah.
+3. **Projekttervezés**: Kelola jadwal proyek secara efisien dengan kolom tanggal yang digabungkan dan detail tugas yang ditautkan.
 
-## Pertimbangan Kinerja
-- Menggunakan `LightCellsDataProvider` untuk menangani kumpulan data besar tanpa membebani sumber daya memori.
+## Teljesítménybeli szempontok
+- Használat `LightCellsDataProvider` untuk menangani kumpulan data besar tanpa membebani sumber daya memori.
 - Optimalkan pengaturan lebar kolom untuk keterbacaan dan manajemen ukuran file yang lebih baik.
 - Pantau penggunaan memori Java secara teratur saat memproses file Excel yang besar.
 
-## Kesimpulan
+## Következtetés
 Dengan mengikuti panduan ini, Anda telah mempelajari cara mengelola dan mengoptimalkan buku kerja Excel secara efisien menggunakan Aspose.Cells di Java. Dengan teknik ini, Anda dapat menangani kumpulan data besar secara lebih efektif dan meningkatkan kinerja aplikasi Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 - Bereksperimenlah dengan fitur-fitur tambahan yang ditawarkan oleh Aspose.Cells.
 - Jelajahi kemungkinan integrasi dengan sistem lain seperti basis data atau aplikasi web.
 
 Siap untuk memulai? Terapkan solusi ini pada proyek Anda berikutnya dan rasakan kekuatan penanganan Excel yang optimal!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?**
    - Pustaka yang canggih untuk mengelola file Excel secara terprogram, menawarkan fitur ekstensif untuk pembuatan, modifikasi, dan penyimpanan buku kerja.
 2. **Bagaimana LightCellsDataProvider meningkatkan kinerja?**
    - Menyediakan cara yang hemat memori untuk menangani kumpulan data besar dengan mengalirkan data alih-alih memuat semuanya ke dalam memori sekaligus.
-3. **Bisakah saya menggunakan Aspose.Cells secara gratis?**
+3. **Ingyenesen használhatom az Aspose.Cells-t?**
    - Ya, Anda dapat mengunduh lisensi sementara untuk tujuan evaluasi atau membeli lisensi penuh untuk penggunaan komersial.
 4. **Apa manfaat utamanya?
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

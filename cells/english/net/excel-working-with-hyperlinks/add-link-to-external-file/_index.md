@@ -8,7 +8,9 @@ url: /net/excel-working-with-hyperlinks/add-link-to-external-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Link to External File in Excel
@@ -96,6 +98,7 @@ Yes, you can seek help on the Aspose support forum [here](https://forum.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

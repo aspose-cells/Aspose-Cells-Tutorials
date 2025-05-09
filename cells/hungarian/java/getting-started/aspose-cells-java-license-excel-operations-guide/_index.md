@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -217,6 +219,9 @@ Most már megtanultad, hogyan állítsd be az Aspose.Cells-t Java-ban, hogyan ny
 Az útmutató követésével felkészült leszel arra, hogy az Aspose.Cells-t Java-alkalmazásaidban robusztus Excel-automatizáláshoz használd.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

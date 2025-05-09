@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ Başlamadan önce, Java programlama hakkında temel bir anlayışa sahip olduğu
 ### Lisans Edinme Adımları
 1. **Ücretsiz Deneme**: Ücretsiz deneme sürümünü indirin [Java için Aspose.Cells](https://releases.aspose.com/cells/java/) özellikleri sınırlama olmaksızın test etmek için.
 2. **Geçici Lisans**: Geçici bir lisans almak için lütfen ziyaret edin [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
-3. **Satın almak**: Uzun süreli kullanım için, lisans satın alın [Aspose web sitesi](https://purchase.aspose.com/buy).
+3. **Satın almak**: Uzun vadeli kullanım için, lisans satın alın [Aspose web sitesi](https://purchase.aspose.com/buy).
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -110,7 +112,7 @@ workbook.save(filePath); // Değişiklikleri dosyaya geri kaydet
 *Neden*: Burada yorumun metnini değiştiriyoruz. Kaydetmek, yaptığınız değişikliklerin çalışma kitabında kalıcı olmasını sağlar.
 
 ### Sorun Giderme İpuçları
-- **Dosya Bulunamadı**: Dosya yolunu tekrar kontrol edin.
+- **Dosya Bulunamadı**: Dosya yolunu iki kez kontrol edin.
 - **DizinSınırDışında**: Geçerli bir çalışma sayfasına ve hücre dizinine eriştiğinizden emin olun.
 - **Lisans Sorunları**: Deneme sınırlamalarının ötesinde çalışıyorsa lisansınızın doğru şekilde uygulandığını onaylayın.
 
@@ -162,6 +164,9 @@ Bu öğreticiyi yararlı bulduysanız, bu teknikleri projelerinizde uygulamaya �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

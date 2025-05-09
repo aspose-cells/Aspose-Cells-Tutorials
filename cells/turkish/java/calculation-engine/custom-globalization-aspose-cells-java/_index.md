@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ class RussianGlobalization extends GlobalizationSettings {
 - **`getErrorValueString(String err)`**: Girişe göre belirli hata mesajlarını özelleştirir.
 - **`getBooleanValueString(Boolean bv)`**: Boole değerleri için özel gösterimler sağlar.
 
-#### Küreselleşme Ayarlarını Uygulama
+#### Küreselleşme Ayarlarının Uygulanması
 
 Bu ayarları bir çalışma kitabına uygulamak için:
 ```java
@@ -159,7 +161,7 @@ A3: Yaygın sorunlar arasında yanlış dosya yolları veya düzgün şekilde ge
 **S4: Aspose.Cells ile büyük çalışma kitaplarını nasıl verimli bir şekilde yönetebilirim?**
 C4: Kaynakları hızlı bir şekilde serbest bırakarak ve verimli veri işleme tekniklerini kullanarak bellek kullanımını optimize edin.
 
-**S5: Aspose.Cells'i diğer sistemlerle entegre etmek mümkün müdür?**
+**S5: Aspose.Cells'i diğer sistemlerle entegre etmek mümkün mü?**
 C5: Evet, Aspose.Cells güçlü API'si aracılığıyla çeşitli kurumsal sistemlerle entegrasyonu destekler.
 
 ## Kaynaklar
@@ -167,13 +169,16 @@ C5: Evet, Aspose.Cells güçlü API'si aracılığıyla çeşitli kurumsal siste
 - **İndirmek**: En son sürümlere şu adresten erişin: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/)
 - **Satın almak**: Ticari kullanım için lisans satın alın [Aspose Satın Alma](https://purchase.aspose.com/buy)
 - **Ücretsiz Deneme**: Ücretsiz denemeyle başlayın [Aspose Ücretsiz Deneme](https://releases.aspose.com/cells/java/)
-- **Geçici Lisans**Geçici bir lisans almak için: [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+- **Geçici Lisans**: Geçici bir lisans almak için: [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - **Destek**: Topluluktan yardım alın [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 Bu kılavuzu takip ederek, Aspose.Cells kullanarak Java uygulamalarında güçlü küreselleştirme özelliklerini uygulamaya koyma yolunda iyi bir mesafe kat etmiş olacaksınız. İyi kodlamalar!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

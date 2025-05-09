@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ workbook.save(dataDir + "InsertingARowWithFormatting_out.xlsx");
 Готовы ли вы внедрить это решение в свое приложение Java? Попробуйте и посмотрите, как Aspose.Cells может оптимизировать ваши манипуляции с файлами Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

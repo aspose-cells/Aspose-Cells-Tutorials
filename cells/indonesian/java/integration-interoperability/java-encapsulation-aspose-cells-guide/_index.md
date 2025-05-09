@@ -7,25 +7,27 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menerapkan Objek Data Terenkapsulasi di Java dengan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
 Dalam pengembangan perangkat lunak, mengelola data secara efisien sangat penting untuk membangun aplikasi yang tangguh. Panduan ini berfokus pada pembuatan dan pemeliharaan objek data yang bersih dan terenkapsulasi dalam Java, menggunakan Aspose.Cells untuk meningkatkan kemampuan aplikasi Anda dengan fitur manipulasi file Excel yang canggih.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Tentukan objek data yang dienkapsulasi dalam Java.
 - Gunakan getter dan setter untuk manajemen properti.
-- Mengesampingkan `equals` Dan `hashCode` untuk perbandingan objek yang efektif.
+- Mengesampingkan `equals` és `hashCode` untuk perbandingan objek yang efektif.
 - Siapkan dan gunakan Aspose.Cells untuk tugas pemrosesan dokumen tingkat lanjut.
 
 Sebelum memulai, mari kita tinjau prasyarat yang diperlukan untuk mengikuti tutorial ini.
 
-### Prasyarat
+### Előfeltételek
 
 Untuk mengimplementasikan objek data terenkapsulasi di Java menggunakan Aspose.Cells, Anda memerlukan:
 
@@ -54,15 +56,15 @@ Untuk memulai, tambahkan Aspose.Cells sebagai dependensi dalam proyek Anda mengg
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Untuk memanfaatkan Aspose.Cells untuk Java sepenuhnya, pertimbangkan untuk memperoleh lisensi.
 
-1. **Uji Coba Gratis:** Unduh dari [Rilis Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara:** Minta satu melalui [Halaman Pembelian](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian:** Beli lisensi melalui [Halaman Pembelian](https://purchase.aspose.com/buy) untuk akses penuh.
+1. **Ingyenes próbaverzió:** Letöltés innen [Aspose kiadások](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély:** Minta satu melalui [Vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás:** Beli lisensi melalui [Vásárlási oldal](https://purchase.aspose.com/buy) teljes hozzáférésért.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Setelah proyek Anda disiapkan, inisialisasi Aspose.Cells sebagai berikut:
 ```java
@@ -70,7 +72,7 @@ import com.aspose.cells.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Inisialisasi objek buku kerja
+        // Munkafüzet-objektum inicializálása
         Workbook workbook = new Workbook();
         
         // Tambahkan beberapa data ke lembar kerja pertama
@@ -84,19 +86,19 @@ public class Main {
 }
 ```
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 #### Membuat Objek Data Terenkapsulasi
 
 Bagian ini menunjukkan pembuatan objek data sederhana dengan enkapsulasi di Java.
 
-##### Ringkasan
+##### Áttekintés
 
 Enkapsulasi melibatkan penggabungan data dan metode dalam satu unit atau kelas. Praktik ini memastikan modularitas dan kontrol yang lebih baik atas akses data.
 
 ##### Menerapkan `DataObject` Kelas
 
-Berikut cara membuat enkapsulasi `DataObject` kelas:
+Berikut cara membuat enkapsulasi `DataObject` osztály:
 ```java
 import java.util.Objects;
 
@@ -171,54 +173,57 @@ class DataObject {
 }
 ```
 
-##### Pertimbangan Utama
+##### Főbb szempontok
 - **Enkapsulasi:** Kontrol akses ke data dengan menjadikan bidang bersifat privat dan menyediakan pengambil dan pengatur publik.
-- **Pemeriksaan Kesetaraan:** Utama `equals` Dan `hashCode` memastikan perbandingan yang akurat `DataObject` contoh.
+- **Pemeriksaan Kesetaraan:** Utama `equals` és `hashCode` memastikan perbandingan yang akurat `DataObject` contoh.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 Dengan objek data yang dienkapsulasi, Anda dapat:
 1. Kelola Profil Pengguna: Simpan informasi pengguna dengan aman dalam aplikasi Anda.
 2. Tangani Sistem Inventaris: Lacak item secara efisien dengan ID dan nama yang unik.
 3. Integrasikan dengan Basis Data: Gunakan objek ini sebagai POJO untuk operasi basis data.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
 Saat bekerja dengan Aspose.Cells dan objek data yang dienkapsulasi:
-- **Manajemen Memori:** Berhati-hatilah terhadap penggunaan sumber daya, terutama dengan kumpulan data besar.
-- **Tips Optimasi:** Memanfaatkan algoritma dan strategi caching yang efisien untuk meningkatkan kinerja.
+- **Memóriakezelés:** Berhati-hatilah terhadap penggunaan sumber daya, terutama dengan kumpulan data besar.
+- **Optimalizálási tippek:** Memanfaatkan algoritma dan strategi caching yang efisien untuk meningkatkan kinerja.
 
-### Kesimpulan
+### Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara membuat objek data terenkapsulasi di Java dan mengintegrasikannya dengan Aspose.Cells untuk manipulasi file Excel yang lebih baik. Bereksperimenlah lebih jauh dengan mengintegrasikan konsep-konsep ini ke dalam proyek Anda sendiri dan menjelajahi fungsionalitas tambahan yang ditawarkan oleh Aspose.Cells.
 
-**Langkah Berikutnya:**
-- Jelajahi fitur Aspose.Cells yang lebih canggih.
+**Következő lépések:**
+- Fedezze fel az Aspose.Cells további fejlett funkcióit.
 - Terapkan praktik ini dalam proyek dunia nyata untuk melihat manfaatnya secara langsung.
 
-### Bagian FAQ
+### GYIK szekció
 1. **Apa itu enkapsulasi dalam Java?**
    - Enkapsulasi adalah teknik menggabungkan data dan metode yang beroperasi pada data dalam satu unit, seperti kelas, untuk melindunginya dari akses dan modifikasi yang tidak sah.
 2. **Bagaimana cara menginstal Aspose.Cells untuk proyek saya?**
    - Gunakan Maven atau Gradle seperti yang ditunjukkan di atas untuk menambahkan Aspose.Cells sebagai dependensi dalam proyek Anda.
-3. **Bisakah saya menggunakan Aspose.Cells tanpa membeli lisensi?**
-   - Ya, Anda dapat memulai dengan uji coba gratis dan meminta lisensi sementara jika diperlukan.
-4. **Apa keuntungan dari overriding? `equals` Dan `hashCode`....**
+3. **Használhatom az Aspose.Cells-t licenc vásárlása nélkül?**
+   - Igen, ingyenes próbaverzióval kezdheti, és szükség esetén ideiglenes licencet kérhet.
+4. **Apa keuntungan dari overriding? `equals` és `hashCode`?**
    - Ini memungkinkan perbandingan dan hashing objek data yang akurat, penting dalam koleksi seperti `HashSet` atau saat digunakan sebagai kunci pada peta.
 5. **Bagaimana cara mengoptimalkan kinerja saat bekerja dengan berkas Excel berukuran besar?**
    - Pertimbangkan untuk menyederhanakan kode Anda untuk menangani hanya operasi yang diperlukan, gunakan algoritma yang efisien, dan kelola penggunaan memori dengan hati-hati.
 
-### Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+### Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi Aspose.Cells](https://purchase.aspose.com/buy)
-- [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Jangan ragu untuk menjelajahi sumber daya ini untuk informasi dan dukungan lebih lanjut.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

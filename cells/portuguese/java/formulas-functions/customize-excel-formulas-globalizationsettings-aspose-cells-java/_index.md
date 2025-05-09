@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ public class Initialization {
 }
 ```
 ## Guia de Implementação
-### Implementação de GlobalizationSettings personalizada
+### Implementação de configurações de globalização personalizadas
 Este recurso permite que você personalize nomes de funções em fórmulas com base nas configurações de localização.
 #### Etapa 1: Defina uma extensão de classe personalizada `GlobalizationSettings`
 ```java
@@ -147,6 +149,9 @@ Agora, você deve ter um conhecimento sólido de como personalizar fórmulas do 
 Aproveite estes recursos para aprimorar ainda mais sua compreensão e habilidades de implementação com o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

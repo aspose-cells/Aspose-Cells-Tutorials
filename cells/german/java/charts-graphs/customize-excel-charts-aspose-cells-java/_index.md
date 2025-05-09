@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,6 +183,9 @@ A5: Speichern Sie Ihre Arbeitsmappen in Formaten, die mit älteren Excel-Version
 Wenn Sie auf Probleme stoßen oder weitere Hilfe benötigen, können Sie sich jederzeit an das Support-Forum wenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

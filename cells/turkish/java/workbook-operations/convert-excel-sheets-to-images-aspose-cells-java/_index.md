@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,7 +207,7 @@ Bunu kendiniz denemeye hazır mısınız? Bu çözümü bugün projelerinizde uy
 4. **Bir sayfanın sadece belirli kısımlarını oluşturmak mümkün müdür?**
    - Evet, yapılandırın `ImageOrPrintOptions` gerektiğinde belirli hücre aralıklarını hedeflemek için.
 
-5. **Oluşturduğum görüntülerin netliği düşükse ne yapmalıyım?**
+5. **Oluşturduğum görseller net değilse ne yapmalıyım?**
    - Çözünürlük ayarlarını artırın veya Java ortamınızla uyumluluk sorunları olup olmadığını kontrol edin.
 
 ## Kaynaklar
@@ -220,6 +222,9 @@ Excel'den görüntüye dönüştürme iş akışlarınızı kolaylaştırmak iç
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

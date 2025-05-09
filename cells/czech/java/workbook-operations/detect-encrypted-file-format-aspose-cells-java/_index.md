@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Další kroky zahrnují experimentování s různými typy souborů, integraci t
 Dodržováním tohoto návodu jste nyní vybaveni k implementaci detekce formátu souborů pro šifrované soubory pomocí Aspose.Cells v Javě. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

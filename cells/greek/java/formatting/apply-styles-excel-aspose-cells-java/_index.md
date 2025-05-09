@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
    - Μπορείτε να λάβετε μια δωρεάν δοκιμή από [Λήψεις Aspose](https://releases.aspose.com/cells/java/).
    - Για εκτεταμένη χρήση, σκεφτείτε να αγοράσετε μια άδεια χρήσης ή να αποκτήσετε μια προσωρινή μέσω [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).
 
-3. **Βασική Αρχικοποίηση**: Μόλις εγκατασταθεί, δημιουργήστε μια παρουσία του `Workbook` για να ξεκινήσετε τη δημιουργία και τον χειρισμό αρχείων Excel.
+3. **Βασική Αρχικοποίηση**Μόλις εγκατασταθεί, δημιουργήστε μια παρουσία του `Workbook` για να ξεκινήσετε τη δημιουργία και τον χειρισμό αρχείων Excel.
 
 ## Οδηγός Εφαρμογής
 
@@ -205,6 +207,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

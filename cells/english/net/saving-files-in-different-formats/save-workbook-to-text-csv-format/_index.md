@@ -8,7 +8,9 @@ url: /net/saving-files-in-different-formats/save-workbook-to-text-csv-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save Workbook to Text CSV Format
@@ -113,6 +115,7 @@ You can find comprehensive documentation and examples on their [reference site](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

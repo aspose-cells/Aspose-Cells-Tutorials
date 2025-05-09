@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Truy cập văn bản phương trình của đường xu hướng cụ thể tro
 import com.aspose.cells.Trendline;
 
 Trendline trendLine = chart.getNSeries().get(0).getTrendLines().get(0); // Truy cập đường xu hướng đầu tiên từ chuỗi đầu tiên
-String equationText = trendLine.getDataLabels().getText(); // Lấy lại Văn bản phương trình của đường xu hướng
+String equationText = trendLine.getDataLabels().getText(); // Lấy lại Văn bản Phương trình của đường xu hướng
 ```
 
 **Mẹo khắc phục sự cố:**
@@ -180,6 +182,9 @@ Bạn đã sẵn sàng đưa tính năng tự động hóa Excel của mình lê
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

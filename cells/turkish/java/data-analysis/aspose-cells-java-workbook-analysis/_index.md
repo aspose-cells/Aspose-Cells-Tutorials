@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ Evet, dosya erişim mantığınızı uyarlayarak AWS S3 veya Azure Blob Storage 
 Bellek kullanımını etkili bir şekilde yönetmek için akış API'lerini kullanmayı ve işlemeyi daha küçük görevlere bölmeyi düşünün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

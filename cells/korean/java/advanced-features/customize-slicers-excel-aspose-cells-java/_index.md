@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 Aspose.Cells for Java를 사용하여 Excel 슬라이서 사용자 정의를 마스터하는 여정을 시작하고 데이터 프레젠테이션을 한 단계 업그레이드하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

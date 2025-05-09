@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ FontConfigs.setFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sour
 ```
 
 ### Porady dotyczące rozwiązywania problemów
-- **Upewnij się, że ścieżki są poprawne**:Sprawdź, czy ścieżki do katalogów i plików są prawidłowe.
+- **Upewnij się, że ścieżki są poprawne**: Sprawdź, czy ścieżki do katalogów i plików są prawidłowe.
 - **Sprawdź uprawnienia**Upewnij się, że Twoja aplikacja ma dostęp do odczytu wskazanych katalogów.
 - **Sprawdź dostępność czcionki**: Sprawdź, czy pliki czcionek znajdują się w wyznaczonych folderach.
 
@@ -176,7 +178,7 @@ Gotowy do wdrożenia? Zacznij od skonfigurowania środowiska i zacznij dostosowy
    - Możesz nabyć bezpłatną wersję próbną lub kupić pełną licencję na stronie [Strona internetowa Aspose](https://purchase.aspose.com/buy).
 
 3. **Czy mogę używać niestandardowych czcionek we wszystkich typach dokumentów Excela?**
-   - Tak, niestandardowe czcionki można stosować w różnych typach dokumentów, pod warunkiem że są obsługiwane przez Aspose.Cells.
+   - Tak, niestandardowe czcionki można stosować w różnych typach dokumentów, pod warunkiem że są one obsługiwane przez Aspose.Cells.
 
 4. **Co zrobić, jeśli czcionka nie jest wyświetlana prawidłowo?**
    - Sprawdź, czy ścieżka do pliku czcionki jest prawidłowa i czy jest dostępna dla Twojej aplikacji.
@@ -196,6 +198,9 @@ Dzięki temu kompleksowemu przewodnikowi jesteś teraz wyposażony, aby skuteczn
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

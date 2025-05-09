@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 इस गाइड का पालन करके, आपने एक्सेल चार्ट और एनम हैंडलिंग के प्रबंधन के लिए Aspose.Cells का लाभ उठाने के लिए आवश्यक कौशल प्राप्त कर लिए हैं। ये क्षमताएँ शक्तिशाली डेटा हेरफेर सुविधाएँ प्रदान करके आपके जावा अनुप्रयोगों को महत्वपूर्ण रूप से बढ़ा सकती हैं। अधिक उन्नत कार्यक्षमताओं और सुखद कोडिंग के लिए लाइब्रेरी के दस्तावेज़ों को देखना जारी रखें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

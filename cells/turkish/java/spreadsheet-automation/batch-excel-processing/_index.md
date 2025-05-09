@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Toplu Excel İşleme
@@ -109,9 +111,11 @@ Aspose.Cells for Java ile toplu Excel işlemeyi otomatikleştirmek, birden fazla
    API belgelerini şu adreste inceleyin: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
 
 Aspose.Cells for Java'yı kullanarak toplu Excel işleme görevlerinizi optimize edin ve üretkenliğinizi artırın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

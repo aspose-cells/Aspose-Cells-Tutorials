@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Explore más funciones de Aspose.Cells, como opciones de estilo y formato para s
 Siguiendo esta guía, estará bien preparado para aprovechar Aspose.Cells para Java al exportar hojas de cálculo de Excel como HTML. ¡Que disfrute programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

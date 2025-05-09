@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 ## 您將學到什麼
 
 - 如何使用 Aspose.Cells for Java 執行範本和報表操作
-- 逐步實現並附帶完整程式碼範例
+- 完整的程式碼範例逐步實現
 - 最佳實踐和優化技術
 - 模板和報告中常見挑戰的解決方案
 
@@ -30,7 +32,7 @@
 ### [使用 Aspose.Cells Java 建立動態 Excel 報告並配置 PDF 書籤](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
 了解如何使用 Aspose.Cells for Java 建立動態 Excel 報表、管理工作表和設定 PDF 書籤。掌握高效率的資料管理技術。
 
-### [Aspose.Cells Java 教學：使用 Person 類別實作動態 Excel 報表的智慧標記](./aspose-cells-java-smartmarkers-person-class/)
+### [Aspose.Cells Java教學：使用Person類別實作動態Excel報表的SmartMarkers](./aspose-cells-java-smartmarkers-person-class/)
 了解如何使用 Java 中的 Aspose.Cells 實作 SmartMarkers 並使用 Person 類別自動執行動態資料報告。逐步指南，簡化您的 Excel 自動化。
 
 ### [Aspose.Cells Java指南：主工作簿設計與SmartMarker自動化](./aspose-cells-java-workbook-design-smartmarker-guide/)
@@ -54,6 +56,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

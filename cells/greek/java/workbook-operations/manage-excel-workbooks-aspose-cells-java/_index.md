@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ public class SaveExcelFile {
    - Ναι, αλλά με περιορισμούς. Σκεφτείτε το ενδεχόμενο να υποβάλετε αίτηση για προσωρινή ή μόνιμη άδεια χρήσης για πλήρεις λειτουργίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

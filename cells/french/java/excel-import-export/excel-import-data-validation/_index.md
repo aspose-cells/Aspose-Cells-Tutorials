@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validation des données d'importation Excel
@@ -80,9 +82,11 @@ Oui, Aspose.Cells pour Java est adapté à la gestion de scénarios de validatio
 Dans ce guide complet, nous avons exploré le processus de validation des données d'importation Excel avec Aspose.Cells pour Java. En suivant les étapes décrites dans cet article, vous pouvez garantir l'exactitude et la fiabilité des données importées dans vos applications Java. La validation des données est un aspect essentiel de la gestion des données, et Aspose.Cells pour Java simplifie ce processus.
 
 Maintenant, fort de ces connaissances et du code source, vous êtes prêt à améliorer vos capacités de validation de données et l'expérience utilisateur. Bon codage !
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

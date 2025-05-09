@@ -1,14 +1,16 @@
 ---
-title: एक्सेल उप-योग और गणना
-linktitle: एक्सेल उप-योग और गणना
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel सबटोटल कैसे बनाएं और प्रीसीडेंट का पता कैसे लगाएं। अपने स्प्रेडशीट कौशल को आसानी से बढ़ाने के लिए इन ट्यूटोरियल का पालन करें।
-weight: 33
-url: /hi/net/excel-subtotal-calculation/
+"description": "जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel सबटोटल कैसे बनाएं और प्रीसीडेंट का पता कैसे लगाएं। अपने स्प्रेडशीट कौशल को आसानी से बढ़ाने के लिए इन ट्यूटोरियल का पालन करें।"
+"linktitle": "एक्सेल उप-योग और गणना"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "एक्सेल उप-योग और गणना"
+"url": "/hi/net/excel-subtotal-calculation/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल उप-योग और गणना
@@ -32,9 +34,11 @@ url: /hi/net/excel-subtotal-calculation/
 इस आसान चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में उप-योग बनाना सीखें।
 ### [एक्सेल में पूर्ववर्ती उदाहरणों का अनुरेखण](./tracing-precedents-in-excel/)
 .NET के लिए Aspose.Cells के साथ Excel में मिसालों का पता लगाना सीखें! अपने स्प्रेडशीट कौशल को बढ़ाने वाले चरण-दर-चरण कोड ट्यूटोरियल खोजें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

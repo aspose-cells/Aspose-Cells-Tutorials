@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **Giấy phép tạm thời**:Xin giấy phép tạm thời nếu bạn cần đánh giá thư viện mà không có giới hạn đánh giá.
 - **Mua**: Hãy cân nhắc mua giấy phép đầy đủ để sử dụng lâu dài và truy cập vào tất cả các tính năng.
 
-Sau khi thiết lập xong môi trường, chúng ta hãy chuyển sang triển khai tạo PDF an toàn bằng Aspose.Cells trong Java.
+Sau khi môi trường của bạn được thiết lập, hãy chuyển sang triển khai tạo PDF an toàn với Aspose.Cells trong Java.
 
 ### Hướng dẫn thực hiện
 #### Tính năng: Tạo tài liệu PDF an toàn
@@ -102,7 +104,7 @@ saveOption.getSecurityOptions().setPrintPermission(false);
 - **Mật khẩu chủ sở hữu**: Cấp quyền truy cập đầy đủ, cho phép bạn sửa đổi cài đặt bảo mật.
 
 ##### Bước 4: Lưu dưới dạng PDF an toàn
-Cuối cùng, hãy lưu sổ làm việc của bạn dưới dạng tài liệu PDF an toàn:
+Cuối cùng, hãy lưu bảng tính của bạn dưới dạng tài liệu PDF an toàn:
 
 ```java
 // Xác định đường dẫn thư mục đầu ra để lưu tệp PDF được bảo mật.
@@ -140,7 +142,7 @@ Trong hướng dẫn này, bạn đã học cách tạo PDF an toàn từ tệp 
 A1: Bạn có thể tải xuống phiên bản dùng thử từ trang web Aspose, cho phép bạn đánh giá các tính năng của nó mà không mất bất kỳ chi phí nào. Đối với môi trường sản xuất, hãy cân nhắc mua giấy phép.
 
 **Câu hỏi 2: Làm thế nào để áp dụng các thiết lập bảo mật khác nhau vào tệp PDF của tôi?**
-A2: Sử dụng `PdfSaveOptions` Và `PdfSecurityOptions` để cấu hình các thuộc tính bảo mật khác nhau như mật khẩu và quyền như được hiển thị trong hướng dẫn.
+A2: Sử dụng `PdfSaveOptions` Và `PdfSecurityOptions` để cấu hình nhiều thuộc tính bảo mật khác nhau như mật khẩu và quyền như được trình bày trong hướng dẫn.
 
 **Câu hỏi 3: Tôi phải làm gì nếu gặp lỗi trong quá trình thiết lập?**
 A3: Đảm bảo môi trường của bạn đáp ứng mọi điều kiện tiên quyết. Kiểm tra lại các phiên bản thư viện và sự phụ thuộc. Tham khảo tài liệu hoặc diễn đàn của Aspose để biết mẹo khắc phục sự cố.
@@ -160,6 +162,9 @@ A5: Hoàn toàn có thể! Chức năng này có thể được tích hợp li�
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

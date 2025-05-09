@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Slicers Management
@@ -49,9 +51,11 @@ Learn how to easily remove slicers from Excel files using Aspose.Cells for .NET 
 Master rendering slicers with Aspose.Cells for .NET. Follow our detailed guide and create visually appealing Excel presentations effortlessly.
 ### [Update Slicers in Aspose.Cells .NET](./update-slicers/)
 Learn how to update slicers in Excel using Aspose.Cells for .NET with this step-by-step guide and enhance your data analysis skills.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 
 ## 사용 가능한 튜토리얼
 
-### [Aspose.Cells Java: XML 맵을 추가하고 XLSX로 저장하는 방법(2023 가이드)](./aspose-cells-java-add-xml-map-save-xlsx/)
+### [Aspose.Cells Java: XML 맵을 추가하고 XLSX로 저장하는 방법(2023년 가이드)](./aspose-cells-java-add-xml-map-save-xlsx/)
 Aspose.Cells Java를 사용하여 Excel 통합 문서에 XML 맵을 추가하고 XLSX 파일로 저장하는 방법을 알아보세요. 이 종합 가이드에서는 설정, 구현 및 모범 사례를 다룹니다.
 
 ### [Aspose.Cells Java: 사용자 정의 로드 필터 구현 및 Excel 시트를 이미지로 내보내기](./aspose-cells-java-custom-load-filters-excel-export/)
@@ -46,7 +48,7 @@ Aspose.Cells를 사용하여 Java에서 다중 인코딩 CSV 파일을 가져오
 이 포괄적인 가이드를 통해 Aspose.Cells Java를 사용하여 탭으로 구분된 파일을 원활하게 열고 처리하는 방법을 알아보세요.
 
 ### [Aspose.Cells Java 마스터하기: Excel에서 XML 맵 데이터 쿼리 및 조작](./aspose-cells-java-query-xml-map-data/)
-Aspose.Cells for Java를 사용하여 Excel 파일에 연결된 XML 맵 데이터를 효율적으로 쿼리하는 방법을 알아보세요. 포괄적인 가이드를 통해 데이터 관리 역량을 향상시켜 보세요.
+Aspose.Cells for Java를 사용하여 Excel 파일에 연결된 XML 맵 데이터를 효율적으로 쿼리하는 방법을 알아보세요. 포괄적인 가이드를 통해 데이터 관리 역량을 향상시키세요.
 
 ### [Aspose.Cells Java 튜토리얼: ODS 파일을 효과적으로 읽고 검증하는 방법](./aspose-cells-java-read-validate-ods-files/)
 Aspose.Cells for Java를 사용하여 OpenDocument Spreadsheet(ODS) 파일을 효율적으로 읽고 유효성을 검사하는 방법을 알아보세요. 이 종합 가이드에서는 설정, 워크시트 읽기, 셀 유효성 검사 등을 다룹니다.
@@ -123,6 +125,9 @@ Aspose.Cells for Java를 사용하여 XML 데이터를 효율적으로 파싱하
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

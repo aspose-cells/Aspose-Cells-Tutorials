@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,6 +183,9 @@ A5: Salve suas pastas de trabalho em formatos compatíveis com versões mais ant
 Sinta-se à vontade para entrar em contato pelo fórum de suporte caso encontre algum problema ou precise de mais assistência.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

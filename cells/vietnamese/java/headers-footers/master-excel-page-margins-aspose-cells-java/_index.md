@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Hãy cùng khám phá những điều kiện tiên quyết cần thiết trướ
 
 Trước khi làm việc với Aspose.Cells trong Java, hãy đảm bảo bạn có:
 
-- **Thư viện bắt buộc:** Bao gồm thư viện Aspose.Cells trong dự án của bạn. Phiên bản được sử dụng ở đây là 25.3.
+- **Thư viện cần thiết:** Bao gồm thư viện Aspose.Cells trong dự án của bạn. Phiên bản được sử dụng ở đây là 25.3.
 - **Môi trường phát triển:** Một IDE phù hợp (như IntelliJ IDEA hoặc Eclipse) và JDK được cài đặt trên hệ thống của bạn.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java, đặc biệt là các khái niệm hướng đối tượng.
 
@@ -173,6 +175,9 @@ Hướng dẫn này cung cấp cho bạn kiến thức để thiết lập lề 
    - Đảm bảo cấu hình bản dựng của bạn (Maven hoặc Gradle) bao gồm mục phụ thuộc chính xác cho Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

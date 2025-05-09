@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ try {
 
 - **리소스 사용 최적화:** 작업 범위를 꼭 필요한 워크시트와 셀로만 제한합니다.
 - **메모리 관리:** 사용 후 통합 문서 개체를 즉시 폐기하여 리소스를 확보하세요.
-- **효율성을 높이는 팁:** 대용량 데이터 세트를 처리할 때 스트리밍을 사용하면 메모리 소비를 최소화할 수 있습니다.
+- **효율성 팁:** 대용량 데이터 세트를 처리할 때 스트리밍을 사용하면 메모리 소비를 최소화할 수 있습니다.
 
 ## 결론
 
@@ -172,6 +174,9 @@ try {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

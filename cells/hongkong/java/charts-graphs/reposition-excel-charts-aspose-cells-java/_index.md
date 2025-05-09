@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@
 </dependency>
 ```
 **Gradle 依賴：**
-對於 Gradle 用戶，請將其包含在您的 `build.gradle` 文件：
+對於 Gradle 用戶，將其包含在您的 `build.gradle` 文件：
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -174,6 +176,9 @@ workbook.save(outDir + "/CCPosition_out.xls");
 - **購買和免費試用**：透過以下方式開始試用或購買 [Aspose的網站](https://purchase。aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

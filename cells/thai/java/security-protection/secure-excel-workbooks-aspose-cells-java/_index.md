@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 ### การแนะนำ
 
-คุณกำลังมองหาวิธีรักษาความปลอดภัยเวิร์กบุ๊ก Excel ของคุณพร้อมทั้งรักษาความชัดเจนเกี่ยวกับผู้เขียนหรือไม่ คู่มือนี้จะช่วยคุณแก้ปัญหาดังกล่าวได้โดยใช้ไลบรารี Aspose.Cells อันทรงพลังใน Java คุณจะได้เรียนรู้วิธีใช้การป้องกันการเขียน ตั้งค่าผู้เขียนได้อย่างง่ายดาย และบันทึกการเปลี่ยนแปลงของคุณอย่างปลอดภัยด้วย "Aspose.Cells สำหรับ Java" 
+คุณกำลังมองหาวิธีรักษาความปลอดภัยเวิร์กบุ๊ก Excel ของคุณพร้อมทั้งรักษาความชัดเจนเกี่ยวกับผู้เขียนอยู่หรือไม่ คู่มือนี้จะช่วยคุณแก้ปัญหาดังกล่าวได้โดยใช้ไลบรารี Aspose.Cells อันทรงพลังใน Java คุณจะได้เรียนรู้วิธีใช้การป้องกันการเขียน ตั้งค่าผู้เขียนได้อย่างง่ายดาย และบันทึกการเปลี่ยนแปลงของคุณอย่างปลอดภัยด้วย "Aspose.Cells สำหรับ Java" 
 
 #### สิ่งที่คุณจะได้เรียนรู้
 - วิธีการสร้างเวิร์กบุ๊ก Excel ใหม่
@@ -134,6 +136,9 @@ wb.save(outDir + "/outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

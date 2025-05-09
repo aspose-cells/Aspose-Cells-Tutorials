@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Aspose.Cells 是一個功能強大的函式庫，使開發人員能夠使用 Jav
 ```
 
 ### Gradle
-對於 Gradle 用戶，請將其包含在您的 `build.gradle`：
+對於 Gradle 用戶，將其包含在您的 `build.gradle`：
 
 ```gradle
 dependencies {
@@ -181,6 +183,9 @@ Aspose.Cells 可用於各種場景：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

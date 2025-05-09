@@ -1,14 +1,16 @@
 ---
-title: .NET'te Pivot Tablodaki Öğeleri Yenileme ve Hesaplama
-linktitle: .NET'te Pivot Tablodaki Öğeleri Yenileme ve Hesaplama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı, adım adım eğitimle Aspose.Cells for .NET'i kullanarak Pivot Tablo'daki öğeleri nasıl yenileyeceğinizi ve hesaplayacağınızı öğrenin.
-weight: 17
-url: /tr/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/
+"description": "Bu kapsamlı, adım adım eğitimle Aspose.Cells for .NET kullanarak Pivot Tablo'daki öğeleri nasıl yenileyeceğinizi ve hesaplayacağınızı öğrenin."
+"linktitle": ".NET'te Pivot Tablodaki Öğeleri Yenileme ve Hesaplama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Pivot Tablodaki Öğeleri Yenileme ve Hesaplama"
+"url": "/tr/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Pivot Tablodaki Öğeleri Yenileme ve Hesaplama
@@ -21,10 +23,10 @@ Koda dalmadan önce, Aspose.Cells ile sorunsuz bir yolculuk için gerekli kurulu
 - Visual Studio veya herhangi bir .NET IDE'nin yüklü olması gerekir.
 - Aspose.Cells ile uyumlu .NET framework'ün yüklü olduğundan emin olun.
 ### 2. .NET için Aspose.Cells
-- .NET için Aspose.Cells kütüphanesine ihtiyacınız olacak; bunu şu adresten indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
--  İsteğe bağlı olarak şunları düşünebilirsiniz:[Ücretsiz deneme](https://releases.aspose.com/) Kütüphaneyi değerlendirmek.
+- .NET için Aspose.Cells kütüphanesine ihtiyacınız olacak; bunu şu adresten indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
+- İsteğe bağlı olarak şunları düşünebilirsiniz: [Ücretsiz deneme](https://releases.aspose.com/) Kütüphaneyi değerlendirmek.
 ### 3. Örnek Dosyalar
--  Bir Excel dosyası hazırlayın (örneğin,`sample.xlsx`) Pivot Tablo ve hesaplanmış öğelerle. Bu dosyayı eğitim boyunca kullanacaksınız.
+- Bir Excel dosyası hazırlayın (örneğin, `sample.xlsx`) Pivot Tablo ve hesaplanmış öğelerle. Bu dosyayı eğitim boyunca kullanacaksınız.
 Artık ön koşulları ele aldığımıza göre, gerçek uygulamaya geçelim!
 ## Paketleri İçe Aktar
 Yolculuğunuzun ilk adımı gerekli paketleri içe aktarmaktır. Bu, Aspose.Cells kütüphanesi tarafından sağlanan sınıflara ve yöntemlere kolayca erişmenizi sağlayacaktır. 
@@ -41,8 +43,8 @@ Temeli attıktan sonra, süreci yönetilebilir adımlara bölelim.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-Herhangi bir dosyayı yüklemeden önce Excel dosyalarımızın depolandığı dizini ayarlamamız gerekir. Değiştir`"Your Document Directory"` sisteminizdeki gerçek yol ile`sample.xlsx` ikamet eder. Bu, uygulamanıza hazineyi bulmak için bir harita vermek gibidir!
-## Adım 2: Excel Çalışma Kitabını yükleyin
+Herhangi bir dosyayı yüklemeden önce Excel dosyalarımızın depolandığı dizini ayarlamamız gerekir. Değiştir `"Your Document Directory"` sisteminizdeki gerçek yol ile `sample.xlsx` ikamet eder. Bu, uygulamanıza hazineyi bulmak için bir harita vermek gibidir!
+## Adım 2: Excel Çalışma Kitabını Yükleyin
 ```csharp
 Workbook wb = new Workbook(dataDir + "sample.xlsx");
 ```
@@ -51,7 +53,7 @@ Burada, Excel dosyamızı bir Çalışma Kitabı nesnesine yüklüyoruz. Bu nesn
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 ```
- Excel dosyaları birden fazla sayfa içerebildiğinden, çalışma kitabımızdaki ilk sayfayı belirtiriz. Pivot Tablomuz burada yaşar.`Worksheets[0]`, aslında şunu diyoruz: "Hey, beni ilk sayfaya götür!"
+Excel dosyaları birden fazla sayfa içerebildiğinden, çalışma kitabımızdaki ilk sayfayı belirtiriz. Pivot Tablomuz burada yaşar. `Worksheets[0]`, aslında şunu diyoruz: "Hey, beni ilk sayfaya götür!"
 ## Adım 4: Bir Hücre Değerini Değiştirin
 ```csharp
 sheet.Cells["D2"].PutValue(20);
@@ -65,7 +67,7 @@ foreach (PivotTable pt in sheet.PivotTables)
 	pt.CalculateData();
 }
 ```
- İşte heyecan verici kısım! Çalışma sayfamızda bulunan tüm Pivot Tabloları yineliyoruz.`RefreshData()` Ve`CalculateData()` Her Pivot Tablosunda, yeni hücre değerlerine göre güncellenmelerini sağlıyoruz. En iyi sonucu elde etmek için tarifinize taze malzemeler eklemekle benzerdir!
+İşte heyecan verici kısım! Çalışma sayfamızda bulunan tüm Pivot Tabloları yineliyoruz. `RefreshData()` Ve `CalculateData()` Her Pivot Tablosunda, yeni hücre değerlerine göre güncellenmelerini sağlıyoruz. En iyi sonucu elde etmek için tarifinize taze malzemeler eklemekle benzerdir!
 ## Adım 6: Güncellenen Çalışma Kitabını PDF Olarak Kaydedin
 ```csharp
 wb.Save(dataDir + "RefreshAndCalculateItems_out.pdf", SaveFormat.Pdf);
@@ -75,18 +77,20 @@ Son olarak, değiştirilmiş çalışma kitabını bir PDF dosyası olarak kayde
 .NET için Aspose.Cells kullanarak Excel'de Pivot Tablolar ve hesaplanmış öğelerle çalışmak, olasılıklar dünyasının kapılarını açar. Yalnızca veri yenileme ve hesaplamaları otomatikleştirmekle kalmaz, aynı zamanda anında profesyonel görünümlü çıktılar da üretebilirsiniz. İster veri odaklı bir uygulama oluşturuyor olun, ister sadece raporlar oluşturmanız gereksin, Aspose.Cells işi etkili ve zarif bir şekilde yapmanız için size güçlü araçlar sağlar.
 ## SSS
 ### Aspose.Cells for .NET nedir?
-Aspose.Cells for .NET, geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan sağlam bir kütüphanedir.
+Aspose.Cells for .NET, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan sağlam bir kütüphanedir.
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet! Bir tane indirebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Satın alma işlemi yapmadan önce kütüphanenin özelliklerini keşfetmek için.
+Evet! Bir tane indirebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Satın alma işlemi yapmadan önce kütüphanenin özelliklerini keşfetmek için.
 ### Daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri şurada bulabilirsiniz:[Aspose referans sitesi](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeleri şurada bulabilirsiniz: [Aspose referans sitesi](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells hangi dosya formatlarını destekler?
 Aspose.Cells, XLSX, XLS, CSV, PDF ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 ### Aspose.Cells için desteği nasıl alabilirim?
- Aspose.Cells için mevcut topluluk forumlarında yardım arayabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose.Cells için mevcut topluluk forumlarında yardım arayabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

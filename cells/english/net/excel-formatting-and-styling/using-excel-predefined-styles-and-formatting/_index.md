@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/using-excel-predefined-styles-and-formatt
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Excel Predefined Styles and Formatting
@@ -108,6 +110,7 @@ Check the comprehensive [documentation](https://reference.aspose.com/cells/net/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

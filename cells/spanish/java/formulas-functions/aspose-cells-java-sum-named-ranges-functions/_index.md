@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Este tutorial demostró cómo usar rangos con nombre con funciones SUMA en Aspos
 Este tutorial le ofrece una comprensión completa de la implementación de rangos con nombre y funciones de suma con Aspose.Cells para Java. ¡Pruébelo para aprovechar al máximo el potencial de la automatización de Excel en sus aplicaciones!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

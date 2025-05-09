@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ public class ExcelDemo {
 ### Tính năng 2: Sửa đổi và tạo kiểu tế bào
 
 #### Tổng quan
-Với một bảng tính và một trang tính bổ sung, hãy sửa đổi một ô và áp dụng kiểu dáng.
+Với một bảng tính và một bảng tính bổ sung, hãy sửa đổi một ô và áp dụng kiểu dáng.
 
 #### Các bước để sửa đổi tế bào
 1. **Truy cập vào Bảng tính và Ô**
@@ -188,6 +190,9 @@ Bạn đã điều hướng thành công quá trình khởi tạo sổ làm vi�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

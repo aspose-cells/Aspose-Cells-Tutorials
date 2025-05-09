@@ -1,28 +1,30 @@
 ---
-title: Korzystanie z funkcji Podkreśl czcionkę w programie Excel
-linktitle: Korzystanie z funkcji Podkreśl czcionkę w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak używać Aspose.Cells for .NET do łatwego podkreślania tekstu w komórkach programu Excel, korzystając z naszego przewodnika krok po kroku.
-weight: 14
-url: /pl/net/working-with-fonts-in-excel/using-font-underline-type/
+"description": "Dowiedz się, jak używać Aspose.Cells for .NET do łatwego podkreślania tekstu w komórkach programu Excel, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Korzystanie z funkcji Podkreśl czcionkę w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Korzystanie z funkcji Podkreśl czcionkę w programie Excel"
+"url": "/pl/net/working-with-fonts-in-excel/using-font-underline-type/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z funkcji Podkreśl czcionkę w programie Excel
 
 ## Wstęp
-Jeśli chodzi o tworzenie arkuszy kalkulacyjnych lub manipulowanie plikami Excel w aplikacjach .NET, wydajność i łatwość użytkowania są najważniejsze. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia deweloperom bezproblemową pracę z plikami Excel. W tym samouczku zbadamy, jak używać podkreślenia czcionki w programie Excel za pomocą Aspose.Cells. Zapewnimy łatwe do naśladowania instrukcje krok po kroku, dzięki czemu będziesz w stanie zrozumieć koncepcje i zastosować je we własnych projektach bez żadnych problemów!
+Jeśli chodzi o tworzenie arkuszy kalkulacyjnych lub manipulowanie plikami Excel w aplikacjach .NET, wydajność i łatwość użytkowania są najważniejsze. Aspose.Cells dla .NET to potężna biblioteka, która umożliwia deweloperom bezproblemową pracę z plikami Excel. W tym samouczku zbadamy, jak używać podkreślenia czcionki w programie Excel za pomocą Aspose.Cells. Zapewnimy łatwe do naśladowania instrukcje krok po kroku, zapewniając, że możesz zrozumieć koncepcje i zastosować je we własnych projektach bez żadnych problemów!
 ## Wymagania wstępne
 Zanim przejdziemy do przykładów kodu, należy spełnić kilka warunków wstępnych, aby upewnić się, że środowisko programistyczne jest gotowe do użycia.
 ### Podstawowa wiedza z języka C#
-Powinieneś mieć podstawową wiedzę na temat programowania w C#. Znajomość zasad obiektowych pomoże ci również lepiej zrozumieć te koncepcje.
+Powinieneś mieć podstawową wiedzę na temat programowania w C#. Znajomość zasad obiektowości pomoże ci również lepiej zrozumieć te koncepcje.
 ### Zainstalowano program Visual Studio
- Aby skutecznie uruchomić i przetestować kod, niezbędne jest zainstalowanie programu Visual Studio. Możesz go pobrać ze strony[Witryna internetowa firmy Microsoft](https://visualstudio.microsoft.com/).
+Aby skutecznie uruchomić i przetestować kod, niezbędne jest zainstalowanie programu Visual Studio. Możesz go pobrać ze strony [Witryna internetowa firmy Microsoft](https://visualstudio.microsoft.com/).
 ### Aspose.Cells dla .NET
- Upewnij się, że zainstalowałeś bibliotekę Aspose.Cells for .NET. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/cells/net/) lub użyj Menedżera pakietów NuGet w programie Visual Studio.
+Upewnij się, że zainstalowałeś bibliotekę Aspose.Cells for .NET. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/cells/net/) lub użyj Menedżera pakietów NuGet w programie Visual Studio.
 ### .NET Framework
 Upewnij się, że masz odpowiednie środowisko .NET Framework skonfigurowane w swoim projekcie. Aspose.Cells obsługuje różne wersje; sprawdź ich dokumentację pod kątem zgodności.
 Mając te wymagania wstępne, możesz utworzyć swój pierwszy dokument programu Excel z podkreślonym tekstem!
@@ -36,7 +38,7 @@ Dodanie tych przestrzeni nazw zapewni dostęp do wszystkich klas i metod, które
 
 Teraz gdy wszystko mamy już skonfigurowane, przeanalizujmy szczegółowo każdy aspekt kodu potrzebnego do podkreślenia tekstu w komórce programu Excel.
 ## Krok 1: Skonfiguruj katalog dokumentów
-Przede wszystkim będziesz potrzebować lokalizacji na dysku, w której będziesz mógł zapisywać pliki Excela. Oto jak utworzyć ten katalog:
+Przede wszystkim będziesz potrzebować lokalizacji na dysku, w której możesz zapisywać pliki Excela. Oto jak utworzyć ten katalog:
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
@@ -45,7 +47,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Ten fragment kodu sprawdza, czy określony katalog istnieje. Jeśli nie, tworzy go dla Ciebie. Zastąp`"Your Document Directory"` z wybraną przez Ciebie ścieżką.
+Ten fragment kodu sprawdza, czy określony katalog istnieje. Jeśli nie, tworzy go dla Ciebie. Zastąp `"Your Document Directory"` z wybraną przez Ciebie ścieżką.
 ## Krok 2: Utwórz obiekt skoroszytu
 Następnie będziesz chciał utworzyć nową instancję skoroszytu, który jest zasadniczo Twoim plikiem Excela. Oto jak to zrobić:
 ```csharp
@@ -59,16 +61,16 @@ Gdy już masz swój skoroszyt, będziesz potrzebować arkusza do pracy. Dodajmy 
 // Dodawanie nowego arkusza kalkulacyjnego do obiektu Excel
 int i = workbook.Worksheets.Add();
 ```
- Dodaje nowy arkusz do skoroszytu i przechowuje indeks nowo dodanego arkusza w zmiennej`i`.
+Dodaje nowy arkusz do skoroszytu i przechowuje indeks nowo dodanego arkusza w zmiennej `i`.
 ## Krok 4: Odwołanie do nowego arkusza kalkulacyjnego
 Teraz musisz uzyskać odwołanie do arkusza, który właśnie dodałeś. To pozwoli ci nim manipulować:
 ```csharp
 // Uzyskanie odniesienia do nowo dodanego arkusza roboczego poprzez podanie indeksu arkusza
 Worksheet worksheet = workbook.Worksheets[i];
 ```
-tym kroku kod kieruje się bezpośrednio do nowego arkusza kalkulacyjnego, gdzie można dodać zawartość.
+W tym kroku kod kieruje się bezpośrednio do nowego arkusza kalkulacyjnego, gdzie można dodać zawartość.
 ## Krok 5: Uzyskaj dostęp do konkretnej komórki
-Teraz czas zdecydować, gdzie chcesz umieścić tekst. W tym przypadku użyjemy komórki A1:
+Teraz czas zdecydować, gdzie chcesz umieścić swój tekst. W tym przypadku użyjemy komórki A1:
 ```csharp
 // Dostęp do komórki „A1” z arkusza kalkulacyjnego
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
@@ -122,9 +124,11 @@ Tak! Aspose oferuje bezpłatną wersję próbną i tymczasową licencję do cel�
 Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i wiele innych.
 ### Gdzie mogę znaleźć pomoc lub wsparcie dotyczące Aspose.Cells?
 Dostęp do wsparcia społeczności i forów można uzyskać na stronie internetowej Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

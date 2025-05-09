@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,6 +129,9 @@ A3: हाँ, Aspose.Cells अपने बहुमुखी API के मा
 Aspose.Cells for Java के साथ Excel फ़ाइल हेरफेर में महारत हासिल करने के लिए अपनी यात्रा शुरू करें और अपने डेटा-संचालित अनुप्रयोगों को उन्नत करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

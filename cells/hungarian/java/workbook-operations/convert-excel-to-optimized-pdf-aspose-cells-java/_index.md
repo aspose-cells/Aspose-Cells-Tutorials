@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Az útmutató követésével megtanultad, hogyan tölthetsz be egy Excel fájlt 
 Tedd meg a következő lépést a fejlesztési utadon az Aspose.Cells for Java kísérletezésével, és emeld Excelből PDF-be konvertálási folyamataidat még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

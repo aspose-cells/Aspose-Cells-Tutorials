@@ -1,14 +1,16 @@
 ---
-title: Thêm tiện ích mở rộng web
-linktitle: Thêm tiện ích mở rộng web
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thêm tiện ích mở rộng web vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước đầy đủ này giúp nâng cao chức năng bảng tính của bạn.
-weight: 40
-url: /vi/net/excel-workbook/add-web-extension/
+"description": "Tìm hiểu cách thêm tiện ích mở rộng web vào tệp Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước đầy đủ này giúp nâng cao chức năng bảng tính của bạn."
+"linktitle": "Thêm tiện ích mở rộng web"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thêm tiện ích mở rộng web"
+"url": "/vi/net/excel-workbook/add-web-extension/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm tiện ích mở rộng web
@@ -23,7 +25,7 @@ Trước khi đi sâu vào mã hóa, hãy đảm bảo bạn có mọi thứ b�
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio vì chúng ta sẽ viết mã trong IDE này.
 2. .NET Framework: Có hiểu biết về .NET framework (tốt nhất là .NET Core hoặc .NET 5/6).
-3.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa tải xuống, hãy tải phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/) hoặc dùng thử miễn phí[đây](https://releases.aspose.com/).
+3. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa tải xuống, hãy tải phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/) hoặc dùng thử miễn phí [đây](https://releases.aspose.com/).
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn theo dõi các ví dụ.
 
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng khai thác toàn bộ tiềm năng của Aspose.Cells!
@@ -33,14 +35,14 @@ Khi đã đáp ứng được những điều kiện tiên quyết này, bạn �
 Để làm việc với Aspose.Cells, trước tiên bạn cần nhập các gói cần thiết. Sau đây là cách thực hiện:
 
 1. Mở dự án của bạn: Trong Visual Studio, hãy bắt đầu bằng cách mở dự án của bạn.
-2. Thêm tham chiếu: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn Manage NuGet Packages và tìm kiếm`Aspose.Cells`. Cài đặt gói vào dự án của bạn.
+2. Thêm tham chiếu: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, chọn Manage NuGet Packages và tìm kiếm `Aspose.Cells`. Cài đặt gói vào dự án của bạn.
 3. Nhập không gian tên cần thiết: Ở đầu tệp mã, bạn sẽ muốn thêm lệnh using sau cho không gian tên Aspose.Cells:
 
 ```csharp
 using Aspose.Cells;
 ```
 
-Bây giờ bạn đã thiết lập môi trường, hãy chuyển sang phần viết mã!
+Bây giờ bạn đã thiết lập xong môi trường, hãy chuyển sang phần viết mã!
 
 Bây giờ chúng ta đã sẵn sàng để thêm Web Extension vào bảng tính Excel. Thực hiện theo các bước sau một cách chặt chẽ:
 
@@ -79,7 +81,7 @@ Bây giờ, hãy thêm tiện ích mở rộng web mới vào bảng tính.
 ```csharp
 int extensionIndex = extensions.Add();
 ```
- Các`Add()` phương pháp này tạo ra một tiện ích mở rộng web mới và trả về chỉ mục của nó. Điều này cho phép bạn truy cập tiện ích mở rộng sau.
+Các `Add()` phương pháp này tạo ra một tiện ích mở rộng web mới và trả về chỉ mục của nó. Điều này cho phép bạn truy cập tiện ích mở rộng sau.
 
 ## Bước 5: Cấu hình Thuộc tính Tiện ích mở rộng Web
 
@@ -94,7 +96,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 - Id: Đây là mã định danh duy nhất cho tiện ích mở rộng web. Bạn có thể tìm thấy các tiện ích mở rộng có sẵn trong Office Store.
 - StoreName: Chỉ định ngôn ngữ địa phương.
--  StoreType: Ở đây, chúng tôi đặt nó thành`OMEX`, biểu thị một gói tiện ích mở rộng web.
+- StoreType: Ở đây, chúng tôi đặt nó thành `OMEX`, biểu thị một gói tiện ích mở rộng web.
 
 ## Bước 6: Thêm và cấu hình ngăn tác vụ
 
@@ -109,17 +111,17 @@ taskPane.WebExtension = extension;
 ```
 
 - Chúng tôi thêm một ngăn tác vụ mới.
--  Cài đặt`IsVisible` ĐẾN`true` đảm bảo nó hiển thị trong sổ làm việc.
--  Các`DockState` thuộc tính xác định vị trí ngăn tác vụ sẽ xuất hiện trong giao diện người dùng Excel (trong trường hợp này là ở phía bên phải).
+- Cài đặt `IsVisible` ĐẾN `true` đảm bảo nó hiển thị trong sổ làm việc.
+- Các `DockState` thuộc tính xác định vị trí ngăn tác vụ sẽ xuất hiện trong giao diện người dùng Excel (trong trường hợp này là ở phía bên phải).
 
 ## Bước 7: Lưu sổ làm việc
 
-Bước cuối cùng là lưu bảng tính, trong đó hiện đã bao gồm tiện ích mở rộng web của chúng ta.
+Bước cuối cùng là lưu sổ làm việc, trong đó hiện có cả tiện ích mở rộng web của chúng ta.
 
 ```csharp
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");
 ```
- Ở đây, chúng tôi lưu sổ làm việc vào thư mục đầu ra mà chúng tôi đã chỉ định trước đó. Thay thế`"AddWebExtension_Out.xlsx"` với bất kỳ tên tập tin nào bạn thích.
+Ở đây, chúng tôi lưu sổ làm việc vào thư mục đầu ra mà chúng tôi đã chỉ định trước đó. Thay thế `"AddWebExtension_Out.xlsx"` với bất kỳ tên tập tin nào bạn thích.
 
 ## Bước 8: Xác nhận thực hiện
 
@@ -140,19 +142,21 @@ Thêm tiện ích mở rộng web vào sổ làm việc Excel của bạn bằng
 Tiện ích mở rộng web cho phép tích hợp nội dung và chức năng web trực tiếp vào bảng tính Excel, cải thiện tính tương tác.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí cho mục đích thử nghiệm. Bạn có thể tìm hiểu thêm từ[Liên kết dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.Cells cung cấp bản dùng thử miễn phí cho mục đích thử nghiệm. Bạn có thể tìm hiểu thêm từ [Liên kết dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể mua Aspose.Cells không?
- Có! Aspose.Cells là phần mềm trả phí và bạn có thể mua nó[đây](https://purchase.aspose.com/buy).
+Có! Aspose.Cells là phần mềm trả phí và bạn có thể mua nó [đây](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells chủ yếu dành cho các ứng dụng .NET nhưng cũng có phiên bản dành cho Java và các ngôn ngữ khác.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
-Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, hãy truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, hãy truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

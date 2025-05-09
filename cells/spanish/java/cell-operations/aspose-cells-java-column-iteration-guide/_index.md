@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Aprenda a iterar eficientemente sobre columnas en hojas de cálculo de Excel con Aspose.Cells para Java. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas."
-"title": "Dominando la iteración de columnas en Excel con Aspose.Cells para Java&#58; una guía completa"
+"title": "Dominar la iteración de columnas en Excel con Aspose.Cells para Java&#58; una guía completa"
 "url": "/es/java/cell-operations/aspose-cells-java-column-iteration-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,6 +171,9 @@ Dominar la iteración de columnas con Aspose.Cells abre un mundo de posibilidade
 ¡Embárquese hoy mismo en su viaje con Aspose.Cells y revolucione su forma de manejar los datos de Excel en Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

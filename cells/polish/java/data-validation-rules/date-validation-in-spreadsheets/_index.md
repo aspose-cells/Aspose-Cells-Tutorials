@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Walidacja dat w arkuszach kalkulacyjnych
@@ -112,11 +114,12 @@ Tak, Aspose.Cells for Java oferuje szeroki zakres funkcji do pracy z plikami Exc
 
 ### Gdzie mogę znaleźć więcej materiałów i przykładów dla Aspose.Cells dla Java?
 
-Możesz zapoznać się z [Aspose.Cells dla API Java Odniesienie](https://reference.aspose.com/cells/java/) aby uzyskać pełną dokumentację i przykłady.
+Możesz zapoznać się z [Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/) aby uzyskać pełną dokumentację i przykłady.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -47,7 +49,7 @@
 
 ## Настройка Aspose.Cells для Java
 
-Выполните следующие действия, чтобы интегрировать Aspose.Cells в свой проект.
+Чтобы интегрировать Aspose.Cells в свой проект, выполните следующие действия.
 
 ### Настройка Maven
 
@@ -225,6 +227,9 @@ A4: Используйте предопределенные идентифика
 A5: Оптимизируйте диапазоны данных, минимизируйте сложность диаграмм и эффективно управляйте памятью, удаляя ненужные объекты.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

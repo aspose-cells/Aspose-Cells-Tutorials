@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ Aspose.Cells for Java का उपयोग करके इन सुविध
 ```
 
 ### ग्रैडल के माध्यम से स्थापना
-Gradle का उपयोग करने वाले लोग इसे अपने में शामिल करें `build.gradle` फ़ाइल:
+जो लोग Gradle का उपयोग कर रहे हैं, वे इसे अपने में शामिल करें `build.gradle` फ़ाइल:
 
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -164,6 +166,9 @@ workbook.save(outputDir + "/ConvertActiveWorksheetToSVG_out.svg");
 - [सहयता मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

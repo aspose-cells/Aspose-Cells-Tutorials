@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Khi môi trường của bạn đã sẵn sàng, hãy thiết lập Aspose.Cells
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Khởi tạo cơ bản**: Tạo một `Workbook` Ví dụ để bắt đầu làm việc với các tệp Excel.
+3. **Khởi tạo cơ bản**Tạo một `Workbook` Ví dụ để bắt đầu làm việc với các tệp Excel.
 
 ## Hướng dẫn thực hiện
 
@@ -166,6 +168,9 @@ Bây giờ bạn đã biết cách sửa đổi hình dạng nhãn dữ liệu b
 Hướng dẫn toàn diện này sẽ giúp bạn tùy chỉnh hiệu quả nhãn dữ liệu biểu đồ trong ứng dụng Java của mình bằng Aspose.Cells. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

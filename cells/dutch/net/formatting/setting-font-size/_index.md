@@ -1,53 +1,57 @@
 ---
-title: Stel lettergrootte in Excel met behulp van Aspose.Cells voor .NET
-weight: 7700
-limit: 
-description: Leer hoe je de lettergrootte in een Excel-bestand instelt met behulp van Aspose.Cells voor .NET. Deze handleiding omvat het maken van werkboeken, het maken van cellen en het opslaan van het bestand.
-keywords: [Aspose.Cells for .NET, set font size in Excel, Excel font size, C# Excel formatting, modify Excel cell style, Aspose.Cells tutorial, change font size C#]
-url: /nl/net/formatting/setting-font-size/
+"description": "Leer hoe u de lettergrootte in een Excel-bestand instelt met Aspose.Cells voor .NET. Deze handleiding behandelt het maken van werkmappen, het opmaken van cellen en het opslaan van het bestand."
+"title": "Lettergrootte instellen in Excel met Aspose.Cells voor .NET"
+"url": "/nl/net/formatting/setting-font-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# Stel de lettergrootte in Excel in met behulp van Aspose.Cells
+# Lettergrootte instellen in Excel met Aspose.Cells
 
-Het instellen van lettergrootte in een Excel-bestand is cruciaal voor het verbeteren van leesbaarheid en het benadrukken van belangrijke gegevenspunten. Met Aspose.Cells voor .NET kunt u de lettergrootte van elke cel eenvoudig programmaal wijzigen.  
+Het instellen van de lettergrootte in een Excel-bestand is cruciaal voor een betere leesbaarheid en het benadrukken van belangrijke datapunten. Met Aspose.Cells voor .NET kunt u de lettergrootte van elke cel eenvoudig programmatisch aanpassen. Deze tutorial laat zien hoe u een nieuwe Excel-werkmap maakt, een werkblad toevoegt, een cel vult met tekst, de lettergrootte wijzigt en het bestand opslaat in Excel-indeling. Door deze stapsgewijze handleiding te volgen, krijgt u de kunst van het aanpassen van de tekstweergave in Excel-bestanden onder de knie met behulp van C#.  
 
 ---
 
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies
 
-Om te beginnen met Aspose.Cells voor .NET, volg deze installatie stappen:  
+Om aan de slag te gaan met Aspose.Cells voor .NET, volgt u deze installatiestappen:  
 
-1. Installeer via NuGet Package Manager:  
-   * Open Visual Studio.  
-   * Ga naar Tools > NuGet Pakket Manager > NuGet Pakketten beheren voor oplossing.  
-   * Zoek naar `Aspose.Cells`Klik op Installeer.  
+1. Installeren via NuGet Package Manager:  
+   - Visual Studio openen.  
+   - Ga naar Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing.  
+   - Zoeken naar `Aspose.Cells` en klik op Installeren.  
 
-2. Installeer via NuGet Package Manager Console:  
-   * Open Pakketmanager Console vanaf Tools > NuGet Pakketmanager > Pakketmanager Console.  
-   * Voer het commando uit:  
+2. Installeren via NuGet Package Manager Console:  
+   - Open de Package Manager Console via Extra > NuGet Package Manager > Package Manager Console.  
+   - Voer de opdracht uit:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
 3. Download de DLL handmatig:  
-   * Bezoek de [Aspose.Cells Afladenpagina](https://releases.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-   * Download en haal het pakket uit.  
-   * Voeg een verwijzing toe naar `Aspose.Cells.`in je project.  
+   - Bezoek de [Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).  
+   - Download en pak het pakket uit.  
+   - Voeg een verwijzing toe naar `Aspose.Cells.dll` in uw project.  
 
 ## Zie ook  
-Om een vergunning te kopen, ga naar [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-Voor volledige documentatie, bezoek [Aspose.Cells voor .NET Documentatie](https://docs.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-Voor de volledige API-referentie, bekijk [Aspose.Cells voor .NET API Reference](https://reference.aspose.com/cells/net/)\- Ik heb het niet gedaan . 
+Om een licentie te kopen, ga naar [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+Voor volledige documentatie, bezoek [Aspose.Cells voor .NET-documentatie](https://docs.aspose.com/cells/net/).  
+Voor de volledige API-referentie kunt u terecht op [Aspose.Cells voor .NET API-referentie](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ public class ChartWithCheckbox {
 3. **Eğitim Araçları:** Öğrencilerin grafiklerdeki farklı seçenekleri seçerek içerikle etkileşime girebilecekleri dinamik öğrenme materyalleri oluşturun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

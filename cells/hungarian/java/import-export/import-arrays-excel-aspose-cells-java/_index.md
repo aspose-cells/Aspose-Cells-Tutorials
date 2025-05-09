@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ hatékony adatkezelés kulcsfontosságú az üzleti vagy projektkörnyezetekben,
 - Az Aspose.Cells konfigurációs beállításai és főbb jellemzői
 - Gyakorlati alkalmazások és teljesítménybeli szempontok
 
-Készen állsz fejleszteni adatkezelési készségeidet? Kezdjük az előfeltételekkel.
+Készen állsz arra, hogy fejleszd adatkezelési készségeidet? Kezdjük az előfeltételekkel.
 
 ## Előfeltételek
 
@@ -191,6 +193,9 @@ A: Ismerkedjen meg az alapvető Java fogalmakkal, és hozzon létre egy fejleszt
 - [Ingyenes próbaverzió és ideiglenes licenc információk](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

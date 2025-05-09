@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **Rapports de données**: Ajustez automatiquement la largeur des colonnes pour une présentation des données plus claire dans les rapports commerciaux.
 - **Gestion des stocks**: Assurez-vous que les listes de produits sont soigneusement formatées sans ajustements manuels.
-- **Analyse financière**Alignez les chiffres financiers sur les feuilles pour une analyse et des présentations plus précises.
+- **Analyse financière**: Alignez les chiffres financiers sur les feuilles pour une analyse et des présentations plus précises.
 
 L'intégration d'Aspose.Cells avec des bases de données ou des systèmes CRM peut rationaliser davantage votre flux de travail, permettant des mises à jour automatiques des fichiers Excel à partir de ces sources.
 
@@ -160,6 +162,9 @@ En maîtrisant la fonctionnalité d'ajustement automatique d'Aspose.Cells pour J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

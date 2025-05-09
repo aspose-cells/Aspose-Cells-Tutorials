@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Ano, na buňky v různých listech můžete odkazovat pomocí standardních odka
 Zadejte požadovaný formát uložení (např. XLS nebo XLSX), aby byla zachována kompatibilita s různými verzemi aplikace Excel. Aspose.Cells podporuje více formátů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,6 +189,9 @@ Gotowy, aby wykorzystać te umiejętności w praktyce? Spróbuj wdrożyć je w s
 Przenieś swoje programowanie w Javie na wyższy poziom, wykorzystując moc Aspose.Cells. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

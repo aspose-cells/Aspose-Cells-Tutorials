@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ workbook.save(outDir + "/AddingLabelControl_out.xls");
 باتباعك هذا الدليل، تكون قد اتخذت خطوةً أساسيةً نحو إتقان أتمتة Excel باستخدام Aspose.Cells لجافا. واصل استكشاف هذه الميزات الفعّالة ودمجها في تطبيقاتك!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ public void Run() throws Exception {
 Ακολουθώντας αυτόν τον ολοκληρωμένο οδηγό, είστε πλέον εξοπλισμένοι για να εφαρμόσετε και να αξιοποιήσετε αποτελεσματικά τις λειτουργίες διακοπής υπολογισμού τύπων του Aspose.Cells for Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,7 +183,7 @@ Aspose.Cells per Java può essere utilizzato in vari scenari reali:
 Seguendo questa guida, ora hai una solida conoscenza di come esportare cartelle di lavoro Excel in HTML utilizzando Aspose.Cells per Java. Questi strumenti consentono applicazioni più dinamiche che integrano perfettamente le funzionalità di elaborazione dei documenti.
 
 ### Prossimi passi
-- Per ulteriori funzionalità, consulta la documentazione di Aspose.
+- Esplora la documentazione di Aspose per funzionalità aggiuntive.
 - Sperimenta diverse configurazioni in base alle tue esigenze.
 
 Pronti a provarlo? Implementate questa soluzione e scoprite come migliora le capacità di gestione dei documenti della vostra applicazione.
@@ -209,13 +211,16 @@ A5: Sì, supporta l'apertura di file crittografati se si fornisce la password co
 - **Scaricamento:** [Ultime uscite](https://releases.aspose.com/cells/java/)
 - **Acquistare:** [Acquista una licenza](https://purchase.aspose.com/buy)
 - **Prova gratuita:** [Inizia la tua prova gratuita](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea:** [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea:** [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Forum di supporto:** [Supporto Aspose.Cells](https://forum.aspose.com/c/cells/9)
 
 Sfrutta queste risorse per approfondire la tua comprensione e migliorare l'utilizzo di Aspose.Cells per Java. Buon lavoro!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

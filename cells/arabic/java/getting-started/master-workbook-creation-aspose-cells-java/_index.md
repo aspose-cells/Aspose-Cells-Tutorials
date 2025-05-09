@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ wb.save(outDir + "/UseExplicitLineBreaks_out.xls", FileFormatType.EXCEL_97_TO_20
 باتباع هذا الدليل، ستكون مستعدًا تمامًا لتطبيق وظائف Excel الفعّالة باستخدام Aspose.Cells for Java في مشاريعك. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

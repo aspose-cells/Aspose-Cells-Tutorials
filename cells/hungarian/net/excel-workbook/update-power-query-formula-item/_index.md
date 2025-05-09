@@ -1,40 +1,42 @@
 ---
-title: Frissítse a Power Query képletelemet
-linktitle: Frissítse a Power Query képletelemet
-second_title: Aspose.Cells for .NET API Reference
-description: Könnyen frissítheti a Power Query képletelemeit az Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre szóló útmutató az adatkezelési folyamatok egyszerűsítéséhez.
-weight: 160
-url: /hu/net/excel-workbook/update-power-query-formula-item/
+"description": "Az Aspose.Cells for .NET segítségével könnyedén frissítheti Power Query képletelemeit az Excelben. Lépésről lépésre útmutató az adatkezelési folyamatok egyszerűsítéséhez."
+"linktitle": "Power Query képletelemének frissítése"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Power Query képletelemének frissítése"
+"url": "/hu/net/excel-workbook/update-power-query-formula-item/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Frissítse a Power Query képletelemet
+# Power Query képletelemének frissítése
 
 ## Bevezetés
 
-Ha valaha is dolgozott az Excellel, tudja, milyen hatékony lehet – különösen akkor, ha elkezdi a Power Queries-t. Ezek azok a titkos szószok, amelyek segítségével könnyedén átalakíthatja, tisztíthatja és elemezheti adatait. A Power Query képletek Excelben való kezelésének egyik remek módja az Aspose.Cells for .NET. Ma lépésről lépésre végigvezetjük a Power Query képletelemeinek frissítésén. Szóval, fogd meg a kódoló kalapot, és kezdjük is!
+Ha valaha is dolgoztál már Excellel, akkor tudod, milyen hatékony tud lenni – különösen, ha elkezded elmerülni a Power Queryk világában. Ezek a titkos összetevők, amelyek lehetővé teszik az adatok egyszerű átalakítását, tisztítását és elemzését. A Power Query-képletek Excelben történő kezelésének egyik ügyes módja az Aspose.Cells for .NET használata. Ma lépésről lépésre végigvezetünk a Power Query-képletelemek frissítésén. Szóval, ragadd meg a programozó sapkádat, és kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágna a kódba, be kell állítania néhány dolgot:
+Mielőtt belemerülnél a kódba, érdemes néhány dolgot beállítani:
 
-1. Visual Studio: A .NET-kód írásához és futtatásához integrált fejlesztői környezetre (IDE) lesz szüksége. A Visual Studio a legjobb választás.
-2.  Aspose.Cells Library: Győződjön meg arról, hogy az Aspose.Cells könyvtár elérhető a projektben. Letöltheti a[telek](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismerete: Noha ezt együtt fogjuk végigjárni, a C# alapvető ismerete minden bizonnyal segít, különösen a különböző osztályok és módszerek közötti navigálás során.
-4. Minta Excel-fájlok: Szüksége lesz a kódrészletben említett Excel-fájlokra. Győződjön meg arról, hogy rendelkezik:
+1. Visual Studio: Integrált fejlesztői környezetre (IDE) lesz szükséged a .NET kódod írásához és futtatásához. A Visual Studio a legjobb választás.
+2. Aspose.Cells könyvtár: Győződjön meg arról, hogy az Aspose.Cells könyvtár elérhető a projektjében. Letöltheti innen: [telek](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: Bár ezt együtt fogjuk végigvenni, a C# alapvető ismeretei mindenképpen hasznosak lesznek, különösen a különböző osztályok és metódusok közötti eligazodás során.
+4. Minta Excel fájlok: Szükséged lesz a kódrészletben említett Excel fájlokra. Győződj meg róla, hogy rendelkezel a következőkkel:
    - `SamplePowerQueryFormula.xlsx`
    - `SamplePowerQueryFormulaSource.xlsx`
 
-5. .NET-keretrendszer: Győződjön meg arról, hogy projektje a .NET-keretrendszer kompatibilis verzióját célozza meg.
+5. .NET-keretrendszer: Győződjön meg arról, hogy a projekt a .NET-keretrendszer egy kompatibilis verzióját célozza meg.
 
-Most, hogy készen van a készletünk, folytathatjuk a szórakoztató részt: a kód írását!
+Most, hogy készen áll a készletünk, folytathatjuk a mókás részt: a kódírást!
 
 ## Csomagok importálása
 
-Először is importálnia kell a szükséges névtereket. Íme, hogyan kell csinálni:
+Először is importálnod kell a szükséges névtereket. Így teheted meg:
 
 ```csharp
 using Aspose.Cells.DigitalSignatures;
@@ -43,13 +45,13 @@ using System;
 using System.IO;
 ```
 
-A névterek hozzáadásával tudatja a fordítóval, hogy az Aspose.Cells könyvtár osztályait és metódusait kívánja használni. Ez a lépés kulcsfontosságú, mivel megalapozza a következő kódot.
+Ezen névterek hozzáadásával tudatod a fordítóval, hogy az Aspose.Cells könyvtár osztályait és metódusait kívánod használni. Ez a lépés kulcsfontosságú, mivel lefekteti az alapokat a következő kódhoz.
 
-Bontsuk fel az Ön által megadott kódrészletet. Ez az oktatóanyag végigvezeti Önt az egyes részeken, és biztosítja, hogy megértse, mi történik.
+Nézzük meg részletesebben a megadott kódrészletet. Ez az oktatóanyag végigvezet az egyes részeken, biztosítva, hogy megértsd, miről is van szó.
 
-## 1. lépés: Állítsa be a munkakönyvtárakat
+## 1. lépés: Munkakönyvtárak beállítása
 
-Ebben a lépésben meghatározzuk, hogy hol találhatók a forrás- és kimeneti fájljaink. Ez biztosítja, hogy az Aspose tudja, hol keresse az Excel-fájlokat.
+Ebben a lépésben meghatározzuk a forrás- és kimeneti fájlok helyét. Ez biztosítja, hogy az Aspose tudja, hol keresse az Excel-fájlokat.
 
 ```csharp
 // Munkakönyvtárak
@@ -57,27 +59,27 @@ string SourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-## 2. lépés: Töltse be a munkafüzetet
+## 2. lépés: A munkafüzet betöltése
 
-Most töltsük be az Excel-fájlt, ahol a Power Query található.
+Most töltsük be azt az Excel-fájlt, amelyben a Power Query található.
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- A`Workbook` osztály a belépési pont az Excel fájlba. A forrásfájlunk elérési útjának átadásával létrehozunk egy példányt, amely lehetővé teszi a fájl manipulálását. Úgy képzelheti el, mintha kinyitna egy könyvet – a tartalmának elolvasására (vagy szerkesztésére) készül.
+A `Workbook` Az osztály a belépési pont az Excel-fájlba. A forrásfájl elérési útjának átadásával létrehozunk egy példányt, amely lehetővé teszi számunkra, hogy manipuláljuk azt. Elképzelhetjük úgy, mintha megnyitnánk egy könyvet – éppen a tartalmának olvasására (vagy szerkesztésére) készülünk.
 
-## 3. lépés: Lépjen be a Data Mashupba
+## 3. lépés: Hozzáférés az adatmashuphoz
 
-Ezután elérjük a munkafüzet Data Mashupjában tárolt Power Query képleteket.
+Ezután hozzáférünk a munkafüzet adategyesítésében tárolt Power Query-képletekhez.
 
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- A`DataMashup` osztály tartalmazza a munkafüzethez társított összes Power Query képletet. Itt fogjuk elvégezni a nehézemeléseket, hasonlóan ahhoz, mint amikor kinyit egy szerszámosládát a javításhoz.
+A `DataMashup` Az osztály tartalmazza a munkafüzetedhez társított összes Power Query-képletet. Itt fogjuk elvégezni a nehéz munkát, hasonlóan ahhoz, mint amikor megnyitsz egy eszköztárat a javításokhoz.
 
-## 4. lépés: Hurok a Power Query képletek között
+## 4. lépés: Power Query képletek cikluson keresztüli végigjátszása
 
-Most jön az a rész, ahol a Power Query képleteket iteráljuk, hogy megtaláljuk a frissíteni kívánt konkrétat.
+Most jön az a rész, ahol végigmegyünk a Power Query képletein, hogy megtaláljuk a frissíteni kívánt képletet.
 
 ```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
@@ -92,46 +94,48 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 }
 ```
 
--  Mindegyiket átkutatjuk`PowerQueryFormula` be`mashupData`.
-- Ezen a hurkon belül mindegyikbe belemerülünk`PowerQueryFormulaItem`.
-- Ellenőrizzük, hogy az elem neve megegyezik-e a „Forrás”-val. Ha igen, frissítjük az értékét, hogy az új forrásfájlunkra hivatkozzon.
+- Végigmegyünk mindegyiken `PowerQueryFormula` ban `mashupData`.
+- Ezen a körön belül belemerülünk mindegyikbe `PowerQueryFormulaItem`.
+- Ellenőrizzük, hogy az elem neve megegyezik-e a „Forrás” nevével. Ha igen, akkor frissítjük az értékét, hogy az az új forrásfájlunkra mutasson.
 
-Ez olyan, mintha egy kézikönyvben megtalálná a megfelelő oldalt, majd elvégezné a szükséges frissítéseket – ez egy egyszerű és aprólékos folyamat.
+Ez ahhoz hasonlít, mintha egy kézikönyvben megkeresnénk a megfelelő oldalt, majd elvégeznénk a szükséges frissítéseket – ez egy egyszerű és aprólékos folyamat.
 
-## 5. lépés: Mentse el a frissített munkafüzetet
+## 5. lépés: A frissített munkafüzet mentése
 
-A frissítések elvégzése után ideje elmenteni a módosításainkat.
+A frissítések elvégzése után itt az ideje menteni a módosításokat.
 
 ```csharp
 // Mentse el a kimeneti munkafüzetet.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- A`Save` metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Ez olyan, mintha a szerkesztéseidet a kézikönyv új verziójába zárnád, amely készen áll mások használatra!
+A `Save` metódus a frissített munkafüzetet a megadott kimeneti könyvtárba írja. Olyan ez, mintha a szerkesztéseket a kézikönyv egy új verziójába zárnánk, hogy mások is használhassák őket!
 
 ## Következtetés
 
-Gratulálok! Sikeresen frissített egy Power Query képletelemet az Aspose.Cells for .NET használatával. Ezzel a módszerrel automatizálhatja a Power Query képletek módosítását az Excel-fájlokban, így értékes időt és erőfeszítést takaríthat meg.
+Gratulálunk! Sikeresen frissített egy Power Query képletelemet az Aspose.Cells for .NET használatával. Ezzel a módszerrel automatizálhatja a Power Query képletek módosítását az Excel-fájlokban, így értékes időt és energiát takaríthat meg.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy hatékony könyvtár az Excel-fájlok kezeléséhez .NET-alkalmazásokban a Microsoft Excel telepítése nélkül.
+Az Aspose.Cells egy hatékony függvénykönyvtár, amellyel Excel fájlokat lehet kezelni .NET alkalmazásokban anélkül, hogy telepíteni kellene a Microsoft Excelt.
 
 ### Szükségem van Microsoft Excelre az Aspose.Cells futtatásához?
-Nem, az Aspose.Cells lehetővé teszi az Excel-fájlok programozott létrehozását és szerkesztését anélkül, hogy a kiszolgálón vagy a fejlesztőgépen Excelre lenne szükség.
+Nem, az Aspose.Cells lehetővé teszi Excel fájlok programozott létrehozását és szerkesztését anélkül, hogy az Excelre lenne szükség a szerveren vagy a fejlesztőgépen.
 
-### Milyen típusú Excel-fájlokkal dolgozhatok az Aspose.Cells használatával?
-Az Aspose.Cells használatával dolgozhat .xlsx, .xls, .xlsm és számos más Excel formátummal.
+### Milyen típusú Excel fájlokkal dolgozhatok az Aspose.Cells segítségével?
+Az Aspose.Cells segítségével .xlsx, .xls, .xlsm és számos más Excel formátummal dolgozhatsz.
 
-### Elérhető az Aspose.Cells próbaverziója?
- Igen, letölthet egy ingyenes próbaverziót a webhelyről[Az Aspose Cells kiadási oldala](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Cells-hez?
+Igen, letölthet egy ingyenes próbaverziót a következő címről: [Aspose Cells kiadási oldal](https://releases.aspose.com/).
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehet fel, és választ kaphat a közösségtől és az Aspose csapatától.
+A támogatást a következőn keresztül veheti igénybe: [Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehetsz fel és válaszokat kaphatsz a közösségtől és az Aspose csapatától.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

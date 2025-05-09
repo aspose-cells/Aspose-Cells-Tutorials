@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ VBA プロジェクトが署名されているかどうかを理解すること�
 Aspose.Cells を使用する場合は、パフォーマンスを最適化するために次のヒントを考慮してください。
 
 - 効率性の向上と新機能のために最新バージョンをご利用ください。
-- メモリを効果的に管理し、処分する `Workbook` 不要になったオブジェクト。
+- メモリを効果的に管理し、廃棄する `Workbook` 不要になったオブジェクト。
 - 大規模なアプリケーションの場合は、該当する場合は並列処理を検討してください。
 
 ## 結論
@@ -151,6 +153,9 @@ Excel ブックを保護する準備はできましたか? これらのテクニ
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

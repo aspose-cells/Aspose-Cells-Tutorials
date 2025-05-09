@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Apprenez à automatiser le filtrage Excel avec la fonction « Se termine par �
 Apprenez à automatiser l'analyse de données avec Aspose.Cells pour Java en créant et en enregistrant un tableau croisé dynamique au format ODS. Optimisez vos tâches Excel.
 
 ### [Maîtriser Aspose.Cells pour Java : créer efficacement des classeurs et des tableaux croisés dynamiques Excel](./aspose-cells-java-excel-pivottables/)
-Apprenez à créer et manipuler des classeurs et des tableaux croisés dynamiques Excel avec Aspose.Cells pour Java. Simplifiez vos analyses de données sans effort.
+Apprenez à créer et manipuler des classeurs et des tableaux croisés dynamiques Excel avec Aspose.Cells pour Java. Simplifiez vos tâches d'analyse de données sans effort.
 
 ### [Créer des scénarios Excel avec Aspose.Cells pour Java : un guide complet](./aspose-cells-java-excel-scenarios-guide/)
 Apprenez à automatiser et gérer des scénarios de données dans Excel avec Aspose.Cells pour Java. Ce guide fournit des instructions étape par étape pour créer, gérer et enregistrer des scénarios Excel par programmation.
@@ -183,6 +185,9 @@ Découvrez comment mettre à jour les données sources d'un tableau croisé dyna
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

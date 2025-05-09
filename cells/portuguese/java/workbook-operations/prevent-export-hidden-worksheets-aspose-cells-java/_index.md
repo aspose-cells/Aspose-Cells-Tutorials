@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No mundo atual, movido a dados, gerenciar arquivos do Excel de forma eficiente e programática é crucial para empresas e desenvolvedores. Este tutorial orienta você no uso do Aspose.Cells para Java para evitar a exportação de planilhas ocultas de um arquivo do Excel, garantindo resultados limpos.
 
-## que você aprenderá
+## O que você aprenderá
 - **Configurando Aspose.Cells**: Aprenda como configurá-lo para pular planilhas ocultas durante a exportação.
 - **Configuração do ambiente**: Entenda as bibliotecas necessárias e as etapas de configuração.
 - **Implementação passo a passo**: Siga um guia detalhado para implementar esta funcionalidade.
@@ -177,6 +179,9 @@ R5: Com certeza. O Aspose.Cells gerencia e exporta planilhas com cálculos de f�
 - **Comprar**:Para acesso total, considere adquirir uma licença via [Aspose Compra](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

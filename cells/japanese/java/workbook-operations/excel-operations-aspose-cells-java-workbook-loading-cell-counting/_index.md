@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Workbook workbook = new Workbook(dataDir + "BookWithSomeData.xlsx");
 
 ## 実装ガイド
 
-### 機能 1: ワークブックの読み込みとアクセス
+### 機能1: ワークブックの読み込みとアクセス
 **概要：**
 Excelファイルを読み込む `Workbook` オブジェクトは、プログラムでその内容にアクセスするために不可欠です。
 
@@ -154,6 +156,9 @@ Aspose.Cells を使用してスプレッドシート操作をマスターし、J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

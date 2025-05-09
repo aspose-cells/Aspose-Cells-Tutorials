@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ workbook.save(outDir + "SettingPrintArea_out.xls");
 
 #### 반복 제목 구성
 ```java
-// A열부터 E열까지를 제목 열로 정의합니다.
+// A열부터 E열까지 제목 열로 정의합니다.
 pageSetup.setPrintTitleColumns("$A:$E");
 
 // 행 1과 2를 제목 행으로 정의합니다.
@@ -183,6 +185,9 @@ Aspose.Cells Java를 사용하여 이러한 인쇄 설정 기능을 숙달하면
    - 물론입니다! 대용량 데이터 세트를 효율적으로 처리하도록 설계되었습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

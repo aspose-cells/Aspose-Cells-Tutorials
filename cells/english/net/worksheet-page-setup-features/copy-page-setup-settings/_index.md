@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/copy-page-setup-settings/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Page Setup Settings from Source to Destination Worksheet
@@ -90,9 +92,11 @@ You can access technical support through the [Aspose support forum](https://foru
 Yes, if you want to test the full capabilities of Aspose.Cells, you can apply for a [temporary license](https://purchase.aspose.com/temporary-license/) to use the library for a limited time.
 ### Can I customize my page setup options?
 Absolutely! Aspose.Cells offers a wide range of options for customizing page setups—including margins, headers, footers, and more.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

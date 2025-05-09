@@ -1,99 +1,101 @@
 ---
-title: Povolit uživateli upravovat rozsahy v listu aplikace Excel
-linktitle: Povolit uživateli upravovat rozsahy v listu aplikace Excel
-second_title: Aspose.Cells for .NET API Reference
-description: Umožněte uživatelům upravovat konkrétní rozsahy v tabulce Excel pomocí Aspose.Cells for .NET. Průvodce krok za krokem se zdrojovým kódem v C#.
-weight: 10
-url: /cs/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
+"description": "Umožněte uživatelům upravovat určité rozsahy v tabulce aplikace Excel pomocí Aspose.Cells pro .NET. Podrobný návod se zdrojovým kódem v C#."
+"linktitle": "Povolit uživateli upravovat rozsahy v listu aplikace Excel"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Povolit uživateli upravovat rozsahy v listu aplikace Excel"
+"url": "/cs/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Povolit uživateli upravovat rozsahy v listu aplikace Excel
 
 ## Zavedení
 
-Pokud jde o práci s excelovými listy, flexibilita je často klíčová – zvláště když více uživatelů potřebuje přístup k úpravám konkrétních oblastí, aniž by byla ohrožena integrita dat celého listu. To je místo, kde Aspose.Cells pro .NET září! V tomto tutoriálu se ponoříme do toho, jak umožnit uživatelům upravovat určité rozsahy v listu aplikace Excel a zároveň chránit zbytek dokumentu. Na konci tohoto článku nejen pochopíte pojmy, ale budete mít také hmatatelný příklad, se kterým můžete pracovat. 
+Pokud jde o práci s excelovými listy, flexibilita je často klíčová – zejména když více uživatelů potřebuje přístup k úpravám určitých oblastí, aniž by byla ohrožena integrita dat celého listu. A právě zde vyniká Aspose.Cells pro .NET! V tomto tutoriálu se ponoříme do toho, jak umožnit uživatelům upravovat určité oblasti v excelovém listu a zároveň chránit zbytek dokumentu. Na konci tohoto článku nejen pochopíte koncepty, ale budete mít také hmatatelný příklad, se kterým můžete pracovat. 
 
 ## Předpoklady
 
-Než se vrhneme na to, abychom mohli začít, ujistěte se, že máte vše, co potřebujete:
+Než se pustíme do detailů, ujistěte se, že máte vše, co potřebujete k zahájení:
 
 1. Vývojové prostředí .NET: Měli byste mít nastavené funkční vývojové prostředí .NET (může to být Visual Studio nebo jakékoli jiné IDE dle vašeho výběru).
-2.  Aspose.Cells for .NET Library: Stáhněte a nainstalujte knihovnu Aspose.Cells. Můžete to najít[zde](https://releases.aspose.com/cells/net/).
-3. Základní znalost C#: Znalost programování v C# vám pomůže snadno procházet příklady kódu.
-4. Pochopení základů Excelu: Znalost toho, jak Excel funguje, poskytne základ pro funkce, o kterých budeme diskutovat.
+2. Knihovna Aspose.Cells pro .NET: Stáhněte a nainstalujte knihovnu Aspose.Cells. Najdete ji [zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost C#: Znalost programování v C# vám pomůže snadno se orientovat v příkladech kódu.
+4. Pochopení základů Excelu: Znalost fungování Excelu poskytne základ pro funkce, o kterých budeme diskutovat.
 
-Jakmile jsou tyto předpoklady seřazeny, můžete vyrazit!
+Jakmile jsou tyto předpoklady splněny, můžete začít!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začneme kódovat, musíme se ujistit, že náš projekt rozpozná jmenný prostor Aspose.Cells. Zde je návod, jak importovat potřebné balíčky:
+Než začneme s kódováním, musíme se ujistit, že náš projekt rozpoznává jmenný prostor Aspose.Cells. Zde je návod, jak importovat potřebné balíčky:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Nyní, když jsme importovali, co potřebujeme, pojďme se ponořit do našeho tutoriálu krok za krokem.
+Nyní, když jsme importovali, co potřebujeme, pojďme se krok za krokem ponořit do našeho tutoriálu.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Pro jakékoli operace se soubory je klíčové mít definované místo, kam se budou naše dokumenty ukládat. Pojďme nastavit náš pracovní adresář pro ukládání souborů aplikace Excel.
+Pro jakékoli operace se soubory je zásadní mít definované umístění, kam budou naše dokumenty uloženy. Nastavme si pracovní adresář pro ukládání souborů aplikace Excel.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 
-// Vytvořte adresář, pokud ještě není přítomen.
+// Vytvořte adresář, pokud ještě neexistuje.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Nejprve vyměňte`"YOUR DOCUMENT DIRECTORY"` s cestou, kam chcete soubory uložit. Tento kód zkontroluje, zda adresář existuje; pokud ne, vytvoří jeden.
+Nejprve vyměňte `"YOUR DOCUMENT DIRECTORY"` cestou, kam chcete soubory uložit. Tento kód zkontroluje, zda adresář existuje; pokud ne, vytvoří jej.
 
-## Krok 2: Vytvořte nový sešit
+## Krok 2: Vytvoření instance nového sešitu
 
 S připraveným pracovním adresářem je čas vytvořit náš excelový sešit. 
 
 ```csharp
-// Vytvořte nový sešit
+// Vytvořit instanci nového sešitu
 Workbook book = new Workbook();
 ```
 
- Zde vytváříme novou instanci`Workbook` třídy poskytované Aspose.Cells, která nám umožňuje manipulovat se souborem Excel.
+Zde vytváříme novou instanci třídy `Workbook` třída poskytovaná Aspose.Cells, která nám umožňuje manipulovat s excelovým souborem.
 
-## Krok 3: Přístup k výchozímu listu
+## Krok 3: Přístup k výchozímu pracovnímu listu
 
-Každý nově vytvořený sešit je dodáván s alespoň jedním pracovním listem. Pojďme k tomu přistupovat.
+Každý nově vytvořený sešit obsahuje alespoň jeden pracovní list. Pojďme si ho prohlédnout.
 
 ```csharp
-// Získejte první (výchozí) list
+// Získejte první (výchozí) pracovní list
 Worksheet sheet = book.Worksheets[0];
 ```
 
-V tomto fragmentu kódu přistupujeme k prvnímu listu našeho sešitu, se kterým budeme v následujících krocích manipulovat.
+V tomto úryvku kódu přistupujeme k prvnímu listu našeho sešitu, se kterým budeme manipulovat v následujících krocích.
 
-## Krok 4: Získejte Povolit úpravy rozsahů
+## Krok 4: Získejte povolení k úpravám rozsahů
 
- Chcete-li povolit konkrétní rozsahy listu pro úpravy, musíme získat přístup k`AllowEditRanges` vlastnictví.
+Abychom mohli upravovat určité oblasti listu, potřebujeme přístup k `AllowEditRanges` vlastnictví.
 
 ```csharp
-// Získejte možnosti Povolit úpravy rozsahů
+// Získejte povolení upravovat rozsahy
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 ```
 
-Tato kolekce nám umožní spravovat, které rozsahy lze v našem listu upravovat.
+Tato kolekce nám umožní spravovat, které oblasti lze v našem listu upravovat.
 
-## Krok 5: Definujte chráněný rozsah
+## Krok 5: Definování chráněného rozsahu
 
-Dále definujme, kterou část listu chceme chránit a zároveň povolit úpravy zadaného rozsahu.
+Dále definujme, kterou část listu chceme chránit a zároveň povolit úpravy v zadaném rozsahu.
 
 ```csharp
-// Definujte ProtectedRange
+// Definovat chráněný rozsah (ProtectedRange)
 ProtectedRange proteced_range;
 
 // Vytvořte rozsah
@@ -104,11 +106,11 @@ proteced_range = allowRanges[idx];
 proteced_range.Password = "123";
 ```
 
-V tomto kroku přidáváme nový upravitelný rozsah nazvaný „r2“, který umožňuje úpravy v buňkách od řádku 1, sloupce 1 po řádek 3, sloupec 3. Navíc nastavujeme heslo pro ochranu tohoto rozsahu, což zajišťuje, že pouze oprávnění uživatelé mohou upravit to.
+V tomto kroku přidáváme nový upravitelný rozsah s názvem „r2“, který umožňuje úpravy buněk od řádku 1 (sloupec 1) do řádku 3 (sloupec 3). Dále nastavujeme heslo pro ochranu tohoto rozsahu, které zajistí, že jej budou moci upravovat pouze oprávnění uživatelé.
 
-## Krok 6: Chraňte pracovní list
+## Krok 6: Ochrana pracovního listu
 
-Nyní, když jsme nastavili náš upravitelný rozsah, musíme chránit list.
+Nyní, když jsme nastavili upravitelný rozsah, musíme list chránit.
 
 ```csharp
 // Chraňte list
@@ -119,38 +121,40 @@ Tento kód ochrání celý list před nežádoucími změnami, s výjimkou rozsa
 
 ## Krok 7: Uložte soubor Excel
 
-Uložme sešit, abychom viděli, jak se naše změny projeví v souboru aplikace Excel.
+Uložme si sešit, abychom viděli provedené změny v souboru aplikace Excel.
 
 ```csharp
-// Uložte soubor aplikace Excel
+// Uložte soubor Excelu
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
-Nezapomeňte upravit název souboru podle potřeby. Tím se ve vašem zadaném adresáři vytvoří soubor Excel s nastavením, které jsme nakonfigurovali.
+Nezapomeňte podle potřeby upravit název souboru. Tím se v zadaném adresáři vytvoří soubor aplikace Excel s nastavením, které jsme nakonfigurovali.
 
 ## Závěr
 
-Tady to máš! Úspěšně jste vytvořili list aplikace Excel, který omezuje úpravy na určený rozsah a zároveň chrání zbytek listu. Pomocí Aspose.Cells pro .NET je správa těchto druhů úkolů mnohem jednodušší a efektivnější. Ať už vyvíjíte složitou aplikaci nebo jen potřebujete bezpečně spravovat data, tyto funkce mohou výrazně zlepšit váš pracovní postup.
+A máte to! Úspěšně jste vytvořili excelový list, který omezuje úpravy na určený rozsah a zároveň chrání zbytek listu. Použití Aspose.Cells pro .NET usnadňuje a zefektivňuje správu těchto úkolů. Ať už vyvíjíte složitou aplikaci, nebo jen potřebujete bezpečně spravovat data, tyto funkce mohou výrazně vylepšit váš pracovní postup.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?
-Aspose.Cells je výkonná knihovna .NET pro práci se soubory aplikace Excel, která nabízí funkce, jako je vytváření, úprava a převod tabulek programově.
+Aspose.Cells je výkonná knihovna .NET pro práci s excelovými soubory, která nabízí funkce, jako je programově vytvářet, upravovat a převádět tabulky.
 
 ### Mohu použít více upravitelných rozsahů?
- Absolutně! Můžete zavolat na`Add` metoda na`allowRanges` sbírat vícekrát, abyste určili více upravitelných rozsahů.
+Rozhodně! Můžete zavolat `Add` metoda na `allowRanges` kolekci několikrát pro určení více upravitelných rozsahů.
 
 ### Co se stane, když zapomenu heslo?
-Bohužel, pokud zapomenete heslo pro upravitelný rozsah, budete muset odstranit ochranu nebo přistupovat k souboru předem definovaným způsobem, který může zahrnovat přihlašovací údaje.
+Pokud bohužel zapomenete heslo pro upravitelný rozsah, budete muset ochranu odstranit nebo k souboru přistupovat předdefinovaným způsobem, který může vyžadovat přihlašovací údaje.
 
 ### Existuje bezplatná verze Aspose.Cells?
-Ano, Aspose poskytuje bezplatnou zkušební verzi, kterou můžete využít k prozkoumání funkcí před nákupem.
+Ano, Aspose nabízí bezplatnou zkušební verzi, kterou můžete využít k prozkoumání funkcí před nákupem.
 
 ### Kde najdu více informací o Aspose.Cells?
- Můžete zkontrolovat[dokumentace](https://reference.aspose.com/cells/net/)pro podrobné návody a reference.
+Můžete zkontrolovat [dokumentace](https://reference.aspose.com/cells/net/) pro podrobné návody a reference.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

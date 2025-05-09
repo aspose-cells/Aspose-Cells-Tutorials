@@ -1,14 +1,16 @@
 ---
-title: Wdrażanie zaawansowanych ustawień ochrony z przykładowym kodem przy użyciu Aspose.Cells
-linktitle: Wdrażanie zaawansowanych ustawień ochrony z przykładowym kodem przy użyciu Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wdrożyć zaawansowane ustawienia ochrony w programie Excel przy użyciu Aspose.Cells dla .NET. Kontroluj, kto może skutecznie edytować Twoje pliki.
-weight: 24
-url: /pl/net/worksheet-security/advanced-protection-settings-example-code/
+"description": "Dowiedz się, jak wdrożyć zaawansowane ustawienia ochrony w programie Excel przy użyciu Aspose.Cells dla .NET. Kontroluj, kto może skutecznie edytować Twoje pliki."
+"linktitle": "Wdrażanie zaawansowanych ustawień ochrony z przykładowym kodem przy użyciu Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wdrażanie zaawansowanych ustawień ochrony z przykładowym kodem przy użyciu Aspose.Cells"
+"url": "/pl/net/worksheet-security/advanced-protection-settings-example-code/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wdrażanie zaawansowanych ustawień ochrony z przykładowym kodem przy użyciu Aspose.Cells
@@ -18,7 +20,7 @@ Jeśli chodzi o zarządzanie arkuszami Excela, zwłaszcza w środowisku współp
 ## Wymagania wstępne
 Zanim zagłębimy się w kod, przygotujmy odpowiednio scenę. Nie będziesz w stanie wykorzystać Aspose.Cells, jeśli nie masz niezbędnych narzędzi i oprogramowania. Oto, czego będziesz potrzebować:
 1. .NET Framework: Upewnij się, że na Twoim komputerze zainstalowana jest odpowiednia wersja .NET Framework. Przykłady kodu będą działać głównie z .NET Core lub .NET Framework 4.x.
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz go łatwo pobrać ze strony[Link do pobrania](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz go łatwo pobrać ze strony [Link do pobrania](https://releases.aspose.com/cells/net/).
 3. Edytor tekstu lub środowisko IDE: Niezależnie od tego, czy wolisz program Visual Studio, Visual Studio Code czy inne środowisko IDE, potrzebujesz miejsca, w którym będziesz mógł pisać i uruchamiać swój kod.
 4. Podstawowa znajomość języka C#: Znajomość języka C# będzie pomocna, ponieważ nasze przykłady zawierają dużo kodu.
 Zrozumiałeś wszystko? Świetnie! Przejdźmy do zabawnej części: kodowania.
@@ -45,19 +47,19 @@ Najpierw musisz ustalić, gdzie znajduje się plik Excel. To ustala, skąd będz
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do miejsca, w którym przechowywany jest dokument Excela. Ważne jest, aby upewnić się, że ta ścieżka jest poprawna, aby uniknąć błędów w czasie wykonywania.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do miejsca, w którym przechowywany jest dokument Excela. Ważne jest, aby upewnić się, że ta ścieżka jest poprawna, aby uniknąć błędów w czasie wykonywania.
 ## Krok 2: Utwórz strumień plików, aby odczytać plik Excel
 Teraz, gdy katalog dokumentów jest zdefiniowany, czas utworzyć strumień plików, który pozwoli Twojemu kodowi otworzyć plik Excel. To jak otwarcie drzwi do pliku Excel do odczytu i zapisu.
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- tym wierszu otwieramy plik Excel o nazwie`book1.xls` w trybie odczytu/zapisu.
+W tym wierszu otwieramy plik Excel o nazwie `book1.xls` w trybie odczytu/zapisu.
 ## Krok 3: Utwórz obiekt skoroszytu
- Jeszcze nie skończyłeś! Teraz musisz utworzyć`Workbook` obiekt, który jest Twoim głównym punktem wejścia do pracy z plikiem Excel. Pomyśl o tym jak o tworzeniu obszaru roboczego, w którym będą miały miejsce wszystkie Twoje zmiany.
+Jeszcze nie skończyłeś! Teraz musisz utworzyć `Workbook` obiekt, który jest Twoim głównym punktem wejścia do pracy z plikiem Excel. Pomyśl o tym jak o tworzeniu obszaru roboczego, w którym będą miały miejsce wszystkie Twoje zmiany.
 ```csharp
 Workbook excel = new Workbook(fstream);
 ```
- Dzięki temu kodowi plik Excel jest teraz w Twoim`excel` obiekt!
+Dzięki temu kodowi plik Excel jest teraz w Twoim `excel` obiekt!
 ## Krok 4: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Teraz, gdy masz już skoroszyt, czas uzyskać dostęp do konkretnego arkusza, którym chcesz manipulować. W tym przykładzie skupimy się na pierwszym arkuszu.
 ```csharp
@@ -115,7 +117,7 @@ Teraz, gdy ustawiłeś wszystkie ustawienia ochrony, ważne jest, aby zapisać t
 ```csharp
 excel.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- Ten wiersz zapisuje skoroszyt pod nazwą`output.xls`, zapewniając brak zmian w oryginalnym pliku. 
+Ten wiersz zapisuje skoroszyt pod nazwą `output.xls`, zapewniając brak zmian w oryginalnym pliku. 
 ## Krok 8: Zamykanie FileStream
 Na koniec, ale nie mniej ważne, musisz zwolnić zasoby, zamykając strumień plików. Zawsze pamiętaj, aby to zrobić!
 ```csharp
@@ -128,17 +130,19 @@ Wdrożenie zaawansowanych ustawień ochrony za pomocą Aspose.Cells dla .NET jes
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowany komponent .NET służący do zarządzania plikami Excela i manipulowania nimi, umożliwiający programistom programistyczną pracę z arkuszami kalkulacyjnymi.
 ### Jak zainstalować Aspose.Cells?
- Możesz zainstalować Aspose.Cells za pomocą NuGet w programie Visual Studio lub z[Link do pobrania](https://releases.aspose.com/cells/net/).
+Możesz zainstalować Aspose.Cells za pomocą NuGet w programie Visual Studio lub z [Link do pobrania](https://releases.aspose.com/cells/net/).
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Możesz uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
+Tak! Możesz uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
 ### Z jakimi typami plików Excela może pracować Aspose.Cells?
 Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
-Możesz uzyskać dostęp do wsparcia społeczności poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać dostęp do wsparcia społeczności poprzez [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

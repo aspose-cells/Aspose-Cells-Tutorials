@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Этапы получения лицензии
-Вы можете получить временную лицензию на Aspose.Cells, чтобы оценить все его возможности, посетив [Страница бесплатной пробной версии Aspose](https://releases.aspose.com/cells/java/). Для использования в производстве рассмотрите возможность приобретения лицензии у [портал покупки](https://purchase.aspose.com/buy).
+Вы можете получить временную лицензию на Aspose.Cells, чтобы оценить все его возможности, посетив сайт [Страница бесплатной пробной версии Aspose](https://releases.aspose.com/cells/java/). Для использования в производстве рассмотрите возможность приобретения лицензии у [портал покупки](https://purchase.aspose.com/buy).
 
 #### Базовая инициализация и настройка
 Чтобы начать использовать Aspose.Cells в вашем приложении Java:
@@ -183,6 +185,9 @@ Aspose.Cells для Java может значительно улучшить за
 - **Покупка**: Купите лицензию напрямую на [Покупка Aspose](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

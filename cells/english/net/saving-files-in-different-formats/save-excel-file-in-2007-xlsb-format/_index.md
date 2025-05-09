@@ -8,7 +8,9 @@ url: /net/saving-files-in-different-formats/save-excel-file-in-2007-xlsb-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save Excel File in 2007 xlsb Format
@@ -73,9 +75,11 @@ The xls format is older and based on the binary file structure, while xlsb is a 
 You can buy a license directly from the [Aspose purchase page](https://purchase.aspose.com/buy).
 ### How can I seek support for Aspose.Cells issues?
 If you encounter any issues or have questions, feel free to visit the [support forum](https://forum.aspose.com/c/cells/9)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

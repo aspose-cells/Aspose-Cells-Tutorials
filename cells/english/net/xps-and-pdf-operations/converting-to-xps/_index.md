@@ -8,7 +8,9 @@ url: /net/xps-and-pdf-operations/converting-to-xps/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting to XPS in .NET
@@ -93,6 +95,7 @@ You can explore the [documentation](https://reference.aspose.com/cells/net/) for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

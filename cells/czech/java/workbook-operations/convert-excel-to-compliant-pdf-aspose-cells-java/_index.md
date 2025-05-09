@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ Jste připraveni uvést do praxe to, co jste se naučili? Zkuste toto řešení 
    - Můžete prozkoumat [Mezinárodní organizace pro normalizaci (ISO)](https://www.iso.org/standards.html) webové stránky s podrobnou dokumentací o různých úrovních shody s PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ A teljesítmény optimalizálása Aspose.Cells használatakor:
 Ebben az oktatóanyagban megtanultad, hogyan hozhatsz létre és formázhatsz Excel dokumentumokat az Aspose.Cells for Java segítségével. Ezen technikák elsajátításával jelentősen növelheted az alkalmazásod azon képességét, hogy hatékonyan kezelje az összetett táblázatkezelési feladatokat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

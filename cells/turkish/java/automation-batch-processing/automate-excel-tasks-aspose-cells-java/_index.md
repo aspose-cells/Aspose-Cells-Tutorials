@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Haydi, ortamınızı kurmaya ve bu güçlü özellikleri uygulamaya başlayalım
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 - **Java Geliştirme Ortamı**: JDK 8 veya üzeri kurulu.
-- **Java Kütüphanesi için Aspose.Cells**Sürüm 25.3 veya daha yeni.
+- **Java Kütüphanesi için Aspose.Cells**Sürüm 25.3 veya daha yenisi.
 - **Maven veya Gradle** bağımlılık yönetimi için (isteğe bağlı ancak önerilir).
 
 Ayrıca Java programlama konusunda temel bir anlayışa ve Maven veya Gradle derleme araçlarına aşinalığa sahip olmalısınız.
@@ -185,6 +187,9 @@ Artık Excel işlemlerini etkili bir şekilde otomatikleştirmek için Aspose.Ce
 Bu kapsamlı rehber, Aspose.Cells for Java'yı etkili bir şekilde kullanmaya başlamanız için gereken bilgiyle sizi donatmalıdır. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

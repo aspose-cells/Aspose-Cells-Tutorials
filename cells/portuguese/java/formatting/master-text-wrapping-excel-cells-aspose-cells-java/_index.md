@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Neste guia, você aprenderá como quebrar texto de forma eficiente no Excel usan
 - Configurando Aspose.Cells para Java
 - Implementando quebra de texto em células do Excel
 - Gerenciando o estilo de células com Aspose.Cells
-- Aplicações reais de texto encapsulado
+- Aplicações do mundo real de texto encapsulado
 
 Vamos começar garantindo que você tenha as ferramentas necessárias!
 
@@ -178,6 +180,9 @@ Pronto para colocar esse conhecimento em prática? Experimente criar uma apostil
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 라이센스 취득
 
-로 시작하세요 **무료 체험** 또는 얻다 **임시 면허** Aspose.Cells for Java의 모든 기능을 평가해 보세요. 장기적으로 사용하려면 구독을 고려해 보세요.
+로 시작하세요 **무료 체험** 또는 얻다 **임시 면허** Aspose.Cells for Java의 모든 기능을 평가해 보세요. 장기 사용을 원하시면 구독을 고려해 보세요.
 
 ## 구현 가이드
 
@@ -145,7 +147,7 @@ Aspose.Cells는 다른 시스템과 통합되어 더 광범위한 애플리케�
 
 - **메모리 관리**: 사용 `try-with-resources` 해당되는 경우 리소스가 제대로 닫혔는지 확인하기 위한 진술.
 - **최적화된 스타일 적용**: 처리 오버헤드를 최소화하기 위해 필요한 경우에만 스타일을 적용합니다.
-- **일괄 처리**: 대용량 데이터 세트를 다루는 경우 성능을 개선하려면 셀을 일괄적으로 처리합니다.
+- **일괄 처리**: 대용량 데이터 세트를 다루는 경우 성능을 개선하려면 셀을 일괄적으로 처리하세요.
 
 ## 결론
 
@@ -185,6 +187,9 @@ Aspose.Cells는 다양한 Excel 형식(예: XLS, XLSX)을 지원합니다. `work
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

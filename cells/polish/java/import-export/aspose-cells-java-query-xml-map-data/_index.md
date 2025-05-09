@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Opanowując bibliotekę Aspose.Cells do wyszukiwania danych map XML w programie 
 Po wykonaniu tego samouczka będziesz dobrze wyposażony, aby wykorzystać moc Aspose.Cells for Java w zapytaniach do danych map XML w plikach Excel. Udanego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

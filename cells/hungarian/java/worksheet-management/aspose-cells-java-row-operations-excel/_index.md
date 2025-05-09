@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ Ezzel a módszerrel eltávolíthat egy adott számú sort egy adott indextől ke
 sheet.getCells().deleteRows(7, 5, true); // A 8. sortól kezdve 5 sort töröl.
 ```
 
-### módosítások mentése
+### A módosítások mentése
 Végül mentse el a munkafüzetet a módosítások megőrzése érdekében.
 
 ```java
@@ -162,6 +164,9 @@ Következő lépésként érdemes lehet az Aspose.Cells további funkcióit is f
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

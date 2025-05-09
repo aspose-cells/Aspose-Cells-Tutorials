@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Az Aspose.Cells egy kereskedelmi forgalomban kapható könyvtár, de ingyenes pr
 - **Ideiglenes engedély**: Szerezzen be egy kiterjesztett próbalicencet ezen a linken keresztül: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/).
 
 ### Alapvető inicializálás
-Az Aspose.Cells használatának megkezdéséhez inicializáljon egy `Workbook` objektum az Excel fájl elérési útjával:
+Az Aspose.Cells használatának megkezdéséhez inicializáljon egy `Workbook` objektum az Excel-fájl elérési útjával:
 ```java
 import com.aspose.cells.*;
 
@@ -154,6 +156,9 @@ Kezdje el az Aspose.Cells segítségével a táblázatkezelés elsajátításán
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

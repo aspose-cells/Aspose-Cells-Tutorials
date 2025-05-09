@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,10 +69,10 @@ public class ExcelDbConnections {
 이 스니펫은 외부 SQL 연결이 포함된 샘플 통합 문서를 로드하여 프로젝트를 설정합니다.
 
 ## 구현 가이드
-Aspose.Cells for Java를 사용하여 구현을 주요 기능으로 나누어 보겠습니다.
+Java용 Aspose.Cells를 사용하여 구현을 주요 기능으로 나누어 보겠습니다.
 
 ### 통합 문서 로드 및 외부 연결 액세스
-**개요:** 먼저 Excel 통합 문서를 로드하여 외부 데이터 연결에 액세스합니다. 이는 데이터베이스 관련 연결을 식별하는 데 필수적입니다.
+**개요:** 먼저 Excel 통합 문서를 로드하여 외부 데이터 연결에 액세스하세요. 이는 데이터베이스 관련 연결을 식별하는 데 필수적입니다.
 ```java
 import com.aspose.cells.Workbook;
 
@@ -167,6 +169,9 @@ Java 애플리케이션을 한 단계 더 발전시킬 준비가 되셨나요? �
    - 임시 라이선스를 사용하면 체험 기간 동안 Aspose.Cells의 모든 기능을 탐색할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-security/unprotect-password-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unprotect Password Protected Worksheet using Aspose.Cells
@@ -95,6 +97,7 @@ You can buy Aspose.Cells directly at [this purchase link](https://purchase.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

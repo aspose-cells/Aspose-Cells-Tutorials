@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-excel/creating-strike-out-effect/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Strike Out Effect on Text in Excel
@@ -127,6 +129,7 @@ You can get community support and help from the [Aspose Forum](https://forum.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

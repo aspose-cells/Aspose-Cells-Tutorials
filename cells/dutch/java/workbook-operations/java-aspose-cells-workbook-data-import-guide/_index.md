@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Ontdek meer door te experimenteren met verschillende datastructuren of door Aspo
 Door uzelf te voorzien van de kennis en tools die in deze handleiding worden beschreven, bent u goed op weg om taken voor data-import en -beheer met Aspose.Cells voor Java onder de knie te krijgen. Veel plezier met programmeren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ workbook.save(dataDir + "InstantiatedWorkbook_out.xls");
 ```
 Det här steget sparar din nyskapade arbetsbok i den angivna katalogen.
 
-### Åtkomst till och ändring av alternativ för sidinställningar i kalkylblad
+### Åtkomst till och ändring av alternativ för sidinställningar för kalkylblad
 
 #### Översikt
 Lär dig hur du får åtkomst till ett kalkylblads utskriftsinställningar och anpassar dem, till exempel genom att ange utskriftsinställningar eller justera layoutinställningar.
@@ -203,6 +205,9 @@ För att ytterligare förbättra dina färdigheter kan du överväga att utforsk
 - **Gratis provperiod:** Testa funktioner med en gratis provperiod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

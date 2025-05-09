@@ -8,7 +8,9 @@ url: /net/excel-autofilter-validation/autofilter-begins-with-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Autofilter Begins With in Excel
@@ -157,6 +159,7 @@ You can check the documentation [here](https://reference.aspose.com/cells/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

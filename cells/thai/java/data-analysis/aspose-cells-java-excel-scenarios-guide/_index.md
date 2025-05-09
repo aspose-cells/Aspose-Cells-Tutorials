@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@
 ในการเริ่มใช้ Aspose.Cells ในแอปพลิเคชัน Java ของคุณ:
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -183,6 +185,9 @@ Aspose.Cells สำหรับ Java สามารถปรับปรุง�
 - **ซื้อ**:ซื้อลิขสิทธิ์ได้โดยตรงที่ [การซื้อ Aspose](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

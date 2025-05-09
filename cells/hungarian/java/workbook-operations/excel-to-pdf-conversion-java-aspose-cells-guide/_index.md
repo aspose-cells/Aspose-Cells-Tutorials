@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ A betöltött munkafüzetet PDF formátumba konvertáljuk, és mentsük el:
 // Konvertálja és mentse el a betöltött munkafüzetet PDF fájlként.
 book.save(outDir + "/ConvertedExcelToPDF.pdf", SaveFormat.PDF);
 ```
-Ez a kódrészlet bemutatja, milyen egyszerűen lehet egy Excel dokumentumot PDF-be konvertálni az Aspose.Cells segítségével.
+Ez a kódrészlet bemutatja, milyen egyszerűen alakíthatunk át egy Excel dokumentumot PDF-be az Aspose.Cells segítségével.
 
 ### Hibaelhárítási tippek
 - Győződjön meg arról, hogy a megadott könyvtár elérési útja helyes, hogy elkerülje `FileNotFoundException`.
@@ -93,13 +95,13 @@ Ez a kódrészlet bemutatja, milyen egyszerűen lehet egy Excel dokumentumot PDF
 ## Gyakorlati alkalmazások
 Az Excel fájlok PDF formátumba konvertálása számos esetben előnyös lehet:
 1. **Üzleti jelentések:** Jelentések megosztása az érdekelt felekkel formázási problémák nélkül.
-2. **Számlázási rendszerek:** Nem szerkeszthető formátumban biztosítson számlákat az ügyfeleknek.
+2. **Számlázórendszerek:** Nem szerkeszthető formátumban biztosítson számlákat az ügyfeleknek.
 3. **Adatmegosztás:** Biztonságosan és következetesen terjessze az adatokat a platformok között.
 
 Az integrációs lehetőségek magukban foglalják az átalakítás automatizálását a vállalati rendszereken belül, vagy egy nagyobb dokumentumkezelési munkafolyamat részeként való használatát.
 
 ## Teljesítménybeli szempontok
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - Használjon hatékony memóriakezelési gyakorlatokat, például a memória eltávolítását `Workbook` tárgyak használat után.
 - Optimalizálja az erőforrás-felhasználást a feldolgozandó Excel-fájlok méretének és összetettségének korlátozásával.
 - Kövesse a Java memóriakezelés ajánlott gyakorlatait az alkalmazások zökkenőmentes teljesítményének biztosítása érdekében.
@@ -136,6 +138,9 @@ V4: Igen, az Aspose.Cells különféle konfigurációs beállításokat biztosí
 Most, hogy megvannak az eszközök és a tudás, elkezdheted hatékonyan konvertálni az Excel fájlokat PDF-be az Aspose.Cells segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

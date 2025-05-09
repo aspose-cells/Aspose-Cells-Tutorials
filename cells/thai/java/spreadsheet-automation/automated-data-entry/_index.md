@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การป้อนข้อมูลอัตโนมัติ
@@ -115,9 +117,11 @@ validation.setFormula2("100");
    คุณสามารถสำรวจเอกสารได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference-aspose.com/cells/java/).
 
 ตอนนี้คุณมีความรู้และเครื่องมือในการป้อนข้อมูลอัตโนมัติอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java เริ่มปรับปรุงกระบวนการจัดการข้อมูลของคุณและเพิ่มประสิทธิภาพทางธุรกิจของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

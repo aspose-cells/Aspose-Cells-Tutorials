@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells untuk Java: Tingkatkan Buku Kerja Excel Anda dengan Tabel Pivot Dinamis
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia analisis data yang serba cepat, membuat laporan yang dinamis dan berwawasan luas sangat penting untuk membuat keputusan yang tepat. Di sinilah tabel pivot berperan, menyediakan cara yang fleksibel untuk meringkas kumpulan data besar di Excel. Namun, menyiapkan dan menyesuaikan tabel pivot ini dapat menjadi hal yang sulit jika Anda bekerja dengan aplikasi Java. Gunakan Aspose.Cells for Java—pustaka canggih yang dirancang untuk menyederhanakan proses manipulasi file Excel secara terprogram.
 
 Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan Aspose.Cells untuk Java guna memuat buku kerja, mengakses tabel pivot, dan menyesuaikannya sesuai kebutuhan Anda. Apakah Anda ingin menambahkan kolom ke area data, mengonfigurasi total keseluruhan, menangani nilai null, atau mengatur tata letak, panduan ini akan membantu Anda. Di akhir tutorial ini, Anda akan dibekali dengan pengetahuan untuk menyempurnakan laporan Excel secara efisien.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Memuat buku kerja yang ada dan mengakses tabel pivotnya
 - Tambahkan bidang ke area data dalam tabel pivot
 - Konfigurasikan total keseluruhan untuk baris dan kolom
@@ -28,18 +30,18 @@ Dalam tutorial ini, kita akan menjelajahi cara memanfaatkan Aspose.Cells untuk J
 
 Mari kita bahas prasyaratnya sebelum kita mulai menerapkan fitur-fitur ini.
 
-## Prasyarat
+## Előfeltételek
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+### Szükséges könyvtárak, verziók és függőségek
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Aspose.Cells untuk Java** pustaka (versi 25.3 atau yang lebih baru).
 - Lingkungan pengembangan yang disiapkan dengan Maven atau Gradle untuk manajemen ketergantungan.
   
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 Pastikan Java Development Kit (JDK) Anda terinstal dan dikonfigurasi pada sistem Anda. Anda juga memerlukan IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans untuk menulis dan menjalankan kode.
 
-### Prasyarat Pengetahuan
-Pemahaman dasar tentang:
+### Ismereti előfeltételek
+Alapvető ismeretek a következőkről:
 - Konsep pemrograman Java.
 - Bekerja dengan Maven/Gradle untuk mengelola dependensi.
 - Operasi Excel dasar yang terkait dengan tabel pivot.
@@ -49,7 +51,7 @@ Pemahaman dasar tentang:
 Untuk memulai dengan Aspose.Cells untuk Java, Anda perlu menambahkannya sebagai dependensi dalam proyek Anda. Berikut adalah langkah-langkah untuk menyiapkan penggunaan Maven dan Gradle:
 
 ### Pakar
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
   <groupId>com.aspose</groupId>
@@ -59,18 +61,18 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
+#### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis**: Aspose menawarkan lisensi uji coba gratis 30 hari yang dapat Anda peroleh dari situs web mereka untuk mengevaluasi fitur lengkap.
-2. **Lisensi Sementara**:Untuk evaluasi lanjutan, ajukan permohonan lisensi sementara.
-3. **Pembelian**: Jika puas dengan kinerjanya, beli langganan untuk penggunaan berkelanjutan.
+1. **Ingyenes próbaverzió**: Aspose menawarkan lisensi uji coba gratis 30 hari yang dapat Anda peroleh dari situs web mereka untuk mengevaluasi fitur lengkap.
+2. **Ideiglenes engedély**:Untuk evaluasi lanjutan, ajukan permohonan lisensi sementara.
+3. **Vásárlás**: Jika puas dengan kinerjanya, beli langganan untuk penggunaan berkelanjutan.
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 
 Setelah menyiapkan Aspose.Cells di proyek Anda, inisialisasi pustaka sebagai berikut:
 
@@ -87,7 +89,7 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini akan memandu Anda melalui berbagai fitur manipulasi tabel pivot dengan Aspose.Cells untuk Java.
 
@@ -107,13 +109,13 @@ public class PivotTableExample {
         // Muat buku kerja dari direktori yang Anda tentukan.
         Workbook workbook = new Workbook(dataDir + "PivotTable.xls");
         
-        // Dapatkan lembar kerja pertama dalam buku kerja.
+        // Szerezd meg a munkafüzet első munkalapját.
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         // Akses Tabel Pivot pertama di lembar kerja.
         PivotTable pivotTable = worksheet.getPivotTables().get(0);
 
-        // Kode kustomisasi Anda lebih lanjut...
+        // Kode kustomisasi lebih lanjut Anda...
     }
 }
 ```
@@ -162,28 +164,28 @@ import com.aspose.cells.PrintOrderType;
 pivotTable.setPageFieldOrder(PrintOrderType.DOWN_THEN_OVER);
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Memanfaatkan fitur tabel pivot Aspose.Cells untuk Java dapat sangat bermanfaat dalam berbagai skenario dunia nyata:
-- **Intelijen Bisnis**: Menghasilkan laporan mendalam dari kumpulan data besar untuk membantu pengambilan keputusan.
-- **Analisis Keuangan**:Ringkas laporan keuangan dan lacak metrik utama.
-- **Manajemen Inventaris**Melacak tingkat stok dan kinerja produk.
+- **Üzleti intelligencia**: Menghasilkan laporan mendalam dari kumpulan data besar untuk membantu pengambilan keputusan.
+- **Pénzügyi elemzés**:Ringkas laporan keuangan dan lacak metrik utama.
+- **Készletgazdálkodás**Melacak tingkat stok dan kinerja produk.
 - **Analisis Data Pelanggan**: Segmentasikan data pelanggan untuk strategi pemasaran yang ditargetkan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan Aspose.Cells, pertimbangkan hal berikut untuk kinerja optimal:
+Az Aspose.Cells használatakor az optimális teljesítmény érdekében vegye figyelembe a következőket:
 - Gunakan praktik manajemen memori yang efisien di Java untuk menangani kumpulan data besar.
 - Optimalkan kode Anda untuk meminimalkan penggunaan sumber daya saat memanipulasi file Excel.
 - Perbarui Aspose.Cells secara berkala ke versi terbaru untuk peningkatan fitur dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah membahas cara memuat buku kerja, mengakses tabel pivot, menambahkan kolom ke area data, mengonfigurasi total keseluruhan, menangani nilai null, dan mengatur urutan tata letak menggunakan Aspose.Cells untuk Java. Keterampilan ini akan memberdayakan Anda untuk membuat laporan yang dinamis dan dapat disesuaikan dengan mudah.
 
 Untuk terus menjelajahi kemampuan Aspose.Cells, pertimbangkan untuk mempelajari fitur lain seperti manipulasi bagan atau penanganan rumus Excel tingkat lanjut.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara memulai dengan Aspose.Cells untuk Java?**
 A1: Mulailah dengan menambahkan pustaka sebagai dependensi dalam proyek Anda menggunakan Maven atau Gradle. Kemudian, biasakan diri Anda dengan operasi dasar seperti memuat buku kerja dan mengakses lembar kerja.
@@ -198,20 +200,23 @@ A3: Anda dapat memulai dengan lisensi uji coba gratis selama 30 hari. Untuk peng
 A4: Terapkan praktik terbaik seperti mengoptimalkan struktur data dan mengelola memori secara efektif untuk memastikan kinerja yang lancar saat bekerja dengan file Excel berukuran besar.
 
 **Q5: Di mana saya dapat menemukan lebih banyak sumber daya tentang penggunaan Aspose.Cells untuk Java?**
-A5: Kunjungi [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) dan menjelajahi forum dukungan, bagian unduhan, dan opsi pembelian untuk bantuan lebih lanjut.
+A5: Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) dan menjelajahi forum dukungan, bagian unduhan, dan opsi pembelian untuk bantuan lebih lanjut.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**: [Aspose.Cells untuk Dokumen Java](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Halaman Rilis](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulai Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Daftar di sini](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Komunitas](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Aspose.Cells untuk Dokumen Java](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Mulai Gratis](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Jelentkezzen itt](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Közösségi fórum](https://forum.aspose.com/c/cells/9)
 
 Selamat membuat kode dan jangan ragu untuk mengeksplorasi lebih jauh dengan Aspose.Cells untuk Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells: Membuat & Menyesuaikan Diagram Lingkaran di Java
 
-## Perkenalan
+## Bevezetés
 Membuat diagram yang menarik secara visual merupakan persyaratan umum saat menangani visualisasi data di Excel. Baik saat Anda menyajikan informasi demografis atau menganalisis tren pasar, diagram pai menawarkan cara yang jelas untuk merepresentasikan data proporsional. Namun, menyiapkan diagram ini secara terprogram bisa jadi rumit. Tutorial ini memandu Anda dalam membuat dan menyesuaikan Diagram Pai Aspose.Cells menggunakan Java, yang menyederhanakan proses bagi para pengembang.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Siapkan lingkungan Anda dengan Aspose.Cells untuk Java.
 - Buat buku kerja baru dan akses sel lembar kerja.
 - Isi data ke dalam sel tertentu untuk persiapan pembuatan bagan.
@@ -25,13 +27,13 @@ Membuat diagram yang menarik secara visual merupakan persyaratan umum saat menan
 
 Sebelum memulai, pastikan Anda memiliki pemahaman dasar tentang pemrograman Java dan manajemen dependensi Maven atau Gradle. Mari kita siapkan lingkungan kita!
 
-## Prasyarat
-Untuk mengikuti tutorial ini, Anda memerlukan:
+## Előfeltételek
+A bemutató követéséhez a következőkre lesz szükséged:
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi.
 - **Lingkungan Pengembangan Terpadu (IDE)**Seperti IntelliJ IDEA atau Eclipse.
 - **Manajemen Ketergantungan**: Gunakan Maven atau Gradle untuk mengelola dependensi Anda.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 Pastikan untuk menyertakan Aspose.Cells untuk Java dalam proyek Anda menggunakan Maven atau Gradle.
 
 **Pakar**
@@ -48,8 +50,8 @@ Pastikan untuk menyertakan Aspose.Cells untuk Java dalam proyek Anda menggunakan
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-Aspose.Cells untuk Java adalah pustaka komersial, tetapi Anda dapat memulai dengan uji coba gratis atau mengajukan lisensi sementara. Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk menjelajahi pilihan perizinan.
+### Licencbeszerzés lépései
+Aspose.Cells untuk Java adalah pustaka komersial, tetapi Anda dapat memulai dengan uji coba gratis atau mengajukan lisensi sementara. Kunjungi [vásárlási oldal](https://purchase.aspose.com/buy) hogy felmérje a licencelési lehetőségeket.
 
 ## Menyiapkan Aspose.Cells untuk Java
 Pertama-tama, pastikan lingkungan proyek Anda menyertakan pustaka yang diperlukan dengan menambahkannya melalui Maven atau Gradle seperti yang ditunjukkan di atas. Setelah disertakan, Anda dapat menginisialisasi Aspose.Cells:
@@ -57,11 +59,11 @@ Pertama-tama, pastikan lingkungan proyek Anda menyertakan pustaka yang diperluka
 ```java
 import com.aspose.cells.Workbook;
 
-// Inisialisasi contoh buku kerja baru
+// Új munkafüzetpéldány inicializálása
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat dan Mengonfigurasi Buku Kerja
 Membuat buku kerja adalah langkah awal di mana Anda menyiapkan data Anda.
@@ -81,7 +83,7 @@ import com.aspose.cells.LegendPositionType;
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Langkah 1: Buat Contoh Buku Kerja
+#### 1. lépés: Munkafüzet-példány létrehozása
 ```java
 // Membuat contoh buku kerja kosong untuk digunakan.
 Workbook workbook = new Workbook();
@@ -93,7 +95,7 @@ Berikutnya, isi data ke dalam sel lembar kerja yang akan digunakan untuk diagram
 
 #### Langkah 2: Mengakses Lembar Kerja dan Sel-selnya
 ```java
-// Akses lembar kerja pertama dalam buku kerja.
+// Nyissa meg a munkafüzet első munkalapját.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
@@ -184,26 +186,29 @@ workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
 ```
 Terakhir, sesuaikan kolom secara otomatis dan simpan buku kerja Anda.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Analisis Demografi**: Gunakan diagram lingkaran untuk menampilkan distribusi populasi di berbagai negara atau wilayah.
 2. **Laporan Pangsa Pasar**: Mengilustrasikan pangsa pasar berbagai perusahaan di suatu sektor.
 3. **Alokasi Anggaran**: Visualisasikan bagaimana anggaran dialokasikan di berbagai departemen dalam suatu organisasi.
 
 Aplikasi ini menunjukkan fleksibilitas dan kegunaan Aspose.Cells dalam skenario dunia nyata.
 
-## Pertimbangan Kinerja
-Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells:
+## Teljesítménybeli szempontok
+A teljesítmény optimalizálása Aspose.Cells használatakor:
 - Minimalkan penggunaan memori dengan membuang objek yang tidak lagi diperlukan.
 - Gunakan struktur data yang efisien untuk memproses kumpulan data besar.
 - Profilkan aplikasi Anda untuk mengidentifikasi hambatan.
 
 Mematuhi praktik terbaik memastikan aplikasi berjalan lancar dan responsif.
 
-## Kesimpulan
+## Következtetés
 Tutorial ini memandu Anda melalui langkah-langkah untuk membuat dan menyesuaikan diagram pai menggunakan Aspose.Cells di Java. Dengan pengetahuan ini, Anda sekarang dapat menerapkan teknik-teknik ini ke berbagai tugas visualisasi data dalam proyek Anda. Untuk eksplorasi lebih lanjut, pertimbangkan untuk mempelajari jenis-jenis diagram tambahan dan opsi penyesuaian lanjutan yang tersedia dengan Aspose.Cells.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

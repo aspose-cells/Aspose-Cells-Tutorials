@@ -1,14 +1,16 @@
 ---
-title: Excel'de Çalışma Sayfasına Birleşik Kutu Ekleme
-linktitle: Excel'de Çalışma Sayfasına Birleşik Kutu Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfasına programatik olarak birleşik kutu eklemeyi öğrenin. Bu adım adım kılavuz sizi her ayrıntıda yönlendirir.
-weight: 21
-url: /tr/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma sayfasına programatik olarak birleşik kutu eklemeyi öğrenin. Bu adım adım kılavuz, her ayrıntıda size yol gösterir."
+"linktitle": "Excel'de Çalışma Sayfasına Birleşik Kutu Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Çalışma Sayfasına Birleşik Kutu Ekleme"
+"url": "/tr/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Çalışma Sayfasına Birleşik Kutu Ekleme
@@ -18,10 +20,10 @@ Etkileşimli Excel elektronik tabloları oluşturmak, özellikle birleşik kutul
 Bu eğitimde, Aspose.Cells for .NET kullanarak Excel'de bir çalışma sayfasına birleşik kutu ekleme sürecini adım adım anlatacağız. Dinamik, kullanıcı dostu elektronik tablolar oluşturmak istiyorsanız, bu kılavuz başlamanıza yardımcı olacaktır.
 ## Ön koşullar
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-- Aspose.Cells for .NET: Aspose.Cells for .NET kitaplığını şu adresten indirin ve yükleyin:[indirme sayfası](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Aspose.Cells for .NET kitaplığını şu adresten indirin ve yükleyin: [indirme sayfası](https://releases.aspose.com/cells/net/).
 - .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells tarafından desteklenen herhangi bir sürüm çalışacaktır.
 - Geliştirme Ortamı: Projenizi yönetmek ve kod yazmak için Visual Studio gibi bir IDE kullanın.
--  Aspose Lisansı: Değerlendirme modunda lisans olmadan çalışabilirsiniz, ancak tam sürüm için bir lisans uygulamanız gerekir.[geçici lisans](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
+- Aspose Lisansı: Değerlendirme modunda lisans olmadan çalışabilirsiniz, ancak tam sürüm için bir lisans uygulamanız gerekir. [geçici lisans](https://purchase.aspose.com/temporary-license/) eğer gerekirse.
 ## Paketleri İçe Aktar
 Başlamak için gerekli ad alanlarını projenize aktarmanız gerekir. İhtiyacınız olanlar şunlardır:
 ```csharp
@@ -94,7 +96,7 @@ Aspose.Cells.Drawing.ComboBox comboBox = sheet.Shapes.AddComboBox(2, 0, 2, 0, 22
 
 - AddComboBox: Çalışma sayfasına yeni bir birleşik kutu ekler. Sayılar (2, 0, 2, 0, 22, 100) birleşik kutunun konumunu ve boyutlarını temsil eder.
 ## Adım 6: Combo Box'ı bir Hücreye Bağlayın ve Giriş Aralığını Ayarlayın
-Combobox'ı işlevsel hale getirmek için onu belirli bir hücreye bağlamamız ve seçeneklerini çekeceği hücre aralığını tanımlamamız gerekir.
+Combobox'ı işlevsel hale getirmek için onu belirli bir hücreye bağlamamız ve seçeneklerini çekeceği hücre aralığını tanımlamamız gerekiyor.
 
 ```csharp
 // Bağlantılı hücreyi ayarla.
@@ -131,22 +133,24 @@ workbook.Save(dataDir + "book1.out.xls");
 - Kaydet: Çalışma kitabını belirtilen dizine Excel dosyası olarak kaydeder.
 
 ## Çözüm
-Aspose.Cells for .NET kullanarak Excel çalışma sayfalarınıza bir birleşik kutu eklemek, veri girişi esnekliğini büyük ölçüde artıran basit bir işlemdir. Programatik olarak form denetimleri oluşturarak, etkileşimli elektronik tabloları kolaylıkla oluşturabilirsiniz. Bu eğitim, bir birleşik kutunun nasıl ekleneceğini, bir hücreye nasıl bağlanacağını ve giriş aralığının nasıl yapılandırılacağını Aspose.Cells kullanarak gösterdi.
- Aspose.Cells, Excel dosya düzenleme için geniş bir özellik yelpazesi sunarak, elektronik tablo görevlerini otomatikleştirmek isteyen geliştiriciler için ideal bir seçim haline getirir. Bunu bir[ücretsiz deneme](https://releases.aspose.com/).
+.NET için Aspose.Cells kullanarak Excel çalışma sayfalarınıza bir birleşik kutu eklemek, veri girişi esnekliğini büyük ölçüde artıran basit bir işlemdir. Programatik olarak form denetimleri oluşturarak, etkileşimli elektronik tabloları kolaylıkla oluşturabilirsiniz. Bu eğitim, bir birleşik kutunun nasıl ekleneceğini, bir hücreye nasıl bağlanacağını ve giriş aralığının nasıl yapılandırılacağını Aspose.Cells kullanarak gösterdi.
+Aspose.Cells, Excel dosya düzenleme için geniş bir özellik yelpazesi sunarak, elektronik tablo görevlerini otomatikleştirmek isteyen geliştiriciler için ideal bir seçim haline getirir. Bunu bir [ücretsiz deneme](https://releases.aspose.com/).
 ## SSS
 ### Excel yüklü olmadan Aspose.Cells'i kullanabilir miyim?
 Evet, Aspose.Cells Excel'den bağımsız olarak çalışır ve Excel'in kurulu olmasını gerektirmez.
 ### Aspose.Cells'te lisans başvurusunu nasıl yapabilirim?
- Lisansınızı şu adresten alarak başvurabilirsiniz:[Burada](https://purchase.aspose.com/buy) ve çağrı`License.SetLicense()` kodunuzda.
+Lisansınızı şu adresten alarak başvurabilirsiniz: [Burada](https://purchase.aspose.com/buy) ve çağrı `License.SetLicense()` kodunuzda.
 ### Aspose.Cells dosyaları kaydetmek için hangi formatları destekler?
 Aspose.Cells, dosyaların XLSX, XLS, CSV, PDF ve daha birçok formatta kaydedilmesini destekler.
 ### Ekleyebileceğim kombo kutularının sayısında bir sınırlama var mı?
 Hayır, kesin bir sınır yoktur; projenizin gerektirdiği kadar çok kombo kutusu ekleyebilirsiniz.
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek alabilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Destek alabilirsiniz [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

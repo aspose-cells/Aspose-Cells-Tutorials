@@ -1,14 +1,16 @@
 ---
-title: Ukrywanie lub pokazywanie kart w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-linktitle: Ukrywanie lub pokazywanie kart w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ukrywać lub wyświetlać karty w arkuszach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 17
-url: /pl/net/worksheet-display/hide-or-show-tabs/
+"description": "Dowiedz się, jak ukrywać lub wyświetlać karty w arkuszach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Ukrywanie lub pokazywanie kart w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ukrywanie lub pokazywanie kart w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"url": "/pl/net/worksheet-display/hide-or-show-tabs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukrywanie lub pokazywanie kart w arkuszu kalkulacyjnym za pomocą Aspose.Cells
@@ -22,7 +24,7 @@ Jeśli kiedykolwiek pracowałeś z dokumentami Excela, prawdopodobnie znasz te m
 Zanim zaczniemy modyfikować te zakładki w arkuszu kalkulacyjnym programu Excel, upewnijmy się, że wszystko jest skonfigurowane. Oto, czego potrzebujesz:
 
 1. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework (wersja 4.0 lub nowsza).
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/). To takie proste, jak kliknięcie przycisku!
+2. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/). To takie proste, jak kliknięcie przycisku!
 3. Środowisko programistyczne: Edytor kodu lub środowisko IDE (np. Visual Studio), w którym można pisać i testować kod C#.
 4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna, ale nie jest konieczna, jeśli będziesz uważnie śledzić materiał.
 
@@ -55,9 +57,9 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-voilà! Jesteś gotowy do manipulowania tymi arkuszami Excela.
+I voilà! Jesteś gotowy do manipulowania tymi arkuszami Excela.
 
-Teraz, gdy wszystko jest już skonfigurowane, czas zacząć kodowanie. Podzielimy to na kilka łatwych do przyswojenia kroków.
+Teraz, gdy wszystko jest już skonfigurowane, czas zacząć kodować. Podzielimy to na kilka łatwych do przyswojenia kroków.
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
@@ -69,17 +71,17 @@ string dataDir = "Your Document Directory";  // Zaktualizuj to do ścieżki swoj
 
 ## Krok 2: Otwórz plik Excel
 
- Następnie musimy załadować plik Excela, z którym chcemy się bawić. Utworzymy`Workbook` obiekt, przekazując mu ścieżkę do pliku.
+Następnie musimy załadować plik Excela, z którym chcemy się bawić. Utworzymy `Workbook` obiekt, przekazując mu ścieżkę do pliku.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Pomyśl o`Workbook` Użyj tej klasy jako magicznego klucza — otwiera ona drzwi do całej zawartości pliku Excel!
+Pomyśl o `Workbook` Użyj tej klasy jako magicznego klucza — otwiera ona drzwi do całej zawartości pliku Excel!
 
 ## Krok 3: Ukrywanie kart
 
- A teraz zaczyna się zabawa! Aby ukryć zakładki, wystarczy zmodyfikować właściwość o nazwie`ShowTabs` Ustaw to na`false`, tak jak tutaj:
+A teraz zaczyna się zabawa! Aby ukryć zakładki, wystarczy zmodyfikować właściwość o nazwie `ShowTabs`Ustaw to na `false`, tak jak tutaj:
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,7 +91,7 @@ W ten sposób mówisz programowi Excel: „Hej, zachowaj te karty w tajemnicy!�
 
 ## Krok 4: Zapisywanie zmian
 
- Po wprowadzeniu zmian musimy zapisać zmodyfikowany skoroszyt. Użyj`Save` metoda tworzenia nowego pliku:
+Po wprowadzeniu zmian musimy zapisać zmodyfikowany skoroszyt. Użyj `Save` metoda tworzenia nowego pliku:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
@@ -109,7 +111,7 @@ Tylko pamiętaj, żeby zapisać ponownie!
 
 ## Wniosek
 
-I masz to! Za pomocą zaledwie kilku linijek kodu przejąłeś kontrolę nad tym, jak Twoje arkusze Excela wyświetlają te irytujące zakładki, korzystając z Aspose.Cells dla .NET. Niezależnie od tego, czy chcesz, aby Twój skoroszyt wyglądał elegancko i dopracowany, czy też chcesz zachować pewne rzeczy w tajemnicy dla odbiorców, to narzędzie zapewnia elastyczność, której potrzebujesz. 
+masz to! Za pomocą zaledwie kilku linijek kodu przejąłeś kontrolę nad tym, jak Twoje arkusze Excela wyświetlają te irytujące zakładki, korzystając z Aspose.Cells dla .NET. Niezależnie od tego, czy chcesz, aby Twój skoroszyt wyglądał elegancko i dopracowany, czy też chcesz zachować pewne rzeczy w tajemnicy dla odbiorców, to narzędzie zapewnia Ci potrzebną elastyczność. 
 
 ## Najczęściej zadawane pytania
 
@@ -120,16 +122,18 @@ Tak! Aspose.Cells obsługuje różne formaty Excela, więc możesz ukrywać zak�
 Nie, ukrycie kart zmienia jedynie wygląd skoroszytu; dane pozostają nienaruszone.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?
-Więcej funkcji możesz odkryć w[dokumentacja](https://reference.aspose.com/cells/net/).
+Więcej funkcji możesz odkryć w [dokumentacja](https://reference.aspose.com/cells/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?
- Oczywiście! Możesz uzyskać dostęp do[bezpłatny okres próbny](https://releases.aspose.com/) aby zbadać jego możliwości.
+Oczywiście! Możesz uzyskać dostęp do [bezpłatny okres próbny](https://releases.aspose.com/) aby zbadać jego możliwości.
 
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?
- Pomocy możesz szukać na dedykowanym forum wsparcia, które znajdziesz[Tutaj](https://forum.aspose.com/c/cells/9).
+Pomocy możesz szukać na dedykowanym forum wsparcia, które znajdziesz [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

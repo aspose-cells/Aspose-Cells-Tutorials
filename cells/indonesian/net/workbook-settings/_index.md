@@ -1,56 +1,60 @@
 ---
-title: Pengaturan Buku Kerja
-linktitle: Pengaturan Buku Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Jelajahi tutorial Aspose.Cells untuk .NET yang komprehensif, yang mencakup pengaturan buku kerja, sumber daya eksternal, dan banyak lagi.
-weight: 22
-url: /id/net/workbook-settings/
+"description": "Fedezd fel az átfogó Aspose.Cells for .NET oktatóanyagokat, amelyek a munkafüzetek beállításait, külső forrásokat és egyebeket tárgyalnak."
+"linktitle": "Munkafüzet beállításai"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Munkafüzet beállításai"
+"url": "/id/net/workbook-settings/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pengaturan Buku Kerja
+# Munkafüzet beállításai
 
-## Perkenalan
+## Bevezetés
 
-Dalam hal mengelola dokumen Excel dalam aplikasi .NET, Aspose.Cells sangat cocok sebagai alat serbaguna. Artikel ini akan memandu Anda melalui berbagai tutorial yang berfokus secara khusus pada pengaturan buku kerja, memberdayakan Anda untuk membuat, memodifikasi, dan mengoptimalkan file Excel secara terprogram. Jadi, baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan membantu Anda menavigasi berbagai fungsi penting dengan mudah.
+Az Excel-dokumentumok .NET-alkalmazásokban történő kezelésében az Aspose.Cells sokoldalú eszközként tűnik ki. Ez a cikk különféle oktatóanyagokon keresztül kalauzol végig, amelyek kifejezetten a munkafüzetek beállításaira összpontosítanak, lehetővé téve az Excel-fájlok programozott létrehozását, módosítását és optimalizálását. Tehát akár tapasztalt fejlesztő vagy, akár csak most kezded, ezek az útmutatók segítenek könnyedén eligazodni a legfontosabb funkciókban.
 
-## Kontrol Sumber Daya Eksternal Seperti Seorang Profesional
+## Irányítsd a külső erőforrásokat profi módon
 
- Pernahkah Anda bertanya-tanya bagaimana cara mengelola sumber daya eksternal di file Excel Anda? Lihat saja tutorial di[Kontrol Sumber Daya Eksternal menggunakan Pengaturan Buku Kerja](./control-external-resources/)Panduan langkah demi langkah ini mengajarkan Anda cara mengelola referensi, memastikan dokumen Excel Anda aman dan berfungsi. Ini seperti menjadi pustakawan untuk data Anda, memastikan semuanya terorganisasi dan mudah diakses!
+Gondolkodott már azon, hogyan kezelheti a külső erőforrásokat az Excel-fájljaiban? Ne keressen tovább, itt van egy oktatóanyag: [Külső erőforrások vezérlése a munkafüzet beállításainak használatával](./control-external-resources/)Ez a lépésről lépésre haladó útmutató megtanítja, hogyan kezelheti a hivatkozásokat, biztosítva, hogy Excel-dokumentumai ugyanolyan biztonságosak legyenek, mint amennyire funkcionálisak. Olyan ez, mintha egy könyvtáros lenne az adataival kapcsolatban, aki gondoskodik arról, hogy minden rendszerezett és könnyen hozzáférhető legyen!
 
-## Memaksimalkan Potensi Excel Anda
+## Maximalizáld az Excelben rejlő lehetőségeket
 
-Tahukah Anda jumlah baris dan kolom maksimum yang didukung oleh format XLS dan XLSX? Memahami hal ini dapat menghemat banyak masalah! Tutorial kami tentang[Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLS dan XLSX](./find-maximum-supported-rows-columns/) mengungkap batas-batas lembar kerja Anda. Anggap saja seperti mengetahui dimensi kanvas sebelum Anda mulai melukis—ini membantu Anda memanfaatkan setiap inci demi keuntungan Anda!
+Tudod, hogy az XLS és XLSX formátumok maximálisan hány sort és oszlopot támogatnak? Ennek megértése rengeteg fejfájástól megkímélhet! Oktatóanyagunk a következő témában: [XLS és XLSX formátumok által támogatott maximális sor- és oszlopszám megkeresése](./find-maximum-supported-rows-columns/) feltárja a táblázataid határait. Gondolj rá úgy, mintha ismernéd a vászon méreteit, mielőtt elkezdenél festeni – segít minden négyzetcentimétert a saját előnyödre fordítani!
 
-## Bahasa adalah Kunci: Menerapkan Kesalahan dan Nilai Boolean
+## A nyelv a kulcs: Hibák és logikai értékek implementálása
 
- Bahasa itu penting, terutama dalam aplikasi global. Jika Anda ingin menerapkan nilai kesalahan khusus dan format boolean dalam bahasa tertentu seperti bahasa Rusia, panduan tentang[Menerapkan Kesalahan dan Nilai Boolean dalam Bahasa Rusia atau Bahasa Lainnya](./implement-errors-in-russian-languages/) adalah pilihan utama Anda. Bayangkan saja bisa menyesuaikan pesan kesalahan yang berbicara langsung kepada pengguna Anda dalam bahasa asli mereka—itulah yang mudah digunakan!
+nyelv fontos, különösen a globális alkalmazásokban. Ha egyéni hibaértékeket és logikai formátumokat szeretne megvalósítani bizonyos nyelveken, például oroszul, akkor az útmutató a következő témában található: [Hibakezelés és logikai érték implementálása orosz vagy más nyelveken](./implement-errors-in-russian-languages/) a te bevált módszered. Képzeld el, hogy olyan hibaüzeneteket tudsz létrehozni, amelyek közvetlenül a felhasználók anyanyelvén szólnak – na, ez aztán felhasználóbarát!
 
-## Tingkatkan Permainan Formula Anda
+## Turbózd fel a formulajátékodat
 
- Terakhir, jika Anda ingin memperdalam kemampuan Anda dengan rumus, lihat tutorial kami di[Menerapkan Rumus Sel Lokal Mirip dengan Rumus Rentang Lokal](./implement-cell-formula-local-similar/)Aplikasi ini memandu Anda dalam membuat rumus lokal yang mencerminkan kebutuhan Anda, sehingga Anda dapat menyesuaikan nama fungsi Excel bawaan sesuai dengan preferensi regional.
+Végül, ha szeretnéd elmélyíteni a képletekkel kapcsolatos jártasságodat, nézd meg az oktatóanyagunkat a következő témában: [Cellaképlet Lokális implementálása Hasonlóan a Tartományképlet Lokálishoz](./implement-cell-formula-local-similar/)Végigvezeti Önt az igényeit tükröző lokalizált képletek létrehozásán, lehetővé téve a beépített Excel-függvények neveinek testreszabását a regionális preferenciáknak megfelelően.
 
-## Menguasai Rumus Rentang Bernama di Berbagai Lokasi
+## Elnevezett tartományképletek elsajátítása különböző területi beállításokban
 
- Untuk melengkapi pemahaman Anda, mari kita bahas tentang pengelolaan rumus rentang bernama di berbagai lokasi. Panduan tentang[Mendukung Rumus Rentang Bernama dalam Lokal Jerman](./support-named-range-formulas-in-german/) adalah sumber yang fantastis. Sebagai pengembang, kita sering menjumpai proyek yang memerlukan pelokalan, dan Excel tidak berbeda. Tutorial ini menunjukkan kepada Anda cara membuat, memanipulasi, dan menyimpan file Excel sambil memastikan rentang bernama beradaptasi dengan kebutuhan spesifik pengguna di berbagai wilayah.
+A megértésed megkönnyítése érdekében beszéljünk a névvel ellátott tartományképletek kezeléséről különböző nyelvi beállításokban. Az útmutató a következő témában található: [Névvel ellátott tartományképletek támogatása német területi beállításokban](./support-named-range-formulas-in-german/) egy fantasztikus forrás. Fejlesztőként gyakran találkozunk lokalizációt igénylő projektekkel, és az Excel sem kivétel. Ez az oktatóanyag bemutatja, hogyan hozhat létre, kezelhet és menthet Excel-fájlokat, miközben biztosítja, hogy az elnevezett tartományok a különböző régiókban élő felhasználók egyedi igényeihez igazodjanak.
 
-## Tutorial Pengaturan Buku Kerja
-### [Kontrol Sumber Daya Eksternal menggunakan Pengaturan Buku Kerja](./control-external-resources/)
-Pelajari cara mengontrol sumber daya eksternal di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami yang komprehensif.
-### [Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLS dan XLSX](./find-maximum-supported-rows-columns/)
-Temukan jumlah baris dan kolom maksimum yang didukung oleh format XLS dan XLSX menggunakan Aspose.Cells untuk .NET. Maksimalkan pengelolaan data Excel Anda dengan tutorial lengkap ini.
-### [Menerapkan Kesalahan dan Nilai Boolean dalam Bahasa Rusia atau Bahasa Lainnya](./implement-errors-in-russian-languages/)
-Jelajahi cara mengimplementasikan nilai kesalahan kustom dan nilai boolean dalam bahasa tertentu, seperti bahasa Rusia, menggunakan Aspose.Cells untuk .NET.
-### [Menerapkan Rumus Sel Lokal Mirip dengan Rumus Rentang Lokal](./implement-cell-formula-local-similar/)
-Temukan cara menerapkan rumus sel yang mirip dengan fungsi lokal rumus rentang di Aspose.Cells untuk .NET. Pelajari cara menyesuaikan nama fungsi Excel bawaan dan banyak lagi.
-### [Mendukung Rumus Rentang Bernama dalam Lokal Jerman](./support-named-range-formulas-in-german/)
-Temukan cara menangani rumus rentang bernama dalam bahasa Jerman menggunakan Aspose.Cells untuk .NET. Pelajari cara membuat, memanipulasi, dan menyimpan file Excel secara terprogram.
+## Munkafüzet beállításai – Oktatóanyagok
+### [Külső erőforrások vezérlése munkafüzet-beállításokkal](./control-external-resources/)
+Tanulja meg, hogyan vezérelheti a külső erőforrásokat az Excelben az Aspose.Cells for .NET használatával átfogó, lépésről lépésre haladó oktatóanyagunkkal.
+### [XLS és XLSX formátumok által támogatott maximális sor- és oszlopszám megkeresése](./find-maximum-supported-rows-columns/)
+Fedezze fel az XLS és XLSX formátumok által támogatott sorok és oszlopok maximális számát az Aspose.Cells for .NET segítségével. Maximalizálja Excel adatkezelését ezzel az átfogó oktatóanyaggal.
+### [Hibakezelés és logikai érték implementálása orosz vagy más nyelveken](./implement-errors-in-russian-languages/)
+Fedezze fel, hogyan valósíthat meg egyéni hibaértékeket és logikai értékeket egy adott nyelven, például oroszul, az Aspose.Cells for .NET használatával.
+### [Cellaképlet Lokális implementálása Hasonlóan a Tartományképlet Lokálishoz](./implement-cell-formula-local-similar/)
+Ismerd meg, hogyan valósíthatsz meg egy olyan cellaképletet, amely hasonló a .NET-ben található Aspose.Cells tartományképlet helyi funkcionalitásához. Tanuld meg a beépített Excel függvények nevének testreszabását és egyebeket.
+### [Névvel ellátott tartományképletek támogatása német területi beállításokban](./support-named-range-formulas-in-german/)
+Ismerje meg, hogyan kezelheti a névvel ellátott tartományképleteket német területi beállításokkal az Aspose.Cells for .NET használatával. Tanulja meg, hogyan hozhat létre, kezelhet és menthet Excel-fájlokat programozottan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-comment-annotation/format-comments-font-color-alignment/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Comments -  Font, Color, Alignment
@@ -139,6 +141,7 @@ For support, you can visit the Aspose forum [here](https://forum.aspose.com/c/ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

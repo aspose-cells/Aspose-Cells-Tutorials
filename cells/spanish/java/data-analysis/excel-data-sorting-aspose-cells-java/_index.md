@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book_SourceData.xls");
 ```
 
-- **Parámetro**:La ruta del archivo de origen de Excel.
+- **Parámetro**:La ruta del archivo de Excel de origen.
 - **Objetivo**:Carga el contenido de Excel en la memoria para su manipulación.
 
 ### Función 2: Acceso a la hoja de trabajo
@@ -214,7 +216,7 @@ Intente ampliar esta funcionalidad integrándola en sistemas más grandes o expe
    - Una biblioteca que permite la manipulación programática de archivos Excel dentro de aplicaciones Java.
 2. **¿Cómo configuro Aspose.Cells en mi proyecto?**
    - Agregue la dependencia a su configuración de compilación de Maven o Gradle y descargue el JAR del sitio de Aspose.
-3. **¿Puedo ordenar datos en función de múltiples criterios?**
+3. **¿Puedo ordenar datos según múltiples criterios?**
    - Sí, configurando varias claves y órdenes usando `DataSorter`.
 4. **¿Qué es una licencia temporal para Aspose.Cells?**
    - Una licencia temporal proporciona acceso completo a todas las funciones sin limitaciones para fines de evaluación.
@@ -230,6 +232,9 @@ Intente ampliar esta funcionalidad integrándola en sistemas más grandes o expe
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

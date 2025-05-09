@@ -1,14 +1,16 @@
 ---
-title: การใช้ Sparklines
-linktitle: การใช้ Sparklines
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีใช้ Sparkline ใน Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนเพื่อประสบการณ์การใช้งานที่ราบรื่น
-weight: 18
-url: /th/net/advanced-chart-operations/using-sparklines/
+"description": "เรียนรู้วิธีใช้ Sparkline ใน Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนเพื่อประสบการณ์การใช้งานที่ราบรื่น"
+"linktitle": "การใช้ Sparklines"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การใช้ Sparklines"
+"url": "/th/net/advanced-chart-operations/using-sparklines/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การใช้ Sparklines
@@ -23,8 +25,8 @@ url: /th/net/advanced-chart-operations/using-sparklines/
 
 1. ความคุ้นเคยกับ C#: ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจส่วนการเขียนโค้ดได้ดีขึ้น
 2. ติดตั้ง .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ไว้ในระบบของคุณแล้ว
-3. Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Cells ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
-4.  เทมเพลต Excel: เราจะใช้ไฟล์ Excel ชื่อว่า`sampleUsingSparklines.xlsx`. ให้บันทึกไว้ในไดเร็กทอรีใช้งาน
+3. Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Cells ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
+4. เทมเพลต Excel: เราจะใช้ไฟล์ Excel ชื่อว่า `sampleUsingSparklines.xlsx`. ให้บันทึกไว้ในไดเร็กทอรีใช้งาน
 
 ตอนนี้เรามีการตั้งค่าที่จำเป็นแล้ว มาดูขั้นตอนในการใช้งาน Sparkline กัน!
 
@@ -54,19 +56,19 @@ string outputDir = "Your Output Directory"; // ระบุเส้นทาง
 string sourceDir = "Your Document Directory"; // ระบุเส้นทาง
 ```
 
- ที่นี่แทนที่`Your Output Directory` และ`Your Document Directory` ด้วยเส้นทางจริงบนระบบของคุณ
+ที่นี่แทนที่ `Your Output Directory` และ `Your Document Directory` ด้วยเส้นทางจริงบนระบบของคุณ
 
 ## ขั้นตอนที่ 2: สร้างและเปิดเวิร์กบุ๊ก
 
 ตอนนี้เรามาสร้างเวิร์กบุ๊กและเปิดไฟล์เทมเพลต Excel ของเรา
 
 ```csharp
-//สร้างตัวอย่างสมุดงาน
+// สร้างตัวอย่างสมุดงาน
 // เปิดไฟล์เทมเพลต
 Workbook book = new Workbook(sourceDir + "sampleUsingSparklines.xlsx");
 ```
 
- โค้ดนี้จะสร้างอินสแตนซ์`Workbook` คลาสและโหลดไฟล์เทมเพลตที่ระบุจากไดเร็กทอรีแหล่งที่มา
+โค้ดนี้จะสร้างอินสแตนซ์ `Workbook` คลาสและโหลดไฟล์เทมเพลตที่ระบุจากไดเร็กทอรีแหล่งที่มา
 
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงานแรก
 
@@ -108,7 +110,7 @@ foreach (SparklineGroup g in sheet.SparklineGroupCollection)
 // กำหนด CellArea D2:D10
 CellArea ca = new CellArea();
 ca.StartColumn = 4; // อี
-ca.EndColumn = 4;   // อี
+ca.อีndColumn = 4;   // E
 ca.StartRow = 1;    // 2
 ca.EndRow = 7;      // 8
 ```
@@ -125,7 +127,7 @@ int idx = sheet.SparklineGroupCollection.Add(SparklineType.Column, "Sheet1!B2:D8
 SparklineGroup group = sheet.SparklineGroupCollection[idx];
 ```
 
- ที่นี่ เรากำลังเพิ่มสปาร์กไลน์ชนิดคอลัมน์สำหรับข้อมูลที่ครอบคลุม`Sheet1!B2:D8` ลงในพื้นที่เซลล์ที่กำหนดไว้ก่อนหน้านี้ อย่าลืมปรับเปลี่ยนช่วงข้อมูลตามความต้องการของคุณ
+ที่นี่ เรากำลังเพิ่มสปาร์กไลน์ประเภทคอลัมน์สำหรับข้อมูลที่ครอบคลุม `Sheet1!B2:D8` ลงในพื้นที่เซลล์ที่กำหนดไว้ก่อนหน้านี้ อย่าลืมปรับเปลี่ยนช่วงข้อมูลตามความต้องการของคุณ
 
 ## ขั้นตอนที่ 7: ปรับแต่งสี Sparkline
 
@@ -138,7 +140,7 @@ clr.Color = Color.Orange; // เลือกสีที่คุณต้อง
 group.SeriesColor = clr;
 ```
 
- ในโค้ดนี้เราจะสร้างโค้ดใหม่`CellsColor` เช่น การตั้งค่าเป็นสีส้ม และนำไปใช้กับซีรีส์สปาร์กไลน์ที่เราเพิ่งสร้างขึ้น
+ในโค้ดนี้เราจะสร้างโค้ดใหม่ `CellsColor` เช่น การตั้งค่าเป็นสีส้ม และนำไปใช้กับซีรีส์สปาร์กไลน์ที่เราเพิ่งสร้างขึ้น
 
 ## ขั้นตอนที่ 8: บันทึกสมุดงานที่แก้ไขแล้ว
 
@@ -163,19 +165,21 @@ Console.WriteLine("UsingSparklines executed successfully.");
 สปาร์กไลน์คือกราฟขนาดเล็กที่พอดีกับเซลล์เดียว ช่วยให้แสดงแนวโน้มข้อมูลที่กะทัดรัดและเรียบง่าย
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells หรือไม่?
- ใช่ คุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ฟีเจอร์ทั้งหมดของ Aspose.Cells คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หากคุณเพิ่งเริ่มต้น
+ใช่ คุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ฟีเจอร์ทั้งหมดของ Aspose.Cells คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หากคุณเพิ่งเริ่มต้น
 
 ### ฉันสามารถสร้างสปาร์กไลน์ประเภทต่าง ๆ ได้หรือไม่
 แน่นอน! Aspose.Cells รองรับสปาร์กไลน์ประเภทต่างๆ รวมถึงสปาร์กไลน์แบบเส้น คอลัมน์ และแบบชนะ/แพ้
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถเข้าถึงเอกสารรายละเอียดและตัวอย่างสำหรับ Aspose.Cells สำหรับ .NET ได้[ที่นี่](https://reference.aspose.com/cells/net/).
+คุณสามารถเข้าถึงเอกสารรายละเอียดและตัวอย่างสำหรับ Aspose.Cells สำหรับ .NET ได้ [ที่นี่](https://reference-aspose.com/cells/net/).
 
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่ คุณสามารถดาวน์โหลด Aspose.Cells เวอร์ชันทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลด Aspose.Cells เวอร์ชันทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

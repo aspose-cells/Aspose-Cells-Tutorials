@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ A5: Objekt HtmlSaveOptions konfiguruje způsob ukládání souborů aplikace Exc
 Dodržováním tohoto tutoriálu budete dobře vybaveni k využití Aspose.Cells pro Javu ve svých projektech, což zvýší produktivitu a efektivitu. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

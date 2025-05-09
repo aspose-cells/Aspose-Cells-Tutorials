@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Aspose.Cells를 사용할 때 다음과 같은 성능 팁을 고려하세요.
 Java 애플리케이션에서 차트를 만들거나 Excel 파일을 자동으로 업데이트하는 등 Aspose.Cells의 추가 기능을 살펴보세요.
 
 ## FAQ 섹션
-1. **이름으로 셀에 접근하는 것의 장점은 무엇입니까?**
+1. **셀에 이름으로 접근하는 것의 장점은 무엇입니까?**
    - 이렇게 하면 코드가 더 읽기 쉽고 유지 관리도 쉬워집니다.
 2. **정식 라이선스 없이도 Aspose.Cells를 사용할 수 있나요?**
    - 네, 평가 목적으로 무료 체험판 라이선스로 시작할 수 있습니다.
@@ -149,6 +151,9 @@ Java 애플리케이션에서 차트를 만들거나 Excel 파일을 자동으�
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

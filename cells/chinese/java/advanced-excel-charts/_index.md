@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 高级 Excel 图表
@@ -47,9 +49,11 @@
 学习如何使用 Aspose.Cells for Java 创建令人惊叹的瀑布图。循序渐进的指南，包含有效的数据可视化源代码。
 ### [图表交互性](./chart-interactivity/)
 学习如何使用 Aspose.Cells for Java 创建交互式图表。通过交互增强您的数据可视化。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

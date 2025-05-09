@@ -1,14 +1,16 @@
 ---
-title: Eksportuj właściwości niestandardowe do pliku PDF z programu Excel
-linktitle: Eksportuj właściwości niestandardowe do pliku PDF z programu Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się eksportować niestandardowe właściwości z programu Excel do pliku PDF za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Usprawnij udostępnianie danych.
-weight: 10
-url: /pl/net/excel-file-handling/export-custom-properties-to-pdf/
+"description": "Naucz się eksportować niestandardowe właściwości z programu Excel do pliku PDF za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Usprawnij udostępnianie danych."
+"linktitle": "Eksportuj właściwości niestandardowe do pliku PDF z programu Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Eksportuj właściwości niestandardowe do pliku PDF z programu Excel"
+"url": "/pl/net/excel-file-handling/export-custom-properties-to-pdf/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj właściwości niestandardowe do pliku PDF z programu Excel
@@ -18,7 +20,7 @@ Podczas pracy z plikami Excel często pojawia się potrzeba udostępniania danyc
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, omówmy kilka warunków wstępnych, które będą Ci potrzebne:
 1. Środowisko .NET: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET, np. Visual Studio.
-2.  Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Pobierz i zainstaluj najnowszą wersję Aspose.Cells dla .NET. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci łatwiej zrozumieć przykłady kodu.
 ## Importuj pakiety
 Aby zacząć, musisz najpierw zaimportować niezbędne pakiety do swojego projektu. Oto, jak możesz to zrobić:
@@ -28,7 +30,7 @@ Aby zacząć, musisz najpierw zaimportować niezbędne pakiety do swojego projek
 3. Wybierz „Aplikacja konsolowa (.NET Framework)” lub „Aplikacja konsolowa (.NET Core)” w zależności od swoich preferencji i kliknij „Dalej”.
 4. Nadaj nazwę swojemu projektowi i kliknij „Utwórz”.
 ### Dodaj Aspose.Cells do swojego projektu
-Aby użyć Aspose.Cells, musisz dodać je jako odniesienie:
+Aby użyć Aspose.Cells, należy dodać je jako odniesienie:
 1. Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań.
 2. Wybierz „Zarządzaj pakietami NuGet”.
 3. Wyszukaj „Aspose.Cells” i zainstaluj najnowszą wersję.
@@ -43,30 +45,30 @@ using System;
 
 Przejdźmy teraz do najważniejszej części: przewodnika krok po kroku dotyczącego eksportowania niestandardowych właściwości z pliku Excel do dokumentu PDF. Zapnijcie pasy!
 ## Krok 1: Skonfiguruj swoje katalogi
-Zanim zaczniesz kodować, musisz zdefiniować katalogi wejściowe i wyjściowe. To tutaj będziesz czytać plik Excel i gdzie zostanie zapisany wygenerowany plik PDF.
+Zanim zaczniesz kodować, musisz zdefiniować katalogi wejściowe i wyjściowe. To tutaj będziesz odczytywać plik Excel i gdzie zostanie zapisany wygenerowany plik PDF.
 ```csharp
 // Katalog wejściowy
 string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki lub gdzie chcesz je zapisać.
+W tym fragmencie kodu zamień `"Your Document Directory"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki lub gdzie chcesz je zapisać.
 ## Krok 2: Załaduj plik Excel
- Następnie musisz załadować plik Excela zawierający niestandardowe właściwości. Można to zrobić za pomocą`Workbook` Klasa w Aspose.Cells.
+Następnie musisz załadować plik Excel zawierający niestandardowe właściwości. Można to zrobić za pomocą `Workbook` Klasa w Aspose.Cells.
 ```csharp
 // Załaduj plik Excel zawierający właściwości niestandardowe
 Workbook workbook = new Workbook(sourceDir + "sampleWithCustProps.xlsx");
 ```
- Tutaj upewnij się, że`sampleWithCustProps.xlsx` jest nazwą Twojego dokumentu Excel, który powinien znajdować się w określonym katalogu.
+Tutaj upewnij się, że `sampleWithCustProps.xlsx` jest nazwą Twojego dokumentu Excel, który powinien znajdować się w określonym katalogu.
 ## Krok 3: Utwórz PdfSaveOptions
- Gdy twój skoroszyt zostanie załadowany, czas skonfigurować opcje zapisywania pliku PDF. Utworzysz wystąpienie`PdfSaveOptions` i ustaw odpowiednie właściwości.
+Gdy Twój skoroszyt zostanie załadowany, czas skonfigurować opcje zapisywania pliku PDF. Utworzysz wystąpienie `PdfSaveOptions` ustaw odpowiednie właściwości.
 ```csharp
 // Utwórz instancję PdfSaveOptions i przekaż SaveFormat do konstruktora
 Aspose.Cells.PdfSaveOptions pdfSaveOpt = new Aspose.Cells.PdfSaveOptions();
 ```
-Ten wiersz uruchamia opcje zapisu w formacie PDF, które za chwilę dostosujesz.
+Ten wiersz uruchamia opcje zapisu w formacie PDF, które wkrótce dostosujesz.
 ## Krok 4: Skonfiguruj eksport niestandardowych właściwości
-Będziesz chciał określić, jak mają być eksportowane właściwości niestandardowe. W tym przypadku użyjemy`Standard` opcja eksportu.
+Będziesz chciał określić, jak mają być eksportowane właściwości niestandardowe. W tym przypadku użyjemy `Standard` opcja eksportu.
 ```csharp
 // Ustaw właściwość CustomPropertiesExport na PdfCustomPropertiesExport.Standard
 pdfSaveOpt.CustomPropertiesExport = Aspose.Cells.Rendering.PdfCustomPropertiesExport.Standard;
@@ -78,7 +80,7 @@ Gdy wszystko jest już gotowe, czas zapisać skoroszyt jako plik PDF, korzystaj�
 // Zapisz skoroszyt w formacie PDF, przekazując obiekt PdfSaveOptions
 workbook.Save(outputDir + "outSampleWithCustProps.pdf", pdfSaveOpt);
 ```
- W tej linii,`outSampleWithCustProps.pdf` będzie nazwą nowego pliku PDF, więc upewnij się, że jest unikatowa, by uniknąć nadpisania.
+W tej linii, `outSampleWithCustProps.pdf` będzie nazwą nowego pliku PDF, więc upewnij się, że jest unikatowa, by uniknąć nadpisania.
 ## Krok 6: Potwierdź powodzenie
 Na koniec sprawdźmy, czy operacja zakończyła się powodzeniem, wyświetlając komunikat na konsoli:
 ```csharp
@@ -86,21 +88,23 @@ Console.WriteLine("ExportCustomPropertiesToPDF executed successfully.");
 ```
 Ten komunikat pojawi się na Twojej konsoli, aby poinformować Cię, że wszystko przebiegło pomyślnie.
 ## Wniosek
- masz to! Nauczyłeś się, jak eksportować niestandardowe właściwości z pliku Excel do dokumentu PDF przy użyciu Aspose.Cells dla .NET. To podejście nie tylko ułatwia udostępnianie danych, ale także zapewnia, że niestandardowe metadane wprowadzone do plików Excel pozostają nienaruszone i dostępne w formacie PDF. Niezależnie od tego, czy masz do czynienia z dokumentacją projektu, raportami czy podsumowaniami danych, ta metoda jest cennym dodatkiem do Twojego zestawu narzędzi. Nie wahaj się zapoznać z dokumentacją Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/) dla jeszcze bardziej zaawansowanych funkcjonalności.
+I masz to! Nauczyłeś się, jak eksportować niestandardowe właściwości z pliku Excel do dokumentu PDF przy użyciu Aspose.Cells dla .NET. To podejście nie tylko ułatwia udostępnianie danych, ale także zapewnia, że niestandardowe metadane wprowadzone do plików Excel pozostają nienaruszone i dostępne w formacie PDF. Niezależnie od tego, czy masz do czynienia z dokumentacją projektu, raportami czy podsumowaniami danych, ta metoda jest cennym dodatkiem do Twojego zestawu narzędzi. Nie wahaj się zapoznać z dokumentacją Aspose.Cells [Tutaj](https://reference.aspose.com/cells/net/) dla jeszcze bardziej zaawansowanych funkcjonalności.
 ## Najczęściej zadawane pytania
 ### Czym są właściwości niestandardowe w programie Excel?
 Właściwości niestandardowe to pola metadanych, które można skojarzyć ze skoroszytem programu Excel, np. nazwisko autora, tytuł lub dane niestandardowe dostosowane do konkretnych potrzeb.
 ### Czy mogę eksportować właściwości niestandardowe w różnych formatach?
 Tak, oprócz PDF, inne formaty obsługiwane przez Aspose.Cells także pozwalają na eksportowanie niestandardowych właściwości, w zależności od potrzeb.
 ### Czy Aspose.Cells wymaga licencji?
-Do użytku komercyjnego wymagana jest licencja, ale możesz również wypróbować produkt za darmo. Sprawdź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) opcje.
+Do użytku komercyjnego wymagana jest licencja, ale możesz również wypróbować produkt za darmo. Sprawdź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) opcje.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Wsparcie społeczności i zadawanie pytań znajdziesz na forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Wsparcie społeczności i zadawanie pytań znajdziesz na forum Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
 ### Czy mogę dostosować zapisany plik PDF?
- Absolutnie!`PdfSaveOptions` Klasa ta udostępnia różne właściwości umożliwiające szczegółową personalizację wyników PDF.
+Absolutnie! `PdfSaveOptions` Klasa ta udostępnia różne właściwości umożliwiające szczegółową personalizację wyników PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

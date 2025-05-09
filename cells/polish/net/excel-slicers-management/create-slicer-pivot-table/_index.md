@@ -1,14 +1,16 @@
 ---
-title: Utwórz Slicer dla tabeli przestawnej w Aspose.Cells .NET
-linktitle: Utwórz Slicer dla tabeli przestawnej w Aspose.Cells .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak utworzyć slicer dla tabel przestawnych w Aspose.Cells .NET dzięki naszemu przewodnikowi krok po kroku. Ulepsz swoje raporty w programie Excel.
-weight: 12
-url: /pl/net/excel-slicers-management/create-slicer-pivot-table/
+"description": "Dowiedz się, jak utworzyć slicer dla tabel przestawnych w Aspose.Cells .NET dzięki naszemu przewodnikowi krok po kroku. Ulepsz swoje raporty w programie Excel."
+"linktitle": "Utwórz Slicer dla tabeli przestawnej w Aspose.Cells .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz Slicer dla tabeli przestawnej w Aspose.Cells .NET"
+"url": "/pl/net/excel-slicers-management/create-slicer-pivot-table/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz Slicer dla tabeli przestawnej w Aspose.Cells .NET
@@ -17,10 +19,10 @@ url: /pl/net/excel-slicers-management/create-slicer-pivot-table/
 dzisiejszym świecie opartym na danych tabele przestawne są nieocenione do analizowania i podsumowywania dużych zestawów danych. Ale po co ograniczać się do samego podsumowania, skoro możesz uczynić swoje tabele przestawne bardziej interaktywnymi? Wejdź do świata slicerów! Są jak pilot do raportów Excela, dając Ci możliwość szybkiego i łatwego filtrowania danych. W tym przewodniku pokażemy, jak utworzyć slicer dla tabeli przestawnej przy użyciu Aspose.Cells dla .NET. Więc weź filiżankę kawy, usiądź wygodnie i zanurzmy się!
 ## Wymagania wstępne
 Zanim zaczniesz, musisz pamiętać o kilku wymaganiach wstępnych:
-1.  Aspose.Cells dla .NET: Upewnij się, że Aspose.Cells jest zainstalowane w Twoim projekcie. Możesz je pobrać z[strona do pobrania](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Upewnij się, że Aspose.Cells jest zainstalowane w Twoim projekcie. Możesz je pobrać z [strona do pobrania](https://releases.aspose.com/cells/net/).
 2. Visual Studio lub inne IDE: Będziesz potrzebować IDE, w którym możesz tworzyć i uruchamiać swoje projekty .NET. Visual Studio jest popularnym wyborem.
 3. Podstawowa znajomość języka C#: Znajomość podstaw języka C# pomoże Ci płynnie poruszać się po częściach kodu.
-4. Przykładowy plik Excela: Do tego samouczka będziesz potrzebować przykładowego pliku Excela zawierającego tabelę przestawną. Użyjemy pliku o nazwie`sampleCreateSlicerToPivotTable.xlsx`.
+4. Przykładowy plik Excela: Do tego samouczka będziesz potrzebować przykładowego pliku Excela zawierającego tabelę przestawną. Użyjemy pliku o nazwie `sampleCreateSlicerToPivotTable.xlsx`.
 Teraz, gdy zaznaczyłeś wszystkie pola, możemy zaimportować niezbędne pakiety!
 ## Importuj pakiety
 Aby efektywnie wykorzystać Aspose.Cells, musisz zaimportować do swojego projektu następujące pakiety:
@@ -40,14 +42,14 @@ string sourceDir = "Your Document Directory"; // Podaj ścieżkę do katalogu ź
 // Katalog wyjściowy
 string outputDir = "Your Document Directory"; // Podaj ścieżkę do katalogu wyjściowego
 ```
- Wyjaśnienie: W tym kroku po prostu deklarujesz zmienne dla katalogów źródłowych i wyjściowych. Zastąp`"Your Document Directory"` faktycznym katalogiem, w którym znajdują się Twoje pliki.
+Wyjaśnienie: W tym kroku po prostu deklarujesz zmienne dla katalogów źródłowych i wyjściowych. Zastąp `"Your Document Directory"` z faktycznym katalogiem, w którym znajdują się Twoje pliki.
 ## Krok 2: Załaduj skoroszyt
 Następnie załadujemy skoroszyt programu Excel zawierający tabelę przestawną. 
 ```csharp
 // Załaduj przykładowy plik Excela zawierający tabelę przestawną.
 Workbook wb = new Workbook(sourceDir + "sampleCreateSlicerToPivotTable.xlsx");
 ```
- Wyjaśnienie: Tutaj tworzymy instancję`Workbook` klasa, przekazując ścieżkę do pliku Excel. Ta linia kodu pozwala nam uzyskać dostęp i manipulować skoroszytem.
+Wyjaśnienie: Tutaj tworzymy instancję `Workbook` klasa, przekazując ścieżkę do pliku Excel. Ta linia kodu pozwala nam uzyskać dostęp i manipulować skoroszytem.
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Teraz, gdy skoroszyt został załadowany, musimy uzyskać dostęp do arkusza, w którym znajduje się nasza tabela przestawna.
 ```csharp
@@ -68,7 +70,7 @@ Teraz nadchodzi ekscytująca część — dodanie slicera! Ten krok wiąże slic
 // Dodaj fragmentator odnoszący się do tabeli przestawnej z pierwszym polem bazowym w komórce B22.
 int idx = ws.Slicers.Add(pt, "B22", pt.BaseFields[0]);
 ```
- Wyjaśnienie: Tutaj dodajemy slicer, określając pozycję (komórka B22) i pole bazowe z tabeli przestawnej (pierwsze). Metoda zwraca indeks, który przechowujemy w`idx` do wykorzystania w przyszłości.
+Wyjaśnienie: Tutaj dodajemy slicer, określając pozycję (komórka B22) i pole bazowe z tabeli przestawnej (pierwsze). Metoda zwraca indeks, który przechowujemy w `idx` do wykorzystania w przyszłości.
 ## Krok 6: Uzyskaj dostęp do nowo dodanego slicera
 Po utworzeniu slicera dobrze jest mieć do niego dostęp, zwłaszcza jeśli później chcesz wprowadzić dalsze modyfikacje.
 ```csharp
@@ -102,12 +104,14 @@ Tak, do tabeli przestawnej możesz dodać dowolną liczbę fragmentatorów dla r
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
 Aspose.Cells to płatna biblioteka, ale w okresie próbnym możesz wypróbować ją za darmo.
 ### Gdzie mogę znaleźć więcej dokumentacji Aspose.Cells?
- Możesz sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać więcej szczegółów.
+Możesz sprawdzić [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać więcej szczegółów.
 ### Czy istnieje sposób na uzyskanie wsparcia dla Aspose.Cells?
- Oczywiście! Możesz skontaktować się z pomocą techniczną na[Forum Aspose'a](https://forum.aspose.com/c/cells/9).
+Oczywiście! Możesz skontaktować się z pomocą techniczną na [Forum Aspose'a](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Ora che abbiamo caricato il nostro file Excel, convertiamolo in MHTML:
 ### Considerazioni sulle prestazioni
 Quando si utilizza Aspose.Cells per Java, tenere presente quanto segue per ottimizzare le prestazioni:
 - **Gestione della memoria**: Utilizzare strutture dati efficienti e chiudere le risorse tempestivamente.
-- **Elaborazione batch**: Gestisci grandi set di dati in blocchi anziché caricarli tutti in una volta nella memoria.
+- **Elaborazione batch**: Gestisci grandi set di dati in blocchi anziché caricare tutto in una volta nella memoria.
 - **Ottimizzare le operazioni di I/O**: Ridurre al minimo le letture/scritture sul disco memorizzando nella cache i dati a cui si accede di frequente.
 
 ### Conclusione
@@ -116,6 +118,9 @@ Ora disponi degli strumenti per convertire i file Excel in MHTML utilizzando Asp
 Immergiti facilmente nel mondo delle conversioni Excel utilizzando Aspose.Cells e trasforma il modo in cui condividi e gestisci i dati!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

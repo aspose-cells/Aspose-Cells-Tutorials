@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafici Excel avanzati
@@ -47,9 +49,11 @@ Scopri come creare accattivanti animazioni di grafici con Aspose.Cells per Java.
 Scopri come creare splendidi grafici a cascata con Aspose.Cells per Java. Guida passo passo con codice sorgente per una visualizzazione efficace dei dati.
 ### [Interattività del grafico](./chart-interactivity/)
 Scopri come creare grafici interattivi utilizzando Aspose.Cells per Java. Migliora la visualizzazione dei tuoi dati con l'interattività.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

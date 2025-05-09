@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Antes de continuar, asegúrese de tener lo siguiente:
 - **Aspose.Cells para Java**Se requiere la versión 25.3 o posterior para manipular archivos Excel con proyectos VBA.
 
 ### Requisitos de configuración del entorno
-- Un entorno de desarrollo configurado con Maven o Gradle ayudará a gestionar las dependencias del proyecto de manera eficaz.
+- Un entorno de desarrollo configurado con Maven o Gradle ayudará a gestionar las dependencias del proyecto de manera efectiva.
 
 ### Requisitos previos de conocimiento
 - Es útil tener conocimientos básicos de programación Java y estar familiarizado con herramientas de automatización de compilación como Maven o Gradle.
@@ -150,6 +152,9 @@ A5: Supervise de cerca el uso de recursos y optimice su código para manejar arc
 - **Apoyo**¿Necesitas ayuda? Contáctanos a través de [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

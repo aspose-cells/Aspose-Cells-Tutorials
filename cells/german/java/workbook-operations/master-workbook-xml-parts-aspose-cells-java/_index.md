@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Gehen Sie noch tiefer in die Materie, indem Sie diese Techniken in größere Anw
 Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells für Java und verändern Sie die Art und Weise, wie Sie Excel-Arbeitsmappen in Ihren Anwendungen handhaben!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

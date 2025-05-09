@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Güvenlik için Veri Doğrulaması
@@ -24,7 +26,7 @@ Veri doğrulama, bir sisteme girilen verilerin kabul edilmeden önce belirli kri
 
 ## Veri Doğrulamasının Önemi
 
-Veri doğrulaması önemlidir çünkü verilerinizin bütünlüğünü ve güvenliğini korur. Veri girişi üzerinde kurallar ve kısıtlamalar uygulayarak veri ihlalleri, sistem çökmeleri ve veri bozulması gibi çok çeşitli sorunları önleyebilirsiniz.
+Veri doğrulaması önemlidir çünkü verilerinizin bütünlüğünü ve güvenliğini korur. Veri girişi üzerinde kurallar ve kısıtlamalar uygulayarak, veri ihlalleri, sistem çökmeleri ve veri bozulması gibi çok çeşitli sorunları önleyebilirsiniz.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -156,6 +158,7 @@ Gelişmiş teknikler arasında basamaklı açılır listeler ve doğrulama için
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,30 @@
 ---
-title: الجداول المحورية في Aspose.Cells ل .NET 
-weight: 10
-limit:
-description: تعلم كيفية إنشاء جداول محورية وتصميمها وإدارتها في Aspose.Cells لـ .NET. توليد تقارير ديناميكية وتحليل البيانات بسهولة في C #.
-keywords:
-url: /ar/net/pivot-tables/
+"description": "تعلّم كيفية إنشاء جداول محورية وتنسيقها وإدارتها في Aspose.Cells لـ .NET. أنشئ تقارير ديناميكية وحلل البيانات بسهولة باستخدام C#."
+"title": "جداول المحور في Aspose.Cells لـ .NET"
+"url": "/ar/net/pivot-tables/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## مقدمة 
  
-Pivot tables are a powerful feature in Aspose.Cells for .NET, allowing developers to create dynamic, interactive data summaries within Excel files programmatically. With just a few lines of C# code, you can generate pivot tables, define data sources, set row and column fields, apply filters, and even format the output for better readability. Whether you're working with large datasets or need quick insights, pivot tables streamline the data analysis process, making them an essential tool for reporting and business intelligence.  
+تُعد الجداول المحورية ميزة فعّالة في Aspose.Cells لـ .NET، حيث تُمكّن المطورين من إنشاء مُلخصات بيانات ديناميكية وتفاعلية داخل ملفات Excel برمجيًا. باستخدام بضعة أسطر فقط من لغة C#، يُمكنك إنشاء جداول محورية، وتحديد مصادر البيانات، وتعيين حقول الصفوف والأعمدة، وتطبيق المُرشِّحات، وحتى تنسيق المُخرجات لتحسين قابلية القراءة. سواء كنت تعمل على مجموعات بيانات ضخمة أو تحتاج إلى رؤى سريعة، تُسهّل الجداول المحورية عملية تحليل البيانات، مما يجعلها أداة أساسية لإعداد التقارير وذكاء الأعمال.  
 
-باستخدام Aspose.Cells ل .NET ، يمكنك تخصيص الجداول المحورية بالكامل عن طريق إضافة حقل محاسبة وتغيير أنواع جمع البيانات وتطبيق الأساليب لمظهر مهني. يدعم API وظائف متقدمة مثل تجميع البيانات وتجديد الجداول المحورية بديناميكية ومعالجة مصادر البيانات متعددة بكفاءة. وهذا يتيح للمطورين تلقائيًا توليد تقارير Excel ، وضمان وصول المستخدمين إلى ملخصات دقيقة ومحدثة مع أقل جهد.
+باستخدام Aspose.Cells لـ .NET، يمكنك تخصيص جداول البيانات المحورية بالكامل عن طريق إضافة حقول محسوبة، وتغيير أنواع تجميع البيانات، وتطبيق أنماط لمظهر احترافي. تدعم واجهة برمجة التطبيقات (API) وظائف متقدمة مثل تجميع البيانات، وتحديث جداول البيانات المحورية ديناميكيًا، والتعامل مع مصادر بيانات متعددة بكفاءة. يُمكّن هذا المطورين من أتمتة إنشاء تقارير Excel، مما يضمن حصول المستخدمين على ملخصات دقيقة ومحدثة بأقل جهد.
 
-{{< tutorial-card link="./create-pivot-table/" title="إعداد جدول محرك في Excel باستخدام Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-table-save-in-ods/" title="حفظ الجدول المحرك كـ ODS في Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./create-pivot-table/" title="إنشاء جدول محوري في Excel باستخدام Aspose.Cells" imgSrc="./create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-table-save-in-ods/" title="حفظ جدول محوري بتنسيق ODS في Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

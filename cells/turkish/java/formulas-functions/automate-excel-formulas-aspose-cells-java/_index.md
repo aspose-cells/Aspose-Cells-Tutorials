@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Aspose.Cells'in sunduğu kapsamlı yetenekleri denemekten ve keşfetmekten çeki
    Yayılan formül, yeni veri satırları eklendikçe otomatik olarak güncellenir ve manuel müdahaleye gerek kalmadan sürekli doğruluk sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Masz problemy z wyodrębnianiem danych ze złożonych plików Excel? Dzięki odp
 W tym artykule omówimy, jak:
 - Załaduj skoroszyt programu Excel przy użyciu Aspose.Cells.
 - Uzyskaj dostęp do określonych arkuszy i kształtów w skoroszycie.
-- Wydajne wyodrębnianie tekstu z kształtów SmartArt.
+- Efektywne wyodrębnianie tekstu z kształtów SmartArt.
 
 Pod koniec tego przewodnika będziesz biegły w manipulowaniu plikami Excela programowo. Zacznijmy od skonfigurowania środowiska!
 
@@ -198,6 +200,9 @@ Następne kroki obejmują eksplorację dodatkowych funkcji Aspose.Cells, takich 
 Rozpocznij przygodę z Aspose.Cells for Java już dziś i odkryj pełen potencjał przetwarzania plików Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

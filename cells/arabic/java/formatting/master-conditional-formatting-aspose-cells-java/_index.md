@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ workbook.save(outDir + "/CFBasedOnFormula_out.xls", SaveFormat.EXCEL_97_TO_2003)
 باتباع هذه الخطوات والموارد، ستكون جاهزًا تمامًا لتطبيق Aspose.Cells لـ Java في مشاريعك بفعالية. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

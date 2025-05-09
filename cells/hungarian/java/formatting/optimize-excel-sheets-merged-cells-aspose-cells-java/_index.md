@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,12 +66,12 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencbeszerzés lépései
-- **Ingyenes próbaverzió**Töltsön le egy ingyenes próbaverziót az Aspose.Cells for Java kiértékeléséhez [itt](https://releases.aspose.com/cells/java/).
+- **Ingyenes próbaverzió**: Töltsön le egy ingyenes próbaverziót az Aspose.Cells for Java kiértékeléséhez [itt](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély**: Szerezzen be egy ideiglenes licencet a teljes hozzáféréshez az értékelési időszak alatt a következő címen: [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás**: Fontolja meg a licenc megvásárlását, ha hasznosnak találja az Aspose.Cells programot. További információ itt található: [itt](https://purchase.aspose.com/buy).
 
 ### Alapvető inicializálás és beállítás
-A függőség hozzáadása után inicializálja az Aspose.Cells-t egy példány létrehozásával: `Workbook`Ez a kiindulópont az Excel fájlok kezeléséhez.
+A függőség hozzáadása után inicializálja az Aspose.Cells-t a következő példányának létrehozásával: `Workbook`Ez a kiindulópont az Excel fájlok kezeléséhez.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -211,6 +213,9 @@ Fedezze fel az Aspose.Cells további funkcióit a kiterjedt dokumentációjának
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

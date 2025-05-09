@@ -8,7 +8,9 @@ url: /net/row-and-column-management/unhide-rows-columns-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unhide Rows and Columns in Aspose.Cells .NET
@@ -110,6 +112,7 @@ If you run into issues, check the error message for clues. You can also seek hel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

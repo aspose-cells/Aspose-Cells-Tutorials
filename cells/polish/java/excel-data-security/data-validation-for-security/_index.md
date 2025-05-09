@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Walidacja danych dla bezpieczeństwa
@@ -16,7 +18,7 @@
 
 ## Wstęp
 
-W erze, w której dane są krwiobiegiem firm i organizacji, zapewnienie ich bezpieczeństwa i dokładności jest najważniejsze. Walidacja danych jest krytycznym aspektem tego procesu. W tym artykule zbadano, w jaki sposób Aspose.Cells for Java można wykorzystać do wdrożenia solidnych mechanizmów walidacji danych.
+erze, w której dane są krwiobiegiem firm i organizacji, zapewnienie ich bezpieczeństwa i dokładności jest najważniejsze. Walidacja danych jest krytycznym aspektem tego procesu. W tym artykule zbadano, w jaki sposób Aspose.Cells for Java można wykorzystać do wdrożenia solidnych mechanizmów walidacji danych.
 
 ## Czym jest walidacja danych?
 
@@ -156,6 +158,7 @@ Zaawansowane techniki obejmują kaskadowe listy rozwijane i stosowanie formuł d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

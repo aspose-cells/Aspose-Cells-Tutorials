@@ -8,7 +8,9 @@ url: /net/excel-data-alignment-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Alignment and Formatting
@@ -35,9 +37,11 @@ Read more about how to [Change Excel Cells Alignment Without Losing Formatting](
 ## Excel Data Alignment and Formatting Tutorials
 ### [Change Excel Cells Alignment Without Losing Formatting](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Learn how to change Excel cells alignment without losing formatting using Aspose.Cells for .NET. Follow our comprehensive step-by-step guide for seamless control.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

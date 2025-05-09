@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Az Aspose ingyenes próbalicencet kínál a kezdéshez, valamint ideiglenes vagy állandó licencek opcióit az Ön igényei szerint.
 - **Ingyenes próbaverzió:** Korlátozott funkciókhoz férhet hozzá kötelezettségek nélkül.
 - **Ideiglenes engedély:** Értékelje a teljes képességeket rövid idő alatt.
-- **Vásárlás:** Korlátlan kereskedelmi felhasználásra szóló licenc beszerzése.
+- **Vásárlás:** Korlátlan kereskedelmi felhasználású licenc beszerzése.
 
 ### Megvalósítási útmutató
 Nézzük meg lépésről lépésre az egyes funkciókat az Aspose.Cells Java használatával, hogy hatékonyan automatizálhassuk az Excel-feladatokat.
@@ -195,6 +197,9 @@ Most már szilárd alapot kaptál az Excel-feladatok automatizálásához az Asp
 Ezt az átfogó útmutatót követve jó úton haladsz az Excel automatizálásának elsajátításához az Aspose.Cells for Java segítségével. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

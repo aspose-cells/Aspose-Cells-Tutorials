@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Az Aspose.Cells használatához licencet kell beszerezned. Kezdheted egy ingyenes próbaverzióval, vagy kérhetsz ideiglenes licencet a hosszabb teszteléshez. Éles használathoz licenc vásárlása szükséges.
 
 1. **Ingyenes próbaverzió:** Töltsd le és próbáld ki a könyvtárat, hogy felfedezhesd a képességeit.
-2. **Ideiglenes engedély:** Kérje meg innen [Aspose weboldala](https://purchase.aspose.com/temporary-license/) a teljes funkcióhozzáférésért a próbaidőszak alatt.
+2. **Ideiglenes engedély:** Kérje meg innen [Aspose weboldala](https://purchase.aspose.com/temporary-license/) a teljes funkcióhozzáférésért az értékelési időszak alatt.
 3. **Vásárlás:** Ha elégedett a próbaverzióval, vásároljon licencet a hivatalos weboldalukon keresztül.
 
 ### Alapvető inicializálás és beállítás
@@ -193,6 +195,9 @@ Következő lépésként érdemes lehet az Aspose.Cells egyéb funkcióit is fel
    - Ellenőrizd duplán a projekted build konfigurációját (Maven/Gradle), hogy minden szükséges Aspose.Cells függőség helyesen szerepeljen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

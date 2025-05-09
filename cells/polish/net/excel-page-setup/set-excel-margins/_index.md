@@ -1,14 +1,16 @@
 ---
-title: Ustaw marginesy w programie Excel
-linktitle: Ustaw marginesy w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak łatwo ustawić marginesy w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą ulepszyć układ arkusza kalkulacyjnego.
-weight: 110
-url: /pl/net/excel-page-setup/set-excel-margins/
+"description": "Dowiedz się, jak łatwo ustawić marginesy w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą ulepszyć układ arkusza kalkulacyjnego."
+"linktitle": "Ustaw marginesy w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw marginesy w programie Excel"
+"url": "/pl/net/excel-page-setup/set-excel-margins/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw marginesy w programie Excel
@@ -22,9 +24,9 @@ Jeśli chodzi o programowe zarządzanie dokumentami Excela, Aspose.Cells dla .NE
 Zanim zagłębimy się w szczegóły ustawiania marginesów w arkuszach Excela, należy spełnić kilka warunków wstępnych:
 
 1. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci zrozumieć i skutecznie implementować fragmenty kodu.
-2. Biblioteka Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli tego nie zrobiłeś, możesz ją pobrać z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli tego nie zrobiłeś, możesz ją pobrać z [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Konfiguracja IDE: Upewnij się, że masz skonfigurowane środowisko programistyczne. Środowiska IDE, takie jak Visual Studio, świetnie nadają się do programowania w języku C#.
-4.  Klucz licencyjny (opcjonalnie): Chociaż możesz używać wersji próbnej, posiadanie tymczasowej lub pełnej licencji może pomóc odblokować wszystkie funkcje. Możesz dowiedzieć się więcej o licencjonowaniu[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Klucz licencyjny (opcjonalnie): Chociaż możesz używać wersji próbnej, posiadanie tymczasowej lub pełnej licencji może pomóc odblokować wszystkie funkcje. Możesz dowiedzieć się więcej o licencjonowaniu [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy przejść bezpośrednio do kodu i zobaczyć, jak krok po kroku można manipulować marginesami w programie Excel.
 
@@ -44,19 +46,19 @@ Teraz, gdy dokonałeś niezbędnych importów, możemy przejść do implementacj
 
 Pierwszym krokiem jest ustawienie ścieżki, w której zostanie zapisany dokument. Jest to niezbędne do zorganizowania plików wyjściowych. 
 
-swoim kodzie zdefiniuj zmienną ciągu reprezentującą ścieżkę do pliku, w którym chcesz zapisać plik Excela. 
+W swoim kodzie zdefiniuj zmienną ciągu reprezentującą ścieżkę do pliku, w którym chcesz zapisać plik Excela. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
+Pamiętaj o wymianie `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
 Następnie musimy utworzyć nowy obiekt skoroszytu. Ten obiekt działa jako kontener dla wszystkich danych i arkuszy kalkulacyjnych.
 
- Utwórz nową instancję`Workbook` obiekt w następujący sposób:
+Utwórz nową instancję `Workbook` obiekt w następujący sposób:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -88,9 +90,9 @@ Teraz możesz już zmodyfikować ten arkusz!
 
 ## Krok 4: Uzyskaj dostęp do obiektu ustawień strony
 
- Aby zmienić marginesy, musimy pracować z`PageSetup` obiekt. Ten obiekt udostępnia właściwości kontrolujące układ strony, w tym marginesy.
+Aby zmienić marginesy, musimy pracować z `PageSetup` obiekt. Ten obiekt udostępnia właściwości kontrolujące układ strony, w tym marginesy.
 
-Zdobądź`PageSetup` właściwość z arkusza kalkulacyjnego:
+Zdobądź `PageSetup` właściwość z arkusza kalkulacyjnego:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;
@@ -123,7 +125,7 @@ Możesz zapisać skoroszyt, korzystając z następującej metody:
 workbook.Save(dataDir + "SetMargins_out.xls");
 ```
 
- Zastępować`"SetMargins_out.xls"` z żądaną nazwą pliku wyjściowego. 
+Zastępować `"SetMargins_out.xls"` z żądaną nazwą pliku wyjściowego. 
 
 ## Wniosek
 
@@ -138,16 +140,18 @@ Aspose.Cells to biblioteka .NET umożliwiająca programistom tworzenie, modyfiko
 Możesz skorzystać z bezpłatnej wersji próbnej, jednak do dłuższego użytkowania lub korzystania z zaawansowanych funkcji potrzebna będzie licencja.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Możesz zapoznać się z dokumentacją Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z dokumentacją Aspose.Cells [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Czy mogę ustawić marginesy tylko dla wybranych stron?
 Niestety ustawienia marginesów dotyczą całego arkusza kalkulacyjnego, a nie poszczególnych stron.
 
 ### W jakich formatach mogę zapisać plik Excel?
 Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

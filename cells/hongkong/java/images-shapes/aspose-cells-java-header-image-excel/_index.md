@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,7 +151,7 @@ inFile.close();
    - 驗證輸出目錄路徑和權限；使用 Aspose.Cells 支援的副檔名儲存檔案（例如， `.xls`， `.xlsx`）。
 3. **我可以將此程式碼用於 Excel 中的大型資料集嗎？**
    - 是的，但請考慮優化圖像和管理記憶體使用以保持效能。
-4. **如果我的圖像儲存後沒有顯示怎麼辦？**
+4. **如果我的圖像保存後沒有顯示怎麼辦？**
    - 確保影像路徑正確且其格式受 Excel 支援。
 5. **Aspose.Cells Java 是否與所有作業系統相容？**
    - Aspose.Cells for Java 可在任何支援 Java 的平台上運行，包括 Windows、macOS 和 Linux。
@@ -163,6 +165,9 @@ inFile.close();
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

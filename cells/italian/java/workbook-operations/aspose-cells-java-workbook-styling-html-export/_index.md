@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ public class WorkbookAndCellStyling {
 - `Workbook` E `Worksheet` Gli oggetti vengono utilizzati per manipolare i file Excel.
 - Lo stile delle cellule viene ottenuto utilizzando `Style` classe, consentendo personalizzazioni come il colore del carattere.
 
-### Funzionalità 3: esportare il foglio di lavoro CSS separatamente in HTML
+### Funzionalità 3: esportare il CSS del foglio di lavoro separatamente in HTML
 **Panoramica**: Esporta un foglio di lavoro Excel come file HTML con stili (CSS) separati. Questa funzione migliora la presentazione visiva dei dati sulle piattaforme web.
 
 #### Implementazione passo dopo passo:
@@ -189,6 +191,9 @@ In questo tutorial, hai imparato come sfruttare la potenza di Aspose.Cells per J
 - Esplora implementazioni pratiche nei tuoi progetti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

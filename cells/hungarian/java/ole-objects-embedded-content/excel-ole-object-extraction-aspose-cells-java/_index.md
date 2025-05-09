@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ A dokumentumokba, táblázatokba vagy prezentációkba beágyazott összetett Ex
 - Lépések az OLE-objektumok kinyeréséhez Excel-fájlokból
 - Gyakorlati tanácsok az Excelbe ágyazott különféle fájlformátumok kezeléséhez
 
-Kezdjük az előfeltételek ismertetésével.
+Kezdjük az előfeltételek áttekintésével.
 
 ### Előfeltételek
 
@@ -215,6 +217,9 @@ Az útmutató követésével minden szükséges eszközzel kihasználhatod az As
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

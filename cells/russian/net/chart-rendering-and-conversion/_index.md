@@ -1,14 +1,16 @@
 ---
-title: Рендеринг и преобразование диаграмм
-linktitle: Рендеринг и преобразование диаграмм
-second_title: API обработки Excel Aspose.Cells .NET
-description: Изучите руководства Aspose.Cells для .NET по рендерингу диаграмм, преобразованию и созданию PDF-файлов с желаемым размером страницы. Пошаговые руководства для бесперебойной обработки диаграмм Excel.
-weight: 24
-url: /ru/net/chart-rendering-and-conversion/
+"description": "Изучите руководства Aspose.Cells для .NET по рендерингу диаграмм, преобразованию и созданию PDF-файлов с желаемым размером страницы. Пошаговые руководства для бесперебойной обработки диаграмм Excel."
+"linktitle": "Рендеринг и преобразование диаграмм"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Рендеринг и преобразование диаграмм"
+"url": "/ru/net/chart-rendering-and-conversion/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Рендеринг и преобразование диаграмм
@@ -36,9 +38,11 @@ url: /ru/net/chart-rendering-and-conversion/
 Научитесь конвертировать диаграммы Excel в PDF с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства. Изучите основные советы и примеры кодирования.
 ### [Создать диаграмму PDF с желаемым размером страницы](./create-chart-pdf-with-desired-page-size/)
 Создайте PDF с вашей диаграммой Excel с помощью Aspose.Cells для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ sr.toImage(0, outDir + "OutputBlankPageWhenNothingToPrint.png");
 **2.文檔自動化：** 自動產生顯示預設版面的文件。
 **3.佔位符創建：** 為需要初始非資料視覺化的基於 Excel 的應用程式產生佔位符。
 **4.與GUI應用程式整合：** 在基於 Java Swing/AWT 的桌面應用程式中顯示空白電子表格佈局。
-**5.跨平台報告：** 無需依賴 Excel 安裝，即可在不同平台上以圖像形式呈現和傳送報告。
+**5.跨平台報告：** 跨不同平台以圖像形式呈現和傳送報告，無需依賴 Excel 安裝。
 
 ## 性能考慮
 
@@ -176,6 +178,9 @@ sr.toImage(0, outDir + "OutputBlankPageWhenNothingToPrint.png");
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

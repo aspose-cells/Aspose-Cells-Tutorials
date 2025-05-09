@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # बैच एक्सेल प्रोसेसिंग
@@ -109,9 +111,11 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    API दस्तावेज़न का अन्वेषण करें [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) गहन जानकारी और उदाहरण के लिए.
 
 Java के लिए Aspose.Cells का उपयोग करके अपने बैच Excel प्रसंस्करण कार्यों को अनुकूलित करें और उत्पादकता बढ़ाएं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

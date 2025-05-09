@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,12 +201,15 @@ Bây giờ bạn đã biết cách quản lý hiệu quả các công thức đ�
 - **Tài liệu**: Hướng dẫn toàn diện và tài liệu tham khảo API tại [Tài liệu tham khảo Java Aspose Cells](https://reference.aspose.com/cells/java/)
 - **Tải xuống Thư viện**: Phiên bản mới nhất có sẵn trên [Aspose phát hành](https://releases.aspose.com/cells/java/)
 - **Mua giấy phép**: Đảm bảo mua hàng của bạn thông qua [Cổng thông tin mua hàng Aspose](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: Kiểm tra các tính năng với bản dùng thử miễn phí tại [Aspose phát hành](https://releases.aspose.com/cells/java/)
+- **Dùng thử miễn phí**Kiểm tra các tính năng với bản dùng thử miễn phí tại [Aspose phát hành](https://releases.aspose.com/cells/java/)
 - **Giấy phép tạm thời**: Nộp đơn xin cấp giấy phép tạm thời trên [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/)
 - **Diễn đàn hỗ trợ**: Nhận trợ giúp từ những người dùng khác và các chuyên gia Aspose trong diễn đàn hỗ trợ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

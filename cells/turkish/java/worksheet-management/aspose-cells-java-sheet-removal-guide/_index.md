@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Artık Aspose.Cells for Java kullanarak bir çalışma sayfasını adıyla nası
 Bu kılavuzu takip ederek, Java'da Aspose.Cells'i kullanarak Excel sayfalarını verimli bir şekilde yönetmek için iyi bir donanıma sahip olacaksınız. Bugün uygulamaya başlayın ve projelerinizi nasıl geliştirebileceğini görün!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

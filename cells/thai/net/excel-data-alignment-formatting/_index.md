@@ -1,14 +1,16 @@
 ---
-title: การจัดตำแหน่งและการจัดรูปแบบข้อมูล Excel
-linktitle: การจัดตำแหน่งและการจัดรูปแบบข้อมูล Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ค้นพบวิธีเปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบใน Aspose.Cells สำหรับ .NET เรียนรู้บทช่วยสอนทีละขั้นตอนสำหรับการจัดรูปแบบข้อมูล Excel ได้อย่างราบรื่น
-weight: 36
-url: /th/net/excel-data-alignment-formatting/
+"description": "ค้นพบวิธีเปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบใน Aspose.Cells สำหรับ .NET เรียนรู้บทช่วยสอนทีละขั้นตอนสำหรับการจัดรูปแบบข้อมูล Excel ได้อย่างราบรื่น"
+"linktitle": "การจัดตำแหน่งและการจัดรูปแบบข้อมูล Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การจัดตำแหน่งและการจัดรูปแบบข้อมูล Excel"
+"url": "/th/net/excel-data-alignment-formatting/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดตำแหน่งและการจัดรูปแบบข้อมูล Excel
@@ -25,19 +27,21 @@ url: /th/net/excel-data-alignment-formatting/
    เริ่มต้นด้วยการระบุเซลล์หรือช่วงที่คุณต้องการปรับเปลี่ยน ซึ่งอาจเป็นเซลล์เดียวหรือทั้งตาราง ขึ้นอยู่กับความต้องการของคุณ
 
 2. ใช้การจัดตำแหน่งที่ต้องการ:
-    ใช้`.Style` คุณสมบัติที่จะใช้การตั้งค่าการจัดตำแหน่งแนวนอนหรือแนวตั้ง Aspose.Cells ช่วยให้คุณมีตัวเลือกเช่น`TextAlignmentType.Center`, `TextAlignmentType.Left` , หรือ`TextAlignmentType.Right` สำหรับการจัดตำแหน่งแนวนอนและตัวเลือกที่คล้ายกันสำหรับการจัดตำแหน่งแนวตั้ง
+   ใช้ `.Style` คุณสมบัติที่จะใช้การตั้งค่าการจัดตำแหน่งแนวนอนหรือแนวตั้ง Aspose.Cells ช่วยให้คุณมีตัวเลือกเช่น `TextAlignmentType.Center`- `TextAlignmentType.Left`, หรือ `TextAlignmentType.Right` สำหรับการจัดตำแหน่งแนวนอนและตัวเลือกที่คล้ายกันสำหรับการจัดตำแหน่งแนวตั้ง
 
 3. รักษาการจัดรูปแบบ:
-    สิ่งที่ยอดเยี่ยมเกี่ยวกับ Aspose.Cells คือเมื่อคุณปรับเปลี่ยนการจัดตำแหน่งโดยใช้`.Style` ออบเจ็กต์ องค์ประกอบการจัดรูปแบบอื่นๆ เช่น ขอบ แบบอักษร และสีต่างๆ ยังคงเหมือนเดิม ไม่ต้องกังวลว่าจะสูญเสียรูปแบบที่กำหนดเองไป!
+   สิ่งที่ยอดเยี่ยมเกี่ยวกับ Aspose.Cells คือเมื่อคุณปรับเปลี่ยนการจัดตำแหน่งโดยใช้ `.Style` ออบเจ็กต์ องค์ประกอบการจัดรูปแบบอื่นๆ เช่น ขอบ แบบอักษร และสีต่างๆ ยังคงเหมือนเดิม ไม่ต้องกังวลว่าจะสูญเสียรูปแบบที่กำหนดเองไป!
 
- อ่านเพิ่มเติมเกี่ยวกับวิธีการ[เปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบ](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
+อ่านเพิ่มเติมเกี่ยวกับวิธีการ [เปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบ](-/change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## บทช่วยสอนการจัดตำแหน่งและการจัดรูปแบบข้อมูลใน Excel
 ### [เปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบ](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 เรียนรู้วิธีเปลี่ยนการจัดตำแหน่งเซลล์ Excel โดยไม่สูญเสียการจัดรูปแบบโดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนอย่างครอบคลุมของเราเพื่อการควบคุมที่ราบรื่น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

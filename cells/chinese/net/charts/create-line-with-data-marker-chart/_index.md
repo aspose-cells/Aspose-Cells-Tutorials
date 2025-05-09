@@ -1,59 +1,64 @@
 ---
-title: 在 .NET Aspose.Cells 中创建数据标记的线图
-weight: 7700
-limit: 
-description: 了解如何创建一个工作簿,并使用 .NET 的Aspose.Cells来生成数据标记的线路图.
-keywords: [Aspose.Cells for .NET, create line chart, data markers, workbook, .NET Excel chart, C# chart example, Excel automation, Aspose.Cells tutorial]
-url: /zh/net/charts/create-line-with-data-marker-chart/
+"description": "学习如何使用 Aspose.Cells for .NET 创建工作簿并生成带有数据标记的折线图。请遵循本指南中的代码示例，逐步了解如何操作。"
+"title": "在 Aspose.Cells for .NET 中创建带有数据标记的折线图"
+"url": "/zh/net/charts/create-line-with-data-marker-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在Aspose.Cells中创建一个线图,使用数据标记
+# 在 Aspose.Cells 中创建带有数据标记的折线图
 
-本教程展示了如何在Excel工作簿中创建数据标记的线路图表,使用 .NET的Aspose.Cells.您将学习如何生成随机数据,插入到工作表中,并配置可定制式风格的视觉吸引力图表.该指南涵盖了从设置工作簿到保存最终文件的一切.无论您是自动化Excel报告还是增强数据可视化,这一步一步的例子将帮助您轻松地使用C#实现线路图表.  
+本教程演示如何使用 Aspose.Cells for .NET 在 Excel 工作簿中创建带有数据标记的折线图。您将学习如何生成随机数据、将其插入工作表以及如何使用可自定义的样式配置美观的图表。本指南涵盖了从设置工作簿到保存最终文件的所有内容。无论您是要自动化 Excel 报表还是增强数据可视化，本分步示例都将帮助您使用 C# 轻松实现折线图。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明:  
+## 安装说明：  
 
-为了在项目中使用 .NET 的Aspose.Cells,请按照以下步骤进行:  
+要在您的项目中使用 Aspose.Cells for .NET，请按照以下步骤操作：  
 
-1. 通过 NuGet 安装:  
-   在Visual Studio中打开包管理器控制台,然后运行:  
+1. 通过 NuGet 安装：  
+   在 Visual Studio 中打开包管理器控制台并运行：  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. 下载DLL:  
-   您可以从 网页下载最新的Aspose.Cells版本.[设置下载](https://releases.aspose.com/cells/net/)现在,我们要去.
+2. 下载 DLL：  
+   或者，您可以从下载最新的 Aspose.Cells for .NET 版本 [Aspose 下载](https://releases。aspose.com/cells/net/).
 
-3. 添加参考:  
-   如果您手动下载了DLL,请添加引用`"答复.细胞".`在您的 .NET 项目中.
+3. 添加参考：  
+   如果您手动下载了 DLL，请添加对 `Aspose.Cells.dll` 在您的.NET项目中。
 
-4. 包含名字空间:  
-   在你的C#文件中,添加:  
+4. 包含命名空间：  
+   在您的 C# 文件中，添加：  
    ```csharp
    using Aspose.Cells;
    using System;
    using System.Drawing;
    ```
 
-5. 运行示例:  
-   复制和粘贴提供的C#代码到您的项目中,更新输出目录,并执行脚本生成一个以线图生成的Excel文件.
+5. 运行示例：  
+   将提供的 C# 代码复制并粘贴到您的项目中，更新输出目录，然后执行脚本以生成带有折线图的 Excel 文件。
 
-## 查看
-免费试用,请访问[设法免费试验](https://releases.aspose.com/)现在,我们要去.  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+## 另请参阅
+如需免费试用，请访问 [Aspose 免费试用](https://releases。aspose.com/).  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

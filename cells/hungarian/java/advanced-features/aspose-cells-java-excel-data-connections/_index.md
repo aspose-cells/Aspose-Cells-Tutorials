@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,9 +20,9 @@
 Szeretnéd egyszerűsíteni az Excel fájlok kezelését Java nyelven? **Aspose.Cells Java-hoz** egy hatékony könyvtár, amelyet az Excel-fájlokkal való munka egyszerűsítésére terveztek. Ez az oktatóanyag végigvezeti Önt egy Excel-munkafüzet betöltésén, az adatkapcsolatok elérésén és a webes lekérdezések kapcsolatainak egyszerű kezelésén.
 
 **Amit tanulni fogsz:**
-- Hogyan lehet Excel munkafüzetet betölteni az Aspose.Cells for Java használatával.
+- Hogyan töltsünk be egy Excel munkafüzetet az Aspose.Cells for Java használatával.
 - Technikák adatkapcsolatok elérésére és lekérésére egy munkafüzetből.
-- Azonosítási módszerek `WebQueryConnection` típusokat és hozzáférhetnek az URL-címeikhez.
+- Azonosítási módszerek `WebQueryConnection` típusok és hozzáférhetnek az URL-címeikhez.
 
 Mielőtt belekezdenénk, győződjünk meg róla, hogy a szükséges beállítások megvannak!
 
@@ -29,7 +31,7 @@ Mielőtt belekezdenénk, győződjünk meg róla, hogy a szükséges beállítá
 A bemutató hatékony követéséhez győződjön meg róla, hogy rendelkezik a következőkkel:
 
 ### Kötelező könyvtárak
-Szükséged lesz az Aspose.Cells Java-hoz. Ez Maven vagy Gradle segítségével illeszthető be az alábbiak szerint:
+Szükséged lesz az Aspose.Cells Java-hoz. Ez Maven vagy Gradle segítségével beilleszthető az alábbiak szerint:
 
 **Szakértő**
 ```xml
@@ -175,6 +177,9 @@ A4: Az adatkapcsolatok lehetővé teszik az Excel számára, hogy külső adatfo
 - **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

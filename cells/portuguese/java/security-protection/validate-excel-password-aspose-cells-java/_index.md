@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Como validar senhas do Excel usando Aspose.Cells em Java
 
-**Libere o poder da segurança do Excel: dominando o Aspose.Cells Java**
+**Desbloqueie o poder da segurança do Excel: dominando o Aspose.Cells Java**
 
 Cansado de verificar manualmente se a senha de um arquivo do Excel está correta? Com as ferramentas certas, a verificação de senhas pode ser automatizada de forma eficiente e segura. Este tutorial mostra como usar o Aspose.Cells para Java para validar senhas do Excel com facilidade. 
 
@@ -183,6 +185,9 @@ A5: Visite o [Documentação do Aspose.Cells](https://reference.aspose.com/cells
 Explore estes recursos para aprofundar seu conhecimento e aprimorar sua implementação do Aspose.Cells em projetos Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

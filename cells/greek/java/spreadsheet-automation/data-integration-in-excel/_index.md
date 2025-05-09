@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ενοποίηση δεδομένων στο Excel
@@ -109,9 +111,11 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Ενώ το Aspose.Cells για Java είναι μια ισχυρή επιλογή, εναλλακτικές λύσεις όπως το Apache POI παρέχουν επίσης δυνατότητες ενσωμάτωσης με το Excel.
 
 Αυτός ο ολοκληρωμένος οδηγός θα σας βοηθήσει να κατανοήσετε την ενοποίηση δεδομένων στο Excel χρησιμοποιώντας το Aspose.Cells για Java. Μη διστάσετε να εξερευνήσετε περαιτέρω και να προσαρμόσετε αυτά τα βήματα στις συγκεκριμένες ανάγκες σας. Καλή ενοποίηση δεδομένων!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

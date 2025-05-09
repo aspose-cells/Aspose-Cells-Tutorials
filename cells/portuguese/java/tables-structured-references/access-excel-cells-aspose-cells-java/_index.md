@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Acessar células específicas do Excel por seus nomes, em vez de índices numéricos, simplifica a manipulação de dados, especialmente ao lidar com grandes conjuntos de dados ou planilhas complexas. Este tutorial explora como usar o Aspose.Cells para Java de forma eficiente para atingir esse objetivo.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando e inicializando Aspose.Cells para Java em seu projeto
 - Acessando células pelo nome usando Aspose.Cells
 - Aplicações do mundo real e casos de uso prático
@@ -81,7 +83,7 @@ Nesta seção, mostraremos como acessar células pelo nome.
 ### Acessando uma célula pelo seu nome
 
 #### Visão geral
-Acessar células pelo nome melhora a legibilidade e a manutenção do código, especialmente em planilhas complexas com posições de células não fixas.
+Acessar células por nome melhora a legibilidade e a manutenção do código, especialmente em planilhas complexas com posições de células não fixas.
 
 #### Etapas para implementar
 1. **Carregar o arquivo Excel**
@@ -149,6 +151,9 @@ Explore funcionalidades adicionais do Aspose.Cells, como criar gráficos ou auto
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

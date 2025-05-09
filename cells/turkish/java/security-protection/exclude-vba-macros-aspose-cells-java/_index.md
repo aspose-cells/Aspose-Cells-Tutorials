@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,6 +200,9 @@ Bu çözümü uygulamaya hazır mısınız? Bugün ücretsiz denemeyle başlayı
    - Doğru dosya yolunu sağlayın ve doğrulayın `LoadOptions` düzgün bir şekilde yapılandırılmıştır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

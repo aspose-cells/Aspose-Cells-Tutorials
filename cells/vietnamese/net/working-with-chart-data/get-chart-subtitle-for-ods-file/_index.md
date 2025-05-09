@@ -1,14 +1,16 @@
 ---
-title: Nhận phụ đề biểu đồ cho tệp ODS
-linktitle: Nhận phụ đề biểu đồ cho tệp ODS
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách trích xuất phụ đề biểu đồ từ tệp ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này. Hoàn hảo cho các nhà phát triển.
-weight: 12
-url: /vi/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
+"description": "Khám phá cách trích xuất phụ đề biểu đồ từ tệp ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này. Hoàn hảo cho các nhà phát triển."
+"linktitle": "Nhận phụ đề biểu đồ cho tệp ODS"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Nhận phụ đề biểu đồ cho tệp ODS"
+"url": "/vi/net/working-with-chart-data/get-chart-subtitle-for-ods-file/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận phụ đề biểu đồ cho tệp ODS
@@ -22,9 +24,9 @@ Các tệp Excel rất phổ biến trong thế giới dữ liệu ngày nay, đ
 Trước khi đi sâu vào hướng dẫn, bạn sẽ muốn đảm bảo rằng mình đã thiết lập mọi thứ cần thiết để sử dụng Aspose.Cells cho .NET một cách hiệu quả. Sau đây là danh sách kiểm tra cần tuân theo:
 
 1. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework trên máy của mình. 
-2.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/cells/net/).
 3. IDE: Mặc dù bất kỳ trình soạn thảo mã nào cũng được, nhưng sử dụng IDE như Visual Studio sẽ cung cấp nền tảng mạnh mẽ cho việc phát triển .NET.
-4. Tệp ODS mẫu: Bạn sẽ cần một tệp ODS có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng`SampleChart.ods`.
+4. Tệp ODS mẫu: Bạn sẽ cần một tệp ODS có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng `SampleChart.ods`.
 5. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn nắm bắt các khái niệm một cách nhanh chóng và thực hiện các sửa đổi khi cần thiết.
 
 ## Nhập gói
@@ -45,7 +47,7 @@ Bây giờ, chúng ta hãy đi vào chi tiết. Thực hiện theo các hướng
 Tạo một Dự án Ứng dụng Console mới
 
 - Mở Visual Studio (hoặc IDE mà bạn thích).
--  Tạo một dự án Ứng dụng bảng điều khiển mới và đặt cho nó một tên có liên quan, chẳng hạn như`ChartSubtitleExtractor`.
+- Tạo một dự án Ứng dụng bảng điều khiển mới và đặt cho nó một tên có liên quan, chẳng hạn như `ChartSubtitleExtractor`.
 
 ## Bước 2: Thêm gói NuGet Aspose.Cells
 
@@ -53,7 +55,7 @@ Cài đặt thư viện Aspose.Cells qua NuGet
 
 - Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 - Chọn “Quản lý các gói NuGet”.
--  Tìm kiếm`Aspose.Cells` và nhấp vào “Cài đặt”.
+- Tìm kiếm `Aspose.Cells` và nhấp vào “Cài đặt”.
 
 Thao tác này sẽ kết hợp thư viện Aspose.Cells vào dự án của bạn, cho phép bạn làm việc với các tài liệu và biểu đồ Excel một cách liền mạch.
 
@@ -61,7 +63,7 @@ Thao tác này sẽ kết hợp thư viện Aspose.Cells vào dự án của b�
 
 Chỉ định thư mục nguồn cho tệp ODS của bạn
 
- Hãy chắc chắn thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`SampleChart.ods` tập tin nằm tại đó. Điều quan trọng là phải thiết lập đúng đường dẫn tập tin để chương trình có thể tải tập tin mà không gặp sự cố.
+Hãy chắc chắn thay thế `"Your Document Directory"` với con đường thực tế nơi bạn `SampleChart.ods` tập tin nằm tại đó. Điều quan trọng là phải thiết lập đúng đường dẫn tập tin để chương trình có thể tải tập tin mà không gặp sự cố.
 
 ```csharp
 string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
@@ -71,7 +73,7 @@ string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
 
 Tải bảng tính Excel của bạn
 
- Bước này bao gồm việc tạo ra một phiên bản của`Workbook` lớp, đại diện cho tệp ODS của bạn. Sổ làm việc sẽ chứa tất cả các bảng tính và biểu đồ tương ứng của chúng.
+Bước này bao gồm việc tạo ra một phiên bản của `Workbook` lớp, đại diện cho tệp ODS của bạn. Sổ làm việc sẽ chứa tất cả các bảng tính và biểu đồ tương ứng của chúng.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
@@ -103,7 +105,7 @@ Chart chart = worksheet.Charts[0];
 
 Trích xuất phụ đề từ biểu đồ
 
-Cuối cùng, bước này là nơi phép thuật xảy ra – bạn sẽ lấy phụ đề từ đối tượng biểu đồ và hiển thị nó. Bằng cách chuyển đổi văn bản phụ đề thành chuỗi, bạn có thể dễ dàng đọc hoặc thao tác thêm khi cần.
+Cuối cùng, bước này là nơi phép thuật xảy ra – bạn sẽ lấy phụ đề từ đối tượng biểu đồ và hiển thị nó. Bằng cách chuyển đổi văn bản phụ đề thành chuỗi, bạn có thể dễ dàng đọc hoặc thao tác thêm nếu cần.
 
 ```csharp
 Console.WriteLine("Chart Subtitle: " + chart.SubTitle.Text);
@@ -128,7 +130,7 @@ Và bạn đã có nó! Chỉ với vài bước đơn giản, bạn đã học 
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET mạnh mẽ cho phép người dùng tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là một thư viện .NET mạnh mẽ cho phép người dùng tạo, thao tác và chuyển đổi các tệp Excel theo chương trình.
 
 ### Tôi có thể sử dụng Aspose.Cells cho các định dạng tệp khác ngoài ODS không?
 Có, Aspose.Cells hỗ trợ nhiều định dạng khác nhau bao gồm XLSX, XLS, CSV, v.v.
@@ -141,9 +143,11 @@ Bạn có thể yêu cầu cấp giấy phép tạm thời để đánh giá t�
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
 Bạn có thể nhận được hỗ trợ thông qua diễn đàn Aspose, nơi bạn có thể đặt câu hỏi và tìm ra giải pháp hiện có.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

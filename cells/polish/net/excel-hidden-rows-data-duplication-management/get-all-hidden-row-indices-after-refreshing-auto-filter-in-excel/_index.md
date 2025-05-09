@@ -1,21 +1,23 @@
 ---
-title: Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel
-linktitle: Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak odzyskać ukryte indeksy wierszy po odświeżeniu Auto Filter w programie Excel przy użyciu Aspose.Cells dla .NET. Uprość zarządzanie danymi.
-weight: 10
-url: /pl/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/
+"description": "Dowiedz się, jak odzyskać ukryte indeksy wierszy po odświeżeniu Auto Filter w programie Excel przy użyciu Aspose.Cells dla .NET. Uprość zarządzanie danymi."
+"linktitle": "Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel"
+"url": "/pl/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel
 
 ## Wstęp
 
-Podczas pracy z plikami Excela, zwłaszcza dużymi zestawami danych, filtrowanie może być zbawienne. Pomaga nam skupić się na określonych punktach danych, ale co się stanie, gdy po zastosowaniu filtra zechcesz zidentyfikować ukryte wiersze? Jeśli kiedykolwiek byłeś ciekawy, jak wyciągnąć te ukryte szczegóły, jesteś we właściwym miejscu! W tym przewodniku zbadamy, jak uzyskać ukryte indeksy wierszy po odświeżeniu automatycznego filtra w Excelu przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, proces ten okaże się prosty i angażujący. Zanurzmy się!
+Podczas pracy z plikami Excela, zwłaszcza dużymi zestawami danych, filtrowanie może być zbawienne. Pomaga nam skupić się na określonych punktach danych, ale co się stanie, gdy po zastosowaniu filtra zechcesz zidentyfikować ukryte wiersze? Jeśli kiedykolwiek byłeś ciekawy, jak wyciągnąć te ukryte szczegóły, jesteś we właściwym miejscu! W tym przewodniku zbadamy, jak uzyskać ukryte indeksy wierszy po odświeżeniu automatycznego filtra w programie Excel przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, proces ten okaże się prosty i angażujący. Zanurzmy się!
 
 ## Wymagania wstępne
 
@@ -27,16 +29,16 @@ Aby śledzić ten samouczek, musisz mieć solidne zrozumienie tego, czym jest As
 
 ### Konfigurowanie środowiska programistycznego
 
-1.  Zainstaluj Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. Możesz je pobrać ze strony[Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
+1. Zainstaluj Visual Studio: Upewnij się, że masz zainstalowane Visual Studio na swoim komputerze. Możesz je pobrać ze strony [Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
 
 2. .NET Framework: Będziesz potrzebować zgodnej wersji .NET Framework lub .NET Core. Ta biblioteka dobrze współpracuje z obydwoma frameworkami.
 
-3.  Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells z[ten link](https://releases.aspose.com/cells/net/). Alternatywnie możesz zainstalować go za pomocą NuGet. Po prostu otwórz konsolę Package Manager i uruchom:
+3. Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells z [ten link](https://releases.aspose.com/cells/net/). Alternatywnie możesz zainstalować go za pomocą NuGet. Po prostu otwórz konsolę Package Manager i uruchom:
 ```
 Install-Package Aspose.Cells
 ```
 
-4.  Przykładowy plik Excela: Przygotuj przykładowy plik Excela o nazwie`sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` do testowania. Upewnij się, że uwzględniłeś pewne dane, które można filtrować.
+4. Przykładowy plik Excela: Przygotuj przykładowy plik Excela o nazwie `sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` do testowania. Upewnij się, że uwzględniłeś pewne dane, które można filtrować.
 
 ## Importuj pakiety
 
@@ -72,9 +74,9 @@ Następnie musimy załadować plik Excela do obiektu skoroszytu. Pozwala nam to 
 Workbook wb = new Workbook(sourceDir + "sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx");
 ```
 
- Tutaj tworzymy nowy`Workbook` obiekt ładujący określony plik Excel.
+Tutaj tworzymy nowy `Workbook` obiekt ładujący określony plik Excel.
 
-## Krok 3: Uzyskaj dostęp do żądanego arkusza kalkulacyjnego
+## Krok 3: Uzyskaj dostęp do żądanego arkusza roboczego
 
 Teraz będziemy pracować z pierwszym arkuszem skoroszytu. Ten krok izoluje arkusz zawierający dane, które chcemy filtrować.
 
@@ -118,7 +120,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 
 ## Wniosek
 
-masz! Udało Ci się pobrać indeksy ukrytych wierszy po odświeżeniu Auto Filter w programie Excel przy użyciu Aspose.Cells dla .NET. Całkiem niezłe, prawda? Ta możliwość może znacznie usprawnić Twoje projekty analizy danych, czyniąc Twój przepływ pracy płynniejszym i bardziej wydajnym.
+I masz! Udało Ci się pobrać indeksy ukrytych wierszy po odświeżeniu Auto Filter w programie Excel przy użyciu Aspose.Cells dla .NET. Całkiem niezłe, prawda? Ta możliwość może znacznie usprawnić Twoje projekty analizy danych, czyniąc Twój przepływ pracy płynniejszym i bardziej wydajnym.
 
 ## Najczęściej zadawane pytania
 
@@ -129,16 +131,18 @@ Aspose.Cells to zaawansowana biblioteka dla platformy .NET, która umożliwia pr
 Tak! Aspose.Cells ma wbudowane funkcjonalności do stosowania filtrów i efektywnej pracy z danymi Excela.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale aby kontynuować korzystanie, musisz kupić licencję. Sprawdź[strona zakupu](https://purchase.aspose.com/buy) Więcej szczegółów.
+Aspose.Cells oferuje bezpłatną wersję próbną, ale aby kontynuować korzystanie, musisz kupić licencję. Sprawdź [strona zakupu](https://purchase.aspose.com/buy) Więcej szczegółów.
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz szukać wsparcia w społeczności Aspose za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz szukać wsparcia w społeczności Aspose za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Pełna dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/cells/net/).
+Pełna dokumentacja jest dostępna [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

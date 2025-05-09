@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
    - คุณสามารถรับการทดลองใช้ฟรีได้จาก [ดาวน์โหลด Aspose](https://releases-aspose.com/cells/java/).
    - สำหรับการใช้งานแบบขยายเวลา โปรดพิจารณาซื้อใบอนุญาตหรือขอใบอนุญาตชั่วคราวผ่าน [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
-3. **การเริ่มต้นขั้นพื้นฐาน**: เมื่อติดตั้งแล้ว ให้สร้างอินสแตนซ์ของ `Workbook` เพื่อเริ่มต้นสร้างและจัดการไฟล์ Excel
+3. **การเริ่มต้นขั้นพื้นฐาน**เมื่อติดตั้งแล้ว ให้สร้างอินสแตนซ์ของ `Workbook` เพื่อเริ่มต้นสร้างและจัดการไฟล์ Excel
 
 ## คู่มือการใช้งาน
 
@@ -205,6 +207,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

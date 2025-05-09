@@ -1,14 +1,16 @@
 ---
-title: Określanie zewnętrznego źródła danych połączenia w .NET
-linktitle: Określanie zewnętrznego źródła danych połączenia w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak określić zewnętrzne źródła danych połączeń w tabelach przestawnych programu Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. Idealne dla programistów .NET.
-weight: 24
-url: /pl/net/creating-and-configuring-pivot-tables/specifying-external-connection-data-source/
+"description": "Dowiedz się, jak określić zewnętrzne źródła danych połączeń w tabelach przestawnych programu Excel przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. Idealne dla programistów .NET."
+"linktitle": "Określanie zewnętrznego źródła danych połączenia w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Określanie zewnętrznego źródła danych połączenia w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/specifying-external-connection-data-source/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określanie zewnętrznego źródła danych połączenia w .NET
@@ -18,12 +20,12 @@ url: /pl/net/creating-and-configuring-pivot-tables/specifying-external-connectio
 ## Wymagania wstępne
 Zanim zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu. Oto prosta lista kontrolna, która zapewni, że jesteś gotowy do działania:
 1. Środowisko .NET: Upewnij się, że masz działające środowisko .NET. Może to być .NET Framework lub .NET Core, w zależności od potrzeb projektu.
-2.  Aspose.Cells for .NET Library: Będziesz potrzebować biblioteki Aspose.Cells zainstalowanej w swoim projekcie. Jeszcze jej nie masz? Możesz ją łatwo pobrać[Tutaj](https://releases.aspose.com/cells/net/).
-3. Przykładowy plik programu Excel: W tym samouczku korzystamy z przykładowego pliku programu Excel o nazwie`SamplePivotTableExternalConnection.xlsx`. Upewnij się, że masz ten plik gotowy w określonym katalogu dokumentów.
-4. Podstawowa wiedza o języku C#: Znajomość kodowania w języku C# na pewno okaże się pomocna, ponieważ będziemy wspólnie pisać kod!
+2. Aspose.Cells for .NET Library: Będziesz potrzebować biblioteki Aspose.Cells zainstalowanej w swoim projekcie. Jeszcze jej nie masz? Możesz ją łatwo pobrać [Tutaj](https://releases.aspose.com/cells/net/).
+3. Przykładowy plik programu Excel: W tym samouczku korzystamy z przykładowego pliku programu Excel o nazwie `SamplePivotTableExternalConnection.xlsx`. Upewnij się, że masz ten plik gotowy w określonym katalogu dokumentów.
+4. Podstawowa wiedza z zakresu języka C#: Znajomość kodowania w języku C# na pewno okaże się pomocna, ponieważ będziemy wspólnie pisać kod!
 Po spełnieniu tych wymagań wstępnych możesz dowiedzieć się, jak określić zewnętrzne źródła danych połączeń w tabelach przestawnych programu Excel za pomocą pakietu Aspose.Cells for .NET.
 ## Importuj pakiety
-Przejdźmy teraz do zabawy! Po pierwsze, musisz zaimportować niezbędne pakiety do swojego projektu C#. Ten krok zapewnia, że możesz wykorzystać pełną funkcjonalność biblioteki Aspose.Cells.
+Przejdźmy teraz do zabawnej części! Po pierwsze, musisz zaimportować niezbędne pakiety do swojego projektu C#. Ten krok zapewnia, że możesz wykorzystać pełną funkcjonalność biblioteki Aspose.Cells.
 ## Krok 1: Importuj niezbędne przestrzenie nazw
 Otwórz edytor kodu i zacznij od zaimportowania przestrzeni nazw Aspose.Cells. Oto jak to zrobić:
 ```csharp
@@ -36,14 +38,14 @@ Ważne jest zdefiniowanie katalogu, w którym znajdują się pliki Excela. Oto p
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do twojego katalogu. Ten fragment kodu mówi twojemu programowi, gdzie znaleźć plik Excela, którym chcesz manipulować.
-Teraz, gdy uporządkowaliśmy importy i katalogi, czas załadować przykładowy plik Excela.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do twojego katalogu. Ten fragment kodu mówi twojemu programowi, gdzie znaleźć plik Excela, którym chcesz manipulować.
+Teraz, gdy uporządkowaliśmy już importy i katalogi, czas załadować przykładowy plik Excela.
 ## Krok 3: Załaduj skoroszyt
- Ten krok obejmuje utworzenie instancji`Workbook` class i wczytanie do niej naszego przykładowego pliku. Oto jak to zrobić:
+Ten krok obejmuje utworzenie instancji `Workbook` class i wczytanie do niej naszego przykładowego pliku. Oto jak to zrobić:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SamplePivotTableExternalConnection.xlsx");
 ```
- Co się tu dzieje? Kiedy tworzymy nowy`Workbook` obiekt, mówimy naszemu programowi, aby odczytał plik Excel w podanej lokalizacji. Jeśli plik zostanie znaleziony, uważaj go za załadowany!
+Co się tu dzieje? Kiedy tworzymy nowy `Workbook` obiekt, mówimy naszemu programowi, aby odczytał plik Excel w podanej lokalizacji. Jeśli plik zostanie znaleziony, uważaj go za załadowany!
 ## Krok 4: Uzyskaj dostęp do arkusza kalkulacyjnego
 Po załadowaniu skoroszytu często musimy wchodzić w interakcję z określonymi arkuszami w tym skoroszycie. Jeśli nasz plik zawiera wiele arkuszy, możemy uzyskać dostęp do tego, którego potrzebujemy, za pomocą jego indeksu:
 ```csharp
@@ -53,7 +55,7 @@ tym przypadku uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego (indeks 0)
 ## Pobierz tabelę przestawną
 Gdy mamy już dostęp do arkusza kalkulacyjnego, następnym krokiem jest wyodrębnienie tabeli przestawnej.
 ## Krok 5: Pobierz tabelę przestawną
- W arkuszu kalkulacyjnym możesz pobrać tabelę przestawną za pomocą`PivotTables` nieruchomość:
+W arkuszu kalkulacyjnym możesz pobrać tabelę przestawną za pomocą `PivotTables` nieruchomość:
 ```csharp
 var pivotTable = worksheet.PivotTables[0];
 ```
@@ -81,16 +83,18 @@ W dzisiejszym świecie zorientowanym na dane skuteczne zarządzanie plikami Exce
 ### Czym jest Aspose.Cells dla .NET?  
 Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, manipulowanie i przetwarzanie plików programu Excel w sposób programistyczny, bez konieczności instalowania programu Microsoft Excel.
 ### Czy muszę kupić Aspose.Cells, aby z niego korzystać?  
- Chociaż Aspose.Cells jest biblioteką płatną, możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
+Chociaż Aspose.Cells jest biblioteką płatną, możesz uzyskać dostęp do bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/) aby zapoznać się z jego funkcjami przed dokonaniem zakupu.
 ### Czy mogę liczyć na jakąkolwiek pomoc, jeśli wystąpią jakieś problemy?  
- Oczywiście! Możesz uzyskać pomoc od społeczności Aspose za pośrednictwem ich[Forum wsparcia](https://forum.aspose.com/c/cells/9).
+Oczywiście! Możesz uzyskać pomoc od społeczności Aspose za pośrednictwem ich [Forum wsparcia](https://forum.aspose.com/c/cells/9).
 ### Czy mogę użyć Aspose.Cells do odczytu tabel przestawnych z programu Excel?  
 Tak! Aspose.Cells oferuje funkcjonalności do odczytu, modyfikacji i tworzenia tabel przestawnych, a także interakcji z zewnętrznymi źródłami danych.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?  
- Możesz złożyć wniosek o[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+Możesz złożyć wniosek o [tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/) celach ewaluacyjnych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

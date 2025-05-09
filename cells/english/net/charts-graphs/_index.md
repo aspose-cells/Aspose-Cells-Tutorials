@@ -4,8 +4,11 @@ description: Learn to create, customize, and automate stunning charts and graphs
 weight: 9
 url: "/net/charts-graphs/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Charts & Graphs in Excel
@@ -201,6 +204,9 @@ Learn how to update your Excel chart data source using Aspose.Cells for .NET wit
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

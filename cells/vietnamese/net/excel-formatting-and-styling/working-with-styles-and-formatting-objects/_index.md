@@ -1,14 +1,16 @@
 ---
-title: Làm việc với các kiểu và định dạng đối tượng
-linktitle: Làm việc với các kiểu và định dạng đối tượng
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách định dạng bảng tính Excel bằng Aspose.Cells cho .NET thông qua hướng dẫn từng bước và thành thạo các kiểu như một chuyên gia.
-weight: 13
-url: /vi/net/excel-formatting-and-styling/working-with-styles-and-formatting-objects/
+"description": "Tìm hiểu cách định dạng bảng tính Excel bằng Aspose.Cells cho .NET thông qua hướng dẫn từng bước và thành thạo các kiểu như một chuyên gia."
+"linktitle": "Làm việc với các kiểu và định dạng đối tượng"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Làm việc với các kiểu và định dạng đối tượng"
+"url": "/vi/net/excel-formatting-and-styling/working-with-styles-and-formatting-objects/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với các kiểu và định dạng đối tượng
@@ -27,7 +29,7 @@ Trước khi tìm hiểu mã và xem cách định dạng tệp Excel bằng Asp
 
 ### Thư viện Aspose.Cells
 
- Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể dễ dàng tải phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/). Nếu bạn không chắc chắn cách cài đặt, bạn có thể sử dụng Trình quản lý gói NuGet trong Visual Studio:
+Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể dễ dàng tải phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/). Nếu bạn không chắc chắn cách cài đặt, bạn có thể sử dụng Trình quản lý gói NuGet trong Visual Studio:
 
 1. Mở Visual Studio.
 2. Vào Công cụ -> Trình quản lý gói NuGet -> Bảng điều khiển trình quản lý gói.
@@ -68,18 +70,18 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Trong bước này, điều chỉnh`"Your Document Directory"` đến đường dẫn hợp lệ trên máy tính nơi bạn muốn lưu các tệp Excel của mình.
+Trong bước này, điều chỉnh `"Your Document Directory"` đến đường dẫn hợp lệ trên máy tính nơi bạn muốn lưu các tệp Excel của mình.
 
 ## Bước 2: Khởi tạo một Workbook
 
- Bây giờ bạn đã thiết lập xong môi trường của mình, đã đến lúc tạo một phiên bản của`Workbook`lớp. Lớp này đại diện cho tệp Excel của bạn.
+Bây giờ bạn đã thiết lập xong môi trường của mình, đã đến lúc tạo một phiên bản của `Workbook` lớp. Lớp này đại diện cho tệp Excel của bạn.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 
- Với dòng này, bạn đã chính thức bắt đầu hành trình thao tác trên Excel!`workbook` biến hiện giữ một tệp Excel mới trong bộ nhớ.
+Với dòng này, bạn đã chính thức bắt đầu hành trình thao tác trên Excel! `workbook` biến hiện giữ một tệp Excel mới trong bộ nhớ.
 
 ## Bước 3: Thêm một bảng tính mới
 
@@ -90,18 +92,18 @@ Tiếp theo, bạn sẽ muốn thêm một bảng tính mới nơi bạn có th�
 int i = workbook.Worksheets.Add();
 ```
 
- Điều đang xảy ra ở đây là bạn đang thêm một bảng tính mới vào sổ làm việc của mình và lưu trữ chỉ mục của nó trong`i`.
+Điều đang xảy ra ở đây là bạn đang thêm một bảng tính mới vào sổ làm việc của mình và lưu trữ chỉ mục của nó trong `i`.
 
 ## Bước 4: Truy cập vào Bảng tính
 
 Để thao tác trực tiếp với worksheet, bạn cần tham chiếu đến worksheet đó. Bạn có thể lấy nó bằng cách sử dụng index của worksheet.
 
 ```csharp
-// Lấy tham chiếu của bảng tính đầu tiên bằng cách chuyển chỉ mục trang tính của nó
+// Lấy tham chiếu của bảng tính đầu tiên bằng cách chuyển chỉ mục bảng tính của nó
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
- Hiện nay,`worksheet` đã sẵn sàng hoạt động! Bạn có thể bắt đầu thêm dữ liệu và định dạng theo ý muốn.
+Hiện nay, `worksheet` đã sẵn sàng hoạt động! Bạn có thể bắt đầu thêm dữ liệu và định dạng theo ý muốn.
 
 ## Bước 5: Thêm dữ liệu vào ô
 
@@ -115,11 +117,11 @@ Cell cell = worksheet.Cells["A1"];
 cell.PutValue("Hello Aspose!");
 ```
 
- Bây giờ bạn đã gọi`PutValue`phương pháp thiết lập giá trị của ô. Một cách đơn giản nhưng hiệu quả để bắt đầu điền thông tin vào bảng tính của bạn!
+Bây giờ bạn đã gọi `PutValue` phương pháp thiết lập giá trị của ô. Một cách đơn giản nhưng hiệu quả để bắt đầu điền thông tin vào bảng tính của bạn!
 
 ## Bước 6: Tạo kiểu
 
- Đây là phần thú vị—làm cho nội dung của bạn hấp dẫn về mặt thị giác! Để bắt đầu tạo kiểu cho ô của bạn, bạn cần tạo`Style` sự vật.
+Đây là phần thú vị—làm cho nội dung của bạn hấp dẫn về mặt thị giác! Để bắt đầu tạo kiểu cho ô của bạn, bạn cần tạo `Style` sự vật.
 
 ```csharp
 // Thêm một phong cách mới
@@ -189,7 +191,7 @@ Chỉ cần như vậy, tế bào A1 của bạn trông sắc nét và sẵn sà
 
 ## Bước 12: Áp dụng Kiểu cho các Ô Khác
 
-Tại sao lại dừng lại ở một ô? Hãy cùng lan tỏa tình yêu và áp dụng phong cách tương tự cho một vài ô nữa!
+Tại sao lại dừng lại ở một ô? Hãy cùng lan tỏa tình yêu và áp dụng cùng một phong cách cho một vài ô nữa!
 
 ```csharp
 // Áp dụng cùng một kiểu cho một số ô khác
@@ -230,10 +232,12 @@ Có, Aspose.Cells có thể được tích hợp vào các ứng dụng và dị
 Bạn có thể áp dụng nhiều kiểu khác nhau, bao gồm cài đặt phông chữ, màu sắc, đường viền và căn chỉnh để tăng khả năng hiển thị dữ liệu.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào.
+Bạn có thể nhận được hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

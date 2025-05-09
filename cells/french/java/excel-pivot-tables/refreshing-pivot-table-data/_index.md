@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Actualisation des données du tableau croisé dynamique
@@ -90,9 +92,11 @@ L'actualisation des données d'un tableau croisé dynamique dans Aspose.Cells po
    - Oui, vous pouvez programmer des actualisations automatiques des données à l'aide d'Aspose.Cells et des bibliothèques de planification Java. Cela vous permet de maintenir vos tableaux croisés dynamiques à jour sans intervention manuelle.
 
 Vous savez désormais actualiser les données d'un tableau croisé dynamique dans Aspose.Cells pour Java. Préservez la précision de vos analyses et prenez des décisions éclairées.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

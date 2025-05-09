@@ -1,50 +1,52 @@
 ---
-title: Upravit spojnicový graf
-linktitle: Upravit spojnicový graf
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se upravovat spojnicové grafy v Excelu pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce krok za krokem.
-weight: 15
-url: /cs/net/manipulating-chart-types/modify-line-chart/
+"description": "Naučte se, jak upravovat spojnicové grafy v Excelu pomocí Aspose.Cells pro .NET s tímto podrobným návodem krok za krokem."
+"linktitle": "Upravit spojnicový graf"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Upravit spojnicový graf"
+"url": "/cs/net/manipulating-chart-types/modify-line-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Upravit spojnicový graf
 
 ## Zavedení
 
-Vytváření vizuálně přitažlivých a informativních grafů je nezbytné pro efektivní reprezentaci dat, zejména v obchodním a akademickém prostředí. Jak ale vylepšíte své spojnicové grafy, aby zprostředkovaly příběh za čísly? Zde vstupuje do hry Aspose.Cells for .NET. V tomto článku se ponoříme do používání Aspose.Cells k úpravě stávajícího spojnicového grafu bez námahy. Pokryjeme vše od nezbytných předpokladů až po podrobné pokyny, které vám pomohou maximálně využít vaše úsilí o vizualizaci dat. 
+Vytváření vizuálně poutavých a informativních grafů je nezbytné pro efektivní reprezentaci dat, zejména v obchodním a akademickém prostředí. Jak ale vylepšit své spojnicové grafy, aby vystihly příběh skrytý za čísly? A zde přichází na řadu Aspose.Cells pro .NET. V tomto článku se ponoříme do používání Aspose.Cells k snadné úpravě existujícího spojnicového grafu. Probereme vše od předpokladů až po podrobné pokyny, které vám pomohou vytěžit z vizualizace dat maximum. 
 
 ## Předpoklady 
 
-Než se pustíme do hrubších úprav grafů, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde jsou základní předpoklady:
+Než se pustíme do detailů úpravy grafů, ujistěte se, že máte vše, co potřebujete k zahájení. Zde jsou základní předpoklady:
 
-### Nainstalujte Visual Studio
- Abyste mohli efektivně psát a spouštět kód C#, budete potřebovat Visual Studio nainstalované na vašem počítači. Pokud ji ještě nemáte, můžete si ji stáhnout z[Web Visual Studia](https://visualstudio.microsoft.com/).
+### Instalace Visual Studia
+Pro efektivní psaní a spouštění kódu C# budete potřebovat na svém počítači nainstalované Visual Studio. Pokud ho ještě nemáte, můžete si ho stáhnout z [Webové stránky Visual Studia](https://visualstudio.microsoft.com/).
 
-### Stáhněte si Aspose.Cells pro .NET
- Chcete-li používat Aspose.Cells, potřebujete knihovnu. Nejnovější verzi si můžete snadno stáhnout z[tento odkaz](https://releases.aspose.com/cells/net/).
+### Stáhnout Aspose.Cells pro .NET
+Pro použití Aspose.Cells potřebujete knihovnu. Nejnovější verzi si můžete snadno stáhnout z [tento odkaz](https://releases.aspose.com/cells/net/).
 
 ### Základní znalost C#
-když vše vysvětlíme krok za krokem, základní znalost C# vám pomůže hladce procházet tímto tutoriálem.
+I když si vše vysvětlíme krok za krokem, základní znalost jazyka C# vám pomůže v tomto tutoriálu hladce se orientovat.
 
-### Stávající soubor aplikace Excel
- Ujistěte se, že máte připravený soubor Excel se spojnicovým grafem. Budeme pracovat se souborem s názvem`sampleModifyLineChart.xlsx`, tak to mějte taky po ruce. 
+### Existující soubor aplikace Excel
+Ujistěte se, že máte připravený soubor aplikace Excel s čárovým grafem. Budeme pracovat se souborem s názvem `sampleModifyLineChart.xlsx`, takže to mějte taky po ruce. 
 
-## Importujte balíčky
+## Importovat balíčky
 
-Abychom mohli začít, musíme nastavit náš projekt importem požadovaných jmenných prostorů. Jak na to:
+Abychom mohli začít, musíme si nastavit náš projekt importem požadovaných jmenných prostorů. Zde je návod, jak to udělat:
 
-### Vytvořte nový projekt v sadě Visual Studio
-Otevřete Visual Studio a vytvořte nový projekt C# Console Application. Pojmenujte to nějak relevantní, například "LineChartModifier".
+### Vytvoření nového projektu ve Visual Studiu
+Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace v jazyce C#. Pojmenujte ho nějak relevantně, například „LineChartModifier“.
 
-### Přidejte odkaz do Aspose.Cells
-Ve svém projektu klikněte pravým tlačítkem myši na „Reference“ a vyberte „Přidat referenci“. Vyhledejte Aspose.Cells a přidejte jej do svého projektu.
+### Přidat odkaz na Aspose.Cells
+Ve svém projektu klikněte pravým tlačítkem myši na „Reference“ a vyberte „Přidat referenci“. Vyhledejte Aspose.Cells a přidejte ho do svého projektu.
 
 ### Importujte potřebné jmenné prostory
- V horní části vašeho`Program.cs`, budete muset importovat potřebné jmenné prostory:
+Na vrcholu tvého `Program.cs`, budete muset importovat potřebné jmenné prostory:
 
 ```csharp
 using Aspose.Cells;
@@ -52,20 +54,20 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Nyní, když máme vše nastaveno a připraveno ke spuštění, pojďme si krok za krokem rozebrat proces úpravy grafu.
+Nyní, když máme vše nastavené a připravené k zahájení, pojďme si krok za krokem rozebrat proces úpravy grafu.
 
-## Krok 1: Definujte výstupní a zdrojové adresáře
+## Krok 1: Definování výstupních a zdrojových adresářů
 
-První věc, kterou musíme udělat, je určit, kde bude náš výstupní soubor uložen a kde se nachází náš zdrojový soubor. 
+První věc, kterou musíme udělat, je určit, kam bude uložen náš výstupní soubor a kde se nachází náš zdrojový soubor. 
 
 ```csharp
 string outputDir = "Your Output Directory"; // Nastavte toto na požadovaný výstupní adresář
-string sourceDir = "Your Document Directory"; // Nastavte toto na místo, kde se nachází váš sampleModifyLineChart.xlsx
+string sourceDir = "Your Document Directory"; // Nastavte toto místo na místo, kde se nachází váš soubor sampleModifyLineChart.xlsx
 ```
 
-## Krok 2: Otevřete existující sešit
+## Krok 2: Otevření existujícího sešitu
 
-Dále otevřeme náš stávající excelový sešit. Zde se dostaneme k grafu, který chceme upravit.
+Dále otevřeme náš existující sešit aplikace Excel. Zde se dostaneme k grafu, který chceme upravit.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleModifyLineChart.xlsx");
@@ -73,15 +75,15 @@ Workbook workbook = new Workbook(sourceDir + "sampleModifyLineChart.xlsx");
 
 ## Krok 3: Přístup k grafu
 
-Jakmile je sešit otevřen, musíme přejít na první list a získat spojnicový graf.
+Jakmile je sešit otevřený, musíme přejít na první list a zobrazit spojnicový graf.
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = workbook.Worksheets[0].Charts[0];
 ```
 
-## Krok 4: Přidejte novou datovou řadu
+## Krok 4: Přidání nové datové řady
 
-Nyní přichází ta zábavná část! Do našeho grafu můžeme přidat nové datové řady, aby byl více informativní.
+A teď přichází ta zábavná část! Do grafu můžeme přidat nové datové řady, aby byl informativnější.
 
 ### Přidání třetí datové řady
 ```csharp
@@ -95,42 +97,42 @@ chart.NSeries.Add("{0.3, 0.7, 1.2}", true);
 ```
 Tento řádek přidává další datovou řadu, čtvrtou, která vám umožňuje vizuálně reprezentovat více dat.
 
-## Krok 5: Graf na druhé ose
+## Krok 5: Vykreslení na druhé ose
 
-Abychom novou datovou řadu vizuálně odlišili, vykreslíme čtvrtou řadu na druhé ose.
+Abychom nové datové řady vizuálně rozlišili, vyneseme čtvrtou sérii na druhou osu.
 
 ```csharp
 chart.NSeries[3].PlotOnSecondAxis = true;
 ```
-To umožňuje vašemu grafu jasně prezentovat složité vztahy mezi různými datovými řadami.
+Díky tomu může váš graf jasně prezentovat složité vztahy mezi různými datovými řadami.
 
-## Krok 6: Přizpůsobte vzhled série
+## Krok 6: Úprava vzhledu série
 
-Čitelnost můžete zlepšit přizpůsobením vzhledu datových řad. Změňme barvy ohraničení druhé a třetí řady:
+Čitelnost můžete vylepšit úpravou vzhledu datové řady. Změňme barvy ohraničení druhé a třetí řady:
 
-### Změňte barvu ohraničení pro druhou řadu
+### Změna barvy okraje pro druhou sérii
 ```csharp
 chart.NSeries[1].Border.Color = Color.Green;
 ```
 
-### Změňte barvu ohraničení pro třetí řadu
+### Změna barvy okraje pro třetí sérii
 ```csharp
 chart.NSeries[2].Border.Color = Color.Red;
 ```
 
-Použitím různých barev se váš graf stane esteticky příjemným a snáze interpretovatelný na první pohled. 
+Použitím různých barev se váš graf stane esteticky příjemným a na první pohled snáze interpretovatelným. 
 
-## Krok 7: Zviditelnění druhé hodnotové osy
+## Krok 7: Zviditelnění druhé osy hodnot
 
-Povolení viditelnosti druhé hodnotové osy pomůže pochopit měřítko a srovnání mezi dvěma osami.
+Povolení viditelnosti druhé hodnotové osy pomáhá pochopit měřítko a srovnání mezi těmito dvěma osami.
 
 ```csharp
 chart.SecondValueAxis.IsVisible = true;
 ```
 
-## Krok 8: Uložte upravený sešit
+## Krok 8: Uložení upraveného sešitu
 
-Po provedení všech úprav je čas zachránit naši práci. 
+Po provedení všech úprav je čas uložit naši práci. 
 
 ```csharp
 workbook.Save(outputDir + "outputModifyLineChart.xlsx");
@@ -146,27 +148,29 @@ Console.WriteLine("ModifyLineChart executed successfully.");
 
 ## Závěr 
 
-Úprava spojnicových grafů pomocí Aspose.Cells pro .NET nemusí být skličující úkol. Jak jsme viděli, pomocí těchto jednoduchých kroků můžete přidávat datové řady, přizpůsobovat vizuály a vytvářet dynamické grafy, které vyprávějí příběh vašich dat. To nejen posílí vaše prezentace, ale také zlepší porozumění. Tak proč čekat? Začněte experimentovat s grafy ještě dnes a staňte se mistrem vizualizace dat!
+Úprava spojnicových grafů pomocí Aspose.Cells pro .NET nemusí být náročný úkol. Jak jsme viděli, pomocí těchto jednoduchých kroků můžete přidávat datové řady, upravovat vizuální prvky a vytvářet dynamické grafy, které vyprávějí příběh vašich dat. To nejen posiluje vaše prezentace, ale také zlepšuje pochopení. Tak proč čekat? Začněte experimentovat s grafy ještě dnes a staňte se mistrem vizualizace dat!
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít Aspose.Cells pro jiné typy grafů?
-Ano, pomocí podobných metod můžete upravovat různé typy grafů (například sloupcový, výsečový atd.).
+Ano, různé typy grafů (například sloupcové, koláčové atd.) můžete upravovat pomocí podobných metod.
 
 ### Je k dispozici zkušební verze Aspose.Cells?
- Absolutně! Můžete si to vyzkoušet zdarma[zde](https://releases.aspose.com/).
+Rozhodně! Můžete si to vyzkoušet zdarma. [zde](https://releases.aspose.com/).
 
-### Jak mohu po přidání řad změnit typ grafu?
-Můžete použít`ChartType` vlastnost pro nastavení nového typu grafu pro váš graf.
+### Jak mohu změnit typ grafu po přidání řady?
+Můžete použít `ChartType` vlastnost pro nastavení nového typu grafu.
 
 ### Kde najdu podrobnější dokumentaci?
- Podívejte se na dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Prohlédněte si dokumentaci [zde](https://reference.aspose.com/cells/net/).
 
 ### Co když narazím na problém při používání Aspose.Cells?
- Nezapomeňte vyhledat pomoc na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
+Nezapomeňte vyhledat pomoc na fóru podpory Aspose. [zde](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

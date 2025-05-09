@@ -1,5 +1,5 @@
 ---
-"description": "Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal együtt, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be."
+"description": "Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be."
 "linktitle": "Excel exportálása HTML Java-ba"
 "second_title": "Aspose.Cells Java Excel feldolgozási API"
 "title": "Excel exportálása HTML Java-ba"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel exportálása HTML Java-ba
@@ -49,7 +51,7 @@ Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 Most konvertáljuk az Excel fájlt HTML formátumba. Az Aspose.Cells egy egyszerű metódust biztosít ehhez:
 
 ```java
-// Munkafüzet mentése HTML formátumban
+// A munkafüzet mentése HTML formátumban
 workbook.save("output.html", SaveFormat.HTML);
 ```
 
@@ -84,6 +86,7 @@ További speciális funkciókért és testreszabási lehetőségekért lásd az 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

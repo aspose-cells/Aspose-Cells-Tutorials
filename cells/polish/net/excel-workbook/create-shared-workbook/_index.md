@@ -1,14 +1,16 @@
 ---
-title: Utwórz współdzielony skoroszyt
-linktitle: Utwórz współdzielony skoroszyt
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej.
-weight: 70
-url: /pl/net/excel-workbook/create-shared-workbook/
+"description": "Dowiedz się, jak utworzyć współdzielony skoroszyt przy użyciu Aspose.Cells dla .NET dzięki temu prostemu przewodnikowi krok po kroku. Idealne do usprawnienia współpracy zespołowej."
+"linktitle": "Utwórz współdzielony skoroszyt"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Utwórz współdzielony skoroszyt"
+"url": "/pl/net/excel-workbook/create-shared-workbook/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz współdzielony skoroszyt
@@ -22,7 +24,7 @@ Utworzenie współdzielonego skoroszytu może być przełomem w zakresie współ
 Zanim zagłębimy się w szczegóły tworzenia współdzielonego skoroszytu, ustalmy kilka kwestii:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To środowisko programistyczne, w którym możesz pisać i uruchamiać swój kod.
-2.  Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać z[Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać z [Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Ten przykład będzie działał z .NET Core lub .NET Framework 4.x.
 4. Podstawowa wiedza o C#: Trochę znajomości programowania w C# bardzo się przyda. Jeśli potrafisz pisać podstawowy kod, powinieneś sobie poradzić!
 
@@ -42,7 +44,7 @@ Teraz, gdy mamy już gotowe środowisko, zaimportujmy niezbędne pakiety, abyśm
 2. Wyszukaj „Aspose.Cells” i zainstaluj. Spowoduje to dodanie niezbędnych odniesień do Twojego projektu.
 
 ### Dodaj dyrektywy Using
- Na szczycie twojego`Program.cs` plik, dodaj następującą dyrektywę using:
+Na szczycie twojego `Program.cs` plik, dodaj następującą dyrektywę using:
 
 ```csharp
 using System;
@@ -72,7 +74,7 @@ Następnie skupiamy się na tworzeniu skoroszytu. To tutaj dzieje się magia!
 //Utwórz obiekt skoroszytu
 Workbook wb = new Workbook();
 ```
- Poprzez instancjonowanie`Workbook` klasa, przygotowujemy nowy skoroszyt w pamięci. Wyobraź sobie, że otwierasz nowy pusty arkusz w Excelu, czekając na wypełnienie go danymi.
+Poprzez instancjonowanie `Workbook` klasa, przygotowujemy nowy skoroszyt w pamięci. Wyobraź sobie, że otwierasz nowy pusty arkusz w Excelu, czekając na wypełnienie go danymi.
 
 ## Krok 3: Udostępnij skoroszyt
 
@@ -80,9 +82,9 @@ Czas, aby Twój skoroszyt stał się wspólnym arcydziełem! Udostępnienie go p
 
 ```csharp
 //Udostępnij skoroszyt
-wb.Settings.Shared = true;
+wb.Ustawienies.Shared = true;
 ```
- Ustawienie`wb.Settings.Shared` Do`true` oznacza, że do tego skoroszytu może uzyskać dostęp wielu użytkowników jednocześnie. To tak, jakby rozdawać klucze do domu znajomym — mogą przychodzić i wychodzić, kiedy chcą!
+Setting `wb.Settings.Shared` Do `true` oznacza, że do tego skoroszytu może uzyskać dostęp wielu użytkowników jednocześnie. To tak, jakby rozdawać klucze do domu znajomym — mogą przychodzić i wychodzić, kiedy chcą!
 
 ## Krok 4: Zapisz udostępniony skoroszyt
 
@@ -92,7 +94,7 @@ Teraz, gdy Twój skoroszyt jest gotowy do udostępnienia, czas zapisać zmiany. 
 //Zapisz udostępniony skoroszyt
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 ```
- Tutaj zapisujemy nasz udostępniony skoroszyt pod nazwą`outputSharedWorkbook.xlsx` w określonym katalogu wyjściowym. Spowoduje to wygenerowanie pliku Excel, który może być teraz udostępniany i modyfikowany przez wielu użytkowników.
+Tutaj zapisujemy nasz udostępniony skoroszyt pod nazwą `outputSharedWorkbook.xlsx` w określonym katalogu wyjściowym. Spowoduje to wygenerowanie pliku Excel, który może być teraz udostępniany i modyfikowany przez wielu użytkowników.
 
 ## Krok 5: Wyświetl komunikat o powodzeniu
 
@@ -113,19 +115,21 @@ Tworzenie współdzielonego skoroszytu nie polega tylko na generowaniu pliku Exc
 Współdzielony skoroszyt to plik programu Excel, nad którym może pracować wielu użytkowników jednocześnie.
 
 ### Czy mogę cofnąć udostępnienie skoroszytu po jego udostępnieniu?
- Tak, możesz anulować udostępnianie skoroszytu, ustawiając`Shared` nieruchomość do`false`.
+Tak, możesz anulować udostępnianie skoroszytu, ustawiając `Shared` nieruchomość do `false`.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
 Tak, licencja jest wymagana do komercyjnego wykorzystania Aspose.Cells. Możesz również uzyskać bezpłatną wersję próbną, aby przetestować jego funkcje.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Wsparcie i zadawanie pytań można znaleźć na stronie[Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Wsparcie i zadawanie pytań można znaleźć na stronie [Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 ### Jak zacząć korzystać z Aspose.Cells?
- Zacznij od pobrania biblioteki ze strony[Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/) postępuj zgodnie z instrukcjami instalacji zawartymi w tym przewodniku.
+Zacznij od pobrania biblioteki ze strony [Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/) i postępuj zgodnie z instrukcjami instalacji zawartymi w tym przewodniku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

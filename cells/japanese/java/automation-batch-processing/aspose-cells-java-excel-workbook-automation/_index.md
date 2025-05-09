@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,9 +196,12 @@ Aspose.Cells を使用する際の最適なパフォーマンス:
 - [一時ライセンス](https://purchase.aspose.com/temporary-license/)
 - [サポート](https://forum.aspose.com/c/cells/9)
 
-これらのリソースを活用して、Aspose.Cells for Java の理解と習熟度を深めましょう。コーディングを楽しみましょう！
+これらのリソースを活用して、Aspose.Cells for Java の理解とスキルを深めましょう。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

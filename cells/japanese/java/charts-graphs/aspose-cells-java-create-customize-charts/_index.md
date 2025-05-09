@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,7 +224,7 @@ legend.setPosition(LegendPositionType.TOP);
 ### 7. ワークブックの保存
 
 #### 概要
-ワークブックをエクスポートして、すべての作業が確実に保存されるようにします。
+ワークブックをエクスポートして、すべての作業が保存されていることを確認します。
 
 #### 手順:
 
@@ -246,7 +248,7 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 
 ## 結論
 
-これで、JavaでAspose.Cellsを使ってグラフを作成およびカスタマイズする方法をマスターできました。さらに学習を進めるには、動的なデータ範囲やさまざまなグラフの種類など、さらに多くの機能を試してみましょう。 
+これで、JavaでAspose.Cellsを使ったグラフの作成とカスタマイズをマスターできました。さらに学習を進めるには、動的なデータ範囲やさまざまなグラフの種類など、さらに多くの機能を試してみましょう。 
 
 ## FAQセクション
 
@@ -263,7 +265,7 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
    - データをチャンク単位で読み取り、セルを段階的に更新することを検討してください。
 
 5. **チャートを PDF や PNG などの他の形式にエクスポートすることは可能ですか?**
-   - はい、使用します `workbook.save()` さまざまな形式に適したファイル拡張子を使用します。
+   - はい、使います `workbook.save()` さまざまな形式に適したファイル拡張子を使用します。
 
 ## リソース
 
@@ -277,6 +279,9 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 このガイドに従うことで、Aspose.Cells を使って Java アプリケーションで簡単にグラフを作成およびカスタマイズできるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

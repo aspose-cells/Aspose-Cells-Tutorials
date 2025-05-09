@@ -1,14 +1,16 @@
 ---
-title: Dodawanie pola tekstowego do arkusza kalkulacyjnego w programie Excel
-linktitle: Dodawanie pola tekstowego do arkusza kalkulacyjnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym samouczku krok po kroku dowiesz się, jak dodawać konfigurowalne pola tekstowe do programu Excel za pomocą Aspose.Cells dla platformy .NET.
-weight: 14
-url: /pl/net/excel-shapes-controls/add-textbox-to-worksheet-excel/
+"description": "W tym samouczku krok po kroku dowiesz się, jak dodawać konfigurowalne pola tekstowe do programu Excel za pomocą Aspose.Cells dla platformy .NET."
+"linktitle": "Dodawanie pola tekstowego do arkusza kalkulacyjnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodawanie pola tekstowego do arkusza kalkulacyjnego w programie Excel"
+"url": "/pl/net/excel-shapes-controls/add-textbox-to-worksheet-excel/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie pola tekstowego do arkusza kalkulacyjnego w programie Excel
@@ -18,7 +20,7 @@ Czy chcesz ulepszyć swoje arkusze kalkulacyjne Excela za pomocą unikalnych ele
 ## Wymagania wstępne
 Zanim zagłębimy się w cud kodowania, przedstawiamy podstawowe wymagania, które zapewnią Ci płynne działanie:
 1. Środowisko programistyczne .NET: Będziesz potrzebować działającego środowiska .NET wraz ze środowiskiem IDE, takim jak Visual Studio. Upewnij się, że jest zaktualizowane do najnowszej wersji!
-2.  Aspose.Cells dla .NET: Upewnij się, że masz pobraną bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję z[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Upewnij się, że masz pobraną bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję z [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza programistyczna: Znajomość języka C# i kilku ogólnych koncepcji obsługi plików Excela ułatwi Ci korzystanie z tego samouczka!
 ## Importuj pakiety
 Upewnij się, że importujesz niezbędne pakiety na początku pliku C#. Oto, jak możesz to zrobić:
@@ -31,9 +33,9 @@ using System.Drawing;
 ## Zainstaluj Aspose.Cells
 Jeśli jeszcze tego nie zrobiłeś, możesz dodać Aspose.Cells za pomocą Menedżera pakietów NuGet w programie Visual Studio:
 1. Otwórz program Visual Studio.
-2.  Idź do`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`.
+2. Idź do `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`.
 3. Wyszukaj „Aspose.Cells” i zainstaluj go w swoim projekcie.
-Teraz, gdy już przygotowaliśmy grunt, możemy przejść do najlepszej części!
+Teraz, gdy już przygotowaliśmy grunt, możemy przejść do najfajniejszej części!
 ## Krok 1: Konfigurowanie katalogu dokumentów
 Najpierw skonfigurujmy katalog, w którym będą przechowywane wszystkie Twoje dokumenty Excela. Ważne jest, aby upewnić się, że ten katalog istnieje, zanim zaczniemy tworzyć nasz skoroszyt.
 ```csharp
@@ -44,7 +46,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-Ten fragment kodu utworzy katalog o nazwie`Your Document Directory` (proszę zastąpić to swoją rzeczywistą ścieżką), jeśli jeszcze nie istnieje. Łatwizna, prawda?
+Ten fragment kodu utworzy katalog o nazwie `Your Document Directory` (proszę zastąpić to swoją rzeczywistą ścieżką), jeśli jeszcze nie istnieje. Łatwizna, prawda?
 ## Krok 2: Tworzenie nowego skoroszytu
 Następnie musimy utworzyć nowy skoroszyt, w którym będziemy dodawać nasze pola tekstowe. Można to łatwo zrobić za pomocą kilku linijek kodu:
 ```csharp
@@ -58,21 +60,21 @@ Teraz, gdy mamy już gotowy skoroszyt, przygotujmy pierwszy arkusz, w którym do
 // Pobierz pierwszy arkusz ćwiczeń z książki.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- W ten sposób uzyskałeś dostęp do pierwszego arkusza kalkulacyjnego o nazwie`worksheet`Czas to rozświetlić!
+W ten sposób uzyskałeś dostęp do pierwszego arkusza kalkulacyjnego o nazwie `worksheet`Czas to rozświetlić!
 ## Krok 4: Dodawanie pola tekstowego
 No dobrze, czas dodać nasze pierwsze pole tekstowe! Oto jak to zrobić:
 ```csharp
 // Dodaj nowe pole tekstowe do kolekcji.
 int textboxIndex = worksheet.TextBoxes.Add(2, 1, 160, 200);
 ```
-W tym wierszu określamy wiersz i kolumnę, w których zostanie umieszczone pole tekstowe, a także ustawiamy jego szerokość i wysokość (odpowiednio 160 i 200). Możesz swobodnie dostosować te liczby w zależności od swojego układu!
+tym wierszu określamy wiersz i kolumnę, w których zostanie umieszczone pole tekstowe, a także ustawiamy jego szerokość i wysokość (odpowiednio 160 i 200). Możesz swobodnie dostosować te liczby w zależności od swojego układu!
 ## Krok 5: Pobieranie obiektu TextBox
 Po dodaniu pola tekstowego musimy uzyskać do niego odniesienie, aby móc dostosować jego zawartość:
 ```csharp
 // Pobierz obiekt pola tekstowego.
 Aspose.Cells.Drawing.TextBox textbox0 = worksheet.TextBoxes[textboxIndex];
 ```
- Teraz,`textbox0` jest Twoim złotym biletem do modyfikacji tego pola tekstowego!
+Teraz, `textbox0` jest Twoim złotym biletem do modyfikacji tego pola tekstowego!
 ## Krok 6: Wypełnianie pola tekstowego treścią
 Następnie wprowadźmy tekst do pola tekstowego:
 ```csharp
@@ -149,16 +151,18 @@ Jesteś gotowy, aby zacząć przekształcać swoje dokumenty Excel? Pozwól swoj
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca programistom łatwe tworzenie, edytowanie i konwertowanie plików Excel.
 ### Czy mogę wypróbować Aspose.Cells przed zakupem?
- Tak! Możesz pobrać i używać bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać i używać bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Dostęp do pełnej dokumentacji można uzyskać pod adresem[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Pełną dokumentację można uzyskać pod adresem [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 ### Czy mogę liczyć na pomoc, jeśli wystąpią jakieś problemy?
- Oczywiście! Jeśli potrzebujesz pomocy, udaj się do[Forum Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+Oczywiście! Jeśli potrzebujesz pomocy, udaj się do [Forum Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
 ### Czy mogę używać Aspose.Cells bez licencji?
- Chociaż możesz skorzystać z bezpłatnej wersji próbnej, aby uzyskać dostęp do pełnej funkcjonalności, musisz kupić licencję. Sprawdź cennik[Tutaj](https://purchase.aspose.com/buy).
+Chociaż możesz użyć bezpłatnej wersji próbnej, aby uzyskać dostęp do pełnej funkcjonalności, musisz kupić licencję. Sprawdź ceny [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Mevcut bir Excel çalışma kitabını yüklemek Aspose.Cells ile basittir. Bu a
    - The `dataDir` Excel dosyanızın bulunduğu dizini temsil eden bir dizedir.
    - Yapımcısı `Workbook` sınıf, belirtilen Excel dosyasındaki tüm sayfaları ve verileri otomatik olarak okur ve depolar.
 
-### Excel Çalışma Kitabında Formüllerin Hesaplanması
+### Excel Çalışma Kitabında Formül Hesaplama
 
 **Genel bakış**
 Excel çalışma kitapları genellikle karmaşık formüller içerir. Aspose.Cells, bu formül sonuçlarını programatik olarak hesaplamanıza olanak tanır ve herhangi bir sonraki işlemden önce doğruluğu garanti eder.
@@ -172,6 +174,9 @@ A: Kesinlikle! Excel dosyalarının bir koleksiyonu üzerinde kolayca yineleme y
 A: Aspose.Cells, kaydetme işlemi sırasında yapılandırabileceğiniz çeşitli yerel ayarları destekler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

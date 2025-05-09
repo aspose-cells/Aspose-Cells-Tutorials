@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-07"
 "description": "Dowiedz się, jak otwierać zaszyfrowane pliki Excela za pomocą Aspose.Cells for Java. Ten przewodnik zawiera instrukcje krok po kroku, wskazówki i praktyczne zastosowania do zarządzania zabezpieczonymi skoroszytami."
-"title": "Odblokuj zaszyfrowane pliki Excel za pomocą Aspose.Cells w Javie — kompleksowy przewodnik"
+"title": "Odblokuj zaszyfrowane pliki Excela za pomocą Aspose.Cells w Javie – kompleksowy przewodnik"
 "url": "/pl/java/security-protection/open-encrypted-excel-files-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Odblokuj zaszyfrowane pliki Excela za pomocą Aspose.Cells dla Java: kompleksowy przewodnik
+# Odblokuj zaszyfrowane pliki Excel za pomocą Aspose.Cells dla Java: kompleksowy przewodnik
 
 ## Wstęp
 
@@ -169,6 +171,9 @@ Zachęcamy do wdrożenia tego, czego nauczyłeś się dzisiaj i zobaczenia, jak 
 - **Wsparcie:** Dołącz do społeczności Aspose na forach wsparcia, aby uzyskać pomoc i wziąć udział w dyskusji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

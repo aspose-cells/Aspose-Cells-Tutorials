@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Bevezetés
 
-Szeretnéd hatékonyan automatizálni az Excel-feladatokat, vagy meghatározott papírméreteken szeretnél jelentéseket készíteni? Ez az oktatóanyag végigvezet az Aspose.Cells Java-beli használatán, segítve a fejlesztőket a táblázatkezelő automatizálás egyszerűsítésében.
+Szeretnéd hatékonyan automatizálni az Excel-feladatokat, vagy meghatározott papírméreteken szeretnél jelentéseket készíteni? Ez az oktatóanyag végigvezet az Aspose.Cells Java-beli használatán, segítve a fejlesztőket a táblázatkezelés automatizálásának egyszerűsítésében.
 
 **Amit tanulni fogsz:**
 - Új munkafüzet létrehozása Java nyelven.
@@ -128,7 +130,7 @@ Munkafüzetét PDF formátumba konvertálhatja és mentheti terjesztés vagy arc
    ```java
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    ```
-2. **A munkafüzet mentése:**
+2. **Munkafüzet mentése:**
    ```java
    import com.aspose.cells.SaveFormat;
 
@@ -174,6 +176,9 @@ Merülj el az Aspose.Cells Java-ban, és emeld Excel automatizálási projektjei
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

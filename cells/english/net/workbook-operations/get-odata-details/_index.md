@@ -8,7 +8,9 @@ url: /net/workbook-operations/get-odata-details/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get OData Details from Workbook using Aspose.Cells
@@ -88,6 +90,7 @@ Yes, you can! Just keep in mind that you’ll need to purchase a license. You ma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

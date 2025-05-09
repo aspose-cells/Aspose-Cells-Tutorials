@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Aspose.Cellsは無料トライアル、一時ライセンス、有料版を提�
 
 まず、 `Workbook` Excel ファイルを表すクラス:
 ```java
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook();
 ```
 
@@ -75,7 +77,7 @@ Workbook workbook = new Workbook();
 
 最初のワークシートを取得し、特定のセルにアクセスして書式を適用します。
 ```java
-// Excelファイルで追加されたワークシートにアクセスする
+// Excelファイルに追加されたワークシートにアクセスする
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 
@@ -148,6 +150,9 @@ Aspose.Cells for Java の下付き文字書式設定機能を使用すると、�
 Aspose.Cells for Java を試して、強力な Excel 自動化機能を活用しましょう。また、詳しい情報については、ぜひ包括的なドキュメントを参照してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

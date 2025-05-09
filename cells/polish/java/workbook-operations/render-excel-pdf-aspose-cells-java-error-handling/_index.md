@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Dowiedz się, jak konwertować pliki Excela do PDF za pomocą Aspose.Cells dla Java, z solidnymi strategiami obsługi błędów. Idealne do przetwarzania wsadowego i raportowania danych."
+"description": "Dowiedz się, jak konwertować pliki Excela do PDF za pomocą Aspose.Cells for Java, z solidnymi strategiami obsługi błędów. Idealne do przetwarzania wsadowego i raportowania danych."
 "title": "Renderowanie Excela do PDF z obsługą błędów przy użyciu Aspose.Cells dla Java&#58; Kompleksowy przewodnik"
 "url": "/pl/java/workbook-operations/render-excel-pdf-aspose-cells-java-error-handling/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,6 +146,9 @@ Ten samouczek przedstawia szczegółowe podejście do obsługi błędów podczas
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@ Ismerd meg, hogyan konvertálhatsz hatékonyan Excel fájlokat Markdown formátu
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Aspose.Cells Java: Átfogó útmutató Excel-munkafüzetek PDF-be konvertálásához](./aspose-cells-java-excel-to-pdf-conversion-guide/)
-Ismerje meg, hogyan konvertálhat hatékonyan Excel-munkafüzeteket PDF-be az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a képletszámításokat és az átalakítás lépéseit ismerteti.
+Ismerje meg, hogyan konvertálhat hatékonyan Excel-munkafüzeteket PDF-be az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a képletszámításokat és a konvertálás lépéseit ismerteti.
 
 ### [Excel konvertálása XPS-be az Aspose.Cells for Java használatával: lépésről lépésre útmutató](./aspose-cells-java-excel-to-xps-conversion/)
 Ismerje meg, hogyan konvertálhat Excel-fájlokat XPS formátumba az Aspose.Cells for Java segítségével. Ez az útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
@@ -364,10 +366,10 @@ Ismerje meg, hogyan hozhat létre és kezelhet PDF könyvjelzőket az Aspose.Cel
 Mestermunkafüzet-adatok importálása Aspose.Cells for Java használatával. Ismerje meg, hogyan állíthatja be, optimalizálhatja a teljesítményt és kezelheti hatékonyan az összetett adatszerkezeteket.
 
 ### [Java Excel munkafüzet-manipuláció Aspose.Cells használatával: Átfogó útmutató](./java-aspose-cells-workbook-manipulation/)
-Sajátítsd el a munkafüzetek kezelését Java nyelven az Aspose.Cells segítségével. Tanuld meg az Excel-fájlok zökkenőmentes elérését, módosítását és mentését.
+Sajátítsd el a munkafüzetek kezelését Java nyelven az Aspose.Cells segítségével. Tanuld meg az Excel fájlok zökkenőmentes elérését, módosítását és mentését.
 
-### [Master Java fájlkezelés az Aspose.Cells segítségével: Adatok hatékony olvasása, írása és feldolgozása](./java-file-handling-aspose-cells-read-write-process/)
-Tanuld meg a fájlműveletek kezelését Java nyelven az Aspose.Cells használatával. Ez az útmutató az adatfájlok hatékony olvasását, írását és feldolgozását ismerteti.
+### [Java fájlkezelés mesterfokon az Aspose.Cells segítségével: Adatok hatékony olvasása, írása és feldolgozása](./java-file-handling-aspose-cells-read-write-process/)
+Tanuld meg a fájlműveletek kezelését Java nyelven az Aspose.Cells segítségével. Ez az útmutató az adatfájlok hatékony olvasását, írását és feldolgozását ismerteti.
 
 ### [Java munkafüzet automatikus helyreállítása: Excel fájlok kezelése az Aspose.Cells segítségével](./java-workbook-autorecovery-aspose-cells/)
 Ismerje meg, hogyan kezelheti az Excel-munkafüzetek automatikus helyreállítását Java nyelven az Aspose.Cells használatával. Növelje az adatbiztonságot és egyszerűsítse a munkafolyamatait.
@@ -478,7 +480,7 @@ Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, pé
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -486,6 +488,9 @@ Ismerje meg, hogyan állíthat be és kezelhet dokumentumok tulajdonságait, pé
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ tomto tutoriálu jste se naučili, jak zabezpečit sešity aplikace Excel pomoc�
    - Ano, Aspose.Cells podporuje širokou škálu formátů souborů Excelu, včetně starších verzí, jako je `.xls` novější jako `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ Esta función le permite agregar datos XML personalizados a su libro de Excel. E
    // Repita según sea necesario
    ```
 
-### Asignar identificaciones a partes XML personalizadas
+### Asignar ID a partes XML personalizadas
 
 #### Descripción general
 La asignación de identificadores únicos ayuda a administrar y referenciar partes XML específicas fácilmente.
@@ -202,6 +204,9 @@ Explore más a fondo integrando estas técnicas en aplicaciones más grandes o e
 ¡Embárquese hoy mismo en su viaje con Aspose.Cells para Java y transforme el modo en que maneja los libros de Excel en sus aplicaciones!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

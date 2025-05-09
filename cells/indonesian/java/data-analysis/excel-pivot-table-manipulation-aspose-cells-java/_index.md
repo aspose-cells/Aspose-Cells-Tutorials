@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Manipulasi Workbook dan Pivot Table dengan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Menangani file Excel secara terprogram dapat menjadi tantangan, terutama saat menangani buku kerja dan tabel pivot yang rumit. Tutorial ini akan menunjukkan cara menggunakan **Aspose.Cells untuk Java**—pustaka canggih yang menyederhanakan tugas-tugas ini. Di akhir panduan ini, Anda akan mengetahui cara memuat buku kerja Excel, mengakses lembar kerja dan tabel pivotnya, serta mengonfigurasi bidang baris dengan opsi seperti subtotal, penyortiran otomatis, dan pengaturan tampilan otomatis.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Menyiapkan Aspose.Cells untuk Java di lingkungan Anda
 - Memuat buku kerja dari file menggunakan Java
 - Mengakses dan memanipulasi tabel pivot dalam buku kerja
@@ -25,7 +27,7 @@ Menangani file Excel secara terprogram dapat menjadi tantangan, terutama saat me
 
 Siap untuk menjelajahi apa saja yang mungkin dilakukan dengan Aspose.Cells? Mari kita mulai dengan prasyaratnya.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikuti tutorial ini secara efektif, pastikan Anda memiliki:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi
@@ -40,7 +42,7 @@ Aspose.Cells untuk Java dapat diintegrasikan ke dalam proyek Anda menggunakan Ma
 
 ### Menggunakan Maven
 
-Tambahkan dependensi berikut di `pom.xml` mengajukan:
+Tambahkan dependensi berikut di `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,15 +53,15 @@ Tambahkan dependensi berikut di `pom.xml` mengajukan:
 
 ### Menggunakan Gradle
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi:
-- **Uji Coba Gratis:** Unduh lisensi uji coba gratis untuk menjelajahi fitur Aspose.Cells sepenuhnya.
-- **Lisensi Sementara:** Dapatkan lisensi evaluasi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Pertimbangkan untuk membeli lisensi penuh untuk penggunaan jangka panjang.
+#### Licenc megszerzésének lépései:
+- **Ingyenes próbaverzió:** Unduh lisensi uji coba gratis untuk menjelajahi fitur Aspose.Cells sepenuhnya.
+- **Ideiglenes engedély:** Dapatkan lisensi evaluasi sementara dari [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás:** Pertimbangkan untuk membeli lisensi penuh untuk penggunaan jangka panjang.
 
 Setelah Anda menyertakan Aspose.Cells dalam proyek Anda, pastikan Anda menyiapkan informasi lisensi. Berikut contohnya:
 ```java
@@ -69,15 +71,15 @@ License license = new License();
 license.setLicense("Path to your Aspose.Cells license file");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
 
-### Muat Buku Kerja
+### Munkafüzet betöltése
 
-**Ringkasan:** Bagian ini memperagakan cara memuat buku kerja Excel dari direktori tertentu.
+**Áttekintés:** Bagian ini memperagakan cara memuat buku kerja Excel dari direktori tertentu.
 
-#### Tangga:
+#### Lépések:
 1. **Kelas Impor yang Diperlukan:**
    ```java
    import com.aspose.cells.Workbook;
@@ -90,9 +92,9 @@ Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
 
 ### Akses Lembar Kerja dan Tabel Pivot
 
-**Ringkasan:** Pelajari cara mengakses lembar kerja tertentu dan tabel pivotnya dalam buku kerja yang dimuat.
+**Áttekintés:** Pelajari cara mengakses lembar kerja tertentu dan tabel pivotnya dalam buku kerja yang dimuat.
 
-#### Tangga:
+#### Lépések:
 1. **Impor Kelas yang Diperlukan:**
    ```java
    import com.aspose.cells.PivotTable;
@@ -106,9 +108,9 @@ Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
 
 ### Mengakses Bidang Baris di Tabel Pivot
 
-**Ringkasan:** Pahami cara mengakses bidang baris tabel pivot.
+**Áttekintés:** Pahami cara mengakses bidang baris tabel pivot.
 
-#### Tangga:
+#### Lépések:
 1. **Kelas Impor:**
    ```java
    import com.aspose.cells.PivotFieldCollection;
@@ -120,9 +122,9 @@ Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
 
 ### Konfigurasikan Subtotal untuk Bidang Baris
 
-**Ringkasan:** Fitur ini menunjukkan cara mengonfigurasi subtotal untuk bidang baris tertentu.
+**Áttekintés:** Fitur ini menunjukkan cara mengonfigurasi subtotal untuk bidang baris tertentu.
 
-#### Tangga:
+#### Lépések:
 1. **Impor Kelas yang Diperlukan:**
    ```java
    import com.aspose.cells.PivotField;
@@ -137,9 +139,9 @@ Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
 
 ### Tetapkan Opsi Urutkan Otomatis
 
-**Ringkasan:** Pelajari cara mengonfigurasi opsi sortir otomatis untuk meningkatkan penyajian data.
+**Áttekintés:** Pelajari cara mengonfigurasi opsi sortir otomatis untuk meningkatkan penyajian data.
 
-#### Tangga:
+#### Lépések:
 1. **Kelas Impor yang Diperlukan:**
    ```java
    // Sudah diimpor di atas dengan PivotField
@@ -153,9 +155,9 @@ Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
 
 ### Konfigurasikan Opsi AutoShow
 
-**Ringkasan:** Bagian ini berfokus pada pengaturan opsi tampilan otomatis untuk memfilter data dalam tabel pivot.
+**Áttekintés:** Bagian ini berfokus pada pengaturan opsi tampilan otomatis untuk memfilter data dalam tabel pivot.
 
-#### Tangga:
+#### Lépések:
 1. **Kelas Impor:**
    ```java
    // Sudah diimpor di atas dengan PivotField
@@ -167,32 +169,32 @@ Mari kita uraikan implementasi setiap fitur menggunakan Aspose.Cells untuk Java.
    pivotField.setAutoShowField(0);  // Indeks bidang untuk filter tampilan otomatis
    ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Memahami cara memanipulasi buku kerja dan tabel pivot bisa sangat bermanfaat. Berikut ini beberapa kasus penggunaan praktis:
 
-1. **Pelaporan Data:** Otomatisasi pembuatan laporan khusus dengan mengonfigurasi tabel pivot secara dinamis.
-2. **Analisis Keuangan:** Ringkaskan data keuangan dengan subtotal yang dihitung untuk wawasan yang lebih baik.
+1. **Adatszolgáltatás:** Otomatisasi pembuatan laporan khusus dengan mengonfigurasi tabel pivot secara dinamis.
+2. **Pénzügyi elemzés:** Ringkaskan data keuangan dengan subtotal yang dihitung untuk wawasan yang lebih baik.
 3. **Pelacakan Penjualan:** Urutkan data penjualan secara otomatis untuk menyoroti produk atau wilayah dengan kinerja terbaik.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk memastikan kinerja optimal saat bekerja dengan kumpulan data besar:
 - Minimalkan penggunaan memori dengan menutup buku kerja saat tidak digunakan.
 - Optimalkan operasi tabel pivot dengan membatasi jumlah bidang dan item yang diproses secara bersamaan.
 - Gunakan struktur data dan algoritma efisien yang dirancang khusus untuk Java untuk mengelola sumber daya secara efektif.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, Anda telah mempelajari cara memanfaatkan Aspose.Cells untuk Java untuk memuat buku kerja, mengakses lembar kerja, memanipulasi tabel pivot, dan mengonfigurasi berbagai pengaturan seperti subtotal, pengurutan, dan pemfilteran. Keterampilan ini dapat meningkatkan kemampuan Anda untuk menangani data Excel secara terprogram dengan presisi dan efisiensi.
 
-### Langkah Berikutnya:
+### Következő lépések:
 - Jelajahi fitur Aspose.Cells yang lebih canggih
 - Integrasikan solusi ini ke dalam aplikasi Java yang lebih besar
 
-Siap untuk menyelami lebih dalam? Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk panduan dan contoh yang lengkap.
+Siap untuk menyelami lebih dalam? Kunjungi [Aspose dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és példákért.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara memuat berkas Excel tanpa menentukan jalurnya?**
    - Gunakan aliran atau URL, bukan jalur berkas langsung.
@@ -205,10 +207,13 @@ Siap untuk menyelami lebih dalam? Kunjungi [Dokumentasi Aspose](https://referenc
 5. **Dapatkah saya menggunakan Aspose.Cells dengan framework Java lain seperti Spring Boot?**
    - Tentu saja! Ia terintegrasi dengan baik dalam berbagai lingkungan dan kerangka kerja Java.
 
-Jelajahi lebih lanjut di [Sumber daya resmi Aspose](https://releases.aspose.com/cells/java/) dan jika Anda membutuhkan bantuan, jangan ragu untuk bertanya kepada komunitas mereka [forum dukungan](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
+Jelajahi lebih lanjut di [Sumber daya resmi Aspose](https://releases.aspose.com/cells/java/) dan jika Anda membutuhkan bantuan, jangan ragu untuk bertanya kepada komunitas mereka [támogató fórum](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

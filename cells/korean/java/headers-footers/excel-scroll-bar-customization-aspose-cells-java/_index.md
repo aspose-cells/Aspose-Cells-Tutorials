@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득 단계
 Aspose.Cells는 기능을 체험해 볼 수 있는 무료 체험판을 제공합니다. 장기 사용을 원하시면 임시 라이선스를 구매하거나 정식 버전을 구매하실 수 있습니다.
 
-1. **무료 체험**최신 버전을 다운로드하세요 [Aspose.Cells Java 릴리스](https://releases.aspose.com/cells/java/).
+1. **무료 체험**: 최신 버전을 다운로드하세요 [Aspose.Cells Java 릴리스](https://releases.aspose.com/cells/java/).
 2. **임시 면허**: 임시 면허를 요청하세요 [임시 면허증 구매](https://purchase.aspose.com/temporary-license/).
 3. **구입**: 전체 액세스를 위해 방문하세요 [Aspose.Cells 구매](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ Aspose.Cells for Java를 활용하면 Excel 통합 문서의 스크롤 막대 �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

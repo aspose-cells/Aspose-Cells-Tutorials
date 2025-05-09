@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@ Innan du börjar, se till att du har:
    - En fungerande Java-utvecklingsmiljö har konfigurerats.
    - En IDE som IntelliJ IDEA, Eclipse eller liknande.
 
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmering.
    - Bekantskap med Maven eller Gradle för beroendehantering.
 
@@ -157,7 +159,7 @@ Den här koden sparar vårt dokument och säkerställer att alla ändringar beva
 Aspose.Cells för Java är mångsidigt och kan integreras i olika applikationer:
 
 1. **Automatiserade rapporteringssystem:** Generera rapporter med dynamiska datainmatningar.
-2. **Verktyg för finansiella analys:** Använd anpassad formatering som upphöjda tecken för anteckningar.
+2. **Finansiella analysverktyg:** Använd anpassad formatering som upphöjda tecken för anteckningar.
 3. **Lösningar för dataexport:** Konvertera data från andra format till Excel-filer för analys.
 
 ## Prestandaöverväganden
@@ -197,6 +199,9 @@ I den här handledningen har vi utforskat hur man skapar en Excel-arbetsbok, ang
 Använd dessa resurser för att fördjupa din förståelse och dina färdigheter i Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

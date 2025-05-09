@@ -1,14 +1,16 @@
 ---
-title: Usuwanie zakresu nazwanego w programie Excel
-linktitle: Usuwanie zakresu nazwanego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak usuwać nazwane zakresy w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając ze szczegółowych instrukcji krok po kroku.
-weight: 11
-url: /pl/net/excel-managing-named-ranges/remove-named-range/
+"description": "Dowiedz się, jak usuwać nazwane zakresy w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając ze szczegółowych instrukcji krok po kroku."
+"linktitle": "Usuwanie zakresu nazwanego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Usuwanie zakresu nazwanego w programie Excel"
+"url": "/pl/net/excel-managing-named-ranges/remove-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuwanie zakresu nazwanego w programie Excel
@@ -24,9 +26,9 @@ Zanim przejdziemy do właściwego kodowania, jest kilka rzeczy, które musisz mi
 
 Aby bezproblemowo korzystać z Aspose.Cells dla .NET, należy upewnić się, że spełnione są następujące wymagania:
 
-1.  Visual Studio: Pobierz i zainstaluj program Visual Studio (wersja Community Edition jest w zupełności wystarczająca), który znajdziesz na stronie[Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
+1. Visual Studio: Pobierz i zainstaluj program Visual Studio (wersja Community Edition jest w zupełności wystarczająca), który znajdziesz na stronie [Witryna internetowa Visual Studio](https://visualstudio.microsoft.com/).
 2. .NET Framework: Upewnij się, że używasz odpowiedniej wersji .NET Framework. Aspose.Cells obsługuje .NET Framework 4.0 i nowsze.
-3. Biblioteka Aspose.Cells: Musisz pobrać i odwołać się do biblioteki Aspose.Cells dla .NET w swojej aplikacji. Możesz znaleźć pakiet do pobrania[Tutaj](https://releases.aspose.com/cells/net/).
+3. Biblioteka Aspose.Cells: Musisz pobrać i odwołać się do biblioteki Aspose.Cells dla .NET w swojej aplikacji. Możesz znaleźć pakiet do pobrania [Tutaj](https://releases.aspose.com/cells/net/).
 
 ### Podstawowa znajomość języka C#
 
@@ -51,18 +53,18 @@ Taka konfiguracja umożliwia korzystanie z funkcjonalności Aspose.Cells w celu 
 
 ## Krok 1: Konfigurowanie katalogu wyjściowego
 
-Po pierwsze, musimy zdefiniować, gdzie nasz plik wyjściowy zostanie zapisany. Jest to kluczowe, ponieważ pozwala uniknąć późniejszego zamieszania co do tego, gdzie znajdują się Twoje pliki.
+Najpierw musimy zdefiniować, gdzie nasz plik wyjściowy zostanie zapisany. Jest to kluczowe, ponieważ pozwala uniknąć późniejszego zamieszania co do tego, gdzie znajdują się Twoje pliki.
 
 ```csharp
 // Katalog wyjściowy
 string outputDir = "Your Document Directory Here\\";
 ```
 
- Zastępować`"Your Document Directory Here\\"`ze ścieżką na komputerze, gdzie chcesz zapisać plik.
+Zastępować `"Your Document Directory Here\\"` ze ścieżką na komputerze, gdzie chcesz zapisać plik.
 
 ## Krok 2: Tworzenie nowego skoroszytu
 
-Jak zacząć od czystej kartki? Oczywiście poprzez stworzenie nowego skoroszytu! Ten skoroszyt będzie służył jako nasze puste płótno.
+Jak zacząć od czystej karty? Oczywiście poprzez stworzenie nowego skoroszytu! Ten skoroszyt będzie służył jako nasze puste płótno.
 
 ```csharp
 // Utwórz nowy skoroszyt.
@@ -131,14 +133,14 @@ range1[0, 0].PutValue("Test");
 range1[0, 4].PutValue(123);
 ```
 
-W tym kroku umieściliśmy słowo „Test” w komórce E12, a liczbę 123 w komórce I12.
+tym kroku umieściliśmy słowo „Test” w komórce E12, a liczbę 123 w komórce I12.
 
 ## Krok 8: Tworzenie kolejnego zakresu nazwanego
 
 Aby zilustrować nasz punkt widzenia, utworzymy kolejny nazwany zakres podobny do pierwszego.
 
 ```csharp
-//Utwórz kolejny zakres komórek.
+// Utwórz kolejny zakres komórek.
 Range range2 = worksheet.Cells.CreateRange("B3", "F3");
 
 // Podaj nazwę zakresu.
@@ -213,16 +215,18 @@ Aspose.Cells to biblioteka .NET przeznaczona do programistycznego manipulowania 
 Tak, możesz przeglądać zbiór nazwanych zakresów i usuwać je w razie potrzeby.
 
 ### Czy jest dostępna wersja próbna?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.Cells [Tutaj](https://releases.aspose.com/).
 
 ### Jakie języki programowania obsługuje Aspose.Cells?
 Obsługuje przede wszystkim języki .NET, takie jak C#, VB.NET i inne.
 
 ### Gdzie mogę szukać pomocy, jeśli napotkam problemy?
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w razie jakichkolwiek pytań.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w razie jakichkolwiek pytań.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

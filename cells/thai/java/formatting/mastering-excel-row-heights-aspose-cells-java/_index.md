@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -47,7 +49,7 @@ Aspose.Cells เป็นไลบรารีที่มีประสิท�
 ### ข้อมูลการติดตั้ง
 
 **เมเวน:**
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -160,6 +162,9 @@ workbook.save(outDir + "SettingHeightAllRows_out.xls");
 - **สนับสนุน**- [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

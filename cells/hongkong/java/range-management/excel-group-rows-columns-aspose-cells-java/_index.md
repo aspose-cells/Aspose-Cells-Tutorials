@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Aspose.Cells 需要許可證才能使用全部功能，但您可以先免費試�
 
 ### 基本初始化
 
-在您的 Java 應用程式中初始化 Aspose.Cells 如下：
+在您的 Java 應用程式中初始化 Aspose.Cells，如下所示：
 ```java
 // 初始化許可證對象
 com.aspose.cells.License license = new com.aspose.cells.License();
@@ -195,6 +197,9 @@ license.setLicense("path_to_license_file");
 - **文件**： [Aspose.Cells Java文檔](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tabloya Resim Ekle
-linktitle: Tabloya Resim Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel grafiklerine kolayca resim eklemeyi öğrenin. Grafiklerinizi ve sunumlarınızı sadece birkaç basit adımda geliştirin.
-weight: 11
-url: /tr/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "Aspose.Cells for .NET kullanarak Excel grafiklerine kolayca resim eklemeyi öğrenin. Grafiklerinizi ve sunumlarınızı sadece birkaç basit adımda geliştirin."
+"linktitle": "Tabloya Resim Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Tabloya Resim Ekle"
+"url": "/tr/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabloya Resim Ekle
@@ -22,7 +24,7 @@ Kişisel bir dokunuştan yoksun sıkıcı grafiklerden bıktınız mı? Excel g�
 Kodlamanın inceliklerine dalmadan önce, sorunsuz bir şekilde ilerleyebilmeniz için sahip olmanız gereken birkaç ön koşul vardır:
 
 - Visual Studio: .NET kodunuzu yazacağınız ve çalıştıracağınız yer burasıdır. Yüklü olduğundan emin olun.
--  Aspose.Cells for .NET: Excel dosyalarıyla çalışmak için bu kütüphaneye ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Excel dosyalarıyla çalışmak için bu kütüphaneye ihtiyacınız olacak. [buradan indirin](https://releases.aspose.com/cells/net/).
 - C#'ın Temel Anlayışı: Kod boyunca size rehberlik edeceğim, ancak C# temellerine hakim olmak işleri daha net hale getirecektir.
 
 ### Kurulum Adımları
@@ -61,7 +63,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Yer değiştirmek`Your Document Directory` Ve`Your Output Directory` Bilgisayarınızdaki gerçek yollarla. 
+Yer değiştirmek `Your Document Directory` Ve `Your Output Directory` Bilgisayarınızdaki gerçek yollarla. 
 
 ## Adım 2: Mevcut Çalışma Kitabını Yükleyin
 
@@ -106,7 +108,7 @@ Tabloyu seçtikten sonra sıra geldi resmi eklemeye!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Burada,`50` Ve`50` görüntünün yerleştirileceği X ve Y koordinatlarıdır ve`200` resmin genişliği ve yüksekliğidir.
+Burada, `50` Ve `50` görüntünün yerleştirileceği X ve Y koordinatlarıdır ve `200` resmin genişliği ve yüksekliğidir.
 
 ## Adım 6: Resmin Çizgi Formatını Özelleştirin
 
@@ -146,27 +148,29 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Çözüm
 
-Bu eğitimde, Aspose.Cells for .NET kullanarak resimler ekleyerek Excel grafiklerinize biraz kişilik katmanın yollarını inceledik. Sadece birkaç basit adımla sunumlarınızı sıradanlıktan unutulmazlığa yükseltebilirsiniz. Öyleyse, ne bekliyorsunuz? Bir deneyin ve grafiklerinizin parlamasına izin verin!
+Bu eğitimde, Aspose.Cells for .NET kullanarak resimler ekleyerek Excel grafiklerinize biraz kişilik katmanın yollarını inceledik. Sadece birkaç basit adımla, sunumlarınızı sıradanlıktan unutulmazlığa yükseltebilirsiniz. Öyleyse, ne bekliyorsunuz? Bir deneyin ve grafiklerinizin parlamasına izin verin!
 
 ## SSS
 
 ### Tek bir tabloya birden fazla resim ekleyebilir miyim?
- Evet! arayabilirsiniz`AddPictureInChart` İstediğiniz kadar resim eklemek için yöntemi birden fazla kez deneyin.
+Evet! arayabilirsiniz `AddPictureInChart` İstediğiniz kadar resim eklemek için yöntemi birden fazla kez deneyin.
 
 ### Aspose.Cells hangi görüntü formatlarını destekliyor?
-Aspose.Cells PNG, JPEG, BMP ve GIF gibi çeşitli resim formatlarını destekler.
+Aspose.Cells PNG, JPEG, BMP ve GIF dahil olmak üzere çeşitli resim formatlarını destekler.
 
 ### Resmin konumunu özelleştirebilir miyim?
- Kesinlikle! X ve Y koordinatları`AddPictureInChart` yöntem hassas konumlandırmaya izin verir.
+Kesinlikle! X ve Y koordinatları `AddPictureInChart` yöntem hassas konumlandırmaya izin verir.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Aspose.Cells ücretsiz deneme sunuyor ancak tüm özellikler için lisans gerekiyor. Fiyatlandırmayı bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells ücretsiz deneme sunuyor ancak tüm özellikler için lisans gerekiyor. Fiyatlandırmayı bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Daha fazla örneği nerede bulabilirim?
- Şuna bir göz atın:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha detaylı örnekler ve işlevler için.
+Şuna bir göz atın: [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha detaylı örnekler ve işlevler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

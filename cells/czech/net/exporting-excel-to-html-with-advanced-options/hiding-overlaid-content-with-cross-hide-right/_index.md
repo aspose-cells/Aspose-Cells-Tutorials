@@ -1,36 +1,38 @@
 ---
-title: Skrytí překryvného obsahu pomocí křížového skrytí vpravo při ukládání do Html
-linktitle: Skrytí překryvného obsahu pomocí křížového skrytí vpravo při ukládání do Html
-second_title: Aspose.Cells .NET Excel Processing API
-description: V této komplexní příručce se dozvíte, jak skrýt překryvný obsah v Excelu při ukládání do HTML pomocí Aspose.Cells for .NET.
-weight: 16
-url: /cs/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/
+"description": "tomto komplexním průvodci se naučíte, jak skrýt překrývající se obsah v Excelu při ukládání do HTML pomocí Aspose.Cells pro .NET."
+"linktitle": "Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML"
+"url": "/cs/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skrytí překryvného obsahu pomocí křížového skrytí vpravo při ukládání do Html
+# Skrytí překrytého obsahu pomocí křížku Hide Right při ukládání do HTML
 
 ## Zavedení
-Přistihli jste se někdy, že se potýkáte s chaotickými soubory Excelu, které se jen špatně překládají do HTML? Nejsi sám! Mnoho lidí často čelí problémům, když se snaží exportovat své tabulky při zachování správné viditelnosti obsahu. Naštěstí existuje šikovný nástroj nazvaný Aspose.Cells for .NET, který dokáže tento problém vyřešit tím, že vám umožní strategicky skrýt překrývající se obsah. V tomto tutoriálu vás krok za krokem provedeme, jak používat Aspose.Cells ke skrytí překryvného obsahu pomocí možnosti 'CrossHideRight' při ukládání souboru aplikace Excel do HTML. 
+Už jste někdy měli potíže s nepřehlednými soubory Excelu, které se prostě špatně překládají do HTML? Nejste sami! Mnoho lidí se často potýká s problémy při exportu tabulek a zároveň zachování správné viditelnosti obsahu. Naštěstí existuje šikovný nástroj s názvem Aspose.Cells pro .NET, který tento problém vyřeší tím, že vám umožní strategicky skrýt překrývající se obsah. V tomto tutoriálu vás krok za krokem provedeme tím, jak pomocí Aspose.Cells skrýt překrývající se obsah pomocí možnosti „CrossHideRight“ při ukládání souboru Excelu do HTML. 
 ## Předpoklady
-Než se ponoříme do toho nejnutnějšího, ujistěte se, že máte vše správně nastavené! Zde jsou předpoklady, které budete muset dodržovat:
-1. Základní znalost C#: Pokud znáte C#, je to skvělé! Budeme pracovat v tomto jazyce, takže pochopení základů pomůže.
-2.  Instalováno Aspose.Cells for .NET: Budete muset nainstalovat Aspose.Cells for .NET. Pokud jste tak ještě neučinili, zamiřte do[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) začít.
-3. Nainstalované Visual Studio: IDE jako Visual Studio vám usnadní život. Pokud ji nemáte, vezměte si ji z[webové stránky](https://visualstudio.microsoft.com/).
-4.  Vzorový soubor Excel: Připravte vzorový soubor Excel, který budeme používat v našich příkladech. Vytvořte ukázkový soubor s názvem`sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx`.
-5. .NET Framework nebo .NET Core: Ujistěte se, že máte v systému nainstalované rozhraní .NET Framework nebo .NET Core.
-Ušpiníme si ruce a začneme kódovat! 
-## Importujte balíčky
-Pro začátek budeme muset do našeho projektu C# importovat několik základních knihoven. Nebojte se; je to přímočarý proces!
-### Vytvořte nový projekt C#
-Otevřete Visual Studio a vytvořte nový projekt C#. Pro tento výukový program si můžete vybrat typ projektu aplikace konzoly.
-### Přidejte odkaz Aspose.Cells
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+Než se ponoříme do detailů, ujistěte se, že máte vše správně nastavené! Zde jsou předpoklady, které budete muset dodržovat:
+1. Základní znalost C#: Pokud se v C# vyznáte, je to skvělé! Budeme v tomto jazyce pracovat, takže pochopení základů vám pomůže.
+2. Nainstalovaný Aspose.Cells pro .NET: Budete muset nainstalovat Aspose.Cells pro .NET. Pokud jste tak ještě neučinili, přejděte na [Stránka pro stažení Aspose.Cells](https://releases.aspose.com/cells/net/) začít.
+3. Nainstalované Visual Studio: IDE, jako je Visual Studio, vám usnadní život. Pokud ho nemáte, stáhněte si ho z [webové stránky](https://visualstudio.microsoft.com/).
+4. Ukázkový soubor aplikace Excel: Připravte si ukázkový soubor aplikace Excel, který budeme používat v našich příkladech. Vytvořte ukázkový soubor s názvem `sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx`.
+5. .NET Framework nebo .NET Core: Ujistěte se, že máte v systému nainstalován .NET Framework nebo .NET Core.
+Pojďme si ušpinit ruce a začít programovat! 
+## Importovat balíčky
+Pro začátek budeme muset do našeho projektu v C# importovat několik základních knihoven. Nebojte se, je to jednoduchý proces!
+### Vytvoření nového projektu v C#
+Otevřete Visual Studio a vytvořte nový projekt v jazyce C#. Pro tento tutoriál si můžete vybrat typ projektu Konzolová aplikace.
+### Přidat odkaz na Aspose.Cells
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
 2. Klikněte na „Spravovat balíčky NuGet“.
-3.  Hledat`Aspose.Cells` a nainstalujte balíček.
+3. Hledat `Aspose.Cells` a nainstalujte balíček.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -38,57 +40,59 @@ using System.Linq;
 using System.Text;
 ```
 
-Nyní, když máme naše nastavení připraveno, pojďme si rozebrat proces ukládání souboru Excel do HTML a zároveň použít techniku „CrossHideRight“ ke skrytí překrývajícího obsahu.
+Nyní, když máme připravené nastavení, pojďme si rozebrat proces ukládání souboru Excelu do HTML s využitím techniky „CrossHideRight“ pro skrytí překrývajícího se obsahu.
 ## Krok 1: Načtěte ukázkový soubor Excel
-Začněme načtením našeho vzorového souboru Excel.
+Začněme načtením našeho vzorového souboru aplikace Excel.
 ```csharp
 //Zdrojový adresář
 string sourceDir = "Your Document Directory";
 //Výstupní adresář
 string outputDir = "Your Document Directory";
-//Načtěte ukázkový soubor Excel
+// Načíst ukázkový soubor Excel 
 Workbook wb = new Workbook(sourceDir + "sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx");
 ```
- Zde vytvoříme instanci`Workbook` třída, která načte náš soubor Excel. Jen se ujistěte, že aktualizujete`sourceDir` se správnou cestou k adresáři, kde se nachází váš soubor Excel. 
-## Krok 2: Zadejte možnosti uložení HTML
-Dále musíme nakonfigurovat možnosti uložení HTML, abychom skryli překrývající obsah.
+Zde vytvoříme instanci `Workbook` třída, která načte náš excelový soubor. Jen se ujistěte, že aktualizujete `sourceDir` se správnou cestou k adresáři, kde se nachází váš soubor Excel. 
+## Krok 2: Zadejte možnosti ukládání HTML
+Dále musíme nakonfigurovat možnosti ukládání HTML tak, aby se skryl překryvný obsah.
 ```csharp
-// Zadat možnosti HtmlSaveOptions – skrýt překryvný obsah pomocí CrossHideRight při ukládání do Html
+// Zadejte HtmlSaveOptions - Skrytí překrytého obsahu pomocí CrossHideRight při ukládání do HTML
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
 ```
- V tomto kroku vytváříme instanci`HtmlSaveOptions` . The`HtmlCrossStringType` vlastnost je nastavena na`CrossHideRight` který říká knihovně Aspose.Cells, jak zacházet s překryvným obsahem při exportu do HTML. Berte to jako nalezení dokonalého filtru pro vaši fotografii; chcete zvýraznit právě ty správné části.
-## Krok 3: Uložte sešit jako HTML
-Jakmile máme vše nastaveno, je čas uložit náš sešit do souboru HTML.
+V tomto kroku vytváříme instanci `HtmlSaveOptions`Ten/Ta/To `HtmlCrossStringType` vlastnost je nastavena na `CrossHideRight` který knihovně Aspose.Cells říká, jak má zacházet s překrytým obsahem při exportu do HTML. Představte si to jako hledání perfektního filtru pro vaši fotografii; chcete zvýraznit jen ty správné části.
+## Krok 3: Uložení sešitu ve formátu HTML
+Jakmile máme vše nastavené, je čas uložit náš sešit do souboru HTML.
 ```csharp
 // Uložit do HTML pomocí HtmlSaveOptions
 wb.Save(outputDir + "outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html", opts);
 ```
-Tento řádek přebírá náš sešit (`wb` ) a uloží jej do zadaného výstupního adresáře s názvem`outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`Aplikuje také naše dříve definované možnosti, abychom zajistili, že s překryvným obsahem bude nakládáno podle našich potřeb.
-## Krok 4: Výstup zprávy o úspěchu
-Nakonec přidáme zprávu o úspěchu, abychom věděli, že vše proběhlo hladce.
+Tento řádek bere náš sešit (`wb`) a uloží jej do zadaného výstupního adresáře s názvem `outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`Také aplikuje naše dříve definované možnosti, aby se zajistilo, že překryvný obsah bude zpracován podle našich potřeb.
+## Krok 4: Výpis zprávy o úspěchu
+Nakonec přidejme zprávu o úspěchu, která nám dá vědět, že vše proběhlo hladce.
 ```csharp
 Console.WriteLine("HidingOverlaidContentWithCrossHideRightWhileSavingToHtml executed successfully.");
 ```
-Tento řádek pouze odešle zprávu o úspěchu do konzole. Je to náš způsob, jak říct: "Hej, dokázali jsme to!" Tato zpětná vazba je skvělá pro odstraňování problémů; pokud uvidíte tuto zprávu, víte, že jste všichni v pořádku!
+Tento řádek pouze vypíše zprávu o úspěšném dokončení do konzole. Je to náš způsob, jak říct: „Hej, zvládli jsme to!“ Tato zpětná vazba je skvělá pro řešení problémů; pokud se vám tato zpráva zobrazí, víte, že je vše v pořádku!
 
 ## Závěr
-A voilà! Úspěšně jste zastrčili jakýkoli překrývající obsah ve svých souborech aplikace Excel, díky čemuž jsou exporty HTML pomocí Aspose.Cells for .NET čisté a uklizené. Pokud jste postupovali podle toho, jste nyní vybaveni některými výkonnými možnostmi pro práci se soubory Excel ve vašich aplikacích .NET. 
-Tento proces skutečně zjednodušuje ukládání souborů Excel do HTML a zároveň zohledňuje estetiku prezentace – oboustranně výhodná! Pokračujte v experimentování s knihovnou a objevíte ještě více funkcí pro vylepšení vašich projektů.
-## FAQ
+A voilà! Úspěšně jste odstranili veškerý překryvný obsah z vašich excelových souborů, čímž jste pomocí Aspose.Cells pro .NET upravili exporty HTML. Pokud jste postupovali podle pokynů, máte nyní k dispozici několik výkonných funkcí pro práci s excelovými soubory ve vašich .NET aplikacích. 
+Tento proces skutečně zjednodušuje ukládání souborů aplikace Excel do formátu HTML a zároveň zohledňuje estetiku prezentace – výhodné pro všechny! Experimentujte s knihovnou a objevíte ještě více funkcí, které vylepší vaše projekty.
+## Často kladené otázky
 ### Co je Aspose.Cells?
-Aspose.Cells je výkonná .NET knihovna určená pro práci se soubory aplikace Excel. Umožňuje vám bezproblémově vytvářet, upravovat, převádět a manipulovat s dokumenty Excelu ve vašich aplikacích.
+Aspose.Cells je výkonná knihovna .NET určená pro práci s excelovými soubory. Umožňuje vám bezproblémově vytvářet, upravovat, převádět a manipulovat s excelovými dokumenty ve vašich aplikacích.
 ### Mohu používat Aspose.Cells zdarma?
- Ano, Aspose.Cells nabízí a[zkušební verze zdarma](https://releases.aspose.com/) takže si můžete jeho vlastnosti před nákupem vyzkoušet.
-### Podporuje Aspose.Cells všechny formáty Excelu?
-Absolutně! Aspose.Cells podporuje řadu formátů aplikace Excel včetně XLS, XLSX a CSV.
+Ano, Aspose.Cells nabízí [bezplatná zkušební verze](https://releases.aspose.com/) abyste si mohli před nákupem vyzkoušet jeho funkce.
+### Podporuje Aspose.Cells všechny formáty aplikace Excel?
+Rozhodně! Aspose.Cells podporuje řadu formátů aplikace Excel, včetně XLS, XLSX a CSV, a dalších.
 ### Kde mohu získat podporu pro Aspose.Cells?
- Podporu najdete na[Fórum Aspose](https://forum.aspose.com/c/cells/9) kde můžete klást otázky a sdílet zkušenosti.
-### Jak koupím Aspose.Cells?
- Aspose.Cells si můžete zakoupit na adrese[nákupní stránku](https://purchase.aspose.com/buy).
+Podporu můžete najít na [Fórum Aspose](https://forum.aspose.com/c/cells/9) kde se můžete ptát a sdílet zkušenosti.
+### Jak si mohu koupit Aspose.Cells?
+Aspose.Cells si můžete zakoupit na adrese [stránka nákupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

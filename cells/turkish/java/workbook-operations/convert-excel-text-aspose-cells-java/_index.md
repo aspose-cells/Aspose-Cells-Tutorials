@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Aspose.Cells'i kullanmak için ücretsiz denemeyle başlayabilir veya daha kapsa
 
 1. **Ücretsiz Deneme**: Değerlendirme sürümünü indirerek en son özelliklere ve işlevlere erişin.
 2. **Geçici Lisans**:Ürünü sınırsız olarak değerlendirmek için geçici lisans başvurusunda bulunun.
-3. **Satın almak**:Uzun süreli kullanım için Aspose'un resmi sitesinden uygun lisansı satın alınız.
+3. **Satın almak**:Uzun süreli kullanım için Aspose'un resmi sitesinden uygun lisansı satın alın.
 
 #### Temel Başlatma
 
@@ -241,6 +243,9 @@ C5: Dosya yolu hataları, yetersiz izinler veya desteklenmeyen formatlar gibi ya
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

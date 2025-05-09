@@ -1,60 +1,65 @@
 ---
-title: A .NET-hez használt Aspose.Cells segítségével átalakítsa és helyezze át az Excel-ben található térképet
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell méretelni és átalakítani egy grafikont egy Excel munkafüzetben a .NET-hez Aspose.Cells segítségével.
-keywords: [Aspose.Cells for .NET, resize chart in Excel, reposition chart, Excel chart manipulation, .NET Excel library, C# Excel chart, modify Excel charts ]
-url: /hu/net/charts/change-chart-size-and-position/
+"description": "Ismerje meg, hogyan méretezhet át és helyezhet át egy diagramot egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal és telepítési utasításokkal."
+"title": "Diagram átméretezése és áthelyezése Excelben az Aspose.Cells for .NET használatával"
+"url": "/hu/net/charts/change-chart-size-and-position/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Excelben a Aspose.Cells segítségével átalakítsa és átalakítsa a méretét 
-Az Aspose.Cells programmatizált Excel fájlokkal való együttműködésre alkalmas API-t nyújt a .NET-hez. Ez a példa bemutatja, hogyan lehet egy Excel munkafüzetben egy táblázat méretét és átruházását az Aspose.Cells segítségével. Akár a táblázat méreteit kell módosítani, akár egy meghatározott pozícióba kell költöztetnie, ez a tanár a folyamaton keresztül vezet a követhető C# kód segítségével. Az Aspose.Cells segítségével a Excel táblázatokat sima módon manipulálhatja, biztosítva, hogy a jelentései és vizuális adatbemutatásai pontosan formázódjanak.  
+# Diagram átméretezése és áthelyezése Excelben az Aspose.Cells használatával 
+Az Aspose.Cells for .NET egy hatékony API-t biztosít az Excel-fájlok programozott kezeléséhez. Ez a példa bemutatja, hogyan méretezhet át és helyezhet át egy diagramot egy Excel-munkafüzetben az Aspose.Cells segítségével. Akár a diagram méreteit kell módosítania, akár egy adott pozícióba kell helyeznie, ez az oktatóanyag könnyen követhető C# kóddal végigvezeti a folyamaton. Az Aspose.Cells használatával zökkenőmentesen manipulálhatja az Excel-diagramokat, biztosítva, hogy jelentései és vizuális adatprezentációi pontosan legyenek formázva.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
+## Telepítési utasítások:  
 
-A .NET-ben az Aspose.Cells használatához kövesse az alábbi lépéseket:  
+Az Aspose.Cells .NET-hez való használatához kövesse az alábbi lépéseket:  
 
-1. A NuGet csomagkezelő segítségével telepítse  
-* Nyissa ki a Visual Studio-t.  
-* Navigáljon a Szerszámok → NuGet csomagkezelő → A megoldáshoz a NuGet csomagok kezelésére.  
-* Keresd az Aspose.Cells címet.  
-* Kattintson a telepítésre, hogy a csomagot a projekthez hozzák hozzá.  
+1. Telepítés a NuGet csomagkezelőn keresztül  
+- Nyisd meg a Visual Studio-t.  
+- Lépjen az Eszközök → NuGet csomagkezelő → Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+- Keresd meg az Aspose.Cells-t.  
+- Kattintson a Telepítés gombra a csomag projekthez való hozzáadásához.  
 
-Alternatív módon, telepítse a NuGet csomagkezelő konzolt:  
+Alternatív megoldásként telepítheti a NuGet csomagkezelő konzol használatával:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```
 
-2. Adjon névhelyet a C# kódjához  
+2. Névtér hozzáadása a C# kódhoz  
 ```csharp
 using Aspose.Cells;
 ```
 
-3. Aktíva License (Felhetőséges, teljes funkció esetén)  
-Ha rendelkezik engedélysel, alkalmazza a következő kódot:  
+3. Licenc aktiválása (opcionális, a teljes funkciók eléréséhez)  
+Ha van licenced, akkor a következő kóddal igényeld:  
 
 ```csharp
 License license = new License();
 license.SetLicense("Aspose.Cells.lic");
 ```
 
-## Lásd:
-A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még
+Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

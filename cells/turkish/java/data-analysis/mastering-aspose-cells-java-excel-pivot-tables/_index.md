@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ public class PivotTableExample {
         // Çalışma kitabını belirttiğiniz dizinden yükleyin.
         Workbook workbook = new Workbook(dataDir + "PivotTable.xls");
         
-        // Çalışma kitabındaki ilk çalışma kağıdını alın.
+        // Çalışma kitabındaki ilk çalışma kağıdını al.
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         // Çalışma sayfasındaki ilk Pivot Tablo'ya erişin.
@@ -212,6 +214,9 @@ A5: Ziyaret edin [Aspose.Cells belgeleri](https://reference.aspose.com/cells/jav
 Keyifli kodlamalar ve Aspose.Cells for Java ile daha fazlasını keşfetmekten çekinmeyin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

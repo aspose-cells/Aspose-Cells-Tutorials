@@ -1,14 +1,16 @@
 ---
-title: การเพิ่มเส้นขอบให้กับเซลล์ใน Excel
-linktitle: การเพิ่มเส้นขอบให้กับเซลล์ใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีเพิ่มเส้นขอบที่มีสไตล์ให้กับเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อสร้างสเปรดชีตที่ชัดเจนและน่าสนใจ
-weight: 14
-url: /th/net/excel-formatting-and-styling/adding-borders-to-cells/
+"description": "เรียนรู้วิธีเพิ่มเส้นขอบที่มีสไตล์ให้กับเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อสร้างสเปรดชีตที่ชัดเจนและน่าสนใจ"
+"linktitle": "การเพิ่มเส้นขอบให้กับเซลล์ใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การเพิ่มเส้นขอบให้กับเซลล์ใน Excel"
+"url": "/th/net/excel-formatting-and-styling/adding-borders-to-cells/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การเพิ่มเส้นขอบให้กับเซลล์ใน Excel
@@ -19,7 +21,7 @@ url: /th/net/excel-formatting-and-styling/adding-borders-to-cells/
 ก่อนที่เราจะเจาะลึกรายละเอียดเกี่ยวกับการเพิ่มเส้นขอบให้กับเซลล์ Excel โดยใช้ Aspose.Cells มาดูสิ่งที่คุณต้องมีในการเริ่มต้นกันก่อน
 ### ข้อกำหนดของซอฟต์แวร์
 1. Visual Studio - ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว เนื่องจากจะเป็นสภาพแวดล้อมการพัฒนาหลักของคุณ
-2.  Aspose.Cells สำหรับ .NET - คุณต้องมีไลบรารี Aspose.Cells หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ไซต์แอสโพเซ่](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET - คุณต้องมีไลบรารี Aspose.Cells หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ไซต์แอสโพเซ่](https://releases-aspose.com/cells/net/).
 ### ความรู้พื้นฐาน
 หากต้องการได้รับประโยชน์สูงสุดจากบทช่วยสอนนี้ คุณควรมีความเข้าใจพื้นฐานในเรื่องต่อไปนี้:
 - ภาษาโปรแกรม C#
@@ -109,16 +111,18 @@ workbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารีอันทรงพลังสำหรับ .NET ที่ช่วยให้นักพัฒนาสามารถจัดการและปรับเปลี่ยนไฟล์ Excel ได้โดยไม่ต้องติดตั้ง Microsoft Excel
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่! Aspose.Cells เสนอการทดลองใช้ฟรี ซึ่งคุณสามารถค้นหาได้[ที่นี่](https://releases.aspose.com/).
+ใช่! Aspose.Cells เสนอการทดลองใช้ฟรี ซึ่งคุณสามารถค้นหาได้ [ที่นี่](https://releases-aspose.com/).
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร
- หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชม Aspose.Cells[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9).
+หากต้องการความช่วยเหลือ คุณสามารถเยี่ยมชม Aspose.Cells [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/cells/9).
 ### มีใบอนุญาตชั่วคราวให้ใช้หรือไม่?
- ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 ### ฉันสามารถปรับแต่งอะไรมากกว่าแค่เส้นขอบโดยใช้ Aspose.Cells ได้หรือไม่
 แน่นอน! คุณสามารถเปลี่ยนสีเซลล์ แบบอักษร สูตร และอื่นๆ อีกมากมาย ความเป็นไปได้นั้นไม่มีที่สิ้นสุด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ En esta guía, aprendiste a implementar `LightCellsDataHandler` En Java con Aspo
 Siguiendo esta guía, estarás en el camino correcto para dominar el procesamiento de archivos de Excel en Java con Aspose.Cells. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

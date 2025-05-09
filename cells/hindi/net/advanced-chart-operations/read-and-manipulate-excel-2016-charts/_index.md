@@ -1,14 +1,16 @@
 ---
-title: Excel 2016 चार्ट पढ़ें और उनमें हेरफेर करें
-linktitle: Excel 2016 चार्ट पढ़ें और उनमें हेरफेर करें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel 2016 चार्ट को पढ़ना और उसमें हेरफेर करना सीखें।
-weight: 13
-url: /hi/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel 2016 चार्ट को पढ़ना और उसमें हेरफेर करना सीखें।"
+"linktitle": "Excel 2016 चार्ट पढ़ें और उनमें हेरफेर करें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Excel 2016 चार्ट पढ़ें और उनमें हेरफेर करें"
+"url": "/hi/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 2016 चार्ट पढ़ें और उनमें हेरफेर करें
@@ -19,9 +21,9 @@ url: /hi/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपने सब कुछ सेट कर लिया है। यहां वे पूर्वापेक्षाएँ दी गई हैं जिनकी आपको आवश्यकता होगी:
+इससे पहले कि हम कोड में आगे बढ़ें, आइए सुनिश्चित करें कि आपने पूरी तरह से तैयारी कर ली है। यहां वे पूर्वापेक्षाएँ दी गई हैं जिनकी आपको आवश्यकता होगी:
 
-1.  Aspose.Cells for .NET: आपके पास यह लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने अभी तक ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET: आपके पास यह लाइब्रेरी इंस्टॉल होनी चाहिए। अगर आपने अभी तक ऐसा नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 2. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके विकास वातावरण में .NET फ्रेमवर्क स्थापित है। Aspose.Cells कई फ्रेमवर्क का समर्थन करता है, इसलिए संगतता की जाँच करें।
 3. IDE: अपना कोड लिखने और निष्पादित करने के लिए Visual Studio जैसे IDE का उपयोग करें। 
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग के मूल सिद्धांतों को समझने से इस ट्यूटोरियल का अनुसरण करना बहुत आसान हो जाएगा।
@@ -54,11 +56,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` वास्तविक पथ के साथ जहां आपकी फ़ाइलें संग्रहीत हैं।
+प्रतिस्थापित करें `"Your Document Directory"` और `"Your Output Directory"` वास्तविक पथ के साथ जहां आपकी फ़ाइलें संग्रहीत हैं.
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 
-इस चरण में, आप Excel फ़ाइल लोड करेंगे जिसमें चार्ट शामिल हैं। Aspose.Cells के साथ यह आसान बनाता है`Workbook` कक्षा।
+इस चरण में, आप Excel फ़ाइल लोड करेंगे जिसमें चार्ट शामिल हैं। Aspose.Cells इसे आसान बनाता है `Workbook` कक्षा।
 
 ```csharp
 // एक्सेल 2016 चार्ट युक्त स्रोत एक्सेल फ़ाइल लोड करें
@@ -78,7 +80,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## चरण 4: चार्ट के माध्यम से लूप करें
 
- अब, आपको वर्कशीट में मौजूद सभी चार्ट पर पुनरावृति करनी होगी। Aspose.Cells आपको चार्ट तक आसानी से पहुँचने की अनुमति देता है।`Charts` की संपत्ति`Worksheet` कक्षा।
+अब, आपको वर्कशीट में मौजूद सभी चार्ट पर पुनरावृति करनी होगी। Aspose.Cells आपको चार्ट तक आसानी से पहुँचने की अनुमति देता है। `Charts` की संपत्ति `Worksheet` कक्षा।
 
 ```csharp
 // सभी चार्टों को एक-एक करके देखें और उनके प्रकार पढ़ें
@@ -138,19 +140,21 @@ Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
 Aspose.Cells for .NET, Excel फ़ाइलों के साथ प्रोग्रामेटिक रूप से काम करने के लिए एक लाइब्रेरी है, जो डेवलपर्स को .NET अनुप्रयोगों के भीतर Excel फ़ाइलों को बनाने, पढ़ने, हेरफेर करने और परिवर्तित करने की अनुमति देता है।
 
 ### मैं Aspose.Cells कैसे डाउनलोड कर सकता हूँ?
- आप Aspose.Cells को वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+आप Aspose.Cells को वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 
 ### क्या Aspose.Cells .xlsx के अलावा अन्य Excel फ़ाइल स्वरूपों का समर्थन करता है?
 हाँ! Aspose.Cells विभिन्न फ़ाइल स्वरूपों का समर्थन करता है, जिसमें .xls, .csv, .pdf, और बहुत कुछ शामिल है।
 
 ### क्या Aspose.Cells के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हां, Aspose एक निःशुल्क परीक्षण प्रदान करता है जिसे आप एक्सेस कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose एक निःशुल्क परीक्षण प्रदान करता है जिसे आप एक्सेस कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
-### मुझे Aspose.Cells के लिए समर्थन कहां मिल सकता है?
- आप Aspose फ़ोरम में समर्थन और सामुदायिक चर्चाएँ पा सकते हैं[यहाँ](https://forum.aspose.com/c/cells/9).
+### मैं Aspose.Cells के लिए समर्थन कहां से प्राप्त कर सकता हूं?
+आप Aspose फ़ोरम में समर्थन और सामुदायिक चर्चाएँ पा सकते हैं [यहाँ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

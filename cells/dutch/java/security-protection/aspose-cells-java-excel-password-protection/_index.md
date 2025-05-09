@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Het laden van wachtwoordbeveiligde Excel-bestanden is essentieel bij het werken met gevoelige informatie. Aspose.Cells biedt een eenvoudige manier om deze bestanden te openen door het juiste wachtwoord op te geven.
 
 #### Stapsgewijze implementatie
-1. **LoadOptions instellen**: Maak een `LoadOptions` object en stel het vereiste wachtwoord in.
+1. **LoadOptions instellen**Maak een `LoadOptions` object en stel het vereiste wachtwoord in.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5: Zorg ervoor dat het pad naar uw licentiebestand correct is en dat het toegan
 - **Steun**: [Aspose Forum Ondersteuning](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ PageSetup pageSetup = sheet.getPageSetup(); // Ottieni l'oggetto PageSetup del f
 pageSetup.setFitToPagesTall((int) totalPagesTall); // Imposta l'altezza delle pagine per adattarle al contenuto
 pageSetup.setFitToPagesWide((int) totalPagesWide); // Imposta la larghezza delle pagine per adattarle al contenuto
 ```
-- **Spiegazione**:Configuriamo `PageSetup` usando `setFitToPagesTall()` E `setFitToPagesWide()`, che determinano su quante pagine il contenuto dovrebbe estendersi rispettivamente in verticale e in orizzontale.
+- **Spiegazione**: Noi configuriamo `PageSetup` usando `setFitToPagesTall()` E `setFitToPagesWide()`, che determinano su quante pagine il contenuto dovrebbe estendersi rispettivamente in verticale e in orizzontale.
 
 **Passaggio 3: salvataggio della cartella di lavoro**
 ```java
@@ -177,6 +179,9 @@ Ora tocca a te sperimentare e implementare queste potenti funzionalità nei tuoi
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

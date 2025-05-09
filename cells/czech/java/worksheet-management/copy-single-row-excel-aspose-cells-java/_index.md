@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5: Velké soubory a složité operace mohou zvýšit využití paměti. Optimal
 Prozkoumejte tyto zdroje, abyste prohloubili své znalosti Aspose.Cells pro Javu a odemkli plný potenciál manipulace s Excelem ve vašich aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

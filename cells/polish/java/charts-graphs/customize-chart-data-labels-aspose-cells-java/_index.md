@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,6 +168,9 @@ Aby lepiej poznać możliwości Aspose.Cells, rozważ eksperymentowanie z innymi
 Ten kompleksowy przewodnik powinien umożliwić Ci skuteczne dostosowywanie etykiet danych wykresu w aplikacjach Java przy użyciu Aspose.Cells. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

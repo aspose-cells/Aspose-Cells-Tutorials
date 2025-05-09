@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5: Grote bestanden en complexe bewerkingen kunnen het geheugengebruik verhogen.
 Verken deze bronnen om uw begrip van Aspose.Cells voor Java te verdiepen en het volledige potentieel van Excel-manipulatie in uw toepassingen te benutten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

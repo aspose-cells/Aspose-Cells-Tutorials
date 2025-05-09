@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-scroll-bar-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Scroll Bar to Worksheet in Excel
@@ -149,6 +151,7 @@ You can seek help on the [Aspose Forum](https://forum.aspose.com/c/cells/9) for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

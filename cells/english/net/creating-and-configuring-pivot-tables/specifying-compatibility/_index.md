@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/specifying-compatibility/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Compatibility of Excel File Programmatically in .NET
@@ -250,6 +252,7 @@ Absolutely! Aspose.Cells allows for extensive cell formatting. You can change fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

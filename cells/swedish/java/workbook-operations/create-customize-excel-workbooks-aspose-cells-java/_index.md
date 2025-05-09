@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ public class InitializeAsposeCells {
 
 Det här avsnittet behandlar hur man skapar arbetsböcker, sparar dem och anger egenskaper.
 
-### Funktion 1: Skapa och spara arbetsböcker
+### Funktion 1: Skapande och sparande av arbetsböcker
 
 #### Översikt
 Det är enkelt att skapa och spara en arbetsbok med Aspose.Cells. Det här avsnittet visar hur man genererar en Excel-fil från grunden och lagrar den i önskad katalog.
@@ -185,6 +187,9 @@ Redo att börja implementera? Skaffa en gratis provperiod eller tillfällig lice
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj obraz do arkusza kalkulacyjnego Excel
-linktitle: Dodaj obraz do arkusza kalkulacyjnego Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo dodawać zdjęcia do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET w tym kompleksowym przewodniku krok po kroku. Ulepsz swoje arkusze kalkulacyjne.
-weight: 12
-url: /pl/net/excel-ole-picture-objects/add-picture-to-excel/
+"description": "Dowiedz się, jak łatwo dodawać zdjęcia do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET w tym kompleksowym przewodniku krok po kroku. Ulepsz swoje arkusze kalkulacyjne."
+"linktitle": "Dodaj obraz do arkusza kalkulacyjnego Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj obraz do arkusza kalkulacyjnego Excel"
+"url": "/pl/net/excel-ole-picture-objects/add-picture-to-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obraz do arkusza kalkulacyjnego Excel
@@ -18,7 +20,7 @@ Jeśli chodzi o tworzenie profesjonalnych arkuszy kalkulacyjnych, wizualizacje m
 ## Wymagania wstępne
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz:
 1. Środowisko .NET: Musisz mieć skonfigurowane środowisko programistyczne .NET (np. Visual Studio lub inne środowisko IDE obsługujące platformę .NET).
-2.  Biblioteka Aspose.Cells: Aby wykorzystać Aspose.Cells dla .NET w swojej aplikacji, musisz pobrać bibliotekę. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Aby wykorzystać Aspose.Cells dla .NET w swojej aplikacji, musisz pobrać bibliotekę. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza programistyczna: Znajomość języka C# lub VB.NET pomoże Ci łatwiej zrozumieć przykłady.
 ## Importuj pakiety
 Aby zacząć używać Aspose.Cells, musisz najpierw zaimportować niezbędne przestrzenie nazw. Zazwyczaj można to zrobić, dodając następujący wiersz na górze pliku kodu:
@@ -32,9 +34,9 @@ Teraz omówmy proces dodawania obrazka do arkusza kalkulacyjnego Excel przy uży
 Utwórz katalog do przechowywania dokumentów
 Zanim cokolwiek zrobimy z skoroszytem, potrzebujemy miejsca, w którym go zapiszemy. Określimy ten katalog dokumentu:
 ```csharp
-string dataDir = "Your Document Directory"; //Określ pożądaną ścieżkę.
+string dataDir = "Your Document Directory"; // Określ pożądaną ścieżkę.
 ```
- W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki Excela. Ten katalog będzie zawierał plik wyjściowy po dodaniu obrazu.
+W tym fragmencie kodu zamień `"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz przechowywać pliki Excela. Ten katalog będzie zawierał plik wyjściowy po dodaniu obrazu.
 ## Krok 2: Utwórz katalog, jeśli nie istnieje
 Sprawdź i utwórz katalog
 Zawsze warto sprawdzić, czy katalog istnieje. Jeśli nie, utworzymy go:
@@ -73,28 +75,30 @@ worksheet.Pictures.Add(5, 5, dataDir + "logo.jpg"); // Dodaj obraz.
 ```
 Upewnij się, że plik obrazu (`logo.jpg`) jest obecny w określonym katalogu; w przeciwnym razie napotkasz problemy. To tak, jakbyś upewniał się, że twoja ulubiona pizza jest w lodówce, zanim zaprosisz przyjaciół!
 ## Krok 7: Zapisz plik Excel
-Zapisywanie pracy
+Zapisywanie Twojej pracy
 Teraz, gdy dodałeś już zdjęcie, ostatnim krokiem jest zapisanie skoroszytu:
 ```csharp
 workbook.Save(dataDir + "output.xls"); // Zapisz w określonym katalogu.
 ```
- Ta akcja zapisuje wszystkie zmiany do rzeczywistego pliku, tworząc arkusz Excela zawierający Twój piękny obraz. To jest{cherry on top of your cake} moment!
+Ta akcja zapisuje wszystkie zmiany do rzeczywistego pliku, tworząc arkusz Excela zawierający Twój piękny obraz. To jest {wisienka na torcie} moment!
 ## Wniosek
 Dodawanie obrazów do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET to niezwykle prosty proces, który może podnieść poziom Twoich arkuszy kalkulacyjnych. Postępując zgodnie z tymi instrukcjami krok po kroku, możesz bezproblemowo integrować obrazy z plikami programu Excel, czyniąc je wizualnie atrakcyjnymi i informacyjnymi. Teraz przejdź dalej i poznaj moc Aspose.Cells w ulepszaniu prezentacji danych.
 ## Najczęściej zadawane pytania
-### Czy mogę dodać różne typy obrazów?
+### Czy mogę dodać różne rodzaje obrazów?
 Tak, do arkuszy kalkulacyjnych możesz dodawać różne formaty obrazów, takie jak PNG, JPEG i BMP.
 ### Czy Aspose.Cells obsługuje formaty plików Excel inne niż .xls?
 Oczywiście! Aspose.Cells obsługuje wiele formatów Excela, w tym .xlsx, .xlsm i .xlsb.
 ### Czy jest dostępna wersja próbna?
-Tak! Możesz wypróbować Aspose.Cells za darmo przed dokonaniem zakupu. Po prostu sprawdź[Tutaj](https://releases.aspose.com/).
+Tak! Możesz wypróbować Aspose.Cells za darmo przed dokonaniem zakupu. Po prostu sprawdź [Tutaj](https://releases.aspose.com/).
 ### Co mam zrobić, jeśli mój obraz się nie wyświetla?
 Sprawdź, czy ścieżka do obrazu jest prawidłowa i czy plik obrazu znajduje się w określonym katalogu.
 ### Czy mogę umieszczać obrazy nad wieloma komórkami?
 Tak! Możesz pozycjonować obrazy tak, aby obejmowały wiele komórek, określając żądane indeksy wierszy i kolumn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

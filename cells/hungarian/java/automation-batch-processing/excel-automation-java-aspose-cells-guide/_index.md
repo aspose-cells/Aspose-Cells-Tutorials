@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ workbook.save(outDir + "/AFData_out.xls");
 - **Ügyféladat-elemzés:** Ügyféladatkészletek szűrése célzott marketingkampányokhoz.
 ## Teljesítménybeli szempontok
 Az optimális teljesítmény érdekében:
-- A memória hatékony kezelése a nem használt objektumok megszabadulásával.
+- memória hatékony kezelése a nem használt objektumok megszabadulásával.
 - Használja ki az Aspose.Cells feldolgozási időt minimalizáló funkcióit, például a kötegelt műveleteket.
 - A zökkenőmentes működés biztosítása érdekében kövesse a Java legjobb gyakorlatait a nagy adathalmazok kezeléséhez.
 ## Következtetés
@@ -134,6 +136,9 @@ V: Bár ingyenes próbaverzió érhető el, a teljes hozzáféréshez licenc vá
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

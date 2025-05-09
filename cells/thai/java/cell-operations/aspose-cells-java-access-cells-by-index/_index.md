@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ public class UsingRowAndColumnIndexOfCell {
    - ใช้ความสามารถในการสตรีมและประมวลผลแบบแบตช์ที่ให้มาโดย Aspose.Cells
 3. **ฉันสามารถปรับเปลี่ยนเนื้อหาของเซลล์ด้วยวิธีนี้ได้หรือไม่?**
    - ใช่ หลังจากเข้าถึงเซลล์แล้ว คุณสามารถตั้งค่าค่าได้โดยใช้ `cell-setValue(newValue)`.
-4. **มีการสนับสนุนสำหรับรูปแบบไฟล์ Excel ที่แตกต่างกันหรือไม่**
+4. **มีการสนับสนุนสำหรับรูปแบบไฟล์ Excel ที่แตกต่างกันหรือไม่?**
    - Aspose.Cells รองรับหลายรูปแบบเช่น XLSX, CSV และอื่นๆ
 5. **จะเกิดอะไรขึ้นหากฉันพบข้อผิดพลาดขณะโหลดเวิร์กบุ๊ก?**
    - ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้อง ตรวจหาการอ้างอิงที่ขาดหายไปหรือเวอร์ชันไลบรารีที่ไม่ถูกต้อง
@@ -177,6 +179,9 @@ public class UsingRowAndColumnIndexOfCell {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

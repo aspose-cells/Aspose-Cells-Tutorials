@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells는 무료 체험판을 제공하여 기능을 체험해 볼 수 있습니다. 모든 기능을 사용하려면 다음 단계를 따르세요.
 1. **무료 체험**: Aspose 웹사이트에서 다운로드하여 임시 라이센스를 신청하세요.
 2. **임시 면허**: 방문하다 [Aspose의 라이선스 페이지](https://purchase.aspose.com/temporary-license/) 하나를 얻으려면.
-3. **구입**: 장기 사용을 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+3. **구입**장기 사용을 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 ### 기본 초기화 및 설정
 Aspose.Cells를 시작하려면:
@@ -166,11 +168,14 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면:
 - **다운로드**: [Java 릴리스용 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 라이선스 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose.Cells 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 포럼 지원](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dừng chuyển đổi hoặc tải bằng cách sử dụng Interrupt Monitor
-linktitle: Dừng chuyển đổi hoặc tải bằng cách sử dụng Interrupt Monitor
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách dừng chuyển đổi sổ làm việc trong Aspose.Cells cho .NET bằng Interrupt Monitor, với hướng dẫn chi tiết từng bước.
-weight: 26
-url: /vi/net/workbook-operations/stop-conversion-or-loading/
+"description": "Tìm hiểu cách dừng chuyển đổi sổ làm việc trong Aspose.Cells cho .NET bằng Interrupt Monitor, với hướng dẫn chi tiết từng bước."
+"linktitle": "Dừng chuyển đổi hoặc tải bằng cách sử dụng Interrupt Monitor"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Dừng chuyển đổi hoặc tải bằng cách sử dụng Interrupt Monitor"
+"url": "/vi/net/workbook-operations/stop-conversion-or-loading/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dừng chuyển đổi hoặc tải bằng cách sử dụng Interrupt Monitor
@@ -17,7 +19,7 @@ url: /vi/net/workbook-operations/stop-conversion-or-loading/
 Làm việc với các tệp Excel lớn thường liên quan đến các quy trình dài có thể ngốn thời gian và tài nguyên. Nhưng nếu bạn có thể dừng quá trình chuyển đổi giữa chừng khi nhận ra có điều gì đó cần thay đổi thì sao? Aspose.Cells cho .NET có một tính năng gọi là Interrupt Monitor, cho phép bạn ngắt quá trình chuyển đổi sổ làm việc sang định dạng khác như PDF. Tính năng này có thể cứu cánh, đặc biệt là khi làm việc với các tệp dữ liệu lớn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách ngắt quá trình chuyển đổi bằng Interrupt Monitor trong Aspose.Cells cho .NET.
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những điều sau:
-1.  Aspose.Cells cho .NET - Tải xuống[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET - Tải xuống [đây](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển .NET - Chẳng hạn như Visual Studio.
 3. Kiến thức cơ bản về lập trình C# - Sự quen thuộc với cú pháp C# sẽ giúp bạn theo dõi.
 ## Nhập gói
@@ -41,7 +43,7 @@ class StopConversionOrLoadingUsingInterruptMonitor
     static string outputDir = "Your Document Directory";
 }
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp PDF.
 ## Bước 2: Khởi tạo Trình giám sát ngắt
 Tiếp theo, tạo một đối tượng InterruptMonitor. Màn hình này sẽ giúp kiểm soát quy trình bằng cách thiết lập khả năng ngắt quy trình tại bất kỳ thời điểm nào.
 ```csharp
@@ -62,7 +64,7 @@ void CreateWorkbookAndConvertItToPdfFormat()
 ```
 Đoạn mã trên tạo một bảng tính, thiết lập InterruptMonitor cho nó và đặt văn bản vào một ô xa (`J1000000`). Đặt văn bản tại vị trí ô này đảm bảo rằng việc xử lý sổ làm việc sẽ tốn nhiều thời gian hơn, giúp InterruptMonitor có đủ thời gian để can thiệp.
 ## Bước 4: Lưu Workbook dưới dạng PDF và Xử lý gián đoạn
- Bây giờ, chúng ta hãy thử lưu sổ làm việc dưới dạng PDF. Chúng ta sẽ sử dụng`try-catch` khối để xử lý bất kỳ sự gián đoạn nào có thể xảy ra.
+Bây giờ, chúng ta hãy thử lưu sổ làm việc dưới dạng PDF. Chúng ta sẽ sử dụng `try-catch` khối để xử lý bất kỳ sự gián đoạn nào có thể xảy ra.
 ```csharp
 try
 {
@@ -75,7 +77,7 @@ catch (Aspose.Cells.CellsException ex)
 ```
 Nếu quá trình bị gián đoạn, ngoại lệ sẽ bắt được và hiển thị thông báo phù hợp. Nếu không, sổ làm việc sẽ lưu dưới dạng PDF.
 ## Bước 5: Ngắt quá trình chuyển đổi
- Tính năng chính ở đây là khả năng ngắt quá trình. Chúng tôi sẽ thêm sự chậm trễ bằng cách sử dụng`Thread.Sleep` và sau đó gọi`Interrupt()` phương pháp dừng chuyển đổi sau 10 giây.
+Tính năng chính ở đây là khả năng ngắt quá trình. Chúng tôi sẽ thêm sự chậm trễ bằng cách sử dụng `Thread.Sleep` và sau đó gọi `Interrupt()` phương pháp dừng chuyển đổi sau 10 giây.
 ```csharp
 void WaitForWhileAndThenInterrupt()
 {
@@ -99,9 +101,9 @@ public void TestRun()
     t2.Join();
 }
 ```
- Mã ở trên chạy`CreateWorkbookAndConvertItToPdfFormat` Và`WaitForWhileAndThenInterrupt` trong các luồng song song, nối chúng lại sau khi cả hai tiến trình đã hoàn tất.
+Mã trên chạy `CreateWorkbookAndConvertItToPdfFormat` Và `WaitForWhileAndThenInterrupt` trong các luồng song song, nối chúng lại sau khi cả hai tiến trình đã hoàn tất.
 ## Bước 7: Thực hiện cuối cùng
- Cuối cùng, chúng ta sẽ thêm một`Run()` phương pháp thực thi mã.
+Cuối cùng, chúng ta sẽ thêm một `Run()` phương pháp thực thi mã.
 ```csharp
 public static void Run()
 {
@@ -109,7 +111,7 @@ public static void Run()
     Console.WriteLine("StopConversionOrLoadingUsingInterruptMonitor executed successfully.");
 }
 ```
- Cái này`Run` phương pháp là điểm vào để bắt đầu và quan sát sự gián đoạn trong hành động.
+Cái này `Run` phương pháp là điểm vào để bắt đầu và quan sát sự gián đoạn trong hành động.
 ## Phần kết luận
 Trong hướng dẫn này, chúng tôi đã khám phá cách ngắt quá trình chuyển đổi trong Aspose.Cells cho .NET. Interrupt Monitor là một công cụ hữu ích khi làm việc với các tệp Excel lớn, cho phép bạn dừng các quy trình mà không cần chờ chúng hoàn tất. Điều này đặc biệt hữu ích trong các tình huống mà thời gian và tài nguyên là quý giá và cần phản hồi nhanh.
 ## Câu hỏi thường gặp
@@ -120,13 +122,15 @@ Có, bạn cũng có thể ngắt quá trình chuyển đổi sang các định 
 ### Thread.Sleep() ảnh hưởng đến thời gian ngắt như thế nào?  
 Thread.Sleep() tạo ra độ trễ trước khi kích hoạt ngắt, cho thời gian để quá trình chuyển đổi bắt đầu.
 ### Tôi có thể ngắt quá trình trước 10 giây không?  
- Có, sửa đổi sự chậm trễ trong`WaitForWhileAndThenInterrupt()` đến một thời gian ngắn hơn.
+Có, sửa đổi sự chậm trễ trong `WaitForWhileAndThenInterrupt()` đến một thời gian ngắn hơn.
 ### Quá trình ngắt có ảnh hưởng đến hiệu suất không?  
 Tác động là rất nhỏ và rất có lợi cho việc quản lý các quy trình chạy lâu dài.
- Để biết thêm thông tin, hãy tham khảo[Tài liệu Aspose.Cells cho .NET](https://reference.aspose.com/cells/net/) . Nếu bạn cần trợ giúp, hãy kiểm tra[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)hoặc nhận được một[Dùng thử miễn phí](https://releases.aspose.com/).
+Để biết thêm thông tin, hãy tham khảo [Tài liệu Aspose.Cells cho .NET](https://reference.aspose.com/cells/net/). Nếu bạn cần trợ giúp, hãy kiểm tra [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) hoặc nhận được một [Dùng thử miễn phí](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

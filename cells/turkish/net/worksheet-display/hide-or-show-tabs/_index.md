@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sekmeleri Gizle veya Göster
-linktitle: Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sekmeleri Gizle veya Göster
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı, adım adım eğitimde Aspose.Cells for .NET'i kullanarak Excel sayfalarındaki sekmeleri nasıl gizleyeceğinizi veya göstereceğinizi öğrenin.
-weight: 17
-url: /tr/net/worksheet-display/hide-or-show-tabs/
+"description": "Bu kapsamlı, adım adım eğitimde Aspose.Cells for .NET'i kullanarak Excel sayfalarındaki sekmeleri nasıl gizleyeceğinizi veya göstereceğinizi öğrenin."
+"linktitle": "Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sekmeleri Gizle veya Göster"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sekmeleri Gizle veya Göster"
+"url": "/tr/net/worksheet-display/hide-or-show-tabs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells'i kullanarak Çalışma Sayfasındaki Sekmeleri Gizle veya Göster
@@ -22,7 +24,7 @@ Excel belgeleriyle çalıştıysanız, çalışma kitabının altındaki o küç
 Excel çalışma sayfanızdaki sekmeleri düzenlemeye başlamadan önce, her şeyin ayarlandığından emin olalım. İhtiyacınız olanlar şunlardır:
 
 1. .NET Framework: Bilgisayarınızda .NET Framework'ün (4.0 veya üzeri sürüm) yüklü olduğundan emin olun.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir.[buradan indirin](https://releases.aspose.com/cells/net/). Bir butona tıklamak kadar kolay!
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. [buradan indirin](https://releases.aspose.com/cells/net/). Bir butona tıklamak kadar kolay!
 3. Geliştirme Ortamı: C# kodunuzu yazıp test edebileceğiniz bir kod düzenleyici veya IDE (örneğin Visual Studio).
 4. Temel C# Bilgisi: C# programlamaya aşinalık faydalı olacaktır ancak yakından takip ederseniz kesinlikle gerekli değildir.
 
@@ -69,17 +71,17 @@ string dataDir = "Your Document Directory";  // Bunu dizin yolunuza güncelleyin
 
 ## Adım 2: Excel Dosyasını Açın
 
- Sonra, oynamak istediğimiz Excel dosyasını yüklememiz gerekiyor. Bir tane oluşturacağız`Workbook` nesneye dosya yolumuzu geçiriyoruz.
+Sonra, oynamak istediğimiz Excel dosyasını yüklememiz gerekiyor. Bir tane oluşturacağız `Workbook` nesneye dosya yolumuzu geçiriyoruz.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Şunu düşünün:`Workbook` sınıfı sihirli anahtarınız olarak kullanın — Excel dosyanızdaki tüm içeriklere açılan kapıyı açar!
+Şunu düşünün: `Workbook` Sınıfını sihirli anahtarınız olarak kullanın — Excel dosyanızdaki tüm içeriklere açılan kapıyı açar!
 
 ## Adım 3: Sekmeleri Gizleme
 
- İşte eğlence burada başlıyor! Sekmeleri gizlemek için, basitçe şu özelliği değiştirmeniz yeterli:`ShowTabs` . Bunu şu şekilde ayarlayın:`false`, bunun gibi:
+İşte eğlence burada başlıyor! Sekmeleri gizlemek için, basitçe şu özelliği değiştirmeniz yeterli: `ShowTabs`. Bunu şu şekilde ayarlayın: `false`, bunun gibi:
 
 ```csharp
 workbook.Settings.ShowTabs = false;
@@ -89,7 +91,7 @@ Bunu yaparak Excel'e, "Hey, o sekmeleri gizli tut!" diyorsunuz.
 
 ## Adım 4: Değişikliklerinizi Kaydetme
 
- Değişiklikleri yaptıktan sonra, değiştirilen çalışma kitabını kaydetmemiz gerekir.`Save` yeni bir dosya oluşturma yöntemi:
+Değişiklikleri yaptıktan sonra, değiştirilen çalışma kitabını kaydetmemiz gerekir. `Save` yeni bir dosya oluşturma yöntemi:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
@@ -120,16 +122,18 @@ Evet! Aspose.Cells çeşitli Excel formatlarını destekler, bu sayede sürümde
 Hayır, sekmeleri gizlemek yalnızca çalışma kitabınızın görsel görünümünü değiştirir; verileriniz bozulmadan kalır.
 
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
-Daha fazla özelliği şurada keşfedebilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/).
+Daha fazla özelliği şurada keşfedebilirsiniz: [belgeleme](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Kesinlikle! Birine erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) yeteneklerini keşfetmek için.
+Kesinlikle! Birine erişebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) yeteneklerini keşfetmek için.
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Bulunan özel destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Bulunan özel destek forumundan yardım alabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

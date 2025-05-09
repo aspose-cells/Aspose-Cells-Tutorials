@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ public class FontSubstitutionHandler {
 - **Αγορά και Άδεια Χρήσης:** Αποκτήστε την άδειά σας ή δοκιμάστε τη δωρεάν δοκιμαστική περίοδο μέσω [Αγορά Aspose](https://purchase.aspose.com/buy) ή [Δωρεάν δοκιμή Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

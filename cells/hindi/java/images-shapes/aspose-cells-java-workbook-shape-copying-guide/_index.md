@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ Aspose.Cells for Java का उपयोग विभिन्न परिद�
 - जहां संभव हो, आकार संचालनों को एक साथ समूहीकृत करके उनकी संख्या न्यूनतम करें, जिससे प्रसंस्करण समय और संसाधन खपत कम हो जाएगी।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

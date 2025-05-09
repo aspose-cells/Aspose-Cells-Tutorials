@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Esta función permite contraer o expandir un conjunto de filas.
     Worksheet worksheet = workbook.getWorksheets().get(0);
     Cells cells = worksheet.getCells();
     ```
-3. **Filas grupales**:Especifique el rango de filas y configure su visibilidad.
+3. **Filas grupales**:Especifique el rango de filas y establezca su visibilidad.
     ```java
     // Agrupar filas del índice 0 al 5, configurándolas como ocultas
     cells.groupRows(0, 5, true);
@@ -119,7 +121,7 @@ Esta característica funciona de manera similar a la agrupación por filas, pero
     // Agrupar columnas del índice 0 al 2, configurándolas como ocultas
     cells.groupColumns(0, 2, true);
     ```
-4. **Guardar cambios**:Guardar el libro de trabajo con modificaciones.
+4. **Guardar cambios**:Guardar el libro de trabajo con las modificaciones.
     ```java
     workbook.save("YOUR_DATA_DIRECTORY/GroupedColumns_out.xls");
     ```
@@ -195,6 +197,9 @@ Ahora puede agrupar filas y columnas, así como configurar las opciones de resum
 - **Documentación**: [Documentación de Java de Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

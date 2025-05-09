@@ -1,14 +1,16 @@
 ---
-title: Условное форматирование Excel
-linktitle: Условное форматирование Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как применять условное форматирование во время выполнения в Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство поможет разработчикам автоматизировать форматирование Excel.
-weight: 28
-url: /ru/net/excel-conditional-formatting/
+"description": "Узнайте, как применять условное форматирование во время выполнения в Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство поможет разработчикам автоматизировать форматирование Excel."
+"linktitle": "Условное форматирование Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Условное форматирование Excel"
+"url": "/ru/net/excel-conditional-formatting/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Условное форматирование Excel
@@ -21,16 +23,18 @@ url: /ru/net/excel-conditional-formatting/
 
 С Aspose.Cells для .NET применение условного форматирования невероятно просто. Вы можете создавать правила на основе значений ячеек, дат или даже пользовательских формул. Независимо от того, отмечаете ли вы просроченные задачи или выделяете целевые показатели продаж, эта функция может оживить ваши данные.
 
- Хотите изучить больше примеров? Погрузитесь в[применение условного форматирования во время выполнения в Excel](./applying-conditional-formatting-at-runtime/) руководство по освоению этой функции.
+Хотите изучить больше примеров? Погрузитесь в [применение условного форматирования во время выполнения в Excel](./applying-conditional-formatting-at-runtime/) руководство по освоению этой функции.
 
 
 
 ## Учебники по условному форматированию в Excel
 ### [Применение условного форматирования во время выполнения в Excel](./applying-conditional-formatting-at-runtime/)
 Узнайте, как применять условное форматирование во время выполнения в Excel с помощью Aspose.Cells для .NET, в этом подробном пошаговом руководстве.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

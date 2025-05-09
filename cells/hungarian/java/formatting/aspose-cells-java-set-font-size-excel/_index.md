@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Az Aspose.Cells for Java átfogó API-t biztosít az Excel-fájlok kezeléséhez
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 - **Ingyenes próbaverzió:** Ideiglenes licenc letöltése [itt](https://purchase.aspose.com/temporary-license/) hogy felfedezhesd az összes funkciót.
 - **Vásárlás:** A teljes hozzáférés érdekében érdemes megfontolni a licenc megvásárlását a hivatalos weboldalról.
 
@@ -190,6 +192,9 @@ Készen állsz arra, hogy a következő szintre emeld a képességeidet? Próbá
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

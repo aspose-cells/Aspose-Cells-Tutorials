@@ -1,14 +1,16 @@
 ---
-title: Tự động điều chỉnh hàng trong phạm vi cụ thể Aspose.Cells .NET
-linktitle: Tự động điều chỉnh hàng trong phạm vi cụ thể Aspose.Cells .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tự động điều chỉnh các hàng trong tệp Excel bằng Aspose.Cells cho .NET. Cải thiện cách trình bày dữ liệu của bạn một cách dễ dàng với hướng dẫn từng bước này.
-weight: 12
-url: /vi/net/row-column-autofit-conversion/autofit-row-specific-range/
+"description": "Tìm hiểu cách tự động điều chỉnh các hàng trong tệp Excel bằng Aspose.Cells cho .NET. Cải thiện cách trình bày dữ liệu của bạn một cách dễ dàng với hướng dẫn từng bước này."
+"linktitle": "Tự động điều chỉnh hàng trong phạm vi cụ thể Aspose.Cells .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tự động điều chỉnh hàng trong phạm vi cụ thể Aspose.Cells .NET"
+"url": "/vi/net/row-column-autofit-conversion/autofit-row-specific-range/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động điều chỉnh hàng trong phạm vi cụ thể Aspose.Cells .NET
@@ -19,7 +21,7 @@ Khi làm việc với các tệp Excel trong các ứng dụng .NET, việc qu�
 Trước khi đi sâu vào phần mã hóa, chúng ta hãy nhanh chóng xem qua các điều kiện tiên quyết để đảm bảo bạn có mọi thứ cần thiết để thực hiện một cách liền mạch:
 - Kiến thức cơ bản về C#: Bạn phải có hiểu biết cơ bản về lập trình C#.
 - Đã cài Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là IDE tuyệt vời cho phát triển .NET.
-- Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells cho .NET. Nếu bạn không có, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+- Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells cho .NET. Nếu bạn không có, bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy chuyển sang bước triển khai thực tế.
 ## Nhập gói
 Để bắt đầu, chúng ta cần đảm bảo rằng chúng ta nhập các không gian tên cần thiết. Đây là những điều quan trọng vì chúng cho phép chúng ta truy cập các lớp và phương thức do thư viện Aspose.Cells cung cấp. Sau đây là cách thực hiện:
@@ -67,7 +69,7 @@ Bây giờ đến phần thú vị nhất! Chúng ta sẽ tự động điều c
 ```csharp
 worksheet.AutoFitRow(1, 0, 5); // Tự động lắp hàng ghế thứ 3
 ```
-Bước này giống như việc may một bộ vest vừa vặn – bạn phải điều chỉnh cho đến khi vừa vặn hoàn hảo!
+Bước này giống như việc may một bộ vest vừa vặn – bạn cần phải điều chỉnh cho đến khi vừa vặn hoàn hảo!
 ## Bước 7: Lưu sổ làm việc
 Sau khi điều chỉnh chiều cao hàng, chúng ta cần lưu bảng tính đã sửa đổi để những thay đổi được duy trì.
 ```csharp
@@ -88,15 +90,17 @@ Aspose.Cells là một thư viện .NET mạnh mẽ để quản lý và thao t�
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
 Có, Aspose.Cells cung cấp bản dùng thử miễn phí cho phép bạn dùng thử các tính năng trước khi quyết định mua.
 ### Tôi có thể tìm thêm ví dụ ở đâu?  
- Bạn có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và hướng dẫn.
+Bạn có thể kiểm tra [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và hướng dẫn.
 ### Có cách nào để xin được giấy phép tạm thời không?  
- Chắc chắn rồi! Bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá đầy đủ khả năng của thư viện mà không có giới hạn.
+Chắc chắn rồi! Bạn có thể có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá đầy đủ khả năng của thư viện mà không có giới hạn.
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?  
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và chia sẻ hiểu biết với người dùng khác.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và chia sẻ hiểu biết với người dùng khác.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

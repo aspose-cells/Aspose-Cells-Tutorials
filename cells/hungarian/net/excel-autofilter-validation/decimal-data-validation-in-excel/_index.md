@@ -1,37 +1,39 @@
 ---
-title: Decimális adatok érvényesítése Excelben
-linktitle: Decimális adatok érvényesítése Excelben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel, hogyan valósíthatja meg a decimális adatok érvényesítését az Excelben az Aspose.Cells for .NET segítségével az egyszerűen követhető útmutatónkkal. Fokozatmentesen fokozza az adatok integritását.
-weight: 11
-url: /hu/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Ismerje meg, hogyan valósíthat meg decimális adatellenőrzést Excelben az Aspose.Cells for .NET használatával könnyen követhető útmutatónkkal. Növelje az adatok integritását erőfeszítés nélkül."
+"linktitle": "Decimális adatérvényesítés Excelben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Decimális adatérvényesítés Excelben"
+"url": "/hu/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Decimális adatok érvényesítése Excelben
+# Decimális adatérvényesítés Excelben
 
 ## Bevezetés
 
-A pontos adatokat tartalmazó táblázatok készítése elengedhetetlen az egyértelmű kommunikációhoz bármely vállalkozásban. Az adatok pontosságának biztosításának egyik módja az adatellenőrzés az Excelben. Ebben az oktatóanyagban az Aspose.Cells for .NET erejét fogjuk hasznosítani egy decimális adatellenőrzési mechanizmus létrehozásához, amely megbízhatóan és tisztán tartja adatait. Ha Excel játékot keres, jó helyen jár!
+A pontos adatokat tartalmazó táblázatok létrehozása elengedhetetlen a világos kommunikációhoz minden vállalkozásban. Az adatok pontosságának biztosításának egyik módja az adatérvényesítés használata az Excelben. Ebben az oktatóanyagban az Aspose.Cells for .NET erejét fogjuk kihasználni egy decimális adatérvényesítési mechanizmus létrehozásához, amely megbízhatóan és tisztán tartja az adatait. Ha szeretné fejleszteni Excel-tudását, jó helyen jár!
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, győződjön meg arról, hogy mindent beállított a zökkenőmentes vitorlázás élményéhez:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy mindent beállítottunk a zökkenőmentes működéshez:
 
-1. Visual Studio: Töltse le és telepítse a Visual Studio alkalmazást, ha még nem tette meg. Ez a tökéletes környezet .NET alkalmazások fejlesztéséhez.
-2.  Aspose.Cells for .NET: Aspose.Cells könyvtárat kell hozzáadnia a projekthez. keresztül töltheti le[ezt a linket](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismeretek: Bár mindent lépésről lépésre elmagyarázunk, a C# programozás alapvető ismeretei jobban megértik a fogalmakat.
-4. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a szükséges .NET-keretrendszer, amely kompatibilis az Aspose.Cells-szel.
-5. Könyvtárak: A fordítási hibák elkerülése érdekében hivatkozzon az Aspose.Cells könyvtárra a projektben.
+1. Visual Studio: Töltsd le és telepítsd a Visual Studio alkalmazást, ha még nem tetted meg. Ez a tökéletes környezet .NET alkalmazások fejlesztéséhez.
+2. Aspose.Cells .NET-hez: A projektedhez hozzá kell adni az Aspose.Cells könyvtárat. Letöltheted innen: [ezt a linket](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: Bár mindent lépésről lépésre elmagyarázunk, a C# programozás alapvető ismerete jobb megértést biztosít a fogalmak terén.
+4. .NET-keretrendszer: Győződjön meg arról, hogy telepítve van a szükséges, az Aspose.Cells-szel kompatibilis .NET-keretrendszer.
+5. Könyvtárak: A fordítási hibák elkerülése érdekében hivatkozz az Aspose.Cells könyvtárra a projektedben.
 
-Most, hogy áttekintettük az alapokat, ugorjunk az izgalmas részre: a kódolásra.
+Most, hogy az alapokkal tisztában vagyunk, térjünk át az izgalmas részre: a kódolásra.
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges csomagokat a C# fájlba. Ez lehetővé teszi az Aspose.Cells funkciók elérését.
+Kezdéshez importálnod kell a szükséges csomagokat a C# fájlodba. Ez lehetővé teszi az Aspose.Cells funkcióinak elérését.
 
 ```csharp
 using System.IO;
@@ -39,21 +41,21 @@ using Aspose.Cells;
 using System;
 ```
 
-Ha ezt a sort a fájl tetejére helyezi, akkor azt mondja a C#-nak, hogy keresse az Aspose.Cells funkciót, amely lehetővé teszi az Excel-fájlok kezelését.
+Ha ezt a sort a fájl elejére illeszted, azzal arra utasítod a C#-ot, hogy keresse meg az Aspose.Cells funkciót, amely lehetővé teszi az Excel fájlok kezelését.
 
-Most, hogy készen állunk, menjünk végig a decimális adatok érvényesítésének Excel-munkalapon történő létrehozásához szükséges lépéseken.
+Most, hogy előkészítettük a terepet, nézzük meg a decimális adatellenőrzés Excel-munkalapban történő létrehozásához szükséges lépéseket.
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-A fájlok mentése előtt meg kell győződnie arról, hogy a dokumentumkönyvtár megfelelően van beállítva:
+Mielőtt bármilyen fájlt mentene, győződjön meg arról, hogy a dokumentumkönyvtár megfelelően van beállítva:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"` azzal az elérési úttal, ahová menteni szeretné az Excel fájljait.
+Csere `"Your Document Directory"` azzal az elérési úttal, ahová menteni szeretné az Excel-fájlokat.
 
-## 2. lépés: Ellenőrizze a címtár meglétét
+## 2. lépés: A címtár létezésének ellenőrzése
 
 Ez a kódrészlet ellenőrzi, hogy létezik-e a könyvtár, és létrehozza, ha nem:
 
@@ -63,42 +65,42 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Ez a lépés olyan, mintha egy új projekt elindítása előtt megbizonyosodna arról, hogy a munkaterülete készen áll. Nincs rendetlenség, nincs stressz!
+Ez a lépés olyan, mintha egy új projekt elkezdése előtt ellenőriznéd, hogy a munkaterületed készen áll-e. Nincs rendetlenség, nincs stressz!
 
-## 3. lépés: Hozzon létre egy munkafüzet-objektumot
+## 3. lépés: Munkafüzet-objektum létrehozása
 
-Ezután hozzunk létre egy új munkafüzet objektumot, amely lényegében egy Excel fájl:
+Következő lépésként hozzunk létre egy új munkafüzet-objektumot, amely lényegében egy Excel-fájl:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Gondoljon a munkafüzetre úgy, mint egy üres vászonra az adatok számára. Jelenleg nincs tartalom, de készen áll a festésre.
+Gondoljon a munkafüzetre úgy, mint egy üres vászonra az adatai számára. Ezen a ponton még nincs tartalma, de készen áll a festésre.
 
 ## 4. lépés: A munkalap létrehozása és elérése
 
 
-Most hozzunk létre egy munkalapot, és érjük el a munkafüzet első lapját:
+Most hozzunk létre egy munkalapot, és nyissuk meg a munkafüzet első lapját:
 
 ```csharp
 Worksheet ExcelWorkSheet = workbook.Worksheets[0];
 ```
 
-Ahogy egy könyvnek több oldala van, a munkafüzetnek is több munkalapja lehet. Jelenleg az elsőre koncentrálunk.
+Ahogy egy könyvnek is több oldala van, úgy egy munkafüzetnek is lehet több munkalapja. Jelenleg az elsővel foglalkozunk.
 
-## 5. lépés: Szerezze be az érvényesítési gyűjteményt
+## 5. lépés: A validációs gyűjtemény beszerzése
 
-Most húzzuk ki az érvényesítési gyűjteményt a munkalapról, mivel itt kezeljük az adatérvényesítési szabályokat:
+Most hívjuk elő az érvényesítési gyűjteményt a munkalapról, mivel itt fogjuk kezelni az adatérvényesítési szabályainkat:
 
 ```csharp
 ValidationCollection validations = ExcelWorkSheet.Validations;
 ```
 
-Ez a lépés hasonló az eszköztár ellenőrzéséhez a projekt elindítása előtt.
+Ez a lépés ahhoz hasonlít, mintha a projekt megkezdése előtt átnéznéd az eszköztárat.
 
-## 6. lépés: Határozza meg az érvényesítéshez szükséges cellaterületet
+## 6. lépés: Az érvényesítéshez tartozó cellaterület meghatározása
 
-Meg kell határoznunk azt a területet, ahol az érvényesítés vonatkozik:
+Meg kell határoznunk azt a területet, ahol az érvényesítés érvényes:
 
 ```csharp
 CellArea ca = new CellArea();
@@ -108,62 +110,62 @@ ca.StartColumn = 0;
 ca.EndColumn = 0;
 ```
 
-Itt azt írjuk elő, hogy az adatellenőrzés egyetlen cellára vonatkozik – pontosabban a munkalap első cellájára (A1).
+Itt azt adjuk meg, hogy az adatérvényesítést egyetlen cellára alkalmazzuk – konkrétan a munkalap első cellájára (A1).
 
 ## 7. lépés: Érvényesítés létrehozása és hozzáadása
 
-Hozzuk létre az érvényesítési objektumunkat, és adjuk hozzá az érvényesítési gyűjteményhez:
+Hozzuk létre a validációs objektumunkat, és adjuk hozzá a validációs gyűjteményhez:
 
 ```csharp
 Validation validation = validations[validations.Add(ca)];
 ```
 
-Most van egy érvényesítési objektum, amelyet úgy fogunk konfigurálni, hogy érvényesítse a decimális feltételeinket.
+Most van egy validációs objektumunk, amelyet úgy fogunk konfigurálni, hogy érvényesítse a decimális feltételeket.
 
-## 8. lépés: Állítsa be az érvényesítés típusát
+## 8. lépés: Az érvényesítési típus beállítása
 
-Ezután meghatározzuk a kívánt érvényesítés típusát:
+Ezután meghatározzuk a kívánt validáció típusát:
 
 ```csharp
 validation.Type = ValidationType.Decimal;
 ```
 
-A típus Decimális értékre állításával arra utasítjuk az Excelt, hogy decimális értékeket várjon az ellenőrzött cellában.
+típus Decimálisra állításával arra utasítjuk az Excelt, hogy decimális értékeket várjon az érvényesített cellában.
 
-## 9. lépés: Adja meg a kezelőt
+## 9. lépés: Az operátor megadása
 
-Most megadjuk a megengedett értékek feltételét. Biztosítani szeretnénk, hogy a megadott adatok két tartomány közé esjenek:
+Most megadjuk a megengedett értékek feltételét. Biztosítani szeretnénk, hogy a beírt adatok két tartomány közé essenek:
 
 ```csharp
 validation.Operator = OperatorType.Between;
 ```
 
-Tekintsd úgy, mint egy határvonalat. Az ezen a tartományon kívül eső számokat a rendszer elutasítja, így az adatok tisztán maradnak!
+Gondolj rá úgy, mintha egy határvonalat húznál. Minden, ezen a tartományon kívül eső számot elutasít a rendszer, így az adatod tiszta marad!
 
-## 10. lépés: Határozzon meg korlátokat az érvényesítéshez
+## 10. lépés: Határozza meg az érvényesítés határait
 
-Ezután beállítjuk az érvényesítés alsó és felső határát:
+Ezután beállítjuk az érvényesítés alsó és felső határértékeit:
 
 ```csharp
 validation.Formula1 = Decimal.MinValue.ToString();
 validation.Formula2 = Decimal.MaxValue.ToString();
 ```
 
-Ezekkel a korlátokkal minden tizedes számot elfogadunk, legyen az kicsi vagy nagy, mindaddig, amíg érvényes!
+Ezekkel a korlátokkal minden tizedesjegy, függetlenül attól, hogy milyen nagy vagy kicsi, elfogadott, feltéve, hogy érvényes!
 
 ## 11. lépés: A hibaüzenet testreszabása
 
-Egy hibaüzenet hozzáadásával biztosítsuk, hogy a felhasználók tudják, miért utasították el bevitelüket:
+Biztosítsuk a felhasználókat arról, hogy miért utasították el a bemenetüket egy hibaüzenet hozzáadásával:
 
 ```csharp
 validation.ErrorMessage = "Please enter a valid integer or decimal number";
 ```
 
-Ez felhasználóbarát élményhez vezet, mivel útmutatást ad a bevitelhez.
+Ez felhasználóbarát élményt nyújt, mivel útmutatást nyújt a bevitelhez.
 
-## 12. lépés: Határozza meg az érvényesítési területet
+## 12. lépés: Az érvényesítési terület meghatározása
 
-Most határozzuk meg azokat a cellákat, amelyek ezt az érvényesítést viselik:
+Most határozzuk meg azokat a cellákat, amelyek ezt az érvényesítést tartalmazni fogják:
 
 ```csharp
 CellArea area;
@@ -173,52 +175,54 @@ area.StartColumn = 0;
 area.EndColumn = 0;
 ```
 
-Ebben a konfigurációban azt mondjuk, hogy az érvényesítés az A1-től A10-ig terjed.
+Ebben a konfigurációban azt mondjuk, hogy az érvényesítés az A1-től az A10-es celláig érvényes.
 
 ## 13. lépés: Adja hozzá az érvényesítési területet
 
-Most, hogy meghatároztuk az érvényesítési területünket, alkalmazzuk:
+Most, hogy definiáltuk az érvényesítési területet, alkalmazzuk is:
 
 ```csharp
 validation.AddArea(area);
 ```
 
-Az érvényesítés most már szilárdan a helyén van, készen áll a nem megfelelő bevitelek észlelésére!
+Az érvényesítésed most már szilárdan a helyén van, készen áll a nem megfelelő bevitelek kiszűrésére!
 
-## 14. lépés: Mentse el a munkafüzetet
+## 14. lépés: A munkafüzet mentése
 
-Végül mentsük el a munkafüzetet a decimális adatok érvényesítésével:
+Végül mentsük el a munkafüzetet a decimális adatellenőrzéssel:
 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-És megvan! Sikeresen létrehozott egy munkafüzetet decimális adatok érvényesítésével az Aspose.Cells for .NET használatával.
+És íme! Sikeresen létrehoztál egy decimális adatérvényesítéssel rendelkező munkafüzetet az Aspose.Cells for .NET használatával.
 
 ## Következtetés
 
-A decimális adatok érvényesítésének végrehajtása Excelben az Aspose.Cells for .NET használatával gyerekjáték, ha követi ezeket az egyszerű lépéseket. Nemcsak arról gondoskodik, hogy az adatok tiszták és strukturáltak maradjanak, hanem javítja a táblázatok általános adatintegritását is, így azok megbízhatóak és felhasználóbarátok.
-Legyen szó pénzügyről, projektmenedzsmentről vagy bármilyen adatjelentést használó területről, ezen készségek elsajátítása jelentősen növeli termelékenységét. Szóval hajrá, próbáld ki! A táblázatai hálásak lesznek érte.
+Az Aspose.Cells for .NET használatával az Excelben a decimális adatérvényesítés megvalósítása gyerekjáték, ha követi ezeket az egyszerű lépéseket. Nemcsak azt biztosítja, hogy az adatok tiszták és strukturáltak maradjanak, hanem javítja a táblázatok általános adatintegritását is, így azok megbízhatóak és felhasználóbarátak lesznek.
+Akár pénzügyben, projektmenedzsmentben vagy bármilyen olyan területen dolgozol, amely adatelemzést alkalmaz, ezeknek a készségeknek az elsajátítása jelentősen növelni fogja a termelékenységedet. Szóval próbáld ki! A táblázataid hálásak lesznek érte.
 
 ## GYIK
 
-### Mi az adatellenőrzés az Excelben?
-Az adatellenőrzés az Excelben egy olyan szolgáltatás, amely korlátozza az adott cellába vagy tartományba beírható adatok típusát, így biztosítva az adatok integritását.
+### Mi az adatérvényesítés az Excelben?
+Az Excelben az adatérvényesítés egy olyan funkció, amely korlátozza az adott cellába vagy tartományba beírható adatok típusát, biztosítva az adatok integritását.
 
 ### Testreszabhatom a hibaüzenetet az adatellenőrzés során?
-Igen! Egyéni hibaüzeneteket biztosíthat, amelyek útmutatást nyújtanak a felhasználók számára, ha helytelen adatbevitelt végeznek.
+Igen! Egyéni hibaüzeneteket adhat meg, amelyek segítenek a felhasználóknak helytelen adatbevitel esetén.
 
-### Az Aspose.Cells ingyenesen használható?
- Az Aspose.Cells ingyenes próbaverziót kínál, de a hosszú távú használathoz licencre lesz szüksége. Az ideiglenes engedély megszerzéséről további információkat talál[itt](https://purchase.aspose.com/temporary-license/).
+### Ingyenesen használható az Aspose.Cells?
+Az Aspose.Cells ingyenes próbaverziót kínál, de hosszú távú használathoz licencre lesz szükséged. További információt az ideiglenes licenc beszerzéséről itt találsz. [itt](https://purchase.aspose.com/temporary-license/).
 
-### Milyen adattípusokat ellenőrizhetek Excelben?
-Az Aspose.Cells segítségével különféle adattípusokat ellenőrizhet, beleértve az egész számokat, a tizedesjegyeket, a dátumokat, a listákat és az egyéni képleteket.
+### Milyen adattípusokat tudok validálni az Excelben?
+Az Aspose.Cells segítségével különféle adattípusokat validálhatsz, beleértve az egész számokat, tizedesjegyeket, dátumokat, listákat és egyéni képleteket.
 
 ### Hol találok további Aspose.Cells dokumentációt?
- Megtekintheti a kiterjedt dokumentációt[itt](https://reference.aspose.com/cells/net/).
+Böngészheted a kiterjedt dokumentációt [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

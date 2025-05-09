@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ En este tutorial, aprendiste a proteger tus libros de Excel con Aspose.Cells par
    - Sí, Aspose.Cells admite una amplia gama de formatos de archivos de Excel, incluidas versiones anteriores como `.xls` otros más nuevos como `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

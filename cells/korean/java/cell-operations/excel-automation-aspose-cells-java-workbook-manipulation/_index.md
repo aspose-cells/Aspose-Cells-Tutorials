@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ import com.aspose.cells.LookAtType;
 import com.aspose.cells.LookInType;
 FindOptions options = new FindOptions();
 options.setLookInType(LookInType.ORIGINAL_VALUES); // 원래 셀 값을 확인하세요
-options.setLookAtType(LookAtType.ENTIRE_CONTENT); // 셀의 전체 내용을 일치시킵니다.
+options.setLookAtType(LookAtType.ENTIRE_CONTENT); // 셀의 전체 내용을 일치시킵니다
 ```
 
 **3. 검색 작업 수행:**
@@ -204,6 +206,9 @@ Excel 자동화 기술을 한 단계 업그레이드할 준비가 되셨나요? 
    - 네, 사용 중 `FindOptions` 원래 값을 보도록 구성하면 이러한 검색을 수행할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

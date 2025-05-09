@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 ### Điều kiện tiên quyết về kiến thức
 - Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với hệ thống xây dựng Maven hoặc Gradle nếu bạn dự định sử dụng chúng để quản lý phụ thuộc.
+- Làm quen với hệ thống xây dựng Maven hoặc Gradle nếu bạn dự định sử dụng chúng để quản lý phụ thuộc.
 
 ## Thiết lập Aspose.Cells cho Java
 
@@ -217,6 +219,9 @@ Sẵn sàng để tìm hiểu sâu hơn? Hãy thử triển khai các giải ph�
 Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

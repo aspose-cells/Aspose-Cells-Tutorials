@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - 프로젝트에서 Java용 Aspose.Cells 설정하기
 - Excel 스프레드시트에 연결된 그림 삽입.
 - 최적의 성능을 위한 주요 구성 옵션.
-- 구현 중에 흔히 발생하는 문제를 해결합니다.
+- 구현 중에 발생하는 일반적인 문제를 해결합니다.
 
 이 튜토리얼을 따라가는 데 필요한 전제 조건부터 시작해 보겠습니다!
 
@@ -172,6 +174,9 @@ Aspose.Cells for Java를 사용하여 웹 주소에서 링크된 그림을 Excel
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

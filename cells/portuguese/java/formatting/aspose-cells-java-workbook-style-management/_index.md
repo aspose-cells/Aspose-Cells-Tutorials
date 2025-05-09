@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ R5: O objeto HtmlSaveOptions configura como os arquivos do Excel são salvos com
 Seguindo este tutorial, você estará bem equipado para aproveitar o Aspose.Cells para Java em seus projetos, aumentando a produtividade e a eficiência. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

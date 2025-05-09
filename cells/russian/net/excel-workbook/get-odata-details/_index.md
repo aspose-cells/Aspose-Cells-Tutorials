@@ -1,14 +1,16 @@
 ---
-title: Получить подробности Odata
-linktitle: Получить подробности Odata
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как извлечь данные OData из Excel с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве.
-weight: 110
-url: /ru/net/excel-workbook/get-odata-details/
+"description": "Узнайте, как извлечь данные OData из Excel с помощью Aspose.Cells для .NET в этом подробном пошаговом руководстве."
+"linktitle": "Получить подробности Odata"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Получить подробности Odata"
+"url": "/ru/net/excel-workbook/get-odata-details/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить подробности Odata
@@ -22,7 +24,7 @@ url: /ru/net/excel-workbook/get-odata-details/
 Прежде чем мы погрузимся в код, давайте убедимся, что у вас есть все необходимое для прохождения этого урока. Вот что вам понадобится:
 
 1. Visual Studio: Убедитесь, что у вас установлена Visual Studio. Это идеальная среда для разработки .NET.
-2. Библиотека Aspose.Cells: Загрузите и установите библиотеку Aspose.Cells для .NET с сайта[Страница загрузок Aspose](https://releases.aspose.com/cells/net/) . Вы также можете попробовать бесплатную пробную версию от[здесь](https://releases.aspose.com/).
+2. Библиотека Aspose.Cells: Загрузите и установите библиотеку Aspose.Cells для .NET с сайта [Страница загрузок Aspose](https://releases.aspose.com/cells/net/). Вы также можете попробовать бесплатную пробную версию от [здесь](https://releases.aspose.com/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понять нюансы кода.
 4. Пример файла Excel: в этом руководстве мы будем использовать файл Excel с именем «ODataSample.xlsx», который должен храниться в вашем рабочем каталоге.
 
@@ -30,7 +32,7 @@ url: /ru/net/excel-workbook/get-odata-details/
 
 ## Импортные пакеты
 
-Давайте начнем наше путешествие по кодированию с импорта необходимых пакетов в наш проект. Эти пакеты предоставят необходимые классы и методы для работы с OData в Aspose.Cells.
+Давайте начнем наше путешествие по кодированию, импортировав необходимые пакеты в наш проект. Эти пакеты предоставят необходимые классы и методы для работы с OData в Aspose.Cells.
 
 ### Создать новый проект C#
 
@@ -50,7 +52,7 @@ url: /ru/net/excel-workbook/get-odata-details/
 
 ### Включить необходимые пространства имен
 
- После завершения установки вам нужно будет добавить необходимые пространства имен в верхнюю часть вашего`Program.cs` файл:
+После завершения установки вам нужно будет добавить необходимые пространства имен в верхнюю часть вашего `Program.cs` файл:
 
 ```csharp
 using Aspose.Cells.QueryTables;
@@ -63,7 +65,7 @@ using System;
 
 ## Шаг 1: Настройте рабочую тетрадь
 
- На этом начальном этапе вы создадите экземпляр`Workbook` класс и загрузите ваш файл Excel:
+На этом начальном этапе вы создадите экземпляр `Workbook` класс и загрузите ваш файл Excel:
 
 ```csharp
 // Установите исходный каталог
@@ -105,7 +107,7 @@ foreach (PowerQueryFormula PQF in PQFcoll)
 
 ## Шаг 4: Выполнение и проверка
 
- Наконец, вам нужно убедиться, что код работает правильно и возвращает ожидаемый результат. Добавьте следующую строку в конец вашего`Main` метод:
+Наконец, вам нужно убедиться, что код работает правильно и возвращает ожидаемый результат. Добавьте следующую строку в конец вашего `Main` метод:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -129,13 +131,15 @@ Aspose.Cells — это библиотека .NET, которая позволя
 Формулы Power Query позволяют пользователям связывать, объединять и преобразовывать данные из различных источников в Excel.
 
 ### Как я могу получить поддержку по Aspose.Cells?
- Вы можете посетить[Форум Aspose](https://forum.aspose.com/c/cells/9) за поддержку и помощь обществу.
+Вы можете посетить [Форум Aspose](https://forum.aspose.com/c/cells/9) за поддержку и помощь обществу.
 
 ### Где я могу купить Aspose.Cells?
- Вы можете приобрести Aspose.Cells у них[страница покупки](https://purchase.aspose.com/buy).
+Вы можете приобрести Aspose.Cells у них [страница покупки](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đặt tiêu đề và trục trong biểu đồ
-linktitle: Đặt tiêu đề và trục trong biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách đặt tiêu đề và trục trong biểu đồ bằng Aspose.Cells cho .NET với hướng dẫn từng bước này, kèm theo các ví dụ mã và mẹo.
-weight: 15
-url: /vi/net/setting-chart-appearance/set-titles-and-axes-in-chart/
+"description": "Tìm hiểu cách đặt tiêu đề và trục trong biểu đồ bằng Aspose.Cells cho .NET với hướng dẫn từng bước này, kèm theo các ví dụ mã và mẹo."
+"linktitle": "Đặt tiêu đề và trục trong biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đặt tiêu đề và trục trong biểu đồ"
+"url": "/vi/net/setting-chart-appearance/set-titles-and-axes-in-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt tiêu đề và trục trong biểu đồ
@@ -23,7 +25,7 @@ Trước khi đi sâu vào hướng dẫn từng bước, hãy đảm bảo bạ
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên hệ thống của mình để phát triển các ứng dụng .NET.
 2. .NET Framework: Đảm bảo bạn đang sử dụng .NET Framework 4.0 trở lên.
-3.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy nó tại[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy nó tại [liên kết tải xuống](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi thoải mái hơn.
 
 Sau khi đã chuẩn bị đầy đủ những thứ trên, chúng ta hãy bắt đầu nhập các gói cần thiết và tạo biểu đồ Excel đầu tiên nhé!
@@ -68,7 +70,7 @@ Tiếp theo, chúng ta cần truy cập vào bảng tính để nhập dữ li�
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Bằng cách sử dụng chỉ số`0`, chúng ta đang truy cập vào trang tính đầu tiên có trong sổ làm việc của mình.
+Bằng cách sử dụng chỉ số `0`, chúng ta đang truy cập vào trang tính đầu tiên có trong sổ làm việc của mình.
 
 ## Bước 3: Thêm dữ liệu mẫu
 
@@ -212,16 +214,18 @@ Aspose.Cells là một thư viện mạnh mẽ cho phép bạn tạo và thao t�
 Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau bao gồm biểu đồ cột, biểu đồ thanh, biểu đồ đường, biểu đồ tròn và nhiều loại khác.
 
 ### Có phiên bản miễn phí của Aspose.Cells không?
- Có, bạn có thể dùng thử Aspose.Cells miễn phí thông qua[liên kết dùng thử](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells miễn phí thông qua [liên kết dùng thử](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện tại[Trang tham khảo Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện tại [Trang tham khảo Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể nhận được sự hỗ trợ của cộng đồng tại[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ của cộng đồng tại [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

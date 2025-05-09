@@ -1,28 +1,30 @@
 ---
-title: Ustaw opcje drukowania w programie Excel
-linktitle: Ustaw opcje drukowania w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak ustawić opcje drukowania w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 150
-url: /pl/net/excel-page-setup/set-excel-print-options/
+"description": "Dowiedz się, jak ustawić opcje drukowania w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Ustaw opcje drukowania w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw opcje drukowania w programie Excel"
+"url": "/pl/net/excel-page-setup/set-excel-print-options/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw opcje drukowania w programie Excel
 
 ## Wstęp
 
-Czy jesteś zmęczony prezentowaniem arkuszy Excela, które wyglądają niedbale po wydrukowaniu? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzymy się w świat Aspose.Cells dla .NET, solidnej biblioteki, która pozwala programistom na łatwe tworzenie, manipulowanie i drukowanie arkuszy kalkulacyjnych Excela. W tym samouczku skupimy się na ustawianiu opcji drukowania w dokumencie Excela. Wyobraź sobie: stworzyłeś idealny arkusz kalkulacyjny wypełniony cennymi danymi, wykresami i spostrzeżeniami, ale gdy przychodzi do drukowania, wygląda on nijako i nieprofesjonalnie. Wyeliminujmy ten problem i dowiedzmy się, jak bez wysiłku przygotować dokumenty do druku! 
+Czy jesteś zmęczony prezentowaniem arkuszy Excela, które wyglądają niedbale po wydrukowaniu? Cóż, jesteś we właściwym miejscu! Dzisiaj zanurzamy się w świat Aspose.Cells dla .NET, solidnej biblioteki, która pozwala programistom na łatwe tworzenie, manipulowanie i drukowanie arkuszy kalkulacyjnych Excela. W tym samouczku skupimy się na ustawianiu opcji drukowania w dokumencie Excela. Wyobraź sobie: stworzyłeś idealny arkusz kalkulacyjny wypełniony cennymi danymi, wykresami i spostrzeżeniami, ale gdy przychodzi do drukowania, wygląda on nijako i nieprofesjonalnie. Wyeliminujmy ten problem i dowiedzmy się, jak bez wysiłku przygotować dokumenty do druku! 
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby kontynuować pracę:
 
 1. Visual Studio lub dowolne środowisko IDE .NET: będziesz potrzebować niezawodnego środowiska programistycznego.
-2. Biblioteka Aspose.Cells dla .NET: Upewnij się, że zainstalowałeś tę bibliotekę; możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Upewnij się, że zainstalowałeś tę bibliotekę; możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość koncepcji programowania w języku C# pomoże Ci poruszać się po przykładach, które omówimy.
 4. .NET Framework: Upewnij się, że Twój projekt jest przeznaczony dla wersji .NET obsługującej Aspose.Cells.
    
@@ -62,18 +64,18 @@ Teraz zabierzmy się do roboty i zanurzmy się w kodzie! Przejdziemy przez ustaw
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
-Pierwszy krok polega na określeniu, gdzie będzie się znajdował plik Excel. Zamiast kodować ścieżki na stałe w całym kodzie, zachowajmy porządek i ład.
+Pierwszy krok polega na określeniu, gdzie będzie się znajdował plik Excel. Zamiast zakodować ścieżki na stałe w całym kodzie, zachowajmy porządek i ład.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik Excela. Pomyśl o tym jak o ustawieniu przestrzeni roboczej przed rozpoczęciem projektu!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać plik Excela. Pomyśl o tym jak o ustawieniu przestrzeni roboczej przed rozpoczęciem projektu!
 
 ## Krok 2: Utwórz wystąpienie skoroszytu
 
- Następnie musimy utworzyć`Workbook` obiekt. Ten obiekt działa jako kontener dla danych arkusza kalkulacyjnego.
+Następnie musimy utworzyć `Workbook` obiekt. Ten obiekt działa jako kontener dla danych arkusza kalkulacyjnego.
 
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
@@ -84,7 +86,7 @@ Tutaj po prostu tworzymy nowy skoroszyt. Wyobraź sobie, że wyciągasz czystą 
 
 ## Krok 3: Uzyskaj dostęp do ustawień strony
 
- Aby kontrolować sposób drukowania arkusza programu Excel, należy uzyskać dostęp do`PageSetup` Właściwość arkusza kalkulacyjnego.
+Aby kontrolować sposób drukowania arkusza programu Excel, należy uzyskać dostęp do `PageSetup` Właściwość arkusza kalkulacyjnego.
 
 ```csharp
 // Uzyskanie odniesienia do PageSetup arkusza kalkulacyjnego
@@ -152,19 +154,21 @@ Gratulacje! Teraz jesteś wyposażony w umiejętności ustawiania opcji drukowan
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca manipulowanie plikami Excela i zarządzanie nimi.
 
 ### Czy mogę otrzymać bezpłatną wersję próbną Aspose.Cells?  
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Cells[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Cells [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?  
- Możesz poprosić o tymczasową licencję za pośrednictwem tego[połączyć](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję za pośrednictwem tego [połączyć](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć pomoc lub wsparcie dotyczące Aspose.Cells?  
- Odwiedź forum Aspose, aby uzyskać pomoc[Tutaj](https://forum.aspose.com/c/cells/9).
+Odwiedź forum Aspose, aby uzyskać pomoc [Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Czy Aspose.Cells nadaje się do dużych plików Excela?  
 Oczywiście! Aspose.Cells jest zaprojektowany do wydajnego obsługiwania dużych plików Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

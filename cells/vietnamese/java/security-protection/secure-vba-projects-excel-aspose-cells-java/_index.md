@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Bao gồm điều này trong `build.gradle` tài liệu:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Các bước xin cấp giấy phép:
+#### Các bước xin cấp phép:
 - **Dùng thử miễn phí**:Bắt đầu bằng bản dùng thử miễn phí để kiểm tra chức năng.
 - **Giấy phép tạm thời**: Nộp đơn xin cấp giấy phép tạm thời để đánh giá không giới hạn.
 - **Mua**: Để sử dụng lâu dài, hãy mua giấy phép thương mại.
@@ -212,6 +214,9 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến cách tải sổ 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

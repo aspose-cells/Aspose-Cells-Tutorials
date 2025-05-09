@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@ Aspose.Cells for Java를 사용하여 Excel 테이블을 조작하는 방법을 
 ### [Aspose.Cells Java를 사용하여 Excel 표를 범위로 변환: 단계별 가이드](./convert-excel-tables-ranges-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 표를 범위로 자동 변환하는 방법을 알아보세요. 효율적인 데이터 관리를 위한 이 종합 가이드를 참고하세요.
 
-### [Java용 Aspose.Cells를 사용하여 Excel에서 명명된 범위 만들기 및 스타일 지정: 완전한 가이드](./create-style-named-range-excel-aspose-cells-java/)
+### [Aspose.Cells for Java를 사용하여 Excel에서 명명된 범위 만들기 및 스타일 지정: 완전한 가이드](./create-style-named-range-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel에서 명명된 범위를 만들고 스타일을 지정하는 방법을 알아보세요. 이 단계별 가이드를 통해 데이터 관리를 더욱 효율적으로 개선하세요.
 
 ### [Java에서 Aspose.Cells를 사용한 Excel 쿼리 테이블 관리 마스터하기: 종합 가이드](./excel-query-table-management-aspose-cells-java/)
@@ -66,6 +68,9 @@ Aspose.Cells와 Java를 함께 사용하여 Excel 스프레드시트에서 지�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

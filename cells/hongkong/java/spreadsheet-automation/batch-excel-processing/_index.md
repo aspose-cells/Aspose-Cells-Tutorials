@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 批量 Excel 處理
@@ -109,9 +111,11 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    探索 API 文件 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 以獲得深入的資訊和範例。
 
 使用 Aspose.Cells for Java 優化您的批次 Excel 處理任務並提高工作效率。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

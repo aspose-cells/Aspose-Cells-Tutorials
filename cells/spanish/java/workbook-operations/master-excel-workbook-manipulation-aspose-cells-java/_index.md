@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ import com.aspose.cells.Workbook;
 
 public class AsposeCellsSetup {
     public static void main(String[] args) {
-        // Crear una instancia de un nuevo objeto Workbook
+        // Crear una instancia de un nuevo objeto de libro de trabajo
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java is set up and ready!");
@@ -237,6 +239,9 @@ En esta guía, exploramos los fundamentos del uso de Aspose.Cells para Java para
    - Utilice Maven o Gradle para incluirlo en su proyecto directamente desde el repositorio.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

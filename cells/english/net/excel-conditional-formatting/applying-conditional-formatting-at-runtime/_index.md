@@ -8,7 +8,9 @@ url: /net/excel-conditional-formatting/applying-conditional-formatting-at-runtim
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Conditional Formatting at Runtime in Excel
@@ -162,6 +164,7 @@ Yes, a license is required for commercial use, but you can request a temporary l
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

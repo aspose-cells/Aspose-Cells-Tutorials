@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Aspose.Cells는 무료 평가판 라이선스를 제공하며, 이는 다음에�
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **기본 초기화**: 생성하다 `Workbook` Excel 파일 작업을 시작하는 인스턴스입니다.
+3. **기본 초기화**생성하다 `Workbook` Excel 파일 작업을 시작하는 인스턴스입니다.
 
 ## 구현 가이드
 
@@ -153,7 +155,7 @@ Aspose.Cells 기능을 더 자세히 알아보려면 색상 및 글꼴과 같은
 4. **데이터 레이블 모양을 기본값으로 되돌릴 수 있는 방법이 있나요?**
    - 세트 `DataLabelShapeType.DEFAULT` 변경 사항을 되돌리려면.
 5. **통합 문서의 여러 차트에 이 사용자 지정을 적용하려면 어떻게 해야 하나요?**
-   - 워크시트의 차트 컬렉션 내 각 차트 개체를 반복하고 수정 사항을 적용합니다.
+   - 워크시트의 차트 컬렉션 내의 각 차트 개체를 반복하고 수정 사항을 적용합니다.
 
 ## 자원
 
@@ -166,6 +168,9 @@ Aspose.Cells 기능을 더 자세히 알아보려면 색상 및 글꼴과 같은
 이 종합 가이드를 통해 Aspose.Cells를 사용하여 Java 애플리케이션에서 차트 데이터 레이블을 효과적으로 사용자 지정하는 방법을 익힐 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

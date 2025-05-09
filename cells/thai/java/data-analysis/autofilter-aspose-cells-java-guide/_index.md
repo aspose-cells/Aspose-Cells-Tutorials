@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@
   
 - **การตั้งค่าสภาพแวดล้อม:** ตรวจสอบให้แน่ใจว่าได้ติดตั้ง JDK ที่เข้ากันได้ (JDK 8 หรือสูงกว่า)
 
-- **ข้อกำหนดเบื้องต้นของความรู้:** แนะนำให้มีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการดำเนินการไฟล์ Excel เพื่อการเรียนรู้ที่มีประสิทธิภาพ
+- **ข้อกำหนดความรู้เบื้องต้น:** แนะนำให้มีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการดำเนินการไฟล์ Excel เพื่อการเรียนรู้ที่มีประสิทธิภาพ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -201,6 +203,9 @@ for(int i=0; i<rowIndices.length; i++) {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

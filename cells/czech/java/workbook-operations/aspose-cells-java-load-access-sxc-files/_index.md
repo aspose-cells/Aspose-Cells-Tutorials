@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells umí číst soubory s povolenými makry, ale spouštění maker vy�
 Dodržováním tohoto komplexního průvodce jste nyní připraveni efektivně pracovat se soubory SXC pomocí Aspose.Cells pro Javu. Ať už jste vývojář, který chce vylepšit své aplikace, nebo organizace, která se snaží zefektivnit úlohy zpracování dat, Aspose.Cells nabízí nástroje potřebné k bezproblémovému dosažení těchto cílů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

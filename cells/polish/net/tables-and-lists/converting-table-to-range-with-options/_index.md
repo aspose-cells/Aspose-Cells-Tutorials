@@ -1,14 +1,16 @@
 ---
-title: Konwertuj tabelę na zakres z opcjami
-linktitle: Konwertuj tabelę na zakres z opcjami
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Łatwo konwertuj tabele na zakresy w programie Excel za pomocą Aspose.Cells dla .NET ze wskazówkami krok po kroku. Udoskonal swoje umiejętności manipulowania danymi w programie Excel.
-weight: 14
-url: /pl/net/tables-and-lists/converting-table-to-range-with-options/
+"description": "Łatwo konwertuj tabele na zakresy w programie Excel za pomocą Aspose.Cells dla .NET ze wskazówkami krok po kroku. Udoskonal swoje umiejętności manipulowania danymi w programie Excel."
+"linktitle": "Konwertuj tabelę na zakres z opcjami"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konwertuj tabelę na zakres z opcjami"
+"url": "/pl/net/tables-and-lists/converting-table-to-range-with-options/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj tabelę na zakres z opcjami
@@ -16,18 +18,18 @@ url: /pl/net/tables-and-lists/converting-table-to-range-with-options/
 ## Wstęp
 Jeśli chodzi o programową pracę z plikami Excela, solidna biblioteka, taka jak Aspose.Cells dla .NET, może całkowicie odmienić Twoje podejście do obsługi danych. Niezależnie od tego, czy jesteś programistą, który chce tworzyć, manipulować lub konwertować pliki Excela, zrozumienie, jak konwertować tabele na zakresy, jest podstawową umiejętnością, którą będziesz chciał opanować. W tym artykule zagłębimy się w szczegóły konwersji tabeli na normalny zakres w Excelu przy użyciu biblioteki Aspose.Cells. 
 ## Wymagania wstępne
-Zanim przejdziemy do samouczka, musisz skonfigurować kilka warunków wstępnych. Oto, co powinieneś mieć:
+Zanim przejdziemy do samouczka, musisz skonfigurować kilka wymagań wstępnych. Oto, co powinieneś mieć:
 1. Podstawowa wiedza programistyczna: Znajomość języka C# i platformy .NET pomoże Ci skutecznie zrozumieć fragmenty kodu.
-2.  Biblioteka Aspose.Cells dla .NET: Pobierz bibliotekę ze strony[Tutaj](https://releases.aspose.com/cells/net/). 
+2. Biblioteka Aspose.Cells dla .NET: Pobierz bibliotekę ze strony [Tutaj](https://releases.aspose.com/cells/net/). 
 3. Visual Studio: Dobre środowisko IDE, takie jak Visual Studio, zainstalowane w systemie, umożliwi Ci pisanie i testowanie kodu.
-4.  Plik Excela z tabelą: Przygotuj plik Excela (np.`book1.xlsx`) gdzie wykonasz konwersję.
+4. Plik Excela z tabelą: Przygotuj plik Excela (np. `book1.xlsx`) gdzie wykonasz konwersję.
 A teraz przejdźmy od razu do sedna sprawy!
 ## Importuj pakiety
 Zanim zaczniemy pisać właściwy kod, musimy się upewnić, że zaimportowaliśmy wszystkie niezbędne przestrzenie nazw. Oto, jak możemy to zrobić:
 ### Otwórz swoje środowisko programistyczne
 Najpierw najważniejsze! Otwórz Visual Studio lub inne preferowane IDE, aby pisać aplikacje .NET. 
 ### Utwórz nowy projekt
- Utwórz nowy projekt aplikacji konsoli C#. Nazwij go w odpowiedni sposób, np.`ConvertTableToRangeExample`.
+Utwórz nowy projekt aplikacji konsoli C#. Nazwij go w odpowiedni sposób, np. `ConvertTableToRangeExample`.
 ### Dodaj odniesienie Aspose.Cells
 Musisz odwołać się do biblioteki Aspose.Cells w swoim projekcie. Jeśli zainstalowałeś ją za pomocą NuGet, po prostu wyszukaj Aspose.Cells i zainstaluj ją. Jeśli pobierasz ręcznie, upewnij się, że biblioteka DLL jest odwołana w Twoim projekcie.
 ```csharp
@@ -37,7 +39,7 @@ using Aspose.Cells;
 using Aspose.Cells.Tables;
 ```
 ### Przygotuj plik Excel
- Upewnij się, że wypełniłeś swoje`book1.xlsx` plik z przykładową tabelą w pierwszym arkuszu. Może to być prosta lista zawierająca pewne dane.
+Upewnij się, że wypełniłeś swoje `book1.xlsx` plik z przykładową tabelą w pierwszym arkuszu. Może to być prosta lista zawierająca pewne dane.
 Teraz gdy wszystko mamy już skonfigurowane, możemy przekonwertować tabelę do normalnego zakresu.
 ## Krok 1: Zdefiniuj katalog dokumentów
 Pierwszym krokiem jest określenie, gdzie znajduje się Twój dokument. Jest to kluczowe, ponieważ biblioteka będzie potrzebowała ścieżki dostępu do pliku Excel.
@@ -61,7 +63,7 @@ Tutaj dzieje się magia! Używając naszych wstępnie zdefiniowanych opcji, prze
 workbook.Worksheets[0].ListObjects[0].ConvertToRange(options);
 ```
 ## Krok 5: Zapisz zmiany
-Po zakończeniu konwersji musimy zapisać zmiany z powrotem do pliku Excel. W tym przykładzie utworzymy nowy plik Excel o nazwie`output.xlsx`.
+Po zakończeniu konwersji musimy zapisać zmiany z powrotem do pliku Excel. W tym przykładzie utworzymy nowy plik Excel o nazwie `output.xlsx`.
 ```csharp
 workbook.Save(dataDir + "output.xlsx");
 ```
@@ -83,10 +85,12 @@ Chociaż możesz pobrać bezpłatną wersję próbną, aby przetestować jej fun
 ### Czy Aspose.Cells jest łatwy w użyciu dla początkujących?
 Oczywiście! Dzięki bogatej dokumentacji i licznym przykładom początkujący mogą szybko przyzwyczaić się do korzystania z biblioteki.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- W serwisie znajdziesz bogactwo wiedzy, możesz zadawać pytania i wchodzić w interakcje ze społecznością.[Forum Aspose](https://forum.aspose.com/c/cells/9).
+W serwisie znajdziesz bogactwo wiedzy, możesz zadawać pytania i wchodzić w interakcje ze społecznością. [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

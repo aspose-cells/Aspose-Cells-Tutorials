@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,6 +162,9 @@ A: Sisteminizde yeterli bellek olduğundan emin olun ve sorunları önlemek içi
 Herhangi bir sorunla karşılaşırsanız veya daha fazla sorunuz varsa destek forumundan bize ulaşmaktan çekinmeyin. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

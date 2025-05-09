@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Series aSeries = nSeries.get(0);
 aSeries.getSeriesLines().setStyle(LineType.DOT);
 aSeries.getMarker().setMarkerStyle(ChartMarkerType.TRIANGLE);
 
-// Dopasowanie grubości linii dla innej serii
+// Dopasowanie grubości linii do innej serii
 aSeries = nSeries.get(1);
 aSeries.getSeriesLines().setWeight(WeightType.MEDIUM_LINE);
 ```
@@ -220,6 +222,9 @@ Jako następny krok rozważ eksplorację bardziej zaawansowanych typów wykresó
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

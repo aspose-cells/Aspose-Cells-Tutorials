@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Licencbeszerzés lépései
 - **Ingyenes próbaverzió**Kezdje egy ingyenes próbalicenccel az Aspose.Cells tesztelését.
-- **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
 - **Vásárlás**Éles használatra előfizetést kell vásárolni.
 
 ### Alapvető inicializálás és beállítás
@@ -181,6 +183,9 @@ Az útmutató követésével jó úton haladsz az Aspose.Cells Java-beli haszná
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

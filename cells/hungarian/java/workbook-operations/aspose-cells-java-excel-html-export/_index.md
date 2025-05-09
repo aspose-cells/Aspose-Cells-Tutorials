@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,10 +170,13 @@ Ebben az oktatóanyagban megtanultad, hogyan használhatod ki az Aspose.Cells fo
 
 ## Erőforrás
 - **Dokumentáció:** Tudjon meg többet a [Aspose.Cells dokumentációs oldal](https://reference.aspose.com/cells/java/).
-- **Letöltési könyvtár:** Szerezd meg a legújabb verziót innen: [Az Aspose letöltési oldala](https://releases.aspose.com/cells/java/).
+- **Könyvtár letöltése:** Szerezd meg a legújabb verziót innen: [Az Aspose letöltési oldala](https://releases.aspose.com/cells/java/).
 - **Licenc vásárlása:** Fedezze fel a licencelési lehetőségeket itt: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/data-validation-rules/conditional-data-validation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conditional Data Validation
@@ -116,6 +118,7 @@ While Aspose.Cells for Java provides robust data validation features, it's essen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

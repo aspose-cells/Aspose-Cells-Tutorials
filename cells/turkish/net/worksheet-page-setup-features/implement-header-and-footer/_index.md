@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasında Üstbilgi ve Altbilgiyi Uygula
-linktitle: Çalışma Sayfasında Üstbilgi ve Altbilgiyi Uygula
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında üstbilgi ve altbilgilerin nasıl ayarlanacağını adım adım eğitim, pratik örnekler ve faydalı ipuçlarıyla öğrenin.
-weight: 22
-url: /tr/net/worksheet-page-setup-features/implement-header-and-footer/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında üstbilgi ve altbilgilerin nasıl ayarlanacağını adım adım eğitim, pratik örnekler ve faydalı ipuçlarıyla öğrenin."
+"linktitle": "Çalışma Sayfasında Üstbilgi ve Altbilgiyi Uygula"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasında Üstbilgi ve Altbilgiyi Uygula"
+"url": "/tr/net/worksheet-page-setup-features/implement-header-and-footer/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasında Üstbilgi ve Altbilgiyi Uygula
@@ -21,11 +23,11 @@ Excel elektronik tablolarıyla çalışırken, başlıklar ve altbilgiler, dosya
 
 Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
-1.  Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir.[Buradan indirin](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. [Buradan indirin](https://releases.aspose.com/cells/net/).
 2. IDE Kurulumu: .NET framework yüklü Visual Studio (veya tercih ettiğiniz IDE).
-3.  Lisans: Ücretsiz denemeye başlayabilirsiniz, ancak tam veya geçici bir lisans edinmeniz Aspose.Cells'in tüm potansiyelini ortaya çıkaracaktır.[Geçici bir lisans alın](https://purchase.aspose.com/temporary-license/).
+3. Lisans: Ücretsiz denemeye başlayabilirsiniz, ancak tam veya geçici bir lisans edinmeniz Aspose.Cells'in tüm potansiyelini ortaya çıkaracaktır. [Geçici bir lisans alın](https://purchase.aspose.com/temporary-license/).
 
-Aspose.Cells belgeleri bu süreç boyunca başvurulabilecek kullanışlı bir kaynaktır. Bunu bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Aspose.Cells için dokümantasyon, bu süreç boyunca başvurulabilecek kullanışlı bir kaynaktır. Bunu bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 
 ## Paketleri İçe Aktarma
 
@@ -53,19 +55,19 @@ string dataDir = "Your Document Directory";
 Workbook excel = new Workbook();
 ```
 
- Burada bir tane oluşturduk`Workbook` Excel dosyamızı temsil eden nesne.`PageSetup` Çalışma sayfasının üst bilgi ve alt bilgi seçeneklerini değiştirebileceğimiz kısmıdır.
+Burada bir tane oluşturduk `Workbook` Excel dosyamızı temsil eden nesne. `PageSetup` Çalışma sayfasının üst bilgi ve alt bilgi seçeneklerini değiştirebileceğimiz kısmıdır.
 
 
 ## Adım 2: Çalışma Sayfası ve Sayfa Düzeni Özelliklerine Erişim
 
- Aspose.Cells'de her çalışma sayfasının bir`PageSetup`Başlıklar ve altbilgiler dahil olmak üzere düzen özelliklerini kontrol eden özellik. Hadi başlayalım`PageSetup` Çalışma sayfamız için bir nesne.
+Aspose.Cells'de her çalışma sayfasının bir `PageSetup` Başlıklar ve altbilgiler dahil olmak üzere düzen özelliklerini kontrol eden özellik. Hadi başlayalım `PageSetup` Çalışma sayfamız için bir nesne.
 
 ```csharp
 // İlk çalışma sayfasının PageSetup referansını edinin
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 ```
 
- Bununla birlikte,`pageSetup` Artık başlık ve altbilgileri özelleştirmek için gereken tüm ayarları barındırıyor.
+Bununla birlikte, `pageSetup` Artık başlık ve altbilgileri özelleştirmek için gereken tüm ayarları barındırıyor.
 
 
 ## Adım 3: Başlığın Sol Bölümünü Ayarlayın
@@ -77,7 +79,7 @@ Excel'deki başlıklar üç bölüme ayrılır: sol, orta ve sağ. Çalışma sa
 pageSetup.SetHeader(0, "&A");
 ```
 
- Kullanarak`&A` çalışma sayfası adını dinamik olarak görüntülemenize olanak tanır. Bu, özellikle bir çalışma kitabında birden fazla sayfanız varsa ve her başlığın sayfa başlığını yansıtmasını istiyorsanız yararlıdır.
+Kullanarak `&A` çalışma sayfası adını dinamik olarak görüntülemenize olanak tanır. Bu, özellikle bir çalışma kitabında birden fazla sayfanız varsa ve her başlığın sayfa başlığını yansıtmasını istiyorsanız yararlıdır.
 
 
 ## Adım 4: Başlığın Merkezine Tarih ve Saat Ekleyin
@@ -90,7 +92,7 @@ pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
 Bu kodda:
-- `&D`geçerli tarihi ekler.
+- `&D` geçerli tarihi ekler.
 - `&T` geçerli saati ekler.
 - `"Times New Roman,Bold"` Bu öğelere Times New Roman koyu yazı tipi uygulanır.
 
@@ -117,7 +119,7 @@ Altbilgilere geçiyoruz! Sol altbilgi bölümünü özel metin ve belirtilen bir
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- The`&\"Courier New\"&14` Yukarıdaki koddaki ayar, belirtilen metne 14 punto büyüklüğünde "Courier New" yazı tipini uygular (`123`). Metnin geri kalanı varsayılan altbilgi yazı tipinde kalır.
+The `&\"Courier New\"&14` Yukarıdaki koddaki ayar, belirtilen metne 14 punto büyüklüğünde "Courier New" yazı tipini uygular (`123`). Metnin geri kalanı varsayılan altbilgi yazı tipinde kalır.
 
 
 ## Adım 7: Sayfa Numarasını Altbilginin Ortasına Ekleyin
@@ -129,7 +131,7 @@ Sayfa numaralarını alt bilgiye eklemek, okuyucuların çok sayfalı belgeleri 
 pageSetup.SetFooter(1, "&P");
 ```
 
- Burada,`&P` geçerli sayfa numarasını altbilginin orta bölümüne ekler. Küçük bir ayrıntıdır, ancak profesyonel görünümlü belgeler için önemlidir.
+Burada, `&P` geçerli sayfa numarasını altbilginin orta bölümüne ekler. Küçük bir ayrıntıdır, ancak profesyonel görünümlü belgeler için önemlidir.
 
 
 ## Adım 8: Sağ Alt Bilgi Bölümünde Toplam Sayfa Sayısını Göster
@@ -166,19 +168,21 @@ Excel çalışma sayfalarına başlık ve altbilgi eklemek, düzenli ve profesyo
 Evet, .NET için Aspose.Cells, belirli yazı tipi etiketlerini kullanarak başlık ve altbilginin her bölümü için yazı tiplerini belirtmenize olanak tanır.
 
 ### Üstbilgi ve altbilgileri nasıl kaldırabilirim?  
- Başlık veya altbilgi metnini boş bir dizeye ayarlayarak başlıkları ve altbilgileri temizleyebilirsiniz.`SetHeader` veya`SetFooter`.
+Başlık veya altbilgi metnini boş bir dizeye ayarlayarak başlıkları ve altbilgileri temizleyebilirsiniz. `SetHeader` veya `SetFooter`.
 
 ### Aspose.Cells for .NET ile başlıklara veya altbilgilere resim ekleyebilir miyim?  
-Şu anda Aspose.Cells öncelikli olarak başlıklarda ve altbilgilerde metinleri destekler. Görüntüler, çalışma sayfasının kendisine görüntü eklemek gibi bir geçici çözüm gerektirebilir.
+Şu anda Aspose.Cells öncelikli olarak başlık ve altbilgilerdeki metni destekler. Görüntüler, çalışma sayfasının kendisine görüntü eklemek gibi geçici bir çözüm gerektirebilir.
 
 ### Aspose.Cells başlık ve altbilgilerde dinamik verileri destekliyor mu?  
- Evet, çeşitli dinamik kodlar kullanabilirsiniz (örneğin`&D` tarih veya`&P` (sayfa numarası için) dinamik içerik eklemek için.
+Evet, çeşitli dinamik kodları kullanabilirsiniz (örneğin `&D` tarih veya `&P` (sayfa numarası için) dinamik içerik eklemek için.
 
 ### Üstbilgi veya altbilgi yüksekliğini nasıl ayarlayabilirim?  
- Aspose.Cells, içinde seçenekler sunar`PageSetup` Başlık ve altbilgi kenar boşluklarını ayarlayarak aralıklar üzerinde kontrol sahibi olmanızı sağlayan sınıf.
+Aspose.Cells, aşağıdakiler içinde seçenekler sunar: `PageSetup` Başlık ve altbilgi kenar boşluklarını ayarlayarak aralıklar üzerinde kontrol sahibi olmanızı sağlayan sınıf.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

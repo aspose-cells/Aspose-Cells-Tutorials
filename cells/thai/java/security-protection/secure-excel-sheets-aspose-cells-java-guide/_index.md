@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ excel.save(outDir + "/AdvancedProtection_out.xls");
    - ใช่ครับ ใช้ `worksheet.unprotect("password")` ด้วยรหัสผ่านที่ถูกต้อง
 
 **3. มีวิธีปรับแต่งตัวเลือกการป้องกันตามบทบาทของผู้ใช้หรือไม่**
-   - แม้ว่า Aspose.Cells จะไม่รองรับการอนุญาตตามบทบาทโดยตรง แต่คุณสามารถตั้งค่าการป้องกันที่แตกต่างกันตามเงื่อนไขในแอปพลิเคชัน Java ได้โดยทางโปรแกรม
+   - แม้ว่า Aspose.Cells จะไม่รองรับการอนุญาตตามบทบาทโดยตรง แต่คุณสามารถตั้งค่าการป้องกันที่แตกต่างกันตามเงื่อนไขในแอปพลิเคชัน Java ของคุณได้โดยทางโปรแกรม
 
 **4. จะเกิดอะไรขึ้นหากฉันต้องการบันทึกสมุดงานในรูปแบบอื่นที่ไม่ใช่ Excel XP?**
    - ใช้ `excel.save(outDir + "/output.xlsx", SaveFormat.XLSX)` สำหรับรูปแบบทันสมัยเช่น XLSX
@@ -174,6 +176,9 @@ excel.save(outDir + "/AdvancedProtection_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

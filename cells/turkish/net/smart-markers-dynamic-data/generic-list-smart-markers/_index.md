@@ -1,14 +1,16 @@
 ---
-title: Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells
-linktitle: Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akıllı İşaretleyiciler ile .NET için Aspose.Cells'i öğrenin. Geliştiriciler için kolay kılavuz.
-weight: 20
-url: /tr/net/smart-markers-dynamic-data/generic-list-smart-markers/
+"description": "Dinamik Excel raporlarını zahmetsizce oluşturmak için Genel Listeler ve Akıllı İşaretleyiciler ile .NET için Aspose.Cells'i öğrenin. Geliştiriciler için kolay kılavuz."
+"linktitle": "Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells"
+"url": "/tr/net/smart-markers-dynamic-data/generic-list-smart-markers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Akıllı İşaretleyicilerde Genel Listeyi Kullanın Aspose.Cells
@@ -20,7 +22,7 @@ Koda dalmadan önce, neye ihtiyacınız olacağına kısaca bir bakalım:
 ### C# Temel Bilgisi
 C# ve sınıflar ve nesnelerle nasıl çalışılacağı konusunda temel bir anlayışa sahip olmalısınız. Nesne yönelimli programlamayla canlıysanız, zaten doğru yoldasınız.
 ### .NET için Aspose.Cells Yüklendi
- .NET projenizde Aspose.Cells'in yüklü olduğundan emin olun. Kütüphaneyi şuradan indirebilirsiniz:[Aspose Web Sitesi](https://releases.aspose.com/cells/net/). 
+.NET projenizde Aspose.Cells'in yüklü olduğundan emin olun. Kütüphaneyi şuradan indirebilirsiniz: [Aspose Web Sitesi](https://releases.aspose.com/cells/net/). 
 ### Visual Studio Ortamı
 Makinenizde Visual Studio'nun kurulu olması çok önemlidir. C# kodunuzu yazacağınız en yaygın geliştirme ortamıdır.
 ### Bir Şablon Dosyası
@@ -36,9 +38,9 @@ using System.Collections.Generic;
 ```
 Bu ad alanları, Excel dosyalarıyla çalışmak ve hücrelere stil vermek için gereken işlevleri sağlayacaktır.
 ## Adım 1: Sınıflarınızı Tanımlayın
-Öncelikle ilk şeyler! Tanımlamamız gerekiyor`Person` Ve`Teacher` sınıflar. İşte nasıl:
+Öncelikle ilk şeyler! Tanımlamamız gerekiyor `Person` Ve `Teacher` sınıflar. İşte nasıl:
 ### Kişi Sınıfını Tanımlayın
- The`Person` Sınıf, isim ve yaş gibi temel nitelikleri taşıyacak.
+The `Person` Sınıf, isim ve yaş gibi temel nitelikleri taşıyacak.
 ```csharp
 public class Person
 {
@@ -65,7 +67,7 @@ public class Person
 }
 ```
 ### Öğretmen Sınıfını Tanımlayın
- Sıradaki`Teacher` sınıftan miras alan`Person` sınıf. Bu sınıf, öğrencilerin bir listesini daha da kapsayacaktır.
+Sıradaki `Teacher` sınıftan miras alan `Person` sınıf. Bu sınıf, öğrencilerin bir listesini daha da kapsayacaktır.
 ```csharp
 public class Teacher : Person
 {
@@ -114,7 +116,7 @@ flag.All = true;
 range.ApplyStyle(style, flag);
 ```
 ## Adım 5: Öğretmen ve Öğrenci Örneklerini Oluşturun
- Şimdi, örneklerimizi oluşturalım`Teacher` Ve`Person` sınıfları oluşturun ve bunları verilerle doldurun:
+Şimdi, örneklerimizi oluşturalım `Teacher` Ve `Person` sınıfları oluşturun ve bunları verilerle doldurun:
 ```csharp
 System.Collections.Generic.List<Teacher> list = new System.Collections.Generic.List<Teacher>();
 // İlk öğretmen nesnesini oluştur
@@ -125,7 +127,7 @@ h1.Students = new List<Person>
     new Person("Jamima Winfrey", 18),
     new Person("Reham Smith", 15)
 };
-//İkinci öğretmen nesnesini oluştur
+// İkinci öğretmen nesnesini oluştur
 Teacher h2 = new Teacher("Masood Shankar", 40);
 h2.Students = new List<Person>
 {
@@ -163,15 +165,17 @@ Aspose.Cells, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosyaları ol
 ### Aspose.Cells'i diğer dosya formatları için kullanabilir miyim?
 Evet! Aspose, PDF, Word ve diğer formatlar için kütüphaneler sunarak belge yönetimi için çok yönlülük sağlar.
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Ücretsiz denemeye şuradan başlayabilirsiniz:[Burada](https://releases.aspose.com/), ancak üretim amaçlı kullanım için ücretli lisansa ihtiyaç vardır.
+Ücretsiz denemeye şuradan başlayabilirsiniz: [Burada](https://releases.aspose.com/), ancak üretim amaçlı kullanım için ücretli lisansa ihtiyaç vardır.
 ### Akıllı Markerlar Nedir?
 Akıllı İşaretleyiciler, Aspose.Cells tarafından işlendiğinde gerçek verilerle değiştirilen Excel şablonlarındaki yer tutuculardır.
 ### Aspose.Cells büyük veri kümeleri için uygun mudur?
 Kesinlikle! Aspose.Cells performans için optimize edilmiştir ve bu sayede büyük veri kümelerini verimli bir şekilde işleyebilir.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,12 +146,15 @@ Aspose.Cells Java가 다중 인코딩 CSV 파일 처리를 어떻게 간소화�
 - **다운로드**: [Java 릴리스용 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [무료 체험판 시작하기](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 포럼 지원](https://forum.aspose.com/c/cells/9)
 
 지금 Aspose.Cells로 여정을 시작하고 복잡한 데이터를 효율적으로 처리하는 기술을 익혀보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-display/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Worksheet Display
@@ -78,9 +80,11 @@ Learn how to remove panes from worksheets using Aspose.Cells for .NET in this co
 Learn how to split worksheet panes using Aspose.Cells for .NET in a step-by-step guide. Perfect for improved data analysis and view customization.
 ### [Apply Zoom Factor to Worksheet](./apply-zoom-factor/)
 Learn to adjust the zoom factor of Excel worksheets using Aspose.Cells for .NET. Step-by-step guide for improved readability and data presentation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

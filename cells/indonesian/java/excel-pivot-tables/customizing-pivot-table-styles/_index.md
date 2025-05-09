@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyesuaikan Gaya Tabel Pivot
@@ -18,14 +20,14 @@ Tabel pivot merupakan alat yang ampuh untuk meringkas dan menganalisis data dala
 
 ## Memulai
 
-Sebelum menyesuaikan gaya tabel pivot, pastikan Anda telah mengintegrasikan pustaka Aspose.Cells for Java ke dalam proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum menyesuaikan gaya tabel pivot, pastikan Anda telah mengintegrasikan pustaka Aspose.Cells for Java ke dalam proyek Anda. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Tabel Pivot
 
 Untuk mulai menyesuaikan gaya, Anda memerlukan tabel pivot. Berikut ini contoh dasar pembuatannya:
 
 ```java
-// Membuat contoh buku kerja
+// Munkafüzet példányosítása
 Workbook workbook = new Workbook();
 
 // Akses lembar kerja
@@ -57,7 +59,7 @@ Setelah menyesuaikan gaya, terapkan ke tabel pivot:
 pivotTable.setStyleType(StyleType.PIVOT_TABLE_STYLE_LIGHT_16);
 ```
 
-## Langkah 4: Simpan Buku Kerja
+## 4. lépés: A munkafüzet mentése
 
 Jangan lupa untuk menyimpan buku kerja Anda untuk melihat tabel pivot yang disesuaikan:
 
@@ -65,7 +67,7 @@ Jangan lupa untuk menyimpan buku kerja Anda untuk melihat tabel pivot yang dises
 workbook.save("output.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Menyesuaikan gaya tabel pivot di Aspose.Cells untuk API Java mudah dan memungkinkan Anda membuat laporan dan presentasi data yang memukau secara visual. Bereksperimenlah dengan berbagai gaya dan buat tabel pivot Anda menonjol.
 
@@ -87,9 +89,11 @@ Menyesuaikan gaya tabel pivot di Aspose.Cells untuk API Java mudah dan memungkin
    Anda dapat merujuk ke dokumentasi API di [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/) untuk informasi lebih rinci.
 
 Sekarang Anda memiliki pengetahuan untuk membuat dan menyesuaikan gaya tabel pivot di Aspose.Cells untuk Java. Jelajahi lebih jauh dan buat presentasi data Anda benar-benar luar biasa!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

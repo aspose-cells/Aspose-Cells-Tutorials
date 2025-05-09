@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Innan du implementerar Aspose.Cells för Java, se till att du har följande:
 - Din utvecklingsmiljö bör vara konfigurerad för att köra Java-applikationer (JDK installerat).
 - En IDE som IntelliJ IDEA, Eclipse eller NetBeans hjälper till med kodning och felsökning.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Kunskap om att hantera sökvägar till filer i Java-applikationer.
 
@@ -194,6 +196,9 @@ Redo att testa det? Börja implementera dessa steg idag och förvandla din Excel
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

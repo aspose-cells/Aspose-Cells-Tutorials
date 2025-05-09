@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ Utforska fler funktioner i Aspose.Cells och experimentera med olika filtreringsa
 
 Vi uppmuntrar dig att [försök att implementera den här lösningen](https://releases.aspose.com/cells/java/) i dina egna projekt och se hur det effektiviserar dina datahanteringsuppgifter!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Hur kan jag filtrera bort celler som inte är tomma istället?**
    - Använda `matchNonBlanks` metod för att rikta in sig på icke-tomma celler.
@@ -193,6 +195,9 @@ Genom att följa den här guiden kan du tryggt implementera filtrering av tomma 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

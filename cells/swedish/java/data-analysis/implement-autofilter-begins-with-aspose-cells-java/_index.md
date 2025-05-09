@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Lär dig hur du använder autofiltret 'Begins With' i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar installation, konfiguration och praktiska exempel."
+"description": "Lär dig hur du använder autofiltret \"Börjar med\" i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar installation, konfiguration och praktiska exempel."
 "title": "Implementera AutoFilter 'Börjar med' i Excel med hjälp av Aspose.Cells Java"
 "url": "/sv/java/data-analysis/implement-autofilter-begins-with-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Se till att Java är installerat på ditt system. Dessutom behöver du Aspose.Ce
 ### Krav för miljöinstallation:
 En lokal eller molnbaserad utvecklingsmiljö är nödvändig för att skriva och exekvera din kod. En IDE som IntelliJ IDEA eller Eclipse kommer att vara till hjälp.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 Grundläggande förståelse för Java-programmering och vana vid Excel-operationer rekommenderas.
 
 ## Konfigurera Aspose.Cells för Java
@@ -99,7 +101,7 @@ Definiera cellområdet som filtret ska tillämpas på. Detta hjälper till att b
 worksheet.getAutoFilter().setRange("A1:A18");
 ```
 
-### Tillämpa filtret "Börjar med"
+### Använda filtret "Börjar med"
 
 För att filtrera rader baserat på en sträng som börjar med specifika tecken, använd `custom` metod.
 
@@ -127,7 +129,7 @@ worksheet.getAutoFilter().refresh();
 Spara slutligen din modifierade Excel-fil för att behålla ändringarna:
 
 ```java
-// Spara den ändrade Excel-filen
+// Spara den modifierade Excel-filen
 workbook.save(outDir + "outSourceSampleCountryNames.xlsx");
 ```
 
@@ -187,6 +189,9 @@ För mer detaljerad information och ytterligare resurser:
 Med den här guiden är du väl rustad för att börja använda Aspose.Cells i dina Java-applikationer. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

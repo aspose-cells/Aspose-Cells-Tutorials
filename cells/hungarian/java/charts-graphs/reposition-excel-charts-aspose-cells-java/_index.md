@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licencszerzés
 Az Aspose.Cells használata előtt érdemes lehet korlátozás nélküli teljes hozzáférést biztosító licencet beszerezni:
 - **Ingyenes próbaverzió**: Tesztelje a funkciókat egy ingyenes próbaverzióval a következő címen: [Aspose](https://releases.aspose.com/cells/java/).
-- **Ideiglenes engedély**Ideiglenes jogosítvány beszerzése a következőn keresztül: [Az Aspose vásárlási oldala](https://purchase.aspose.com/temporary-license/).
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [Az Aspose vásárlási oldala](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás**Hosszú távú használat esetén érdemes lehet teljes licencet vásárolni a következő címen: [Aspose](https://purchase.aspose.com/buy).
 
 ### Alapvető inicializálás
@@ -135,11 +137,11 @@ workbook.save(outDir + "/CCPosition_out.xls");
 ```
 - `outDir`: A kimeneti könyvtár elérési útja.
 - `.save(String filePath)`: A munkafüzetet egy megadott fájlba menti.
-**Magyarázat**A `save` A metódus biztosítja, hogy minden módosítás visszakerüljön egy Excel-fájlba, így az később felhasználható vagy terjeszthető.
+**Magyarázat**A `save` A metódus biztosítja, hogy minden módosítás visszakerüljön egy Excel-fájlba, így az elérhetővé válik további felhasználásra vagy terjesztésre.
 
 ## Gyakorlati alkalmazások
 ### Használati esetek
-1. **Pénzügyi jelentéstétel**: A diagramok áthelyezése a pénzügyi jelentésekben az adatvizualizáció javítása érdekében.
+1. **Pénzügyi jelentéstétel**: A pénzügyi jelentésekben található diagramok áthelyezése az adatvizualizáció javítása érdekében.
 2. **Akadémiai kutatás**: A diagramelemek hatékony rendszerezése kutatási dolgozatokban és prezentációkban.
 3. **Értékesítési irányítópultok**: Testreszabhatja az irányítópultokat a fő teljesítménymutatók dinamikus elhelyezésével.
 4. **Marketinganalitika**: A marketingmutatók vizuális összehangolása a jobb stratégiai betekintés érdekében.
@@ -174,6 +176,9 @@ Ebben az oktatóanyagban bemutattuk, hogyan helyezhet át diagramokat egy Excel-
 - **Vásárlás és ingyenes próbaverzió**: Kezdje el próbaverzióval vagy vásárlással a következőn keresztül: [Aspose weboldala](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

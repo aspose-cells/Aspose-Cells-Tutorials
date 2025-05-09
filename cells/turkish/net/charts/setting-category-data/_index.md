@@ -1,51 +1,56 @@
 ---
-title: .NET için Aspose.Cells ile Excel Çarşı oluşturun
-weight: 7700
-limit: 
-description: Excel çalışma defteri oluşturmayı, örnek verileri eklemeyi ve adım adım kod örnekleri ile .NET için Aspose.Cells kullanarak sütun tablounu oluşturmayı öğrenin.
-keywords: [Aspose.Cells for .NET, create Excel chart, generate column chart, Excel automation, C# Excel library, .NET spreadsheet API]
-url: /tr/net/charts/setting-category-data/
+"description": "Aspose.Cells for .NET kullanarak adım adım kod örnekleriyle Excel çalışma kitabı oluşturmayı, örnek veri eklemeyi ve sütun grafiği oluşturmayı öğrenin."
+"title": "Aspose.Cells for .NET ile Excel Grafiği Oluşturun"
+"url": "/tr/net/charts/setting-category-data/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET için Aspose.Cells ile Excel Çarşı oluşturun
-Bu örnek, Excel çalışma kitabını nasıl oluşturulacağını, örneği verilerle nasıl doldurulacağını ve .NET için Aspose.Cells kullanarak bir sütun tablounu nasıl oluşturulacağını gösterir. Adım adım rehber bir çalışma kitabı oluşturmayı, verileri eklemeyi, kategoriler etiketlerini ayarlamayı ve tabloyu yapılandırmayı kapsar. Aspose.Cells .NET uygulamalarında Excel dosya oluşturmasını ve manipülasyonunu otomatikleştirmek için güçlü bir API sağlar.  
+# Aspose.Cells for .NET ile Excel Grafiği Oluşturun
+Bu örnek, bir Excel çalışma kitabının nasıl oluşturulacağını, örnek verilerle nasıl doldurulacağını ve .NET için Aspose.Cells kullanılarak bir sütun grafiğinin nasıl oluşturulacağını gösterir. Adım adım kılavuz, bir çalışma kitabı oluşturmayı, veri eklemeyi, kategori etiketlerini ayarlamayı ve grafiği yapılandırmayı kapsar. Aspose.Cells, .NET uygulamalarında Excel dosyası oluşturma ve düzenlemeyi otomatikleştirmek için güçlü bir API sağlar ve dinamik grafikleri programatik olarak oluşturmayı kolaylaştırır.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/setting-category-data" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
+## Kurulum Talimatları  
 
-.NET için Aspose.Cells kullanmak için, bu adımları izleyin:  
+Aspose.Cells for .NET'i kullanmak için şu adımları izleyin:  
 
-1. NuGet Paket Yöneticisi üzerinden yükle:  
-   * Visual Studio'da .NET projenizi açın.  
-   * Araçlara git → NuGet Paket Yöneticisi → Çözüm için NuGet Paketleri Yönet.  
-   * Aspose.Cells için arama yapın ve en son versiyonu yükleyin.  
+1. NuGet Paket Yöneticisi aracılığıyla kurulum:  
+   - .NET projenizi Visual Studio'da açın.  
+   - Araçlar → NuGet Paket Yöneticisi → Çözüm için NuGet Paketlerini Yönet'e gidin.  
+   - Aspose.Cells'i arayın ve en son sürümü yükleyin.  
 
-   Alternatif olarak, paket yöneticisi konsolu kullanarak yükleyin:  
+   Alternatif olarak, Paket Yöneticisi Konsolunu kullanarak yükleyebilirsiniz:  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. Aspose Web Sitesi ' nden indir:  
-   * Resmi indirme sayfasına gidin: [.NET için Aspose.Cells](https://releases.aspose.com/cells/net/)  
-   * DLL'yi indirin ve projeye bir referans ekleyin.  
+2. Aspose Web Sitesinden İndirin:  
+   - Resmi indirme sayfasını ziyaret edin: [.NET için Aspose.Cells](https://releases.aspose.com/cells/net/)  
+   - DLL'i indirin ve projenize bir referans ekleyin.  
 
-3. İzn Verme Lisansı (Önemli):  
-   * İzn al .[Satın Almayı Arayın](https://purchase.aspose.com/buy)veya bir [Geçici lisans](https://purchase.aspose.com/temporary-license/)\- Evet .  
-   * Lisansı kodunuzla uygulayın:  
+3. Lisans Uygula (İsteğe bağlı):  
+   - Lisans alın [Aspose Satın Alma](https://purchase.aspose.com/buy) veya bir talepte bulunun [geçici lisans](https://purchase.aspose.com/temporary-license/).  
+   - Lisansı kodunuza uygulayın:  
      ```csharp
      Aspose.Cells.License license = new Aspose.Cells.License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

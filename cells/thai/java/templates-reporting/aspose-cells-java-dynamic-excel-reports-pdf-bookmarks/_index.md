@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
 1. **ชุดพัฒนา Java (JDK):** ติดตั้งเวอร์ชัน 8 ขึ้นไปบนระบบของคุณ
-2. **ไอดี:** สภาพแวดล้อมการพัฒนาแบบบูรณาการเช่น IntelliJ IDEA หรือ Eclipse
+2. **ไอดี:** สภาพแวดล้อมการพัฒนาแบบบูรณาการ เช่น IntelliJ IDEA หรือ Eclipse
 3. **ไลบรารี Aspose.Cells:**
    - การตั้งค่า Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 
@@ -108,7 +110,7 @@ workbook.save(outDir + "WorkbookWithSheets.xlsx");
 
 ### การกำหนดค่าให้กับเซลล์
 #### ภาพรวม
-การกำหนดค่าให้กับเซลล์ในเวิร์กชีตที่แตกต่างกันทำให้สามารถป้อนข้อมูลและรายงานได้อย่างมีโครงสร้าง คุณลักษณะนี้สาธิตวิธีการเข้าถึงเซลล์เฉพาะและปรับเปลี่ยนเนื้อหาของเซลล์เหล่านั้น
+การกำหนดค่าให้กับเซลล์ในเวิร์กชีตที่แตกต่างกันทำให้สามารถป้อนข้อมูลและรายงานได้อย่างมีโครงสร้าง คุณลักษณะนี้จะแสดงวิธีการเข้าถึงเซลล์เฉพาะและปรับเปลี่ยนเนื้อหาของเซลล์เหล่านั้น
 
 **ขั้นตอนที่ 1:** เข้าถึงเซลล์ที่ต้องการในแต่ละแผ่นงาน
 ```java
@@ -197,6 +199,9 @@ workbook.save(outDir + "WorkbookWithBookmarks.pdf", options);
 - [ซื้อใบอนุญาต](https://purchase.aspose.com/pricing/aspose-cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

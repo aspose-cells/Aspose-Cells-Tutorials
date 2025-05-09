@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ public class LicenseSetup {
     
     ```java
     boolean isLicensedBefore = workbook.isLicensed();
-    System.out.println("Is Licensed Before: " + isLicensedBefore); // 最初輸出將是錯誤的
+    System.out.println("Is Licensed Before: " + isLicensedBefore); // 輸出最初將是錯誤的
     ```
 
 ### 設定許可證並檢查設定後的狀態
@@ -196,6 +198,9 @@ Aspose.Cells for Java可以整合到各種實際場景：
 - **支援**：需要幫助嗎？這 [Aspose 支援論壇](https://forum.aspose.com/c/cells/9) 是您的首選資源。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

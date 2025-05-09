@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Antes de sumergirnos en la implementación, cubramos algunos requisitos previos.
 
 ### Bibliotecas y dependencias requeridas
 
-Para seguir este tutorial necesitarás:
+Para seguir este tutorial, necesitarás:
 
 - **Biblioteca Aspose.Cells para Java** versión 25.3
 - Un IDE como IntelliJ IDEA o Eclipse para escribir su código Java
@@ -119,7 +121,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Creación de un rango y gestión de hipervínculos
+### Creación de un rango y administración de hipervínculos
 
 Define el rango dentro del cual quieres administrar los hipervínculos. Luego, recupéralos y, opcionalmente, elimínalos según sea necesario.
 
@@ -204,6 +206,9 @@ Los próximos pasos podrían incluir la exploración de funcionalidades adiciona
 Al aprovechar las capacidades de Aspose.Cells, puede optimizar sus tareas de procesamiento de Excel en aplicaciones Java. ¡Que disfrute programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

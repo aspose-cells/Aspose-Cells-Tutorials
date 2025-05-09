@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fungsi COUNTIF di Excel
@@ -26,7 +28,7 @@ Aspose.Cells untuk Java adalah pustaka Java kaya fitur yang memungkinkan pengemb
 
 Sebelum kita mulai menggunakan fungsi COUNTIF, kita perlu menyiapkan Aspose.Cells untuk Java di proyek kita. Ikuti langkah-langkah berikut untuk memulai:
 
-1. Unduh pustaka Aspose.Cells untuk Java: Anda dapat memperoleh pustaka tersebut dari situs web Aspose. Kunjungi [Di Sini](https://releases.aspose.com/cells/java/) untuk mengunduh versi terbaru.
+1. Unduh pustaka Aspose.Cells untuk Java: Anda dapat memperoleh pustaka tersebut dari situs web Aspose. Kunjungi [itt](https://releases.aspose.com/cells/java/) untuk mengunduh versi terbaru.
 
 2. Tambahkan pustaka ke proyek Anda: Sertakan file JAR Aspose.Cells yang diunduh di classpath proyek Java Anda.
 
@@ -38,10 +40,10 @@ Sekarang setelah kita memiliki pustaka Aspose.Cells dalam proyek kita, mari siap
 
 2. Impor Aspose.Cells: Impor kelas yang diperlukan dari pustaka Aspose.Cells ke kelas Java Anda.
 
-3. Inisialisasi Aspose.Cells: Inisialisasi pustaka Aspose.Cells dalam kode Java Anda dengan membuat contoh `Workbook` kelas.
+3. Inisialisasi Aspose.Cells: Inisialisasi pustaka Aspose.Cells dalam kode Java Anda dengan membuat contoh `Workbook` osztály.
 
 ```java
-// Inisialisasi Aspose.Cells
+// Aspose.Cells inicializálása
 Workbook workbook = new Workbook();
 ```
 
@@ -126,15 +128,15 @@ Saat menggunakan fungsi COUNTIF, pertimbangkan praktik terbaik untuk memastikan 
 
 Aspose.Cells untuk Java menawarkan fitur dan opsi lanjutan untuk otomatisasi Excel. Jelajahi dokumentasi dan tutorial di situs web Aspose untuk pengetahuan yang lebih mendalam.
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kita telah mempelajari cara menggunakan fungsi COUNTIF di Excel menggunakan Aspose.Cells untuk Java. Aspose.Cells menyediakan cara yang mudah untuk mengotomatiskan tugas Excel dalam aplikasi Java, sehingga memudahkan dalam bekerja dengan dan menganalisis data secara efisien.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Untuk menginstal Aspose.Cells untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/cells/java/) dan tambahkan file JAR ke classpath proyek Java Anda.
+Untuk menginstal Aspose.Cells untuk Java, unduh pustaka dari [itt](https://releases.aspose.com/cells/java/) dan tambahkan file JAR ke classpath proyek Java Anda.
 
 ### Bisakah saya menyesuaikan kriteria untuk fungsi COUNTIF?
 
@@ -150,11 +152,12 @@ Praktik terbaik untuk menggunakan COUNTIF meliputi menjaga kriteria tetap jelas,
 
 ### Di mana saya dapat menemukan tutorial lanjutan untuk Aspose.Cells untuk Java?
 
-Anda dapat menemukan tutorial dan dokumentasi lanjutan untuk Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan tutorial dan dokumentasi lanjutan untuk Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

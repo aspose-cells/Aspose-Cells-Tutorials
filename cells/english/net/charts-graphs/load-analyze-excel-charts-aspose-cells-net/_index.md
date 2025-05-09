@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ Explore further by integrating Aspose.Cells with other systems or diving deeper 
 Embark on your journey to mastering Excel data manipulation with Aspose.Cells for .NET and unlock new possibilities in data analysis and reporting!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

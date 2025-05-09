@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasındaki Konulu Yorumların Oluşturulma Zamanını Oku
-linktitle: Çalışma Sayfasındaki Konulu Yorumların Oluşturulma Zamanını Oku
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de iş parçacıklı yorumların oluşturulma zamanını okumayı öğrenin. Kod örneklerinin de dahil olduğu adım adım kılavuz.
-weight: 21
-url: /tr/net/worksheet-operations/read-threaded-comment-created-time/
+"description": "Aspose.Cells for .NET kullanarak Excel'de iş parçacıklı yorumların oluşturulma zamanını okumayı öğrenin. Kod örneklerinin de dahil olduğu adım adım kılavuz."
+"linktitle": "Çalışma Sayfasındaki Konulu Yorumların Oluşturulma Zamanını Oku"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasındaki Konulu Yorumların Oluşturulma Zamanını Oku"
+"url": "/tr/net/worksheet-operations/read-threaded-comment-created-time/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasındaki Konulu Yorumların Oluşturulma Zamanını Oku
@@ -17,10 +19,10 @@ url: /tr/net/worksheet-operations/read-threaded-comment-created-time/
 Excel dosyalarıyla çalışırken, yorumları yönetmek veri iş birliğinin ve geri bildiriminin önemli bir yönü olabilir. .NET için Aspose.Cells kullanıyorsanız, iş parçacıklı yorumlar da dahil olmak üzere çeşitli Excel işlevlerini yönetmek için inanılmaz derecede güçlü olduğunu göreceksiniz. Bu eğitimde, bir çalışma sayfasında iş parçacıklı yorumların oluşturulma zamanının nasıl okunacağına odaklanacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz sizi adım adım süreçte yönlendirecektir.
 ## Ön koşullar
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1. .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+1. .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 2. Visual Studio: C# kodunuzu yazıp çalıştırabileceğiniz Visual Studio veya herhangi bir .NET IDE'nin çalışan bir kurulumu.
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
-4.  Excel Dosyası: Bazı iş parçacıklı yorumlarla hazır bir Excel dosyanız olsun. Bu örnek için, adlı bir dosya kullanacağız`ThreadedCommentsSample.xlsx`.
+4. Excel Dosyası: Bazı iş parçacıklı yorumlarla hazır bir Excel dosyanız olsun. Bu örnek için, adlı bir dosya kullanacağız `ThreadedCommentsSample.xlsx`.
 Artık ön koşullarımızı tamamladığımıza göre gerekli paketleri içe aktaralım.
 ## Paketleri İçe Aktar
 Aspose.Cells'e başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
@@ -40,13 +42,13 @@ Artık ortamı hazırladığımıza göre, oluşturulan yorum dizisinin okunma s
 // Kaynak dizini
 string sourceDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"`Excel dosyanızın gerçek yolu ile. Bu, aşağıdaki gibi bir şey olabilir`"C:\\Documents\\"`.
+Yer değiştirmek `"Your Document Directory"` Excel dosyanızın gerçek yolu ile. Bu, aşağıdaki gibi bir şey olabilir `"C:\\Documents\\"`.
 ## Adım 2: Çalışma Kitabını Yükleyin
 Sonra, iş parçacıklı yorumları içeren Excel çalışma kitabını yükleyeceksiniz. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
- Bu kod satırı yeni bir`Workbook` Belirtilen Excel dosyasını yükleyerek nesne. Dosya bulunamazsa, bir istisna atılır, bu nedenle yolun doğru olduğundan emin olun.
+Bu kod satırı yeni bir `Workbook` Belirtilen Excel dosyasını yükleyerek nesne. Dosya bulunamazsa, bir istisna atılır, bu nedenle yolun doğru olduğundan emin olun.
 ## Adım 3: Çalışma Sayfasına Erişim
 Çalışma kitabı yüklendikten sonra, bir sonraki adım yorumları içeren belirli çalışma sayfasına erişmektir. Bizim durumumuzda, ilk çalışma sayfasına erişeceğiz:
 ```csharp
@@ -71,7 +73,7 @@ foreach (ThreadedComment comment in threadedComments)
     Console.WriteLine("Created Time: " + comment.CreatedTime);
 }
 ```
- Bu döngü, her yorumda geçer`threadedComments` Yorum metnini, yazarın adını ve yorumun oluşturulduğu saati toplar ve yazdırır.
+Bu döngü, her yorumda geçer `threadedComments` Yorum metnini, yazarın adını ve yorumun oluşturulduğu saati toplar ve yazdırır.
 ## Adım 6: Onay Mesajı
 Son olarak, yorum okuma mantığını yürüttükten sonra, bir onay mesajı sağlamak her zaman iyi bir fikirdir. Bu, hata ayıklamada yardımcı olur ve kodun başarıyla yürütüldüğünden emin olur:
 ```csharp
@@ -83,16 +85,18 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki i
 ### Aspose.Cells for .NET nedir?
 Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarında Excel dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kütüphanedir.
 ### Aspose.Cells for .NET'i nasıl indirebilirim?
- Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 ### Ücretsiz deneme imkanı var mı?
- Evet, Aspose.Cells'i ücretsiz olarak denemek için şu adresi ziyaret edebilirsiniz:[ücretsiz deneme sayfası](https://releases.aspose.com/).
+Evet, Aspose.Cells'i ücretsiz olarak denemek için şu adresi ziyaret edebilirsiniz: [ücretsiz deneme sayfası](https://releases.aspose.com/).
 ### Diğer hücrelerdeki yorumlara ulaşabilir miyim?
-Kesinlikle! Hücre referansını değiştirebilirsiniz`GetThreadedComments` Herhangi bir hücreden yorumlara erişim yöntemi.
+Kesinlikle! Hücre referansını değiştirebilirsiniz `GetThreadedComments` Herhangi bir hücreden yorumlara erişim yöntemi.
 ### Aspose.Cells için desteği nereden alabilirim?
- Destek için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Destek için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

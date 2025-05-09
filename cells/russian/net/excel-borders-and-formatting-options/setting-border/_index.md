@@ -1,14 +1,16 @@
 ---
-title: Программная установка границы в Excel
-linktitle: Программная установка границы в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как программно устанавливать границы в Excel с помощью Aspose.Cells для .NET. Экономьте время и автоматизируйте свои задачи Excel.
-weight: 10
-url: /ru/net/excel-borders-and-formatting-options/setting-border/
+"description": "Узнайте, как программно устанавливать границы в Excel с помощью Aspose.Cells для .NET. Экономьте время и автоматизируйте свои задачи Excel."
+"linktitle": "Программная установка границы в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Программная установка границы в Excel"
+"url": "/ru/net/excel-borders-and-formatting-options/setting-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Программная установка границы в Excel
@@ -23,8 +25,8 @@ url: /ru/net/excel-borders-and-formatting-options/setting-border/
 
 Прежде чем начать, убедитесь, что у вас выполнены следующие предварительные условия:
 
-1.  Visual Studio: Visual Studio должна быть установлена на вашем компьютере. Если нет, загрузите ее с[здесь](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells для .NET: Вам нужна библиотека Aspose.Cells. Вы можете получить ее, загрузив DLL с[эта ссылка](https://releases.aspose.com/cells/net/) или используя NuGet в вашем проекте:
+1. Visual Studio: Visual Studio должна быть установлена на вашем компьютере. Если у вас ее нет, загрузите ее с [здесь](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Cells для .NET: Вам нужна библиотека Aspose.Cells. Вы можете получить ее, загрузив DLL с [эта ссылка](https://releases.aspose.com/cells/net/) или используя NuGet в вашем проекте:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -54,11 +56,11 @@ using System.Drawing;
 string dataDir = "Your Document Directory";
 ```
 
- Заменять`"Your Document Directory"` на фактический путь, по которому вы хотите сохранить файл Excel. 
+Заменять `"Your Document Directory"` на фактический путь, по которому вы хотите сохранить файл Excel. 
 
 ## Шаг 2: Создание объекта рабочей книги
 
- Далее давайте создадим экземпляр`Workbook` класс. Это будет представлять нашу книгу Excel.
+Далее давайте создадим экземпляр `Workbook` класс. Это будет представлять нашу книгу Excel.
 
 ```csharp
 // Создание объекта Workbook
@@ -133,7 +135,7 @@ fc.Style.Borders[BorderType.BottomBorder].Color = Color.FromArgb(255, 255, 0);
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- Это сохранит ваш файл Excel как`output.xlsx` в указанном каталоге. 
+Это сохранит ваш файл Excel как `output.xlsx` в указанном каталоге. 
 
 ## Заключение
 
@@ -145,19 +147,21 @@ workbook.Save(dataDir + "output.xlsx");
 Да, Aspose.Cells в первую очередь ориентирован на Excel, но он также позволяет конвертировать файлы Excel в различные форматы, такие как PDF и HTML.
 
 ### Нужна ли мне лицензия для использования Aspose.Cells?  
- Вы можете использовать бесплатную пробную версию, чтобы протестировать ее функциональность. Для долгосрочного использования вам нужно будет приобрести лицензию, которую вы можете найти[здесь](https://purchase.aspose.com/buy).
+Вы можете использовать бесплатную пробную версию, чтобы протестировать ее функциональность. Для долгосрочного использования вам нужно будет приобрести лицензию, которую вы можете найти [здесь](https://purchase.aspose.com/buy).
 
 ### Как установить Aspose.Cells?  
 Вы можете установить Aspose.Cells через NuGet или загрузив DLL с сайта.
 
 ### Есть ли какая-либо доступная документация?  
- Конечно! Вы можете получить доступ к полной документации[здесь](https://reference.aspose.com/cells/net/).
+Конечно! Вы можете получить доступ к полной документации [здесь](https://reference.aspose.com/cells/net/).
 
 ### Где я могу получить поддержку, если у меня возникнут проблемы?  
- По любым вопросам или проблемам, с которыми вы столкнулись, вы можете посетить форум поддержки Aspose:[Форум Aspose](https://forum.aspose.com/c/cells/9).
+По любым вопросам или проблемам, с которыми вы столкнулись, вы можете посетить форум поддержки Aspose: [Форум Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aspose.Cells for Java kullanarak SmartArt grafiklerini Excel dosyalarında grup şekillerine nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulumu, kod örneklerini ve pratik uygulamaları kapsar."
+"description": "Aspose.Cells for Java kullanarak Excel dosyalarında SmartArt grafiklerini grup şekillerine nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulumu, kod örneklerini ve pratik uygulamaları kapsar."
 "title": "Java'da Aspose.Cells'i Kullanarak SmartArt'ı Grup Şekillerine Dönüştürme Kapsamlı Bir Kılavuz"
 "url": "/tr/java/images-shapes/convert-smartart-group-shapes-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ public class AccessWorksheet {
 }
 ```
 
-**Çalışma Sayfasında Erişim Şekli**
+**Çalışma Sayfasındaki Erişim Şekli**
 
 ```java
 import com.aspose.cells.*;
@@ -222,6 +224,9 @@ Büyük Excel dosyalarıyla veya birden fazla dönüştürmeyle çalışırken:
 Bu kılavuzu takip ederek, Java ile Aspose.Cells kullanarak Excel'de SmartArt grafiklerini etkili bir şekilde yönetebilir ve dönüştürebilirsiniz. Bu beceri, Excel belgelerindeki karmaşık görevleri otomatikleştirme yeteneğinizi önemli ölçüde artıracaktır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

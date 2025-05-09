@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ worksheet.getCells().setStandardHeight(15f);
 ```
 *Tham số & Mục đích*: Các `setStandardHeight` phương pháp này thiết lập chiều cao hàng thống nhất (tính bằng điểm) trên toàn bộ trang tính, giúp tăng khả năng đọc và tính nhất quán.
 
-**5. Lưu sổ làm việc đã sửa đổi**
+**5. Lưu Workbook đã sửa đổi**
 Cuối cùng, lưu những thay đổi của bạn vào một tập tin đầu ra:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -160,6 +162,9 @@ Thử nghiệm với các tính năng khác của Aspose.Cells để tự độn
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

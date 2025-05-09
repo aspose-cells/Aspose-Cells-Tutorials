@@ -8,7 +8,9 @@ url: /net/loading-and-saving-excel-files-with-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Loading and Saving Excel Files with Options
@@ -30,9 +32,11 @@ Next up, let’s tackle another common scenario: dealing with downlevel revealed
 Learn how to auto-fit columns and rows while loading HTML into Excel using Aspose.Cells for .NET. Step-by-step guide included.
 ### [Disabling Downlevel Revealed Comments while Saving to HTML](./disabling-downlevel-revealed-comments/)
 Learn how to disable downlevel revealed comments when saving an Excel workbook to HTML using Aspose.Cells for .NET with this detailed step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

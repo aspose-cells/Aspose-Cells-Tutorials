@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Excelデータを視覚的に共有したいですか？ExcelシートをJPEG画
 
 ### 前提条件
 
-以下のものを準備しておいてください。
+次のものを準備しておいてください。
 - **Java 用 Aspose.Cells** ライブラリ バージョン 25.3 以降。
 - Java プログラミングと IDE セットアップに関する基本的な知識。
 - JDK がインストールされた作業環境。
@@ -163,7 +165,7 @@ A2: はい、設定することで `imgOptions.setImageType(ImageType.PNG)` ま�
 A3: 次のように、Workbook コンストラクターでパスワードを指定することで、保護されたワークブックを読み込むことができます。 `new Workbook(dataDir + "/book1。xlsx", password)`. 
 
 **Q4: 画質をカスタマイズすることは可能ですか？**
-A4: はい、JPEG圧縮レベルを調整します。 `imgOptions.setJpegQuality(int value)` 値の範囲は 0 (最低品質) から 100 (最高品質) です。
+A4: はい、JPEG圧縮レベルを次のように調整します。 `imgOptions.setJpegQuality(int value)` 値の範囲は 0 (最低品質) から 100 (最高品質) です。
 
 **Q5: Aspose.Cells for Java の最新バージョンはどこからダウンロードできますか?**
 A5: [Aspose ダウンロードページ](https://releases.aspose.com/cells/java/)有効なライセンスまたは試用版があることを確認してください。
@@ -172,6 +174,9 @@ A5: [Aspose ダウンロードページ](https://releases.aspose.com/cells/java/
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

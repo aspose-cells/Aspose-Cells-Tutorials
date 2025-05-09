@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,12 +194,15 @@ Aspose.Cells 與其他系統順利集成，使您能夠自動化需要在 Java �
 - [支援論壇](https://forum.aspose.com/c/cells)
 
 ### 關鍵字推薦
-- “ Java 的 Aspose.Cells”
+- “Aspose.Cells for Java”
 - “Excel 工作簿自動化”
 - “Java Excel 整合”
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

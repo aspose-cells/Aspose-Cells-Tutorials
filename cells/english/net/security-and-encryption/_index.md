@@ -8,7 +8,9 @@ url: /net/security-and-encryption/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Security and Encryption
@@ -36,9 +38,11 @@ Learn how to efficiently detect the file format of encrypted files in .NET using
 Secure your Excel files with password protection using Aspose.Cells for .NET. This guide walks you through step-by-step encryption.
 ### [Encrypting ODS Files in .NET](./encrypting-ods-files/)
 Learn how to encrypt and decrypt ODS files using Aspose.Cells for .NET. A step-by-step guide to securing your data.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

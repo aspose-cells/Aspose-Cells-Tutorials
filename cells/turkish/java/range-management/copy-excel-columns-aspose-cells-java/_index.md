@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,7 +151,7 @@ Bu eğitim, Aspose.Cells for Java kullanarak Excel'de sütun kopyalamayı otomat
 
 ## SSS Bölümü
 
-1. **Sütunları kopyalarken hataları nasıl düzeltebilirim?**
+1. **Sütunları kopyalarken oluşan hataları nasıl düzeltebilirim?**
    - Dosya bulunamadı veya geçersiz sütun dizinleri gibi sorunlar için kodunuzda uygun istisna işlemeyi sağlayın.
 
 2. **Birden fazla sütunu aynı anda kopyalayabilir miyim?**
@@ -177,6 +179,9 @@ Bu kılavuzu takip ederek, Aspose.Cells for Java kullanarak Excel'de sütun kopy
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

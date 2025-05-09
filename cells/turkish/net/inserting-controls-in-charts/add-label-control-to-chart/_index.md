@@ -1,14 +1,16 @@
 ---
-title: Grafiğe Etiket Denetimi Ekle
-linktitle: Grafiğe Etiket Denetimi Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET'te grafiklerinize etiket denetimi eklemeyi öğrenin. Veri görselleştirmenizi geliştirin.
-weight: 10
-url: /tr/net/inserting-controls-in-charts/add-label-control-to-chart/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET'te grafiklerinize etiket denetimi eklemeyi öğrenin. Veri görselleştirmenizi geliştirin."
+"linktitle": "Grafiğe Etiket Denetimi Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafiğe Etiket Denetimi Ekle"
+"url": "/tr/net/inserting-controls-in-charts/add-label-control-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafiğe Etiket Denetimi Ekle
@@ -21,8 +23,8 @@ Grafikler, verileri görselleştirmenin güçlü bir yoludur ve bazen bir etiket
 
 Ayrıntılara dalmadan önce, başlamak için neye ihtiyacınız olduğunu ele alalım:
 
-- C# Temel Bilgisi: C# programlamanın temellerini anlamak çok önemlidir. Eğer yeni başlayan biriyseniz endişelenmeyin - adımlar açık ve öz olacaktır.
-- Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz. Henüz yapmadıysanız, şuraya göz atın:[indirme bağlantısı](https://releases.aspose.com/cells/net/) kütüphane için.
+- C# Temel Bilgisi: C# programlamanın temellerini anlamak çok önemlidir. Yeni başlayan biriyseniz endişelenmeyin - adımlar açık ve öz olacaktır.
+- Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz. Henüz yapmadıysanız, şuraya göz atın: [indirme bağlantısı](https://releases.aspose.com/cells/net/) kütüphane için.
 - Visual Studio: Kodunuzu yazmak ve çalıştırmak için Visual Studio gibi bir entegre geliştirme ortamına (IDE) ihtiyacınız olacak.
 
 ## Paketleri İçe Aktar
@@ -68,7 +70,7 @@ Daha sonra etiket eklemek istediğimiz grafiğin bulunduğu Excel dosyasını y�
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Burada şunu kullanıyoruz:`Workbook` Excel dosyamızı açmak için Aspose.Cells'den bir sınıf. Yaratıcılığın akmasına izin vermek için kapıyı açmak gibi!
+Burada şunu kullanıyoruz: `Workbook` Excel dosyamızı açmak için Aspose.Cells'den bir sınıf. Yaratıcılığın akmasına izin vermek için kapıyı açmak gibi!
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -100,7 +102,7 @@ Bu çizgi, bir galeride doğru sanat eserini bulmaya benzer. Tablonuz sizi bekli
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Burada,`AddLabelInChart` belirttiğiniz koordinatlara ve boyutlara göre bir etiket oluşturma işini üstlenir. Sanat eserinizin etrafına güzel bir çerçeve yerleştirmek gibidir!
+Burada, `AddLabelInChart` belirttiğiniz koordinatlara ve boyutlara göre bir etiket oluşturmayı üstlenir. Sanat eserinizin etrafına güzel bir çerçeve yerleştirmek gibidir!
 
 ## Adım 6: Etiket Metnini Ayarlayın
 
@@ -155,7 +157,7 @@ Sanki bitmiş ürününüzü alkışlanmaya hazır bir şekilde dünyaya sunuyor
 Evet! Etiketin yazı tipini, rengini, boyutunu ve diğer özelliklerini ihtiyaçlarınıza göre değiştirebilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretli bir üründür; ancak, bir başlangıçla başlayabilirsiniz.[ücretsiz deneme](https://releases.aspose.com/) Özelliklerini keşfetmek için.
+Aspose.Cells ücretli bir üründür; ancak, bir başlangıçla başlayabilirsiniz. [ücretsiz deneme](https://releases.aspose.com/) Özelliklerini keşfetmek için.
 
 ### Birden fazla etiket eklemek istersem ne olur?
 Etiket ekleme adımlarını istediğiniz kadar tekrarlayabilirsiniz; her defasında farklı konum ve metinler kullanabilirsiniz.
@@ -164,10 +166,12 @@ Etiket ekleme adımlarını istediğiniz kadar tekrarlayabilirsiniz; her defası
 Yerleşim türünü sabit olarak ayarlarsanız, grafik verileriyle birlikte hareket eder. Serbest yüzen ise, belirtilen konumda kalır.
 
 ### Aspose.Cells hakkında daha detaylı dokümanları nerede bulabilirim?
- Şuna bir göz atın:[belgeleme](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve API referansları için.
+Şuna bir göz atın: [belgeleme](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve API referansları için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

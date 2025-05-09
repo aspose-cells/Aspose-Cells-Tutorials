@@ -8,7 +8,9 @@ url: /net/formatting-rows-and-columns-in-excel/customizing-a-column/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing a Column's Format Settings
@@ -125,9 +127,11 @@ You can download the latest version from [here](https://releases.aspose.com/cell
 Yes, Aspose.Cells for .NET supports both .NET Framework and .NET Core.
 ### Can I try Aspose.Cells before purchasing?  
 Yes, you can get a [free trial](https://releases.aspose.com/) or request a [temporary license](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

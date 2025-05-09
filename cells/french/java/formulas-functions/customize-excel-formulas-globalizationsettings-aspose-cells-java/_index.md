@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Voici quelques scénarios réels dans lesquels cette fonctionnalité est inestim
 Profitez de ces ressources pour améliorer votre compréhension et vos compétences de mise en œuvre avec Aspose.Cells pour Java. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

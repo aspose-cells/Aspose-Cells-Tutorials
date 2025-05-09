@@ -8,7 +8,9 @@ url: /java/excel-pivot-tables/creating-pivot-tables/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Pivot Tables
@@ -102,9 +104,11 @@ In this tutorial, we've walked through the process of creating Pivot Tables usin
    You can automate Pivot Table creation in Java using the Aspose.Cells for Java API, as demonstrated in this tutorial.
 
 Now you have the knowledge and code to create powerful Pivot Tables in Java using Aspose.Cells. Experiment with different data sources and configurations to tailor your Pivot Tables to your specific needs. Happy data analysis!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

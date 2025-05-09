@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ public class InitializeAsposeCells {
 
 #### ステップ1: WorkbookDesignerの設定
 
-**ワークブックデザイナーインスタンスを作成する**
+**ワークブック デザイナー インスタンスを作成する**
 ```java
 import com.aspose.cells.WorkbookDesigner;
 import AsposeCellsExamples.Utils;
@@ -222,6 +224,9 @@ public class GetNotificationsWhileMergingData {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

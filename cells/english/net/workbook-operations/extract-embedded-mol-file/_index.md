@@ -8,7 +8,9 @@ url: /net/workbook-operations/extract-embedded-mol-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Embedded Mol File from Workbook
@@ -101,6 +103,7 @@ You can check out the [Aspose.Cells documentation](https://reference.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

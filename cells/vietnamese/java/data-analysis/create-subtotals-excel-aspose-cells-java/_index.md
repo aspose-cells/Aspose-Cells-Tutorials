@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ A: Có, nó hỗ trợ nhiều định dạng Excel bao gồm XLS và XLSX.
 Bằng cách làm theo hướng dẫn này, giờ đây bạn đã được trang bị đầy đủ để tích hợp các chức năng tổng phụ vào ứng dụng Java của mình bằng Aspose.Cells. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

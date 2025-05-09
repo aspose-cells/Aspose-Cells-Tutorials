@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Speciális Excel-diagramok
@@ -47,9 +49,11 @@ Tanuld meg, hogyan készíthetsz lebilincselő diagramanimációkat az Aspose.Ce
 Tanuld meg, hogyan készíthetsz lenyűgöző vízesésdiagramokat az Aspose.Cells for Java segítségével. Lépésről lépésre útmutató forráskóddal a hatékony adatvizualizációhoz.
 ### [Diagram interaktivitás](./chart-interactivity/)
 Tanuld meg, hogyan hozhatsz létre interaktív diagramokat az Aspose.Cells for Java használatával. Fejleszd az adatvizualizációt az interaktivitással.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

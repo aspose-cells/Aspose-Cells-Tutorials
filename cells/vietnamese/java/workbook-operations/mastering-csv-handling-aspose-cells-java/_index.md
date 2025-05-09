@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ System.out.println("Invalid characters replaced!");
 - Tùy chỉnh logic thay thế để phù hợp với nhu cầu dọn dẹp dữ liệu của bạn.
 
 ### Mẹo khắc phục sự cố
-- **Các vấn đề mã hóa**Đảm bảo rằng mã hóa tệp CSV của bạn khớp với những gì mong đợi trong Java (UTF-8 là chuẩn).
+- **Vấn đề mã hóa**Đảm bảo rằng mã hóa tệp CSV của bạn khớp với những gì mong đợi trong Java (UTF-8 là chuẩn).
 - **Các tập tin lớn**:Đối với các tập dữ liệu rất lớn, hãy cân nhắc việc đọc và xử lý theo từng phần để quản lý việc sử dụng bộ nhớ hiệu quả.
 
 ## Ứng dụng thực tế
@@ -166,6 +168,9 @@ Sẵn sàng để tìm hiểu sâu hơn? Hãy thử áp dụng các giải pháp
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để xử lý các tệp CSV một cách tự tin bằng Aspose.Cells cho Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

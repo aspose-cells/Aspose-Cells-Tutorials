@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Aspose.CellsとJavaを使って、Excelファイルのピボットテーブルデータにアクセスし、操作する方法を学びましょう。このガイドでは、セットアップ、ワークブックの読み込み、ワークシートへのアクセスなどについて説明します。"
-"title": "Aspose.Cells for Java をマスターして Excel ファイルのピボットテーブルデータにアクセスする"
+"title": "Aspose.Cells for Java をマスターして Excel ファイルのピボット テーブル データにアクセスする"
 "url": "/ja/java/data-analysis/aspose-cells-java-pivot-table-data/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Aspose.Cells のその他の機能や可能性を詳しく調べて、さらに�
 Aspose.Cells をさらに深く理解し、Java スキルを拡張して、Excel データの操作方法に革命を起こしましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

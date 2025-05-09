@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 - การเข้าถึง IDE เช่น IntelliJ IDEA หรือ Eclipse
 - ไฟล์ Excel แหล่งที่มาและทรัพยากรภายนอก เช่น รูปภาพ
 ## การตั้งค่า Aspose.Cells สำหรับ Java
-### การติดตั้งแบบพึ่งพา
+### การติดตั้งการพึ่งพา
 เพิ่มการอ้างอิงที่จำเป็นในโครงการของคุณโดยใช้ **เมเวน** หรือ **แกรเดิล**-
 #### เมเวน
 ```xml
@@ -45,7 +47,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ```
 ### การขอใบอนุญาต
 หากต้องการใช้ Aspose.Cells คุณจะต้องมีใบอนุญาต คุณสามารถขอรับ:
-- เอ **ทดลองใช้งานฟรี** เพื่อสำรวจขีดความสามารถของห้องสมุด
+- เอ **ทดลองใช้งานฟรี** เพื่อสำรวจศักยภาพของห้องสมุด
 - เอ **ใบอนุญาตชั่วคราว** เพื่อการทดสอบแบบขยายเพิ่มเติม
 - ซื้อเต็มจำนวน **ใบอนุญาต** เพื่อการใช้ในเชิงพาณิชย์
 สำหรับการตั้งค่าเริ่มต้น:
@@ -99,7 +101,7 @@ void Run() throws Exception {
     String dataDir = "YOUR_DATA_DIRECTORY";
     String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-    // โหลดเวิร์กบุ๊ก Excel จากไฟล์
+    // โหลดสมุดงาน Excel จากไฟล์
     Workbook wb = new Workbook(dataDir + "/samplePdfSaveOptions_StreamProvider.xlsx");
 
     // กำหนดค่าตัวเลือกการบันทึก PDF
@@ -153,6 +155,9 @@ void Run() throws Exception {
 - **สนับสนุน:** [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

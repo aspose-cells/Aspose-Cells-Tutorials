@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ public class ConvertTextNumericDataToNumber {
         String dataDir = Utils.getSharedDataDir(ConvertTextNumericDataToNumber.class) + "TechnicalArticles/";
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Шаги по преобразованию, которые необходимо выполнить
+        // Шаги по преобразованию, которым нужно следовать
     }
 }
 ```
@@ -168,6 +170,9 @@ workbook.save(dataDir + "CTNDatatoNumber_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

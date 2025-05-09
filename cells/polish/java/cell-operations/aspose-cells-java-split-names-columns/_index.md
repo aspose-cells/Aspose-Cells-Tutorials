@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,6 +179,9 @@ A: Obsługuje szeroką gamę formatów plików Excel, w tym XLSX, XLS, CSV i inn
 Życzymy owocnej pracy nad kodowaniem i czerpania przyjemności z wykorzystywania pełnego potencjału Aspose.Cells Java w swoich projektach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

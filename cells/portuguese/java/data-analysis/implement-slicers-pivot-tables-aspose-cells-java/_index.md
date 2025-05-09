@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -103,7 +105,7 @@ Recupere e imprima a versão atual do Aspose.Cells para Java.
 
 **Etapas de implementação:**
 
-#### Etapa 1: Importar os pacotes necessários
+#### Etapa 1: Importar pacotes necessários
 ```java
 import com.aspose.cells.*;
 ```
@@ -210,6 +212,9 @@ O acesso ao fatiador permite mais personalização ou verificações.
 - **Propósito:** Adiciona um segmentador para melhorar a interatividade dos dados na tabela dinâmica.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

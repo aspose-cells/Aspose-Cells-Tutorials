@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Genom att följa den här guiden har du lärt dig hur du laddar en Excel-fil til
 Ta nästa steg i din utvecklingsresa genom att experimentera med Aspose.Cells för Java och höj dina Excel- till PDF-konverteringsprocesser idag!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

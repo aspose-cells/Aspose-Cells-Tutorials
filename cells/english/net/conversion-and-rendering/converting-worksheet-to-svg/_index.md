@@ -8,7 +8,9 @@ url: /net/conversion-and-rendering/converting-worksheet-to-svg/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Worksheet to SVG in .NET
@@ -135,6 +137,7 @@ Yes, you can tweak the `ImageOrPrintOptions` to customize various aspects of the
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

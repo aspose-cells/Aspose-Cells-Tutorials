@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-excel/customizing-super-script-effect/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing Super Script Effect on Text in Excel
@@ -115,6 +117,7 @@ You can easily download it from the website [here](https://releases.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

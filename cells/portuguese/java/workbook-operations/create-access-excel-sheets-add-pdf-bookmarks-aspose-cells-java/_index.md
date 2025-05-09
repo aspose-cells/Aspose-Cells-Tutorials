@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Familiaridade com programação Java e conhecimento básico de operações com a
 Para começar a usar o Aspose.Cells para Java:
 
 1. **Adicione a Dependência**: Inclua a dependência do Maven ou Gradle no seu projeto.
-2. **Aquisição de Licença**: Obtenha uma licença temporária para avaliar recursos sem limitações visitando [Página de Licenciamento da Aspose](https://purchase.aspose.com/temporary-license/).
+2. **Aquisição de Licença**: Obtenha uma licença temporária para avaliar recursos sem limitações visitando [Página de licenciamento da Aspose](https://purchase.aspose.com/temporary-license/).
 
 **Inicialização e configuração básicas**
 ```java
@@ -169,7 +171,7 @@ Integrar esses recursos com software de gerenciamento de documentos ou ferrament
 
 ## Considerações de desempenho
 Ao trabalhar com Aspose.Cells, considere:
-- **Otimize o uso da memória**Descarte objetos quando não forem mais necessários.
+- **Otimizar o uso da memória**Descarte objetos quando não forem mais necessários.
 - **Processamento em lote**: Processe vários arquivos em lotes para reduzir a sobrecarga.
 - **Operações Assíncronas**: Utilize operações assíncronas sempre que possível para melhorar a capacidade de resposta.
 
@@ -198,6 +200,9 @@ Este tutorial mostrou como usar o Aspose.Cells para Java para carregar arquivos 
 Comece sua jornada com o Aspose.Cells hoje mesmo e transforme a maneira como você interage com dados do Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

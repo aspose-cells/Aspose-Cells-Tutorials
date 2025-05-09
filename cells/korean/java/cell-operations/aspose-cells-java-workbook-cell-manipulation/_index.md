@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Aspose.Cells for Java를 사용하여 Excel 파일을 손쉽게 만들고, 액세스하고, 수정하는 방법을 알아보세요. 이 종합 가이드에서는 셀 조작, 스타일 등을 다룹니다."
-"title": "Java에서 Aspose.Cells를 활용한 마스터 워크북 셀 조작&#58; Excel 자동화에 대한 완벽한 가이드"
+"title": "Java에서 Aspose.Cells를 활용한 마스터 워크북 셀 조작 - Excel 자동화에 대한 완벽한 가이드"
 "url": "/ko/java/cell-operations/aspose-cells-java-workbook-cell-manipulation/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Java 프로그래밍에 대한 기본적인 이해와 Maven 또는 Gradle 빌드
 
 **그래들**
 
-그것을 당신의에 포함 `build.gradle` 파일:
+그것을 당신의에 포함시키세요 `build.gradle` 파일:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -64,7 +66,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 초기화 및 설정
 
 Java 애플리케이션에서 Aspose.Cells를 사용하려면:
-1. **필요한 패키지 가져오기**: 가져왔는지 확인하세요 `Workbook`, `Worksheet`, 그리고 다른 필수 수업.
+1. **필요한 패키지 가져오기**: 가져왔는지 확인하세요 `Workbook`, `Worksheet`, 그리고 기타 필수 수업.
 2. **통합 문서 인스턴스 만들기**: Excel 파일을 나타냅니다.
 
 ```java
@@ -189,12 +191,15 @@ A: 네, Aspose.Cells는 PDF, CSV 등 다양한 형식으로 내보내기를 지�
 - **다운로드**: [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose.Cells를 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 Aspose.Cells for Java의 기능을 활용하면 Excel 파일을 프로그래밍 방식으로 생성하고 조작하는 능력을 크게 향상시킬 수 있습니다. 지금 바로 기능을 살펴보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modelli di grafici personalizzati
@@ -57,7 +59,7 @@ public class ChartTemplateExample {
 
 ### Passaggio 3: aggiunta di dati
 
-Prima di creare un grafico, hai bisogno di dati. Puoi importare dati da una fonte esistente o generarli tramite codice. Per questo esempio, genereremo dati di esempio:
+Prima di creare un grafico, hai bisogno di dati. Puoi importare dati da una fonte esistente o generarli tramite codice. Per questo esempio, genereremo dati campione:
 
 ```java
 // Aggiungere dati a un foglio di lavoro
@@ -127,6 +129,7 @@ Per una documentazione completa ed esempi, visita la documentazione di Aspose.Ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

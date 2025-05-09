@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 
 - **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** จำเป็นต้องมี Aspose.Cells สำหรับ Java บทช่วยสอนนี้ใช้เวอร์ชัน 25.3
 - **การตั้งค่าสภาพแวดล้อม:** ถือว่ามีความเข้าใจพื้นฐานเกี่ยวกับ Java และมีประสบการณ์การใช้เครื่องมือสร้างเช่น Maven หรือ Gradle
-- **ข้อกำหนดเบื้องต้นของความรู้:** มีความคุ้นเคยกับการเขียนโปรแกรมภาษา Java โดยเฉพาะแนวคิดเชิงวัตถุ
+- **ข้อกำหนดความรู้เบื้องต้น:** มีความคุ้นเคยกับการเขียนโปรแกรมภาษา Java โดยเฉพาะแนวคิดเชิงวัตถุ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -158,6 +160,9 @@ workbook.save(outDir + "outSourceSampleCountryNames.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

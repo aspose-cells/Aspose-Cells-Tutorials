@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interaktiva instrumentpaneler
@@ -110,7 +112,7 @@ Grattis! Du har lärt dig hur du skapar interaktiva dashboards med Aspose.Cells 
 
 Du kan anpassa diagrammets utseende genom att komma åt olika diagramegenskaper som titlar, etiketter, färger och stilar med hjälp av Aspose.Cells för Javas API.
 
-### Kan jag integrera data från externa källor i min instrumentpanel?
+### Kan jag integrera data från externa källor i min dashboard?
 
 Ja, Aspose.Cells för Java låter dig importera data från olika källor, inklusive databaser och externa filer, och integrera den i din instrumentpanel.
 
@@ -129,6 +131,7 @@ Ja, Aspose.Cells för Java är väl lämpat för både småskaliga och storskali
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

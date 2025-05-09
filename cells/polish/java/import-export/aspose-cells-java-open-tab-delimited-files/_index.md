@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ Funkcja ta umożliwia programistom ładowanie plików tekstowych rozdzielonych t
 
 #### Porady dotyczące rozwiązywania problemów
 - **Nie znaleziono pliku:** Upewnij się, że ścieżka do pliku jest prawidłowa. W razie potrzeby sprawdź dwukrotnie uprawnienia do katalogu.
-- **Nieprawidłowe ograniczniki:** Sprawdź, czy pliki tekstowe są rzeczywiście rozdzielone tabulatorami, a nie innymi ogranicznikami.
+- **Nieprawidłowe ograniczniki:** Sprawdź, czy pliki tekstowe są rzeczywiście rozdzielone tabulatorami i nie używają innych ograniczników.
 
 ## Zastosowania praktyczne
 Oto kilka scenariuszy z życia wziętych, w których otwieranie plików rozdzielonych tabulatorami za pomocą Aspose.Cells może być szczególnie użyteczne:
@@ -105,7 +107,7 @@ Oto kilka scenariuszy z życia wziętych, w których otwieranie plików rozdziel
 
 ## Rozważania dotyczące wydajności
 Pracując z dużymi plikami rozdzielonymi tabulatorami, należy wziąć pod uwagę poniższe wskazówki dotyczące optymalizacji wydajności:
-- **Zarządzanie pamięcią:** Upewnij się, że Twój system ma wystarczającą ilość pamięci RAM do obsługi dużych zestawów danych. Używaj metod pamięciowo-oszczędnych Aspose.Cells, jeśli to możliwe.
+- **Zarządzanie pamięcią:** Upewnij się, że Twój system ma wystarczającą ilość pamięci RAM do obsługi dużych zestawów danych. Używaj metod pamięciowo-efektywnych Aspose.Cells, jeśli to możliwe.
 - **Zoptymalizowane parsowanie:** Regulować `TxtLoadOptions` ustawienia umożliwiające szybsze parsowanie poprzez wyłączenie niepotrzebnych funkcji.
 
 ## Wniosek
@@ -134,6 +136,9 @@ Kolejne kroki obejmują eksplorację bardziej zaawansowanych funkcji pakietu Asp
 - **Wsparcie:** W przypadku pytań odwiedź stronę [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

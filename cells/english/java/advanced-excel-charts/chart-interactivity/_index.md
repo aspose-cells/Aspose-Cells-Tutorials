@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/chart-interactivity/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Interactivity
@@ -111,6 +113,7 @@ You can explore more examples and detailed documentation on using Aspose.Cells f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

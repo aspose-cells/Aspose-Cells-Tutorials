@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Seguendo questo tutorial, hai imparato come abilitare l'anteprima delle interruz
 Con questa guida completa, sarai pronto a utilizzare Aspose.Cells per Java per abilitare efficacemente le anteprime delle interruzioni di pagina. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

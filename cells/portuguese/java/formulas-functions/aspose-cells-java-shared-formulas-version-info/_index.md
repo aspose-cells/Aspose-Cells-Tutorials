@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No mundo atual, impulsionado por dados, gerenciar pastas de trabalho complexas do Excel com eficiência é uma tarefa crucial para muitos desenvolvedores. Seja lidando com conjuntos de dados extensos ou fórmulas complexas, utilizar bibliotecas poderosas como o Aspose.Cells para Java pode otimizar significativamente seu fluxo de trabalho. Este guia completo orienta você no uso do Aspose.Cells para gerenciar fórmulas compartilhadas e exibir informações de versão, garantindo que suas manipulações no Excel sejam eficazes e eficientes.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como configurar e inicializar o Aspose.Cells para Java
 - Exibindo a versão atual do Aspose.Cells em um aplicativo Java
@@ -199,12 +201,15 @@ Para continuar explorando, considere se aprofundar nos amplos recursos oferecido
 - **Documentação**: Guias abrangentes e referências de API em [Referência Java do Aspose Cells](https://reference.aspose.com/cells/java/)
 - **Baixar Biblioteca**: Últimos lançamentos disponíveis em [Lançamentos Aspose](https://releases.aspose.com/cells/java/)
 - **Licença de compra**: Garanta sua compra através de [Portal de Compras Aspose](https://purchase.aspose.com/buy)
-- **Teste grátis**: Teste os recursos com uma avaliação gratuita em [Lançamentos Aspose](https://releases.aspose.com/cells/java/)
-- **Licença Temporária**: Solicite uma licença temporária no [Página de licença temporária da Aspose](https://purchase.aspose.com/temporary-license/)
+- **Teste grátis**Teste os recursos com uma avaliação gratuita em [Lançamentos Aspose](https://releases.aspose.com/cells/java/)
+- **Licença Temporária**: Solicite uma licença temporária no [Página de licença temporária do Aspose](https://purchase.aspose.com/temporary-license/)
 - **Fórum de Suporte**: Obtenha ajuda de outros usuários e especialistas do Aspose no fórum de suporte
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

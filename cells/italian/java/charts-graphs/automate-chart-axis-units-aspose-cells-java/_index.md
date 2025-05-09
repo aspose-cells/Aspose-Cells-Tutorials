@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Aspose.Cells offre diverse opzioni di configurazione, che consentono di personal
 
 Ecco alcuni casi d'uso concreti in cui l'automazione delle unità degli assi dei grafici può rivelarsi utile:
 1. **Rendicontazione finanziaria:** Automatizza la visualizzazione dei dati finanziari nei report trimestrali.
-2. **Analisi delle vendite:** Crea grafici dinamici sulle prestazioni di vendita per le revisioni mensili.
+2. **Analisi delle vendite:** Crea grafici dinamici sulle performance di vendita per le revisioni mensili.
 3. **Gestione del progetto:** Generare cronologie del progetto e grafici di avanzamento per le parti interessate.
 
 ## Considerazioni sulle prestazioni
@@ -150,6 +152,9 @@ Pronti a portare le vostre competenze al livello successivo? Provate a implement
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

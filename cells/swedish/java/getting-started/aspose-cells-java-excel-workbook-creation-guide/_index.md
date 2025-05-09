@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Innan du dyker in, se till att du har följande:
 
 - **Obligatoriska bibliotek:** Aspose.Cells för Java version 25.3 eller senare.
 - **Miljöinställningar:** Ett fungerande Java Development Kit (JDK) installerat på ditt system.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och förtrogenhet med byggsystemen Maven eller Gradle.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och förtrogenhet med byggsystemen Maven eller Gradle.
 
 ## Konfigurera Aspose.Cells för Java (H2)
 För att börja måste du integrera Aspose.Cells-biblioteket i ditt Java-projekt. Beroende på vilket byggverktyg du föredrar, följ dessa steg:
@@ -133,7 +135,7 @@ Genom att följa den här guiden har du lärt dig hur du skapar och hanterar Exc
 
 **Nästa steg:** Experimentera med olika funktioner i Aspose.Cells för att ytterligare förbättra dina applikationer.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 1. **Hur felsöker jag fel i arbetsboken när jag sparar den?**
    - Se till att utdatakatalogen finns och har skrivbehörighet.
 2. **Kan jag använda namngivna områden över flera ark?**
@@ -157,6 +159,9 @@ Utforska dessa resurser för att fördjupa din förståelse och tillämpning av 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

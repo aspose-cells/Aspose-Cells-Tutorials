@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-o
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display And Hide Scroll Bars Of Worksheet
@@ -143,6 +145,7 @@ You can seek help or report issues in the Aspose support forum [here](https://fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/set-first-page-number/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set First Page Number of Worksheet
@@ -82,6 +84,7 @@ For detailed guides and API references, visit the [Aspose.Cells documentation](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

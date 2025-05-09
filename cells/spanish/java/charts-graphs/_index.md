@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ Aprenda a automatizar las unidades de los ejes de gráficos en Excel con Aspose.
 ### [Automatizar gráficos de Excel con Aspose.Cells para Java: una guía completa](./automate-excel-charts-aspose-cells-java/)
 Domine la creación de gráficos dinámicos de Excel sin esfuerzo con Aspose.Cells para Java. Aprenda técnicas de configuración, personalización y automatización para optimizar su proceso de visualización de datos.
 
-### [Cómo cambiar la dirección de las etiquetas de las marcas de un gráfico en Java usando Aspose.Cells](./change-chart-tick-label-direction-aspose-cells-java/)
+### [Cómo cambiar la dirección de las etiquetas de las marcas de verificación en un gráfico en Java usando Aspose.Cells](./change-chart-tick-label-direction-aspose-cells-java/)
 Aprenda a ajustar la dirección de las etiquetas de marca en gráficos de Excel con Aspose.Cells para Java. Esta guía proporciona instrucciones paso a paso y ejemplos de código.
 
 ### [Cómo convertir gráficos de Excel a SVG usando Aspose.Cells en Java](./convert-excel-charts-svg-aspose-cells-java/)
@@ -195,6 +197,9 @@ Aprenda a personalizar las leyendas de gráficos con Aspose.Cells para Java. Est
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

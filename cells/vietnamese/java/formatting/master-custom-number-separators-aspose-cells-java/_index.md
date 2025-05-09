@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá khả năng của **Aspose.
 Hãy bắt đầu bằng cách đảm bảo bạn đã chuẩn bị mọi thứ cho hướng dẫn này!
 ## Điều kiện tiên quyết
 Trước khi bắt đầu triển khai, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
-1. **Thư viện bắt buộc:** Bạn sẽ cần Aspose.Cells cho Java phiên bản 25.3.
+1. **Thư viện cần thiết:** Bạn sẽ cần Aspose.Cells cho Java phiên bản 25.3.
 2. **Thiết lập môi trường:** Đảm bảo môi trường phát triển của bạn được thiết lập bằng JDK và IDE như IntelliJ IDEA hoặc Eclipse.
 3. **Điều kiện tiên quyết về kiến thức:** Sự quen thuộc với các khái niệm lập trình Java cơ bản và làm việc với các thư viện bên ngoài sẽ rất hữu ích.
 ## Thiết lập Aspose.Cells cho Java
@@ -126,6 +128,9 @@ Hướng dẫn này giúp bạn nâng cao các ứng dụng dựa trên Excel c�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

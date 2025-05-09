@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Aspose.Cells को डेटाबेस या क्लाउड स्टो
 आज अपने Excel डेटा हेरफेर कार्यों को बढ़ाने के लिए Java के लिए Aspose.Cells की शक्ति का लाभ उठाना शुरू करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

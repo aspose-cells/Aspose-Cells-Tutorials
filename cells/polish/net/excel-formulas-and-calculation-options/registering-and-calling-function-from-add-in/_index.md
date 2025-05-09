@@ -1,14 +1,16 @@
 ---
-title: Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel
-linktitle: Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku.
-weight: 20
-url: /pl/net/excel-formulas-and-calculation-options/registering-and-calling-function-from-add-in/
+"description": "Dowiedz się, jak rejestrować i wywoływać funkcje z dodatków w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego prostego samouczka krok po kroku."
+"linktitle": "Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel"
+"url": "/pl/net/excel-formulas-and-calculation-options/registering-and-calling-function-from-add-in/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rejestrowanie i wywoływanie funkcji z dodatku w programie Excel
@@ -19,10 +21,10 @@ W tym przewodniku przeprowadzę Cię przez proces rejestrowania i wywoływania f
 ## Wymagania wstępne
 Zanim zagłębimy się w magię kodowania, omówmy, co musisz mieć:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj napiszemy i uruchomimy nasz kod.
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować zainstalowanej biblioteki Aspose.Cells. Możesz ją pobrać z ich[strona do pobrania](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Będziesz potrzebować zainstalowanej biblioteki Aspose.Cells. Możesz ją pobrać z ich [strona do pobrania](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Niewielka znajomość języka C# okaże się bardzo pomocna i pomoże Ci bezproblemowo uczyć się języka.
-4.  Dodatki do programu Excel: Powinieneś mieć plik dodatku (taki jak`.xlam`) zawierający funkcje, które chcesz zarejestrować i używać.
-5.  Przykładowy dodatek do programu Excel: W tym samouczku użyjemy dodatku do programu Excel o nazwie`TESTUDF.xlam`. Upewnij się więc, że masz to pod ręką!
+4. Dodatki do programu Excel: Powinieneś mieć plik dodatku (taki jak `.xlam`) zawierający funkcje, które chcesz zarejestrować i używać.
+5. Przykładowy dodatek do programu Excel: W tym samouczku użyjemy dodatku do programu Excel o nazwie `TESTUDF.xlam`. Upewnij się więc, że masz to pod ręką!
 Teraz, gdy wszystko już skonfigurowałeś, możemy zakasać rękawy i zabrać się za kodowanie!
 ## Importowanie pakietów
 Aby zacząć, musisz zaimportować kilka niezbędnych przestrzeni nazw na górze pliku C#. Oto, co musisz uwzględnić:
@@ -42,21 +44,21 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`.xlam` plik i pliki wyjściowe zostaną zapisane. To jest jak przygotowanie sceny przed rozpoczęciem pokazu.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś `.xlam` plik i pliki wyjściowe zostaną zapisane. To jest jak przygotowanie sceny przed rozpoczęciem pokazu.
 ## Krok 2: Utwórz pusty skoroszyt
 Następnie utwórz pusty skoroszyt, w którym możesz eksperymentować z funkcjami dodatkowymi.
 ```csharp
 // Utwórz pusty skoroszyt
 Workbook workbook = new Workbook();
 ```
-Ta linijka kodu tworzy nowy skoroszyt, który będzie naszym placem zabaw. Pomyśl o nim jak o świeżym płótnie, gotowym na Twoje kreatywne pociągnięcia.
+Ta linia kodu tworzy nowy skoroszyt, który będzie naszym placem zabaw. Pomyśl o nim jak o świeżym płótnie, gotowym na Twoje kreatywne pociągnięcia.
 ## Krok 3: Zarejestruj funkcję dodatku
 Przejdźmy teraz do sedna sprawy! Czas zarejestrować funkcję dodatku. Oto jak to zrobić:
 ```csharp
 // Zarejestruj dodatek obsługujący makra wraz z nazwą funkcji
 int id = workbook.Worksheets.RegisterAddInFunction(sourceDir + @"TESTUDF.xlam", "TEST_UDF", false);
 ```
- Ten wiersz rejestruje funkcję dodatku o nazwie`TEST_UDF` znaleziono w`TESTUDF.xlam` plik dodatku.`false`Parametr oznacza, że dodatek nie jest ładowany w trybie „izolowanym”. 
+Ten wiersz rejestruje funkcję dodatku o nazwie `TEST_UDF` znaleziono w `TESTUDF.xlam` plik dodatku. `false` Parametr oznacza, że dodatek nie jest ładowany w trybie „izolowanym”. 
 ## Krok 4: Zarejestruj dodatkowe funkcje (jeśli takie istnieją)
 Jeśli w tym samym pliku dodatku zarejestrowano więcej funkcji, możesz je także zarejestrować!
 ```csharp
@@ -91,7 +93,7 @@ I na koniec, co nie mniej ważne, nadszedł czas, aby uratować nasze arcydzieł
 // Zapisz skoroszyt w formacie wyjściowym XLSX.
 workbook.Save(outputDir + @"test_udf.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
-Tutaj zapisujemy nasz skoroszyt jako plik XLSX. Ten ostatni krok jest jak włożenie obrazu w ramę i przygotowanie się do jego zaprezentowania!
+Tutaj zapisujemy nasz skoroszyt jako plik XLSX. Ten ostatni krok jest jak umieszczenie obrazu w ramce i przygotowanie się do jego zaprezentowania!
 ## Krok 9: Potwierdź wykonanie
 Na koniec podsumujmy wszystko wyświetlając komunikat o powodzeniu na konsoli.
 ```csharp
@@ -106,14 +108,16 @@ Dodatek do programu Excel to program, który dodaje niestandardowe funkcje lub p
 ### Czy mogę używać Aspose.Cells bez instalowania go lokalnie?  
 Nie, musisz zainstalować bibliotekę Aspose.Cells, aby móc jej używać w aplikacjach .NET.
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?  
- Możesz ich odwiedzić[tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/) Aby uzyskać więcej informacji.
+Możesz ich odwiedzić [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/) Aby uzyskać więcej informacji.
 ### Czy można wywołać wiele funkcji z jednego dodatku?  
- Tak! Możesz zarejestrować wiele funkcji z tego samego pliku dodatku, używając`RegisterAddInFunction` metoda.
+Tak! Możesz zarejestrować wiele funkcji z tego samego pliku dodatku, używając `RegisterAddInFunction` metoda.
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
- Możesz zapoznać się z ich kompleksową dokumentacją na stronie[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z ich kompleksową dokumentacją na stronie [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

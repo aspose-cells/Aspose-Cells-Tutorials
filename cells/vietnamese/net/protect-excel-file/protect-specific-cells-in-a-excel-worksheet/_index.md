@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ các ô cụ thể trong bảng tính Excel
-linktitle: Bảo vệ các ô cụ thể trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 70
-url: /vi/net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/
+"description": "Tìm hiểu cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Bảo vệ các ô cụ thể trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ các ô cụ thể trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ các ô cụ thể trong bảng tính Excel
@@ -24,7 +26,7 @@ Trong bài viết này, chúng tôi sẽ hướng dẫn bạn từng bước v�
 Trước khi bắt đầu viết mã, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy của mình vì chúng ta sẽ viết mã bằng C#.
-2.  Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET. Nếu bạn chưa cài đặt, hãy tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET. Nếu bạn chưa cài đặt, hãy tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ được cung cấp dễ dàng hơn.
 
 ## Nhập gói
@@ -52,7 +54,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Ở đây, chúng ta định nghĩa một biến chuỗi`dataDir` trỏ đến thư mục tài liệu mong muốn của bạn. Chúng tôi kiểm tra xem thư mục này có tồn tại không. Nếu không, chúng tôi sẽ tạo thư mục đó. Điều này đảm bảo bạn sẽ không gặp bất kỳ sự cố nào khi lưu tệp Excel sau này.
+Ở đây, chúng ta định nghĩa một biến chuỗi `dataDir` trỏ đến thư mục tài liệu mong muốn của bạn. Chúng tôi kiểm tra xem thư mục này có tồn tại không. Nếu không, chúng tôi sẽ tạo thư mục đó. Điều này đảm bảo bạn sẽ không gặp bất kỳ sự cố nào khi lưu tệp Excel sau này.
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -62,7 +64,7 @@ Tiếp theo, hãy tạo một bảng tính mới để làm việc.
 // Tạo một bảng tính mới.
 Workbook wb = new Workbook();
 ```
- Chúng tôi đã tạo ra một cái mới`Workbook` đối tượng. Hãy nghĩ về điều này như một bức tranh vải trắng nơi bạn sẽ tô màu cho dữ liệu của mình.
+Chúng tôi đã tạo ra một cái mới `Workbook` đối tượng. Hãy nghĩ về điều này như một bức tranh trắng nơi bạn sẽ tô màu cho dữ liệu của mình.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -94,7 +96,7 @@ for (int i = 0; i <= 255; i++)
     sheet.Cells.Columns[(byte)i].ApplyStyle(style, styleflag);
 }
 ```
-Vòng lặp này lặp lại tất cả các cột (từ 0 đến 255) trong bảng tính, mở khóa từng cột. Bằng cách đó, chúng ta đang thiết lập giai đoạn chỉ khóa các ô mà chúng ta chọn sau.
+Vòng lặp này lặp lại tất cả các cột (từ 0 đến 255) trong bảng tính, mở khóa từng cột. Bằng cách làm như vậy, chúng ta đang thiết lập giai đoạn chỉ khóa các ô mà chúng ta chọn sau đó.
 
 ## Bước 5: Khóa các ô cụ thể
 
@@ -114,7 +116,7 @@ style = sheet.Cells["C1"].GetStyle();
 style.IsLocked = true;
 sheet.Cells["C1"].SetStyle(style);
 ```
-Đối với mỗi ô được chỉ định, chúng tôi lấy kiểu hiện tại và thiết lập`IsLocked` thuộc tính thành true. Bây giờ ba ô này đã bị khóa và không thể chỉnh sửa được nữa.
+Đối với mỗi ô được chỉ định, chúng tôi lấy kiểu hiện tại và đặt `IsLocked` thuộc tính thành true. Bây giờ ba ô này đã bị khóa và không thể chỉnh sửa được nữa.
 
 ## Bước 6: Bảo vệ bảng tính
 
@@ -124,7 +126,7 @@ Danh sách kiểm tra của chúng tôi gần hoàn tất rồi! Bước cuối 
 // Cuối cùng, hãy bảo vệ trang tính ngay bây giờ.
 sheet.Protect(ProtectionType.All);
 ```
- Bằng cách gọi`Protect` phương pháp trên bảng tính, chúng tôi áp dụng các thiết lập bảo vệ của chúng tôi. Với`ProtectionType.All`, chúng tôi chỉ rõ rằng mọi khía cạnh của trang tính sẽ được bảo vệ.
+Bằng cách gọi `Protect` phương pháp trên bảng tính, chúng tôi áp dụng các thiết lập bảo vệ của chúng tôi. Với `ProtectionType.All`, chúng tôi chỉ rõ rằng mọi khía cạnh của trang tính sẽ được bảo vệ.
 
 ## Bước 7: Lưu tệp Excel
 
@@ -146,19 +148,21 @@ Và bạn đã có nó! Bạn đã bảo vệ thành công các ô cụ thể tr
 Aspose.Cells for .NET là một thư viện mạnh mẽ để xử lý các tệp Excel theo chương trình bằng C#, cho phép các nhà phát triển tạo, sửa đổi và chuyển đổi bảng tính Excel mà không cần đến Microsoft Excel.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?  
- Bạn có thể tải xuống Aspose.Cells cho .NET từ trang web[đây](https://releases.aspose.com/cells/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
+Bạn có thể tải xuống Aspose.Cells cho .NET từ trang web [đây](https://releases.aspose.com/cells/net/). Thực hiện theo hướng dẫn cài đặt được cung cấp.
 
 ### Tôi có thể bảo vệ nhiều hơn ba tế bào không?  
 Chắc chắn rồi! Bạn có thể khóa bao nhiêu ô tùy thích bằng cách thêm nhiều dòng tương tự như A1, B1 và C1 trong ví dụ.
 
 ### Tôi có thể lưu tệp Excel của mình ở định dạng nào?  
-Bạn có thể lưu tệp Excel của mình ở nhiều định dạng khác nhau, bao gồm XLSX, XLS, CSV, v.v. Chỉ cần thay đổi`SaveFormat` tham số tương ứng.
+Bạn có thể lưu tệp Excel của mình ở nhiều định dạng khác nhau, bao gồm XLSX, XLS, CSV, v.v. Chỉ cần thay đổi `SaveFormat` tham số tương ứng.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn về Aspose.Cells ở đâu?  
- Bạn có thể khám phá thêm về Aspose.Cells cho .NET trong tài liệu[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá thêm về Aspose.Cells cho .NET trong tài liệu [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

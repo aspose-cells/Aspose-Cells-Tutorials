@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,6 +168,9 @@ Aspose.Cellsの機能をさらに詳しく知るには、色やフォントな�
 この包括的なガイドを読めば、Aspose.Cells を使って Java アプリケーションでグラフのデータラベルを効果的にカスタマイズできるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

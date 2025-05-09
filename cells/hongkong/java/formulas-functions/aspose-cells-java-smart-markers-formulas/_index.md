@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Aspose.Cells for Java可以整合到各種應用程式中，例如：
 - **免費試用和臨時許可證：** 開始免費試用或取得臨時許可證 [Aspose 免費試用](https://releases.aspose.com/cells/java/) 和 [臨時執照](https://purchase。aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

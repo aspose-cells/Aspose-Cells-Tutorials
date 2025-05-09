@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "outputWithoutTrimBlankColumns.csv", SaveFormat.CSV);
 ```
 **설명**: 
-- `outDir` 출력 파일을 위한 디렉토리입니다.
+- `outDir` 는 출력 파일의 디렉토리입니다.
 - `SaveFormat.CSV` CSV 형식으로 파일을 저장하도록 지정합니다.
 
 ### 앞의 빈 행과 열을 자르기 위한 텍스트 저장 옵션 구성
@@ -123,7 +125,7 @@ wb.save(outDir + "outputTrimBlankColumns.csv", opts);
 3. **시스템 통합**표준화된 CSV 형식을 사용하여 다양한 플랫폼 간에 데이터를 원활하게 변환하고 전송합니다.
 
 ## 성능 고려 사항
-Aspose.Cells에서 최적의 성능을 보장하려면:
+Aspose.Cells를 사용하여 최적의 성능을 보장하려면:
 - 특히 대용량 Excel 파일을 다룰 때 메모리 사용량을 모니터링합니다.
 - 효율적인 데이터 구조를 사용하여 통합 문서 수정을 관리합니다.
 - 병목 현상을 파악하고 코드 경로를 최적화하기 위해 애플리케이션 프로파일을 작성하세요.
@@ -154,6 +156,9 @@ Aspose.Cells for Java의 강력한 기능을 활용하여 Excel 통합 문서를
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

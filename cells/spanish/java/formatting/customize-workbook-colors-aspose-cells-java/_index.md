@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -226,6 +228,9 @@ Explore funciones adicionales de Aspose.Cells, como la creación de gráficos o 
 ¡Embárquese hoy mismo en su viaje con Aspose.Cells y transforme la forma en que maneja los datos de las hojas de cálculo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

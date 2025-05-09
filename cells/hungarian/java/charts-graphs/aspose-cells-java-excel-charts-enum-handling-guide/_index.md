@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Nézzük meg, hogyan használhatod ki könnyedén ezeket a hatékony funkciókat
 ## Előfeltételek
 
 ### Szükséges könyvtárak és függőségek
-folytatáshoz a következőkre lesz szükséged:
+A folytatáshoz a következőkre lesz szükséged:
 - **Aspose.Cells Java-hoz**Ez a könyvtár elengedhetetlen az Excel fájlok Java nyelvű kezeléséhez.
 - **Java fejlesztőkészlet (JDK)**Győződjön meg róla, hogy a JDK 8-as vagy újabb verziója telepítve van a rendszerén.
 
@@ -169,7 +171,7 @@ cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 cvTypes.put(CellValueType.IS_STRING, "IsString");
 ```
 
-#### 2. lépés: Hozzáférés a diagrampont- és nyomtatási értéktípusokhoz
+#### 2. lépés: Diagrampont- és nyomtatási értéktípusok elérése
 ```java
 public class RetrieveChartPointTypes {
     static String dataDir = "YOUR_DATA_DIRECTORY";
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 Az útmutató követésével elsajátítottad azokat a készségeket, amelyekre szükséged van ahhoz, hogy az Aspose.Cells segítségével kezelhesd az Excel-diagramokat és az enum-kezelést. Ezek a képességek jelentősen javíthatják Java-alkalmazásaidat azáltal, hogy hatékony adatkezelési funkciókat biztosítanak. Folytasd a könyvtár dokumentációjának böngészését a fejlettebb funkciókért és a boldog kódolásért!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

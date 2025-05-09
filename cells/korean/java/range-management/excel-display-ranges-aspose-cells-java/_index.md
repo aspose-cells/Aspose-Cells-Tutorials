@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ public class UsingDisplayRange {
 대용량 Excel 파일을 작업할 때 성능 최적화는 매우 중요합니다.
 - **메모리 관리**: Java 메모리 사용량을 모니터링하고 필요한 경우 힙 공간을 늘리는 것을 고려하세요.
 - **효율적인 데이터 처리**: Aspose.Cells의 다음과 같은 기능을 사용하세요. `MaxDisplayRange` 작업을 필요한 데이터 블록으로만 제한합니다.
-- **일괄 처리**: 가능하면 더 작은 단위로 데이터를 처리하여 로드 시간을 줄입니다.
+- **일괄 처리**: 가능하면 로드 시간을 줄이기 위해 더 작은 청크로 데이터를 처리합니다.
 
 ## 결론
 
@@ -198,6 +200,9 @@ public class UsingDisplayRange {
 - 스트리밍 데이터나 코드 최적화와 같은 기술을 사용하는 것을 고려해보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

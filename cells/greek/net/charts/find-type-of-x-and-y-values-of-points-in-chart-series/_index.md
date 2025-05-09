@@ -1,49 +1,52 @@
 ---
-title: Βρείτε τύπους τιμών X και Y στα σημεία του διαγράμματος χρησιμοποιώντας Aspose.Cells για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να βρείτε τους τύπους τιμών X και Y στα σημεία του χάρτη χρησιμοποιώντας το Aspose.Cells για το .NET. Τροφορτώστε ένα αρχείο Excel, αποκτήστε πρόσβαση στο χάρτη και ανακτήστε τους τύπους τιμών.
-keywords: [Aspose.Cells for .NET, Excel chart, chart points, X value type, Y value type, calculate chart data, retrieve chart values, C# Excel API]
-url: /el/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Μάθετε πώς να βρίσκετε τους τύπους τιμών X και Y σε σημεία γραφήματος χρησιμοποιώντας το Aspose.Cells για .NET. Φορτώστε ένα αρχείο Excel, αποκτήστε πρόσβαση στο γράφημα και ανακτήστε τους τύπους τιμών."
+"title": "Εύρεση τύπων τιμών X και Y σε σημεία γραφήματος χρησιμοποιώντας Aspose.Cells για .NET"
+"url": "/el/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Βρείτε τύπους τιμών X και Y στα σημεία του διαγράμματος χρησιμοποιώντας "Ασποζ.Κελίδες"  
+# Εύρεση τύπων τιμών X και Y σε σημεία γραφήματος χρησιμοποιώντας το Aspose.Cells  
 
-Σε αυτό το tutorial, θα μάθετε πώς να προσδιορίσετε τους τύπους των τιμών X και Y για τα σημεία του χάρτη σε ένα αρχείο Excel χρησιμοποιώντας Aspose.Cells για .NET. Αυτό είναι χρήσιμο όταν αναλύετε δυναμικά τα δεδομένα του χάρτη εντός μιας εφαρμογής .  
+Σε αυτό το σεμινάριο, θα μάθετε πώς να προσδιορίζετε τους τύπους τιμών X και Y για σημεία γραφήματος σε ένα αρχείο Excel χρησιμοποιώντας το Aspose.Cells για .NET. Αυτό είναι χρήσιμο κατά την ανάλυση δεδομένων γραφήματος δυναμικά μέσα σε μια εφαρμογή .NET. Θα ξεκινήσουμε φορτώνοντας ένα αρχείο Excel που περιέχει ένα γράφημα, θα αποκτήσουμε πρόσβαση στο φύλλο εργασίας και στο γράφημα, θα υπολογίσουμε τα δεδομένα γραφήματος και θα εξαγάγουμε τύπους τιμών από ένα συγκεκριμένο σημείο δεδομένων. Τέλος, θα εκτυπώσουμε αυτές τις τιμές στην κονσόλα για επαλήθευση.  
 
-Το Aspose.Cells για το .NET διευκολύνει την εργασία με τα διαγράμματα Excel προγραμματικά, επιτρέποντας στους προγραμματιστές να αυτοματοποιούν τις περίπλοκες λειτουργίες δελτίων υπολογιστών χωρίς να απαιτείται το Microsoft Excel.  
+Το Aspose.Cells για .NET διευκολύνει την προγραμματιστική εργασία με γραφήματα Excel, επιτρέποντας στους προγραμματιστές να αυτοματοποιούν πολύπλοκες λειτουργίες υπολογιστικών φύλλων χωρίς να απαιτούν το Microsoft Excel.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης  
+## Οδηγίες εγκατάστασης  
 
-Για να χρησιμοποιήσετε το Aspose.Cells για το .NET στο έργο σας, ακολουθήστε τα παρακάτω βήματα:  
+Για να χρησιμοποιήσετε το Aspose.Cells για .NET στο έργο σας, ακολουθήστε τα εξής βήματα:  
 
-1. Εγκατάσταση μέσω του διαχειριστή πακέτων NuGet  
-- Ανοίξτε το Visual Studio και πλοηγηθείτε στα εργαλεία → NuGet Package Manager → Διαχειρίστε τα πακέτα NuGet για Λύση.  
-- Ψάξτε για "Αποθέστε.Πυρήνα" και κάντε κλικ στην εγκατάσταση.  
+1. Εγκατάσταση μέσω του NuGet Package Manager  
+- Ανοίξτε το Visual Studio και μεταβείτε στα Εργαλεία → Διαχειριστής πακέτων NuGet → Διαχείριση πακέτων NuGet για λύση.  
+- Αναζητήστε το Aspose.Cells και κάντε κλικ στην επιλογή Εγκατάσταση.  
 
-Ή, εγκαταστήστε χρησιμοποιώντας τη κονσόλα διαχειριστή πακέτων NuGet:  
+Ή, εγκαταστήστε χρησιμοποιώντας την Κονσόλα NuGet Package Manager:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```  
 
 2. Εγκατάσταση μέσω .NET CLI  
-Εάν χρησιμοποιείτε το CLI .NET, εκτελέστε:  
+Εάν χρησιμοποιείτε το .NET CLI, εκτελέστε:  
 
 ```powershell
 dotnet add package Aspose.Cells
 ```  
 
-3. Προσθέστε Αναφορά στο Έργο σας  
-Once installed, include the following namespace in your C# file:  
+3. Προσθήκη αναφοράς στο έργο σας  
+Μόλις εγκατασταθεί, συμπεριλάβετε τον ακόλουθο χώρο ονομάτων στο αρχείο C#:  
 
 ```csharp
 using Aspose.Cells;
@@ -51,13 +54,15 @@ using Aspose.Cells.Charts;
 ```  
 
 ## Δείτε επίσης
-Για δωρεάν δοκιμή, επισκεφθείτε [Προσθέστε Ελεύθερη Αποκάλυψη](https://releases.aspose.com/)\- Δεν ξέρω .  
-Για να αγοράσετε άδεια, πηγαίνετε στο [Στόχος της σελίδας αγοράς](https://purchase.aspose.com/buy)\- Δεν ξέρω .  
-Για πλήρη τεκμηρίωση, επισκεφθείτε [Aspose.Cells για το .NET Documentation](https://docs.aspose.com/cells/net/)\- Δεν ξέρω .  
-Για να εξερευνήσετε την πλήρη αναφορά API, ελέγξτε [Aspose.Cells για το .NET API Reference](https://reference.aspose.com/cells/net/)\- Δεν ξέρω . 
+Για μια δωρεάν δοκιμή, επισκεφθείτε [Δωρεάν δοκιμή Aspose](https://releases.aspose.com/).  
+Για να αγοράσετε μια άδεια χρήσης, μεταβείτε στη διεύθυνση [Σελίδα Αγοράς Aspose](https://purchase.aspose.com/buy).  
+Για πλήρη τεκμηρίωση, επισκεφθείτε την ιστοσελίδα [Τεκμηρίωση Aspose.Cells για .NET](https://docs.aspose.com/cells/net/).  
+Για να εξερευνήσετε την πλήρη αναφορά API, ανατρέξτε στο [Aspose.Cells για αναφορά API .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

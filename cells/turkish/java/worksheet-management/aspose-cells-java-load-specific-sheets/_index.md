@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ public class CustomLoad extends LoadFilter {
 
 ##### 3. Filtrelerle Çalışma Kitabını Oluşturun
 
-Yalnızca belirtilen sayfaları kullanarak yükleyin `Workbook` yapıcı:
+Yalnızca belirtilen sayfaları yükleyin `Workbook` yapıcı:
 
 ```java
 loadOptions.setLoadFilter(new CustomLoad());
@@ -204,6 +206,9 @@ Java Excel kullanma becerilerinizi bir üst seviyeye taşımaya hazır mısını
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Nu ska vi dyka in på de förutsättningar som behövs för att komma igång med
 För att följa den här handledningen, se till att du har följande:
 - **Obligatoriska bibliotek:** Aspose.Cells för Java version 25.3 eller senare är nödvändigt.
 - **Miljöinställningar:** En lämplig IDE som IntelliJ IDEA eller Eclipse och ett JDK (Java Development Kit) installerat på ditt system krävs.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering, förtrogenhet med XML-strukturer om Maven/Gradle används, och viss erfarenhet av att arbeta med Excel-filer är meriterande.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering, förtrogenhet med XML-strukturer om Maven/Gradle används, och viss erfarenhet av att arbeta med Excel-filer är meriterande.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -65,7 +67,7 @@ import com.aspose.cells.Workbook;
 public class AsposeCellsInit {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook();
-        // Din kod för att skapa diagrammet kommer att placeras här.
+        // Din kod för att skapa diagram kommer att placeras här.
     }
 }
 ```
@@ -190,6 +192,9 @@ Experimentera med olika diagramtyper som erbjuds av Aspose.Cells och utforska av
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

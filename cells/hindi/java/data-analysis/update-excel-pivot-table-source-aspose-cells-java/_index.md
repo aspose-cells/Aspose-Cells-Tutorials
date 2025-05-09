@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Aspose.Cells के साथ पिवट टेबल स्रोत डे�
 इन संसाधनों और इस व्यापक गाइड के साथ, अब आप जावा में Aspose.Cells का उपयोग करके पिवट टेबल स्रोत डेटा परिवर्तनों को प्रभावी ढंग से संभालने के लिए सुसज्जित हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

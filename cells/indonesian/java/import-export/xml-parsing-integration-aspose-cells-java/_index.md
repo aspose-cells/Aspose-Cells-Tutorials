@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Parsing XML dan Integrasi XML Kustom di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia yang digerakkan oleh data saat ini, mengelola dan memanipulasi data secara efisien sangat penting bagi para pengembang. Mengintegrasikan data XML ke dalam buku kerja Excel dapat memperlancar alur kerja dan meningkatkan produktivitas. Tutorial ini berfokus pada pembacaan data XML dan penyematannya secara mulus ke dalam Excel menggunakan Aspose.Cells untuk Java.
 
@@ -23,15 +25,15 @@ Di akhir panduan ini, Anda akan menguasai:
 
 Mari jelajahi apa yang Anda butuhkan dan bagaimana menerapkan fitur-fitur hebat ini!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java** (versi 25.3 atau lebih baru)
 - Java Development Kit (JDK) terinstal di komputer Anda
 
-### Pengaturan Lingkungan
+### Környezet beállítása
 - Siapkan IDE Java seperti IntelliJ IDEA atau Eclipse.
 - Pemahaman dasar tentang XML dan pemrograman Java akan bermanfaat.
 
@@ -51,35 +53,35 @@ Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven dengan menambahkan ket
 
 ### Instalasi Gradle
 
-Untuk proyek Gradle, tambahkan baris ini ke `build.gradle` mengajukan:
+Untuk proyek Gradle, tambahkan baris ini ke `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
-- **Uji Coba Gratis**Mulailah dengan uji coba gratis untuk menjelajahi Aspose.Cells.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk evaluasi lanjutan.
-- **Pembelian**: Untuk penggunaan jangka panjang, belilah lisensi komersial.
+### Licencszerzés
+- **Ingyenes próbaverzió**Mulailah dengan uji coba gratis untuk menjelajahi Aspose.Cells.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Vásárlás**: Untuk penggunaan jangka panjang, belilah lisensi komersial.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 ```java
-// Inisialisasi instance Buku Kerja baru
+// Új munkafüzet-példány inicializálása
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Membaca dan Mengurai Data XML
 
 Fitur ini berfokus pada pembuatan dan penguraian string XML yang mewakili data buku dalam Java.
 
-#### Ringkasan
+#### Áttekintés
 
 Kami akan membuat string XML sederhana dengan informasi buku dan menguraikannya menjadi DOM `Document` objek untuk dimanipulasi.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Buat String XML**
 
@@ -95,7 +97,7 @@ String booksXML = "<catalog><book><title>Complete C#</title><price>44</price></b
 
 **2. Parsing String XML**
 
-Konversi string XML menjadi `Document` obyek:
+Konversi string XML menjadi `Document` objektum:
 
 ```java
 try {
@@ -110,23 +112,23 @@ try {
 }
 ```
 
-**Penjelasan**: 
+**Magyarázat**: 
 - **`DocumentBuilderFactory` & `DocumentBuilder`**: Membuat contoh parser DOM.
-- **`InputSource` dengan `StringReader`**: Memfasilitasi penguraian string XML.
+- **`InputSource` -vel `StringReader`**: Memfasilitasi penguraian string XML.
 
 ### Fitur 2: Menambahkan Bagian XML Kustom ke Buku Kerja Excel
 
 Fitur ini menunjukkan cara menggabungkan data XML kustom ke dalam buku kerja Excel menggunakan Aspose.Cells untuk Java.
 
-#### Ringkasan
+#### Áttekintés
 
 Kita akan membuat buku kerja Excel baru dan menambahkan data XML yang telah diurai sebelumnya sebagai bagian khusus, lalu menyimpan buku kerja yang disempurnakan ini.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Inisialisasi Buku Kerja**
 
-Buat contoh baru dari `Workbook`:
+Hozzon létre egy új példányt a következőből: `Workbook`:
 
 ```java
 Workbook workbook = new Workbook();
@@ -143,7 +145,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY/";
 workbook.getContentTypeProperties().add("BookStore", booksXML);
 ```
 
-**3. Simpan Buku Kerja**
+**3. Mentse el a munkafüzetet**
 
 Tulis perubahan pada sebuah file:
 
@@ -155,32 +157,32 @@ try {
 }
 ```
 
-**Penjelasan**: 
+**Magyarázat**: 
 - **`getContentTypeProperties().add()`**: Menambahkan data XML kustom ke buku kerja.
 - **`save()` metode**: Menyimpan buku kerja dengan modifikasi.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pelaporan Data**: Otomatisasi pembuatan laporan dengan menanamkan data XML langsung ke dalam lembar kerja Excel.
-2. **Manajemen Inventaris**: Gunakan XML untuk mengelola detail produk dalam format terstruktur dalam Excel.
-3. **Analisis Keuangan**: Integrasikan kumpulan data keuangan sebagai bagian XML khusus untuk analisis yang kompleks.
-4. **Perencanaan Proyek**: Menyimpan tonggak proyek dan sumber daya secara efisien menggunakan XML tertanam.
+1. **Adatjelentés**: Otomatisasi pembuatan laporan dengan menanamkan data XML langsung ke dalam lembar kerja Excel.
+2. **Készletgazdálkodás**: Gunakan XML untuk mengelola detail produk dalam format terstruktur dalam Excel.
+3. **Pénzügyi elemzés**: Integrasikan kumpulan data keuangan sebagai bagian XML khusus untuk analisis yang kompleks.
+4. **Projekttervezés**: Menyimpan tonggak proyek dan sumber daya secara efisien menggunakan XML tertanam.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Optimalkan Penggunaan Memori**: Untuk file XML besar, gunakan `BufferedReader` untuk mengurangi jejak memori.
+- **Memóriahasználat optimalizálása**: Untuk file XML besar, gunakan `BufferedReader` untuk mengurangi jejak memori.
 - **Penguraian yang Efisien**: Lebih suka parser streaming seperti SAX untuk dokumen yang sangat besar.
-- **Praktik Terbaik**: Perbarui Aspose.Cells secara berkala untuk mendapatkan manfaat peningkatan kinerja dan perbaikan bug.
+- **Bevált gyakorlatok**: Perbarui Aspose.Cells secara berkala untuk mendapatkan manfaat peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 
 Kami telah mempelajari cara mengurai data XML di Java dan mengintegrasikannya ke Excel menggunakan Aspose.Cells untuk Java. Pendekatan ini meningkatkan kemampuan Anda untuk mengelola dan memanfaatkan data secara efisien, membuka kemungkinan baru untuk otomatisasi dan pelaporan.
 
-### Langkah Berikutnya
+### Következő lépések
 
-Bereksperimenlah dengan struktur XML yang lebih kompleks atau format lain yang didukung oleh Aspose.Cells. Jelajahi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk fitur tambahan.
+Bereksperimenlah dengan struktur XML yang lebih kompleks atau format lain yang didukung oleh Aspose.Cells. Jelajahi [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk fitur tambahan.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menangani file XML berukuran besar?**
    - Gunakan parser streaming seperti SAX untuk efisiensi.
@@ -188,21 +190,24 @@ Bereksperimenlah dengan struktur XML yang lebih kompleks atau format lain yang d
    - Ya, ia mendukung CSV dan JSON antara lain.
 3. **Bagaimana jika string XML rusak?**
    - Terapkan penanganan kesalahan untuk menangkap pengecualian penguraian.
-4. **Bagaimana cara memperbarui pustaka Aspose.Cells saya?**
+4. **Hogyan frissíthetem az Aspose.Cells könyvtáramat?**
    - Periksa pembaruan pada alat manajemen ketergantungan Anda (Maven/Gradle).
 5. **Apakah Aspose.Cells cocok untuk aplikasi perusahaan?**
    - Tentu saja, ia dirancang dengan mempertimbangkan kinerja dan skalabilitas.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

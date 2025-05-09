@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 تعلم كيفية تعيين صيغ المصفوفة، وتطبيق أنماط الأرقام، وتخصيص العمليات الحسابية، وحفظ المصنفات بكفاءة باستخدام Aspose.Cells for Java.
 
 ### [كيفية إنشاء دالة قيمة ثابتة مخصصة في Aspose.Cells Java](./aspose-cells-java-custom-static-value-function/)
-تعرّف على كيفية توسيع AbstractCalculationEngine لإجراء حسابات مخصصة باستخدام Aspose.Cells Java. أتمتة مهام Excel باستخدام قيم محددة مسبقًا.
+تعرّف على كيفية توسيع AbstractCalculationEngine لإجراء حسابات مخصصة باستخدام Aspose.Cells Java. أتمتة مهام Excel بقيم محددة مسبقًا.
 
 ### [إتقان صيغ الروابط الخارجية في Excel باستخدام Aspose.Cells لـ Java](./aspose-cells-java-external-link-formulas-excel/)
 تعرف على كيفية استخدام Aspose.Cells for Java لإدارة صيغ الارتباطات الخارجية في Excel، مما يعزز تكامل البيانات بسهولة.
@@ -93,6 +95,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

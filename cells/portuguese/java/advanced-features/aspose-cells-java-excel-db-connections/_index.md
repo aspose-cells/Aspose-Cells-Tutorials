@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Aprenda a gerenciar com eficiência conexões de banco de dados do Excel usando o Aspose.Cells para Java. Este guia aborda o carregamento de pastas de trabalho, o acesso a conexões de dados externas e a recuperação de propriedades de conexão de banco de dados."
-"title": "Domine o Aspose.Cells Java e gerencie conexões de banco de dados do Excel com eficiência"
+"title": "Domine o Aspose.Cells Java e acesse e gerencie conexões de banco de dados do Excel com eficiência"
 "url": "/pt/java/advanced-features/aspose-cells-java-excel-db-connections/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Pronto para levar seu aplicativo Java para o próximo nível? Experimente integr
    - Uma licença temporária permite que você explore todos os recursos do Aspose.Cells durante um período de teste.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

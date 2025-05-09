@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ Aspose.Cells の使用を開始するには、次の手順に従います。
 ### グループ化の日付範囲を設定する
 **概要**ピボット フィールド内でデータを効果的にグループ化するには、特定の日付範囲を定義します。
 
-- **日付範囲を定義する**
+- **日付範囲の定義**
   ```java
   import com.aspose.cells.DateTime;
 
@@ -183,6 +185,9 @@ Aspose.Cellsライブラリの他の機能や、様々なシステムとの統�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

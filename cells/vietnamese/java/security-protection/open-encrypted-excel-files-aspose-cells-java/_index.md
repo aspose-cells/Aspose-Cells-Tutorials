@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Chúng tôi khuyến khích bạn áp dụng những gì bạn đã học hôm n
 1. **Aspose.Cells dành cho Java là gì?**
    - Đây là thư viện cho phép các nhà phát triển quản lý các tệp Excel theo chương trình trong các ứng dụng Java.
 
-2. **Làm thế nào để thiết lập bản dùng thử miễn phí Aspose.Cells?**
+2. **Làm thế nào để thiết lập dùng thử miễn phí Aspose.Cells?**
    - Tải xuống từ [Trang dùng thử miễn phí của Aspose](https://releases.aspose.com/cells/java/).
 
 3. **Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?**
@@ -169,6 +171,9 @@ Chúng tôi khuyến khích bạn áp dụng những gì bạn đã học hôm n
 - **Ủng hộ:** Tham gia cộng đồng Aspose trên diễn đàn hỗ trợ của họ để được trợ giúp và thảo luận.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ nostri tutorial sulle operazioni con le cartelle di lavoro offrono una guida com
 - Come utilizzare Aspose.Cells per Java per eseguire operazioni sulla cartella di lavoro
 - Implementazione passo passo con esempi di codice completi
 - Migliori pratiche e tecniche di ottimizzazione
-- Soluzioni alle sfide comuni nelle operazioni delle cartelle di lavoro
+- Soluzioni alle sfide comuni nelle operazioni della cartella di lavoro
 
 
 ## Tutorial disponibili
@@ -298,7 +300,7 @@ Scopri come creare, manipolare e definire lo stile delle cartelle di lavoro di E
 Scopri come automatizzare e semplificare le tue attività in Excel utilizzando Aspose.Cells per Java. Questa guida illustra la creazione di cartelle di lavoro, la formattazione delle celle e il salvataggio efficiente delle cartelle di lavoro.
 
 ### [Cartella di lavoro Excel e iterazione delle celle con Aspose.Cells Java: guida per sviluppatori](./excel-operations-aspose-cells-java-workbook-cell-iteration/)
-Padroneggia le cartelle di lavoro di Excel e l'iterazione delle celle utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, le tecniche di codifica e le applicazioni pratiche.
+Padroneggia le cartelle di lavoro di Excel e l'iterazione delle celle utilizzando Aspose.Cells per Java. Questa guida illustra la configurazione, le tecniche di programmazione e le applicazioni pratiche.
 
 ### [Operazioni Excel efficienti in Java: caricamento di cartelle di lavoro e conteggio delle celle con Aspose.Cells](./excel-operations-aspose-cells-java-workbook-loading-cell-counting/)
 Scopri come gestire senza problemi i file Excel utilizzando Aspose.Cells per Java, incluso il caricamento di cartelle di lavoro e il conteggio delle celle. Perfetto per automatizzare le attività di analisi dei dati.
@@ -486,6 +488,9 @@ Scopri come impostare e gestire le proprietà dei documenti, come il controllo d
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

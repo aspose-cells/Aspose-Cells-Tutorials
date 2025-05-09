@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ public class SaveWorkbook {
 ## 性能考慮
 處理大型 Excel 檔案時：
 - 透過有效管理工作簿物件並在不再需要時將其處置來優化記憶體使用情況。
-- 使用 Aspose 的內建功能有效地處理大型資料集，最大限度地減少資源消耗。
+- 使用 Aspose 的內建功能有效處理大型資料集，最大限度地減少資源消耗。
 ## 結論
 現在，您已經掌握了使用 Aspose.Cells for Java 在 Excel 工作簿中新增和管理執行緒註解的基礎知識。這個強大的工具可以顯著增強您組織或專案內的協作努力。
 若要繼續探索 Aspose.Cells 的功能，請考慮深入了解更進階的功能，例如資料處理和圖表生成。
@@ -165,6 +167,9 @@ A2：使用前面所示的 Maven 或 Gradle 依賴項，並確保您具有適當
 A3：是的，您可以新增多位作者來處理 Excel 工作簿中的各種評論者。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Grafiklere Kontrol Ekleme
-linktitle: Grafiklere Kontrol Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Grafiklere denetimler ekleme, veri görselleştirmeyi geliştirmek için etiketler, resimler, metin kutuları ve onay kutuları ekleme gibi konularda Aspose.Cells for .NET eğitimlerini keşfedin.
-weight: 20
-url: /tr/net/inserting-controls-in-charts/
+"description": "Grafiklere denetimler ekleme, veri görselleştirmeyi geliştirmek için etiketler, resimler, metin kutuları ve onay kutuları ekleme gibi konularda Aspose.Cells for .NET eğitimlerini keşfedin."
+"linktitle": "Grafiklere Kontrol Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafiklere Kontrol Ekleme"
+"url": "/tr/net/inserting-controls-in-charts/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafiklere Kontrol Ekleme
@@ -27,15 +29,15 @@ Excel grafiklerinize ek bağlam eklemek mi istiyorsunuz? Etiketler, önemli nokt
 
 Bir resim bin kelimeye bedeldir, değil mi? Bu Excel grafikleri için de geçerlidir. .NET için Aspose.Cells ile grafiklerinize resim eklemek, bir Word belgesine clipart eklemek kadar kolaydır. Resimler grafiklerinizi görsel olarak daha çekici hale getirmeye yardımcı olabilir ve sunduğunuz verilerle etkileşimi artırabilir. İster finansal veriler ister satış rakamları sunuyor olun, ilgili görseller eklemek verileri anlatıya bağlamaya yardımcı olur.
 
- Bunun nasıl çalıştığını merak ediyor musunuz? Şuraya göz atın:[Tabloya Resim Ekle](./add-picture-to-chart/) öğretici.
+Bunun nasıl çalıştığını merak ediyor musunuz? Şuraya göz atın: [Tabloya Resim Ekle](./add-picture-to-chart/) öğretici.
 
 ## Metin Kutuları ve Onay Kutuları Ekleme
 
 TextBox'lar ve Onay Kutuları, grafiklerinize açıklama eklemek veya etkileşim eklemek için pratik yollar sunar. Küçük bir not eklemek veya kullanıcıların farklı veri noktaları arasında geçiş yapmasına izin vermek isteyebilirsiniz; bu kontrollerin parladığı yer burasıdır. .NET için Aspose.Cells, bu öğeleri grafiklerinize kolayca eklemenize olanak tanır ve görsel verilerinizi ekstra işlevsellik ve içgörülerle zenginleştirmenizi mümkün kılar.
 
- Adım adım talimatları izleyin[Grafiğe TextBox Denetimi Ekle](./add-textbox-control-to-chart/) Ve[Grafik Sayfasına Onay Kutusu Ekle](./insert-checkbox-in-chart-sheet/) Ayrıntılı rehberlik için.
+Adım adım talimatları izleyin [Grafiğe TextBox Denetimi Ekle](./add-textbox-control-to-chart/) Ve [Grafik Sayfasına Onay Kutusu Ekle](./insert-checkbox-in-chart-sheet/) Ayrıntılı rehberlik için.
 
-Bu eğitimleri takip ederek Aspose.Cells for .NET kullanarak veri sunumu becerilerinizi önemli ölçüde geliştirebilirsiniz.
+Bu eğitimleri takip ederek, Aspose.Cells for .NET'i kullanarak veri sunumu becerilerinizi önemli ölçüde artırabilirsiniz.
 
 ## Grafiklere Denetim Ekleme Eğitimleri
 ### [Grafiğe Etiket Denetimi Ekle](./add-label-control-to-chart/)
@@ -46,9 +48,11 @@ Aspose.Cells for .NET kullanarak Excel grafiklerine kolayca resim eklemeyi öğr
 Aspose.Cells for .NET kullanarak Excel'deki grafiklere TextBox eklemeyi öğrenin. Veri görselleştirmenizi zahmetsizce geliştirin.
 ### [Grafik Sayfasına Onay Kutusu Ekle](./insert-checkbox-in-chart-sheet/)
 Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel grafik sayfasına nasıl kolayca onay kutusu ekleyeceğinizi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

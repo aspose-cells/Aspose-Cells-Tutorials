@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 - **खरीद और समर्थन:** खरीदारी और समर्थन संबंधी प्रश्नों के लिए, यहां जाएं [Aspose खरीद](https://purchase.aspose.com/buy) और [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

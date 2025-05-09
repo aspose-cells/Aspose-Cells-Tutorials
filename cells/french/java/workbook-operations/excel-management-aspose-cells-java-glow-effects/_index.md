@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,6 +129,9 @@ A3 : Oui, Aspose.Cells prend en charge divers formats tels que CSV, ODS et bien
 Lancez-vous dans votre voyage vers la maîtrise de la manipulation de fichiers Excel avec Aspose.Cells pour Java et améliorez vos applications basées sur les données.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

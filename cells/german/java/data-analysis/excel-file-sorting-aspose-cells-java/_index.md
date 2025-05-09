@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Entdecken Sie zusätzliche Funktionen von Aspose.Cells, wie z. B. Datenfilterung
 Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells und verändern Sie die Art und Weise, wie Sie Excel-Dateien in Java verarbeiten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

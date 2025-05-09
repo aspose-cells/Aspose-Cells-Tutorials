@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells for Java를 평가하기 위해 무료 평가판을 시작해 보세요.
 - **무료 체험**: 제한 없이 기본 기능에 접근하세요.
-- **임시 면허**: 평가 중에 확장된 기능을 사용하려면 이것을 얻으세요.
+- **임시 면허**: 평가 중에 확장된 기능을 얻으려면 이것을 얻으세요.
 - **구입**: 전체 액세스와 지원을 받으려면 Aspose 웹사이트에서 라이선스를 구매하세요.
 
 환경이 설정되면 이제 잘라내기 및 붙여넣기 기능을 구현해 보겠습니다.
@@ -160,9 +162,12 @@ A5: 물론입니다. 기업 환경 내 복잡한 데이터 처리 작업에 이�
 - **임시 면허**: [임시 면허 취득](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
-이러한 도구와 기술을 숙달하면 Aspose.Cells의 기능을 최대한 활용하여 Java를 활용한 Excel 관련 프로젝트를 더욱 발전시킬 수 있습니다. 즐거운 코딩 되세요!
+이러한 도구와 기술을 숙달하면 Java를 활용한 Excel 관련 프로젝트를 더욱 향상시키고 Aspose.Cells의 기능을 최대한 활용할 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

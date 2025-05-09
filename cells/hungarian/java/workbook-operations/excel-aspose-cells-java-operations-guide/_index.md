@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Az Excel egy hatékony eszköz, de a beépített képességei néha elmaradnak a
 - Hogyan hozzunk létre egy új Excel munkafüzetet
 - Töltsön be egy meglévő Excel fájlt az alkalmazásába
 - Hozzáférés adott munkalapokhoz egy munkafüzetben
-- Sorok másolása az adatokkal és a formázással együtt
+- Sorok másolása ép adatokkal és formázással
 - Változtatások mentése vissza egy Excel-fájlba
 
 Merüljünk el!
@@ -204,11 +206,11 @@ Megtanultad, hogyan hozhatsz létre, tölthetsz be, kezelhetsz és menthetsz Exc
 **A4:** Dolgozhat cellaértékekkel, formázással, képekkel, diagramokkal és egyebekkel.
 
 **5. kérdés:** Hogyan kezdjem el az Aspose.Cells tesztelését a projektjeimben?
-**A5:** Kezdésként szerezz be egy ingyenes próbalicencet a következőtől: [Aspose weboldala](https://releases.aspose.com/cells/java/).
+**A5:** Kezdésként szerezz be egy ingyenes próbalicencet a következő címről: [Aspose weboldala](https://releases.aspose.com/cells/java/).
 
 ## Erőforrás
 
-- **Dokumentáció**Fedezze fel az átfogó útmutatókat a következő címen: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/).
+- **Dokumentáció**Fedezze fel az átfogó útmutatókat a következő címen: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/).
 - **Letöltés**Az Aspose.Cells legújabb kiadásait itt érheti el: [Letöltések](https://releases.aspose.com/cells/java/).
 - **Vásárlás**Készen áll a befektetésre? Látogasson el ide [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy) teljes licencekért.
 - **Ingyenes próbaverzió**: Ingyenes próbaverzió elérhető a következő címen: [Aspose próbák](https://releases.aspose.com/cells/java/).
@@ -218,6 +220,9 @@ Megtanultad, hogyan hozhatsz létre, tölthetsz be, kezelhetsz és menthetsz Exc
 Az útmutató követésével felkészült leszel arra, hogy kihasználd az Aspose.Cells for Java képességeit az Excellel kapcsolatos projektjeidben. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

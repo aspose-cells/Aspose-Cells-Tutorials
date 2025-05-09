@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ license.setLicense("path/to/your/license/file.lic");
 
 ## Megvalósítási útmutató
 
-Ez a szakasz végigvezeti az Excel-munkafüzetek diagramadat-feliratainak módosításának minden funkcióján.
+Ez a szakasz végigvezeti az Excel-munkafüzetekben található diagramadat-feliratok módosításának minden funkcióján.
 
 ### Munkafüzet betöltése és módosítása
 
@@ -202,6 +204,9 @@ Fedezze fel az Aspose.Cells által kínált további funkciókat, például a di
 Az Aspose.Cells for Java kihasználásával precízen és könnyedén automatizálhatod és fejlesztheted Excellel kapcsolatos munkafolyamataidat. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

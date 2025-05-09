@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Hai difficoltà a estrarre e gestire i temi dalle tue cartelle di lavoro Excel a
 
 **Cosa imparerai:**
 - Configurazione di Aspose.Cells per Java nel tuo ambiente di sviluppo.
-- Tecniche per caricare cartelle di lavoro di Excel ed estrarre temi utilizzando Aspose.Cells Java.
+- Tecniche per caricare cartelle di lavoro Excel ed estrarre temi utilizzando Aspose.Cells Java.
 - Passaggi per accedere e manipolare gli stili delle celle, inclusi i colori del tema.
 - Applicazioni pratiche dell'estrazione di temi nei progetti di visualizzazione dei dati.
 - Procedure consigliate per ottimizzare le prestazioni quando si lavora con set di dati di grandi dimensioni.
@@ -200,6 +202,9 @@ I temi estratti possono essere utilizzati come modelli per la creazione di repor
 - **Supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

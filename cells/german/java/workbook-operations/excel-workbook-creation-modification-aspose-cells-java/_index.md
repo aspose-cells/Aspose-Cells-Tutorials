@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Lizenzerwerb
 Aspose.Cells erfordert eine Lizenz für die volle Funktionalität:
 - **Kostenlose Testversion**: Herunterladen von [Aspose-Veröffentlichungen](https://releases.aspose.com/cells/java/) mit Einschränkungen zu testen.
-- **Temporäre Lizenz**Erhalten Sie eine temporäre Lizenz über [Aspose-Kaufseite](https://purchase.aspose.com/temporary-license/).
+- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz über [Aspose-Kaufseite](https://purchase.aspose.com/temporary-license/).
 - **Kaufen**: Für einen unterbrechungsfreien Zugriff erwerben Sie eine Volllizenz unter [Aspose Kauf](https://purchase.aspose.com/buy).
 
 ## Einrichten von Aspose.Cells für Java
@@ -206,6 +208,9 @@ In diesem Tutorial haben wir gezeigt, wie Sie Excel-Arbeitsmappen mit Aspose.Cel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

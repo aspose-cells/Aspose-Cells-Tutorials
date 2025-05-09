@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interattività del grafico
@@ -16,7 +18,7 @@
 
 ## Introduzione
 
-I grafici interattivi aggiungono una nuova dimensione alla visualizzazione dei dati, consentendo agli utenti di esplorarli e comprenderli meglio. In questo tutorial, ti mostreremo come creare grafici interattivi utilizzando Aspose.Cells per Java. Imparerai ad aggiungere funzionalità come tooltip, etichette dati e funzionalità di drill-down ai tuoi grafici, rendendo le tue presentazioni di dati più coinvolgenti.
+grafici interattivi aggiungono una nuova dimensione alla visualizzazione dei dati, consentendo agli utenti di esplorarli e comprenderli meglio. In questo tutorial, ti mostreremo come creare grafici interattivi utilizzando Aspose.Cells per Java. Imparerai ad aggiungere funzionalità come tooltip, etichette dati e funzionalità di drill-down ai tuoi grafici, rendendo le tue presentazioni di dati più coinvolgenti.
 
 ## Prerequisiti
 
@@ -111,6 +113,7 @@ Puoi esplorare altri esempi e documentazione dettagliata sull'utilizzo di Aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

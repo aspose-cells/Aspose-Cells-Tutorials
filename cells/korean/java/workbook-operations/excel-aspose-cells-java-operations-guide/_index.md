@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Excel은 강력한 도구이지만, 복잡한 데이터 조작 작업을 처리�
 - 새 Excel 통합 문서를 만드는 방법
 - 기존 Excel 파일을 애플리케이션에 로드합니다.
 - 통합 문서 내의 특정 워크시트에 액세스
-- 데이터와 서식이 그대로 유지된 행을 복사합니다.
+- 데이터와 서식이 그대로 유지된 행 복사
 - Excel 파일에 변경 사항 다시 저장
 
 시작해 볼까요!
@@ -218,6 +220,9 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서를 생성, 로드, 조
 이 가이드를 따라 하면 Excel 관련 프로젝트에서 Aspose.Cells for Java의 기능을 효과적으로 활용할 수 있을 것입니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

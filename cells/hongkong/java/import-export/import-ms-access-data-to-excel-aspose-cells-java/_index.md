@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **購買：** 取得商業許可以便繼續使用 [此連結](https://purchase。aspose.com/buy).
 
 ### 基本初始化
-在您的 Java 應用程式中初始化 Aspose.Cells 如下：
+在您的 Java 應用程式中初始化 Aspose.Cells，如下所示：
 ```java
 import com.aspose.cells.Workbook;
 // 初始化一個新的工作簿物件。
@@ -190,6 +192,9 @@ wb.save(outDir + "/outputImportResultSet.xlsx");
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

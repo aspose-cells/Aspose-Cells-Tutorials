@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-width-of-column/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Width of a Column in Excel with Aspose.Cells
@@ -80,6 +82,7 @@ Yes, you can hide a column by setting its width to 0 using the `SetColumnWidth` 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

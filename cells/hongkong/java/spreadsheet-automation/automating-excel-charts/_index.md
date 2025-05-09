@@ -1,5 +1,5 @@
 ---
-"description": "透過原始程式碼範例探索如何使用 Aspose.Cells for Java 自動建立和自訂 Excel 圖表。簡化您的圖表任務。"
+"description": "探索如何使用 Aspose.Cells for Java 透過原始程式碼範例自動建立和自訂 Excel 圖表。簡化您的圖表任務。"
 "linktitle": "自動化 Excel 圖表"
 "second_title": "Aspose.Cells Java Excel 處理 API"
 "title": "自動化 Excel 圖表"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自動化 Excel 圖表
@@ -117,9 +119,11 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    探索 API 文件 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 以獲得深入的資訊和範例。
 
 使用 Aspose.Cells for Java 輕鬆自動化您的 Excel 圖表任務並提升您的資料視覺化能力。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

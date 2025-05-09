@@ -8,7 +8,9 @@ url: /net/excel-workbook/access-web-extension-information/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Web Extension Information
@@ -133,6 +135,7 @@ Absolutely! You can get a free trial by visiting [this link](https://releases.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

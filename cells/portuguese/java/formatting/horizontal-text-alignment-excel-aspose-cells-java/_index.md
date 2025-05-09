@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Aprimore seus aplicativos Java integrando funcionalidades do Excel sem interrupções. Seja para alinhar texto, manipular dados ou criar planilhas dinâmicas, **Aspose.Cells para Java** oferece uma solução robusta. Este guia explica como definir o alinhamento horizontal do texto em uma planilha do Excel usando o Aspose.Cells para Java.
 
-### que você aprenderá
+### O que você aprenderá
 
 - Como configurar o Aspose.Cells para Java em seu projeto
 - Etapas para criar e manipular arquivos do Excel programaticamente
@@ -150,7 +152,7 @@ Além disso, o Aspose.Cells pode ser integrado a outros sistemas, como bancos de
 
 Ao trabalhar com arquivos grandes do Excel ou manipulações de dados complexas, considere estas dicas:
 
-- **Otimize o uso da memória**: Use os recursos do Aspose para lidar com grandes conjuntos de dados com eficiência.
+- **Otimizar o uso da memória**: Use os recursos do Aspose para lidar com grandes conjuntos de dados com eficiência.
 - **Processamento em lote**: Processe dados em blocos em vez de carregar arquivos inteiros na memória de uma só vez.
 - **Coleta de lixo**: Esteja atento à coleta de lixo do Java para gerenciar recursos de forma eficaz.
 
@@ -190,6 +192,9 @@ Pronto para dar um passo adiante? Implemente essas técnicas no seu próximo pro
 Comece a explorar estes recursos para aprimorar suas capacidades de processamento do Excel em aplicativos Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

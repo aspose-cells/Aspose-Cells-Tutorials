@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,7 +181,7 @@ Teraz wiesz, jak dodawać kształty łuków z wypełnieniami gradientowymi w pro
    - Zainstaluj bibliotekę za pomocą Maven/Gradle i w razie potrzeby zastosuj licencję.
 2. **Czy mogę dodać inne kształty oprócz łuków?**
    - Tak, eksploruj `MsoDrawingType` dla różnych opcji.
-3. **Jakie są najlepsze praktyki zarządzania dużymi plikami Excela?**
+3. **Jakie są najlepsze praktyki zarządzania dużymi plikami programu Excel?**
    - Wykorzystaj interfejsy API przesyłania strumieniowego do wydajnego przetwarzania danych.
 4. **W jaki sposób mogę jeszcze bardziej dostosować gradienty?**
    - Eksperymentuj z różnymi stylami gradientu i odcieniami koloru.
@@ -195,6 +197,9 @@ Teraz wiesz, jak dodawać kształty łuków z wypełnieniami gradientowymi w pro
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

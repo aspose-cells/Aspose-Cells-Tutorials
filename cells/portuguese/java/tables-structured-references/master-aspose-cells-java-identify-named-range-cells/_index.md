@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ public class InitializeAsposeCells {
 
 ## Guia de Implementação
 
-### Identificar células em um intervalo nomeado
+### Identificar células em intervalo nomeado
 
 Esta seção orienta você na identificação de células dentro de um intervalo nomeado usando o Aspose.Cells para Java.
 
@@ -172,7 +174,7 @@ Para uma exploração mais aprofundada, considere explorar recursos mais avança
 
 ## Seção de perguntas frequentes
 
-1. **O que é um intervalo nomeado no Excel?**
+1. **que é um intervalo nomeado no Excel?**
    - Um intervalo nomeado atribui um nome a uma célula, grupo de células, linha, coluna ou até mesmo um intervalo complexo.
 
 2. **Posso usar o Aspose.Cells com outras linguagens de programação?**
@@ -198,6 +200,9 @@ Para uma exploração mais aprofundada, considere explorar recursos mais avança
 Embarque em sua jornada com o Aspose.Cells e eleve seus aplicativos Java a novos patamares!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

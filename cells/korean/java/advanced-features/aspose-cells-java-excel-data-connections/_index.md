@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Java 프로그래밍과 Maven 또는 Gradle에서 종속성을 처리하는 것�
 1. **라이브러리 설치**: 위의 종속성 스니펫을 사용하여 프로젝트에 Aspose.Cells를 포함합니다.
 2. **라이센스 취득**:
    - 획득하다 [무료 체험](https://releases.aspose.com/cells/java/) 기능을 탐색합니다.
-   - 프로덕션 사용을 위해 라이센스 구매를 고려하세요. [구매 페이지](https://purchase.aspose.com/buy).
+   - 프로덕션 사용을 위해 라이센스를 구매하는 것을 고려하세요. [구매 페이지](https://purchase.aspose.com/buy).
 3. **초기화 및 설정**: 인스턴스를 생성합니다 `Workbook` Excel 파일의 경로를 지정하세요.
 
 ```java
@@ -101,7 +103,7 @@ Excel 파일에 연결된 외부 데이터 소스를 다룰 때는 데이터 연
    import com.aspose.cells.ExternalConnection;
    ```
 2. **연결 검색**: 사용하세요 `getDataConnections()` 모든 통합 문서 연결에 액세스하는 방법입니다.
-3. **특정 연결에 액세스**: 인덱스로 원하는 연결을 가져오거나 연결을 반복합니다.
+3. **특정 연결에 액세스**: 인덱스를 통해 원하는 연결을 가져오거나 연결을 반복합니다.
 
 예:
 ```java
@@ -175,6 +177,9 @@ A5: 스트리밍 방식을 사용하고 작업이 끝나면 워크북을 폐기�
 - **지원하다**: [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

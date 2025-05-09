@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ Nauczyłeś się, jak tworzyć i stylizować zakresy, kopiować dane i zapisywa�
    - Tak, jest dostępny dla .NET i C++. Sprawdź ich dokumentację.
 
 3. **Co zrobić, jeśli moje style nie są stosowane prawidłowo?**
-   - Zapewnić `StyleFlag` ustawienia odpowiadają wybranym przez Ciebie stylom.
+   - Zapewnić `StyleFlag` ustawienia pasują do wybranych opcji stylizacji.
 
 4. **Czy w Javie można kopiować zakresy z formatowaniem?**
    - Tak, `copyData()` Metoda domyślnie kopiuje zarówno dane jak i formatowanie.
@@ -178,6 +180,9 @@ Nauczyłeś się, jak tworzyć i stylizować zakresy, kopiować dane i zapisywa�
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

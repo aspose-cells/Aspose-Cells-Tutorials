@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ public class InitializeAsposeCells {
 
 ## Przewodnik wdrażania
 
-W tej sekcji dowiesz się, jak utworzyć, nazwać i uzyskać dostęp do pola tekstowego w pliku Excela za pomocą pakietu Aspose.Cells for Java.
+W tej sekcji dowiesz się, jak utworzyć, nazwać i uzyskać dostęp do pola tekstowego w pliku Excela za pomocą Aspose.Cells for Java.
 
 ### Tworzenie i nazywanie pola tekstowego
 
@@ -193,6 +195,9 @@ W kolejnym kroku rozważ zapoznanie się z innymi funkcjami pakietu Aspose.Cells
    - Sprawdź dokładnie konfigurację kompilacji swojego projektu (Maven/Gradle), aby upewnić się, że wszystkie niezbędne zależności Aspose.Cells są poprawnie uwzględnione.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

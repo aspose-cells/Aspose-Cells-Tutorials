@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Bạn có muốn nâng cao tính hấp dẫn trực quan của báo cáo Excel b
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã chuẩn bị mọi thứ cho chuyến hành trình suôn sẻ qua hướng dẫn này nhé!
 ## Điều kiện tiên quyết
 Để thực hiện theo hướng dẫn này, bạn sẽ cần:
-- **Thư viện bắt buộc:** Aspose.Cells cho Java phiên bản 25.3
+- **Thư viện cần thiết:** Aspose.Cells cho Java phiên bản 25.3
 - **Thiết lập môi trường:** Đã cài đặt môi trường phát triển Java (ví dụ: IntelliJ IDEA hoặc Eclipse) và Maven/Gradle.
 - **Điều kiện tiên quyết về kiến thức:** Có kiến thức cơ bản về lập trình Java và hiểu biết về các tệp Excel.
 ## Thiết lập Aspose.Cells cho Java
@@ -133,6 +135,9 @@ Trong hướng dẫn này, bạn đã học cách triển khai màu chủ đề 
 - Giấy phép tạm thời: [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

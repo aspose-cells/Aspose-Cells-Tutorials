@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel IF Fonksiyonu Nasıl Kullanılır
@@ -93,9 +95,9 @@ Excel IF işlevini Aspose.Cells for Java ile kullanmak, koşullu işlemler gerç
 
 Java için Aspose.Cells'i yüklemek için Aspose web sitesini ziyaret edin ve kütüphaneyi şu adresten indirin: [Burada](https://releases.aspose.com/cells/java/). Web sitesinde verilen kurulum talimatlarını izleyin.
 
-### Karmaşık koşullarla Excel IF fonksiyonunu kullanabilir miyim?
+### Excel'deki IF fonksiyonunu karmaşık koşullarla kullanabilir miyim?
 
-Evet, Excel'de standart Excel formüllerinde olduğu gibi karmaşık koşullar oluşturmak için birden fazla IF işlevini iç içe geçirebilirsiniz. Java için Aspose.Cells de bu karmaşık koşulları destekler.
+Evet, Excel'de standart Excel formüllerinde olduğu gibi karmaşık koşullar oluşturmak için birden fazla IF işlevini iç içe yerleştirebilirsiniz. Java için Aspose.Cells de bu karmaşık koşulları destekler.
 
 ### Java için Aspose.Cells için herhangi bir lisanslama gereksinimi var mı?
 
@@ -112,6 +114,7 @@ Evet, Aspose.Cells for Java hem küçük ölçekli hem de kurumsal düzeydeki uy
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

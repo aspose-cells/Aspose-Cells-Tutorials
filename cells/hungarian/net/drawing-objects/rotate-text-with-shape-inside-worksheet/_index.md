@@ -1,51 +1,56 @@
 ---
-title: A formátum szöveges összehangolását módosítsa az Excelben az Aspose.Cells segítségével
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan manipulálhatja a szöveget egy Excel munkalapban egy formában a .NET-hez használt Aspose.Cells segítségével.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /hu/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Ismerje meg, hogyan manipulálhatja az alakzatokon belüli szöveget egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. Állítsa be a szöveg igazítási tulajdonságait és mentse a módosított munkafüzetet."
+"title": "Alakzatszöveg igazításának módosítása Excelben az Aspose.Cells használatával"
+"url": "/hu/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A formátum szöveges összehangolását módosítsa az Excelben az Aspose.Cells segítségével
+# Alakzatszöveg igazításának módosítása Excelben az Aspose.Cells használatával
 
-Ez a tanár bemutatja, hogyan módosíthatja az Excel munkalapban lévő szöveges összehangolást egy alakban az Aspose.Cells .NET-hez. Az Aspose.Cells erőteljes funkcióinak kihasználásával megakadályozhatja a szöveget a alakban forgatását és a szöveges összehangolási tulajdonságokat. Ez a példa útmutató egy Excel fájl feltöltésével, egy munkalaphoz való hozzáféréssel, a változatban lévő szöveg módosításával és a frissített munkalap mentésével. Akár jelentések automatizálása, mint mintázatok létrehozása vagy Excel vizuális képek személyre szabása, ez az lépésről lépésre szóló útmutató egyszerűvé teszi.  
+Ez az oktatóanyag bemutatja, hogyan módosítható a szöveg igazítása egy alakzaton belül egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. Az Aspose.Cells hatékony funkcióinak kihasználásával megakadályozhatja a szöveg alakzattal való elforgatását, és testreszabhatja a szöveg igazítási tulajdonságait. A példa végigvezeti Önt egy Excel-fájl betöltésén, egy munkalap elérésén, egy alakzaton belüli szöveg módosításán és a frissített munkafüzet mentésén. Akár jelentéseket automatizál, akár sablonokat hoz létre, akár Excel-vizualizációkat szab testre, ez a lépésről lépésre szóló útmutató egyszerűvé teszi a dolgát.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
+## Telepítési utasítások:  
 
-A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:  
+Az Aspose.Cells for .NET használatához a projektben kövesse az alábbi lépéseket:  
 
-1. A NuGet csomagkezelő segítségével telepítse:  
-   * Nyissa ki a Visual Studio-t.  
-   * Menjen az eszközökhez → NuGet csomagkezelőhez → A megoldáshoz a NuGet csomagok kezelésére.  
-   * Keresd a Aspose.Cells és telepítsd a legújabb verziót.  
+1. Telepítés a NuGet csomagkezelőn keresztül:  
+   - Nyisd meg a Visual Studio-t.  
+   - Lépjen az Eszközök → NuGet csomagkezelő → Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.Cells fájlt, és telepítsd a legújabb verziót.  
 
-2. A csomagkezelő konzolon keresztül telepítse:  
-   * Nyissa ki a csomagkezelő konzolt a Visual Studio-ban.  
-   * Csináld ki a parancsot:  
+2. Telepítés a Package Manager Console-on keresztül:  
+   - Nyissa meg a Package Manager Console-t a Visual Studio-ban.  
+   - Futtassa a parancsot:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Letöltsük az Aspose weboldalról:  
-   * Letöltsd le a legújabb verziót a [Aspose.Cells a .NET letöltéshez](https://releases.aspose.com/cells/net/)\- Nem.  
-   * Adja be a DLL-t a projektre vonatkozó hivatkozásokhoz.  
+3. Letöltés az Aspose weboldaláról:  
+   - Töltsd le a legújabb verziót innen: [Aspose.Cells .NET-hez letöltés](https://releases.aspose.com/cells/net/).  
+   - Adja hozzá a DLL-t a projekthivatkozásokhoz.  
 
-## Lásd:  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

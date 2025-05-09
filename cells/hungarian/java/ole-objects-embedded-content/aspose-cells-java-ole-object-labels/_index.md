@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Környezeti beállítási követelmények
 
-Győződjön meg róla, hogy rendelkezik egy Java fejlesztői környezettel, beleértve a JDK 8-as vagy újabb verzióját, valamint egy IDE-vel, például az IntelliJ IDEA-val vagy az Eclipse-szel.
+Győződjön meg róla, hogy rendelkezik egy Java fejlesztői környezettel, beleértve a JDK 8-as vagy újabb verzióját, valamint egy IDE-vel, például IntelliJ IDEA-val vagy Eclipse-szel.
 
 ### Ismereti előfeltételek
 
@@ -239,6 +241,9 @@ Az Aspose.Cells Java-ban történő használatakor az optimális teljesítmény 
 Az útmutató követésével megtanultad, hogyan módosíthatod és ellenőrizheted az OLE objektumcímkéket az Aspose.Cells for Java használatával. Ezek a készségek segítenek majd hatékonyabban kezelni az Excel fájlokat különféle professzionális helyzetekben. További információkért érdemes lehet az Aspose.Cells egyéb funkcióit is megismerni, hogy még nagyobb lehetőségeket tárhass fel adatkezelési feladataidban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

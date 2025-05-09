@@ -1,14 +1,16 @@
 ---
-title: Thiết lập Kiểu Hình dạng của Nhãn Dữ liệu của Biểu đồ
-linktitle: Thiết lập Kiểu Hình dạng của Nhãn Dữ liệu của Biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Cải thiện biểu đồ Excel của bạn bằng các hình dạng nhãn dữ liệu tùy chỉnh bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để nâng cao trình bày dữ liệu của bạn.
-weight: 14
-url: /vi/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
+"description": "Cải thiện biểu đồ Excel của bạn bằng các hình dạng nhãn dữ liệu tùy chỉnh bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để nâng cao trình bày dữ liệu của bạn."
+"linktitle": "Thiết lập Kiểu Hình dạng của Nhãn Dữ liệu của Biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập Kiểu Hình dạng của Nhãn Dữ liệu của Biểu đồ"
+"url": "/vi/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập Kiểu Hình dạng của Nhãn Dữ liệu của Biểu đồ
@@ -21,7 +23,7 @@ Trong thế giới trực quan hóa dữ liệu, biểu đồ là phương pháp
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập mọi thứ đúng cách. Sau đây là những gì bạn cần:
 
-1.  Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Thư viện này cho phép thực hiện mọi thao tác với tài liệu Excel.
+1. Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/). Thư viện này cho phép thực hiện mọi thao tác với tài liệu Excel.
 2. Visual Studio: Bạn nên cài đặt Visual Studio trên hệ thống của mình để viết và chạy các ứng dụng .NET. Đảm bảo rằng đó là phiên bản hỗ trợ .NET Framework hoặc .NET Core theo nhu cầu của dự án.
 3. Hiểu biết cơ bản về C#: Việc quen thuộc với các khái niệm lập trình cơ bản và cú pháp C# chắc chắn sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tệp Excel: Bạn cũng sẽ cần một bảng tính Excel mẫu để làm việc. Bạn có thể tự tạo hoặc sử dụng bất kỳ bảng tính nào có sẵn.
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Thay thế`"Your Document Directory"` Và`"Your Output Directory"` với đường dẫn thực tế trên máy của bạn.
+Thay thế `"Your Document Directory"` Và `"Your Output Directory"` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Tải tệp Excel nguồn
 
@@ -73,7 +75,7 @@ Tiếp theo, bạn cần tải tệp Excel mà bạn muốn làm việc. Đây c
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Dòng này tạo ra một cái mới`Workbook` đối tượng và trỏ nó đến tệp hiện tại của bạn. Hãy đảm bảo đường dẫn tệp là chính xác!
+Dòng này tạo ra một cái mới `Workbook` đối tượng và trỏ nó đến tệp hiện tại của bạn. Hãy đảm bảo đường dẫn tệp là chính xác!
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -84,7 +86,7 @@ Bây giờ chúng ta đã có bảng tính, chúng ta cần truy cập vào bả
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Ở đây, chúng ta đang truy cập vào bảng tính đầu tiên (chỉ mục`0`). Điều chỉnh chỉ mục nếu biểu đồ của bạn nằm trên một trang tính khác.
+Ở đây, chúng ta đang truy cập vào bảng tính đầu tiên (chỉ mục `0`). Điều chỉnh chỉ mục nếu biểu đồ của bạn nằm trên một trang tính khác.
 
 ## Bước 4: Truy cập Biểu đồ đầu tiên
 
@@ -117,7 +119,7 @@ Bây giờ đến phần quan trọng! Chúng ta hãy thiết lập kiểu hình
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- Hãy thoải mái thử nghiệm với các loại hình dạng khác nhau bằng cách thay đổi`DataLabelShapeType.WedgeEllipseCallout` để có thêm các lựa chọn khác!
+Hãy thoải mái thử nghiệm với các loại hình dạng khác nhau bằng cách thay đổi `DataLabelShapeType.WedgeEllipseCallout` để có thêm các lựa chọn khác!
 
 ## Bước 7: Lưu tệp Excel đầu ra
 
@@ -156,13 +158,15 @@ Chắc chắn rồi! Aspose.Cells cung cấp nhiều chức năng mở rộng đ
 Mặc dù bài viết này tập trung vào .NET, Aspose.Cells cũng hỗ trợ Java, PHP, Python và nhiều ngôn ngữ khác thông qua REST API.
 
 ### Tôi có cần phải trả tiền cho Aspose.Cells không?  
-Aspose.Cells là một sản phẩm thương mại, nhưng họ cung cấp bản dùng thử miễn phí, bạn có thể tìm thấy[đây](https://releases.aspose.com/).
+Aspose.Cells là một sản phẩm thương mại, nhưng họ cung cấp bản dùng thử miễn phí, bạn có thể tìm thấy [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp sự cố với Aspose.Cells?  
- Nếu bạn gặp bất kỳ vấn đề nào, họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) là nguồn thông tin tuyệt vời để nhận được sự hỗ trợ từ các chuyên gia.
+Nếu bạn gặp bất kỳ vấn đề nào, họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) là nguồn thông tin tuyệt vời để nhận được sự hỗ trợ từ các chuyên gia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

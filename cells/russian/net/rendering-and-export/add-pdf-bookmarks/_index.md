@@ -1,14 +1,16 @@
 ---
-title: Добавить закладки PDF с именованными назначениями в Aspose.Cells
-linktitle: Добавить закладки PDF с именованными назначениями в Aspose.Cells
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как создавать интерактивные PDF-файлы с закладками с помощью Aspose.Cells для .NET. Это пошаговое руководство упрощает задачу.
-weight: 10
-url: /ru/net/rendering-and-export/add-pdf-bookmarks/
+"description": "Узнайте, как создавать интерактивные PDF-файлы с закладками с помощью Aspose.Cells для .NET. Это пошаговое руководство упрощает задачу."
+"linktitle": "Добавить закладки PDF с именованными назначениями в Aspose.Cells"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавить закладки PDF с именованными назначениями в Aspose.Cells"
+"url": "/ru/net/rendering-and-export/add-pdf-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить закладки PDF с именованными назначениями в Aspose.Cells
@@ -18,7 +20,7 @@ url: /ru/net/rendering-and-export/add-pdf-bookmarks/
 ## Предпосылки
 Прежде чем мы перейдем к деталям, давайте убедимся, что у вас все на месте. Чтобы следовать этому уроку, вам нужно:
 1. Visual Studio: Это идеальная IDE для разработки .NET. Убедитесь, что она установлена на вашем компьютере.
-2.  Aspose.Cells для .NET: Вам нужны библиотеки Aspose.Cells. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/) . Если вы хотите попробовать сначала, возьмите свой[бесплатная пробная версия здесь](https://releases.aspose.com/).
+2. Aspose.Cells для .NET: Вам нужны библиотеки Aspose.Cells. Вы можете [скачать здесь](https://releases.aspose.com/cells/net/). Если вы хотите попробовать его первым, возьмите свой [бесплатная пробная версия здесь](https://releases.aspose.com/).
 3. .NET Framework: Убедитесь, что у вас установлена совместимая версия. Aspose.Cells поддерживает несколько версий .NET.
 4. Базовые знания C#: понимание синтаксиса C# поможет вам лучше понимать фрагменты кода.
 Имея эти инструменты в своем арсенале, мы готовы создать PDF-документ с закладками!
@@ -110,14 +112,16 @@ Aspose.Cells — мощная библиотека для работы с фай
 ### Могу ли я использовать Aspose.Cells в бесплатном проекте?
 Да! Aspose предлагает бесплатную пробную версию, если вы хотите изучить ее возможности перед покупкой лицензии.
 ### Как получить лицензию на Aspose.Cells?
- Вы можете купить лицензию непосредственно у них[страница покупки](https://purchase.aspose.com/buy).
+Вы можете купить лицензию непосредственно у них [страница покупки](https://purchase.aspose.com/buy).
 ### С какими типами документов может работать Aspose.Cells?
 Он может работать с различными форматами, включая XLSX, XLS, CSV, PDF и многими другими.
 ### Где я могу получить помощь, если у меня возникнут проблемы?
- Вы можете найти поддержку в[Форумы Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете найти поддержку в [Форумы Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ long largeCellCount = worksheet.getCells().getCountLarge();
 3. **Integração de banco de dados:** Exporte ou importe facilmente dados do Excel de/para bancos de dados usando aplicativos Java.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Gerencie a memória de forma eficiente fechando `Workbook` objetos quando não estiverem em uso, especialmente com arquivos grandes.
+- **Otimizar o uso da memória**: Gerencie a memória de forma eficiente fechando `Workbook` objetos quando não estiverem em uso, especialmente com arquivos grandes.
 - **Processamento em lote**: Para grandes conjuntos de dados, processe os dados em lotes para evitar estouro de memória.
 - **Melhores práticas do Java**: Utilize ferramentas de coleta de lixo e criação de perfil para monitorar o uso de recursos de forma eficaz.
 
@@ -154,6 +156,9 @@ Embarque em sua jornada para dominar a manipulação de planilhas com o Aspose.C
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

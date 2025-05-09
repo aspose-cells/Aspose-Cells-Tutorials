@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Merüljünk el a környezet beállításában, hogy használhasd ezeket a haték
 Mielőtt elkezdenénk, győződjünk meg róla, hogy a következő előfeltételeknek megfeleltünk:
 
 ### Szükséges könyvtárak, verziók és függőségek:
-Győződjön meg róla, hogy a Java telepítve van a rendszerén. Ezenkívül szüksége lesz az Aspose.Cells for Java programra, amely leegyszerűsíti az Excelben végzett műveleteket.
+Győződjön meg arról, hogy a Java telepítve van a rendszerén. Ezenkívül szüksége lesz az Aspose.Cells for Java programra, amely leegyszerűsíti az Excelben végzett műveleteket.
 
 ### Környezeti beállítási követelmények:
 A kód írásához és végrehajtásához helyi vagy felhőalapú fejlesztői környezet szükséges. Egy IDE, mint például az IntelliJ IDEA vagy az Eclipse, hasznos lesz.
@@ -81,7 +83,7 @@ Workbook workbook = new Workbook(srcDir + "sourceSampleCountryNames.xlsx");
 
 Ez a szakasz lebontja a „Begins With” szűrő Aspose.Cells for Java használatával történő megvalósításához szükséges lépéseket.
 
-### A munkalap elérése
+### munkalap elérése
 
 Először is, nyissa meg azt a munkalapot, amelyre alkalmazni szeretné az automatikus szűrőt:
 
@@ -177,7 +179,7 @@ Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a
 ## Erőforrás
 
 Részletesebb információkért és további forrásokért:
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -187,6 +189,9 @@ Részletesebb információkért és további forrásokért:
 Ezzel az útmutatóval felkészülhetsz arra, hogy elkezdhesd használni az Aspose.Cells-t a Java-alkalmazásaidban. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

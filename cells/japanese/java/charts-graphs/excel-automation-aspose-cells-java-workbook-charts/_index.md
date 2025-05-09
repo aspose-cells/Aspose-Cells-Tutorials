@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ workbook.save(dataDir + "/HTCLChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - **ベストプラクティス**アプリケーションをプロファイルして、パフォーマンスが重要なセクションを識別し、最適化します。
 
 ## 結論
-Aspose.Cells for Java を使用して Excel ワークブックをプログラムで作成および操作するための知識を習得しました。さまざまなグラフの種類、データ範囲、ワークブックの構成を試して、さらに詳しく理解を深めましょう。
+Aspose.Cells for Java を使用して Excel ワークブックをプログラムで作成および操作する知識を習得しました。さまざまなグラフの種類、データ範囲、ワークブックの構成を試しながら、さらに詳しく学習しましょう。
 
 **次のステップ:**
 - Aspose.Cells の高度な機能について詳しく説明します。
@@ -194,6 +196,9 @@ Excel 自動化スキルを次のレベルに引き上げる準備はできま�
    - もちろんです！ワークブックは PDF や HTML など、さまざまな形式でエクスポートできます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

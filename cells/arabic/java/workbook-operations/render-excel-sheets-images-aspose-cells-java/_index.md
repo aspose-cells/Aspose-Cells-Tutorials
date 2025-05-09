@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,6 +147,9 @@ ImageSaver.saveImage(image, "/RWToGraphicContext_out.png");
 بفضل هذه الأدوات والنصائح، ستكون في طريقك إلى إتقان عرض جداول بيانات Excel في Java باستخدام Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

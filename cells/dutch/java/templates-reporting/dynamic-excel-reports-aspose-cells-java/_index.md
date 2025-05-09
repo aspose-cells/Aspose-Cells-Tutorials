@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Klaar om te implementeren wat je hebt geleerd? Begin vandaag nog met het bouwen 
 Duik in de wereld van dynamische Excel-rapporten met Aspose.Cells voor Java en ontgrendel nieuwe mogelijkheden op het gebied van gegevensbeheer!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

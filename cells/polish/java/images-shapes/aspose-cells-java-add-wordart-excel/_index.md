@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Przed zastosowaniem rozwiązania opisanego w tym samouczku upewnij się, że mas
 
 ## Konfigurowanie Aspose.Cells dla Java
 ### Instrukcje instalacji
-Aby uwzględnić Aspose.Cells w projekcie Java, możesz użyć Maven lub Gradle. Oto jak:
+Aby uwzględnić Aspose.Cells w projekcie Java, możesz użyć Maven lub Gradle. Oto jak to zrobić:
 
 **Maven**
 Dodaj następującą zależność do swojego `pom.xml` plik:
@@ -158,6 +160,9 @@ Dzięki temu samouczkowi nauczyłeś się, jak dodawać tekst WordArt do plików
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ En este tutorial, exploramos cómo aprovechar Aspose.Cells Java para cálculos r
 Al dominar estas técnicas, estarás bien preparado para gestionar tareas complejas de Excel con facilidad usando Aspose.Cells para Java. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

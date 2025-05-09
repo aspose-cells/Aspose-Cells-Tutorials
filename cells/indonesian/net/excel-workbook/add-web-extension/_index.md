@@ -1,39 +1,41 @@
 ---
-title: Tambahkan Ekstensi Web
-linktitle: Tambahkan Ekstensi Web
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara menambahkan ekstensi web ke file Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah lengkap ini yang menyempurnakan fungsionalitas spreadsheet Anda.
-weight: 40
-url: /id/net/excel-workbook/add-web-extension/
+"description": "Pelajari cara menambahkan ekstensi web ke file Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah lengkap ini yang menyempurnakan fungsionalitas spreadsheet Anda."
+"linktitle": "Tambahkan Ekstensi Web"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Tambahkan Ekstensi Web"
+"url": "/id/net/excel-workbook/add-web-extension/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Ekstensi Web
 
-## Perkenalan
+## Bevezetés
 
 Dalam panduan ini, kami akan memandu Anda melalui proses penambahan Ekstensi Web ke buku kerja Excel dengan Aspose.Cells untuk .NET. Baik Anda sedang membangun dasbor data yang canggih atau mengotomatiskan tugas pelaporan, tutorial ini akan memberikan wawasan yang Anda perlukan untuk memperkaya aplikasi Excel Anda.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita masuk ke inti pengkodean, mari pastikan Anda memiliki semua yang Anda butuhkan. Berikut adalah prasyarat untuk memulai dengan Aspose.Cells untuk .NET:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio, karena kita akan menulis kode di IDE ini.
 2. .NET Framework: Keakraban dengan framework .NET (sebaiknya .NET Core atau .NET 5/6).
-3.  Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells. Jika Anda belum mengunduhnya, dapatkan versi terbarunya[Di Sini](https://releases.aspose.com/cells/net/) atau coba secara gratis[Di Sini](https://releases.aspose.com/).
+3. Pustaka Aspose.Cells: Anda perlu memiliki pustaka Aspose.Cells. Jika Anda belum mengunduhnya, dapatkan versi terbarunya [itt](https://releases.aspose.com/cells/net/) atau coba secara gratis [itt](https://releases.aspose.com/).
 4. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# akan membantu Anda mengikuti contoh-contohnya.
 
 Setelah Anda memiliki prasyarat ini, Anda siap untuk mengeluarkan potensi penuh Aspose.Cells!
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk bekerja dengan Aspose.Cells, Anda perlu mengimpor paket-paket yang diperlukan terlebih dahulu. Berikut ini cara melakukannya:
 
 1. Buka Proyek Anda: Di Visual Studio, mulailah dengan membuka proyek Anda.
-2. Tambahkan Referensi: Klik kanan pada proyek Anda di Solution Explorer, pilih Kelola Paket NuGet, dan cari`Aspose.Cells`Instal paket tersebut ke proyek Anda.
+2. Tambahkan Referensi: Klik kanan pada proyek Anda di Solution Explorer, pilih Kelola Paket NuGet, dan cari `Aspose.Cells`Instal paket tersebut ke proyek Anda.
 3. Impor Namespace yang Diperlukan: Di bagian atas berkas kode Anda, Anda ingin menambahkan perintah using berikut untuk namespace Aspose.Cells:
 
 ```csharp
@@ -44,14 +46,14 @@ Sekarang Anda telah menyiapkan lingkungan Anda, mari beralih ke bagian pengkodea
 
 Sekarang kita siap untuk menambahkan Ekstensi Web ke buku kerja Excel. Ikuti langkah-langkah berikut dengan saksama:
 
-## Langkah 1: Siapkan Direktori Output
+## 1. lépés: A kimeneti könyvtár beállítása
 
 Pertama, Anda perlu menyiapkan direktori keluaran tempat Anda akan menyimpan buku kerja yang telah dimodifikasi. Ini membantu menjaga berkas-berkas Anda tetap teratur.
 
 ```csharp
 string outDir = "Your Document Directory";
 ```
-## Langkah 2: Buat Buku Kerja Baru
+## 2. lépés: Új munkafüzet létrehozása
 
 Selanjutnya, mari kita buat contoh baru dari Workbook. Di sinilah semua keajaiban terjadi!
 
@@ -60,7 +62,7 @@ Workbook workbook = new Workbook();
 ```
 Baris ini menginisialisasi buku kerja baru. Bayangkan buku kerja sebagai kanvas kosong tempat Anda akan menambahkan ekstensi web dan fungsi lainnya.
 
-## Langkah 3: Akses Koleksi Ekstensi Web dan Panel Tugas
+## 3. lépés: Webbővítmények és feladatpanel-gyűjtemények elérése
 
 Sekarang, Anda perlu mengakses koleksi Ekstensi Web dan Panel Tugas dalam buku kerja.
 
@@ -79,7 +81,7 @@ Sekarang, mari tambahkan ekstensi web baru ke buku kerja.
 ```csharp
 int extensionIndex = extensions.Add();
 ```
- Itu`Add()` metode membuat ekstensi web baru dan mengembalikan indeksnya. Ini memungkinkan Anda mengakses ekstensi tersebut nanti.
+A `Add()` metode membuat ekstensi web baru dan mengembalikan indeksnya. Ini memungkinkan Anda mengakses ekstensi tersebut nanti.
 
 ## Langkah 5: Konfigurasikan Properti Ekstensi Web
 
@@ -94,7 +96,7 @@ extension.Reference.StoreType = WebExtensionStoreType.OMEX;
 
 - Id: Ini adalah pengenal unik untuk ekstensi web. Anda dapat menemukan ekstensi yang tersedia di Office Store.
 - StoreName: Menentukan bahasa lokal.
--  StoreType: Di sini, kami mengaturnya menjadi`OMEX`, yang menunjukkan paket ekstensi web.
+- StoreType: Di sini, kami mengaturnya menjadi `OMEX`, yang menunjukkan paket ekstensi web.
 
 ## Langkah 6: Tambahkan dan Konfigurasikan Panel Tugas
 
@@ -109,19 +111,19 @@ taskPane.WebExtension = extension;
 ```
 
 - Kami menambahkan panel tugas baru.
--  Pengaturan`IsVisible` ke`true` memastikannya ditampilkan di buku kerja.
--  Itu`DockState` properti menentukan di mana di UI Excel panel tugas akan muncul (dalam kasus ini, di sisi kanan).
+- Beállítás `IsVisible` hogy `true` memastikannya ditampilkan di buku kerja.
+- A `DockState` properti menentukan di mana di UI Excel panel tugas akan muncul (dalam kasus ini, di sisi kanan).
 
-## Langkah 7: Simpan Buku Kerja
+## 7. lépés: A munkafüzet mentése
 
 Langkah terakhir kita adalah menyimpan buku kerja, yang sekarang menyertakan ekstensi web kita.
 
 ```csharp
 workbook.Save(outDir + "AddWebExtension_Out.xlsx");
 ```
- Di sini, kita menyimpan buku kerja ke direktori keluaran yang kita tentukan sebelumnya. Ganti`"AddWebExtension_Out.xlsx"` dengan nama berkas apa pun yang Anda sukai.
+Di sini, kita menyimpan buku kerja ke direktori keluaran yang kita tentukan sebelumnya. Ganti `"AddWebExtension_Out.xlsx"` dengan nama berkas apa pun yang Anda sukai.
 
-## Langkah 8: Konfirmasi Eksekusi
+## 8. lépés: Végrehajtás megerősítése
 
 Terakhir, mari cetak pesan konfirmasi ke konsol untuk menunjukkan bahwa semuanya berjalan lancar.
 
@@ -130,29 +132,31 @@ Console.WriteLine("AddWebExtension executed successfully.");
 ```
 Selalu baik untuk mendapatkan masukan. Pesan ini mengonfirmasi bahwa ekstensi Anda telah ditambahkan tanpa hambatan apa pun.
 
-## Kesimpulan
+## Következtetés
 
 Menambahkan ekstensi web ke buku kerja Excel Anda menggunakan Aspose.Cells untuk .NET adalah proses mudah yang dapat meningkatkan fungsionalitas dan interaktivitas lembar kerja Anda secara signifikan. Dengan langkah-langkah yang diuraikan dalam panduan ini, kini Anda dapat membangun jembatan antara data Excel dan layanan berbasis web, yang membuka pintu ke banyak kemungkinan. Baik Anda ingin menerapkan analitik, terhubung dengan API, atau sekadar meningkatkan interaksi pengguna, Aspose.Cells siap membantu Anda!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa itu Ekstensi Web di Excel?
 Ekstensi Web memungkinkan integrasi konten dan fungsionalitas web langsung dalam buku kerja Excel, meningkatkan interaktivitas.
 
-### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis untuk tujuan pengujian. Anda dapat mempelajari lebih lanjut dari[Tautan Uji Coba Gratis](https://releases.aspose.com/).
+### Ingyenesen használható az Aspose.Cells?
+Aspose.Cells menawarkan uji coba gratis untuk tujuan pengujian. Anda dapat mempelajari lebih lanjut dari [Tautan Uji Coba Gratis](https://releases.aspose.com/).
 
 ### Bisakah saya membeli Aspose.Cells?
- Ya! Aspose.Cells adalah perangkat lunak berbayar, dan Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy).
+Ya! Aspose.Cells adalah perangkat lunak berbayar, dan Anda dapat membelinya [itt](https://purchase.aspose.com/buy).
 
-### Bahasa pemrograman apa yang didukung Aspose.Cells?
+### Milyen programozási nyelveket támogat az Aspose.Cells?
 Aspose.Cells terutama untuk aplikasi .NET tetapi juga memiliki versi untuk Java dan bahasa lainnya.
 
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
-Jika Anda mengalami masalah atau memiliki pertanyaan, kunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan.
+### Hol találok támogatást az Aspose.Cells-hez?
+Jika Anda mengalami masalah atau memiliki pertanyaan, kunjungi [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) segítségért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

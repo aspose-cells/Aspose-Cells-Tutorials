@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Základní funkce Excelu
@@ -48,9 +50,11 @@ Objevte sílu funkce MIN v Excelu s Aspose.Cells pro Javu. Naučte se snadno hle
 Odhalte tajemství textových funkcí Excelu s Aspose.Cells pro Javu. Naučte se bez námahy manipulovat s textem v Excelu, extrahovat ho a transformovat.
 ### [Tutoriál k funkcím data v Excelu](./excel-date-functions-tutorial/)
 Naučte se pracovat s datem v Excelu pomocí Aspose.Cells pro Javu. Prozkoumejte podrobné návody se zdrojovým kódem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,34 +1,36 @@
 ---
-title: Tambahkan Kontrol Kotak Teks ke Bagan
-linktitle: Tambahkan Kontrol Kotak Teks ke Bagan
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan TextBox ke bagan di Excel menggunakan Aspose.Cells for .NET. Sempurnakan visualisasi data Anda dengan mudah.
-weight: 12
-url: /id/net/inserting-controls-in-charts/add-textbox-control-to-chart/
+"description": "Pelajari cara menambahkan TextBox ke bagan di Excel menggunakan Aspose.Cells for .NET. Sempurnakan visualisasi data Anda dengan mudah."
+"linktitle": "Tambahkan Kontrol Kotak Teks ke Bagan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tambahkan Kontrol Kotak Teks ke Bagan"
+"url": "/id/net/inserting-controls-in-charts/add-textbox-control-to-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Kontrol Kotak Teks ke Bagan
 
-## Perkenalan
+## Bevezetés
 
 Membuat bagan yang dinamis dan menarik secara visual di Excel adalah cara yang fantastis untuk menyajikan data secara efektif. Salah satu fitur praktis yang dapat Anda gunakan adalah menambahkan TextBox ke bagan. Dengan Aspose.Cells for .NET, tugas ini menjadi mudah dan menyenangkan! Dalam panduan ini, kami akan memandu Anda melalui proses mengintegrasikan TextBox ke dalam bagan Anda langkah demi langkah. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan memberi Anda semua alat yang Anda butuhkan untuk menyempurnakan bagan Excel Anda. Jadi, apakah Anda siap untuk mencobanya?
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat kode, ada beberapa hal yang harus Anda siapkan:
 
-- Pemahaman Dasar tentang C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu. Jangan khawatir; Anda tidak perlu menjadi seorang ahli, cukup pahami sintaksisnya.
--  Pustaka Aspose.Cells Terpasang: Pastikan Anda telah memasang pustaka Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
+- Pemahaman Dasar tentang C#: Pemahaman dasar tentang pemrograman C# akan sangat membantu. Jangan khawatir; Anda tidak perlu menjadi seorang ahli, cukup pahami sintaksnya.
+- Pustaka Aspose.Cells Terpasang: Pastikan Anda telah memasang pustaka Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
 - Visual Studio: Keakraban dengan Visual Studio atau IDE apa pun yang ingin Anda gunakan untuk kerangka kerja .NET sangatlah penting.
 - File Excel yang Ada: Untuk contoh ini, kita akan menggunakan file Excel yang sudah ada bernama "sampleAddingTextBoxControlInChart.xls". Anda dapat membuat file tersebut atau mengunduh contohnya.
 
 Sekarang setelah semuanya siap, mari kita masuk ke bagian pengkodean!
 
-## Paket Impor
+## Csomagok importálása
 
 Pertama-tama, kita perlu mengimpor namespace Aspose.Cells yang diperlukan ke proyek C# kita. Anda dapat melakukannya dengan mudah dengan menyertakan baris berikut di bagian atas berkas kode Anda:
 
@@ -40,20 +42,20 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-## Langkah 1: Tentukan Direktori Sumber dan Output Anda
+## 1. lépés: A forrás- és kimeneti könyvtárak meghatározása
 
-Sebelum kita mulai bekerja dengan berkas Excel, penting untuk menentukan di mana berkas masukan Anda berada dan di mana Anda ingin menyimpan berkas keluaran. Ini membantu menjaga proyek Anda tetap terorganisasi.
+Sebelum kita mulai bekerja dengan berkas Excel, penting untuk menentukan di mana berkas masukan Anda berada dan di mana Anda ingin menyimpan berkas keluaran. Ini membantu menjaga proyek Anda tetap teratur.
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
- Mengganti`"Your Document Directory"` Dan`"Your Output Directory"` dengan jalur sebenarnya pada sistem Anda.
+Csere `"Your Document Directory"` és `"Your Output Directory"` dengan jalur sebenarnya pada sistem Anda.
 
-## Langkah 2: Buka File Excel yang Ada
+## 2. lépés: Nyissa meg a meglévő Excel-fájlt
 
 Selanjutnya, kita perlu membuka berkas Excel yang berisi bagan yang ingin kita ubah. Ini akan memungkinkan kita untuk mengambil bagan dan membuat perubahan.
 
@@ -72,7 +74,7 @@ Karena grafik di Excel disimpan dalam lembar kerja, pertama-tama kita perlu meng
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
-Dengan mengubah nilai indeks, Anda dapat memilih lembar kerja atau bagan yang berbeda jika berkas Anda memiliki lebih banyak lagi.
+Dengan mengubah nilai indeks, Anda dapat memilih lembar kerja atau bagan yang berbeda jika berkas Anda memiliki lebih banyak.
 
 ## Langkah 4: Tambahkan Kotak Teks Baru ke Bagan
 
@@ -112,7 +114,7 @@ textbox0.Font.Size = 14;
 textbox0.Font.IsItalic = true;
 ```
 
-Masing-masing baris ini mengubah tampilan teks di dalam TextBox Anda, meningkatkan visibilitas dan daya tarik.
+Masing-masing baris ini mengubah tampilan teks di dalam Kotak Teks Anda, meningkatkan visibilitas dan daya tarik.
 
 ## Langkah 7: Format Tampilan Kotak Teks
 
@@ -134,39 +136,41 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 
 Pilihan ini memungkinkan Anda untuk mengatur isian latar belakang TextBox dan menyesuaikan batasnya.
 
-## Langkah 8: Simpan File Excel yang Dimodifikasi
+## Langkah 8: Simpan File Excel yang Telah Dimodifikasi
 
 Langkah terakhir adalah menyimpan perubahan yang telah Anda buat pada file Excel baru. Ini akan memastikan bahwa file asli Anda tetap utuh.
 
 ```csharp
-// Simpan berkas excel.
+// Mentse el az excel fájlt.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Mengganti`"outputAddingTextBoxControlInChart.xls"` dengan nama berkas apa pun yang Anda sukai.
+Csere `"outputAddingTextBoxControlInChart.xls"` dengan nama berkas apa pun yang Anda sukai.
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda telah berhasil menambahkan kontrol TextBox ke bagan menggunakan Aspose.Cells for .NET. Perubahan sederhana namun efektif ini dapat membuat bagan Anda lebih informatif dan menarik secara visual. Representasi data adalah kunci komunikasi yang efektif, dan dengan alat seperti Aspose, Anda memiliki kekuatan untuk menyempurnakan presentasi tersebut dengan upaya minimal.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells untuk .NET?
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells untuk .NET adalah pustaka yang hebat untuk membuat, memanipulasi, dan mengonversi file Excel tanpa perlu bergantung pada Microsoft Excel.
 
 ### Bisakah saya menambahkan beberapa Kotak Teks ke satu bagan?
 Ya! Anda dapat menambahkan TextBox sebanyak yang Anda perlukan dengan mengulangi langkah-langkah pembuatan TextBox dengan posisi yang berbeda.
 
-### Apakah Aspose.Cells gratis untuk digunakan?
-Aspose.Cells adalah pustaka berbayar, tetapi Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+### Ingyenesen használható az Aspose.Cells?
+Aspose.Cells adalah pustaka berbayar, tetapi Anda dapat mengunduh versi uji coba gratis dari [itt](https://releases.aspose.com/).
 
-### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?
- Anda dapat mengakses dokumentasi yang komprehensif[Di Sini](https://reference.aspose.com/cells/net/).
+### Hol találok további dokumentációt az Aspose.Cells-ről?
+Anda dapat mengakses dokumentasi yang komprehensif [itt](https://reference.aspose.com/cells/net/).
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mencari bantuan melalui forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+Anda dapat mencari bantuan melalui forum dukungan Aspose [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

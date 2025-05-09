@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ license.setLicense("path_to_your_license.lic");
 String dataDir = "YOUR_DATA_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีข้อมูลของคุณ
 Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 ```
-- **คำอธิบาย**: เริ่มต้นการ `Workbook` วัตถุจากไฟล์ที่มีอยู่ ทำให้คุณสามารถจัดการเนื้อหาของมันได้
+- **คำอธิบาย**: เริ่มต้น a `Workbook` วัตถุจากไฟล์ที่มีอยู่ ทำให้คุณสามารถจัดการเนื้อหาของมันได้
 #### ขั้นตอนที่ 2: เข้าถึงแผ่นงาน
 ```java
 Cells cells = workbook.getWorksheets().get("Columns").getCells();
@@ -126,6 +128,9 @@ workbook.save(outDir + "CMultipleColumns_out.xlsx");
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

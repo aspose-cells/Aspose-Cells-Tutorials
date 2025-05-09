@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ options.getLoadFilter().setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~Lo
 ```
 
 **Steg 3: Läs in arbetsboken**
-Ange sökvägen till din Excel-fil och den konfigurerade `LoadOptions` till `Workbook` konstruktorn. Detta steg initierar arbetsboken med endast nödvändiga data:
+Skicka din Excel-filsökväg och den konfigurerade `LoadOptions` till `Workbook` konstruktorn. Detta steg initierar arbetsboken med endast nödvändiga data:
 ```java
 Workbook workbook = new Workbook(dataDir + "LoadSourceExcelFile.xlsx", options);
 ```
@@ -156,6 +158,9 @@ Omfamna kraften i Aspose.Cells för Java för att effektivisera dina Excel-filbe
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Veri Güvenliği
@@ -40,9 +42,11 @@ Java için Aspose.Cells'i kullanarak etkili Veri Maskeleme Tekniklerini öğreni
 Aspose.Cells for Java API'sini kullanarak dosya erişimini nasıl denetleyeceğinizi öğrenin. Kaynak kodu ve SSS içeren adım adım kılavuz.
 ### [Güvenlik için Veri Doğrulaması](./data-validation-for-security/)
 Java için Aspose.Cells ile Veri Güvenliğini Geliştirin. Kapsamlı Veri Doğrulama Tekniklerini Keşfedin. Sağlam Doğrulama ve Korumayı Nasıl Uygulayacağınızı Öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

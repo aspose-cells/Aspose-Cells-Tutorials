@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,7 +168,7 @@ Cselekedjen most, és próbálja meg megvalósítani ezt a megoldást a projektj
 
 ## Erőforrás
 
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ideiglenes engedély](https://releases.aspose.com/cells/java/)
@@ -175,6 +177,9 @@ Cselekedjen most, és próbálja meg megvalósítani ezt a megoldást a projektj
 Indulj el az Aspose.Cells-szel, és hozd ki a legtöbbet az Excel feldolgozásából Java nyelven!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

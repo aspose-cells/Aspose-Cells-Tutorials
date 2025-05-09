@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### लाइसेंस अधिग्रहण
 Aspose.Cells का पूर्ण उपयोग करने के लिए, आपको लाइसेंस की आवश्यकता है:
 - **मुफ्त परीक्षण**: कुछ सीमाओं के साथ लाइब्रेरी का परीक्षण करें.
-- **अस्थायी लाइसेंस**विस्तारित मूल्यांकन के लिए.
+- **अस्थायी लाइसेंस**: विस्तारित मूल्यांकन के लिए.
 - **खरीद लाइसेंस**: व्यावसायिक उपयोग के लिए.
 
 लाइसेंस प्राप्त करने के बारे में अधिक जानकारी के लिए, यहां जाएं [Aspose का खरीद पृष्ठ](https://purchase.aspose.com/buy).
@@ -134,6 +136,9 @@ workbook.save(dataDir + "DCChecker_out.xls");
 - [सामुदायिक सहायता मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

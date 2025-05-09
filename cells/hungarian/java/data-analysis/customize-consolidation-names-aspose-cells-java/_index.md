@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ public class CustomSettings extends GlobalizationSettings {
 ```
 
 **Magyarázat:**
-- `getTotalName()`: Az átlagos függvények esetén az "AVG" értéket adja vissza.
+- `getTotalName()`: Az átlagos függvények "AVG" értékét adja vissza.
 - `getGrandTotalName()`: A "GRAND AVG" értéket adja vissza az átlagok összegzéséhez.
 
 #### 2. lépés: Egyéni beállítások integrálása
@@ -164,7 +166,7 @@ Próbáld ki, és nézd meg, hogyan javíthatják az adatfeldolgozási munkafoly
 1. **Mi az Aspose.Cells?**  
    Az Aspose.Cells egy hatékony függvénykönyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan dolgozzanak Excel fájlokkal anélkül, hogy telepíteniük kellene a Microsoft Office-t.
 
-2. **Testreszabhatom más függvények nevét?**  
+2. **Testreszabhatom a többi függvény nevét?**  
    Igen, meghosszabbíthatod a `GlobalizationSettings` tovább osztályozhatja a további funkciókat szükség szerint.
 
 3. **Hogyan kezeljem hatékonyan a nagy adathalmazokat?**  
@@ -188,6 +190,9 @@ Próbáld ki, és nézd meg, hogyan javíthatják az adatfeldolgozási munkafoly
 További útmutatásért és támogatásért az Aspose.Cells Java használatához tekintsd át ezeket a forrásokat. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

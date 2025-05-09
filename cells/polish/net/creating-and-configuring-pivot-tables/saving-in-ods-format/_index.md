@@ -1,14 +1,16 @@
 ---
-title: Zapisywanie tabeli przestawnej w formacie ODS programowo w .NET
-linktitle: Zapisywanie tabeli przestawnej w formacie ODS programowo w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zapisywać tabele przestawne w formacie ODS przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku.
-weight: 25
-url: /pl/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Dowiedz się, jak zapisywać tabele przestawne w formacie ODS przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Zapisywanie tabeli przestawnej w formacie ODS programowo w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zapisywanie tabeli przestawnej w formacie ODS programowo w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie tabeli przestawnej w formacie ODS programowo w .NET
@@ -21,7 +23,7 @@ Zanim przejdziemy do kodu, jest kilka niezbędnych rzeczy, których będziesz po
 ### 1. Podstawowa wiedza o .NET
 Podstawowa znajomość platformy .NET i jej koncepcji programowania ułatwi Ci naukę.
 ### 2. Aspose.Cells dla .NET
- Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/cells/net/) . Dostępna jest również wersja próbna[Tutaj](https://releases.aspose.com/).
+Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/cells/net/). Dostępna jest również wersja próbna [Tutaj](https://releases.aspose.com/).
 ### 3. Środowisko programistyczne
 Upewnij się, że masz środowisko IDE, takie jak Visual Studio, w którym możesz pisać i testować kod .NET.
 ### 4. Trochę cierpliwości
@@ -39,7 +41,7 @@ Najpierw musisz zdefiniować, gdzie chcesz zapisać plik ODS. Jest to proste prz
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- W tym wierszu zamień`"Your Document Directory"` ze ścieżką, pod którą chcesz zapisać plik.
+W tym wierszu zamień `"Your Document Directory"` ze ścieżką, pod którą chcesz zapisać plik.
 ## Krok 2: Utwórz nowy skoroszyt
 Następnie utworzysz nowy obiekt Skoroszyt, który będzie zawierał wszystkie dane i struktury, łącznie z tabelą przestawną.
 ```csharp
@@ -90,12 +92,12 @@ PivotTableCollection pivotTables = sheet.PivotTables;
 // Dodawanie tabeli przestawnej do arkusza kalkulacyjnego
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- W tym fragmencie kodu określamy zakres danych dla tabeli przestawnej i miejsce jej umieszczenia w arkuszu. Zakres danych`=A1:C8` obejmuje obszar, na którym znajdują się nasze dane.
+tym fragmencie kodu określamy zakres danych dla tabeli przestawnej i miejsce jej umieszczenia w arkuszu. Zakres danych `=A1:C8` obejmuje obszar, na którym znajdują się nasze dane.
 ## Krok 6: Dostosuj swoją tabelę przestawną
-Następnie będziesz chciał dostosować swoją tabelę przestawną do swoich potrzeb. Wiąże się to z kontrolowaniem tego, co jest wyświetlane, jak jest kategoryzowane i jak oblicza dane.
+Następnie będziesz chciał dostosować swoją tabelę przestawną do swoich potrzeb. Obejmuje to kontrolowanie tego, co jest wyświetlane, jak jest kategoryzowane i jak oblicza dane.
 ```csharp
 PivotTable pivotTable = pivotTables[index];
-// Niewyświetlanie sum całkowitych dla wierszy.
+// Wyłączanie wyświetlania sum całkowitych dla wierszy.
 pivotTable.RowGrand = false;
 // Przeciąganie pierwszego pola do obszaru wiersza.
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
@@ -111,7 +113,7 @@ Na koniec jesteś gotowy, aby zapisać swoją pracę w pożądanym formacie ODS.
 ```csharp
 workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
 ```
-Na tym etapie kończysz projekt i zabezpieczasz go w wybranym katalogu — to satysfakcjonujące zakończenie!
+W tym kroku kończysz swój projekt i zabezpieczasz go w wybranym katalogu — to satysfakcjonujące zakończenie!
 ## Krok 8: Zweryfikuj swoje dane wyjściowe
 Na koniec, zawsze dobrym pomysłem jest sprawdzenie, czy proces zakończył się pomyślnie. Możesz dodać prosty komunikat konsoli:
 ```csharp
@@ -119,21 +121,23 @@ Console.WriteLine("PivotTableSaveInODS executed successfully.");
 ```
 Ta wiadomość pojawi się na Twojej konsoli, aby potwierdzić, że wszystko poszło bez problemów. Tak jak szef kuchni sprawdzający, czy wszystko jest ugotowane perfekcyjnie przed podaniem!
 ## Wniosek 
-masz to! Nie tylko utworzyłeś tabelę przestawną za pomocą Aspose.Cells, ale także zapisałeś ją w formacie ODS. Ten przewodnik przeprowadzi Cię przez każdy krok, zapewniając, że jesteś uzbrojony w wiedzę i pewność siebie, aby zająć się podobnymi zadaniami w przyszłości.
+I masz to! Nie tylko utworzyłeś tabelę przestawną za pomocą Aspose.Cells, ale także zapisałeś ją w formacie ODS. Ten przewodnik przeprowadzi Cię przez każdy krok, zapewniając, że jesteś uzbrojony w wiedzę i pewność siebie, aby zająć się podobnymi zadaniami w przyszłości.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka umożliwiająca tworzenie i manipulowanie plikami Excela w aplikacjach .NET.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/).
 ### Jakie formaty obsługuje Aspose.Cells?
 Obsługuje wiele formatów, w tym XLSX, XLS, ODS, PDF i wiele innych.
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Pomoc można znaleźć na[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Pomoc można znaleźć na [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 ### Czy jest dostępna licencja tymczasowa?
- Tak, możesz ubiegać się o tymczasową licencję za pośrednictwem witryny Aspose[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz ubiegać się o tymczasową licencję za pośrednictwem witryny Aspose [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

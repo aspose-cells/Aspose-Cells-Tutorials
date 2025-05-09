@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/exporting-document-workb
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exporting Document Workbook and Worksheet Properties in HTML
@@ -146,6 +148,7 @@ Yes, you can obtain a free trial version of Aspose.Cells from the [website](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

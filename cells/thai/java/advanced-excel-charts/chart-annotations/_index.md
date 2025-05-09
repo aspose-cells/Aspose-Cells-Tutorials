@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # คำอธิบายแผนภูมิ
@@ -74,7 +76,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## การเพิ่มคำอธิบายลงในแผนภูมิ
 
-หากต้องการเพิ่มคำอธิบายลงในแผนภูมิ เราสามารถใช้ `TextFrame` คลาสใน Aspose.Cells
+เพื่อเพิ่มคำอธิบายลงในแผนภูมิ เราสามารถใช้ `TextFrame` คลาสใน Aspose.Cells
 
 ```java
 // การเพิ่มคำอธิบายลงในแผนภูมิ
@@ -127,6 +129,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ license.setLicense("path_to_your_license.lic");
 예기치 않게 Excel이 닫혔을 때 저장되지 않은 작업을 자동으로 복구할지 여부를 제어합니다.
 
 **구현 단계:**
-1. **자동 복구를 False로 설정하세요.**
+1. **자동 복구를 False로 설정하세요:**
    ```java
    workbook.getSettings().setAutoRecover(false); // 자동 복구 기능 비활성화
    ```
@@ -180,6 +182,9 @@ Excel 파일을 관리할 준비가 되셨나요? 다음 프로젝트에 이 솔
 - **지원하다**: 토론에 참여하고 도움을 구하세요. [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Paper Width And Height Of Worksheet
@@ -116,6 +118,7 @@ The [Aspose.Cells documentation](https://reference.aspose.com/cells/net/) offers
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

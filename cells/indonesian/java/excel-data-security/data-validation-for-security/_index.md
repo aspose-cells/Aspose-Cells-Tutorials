@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi Data untuk Keamanan
 
 
-## Perkenalan
+## Bevezetés
 
 Di era di mana data merupakan urat nadi bisnis dan organisasi, memastikan keamanan dan keakuratannya menjadi hal yang terpenting. Validasi data merupakan aspek penting dari proses ini. Artikel ini membahas bagaimana Aspose.Cells for Java dapat dimanfaatkan untuk menerapkan mekanisme validasi data yang tangguh.
 
@@ -30,11 +32,11 @@ Validasi data penting karena melindungi integritas dan keamanan data Anda. Denga
 
 Sebelum kita menyelami validasi data, mari kita siapkan lingkungan pengembangan kita dengan Aspose.Cells untuk Java. Ikuti langkah-langkah berikut untuk memulai:
 
-### Instalasi
-1. Unduh pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
+### Telepítés
+1. Unduh pustaka Aspose.Cells untuk Java dari [itt](https://releases.aspose.com/cells/java/).
 2. Tambahkan perpustakaan ke proyek Java Anda.
 
-### Inisialisasi
+### Inicializálás
 Sekarang, inisialisasi Aspose.Cells untuk Java dalam kode Anda:
 
 ```java
@@ -42,7 +44,7 @@ import com.aspose.cells.*;
 
 public class DataValidationExample {
     public static void main(String[] args) {
-        // Inisialisasi Aspose.Cells
+        // Aspose.Cells inicializálása
         License license = new License();
         license.setLicense("Aspose.Cells.lic");
     }
@@ -111,7 +113,7 @@ Untuk meningkatkan keamanan lebih jauh, lindungi lembar kerja dan buku kerja And
 // Lindungi lembar kerja
 worksheet.protect(ProtectionType.ALL);
 
-// Lindungi buku kerja
+// A munkafüzet védelme
 workbook.protect(ProtectionType.ALL);
 ```
 
@@ -127,11 +129,11 @@ Jelajahi kasus penggunaan dunia nyata di mana validasi data dengan Aspose.Cells 
 
 Temukan praktik terbaik untuk menerapkan validasi data secara efektif dan efisien.
 
-## Kesimpulan
+## Következtetés
 
 Di era di mana data adalah raja, mengamankannya bukanlah pilihan, melainkan keharusan. Aspose.Cells untuk Java membekali Anda dengan berbagai alat untuk menerapkan mekanisme validasi data yang tangguh, menjaga integritas dan keamanan data Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa itu validasi data?
 
@@ -156,6 +158,7 @@ Teknik tingkat lanjut mencakup pembuatan daftar drop-down dan penggunaan rumus u
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

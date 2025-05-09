@@ -7,26 +7,28 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengonversi Grafik Excel ke SVG Menggunakan Aspose.Cells di Java
 
-## Perkenalan
+## Bevezetés
 
 Menampilkan hasil analisis data dari buku kerja Excel Anda di web tanpa kehilangan kualitas sangatlah penting. Dengan Aspose.Cells untuk Java, mengonversi bagan Excel menjadi grafik vektor yang dapat diskalakan (SVG) menjadi lancar dan efisien. Tutorial ini akan memandu Anda mengubah bagan Excel Anda menjadi format SVG menggunakan Aspose.Cells Java, memastikan tampilan berkualitas tinggi di berbagai platform.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara memuat buku kerja Excel dari file
 - Mengakses lembar kerja dan bagan dalam buku kerja
 - Mengonversi grafik Excel ke gambar SVG
 
 Mari atur lingkungan Anda sebelum terjun ke coding!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 - Java Development Kit (JDK) terinstal di sistem Anda.
 - Lingkungan Pengembangan Terpadu (IDE), seperti IntelliJ IDEA atau Eclipse.
 - Pemahaman dasar tentang pemrograman Java.
@@ -36,7 +38,7 @@ Selain itu, Anda perlu menyiapkan Aspose.Cells untuk Java. Berikut caranya:
 ## Menyiapkan Aspose.Cells untuk Java
 
 ### Pakar
-Untuk menambahkan Aspose.Cells sebagai dependensi dalam proyek Maven Anda, masukkan yang berikut ke dalam `pom.xml` mengajukan:
+Untuk menambahkan Aspose.Cells sebagai dependensi dalam proyek Maven Anda, masukkan yang berikut ke dalam `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,45 +48,45 @@ Untuk menambahkan Aspose.Cells sebagai dependensi dalam proyek Maven Anda, masuk
 ```
 
 ### Bahasa Inggris Gradle
-Untuk proyek Gradle, tambahkan baris ini ke `build.gradle` mengajukan:
+Untuk proyek Gradle, tambahkan baris ini ke `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-- **Uji Coba Gratis:** Mulailah dengan mengunduh pustaka Aspose.Cells dari mereka [halaman rilis](https://releases.aspose.com/cells/java/) untuk uji coba gratis.
-- **Lisensi Sementara:** Jika Anda membutuhkan lebih banyak waktu, dapatkan lisensi sementara melalui [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi penuh di [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Mulailah dengan mengunduh pustaka Aspose.Cells dari mereka [kiadások oldala](https://releases.aspose.com/cells/java/) untuk uji coba gratis.
+- **Ideiglenes engedély:** Jika Anda membutuhkan lebih banyak waktu, dapatkan lisensi sementara melalui [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás:** Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi penuh di [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
 Setelah mengunduh dan menambahkan pustaka ke proyek Anda, inisialisasi Aspose.Cells:
 ```java
 import com.aspose.cells.Workbook;
-// Inisialisasi Buku Kerja
+// Munkafüzet inicializálása
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Muat Buku Kerja dari File
 
-**Ringkasan:**
+**Áttekintés:**
 Langkah pertama adalah memuat buku kerja Excel. Ini menyiapkan lingkungan untuk mengakses grafik.
 ```java
 import com.aspose.cells.Workbook;
-// Memuat buku kerja Excel dari direktori yang ditentukan.
+// Excel munkafüzet betöltése egy megadott könyvtárból.
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - `Workbook` kelas menginisialisasi dan memuat berkas Excel Anda.
 - Tentukan jalur ke file Excel Anda menggunakan `dataDir`.
 
 ### Akses Lembar Kerja dan Bagan
 
-**Ringkasan:**
+**Áttekintés:**
 Setelah memuat, akses lembar kerja dan bagan tertentu yang ingin Anda ubah.
 ```java
 import com.aspose.cells.Worksheet;
@@ -94,13 +96,13 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Chart chart = worksheet.getCharts().get(0);
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - `worksheet` adalah sebuah objek bertipe `Worksheet`.
 - `chart` diambil dari koleksi bagan lembar kerja.
 
 ### Konversi Bagan ke Gambar SVG
 
-**Ringkasan:**
+**Áttekintés:**
 Langkah terakhir melibatkan pengubahan bagan menjadi gambar SVG untuk tampilan berkualitas tinggi.
 ```java
 import com.aspose.cells.ImageOrPrintOptions;
@@ -112,35 +114,35 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 chart.toImage(outDir + "CCToImageinSVGFormat_out.svg", options);
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - `ImageOrPrintOptions` mengonfigurasikan cara penyimpanan bagan.
 - Atur format ke SVG menggunakan `SaveFormat.SVG`.
 - Simpan gambar keluaran di direktori yang Anda inginkan.
 
-### Tips Pemecahan Masalah
-- Pastikan jalur berkas benar dan dapat diakses.
+### Hibaelhárítási tippek
+- Győződjön meg arról, hogy a fájlelérési utak helyesek és elérhetőek.
 - Periksa masalah spesifik versi dengan dokumentasi Aspose.Cells jika terjadi kesalahan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Analisis Web:** Menampilkan data analitis pada dasbor web menggunakan bagan SVG, memastikan resolusi tinggi di seluruh perangkat.
 2. **Pembuatan Laporan:** Sematkan gambar SVG dalam laporan PDF atau email untuk presentasi berkualitas profesional.
-3. **Integrasi Dasbor:** Integrasikan bagan SVG ke dalam alat intelijen bisnis yang mendukung grafik vektor.
+3. **Műszerfal integráció:** Integrasikan bagan SVG ke dalam alat intelijen bisnis yang mendukung grafik vektor.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - Optimalkan penggunaan memori dengan membuang objek buku kerja saat tidak lagi diperlukan.
 - Gunakan Aspose.Cells versi terbaru untuk mendapatkan manfaat peningkatan kinerja dan perbaikan bug.
 - Kelola pengumpulan sampah Java secara efektif saat menangani file Excel berukuran besar.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara mengonversi grafik Excel ke SVG menggunakan Aspose.Cells untuk Java. Kemampuan ini sangat berharga untuk menampilkan grafik berkualitas tinggi dalam aplikasi web, laporan, atau dasbor. Untuk lebih menyempurnakan proyek Anda, jelajahi fitur Aspose.Cells lainnya dan coba integrasikan ke dalam alur kerja Anda.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan berbagai jenis bagan dan lihat bagaimana hasilnya.
 - Jelajahi pilihan pemformatan tambahan yang tersedia dalam pustaka.
 
-Siap untuk mulai menerapkan? Pelajari lebih lanjut [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) untuk wawasan lebih dalam!
+Siap untuk mulai menerapkan? Pelajari lebih lanjut [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) untuk wawasan lebih dalam!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Untuk apa Aspose.Cells Java digunakan?**
    Ini adalah pustaka yang hebat untuk bekerja dengan berkas Excel dalam aplikasi Java, yang memungkinkan Anda membaca, menulis, dan mengonversi lembar kerja.
 2. **Bisakah saya menggunakan Aspose.Cells tanpa membelinya?**
@@ -150,17 +152,20 @@ Siap untuk mulai menerapkan? Pelajari lebih lanjut [Dokumentasi Aspose.Cells](ht
 4. **Format file apa yang dapat dikonversi ke dan dari Aspose.Cells?**
    Mendukung banyak format termasuk XLSX, CSV, PDF, dan SVG antara lain.
 5. **Bagaimana cara menangani masalah perizinan jika masa uji coba saya berakhir?**
-   Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk pilihan dalam memperoleh lisensi.
+   Látogassa meg a [vásárlási oldal](https://purchase.aspose.com/buy) untuk pilihan dalam memperoleh lisensi.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

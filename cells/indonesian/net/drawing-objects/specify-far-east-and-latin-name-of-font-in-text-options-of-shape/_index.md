@@ -1,45 +1,50 @@
 ---
-title: Buat Excel Workbook dengan Fonts Timur Jauh & Latin
-weight: 7700
-limit: 
-description: Pelajari untuk membuat buku kerja Excel di .NET menggunakan Aspose.Cells, menambahkan kotak teks dengan nama font Timur Jauh dan Latin yang ditentukan.
-keywords: [Aspose.Cells, .NET, Excel, workbook, textbox, Far East font, Latin font, coding example]
-url: /id/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/
+"description": "Pelajari cara membuat buku kerja Excel di .NET menggunakan Aspose.Cells, menambahkan kotak teks dengan nama font Timur Jauh dan Latin yang ditentukan."
+"title": "Buat Buku Kerja Excel dengan Font Timur Jauh & Latin"
+"url": "/id/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Excel Workbook dengan Fonts Timur Jauh & Latin
+# Buat Buku Kerja Excel dengan Font Timur Jauh & Latin
 
-Contoh ini menunjukkan bagaimana menggunakan Aspose.Cells untuk .NET untuk membuat buku kerja Excel, menambahkan kotak teks ke lembar kerja, dan mengatur kedua nama font Timur Jauh dan Latin untuk teks di dalam kotak teks itu. Kode ini menampilkan inisialisasi ruang kerja, memanipulasi elemen lembar kerja, dan menyimpan buku kerja dengan format font khusus yang disesuaikan dengan persyaratan bahasa yang berbeda.
+Contoh ini menunjukkan cara menggunakan Aspose.Cells for .NET untuk membuat buku kerja Excel, menambahkan kotak teks ke lembar kerja, dan mengatur nama fon Timur Jauh dan Latin untuk teks di dalam kotak teks tersebut. Kode tersebut menunjukkan inisialisasi ruang kerja, manipulasi elemen lembar kerja, dan penyimpanan buku kerja dengan format fon tertentu yang disesuaikan untuk berbagai persyaratan bahasa.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruksi Instalasi
-1. Instal Aspose.Cells untuk .NET: 
-   * Gunakan NuGet Package Manager dalam proyek Visual Studio Anda:
+## Telepítési utasítások
+1. Az Aspose.Cells telepítése .NET-hez: 
+   - Gunakan NuGet Package Manager di proyek Visual Studio Anda:
      ```
      Install-Package Aspose.Cells
      ```
-   * Atau download DLL dari [Aspose situs web](https://www.aspose.com/downloads/cells/net)Aku tidak tahu.
+   - Atau unduh DLL dari [Aspose weboldal](https://www.aspose.com/downloads/cells/net).
 
-2. Tambahkan Referensi: Pastikan proyek Anda referensi perpustakaan Aspose.Cells.
+2. Tambahkan Referensi: Pastikan proyek Anda merujuk ke pustaka Aspose.Cells.
 
-3. Setup Output Directory: Update the `outputDir`variabel dalam kode dengan jalur output yang diinginkan di mana file Excel akan disimpan.
+3. Siapkan Direktori Output: Perbarui `outputDir` variabel dalam kode dengan jalur keluaran yang diinginkan di mana file Excel akan disimpan.
 
-4. Run the Example: Copy the provided C# code into your project, compile, and run it. You should see the output confirmation, and the Excel file with the configured textbox will be created in the specified directory.
+4. Jalankan Contoh: Salin kode C# yang diberikan ke dalam proyek Anda, kompilasi, dan jalankan. Anda akan melihat konfirmasi output, dan file Excel dengan kotak teks yang dikonfigurasi akan dibuat di direktori yang ditentukan.
 
-## Lihat juga  
-Untuk membeli lisensi, pergi ke [Aspose halaman pembelian](https://purchase.aspose.com/buy)Aku tidak tahu.  
-Untuk dokumentasi lengkap, kunjungi [Aspose.Cells untuk Dokumen .NET](https://docs.aspose.com/cells/net/)Aku tidak tahu.  
-Untuk menjelajahi referensi API lengkap, periksa [Aspose.Cells untuk Referensi API .NET](https://reference.aspose.com/cells/net/)Aku tidak tahu. 
+## Lihat Juga  
+Untuk membeli lisensi, kunjungi [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+Untuk dokumentasi lengkap, kunjungi [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+Untuk menjelajahi referensi API lengkap, lihat [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

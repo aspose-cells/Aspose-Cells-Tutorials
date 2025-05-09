@@ -1,32 +1,34 @@
 ---
-title: Terapkan Ukuran Kertas Kustom Lembar Kerja Untuk Rendering
-linktitle: Terapkan Ukuran Kertas Kustom Lembar Kerja Untuk Rendering
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara mengatur ukuran kertas khusus di Excel dengan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk membuat lembar kerja yang mudah.
-weight: 50
-url: /id/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
+"description": "Pelajari cara mengatur ukuran kertas khusus di Excel dengan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk membuat lembar kerja yang mudah."
+"linktitle": "Terapkan Ukuran Kertas Kustom Lembar Kerja Untuk Rendering"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Terapkan Ukuran Kertas Kustom Lembar Kerja Untuk Rendering"
+"url": "/id/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Terapkan Ukuran Kertas Kustom Lembar Kerja Untuk Rendering
 
-## Perkenalan
+## Bevezetés
 
 Membuat dan menyesuaikan dokumen Excel secara terprogram dapat membuat pekerjaan Anda lebih efisien, terutama jika Anda menangani banyak laporan atau entri data. Dengan Aspose.Cells untuk .NET, Anda dapat dengan mudah mengatur ukuran kertas khusus untuk merender lembar kerja. Dalam tutorial ini, kami akan menguraikan proses menjadi langkah-langkah yang mudah diikuti, memastikan Anda dapat menerapkan fungsi ini dengan lancar. Apakah Anda seorang pengembang berpengalaman atau baru saja terjun ke dunia .NET,
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, mari pastikan Anda sudah menyiapkannya dengan benar. Berikut ini yang Anda perlukan untuk memulai:
 
 1. Visual Studio atau IDE .NET apa pun: Pastikan Anda memiliki IDE yang berfungsi seperti Visual Studio. Ini akan menjadi tempat bermain Anda di mana semua keajaiban pengkodean terjadi.
-2. Paket Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbaru di[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Paket Aspose.Cells untuk .NET: Jika Anda belum melakukannya, Anda perlu mengunduh dan menginstal pustaka Aspose.Cells. Anda dapat menemukan versi terbaru di [Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sementara kami akan memandu Anda melalui kodenya, pemahaman yang mendalam tentang C# akan membantu Anda memahami nuansanya dengan lebih baik.
 4. Akses ke .NET Framework: Pastikan proyek Anda diatur untuk menargetkan versi .NET Framework yang kompatibel.
 
-## Mengimpor Paket
+## Csomagok importálása
 
 Setelah semuanya terinstal, saatnya mengimpor paket yang diperlukan. Di sinilah Anda memasukkan Aspose.Cells ke proyek Anda. Berikut caranya:
 
@@ -34,16 +36,16 @@ Setelah semuanya terinstal, saatnya mengimpor paket yang diperlukan. Di sinilah 
 
 Buka Visual Studio atau IDE .NET pilihan Anda.
 
-### Buat Proyek Baru
+### Új projekt létrehozása
 
 Mulai Aplikasi Konsol C# yang baru. Ini adalah cara mudah untuk menguji kode kita tanpa beban aplikasi web.
 
-### Tambahkan Referensi Aspose.Cells
+### Aspose.Cells hivatkozás hozzáadása
 
 Untuk menambahkan referensi pustaka Aspose.Cells, ikuti langkah-langkah berikut:
 - Klik kanan pada proyek Anda di Solution Explorer,
 - Pilih "Kelola Paket NuGet",
-- Cari “Aspose.Cells” dan instal.
+- Keresd meg az „Aspose.Cells” fájlt, és telepítsd.
 
 ```csharp
 using System.IO;
@@ -55,7 +57,7 @@ Sekarang Anda siap berangkat!
 
 Sekarang semuanya sudah siap, mari kita gali lebih dalam langkah-langkah yang diperlukan untuk menerapkan ukuran kertas khusus untuk lembar kerja Anda. 
 
-## Langkah 1: Siapkan Direktori Output
+## 1. lépés: A kimeneti könyvtár beállítása
 
 Sebelum kita memulai pengkodean, tentukan di mana Anda ingin menyimpan berkas PDF keluaran Anda, dan atur dalam kode Anda.
 
@@ -63,9 +65,9 @@ Sebelum kita memulai pengkodean, tentukan di mana Anda ingin menyimpan berkas PD
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Pastikan untuk mengganti`"YOUR_OUTPUT_DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen PDF. Anggap saja ini seperti menata meja sebelum Anda mulai memasak; Anda memerlukan tempat yang bersih untuk bekerja.
+Mindenképpen cserélje ki `"YOUR_OUTPUT_DIRECTORY"` dengan jalur sebenarnya tempat Anda ingin menyimpan dokumen PDF. Anggap saja ini seperti menata meja sebelum Anda mulai memasak; Anda memerlukan tempat yang bersih untuk bekerja.
 
-## Langkah 2: Buat Objek Buku Kerja
+## 2. lépés: Munkafüzet-objektum létrehozása
 
 Sekarang, mari kita buat contoh buku kerja. Ini sama seperti membuat kanvas kosong untuk melukis.
 
@@ -73,7 +75,7 @@ Sekarang, mari kita buat contoh buku kerja. Ini sama seperti membuat kanvas koso
 Workbook wb = new Workbook();
 ```
 
-## Langkah 3: Akses Lembar Kerja Pertama
+## 3. lépés: Az első munkalap elérése
 
 Karena buku kerja baru dilengkapi lembar default, mari kita akses itu! 
 
@@ -83,9 +85,9 @@ Worksheet ws = wb.Worksheets[0];
 
 Di sini, Anda memberi tahu kode Anda, “Hei, saya ingin bekerja dengan lembar kerja khusus ini!” 
 
-## Langkah 4: Atur Ukuran Kertas Kustom
+## 4. lépés: Egyéni papírméret beállítása
 
-Sekarang kita sampai pada bagian yang menarik. Mari kita atur ukuran kertas khusus untuk lembar kerja kita.
+Sekarang kita masuk ke bagian yang menarik. Mari kita atur ukuran kertas khusus untuk lembar kerja kita.
 
 ```csharp
 ws.PageSetup.CustomPaperSize(6, 4);
@@ -101,7 +103,7 @@ Berikutnya, kita perlu mengakses sel tertentu di mana kita akan menempatkan pesa
 Cell b4 = ws.Cells["B4"];
 ```
 
-Di sini, kita memilih sel B4. Ini seperti memilih titik tertentu pada kanvas untuk menambahkan teks.
+Di sini, kita memilih sel B4. Ini seperti memilih titik tertentu di kanvas untuk menambahkan teks.
 
 ## Langkah 6: Tambahkan Nilai ke Sel
 
@@ -123,29 +125,31 @@ wb.Save(outputDir + "outputCustomPaperSize.pdf");
 
 Dengan baris ini, Anda memberi tahu program Anda untuk mengambil semua yang telah Anda lakukan sejauh ini dan mengemasnya dengan baik ke dalam format PDF.
 
-## Kesimpulan
+## Következtetés
 
-Menerapkan ukuran kertas khusus untuk lembar kerja Excel Anda menggunakan Aspose.Cells tidak hanya mudah tetapi juga sangat berguna. Dengan langkah-langkah yang diuraikan dalam panduan ini, Anda dapat membuat dokumen khusus yang sesuai dengan kebutuhan Anda. Baik Anda membuat laporan atau membuat formulir khusus, kemampuan untuk menyesuaikan ukuran kertas akan meningkatkan profesionalisme dan kegunaan dokumen Anda. 
+Menerapkan ukuran kertas khusus untuk lembar kerja Excel Anda menggunakan Aspose.Cells tidak hanya mudah, tetapi juga sangat berguna. Dengan langkah-langkah yang diuraikan dalam panduan ini, Anda dapat membuat dokumen khusus yang sesuai dengan kebutuhan Anda. Baik Anda membuat laporan atau membuat formulir khusus, kemampuan untuk menyesuaikan ukuran kertas akan meningkatkan profesionalisme dan kegunaan dokumen Anda. 
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah saya menggunakan Aspose.Cells tanpa membeli lisensi?
- Ya, Anda dapat mencoba versi uji coba gratis Aspose.Cells untuk .NET, tersedia[Di Sini](https://releases.aspose.com/).
+### Használhatom az Aspose.Cells-t licenc vásárlása nélkül?
+Ya, Anda dapat mencoba versi uji coba gratis Aspose.Cells untuk .NET, tersedia [itt](https://releases.aspose.com/).
 
 ### Apa yang terjadi jika saya melampaui batas lisensi sementara?
- Melebihi batas akan menyebabkan keluaran bertanda air. Sebaiknya pilih lisensi permanen untuk layanan tanpa gangguan. Anda dapat menemukan opsi[Di Sini](https://purchase.aspose.com/buy).
+Melebihi batas akan menyebabkan keluaran bertanda air. Sebaiknya pilih lisensi permanen untuk layanan tanpa gangguan. Anda dapat menemukan opsi [itt](https://purchase.aspose.com/buy).
 
-### Apakah Aspose.Cells kompatibel dengan .NET Core?
+### Az Aspose.Cells kompatibilis a .NET Core-ral?
 Ya, Aspose.Cells untuk .NET mendukung .NET Core. Anda dapat mengintegrasikannya ke dalam aplikasi modern Anda dengan mudah.
 
 ### Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat menghubungi melalui forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9) untuk bantuan jika terjadi kendala teknis.
+Anda dapat menghubungi melalui forum dukungan Aspose [itt](https://forum.aspose.com/c/cells/9) untuk bantuan jika terjadi kendala teknis.
 
 ### Bisakah saya menyesuaikan aspek lain dari lembar kerja dengan Aspose.Cells?
 Tentu saja! Aspose.Cells menawarkan serangkaian fitur yang tangguh untuk menyesuaikan lembar kerja, termasuk gaya, rumus, dan banyak lagi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

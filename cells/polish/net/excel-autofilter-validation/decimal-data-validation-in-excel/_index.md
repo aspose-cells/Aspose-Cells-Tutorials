@@ -1,14 +1,16 @@
 ---
-title: Walidacja danych dziesiętnych w programie Excel
-linktitle: Walidacja danych dziesiętnych w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wdrożyć walidację danych dziesiętnych w programie Excel przy użyciu Aspose.Cells dla .NET dzięki naszemu łatwemu w użyciu przewodnikowi. Zwiększ integralność danych bez wysiłku.
-weight: 11
-url: /pl/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Dowiedz się, jak wdrożyć walidację danych dziesiętnych w programie Excel przy użyciu Aspose.Cells dla .NET dzięki naszemu łatwemu w użyciu przewodnikowi. Zwiększ integralność danych bez wysiłku."
+"linktitle": "Walidacja danych dziesiętnych w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Walidacja danych dziesiętnych w programie Excel"
+"url": "/pl/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Walidacja danych dziesiętnych w programie Excel
@@ -22,10 +24,10 @@ Tworzenie arkuszy kalkulacyjnych z dokładnymi danymi jest niezbędne do jasnej 
 Zanim zagłębisz się w kod, upewnij się, że wszystko jest skonfigurowane, aby zapewnić płynne działanie:
 
 1. Visual Studio: Pobierz i zainstaluj Visual Studio, jeśli jeszcze tego nie zrobiłeś. To idealne środowisko do tworzenia aplikacji .NET.
-2.  Aspose.Cells dla .NET: Musisz dodać bibliotekę Aspose.Cells do swojego projektu. Możesz ją pobrać za pośrednictwem[ten link](https://releases.aspose.com/cells/net/).
-3. Podstawowa znajomość języka C#: Chociaż wszystko wyjaśnimy krok po kroku, podstawowa znajomość programowania w języku C# pozwoli Ci lepiej zrozumieć te koncepcje.
+2. Aspose.Cells dla .NET: Musisz dodać bibliotekę Aspose.Cells do swojego projektu. Możesz ją pobrać za pośrednictwem [ten link](https://releases.aspose.com/cells/net/).
+3. Podstawowa wiedza o języku C#: Chociaż wszystko wyjaśnimy krok po kroku, podstawowa znajomość programowania w języku C# pozwoli Ci lepiej zrozumieć te koncepcje.
 4. .NET Framework: Upewnij się, że masz zainstalowaną niezbędną wersję .NET Framework zgodną z Aspose.Cells.
-5. Biblioteki: Aby uniknąć błędów kompilacji, odwołuj się do biblioteki Aspose.Cells w swoim projekcie.
+5. Biblioteki: Aby uniknąć błędów kompilacji, odwołuj się w swoim projekcie do biblioteki Aspose.Cells.
 
 Teraz, gdy omówiliśmy już podstawy, możemy przejść do ekscytującej części: kodowania.
 
@@ -51,7 +53,7 @@ Zanim zapiszesz jakiekolwiek pliki, musisz upewnić się, że katalog dokumentó
 string dataDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` ze ścieżką, pod którą chcesz zapisać pliki Excela.
+Zastępować `"Your Document Directory"` ze ścieżką, pod którą chcesz zapisać pliki Excela.
 
 ## Krok 2: Sprawdź, czy katalog istnieje
 
@@ -206,19 +208,21 @@ Niezależnie od tego, czy jesteś w finansach, zarządzaniu projektami czy w jak
 Sprawdzanie poprawności danych w programie Excel to funkcja ograniczająca typ danych, jakie można wprowadzić do określonej komórki lub zakresu, zapewniając w ten sposób integralność danych.
 
 ### Czy mogę dostosować komunikat o błędzie podczas sprawdzania poprawności danych?
-Tak! Możesz zapewnić niestandardowe komunikaty o błędach, aby pomóc użytkownikom, gdy zostaną wprowadzone nieprawidłowe dane.
+Tak! Możesz zapewnić niestandardowe komunikaty o błędach, aby poprowadzić użytkowników, gdy zostaną wprowadzone nieprawidłowe dane.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania potrzebna będzie licencja. Więcej informacji na temat uzyskania tymczasowej licencji można znaleźć[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do długoterminowego użytkowania potrzebna będzie licencja. Więcej informacji na temat uzyskania tymczasowej licencji można znaleźć [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie typy danych mogę sprawdzać w programie Excel?
-Za pomocą Aspose.Cells można sprawdzać poprawność różnych typów danych, w tym liczb całkowitych, liczb dziesiętnych, dat, list i formuł niestandardowych.
+Za pomocą Aspose.Cells można sprawdzać poprawność różnych typów danych, w tym liczb całkowitych, dziesiętnych, dat, list i formuł niestandardowych.
 
 ### Gdzie mogę znaleźć więcej dokumentacji Aspose.Cells?
- Możesz zapoznać się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z obszerną dokumentacją [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

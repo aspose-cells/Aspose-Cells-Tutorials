@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ FileInputStream fstream = new FileInputStream(dataDir + "/book1.xls");
 **ステップ2: ワークブックのインスタンス化**
 インスタンスを作成する `Workbook` 読み込まれた Excel ファイルを操作します。
 ```java
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook(fstream);
 ```
 **ステップ3: ワークシートにアクセスする**
@@ -131,7 +133,7 @@ Aspose.Cells for Java はさまざまなシナリオで使用できます。
 - **データ統合:** Excel データセットを他のアプリケーションやデータベースとシームレスに統合します。
 - **バッチ処理:** 複数の Excel ファイルの処理をバッチ操作で自動化します。
 
-Aspose.Cells を統合することで、アプリケーションの複雑なスプレッドシート タスクを効率的に処理する機能を強化できます。
+Aspose.Cells を統合することで、アプリケーションの複雑なスプレッドシート タスクを効率的に処理する能力を強化できます。
 
 ## パフォーマンスに関する考慮事項
 Aspose.Cells を使用する際のパフォーマンスを最適化するには:
@@ -169,6 +171,9 @@ Aspose.Cells for Javaを使ってExcelからデータをエクスポートする
 - **一時ライセンス:** [一時ライセンスを取得する](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

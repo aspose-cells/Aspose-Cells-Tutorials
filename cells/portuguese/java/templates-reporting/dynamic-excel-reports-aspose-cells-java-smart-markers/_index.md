@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ R: Os marcadores inteligentes permitem propriedades aninhadas, possibilitando qu
 R: As opções incluem teste gratuito, licença temporária e compra integral. Visite [Site da Aspose](https://purchase.aspose.com/buy) para maiores informações.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

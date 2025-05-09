@@ -1,54 +1,59 @@
 ---
-title: 透過Aspose.Cells在 Excel 中合併單元格
-weight: 7700
-limit: 
-description: 學習如何使用Aspose.Cells在 Excel 檔案中合併單元格.
-keywords: [Aspose.Cells for .NET, merge cells in Excel, Excel cell merging, C# Excel merge, workbook manipulation, Aspose.Cells example, merge rows and columns, C# Excel library]
-url: /zh-hant/net/formatting/merging-cells/
+"description": "了解如何使用 Aspose.Cells for .NET 合併 Excel 檔案中的儲存格。本指南涵蓋建立工作簿、儲存格操作以及以各種格式儲存檔案。"
+"title": "使用 Aspose.Cells for .NET 合併 Excel 中的儲存格"
+"url": "/zh-hant/net/formatting/merging-cells/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 透過Aspose.Cells在 Excel 中合併單元格
+# 使用 Aspose.Cells for .NET 合併 Excel 中的儲存格
   
-Aspose.Cells是一個功能強大的庫存,可用程式來與Excel檔案工作. 在這教學中,您將學習如何使用C#將Excel工作表中的單元格合并.我們首先建立一個新工作簿,進入工作表,並合并特定單元格,以有效格式化文檔. 這篇步式指南將幫助您簡化您的計算表操作,使用Aspose.Cells  
+Aspose.Cells for .NET 是一個功能強大的函式庫，可以透過程式處理 Excel 檔案。在本教學中，您將學習如何使用 C# 合併 Excel 工作表中的儲存格。我們首先建立一個新的工作簿，存取工作表，然後合併特定的儲存格以有效地格式化文件。本逐步指南將協助您使用 Aspose.Cells for .NET 簡化電子表格操作。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置說明  
-請使用以下步:  
 
-1. 透過NuGet安裝  
-   打開視覺工作室中的包管理器控制台,  
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安裝說明  
+若要在您的專案中使用 Aspose.Cells for .NET，請依照下列步驟操作：  
+
+1. 透過 NuGet 安裝  
+   在 Visual Studio 中開啟套件管理器控制台並執行：  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. 下載DLL  
-   另行選擇是下載最新版本[網頁下載的Aspose.Cells](https://releases.aspose.com/cells/net/)請使用您的網站.  
+2. 下載 DLL  
+   或者，從下載最新版本 [Aspose.Cells for .NET 下載](https://releases.aspose.com/cells/net/) 並在您的專案中引用該 DLL。  
 
-3. 在您的項目中添加參考  
-   * 在 Visual Studio 中,右鍵按您的項目.  
-   * 點擊 添加參考資料> 覽> 選擇下載的DLL.  
-   * 點擊OK,然後添加參考.  
+3. 在您的專案中新增引用  
+   - 在 Visual Studio 中，以滑鼠右鍵按一下解決方案資源管理器中的專案。  
+   - 按一下新增引用>瀏覽>選擇下載的 DLL。  
+   - 按一下「確定」以新增引用。  
 
-4. 開始使用Aspose.Cells  
-   在您的C#檔案開始時添加以下命名空間:  
+4. 開始使用 Aspose.Cells  
+   在 C# 檔案的開頭新增以下命名空間：  
    ```csharp
    using Aspose.Cells;
    ```
 
-## 更多 閱讀  
-購買駕照的方法:[購買頁面](https://purchase.aspose.com/buy)我們都在等.  
-查看更多關於此事的資料.[網頁文檔的Aspose.Cells](https://docs.aspose.com/cells/net/)我們都在等.  
-查看這個網站的全文.[應用程式使用者應使用Aspose.Cells](https://reference.aspose.com/cells/net/)我們都在等. 
+## 另請參閱  
+要購買許可證，請訪問 [Aspose 購買頁面](https://purchase。aspose.com/buy).  
+如需完整文檔，請訪問 [Aspose.Cells for .NET文檔](https://docs。aspose.com/cells/net/).  
+若要探索完整的 API 參考，請查看 [Aspose.Cells for .NET API參考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

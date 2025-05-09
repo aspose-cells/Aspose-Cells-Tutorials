@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ workbook.save(outDir + "HandlingPrintErrors_andPageOrder_out.xls");
    - แน่นอน! ได้รับการออกแบบมาเพื่อจัดการกับชุดข้อมูลขนาดใหญ่ได้อย่างมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

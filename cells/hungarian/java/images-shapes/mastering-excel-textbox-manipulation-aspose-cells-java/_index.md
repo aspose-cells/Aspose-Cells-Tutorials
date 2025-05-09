@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Szövegdoboz-manipuláció elsajátítása Excelben az Aspose.Cells for Java segítségével
+# TextBox Manipuláció Elsajátítása Excelben az Aspose.Cells for Java segítségével
 
 ## Bevezetés
 
@@ -105,7 +107,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0); // Hozzáférés az első
 ```
 
 #### 2. lépés: Hozzáférés a szövegdobozokhoz
-Keresd meg és ismételd végig az összes szövegdobozt a tartalmuk kinyeréséhez:
+Keresd ki és ismételd meg az összes szövegdobozt a tartalmuk kinyeréséhez:
 ```java
 // Az első munkalap összes szövegdobozának beolvasása
 Collection<TextBox> textBoxes = worksheet.getTextBoxes();
@@ -134,7 +136,7 @@ A szövegmező tartalmának módosítása:
 textbox.setText("This is an alternative text");
 ```
 
-### módosítások mentése
+### A módosítások mentése
 
 A módosítások elvégzése után mentse el a munkafüzetet a változtatások mentéséhez.
 ```java
@@ -164,7 +166,7 @@ Az Aspose.Cells használatakor vegye figyelembe ezeket a tippeket a teljesítmé
 
 Elsajátítottad a szövegmező-vezérlők kezelését Excelben az Aspose.Cells for Java használatával. Ez a készség kulcsfontosságú a táblázatokban lévő dinamikus tartalomfrissítéseket magában foglaló feladatok automatizálásához, ami hatékonyabb és reszponzívabb alkalmazásokhoz vezet.
 
-Következő lépésként próbáljon ki kísérletezni az Aspose.Cells más funkcióival, vagy fedezze fel a képességeit a következő címen elérhető dokumentációban: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
+Következő lépésként próbáljon ki kísérletezni az Aspose.Cells más funkcióival, vagy fedezze fel a képességeit a következő címen elérhető dokumentáció áttekintésével: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
 
 ### Mi a következő lépés?
 Fontolja meg további funkciók, például a diagramkezelés vagy a pivot tábla testreszabásának felfedezését az Excel automatizálási projektjeinek fejlesztése érdekében. Ha segítségre van szüksége, csatlakozzon az Aspose közösségi fórumhoz.
@@ -191,6 +193,9 @@ Fontolja meg további funkciók, például a diagramkezelés vagy a pivot tábla
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ Az Aspose.Cells Java-ban többféle helyzetben is használható:
 
 2. **Dinamikus műszerfalak:** Hozzon létre irányítópultokat, ahol alakzatok, például grafikonok vagy logók másolhatók a munkalapok között, hogy valós idejű elemzéseket biztosítson az adathalmazokban.
 
-3. **Excel fájlok kötegelt feldolgozása:** Excel-fájlok kötegelt feldolgozása munkafüzetek példányosításával, adatok kezelésével és az eredmények megadott könyvtárba mentésével.
+3. **Excel fájlok kötegelt feldolgozása:** Excel-fájlok kötegelt feldolgozása munkafüzetek példányosításával, adatkezeléssel és az eredmények megadott könyvtárba mentésével.
 
 4. **Integráció az üzleti intelligencia eszközökkel:** Zökkenőmentesen integrálhatja az Aspose.Cells-t BI-eszközökkel az automatizált adatkinyerés és jelentéskészítési folyamatok érdekében, javítva a döntéshozatali képességeket.
 
@@ -183,6 +185,9 @@ Nagy munkafüzetekkel vagy összetett alakzatokkal való munka során:
 - Csökkentse az alakzatműveletek számát azáltal, hogy lehetőség szerint csoportosítja őket, ezáltal csökkentve a feldolgozási időt és az erőforrás-felhasználást.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

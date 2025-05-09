@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ public class SetupExample {
 
 Det här avsnittet guidar dig genom implementeringen av funktionen för att validera Excel-lösenord med hjälp av Aspose.Cells.
 
-### Översikt över lösenordsverifieringsfunktionen
+### Översikt över funktionen för lösenordsverifiering
 Med hjälp av Aspose.Cells kan vi effektivt avgöra om lösenordet för en krypterad Excel-fil är korrekt. Denna process förbättrar säkerheten och effektiviserar arbetsflöden som kräver frekvent åtkomst till skyddade filer.
 
 #### Steg 1: Importera nödvändiga bibliotek
@@ -183,6 +185,9 @@ A5: Besök [Aspose.Cells-dokumentation](https://reference.aspose.com/cells/java/
 Utforska dessa resurser för att fördjupa din förståelse och förbättra din implementering av Aspose.Cells i Java-projekt. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

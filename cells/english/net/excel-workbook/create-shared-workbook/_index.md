@@ -8,7 +8,9 @@ url: /net/excel-workbook/create-shared-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Shared Workbook
@@ -127,6 +129,7 @@ Start by downloading the library from the [Aspose.Cells Downloads](https://relea
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

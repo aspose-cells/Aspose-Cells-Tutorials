@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,8 +185,8 @@ A5: Használjon hatékony memóriakezelési gyakorlatokat, és fontolja meg az a
 
 ## Erőforrás
 
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells letöltések](https://releases.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells letöltések](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió és ideiglenes licenc:** [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/), [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
 - **Támogatási és közösségi fórum:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
@@ -192,6 +194,9 @@ A5: Használjon hatékony memóriakezelési gyakorlatokat, és fontolja meg az a
 Az Aspose.Cells for Java kihasználásával az Excel automatizálási feladatait a hatékonyság és az áttekinthetőség új szintjére emelheti. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

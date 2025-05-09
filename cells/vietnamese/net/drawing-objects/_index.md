@@ -1,30 +1,38 @@
 ---
-title: Kỹ thuật vẽ đối tượng với Aspose.Cells cho .NET 
-weight: 10
-limit:
-description: Khám phá cách vẽ và thao túng hình dạng, đường và các đối tượng khác trong các tệp Excel bằng cách sử dụng Aspose.Cells cho .NET.
-keywords:
-url: /vi/net/drawing-objects/
+"description": "Khám phá cách vẽ và thao tác dễ dàng các hình dạng, đường thẳng và các đối tượng khác trong tệp Excel bằng Aspose.Cells cho .NET."
+"title": "Vẽ Đối Tượng với Aspose.Cells cho .NET"
+"url": "/vi/net/drawing-objects/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Khởi đầu 
+## Giới thiệu 
  
-Aspose.Cells cho .NET cung cấp cho các nhà phát triển các tính năng mạnh mẽ để tạo và quản lý các đối tượng vẽ trong các tệp Excel. Bằng cách sử dụng API này, bạn có thể dễ dàng chèn hình dạng, đường và các đồ họa khác nhau, nâng cao sự hấp dẫn và chức năng trực quan của bảng tính của bạn. Thư viện hỗ trợ một loạt các khả năng vẽ, cho phép người dùng tùy chỉnh kích thước, phong cách và vị trí. Cho dù bạn đang tìm cách làm nổi bật xu hướng dữ liệu bằng đường, ghi chú nội dung bằng hình dạng hoặc tạo ra sơ đồ phức tạp trực tiếp trong Excel, Aspose.Cells trang bị cho bạn các công cụ cần thiết để đưa ý tưởng của bạn đến cuộc sống liền mạch.
+Aspose.Cells for .NET cung cấp cho các nhà phát triển các tính năng mạnh mẽ để tạo và quản lý các đối tượng vẽ trong các tệp Excel. Bằng cách sử dụng API này, bạn có thể dễ dàng chèn các hình dạng, đường thẳng và nhiều đồ họa khác nhau, tăng cường sức hấp dẫn trực quan và chức năng của bảng tính. Thư viện hỗ trợ nhiều khả năng vẽ, cho phép người dùng tùy chỉnh kích thước, kiểu dáng và vị trí. Cho dù bạn muốn làm nổi bật xu hướng dữ liệu bằng đường thẳng, chú thích nội dung bằng hình dạng hay tạo sơ đồ phức tạp trực tiếp trong Excel, Aspose.Cells đều trang bị cho bạn các công cụ cần thiết để biến ý tưởng của bạn thành hiện thực một cách liền mạch.
 
-Ngoài việc tạo ra, Aspose.Cells cho .NET cung cấp các phương pháp toàn diện để thao túng các đối tượng vẽ sau khi chúng đã được thêm vào. Bạn có thể sửa đổi các thuộc tính như màu sắc, biên giới và xoay, cũng như loại bỏ hoặc đặt lại các đối tượng dễ dàng.
+Ngoài việc tạo, Aspose.Cells for .NET còn cung cấp các phương pháp toàn diện để thao tác các đối tượng vẽ sau khi chúng đã được thêm vào. Bạn có thể sửa đổi các thuộc tính như màu sắc, đường viền và xoay, cũng như dễ dàng xóa hoặc định vị lại các đối tượng. Mức độ kiểm soát này cho phép bạn điều chỉnh nội dung trực quan của mình theo nhu cầu của dự án. Với API trực quan và tài liệu hướng dẫn chi tiết, Aspose.Cells đơn giản hóa quy trình làm việc với các đối tượng vẽ, biến nó thành một nguồn tài nguyên thiết yếu cho các nhà phát triển muốn nâng cao việc tạo và xử lý tệp Excel.
 
-{{< tutorial-card link="./access-and-modify-label-of-ole-object/" title="Thay đổi nhãn đối tượng Ole trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
-{{< tutorial-card link="./adding-pictures/" title="Tạo và lưu tập tin Excel với Aspose.Cells" imgSrc="/cells/net/drawing-objects/adding-pictures/images/thumb.png" >}}
-{{< tutorial-card link="./rotate-text-with-shape-inside-worksheet/" title="Thay đổi định dạng văn bản trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./send-shape-front-or-back-in-worksheet/" title="Điều khiển thứ tự hình dạng Z trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Tạo sổ làm việc Excel với phông chữ Đông xa và Latin" imgSrc="/cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
-{{< tutorial-card link="./tile-picture-as-texture-inside-shape/" title="Thiết kế Tiling Đền vào Excel bằng Aspose.Cells" imgSrc="/cells/net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+{{< tutorial-card link="./access-and-modify-label-of-ole-object/" title="Sửa đổi nhãn đối tượng Ole trong Excel bằng Aspose.Cells" imgSrc="./access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
+{{< tutorial-card link="./adding-pictures/" title="Tạo và lưu tệp Excel với Aspose.Cells" imgSrc="./adding-pictures/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-text-with-shape-inside-worksheet/" title="Sửa đổi căn chỉnh hình dạng văn bản trong Excel bằng Aspose.Cells" imgSrc="./rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./send-shape-front-or-back-in-worksheet/" title="Thao tác thứ tự Z của các hình dạng trong Excel bằng Aspose.Cells" imgSrc="./send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Tạo sổ làm việc Excel với phông chữ Far East & Latin" imgSrc="./specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./tile-picture-as-texture-inside-shape/" title="Kết cấu lát gạch trong Excel với Aspose.Cells" imgSrc="./tile-picture-as-texture-inside-shape/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 데이터 라벨링
@@ -32,7 +34,7 @@
 
 ## 스프레드시트 로드 및 생성
 
-이 섹션에서는 Aspose.Cells for Java를 사용하여 기존 스프레드시트를 로드하거나 새 스프레드시트를 만드는 방법을 알아봅니다.
+이 섹션에서는 Java용 Aspose.Cells를 사용하여 기존 스프레드시트를 로드하거나 새 스프레드시트를 만드는 방법을 알아봅니다.
 
 ```java
 // 기존 스프레드시트를 로드하는 Java 코드
@@ -113,7 +115,7 @@ try {
 
 ## 레이블이 지정된 스프레드시트 저장
 
-데이터에 레이블을 지정한 후에는 작업 내용을 저장하는 것이 중요합니다. Aspose.Cells for Java는 스프레드시트를 저장하는 다양한 형식을 지원합니다.
+데이터에 레이블을 지정한 후에는 작업 내용을 저장하는 것이 중요합니다. Aspose.Cells for Java는 스프레드시트 저장을 위한 다양한 형식을 지원합니다.
 
 ```java
 // 스프레드시트를 Excel 형식으로 저장합니다.
@@ -145,6 +147,7 @@ try-catch 블록을 사용하여 예외를 포착하고 의미 있는 오류 메
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-### Требуемые библиотеки:
+### Необходимые библиотеки:
 - **Aspose.Cells для Java**: Версия 25.3 или более поздняя.
 
 ### Требования к настройке среды:
@@ -174,6 +176,9 @@ System.out.println("Worksheet unprotected successfully.");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

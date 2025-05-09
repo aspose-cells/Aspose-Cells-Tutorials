@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ style.setVerticalAlignment(TextAlignmentType.CENTER);
 cells.get("B3").setStyle(style);
 ```
 
-### Ajustar la altura de fila y fusionar celdas
+### Ajuste de la altura de fila y fusión de celdas
 
 **Descripción general:**  
 Modifique las alturas de las filas y combine celdas para adaptarlas a sus necesidades de presentación de datos.
@@ -222,6 +224,9 @@ A5: Asegúrese de estar utilizando la ruta de archivo correcta y de que su aplic
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

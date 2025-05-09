@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 เพื่อปฏิบัติตาม ให้แน่ใจว่าคุณปฏิบัติตามข้อกำหนดเหล่านี้:
 - **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** เพิ่ม Aspose.Cells สำหรับ Java เป็นส่วนที่ต้องมี
 - **การตั้งค่าสภาพแวดล้อม:** ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณสำหรับการเขียนโปรแกรม Java (เช่น การใช้ IntelliJ IDEA หรือ Eclipse)
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับ Java และการทำงานกับระบบสร้าง Maven/Gradle
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับ Java และการทำงานกับระบบสร้าง Maven/Gradle
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -120,7 +122,7 @@ workbook.save(outDir + "ZoomFactor_out.xls");
 ขั้นตอนต่อไปอาจรวมถึงการสำรวจการจัดการ Excel ที่ซับซ้อนมากขึ้นหรือการทำให้กระบวนการสร้างรายงานเป็นแบบอัตโนมัติ
 
 ## ส่วนคำถามที่พบบ่อย
-1. **ฉันสามารถตั้งค่าระดับการซูมสูงสุดโดยใช้ Aspose.Cells ได้เท่าไร**
+1. **ระดับการซูมสูงสุดที่ฉันสามารถตั้งค่าโดยใช้ Aspose.Cells ได้คือเท่าไร**
    - คุณสามารถตั้งค่าจำนวนเต็มใด ๆ ระหว่าง 10 ถึง 400 เป็นปัจจัยการซูมได้
 
 2. **ฉันสามารถเปลี่ยนการซูมของเวิร์กชีตหลาย ๆ แผ่นพร้อมกันได้ไหม**
@@ -147,6 +149,9 @@ workbook.save(outDir + "ZoomFactor_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

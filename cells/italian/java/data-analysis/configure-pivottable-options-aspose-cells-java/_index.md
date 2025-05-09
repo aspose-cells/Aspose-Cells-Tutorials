@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ I prossimi passi potrebbero includere l'esplorazione di altre funzionalità, com
 Questa guida ti aiuterà a sfruttare appieno il potenziale di Aspose.Cells per Java nella configurazione efficace delle tabelle pivot. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,17 +8,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Teknik Penyamaran Data
 
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia keamanan data, melindungi informasi sensitif adalah hal yang terpenting. Penyamaran data, yang juga dikenal sebagai anonimisasi data, adalah teknik penting yang digunakan untuk melindungi data rahasia sekaligus menjaga kegunaannya. Artikel ini membahas cara menerapkan teknik penyamaran data menggunakan Aspose.Cells untuk Java, API yang canggih untuk bekerja dengan file Excel. Kami akan memandu Anda melalui proses ini langkah demi langkah, dengan memberikan contoh kode dan wawasan di sepanjang prosesnya.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita menyelami penyembunyian data dengan Aspose.Cells untuk Java, pastikan Anda memiliki prasyarat berikut:
 
@@ -46,7 +48,7 @@ Sebelum kita dapat menerapkan teknik penyembunyian data, mari siapkan lingkungan
 
 1. Unduh Aspose.Cells untuk Java:
 
-Untuk memulai, unduh pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
+Untuk memulai, unduh pustaka Aspose.Cells untuk Java dari [itt](https://releases.aspose.com/cells/java/).
 
 2. Integrasikan Aspose.Cells ke dalam Proyek Java Anda:
 
@@ -61,7 +63,7 @@ import com.aspose.cells.*;
 
 public class DataMaskingExample {
    public static void main(String[] args) {
-	   // Inisialisasi Aspose.Cells
+	   // Aspose.Cells inicializálása
 	   License license = new License();
 	   license.setLicense("Aspose.Cells.lic"); // Ganti dengan jalur file lisensi Anda
    }
@@ -104,11 +106,11 @@ Range rangeToShuffle = cells.createRange("A1:A10");
 rangeToShuffle.shuffle();
 ```
 
-## Kesimpulan
+## Következtetés
 
 Penyamaran data merupakan aspek penting dari keamanan dan kepatuhan data. Dengan Aspose.Cells untuk Java, penerapan teknik penyamaran data menjadi proses yang mudah. Dengan mengikuti langkah-langkah dan contoh kode yang disediakan dalam artikel ini, Anda dapat melindungi data sensitif sekaligus mempertahankan kegunaannya untuk berbagai keperluan.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Berapa biaya Aspose.Cells untuk Java?
 
@@ -133,6 +135,7 @@ Untuk mengeksplorasi praktik terbaik untuk penyembunyian data dan keamanan data,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

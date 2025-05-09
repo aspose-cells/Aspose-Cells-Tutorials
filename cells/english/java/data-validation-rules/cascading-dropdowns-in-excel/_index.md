@@ -8,7 +8,9 @@ url: /java/data-validation-rules/cascading-dropdowns-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cascading Dropdowns in Excel
@@ -130,6 +132,7 @@ You can access comprehensive documentation and resources for Aspose.Cells for Ja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

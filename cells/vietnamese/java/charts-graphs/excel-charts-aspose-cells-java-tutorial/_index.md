@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: Sử dụng các định danh kiểu được xác định trước hoặc t
 A5: Tối ưu hóa phạm vi dữ liệu, giảm thiểu độ phức tạp của biểu đồ và quản lý bộ nhớ hiệu quả bằng cách loại bỏ các đối tượng khi không cần thiết.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

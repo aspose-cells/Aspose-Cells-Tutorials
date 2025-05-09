@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ public class ExportSlicerToPDF {
 ```
 
 ### Uygulama Kılavuzu
-#### Excel Slicer'ı PDF'ye Aktar
+#### Excel Dilimleyiciyi PDF'ye Aktar
 **Genel bakış**
 Bu özellik, dilimleyici grafik içeren bir Excel dosyasını, etkileşimli öğelerini ve düzenini koruyarak PDF belgesine dönüştürmenizi sağlar.
 
@@ -137,6 +139,9 @@ Bu yönergeleri izleyerek ve Java için Aspose.Cells'i kullanarak Excel dilimley
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

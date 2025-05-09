@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Strategie blokowania komórek
@@ -16,7 +18,7 @@
 
 ## Wstęp
 
-tej cyfrowej erze arkusze kalkulacyjne Excela stanowią podstawę niezliczonych operacji biznesowych. Ale co się dzieje, gdy poufne informacje lub kluczowe formuły zostaną przypadkowo zmodyfikowane lub usunięte? To właśnie tutaj wkracza blokowanie komórek. Aspose.Cells for Java oferuje szereg narzędzi i technik blokowania komórek w plikach Excela, zapewniając integralność i bezpieczeństwo danych.
+W tej cyfrowej erze arkusze kalkulacyjne Excela stanowią podstawę niezliczonych operacji biznesowych. Ale co się dzieje, gdy poufne informacje lub kluczowe formuły zostaną przypadkowo zmodyfikowane lub usunięte? To właśnie tutaj wkracza blokowanie komórek. Aspose.Cells for Java oferuje szereg narzędzi i technik blokowania komórek w plikach Excela, zapewniając integralność i bezpieczeństwo danych.
 
 ## Dlaczego blokowanie komórek ma znaczenie
 
@@ -115,7 +117,7 @@ Twoje specyficzne wymagania projektowe mogą wymagać unikalnych strategii bloko
 
 ## Wniosek
 
-W tym artykule zbadaliśmy podstawowe aspekty blokowania komórek za pomocą Aspose.Cells dla Java. Wdrażając strategie omówione tutaj, możesz zwiększyć bezpieczeństwo i integralność swoich plików Excel, zapewniając, że Twoje dane pozostaną dokładne i poufne.
+tym artykule zbadaliśmy podstawowe aspekty blokowania komórek za pomocą Aspose.Cells dla Java. Wdrażając strategie omówione tutaj, możesz zwiększyć bezpieczeństwo i integralność swoich plików Excel, zapewniając, że Twoje dane pozostaną dokładne i poufne.
 
 ## Najczęściej zadawane pytania
 
@@ -142,6 +144,7 @@ Aby zapewnić skuteczność strategii blokowania komórek, dokładnie przetestuj
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Günümüzün veri odaklı dünyasında, Excel dosyalarınıza erişimi güvence
 
 **Ne Öğreneceksiniz:**
 - Java için Aspose.Cells'i kullanarak çalışma sayfası koruması ve izinlerini uygulama.
-- Sütunları, satırları silme ve içerik düzenleme gibi kullanıcı etkinliklerini kısıtlama teknikleri.
+- Sütunları, satırları silme ve içerik düzenleme gibi kullanıcı etkinliklerini kısıtlamaya yönelik teknikler.
 - Hücre biçimlendirme, köprü metni ekleme ve pivot tablo kullanımı gibi işlemlerin etkinleştirilmesi.
 - Aspose.Cells ile ortamınızı kurmak için en iyi uygulamalar.
 
@@ -198,6 +200,9 @@ Bu eğitimde, Java için Aspose.Cells'in çalışma sayfası işlemlerini etkili
 - **İndirmek**: En son sürümü şu adresten edinin: [Aspose Sürümleri](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

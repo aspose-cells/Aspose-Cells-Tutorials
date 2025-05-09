@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ workbook.save(dataDir + "CMultipleRows_out.xlsx");
 
 Para garantir um desempenho eficiente ao trabalhar com Aspose.Cells:
 
-- **Otimize o uso da memória**: Feche e descarte as pastas de trabalho que não estiverem em uso para liberar recursos.
+- **Otimizar o uso da memória**: Feche e descarte as pastas de trabalho que não estiverem em uso para liberar recursos.
 - **Processamento em lote**: Ao lidar com grandes conjuntos de dados, processe as linhas em lotes em vez de todas de uma vez.
 - **Evite operações desnecessárias**: Minimize operações repetitivas ou redundantes dentro de loops.
 
@@ -190,11 +192,14 @@ R5: Salve e abra sua pasta de trabalho no Excel para inspecionar visualmente as 
 - **Comprar**:Para acesso total, visite o [página de compra](https://purchase.aspose.com/buy).
 - **Teste grátis**: Comece com um teste gratuito em [Testes Aspose.Cells](https://releases.aspose.com/cells/java/).
 - **Licença Temporária**: Obtenha uma licença temporária em [Portal de licenciamento da Aspose](https://purchase.aspose.com/temporary-license/).
-- **Apoiar**: Para qualquer problema, entre em contato através do [Fórum Aspose](https://forum.aspose.com/c/cells/9).
+- **Apoiar**: Para qualquer problema, entre em contato pelo [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 Explore estes recursos para aprofundar seu conhecimento e suas capacidades com o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

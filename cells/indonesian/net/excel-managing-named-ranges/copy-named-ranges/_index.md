@@ -1,31 +1,33 @@
 ---
-title: Menyalin Rentang Bernama di Excel
-linktitle: Menyalin Rentang Bernama di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyalin rentang bernama di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pemula.
-weight: 10
-url: /id/net/excel-managing-named-ranges/copy-named-ranges/
+"description": "Pelajari cara menyalin rentang bernama di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci kami. Sempurna untuk pemula."
+"linktitle": "Menyalin Rentang Bernama di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Menyalin Rentang Bernama di Excel"
+"url": "/id/net/excel-managing-named-ranges/copy-named-ranges/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyalin Rentang Bernama di Excel
 
-## Perkenalan
+## Bevezetés
 Excel adalah alat canggih yang digunakan oleh jutaan orang di seluruh dunia untuk mengorganisasi dan menganalisis data. Namun, jika menyangkut manipulasi file Excel secara terprogram—seperti menyalin rentang bernama—hal itu bisa jadi agak rumit. Untungnya, Aspose.Cells for .NET membuat tugas ini mudah dan efisien. Artikel ini akan memandu Anda melalui proses menyalin rentang bernama di Excel menggunakan Aspose.Cells for .NET, yang dijelaskan secara bertahap, sehingga Anda dapat mengikutinya dengan mudah.
-## Prasyarat
+## Előfeltételek
 Sebelum menyelami seluk-beluk penyalinan rentang bernama, Anda perlu memastikan bahwa Anda telah menyiapkan beberapa hal. Berikut ini yang Anda perlukan:
 1. Lingkungan .NET: Pastikan Anda telah menyiapkan lingkungan pengembangan .NET. Anda dapat menggunakan Visual Studio atau IDE lain pilihan Anda.
-2. Pustaka Aspose.Cells untuk .NET: Ini adalah bintang pertunjukan! Unduh pustaka dari[Situs web Aspose](https://releases.aspose.com/cells/net/) jika Anda belum melakukannya.
+2. Pustaka Aspose.Cells untuk .NET: Inilah bintang pertunjukannya! Unduh pustaka dari [Aspose weboldal](https://releases.aspose.com/cells/net/) ha még nem tetted meg.
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan bermanfaat karena kita akan membuat kode dalam bahasa ini sepanjang tutorial.
 4. Excel Terinstal: Meskipun Anda tidak perlu Excel untuk menulis kode, menginstalnya berguna untuk menguji file keluaran Anda.
-5.  Akses ke Dokumentasi: Tandai[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk referensi. Ini adalah sumber yang bagus untuk memahami metode dan fitur.
+5. Akses ke Dokumentasi: Tandai [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) untuk referensi. Ini adalah sumber yang bagus untuk memahami metode dan fitur.
 Sekarang Anda sudah dilengkapi dengan hal-hal penting, mari selami kodenya!
-## Paket Impor
+## Csomagok importálása
 Untuk mulai menggunakan Aspose.Cells, Anda harus mengimpor namespace yang diperlukan ke dalam proyek Anda. Ini akan memungkinkan Anda mengakses kelas-kelas yang disediakan oleh pustaka Aspose.Cells.
-### Impor Namespace
+### A névtér importálása
 Berikut cara mengimpor namespace Aspose.Cells:
 ```csharp
 using System;
@@ -33,21 +35,21 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
- Kode ini akan memberi Anda akses ke kelas-kelas penting seperti`Workbook`, `Worksheet` , Dan`Range`, yang mana Anda perlu memanipulasi file Excel.
+Kode ini akan memberi Anda akses ke kelas-kelas penting seperti `Workbook`, `Worksheet`, és `Range`, yang mana Anda perlu memanipulasi file Excel.
 
 Sekarang setelah prasyarat kita terpenuhi, mari kita uraikan prosesnya menjadi beberapa langkah yang mudah diikuti.
-## Langkah 1: Siapkan Direktori Output Anda
+## 1. lépés: A kimeneti könyvtár beállítása
 Pertama, Anda perlu menentukan di mana file Excel yang dihasilkan akan disimpan. Ini seperti mengatur kotak surat sebelum menerima surat!
 ```csharp
 string outputDir = "Your Document Directory\\"; // Pastikan untuk menggunakan garis miring terbalik ganda untuk jalur direktori
 ```
-## Langkah 2: Buat Buku Kerja Baru
+## 2. lépés: Új munkafüzet létrehozása
 Berikutnya, Anda perlu membuat buku kerja baru, yang seperti membuka lembar kerja baru di Excel. 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 Perintah ini membuat berkas Excel baru yang sekarang dapat kita modifikasi.
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: Hozzáférés a munkalapokhoz
 Setelah Anda memiliki buku kerja, Anda dapat mengakses lembar kerja yang ada di dalamnya. 
 ```csharp
 WorksheetCollection worksheets = workbook.Worksheets;
@@ -94,7 +96,7 @@ Sekarang tibalah bagian yang menarik—menyalin data dari rentang pertama ke ren
 range2.Copy(range1);
 ```
 Perintah ini secara efektif mentransfer data Anda dari "MyRange" ke "testrange". Ini seperti membuat fotokopi dokumen penting—mudah dan efisien!
-## Langkah 10: Simpan Buku Kerja
+## 10. lépés: A munkafüzet mentése
 Terakhir, simpan buku kerja Anda ke direktori keluaran yang ditentukan.
 ```csharp
 workbook.Save(outputDir + "outputCopyNamedRanges.xlsx");
@@ -106,22 +108,24 @@ Anda dapat memberikan umpan balik ke konsol untuk mengonfirmasi semuanya berjala
 Console.WriteLine("CopyNamedRanges executed successfully.");
 ```
 Menjalankan baris ini akan menunjukkan bahwa kode Anda dijalankan tanpa hambatan apa pun.
-## Kesimpulan
+## Következtetés
 Nah, itu dia! Anda telah berhasil menyalin rentang bernama di Excel menggunakan Aspose.Cells for .NET, langkah demi langkah. Proses ini memungkinkan Anda untuk mengotomatiskan tugas Excel dan mengelola data Anda dengan lebih efektif. Dengan sedikit latihan, Anda akan dapat menjalankan tugas otomatisasi Excel yang lebih canggih dalam waktu singkat.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells untuk .NET?
+## GYIK
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 ### Apakah saya perlu menginstal Excel untuk menggunakan Aspose.Cells?
 Tidak, Aspose.Cells bekerja secara independen dari Excel, meskipun menginstalnya dapat berguna untuk menguji keluaran secara visual.
-### Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?
+### Használhatom az Aspose.Cells-t más programozási nyelvekkel?
 Aspose.Cells menawarkan berbagai versi untuk berbagai bahasa, termasuk Java dan Python.
-### Bagaimana cara mendapatkan dukungan teknis untuk Aspose.Cells?
- Anda dapat mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan atau mengajukan pertanyaan.
-### Di mana saya dapat menemukan dokumentasinya?
- Itu[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) menyediakan informasi lengkap tentang semua kelas dan metode yang tersedia.
+### Hogyan kaphatok technikai támogatást az Aspose.Cells-hez?
+Meglátogathatod a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) untuk bantuan atau mengajukan pertanyaan.
+### Hol találom a dokumentációt?
+A [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) menyediakan informasi lengkap tentang semua kelas dan metode yang tersedia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Criar uma pasta de trabalho é o primeiro passo para gerenciar arquivos do Excel
    com.aspose.cells.Worksheet ws = wb.getWorksheets().get(0);
    ```
 
-### Definir tamanho de papel personalizado para configuração de página de planilha
+### Definir tamanho de papel personalizado para configuração de página da planilha
 
 **Visão geral:**
 Personalize a configuração de página da sua planilha para garantir que ela seja impressa em papel de um tamanho específico.
@@ -174,6 +176,9 @@ Mergulhe no Aspose.Cells para Java e eleve seus projetos de automação do Excel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

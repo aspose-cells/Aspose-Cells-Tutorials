@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,7 +185,7 @@ A3: Use técnicas de gerenciamento de memória, como streaming e limpeza periód
 R4: Existem outras bibliotecas como o Apache POI, mas o Aspose.Cells oferece recursos mais avançados e melhor desempenho em alguns casos.
 
 **P5: Como obtenho uma licença temporária para acesso total?**
-A5: Visite o [Página de licença temporária da Aspose](https://purchase.aspose.com/temporary-license/) para solicitar um.
+A5: Visite o [Página de licença temporária do Aspose](https://purchase.aspose.com/temporary-license/) para solicitar um.
 
 ## Recursos
 
@@ -197,6 +199,9 @@ A5: Visite o [Página de licença temporária da Aspose](https://purchase.aspose
 Com este guia completo, você estará preparado para implementar o Aspose.Cells para Java em seus projetos com eficiência. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

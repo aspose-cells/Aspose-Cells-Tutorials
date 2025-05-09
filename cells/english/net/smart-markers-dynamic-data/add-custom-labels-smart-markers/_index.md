@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/add-custom-labels-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Labels with Smart Markers in Aspose.Cells
@@ -93,6 +95,7 @@ You can find the [documentation](https://reference.aspose.com/cells/net/) and [f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

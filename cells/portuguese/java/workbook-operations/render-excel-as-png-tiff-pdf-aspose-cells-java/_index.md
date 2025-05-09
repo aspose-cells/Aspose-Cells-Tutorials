@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No ambiente de negócios atual, baseado em dados, converter arquivos do Excel para diferentes formatos, como imagens ou PDFs, é essencial para melhorar a qualidade dos relatórios compartilhados com as partes interessadas. Este tutorial abrangente guiará você pela transformação perfeita de suas planilhas do Excel em formatos de imagem, como PNG e TIFF, ou pelo salvamento como PDF usando o Aspose.Cells para Java.
 
-## que você aprenderá
+## O que você aprenderá
 - Como renderizar um arquivo do Excel como uma imagem PNG.
 - Converter pastas de trabalho inteiras do Excel em arquivos TIFF.
 - Salvando dados do Excel como PDF com configurações de fonte personalizadas.
@@ -185,6 +187,9 @@ Agora você aprendeu a converter arquivos do Excel para os formatos PNG, TIFF e 
 Com este guia, você agora está preparado para converter arquivos do Excel para os formatos PNG, TIFF e PDF usando o Aspose.Cells para Java. Aprimore seus recursos de compartilhamento de dados com essas técnicas versáteis de conversão.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 許可證獲取
 
 - **免費試用：** 從免費試用開始探索其功能。
-- **臨時執照：** 取得臨時許可證以進行擴展評估。
+- **臨時執照：** 取得臨時許可證以進行延長評估。
 - **購買：** 如果您認為 Aspose.Cells 滿足您的需求，請購買完整許可證。
 
 若要初始化和設定 Aspose.Cells，請確保您的環境已正確配置以處理 Java 程式庫。以下是基本初始化的範例：
@@ -83,7 +85,7 @@ double Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ### 載入並初始化工作簿
 
 #### 概述
-本節示範如何創建 `Workbook` Java 中的實例，這對於對 Excel 檔案進行操作至關重要。
+本節示範如何創建 `Workbook` Java中的實例，對於Excel檔案的操作至關重要。
 
 #### 步驟
 **步驟 1：匯入工作簿類**
@@ -195,6 +197,9 @@ A5：常見問題包括檔案路徑不正確、權限不足或系統資源不足
 - **臨時執照：** [獲得臨時許可證](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

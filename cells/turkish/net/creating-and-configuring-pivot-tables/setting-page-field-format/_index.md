@@ -1,14 +1,16 @@
 ---
-title: .NET'te Sayfa Alanı Biçimini Programatik Olarak Ayarlama
-linktitle: .NET'te Sayfa Alanı Biçimini Programatik Olarak Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak PivotTable'larda sayfa alanı biçimlerini programatik olarak nasıl ayarlayacağınızı öğrenin. Sorunsuz veri yönetimi için adım adım öğreticimizi izleyin.
-weight: 21
-url: /tr/net/creating-and-configuring-pivot-tables/setting-page-field-format/
+"description": "Aspose.Cells for .NET kullanarak PivotTable'larda sayfa alanı biçimlerini programatik olarak nasıl ayarlayacağınızı öğrenin. Sorunsuz veri yönetimi için adım adım öğreticimizi izleyin."
+"linktitle": ".NET'te Sayfa Alanı Biçimini Programatik Olarak Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Sayfa Alanı Biçimini Programatik Olarak Ayarlama"
+"url": "/tr/net/creating-and-configuring-pivot-tables/setting-page-field-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Sayfa Alanı Biçimini Programatik Olarak Ayarlama
@@ -18,10 +20,10 @@ Kod aracılığıyla Excel dosyaları oluşturmak ve düzenlemek oldukça güçl
 ## Ön koşullar
 Kodlamaya dalmadan önce, her şeyin doğru şekilde ayarlandığından emin olalım. Aşağıdakilere ihtiyacınız olacak:
 - Visual Studio: .NET kodlarınızı yazıp çalıştırabileceğiniz bir çalışma ortamı.
--  Aspose.Cells: Kütüphaneyi indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+- Aspose.Cells: Kütüphaneyi indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 - Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
--  Excel Dosyası: Bir Excel dosyası hazır bulundurun (örneğin`Book1.xls`) PivotTable oluşturmaya uygun verileri içeren. 
- Henüz yapmadıysanız, Aspose.Cells'in ücretsiz deneme sürümünü edinin[Burada](https://releases.aspose.com/).
+- Excel Dosyası: Bir Excel dosyası hazır bulundurun (örneğin `Book1.xls`) PivotTable oluşturmaya uygun verileri içeren. 
+Henüz yapmadıysanız, Aspose.Cells'in ücretsiz deneme sürümünü edinin [Burada](https://releases.aspose.com/).
 ## Paketleri İçe Aktar
 Başlamak için projenize doğru paketleri içe aktarmanız gerekir. C# projenize Aspose.Cells kütüphanesine referanslar ekleyerek başlayın. İşte nasıl yapacağınız:
 ```csharp
@@ -49,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 Bu, yüklenen çalışma kitabının ilk çalışma sayfasını alır. Birden fazla sayfayla çalışıyorsanız dizini kolayca değiştirebilirsiniz.
 ## Adım 3: PivotTable'a Erişim
- Devam edelim, seçtiğimiz çalışma sayfasındaki PivotTable'a erişelim. Tek bir PivotTable kullanıyorsanız, dizinini şu şekilde ayarlayabilirsiniz:`0`:
+Devam edelim, seçtiğimiz çalışma sayfasındaki PivotTable'a erişelim. Tek bir PivotTable kullanıyorsanız, dizinini şu şekilde ayarlayabilirsiniz: `0`:
 ```csharp
 int pivotindex = 0;
 // PivotTable'a Erişim
@@ -76,7 +78,7 @@ Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0];
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Sum, true);
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Count, true);
 ```
- Etkinleştirerek`Sum` Ve`Count` Ara toplamlar sayesinde raporumuzdaki verileri hızlıca özetleyebiliriz.
+Etkinleştirerek `Sum` Ve `Count` Ara toplamlar sayesinde raporumuzdaki verileri hızlıca özetleyebiliriz.
 ## Adım 6: Otomatik Sıralama Seçeneklerini Ayarlama
 Şimdi, biraz akıllı sıralama yapalım. Bu şekilde, PivotTable'ınız verileri anlamlı bir sıraya göre düzenleyecektir:
 ```csharp
@@ -107,16 +109,18 @@ Artık yeni oluşturduğunuz Excel dosyasını belgeler dizininizde bulabilirsin
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir .NET kütüphanesidir.
 ### Aspose.Cells'i nasıl kurarım?
- Bunu doğrudan şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+Bunu doğrudan şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 ### Excel kurulumu olmadan Aspose.Cells'i kullanabilir miyim?
 Evet, Aspose.Cells Microsoft Excel'in kurulmasını gerektirmeyen bağımsız bir kütüphanedir.
 ### Detaylı desteğe nereden ulaşabilirim?
- Ayrıntılı destek ve forumlara şu adresten ulaşabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
+Ayrıntılı destek ve forumlara şu adresten ulaşabilirsiniz: [Aspose Desteği](https://forum.aspose.com/c/cells/9).
 ### Geçici ehliyet nasıl alabilirim?
- Geçici bir lisansı şu adresten alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici bir lisansı şu adresten alabilirsiniz: [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

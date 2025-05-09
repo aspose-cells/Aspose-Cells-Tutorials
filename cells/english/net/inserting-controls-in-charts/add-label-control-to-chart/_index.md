@@ -8,7 +8,9 @@ url: /net/inserting-controls-in-charts/add-label-control-to-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Label Control to Chart
@@ -169,6 +171,7 @@ Check out the [documentation](https://reference.aspose.com/cells/net/) for compr
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

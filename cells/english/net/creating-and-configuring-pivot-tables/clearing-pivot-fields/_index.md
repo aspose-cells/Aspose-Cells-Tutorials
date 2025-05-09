@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/clearing-pivot-fields/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clearing Pivot Fields Programmatically in .NET
@@ -158,6 +160,7 @@ Absolutely! The Aspose community support can be found [here](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

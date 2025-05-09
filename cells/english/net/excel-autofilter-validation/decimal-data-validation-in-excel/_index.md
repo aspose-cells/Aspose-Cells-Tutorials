@@ -8,7 +8,9 @@ url: /net/excel-autofilter-validation/decimal-data-validation-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Decimal Data Validation in Excel
@@ -220,6 +222,7 @@ You can explore the extensive documentation [here](https://reference.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

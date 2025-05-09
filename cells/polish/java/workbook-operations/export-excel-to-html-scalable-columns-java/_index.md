@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,6 +211,9 @@ Aby uzyskać dalsze informacje i dokumentację, odwiedź stronę [Dokumentacja A
 Rozpocznij przygodę z doskonaleniem obsługi plików Excela dzięki Aspose.Cells for Java i udoskonal swoją prezentację danych już dziś!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

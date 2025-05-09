@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,11 +17,11 @@
 
 ## Bevezetés
 
-Nehezen kezeli az Excel fájlokat programozottan? Fedezze fel, hogyan egyszerűsíti le ezt a feladatot az Aspose.Cells for Java, lehetővé téve a szoftververziók nyomtatását, és akár az üres munkalapok képként való renderelését is. Akár fejlesztő, akár adatkezelő, ezek a funkciók egyszerűsíthetik a munkafolyamatát.
+Nehezen kezeled az Excel fájlokat programozottan? Fedezd fel, hogyan egyszerűsíti le ezt a feladatot az Aspose.Cells for Java, lehetővé téve a szoftververziók nyomtatását, és akár az üres munkalapok képként való renderelését is. Akár fejlesztő, akár adatkezelő vagy, ezek a funkciók egyszerűsíthetik a munkafolyamatodat.
 
 **Amit tanulni fogsz:**
 - Hogyan jeleníthető meg az Aspose.Cells verziója Java-ban?
-- Technikák egy üres Excel-lap PNG-képként történő megjelenítéséhez.
+- Technikák egy üres Excel-lap PNG-képként való megjelenítéséhez.
 - Az Aspose.Cells gyakorlati integrációja Java projektekbe.
 
 Az elméletről a gyakorlatra való áttérés némi előkészületet igényel. Mielőtt elkezdenénk megvalósítani ezeket a funkciókat, nézzük meg az előfeltételeket.
@@ -176,6 +178,9 @@ Készen állsz kipróbálni az Aspose.Cells teljes potenciálját? Kezdd el a me
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Impara a gestire e modificare le connessioni dati di Excel a livello di codice con Aspose.Cells per Java. Migliora le tue competenze di automazione del flusso di lavoro."
-"title": "Padroneggiare le connessioni dati di Excel utilizzando Aspose.Cells Java - Una guida completa"
+"title": "Guida completa per padroneggiare le connessioni dati di Excel utilizzando Aspose.Cells Java"
 "url": "/it/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,6 +193,9 @@ R5: La versione di valutazione include filigrane nei documenti e potrebbe avere 
 - **Scaricamento:** [Aspose.Cells per le versioni Java](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

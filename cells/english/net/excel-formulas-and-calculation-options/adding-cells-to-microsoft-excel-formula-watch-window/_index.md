@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Cells to Microsoft Excel Formula Watch Window
@@ -159,6 +161,7 @@ You can get help from the Aspose community in their [Support forum](https://foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

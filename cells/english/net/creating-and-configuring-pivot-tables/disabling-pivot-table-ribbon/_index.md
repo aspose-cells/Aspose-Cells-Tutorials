@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/disabling-pivot-table-ribbon/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Disable Pivot Table Ribbon Programmatically in .NET
@@ -95,6 +97,7 @@ You can obtain a temporary license by visiting the [temporary license page](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

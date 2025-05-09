@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 باتباع هذا الدليل، ستتمكن من إنشاء وتخصيص المخططات البيانية في تطبيقات جافا باستخدام Aspose.Cells بسهولة. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

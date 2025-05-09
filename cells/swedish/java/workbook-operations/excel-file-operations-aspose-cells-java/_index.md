@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan du implementerar dessa funktioner, se till att du har följande förutsät
 2. **Miljöinställningar:**
    - Java Development Kit (JDK) installerat på din dator.
    - En lämplig integrerad utvecklingsmiljö (IDE), såsom IntelliJ IDEA, Eclipse eller NetBeans.
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmering.
    - Bekantskap med filoperationer i Java.
 
@@ -119,7 +121,7 @@ När du sparar en Excel-fil i textformat, till exempel CSV, kan du behöva anvä
    ```java
    Workbook workbook = new Workbook(dataDir + "/Book1.xlsx");
    ```
-3. **Konfigurera TxtSaveOptions:**
+3. **Konfigurera TxtSaveAlternativ:**
    Skapa en instans av `TxtSaveOptions` och ställ in önskad separator.
    ```java
    import com.aspose.cells.TxtSaveOptions;
@@ -188,6 +190,9 @@ Försök att implementera dessa lösningar i dina projekt och se hur de effektiv
 - **Köp och licensiering:** För frågor om köp eller licenser, besök [köpsida](https://purchase.aspose.com/buy) och [sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

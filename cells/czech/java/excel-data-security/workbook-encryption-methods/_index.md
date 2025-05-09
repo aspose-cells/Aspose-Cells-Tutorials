@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metody šifrování sešitů
@@ -16,7 +18,7 @@
 
 ## Úvod do metod šifrování sešitů
 
-V dnešní digitální době je zabezpečení dat prvořadé. Pokud jde o manipulaci s citlivými informacemi v sešitech aplikace Excel, šifrování se stává klíčovou součástí. Aspose.Cells for Java, výkonné rozhraní Java API pro práci se soubory aplikace Excel, nabízí různé metody zabezpečení vašich sešitů pomocí šifrování. V této komplexní příručce prozkoumáme různé metody šifrování sešitů, které Aspose.Cells for Java nabízí, a ukážeme, jak je implementovat do vašich aplikací v jazyce Java.
+dnešní digitální době je zabezpečení dat prvořadé. Pokud jde o manipulaci s citlivými informacemi v sešitech aplikace Excel, šifrování se stává klíčovou součástí. Aspose.Cells for Java, výkonné rozhraní Java API pro práci se soubory aplikace Excel, nabízí různé metody zabezpečení vašich sešitů pomocí šifrování. V této komplexní příručce prozkoumáme různé metody šifrování sešitů, které Aspose.Cells for Java nabízí, a ukážeme, jak je implementovat do vašich aplikací v jazyce Java.
 
 ## Principy šifrování sešitů
 
@@ -106,6 +108,7 @@ Aspose.Cells pro Javu se primárně zaměřuje na sešity aplikace Excel, ale m�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel中的AVERAGE函數
@@ -113,7 +115,7 @@ Aspose.Cells for Java 提供的功能範圍遠遠超出了我們在本文中介�
 
 ## 結論
 
-在本文中，我們探討如何使用 Aspose.Cells for Java 在 Excel 中使用 AVERAGE 函數。我們首先設定開發環境，建立一個新的 Excel 工作簿，新增數據，使用 AVERAGE 函數，格式化工作表，並處理錯誤。 Aspose.Cells for Java 提供了一個強大的解決方案，可以透過程式設計自動執行 Excel 任務，使其成為資料操作和分析的寶貴工具。
+在本文中，我們探討如何使用 Aspose.Cells for Java 在 Excel 中使用 AVERAGE 函數。我們首先設定開發環境，建立一個新的 Excel 工作簿，新增數據，使用 AVERAGE 函數，格式化工作表並處理錯誤。 Aspose.Cells for Java 提供了一個強大的解決方案，可以透過程式設計自動執行 Excel 任務，使其成為資料操作和分析的寶貴工具。
 
 ## 常見問題解答
 
@@ -140,6 +142,7 @@ Aspose.Cells for Java 簡化了 Excel 自動化，節省您的時間和精力。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

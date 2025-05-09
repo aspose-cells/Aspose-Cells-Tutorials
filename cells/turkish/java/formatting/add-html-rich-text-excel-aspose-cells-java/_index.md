@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Başlamak için gerekli ön koşulları anlayarak başlayalım.
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. **Kütüphaneler ve Bağımlılıklar**Java için Aspose.Cells 25.3 veya sonraki bir sürüme ihtiyacınız olacak.
-2. **Çevre Kurulumu**: Bu eğitim, Maven veya Gradle gibi Java geliştirme ortamlarına temel düzeyde aşina olduğunuzu varsayar.
+2. **Çevre Kurulumu**Bu eğitim, Maven veya Gradle gibi Java geliştirme ortamlarına temel düzeyde aşina olduğunuzu varsayar.
 3. **Bilgi Önkoşulları**: Temel Java programlama ve XML tabanlı derleme araçları (Maven/Gradle) bilgisine sahip olmanız önerilir.
 
 ## Java için Aspose.Cells Kurulumu
@@ -105,15 +107,15 @@ workbook.save("AHTMLRText_out.xlsx");
 
 Excel'e HTML açısından zengin metin eklemenin faydalı olduğu bazı gerçek dünya kullanım örnekleri şunlardır:
 
-1. **Finansal Raporlar**: Önemli finansal metrikleri kalın ve renkli yazı tipleriyle biçimlendirerek netliği ve görsel çekiciliği artırın.
-2. **Gösterge panelleri**Daha iyi veri görselleştirmesi için HTML stilini kullanın, panoları daha etkileşimli ve bilgilendirici hale getirin.
-3. **Pazarlama Materyalleri**: Marka tutarlılığını, biçimlendirilmiş metinler aracılığıyla garanti altına alarak, doğrudan Excel içerisinde özelleştirilmiş pazarlama raporları oluşturun.
+1. **Finansal Raporlar**: Önemli finansal ölçümleri kalın ve renkli yazı tipleriyle biçimlendirerek netliği ve görsel çekiciliği artırın.
+2. **Gösterge panelleri**: Daha iyi veri görselleştirmesi için HTML stilini kullanın, panoları daha etkileşimli ve bilgilendirici hale getirin.
+3. **Pazarlama Materyalleri**:Marka tutarlılığını, biçimlendirilmiş metinler aracılığıyla garanti altına alarak, doğrudan Excel içerisinde özelleştirilmiş pazarlama raporları oluşturun.
 
 ## Performans Hususları
 
 Aspose.Cells ile çalışırken:
 - **Kaynak Kullanımını Optimize Edin**: Performans düşüşlerini önlemek için büyük çalışma kitaplarındaki HTML tarzı hücrelerin sayısını sınırlayın.
-- **Java Bellek Yönetimi**: Büyük veri kümelerini etkili bir şekilde işlemek için Java'da verimli bellek yönetimi uygulamalarını kullanın. Bu, çalışma kitabı örneklerini kullanımdan hemen sonra kapatmayı içerir.
+- **Java Bellek Yönetimi**Büyük veri kümelerini etkili bir şekilde işlemek için Java'da verimli bellek yönetimi uygulamalarını kullanın. Bu, çalışma kitabı örneklerini kullanımdan hemen sonra kapatmayı içerir.
 
 ## Çözüm
 
@@ -150,6 +152,9 @@ Excel veri işleme ve sunumunuzu dönüştürmek için Aspose.Cells for Java'nı
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

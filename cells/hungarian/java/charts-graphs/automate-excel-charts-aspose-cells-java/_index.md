@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,10 +168,13 @@ V: A [Aspose Fórum](https://forum.aspose.com/c/cells/9) nagyszerű forrás, ha 
 ## Erőforrás
 - **Dokumentáció:** Részletes API-referenciákat és útmutatókat itt talál: [Aspose.Cells Java dokumentáció](https://reference.aspose.com/cells/java/).
 - **Aspose.Cells letöltése:** Kezdje el az ingyenes próbaverziót, vagy vásároljon licenceket innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
-- **Licenc vásárlása:** Készen áll az éles környezetbe való integrációra? Látogasson el [Aspose vásárlás](https://purchase.aspose.com/buy) licencelési lehetőségekért.
+- **Licenc vásárlása:** Készen áll az éles környezetbe való integrációra? Látogasson el [Aspose vásárlás](https://purchase.aspose.com/buy) a licencelési lehetőségekért.
 - **Támogatás és fórumok:** Csatlakozz a közösséghez, vagy kérj segítséget a következő címen: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

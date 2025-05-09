@@ -1,14 +1,16 @@
 ---
-title: Zamień wyrażenie regularne
-linktitle: Zamień wyrażenie regularne
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak efektywnie używać funkcji zastępowania wyrażeń regularnych w programie Excel za pomocą Aspose.Cells dla platformy .NET. Zwiększ produktywność i dokładność zadań wykonywanych w arkuszach kalkulacyjnych.
-weight: 140
-url: /pl/net/excel-workbook/regex-replace/
+"description": "Dowiedz się, jak efektywnie używać funkcji zastępowania wyrażeń regularnych w programie Excel za pomocą Aspose.Cells dla platformy .NET. Zwiększ produktywność i dokładność zadań wykonywanych w arkuszach kalkulacyjnych."
+"linktitle": "Zamień wyrażenie regularne"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zamień wyrażenie regularne"
+"url": "/pl/net/excel-workbook/regex-replace/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zamień wyrażenie regularne
@@ -22,7 +24,7 @@ Czy jesteś zmęczony spędzaniem godzin na ręcznym wprowadzaniu drobiazgowych 
 Zanim zagłębisz się w szczegóły kodowania, upewnijmy się, że jesteś dobrze przygotowany na czekającą Cię podróż.
 
 1. .NET Framework: Upewnij się, że masz skonfigurowane środowisko .NET. Niezależnie od tego, czy jest to .NET Core czy .NET Framework, wszystko powinno być w porządku.
-2. Biblioteka Aspose.Cells: Ta biblioteka jest Twoim kluczem do odblokowania potężnych manipulacji arkuszami kalkulacyjnymi. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Ta biblioteka jest Twoim kluczem do odblokowania potężnych manipulacji arkuszami kalkulacyjnymi. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. IDE: Użyj swojego ulubionego zintegrowanego środowiska programistycznego (IDE), np. Visual Studio, dzięki któremu kodowanie stanie się o wiele płynniejsze.
 4. Podstawowa wiedza programistyczna: Znajomość języka C# i koncepcji wyrażeń regularnych będzie dodatkowym atutem.
 
@@ -31,7 +33,7 @@ Zanim zagłębisz się w szczegóły kodowania, upewnijmy się, że jesteś dobr
 Aby rozpocząć, upewnij się, że skonfigurowałeś swój projekt, dodając bibliotekę Aspose.Cells. Możesz to zrobić za pomocą NuGet Package Manager w Visual Studio.
 
 1. Otwórz projekt i przejdź do Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania.
-2.  Szukaj`Aspose.Cells` i zainstaluj.
+2. Szukaj `Aspose.Cells` i zainstaluj.
 
 Teraz, gdy wszystko jest już skonfigurowane, możemy zaimportować niezbędne pakiety dla naszej aplikacji.
 
@@ -44,7 +46,7 @@ using System;
 using Aspose.Cells;
 ```
 
-Pakiety te umożliwiają nam dostęp do klas i metod udostępnianych przez Aspose.Cells, co pozwala nam na efektywne przetwarzanie plików Excel.
+Pakiety te umożliwiają nam dostęp do klas i metod udostępnianych przez Aspose.Cells, co pozwala nam na efektywną pracę z plikami Excel.
 
 Podzielmy to na łatwe do opanowania kroki. Poprowadzimy Cię przez proces zastępowania tekstu w programie Excel za pomocą wyrażeń regularnych, skupiając się szczególnie na tym, jak zastępować wystąpienia słowa „KIM” słowem „TIM”.
 
@@ -59,7 +61,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Tutaj,`"Your Document Directory"` I`"Your Document Directory"` to funkcje narzędziowe, które pomagają wygodnie pobierać ścieżki źródłowe i wyjściowe. Upewnij się, że katalog źródłowy zawiera plik o nazwie`SampleRegexReplace.xlsx` dla tego przykładu.
+Tutaj, `"Your Document Directory"` I `"Your Document Directory"` to funkcje narzędziowe, które pomagają wygodnie pobierać ścieżki źródłowe i wyjściowe. Upewnij się, że katalog źródłowy zawiera plik o nazwie `SampleRegexReplace.xlsx` dla tego przykładu.
 
 ## Krok 2: Ładowanie skoroszytu
 
@@ -69,7 +71,7 @@ Teraz, gdy wiemy, gdzie znajdują się nasze pliki, załadujmy skoroszyt (plik p
 Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ```
 
- To, co tutaj robimy, to tworzenie nowego wystąpienia`Workbook` klasa, przekazując ścieżkę pliku źródłowego do konstruktora. To ładuje plik Excel i przygotowuje go do edycji!
+To, co tutaj robimy, to tworzenie nowego wystąpienia `Workbook` klasa, przekazując ścieżkę pliku źródłowego do konstruktora. To ładuje plik Excel i przygotowuje go do edycji!
 
 ## Krok 3: Konfigurowanie opcji zamiany
 
@@ -83,13 +85,13 @@ replace.RegexKey = true; // Określ, że używamy wyrażenia regularnego
 ```
 
 W tej konfiguracji:
-- `CaseSensitive` jest ustawiony na`false`, co oznacza, że wyszukiwanie frazy „KIM” nie będzie uwzględniać, czy litery są wielkie, czy małe.
-- `MatchEntireCellContents` jest ustawiony na`false` dzięki czemu możemy zastąpić część zawartości komórki.
-- `RegexKey` jest ustawiony na`true` aby wskazać, że do wyszukiwania użyjemy wyrażenia regularnego.
+- `CaseSensitive` jest ustawiony na `false`, co oznacza, że wyszukiwanie frazy „KIM” nie będzie uwzględniać, czy litery są wielkie, czy małe.
+- `MatchEntireCellContents` jest ustawiony na `false` dzięki czemu możemy zastąpić część zawartości komórki.
+- `RegexKey` jest ustawiony na `true` aby wskazać, że do wyszukiwania użyjemy wyrażenia regularnego.
 
 ## Krok 4: Wykonanie wymiany
 
-Teraz dzieje się magia. Czas zastąpić „KIM” przez „^^^TIM^^^".
+Teraz dzieje się magia. Czas zastąpić „KIM” przez „^^^TIM^^^”.
 
 ```csharp
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
@@ -97,11 +99,11 @@ workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 
 W tym wierszu:
 - `\\b` oznacza granicę słowa w wyrażeniu regularnym, zapewniając, że zamieniamy „KIM” tylko wtedy, gdy pojawia się jako całe słowo, a nie jako część innego słowa.
-- Zastępujemy to „^^^TIM^^^„ (zauważ trzy daszki). To pokazuje, jak proste mogą być zamienniki oparte na wyrażeniach regularnych!
+- Zastępujemy to „^^^TIM^^^” (zauważ trzy daszki). To pokazuje, jak proste mogą być zastąpienia oparte na wyrażeniach regularnych!
 
 ## Krok 5: Zapisywanie skoroszytu
 
-Udało się! Teraz czas zapisać zmodyfikowany skoroszyt, aby zmiany zostały zastosowane.
+Udało się! Teraz czas zapisać zmodyfikowany skoroszyt, aby zmiany zostały wprowadzone.
 
 ```csharp
 workbook.Save(outputDir + "RegexReplace_out.xlsx");
@@ -117,11 +119,11 @@ Na koniec wydrukujmy komunikat o powodzeniu operacji.
 Console.WriteLine("RegexReplace executed successfully.");
 ```
 
-Dzięki tej ostatniej linijce otrzymasz potwierdzenie na konsoli. Zawsze dobrze jest wiedzieć, że wszystko poszło zgodnie z planem!
+W tym ostatnim wierszu otrzymasz potwierdzenie na konsoli. Zawsze dobrze jest wiedzieć, że wszystko poszło zgodnie z planem!
 
 ## Wniosek
 
-I masz to! Udało Ci się nauczyć, jak używać Aspose.Cells dla .NET do wykonywania zamian regex w plikach Excel. Wykorzystując moc wyrażeń regularnych, możesz sprawnie i dokładnie wprowadzać zbiorcze edycje w arkuszach kalkulacyjnych, co daje Ci więcej czasu na skupienie się na ważnych rzeczach. Więc śmiało, wypróbuj i zmień swoje doświadczenie z Excelem!
+masz to! Udało Ci się nauczyć, jak używać Aspose.Cells dla .NET do wykonywania zamian regex w plikach Excel. Wykorzystując moc wyrażeń regularnych, możesz sprawnie i dokładnie wprowadzać zbiorcze edycje w arkuszach kalkulacyjnych, co daje Ci więcej czasu na skupienie się na ważnych rzeczach. Więc śmiało, wypróbuj i zmień swoje doświadczenie z Excelem!
 
 ## Najczęściej zadawane pytania 
 
@@ -138,10 +140,12 @@ Tak, obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne.
 Tak, można tworzyć bardziej złożone wzorce wyrażeń regularnych, aby dopasować wiele terminów jednocześnie.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Cells?  
-Można znaleźć kompleksową dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Można znaleźć kompleksową dokumentację [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

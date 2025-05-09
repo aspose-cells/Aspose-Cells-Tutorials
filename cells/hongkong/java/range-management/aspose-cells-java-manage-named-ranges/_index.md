@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 基本初始化
 
-建立一個實例 `Workbook` 開始處理 Excel 文件的類別：
+建立一個實例 `Workbook` 類別開始處理 Excel 文件：
 ```java
 Workbook workbook = new Workbook();
 ```
@@ -215,6 +217,9 @@ Aspose.Cells for Java 開啟了一個充滿可能性的世界：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

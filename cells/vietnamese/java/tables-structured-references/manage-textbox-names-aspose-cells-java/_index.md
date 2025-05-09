@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ Khi làm việc với Aspose.Cells và quản lý hộp văn bản trong các s�
 
 ### Mẹo để tối ưu hóa hiệu suất
 - Sử dụng lại các phiên bản sổ làm việc khi có thể để giảm thiểu việc sử dụng bộ nhớ.
-- Hạn chế số lượng hộp văn bản trên một bảng tính nếu xử lý các tập dữ liệu lớn.
+- Hạn chế số lượng hộp văn bản trên một bảng tính nếu xử lý các tập dữ liệu mở rộng.
 
 ### Hướng dẫn sử dụng tài nguyên
 - Theo dõi việc phân bổ bộ nhớ JVM; điều chỉnh theo yêu cầu của ứng dụng.
@@ -193,6 +195,9 @@ Bước tiếp theo, hãy cân nhắc khám phá các tính năng khác của As
    - Kiểm tra lại cấu hình xây dựng của dự án (Maven/Gradle) để đảm bảo tất cả các phụ thuộc cần thiết của Aspose.Cells đều được bao gồm chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

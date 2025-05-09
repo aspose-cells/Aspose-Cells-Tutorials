@@ -1,31 +1,33 @@
 ---
-title: Rumus Perhitungan Langsung di Excel Secara Terprogram
-linktitle: Rumus Perhitungan Langsung di Excel Secara Terprogram
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara menggunakan Aspose.Cells for .NET untuk menjalankan perhitungan Excel secara terprogram. Panduan langkah demi langkah untuk operasi Excel yang mudah.
-weight: 14
-url: /id/net/excel-formulas-and-calculation-options/direct-calculation-formula/
+"description": "Temukan cara menggunakan Aspose.Cells for .NET untuk menjalankan perhitungan Excel secara terprogram. Panduan langkah demi langkah untuk operasi Excel yang mudah."
+"linktitle": "Rumus Perhitungan Langsung di Excel Secara Terprogram"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Rumus Perhitungan Langsung di Excel Secara Terprogram"
+"url": "/id/net/excel-formulas-and-calculation-options/direct-calculation-formula/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rumus Perhitungan Langsung di Excel Secara Terprogram
 
-## Perkenalan
+## Bevezetés
 Jika ingin memanipulasi file Excel secara terprogram, memiliki alat yang tepat sangatlah penting. Gunakan Aspose.Cells for .NET – pustaka canggih yang memungkinkan pengembang membuat, memanipulasi, dan mengelola file Excel secara dinamis. Dalam tutorial ini, kita akan menyelami lebih dalam dunia rumus perhitungan langsung di Excel. Jika Anda pernah bertanya-tanya bagaimana cara menghitung nilai tanpa membuka Excel secara manual atau bagaimana cara mengotomatiskan tugas pelaporan Anda.
-## Prasyarat
+## Előfeltételek
 Sebelum masuk ke kode, mari pastikan Anda telah menyiapkan semuanya agar pengalaman menggunakan Aspose.Cells berjalan lancar. 
 ### Apakah Anda Telah Menginstal .NET?
 Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells for .NET kompatibel dengan beberapa versi .NET, jadi pastikan Anda telah menginstal setidaknya .NET Framework 4.0 atau yang lebih tinggi.
 ### Dapatkan Aspose.Cells
- Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Ini dapat dilakukan dengan mudah melalui NuGet atau mengunduhnya langsung dari[halaman rilis mereka](https://releases.aspose.com/cells/net/).
-### Pengetahuan Dasar C#
+Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Ini dapat dilakukan dengan mudah melalui NuGet atau mengunduhnya langsung dari [halaman rilis mereka](https://releases.aspose.com/cells/net/).
+### C# alapismeretek
 Karena contoh kode kami akan menggunakan C#, sangat penting bagi Anda untuk memahami dasar-dasar bahasa tersebut. Pemahaman terhadap konsep pemrograman berorientasi objek juga akan membantu!
 ### Sedikit Kesabaran!
 Baiklah, berbekal alat yang Anda miliki, mari kita lanjutkan ke proses mengimpor paket dan memulai petualangan pengkodean kita!
-## Paket Impor
+## Csomagok importálása
 Untuk bekerja dengan Aspose.Cells, Anda perlu mengimpor beberapa paket penting di awal berkas C# Anda. Berikut ini adalah beberapa paket yang biasanya disertakan:
 ```csharp
 using System.IO;
@@ -68,7 +70,7 @@ Sekarang sel kita terisi dengan angka, kita akan menghitung jumlah A1 dan A2 men
 ```csharp
 var results = worksheet.CalculateFormula("=Sum(A1:A2)");
 ```
- Di sini, kami menyerukan`CalculateFormula` untuk menghitung jumlah berdasarkan masukan kita. Ini sama seperti meminta Excel melakukan pekerjaan berat untuk kita—betapa mudahnya!
+Di sini, kami menyerukan `CalculateFormula` untuk menghitung jumlah berdasarkan masukan kita. Ini sama seperti meminta Excel melakukan pekerjaan berat untuk kita—betapa mudahnya!
 ## Langkah 6: Menampilkan Output
 Untuk melihat perhitungan kami, kami akan mencetak nilai ke konsol:
 ```csharp
@@ -77,23 +79,25 @@ System.Console.WriteLine("Value of A2: " + cellA2.StringValue);
 System.Console.WriteLine("Result of Sum(A1:A2): " + results.ToString());
 ```
 Kode ini menampilkan nilai dalam sel A1 dan A2 beserta jumlah yang telah kita hitung. Bayangkan saja ini sebagai laporan mini yang dihasilkan oleh kode Anda!
-## Kesimpulan
+## Következtetés
 Nah, itu dia! Kini Anda dibekali dengan pengetahuan untuk membuat buku kerja Excel, mengisinya dengan data, dan melakukan perhitungan menggunakan Aspose.Cells for .NET. Pustaka ini membuka banyak kemungkinan untuk otomatisasi dan pengelolaan data, yang membuat hidup Anda jauh lebih mudah. 
 Baik untuk pelaporan, analisis data, atau sekadar mengubah spreadsheet, pemrograman dengan Aspose.Cells merupakan aset yang hebat bagi perangkat pengembang mana pun. Jadi, mengapa tidak mencobanya? Siapa tahu – proyek Anda berikutnya mungkin menjadi petualangan pemrograman favorit baru Anda!
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells untuk .NET?
+## GYIK
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells untuk .NET adalah pustaka hebat untuk mengelola berkas Excel secara terprogram, yang memungkinkan Anda membuat, memodifikasi, dan menghitung lembar kerja Excel.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat mengakses versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Anda dapat mengakses versi uji coba gratis dari [itt](https://releases.aspose.com/).
 ### Apakah perlu mengetahui fungsi Excel?
 Meskipun membantu, hal ini tidak sepenuhnya diperlukan. Menggunakan Aspose.Cells memungkinkan Anda untuk menangani fungsi Excel secara terprogram.
-### Di mana saya dapat menemukan dokumentasi lebih lanjut?
-Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/).
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Untuk dukungan, jangan ragu untuk menghubungi mereka di[forum dukungan](https://forum.aspose.com/c/cells/9).
+### Hol találok további dokumentációt?
+Anda dapat menemukan dokumentasi yang lengkap [itt](https://reference.aspose.com/cells/net/).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Untuk dukungan, jangan ragu untuk menghubungi mereka di [támogató fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

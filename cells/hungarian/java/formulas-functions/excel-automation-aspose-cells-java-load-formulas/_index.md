@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencszerzés
-Az Aspose.Cells ingyenes próbaverziót, ideiglenes licenceket tesztelési célokra, valamint vásárlási opciókat kínál a teljes használathoz. [ideiglenes jogosítvány megszerzése](https://purchase.aspose.com/tempvagyary-license/) or [vásároljon egy licencet](https://purchase.aspose.com/buy) az összes funkció feloldásához.
+Az Aspose.Cells ingyenes próbaverziót, ideiglenes licenceket tesztelési célokra, valamint vásárlási opciókat kínál a teljes használathoz. [ideiglenes jogosítvány megszerzése](https://purchase.aspose.com/tempvagyary-license/) or [vesz egy licencet](https://purchase.aspose.com/buy) az összes funkció feloldásához.
 
 **Alapvető inicializálás:**
 Miután beállította a könyvtárat a projektben:
@@ -172,6 +174,9 @@ Kezdje el az Excel automatizálás elsajátításának útját az Aspose.Cells J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

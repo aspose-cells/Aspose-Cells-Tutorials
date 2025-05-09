@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/changing-source-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Source Data of Pivot Table Programmatically in .NET
@@ -115,6 +117,7 @@ For more examples and support, check out the [Aspose.Cells documentation](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

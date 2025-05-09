@@ -1,23 +1,25 @@
 ---
-title: Dapatkan Indeks Baris Tersembunyi Setelah Menyegarkan Filter Otomatis di Excel
-linktitle: Dapatkan Indeks Baris Tersembunyi Setelah Menyegarkan Filter Otomatis di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara mengambil indeks baris tersembunyi setelah menyegarkan Filter Otomatis di Excel menggunakan Aspose.Cells untuk .NET. Sederhanakan pengelolaan data Anda.
-weight: 10
-url: /id/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/
+"description": "Temukan cara mengambil indeks baris tersembunyi setelah menyegarkan Filter Otomatis di Excel menggunakan Aspose.Cells untuk .NET. Sederhanakan pengelolaan data Anda."
+"linktitle": "Dapatkan Indeks Baris Tersembunyi Setelah Menyegarkan Filter Otomatis di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Dapatkan Indeks Baris Tersembunyi Setelah Menyegarkan Filter Otomatis di Excel"
+"url": "/id/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Indeks Baris Tersembunyi Setelah Menyegarkan Filter Otomatis di Excel
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan file Excel, terutama kumpulan data besar, pemfilteran dapat menjadi penyelamat. Pemfilteran membantu kita fokus pada titik data tertentu, tetapi apa yang terjadi saat Anda ingin mengidentifikasi baris tersembunyi setelah menerapkan filter? Jika Anda pernah penasaran untuk menarik detail tersembunyi ini, Anda berada di tempat yang tepat! Dalam panduan ini, kita akan menjelajahi cara mendapatkan indeks baris tersembunyi setelah menyegarkan Filter Otomatis di Excel menggunakan Aspose.Cells untuk .NET. Baik Anda seorang programmer berpengalaman atau pemula, Anda akan menemukan proses ini mudah dan menarik. Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum Anda masuk ke kode, ada beberapa prasyarat yang perlu diingat:
 
@@ -27,22 +29,22 @@ Untuk mengikuti tutorial ini, Anda perlu memahami dengan baik apa itu Aspose.Cel
 
 ### Menyiapkan Lingkungan Pengembangan Anda
 
-1.  Instal Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Anda dapat mengunduhnya dari[Situs web Visual Studio](https://visualstudio.microsoft.com/).
+1. Instal Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Anda dapat mengunduhnya dari [Visual Studio weboldal](https://visualstudio.microsoft.com/).
 
 2. .NET Framework: Anda memerlukan versi .NET Framework atau .NET Core yang kompatibel. Pustaka ini berfungsi baik dengan kedua framework tersebut.
 
-3.  Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells dari[tautan ini](https://releases.aspose.com/cells/net/). Atau, Anda dapat menginstalnya melalui NuGet. Cukup buka Konsol Pengelola Paket dan jalankan:
+3. Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells dari [ezt a linket](https://releases.aspose.com/cells/net/). Atau, Anda dapat menginstalnya melalui NuGet. Cukup buka Konsol Pengelola Paket dan jalankan:
 ```
 Install-Package Aspose.Cells
 ```
 
-4.  Contoh File Excel: Siapkan contoh file Excel bernama`sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` untuk pengujian. Pastikan untuk menyertakan beberapa data yang dapat difilter.
+4. Contoh File Excel: Siapkan contoh file Excel bernama `sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` untuk pengujian. Pastikan untuk menyertakan beberapa data yang dapat difilter.
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai perjalanan pemrograman ini, Anda perlu mengimpor namespace yang diperlukan. Ini merupakan langkah penting karena memungkinkan penggunaan fungsi Aspose.Cells dalam proyek Anda.
 
-1. Buka proyek Anda di Visual Studio.
+1. Nyisd meg a projektedet a Visual Studioban.
 2. Pada berkas kode Anda, di bagian atas, tambahkan perintah penggunaan berikut:
 
 ```csharp
@@ -56,7 +58,7 @@ Arahan ini memberi tahu kompiler Anda di mana harus mencari kelas dan metode yan
 
 Di bagian ini, kami akan menguraikan proses tersebut menjadi beberapa langkah yang mudah diikuti. Anda akan mengakses lembar kerja Excel, menerapkan filter, dan mengidentifikasi baris tersembunyi — semuanya dengan Aspose.Cells.
 
-## Langkah 1: Siapkan Lingkungan Anda
+## 1. lépés: Állítsa be a környezetét
 
 Sebelum mulai membuat kode, mari kita siapkan lingkungan kita dan nyatakan variabel yang diperlukan. Pengaturan ini akan mengarahkan semuanya ke file Excel contoh Anda dan menyiapkan buku kerja.
 
@@ -64,7 +66,7 @@ Sebelum mulai membuat kode, mari kita siapkan lingkungan kita dan nyatakan varia
 string sourceDir = "Your Document Directory"; // tentukan direktori Anda
 ```
 
-## Langkah 2: Muat File Excel Sampel
+## 2. lépés: Töltse be a minta Excel-fájlt
 
 Selanjutnya, kita perlu memuat berkas Excel Anda ke dalam objek buku kerja. Ini memungkinkan kita untuk memanipulasinya secara terprogram. 
 
@@ -72,14 +74,14 @@ Selanjutnya, kita perlu memuat berkas Excel Anda ke dalam objek buku kerja. Ini 
 Workbook wb = new Workbook(sourceDir + "sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx");
 ```
 
- Di sini, kita membuat yang baru`Workbook` objek yang memuat berkas Excel yang ditentukan.
+Itt egy újat hozunk létre, `Workbook` objek yang memuat berkas Excel yang ditentukan.
 
 ## Langkah 3: Akses Lembar Kerja yang Diinginkan
 
 Sekarang, kita akan bekerja dengan lembar kerja pertama dari buku kerja. Langkah ini mengisolasi lembar yang berisi data yang ingin kita saring.
 
 ```csharp
-Worksheet ws = wb.Worksheets[0]; // Mengakses lembar kerja pertama
+Worksheet ws = wb.Worksheets[0]; // Az első munkalap elérése
 ```
 
 ## Langkah 4: Terapkan Filter Otomatis
@@ -116,29 +118,31 @@ for (int i = 0; i < rowIndices.Length; i++)
 Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed successfully.");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda berhasil mengambil indeks baris tersembunyi setelah menyegarkan Filter Otomatis di Excel menggunakan Aspose.Cells for .NET. Keren, bukan? Kemampuan ini dapat meningkatkan proyek analisis data Anda secara dramatis, membuat alur kerja Anda lebih lancar dan lebih efisien.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka hebat untuk .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengekspor file Excel tanpa memerlukan Microsoft Excel.
 
 ### Bisakah saya memfilter data di Excel menggunakan Aspose.Cells?
 Ya! Aspose.Cells memiliki fungsi bawaan untuk menerapkan filter dan bekerja dengan data Excel secara efektif.
 
-### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi Anda harus membeli lisensi untuk penggunaan lebih lanjut. Periksa[halaman pembelian](https://purchase.aspose.com/buy) untuk rinciannya.
+### Ingyenesen használható az Aspose.Cells?
+Aspose.Cells menawarkan uji coba gratis, tetapi Anda harus membeli lisensi untuk penggunaan lebih lanjut. Periksa [vásárlási oldal](https://purchase.aspose.com/buy) a részletekért.
 
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat mencari dukungan dari komunitas Aspose melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Anda dapat mencari dukungan dari komunitas Aspose melalui [Aspose fórum](https://forum.aspose.com/c/cells/9).
 
-### Di mana saya dapat menemukan dokumentasi untuk Aspose.Cells?
- Dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/cells/net/).
+### Hol találom az Aspose.Cells dokumentációját?
+Dokumentasi lengkap tersedia [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

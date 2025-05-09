@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Niestandardowe szablony wykresów
@@ -16,7 +18,7 @@
 
 ## Niestandardowy szablon wykresu
 
-W ciągle ewoluującym świecie wizualizacji danych tworzenie niestandardowych szablonów wykresów jest niezbędne do skutecznego przekazywania historii danych. Aspose.Cells for Java zapewnia potężny zestaw narzędzi do generowania dynamicznych i dostosowanych wykresów w aplikacjach Java. W tym przewodniku krok po kroku zbadamy, jak wykorzystać możliwości Aspose.Cells for Java do tworzenia oszałamiających niestandardowych szablonów wykresów. Zanurzmy się!
+ciągle ewoluującym świecie wizualizacji danych tworzenie niestandardowych szablonów wykresów jest niezbędne do skutecznego przekazywania historii danych. Aspose.Cells for Java zapewnia potężny zestaw narzędzi do generowania dynamicznych i dostosowanych wykresów w aplikacjach Java. W tym przewodniku krok po kroku zbadamy, jak wykorzystać możliwości Aspose.Cells for Java do tworzenia oszałamiających niestandardowych szablonów wykresów. Zanurzmy się!
 
 ## Zrozumienie Aspose.Cells dla Java
 
@@ -64,7 +66,7 @@ Przed utworzeniem wykresu potrzebujesz danych. Możesz zaimportować dane z istn
 int sheetIndex = workbook.getWorksheets().add();
 Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 
-// Tutaj wpisz kod populacji danych
+// Kod populacji danych tutaj
 ```
 
 ### Krok 4: Tworzenie wykresu
@@ -127,6 +129,7 @@ Aby zapoznać się z pełną dokumentacją i przykładami, odwiedź dokumentacj�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

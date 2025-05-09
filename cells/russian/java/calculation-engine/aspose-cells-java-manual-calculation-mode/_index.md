@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 4. **Какие типичные ошибки возникают при использовании Aspose.Cells для Java в режиме ручного расчета?**
    - Забывание запустить вычисления вручную после задания формул.
 
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    - Посещать [Документация Aspose](https://reference.aspose.com/cells/java/) и изучите различные доступные руководства.
 
 ## Ресурсы
@@ -175,9 +177,12 @@ workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 - **Временная лицензия**: https://purchase.aspose.com/temporary-license/
 - **Поддерживать**: https://forum.aspose.com/c/cells/9
 
-Это руководство должно снабдить вас знаниями и инструментами для эффективного управления расчетами формул в Aspose.Cells для Java. Удачного кодирования!
+Этот урок должен снабдить вас знаниями и инструментами для эффективного управления расчетами формул в Aspose.Cells для Java. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

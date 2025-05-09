@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importación masiva de datos de Excel
@@ -99,9 +101,11 @@ Sí, Aspose.Cells para Java es adecuado para tareas de procesamiento por lotes, 
 Sí, revise la información de licencias en el sitio web de Aspose para obtener detalles sobre licencias y precios.
 
 Explora con más detalle y adapta los ejemplos de código a tus necesidades. ¡Que disfrutes programando!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

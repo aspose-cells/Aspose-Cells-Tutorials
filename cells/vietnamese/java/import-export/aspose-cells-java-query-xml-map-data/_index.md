@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Bằng cách thành thạo thư viện Aspose.Cells để truy vấn dữ liệu
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để khai thác sức mạnh của Aspose.Cells for Java trong việc truy vấn dữ liệu bản đồ XML trong các tệp Excel. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

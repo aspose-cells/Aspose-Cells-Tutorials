@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 
 ## 結論
 
-在本教學中，您學習如何使用 Aspose.Cells for Java 偵測 Excel 工作簿中隱藏的外部連結。此功能對於維護電子表格中的資料透明度和完整性至關重要。為了進一步探索，請考慮試驗 Aspose.Cells 庫的其他功能，例如操作工作簿公式或自動執行複雜的資料轉換。
+在本教學中，您學習如何使用 Aspose.Cells for Java 偵測 Excel 工作簿中隱藏的外部連結。此功能對於維護電子表格中的資料透明度和完整性至關重要。為了進一步探索，請考慮嘗試 Aspose.Cells 庫的其他功能，例如操作工作簿公式或自動執行複雜的資料轉換。
 
 準備好深入了解嗎？查看 [Aspose.Cells文檔](https://reference.aspose.com/cells/java/) 以獲得更先進的技術。
 
@@ -193,6 +195,9 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

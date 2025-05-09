@@ -1,52 +1,54 @@
 ---
-title: Skrýt nebo zobrazit karty v listu pomocí Aspose.Cells
-linktitle: Skrýt nebo zobrazit karty v listu pomocí Aspose.Cells
-second_title: Aspose.Cells .NET Excel Processing API
-description: Zjistěte, jak skrýt nebo zobrazit karty v listech aplikace Excel pomocí Aspose.Cells for .NET v tomto komplexním, podrobném tutoriálu.
-weight: 17
-url: /cs/net/worksheet-display/hide-or-show-tabs/
+"description": "tomto komplexním návodu krok za krokem se naučte, jak skrýt nebo zobrazit záložky v excelových listech pomocí Aspose.Cells pro .NET."
+"linktitle": "Skrýt nebo zobrazit záložky v pracovním listu pomocí Aspose.Cells"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Skrýt nebo zobrazit záložky v pracovním listu pomocí Aspose.Cells"
+"url": "/cs/net/worksheet-display/hide-or-show-tabs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skrýt nebo zobrazit karty v listu pomocí Aspose.Cells
+# Skrýt nebo zobrazit záložky v pracovním listu pomocí Aspose.Cells
 
 ## Zavedení
 
-Pokud jste někdy pracovali s dokumenty aplikace Excel, pravděpodobně znáte tyto malé karty ve spodní části sešitu. Jsou jako přátelští průvodci sousedstvím, kteří vám ukazují všechny listy ve vašem sešitu. Ale co když chcete čistší vzhled? Nebo možná připravujete prezentaci a chcete některé věci udržet pod pokličkou. To je místo, kde Aspose.Cells přichází do hry! V této příručce vás provedu procesem skrytí nebo zobrazení těchto karet pomocí Aspose.Cells for .NET. Takže, pojďme se rovnou ponořit!
+Pokud jste někdy pracovali s dokumenty aplikace Excel, pravděpodobně znáte ty malé záložky ve spodní části sešitu. Jsou to jako průvodci přátelským sousedstvím, kteří vám ukazují všechny listy v sešitu. Ale co když chcete mít přehlednější vzhled? Nebo třeba připravujete prezentaci a chcete některé věci utajit? A v tom případě přichází na řadu Aspose.Cells! V této příručce vás provedu procesem skrytí nebo zobrazení těchto záložek pomocí Aspose.Cells pro .NET. Tak se do toho pusťme!
 
 ## Předpoklady
 
-Než začneme ladit tyto karty ve vašem excelovém listu, ujistěte se, že máte vše nastaveno. Zde je to, co potřebujete:
+Než začneme upravovat tyto záložky v listu aplikace Excel, ujistěte se, že máte vše nastavené. Zde je to, co potřebujete:
 
-1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalované rozhraní .NET Framework (verze 4.0 nebo vyšší).
-2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/). Je to stejně snadné jako kliknutí na tlačítko!
-3. Vývojové prostředí: Editor kódu nebo IDE (jako Visual Studio), kde můžete psát a testovat svůj kód C#.
-4. Základní znalost C#: Znalost programování v C# bude užitečná, ale není nezbytně nutná, pokud budete postupovat pozorně.
+1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalovaný .NET Framework (verze 4.0 nebo vyšší).
+2. Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete [stáhněte si to zde](https://releases.aspose.com/cells/net/)Je to tak snadné jako kliknout na tlačítko!
+3. Vývojové prostředí: Editor kódu nebo IDE (jako Visual Studio), kde můžete psát a testovat kód v C#.
+4. Základní znalost C#: Znalost programování v C# bude užitečná, ale není nezbytně nutná, pokud budete pečlivě sledovat pokyny.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než si budeme moci s těmito kartami hrát, musíme se ujistit, že máme do našeho projektu importovaný potřebný balíček Aspose.Cells. Zde je návod, jak to nastavit:
+Než si budeme moci s těmito záložkami pohrát, musíme se ujistit, že máme do našeho projektu importovaný potřebný balíček Aspose.Cells. Zde je návod, jak to nastavit:
 
 ### Vytvořit nový projekt
 
-Otevřete své IDE (jako Visual Studio) a vytvořte nový projekt C#:
+Otevřete si IDE (například Visual Studio) a vytvořte nový projekt v C#:
 
 - Vyberte „Nový projekt“.
-- Vyberte "Console App (.NET Framework)." 
-- Pojmenujte to nějak zábavně, například „ExcelTabManipulator!“
+- Vyberte možnost „Konzolová aplikace (.NET Framework)“. 
+- Pojmenujte to nějak zábavně, třeba „ExcelTabManipulator!“
 
-### Přidejte odkaz Aspose.Cells
+### Přidat odkaz na Aspose.Cells
 
 Dále musíme do našeho projektu zahrnout knihovnu Aspose.Cells:
 
-- Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a klikněte na „Spravovat balíčky NuGet“.
+- Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt a klikněte na „Spravovat balíčky NuGet“.
 - Vyhledejte „Aspose.Cells“ a klikněte na „Instalovat“. 
 - To vám umožní přístup k jeho funkcím přímo z vašeho kódu.
 
-### Zahrňte prohlášení o nezbytném použití
+### Uveďte nezbytný příkaz Using
 
 V horní části souboru Program.cs přidejte následující řádek pro import jmenného prostoru Aspose.Cells:
 
@@ -55,81 +57,83 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-voilà! Jste připraveni manipulovat s těmito listy aplikace Excel.
+A voilà! Můžete začít s excelovými tabulkami.
 
-Nyní, když máme vše nastaveno, je čas začít kódovat. Rozdělíme to do několika stravitelných kroků.
+Teď, když máme vše nastavené, je čas začít s kódováním. Rozdělíme si to do několika snadno stravitelných kroků.
 
-## Krok 1: Definujte svůj adresář dokumentů
+## Krok 1: Definujte adresář dokumentů
 
-Nejprve musíme nasměrovat naši aplikaci na místo, kde žije náš soubor Excel. Pojďme vytvořit řetězcovou proměnnou, která obsahuje cestu k vašim dokumentům:
+Nejprve musíme nasměrovat naši aplikaci na místo, kde se nachází náš soubor Excel. Vytvořme řetězcovou proměnnou, která bude obsahovat cestu k vašim dokumentům:
 
 ```csharp
 string dataDir = "Your Document Directory";  // Aktualizujte toto na cestu k adresáři
 ```
 
-## Krok 2: Otevřete soubor aplikace Excel
+## Krok 2: Otevřete soubor Excel
 
- Dále musíme načíst soubor Excel, se kterým si chceme hrát. Vytvoříme a`Workbook` objekt a předáme mu cestu k souboru.
+Dále musíme načíst soubor Excelu, se kterým si chceme hrát. Vytvoříme `Workbook` objekt a předáme mu cestu k souboru.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Myslete na`Workbook` třída jako váš kouzelný klíč – otevírá dveře k veškerému obsahu uvnitř vašeho souboru Excel!
+Přemýšlejte o `Workbook` třídu jako váš magický klíč – otevírá dveře k veškerému obsahu vašeho souboru aplikace Excel!
 
-## Krok 3: Skrytí karet
+## Krok 3: Skrytí záložek
 
- Tady začíná zábava! Chcete-li skrýt karty, jednoduše upravíte vlastnost s názvem`ShowTabs` . Nastavte na`false`, takhle:
+A tady začíná ta pravá zábava! Chcete-li skrýt karty, jednoduše upravte vlastnost s názvem `ShowTabs`Nastavte to na `false`, takto:
 
 ```csharp
 workbook.Settings.ShowTabs = false;
 ```
 
-Tím Excelu říkáte: "Hej, ty karty udržuj v tajnosti!"
+Tímto způsobem říkáte Excelu: „Hele, ty záložky si nechte v tajnosti!“
 
 ## Krok 4: Uložení změn
 
- Po provedení změn musíme upravený sešit uložit. Použijte`Save` způsob vytvoření nového souboru:
+Po provedení změn musíme upravený sešit uložit. Použijte `Save` metoda pro vytvoření nového souboru:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-Teď jsi to udělal! Váš soubor Excel se uloží, aniž by se tyto karty zobrazily.
+Tak a máte to hotové! Váš soubor Excel se uloží bez zobrazených záložek.
 
 ## Krok 5: Znovu zobrazit karty (volitelné)
 
-Pokud někdy budete chtít karty zpět (protože kdo nemá rád dobrý návrat?), můžete odkomentovat řádek kódu, který karty znovu zobrazuje:
+Pokud byste někdy chtěli karty zpět (protože kdo by nemiloval dobrý comeback?), můžete odkomentovat řádek kódu, který karty znovu zobrazuje:
 
 ```csharp
-// workbook.Settings.ShowTabs = true;
+// sešit.Nastavení.ZobrazitZáložky = true;
 ```
 
-Nezapomeňte znovu uložit!
+Jen nezapomeňte znovu uložit!
 
 ## Závěr
 
-A tady to máte! Pomocí pouhých několika řádků kódu jste pomocí Aspose.Cells for .NET převzali kontrolu nad tím, jak vaše excelové listy zobrazují ty otravné karty. Ať už chcete, aby váš sešit vypadal elegantně a uhlazeně, nebo chcete, aby určité věci zůstaly soukromé pro vaše publikum, tento nástroj poskytuje flexibilitu, kterou potřebujete. 
+máte to! S pomocí Aspose.Cells pro .NET máte kontrolu nad tím, jak se ve vašich excelových listech zobrazují otravné záložky. Ať už chcete, aby váš sešit vypadal elegantně a propracovaně, nebo chcete určité věci uchovat pro své publikum, tento nástroj vám poskytne potřebnou flexibilitu. 
 
-## FAQ
+## Často kladené otázky
 
-### Mohu skrýt karty v jakékoli verzi aplikace Excel?
-Ano! Aspose.Cells podporuje různé formáty aplikace Excel, takže můžete skrýt karty bez ohledu na verzi.
+### Mohu skrýt karty v jakékoli verzi Excelu?
+Ano! Aspose.Cells podporuje různé formáty Excelu, takže můžete skrýt karty bez ohledu na verzi.
 
 ### Ovlivní skrytí karet moje data?
-Ne, skrytím karet se změní pouze vizuální stránka sešitu; vaše data zůstanou nedotčena.
+Ne, skrytí záložek mění pouze vizuální aspekt sešitu; vaše data zůstanou nedotčena.
 
-### Kde najdu více o Aspose.Cells?
-Další funkce můžete prozkoumat v[dokumentace](https://reference.aspose.com/cells/net/).
+### Kde najdu více informací o Aspose.Cells?
+Další funkce si můžete prohlédnout v [dokumentace](https://reference.aspose.com/cells/net/).
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Cells?
- Absolutně! Můžete přistupovat k a[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat jeho schopnosti.
+Rozhodně! Můžete získat přístup k [bezplatná zkušební verze](https://releases.aspose.com/) prozkoumat jeho schopnosti.
 
 ### Jak mohu získat podporu, pokud narazím na problémy?
- Pomoc můžete vyhledat na příslušném fóru podpory[zde](https://forum.aspose.com/c/cells/9).
+Pomoc můžete vyhledat na specializovaném fóru podpory, které najdete [zde](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

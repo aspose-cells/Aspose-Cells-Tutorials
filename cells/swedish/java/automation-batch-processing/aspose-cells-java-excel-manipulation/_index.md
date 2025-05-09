@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ import com.aspose.cells.Range;
 // Hämta det första arbetsbladet från arbetsboken.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
-- **Varför?**Kalkylblad är de primära behållarna för data i en Excel-arbetsbok. Åtkomst till dem är nödvändig för att utföra operationer på cellnivå.
+- **Varför?**Arbetsblad är de primära behållarna för data i en Excel-arbetsbok. Åtkomst till dem är nödvändig för att utföra operationer på cellnivå.
 
 **Steg 2:** Skapa och namnge ett cellområde
 
@@ -187,6 +189,9 @@ den här handledningen har vi utforskat hur man automatiserar olika Excel-uppgif
 - [Köp en licens](https://purchase.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

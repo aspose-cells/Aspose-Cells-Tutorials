@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,7 +193,7 @@ A következő lépések közé tartozik az Aspose.Cells fejlettebb funkcióinak 
 4. **Milyen gyakori problémák merülhetnek fel a cellák formázásakor?**
    - Győződjön meg arról, hogy minden szükséges StyleFlag helyesen van beállítva; ellenkező esetben a stílusok nem a várt módon érvényesülnek.
 5. **Hol találok további példákat és dokumentációt?**
-   - Látogassa meg a [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/) és fedezze fel a weboldalukon elérhető különféle forrásokat.
+   - Látogassa meg a [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/) és fedezze fel a weboldalukon elérhető különféle forrásokat.
 
 ## Erőforrás
 - **Dokumentáció**https://reference.aspose.com/cells/java/
@@ -204,6 +206,9 @@ Az útmutató követésével szilárd alapot kapsz ahhoz, hogy az Aspose.Cells s
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

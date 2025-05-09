@@ -1,14 +1,16 @@
 ---
-title: Thêm chữ ký số vào tệp Excel đã ký
-linktitle: Thêm chữ ký số vào tệp Excel đã ký
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thêm chữ ký số vào tệp Excel đã ký bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này.
-weight: 30
-url: /vi/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "Tìm hiểu cách thêm chữ ký số vào tệp Excel đã ký bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này."
+"linktitle": "Thêm chữ ký số vào tệp Excel đã ký"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thêm chữ ký số vào tệp Excel đã ký"
+"url": "/vi/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chữ ký số vào tệp Excel đã ký
@@ -21,8 +23,8 @@ Trong thế giới số ngày nay, việc bảo mật tài liệu quan trọng h
 
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, bạn cần phải chuẩn bị một số điều sau:
 
-1.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
-2.  Tệp chứng chỉ: Bạn sẽ cần một tệp chứng chỉ hợp lệ (thường là`.pfx`tệp) có chứa chứng chỉ số của bạn. Đảm bảo bạn biết mật khẩu cho tệp này.
+1. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/).
+2. Tệp chứng chỉ: Bạn sẽ cần một tệp chứng chỉ hợp lệ (thường là `.pfx` tệp) có chứa chứng chỉ số của bạn. Đảm bảo bạn biết mật khẩu cho tệp này.
 3. Môi trường phát triển: Thiết lập môi trường phát triển của bạn bằng Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 5. Tệp mẫu: Có tệp Excel mẫu đã được ký kỹ thuật số. Đây sẽ là tệp mà bạn sẽ thêm chữ ký mới.
@@ -57,18 +59,18 @@ Trong bước này, chúng tôi sử dụng phương pháp để lấy đường
 
 ## Bước 2: Tải Workbook đã ký
 
- Tiếp theo, bạn sẽ cần tải sổ làm việc Excel mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và truyền đường dẫn đến tệp đã ký.
+Tiếp theo, bạn sẽ cần tải sổ làm việc Excel mà bạn muốn sửa đổi. Điều này được thực hiện bằng cách tạo một phiên bản của `Workbook` lớp và truyền đường dẫn đến tệp đã ký.
 
 ```csharp
 // Tải sổ làm việc đã được ký số
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Ở đây, chúng tôi đang tải sổ làm việc có tên`sampleDigitallySignedByCells.xlsx`. Hãy chắc chắn rằng tập tin này đã được ký.
+Ở đây, chúng tôi đang tải sổ làm việc có tên `sampleDigitallySignedByCells.xlsx`. Hãy chắc chắn rằng tập tin này đã được ký.
 
 ## Bước 3: Tạo Bộ sưu tập chữ ký số
 
-Bây giờ, hãy tạo một bộ sưu tập chữ ký số. Bộ sưu tập này sẽ chứa tất cả các chữ ký số mà bạn muốn thêm vào sổ làm việc.
+Bây giờ, hãy tạo một bộ sưu tập chữ ký số. Bộ sưu tập này sẽ chứa tất cả chữ ký số mà bạn muốn thêm vào sổ làm việc.
 
 ```csharp
 // Tạo bộ sưu tập chữ ký số
@@ -79,7 +81,7 @@ Bước này rất quan trọng vì nó cho phép bạn quản lý nhiều chữ
 
 ## Bước 4: Tạo chứng chỉ mới
 
- Bạn cần tải tệp chứng chỉ của mình để tạo chữ ký số mới. Đây là nơi bạn chỉ định đường dẫn đến`.pfx` tập tin và mật khẩu của nó.
+Bạn cần tải tệp chứng chỉ của mình để tạo chữ ký số mới. Đây là nơi bạn chỉ định đường dẫn đến `.pfx` tập tin và mật khẩu của nó.
 
 ```csharp
 // Tệp chứng chỉ và mật khẩu của nó
@@ -90,7 +92,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Hãy chắc chắn thay thế`AsposeDemo.pfx`và mật khẩu với tên tệp chứng chỉ và mật khẩu thực tế của bạn.
+Hãy chắc chắn thay thế `AsposeDemo.pfx` và mật khẩu với tên tệp chứng chỉ và mật khẩu thực tế của bạn.
 
 ## Bước 5: Tạo chữ ký số
 
@@ -119,7 +121,7 @@ Bằng cách thực hiện dòng này, về cơ bản bạn đang đính kèm ch
 Cuối cùng, bạn sẽ muốn lưu bảng tính đã sửa đổi vào thư mục đầu ra và giải phóng mọi tài nguyên đang được sử dụng.
 
 ```csharp
-//Lưu bảng tính và xóa nó.
+// Lưu bảng tính và xóa nó.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -149,16 +151,18 @@ Chữ ký số là phương pháp mật mã được sử dụng để xác th�
 Có, bạn có thể tạo bộ sưu tập chữ ký số và thêm nhiều chữ ký vào cùng một bảng tính.
 
 ### Aspose.Cells hỗ trợ những định dạng nào cho chữ ký số?
- Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm`.pfx` để cấp chứng chỉ.
+Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm `.pfx` để cấp chứng chỉ.
 
 ### Tôi có cần phiên bản .NET cụ thể để sử dụng Aspose.Cells không?
- Kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để tương thích với phiên bản .NET của bạn.
+Kiểm tra [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để tương thích với phiên bản .NET của bạn.
 
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể yêu cầu giấy phép tạm thời từ[Trang mua hàng của Aspose](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời từ [Trang mua hàng của Aspose](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

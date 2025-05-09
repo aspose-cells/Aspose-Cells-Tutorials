@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Aspose.Cells는 상업용 라이브러리이지만, 무료 평가판을 통해 �
 Aspose.Cells를 사용하려면 다음 단계를 따르세요.
 
 1. **종속성 추가**: 위에 표시된 대로 빌드 구성에 Aspose.Cells 라이브러리를 포함합니다.
-2. **라이센스 초기화** (선택 사항): 라이선스 파일이 있는 경우 이를 적용하여 모든 기능을 사용할 수 있습니다.
+2. **라이센스 초기화** (선택 사항): 라이선스 파일이 있는 경우 이를 적용하여 모든 기능을 잠금 해제하세요.
     ```java
     import com.aspose.cells.License;
 
@@ -138,7 +140,7 @@ workbook.save(outDir + "MicrosoftTheme_out.xlsx");
 2. **비즈니스 분석**: 회사 문서와 대시보드 전반에서 일관성을 유지합니다.
 3. **Java 애플리케이션과의 통합**: 데이터 처리 파이프라인 내에서 차트 사용자 지정을 자동화합니다.
 4. **교육 도구**: 학생들을 위해 시각적으로 매력적인 자료를 만듭니다.
-5. **재무 보고**: 재무제표에서 회사 브랜드에 맞춰 차트를 정렬합니다.
+5. **재무 보고**: 재무제표에서 회사 브랜딩에 맞춰 차트를 정렬합니다.
 
 ## 성능 고려 사항
 Aspose.Cells를 사용하는 동안 최적의 성능을 보장하려면:
@@ -181,6 +183,9 @@ A5: 다음을 사용하여 이전 Excel 버전과 호환되는 형식으로 통�
 문제가 발생하거나 추가 지원이 필요한 경우 지원 포럼에 문의하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

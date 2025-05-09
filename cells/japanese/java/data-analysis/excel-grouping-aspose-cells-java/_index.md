@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Excelファイル内の行と列のグループ化作業を自動化したいとお考えですか？Java用Aspose.Cellsライブラリは、この作業を正確に自動化する強力なソリューションを提供します。このチュートリアルでは、Aspose.Cells for Javaを使用してExcelブック内の行と列を効率的にグループ化および非表示にし、データ整理を改善する方法を説明します。
 
 **学習内容:**
-- Workbook オブジェクトのインスタンス化
+- Workbookオブジェクトのインスタンス化
 - プログラムによるワークシートとセルへのアクセス
 - 行と列を効率的にグループ化して非表示にする
 - 集計行と列のプロパティを設定して、データを整理しやすくする
@@ -154,7 +156,7 @@ Aspose.Cells を Java アプリケーションと統合すると、Excel ベー�
 - **Javaメモリ管理**Java 環境に十分なヒープ スペースが割り当てられていることを確認します。
 
 ## 結論
-このチュートリアルでは、Aspose.Cells for Java を使用して Excel ファイル内の行と列をグループ化および非表示にする手順を詳しく説明しました。これらのテクニックは、データの整理と表示を大幅に改善し、複雑なデータセットの管理を容易にします。
+このチュートリアルでは、Aspose.Cells for Java を使用して Excel ファイルの行と列をグループ化および非表示にする手順を詳しく説明しました。これらのテクニックにより、データの整理と表示が大幅に改善され、複雑なデータセットの管理が容易になります。
 
 **次のステップ:** さまざまなグループ化を試したり、これらの機能を既存の Java アプリケーションに統合したりします。
 
@@ -182,6 +184,9 @@ Aspose.Cells for Java で旅を始め、アプリケーションで Excel デー
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

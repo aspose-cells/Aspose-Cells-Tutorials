@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ Aspose.Cells द्वारा दी जाने वाली अधिक �
 Aspose.Cells के साथ जावा में Excel फ़ंक्शन की पूरी शक्ति का उपयोग करने के लिए अपनी यात्रा शुरू करें। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

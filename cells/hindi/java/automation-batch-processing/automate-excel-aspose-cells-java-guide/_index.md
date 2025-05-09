@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Aspose.Cells for Java बहुमुखी है और इसका उपय
 इस गाइड का पालन करके, आप जावा के लिए Aspose.Cells का उपयोग करके एक्सेल कार्यों को स्वचालित करने के लिए अच्छी तरह से सुसज्जित हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

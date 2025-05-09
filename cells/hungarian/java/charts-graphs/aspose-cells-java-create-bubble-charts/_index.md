@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,9 +178,12 @@ Most már megtanultad, hogyan hozhatsz létre és konfigurálhatsz buborékdiagr
 - **Letöltés**: Szerezd meg a legújabb verziót innen: [a kiadási oldal](https://releases.aspose.com/cells/java/).
 - **Vásárlás**: Fedezze fel a licencelési lehetőségeket a következő oldalon: [ez az oldal](https://purchase.aspose.com/buy).
 - **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval a funkciók tesztelését a következő címen: [Az Aspose kiadásairól szóló részleg](https://releases.aspose.com/cells/java/).
-- **Támogatási fórum**Bármilyen kérdés esetén a [támogatási fórum](https://forum.aspose.com/c/cells/9) elérhető.
+- **Támogatási fórum**Bármilyen kérdés esetén a [támogató fórum](https://forum.aspose.com/c/cells/9) elérhető.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

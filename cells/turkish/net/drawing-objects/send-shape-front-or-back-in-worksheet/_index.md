@@ -1,46 +1,51 @@
 ---
-title: Excel'deki Şekillerin Z-Sıralarını Aspose.Cells ile manipüle etmek
-weight: 7700
-limit: 
-description: Excel çalışma defterini nasıl yükleyeceğinizi, şekil Z- siparişlerini nasıl değiştireceğinizi ve .NET için Aspose.Cells kullanarak değişiklikleri nasıl kaydetileceğini öğrenin.
-keywords: [Aspose.Cells, C#, .NET, Excel manipulation, Z-order, shapes, workbook, developers, code example]
-url: /tr/net/drawing-objects/send-shape-front-or-back-in-worksheet/
+"description": "Aspose.Cells for .NET kullanarak bir Excel çalışma kitabını nasıl yükleyeceğinizi, şekil Z sıralarını nasıl değiştireceğinizi ve değişiklikleri nasıl kaydedeceğinizi öğrenin."
+"title": "Aspose.Cells kullanarak Excel'de Şekillerin Z-Sırasını Değiştirme"
+"url": "/tr/net/drawing-objects/send-shape-front-or-back-in-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'deki Şekillerin Z-Sıralarını Aspose.Cells ile manipüle etmek
+# Aspose.Cells kullanarak Excel'de Şekillerin Z-Sırasını Değiştirme
  
-Bu örnek, Excel çalışma defterini yüklemek, çalışma sayfasındaki şekillerin Z sıralama pozisyonlarını manipüle etmek ve güncelleştirilmiş çalışma defterini nasıl kullanacağınızı gösterir. Bu rehberliği takip ederek geliştiriciler şekillerde erişim, görsel yığma sırasını ayarlamak ve Excel dosyalarında öğelerin doğru temsilini sağlamak konusunda anlayış kazanabilirler. Verilen kod kopyalar bu işlemleri verimli bir şekilde gerçekleştirmek için net bir adım adım yaklaşım sunar.
+Bu örnek, bir Excel çalışma kitabını yüklemek, bir çalışma sayfasındaki şekillerin Z-düzeni konumlarını düzenlemek ve güncellenmiş çalışma kitabını kaydetmek için Aspose.Cells for .NET'in nasıl kullanılacağını gösterir. Geliştiriciler bu kılavuzu izleyerek şekillere erişme, görsel istifleme sıralarını ayarlama ve Excel dosyalarındaki öğelerin doğru temsilini sağlama konusunda fikir edinebilirler. Sağlanan kod parçacıkları, bu işlemleri verimli bir şekilde gerçekleştirmek için net bir adım adım yaklaşım sunar.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/send-shape-front-or-back-in-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
-1. Visual Studio gibi .NET geliştirme ortamı kurduğundan emin olun.  
-2. NuGet Paket Yöneticisi üzerinden .NET için Aspose.Cells yükleyin. Paket Yöneticisi Konsolosunda aşağıdaki komutu kullanın:  
+## Kurulum Talimatları  
+1. Visual Studio gibi bir .NET geliştirme ortamının kurulu olduğundan emin olun.  
+2. NuGet Paket Yöneticisi aracılığıyla .NET için Aspose.Cells'i yükleyin. Paket Yöneticisi Konsolunda aşağıdaki komutu kullanın:  
    ```
    Install-Package Aspose.Cells
    ```
-3. Projenizdeki Aspose.Cells isim alanına bir referans ekleyin:  
+3. Projenize Aspose.Cells ad alanına bir başvuru ekleyin:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Drawing; 
    ```
-4. Kaynak Excel dosyasını hazırlayın ve `kaynakDir`ve `Çıkış`Verilen kod örneklerinde yollar.  
-5. Excel dosyanızdaki şekillerin Z sıralamasını manipüle etmek için verilen kod kopyasını projenize kopyalayın ve yapıştırın.  
-6. Çıktı Excel dosyasında yansıyan değişiklikleri görmek için uygulamayı oluşturun ve çalıştırın.
+4. Kaynak Excel dosyanızı hazırlayın ve güncelleyin `sourceDir` Ve `outputDir` Verilen kod örneklerindeki yollar.  
+5. Excel dosyanızdaki şekillerin Z düzenini değiştirmek için verilen kod parçacığını kopyalayıp projenize yapıştırın.  
+6. Değişikliklerin çıktı Excel dosyasına yansıdığını görmek için uygulamanızı derleyin ve çalıştırın.
 
-## Ayrıca bakın  
-Lisans almak için, [Satın alma sayfasını hedef edin](https://purchase.aspose.com/buy)\- Evet .  
-Tam belgeler için ziyaret edin [.NET Belgeleme için Aspose.Cells](https://docs.aspose.com/cells/net/)\- Evet .  
-API referansını incelemek için, kontrol edin [.NET API Referansı için Aspose.Cells](https://reference.aspose.com/cells/net/)\- Evet . 
+## Ayrıca Bakınız  
+Lisans satın almak için şuraya gidin: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).  
+Tam dokümantasyon için şu adresi ziyaret edin: [Aspose.Cells for .NET Belgeleri](https://docs.aspose.com/cells/net/).  
+Tam API referansını keşfetmek için şuraya göz atın: [Aspose.Cells for .NET API Başvurusu](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Aspose.Cells for Java를 사용하여 Excel 차트에 텍스트 상자를 추가
 이 가이드를 따라 Aspose.Cells를 Java 프로젝트에 효율적으로 통합하여 사용자 정의 텍스트 주석을 통해 Excel 차트 기능을 향상시킬 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-height-of-all-rows/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Height of All Rows in Excel with Aspose.Cells
@@ -97,6 +99,7 @@ You can seek help or ask questions in the [Aspose Forum](https://forum.aspose.co
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

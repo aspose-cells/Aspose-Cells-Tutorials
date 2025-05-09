@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Bir adım daha ileri gitmeye hazır mısınız? Bu teknikleri bir sonraki projen
 Java uygulamalarınızda Excel işleme yeteneklerinizi geliştirmek için bu kaynakları keşfetmeye başlayın. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

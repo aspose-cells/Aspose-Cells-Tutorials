@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelでのデータ統合
@@ -109,9 +111,11 @@ Aspose.Cells for Javaは無料トライアルを提供していますが、フ�
 Aspose.Cells for Java は堅牢な選択肢ですが、Apache POI などの代替手段も Excel 統合機能を提供します。
 
 この包括的なガイドは、Aspose.Cells for Java を使った Excel のデータ統合をマスターするのに役立ちます。さらに詳しく調べて、これらの手順をご自身のニーズに合わせて調整してください。データ統合を楽しんでください！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

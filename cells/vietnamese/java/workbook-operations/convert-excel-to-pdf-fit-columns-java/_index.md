@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Sau khi đáp ứng được các điều kiện tiên quyết này, chúng ta h
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 - **Dùng thử miễn phí:** Tải xuống bản dùng thử miễn phí từ trang web Aspose để kiểm tra chức năng.
 - **Giấy phép tạm thời:** Yêu cầu cấp giấy phép tạm thời để truy cập đầy đủ tính năng trong quá trình đánh giá.
 - **Mua:** Mua đăng ký để sử dụng liên tục.
@@ -194,6 +196,9 @@ Bạn đã sẵn sàng thử chưa? Hãy bắt đầu thực hiện các bước
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Найти тип значений X и Y точек в серии диаграмм
-linktitle: Найти тип значений X и Y точек в серии диаграмм
-second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь находить типы значений X и Y в рядах диаграмм с помощью Aspose.Cells для .NET с помощью этого подробного и простого в использовании руководства.
-weight: 11
-url: /ru/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Научитесь находить типы значений X и Y в рядах диаграмм с помощью Aspose.Cells для .NET с помощью этого подробного и простого в использовании руководства."
+"linktitle": "Найти тип значений X и Y точек в серии диаграмм"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Найти тип значений X и Y точек в серии диаграмм"
+"url": "/ru/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Найти тип значений X и Y точек в серии диаграмм
@@ -23,9 +25,9 @@ url: /ru/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-ch
 
 1. Среда .NET: У вас должна быть настроена среда разработки .NET. Это может быть Visual Studio, Visual Studio Code или любая другая совместимая IDE.
    
-2.  Aspose.Cells for .NET: Вам понадобится установленный Aspose.Cells for .NET. Вы можете загрузить его с[здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Вам понадобится установленный Aspose.Cells for .NET. Вы можете загрузить его с [здесь](https://releases.aspose.com/cells/net/).
 
-3.  Образец файла Excel: Получите образец файла Excel, который содержит диаграммы. Для этого урока мы будем использовать файл с именем`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Убедитесь, что он находится в каталоге вашего проекта.
+3. Образец файла Excel: Получите образец файла Excel, который содержит диаграммы. Для этого урока мы будем использовать файл с именем `sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Убедитесь, что он находится в каталоге вашего проекта.
 
 4. Базовые знания программирования: знакомство с программированием на C# поможет вам легко усвоить материал.
 
@@ -52,7 +54,7 @@ using Aspose.Cells.Charts;
 
 Эти пространства имен обеспечивают доступ к функциям рабочей книги, рабочих листов и диаграмм Aspose.Cells.
 
-Теперь давайте разберем процесс определения типов значений X и Y в серии диаграмм. Вот как это можно сделать шаг за шагом.
+Теперь давайте разберем процесс определения типов значений X и Y в вашей серии диаграмм. Вот как это можно сделать шаг за шагом.
 
 ## Шаг 1: Определите исходный каталог
 
@@ -62,11 +64,11 @@ using Aspose.Cells.Charts;
 string sourceDir = "Your Document Directory";
 ```
 
- Заменять`"Your Document Directory"` с путем сохранения вашего файла Excel.
+Заменять `"Your Document Directory"` с путем сохранения вашего файла Excel.
 
 ## Шаг 2: Загрузите рабочую книгу
 
- Затем загрузите файл Excel в`Workbook` объект. Это позволяет получить доступ ко всему содержимому файла.
+Затем загрузите файл Excel в `Workbook` объект. Это позволяет получить доступ ко всему содержимому файла.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -88,7 +90,7 @@ Worksheet ws = wb.Worksheets[0];
 Chart ch = ws.Charts[0];
 ```
 
-## Шаг 5: Расчет данных диаграммы
+## Шаг 5: Рассчитайте данные диаграммы
 
 Прежде чем получить доступ к отдельным точкам данных, важно рассчитать данные диаграммы, чтобы убедиться, что все значения актуальны.
 
@@ -137,13 +139,15 @@ Aspose.Cells — это библиотека .NET, которая позволя
 Aspose.Cells поддерживает различные типы диаграмм, включая столбчатые, линейчатые, линейные, круговые и другие.
 
 ### Как я могу получить поддержку по Aspose.Cells?
- Вы можете получить поддержку через[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете получить поддержку через [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Существует ли временная лицензия для Aspose.Cells?
- Да, вы можете запросить[временная лицензия](https://purchase.aspose.com/temporary-license/) свободно оценить продукт.
+Да, вы можете запросить [временная лицензия](https://purchase.aspose.com/temporary-license/) свободно оценить продукт.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

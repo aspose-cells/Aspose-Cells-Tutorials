@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ import com.aspose.cells.PrintErrorsType;
 pageSetup.setBlackAndWhite(true);
 pageSetup.setPrintComments(PrintCommentsType.PRINT_IN_PLACE);
 
-// 出力を高速化するためにドラフト品質を設定する
+// より速く出力するためにドラフト品質を設定する
 pageSetup.setPrintDraft(true);
 
 workbook.save(outDir + "PrintingBlackAndWhite_withComments_andDraft_out.xls");
@@ -183,6 +185,9 @@ Aspose.Cells Javaを使用してこれらの印刷設定機能を習得するこ
    - そうです！大規模なデータセットを効率的に処理できるように設計されています。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

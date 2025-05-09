@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cellazárási stratégiák
@@ -28,7 +30,7 @@ Mielőtt belemerülnénk a cellazárolásba, győződjünk meg róla, hogy rende
 
 ## Alapvető cellazárolás
 
-A cellazárolás alapja az egyes cellák zároltként vagy feloldottként való megjelölésében rejlik. Alapértelmezés szerint egy Excel-táblázat összes cellája zárolva van, de ez csak akkor lép érvénybe, ha a munkalapot védeni kell. Íme egy alapvető kódrészlet egy cella zárolásához az Aspose.Cells for Java használatával:
+cellazárolás alapja az egyes cellák zároltként vagy feloldottként való megjelölésében rejlik. Alapértelmezés szerint egy Excel-táblázat összes cellája zárolva van, de ez csak akkor lép érvénybe, ha a munkalapot védeni kell. Íme egy alapvető kódrészlet egy cella zárolásához az Aspose.Cells for Java használatával:
 
 ```java
 // Töltsd be az Excel fájlt
@@ -78,7 +80,7 @@ Ez a kódrészlet bemutatja, hogyan adhatunk meg adott szerkesztési engedélyek
 
 ## Feltételes cellazárolás
 
-feltételes cellazárolás lehetővé teszi a cellák zárolását vagy feloldását adott feltételek alapján. Előfordulhat például, hogy zárolni szeretné a képleteket tartalmazó cellákat, miközben más cellákba engedélyezi az adatbevitelt. Az Aspose.Cells for Java feltételes formázási szabályokon keresztül biztosítja a rugalmasságot ehhez.
+A feltételes cellazárolás lehetővé teszi a cellák zárolását vagy feloldását adott feltételek alapján. Előfordulhat például, hogy zárolni szeretné a képleteket tartalmazó cellákat, miközben más cellákba engedélyezi az adatbevitelt. Az Aspose.Cells for Java feltételes formázási szabályokon keresztül biztosítja a rugalmasságot ehhez.
 
 ```java
 // Formázási szabály létrehozása
@@ -121,7 +123,7 @@ Ebben a cikkben az Aspose.Cells for Java használatával a cellazárolás lénye
 
 ### Mi a cellazárolás?
 
-cellazárolás egy olyan technika, amely megakadályozza az Excel-munkafüzet bizonyos celláinak vagy tartományainak jogosulatlan módosítását. Növeli az adatbiztonságot és az adatintegritást azáltal, hogy szabályozza, hogy kik szerkeszthetik a táblázat bizonyos részeit.
+A cellazárolás egy olyan technika, amely megakadályozza az Excel-munkafüzet bizonyos celláinak vagy tartományainak jogosulatlan módosítását. Növeli az adatbiztonságot és az adatintegritást azáltal, hogy szabályozza, hogy kik szerkeszthetik a táblázat bizonyos részeit.
 
 ### Hogyan tudok egy teljes Excel munkalapot levédeni?
 
@@ -137,11 +139,12 @@ Igen, az Aspose.Cells for Java segítségével feltételesen zárolhatja a cell�
 
 ### Hogyan tesztelhetem a cellazárási stratégiáimat?
 
-cellazárolási stratégiák hatékonyságának biztosítása érdekében alaposan tesztelje azokat különböző forgatókönyvekkel és felhasználói szerepkörökkel. Ellenőrizze, hogy a zárolási szabályok összhangban vannak-e az adatbiztonsági céljaival.
+A cellazárolási stratégiák hatékonyságának biztosítása érdekében alaposan tesztelje azokat különböző forgatókönyvekkel és felhasználói szerepkörökkel. Ellenőrizze, hogy a zárolási szabályok összhangban vannak-e az adatbiztonsági céljaival.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ license.setLicense("path_to_your_license_file");
 Ακολουθώντας αυτό το σεμινάριο, είστε σε καλό δρόμο για να εξοικειωθείτε με το Aspose.Cells για Java, κάνοντας τον χειρισμό γραφημάτων Excel παιχνιδάκι στα έργα σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

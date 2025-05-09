@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ Qui accediamo al primo foglio di lavoro della cartella di lavoro caricata. Quest
 
 Quando si lavora con set di dati di grandi dimensioni, tenere presente quanto segue:
 
-- Utilizzare le API di streaming, se disponibili, per gestire in modo efficiente file di grandi dimensioni.
+- Se disponibili, utilizzare le API di streaming per gestire in modo efficiente i file di grandi dimensioni.
 - Ottimizza la memoria elaborando i dati in blocchi anziché caricarli tutti in una volta.
 - Aggiorna regolarmente la libreria Aspose.Cells per migliorare le prestazioni e correggere bug.
 
@@ -204,6 +206,9 @@ A5: Visita il [Documentazione di Aspose](https://reference.aspose.com/cells/java
 - **Forum di supporto**: [Supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

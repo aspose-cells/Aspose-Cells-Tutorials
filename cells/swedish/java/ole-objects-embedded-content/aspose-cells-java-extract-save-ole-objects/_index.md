@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,8 +39,8 @@ Innan du fortsätter, se till att du har:
 - Grundläggande förståelse för Java och Maven/Gradle-byggverktyg
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse
 
-**Kunskapsförkunskaper:**
-- Kunskap om filhantering i Java
+**Kunskapsförkunskapskrav:**
+- Bekantskap med filhantering i Java
 - Förstå OLE-objekt i Excel
 
 ## Konfigurera Aspose.Cells för Java
@@ -196,6 +198,9 @@ Genom att följa den här guiden kan du effektivt extrahera och spara OLE-objekt
 - [Forum för samhällsstöd](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Khám phá thêm bằng cách tìm hiểu các tính năng và khả năng bổ 
 Khám phá sâu hơn về Aspose.Cells, mở rộng kỹ năng Java của bạn và cách mạng hóa cách bạn tương tác với dữ liệu Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

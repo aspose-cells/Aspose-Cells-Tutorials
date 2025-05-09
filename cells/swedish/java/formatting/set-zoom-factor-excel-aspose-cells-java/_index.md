@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Låt oss dyka ner i hur du kan uppnå detta. Se till att dina förutsättningar 
 För att följa med, se till att du uppfyller dessa krav:
 - **Bibliotek och beroenden:** Lägg till Aspose.Cells för Java som ett beroende.
 - **Miljöinställningar:** Konfigurera din utvecklingsmiljö för Java-programmering (t.ex. med IntelliJ IDEA eller Eclipse).
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java och arbete med Maven/Gradle-byggsystem.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java och arbete med Maven/Gradle-byggsystem.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -115,7 +117,7 @@ När du använder Aspose.Cells:
   - Använd try-with-resources eller säkerställ korrekt stängning i finally-block.
 
 ## Slutsats
-Du har lärt dig hur du ställer in zoomfaktorn för ett kalkylblad med Aspose.Cells för Java. Detta förbättrar datapresentationsmöjligheterna. Utforska vidare genom att dyka in i andra funktioner som erbjuds av Aspose.Cells och integrera dem i dina projekt.
+Du har lärt dig hur du ställer in zoomfaktorn för ett kalkylblad med Aspose.Cells för Java. Detta förbättrar datapresentationsmöjligheterna. Utforska vidare genom att fördjupa dig i andra funktioner som erbjuds av Aspose.Cells och integrera dem i dina projekt.
 
 Nästa steg kan innefatta att utforska mer komplexa Excel-manipulationer eller automatisera rapportgenereringsprocesser.
 
@@ -147,6 +149,9 @@ Börja förbättra din Excel-filhantering idag genom att utnyttja de kraftfulla 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

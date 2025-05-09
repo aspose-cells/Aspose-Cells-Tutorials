@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Overzicht**: Genereer snel een lege Excel-werkmap om met uw gegevensmanipulatie te beginnen.
 
 **Stap voor stap:**
-1. **Instantieer werkboek**: Maak een `Workbook` voorwerp.
+1. **Instantieer werkboek**Maak een `Workbook` voorwerp.
 2. **Uitvoermap**: Definieer waar u het bestand wilt opslaan.
 
 ```java
@@ -195,6 +197,9 @@ Begin vandaag nog met Aspose.Cells voor Java en ontgrendel het volledige potenti
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

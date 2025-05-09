@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ In diesem Tutorial wurde die Verwendung von Aspose.Cells für Java zur effektive
    - Laden Sie nur die erforderlichen Blätter und optimieren Sie die Speichernutzung, indem Sie die Daten in Blöcken verarbeiten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

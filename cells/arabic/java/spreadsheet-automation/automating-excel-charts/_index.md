@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # أتمتة مخططات Excel
@@ -117,9 +119,11 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    استكشف وثائق واجهة برمجة التطبيقات على [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) للحصول على معلومات وأمثلة متعمقة.
 
 قم بأتمتة مهام رسم المخططات البيانية في Excel بسهولة باستخدام Aspose.Cells for Java وقم بترقية قدرات تصور البيانات لديك.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

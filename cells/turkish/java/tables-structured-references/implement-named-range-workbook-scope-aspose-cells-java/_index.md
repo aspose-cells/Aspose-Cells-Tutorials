@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
 ### Java için Aspose.Cells Kurulumu
 
-Aspose.Cells'i projenize entegre etmek için Maven veya Gradle gibi bağımlılık yönetim araçlarını kullanın:
+Aspose.Cells'i projenize entegre etmek için Maven veya Gradle gibi bağımlılık yönetimi araçlarını kullanın:
 
 **Maven Kurulumu:**
 ```xml
@@ -97,7 +99,7 @@ Cells cells = sheet.getCells();
 Range namedRange = cells.createRange("A1", "C10");
 namedRange.setName("workbookScope");
 ```
-İsmini ayarlayarak `"workbookScope"`, bu hücre grubuna tüm çalışma kitabınızda başvurabilirsiniz.
+İsmi ayarlayarak `"workbookScope"`, bu hücre grubuna tüm çalışma kitabınızda başvurabilirsiniz.
 
 #### Adım 4: Çalışma Kitabını Kaydedin
 
@@ -149,6 +151,9 @@ C5: Çakışmaları önlemek için aralık adlarının tüm çalışma kitabınd
 Daha fazla bilgi için şu adreste bulunan kaynakları inceleyin: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/) ve tüm özelliklere erişim için geçici bir lisans almayı düşünün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

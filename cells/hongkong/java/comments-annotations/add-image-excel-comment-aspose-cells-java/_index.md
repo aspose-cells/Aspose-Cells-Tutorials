@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -42,7 +44,7 @@
 
 ## 設定 Aspose.Cells for Java
 
-要開始在專案中使用 Aspose.Cells，您需要設定庫。你可以透過 Maven 或 Gradle 添加它：
+要開始在專案中使用 Aspose.Cells，您需要設定庫。以下是透過 Maven 或 Gradle 添加它的方法：
 
 ### 使用 Maven
 在您的 `pom.xml` 文件：
@@ -173,6 +175,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/APToExcelComment_out.xlsx");
 - [申請臨時許可證](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

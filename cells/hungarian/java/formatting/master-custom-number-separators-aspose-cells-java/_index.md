@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Most pedig bontsuk le a lépéseket az egyéni számelválasztók Aspose.Cells h
 Először is adja meg a kívánt tizedesjeleket és csoportos (ezres) elválasztókat. Ez a testreszabás biztosítja, hogy a számok a különböző regionális formátumokban a kívánt módon jelenjenek meg.
 #### Szám tizedes elválasztó beállítása
 ```java
-// Tizedesjelként a következőt kell megadni: '.'
+// Tizedesjelként adjon meg '.' karaktert
 task.getSettings().setNumberDecimalSeparator('.');
 ```
 #### Csoportosító számkészlet
@@ -126,6 +128,9 @@ Ez az oktatóanyag lehetővé teszi, hogy egyéni számformázással fejlessze E
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

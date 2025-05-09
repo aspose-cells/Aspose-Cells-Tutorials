@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: Βεβαιωθείτε ότι η διαδρομή αρχείου είναι 
 A3: Μια προσωρινή ή αγορασμένη άδεια χρήσης είναι απαραίτητη για την άρση των περιορισμών αξιολόγησης σε περιβάλλοντα παραγωγής.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

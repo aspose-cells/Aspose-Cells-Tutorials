@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ SparklineGroup group = worksheet.getSparklineGroups().get(0);
 L'accesso ai gruppi sparkline consente una personalizzazione dettagliata e un controllo sui mini-grafici.
 
 ### Aggiungere grafici sparkline a un gruppo
-**Panoramica**: Aggiungi dinamicamente intervalli di dati e imposta posizioni per nuovi grafici sparkline all'interno di una cartella di lavoro.
+**Panoramica**: Aggiungere dinamicamente intervalli di dati e impostare posizioni per nuovi grafici sparkline all'interno di una cartella di lavoro.
 ```java
 import com.aspose.cells.SparklineGroup;
 
@@ -164,6 +166,9 @@ Seguendo questa guida, hai imparato a sfruttare la potenza di Aspose.Cells per J
 - Supporto: [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Nyní jste se naučili, jak odstranit list podle jeho názvu pomocí Aspose.Cell
 Dodržováním tohoto návodu budete dobře vybaveni k efektivní správě excelových tabulek pomocí Aspose.Cells v Javě. Začněte s implementací ještě dnes a uvidíte, jak to může vylepšit vaše projekty!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

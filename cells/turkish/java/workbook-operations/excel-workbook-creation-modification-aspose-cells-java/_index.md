@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Lisans Edinimi
 Aspose.Cells'in tüm işlevleri için bir lisansa ihtiyacı vardır:
 - **Ücretsiz Deneme**: Buradan indirin [Aspose Sürümleri](https://releases.aspose.com/cells/java/) Sınırlamalarla test etmek.
-- **Geçici Lisans**Geçici bir lisans almak için: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/temporary-license/).
+- **Geçici Lisans**: Geçici bir lisans almak için: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/temporary-license/).
 - **Satın almak**: Kesintisiz erişim için tam lisansı şu adresten satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
 ## Java için Aspose.Cells Kurulumu
@@ -206,6 +208,9 @@ Bu eğitimde, Java için Aspose.Cells kullanarak Excel çalışma kitaplarının
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

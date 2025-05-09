@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Az utolsó lépés a hiperhivatkozások lekérése egy megadott tartományból �
    Használd a `getHyperlinks()` metódus egy tartományon az összes hiperhivatkozás lekéréséhez.
    
 2. **Minden egyes hiperhivatkozás feldolgozása**
-   Iterálja a lekért hiperhivatkozásokat, és nyerjen ki olyan információkat, mint a megjelenített szöveg és a hivatkozás típusa.
+   Iterálja a lekért hiperhivatkozásokat, és nyerjen ki belőlük olyan információkat, mint a megjelenített szöveg és a hivatkozás típusa.
 
 ```java
 import com.aspose.cells.Range;
@@ -215,6 +217,9 @@ V1: Az Aspose.Cells for Java támogatja a Java 8-as és újabb verzióit. Győz�
 A2: Igen, adott tartományokra vagy munkalapokra fókuszálva optimalizálhatja a teljesítményt még nagyobb fájlok esetén is.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@ Veri analizi eğitimlerimiz, Java'da Aspose.Cells kullanarak Excel'in güçlü a
 
 ## Ne Öğreneceksiniz
 
-- Veri analizi işlemlerini gerçekleştirmek için Java için Aspose.Cells nasıl kullanılır
+- Java için Aspose.Cells'i veri analizi işlemleri gerçekleştirmek için nasıl kullanabilirsiniz?
 - Tam kod örnekleriyle adım adım uygulama
 - En iyi uygulamalar ve optimizasyon teknikleri
 - Veri analizinde yaygın zorluklara çözümler
@@ -183,6 +185,9 @@ Yapılandırmaları korurken Aspose.Cells for Java kullanarak Excel'de pivot tab
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

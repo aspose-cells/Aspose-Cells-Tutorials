@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฟังก์ชั่นการวิเคราะห์ข้อมูล Excel
@@ -24,7 +26,7 @@
 - [ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/)คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ Java โปรดทำตามลิงก์เพื่อดาวน์โหลดและตั้งค่าในโปรเจ็กต์ของคุณ
 
 ## การโหลดไฟล์ Excel
-ขั้นแรก คุณต้องมีไฟล์ Excel เพื่อใช้งาน คุณสามารถสร้างไฟล์ใหม่หรือโหลดไฟล์ที่มีอยู่แล้วโดยใช้ Aspose.Cells ต่อไปนี้เป็นวิธีโหลดไฟล์ Excel:
+ขั้นแรก คุณต้องมีไฟล์ Excel เพื่อใช้งาน คุณสามารถสร้างไฟล์ใหม่หรือโหลดไฟล์ที่มีอยู่โดยใช้ Aspose.Cells ต่อไปนี้เป็นวิธีโหลดไฟล์ Excel:
 
 ```java
 // โหลดไฟล์ Excel ที่มีอยู่
@@ -117,6 +119,7 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

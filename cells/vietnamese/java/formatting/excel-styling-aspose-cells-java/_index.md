@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Với Aspose.Cells for Java, bạn có thể tự động hóa các tác vụ t�
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những điều sau:
-- **Thư viện bắt buộc:** Bạn sẽ cần Aspose.Cells for Java phiên bản 25.3 trở lên.
+- **Thư viện cần thiết:** Bạn sẽ cần Aspose.Cells for Java phiên bản 25.3 trở lên.
 - **Thiết lập môi trường:** Môi trường phát triển Java (JDK) và IDE như IntelliJ IDEA hoặc Eclipse.
 - **Cơ sở kiến thức:** Có hiểu biết cơ bản về lập trình Java và cấu trúc tệp Excel.
 
@@ -216,6 +218,9 @@ A: Aspose cung cấp một giải pháp toàn diện [diễn đàn hỗ trợ](h
 - **Tài liệu:** Khám phá đầy đủ [Tài liệu Aspose.Cells](https://docs.aspose.com/cells/java/) để có nhiều tính năng nâng cao hơn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

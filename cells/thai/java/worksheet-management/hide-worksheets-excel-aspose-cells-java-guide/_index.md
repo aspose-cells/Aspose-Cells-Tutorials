@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 ก่อนที่คุณจะเริ่มต้น ให้แน่ใจว่าคุณมี:
 - JDK (Java Development Kit) ติดตั้งอยู่บนระบบของคุณ
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
-- สภาพแวดล้อมการพัฒนาแบบบูรณาการเช่น IntelliJ IDEA หรือ Eclipse
+- สภาพแวดล้อมการพัฒนาแบบบูรณาการ เช่น IntelliJ IDEA หรือ Eclipse
 
 ### ไลบรารีและการอ้างอิงที่จำเป็น
 หากต้องการทำงานกับ Aspose.Cells สำหรับ Java ให้รวมไว้เป็นส่วนที่ต้องพึ่งพาในโปรเจ็กต์ของคุณ วิธีดำเนินการดังกล่าวโดยใช้ Maven หรือ Gradle มีดังนี้
@@ -145,6 +147,9 @@ workbook.save(outDir + "/HideUnhideWorksheet_out.xls");
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

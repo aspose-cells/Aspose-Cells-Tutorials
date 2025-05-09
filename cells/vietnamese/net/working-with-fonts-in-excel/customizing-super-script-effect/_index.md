@@ -1,14 +1,16 @@
 ---
-title: Tùy chỉnh hiệu ứng Super Script trên văn bản trong Excel
-linktitle: Tùy chỉnh hiệu ứng Super Script trên văn bản trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tùy chỉnh văn bản chữ mũ trong Excel bằng Aspose.Cells cho .NET. Cải thiện bảng tính của bạn bằng các bước đơn giản.
-weight: 17
-url: /vi/net/working-with-fonts-in-excel/customizing-super-script-effect/
+"description": "Tìm hiểu cách tùy chỉnh văn bản chỉ số trên trong Excel bằng Aspose.Cells cho .NET. Cải thiện bảng tính của bạn bằng các bước đơn giản."
+"linktitle": "Tùy chỉnh hiệu ứng Super Script trên văn bản trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tùy chỉnh hiệu ứng Super Script trên văn bản trong Excel"
+"url": "/vi/net/working-with-fonts-in-excel/customizing-super-script-effect/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh hiệu ứng Super Script trên văn bản trong Excel
@@ -22,7 +24,7 @@ Hãy đảm bảo rằng bạn có Visual Studio trên máy tính của mình. �
 ### 2. .NET Framework hoặc .NET Core
 Đảm bảo rằng bạn đã cài đặt đúng phiên bản .NET. Aspose.Cells for .NET hoạt động liền mạch với cả .NET Framework và .NET Core.
 ### 3. Thư viện Aspose.Cells
-Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/). Cần phải có phần này trong dự án của bạn để thao tác với các tệp Excel.
+Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/). Cần phải có phần này trong dự án của bạn để thao tác với các tệp Excel.
 ### 4. Hiểu biết cơ bản về C#
 Việc nắm vững C# là có lợi, mặc dù không bắt buộc. Chúng ta sẽ viết mã sử dụng thư viện để thao tác với tệp Excel và kiến thức về C# sẽ giúp bạn hiểu rõ hơn.
 ### 5. Một IDE để làm việc
@@ -33,7 +35,7 @@ Trước khi bạn có thể sử dụng Aspose.Cells, bạn cần phải nhập
 1. Mở dự án Visual Studio của bạn.
 2. Nhấp chuột phải vào Tham chiếu trong Solution Explorer.
 3. Chọn Quản lý gói NuGet.
-4.  Tìm kiếm`Aspose.Cells` và nhấp vào Cài đặt. 
+4. Tìm kiếm `Aspose.Cells` và nhấp vào Cài đặt. 
 ```csharp
 using System;
 using System.IO;
@@ -47,14 +49,14 @@ Trước tiên, bạn cần xác định nơi bạn muốn lưu tệp Excel. Đi
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Chỉ cần thay thế`"Your Document Directory"` với đường dẫn mà bạn muốn lưu trữ tệp đầu ra. Bạn có thể chọn máy tính để bàn hoặc thư mục dự án cụ thể.
+Chỉ cần thay thế `"Your Document Directory"` với đường dẫn mà bạn muốn lưu trữ tệp đầu ra. Bạn có thể chọn máy tính để bàn hoặc thư mục dự án cụ thể.
 ## Bước 2: Tạo một phiên bản Workbook
- Bây giờ, chúng ta hãy khởi tạo một`Workbook` đối tượng. Đối tượng này đóng vai trò là nền tảng cho tài liệu Excel của bạn.
+Bây giờ, chúng ta hãy khởi tạo một `Workbook` đối tượng. Đối tượng này đóng vai trò là nền tảng cho tài liệu Excel của bạn.
 ```csharp
 // Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
- Nghĩ về`Workbook` như một bức tranh trắng, chờ bạn tô điểm bằng dữ liệu của mình!
+Nghĩ về `Workbook` như một bức tranh trắng, chờ bạn tô điểm bằng dữ liệu của mình!
 ## Bước 3: Truy cập vào Bảng tính
 Theo mặc định, một sổ làm việc mới chứa một trang tính. Chúng ta sẽ truy cập trang tính đầu tiên đó để thêm nội dung của mình.
 ```csharp
@@ -80,17 +82,17 @@ Bây giờ chúng ta đến phần thú vị! Làm cho văn bản của bạn tr
 ```csharp
 // Thiết lập phông chữ Superscript
 Style style = cell.GetStyle();
-style.Font.IsSuperscript = true; // thiết lập phông chữ thành chữ mũ
+style.Font.IsSuperscript = true; // thiết lập phông chữ thành chữ số mũ
 cell.SetStyle(style);
 ```
- Nghĩ về`IsSuperscript` giống như một công tắc ma thuật khiến văn bản của bạn nổi bật trên đường cơ sở, khắc sâu vào trí nhớ của người đọc.
+Nghĩ về `IsSuperscript` giống như một công tắc ma thuật khiến văn bản của bạn nổi bật trên đường cơ sở—khắc sâu vào trí nhớ của người đọc.
 ## Bước 7: Lưu sổ làm việc
 Cuối cùng, đã đến lúc lưu công việc của bạn và tạo tệp Excel đó. 
 ```csharp
 // Lưu tệp Excel
 workbook.Save(outputDir + "outputSettingSuperscripteffect.xlsx");
 ```
- Hãy chắc chắn thay thế`outputDir` theo đường dẫn bạn đã chỉ định trước đó. 
+Hãy chắc chắn thay thế `outputDir` theo đường dẫn bạn đã chỉ định trước đó. 
 ## Bước 8: Tin nhắn xác nhận
 Để thêm phần thú vị, bạn cũng có thể tự thông báo rằng thao tác đã thành công.
 ```csharp
@@ -103,17 +105,19 @@ Tùy chỉnh hiệu ứng văn bản như chữ số trên trong Excel có thể
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép hợp lệ để sử dụng cho mục đích thương mại. Bạn có thể khám phá các tùy chọn[đây](https://purchase.aspose.com/buy).
+Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép hợp lệ để sử dụng cho mục đích thương mại. Bạn có thể khám phá các tùy chọn [đây](https://purchase.aspose.com/buy).
 ### Tôi có thể sử dụng Aspose.Cells với .NET Core không?
 Có! Aspose.Cells tương thích với cả .NET Framework và .NET Core.
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể tham gia diễn đàn cộng đồng để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tham gia diễn đàn cộng đồng để được hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể tải Aspose.Cells ở đâu?
- Bạn có thể dễ dàng tải xuống từ trang web[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể dễ dàng tải xuống từ trang web [đây](https://releases.aspose.com/cells/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

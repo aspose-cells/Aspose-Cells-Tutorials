@@ -1,36 +1,38 @@
 ---
-title: Specificare la compatibilità del file Excel a livello di programmazione in .NET
-linktitle: Specificare la compatibilità del file Excel a livello di programmazione in .NET
-second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Impara a manipolare le tabelle pivot di Excel con Aspose.Cells per .NET, inclusi aggiornamenti dei dati, impostazioni di compatibilità e formattazione delle celle.
-weight: 23
-url: /it/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Impara a manipolare le tabelle pivot di Excel con Aspose.Cells per .NET, inclusi aggiornamenti dei dati, impostazioni di compatibilità e formattazione delle celle."
+"linktitle": "Specificare la compatibilità del file Excel a livello di programmazione in .NET"
+"second_title": "API di elaborazione Excel .NET Aspose.Cells"
+"title": "Specificare la compatibilità del file Excel a livello di programmazione in .NET"
+"url": "/it/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specificare la compatibilità del file Excel a livello di programmazione in .NET
 
 ## Introduzione
 
-Nel mondo odierno basato sui dati, la gestione e la manipolazione dei file Excel a livello di programmazione sono diventate essenziali per molti sviluppatori. Se lavori con Excel in .NET, Aspose.Cells è una potente libreria che semplifica la creazione, la lettura, la modifica e il salvataggio dei file Excel. Una caratteristica importante di questa libreria ti consente di specificare la compatibilità dei file Excel a livello di programmazione. In questo tutorial, esploreremo come manipolare i file Excel, concentrandoci in particolare sulla gestione della compatibilità tramite Aspose.Cells per .NET. Alla fine, capirai come impostare la compatibilità per i file Excel, in particolare per le tabelle pivot, durante l'aggiornamento e la gestione dei dati.
+Nell'attuale mondo basato sui dati, la gestione e la manipolazione dei file Excel a livello di codice è diventata essenziale per molti sviluppatori. Se si lavora con Excel in .NET, Aspose.Cells è una potente libreria che semplifica la creazione, la lettura, la modifica e il salvataggio dei file Excel. Una funzionalità importante di questa libreria consente di specificare la compatibilità dei file Excel a livello di codice. In questo tutorial, esploreremo come manipolare i file Excel, concentrandoci in particolare sulla gestione della compatibilità utilizzando Aspose.Cells per .NET. Al termine, si comprenderà come impostare la compatibilità per i file Excel, in particolare per le tabelle pivot, durante l'aggiornamento e la gestione dei dati.
 
 ## Prerequisiti
 
 Prima di immergerti nella fase di codifica, assicurati di avere quanto segue:
 
 1. Conoscenza di base di C#: poiché scriveremo codice in C#, avere familiarità con il linguaggio ti aiuterà a comprendere meglio il tutorial.
-2.  Aspose.Cells per la libreria .NET: puoi scaricarla da[Pagina di rilascio di Aspose Cells](https://releases.aspose.com/cells/net/)Se non l'hai ancora fatto, prendi in considerazione l'idea di ottenere una prova gratuita per esplorarne prima le funzionalità.
+2. Libreria Aspose.Cells per .NET: puoi scaricarla da [Pagina delle release di Aspose Cells](https://releases.aspose.com/cells/net/)Se non l'hai ancora fatto, ti consigliamo di richiedere una prova gratuita per esplorarne prima le funzionalità.
 3. Visual Studio: un IDE in cui puoi scrivere e testare efficacemente il tuo codice C#.
-4.  File Excel di esempio: assicurati di avere un file Excel di esempio, preferibilmente uno che contenga una tabella pivot per la demo. Per il nostro esempio, useremo`sample-pivot-table.xlsx`.
+4. File Excel di esempio: assicurati di avere un file Excel di esempio, preferibilmente uno che contenga una tabella pivot per la demo. Per il nostro esempio, useremo `sample-pivot-table.xlsx`.
 
-Una volta soddisfatti questi prerequisiti, possiamo iniziare il processo di codifica.
+Una volta stabiliti questi prerequisiti, possiamo iniziare il processo di codifica.
 
 ## Importa pacchetti
 
-Prima di iniziare a scrivere la tua applicazione, devi includere i namespace necessari nel tuo codice per utilizzare efficacemente la libreria Aspose.Cells. Ecco come fare.
+Prima di iniziare a scrivere la tua applicazione, devi includere nel codice i namespace necessari per utilizzare al meglio la libreria Aspose.Cells. Ecco come fare.
 
 ### Importa lo spazio dei nomi Aspose.Cells
 
@@ -42,20 +44,20 @@ using Aspose.Cells.Pivot;
 using System.Drawing;
 ```
 
-Questa riga di codice garantisce l'accesso a tutte le classi e ai metodi all'interno della libreria Aspose.Cells.
+Questa riga di codice garantisce l'accesso a tutte le classi e a tutti i metodi all'interno della libreria Aspose.Cells.
 
 Ora analizziamo il processo in dettaglio per assicurarci che tutto sia chiaro e comprensibile.
 
 ## Passaggio 1: imposta la tua directory
 
-Per prima cosa, imposta la directory in cui si trovano i tuoi file Excel. È importante fornire il percorso file corretto.
+Per prima cosa, imposta la directory in cui si trovano i file Excel. È importante fornire il percorso corretto.
 
 ```csharp
 // Percorso verso la directory dei documenti.
 string dataDir = "Your Document Directory";
 ```
 
- Qui, sostituisci`"Your Document Directory"`con il percorso effettivo dei tuoi file Excel. È qui che dovrebbe risiedere il file della tabella pivot di esempio.
+Qui, sostituisci `"Your Document Directory"` Con il percorso effettivo dei file Excel. È qui che dovrebbe risiedere il file della tabella pivot di esempio.
 
 ## Passaggio 2: caricare il file Excel di origine
 
@@ -66,7 +68,7 @@ Successivamente, dobbiamo caricare il file Excel che contiene la tabella pivot d
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- In questo passaggio, creiamo un'istanza di`Workbook` classe, che carica il file Excel specificato. 
+In questo passaggio, creiamo un'istanza di `Workbook` classe, che carica il file Excel specificato. 
 
 ## Passaggio 3: accedi ai fogli di lavoro
 
@@ -77,15 +79,15 @@ Ora che la cartella di lavoro è caricata, è necessario accedere al foglio di l
 Worksheet dataSheet = wb.Worksheets[0];
 ```
 
-Qui, accediamo al primo foglio di lavoro in cui si trova la tabella pivot. Puoi anche scorrere o specificare altri fogli di lavoro in base alla tua struttura Excel.
+Qui accediamo al primo foglio di lavoro in cui si trova la tabella pivot. È anche possibile scorrere o specificare altri fogli di lavoro in base alla struttura di Excel.
 
 ## Passaggio 4: manipolare i dati delle celle
 
 Il passo successivo è modificare alcuni valori delle celle nel foglio di lavoro. 
 
-### Passaggio 4.1: Modifica la cella A3
+### Passaggio 4.1: Modificare la cella A3
 
-Cominciamo accedendo alla cella A3 e impostandone il valore.
+Iniziamo accedendo alla cella A3 e impostandone il valore.
 
 ```csharp
 // Accedi alla cella A3 e imposta i suoi dati
@@ -98,7 +100,7 @@ Questo frammento di codice aggiorna la cella A3 con il valore “FooBar”.
 
 ### Passaggio 4.2: Modificare la cella B3 con una stringa lunga
 
-Ora impostiamo una stringa lunga nella cella B3, che superi i limiti di caratteri standard di Excel.
+Ora impostiamo una stringa lunga nella cella B3, che supera i limiti di caratteri standard di Excel.
 
 ```csharp
 // Accedi alla cella B3, imposta i suoi dati
@@ -107,18 +109,18 @@ cell = cells["B3"];
 cell.PutValue(longStr);
 ```
 
-Questo codice è importante perché definisce le aspettative in merito ai limiti dei dati, soprattutto quando si lavora con le impostazioni di compatibilità in Excel.
+Questo codice è importante perché definisce le aspettative riguardo ai limiti dei dati, soprattutto quando si lavora con le impostazioni di compatibilità in Excel.
 
-## Passaggio 5: controllare la lunghezza della cella B3
+## Passaggio 5: verificare la lunghezza della cella B3
 
-È inoltre essenziale confermare la lunghezza della stringa immessa.
+È inoltre essenziale confermare la lunghezza della stringa inserita.
 
 ```csharp
 // Stampa la lunghezza della stringa della cella B3
 Console.WriteLine("Length of original data string: " + cell.StringValue.Length);
 ```
 
-Questo serve solo per verificare quanti caratteri sono memorizzati sul tuo cellulare.
+Serve solo per verificare quanti caratteri sono presenti sul tuo cellulare.
 
 ## Passaggio 6: imposta altri valori delle celle
 
@@ -141,7 +143,7 @@ Ognuno di questi frammenti aggiorna diverse celle aggiuntive all'interno del fog
 Successivamente, accederai al secondo foglio di lavoro, contenente i dati della tabella pivot.
 
 ```csharp
-//Accedi al secondo foglio di lavoro che contiene la tabella pivot
+// Accedi al secondo foglio di lavoro che contiene la tabella pivot
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Accedi alla tabella pivot
@@ -161,9 +163,9 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- È qui che inizia la vera trasformazione. Impostando`IsExcel2003Compatible` A`true`, puoi limitare la lunghezza dei caratteri a 255 durante l'aggiornamento.
+È qui che inizia la vera trasformazione. Impostando `IsExcel2003Compatible` A `true`puoi limitare la lunghezza dei caratteri a 255 durante l'aggiornamento.
 
-## Passaggio 9: controllare la lunghezza dopo l'impostazione di compatibilità
+## Passaggio 9: verificare la lunghezza dopo l'impostazione di compatibilità
 
 Dopo aver impostato la compatibilità, vediamo come influisce sui dati.
 
@@ -173,27 +175,27 @@ Cell b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to True: " + b5.StringValue.Length);
 ```
 
-Probabilmente vedrai un output che conferma l'effetto del troncamento se i dati iniziali superano i 255 caratteri.
+Probabilmente vedrai un output che conferma l'effetto troncamento se i dati iniziali superano i 255 caratteri.
 
 ## Passaggio 10: modifica le impostazioni di compatibilità
 
-Ora modifichiamo le impostazioni di compatibilità e verifichiamo di nuovo.
+Adesso modifichiamo le impostazioni di compatibilità e controlliamo di nuovo.
 
 ```csharp
-//Ora imposta la proprietà IsExcel2003Compatible su false e aggiorna di nuovo
+// Ora imposta la proprietà IsExcel2003Compatible su false e aggiorna di nuovo
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
-Ciò consente ai dati di rispecchiare la loro lunghezza originale senza le restrizioni precedenti.
+Ciò consente ai dati di riflettere la loro lunghezza originale senza le restrizioni precedenti.
 
 ## Passaggio 11: verificare nuovamente la lunghezza 
 
 Verifichiamo che i dati ora riflettano accuratamente la loro lunghezza reale.
 
 ```csharp
-// Ora stamperà la lunghezza originale dei dati della cella. I dati non sono stati troncati ora.
+// Ora verrà stampata la lunghezza originale dei dati della cella. I dati non sono stati troncati.
 b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to False: " + b5.StringValue.Length);
 ```
@@ -224,31 +226,33 @@ Infine, salva la cartella di lavoro con le modifiche apportate.
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- La scelta di un formato di file appropriato è fondamentale quando si salvano file Excel.`Xlsx`Il formato è ampiamente utilizzato e compatibile con molte versioni di Excel.
+La scelta di un formato di file appropriato è fondamentale quando si salvano file Excel. `Xlsx` Il formato è ampiamente utilizzato e compatibile con molte versioni di Excel.
 
 ## Conclusione
 
-Congratulazioni! Ora hai programmato le impostazioni di compatibilità dei file Excel usando Aspose.Cells per .NET. Questo tutorial ha delineato ogni passaggio, dalla configurazione dell'ambiente alla modifica delle impostazioni di compatibilità per le tabelle pivot. Se hai mai lavorato con dati che richiedevano limitazioni o compatibilità specifiche, questa è un'abilità che non vorrai trascurare.
+Congratulazioni! Hai programmato le impostazioni di compatibilità dei file Excel utilizzando Aspose.Cells per .NET. Questo tutorial ha illustrato ogni passaggio, dalla configurazione dell'ambiente alla modifica delle impostazioni di compatibilità per le tabelle pivot. Se hai mai lavorato con dati che richiedevano limitazioni o compatibilità specifiche, questa è un'abilità che non vorrai trascurare.
 
 ## Domande frequenti
 
-### Che cos'è Aspose.Cells?  
+### Che cosa è Aspose.Cells?  
 Aspose.Cells è una libreria .NET progettata per aiutare gli sviluppatori a creare, manipolare e convertire file Excel senza problemi.
 
 ### Perché è importante la compatibilità con Excel?  
 La compatibilità con Excel è fondamentale per garantire che i file possano essere aperti e utilizzati nelle versioni previste di Excel, in particolare se contengono funzionalità o formati non supportati nelle versioni precedenti.
 
 ### Posso creare tabelle pivot a livello di programmazione con Aspose.Cells?  
-Sì, puoi creare e manipolare le tabelle pivot a livello di programmazione usando Aspose.Cells. La libreria fornisce vari metodi per aggiungere origini dati, campi e funzionalità associate alle tabelle pivot.
+Sì, è possibile creare e manipolare tabelle pivot a livello di codice utilizzando Aspose.Cells. La libreria offre diversi metodi per aggiungere origini dati, campi e funzionalità associate alle tabelle pivot.
 
-### Come faccio a controllare la lunghezza di una stringa in una cella di Excel?  
-Puoi usare il`StringValue` proprietà di un`Cell` oggetto per ottenere il contenuto della cella e quindi chiamare il`.Length` proprietà per scoprire la lunghezza della stringa.
+### Come posso verificare la lunghezza di una stringa in una cella di Excel?  
+Puoi usare il `StringValue` proprietà di un `Cell` oggetto per ottenere il contenuto della cella e quindi chiamare il `.Length` proprietà per scoprire la lunghezza della stringa.
 
 ### Posso personalizzare la formattazione delle celle oltre all'altezza e alla larghezza delle righe?  
- Assolutamente! Aspose.Cells consente una formattazione estesa delle celle. Puoi cambiare stili di carattere, colori, bordi, formati numerici e molto altro tramite`Style` classe.
+Assolutamente! Aspose.Cells consente una formattazione estesa delle celle. Puoi modificare stili di carattere, colori, bordi, formati numerici e molto altro tramite `Style` classe.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@
 ในการเริ่มต้น ให้รวมไลบรารี Aspose.Cells เข้ากับโปรเจ็กต์ของคุณโดยใช้ Maven หรือ Gradle:
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -69,7 +71,7 @@ license.setLicense("path_to_your_license.lic");
 
 ## คู่มือการใช้งาน
 
-### สร้างและเริ่มต้นสมุดงาน
+### การสร้างและเริ่มต้นสมุดงาน
 
 **ภาพรวม**
 ส่วนนี้สาธิตการสร้างอินสแตนซ์ใหม่ของอ็อบเจ็กต์ Aspose.Cells Workbook ซึ่งเป็นพื้นฐานสำหรับการทำงานกับไฟล์ Excel ใน Java
@@ -180,6 +182,9 @@ license.setLicense("path_to_your_license.lic");
 - **สนับสนุน**:เข้าร่วมการสนทนาและขอความช่วยเหลือใน [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-file-handling/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel File Handling
@@ -36,9 +38,11 @@ Learn to export custom properties from Excel to PDF using Aspose.Cells for .NET 
 Learn how to keep separators for blank rows in Excel using Aspose.Cells for .NET. Step-by-step guide with code examples included.
 ### [Load Visible Sheets Only from Excel File](./load-visible-sheets-only/)
 Learn how to load only visible sheets from Excel files using Aspose.Cells for .NET in this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

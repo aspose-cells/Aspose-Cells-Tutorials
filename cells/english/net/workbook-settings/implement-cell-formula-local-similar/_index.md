@@ -8,7 +8,9 @@ url: /net/workbook-settings/implement-cell-formula-local-similar/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Cell Formula Local Similar to Range Formula Local
@@ -92,6 +94,7 @@ Yes, the `GlobalizationSettings` class and the ability to customize function nam
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,8 +6,11 @@ description: Learn how to apply colors and background styles in Excel using Aspo
 keywords: [Aspose.Cells for .NET, Excel colors, Excel background, format Excel cells, set cell style, .NET Excel library, apply colors in Excel, Excel customization]
 url: /net/formatting/colors-and-background/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
 # Apply Colors & Backgrounds in Excel using Aspose.Cells
@@ -15,9 +18,11 @@ url: /net/formatting/colors-and-background/
 Aspose.Cells for .NET allows developers to programmatically format Excel worksheets by applying colors and background styles to cells. This example demonstrates how to create an Excel workbook, add a worksheet, customize cell styles with different foreground and background colors, and save the file in Excel 97-2003 format. By leveraging Aspose.Cells, developers can easily enhance spreadsheet aesthetics and improve data readability.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/colors-and-background" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 To get started with Aspose.Cells for .NET, follow these steps:  
@@ -47,7 +52,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Zarządzaj rozmiarem papieru w programie Excel
-linktitle: Zarządzaj rozmiarem papieru w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się zarządzać rozmiarami papieru w programie Excel za pomocą Aspose.Cells dla .NET. Ten przewodnik oferuje instrukcje krok po kroku i przykłady bezproblemowej integracji.
-weight: 70
-url: /pl/net/excel-page-setup/manage-excel-paper-size/
+"description": "Naucz się zarządzać rozmiarami papieru w programie Excel za pomocą Aspose.Cells dla .NET. Ten przewodnik oferuje instrukcje krok po kroku i przykłady bezproblemowej integracji."
+"linktitle": "Zarządzaj rozmiarem papieru w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zarządzaj rozmiarem papieru w programie Excel"
+"url": "/pl/net/excel-page-setup/manage-excel-paper-size/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zarządzaj rozmiarem papieru w programie Excel
@@ -23,7 +25,7 @@ Zanim zagłębisz się w szczegóły techniczne zarządzania rozmiarami papieru 
 
 1. Podstawowa znajomość języka C#: Znajomość programowania w języku C# znacznie ułatwi proces integrowania Aspose.Cells z projektami.
 2. Zainstalowany program Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio, aby móc pisać i wykonywać kod w języku C#.
-3. Aspose.Cells dla biblioteki .NET: Musisz uzyskać Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells dla biblioteki .NET: Musisz uzyskać Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Menedżer pakietów NuGet: Upewnij się, że masz dostęp do Menedżera pakietów NuGet, ponieważ za jego pomocą możesz łatwo zainstalować Aspose.Cells.
 
 Mając te wymagania na uwadze, możemy zaczynać!
@@ -64,17 +66,17 @@ W tym kroku ustawisz katalog, w którym chcesz zapisać zmodyfikowany plik Excel
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w systemie, w której chcesz zapisać plik. Na przykład, może to być coś takiego`C:\Documents\`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w systemie, w której chcesz zapisać plik. Na przykład, może to być coś takiego `C:\Documents\`.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie utworzysz instancję`Workbook` obiekt, który reprezentuje Twój plik Excel. Oto jak:
+Następnie utworzysz instancję `Workbook` obiekt, który reprezentuje Twój plik Excel. Oto jak:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Ten wiersz tworzy nowy skoroszyt w pamięci. Jeśli pracujesz z istniejącym plikiem, możesz przekazać ścieżkę do pliku`Workbook` konstruktor.
+Ten wiersz tworzy nowy skoroszyt w pamięci. Jeśli pracujesz z istniejącym plikiem, możesz przekazać ścieżkę do pliku `Workbook` konstruktor.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -94,7 +96,7 @@ Teraz nadchodzi krytyczna część — ustawienie rozmiaru papieru na A4. Z Aspo
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 ```
 
- Ten wiersz ustawia rozmiar papieru dla określonego arkusza roboczego na A4. Możesz łatwo zamienić`PaperA4` z innymi rozmiarami papieru dostępnymi w`PaperSizeType` wyliczenie, takie jak`PaperLetter` Lub`PaperA3`.
+Ten wiersz ustawia rozmiar papieru dla określonego arkusza roboczego na A4. Możesz łatwo zamienić `PaperA4` z innymi rozmiarami papieru dostępnymi w `PaperSizeType` wyliczenie, takie jak `PaperLetter` Lub `PaperA3`.
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -104,7 +106,7 @@ Po określeniu rozmiaru papieru nadszedł czas na zapisanie skoroszytu, aby zmia
 workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ```
 
- Ten wiersz zapisuje zmodyfikowany skoroszyt do określonego katalogu. Nazwa pliku wyjściowego tutaj to`ManagePaperSize_out.xls`, ale możesz go dostosować do swoich potrzeb.
+Ten wiersz zapisuje zmodyfikowany skoroszyt do określonego katalogu. Nazwa pliku wyjściowego tutaj to `ManagePaperSize_out.xls`ale możesz go dostosować do swoich potrzeb.
 
 ## Wniosek
 
@@ -113,22 +115,24 @@ Zarządzanie rozmiarami papieru w arkuszach Excela staje się dziecinnie proste 
 ## Najczęściej zadawane pytania
 
 ### Jakie rozmiary papieru mogę ustawić za pomocą Aspose.Cells?
- Aspose.Cells obsługuje wiele rozmiarów papieru, w tym A3, A4, A5, Letter i inne. Możesz eksplorować`PaperSizeType` wyliczenie w dokumentacji.
+Aspose.Cells obsługuje wiele rozmiarów papieru, w tym A3, A4, A5, Letter i inne. Możesz eksplorować `PaperSizeType` wyliczenie w dokumentacji.
 
 ### Czy mogę ustawić rozmiar papieru dla wielu arkuszy jednocześnie?
-Tak, możesz uzyskać dostęp do wielu arkuszy kalkulacyjnych naraz i zastosować do każdego z nich te same ustawienia rozmiaru papieru.
+Tak, możesz uzyskać dostęp do wielu arkuszy kalkulacyjnych jednocześnie i zastosować do każdego z nich te same ustawienia rozmiaru papieru.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells jest komercyjną biblioteką, jednak oferuje bezpłatną wersję próbną. Możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić wszystkie jego funkcje.
+Aspose.Cells jest biblioteką komercyjną, jednak oferuje bezpłatną wersję próbną. Możesz poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić wszystkie jego funkcje.
 
 ### Jak radzić sobie z wyjątkami podczas pracy z Aspose.Cells?
 Możesz umieścić swój kod w bloku try-catch, aby obsłużyć wszelkie wyjątki, które mogą wystąpić podczas edycji skoroszytu.
 
 ### Gdzie mogę znaleźć dodatkowe zasoby i pomoc dotyczącą Aspose.Cells?
- Więcej informacji znajdziesz w[dokumentacja](https://reference.aspose.com/cells/net/) lub odwiedź[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Więcej informacji znajdziesz w [dokumentacja](https://reference.aspose.com/cells/net/) lub odwiedź [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

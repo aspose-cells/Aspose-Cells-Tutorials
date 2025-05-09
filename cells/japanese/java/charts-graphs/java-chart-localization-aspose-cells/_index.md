@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ String getOtherName() {
 public void localizeChart(Chart chart) {
     String otherLabel = getOtherName();
     
-    // インデックス0の系列をローカライズする必要があると仮定する
+    // インデックス0の系列はローカライズが必要であると仮定する
     SeriesCollection nSeries = chart.getNSeries();
     if (nSeries.getCount() > 0) {
         nSeries.get(0).setName(otherLabel + " Data");
@@ -196,6 +198,9 @@ public void localizeChart(Chart chart) {
 Aspose.Cells を使用してチャートを効果的にローカライズし、Java アプリケーションの範囲と影響度を高める旅に乗り出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

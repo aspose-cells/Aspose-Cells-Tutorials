@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Sekmeyle ayrılmış metin dosyalarını verimli bir şekilde işlemek, veri iş
 ### Ne Öğreneceksiniz
 - Java projesinde Aspose.Cells nasıl yapılandırılır
 - Sekmeyle ayrılmış bir dosyayı Excel çalışma kitabına yükleme adımları
-- Metin verileriyle çalışırken karşılaşılan yaygın sorunların giderilmesine ilişkin ipuçları
+- Metin verileriyle çalışırken yaygın sorunların giderilmesine ilişkin ipuçları
 
 Entegrasyonda ustalaşmaya hazır mısınız? **Aspose.Hücreler Java** sekmeyle ayrılmış dosyalarınızı yönetmek için? Başlayalım!
 
@@ -134,6 +136,9 @@ Sonraki adımlar arasında Aspose.Cells'in daha gelişmiş özelliklerini keşfe
 - **Destek:** Sorularınız için şu adresi ziyaret edin: [Aspose Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Genel bakış**: Verilerinizi işlemeye başlamak için hızlıca boş bir Excel çalışma kitabı oluşturun.
 
 **Adım adım:**
-1. **Çalışma Kitabını Örneklendir**: Bir tane oluştur `Workbook` nesne.
+1. **Çalışma Kitabını Örneklendir**Bir tane oluştur `Workbook` nesne.
 2. **Çıktı Dizini**: Dosyayı nereye kaydetmek istediğinizi tanımlayın.
 
 ```java
@@ -195,6 +197,9 @@ Aspose.Cells for Java ile yolculuğunuza bugün başlayın ve uygulamalarınızd
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

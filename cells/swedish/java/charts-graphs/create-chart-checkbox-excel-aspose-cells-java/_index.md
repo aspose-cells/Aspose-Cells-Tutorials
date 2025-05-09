@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Här är några verkliga scenarier där du kan tillämpa kunskapen från den hä
 3. **Utbildningsverktyg:** Skapa dynamiska läromedel där eleverna kan interagera med innehållet genom att välja olika alternativ i diagram.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

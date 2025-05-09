@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,14 +54,14 @@ Adja hozzá a következő függőséget a következőhöz: `pom.xml`:
 </dependency>
 ```
 ### Gradle használata
-Tartalmazza ezt a `build.gradle`:
+Tartalmazza ezt `build.gradle`:
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 #### Licencbeszerzés lépései
 - **Ingyenes próbaverzió**Letöltés innen: [Aspose weboldala](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély**Beszerzés: [vásárlási oldal](https://purchase.aspose.com/temporary-license/) hosszabb értékeléshez.
-- **Vásárlás**Kereskedelmi célú felhasználás esetén a tőlük vásároljon. [vásárlási portál](https://purchase.aspose.com/buy).
+- **Vásárlás**Kereskedelmi célú felhasználás esetén a beszerzés a [vásárlási portál](https://purchase.aspose.com/buy).
 
 ## Megvalósítási útmutató
 
@@ -163,6 +165,9 @@ További olvasmányokért és támogatásért látogasson el a következő oldal
 - Támogatási fórum: [Aspose Cells közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

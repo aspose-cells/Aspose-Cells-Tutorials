@@ -1,28 +1,30 @@
 ---
-title: Salin Penyimpanan Desainer Formulir Pengguna VBAMacro ke Buku Kerja menggunakan Aspose.Cells
-linktitle: Salin Penyimpanan Desainer Formulir Pengguna VBAMacro ke Buku Kerja menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyalin VBA Macro User Form Designer secara efisien di Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami yang komprehensif! Manfaatkan potensi Excel.
-weight: 11
-url: /id/net/workbook-vba-project/copy-vbamacro-user-form-designer/
+"description": "Tanuld meg, hogyan másolhatsz hatékonyan VBA makró felhasználói űrlap-tervezőt az Aspose.Cells for .NET-ben átfogó, lépésről lépésre bemutató oktatóanyagunkkal! Engedd szabadjára az Excelben rejlő lehetőségeket."
+"linktitle": "VBAMacro felhasználói űrlaptervező tároló másolása munkafüzetbe az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "VBAMacro felhasználói űrlaptervező tároló másolása munkafüzetbe az Aspose.Cells használatával"
+"url": "/id/net/workbook-vba-project/copy-vbamacro-user-form-designer/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salin Penyimpanan Desainer Formulir Pengguna VBAMacro ke Buku Kerja menggunakan Aspose.Cells
+# VBAMacro felhasználói űrlaptervező tároló másolása munkafüzetbe az Aspose.Cells használatával
 
-## Perkenalan
-Selamat datang! Jika Anda ingin meningkatkan pengalaman Excel Anda dengan makro VBA dan formulir pengguna, Anda berada di tempat yang tepat! Dalam panduan ini, kami akan membahas cara menyalin Desainer UserForm Makro VBA dari satu buku kerja ke buku kerja lain menggunakan Aspose.Cells untuk .NET. Baik Anda pengembang berpengalaman atau baru memulai, kami akan memandu Anda melalui setiap langkah penting. Anggap ini sebagai buku pedoman Anda untuk menguasai seni menangani file Excel secara terprogram. Siap untuk mencobanya? Ayo!
-## Prasyarat
-Sebelum kita masuk ke inti pengkodean, mari pastikan Anda memiliki semua yang dibutuhkan:
-1. Lingkungan Pengembangan C#: Anda harus memiliki lingkungan kerja yang siap untuk pengembangan C#. Visual Studio sangat direkomendasikan.
-2.  Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah mengintegrasikan pustaka Aspose.Cells ke dalam proyek Anda. Anda dapat dengan mudah[unduh disini](https://releases.aspose.com/cells/net/).
-3. Pengetahuan Dasar tentang VBA dan Makro Excel: Pemahaman yang baik tentang VBA dan cara kerja makro Excel akan membantu Anda menavigasi tutorial ini dengan mudah.
-4. File Excel dengan Formulir Pengguna: Untuk bereksperimen, buat atau dapatkan buku kerja Excel yang berisi Formulir Pengguna, sebaiknya dengan makro yang diaktifkan (seperti`.xlsm` (berkas).
-## Paket Impor
-Dalam proyek C# Anda, Anda perlu mengimpor namespace tertentu di bagian atas berkas Anda untuk memanfaatkan fungsi Aspose.Cells. Berikut cara melakukannya:
+## Bevezetés
+Üdvözöljük! Ha VBA-makrók és felhasználói űrlapok segítségével szeretnéd fejleszteni az Excel-élményedet, jó helyen jársz! Ebben az útmutatóban bemutatjuk, hogyan másolhatsz zökkenőmentesen egy VBA makró UserForm Designer-t egyik munkafüzetből a másikba az Aspose.Cells for .NET segítségével. Akár tapasztalt fejlesztő vagy, akár most kezded, végigvezetünk minden fontos lépésen. Tekintsd ezt a kézikönyvet az Excel-fájlok programozott kezelésének elsajátításához. Készen állsz a belevágásra? Rajta!
+## Előfeltételek
+Mielőtt belevágnánk a kódolás részleteibe, győződjünk meg róla, hogy minden szükséges dolog a rendelkezésünkre áll:
+1. C# fejlesztői környezet: Rendelkeznie kell egy C# fejlesztéshez megfelelő munkakörnyezettel. A Visual Studio használata erősen ajánlott.
+2. Aspose.Cells .NET könyvtárhoz: Győződjön meg róla, hogy az Aspose.Cells könyvtár integrálva van a projektjébe. Könnyen megteheti [töltsd le itt](https://releases.aspose.com/cells/net/).
+3. VBA és Excel makrók alapismerete: A VBA és az Excel makrók működésének alapos ismerete segít könnyedén eligazodni ebben az oktatóanyagban.
+4. Egy felhasználói űrlapot tartalmazó Excel-fájl: Kísérletezéshez hozzon létre vagy szerezzen be egy felhasználói űrlapot tartalmazó Excel-munkafüzetet, lehetőleg engedélyezett makrókkal (például `.xlsm` fájlok).
+## Csomagok importálása
+A C# projektedben bizonyos névtereket kell importálnod a fájl elejére az Aspose.Cells funkcióinak használatához. Így teheted meg:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -30,61 +32,61 @@ using System.Linq;
 using System.Text;
 using Aspose.Cells.Vba;
 ```
-Menyertakan namespace ini memungkinkan Anda mengakses semua alat hebat yang tertanam dalam pustaka Aspose.Cells. 
-Sekarang setelah prasyarat dan paket-paket telah terpenuhi, saatnya beralih ke bagian yang menyenangkan: pengodean! Mari kita uraikan langkah demi langkah.
-## Langkah 1: Tentukan Direktori Sumber dan Output Anda
-Pertama, Anda perlu menentukan di mana file Anda berada:
+Ezen névterek beillesztése lehetővé teszi az Aspose.Cells könyvtárba ágyazott összes hatékony eszköz elérését. 
+Most, hogy az előfeltételekkel és a csomagokkal tisztában vagyunk, itt az ideje, hogy rátérjünk a szórakoztató részre: a kódolásra! Nézzük meg lépésről lépésre.
+## 1. lépés: A forrás- és kimeneti könyvtárak meghatározása
+Először is meg kell határoznod, hogy hol találhatók a fájljaid:
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Di sini, ganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Anda disimpan. Di sinilah buku kerja sumber kita (dengan UserForm) akan diambil dan tempat buku kerja baru akan disimpan.
-## Langkah 2: Buat Buku Kerja Target Kosong
-Berikutnya, mari buat buku kerja target tempat kita akan menyalin formulir pengguna dan makro kita:
+Itt cserélje ki `"Your Document Directory"` a fájlok tárolási helyének tényleges elérési útjával. Innen lesz lekérve a forrásmunkafüzetünk (a felhasználói űrlappal), és ide lesz mentve az új munkafüzet.
+## 2. lépés: Hozz létre egy üres célmunkafüzetet
+Következő lépésként hozzuk létre a cél munkafüzetünket, ahová a felhasználói űrlapot és a makrókat fogjuk másolni:
 ```csharp
-// Buat buku kerja target kosong
+// Üres cél munkafüzet létrehozása
 Workbook target = new Workbook();
 ```
-Baris kode ini menginisialisasi buku kerja baru yang kosong untuk diisi dengan data. Anggap saja ini sebagai kanvas kosong untuk karya agung Anda!
-## Langkah 3: Muat Buku Kerja Template Anda
-Kita perlu memuat buku kerja yang berisi formulir pengguna dan makro Anda:
+Ez a kódsor egy új, üres munkafüzetet inicializál, amelyet adatokkal tölthetünk fel. Gondolj rá úgy, mint egy üres vászonra a remekműved számára!
+## 3. lépés: Sablon munkafüzet betöltése
+Betöltenünk kell a felhasználói űrlapot és a makrókat tartalmazó munkafüzetet:
 ```csharp
-// Muat file Excel yang berisi Formulir Pengguna VBA-Macro Designer
+// Töltse be a VBA-Macro Designer felhasználói űrlapot tartalmazó Excel fájlt
 Workbook templateFile = new Workbook(sourceDir + "sampleDesignerForm.xlsm");
 ```
- Pastikan untuk berubah`"sampleDesignerForm.xlsm"` ke nama berkas Anda yang sebenarnya. Buku kerja ini seperti buku resep Anda—dari buku inilah kita akan mengambil bahan-bahan kita!
-## Langkah 4: Salin Lembar Kerja ke Buku Kerja Target
-Sekarang, mari mulai menyalin lembar kerja dari templat kita ke buku kerja target:
+Mindenképpen változtass `"sampleDesignerForm.xlsm"` a tényleges fájl nevéhez. Ez a munkafüzet olyan, mint a receptkönyved – ebből fogjuk kivenni az alapanyagokat!
+## 4. lépés: Munkalapok másolása a cél munkafüzetbe
+Most kezdjük el a munkalapok másolását a sablonunkból a cél munkafüzetbe:
 ```csharp
-// Salin semua lembar kerja templat ke buku kerja target
+// Az összes sablonmunkalap másolása a cél munkafüzetbe
 foreach (Worksheet ws in templateFile.Worksheets)
 {
     if (ws.Type == SheetType.Worksheet)
     {
         Worksheet s = target.Worksheets.Add(ws.Name);
         s.Copy(ws);
-        // Letakkan pesan di sel A2 lembar kerja target
+        // Üzenet beillesztése a célmunkalap A2 cellájába
         s.Cells["A2"].PutValue("VBA Macro and User Form copied from template to target.");
     }
 }
 ```
-Pada langkah ini, kita mengulang setiap lembar kerja dalam templat dan menyalinnya ke buku kerja target. Jika dipikir-pikir, ini seperti memindahkan resep terbaik Anda dari satu buku masak ke buku masak lainnya!
-## Langkah 5: Salin Makro VBA dari Template
-Berikutnya, kita akan menyalin makro VBA, termasuk modul UserForm Designer, ke buku kerja baru kita:
+Ebben a lépésben végigmegyünk a sablonban található összes munkalapon, és átmásoljuk őket a cél munkafüzetünkbe. Ha belegondolsz, ez olyan, mintha a legjobb receptjeidet másolnád át egyik szakácskönyvből a másikba!
+## 5. lépés: VBA-makrók másolása a sablonból
+Következő lépésként átmásoljuk a VBA makrókat, beleértve a UserForm Designer modulokat is, az új munkafüzetünkbe:
 ```csharp
-// Salin UserForm Desainer VBA-Macro dari Template ke Target
+// VBA-Macro Designer UserForm másolása sablonból a Targetbe
 foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
 {
     if (vbaItem.Name == "ThisWorkbook")
     {
-        // Salin kode modul ThisWorkbook
+        // Másolja ezt a munkafüzet modulkódot
         target.VbaProject.Modules["ThisWorkbook"].Codes = vbaItem.Codes;
     }
     else
     {
-        // Salin kode dan data modul lainnya
+        // Más modulok kódjának és adatainak másolása
         System.Diagnostics.Debug.Print(vbaItem.Name);
         int vbaMod = 0;
         Worksheet sheet = target.Worksheets.GetSheetByCodeName(vbaItem.Name);
@@ -99,44 +101,46 @@ foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
         target.VbaProject.Modules[vbaMod].Codes = vbaItem.Codes;
         if ((vbaItem.Type == VbaModuleType.Designer))
         {
-            // Dapatkan data dari penyimpanan desainer formulir pengguna
+            // A felhasználói űrlap adatainak lekérése, azaz a tervezői tároló
             byte[] designerStorage = templateFile.VbaProject.Modules.GetDesignerStorage(vbaItem.Name);
-            // Tambahkan penyimpanan desainer ke Proyek Vba target
+            // Tervezői tároló hozzáadása a cél VBA-projekthez
             target.VbaProject.Modules.AddDesignerStorage(vbaItem.Name, designerStorage);
         }
     }
 }
 ```
-Potongan kode yang besar ini menangani pengecekan setiap modul VBA dalam file template. Kami menyalin desain UserForm dan kode terkaitnya. Ini seperti memastikan Anda tidak hanya mendapatkan resep pai Nenek yang terkenal tetapi juga teknik memanggangnya yang tepat!
-## Langkah 6: Simpan Buku Kerja Target
-Setelah kita memperoleh semua salinan kita, saatnya menyimpan kerja keras kita:
+Ez a vaskos kódrészlet a sablonfájlban található összes VBA modul ellenőrzését végzi. Átmásoljuk a UserForm dizájnt és a hozzá tartozó kódokat. Olyan ez, mintha nemcsak a nagymama híres pite receptjét, hanem a pontos sütési technikáit is biztosítanánk!
+## 6. lépés: A cél munkafüzet mentése
+Miután minden másolatot elkészítettünk, itt az ideje, hogy elmentsük a kemény munkánkat:
 ```csharp
-// Simpan buku kerja target
+// A cél munkafüzet mentése
 target.Save(outputDir + "outputDesignerForm.xlsm", SaveFormat.Xlsm);
 ```
-Pastikan untuk mengubah nama berkas keluaran sesuai kebutuhan. Setelah Anda menyimpannya, Anda secara efektif membuat versi buku kerja yang disesuaikan sendiri yang penuh dengan makro dan formulir pengguna. Seberapa menarik itu?
-## Langkah 7: Konfirmasikan Keberhasilan
-Terakhir, mari kita cetak pesan sukses ke konsol:
+Ügyelj arra, hogy szükség szerint módosítsd a kimeneti fájlnevet. A mentés után gyakorlatilag a munkafüzet saját, testreszabott verzióját hozod létre, amely tele van makrókkal és felhasználói űrlapokkal. Ugye milyen izgalmas?
+## 7. lépés: Siker megerősítése
+Végül írjunk ki egy sikerüzenetet a konzolra:
 ```csharp
 Console.WriteLine("CopyVBAMacroUserFormDesignerStorageToWorkbook executed successfully.\r\n");
 ```
-Kalimat singkat ini meyakinkan Anda bahwa proses Anda berjalan lancar. Ini adalah pelengkap yang sempurna untuk coding Anda!
-## Kesimpulan
-Selamat! Anda telah menyelesaikan panduan langkah demi langkah untuk menyalin VBA Macro User Form Designer dari satu buku kerja ke buku kerja lain menggunakan Aspose.Cells untuk .NET. Awalnya mungkin tampak sedikit membingungkan, tetapi dengan latihan, Anda akan dapat menangani manipulasi buku kerja seperti seorang profesional. Ingat, pengodean adalah tentang latihan, jadi jangan ragu untuk mencoba berbagai hal berbeda di file Excel Anda. Jika Anda memiliki pertanyaan atau mengalami masalah, jangan ragu untuk memeriksa forum Aspose atau dokumentasi untuk mendapatkan dukungan!
-## Pertanyaan yang Sering Diajukan
-### Versi Excel apa yang didukung Aspose.Cells?
-Aspose.Cells mendukung berbagai format Excel termasuk XLSX, XLSM, CSV, dan banyak lagi.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya! Anda dapat memulai dengan uji coba gratis, yang memungkinkan Anda mengevaluasi pustaka:[Uji Coba Gratis](https://releases.aspose.com/).
-### Apakah saya memerlukan Visual Studio untuk menjalankan kode ini?
-Meskipun sangat direkomendasikan karena fitur-fiturnya yang mudah digunakan, IDE C# apa pun dapat digunakan asalkan mendukung pengembangan .NET.
-### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
- Anda dapat menjelajahi[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk contoh lebih lanjut dan penjelasan lebih mendalam.
-### Bagaimana cara mengatasi masalah saat menggunakan Aspose.Cells?
- Anda harus mengunjungi[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dari komunitas dan staf dukungan Aspose.
+Ez a kis sor megnyugtat, hogy a folyamat zökkenőmentesen ment. Ez a hab a kódolási fagylaltod tetején!
+## Következtetés
+Gratulálunk! Elkészült a VBA makró felhasználói űrlaptervező egyik munkafüzetből a másikba való másolásának lépésről lépésre szóló útmutatója az Aspose.Cells for .NET használatával. Elsőre talán kissé bonyolultnak tűnhet, de gyakorlással profi módon fogod kezelni a munkafüzet-manipulációkat. Ne feledd, a kódolás a gyakorlásról szól, ezért ne félj különböző dolgokat kipróbálni az Excel-fájljaidban. Ha bármilyen kérdésed van, vagy bármilyen problémába ütközöl, nyugodtan tekintsd meg az Aspose fórumokat vagy dokumentációt támogatásért!
+## GYIK
+### Az Excel mely verzióit támogatja az Aspose.Cells?
+Az Aspose.Cells számos Excel formátumot támogat, beleértve az XLSX, XLSM, CSV és egyebeket.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen! Ingyenes próbaverzióval kezdheted, amely lehetővé teszi a könyvtár kiértékelését: [Ingyenes próbaverzió](https://releases.aspose.com/).
+### Szükségem van Visual Studio-ra a kód futtatásához?
+Bár felhasználóbarát funkciói miatt erősen ajánlott, bármelyik C# IDE megteszi, amennyiben támogatja a .NET fejlesztést.
+### Hol találok további példákat és dokumentációt?
+Felfedezheted a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) további példákért és részletesebb magyarázatokért.
+### Hogyan oldhatom meg az Aspose.Cells használata során felmerülő problémákat?
+Meg kellene látogatnod a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) segítségért a közösségtől és az Aspose támogató személyzetétől.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

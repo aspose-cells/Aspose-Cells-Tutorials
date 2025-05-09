@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,6 +163,9 @@ Aspose.Cells for Java 與資料庫和 Web 服務完美集成，增強了其在�
 現在，繼續使用 Aspose.Cells for Java 建立或修改 Excel 工作簿來測試您的新技能！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

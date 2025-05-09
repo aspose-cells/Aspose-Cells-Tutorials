@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Aspose.Cells for Java를 사용하여 Excel 데이터 연결을 프로그래밍 
 ### [Aspose.Cells Java를 사용하여 Excel에서 창을 고정하는 방법: 단계별 가이드](./mastering-aspose-cells-java-freeze-panes-excel/)
 Aspose.Cells를 Java와 함께 사용하여 Excel에서 창을 고정하는 방법을 알아보세요. 이 단계별 가이드에서는 통합 문서 로드부터 저장까지 필요한 모든 것을 다룹니다.
 
-### [Aspose.Cells for Java를 사용하여 Excel에서 VBA 모듈 수정: 포괄적인 가이드](./modify-vba-modules-excel-aspose-cells-java/)
+### [Java용 Aspose.Cells를 사용하여 Excel에서 VBA 모듈 수정: 포괄적인 가이드](./modify-vba-modules-excel-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 VBA 모듈을 로드하고 수정하는 방법을 알아보세요. 이 가이드에서는 설정부터 구현, 자동화 작업 최적화까지 필수 단계를 다룹니다.
 
 ### [Aspose.Cells for Java를 사용하여 Java Excel 파일의 슬라이서 업데이트](./update-slicers-java-excel-aspose-cells/)
@@ -93,6 +95,9 @@ Aspose.Cells for Java를 사용하여 Excel 파일의 슬라이서 업데이트�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

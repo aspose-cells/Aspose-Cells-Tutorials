@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,6 +211,9 @@ Möchten Sie Ihre Java- und Excel-Integrationsfähigkeiten verbessern? Versuchen
 - **A4:** Verwenden Sie die von Aspose.Cells bereitgestellten Optionen zur Zellenformatierung, um Zahlen, Text und mehr zu formatieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

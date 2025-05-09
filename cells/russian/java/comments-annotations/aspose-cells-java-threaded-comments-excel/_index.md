@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Создание новой рабочей книги
 - Добавление авторов для ветвящихся комментариев
 - Вставка связанных комментариев в определенные ячейки
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 К концу этого руководства вы будете готовы применять эти функции в совместных проектах.
 
 ## Предпосылки
@@ -165,6 +167,9 @@ A2: Используйте зависимости Maven или Gradle, как п
 A3: Да, вы можете добавить нескольких авторов для обработки различных комментаторов в своей книге Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

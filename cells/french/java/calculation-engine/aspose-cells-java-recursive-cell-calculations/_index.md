@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Prêt à mettre en œuvre cette solution ? Plongez dans le monde pratique de l'
 En maîtrisant ces techniques, vous serez parfaitement équipé pour gérer facilement des tâches Excel complexes avec Aspose.Cells pour Java. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

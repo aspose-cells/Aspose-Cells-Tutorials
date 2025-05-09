@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,6 +147,9 @@ Je hebt geleerd hoe je Excel-sheets als afbeeldingen kunt weergeven met Aspose.C
 Met deze hulpmiddelen en tips bent u goed op weg om het renderen van Excel-sheets in Java met Aspose.Cells onder de knie te krijgen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

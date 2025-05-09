@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,13 +142,13 @@ Aspose.Cells for Java를 사용하여 Excel 파일의 사용자 지정 속성을
    - 사용자 정의 속성은 특정 정보를 위해 추가된 사용자 정의 메타데이터 필드인 반면, 표준 속성에는 작성자 및 제목과 같은 기본 제공 세부 정보가 포함됩니다.
    
 2. **Aspose.Cells를 사용하여 대용량 Excel 파일을 효율적으로 처리하려면 어떻게 해야 하나요?**
-   - 과도한 메모리 사용을 방지하기 위해 객체를 즉시 폐기하는 등의 메모리 관리 기술을 사용합니다.
+   - 과도한 메모리 사용을 방지하기 위해 객체를 신속하게 폐기하는 등의 메모리 관리 기술을 사용합니다.
 
 3. **Aspose.Cells 평가판을 사용하여 사용자 정의 속성을 내보낼 수 있나요?**
    - 네, 하지만 유효한 라이선스 파일이 없으면 일부 기능이 제한될 수 있습니다.
 
 4. **Excel 메타데이터를 PDF로 내보내는 이점은 무엇입니까?**
-   - 다양한 플랫폼에서 일관성을 보장하며, 메타데이터를 공유하고 보관할 수 있는 편집 불가능한 형식을 제공합니다.
+   - 다양한 플랫폼에서 일관성을 보장하며, 메타데이터를 공유하고 보관하기 위한 편집 불가능한 형식을 제공합니다.
 
 5. **이 과정을 일괄 모드로 자동화하는 것이 가능합니까?**
    - 물론입니다! 이 단계를 Java로 스크립팅하여 여러 파일을 프로그래밍 방식으로 처리할 수 있습니다.
@@ -160,6 +162,9 @@ Aspose.Cells for Java를 사용하여 Excel 파일의 사용자 지정 속성을
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

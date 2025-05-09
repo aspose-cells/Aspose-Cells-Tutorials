@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z palety dostępnych kolorów w programie Excel
-linktitle: Korzystanie z palety dostępnych kolorów w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak tworzyć niestandardowe palety kolorów i stosować je w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Popraw atrakcyjność wizualną swoich danych dzięki żywym kolorom i opcjom formatowania.
-weight: 11
-url: /pl/net/excel-colors-and-background-settings/using-palette-of-available-colors/
+"description": "Dowiedz się, jak tworzyć niestandardowe palety kolorów i stosować je w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Popraw atrakcyjność wizualną swoich danych dzięki żywym kolorom i opcjom formatowania."
+"linktitle": "Korzystanie z palety dostępnych kolorów w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Korzystanie z palety dostępnych kolorów w programie Excel"
+"url": "/pl/net/excel-colors-and-background-settings/using-palette-of-available-colors/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z palety dostępnych kolorów w programie Excel
@@ -24,7 +26,7 @@ Czy kiedykolwiek wpatrywałeś się w nijaki, monochromatyczny arkusz kalkulacyj
 
 ## Importuj pakiety
 
- Dodatkowo będziesz musiał zaimportować niektóre przestrzenie nazw systemowych, takie jak`System.IO` do manipulacji plikami. 
+Dodatkowo będziesz musiał zaimportować niektóre przestrzenie nazw systemowych, takie jak `System.IO` do manipulacji plikami. 
 
 ```csharp
 using System.IO;
@@ -59,16 +61,16 @@ Ten fragment kodu ustala katalog, w którym chcesz zapisać swój ostateczny pli
 Workbook workbook = new Workbook();
 ```
 
- Pomyśl o`Workbook` obiekt jako puste płótno, na którym namalujesz swoje kolorowe arcydzieło. Ta linia tworzy nową instancję skoroszytu, gotową do wypełnienia danymi i formatowaniem.
+Pomyśl o `Workbook` obiekt jako puste płótno, na którym namalujesz swoje kolorowe arcydzieło. Ta linia tworzy nową instancję skoroszytu, gotową do wypełnienia danymi i formatowaniem.
 
 ## Krok 3: Dodawanie niestandardowego koloru do palety:
 
 ```csharp
-// Dodaj kolor Orchidei do palety o indeksie 55
+// Dodaj kolor Orchid do palety o indeksie 55
 workbook.ChangePalette(Color.Orchid, 55);
 ```
 
-Tutaj dzieje się magia! Ta linia dodaje niestandardowy kolor, w tym przypadku „Orchid”, do palety kolorów Excela.`ChangePalette` Metoda przyjmuje dwa argumenty: żądany kolor i indeks w palecie (od 0 do 55), pod którym chcesz go umieścić. 
+Tutaj dzieje się magia! Ta linia dodaje niestandardowy kolor, w tym przypadku „Orchid”, do palety kolorów Excela. `ChangePalette` Metoda przyjmuje dwa argumenty: żądany kolor i indeks w palecie (od 0 do 55), pod którym chcesz go umieścić. 
 
 Ważna uwaga: Excel ma ograniczoną domyślną paletę kolorów. Jeśli spróbujesz użyć koloru, którego nie ma w domyślnym zestawie, musisz dodać go do palety za pomocą tej metody przed zastosowaniem go do dowolnego elementu w arkuszu kalkulacyjnym.
 
@@ -115,7 +117,7 @@ styleObject.Font.Color = Color.Orchid;
 cell.SetStyle(styleObject);
 ```
 
- W tym kroku tworzymy nowy`Style` obiekt, aby zdefiniować formatowanie naszego tekstu.`styleObject.Font.Color` właściwość jest ustawiona na kolor „Orchid”, który dodaliśmy wcześniej do palety. Na koniec`cell.SetStyle` Metoda stosuje styl do wcześniej wybranej komórki „A1”.
+W tym kroku tworzymy nowy `Style` obiekt, aby zdefiniować formatowanie naszego tekstu. `styleObject.Font.Color` właściwość jest ustawiona na kolor „Orchid”, który dodaliśmy wcześniej do palety. Na koniec `cell.SetStyle` Metoda stosuje styl do wcześniej wybranej komórki „A1”.
 
 ## Krok 8: Zapisywanie skoroszytu
 
@@ -124,7 +126,7 @@ cell.SetStyle(styleObject);
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Auto);
 ```
 
-Ten ostatni wiersz zapisuje skoroszyt ze wszystkimi zmianami formatowania w określonym katalogu.`SaveFormat.Auto` Argument automatycznie ustala odpowiedni format pliku na podstawie rozszerzenia pliku.
+Ten ostatni wiersz zapisuje skoroszyt ze wszystkimi zmianami formatowania w określonym katalogu. `SaveFormat.Auto` Argument automatycznie ustala odpowiedni format pliku na podstawie rozszerzenia pliku.
 
 ## Wniosek
 
@@ -133,22 +135,24 @@ Postępując zgodnie z tymi krokami, udało Ci się dostosować paletę kolorów
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać innych formatów kolorów oprócz Color.Orchid?
- Oczywiście! Możesz użyć dowolnego koloru z`Color` wyliczenie lub zdefiniowanie niestandardowych kolorów za pomocą`Color` struktura.
+Oczywiście! Możesz użyć dowolnego koloru z `Color` wyliczenie lub zdefiniowanie niestandardowych kolorów za pomocą `Color` struktura.
 
 ### Jak zastosować niestandardowy kolor do wielu komórek?
- Możesz utworzyć`Style` obiekt i zastosować go do wielu komórek za pomocą pętli lub zakresów.
+Możesz utworzyć `Style` obiekt i zastosować go do wielu komórek za pomocą pętli lub zakresów.
 
 ### Czy mogę tworzyć niestandardowe gradienty kolorów?
 Tak, Aspose.Cells pozwala tworzyć niestandardowe gradienty kolorów dla komórek lub kształtów. Więcej szczegółów znajdziesz w dokumentacji.
 
 ### Czy można zmienić kolor tła komórki?
-Oczywiście! Możesz zmodyfikować`Style` obiekt`BackgroundColor` właściwość umożliwiająca zmianę koloru tła.
+Oczywiście! Możesz zmodyfikować `Style` obiekt `BackgroundColor` właściwość umożliwiająca zmianę koloru tła.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
 Odwiedź dokumentację Aspose.Cells dla .NET ([https://reference.aspose.com/cells/net/](https://reference.aspose.com/cells/net/)) aby uzyskać szczegółowe informacje i przykłady kodu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

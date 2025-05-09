@@ -1,51 +1,56 @@
 ---
-title: Изменить формат текста в Excel с помощью Aspose.Cells
-weight: 7700
-limit: 
-description: Узнайте, как манипулировать текстом внутри формы в рабочем листе Excel с помощью Aspose.Cells для .NET. Настройка свойств выравнивания текста и сохранение измененной рабочей книги.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /ru/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Узнайте, как манипулировать текстом внутри фигуры на листе Excel с помощью Aspose.Cells для .NET. Установите свойства выравнивания текста и сохраните измененную книгу."
+"title": "Изменение выравнивания текста фигуры в Excel с помощью Aspose.Cells"
+"url": "/ru/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Изменить формат текста в Excel с помощью Aspose.Cells
+# Изменение выравнивания текста фигуры в Excel с помощью Aspose.Cells
 
-В этом руководстве показано, как изменить текстовое выравнивание внутри формы в рабочем листе Excel с использованием Aspose.Cells для .NET. Используя мощные функции Aspose.Cells, вы можете предотвратить вращение текста с формой и настроить свойства выравнивания текста. Пример поможет вам загрузить файл Excel, получить доступ к рабочему листу, изменить текст внутри формы и сохранить обновленную рабочую книгу.  
+В этом руководстве показано, как изменить выравнивание текста внутри фигуры на листе Excel с помощью Aspose.Cells для .NET. Используя мощные функции Aspose.Cells, вы можете предотвратить поворот текста вместе с фигурой и настроить свойства выравнивания текста. В примере показано, как загрузить файл Excel, получить доступ к листу, изменить текст внутри фигуры и сохранить обновленную книгу. Независимо от того, автоматизируете ли вы отчеты, создаете шаблоны или настраиваете визуальные элементы Excel, это пошаговое руководство упрощает задачу.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкция по установке:  
 
-Чтобы использовать Aspose.Cells для .NET в вашем проекте, следуйте этим шагам:  
+Чтобы использовать Aspose.Cells для .NET в своем проекте, выполните следующие действия:  
 
-1. Установка через управляющий пакетами NuGet:  
-   * Откройте визуальную студию.  
-   * Перейти к Инструменты → Управляющий пакетами NuGet → Управление пакетами NuGet для решения.  
-   * Поищите Aspose.Cells и установить последнюю версию.  
+1. Установка через менеджер пакетов NuGet:  
+   - Откройте Visual Studio.  
+   - Перейдите в Инструменты → Диспетчер пакетов NuGet → Управление пакетами NuGet для решения.  
+   - Найдите Aspose.Cells и установите последнюю версию.  
 
-2. Установка через консоль управления пакетами:  
-   * Консоль для управления пакетами в Visual Studio.  
-   * Запустите команду:  
+2. Установка через консоль диспетчера пакетов:  
+   - Откройте консоль диспетчера пакетов в Visual Studio.  
+   - Выполните команду:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Скачать с сайта Aspose:  
-   * Скачать последнюю версию из [Aspose.Cells для .NET Скачать](https://releases.aspose.com/cells/net/)\- Я не знаю .  
-   * Добавьте DLL к вашим ссылкам на проект.  
+3. Загрузить с веб-сайта Aspose:  
+   - Загрузите последнюю версию с сайта [Aspose.Cells для .NET Скачать](https://releases.aspose.com/cells/net/).  
+   - Добавьте DLL в ссылки вашего проекта.  
 
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

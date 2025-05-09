@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,10 +143,13 @@ Java에서 Aspose.Cells를 사용하여 Excel 시트를 이미지로 렌더링�
 - **다운로드:** [출시 페이지](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 이러한 도구와 팁을 활용하면 Aspose.Cells를 사용해 Java로 Excel 시트를 렌더링하는 방법을 익히는 데 한 걸음 더 다가갈 수 있습니다!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

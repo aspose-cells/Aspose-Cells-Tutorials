@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تجميع البيانات في جداول محورية
@@ -108,9 +110,11 @@ workbook.save("output_custom_grouping.xlsx");
 ### 3. هل يمكنني أتمتة إنشاء الجداول المحورية باستخدام Aspose.Cells لـ Java؟
 
 نعم، يمكنك أتمتة إنشاء جداول البيانات المحورية في Excel باستخدام Aspose.Cells for Java، كما هو موضح في أمثلة التعليمات البرمجية المصدر المقدمة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

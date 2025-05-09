@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 介紹
 
-在當今資料驅動的環境中，將複雜的 Excel 電子表格轉換為靜態影像非常有價值。無論您是在沒有編輯權限的情況下共享報告還是在簡報中嵌入電子表格視覺效果，將 Excel 工作簿呈現為圖像都會帶來許多好處。本指南示範如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為圖片。
+在當今的資料驅動環境中，將複雜的 Excel 電子表格轉換為靜態影像非常有價值。無論您是在沒有編輯權限的情況下共享報告還是在簡報中嵌入電子表格視覺效果，將 Excel 工作簿呈現為圖像都會帶來許多好處。本指南示範如何使用 Aspose.Cells for Java 將 Excel 檔案匯出為圖片。
 
 **您將學到什麼：**
 - 設定並安裝 Aspose.Cells for Java
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells for Java 在其 [發布頁面](https://releases.aspose.com/cells/java/)。如需完整功能，請透過以下方式取得臨時或永久許可證 [購買頁面](https://purchase。aspose.com/buy).
 
-取得程式庫和許可證後，如果有許可證文件，請透過設定許可證文件在 Java 環境中初始化 Aspose.Cells。
+取得程式庫和許可證後，如果有許可證文件，請透過設定許可證文件在您的 Java 環境中初始化 Aspose.Cells。
 
 ## 實施指南
 
@@ -134,6 +136,9 @@ render.toImage("YOUR_OUTPUT_DIRECTORY/CWorkbooktoImage_out.tiff"); // 儲存輸�
 - [社區支持](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

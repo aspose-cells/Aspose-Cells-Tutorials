@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ license.setLicense("path/to/your/license/file.lic");
 ## प्रदर्शन संबंधी विचार
 - **मेमोरी उपयोग अनुकूलित करें:** मेमोरी उपयोग की निगरानी और प्रबंधन करें, विशेष रूप से बड़े डेटासेट को संभालते समय।
 - **कुशल डेटा प्रसंस्करण:** डेटा हेरफेर कार्यों को अनुकूलित करने के लिए Aspose.Cells की अंतर्निहित विधियों का उपयोग करें।
-- **अतुल्यकालिक परिचालन:** जहां संभव हो, अनुप्रयोग की प्रत्युत्तरशीलता बढ़ाने के लिए अतुल्यकालिक प्रसंस्करण का उपयोग करें।
+- **अतुल्यकालिक परिचालन:** जहां संभव हो, अनुप्रयोग की प्रतिक्रियाशीलता बढ़ाने के लिए अतुल्यकालिक प्रसंस्करण का उपयोग करें।
 
 ## निष्कर्ष
 
@@ -188,6 +190,9 @@ license.setLicense("path/to/your/license/file.lic");
 - [खरीद लाइसेंस](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

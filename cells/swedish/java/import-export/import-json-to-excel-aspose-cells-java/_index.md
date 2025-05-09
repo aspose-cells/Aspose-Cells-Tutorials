@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Lär dig hur du importerar JSON-data till Excel effektivt med Aspose.Cells för Java. Den här guiden täcker konfiguration, parsning och export av data sömlöst."
+"description": "Lär dig hur du importerar JSON-data till Excel effektivt med Aspose.Cells för Java. Den här guiden täcker installation, parsning och export av data sömlöst."
 "title": "Importera JSON effektivt till Excel med Aspose.Cells för Java – en omfattande guide"
 "url": "/sv/java/import-export/import-json-to-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ A: Besök [Aspose-forumet](https://forum.aspose.com/c/cells/9) för diskussioner
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

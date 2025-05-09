@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 このチュートリアルは、Aspose.Cells for Java を使用して Excel ファイルを HTML に変換し、Web プレゼンテーションの明瞭性と機能性を確保するための包括的なガイドとして機能します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

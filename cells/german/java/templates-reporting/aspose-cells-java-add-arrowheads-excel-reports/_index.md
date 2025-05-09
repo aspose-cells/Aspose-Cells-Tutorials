@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,8 +59,8 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Um Aspose.Cells für Java zu nutzen, können Sie mit einer kostenlosen Testversion beginnen und die Funktionen erkunden. Für eine erweiterte Nutzung empfiehlt sich der Erwerb einer temporären oder Volllizenz:
 
-- **Kostenlose Testversion**Laden Sie die neueste Version herunter von [Aspose-Veröffentlichungen](https://releases.aspose.com/cells/java/).
-- **Temporäre Lizenz**Fordern Sie eine temporäre Lizenz an unter [Aspose Kauf](https://purchase.aspose.com/temporary-license/).
+- **Kostenlose Testversion**: Laden Sie die neueste Version herunter von [Aspose-Veröffentlichungen](https://releases.aspose.com/cells/java/).
+- **Temporäre Lizenz**: Fordern Sie eine temporäre Lizenz an unter [Aspose Kauf](https://purchase.aspose.com/temporary-license/).
 - **Kaufen**: Für die kommerzielle Nutzung erwerben Sie eine Lizenz direkt über [Aspose Kauf](https://purchase.aspose.com/buy).
 
 Sobald die Bibliothek eingerichtet ist, können Sie mit dem Codieren beginnen.
@@ -218,6 +220,9 @@ A: Zugriff auf sie über `getWorksheets().get(index)` mit dem gewünschten Index
 A: Ja. Optimieren Sie den Code, indem Sie die Objekterstellung in Schleifen minimieren und die Speichernutzung überwachen, um Speicherlecks zu vermeiden. Nutzen Sie die effizienten Datenstrukturen von Aspose.Cells für eine bessere Leistung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ excelWorkbook1.save(outDir + "/CWBetweenWorkbooks_out.xls");
 - **Αγορά και Δωρεάν Δοκιμή**Μάθετε περισσότερα σχετικά με την απόκτηση άδειας χρήσης ή την έναρξη μιας δωρεάν δοκιμαστικής περιόδου στη διεύθυνση [Αγορά Aspose](https://purchase.aspose.com/buy) και [Δωρεάν δοκιμή](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

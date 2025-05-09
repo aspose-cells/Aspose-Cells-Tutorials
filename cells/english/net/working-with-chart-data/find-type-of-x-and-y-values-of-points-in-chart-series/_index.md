@@ -8,7 +8,9 @@ url: /net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Find Type of X and Y Values of Points in Chart Series
@@ -145,6 +147,7 @@ Yes, you can request a [temporary license](https://purchase.aspose.com/temporary
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET
-linktitle: การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: แปลง Excel เป็น HTML ด้วยคำแนะนำเครื่องมือโดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ ไม่กี่ขั้นตอน ปรับปรุงเว็บแอปของคุณด้วยข้อมูล Excel แบบโต้ตอบได้อย่างง่ายดาย
-weight: 12
-url: /th/net/converting-excel-files-to-other-formats/converting-excel-file-to-html-with-tooltip/
+"description": "แปลง Excel เป็น HTML ด้วยคำแนะนำเครื่องมือโดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ ไม่กี่ขั้นตอน ปรับปรุงเว็บแอปของคุณด้วยข้อมูล Excel แบบโต้ตอบได้อย่างง่ายดาย"
+"linktitle": "การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET"
+"url": "/th/net/converting-excel-files-to-other-formats/converting-excel-file-to-html-with-tooltip/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงไฟล์ Excel เป็น HTML ด้วย Tooltip ใน .NET
@@ -21,14 +23,14 @@ url: /th/net/converting-excel-files-to-other-formats/converting-excel-file-to-ht
 
 ก่อนที่เราจะเริ่มเขียนโค้ด เรามาตรวจสอบให้แน่ใจก่อนว่าเรามีทุกสิ่งที่เราต้องการ:
 
--  Aspose.Cells สำหรับ .NET: นี่คือไลบรารีหลักที่ช่วยให้เราทำงานกับไฟล์ Excel ได้ด้วยโปรแกรม คุณสามารถดาวน์โหลดได้จาก[ลิงก์ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/net/).
+- Aspose.Cells สำหรับ .NET: นี่คือไลบรารีหลักที่ช่วยให้เราทำงานกับไฟล์ Excel ได้ด้วยโปรแกรม คุณสามารถดาวน์โหลดได้จาก [ลิงก์ดาวน์โหลด Aspose.Cells](https://releases-aspose.com/cells/net/).
 - สภาพแวดล้อมการพัฒนา: สภาพแวดล้อม Windows หรือ Mac ที่มีการติดตั้ง Visual Studio
 - .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework 4.0 ขึ้นไปเป็นอย่างน้อย
--  ใบอนุญาต: คุณสามารถสมัครได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อแบบเต็มได้จาก[หน้าซื้อ Aspose](https://purchase.aspose.com/buy).
+- ใบอนุญาต: คุณสามารถสมัครได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อแบบเต็มได้จาก [หน้าซื้อ Aspose](https://purchase-aspose.com/buy).
 
 ## แพ็คเกจนำเข้า
 
-ก่อนจะเริ่มลงลึกในโค้ด เรามาอิมพอร์ตเนมสเปซและแพ็กเกจที่จำเป็นลงในโปรเจ็กต์กันก่อน แพ็กเกจเหล่านี้มีฟังก์ชันการทำงานทั้งหมดสำหรับการทำงานกับไฟล์ Excel ใน Aspose.Cells
+ก่อนจะเริ่มลงรายละเอียดในโค้ด เรามาอิมพอร์ตเนมสเปซและแพ็กเกจที่จำเป็นลงในโปรเจ็กต์กันก่อน แพ็กเกจเหล่านี้มีฟังก์ชันการทำงานทั้งหมดสำหรับการทำงานกับไฟล์ Excel ใน Aspose.Cells
 
 ```csharp
 using System;
@@ -42,7 +44,7 @@ using System;
 
 - เปิด Visual Studio
 - สร้างโครงการแอปคอนโซลใหม่ (.NET Framework)
--  เพิ่ม DLL ของ Aspose.Cells ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดด้วยตนเองได้จาก[ลิงก์ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/net/) หรือติดตั้งผ่าน NuGet โดยรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็กเกจ NuGet ของคุณ:
+- เพิ่ม DLL ของ Aspose.Cells ลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดด้วยตนเองได้จาก [ลิงก์ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/net/) หรือติดตั้งผ่าน NuGet โดยรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็กเกจ NuGet ของคุณ:
 
 ```bash
 Install-Package Aspose.Cells
@@ -52,7 +54,7 @@ Install-Package Aspose.Cells
 
 ## ขั้นตอนที่ 2: การโหลดไฟล์ Excel
 
-ตอนนี้โปรเจ็กต์ของคุณตั้งค่าเรียบร้อยแล้ว ถึงเวลาโหลดไฟล์ Excel ที่คุณต้องการแปลงแล้ว ไฟล์ดังกล่าวสามารถมีข้อมูลใดก็ได้ เช่น ข้อมูลผลิตภัณฑ์หรือรายงานยอดขาย แต่สำหรับตัวอย่างนี้ เราจะโหลดไฟล์ตัวอย่างชื่อ`AddTooltipToHtmlSample.xlsx`.
+ตอนนี้โปรเจ็กต์ของคุณตั้งค่าเรียบร้อยแล้ว ถึงเวลาโหลดไฟล์ Excel ที่คุณต้องการแปลงแล้ว ไฟล์ดังกล่าวสามารถมีข้อมูลใดก็ได้ เช่น ข้อมูลผลิตภัณฑ์หรือรายงานยอดขาย แต่สำหรับตัวอย่างนี้ เราจะโหลดไฟล์ตัวอย่างชื่อ `AddTooltipToHtmlSample-xlsx`.
 
 คุณสามารถโหลดไฟล์ได้ดังนี้:
 
@@ -64,11 +66,11 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "AddTooltipToHtmlSample.xlsx");
 ```
 
- ในขั้นตอนนี้เราจะใช้`Workbook` คลาสเพื่อเปิดไฟล์ Excel`Workbook` คลาสเป็นหัวใจของ Aspose.Cells ซึ่งให้วิธีการทั้งหมดที่คุณต้องการในการจัดการไฟล์ Excel
+ในขั้นตอนนี้เราจะใช้ `Workbook` คลาสเพื่อเปิดไฟล์ Excel `Workbook` คลาสเป็นหัวใจสำคัญของ Aspose.Cells ซึ่งให้วิธีการทั้งหมดที่คุณต้องการในการจัดการไฟล์ Excel
 
 ## ขั้นตอนที่ 3: การกำหนดค่าตัวเลือกการบันทึก HTML
 
- ก่อนที่เราจะแปลงไฟล์ Excel เป็น HTML เราจะต้องกำหนดค่าตัวเลือกการบันทึก ในกรณีนี้ เราต้องการให้แน่ใจว่ามีการรวมคำแนะนำเครื่องมือไว้ในผลลัพธ์ HTML นี่คือจุดที่`HtmlSaveOptions` ชั้นเรียนมาถึงแล้ว
+ก่อนที่เราจะแปลงไฟล์ Excel เป็น HTML เราจะต้องกำหนดค่าตัวเลือกการบันทึก ในกรณีนี้ เราต้องการให้แน่ใจว่ามีการรวมคำแนะนำเครื่องมือไว้ในผลลัพธ์ HTML นี่คือจุดที่ `HtmlSaveOptions` ชั้นเรียนมาถึงแล้ว
 
 นี่คือวิธีการกำหนดค่าตัวเลือก:
 
@@ -77,11 +79,11 @@ HtmlSaveOptions options = new HtmlSaveOptions();
 options.AddTooltipText = true;
 ```
 
- โดยการตั้งค่า`AddTooltipText` ทรัพย์สินที่จะ`true`เรามั่นใจว่าคำแนะนำเครื่องมือจะปรากฏเมื่อผู้ใช้เลื่อนเมาส์ไปเหนือเซลล์ในผลลัพธ์ HTML
+โดยการตั้งค่า `AddTooltipText` ทรัพย์สินที่จะ `true`เรามั่นใจว่าคำแนะนำเครื่องมือจะปรากฏเมื่อผู้ใช้เลื่อนเมาส์ไปเหนือเซลล์ในผลลัพธ์ HTML
 
 ## ขั้นตอนที่ 4: บันทึกไฟล์ Excel เป็น HTML
 
-เมื่อกำหนดค่าตัวเลือกแล้ว ขั้นตอนสุดท้ายคือการบันทึกไฟล์ Excel เป็น HTML เราจะระบุไดเรกทอรีเอาต์พุตและชื่อไฟล์ จากนั้นเรียกใช้`Save` วิธีการบน`Workbook` วัตถุเพื่อสร้างไฟล์ HTML
+เมื่อกำหนดค่าตัวเลือกแล้ว ขั้นตอนสุดท้ายคือการบันทึกไฟล์ Excel เป็น HTML เราจะระบุไดเรกทอรีเอาต์พุตและชื่อไฟล์ จากนั้นเรียกใช้ `Save` วิธีการบน `Workbook` วัตถุเพื่อสร้างไฟล์ HTML
 
 ```csharp
 // ไดเรกทอรีผลลัพธ์
@@ -95,7 +97,7 @@ workbook.Save(outputDir + "AddTooltipToHtmlSample_out.html", options);
 
 ## ขั้นตอนที่ 5: การเรียกใช้แอปพลิเคชัน
 
- ในการรันโปรแกรมให้กด`F5` ใน Visual Studio เมื่อโค้ดทำงานสำเร็จแล้ว ให้ตรวจสอบไดเรกทอรีเอาต์พุตสำหรับไฟล์ HTML เปิดไฟล์ในเบราว์เซอร์ใดก็ได้ แล้วว้าว! เลื่อนเมาส์ไปเหนือเซลล์ใดก็ได้ในตารางเพื่อดูคำแนะนำในการใช้งาน
+ในการรันโปรแกรมให้กด `F5` ใน Visual Studio เมื่อโค้ดทำงานสำเร็จแล้ว ให้ตรวจสอบไดเรกทอรีเอาต์พุตสำหรับไฟล์ HTML เปิดไฟล์ในเบราว์เซอร์ใดก็ได้ แล้วว้าว! เลื่อนเมาส์ไปเหนือเซลล์ใดก็ได้ในตารางเพื่อดูคำแนะนำในการใช้งาน
 
 ## บทสรุป
 
@@ -114,13 +116,15 @@ workbook.Save(outputDir + "AddTooltipToHtmlSample_out.html", options);
 แม้ว่า Aspose.Cells จะเพิ่มคำอธิบายเครื่องมือพื้นฐาน แต่คุณสามารถปรับแต่งรูปแบบเพิ่มเติมได้โดยใช้ CSS และ JavaScript ในไฟล์ HTML หลังจากการแปลง
 
 ### ไฟล์ Excel ประเภทใดบ้างที่รองรับการแปลงเป็น HTML?
- Aspose.Cells รองรับรูปแบบ Excel หลากหลายรวมถึง`.xlsx`, `.xls` , และ`.xlsb`คุณสามารถแปลงรูปแบบใดๆ เหล่านี้ให้เป็น HTML ได้อย่างง่ายดาย
+Aspose.Cells รองรับรูปแบบ Excel หลากหลายรวมถึง `.xlsx`- `.xls`, และ `.xlsb`คุณสามารถแปลงรูปแบบใดๆ เหล่านี้ให้เป็น HTML ได้อย่างง่ายดาย
 
 ### ฉันสามารถทดลองใช้ Aspose.Cells ฟรีได้หรือไม่?
- ใช่ Aspose เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) สำหรับผลิตภัณฑ์ทั้งหมดของเรา คุณจึงสามารถสำรวจความสามารถทั้งหมดได้ก่อนตัดสินใจซื้อ
+ใช่ Aspose เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) สำหรับผลิตภัณฑ์ทั้งหมดของเรา คุณจึงสามารถสำรวจความสามารถทั้งหมดได้ก่อนตัดสินใจซื้อ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

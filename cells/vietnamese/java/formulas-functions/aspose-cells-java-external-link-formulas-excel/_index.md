@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Khi làm việc với các tập dữ liệu lớn hoặc nhiều tệp:
 - Tối ưu hóa mô hình truy cập tệp để giảm tình trạng tắc nghẽn I/O.
 
 ## Phần kết luận
-Bây giờ bạn đã biết cách tận dụng Aspose.Cells for Java để thiết lập các liên kết ngoài trong công thức Excel, nâng cao khả năng tích hợp dữ liệu của bạn. Công cụ mạnh mẽ này mở ra nhiều khả năng để tự động hóa và hợp lý hóa quy trình làm việc Excel của bạn.
+Bây giờ bạn đã biết cách tận dụng Aspose.Cells for Java để thiết lập liên kết ngoài trong công thức Excel, nâng cao khả năng tích hợp dữ liệu của bạn. Công cụ mạnh mẽ này mở ra nhiều khả năng để tự động hóa và hợp lý hóa quy trình làm việc Excel của bạn.
 
 ### Các bước tiếp theo
 Khám phá thêm các chức năng của thư viện Aspose.Cells như lập biểu đồ, tạo kiểu và tính toán công thức nâng cao để khai thác nhiều tiềm năng hơn nữa cho các dự án của bạn.
@@ -185,6 +187,9 @@ A5: Giới hạn phụ thuộc vào phiên bản Excel và tài nguyên hệ th�
 - [Thông tin về bản dùng thử miễn phí và giấy phép tạm thời](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

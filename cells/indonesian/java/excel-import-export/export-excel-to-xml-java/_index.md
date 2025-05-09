@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Excel ke XML Java
@@ -16,28 +18,28 @@
 
 Dalam panduan lengkap ini, kami akan memandu Anda melalui proses mengekspor data Excel ke XML menggunakan Aspose.Cells untuk Java. Dengan penjelasan terperinci dan contoh kode sumber, Anda akan menguasai tugas penting ini dalam waktu singkat.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
-- Aspose.Cells untuk pustaka Java, yang dapat Anda unduh [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java, yang dapat Anda unduh [itt](https://releases.aspose.com/cells/java/).
 
-## Langkah 1: Menyiapkan Proyek Anda
+## 1. lépés: A projekt beállítása
 
 1. Buat proyek Java baru di IDE favorit Anda.
 2. Tambahkan pustaka Aspose.Cells untuk Java ke dependensi proyek Anda.
 
-## Langkah 2: Memuat File Excel
+## 2. lépés: Az Excel fájl betöltése
 
 Untuk mengekspor data Excel ke XML, pertama-tama kita perlu memuat berkas Excel.
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
-## Langkah 3: Mengakses Lembar Kerja
+## 3. lépés: A munkalap elérése
 
 Berikutnya, kita perlu mengakses lembar kerja dari mana kita ingin mengekspor data.
 
@@ -79,7 +81,7 @@ import com.aspose.cells.*;
 public class ExcelToXMLExporter {
     public static void main(String[] args) {
         try {
-            // Memuat file Excel
+            // Töltsd be az Excel fájlt
             Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 
             // Akses lembar kerja
@@ -102,7 +104,7 @@ public class ExcelToXMLExporter {
 }
 ```
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda telah berhasil mempelajari cara mengekspor data Excel ke XML di Java menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini memberi Anda pengetahuan dan kode sumber yang dibutuhkan untuk menyelesaikan tugas ini dengan mudah.
 
@@ -126,6 +128,7 @@ Selamat! Anda telah berhasil mempelajari cara mengekspor data Excel ke XML di Ja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

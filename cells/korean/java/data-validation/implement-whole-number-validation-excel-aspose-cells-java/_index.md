@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ int index = validations.add(area);
 
 // 유효성 검사 설정 구성
 tValidation validation = validations.get(index);
-validation.setType(ValidationType.WHOLE_NUMBER); // 유형을 정수로 설정
+validation.setType(ValidationType.WHOLE_NUMBER); // 유형을 정수로 설정하세요
 validation.setOperator(OperatorType.BETWEEN);    // 범위 확인을 위해 Between 연산자를 사용하세요
 validation.setFormula1("10");                   // 최소값
 validation.setFormula2("1000");                 // 최대값
@@ -187,6 +189,9 @@ tWorkbook.save(dataDir + "WNDValidation_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - **지원하다:** https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

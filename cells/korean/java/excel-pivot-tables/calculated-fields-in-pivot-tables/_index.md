@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 피벗 테이블의 계산 필드
@@ -47,7 +49,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get("PivotTable1");
 ```
 
 ## 5단계: 계산 필드 만들기
-이제 피벗 테이블에 계산 필드를 만들어 보겠습니다. 기존 필드 두 개, "필드1"과 "필드2"의 합계를 계산하고, 계산 필드의 이름을 "합계"로 지정합니다.
+이제 피벗 테이블에 계산 필드를 만들어 보겠습니다. 기존 필드 두 개("필드1"과 "필드2")의 합계를 계산하고, 계산 필드의 이름을 "합계"로 지정합니다.
 
 ```java
 pivotTable.addFieldToArea(PivotFieldType.DATA, "Field1");
@@ -87,6 +89,7 @@ pivotTable.calculateData();
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,11 +205,14 @@ A3: Számos formátumot támogat, beleértve az XLS, XLSX, CSV, ODS és egyebeke
 A5: Ellenőrizze a cellahivatkozásokat és az URL-formátumokat. [Aspose támogatói fóruma](https://forum.aspose.com/c/cells/9) ha állandó hibákba ütközik.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásárolja meg az Aspose.Cells-t Java-hoz](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

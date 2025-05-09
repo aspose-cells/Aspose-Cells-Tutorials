@@ -1,14 +1,16 @@
 ---
-title: Ustaw linie wykresu
-linktitle: Ustaw linie wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dostosować linie wykresu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 14
-url: /pl/net/setting-chart-appearance/set-chart-lines/
+"description": "Dowiedz się, jak dostosować linie wykresu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Ustaw linie wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustaw linie wykresu"
+"url": "/pl/net/setting-chart-appearance/set-chart-lines/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw linie wykresu
@@ -19,11 +21,11 @@ Tworzenie atrakcyjnych wizualnie i informacyjnych wykresów jest niezbędne w re
 
 ## Wymagania wstępne
 
-Zanim zagłębisz się w kodowanie, upewnij się, że dysponujesz następującymi informacjami:
+Zanim przejdziesz do części poświęconej kodowaniu, upewnij się, że dysponujesz następującymi informacjami:
 
 - Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio. Zdecydowanie zaleca się korzystanie z najnowszej wersji, aby wykorzystać wszystkie funkcje.
 - .NET Framework: Twój projekt powinien bazować na .NET Framework (lub .NET Core), w którym zaimplementujesz Aspose.Cells.
--  Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 - Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie pomocna podczas kodowania.
 
 ## Importuj pakiety
@@ -47,7 +49,7 @@ Po pierwsze, potrzebujesz miejsca, w którym zapiszesz nowo utworzony plik Excel
 string outputDir = "Your Output Directory";
 ```
 
- Wyjaśnienie: Zastąp „Twój katalog wyjściowy” ścieżką, w której Aspose.Cells ma zapisać plik, np.`C:\\MyExcelFiles\\`.
+Wyjaśnienie: Zastąp „Twój katalog wyjściowy” ścieżką, w której Aspose.Cells ma zapisać plik, np. `C:\\MyExcelFiles\\`.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -58,7 +60,7 @@ Teraz utworzymy obiekt skoroszytu, który będzie służył jako kontener dla ar
 Workbook workbook = new Workbook();
 ```
 
- Wyjaśnienie: Ten wiersz tworzy wystąpienie`Workbook`klasa z biblioteki Aspose.Cells. To tak, jakby otworzyć nowy pusty plik Excela, w którym można zacząć dodawać arkusze i dane.
+Wyjaśnienie: Ten wiersz tworzy wystąpienie `Workbook` klasa z biblioteki Aspose.Cells. To tak, jakby otworzyć nowy pusty plik Excela, w którym można zacząć dodawać arkusze i dane.
 
 ## Krok 3: Odwołanie do arkusza kalkulacyjnego
 
@@ -69,7 +71,7 @@ Następnie musisz pracować z konkretnym arkuszem w skoroszycie. Weźmiemy pierw
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Wyjaśnienie: Arkusze kalkulacyjne są indeksowane od 0, więc`worksheets[0]` odnosi się do pierwszego arkusza kalkulacyjnego.
+Wyjaśnienie: Arkusze kalkulacyjne są indeksowane od 0, więc `worksheets[0]` odnosi się do pierwszego arkusza kalkulacyjnego.
 
 ## Krok 4: Dodaj wartości przykładowe do komórek
 
@@ -141,11 +143,11 @@ chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Wyjaśnienie: Tutaj dostosowujesz kolory różnych komponentów wykresu, aby uczynić go wizualnie uderzającym. Każda linia dotyczy różnych obszarów wykresu.
+Wyjaśnienie: Tutaj dostosowujesz kolory różnych komponentów wykresu, aby był wizualnie uderzający. Każda linia dotyczy różnych obszarów wykresu.
 
 ## Krok 9: Zastosuj style linii
 
-Następnie możesz zmodyfikować style linii dla serii danych, aby Twój wykres był nie tylko ładny, ale i profesjonalny.
+Następnie możesz zmienić style linii dla serii danych, aby Twój wykres był nie tylko ładny, ale i profesjonalny.
 
 ```csharp
 // Stosowanie stylu linii przerywanej do linii SeriesCollection
@@ -191,19 +193,21 @@ Gratulacje! Opanowałeś już podstawy tworzenia i dostosowywania wykresów za p
 Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca manipulowanie arkuszami kalkulacyjnymi programu Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak, Aspose udostępnia bezpłatną wersję próbną, aby przetestować jej funkcjonalność. Możesz ją pobrać[Tutaj](https://releases.aspose.com/).
+Tak, Aspose udostępnia bezpłatną wersję próbną, aby przetestować jej funkcjonalność. Możesz ją pobrać [Tutaj](https://releases.aspose.com/).
 
 ### Czy jest dostępne wsparcie dla Aspose.Cells?  
- Oczywiście! Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Oczywiście! Możesz uzyskać wsparcie poprzez [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Czy mogę tworzyć inne typy wykresów za pomocą Aspose.Cells?  
 Tak, Aspose obsługuje różne rodzaje wykresów, w tym wykresy liniowe, kołowe i powierzchniowe.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?  
- Możesz złożyć wniosek o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) poprzez stronę internetową Aspose.
+Możesz złożyć wniosek o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) poprzez stronę internetową Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

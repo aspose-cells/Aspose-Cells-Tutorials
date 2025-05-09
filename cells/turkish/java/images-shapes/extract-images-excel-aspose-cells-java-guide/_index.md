@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Olası G/Ç veya işleme hatalarını etkili bir şekilde yönetmek için kodunu
 Evet, uygun kaynak yönetimi uygulamalarıyla büyük dosyaları verimli bir şekilde işleyecek şekilde tasarlanmıştır.
 
 ### 5. Resimleri kaydetmeden önce değiştirebilir miyim?
-Görüntüyü, Java'nın yerel görüntü kütüphanelerini kullanarak daha fazla düzenleyebilirsiniz: `BufferedImage` çıkarıldıktan sonra.
+Görüntüyü, Java'nın yerel görüntü kütüphanelerini kullanarak daha fazla düzenleyebilirsiniz: `BufferedImage` Çıkarımdan sonra.
 
 ## Kaynaklar
 - **Belgeleme**: [Aspose.Cells Java Belgeleri](https://reference.aspose.com/cells/java/)
@@ -166,6 +168,9 @@ Görüntüyü, Java'nın yerel görüntü kütüphanelerini kullanarak daha fazl
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

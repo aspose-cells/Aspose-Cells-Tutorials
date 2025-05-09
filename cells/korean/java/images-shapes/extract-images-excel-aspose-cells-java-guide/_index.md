@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Aspose.Cells의 추가 기능을 탐색하려면 다음을 살펴보세요. [선
 ### 2. 추출된 이미지를 저장하는 데 사용할 수 있는 파일 형식은 무엇입니까?
 지원되는 형식으로는 JPEG, PNG, BMP, GIF 등이 있습니다.
 
-### 3. 추출 중에 예외가 발생하면 어떻게 처리합니까?
+### 3. 추출 중에 예외가 발생하면 어떻게 처리하나요?
 잠재적인 IO 또는 처리 오류를 효과적으로 관리하려면 코드를 try-catch 블록으로 묶으세요.
 
 ### 4. Aspose.Cells Java는 대규모 애플리케이션에 적합합니까?
@@ -166,6 +168,9 @@ Java의 기본 이미지 라이브러리를 사용하여 이미지를 추가로 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anotasi Bagan
@@ -18,7 +20,7 @@
 
 Dalam dunia visualisasi data, bagan memegang peranan penting dalam menyampaikan informasi secara efektif. Bagan memungkinkan kita untuk menyajikan data yang kompleks dengan cara yang menarik dan mudah dipahami. Namun, untuk membuat bagan ini lebih informatif, anotasi berperan. Anotasi memberikan konteks dan wawasan tambahan pada data yang disajikan dalam bagan. Dalam artikel ini, kita akan membahas cara menambahkan anotasi bagan menggunakan Aspose.Cells for Java, API Java yang canggih untuk bekerja dengan file Excel.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai menerapkannya, pastikan Anda memiliki prasyarat berikut:
 
@@ -28,7 +30,7 @@ Sebelum kita mulai menerapkannya, pastikan Anda memiliki prasyarat berikut:
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Untuk memulai, Anda perlu menyiapkan Aspose.Cells untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web Aspose [Di Sini](https://releases.aspose.com/cells/java/)Setelah diunduh, tambahkan pustaka tersebut ke proyek Java Anda.
+Untuk memulai, Anda perlu menyiapkan Aspose.Cells untuk Java di proyek Anda. Anda dapat mengunduh pustaka dari situs web Aspose [itt](https://releases.aspose.com/cells/java/)Setelah diunduh, tambahkan pustaka tersebut ke proyek Java Anda.
 
 ## Membuat Buku Kerja Excel
 
@@ -63,7 +65,7 @@ worksheet.getCells().get("B3").putValue(1500);
 Sekarang, mari membuat bagan dan menambahkannya ke lembar kerja kita.
 
 ```java
-// Menambahkan bagan ke lembar kerja
+// Diagram hozzáadása a munkalaphoz
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
@@ -74,7 +76,7 @@ chart.getNSeries().setCategoryData("A2:A13");
 
 ## Menambahkan Anotasi ke Bagan
 
-Untuk menambahkan anotasi ke grafik, kita dapat menggunakan `TextFrame` kelas di Aspose.Cells.
+Untuk menambahkan anotasi ke grafik, kita dapat menggunakan `TextFrame` osztály az Aspose.Cells-ben.
 
 ```java
 // Menambahkan anotasi ke bagan
@@ -98,15 +100,15 @@ font.setBold(true);
 textFrame.getText().getCharacters().setColor(Color.getRed());
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kita telah mempelajari cara menambahkan anotasi bagan menggunakan Aspose.Cells untuk Java. Anotasi meningkatkan kejelasan dan pemahaman bagan Anda, sehingga lebih informatif bagi audiens Anda. Anda dapat menjelajahi opsi anotasi dan pemformatan yang lebih canggih untuk membuat bagan yang menarik secara visual yang disesuaikan dengan kebutuhan spesifik Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
-Anda dapat mengunduh Aspose.Cells untuk Java dari situs web Aspose [Di Sini](https://releases.aspose.com/cells/java/).
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web Aspose [itt](https://releases.aspose.com/cells/java/).
 
 ### Bisakah saya menyesuaikan tampilan anotasi?
 
@@ -122,11 +124,12 @@ Tentu saja! Aspose.Cells untuk Java menyediakan serangkaian alat dan fitur yang 
 
 ### Di mana saya dapat menemukan lebih banyak tutorial tentang Aspose.Cells untuk Java?
 
-Anda dapat menemukan lebih banyak tutorial dan dokumentasi tentang Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan lebih banyak tutorial dan dokumentasi tentang Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

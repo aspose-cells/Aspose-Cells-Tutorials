@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Gestire dati complessi in Excel può essere complicato, soprattutto quando è ri
 - Leggere file Excel contenenti tabelle o oggetti elenco
 - Salva le cartelle di lavoro di Excel in formato ODS
 
-Prepariamo l'ambiente per il successo.
+Prepariamo il tuo ambiente per il successo.
 
 ### Prerequisiti (H2)
 
@@ -168,6 +170,9 @@ Intraprendi oggi stesso il tuo viaggio per padroneggiare l'automazione di Excel 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

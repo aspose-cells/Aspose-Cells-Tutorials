@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Βασική Αρχικοποίηση**: Δημιουργήστε ένα `Workbook` για να ξεκινήσετε να εργάζεστε με αρχεία Excel.
+3. **Βασική Αρχικοποίηση**Δημιουργήστε ένα `Workbook` για να ξεκινήσετε να εργάζεστε με αρχεία Excel.
 
 ## Οδηγός Εφαρμογής
 
@@ -166,6 +168,9 @@ wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 Αυτός ο ολοκληρωμένος οδηγός θα σας δώσει τη δυνατότητα να προσαρμόσετε αποτελεσματικά τις ετικέτες δεδομένων γραφημάτων στις εφαρμογές Java σας χρησιμοποιώντας το Aspose.Cells. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

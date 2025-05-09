@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Ha aprendido a usar Aspose.Cells con Java para ocultar filas y columnas específ
 ## Sección de preguntas frecuentes
 
 1. **¿Puedo ocultar varias filas o columnas a la vez?**
-   - Sí, puedes recorrer los índices y llamar `hideRow()` o `hideColumn()` Para cada uno.
+   - Sí, puedes recorrer los índices y llamar `hideRow()` o `hideColumn()` para cada uno.
 2. **¿Qué sucede con los datos en filas/columnas ocultas?**
    - Los datos permanecen intactos pero se vuelven invisibles hasta que se revelan.
 3. **¿Cómo puedo mostrar una fila o columna?**
@@ -147,6 +149,9 @@ Ha aprendido a usar Aspose.Cells con Java para ocultar filas y columnas específ
 ¿Listo para optimizar la gestión de tus archivos de Excel? ¡Implementa estas soluciones en tus proyectos hoy mismo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

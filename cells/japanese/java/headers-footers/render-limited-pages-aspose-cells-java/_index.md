@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### ライセンス取得手順
 1. **無料トライアル**機能制限なしで Aspose.Cells for Java を評価するための一時ライセンスをダウンロードします。
-2. **購入**満足したら、フルライセンスを購入してください [Aspose 購入](https://purchase.aspose.com/buy) 継続してご使用いただけます。
+2. **購入**満足したら、フルライセンスを購入してください [Aspose 購入](https://purchase.aspose.com/buy) 継続使用のため。
 
 ### 基本的な初期化とセットアップ
 依存関係を追加したら、プロジェクト内のライブラリを初期化します。
@@ -155,7 +157,7 @@ Excelファイルから限られた連続ページをレンダリングする方
 2. **この方法は大きな Excel ファイルでも使用できますか?**
    - はい。ただし、大きなワークブックを効率的に処理するのに十分なシステム リソースがあることを確認してください。
 3. **PNG以外の形式でレンダリングすることは可能ですか?**
-   - もちろんです! Aspose.Cells は JPEG や BMP などの複数の画像形式をサポートしています。
+   - もちろんです！Aspose.Cells は JPEG や BMP などの複数の画像形式をサポートしています。
 4. **レンダリング エラーが発生した場合はどうなりますか?**
    - ワークブックのページ レイアウト設定を確認し、レンダリング オプションと一致していることを確認します。
 5. **パフォーマンスをさらに最適化するにはどうすればよいでしょうか?**
@@ -170,6 +172,9 @@ Excelファイルから限られた連続ページをレンダリングする方
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

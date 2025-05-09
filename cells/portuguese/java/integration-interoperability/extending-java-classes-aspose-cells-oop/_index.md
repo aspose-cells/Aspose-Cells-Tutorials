@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ A1: A Programação Orientada a Objetos (POO) em Java permite criar programas mo
 A2: Certifique-se de que todas as dependências necessárias estejam listadas corretamente em seu `pom.xml` ou `build.gradle`.
 **Q3: O que é uma chamada de construtor de superclasse?**
 A3: É uma inicialização da classe pai (`Person`) de dentro de sua subclasse (`Individual`).
-**T4: Como otimizar o gerenciamento de memória Java com Aspose.Cells?**
+**T4: Como otimizo o gerenciamento de memória Java com Aspose.Cells?**
 A4: Use estruturas de dados eficientes e gerencie grandes conjuntos de dados com sabedoria para minimizar o uso de memória.
 **P5: Posso usar o Aspose.Cells sem uma licença de compra para fins comerciais?**
 R5: Você pode começar com um teste gratuito, mas precisa adquirir uma licença adequada para uso comercial.
@@ -143,6 +145,9 @@ R5: Você pode começar com um teste gratuito, mas precisa adquirir uma licença
 - **Apoiar**: [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

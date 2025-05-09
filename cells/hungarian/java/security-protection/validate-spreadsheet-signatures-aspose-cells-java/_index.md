@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ Az Aspose.Cells integrálása a meglévő rendszereibe növelheti az adatbiztons
 
 ## Teljesítménybeli szempontok
 
-teljesítmény optimalizálása az Aspose.Cells használatakor:
+A teljesítmény optimalizálása az Aspose.Cells használatakor:
 - **Memóriakezelés**: Ügyeljen a memóriahasználatra, különösen nagy táblázatok kezelésekor.
 - **Kötegelt feldolgozás**: Több fájl kötegelt feldolgozása a terhelés csökkentése érdekében.
 - **Hatékony erőforrás-felhasználás**Csak a legszükségesebb adatokat töltsd be a memóriába, és azonnal szabadítsd fel az erőforrásokat.
@@ -205,6 +207,9 @@ További kutatáshoz érdemes lehet mélyebben is elmélyülni az Aspose.Cells �
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

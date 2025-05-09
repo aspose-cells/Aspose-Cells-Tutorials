@@ -8,7 +8,9 @@ url: /net/worksheet-security/lock-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lock Cells in Worksheet using Aspose.Cells
@@ -141,6 +143,7 @@ Yes, Aspose.Cells allows you to add a password when you protect the worksheet, a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

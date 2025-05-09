@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Integrasi Data di Excel
@@ -22,7 +24,7 @@ Excel adalah alat serbaguna untuk manipulasi data, tetapi mengintegrasikan data 
 
 ## 2. Menyiapkan Aspose.Cells untuk Java
 
-Sebelum menyelami integrasi data, Anda perlu menyiapkan Aspose.Cells untuk Java. Anda dapat mengunduh pustaka dari [Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi untuk memulai.
+Sebelum menyelami integrasi data, Anda perlu menyiapkan Aspose.Cells untuk Java. Anda dapat mengunduh pustaka dari [itt](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi untuk memulai.
 
 ## 3. Memuat Data ke Excel
 
@@ -109,9 +111,11 @@ Tentu saja! Aspose.Cells untuk Java menyediakan API yang canggih untuk otomatisa
 Meskipun Aspose.Cells untuk Java merupakan pilihan yang tangguh, alternatif seperti Apache POI juga menyediakan kemampuan integrasi Excel.
 
 Panduan lengkap ini akan membantu Anda menguasai integrasi data di Excel menggunakan Aspose.Cells untuk Java. Jangan ragu untuk menjelajahi lebih jauh dan menyesuaikan langkah-langkah ini dengan kebutuhan spesifik Anda. Selamat mengintegrasikan data!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

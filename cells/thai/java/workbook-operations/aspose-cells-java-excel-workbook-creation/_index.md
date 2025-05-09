@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Aspose.Cells Java มอบความหลากหลายในโดเ�
 5. **การจัดการสินค้าคงคลัง**:ใช้เวิร์กบุ๊กเพื่อรักษาและอัปเดตบันทึกสินค้าคงคลังแบบไดนามิกโดยบูรณาการกับฐานข้อมูลที่มีอยู่
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

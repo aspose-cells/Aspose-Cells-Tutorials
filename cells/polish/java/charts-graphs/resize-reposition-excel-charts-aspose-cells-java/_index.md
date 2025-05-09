@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ W tej sekcji pokażemy, jak ładować, zmieniać rozmiar i położenie wykresów
 #### Załaduj i zmień rozmiar wykresu
 Zmiana rozmiaru wykresu dostosowuje jego wygląd do potrzeb prezentacji danych. Oto jak:
 ##### Krok 1: Utwórz instancję skoroszytu
-Załaduj istniejący plik Excela, tworząc wystąpienie `Workbook`.
+Załaduj istniejący plik Excel, tworząc wystąpienie `Workbook`.
 ```java
 String filePath = "YOUR_DATA_DIRECTORY/book1.xls";
 Workbook workbook = new Workbook(filePath);
@@ -107,7 +109,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 Chart chart = worksheet.getCharts().get(0);
 ```
 ##### Krok 3: Zmień położenie wykresu
-Dostosuj współrzędne X i Y, aby przesunąć wykres w obrębie arkusza kalkulacyjnego.
+Dostosuj współrzędne X i Y, aby przesunąć wykres w arkuszu kalkulacyjnym.
 ```java
 chart.getChartObject().setX(250); // Ustaw pozycję poziomą na 250 jednostek
 chart.getChartObject().setY(150); // Ustaw pozycję pionową na 150 jednostek
@@ -148,6 +150,9 @@ Kolejne kroki mogą obejmować tworzenie wykresów od podstaw lub dostosowywanie
 Zanurz się w tych zasobach, aby opanować manipulacje wykresami w plikach Excela za pomocą Aspose.Cells dla Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

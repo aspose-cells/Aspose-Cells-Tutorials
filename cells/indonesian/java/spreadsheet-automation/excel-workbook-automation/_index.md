@@ -8,17 +8,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Otomatisasi Buku Kerja Excel
 
 
-## Perkenalan
+## Bevezetés
 Dalam tutorial ini, kita akan menjelajahi cara mengotomatiskan operasi buku kerja Excel menggunakan pustaka Aspose.Cells for Java. Aspose.Cells adalah API Java canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola file Excel secara terprogram.
 
-## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menambahkan pustaka Aspose.Cells for Java ke proyek Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+## Előfeltételek
+Sebelum kita mulai, pastikan Anda telah menambahkan pustaka Aspose.Cells for Java ke proyek Anda. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Buku Kerja Excel Baru
 Mari kita mulai dengan membuat buku kerja Excel baru menggunakan Aspose.Cells. Berikut ini adalah contoh cara melakukannya:
@@ -28,7 +30,7 @@ import com.aspose.cells.*;
 
 public class CreateExcelWorkbook {
     public static void main(String[] args) {
-        // Buat buku kerja baru
+        // Új munkafüzet létrehozása
         Workbook workbook = new Workbook();
         
         // Tambahkan lembar kerja ke buku kerja
@@ -37,7 +39,7 @@ public class CreateExcelWorkbook {
         // Tetapkan nilai sel
         worksheet.getCells().get("A1").putValue("Hello, Excel Automation!");
         
-        // Simpan buku kerja
+        // A munkafüzet mentése
         workbook.save("output.xlsx");
     }
 }
@@ -51,7 +53,7 @@ import com.aspose.cells.*;
 
 public class ReadExcelData {
     public static void main(String[] args) throws Exception {
-        // Memuat buku kerja yang ada
+        // Meglévő munkafüzet betöltése
         Workbook workbook = new Workbook("input.xlsx");
         
         // Mengakses lembar kerja
@@ -73,7 +75,7 @@ import com.aspose.cells.*;
 
 public class UpdateExcelData {
     public static void main(String[] args) throws Exception {
-        // Memuat buku kerja yang ada
+        // Meglévő munkafüzet betöltése
         Workbook workbook = new Workbook("input.xlsx");
         
         // Mengakses lembar kerja
@@ -88,7 +90,7 @@ public class UpdateExcelData {
 }
 ```
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami telah membahas dasar-dasar Otomatisasi Buku Kerja Excel menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara membuat, membaca, dan memperbarui buku kerja Excel secara terprogram. Aspose.Cells menyediakan berbagai fitur untuk otomatisasi Excel tingkat lanjut, menjadikannya alat yang hebat untuk menangani file Excel dalam aplikasi Java Anda.
 
 ## Pertanyaan yang Sering Diajukan (FAQ)
@@ -110,9 +112,11 @@ Berikut adalah beberapa pertanyaan umum terkait Otomatisasi Buku Kerja Excel:
    Anda dapat merujuk ke dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi mendalam dan contoh kode.
 
 Jangan ragu untuk menjelajahi fitur dan kemampuan Aspose.Cells for Java yang lebih canggih untuk menyesuaikan kebutuhan otomatisasi Excel Anda. Jika Anda memiliki pertanyaan khusus atau memerlukan bantuan lebih lanjut, jangan ragu untuk bertanya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

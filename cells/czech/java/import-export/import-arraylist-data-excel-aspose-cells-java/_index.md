@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,6 +177,9 @@ Pro další zkoumání zvažte experimentování s pokročilejšími funkcemi As
 Tato příručka by vám měla pomoci efektivně používat Aspose.Cells pro Javu ve vašich projektech, a tím zlepšit práci s daty a produktivitu. Přeji vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

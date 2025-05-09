@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ Với Aspose.Cells, bạn có thể chuyển đổi cách xử lý dữ liệu E
 Hãy bắt đầu hành trình làm chủ Excel với Aspose.Cells for Java ngay hôm nay và cách mạng hóa cách bạn quản lý dữ liệu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

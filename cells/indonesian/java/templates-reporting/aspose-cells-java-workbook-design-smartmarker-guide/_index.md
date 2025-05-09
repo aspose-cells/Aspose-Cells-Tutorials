@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Selamat datang di panduan definitif tentang memanfaatkan Aspose.Cells untuk Java guna mendesain buku kerja dan memproses penanda cerdas secara efisien! Jika Anda ingin menyederhanakan tugas otomatisasi Excel, terutama saat menangani laporan berbasis data, tutorial ini akan memandu Anda melalui semua yang Anda butuhkan. Di akhir perjalanan ini, Anda akan mahir membuat laporan Excel yang dinamis menggunakan teknologi SmartMarker.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Cara mengatur Aspose.Cells untuk Java di lingkungan pengembangan Anda.
 - Menerapkan desain buku kerja dan pemrosesan penanda pintar.
 - Menyesuaikan penanganan panggilan balik SmartMarker.
@@ -23,17 +25,17 @@ Selamat datang di panduan definitif tentang memanfaatkan Aspose.Cells untuk Java
 
 Mari kita bahas prasyarat yang Anda perlukan sebelum memulai coding!
 
-### Prasyarat
+### Előfeltételek
 Sebelum menerapkan penanda pintar, pastikan pengaturan Anda memenuhi persyaratan berikut:
 
-1. **Perpustakaan & Ketergantungan**: 
+1. **Könyvtárak és függőségek**: 
    - Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
    - Java Development Kit (JDK) terinstal di sistem Anda.
 
-2. **Pengaturan Lingkungan**:
+2. **Környezet beállítása**:
    - IDE Anda harus dikonfigurasi untuk mengelola proyek Maven atau Gradle, tergantung pada preferensi Anda.
 
-3. **Prasyarat Pengetahuan**:
+3. **Ismereti előfeltételek**:
    - Pemahaman dasar tentang pemrograman Java.
    - Kemampuan menggunakan Excel dan kemampuan penanganan datanya.
 
@@ -43,7 +45,7 @@ Setelah semuanya siap, mari kita mulai dengan menyiapkan Aspose.Cells untuk Java
 Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda, Anda dapat menggunakan Maven atau Gradle. Berikut caranya:
 
 **Pengaturan Maven**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,13 +55,13 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 **Pengaturan Gradle**
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
-Aspose.Cells menawarkan uji coba gratis, lisensi sementara untuk evaluasi, dan opsi pembelian untuk penggunaan komersial. Anda dapat memperoleh lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/)Ini akan membuka fitur lengkap untuk fase pengujian Anda.
+#### Licencszerzés
+Aspose.Cells menawarkan uji coba gratis, lisensi sementara untuk evaluasi, dan opsi pembelian untuk penggunaan komersial. Anda dapat memperoleh lisensi sementara [itt](https://purchase.aspose.com/temporary-license/)Ini akan membuka fitur lengkap untuk fase pengujian Anda.
 
 Untuk menginisialisasi Aspose.Cells di Java:
 ```java
@@ -82,7 +84,7 @@ public class SetupAspose {
 
 Sekarang setelah kita membahas pengaturannya, mari beralih ke penerapan pemrosesan penanda pintar.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Desain Buku Kerja dan Pemrosesan SmartMarker
 Fitur ini berfokus pada pembuatan buku kerja baru, penambahan penanda cerdas, dan otomatisasi pengisian data. Berikut cara melakukannya:
@@ -124,7 +126,7 @@ Memanggil pemrosesan penanda pintar tanpa menghitung ulang rumus:
 report.process(false);
 ```
 
-**Simpan Buku Kerja**
+**A munkafüzet mentése**
 Terakhir, simpan buku kerja Anda ke jalur keluaran yang diinginkan:
 ```java
 String outputPath = outDir + "/GSMNotifications_out.xlsx";
@@ -135,7 +137,7 @@ report.getWorkbook().save(outputPath);
 Fitur ini memungkinkan Anda menyesuaikan cara penanda pintar diproses menggunakan panggilan balik.
 
 #### Implementasi Panggilan Balik Kustom
-Buat kelas yang menerapkan `ISmartMarkerCallBack`:
+Hozz létre egy osztályt, amely megvalósítja `ISmartMarkerCallBack`:
 ```java
 import com.aspose.cells.ISmartMarkerCallBack;
 import com.aspose.cells.Workbook;
@@ -163,24 +165,24 @@ report.setSmartMarkerCallback(new CustomSmartMarkerCallBack(report.getWorkbook()
 report.process();
 ```
 
-### Aplikasi Praktis
-1. **Pelaporan Keuangan**: Otomatisasi ringkasan keuangan bulanan dengan mengisi data secara dinamis dari basis data.
-2. **Manajemen Inventaris**: Menghasilkan laporan inventaris menggunakan templat berbasis data, memastikan konsistensi di semua departemen.
+### Gyakorlati alkalmazások
+1. **Pénzügyi jelentéstétel**: Otomatisasi ringkasan keuangan bulanan dengan mengisi data secara dinamis dari basis data.
+2. **Készletgazdálkodás**: Menghasilkan laporan inventaris menggunakan templat berbasis data, memastikan konsistensi di semua departemen.
 3. **Sumber daya manusia**: Buat dasbor kinerja karyawan dengan pembaruan data waktu nyata.
 
 Aplikasi ini menunjukkan bagaimana Aspose.Cells dapat terintegrasi dengan mulus ke dalam berbagai operasi bisnis, meningkatkan produktivitas dan akurasi data.
 
-### Pertimbangan Kinerja
-- **Optimalkan Ukuran Buku Kerja**: Menggunakan `Workbook.calculateFormula(false)` untuk mencegah perhitungan ulang yang tidak diperlukan.
-- **Manajemen Memori**:: Memanfaatkan pengumpulan sampah Java secara efektif dengan menutup buku kerja dengan `.dispose()` setelah diproses.
-- **Penanganan Data yang Efisien**: Proses hanya lembar atau sel yang diperlukan untuk meminimalkan penggunaan sumber daya.
+### Teljesítménybeli szempontok
+- **Optimalkan Ukuran Buku Kerja**Használat `Workbook.calculateFormula(false)` untuk mencegah perhitungan ulang yang tidak diperlukan.
+- **Memóriakezelés**:: Memanfaatkan pengumpulan sampah Java secara efektif dengan menutup buku kerja dengan `.dispose()` setelah diproses.
+- **Hatékony adatkezelés**: Proses hanya lembar atau sel yang diperlukan untuk meminimalkan penggunaan sumber daya.
 
-## Kesimpulan
+## Következtetés
 Kami telah membahas hal-hal mendasar dalam mendesain buku kerja dan memproses penanda cerdas menggunakan Aspose.Cells untuk Java. Dari pengaturan awal hingga implementasi panggilan balik tingkat lanjut, kini Anda memiliki pemahaman yang kuat tentang mengotomatiskan tugas Excel dengan pustaka yang canggih ini. 
 
 Langkah selanjutnya termasuk bereksperimen dengan templat yang lebih kompleks atau mengintegrasikan teknik ini ke dalam sistem Anda saat ini. Jangan ragu untuk mengeksplorasi lebih jauh!
 
-### Bagian FAQ
+### GYIK szekció
 1. **Bagaimana cara menangani kumpulan data besar di Aspose.Cells?**
    - Gunakan API streaming dan optimalkan pemrosesan sel dengan berfokus pada rentang data yang diperlukan.
 2. **Bisakah SmartMarkers menangani rumus yang rumit?**
@@ -190,18 +192,21 @@ Langkah selanjutnya termasuk bereksperimen dengan templat yang lebih kompleks at
 4. **Bagaimana cara memecahkan masalah dengan pemrosesan SmartMarker?**
    - Aktifkan pencatatan terperinci atau gunakan `setSmartMarkerCallback` untuk memantau aktivitas penanda selama eksekusi.
 5. **Apakah ada forum komunitas untuk dukungan Aspose.Cells?**
-   - Ya, kunjungi [Forum Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dan diskusi dengan pengembang lain.
+   - Igen, látogassa meg [Aspose Fórum](https://forum.aspose.com/c/cells/9) untuk bantuan dan diskusi dengan pengembang lain.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh Perpustakaan](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltési könyvtár](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 Manfaatkan kekuatan Aspose.Cells untuk Java dan ubah tugas pemrosesan data Anda dengan mudah!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

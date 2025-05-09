@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafiekinteractiviteit
@@ -106,11 +108,12 @@ Voor het verwerken van gebruikersinteracties kunt u JavaScript gebruiken in comb
 
 ### Waar kan ik meer voorbeelden en documentatie vinden?
 
-U kunt meer voorbeelden en gedetailleerde documentatie over het gebruik van Aspose.Cells voor Java bekijken op [Aspose.Cells Java API-referentie](https://reference.aspose.com/cells/java/).
+kunt meer voorbeelden en gedetailleerde documentatie over het gebruik van Aspose.Cells voor Java bekijken op [Aspose.Cells Java API-referentie](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

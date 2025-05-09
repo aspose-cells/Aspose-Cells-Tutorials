@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 ให้เราจัดเตรียมทุกสิ่งที่จำเป็นสำหรับการเริ่มต้นอย่างมีประสิทธิภาพให้กับคุณ
 #### ข้อกำหนดเบื้องต้น
 ก่อนจะเริ่มใช้งาน โปรดตรวจสอบให้แน่ใจว่าสภาพแวดล้อมของคุณได้รับการตั้งค่าอย่างถูกต้อง
-**ไลบรารีและสิ่งที่ต้องพึ่งพา:**
+**ไลบรารีและการอ้างอิงที่จำเป็น:**
 ในการใช้ Aspose.Cells สำหรับ Java ให้เพิ่มไลบรารีลงในโปรเจ็กต์ของคุณ:
 
 **เมเวน:**
@@ -43,7 +45,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:**
 ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณรองรับ Java และมีการติดตั้ง Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 
-**ข้อกำหนดเบื้องต้นของความรู้:**
+**ข้อกำหนดความรู้เบื้องต้น:**
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ความคุ้นเคยกับการทำงานใน IDE (เช่น IntelliJ IDEA, Eclipse)
 - ความเข้าใจเกี่ยวกับการดำเนินการ I/O ของไฟล์ใน Java
@@ -161,6 +163,9 @@ sr.toImage(0, outDir + "WorksheetToImage_out.tiff");
 - **ฟอรั่มสนับสนุน**- [ชุมชนสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

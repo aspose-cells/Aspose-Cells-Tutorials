@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ workbook.save("ColorsAndPalette_out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 - **保存形式**Aspose.Cells でサポートされているさまざまな形式から選択します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 ワークブックの色をカスタマイズすると、データのプレゼンテーションが強化され、分析がよりスムーズになります。以下に、実用的な応用例をいくつかご紹介します。
 
@@ -226,6 +228,9 @@ Aspose.Cells を使用する場合は、パフォーマンスを最適化する�
 今すぐ Aspose.Cells を使い始め、スプレッドシート データの処理方法を変革しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

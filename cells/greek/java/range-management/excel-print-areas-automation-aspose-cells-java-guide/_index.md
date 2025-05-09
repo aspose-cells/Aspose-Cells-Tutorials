@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ System.out.println("Workbook saved with updated print area.");
 Ξεκινήστε το ταξίδι σας για να αυτοματοποιήσετε την επεξεργασία του Excel με το Aspose.Cells και να μεταμορφώσετε τον τρόπο που χειρίζεστε τα δεδομένα!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

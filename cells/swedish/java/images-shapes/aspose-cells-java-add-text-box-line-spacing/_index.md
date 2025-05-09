@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ public class ExcelDemo {
         // Åtkomst till det första arbetsbladet
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // Lägga till en textruteform i kalkylbladet
+        // Lägg till en textruteform i kalkylbladet
         Shape textBox = sheet.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 100, 200);
         
         System.out.println("Text box added.");
@@ -147,7 +149,7 @@ public class ExcelDemo {
         // Åtkomst till det första arbetsbladet
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // Lägga till en textruteform i kalkylbladet
+        // Lägg till en textruteform i kalkylbladet
         Shape textBox = sheet.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 100, 200);
         
         // Ange textinnehåll inuti formen
@@ -173,7 +175,7 @@ public class ExcelDemo {
         // Åtkomst till det första arbetsbladet
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // Lägga till en textruteform i kalkylbladet
+        // Lägg till en textruteform i kalkylbladet
         Shape textBox = sheet.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 100, 200);
         
         // Ange textinnehåll inuti formen
@@ -202,7 +204,7 @@ public class ExcelDemo {
         // Åtkomst till det första arbetsbladet
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // Lägga till en textruteform i kalkylbladet
+        // Lägg till en textruteform i kalkylbladet
         Shape textBox = sheet.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 100, 200);
         
         // Ange textinnehåll inuti formen
@@ -242,7 +244,7 @@ public class ExcelDemo {
         // Åtkomst till det första arbetsbladet
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // Lägga till en textruteform i kalkylbladet
+        // Lägg till en textruteform i kalkylbladet
         Shape textBox = sheet.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 100, 200);
         
         // Ange textinnehåll inuti formen
@@ -281,6 +283,9 @@ Du har nu lärt dig hur man lägger till en textruta och anger radavstånd i en 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

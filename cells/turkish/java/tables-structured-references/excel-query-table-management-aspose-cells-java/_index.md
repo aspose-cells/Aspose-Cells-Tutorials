@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Artık Aspose.Cells for Java kullanarak Excel Sorgu Tablolarını nasıl okuyaca
 Keyifli kodlamalar ve Aspose.Cells for Java ile Excel verilerinizi bir profesyonel gibi yönetmenin tadını çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

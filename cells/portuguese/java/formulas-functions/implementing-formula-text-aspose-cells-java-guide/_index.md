@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Pronto para levar suas habilidades de automação de planilhas para o próximo n
 Ao utilizar o Aspose.Cells com Java, você pode gerenciar e manipular arquivos do Excel com eficiência em seus aplicativos. Explore outras funcionalidades para maximizar seu potencial em seus projetos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

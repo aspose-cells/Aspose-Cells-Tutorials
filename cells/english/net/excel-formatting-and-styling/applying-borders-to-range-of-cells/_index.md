@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/applying-borders-to-range-of-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Borders to Range of Cells in Excel
@@ -98,6 +100,7 @@ You can get support by visiting the [Aspose forum](https://forum.aspose.com/c/ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Sie beherrschen nun die Grundlagen zum Einrichten und Bearbeiten von Pivot-Tabel
 Mit dieser umfassenden Anleitung sind Sie bestens gerüstet, die leistungsstarken Funktionen von Aspose.Cells für Java in Ihren datengesteuerten Projekten optimal zu nutzen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

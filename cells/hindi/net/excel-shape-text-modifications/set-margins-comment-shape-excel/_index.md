@@ -1,14 +1,16 @@
 ---
-title: एक्सेल में टिप्पणी या आकृति के लिए मार्जिन सेट करें
-linktitle: एक्सेल में टिप्पणी या आकृति के लिए मार्जिन सेट करें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel में टिप्पणियों और आकृतियों के लिए मार्जिन सेट करना सीखें। आसान कार्यान्वयन के लिए चरण-दर-चरण मार्गदर्शिका शामिल है।
-weight: 18
-url: /hi/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel में टिप्पणियों और आकृतियों के लिए मार्जिन सेट करना सीखें। आसान कार्यान्वयन के लिए चरण-दर-चरण मार्गदर्शिका शामिल है।"
+"linktitle": "एक्सेल में टिप्पणी या आकृति के लिए मार्जिन सेट करें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "एक्सेल में टिप्पणी या आकृति के लिए मार्जिन सेट करें"
+"url": "/hi/net/excel-shape-text-modifications/set-margins-comment-shape-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल में टिप्पणी या आकृति के लिए मार्जिन सेट करें
@@ -21,10 +23,10 @@ url: /hi/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 आपको C# और .NET की बुनियादी समझ होनी चाहिए। यह ट्यूटोरियल उन लोगों के लिए बनाया गया है जिन्हें प्रोग्रामिंग अवधारणाओं की कम से कम बुनियादी समझ है।
 ### पर्यावरण सेटअप
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके पास विज़ुअल स्टूडियो स्थापित है। यह एक विकास वातावरण है जो कोडिंग को सरल बनाता है।
-2.  Aspose.Cells लाइब्रेरी: आपको Aspose.Cells लाइब्रेरी की आवश्यकता है। यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
-3. नमूना एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल बनाएँ या डाउनलोड करें। इस ट्यूटोरियल के लिए, हम नाम की एक फ़ाइल का उपयोग करेंगे`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+2. Aspose.Cells लाइब्रेरी: आपको Aspose.Cells लाइब्रेरी की आवश्यकता है। यदि आपने अभी तक इसे डाउनलोड नहीं किया है, तो आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
+3. नमूना एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल बनाएँ या डाउनलोड करें। इस ट्यूटोरियल के लिए, हम नाम की एक फ़ाइल का उपयोग करेंगे `sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## पैकेज आयात करना
-हमारी यात्रा का पहला चरण आवश्यक पैकेज आयात करना है। आपको अपने प्रोजेक्ट में Aspose.Cells नामस्थान शामिल करने होंगे। इससे आपको Aspose.Cells द्वारा प्रदान की जाने वाली सभी कार्यक्षमताओं तक पहुँच प्राप्त होगी।
+हमारी यात्रा का पहला चरण आवश्यक पैकेजों को आयात करना है। आपको अपने प्रोजेक्ट में Aspose.Cells नामस्थान शामिल करने होंगे। इससे आपको Aspose.Cells द्वारा प्रदान की जाने वाली सभी कार्यक्षमताओं तक पहुँच प्राप्त होगी।
 ### अपना प्रोजेक्ट खोलें
 Visual Studio और अपना मौजूदा प्रोजेक्ट खोलें जहां आप Aspose.Cells कार्यक्षमता को कार्यान्वित करेंगे।
 ### Aspose.Cells में संदर्भ जोड़ें
@@ -53,9 +55,9 @@ string sourceDir = "Your Document Directory";
 //आउटपुट निर्देशिका
 string outputDir = "Your Document Directory";
 ```
-सुनिश्चित करें कि आप प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ जहां आपकी फ़ाइलें संग्रहीत हैं.
+सुनिश्चित करें कि आप प्रतिस्थापित करें `"Your Document Directory"` वास्तविक पथ के साथ जहां आपकी फ़ाइलें संग्रहीत हैं.
 ## चरण 2: एक्सेल फ़ाइल लोड करें
- इस चरण में, हम उस एक्सेल फ़ाइल को खोलेंगे जिस पर हम काम करने की योजना बना रहे हैं। आइए इसकी शक्ति का उपयोग करें`Workbook` कक्षा।
+इस चरण में, हम उस एक्सेल फ़ाइल को खोलेंगे जिस पर हम काम करने की योजना बना रहे हैं। आइए इसकी शक्ति का उपयोग करें `Workbook` कक्षा।
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx");
 ```
@@ -67,7 +69,7 @@ Worksheet ws = wb.Worksheets[0];
 ```
 यह कोड पहली वर्कशीट को लक्षित करता है, जो 0 पर अनुक्रमित है।
 ## चरण 4: आकृतियों के माध्यम से पुनरावृति करें
-अब हमें वर्कशीट में मौजूद सभी आकृतियों को फिर से दोहराना होगा। इससे हम हर आकृति पर मार्जिन सेटिंग लागू कर पाएँगे।
+अब हमें वर्कशीट में मौजूद सभी आकृतियों को फिर से दोहराना होगा। इससे हम हर आकृति पर मार्जिन सेटिंग लागू कर सकेंगे।
 ```csharp
 foreach (Shape sh in ws.Shapes)
 ```
@@ -78,7 +80,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- सेटिंग करके`IsAutoMargin`को गलत पर सेट करने पर, अब हमारे पास मार्जिन पर नियंत्रण है।
+सेटिंग करके `IsAutoMargin` अब मार्जिन पर हमारा नियंत्रण है।
 ## चरण 6: मार्जिन सेट करें
 यह वह महत्वपूर्ण चरण है जहाँ हम मार्जिन निर्धारित करते हैं। आप इन मानों को अपनी ज़रूरतों के हिसाब से कस्टमाइज़ कर सकते हैं।
 ```csharp
@@ -105,16 +107,18 @@ Console.WriteLine("SetMarginsOfCommentOrShapeInsideTheWorksheet executed success
 ### Aspose.Cells क्या है?
 Aspose.Cells एक .NET लाइब्रेरी है जिसे Microsoft Excel स्थापित किए बिना Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने के लिए डिज़ाइन किया गया है।
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
- हाँ! Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हाँ! Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं Aspose.Cells के लिए लाइसेंस कैसे खरीदूं?
- आप यहाँ जाकर Aspose.Cells लाइसेंस खरीद सकते हैं[खरीद लिंक](https://purchase.aspose.com/buy).
+आप यहाँ जाकर Aspose.Cells लाइसेंस खरीद सकते हैं [खरीद लिंक](https://purchase.aspose.com/buy).
 ### क्या लाइब्रेरी को मौजूदा परियोजनाओं में एकीकृत करना आसान है?
 बिल्कुल! Aspose.Cells .NET प्रोजेक्ट्स में आसानी से एकीकृत हो जाता है, और इसका API सरल है।
 ### मैं Aspose.Cells के लिए समर्थन कहां पा सकता हूं?
- आप Aspose के माध्यम से सहायता प्राप्त कर सकते हैं[मंच](https://forum.aspose.com/c/cells/9).
+आप Aspose के माध्यम से सहायता प्राप्त कर सकते हैं [मंच](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

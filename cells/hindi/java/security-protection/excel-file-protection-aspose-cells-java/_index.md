@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ protection.setPassword("1234");
 ```
 यह कार्यपत्रक को संशोधनों से लॉक कर देता है जब तक कि उसे निर्दिष्ट पासवर्ड से अनलॉक न किया जाए।
 
-### एक्सेल फ़ाइल को सहेजना
+### एक्सेल फ़ाइल सहेजना
 
 स्थायित्व सुनिश्चित करने के लिए अपने परिवर्तन सहेजें:
 
@@ -183,6 +185,9 @@ Aspose.Cells द्वारा प्रदान की जाने वाल
 Aspose.Cells के साथ अपने जावा अनुप्रयोगों में आगे की खोज करें और नई संभावनाओं को अनलॉक करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

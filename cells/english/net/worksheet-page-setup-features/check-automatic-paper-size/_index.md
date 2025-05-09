@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/check-automatic-paper-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check if Paper Size of Worksheet is Automatic
@@ -96,6 +98,7 @@ You can find support forums and resources [here](https://forum.aspose.com/c/cell
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

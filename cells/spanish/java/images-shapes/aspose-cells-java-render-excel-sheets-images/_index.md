@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Inicializar e iterar sobre hojas de trabajo en un libro.
 - Configure las opciones de impresión de imágenes para una representación óptima.
 - Convierta hojas de trabajo en imágenes usando Aspose.Cells.
-- Comprender las aplicaciones prácticas y las consideraciones de rendimiento.
+- Comprender aplicaciones prácticas y consideraciones de rendimiento.
 
 Analicemos los requisitos previos antes de comenzar.
 
@@ -175,6 +177,9 @@ Al dominar Aspose.Cells para Java, podrá optimizar su visualización de datos a
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

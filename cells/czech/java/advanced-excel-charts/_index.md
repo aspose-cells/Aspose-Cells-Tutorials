@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pokročilé grafy v Excelu
@@ -47,9 +49,11 @@ Naučte se, jak vytvářet poutavé animace grafů s Aspose.Cells pro Javu. Sou�
 Naučte se, jak vytvářet úžasné vodopádové grafy s Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem pro efektivní vizualizaci dat.
 ### [Interaktivita grafu](./chart-interactivity/)
 Naučte se, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Vylepšete vizualizaci dat pomocí interaktivity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

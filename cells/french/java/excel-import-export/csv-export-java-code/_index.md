@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportation CSV de code Java
@@ -94,9 +96,11 @@ Félicitations ! Vous avez appris à exporter des données au format CSV avec A
    Visitez la documentation d'Aspose.Cells [ici](https://reference.aspose.com/cells/java/) pour des ressources et des exemples complets.
 
 N'hésitez pas à explorer davantage et à adapter ce code à vos besoins spécifiques. Bon codage !
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

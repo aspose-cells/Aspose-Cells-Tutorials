@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ public class AsposeSetup {
 
 ### Настройка рабочей книги и рабочего листа
 
-**Обзор**: Начните с инициализации новой книги и добавления рабочего листа. Здесь мы создадим нашу сводную таблицу.
+**Обзор**: Начните с инициализации новой рабочей книги и добавления рабочего листа. Здесь мы создадим нашу сводную таблицу.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -247,6 +249,9 @@ public class SaveWorkbook {
 Следуя этому всеобъемлющему руководству, вы будете на пути к использованию мощных функций Aspose.Cells для Java в ваших проектах, управляемых данными. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

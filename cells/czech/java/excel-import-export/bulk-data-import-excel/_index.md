@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hromadný import dat z Excelu
 
 
-V tomto komplexním průvodci vás provedeme procesem hromadného importu dat z Excelu pomocí výkonného rozhraní Aspose.Cells for Java API. Ať už pracujete s velkou datovou sadou, nebo jen chcete zefektivnit zpracování dat, tento podrobný návod s příklady zdrojového kódu vám pomůže efektivně dosáhnout vašich cílů.
+tomto komplexním průvodci vás provedeme procesem hromadného importu dat z Excelu pomocí výkonného rozhraní Aspose.Cells for Java API. Ať už pracujete s velkou datovou sadou, nebo jen chcete zefektivnit zpracování dat, tento podrobný návod s příklady zdrojového kódu vám pomůže efektivně dosáhnout vašich cílů.
 
 ## Zavedení
 
@@ -99,9 +101,11 @@ Rozhodně! Aspose.Cells pro Javu podporuje import i export dat do a ze souborů 
 Ano, podrobnosti o licencování a cenách naleznete v licenčních informacích na webových stránkách Aspose.
 
 Neváhejte se dále zabývat a upravovat příklady kódu tak, aby splňovaly vaše specifické požadavky. Přejeme vám příjemné programování!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

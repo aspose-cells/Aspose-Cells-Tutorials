@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Questa funzionalità consente di aggiungere collegamenti ipertestuali all'intern
 
 **Passaggi:**
 1. **Creare un oggetto cartella di lavoro**
-   Similmente a quanto avviene per l'applicazione di stili alle celle, inizia creando o utilizzando una cartella di lavoro esistente:
+   Similmente a quanto avviene per l'impostazione dello stile delle celle, inizia creando o utilizzando una cartella di lavoro esistente:
    ```java
    Workbook workbook = new Workbook();
    ```
@@ -186,12 +188,15 @@ R: Sì, Aspose.Cells supporta un'ampia gamma di funzioni di Excel, consentendo d
 - **Scaricamento**: [Ultima versione](https://releases.aspose.com/cells/java/)
 - **Acquistare**: [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
 - **Prova gratuita**: [Inizia con una prova gratuita](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Forum di supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 Ora che hai tutte le informazioni e le risorse, inizia subito a creare file Excel dinamici con Aspose.Cells in Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

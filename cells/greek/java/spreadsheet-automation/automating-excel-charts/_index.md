@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποίηση γραφημάτων Excel
@@ -117,9 +119,11 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    Εξερευνήστε την τεκμηρίωση του API στη διεύθυνση [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) για αναλυτικές πληροφορίες και παραδείγματα.
 
 Αυτοματοποιήστε εύκολα τις εργασίες δημιουργίας γραφημάτων στο Excel χρησιμοποιώντας το Aspose.Cells για Java και βελτιώστε τις δυνατότητες οπτικοποίησης δεδομένων σας.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,23 +8,25 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dasbor Interaktif
 
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia pengambilan keputusan berbasis data yang serba cepat, dasbor interaktif memainkan peran penting. Dasbor interaktif menyediakan cara yang dinamis dan intuitif untuk memvisualisasikan data, sehingga memudahkan bisnis untuk memperoleh wawasan dan membuat pilihan yang tepat. Aspose.Cells untuk Java menawarkan seperangkat alat yang canggih untuk membuat dasbor interaktif yang dapat mengubah data mentah menjadi visualisasi yang bermakna dan interaktif. Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara memanfaatkan Aspose.Cells untuk Java untuk membangun dasbor interaktif dari awal.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita membahas detailnya, pastikan Anda telah memenuhi prasyarat berikut:
 
-- Aspose.Cells untuk Java: Unduh dan instal pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal pustaka Aspose.Cells untuk Java dari [itt](https://releases.aspose.com/cells/java/).
 
-## Menyiapkan Proyek Anda
+## A projekt beállítása
 
 Untuk memulai, buat proyek Java baru di Lingkungan Pengembangan Terpadu (IDE) pilihan Anda dan tambahkan pustaka Aspose.Cells untuk Java ke classpath proyek Anda.
 
@@ -36,7 +38,7 @@ Mari kita mulai dengan membuat buku kerja Excel kosong, yang akan berfungsi seba
 // Impor pustaka Aspose.Cells
 import com.aspose.cells.*;
 
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 ```
 
@@ -45,7 +47,7 @@ Workbook workbook = new Workbook();
 Untuk membuat dasbor kita interaktif, kita memerlukan data. Anda dapat membuat contoh data atau mengambilnya dari sumber eksternal. Untuk contoh ini, kita akan membuat beberapa contoh data.
 
 ```java
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Isi lembar kerja dengan data
@@ -100,11 +102,11 @@ Setelah Anda menyesuaikan dasbor Anda, simpan sebagai file Excel dan lihat untuk
 workbook.save("InteractiveDashboard.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda telah mempelajari cara membuat dasbor interaktif menggunakan Aspose.Cells untuk Java. Pustaka canggih ini memungkinkan Anda membuat visualisasi data yang dinamis dan menarik, yang akan meningkatkan proses pengambilan keputusan Anda. Bereksperimenlah dengan berbagai jenis bagan, opsi interaktivitas, dan elemen desain untuk membuat dasbor yang disesuaikan dengan kebutuhan spesifik Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana saya dapat menyesuaikan tampilan grafik saya?
 
@@ -129,6 +131,7 @@ Ya, Aspose.Cells untuk Java sangat cocok untuk proyek visualisasi data skala kec
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

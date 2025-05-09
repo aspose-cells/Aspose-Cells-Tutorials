@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,7 +168,7 @@ A munkalap-engedélyek kezelésének megértése létfontosságú lehet különb
 ## Teljesítménybeli szempontok
 
 Az Aspose.Cells használatakor vegye figyelembe az alábbi ajánlott gyakorlatokat:
-- **Memóriakezelés**: A memória hatékony kezelése érdekében használja a streameket és dobja ki megfelelően az objektumokat.
+- **Memóriakezelés**: A memória hatékony kezelése érdekében használja a streameket és megfelelően szabaduljon meg az objektumoktól.
 - **Erőforrás-felhasználás**A munkafüzet méretének optimalizálása a felesleges munkalapok vagy adatok eltávolításával a védelmi beállítások alkalmazása előtt.
 - **Optimalizálási tippek**: Profilozd a kódodat a teljesítménybeli szűk keresztmetszetek szempontjából, különösen nagy adathalmazok kezelésekor.
 
@@ -198,6 +200,9 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan használható az Aspose.Cel
 - **Letöltés**: Szerezd meg a legújabb verziót innen: [Aspose kiadások](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

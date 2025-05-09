@@ -1,14 +1,16 @@
 ---
-title: การตั้งค่าขอบตามโปรแกรมใน Excel
-linktitle: การตั้งค่าขอบตามโปรแกรมใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการตั้งค่าขอบเขตในโปรแกรม Excel โดยใช้ Aspose.Cells สำหรับ .NET ประหยัดเวลาและทำให้งาน Excel ของคุณเป็นอัตโนมัติ
-weight: 10
-url: /th/net/excel-borders-and-formatting-options/setting-border/
+"description": "เรียนรู้วิธีการตั้งค่าขอบเขตในโปรแกรม Excel โดยใช้ Aspose.Cells สำหรับ .NET ประหยัดเวลาและทำให้งาน Excel ของคุณเป็นอัตโนมัติ"
+"linktitle": "การตั้งค่าขอบตามโปรแกรมใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การตั้งค่าขอบตามโปรแกรมใน Excel"
+"url": "/th/net/excel-borders-and-formatting-options/setting-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตั้งค่าขอบตามโปรแกรมใน Excel
@@ -17,14 +19,14 @@ url: /th/net/excel-borders-and-formatting-options/setting-border/
 
 คุณเบื่อกับการตั้งค่าขอบเขตด้วยตนเองในแผ่นงาน Excel ของคุณหรือไม่? คุณไม่ได้เป็นคนเดียว! การตั้งค่าขอบเขตอาจเป็นงานที่น่าเบื่อ โดยเฉพาะเมื่อคุณต้องจัดการกับชุดข้อมูลขนาดใหญ่ แต่ไม่ต้องกังวล! ด้วย Aspose.Cells สำหรับ .NET คุณสามารถทำให้กระบวนการนี้เป็นแบบอัตโนมัติ ช่วยประหยัดเวลาและความพยายาม ในบทช่วยสอนนี้ เราจะเจาะลึกถึงรายละเอียดเล็กๆ น้อยๆ ของการตั้งค่าขอบเขตในเวิร์กบุ๊ก Excel ด้วยโปรแกรม ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คุณจะพบว่าคู่มือนี้ทำตามได้ง่ายและเต็มไปด้วยข้อมูลเชิงลึกที่มีประโยชน์
 
-คุณพร้อมที่จะเพิ่มทักษะการใช้งาน Excel อัตโนมัติแล้วหรือยัง มาเริ่มกันเลย!
+คุณพร้อมที่จะเพิ่มทักษะการใช้ Excel อัตโนมัติแล้วหรือยัง มาเริ่มกันเลย!
 
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่เราจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
 
-1.  Visual Studio: คุณควรมี Visual Studio ติดตั้งอยู่บนเครื่องของคุณ หากยังไม่มี โปรดดาวน์โหลดจาก[ที่นี่](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Cells คุณสามารถรับได้โดยดาวน์โหลด DLL จาก[ลิงค์นี้](https://releases.aspose.com/cells/net/) หรือโดยใช้ NuGet ในโครงการของคุณ:
+1. Visual Studio: คุณควรมี Visual Studio ติดตั้งอยู่บนเครื่องของคุณ หากยังไม่มี โปรดดาวน์โหลดจาก [ที่นี่](https://visualstudio-microsoft.com/downloads/).
+2. Aspose.Cells สำหรับ .NET: คุณต้องมีไลบรารี Aspose.Cells คุณสามารถรับได้โดยดาวน์โหลด DLL จาก [ลิงค์นี้](https://releases.aspose.com/cells/net/) หรือโดยใช้ NuGet ในโครงการของคุณ:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -54,11 +56,11 @@ using System.Drawing;
 string dataDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ของคุณ 
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ของคุณ 
 
 ## ขั้นตอนที่ 2: สร้างวัตถุเวิร์กบุ๊ก
 
- ต่อไปเรามาสร้างอินสแตนซ์ของ`Workbook` ชั้นเรียนนี้จะแสดงสมุดงาน Excel ของเรา
+ต่อไปเรามาสร้างอินสแตนซ์ของ `Workbook` ชั้นเรียนนี้จะแสดงสมุดงาน Excel ของเรา
 
 ```csharp
 // การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
@@ -133,7 +135,7 @@ fc.Style.Borders[BorderType.BottomBorder].Color = Color.FromArgb(255, 255, 0);
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- นี่จะบันทึกไฟล์ Excel ของคุณเป็น`output.xlsx` ในไดเร็กทอรีที่ระบุ 
+นี่จะบันทึกไฟล์ Excel ของคุณเป็น `output.xlsx` ในไดเร็กทอรีที่ระบุ 
 
 ## บทสรุป
 
@@ -145,19 +147,21 @@ workbook.Save(dataDir + "output.xlsx");
 ใช่ Aspose.Cells มุ่งเน้นไปที่ Excel เป็นหลัก แต่ยังช่วยให้คุณแปลงไฟล์ Excel เป็นรูปแบบต่างๆ เช่น PDF และ HTML ได้อีกด้วย
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells หรือไม่?  
- คุณสามารถใช้รุ่นทดลองใช้งานฟรีเพื่อทดสอบฟังก์ชันการใช้งานได้ หากต้องการใช้งานในระยะยาว คุณจะต้องซื้อใบอนุญาต ซึ่งคุณสามารถหาได้จาก[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถใช้รุ่นทดลองใช้งานฟรีเพื่อทดสอบฟังก์ชันการใช้งานได้ หากต้องการใช้งานในระยะยาว คุณจะต้องซื้อใบอนุญาต ซึ่งคุณสามารถหาได้จาก [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันจะติดตั้ง Aspose.Cells ได้อย่างไร?  
 คุณสามารถติดตั้ง Aspose.Cells ผ่าน NuGet หรือดาวน์โหลด DLL จากไซต์
 
 ### มีเอกสารประกอบใด ๆ บ้างไหม?  
- แน่นอน! คุณสามารถเข้าถึงเอกสารประกอบฉบับสมบูรณ์ได้[ที่นี่](https://reference.aspose.com/cells/net/).
+แน่นอน! คุณสามารถเข้าถึงเอกสารประกอบฉบับสมบูรณ์ได้ [ที่นี่](https://reference-aspose.com/cells/net/).
 
 ### ฉันจะได้รับการสนับสนุนได้ที่ไหนหากประสบปัญหา?  
- คุณสามารถเยี่ยมชมฟอรั่มสนับสนุน Aspose หากมีคำถามหรือปัญหาใดๆ ที่คุณพบ:[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถเยี่ยมชมฟอรั่มสนับสนุน Aspose หากมีคำถามหรือปัญหาใดๆ ที่คุณพบ: [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

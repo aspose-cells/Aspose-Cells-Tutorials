@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creazione di una convalida dei dati personalizzata
@@ -24,7 +26,7 @@ Prima di immergerti nel codice, assicurati di avere i seguenti prerequisiti:
 
 - Aspose.Cells per Java: scarica e installa la libreria da [Qui](https://releases.aspose.com/cells/java/).
 
-## Passaggio 1: configurazione del progetto Java
+## Passaggio 1: impostazione del progetto Java
 
 Per iniziare, crea un nuovo progetto Java nel tuo ambiente di sviluppo integrato (IDE) preferito. Aggiungi la libreria Aspose.Cells per Java al classpath del tuo progetto.
 
@@ -116,6 +118,7 @@ Sì, Aspose.Cells per Java supporta un'ampia gamma di formati di file Excel, tra
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Παράμετροι και Μέθοδοι
 - **Βιβλίο ασκήσεων**: Αντιπροσωπεύει ολόκληρο το αρχείο Excel.
-- **Φύλλο εργασίας**: Αναφέρεται σε ένα μόνο φύλλο μέσα στο βιβλίο εργασίας.
+- **Φύλλο εργασίας**Αναφέρεται σε ένα μόνο φύλλο μέσα στο βιβλίο εργασίας.
 - **Συλλογή σχολίων σε νήματα**Μια συλλογή σχολίων που σχετίζονται με ένα κελί.
 
 ## Πρακτικές Εφαρμογές
@@ -148,6 +150,9 @@ for (Object obj : threadedComments) {
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

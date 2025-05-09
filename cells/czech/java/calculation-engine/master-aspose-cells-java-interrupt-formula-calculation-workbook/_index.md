@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ Jako další kroky zvažte prozkoumání dalších funkcí Aspose.Cells, jako je
 Dodržováním tohoto komplexního průvodce jste nyní vybaveni k efektivní implementaci a využití funkcí Aspose.Cells pro Java pro přerušení výpočtu vzorců. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ PivotTable ptParent = ws.getPivotTables().get(2);
 ```
 - **Mục đích:** Xác định một bảng trục cụ thể trong bảng tính.
 
-#### 5.3 Truy xuất các bảng Pivot con
+#### 5.3 Lấy lại các bảng Pivot con
 ```java
 PivotTable[] ptChildren = ptParent.getChildren();
 ```
@@ -201,6 +203,9 @@ Trong hướng dẫn này, bạn đã học cách quản lý hiệu quả các b
 Bằng cách làm theo hướng dẫn toàn diện này, bạn sẽ được trang bị đầy đủ để giải quyết các tác vụ quản lý dữ liệu Excel phức tạp bằng Aspose.Cells for Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

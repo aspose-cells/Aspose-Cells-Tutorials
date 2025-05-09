@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Nabycie licencji
 
-- **Bezpłatna wersja próbna:** Pobierz wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/java/).
+- **Bezpłatna wersja próbna:** Pobierz wersję próbną z [Strona internetowa Aspose](https://releases.aspose.com/cells/java/).
 - **Licencja tymczasowa:** Uzyskaj tymczasową licencję na rozszerzone testy, odwiedzając stronę [ten link](https://purchase.aspose.com/temporary-license/).
 - **Zakup:** Aby uzyskać pełny dostęp, należy zakupić licencję na stronie [Zakup Aspose](https://purchase.aspose.com/buy).
 
@@ -196,6 +198,9 @@ Poznaj dalsze opcje dostosowywania i rozważ integrację innych bibliotek Aspose
 Rozpocznij swoją przygodę z efektywną lokalizacją wykresów dzięki Aspose.Cells i zwiększ zasięg i oddziaływanie swoich aplikacji Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

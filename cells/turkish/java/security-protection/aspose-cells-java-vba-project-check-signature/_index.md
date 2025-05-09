@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 - Geliştirme IDE'si (örneğin IntelliJ IDEA, Eclipse)
 
 ### Çevre Kurulum Gereksinimleri
-- Makinenize JDK kurulu.
+- Makinenizde JDK yüklü.
 - Geliştirme ortamınızda Maven veya Gradle kurulumu.
 
 ### Bilgi Önkoşulları
@@ -172,6 +174,9 @@ A: Aspose.Cells'in kapsamlı işlevsellik kütüphanesini keşfederek başlayın
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Låt oss börja med de förkunskaper som behövs för Aspose.Cells Java.
 Innan du implementerar Excel-automatiseringsuppgifter med Aspose.Cells för Java, se till att du har:
 1. **Bibliotek och beroenden:** Inkludera Aspose.Cells-biblioteket i ditt projekt, och ange version 25.3 eller senare.
 2. **Miljöinställningar:** Stöd Java med byggverktygen Maven eller Gradle.
-3. **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och god kännedom om Excel-operationer.
+3. **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och god kännedom om Excel-operationer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -204,6 +206,9 @@ Redo att ta dina Excel-automatiseringskunskaper till nästa nivå? Dyk ner i res
    - Ja, använder `FindOptions` konfigurerad för att titta på ursprungliga värden låter dig utföra sådana sökningar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

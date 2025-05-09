@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ Gotowy, aby zacząć zapisywać swoje skoroszyty w różnych formatach? Wypróbu
 Rozpocznij przygodę z Aspose.Cells Java i zmień sposób zarządzania plikami Excela w różnych formatach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

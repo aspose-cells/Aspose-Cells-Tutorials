@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Comencemos cubriendo los requisitos previos.
 ## Prerrequisitos
 Antes de sumergirse en la implementación, asegúrese de tener lo siguiente:
 
-### Bibliotecas y dependencias necesarias
+### Bibliotecas y dependencias requeridas
 Necesita la biblioteca Aspose.Cells, versión 25.3 o posterior. Puede integrarla fácilmente en su proyecto mediante Maven o Gradle:
 
 **Experto**
@@ -57,7 +59,7 @@ Para utilizar Aspose.Cells en su proyecto, siga estos pasos:
    - Comience con una versión de prueba gratuita desde [El sitio web de Aspose](https://releases.aspose.com/cells/java/).
    - Para funciones extendidas, considere obtener una licencia temporal en [este enlace](https://purchase.aspose.com/temporary-license/) o comprar una licencia completa.
 3. **Inicialización básica**:
-   - Importe las clases necesarias e inicialice su instancia de libro de trabajo como se muestra en los fragmentos de código a continuación.
+   - Importe las clases necesarias e inicialice la instancia de su libro de trabajo como se muestra en los fragmentos de código a continuación.
 
 ## Guía de implementación
 ### Cargar un libro de trabajo
@@ -154,6 +156,9 @@ Para una mayor exploración, considere profundizar en las funcionalidades más a
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

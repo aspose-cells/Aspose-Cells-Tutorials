@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εξαγωγή Excel σε PDF
@@ -106,9 +108,11 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 Ε5: Πού μπορώ να βρω περισσότερη τεκμηρίωση και παραδείγματα για το Aspose.Cells;
 
 Εξερευνήστε την τεκμηρίωση του Aspose.Cells API στη διεύθυνση [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) για ολοκληρωμένη τεκμηρίωση και πληθώρα παραδειγμάτων για την περαιτέρω διεύρυνση των γνώσεών σας.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

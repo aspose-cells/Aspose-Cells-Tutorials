@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/position-picture-absolute-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Position Picture (Absolute) in Excel
@@ -97,6 +99,7 @@ The [Aspose.Cells documentation](https://reference.aspose.com/cells/net/) contai
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

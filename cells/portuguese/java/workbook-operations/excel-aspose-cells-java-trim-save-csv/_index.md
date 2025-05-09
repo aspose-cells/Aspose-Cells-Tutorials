@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No ambiente atual, baseado em dados, gerenciar e transformar arquivos do Excel para o formato CSV com eficiência é essencial para o processamento e a integração perfeitos de dados. Este tutorial guiará você pelo uso da biblioteca Aspose.Cells em Java para carregar uma pasta de trabalho do Excel, remover linhas e colunas em branco desnecessárias e salvá-la como um arquivo CSV, tudo isso sem comprometer o desempenho ou a precisão.
 
-## que você aprenderá
+## O que você aprenderá
 - Como carregar pastas de trabalho do Excel com Aspose.Cells para Java
 - Salvar arquivos do Excel como CSV sem cortar espaços em branco
 - Configurando opções para aparar linhas e colunas em branco iniciais ao exportar
@@ -154,6 +156,9 @@ Para uma exploração mais aprofundada, considere explorar funcionalidades mais 
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

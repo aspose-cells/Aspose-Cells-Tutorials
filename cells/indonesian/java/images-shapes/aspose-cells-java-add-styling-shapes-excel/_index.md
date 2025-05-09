@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menambahkan dan Menata Bentuk di Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Tingkatkan lembar kerja Excel Anda dengan menambahkan bentuk khusus secara terprogram dengan `Aspose.Cells` untuk Java. Tutorial ini memandu Anda menambahkan bentuk persegi panjang, mengonfigurasi gaya garisnya, dan menerapkan isian gradien.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells di proyek Java Anda.
 - Menambahkan bentuk persegi panjang ke lembar kerja Excel.
 - Mengonfigurasi gaya garis dan gradien untuk bentuk.
@@ -25,7 +27,7 @@ Tingkatkan lembar kerja Excel Anda dengan menambahkan bentuk khusus secara terpr
 
 Mari kita mulai dengan memastikan Anda memenuhi semua prasyarat.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kodenya, pastikan:
 - **Perpustakaan:** Pustaka Aspose.Cells (versi 25.3 atau yang lebih baru) disertakan dalam proyek Anda.
@@ -47,16 +49,16 @@ Tambahkan ke Anda `pom.xml`:
 ```
 
 **Gradasi:**
-Sertakan dalam Anda `build.gradle` mengajukan:
+Sertakan dalam Anda `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Anda dapat memperoleh lisensi sementara untuk menguji Aspose.Cells tanpa batasan atau membelinya untuk penggunaan jangka panjang. Mulailah dengan [uji coba gratis](https://releases.aspose.com/cells/java/) dan pertimbangkan untuk memperoleh [lisensi sementara](https://purchase.aspose.com/temporary-license/) jika diperlukan.
+Anda dapat memperoleh lisensi sementara untuk menguji Aspose.Cells tanpa batasan atau membelinya untuk penggunaan jangka panjang. Mulailah dengan [uji coba gratis](https://releases.aspose.com/cells/java/) dan pertimbangkan untuk memperoleh [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha szükséges.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Setelah menambahkan dependensi, inisialisasi Aspose.Cells di proyek Java Anda:
 ```java
@@ -70,13 +72,13 @@ public class ExcelShapeDemo {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Menambahkan Bentuk Persegi Panjang ke Lembar Kerja Excel
 
-**Ringkasan:** Pelajari cara menambahkan dan memposisikan bentuk persegi panjang di lembar kerja Anda menggunakan Aspose.Cells.
+**Áttekintés:** Pelajari cara menambahkan dan memposisikan bentuk persegi panjang di lembar kerja Anda menggunakan Aspose.Cells.
 
-#### Langkah 1: Buat Buku Kerja Baru
+#### 1. lépés: Új munkafüzet létrehozása
 ```java
 Workbook excelBook = new Workbook();
 ```
@@ -100,7 +102,7 @@ Ini mengonfigurasikan bentuk agar mengambang bebas dan tidak terikat pada rentan
 
 ### Mengonfigurasi Gaya Garis Bentuk
 
-**Ringkasan:** Sesuaikan gaya garis dan isian gradien untuk bentuk persegi panjang Anda.
+**Áttekintés:** Sesuaikan gaya garis dan isian gradien untuk bentuk persegi panjang Anda.
 
 #### Langkah 1: Konfigurasikan Gaya Garis
 ```java
@@ -124,7 +126,7 @@ fillformat.setOneColorGradient(com.aspose.cells.Color.getBlue(), 1,
 ```
 Efek gradien diterapkan pada isian persegi panjang untuk peningkatan visual.
 
-### Menyimpan Buku Kerja
+### A munkafüzet mentése
 
 Terakhir, simpan buku kerja Anda dengan semua konfigurasi:
 ```java
@@ -132,50 +134,53 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 excelBook.save(outDir + "/StyledRectangle_out.xls");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 - **Visualisasi Data:** Gunakan bentuk di dasbor untuk menyorot titik data utama.
 - **Desain Template:** Buat templat untuk laporan atau faktur yang memerlukan elemen grafis tertentu.
-- **Pembuatan Laporan Otomatis:** Tingkatkan proses otomatis dengan menambahkan dan menata bentuk secara terprogram.
+- **Automatizált jelentéskészítés:** Tingkatkan proses otomatis dengan menambahkan dan menata bentuk secara terprogram.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan file Excel berukuran besar, pertimbangkan kiat berikut:
+Nagyméretű Excel-fájlok kezelésekor vegye figyelembe a következő tippeket:
 - Minimalkan penggunaan memori dengan membuang objek yang tidak lagi diperlukan.
 - Gunakan struktur data yang efisien untuk menyimpan properti bentuk sebelum menerapkannya.
 - Perbarui pustaka Aspose.Cells secara berkala untuk peningkatan kinerja.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara menambahkan dan memberi gaya pada bentuk dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Untuk lebih mengeksplorasi kemampuannya, pelajari manipulasi yang lebih rumit seperti menambahkan bagan atau pemformatan bersyarat.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 Bereksperimenlah dengan berbagai jenis dan gaya bentuk atau integrasikan perpustakaan ke dalam aplikasi yang lebih besar yang memerlukan pembuatan dokumen Excel yang dinamis.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Versi Aspose.Cells apa yang kompatibel dengan Java 11?**
    - Versi 25.3 dan yang lebih baru seharusnya kompatibel, tetapi selalu periksa catatan rilis untuk persyaratan khusus apa pun.
    
 2. **Bagaimana cara menerapkan isian gradien ke bentuk lain selain persegi panjang?**
-   - Metode `setOneColorGradient` dapat diterapkan secara serupa di berbagai jenis bentuk yang mendukung isian.
+   - A módszer `setOneColorGradient` dapat diterapkan secara serupa di berbagai jenis bentuk yang mendukung isian.
 
-3. **Bisakah Aspose.Cells menangani file Excel berukuran besar secara efisien?**
+3. **Az Aspose.Cells hatékonyan tudja kezelni a nagy Excel fájlokat?**
    - Ya, dengan manajemen memori dan pembaruan pustaka yang tepat, ia dapat menangani file besar dengan baik.
 
 4. **Apa saja masalah umum saat menata bentuk di Aspose.Cells?**
    - Kesalahan yang umum terjadi antara lain pengaturan koordinat yang salah atau tidak menerapkan gaya sebelum menyimpan buku kerja.
 
 5. **Bagaimana saya dapat berkontribusi untuk meningkatkan dokumentasi atau fitur Aspose.Cells?**
-   - Berinteraksi dengan komunitas di [forum dukungan](https://forum.aspose.com/c/cells/9) dan berbagi masukan atau saran untuk perbaikan.
+   - Berinteraksi dengan komunitas di [támogató fórum](https://forum.aspose.com/c/cells/9) dan berbagi masukan atau saran untuk perbaikan.
 
-## Sumber daya
-- **Dokumentasi:** Jelajahi panduan terperinci di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
-- **Unduh:** Akses rilis Aspose.Cells dari [Di Sini](https://releases.aspose.com/cells/java/).
-- **Pembelian:** Untuk fitur lengkap, pertimbangkan untuk membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
-- **Mendukung:** Cari bantuan di [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
+## Erőforrás
+- **Dokumentáció:** Jelajahi panduan terperinci di [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés:** Akses rilis Aspose.Cells dari [itt](https://releases.aspose.com/cells/java/).
+- **Vásárlás:** Untuk fitur lengkap, pertimbangkan untuk membeli lisensi [itt](https://purchase.aspose.com/buy).
+- **Támogatás:** Cari bantuan di [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

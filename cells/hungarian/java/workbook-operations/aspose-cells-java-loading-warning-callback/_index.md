@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ Ezzel az oktatóanyaggal megtanultad, hogyan állíthatod be és használhatod a
    - Igen, zökkenőmentesen integrálható a legtöbb népszerű Java fejlesztői környezettel, mint például az IntelliJ IDEA és az Eclipse.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java-referencia](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-referenciához](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Kezdje ingyenes próbaverzióval](https://releases.aspose.com/cells/java/)
@@ -145,6 +147,9 @@ Ezzel az oktatóanyaggal megtanultad, hogyan állíthatod be és használhatod a
 - **Támogatási fórum**: [Aspose.Cells közösségi támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-formatting-methods-and-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Formatting Methods and Options
@@ -24,9 +26,11 @@ One of the standout tools is thecopy method, which is fantastic for duplicating 
 ## Excel Formatting Methods and Options Tutorials
 ### [Using Copy Method Programmatically in Excel](./using-copy-method/)
 Learn how to use the copy method in Aspose.Cells for .NET to manipulate Excel files efficiently. Step-by-step guide included.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

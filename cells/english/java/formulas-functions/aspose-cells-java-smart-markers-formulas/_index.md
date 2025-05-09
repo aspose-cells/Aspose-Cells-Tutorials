@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ By implementing the features covered in this tutorial, you have unlocked powerfu
 - **Free Trial and Temporary License:** Start with a free trial or obtain a temporary license at [Aspose Free Trial](https://releases.aspose.com/cells/java/) and [Temporary License](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

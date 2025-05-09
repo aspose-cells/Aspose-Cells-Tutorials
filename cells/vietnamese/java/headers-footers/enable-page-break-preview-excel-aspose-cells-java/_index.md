@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,10 +38,10 @@ Bạn cần đưa Aspose.Cells for Java vào dự án của mình. Điều này 
 
 ### Yêu cầu thiết lập môi trường
 - **Bộ phát triển Java (JDK):** Đảm bảo JDK 8+ đã được cài đặt trên hệ thống của bạn.
-- **Ý tưởng:** Môi trường phát triển tích hợp như IntelliJ IDEA, Eclipse hoặc NetBeans.
+- **Ý tưởng:** Một môi trường phát triển tích hợp như IntelliJ IDEA, Eclipse hoặc NetBeans.
 
 ### Điều kiện tiên quyết về kiến thức
-Sự quen thuộc với lập trình Java và các thao tác cơ bản trên Excel sẽ có lợi cho hướng dẫn này.
+Sự quen thuộc với lập trình Java và các thao tác cơ bản trong Excel sẽ có lợi cho hướng dẫn này.
 
 ## Thiết lập Aspose.Cells cho Java (H2)
 
@@ -192,6 +194,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã biết cách bật chế 
 Với hướng dẫn toàn diện này, bạn sẽ được trang bị đầy đủ để sử dụng Aspose.Cells for Java để bật chế độ xem trước ngắt trang hiệu quả. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

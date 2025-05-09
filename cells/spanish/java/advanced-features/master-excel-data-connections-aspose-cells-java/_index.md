@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ Una vez que la configuración esté completa, ¡pasemos a implementar la funcion
 
 ## Guía de implementación
 
-### Función 1: Cargar libro de trabajo desde archivo
+### Característica 1: Cargar libro de trabajo desde archivo
 **Descripción general:** Esta función demuestra cómo cargar un libro de Excel existente utilizando Aspose.Cells.
 
 #### Instrucciones paso a paso
@@ -191,6 +193,9 @@ A5: La versión de evaluación incluye marcas de agua en los documentos y puede 
 - **Descargar:** [Versiones de Aspose.Cells para Java](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

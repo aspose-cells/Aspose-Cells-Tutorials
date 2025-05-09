@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,7 +205,7 @@ den här handledningen har du lärt dig hur du använder Aspose.Cells för Java 
 - Utforska avancerade konfigurationer och anpassningar.
 - Dela feedback eller frågor om [Aspose Supportforum](https://forum.aspose.com/c/cells/9).
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Hur installerar jag Aspose.Cells för Java?**
    Lägg till beroendet i ditt projekts byggverktygskonfiguration.
@@ -225,6 +227,9 @@ den här handledningen har du lärt dig hur du använder Aspose.Cells för Java 
 - [Aspose.Cells för Java GitHub-arkivet](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

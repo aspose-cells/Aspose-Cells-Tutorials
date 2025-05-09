@@ -8,7 +8,9 @@ url: /net/excel-shape-label-access/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Shape and Label Access
@@ -34,9 +36,11 @@ The mechanism is straightforward. With the right code snippets, you’ll learn h
 Learn how to access and modify OLE Object labels in Excel using Aspose.Cells for .NET. Simple guide with code examples included.
 ### [Determine if Shape is Smart Art in Excel](./determine-smart-art-shape-excel/)
 Learn easily to check if a shape in Excel is Smart Art using Aspose.Cells for .NET with this step-by-step guide. Perfect for automating Excel tasks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

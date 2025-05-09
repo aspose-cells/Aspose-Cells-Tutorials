@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Lisans Edinme Adımları
 Aspose.Cells, yeteneklerini keşfetmek için ücretsiz bir deneme sunuyor. Uzun süreli kullanım için geçici bir lisans edinebilir veya tam sürümü satın alabilirsiniz.
 
-1. **Ücretsiz Deneme**En son sürümü şu adresten indirin: [Aspose.Cells Java Sürümleri](https://releases.aspose.com/cells/java/).
+1. **Ücretsiz Deneme**: En son sürümü şu adresten indirin: [Aspose.Cells Java Sürümleri](https://releases.aspose.com/cells/java/).
 2. **Geçici Lisans**: Geçici lisans talebinde bulunun [Geçici Lisans Satın Al](https://purchase.aspose.com/temporary-license/).
 3. **Satın almak**: Tam erişim için ziyaret edin [Aspose.Cells'i satın alın](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ Java için Aspose.Cells'i kullanarak Excel çalışma kitaplarındaki kaydırma 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ workbook.save(outDir + "/AThemes_out.xlsx");
 
 Тематические диаграммы можно использовать в различных сценариях, например:
 - **Финансовые отчеты:** Повысьте читабельность и эстетическую привлекательность презентаций финансовых данных.
-- **Маркетинговые панели:** Создавайте визуально целостные панели мониторинга, соответствующие цветам бренда.
+- **Маркетинговые панели:** Создавайте визуально целостные панели управления, соответствующие цветам бренда.
 - **Образовательные материалы:** Сделайте учебные материалы более интересными, используя тематические визуальные элементы.
 
 ## Соображения производительности
@@ -185,6 +187,9 @@ workbook.save(outDir + "/AThemes_out.xlsx");
 - **Поддерживать:** [Форум Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

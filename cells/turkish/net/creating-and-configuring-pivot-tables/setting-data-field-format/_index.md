@@ -1,14 +1,16 @@
 ---
-title: .NET'te Veri Alanı Biçimini Programatik Olarak Ayarlama
-linktitle: .NET'te Veri Alanı Biçimini Programatik Olarak Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım eğitimle Aspose.Cells for .NET kullanarak pivot tablolarındaki veri alanı formatlarını nasıl ayarlayacağınızı öğrenin. Excel veri biçimlendirmenizi geliştirin.
-weight: 19
-url: /tr/net/creating-and-configuring-pivot-tables/setting-data-field-format/
+"description": "Bu adım adım eğitimle Aspose.Cells for .NET kullanarak pivot tablolarındaki veri alanı formatlarını nasıl ayarlayacağınızı öğrenin. Excel veri biçimlendirmenizi geliştirin."
+"linktitle": ".NET'te Veri Alanı Biçimini Programatik Olarak Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Veri Alanı Biçimini Programatik Olarak Ayarlama"
+"url": "/tr/net/creating-and-configuring-pivot-tables/setting-data-field-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Veri Alanı Biçimini Programatik Olarak Ayarlama
@@ -18,7 +20,7 @@ url: /tr/net/creating-and-configuring-pivot-tables/setting-data-field-format/
 ## Ön koşullar
 Bu yolculuğa çıkmadan önce, her şeyin yolunda olduğundan emin olalım. İşte ihtiyacınız olan şeylerin kısa bir kontrol listesi:
 1. Visual Studio: İyi bir entegre geliştirme ortamını (IDE) kim sevmez ki?
-2.  Aspose.Cells for .NET Kütüphanesi: Bunu şu adresten kolayca indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Kütüphanesi: Bunu şu adresten kolayca indirebilirsiniz: [Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/).
 3. C# Temel Bilgisi: Bir programlama dilinin temellerini anlıyorsanız, hazırsınız demektir!
 ### Neden Aspose.Cells?
 Aspose.Cells for .NET, Excel dosya işlemlerini yönetmek için özel olarak tasarlanmış güçlü bir kütüphanedir. Excel dosyalarını kolayca okumanızı, yazmanızı, düzenlemenizi ve dönüştürmenizi sağlar. Excel kullanıcı arayüzüne dalmak zorunda kalmadan programatik olarak raporlar, pivot tablolar veya hatta grafikler oluşturabildiğinizi hayal edin - sihir gibi geliyor, değil mi?
@@ -68,7 +70,7 @@ int pivotindex = 0; // İlk pivot tabloyu istediğinizi varsayarak
 PivotTable pivotTable = worksheet.PivotTables[pivotindex];
 ```
 ## Adım 5: Veri Alanlarını Alın
-Artık pivot tabloda olduğumuza göre, veri alanlarını çıkaralım. Bunu bir kütüphaneye girip belirli kitapları (veya veri alanlarını) almak olarak düşünün.
+Şimdi pivot tabloda olduğumuza göre, veri alanlarını çıkaralım. Bunu bir kütüphaneye girip belirli kitapları (veya veri alanlarını) almak olarak düşünün.
 ```csharp
 Aspose.Cells.Pivot.PivotFieldCollection pivotFields = pivotTable.DataFields;
 ```
@@ -84,9 +86,9 @@ Sırada, pivot alanının veri görüntüleme biçimini ayarlayalım. Anlamlı g
 pivotField.DataDisplayFormat = Aspose.Cells.Pivot.PivotFieldDataDisplayFormat.PercentageOf;
 ```
 ## Adım 8: Temel Alanı ve Temel Öğeyi Ayarlayın
-Her pivot alanı bir diğer alana temel referans olarak bağlanabilir. Hadi ayarlayalım:
+Her pivot alanı, bir temel referans olarak başka bir alana bağlanabilir. Hadi ayarlayalım:
 ```csharp
-//Temel alanı ayarlama
+// Temel alanı ayarlama
 pivotField.BaseFieldIndex = 1; // Temel alan için uygun dizini kullanın
 // Temel öğeyi ayarlama
 pivotField.BaseItemPosition = Aspose.Cells.Pivot.PivotItemPosition.Next; // Sonraki öğeyi seçin
@@ -98,7 +100,7 @@ Bir adım daha ileri gidelim, sayı biçimini ayarlayalım. Bu, sayıların nas�
 pivotField.Number = 10; // Gerektiğinde biçim dizinini kullanın
 ```
 ## Adım 10: Excel Dosyasını Kaydedin
-Tamam ve bitti! Değişikliklerinizi kaydetme zamanı. Çalışma kitabınız şimdi az önce yaptığınız tüm güçlü değişiklikleri yansıtacak.
+Tamamdır ve bitti! Değişikliklerinizi kaydetme zamanı. Çalışma kitabınız şimdi az önce yaptığınız tüm güçlü değişiklikleri yansıtacak.
 ```csharp
 // Excel dosyasını kaydetme
 workbook.Save(dataDir + "output.xls");
@@ -110,16 +112,18 @@ Tebrikler! .NET'te Aspose.Cells kullanarak veri alanı formatlarını programati
 ### Aspose.Cells'i sıfırdan Excel dosyaları oluşturmak için kullanabilir miyim?
 Kesinlikle! Aspose.Cells'i kullanarak Excel dosyaları oluşturabilir ve düzenleyebilirsiniz.
 ### Ücretsiz deneme imkanı var mı?
- Evet! Şunu kontrol edebilirsiniz[Ücretsiz Deneme](https://releases.aspose.com/).
+Evet! Şunu kontrol edebilirsiniz [Ücretsiz Deneme](https://releases.aspose.com/).
 ### Aspose.Cells Excel dosyaları için hangi formatları destekler?
 XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 ### Lisans için ücret ödemem gerekiyor mu?
- Birkaç seçeneğiniz var! Lisans satın alabilirsiniz[Sayfayı satın al](https://purchase.aspose.com/buy) Alternatif olarak, bir[Geçici Lisans](https://purchase.aspose.com/temporary-license/) da mevcuttur.
+Birkaç seçeneğiniz var! Lisans satın alabilirsiniz [Sayfayı satın al](https://purchase.aspose.com/buy)Alternatif olarak, bir [Geçici Lisans](https://purchase.aspose.com/temporary-license/) da mevcuttur.
 ### Sorun yaşarsam nereden destek alabilirim?
- Desteklerini şu adreste bulabilirsiniz:[Destek Forumu](https://forum.aspose.com/c/cells/9).
+Desteklerini şu adreste bulabilirsiniz: [Destek Forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

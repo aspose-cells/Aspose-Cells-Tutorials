@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Η φόρτωση αρχείων Excel που προστατεύονται με κωδικό πρόσβασης είναι απαραίτητη όταν πρόκειται για ευαίσθητες πληροφορίες. Το Aspose.Cells παρέχει έναν απλό τρόπο για να ανοίξετε αυτά τα αρχεία καθορίζοντας τον απαραίτητο κωδικό πρόσβασης.
 
 #### Βήμα προς βήμα εφαρμογή
-1. **Ρύθμιση Επιλογών Φόρτωσης**: Δημιουργήστε ένα `LoadOptions` αντικείμενο και ορίστε τον απαιτούμενο κωδικό πρόσβασης.
+1. **Ρύθμιση Επιλογών Φόρτωσης**Δημιουργήστε ένα `LoadOptions` αντικείμενο και ορίστε τον απαιτούμενο κωδικό πρόσβασης.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5: Βεβαιωθείτε ότι η διαδρομή προς το αρχείο
 - **Υποστήριξη**: [Υποστήριξη Φόρουμ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

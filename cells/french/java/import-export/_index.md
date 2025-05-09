@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Apprenez à utiliser Aspose.Cells Java pour ajouter des cartes XML à des classe
 Apprenez à optimiser votre flux de travail Excel avec Aspose.Cells pour Java en implémentant des filtres de chargement personnalisés et en exportant des feuilles sous forme d'images de haute qualité. Idéal pour gérer efficacement de grands ensembles de données.
 
 ### [Aspose.Cells Java : Maîtriser les connexions des classeurs Excel pour l'intégration et l'analyse des données](./aspose-cells-java-excel-connections/)
-Apprenez à gérer et analyser les connexions externes dans les classeurs Excel avec Aspose.Cells pour Java. Simplifiez vos workflows d'intégration de données grâce à ce guide complet.
+Apprenez à gérer et analyser les connexions externes dans les classeurs Excel avec Aspose.Cells pour Java. Optimisez vos flux d'intégration de données grâce à ce guide complet.
 
 ### [Exportation de données sans effort depuis Excel avec Aspose.Cells pour Java](./aspose-cells-java-excel-data-export/)
 Maîtrisez l'exportation fluide de données depuis des fichiers Excel avec Aspose.Cells pour Java. Apprenez à configurer et à mettre en œuvre des flux de données efficaces.
@@ -123,6 +125,9 @@ Apprenez à analyser efficacement des données XML et à les intégrer dans des 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

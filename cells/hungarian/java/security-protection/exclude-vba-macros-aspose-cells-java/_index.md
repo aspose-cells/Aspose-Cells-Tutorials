@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Nehezen kezel nagy és összetett Excel-munkafüzeteket, amelyek felesleges vagy potenciálisan káros VBA-makrókat tartalmaznak? A növekvő adatbiztonsági igények miatt elengedhetetlen ezeknek a makróknak az eltávolítása a munkafüzet integritásának veszélyeztetése nélkül. Ez az útmutató végigvezeti Önt az Aspose.Cells for Java használatán, hogy hatékonyan kizárhassa a VBA-makrókat egy Excel-munkafüzet betöltésekor.
 
 **Amit tanulni fogsz:**
-- Az Aspose.Cells beállítása és konfigurálása Java-ban
+- Az Aspose.Cells beállítása és konfigurálása Java-hoz
 - VBA-makrók kizárása a munkafüzet betöltése során lépésről lépésre történő utasításokkal
 - A módosított munkafüzet mentése biztonságos formátumban
 
@@ -54,11 +56,11 @@ Előnyt jelent a Java programozásban való jártasság és az Excel munkafüzet
 ## Az Aspose.Cells beállítása Java-hoz
 Az Aspose.Cells beállítása Java-ban egyszerű. Így kezdheted el:
 
-1. **Könyvtár telepítése:** Használd a fenti Maven vagy Gradle parancsokat az Aspose.Cells függőségként való hozzáadásához a projektedhez.
+1. **Könyvtár telepítése:** A fenti Maven vagy Gradle parancsokkal adhatod hozzá az Aspose.Cells függvényt a projektedhez.
    
 2. **Licenc beszerzése:**
    - Kezdje egy ingyenes próbaverzióval a letöltéssel innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
-   - Hosszabb távú használat esetén érdemes lehet ideiglenes licencet igényelni, vagy teljes verziót vásárolni a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
+   - Hosszabb idejű használat esetén érdemes lehet ideiglenes licencet igényelni, vagy teljes verziót vásárolni a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
 3. **Alapvető inicializálás:**
 Így inicializálhatod és állíthatod be az Aspose.Cells-t a Java alkalmazásodban:
@@ -198,6 +200,9 @@ Készen áll a megoldás bevezetésére? Kezdje el egy ingyenes próbaverzióval
    - Győződjön meg a fájl elérési útjáról, és ellenőrizze, hogy `LoadOptions` megfelelően vannak konfigurálva.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

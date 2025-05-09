@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ public class ChangeTickLabelDirection {
 }
 ```
 
-### การเปลี่ยนทิศทางของฉลากเครื่องหมายถูก
+### การเปลี่ยนทิศทางของป้ายเครื่องหมายถูก
 4. **ปรับเปลี่ยนทิศทางของป้ายเครื่องหมายถูก**: ตั้งค่าประเภททิศทางสำหรับป้ายกำกับแกนหมวดหมู่
 
 ```java
@@ -172,6 +174,9 @@ workbook.save(outputDir + "outputChangeTickLabelDirection.xlsx");
 โปรดอย่าลังเลที่จะสำรวจทรัพยากรเหล่านี้เพื่อรับข้อมูลเชิงลึกและการสนับสนุนเพิ่มเติม!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

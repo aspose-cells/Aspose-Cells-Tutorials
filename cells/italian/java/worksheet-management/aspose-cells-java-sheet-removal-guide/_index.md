@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Ora hai imparato come rimuovere un foglio di lavoro in base al suo nome utilizza
 Seguendo questa guida, sarai pronto a gestire in modo efficiente i fogli Excel utilizzando Aspose.Cells in Java. Inizia subito a implementarlo e scopri come può migliorare i tuoi progetti!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

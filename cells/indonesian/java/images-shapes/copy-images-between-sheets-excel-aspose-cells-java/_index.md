@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menyalin Gambar Antar Lembar di Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Perlu mentransfer gambar dari satu lembar Excel ke lembar lainnya dengan mudah? Tugas ini dapat disederhanakan menggunakan **Aspose.Cells untuk Java**, pustaka yang hebat untuk memanipulasi file Excel secara terprogram.
 
 Dalam tutorial ini, kami akan memandu Anda menyalin gambar antar lembar kerja di buku kerja Excel menggunakan Aspose.Cells untuk Java. Kami akan memandu Anda melalui setiap langkah dengan contoh praktis untuk meningkatkan pemahaman Anda.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Membuat instance objek Workbook menggunakan Aspose.Cells
 - Mengakses dan memanipulasi lembar kerja dalam buku kerja
 - Mengambil dan menyalin gambar (gambar) dari satu lembar kerja ke lembar kerja lainnya
@@ -27,13 +29,13 @@ Dalam tutorial ini, kami akan memandu Anda menyalin gambar antar lembar kerja di
 
 Pertama, mari kita bahas prasyarat yang diperlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai tutorial ini, pastikan lingkungan pengembangan Anda telah diatur dengan benar. Anda memerlukan:
 - **Kit Pengembangan Java (JDK)**Pastikan JDK terinstal di komputer Anda.
 - **Aspose.Cells untuk pustaka Java**:Perpustakaan ini akan menjadi inti tugas manipulasi gambar kita.
 
-### Pustaka dan Versi yang Diperlukan
+### Szükséges könyvtárak és verziók
 Untuk memulai, integrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven atau Gradle:
 
 **Pakar**
@@ -50,10 +52,10 @@ Untuk memulai, integrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven 
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**Mulailah dengan mengunduh uji coba gratis dari situs web Aspose untuk menguji fungsionalitasnya.
-- **Lisensi Sementara**:Untuk pengujian yang lebih luas, ajukan permohonan lisensi sementara.
-- **Pembelian**:Jika memenuhi kebutuhan Anda, pertimbangkan untuk membeli lisensi penuh.
+### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**Mulailah dengan mengunduh uji coba gratis dari situs web Aspose untuk menguji fungsionalitasnya.
+- **Ideiglenes engedély**:Untuk pengujian yang lebih luas, ajukan permohonan lisensi sementara.
+- **Vásárlás**:Jika memenuhi kebutuhan Anda, pertimbangkan untuk membeli lisensi penuh.
 
 Setelah Anda menyiapkan pustaka dan memperoleh lisensi yang sesuai, inisialisasikan pustaka tersebut dalam proyek Anda. Berikut ini adalah contoh penyiapannya:
 
@@ -70,12 +72,12 @@ Setelah semuanya siap, mari kita lanjutkan untuk mengimplementasikan solusi kita
 
 Untuk mulai menggunakan Aspose.Cells dalam proyek Anda, pastikan Anda telah mengintegrasikan pustaka seperti yang dijelaskan di atas. Setelah selesai, konfirmasikan bahwa lingkungan pengembangan Anda dikonfigurasi dengan benar dengan JDK dan bahwa Anda telah menyiapkan lisensi jika perlu.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Langkah 1: Buat Instansiasi Buku Kerja
+### 1. lépés: Munkafüzet példányosítása
 
-#### Ringkasan
-Pertama, kita perlu membuat sebuah instance dari `Workbook` kelas dengan memuat file Excel yang sudah ada. Langkah ini menginisialisasi objek buku kerja kita yang akan dimanipulasi sepanjang tutorial ini.
+#### Áttekintés
+Pertama, kita perlu membuat instance dari `Workbook` kelas dengan memuat berkas Excel yang sudah ada. Langkah ini menginisialisasi objek buku kerja kita yang akan dimanipulasi sepanjang tutorial ini.
 
 **Potongan Kode**
 ```java
@@ -88,7 +90,7 @@ Kode ini memuat `Shapes.xls` berkas ke dalam `workbook` objek. Pastikan jalur An
 
 ### Langkah 2: Akses Koleksi Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Selanjutnya, kita mengakses semua lembar kerja dalam buku kerja kita menggunakan `WorksheetCollection`.
 
 **Potongan Kode**
@@ -101,7 +103,7 @@ Koleksi ini memudahkan kita memanipulasi tiap lembar secara mudah.
 
 ### Langkah 3: Dapatkan Lembar Kerja Tertentu Berdasarkan Nama
 
-#### Ringkasan
+#### Áttekintés
 Ambil lembar kerja tertentu dari koleksi berdasarkan namanya. Ini berguna untuk menargetkan lembar kerja tertentu tanpa harus mengulang semuanya.
 
 **Potongan Kode**
@@ -118,7 +120,7 @@ Di sini, kita mengakses lembar bernama "Gambar" dan "Hasil".
 
 ### Langkah 4: Ambil Gambar dari Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Sekarang, mari kita ambil objek gambar dari lembar kerja sumber kita.
 
 **Potongan Kode**
@@ -131,7 +133,7 @@ Cuplikan ini mengambil gambar pertama dalam lembar kerja "Gambar". Anda dapat me
 
 ### Langkah 5: Salin Gambar ke Lembar Kerja Lain
 
-#### Ringkasan
+#### Áttekintés
 Terakhir, kami menyalin gambar ini ke lembar kerja lain dengan opsi posisi dan skala tertentu.
 
 **Potongan Kode**
@@ -151,7 +153,7 @@ Potongan kode ini menyalin gambar ke lembar kerja "Hasil", mempertahankan posisi
 
 ### Langkah 6: Simpan Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 Untuk menyelesaikan perubahan kami, kami menyimpan buku kerja ke jalur berkas yang ditentukan.
 
 **Potongan Kode**
@@ -161,28 +163,28 @@ workbook.save(outDir + "CPfOneWToAnother_out.xls");
 ```
 Langkah ini menulis semua modifikasi kembali ke file Excel bernama `CPfOneWToAnother_out.xls`.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa aplikasi dunia nyata untuk fungsi ini:
-1. **Pembuatan Laporan Otomatis**: Memperbarui dan mentransfer gambar dalam laporan secara otomatis.
+1. **Automatizált jelentéskészítés**: Memperbarui dan mentransfer gambar dalam laporan secara otomatis.
 2. **Alat Visualisasi Data**:Meningkatkan alat yang menghasilkan bagan atau grafik dengan menyalinnya antar lembar.
 3. **Sistem Manajemen Template**Mengelola templat Excel di mana visual tertentu perlu direplikasi di berbagai bagian.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - Optimalkan penggunaan memori dengan membuang objek yang tidak lagi diperlukan menggunakan metode bawaan Aspose.
 - Untuk buku kerja besar, pertimbangkan untuk memproses gambar secara bertahap daripada memuat semuanya sekaligus.
 - Perbarui perpustakaan secara berkala untuk mendapatkan manfaat dari peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara menggunakan Aspose.Cells for Java secara efektif untuk memanipulasi gambar dalam file Excel. Keterampilan ini dapat secara signifikan menyederhanakan tugas yang melibatkan pengelolaan elemen visual di seluruh lembar kerja.
 
 Untuk lebih memahami Anda, jelajahi lebih banyak fitur Aspose.Cells atau integrasikan dengan sistem lain seperti basis data atau layanan web.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara memperbarui skala gambar yang disalin?**
-   - Anda dapat menyesuaikan `WidthScale` Dan `HeightScale` parameter dalam `add` metode untuk mengubah ukuran secara proporsional.
+   - Anda dapat menyesuaikan `WidthScale` és `HeightScale` parameter dalam `add` metode untuk mengubah ukuran secara proporsional.
 2. **Bisakah saya menyalin beberapa gambar sekaligus?**
    - Ya, ulangi koleksi menggunakan `getPictures().size()` dan menerapkan logika penyalinan untuk setiap gambar.
 3. **Bagaimana jika lembar kerjanya tidak ada?**
@@ -192,17 +194,20 @@ Untuk lebih memahami Anda, jelajahi lebih banyak fitur Aspose.Cells atau integra
 5. **Bagaimana cara mengatasi kesalahan terkait lisensi?**
    - Pastikan jalur berkas lisensi Anda benar dan Anda telah menginisialisasinya sebelum membuat objek Buku Kerja apa pun.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan menjelajahi sumber daya ini, Anda dapat mempelajari Aspose.Cells for Java lebih dalam dan meningkatkan kemampuan otomatisasi Excel Anda. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

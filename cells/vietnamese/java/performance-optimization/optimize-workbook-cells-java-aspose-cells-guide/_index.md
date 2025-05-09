@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đ�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java**: Khuyến nghị sử dụng phiên bản 25.3 trở lên.
   
 ### Yêu cầu thiết lập môi trường:
@@ -62,7 +64,7 @@ Bao gồm điều này trong `build.gradle` tài liệu:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Các bước xin cấp giấy phép:
+#### Các bước xin cấp phép:
 - **Dùng thử miễn phí**: Tải xuống phiên bản dùng thử để kiểm tra Aspose.Cells.
 - **Giấy phép tạm thời**: Xin giấy phép tạm thời để truy cập đầy đủ tính năng trong quá trình phát triển.
 - **Mua**: Mua giấy phép sử dụng cho mục đích sản xuất.
@@ -201,6 +203,9 @@ Trong suốt hướng dẫn này, bạn đã học cách tạo sổ làm việc,
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

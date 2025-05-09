@@ -1,14 +1,16 @@
 ---
-title: Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme
-linktitle: Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'i kullanarak HTML'deki tablo stillerine önek eklemeyi ve Excel dışa aktarımlarınızı adım adım örneklerle geliştirmeyi öğrenin.
-weight: 17
-url: /tr/net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements-styles/
+"description": "Aspose.Cells for .NET'i kullanarak HTML'deki tablo stillerine önek eklemeyi ve Excel dışa aktarımlarınızı adım adım örneklerle geliştirmeyi öğrenin."
+"linktitle": "Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme"
+"url": "/tr/net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements-styles/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Html Kaydetme Seçenekleriyle Tablo Elemanları Stillerini Önekleme
@@ -19,7 +21,7 @@ Sürekli gelişen veri sunumu dünyasında, görsel olarak çekici formatlar yal
 Başlamadan önce gerekli araçların hazır olduğundan emin olun:
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirme için tercih edilen ortamdır.
 2. .NET Framework: Örneklerimizde C# kullanacağımız için temel .NET framework'ü tanıyın.
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak. [buradan indirin](https://releases.aspose.com/cells/net/).
 4. C# Hakkında Temel Anlayış: Her adımı açıklarken, C# hakkında temel bir anlayışa sahip olmak öğrenme sürecinize büyük ölçüde yardımcı olacaktır.
 Bu ön koşullar sağlandığında, Excel verilerinizden doğrudan güzel HTML tabloları oluşturmaya hazırsınız!
 ## Paketleri İçe Aktar
@@ -45,7 +47,7 @@ Sonra, çalışma kitabı nesnesini oluşturmamız gerekiyor. Bu, veri girmeye v
 //Çalışma kitabı nesnesi oluştur
 Workbook wb = new Workbook(); // Bellekte yeni bir çalışma kitabı oluşturdunuz
 ```
- Burada,`Workbook` sınıfı, Excel dosyalarıyla yapmak istediğiniz herhangi bir işlem için temeldir. 
+Burada, `Workbook` sınıfı, Excel dosyalarıyla yapmak istediğiniz herhangi bir işlem için temeldir. 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 Her çalışma kitabı en az bir çalışma sayfası içerir. Hücre verilerini işlemeye başlamak için ilkine erişeceğiz.
 ```csharp
@@ -74,13 +76,13 @@ Biraz stilistik seçim çok işe yarıyor, değil mi? Verileriniz artık göze d
 ```csharp
 //HTML kaydetme seçeneklerini belirtin - tablo css kimliğini belirtin
 HtmlSaveOptions opts = new HtmlSaveOptions(); // HTML kaydetmemiz için seçenekler oluşturun
-opts.TableCssId = "MyTest_TableCssId"; // Bir CSS kimliği atayın
+opts.TableCssId = "MyTest_TableCssId"; // Bir CSS Kimliği atayın
 ```
 Bu ID, tabloyu CSS ile daha ileri düzeyde biçimlendirmek istediğinizde kullanışlı bir araç olabilir.
 ## Adım 7: Çalışma Kitabını Kaydedin
-Şimdi büyük finale geldik: Çalışma kitabını HTML dosyası olarak kaydetmek. 
+Şimdi büyük finale geçiyoruz: Çalışma kitabını HTML dosyası olarak kaydetmek. 
 ```csharp
-// Çalışma kitabını html olarak kaydet
+//Çalışma kitabını html olarak kaydet 
 wb.Save(outputDir + "outputTableCssId.html", opts); // Uygulanan seçeneklerle kaydet
 ```
 Artık Excel verilerinizin, ayarladığınız stillerle birlikte HTML biçimindeki bir sunumuna sahipsiniz.
@@ -91,21 +93,23 @@ Console.WriteLine("PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProper
 ```
 Bu mesaj, kodunuzun herhangi bir aksama olmadan çalıştığını bildirir.
 ## Çözüm
-Tebrikler! Aspose.Cells for .NET kullanarak tablo öğesi stillerine HTML kaydetme seçenekleriyle ön ek eklemeyi başarıyla öğrendiniz. Excel sayfalarınızı şık HTML tablolarına dönüştürmek veri sunumunu olağanüstü şekilde iyileştirebilir. Bu kılavuz, tablo düzenlerini özelleştirme, gelişmiş stil seçeneklerini entegre etme ve çok daha fazlası gibi Aspose.Cells içindeki daha fazla işlevi keşfetmeniz için sağlam bir temel sağlar. Öyleyse neden denemeye başlamıyorsunuz?
+Tebrikler! Aspose.Cells for .NET kullanarak tablo öğesi stillerine HTML kaydetme seçenekleriyle ön ek eklemeyi başarıyla öğrendiniz. Excel sayfalarınızı şık HTML tablolarına dönüştürmek veri sunumunu olağanüstü bir şekilde geliştirebilir. Bu kılavuz, tablo düzenlerini özelleştirme, gelişmiş stil seçeneklerini entegre etme ve çok daha fazlası gibi Aspose.Cells içindeki daha fazla işlevi keşfetmeniz için sağlam bir temel sağlar. Öyleyse neden denemeye başlamıyorsunuz?
 ## SSS
 ### Aspose.Cells for .NET nedir?  
 Aspose.Cells for .NET, .NET uygulamaları içerisinde Excel dosyaları oluşturmak ve düzenlemek için güçlü bir kütüphanedir.
 ### Aspose.Cells'i nasıl kurabilirim?  
- Aspose.Cells'i şu adresten kolayca indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) ve bunu Visual Studio projenize ekleyin.
+Aspose.Cells'i şu adresten kolayca indirebilirsiniz: [web sitesi](https://releases.aspose.com/cells/net/) ve bunu Visual Studio projenize ekleyin.
 ### Birden fazla hücrenin stilini aynı anda değiştirebilir miyim?  
 Evet! Hücreler arasında döngü kurabilir ve B5 hücresinde yaptığımız gibi stiller uygulayabilirsiniz.
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?  
- Kesinlikle! Bir tane alabilirsin[ücretsiz deneme burada](https://releases.aspose.com/) Kütüphaneyi test etmek için.
+Kesinlikle! Bir tane alabilirsin [ücretsiz deneme burada](https://releases.aspose.com/) Kütüphaneyi test etmek için.
 ### Aspose.Cells hakkında soru gönderebilir miyim?  
-Evet, sorularınızı şuraya göndererek topluluk desteği alabilirsiniz:[Aspose forumları](https://forum.aspose.com/c/cells/9).
+Evet, sorularınızı şuraya göndererek topluluk desteği alabilirsiniz: [Aspose forumları](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

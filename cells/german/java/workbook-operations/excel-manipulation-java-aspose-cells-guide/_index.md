@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ Beachten Sie beim Arbeiten mit großen Datensätzen oder komplexen Arbeitsmappen
 Wenn Sie diese Techniken beherrschen, können Sie die Leistung und Zuverlässigkeit Ihrer Excel-Automatisierungsaufgaben mit Aspose.Cells in Java verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

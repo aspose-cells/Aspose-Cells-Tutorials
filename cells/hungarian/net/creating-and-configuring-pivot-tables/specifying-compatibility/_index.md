@@ -1,38 +1,40 @@
 ---
-title: Adja meg az Excel-fájl programozott kompatibilitását .NET-ben
-linktitle: Adja meg az Excel-fájl programozott kompatibilitását .NET-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg az Excel pivot tábláinak kezelését az Aspose.Cells for .NET segítségével, beleértve az adatfrissítéseket, a kompatibilitási beállításokat és a cellaformázást.
-weight: 23
-url: /hu/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Tanulja meg az Excel pivot táblák kezelését az Aspose.Cells for .NET segítségével, beleértve az adatfrissítéseket, a kompatibilitási beállításokat és a cellaformázást."
+"linktitle": "Excel fájlok kompatibilitásának programozott megadása .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Excel fájlok kompatibilitásának programozott megadása .NET-ben"
+"url": "/hu/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adja meg az Excel-fájl programozott kompatibilitását .NET-ben
+# Excel fájlok kompatibilitásának programozott megadása .NET-ben
 
 ## Bevezetés
 
-mai adatközpontú világban az Excel-fájlok programozott kezelése és kezelése sok fejlesztő számára elengedhetetlenné vált. Ha Excellel dolgozik .NET-ben, az Aspose.Cells egy hatékony könyvtár, amely megkönnyíti az Excel-fájlok létrehozását, olvasását, módosítását és mentését. A könyvtár egyik fontos funkciója lehetővé teszi az Excel-fájlok kompatibilitásának programozott megadását. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet kezelni az Excel-fájlokat, különös tekintettel a kompatibilitás kezelésére az Aspose.Cells for .NET használatával. A végére megérti, hogyan állíthatja be az Excel-fájlok kompatibilitását, különösen a pivot táblák esetében, miközben frissíti és kezeli az adatokat.
+A mai adatvezérelt világban az Excel-fájlok programozott kezelése és manipulálása elengedhetetlenné vált sok fejlesztő számára. Ha .NET-ben dolgozol Excellel, az Aspose.Cells egy hatékony függvénytár, amely megkönnyíti az Excel-fájlok létrehozását, olvasását, módosítását és mentését. A függvénytár egyik fontos funkciója lehetővé teszi az Excel-fájlok kompatibilitásának programozott megadását. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet manipulálni az Excel-fájlokat, különös tekintettel az Aspose.Cells for .NET használatával történő kompatibilitáskezelésre. A végére megérted, hogyan állíthatod be az Excel-fájlok kompatibilitását, különösen a kimutatástáblák esetében, miközben frissíted és kezeled az adatokat.
 
 ## Előfeltételek
 
-Mielőtt belevágna a kódolási fázisba, győződjön meg arról, hogy rendelkezik a következőkkel:
+Mielőtt belevágnál a kódolási fázisba, győződj meg róla, hogy rendelkezel a következőkkel:
 
-1. Alapvető C# ismerete: Mivel a kódot C#-ban fogjuk írni, a nyelv ismerete segít jobban megérteni az oktatóanyagot.
-2.  Aspose.Cells for .NET könyvtár: Letöltheti a[Az Aspose Cells kiadási oldala](https://releases.aspose.com/cells/net/)Ha még nem tette meg, fontolja meg az ingyenes próbaverzió beszerzését, hogy először fedezze fel a funkcióit.
-3. Visual Studio: Egy IDE, ahol hatékonyan írhatja és tesztelheti C# kódját.
-4.  Minta Excel-fájl: Győződjön meg arról, hogy rendelkezik egy minta Excel-fájllal, lehetőleg olyannal, amely tartalmaz egy pivot táblát a bemutatóhoz. Példánkban használni fogjuk`sample-pivot-table.xlsx`.
+1. C# alapismeretek: Mivel C#-ban fogunk kódot írni, a nyelv ismerete segít jobban megérteni a bemutatót.
+2. Aspose.Cells for .NET könyvtár: Letöltheti innen: [Aspose Cells kiadási oldal](https://releases.aspose.com/cells/net/)Ha még nem tette meg, először érdemes lehet ingyenes próbaverziót igénybe vennie, hogy felfedezhesse a funkcióit.
+3. Visual Studio: Egy IDE, ahol hatékonyan írhatsz és tesztelhetsz C# kódot.
+4. Minta Excel fájl: Győződjön meg róla, hogy van egy minta Excel fájlja, lehetőleg olyat, amely tartalmaz egy kimutatástáblát a demóhoz. Példánkban a következőt fogjuk használni: `sample-pivot-table.xlsx`.
 
-Ha ezekkel az előfeltételekkel rendelkezik, kezdjük el a kódolási folyamatot.
+Miután ezeket az előfeltételeket teljesítettük, kezdjük el a kódolási folyamatot.
 
 ## Csomagok importálása
 
-Mielőtt elkezdené írni az alkalmazást, bele kell foglalnia a szükséges névtereket a kódba, hogy hatékonyan tudja használni az Aspose.Cells könyvtárat. Íme, hogyan kell csinálni.
+Mielőtt elkezdenéd az alkalmazásod írását, a kódodba bele kell foglalnod a szükséges névtereket az Aspose.Cells könyvtár hatékony használatához. Íme, hogyan teheted meg.
 
-### Importálja az Aspose.Cells névteret
+### Aspose.Cells névtér importálása
 
 ```csharp
 using System.IO;
@@ -42,53 +44,53 @@ using Aspose.Cells.Pivot;
 using System.Drawing;
 ```
 
-Ez a kódsor biztosítja, hogy az Aspose.Cells könyvtár összes osztályához és metódusához hozzáférjen.
+Ez a kódsor biztosítja, hogy az Aspose.Cells könyvtár összes osztályához és metódusához hozzáférhess.
 
-Most pedig részletezzük a folyamatot, hogy minden világos és érthető legyen.
+Most pedig részletesen elemezzük a folyamatot, hogy minden világos és érthető legyen.
 
-## 1. lépés: Állítsa be a címtárat
+## 1. lépés: Állítsa be a címtárát
 
-Először is állítsa be azt a könyvtárat, amelyben az Excel-fájlok találhatók. Fontos a megfelelő fájl elérési út megadása.
+Először is állítsd be azt a könyvtárat, ahová az Excel-fájljaid kerülnek. Fontos, hogy a megfelelő fájlelérési utat add meg.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
 
- Tessék, cserélje ki`"Your Document Directory"`az Excel-fájlok tényleges elérési útjával. Itt kell lennie a minta pivot tábla fájljának.
+Itt cserélje ki `"Your Document Directory"` az Excel-fájlok tényleges elérési útjával. Itt kell lennie a minta pivot tábla fájlnak.
 
-## 2. lépés: Töltse be az Excel forrásfájlt
+## 2. lépés: Töltse be a forrás Excel fájlt
 
-Ezután be kell töltenünk a minta pivot táblát tartalmazó Excel fájlt. 
+Ezután be kell töltenünk a minta pivot táblázatot tartalmazó Excel fájlt. 
 
 ```csharp
-// Töltse be a minta kimutatástáblázatot tartalmazó Excel forrásfájlt
+// Minta pivot táblázatot tartalmazó forrás excel fájl betöltése
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- Ebben a lépésben létrehozzuk a`Workbook` osztály, amely betölti a megadott Excel fájlt. 
+Ebben a lépésben létrehozunk egy példányt a `Workbook` osztály, amely betölti a megadott Excel fájlt. 
 
-## 3. lépés: Nyissa meg a munkalapokat
+## 3. lépés: Hozzáférés a munkalapokhoz
 
-Most, hogy a munkafüzet betöltődött, el kell érnie a kimutatástábla adatait tartalmazó munkalapot.
+Most, hogy a munkafüzet betöltődött, hozzá kell férnie a kimutatástábla adatait tartalmazó munkalaphoz.
 
 ```csharp
-// Hozzáférés az első munkalaphoz, amely kimutatástáblázat adatait tartalmazza
+// Hozzáférés az első olyan munkalaphoz, amely kimutatástábla-adatokat tartalmaz
 Worksheet dataSheet = wb.Worksheets[0];
 ```
 
-Itt elérjük az első munkalapot, ahol a pivot tábla található. Az Excel-struktúra alapján más munkalapokat is megkereshet vagy megadhat.
+Itt elérjük az első munkalapot, amelyen a pivot tábla található. Az Excel struktúrája alapján további munkalapokat is megadhat, vagy végiglépkedhet rajta.
 
-## 4. lépés: A cellaadatok manipulálása
+## 4. lépés: Celladatok manipulálása
 
-Ezután módosítani kell néhány cellaértéket a munkalapon. 
+Következő lépésként módosítani fogsz néhány cellaértéket a munkalapon. 
 
-### 4.1. lépés: Módosítsa az A3 cellát
+### 4.1. lépés: Az A3 cella módosítása
 
-Kezdjük azzal, hogy elérjük az A3 cellát, és beállítjuk az értékét.
+Kezdjük az A3 cellához való hozzáféréssel és az értékének beállításával.
 
 ```csharp
-// Hozzáférés az A3 cellához, és beállíthatja az adatait
+// Hozzáférés az A3 cellához és az adatainak beállítása
 Cells cells = dataSheet.Cells;
 Cell cell = cells["A3"];
 cell.PutValue("FooBar");
@@ -96,9 +98,9 @@ cell.PutValue("FooBar");
 
 Ez a kódrészlet frissíti az A3 cellát a „FooBar” értékkel.
 
-### 4.2. lépés: Módosítsa a B3 cellát hosszú karakterlánccal
+### 4.2. lépés: A B3 cella módosítása hosszú karakterlánccal
 
-Most állítsunk be egy hosszú karakterláncot a B3 cellába, amely meghaladja az Excel szabványos karakterkorlátait.
+Most állítsunk be egy hosszú karakterláncot a B3 cellába, amely meghaladja az Excel szabványos karakterkorlátját.
 
 ```csharp
 // Hozzáférés a B3 cellához, beállítja az adatait
@@ -107,105 +109,105 @@ cell = cells["B3"];
 cell.PutValue(longStr);
 ```
 
-Ez a kód azért fontos, mert meghatározza az adatkorlátokkal kapcsolatos elvárásait, különösen akkor, ha az Excel kompatibilitási beállításaival dolgozik.
+Ez a kód azért fontos, mert meghatározza az adatkorlátokkal kapcsolatos elvárásokat, különösen az Excel kompatibilitási beállításaival végzett munka során.
 
 ## 5. lépés: Ellenőrizze a B3 cella hosszát
 
-Szintén elengedhetetlen a beírt karakterlánc hosszának megerősítése.
+Az is fontos, hogy megerősítsük a beírt karakterlánc hosszát.
 
 ```csharp
-// Nyomtassa ki a B3 cella hosszát
+// B3 cella karakterláncának hosszának kinyomtatása
 Console.WriteLine("Length of original data string: " + cell.StringValue.Length);
 ```
 
-Ez csak az ellenőrzésre szolgál, hogy megmutassa, hány karaktert tartalmaz a cella.
+Ez csak ellenőrzésre szolgál, hogy megtudjuk, hány karakter van a celládban.
 
-## 6. lépés: Állítsa be a többi cellaértéket
+## 6. lépés: Egyéb cellaértékek beállítása
 
-Most több cellát fogunk elérni, és beállítunk néhány értéket.
+Most további cellákat fogunk elérni, és beállítunk néhány értéket.
 
 ```csharp
-// Hozzáférés a C3 cellához, és beállíthatja annak adatait
+// Hozzáférés a C3 cellához és az adatainak beállítása
 cell = cells["C3"];
 cell.PutValue("closed");
 
-// Hozzáférés a D3 cellához, és beállíthatja annak adatait
+// Hozzáférés a D3 cellához és az adatainak beállítása
 cell = cells["D3"];
 cell.PutValue("2016/07/21");
 ```
 
-Ezen kódrészletek mindegyike több további cellát frissít a munkalapon.
+Ezen kódrészletek mindegyike több további cellát frissít a munkalapon belül.
 
-## 7. lépés: Nyissa meg a Pivot Table-t
+## 7. lépés: A kimutatástábla elérése
 
-Ezután elérheti a második munkalapot, amely a pivot tábla adatait tartalmazza.
+Ezután a második munkalapot fogod elérni, amely a kimutatástábla adatait tartalmazza.
 
 ```csharp
-//Nyissa meg a kimutatástáblázatot tartalmazó második munkalapot
+// Hozzáférés a második munkalaphoz, amely a pivot táblát tartalmazza
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Hozzáférés a pivot táblához
 PivotTable pivotTable = pivotSheet.PivotTables[0];
 ```
 
-Ez a kódrészlet lehetővé teszi a pivot tábla módosítását a kompatibilitási beállításokhoz.
+Ez a kódrészlet lehetővé teszi a pivot tábla kompatibilitási beállításokhoz történő manipulálását.
 
-## 8. lépés: Állítsa be az Excel 2003 kompatibilitását
+## 8. lépés: Az Excel 2003 kompatibilitásának beállítása
 
-Kulcsfontosságú annak beállítása, hogy a kimutatás kompatibilis-e az Excel 2003-mal vagy sem. 
+Fontos beállítani, hogy a pivot tábla kompatibilis-e az Excel 2003-mal vagy sem. 
 
 ```csharp
-// Az IsExcel2003Compatible tulajdonság megmondja, hogy a PivotTable kompatibilis-e az Excel2003-mal, miközben frissíti a kimutatást
+// Az IsExcel2003Compatible tulajdonság a PivotTable frissítésekor jelzi, hogy a PivotTable kompatibilis-e az Excel2003-mal.
 pivotTable.IsExcel2003Compatible = true;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Itt kezdődik az igazi átalakulás. Beállítás által`IsExcel2003Compatible` hogy`true`, frissítéskor a karakterhosszt 255-re korlátozza.
+Itt kezdődik az igazi átalakulás. A beállítással `IsExcel2003Compatible` hogy `true`frissítéskor a karakterek hosszát 255-re korlátozod.
 
-## 9. lépés: Ellenőrizze a hosszt a kompatibilitási beállítás után
+## 9. lépés: Ellenőrizze a hosszúságot a kompatibilitási beállítás után
 
-A kompatibilitás beállítása után nézzük meg, hogyan hat az adatokra.
+A kompatibilitás beállítása után nézzük meg, hogyan befolyásolja az adatokat.
 
 ```csharp
-// Ellenőrizze a kimutatáslap B5 cellájának értékét.
+// Ellenőrizd a pivot munkalap B5 cellájának értékét.
 Cell b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to True: " + b5.StringValue.Length);
 ```
 
-Valószínűleg megjelenik egy olyan kimenet, amely megerősíti a csonkítási hatást, ha a kezdeti adat meghaladja a 255 karaktert.
+Valószínűleg egy olyan kimenetet fog látni, amely megerősíti a csonkolás hatását, ha a kezdeti adatok meghaladják a 255 karaktert.
 
-## 10. lépés: A kompatibilitási beállítás módosítása
+## 10. lépés: Kompatibilitási beállítások módosítása
 
-Most változtassuk meg a kompatibilitási beállításokat, és ellenőrizzük újra.
+Most módosítsuk a kompatibilitási beállítást, és ellenőrizzük újra.
 
 ```csharp
-//Most állítsa az IsExcel2003Compatible tulajdonságot false értékre, majd frissítse újra
+// Most állítsd az IsExcel2003Compatible tulajdonságot hamis értékre, majd frissítsd újra
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
-Ez lehetővé teszi az adatok eredeti hosszának tükrözését a korábbi korlátozások nélkül.
+Ez lehetővé teszi, hogy az adatok az eredeti hosszukat tükrözzék a korábbi korlátozások nélkül.
 
 ## 11. lépés: Ellenőrizze újra a hosszt 
 
-Ellenőrizzük, hogy az adatok most pontosan tükrözik a valós hosszukat.
+Ellenőrizzük, hogy az adatok most már pontosan tükrözik-e a valós hosszukat.
 
 ```csharp
-// Most kinyomtatja a cellaadatok eredeti hosszát. Az adatok most nem lettek csonkolva.
+// Most kinyomtatja a cellaadatok eredeti hosszát. Az adatokat most nem csonkolták.
 b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to False: " + b5.StringValue.Length);
 ```
 
-Látnia kell, hogy a kimenet megerősíti a csonkítás eltávolítását.
+Látnia kell, hogy a kimenet megerősíti a csonkolás eltávolítását.
 
-## 12. lépés: Formázza meg a cellákat
+## 12. lépés: A cellák formázása
 
-A vizuális élmény fokozása érdekében érdemes lehet formázni a cellákat. 
+vizuális élmény fokozása érdekében érdemes lehet formázni a cellákat. 
 
 ```csharp
-// Állítsa be a B5 cella sormagasságát és oszlopszélességét, és tördelje a szöveget is
+// A B5 cella sormagasságának és oszlopszélességének beállítása, valamint a szöveg tördelése
 pivotSheet.Cells.SetRowHeight(b5.Row, 100);
 pivotSheet.Cells.SetColumnWidth(b5.Column, 65);
 Style st = b5.GetStyle();
@@ -213,42 +215,44 @@ st.IsTextWrapped = true;
 b5.SetStyle(st);
 ```
 
-Ezek a kódsorok megkönnyítik az adatok olvashatóságát a cellaméretek módosításával és a szöveg tördelésének engedélyezésével.
+Ezek a kódsorok megkönnyítik az adatok olvashatóságát a cellaméretek módosításával és a szövegkörnyezet tördelésének engedélyezésével.
 
-## 13. lépés: Mentse el a munkafüzetet
+## 13. lépés: A munkafüzet mentése
 
-Végül mentse el a munkafüzetet az elvégzett változtatásokkal.
+Végül mentse el a munkafüzetet a végrehajtott módosításokkal.
 
 ```csharp
-// Mentse a munkafüzetet xlsx formátumban
+// Munkafüzet mentése xlsx formátumban
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- A megfelelő fájlformátum kiválasztása kulcsfontosságú az Excel fájlok mentésekor. A`Xlsx`formátumot széles körben használják, és számos Excel-verzióval kompatibilis.
+A megfelelő fájlformátum kiválasztása kulcsfontosságú az Excel fájlok mentésekor. `Xlsx` formátum széles körben használt és kompatibilis az Excel számos verziójával.
 
 ## Következtetés
 
-Gratulálok! Az Aspose.Cells for .NET segítségével most beprogramozta az Excel fájlkompatibilitási beállításait. Ez az oktatóanyag felvázolta az egyes lépéseket, a környezet beállításától a pivot táblák kompatibilitási beállításainak módosításáig. Ha valaha is olyan adatokkal dolgozott, amelyek meghatározott korlátozásokat vagy kompatibilitást igényeltek, ez egy olyan képesség, amelyet nem szeretne figyelmen kívül hagyni.
+Gratulálunk! Most már programozta az Excel fájlok kompatibilitási beállításait az Aspose.Cells for .NET használatával. Ez az oktatóanyag minden lépést felvázolt, a környezet beállításától a pivot táblák kompatibilitási beállításainak módosításáig. Ha valaha is dolgozott olyan adatokkal, amelyekhez speciális korlátozások vagy kompatibilitás szükséges, akkor ezt a készséget nem szeretné figyelmen kívül hagyni.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?  
-Az Aspose.Cells egy .NET-könyvtár, amelyet arra terveztek, hogy segítse a fejlesztőket Excel-fájlok zökkenőmentes létrehozásában, kezelésében és konvertálásában.
+Az Aspose.Cells egy .NET könyvtár, amelyet úgy terveztek, hogy segítsen a fejlesztőknek zökkenőmentesen létrehozni, manipulálni és konvertálni az Excel fájlokat.
 
 ### Miért fontos az Excel kompatibilitás?  
-Az Excel-kompatibilitás kulcsfontosságú annak biztosításához, hogy a fájlok megnyithatók és használhatók legyenek az Excel tervezett verzióiban, különösen akkor, ha olyan funkciókat vagy formátumokat tartalmaznak, amelyeket a korábbi verziók nem támogatnak.
+Az Excel kompatibilitása elengedhetetlen annak biztosításához, hogy a fájlokat az Excel kívánt verzióiban lehessen megnyitni és használni, különösen akkor, ha olyan funkciókat vagy formátumokat tartalmaznak, amelyeket a korábbi verziók nem támogattak.
 
-### Létrehozhatok-e programozottan kimutatástáblákat az Aspose.Cells segítségével?  
-Igen, az Aspose.Cells használatával programozottan is létrehozhat és manipulálhat kimutatástáblázatokat. A könyvtár különféle módszereket kínál a kimutatástáblákhoz társított adatforrások, mezők és szolgáltatások hozzáadásához.
+### Létrehozhatok programozottan pivot táblákat az Aspose.Cells segítségével?  
+Igen, a pivot táblákat programozottan is létrehozhatja és módosíthatja az Aspose.Cells segítségével. A könyvtár különféle metódusokat kínál a pivot táblákhoz társított adatforrások, mezők és funkciók hozzáadására.
 
-### Hogyan ellenőrizhetem egy karakterlánc hosszát egy Excel cellában?  
-Használhatja a`StringValue` tulajdona a`Cell` objektumot a cella tartalmának lekéréséhez, majd hívja meg a`.Length` tulajdonságot, hogy megtudja a karakterlánc hosszát.
+### Hogyan tudom ellenőrizni egy karakterlánc hosszát egy Excel cellában?  
+Használhatod a `StringValue` egy tulajdona `Cell` objektumot a cella tartalmának lekéréséhez, majd a `.Length` tulajdonságot a karakterlánc hosszának megkereséséhez.
 
-### Testreszabhatom a cella formázását a sor magasságán és szélességén túl?  
- Teljesen! Az Aspose.Cells kiterjedt cellaformázást tesz lehetővé. Megváltoztathatja a betűstílusokat, színeket, szegélyeket, számformátumokat és még sok minden mást a segítségével`Style` osztály.
+### Testreszabhatom a cellaformázást a sormagasságon és -szélességen túl is?  
+Abszolút! Az Aspose.Cells kiterjedt cellaformázási lehetőségeket kínál. Módosíthatod a betűtípust, színeket, szegélyeket, számformátumokat és sok mást a... `Style` osztály.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

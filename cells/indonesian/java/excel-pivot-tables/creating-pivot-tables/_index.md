@@ -8,23 +8,25 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Tabel Pivot
 
-## Perkenalan
+## Bevezetés
 Tabel Pivot merupakan alat yang sangat penting untuk analisis dan visualisasi data. Dalam tutorial ini, kita akan membahas cara membuat Tabel Pivot menggunakan Aspose.Cells for Java API. Kami akan memberikan petunjuk langkah demi langkah beserta contoh kode sumber agar prosesnya lancar.
 
-## Prasyarat
-Sebelum kita mulai, pastikan Anda telah menginstal pustaka Aspose.Cells for Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+## Előfeltételek
+Sebelum kita mulai, pastikan Anda telah menginstal pustaka Aspose.Cells for Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
-## Langkah 1: Buat Buku Kerja
+## 1. lépés: Munkafüzet létrehozása
 ```java
 // Impor kelas yang diperlukan
 import com.aspose.cells.Workbook;
 
-// Buat Buku Kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 ```
 
@@ -74,15 +76,15 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## Langkah 7: Simpan Buku Kerja
+## 7. lépés: A munkafüzet mentése
 Terakhir, simpan buku kerja dengan Tabel Pivot.
 
 ```java
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.save("output.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami telah membahas proses pembuatan Tabel Pivot menggunakan Aspose.Cells untuk API Java. Kini Anda dapat meningkatkan kemampuan analisis dan visualisasi data dengan mudah.
 
 ## Tanya Jawab Umum
@@ -102,9 +104,11 @@ Dalam tutorial ini, kami telah membahas proses pembuatan Tabel Pivot menggunakan
    Anda dapat mengotomatiskan pembuatan Tabel Pivot di Java menggunakan Aspose.Cells untuk Java API, seperti yang ditunjukkan dalam tutorial ini.
 
 Sekarang Anda memiliki pengetahuan dan kode untuk membuat Tabel Pivot yang canggih di Java menggunakan Aspose.Cells. Bereksperimenlah dengan berbagai sumber data dan konfigurasi untuk menyesuaikan Tabel Pivot dengan kebutuhan spesifik Anda. Selamat menganalisis data!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

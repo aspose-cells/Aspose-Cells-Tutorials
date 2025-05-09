@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licentieverwerving
 Om Aspose.Cells te gebruiken, kunt u:
 - **Gratis proefperiode**: Download de bibliotheek om te beginnen met een gratis proefperiode.
-- **Tijdelijke licentie**: Vraag een tijdelijke vergunning aan voor uitgebreide evaluatie.
+- **Tijdelijke licentie**Vraag een tijdelijke vergunning aan voor uitgebreide evaluatie.
 - **Aankoop**: Overweeg om het te kopen als het aan uw behoeften voldoet.
 
 ### Basisinitialisatie en -installatie
@@ -151,6 +153,9 @@ Als u verder wilt ontdekken wat Aspose.Cells te bieden heeft, kunt u experimente
 Begin vandaag nog met Aspose.Cells en zorg voor numerieke nauwkeurigheid in al uw projecten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

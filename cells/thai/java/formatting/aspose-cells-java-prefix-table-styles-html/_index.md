@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 เพื่อติดตามต่อไป ให้แน่ใจว่าคุณมี:
 
 ### ไลบรารี เวอร์ชัน และการอ้างอิงที่จำเป็น
-- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
+- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 - Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
@@ -181,6 +183,9 @@ wb.save(outDir + "outputTableCssId.html", opts);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

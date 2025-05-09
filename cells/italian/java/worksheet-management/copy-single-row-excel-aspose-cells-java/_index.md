@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5: File di grandi dimensioni e operazioni complesse possono aumentare l'utilizz
 Esplora queste risorse per approfondire la tua conoscenza di Aspose.Cells per Java e sfruttare appieno il potenziale di manipolazione di Excel nelle tue applicazioni.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ För att följa den här handledningen effektivt behöver du:
 ### Krav för miljöinstallation:
 - Se till att du har ett Java Development Kit (JDK) installerat på din dator, helst JDK 8 eller senare.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande kunskaper i Java-programmering
 - Förståelse för XML och Gradle/Maven-byggsystem
 
@@ -176,6 +178,9 @@ Den här handledningen gav en detaljerad guide till hur du använder Aspose.Cell
 - **Supportforum:** Delta i diskussioner och få hjälp med [Aspose-forumet](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

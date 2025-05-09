@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Bezplatná zkušební verze zahrnuje vodoznaky na výstupních souborech a omeze
 Vydejte se na cestu k zvládnutí úpravy grafů v Excelu s Aspose.Cells pro Javu a vylepšete způsob, jakým prezentujete data. Hodně štěstí při programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

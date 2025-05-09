@@ -1,14 +1,16 @@
 ---
-title: Добавить групповое поле на рабочий лист в Excel
-linktitle: Добавить групповое поле на рабочий лист в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как добавить групповое поле и радиокнопки в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для разработчиков всех уровней.
-weight: 24
-url: /ru/net/excel-shapes-controls/add-group-box-to-worksheet-excel/
+"description": "Узнайте, как добавить групповое поле и радиокнопки в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для разработчиков всех уровней."
+"linktitle": "Добавить групповое поле на рабочий лист в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавить групповое поле на рабочий лист в Excel"
+"url": "/ru/net/excel-shapes-controls/add-group-box-to-worksheet-excel/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить групповое поле на рабочий лист в Excel
@@ -18,7 +20,7 @@ url: /ru/net/excel-shapes-controls/add-group-box-to-worksheet-excel/
 ## Предпосылки
 Прежде чем мы перейдем к коду, вам понадобится несколько вещей:
 1. Visual Studio: убедитесь, что на вашем компьютере установлена Visual Studio; именно в ней вы будете писать код .NET.
-2.  Aspose.Cells for .NET: Вам нужно скачать эту библиотеку. Вы можете найти ее[здесь](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells for .NET: Вам необходимо скачать эту библиотеку. Вы можете найти ее [здесь](https://releases.aspose.com/cells/net/). 
 3. Базовые знания C#: Я буду объяснять все шаг за шагом, но небольшое понимание C# поможет вам усвоить материал.
 ## Импортные пакеты
 Для любого проекта вам сначала нужно импортировать необходимые пакеты. Здесь Aspose.Cells будет вашим главным фокусом. Вот как это сделать:
@@ -70,7 +72,7 @@ GroupBox box = excelbook.Worksheets[0].Shapes.AddGroupBox(1, 0, 1, 0, 300, 250);
 box.Text = "Age Groups";
 box.Placement = PlacementType.FreeFloating;
 ```
- Строка «Возрастные группы» устанавливает метку, которая отображается в поле группы.`Placement` как`FreeFloating` позволяет перемещать коробку — гибкость имеет решающее значение!
+Строка «Возрастные группы» устанавливает метку, которая отображается в поле группы. `Placement` как `FreeFloating` позволяет перемещать коробку — гибкость имеет решающее значение!
 ## Шаг 5: Сделайте групповую рамку двухмерной
 Хотя 3D может показаться необычным, здесь мы стремимся к классическому виду.
 ```csharp
@@ -146,12 +148,14 @@ Aspose.Cells — это библиотека .NET для управления ф
 ### Могу ли я настроить внешний вид групповых полей и кнопок?
 Конечно! Aspose.Cells предоставляет обширные возможности для стилизации фигур, включая цвета, размеры и 3D-эффекты.
 ### Существует ли бесплатная пробная версия Aspose.Cells?
- Да! Вы можете попробовать бесплатно, посетив[Бесплатная пробная версия Aspose](https://releases.aspose.com/).
+Да! Вы можете попробовать бесплатно, посетив [Бесплатная пробная версия Aspose](https://releases.aspose.com/).
 ### Где я могу найти дополнительные ресурсы или поддержку для Aspose.Cells?
- The[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) это прекрасное место, где можно обратиться за помощью и поделиться знаниями с сообществом.
+The [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) — это отличное место, где можно обратиться за помощью и поделиться знаниями с сообществом.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

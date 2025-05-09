@@ -7,27 +7,29 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menyesuaikan Rumus Excel dengan GlobalizationSettings Menggunakan Aspose.Cells untuk Java
-## Perkenalan
+## Bevezetés
 Dalam dunia globalisasi saat ini, perangkat lunak harus beradaptasi dengan lancar di berbagai bahasa dan wilayah. Saat bekerja dengan spreadsheet di Java menggunakan Aspose.Cells, Anda mungkin menghadapi kebutuhan untuk mencocokkan nama rumus dengan persyaratan lokalisasi. Tutorial ini memandu Anda melalui penyesuaian rumus Excel dengan menerapkan `GlobalizationSettings` dalam Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menerapkan pengaturan globalisasi khusus.
 - Menyiapkan buku kerja dengan nama rumus yang dilokalkan.
 - Aplikasi praktis dan integrasi fitur ini.
 - Teknik pengoptimalan kinerja.
 Mari kita mulai dengan prasyarat sebelum kita mulai.
-## Prasyarat
+## Előfeltételek
 Untuk mengikutinya, Anda memerlukan:
-1. **Perpustakaan dan Ketergantungan**: Pastikan Anda telah menginstal Aspose.Cells for Java. Untuk pengaturan Maven atau Gradle, lihat di bawah ini.
-2. **Pengaturan Lingkungan**: Lingkungan pengembangan Java yang dikonfigurasi (JDK 8+).
-3. **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan Excel.
+1. **Könyvtárak és függőségek**: Pastikan Anda telah menginstal Aspose.Cells for Java. Untuk pengaturan Maven atau Gradle, lihat di bawah ini.
+2. **Környezet beállítása**: Lingkungan pengembangan Java yang dikonfigurasi (JDK 8+).
+3. **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan Excel.
 ## Menyiapkan Aspose.Cells untuk Java
-### Informasi Instalasi
+### Telepítési információk
 Untuk mengintegrasikan Aspose.Cells dalam proyek Anda, gunakan konfigurasi berikut:
 **Pakar**
 ```xml
@@ -41,11 +43,11 @@ Untuk mengintegrasikan Aspose.Cells dalam proyek Anda, gunakan konfigurasi berik
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Akuisisi Lisensi
+### Licencszerzés
 Sebelum menyelami kodenya, pertimbangkan untuk memperoleh lisensi:
-- **Uji Coba Gratis**: Unduh dan uji Aspose.Cells dengan kemampuan penuh.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk tujuan evaluasi.
-- **Pembelian**: Dapatkan lisensi komersial untuk penggunaan produksi.
+- **Ingyenes próbaverzió**: Unduh dan uji Aspose.Cells dengan kemampuan penuh.
+- **Ideiglenes engedély**: Dapatkan lisensi sementara untuk tujuan evaluasi.
+- **Vásárlás**: Dapatkan lisensi komersial untuk penggunaan produksi.
 Untuk mulai menggunakan Aspose.Cells, inisialisasikan dalam proyek Anda sebagai berikut:
 ```java
 import com.aspose.cells.*;
@@ -62,7 +64,7 @@ public class Initialization {
     }
 }
 ```
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Implementasi Pengaturan Globalisasi Kustom
 Fitur ini memungkinkan Anda untuk menyesuaikan nama fungsi dalam rumus berdasarkan pengaturan lokalisasi.
 #### Langkah 1: Tentukan Kelas Kustom yang Diperluas `GlobalizationSettings`
@@ -82,7 +84,7 @@ class GS extends GlobalizationSettings {
     }
 }
 ```
-**Penjelasan**:Kelas ini menggantikan `getLocalFunctionName` untuk mengembalikan nama fungsi yang dilokalkan untuk `SUM` Dan `AVERAGE`Mengembalikan nama asli untuk fungsi yang tidak ditimpa secara eksplisit.
+**Magyarázat**:Kelas ini menggantikan `getLocalFunctionName` untuk mengembalikan nama fungsi yang dilokalkan untuk `SUM` és `AVERAGE`Mengembalikan nama asli untuk fungsi yang tidak ditimpa secara eksplisit.
 ### Demonstrasi Pembuatan Buku Kerja dan Pelokalan Rumus
 Bagian ini memperagakan cara menyiapkan buku kerja dengan pengaturan globalisasi khusus.
 #### Langkah 2: Siapkan Buku Kerja dan Terapkan Pengaturan Globalisasi
@@ -91,13 +93,13 @@ import com.aspose.cells.*;
 
 public class WorkbookFormulaLocalization {
     public void demonstrate() throws Exception {
-        // Buat contoh buku kerja baru
+        // Új munkafüzet-példány létrehozása
         Workbook wb = new Workbook();
         
         // Tetapkan GlobalizationSettings kustom ke buku kerja
         wb.getSettings().setGlobalizationSettings(new GS());
         
-        // Akses lembar kerja pertama di buku kerja
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
         
         // Mengakses sel tertentu tempat rumus akan ditetapkan
@@ -113,40 +115,43 @@ public class WorkbookFormulaLocalization {
     }
 }
 ```
-**Penjelasan**:Kode ini menginisialisasi buku kerja, mengatur kustom `GlobalizationSettings`, dan menerapkan rumus untuk menunjukkan lokalisasi.
-## Aplikasi Praktis
-Berikut adalah beberapa skenario dunia nyata di mana fitur ini sangat berharga:
+**Magyarázat**:Kode ini menginisialisasi buku kerja, mengatur kustom `GlobalizationSettings`, dan menerapkan rumus untuk menunjukkan lokalisasi.
+## Gyakorlati alkalmazások
+Íme néhány valós helyzet, ahol ez a funkció felbecsülhetetlen értékű:
 1. **Perusahaan Multinasional**: Menyesuaikan nama formula untuk tim global untuk memastikan kejelasan.
 2. **Alat Pendidikan**: Menyesuaikan perangkat lunak pendidikan ke berbagai wilayah dengan melokalkan nama fungsi.
 3. **Perangkat Lunak Keuangan**: Menyesuaikan alat analisis keuangan untuk pasar internasional.
-## Pertimbangan Kinerja
-- **Optimalkan Waktu Pemuatan Buku Kerja**: Menggunakan `WorkbookSettings` untuk mengelola penggunaan memori secara efektif.
+## Teljesítménybeli szempontok
+- **Optimalkan Waktu Pemuatan Buku Kerja**Használat `WorkbookSettings` untuk mengelola penggunaan memori secara efektif.
 - **Evaluasi Formula yang Efisien**Kurangi perhitungan ulang yang tidak diperlukan dengan menyimpan hasil dalam cache jika memungkinkan.
-- **Manajemen Memori**: Memanfaatkan pengumpulan sampah Java dan memantau pemanfaatan sumber daya dengan Aspose.Cells untuk kinerja yang efisien.
-## Kesimpulan
+- **Memóriakezelés**: Memanfaatkan pengumpulan sampah Java dan memantau pemanfaatan sumber daya dengan Aspose.Cells untuk kinerja yang efisien.
+## Következtetés
 Sekarang, Anda harus memiliki pemahaman yang kuat tentang cara menyesuaikan rumus Excel menggunakan `GlobalizationSettings` di Aspose.Cells untuk Java. Fitur ini meningkatkan kemampuan adaptasi perangkat lunak di berbagai wilayah dengan memungkinkan nama rumus disesuaikan dengan bahasa setempat. Untuk lebih mengeksplorasi kemampuan Aspose.Cells, pertimbangkan untuk mempelajari dokumentasinya yang lengkap dan bereksperimen dengan fitur yang lebih canggih.
-**Langkah Berikutnya**:Coba integrasikan solusi ini ke dalam proyek Anda yang sudah ada atau kembangkan aplikasi kecil yang memanfaatkan rumus lokal untuk keterlibatan pengguna yang lebih baik.
-## Bagian FAQ
-1. **Apa `GlobalizationSettings` di Aspose.Cells?**
+**Következő lépések**:Coba integrasikan solusi ini ke dalam proyek Anda yang sudah ada atau kembangkan aplikasi kecil yang memanfaatkan rumus lokal untuk keterlibatan pengguna yang lebih baik.
+## GYIK szekció
+1. **Mi az `GlobalizationSettings` az Aspose.Cells-ben?**
    - Ini memungkinkan penyesuaian nama fungsi berdasarkan persyaratan lokalisasi, meningkatkan kemampuan beradaptasi perangkat lunak di berbagai wilayah.
 2. **Bagaimana cara mengatur Aspose.Cells dengan Maven?**
-   - Tambahkan ketergantungan `<artifactId>aspose-cells</artifactId>` untuk kamu `pom.xml` file di bawah dependensi.
-3. **Bisakah saya menggunakan Aspose.Cells secara gratis?**
+   - Tambahkan ketergantungan `<artifactId>aspose-cells</artifactId>` a tiédhez `pom.xml` file di bawah dependensi.
+3. **Ingyenesen használhatom az Aspose.Cells-t?**
    - Ya, Anda dapat mengunduh versi uji coba gratis dari situs web Aspose dan mendapatkan lisensi sementara untuk tujuan evaluasi.
 4. **Apa sajakah tips kinerja saat menggunakan Aspose.Cells?**
    - Optimalkan waktu muat buku kerja, kelola memori secara efisien dengan praktik terbaik Java, dan simpan hasil rumus dalam cache untuk meningkatkan kinerja.
 5. **Bagaimana penyesuaian rumus membantu dalam aplikasi dunia nyata?**
    - Memastikan bahwa perangkat lunak mudah digunakan di berbagai lokal dengan menyelaraskan nama fungsi dengan bahasa lokal, meningkatkan kegunaan dan pemahaman.
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 Manfaatkan sumber daya ini untuk lebih meningkatkan pemahaman dan keterampilan implementasi Anda dengan Aspose.Cells untuk Java. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

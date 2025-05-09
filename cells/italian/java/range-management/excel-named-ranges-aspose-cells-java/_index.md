@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Ora hai imparato a creare e utilizzare intervalli denominati con Aspose.Cells pe
 Seguendo questa guida, sarai pronto a sfruttare la potenza degli intervalli denominati con Aspose.Cells per Java nei tuoi progetti. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

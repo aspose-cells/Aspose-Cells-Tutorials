@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Je beheerst nu het maken en gebruiken van benoemde bereiken met Aspose.Cells voo
 Door deze handleiding te volgen, bent u goed toegerust om de kracht van benoemde bereiken met Aspose.Cells voor Java in uw projecten te benutten. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

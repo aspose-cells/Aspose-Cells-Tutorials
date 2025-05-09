@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licentieverwerving
 Voordat u Aspose.Cells gebruikt, kunt u overwegen een licentie aan te schaffen voor volledige toegang zonder beperkingen:
 - **Gratis proefperiode**: Test de functies met een gratis proefperiode van [Aspose](https://releases.aspose.com/cells/java/).
-- **Tijdelijke licentie**Verkrijg een tijdelijke licentie via [De aankooppagina van Aspose](https://purchase.aspose.com/temporary-license/).
+- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie via [De aankooppagina van Aspose](https://purchase.aspose.com/temporary-license/).
 - **Aankoop**Voor langdurig gebruik kunt u overwegen een volledige licentie aan te schaffen via [Aspose](https://purchase.aspose.com/buy).
 
 ### Basisinitialisatie
@@ -174,6 +176,9 @@ In deze tutorial hebben we uitgelegd hoe je grafieken in een Excel-werkmap kunt 
 - **Aankoop & gratis proefperiode**: Begin met een proefperiode of koop via [De website van Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tecniche avanzate di convalida dei dati
@@ -20,7 +22,7 @@ La convalida dei dati è il processo di definizione di regole e vincoli per impe
 
 ## Impostazione di Aspose.Cells per Java
 
-Prima di addentrarci nelle tecniche avanzate, iniziamo con Aspose.Cells per Java. Puoi scaricare la libreria da [Link per il download di Aspose.Cells per Java](https://releases.aspose.com/cells/java/). Assicurarsi di seguire le istruzioni di installazione fornite nella documentazione a [Riferimenti API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/).
+Prima di addentrarci nelle tecniche avanzate, iniziamo con Aspose.Cells per Java. Puoi scaricare la libreria da [Link per il download di Aspose.Cells per Java](https://releases.aspose.com/cells/java/)Assicurarsi di seguire le istruzioni di installazione fornite nella documentazione a [Riferimenti API di Aspose.Cells per Java](https://reference.aspose.com/cells/java/).
 
 ## Convalida dei dati di base
 
@@ -113,6 +115,7 @@ Potete trovare documentazione dettagliata e riferimenti su [Riferimenti API di A
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

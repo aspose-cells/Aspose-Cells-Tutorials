@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Het optimaliseren van de prestaties is van cruciaal belang bij het werken met gr
 In deze handleiding hebben we besproken hoe je slicers in Java Excel-bestanden kunt bijwerken met Aspose.Cells. Je hebt geleerd hoe je de bibliotheekversie kunt laden en weergeven, slicers programmatisch kunt bewerken en wijzigingen in je Excel-bestand kunt opslaan. Met deze vaardigheden kun je datafilterprocessen automatiseren en zo de productiviteit en nauwkeurigheid van data-analysetaken verbeteren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

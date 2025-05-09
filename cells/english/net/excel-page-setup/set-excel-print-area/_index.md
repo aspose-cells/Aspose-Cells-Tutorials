@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-print-area/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Print Area
@@ -125,6 +127,7 @@ For any queries or issues, you can reach out on the [Aspose support forum](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

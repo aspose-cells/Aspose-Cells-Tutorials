@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ A: Có, Aspose.Cells hỗ trợ nhiều hàm Excel, cho phép bạn tạo các b
 Bây giờ bạn đã có đầy đủ thông tin và tài nguyên, hãy bắt đầu tạo các tệp Excel động bằng Aspose.Cells trong Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Java를 사용하여 Aspose.Cells에서 사용자 지정 피벗 테이블 정렬 구현
+# Java를 사용하여 Aspose.Cells에서 사용자 정의 피벗 테이블 정렬 구현
 
 ## 소개
 피벗 테이블은 Excel에서 대용량 데이터 세트를 요약하고 분석하는 데 필수적인 도구입니다. 하지만 피벗 테이블 내에서 사용자 지정 정렬을 구현하는 것은, 특히 복잡한 데이터 구조를 다룰 때 복잡해질 수 있습니다. Java용 Aspose.Cells 라이브러리는 개발자가 정렬 로직을 쉽게 사용자 지정할 수 있도록 하여 피벗 테이블 환경을 자동화하고 향상시키는 강력한 솔루션을 제공합니다.
@@ -33,7 +35,7 @@ Java로 동적이고 정렬된 피벗 테이블을 만들 수 있도록 프로�
   
 ### 환경 설정 요구 사항
 - IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 IDE.
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 
 ### 지식 전제 조건
 - Java 프로그래밍에 대한 기본적인 이해.
@@ -184,6 +186,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면:
 지금 Aspose.Cells를 탐색하고 Java로 데이터 조작 능력을 향상시켜 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

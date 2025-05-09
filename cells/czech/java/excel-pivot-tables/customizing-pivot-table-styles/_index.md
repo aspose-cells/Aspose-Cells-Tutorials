@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Přizpůsobení stylů kontingenčních tabulek
@@ -87,9 +89,11 @@ workbook.save("output.xlsx");
    Dokumentaci k API si můžete prohlédnout na adrese [Reference Aspose.Cells pro Java API](https://reference.aspose.com/cells/java/) pro podrobné informace.
 
 Nyní máte znalosti pro vytváření a úpravu stylů kontingenčních tabulek v Aspose.Cells pro Javu. Prozkoumejte dále a udělejte ze svých datových prezentací skutečně výjimečné výsledky!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

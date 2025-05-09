@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ license.setLicense("path_to_license_file");
 4. **ฉันจะมั่นใจได้อย่างไรว่าใบอนุญาตของฉันได้รับการตั้งค่าอย่างถูกต้องสำหรับ Aspose.Cells?**
    - ปฏิบัติตามคำแนะนำบนเว็บไซต์ Aspose เพื่อดาวน์โหลดและนำไฟล์ใบอนุญาตของคุณไปใช้อย่างถูกต้อง
 5. **สามารถจัดกลุ่มแถว/คอลัมน์ข้ามเวิร์กชีตหลาย ๆ แผ่นได้หรือไม่**
-   - ในขณะที่คุณสามารถทำซ้ำได้บนหลายแผ่นงาน การจัดกลุ่มจะดำเนินการตามอินสแตนซ์ของเวิร์กชีต
+   - ในขณะที่คุณสามารถทำซ้ำในแผ่นงานหลายแผ่นได้ การจัดกลุ่มจะดำเนินการตามอินสแตนซ์ของเวิร์กชีตแต่ละแผ่น
 
 ## ทรัพยากร
 - [เอกสาร Java ของ Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -182,6 +184,9 @@ license.setLicense("path_to_license_file");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

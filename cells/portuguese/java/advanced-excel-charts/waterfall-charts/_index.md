@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gráficos em cascata
@@ -97,7 +99,7 @@ Criar gráficos em cascata usando o Aspose.Cells para Java é simples e pode apr
 
 ### Como posso personalizar a aparência do meu gráfico em cascata?
 
-Você pode personalizar a aparência do seu gráfico em cascata modificando propriedades como cores, rótulos de dados e rótulos de eixo. Consulte a documentação do Aspose.Cells para obter orientações detalhadas.
+Você pode personalizar a aparência do seu gráfico em cascata modificando propriedades como cores, rótulos de dados e rótulos de eixo. Consulte a documentação do Aspose.Cells para obter instruções detalhadas.
 
 ### Posso criar vários gráficos em cascata na mesma planilha?
 
@@ -118,6 +120,7 @@ Você pode explorar a documentação do Aspose.Cells para Java em [referência.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

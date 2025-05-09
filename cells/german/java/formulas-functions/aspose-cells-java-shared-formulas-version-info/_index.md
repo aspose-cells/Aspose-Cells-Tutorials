@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,12 +201,15 @@ Um Ihre Erkundung fortzusetzen, sollten Sie tiefer in die umfangreichen Funktion
 - **Dokumentation**: Umfassende Anleitungen und API-Referenzen unter [Aspose Cells Java-Referenz](https://reference.aspose.com/cells/java/)
 - **Download-Bibliothek**: Neueste Veröffentlichungen verfügbar auf [Aspose-Veröffentlichungen](https://releases.aspose.com/cells/java/)
 - **Lizenz erwerben**: Sichern Sie Ihren Einkauf durch [Aspose Einkaufsportal](https://purchase.aspose.com/buy)
-- **Kostenlose Testversion**: Testen Sie die Funktionen mit einer kostenlosen Testversion unter [Aspose-Veröffentlichungen](https://releases.aspose.com/cells/java/)
+- **Kostenlose Testversion**Testen Sie die Funktionen mit einer kostenlosen Testversion unter [Aspose-Veröffentlichungen](https://releases.aspose.com/cells/java/)
 - **Temporäre Lizenz**: Beantragen Sie eine vorläufige Lizenz auf der [Aspose Temporäre Lizenzseite](https://purchase.aspose.com/temporary-license/)
 - **Support-Forum**: Holen Sie sich Hilfe von anderen Benutzern und Aspose-Experten im Support-Forum
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ Explore más a fondo profundizando en las características adicionales que ofrec
 3. **¿A qué otros formatos de archivos puedo exportar además de TIFF?**
    - Aspose.Cells admite varios tipos de imágenes, incluidos PNG, JPEG y BMP.
 4. **¿Cómo puedo solucionar problemas de renderizado con Aspose.Cells?**
-   - Comprueba tu `ImageOrPrintOptions` configuración y asegúrese de que el libro de trabajo esté cargado correctamente antes de renderizarlo.
+   - Revisa tu `ImageOrPrintOptions` configuración y asegúrese de que el libro de trabajo esté cargado correctamente antes de renderizarlo.
 5. **¿Es posible automatizar este proceso para las necesidades de informes regulares?**
    - ¡Por supuesto! Programe scripts con Aspose.Cells para exportar informes a intervalos específicos.
 
@@ -134,6 +136,9 @@ Explore más a fondo profundizando en las características adicionales que ofrec
 - [Apoyo comunitario](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

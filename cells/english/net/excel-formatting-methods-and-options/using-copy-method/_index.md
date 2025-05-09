@@ -8,7 +8,9 @@ url: /net/excel-formatting-methods-and-options/using-copy-method/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Copy Method Programmatically in Excel
@@ -116,6 +118,7 @@ You can download the library from the releases page [here](https://releases.aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

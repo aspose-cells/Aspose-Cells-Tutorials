@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ WorksheetCollection wsCol = wbSource.getWorksheets();
 **왜:** 워크시트 컬렉션을 사용하면 Excel 파일 내의 개별 시트와 상호 작용할 수 있습니다.
 
 ### 명명된 범위 추가 및 설정
-수식에 대한 독일어 구문을 사용하여 명명된 범위를 정의합니다.
+수식에 독일어 구문을 사용하여 명명된 범위를 정의합니다.
 ```java
 import com.aspose.cells.Name;
 
@@ -163,6 +165,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면 다음 팁을 
 - **지원하다**: 커뮤니티에 가입하여 지원을 받으세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

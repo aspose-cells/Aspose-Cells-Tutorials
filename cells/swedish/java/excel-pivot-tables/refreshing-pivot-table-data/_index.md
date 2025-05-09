@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Uppdaterar pivottabelldata
@@ -90,9 +92,11 @@ Att uppdatera pivottabelldata i Aspose.Cells för Java är en enkel men viktig p
    - Ja, du kan schemalägga automatiska datauppdateringar med hjälp av Aspose.Cells och Java-schemaläggningsbibliotek. Detta gör att du kan hålla dina pivottabeller uppdaterade utan manuella åtgärder.
 
 Nu har du kunskapen för att uppdatera pivottabelldata i Aspose.Cells för Java. Håll dina analyser korrekta och ligg steget före i dina datadrivna beslut.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

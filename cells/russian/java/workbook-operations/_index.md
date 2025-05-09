@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@
 Освойте точное преобразование сложных HTML-файлов в Excel с помощью Aspose.Cells для Java. Изучите настройку, методы загрузки и методы сохранения.
 
 ### [Aspose.Cells Java: как задать настройки изображения для преобразования файлов Excel в HTML](./aspose-cells-java-image-preferences-html-conversion-guide/)
-Узнайте, как задать настройки изображения при конвертации HTML с помощью Aspose.Cells для Java. Это руководство гарантирует высококачественные визуальные эффекты при конвертации сложных файлов Excel.
+Узнайте, как задать настройки изображения при конвертации HTML с помощью Aspose.Cells для Java. Это руководство обеспечивает высококачественные визуальные эффекты при конвертации сложных файлов Excel.
 
 ### [Как загружать и получать доступ к файлам SXC с помощью Aspose.Cells в Java: подробное руководство](./aspose-cells-java-load-access-sxc-files/)
 Узнайте, как легко загружать и управлять устаревшими файлами SXC с помощью Aspose.Cells для Java. Это руководство охватывает все: от настройки до доступа к рабочим листам и ячейкам.
@@ -306,7 +308,7 @@
 ### [Конвертация Excel в HTML с помощью Aspose.Cells Java: пошаговое руководство](./excel-to-html-aspose-cells-java/)
 Узнайте, как преобразовать файлы Excel в HTML с помощью Aspose.Cells для Java. Улучшите представление данных и доступность в ваших веб-проектах.
 
-### [Конвертируйте Excel в HTML с подсказками с помощью Aspose.Cells Java: подробное руководство](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
+### [Преобразование Excel в HTML с подсказками с помощью Aspose.Cells Java: подробное руководство](./excel-to-html-conversion-with-tooltips-aspose-cells-java/)
 Узнайте, как преобразовать таблицы Excel в интерактивные HTML-страницы с подсказками с помощью Aspose.Cells для Java. Улучшите доступность и представление данных в Интернете.
 
 ### [Автоматизируйте преобразование Excel в PDF с помощью Aspose.Cells в Java](./excel-to-pdf-automation-aspose-cells-java/)
@@ -408,11 +410,11 @@
 ### [Мастер создания и стилизации рабочих книг с помощью Aspose.Cells для Java | Полное руководство](./master-workbook-creation-aspose-cells-java/)
 Узнайте, как создавать, получать доступ, изменять и оформлять рабочие книги Excel с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству по операциям с рабочими книгами.
 
-### [Полное руководство по преобразованию рабочих книг в PDF-файлы с использованием Aspose.Cells Java](./master-workbook-pdf-conversion-aspose-cells-java/)
+### [Полное руководство по конвертации рабочих книг в PDF-файлы с использованием Aspose.Cells Java](./master-workbook-pdf-conversion-aspose-cells-java/)
 Узнайте, как преобразовать рабочие книги Excel в оптимизированные файлы PDF с помощью Aspose.Cells для Java с подробными руководствами по внедрению и расширенными параметрами.
 
 ### [Как управлять частями XML рабочей книги с помощью Aspose.Cells для Java: подробное руководство](./master-workbook-xml-parts-aspose-cells-java/)
-Мастер частей XML рабочей книги с помощью Aspose.Cells для Java. Узнайте, как добавлять, управлять и искать пользовательские данные XML в рабочих книгах Excel.
+Мастер частей XML рабочей книги с использованием Aspose.Cells для Java. Узнайте, как добавлять, управлять и искать пользовательские данные XML в рабочих книгах Excel.
 
 ### [Освоение Aspose.Cells для Java: эффективная загрузка и извлечение текста из книг Excel](./mastering-aspose-cells-excel-load-extract-text/)
 Узнайте, как эффективно загружать, получать доступ и извлекать текст из книг Excel с помощью Aspose.Cells для Java. Это руководство охватывает все: от настройки до расширенных функций.
@@ -469,7 +471,7 @@
 Узнайте, как программно извлекать версии файлов Excel с помощью Aspose.Cells для Java. Это руководство охватывает все шаги от настройки до внедрения, обеспечивая совместимость с различными форматами Excel.
 
 ### [Как сохранить файлы Excel в различных форматах с помощью Aspose.Cells Java](./save-excel-files-aspose-cells-java/)
-Узнайте, как легко сохранять файлы Excel в различных форматах с помощью Aspose.Cells для Java. Это руководство охватывает XLSX, PDF, HTML и многое другое.
+Узнайте, как легко сохранять файлы Excel в нескольких форматах с помощью Aspose.Cells для Java. Это руководство охватывает XLSX, PDF, HTML и многое другое.
 
 ### [Как установить версию документа Excel с помощью Aspose.Cells для Java](./set-excel-version-aspose-cells-java/)
 Узнайте, как устанавливать и управлять свойствами документа, такими как управление версиями в файлах Excel, с помощью Aspose.Cells для Java. Следуйте этому пошаговому руководству для эффективных операций с рабочей книгой.
@@ -486,6 +488,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

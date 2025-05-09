@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ worksheets.getNames().removeAt(0);
 workbook.save("RANRange_out.xls");
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 Aspose.Cells for Java は、可能性の世界を広げます。
 1. **データレポート**動的に名前が付けられた範囲を使用してレポート生成を自動化します。
@@ -215,6 +217,9 @@ Aspose.Cells for Java を使って名前付き範囲を作成、コピー、削�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

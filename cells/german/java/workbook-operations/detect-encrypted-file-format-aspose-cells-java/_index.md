@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Zu den nächsten Schritten gehören das Experimentieren mit verschiedenen Dateit
 Mit dieser Anleitung sind Sie nun in der Lage, die Dateiformaterkennung für verschlüsselte Dateien mit Aspose.Cells in Java zu implementieren. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

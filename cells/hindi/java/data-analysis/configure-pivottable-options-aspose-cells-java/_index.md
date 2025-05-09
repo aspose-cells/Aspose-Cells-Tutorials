@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ wb.save("SettingPivotTableOption_out.xlsx");
 यह मार्गदर्शिका आपको PivotTables को प्रभावी ढंग से कॉन्फ़िगर करने में Aspose.Cells for Java की पूरी क्षमता का उपयोग करने में सक्षम बनाएगी। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

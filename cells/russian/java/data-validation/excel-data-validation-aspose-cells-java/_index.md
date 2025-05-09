@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ System.out.println("Process completed successfully.");
 ## Соображения производительности
 
 Для оптимальной производительности с Aspose.Cells:
-- **Использование ресурсов:** Эффективно утилизируйте ненужные предметы.
+- **Использование ресурсов:** Эффективно избавляйтесь от ненужных предметов.
 - **Лучшие практики:** Использовать `try-with-resources` для потоков файлов и эффективного управления большими наборами данных.
 
 ## Заключение
@@ -203,6 +205,9 @@ System.out.println("Process completed successfully.");
 - **Временная лицензия:** Запросите временную лицензию для расширенной оценки на [Страница лицензии](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

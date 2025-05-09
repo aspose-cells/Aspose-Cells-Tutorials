@@ -1,14 +1,16 @@
 ---
-title: Xóa bỏ cài đặt máy in hiện tại của bảng tính
-linktitle: Xóa bỏ cài đặt máy in hiện tại của bảng tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Khám phá hướng dẫn từng bước để xóa cài đặt máy in khỏi bảng tính Excel bằng Aspose.Cells cho .NET, giúp nâng cao chất lượng in tài liệu của bạn một cách dễ dàng.
-weight: 80
-url: /vi/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
+"description": "Khám phá hướng dẫn từng bước để xóa cài đặt máy in khỏi bảng tính Excel bằng Aspose.Cells cho .NET, giúp nâng cao chất lượng in tài liệu của bạn một cách dễ dàng."
+"linktitle": "Xóa bỏ cài đặt máy in hiện tại của bảng tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Xóa bỏ cài đặt máy in hiện tại của bảng tính"
+"url": "/vi/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa bỏ cài đặt máy in hiện tại của bảng tính
@@ -22,7 +24,7 @@ Cho dù bạn đang phát triển các ứng dụng thao tác với các tệp E
 Trước khi chúng ta bắt đầu xóa những cài đặt máy in phiền phức đó, bạn sẽ cần một vài thứ. Sau đây là danh sách kiểm tra nhanh để đảm bảo bạn đã sẵn sàng:
 
 1. Đã cài Visual Studio: Cần có môi trường phát triển để viết và thực thi mã .NET của bạn. Nếu bạn chưa có, hãy truy cập trang web Visual Studio và tải xuống phiên bản mới nhất.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện này trong dự án của mình. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần thư viện này trong dự án của mình. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
 3. Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel mẫu chứa cài đặt máy in. Bạn có thể tạo một tệp hoặc sử dụng tệp demo do Aspose cung cấp.
 
 Bây giờ chúng ta đã có mọi thứ cần thiết, hãy cùng bắt tay vào viết mã nhé!
@@ -37,7 +39,7 @@ Mở dự án Visual Studio hiện có của bạn hoặc tạo một dự án �
 
 ### Thêm tài liệu tham khảo
 
- Trong dự án của bạn, hãy đi tới`References` , nhấp chuột phải và chọn`Add Reference...`Tìm kiếm thư viện Aspose.Cells và thêm nó vào dự án của bạn.
+Trong dự án của bạn, hãy đi tới `References`, nhấp chuột phải và chọn `Add Reference...`. Tìm kiếm thư viện Aspose.Cells và thêm nó vào dự án của bạn.
 
 ### Nhập không gian tên bắt buộc
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Ở đây, bạn sẽ thay thế`"Your Document Directory"` Và`"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
+Ở đây, bạn sẽ thay thế `"Your Document Directory"` Và `"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
 
 ## Bước 2: Tải tệp Excel
 
@@ -118,7 +120,7 @@ if (ps.PrinterSettings != null)
     Console.WriteLine("Paper Size: " + ps.PaperSize);
 ```
 
- Ở đây, nếu`PrinterSettings` được tìm thấy, chúng tôi cung cấp một số phản hồi thông qua bảng điều khiển nêu chi tiết tên tờ giấy và kích thước giấy của tờ giấy đó.
+Ở đây, nếu `PrinterSettings` được tìm thấy, chúng tôi cung cấp một số phản hồi thông qua bảng điều khiển nêu chi tiết tên tờ giấy và kích thước tờ giấy đó.
 
 ## Bước 6: Xóa cài đặt máy in
 
@@ -155,19 +157,21 @@ Và bạn đã có nó! Bạn đã điều hướng thành công các ngóc ngá
 Aspose.Cells là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
-Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó. Kiểm tra[liên kết dùng thử miễn phí](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó. Kiểm tra [liên kết dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?  
 Không, Aspose.Cells hoạt động độc lập với Microsoft Excel. Bạn không cần cài đặt Excel trên máy của mình.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
- Bạn có thể ghé thăm[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và cung cấp tài nguyên từ cộng đồng.
+Bạn có thể ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và cung cấp tài nguyên từ cộng đồng.
 
 ### Có giấy phép tạm thời không?  
- Chắc chắn rồi! Bạn có thể nộp đơn xin[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để truy cập tất cả các tính năng mà không bị giới hạn trong thời gian có hạn.
+Chắc chắn rồi! Bạn có thể nộp đơn xin [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để truy cập tất cả các tính năng mà không bị giới hạn trong thời gian có hạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

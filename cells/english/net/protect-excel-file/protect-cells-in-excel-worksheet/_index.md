@@ -8,7 +8,9 @@ url: /net/protect-excel-file/protect-cells-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Cells In Excel Worksheet
@@ -167,6 +169,7 @@ Aspose.Cells supports multiple formats including XLSX, XLS, CSV, and more.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

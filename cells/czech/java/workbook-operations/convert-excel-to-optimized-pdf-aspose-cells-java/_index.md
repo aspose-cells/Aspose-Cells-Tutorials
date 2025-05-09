@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Dodržováním tohoto návodu jste se naučili, jak načíst soubor aplikace Exc
 Udělejte další krok ve své vývojářské cestě experimentováním s Aspose.Cells pro Javu a pozvedněte své procesy převodu z Excelu do PDF ještě dnes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

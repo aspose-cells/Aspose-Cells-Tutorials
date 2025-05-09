@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 - Создание экземпляра класса Workbook
 - Доступ к рабочим листам и их добавление
 - Изменение значений ячеек
-- Применение нижнего индексного стиля
+- Применение стиля нижнего индекса
 
 Готовы ли вы преобразовать свои навыки управления файлами Excel? Давайте рассмотрим необходимые условия.
 
@@ -166,6 +168,9 @@ Aspose.Cells для Java универсален и может использов
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

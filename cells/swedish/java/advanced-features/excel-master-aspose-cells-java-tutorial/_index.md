@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Vi kommer att använda Aspose.Cells för Java för att hantera Excel-filer. Se t
 
 ## Konfigurera Aspose.Cells för Java
 
-För att konfigurera Aspose.Cells, integrera det i ditt Java-projekt med Maven eller Gradle som byggverktyg.
+För att konfigurera Aspose.Cells, integrera det i ditt Java-projekt med hjälp av Maven eller Gradle som byggverktyg.
 
 ### Använda Maven
 
@@ -220,6 +222,9 @@ Redo att ta dina kunskaper vidare? Försök att implementera den här lösningen
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

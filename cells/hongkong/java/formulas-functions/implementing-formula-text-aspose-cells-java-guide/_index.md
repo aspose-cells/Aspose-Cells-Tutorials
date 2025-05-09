@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "了解如何使用 Java 的 Aspose.Cells 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。"
+"description": "了解如何使用 Aspose.Cells 和 Java 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。"
 "title": "如何在 Aspose.Cells for Java 中實作 FormulaText&#58;逐步指南"
 "url": "/zh-hant/java/formulas-functions/implementing-formula-text-aspose-cells-java-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ public class InitializeAspose {
 透過利用 Aspose.Cells 和 Java，您可以在應用程式中有效地管理和操作 Excel 檔案。探索更多功能以最大限度地發揮其在您的專案中的潛力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

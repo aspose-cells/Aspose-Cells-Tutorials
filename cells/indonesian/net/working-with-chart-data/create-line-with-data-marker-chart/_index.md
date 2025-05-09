@@ -1,36 +1,38 @@
 ---
-title: Buat Garis dengan Bagan Penanda Data
-linktitle: Buat Garis dengan Bagan Penanda Data
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara membuat bagan Garis dengan Penanda Data di Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk membuat dan menyesuaikan bagan dengan mudah.
-weight: 10
-url: /id/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Tanuld meg, hogyan hozhatsz létre adatjelölőkkel ellátott vonaldiagramot Excelben az Aspose.Cells for .NET használatával. Kövesd ezt a lépésről lépésre szóló útmutatót a diagramok egyszerű létrehozásához és testreszabásához."
+"linktitle": "Vonaldiagram létrehozása adatjelölővel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Vonaldiagram létrehozása adatjelölővel"
+"url": "/id/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Garis dengan Bagan Penanda Data
+# Vonaldiagram létrehozása adatjelölővel
 
-## Perkenalan
+## Bevezetés
 
-Pernahkah Anda bertanya-tanya bagaimana cara membuat grafik yang memukau di Excel secara terprogram? Nah, bersiaplah, karena hari ini kita akan membahas cara membuat Grafik Garis dengan Penanda Data menggunakan Aspose.Cells untuk .NET. Tutorial ini akan memandu Anda di setiap langkah, memastikan Anda memiliki pemahaman yang baik tentang pembuatan grafik, bahkan jika Anda baru saja memulai dengan Aspose.Cells.
+Elgondolkodtál már azon, hogyan hozhatsz létre lenyűgöző diagramokat Excelben programozottan? Nos, akkor kapd fel a csatodat, mert ma belevágunk egy vonaldiagram létrehozásába adatjelölőkkel az Aspose.Cells for .NET használatával. Ez az oktatóanyag végigvezet téged minden lépésen, biztosítva, hogy szilárdan elsajátítsd a diagramgenerálást, még akkor is, ha most ismerkedsz az Aspose.Cells-szel.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda telah menyiapkan semua hal agar dapat mengikutinya dengan lancar.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy minden a helyén van a zökkenőmentes követéshez.
 
-1. Aspose.Cells untuk Pustaka .NET – Anda perlu menginstal ini. Anda dapat mengambilnya[Di Sini](https://releases.aspose.com/cells/net/).
-2. .NET Framework – Pastikan lingkungan pengembangan Anda disiapkan dengan versi .NET terbaru.
-3. IDE (Integrated Development Environment) – Visual Studio direkomendasikan.
-4.  Lisensi Aspose.Cells yang valid – Jika Anda belum memilikinya, Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau lihat mereka[uji coba gratis](https://releases.aspose.com/).
+1. Aspose.Cells for .NET Library – Telepítened kell ezt. Letöltheted. [itt](https://releases.aspose.com/cells/net/).
+2. .NET-keretrendszer – Győződjön meg arról, hogy fejlesztői környezete a .NET legújabb verziójával van beállítva.
+3. IDE (Integrált fejlesztői környezet) – Visual Studio ajánlott.
+4. Érvényes Aspose.Cells licenc – Ha nincs ilyen, igényelhet egyet [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy nézd meg az övékét [ingyenes próba](https://releases.aspose.com/).
 
-Siap untuk memulai? Mari kita bahas!
+Készen állsz? Nézzük részletesen!
 
-## Mengimpor Paket yang Diperlukan
+## Szükséges csomagok importálása
 
-Untuk memulai, pastikan Anda mengimpor namespace berikut ke dalam proyek Anda. Namespace ini akan menyediakan kelas dan metode yang diperlukan untuk membuat bagan Anda.
+Kezdésként importáld a következő névtereket a projektedbe. Ezek biztosítják majd a diagram létrehozásához szükséges osztályokat és metódusokat.
 
 ```csharp
 using System;
@@ -40,38 +42,38 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Setelah Anda menguasainya, kita dapat mulai membuat kode!
+Ha ezzel megvagyunk, elkezdhetjük a kódolást!
 
-## Langkah 1: Siapkan Buku Kerja dan Lembar Kerja Anda
+## 1. lépés: A munkafüzet és a munkalap beállítása
 
-Hal pertama yang harus dilakukan, Anda perlu membuat buku kerja baru dan mengakses lembar kerja pertama.
+Először is létre kell hoznia egy új munkafüzetet, és el kell érnie az első munkalapot.
 
 ```csharp
-//Direktori keluaran
+//Kimeneti könyvtár
 static string outputDir = "Your Document Directory";
 		
-// Membuat contoh buku kerja
+// Munkafüzet példányosítása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Anggap buku kerja sebagai berkas Excel dan lembar kerja sebagai lembar tertentu di dalamnya. Dalam kasus ini, kita bekerja dengan lembar pertama.
+Gondolj a munkafüzetre úgy, mint egy Excel-fájlra, a munkalapra pedig úgy, mint egy adott munkalapra benne. Ebben az esetben az első munkalappal dolgozunk.
 
-## Langkah 2: Isi Lembar Kerja dengan Data
+## 2. lépés: A munkalap feltöltése adatokkal
 
-Sekarang setelah kita memiliki lembar kerja, mari kita isi dengan beberapa data. Kita akan membuat titik data acak untuk dua rangkaian nilai.
+Most, hogy megvan a munkalapunk, töltsük fel néhány adattal. Két értéksorozathoz hozunk létre véletlenszerű adatpontokat.
 
 ```csharp
-// Tetapkan judul kolom
+// Oszlopcím beállítása
 worksheet.Cells[0, 0].Value = "X";
 worksheet.Cells[0, 1].Value = "Y";
 
-// Data acak untuk membuat grafik
+// Véletlenszerű adatok a diagram létrehozásához
 Random R = new Random();
 
-// Buat data acak dan simpan di sel
+// Véletlenszerű adatok létrehozása és mentése a cellákba
 for (int i = 1; i < 21; i++)
 {
     worksheet.Cells[i, 0].Value = i;
@@ -85,126 +87,128 @@ for (int i = 21; i < 41; i++)
 }
 ```
 
-Di sini, kami menggunakan angka acak untuk mensimulasikan data, tetapi dalam aplikasi kehidupan nyata, Anda dapat mengisinya dengan nilai sebenarnya dari kumpulan data Anda.
+Itt véletlenszerű számokat használunk az adatok szimulálására, de a valós alkalmazásokban feltölthetjük az adathalmazunkból származó tényleges értékekkel.
 
-## Langkah 3: Tambahkan Bagan ke Lembar Kerja
+## 3. lépés: A diagram hozzáadása a munkalaphoz
 
-Berikutnya, kita tambahkan bagan tersebut ke lembar kerja dan pilih jenisnya – dalam kasus ini, Bagan Garis dengan Penanda Data.
+Ezután hozzáadjuk a diagramot a munkalaphoz, és kiválasztjuk a típust – ebben az esetben egy adatjelölőkkel ellátott vonaldiagramot.
 
 ```csharp
-// Tambahkan bagan ke lembar kerja
+// Diagram hozzáadása a munkalaphoz
 int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
 
-// Akses grafik yang baru dibuat
+// Hozzáférés az újonnan létrehozott diagramhoz
 Chart chart = worksheet.Charts[idx];
 ```
 
-Potongan kode ini menambahkan diagram garis dengan penanda data ke lembar kerja, menempatkannya dalam rentang tertentu (1,3 hingga 20,20). Cukup mudah, bukan?
+Ez a kódrészlet egy adatjelölőkkel ellátott vonaldiagramot ad a munkalaphoz, egy adott tartományba helyezve azt (1,3-tól 20,20-ig). Elég egyszerű, ugye?
 
-## Langkah 4: Sesuaikan Tampilan Bagan
+## 4. lépés: A diagram megjelenésének testreszabása
 
-Setelah diagram dibuat, Anda dapat menatanya sesuai keinginan. Mari ubah latar belakang, judul, dan gaya diagram.
+Miután a diagram elkészült, ízlés szerint formázhatja. Változtassuk meg a hátteret, a címet és a diagram stílusát.
 
 ```csharp
-// Mengatur gaya grafik
+// Diagramstílus beállítása
 chart.Style = 3;
 
-// Tetapkan nilai penskalaan otomatis ke benar
+// Az automatikus skálázás értékének igazra állítása
 chart.AutoScaling = true;
 
-// Atur warna latar depan menjadi putih
+// Előtérszín beállítása fehérre
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Tetapkan properti judul bagan
+// Diagram címtulajdonságainak beállítása
 chart.Title.Text = "Sample Chart";
 
-// Tetapkan jenis grafik
+// Diagramtípus beállítása
 chart.Type = ChartType.LineWithDataMarkers;
 ```
 
-Di sini, kami memberikan bagan tampilan yang bersih dengan menetapkan latar belakang putih, penskalaan otomatis, dan memberinya judul yang bermakna.
+Itt letisztult megjelenést kölcsönözünk a diagramnak egy fehér háttér beállításával, automatikus skálázással és egy értelmes címmel.
 
-## Langkah 5: Tentukan Seri dan Plot Titik Data
+## 5. lépés: Sorozatok definiálása és adatpontok ábrázolása
 
-Sekarang setelah bagan kita tampak bagus, kita perlu menentukan rangkaian data yang akan diplot.
+Most, hogy a diagramunk jól néz ki, meg kell határoznunk az ábrázolandó adatsorokat.
 
 ```csharp
-// Tetapkan Properti judul sumbu kategori
+// Kategóriatengely címének tulajdonságainak beállítása
 chart.CategoryAxis.Title.Text = "Units";
 
-// Tentukan dua seri untuk grafik tersebut
+// Két sorozat definiálása a diagramhoz
 int s2_idx = chart.NSeries.Add("A2: A21", true);
 int s3_idx = chart.NSeries.Add("A22: A41", true);
 ```
 
-Seri ini sesuai dengan rentang titik data yang telah kita isi sebelumnya.
+Ezek a sorozatok megfelelnek a korábban feltöltött adatpontok tartományainak.
 
-## Langkah 6: Tambahkan Warna dan Sesuaikan Penanda Seri
+## 6. lépés: Színek hozzáadása és sorozatjelölők testreszabása
 
-Mari buat bagan ini lebih menarik dengan menambahkan warna khusus ke penanda data kita.
+Tegyük még vonzóbbá ezt a diagramot azáltal, hogy egyéni színeket adunk az adatjelölőinkhez.
 
 ```csharp
-// Sesuaikan seri pertama
+// Első sorozat testreszabása
 chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow;
 chart.NSeries[s2_idx].Marker.Border.IsVisible = false;
 
-// Sesuaikan seri kedua
+// Második sorozat testreszabása
 chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green;
 chart.NSeries[s3_idx].Marker.Border.IsVisible = false;
 ```
 
-Dengan menyesuaikan warna, Anda membuat bagan tidak hanya fungsional tetapi juga menarik secara visual!
+A színek testreszabásával a diagramot nemcsak funkcionálissá, hanem vizuálisan is vonzóvá teheted!
 
-## Langkah 7: Tetapkan Nilai X dan Y untuk Setiap Seri
+## 7. lépés: X és Y értékek beállítása minden sorozathoz
 
-Terakhir, mari kita tetapkan nilai X dan Y untuk setiap seri kita.
+Végül rendeljük hozzá az X és Y értékeket az egyes sorozatainkhoz.
 
 ```csharp
-// Tetapkan nilai X dan Y dari seri pertama
+// Az első sorozat X és Y értékeinek beállítása
 chart.NSeries[s2_idx].XValues = "A2: A21";
 chart.NSeries[s2_idx].Values = "B2: B21";
 
-// Tetapkan nilai X dan Y dari seri kedua
+// A második sorozat X és Y értékeinek beállítása
 chart.NSeries[s3_idx].XValues = "A22: A41";
 chart.NSeries[s3_idx].Values = "B22: B41";
 ```
 
-Nilainya berdasarkan pada data yang kita isi pada langkah 2.
+Az értékek a 2. lépésben feltöltött adatokon alapulnak.
 
-## Langkah 8: Simpan Buku Kerja
+## 8. lépés: A munkafüzet mentése
 
-Sekarang semuanya sudah diatur, mari simpan buku kerja, sehingga kita dapat melihat bagan tersebut dalam aksi.
+Most, hogy minden beállított, mentsük el a munkafüzetet, hogy működés közben is láthassuk a diagramot.
 
 ```csharp
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-Selesai! Anda baru saja membuat diagram garis dengan penanda data menggunakan Aspose.Cells for .NET.
+És ennyi! Most készítettél egy vonaldiagramot adatjelölőkkel az Aspose.Cells for .NET használatával.
 
-## Kesimpulan
+## Következtetés
 
-Membuat bagan secara terprogram di Excel mungkin tampak sulit, tetapi dengan Aspose.Cells untuk .NET, semudah mengikuti resep langkah demi langkah. Dari menyiapkan buku kerja hingga menyesuaikan tampilan bagan, pustaka canggih ini menangani semuanya. Baik Anda membuat laporan, dasbor, atau visualisasi data, Aspose.Cells memungkinkan Anda melakukannya dengan mudah.
+Diagramok programozott létrehozása Excelben ijesztőnek tűnhet, de az Aspose.Cells for .NET segítségével ez olyan egyszerű, mint egy lépésről lépésre haladó recept követése. A munkafüzet beállításától a diagram megjelenésének testreszabásáig ez a hatékony könyvtár mindent kezel. Akár jelentéseket, irányítópultokat vagy adatvizualizációkat készít, az Aspose.Cells segítségével mindezt könnyedén megteheti.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah saya menyesuaikan grafik lebih lanjut?  
-Tentu saja! Aspose.Cells menawarkan banyak sekali opsi penyesuaian, mulai dari font hingga garis kisi dan masih banyak lagi.
+### Testreszabhatom a diagramot tovább?  
+Abszolút! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és egyebekig.
 
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?  
- Ya, lisensi diperlukan untuk fungsionalitas penuh. Anda bisa mendapatkannya[lisensi sementara](https://purchase.aspose.com/temporary-license/) atau mulai dengan[uji coba gratis](https://releases.aspose.com/).
+### Szükségem van licencre az Aspose.Cells használatához?  
+Igen, a teljes funkcionalitáshoz licenc szükséges. Szerezhet egyet. [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy kezdj egy [ingyenes próba](https://releases.aspose.com/).
 
-### Bagaimana cara menambahkan lebih banyak seri data?  
- Cukup tambahkan seri tambahan menggunakan`NSeries.Add` metode, menentukan rentang sel untuk data baru.
+### Hogyan adhatok hozzá több adatsort?  
+Csak adjon hozzá további sorozatokat a `NSeries.Add` metódus, amely megadja az új adatok cellatartományait.
 
-### Bisakah saya mengekspor bagan sebagai gambar?  
- Ya, Anda dapat mengekspor grafik secara langsung sebagai gambar menggunakan`Chart.ToImage` metode.
+### Exportálhatom a diagramot képként?  
+Igen, a diagramokat közvetlenül képként exportálhatja a `Chart.ToImage` módszer.
 
-### Apakah Aspose.Cells mendukung grafik 3D?  
-Ya, Aspose.Cells mendukung berbagai jenis bagan, termasuk bagan 3D.
+### Az Aspose.Cells támogatja a 3D-s diagramokat?  
+Igen, az Aspose.Cells a diagramtípusok széles skáláját támogatja, beleértve a 3D-s diagramokat is.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

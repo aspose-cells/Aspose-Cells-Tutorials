@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatisieren von Excel-Diagrammen
@@ -117,9 +119,11 @@ Die Automatisierung von Excel-Diagrammen mit Aspose.Cells für Java vereinfacht 
    Erkunden Sie die API-Dokumentation unter [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) für ausführliche Informationen und Beispiele.
 
 Automatisieren Sie Ihre Excel-Diagrammaufgaben mühelos mit Aspose.Cells für Java und verbessern Sie Ihre Datenvisualisierungsfunktionen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

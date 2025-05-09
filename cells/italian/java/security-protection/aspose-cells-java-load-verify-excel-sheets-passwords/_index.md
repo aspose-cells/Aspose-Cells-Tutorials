@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Scopri come utilizzare Aspose.Cells per Java per caricare una cartella di lavoro Excel e verificare le password dei fogli di lavoro in modo efficiente. Padroneggia la sicurezza dei dati con la nostra guida passo passo."
+"description": "Scopri come utilizzare Aspose.Cells per Java per caricare una cartella di lavoro di Excel e verificare le password dei fogli di lavoro in modo efficiente. Padroneggia la sicurezza dei dati con la nostra guida passo passo."
 "title": "Aspose.Cells Java&#58; Carica e verifica in modo sicuro le password dei fogli Excel"
 "url": "/it/java/security-protection/aspose-cells-java-load-verify-excel-sheets-passwords/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,6 +161,9 @@ Seguendo questa guida, hai imparato come caricare una cartella di lavoro di Exce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

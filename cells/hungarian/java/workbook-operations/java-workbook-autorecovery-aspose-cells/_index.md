@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Az AutoRecover tulajdonság aktuális állapotának olvasása segít megérteni,
 Szabályozhatja, hogy az Excel váratlan bezáráskor automatikusan helyreállítsa-e a nem mentett munkákat.
 
 **Megvalósítási lépések:**
-1. **Állítsd az automatikus visszaállítást hamis értékre:**
+1. **Állítsd az AutoRecover értéket hamisra:**
    ```java
    workbook.getSettings().setAutoRecover(false); // Az automatikus helyreállítási funkció letiltása
    ```
@@ -118,7 +120,7 @@ Szabályozhatja, hogy az Excel váratlan bezáráskor automatikusan helyreállí
 Ez a lépés magában foglalja a módosítások mentését, beleértve az AutoRecover tulajdonság módosításait is.
 
 **Megvalósítási lépések:**
-1. **A munkafüzet mentése:**
+1. **Munkafüzet mentése:**
    ```java
    String outFilePath = outDir + "/SetAutoRecoverProperty_out.xlsx";
    workbook.save(outFilePath); // Munkafüzet mentése a megadott elérési útra
@@ -180,6 +182,9 @@ Készen állsz arra, hogy átvedd az irányítást az Excel-fájljaid felett? Pr
 - **Támogatás**Csatlakozz a beszélgetéshez és kérj segítséget a [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

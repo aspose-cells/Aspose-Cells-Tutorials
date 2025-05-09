@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ L'ottimizzazione delle prestazioni è fondamentale quando si gestiscono file di 
 In questa guida abbiamo illustrato come aggiornare gli slicer nei file Java Excel utilizzando Aspose.Cells. Abbiamo imparato a caricare e visualizzare la versione della libreria, a manipolare gli slicer a livello di codice e a salvare le modifiche nel file Excel. Grazie a queste competenze, è possibile automatizzare i processi di filtraggio dei dati, migliorando la produttività e l'accuratezza delle attività di analisi dei dati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

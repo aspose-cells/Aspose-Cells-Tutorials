@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,9 +156,9 @@ workbook.save(temporaryFile);
 
 ## 実用的なアプリケーション
 1. **財務報告**財務概要全体でトレンド チャートをすばやく複製して一貫性を維持します。
-2. **売上分析**販売実績グラフをコピーして、別のシート上の主要な指標を強調表示します。
+2. **売上分析**販売実績チャートをコピーして、別のシート上の主要な指標を強調表示します。
 3. **在庫管理**重複した在庫レベル グラフを使用して、ワークブックの別のセクションで比較表示します。
-4. **プロジェクト計画**プロジェクトのタイムライン間でガント チャートを転送して、管理を効率化します。
+4. **プロジェクト計画**ガント チャートをプロジェクト タイムライン間で転送して、管理を効率化します。
 
 ## パフォーマンスに関する考慮事項
 ### パフォーマンスの最適化:
@@ -200,6 +202,9 @@ workbook.save(temporaryFile);
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

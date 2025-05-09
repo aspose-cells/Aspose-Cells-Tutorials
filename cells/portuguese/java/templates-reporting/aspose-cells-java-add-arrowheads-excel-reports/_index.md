@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,8 +59,8 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Para usar o Aspose.Cells para Java, você pode começar com um teste gratuito para explorar seus recursos. Para uso prolongado, considere obter uma licença temporária ou completa:
 
-- **Teste grátis**Baixe a versão mais recente em [Lançamentos Aspose](https://releases.aspose.com/cells/java/).
-- **Licença Temporária**Solicite uma licença temporária em [Aspose Compra](https://purchase.aspose.com/temporary-license/).
+- **Teste grátis**: Baixe a versão mais recente em [Lançamentos Aspose](https://releases.aspose.com/cells/java/).
+- **Licença Temporária**: Solicite uma licença temporária em [Aspose Compra](https://purchase.aspose.com/temporary-license/).
 - **Comprar**:Para uso comercial, adquira uma licença diretamente através [Aspose Compra](https://purchase.aspose.com/buy).
 
 Depois que a biblioteca estiver configurada, você estará pronto para começar a codificar.
@@ -158,7 +160,7 @@ line.getLine().setEndArrowheadLength(MsoArrowheadLength.MEDIUM);
 line.getLine().setBeginArrowheadStyle(MsoArrowheadStyle.ARROW_DIAMOND);
 line.getLine().setBeginArrowheadLength(MsoArrowheadLength.MEDIUM);
 ```
-*Definimos estilos diferentes para pontas de seta inicial e final para ilustrar a direcionalidade.*
+*Definimos estilos diferentes para as pontas de seta inicial e final para ilustrar a direcionalidade.*
 
 ### Salvando a pasta de trabalho (H2)
 
@@ -179,7 +181,7 @@ workbook.save(outDir + "/AddinganArrowHead_out.xlsx");
 
 ## Aplicações Práticas (H2)
 
-A capacidade do Aspose.Cells para Java de personalizar arquivos do Excel vai além de tarefas básicas. Aqui estão alguns usos práticos:
+A capacidade do Aspose.Cells para Java de personalizar arquivos do Excel vai além das tarefas básicas. Aqui estão alguns usos práticos:
 
 1. **Relatórios financeiros**: Aprimore os painéis com indicadores direcionais.
 2. **Gerenciamento de projetos**: Visualize fluxos de tarefas em gráficos de Gantt.
@@ -218,6 +220,9 @@ A: Acesse-os usando `getWorksheets().get(index)` com o índice desejado.
 R: Sim, otimize o código minimizando a criação de objetos dentro de loops e monitore o uso de memória para evitar vazamentos. Use estruturas de dados eficientes fornecidas pelo Aspose.Cells para melhor desempenho.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importation de données depuis Excel
@@ -96,9 +98,11 @@ Vous savez maintenant comment importer des données depuis Excel avec Aspose.Cel
    Visitez la documentation d'Aspose.Cells [ici](https://reference.aspose.com/cells/java/) pour des ressources et des exemples approfondis.
 
 N'hésitez pas à explorer davantage et à adapter ce code à vos besoins spécifiques d'importation de données. Bon codage !
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

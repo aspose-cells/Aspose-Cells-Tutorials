@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ workbook.save(dataDir + "InsertingAColumn_out.xls");
 - ファイルパスが正しく定義されていることを確認して、 `FileNotFoundException`。
 - 環境内でファイルの読み取り/書き込みを行うときに、十分な権限があるかどうかを確認してください。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 Aspose.Cells for Java は、次のようなさまざまな実際のシナリオで使用できます。
 1. **自動レポート**新しいデータ フィールドに列を自動的に挿入します。
 2. **データ移行**変更に合わせて既存のデータセットをシームレスに調整します。
@@ -176,6 +178,9 @@ Aspose.Cells for Java は、次のようなさまざまな実際のシナリオ�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

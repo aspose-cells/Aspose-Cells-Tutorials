@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Aspose.Cells for Javaを使用してExcelテーブルからXMLパスを抽出する方法を学びましょう。このガイドでは、セットアップ、コード例、そしてシームレスなデータ統合のための実用的なアプリケーションについて説明します。"
+"description": "Aspose.Cells for Javaを使用してExcelテーブルからXMLパスを抽出する方法を学びましょう。このガイドでは、セットアップ、コード例、そしてシームレスなデータ統合のための実用的なアプリケーションを網羅しています。"
 "title": "Aspose.Cells Java を使用して Excel から XML パスを抽出する手順"
 "url": "/ja/java/import-export/extract-xml-path-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ XMLマップが正しく設定されていることを確認し、ファイル�
 - **サポートフォーラム**： [Aspose サポートコミュニティ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

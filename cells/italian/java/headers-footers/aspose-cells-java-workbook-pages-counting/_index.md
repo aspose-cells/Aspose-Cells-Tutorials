@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ int pageCount = preview.getEvaluatedPageCount();
 System.out.println("Total Pages in Workbook: " + pageCount);
 ```
 
-### Calcola il conteggio delle pagine del foglio di lavoro
+### Calcola il numero di pagine del foglio di lavoro
 Calcola le pagine di un foglio di lavoro specifico per ottenere informazioni dettagliate.
 
 #### Panoramica
@@ -195,6 +197,9 @@ R5: Sì, Aspose.Cells può essere facilmente integrato nei progetti utilizzando 
 - **Supporto**: [Forum della comunità Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

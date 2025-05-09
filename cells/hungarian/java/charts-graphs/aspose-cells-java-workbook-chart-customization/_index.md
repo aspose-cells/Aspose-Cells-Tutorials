@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Adja hozzá a következő függőséget a `pom.xml`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 - **Ingyenes próbaverzió:** Töltsd le az Aspose.Cells könyvtárat, és próbáld ki egy ideiglenes licenccel.
 - **Ideiglenes engedély:** Igényeljen ideiglenes licencet a funkciók korlátozás nélküli teljes eléréséhez [itt](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás:** Hosszú távú használathoz vásároljon előfizetést a következőn keresztül: [Az Aspose beszerzési portálja](https://purchase.aspose.com/buy).
@@ -79,7 +81,7 @@ Ismerje meg, hogyan hozhat létre új munkafüzetet, vagy hogyan tölthet be egy
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY";
-// Töltsön be egy meglévő munkafüzetet; vagy használja a Workbook() függvénnyel egy újat.
+// Töltsön be egy meglévő munkafüzetet; vagy használja a Workbook() függvényt egy új létrehozásához.
 Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 ```
 
@@ -125,7 +127,7 @@ dataLabels.setShowCellRange(true);
 
 ### FUNKCIÓ: Munkafüzet mentése
 #### Áttekintés
-Ismerje meg, hogyan mentheti el a módosított munkafüzetet, és hogyan őrzheti meg az összes módosítást Excel-fájlformátumban.
+Ismerje meg, hogyan mentheti el a módosított munkafüzetet, és hogyan biztosíthatja, hogy minden módosítás Excel-fájlformátumban maradjon.
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -175,6 +177,9 @@ Készen állsz arra, hogy Excel-kezelési képességeidet a következő szintre 
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

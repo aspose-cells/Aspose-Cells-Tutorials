@@ -1,36 +1,38 @@
 ---
-title: Voeg een tekstvakbesturingselement toe aan de grafiek
-linktitle: Voeg een tekstvakbesturingselement toe aan de grafiek
-second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u een TextBox toevoegt aan grafieken in Excel met Aspose.Cells voor .NET. Verbeter uw datavisualisatie moeiteloos.
-weight: 12
-url: /nl/net/inserting-controls-in-charts/add-textbox-control-to-chart/
+"description": "Leer hoe u een tekstvak toevoegt aan grafieken in Excel met Aspose.Cells voor .NET. Verbeter uw datavisualisatie moeiteloos."
+"linktitle": "Tekstvakbesturingselement toevoegen aan grafiek"
+"second_title": "Aspose.Cells .NET Excel-verwerkings-API"
+"title": "Tekstvakbesturingselement toevoegen aan grafiek"
+"url": "/nl/net/inserting-controls-in-charts/add-textbox-control-to-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg een tekstvakbesturingselement toe aan de grafiek
+# Tekstvakbesturingselement toevoegen aan grafiek
 
 ## Invoering
 
-Het maken van dynamische en visueel aantrekkelijke grafieken in Excel is een fantastische manier om gegevens effectief weer te geven. Een handige functie die u kunt gebruiken, is het toevoegen van een TextBox aan een grafiek. Met Aspose.Cells voor .NET wordt deze taak eenvoudig en leuk! In deze gids leiden we u stap voor stap door het proces van het integreren van een TextBox in uw grafiek. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze tutorial geeft u alle tools die u nodig hebt om uw Excel-grafieken te verbeteren. Dus, bent u klaar om erin te duiken?
+Het maken van dynamische en visueel aantrekkelijke grafieken in Excel is een fantastische manier om gegevens effectief weer te geven. Een handige functie is het toevoegen van een tekstvak aan een grafiek. Met Aspose.Cells voor .NET wordt deze taak eenvoudig en leuk! In deze handleiding leiden we je stap voor stap door het proces van het integreren van een tekstvak in je grafiek. Of je nu een ervaren ontwikkelaar bent of net begint, deze tutorial geeft je alle tools die je nodig hebt om je Excel-grafieken te verbeteren. Dus, ben je klaar om aan de slag te gaan?
 
 ## Vereisten
 
-Voordat we beginnen met coderen, zijn er een paar dingen die je moet regelen:
+Voordat we met coderen beginnen, zijn er een paar dingen die je moet regelen:
 
-- Basiskennis van C#: Een fundamenteel begrip van C#-programmering is handig. Maak je geen zorgen; je hoeft geen expert te zijn, als je maar comfortabel bent met de syntaxis.
--  Geïnstalleerde Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells voor .NET-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van[hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
+- Basiskennis van C#: Een basiskennis van C#-programmeren is nuttig. Maak je geen zorgen; je hoeft geen expert te zijn, zolang je maar vertrouwd bent met de syntaxis.
+- Geïnstalleerde Aspose.Cells-bibliotheek: Zorg ervoor dat u de Aspose.Cells voor .NET-bibliotheek hebt geïnstalleerd. U kunt deze downloaden van [hier](https://releases.aspose.com/cells/net/) als je dat nog niet gedaan hebt.
 - Visual Studio: Kennis van Visual Studio of een andere IDE die u voor het .NET Framework gebruikt, is essentieel.
 - Een bestaand Excel-bestand: Voor dit voorbeeld werken we met een bestaand Excel-bestand met de naam "sampleAddingTextBoxControlInChart.xls". U kunt er zelf een maken of een voorbeeld downloaden.
 
-Nu we alles op zijn plek hebben, kunnen we beginnen met coderen!
+Nu we alles op zijn plaats hebben, kunnen we beginnen met coderen!
 
 ## Pakketten importeren
 
-Allereerst moeten we de benodigde Aspose.Cells-naamruimten importeren naar ons C#-project. U kunt dit eenvoudig doen door de volgende regels bovenaan uw codebestand op te nemen:
+Allereerst moeten we de benodigde Aspose.Cells-naamruimten importeren in ons C#-project. Dit kunt u eenvoudig doen door de volgende regels bovenaan uw codebestand op te nemen:
 
 ```csharp
 using System;
@@ -42,30 +44,30 @@ using System.Drawing;
 
 ## Stap 1: Definieer uw bron- en uitvoermappen
 
-Voordat we beginnen met het werken met het Excel-bestand, is het belangrijk om te definiëren waar uw invoerbestand zich bevindt en waar u het uitvoerbestand wilt opslaan. Dit helpt om uw project georganiseerd te houden.
+Voordat we met het Excel-bestand aan de slag gaan, is het belangrijk om te bepalen waar je invoerbestand zich bevindt en waar je het uitvoerbestand wilt opslaan. Dit helpt je project overzichtelijk te houden.
 
 ```csharp
-// Bron directory
+// Bronmap
 string sourceDir = "Your Document Directory";
 
 // Uitvoermap
 string outputDir = "Your Output Directory";
 ```
- Vervangen`"Your Document Directory"` En`"Your Output Directory"` met de werkelijke paden op uw systeem.
+Vervangen `"Your Document Directory"` En `"Your Output Directory"` met de werkelijke paden op uw systeem.
 
 ## Stap 2: Open het bestaande Excel-bestand
 
-Vervolgens moeten we het Excel-bestand openen dat de grafiek bevat die we willen wijzigen. Dit stelt ons in staat om de grafiek op te halen en wijzigingen aan te brengen.
+Vervolgens moeten we het Excel-bestand openen met de grafiek die we willen aanpassen. Zo kunnen we de grafiek ophalen en wijzigingen aanbrengen.
 
 ```csharp
 // Open het bestaande bestand.
 Workbook workbook = new Workbook(sourceDir + "sampleAddingTextBoxControlInChart.xls");
 ```
-Deze regel initialiseert een nieuw werkmapobject met het door ons opgegeven bestand.
+Deze regel initialiseert een nieuw Workbook-object met het door ons opgegeven bestand.
 
 ## Stap 3: Toegang tot de grafiek in het werkblad
 
-Omdat grafieken in Excel in een werkblad worden opgeslagen, moeten we eerst het werkblad openen en vervolgens de gewenste grafiek ophalen. Voor dit voorbeeld openen we de eerste grafiek in het eerste werkblad.
+Omdat grafieken in Excel in een werkblad worden opgeslagen, moeten we eerst het werkblad openen en vervolgens de gewenste grafiek ophalen. In dit voorbeeld openen we de eerste grafiek in het eerste werkblad.
 
 ```csharp
 // Download het ontwerpersdiagram op het eerste blad.
@@ -76,17 +78,17 @@ Door de indexwaarde te wijzigen, kunt u verschillende werkbladen of grafieken se
 
 ## Stap 4: Voeg een nieuw tekstvak toe aan de grafiek
 
-Nu zijn we klaar om onze TextBox toe te voegen. We zullen de positie en grootte ervan specificeren wanneer we het maken.
+Nu zijn we klaar om ons tekstvak toe te voegen. We specificeren de positie en grootte ervan tijdens het aanmaken.
 
 ```csharp
 // Voeg een nieuw tekstvak toe aan de grafiek.
 Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100, 350, 2550);
 ```
-In deze opdracht definiëren de parameters de locatie (x, y) en grootte (breedte, hoogte) van de TextBox in de grafiek. Pas deze waarden aan op basis van uw specifieke lay-outbehoeften.
+In deze opdracht definiëren de parameters de locatie (x, y) en de grootte (breedte, hoogte) van het tekstvak in de grafiek. Pas deze waarden aan op basis van uw specifieke lay-outbehoeften.
 
 ## Stap 5: Stel de tekst voor het tekstvak in
 
-Zodra de TextBox op zijn plaats staat, is het tijd om deze te vullen met content. U kunt elke tekst toevoegen die u nodig acht voor uw grafiek.
+Zodra het tekstvak op zijn plaats staat, is het tijd om het te vullen met inhoud. Je kunt alle tekst toevoegen die je nodig hebt voor je grafiek.
 
 ```csharp
 // Vul de tekst in.
@@ -94,13 +96,13 @@ textbox0.Text = "Sales By Region";
 ```
 U kunt "Verkoop per regio" vervangen door tekst die relevant is voor uw gegevens.
 
-## Stap 6: Pas de eigenschappen van het tekstvak aan
+## Stap 6: Tekstvakeigenschappen aanpassen
 
-Laten we nu onze TextBox er goed uit laten zien! U kunt verschillende eigenschappen aanpassen, zoals de kleur, grootte en stijl van het lettertype.
+Laten we nu ons tekstvak er mooi uit laten zien! Je kunt verschillende eigenschappen aanpassen, zoals de kleur, grootte en stijl van het lettertype.
 
 ```csharp
 // Stel de kleur van het lettertype in.
-textbox0.Font.Color = Color.Maroon; // Verander naar de gewenste kleur
+textbox0.Font.Color = Color.Maroon; // Verander naar uw gewenste kleur
 
 // Maak het lettertype vet.
 textbox0.Font.IsBold = true;
@@ -116,16 +118,16 @@ Elke regel verandert het uiterlijk van de tekst in uw tekstvak, waardoor de zich
 
 ## Stap 7: Formatteer het uiterlijk van het tekstvak
 
-Het is ook essentieel om de achtergrond en rand van de TextBox te formatteren. Hierdoor valt het op in de grafiek.
+Het is ook essentieel om de achtergrond en rand van het tekstvak op te maken. Dit zorgt ervoor dat het opvalt in de grafiek.
 
 ```csharp
-// Haal het opvulformaat van het tekstvak op.
+// Haal het opmaakprofiel van het tekstvak op.
 Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;
 
 // Haal het lijnopmaaktype van het tekstvak op.
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;
 
-// Stel de lijndikte in.
+// Lijndikte instellen.
 lineformat.Weight = 2;
 
 // Stel de streepjesstijl in op effen.
@@ -136,17 +138,17 @@ Met deze opties kunt u de achtergrondvulling van het tekstvak instellen en de ra
 
 ## Stap 8: Sla het gewijzigde Excel-bestand op
 
-De laatste stap is om de wijzigingen die u hebt aangebracht op te slaan in een nieuw Excel-bestand. Dit zorgt ervoor dat uw originele bestand onaangetast blijft.
+De laatste stap is het opslaan van de wijzigingen in een nieuw Excel-bestand. Zo blijft je originele bestand ongewijzigd.
 
 ```csharp
 // Sla het Excel-bestand op.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Vervangen`"outputAddingTextBoxControlInChart.xls"` met de bestandsnaam die u verkiest.
+Vervangen `"outputAddingTextBoxControlInChart.xls"` met de bestandsnaam die u verkiest.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een TextBox-besturingselement toegevoegd aan een grafiek met Aspose.Cells voor .NET. Deze eenvoudige maar effectieve wijziging kan uw grafieken informatiever en visueel aantrekkelijker maken. Gegevensrepresentatie is de sleutel tot effectieve communicatie en met hulpmiddelen zoals Aspose hebt u de macht om die presentatie met minimale inspanning te verbeteren.
+Gefeliciteerd! U hebt met succes een TextBox-besturingselement aan een grafiek toegevoegd met Aspose.Cells voor .NET. Deze eenvoudige maar effectieve wijziging kan uw grafieken informatiever en visueel aantrekkelijker maken. Datarepresentatie is essentieel voor effectieve communicatie, en met tools zoals Aspose kunt u die presentatie met minimale inspanning verbeteren.
 
 ## Veelgestelde vragen
 
@@ -154,19 +156,21 @@ Gefeliciteerd! U hebt met succes een TextBox-besturingselement toegevoegd aan ee
 Aspose.Cells voor .NET is een krachtige bibliotheek voor het maken, bewerken en converteren van Excel-bestanden zonder dat u afhankelijk bent van Microsoft Excel.
 
 ### Kan ik meerdere tekstvakken aan één grafiek toevoegen?
-Ja! U kunt zoveel TextBoxes toevoegen als u nodig hebt door de stappen voor het maken van TextBox te herhalen met verschillende posities.
+Ja! U kunt zoveel tekstvakken toevoegen als u nodig hebt door de stappen voor het maken van tekstvakken te herhalen met verschillende posities.
 
 ### Is Aspose.Cells gratis te gebruiken?
-Aspose.Cells is een betaalde bibliotheek, maar u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+Aspose.Cells is een betaalde bibliotheek, maar u kunt een gratis proefversie downloaden van [hier](https://releases.aspose.com/).
 
 ### Waar kan ik meer documentatie over Aspose.Cells vinden?
- U heeft toegang tot uitgebreide documentatie[hier](https://reference.aspose.com/cells/net/).
+U heeft toegang tot uitgebreide documentatie [hier](https://reference.aspose.com/cells/net/).
 
 ### Hoe krijg ik ondersteuning als ik problemen ondervind?
- U kunt hulp zoeken via het Aspose-ondersteuningsforum[hier](https://forum.aspose.com/c/cells/9).
+U kunt hulp krijgen via het Aspose-ondersteuningsforum [hier](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

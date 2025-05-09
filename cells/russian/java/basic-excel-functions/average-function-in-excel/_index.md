@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Функция СРЗНАЧ в Excel
@@ -90,7 +92,7 @@ cell.setStyle(style);
 workbook.save("output.pdf", SaveFormat.PDF);
 ```
 
-Этот код сохраняет книгу как PDF-файл.
+Этот код сохраняет книгу в виде PDF-файла.
 
 ## Обработка ошибок
 
@@ -140,6 +142,7 @@ Aspose.Cells for Java упрощает автоматизацию Excel, эко�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Bao gồm dòng này trong `build.gradle` tài liệu:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 - **Dùng thử miễn phí:** Tải xuống thư viện Aspose.Cells và dùng thử với giấy phép tạm thời.
 - **Giấy phép tạm thời:** Yêu cầu cấp giấy phép tạm thời để truy cập đầy đủ vào các tính năng mà không có giới hạn [đây](https://purchase.aspose.com/temporary-license/).
 - **Mua:** Để sử dụng lâu dài, hãy mua đăng ký thông qua [Cổng mua sắm của Aspose](https://purchase.aspose.com/buy).
@@ -175,6 +177,9 @@ Sẵn sàng đưa khả năng xử lý Excel của bạn lên một tầm cao m�
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

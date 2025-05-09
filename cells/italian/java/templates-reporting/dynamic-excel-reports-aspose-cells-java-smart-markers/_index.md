@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ R: I marcatori intelligenti consentono di avere proprietà nidificate, consenten
 A: Le opzioni includono una prova gratuita, una licenza temporanea e l'acquisto completo. Visita [Il sito web di Aspose](https://purchase.aspose.com/buy) per maggiori informazioni.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

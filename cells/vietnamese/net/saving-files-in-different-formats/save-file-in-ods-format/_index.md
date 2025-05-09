@@ -1,14 +1,16 @@
 ---
-title: Lưu tệp ở định dạng ODS
-linktitle: Lưu tệp ở định dạng ODS
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách lưu tệp ở định dạng ODS bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này. Hướng dẫn từng bước và nhiều hơn nữa.
-weight: 14
-url: /vi/net/saving-files-in-different-formats/save-file-in-ods-format/
+"description": "Tìm hiểu cách lưu tệp ở định dạng ODS bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này. Hướng dẫn từng bước và nhiều hơn nữa."
+"linktitle": "Lưu tệp ở định dạng ODS"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lưu tệp ở định dạng ODS"
+"url": "/vi/net/saving-files-in-different-formats/save-file-in-ods-format/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tệp ở định dạng ODS
@@ -18,7 +20,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để dễ dàng lưu các tệp
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã thiết lập mọi thứ chính xác:
 - .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Bạn có thể sử dụng bất kỳ phiên bản nào tương thích với Aspose.Cells cho .NET.
--  Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Đây là một công cụ mạnh mẽ cho phép bạn quản lý các tệp Excel và nhiều hơn nữa. Bạn có thể tải xuống từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+- Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Đây là một công cụ mạnh mẽ cho phép bạn quản lý các tệp Excel và nhiều hơn thế nữa. Bạn có thể tải xuống từ [liên kết tải xuống](https://releases.aspose.com/cells/net/).
 - Môi trường phát triển: Một môi trường phát triển phù hợp là điều cần thiết, chẳng hạn như Visual Studio, nơi bạn có thể viết và thực thi mã .NET của mình.
 Bây giờ chúng ta đã đáp ứng được các điều kiện tiên quyết, hãy nhập các gói cần thiết.
 ## Nhập gói
@@ -45,7 +47,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình tạo một bảng tính mới 
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Ở đây, bạn sẽ thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như việc chọn một ngôi nhà cho sáng tạo mới của bạn!
+Ở đây, bạn sẽ thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như việc chọn một ngôi nhà cho sáng tạo mới của bạn!
 ## Bước 2: Tạo một đối tượng Workbook
 Tiếp theo, chúng ta sẽ tạo một đối tượng sổ làm việc. Về cơ bản, đây là canvas nơi bạn có thể thêm dữ liệu, kiểu dáng và nhiều thứ khác.
 ```csharp
@@ -59,7 +61,7 @@ Bây giờ chúng ta có thể lưu sổ làm việc của mình. Bước này b
 // Lưu ở định dạng ods
 workbook.Save(dataDir + "output.ods");
 ```
- Đây là nơi phép thuật xảy ra!`Save` phương pháp cho phép bạn chỉ định định dạng bạn muốn tệp của mình được lưu vào. Bằng cách sử dụng`.ods` phần mở rộng, bạn cho Aspose.Cells biết rằng bạn muốn tạo một Bảng tính Tài liệu Mở.
+Đây là nơi phép thuật xảy ra! `Save` phương pháp cho phép bạn chỉ định định dạng bạn muốn tệp của mình được lưu vào. Bằng cách sử dụng `.ods` phần mở rộng, bạn cho Aspose.Cells biết rằng bạn muốn tạo một Bảng tính Tài liệu Mở.
 
 ## Phần kết luận
 Vậy là bạn đã có hướng dẫn đơn giản để lưu tệp ở định dạng ODS bằng Aspose.Cells cho .NET! Chỉ với một vài dòng mã, bạn có thể dễ dàng tạo và lưu bảng tính ở nhiều định dạng khác nhau, nâng cao khả năng của ứng dụng. Điều này không chỉ giúp phần mềm của bạn linh hoạt hơn mà còn làm phong phú thêm trải nghiệm của người dùng.
@@ -70,14 +72,16 @@ ODS là viết tắt của Open Document Spreadsheet. Đây là định dạng t
 ### Tôi có thể sử dụng Aspose.Cells để đọc tệp ODS không?  
 Chắc chắn rồi! Aspose.Cells không chỉ cho phép bạn tạo và lưu các tệp ODS mà còn cho phép bạn đọc và thao tác các tệp hiện có.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?  
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và tìm tài nguyên.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và tìm tài nguyên.
 ### Có bản dùng thử miễn phí không?  
- Có, bạn có thể dùng thử Aspose.Cells miễn phí từ[địa điểm](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells miễn phí từ [địa điểm](https://releases.aspose.com/).
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells?  
- Bạn có thể có được giấy phép tạm thời từ[Trang mua hàng Aspose](https://purchase.aspose.com/temporary-license/).
+Bạn có thể có được giấy phép tạm thời từ [Trang mua hàng Aspose](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

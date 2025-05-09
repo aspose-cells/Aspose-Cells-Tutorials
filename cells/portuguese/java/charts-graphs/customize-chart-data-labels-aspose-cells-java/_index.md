@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Assim que seu ambiente estiver pronto, vamos configurar o Aspose.Cells. Veja com
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Inicialização básica**: Criar um `Workbook` instância para começar a trabalhar com arquivos do Excel.
+3. **Inicialização básica**Criar um `Workbook` instância para começar a trabalhar com arquivos do Excel.
 
 ## Guia de Implementação
 
@@ -132,7 +134,7 @@ A integração com outros sistemas, como ferramentas de visualização de dados 
 
 Ao trabalhar com arquivos grandes do Excel:
 
-- **Otimize o uso da memória**: Feche as pastas de trabalho imediatamente após o uso para liberar memória.
+- **Otimizar o uso da memória**: Feche as pastas de trabalho imediatamente após o uso para liberar memória.
 - **Processamento em lote**: Processe vários gráficos em lotes, se aplicável.
 - **Tratamento eficiente de dados**: Minimize as operações dentro dos loops para melhor desempenho.
 
@@ -166,6 +168,9 @@ Para explorar melhor os recursos do Aspose.Cells, considere experimentar outras 
 Este guia completo permitirá que você personalize com eficiência rótulos de dados de gráficos em seus aplicativos Java usando Aspose.Cells. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

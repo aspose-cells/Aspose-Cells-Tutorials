@@ -1,36 +1,38 @@
 ---
-title: Kompatibilität von Excel-Dateien programmgesteuert in .NET angeben
-linktitle: Kompatibilität von Excel-Dateien programmgesteuert in .NET angeben
-second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie Excel-Pivot-Tabellen mit Aspose.Cells für .NET bearbeiten, einschließlich Datenaktualisierungen, Kompatibilitätseinstellungen und Zellenformatierung.
-weight: 23
-url: /de/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Erfahren Sie, wie Sie Excel-Pivot-Tabellen mit Aspose.Cells für .NET bearbeiten, einschließlich Datenaktualisierungen, Kompatibilitätseinstellungen und Zellenformatierung."
+"linktitle": "Kompatibilität von Excel-Dateien programmgesteuert in .NET angeben"
+"second_title": "Aspose.Cells .NET Excel-Verarbeitungs-API"
+"title": "Kompatibilität von Excel-Dateien programmgesteuert in .NET angeben"
+"url": "/de/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kompatibilität von Excel-Dateien programmgesteuert in .NET angeben
 
 ## Einführung
 
-In der heutigen datengesteuerten Welt ist die programmgesteuerte Verwaltung und Bearbeitung von Excel-Dateien für viele Entwickler unverzichtbar geworden. Wenn Sie mit Excel in .NET arbeiten, ist Aspose.Cells eine leistungsstarke Bibliothek, die das Erstellen, Lesen, Ändern und Speichern von Excel-Dateien erleichtert. Eine wichtige Funktion dieser Bibliothek ermöglicht es Ihnen, die Kompatibilität von Excel-Dateien programmgesteuert festzulegen. In diesem Tutorial erfahren Sie, wie Sie Excel-Dateien bearbeiten können, wobei wir uns insbesondere auf die Verwaltung der Kompatibilität mit Aspose.Cells für .NET konzentrieren. Am Ende werden Sie verstehen, wie Sie die Kompatibilität für Excel-Dateien, insbesondere für Pivot-Tabellen, festlegen, während Sie Daten aktualisieren und verwalten.
+In der heutigen datengetriebenen Welt ist die programmgesteuerte Verwaltung und Bearbeitung von Excel-Dateien für viele Entwickler unverzichtbar geworden. Wenn Sie mit Excel in .NET arbeiten, ist Aspose.Cells eine leistungsstarke Bibliothek, die das Erstellen, Lesen, Bearbeiten und Speichern von Excel-Dateien vereinfacht. Eine wichtige Funktion dieser Bibliothek ermöglicht es Ihnen, die Kompatibilität von Excel-Dateien programmgesteuert festzulegen. In diesem Tutorial erfahren Sie, wie Sie Excel-Dateien bearbeiten und dabei insbesondere die Kompatibilität mit Aspose.Cells für .NET verwalten. Am Ende verstehen Sie, wie Sie die Kompatibilität für Excel-Dateien, insbesondere für Pivot-Tabellen, beim Aktualisieren und Verwalten von Daten festlegen.
 
 ## Voraussetzungen
 
 Bevor Sie mit der Codierungsphase beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 1. Grundkenntnisse in C#: Da wir Code in C# schreiben, hilft Ihnen die Vertrautheit mit der Sprache dabei, das Tutorial besser zu verstehen.
-2.  Aspose.Cells für .NET-Bibliothek: Sie können es herunterladen von der[Aspose Cells veröffentlicht Seite](https://releases.aspose.com/cells/net/)Wenn Sie dies noch nicht getan haben, sollten Sie zunächst eine kostenlose Testversion erwerben, um die Funktionen kennenzulernen.
+2. Aspose.Cells für .NET-Bibliothek: Sie können es herunterladen von der [Aspose Cells-Veröffentlichungsseite](https://releases.aspose.com/cells/net/). Wenn Sie dies noch nicht getan haben, sollten Sie zunächst eine kostenlose Testversion erwerben, um die Funktionen kennenzulernen.
 3. Visual Studio: Eine IDE, in der Sie Ihren C#-Code effektiv schreiben und testen können.
-4.  Beispiel-Excel-Datei: Stellen Sie sicher, dass Sie eine Beispiel-Excel-Datei haben, vorzugsweise eine, die eine Pivot-Tabelle für die Demo enthält. Für unser Beispiel verwenden wir`sample-pivot-table.xlsx`.
+4. Beispiel-Excel-Datei: Stellen Sie sicher, dass Sie eine Beispiel-Excel-Datei haben, vorzugsweise eine mit einer Pivot-Tabelle für die Demo. Für unser Beispiel verwenden wir `sample-pivot-table.xlsx`.
 
 Nachdem diese Voraussetzungen erfüllt sind, können wir mit dem Codierungsprozess beginnen.
 
 ## Pakete importieren
 
-Bevor Sie mit dem Schreiben Ihrer Anwendung beginnen, müssen Sie die erforderlichen Namespaces in Ihren Code aufnehmen, um die Aspose.Cells-Bibliothek effektiv nutzen zu können. So geht's.
+Bevor Sie mit dem Schreiben Ihrer Anwendung beginnen, müssen Sie die erforderlichen Namespaces in Ihren Code einbinden, um die Aspose.Cells-Bibliothek effektiv zu nutzen. So geht's:
 
 ### Aspose.Cells-Namespace importieren
 
@@ -51,22 +53,22 @@ Lassen Sie uns nun den Prozess im Detail aufschlüsseln, um sicherzustellen, das
 Richten Sie zunächst das Verzeichnis ein, in dem sich Ihre Excel-Dateien befinden. Es ist wichtig, den richtigen Dateipfad anzugeben.
 
 ```csharp
-// Der Pfad zum Dokumentverzeichnis.
+// Der Pfad zum Dokumentenverzeichnis.
 string dataDir = "Your Document Directory";
 ```
 
- Ersetzen Sie hier`"Your Document Directory"`durch den tatsächlichen Pfad zu Ihren Excel-Dateien. Hier sollte sich Ihre Beispiel-PivotTable-Datei befinden.
+Ersetzen Sie hier `"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihren Excel-Dateien. Hier sollte sich Ihre Beispiel-PivotTable-Datei befinden.
 
 ## Schritt 2: Laden Sie die Excel-Quelldatei
 
 Als Nächstes müssen wir die Excel-Datei laden, die die Beispiel-Pivot-Tabelle enthält. 
 
 ```csharp
-// Quell-Excel-Datei mit Beispiel-Pivot-Tabelle laden
+// Laden Sie die Excel-Quelldatei mit der Beispiel-Pivot-Tabelle
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- In diesem Schritt erstellen wir eine Instanz des`Workbook` Klasse, die die angegebene Excel-Datei lädt. 
+In diesem Schritt erstellen wir eine Instanz des `Workbook` Klasse, die die angegebene Excel-Datei lädt. 
 
 ## Schritt 3: Zugriff auf die Arbeitsblätter
 
@@ -77,9 +79,9 @@ Nachdem die Arbeitsmappe geladen ist, müssen Sie auf das Arbeitsblatt zugreifen
 Worksheet dataSheet = wb.Worksheets[0];
 ```
 
-Hier greifen wir auf das erste Arbeitsblatt zu, in dem sich die Pivot-Tabelle befindet. Sie können je nach Ihrer Excel-Struktur auch eine Schleife durchlaufen oder weitere Arbeitsblätter angeben.
+Hier greifen wir auf das erste Arbeitsblatt zu, in dem sich die Pivot-Tabelle befindet. Sie können auch eine Schleife durchlaufen oder weitere Arbeitsblätter basierend auf Ihrer Excel-Struktur angeben.
 
-## Schritt 4: Zelldaten manipulieren
+## Schritt 4: Zellendaten manipulieren
 
 Als Nächstes ändern Sie einige Zellenwerte im Arbeitsblatt. 
 
@@ -98,27 +100,27 @@ Dieser Codeausschnitt aktualisiert Zelle A3 mit dem Wert „FooBar“.
 
 ### Schritt 4.2: Zelle B3 mit langer Zeichenfolge ändern
 
-Lassen Sie uns nun eine lange Zeichenfolge in Zelle B3 einfügen, die die Standardzeichenbegrenzungen von Excel überschreitet.
+Lassen Sie uns nun eine lange Zeichenfolge in Zelle B3 einfügen, die die Standardzeichenbegrenzung von Excel überschreitet.
 
 ```csharp
-// Greifen Sie auf Zelle B3 zu, setzen Sie deren Daten
+// Greifen Sie auf Zelle B3 zu und legen Sie deren Daten fest
 string longStr = "Very long text 1. very long text 2.... [continue your long string]";
 cell = cells["B3"];
 cell.PutValue(longStr);
 ```
 
-Dieser Code ist wichtig, da er Ihre Erwartungen hinsichtlich der Datengrenzen festlegt, insbesondere beim Arbeiten mit Kompatibilitätseinstellungen in Excel.
+Dieser Code ist wichtig, da er Ihre Erwartungen hinsichtlich der Datengrenzen festlegt, insbesondere wenn Sie mit Kompatibilitätseinstellungen in Excel arbeiten.
 
 ## Schritt 5: Überprüfen Sie die Länge der Zelle B3
 
-Außerdem muss unbedingt die Länge der eingegebenen Zeichenfolge bestätigt werden.
+Es ist auch wichtig, die Länge der eingegebenen Zeichenfolge zu bestätigen.
 
 ```csharp
 // Drucken Sie die Länge der Zeichenfolge in Zelle B3
 Console.WriteLine("Length of original data string: " + cell.StringValue.Length);
 ```
 
-Dies dient lediglich zur Überprüfung, um anzuzeigen, wie viele Zeichen auf Ihrem Handy gespeichert sind.
+Dies dient lediglich zur Überprüfung, um anzuzeigen, wie viele Zeichen Ihr Handy enthält.
 
 ## Schritt 6: Andere Zellenwerte festlegen
 
@@ -134,34 +136,34 @@ cell = cells["D3"];
 cell.PutValue("2016/07/21");
 ```
 
-Jeder dieser Snippets aktualisiert mehrere zusätzliche Zellen im Arbeitsblatt.
+Jeder dieser Codeausschnitte aktualisiert mehrere zusätzliche Zellen im Arbeitsblatt.
 
 ## Schritt 7: Zugriff auf die Pivot-Tabelle
 
 Als Nächstes greifen Sie auf das zweite Arbeitsblatt zu, das aus den PivotTable-Daten besteht.
 
 ```csharp
-//Greifen Sie auf das zweite Arbeitsblatt zu, das die Pivot-Tabelle enthält
+// Greifen Sie auf das zweite Arbeitsblatt zu, das die Pivot-Tabelle enthält
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Zugriff auf die Pivot-Tabelle
 PivotTable pivotTable = pivotSheet.PivotTables[0];
 ```
 
-Mit diesem Snippet können Sie die Pivot-Tabelle hinsichtlich der Kompatibilitätseinstellungen bearbeiten.
+Mit diesem Codeausschnitt können Sie die Pivot-Tabelle hinsichtlich der Kompatibilitätseinstellungen bearbeiten.
 
-## Schritt 8: Kompatibilität für Excel 2003 festlegen
+## Schritt 8: Kompatibilität für Excel 2003 einstellen
 
 Es ist wichtig festzulegen, ob Ihre Pivot-Tabelle mit Excel 2003 kompatibel ist oder nicht. 
 
 ```csharp
-// Die Eigenschaft IsExcel2003Compatible gibt an, ob PivotTable beim Aktualisieren der PivotTable mit Excel2003 kompatibel ist.
+// Die Eigenschaft IsExcel2003Compatible gibt an, ob PivotTable beim Aktualisieren von PivotTable mit Excel2003 kompatibel ist.
 pivotTable.IsExcel2003Compatible = true;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Hier beginnt die eigentliche Transformation. Indem wir`IsExcel2003Compatible` Zu`true`, begrenzen Sie die Zeichenlänge beim Aktualisieren auf 255.
+Hier beginnt die eigentliche Transformation. Indem wir `IsExcel2003Compatible` Zu `true`begrenzen Sie die Zeichenlänge beim Aktualisieren auf 255.
 
 ## Schritt 9: Länge nach Kompatibilitätseinstellung prüfen
 
@@ -177,10 +179,10 @@ Wenn die ursprünglichen Daten mehr als 255 Zeichen umfassen, wird wahrscheinlic
 
 ## Schritt 10: Kompatibilitätseinstellungen ändern
 
-Ändern wir jetzt die Kompatibilitätseinstellung und überprüfen Sie es erneut.
+Lassen Sie uns nun die Kompatibilitätseinstellung ändern und erneut überprüfen.
 
 ```csharp
-//Setzen Sie nun die Eigenschaft IsExcel2003Compatible auf false und aktualisieren Sie erneut
+// Setzen Sie nun die Eigenschaft IsExcel2003Compatible auf false und aktualisieren Sie erneut
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -190,7 +192,7 @@ Dadurch wird die ursprüngliche Länge Ihrer Daten ohne die vorherigen Einschrä
 
 ## Schritt 11: Länge erneut überprüfen 
 
-Lassen Sie uns überprüfen, ob die Daten jetzt ihre tatsächliche Länge genau wiedergeben.
+Lassen Sie uns überprüfen, ob die Daten jetzt ihre tatsächliche Länge genau widerspiegeln.
 
 ```csharp
 // Jetzt wird die ursprüngliche Länge der Zellendaten gedruckt. Die Daten wurden jetzt nicht abgeschnitten.
@@ -205,7 +207,7 @@ Sie sollten sehen, dass die Ausgabe die Entfernung der Kürzung bestätigt.
 Um das visuelle Erlebnis zu verbessern, möchten Sie möglicherweise die Zellen formatieren. 
 
 ```csharp
-// Legen Sie die Zeilenhöhe und Spaltenbreite der Zelle B5 fest und umbrechen Sie deren Text
+// Legen Sie die Zeilenhöhe und Spaltenbreite der Zelle B5 fest und brechen Sie auch deren Text um
 pivotSheet.Cells.SetRowHeight(b5.Row, 100);
 pivotSheet.Cells.SetColumnWidth(b5.Column, 65);
 Style st = b5.GetStyle();
@@ -224,31 +226,33 @@ Speichern Sie abschließend Ihre Arbeitsmappe mit den vorgenommenen Änderungen.
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- Die Wahl eines geeigneten Dateiformats ist beim Speichern von Excel-Dateien von entscheidender Bedeutung.`Xlsx`Das Format wird häufig verwendet und ist mit vielen Excel-Versionen kompatibel.
+Die Wahl des richtigen Dateiformats ist beim Speichern von Excel-Dateien entscheidend. `Xlsx` Das Format ist weit verbreitet und mit vielen Excel-Versionen kompatibel.
 
 ## Abschluss
 
-Herzlichen Glückwunsch! Sie haben jetzt Kompatibilitätseinstellungen für Excel-Dateien mit Aspose.Cells für .NET programmiert. In diesem Tutorial wurde jeder Schritt beschrieben, vom Einrichten Ihrer Umgebung bis zum Ändern der Kompatibilitätseinstellungen für Pivot-Tabellen. Wenn Sie jemals mit Daten gearbeitet haben, die bestimmte Einschränkungen oder Kompatibilität erforderten, ist dies eine Fähigkeit, die Sie nicht missen möchten.
+Herzlichen Glückwunsch! Sie haben nun die Kompatibilitätseinstellungen für Excel-Dateien mit Aspose.Cells für .NET programmiert. Dieses Tutorial hat jeden Schritt beschrieben, von der Einrichtung Ihrer Umgebung bis zur Anpassung der Kompatibilitätseinstellungen für Pivot-Tabellen. Wenn Sie schon einmal mit Daten gearbeitet haben, die bestimmte Einschränkungen oder Kompatibilität erforderten, ist dies eine wichtige Fähigkeit, die Sie nicht vernachlässigen sollten.
 
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells?  
-Aspose.Cells ist eine .NET-Bibliothek, die Entwicklern das nahtlose Erstellen, Bearbeiten und Konvertieren von Excel-Dateien erleichtern soll.
+Aspose.Cells ist eine .NET-Bibliothek, die Entwicklern dabei helfen soll, Excel-Dateien nahtlos zu erstellen, zu bearbeiten und zu konvertieren.
 
 ### Warum ist Excel-Kompatibilität wichtig?  
-Die Excel-Kompatibilität ist von entscheidender Bedeutung, um sicherzustellen, dass Dateien in den vorgesehenen Excel-Versionen geöffnet und verwendet werden können, insbesondere wenn sie Funktionen oder Formate enthalten, die in früheren Versionen nicht unterstützt wurden.
+Die Excel-Kompatibilität ist entscheidend, um sicherzustellen, dass Dateien in den vorgesehenen Excel-Versionen geöffnet und verwendet werden können, insbesondere wenn sie Funktionen oder Formate enthalten, die in früheren Versionen nicht unterstützt wurden.
 
 ### Kann ich mit Aspose.Cells programmgesteuert Pivot-Tabellen erstellen?  
-Ja, Sie können Pivot-Tabellen programmgesteuert mit Aspose.Cells erstellen und bearbeiten. Die Bibliothek bietet verschiedene Methoden zum Hinzufügen von Datenquellen, Feldern und Funktionen, die mit Pivot-Tabellen verknüpft sind.
+Ja, Sie können Pivot-Tabellen programmgesteuert mit Aspose.Cells erstellen und bearbeiten. Die Bibliothek bietet verschiedene Methoden zum Hinzufügen von Datenquellen, Feldern und Funktionen für Pivot-Tabellen.
 
 ### Wie überprüfe ich die Länge einer Zeichenfolge in einer Excel-Zelle?  
-Sie können die`StringValue` Eigentum eines`Cell` Objekt, um den Inhalt der Zelle zu erhalten und dann den`.Length` -Eigenschaft, um die Länge der Zeichenfolge herauszufinden.
+Sie können die `StringValue` Eigentum eines `Cell` Objekt, um den Inhalt der Zelle zu erhalten und dann den `.Length` -Eigenschaft, um die Länge der Zeichenfolge herauszufinden.
 
 ### Kann ich die Zellenformatierung über Zeilenhöhe und -breite hinaus anpassen?  
- Absolut! Aspose.Cells ermöglicht eine umfangreiche Zellformatierung. Sie können Schriftarten, Farben, Rahmen, Zahlenformate und vieles mehr über das`Style` Klasse.
+Absolut! Aspose.Cells ermöglicht umfangreiche Zellformatierungen. Sie können Schriftarten, Farben, Rahmen, Zahlenformate und vieles mehr über die `Style` Klasse.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

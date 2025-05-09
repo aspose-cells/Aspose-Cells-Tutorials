@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Kuasai teknik pemrosesan data tingkat lanjut dengan tutorial manipulasi data Aspose.Cells kami yang komprehensif untuk Java. Panduan langkah demi langkah ini menunjukkan kepada Anda cara mengubah, membersihkan, dan memproses data spreadsheet secara terprogram, yang mencakup operasi teks, fungsi pencarian dan penggantian, penggabungan data, dan transformasi batch. Setiap tutorial mencakup contoh kode Java praktis untuk tugas persiapan data umum, membantu Anda membangun alur pemrosesan data yang efisien yang mengubah data spreadsheet mentah menjadi informasi yang bersih dan konsisten.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi manipulasi data
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -68,10 +70,13 @@ Pelajari cara mengotomatiskan penggantian teks dalam file Excel menggunakan rege
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

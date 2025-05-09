@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Display Settings
@@ -71,6 +73,7 @@ Finding the approach that works best for you is key. Dive into the tutorials, pi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

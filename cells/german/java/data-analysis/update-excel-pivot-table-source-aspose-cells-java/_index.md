@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ In dieser Anleitung haben Sie gelernt, wie Sie die Quelldaten einer Pivot-Tabell
 Mit diesen Ressourcen und diesem umfassenden Leitfaden sind Sie nun in der Lage, Änderungen an Pivot-Tabellen-Quelldaten mithilfe von Aspose.Cells in Java effektiv zu verarbeiten. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,6 +129,9 @@ A2: استخدم واجهات برمجة التطبيقات المتدفقة أ�
 ابدأ رحلتك لإتقان التعامل مع ملفات Excel باستخدام Aspose.Cells for Java وقم بترقية تطبيقاتك المعتمدة على البيانات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

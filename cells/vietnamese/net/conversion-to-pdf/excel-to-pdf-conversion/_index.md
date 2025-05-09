@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Excel sang PDF trong .NET
-linktitle: Chuyển đổi Excel sang PDF trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Chuyển đổi bảng tính Excel sang PDF dễ dàng với Aspose.Cells cho .NET! Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch.
-weight: 10
-url: /vi/net/conversion-to-pdf/excel-to-pdf-conversion/
+"description": "Chuyển đổi bảng tính Excel sang PDF dễ dàng với Aspose.Cells cho .NET! Làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch."
+"linktitle": "Chuyển đổi Excel sang PDF trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi Excel sang PDF trong .NET"
+"url": "/vi/net/conversion-to-pdf/excel-to-pdf-conversion/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Excel sang PDF trong .NET
@@ -21,8 +23,8 @@ Trước khi bắt tay vào viết mã, hãy đảm bảo rằng bạn có mọi
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình (bất kỳ phiên bản nào gần đây đều được).
 2. .NET Framework: Đảm bảo bạn đang sử dụng .NET Framework 4.0 trở lên.
 ### Aspose.Cells
-1.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể[Tải xuống tại đây](https://releases.aspose.com/cells/net/) hoặc lựa chọn[Phiên bản dùng thử miễn phí](https://releases.aspose.com/).
-2.  Giấy phép: Bạn có thể bắt đầu với giấy phép tạm thời nếu bạn đang thử nghiệm—hãy kiểm tra nó[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể [Tải xuống tại đây](https://releases.aspose.com/cells/net/) hoặc lựa chọn [Phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+2. Giấy phép: Bạn có thể bắt đầu với giấy phép tạm thời nếu bạn đang thử nghiệm—hãy kiểm tra nó [đây](https://purchase.aspose.com/temporary-license/).
 ### Trình biên tập mã
 Trình soạn thảo mã (như Visual Studio) để viết và chạy đoạn mã C# của bạn.
 Khi đã chuẩn bị xong những điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu viết mã!
@@ -37,7 +39,7 @@ Khi đã chuẩn bị xong những điều kiện tiên quyết này, bạn đã
 - Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 - Chọn "Quản lý gói NuGet".
 - Tìm kiếm "Aspose.Cells" và cài đặt.
- Trong của bạn`Program.cs`, bao gồm các không gian tên sau:
+Trong của bạn `Program.cs`bao gồm các không gian tên sau:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -51,7 +53,7 @@ Trước khi bắt đầu chuyển đổi, bạn cần xác định vị trí l�
 string dataDir = "Your Document Directory";
 ```
 
- Nghĩ về`dataDir` như không gian làm việc của bạn. Nó giống như chiếc bàn nơi bạn đặt tài liệu trước khi giải quyết một dự án. Hãy đảm bảo thay thế`"Your Document Directory"` với đường dẫn thực tế trên hệ thống nơi các tệp Excel của bạn được lưu trữ.
+Nghĩ về `dataDir` như không gian làm việc của bạn. Nó giống như chiếc bàn nơi bạn đặt tài liệu trước khi giải quyết một dự án. Hãy đảm bảo thay thế `"Your Document Directory"` với đường dẫn thực tế trên hệ thống nơi các tệp Excel của bạn được lưu trữ.
 ## Bước 2: Khởi tạo đối tượng Workbook
 Tiếp theo, bạn sẽ cần tạo một đối tượng Workbook mới. Điều này giống như việc mở tệp Excel trong tay bạn—khi bạn thực hiện xong, bạn có thể bắt đầu thao tác dữ liệu bên trong.
 ```csharp
@@ -59,7 +61,7 @@ Tiếp theo, bạn sẽ cần tạo một đối tượng Workbook mới. Điề
 Workbook workbook = new Workbook(dataDir + "abc.xlsx");
 ```
 
- Điều này cho Aspose.Cells biết phải tải tệp Excel có tên`abc.xlsx` . Hãy đảm bảo rằng tập tin này tồn tại trong thư mục bạn chỉ định`dataDir`. Nếu bạn không có sẵn tệp, chỉ cần tạo một tệp Excel mẫu với một vài hàng dữ liệu!
+Điều này cho Aspose.Cells biết phải tải tệp Excel có tên `abc.xlsx`. Hãy đảm bảo rằng tập tin này tồn tại trong thư mục bạn chỉ định `dataDir`. Nếu bạn không có sẵn tệp, chỉ cần tạo một tệp Excel mẫu với một vài hàng dữ liệu!
 ## Bước 3: Lưu tài liệu ở định dạng PDF
 Bây giờ, đã đến lúc chuyển đổi sổ làm việc đó thành PDF. Đây là khoảnh khắc của sự thật—hãy xem dữ liệu Excel của bạn biến đổi thành một tài liệu PDF được định dạng đẹp mắt!
 ```csharp
@@ -67,7 +69,7 @@ Bây giờ, đã đến lúc chuyển đổi sổ làm việc đó thành PDF. �
 workbook.Save(dataDir + "outBook2.out.pdf", SaveFormat.Pdf);
 ```
 
- Ở đây, bạn đang yêu cầu Aspose.Cells lưu`workbook` dưới dạng PDF.`outBook2.out.pdf` là tên của tệp đầu ra—bạn có thể tùy chỉnh tùy theo nhu cầu.
+Ở đây, bạn đang yêu cầu Aspose.Cells lưu `workbook` dưới dạng PDF. `outBook2.out.pdf` là tên của tệp đầu ra—bạn có thể tùy chỉnh tùy theo nhu cầu.
 ## Bước 4: Hiển thị kết quả
 Cuối cùng, luôn là một cách làm tốt khi thông báo cho người dùng rằng quá trình chuyển đổi đã hoàn tất. Giống như nói rằng, "Này, tài liệu mới của bạn đã sẵn sàng!"
 ```csharp
@@ -85,14 +87,16 @@ Aspose.Cells hỗ trợ .NET Framework 4.0 trở lên.
 ### Tôi có thể chuyển đổi nhiều tệp Excel sang PDF cùng lúc không?
 Có, bạn có thể lặp qua nhiều tệp trong một thư mục và chuyển đổi từng tệp theo cách tương tự.
 ### Có phiên bản miễn phí của Aspose.Cells không?
- Có, bạn có thể sử dụng phiên bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Có, bạn có thể sử dụng phiên bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
 ### Ngoài PDF, tôi có thể lưu file Excel ở định dạng nào?
 Ngoài PDF, bạn có thể lưu ở các định dạng như XLSX, CSV, v.v.!
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tham khảo[tài liệu ở đây](https://reference.aspose.com/cells/net/) để biết thêm thông tin chi tiết.
+Bạn có thể tham khảo [tài liệu ở đây](https://reference.aspose.com/cells/net/) để biết thêm thông tin chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

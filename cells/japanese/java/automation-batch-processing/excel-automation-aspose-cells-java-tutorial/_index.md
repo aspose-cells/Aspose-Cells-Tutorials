@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Aspose.Cells for Java を使用して Excel タスクを自動化する方法を学びます。バージョンの取得、テーブルの読み取り、ODS 形式での保存方法を学びます。"
+"description": "Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。バージョンの取得、テーブルの読み取り、ODS形式での保存方法を学びます。"
 "title": "Aspose.Cells for JavaでExcel自動化をマスターする完全ガイド"
 "url": "/ja/java/automation-batch-processing/excel-automation-aspose-cells-java-tutorial/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ public class SaveWorkbookAsOds {
 ```
 - **これがなぜ重要なのか:** ファイルを ODS 形式で保存すると、この形式を好むアプリケーションとの相互運用性が向上します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 Aspose.Cells for Java はさまざまなシナリオに適用できます。
 1. **データ報告システム:** 財務レポートの生成と変換を自動化します。
@@ -160,7 +162,7 @@ A: をご覧ください [Aspose サポートフォーラム](https://forum.aspo
 
 ## リソース
 - **ドキュメント:** 詳細なガイドをご覧ください [Aspose.Cells Java ドキュメント](https://reference.aspose.com/cells/java/)
-- **Aspose.Cellsをダウンロード:** 最新バージョンにアクセスするには [リリースページ](https://releases.aspose.com/cells/java/)
+- **Aspose.Cellsをダウンロード:** 最新バージョンにアクセスする [リリースページ](https://releases.aspose.com/cells/java/)
 - **ライセンスを購入:** 商用ライセンスの確保 [Aspose 購入](https://purchase.aspose.com/buy)
 - **無料トライアルと一時ライセンス:** 無料トライアルから始めるか、フルアクセスのための一時ライセンスをリクエストしてください。
 
@@ -168,6 +170,9 @@ A: をご覧ください [Aspose サポートフォーラム](https://forum.aspo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

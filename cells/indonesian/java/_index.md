@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tutorial Pemrosesan Spreadsheet Java Aspose.Cells
 
 
-## Perkenalan
+## Bevezetés
 
 Aspose.Cells untuk Java adalah pustaka tangguh yang memberdayakan pengembang Java untuk memanipulasi file Excel secara terprogram. Baik Anda perlu membuat, mengedit, atau mengonversi dokumen Excel, Aspose.Cells menyederhanakan proses tersebut dengan serangkaian fiturnya yang komprehensif. Dalam tutorial ini, kami akan memandu Anda melalui berbagai aspek dalam bekerja dengan Aspose.Cells untuk Java, menyediakan contoh kode dan wawasan untuk membantu Anda menjadi ahli dalam manipulasi file Excel.
 
@@ -53,7 +55,7 @@ Manfaatkan kekuatan Aspose.Cells untuk Java dengan tutorial lengkap kami. Pelaja
 ### [Operasi Buku Kerja](./workbook-operations/)
 Pelajari cara memuat, menyimpan, dan mengonversi file Excel antar format (XLS, XLSX, CSV, PDF, HTML) dengan tutorial Aspose.Cells untuk Java ini.
 
-### [Manajemen Lembar Kerja](./worksheet-management/)
+### [Munkalapkezelés](./worksheet-management/)
 Tutorial lengkap untuk menambahkan, memodifikasi, menyalin, memindahkan, dan mengelola lembar kerja dalam file Excel menggunakan Aspose.Cells untuk Java.
 
 ### [Operasi Sel](./cell-operations/)
@@ -68,13 +70,13 @@ Tutorial lengkap untuk pemformatan sel, gaya, pemformatan bersyarat, tema, dan f
 ### [Rumus & Fungsi](./formulas-functions/)
 Tutorial langkah demi langkah untuk membuat, menghitung, dan bekerja dengan rumus dan fungsi Excel di Aspose.Cells untuk Java.
 
-### [Validasi Data](./data-validation/)
+### [Adatérvényesítés](./data-validation/)
 Pelajari cara menerapkan aturan validasi data, pesan input, dan peringatan kesalahan dalam lembar kerja Excel dengan tutorial Java Aspose.Cells.
 
 ### [Bagan & Grafik](./charts-graphs/)
 Tutorial lengkap untuk membuat, menyesuaikan, dan mengelola bagan dan grafik Excel menggunakan Aspose.Cells untuk Java.
 
-### [Analisis Data](./data-analysis/)
+### [Adatelemzés](./data-analysis/)
 Tutorial langkah demi langkah untuk mengimplementasikan PivotTable, pemfilteran data, penyortiran, pengelompokan, dan alat analisis dengan Aspose.Cells untuk Java.
 
 ### [Tabel & Referensi Terstruktur](./tables-structured-references/)
@@ -118,9 +120,11 @@ Tutorial lengkap untuk membuat templat laporan, menghasilkan dokumen, dan menera
 
 ### [Otomasi & Pemrosesan Batch](./automation-batch-processing/)
 Tutorial langkah demi langkah untuk mengotomatiskan tugas Excel, memproses banyak file secara batch, dan menjadwalkan operasi dengan Aspose.Cells untuk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No acelerado ambiente de negócios atual, o processamento eficiente de dados de planilhas é crucial para a tomada de decisões e a geração de relatórios. Arquivos de Planilha OpenDocument (ODS) podem ser complexos de gerenciar sem as ferramentas certas. Este tutorial guiará você pelo uso do Aspose.Cells para Java para ler e validar arquivos ODS sem problemas.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Configurando Aspose.Cells para Java
 - Lendo um arquivo ODS com Aspose.Cells
@@ -192,6 +194,9 @@ Explore recursos mais avançados do Aspose.Cells mergulhando em seu abrangente [
 - **Fórum de suporte:** [Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

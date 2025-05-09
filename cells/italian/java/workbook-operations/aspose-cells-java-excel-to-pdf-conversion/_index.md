@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introduzione
 
-Convertire file Excel in PDF è un'esigenza comune nel mondo aziendale, offrendo flessibilità e sicurezza. Se gestisci report finanziari, piani di progetto o qualsiasi documento che richieda una formattazione coerente su tutte le piattaforme, questa guida ti sarà di grande aiuto. L'utilizzo di Aspose.Cells per Java semplifica notevolmente questo processo, fornendo potenti strumenti per gestire i tuoi dati in modo fluido.
+Convertire file Excel in PDF è un'esigenza comune nel mondo aziendale, offrendo flessibilità e sicurezza. Se gestisci report finanziari, piani di progetto o qualsiasi documento che richieda una formattazione coerente su tutte le piattaforme, questa guida ti sarà preziosa. L'utilizzo di Aspose.Cells per Java semplifica notevolmente questo processo, fornendo potenti strumenti per gestire i tuoi dati in modo fluido.
 
 **Cosa imparerai:**
 
@@ -190,6 +192,9 @@ Sperimenta le funzionalità aggiuntive di Aspose.Cells, come la conversione di g
 Questa guida fornisce una panoramica completa sull'utilizzo di Aspose.Cells per Java per convertire file Excel in PDF, assicurandoti di disporre degli strumenti e delle conoscenze necessarie per implementare questa soluzione in modo efficace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

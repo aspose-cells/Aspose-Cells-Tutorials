@@ -1,43 +1,45 @@
 ---
-title: Excel Odebrat konkrétní konec stránky
-linktitle: Excel Odebrat konkrétní konec stránky
-second_title: Aspose.Cells for .NET API Reference
-description: V tomto komplexním podrobném průvodci se snadno naučíte, jak odstranit konkrétní konce stránek ze souborů aplikace Excel pomocí Aspose.Cells for .NET.
-weight: 30
-url: /cs/net/excel-page-breaks/excel-remove-specific-page-break/
+"description": "V tomto komplexním návodu krok za krokem se snadno naučíte, jak odstranit konkrétní zalomení stránek ze souborů aplikace Excel pomocí nástroje Aspose.Cells pro .NET."
+"linktitle": "Excel Odebrat konkrétní zalomení stránky"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Excel Odebrat konkrétní zalomení stránky"
+"url": "/cs/net/excel-page-breaks/excel-remove-specific-page-break/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel Odebrat konkrétní konec stránky
+# Excel Odebrat konkrétní zalomení stránky
 
 ## Zavedení
 
-Pokud jde o práci se soubory aplikace Excel, může být správa zalomení stránek trochu složitější, zvláště pokud chcete zachovat dokonalé rozvržení pro tisk. Ocitli jste se někdy v situaci, kdy potřebujete z dokumentu odstranit ty otravné konce stránek? Pokud ano, máte štěstí! V této příručce prozkoumáme, jak odstranit konkrétní konce stránek v aplikaci Excel pomocí knihovny Aspose.Cells pro .NET. 
+Pokud jde o práci se soubory aplikace Excel, může být správa zalomení stránek trochu složitá, zvláště pokud vám záleží na zachování perfektního rozvržení pro tisk. Ocitnete se někdy v situaci, kdy potřebujete z dokumentu odstranit otravné zalomení stránek? Pokud ano, máte štěstí! V této příručce prozkoumáme, jak odstranit konkrétní zalomení stránek v Excelu pomocí knihovny Aspose.Cells pro .NET. 
 
 ## Předpoklady 
 
-Než se ponoříme do toho nejnutnějšího kódu, ujistěte se, že máte vše, co potřebujete, abyste mohli začít. Zde je rychlý kontrolní seznam předpokladů:
+Než se ponoříme do detailů kódu, ujistěme se, že máte vše, co potřebujete k zahájení. Zde je stručný kontrolní seznam předpokladů:
 
-1. Visual Studio: K vytváření a spouštění aplikací .NET budete potřebovat funkční instalaci sady Visual Studio.
-2.  Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Pokud jste to ještě neudělali, můžete si to stáhnout z[zde](https://releases.aspose.com/cells/net/).
+1. Visual Studio: Pro vytváření a spouštění aplikací .NET budete potřebovat funkční instalaci Visual Studia.
+2. Aspose.Cells pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Pokud jste tak ještě neučinili, můžete si ji stáhnout z [zde](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět úryvkům kódu.
-4. Soubor Excel: Mějte po ruce soubor Excel, který obsahuje nějaké konce stránek, s nimiž můžeme experimentovat.
+4. Soubor aplikace Excel: Mějte po ruce soubor aplikace Excel, který obsahuje nějaké zalomení stránek, se kterými můžeme experimentovat.
 
-Jakmile máte tyto předpoklady vyřešené, můžeme se vrhnout přímo na kód!
+Jakmile si vyřešíte tyto předpoklady, můžeme se rovnou pustit do kódu!
 
 ## Import balíčků
 
-Chcete-li používat Aspose.Cells, musíte do projektu importovat požadované jmenné prostory. Můžete to udělat takto:
+Chcete-li použít Aspose.Cells, musíte do projektu importovat požadované jmenné prostory. Zde je návod, jak to udělat:
 
-### Přidejte odkaz Aspose.Cells
-- Otevřete projekt sady Visual Studio.
-- Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte „Spravovat balíčky NuGet“.
-- Vyhledejte "Aspose.Cells" a nainstalujte jej.
+### Přidat odkaz na Aspose.Cells
+- Otevřete svůj projekt ve Visual Studiu.
+- Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt a vyberte možnost „Spravovat balíčky NuGet“.
+- Vyhledejte „Aspose.Cells“ a nainstalujte jej.
 
-### Importujte požadované jmenné prostory
+### Importovat požadované jmenné prostory
 Po instalaci přidejte na začátek souboru C# následující řádek:
 
 ```csharp
@@ -46,87 +48,89 @@ using Aspose.Cells;
 using System;
 ```
 
-S tím pryč z cesty, začněme psát nějaký kód!
+Když jsme tohle za sebou měli, pojďme začít psát kód!
 
-Nyní, když je naše nastavení připraveno, začneme rozčleněním procesu odstranění konkrétního konce stránky v souboru aplikace Excel na zvládnutelné kroky.
+Nyní, když je naše nastavení připraveno, začneme tím, že rozdělíme proces odstranění konkrétního zalomení stránky v souboru Excelu na zvládnutelné kroky.
 
-## Krok 1: Definujte adresář dokumentů
+## Krok 1: Definování adresáře dokumentů
 
-Nejprve musíte určit, kde jsou uloženy vaše dokumenty Excel. To pomáhá kódu sdělit, kde má hledat vaše soubory.
+Nejdříve je potřeba určit, kde jsou uloženy vaše dokumenty aplikace Excel. To pomůže kódu sdělit, kde má vaše soubory hledat.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Vysvětlení: Vyměnit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou k vašim souborům. Zde načtete soubor Excel a uložíte jej později.
+Vysvětlení: Nahradit `YOUR DOCUMENT DIRECTORY` se skutečnou cestou k vašim souborům. Odtud načtete soubor Excel a později uložíte upravený soubor Excel.
 
-## Krok 2: Vytvořte instanci objektu sešitu
+## Krok 2: Vytvoření instance objektu Workbook
 
-Dále musíme načíst náš sešit. Jednoduše řečeno, představte si sešit jako soubor aplikace Excel.
+Dále musíme načíst náš sešit. Jednoduše řečeno, sešit si představte jako soubor aplikace Excel.
 
 ```csharp
-// Vytvoření instance objektu sešitu
+// Vytvoření instance objektu Workbook
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- Vysvětlení: Tento řádek vytváří novou instanci a`Workbook` , který načte zadaný soubor Excel (v tomto příkladu se jmenuje`PageBreaks.xls`). 
+Vysvětlení: Tento řádek vytvoří novou instanci třídy `Workbook`, který načte vámi zadaný soubor aplikace Excel (v tomto příkladu s názvem `PageBreaks.xls`). 
 
-## Krok 3: Odstraňte vodorovný konec stránky
+## Krok 3: Odstranění vodorovného zalomení stránky
 
-Nyní se zaměřme na vodorovný konec stránky. Toto jsou konce, které rozdělují stránky vertikálně.
+Nyní se zaměřme na vodorovné zalomení stránky. To jsou zalomení, která oddělují stránky svisle.
 
 ```csharp
-// Odstranění konkrétního konce stránky
+// Odstranění konkrétního zalomení stránky
 workbook.Worksheets[0].HorizontalPageBreaks.RemoveAt(0);
 ```
 
-Vysvětlení: Tento řádek přistupuje k prvnímu listu (indexovaný 0) a odstraňuje první vodorovný konec stránky (opět indexovaný 0). Pokud jich máte více, můžete změnit index a odstranit další konce stránek. 
+Vysvětlení: Tento řádek přistupuje k prvnímu listu (s indexem 0) a odstraňuje první vodorovný konec stránky (opět s indexem 0). Pokud máte více zalomení stránek, můžete index změnit. 
 
-## Krok 4: Odstraňte svislý konec stránky
+## Krok 4: Odstranění svislého zalomení stránky
 
-Dále se budeme zabývat vertikálním koncem stránky, který rozděluje stránky vodorovně.
+Dále se budeme zabývat vertikálním zalomením stránky, které rozděluje stránky vodorovně.
 
 ```csharp
 workbook.Worksheets[0].VerticalPageBreaks.RemoveAt(0);
 ```
 
-Vysvětlení: Podobně jako u vodorovného konce stránky tento řádek odstraní první svislý konec stránky v prvním listu. Stejně jako dříve můžete index upravit podle potřeby.
+Vysvětlení: Podobně jako vodorovný konec stránky tento řádek odstraní první svislý konec stránky v prvním listu. Stejně jako předtím můžete index upravit podle potřeby.
 
-## Krok 5: Uložte upravený sešit
+## Krok 5: Uložení upraveného sešitu
 
-Konečně je čas uložit aktualizovaný soubor Excel, aby všechna vaše tvrdá práce nepřišla nazmar!
+Konečně je čas uložit aktualizovaný soubor Excelu, aby veškerá vaše tvrdá práce nepřišla nazmar!
 
 ```csharp
-// Uložte soubor aplikace Excel.
+// Uložte soubor Excelu.
 workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 ```
 
-Vysvětlení: Zde uložíme sešit pod novým názvem (`RemoveSpecificPageBreak_out.xls`), aby nedošlo k přepsání původního souboru. To zajišťuje, že se v případě potřeby můžete vždy vrátit k originálu.
+Vysvětlení: Zde uložíme sešit s novým názvem (`RemoveSpecificPageBreak_out.xls`), abyste zabránili přepsání původního souboru. Díky tomu se v případě potřeby můžete vždy vrátit k originálu.
 
 ## Závěr
 
-tady to máte! Odstranění konkrétních konců stránek ze souboru aplikace Excel pomocí Aspose.Cells for .NET je stejně jednoduché jako provedení výše uvedených kroků. Pomocí této příručky můžete zajistit, že vaše dokumenty Excel budou perfektně naformátovány pro tisk, aniž by vám překážely nějaké zbloudilé konce stránek.
+A je to! Odstranění konkrétních zalomení stránek z excelového souboru pomocí Aspose.Cells pro .NET je stejně jednoduché jako provedení výše uvedených kroků. S touto příručkou si můžete být jisti, že vaše excelové dokumenty budou perfektně naformátovány pro tisk, aniž by vám překážely jakékoli zalomení stránek.
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu odstranit více zalomení stránek najednou?  
- Ano, můžete! Stačí procházet`HorizontalPageBreaks` a`VerticalPageBreaks` sbírky a používat`RemoveAt` metoda.
+Ano, můžete! Stačí projít `HorizontalPageBreaks` a `VerticalPageBreaks` sbírky a používat `RemoveAt` metoda.
 
-### Jak zjistím, který index použít pro konce stránek?  
-Konce stránek můžete iterovat pomocí smyčky a vytisknout jejich indexy nebo je zkontrolovat pomocí debuggeru.
+### Jak zjistím, který index použít pro zalomení stránek?  
+Konce stránek můžete iterovat pomocí smyčky a vypsat jejich indexy nebo je zkontrolovat pomocí ladicího programu.
 
 ### Existuje způsob, jak znovu přidat odstraněné konce stránek?  
- Bohužel, jakmile je konec stránky odstraněn pomocí`RemoveAt` metodu, nelze jej v rámci této relace obnovit. Budete jej muset znovu vytvořit ručně.
+Bohužel, jakmile je zalomení stránky odstraněno pomocí `RemoveAt` metodu, nelze ji v rámci dané relace obnovit. Budete ji muset znovu vytvořit ručně.
 
-### Mohu tuto metodu použít na jiné listy v sešitu?  
- Absolutně! Stačí změnit indexové číslo`workbook.Worksheets[index]` zacílit na požadovaný list.
+### Mohu tuto metodu použít i na jiné listy v sešitu?  
+Rozhodně! Stačí změnit indexové číslo v `workbook.Worksheets[index]` pro cílení na požadovaný pracovní list.
 
 ### Je Aspose.Cells bezplatný nástroj?  
-Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci. Můžete to zkontrolovat[zde](https://purchase.aspose.com/buy).
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plnou funkčnost si budete muset zakoupit licenci. Můžete si ji vyzkoušet [zde](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

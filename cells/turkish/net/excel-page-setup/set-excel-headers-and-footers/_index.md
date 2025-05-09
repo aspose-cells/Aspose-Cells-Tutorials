@@ -1,14 +1,16 @@
 ---
-title: Excel Başlıklarını ve Altbilgilerini Ayarla
-linktitle: Excel Başlıklarını ve Altbilgilerini Ayarla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET'i kullanarak Excel başlıklarını ve altbilgilerini adım adım kılavuzumuzla kolayca nasıl ayarlayacağınızı öğrenin. Profesyonel belgeler için mükemmeldir.
-weight: 100
-url: /tr/net/excel-page-setup/set-excel-headers-and-footers/
+"description": "Aspose.Cells for .NET'i kullanarak Excel başlıklarını ve altbilgilerini adım adım kılavuzumuzla kolayca nasıl ayarlayacağınızı öğrenin. Profesyonel belgeler için mükemmeldir."
+"linktitle": "Excel Başlıklarını ve Altbilgilerini Ayarla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Başlıklarını ve Altbilgilerini Ayarla"
+"url": "/tr/net/excel-page-setup/set-excel-headers-and-footers/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Başlıklarını ve Altbilgilerini Ayarla
@@ -22,7 +24,7 @@ E-tablo belgelerini yönetmeye gelince, başlıklar ve altbilgiler bağlam sağl
 Ayrıntılara dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İlk olarak, şunlara ihtiyacınız olacak:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. C# kodunuzu burada yazıp çalıştıracaksınız.
-2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Eğer henüz yapmadıysanız, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Eğer henüz yapmadıysanız, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 3. C# Hakkında Temel Bilgi: Tüm kod örnekleri bu dilde olacağından, C# programlamaya aşinalık çok önemlidir.
 4. Proje Kurulumu: Excel başlık/altbilgi mantığımızı uygulayacağımız Visual Studio'da yeni bir C# projesi oluşturun.
 
@@ -50,7 +52,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Bu namespace'i içe aktararak Aspose.Cells kütüphanesinin sağladığı işlevsellikleri hiçbir engele takılmadan kullanabilirsiniz.
+Bu namespace'i import ederek Aspose.Cells kütüphanesinin sağladığı işlevsellikleri hiçbir engele takılmadan kullanabilirsiniz.
 
 Harika! Artık ortamınız kuruldu ve paketleriniz içe aktarıldı, şimdi Excel'de başlık ve altbilgi ayarlama sürecini adım adım inceleyelim.
 
@@ -63,17 +65,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook excel = new Workbook();
 ```
 
- Açıklama: Burada, şunu değiştirin`YOUR DOCUMENT DIRECTORY` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile.`Workbook` nesnesi Excel dosyaları oluşturmak ve düzenlemek için ana giriş noktanızdır.
+Açıklama: Burada, şunu değiştirin `YOUR DOCUMENT DIRECTORY` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile. `Workbook` nesnesi Excel dosyaları oluşturmak ve düzenlemek için ana giriş noktanızdır.
 
 ## Adım 2: PageSetup Referansını Edinin
 
- Daha sonra, şuraya erişmemiz gerekiyor:`PageSetup` Başlık ve altbilgileri ayarlamak istediğimiz çalışma sayfasının özelliği.
+Daha sonra, şuraya erişmemiz gerekiyor: `PageSetup` Başlık ve altbilgileri ayarlamak istediğimiz çalışma sayfasının özelliği.
 
 ```csharp
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 ```
 
- Açıklama: İlk çalışma sayfasına (indeks) erişiyoruz`0` ) çalışma kitabımızın`PageSetup` sınıf, üstbilgiler ve altbilgiler dahil olmak üzere sayfanın yazdırıldığında nasıl görüneceğini özelleştirmek için özellikler ve yöntemler sağlar.
+Açıklama: İlk çalışma sayfasına (indeks) erişiyoruz `0`) çalışma kitabımızın `PageSetup` sınıf, üstbilgiler ve altbilgiler dahil olmak üzere sayfanın yazdırıldığında nasıl görüneceğini özelleştirmek için özellikler ve yöntemler sağlar.
 
 ## Adım 3: Başlığı Ayarlayın
 
@@ -83,7 +85,7 @@ PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 pageSetup.SetHeader(0, "&A");
 ```
 
- Açıklama:`SetHeader` yöntem, başlığın içeriğini tanımlamamıza olanak tanır. Burada,`&A` başlığın sol tarafında görünecek olan çalışma sayfasının adını belirtir.
+Açıklama: `SetHeader` yöntem, başlığın içeriğini tanımlamamıza olanak tanır. Burada, `&A` başlığın sol tarafında görünecek olan çalışma sayfasının adını belirtir.
 
 ## Adım 4: Merkezi Başlığı Özelleştirin
 
@@ -93,7 +95,7 @@ Daha sonra, merkezi başlığı özelleştirerek geçerli tarih ve saati belirli
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Açıklama:`&D` Ve`&T` kodlar otomatik olarak kendilerini sırasıyla geçerli tarih ve saatle değiştirecektir. Ayrıca bu başlığın yazı tipinin "Times New Roman" ve kalın olması gerektiğini belirtiyoruz.
+Açıklama: `&D` Ve `&T` kodlar otomatik olarak kendilerini sırasıyla geçerli tarih ve saatle değiştirecektir. Ayrıca bu başlığın yazı tipinin "Times New Roman" ve kalın olması gerektiğini belirtiyoruz.
 
 ## Adım 5: Doğru Başlığı Ayarlayın
 
@@ -103,7 +105,7 @@ pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
 ```
 
- Açıklama: Burada,`&F` dosya adıyla değiştirilecektir. Tutarlı bir görünüm sağlamak için merkezi başlıkta kullandığımız yazı tipini kullanırız.
+Açıklama: Burada, `&F` dosya adıyla değiştirilecektir. Tutarlı bir görünüm sağlamak için merkezi başlıkta kullandığımız yazı tipini kullanırız.
 
 ## Adım 6: Altbilgiyi Yapılandırın
 
@@ -113,7 +115,7 @@ Artık başlıklarımız şık göründüğüne göre, dikkatimizi altbilgilere 
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
-Açıklama: Sol alt bilgiye "Merhaba Dünya!" metninin yanında özel bir mesaj ekliyoruz.`123` farklı bir yazı tipinde—Courier New.
+Açıklama: Sol alt bilgiye "Merhaba Dünya!" metninin yanında özel bir mesaj ekliyoruz. `123` farklı bir yazı tipinde—Courier New.
 
 ## Adım 7: Orta Alt Bilgi Yapılandırması
 
@@ -123,7 +125,7 @@ Daha sonra, ortadaki altbilgiyi geçerli sayfa numarasını gösterecek şekilde
 pageSetup.SetFooter(1, "&P");
 ```
 
- Açıklama:`&P` Kod, sayfa numarasını otomatik olarak altbilginin ortasına ekler; bu, sayfaları takip etmenin kullanışlı bir yoludur.
+Açıklama: `&P` Kod, sayfa numarasını otomatik olarak altbilginin ortasına ekler; bu, sayfaları takip etmenin kullanışlı bir yoludur.
 
 ## Adım 8: Sağ Alt Bilgi Yapılandırması
 
@@ -133,7 +135,7 @@ Altbilgi ayarlarımızı tamamlamak için, sağ altbilgiyi belgedeki toplam sayf
 pageSetup.SetFooter(2, "&N");
 ```
 
- Açıklama: Burada,`&N` toplam sayfa sayısıyla değiştirilecektir. Özellikle uzun belgeler için profesyonel bir dokunuş katar.
+Açıklama: Burada, `&N` toplam sayfa sayısıyla değiştirilecektir. Özellikle uzun belgeler için profesyonel bir dokunuş katar.
 
 ## Adım 9: Çalışma Kitabını Kaydedin
 
@@ -143,7 +145,7 @@ Artık her şey hazır, emeğinizin meyvelerini görmek için çalışma kitabı
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 ```
 
- Açıklama: Değiştir`"SetHeadersAndFooters_out.xls"` İstediğiniz dosya adıyla. Çalışma kitabınızı kaydedin ve işte tamam!
+Açıklama: Değiştir `"SetHeadersAndFooters_out.xls"` İstediğiniz dosya adıyla. Çalışma kitabınızı kaydedin ve işte tamam!
 
 ## Çözüm
 
@@ -155,19 +157,21 @@ excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenlemek ve işlemek için kullanılan bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet! Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells eski Excel formatlarıyla uyumlu mu?
 Kesinlikle! Aspose.Cells hem eski hem de yeni Excel dosya formatlarını destekler.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Ayrıntılı dokümantasyonu şu adresten kontrol edebilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Ayrıntılı dokümantasyonu şu adresten kontrol edebilirsiniz: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek için şu adresi ziyaret edin:[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
+Destek için şu adresi ziyaret edin: [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

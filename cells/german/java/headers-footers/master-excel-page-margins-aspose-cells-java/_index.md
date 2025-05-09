@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,6 +175,9 @@ Diese Anleitung vermittelt Ihnen das Wissen, wie Sie Excel-Seitenränder program
    - Stellen Sie sicher, dass Ihre Build-Konfiguration (Maven oder Gradle) den richtigen Abhängigkeitseintrag für Aspose.Cells enthält.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

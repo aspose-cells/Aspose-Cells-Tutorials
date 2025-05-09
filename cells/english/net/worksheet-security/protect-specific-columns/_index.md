@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-specific-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Specific Columns in Worksheet using Aspose.Cells
@@ -112,6 +114,7 @@ Yes, you can apply different protection settings to different columns or cells b
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

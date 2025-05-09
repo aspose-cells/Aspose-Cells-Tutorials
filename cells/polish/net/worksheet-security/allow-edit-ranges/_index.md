@@ -1,14 +1,16 @@
 ---
-title: Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-linktitle: Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się tworzyć edytowalne zakresy w arkuszach kalkulacyjnych programu Excel za pomocą pakietu Aspose.Cells for .NET, umożliwiając edycję wybranych komórek i zabezpieczając resztę za pomocą ochrony arkusza kalkulacyjnego.
-weight: 10
-url: /pl/net/worksheet-security/allow-edit-ranges/
+"description": "Naucz się tworzyć edytowalne zakresy w arkuszach kalkulacyjnych programu Excel za pomocą pakietu Aspose.Cells for .NET, umożliwiając edycję wybranych komórek i zabezpieczając pozostałe za pomocą ochrony arkusza kalkulacyjnego."
+"linktitle": "Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"url": "/pl/net/worksheet-security/allow-edit-ranges/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zezwalaj użytkownikom na edycję zakresów w arkuszu kalkulacyjnym za pomocą Aspose.Cells
@@ -17,10 +19,10 @@ url: /pl/net/worksheet-security/allow-edit-ranges/
 Dokumenty programu Excel często zawierają poufne dane lub ustrukturyzowaną zawartość, którą chcesz chronić przed niechcianą edycją. Mogą jednak istnieć określone komórki lub zakresy, które chcesz udostępnić do edycji określonym użytkownikom. W tym miejscu Aspose.Cells for .NET wkracza jako potężne narzędzie, które pozwala chronić cały arkusz kalkulacyjny, jednocześnie udzielając uprawnień do edycji wyznaczonym zakresom. Wyobraź sobie udostępnianie arkusza kalkulacyjnego budżetu, w którym tylko niektóre komórki są edytowalne, a inne pozostają bezpieczne — Aspose.Cells ułatwia to i usprawnia.
 ## Wymagania wstępne
 Zanim przejdziemy do kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz:
--  Aspose.Cells dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 - Środowisko programistyczne: Visual Studio lub dowolne środowisko IDE zgodne z C#.
 - .NET Framework: wersja 4.0 lub nowsza.
-- Licencja: Rozważ uzyskanie licencji, aby uniknąć ograniczeń dotyczących okresu próbnego. Możesz uzyskać[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/).
+- Licencja: Rozważ uzyskanie licencji, aby uniknąć ograniczeń dotyczących okresu próbnego. Możesz uzyskać [tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/).
 ## Importuj pakiety
 Pamiętaj o uwzględnieniu niezbędnej przestrzeni nazw Aspose.Cells na początku kodu:
 ```csharp
@@ -43,7 +45,7 @@ if (!isExists)
 ```
 Ta część kodu zapewnia, że katalog jest gotowy do operacji na plikach. Pomyśl o tym jako o położeniu fundamentu pod wszystko, co następuje.
 ## Krok 2: Zainicjuj skoroszyt i arkusz kalkulacyjny
-Teraz utworzymy nowy skoroszyt i uzyskamy dostęp do jego domyślnego arkusza.
+Teraz utwórzmy nowy skoroszyt i uzyskajmy dostęp do jego domyślnego arkusza.
 ```csharp
 // Zainicjuj nowy skoroszyt
 Workbook book = new Workbook();
@@ -52,7 +54,7 @@ Worksheet sheet = book.Worksheets[0];
 ```
 Tutaj inicjujemy skoroszyt programu Excel i wybieramy pierwszy arkusz w nim zawarty. Ten arkusz będzie płótnem, w którym zastosujemy nasze ustawienia ochrony i zdefiniujemy edytowalne zakresy.
 ## Krok 3: Uzyskaj dostęp do kolekcji Zezwalaj na edycję zakresów
- Aspose.Cells ma funkcję o nazwie`AllowEditRanges`, który jest zbiorem zakresów, które można edytować, nawet gdy arkusz kalkulacyjny jest chroniony.
+Aspose.Cells ma funkcję o nazwie `AllowEditRanges`, który jest zbiorem zakresów, które można edytować, nawet gdy arkusz kalkulacyjny jest chroniony.
 ```csharp
 // Uzyskaj dostęp do kolekcji Zezwalaj na edycję zakresów
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
@@ -83,7 +85,7 @@ Mając już ustalony zakres edytowalny, następnym krokiem jest ochrona całego 
 // Zastosuj ochronę arkusza kalkulacyjnego, uniemożliwiając edycję wszystkich pozostałych komórek
 sheet.Protect(ProtectionType.All);
 ```
- Ten`Protect`Metoda blokuje cały arkusz roboczy, z wyjątkiem zakresów, które zdefiniowaliśmy jako edytowalne. Ten krok zasadniczo tworzy bezpieczne środowisko „tylko do odczytu”, z dostępem do określonych komórek w razie potrzeby.
+Ten `Protect` Metoda blokuje cały arkusz roboczy, z wyjątkiem zakresów, które zdefiniowaliśmy jako edytowalne. Ten krok zasadniczo tworzy bezpieczne środowisko „tylko do odczytu”, z dostępem do określonych komórek w razie potrzeby.
 ## Krok 7: Zapisz skoroszyt
 Ostatnim krokiem jest zapisanie skoroszytu, aby ustawienia zostały zastosowane i zapisane.
 ```csharp
@@ -95,18 +97,20 @@ W tym kroku zapisujemy nasz skoroszyt pod nazwą „protectedrange.out.xls” w 
 Aspose.Cells for .NET zapewnia doskonały sposób zarządzania ochroną i uprawnieniami w plikach Excel. Tworząc edytowalne zakresy, możesz zabezpieczyć arkusze kalkulacyjne, jednocześnie umożliwiając dostęp do określonych obszarów. Ta funkcjonalność jest szczególnie przydatna w przypadku dokumentów grupowych, w których tylko kilka komórek powinno być otwartych do edycji, a inne powinny pozostać zablokowane.
 ## Najczęściej zadawane pytania
 ### Czy mogę dodać do arkusza kalkulacyjnego wiele zakresów edytowalnych?
-Tak, możesz dodać wiele zakresów, po prostu powtarzając`allowRanges.Add()` metodę dla każdego nowego zakresu.
+Tak, możesz dodać wiele zakresów, po prostu powtarzając `allowRanges.Add()` metodę dla każdego nowego zakresu.
 ### Co się stanie, jeśli później będę chciał usunąć chroniony zakres?
- Użyj`allowRanges.RemoveAt()` metodę z indeksem zakresu, który chcesz usunąć.
+Użyj `allowRanges.RemoveAt()` metodę z indeksem zakresu, który chcesz usunąć.
 ### Czy mogę ustawić różne hasła dla każdego zakresu?
- Absolutnie. Każdy`ProtectedRange` może mieć własne, unikalne hasło, co zapewni Ci szczegółową kontrolę.
+Absolutnie. Każdy `ProtectedRange` może mieć własne, unikalne hasło, co zapewni Ci szczegółową kontrolę.
 ### Co się stanie, jeśli zabezpieczę arkusz kalkulacyjny bez żadnych zakresów edytowalnych?
-Jeśli nie zdefiniujesz zakresów edytowalnych, cały arkusz kalkulacyjny stanie się nieedytowalny po włączeniu ochrony.
+Jeśli nie zdefiniujesz zakresów edytowalnych, po włączeniu ochrony cały arkusz stanie się nieedytowalny.
 ### Czy zakres chroniony jest widoczny dla innych użytkowników?
 Nie, ochrona jest wewnętrzna. Użytkownicy będą proszeni o podanie hasła tylko wtedy, gdy spróbują edytować chroniony obszar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

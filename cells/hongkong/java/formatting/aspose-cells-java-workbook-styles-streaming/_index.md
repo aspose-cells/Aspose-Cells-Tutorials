@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ class LightCellsDataProviderFeature implements LightCellsDataProvider {
             colIndex = -1; // 重置為新行
             return rowIndex;
         }
-        return -1; // 表格結束
+        return -1; // 表格末尾
     }
 
     public void startCell(Cell cell) {
@@ -221,6 +223,9 @@ class LightCellsDataProviderFeature implements LightCellsDataProvider {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

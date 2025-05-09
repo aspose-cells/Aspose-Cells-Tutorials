@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Nous vous encourageons à essayer d'implémenter la solution présentée ici dan
 En suivant ce guide complet, vous pouvez implémenter et optimiser en toute confiance le tri des données Excel dans vos applications Java à l'aide d'Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

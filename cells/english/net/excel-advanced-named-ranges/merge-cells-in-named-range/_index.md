@@ -8,7 +8,9 @@ url: /net/excel-advanced-named-ranges/merge-cells-in-named-range/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merge Cells in Named Range in Excel
@@ -187,6 +189,7 @@ After merging, you can still access the merged cell using its top-left corner’
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

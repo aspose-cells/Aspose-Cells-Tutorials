@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ Questo passaggio scrive la cartella di lavoro configurata in una directory speci
 Per set di dati di grandi dimensioni, ottimizza le prestazioni:
 - Elaborazione dei dati in blocchi per ridurre al minimo l'utilizzo della memoria.
 - Utilizzo di strutture dati efficienti.
-- Applicazioni di profilazione per identificare i colli di bottiglia.
+- Profilazione delle applicazioni per identificare i colli di bottiglia.
 
 Fare riferimento alla documentazione di Aspose.Cells su [ottimizzazione della memoria](https://reference.aspose.com/cells/java/) per tecniche specifiche di Java.
 
@@ -163,6 +165,9 @@ Per ulteriori letture e supporto, visitare [Documentazione di Aspose](https://re
 - Forum di supporto: [Comunità Aspose Cells](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

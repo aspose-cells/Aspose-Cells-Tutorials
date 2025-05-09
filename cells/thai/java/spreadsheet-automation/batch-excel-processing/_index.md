@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การประมวลผลแบบแบตช์ Excel
@@ -109,9 +111,11 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    สำรวจเอกสาร API ได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference.aspose.com/cells/java/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
 
 เพิ่มประสิทธิภาพงานประมวลผล Excel แบบแบตช์ของคุณและเพิ่มประสิทธิภาพการทำงานด้วย Aspose.Cells สำหรับ Java
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

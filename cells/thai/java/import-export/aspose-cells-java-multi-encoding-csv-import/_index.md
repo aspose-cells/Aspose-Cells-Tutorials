@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ workbook.save(outDir + "ConvertedCSVtoXLSX_out.xlsx", SaveFormat.XLSX);
 
 ## ส่วนคำถามที่พบบ่อย
 1. **จะเกิดอะไรขึ้นหากไฟล์ CSV ของฉันโหลดไม่ถูกต้อง?**
-   - ทำให้มั่นใจ `setMultiEncoded(true)` ใช้หากไฟล์มีการเข้ารหัสหลายแบบ
+   - ทำให้มั่นใจ `setMultiEncoded(true)` ใช้หากไฟล์มีการเข้ารหัสหลายรายการ
 2. **ฉันสามารถจัดการรูปแบบไฟล์ที่แตกต่างกันด้วย Aspose.Cells ได้หรือไม่**
    - ใช่ Aspose.Cells รองรับรูปแบบต่างๆ รวมถึง XLSX, CSV และอื่นๆ
 3. **มีข้อแตกต่างในด้านประสิทธิภาพระหว่างการใช้ TxtLoadOptions สำหรับไฟล์ที่เข้ารหัสเดี่ยวหรือหลายไฟล์หรือไม่**
@@ -137,7 +139,7 @@ workbook.save(outDir + "ConvertedCSVtoXLSX_out.xlsx", SaveFormat.XLSX);
 4. **ฉันสามารถใช้ Aspose.Cells โดยไม่ต้องมีใบอนุญาตได้หรือไม่?**
    - มีรุ่นทดลองใช้งานฟรี และคุณยังสามารถสมัครใบอนุญาตชั่วคราวได้อีกด้วย
 5. **ฉันสามารถหาตัวอย่างเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells กับ Java ได้ที่ไหน**
-   - เยี่ยมชม [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/) และสำรวจตัวอย่างโค้ดที่หลากหลาย
+   - เยี่ยมชม [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/) และสำรวจตัวอย่างโค้ดต่างๆ
 
 ## ทรัพยากร
 - **เอกสารประกอบ**- [เอกสารอ้างอิง Java API ของ Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -150,6 +152,9 @@ workbook.save(outDir + "ConvertedCSVtoXLSX_out.xlsx", SaveFormat.XLSX);
 เริ่มต้นการเดินทางของคุณกับ Aspose.Cells วันนี้และเรียนรู้ศิลปะการจัดการข้อมูลที่ซับซ้อนอย่างมีประสิทธิภาพ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

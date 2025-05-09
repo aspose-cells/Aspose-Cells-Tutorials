@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ O: Chociaż Aspose.Cells jest zoptymalizowany pod kątem wydajności, warto rozw
 Zacznij wdrażać to rozwiązanie już dziś, aby usprawnić zarządzanie plikami Excela dzięki Aspose.Cells for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

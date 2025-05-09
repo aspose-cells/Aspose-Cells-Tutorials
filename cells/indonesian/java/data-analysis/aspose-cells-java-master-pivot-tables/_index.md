@@ -7,28 +7,30 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Tabel Pivot di Java dengan Aspose.Cells
 **Membuat dan Memodifikasi Tabel Pivot Menggunakan Aspose.Cells untuk Java**
 
-## Perkenalan
+## Bevezetés
 
 Analisis data Excel bisa jadi rumit, terutama saat menangani kumpulan data besar yang memerlukan ringkasan dan pelaporan dinamis. Dengan Aspose.Cells for Java—pustaka yang canggih—manipulasi file Excel menjadi mudah. Tutorial ini memandu Anda membuat dan memodifikasi tabel pivot menggunakan alat canggih ini.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells di lingkungan Java Anda
 - Membuat dan mengakses tabel pivot dalam buku kerja Excel
 - Memodifikasi bidang data tabel pivot dengan fungsi konsolidasi seperti Average dan Distinct Count
 - Menyimpan buku kerja Anda yang dimodifikasi secara efisien
 
-Mari kita bahas prasyaratnya sebelum memulai.
+Mielőtt belekezdenénk, nézzük át az előfeltételeket.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi.
 - **Lingkungan Pengembangan Terpadu (IDE):** Seperti IntelliJ IDEA atau Eclipse.
 - **Aspose.Cells untuk Pustaka Java:** Penting untuk operasi yang dicakup dalam tutorial ini.
@@ -51,11 +53,11 @@ Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven atau Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Aspose.Cells menawarkan uji coba gratis, yang memungkinkan pengujian sebelum pembelian. Minta lisensi sementara untuk akses lebih lama selama evaluasi.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Inisialisasi Aspose.Cells di proyek Java Anda:
 
@@ -72,7 +74,7 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memuat Buku Kerja dari File Excel
 
@@ -90,7 +92,7 @@ Targetkan lembar kerja tertentu berdasarkan indeks atau nama untuk operasi yang 
 
 ```java
 import com.aspose.cells.Worksheet;
-Worksheet worksheet = workbook.getWorksheets().get(0);  // Akses lembar kerja pertama
+Worksheet worksheet = workbook.getWorksheets().get(0);  // Hozzáférés az első munkalaphoz
 ```
 
 ### Bekerja dengan Tabel Pivot di Lembar Kerja
@@ -131,47 +133,50 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "ConsolidationFunctions_out.xlsx");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Analisis Data:** Ringkaslah data penjualan di seluruh wilayah dengan cepat.
-- **Pelaporan Keuangan:** Hasilkan laporan hitungan yang berbeda pada transaksi pelanggan.
-- **Manajemen Inventaris:** Hitung tingkat stok rata-rata di beberapa gudang.
+- **Adatelemzés:** Ringkaslah data penjualan di seluruh wilayah dengan cepat.
+- **Pénzügyi jelentéstétel:** Hasilkan laporan hitungan yang berbeda pada transaksi pelanggan.
+- **Készletgazdálkodás:** Hitung tingkat stok rata-rata di beberapa gudang.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar, optimalkan kinerja dengan:
 - Meminimalkan jumlah operasi baca/tulis.
 - Menggunakan API streaming untuk menangani data dalam potongan.
 - Memantau penggunaan memori untuk mencegah kebocoran atau konsumsi berlebihan.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara memanfaatkan Aspose.Cells untuk Java untuk membuat dan memodifikasi tabel pivot secara efektif. Keterampilan ini akan meningkatkan kemampuan Anda untuk menganalisis dan melaporkan kumpulan data yang kompleks dengan mudah.
 
-### Langkah Berikutnya
+### Következő lépések
 
 Jelajahi fitur Aspose.Cells lainnya seperti pembuatan bagan, perhitungan rumus, atau mengintegrasikan otomatisasi Excel ke dalam aplikasi yang lebih besar.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara mengintegrasikan Aspose.Cells dalam aplikasi Spring Boot?**
    - Tambahkan ketergantungan ke `pom.xml` dan konfigurasikan dalam lapisan layanan Anda.
-2. **Bisakah Aspose.Cells menangani berkas besar secara efisien?**
+2. **Az Aspose.Cells hatékonyan tudja kezelni a nagy fájlokat?**
    - Ya, dengan manajemen memori dan API streaming yang tepat, ia dapat memproses kumpulan data besar secara efektif.
 3. **Apa saja masalah umum saat memodifikasi tabel pivot?**
    - Pastikan bidang data tersedia sebelum menerapkan fungsi; periksa indeks yang benar untuk menghindari kesalahan.
 4. **Apakah ada cara untuk mengotomatiskan pembuatan laporan Excel setiap hari?**
    - Jadwalkan tugas menggunakan pekerjaan cron atau alat serupa, integrasikan Aspose.Cells dalam skrip ini.
 5. **Bagaimana cara mendapatkan dukungan jika saya mengalami masalah dengan Aspose.Cells?**
-   - Kunjungi [Forum Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan masyarakat dan dukungan resmi.
+   - Látogassa meg a [Aspose fórum](https://forum.aspose.com/c/cells/9) untuk bantuan masyarakat dan dukungan resmi.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Sel Aspose Rilis](https://releases.aspose.com/cells/java/)
-- **Pembelian & Uji Coba:** [Pembelian Aspose & Uji Coba Gratis](https://purchase.aspose.com/buy)
-- **Lisensi Sementara:** [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Vásárlás és próbaverzió:** [Pembelian Aspose & Uji Coba Gratis](https://purchase.aspose.com/buy)
+- **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

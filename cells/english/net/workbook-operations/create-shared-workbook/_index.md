@@ -8,7 +8,9 @@ url: /net/workbook-operations/create-shared-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Shared Workbook using Aspose.Cells
@@ -91,6 +93,7 @@ You can access the support forum [here](https://forum.aspose.com/c/cells/9).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

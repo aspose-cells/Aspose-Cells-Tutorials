@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial impor dan ekspor kami menyediakan panduan komprehensif untuk bertukar data antara Excel dan sumber eksternal menggunakan Aspose.Cells di Java. Panduan praktis ini menunjukkan cara mengimpor dari basis data, XML, JSON, dan file teks, serta mengekspor data spreadsheet ke berbagai format. Setiap tutorial menyertakan contoh kode Java lengkap untuk skenario pertukaran data umum, membantu Anda membangun integrasi tangguh yang menjaga integritas dan format data selama operasi impor/ekspor.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi impor & ekspor
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -119,10 +121,13 @@ Pelajari cara mengurai data XML secara efisien dan mengintegrasikannya ke dalam 
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

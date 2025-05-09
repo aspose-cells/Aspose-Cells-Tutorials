@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,13 +195,16 @@ Ebben az oktatóanyagban megtanultad, hogyan egyesíthetsz és bonthatsz szét c
 
 ## Erőforrás
 - **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
-- **Letöltési könyvtár:** A legújabb verzió elérése innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
+- **Könyvtár letöltése:** A legújabb verzió elérése innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
 - **Licenc vásárlása:** Látogatás [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy) licencelési lehetőségekért.
 - **Ingyenes próbaverzió:** Kezdje el egy ingyenes próbaverzióval az Aspose.Cells funkcióinak kiértékelését.
 - **Ideiglenes engedély:** Szerezzen be ideiglenes jogosítványt a [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 - **Támogatás és fórumok:** Lépj kapcsolatba a közösséggel a következőn: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Para otimizar o desempenho ao usar Aspose.Cells:
 Ao longo deste tutorial, você aprendeu a criar e estilizar documentos do Excel com o Aspose.Cells para Java. Ao dominar essas técnicas, você poderá aprimorar significativamente a capacidade do seu aplicativo de lidar com tarefas complexas de planilhas com eficiência.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

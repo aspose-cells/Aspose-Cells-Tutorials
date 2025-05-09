@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "เรียนรู้วิธีการเพิ่มข้อมูลซ้อนกันในแผ่นงาน Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่าเวิร์กบุ๊ก การนำมาร์กเกอร์อัจฉริยะมาใช้ และการประมวลผลชุดข้อมูลที่ซับซ้อน"
-"title": "เติมข้อมูลซ้อนกันใน Excel โดยใช้ Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์"
+"title": "เติมข้อมูลใน Excel ด้วยข้อมูลซ้อนกันโดยใช้ Aspose.Cells สำหรับ Java - คู่มือฉบับสมบูรณ์"
 "url": "/th/java/data-manipulation/populate-excel-nested-data-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -231,9 +233,12 @@ public class ProcessWorkbook {
 
 เมื่อปฏิบัติตามคู่มือนี้ คุณจะได้เรียนรู้วิธีการจัดการและเติมข้อมูลในเวิร์กบุ๊ก Excel อย่างมีประสิทธิภาพด้วยข้อมูลซ้อนกันโดยใช้ Aspose.Cells สำหรับ Java แนวทางนี้ไม่เพียงช่วยลดความซับซ้อนในการจัดการชุดข้อมูลเท่านั้น แต่ยังเพิ่มความยืดหยุ่นให้กับกระบวนการจัดการข้อมูลของคุณด้วย
 
-หากต้องการสำรวจเพิ่มเติม โปรดพิจารณาเจาะลึกฟีเจอร์ขั้นสูงของ Aspose.Cells หรือทดลองใช้โครงสร้างข้อมูลประเภทอื่น
+หากต้องการสำรวจเพิ่มเติม โปรดพิจารณาเจาะลึกฟีเจอร์ขั้นสูงของ Aspose.Cells หรือทดลองใช้โครงสร้างข้อมูลประเภทต่างๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Adott cellák elérése adatok beállításához vagy lekéréséhez.
 import com.aspose.cells.Cell;
 import com.aspose.cells.Worksheet;
 
-// Hozzáférés A1 cellához
+// Hozzáférési cella A1
 cell = worksheet.getCells().get("A1");
 cell.setValue("Hello World From Aspose");
 ```
@@ -165,7 +167,7 @@ Csere `YOUR_DATA_DIRECTORY` tényleges könyvtár elérési útjával, ahová a 
 3. **Adatelemzés**Nagy adathalmazok importálása munkafüzetekbe, képletek alkalmazása és az Aspose.Cells for Java használata elemzések kinyerésére programozottan generált diagramokon keresztül.
 
 ## Teljesítménybeli szempontok
-teljesítmény optimalizálása az Aspose.Cells használatakor:
+A teljesítmény optimalizálása az Aspose.Cells használatakor:
 - A memória megtakarítása érdekében lehetőség szerint korlátozza a munkalapok számát egyetlen munkafüzetben.
 - Használjon streameket nagy fájlok olvasásához/írásához a memóriahasználat csökkentése érdekében.
 - A tárgyak megfelelő ártalmatlanítása telefonon `dispose()` rajtuk, miután már nincs rájuk szükség, megakadályozva az erőforrás-szivárgást.
@@ -192,7 +194,7 @@ Most már megismerkedtél az Aspose.Cells for Java főbb funkcióival, a munkaf�
 
 ## Erőforrás
 További segítségért tekintse meg ezeket a forrásokat:
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Töltsd le a könyvtárat](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -202,6 +204,9 @@ További segítségért tekintse meg ezeket a forrásokat:
 Próbáld meg ezeket a funkciókat implementálni a Java-projektjeidben, és nézd meg, hogyan egyszerűsítheti az Aspose.Cells az Excel-fájlkezelési feladataidat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

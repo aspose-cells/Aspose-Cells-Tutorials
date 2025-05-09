@@ -1,14 +1,16 @@
 ---
-title: Odczytaj etykiety osi po obliczeniu wykresu
-linktitle: Odczytaj etykiety osi po obliczeniu wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odblokuj swój potencjał dzięki Aspose.Cells dla .NET. Dowiedz się, jak łatwo czytać etykiety osi wykresu w naszym szczegółowym przewodniku krok po kroku.
-weight: 11
-url: /pl/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-chart/
+"description": "Odblokuj swój potencjał dzięki Aspose.Cells dla .NET. Dowiedz się, jak łatwo czytać etykiety osi wykresu w naszym szczegółowym przewodniku krok po kroku."
+"linktitle": "Odczytaj etykiety osi po obliczeniu wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Odczytaj etykiety osi po obliczeniu wykresu"
+"url": "/pl/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odczytaj etykiety osi po obliczeniu wykresu
@@ -21,10 +23,10 @@ Podczas pracy z plikami Excel w .NET jedną z najpotężniejszych bibliotek, jak
 
 Zanim zagłębimy się w szczegóły kodu, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
-1.  Visual Studio: Powinieneś mieć zainstalowany program Visual Studio na swoim komputerze. Jeśli jeszcze go nie masz, możesz go pobrać ze strony[Witryna internetowa firmy Microsoft](https://visualstudio.microsoft.com/).
-2.  Biblioteka Aspose.Cells: Ten przewodnik zakłada, że masz bibliotekę Aspose.Cells. Możesz ją łatwo pobrać z[Strona wydania Aspose](https://releases.aspose.com/cells/net/) Jeśli nie jesteś pewien, od czego zacząć,[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) może być Twoim najlepszym przyjacielem!
+1. Visual Studio: Powinieneś mieć zainstalowany program Visual Studio na swoim komputerze. Jeśli jeszcze go nie masz, możesz go pobrać ze strony [Witryna internetowa firmy Microsoft](https://visualstudio.microsoft.com/).
+2. Biblioteka Aspose.Cells: Ten przewodnik zakłada, że masz bibliotekę Aspose.Cells. Możesz ją łatwo pobrać z [Strona wydania Aspose](https://releases.aspose.com/cells/net/)Jeśli nie jesteś pewien, od czego zacząć, [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) może być Twoim najlepszym przyjacielem!
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci zrozumieć przykłady i bez problemu nadążysz za nimi.
-4.  Plik Excel: Upewnij się, że masz plik Excel zawierający wykresy dla tego samouczka. Możesz utworzyć przykładowy plik Excel o nazwie`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` w celach testowych.
+4. Plik Excel: Upewnij się, że masz plik Excel zawierający wykresy dla tego samouczka. Możesz utworzyć przykładowy plik Excel o nazwie `sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` w celach testowych.
 5. Środowisko .NET: Sprawdź, czy Twoje środowisko .NET jest poprawnie skonfigurowane. Ten samouczek dotyczy środowiska .NET, więc upewnij się, że wszystko jest w porządku!
 
 Teraz, gdy mamy już wszystko, czego potrzebujemy, możemy zająć się konfiguracją i kodem!
@@ -46,7 +48,7 @@ using System.Collections;
 Oto, co robi każdy z nich:
 - Aspose.Cells: Ta przestrzeń nazw zapewnia dostęp do wszystkich funkcjonalności udostępnianych przez bibliotekę Aspose.Cells.
 - System: Podstawowa przestrzeń nazw dla podstawowych funkcjonalności języka C#, takich jak operacje konsoli.
--  System.Collections: Ta przestrzeń nazw jest niezbędna do korzystania z kolekcji takich jak`ArrayList`, którego będziemy używać do przechowywania etykiet osi.
+- System.Collections: Ta przestrzeń nazw jest niezbędna do korzystania z kolekcji takich jak `ArrayList`, którego będziemy używać do przechowywania etykiet osi.
 
 Po dodaniu tych importów możesz zająć się bardziej interesującymi zagadnieniami kodowania!
 
@@ -57,16 +59,16 @@ Zacznij od podania ścieżki katalogu, w którym znajduje się plik Excel.
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik Excel (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) jest przechowywany. Informuje to program, gdzie znaleźć plik.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik Excel (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) jest przechowywany. Informuje program, gdzie znaleźć plik.
 
 ## Krok 2: Załaduj skoroszyt
 
- Teraz załadujmy skoroszyt (plik Excel) za pomocą`Workbook` klasa.
+Teraz załadujmy skoroszyt (plik Excel) za pomocą `Workbook` klasa.
 
 ```csharp
-Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
+Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTenChart.xlsx");
 ```
- Ten`Workbook` Klasa jest Twoją bramą do pliku Excel. Podając pełną ścieżkę, tworzymy nową instancję skoroszytu, która przechowuje nasze dane Excel.
+The `Workbook` Klasa jest Twoją bramą do pliku Excel. Podając pełną ścieżkę, tworzymy nową instancję skoroszytu, która przechowuje nasze dane Excel.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -75,7 +77,7 @@ Następnie należy uzyskać dostęp do pierwszego arkusza w skoroszycie.
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
- Arkusze kalkulacyjne są indeksowane zerowo, więc`0` odnosi się do pierwszego arkusza. Ten wiersz daje nam dostęp do wszystkich komórek i wykresów na tym konkretnym arkuszu.
+Arkusze kalkulacyjne są indeksowane zerowo, więc `0` odnosi się do pierwszego arkusza. Ten wiersz daje nam dostęp do wszystkich komórek i wykresów na tym konkretnym arkuszu.
 
 ## Krok 4: Uzyskaj dostęp do wykresu
 
@@ -104,7 +106,7 @@ Teraz odczytajmy etykiety osi z osi kategorii.
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
- Tutaj wyciągamy etykiety z osi kategorii i przechowujemy je w`ArrayList`. Ta lista jest niezbędna do iterowania i wyświetlania etykiet.
+Tutaj wyciągamy etykiety z osi kategorii i przechowujemy je w `ArrayList`Ta lista jest niezbędna do iterowania i wyświetlania etykiet.
 
 ## Krok 7: Wydrukuj etykiety osi na konsoli
 
@@ -120,7 +122,7 @@ for (int i = 0; i < lstLabels.Count; i++)
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Ten fragment kodu najpierw wyprowadza tytuł i linię separatora. Następnie przechodzimy przez każdą etykietę w`lstLabels`ArrayList i wydrukuj to na konsoli. Jeśli jest dziesięć etykiet, zobaczysz każdą z nich tutaj!
+Ten fragment kodu najpierw wyprowadza tytuł i linię separatora. Następnie przechodzimy przez każdą etykietę w `lstLabels` ArrayList i wydrukuj to na konsoli. Jeśli jest dziesięć etykiet, zobaczysz każdą z nich tutaj!
 
 ## Krok 8: Ostatnia wiadomość
 
@@ -141,19 +143,21 @@ I oto masz — kompletny przewodnik, jak czytać etykiety osi kategorii z wykres
 Aspose.Cells to potężna biblioteka do manipulowania plikami Excel w .NET. Zapewnia różne funkcjonalności, takie jak czytanie, pisanie i manipulowanie wykresami.
 
 ### Czy mogę używać Aspose.Cells w ramach bezpłatnego okresu próbnego?
- Tak! Możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Jak kupić Aspose.Cells?
- Licencję na Aspose.Cells można nabyć za pośrednictwem ich[strona zakupu](https://purchase.aspose.com/buy).
+Licencję na Aspose.Cells można nabyć za pośrednictwem ich [strona zakupu](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- W celu uzyskania pomocy możesz odwiedzić forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+W celu uzyskania pomocy możesz odwiedzić forum Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Czy mogę otrzymać tymczasową licencję?
-Tak! Aspose oferuje tymczasową licencję, o którą możesz poprosić[ten link](https://purchase.aspose.com/temporary-license/).
+Tak! Aspose oferuje tymczasową licencję, o którą możesz poprosić [ten link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

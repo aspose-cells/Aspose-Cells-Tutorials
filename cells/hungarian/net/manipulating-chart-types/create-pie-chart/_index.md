@@ -1,35 +1,37 @@
 ---
-title: Kördiagram létrehozása
-linktitle: Kördiagram létrehozása
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre kördiagramot Excelben az Aspose.Cells for .NET használatával. Vizualizálja adatait erőfeszítés nélkül.
-weight: 12
-url: /hu/net/manipulating-chart-types/create-pie-chart/
+"description": "Tanuld meg, hogyan készíthetsz kördiagramot Excelben az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Vizualizáld az adataid könnyedén."
+"linktitle": "Kördiagram létrehozása"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Kördiagram létrehozása"
+"url": "/hu/net/manipulating-chart-types/create-pie-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kördiagram létrehozása
 
 ## Bevezetés
 
-A diagramok létrehozása elengedhetetlen az adatok vizuális megjelenítéséhez, és a kördiagramok az egyik legnépszerűbb módja annak, hogy szemléltesse, hogyan alkotják az alkatrészek egy egészet. Az Aspose.Cells for .NET segítségével könnyedén automatizálhatja a kördiagramok létrehozását Excel-fájlokban. Ebben az oktatóanyagban belemerülünk abba, hogyan lehet a semmiből kördiagramot létrehozni az Aspose.Cells for .NET használatával, lépésenkénti útmutatóval, hogy a folyamat zökkenőmentes és egyszerű legyen. Akár még új az eszközben, akár fejleszteni szeretné Excel automatizálási készségeit, ez az útmutató mindenre kiterjed!
+A diagramok létrehozása elengedhetetlen az adatok vizuális ábrázolásához, és a kördiagramok az egyik legnépszerűbb módja annak, hogy bemutassuk, hogyan alkotnak az alkatrészek egy egészet. Az Aspose.Cells for .NET segítségével könnyedén automatizálhatod a kördiagramok generálását Excel fájlokban. Ebben az oktatóanyagban elmerülünk abban, hogyan hozhatsz létre kördiagramot a semmiből az Aspose.Cells for .NET segítségével, lépésről lépésre bemutatva, hogyan lehet a folyamatot zökkenőmentessé és egyszerűvé tenni. Akár most ismerkedsz az eszközzel, akár szeretnéd fejleszteni az Excel automatizálási készségeidet, ez az útmutató mindent segít!
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, győződjön meg arról, hogy beállította a következőket:
+Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy a következőket beállítottuk:
 
-1.  Aspose.Cells for .NET Library: Győződjön meg arról, hogy az Aspose.Cells telepítve van a projektben. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/cells/net/).
-2. .NET fejlesztői környezet: Győződjön meg arról, hogy projektje .NET-keretrendszer vagy .NET Core használatára van beállítva.
-3. Alapvető C# ismerete: Kényelmesnek kell lennie a C# programozásban, különösen az objektum-orientált programozásban (OOP).
+1. Aspose.Cells .NET könyvtárhoz: Győződjön meg róla, hogy az Aspose.Cells telepítve van a projektjében. Ha még nem telepítette, letöltheti innen: [itt](https://releases.aspose.com/cells/net/).
+2. .NET fejlesztői környezet: Győződjön meg arról, hogy a projektje a .NET Framework vagy a .NET Core használatára van beállítva.
+3. C# alapismeretek: Jártasnak kell lenned a C# programozásban, különösen az objektumorientált programozásban (OOP).
 
- Haladó felhasználók számára ideiglenes licenc alkalmazható az Aspose.Cells összes funkciójának feloldásához. Kérhetsz egyet innen[itt](https://purchase.aspose.com/temporary-license/).
+Haladó felhasználók ideiglenes licencet igényelhetnek az Aspose.Cells összes funkciójának feloldásához. Igényelhet egyet a következő címen: [itt](https://purchase.aspose.com/temporary-license/).
 
 ## Csomagok importálása
 
-A kezdéshez importálja az oktatóanyaghoz szükséges névtereket és csomagokat. Ide tartoznak az alapvető I/O műveletek és az Aspose.Cells csomag.
+Kezdésként importáld a szükséges névtereket és csomagokat, amelyekre ebben az oktatóanyagban szükség van. Ezek közé tartoznak az alapvető I/O műveletek és az Aspose.Cells csomag.
 
 ```csharp
 using System;
@@ -41,19 +43,19 @@ using System.Drawing;
 using Aspose.Cells.Charts;
 ```
 
-## 1. lépés: Hozzon létre egy új munkafüzetet
+## 1. lépés: Új munkafüzet létrehozása
 
- Először is létre kell hoznunk egy példányt a`Workbook` osztály, amely az Excel fájlt képviseli. Egy munkafüzet több lapot tartalmaz, és példánkban két lappal fogunk dolgozni – egy az adatokhoz és egy a kördiagramhoz.
+Először is létre kell hoznunk egy példányt a `Workbook` osztály, amely az Excel-fájlt jelöli. Egy munkafüzet több munkalapot tartalmaz, és a példánkban két munkalappal fogunk dolgozni – egy az adatoknak és egy a kördiagramnak.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Ezzel inicializálja az új Excel-munkafüzetet. De hova kerülnek az adatok? Gondoskodjunk erről a következő lépésben.
+Ez inicializál egy új Excel-munkafüzetet. De hová kerülnek az adatok? Ezzel foglalkozzunk a következő lépésben.
 
 ## 2. lépés: Adatok hozzáadása a munkalaphoz
 
-A munkafüzet létrehozása után el kell érnünk az első munkalapot, és nevet kell adnunk neki. Ide írjuk be a kördiagramhoz szükséges adatokat.
+Miután létrehoztuk a munkafüzetet, el kell érnünk az első munkalapot, és nevet kell adnunk neki. Ide fogjuk beírni a kördiagramhoz szükséges adatokat.
 
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
@@ -61,7 +63,7 @@ sheet.Name = "Data";
 Cells cells = sheet.Cells;
 ```
 
-Most bevihetünk néhány álértékesítési adatot, amelyek különböző régiókat képviselnek:
+Most beírhatunk néhány, különböző régiókat reprezentáló fiktív értékesítési adatot:
 
 ```csharp
 cells["A1"].PutValue("Region");
@@ -83,11 +85,11 @@ cells["B7"].PutValue(32000);
 cells["B8"].PutValue(10000);
 ```
 
-Itt két oszlopot adunk hozzá: egyet a régiókhoz, egy másikat pedig az értékesítési adatokhoz. Ezek az adatok a kördiagramon jelennek meg.
+Itt két oszlopot adunk hozzá: egyet a régióknak, egy másikat pedig az értékesítési adatoknak. Ezeket az adatokat a kördiagram fogja ábrázolni.
 
-## 3. lépés: Adjon hozzá egy diagramlapot
+## 3. lépés: Diagramlap hozzáadása
 
-Ezután adjunk hozzá egy külön munkalapot a kördiagram tárolására.
+Ezután adjunk hozzá egy külön munkalapot a kördiagramhoz.
 
 ```csharp
 int sheetIndex = workbook.Worksheets.Add(SheetType.Chart);
@@ -95,24 +97,24 @@ Worksheet chartSheet = workbook.Worksheets[sheetIndex];
 chartSheet.Name = "Chart";
 ```
 
-Ezen az új munkalapon lesz a kördiagram. A „Chart” névhez hasonló elnevezés biztosítja, hogy a felhasználók tudják, mire számíthatnak a fájl megnyitásakor.
+Ez az új munkalap fogja tárolni a kördiagramot. Ha nevet ad neki, például „Diagram”, akkor a felhasználók tudni fogják, mire számíthatnak a fájl megnyitásakor.
 
-## 4. lépés: Készítse el a kördiagramot
+## 4. lépés: A kördiagram létrehozása
 
-Most itt az ideje létrehozni a tényleges diagramot. Meghatározzuk, hogy szeretnénk egy kördiagramot, és meghatározzuk a pozícióját a lapon.
+Most itt az ideje elkészíteni magát a diagramot. Megadjuk, hogy kördiagramot szeretnénk, és meghatározzuk a helyét a munkalapon.
 
 ```csharp
 int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 25, 10);
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- A módszer`Add()`elfogadja a diagramtípus paramétereit (ebben az esetben`ChartType.Pie`), és helyét a munkalapon. A számok a sorok és oszlopok pozícióját jelzik.
+A módszer `Add()` elfogadja a diagramtípus paramétereit (ebben az esetben `ChartType.Pie`), és a munkalapon elfoglalt helyét. A számok a sor- és oszloppozíciókat jelölik.
 
 ## 5. lépés: A diagram megjelenésének testreszabása
 
-A kördiagram nem lenne teljes testreszabás nélkül! Tegyük tetszetőssé diagramunkat a színek, a címkék és a cím módosításával.
+Egy kördiagram nem lenne teljes némi testreszabás nélkül! Tegyük vizuálisan vonzóbbá a diagramunkat a színek, a feliratok és a cím finomhangolásával.
 
-### Állítsa be a diagram címét
+### Diagram címének beállítása
 ```csharp
 chart.Title.Text = "Sales By Region";
 chart.Title.Font.Color = Color.Blue;
@@ -120,18 +122,18 @@ chart.Title.Font.IsBold = true;
 chart.Title.Font.Size = 12;
 ```
 
-### A telekterület testreszabása
+### Telekterület testreszabása
 ```csharp
 chart.PlotArea.Area.ForegroundColor = Color.Coral;
 chart.PlotArea.Area.FillFormat.SetTwoColorGradient(Color.Yellow, Color.White, GradientStyleType.Vertical, 2);
 chart.PlotArea.Border.IsVisible = false;
 ```
 
-Beállítjuk a színátmenet kitöltését a telek területén, és elrejtjük a szegélyt a tisztább megjelenés érdekében.
+Beállítottuk a színátmenetes kitöltést a nyomtatási területre, és elrejtettük a szegélyt a tisztább megjelenés érdekében.
 
-## 6. lépés: A diagramadatok meghatározása
+## 6. lépés: Diagramadatok definiálása
 
- Ideje összekapcsolni a diagramot adatainkkal. A`NSeries` A diagram tulajdonsága az eladási adatokat és a régiókat a kördiagramhoz köti.
+Ideje összekapcsolni a diagramot az adatainkkal. A `NSeries` A diagram tulajdonsága az értékesítési adatokat és a régiókat a kördiagramhoz köti.
 
 ```csharp
 chart.NSeries.Add("Data!B2:B8", true);
@@ -139,11 +141,11 @@ chart.NSeries.CategoryData = "Data!A2:A8";
 chart.NSeries.IsColorVaried = true;
 ```
 
- Az első sor azt határozza meg, hogy a cellákból származó értékesítési adatokat használjuk`B2:B8` . Azt is elmondjuk a diagramnak, hogy használja a régióneveket`A2:A8` kategóriacímkékként.
+Az első sor azt határozza meg, hogy a cellákból származó értékesítési adatokat használjuk. `B2:B8`Azt is utasítjuk a diagramnak, hogy a régióneveket használja a következőből: `A2:A8` kategóriacímkékként.
 
-## 7. lépés: Adjon hozzá adatcímkéket
+## 7. lépés: Adatcímkék hozzáadása
 
-Ha címkéket közvetlenül a diagram szegmenseihez ad hozzá, akkor könnyebben érthető. Tegyük bele a régióneveket és az értékesítési értékeket a kördiagram szeletekbe.
+diagram szegmenseihez közvetlenül hozzáadott címkék megkönnyíthetik a megértést. A kördiagram szeleteiben szerepeljenek a régiók nevei és az értékesítési értékek.
 
 ```csharp
 for (int i = 0; i < chart.NSeries.Count; i++)
@@ -157,9 +159,9 @@ for (int i = 0; i < chart.NSeries.Count; i++)
 
 ## 8. lépés: A diagramterület és a jelmagyarázat testreszabása
 
-Végül végezzünk néhány utolsó simítást a diagramterületen és a legendán. Ez javítja a diagram általános megjelenítését.
+Végül adjunk néhány utolsó simítást a diagramterületnek és a feliratoknak. Ez javítja a diagram összképét.
 
-### Diagram terület
+### Diagramterület
 ```csharp
 ChartArea chartArea = chart.ChartArea;
 chartArea.Area.Formatting = FormattingType.Custom;
@@ -175,9 +177,9 @@ legend.Border.Color = Color.Blue;
 legend.Area.FillFormat.Texture = TextureType.Bouquet;
 ```
 
-## 9. lépés: Mentse el a munkafüzetet
+## 9. lépés: A munkafüzet mentése
 
-Végül elmentjük a munkafüzetet egy Excel fájlba. Szükség szerint megadhatja a kimeneti könyvtárat és a fájlnevet.
+Végül a munkafüzetet egy Excel-fájlba mentjük. Szükség szerint megadhatja a kimeneti könyvtárat és a fájlnevet.
 
 ```csharp
 workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
@@ -185,27 +187,29 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 
 ## Következtetés
 
-A kördiagram létrehozása az Aspose.Cells segítségével .NET-hez egyszerű és testreszabható folyamat. Az útmutató követésével professzionális megjelenésű diagramot hozhat létre, amely néhány lépésben értékes betekintést nyújt. Legyen szó üzleti jelentéskészítésről vagy oktatási célról, a diagramkészítés elsajátítása javítja Excel automatizálási készségeit. Ne feledje, az Aspose.Cells biztosítja azt a rugalmasságot, amelyre szüksége van lenyűgöző, adatvezérelt Excel-fájlok könnyű létrehozásához.
+A kördiagram létrehozása az Aspose.Cells for .NET segítségével egy egyszerű és testreszabható folyamat. Ezt az útmutatót követve professzionális megjelenésű diagramot készíthet, amely mindössze néhány lépésben értékes információkat közvetít. Akár üzleti jelentéskészítésről, akár oktatási célokról van szó, a diagramkészítés elsajátítása fejleszti Excel automatizálási készségeit. Ne feledje, az Aspose.Cells biztosítja azt a rugalmasságot, amelyre szüksége van ahhoz, hogy lenyűgöző, adatvezérelt Excel fájlokat hozzon létre könnyedén.
 
 ## GYIK
 
 ### Létrehozhatok más típusú diagramokat az Aspose.Cells for .NET használatával?
-Igen! Az Aspose.Cells különféle diagramtípusokat támogat, beleértve az oszlopdiagramokat, a vonaldiagramokat és a szóródiagramokat.
+Igen! Az Aspose.Cells különféle diagramtípusokat támogat, beleértve az oszlopdiagramokat, vonaldiagramokat és szóródási diagramokat.
 
 ### Szükségem van fizetős licencre az Aspose.Cells for .NET használatához?
-Használhatja az ingyenes verziót bizonyos korlátozásokkal. A teljes funkciók használatához licencre lesz szüksége, amelyet megvásárolhat[itt](https://purchase.aspose.com/buy).
+Az ingyenes verziót bizonyos korlátozásokkal használhatod. A teljes funkciók használatához licencre lesz szükséged, amelyet megvásárolhatsz. [itt](https://purchase.aspose.com/buy).
 
-### Exportálhatom a diagramot olyan formátumokba, mint például PDF vagy képek?
-Teljesen! Az Aspose.Cells lehetővé teszi diagramok exportálását különféle formátumokba, beleértve a PDF és PNG formátumokat.
+### Exportálhatom a diagramot PDF vagy kép formátumba?
+Abszolút! Az Aspose.Cells lehetővé teszi diagramok exportálását különféle formátumokba, beleértve a PDF-et és a PNG-t is.
 
 ### Lehetséges minden piteszeletet különböző színekkel díszíteni?
- Igen, az egyes szeletekre különböző színeket alkalmazhat a`IsColorVaried` tulajdonát`true`, ahogy az az oktatóanyagban is látható.
+Igen, minden szeletre különböző színeket alkalmazhat a beállítással. `IsColorVaried` ingatlan `true`, ahogy az az oktatóanyagban is látható.
 
-### Automatizálhatom több diagram generálását egyetlen munkafüzetben?
-Igen, tetszőleges számú diagramot hozhat létre és testreszabhat egyetlen Excel-fájlban.
+### Automatizálhatom több diagram létrehozását egyetlen munkafüzetben?
+Igen, egyetlen Excel-fájlon belül annyi diagramot hozhat létre és testreszabhat, amennyire szüksége van.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

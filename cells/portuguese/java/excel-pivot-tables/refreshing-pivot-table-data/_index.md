@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Atualizando dados da tabela dinâmica
@@ -80,7 +82,7 @@ Atualizar os dados da Tabela Dinâmica no Aspose.Cells para Java é um processo 
 ### Posso atualizar Tabelas Dinâmicas em lote para várias pastas de trabalho?
    - Sim, você pode automatizar o processo de atualização de Tabelas Dinâmicas para várias pastas de trabalho usando o Aspose.Cells para Java. Crie um script ou programa para iterar pelos seus arquivos e aplicar as etapas de atualização.
 
-### O Aspose.Cells é compatível com diferentes fontes de dados?
+### Aspose.Cells é compatível com diferentes fontes de dados?
    - O Aspose.Cells para Java oferece suporte a diversas fontes de dados, incluindo bancos de dados, arquivos CSV e muito mais. Você pode conectar sua Tabela Dinâmica a essas fontes para atualizações dinâmicas.
 
 ### Há alguma limitação quanto ao número de Tabelas Dinâmicas que posso atualizar?
@@ -90,9 +92,11 @@ Atualizar os dados da Tabela Dinâmica no Aspose.Cells para Java é um processo 
    - Sim, você pode agendar atualizações automáticas de dados usando o Aspose.Cells e as bibliotecas de agendamento Java. Isso permite que você mantenha suas Tabelas Dinâmicas atualizadas sem intervenção manual.
 
 Agora você tem o conhecimento necessário para atualizar dados de tabelas dinâmicas no Aspose.Cells para Java. Mantenha suas análises precisas e esteja à frente em suas decisões baseadas em dados.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

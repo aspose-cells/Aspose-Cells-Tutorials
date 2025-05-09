@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ public class SetPrintTitleColumnsAndRows {
 
 ### कार्यपुस्तिका को फ़ाइल में सहेजना
 #### अवलोकन
-अपनी कार्यपुस्तिका को सहेजना यह सुनिश्चित करने का अंतिम चरण है कि आपके द्वारा किया गया सारा डेटा संग्रहीत हो जाए और बाद में उस तक पहुंचा जा सके।
+अपनी कार्यपुस्तिका को सहेजना यह सुनिश्चित करने का अंतिम चरण है कि आपके द्वारा किया गया सारा डेटा संग्रहीत है और बाद में उस तक पहुंचा जा सकता है।
 
 **कोड कार्यान्वयन:**
 ```java
@@ -214,6 +216,9 @@ Aspose.Cells के विस्तृत विवरण में गोता
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

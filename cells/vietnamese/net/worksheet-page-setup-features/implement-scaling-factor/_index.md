@@ -1,14 +1,16 @@
 ---
-title: Triển khai Hệ số tỷ lệ trong Bảng tính
-linktitle: Triển khai Hệ số tỷ lệ trong Bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách áp dụng hệ số tỷ lệ trong bảng tính bằng Aspose.Cells cho .NET với hướng dẫn từng bước, ví dụ và câu hỏi thường gặp. Hoàn hảo để chia tỷ lệ liền mạch.
-weight: 20
-url: /vi/net/worksheet-page-setup-features/implement-scaling-factor/
+"description": "Tìm hiểu cách áp dụng hệ số tỷ lệ trong bảng tính bằng Aspose.Cells cho .NET với hướng dẫn từng bước, ví dụ và câu hỏi thường gặp. Hoàn hảo để chia tỷ lệ liền mạch."
+"linktitle": "Triển khai Hệ số tỷ lệ trong Bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Triển khai Hệ số tỷ lệ trong Bảng tính"
+"url": "/vi/net/worksheet-page-setup-features/implement-scaling-factor/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Triển khai Hệ số tỷ lệ trong Bảng tính
@@ -21,10 +23,10 @@ Bạn có muốn tùy chỉnh bảng tính Excel của mình để vừa vặn t
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng các yêu cầu sau:
 
--  Aspose.Cells cho .NET:[Tải xuống tại đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: [Tải xuống tại đây](https://releases.aspose.com/cells/net/).
 - IDE: Bất kỳ IDE nào tương thích với .NET, chẳng hạn như Visual Studio.
 - .NET Framework: Phiên bản .NET tương thích với Aspose.Cells.
--  Giấy phép: Để có đầy đủ khả năng, hãy lấy một[Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/) hoặc xem xét việc mua một[giấy phép đầy đủ](https://purchase.aspose.com/buy).
+- Giấy phép: Để có đầy đủ khả năng, hãy lấy một [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/) hoặc xem xét việc mua một [giấy phép đầy đủ](https://purchase.aspose.com/buy).
 
 Đảm bảo bạn đã cài đặt Aspose.Cells cho .NET. Khi mọi thứ đã sẵn sàng, hãy nhập các không gian tên cần thiết.
 
@@ -51,12 +53,12 @@ string dataDir = "Your Document Directory";
 ```
 
 
- Dòng này khởi tạo đường dẫn đến thư mục nơi tệp đầu ra sẽ được lưu. Thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn tệp Excel chuyển đến. Đơn giản phải không? Hãy chuyển sang bước tiếp theo.
+Dòng này khởi tạo đường dẫn đến thư mục nơi tệp đầu ra sẽ được lưu. Thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn tệp Excel chuyển đến. Đơn giản phải không? Hãy chuyển sang bước tiếp theo.
 
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
- Để bắt đầu làm việc với các tệp Excel, hãy tạo một phiên bản của`Workbook` lớp. Sổ làm việc này sẽ lưu trữ tất cả các bảng tính và dữ liệu của bạn.
+Để bắt đầu làm việc với các tệp Excel, hãy tạo một phiên bản của `Workbook` lớp. Sổ làm việc này sẽ lưu trữ tất cả các bảng tính và dữ liệu của bạn.
 
 ```csharp
 // Tạo một bảng tính mới
@@ -64,7 +66,7 @@ Workbook workbook = new Workbook();
 ```
 
 
- Ở đây, chúng ta đang khởi tạo một cái mới`Workbook` đối tượng. Hãy nghĩ về một sổ làm việc như một tệp Excel toàn bộ có thể chứa nhiều trang tính. Hiện tại, nó trống nhưng đã sẵn sàng để chúng ta thực hiện sửa đổi.
+Ở đây, chúng ta đang khởi tạo một cái mới `Workbook` đối tượng. Hãy nghĩ về một sổ làm việc như một tệp Excel toàn bộ có thể chứa nhiều trang tính. Hiện tại, nó trống nhưng đã sẵn sàng để chúng ta thực hiện sửa đổi.
 
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
@@ -77,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 
-`Worksheets[0]`được sử dụng ở đây để lấy trang tính đầu tiên. Nếu bạn đã quen làm việc với Excel, hãy nghĩ về điều này như việc chỉ cần chọn trang tính đầu tiên trong sổ làm việc của bạn. Chúng tôi giữ mọi thứ đơn giản bằng cách làm việc với trang tính đầu tiên.
+`Worksheets[0]` được sử dụng ở đây để lấy trang tính đầu tiên. Nếu bạn đã quen làm việc với Excel, hãy nghĩ về điều này như việc chỉ cần chọn trang tính đầu tiên trong sổ làm việc của bạn. Chúng tôi giữ mọi thứ đơn giản bằng cách làm việc với trang tính đầu tiên.
 
 
 ## Bước 4: Thiết lập Hệ số tỷ lệ cho Bảng tính
@@ -103,7 +105,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
 
- Ở đây, chúng ta đang lưu sổ làm việc với tên tệp`ScalingFactor_out.xls` . Tệp này sẽ chứa bảng tính của bạn với hệ số tỷ lệ được áp dụng. Hãy đảm bảo đường dẫn đã chỉ định của bạn (trong`dataDir`) là chính xác, do đó bạn sẽ không gặp bất kỳ vấn đề nào khi tìm tệp.
+Ở đây, chúng ta đang lưu sổ làm việc với tên tệp `ScalingFactor_out.xls`. Tệp này sẽ chứa bảng tính của bạn với hệ số tỷ lệ được áp dụng. Hãy đảm bảo đường dẫn đã chỉ định của bạn (trong `dataDir`) là chính xác, do đó bạn sẽ không gặp bất kỳ vấn đề nào khi tìm tệp.
 
 
 ## Phần kết luận
@@ -119,16 +121,18 @@ Thiết lập hệ số tỷ lệ cho phép bạn điều chỉnh kích thước
 Có, mỗi trang tính trong một sổ làm việc có thể có hệ số tỷ lệ riêng, do đó bạn có thể điều chỉnh từng trang tính riêng lẻ khi cần.
 
 ### Việc thay đổi hệ số tỷ lệ có ảnh hưởng đến dữ liệu trong bảng tính không?  
-Không, việc thiết lập hệ số tỷ lệ chỉ thay đổi kích thước hiển thị hoặc kích thước in, chứ không phải dữ liệu.
+Không, việc thiết lập hệ số tỷ lệ chỉ thay đổi kích thước hiển thị hoặc in, chứ không phải dữ liệu.
 
 ### Điều gì xảy ra nếu tôi đặt hệ số tỷ lệ thành 0?  
 Đặt hệ số tỷ lệ là 0 là không hợp lệ và có thể gây ra lỗi. Hãy sử dụng các giá trị dương biểu thị kích thước phần trăm bạn muốn.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells cho tính năng tỷ lệ kích thước của .NET không?  
- Bạn có thể thử nó với một[dùng thử miễn phí](https://releases.aspose.com/) , nhưng để có đầy đủ chức năng, một[tạm thời](https://purchase.aspose.com/temporary-license/) hoặc khuyến khích sử dụng bản quyền trả phí.
+Bạn có thể thử nó với một [dùng thử miễn phí](https://releases.aspose.com/), nhưng để có đầy đủ chức năng, một [tạm thời](https://purchase.aspose.com/temporary-license/) hoặc khuyến khích sử dụng bản quyền trả phí.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

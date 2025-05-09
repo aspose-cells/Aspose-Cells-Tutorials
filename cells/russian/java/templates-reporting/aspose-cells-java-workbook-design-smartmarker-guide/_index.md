@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 Перед внедрением интеллектуальных маркеров убедитесь, что ваша установка соответствует следующим требованиям:
 
 1. **Библиотеки и зависимости**: 
-   - Aspose.Cells для Java версии 25.3 или более поздней.
+   - Aspose.Cells для Java версии 25.3 или новее.
    - В вашей системе установлен Java Development Kit (JDK).
 
 2. **Настройка среды**:
@@ -135,7 +137,7 @@ report.getWorkbook().save(outputPath);
 Эта функция позволяет настраивать обработку интеллектуальных маркеров с помощью обратных вызовов.
 
 #### Реализация пользовательского обратного вызова
-Создать класс, реализующий `ISmartMarkerCallBack`:
+Создайте класс, реализующий `ISmartMarkerCallBack`:
 ```java
 import com.aspose.cells.ISmartMarkerCallBack;
 import com.aspose.cells.Workbook;
@@ -202,6 +204,9 @@ report.process();
 Воспользуйтесь возможностями Aspose.Cells для Java и с легкостью преобразуйте свои задачи по обработке данных!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

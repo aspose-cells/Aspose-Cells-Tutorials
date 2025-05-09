@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Parsing Pivot Cached Records while Loading Excel File in .NET
@@ -133,6 +135,7 @@ For support, you can visit the Aspose forum for assistance [here](https://forum.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

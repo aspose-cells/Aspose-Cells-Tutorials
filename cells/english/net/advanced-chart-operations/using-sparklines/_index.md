@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/using-sparklines/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Sparklines
@@ -177,6 +179,7 @@ Yes, you can download a free trial version of Aspose.Cells [here](https://releas
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

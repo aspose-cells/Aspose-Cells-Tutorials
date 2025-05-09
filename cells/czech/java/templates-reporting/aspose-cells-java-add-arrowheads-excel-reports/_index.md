@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Přístup k nim pomocí `getWorksheets().get(index)` s požadovaným indexem.
 A: Ano, optimalizujte kód minimalizací vytváření objektů v rámci smyček a monitorujte využití paměti, abyste zabránili únikům. Pro lepší výkon používejte efektivní datové struktury poskytované službou Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

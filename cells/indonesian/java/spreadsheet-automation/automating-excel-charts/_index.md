@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengotomatiskan Bagan Excel
@@ -29,7 +31,7 @@ Mengotomatiskan grafik Excel menawarkan beberapa manfaat:
 
 ### 1. Menyiapkan Lingkungan
 
-Sebelum memulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum memulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ### 2. Inisialisasi Aspose.Cells
 
@@ -40,7 +42,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelChartsAutomation {
     public static void main(String[] args) {
-        // Inisialisasi Aspose.Cells
+        // Aspose.Cells inicializálása
         Workbook workbook = new Workbook();
     }
 }
@@ -65,7 +67,7 @@ Worksheet worksheet = workbook.getWorksheets().add("ChartSheet");
 Mari kita buat bagan pada lembar kerja. Misalnya, kita akan membuat bagan kolom:
 
 ```java
-// Tambahkan bagan ke lembar kerja
+// Diagram hozzáadása a munkalaphoz
 int chartIndex = worksheet.getCharts().add(ChartType.COLUMN, 0, 0, 15, 5);
 
 // Akses grafik
@@ -98,7 +100,7 @@ chart.getCategoryAxis().getTitle().setText("Months");
 chart.getValueAxis().getTitle().setText("Sales (USD)");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Mengotomatiskan bagan Excel dengan Aspose.Cells untuk Java menyederhanakan proses pembuatan dan penyesuaian bagan dalam berkas Excel Anda. Dengan contoh kode sumber yang disediakan, Anda dapat menyempurnakan tugas pembuatan bagan dalam aplikasi Java.
 
@@ -117,9 +119,11 @@ Mengotomatiskan bagan Excel dengan Aspose.Cells untuk Java menyederhanakan prose
    Jelajahi dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang mendalam.
 
 Otomatisasi tugas pembuatan grafik Excel Anda dengan mudah menggunakan Aspose.Cells untuk Java dan tingkatkan kemampuan visualisasi data Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

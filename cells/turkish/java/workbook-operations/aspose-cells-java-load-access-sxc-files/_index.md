@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells makro etkinleştirilmiş dosyaları okuyabilir, ancak makroları ç
 Bu kapsamlı kılavuzu takip ederek artık Aspose.Cells for Java kullanarak SXC dosyalarıyla verimli bir şekilde çalışmaya hazırsınız. Uygulamalarınızı geliştirmek isteyen bir geliştirici veya veri işleme görevlerini kolaylaştırmayı hedefleyen bir kuruluş olun, Aspose.Cells bu hedeflere sorunsuz bir şekilde ulaşmak için gereken araçları sunar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

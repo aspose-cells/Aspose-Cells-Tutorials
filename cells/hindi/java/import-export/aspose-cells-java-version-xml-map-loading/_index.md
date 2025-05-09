@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: सुनिश्चित करें कि फ़ाइल पथ स�
 A3: उत्पादन सेटिंग्स में मूल्यांकन सीमाओं को हटाने के लिए एक अस्थायी या खरीदा गया लाइसेंस आवश्यक है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

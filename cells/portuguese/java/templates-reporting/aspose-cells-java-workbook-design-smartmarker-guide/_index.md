@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Bem-vindo ao guia definitivo sobre como utilizar o Aspose.Cells para Java para criar pastas de trabalho e processar marcadores inteligentes com eficiência! Se você busca otimizar tarefas de automação do Excel, especialmente ao lidar com relatórios baseados em dados, este tutorial o guiará por tudo o que você precisa. Ao final desta jornada, você estará apto a criar relatórios dinâmicos do Excel usando a tecnologia SmartMarker.
 
-## que você aprenderá
+## O que você aprenderá
 - Como configurar o Aspose.Cells para Java em seu ambiente de desenvolvimento.
 - Implementando design de pasta de trabalho e processamento de marcadores inteligentes.
 - Personalizando o tratamento de retorno de chamada do SmartMarker.
@@ -202,6 +204,9 @@ Os próximos passos incluem experimentar modelos mais complexos ou integrar essa
 Aproveite o poder do Aspose.Cells para Java e transforme suas tarefas de processamento de dados com facilidade!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

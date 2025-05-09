@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何使用 Excel IF 函數
@@ -28,7 +30,7 @@
 
 首先，建立一個新的 Java 專案或開啟一個現有的項目，在其中使用 Aspose.Cells 函式庫。確保將 Aspose.Cells JAR 檔案新增至專案的類別路徑。
 
-## 第二步：導入必要的類別
+## 第 2 步：導入必要的類
 
 在您的 Java 程式碼中，從 Aspose.Cells 庫匯入必要的類別。這些類別對於以程式設計方式處理 Excel 檔案至關重要。
 
@@ -36,7 +38,7 @@
 import com.aspose.cells.*;
 ```
 
-## 步驟3：建立Excel工作簿
+## 步驟 3：建立 Excel 工作簿
 
 現在，讓我們建立一個新的 Excel 工作簿和一個工作表來使用。我們也會為工作表添加一些範例資料。
 
@@ -112,6 +114,7 @@ workbook.save("Grades.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Regole di convalida dei dati
@@ -42,9 +44,11 @@ Impara la convalida dei dati in Excel usando Aspose.Cells per Java. Implementa r
 Scopri come implementare la convalida condizionale dei dati utilizzando Aspose.Cells per Java. Guida dettagliata con codice sorgente per una gestione accurata dei dati nei fogli di calcolo Excel.
 ### [Messaggio di input nella convalida dei dati](./input-message-in-data-validation/)
 Scopri come migliorare la convalida dei dati in Excel utilizzando Aspose.Cells per Java. Guida dettagliata con esempi di codice per migliorare l'accuratezza dei dati e la guida utente.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

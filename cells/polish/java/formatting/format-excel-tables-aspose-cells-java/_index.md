@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ listObject.setShowTotals(true);
 listObject.getListColumns().get(1).setTotalsCalculation(TotalsCalculation.COUNT); // Przykład dla pola „Kwartał”
 ```
 
-### Zapisywanie pracy
+### Zapisywanie Twojej pracy
 Na koniec zapisz skoroszyt w pliku Excel.
 
 ```java
@@ -218,6 +220,9 @@ Nauczyłeś się, jak skonfigurować i używać Aspose.Cells for Java do tworzen
 Zacznij wdrażać te techniki w swoich projektach i zobacz, jak Aspose.Cells może odmienić Twoje zadania związane z zarządzaniem danymi w programie Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Excel Thêm Ngắt Trang
-linktitle: Excel Thêm Ngắt Trang
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách dễ dàng thêm ngắt trang trong Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Tối ưu hóa bảng tính của bạn.
-weight: 10
-url: /vi/net/excel-page-breaks/excel-add-page-breaks/
+"description": "Tìm hiểu cách dễ dàng thêm ngắt trang trong Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Tối ưu hóa bảng tính của bạn."
+"linktitle": "Excel Thêm Ngắt Trang"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Excel Thêm Ngắt Trang"
+"url": "/vi/net/excel-page-breaks/excel-add-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Thêm Ngắt Trang
@@ -22,9 +24,9 @@ Bạn có thấy mệt mỏi khi phải tự tay thêm ngắt trang vào các tr
 Trước khi đi sâu vào phần mã hóa, chúng ta hãy cùng tìm hiểu những gì bạn cần để bắt đầu:
 
 1. Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình. IDE này sẽ giúp bạn quản lý các dự án .NET của mình một cách liền mạch.
-2.  Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp bạn dễ dàng theo dõi.
-4. Tài liệu tham khảo: Giữ tài liệu Aspose.Cells tiện dụng để biết các định nghĩa và chức năng nâng cao. Bạn có thể kiểm tra[đây](https://reference.aspose.com/cells/net/).
+4. Tài liệu tham khảo: Giữ tài liệu Aspose.Cells tiện dụng để biết các định nghĩa và chức năng nâng cao. Bạn có thể kiểm tra [đây](https://reference.aspose.com/cells/net/).
 
 Bây giờ chúng ta đã nắm được những điều cần thiết, hãy cùng bắt đầu nhé!
 
@@ -63,11 +65,11 @@ Bây giờ chúng ta sẽ hướng dẫn từng bước thực hiện quy trình
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Tại đây, bạn sẽ xác định đường dẫn mà bạn sẽ lưu trữ tệp Excel của mình. Hãy đảm bảo thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn. Thư mục này sẽ giúp bạn quản lý các tập tin đầu ra của mình.
+Tại đây, bạn sẽ xác định đường dẫn mà bạn sẽ lưu trữ tệp Excel của mình. Hãy đảm bảo thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn. Thư mục này sẽ giúp bạn quản lý các tập tin đầu ra của mình.
 
 ## Bước 2: Tạo đối tượng sổ làm việc
 
- Tiếp theo, bạn cần tạo một`Workbook` đối tượng. Đối tượng này đại diện cho tệp Excel của bạn.
+Tiếp theo, bạn cần tạo một `Workbook` đối tượng. Đối tượng này đại diện cho tệp Excel của bạn.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -98,7 +100,7 @@ Sau khi thêm ngắt trang, bước tiếp theo là lưu bảng tính đã cập
 ```csharp
 workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 ```
- Ở đây, bạn đang lưu sổ làm việc vào thư mục được chỉ định với tên tệp mới. Đảm bảo cung cấp phần mở rộng hợp lệ như`.xls` hoặc`.xlsx` dựa trên nhu cầu của bạn. Giống như nhấn “Lưu” cho tài liệu của bạn, đảm bảo không có công việc nào của bạn bị mất!
+Ở đây, bạn đang lưu sổ làm việc vào thư mục được chỉ định với tên tệp mới. Đảm bảo cung cấp phần mở rộng hợp lệ như `.xls` hoặc `.xlsx` dựa trên nhu cầu của bạn. Giống như nhấn “Lưu” cho tài liệu của bạn, đảm bảo không có công việc nào của bạn bị mất!
 
 ## Phần kết luận
 
@@ -116,7 +118,7 @@ Mặc dù Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để ti
 
 ### Tôi có thể thêm nhiều ngắt trang không?
 
- Vâng! Chỉ cần sử dụng`Add` phương pháp cho nhiều ô tạo ra các khoảng ngắt bổ sung.
+Vâng! Chỉ cần sử dụng `Add` phương pháp cho nhiều ô tạo ra các khoảng ngắt bổ sung.
 
 ### Tôi có thể lưu tệp Excel ở định dạng nào?
 
@@ -124,10 +126,12 @@ Bạn có thể lưu tệp ở các định dạng như .xls, .xlsx, .csv và nh
 
 ### Có cộng đồng nào hỗ trợ Aspose không?
 
- Chắc chắn rồi! Bạn có thể truy cập diễn đàn cộng đồng Aspose để được hỗ trợ và thảo luận[đây](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể truy cập diễn đàn cộng đồng Aspose để được hỗ trợ và thảo luận [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

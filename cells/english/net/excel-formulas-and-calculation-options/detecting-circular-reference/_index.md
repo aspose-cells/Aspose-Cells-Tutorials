@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/detecting-circular-reference/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detecting Circular Reference in Excel Programmatically
@@ -127,6 +129,7 @@ You can visit the [Aspose.Cells documentation](https://reference.aspose.com/cell
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

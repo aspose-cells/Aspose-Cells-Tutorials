@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,10 +141,13 @@ A5: È possibile iniziare con una prova gratuita, ma per un uso commerciale è n
 - **Scaricamento**: [Versioni Java di Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **Acquistare**: [Acquista la licenza di Aspose.Cells](https://purchase.aspose.com/buy)
 - **Prova gratuita**: [Inizia con la prova gratuita](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

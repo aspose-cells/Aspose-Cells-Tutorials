@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,6 +211,9 @@ Pro další průzkum a dokumentaci navštivte [Dokumentace k Aspose.Cells pro Ja
 Vydejte se na cestu k zvládnutí manipulace s excelovými soubory s Aspose.Cells pro Javu a vylepšete prezentaci dat ještě dnes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

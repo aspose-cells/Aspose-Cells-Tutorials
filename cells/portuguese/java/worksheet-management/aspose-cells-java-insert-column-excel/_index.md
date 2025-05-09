@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Deseja inserir colunas programaticamente em suas planilhas do Excel? Seja automatizando relatórios ou gerenciando grandes conjuntos de dados, o manuseio eficaz de arquivos do Excel é fundamental. Este guia completo mostrará como usar **Aspose.Cells para Java** para inserir facilmente uma coluna em uma planilha do Excel.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando Aspose.Cells para Java
 - Instanciando e manipulando pastas de trabalho usando Aspose.Cells
 - Instruções passo a passo sobre como inserir colunas em arquivos Excel
@@ -176,6 +178,9 @@ Experimente ainda mais explorando outros recursos do Aspose.Cells, como inserç�
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

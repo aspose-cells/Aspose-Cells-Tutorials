@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -216,6 +218,9 @@ public class SetBorderStyle {
 Интеграция Aspose.Cells с другими системами, такими как базы данных или облачные сервисы, может еще больше расширить его функциональность, позволяя создавать более комплексные и автоматизированные решения для работы с данными.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

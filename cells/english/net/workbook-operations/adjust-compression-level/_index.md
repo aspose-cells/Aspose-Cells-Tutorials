@@ -8,7 +8,9 @@ url: /net/workbook-operations/adjust-compression-level/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adjust Compression Level in Workbook
@@ -102,9 +104,11 @@ Aspose.Cells supports multiple compression levels ranging from Level 1 (lowest c
 Yes! You can get a free trial of Aspose.Cells [here](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Cells?  
 For any queries or support, you can visit the Aspose support forum [here](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

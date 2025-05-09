@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ Der Zugriff auf den Slicer ermöglicht weitere Anpassungen oder Überprüfungen.
 - **Zweck:** Fügt einen Slicer hinzu, um die Dateninteraktivität innerhalb der Pivot-Tabelle zu verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

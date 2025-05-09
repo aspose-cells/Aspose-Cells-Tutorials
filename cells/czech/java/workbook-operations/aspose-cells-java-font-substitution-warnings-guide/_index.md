@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Další kroky by mohly zahrnovat prozkoumání dalších typů varování nebo i
 - **Nákup a licencování:** Získejte licenci nebo vyzkoušejte bezplatnou zkušební verzi prostřednictvím [Nákup Aspose](https://purchase.aspose.com/buy) nebo [Bezplatná zkušební verze Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

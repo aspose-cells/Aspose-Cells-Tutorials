@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ import com.aspose.cells.Workbook;
 String filePath = "path/to/your/excel/file.xlsx";
 Workbook workbook = new Workbook(filePath);
 ```
-*Perché*: Questo passaggio inizializza il file Excel all'interno del programma, consentendo di manipolarne i dati.
+*Perché*: Questo passaggio inizializza il file Excel all'interno del programma, consentendoti di manipolarne i dati.
 
 #### Passaggio 2: accedi al foglio di lavoro e commenta
 ```java
@@ -162,6 +164,9 @@ Se questo tutorial ti è stato utile, prova a implementare queste tecniche nei t
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

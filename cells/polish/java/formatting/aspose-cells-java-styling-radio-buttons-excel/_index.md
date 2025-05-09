@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Tworzenie atrakcyjnych wizualnie i interaktywnych arkuszy kalkulacyjnych Excela 
 - Dodawanie przycisków radiowych w celu udoskonalenia interakcji użytkownika
 - Zapisywanie skoroszytu za pomocą tych funkcji
 
-Pod koniec tego samouczka będziesz wyposażony w umiejętności tworzenia profesjonalnych dynamicznych raportów Excela. Zacznijmy od przejrzenia wymagań wstępnych niezbędnych przed wdrożeniem tych funkcji.
+Do końca tego samouczka będziesz wyposażony w umiejętności tworzenia profesjonalnych dynamicznych raportów Excela. Zacznijmy od przejrzenia wymagań wstępnych niezbędnych przed wdrożeniem tych funkcji.
 
 ## Wymagania wstępne
 Przed rozpoczęciem upewnij się, że masz:
@@ -200,6 +202,9 @@ W tym samouczku przyjrzeliśmy się, jak utworzyć i stylizować arkusz kalkulac
 - **Dokumentacja**:Kompleksowe przewodniki i odniesienia do API można znaleźć na stronie [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

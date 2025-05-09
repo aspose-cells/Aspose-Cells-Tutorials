@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java 电子表格处理教程
@@ -118,9 +120,11 @@ Aspose.Cells for Java 是一个强大的库，使 Java 开发人员能够以编�
 
 ### [自动化和批处理](./automation-batch-processing/)
 使用 Aspose.Cells for Java 自动执行 Excel 任务、批量处理多个文件和安排操作的分步教程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

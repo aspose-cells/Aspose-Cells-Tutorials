@@ -1,14 +1,16 @@
 ---
-title: Сортировка данных в столбце с помощью пользовательского списка сортировки в Excel
-linktitle: Сортировка данных в столбце с помощью пользовательского списка сортировки в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: В этом подробном руководстве вы узнаете, как сортировать данные в Excel, используя настраиваемый список сортировки с помощью Aspose.Cells для .NET.
-weight: 10
-url: /ru/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
+"description": "В этом подробном руководстве вы узнаете, как сортировать данные в Excel, используя настраиваемый список сортировки с помощью Aspose.Cells для .NET."
+"linktitle": "Сортировка данных в столбце с помощью пользовательского списка сортировки в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Сортировка данных в столбце с помощью пользовательского списка сортировки в Excel"
+"url": "/ru/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сортировка данных в столбце с помощью пользовательского списка сортировки в Excel
@@ -37,7 +39,7 @@ url: /ru/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort
 
 1. Откройте свой проект в Visual Studio.
 2. Перейдите в «Инструменты» > «Диспетчер пакетов NuGet» > «Управление пакетами NuGet для решения».
-3.  Искать`Aspose.Cells` и установите последнюю версию.
+3. Искать `Aspose.Cells` и установите последнюю версию.
 
 ### Базовый файл Excel для тестирования
 
@@ -67,7 +69,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Шаг 2: Загрузите исходный файл Excel
 
-Далее мы загрузим файл Excel, содержащий данные, которые вы хотите отсортировать. Это делается путем создания экземпляра`Workbook` class и передав путь к исходному файлу.
+Далее мы загрузим файл Excel, содержащий данные, которые вы хотите отсортировать. Это делается путем создания экземпляра `Workbook` class и передав путь к исходному файлу.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -83,7 +85,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Шаг 4: Укажите область ячеек для сортировки
 
- Нам нужно определить диапазон ячеек, которые мы будем сортировать. В этом примере мы отсортируем ячейки от A1 до A40. Используйте`CellArea.CreateCellArea` метод определения площади ячейки.
+Нам нужно определить диапазон ячеек, которые мы будем сортировать. В этом примере мы отсортируем ячейки от A1 до A40. Используйте `CellArea.CreateCellArea` метод определения площади ячейки.
 
 ```csharp
 CellArea ca = CellArea.CreateCellArea("A1", "A40");
@@ -141,10 +143,12 @@ Aspose.Cells для .NET — это комплексная библиотека,
 Конечно! Вы можете приобрести временную лицензию, если хотите протестировать все возможности библиотеки без ограничений.
 
 ### Могу ли я загрузить примеры или документацию для Aspose.Cells?
- Да! Aspose предоставляет обширную документацию и примеры проектов, которые могут вам очень помочь. Ознакомьтесь с[Документация Aspose.Cells](https://reference.aspose.com/cells/net/).
+Да! Aspose предоставляет обширную документацию и примеры проектов, которые могут вам очень помочь. Ознакомьтесь с [Документация Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

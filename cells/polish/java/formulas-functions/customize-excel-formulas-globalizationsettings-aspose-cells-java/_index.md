@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Teraz powinieneś mieć już solidną wiedzę na temat dostosowywania formuł pr
 Skorzystaj z tych zasobów, aby jeszcze bardziej rozwinąć swoje umiejętności rozumienia i implementacji Aspose.Cells dla Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

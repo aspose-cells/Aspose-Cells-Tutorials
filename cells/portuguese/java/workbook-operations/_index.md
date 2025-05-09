@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de operações com pastas de trabalho oferecem orientações abrangentes para o processamento programático de arquivos do Excel em Java. Siga estes guias passo a passo para aprender a criar novas pastas de trabalho, abrir arquivos existentes de diversas fontes, salvar em diferentes formatos e converter entre os tipos de planilhas mais populares. Estes tutoriais práticos incluem exemplos de código completos para conversão de arquivos, gerenciamento de propriedades de pastas de trabalho e técnicas de otimização para criar aplicativos robustos de processamento do Excel em Java.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de pasta de trabalho
 - Implementação passo a passo com exemplos de código completos
@@ -369,7 +371,7 @@ Domine a manipulação de planilhas em Java com Aspose.Cells. Aprenda a acessar,
 ### [Domine o manuseio de arquivos Java com Aspose.Cells: leia, escreva e processe dados com eficiência](./java-file-handling-aspose-cells-read-write-process/)
 Aprenda a gerenciar operações de arquivo em Java usando Aspose.Cells. Este guia aborda como ler, escrever e processar arquivos de dados com eficiência.
 
-### [Recuperação automática da pasta de trabalho Java: gerenciando arquivos do Excel com Aspose.Cells](./java-workbook-autorecovery-aspose-cells/)
+### [Recuperação Automática da Pasta de Trabalho Java: Gerenciando Arquivos do Excel com Aspose.Cells](./java-workbook-autorecovery-aspose-cells/)
 Aprenda a gerenciar a recuperação automática de pastas de trabalho do Excel em Java usando o Aspose.Cells. Aumente a segurança dos dados e simplifique seu fluxo de trabalho.
 
 ### [Como limitar páginas de PDF em Java usando Aspose.Cells: um guia passo a passo](./limit-pages-pdf-aspose-cells-java/)
@@ -486,6 +488,9 @@ Aprenda a definir e gerenciar propriedades de documentos, como controle de vers�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Bereit zum Ausprobieren? Implementieren Sie diese Lösung noch heute!
 Dieser umfassende Leitfaden soll Ihnen dabei helfen, die Funktion zum Exportieren von Kommentaren effektiv zu implementieren und sicherzustellen, dass Ihre Anwendungen ein verbessertes Benutzererlebnis bieten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,7 +175,7 @@ Alterar os dados de origem da tabela dinâmica com o Aspose.Cells pode ser usado
 ## Considerações de desempenho
 - Use fluxos para arquivos grandes do Excel para otimizar o uso de memória.
 - Monitore regularmente o consumo de recursos para evitar gargalos em seu aplicativo.
-- Aplique práticas recomendadas, como descartar objetos desnecessários, para melhorar o desempenho.
+- Aplique as melhores práticas, como descartar objetos desnecessários, para melhorar o desempenho.
 
 ## Conclusão
 Neste guia, você aprendeu como alterar os dados de origem de uma tabela dinâmica usando **Aspose.Cells para Java**Essa abordagem garante que todas as configurações permaneçam intactas durante a atualização do conjunto de dados subjacente. Para uma exploração mais aprofundada, considere experimentar outros recursos oferecidos pelo Aspose.Cells para aproveitar ao máximo seus recursos em seus projetos.
@@ -198,9 +200,12 @@ Neste guia, você aprendeu como alterar os dados de origem de uma tabela dinâmi
 - [Pedido de Licença Temporária](https://purchase.aspose.com/temporary-license/)
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
-Com esses recursos e este guia completo, você agora está preparado para lidar com alterações de dados de origem de tabelas dinâmicas de forma eficaz usando Aspose.Cells em Java. Boa programação!
+Com esses recursos e este guia completo, você agora está preparado para lidar com alterações nos dados de origem da tabela dinâmica de forma eficaz usando Aspose.Cells em Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

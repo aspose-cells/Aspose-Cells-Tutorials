@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التحقق من صحة بيانات استيراد Excel
@@ -80,9 +82,11 @@ dataValidation.setShowError(true);
 في هذا الدليل الشامل، استكشفنا عملية تطبيق التحقق من صحة بيانات استيراد Excel باستخدام Aspose.Cells لـ Java. باتباع الخطوات الموضحة في هذه المقالة، يمكنك ضمان دقة وموثوقية البيانات المستوردة في تطبيقات Java. يُعد التحقق من صحة البيانات جانبًا بالغ الأهمية في إدارة البيانات، ويُبسّط Aspose.Cells لـ Java هذه العملية.
 
 الآن، بعد أن زوّدتَنا بالمعرفة وشيفرة المصدر المُقدّمة، أنت جاهز لتعزيز قدراتك على التحقق من صحة بياناتك وتحسين تجربة المستخدم. برمجة ممتعة!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

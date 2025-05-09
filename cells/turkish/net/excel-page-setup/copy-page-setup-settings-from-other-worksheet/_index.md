@@ -1,14 +1,16 @@
 ---
-title: Sayfa Kurulum Ayarlarını Diğer Çalışma Sayfasından Kopyala
-linktitle: Sayfa Kurulum Ayarlarını Diğer Çalışma Sayfasından Kopyala
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzla, elektronik tablo yönetiminizi geliştirmek için mükemmel olan Aspose.Cells for .NET'i kullanarak çalışma sayfaları arasında sayfa düzeni ayarlarını kopyalamayı öğrenin.
-weight: 10
-url: /tr/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
+"description": "Bu adım adım kılavuzla, elektronik tablo yönetiminizi geliştirmek için mükemmel olan Aspose.Cells for .NET'i kullanarak çalışma sayfaları arasında sayfa düzeni ayarlarını kopyalamayı öğrenin."
+"linktitle": "Sayfa Kurulum Ayarlarını Diğer Çalışma Sayfasından Kopyala"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Sayfa Kurulum Ayarlarını Diğer Çalışma Sayfasından Kopyala"
+"url": "/tr/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfa Kurulum Ayarlarını Diğer Çalışma Sayfasından Kopyala
@@ -19,12 +21,12 @@ Hiç kendinizi bir çalışma sayfasından diğerine sayfa ayarlarını kopyalam
 
 ## Ön koşullar
 
-Koda geçmeden önce, yerinde olması gereken birkaç temel öğe vardır:
+Koda geçmeden önce, yerinde olması gereken birkaç temel öğe var:
 
 1. .NET Geliştirme Ortamı: Visual Studio veya tercih ettiğiniz herhangi bir IDE gibi .NET uyumlu bir ortamınızın olduğundan emin olun.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak. [buradan indirin](https://releases.aspose.com/cells/net/).
 3. C# Temel Anlayışı: C# temellerini bilmek, kavramları daha iyi kavramanıza kesinlikle yardımcı olacaktır.
-4.  Aspose.Cells Belgeleri: Kendinizi şu konularda bilgilendirin:[belgeleme](https://reference.aspose.com/cells/net/) Daha sonra işinize yarayabilecek gelişmiş yapılandırmalar veya ek özellikler için.
+4. Aspose.Cells Belgeleri: Kendinizi şu konularda bilgilendirin: [belgeleme](https://reference.aspose.com/cells/net/) Daha sonra işinize yarayabilecek gelişmiş yapılandırmalar veya ek özellikler için.
 
 Artık ön koşullarımız tamam olduğuna göre, gerekli paketleri içe aktaralım!
 
@@ -45,7 +47,7 @@ Her bir bölümü tam olarak anlamanızı sağlamak için tüm süreci yönetile
 ## Adım 1: Bir Çalışma Kitabı Oluşturun
 
 Çalışma Kitabınızı Oluşturun:
- İlk olarak, bir örnek oluşturmanız gerekir`Workbook` sınıf. Bu esasen sizin başlangıç noktanızdır. 
+İlk olarak, bir örnek oluşturmanız gerekir `Workbook` sınıf. Bu esasen sizin başlangıç noktanızdır. 
 
 ```csharp
 Workbook wb = new Workbook();
@@ -80,7 +82,7 @@ Artık her iki çalışma sayfasına da referanslarınız var, böylece özellik
 ## Adım 4: TestSheet1 için Kağıt Boyutunu Ayarlayın
 
 Sayfa Ayarını Değiştir:
- "TestSheet1"in kağıt boyutunu şu şekilde ayarlayalım:`PaperA3ExtraTransverse`.
+"TestSheet1"in kağıt boyutunu şu şekilde ayarlayalım: `PaperA3ExtraTransverse`.
 
 ```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
@@ -149,16 +151,18 @@ Aspose.Cells, .NET uygulamalarında elektronik tablolarla çalışmak için gü�
 Aspose.Cells öncelikli olarak .NET dillerini destekler, ancak farklı diller için başka Aspose kütüphaneleri de vardır.
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?  
- Evet, indirebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Cells'in.
+Evet, indirebilirsiniz [ücretsiz deneme](https://releases.aspose.com/) Aspose.Cells'in.
 
 ### Aspose.Cells için desteği nasıl alabilirim?  
- Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Desteğe şu şekilde erişebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici lisans alabilir miyim?  
-Kesinlikle! Bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Ürünü değerlendirmek için.
+Kesinlikle! Bir tane talep edebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Ürünü değerlendirmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

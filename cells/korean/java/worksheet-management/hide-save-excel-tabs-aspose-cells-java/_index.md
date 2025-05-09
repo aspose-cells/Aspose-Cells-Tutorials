@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ Aspose.Cells 성능을 최적화하려면:
    - Aspose 웹사이트에서 JAR 파일을 직접 다운로드하여 프로젝트의 클래스 경로에 추가할 수 있습니다.
 2. **Aspose.Cells를 다른 프로그래밍 언어와 함께 사용할 수 있나요?**
    - 네, Aspose는 .NET, C++, Android 등 다양한 라이브러리를 제공합니다. 자세한 내용은 해당 문서를 확인하세요.
-3. **무료 평가판 라이센스의 제한 사항은 무엇입니까?**
+3. **무료 체험판 라이센스의 제한 사항은 무엇입니까?**
    - 무료 평가판에는 종종 문서에 평가 워터마크가 있거나 처리되는 문서 페이지 수가 제한되어 있습니다.
 4. **메모리가 부족해지지 않고 대용량 Excel 파일을 처리하려면 어떻게 해야 하나요?**
    - 효율적인 데이터 구조를 사용하고 사용되지 않는 리소스를 주기적으로 해제하여 Java의 힙 공간을 효과적으로 관리합니다.
@@ -166,6 +168,9 @@ Aspose.Cells 성능을 최적화하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल को पीडीएफ में निर्यात करना
@@ -106,9 +108,11 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 प्रश्न 5: मैं Aspose.Cells के लिए अधिक दस्तावेज़ और उदाहरण कहां पा सकता हूं?
 
 Aspose.Cells API दस्तावेज़न का अन्वेषण करें [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) आपके ज्ञान को और अधिक विस्तारित करने के लिए व्यापक दस्तावेज़ीकरण और उदाहरणों का खजाना।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

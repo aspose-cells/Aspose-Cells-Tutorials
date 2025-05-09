@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ Cells cells = ws.getCells();
 Cell cell = cells.get("A1");
 cell.putValue("&=$Test(formula)");
 ```
-- **Параметры:** Поле интеллектуального маркера `&=$Test(formula)` используется для указания места, куда следует вставить данные.
+- **Параметры:** Поле умного маркера `&=$Test(formula)` используется для указания места, куда следует вставить данные.
 - **Конфигурация ключа:** Убедитесь, что ваши формулы правильно отформатированы для обработки Aspose.Cells.
 
 **Шаг 4: Настройка WorkbookDesigner и обработка интеллектуальных маркеров**
@@ -205,6 +207,9 @@ Aspose.Cells для Java можно интегрировать в различн
 - **Бесплатная пробная версия и временная лицензия:** Начните с бесплатной пробной версии или получите временную лицензию по адресу [Бесплатная пробная версия Aspose](https://releases.aspose.com/cells/java/) и [Временная лицензия](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

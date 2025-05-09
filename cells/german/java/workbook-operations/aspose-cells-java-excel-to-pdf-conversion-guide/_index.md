@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ A: Absolut! Sie können problemlos mehrere Excel-Dateien gleichzeitig durchlaufe
 A: Aspose.Cells unterstützt verschiedene Gebietsschemaeinstellungen, die Sie während des Speichervorgangs konfigurieren können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

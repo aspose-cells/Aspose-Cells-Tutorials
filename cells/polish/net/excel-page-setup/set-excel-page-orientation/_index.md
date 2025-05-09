@@ -1,14 +1,16 @@
 ---
-title: Ustaw orientację strony w programie Excel
-linktitle: Ustaw orientację strony w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak krok po kroku ustawić orientację strony w programie Excel za pomocą Aspose.Cells dla .NET. Uzyskaj zoptymalizowane wyniki.
-weight: 130
-url: /pl/net/excel-page-setup/set-excel-page-orientation/
+"description": "Dowiedz się, jak krok po kroku ustawić orientację strony w programie Excel za pomocą Aspose.Cells dla .NET. Uzyskaj zoptymalizowane wyniki."
+"linktitle": "Ustaw orientację strony w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw orientację strony w programie Excel"
+"url": "/pl/net/excel-page-setup/set-excel-page-orientation/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw orientację strony w programie Excel
@@ -22,7 +24,7 @@ Jeśli chodzi o programowe zarządzanie plikami Excela, Aspose.Cells dla .NET to
 Zanim zaczniesz, musisz zadbać o kilka rzeczy, aby zapewnić sobie płynne działanie:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj będziesz pisać swój kod.
-2.  Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+2. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest bardzo przydatna, ponieważ niniejszy samouczek został napisany w tym języku.
 4. Przestrzeń robocza: Przygotuj środowisko programistyczne i katalog do zapisywania dokumentów, ponieważ będziesz ich potrzebować!
 
@@ -47,7 +49,7 @@ Przede wszystkim musisz określić, gdzie chcesz zapisać plik Excela. Jest to k
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w twoim systemie. Pomyśl o tym jako o podaniu celu twojej podróży.
+Tutaj zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w twoim systemie. Pomyśl o tym jako o podaniu celu twojej podróży.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -58,7 +60,7 @@ Teraz utworzysz wystąpienie klasy Workbook, która reprezentuje plik programu E
 Workbook workbook = new Workbook();
 ```
 
- Tworzenie nowego`Workbook`to tak, jakbyś otwierał nową, pustą stronę w notatniku, gotową na wypełnienie jej dowolnymi informacjami!
+Tworzenie nowego `Workbook` to tak, jakbyś otwierał nową, pustą stronę w notatniku, gotową na wypełnienie jej dowolnymi informacjami!
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -103,19 +105,21 @@ I masz! Udało Ci się skonfigurować orientację strony pliku Excel przy użyci
 Aspose.Cells for .NET to potężna biblioteka umożliwiająca programowe zarządzanie plikami Excela, oferująca m.in. takie funkcje, jak tworzenie, edytowanie i konwertowanie.
 
 ### Czy mogę również zmienić orientację na poziomą?
- Tak! Możesz ustawić orientację na`PageOrientationType.Landscape` w podobny sposób.
+Tak! Możesz ustawić orientację na `PageOrientationType.Landscape` w podobny sposób.
 
 ### Czy jest dostępne wsparcie dla Aspose.Cells?
- Oczywiście! Możesz ich odwiedzić[forum wsparcia](https://forum.aspose.com/c/cells/9) w razie pytań lub chęci uzyskania pomocy.
+Oczywiście! Możesz ich odwiedzić [forum wsparcia](https://forum.aspose.com/c/cells/9) w razie pytań lub chęci uzyskania pomocy.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
- Możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/)co pozwala na wypróbowanie funkcji bez ograniczeń.
+Możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/), co pozwala na wypróbowanie funkcji bez ograniczeń.
 
 ### Czy Aspose.Cells obsługuje duże pliki Excela?
 Tak, Aspose.Cells jest zoptymalizowany pod kątem obsługi dużych plików i może wydajnie wykonywać różne operacje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

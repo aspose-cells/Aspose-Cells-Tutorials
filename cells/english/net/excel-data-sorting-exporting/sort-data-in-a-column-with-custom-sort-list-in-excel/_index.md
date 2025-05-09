@@ -8,7 +8,9 @@ url: /net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-li
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sort Data in a Column with Custom Sort List in Excel
@@ -146,6 +148,7 @@ Yes! Aspose provides extensive documentation and sample projects which can great
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -217,6 +219,9 @@ Sie haben nun gelernt, wie Sie Aspose.Cells in Java einrichten, Excel-Dateien ö
 Wenn Sie dieser Anleitung folgen, sind Sie gut gerüstet, um Aspose.Cells in Ihren Java-Anwendungen für eine robuste Excel-Automatisierung zu nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

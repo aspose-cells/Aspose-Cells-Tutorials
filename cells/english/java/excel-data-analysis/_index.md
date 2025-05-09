@@ -8,7 +8,9 @@ url: /java/excel-data-analysis/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Analysis
@@ -41,6 +43,7 @@ Unlock the Power of Data Analysis in Excel with Aspose.Cells for Java. Learn Ess
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

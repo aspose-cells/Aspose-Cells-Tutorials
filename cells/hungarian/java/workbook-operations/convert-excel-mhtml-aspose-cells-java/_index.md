@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,6 +118,9 @@ Most már rendelkezel az eszközökkel, hogy Excel-fájlokat MHTML-re konvertál
 Merülj el az Excel-konverziók világában könnyedén az Aspose.Cells segítségével, és alakítsd át az adatmegosztás és -kezelés módját!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

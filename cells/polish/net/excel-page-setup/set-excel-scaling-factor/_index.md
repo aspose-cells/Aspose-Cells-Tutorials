@@ -1,14 +1,16 @@
 ---
-title: Ustaw współczynnik skalowania programu Excel
-linktitle: Ustaw współczynnik skalowania programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się łatwo manipulować plikami Excela i dostosowywać współczynnik skalowania przy użyciu Aspose.Cells dla .NET.
-weight: 180
-url: /pl/net/excel-page-setup/set-excel-scaling-factor/
+"description": "Naucz się łatwo manipulować plikami Excela i dostosowywać współczynnik skalowania przy użyciu Aspose.Cells dla .NET."
+"linktitle": "Ustaw współczynnik skalowania programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw współczynnik skalowania programu Excel"
+"url": "/pl/net/excel-page-setup/set-excel-scaling-factor/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw współczynnik skalowania programu Excel
@@ -22,11 +24,11 @@ Jeśli chodzi o programowe przetwarzanie plików Excel, Aspose.Cells for .NET wy
 Zanim przejdziemy do praktycznych kroków, musisz spełnić kilka warunków wstępnych:
 
 1. Zainstalowany program Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio, ponieważ będziemy pisać kod w tym środowisku.
-2.  Aspose.Cells for .NET Library: Uzyskaj kopię biblioteki Aspose.Cells. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/cells/net/) Jeśli nie jesteś pewien, możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/).
+2. Aspose.Cells for .NET Library: Uzyskaj kopię biblioteki Aspose.Cells. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/cells/net/)Jeśli nie jesteś pewien, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/).
 3. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# będzie pomocna, zwłaszcza jeśli dopiero zaczynasz pracę z bibliotekami.
 4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na zgodną wersję .NET Framework dla biblioteki.
 
-Skoro już wiemy, czego potrzebujesz, możemy zacząć od zaimportowania niezbędnych pakietów.
+Teraz, gdy już wiemy, czego potrzebujesz, możemy zacząć od zaimportowania niezbędnych pakietów.
 
 ## Importuj pakiety
 
@@ -34,16 +36,16 @@ Zanim napiszesz jakikolwiek kod, musisz dodać odwołanie do biblioteki Aspose.C
 
 ### Pobierz DLL
 
-1.  Idź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) i pobierz odpowiedni pakiet dla swojej wersji .NET.
-2.  Wypakuj pobrany plik i zlokalizuj go`Aspose.Cells.dll` plik.
+1. Idź do [Strona pobierania Aspose](https://releases.aspose.com/cells/net/) i pobierz odpowiedni pakiet dla swojej wersji .NET.
+2. Wypakuj pobrany plik i znajdź go `Aspose.Cells.dll` plik.
 
 ### Dodaj odniesienie w programie Visual Studio
 
 1. Otwórz projekt Visual Studio.
 2. Kliknij prawym przyciskiem myszy „Odwołania” w Eksploratorze rozwiązań.
 3. Wybierz „Dodaj odniesienie”. 
-4.  Kliknij „Przeglądaj” i przejdź do lokalizacji`Aspose.Cells.dll` plik, który wyodrębniłeś.
-5. Zaznacz go i kliknij „OK”, aby dodać go do projektu.
+4. Kliknij „Przeglądaj” i przejdź do lokalizacji `Aspose.Cells.dll` plik, który wyodrębniłeś.
+5. Wybierz ją i kliknij „OK”, aby dodać ją do projektu.
 
 ```csharp
 using System.IO;
@@ -64,7 +66,7 @@ Najpierw musisz określić, gdzie chcesz zapisać plik wyjściowy Excela. Ten ka
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Upewnij się, że wymienisz`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać plik Excela.
+Upewnij się, że wymienisz `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką na Twoim komputerze, gdzie chcesz zapisać plik Excela.
 
 ## Krok 2: Utwórz nowy obiekt skoroszytu
 
@@ -75,7 +77,7 @@ Teraz czas utworzyć nowy skoroszyt. To jest miejsce, w którym będą przechowy
 Workbook workbook = new Workbook();
 ```
 
- Tutaj deklarujemy nowy`Workbook` obiekt reprezentujący plik Excela, który umożliwi nam manipulowanie jego zawartością.
+Tutaj deklarujemy nowy `Workbook` obiekt reprezentujący plik Excela, który umożliwi nam manipulowanie jego zawartością.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -97,7 +99,7 @@ Oto główna część: ustawienie współczynnika skalowania. Współczynnik ska
 worksheet.PageSetup.Zoom = 100;
 ```
 
- Ustawianie`Zoom` nieruchomość do`100` oznacza, że arkusz kalkulacyjny zostanie wydrukowany w rzeczywistym rozmiarze. Możesz dostosować tę wartość w zależności od potrzeb — obniż ją, jeśli chcesz zmieścić więcej treści na jednej stronie.
+Ustawianie `Zoom` nieruchomość do `100` oznacza, że arkusz kalkulacyjny zostanie wydrukowany w rzeczywistym rozmiarze. Możesz dostosować tę wartość w zależności od potrzeb — obniż ją, jeśli chcesz zmieścić więcej treści na jednej stronie.
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -108,7 +110,7 @@ Dokonałeś niezbędnych zmian. Teraz pora je zapisać.
 workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
- Zapisuje plik Excela z zastosowanym współczynnikiem skalowania. Upewnij się, że do pliku dołączono prawidłową nazwę pliku.`dataDir`.
+Zapisuje plik Excela z zastosowanym współczynnikiem skalowania. Upewnij się, że do pliku dołączono prawidłową nazwę pliku. `dataDir`.
 
 ## Wniosek
 
@@ -119,22 +121,24 @@ Możliwość dostosowania współczynnika skalowania to tylko jedna z wielu funk
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells dla .NET?  
-Aspose.Cells for .NET to zaawansowana biblioteka służąca do tworzenia i manipulowania plikami Excel w aplikacjach .NET, zapewniająca bogatą funkcjonalność bez konieczności instalowania programu Excel.
+Aspose.Cells for .NET to rozbudowana biblioteka służąca do tworzenia i manipulowania plikami Excel w aplikacjach .NET, zapewniająca bogatą funkcjonalność bez konieczności instalowania programu Excel.
 
 ### Czy mogę używać Aspose.Cells dla .NET w aplikacji internetowej?  
 Tak! Aspose.Cells można używać zarówno w aplikacjach desktopowych, jak i internetowych, o ile są one przeznaczone dla środowiska .NET.
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.Cells?  
- Oczywiście! Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz otrzymać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?  
- Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Jak mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
- Możesz uzyskać pomoc za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać pomoc za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

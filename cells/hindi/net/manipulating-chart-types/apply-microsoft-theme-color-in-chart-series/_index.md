@@ -1,14 +1,16 @@
 ---
-title: चार्ट श्रृंखला में Microsoft थीम रंग लागू करें
-linktitle: चार्ट श्रृंखला में Microsoft थीम रंग लागू करें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके चार्ट श्रृंखला में Microsoft थीम रंग लागू करना सीखें। डेटा विज़ुअलाइज़ेशन संवर्द्धन के लिए चरण-दर-चरण ट्यूटोरियल।
-weight: 14
-url: /hi/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके चार्ट श्रृंखला में Microsoft थीम रंग लागू करना सीखें। डेटा विज़ुअलाइज़ेशन संवर्द्धन के लिए चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "चार्ट श्रृंखला में Microsoft थीम रंग लागू करें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट श्रृंखला में Microsoft थीम रंग लागू करें"
+"url": "/hi/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट श्रृंखला में Microsoft थीम रंग लागू करें
@@ -22,9 +24,9 @@ url: /hi/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-serie
 व्यावहारिक चरणों में जाने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए। हालाँकि यह गाइड शुरुआती लोगों के लिए है, लेकिन प्रोग्रामिंग और .NET अवधारणाओं की बुनियादी समझ होना फायदेमंद होगा। यहाँ आपको क्या चाहिए:
 
 1. .NET फ्रेमवर्क: सुनिश्चित करें कि आपके पास अपनी मशीन पर .NET फ्रेमवर्क स्थापित है। Aspose.Cells .NET अनुप्रयोगों के साथ सहजता से काम करता है, इसलिए आपको एक संगत संस्करण की आवश्यकता होगी।
-2.  Aspose.Cells लाइब्रेरी: आप Aspose.Cells लाइब्रेरी का नवीनतम संस्करण यहाँ से प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells लाइब्रेरी: आप Aspose.Cells लाइब्रेरी का नवीनतम संस्करण यहाँ से प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 3. विज़ुअल स्टूडियो: विज़ुअल स्टूडियो जैसा एक तैयार विकास वातावरण आपके जीवन को आसान बना सकता है। सुनिश्चित करें कि आपने अपना कोड लिखने और निष्पादित करने के लिए इसे इंस्टॉल किया है।
-4.  नमूना एक्सेल फ़ाइल: आपके पास एक नमूना एक्सेल फ़ाइल होनी चाहिए (जैसे`sampleMicrosoftThemeColorInChartSeries.xlsx`) जिसमें अभ्यास के लिए कम से कम एक चार्ट हो।
+4. नमूना एक्सेल फ़ाइल: आपके पास एक नमूना एक्सेल फ़ाइल होनी चाहिए (जैसे `sampleMicrosoftThemeColorInChartSeries.xlsx`) जिसमें अभ्यास के लिए कम से कम एक चार्ट हो।
 
 अब जब हमने यह सब कर लिया है, तो आइए अपने चार्ट को अनुकूलित करने की यात्रा शुरू करने के लिए आवश्यक पैकेजों को आयात करें।
 
@@ -56,11 +58,11 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`"Your Output Directory"` और`"Your Document Directory"` आपकी मशीन पर वास्तविक पथ के साथ.
+प्रतिस्थापित करना सुनिश्चित करें `"Your Output Directory"` और `"Your Document Directory"` आपकी मशीन पर वास्तविक पथ के साथ.
 
 ## चरण 2: कार्यपुस्तिका को इंस्टैंसिएट करें
 
- इसके बाद, आपको इसका एक उदाहरण बनाना होगा`Workbook` क्लास, जो हमारे एक्सेल फ़ाइल प्रबंधन के दिल के रूप में कार्य करता है। यह आपके डेटा के लिए दरवाज़ा खोलने जैसा है।
+इसके बाद, आपको इसका एक उदाहरण बनाना होगा `Workbook` क्लास, जो हमारे एक्सेल फ़ाइल प्रबंधन के दिल के रूप में कार्य करता है। यह आपके डेटा के लिए दरवाज़ा खोलने जैसा है।
 
 ```csharp
 // चार्ट वाली फ़ाइल खोलने के लिए कार्यपुस्तिका को इंस्टैंसिएट करें
@@ -107,7 +109,7 @@ chart.NSeries[0].Area.FillFormat.FillType = Aspose.Cells.Drawing.FillType.Solid;
 इसके बाद, हमें चार्ट के भरण क्षेत्र के लिए रंग निर्धारित करना होगा। इस तरह हम अपने चुने हुए रंग को जीवंत बना सकते हैं।
 
 ```csharp
-//SolidFill का CellsColor प्राप्त करें
+// SolidFill का CellsColor प्राप्त करें
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 
@@ -115,7 +117,7 @@ CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 ## चरण 7: थीम रंग लागू करें
 
- अब, चलिए Microsoft थीम रंग लागू करते हैं। हम एक चुनेंगे`Accent` शैली क्योंकि कौन रंग की चमक पसंद नहीं करता है?
+अब, चलिए Microsoft थीम रंग लागू करते हैं। हम एक चुनेंगे `Accent` शैली क्योंकि कौन रंग की चमक पसंद नहीं करता है?
 
 ```csharp
 // एक्सेंट शैली में थीम बनाएं
@@ -126,7 +128,7 @@ cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 
 ## चरण 8: कोशिकाओं का रंग सेट करें
 
-एक बार थीम परिभाषित हो जाने के बाद, इसे हमारी चार्ट श्रृंखला पर लागू करने का समय आ गया है। यही वह क्षण है जब हम अपने डिज़ाइन को आकार लेते हुए देखते हैं!
+एक बार थीम निर्धारित हो जाने के बाद, इसे हमारी चार्ट श्रृंखला पर लागू करने का समय आ गया है। यही वह क्षण है जब हम अपने डिज़ाइन को आकार लेते हुए देखते हैं!
 
 ```csharp
 // श्रृंखला पर थीम लागू करें
@@ -164,19 +166,21 @@ Console.WriteLine("MicrosoftThemeColorInChartSeries executed successfully.");
 Aspose.Cells एक शक्तिशाली लाइब्रेरी है जिसका उपयोग .NET अनुप्रयोगों में Excel फ़ाइलों में हेरफेर करने के लिए किया जाता है, जो उपयोगकर्ताओं को Excel दस्तावेज़ बनाने, संशोधित करने और परिवर्तित करने की अनुमति देता है।
 
 ### क्या मुझे Aspose.Cells का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- हां, हालांकि इसका निःशुल्क परीक्षण उपलब्ध है, लेकिन निरंतर व्यावसायिक उपयोग के लिए लाइसेंस की आवश्यकता होती है। आप लाइसेंसिंग विकल्पों का पता लगा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+हां, हालांकि इसका निःशुल्क परीक्षण उपलब्ध है, लेकिन निरंतर व्यावसायिक उपयोग के लिए लाइसेंस की आवश्यकता होती है। आप लाइसेंसिंग विकल्पों का पता लगा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### क्या मैं माइक्रोसॉफ्ट थीम्स से परे रंगों को अनुकूलित कर सकता हूं?
 बिल्कुल! Aspose.Cells RGB मान, मानक रंग और अधिक सहित रंगों के व्यापक अनुकूलन की अनुमति देता है।
 
 ### मुझे अतिरिक्त दस्तावेज़ कहां मिल सकते हैं?
- आप Aspose.Cells दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/cells/net/) अधिक विस्तृत मार्गदर्शिका और सुविधाओं के लिए.
+आप Aspose.Cells दस्तावेज़ देख सकते हैं [यहाँ](https://reference.aspose.com/cells/net/) अधिक विस्तृत मार्गदर्शिका और सुविधाओं के लिए.
 
 ### यदि मुझे कोई समस्या आती है तो क्या सहायता उपलब्ध है?
- हाँ! आप Aspose फ़ोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/cells/9) समुदाय के समर्थन के लिए और अपने प्रश्नों में सहायता पाने के लिए।
+हाँ! आप Aspose फ़ोरम पर जा सकते हैं [यहाँ](https://forum.aspose.com/c/cells/9) समुदाय के समर्थन के लिए और अपने प्रश्नों में सहायता पाने के लिए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

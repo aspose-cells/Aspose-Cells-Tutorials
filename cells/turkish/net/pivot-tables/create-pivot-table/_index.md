@@ -1,57 +1,62 @@
 ---
-title: Excel'de .NET için Aspose.Cells kullanarak bir Pivot Tablo oluşturun
-weight: 7700
-limit: 
-description: Excel dosyasında bir Pivot Table oluşturmayı öğrenin .NET için Aspose.Cells kullanarak. Bu adım adım rehber verilerin eklenmesini ve Pivot Table'yi oluşturmayı gösterir.
-keywords: [Aspose.Cells for .NET, create Pivot Table, Excel Pivot Table, .NET Excel library, generate Pivot Table, Excel automation, C# Pivot Table, data summarization, Aspose.Cells example]
-url: /tr/net/pivot-tables/create-pivot-table/
+"description": "Aspose.Cells for .NET kullanarak bir Excel dosyasında Pivot Tablo oluşturmayı öğrenin. Bu adım adım kılavuz, veri eklemeyi ve Pivot Tablo oluşturmayı gösterir."
+"title": ".NET için Aspose.Cells Kullanarak Excel'de Pivot Tablo Oluşturma"
+"url": "/tr/net/pivot-tables/create-pivot-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'de Aspose.Cells kullanarak bir Pivot Tablo oluşturun
+# Aspose.Cells Kullanarak Excel'de Pivot Tablo Oluşturma
 
-Excel'de Pivot Tables'i programsal olarak oluşturmak hiç daha kolay olmadı! .NET için Aspose.Cells ile Excel çalışma defteri oluşturabilir, yapılandırılmış verileri ekleyebilir ve dinamik veri analizi için Pivot Tablo oluşturabilirsiniz. Bu öğretim kitabı bir çalışma defteri initialize ederek, verileri doldurarak, bir Pivot Tablo eklemek ve C#'de tüm yapılandırmayı yönlendirir. Raporları otomatikleştirirseniz veya satış verilerini analiz ederseniz, bu örnek işleminizi verimli bir şekilde kolaylaştırmanıza yardımcı olacaktır.  
+Excel'de programatik olarak Pivot Tablolar oluşturmak hiç bu kadar kolay olmamıştı! Aspose.Cells for .NET ile bir Excel çalışma kitabı oluşturabilir, yapılandırılmış veriler ekleyebilir ve dinamik veri analizi için bir Pivot Tablo oluşturabilirsiniz. Bu eğitim, bir çalışma kitabını başlatma, verileri doldurma, bir Pivot Tablo ekleme ve yapısını yapılandırma konusunda size yol gösterir; hepsi C# dilinde. İster raporları otomatikleştirin ister satış verilerini analiz edin, bu örnek süreci verimli bir şekilde düzenlemenize yardımcı olacaktır.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları
-Projeinizde .NET için Aspose.Cells kullanmak için, bu adımları takip edin:  
+## Kurulum Talimatları
+Projenizde Aspose.Cells for .NET'i kullanmak için şu adımları izleyin:  
 
-1. NuGet üzerinden yükle:  
-   * Açık Visual Studio.  
-   * Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin.  
-   * Aspose.Cellsi arayın ve yükleyin.  
+1. NuGet üzerinden kurulum:  
+   - Visual Studio’yu açın.  
+   - Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e gidin.  
+   - Aspose.Cells'i arayın ve yükleyin.  
 
-   Alternatif olarak NuGet Paket Yöneticisi Konsolu üzerinden yükleyin:  
+   Alternatif olarak, NuGet Paket Yöneticisi Konsolu üzerinden kurulum yapabilirsiniz:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Aspose Web Sitesi ' nden indir:  
-   * Ziyaret edin .[.NET için Aspose.Cells indir Sayfa](https://releases.aspose.com/cells/net/)\- Evet .  
-   * Kütüphane dosyalarını indir ve çıkar.  
-   * .NET projenize Aspose.Cells.dll referansını ekleyin.  
+2. Aspose Web Sitesinden İndirin:  
+   - Ziyaret edin [Aspose.Cells for .NET İndirme Sayfası](https://releases.aspose.com/cells/net/).  
+   - Kütüphane dosyalarını indirin ve çıkarın.  
+   - Aspose.Cells.dll referansını .NET projenize ekleyin.  
 
-3. Lisans başvurusu (Önemli):  
-   * Lisans al .[Aspose](https://purchase.aspose.com/buy)veya bir tane al .[Geçici lisans](https://purchase.aspose.com/temporary-license/)\- Evet .  
-   * Lisansı kodunuzla uygulayın:  
+3. Lisans Başvurusu Yapın (İsteğe bağlı):  
+   - Lisans satın al [Aspose](https://purchase.aspose.com/buy) veya bir tane al [geçici lisans](https://purchase.aspose.com/temporary-license/).  
+   - Lisansı kodunuza uygulayın:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## Ayrıca bakın  
-Lisans almak için, [Satın alma sayfasını hedef edin](https://purchase.aspose.com/buy)\- Evet .  
-Tam belgeler için ziyaret edin [.NET Belgeleme için Aspose.Cells](https://docs.aspose.com/cells/net/)\- Evet .  
-API referansını incelemek için, kontrol edin [.NET API Referansı için Aspose.Cells](https://reference.aspose.com/cells/net/)\- Evet . 
+## Ayrıca Bakınız  
+Lisans satın almak için şuraya gidin: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).  
+Tam dokümantasyon için şu adresi ziyaret edin: [Aspose.Cells for .NET Belgeleri](https://docs.aspose.com/cells/net/).  
+Tam API referansını keşfetmek için şuraya göz atın: [Aspose.Cells for .NET API Başvurusu](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

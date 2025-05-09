@@ -1,54 +1,59 @@
 ---
-title: A határok hozzáadása egy Excel-ben lévő tartományhoz az Aspose.Cells segítségével .NET
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan adhat határokat egy Excel fájltárhoz az .NET-hez használt Aspose.Cells segítségével. Kövesse ezt a lépésről lépésre készült útmutatót minták kódjával és részletes magyarázatokkal.
-keywords: [Aspose.Cells for .NET, Excel borders, add borders to range, C# Excel formatting, apply border Excel C#, Excel range border, .NET Excel library]
-url: /hu/net/formatting/adding-borders-to-range/
+"description": "Tanuld meg, hogyan adhatsz szegélyeket egy tartományhoz egy Excel-fájlban az Aspose.Cells for .NET használatával. Kövesd ezt a lépésről lépésre szóló útmutatót, amely mintakódot és részletes magyarázatokat tartalmaz."
+"title": "Szegélyek hozzáadása egy tartományhoz Excelben az Aspose.Cells for .NET használatával"
+"url": "/hu/net/formatting/adding-borders-to-range/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A határok hozzáadása egy Excel-ben lévő tartományhoz az Aspose.Cells segítségével
+# Szegélyek hozzáadása egy tartományhoz Excelben az Aspose.Cells használatával
   
-Az Aspose.Cells .NET-hez egy erős könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programszerűen hozzon létre, manipuláljanak és formátálják az Excel fájlokot. Ebben a példa bemutatjuk, hogyan lehet egy bizonyos számú sejthez határokat hozzáadni egy Excel munkalapban C# segítségével. Megtanulhatod, hogyan kell létrehozni egy munkalapot, hozzáférni egy munkalaphoz, meghatározni egy számlát, és különböző irányokban alkalmazni vastag határokat. Ez a tanár gyakorlati megközelítést nyújt az Excel formátáláshoz, ami megkönnyíti a táblázatok vizuális szerkezetének javítását.  
+Az Aspose.Cells for .NET egy hatékony függvénykönyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és formázását. Ebben a példában bemutatjuk, hogyan adhatunk szegélyeket egy Excel-munkafüzet adott cellatartományához C# használatával. Megtanulod, hogyan hozhatsz létre munkafüzetet, hogyan érhetsz el egy munkalapot, hogyan definiálhatsz egy tartományt, és hogyan alkalmazhatsz vastag szegélyeket különböző irányokban. Ez az oktatóanyag gyakorlati megközelítést kínál az Excel formázásához, megkönnyítve a táblázatok vizuális szerkezetének javítását.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/adding-borders-to-range" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
-A .NET-hez Aspose.Cells használatához kövesse a következő telepítési lépéseket:  
 
-1. A NuGet segítségével telepítse:  
-   * Nyissa ki a Visual Studio projektét.  
-   * A csomagkezelő konzoltól futtassa ki a következő parancsot:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások:  
+Az Aspose.Cells .NET-hez való használatához kövesse az alábbi telepítési lépéseket:  
+
+1. Telepítés NuGet-en keresztül:  
+   - Nyisd meg a Visual Studio-projektedet.  
+   - Futtassa a következő parancsot a Csomagkezelő konzolban:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-   * Alternatív módon használja a NuGet csomagkezelőt, hogy keresse a "Aspose.Cells" és telepítse.  
+   - Alternatív megoldásként a NuGet csomagkezelővel kereshet rá az „Aspose.Cells” fájlra, és telepítheti azt.  
 
-2. Letöltsük az Aspose weboldalról:  
-   * Látogasson el a[Aspose.Cells letöltő oldal](https://releases.aspose.com/cells/net/)\- Nem.  
-   * Letöltsd le a legújabb verziót és hivatkozz a projektedben található DLL-re.  
+2. Letöltés az Aspose weboldaláról:  
+   - Látogassa meg a [Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).  
+   - Töltsd le a legújabb verziót, és hivatkozz a DLL-re a projektedben.  
 
-3. A licenc alkalmazása (Felhetős):  
-   * Kérhetsz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)vagy vásároljon egy teljes verziót a [Célszerű vásárolni](https://purchase.aspose.com/buy)\- Nem.  
-   * A projekthez a licenc alkalmazása:  
+3. Licenc igénylése (opcionális):  
+   - Kérhet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy vásároljon teljes verziót innen [Aspose vásárlás](https://purchase.aspose.com/buy).  
+   - Alkalmazd a licencet a projektedben a következőképpen:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## Lásd:  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

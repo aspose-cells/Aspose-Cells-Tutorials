@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ public void localizeChart(Chart chart) {
 Aspose.Cells के साथ चार्ट को प्रभावी ढंग से स्थानीयकृत करने की अपनी यात्रा शुरू करें, अपने जावा अनुप्रयोगों की पहुंच और प्रभाव को बढ़ाएं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

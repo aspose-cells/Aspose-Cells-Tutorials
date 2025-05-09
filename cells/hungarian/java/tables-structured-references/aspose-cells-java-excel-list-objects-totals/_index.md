@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ ListObjectCollection listObjects = sheet.getListObjects();
 **Áttekintés:** Adjon hozzá új listaobjektumokat a munkalaphoz, adja meg az adattartományt és engedélyezze a fejléceket.
 
 ```java
-// Lista objektum hozzáadása az 1. sor 1. oszlopától a 11. sor 5. oszlopáig, engedélyezett fejlécekkel
+// Lista objektum hozzáadása az 1. sor 1. oszlopától a 11. sor 5. oszlopáig, engedélyezve a fejléceket
 listObjects.add(0, 0, 10, 4, true);
 ```
 
@@ -178,6 +180,9 @@ A következő lépések magukban foglalhatják az Aspose.Cells további funkció
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

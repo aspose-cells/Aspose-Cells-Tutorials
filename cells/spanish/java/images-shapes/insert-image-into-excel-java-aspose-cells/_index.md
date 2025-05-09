@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ import com.aspose.cells.Worksheet;
 
 public class AccessWorksheet {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un nuevo objeto Workbook
+        // Crear una instancia de un nuevo objeto de libro de trabajo
         Workbook book = new Workbook();
         
         // Recuperar la primera hoja de trabajo
@@ -235,6 +237,9 @@ A4: Asegúrese de que las rutas de directorio existan y tengan permisos de escri
 A5: Sí, admite varios formatos, incluidos JPEG, PNG, BMP, GIF y otros.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

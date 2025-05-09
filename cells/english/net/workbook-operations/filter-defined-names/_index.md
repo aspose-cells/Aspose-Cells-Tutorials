@@ -8,7 +8,9 @@ url: /net/workbook-operations/filter-defined-names/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Filter Defined Names while Loading Workbook
@@ -92,6 +94,7 @@ You can find support and engage with the community on the Aspose forum [here](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

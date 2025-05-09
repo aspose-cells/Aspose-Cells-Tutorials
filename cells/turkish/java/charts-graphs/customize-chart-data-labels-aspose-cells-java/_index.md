@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Ortamınız hazır olduğunda, Aspose.Cells'i kuralım. Başlamak için yapmanı
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Temel Başlatma**: Bir tane oluştur `Workbook` Excel dosyalarıyla çalışmaya başlamak için bir örnek.
+3. **Temel Başlatma**Bir tane oluştur `Workbook` Excel dosyalarıyla çalışmaya başlamak için bir örnek.
 
 ## Uygulama Kılavuzu
 
@@ -166,6 +168,9 @@ Aspose.Cells yeteneklerini daha fazla keşfetmek için renkler ve yazı tipleri 
 Bu kapsamlı kılavuz, Aspose.Cells kullanarak Java uygulamalarınızda grafik veri etiketlerini etkili bir şekilde özelleştirmenize olanak sağlamalıdır. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

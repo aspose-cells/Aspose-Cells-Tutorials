@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Hatékonyan betölthet egy meglévő Excel-fájlt, műveleteket hajthat végre, 
   Workbook book = new Workbook(dataDir + "sample.xlsx");
   ```
 
-- **A munkafüzet mentése:**
+- **Munkafüzet mentése:**
   ```java
   String outDir = "YOUR_OUTPUT_DIRECTORY";
   book.save(outDir + "CustomLabelsforSubtotals_out.xlsx");
@@ -225,6 +227,9 @@ Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for J
 - [Aspose.Cells Java GitHub adattárhoz](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

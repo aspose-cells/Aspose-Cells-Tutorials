@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ověřování dat pro zabezpečení
@@ -16,7 +18,7 @@
 
 ## Zavedení
 
-V době, kdy jsou data životodárnou silou podniků a organizací, je zajištění jejich bezpečnosti a přesnosti prvořadé. Ověřování dat je klíčovým aspektem tohoto procesu. Tento článek zkoumá, jak lze Aspose.Cells pro Javu využít k implementaci robustních mechanismů ověřování dat.
+době, kdy jsou data životodárnou silou podniků a organizací, je zajištění jejich bezpečnosti a přesnosti prvořadé. Ověřování dat je klíčovým aspektem tohoto procesu. Tento článek zkoumá, jak lze Aspose.Cells pro Javu využít k implementaci robustních mechanismů ověřování dat.
 
 ## Co je validace dat?
 
@@ -156,6 +158,7 @@ Mezi pokročilé techniky patří kaskádování rozevíracích seznamů a použ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

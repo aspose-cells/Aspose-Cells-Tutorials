@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaawansowane wykresy Excela
@@ -16,7 +18,7 @@
 
 ## Zaawansowane wykresy programu Excel z Aspose.Cells dla języka Java:
 
-świecie podejmowania decyzji na podstawie danych kluczowa jest skuteczna wizualizacja danych. Aspose.Cells for Java umożliwia programistom Java tworzenie zaawansowanych wykresów Excela, które przekształcają surowe dane w znaczące spostrzeżenia. Te samouczki przeprowadzą Cię przez proces tworzenia fascynujących wykresów, od podstawowych wykresów słupkowych po skomplikowane mapy cieplne, wykorzystując moc Javy.
+W świecie podejmowania decyzji na podstawie danych kluczowa jest skuteczna wizualizacja danych. Aspose.Cells for Java umożliwia programistom Java tworzenie zaawansowanych wykresów Excela, które przekształcają surowe dane w znaczące spostrzeżenia. Te samouczki przeprowadzą Cię przez proces tworzenia fascynujących wykresów, od podstawowych wykresów słupkowych po skomplikowane mapy cieplne, wykorzystując moc Javy.
 
 ## Instrukcja krok po kroku dotycząca wizualizacji danych:
 
@@ -47,9 +49,11 @@ Dowiedz się, jak tworzyć fascynujące animacje wykresów za pomocą Aspose.Cel
 Dowiedz się, jak tworzyć oszałamiające wykresy wodospadowe za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do efektywnej wizualizacji danych.
 ### [Interaktywność wykresu](./chart-interactivity/)
 Dowiedz się, jak tworzyć interaktywne wykresy za pomocą Aspose.Cells dla Java. Ulepsz wizualizację danych dzięki interaktywności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

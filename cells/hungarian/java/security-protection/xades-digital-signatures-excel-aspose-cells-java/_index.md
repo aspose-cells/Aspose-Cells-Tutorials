@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 Az Aspose.Cells különböző licencelési lehetőségeket kínál:
 - **Ingyenes próbaverzió**: Kezdje el egy 30 napos ingyenes próbaverzióval, hogy kipróbálhassa a teljes funkcióit.
 - **Ideiglenes engedély**Szükség esetén szerezzen be ideiglenes engedélyt a hosszabbított értékeléshez.
-- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását.
+- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni a licenc megvásárlását.
 
 Miután megvan a licencfájlod, inicializáld az Aspose.Cells-t így:
 
@@ -130,7 +132,7 @@ A `DigitalSignatureCollection` tartalmazza az aláírásunkat, amelyet aztán a 
 
 ### Hibaelhárítási tippek
 - **Tanúsítványproblémák**Győződjön meg arról, hogy a tanúsítvány elérési útja és jelszava helyes.
-- **Elérési út hibái**: Ellenőrizze, hogy rendelkezik-e írási jogosultságokkal a kimeneti könyvtárhoz.
+- **Mentési útvonal hibák**: Ellenőrizze, hogy rendelkezik-e írási jogosultságokkal a kimeneti könyvtárhoz.
 
 ## Gyakorlati alkalmazások
 
@@ -180,6 +182,9 @@ Ezzel az átfogó útmutatóval felvértezve magát a Java-alkalmazások biztons
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Programowe używanie wbudowanych formatów liczbowych w programie Excel
-linktitle: Programowe używanie wbudowanych formatów liczbowych w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Zautomatyzuj formatowanie liczb w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo stosować formaty daty, procentów i walut.
-weight: 10
-url: /pl/net/number-and-display-formats-in-excel/using-built-in-number-formats/
+"description": "Zautomatyzuj formatowanie liczb w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo stosować formaty daty, procentów i walut."
+"linktitle": "Programowe używanie wbudowanych formatów liczbowych w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Programowe używanie wbudowanych formatów liczbowych w programie Excel"
+"url": "/pl/net/number-and-display-formats-in-excel/using-built-in-number-formats/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programowe używanie wbudowanych formatów liczbowych w programie Excel
@@ -17,10 +19,10 @@ url: /pl/net/number-and-display-formats-in-excel/using-built-in-number-formats/
 tym samouczku pokażemy Ci, jak używać wbudowanych formatów liczbowych w programie Excel przy użyciu Aspose.Cells dla .NET. Omówimy wszystko, od konfiguracji środowiska po stosowanie różnych formatów, takich jak daty, procenty i waluty. Niezależnie od tego, czy jesteś doświadczonym profesjonalistą, czy dopiero zaczynasz przygodę z ekosystemem .NET, ten przewodnik sprawi, że formatowanie komórek w programie Excel będzie dla Ciebie pestką.
 ## Wymagania wstępne
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
--  Zainstalowano bibliotekę Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+- Zainstalowano bibliotekę Aspose.Cells dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 - Znajomość języka C# i podstaw programowania .NET.
 - Visual Studio lub dowolne środowisko IDE .NET zainstalowane na Twoim komputerze.
--  Ważna licencja Aspose lub[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+- Ważna licencja Aspose lub [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
 - Zainstalowana platforma .NET Framework (wersja 4.0 lub nowsza).
   
 Jeśli brakuje Ci czegoś z powyższych, skorzystaj z podanych linków, aby wszystko skonfigurować. Gotowy? Przejdźmy do zabawy!
@@ -44,7 +46,7 @@ if (!IsExists)
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
- Tutaj po prostu tworzymy nową instancję`Workbook` obiekt. Działa jak plik Excel, gotowy do manipulacji danymi. Możesz również załadować istniejący plik, podając jego ścieżkę.
+Tutaj po prostu tworzymy nową instancję `Workbook` obiekt. Działa jak plik Excel, gotowy do manipulacji danymi. Możesz również załadować istniejący plik, podając jego ścieżkę.
 ## Krok 2: Uzyskaj dostęp do arkusza kalkulacyjnego
 Skoroszyty programu Excel mogą zawierać wiele arkuszy. W tym kroku uzyskamy dostęp do pierwszego arkusza w skoroszycie:
 ```csharp
@@ -68,7 +70,7 @@ Tutaj chwytamy styl komórki A1. Pomyśl o tym jak o chwytaniu „mody” komór
 ```csharp
 style.Number = 15;
 ```
- Ustawianie`Number` właściwość do 15 stosuje pożądany format daty. Jest to wbudowany kod formatu liczbowego do wyświetlania dat w formacie „d-mmm-yy”.
+Ustawianie `Number` właściwość do 15 stosuje pożądany format daty. Jest to wbudowany kod formatu liczbowego do wyświetlania dat w formacie „d-mmm-yy”.
 3. Zastosuj styl do komórki:
 ```csharp
 worksheet.Cells["A1"].SetStyle(style);
@@ -94,38 +96,40 @@ Now, let’s add a numeric value in cell A3 and format it as currency. This is a
 ```csharp
 worksheet.Cells["A3"].PutValue(2546);
 ```
-Tutaj dodajemy 2546 do komórki A3. Następnie sformatujemy tę liczbę tak, aby wyświetlała się jako waluta.
+Tutaj dodajemy 2546 do komórki A3. Następnie sformatujemy tę liczbę, aby wyświetlała się jako waluta.
 2. Pobierz styl i ustaw format waluty:
 ```csharp
 style = worksheet.Cells["A3"].GetStyle();
 style.Number = 6;  // Formatuj jako walutę
 worksheet.Cells["A3"].SetStyle(style);
 ```
- Ustawianie`Number` property to 6 stosuje format waluty. Teraz wartość w komórce A3 będzie wyświetlana jako „2,546.00”, z przecinkami i dwoma miejscami dziesiętnymi.
+Ustawianie `Number` property to 6 stosuje format waluty. Teraz wartość w komórce A3 będzie wyświetlana jako „2,546.00”, z przecinkami i dwoma miejscami dziesiętnymi.
 ## Krok 7: Zapisz plik Excel
 Teraz, gdy zastosowaliśmy całą magię formatowania, czas zapisać plik:
 ```csharp
 // Zapisywanie pliku Excel
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- Ten wiersz zapisuje plik Excel w formacie Excel 97-2003. Możesz zmienić`SaveFormat`aby dopasować do Twoich potrzeb. I tak po prostu, utworzyłeś i sformatowałeś plik Excel programowo!
+Ten wiersz zapisuje plik Excel w formacie Excel 97-2003. Możesz zmienić `SaveFormat` aby dopasować do Twoich potrzeb. I tak po prostu, utworzyłeś i sformatowałeś plik Excel programowo!
 ## Wniosek
 Gratulacje! Udało Ci się nauczyć, jak używać Aspose.Cells dla .NET, aby stosować wbudowane formaty liczbowe do komórek w pliku Excel. Od dat po procenty i waluty, omówiliśmy niektóre z najczęstszych potrzeb formatowania dla przetwarzania danych w programie Excel. Teraz zamiast ręcznie formatować komórki, możesz zautomatyzować cały proces — oszczędzając czas i zmniejszając liczbę błędów.
 ## Najczęściej zadawane pytania
 ### Czy mogę stosować niestandardowe formaty liczb przy użyciu Aspose.Cells dla .NET?
- Tak! Oprócz wbudowanych formatów, Aspose.Cells obsługuje również niestandardowe formaty liczbowe. Możesz tworzyć bardzo specyficzne formaty za pomocą`Custom` nieruchomość w`Style` klasa.
+Tak! Oprócz wbudowanych formatów, Aspose.Cells obsługuje również niestandardowe formaty liczbowe. Możesz tworzyć bardzo specyficzne formaty za pomocą `Custom` nieruchomość w `Style` klasa.
 ### Jak mogę sformatować komórkę jako walutę z określonym symbolem?
- Aby zastosować konkretny symbol waluty, możesz użyć formatowania niestandardowego, ustawiając`Style.Custom` nieruchomość.
+Aby zastosować konkretny symbol waluty, możesz użyć formatowania niestandardowego, ustawiając `Style.Custom` nieruchomość.
 ### Czy mogę formatować całe wiersze lub kolumny?
- Oczywiście! Możesz stosować style do całych wierszy lub kolumn za pomocą`Rows` Lub`Columns`kolekcje w`Worksheet` obiekt.
+Oczywiście! Możesz stosować style do całych wierszy lub kolumn za pomocą `Rows` Lub `Columns` kolekcje w `Worksheet` obiekt.
 ### Jak mogę sformatować wiele komórek jednocześnie?
-Możesz użyć`Range` obiekt umożliwiający zaznaczenie wielu komórek i zastosowanie do nich wszystkich stylów jednocześnie.
+Możesz użyć `Range` obiekt umożliwiający zaznaczenie wielu komórek i zastosowanie do nich wszystkich stylów jednocześnie.
 ### Czy muszę mieć zainstalowany program Microsoft Excel, aby korzystać z Aspose.Cells?
 Nie, Aspose.Cells działa niezależnie od programu Microsoft Excel, więc nie musisz instalować programu Excel na swoim komputerze.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

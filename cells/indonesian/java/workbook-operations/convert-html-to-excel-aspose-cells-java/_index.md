@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,24 +17,24 @@
 
 Dalam dunia yang digerakkan oleh data saat ini, mengonversi data berbasis web ke dalam format terstruktur seperti Excel merupakan kebutuhan umum. Baik Anda mengekstrak laporan keuangan dari halaman web atau mengubah konten HTML menjadi spreadsheet untuk analisis, proses tersebut dapat disederhanakan menggunakan alat yang canggih. Dalam tutorial ini, kita akan menjelajahi cara mengonversi string HTML ke dalam buku kerja Excel dengan Aspose.Cells Java, sehingga memudahkan manipulasi dan analisis data dalam format yang sudah dikenal.
 
-### Apa yang Akan Anda Pelajari
+### Amit tanulni fogsz
 - Cara menggunakan Aspose.Cells Java untuk mengubah string HTML menjadi buku kerja Excel.
 - Teknik untuk menyesuaikan baris dan kolom secara otomatis dalam lembar kerja Excel yang baru Anda buat.
 - Metode untuk menyimpan buku kerja akhir dalam format XLSX.
 
 Di akhir panduan ini, Anda akan memiliki pemahaman praktis tentang cara kerja konversi ini dan dilengkapi dengan potongan kode yang siap diterapkan. Mari kita bahas prasyarat yang diperlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 Sebelum melanjutkan, pastikan lingkungan pengembangan Anda telah diatur dengan benar untuk menggunakan Aspose.Cells Java. Anda memerlukan:
-- **Pustaka Aspose.Cells**Pastikan Anda menginstal versi 25.3 atau yang lebih baru.
+- **Aspose.Cells könyvtár**Pastikan Anda menginstal versi 25.3 atau yang lebih baru.
 - **Kit Pengembangan Java (JDK)**: JDK harus dikonfigurasi dengan benar pada sistem Anda.
 - **Membangun Perkakas**: Baik Maven atau Gradle, tergantung pada pengaturan proyek Anda.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 1. Instal Java jika belum tersedia di komputer Anda.
 2. Siapkan proyek Maven atau Gradle di IDE Anda.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java dan keakraban dengan format file Excel akan membantu Anda mengikutinya.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -52,13 +54,13 @@ Untuk menggunakan Aspose.Cells, sertakan dalam dependensi proyek Anda:
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 Anda dapat memulai dengan uji coba gratis untuk menguji fitur Aspose.Cells:
-- **Uji Coba Gratis**: Unduh dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk akses fitur lengkap melalui ini [link](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**:Untuk proyek jangka panjang, pertimbangkan untuk membeli lisensi [Di Sini](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**: Unduh dari [Aspose weboldal](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Dapatkan lisensi sementara untuk akses fitur lengkap melalui ini [link](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás**:Untuk proyek jangka panjang, pertimbangkan untuk membeli lisensi [itt](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Setelah menyiapkan pustaka, inisialisasi Aspose.Cells di lingkungan Java Anda:
 ```java
 import com.aspose.cells.*;
@@ -76,7 +78,7 @@ public class ExcelConverter {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Kami akan membagi implementasinya menjadi tiga fitur utama: mengonversi string HTML ke Excel, menyesuaikan baris dan kolom secara otomatis, dan menyimpan buku kerja sebagai XLSX.
 
 ### Konversi String HTML ke Buku Kerja
@@ -89,7 +91,7 @@ String export_html = "<html><body>...</body></html>";  // HTML Anda di sini
 ```
 
 **2. Ubah String HTML menjadi Buku Kerja**
-Muat HTML Anda ke Aspose.Cells `Workbook` obyek:
+Muat HTML Anda ke Aspose.Cells `Workbook` objektum:
 ```java
 import com.aspose.cells.HtmlLoadOptions;
 import java.io.ByteArrayInputStream;
@@ -125,7 +127,7 @@ public class AutoFitRowsAndColumns {
 - **`autoFitRows()`**: Menyesuaikan tinggi baris agar sesuai dengan kontennya.
 - **`autoFitColumns()`**: Menyesuaikan lebar kolom untuk menampung data.
 
-### Simpan Buku Kerja sebagai XLSX
+### Munkafüzet mentése XLSX formátumban
 Terakhir, simpan buku kerja Anda dalam format Excel:
 ```java
 public class SaveWorkbookAsXlsx {
@@ -139,27 +141,27 @@ public class SaveWorkbookAsXlsx {
 ```
 - **`SaveFormat.XLSX`**: Menentukan format file untuk disimpan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut ini adalah beberapa aplikasi nyata untuk mengonversi HTML ke Excel:
-1. **Pelaporan Data**: Mengotomatiskan pembuatan laporan dari data web ke dalam format spreadsheet.
-2. **Analisis Keuangan**: Ubah dasbor keuangan yang dihosting daring menjadi lembar kerja yang dapat diedit.
-3. **Manajemen Inventaris**: Ekstrak dan analisis tingkat inventaris yang disajikan di situs web pemasok.
+1. **Adatjelentés**: Mengotomatiskan pembuatan laporan dari data web ke dalam format spreadsheet.
+2. **Pénzügyi elemzés**: Ubah dasbor keuangan yang dihosting daring menjadi lembar kerja yang dapat diedit.
+3. **Készletgazdálkodás**: Ekstrak dan analisis tingkat inventaris yang disajikan di situs web pemasok.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat bekerja dengan kumpulan data besar atau struktur HTML yang rumit:
 - Optimalkan penggunaan memori dengan mengelola siklus hidup objek secara efektif.
 - Gunakan teknik streaming untuk menangani masukan HTML yang besar guna meminimalkan jejak memori.
 
-## Kesimpulan
+## Következtetés
 Kini Anda memiliki alat dan pengetahuan untuk mengonversi string HTML menjadi buku kerja Excel terstruktur menggunakan Aspose.Cells Java. Kemampuan ini dapat menyederhanakan proses integrasi data di seluruh platform web dan aplikasi spreadsheet, sehingga meningkatkan produktivitas dan analisis.
 
-### Langkah Berikutnya
+### Következő lépések
 Bereksperimenlah dengan berbagai jenis konten HTML atau integrasikan solusi ini ke dalam alur pemrosesan data Anda yang sudah ada untuk fungsionalitas yang lebih baik.
 
-### Ajakan Bertindak
+### Cselekvésre ösztönzés
 Cobalah menerapkan fitur-fitur ini dalam proyek Anda hari ini dan jelajahi potensi penuh Aspose.Cells Java untuk manipulasi data tingkat lanjut!
 
-## Bagian FAQ
+## GYIK szekció
 **T: Dapatkah saya mengonversi tabel HTML langsung ke Excel?**
 A: Ya, Aspose.Cells mendukung konversi langsung tabel HTML menjadi lembar kerja Excel.
 
@@ -175,15 +177,18 @@ A: Diperlukan JDK yang kompatibel dan alat pembangunan yang sesuai (Maven/Gradle
 **T: Dapatkah saya mengonversi HTML ke format spreadsheet lain seperti CSV atau PDF?**
 A: Ya, Aspose.Cells mendukung berbagai format keluaran termasuk CSV dan PDF.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

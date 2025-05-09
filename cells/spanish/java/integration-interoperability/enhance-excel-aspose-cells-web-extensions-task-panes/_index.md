@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Antes de continuar, asegúrese de tener lo siguiente:
 - **Entorno de desarrollo de Java**:JDK instalado y configurado
 - **Conocimientos básicos de programación Java**
 
-### Bibliotecas y dependencias necesarias
+### Bibliotecas y dependencias requeridas
 
 Para integrar Aspose.Cells en su proyecto, inclúyalo usando una herramienta de gestión de dependencias como Maven o Gradle.
 
@@ -207,6 +209,9 @@ Esta guía le permite integrar potentes extensiones web y paneles de tareas en s
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ Với Aspose.Cells for Java, việc chuyển đổi bảng tính Excel thành h�
 2. **Làm thế nào để xử lý các tệp Excel lớn bằng Aspose.Cells?**
    - Tối ưu hóa việc sử dụng bộ nhớ bằng cách quản lý vòng đời đối tượng và sử dụng API phát trực tuyến nếu có.
 3. **Tôi có thể tùy chỉnh kích thước hình ảnh khi chuyển đổi trang tính thành hình ảnh không?**
-   - Có, hãy điều chỉnh tùy chọn kết xuất hoặc xử lý hình ảnh sau khi cần cho các yêu cầu về kích thước cụ thể.
+   - Có, hãy điều chỉnh tùy chọn kết xuất hoặc xử lý hậu kỳ hình ảnh nếu cần cho các yêu cầu về kích thước cụ thể.
 4. **Một số lỗi thường gặp trong quá trình chuyển đổi là gì?**
    - Đảm bảo đường dẫn chính xác và kiểm tra xem có đủ quyền trên các thư mục liên quan đến việc đọc/ghi tệp hay không.
 5. **Làm thế nào để tôi có thể cải thiện chất lượng hình ảnh?**
@@ -142,6 +144,9 @@ Với hướng dẫn toàn diện này, giờ đây bạn đã sẵn sàng tri�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

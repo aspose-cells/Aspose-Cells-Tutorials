@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ public class ProcessWorkbook {
 لمزيد من الاستكشاف، فكر في الغوص في الميزات الأكثر تقدمًا في Aspose.Cells أو تجربة أنواع مختلفة من هياكل البيانات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

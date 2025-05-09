@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);  // Hozzáférés az első munkalaphoz
 ```
 
-### Kimutatástáblák használata munkalapon
+### Pivot táblázatok használata munkalapon
 
 A pivot táblázatok hatékony eszközök az adatok összegzéséhez. Így érheti el és kezelheti őket:
 
@@ -172,6 +174,9 @@ Fedezze fel az Aspose.Cells további funkcióit, például a diagramkészítést
 - **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Grundkenntnisse in Java-Programmierung, einschließlich objektorientierter Konze
 ## Einrichten von Aspose.Cells für Java
 Bevor Sie Excel-Dateien mit Aspose.Cells bearbeiten, richten Sie die Bibliothek in Ihrer Umgebung ein:
 
-1. **Installation**: Fügen Sie die Aspose.Cells-Abhängigkeit über Maven oder Gradle ein, wie oben gezeigt.
+1. **Installation**Fügen Sie die Aspose.Cells-Abhängigkeit über Maven oder Gradle ein, wie oben gezeigt.
 2. **Lizenzerwerb**: Beginnen Sie mit einer kostenlosen Testversion, indem Sie eine temporäre Lizenz herunterladen von [Asposes Website](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -120,9 +122,9 @@ Dieser Code speichert Ihre angepasste Arbeitsmappe in einem Ausgabeverzeichnis m
 
 ## Praktische Anwendungen
 Hier sind einige Szenarien aus der Praxis, in denen die automatische Zeilenanpassung unglaublich nützlich sein kann:
-1. **Finanzberichterstattung**: Gewährleisten Sie die Lesbarkeit von Finanzberichten, indem Sie die Zeilengrößen basierend auf detaillierten Dateneinträgen dynamisch anpassen.
+1. **Finanzberichterstattung**Gewährleisten Sie die Lesbarkeit von Finanzberichten, indem Sie die Zeilengrößen basierend auf detaillierten Dateneinträgen dynamisch anpassen.
 2. **Bestandsverwaltung**: Passen Sie Inventarlisten an unterschiedliche Beschreibungen und Mengen an und sorgen Sie dabei für eine übersichtliche Darstellung.
-3. **Projektplanung**Verbessern Sie Gantt-Diagramme oder Projektzeitleisten, bei denen Aufgaben Beschreibungen haben, die sich über mehrere Zeilen erstrecken.
+3. **Projektplanung**: Verbessern Sie Gantt-Diagramme oder Projektzeitleisten, bei denen Aufgaben Beschreibungen haben, die sich über mehrere Zeilen erstrecken.
 4. **Datenanalyse**: Optimieren Sie Dashboards, indem Sie Zeilen sauber um Kommentare oder Ergebnisse unterschiedlicher Länge herum anordnen.
 
 ## Überlegungen zur Leistung
@@ -163,6 +165,9 @@ Mit diesen Ressourcen können Sie tiefer in die Funktionen von Aspose.Cells für
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Domine a manipulação de planilhas com nossos tutoriais detalhados de Java para Aspose.Cells. Estes guias passo a passo demonstram como criar novas planilhas, renomear planilhas existentes, copiar conteúdo entre planilhas, gerenciar a visibilidade e organizar suas pastas de trabalho do Excel programaticamente. Cada tutorial inclui exemplos práticos de código Java, notas de implementação e práticas recomendadas para ajudar você a criar aplicativos que gerenciem pastas de trabalho com várias planilhas de forma eficiente, com código limpo e fácil de manter.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de gerenciamento de planilhas
 - Implementação passo a passo com exemplos de código completos
@@ -108,6 +110,9 @@ Aprenda a exibir linhas e colunas em arquivos do Excel sem esforço usando o Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

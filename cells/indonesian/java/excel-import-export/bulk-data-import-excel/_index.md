@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Impor Data Massal Excel
@@ -16,28 +18,28 @@
 
 Dalam panduan lengkap ini, kami akan memandu Anda melalui proses melakukan impor data massal dari Excel menggunakan Aspose.Cells for Java API yang canggih. Baik Anda menangani kumpulan data besar atau hanya ingin menyederhanakan pemrosesan data, tutorial langkah demi langkah dengan contoh kode sumber ini akan membantu Anda mencapai tujuan secara efisien.
 
-## Perkenalan
+## Bevezetés
 
 Impor data massal dari Excel merupakan persyaratan umum dalam banyak aplikasi Java. Baik Anda bekerja dengan data keuangan, catatan pelanggan, atau jenis informasi lain yang disimpan dalam lembar kerja Excel, Aspose.Cells untuk Java menyediakan solusi yang tangguh dan mudah digunakan.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai menerapkannya, pastikan Anda telah memenuhi prasyarat berikut:
 
-- Aspose.Cells untuk Pustaka Java: Unduh dan instal pustaka dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Pustaka Java: Unduh dan instal pustaka dari [itt](https://releases.aspose.com/cells/java/).
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
 
-## Langkah 1: Muat File Excel
+## 1. lépés: Töltse be az Excel fájlt
 
 Untuk memulai, Anda perlu memuat berkas Excel yang berisi data yang ingin Anda impor. Anda dapat melakukannya dengan menggunakan kode berikut:
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("data.xlsx");
 ```
 
-## Langkah 2: Akses Lembar Kerja
+## 2. lépés: A munkalap elérése
 
 Setelah Anda memuat berkas Excel, Anda perlu mengakses lembar kerja yang berisi data tersebut. Gunakan kode berikut untuk melakukannya:
 
@@ -72,7 +74,7 @@ for (int row = 0; row < maxRows; row++) {
 
 Pada titik ini, Anda memiliki akses ke data dari file Excel, dan Anda dapat melakukan pemrosesan data yang diperlukan, seperti validasi, transformasi, atau penyimpanan.
 
-## Kesimpulan
+## Következtetés
 
 Mengimpor data secara massal dari Excel menggunakan Aspose.Cells untuk Java merupakan solusi yang kuat dan fleksibel untuk menangani kumpulan data besar secara efisien. Dengan mengikuti panduan langkah demi langkah ini, Anda dapat menyederhanakan tugas pemrosesan data dan memastikan keakuratan data.
 
@@ -99,9 +101,11 @@ Tentu saja! Aspose.Cells untuk Java mendukung impor dan ekspor data ke dan dari 
 Ya, silakan tinjau informasi lisensi di situs web Aspose untuk detail tentang lisensi dan harga.
 
 Jangan ragu untuk mengeksplorasi lebih jauh dan mengadaptasi contoh kode untuk memenuhi kebutuhan spesifik Anda. Selamat membuat kode!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

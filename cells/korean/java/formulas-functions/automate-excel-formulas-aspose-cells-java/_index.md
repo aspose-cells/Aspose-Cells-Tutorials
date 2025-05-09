@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Aspose.Cells가 제공하는 다양한 기능을 마음껏 실험하고 탐색�
    새로운 데이터 행이 추가되면 전파 수식이 자동으로 업데이트되어 수동 개입 없이도 지속적인 정확성을 보장합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

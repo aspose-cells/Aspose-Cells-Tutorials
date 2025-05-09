@@ -1,14 +1,16 @@
 ---
-title: Sprawdź, czy wartość komórki ma określony niestandardowy format liczbowy
-linktitle: Sprawdź, czy wartość komórki ma określony niestandardowy format liczbowy
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczb za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
-weight: 10
-url: /pl/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/
+"description": "Dowiedz się, jak sprawdzić wartości komórek programu Excel pod kątem niestandardowych formatów liczbowych za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Sprawdź, czy wartość komórki ma określony niestandardowy format liczbowy"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Sprawdź, czy wartość komórki ma określony niestandardowy format liczbowy"
+"url": "/pl/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sprawdź, czy wartość komórki ma określony niestandardowy format liczbowy
@@ -22,7 +24,7 @@ Podczas pracy z arkuszami kalkulacyjnymi, zwłaszcza w środowisku profesjonalny
 Zanim zagłębimy się w kod, musisz spełnić kilka warunków wstępnych:
 
 1. Zainstalowany program Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio (dowolna wersja), ponieważ będziemy pracować w środowisku .NET.
-2.  Aspose.Cells for .NET Library: Musisz pobrać i dodać bibliotekę Aspose.Cells do swojego projektu. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Library: Musisz pobrać i dodać bibliotekę Aspose.Cells do swojego projektu. Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci bezproblemowo nadążać za językiem.
 
 Teraz, gdy już zadbaliśmy o nasze wymagania wstępne, możemy przejść bezpośrednio do importowania niezbędnych pakietów.
@@ -49,7 +51,7 @@ Na początek musisz utworzyć wystąpienie skoroszytu. To podstawa naszego pliku
 Workbook wb = new Workbook();
 ```
 
- Poprzez inicjalizację`Workbook`, utworzyliśmy w pamięci nowy plik Excela, gotowy do edycji.
+Poprzez inicjalizację `Workbook`, utworzyliśmy w pamięci nowy plik Excela, gotowy do edycji.
 
 ## Krok 2: Skonfiguruj ustawienia skoroszytu
 
@@ -57,10 +59,10 @@ Następnie musimy skonfigurować ustawienia dla naszego skoroszytu. Jest to kluc
 
 ```csharp
 // Włącz wyjątek dla nieprawidłowych niestandardowych formatów liczb
-wb.Settings.CheckCustomNumberFormat = true;
+wb.Ustawienies.CheckCusDomNumberFormat = true;
 ```
 
- Ustawienie`CheckCustomNumberFormat` Do`true` instruuje Aspose.Cells, aby zgłaszał wyjątki za każdym razem, gdy zastosowany zostanie nieprawidłowy format, co pozwala na lepszą obsługę błędów.
+Setting `CheckCustomNumberFormat` to `true` instruuje Aspose.Cells, aby zgłaszał wyjątki za każdym razem, gdy zastosowany zostanie nieprawidłowy format, co pozwala na lepszą obsługę błędów.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -83,7 +85,7 @@ Cell c = ws.Cells["A1"];
 c.PutValue(2347);
 ```
 
- Za pomocą`PutValue` , wstawiamy liczbę`2347` do komórki "A1". 
+Za pomocą `PutValue`, wstawiamy liczbę `2347` do komórki "A1". 
 
 ## Krok 5: Ustaw styl komórki
 
@@ -113,7 +115,7 @@ catch (Exception ex)
 }
 ```
 
-tym bloku kodu próbujemy ustawić nieprawidłowy niestandardowy format liczb. Ponieważ włączyliśmy rzucanie wyjątków w ustawieniach skoroszytu, spowoduje to wychwycenie wszelkich problemów i wydrukowanie komunikatu o błędzie.
+W tym bloku kodu próbujemy ustawić nieprawidłowy niestandardowy format liczb. Ponieważ włączyliśmy rzucanie wyjątków w ustawieniach skoroszytu, spowoduje to wychwycenie wszelkich problemów i wydrukowanie komunikatu o błędzie.
 
 ## Krok 7: Sprawdź poprawność wykonania
 
@@ -135,19 +137,21 @@ Eksploracja możliwości Aspose.Cells dla .NET zapewnia wszechstronny zestaw nar
 Aspose.Cells to biblioteka .NET przeznaczona do tworzenia, edytowania i konwertowania plików Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.Cells [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dodatkową dokumentację?
- Aby uzyskać więcej informacji, sprawdź[dokumentacja](https://reference.aspose.com/cells/net/).
+Aby uzyskać więcej informacji, sprawdź [dokumentacja](https://reference.aspose.com/cells/net/).
 
 ### Jakie języki programowania obsługuje Aspose.Cells?
 Aspose.Cells obsługuje przede wszystkim języki .NET, takie jak C# i VB.NET.
 
 ### Jak mogę zgłosić problem lub uzyskać pomoc?
- Możesz zadawać pytania i zgłaszać problemy na[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz zadawać pytania i zgłaszać problemy na [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

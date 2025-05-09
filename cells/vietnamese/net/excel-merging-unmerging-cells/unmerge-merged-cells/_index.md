@@ -1,14 +1,16 @@
 ---
-title: Bỏ hợp nhất các ô đã hợp nhất trong Excel
-linktitle: Bỏ hợp nhất các ô đã hợp nhất trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Dễ dàng hủy hợp nhất các ô đã hợp nhất trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo bảng tính tốt hơn.
-weight: 10
-url: /vi/net/excel-merging-unmerging-cells/unmerge-merged-cells/
+"description": "Dễ dàng hủy hợp nhất các ô đã hợp nhất trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo bảng tính tốt hơn."
+"linktitle": "Bỏ hợp nhất các ô đã hợp nhất trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Bỏ hợp nhất các ô đã hợp nhất trong Excel"
+"url": "/vi/net/excel-merging-unmerging-cells/unmerge-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bỏ hợp nhất các ô đã hợp nhất trong Excel
@@ -19,13 +21,13 @@ Bạn có thấy mệt mỏi khi phải xử lý các ô đã hợp nhất trong
 
 ## Điều kiện tiên quyết
 
-Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số điều cần thiết sau:
+Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số vật dụng thiết yếu sau:
 
 ### Kiến thức cơ bản về C# và .NET Framework
 Nếu bạn quen thuộc với lập trình C# và có hiểu biết cơ bản về .NET framework, bạn đã có một khởi đầu tuyệt vời. Nếu không, đừng lo lắng! Hướng dẫn này được thiết kế đơn giản, vì vậy bạn sẽ học được các khái niệm cần thiết trong quá trình học.
 
 ### Thư viện Aspose.Cells
-Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong môi trường .NET của mình. Bạn có thể dễ dàng tải xuống bằng cách truy cập[Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong môi trường .NET của mình. Bạn có thể dễ dàng tải xuống bằng cách truy cập [Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 
 ### Thiết lập IDE
 Bạn nên thiết lập một môi trường phát triển, như Visual Studio, nơi bạn có thể viết và thực thi mã C# của mình.
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory"; 
 ```
 
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế đến tập tin của bạn.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế tới tập tin của bạn.
 
 ## Bước 2: Tạo một Workbook
 
@@ -91,7 +93,7 @@ Mã này lấy trang tính đầu tiên. Nếu các ô được hợp nhất c�
 Tiếp theo, bạn sẽ cần tham chiếu đến các ô trong bảng tính của mình. Bạn có thể thực hiện việc này bằng cách:
 
 ```csharp
-//Tạo một đối tượng Cells để lấy tất cả các ô
+// Tạo một đối tượng Cells để lấy tất cả các ô
 Cells cells = worksheet.Cells;
 ```
 
@@ -106,7 +108,7 @@ Với dòng này, giờ bạn có thể truy cập vào tất cả các ô trên
 cells.UnMerge(5, 2, 2, 3);
 ```
 
- Trong ví dụ này,`UnMerge` phương pháp này sử dụng bốn tham số: chỉ số hàng bắt đầu (5), chỉ số cột bắt đầu (2), số hàng cần hủy hợp nhất (2) và số cột cần hủy hợp nhất (3). Điều chỉnh các tham số này để khớp với các ô đã hợp nhất cụ thể trong tệp Excel của bạn.
+Trong ví dụ này, `UnMerge` phương pháp này sử dụng bốn tham số: chỉ số hàng bắt đầu (5), chỉ số cột bắt đầu (2), số hàng cần hủy hợp nhất (2) và số cột cần hủy hợp nhất (3). Điều chỉnh các tham số này để khớp với các ô đã hợp nhất cụ thể trong tệp Excel của bạn.
 
 ## Bước 6: Lưu sổ làm việc
 
@@ -139,19 +141,21 @@ Việc hủy hợp nhất các ô có vẻ tẻ nhạt, đặc biệt là nếu 
 Aspose.Cells là một thư viện mạnh mẽ để tạo, xử lý và chuyển đổi các tài liệu Excel trong các ứng dụng .NET.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, bạn cần có giấy phép để sử dụng đầy đủ. Bạn có thể nhận được[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, bạn cần có giấy phép để sử dụng đầy đủ. Bạn có thể nhận được [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể hủy nhập các ô trong nhiều trang tính cùng một lúc không?  
-Có, bạn có thể lặp qua nhiều trang tính trong một bảng tính và hủy hợp nhất các ô khi cần.
+Có, bạn có thể lặp qua nhiều trang tính trong một bảng tính và hủy nhập các ô khi cần.
 
 ### Aspose.Cells có tương thích với .NET Core không?  
 Có, Aspose.Cells tương thích với .NET Core, khiến nó trở nên linh hoạt cho nhiều ứng dụng .NET khác nhau.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?  
- Bạn có thể khám phá tài liệu đầy đủ về[Trang tham khảo Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu đầy đủ về [Trang tham khảo Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

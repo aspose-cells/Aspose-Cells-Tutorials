@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ Hiểu biết cơ bản về lập trình Java, bao gồm sự quen thuộc vớ
 
 Aspose cung cấp nhiều tùy chọn cấp phép khác nhau:
 - **Dùng thử miễn phí**: Kiểm tra tính năng đầy đủ trong 30 ngày.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để đánh giá mở rộng.
+- **Giấy phép tạm thời**Xin giấy phép tạm thời để đánh giá mở rộng.
 - **Mua giấy phép**: Mua giấy phép vĩnh viễn để sử dụng không hạn chế.
 
 Thăm nom [Trang mua hàng của Aspose](https://purchase.aspose.com/buy) để tìm hiểu thêm về các tùy chọn cấp phép.
@@ -198,6 +200,9 @@ Các bước tiếp theo bao gồm khám phá các tính năng bổ sung của A
 Hãy bắt đầu hành trình cùng Aspose.Cells for Java ngay hôm nay và khai thác toàn bộ tiềm năng của công cụ xử lý tệp Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

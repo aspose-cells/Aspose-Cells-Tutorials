@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aby zoptymalizować wydajność podczas korzystania z Aspose.Cells:
 W tym samouczku nauczyłeś się, jak tworzyć i stylizować dokumenty Excela za pomocą Aspose.Cells for Java. Opanowując te techniki, możesz znacznie zwiększyć zdolność swojej aplikacji do wydajnego obsługiwania złożonych zadań arkusza kalkulacyjnego.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

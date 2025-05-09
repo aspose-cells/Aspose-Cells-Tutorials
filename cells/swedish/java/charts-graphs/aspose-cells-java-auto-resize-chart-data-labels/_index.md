@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ public class InitializeAspose {
         // Skapa en ny arbetsboksinstans eller öppna en befintlig
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Spara den ändrade Excel-filen
+        // Spara den modifierade Excel-filen
         workbook.save("output/path/output_file.xlsx");
     }
 }
@@ -204,6 +206,9 @@ Nästa steg kan innefatta att utforska andra alternativ för anpassning av diagr
 Utforska dessa resurser för att fördjupa din förståelse och dina färdigheter med Aspose.Cells Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

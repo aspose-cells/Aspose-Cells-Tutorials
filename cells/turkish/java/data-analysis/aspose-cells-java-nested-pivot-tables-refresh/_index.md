@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Bu kılavuzda, Java için Aspose.Cells kullanarak iç içe geçmiş pivot tablol
 Bu kapsamlı kılavuzu takip ederek, Java için Aspose.Cells'i kullanarak karmaşık Excel veri yönetimi görevlerinin üstesinden gelmek için iyi bir donanıma sahip olacaksınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

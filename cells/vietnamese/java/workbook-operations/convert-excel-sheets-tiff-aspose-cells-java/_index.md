@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - Hiểu biết về các hoạt động I/O tệp trong Java
 #### Thiết lập Aspose.Cells cho Java
 Sau khi môi trường đã sẵn sàng và các phụ thuộc đã được thêm vào, hãy thiết lập Aspose.Cells.
-**Các bước xin cấp giấy phép:**
+**Các bước xin cấp phép:**
 Để sử dụng Aspose.Cells đầy đủ, hãy cân nhắc việc mua giấy phép. Bắt đầu bằng bản dùng thử miễn phí hoặc mua giấy phép tạm thời để đánh giá khả năng của nó:
 - **Dùng thử miễn phí:** Ghé thăm [Trang tải xuống Aspose](https://releases.aspose.com/cells/java/) để bắt đầu nhanh chóng.
 - **Giấy phép tạm thời:** Nhận một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá mở rộng.
@@ -161,6 +163,9 @@ Bước tiếp theo, hãy cân nhắc khám phá các tính năng nâng cao hơn
 - **Diễn đàn hỗ trợ**: [Cộng đồng hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

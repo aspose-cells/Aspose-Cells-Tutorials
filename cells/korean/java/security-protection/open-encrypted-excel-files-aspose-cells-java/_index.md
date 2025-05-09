@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,11 +166,14 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면 다음 사항�
 
 - **선적 서류 비치:** 자세한 API 참조를 살펴보세요. [Aspose 문서](https://reference.aspose.com/cells/java/).
 - **다운로드:** 최신 라이브러리 버전을 받으세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
-- **구입:** 전체 액세스를 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+- **구입:** 전체 액세스를 위해서는 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 - **무료 체험:** 무료 체험판을 통해 아무런 조건 없이 기능을 체험해 보세요.
 - **지원하다:** 도움과 토론을 원하시면 Aspose 커뮤니티의 지원 포럼에 가입하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

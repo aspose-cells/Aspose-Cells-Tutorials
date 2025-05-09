@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Carica solo i fogli di lavoro necessari o usa le API di streaming per elabora
 UN:** Assicuratevi che gli indici e le posizioni siano impostati correttamente per evitare errori di calcolo. Testate sempre le vostre configurazioni con dati di esempio prima di applicarle alle cartelle di lavoro di produzione.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Thực hiện theo các bước sau để bắt đầu sử dụng Aspose.Cells:
    Sử dụng Maven hoặc Gradle như minh họa ở trên.
 
 2. **Mua giấy phép:**
-   - Để dùng thử miễn phí, hãy truy cập [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/) và tải xuống thư viện.
+   - Để dùng thử miễn phí, hãy truy cập [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/) và tải thư viện xuống.
    - Nhận giấy phép tạm thời để truy cập đầy đủ tính năng tại [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
    - Mua giấy phép thương mại từ [Mua Aspose.Cells](https://purchase.aspose.com/buy) nếu cần thiết rộng rãi.
 
@@ -174,7 +176,7 @@ Bạn có thể tùy chỉnh phông chữ, màu nền và đường viền để
   StyleFlag flag = new StyleFlag();
   ```
 
-- **Áp dụng kiểu đã cấu hình bằng cách sử dụng cờ:**
+- **Áp dụng kiểu đã cấu hình bằng cờ:**
   
   ```java
   flag.setFontName(true);
@@ -229,6 +231,9 @@ Các `save` phương pháp này ghi sổ làm việc của bạn vào một tệ
 Bằng cách làm theo hướng dẫn này, giờ đây bạn đã có kỹ năng quản lý sổ làm việc Excel theo chương trình bằng Aspose.Cells for Java. Công cụ mạnh mẽ này hợp lý hóa các tác vụ phức tạp và nâng cao năng suất khi xử lý các tệp Excel. Tiếp tục khám phá các tính năng của nó để cải thiện hơn nữa quy trình quản lý dữ liệu của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

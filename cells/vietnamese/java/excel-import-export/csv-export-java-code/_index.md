@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất CSV Mã Java
@@ -94,9 +96,11 @@ Xin chúc mừng! Bạn đã học cách xuất dữ liệu sang định dạng 
    Truy cập tài liệu Aspose.Cells [đây](https://reference.aspose.com/cells/java/) để có tài nguyên và ví dụ đầy đủ.
 
 Hãy thoải mái khám phá thêm và điều chỉnh mã này cho phù hợp với nhu cầu cụ thể của bạn. Chúc bạn viết mã vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

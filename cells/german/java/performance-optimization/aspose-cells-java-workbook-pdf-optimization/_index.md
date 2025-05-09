@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,6 +186,9 @@ Durch die Integration dieser Funktionen verbessern Sie die Fähigkeit Ihrer Java
 Begeben Sie sich mit Aspose.Cells für Java auf Ihre Reise und schöpfen Sie das volle Potenzial der Excel-Dateiverwaltung aus.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

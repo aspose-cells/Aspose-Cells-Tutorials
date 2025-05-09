@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@
 </dependency>
 ```
 ### ग्रेडेल स्थापना
-Gradle का उपयोग करने वाले लोग इसे अपने में शामिल करें `build.gradle` फ़ाइल:
+जो लोग Gradle का उपयोग कर रहे हैं, वे इसे अपने में शामिल करें `build.gradle` फ़ाइल:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -176,6 +178,9 @@ Java के लिए Aspose.Cells के अपने उपयोग को �
 - **डाउनलोड:** Java के लिए Aspose.Cells का नवीनतम संस्करण उनकी आधिकारिक साइट से प्राप्त करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

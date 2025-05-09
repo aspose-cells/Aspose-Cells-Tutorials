@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ wb.save(outDir + "/outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx");
 يُزوِّدك هذا الدليل الشامل بالمعرفة اللازمة لاستخدام Aspose.Cells في Java، مما يُبسِّط مهام إدارة بياناتك من خلال الأتمتة. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

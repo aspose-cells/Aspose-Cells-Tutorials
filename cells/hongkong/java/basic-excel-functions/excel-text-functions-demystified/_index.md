@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 文字函數揭秘
@@ -20,7 +22,7 @@
 
 ## 入門
 
-在開始之前，請確保您已安裝 Aspose.Cells for Java。你可以下載 [這裡](https://releases.aspose.com/cells/java/)。設定完成後，讓我們深入了解 Excel 文字函數的迷人世界。
+在開始之前，請確保您已安裝 Aspose.Cells for Java。你可以下載它 [這裡](https://releases.aspose.com/cells/java/)。設定完成後，讓我們深入了解 Excel 文字函數的迷人世界。
 
 ## CONCATENATE - 合併文本
 
@@ -174,9 +176,11 @@ cell.setFormula("=UPPER(A4)");
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

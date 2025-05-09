@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A: Bekijk geheugengebruikspatronen en optimaliseer je code om grote datasets eff
 Door deze handleiding te volgen, bent u nu in staat om uw Excel-spreadsheets te verbeteren met aangepaste vormen met Aspose.Cells voor Java. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

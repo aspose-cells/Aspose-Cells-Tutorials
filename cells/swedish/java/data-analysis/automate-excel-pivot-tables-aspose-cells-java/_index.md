@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0); // Åtkomst till det för
 - Hämta det första arbetsbladet med hjälp av `getWorksheets().get(0)`, vilket returnerar en `Worksheet` objekt.
 ### Arbeta med pivottabeller (H2)
 #### Översikt
-Det här avsnittet behandlar hur man öppnar och manipulerar pivottabeller i ett Excel-kalkylblad.
+Det här avsnittet behandlar åtkomst till och manipulering av pivottabeller i ett Excel-kalkylblad.
 ##### Steg 1: Åtkomst till den första pivottabellen
 ```java
 import com.aspose.cells.PivotTable;
@@ -157,7 +159,7 @@ den här handledningen har vi utforskat hur Aspose.Cells för Java avsevärt kan
 - Experimentera med olika arbetsboksfunktioner
 - Integrera Aspose.Cells i större projekt
 Redo att prova det? Dyk ner i [Aspose.Cells-dokumentation](https://reference.aspose.com/cells/java/) för fler insikter!
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 1. **Hur installerar jag Aspose.Cells i mitt Java-projekt?**
    - Använd Maven- eller Gradle-beroendet som visas ovan.
 2. **Kan jag formatera flera celler samtidigt?**
@@ -177,6 +179,9 @@ Redo att prova det? Dyk ner i [Aspose.Cells-dokumentation](https://reference.asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Regroupement de données dans des tableaux croisés dynamiques
@@ -108,9 +110,11 @@ Vous pouvez personnaliser le regroupement des données dans un tableau croisé d
 ### 3. Puis-je automatiser la création de tableaux croisés dynamiques à l'aide d'Aspose.Cells pour Java ?
 
 Oui, vous pouvez automatiser la création de tableaux croisés dynamiques dans Excel à l’aide d’Aspose.Cells pour Java, comme démontré dans les exemples de code source fournis.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

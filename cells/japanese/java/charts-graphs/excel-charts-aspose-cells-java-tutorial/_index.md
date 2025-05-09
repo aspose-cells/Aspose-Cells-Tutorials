@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 1. **無料トライアル:** 無料トライアルをダウンロードするには、 [Aspose ウェブサイト](https://releases。aspose.com/cells/java/).
 2. **一時ライセンス:** 評価制限なしで全機能にアクセスできる一時ライセンスを取得するには、 [このリンク](https://purchase。aspose.com/temporary-license/).
-3. **購入：** 実稼働環境での使用には、ライセンスをご購入ください。 [Asposeの購入ページ](https://purchase。aspose.com/buy).
+3. **購入：** 実稼働環境での使用には、ライセンスを購入してください。 [Asposeの購入ページ](https://purchase。aspose.com/buy).
 
 ### 基本的な初期化とセットアップ
 
@@ -225,6 +227,9 @@ A4: 定義済みのスタイル識別子を使用するか、API のスタイル
 A5: データ範囲を最適化し、グラフの複雑さを最小限に抑え、不要なオブジェクトを破棄することでメモリを効果的に管理します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

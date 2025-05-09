@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@ Bạn sẽ cần Aspose.Cells for Java để quản lý dữ liệu bảng tính
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 1. **Dùng thử miễn phí**: Nhận giấy phép dùng thử miễn phí để khám phá các tính năng của Aspose.Cells.
 2. **Giấy phép tạm thời**: Nộp đơn xin cấp giấy phép tạm thời trên trang web của họ nếu cần.
 3. **Mua**: Hãy cân nhắc mua gói đăng ký sau khi đánh giá chức năng của nó.
@@ -143,6 +145,9 @@ A5: Bạn có thể bắt đầu bằng bản dùng thử miễn phí nhưng ph�
 - **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

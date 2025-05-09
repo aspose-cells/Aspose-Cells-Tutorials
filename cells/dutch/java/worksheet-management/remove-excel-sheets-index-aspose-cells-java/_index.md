@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,6 +137,9 @@ Voor uitgebreidere handleidingen en documentatie:
 We hopen dat deze tutorial je helpt om het volledige potentieel van Aspose.Cells voor Java te benutten bij je databeheertaken. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

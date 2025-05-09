@@ -1,14 +1,16 @@
 ---
-title: Excel'deki Yerleşik İşlevleri Kullanarak Verileri İşleme
-linktitle: Excel'deki Yerleşik İşlevleri Kullanarak Verileri İşleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET ile Excel'deki yerleşik işlevleri kullanarak verileri nasıl işleyeceğinizi keşfedin. Kolay otomasyon için adım adım bir öğreticiyi izleyin.
-weight: 18
-url: /tr/net/excel-formulas-and-calculation-options/processing-data-using-built-in-functions/
+"description": "Aspose.Cells for .NET ile Excel'deki yerleşik işlevleri kullanarak verileri nasıl işleyeceğinizi keşfedin. Kolay otomasyon için adım adım bir öğreticiyi izleyin."
+"linktitle": "Excel'deki Yerleşik İşlevleri Kullanarak Verileri İşleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'deki Yerleşik İşlevleri Kullanarak Verileri İşleme"
+"url": "/tr/net/excel-formulas-and-calculation-options/processing-data-using-built-in-functions/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'deki Yerleşik İşlevleri Kullanarak Verileri İşleme
@@ -18,7 +20,7 @@ Excel, kullanıcıların sadece birkaç tıklamayla karmaşık hesaplamalar yapm
 ## Ön koşullar
 Excel maceramıza başlamadan önce, sorunsuz bir şekilde ilerleyebilmeniz için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 1. .NET Framework: Bilgisayarınızda .NET framework'ün yüklü olduğundan emin olun. .NET için Aspose.Cells burada mükemmel çalışır.
-2.  Aspose.Cells for .NET: Aspose.Cells'in en son sürümünü şu adresten indirin:[indirme bağlantısı](https://releases.aspose.com/cells/net/) Ayrıca şuraya da erişebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) Özellikleri keşfetmek için.
+2. .NET için Aspose.Cells: Aspose.Cells'in en son sürümünü şu adresten indirin: [indirme bağlantısı](https://releases.aspose.com/cells/net/)Ayrıca şuraya da erişebilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) Özellikleri keşfetmek için.
 3. Visual Studio: .NET'te kodlama yapmak için bir IDE şarttır; kapsamlı araçları nedeniyle Visual Studio önerilir.
 4. Temel C# Bilgisi: C# programlama diline aşina olmak, kodda hızlı bir şekilde gezinmenize yardımcı olacaktır.
 Hazır mısınız? Harika! Excel entegrasyonlarıyla verileri analiz etmeye başlayabilmeniz için çalışma alanınızı ayarlayalım!
@@ -27,9 +29,9 @@ Kodlamaya başlamadan önce, gerekli Aspose.Cells paketlerini projemize aktarmal
 ## Adım 1: Yeni Bir Proje Oluşturun
 1. Visual Studio'yu açın ve "Yeni proje oluştur" seçeneğini seçin.
 2. "Konsol Uygulaması (.NET Framework)" seçeneğini seçin ve "İleri"ye tıklayın.
-3.  Projenize bir isim verin (adını koyalım)`ExcelDataProcessor`) ve "Oluştur"a tıklayın.
+3. Projenize bir isim verin (adını koyalım) `ExcelDataProcessor`) ve "Oluştur"a tıklayın.
 ## Adım 2: NuGet aracılığıyla Aspose.Cells'i ekleyin
--  Çözüm Gezgini'nde projenize sağ tıklayın, "NuGet Paketlerini Yönet" seçeneğini seçin ve şunu arayın:`Aspose.Cells`.
+- Çözüm Gezgini'nde projenize sağ tıklayın, "NuGet Paketlerini Yönet" seçeneğini seçin ve şunu arayın: `Aspose.Cells`.
 - Paketi kurun ve artık hazırsınız!
 ```csharp
 using System.IO;
@@ -46,14 +48,14 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);
 ```
- Bu kod parçacığında şunu değiştirin:`"Your Document Directory"` Excel dosyasının kaydedileceği istediğiniz yol ile. Dizin yoksa, dosyamızı saklamak için bir tane oluştururuz. El işçiliğine başlamadan önce temiz bir atölye kurmak gibi!
+Bu kod parçacığında şunu değiştirin: `"Your Document Directory"` Excel dosyasının kaydedileceği istediğiniz yol ile. Dizin yoksa, dosyamızı saklamak için bir tane oluştururuz. El işçiliğine başlamadan önce temiz bir atölye kurmak gibi!
 ## Adım 2: Bir Çalışma Kitabı Oluşturun 
 Şimdi yeni bir Excel çalışma kitabı oluşturalım.
 ```csharp
 // Bir Çalışma Kitabı nesnesi örneği oluşturun
 Workbook workbook = new Workbook();
 ```
- Bir örneği oluşturduğunuzda`Workbook`aslında verileriniz için boş bir tuval yaratıyorsunuz. Bunu, önemli hesaplamaları not edeceğiniz yeni bir not defteri açmak olarak düşünün.
+Bir örneği oluşturduğunuzda `Workbook`, aslında verileriniz için boş bir tuval yaratıyorsunuz. Bunu, önemli hesaplamaları not edeceğiniz yeni bir not defteri açmak olarak düşünün.
 ## Adım 3: Bir Çalışma Sayfası Ekleyin
 Artık çalışma kitabımız hazır, şimdi verilerimizin yer alacağı bir çalışma sayfası ekleyelim.
 ```csharp
@@ -62,7 +64,7 @@ int sheetIndex = workbook.Worksheets.Add();
 // Yeni eklenen çalışma sayfasının referansını edinin
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
-Burada, çalışma kitabımıza yeni bir çalışma sayfası ekliyoruz. Her çalışma sayfası, farklı hesaplamalar yapabileceğiniz veya farklı veri kümelerini izleyebileceğiniz not defterinizde ayrı bir sayfa olarak düşünülebilir.
+Burada, çalışma kitabımıza yeni bir çalışma sayfası ekliyoruz. Her çalışma sayfası, farklı hesaplamalar yapabileceğiniz veya farklı veri kümelerini izleyebileceğiniz not defterinizdeki ayrı bir sayfa olarak düşünülebilir.
 ## Adım 4: Hücrelere Veri Ekleme
 Şimdi biraz veri doldurmanın zamanı geldi! Daha sonra toplayacağımız sayıları ekleyelim.
 ```csharp
@@ -92,7 +94,7 @@ Formül hesaplandıktan sonra o değeri alalım!
 // A4 hücresinin hesaplanan değerini al
 string value = worksheet.Cells["A4"].Value.ToString();
 ```
- Şimdi, SUM işlemimizin sonucu şurada saklanır:`value` değişken. Bu, hesaplamanızın çıktısını kağıt üzerinde kontrol etmek gibi!
+Şimdi, SUM işlemimizin sonucu şurada saklanır: `value` değişken. Bu, hesaplamanızın çıktısını kağıt üzerinde kontrol etmek gibi!
 ## Adım 8: Çalışma Kitabını Kaydedin 
 Son olarak, şaheserimizi kurtarmamız gerekiyor!
 ```csharp
@@ -106,16 +108,18 @@ Bu, yeni oluşturduğunuz Excel çalışma kitabınızı belirtilen dizine "outp
 ### Aspose.Cells for .NET nedir?
 Aspose.Cells for .NET, geliştiricilerin .NET uygulamaları içerisinde Excel dosyaları oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan kapsamlı bir kütüphanedir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Şunu kullanabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) satın almadan önce işlevleri keşfetmek için.
+Evet! Şunu kullanabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) satın almadan önce işlevleri keşfetmek için.
 ### Aspose.Cells için dokümanları nerede bulabilirim?
- Tam dokümantasyona buradan ulaşabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Tam dokümantasyona buradan ulaşabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells'i kullanmak için Excel'i yüklemem gerekiyor mu?
 Hayır, Aspose.Cells Microsoft Excel'den bağımsız olarak çalışır.
 ### Aspose.Cells ile ilgili bir sorguyu nasıl destekleyebilirim?
- Sorularınızı şuraya yazabilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+Sorularınızı şuraya yazabilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

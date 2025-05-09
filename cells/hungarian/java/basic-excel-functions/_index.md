@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alapvető Excel-függvények
@@ -17,7 +19,7 @@
 
 A táblázatkezelés világában az alapvető Excel-függvények ismerete a hatékony adatfeldolgozás alapja. Az Aspose.Cells for Java segítségével elmerülhetsz ebben a nélkülözhetetlen tudásban. Ebben az oktatóanyag-sorozatban végigvezetünk az alapvető Excel-függvényeken, felvértezve Önt a táblázatokkal való hatékony munkához szükséges készségekkel.
 
-## Az Aspose.Cells Java-beli használatának megkezdése:
+## Az Aspose.Cells Java-beli használatának első lépései:
 
 Mielőtt belemerülnénk az Excel függvényekbe, kezdjük a fejlesztői környezet beállításával az Aspose.Cells for Java segítségével. Győződjön meg arról, hogy a függvénykönyvtár integrálva van a Java projektjébe. Ha ez megtörtént, készen áll arra, hogy kihasználja az Aspose.Cells erejét az Excel műveletek széles skálájának végrehajtásához.
 
@@ -48,9 +50,11 @@ Fedezd fel a MIN függvény erejét Excelben az Aspose.Cells for Java segítség
 Fedezd fel az Excel szövegfüggvényeinek titkait az Aspose.Cells for Java segítségével. Tanuld meg, hogyan manipulálhatod, kinyerheted és átalakíthatod a szöveget Excelben könnyedén.
 ### [Excel dátumfüggvények bemutatója](./excel-date-functions-tutorial/)
 Tanulj dátumfüggvényeket az Excelben az Aspose.Cells for Java használatával. Fedezz fel lépésről lépésre szóló oktatóanyagokat forráskóddal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

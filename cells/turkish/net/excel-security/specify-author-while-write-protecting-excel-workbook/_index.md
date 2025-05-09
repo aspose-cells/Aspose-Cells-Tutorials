@@ -1,21 +1,23 @@
 ---
-title: Excel Çalışma Kitabını Korurken Yazarı Belirleyin
-linktitle: Excel Çalışma Kitabını Korurken Yazarı Belirleyin
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzda, Aspose.Cells for .NET kullanarak bir yazar belirlerken Excel çalışma kitabınızı nasıl yazacağınızı ve koruyacağınızı öğrenin.
-weight: 30
-url: /tr/net/excel-security/specify-author-while-write-protecting-excel-workbook/
+"description": "Bu adım adım kılavuzda, Aspose.Cells for .NET kullanarak bir yazar belirlerken Excel çalışma kitabınızı nasıl yazacağınızı ve koruyacağınızı öğrenin."
+"linktitle": "Excel Çalışma Kitabını Yazma Sırasında Yazarı Belirleme"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Çalışma Kitabını Yazma Sırasında Yazarı Belirleme"
+"url": "/tr/net/excel-security/specify-author-while-write-protecting-excel-workbook/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel Çalışma Kitabını Korurken Yazarı Belirleyin
+# Excel Çalışma Kitabını Yazma Sırasında Yazarı Belirleme
 
 ## giriiş
 
-.NET uygulamalarında Excel dosyalarıyla çalışmaya gelince, Aspose.Cells birçok geliştirici için başvurulacak bir çözümdür. Zengin işlevsellik seti, Excel dosyalarını kolayca oluşturmanıza, düzenlemenize ve güvence altına almanıza olanak tanır. Geliştiricilerin karşılaştığı yaygın gereksinimlerden biri, yetkisiz düzenlemelere karşı korunduğundan emin olarak bir Excel çalışma kitabına yazmaktır. Ayrıca, bir yazar belirtmek, belgeyi paylaşırken izleme amaçları için inanılmaz derecede yararlı olabilir. Bu kılavuzda, .NET için Aspose.Cells kullanarak bir Excel çalışma kitabını yazarken koruma altına alırken yazarı nasıl belirtebileceğinizi derinlemesine inceleyeceğiz.
+.NET uygulamalarında Excel dosyalarıyla çalışma söz konusu olduğunda, Aspose.Cells birçok geliştirici için başvurulacak bir çözümdür. Zengin işlevsellik seti, Excel dosyalarını kolayca oluşturmanıza, düzenlemenize ve güvence altına almanıza olanak tanır. Geliştiricilerin karşılaştığı yaygın gereksinimlerden biri, yetkisiz düzenlemelere karşı korunduğundan emin olarak bir Excel çalışma kitabına yazmaktır. Ayrıca, bir yazar belirtmek, belgeyi paylaşırken izleme amaçları için inanılmaz derecede yararlı olabilir. Bu kılavuzda, .NET için Aspose.Cells kullanarak bir Excel çalışma kitabını yazarken korurken yazarı nasıl belirtebileceğinizi derinlemesine inceleyeceğiz.
 
 ## Ön koşullar
 
@@ -23,7 +25,7 @@ Uygulamanın inceliklerine dalmadan önce sağlam bir temele sahip olmak önemli
 
 1. Visual Studio: Çalışan bir Visual Studio kurulumuna ihtiyacınız var. .NET kodunuzu burada yazacak ve derleyeceksiniz.
 2. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells çeşitli sürümleri destekler, bu nedenle uygulamanıza uygun olanı seçin.
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan alabilirsiniz:[resmi indirme sayfası](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan alabilirsiniz: [resmi indirme sayfası](https://releases.aspose.com/cells/net/).
 4. C# Temel Anlayışı: C# ile aşinalık, kodlama sürecinde zahmetsizce ilerlemenize yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -51,7 +53,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR SOURCE DIRECTORY"` Ve`"YOUR OUTPUT DIRECTORY"` makinenizde gerçek yollarla. Bunu, şaheserinizi yaratmaya başlamadan önce düzenli bir çalışma alanı oluşturmak olarak düşünün!
+Değiştirdiğinizden emin olun `"YOUR SOURCE DIRECTORY"` Ve `"YOUR OUTPUT DIRECTORY"` makinenizde gerçek yollarla. Bunu, şaheserinizi yaratmaya başlamadan önce düzenli bir çalışma alanı oluşturmak olarak düşünün!
 
 ## Adım 2: Boş bir Çalışma Kitabı Oluşturun
 
@@ -69,11 +71,11 @@ Tıpkı bir sanatçının boş bir tuvalle işe başlaması gibi, siz de daha so
 Yazma koruması, özellikle verilerinizin bütünlüğünün bozulmadan kalmasını sağlamak istiyorsanız, önemli bir husustur. Bunu bir parola ile yapabilirsiniz.
 
 ```csharp
-//Çalışma kitabını parola ile yazmaya karşı koruyun.
+// Çalışma kitabını parola ile yazmaya karşı koruyun.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
- Bu satırda şunu değiştirin:`"YOUR_PASSWORD"` seçtiğiniz güçlü bir parola ile. Bu parola kilitli bir kapı gibi davranır—sadece anahtara (parolaya) sahip olanlar girebilir.
+Bu satırda şunu değiştirin: `"YOUR_PASSWORD"` seçtiğiniz güçlü bir parola ile. Bu parola kilitli bir kapı gibi davranır—sadece anahtara (parolaya) sahip olanlar girebilir.
 
 ## Adım 4: Yazarı Belirleyin
 
@@ -84,7 +86,7 @@ wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR_AUTHOR"` Belgeyle ilişkilendirmek istediğiniz adla. Bunu sanat eserinizi imzalamak gibi düşünün; bu, insanların bu eser için kime teşekkür etmeleri gerektiğini bilmelerini sağlar!
+Değiştirdiğinizden emin olun `"YOUR_AUTHOR"` Belgeyle ilişkilendirmek istediğiniz adla. Bunu sanat eserinizi imzalamak gibi düşünün; bu, insanların bu eser için kime teşekkür etmeleri gerektiğini bilmelerini sağlar!
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
@@ -95,7 +97,7 @@ Son adım çalışma kitabını istenilen formatta kaydetmektir. Bu durumda, onu
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Burada çıktı dosyası, belirtilen çıktı dizininize şu adla kaydedilecektir:`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`İşte tam burada sıkı çalışmanızın karşılığını almış oluyorsunuz ve çalışma kitabınızı iyi korunduğunu bilerek başkalarıyla paylaşabiliyorsunuz!
+Burada, çıktı dosyası belirtilen çıktı dizininize şu adla kaydedilecektir: `outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`İşte tam da bu noktada sıkı çalışmanızın karşılığını almış oluyorsunuz ve çalışma kitabınızı iyi korunduğunu bilerek başkalarıyla paylaşabiliyorsunuz!
 
 ## Çözüm
 
@@ -104,22 +106,24 @@ Ve işte karşınızda! Bir Excel çalışma kitabı oluşturmayı, bir parola i
 ## SSS
 
 ### Yazma koruması için parolayı özelleştirebilir miyim?  
- Evet, şifreyi ihtiyaçlarınıza göre özelleştirebilirsiniz. Sadece değiştirin`YOUR_PASSWORD` İstediğiniz şifreyle.
+Evet, şifreyi ihtiyaçlarınıza göre özelleştirebilirsiniz. Sadece değiştirin `YOUR_PASSWORD` İstediğiniz şifreyle.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
- Aspose.Cells ücretli bir kütüphanedir, ancak sınırlı süreli denemeyle ücretsiz deneyebilirsiniz. Ziyaret edin[Ücretsiz deneme bağlantısı](https://releases.aspose.com/) Başlamak için.
+Aspose.Cells ücretli bir kütüphanedir, ancak sınırlı süreli denemeyle ücretsiz deneyebilirsiniz. Ziyaret edin [Ücretsiz deneme bağlantısı](https://releases.aspose.com/) Başlamak için.
 
 ### Aspose.Cells kütüphanesini nasıl satın alabilirim?  
- Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.Cells'i şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
 
 ### Bu yaklaşımı web uygulamalarımda kullanabilir miyim?  
 Kesinlikle! Aspose.Cells, .NET kullanan hem masaüstü hem de web uygulamalarında sorunsuz bir şekilde çalışır.
 
 ### Desteğe ihtiyacım olursa ne yapmalıyım?  
- Sorularınız ve sorun giderme için Aspose topluluğu çok yardımcı olur. Onların sitesini ziyaret edebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+Sorularınız ve sorun giderme için Aspose topluluğu çok yardımcı olur. Onların sitesini ziyaret edebilirsiniz [destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

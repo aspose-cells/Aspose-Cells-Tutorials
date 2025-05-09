@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Aquisição de Licença
 - **Teste grátis**: Comece com um teste gratuito para explorar o Aspose.Cells.
-- **Licença Temporária**: Obtenha uma licença temporária para avaliação estendida.
+- **Licença Temporária**Obtenha uma licença temporária para avaliação estendida.
 - **Comprar**:Para uso a longo prazo, adquira uma licença comercial.
 
 #### Inicialização básica
@@ -168,7 +170,7 @@ try {
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**:Para arquivos XML grandes, use `BufferedReader` para reduzir o consumo de memória.
+- **Otimizar o uso da memória**:Para arquivos XML grandes, use `BufferedReader` para reduzir o consumo de memória.
 - **Análise Eficiente**: Prefira analisadores de streaming como SAX para documentos muito grandes.
 - **Melhores Práticas**: Atualize regularmente o Aspose.Cells para se beneficiar de melhorias de desempenho e correções de bugs.
 
@@ -203,6 +205,9 @@ Experimente estruturas XML mais complexas ou outros formatos suportados pelo Asp
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stapelverarbeitung in Excel
@@ -109,9 +111,11 @@ Die Automatisierung der Excel-Batchverarbeitung mit Aspose.Cells für Java verei
    Erkunden Sie die API-Dokumentation unter [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) für ausführliche Informationen und Beispiele.
 
 Optimieren Sie Ihre Excel-Batchverarbeitungsaufgaben und steigern Sie die Produktivität mit Aspose.Cells für Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ ImageIO.write(img1, "jpg", new File(dataDir + "/GTOfWorksheet_out.jpg"));
 تعرف بشكل أعمق على Aspose.Cells وابدأ في تصدير جداول Excel الخاصة بك كصور اليوم!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

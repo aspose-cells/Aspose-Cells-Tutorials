@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ workbook.save(outDir + "/ThreadedCommentsSample_Out.xlsx");
    - Τοποθετήστε μόνο τα απαραίτητα φύλλα και βελτιστοποιήστε τη χρήση μνήμης επεξεργάζοντας δεδομένα σε τμήματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

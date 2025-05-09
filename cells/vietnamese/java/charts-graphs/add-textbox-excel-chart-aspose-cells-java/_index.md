@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đ�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-- **Thư viện bắt buộc:** Aspose.Cells cho Java phiên bản 25.3 trở lên. Hướng dẫn này sử dụng thiết lập Maven và Gradle.
+- **Thư viện cần thiết:** Aspose.Cells cho Java phiên bản 25.3 trở lên. Hướng dẫn này sử dụng thiết lập Maven và Gradle.
 - **Thiết lập môi trường:** Bộ công cụ phát triển Java (JDK) tương thích được cài đặt trên máy của bạn.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với cấu trúc tệp Excel.
 
@@ -148,7 +150,7 @@ lineformat.setDashStyle(MsoLineDashStyle.SOLID);
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Bước 8: Lưu Workbook
+#### Bước 8: Lưu sổ làm việc
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
@@ -204,6 +206,9 @@ Chúng tôi đã hướng dẫn cách thêm TextBox vào biểu đồ Excel bằ
 Bằng cách làm theo hướng dẫn này, bạn có thể tích hợp Aspose.Cells một cách hiệu quả vào các dự án Java của mình để tăng cường chức năng biểu đồ Excel với chú thích văn bản tùy chỉnh. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

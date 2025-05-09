@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ public class SaveWorkbook {
 Ακολουθώντας αυτόν τον ολοκληρωμένο οδηγό, θα πρέπει να είστε σε καλό δρόμο για να αξιοποιήσετε τις ισχυρές δυνατότητες του Aspose.Cells για Java στα έργα σας που βασίζονται σε δεδομένα. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

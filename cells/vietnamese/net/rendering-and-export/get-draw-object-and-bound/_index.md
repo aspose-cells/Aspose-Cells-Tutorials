@@ -1,14 +1,16 @@
 ---
-title: Vẽ ranh giới đối tượng với Aspose.Cells
-linktitle: Vẽ ranh giới đối tượng với Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách trích xuất ranh giới đối tượng vẽ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện của chúng tôi.
-weight: 15
-url: /vi/net/rendering-and-export/get-draw-object-and-bound/
+"description": "Khám phá cách trích xuất ranh giới đối tượng vẽ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện của chúng tôi."
+"linktitle": "Vẽ ranh giới đối tượng với Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Vẽ ranh giới đối tượng với Aspose.Cells"
+"url": "/vi/net/rendering-and-export/get-draw-object-and-bound/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vẽ ranh giới đối tượng với Aspose.Cells
@@ -23,7 +25,7 @@ Bạn đã sẵn sàng để khám phá thế giới tạo, thao tác và trích
 Trước khi bắt đầu viết mã, bạn cần nắm được một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Bạn có thể sử dụng bất kỳ phiên bản nào bạn thích.
-2.  Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ[liên kết tải xuống](https://releases.aspose.com/cells/net/) . Một bản dùng thử miễn phí cũng có sẵn[đây](https://releases.aspose.com/).
+2. Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ [liên kết tải xuống](https://releases.aspose.com/cells/net/). Một bản dùng thử miễn phí cũng có sẵn [đây](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi. Nếu bạn là người mới, đừng lo lắng! Chúng tôi sẽ hướng dẫn bạn từng bước.
 
 Sau khi thiết lập xong môi trường, chúng ta sẽ chuyển sang các gói cần thiết.
@@ -49,7 +51,7 @@ Hãy chia nhỏ điều này thành các bước dễ quản lý. Chúng ta sẽ
 
 ## Bước 1: Tạo lớp xử lý sự kiện đối tượng vẽ
 
- Đầu tiên, bạn cần tạo một lớp mở rộng`DrawObjectEventHandler`. Lớp này sẽ xử lý các sự kiện vẽ và cho phép bạn trích xuất tọa độ của đối tượng.
+Đầu tiên, bạn cần tạo một lớp mở rộng `DrawObjectEventHandler`. Lớp này sẽ xử lý các sự kiện vẽ và cho phép bạn trích xuất tọa độ của đối tượng.
 
 ```csharp
 class clsDrawObjectEventHandler : DrawObjectEventHandler
@@ -75,8 +77,8 @@ class clsDrawObjectEventHandler : DrawObjectEventHandler
 }
 ```
 
--  Trong lớp này, chúng ta ghi đè`Draw` phương thức này được gọi bất cứ khi nào gặp phải đối tượng vẽ. 
--  Chúng tôi kiểm tra loại`DrawObject` . Nếu đó là một`Cell` , chúng tôi ghi lại vị trí và giá trị của nó. Nếu đó là một`Image`, chúng tôi ghi lại vị trí và tên của nó.
+- Trong lớp này, chúng ta ghi đè `Draw` phương thức này được gọi bất cứ khi nào gặp phải đối tượng vẽ. 
+- Chúng tôi kiểm tra loại `DrawObject`. Nếu đó là một `Cell`, chúng tôi ghi lại vị trí và giá trị của nó. Nếu đó là một `Image`, chúng tôi ghi lại vị trí và tên của nó.
 
 ## Bước 2: Thiết lập thư mục đầu vào và đầu ra
 
@@ -90,11 +92,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
--  Thay thế`"Your Document Directory"` với đường dẫn đến tài liệu thực tế của bạn. Đảm bảo bạn có một tệp Excel mẫu có tên`"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` được lưu trữ trong thư mục này.
+- Thay thế `"Your Document Directory"` với đường dẫn đến tài liệu thực tế của bạn. Đảm bảo bạn có một tệp Excel mẫu có tên `"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` được lưu trữ trong thư mục này.
 
 ## Bước 3: Tải tệp Excel mẫu
 
- Với các thư mục được thiết lập, bây giờ chúng ta có thể tải tệp Excel vào một phiên bản của`Workbook` lớp học.
+Với các thư mục được thiết lập, bây giờ chúng ta có thể tải tệp Excel vào một phiên bản của `Workbook` lớp học.
 
 ```csharp
 // Tải tệp Excel mẫu
@@ -114,7 +116,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## Bước 5: Chỉ định Trình xử lý sự kiện
 
- Điều quan trọng là phải chỉ định`DrawObjectEventHandler` thể hiện cho tùy chọn lưu PDF của chúng tôi. Bước này sẽ đảm bảo trình xử lý sự kiện tùy chỉnh của chúng tôi xử lý từng đối tượng bản vẽ.
+Điều quan trọng là phải chỉ định `DrawObjectEventHandler` thể hiện cho tùy chọn lưu PDF của chúng tôi. Bước này sẽ đảm bảo trình xử lý sự kiện tùy chỉnh của chúng tôi xử lý từng đối tượng bản vẽ.
 
 ```csharp
 // Gán thể hiện của lớp DrawObjectEventHandler
@@ -150,19 +152,21 @@ Và bạn đã có nó! Chỉ với một vài bước, bạn có thể vẽ ran
 Aspose.Cells là một thư viện mạnh mẽ được thiết kế để làm việc với các tệp Excel trong các ứng dụng .NET, cho phép tạo, chỉnh sửa và chuyển đổi bảng tính.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells [đây](https://releases.aspose.com/).
 
 ### Aspose.Cells hỗ trợ những định dạng tệp nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLSX, XLS, CSV, PDF, v.v.
 
 ### Tôi có thể tìm thêm ví dụ về cách sử dụng Aspose.Cells ở đâu?
- Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết trên trang web của họ tại[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá thêm các ví dụ và tài liệu chi tiết trên trang web của họ tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)nơi bạn có thể đặt câu hỏi và nhận được sự trợ giúp từ cộng đồng.
+Để được hỗ trợ, hãy truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và nhận được sự trợ giúp từ cộng đồng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

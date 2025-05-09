@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ Aby zoptymalizować wydajność:
 - Używać `LookAtType` I `LookInType` skutecznie ograniczając liczbę niepotrzebnych wyszukiwań.
 - Skutecznie zarządzaj wykorzystaniem pamięci Java, zwłaszcza podczas przetwarzania dużych plików Excela.
 ## Wniosek
-Wykorzystując `Aspose.Cells for Java`, możesz zautomatyzować zamianę tekstu w określonych zakresach komórek w programie Excel, co usprawni procesy zarządzania danymi. Ten samouczek zawiera przewodnik krok po kroku dotyczący konfiguracji i efektywnego wdrażania tej funkcji.
+Wykorzystując `Aspose.Cells for Java`, możesz zautomatyzować zamianę tekstu w określonych zakresach komórek w programie Excel, usprawniając procesy zarządzania danymi. Ten samouczek zawiera przewodnik krok po kroku dotyczący konfiguracji i efektywnego wdrażania tej funkcji.
 **Następne kroki:**
 - Poznaj dodatkowe funkcje Aspose.Cells
 - Eksperymentuj z różnymi scenariuszami wyszukiwania i zamiany
@@ -124,6 +126,9 @@ W celu dalszych eksploracji:
 W razie pytań odwiedź stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9). Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

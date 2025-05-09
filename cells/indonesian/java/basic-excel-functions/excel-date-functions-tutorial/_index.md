@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tutorial Fungsi Tanggal Excel
@@ -57,10 +59,10 @@ Sebelum kita dapat memulai pengkodean, kita perlu menyiapkan Aspose.Cells untuk 
 Mari kita mulai dengan contoh praktis tentang cara menggunakan fungsi DATE di Excel menggunakan Aspose.Cells untuk Java.
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Mengatur tanggal menggunakan fungsi DATE
@@ -78,10 +80,10 @@ System.out.println("Calculated Date: " + calculatedDate);
 Sekarang, mari kita jelajahi cara mengambil tanggal saat ini menggunakan fungsi TODAY dengan Aspose.Cells untuk Java.
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Gunakan fungsi TODAY untuk mendapatkan tanggal saat ini
@@ -99,10 +101,10 @@ System.out.println("Current Date: " + currentDate);
 Anda dapat menghitung perbedaan tanggal dengan mudah menggunakan fungsi DATEDIF di Excel. Berikut cara melakukannya menggunakan Aspose.Cells untuk Java.
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Tetapkan dua nilai tanggal
@@ -112,7 +114,7 @@ worksheet.getCells().get("A2").putValue("2023-08-01");
 // Hitung selisihnya menggunakan DATEDIF
 worksheet.getCells().get("A3").setFormula("=DATEDIF(A1, A2, \"d\")");
 
-// Dapatkan perbedaannya dalam beberapa hari
+// Dapatkan perbedaannya dalam hitungan hari
 int daysDifference = worksheet.getCells().get("A3").getIntValue();
 
 // Cetak hasilnya
@@ -124,10 +126,10 @@ System.out.println("Days Difference: " + daysDifference);
 Dengan Aspose.Cells untuk Java, Anda dapat dengan mudah menemukan akhir bulan untuk tanggal tertentu menggunakan fungsi EOMONTH.
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Tetapkan nilai tanggal
@@ -143,11 +145,11 @@ String endOfMonth = worksheet.getCells().get("A2").getStringValue();
 System.out.println("End of Month: " + endOfMonth);
 ```
 
-## Kesimpulan
+## Következtetés
 
 Tutorial ini telah memberikan gambaran umum yang komprehensif tentang fungsi tanggal Excel dan cara menggunakannya menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menyiapkan Aspose.Cells, menggunakan fungsi DATE, TODAY, DATEDIF, dan EOMONTH, serta melakukan perhitungan tanggal secara terprogram. Dengan pengetahuan ini, Anda dapat menyederhanakan tugas-tugas yang berkaitan dengan tanggal di Excel dan menyempurnakan aplikasi Java Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara memformat tanggal di Aspose.Cells untuk Java?
 
@@ -172,15 +174,16 @@ Aspose.Cells untuk Java sangat cocok untuk pemrosesan tanggal skala kecil dan be
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
-Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/).
 
 ### Bagaimana saya dapat memulai dengan Aspose.Cells untuk Java?
 
-Untuk memulai Aspose.Cells untuk Java, unduh pustaka dari [Di Sini](https://releases.aspose.com/cells/java/) dan lihat dokumentasi untuk instalasi dan
+Untuk memulai Aspose.Cells untuk Java, unduh pustaka dari [itt](https://releases.aspose.com/cells/java/) dan lihat dokumentasi untuk instalasi dan
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

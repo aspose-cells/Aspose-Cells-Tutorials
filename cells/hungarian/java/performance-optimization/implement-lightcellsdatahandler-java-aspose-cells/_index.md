@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ Ebben az útmutatóban megtanultad, hogyan kell megvalósítani `LightCellsDataH
 Ezt az útmutatót követve jó úton haladsz az Excel fájlok Java nyelvű, Aspose.Cells-szel történő feldolgozásának elsajátításához. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

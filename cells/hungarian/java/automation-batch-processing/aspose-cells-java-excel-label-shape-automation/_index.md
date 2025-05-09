@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Szeretnéd automatizálni az Excel munkafüzetek létrehozását Java használatával? Az Aspose.Cells for Java segítségével ez a feladat egyszerűvé és hatékonnyá válik. Ez az oktatóanyag végigvezet egy új munkafüzet létrehozásán, az első munkalap elérésén, a címke alakzatának hozzáadásán, testreszabásán és a végeredmény mentésén. Az útmutató végére megérted, hogyan használhatod az Aspose.Cells-t az Excel automatizálási feladataid fejlesztésére.
 
 **Amit tanulni fogsz:**
-- Hogyan hozhatok létre egy új Excel munkafüzetet az Aspose.Cells for Java használatával?
+- Hogyan hozhatok létre új Excel-munkafüzetet az Aspose.Cells for Java használatával?
 - Munkafüzeten belüli munkalapok elérése
 - Címkealakzatok hozzáadása és testreszabása a munkalapon
 - Címketulajdonságok, például szöveg, elhelyezési típus és kitöltési szín konfigurálása
@@ -178,7 +180,7 @@ Készen állsz a következő lépésre? Alkalmazd ezeket a technikákat a projek
 
 Használhatod a `addShape` metódust többször is, minden alakzathoz különböző paramétereket megadva.
 
-**2. Az Aspose.Cells hatékonyan tudja kezelni a nagyméretű Excel fájlokat?**
+**2. Az Aspose.Cells hatékonyan tudja kezelni a nagy Excel fájlokat?**
 
 Igen, teljesítményorientált, de nagyon nagy fájlok feldolgozásakor mindig figyelje a memóriahasználatot.
 
@@ -205,6 +207,9 @@ Látogatás [Aspose támogatói fóruma](https://forum.aspose.com/c/cells/9) seg
 Az útmutató követésével fontos lépést tettél az Excel automatizálásának elsajátítása felé az Aspose.Cells for Java segítségével. Fedezd fel és integráld ezeket a hatékony funkciókat az alkalmazásaidba!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

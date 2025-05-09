@@ -1,14 +1,16 @@
 ---
-title: HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama
-linktitle: HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz.
-weight: 21
-url: /tr/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/
+"description": "Aspose.Cells for .NET kullanarak HTML dışa aktarma sırasında tek bir sayfa sekmesi adını kolayca ayarlayın. Kod örnekleri içeren adım adım kılavuz."
+"linktitle": "HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama"
+"url": "/tr/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # HTML Dışa Aktarmada Tek Sayfa Sekme Adı Ayarlama
@@ -19,7 +21,7 @@ Günümüzün dijital dünyasında, çeşitli formatlardaki verileri işlemek ve
 Bu eğitimin özüne dalmadan önce, bunun sorunsuz bir şekilde çalışması için neye ihtiyacınız olduğunu ana hatlarıyla açıklayalım:
 ### Temel Yazılım
 - Microsoft Visual Studio: Kodumuzu yazıp çalıştıracağımız ortamı sağladığı için Visual Studio'nun yüklü olduğundan emin olun.
-- Aspose.Cells for .NET: Bu kütüphane projenizde referans alınmalıdır. Bunu şuradan indirebilirsiniz:[Aspose indirmeleri](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Bu kütüphane projenizde referans alınmalıdır. Bunu şuradan indirebilirsiniz: [Aspose indirmeleri](https://releases.aspose.com/cells/net/).
 ### Temel Anlayış
 - Temel C# programlamaya aşinalık çok önemlidir. Daha önce kodlamayla uğraştıysanız, kendinizi evinizde hissetmelisiniz. 
 ### Proje Kurulumu
@@ -31,7 +33,7 @@ Kodlamaya başlamadan önce gerekli paketleri içe aktarmamız gerekiyor. İşte
 ### Aspose.Cells'e Referans Ekle
 1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
 2. “NuGet Paketlerini Yönet” seçeneğini seçin.
-3.  Arama`Aspose.Cells` ve paketi kurun.
+3. Arama `Aspose.Cells` ve paketi kurun.
 4. Bu adım, Excel dosyalarıyla çalışmak için gerekli tüm kütüphanelere sahip olmanızı sağlar.
 ### Gerekli Ad Alanlarını Ekle
 Kod dosyanızın en üstüne aşağıdaki ad alanlarını ekleyin:
@@ -52,14 +54,14 @@ string sourceDir = "Your Document Directory";
 // Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
- Burada, değiştireceksiniz`"Your Document Directory"` dizinlerinize giden gerçek yol ile. Bu adımı bir oyun için sahneyi hazırlamak olarak düşünün—her şeyin doğru yerde olması gerekir!
+Burada, değiştireceksiniz `"Your Document Directory"` dizinlerinize giden gerçek yol ile. Bu adımı bir oyun için sahneyi hazırlamak olarak düşünün—her şeyin doğru yerde olması gerekir!
 ## Adım 2: Çalışma Kitabınızı Yükleyin
 Şimdi dışarı aktarmak istediğimiz çalışma kitabını yükleyelim.
 ```csharp
 // Yalnızca tek bir sayfa içeren örnek Excel dosyasını yükleyin
 Workbook wb = new Workbook(sourceDir + "sampleSingleSheet.xlsx");
 ```
-Excel dosyasının (`sampleSingleSheet.xlsx`) belirtilen kaynak dizininizde mevcuttur. Bu bir kitabı açmaya benzer; doğru başlığa sahip olmanız gerekir.
+Excel dosyasının (`sampleSingleSheet.xlsx`) belirtilen kaynak dizininizde mevcuttur. Bu bir kitabı açmaya benzer—doğru başlığa sahip olmanız gerekir.
 ## Adım 3: HTML Kaydetme Seçeneklerini Ayarlayın
 Şimdi çalışma kitabımızı HTML formatına aktarmak için seçenekleri yapılandıracağız.
 ```csharp
@@ -100,22 +102,24 @@ Console.WriteLine("SetSingleSheetTabNameInHtml executed successfully.");
 ```
 Bu, kodunuzun sorunsuz bir şekilde çalıştığının, iyi hazırlanmış bir sunuma benzer şekilde, işaretidir!
 ## Çözüm
-Ve işte oldu! Aspose.Cells for .NET kullanarak belirli parametreleri ayarlayarak bir Excel sayfasını HTML formatına başarıyla aktardınız. Sadece birkaç satır kodla, veri aktarma ihtiyaçlarınızı etkili bir şekilde yönetebilirsiniz. Aspose.Cells gibi araçları benimsemek üretkenliği büyük ölçüde artırabilir ve görevlerinizi çok daha kolay hale getirebilir.
+İşte karşınızda! Aspose.Cells for .NET kullanarak belirli parametreleri ayarlayarak bir Excel sayfasını HTML formatına başarıyla aktardınız. Sadece birkaç satır kodla, veri aktarma ihtiyaçlarınızı etkili bir şekilde yönetebilirsiniz. Aspose.Cells gibi araçları benimsemek üretkenliği büyük ölçüde artırabilir ve görevlerinizi çok daha kolay hale getirebilir.
 Unutmayın, yetenekler çok geniştir. Bu eğitim sadece yüzeyi tırmalıyor. Aspose.Cells'in sunduğu tüm seçenekleri keşfetmekten korkmayın!
 ## SSS
 ### Aspose.Cells for .NET nedir?  
 Aspose.Cells for .NET, geliştiricilerin Microsoft Excel'in yüklenmesine ihtiyaç duymadan .NET uygulamalarında Excel dosyaları oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir kütüphanedir.
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?  
-Evet! Satın alma işlemi yapmadan önce tüm özelliklerini keşfetmek için ücretsiz deneme sürümünü indirebilirsiniz. Şuraya göz atın:[ücretsiz deneme burada](https://releases.aspose.com/).
+Evet! Satın alma işlemi yapmadan önce tüm özelliklerini keşfetmek için ücretsiz deneme sürümünü indirebilirsiniz. Şuraya göz atın: [ücretsiz deneme burada](https://releases.aspose.com/).
 ### Daha detaylı dokümanları nerede bulabilirim?  
- Kapsamlı belgeler için şu adresi ziyaret edin:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeler için şu adresi ziyaret edin: [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/).
 ### Sorunla karşılaşırsam ne yapmalıyım?  
- The[Aspose forumları](https://forum.aspose.com/c/cells/9) Soru sorabileceğiniz ve çözümler bulabileceğiniz topluluk desteği sağlayın.
+The [Aspose forumları](https://forum.aspose.com/c/cells/9) Soru sorabileceğiniz ve çözümler bulabileceğiniz topluluk desteği sağlayın.
 ### HTML dışa aktarımında gizli sayfaları yönetmek mümkün müdür?  
- Kesinlikle! Ayarlayarak`options.ExportHiddenWorksheet = true;`, gizli sayfalar da ihracata dahil edilir.
+Kesinlikle! Ayarlayarak `options.ExportHiddenWorksheet = true;`, gizli sayfalar da ihracata dahil edilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

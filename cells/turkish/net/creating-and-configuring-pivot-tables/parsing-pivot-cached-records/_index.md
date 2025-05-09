@@ -1,14 +1,16 @@
 ---
-title: .NET'te Excel Dosyası Yüklenirken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma
-linktitle: .NET'te Excel Dosyası Yüklenirken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells kullanarak .NET'te pivot önbellekli kayıtların nasıl ayrıştırılacağını öğrenin. Excel dosyalarını ve pivot tablolarını verimli bir şekilde yönetmek için basit bir kılavuz.
-weight: 28
-url: /tr/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/
+"description": "Aspose.Cells kullanarak .NET'te pivot önbellekli kayıtların nasıl ayrıştırılacağını öğrenin. Excel dosyalarını ve pivot tablolarını verimli bir şekilde yönetmek için basit bir kılavuz."
+"linktitle": ".NET'te Excel Dosyası Yüklenirken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Excel Dosyası Yüklenirken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma"
+"url": "/tr/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Excel Dosyası Yüklenirken Pivot Önbelleğe Alınmış Kayıtları Ayrıştırma
@@ -20,7 +22,7 @@ Aspose.Cells ile kodlama denizine dalmadan önce hazırda bulundurmanız gereken
 ### Görsel Stüdyo
 - Visual Studio'nun bir kopyasının yüklü olduğundan emin olun. Bu, kodunuzda sorunsuz bir şekilde gezinmenizi sağlayacak güvenilir bir gemidir.
 ### .NET için Aspose.Cells
--  Aspose.Cells'in kurulu olması gerekir. Bunu kendilerinden satın alabilirsiniz.[web sitesi](https://purchase.aspose.com/buy) veya bir ile başla[ücretsiz deneme](https://releases.aspose.com/).
+- Aspose.Cells'in kurulu olması gerekir. Bunu kendilerinden satın alabilirsiniz. [web sitesi](https://purchase.aspose.com/buy) veya bir ile başla [ücretsiz deneme](https://releases.aspose.com/).
 ### C# Temel Bilgisi
 - Bu kılavuz C# hakkında temel bilgiye sahip olduğunuzu varsayar. Tıpkı yelken açmadan önce ipleri bilmeniz gibi.
 ### Pivot Tablolu Excel Dosyası
@@ -46,9 +48,9 @@ string sourceDir = "Your Document Directory";
 //Kaynak dizini
 string outputDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` Excel dosyalarınızın saklandığı gerçek yol ile. Bu adım çok önemlidir çünkü dizinler doğru şekilde ayarlanmamışsa, tıpkı denizde kaybolmak gibi dosyalarımızı bulamayız!
+Yer değiştirmek `"Your Document Directory"` Excel dosyalarınızın saklandığı gerçek yol ile. Bu adım çok önemlidir çünkü dizinler doğru şekilde ayarlanmamışsa, tıpkı denizde kaybolmak gibi dosyalarımızı bulamayız!
 ## Adım 2: Yükleme Seçenekleri Oluşturun
-Daha sonra, bir örnek oluşturmamız gerekiyor`LoadOptions`. Excel dosyamızı nasıl yüklemek istediğimize dair bazı parametreleri buradan ayarlayabiliriz.
+Daha sonra, bir örnek oluşturmamız gerekiyor `LoadOptions`. Excel dosyamızı nasıl yüklemek istediğimize dair bazı parametreleri buradan ayarlayabiliriz.
 ```csharp
 //Yükleme seçenekleri oluştur
 LoadOptions options = new LoadOptions();
@@ -60,7 +62,7 @@ Pivot önbelleğe alınmış kayıtları ayrıştırma seçeneğini etkinleştir
 //ParsingPivotCachedRecords'u true olarak ayarlayın, varsayılan değer false'tur
 options.ParsingPivotCachedRecords = true;
 ```
-Varsayılan olarak, pivot önbelleğe alınmış kayıtların ayrıştırılması false olarak ayarlanmıştır. Bunu true olarak ayarlamak, pivot tablolarından ihtiyacımız olan verileri çıkarmak için anahtardır, tıpkı suyun yüzeyini kırarak altındaki hazineleri bulmaya benzer!
+Varsayılan olarak, pivot önbelleğe alınmış kayıtların ayrıştırılması false olarak ayarlanmıştır. Bunu true olarak ayarlamak, pivot tablolarından ihtiyacımız olan verileri çıkarmak için anahtardır, tıpkı suyun yüzeyini kırarak aşağıdaki hazineleri bulmaya benzer!
 ## Adım 4: Excel Dosyasını Yükleyin
 Artık Excel dosyamızı yüklemeye hazırız!
 ```csharp
@@ -121,17 +123,19 @@ Ve işte oldu! Aspose.Cells kullanarak .NET'te bir Excel dosyası yüklerken piv
 ## SSS
 ### Aspose.Cells Nedir?
 Aspose.Cells, Excel dosyalarını program aracılığıyla yönetmek ve düzenlemek için kullanılan güçlü bir .NET kütüphanesidir.
-### Aspose.Cells'i kullanmaya nasıl başlayabilirim?
- Aspose.Cells'i şu adresten indirerek kullanmaya başlayabilirsiniz:[alan](https://releases.aspose.com/cells/net/) ve kurulum talimatlarını takip edin.
+### Aspose.Cells'i kullanmaya nasıl başlarım?
+Aspose.Cells'i şu adresten indirerek kullanmaya başlayabilirsiniz: [alan](https://releases.aspose.com/cells/net/) ve kurulum talimatlarını takip edin.
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet! Aspose bir teklif sunuyor[ücretsiz deneme](https://releases.aspose.com/)Böylece satın alma işlemi yapmadan önce özelliklerini inceleyebilirsiniz.
+Evet! Aspose bir teklif sunuyor [ücretsiz deneme](https://releases.aspose.com/) Böylece satın alma işlemi yapmadan önce özelliklerini inceleyebilirsiniz.
 ### Aspose.Cells için dokümanları nerede bulabilirim?
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek için Aspose forumunu ziyaret ederek yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Destek için Aspose forumunu ziyaret ederek yardım alabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

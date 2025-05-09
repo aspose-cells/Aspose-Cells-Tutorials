@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,7 +174,7 @@ Fedezze fel a fejlett funkciókat a [Aspose dokumentáció](https://reference.as
 3. **K:** Milyen formátumokban menthetem el az Excel fájlokat?
    - **V:** Az Aspose.Cells különféle formátumokat támogat, beleértve az XLS, XLSX és CSV fájlokat.
 
-4. **K:** Hogyan tudom tovább testreszabni a cellastílusokat?
+4. **K:** Hogyan szabhatom testre a cellastílusokat?
    - **V:** Fedezze fel a `Style` osztálymetódusok további konfigurációkhoz, például betűmérethez vagy színhez.
 
 5. **K:** Alkalmas az Aspose.Cells nagyméretű alkalmazásokhoz?
@@ -189,6 +191,9 @@ Fedezze fel a fejlett funkciókat a [Aspose dokumentáció](https://reference.as
 Használd ki az Aspose.Cells for Java erejét a következő projektedben, és fejleszd Excel automatizálási képességeidet!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

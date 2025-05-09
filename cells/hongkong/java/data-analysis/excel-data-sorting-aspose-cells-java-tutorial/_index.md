@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,7 +181,7 @@ Aspose.Cells 可以與資料庫或 Web 應用程式等其他系統集成，實�
 
 **後續步驟：**
 - 嘗試不同的單元格區域和排序標準。
-- 探索 Aspose.Cells 的附加功能以進一步擴展您的能力。
+- 探索 Aspose.Cells 的其他功能以進一步擴展您的能力。
 
 我們鼓勵您嘗試在您的專案中實施此處討論的解決方案。編碼愉快！
 
@@ -212,6 +214,9 @@ Aspose.Cells 可以與資料庫或 Web 應用程式等其他系統集成，實�
 透過遵循這個全面的指南，您可以自信地使用 Aspose.Cells 在 Java 應用程式中實現和優化 Excel 資料排序。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استيراد البيانات المجمعة إلى Excel
@@ -99,9 +101,11 @@ for (int row = 0; row < maxRows; row++) {
 نعم، يرجى مراجعة معلومات الترخيص على موقع Aspose الإلكتروني للحصول على تفاصيل حول الترخيص والأسعار.
 
 لا تتردد في استكشاف المزيد وتعديل أمثلة الأكواد البرمجية لتلبية احتياجاتك الخاصة. برمجة ممتعة!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

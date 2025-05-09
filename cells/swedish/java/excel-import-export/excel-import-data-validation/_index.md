@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validering av importdata i Excel
@@ -80,9 +82,11 @@ Ja, Aspose.Cells för Java är lämpligt för att hantera komplexa datavaliderin
 I den här omfattande guiden har vi utforskat processen för att implementera validering av importdata i Excel med Aspose.Cells för Java. Genom att följa stegen som beskrivs i den här artikeln kan du säkerställa noggrannheten och tillförlitligheten hos importerad data i dina Java-applikationer. Datavalidering är en viktig aspekt av datahantering, och Aspose.Cells för Java förenklar processen.
 
 Nu, beväpnad med den kunskap och källkod som du har fått, är du redo att förbättra dina datavalideringsmöjligheter och användarupplevelsen. Lycka till med kodningen!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 
 Перед началом убедитесь, что у вас есть:
 
-- **Требуемые библиотеки:** Aspose.Cells для Java (версия 25.3 или более поздняя).
+- **Необходимые библиотеки:** Aspose.Cells для Java (версия 25.3 или более поздняя).
 - **Настройка среды:** Работающая среда разработки Java.
 - **Необходимые знания:** Базовые знания Java и знакомство с инструментами сборки Maven/Gradle.
 
@@ -172,6 +174,9 @@ public class ConvertExample {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

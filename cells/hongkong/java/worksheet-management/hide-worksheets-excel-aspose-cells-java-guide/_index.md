@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@
 ## 先決條件
 在開始之前，請確保您已：
 - 您的系統上安裝了 JDK（Java 開發工具包）。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 像 IntelliJ IDEA 或 Eclipse 這樣的整合開發環境。
 
 ### 所需的庫和依賴項
@@ -145,6 +147,9 @@ workbook.save(outDir + "/HideUnhideWorksheet_out.xls");
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

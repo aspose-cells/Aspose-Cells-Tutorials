@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ public class ReadImageFiles {
 
 ### Функция 2: Создание и изменение рабочей книги с помощью Aspose.Cells
 
-Теперь, когда наши изображения готовы, давайте создадим книгу Excel и включим их в нее с помощью интеллектуальных маркеров.
+Теперь, когда у нас готовы изображения, давайте создадим книгу Excel и включим их в нее с помощью интеллектуальных маркеров.
 
 #### Обзор
 Мы будем использовать Aspose.Cells для создания рабочей книги, настройки ее внешнего вида и динамической вставки изображений на основе данных.
@@ -208,6 +210,9 @@ class Person {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

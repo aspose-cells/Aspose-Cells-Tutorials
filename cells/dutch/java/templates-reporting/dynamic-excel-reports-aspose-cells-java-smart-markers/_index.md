@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ A: Slimme markeringen maken geneste eigenschappen mogelijk, waardoor u moeiteloo
 A: Opties zijn onder andere een gratis proefperiode, een tijdelijke licentie en een volledige aankoop. Bezoek [De website van Aspose](https://purchase.aspose.com/buy) voor meer informatie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

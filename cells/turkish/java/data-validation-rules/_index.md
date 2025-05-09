@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Veri Doğrulama Kuralları
@@ -42,9 +44,11 @@ Aspose.Cells for Java kullanarak Excel'de Veri Doğrulamayı öğrenin. Kurallar
 Java için Aspose.Cells'i kullanarak koşullu veri doğrulamasını nasıl uygulayacağınızı öğrenin. Excel elektronik tablolarında doğru veri işleme için kaynak kodlu adım adım kılavuz.
 ### [Veri Doğrulamada Giriş Mesajı](./input-message-in-data-validation/)
 Aspose.Cells for Java kullanarak Excel'de veri doğrulamasını nasıl geliştireceğinizi öğrenin. Veri doğruluğunu ve kullanıcı rehberliğini iyileştirmek için kod örnekleriyle adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

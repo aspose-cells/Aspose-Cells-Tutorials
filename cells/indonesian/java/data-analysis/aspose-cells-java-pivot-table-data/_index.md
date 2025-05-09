@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells untuk Java: Mengakses Data Tabel Pivot dalam File Excel
 
-## Perkenalan
+## Bevezetés
 
 Mengakses dan memanipulasi tabel pivot dalam file Excel secara terprogram dapat menjadi tantangan bagi pengembang yang menggunakan Java. Tutorial komprehensif ini akan membantu Anda menguasai Aspose.Cells untuk Java, pustaka canggih yang dirancang untuk menyederhanakan tugas-tugas ini.
 
@@ -22,16 +24,16 @@ Pada akhir panduan ini, Anda akan mempelajari:
 - Memuat buku kerja dan mengakses lembar kerja
 - Mengambil sumber data koneksi eksternal dari tabel pivot
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai dengan Aspose.Cells untuk Java, pastikan Anda memiliki:
-1. **Perpustakaan yang Diperlukan**Anda memerlukan pustaka Aspose.Cells, versi 25.3 atau yang lebih baru.
-2. **Pengaturan Lingkungan**Lingkungan pengembangan Java yang disiapkan di komputer Anda (Java SE Development Kit).
-3. **Prasyarat Pengetahuan**Pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel.
+1. **Kötelező könyvtárak**Anda memerlukan pustaka Aspose.Cells, versi 25.3 atau yang lebih baru.
+2. **Környezet beállítása**Lingkungan pengembangan Java yang disiapkan di komputer Anda (Java SE Development Kit).
+3. **Ismereti előfeltételek**Pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi
+### Telepítési információk
 
 Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda, Anda dapat menggunakan Maven atau Gradle:
 
@@ -51,7 +53,7 @@ Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda, Anda dapat menggunakan
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk memulai dengan Aspose.Cells, Anda dapat memilih uji coba gratis atau memperoleh lisensi sementara untuk mengeksplorasi semua kemampuannya tanpa batasan evaluasi. Jika puas, pertimbangkan untuk membeli lisensi guna membuka semua fitur untuk penggunaan produksi.
 
@@ -64,11 +66,11 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memuat Buku Kerja dan Mengakses Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 
 Memuat buku kerja Excel dan mengakses lembar kerja tertentu sangat penting untuk manipulasi data.
 
@@ -83,7 +85,7 @@ import com.aspose.cells.Worksheet;
 
 ##### Langkah 2: Muat Buku Kerja
 
-Buat contoh dari `Workbook` dan tentukan jalur ke berkas Excel Anda.
+Hozz létre egy példányt a következőből: `Workbook` dan tentukan jalur ke berkas Excel Anda.
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -100,13 +102,13 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ### Akses Tabel Pivot dari Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 
 Bagian ini menunjukkan cara mengakses tabel pivot tertentu dalam lembar kerja untuk ekstraksi dan manipulasi data.
 
 ##### Langkah 1: Impor Kelas PivotTable
 
-Pastikan untuk mengimpor `PivotTable` kelas:
+Pastikan untuk mengimpor `PivotTable` osztály:
 
 ```java
 import com.aspose.cells.PivotTable;
@@ -122,39 +124,39 @@ PivotTable pivotTable = worksheet.getPivotTables().get(0);
 
 ### Ambil Detail Sumber Data Koneksi Eksternal
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini menunjukkan cara mengekstrak rincian tentang sumber data eksternal yang terhubung ke tabel pivot, penting untuk mengelola koneksi data.
 
 ##### Langkah 1: Akses Nama dan Jenis Sumber Data
 
-Gunakan `PivotTable` objek untuk mendapatkan nama dan jenis sumber data koneksi eksternal.
+Használd a `PivotTable` objek untuk mendapatkan nama dan jenis sumber data koneksi eksternal.
 
 ```java
 String name = pivotTable.getExternalConnectionDataSource().getName();
 String type = pivotTable.getExternalConnectionDataSource().getType();
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Analisis Data**Otomatisasi ekstraksi dan analisis data penjualan atau keuangan dari tabel pivot di Excel.
-- **Pelaporan**: Hasilkan laporan dinamis dengan menarik data dari berbagai sumber ke dalam format terpadu.
+- **Adatelemzés**Otomatisasi ekstraksi dan analisis data penjualan atau keuangan dari tabel pivot di Excel.
+- **Jelentéstétel**: Hasilkan laporan dinamis dengan menarik data dari berbagai sumber ke dalam format terpadu.
 - **Integrasi dengan Alat BI**:Integrasikan data tabel pivot dengan alat intelijen bisnis secara mulus untuk wawasan yang lebih baik.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells:
+A teljesítmény optimalizálása Aspose.Cells használatakor:
 - Kelola penggunaan memori secara efisien dengan membuang objek yang tidak lagi digunakan.
 - Gunakan fitur streaming untuk menangani kumpulan data besar tanpa membebani sumber daya sistem.
 - Perbarui Aspose.Cells secara berkala ke versi terbaru untuk peningkatan dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara memanfaatkan Aspose.Cells for Java secara efektif untuk mengakses data tabel pivot. Pustaka canggih ini menyederhanakan tugas-tugas yang rumit, sehingga Anda dapat fokus memberikan nilai melalui aplikasi Anda.
 
 Jelajahi lebih jauh dengan mempelajari fitur dan kemampuan tambahan Aspose.Cells. Selamat membuat kode!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa versi terbaru Aspose.Cells?**
    - Rilis stabil terbaru saat tulisan ini dibuat adalah versi 25.3.
@@ -171,15 +173,18 @@ Jelajahi lebih jauh dengan mempelajari fitur dan kemampuan tambahan Aspose.Cells
 5. **Bagaimana cara mengatasi masalah lisensi dengan Aspose.Cells untuk Java?**
    - Pastikan jalur berkas lisensi Anda benar dan telah disiapkan dengan benar seperti yang ditunjukkan di bagian inisialisasi.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Versi Terbaru](https://releases.aspose.com/cells/java/)
-- [Beli Produk Aspose](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis dan Lisensi Sementara](https://releases.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Legújabb verzió letöltése](https://releases.aspose.com/cells/java/)
+- [Aspose termékek vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió és ideiglenes licenc](https://releases.aspose.com/cells/java/)
 
 Pelajari Aspose.Cells lebih dalam, kembangkan keterampilan Java Anda, dan revolusikan cara Anda berinteraksi dengan data Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Java uygulamalarınızda Excel otomasyonunun gücünden yararlanmak mı istiyors
 - Formüllerle veri eklemeyi otomatikleştirmek için akıllı işaretleyicileri kullanma.
 - Bu özelliklerin gerçek dünya uygulamalarına entegre edilmesiyle üretkenlik artırılıyor.
 
-Ortamınızı kurmaya ve başlamaya başlayalım!
+Haydi ortamınızı kurmaya ve işe koyulmaya başlayalım!
 
 ## Ön koşullar
 
@@ -194,7 +196,7 @@ Bu eğitimde ele alınan özellikleri uygulayarak, Java için Aspose.Cells'in g�
 **S4: Aspose.Cells'i bir web uygulamasına nasıl entegre edebilirim?**
 - Java'nın kullanıldığı arka uç servislerinde kütüphaneyi kullanın ve sunucudaki tüm bağımlılıkların doğru şekilde yapılandırıldığından emin olun.
 
-**S5: Excel dışında başka elektronik tablo formatları için destek var mı?**
+**S5: Excel dışında diğer elektronik tablo formatları için destek var mı?**
 - Aspose.Cells, CSV ve ODS gibi çeşitli formatları destekler. Formata özgü özellikler için belgelerine bakın.
 
 ## Kaynaklar
@@ -205,6 +207,9 @@ Bu eğitimde ele alınan özellikleri uygulayarak, Java için Aspose.Cells'in g�
 - **Ücretsiz Deneme ve Geçici Lisans:** Ücretsiz denemeyle başlayın veya geçici bir lisans edinin [Aspose Ücretsiz Deneme](https://releases.aspose.com/cells/java/) Ve [Geçici Lisans](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

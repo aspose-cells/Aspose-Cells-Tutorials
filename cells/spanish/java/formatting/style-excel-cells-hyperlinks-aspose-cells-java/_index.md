@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Crear hojas de cálculo con aspecto profesional es un desafío para muchos desar
 
 **Lo que aprenderás:**
 - Cómo instalar y configurar Aspose.Cells para Java.
-- Técnicas para crear y diseñar una celda con opciones de formato de texto.
+- Técnicas para crear y estilizar una celda con opciones de formato de texto.
 - Pasos para agregar hipervínculos dentro de su libro de Excel.
 - Mejores prácticas para optimizar el rendimiento utilizando Aspose.Cells en aplicaciones Java.
 
@@ -64,7 +66,7 @@ Para uso comercial, considere comprar una licencia completa de [Compra](https://
 
 Para inicializar Aspose.Cells en su aplicación Java:
 ```java
-// Crear una instancia de un nuevo objeto Workbook
+// Crear una instancia de un nuevo objeto de libro de trabajo
 Workbook workbook = new Workbook();
 ```
 
@@ -192,6 +194,9 @@ R: Sí, Aspose.Cells admite una amplia gama de funciones de Excel, lo que le per
 ¡Ahora que tienes toda la información y los recursos, sigue adelante y comienza a crear archivos dinámicos de Excel con Aspose.Cells en Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

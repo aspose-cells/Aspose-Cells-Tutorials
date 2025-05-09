@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Безопасность данных Excel
@@ -40,9 +42,11 @@
 Узнайте, как проводить аудит доступа к файлам с помощью API Aspose.Cells для Java. Пошаговое руководство с исходным кодом и часто задаваемыми вопросами.
 ### [Проверка данных для безопасности](./data-validation-for-security/)
 Повысьте безопасность данных с помощью Aspose.Cells для Java. Изучите комплексные методы проверки данных. Узнайте, как реализовать надежную проверку и защиту.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

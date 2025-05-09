@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Przed wdrożeniem tych funkcjonalności upewnij się, że spełnione są następ
    - Odpowiednie zintegrowane środowisko programistyczne (IDE), np. IntelliJ IDEA, Eclipse lub NetBeans.
 3. **Wymagania wstępne dotyczące wiedzy:**
    - Podstawowa znajomość programowania w Javie.
-   - Znajomość operacji na plikach w języku Java.
+   - Znajomość operacji na plikach w Javie.
 
 ## Konfigurowanie Aspose.Cells dla Java
 
@@ -188,6 +190,9 @@ Wypróbuj te rozwiązania w swoich projektach i zobacz, jak usprawnią Twój prz
 - **Zakup i licencjonowanie:** W celu uzyskania informacji o zakupie lub licencji odwiedź stronę [strona zakupu](https://purchase.aspose.com/buy) I [tymczasowa strona licencji](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

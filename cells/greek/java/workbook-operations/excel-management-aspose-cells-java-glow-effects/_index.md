@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,6 +129,9 @@ A3: Ναι, το Aspose.Cells υποστηρίζει διάφορες μορφέ
 Ξεκινήστε το ταξίδι σας προς την τελειοποίηση του χειρισμού αρχείων Excel με το Aspose.Cells για Java και αναβαθμίστε τις εφαρμογές σας που βασίζονται σε δεδομένα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

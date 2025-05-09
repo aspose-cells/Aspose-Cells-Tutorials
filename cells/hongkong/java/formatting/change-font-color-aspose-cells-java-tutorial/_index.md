@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ Aspose.Cells 可以與其他系統集成，以便在更廣泛的應用程式中�
 **4.如何使用 Aspose.Cells for Java 處理不同的檔案格式？**
 Aspose.Cells 支援各種 Excel 格式（例如 XLS、XLSX）。使用 `workbook.save(path, SaveFormat.XLSX)` 指定格式。
 
-**5. Aspose.Cells 中的字體顏色選項有限制嗎？**
+**5. Aspose.Cells 中的字體顏色選項有任何限制嗎？**
 您可以使用 Java 的 Color 類別提供的各種顏色，包括自訂 RGB 值。
 
 ## 資源
@@ -185,6 +187,9 @@ Aspose.Cells 支援各種 Excel 格式（例如 XLS、XLSX）。使用 `workbook
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

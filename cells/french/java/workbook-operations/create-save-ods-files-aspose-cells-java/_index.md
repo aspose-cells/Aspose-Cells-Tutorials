@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ A5 : Oui, Aspose.Cells peut être intégré de manière transparente à divers 
 Lancez-vous dès aujourd'hui dans votre voyage avec Aspose.Cells pour Java et simplifiez vos tâches de gestion de feuilles de calcul !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

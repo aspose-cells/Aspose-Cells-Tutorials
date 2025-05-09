@@ -1,40 +1,42 @@
 ---
-title: Nastavte typ tvaru datových štítků grafu
-linktitle: Nastavte typ tvaru datových štítků grafu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Vylepšete své grafy Excel pomocí přizpůsobených tvarů datových štítků pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného průvodce, abyste zlepšili svou prezentaci dat.
-weight: 14
-url: /cs/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
+"description": "Vylepšete si excelovské grafy pomocí vlastních tvarů popisků dat pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete prezentaci dat."
+"linktitle": "Nastavení typu tvaru datových popisků grafu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Nastavení typu tvaru datových popisků grafu"
+"url": "/cs/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte typ tvaru datových štítků grafu
+# Nastavení typu tvaru datových popisků grafu
 
 ## Zavedení
 
-Ve světě vizualizace dat jsou grafy běžnou metodou pro prezentaci komplexních informací přístupným způsobem. Ne všechny datové štítky jsou si však rovny! Někdy je potřeba, aby se tyto štítky objevily, a použití různých tvarů může znamenat významný rozdíl. Pokud chcete vylepšit popisky dat v grafech aplikace Excel pomocí vlastních tvarů, jste na správném místě. Tato příručka vás provede nastavením typu tvaru datových štítků v grafu pomocí Aspose.Cells pro .NET. Pojďme se do toho ponořit!
+Ve světě vizualizace dat jsou grafy běžnou metodou pro prezentaci složitých informací přístupným způsobem. Ne všechny popisky dat jsou však stejné! Někdy potřebujete tyto popisky zvýraznit a použití různých tvarů může mít významný dopad. Pokud chcete vylepšit popisky dat v grafech aplikace Excel pomocí vlastních tvarů, jste na správném místě. Tato příručka vás provede nastavením typu tvaru popisků dat v grafu pomocí Aspose.Cells pro .NET. Pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než se vrhneme na kódování, ujistěte se, že máte vše správně nastavené. Zde je to, co budete potřebovat:
+Než se pustíme do kódování, ujistěte se, že máte vše správně nastavené. Zde je to, co budete potřebovat:
 
-1.  Aspose.Cells for .NET: Pokud jste to ještě neudělali, stáhněte si ji z[Aspose webové stránky](https://releases.aspose.com/cells/net/). Tato knihovna umožňuje nejrůznější manipulace s dokumenty aplikace Excel.
-2. Visual Studio: Toto byste měli mít nainstalované ve svém systému, abyste mohli psát a spouštět aplikace .NET. Ujistěte se, že jde o verzi, která podporuje .NET Framework nebo .NET Core podle potřeb vašeho projektu.
-3. Základní porozumění C#: Znalost základních programovacích konceptů a syntaxe C# vám určitě pomůže lépe porozumět úryvkům kódu.
-4. Excelový soubor: Budete také potřebovat ukázkový excelový sešit, se kterým budete pracovat. Můžete si vytvořit vlastní nebo použít jakýkoli stávající.
+1. Aspose.Cells pro .NET: Pokud jste tak ještě neučinili, stáhněte si jej z [Webové stránky Aspose](https://releases.aspose.com/cells/net/)Tato knihovna umožňuje nejrůznější manipulace s dokumenty aplikace Excel.
+2. Visual Studio: Pro psaní a spouštění .NET aplikací byste měli mít toto studio nainstalované ve svém systému. Ujistěte se, že se jedná o verzi, která podporuje .NET Framework nebo .NET Core podle potřeb vašeho projektu.
+3. Základní znalost jazyka C#: Znalost základních programovacích konceptů a syntaxe jazyka C# vám určitě pomůže lépe porozumět úryvkům kódu.
+4. Soubor aplikace Excel: Budete také potřebovat vzorový sešit aplikace Excel, se kterým budete moci pracovat. Můžete si vytvořit vlastní nebo použít jakýkoli existující.
 
-Nyní, když máme předpoklady, pojďme do toho rovnou!
+Teď, když máme předpoklady, pojďme se rovnou do toho pustit!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než budete moci začít kódovat, musíte importovat příslušné jmenné prostory Aspose.Cells. Získáte tak přístup k bohatým funkcím, které knihovna nabízí. Jak na to:
+Než začnete s kódováním, je nutné importovat příslušné jmenné prostory Aspose.Cells. To vám umožní přístup k bohatým funkcím, které knihovna nabízí. Zde je návod, jak to provést:
 
 ### Importovat Aspose.Cells
 
-Otevřete projekt sady Visual Studio a do horní části souboru C# přidejte následující direktivu using:
+Otevřete projekt Visual Studia a na začátek souboru C# přidejte následující direktivu using:
 
 ```csharp
 using System;
@@ -46,13 +48,13 @@ using Aspose.Cells.Charts;
 using Aspose.Cells.Drawing;
 ```
 
-Tyto jmenné prostory vám umožní snadno vytvářet a manipulovat se sešity, sešity a grafy.
+Tyto jmenné prostory vám umožní snadno vytvářet a manipulovat s pracovními sešity, listy a grafy.
 
-Nyní, když jsme vše nastavili, pojďme se ponořit do části kódování! Pro názornost si to rozebereme krok za krokem.
+Teď, když máme vše nastavené, pojďme se ponořit do kódování! Pro lepší přehlednost si to rozebereme krok za krokem.
 
 ## Krok 1: Definujte své adresáře
 
-Nejprve definujme, kde jsou soubory umístěny – jak zdrojový soubor, tak cílovou složku, kam chcete upravený soubor uložit.
+Nejdříve si definujme, kde se vaše soubory nacházejí – zdrojový soubor i cílovou složku, kam chcete upravený soubor uložit.
 
 ```csharp
 // Zdrojový adresář
@@ -62,107 +64,109 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Nahradit`"Your Document Directory"` a`"Your Output Directory"` se skutečnými cestami na vašem počítači.
+Nahradit `"Your Document Directory"` a `"Your Output Directory"` se skutečnými cestami na vašem počítači.
 
 ## Krok 2: Načtěte zdrojový soubor Excel
 
-Dále budete muset načíst soubor Excel, se kterým chcete pracovat. Tady začíná kouzlo!
+Dále budete muset načíst soubor aplikace Excel, se kterým chcete pracovat. A tady začíná kouzlo!
 
 ```csharp
-// Načtěte zdrojový soubor Excel
+// Načíst zdrojový soubor Excel
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Tento řádek vytvoří nový`Workbook` objekt a nasměruje jej na váš existující soubor. Ujistěte se, že cesta k souboru je správná!
+Tato čára vytváří nový `Workbook` objekt a odkazuje na váš existující soubor. Ujistěte se, že je cesta k souboru správná!
 
-## Krok 3: Otevřete první pracovní list
+## Krok 3: Přístup k prvnímu pracovnímu listu
 
-Nyní, když máme náš sešit, potřebujeme získat přístup k listu, který obsahuje graf, který chcete přizpůsobit.
+Nyní, když máme sešit, potřebujeme získat přístup k listu, který obsahuje graf, který chcete přizpůsobit.
 
 ```csharp
 // Přístup k prvnímu listu
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Zde se dostáváme k prvnímu listu (index`0`). Pokud je graf umístěn na jiném listu, upravte index.
+Zde přistupujeme k prvnímu listu (index `0`). Upravte index, pokud se váš graf nachází na jiném listu.
 
 ## Krok 4: Přístup k prvnímu grafu
 
-Jakmile budete mít svůj pracovní list, je čas otevřít graf. Každý list může obsahovat více grafů, ale pro jednoduchost se zde budeme držet prvního.
+Jakmile máte pracovní list, je čas přistupovat k grafu. Každý pracovní list může obsahovat více grafů, ale pro zjednodušení se zde budeme držet prvního.
 
 ```csharp
 // Přístup k prvnímu grafu
 Chart ch = ws.Charts[0];
 ```
 
-Opět platí, že pokud požadovaný graf není první, změňte podle toho index.
+Opět platí, že pokud požadovaný graf není první, stačí odpovídajícím způsobem změnit index.
 
-## Krok 5: Přístup k řadě grafů
+## Krok 5: Přístup k sérii grafů
 
-Když je graf nyní přístupný, musíte se ponořit hlouběji, abyste mohli upravit štítky dat. Řada představuje datové body ve vašem grafu.
+Jakmile je graf nyní přístupný, je třeba se hlouběji ponořit do úpravy popisků dat. Řada představuje datové body ve vašem grafu.
 
 ```csharp
 // Přístup k první sérii
 Series srs = ch.NSeries[0];
 ```
 
-Zde se zaměřujeme na první sérii, která obvykle obsahuje štítky, které byste mohli chtít upravit.
+Zaměřujeme se zde na první sérii, která obvykle obsahuje popisky, které byste mohli chtít upravit.
 
-## Krok 6: Nastavte typ tvaru štítků dat
+## Krok 6: Nastavení typu tvaru datových popisků
 
-Nyní k zásadní části! Nastavíme typ tvaru datových štítků. Aspose.Cells podporuje různé tvary a pro tento příklad zvolíme ovál bubliny pro zábavu.
+A teď k té klíčové části! Nastavme typ tvaru pro popisky dat. Aspose.Cells podporuje různé tvary a v tomto příkladu zvolíme oválnou bublinu pro zábavnější vzhled.
 
 ```csharp
-// Nastavte typ tvaru datových štítků, tj. Speech Bubble Oval
+// Nastavte typ tvaru popisků dat, např. Oválný tvar bubliny
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- Nebojte se experimentovat s různými typy tvarů změnou`DataLabelShapeType.WedgeEllipseCallout` na další dostupné možnosti!
+Nebojte se experimentovat s různými typy tvarů změnou `DataLabelShapeType.WedgeEllipseCallout` k dalším dostupným možnostem!
 
-## Krok 7: Uložte výstupní soubor aplikace Excel
+## Krok 7: Uložení výstupního souboru Excel
 
-Udělali jste těžkou práci a nyní je čas uložit svou práci. Vložme tento upravený tvar datového štítku zpět do souboru aplikace Excel.
+Těžkou práci máte za sebou a teď je čas ji uložit. Pojďme tento upravený tvar popisku dat vrátit zpět do souboru aplikace Excel.
 
 ```csharp
-// Uložte výstupní soubor aplikace Excel
+// Uložte výstupní soubor Excel
 wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
-Tím se upravený sešit uloží do zadaného výstupního adresáře.
+Tím se upravený sešit uloží do vámi zadaného výstupního adresáře.
 
-## Krok 8: Proveďte a potvrďte
+## Krok 8: Provést a potvrdit
 
-Konečně je čas spustit váš program. Po provedení byste měli vidět zprávu potvrzující, že vše proběhlo hladce!
+Konečně je čas spustit program. Po spuštění byste měli vidět zprávu potvrzující, že vše proběhlo hladce!
 
 ```csharp
 Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
 ```
 
-Jakmile tuto zprávu uvidíte, přejděte do výstupního adresáře a zkontrolujte nový soubor Excel. Otevřete jej a popusťte uzdu své kreativitě s nově tvarovanými datovými štítky!
+Jakmile se vám tato zpráva zobrazí, přejděte do výstupního adresáře a zkontrolujte nový soubor aplikace Excel. Otevřete ho a popusťte uzdu své kreativitě s nově tvarovanými popisky dat!
 
 ## Závěr
 
-tady to máte – jednoduchý průvodce vylepšením štítků dat v grafech aplikace Excel pomocí Aspose.Cells pro .NET! Přizpůsobení typů obrazců nejen činí vaše grafy vizuálně atraktivnějšími, ale také pomáhá efektivněji zprostředkovat váš datový příběh. Pamatujte, že vizualizace dat je především o srozumitelnosti a zapojení. Neváhejte si tedy pohrát s různými tvary a styly – vaše data si koneckonců zaslouží tu nejlepší prezentaci.
+tady to máte – jednoduchý návod, jak vylepšit popisky dat v grafech aplikace Excel pomocí Aspose.Cells pro .NET! Úprava typů tvarů nejenže zvýší vizuální přitažlivost vašich grafů, ale také pomůže efektivněji vyjádřit váš datový příběh. Nezapomeňte, že vizualizace dat je především o jasnosti a poutavosti. Neváhejte si tedy pohrát s různými tvary a styly – vaše data si koneckonců zaslouží tu nejlepší prezentaci.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?  
-Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům programově manipulovat se soubory aplikace Excel.
+Aspose.Cells je výkonná knihovna .NET, která umožňuje vývojářům programově manipulovat s Excelovými soubory.
 
-### Mohu změnit různé aspekty grafu Excel pomocí Aspose?  
-Absolutně! Aspose.Cells nabízí rozsáhlé funkce pro úpravu grafů, včetně datových řad, štítků, stylů a dalších.
+### Mohu změnit různé aspekty grafu v Excelu pomocí Aspose?  
+Rozhodně! Aspose.Cells nabízí rozsáhlé funkce pro úpravu grafů, včetně datových řad, popisků, stylů a dalších.
 
-### Jaké programovací jazyky mohu používat s Aspose.Cells?  
-Zatímco tento článek se zaměřuje na .NET, Aspose.Cells také podporuje Javu, PHP, Python a další prostřednictvím REST API.
+### Jaké programovací jazyky mohu použít s Aspose.Cells?  
+Ačkoli se tento článek zaměřuje na .NET, Aspose.Cells také podporuje Javu, PHP, Python a další prostřednictvím REST API.
 
 ### Musím za Aspose.Cells platit?  
-Aspose.Cells je komerční produkt, ale nabízí bezplatnou zkušební verzi, kterou můžete najít[zde](https://releases.aspose.com/).
+Aspose.Cells je komerční produkt, ale nabízí bezplatnou zkušební verzi, kterou najdete [zde](https://releases.aspose.com/).
 
 ### Kde mohu získat pomoc, pokud mám problémy s Aspose.Cells?  
- Pokud narazíte na nějaké problémy, jejich[fórum podpory](https://forum.aspose.com/c/cells/9) je skvělým zdrojem pomoci od odborníků.
+Pokud narazíte na nějaké problémy, jejich [fórum podpory](https://forum.aspose.com/c/cells/9) je skvělým zdrojem pro získání pomoci od odborníků.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

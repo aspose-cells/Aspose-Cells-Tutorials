@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Bu eğitimde, bir Excel dosyasını yüklemeyi, çalışma sayfalarındaki şeki
 - Excel çalışma kitabı nasıl yüklenir.
 - Çalışma sayfalarındaki şekillere erişim ve bunları değiştirme.
 - Daha iyi okunabilirlik için karakter aralığını değiştirme.
-- Değişikliklerinizi bir Excel dosyasına geri kaydedin.
+- Değişikliklerinizi bir Excel dosyasına geri kaydediyoruz.
 
 Şekilleri geliştirmeye başlamadan önce ihtiyaç duyacağınız ön koşulları ele alarak başlayalım!
 
@@ -180,6 +182,9 @@ Bu teknikleri bugün projelerinize uygulamaya çalışın!
 Java için Aspose.Cells'i öğrenme yolunda bir sonraki adımı atın ve Excel dosya yönetiminde yeni potansiyellerin kilidini açın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

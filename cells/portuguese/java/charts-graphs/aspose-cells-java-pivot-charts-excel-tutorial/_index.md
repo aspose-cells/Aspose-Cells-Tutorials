@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Etapas de aquisição de licença
 - **Teste gratuito:** Comece com um teste gratuito para explorar os recursos do Aspose.Cells.
 - **Licença temporária:** Obtenha uma licença temporária para testes e desenvolvimento estendidos.
-- **Comprar:** Para uso a longo prazo, adquira uma licença de [Site oficial da Aspose](https://purchase.aspose.com/buy).
+- **Comprar:** Para uso de longo prazo, adquira uma licença de [Site oficial da Aspose](https://purchase.aspose.com/buy).
 
 ### Inicialização básica
 Depois que seu ambiente estiver configurado e as dependências adicionadas, inicialize o Aspose.Cells da seguinte maneira:
@@ -209,6 +211,9 @@ Explore estes recursos para descobrir mais sobre o Aspose.Cells e como ele pode 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

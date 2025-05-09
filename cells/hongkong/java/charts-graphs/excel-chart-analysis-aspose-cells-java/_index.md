@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ for (int i = 0; i < series.getPoints().getCount(); i++) {
 }
 ```
 
-在這裡，我們循環遍歷系列中的每個資料點，跳過任何缺少 Y 值的資料點並檢查它是否是輔助圖的一部分。
+在這裡，我們循環遍歷系列中的每個資料點，跳過缺少 Y 值的資料點並檢查它是否是輔助圖的一部分。
 
 ### 故障排除提示
 
@@ -225,6 +227,9 @@ A5：檢查控制台輸出中是否有特定的錯誤訊息，確保所有路徑
 透過使用 Aspose.Cells 掌握 Excel 圖表分析，將您的 Java 專案提升到新的水平！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

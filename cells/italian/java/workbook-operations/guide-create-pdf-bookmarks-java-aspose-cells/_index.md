@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Workbook wb = new Workbook(dataDir + "/samplePdfBookmarkEntry_DestinationName.xl
 Worksheet ws = wb.getWorksheets().get(0); // Accedi al primo foglio di lavoro
 Cell cellC5 = ws.getCells().get("C5"); // Accedi alla cella C5 per la destinazione del segnalibro
 ```
-- **Perché**:L'identificazione di fogli di lavoro e celle specifici ci consente di creare segnalibri che puntano a posizioni precise nel tuo PDF.
+- **Perché**: L'identificazione di fogli di lavoro e celle specifici ci consente di creare segnalibri che puntano a posizioni precise nel tuo PDF.
 
 ### Creare e configurare una voce segnalibro PDF
 #### Panoramica
@@ -200,6 +202,9 @@ Si può sperimentare aggiungendo strutture di segnalibri più complesse o integr
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

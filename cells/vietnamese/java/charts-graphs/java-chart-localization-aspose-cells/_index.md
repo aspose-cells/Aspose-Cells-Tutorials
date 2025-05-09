@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Khám phá thêm các tùy chọn tùy chỉnh và cân nhắc tích hợp các 
 Bắt đầu hành trình bản địa hóa biểu đồ hiệu quả với Aspose.Cells, nâng cao phạm vi tiếp cận và tác động của ứng dụng Java của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

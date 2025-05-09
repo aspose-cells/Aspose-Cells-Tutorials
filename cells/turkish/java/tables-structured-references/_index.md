@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Aspose.Cells for Java ile Excel'de özel içerik türü özelliklerinin nasıl e
 ### [Master Aspose.Cells Java: Gelişmiş Veri Yönetimi için Excel Liste Nesnelerini ve Toplamlarını Otomatikleştirin](./aspose-cells-java-excel-list-objects-totals/)
 Aspose.Cells for Java kullanarak Excel liste nesnelerini otomatikleştirmeyi öğrenin, toplam satırları ve hesaplamaları sorunsuz bir şekilde etkinleştirin. Veri raporlaması ve envanter yönetimi için mükemmeldir.
 
-### [Aspose.Cells Java: Hücreler aracılığıyla Excel Tablo İşlemlerinde Ustalaşma](./aspose-cells-java-manipulate-excel-tables/)
+### [Aspose.Cells Java: Hücreler Aracılığıyla Excel Tablo İşlemlerinde Ustalaşma](./aspose-cells-java-manipulate-excel-tables/)
 Aspose.Cells for Java kullanarak Excel tablolarını nasıl düzenleyeceğinizi öğrenin. Bu kılavuz, tablo verilerinin kurulumunu, erişimini, değiştirilmesini ve verimli bir şekilde kaydedilmesini kapsar.
 
 ### [Aspose.Cells Java Kullanarak Excel Tablolarını Aralıklara Dönüştürme: Adım Adım Kılavuz](./convert-excel-tables-ranges-aspose-cells-java/)
@@ -66,6 +68,9 @@ Excel elektronik tablolarında adlandırılmış aralıklardaki hücreleri etkil
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

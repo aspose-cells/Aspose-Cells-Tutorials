@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Etykietowanie danych
@@ -62,7 +64,7 @@ column.setCaption("Expenses");
 
 ## Dostosowywanie etykiet
 
-Aspose.Cells for Java umożliwia dostosowywanie etykiet poprzez zmianę czcionek, kolorów i innych opcji formatowania. Dzięki temu etykiety są nie tylko informacyjne, ale również atrakcyjne wizualnie.
+Aspose.Cells for Java pozwala dostosowywać etykiety poprzez zmianę czcionek, kolorów i innych opcji formatowania. Dzięki temu etykiety są nie tylko informacyjne, ale również atrakcyjne wizualnie.
 
 ```java
 // Dostosuj formatowanie etykiet
@@ -145,6 +147,7 @@ Możesz sprawnie obsługiwać błędy, stosując bloki try-catch do wychwytywani
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/link-and-configuration-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Link and Configuration Operations
@@ -26,9 +28,11 @@ Ready to jump in? Visit our [Configuring Link to Content Document Property in .N
 ## Link and Configuration Operations Tutorials
 ### [Configuring Link to Content Document Property in .NET](./configuring-link-to-content-document-property/)
 Learn how to link document properties to content in Excel using Aspose.Cells for .NET. Step-by-step tutorial for developers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

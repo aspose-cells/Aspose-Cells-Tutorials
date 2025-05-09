@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ Stosowanie stylów do zakresu komórek zapewnia spójność między wieloma punk
 
 ### Modyfikuj atrybuty stylu
 **Przegląd:**
-miarę rozwoju aplikacji może zaistnieć potrzeba dynamicznej aktualizacji stylów.
+W miarę rozwoju aplikacji może zaistnieć potrzeba dynamicznej aktualizacji stylów.
 
 **Etapy wdrażania:**
 - Zmień kolor czcionki nazwanego stylu:
@@ -205,6 +207,9 @@ Mamy nadzieję, że ten samouczek był pouczający i pomocny. Miłego kodowania!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

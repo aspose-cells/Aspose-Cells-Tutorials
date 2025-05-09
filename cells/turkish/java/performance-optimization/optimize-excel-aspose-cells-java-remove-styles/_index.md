@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,11 +189,14 @@ A5: Ziyaret [Aspose'un resmi belgeleri](https://reference.aspose.com/cells/java/
 - **Belgeleme**: Ayrıntılı API referanslarını şu adreste inceleyin: [Aspose Belgeleri](https://reference.aspose.com/cells/java/).
 - **İndirmek**: En son sürümü şu adresten edinin: [Aspose Sürümleri](https://releases.aspose.com/cells/java/).
 - **Satın almak**: Lisansınızı güvence altına alın [Aspose Satın Alma](https://purchase.aspose.com/buy).
-- **Ücretsiz Deneme**: Ücretsiz denemeyle özellikleri test edin [Aspose Ücretsiz Deneme](https://releases.aspose.com/cells/java/).
+- **Ücretsiz Deneme**Ücretsiz denemeyle özellikleri test edin [Aspose Ücretsiz Deneme](https://releases.aspose.com/cells/java/).
 - **Geçici Lisans**: Geçici lisans başvurusunda bulunun [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 - **Destek**Destek için topluluk forumuna katılın [Aspose Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

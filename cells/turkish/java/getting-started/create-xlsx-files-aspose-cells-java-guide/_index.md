@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ Aspose.Cells yeteneklerini daha fazla keşfetmek için veri işleme ve grafik ol
    - Çalışma kitabını yükleyin `Workbook workbook = new Workbook("existingFile.xlsx");` daha sonra gerektiği gibi değiştirin.
 **2. Aspose.Cells Java ile Excel dosyalarında grafik oluşturabilir miyim?**
    - Evet, Aspose.Cells çeşitli grafik türlerinin programlı olarak oluşturulmasını destekler.
-**3. Java için Aspose.Cells kullanarak hücrelere biçimlendirme uygulamak mümkün müdür?**
+**3. Aspose.Cells for Java kullanarak hücrelere biçimlendirme uygulamak mümkün müdür?**
    - Kesinlikle! Hücreleri biçimlendirebilir, yazı tipi stilleri ve hücre kenarlıkları da dahil olmak üzere ayarlayabilirsiniz.
 **4. Aspose.Cells ile dosya kaydederken hatalarla karşılaşırsam ne olur?**
    - Dosya yolu izinlerinizi kontrol edin ve tüm bağımlılıkların doğru şekilde yapılandırıldığından emin olun.
@@ -149,6 +151,9 @@ Bu kapsamlı rehberle, projelerinizde Aspose.Cells Java'nın tüm potansiyelinde
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

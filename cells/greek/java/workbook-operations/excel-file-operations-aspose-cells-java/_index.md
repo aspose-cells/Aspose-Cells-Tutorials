@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ public class ExcelOperations {
 - **Αγορά και Άδεια Χρήσης:** Για ερωτήσεις σχετικά με την αγορά ή την αδειοδότηση, επισκεφθείτε τη διεύθυνση [σελίδα αγοράς](https://purchase.aspose.com/buy) και [σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

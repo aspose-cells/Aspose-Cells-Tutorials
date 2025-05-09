@@ -1,12 +1,14 @@
 ---
-"description": "Aspose.Cells for Java ile AutoFilter'ları, dilimleyicileri, köprü metinlerini, harici bağlantıları ve gelişmiş Excel işlevlerini uygulamaya yönelik eksiksiz eğitimler."
+"description": "Java için Aspose.Cells ile Otomatik Filtreler, dilimleyiciler, köprüler, harici bağlantılar ve gelişmiş Excel işlevlerini uygulamaya yönelik eksiksiz eğitimler."
 "title": "Aspose.Cells Java için Gelişmiş Excel Özellikleri Eğitimleri"
 "url": "/tr/java/advanced-features/"
 "weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,6 +95,9 @@ Aspose.Cells for Java ile Excel dosyalarında dilimleyici güncellemelerini nas�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

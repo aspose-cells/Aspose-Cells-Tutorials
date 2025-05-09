@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Vi invitiamo a implementare queste soluzioni nei vostri progetti. Buona programm
 - Assicuratevi di avere le autorizzazioni appropriate e valutate la possibilità di bloccare celle specifiche per evitare modifiche indesiderate quando utilizzate caselle di controllo in ambienti condivisi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

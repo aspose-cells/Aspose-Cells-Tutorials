@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## 導入
 ピボットテーブルを含む複雑なExcelファイルの処理は、効率的なデータ処理と読み込みメカニズムを必要とする場合、非常に困難です。この包括的なガイドでは、Excelスプレッドシートをプログラムで操作するために設計された堅牢なライブラリであるAspose.Cells for Javaを使用して、ピボットテーブルの読み込みを最適化する方法を説明します。
 
-このガイドを最後まで読むと、次のことが習得できます。
+このガイドを読み終えると、次のことが習得できます。
 - Excel ファイルの読み込み中にピボット キャッシュ レコードを効率的に解析します。
 - ピボット テーブルを動的に更新および計算します。
 - パフォーマンスが向上した最適化された Excel ファイルを保存します。
@@ -160,6 +162,9 @@ wb.save(outDir + "outputParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

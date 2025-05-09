@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ A5: Επισκεφθείτε το [Σελίδα Προσωρινής Άδεια�
 Με αυτόν τον ολοκληρωμένο οδηγό, είστε εξοπλισμένοι για να εφαρμόσετε αποτελεσματικά το Aspose.Cells για Java στα έργα σας. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

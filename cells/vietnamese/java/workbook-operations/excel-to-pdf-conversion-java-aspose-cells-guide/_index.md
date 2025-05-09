@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Bạn đã sẵn sàng để hợp lý hóa quy trình làm việc với tài li
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-1. **Thư viện bắt buộc:** Cài đặt Aspose.Cells for Java, cung cấp bộ công cụ mạnh mẽ để quản lý tệp Excel.
+1. **Thư viện cần thiết:** Cài đặt Aspose.Cells for Java, cung cấp bộ công cụ mạnh mẽ để quản lý tệp Excel.
 2. **Thiết lập môi trường:** Đảm bảo môi trường phát triển của bạn hỗ trợ Java và được cấu hình để sử dụng Maven hoặc Gradle để quản lý phụ thuộc.
 3. **Điều kiện tiên quyết về kiến thức:** Có kiến thức cơ bản về lập trình Java và kinh nghiệm làm việc với thư viện.
 
@@ -136,6 +138,9 @@ A5: Kiểm tra đường dẫn tệp, đảm bảo bạn có quyền chính xác
 Bây giờ bạn đã có các công cụ và kiến thức, hãy bắt đầu chuyển đổi tệp Excel sang PDF hiệu quả bằng Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

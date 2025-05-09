@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Chèn hình ảnh động vào Excel mà không nhúng chúng là rất quan tr�
 - Các tùy chọn cấu hình chính để có hiệu suất tối ưu.
 - Xử lý các sự cố thường gặp trong quá trình triển khai.
 
-Chúng ta hãy bắt đầu với những điều kiện tiên quyết cần thiết để làm theo hướng dẫn này!
+Chúng ta hãy bắt đầu với các điều kiện tiên quyết cần thiết để làm theo hướng dẫn này!
 
 ## Điều kiện tiên quyết
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Các bước xin cấp giấy phép
 1. **Dùng thử miễn phí**: Tải xuống bản dùng thử từ [Tải xuống miễn phí của Aspose](https://releases.aspose.com/cells/java/) để khám phá các tính năng.
-2. **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời cho toàn bộ chức năng mà không có giới hạn tại [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+2. **Giấy phép tạm thời**: Yêu cầu giấy phép tạm thời cho đầy đủ chức năng mà không có giới hạn tại [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 3. **Mua**: Mua đăng ký hoặc giấy phép vĩnh viễn từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
@@ -172,6 +174,9 @@ Sẵn sàng tiến xa hơn? Triển khai các giải pháp này vào dự án c�
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

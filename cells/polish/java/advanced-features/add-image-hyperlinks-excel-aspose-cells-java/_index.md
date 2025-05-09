@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@ Przed rozpoczęciem upewnij się, że masz:
 Podstawowa znajomość programowania w Javie i obsługi plików Excela jest pomocna, ale nie obowiązkowa.
 
 ## Konfigurowanie Aspose.Cells dla Java
-Aby użyć Aspose.Cells w projektach Java, dodaj je jako zależność:
+Aby użyć Aspose.Cells w swoich projektach Java, dodaj je jako zależność:
 
 **Maven:**
 ```xml
@@ -138,7 +140,7 @@ Hiperłącza do obrazów mogą być przydatne w następujących sytuacjach:
 
 ## Rozważania dotyczące wydajności
 Zoptymalizuj swoją implementację:
-- Ogranicz liczbę dużych obrazów w jednym skoroszycie.
+- Ogranicz liczbę dużych obrazów w pojedynczym skoroszycie.
 - Zarządzaj wykorzystaniem pamięci poprzez usuwanie nieużywanych obiektów.
 - Aby zwiększyć wydajność, zaktualizuj Aspose.Cells do najnowszej wersji.
 
@@ -171,6 +173,9 @@ A5: Do typowych problemów należą nieprawidłowe ścieżki plików lub brakuj�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,35 +1,37 @@
 ---
-title: 내장된 Mol 파일 추출
-linktitle: 내장된 Mol 파일 추출
-second_title: .NET API 참조를 위한 Aspose.Cells
-description: Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 포함된 MOL 파일을 쉽게 추출하는 방법을 알아보세요.
-weight: 90
-url: /ko/net/excel-workbook/extract-embedded-mol-file/
+"description": "Aspose.Cells for .NET을 사용하여 Excel 통합 문서에서 내장된 MOL 파일을 쉽게 추출하는 방법을 알아보세요."
+"linktitle": "내장된 Mol 파일 추출"
+"second_title": ".NET API 참조용 Aspose.Cells"
+"title": "내장된 Mol 파일 추출"
+"url": "/ko/net/excel-workbook/extract-embedded-mol-file/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 내장된 Mol 파일 추출
 
 ## 소개
 
-Excel 스프레드시트에서 임베디드 파일, 특히 MOL 파일을 추출해야 하는 상황을 겪어본 적이 있나요? 까다로운 작업이죠? 하지만 걱정하지 마세요! Aspose.Cells for .NET의 도움으로 이 복잡해 보이는 작업을 공원에서 산책하는 것처럼 만들 수 있습니다. 이 튜토리얼에서는 강력한 Aspose.Cells 라이브러리를 사용하여 Excel 파일에서 MOL 파일을 추출하는 방법을 단계별로 안내합니다.
+Excel 스프레드시트에서 임베디드 파일, 특히 MOL 파일을 추출해야 했던 적이 있으신가요? 까다로운 작업이죠? 하지만 걱정하지 마세요! Aspose.Cells for .NET을 사용하면 이 복잡해 보이는 작업을 아주 쉽게 처리할 수 있습니다. 이 튜토리얼에서는 강력한 Aspose.Cells 라이브러리를 사용하여 Excel 파일에서 MOL 파일을 추출하는 방법을 단계별로 안내합니다.
 
 ## 필수 조건
 
-추출 과정에 들어가기 전에, 따라할 준비가 되었는지 확인해 보겠습니다. 필요한 것은 다음과 같습니다.
+추출 과정을 본격적으로 시작하기 전에, 따라갈 준비가 되었는지 확인해 보겠습니다. 필요한 것은 다음과 같습니다.
 
-- C#에 대한 기본 지식: C#에 대한 약간의 친숙함은 많은 도움이 될 것입니다. 이제 막 시작하더라도 따라갈 수 있을 것입니다.
-- Visual Studio: 시스템에 Visual Studio를 설치하세요. C# 코드를 작성하고 실행하는 데 필요합니다.
-- .NET용 Aspose.Cells: 아직 다운로드하지 않았다면 다음으로 이동하세요.[Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/) 최신 버전을 다운로드하세요.
+- C# 기본 지식: C#에 대한 약간의 지식만 있어도 큰 도움이 됩니다. 이제 막 시작하더라도 따라갈 수 있을 것입니다.
+- Visual Studio: Visual Studio가 시스템에 설치되어 있어야 합니다. C# 코드를 작성하고 실행하는 데 필요합니다.
+- .NET용 Aspose.Cells: 아직 다운로드하지 않았다면 다음으로 이동하세요. [Aspose.Cells 다운로드 페이지](https://releases.aspose.com/cells/net/) 최신 버전을 다운로드하세요.
 - .NET Framework: 호환되는 버전의 .NET Framework가 설치되어 있는지 확인하세요.
--  MOL 개체가 포함된 Excel 파일: 예를 들어 다음을 사용합니다.`EmbeddedMolSample.xlsx`추출을 위해 이 파일을 준비했는지 확인하세요.
+- 내장된 MOL 개체가 있는 Excel 파일: 예를 들어 다음을 사용합니다. `EmbeddedMolSample.xlsx`추출을 위해 이 파일을 준비해 두세요.
 
 ## 패키지 가져오기
 
-이제 필요한 모든 것을 갖추었으니, 프로젝트를 설정할 시간입니다. C# 프로젝트에서 필요한 패키지를 가져오는 방법은 다음과 같습니다.
+이제 필요한 모든 것을 준비했으니 프로젝트를 설정할 차례입니다. C# 프로젝트에 필요한 패키지를 가져오는 방법은 다음과 같습니다.
 
 ### 새 프로젝트 만들기
 
@@ -37,7 +39,7 @@ Visual Studio를 열고 새 C# 콘솔 애플리케이션을 만들도록 선택�
 
 ### Aspose.Cells에 NuGet 패키지 추가
 
-새로 만든 프로젝트에서 Aspose.Cells 패키지를 추가해야 합니다. NuGet 패키지 관리자를 통해 이를 수행할 수 있습니다.
+새로 만든 프로젝트에 Aspose.Cells 패키지를 추가해야 합니다. NuGet 패키지 관리자를 통해 이 작업을 수행할 수 있습니다.
 
 1. 솔루션 탐색기에서 프로젝트를 마우스 오른쪽 버튼으로 클릭합니다.
 2. "NuGet 패키지 관리"를 선택하세요.
@@ -52,7 +54,7 @@ using System;
 using System.IO;
 ```
 
-이제 프로젝트에서 Aspose.Cells 라이브러리의 기능을 활용할 수 있게 되었습니다.
+이제 귀하의 프로젝트에서 Aspose.Cells 라이브러리의 기능을 활용할 수 있습니다.
 
 ## 1단계: 환경 설정
 
@@ -72,17 +74,17 @@ string outputDir = "Your Document Directory";
 
 ## 2단계: 통합 문서 로드
 
- 당신이 당신의 것을 가지고 있으면`workbook` 샘플 Excel 파일을 설정한 후 다음 단계는 통합 문서를 로드하고 추출을 준비하는 것입니다.
+당신이 당신의 것을 가지고 있으면 `workbook` 샘플 Excel 파일을 설정한 후 다음 단계는 통합 문서를 로드하고 추출을 준비하는 것입니다.
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- 이 단계에서는 새 인스턴스를 만듭니다.`Workbook` 클래스는 Excel 파일의 내용에 대한 브리지 역할을 합니다. 파일이 여기에 로드되어 나중에 시트를 반복하고 내장된 MOL 개체를 찾을 수 있습니다.
+이 단계에서는 새 인스턴스를 만듭니다. `Workbook` Excel 파일 콘텐츠로 연결되는 다리 역할을 하는 클래스입니다. 파일이 여기에 로드되어 나중에 시트를 반복하면서 포함된 MOL 객체를 찾을 수 있습니다.
 
 ## 3단계: 워크시트 반복
 
-이제 워크북이 로드되었으니 더 깊이 파고들 시간입니다. 워크북의 각 워크시트를 반복하여 포함된 개체를 찾아야 합니다.
+이제 통합 문서가 로드되었으니 더 자세히 살펴볼 차례입니다. 통합 문서의 각 워크시트를 순회하며 포함된 개체를 찾아야 합니다.
 
 ```csharp
 foreach (Worksheet sheet in workbook.Worksheets)
@@ -92,11 +94,11 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- 이 스니펫을 사용하면 다음을 사용할 수 있습니다.`foreach` 워크북의 모든 시트를 살펴보려면 루프를 사용합니다.`OleObjects` 컬렉션을 사용하면 해당 특정 시트에 포함된 모든 개체에 접근할 수 있습니다. 
+이 스니펫을 사용하면 다음을 사용할 수 있습니다. `foreach` 통합 문서의 모든 시트를 살펴보는 루프입니다. `OleObjects` 컬렉션을 통해 해당 시트에 내장된 모든 객체에 접근할 수 있습니다. 
 
 ## 4단계: OLE 개체 추출
 
-마법이 일어나는 곳은 바로 여기입니다! 각 OLE 객체를 반복하여 MOL 파일을 추출하고 저장해야 합니다.
+마법이 일어나는 곳이 바로 여기입니다! 각 OLE 객체를 순환하며 MOL 파일을 추출하고 저장해야 합니다.
 
 ```csharp
 var index = 1;
@@ -127,27 +129,29 @@ Console.WriteLine("ExtractEmbeddedMolFile executed successfully.");
 
 ## 결론
 
-이제 Aspose.Cells for .NET을 사용하여 Excel 파일에서 내장된 MOL 파일을 성공적으로 추출했습니다. 이제 새롭게 얻은 기술을 사용하여 Excel 시트에서 개체 파일을 추출해야 하는 다른 시나리오에 적용할 수 있습니다. 이 방법은 효과적일 뿐만 아니라 다양한 Excel 관련 작업을 손쉽게 처리할 수 있는 문을 열어줍니다.
+자, 이제 Aspose.Cells for .NET을 사용하여 Excel 파일에서 내장된 MOL 파일을 성공적으로 추출했습니다. 이제 새롭게 습득한 기술을 Excel 시트에서 개체 파일을 추출해야 하는 다른 시나리오에도 적용할 수 있습니다. 이 방법은 효과적일 뿐만 아니라 다양한 Excel 관련 작업을 손쉽게 처리할 수 있는 길을 열어줍니다.
 
 ## 자주 묻는 질문
 
-### .NET용 Aspose.Cells란 무엇인가요?  
-.NET용 Aspose.Cells는 .NET 애플리케이션 내에서 Excel 파일을 조작하고 관리하도록 설계된 강력한 라이브러리입니다.
+### Aspose.Cells for .NET이란 무엇인가요?  
+Aspose.Cells for .NET은 .NET 애플리케이션 내에서 Excel 파일을 조작하고 관리하도록 설계된 강력한 라이브러리입니다.
 
 ### Aspose.Cells를 사용하여 다양한 유형의 내장 파일을 추출할 수 있나요?  
 물론입니다! Aspose.Cells를 사용하면 MOL 파일뿐만 아니라 PDF, 이미지 등 다양한 임베디드 파일 형식을 추출할 수 있습니다.
 
-### Aspose.Cells를 사용하려면 구매해야 하나요?  
- 무료 평가판이 있지만 전체 기능을 사용하려면 라이선스가 필요합니다.[여기서 구매하세요](https://purchase.aspose.com/buy).
+### Aspose.Cells를 사용하려면 구매해야 합니까?  
+무료 체험판을 이용할 수 있지만 전체 기능을 사용하려면 라이선스가 필요합니다. [여기서 구매하세요](https://purchase.aspose.com/buy).
 
 ### 이 과정에 Visual Studio가 필요합니까?  
 Visual Studio를 사용하여 시연했지만, C# 호환 IDE를 사용하여 프로젝트를 실행할 수 있습니다.
 
 ### Aspose.Cells에 대한 지원은 어디에서 찾을 수 있나요?  
- 접근할 수 있습니다[Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 지침과 문제해결을 위해.
+접근할 수 있습니다 [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 지침과 문제 해결을 위해.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

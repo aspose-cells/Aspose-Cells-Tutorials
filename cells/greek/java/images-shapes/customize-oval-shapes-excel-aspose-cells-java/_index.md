@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ excelbook.save("YOUR_OUTPUT_DIRECTORY/AddingAnOvalShape_out.xls");
 Ακολουθώντας αυτόν τον οδηγό, είστε πλέον εξοπλισμένοι για να βελτιώσετε τα υπολογιστικά φύλλα του Excel σας με προσαρμοσμένα σχήματα χρησιμοποιώντας το Aspose.Cells για Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

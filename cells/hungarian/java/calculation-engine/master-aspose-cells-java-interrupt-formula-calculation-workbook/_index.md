@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Licencszerzés
 - **Ingyenes próbaverzió:** Tölts le egy próbacsomagot az Aspose weboldaláról a funkciók teszteléséhez.
 - **Ideiglenes engedély:** Szerezd meg ezt a kibővített tesztelési lehetőségekért korlátozások nélkül.
-- **Vásárlás:** Teljes körű kereskedelmi használatra jogosító licenc beszerzése.
+- **Vásárlás:** Teljes körű kereskedelmi használatra jogosító engedély beszerzése.
 
 ### Alapvető inicializálás és beállítás
 Az Aspose.Cells inicializálásához kövesse az alábbi lépéseket:
@@ -134,7 +136,7 @@ A teljesítmény optimalizálása kulcsfontosságú a nagy adathalmazok hatékon
 
 - **Memóriakezelés:** Használja hatékonyan a Java szemétgyűjtését az erőforrások kezelésére, amikor nagy mennyiségű adattal dolgozik.
 - **Hatékony formulatervezés:** Ahol lehetséges, egyszerűsítse a képleteket a számítási terhelés csökkentése érdekében.
-- **Kötegelt feldolgozás:** Ha lehetséges, a számításokat kötegekben dolgozd fel, ahelyett, hogy egyszerre számolnád ki a teljes munkafüzetet.
+- **Kötegelt feldolgozás:** Ha lehetséges, a számításokat kötegekben dolgozza fel, a teljes munkafüzet egyszerre történő kiszámítása helyett.
 
 ## Következtetés
 Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan lehet képletszámítási megszakítást megvalósítani munkafüzetekben az Aspose.Cells for Java használatával. A lépések követésével és a gyakorlati alkalmazások megértésével jelentősen növelheti munkafolyamatainak hatékonyságát összetett Excel-feladatok kezelésekor. 
@@ -143,7 +145,7 @@ Következő lépésként érdemes lehet az Aspose.Cells további funkcióit is m
 
 ## GYIK szekció
 1. **Mi a képletszámítások megszakításának elsődleges haszna egy munkafüzetben?**
-   - A végtelen ciklusok vagy a túlzott feldolgozási idők elkerülése érdekében összetett számítások során.
+   - Végtelen hurkok vagy túlzott feldolgozási idők elkerülése érdekében összetett számítások során.
 2. **Hogyan terjeszthetem ki ezt a funkciót más forgatókönyvekre a B8 cellán túl?**
    - Módosítsa a feltételt a `beforeCalculate` módszer az Ön egyedi igényeinek megfelelően.
 3. **Ingyenesen használható az Aspose.Cells Java-hoz?**
@@ -164,6 +166,9 @@ Következő lépésként érdemes lehet az Aspose.Cells további funkcióit is m
 Ezzel az átfogó útmutatóval felkészülhetsz az Aspose.Cells for Java képletszámítási megszakítási funkcióinak hatékony megvalósítására és kihasználására. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

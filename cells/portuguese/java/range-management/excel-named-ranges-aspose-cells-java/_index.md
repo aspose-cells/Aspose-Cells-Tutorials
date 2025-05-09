@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ Com o intervalo nomeado definido, você pode usá-lo em fórmulas para melhorar 
 
 #### Etapa 3: aplicar fórmula usando intervalo nomeado
 ```java
-// Use "meuNome" como fórmula na célula A1
+// Use "myName" como uma fórmula na célula A1
 worksheets.get(0).getCells().get("A1").setFormula("myName");
 ```
 **Explicação**: `setFormula()` atribui o intervalo nomeado a outra célula, simplificando expressões de fórmula.
@@ -153,7 +155,7 @@ Você pode integrar o Aspose.Cells em aplicativos Java existentes, serviços web
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**:Para pastas de trabalho grandes, gerencie a memória descartando objetos imediatamente.
+- **Otimizar o uso da memória**:Para pastas de trabalho grandes, gerencie a memória descartando objetos imediatamente.
 - **Cálculo de Fórmula Eficiente**: Recalcule apenas as fórmulas necessárias usando `Workbook.calculateFormula(int[] indexes)`.
 - **Melhores Práticas**: Atualize regularmente o Aspose.Cells para se beneficiar de melhorias de desempenho e novos recursos.
 
@@ -192,6 +194,9 @@ Agora você domina a criação e o uso de intervalos nomeados com o Aspose.Cells
 Seguindo este guia, você estará bem equipado para aproveitar o poder dos intervalos nomeados com o Aspose.Cells para Java em seus projetos. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

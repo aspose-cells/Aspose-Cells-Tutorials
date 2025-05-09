@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ public boolean processCell(Cell cell) {
 ## Aplicações práticas
 Aqui estão alguns casos de uso do mundo real:
 1. **Análise de grandes conjuntos de dados:** Processe rapidamente grandes conjuntos de dados sem incorrer em restrições de memória.
-2. **Ferramentas de relatórios personalizadas:** Crie relatórios dinâmicos processando dados do Excel com eficiência.
+2. **Ferramentas de relatórios personalizados:** Crie relatórios dinâmicos processando dados do Excel com eficiência.
 3. **Integração com sistemas de BI:** Use o Aspose.Cells para alimentar ferramentas de Business Intelligence com dados processados para análise.
 
 ## Considerações de desempenho
@@ -200,6 +202,9 @@ Neste guia, você aprendeu como implementar `LightCellsDataHandler` em Java usan
 Seguindo este guia, você estará no caminho certo para dominar o processamento de arquivos do Excel em Java com o Aspose.Cells. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

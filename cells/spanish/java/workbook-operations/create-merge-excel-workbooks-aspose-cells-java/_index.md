@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Para seguir este tutorial de manera eficaz, asegúrese de tener:
 - **Comprensión básica de la programación Java:** Será beneficioso estar familiarizado con la sintaxis y los conceptos de Java.
 
 ## Configuración de Aspose.Cells para Java
-Aspose.Cells simplifica la manipulación de archivos de Excel en Java. Aquí te explicamos cómo configurarlo con Maven o Gradle:
+Aspose.Cells simplifica la manipulación de archivos de Excel en Java. Aquí se explica cómo configurarlo con Maven o Gradle:
 
 **Configuración de Maven:**
 ```xml
@@ -167,6 +169,9 @@ Seguir las mejores prácticas en la gestión de memoria de Java garantiza un fun
 - **Apoyo:** [Foro de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

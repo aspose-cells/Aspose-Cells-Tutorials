@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ A: Ja, användningen av dess streaming-API hjälper till att hantera minnesanvä
 Genom att följa dessa steg och resurser kommer du att vara väl rustad för att effektivt implementera Aspose.Cells för Java i dina projekt. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

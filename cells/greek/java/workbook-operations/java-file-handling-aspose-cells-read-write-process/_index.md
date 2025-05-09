@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,6 +193,9 @@ license.setLicense("path_to_your_license_file");
 Ακολουθώντας αυτόν τον ολοκληρωμένο οδηγό, είστε σε καλό δρόμο για να τελειοποιήσετε τον χειρισμό αρχείων σε Java με το Aspose.Cells. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

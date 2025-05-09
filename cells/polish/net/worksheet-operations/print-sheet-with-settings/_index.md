@@ -1,14 +1,16 @@
 ---
-title: Arkusz wydruku z dodatkowymi ustawieniami
-linktitle: Arkusz wydruku z dodatkowymi ustawieniami
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak bez wysiłku drukować arkusze programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 19
-url: /pl/net/worksheet-operations/print-sheet-with-settings/
+"description": "Dowiedz się, jak bez wysiłku drukować arkusze programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku."
+"linktitle": "Arkusz wydruku z dodatkowymi ustawieniami"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Arkusz wydruku z dodatkowymi ustawieniami"
+"url": "/pl/net/worksheet-operations/print-sheet-with-settings/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Arkusz wydruku z dodatkowymi ustawieniami
@@ -19,7 +21,7 @@ Jeśli kiedykolwiek zdarzyło Ci się żonglować skomplikowanymi arkuszami Exce
 Zanim rozpoczniemy drukowanie, upewnijmy się, że masz wszystko, czego potrzebujesz, aby wszystko przebiegło bezproblemowo:
 1. Visual Studio: To tutaj dzieje się cała magia. Będziesz potrzebować IDE, które obsługuje rozwój .NET, a Visual Studio jest fantastycznym wyborem.
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.Cells obsługuje różne frameworki, więc wybierz ten, który najlepiej odpowiada Twoim potrzebom.
-3.  Biblioteka Aspose.Cells: Musisz zdobyć bibliotekę Aspose.Cells. Możesz ją łatwo uzyskać z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. Biblioteka Aspose.Cells: Musisz zdobyć bibliotekę Aspose.Cells. Możesz ją łatwo uzyskać z [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 4. Podstawowa wiedza o C#: Podstawowe zrozumienie C# będzie bardzo pomocne. Nie martw się; przeprowadzę Cię przez proces kodowania krok po kroku.
 ## Importuj pakiety
 Po pierwsze, musimy skonfigurować nasze środowisko i zaimportować niezbędne pakiety. Oto, jak to zrobić:
@@ -41,16 +43,16 @@ Zanim załadujemy nasz plik Excel, musimy określić, gdzie się znajduje. Ten k
 // Katalog źródłowy
 string sourceDir = "Your Document Directory"; // Zaktualizuj tę ścieżkę do lokalizacji pliku
 ```
- W tym wierszu ustawiamy zmienną`sourceDir` do katalogu pliku Excel. Nie zapomnij zastąpić`"Your Document Directory"` z rzeczywistą ścieżką folderu, w którym znajduje się plik Excel!
+W tym wierszu ustawiamy zmienną `sourceDir` do katalogu pliku Excel. Nie zapomnij zastąpić `"Your Document Directory"` z rzeczywistą ścieżką folderu, w którym znajduje się plik Excel!
 ## Krok 2: Ładowanie skoroszytu programu Excel
-Teraz, gdy mamy zdefiniowaną ścieżkę pliku, załadujmy skoroszyt programu Excel. To tutaj Aspose.Cells się błyszczy.
+Teraz, gdy mamy zdefiniowaną ścieżkę pliku, załadujmy skoroszyt programu Excel. To tutaj Aspose.Cells się wyróżnia.
 ```csharp
 // Załaduj plik źródłowy Excel
 Workbook workbook = new Workbook(sourceDir + "SheetRenderSample.xlsx");
 ```
- W tym kroku tworzymy instancję`Workbook` klasa, która pobiera plik Excel. Upewnij się, że zastąpisz`"SheetRenderSample.xlsx"` z własną nazwą pliku.
+W tym kroku tworzymy instancję `Workbook` klasa, która pobiera plik Excel. Upewnij się, że zastąpisz `"SheetRenderSample.xlsx"` z własną nazwą pliku.
 ## Krok 3: Zdefiniuj opcje obrazu lub wydruku
- Następnie musimy zdecydować, jak chcemy, aby nasz arkusz był renderowany. Robi się to poprzez`ImageOrPrintOptions`.
+Następnie musimy zdecydować, jak chcemy, aby nasz arkusz był renderowany. Robimy to poprzez `ImageOrPrintOptions`.
 ```csharp
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 ```
@@ -61,27 +63,27 @@ Teraz uzyskamy dostęp do arkusza kalkulacyjnego z skoroszytu. To takie proste!
 // Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Worksheet worksheet = workbook.Worksheets[1];
 ```
- Pamiętaj, że indeksowanie zaczyna się od zera, więc`Worksheets[1]` odnosi się do drugiego arkusza w skoroszycie. Dostosuj według swoich potrzeb!
+Pamiętaj, że indeksowanie zaczyna się od zera, więc `Worksheets[1]` odnosi się do drugiego arkusza w skoroszycie. Dostosuj według swoich potrzeb!
 ## Krok 5: Konfigurowanie renderowania arkuszy
- Mając do dyspozycji arkusz kalkulacyjny, musimy go skonfigurować`SheetRender` obiekt, który będzie obsługiwał nasz wydruk.
+Mając do dyspozycji arkusz kalkulacyjny, musimy go skonfigurować `SheetRender` obiekt, który będzie obsługiwał nasz wydruk.
 ```csharp
 SheetRender sheetRender = new SheetRender(worksheet, imgOpt);
 ```
- To tworzy`SheetRender` na przykład pozwalając nam określić, z którego arkusza kalkulacyjnego i opcji skorzystać.
+To tworzy `SheetRender` na przykład pozwalając nam określić, z którego arkusza kalkulacyjnego i opcji skorzystać.
 ## Krok 6: Konfigurowanie ustawień drukarki
-Zanim wyślemy dokument do drukarki, skonfigurujmy ustawienia drukarki tak, aby odpowiadały naszym potrzebom.
+Zanim wyślemy dokument do drukarki, skonfigurujmy ustawienia drukarki zgodnie z naszymi potrzebami.
 ```csharp
 PrinterSettings printerSettings = new PrinterSettings();
-printerSettings.PrinterName = "<PRINTER NAME>"; // Wpisz nazwę swojej drukarki
+printerSettings.PrinterName = "<PRINTER NAME>"; // Wprowadź nazwę swojej drukarki
 printerSettings.Copies = 2; // Ustaw liczbę kopii, jaką chcesz
 ```
- Będziesz musiał wymienić`"<PRINTER NAME>"` nazwą drukarki, której używasz. Możesz także swobodnie dostosować liczbę kopii, jeśli to konieczne.
+Będziesz musiał wymienić `"<PRINTER NAME>"` z nazwą drukarki, której używasz. Możesz także swobodnie dostosować liczbę kopii, jeśli to konieczne.
 ## Krok 7: Wysyłanie arkusza do drukarki
 Nareszcie jesteśmy gotowi do druku! To jest moment, na który czekałeś.
 ```csharp
 sheetRender.ToPrinter(printerSettings);
 ```
-Dzięki temu wierszowi Twój określony arkusz roboczy zostanie wydrukowany na skonfigurowanej drukarce! Voila, Twój arkusz jest teraz gotowy w formie fizycznej!
+Dzięki temu wierszowi Twój określony arkusz kalkulacyjny zostanie wydrukowany na skonfigurowanej drukarce! Voila, Twój arkusz jest teraz gotowy w formie fizycznej!
 ## Wniosek
 I masz to! Właśnie odkryłeś sekrety drukowania arkuszy Excela za pomocą Aspose.Cells dla .NET. Postępując zgodnie z tymi prostymi krokami, możesz bez wysiłku dostosować zadania drukowania do swoich unikalnych potrzeb. Pamiętaj, że z wielką mocą wiąże się wielka odpowiedzialność — więc pobaw się ustawieniami i zmaksymalizuj swoje możliwości drukowania w Excelu!
 ## Najczęściej zadawane pytania
@@ -90,14 +92,16 @@ Aspose.Cells to bogata w funkcje biblioteka umożliwiająca programistom tworzen
 ### Czy mogę wydrukować wiele arkuszy kalkulacyjnych jednocześnie?  
 Tak, można przeglądać wiele arkuszy kalkulacyjnych i stosować do każdego z nich tę samą logikę drukowania.
 ### Czy Aspose.Cells jest darmowy?  
- Aspose.Cells oferuje bezpłatną wersję próbną, ale aby uzyskać dostęp do wszystkich funkcji, może być konieczne zakupienie licencji. Dowiedz się więcej[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale aby uzyskać dostęp do wszystkich funkcji, może być konieczne zakupienie licencji. Dowiedz się więcej [Tutaj](https://purchase.aspose.com/buy).
 ### Jak mogę dostosować wydruk?  
- Możesz dostosować ustawienia i opcje drukowania za pomocą`ImageOrPrintOptions` I`PrinterSettings` zajęcia dostosowane do Twoich wymagań.
+Możesz dostosować ustawienia i opcje drukowania za pomocą `ImageOrPrintOptions` I `PrinterSettings` zajęcia dostosowane do Twoich wymagań.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?  
- Pomocy możesz szukać w społeczności Aspose, odwiedzając ich stronę[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Pomocy możesz szukać w społeczności Aspose, odwiedzając ich stronę [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

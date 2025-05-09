@@ -1,28 +1,30 @@
 ---
-title: Dostosuj poziom kompresji
-linktitle: Dostosuj poziom kompresji
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Zoptymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku.
-weight: 50
-url: /pl/net/excel-workbook/adjust-compression-level/
+"description": "Dowiedz się, jak dostosować poziomy kompresji plików Excela za pomocą Aspose.Cells dla .NET. Zoptymalizuj rozmiary plików efektywnie dzięki temu przewodnikowi krok po kroku."
+"linktitle": "Dostosuj poziom kompresji"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Dostosuj poziom kompresji"
+"url": "/pl/net/excel-workbook/adjust-compression-level/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosuj poziom kompresji
 
 ## Wstęp
 
-Jeśli chodzi o obsługę dużych plików Excel, kluczowa jest wydajna pamięć masowa. Niezależnie od tego, czy jesteś programistą, który chce zoptymalizować rozmiary plików, czy analitykiem danych, który chce przyspieszyć transfery plików, zrozumienie, jak dostosować poziomy kompresji w Aspose.Cells dla .NET, może być przełomem. W tym przewodniku przeprowadzimy Cię przez kroki dostosowywania poziomów kompresji podczas zapisywania plików Excel, zapewniając utrzymanie wydajności bez poświęcania jakości.
+Jeśli chodzi o obsługę dużych plików Excela, kluczowe jest wydajne przechowywanie. Niezależnie od tego, czy jesteś programistą, który chce zoptymalizować rozmiary plików, czy analitykiem danych, który chce przyspieszyć transfery plików, zrozumienie, jak dostosować poziomy kompresji w Aspose.Cells dla .NET, może być przełomem. W tym przewodniku przeprowadzimy Cię przez kroki dostosowywania poziomów kompresji podczas zapisywania plików Excela, zapewniając utrzymanie wydajności bez poświęcania jakości.
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w szczegóły dotyczące poziomów kompresji, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1. Podstawowa wiedza o C#: Podstawowe zrozumienie programowania w C# jest niezbędne. Jeśli dobrze znasz zmienne, pętle i podstawowe operacje na plikach, to jesteś gotowy!
-2. Biblioteka Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać ze strony[strona internetowa](https://releases.aspose.com/cells/net/) Jeśli dopiero zaczynasz, rozważ skorzystanie z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+2. Biblioteka Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać ze strony [strona internetowa](https://releases.aspose.com/cells/net/)Jeśli dopiero zaczynasz, rozważ skorzystanie z bezpłatnego okresu próbnego [Tutaj](https://releases.aspose.com/).
 3. Środowisko programistyczne: Skonfiguruj środowisko programistyczne, najlepiej Visual Studio, aby pisać i wykonywać kod C#. 
 4. Przykładowy plik Excela: Przygotuj duży plik Excela do testowania. Możesz utworzyć taki plik lub użyć dowolnego istniejącego pliku, ale upewnij się, że jest wystarczająco duży, aby zobaczyć efekty kompresji.
 
@@ -40,7 +42,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
- Ten fragment kodu importuje`Aspose.Cells` przestrzeń nazw, która zawiera wszystkie klasy potrzebne do pracy z plikami Excel.`Aspose.Cells.Xlsb` przestrzeń nazw jest przeznaczona specjalnie do obsługi plików w formacie XLSB.
+Ten fragment kodu importuje `Aspose.Cells` przestrzeń nazw, która zawiera wszystkie klasy potrzebne do pracy z plikami Excel. `Aspose.Cells.Xlsb` przestrzeń nazw jest przeznaczona specjalnie do obsługi plików w formacie XLSB.
 
 Teraz, gdy wszystko jest już skonfigurowane, podzielmy proces dostosowywania poziomów kompresji na łatwe do opanowania kroki. Zapiszemy skoroszyt z różnymi poziomami kompresji i zmierzymy czas potrzebny na każdą operację. 
 
@@ -62,11 +64,11 @@ Następnie załadujemy skoroszyt programu Excel, który chcemy skompresować. Tu
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Ta linia inicjuje nowy`Workbook` obiekt z określonym plikiem. Upewnij się, że ścieżka do pliku jest poprawna; w przeciwnym razie wystąpią błędy.
+Ta linia inicjuje nowy `Workbook` obiekt z określonym plikiem. Upewnij się, że ścieżka do pliku jest poprawna; w przeciwnym razie wystąpią błędy.
 
 ## Krok 3: Utwórz opcje zapisu dla XLSB
 
- Teraz utworzymy instancję`XlsbSaveOptions`, która umożliwia nam określenie sposobu zapisywania skoroszytu, w tym poziomu kompresji.
+Teraz utworzymy instancję `XlsbSaveOptions`, która umożliwia nam określenie sposobu zapisywania skoroszytu, w tym poziomu kompresji.
 
 ```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
@@ -143,19 +145,21 @@ Dostosowywanie poziomów kompresji podczas zapisywania plików Excel za pomocą 
 Aspose.Cells to biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 
 ### Jak pobrać Aspose.Cells?
- Bibliotekę Aspose.Cells można pobrać ze strony[strona internetowa](https://releases.aspose.com/cells/net/).
+Bibliotekę Aspose.Cells można pobrać ze strony [strona internetowa](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, Aspose oferuje bezpłatną wersję próbną, do której możesz uzyskać dostęp[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną, do której możesz uzyskać dostęp [Tutaj](https://releases.aspose.com/).
 
 ### Jakie są dostępne poziomy kompresji?
 Aspose.Cells obsługuje wiele poziomów kompresji od Poziomu 1 (najmniejsza kompresja) do Poziomu 9 (maksymalna kompresja).
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie i zadać pytania na[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie i zadać pytania na [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Získání licence
 
-Můžete získat dočasnou licenci k testování Aspose.Cells bez omezení nebo si ji zakoupit pro dlouhodobé užívání. Začněte s [bezplatná zkušební verze](https://releases.aspose.com/cells/java/) a zvažte pořízení [dočasná licence](https://purchase.aspose.com/temporary-license/) případě potřeby.
+Můžete získat dočasnou licenci k testování Aspose.Cells bez omezení nebo si ji zakoupit pro dlouhodobé užívání. Začněte s [bezplatná zkušební verze](https://releases.aspose.com/cells/java/) a zvažte pořízení [dočasná licence](https://purchase.aspose.com/temporary-license/) v případě potřeby.
 
 ### Základní inicializace
 
@@ -176,6 +178,9 @@ Experimentujte s různými typy a styly tvarů nebo integrujte knihovnu do vět�
 - **Podpora:** Vyhledejte pomoc na [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

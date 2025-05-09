@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/setting-auto-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Auto Format of Pivot Table Programmatically in .NET
@@ -101,6 +103,7 @@ Yes! By incorporating this code into a scheduled task, you can automate report g
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

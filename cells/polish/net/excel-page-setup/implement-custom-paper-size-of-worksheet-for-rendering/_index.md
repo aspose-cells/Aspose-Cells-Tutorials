@@ -1,28 +1,30 @@
 ---
-title: Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
-linktitle: Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się ustawiać niestandardowe rozmiary papieru w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący płynnego renderowania arkusza kalkulacyjnego.
-weight: 50
-url: /pl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
+"description": "Dowiedz się, jak ustawić niestandardowe rozmiary papieru w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący płynnego renderowania arkusza kalkulacyjnego."
+"linktitle": "Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania"
+"url": "/pl/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wdrażanie niestandardowego rozmiaru papieru arkusza kalkulacyjnego do renderowania
 
 ## Wstęp
 
-Tworzenie i dostosowywanie dokumentów Excela programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce w świecie .NET,
+Tworzenie i dostosowywanie dokumentów Excel programowo może zwiększyć wydajność pracy, zwłaszcza jeśli masz do czynienia z wieloma raportami lub wpisami danych. Dzięki Aspose.Cells dla .NET możesz łatwo ustawić niestandardowe rozmiary papieru do renderowania arkuszy kalkulacyjnych. W tym samouczku podzielimy proces na łatwe do wykonania kroki, zapewniając, że możesz bezproblemowo wdrożyć tę funkcjonalność. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zanurzasz palce u stóp w świecie .NET,
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Oto, czego potrzebujesz, aby zacząć:
 
 1. Visual Studio lub dowolne IDE .NET: Upewnij się, że masz działające IDE, takie jak Visual Studio. To będzie Twój plac zabaw, gdzie dzieje się cała magia kodowania.
-2. Pakiet Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz pobrać i zainstalować bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz na stronie[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Pakiet Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz pobrać i zainstalować bibliotekę Aspose.Cells. Najnowszą wersję znajdziesz na [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Choć przeprowadzimy Cię przez kod, znajomość języka C# pomoże Ci lepiej zrozumieć niuanse.
 4. Dostęp do .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany tak, aby był docelowy dla zgodnej wersji .NET Framework.
 
@@ -63,7 +65,7 @@ Zanim zaczniesz kodować, zdecyduj, gdzie chcesz zapisać plik PDF i skonfiguruj
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR_OUTPUT_DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać swój dokument PDF. Pomyśl o tym jak o nakryciu stołu przed rozpoczęciem gotowania; potrzebujesz czystej przestrzeni do pracy.
+Pamiętaj o wymianie `"YOUR_OUTPUT_DIRECTORY"` z rzeczywistą ścieżką, w której chcesz zapisać swój dokument PDF. Pomyśl o tym jak o nakryciu stołu przed rozpoczęciem gotowania; potrzebujesz czystej przestrzeni do pracy.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -91,7 +93,7 @@ Teraz przechodzimy do soczystej części. Ustawmy niestandardowy rozmiar papieru
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
 
-W tym scenariuszu określamy rozmiar w calach. Pomyśl o tym jak o szyciu garnituru, aby idealnie pasował — każdy szczegół ma znaczenie!
+tym scenariuszu określamy rozmiar w calach. Pomyśl o tym jak o szyciu garnituru, aby idealnie pasował — każdy szczegół ma znaczenie!
 
 ## Krok 5: Uzyskaj dostęp do komórki
 
@@ -130,22 +132,24 @@ Wdrożenie niestandardowego rozmiaru papieru dla arkuszy kalkulacyjnych programu
 ## Najczęściej zadawane pytania
 
 ### Czy mogę używać Aspose.Cells bez zakupu licencji?
- Tak, możesz wypróbować bezpłatną wersję próbną Aspose.Cells dla .NET, dostępną[Tutaj](https://releases.aspose.com/).
+Tak, możesz wypróbować bezpłatną wersję próbną Aspose.Cells dla .NET, dostępną [Tutaj](https://releases.aspose.com/).
 
 ### Co się stanie, jeśli przekroczę limity licencji tymczasowej?
- Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby zapewnić nieprzerwaną usługę. Możesz znaleźć opcje[Tutaj](https://purchase.aspose.com/buy).
+Przekroczenie limitów spowoduje wydruki z znakiem wodnym. Najlepiej wybrać stałą licencję, aby uzyskać nieprzerwaną usługę. Możesz znaleźć opcje [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?
 Tak, Aspose.Cells dla .NET obsługuje .NET Core. Możesz bezproblemowo zintegrować go ze swoimi nowoczesnymi aplikacjami.
 
 ### Gdzie mogę uzyskać pomoc, jeśli wystąpią problemy?
- Możesz skontaktować się z nami za pośrednictwem forum wsparcia Aspose[Tutaj](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w razie jakichkolwiek problemów technicznych.
+Możesz skontaktować się z nami za pośrednictwem forum wsparcia Aspose [Tutaj](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w razie jakichkolwiek problemów technicznych.
 
 ### Czy mogę dostosować inne aspekty arkusza kalkulacyjnego za pomocą Aspose.Cells?
 Oczywiście! Aspose.Cells oferuje solidny zestaw funkcji do dostosowywania arkuszy kalkulacyjnych, w tym style, formuły i wiele więcej.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

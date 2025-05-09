@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/specifying-html-crosstype-in-o
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specifying HTML CrossType in Output HTML Programmatically in .NET
@@ -97,6 +99,7 @@ Make sure that the directory paths are correct and that you have write permissio
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

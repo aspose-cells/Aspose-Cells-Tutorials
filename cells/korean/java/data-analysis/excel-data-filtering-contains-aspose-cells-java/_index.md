@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ A1: Excel 파일을 프로그래밍 방식으로 관리하기 위한 라이브�
 **Q2: Aspose.Cells를 다른 Java 라이브러리와 함께 사용할 수 있나요?**
 A2: 네, 다양한 Java 프레임워크와 잘 통합되어 애플리케이션에서의 다양성이 향상됩니다.
 
-**질문 3: Aspose.Cells를 사용하여 대용량 데이터 세트를 효율적으로 처리하려면 어떻게 해야 하나요?**
+**Q3: Aspose.Cells를 사용하여 대용량 데이터 세트를 효율적으로 처리하려면 어떻게 해야 하나요?**
 A3: 스트리밍이나 메모리에서 사용되지 않는 객체를 주기적으로 지우는 등의 메모리 관리 기술을 사용합니다.
 
 **질문 4: Excel 작업을 위한 Aspose.Cells의 대안은 무엇입니까?**
@@ -197,6 +199,9 @@ A5: 방문하세요 [Aspose 임시 라이센스 페이지](https://purchase.aspo
 이 포괄적인 가이드를 통해 Aspose.Cells for Java를 프로젝트에 효과적으로 구현할 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

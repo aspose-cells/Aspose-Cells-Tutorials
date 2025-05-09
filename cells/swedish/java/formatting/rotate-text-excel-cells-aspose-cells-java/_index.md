@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Förbättra dina Excel-arks visuella utseende genom att rotera text i celler med
 Innan du börjar, se till att du har:
 1. **Bibliotek och beroenden:** Inkludera Aspose.Cells i ditt projekt via Maven eller Gradle.
 2. **Miljöinställningar:** En Java IDE med JDK installerat (t.ex. IntelliJ IDEA, Eclipse).
-3. **Kunskapsförkunskaper:** Grundläggande förståelse för filhantering i Java och Excel.
+3. **Kunskapsförkunskapskrav:** Grundläggande förståelse för filhantering i Java och Excel.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -145,6 +147,9 @@ A: Besök [Aspose.Cells-dokumentation](https://reference.aspose.com/cells/java/)
 - **Stöd:** [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

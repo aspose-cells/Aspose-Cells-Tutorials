@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel OLE and Picture Objects
@@ -44,9 +46,11 @@ Learn how to position images absolutely in Excel using Aspose.Cells for .NET wit
 Learn how to position images proportionally in Excel using Aspose.Cells for .NET. Make your spreadsheets more visually appealing.
 ### [Reference Picture Cell in Excel](./reference-picture-cell-excel/)
 Learn how to reference a picture cell in Excel using Aspose.Cells for .NET with this step-by-step tutorial. Enhance your spreadsheets.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

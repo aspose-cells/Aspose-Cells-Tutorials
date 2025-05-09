@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ Lägg till detta i din `build.gradle` fil:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 ### Licensförvärv
-Aspose.Cells för Java erbjuder en gratis provperiod med begränsad funktionalitet, en tillfällig licens för teständamål eller en fullständig kommersiell licens för produktionsanvändning.
+Aspose.Cells för Java erbjuder en gratis testversion med begränsad funktionalitet, en tillfällig licens för teständamål eller en fullständig kommersiell licens för produktionsanvändning.
 - **Gratis provperiod**Ladda ner från [Aspose Gratis Testperioder](https://releases.aspose.com/cells/java/).
 - **Tillfällig licens**Applicera på [Aspose tillfällig licenssida](https://purchase.aspose.com/temporary-license/).
 - **Köpa**Köp en fullständig licens via [Aspose-köp](https://purchase.aspose.com/buy).
@@ -108,7 +110,7 @@ Den här guiden behandlade hur man kopierar flera kolumner i ett kalkylblad med 
 **Nästa steg**Utforska andra funktioner i Aspose.Cells för Java, som villkorsstyrd formatering eller diagramskapande, för att ytterligare förbättra dina automatiseringsfärdigheter i Excel.
 ## FAQ-sektion
 1. **Hur åtgärdar jag fel när jag kopierar kolumner?**
-   - Säkerställ att käll- och destinationsindexen är korrekta och inom ramen för tillgängliga data.
+   - Se till att käll- och destinationsindexen är korrekta och inom ramen för tillgängliga data.
 2. **Kan jag kopiera kolumner mellan olika kalkylblad med Aspose.Cells?**
    - Ja, genom att öppna ett annat arbetsblad `Cells` samling på samma sätt som vi öppnade arket "Kolumner".
 3. **Vad ska jag göra om mina kopierade kolumner innehåller formler som behöver uppdateras?**
@@ -116,7 +118,7 @@ Den här guiden behandlade hur man kopierar flera kolumner i ett kalkylblad med 
 4. **Finns det en gräns för hur många kolumner jag kan kopiera?**
    - Generellt sett finns ingen hård gräns förutom minnesbegränsningar och Excels kolumngränser (t.ex. 16 384 i moderna versioner).
 5. **Hur integrerar jag den här funktionen i en befintlig Java-applikation?**
-   - Importera Aspose.Cells-klasser, initiera en `Workbook` objektet med din sökväg och tillämpa metoderna som visas.
+   - Importera Aspose.Cells-klasser, initiera en `Workbook` objektet med din filsökväg och tillämpa metoderna som visas.
 ## Resurser
 - [Aspose.Cells för Java-dokumentation](https://reference.aspose.com/cells/java/)
 - [Ladda ner senaste utgåvan](https://releases.aspose.com/cells/java/)
@@ -126,6 +128,9 @@ Den här guiden behandlade hur man kopierar flera kolumner i ett kalkylblad med 
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

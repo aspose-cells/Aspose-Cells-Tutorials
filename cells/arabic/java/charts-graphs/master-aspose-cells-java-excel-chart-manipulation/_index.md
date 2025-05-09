@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ license.setLicense("path_to_your_license_file");
 من خلال اتباع هذا البرنامج التعليمي، ستكون في طريقك إلى إتقان استخدام Aspose.Cells لـ Java، مما يجعل معالجة مخططات Excel أمرًا سهلاً في مشاريعك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

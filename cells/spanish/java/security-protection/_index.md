@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ Aprenda a proteger documentos de Excel con nuestros completos tutoriales de segu
 
 ## Tutoriales disponibles
 
-### [Agregar firmas digitales a archivos de Excel con Aspose.Cells para Java: una guía completa](./add-digital-signatures-excel-aspose-cells-java/)
+### [Cómo añadir firmas digitales a archivos de Excel con Aspose.Cells para Java: una guía completa](./add-digital-signatures-excel-aspose-cells-java/)
 Aprenda a agregar firmas digitales a archivos de Excel con Aspose.Cells para Java. Esta guía abarca la configuración, la carga de libros y la creación de firmas digitales seguras.
 
 ### [Cómo agregar una línea de firma a una imagen en Excel usando Java y Aspose.Cells](./add-signature-line-image-excel-java-aspose-cells/)
@@ -126,6 +128,9 @@ Aprenda a proteger sus documentos de Excel con firmas digitales XAdES usando Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
 Ακολουθώντας αυτόν τον οδηγό, μπορείτε να ενσωματώσετε αποτελεσματικά το Aspose.Cells στα έργα σας Java για να βελτιώσετε τις λειτουργίες των γραφημάτων του Excel με προσαρμοσμένες σχολιασμούς κειμένου. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

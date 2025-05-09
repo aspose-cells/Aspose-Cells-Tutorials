@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ workbook.setEncryptionOptions(EncryptionType.XOR, 40); // Imposta il livello di 
 ```
 **Spiegazione**: IL `setEncryptionOptions` Il metodo specifica il tipo di crittografia e la sua forza. Qui viene utilizzato XOR con un valore di bit pari a 40.
 
-### Applicazione di crittografia avanzata su un file Excel
+### Applicazione di crittografia avanzata a un file Excel
 
 #### Panoramica
 Aspose.Cells supporta la crittografia avanzata tramite provider crittografici per una maggiore sicurezza:
@@ -179,6 +181,9 @@ Successivamente, prova a implementare queste tecniche nei tuoi progetti o approf
    - Sì, supporta operazioni batch che possono aumentare significativamente la produttività quando si gestiscono più file.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

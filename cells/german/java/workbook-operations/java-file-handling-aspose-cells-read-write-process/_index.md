@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,6 +193,9 @@ Bereit, Ihre Java-Entwicklung auf das nächste Level zu heben? Implementieren Si
 Wenn Sie dieser umfassenden Anleitung folgen, sind Sie auf dem besten Weg, die Dateiverwaltung in Java mit Aspose.Cells zu meistern. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

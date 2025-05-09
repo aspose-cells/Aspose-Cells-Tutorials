@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Az Excel-fájlok programozott kezelése összetett lehet, különösen akkor, ha
 Vizsgáljuk meg, hogyan valósíthatja meg hatékonyan ezeket a funkciókat. Mielőtt elkezdenénk, győződjön meg arról, hogy rendelkezik a szükséges előfeltételekkel.
 
 ## Előfeltételek
-folytatáshoz a következőkre lesz szükséged:
+A folytatáshoz a következőkre lesz szükséged:
 - **Aspose.Cells Java könyvtárhoz**Győződjön meg róla, hogy a 25.3-as vagy újabb verzióval rendelkezik.
 - **Java fejlesztői környezet**JDK-val és egy IDE-vel, például IntelliJ IDEA-val vagy Eclipse-szel rendelkező beállítás.
 - **Java alapismeretek**Jártasság a Java programozási alapfogalmakban.
@@ -60,7 +62,7 @@ Ez a szakasz minden egyes funkciót kezelhető lépésekre bont le, világos kó
 
 ### Az Aspose.Cells Java verziójának megjelenítése
 #### Áttekintés
-hibakeresés és a kompatibilitás szempontjából elengedhetetlen tudni, hogy egy adott könyvtár melyik verziójával dolgozol. Ez a lépés bemutatja, hogyan jelenítheted meg az Aspose.Cells aktuális verzióját.
+hibakeresés és a kompatibilitás szempontjából elengedhetetlen, hogy tudjuk, egy adott könyvtár melyik verziójával dolgozunk. Ez a lépés bemutatja, hogyan jeleníthetjük meg az Aspose.Cells aktuális verzióját.
 **1. lépés: Szükséges osztályok importálása**
 ```java
 import com.aspose.cells.CellsHelper;
@@ -76,7 +78,7 @@ System.out.println("Aspose.Cells Version: " + CellsHelper.getVersion());
 ```
 ### HTML kereszttípusú felsorolások konvertálása karakterláncokká
 #### Áttekintés
-Ez a funkció lehetővé teszi az átalakítást `HtmlCrossType` enumokat ad a karakterlánc-reprezentációikhoz, ami hasznos az Excel-adatok HTML-exportálásának konfigurálásakor.
+Ez a funkció lehetővé teszi az átalakítást `HtmlCrossType` enumerálja a karakterlánc-reprezentációikat, ami hasznos az Excel-adatok HTML-be exportálásának konfigurálásakor.
 **1. lépés: Szükséges osztályok importálása**
 ```java
 import com.aspose.cells.HtmlCrossType;
@@ -151,6 +153,9 @@ Most már megtanultad, hogyan jelenítheted meg az Aspose.Cells Java verzióját
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

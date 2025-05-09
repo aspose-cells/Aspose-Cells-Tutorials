@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Sie haben nun gelernt, wie Sie mit Aspose.Cells für Java ein Arbeitsblatt anhan
 Mit dieser Anleitung sind Sie bestens gerüstet, um Excel-Tabellen mit Aspose.Cells in Java effizient zu verwalten. Beginnen Sie noch heute mit der Implementierung und überzeugen Sie sich selbst, wie Ihre Projekte davon profitieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

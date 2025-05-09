@@ -8,7 +8,9 @@ url: /java/excel-data-analysis/advanced-data-analysis-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Data Analysis Excel
@@ -210,6 +212,7 @@ Aspose.Cells for Java supports exporting analysis results to various formats, in
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การตั้งค่าสีและการปรับแต่งใน Excel
-linktitle: การตั้งค่าสีและการปรับแต่งใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้การตั้งค่าและปรับแต่งสีใน Excel ด้วย Aspose.Cells สำหรับ .NET เรียนรู้วิธีคำนวณสีที่เลือกใน Excel ด้วยโปรแกรมในบทช่วยสอนทีละขั้นตอนนี้
-weight: 27
-url: /th/net/color-settings-and-customization-in-excel/
+"description": "เรียนรู้การตั้งค่าและปรับแต่งสีใน Excel ด้วย Aspose.Cells สำหรับ .NET เรียนรู้วิธีคำนวณสีที่เลือกใน Excel ด้วยโปรแกรมในบทช่วยสอนทีละขั้นตอนนี้"
+"linktitle": "การตั้งค่าสีและการปรับแต่งใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การตั้งค่าสีและการปรับแต่งใน Excel"
+"url": "/th/net/color-settings-and-customization-in-excel/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตั้งค่าสีและการปรับแต่งใน Excel
@@ -25,10 +27,12 @@ url: /th/net/color-settings-and-customization-in-excel/
 
 ## การตั้งค่าสีและการปรับแต่งในบทช่วยสอน Excel
 ### [คำนวณสีที่เลือกโดยโปรแกรม MS Excel](./compute-color-chosen-by-ms-excel/)
-เรียนรู้วิธีการคำนวณสีที่เลือกโดย MS Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อเข้าถึงโปรแกรมการจัดรูปแบบสีตามเงื่อนไขของ Excel
+เรียนรู้วิธีการคำนวณสีที่เลือกโดย MS Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อเข้าถึงโปรแกรมการจัดรูปแบบตามเงื่อนไขสีของ Excel
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

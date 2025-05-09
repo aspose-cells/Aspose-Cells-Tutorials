@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ A bemutató végére gyakorlati készségekkel fogsz rendelkezni az Excel-prezen
 A hatékony követés érdekében győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Java fejlesztőkészlet (JDK)**Telepítse a JDK 8-as vagy újabb verzióját.
 - **Integrált fejlesztői környezet (IDE)**Java kód írásához és futtatásához használjon olyan IDE-ket, mint az IntelliJ IDEA vagy az Eclipse.
-- **Aspose.Cells könyvtár**Az Aspose.Cells integrálása Java-ba Maven vagy Gradle használatával.
+- **Aspose.Cells könyvtár**Az Aspose.Cells integrálása Java-ban Maven vagy Gradle használatával.
 
 ### Kötelező könyvtárak
 **Szakértő**
@@ -45,7 +47,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Környezet beállítása
-Győződjön meg róla, hogy a környezete a megfelelő JDK-val és egy Java projekteket támogató IDE-vel van beállítva. Vegye fel az Aspose.Cells fájlt a projekt függőségei közé.
+Győződjön meg róla, hogy a környezete a megfelelő JDK-val és egy Java projekteket támogató IDE-vel van beállítva. Vegye fel az Aspose.Cells-t a projekt függőségei közé.
 
 ### Licencbeszerzés lépései
 Az Aspose ingyenes próbaverziót kínál értékelésre:
@@ -99,7 +101,7 @@ public class RemoveWhitespace {
 #### 2. lépés: A munkalap elérése (H3)
 Nyissa meg a módosítani kívánt munkalapot, általában index vagy név alapján.
 ```java
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet sheet = book.getWorksheets().get(0);
 System.out.println("Worksheet accessed successfully!");
 ```
@@ -191,6 +193,9 @@ A2: Alapértelmezés szerint minden egyes munkalap különálló képként jelen
 A3: A támogatott formátumok közé tartozik az EMF, PNG, JPEG, BMP és GIF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

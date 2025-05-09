@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-width-of-all-columns-in-workshe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Width of All Columns in Worksheet with Aspose.Cells
@@ -93,6 +95,7 @@ You can find the [Aspose.Cells documentation](https://reference.aspose.com/cells
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

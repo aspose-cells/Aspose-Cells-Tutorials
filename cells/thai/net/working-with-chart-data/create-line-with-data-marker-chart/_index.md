@@ -1,14 +1,16 @@
 ---
-title: สร้างเส้นด้วยแผนภูมิตัวระบุข้อมูล
-linktitle: สร้างเส้นด้วยแผนภูมิตัวระบุข้อมูล
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการสร้างแผนภูมิเส้นที่มีเครื่องหมายข้อมูลใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อสร้างและปรับแต่งแผนภูมิได้อย่างง่ายดาย
-weight: 10
-url: /th/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "เรียนรู้วิธีการสร้างแผนภูมิเส้นที่มีเครื่องหมายข้อมูลใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อสร้างและปรับแต่งแผนภูมิได้อย่างง่ายดาย"
+"linktitle": "สร้างเส้นด้วยแผนภูมิตัวระบุข้อมูล"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "สร้างเส้นด้วยแผนภูมิตัวระบุข้อมูล"
+"url": "/th/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างเส้นด้วยแผนภูมิตัวระบุข้อมูล
@@ -21,10 +23,10 @@ url: /th/net/working-with-chart-data/create-line-with-data-marker-chart/
 
 ก่อนที่เราจะเริ่มต้น โปรดตรวจสอบให้แน่ใจว่าคุณมีทุกอย่างพร้อมเพื่อให้สามารถปฏิบัติตามได้อย่างราบรื่น
 
-1. Aspose.Cells สำหรับไลบรารี .NET – คุณจะต้องติดตั้งสิ่งนี้ คุณสามารถดาวน์โหลดมันได้[ที่นี่](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells สำหรับไลบรารี .NET – คุณจะต้องติดตั้งสิ่งนี้ คุณสามารถดาวน์โหลดมันได้ [ที่นี่](https://releases-aspose.com/cells/net/).
 2. .NET Framework – ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณได้รับการตั้งค่าด้วย .NET เวอร์ชันล่าสุด
 3. IDE (Integrated Development Environment) – แนะนำ Visual Studio
-4.  ใบอนุญาต Aspose.Cells ที่ถูกต้อง – หากคุณไม่มี คุณสามารถร้องขอได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือลองดูของพวกเขา[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+4. ใบอนุญาต Aspose.Cells ที่ถูกต้อง – หากคุณไม่มี คุณสามารถร้องขอได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือลองดูของพวกเขา [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 พร้อมแล้วหรือยัง? มาดูรายละเอียดกันเลย!
 
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // ตั้งค่าสีพื้นหน้าเป็นสีขาว
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//ตั้งค่าคุณสมบัติชื่อแผนภูมิ
+// ตั้งค่าคุณสมบัติชื่อแผนภูมิ
 chart.Title.Text = "Sample Chart";
 
 // ตั้งค่าประเภทแผนภูมิ
@@ -137,7 +139,7 @@ int s2_idx = chart.NSeries.Add("A2: A21", true);
 int s3_idx = chart.NSeries.Add("A22: A41", true);
 ```
 
-ชุดข้อมูลเหล่านี้สอดคล้องกับช่วงของจุดข้อมูลที่เราเติมไว้ก่อนหน้านี้
+ชุดข้อมูลเหล่านี้สอดคล้องกับช่วงจุดข้อมูลที่เราเติมไว้ก่อนหน้านี้
 
 ## ขั้นตอนที่ 6: เพิ่มสีและปรับแต่งเครื่องหมายซีรีส์
 
@@ -192,19 +194,21 @@ workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveForm
 แน่นอน! Aspose.Cells มีตัวเลือกการปรับแต่งมากมาย ตั้งแต่แบบอักษรไปจนถึงเส้นตารางและอื่นๆ อีกมากมาย
 
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells หรือไม่?  
- ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือเริ่มต้นด้วย[ทดลองใช้งานฟรี](https://releases.aspose.com/).
+ใช่ ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือเริ่มต้นด้วย [ทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันจะเพิ่มชุดข้อมูลเพิ่มเติมได้อย่างไร?  
- เพียงเพิ่มซีรีย์เพิ่มเติมโดยใช้`NSeries.Add` วิธีการระบุช่วงเซลล์สำหรับข้อมูลใหม่
+เพียงเพิ่มซีรีย์เพิ่มเติมโดยใช้ `NSeries.Add` วิธีการระบุช่วงเซลล์สำหรับข้อมูลใหม่
 
 ### ฉันสามารถส่งออกแผนภูมิเป็นรูปภาพได้หรือไม่  
- ใช่ คุณสามารถส่งออกแผนภูมิโดยตรงเป็นรูปภาพโดยใช้`Chart.ToImage` วิธี.
+ใช่ คุณสามารถส่งออกแผนภูมิโดยตรงเป็นรูปภาพโดยใช้ `Chart.ToImage` วิธี.
 
 ### Aspose.Cells รองรับแผนภูมิ 3D หรือไม่?  
 ใช่ Aspose.Cells รองรับแผนภูมิประเภทต่างๆ มากมาย รวมถึงแผนภูมิ 3 มิติด้วย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

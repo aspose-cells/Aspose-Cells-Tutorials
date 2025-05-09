@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Dominar la creación y el estilo de libros de trabajo con Aspose.Cells para Java
+# Dominando la creación y el estilo de libros de trabajo con Aspose.Cells para Java
 
 ## Introducción
 Crear libros de Excel mediante programación puede ser una tarea abrumadora, especialmente al lidiar con requisitos complejos de manipulación de datos y estilo. Tanto si eres un desarrollador experimentado como si estás empezando, la necesidad de generar archivos de Excel robustos y eficientes es constante. **Aspose.Cells para Java**, una potente biblioteca que simplifica la creación y el estilo de libros de trabajo, haciendo que su vida sea significativamente más sencilla.
@@ -166,6 +168,9 @@ Explora estos recursos para profundizar tu comprensión y maximizar la utilidad 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

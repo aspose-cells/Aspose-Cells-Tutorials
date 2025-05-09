@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial gambar dan bentuk kami menunjukkan kepada Anda cara menyempurnakan lembar kerja Excel dengan elemen visual menggunakan Aspose.Cells di Java. Panduan praktis ini membahas cara menyisipkan dan memformat gambar, membuat bentuk khusus, menerapkan diagram, dan mengelola objek gambar dalam lembar kerja. Setiap tutorial menyertakan contoh kode Java terperinci untuk skenario penyempurnaan visual umum, membantu Anda membangun aplikasi lembar kerja yang lebih menarik yang secara efektif menggabungkan data dengan elemen grafis.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi gambar & bentuk
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -137,10 +139,13 @@ Pelajari cara menyempurnakan laporan Excel Anda dengan menambahkan gambar latar 
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tipos de gráficos combinados
@@ -124,7 +126,7 @@ Sim, o Aspose.Cells para Java suporta uma ampla variedade de tipos de gráficos,
 
 ### O Aspose.Cells para Java é adequado tanto para iniciantes quanto para desenvolvedores Java experientes?
 
-O Aspose.Cells para Java foi projetado para ser intuitivo, tornando-o adequado tanto para iniciantes quanto para desenvolvedores experientes. Ele fornece uma API de alto nível para facilitar o uso, além de oferecer recursos avançados para quem já tem mais experiência.
+Aspose.Cells para Java foi projetado para ser intuitivo, tornando-o adequado tanto para iniciantes quanto para desenvolvedores experientes. Ele fornece uma API de alto nível para facilitar o uso, além de oferecer recursos avançados para quem já tem mais experiência.
 
 ### Posso personalizar ainda mais a aparência do meu gráfico combinado?
 
@@ -137,6 +139,7 @@ Você pode encontrar documentação abrangente e uma grande variedade de exemplo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

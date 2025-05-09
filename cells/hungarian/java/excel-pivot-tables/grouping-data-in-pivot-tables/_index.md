@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatok csoportosítása kimutatástáblákban
 
 
-A pivot táblázatok hatékony eszközök az adatok táblázatokban történő elemzéséhez és összegzéséhez. Lehetővé teszik az adatok csoportosítását és kategorizálását, hogy értékes információkat nyerjen. Ebben a cikkben azt vizsgáljuk meg, hogyan csoportosíthatja hatékonyan az adatokat a pivot táblázatokban az Aspose.Cells for Java használatával, forráskódpéldákkal együtt.
+pivot táblázatok hatékony eszközök az adatok táblázatokban történő elemzéséhez és összegzéséhez. Lehetővé teszik az adatok csoportosítását és kategorizálását, hogy értékes információkat nyerjen. Ebben a cikkben azt vizsgáljuk meg, hogyan csoportosíthatja hatékonyan az adatokat a pivot táblázatokban az Aspose.Cells for Java használatával, forráskódpéldákkal együtt.
 
 ## Bevezetés
 
@@ -76,7 +78,7 @@ workbook.save("output_grouped.xlsx");
 
 ## 3. lépés: Csoportosítás testreszabása
 
-csoportosítási beállításokat tovább testreszabhatja, például dátumalapú csoportosítási intervallumokat vagy egyéni csoportosítási szabályokat adhat meg. Íme egy példa a dátumalapú csoportosítás testreszabására:
+A csoportosítási beállításokat tovább testreszabhatja, például dátumalapú csoportosítási intervallumokat vagy egyéni csoportosítási szabályokat adhat meg. Íme egy példa a dátumalapú csoportosítás testreszabására:
 
 ```java
 // Nyissa meg a „Dátum” mezőt a pivot táblában (feltételezve, hogy dátummezőről van szó)
@@ -103,14 +105,16 @@ Az Excelben a pivot táblázatok nagy adathalmazok összefoglalására és elemz
 
 ### 2. Hogyan szabhatom testre az adatok csoportosítását egy kimutatástáblázatban?
 
-kimutatástáblázatban lévő adatok csoportosítását testreszabhatja a `PivotField` osztály az Aspose.Cells programban Java-ban. Ez lehetővé teszi csoportosítási feltételek megadását, például dátumalapú intervallumokat vagy egyéni szabályokat.
+A kimutatástáblázatban lévő adatok csoportosítását testreszabhatja a `PivotField` osztály az Aspose.Cells programban Java-ban. Ez lehetővé teszi csoportosítási feltételek megadását, például dátumalapú intervallumokat vagy egyéni szabályokat.
 
 ### 3. Automatizálhatom a pivot táblák létrehozását az Aspose.Cells for Java használatával?
 
 Igen, automatizálhatja a pivot táblák létrehozását Excelben az Aspose.Cells for Java használatával, ahogy azt a megadott forráskód példák is mutatják.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

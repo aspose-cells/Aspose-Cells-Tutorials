@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ public class ExcelAutomation {
 
 ### Bir Excel Çalışma Kitabı Yükle
 **Genel Bakış:**
-Mevcut bir Excel dosyasını bir Excel dosyasına yükleme `Workbook` nesne, Excel'i Aspose.Cells ile otomatikleştirmenin ilk adımıdır. Bu, verileri programatik olarak işlemenize olanak tanır.
+Mevcut bir Excel dosyasını bir Excel dosyasına yükleme `Workbook` nesnesi, Excel'i Aspose.Cells ile otomatikleştirmenin ilk adımıdır. Bu, verileri programatik olarak işlemenize olanak tanır.
 
 #### Adım Adım Uygulama:
 **Gerekli Paketleri İçe Aktarın:**
@@ -101,7 +103,7 @@ Hücre koleksiyonlarına erişim, paylaşılan formülleri birden fazla hücreye
 import com.aspose.cells.Cells;
 ```
 
-**Hücre Toplamasını Al ve Paylaşılan Formülü Ayarla:**
+**Hücre Koleksiyonunu Al ve Paylaşılan Formülü Ayarla:**
 ```java
 Cells cells = workbook.getWorksheets().get(0).getCells();
 cells.get("B2").setSharedFormula("=A2*0.09", 13, 1);
@@ -153,7 +155,7 @@ Bu becerileri pratiğe dökmeye hazır mısınız? Bu çözümü projelerinize u
    - Java uygulamalarında Excel dosyalarının programlı olarak işlenmesini sağlayan güçlü bir kütüphane.
 2. **Maven veya Gradle kullanarak Aspose.Cells'i nasıl kurarım?**
    - Bağımlılık yapılandırmaları için yukarıdaki kurulum bölümüne bakın.
-3. **Paylaşımlı formüller her aralık boyutuna uygulanabilir mi?**
+3. **Paylaşımlı formüller her büyüklükteki aralığa uygulanabilir mi?**
    - Evet, ancak sistem kaynaklarınızın geniş aralıklar için yeterli olduğundan emin olun.
 4. **Aspose.Cells hangi dosya formatlarını destekler?**
    - XLSX, CSV ve daha fazlası dahil olmak üzere çok çeşitli Excel formatlarını destekler.
@@ -172,6 +174,9 @@ Aspose.Cells Java ile Excel otomasyonunda ustalaşma yolculuğunuza başlayın v
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

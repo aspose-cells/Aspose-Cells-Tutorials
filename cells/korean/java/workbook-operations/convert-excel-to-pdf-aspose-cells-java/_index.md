@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,9 +194,12 @@ A5: 일반적인 문제로는 잘못된 파일 경로, 권한 부족, 시스템 
 - **다운로드:** [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose 제품 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

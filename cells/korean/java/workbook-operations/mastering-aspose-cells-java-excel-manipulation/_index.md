@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **개요**: 빈 Excel 통합 문서를 빠르게 생성하여 데이터 조작을 시작합니다.
 
 **단계별:**
-1. **통합 문서 인스턴스화**: 생성하다 `Workbook` 물체.
+1. **통합 문서 인스턴스화**생성하다 `Workbook` 물체.
 2. **출력 디렉토리**: 파일을 저장할 위치를 정의합니다.
 
 ```java
@@ -195,6 +197,9 @@ Aspose.Cells의 기능을 더 자세히 알아보려면 광범위한 문서를 �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

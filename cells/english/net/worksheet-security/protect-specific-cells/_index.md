@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-specific-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Specific Cells in Worksheet using Aspose.Cells
@@ -108,6 +110,7 @@ Absolutely! Aspose.Cells is a robust library that allows you to perform a wide r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

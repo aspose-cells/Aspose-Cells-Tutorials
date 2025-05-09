@@ -1,36 +1,38 @@
 ---
-title: Vonal létrehozása adatjelölő diagrammal
-linktitle: Vonal létrehozása adatjelölő diagrammal
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan hozhat létre adatjelölőkkel ellátott vonaldiagramot Excelben az Aspose.Cells for .NET használatával. Kövesse ezt a lépésenkénti útmutatót a diagramok egyszerű létrehozásához és testreszabásához.
-weight: 10
-url: /hu/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Tanuld meg, hogyan hozhatsz létre adatjelölőkkel ellátott vonaldiagramot Excelben az Aspose.Cells for .NET használatával. Kövesd ezt a lépésről lépésre szóló útmutatót a diagramok egyszerű létrehozásához és testreszabásához."
+"linktitle": "Vonaldiagram létrehozása adatjelölővel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Vonaldiagram létrehozása adatjelölővel"
+"url": "/hu/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vonal létrehozása adatjelölő diagrammal
+# Vonaldiagram létrehozása adatjelölővel
 
 ## Bevezetés
 
-Gondolkozott már azon, hogyan hozhat létre lenyűgöző diagramokat az Excelben programozottan? Nos, kösd be, mert ma belemerülünk egy vonal adatjelölő diagram létrehozásába az Aspose.Cells for .NET használatával. Ez az oktatóanyag végigvezeti Önt az egyes lépéseken, biztosítva, hogy határozottan megértse a diagramkészítést, még akkor is, ha még csak most kezdi használni az Aspose.Cells-t.
+Elgondolkodtál már azon, hogyan hozhatsz létre lenyűgöző diagramokat Excelben programozottan? Nos, akkor kapd fel a csatodat, mert ma belevágunk egy vonaldiagram létrehozásába adatjelölőkkel az Aspose.Cells for .NET használatával. Ez az oktatóanyag végigvezet téged minden lépésen, biztosítva, hogy szilárdan elsajátítsd a diagramgenerálást, még akkor is, ha most ismerkedsz az Aspose.Cells-szel.
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg arról, hogy minden a helyén van, hogy zökkenőmentesen kövesse az utat.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy minden a helyén van a zökkenőmentes követéshez.
 
-1. Aspose.Cells for .NET Library – Ezt telepítenie kell. Megfoghatod[itt](https://releases.aspose.com/cells/net/).
-2. .NET-keretrendszer – Győződjön meg arról, hogy a fejlesztői környezet a .NET legújabb verziójával van beállítva.
-3. IDE (Integrated Development Environment) – a Visual Studio ajánlott.
-4.  Érvényes Aspose.Cells licenc – Ha nem rendelkezik ilyennel, kérhet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy nézze meg őket[ingyenes próbaverzió](https://releases.aspose.com/).
+1. Aspose.Cells for .NET Library – Telepítened kell ezt. Letöltheted. [itt](https://releases.aspose.com/cells/net/).
+2. .NET-keretrendszer – Győződjön meg arról, hogy fejlesztői környezete a .NET legújabb verziójával van beállítva.
+3. IDE (Integrált fejlesztői környezet) – Visual Studio ajánlott.
+4. Érvényes Aspose.Cells licenc – Ha nincs ilyen, igényelhet egyet [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy nézd meg az övékét [ingyenes próba](https://releases.aspose.com/).
 
-Készen állsz? Bontsuk szét!
+Készen állsz? Nézzük részletesen!
 
-## A szükséges csomagok importálása
+## Szükséges csomagok importálása
 
-A kezdéshez feltétlenül importálja a következő névtereket a projektbe. Ezek biztosítják a diagram létrehozásához szükséges osztályokat és módszereket.
+Kezdésként importáld a következő névtereket a projektedbe. Ezek biztosítják majd a diagram létrehozásához szükséges osztályokat és metódusokat.
 
 ```csharp
 using System;
@@ -40,11 +42,11 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Ha ezt megtudtad, elkezdhetjük a kódolást!
+Ha ezzel megvagyunk, elkezdhetjük a kódolást!
 
-## 1. lépés: Állítsa be a munkafüzetet és a munkalapot
+## 1. lépés: A munkafüzet és a munkalap beállítása
 
-Először is létre kell hoznia egy új munkafüzetet, és hozzá kell férnie az első munkalaphoz.
+Először is létre kell hoznia egy új munkafüzetet, és el kell érnie az első munkalapot.
 
 ```csharp
 //Kimeneti könyvtár
@@ -53,25 +55,25 @@ static string outputDir = "Your Document Directory";
 // Munkafüzet példányosítása
 Workbook workbook = new Workbook();
 
-// Az első munkalap elérése
+// Első munkalap elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Tekintse a munkafüzetet az Excel-fájlnak, a munkalapot pedig a benne lévő konkrét lapnak. Ebben az esetben az első lappal dolgozunk.
+Gondolj a munkafüzetre úgy, mint egy Excel-fájlra, a munkalapra pedig úgy, mint egy adott munkalapra benne. Ebben az esetben az első munkalappal dolgozunk.
 
-## 2. lépés: Töltse fel a munkalapot adatokkal
+## 2. lépés: A munkalap feltöltése adatokkal
 
-Most, hogy megvan a munkalapunk, töltsük fel néhány adattal. Véletlenszerű adatpontokat hozunk létre két értéksorozathoz.
+Most, hogy megvan a munkalapunk, töltsük fel néhány adattal. Két értéksorozathoz hozunk létre véletlenszerű adatpontokat.
 
 ```csharp
-// Állítsa be az oszlopok címét
+// Oszlopcím beállítása
 worksheet.Cells[0, 0].Value = "X";
 worksheet.Cells[0, 1].Value = "Y";
 
 // Véletlenszerű adatok a diagram létrehozásához
 Random R = new Random();
 
-// Hozzon létre véletlenszerű adatokat, és mentse a cellákba
+// Véletlenszerű adatok létrehozása és mentése a cellákba
 for (int i = 1; i < 21; i++)
 {
     worksheet.Cells[i, 0].Value = i;
@@ -85,126 +87,128 @@ for (int i = 21; i < 41; i++)
 }
 ```
 
-Itt véletlen számokat használunk az adatok szimulálására, de a valós alkalmazásokban feltöltheti azokat az adatkészletből származó tényleges értékekkel.
+Itt véletlenszerű számokat használunk az adatok szimulálására, de a valós alkalmazásokban feltölthetjük az adathalmazunkból származó tényleges értékekkel.
 
-## 3. lépés: Adja hozzá a diagramot a munkalaphoz
+## 3. lépés: A diagram hozzáadása a munkalaphoz
 
-Ezután hozzáadjuk a diagramot a munkalaphoz, és kiválasztjuk a típust – ebben az esetben egy vonal adatjelölőkkel diagramot.
+Ezután hozzáadjuk a diagramot a munkalaphoz, és kiválasztjuk a típust – ebben az esetben egy adatjelölőkkel ellátott vonaldiagramot.
 
 ```csharp
-// Adjon hozzá egy diagramot a munkalaphoz
+// Diagram hozzáadása a munkalaphoz
 int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
 
-// Nyissa meg az újonnan létrehozott diagramot
+// Hozzáférés az újonnan létrehozott diagramhoz
 Chart chart = worksheet.Charts[idx];
 ```
 
-Ez a részlet egy adatjelölőkkel ellátott vonaldiagramot ad a munkalaphoz, és egy adott tartományba (1,3–20,20) helyezi el. Elég egyszerű, igaz?
+Ez a kódrészlet egy adatjelölőkkel ellátott vonaldiagramot ad a munkalaphoz, egy adott tartományba helyezve azt (1,3-tól 20,20-ig). Elég egyszerű, ugye?
 
 ## 4. lépés: A diagram megjelenésének testreszabása
 
-A diagram elkészítése után ízlése szerint alakíthatja. Változtassuk meg a hátteret, a címet és a diagram stílusát.
+Miután a diagram elkészült, ízlés szerint formázhatja. Változtassuk meg a hátteret, a címet és a diagram stílusát.
 
 ```csharp
-// Állítsa be a diagram stílusát
+// Diagramstílus beállítása
 chart.Style = 3;
 
-// Állítsa az automatikus skálázás értékét igazra
+// Az automatikus skálázás értékének igazra állítása
 chart.AutoScaling = true;
 
-// Állítsa az előtér színét fehérre
+// Előtérszín beállítása fehérre
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Állítsa be a diagram címének tulajdonságait
+// Diagram címtulajdonságainak beállítása
 chart.Title.Text = "Sample Chart";
 
-// Állítsa be a diagram típusát
+// Diagramtípus beállítása
 chart.Type = ChartType.LineWithDataMarkers;
 ```
 
-Itt fehér hátteret állítunk be, automatikus skálázást és értelmes címet adunk a diagramnak.
+Itt letisztult megjelenést kölcsönözünk a diagramnak egy fehér háttér beállításával, automatikus skálázással és egy értelmes címmel.
 
-## 5. lépés: Sorozatok és adatpontok ábrázolása
+## 5. lépés: Sorozatok definiálása és adatpontok ábrázolása
 
 Most, hogy a diagramunk jól néz ki, meg kell határoznunk az ábrázolandó adatsorokat.
 
 ```csharp
-// Állítsa be a kategóriatengely címének tulajdonságait
+// Kategóriatengely címének tulajdonságainak beállítása
 chart.CategoryAxis.Title.Text = "Units";
 
-// Határozzon meg két sorozatot a diagramhoz
+// Két sorozat definiálása a diagramhoz
 int s2_idx = chart.NSeries.Add("A2: A21", true);
 int s3_idx = chart.NSeries.Add("A22: A41", true);
 ```
 
-Ezek a sorozatok az általunk korábban feltöltött adatpont-tartományoknak felelnek meg.
+Ezek a sorozatok megfelelnek a korábban feltöltött adatpontok tartományainak.
 
-## 6. lépés: Színek hozzáadása és sorozatjelzők testreszabása
+## 6. lépés: Színek hozzáadása és sorozatjelölők testreszabása
 
-Tegyük még vonzóbbá ezt a diagramot azáltal, hogy egyedi színeket adunk adatjelölőinkhez.
+Tegyük még vonzóbbá ezt a diagramot azáltal, hogy egyéni színeket adunk az adatjelölőinkhez.
 
 ```csharp
-// Az első sorozat testreszabása
+// Első sorozat testreszabása
 chart.NSeries[s2_idx].Marker.Area.ForegroundColor = Color.Yellow;
 chart.NSeries[s2_idx].Marker.Border.IsVisible = false;
 
-// A második sorozat testreszabása
+// Második sorozat testreszabása
 chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green;
 chart.NSeries[s3_idx].Marker.Border.IsVisible = false;
 ```
 
-A színek testreszabásával a diagramot nemcsak funkcionálissá, hanem vizuálisan is vonzóvá varázsolja!
+A színek testreszabásával a diagramot nemcsak funkcionálissá, hanem vizuálisan is vonzóvá teheted!
 
-## 7. lépés: Állítsa be az X és Y értékeket minden sorozathoz
+## 7. lépés: X és Y értékek beállítása minden sorozathoz
 
-Végül rendeljük hozzá az X és Y értékeket minden sorozatunkhoz.
+Végül rendeljük hozzá az X és Y értékeket az egyes sorozatainkhoz.
 
 ```csharp
-// Állítsa be az első sorozat X és Y értékét
+// Az első sorozat X és Y értékeinek beállítása
 chart.NSeries[s2_idx].XValues = "A2: A21";
 chart.NSeries[s2_idx].Values = "B2: B21";
 
-// Állítsa be a második sorozat X és Y értékét
+// A második sorozat X és Y értékeinek beállítása
 chart.NSeries[s3_idx].XValues = "A22: A41";
 chart.NSeries[s3_idx].Values = "B22: B41";
 ```
 
 Az értékek a 2. lépésben feltöltött adatokon alapulnak.
 
-## 8. lépés: Mentse el a munkafüzetet
+## 8. lépés: A munkafüzet mentése
 
-Most, hogy minden be van állítva, mentsük el a munkafüzetet, hogy működés közben lássuk a diagramot.
+Most, hogy minden beállított, mentsük el a munkafüzetet, hogy működés közben is láthassuk a diagramot.
 
 ```csharp
-// Mentse el a munkafüzetet
+// A munkafüzet mentése
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-És ennyi! Most hozott létre egy vonaldiagramot adatjelölőkkel az Aspose.Cells for .NET használatával.
+És ennyi! Most készítettél egy vonaldiagramot adatjelölőkkel az Aspose.Cells for .NET használatával.
 
 ## Következtetés
 
-A diagramok programozott létrehozása az Excelben ijesztőnek tűnhet, de az Aspose.Cells for .NET segítségével ez olyan egyszerű, mint egy lépésről lépésre leírt receptek követése. A munkafüzet beállításától a diagram megjelenésének testreszabásáig ez a hatékony könyvtár mindent kezel. Függetlenül attól, hogy jelentéseket, irányítópultokat vagy adatvizualizációkat készít, az Aspose.Cells segítségével gyorsan megteheti.
+Diagramok programozott létrehozása Excelben ijesztőnek tűnhet, de az Aspose.Cells for .NET segítségével ez olyan egyszerű, mint egy lépésről lépésre haladó recept követése. A munkafüzet beállításától a diagram megjelenésének testreszabásáig ez a hatékony könyvtár mindent kezel. Akár jelentéseket, irányítópultokat vagy adatvizualizációkat készít, az Aspose.Cells segítségével mindezt könnyedén megteheti.
 
 ## GYIK
 
 ### Testreszabhatom a diagramot tovább?  
-Teljesen! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és egyebekig.
+Abszolút! Az Aspose.Cells rengeteg testreszabási lehetőséget kínál, a betűtípusoktól a rácsvonalakig és egyebekig.
 
-### Szükségem van engedélyre az Aspose.Cells használatához?  
- Igen, a teljes funkcionalitáshoz licenc szükséges. Kaphatsz a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy kezdje a-val[ingyenes próbaverzió](https://releases.aspose.com/).
+### Szükségem van licencre az Aspose.Cells használatához?  
+Igen, a teljes funkcionalitáshoz licenc szükséges. Szerezhet egyet. [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) vagy kezdj egy [ingyenes próba](https://releases.aspose.com/).
 
-### Hogyan adhatok hozzá további adatsorokat?  
- Csak adjon hozzá további sorozatokat a`NSeries.Add` módszerrel, megadva az új adatok cellatartományát.
+### Hogyan adhatok hozzá több adatsort?  
+Csak adjon hozzá további sorozatokat a `NSeries.Add` metódus, amely megadja az új adatok cellatartományait.
 
 ### Exportálhatom a diagramot képként?  
- Igen, a diagramokat közvetlenül képként exportálhatja a`Chart.ToImage` módszer.
+Igen, a diagramokat közvetlenül képként exportálhatja a `Chart.ToImage` módszer.
 
-### Az Aspose.Cells támogatja a 3D diagramokat?  
-Igen, az Aspose.Cells a diagramtípusok széles skáláját támogatja, beleértve a 3D diagramokat is.
+### Az Aspose.Cells támogatja a 3D-s diagramokat?  
+Igen, az Aspose.Cells a diagramtípusok széles skáláját támogatja, beleértve a 3D-s diagramokat is.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

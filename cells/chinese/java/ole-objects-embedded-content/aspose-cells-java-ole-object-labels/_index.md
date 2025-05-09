@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ Aspose.Cells for Java 不仅仅能够修改 OLE 对象标签。它的功能可�
 通过本指南，您学习了如何使用 Aspose.Cells for Java 修改和验证 OLE 对象标签。这些技能将帮助您在各种专业场景中更高效地管理 Excel 文件。如需进一步探索，请考虑深入研究 Aspose.Cells 的其他功能，以释放数据管理任务中的更大潜力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

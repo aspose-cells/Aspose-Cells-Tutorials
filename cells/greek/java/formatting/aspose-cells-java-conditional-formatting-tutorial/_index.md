@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ book.save(outDir + "ASToARAC_out.xlsx");
 Καθορίστε την επιθυμητή μορφή αποθήκευσης (π.χ., XLS ή XLSX) για να διατηρήσετε τη συμβατότητα με διάφορες εκδόσεις του Excel. Το Aspose.Cells υποστηρίζει πολλαπλές μορφές.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

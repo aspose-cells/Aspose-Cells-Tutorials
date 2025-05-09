@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 3. **Relatórios automatizados**: Automatize a geração de relatórios copiando apenas células visíveis com fórmulas ajustadas ao novo contexto da planilha.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Use Aspose.Cells de maneira eficiente em termos de memória, descartando objetos quando não forem mais necessários.
+- **Otimizar o uso da memória**: Use Aspose.Cells de maneira eficiente em termos de memória, descartando objetos quando não forem mais necessários.
 - **Operações em lote**Execute operações em lotes sempre que possível para minimizar o uso de recursos e melhorar o desempenho.
 - **Monitorar o consumo de recursos**: Verifique regularmente o uso da CPU e da memória durante grandes manipulações de planilhas.
 
@@ -179,6 +181,9 @@ A5: Descarte objetos corretamente, execute operações em lotes e monitore o con
 - **Fórum de Suporte**: [Suporte Aspose](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

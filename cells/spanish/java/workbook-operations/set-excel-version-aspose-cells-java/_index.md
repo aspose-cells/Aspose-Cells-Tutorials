@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ dwb.save(outDir + "outputSpecifyDocumentVersionOfExcelFile.xlsx", dSaveFormat.XL
 Considere estas aplicaciones prácticas de configuración de propiedades de documentos:
 1. **Informe:** Utilice el control de versiones de documentos en informes automatizados para realizar un seguimiento de los cambios a lo largo del tiempo.
 2. **Gestión de datos:** Mantenga metadatos consistentes en múltiples documentos de Excel utilizados por diferentes departamentos.
-3. **Integración con sistemas:** Integre con otros sistemas comerciales donde el seguimiento de la versión del documento es fundamental.
+3. **Integración con sistemas:** Integre con otros sistemas comerciales donde el seguimiento de las versiones de los documentos es fundamental.
 
 ## Consideraciones de rendimiento
 Al utilizar Aspose.Cells, tenga en cuenta estos consejos:
@@ -167,6 +169,9 @@ Aprendió a configurar la versión de un documento en un archivo de Excel con As
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

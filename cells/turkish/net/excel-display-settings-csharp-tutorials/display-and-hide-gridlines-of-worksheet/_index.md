@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasının Izgara Çizgilerini Göster ve Gizle
-linktitle: Çalışma Sayfasının Izgara Çizgilerini Göster ve Gizle
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında kılavuz çizgilerini nasıl görüntüleyeceğinizi ve gizleyeceğinizi öğrenin. Kod örnekleri ve açıklamalar içeren adım adım eğitim.
-weight: 30
-url: /tr/net/excel-display-settings-csharp-tutorials/display-and-hide-gridlines-of-worksheet/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında kılavuz çizgilerini nasıl görüntüleyeceğinizi ve gizleyeceğinizi öğrenin. Kod örnekleri ve açıklamalar içeren adım adım eğitim."
+"linktitle": "Çalışma Sayfasının Izgara Çizgilerini Göster ve Gizle"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Izgara Çizgilerini Göster ve Gizle"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/display-and-hide-gridlines-of-worksheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Izgara Çizgilerini Göster ve Gizle
@@ -23,10 +25,10 @@ Bu heyecan verici eğitime dalalım ve sonunda, sadece birkaç satır kodla Exce
 
 Başlamadan önce, bu süreci sorunsuz hale getirmek için sahip olmanız gereken birkaç şey var:
 
-1.  Aspose.Cells for .NET kütüphanesi – Bunu Aspose sürüm sayfasından indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET kütüphanesi – Bunu Aspose sürüm sayfasından indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 2. .NET Ortamı – Visual Studio gibi temel bir .NET geliştirme ortamına sahip olmanız gerekir.
 3. Excel dosyası – Üzerinde değişiklik yapabileceğiniz bir örnek Excel dosyanız olduğundan emin olun.
-4.  Geçerli Lisans – Bir tane alabilirsiniz[ücretsiz deneme](https://releases.aspose.com/) veya bir[geçici lisans](https://purchase.aspose.com/temporary-license/) Başlamak için.
+4. Geçerli Lisans – Bir tane alabilirsiniz [ücretsiz deneme](https://releases.aspose.com/) veya bir [geçici lisans](https://purchase.aspose.com/temporary-license/) Başlamak için.
 
 Artık kurulumunuz hazır olduğuna göre, eğlenceli kısma geçelim: Kodlama!
 
@@ -52,7 +54,7 @@ Herhangi bir Excel dosyasını düzenleyebilmeniz için dosyanızın konumunu be
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu adımda Excel dosyanızın konumunu atayacaksınız`dataDir` dize. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`.xls` dosya bulundu.
+Bu adımda Excel dosyanızın konumunu atayacaksınız `dataDir` dize. Değiştir `"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla `.xls` dosya bulundu.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 
@@ -63,7 +65,7 @@ Sonra, Excel dosyasını açmak için bir dosya akışı oluşturacağız. Bu ad
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Burada, Excel dosyasını açmak için bir FileStream oluşturulur.`FileMode.Open` Mevcut bir dosyayı açtığımızı belirtmek için bayrak. Excel dosyanızın (bu durumda, "book1.xls") doğru dizinde olduğundan emin olun.
+Burada, Excel dosyasını açmak için bir FileStream oluşturulur. `FileMode.Open` Mevcut bir dosyayı açtığımızı belirtmek için bayrak. Excel dosyanızın (bu durumda, "book1.xls") doğru dizinde olduğundan emin olun.
 
 ## Adım 3: Çalışma Kitabı Nesnesini Örneklendirin
 
@@ -74,7 +76,7 @@ Excel dosyasıyla çalışmak için onu bir Çalışma Kitabı nesnesine yüklem
 Workbook workbook = new Workbook(fstream);
 ```
 
- The`Workbook` nesne, Excel dosyalarıyla çalışmak için ana giriş noktasıdır. Dosya akışını oluşturucuya geçirerek, Excel dosyasını daha fazla düzenleme için belleğe yükleriz.
+The `Workbook` nesne, Excel dosyalarıyla çalışmak için ana giriş noktasıdır. Dosya akışını oluşturucuya geçirerek, Excel dosyasını daha fazla düzenleme için belleğe yükleriz.
 
 ## Adım 4: İlk Çalışma Sayfasına Erişim
 
@@ -85,18 +87,18 @@ Excel dosyaları genellikle birden fazla çalışma sayfası içerir. Bu eğitim
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Burada şunu kullanıyoruz:`Worksheets` koleksiyonu`Workbook` ilk sayfaya erişmek için nesne (`index 0`). Excel dosyanızda farklı bir sayfayı hedeflemek istiyorsanız dizini değiştirebilirsiniz.
+Burada şunu kullanıyoruz: `Worksheets` koleksiyonu `Workbook` ilk sayfaya erişmek için nesne (`index 0`). Excel dosyanızda farklı bir sayfayı hedeflemek istiyorsanız dizini değiştirebilirsiniz.
 
 ## Adım 5: Çalışma Sayfasındaki Kılavuz Çizgilerini Gizle
 
 Şimdi eğlenceli kısma geliyoruz – kılavuz çizgilerini gizleme! Sadece bir satır kodla kılavuz çizgilerinin görünürlüğünü değiştirebilirsiniz.
 
 ```csharp
-//Excel dosyasının ilk çalışma sayfasının kılavuz çizgilerini gizleme
+// Excel dosyasının ilk çalışma sayfasının kılavuz çizgilerini gizleme
 worksheet.IsGridlinesVisible = false;
 ```
 
- Ayarlayarak`IsGridlinesVisible` mülk`false`, çalışma sayfasına Excel'de görüntülendiğinde kılavuz çizgilerini göstermemesini söylüyoruz. Bu, sayfaya daha temiz, sunuma hazır bir görünüm kazandırır.
+Ayarlayarak `IsGridlinesVisible` mülk `false`, çalışma sayfasına Excel'de görüntülendiğinde kılavuz çizgilerini göstermemesini söylüyoruz. Bu, sayfaya daha temiz, sunuma hazır bir görünüm kazandırır.
 
 ## Adım 6: Değiştirilen Excel Dosyasını Kaydedin
 
@@ -107,7 +109,7 @@ Kılavuz çizgileri gizlendiğinde, değişikliklerinizi kaydetmek isteyeceksini
 workbook.Save(dataDir + "output.xls");
 ```
 
- The`Save` yöntem yaptığınız değişiklikleri yeni bir dosyaya yazar (bu durumda,`output.xls`). İhtiyaç duyduğunuzda dosya adını veya yolunu özelleştirebilirsiniz.
+The `Save` yöntem yaptığınız değişiklikleri yeni bir dosyaya yazar (bu durumda, `output.xls`). İhtiyaç duyduğunuzda dosya adını veya yolunu özelleştirebilirsiniz.
 
 ## Adım 7: Dosya Akışını Kapatın
 
@@ -122,27 +124,29 @@ Dosya akışını kapatmak çok önemlidir çünkü tüm kaynakların düzgün b
 
 ## Çözüm
 
-Ve işte bitti! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında kılavuz çizgilerini nasıl görüntüleyeceğinizi ve gizleyeceğinizi öğrendiniz. İster bir raporu cilalıyor olun ister verileri daha okunabilir bir biçimde sunuyor olun, bu basit teknik elektronik tablolarınızın görünümünü önemli ölçüde etkileyebilir. En iyi yanı mı? Büyük değişiklikler yapmak için yalnızca birkaç satır kod gerekir. Bunu denemeye hazırsanız, bir tane almayı unutmayın[ücretsiz deneme](https://releases.aspose.com/) ve kodlamaya başlayın!
+Ve işte bitti! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasında kılavuz çizgilerini nasıl görüntüleyeceğinizi ve gizleyeceğinizi öğrendiniz. İster bir raporu cilalıyor olun ister verileri daha okunabilir bir biçimde sunuyor olun, bu basit teknik elektronik tablolarınızın görünümünü önemli ölçüde etkileyebilir. En iyi yanı mı? Büyük değişiklikler yapmak için yalnızca birkaç satır kod gerekir. Bunu denemeye hazırsanız, bir tane almayı unutmayın [ücretsiz deneme](https://releases.aspose.com/) ve kodlamaya başlayın!
 
 ## SSS
 
 ### Izgara çizgilerini gizledikten sonra tekrar nasıl gösterebilirim?  
- Ayarlayabilirsiniz`worksheet.IsGridlinesVisible = true;` Izgara çizgilerini tekrar görünür hale getirmek için.
+Ayarlayabilirsiniz `worksheet.IsGridlinesVisible = true;` Izgara çizgilerini tekrar görünür hale getirmek için.
 
 ### Sadece belirli aralıklar veya hücreler için kılavuz çizgilerini gizleyebilir miyim?  
- Hayır,`IsGridlinesVisible` özellik tüm çalışma sayfasına uygulanır, belirli hücrelere uygulanmaz.
+Hayır, `IsGridlinesVisible` özellik tüm çalışma sayfasına uygulanır, belirli hücrelere uygulanmaz.
 
 ### Birden fazla çalışma sayfasını aynı anda düzenleyebilir miyim?  
- Evet! Döngüye girebilirsiniz`Worksheets` değişiklikleri topla ve her sayfaya uygula.
+Evet! Döngüye girebilirsiniz `Worksheets` değişiklikleri topla ve her sayfaya uygula.
 
 ### Aspose.Cells kullanmadan programatik olarak ızgara çizgilerini gizlemek mümkün müdür?  
 Bir Excel Interop kütüphanesi kullanmanız gerekir, ancak Aspose.Cells daha verimli ve özellik açısından zengin bir API sunar.
 
 ### Aspose.Cells hangi dosya formatlarını destekler?  
- Aspose.Cells, aşağıdakiler de dahil olmak üzere çok çeşitli biçimleri destekler:`.xls`, `.xlsx`, `.csv`, `.pdf`ve daha fazlası.
+Aspose.Cells, aşağıdakiler de dahil olmak üzere çok çeşitli biçimleri destekler: `.xls`, `.xlsx`, `.csv`, `.pdf`ve daha fazlası.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

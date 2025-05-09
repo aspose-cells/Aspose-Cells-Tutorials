@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Per provare Aspose.Cells, puoi ottenere una licenza temporanea gratuita o acquistarla per usufruire di tutte le funzionalità. Segui questi passaggi:
 
 1. **Prova gratuita**: Scarica la libreria da [Download di Aspose](https://releases.aspose.com/cells/java/).
-2. **Licenza temporanea**Richiedi una licenza temporanea a [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Acquistare**: Per un utilizzo a lungo termine, acquistare una licenza tramite [Acquisto Aspose](https://purchase.aspose.com/buy).
+2. **Licenza temporanea**: Richiedi una licenza temporanea a [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/).
+3. **Acquistare**Per un utilizzo a lungo termine, acquistare una licenza tramite [Acquisto Aspose](https://purchase.aspose.com/buy).
 
 ### Inizializzazione e configurazione di base
 
@@ -101,7 +103,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sampleRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 
-**Spiegazione**: IL `Workbook` La classe rappresenta l'intero foglio di calcolo. Passando il percorso del file, carichi il documento Excel in memoria.
+**Spiegazione**: IL `Workbook` La classe rappresenta l'intero foglio di calcolo. Passando il percorso del file, si carica il documento Excel in memoria.
 
 ### Funzionalità 2: Access First Worksheet
 
@@ -199,6 +201,9 @@ In questo tutorial, abbiamo esplorato come manipolare il testo all'interno di fo
 Sperimenta queste tecniche e porta le tue manipolazioni dei documenti Excel a un livello superiore utilizzando Aspose.Cells per Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

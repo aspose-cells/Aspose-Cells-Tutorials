@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### 라이센스 취득
 Aspose.Cells for Java는 상용 라이브러리이지만, 무료 평가판을 통해 기능을 평가해 볼 수 있습니다. 다운로드 방법은 다음과 같습니다.
-- **무료 체험**최신 버전을 다운로드하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
+- **무료 체험**: 최신 버전을 다운로드하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
 - **임시 면허**: 임시 면허를 요청하세요 [이 링크](https://purchase.aspose.com/temporary-license/) 재판이 허용하는 시간보다 더 많은 시간이 필요한 경우.
 - **구입**: 전체 액세스를 위해서는 다음을 통해 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
@@ -137,10 +139,13 @@ A: Aspose.Cells는 높은 호환성을 가지고 있으며 Spring, Hibernate 또
 - **다운로드**: [최신 릴리스를 받으세요](https://releases.aspose.com/cells/java/)
 - **라이센스 구매**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험판**: [무료로 체험해보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허 신청**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허 신청**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼**: [Aspose 커뮤니티 지원](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

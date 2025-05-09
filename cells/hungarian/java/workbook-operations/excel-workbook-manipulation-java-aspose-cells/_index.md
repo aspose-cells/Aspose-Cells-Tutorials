@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,7 +216,7 @@ public class AddHyperlink {
 **2. Új hiperhivatkozás hozzáadása**
 Külső fájlra mutató hivatkozás hozzáadása.
 ```java
-// Adja meg a csatolt fájl adatkönyvtárának elérési útját
+// Adja meg a csatolt fájl adatkönyvtár-elérési útját
 String dataDir = "YOUR_DATA_DIRECTORY";
 hyperlinks.add("A5", 1, 1, dataDir + "/book1.xls");
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Ezzel az oktatóanyaggal megtanultad, hogyan kezelheted hatékonyan az Excel-munkafüzeteket az Aspose.Cells for Java segítségével. Ez a hatékony eszköz leegyszerűsíti az Excel-fájlok létrehozásának, módosításának és javításának folyamatát, lehetővé téve, hogy a kiváló minőségű adatmegoldások biztosítására koncentrálhass. Fedezd fel a funkcióit, hogy teljes mértékben kihasználhasd a projektjeidben rejlő lehetőségeket.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

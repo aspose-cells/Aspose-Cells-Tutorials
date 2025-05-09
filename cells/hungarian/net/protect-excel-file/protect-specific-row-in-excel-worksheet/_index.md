@@ -1,135 +1,137 @@
 ---
-title: Adott sor védelme az Excel munkalapon
-linktitle: Adott sor védelme az Excel munkalapon
-second_title: Aspose.Cells for .NET API Reference
-description: Ismerje meg, hogyan védheti meg az Excel-munkalapok egyes sorait az Aspose.Cells for .NET használatával. Fejlesztőknek szabott, lépésről lépésre szóló útmutató.
-weight: 90
-url: /hu/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
+"description": "Ismerje meg, hogyan védhet meg bizonyos sorokat Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató fejlesztők számára."
+"linktitle": "Védje az adott sort az Excel munkalapban"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Védje az adott sort az Excel munkalapban"
+"url": "/hu/net/protect-excel-file/protect-specific-row-in-excel-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adott sor védelme az Excel munkalapon
+# Védje az adott sort az Excel munkalapban
 
 ## Bevezetés
 
-A mai rohanó világban a táblázatok hatékony kezelése fontosabb, mint valaha. A Microsoft Excel számos iparágban és szakmában nélkülözhetetlen eszköz. Miközben azonban megosztjuk ezeket a dokumentumokat, különösen együttműködési környezetben, kulcsfontosságúvá válik az egyes információk táblázatokon belüli védelme. Tehát hogyan zárhat le egy sort az Excelben, hogy megakadályozza a nem kívánt módosításokat? Nos, ha .NET-el dolgozik, szerencséje van! Az Aspose.Cells egy kiváló könyvtár az Excel-fájlok programozott kezelésére, lehetővé téve számunkra, hogy hatékonyan védjük az egyes sorokat.
+mai rohanó világban a táblázatok hatékony kezelése minden eddiginél fontosabb. A Microsoft Excel nélkülözhetetlen eszköz számos iparágban és szakmában. Azonban, ahogy megosztjuk ezeket a dokumentumokat, különösen együttműködésen alapuló környezetekben, a táblázatokban található bizonyos információk védelme kulcsfontosságúvá válik. Szóval, hogyan lehet lezárni egy sort az Excelben a nem kívánt módosítások megakadályozása érdekében? Nos, ha .NET-tel dolgozol, szerencséd van! Az Aspose.Cells egy kiváló függvénytár az Excel-fájlok programozott kezeléséhez, amely lehetővé teszi számunkra, hogy hatékonyan védjünk bizonyos sorokat.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, van néhány dolog, amire szüksége lesz:
+Mielőtt belekezdenénk, van néhány dolog, amire szükséged lesz:
 
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Bármilyen verziót használhat, amely támogatja a .NET fejlesztést.
-2.  Aspose.Cells for .NET: telepítenie kell az Aspose.Cells könyvtárat. Látogatás[ezt a linket a letöltéshez](https://releases.aspose.com/cells/net/) a legújabb kiadás.
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Bármelyik verziót használhatja, amely támogatja a .NET fejlesztést.
+2. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells könyvtárat. Látogasson el ide: [ezt a linket a letöltéshez](https://releases.aspose.com/cells/net/) a legújabb kiadás.
 3. Alapvető .NET ismeretek: A C# és az alapvető programozási fogalmak ismerete hasznos lesz, mivel kódrészletekkel fogunk dolgozni.
 
-Ha minden a helyére került, lássuk a dolgot!
+Ha minden a helyén van, akkor vágjunk bele a munkába!
 
 ## Csomagok importálása
 
-A kódunk megírása előtt importálnunk kell a szükséges Aspose.Cells névtereket. Ez felkészíti az alkalmazásunkat az Aspose.Cells könyvtár által biztosított osztályok és metódusok használatára. A következőket kell tennie:
+A kód megírása előtt importálnunk kell a szükséges Aspose.Cells névtereket. Ez felkészíti az alkalmazásunkat az Aspose.Cells könyvtár által biztosított osztályok és metódusok használatára. Íme, mit kell tenned:
 
-### Állítsa be projektjét
+### Projekt beállítása
 
 1. Új projekt létrehozása:
-   - Nyissa meg a Visual Studio-t, és hozzon létre egy új konzolalkalmazás-projektet. Ez a projekt ad otthont az Excel manipulációs kódunknak.
+   - Nyisd meg a Visual Studio-t, és hozz létre egy új Console Application projektet. Ez a projekt fogja tárolni az Excel manipulációs kódunkat.
 
 2. Aspose.Cells hivatkozás hozzáadása:
-   - Kattintson a jobb gombbal a projektre a Solution Explorerben, lépjen a „NuGet-csomagok kezelése” menüpontra, és keressen rá az „Aspose.Cells” kifejezésre. Kattintson a telepítéshez.
+   - Kattintson jobb gombbal a projektre a Megoldáskezelőben, lépjen a „NuGet-csomagok kezelése” menüpontra, és keressen rá az „Aspose.Cells” elemre. Kattintson rá a telepítéshez.
 
-3. Adja meg a szükséges névtereket a kódban:
+3. Illeszd be a szükséges névtereket a kódodba:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Most, hogy mindent beállítottunk, lépésről lépésre védjük meg az Excel munkalapunk egy adott sorát. Az általunk használt példa zárolja az első sort, de tetszőleges sorhoz módosíthatja.
+Most, hogy mindent beállítottunk, védjünk meg egy adott sort az Excel-munkalapunkon lépésről lépésre. A példában az első sort zároljuk, de ezt bármelyik sorhoz módosíthatjuk.
 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
+## 1. lépés: A dokumentumkönyvtár meghatározása
 
-Először is meg kell határoznunk egy könyvtárat, ahol az Excel fájlunkat tároljuk. Íme, hogyan kell csinálni:
+Először is meg kell adnunk egy könyvtárat, ahová az Excel fájlunkat tárolni fogjuk. Így teheted meg:
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // váltson a kívánt útvonalra.
 
-// Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Cserélje ki`"YOUR DOCUMENT DIRECTORY"` azzal a tényleges elérési úttal, ahová menteni szeretné az új Excel-fájlt.
+Csere `"YOUR DOCUMENT DIRECTORY"` a tényleges elérési úttal, ahová az új Excel-fájlt menteni szeretné.
 
-## 2. lépés: Hozzon létre egy új munkafüzetet
+## 2. lépés: Új munkafüzet létrehozása
 
-Ezután létrehozunk egy új munkafüzetet az Aspose.Cells segítségével. Ez az üres vászon táblázat létrehozásához.
+Következő lépésként létrehozunk egy új munkafüzetet az Aspose.Cells használatával. Ez az üres vászon a táblázat létrehozásához.
 
 ```csharp
-// Hozzon létre egy új munkafüzetet.
+// Hozz létre egy új munkafüzetet.
 Workbook wb = new Workbook();
 ```
 
 ## 3. lépés: Munkalap létrehozása és elérése
 
-Most pedig nyissa meg a munkafüzetünk első munkalapját a szükséges módosítások elvégzéséhez.
+Most pedig nyissuk meg a munkafüzetünk első munkalapját, hogy elvégezzük a szükséges módosításokat.
 
 ```csharp
-// Hozzon létre egy munkalap objektumot, és szerezze be az első lapot.
+// Hozz létre egy munkalap objektumot, és szerezd meg az első munkalapot.
 Worksheet sheet = wb.Worksheets[0];
 ```
 
-## 4. lépés: Oldja fel az összes oszlopot
+## 4. lépés: Az összes oszlop feloldása
 
 Mielőtt bármelyik sort zárolnánk, meg kell győződnünk arról, hogy minden oszlop fel van oldva. Ez rugalmasságot biztosít számunkra, hogy csak a kívánt sort védjük.
 
 ```csharp
-// Határozza meg a stílusobjektumot.
+// Definiálja a stílusobjektumot.
 Style style;
-// Határozza meg a styleflag objektumot.
+// Definiáld a styleflag objektumot.
 StyleFlag flag;
-// Lapozzon át a munkalap összes oszlopán, és oldja fel őket.
+// Végigjárja a munkalap összes oszlopát, és oldja fel a zárolásukat.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
     style.IsLocked = false; // Oszlop feloldása
     flag = new StyleFlag();
-    flag.Locked = true; // A zároláshoz állítsa igazra a jelzőt
-    sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Alkalmazza a stílust
+    flag.Locked = true; // Zároláshoz igazra kell állítani a jelzőt
+    sheet.Cells.Columns[(byte)i].ApplyStyle(style, flag); // Alkalmazd a stílust
 }
 ```
 
-## 5. lépés: Zárja be a kívánt sort
+## 5. lépés: A kívánt sor zárolása
 
-Most itt az ideje, hogy zárolja a védeni kívánt sort. Ebben az esetben az első sort zárjuk.
+Most itt az ideje zárolni a védeni kívánt sort. Ebben az esetben az első sort zároljuk.
 
 ```csharp
-//Szerezze meg az első sor stílusát.
+// Szerezd meg az első sor stílusát.
 style = sheet.Cells.Rows[0].Style;
 // Zárd be.
 style.IsLocked = true;
-//Példányosítsa a zászlót.
+// Hozz létre egy példányt a zászlóból.
 flag = new StyleFlag();
-// Állítsa be a zár beállítását.
+// Állítsa be a zárolási beállítást.
 flag.Locked = true;
-// Alkalmazza a stílust az első sorra.
+// Alkalmazd a stílust az első sorra.
 sheet.Cells.ApplyRowStyle(0, style, flag);
 ```
 
-## 6. lépés: Védje meg a munkalapot
+## 6. lépés: A munkalap védelme
 
-A kívánt sor zárolása után engedélyeznünk kell a védelmet a munkalapon. Itt történik a varázslat!
+Miután zároltuk a kívánt sort, engedélyeznünk kell a védelmet a munkalapon. Itt történik a varázslat!
 
 ```csharp
 // Védje a lapot.
 sheet.Protect(ProtectionType.All);
 ```
 
-## 7. lépés: Mentse el a munkafüzetet
+## 7. lépés: A munkafüzet mentése
 
-Végül itt az ideje, hogy mentse az új Excel-fájlt. Kiválaszthatja az Excel fájl kívánt formátumát.
+Végül itt az ideje menteni az új Excel-fájlt. Kiválaszthatja az Excel-fájl kívánt formátumát.
 
 ```csharp
 // Mentse el az excel fájlt.
@@ -138,27 +140,29 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Következtetés
 
-És megvan! Sikeresen védett egy adott sort egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Ez a funkció hihetetlenül hasznos a fejlesztők és felhasználók számára, akiknek biztosítaniuk kell az adatok integritását, miközben továbbra is megosztják Excel fájljaikat. Most már magabiztosan megoszthatja táblázatait, miközben megvédi a bennük lévő létfontosságú információkat.
+És íme! Sikeresen védett egy adott sor egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Ez a funkció hihetetlenül hasznos a fejlesztők és a felhasználók számára, akiknek biztosítaniuk kell az adatok integritását, miközben továbbra is megosztják Excel-fájljaikat. Mostantól magabiztosan megoszthatja táblázatait, miközben megvédi a bennük lévő létfontosságú információkat.
 
 ## GYIK
 
-### Megvédhetek több sort ugyanazzal a módszerrel?  
-Igen, megismételheti a zárolási folyamatot bármely más sornál ugyanúgy, mint az első sornál.
+### Védhetek több sort ugyanazzal a módszerrel?  
+Igen, megismételheti a zárolási folyamatot bármely más sor esetében ugyanúgy, mint az első sor esetében.
 
-### Mi a teendő, ha sorok helyett bizonyos cellákat akarok védeni és feloldani?  
-Egyedileg jelölheti ki a cellákat, és alkalmazhat zárolási stílusokat, hasonlóan ahhoz, ahogyan egy sort zárolt.
+### Mi van, ha sorok helyett bizonyos cellákat szeretnék védeni és feloldani?  
+A cellákat egyenként is kijelölheti, és zárolási stílusokat alkalmazhat rájuk, hasonlóan ahhoz, ahogyan egy sort zárolt.
 
-### Az Aspose.Cells ingyenesen használható?  
- Az Aspose.Cells kereskedelmi termék, de ingyenes próbaverzióval kipróbálhatja[itt](https://releases.aspose.com/).
+### Ingyenesen használható az Aspose.Cells?  
+Az Aspose.Cells egy kereskedelmi termék, de kipróbálhatja egy ingyenes próbaverzióval. [itt](https://releases.aspose.com/).
 
 ### Szükségem van internetkapcsolatra az Aspose.Cells használatához?  
-Nem, az Aspose.Cells egy .NET-könyvtár, és a telepítés után offline is működik.
+Nem, az Aspose.Cells egy .NET könyvtár, és telepítés után offline is működik.
 
 ### Hol kaphatok támogatást az Aspose.Cells-hez?  
- Bármilyen kérdéssel vagy támogatással kapcsolatban keresse fel a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
+Bármilyen kérdés vagy támogatás esetén látogassa meg a következőt: [Aspose támogatói fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

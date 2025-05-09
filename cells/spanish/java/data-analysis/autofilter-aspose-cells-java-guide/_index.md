@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ Siguiendo esta guía, ha aprendido a aprovechar al máximo el potencial de los a
 ## Sección de preguntas frecuentes
 
 1. **¿Cuál es el caso de uso principal de los filtros automáticos en Aspose.Cells?**  
-   Los autofiltros ayudan a administrar grandes conjuntos de datos de Excel ocultando dinámicamente filas no relevantes según criterios específicos.
+   Los filtros automáticos ayudan a administrar grandes conjuntos de datos de Excel ocultando dinámicamente filas no relevantes según criterios específicos.
 
 2. **¿Cómo manejo los errores al aplicar filtros?**  
    Asegúrese de que se utilicen índices de columna correctos y que los tipos de datos coincidan con los criterios de filtro para evitar excepciones en tiempo de ejecución.
@@ -201,6 +203,9 @@ Con estos recursos, estarás bien preparado para continuar tu experiencia con As
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

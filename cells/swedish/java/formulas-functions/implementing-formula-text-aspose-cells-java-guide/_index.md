@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Redo att ta dina kunskaper om automatisering av kalkylblad till nästa nivå? B�
 Genom att utnyttja Aspose.Cells med Java kan du effektivt hantera och manipulera Excel-filer i dina applikationer. Utforska ytterligare funktioner för att maximera dess potential i dina projekt!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licenc beszerzése:
-Az Aspose.Cells egy kereskedelmi termék, de kipróbálhatja ingyenesen, vagy kérhet ideiglenes licencet a funkcióinak teljes körű kiértékeléséhez. Látogasson el ide: [Aspose vásárlási oldala](https://purchase.aspose.com/buy) licencelési lehetőségekért.
+Az Aspose.Cells egy kereskedelmi termék, de kipróbálhatja ingyenesen, vagy kérhet ideiglenes licencet a funkcióinak teljes körű megismeréséhez. Látogasson el ide: [Aspose vásárlási oldala](https://purchase.aspose.com/buy) licencelési lehetőségekért.
 
 Miután a környezeted be van állítva és az Aspose.Cells függőségként hozzáadva, folytassuk a megvalósítással.
 
@@ -89,7 +91,7 @@ Workbook workbook = new Workbook(dataDir + "/Book1.xlsx");
 Miután megnyitotta a munkafüzetét, mostantól különféle műveleteket hajthat végre, például cellaértékek beolvasását vagy tartalom módosítását. Például:
 
 ```java
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 var sheet = workbook.getWorksheets().get(0);
 
 // Egy adott cella értékének lekérése
@@ -143,9 +145,12 @@ Készen állsz, hogy elkezdhesd? Próbáld meg megvalósítani ezeket a lépése
 5. **Mi van, ha az Excel fájlom jelszóval védett?**
    - Az Aspose.Cells a megfelelő metódushívásokkal oldhatja fel a fájlok zárolását.
 
-Részletesebb információkért lásd: [Aspose dokumentáció](https://reference.aspose.com/cells/java/) és fedezzen fel további forrásokat, hogy bővítse ismereteit erről a hatékony könyvtárról.
+Részletesebb információkért lásd a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) és fedezzen fel további forrásokat, hogy bővítse ismereteit erről a hatékony könyvtárról.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

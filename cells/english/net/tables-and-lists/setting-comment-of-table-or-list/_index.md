@@ -8,7 +8,9 @@ url: /net/tables-and-lists/setting-comment-of-table-or-list/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Comment of Table or List in Excel
@@ -89,6 +91,7 @@ For comprehensive documentation, head over to the [Aspose.Cells documentation pa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

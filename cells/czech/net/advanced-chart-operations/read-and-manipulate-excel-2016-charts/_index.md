@@ -1,36 +1,38 @@
 ---
-title: Číst a manipulovat s grafy Excel 2016
-linktitle: Číst a manipulovat s grafy Excel 2016
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se číst a manipulovat s grafy Excelu 2016 pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce.
-weight: 13
-url: /cs/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
+"description": "Naučte se, jak číst a manipulovat s grafy v Excelu 2016 pomocí Aspose.Cells pro .NET s tímto podrobným návodem."
+"linktitle": "Čtení a manipulace s grafy v Excelu 2016"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Čtení a manipulace s grafy v Excelu 2016"
+"url": "/cs/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Číst a manipulovat s grafy Excel 2016
+# Čtení a manipulace s grafy v Excelu 2016
 
 ## Zavedení
 
-Excel je mocný nástroj pro vizualizaci a prezentaci dat, ale programová manipulace s grafy může být poměrně složitá. To je místo, kde Aspose.Cells for .NET přichází na pomoc! Tato robustní knihovna umožňuje vývojářům bezproblémově vytvářet, číst a manipulovat se soubory Excel. V tomto tutoriálu se ponoříme do toho, jak číst a manipulovat s grafy Excelu 2016 pomocí Aspose.Cells, aby byl proces přímočarý a efektivní.
+Excel je výkonný nástroj pro vizualizaci a prezentaci dat, ale programová manipulace s grafy může být poměrně složitá. A právě zde přichází na pomoc Aspose.Cells pro .NET! Tato robustní knihovna umožňuje vývojářům bezproblémově vytvářet, číst a manipulovat s soubory Excelu. V tomto tutoriálu se ponoříme do toho, jak číst a manipulovat s grafy v Excelu 2016 pomocí Aspose.Cells, což celý proces zjednoduší a zefektivní.
 
 ## Předpoklady
 
-Než se pustíme do kódu, ujistěte se, že jste vše nastavili. Zde jsou předpoklady, které budete potřebovat:
+Než se pustíme do kódu, ujistěte se, že máte vše připravené. Zde jsou předpoklady, které budete potřebovat:
 
-1.  Aspose.Cells for .NET: Tuto knihovnu musíte mít nainstalovanou. Pokud jste tak ještě neučinili, můžete si ji stáhnout[zde](https://releases.aspose.com/cells/net/).
-2. .NET Framework: Ujistěte se, že máte ve svém vývojovém prostředí nainstalované rozhraní .NET Framework. Aspose.Cells podporuje více rámců, takže zkontrolujte kompatibilitu.
+1. Aspose.Cells pro .NET: Musíte mít tuto knihovnu nainstalovanou. Pokud jste tak ještě neučinili, můžete si ji stáhnout. [zde](https://releases.aspose.com/cells/net/).
+2. .NET Framework: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovaný .NET Framework. Aspose.Cells podporuje více frameworků, proto zkontrolujte kompatibilitu.
 3. IDE: K psaní a spouštění kódu použijte IDE, jako je Visual Studio. 
-4. Základní znalost C#: Pochopení základů programování v C# výrazně usnadní sledování tohoto návodu.
+4. Základní znalost C#: Pochopení základů programování v C# vám výrazně usnadní čtení tohoto tutoriálu.
 
-Nyní, když máme vše připraveno, jdeme na to a importujeme potřebné balíčky.
+Nyní, když máme vše připravené, pojďme importovat potřebné balíčky.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, budete muset do souboru C# importovat následující jmenné prostory. To vám umožní využívat třídy nabízené Aspose.Cells.
+Pro začátek budete muset do souboru C# importovat následující jmenné prostory. To vám umožní využívat třídy nabízené Aspose.Cells.
 
 ```csharp
 using System;
@@ -40,11 +42,11 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```
 
-Rozdělme si úkol na zvládnutelné kroky. Nastíníme proces čtení excelových grafů, změnu jejich názvů a uložení upraveného sešitu.
+Rozdělme si úkol na zvládnutelné kroky. Nastíníme si proces čtení excelových grafů, změny jejich názvů a uložení upraveného sešitu.
 
-## Krok 1: Nastavte zdrojové a výstupní adresáře
+## Krok 1: Nastavení zdrojového a výstupního adresáře
 
-Nejprve musíte definovat umístění zdrojového souboru Excel a adresář, kam chcete uložit výstupní soubor.
+Nejprve je třeba definovat umístění zdrojového souboru Excelu a adresář, kam chcete uložit výstupní soubor.
 
 ```csharp
 // Zdrojový adresář
@@ -54,34 +56,34 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Nahradit`"Your Document Directory"` a`"Your Output Directory"` se skutečnými cestami, kde jsou uloženy vaše soubory.
+Nahradit `"Your Document Directory"` a `"Your Output Directory"` se skutečnými cestami, kde jsou vaše soubory uloženy.
 
-## Krok 2: Načtěte sešit
+## Krok 2: Načtení sešitu
 
- tomto kroku načtete soubor Excel, který obsahuje grafy. Aspose.Cells to usnadňuje pomocí`Workbook` třída.
+V tomto kroku načtete soubor aplikace Excel, který obsahuje grafy. Aspose.Cells to usnadňuje pomocí… `Workbook` třída.
 
 ```csharp
-// Načtěte zdrojový soubor aplikace Excel obsahující grafy aplikace Excel 2016
+// Načíst zdrojový soubor Excel obsahující grafy z Excelu 2016
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Ujistěte se, že soubor Excel, na který odkazujete, existuje v zadané cestě. V opačném případě můžete narazit na chybu nenalezen soubor.
+Ujistěte se, že soubor Excelu, na který odkazujete, existuje v zadané cestě. Jinak se může zobrazit chyba „soubor nebyl nalezen“.
 
-## Krok 3: Otevřete sešit
+## Krok 3: Přístup k pracovnímu listu
 
-Dále chcete získat přístup k listu obsahujícímu grafy. Obvykle je to první list, který obsahuje relevantní data.
+Dále chcete přistupovat k listu obsahujícímu grafy. Obvykle je to první list, který obsahuje relevantní data.
 
 ```csharp
-// Otevřete první list, který obsahuje grafy
+// Přístup k prvnímu listu, který obsahuje grafy
 Worksheet ws = wb.Worksheets[0];
 ```
 
 ## Krok 4: Procházení grafů
 
- Nyní budete muset iterovat všechny grafy v listu. Aspose.Cells vám umožňuje snadný přístup k grafům pomocí`Charts` vlastnictvím`Worksheet` třída.
+Nyní budete muset iterovat přes všechny grafy v listu. Aspose.Cells vám umožňuje snadný přístup k grafům pomocí `Charts` majetek `Worksheet` třída.
 
 ```csharp
-// Přístup ke všem grafům jeden po druhém a čtení jejich typů
+// Postupně zpřístupněte všechny grafy a přečtěte si jejich typy
 for (int i = 0; i < ws.Charts.Count; i++)
 {
     // Přístup k grafu
@@ -90,39 +92,39 @@ for (int i = 0; i < ws.Charts.Count; i++)
 
 ## Krok 5: Tisk typů grafů
 
-Uvnitř smyčky vytiskněte typ každého grafu. To vám pomůže pochopit, jaké typy grafů jsou obsaženy v souboru aplikace Excel.
+Uvnitř smyčky vypište typ každého grafu. To vám pomůže pochopit, jaké typy grafů se ve vašem souboru Excelu nacházejí.
 
 ```csharp
-    // Tisk typu grafu
+    // Typ tiskového grafu
     Console.WriteLine(ch.Type);
 ```
 
-## Krok 6: Upravte názvy grafů
+## Krok 6: Úprava názvů grafů
 
-Tady začíná zábava! Název každého grafu můžete dynamicky měnit na základě jeho typu.
+tady začíná ta pravá zábava! Název každého grafu můžete dynamicky měnit v závislosti na jeho typu.
 
 ```csharp
-    // Změňte název grafů podle jejich typů
+    // Změňte názvy grafů podle jejich typů
     ch.Title.Text = "Chart Type is " + ch.Type.ToString();
 }
 ```
 
-Tento krok přizpůsobí každý graf, takže vizualizace dat bude intuitivnější.
+Tento krok přizpůsobí každý graf, čímž se vizualizace dat stane intuitivnější.
 
-## Krok 7: Uložte sešit
+## Krok 7: Uložení sešitu
 
-Jakmile provedete změny, musíte upravený sešit uložit. To je u Aspose.Cells docela jednoduché.
+Jakmile provedete změny, je třeba upravený sešit uložit. S Aspose.Cells je to docela jednoduché.
 
 ```csharp
-// Uložte sešit
+// Uložit sešit
 wb.Save(outputDir + "outputReadManipulateExcel2016Charts.xlsx");
 ```
 
 Nezapomeňte zadat platný název výstupního souboru!
 
-## Krok 8: Potvrzující zpráva
+## Krok 8: Potvrzovací zpráva
 
-Pro praktický dotek poskytněte zpětnou vazbu v konzole, abyste potvrdili, že operace byla úspěšná.
+Pro praktičtější účely si v konzoli zobrazíme zpětnou vazbu, která potvrdí, že operace proběhla úspěšně.
 
 ```csharp
 Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
@@ -130,27 +132,29 @@ Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
 
 ## Závěr
 
-Gratuluji! Úspěšně jste se naučili číst a manipulovat s grafy Excelu 2016 pomocí Aspose.Cells for .NET. Tato výkonná knihovna vám poskytuje flexibilitu pro programové zpracování souborů aplikace Excel, díky čemuž je váš pracovní postup efektivnější. Ať už potřebujete aktualizovat názvy grafů, upravit data nebo dokonce vytvořit nové grafy, Aspose.Cells vám pomůže.
+Gratulujeme! Úspěšně jste se naučili číst a manipulovat s grafy aplikace Excel 2016 pomocí knihovny Aspose.Cells pro .NET. Tato výkonná knihovna vám poskytuje flexibilitu programově zpracovávat soubory aplikace Excel, což zefektivňuje váš pracovní postup. Ať už potřebujete aktualizovat názvy grafů, upravovat data nebo dokonce vytvářet nové grafy, Aspose.Cells vám s tím pomůže.
 
-## FAQ
+## Často kladené otázky
 
-### K čemu slouží Aspose.Cells for .NET?
-Aspose.Cells for .NET je knihovna pro programovou práci se soubory aplikace Excel, která umožňuje vývojářům vytvářet, číst, manipulovat a převádět soubory aplikace Excel v rámci aplikací .NET.
+### K čemu se používá Aspose.Cells pro .NET?
+Aspose.Cells pro .NET je knihovna pro programovou práci s Excelovými soubory, která umožňuje vývojářům vytvářet, číst, manipulovat a převádět Excelové soubory v .NET aplikacích.
 
 ### Jak si mohu stáhnout Aspose.Cells?
- Aspose.Cells si můžete stáhnout z webu[zde](https://releases.aspose.com/cells/net/).
+Aspose.Cells si můžete stáhnout z webových stránek [zde](https://releases.aspose.com/cells/net/).
 
-### Podporuje Aspose.Cells jiné formáty souborů Excel než .xlsx?
+### Podporuje Aspose.Cells jiné formáty souborů Excelu než .xlsx?
 Ano! Aspose.Cells podporuje různé formáty souborů, včetně .xls, .csv, .pdf a dalších.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Cells?
- Ano, Aspose nabízí bezplatnou zkušební verzi, ke které máte přístup[zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi, ke které máte přístup. [zde](https://releases.aspose.com/).
 
 ### Kde mohu získat podporu pro Aspose.Cells?
- Podporu a komunitní diskuse najdete na fóru Aspose[zde](https://forum.aspose.com/c/cells/9).
+Podporu a diskuze v komunitě najdete na fóru Aspose. [zde](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

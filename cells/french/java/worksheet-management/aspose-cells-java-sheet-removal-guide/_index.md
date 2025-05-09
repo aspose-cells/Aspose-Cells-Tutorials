@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Vous savez maintenant comment supprimer une feuille de calcul par son nom grâce
 En suivant ce guide, vous serez parfaitement équipé pour gérer efficacement vos feuilles Excel avec Aspose.Cells en Java. Commencez dès aujourd'hui à l'utiliser et découvrez comment il peut améliorer vos projets !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

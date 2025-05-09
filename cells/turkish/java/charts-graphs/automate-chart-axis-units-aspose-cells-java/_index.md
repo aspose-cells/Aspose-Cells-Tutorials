@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ Becerilerinizi bir üst seviyeye taşımaya hazır mısınız? Bu çözümü ken
    - JDK ve Aspose.Cells sürümlerinin uyumlu olduğundan emin olun.
 
 4. **Grafikleri PDF dışındaki formatlara nasıl aktarabilirim?**
-   - Şu yöntemleri kullanın: `toImage()` resim biçimleri için veya daha fazla seçenek için Aspose'un belgelerini inceleyin.
+   - Şu yöntemleri kullanın: `toImage()` Resim biçimleri için veya daha fazla seçenek için Aspose'un belgelerini inceleyin.
 
 5. **Büyük Excel dosyaları için nelere dikkat etmeliyim?**
    - Verileri parçalar halinde işleyerek ve kaynakları hızlı bir şekilde serbest bırakarak bellek kullanımını optimize edin.
@@ -150,6 +152,9 @@ Becerilerinizi bir üst seviyeye taşımaya hazır mısınız? Bu çözümü ken
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

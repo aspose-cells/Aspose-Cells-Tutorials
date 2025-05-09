@@ -8,7 +8,9 @@ url: /net/tables-and-lists/converting-table-to-range-with-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Table to Range with Options
@@ -88,6 +90,7 @@ You can find a wealth of knowledge, ask questions, and interact with the communi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

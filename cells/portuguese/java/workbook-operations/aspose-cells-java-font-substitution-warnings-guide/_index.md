@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Os próximos passos podem incluir explorar outros tipos de aviso ou integrar o A
 - **Compra e Licenciamento:** Obtenha sua licença ou experimente o teste gratuito via [Aspose Compra](https://purchase.aspose.com/buy) ou [Teste gratuito do Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

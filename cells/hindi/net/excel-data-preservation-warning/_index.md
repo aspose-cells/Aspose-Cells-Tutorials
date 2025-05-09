@@ -1,14 +1,16 @@
 ---
-title: एक्सेल डेटा संरक्षण और चेतावनी
-linktitle: एक्सेल डेटा संरक्षण और चेतावनी
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: उन्नत Excel डेटा संरक्षण तकनीकों के लिए .NET के लिए Aspose.Cells का उपयोग करना सीखें, जैसे कक्षों में एकल उद्धरण उपसर्गों को संरक्षित करना और सॉर्टिंग के दौरान सॉर्ट चेतावनियाँ निर्दिष्ट करना।
-weight: 40
-url: /hi/net/excel-data-preservation-warning/
+"description": "उन्नत Excel डेटा संरक्षण तकनीकों के लिए .NET के लिए Aspose.Cells का उपयोग करना सीखें, जैसे कक्षों में एकल उद्धरण उपसर्गों को संरक्षित करना और सॉर्टिंग के दौरान सॉर्ट चेतावनियाँ निर्दिष्ट करना।"
+"linktitle": "एक्सेल डेटा संरक्षण और चेतावनी"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "एक्सेल डेटा संरक्षण और चेतावनी"
+"url": "/hi/net/excel-data-preservation-warning/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल डेटा संरक्षण और चेतावनी
@@ -38,9 +40,11 @@ url: /hi/net/excel-data-preservation-warning/
 इस आसान चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों में एकल उद्धरण उपसर्गों को संरक्षित करना सीखें।
 ### [Excel में डेटा सॉर्ट करते समय सॉर्ट चेतावनी निर्दिष्ट करें](./specify-sort-warning-while-sorting-data-in-excel/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel डेटा को आसानी से सॉर्ट करें। इस व्यापक ट्यूटोरियल में Excel डेटा को प्रभावी ढंग से प्रबंधित करने के लिए चरण-दर-चरण रणनीतियाँ सीखें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

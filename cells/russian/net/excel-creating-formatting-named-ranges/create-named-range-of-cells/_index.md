@@ -1,14 +1,16 @@
 ---
-title: Создать именованный диапазон ячеек в Excel
-linktitle: Создать именованный диапазон ячеек в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как легко создать именованный диапазон ячеек в Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Оптимизируйте управление данными.
-weight: 10
-url: /ru/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
+"description": "Узнайте, как легко создать именованный диапазон ячеек в Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Оптимизируйте управление данными."
+"linktitle": "Создать именованный диапазон ячеек в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Создать именованный диапазон ячеек в Excel"
+"url": "/ru/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать именованный диапазон ячеек в Excel
@@ -22,7 +24,7 @@ url: /ru/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
 Прежде чем приступить к созданию именованных диапазонов с помощью Aspose.Cells, вам необходимо настроить несколько вещей:
 
 1. Visual Studio: убедитесь, что на вашем компьютере установлена Visual Studio.
-2.  Aspose.Cells для .NET: Загрузите и установите Aspose.Cells с сайта[сайт](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Загрузите и установите Aspose.Cells с сайта [сайт](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам легче понимать материал.
 4. .NET Framework: убедитесь, что ваш проект ориентирован на совместимую версию .NET.
 
@@ -51,7 +53,7 @@ using Aspose.Cells;
 string dataDir = "Your Document Directory";
 ```
 
- Просто замените`"Your Document Directory"` с фактическим путем, где вы хотите сохранить файл Excel. Это может быть что-то вроде`@"C:\Users\YourName\Documents\"`.
+Просто замените `"Your Document Directory"` с фактическим путем, где вы хотите сохранить файл Excel. Это может быть что-то вроде `@"C:\Users\YourName\Documents\"`.
 
 ## Шаг 2: Создайте новую рабочую книгу
 
@@ -119,7 +121,7 @@ range.SetStyle(st);
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
- Эта строка сохраняет ваши изменения в файле с именем`outputCreateNamedRangeofCells.xlsx`. Убедитесь, что указан правильный путь, иначе программа выдаст ошибку!
+Эта строка сохраняет ваши изменения в файле с именем `outputCreateNamedRangeofCells.xlsx`. Убедитесь, что указан правильный путь, иначе программа выдаст ошибку!
 
 ## Шаг 8: Проверка успешности операции
 
@@ -150,10 +152,12 @@ Aspose.Cells предлагает бесплатную пробную верси
 Aspose.Cells в первую очередь поддерживает языки .NET, такие как C#, VB.NET и другие.
 
 ### Где я могу найти дополнительную документацию по Aspose.Cells?
- Подробную документацию и примеры вы можете найти на сайте[Страница документации Aspose.Cells](https://reference.aspose.com/cells/net/).
+Подробную документацию и примеры вы можете найти на сайте [Страница документации Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

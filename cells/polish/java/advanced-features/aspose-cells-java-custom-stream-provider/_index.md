@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ Wdrożenie prawidłowej obsługi wyjątków w `initStream` aby sprawnie zarządz
 **P3: Czy istnieje ograniczenie liczby zasobów, jakie Aspose.Cells może obsłużyć?**
 Chociaż Aspose.Cells jest solidny, wydajność może się różnić przy bardzo dużej liczbie zasobów. Monitoruj użycie pamięci przez aplikację i optymalizuj w razie potrzeby.
 
-**P4: Czy mogę użyć tej konfiguracji dla zasobów innych niż obrazy?**
+**P4: Czy mogę użyć tej konfiguracji w przypadku zasobów innych niż obrazy?**
 Tak, można rozszerzyć to podejście, aby zarządzać innymi typami zasobów zewnętrznych, modyfikując implementację dostawcy strumienia.
 
 **P5: Jakie są zaawansowane funkcje Aspose.Cells?**
@@ -190,6 +192,9 @@ Poznaj funkcje takie jak sprawdzanie poprawności danych, tworzenie wykresów i 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

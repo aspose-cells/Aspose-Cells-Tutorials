@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Az Aspose.Cells képes makróbarát fájlokat olvasni, de a makrók végrehajtá
 Ezt az átfogó útmutatót követve most már készen állsz arra, hogy hatékonyan dolgozz SXC fájlokkal az Aspose.Cells for Java segítségével. Akár fejlesztő vagy, aki szeretné fejleszteni az alkalmazásait, akár egy olyan szervezet vagy, amely az adatfeldolgozási feladatok egyszerűsítésére törekszik, az Aspose.Cells biztosítja a szükséges eszközöket ezen célok zökkenőmentes eléréséhez.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

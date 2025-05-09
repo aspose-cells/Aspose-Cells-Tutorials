@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@
 
 ## 設定 Aspose.Cells for Java
 
-若要使用所討論的功能，請先在您的專案中設定 Aspose.Cells。你可以透過 Maven 或 Gradle 添加它：
+若要使用所討論的功能，請先在您的專案中設定 Aspose.Cells。以下是透過 Maven 或 Gradle 添加它的方法：
 
 **Maven**
 ```xml
@@ -179,6 +181,9 @@ A5：妥善處置對象，大量執行操作，並監控大量操作期間的資
 - **支援論壇**： [Aspose 支援](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

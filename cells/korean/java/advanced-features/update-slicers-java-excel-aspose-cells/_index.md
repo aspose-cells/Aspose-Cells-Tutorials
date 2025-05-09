@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Aspose.Cells for Java는 다재다능하여 다양한 실용적인 응용 프로
 이 가이드에서는 Aspose.Cells를 사용하여 Java Excel 파일의 슬라이서를 업데이트하는 방법을 살펴보았습니다. 라이브러리 버전을 로드하고 표시하고, 프로그래밍 방식으로 슬라이서를 조작하고, 변경 사항을 Excel 파일에 다시 저장하는 방법을 배웠습니다. 이러한 기술을 통해 데이터 필터링 프로세스를 자동화하여 데이터 분석 작업의 생산성과 정확성을 향상시킬 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

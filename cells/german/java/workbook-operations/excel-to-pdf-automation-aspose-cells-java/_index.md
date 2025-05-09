@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ Bereit zum Ausprobieren? Tauchen Sie selbstbewusst in die automatisierte Excel-M
 Übernehmen Sie noch heute mit Aspose.Cells Java die Kontrolle über Ihre Excel-Daten und genießen Sie die Leistungsfähigkeit der Automatisierung!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

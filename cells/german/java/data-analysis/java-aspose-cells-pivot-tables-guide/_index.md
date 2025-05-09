@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Laden Sie nur die erforderlichen Arbeitsblätter oder verwenden Sie Streaming
 A:** Stellen Sie sicher, dass die richtigen Indizes und Positionen festgelegt sind, um Berechnungsfehler zu vermeiden. Testen Sie Ihre Konfigurationen stets mit Beispieldaten, bevor Sie sie in Produktionsarbeitsmappen anwenden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

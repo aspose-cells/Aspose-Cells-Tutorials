@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Teraz wiesz, jak utworzyć skoroszyt z przyciskiem za pomocą Aspose.Cells for J
 Zachęcamy do zapoznania się z tymi zasobami, aby uzyskać dodatkową pomoc i informacje na temat efektywnego wykorzystania Aspose.Cells w projektach Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

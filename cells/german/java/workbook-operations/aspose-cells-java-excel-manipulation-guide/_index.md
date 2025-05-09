@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ In dieser Anleitung haben Sie wichtige Techniken zur Excel-Dateibearbeitung mit 
 Um die Möglichkeiten von Aspose.Cells weiter zu erkunden, sollten Sie sich mit erweiterten Funktionen wie Diagrammerstellung, Datenvalidierung und mehr befassen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

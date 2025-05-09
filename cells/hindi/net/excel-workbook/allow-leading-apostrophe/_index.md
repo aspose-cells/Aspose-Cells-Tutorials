@@ -1,14 +1,16 @@
 ---
-title: अग्रणी एपोस्ट्रोफी की अनुमति दें
-linktitle: अग्रणी एपोस्ट्रोफी की अनुमति दें
-second_title: .NET API संदर्भ के लिए Aspose.Cells
-description: .NET के लिए Aspose.Cells के साथ Excel में अग्रणी एपोस्ट्रोफ़ को आसानी से प्रबंधित करें। यह व्यापक ट्यूटोरियल आपको प्रक्रिया के माध्यम से चरण-दर-चरण मार्गदर्शन करता है।
-weight: 60
-url: /hi/net/excel-workbook/allow-leading-apostrophe/
+"description": ".NET के लिए Aspose.Cells के साथ Excel में अग्रणी एपोस्ट्रोफ़ को आसानी से प्रबंधित करें। यह व्यापक ट्यूटोरियल आपको प्रक्रिया के माध्यम से चरण-दर-चरण मार्गदर्शन करता है।"
+"linktitle": "अग्रणी एपोस्ट्रोफी की अनुमति दें"
+"second_title": ".NET API संदर्भ के लिए Aspose.Cells"
+"title": "अग्रणी एपोस्ट्रोफी की अनुमति दें"
+"url": "/hi/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अग्रणी एपोस्ट्रोफी की अनुमति दें
@@ -22,7 +24,7 @@ url: /hi/net/excel-workbook/allow-leading-apostrophe/
 कोड में आगे बढ़ने से पहले, यहां कुछ पूर्व-आवश्यकताएं दी गई हैं जिन्हें आपको पूरा करना होगा:
 
 1. .NET का बुनियादी ज्ञान: .NET फ्रेमवर्क से परिचित होना आवश्यक है। यदि आप पहले से ही C# या VB.NET में दक्ष हैं, तो अपने आप को तैयार समझें।
-2.  .NET लाइब्रेरी के लिए Aspose.Cells: आपको Aspose.Cells इंस्टॉल करना होगा। आप इसे NuGet पैकेज मैनेजर के ज़रिए आसानी से कर सकते हैं या इसे यहाँ से डाउनलोड कर सकते हैं।[Aspose साइट](https://releases.aspose.com/cells/net/).
+2. .NET लाइब्रेरी के लिए Aspose.Cells: आपको Aspose.Cells इंस्टॉल करना होगा। आप इसे NuGet पैकेज मैनेजर के ज़रिए आसानी से कर सकते हैं या इसे यहाँ से डाउनलोड कर सकते हैं। [Aspose साइट](https://releases.aspose.com/cells/net/).
 3. IDE सेटअप: सुनिश्चित करें कि आपके पास कोडिंग के लिए विजुअल स्टूडियो जैसा एकीकृत विकास वातावरण (IDE) तैयार है।
 4. नमूना एक्सेल फ़ाइल: आप नमूना फ़ाइल ("AllowLeadingApostropheSample.xlsx") का उपयोग कर सकते हैं, जिसके साथ हम कोड में काम करेंगे।
 
@@ -62,7 +64,7 @@ string outputDir = "Your Output Directory";
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
-`WorkbookDesigner`हमारी कार्यपुस्तिका के डिजाइन और डेटा बाइंडिंग का प्रबंधन करता है, जिससे डेटा को दृश्य प्रारूप में परिवर्तित करते समय हमारा काम आसान हो जाता है।
+The `WorkbookDesigner` हमारी कार्यपुस्तिका के डिजाइन और डेटा बाइंडिंग का प्रबंधन करता है, जिससे डेटा को दृश्य प्रारूप में परिवर्तित करते समय हमारा काम आसान हो जाता है।
 
 ## चरण 3: मौजूदा कार्यपुस्तिका लोड करें
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- सेटिंग करके`QuotePrefixToStyle` को false पर सेट करके, हम Aspose.Cells को निर्देश दे रहे हैं कि वह अग्रणी एपोस्ट्रोफ को नियमित वर्णों के रूप में माने, जिससे हम उन्हें अपने आउटपुट में सटीक रूप से संभाल सकें।
+सेटिंग करके `QuotePrefixToStyle` को false पर सेट करके, हम Aspose.Cells को निर्देश दे रहे हैं कि वह अग्रणी एपोस्ट्रोफ को नियमित वर्णों के रूप में माने, जिससे हम उन्हें अपने आउटपुट में सटीक रूप से संभाल सकें।
 
 ## चरण 5: स्मार्ट मार्कर के लिए डेटा लोड करें
 
@@ -96,7 +98,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- हम एक सूची बना रहे हैं`DataObject`जहां नामों में से एक में जानबूझकर एक अग्रणी एपोस्ट्रोफ शामिल है। यह इस बात को स्पष्ट करने में मदद करेगा कि Aspose.Cells ऐसे परिदृश्यों से कैसे निपटता है।
+हम एक सूची बना रहे हैं `DataObject`, जहां नामों में से एक में जानबूझकर एक प्रमुख एपोस्ट्रोफी शामिल है। यह इस बात को स्पष्ट करने में मदद करेगा कि Aspose.Cells ऐसे परिदृश्यों से कैसे निपटता है।
 
 ## चरण 6: डेटा स्रोत को डिज़ाइनर से जोड़ें
 
@@ -150,19 +152,21 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells एक शक्तिशाली .NET लाइब्रेरी है जो प्रोग्रामेटिक रूप से कई प्रारूपों में Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने के लिए है।
 
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
- हां, आप निःशुल्क परीक्षण के लिए साइन अप करके Aspose.Cells का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप निःशुल्क परीक्षण के लिए साइन अप करके Aspose.Cells का उपयोग कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं[Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9).
+आप सहायता पा सकते हैं और प्रश्न पूछ सकते हैं [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells किस प्रकार की फ़ाइलों का समर्थन करता है?
 Aspose.Cells विभिन्न प्रारूपों का समर्थन करता है, जैसे XLS, XLSX, CSV, और कई अन्य।
 
 ### मैं Aspose.Cells के लिए लाइसेंस कैसे खरीदूं?
- आप Aspose.Cells के लिए लाइसेंस सीधे उनके खरीद पृष्ठ से खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप Aspose.Cells के लिए लाइसेंस सीधे उनके खरीद पृष्ठ से खरीद सकते हैं [यहाँ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

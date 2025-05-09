@@ -8,7 +8,9 @@ url: /net/workbook-operations/allow-leading-apostrophe/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Allow Leading Apostrophe in Workbook using Aspose.Cells
@@ -122,6 +124,7 @@ You can visit the Aspose support forum [here](https://forum.aspose.com/c/cells/9
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

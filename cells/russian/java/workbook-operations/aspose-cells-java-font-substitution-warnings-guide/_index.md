@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ public class FontSubstitutionHandler {
 4. **Что делать, если во время конвертации не отображаются предупреждения?**
    - Убедитесь, что `WarningCallback` правильно ли установлены параметры сохранения, и убедитесь, что действительно происходит замена шрифтов.
 
-5. **Где я могу найти больше примеров использования Aspose.Cells для Java?**
+5. **Где можно найти больше примеров использования Aspose.Cells для Java?**
    - Проверить [Документация Aspose](https://reference.aspose.com/cells/java/) для получения подробных руководств и примеров кода.
 
 ## Ресурсы
@@ -171,6 +173,9 @@ public class FontSubstitutionHandler {
 - **Покупка и лицензирование:** Получите лицензию или попробуйте бесплатную пробную версию через [Покупка Aspose](https://purchase.aspose.com/buy) или [Бесплатная пробная версия Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

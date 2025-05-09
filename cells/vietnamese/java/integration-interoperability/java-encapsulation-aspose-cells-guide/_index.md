@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,7 +206,7 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo các đ
 3. **Tôi có thể sử dụng Aspose.Cells mà không cần mua giấy phép không?**
    - Có, bạn có thể bắt đầu bằng bản dùng thử miễn phí và yêu cầu cấp giấy phép tạm thời nếu cần.
 4. **Những lợi thế của việc ghi đè là gì? `equals` Và `hashCode`?**
-   - Nó cho phép so sánh và băm chính xác các đối tượng dữ liệu, điều cần thiết trong các bộ sưu tập như `HashSet` hoặc khi được sử dụng làm chìa khóa trong bản đồ.
+   - Nó cho phép so sánh và băm chính xác các đối tượng dữ liệu, điều cần thiết trong các bộ sưu tập như `HashSet` hoặc khi sử dụng làm chìa khóa trong bản đồ.
 5. **Làm thế nào để tối ưu hóa hiệu suất khi làm việc với các tệp Excel lớn?**
    - Hãy cân nhắc việc sắp xếp hợp lý mã của bạn để chỉ xử lý các hoạt động cần thiết, sử dụng thuật toán hiệu quả và quản lý việc sử dụng bộ nhớ một cách cẩn thận.
 
@@ -219,6 +221,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo các đ
 Hãy thoải mái khám phá những nguồn tài nguyên này để biết thêm thông tin và hỗ trợ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

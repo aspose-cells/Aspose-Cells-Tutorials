@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Antes de começar, certifique-se de ter as bibliotecas e dependências necessár
 
 - **Aspose.Cells para Java**: Versão 25.3 ou posterior
 - **Kit de Desenvolvimento Java (JDK)**: Certifique-se de que o JDK esteja instalado na sua máquina.
-- **IDE**: Qualquer ambiente de desenvolvimento integrado, como IntelliJ IDEA, Eclipse ou NetBeans.
+- **IDE**: Qualquer ambiente de desenvolvimento integrado como IntelliJ IDEA, Eclipse ou NetBeans.
 ### Bibliotecas necessárias
 **Especialista**
 ```xml
@@ -124,7 +126,7 @@ workbook.save(outDir + "/ClearPivotFields_out.xlsx");
 ```
 *Explicação*: Salvar o arquivo garante que todas as alterações sejam preservadas e possam ser acessadas para uso futuro.
 ## Aplicações Práticas (H2)
-Aspose.Cells para Java oferece várias aplicações do mundo real:
+O Aspose.Cells para Java oferece vários aplicativos do mundo real:
 1. **Relatórios financeiros**: Automatize a atualização de relatórios financeiros no Excel, integrando tabelas dinâmicas para resumir as principais métricas.
    
 2. **Ferramentas de análise de dados**: Aprimore os processos de tomada de decisão baseados em dados refinando e recalculando tabelas dinâmicas dinamicamente.
@@ -167,6 +169,9 @@ Agora você tem um conhecimento abrangente sobre como otimizar tabelas dinâmica
 - [Versão de teste gratuita](https://releases.aspose.com/cells/java/) (link para a versão de teste mais recente)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

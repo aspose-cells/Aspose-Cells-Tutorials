@@ -8,7 +8,9 @@ url: /java/excel-pivot-tables/customizing-pivot-table-styles/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing Pivot Table Styles
@@ -87,9 +89,11 @@ Customizing pivot table styles in Aspose.Cells for Java API is straightforward a
    You can refer to the API documentation at [Aspose.Cells for Java API References](https://reference.aspose.com/cells/java/) for detailed information.
 
 Now you have the knowledge to create and customize pivot table styles in Aspose.Cells for Java. Explore further and make your data presentations truly exceptional!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ workbook.save(outDir + "LoadSourceExcelFile_out.pdf");
 
 ## การพิจารณาประสิทธิภาพ
 - **การเพิ่มประสิทธิภาพการโหลดไฟล์**:การยกเว้นองค์ประกอบที่ไม่จำเป็น เช่น แผนภูมิ จะช่วยลดการใช้หน่วยความจำของไฟล์ ส่งผลให้เวลาโหลดเร็วขึ้น
-- **การจัดการหน่วยความจำ**:ปล่อยทรัพยากรและกำจัดทิ้งเสมอ `Workbook` วัตถุเมื่อไม่จำเป็นอีกต่อไปเพื่อเพิ่มหน่วยความจำ
+- **การจัดการหน่วยความจำ**: ปล่อยทรัพยากรและกำจัดทิ้งเสมอ `Workbook` วัตถุเมื่อไม่จำเป็นอีกต่อไปเพื่อเพิ่มหน่วยความจำ
 - **โซลูชั่นที่ปรับขนาดได้**:ใช้คุณลักษณะของ Aspose.Cells เพื่อจัดการชุดข้อมูลขนาดใหญ่หรือการประมวลผลแบบแบตช์อย่างมีประสิทธิภาพ
 
 ## บทสรุป
@@ -156,6 +158,9 @@ workbook.save(outDir + "LoadSourceExcelFile_out.pdf");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

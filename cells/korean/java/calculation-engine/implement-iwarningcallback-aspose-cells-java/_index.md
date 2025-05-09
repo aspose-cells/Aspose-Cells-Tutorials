@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -45,7 +47,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells for Java는 제한된 기능을 갖춘 무료 평가판을 제공합니다. 모든 기능을 사용하려면 라이선스를 구매하거나 임시 라이선스를 받을 수 있습니다. 라이선스를 받으려면 다음 단계를 따르세요.
 1. **무료 체험**: 라이브러리를 다운로드하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
 2. **임시 면허**: 신청하세요 [임시 면허](https://purchase.aspose.com/temporary-license/) 일시적으로 모든 기능이 필요한 경우.
-3. **구입**: 장기 사용을 위해서는 라이선스를 구매하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).
+3. **구입**장기 사용을 위해서는 라이선스를 구매하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).
 #### 기본 초기화
 프로젝트에서 Aspose.Cells 인스턴스를 생성하여 초기화합니다. `Workbook` 수업:
 ```java
@@ -67,7 +69,7 @@ public class Main {
 이 기능의 주요 목적은 Aspose.Cells가 통합 문서를 로드할 때 발생하는 중복된 정의 이름과 같은 특정 경고를 포착하고 처리하는 것입니다. 이 구현은 Excel 파일의 잠재적인 문제를 경고하여 데이터 무결성을 보장합니다.
 #### 단계별 구현
 ##### 1. WarningCallback 클래스 생성
-라는 이름의 클래스를 만듭니다. `WarningCallback` 그것을 구현합니다 `IWarningCallback` 인터페이스:
+라는 이름의 클래스를 만듭니다. `WarningCallback` 구현하는 `IWarningCallback` 인터페이스:
 ```java
 import com.aspose.cells.IWarningCallback;
 import com.aspose.cells.WarningInfo;
@@ -143,6 +145,9 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면 다음이 필요합�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

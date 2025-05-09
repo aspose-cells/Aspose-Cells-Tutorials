@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Настройка Aspose.Cells для Java
 - Реализация IStreamProvider для пользовательской обработки потока во время экспорта
 - Настройка параметров экспорта, таких как скрипты и скрытые рабочие листы
-- Практические примеры использования этой реализации
+- Практические примеры использования данной реализации
 
 Прежде чем начать, давайте рассмотрим необходимые вам предварительные условия.
 
@@ -201,6 +203,9 @@ The `IStreamProvider` Интерфейс позволяет обрабатыва
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,6 +155,9 @@ Dalšími kroky je prozkoumání pokročilejších funkcí Aspose.Cells nebo int
 Začněte implementovat tyto výkonné funkce ještě dnes a vylepšete si možnosti zpracování sešitů v Excelu s Aspose.Cells pro Javu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

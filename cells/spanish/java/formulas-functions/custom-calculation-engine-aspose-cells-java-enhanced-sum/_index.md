@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Como próximos pasos, considere explorar características más avanzadas de Aspo
 Ahora que dominas la implementación de un motor de cálculo personalizado en Aspose.Cells Java, ¡pon a prueba tus habilidades y comienza a optimizar tus hojas de cálculo como nunca antes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

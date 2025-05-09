@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introdução
 No cenário digital atual, a proteção de dados confidenciais é fundamental. Arquivos do Excel geralmente contêm informações comerciais críticas que exigem proteção contra acesso não autorizado. **Aspose.Cells para Java**uma biblioteca poderosa projetada para manipular planilhas de diversas maneiras, incluindo o aprimoramento da segurança com proteção por senha e criptografia. Este tutorial guiará você na proteção de suas pastas de trabalho usando o Aspose.Cells, garantindo que apenas usuários autorizados possam visualizá-las ou editá-las.
 
-### que você aprenderá
+### O que você aprenderá
 - Como instanciar um `Workbook` objeto de um arquivo Excel existente.
 - Definir uma senha em uma pasta de trabalho do Excel para segurança básica.
 - Aplicar criptografia forte para proteger dados confidenciais.
@@ -137,7 +139,7 @@ Esses aplicativos demonstram como o Aspose.Cells pode ser integrado a vários si
 
 ## Considerações de desempenho
 Ao usar Aspose.Cells para Java:
-- **Otimize o uso da memória**: Certifique-se de que sua JVM tenha memória adequada alocada, especialmente ao trabalhar com pastas de trabalho grandes.
+- **Otimizar o uso da memória**: Certifique-se de que sua JVM tenha memória adequada alocada, especialmente ao trabalhar com pastas de trabalho grandes.
 - **Melhores Práticas**: Atualize regularmente para a versão mais recente do Aspose.Cells para se beneficiar de melhorias de desempenho e novos recursos.
 - **Processamento Eficiente**: Minimize operações redundantes processando dados em massa sempre que possível.
 
@@ -157,6 +159,9 @@ Neste tutorial, você aprendeu a proteger suas pastas de trabalho do Excel usand
    - Sim, o Aspose.Cells oferece suporte a uma ampla variedade de formatos de arquivo do Excel, incluindo versões mais antigas, como `.xls` mais novos como `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma
-linktitle: Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu ayrıntılı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken kullanılmayan stilleri nasıl hariç tutacağınızı öğrenin.
-weight: 10
-url: /tr/net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/
+"description": "Bu ayrıntılı adım adım kılavuzda, Aspose.Cells for .NET kullanarak Excel'i HTML'ye aktarırken kullanılmayan stilleri nasıl hariç tutacağınızı öğrenin."
+"linktitle": "Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma"
+"url": "/tr/net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'i HTML'e Aktarırken Kullanılmayan Stilleri Hariç Tutma
@@ -20,7 +22,7 @@ Bu eğitimi etkili bir şekilde takip edebilmek için önceden birkaç şeyi aya
 ### 1. Görsel Stüdyo
 Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burada yazıp çalıştıracaksınız.
 ### 2. .NET için Aspose.Cells
-Aspose.Cells kütüphanesini indirin. Excel dosyalarını programatik olarak yönetmek için güçlü bir araçtır. Bunu şuradan alabilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+Aspose.Cells kütüphanesini indirin. Excel dosyalarını programatik olarak yönetmek için güçlü bir araçtır. Bunu şuradan alabilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 ### 3. C#'ın Temel Bilgileri
 C# programlama diline aşina olmanız kavramları daha kolay kavramanıza yardımcı olacaktır.
 ### 4.Microsoft Excel
@@ -42,14 +44,14 @@ Başlamak için, dışa aktarılan HTML dosyamızın nereye kaydedilmesini isted
 // Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
- Yukarıdaki satırda şunu değiştirin:`"Your Document Directory"` HTML dosyasını kaydetmek istediğiniz gerçek yol ile. Örneğin, şöyle bir şey olabilir`C:\\Users\\YourName\\Documents\\`.
+Yukarıdaki satırda şunu değiştirin: `"Your Document Directory"` HTML dosyasını kaydetmek istediğiniz gerçek yol ile. Örneğin, şöyle bir şey olabilir `C:\\Users\\YourName\\Documents\\`.
 ## Adım 2: Bir Çalışma Kitabı Örneği Oluşturun
 Sonra, yeni bir çalışma kitabı oluşturacağız. Çalışma kitabını, verilerimizi ve stillerimizi boyayabileceğimiz boş bir tuval olarak düşünün:
 ```csharp
 // Çalışma kitabı oluştur
 Workbook wb = new Workbook();
 ```
- Bu satır, yeni bir örneğini başlatır`Workbook` sınıf. Excel ile ilgili her şey için başlangıç noktanızdır.
+Bu satır, yeni bir örneğini başlatır `Workbook` sınıf. Excel ile ilgili her şey için başlangıç noktanızdır.
 ## Adım 3: Kullanılmayan Adlandırılmış Bir Stil Oluşturun
 Kullanılmayan stilleri hariç tutmaya çalışsak da, süreci daha iyi göstermek için bir tane oluşturalım:
 ```csharp
@@ -58,7 +60,7 @@ wb.CreateStyle().Name = "UnusedStyle_XXXXXXXXXXXXXX";
 ```
 Bu adımda yeni bir stil oluşturuyoruz ancak bunu hiçbir hücreye uygulamıyoruz. Bu nedenle, kullanılmamış olarak kalıyor; ihtiyaçlarımız için mükemmel.
 ## Adım 4: İlk Çalışma Sayfasına Erişim
-Şimdi çalışma kitabımızdaki ilk çalışma sayfasına erişelim. Çalışma sayfası veri büyüsünün gerçekleştiği yerdir:
+Şimdi, çalışma kitabımızdaki ilk çalışma sayfasına erişelim. Çalışma sayfası, veri büyüsünün gerçekleştiği yerdir:
 ```csharp
 // İlk çalışma sayfasına erişin
 Worksheet ws = wb.Worksheets[0];
@@ -79,7 +81,7 @@ HtmlSaveOptions opts = new HtmlSaveOptions();
 // Kullanılmayan stilleri dahil etmek için bu satırı yorumlayın
 opts.ExcludeUnusedStyles = true;
 ```
- Yukarıdaki kodda, yeni bir örnek oluşturuyoruz`HtmlSaveOptions` ve ayarla`ExcludeUnusedStyles` ile`true`Bu, Aspose.Cells'e son HTML çıktısında kullanılmayan tüm stilleri kaldırmasını söyler.
+Yukarıdaki kodda, yeni bir örnek oluşturuyoruz `HtmlSaveOptions` ve ayarla `ExcludeUnusedStyles` ile `true`Bu, Aspose.Cells'e son HTML çıktısında kullanılmayan tüm stilleri kaldırmasını söyler.
 ## Adım 7: Çalışma Kitabını HTML Formatında Kaydedin
 Son olarak, çalışma kitabınızı bir HTML dosyası olarak kaydetme zamanı. Bu, tüm önceki çalışmalarınızın karşılığını aldığınız ödüllendirici kısımdır:
 ```csharp
@@ -104,12 +106,14 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla olu
 ### Excel'i HTML dışındaki formatlara dönüştürebilir miyim?  
 Evet! Aspose.Cells, Excel dosyalarını PDF, CSV ve daha fazlası dahil olmak üzere çeşitli formatlara dönüştürmeyi destekler.
 ### Aspose.Cells için nasıl destek alabilirim?  
- Aspose.Cells topluluğundan ve destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose.Cells topluluğundan ve destek forumundan yardım alabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
 ### İhtiyaç duymam halinde kullanılmayan stilleri eklemem mümkün mü?  
- Kesinlikle! Basitçe ayarlayın`opts.ExcludeUnusedStyles` ile`false` kullanılmış veya kullanılmamış tüm stilleri kapsayacak şekilde.
+Kesinlikle! Basitçe ayarlayın `opts.ExcludeUnusedStyles` ile `false` kullanılmış veya kullanılmamış tüm stilleri kapsayacak şekilde.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

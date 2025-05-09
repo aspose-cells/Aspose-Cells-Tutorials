@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ Java에서 Aspose.Cells를 사용하는 경우:
    - 예, Aspose.Cells는 이전 버전을 포함하여 광범위한 Excel 파일 형식을 지원합니다. `.xls` 그리고 새로운 것들과 같은 `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

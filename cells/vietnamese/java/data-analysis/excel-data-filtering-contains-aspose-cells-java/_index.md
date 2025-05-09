@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ A5: Ghé thăm [Trang giấy phép tạm thời Aspose](https://purchase.aspose.
 Với hướng dẫn toàn diện này, bạn sẽ được trang bị để triển khai Aspose.Cells for Java vào các dự án của mình một cách hiệu quả. Chúc bạn viết code vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

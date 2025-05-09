@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Bước tiếp theo, hãy cân nhắc khám phá các tính năng nâng cao hơn
 Bây giờ bạn đã thành thạo trong việc triển khai công cụ tính toán tùy chỉnh trong Aspose.Cells Java, hãy thử nghiệm các kỹ năng của bạn và bắt đầu tối ưu hóa bảng tính của bạn theo cách chưa từng có!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

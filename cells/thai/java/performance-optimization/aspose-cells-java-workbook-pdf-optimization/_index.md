@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 ก่อนที่จะนำคุณสมบัติที่ครอบคลุมที่นี่ไปใช้ โปรดแน่ใจว่าคุณมี:
 - **ไลบรารีและเวอร์ชัน:** ต้องมี Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 - **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** Java Development Kit (JDK) ที่ติดตั้งอยู่บนระบบของคุณพร้อมกับ IDE เช่น IntelliJ IDEA หรือ Eclipse
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยเบื้องต้นกับแนวคิดการเขียนโปรแกรม Java จะเป็นประโยชน์
+- **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยเบื้องต้นกับแนวคิดการเขียนโปรแกรม Java จะเป็นประโยชน์
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -96,7 +98,7 @@ class FeatureVersionDisplay {
 **ภาพรวม:** เรียนรู้วิธีการสร้างอ็อบเจ็กต์เวิร์กบุ๊กว่างโดยใช้ Aspose.Cells สำหรับ Java ซึ่งเป็นการเตรียมความพร้อมสำหรับเวิร์กโฟลว์การจัดการข้อมูลของคุณ
 
 #### การดำเนินการแบบทีละขั้นตอน
-##### สร้างและเริ่มต้นสมุดงาน
+##### การสร้างและเริ่มต้นสมุดงาน
 
 ```java
 import com.aspose.cells.Workbook;
@@ -184,6 +186,9 @@ class FeatureConfigurePdfSaveOptions {
 เริ่มต้นการเดินทางของคุณด้วย Aspose.Cells สำหรับ Java และปลดล็อกศักยภาพเต็มรูปแบบของการจัดการไฟล์ Excel
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

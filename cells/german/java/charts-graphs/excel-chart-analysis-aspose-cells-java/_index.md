@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A5: Überprüfen Sie die Konsolenausgabe auf bestimmte Fehlermeldungen, stellen 
 Bringen Sie Ihre Java-Projekte auf die nächste Ebene, indem Sie die Excel-Diagrammanalyse mit Aspose.Cells meistern!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Bây giờ bạn đã thành thạo việc tạo và sử dụng các phạm vi 
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để khai thác sức mạnh của các phạm vi được đặt tên với Aspose.Cells for Java trong các dự án của mình. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

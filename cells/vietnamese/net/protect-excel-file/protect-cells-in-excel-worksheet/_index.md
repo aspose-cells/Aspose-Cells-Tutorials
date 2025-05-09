@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ ô trong bảng tính Excel
-linktitle: Bảo vệ ô trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này có kèm ví dụ về mã.
-weight: 30
-url: /vi/net/protect-excel-file/protect-cells-in-excel-worksheet/
+"description": "Tìm hiểu cách bảo vệ các ô cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này có kèm ví dụ về mã."
+"linktitle": "Bảo vệ ô trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ ô trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/protect-cells-in-excel-worksheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ ô trong bảng tính Excel
@@ -22,7 +24,7 @@ Trong thế giới kỹ thuật số ngày nay, việc quản lý dữ liệu an
 Trước khi đi sâu vào việc bảo vệ tế bào, bạn cần thực hiện một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là IDE chính để phát triển .NET.
-2.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ[Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells trong dự án của mình. Bạn có thể dễ dàng cài đặt nó thông qua NuGet Package Manager hoặc tải xuống trực tiếp từ [Trang web Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 ## Nhập gói
@@ -131,7 +133,7 @@ Mỗi ô được truy cập riêng lẻ và chúng tôi thay đổi kiểu củ
 sheet.Protect(ProtectionType.All);
 ```
 
- Bằng cách gọi`Protect` phương pháp này, bạn đang yêu cầu Excel ngăn chặn mọi sửa đổi trừ khi tính năng bảo vệ bị gỡ bỏ.
+Bằng cách gọi `Protect` phương pháp này, bạn đang yêu cầu Excel ngăn chặn mọi sửa đổi trừ khi tính năng bảo vệ bị gỡ bỏ.
 
 ## Bước 7: Lưu sổ làm việc
 
@@ -156,16 +158,18 @@ Aspose.Cells là một thư viện mạnh mẽ để xử lý các tệp Excel �
 Chắc chắn rồi! Bạn có thể khóa bao nhiêu ô tùy thích bằng cách lặp lại các bước khóa ô cho mỗi ô mong muốn.
 
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải có giấy phép. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải có giấy phép. Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm tài liệu ở đâu?
- Tài liệu có thể được tìm thấy[đây](https://reference.aspose.com/cells/net/).
+Tài liệu có thể được tìm thấy [đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể lưu tệp Excel ở định dạng nào?
 Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLSX, XLS, CSV, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

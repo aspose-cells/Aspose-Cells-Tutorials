@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Bij de gratis proefversie worden watermerken op uitvoerbestanden weergegeven en 
 Begin aan je reis naar het perfectioneren van Excel-grafiekaanpassing met Aspose.Cells voor Java en verbeter de manier waarop je gegevens presenteert. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

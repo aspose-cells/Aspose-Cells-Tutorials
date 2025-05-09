@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Làm chủ việc phát hiện và kiểm tra mã hóa tệp bằng Aspose.Cells Java
+# Làm chủ việc phát hiện tệp và kiểm tra mã hóa với Aspose.Cells Java
 
 ## Giới thiệu
 
@@ -187,6 +189,9 @@ Sẵn sàng áp dụng những kỹ năng này vào thực tế? Hãy thử áp 
 Nâng cao trình độ lập trình Java của bạn bằng cách khai thác sức mạnh của Aspose.Cells. Chúc bạn lập trình vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

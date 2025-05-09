@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Etapy uzyskania licencji
 Aspose.Cells for Java oferuje bezpłatną wersję próbną, która zapewnia pełny dostęp do możliwości API, umożliwiając przetestowanie funkcji przed zakupem. W przypadku dłuższego użytkowania rozważ nabycie licencji tymczasowej lub stałej:
 - **Bezpłatna wersja próbna:** Pobierz z [Wydania Aspose](https://releases.aspose.com/cells/java/).
-- **Licencja tymczasowa:** Uzyskaj poprzez [Kup Aspose](https://purchase.aspose.com/temporary-license/) w celach ewaluacyjnych.
+- **Licencja tymczasowa:** Uzyskaj poprzez [Kup Aspose](https://purchase.aspose.com/temporary-license/) celach ewaluacyjnych.
 - **Kup licencję:** Odwiedzać [Kup Aspose Cells](https://purchase.aspose.com/buy) o stałą licencję.
 
 Gdy już skonfigurujesz bibliotekę i zakupisz licencję, przejdźmy do przewodnika po implementacji, w którym omówimy każdą funkcję krok po kroku.
@@ -159,7 +161,7 @@ Zachęcamy do wypróbowania tych rozwiązań i sprawdzenia, jak mogą usprawnić
 
 ## Sekcja FAQ
 1. **Jak skonfigurować tymczasową licencję do celów testowych?**
-   - Odwiedzać [Licencja tymczasowa Aspose](https://purchase.aspose.com/temporary-license/) postępuj zgodnie z wyświetlanymi instrukcjami.
+   - Odwiedzać [Licencja tymczasowa Aspose](https://purchase.aspose.com/temporary-license/) i postępuj zgodnie z wyświetlanymi instrukcjami.
 2. **Czy mogę dodać do obrazu wiele wierszy podpisu?**
    - Obecnie Aspose.Cells obsługuje dodawanie pojedynczej linii podpisu na obiekt obrazu.
 3. **Jakie formaty plików obsługuje Aspose.Cells?**
@@ -176,6 +178,9 @@ Zachęcamy do wypróbowania tych rozwiązań i sprawdzenia, jak mogą usprawnić
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

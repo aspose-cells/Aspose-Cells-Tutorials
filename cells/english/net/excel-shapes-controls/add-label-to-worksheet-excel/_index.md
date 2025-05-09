@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-label-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add a Label to Worksheet in Excel
@@ -106,6 +108,7 @@ Ensure that the directory you’re saving to exists and that you have write perm
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ Bây giờ bạn đã nắm vững những điều cơ bản về việc tạo v
 3. **Tôi có thể định dạng ô bằng Aspose.Cells không?**
    - Có, bạn có thể áp dụng nhiều tùy chọn định dạng khác nhau để cải thiện giao diện của bảng tính.
 4. **Có thể thêm công thức vào ô không?**
-   - Chắc chắn rồi! Aspose.Cells hỗ trợ thêm và tính toán các công thức Excel trong sổ làm việc.
+   - Hoàn toàn có thể! Aspose.Cells hỗ trợ thêm và tính toán các công thức Excel trong sổ làm việc.
 5. **Tôi phải làm gì nếu phiên bản thư viện của tôi đã lỗi thời?**
    - Kiểm tra [Trang tải xuống Aspose](https://releases.aspose.com/cells/java/) để cập nhật và nâng cấp các phụ thuộc của bạn cho phù hợp.
 
@@ -180,6 +182,9 @@ Bây giờ bạn đã nắm vững những điều cơ bản về việc tạo v
 - **Mua và dùng thử miễn phí**: Tìm hiểu thêm về việc mua giấy phép hoặc bắt đầu dùng thử miễn phí tại [Mua Aspose](https://purchase.aspose.com/buy) Và [Dùng thử miễn phí](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

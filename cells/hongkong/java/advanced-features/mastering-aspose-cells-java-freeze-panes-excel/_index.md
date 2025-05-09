@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ workbook.save(outDir + "FreezePanes_out.xls");
 **第四季**：使用 Aspose.Cells 時檔案大小有任何限制嗎？
 - **一個**：雖然它支援大文件，但效能可能會根據系統資源和工作簿的複雜性而有所不同。
 
-**問5**：我可以一次將凍結窗格套用到多個工作表嗎？
+**問5**：我可以一次將凍結窗格套用至多張工作表嗎？
 - **一個**：是的，遍歷 `WorksheetCollection` 並根據需要單獨應用設定。
 
 ## 資源
@@ -143,6 +145,9 @@ workbook.save(outDir + "FreezePanes_out.xls");
 如有任何其他問題或需要支持，請訪問 [Aspose 論壇](https://forum.aspose.com/c/cells/9)。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

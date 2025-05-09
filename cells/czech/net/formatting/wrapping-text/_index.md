@@ -1,49 +1,54 @@
 ---
-title: Obložte text v buňkách programu Excel pomocí Aspose.Cells pro .NET
-weight: 7700
-limit: 
-description: Naučte se, jak zapojit text v buňkách programu Excel pomocí Aspose.Cells pro .NET. Tato příručka zahrnuje vytváření pracovního seznamu, přidání pracovního listu a aplikaci zapojování textu.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /cs/net/formatting/wrapping-text/
----  
+"description": "Naučte se, jak zalamovat text v buňkách aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Tato příručka popisuje vytvoření sešitu, přidání listu a použití zalamování textu."
+"title": "Zalamování textu v buňkách aplikace Excel pomocí Aspose.Cells pro .NET"
+"url": "/cs/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# Zalamování textu v buňkách aplikace Excel pomocí Aspose.Cells 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+Zalamování textu v buňkách aplikace Excel zajišťuje, že dlouhé textové položky jsou plně viditelné, aniž by se zvětšila šířka sloupce. Pomocí Aspose.Cells pro .NET můžete programově aplikovat zalamování textu na libovolnou buňku v listu aplikace Excel. Tento tutoriál vás provede vytvořením nového sešitu aplikace Excel, přidáním listu, vložením textu do buňky a povolením zalamování textu. Dodržením těchto kroků můžete efektivně formátovat dokumenty aplikace Excel ve svých aplikacích C#.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci:  
-Chcete-li použít Aspose.Cells pro .NET, postupujte podle těchto kroků:  
+## Pokyny k instalaci:  
+Chcete-li použít Aspose.Cells pro .NET, postupujte takto:  
 
-1. Instalace prostřednictvím NuGet:  
-   * Otevři Visual Studio.  
-   * Přejďte na nástroje → Správce balíček NuGet → Správte balíčky NuGet pro řešení.  
-   * Vyhledat Aspose.Cells a kliknout na Instalit.  
+1. Instalace přes NuGet:  
+   - Otevřete Visual Studio.  
+   - Přejděte do nabídky Nástroje → Správce balíčků NuGet → Spravovat balíčky NuGet pro řešení.  
+   - Vyhledejte Aspose.Cells a klikněte na tlačítko Instalovat.  
 
-2. Instalace prostřednictvím konzole pro správu balíček:  
-   * Otevřete nástroje → NuGet paketový manažer → Konzola pro správu balíček.  
-   * Vypravte příkaz:  
+2. Instalace přes konzoli Správce balíčků:  
+   - Otevřete Nástroje → Správce balíčků NuGet → Konzola Správce balíčků.  
+   - Spusťte příkaz:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Manuálně přidávejte odkaz:  
-   * Stáhněte si Aspose.Cells pro .NET DLL z [Uvolnění](https://releases.aspose.com/)\- Ne , ne .  
-   * Přidejte do referencí projektu staženou Aspose.Cells.dll.  
+3. Ruční přidání reference:  
+   - Stáhněte si knihovnu Aspose.Cells pro .NET DLL z [Aspose Releases](https://releases.aspose.com/).  
+   - Přidejte stažený soubor Aspose.Cells.dll do referencí projektu.  
 ## Viz také  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne . 
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

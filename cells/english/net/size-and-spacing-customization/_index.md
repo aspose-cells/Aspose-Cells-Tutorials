@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Size and Spacing Customization
@@ -60,9 +62,11 @@ Unlock the power of Aspose.Cells for .NET and learn how to set the width of all 
 Learn how to set the width of a column in an Excel file using the Aspose.Cells for .NET library. Follow our step-by-step guide to easily incorporate this functionality into your applications.
 ### [Set Width of All Columns with Aspose.Cells for .NET](./setting-width-of-all-columns/)
 Learn how to set the width of all columns in an Excel sheet using Aspose.Cells for .NET with our step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

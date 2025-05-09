@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะมีทักษะเชิงปฏิบัติเพื่อเพิ่มประสิทธิภาพการนำเสนอ Excel ของคุณโดยใช้ Aspose.Cells สำหรับ Java เริ่มต้นด้วยการตรวจสอบให้แน่ใจว่าสภาพแวดล้อมของคุณพร้อมด้วยข้อกำหนดเบื้องต้นที่จำเป็น
 
 ## ข้อกำหนดเบื้องต้น (H2)
-เพื่อติดตามอย่างมีประสิทธิผล ให้แน่ใจว่าคุณมี:
+เพื่อปฏิบัติตามอย่างมีประสิทธิผล ให้แน่ใจว่าคุณมี:
 - **ชุดพัฒนา Java (JDK)**: ติดตั้ง JDK 8 หรือสูงกว่า.
 - **สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE)**:ใช้ IDE เช่น IntelliJ IDEA หรือ Eclipse สำหรับการเขียนและรันโค้ด Java
 - **ห้องสมุดเซลล์ Aspose**:รวม Aspose.Cells สำหรับ Java โดยใช้ Maven หรือ Gradle
@@ -191,6 +193,9 @@ A2: โดยค่าเริ่มต้น แผ่นงานแต่ล
 A3: รูปแบบที่รองรับ ได้แก่ EMF, PNG, JPEG, BMP และ GIF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

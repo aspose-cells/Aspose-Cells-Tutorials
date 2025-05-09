@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Tömbképletek és egyéni számítások elsajátítása Aspose.Cells Java-val
+# Tömbképletek és egyéni számítások elsajátítása Aspose.Cells Java segítségével
 
 ## Bevezetés
 
@@ -233,6 +235,9 @@ Készen állsz a következő lépésre? Merülj el a bonyolultabb témákban, va
 - [Licenc vásárlása](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

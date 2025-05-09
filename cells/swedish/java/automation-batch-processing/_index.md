@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Bemästra automatisering av Excel-uppgifter med Aspose.Cells för Java. Lär dig
 Lär dig automatisera skapande av dynamiska Excel-rapporter med Aspose.Cells Java. Ställ in kolumnbredder, fyll i data, lägg till ikoner och spara arbetsböcker effektivt.
 
 ### [Automatisera Excel-uppgifter med Aspose.Cells för Java: En omfattande guide till arbetsboksoperationer och avancerad filtrering](./automate-excel-tasks-aspose-cells-java/)
-Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den här guiden beskriver hur du laddar arbetsböcker, öppnar arbetsblad, använder avancerade filter och sparar resultat effektivt.
+Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den här guiden beskriver hur du laddar arbetsböcker, öppnar kalkylblad, använder avancerade filter och sparar resultat effektivt.
 
 ### [Skapa en Excel-arbetsbok med en knapp med Aspose.Cells för Java: En omfattande guide](./create-excel-workbook-button-aspose-cells-java/)
 Lär dig hur du förbättrar dina kalkylblad genom att lägga till knappar i Excel-filer med hjälp av Aspose.Cells för Java. Den här steg-för-steg-guiden täcker allt från installation till att spara din arbetsbok.
@@ -102,6 +104,9 @@ Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den h�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

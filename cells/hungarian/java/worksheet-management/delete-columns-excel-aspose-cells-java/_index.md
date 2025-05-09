@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ A: Az Aspose.Cells számos Excel formátumot támogat, többek között az XLS, 
 A: Töltsd le a JAR fájlt innen [Aspose letöltések](https://releases.aspose.com/cells/java/) és manuálisan add hozzá a projekt építési útvonalához.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Aspose.Cells licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Aspose ingyenes próbaverziók](https://releases.aspose.com/cells/java/)
@@ -176,6 +178,9 @@ A: Töltsd le a JAR fájlt innen [Aspose letöltések](https://releases.aspose.c
 - **Támogatás:** [Aspose Fórum Támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

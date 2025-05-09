@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,6 +162,9 @@ A: Zorg ervoor dat uw systeem voldoende geheugen heeft en overweeg de structuur 
 Neem gerust contact op via het supportforum als je problemen ondervindt of verdere vragen hebt. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

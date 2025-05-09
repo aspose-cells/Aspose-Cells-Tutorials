@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Bevezetés
 
-mai adatvezérelt világban az adatok hatékony kezelése és manipulálása kulcsfontosságú a fejlesztők számára. Az XML-adatok Excel-munkafüzetbe integrálása egyszerűsítheti a munkafolyamatokat és növelheti a termelékenységet. Ez az oktatóanyag az XML-adatok olvasására és az Aspose.Cells for Java használatával történő Excelbe való zökkenőmentes beágyazására összpontosít.
+mai adatvezérelt világban az adatok hatékony kezelése és manipulálása kulcsfontosságú a fejlesztők számára. Az XML-adatok Excel-munkafüzetbe integrálása egyszerűsítheti a munkafolyamatokat és növelheti a termelékenységet. Ez az oktatóanyag az XML-adatok olvasására és az Excelbe való zökkenőmentes beágyazására összpontosít az Aspose.Cells for Java használatával.
 
 Az útmutató végére elsajátítod a következőket:
 - **XML elemzés**Tanuld meg az XML karakterláncok elemzését Java nyelven.
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Licencszerzés
 - **Ingyenes próbaverzió**: Kezdje el egy ingyenes próbaverzióval az Aspose.Cells felfedezését.
-- **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
 - **Vásárlás**Hosszú távú használathoz vásároljon kereskedelmi licencet.
 
 #### Alapvető inicializálás
@@ -83,7 +85,7 @@ Létrehozunk egy egyszerű XML karakterláncot a könyv adataival, és DOM-má e
 
 **1. XML karakterlánc létrehozása**
 
-Definiálja XML adatát karakterláncként:
+Definiáld az XML adataidat karakterláncként:
 
 ```java
 String booksXML = "<catalog><book><title>Complete C#</title><price>44</price></book>" +
@@ -174,7 +176,7 @@ try {
 
 ## Következtetés
 
-Megvizsgáltuk, hogyan lehet XML adatokat elemezni Java-ban, és hogyan integrálni azokat Excelbe az Aspose.Cells for Java segítségével. Ez a megközelítés javítja az adatok hatékony kezelésének és felhasználásának képességét, új lehetőségeket nyitva meg az automatizálás és a jelentéskészítés számára.
+Megvizsgáltuk, hogyan lehet XML adatokat elemezni Java-ban, és hogyan integrálni azokat Excelbe az Aspose.Cells for Java használatával. Ez a megközelítés javítja az adatok hatékony kezelésének és felhasználásának képességét, új lehetőségeket nyitva meg az automatizálás és a jelentéskészítés számára.
 
 ### Következő lépések
 
@@ -203,6 +205,9 @@ Kísérletezzen összetettebb XML struktúrákkal vagy az Aspose.Cells által t�
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

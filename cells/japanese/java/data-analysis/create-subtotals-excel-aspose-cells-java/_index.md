@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Aspose.Cells for Java を使用して Excel で小計を作成する: 包括的なガイド
 
-Excelブックで小計を作成することは、大規模なデータセットを効率的に集計する上で重要なタスクです。Java用の強力なAspose.Cellsライブラリを使えば、このプロセスをプログラムで自動化できます。このチュートリアルでは、Aspose.Cellsを使用してJavaアプリケーション内で小計を作成する方法を説明します。
+Excelブックで小計を作成することは、大規模なデータセットを効率的に集計する上で非常に重要なタスクです。Java用の強力なAspose.Cellsライブラリを使えば、このプロセスをプログラムで自動化できます。このチュートリアルでは、Aspose.Cellsを使用してJavaアプリケーション内で小計を作成する方法を説明します。
 
 ## 学ぶ内容
 - プロジェクトにAspose.Cells for Javaを設定する
@@ -91,7 +93,7 @@ cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 ```
 - **パラメータの説明**：
   - `ca`セルの範囲。
-  - `0`: 合計行の位置を指定します。
+  - `0`: 合計行位置を指定します。
   - `ConsolidationFunction.SUM`: 適用する関数を定義します (この場合は SUM)。
   - `new int[]{1}`: 小計が適用される列インデックス。
 
@@ -109,7 +111,7 @@ System.out.println("Process completed successfully");
 小計を実装すると、さまざまなシナリオで役立ちます。
 1. **財務報告**特定の期間の取引または収益を要約します。
 2. **在庫管理**カテゴリまたは場所別に在庫レベルを集計します。
-3. **売上分析**地域または製品タイプごとの総売上を計算します。
+3. **売上分析**地域または製品タイプごとに総売上を計算します。
 
 統合の可能性としては、動的なデータ更新のために Aspose.Cells をデータベースと組み合わせることや、大規模な Java アプリケーション内で使用して財務およびビジネス レポートのタスクを自動化することなどが挙げられます。
 
@@ -154,6 +156,9 @@ A: はい、XLS や XLSX を含む幅広い Excel 形式をサポートしてい
 このガイドに従うことで、Aspose.Cells を使用して Java アプリケーションに小計機能を組み込む準備が整います。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

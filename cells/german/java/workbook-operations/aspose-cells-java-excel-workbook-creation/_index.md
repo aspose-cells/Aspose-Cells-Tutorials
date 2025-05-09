@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Aspose.Cells Java bietet Vielseitigkeit in verschiedenen Bereichen. Hier sind ei
 5. **Bestandsverwaltung**: Verwenden Sie Arbeitsmappen, um Bestandsdatensätze dynamisch zu verwalten und zu aktualisieren und sie in vorhandene Datenbanken zu integrieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

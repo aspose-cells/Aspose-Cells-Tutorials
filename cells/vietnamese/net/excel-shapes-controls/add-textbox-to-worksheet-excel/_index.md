@@ -1,14 +1,16 @@
 ---
-title: Thêm TextBox vào trang tính trong Excel
-linktitle: Thêm TextBox vào trang tính trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm hộp văn bản có thể tùy chỉnh vào Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
-weight: 14
-url: /vi/net/excel-shapes-controls/add-textbox-to-worksheet-excel/
+"description": "Tìm hiểu cách thêm hộp văn bản có thể tùy chỉnh vào Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Thêm TextBox vào trang tính trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm TextBox vào trang tính trong Excel"
+"url": "/vi/net/excel-shapes-controls/add-textbox-to-worksheet-excel/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm TextBox vào trang tính trong Excel
@@ -18,7 +20,7 @@ Bạn có muốn cải thiện bảng tính Excel của mình bằng hình ảnh
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào quá trình mã hóa kỳ diệu này, sau đây là những điều kiện tiên quyết cần thiết để đảm bảo trải nghiệm diễn ra suôn sẻ:
 1. Môi trường phát triển .NET: Bạn sẽ cần một .NET framework đang hoạt động cùng với một IDE như Visual Studio. Hãy đảm bảo rằng nó được cập nhật lên phiên bản mới nhất!
-2.  Aspose.Cells cho .NET: Đảm bảo rằng bạn đã tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo rằng bạn đã tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất từ [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức lập trình cơ bản: Sự quen thuộc với C# và một số khái niệm chung về xử lý tệp Excel sẽ giúp hướng dẫn này dễ dàng hơn!
 ## Nhập gói
 Hãy đảm bảo nhập các gói cần thiết vào đầu tệp C# của bạn. Sau đây là cách bạn có thể thực hiện:
@@ -31,7 +33,7 @@ using System.Drawing;
 ## Cài đặt Aspose.Cells
 Nếu bạn chưa thực hiện, bạn có thể thêm Aspose.Cells thông qua Trình quản lý gói NuGet trong Visual Studio:
 1. Mở Visual Studio.
-2.  Đi đến`Tools` ->`NuGet Package Manager` ->`Manage NuGet Packages for Solution`.
+2. Đi đến `Tools` -> `NuGet Package Manager` -> `Manage NuGet Packages for Solution`.
 3. Tìm kiếm “Aspose.Cells” và cài đặt cho dự án của bạn.
 Bây giờ chúng ta đã đặt nền tảng xong, hãy cùng bắt đầu phần thú vị nhé!
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
@@ -44,9 +46,9 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists) 
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-Đoạn mã này sẽ tạo một thư mục có tên`Your Document Directory` (vui lòng thay thế bằng đường dẫn thực tế của bạn) nếu nó chưa tồn tại. Quá dễ phải không?
+Đoạn mã này sẽ tạo một thư mục có tên `Your Document Directory` (vui lòng thay thế bằng đường dẫn thực tế của bạn) nếu nó chưa tồn tại. Quá dễ phải không?
 ## Bước 2: Khởi tạo một Workbook mới
-Tiếp theo, chúng ta cần tạo một sổ làm việc mới, nơi chúng ta sẽ thêm các hộp văn bản. Điều này có thể dễ dàng thực hiện bằng một vài dòng mã:
+Tiếp theo, chúng ta cần tạo một sổ làm việc mới để thêm hộp văn bản. Điều này có thể dễ dàng thực hiện bằng một vài dòng mã:
 ```csharp
 // Tạo một Workbook mới.
 Workbook workbook = new Workbook();
@@ -58,8 +60,8 @@ Bây giờ chúng ta đã có bảng tính sẵn sàng, hãy lấy bảng tính 
 // Nhận bài tập đầu tiên trong sách.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Chỉ cần như vậy, bây giờ bạn đã có quyền truy cập vào bảng tính đầu tiên có tên`worksheet`. Đã đến lúc làm cho nó tỏa sáng!
-## Bước 4: Thêm TextBox
+Chỉ cần như vậy, bây giờ bạn đã có quyền truy cập vào bảng tính đầu tiên có tên `worksheet`. Đã đến lúc làm cho nó tỏa sáng!
+## Bước 4: Thêm một hộp văn bản
 Được rồi, đã đến lúc thêm hộp văn bản đầu tiên của chúng ta! Đây là cách thực hiện:
 ```csharp
 // Thêm hộp văn bản mới vào bộ sưu tập.
@@ -72,7 +74,7 @@ Sau khi thêm hộp văn bản, chúng ta cần tham chiếu đến hộp đó �
 // Lấy đối tượng hộp văn bản.
 Aspose.Cells.Drawing.TextBox textbox0 = worksheet.TextBoxes[textboxIndex];
 ```
- Hiện nay,`textbox0` là tấm vé vàng để bạn sửa đổi hộp văn bản này!
+Hiện nay, `textbox0` là tấm vé vàng để bạn sửa đổi hộp văn bản này!
 ## Bước 6: Điền nội dung vào TextBox
 Tiếp theo, chúng ta hãy cung cấp một số văn bản cho hộp văn bản:
 ```csharp
@@ -149,16 +151,18 @@ Bạn đã sẵn sàng để bắt đầu chuyển đổi tài liệu Excel củ
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel một cách dễ dàng.
 ### Tôi có thể dùng thử Aspose.Cells trước khi mua không?
- Có! Bạn có thể tải xuống và sử dụng phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống và sử dụng phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể truy cập tài liệu toàn diện tại[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể truy cập tài liệu toàn diện tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 ### Tôi có được hỗ trợ nếu gặp vấn đề không?
- Chắc chắn rồi! Nếu bạn cần trợ giúp, hãy đến[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+Chắc chắn rồi! Nếu bạn cần trợ giúp, hãy đến [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
 ### Tôi có thể sử dụng Aspose.Cells mà không cần giấy phép không?
- Mặc dù bạn có thể sử dụng phiên bản dùng thử miễn phí, để truy cập đầy đủ chức năng, bạn sẽ cần phải mua giấy phép. Kiểm tra giá[đây](https://purchase.aspose.com/buy).
+Mặc dù bạn có thể sử dụng phiên bản dùng thử miễn phí, để truy cập đầy đủ chức năng, bạn sẽ cần phải mua giấy phép. Kiểm tra giá [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

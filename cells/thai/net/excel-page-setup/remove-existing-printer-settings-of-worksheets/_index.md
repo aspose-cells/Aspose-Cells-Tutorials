@@ -1,14 +1,16 @@
 ---
-title: ลบการตั้งค่าเครื่องพิมพ์ที่มีอยู่ของเวิร์กชีต
-linktitle: ลบการตั้งค่าเครื่องพิมพ์ที่มีอยู่ของเวิร์กชีต
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: ค้นพบคำแนะนำทีละขั้นตอนในการลบการตั้งค่าเครื่องพิมพ์ออกจากเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET เพื่อปรับปรุงคุณภาพการพิมพ์เอกสารของคุณได้อย่างง่ายดาย
-weight: 80
-url: /th/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
+"description": "ค้นพบคำแนะนำทีละขั้นตอนในการลบการตั้งค่าเครื่องพิมพ์ออกจากเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET เพื่อปรับปรุงคุณภาพการพิมพ์เอกสารของคุณได้อย่างง่ายดาย"
+"linktitle": "ลบการตั้งค่าเครื่องพิมพ์ที่มีอยู่ของเวิร์กชีต"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "ลบการตั้งค่าเครื่องพิมพ์ที่มีอยู่ของเวิร์กชีต"
+"url": "/th/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ลบการตั้งค่าเครื่องพิมพ์ที่มีอยู่ของเวิร์กชีต
@@ -22,7 +24,7 @@ url: /th/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 ก่อนที่เราจะเริ่มลบการตั้งค่าเครื่องพิมพ์ที่น่ารำคาญเหล่านี้ คุณต้องมีบางสิ่งที่จำเป็น นี่คือรายการตรวจสอบด่วนเพื่อให้แน่ใจว่าคุณพร้อมแล้ว:
 
 1. ติดตั้ง Visual Studio: จำเป็นต้องมีสภาพแวดล้อมการพัฒนาเพื่อเขียนและดำเนินการโค้ด .NET ของคุณ หากคุณยังไม่มี ให้ไปที่เว็บไซต์ของ Visual Studio และดาวน์โหลดเวอร์ชันล่าสุด
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารีนี้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[หน้าวางจำหน่าย Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารีนี้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [หน้าวางจำหน่าย Aspose](https://releases-aspose.com/cells/net/).
 3. ไฟล์ Excel ตัวอย่าง: สำหรับการแนะนำการใช้งานนี้ คุณจะต้องมีไฟล์ Excel ตัวอย่างที่มีการตั้งค่าเครื่องพิมพ์ คุณสามารถสร้างไฟล์ดังกล่าวได้ หรือใช้ไฟล์สาธิตที่ Aspose จัดเตรียมไว้ให้
 
 ตอนนี้เรามีทุกอย่างที่ต้องการแล้ว มาเริ่มเขียนโค้ดกันเลย!
@@ -37,7 +39,7 @@ url: /th/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 
 ### เพิ่มการอ้างอิง
 
- ในโครงการของคุณ ไปที่`References` คลิกขวาและเลือก`Add Reference...`ค้นหาไลบรารี Aspose.Cells และเพิ่มลงในโปรเจ็กต์ของคุณ
+ในโครงการของคุณไปที่ `References`คลิกขวาและเลือก `Add Reference...`ค้นหาไลบรารี Aspose.Cells และเพิ่มลงในโปรเจ็กต์ของคุณ
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- ที่นี่คุณจะแทนที่`"Your Document Directory"` และ`"Your Document Directory"` พร้อมเส้นทางจริงที่จัดเก็บไฟล์ของคุณ
+ที่นี่คุณจะแทนที่ `"Your Document Directory"` และ `"Your Document Directory"` พร้อมเส้นทางจริงที่จัดเก็บไฟล์ของคุณ
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ Excel
 
@@ -90,7 +92,7 @@ int sheetCount = wb.Worksheets.Count;
 
 ## ขั้นตอนที่ 4: ทำซ้ำในแต่ละเวิร์กชีต
 
-เมื่อนับแผ่นงานเสร็จแล้ว ก็ถึงเวลาวนซ้ำผ่านแผ่นงานแต่ละแผ่นในสมุดงาน คุณจะต้องตรวจสอบแต่ละแผ่นว่ามีการตั้งค่าเครื่องพิมพ์ที่มีอยู่หรือไม่
+เมื่อนับแผ่นงานเสร็จแล้ว ก็ถึงเวลาที่จะวนซ้ำผ่านแผ่นงานแต่ละแผ่นในสมุดงาน คุณจะต้องตรวจสอบแต่ละแผ่นว่ามีการตั้งค่าเครื่องพิมพ์ที่มีอยู่หรือไม่
 
 ```csharp
 for (int i = 0; i < sheetCount; i++)
@@ -118,7 +120,7 @@ if (ps.PrinterSettings != null)
     Console.WriteLine("Paper Size: " + ps.PaperSize);
 ```
 
- ที่นี่ถ้าหากว่า`PrinterSettings` พบแล้ว เราจะให้ข้อเสนอแนะผ่านคอนโซลพร้อมรายละเอียดชื่อแผ่นงานและขนาดกระดาษ
+ที่นี่ถ้าหากว่า `PrinterSettings` พบแล้ว เราจะให้ข้อเสนอแนะผ่านคอนโซลพร้อมรายละเอียดชื่อแผ่นงานและขนาดกระดาษ
 
 ## ขั้นตอนที่ 6: ลบการตั้งค่าเครื่องพิมพ์
 
@@ -155,19 +157,21 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 Aspose.Cells เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ในแอปพลิเคชัน .NET ได้
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?  
-ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจฟีเจอร์ต่างๆ ได้ ลองดู[ลิงค์ทดลองใช้ฟรี](https://releases.aspose.com/).
+ใช่ Aspose นำเสนอเวอร์ชันทดลองใช้งานฟรีที่คุณสามารถใช้สำรวจฟีเจอร์ต่างๆ ได้ ลองดู [ลิงค์ทดลองใช้ฟรี](https://releases-aspose.com/).
 
 ### ฉันจำเป็นต้องติดตั้ง Microsoft Excel เพื่อใช้ Aspose.Cells หรือไม่  
 ไม่ Aspose.Cells ทำงานแยกจาก Microsoft Excel คุณไม่จำเป็นต้องติดตั้ง Excel บนเครื่องของคุณ
 
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?  
- คุณสามารถเยี่ยมชม[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) สำหรับการสนับสนุนและทรัพยากรชุมชน
+คุณสามารถเยี่ยมชม [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) สำหรับการสนับสนุนและทรัพยากรชุมชน
 
 ### มีใบอนุญาตชั่วคราวให้ใช้หรือไม่?  
- แน่นอน! คุณสามารถสมัครได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อเข้าถึงคุณสมบัติทั้งหมดได้โดยไม่มีข้อจำกัดในระยะเวลาจำกัด
+แน่นอน! คุณสามารถสมัครได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อเข้าถึงคุณสมบัติทั้งหมดได้โดยไม่มีข้อจำกัดในระยะเวลาจำกัด
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

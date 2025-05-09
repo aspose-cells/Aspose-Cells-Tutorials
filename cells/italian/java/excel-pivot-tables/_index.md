@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabelle pivot di Excel
@@ -39,10 +41,12 @@ Scopri come creare campi calcolati nelle tabelle pivot utilizzando Aspose.Cells 
 ### [Aggiornamento dei dati della tabella pivot](./refreshing-pivot-table-data/)
 Scopri come aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mantieni i tuoi dati aggiornati senza sforzo.
 ### [Personalizzazione degli stili della tabella pivot](./customizing-pivot-table-styles/)
-Scopri come personalizzare gli stili delle tabelle pivot nell'API Aspose.Cells per Java. Crea tabelle pivot visivamente accattivanti con facilità.
+Scopri come personalizzare gli stili delle tabelle pivot in Aspose.Cells per Java API. Crea tabelle pivot visivamente accattivanti con facilità.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

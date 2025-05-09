@@ -1,38 +1,40 @@
 ---
-title: Tentukan Kompatibilitas File Excel Secara Terprogram di .NET
-linktitle: Tentukan Kompatibilitas File Excel Secara Terprogram di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara memanipulasi tabel pivot Excel dengan Aspose.Cells untuk .NET, termasuk pembaruan data, pengaturan kompatibilitas, dan pemformatan sel.
-weight: 23
-url: /id/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Pelajari cara memanipulasi tabel pivot Excel dengan Aspose.Cells untuk .NET, termasuk pembaruan data, pengaturan kompatibilitas, dan pemformatan sel."
+"linktitle": "Tentukan Kompatibilitas File Excel Secara Terprogram di .NET"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tentukan Kompatibilitas File Excel Secara Terprogram di .NET"
+"url": "/id/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Kompatibilitas File Excel Secara Terprogram di .NET
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia yang digerakkan oleh data saat ini, mengelola dan memanipulasi file Excel secara terprogram telah menjadi hal yang penting bagi banyak pengembang. Jika Anda bekerja dengan Excel dalam .NET, Aspose.Cells adalah pustaka canggih yang memudahkan pembuatan, pembacaan, modifikasi, dan penyimpanan file Excel. Salah satu fitur penting dari pustaka ini memungkinkan Anda menentukan kompatibilitas file Excel secara terprogram. Dalam tutorial ini, kita akan menjelajahi cara memanipulasi file Excel, terutama berfokus pada pengelolaan kompatibilitas menggunakan Aspose.Cells untuk .NET. Pada akhirnya, Anda akan memahami cara mengatur kompatibilitas untuk file Excel, terutama untuk tabel pivot, sambil menyegarkan dan mengelola data.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum terjun ke fase pengkodean, pastikan Anda memiliki hal berikut:
 
 1. Pengetahuan dasar C#: Karena kita akan menulis kode dalam C#, pemahaman yang mendalam tentang bahasa tersebut akan membantu Anda memahami tutorial ini dengan lebih baik.
-2.  Aspose.Cells untuk pustaka .NET: Anda dapat mengunduhnya dari[Aspose Cells merilis halaman](https://releases.aspose.com/cells/net/)Jika Anda belum mencobanya, pertimbangkan untuk mencoba uji coba gratis terlebih dahulu untuk mencoba fitur-fiturnya.
+2. Aspose.Cells untuk pustaka .NET: Anda dapat mengunduhnya dari [Aspose Cells merilis halaman](https://releases.aspose.com/cells/net/)Jika Anda belum mencobanya, pertimbangkan untuk mencoba uji coba gratis terlebih dahulu untuk mencoba fitur-fiturnya.
 3. Visual Studio: Sebuah IDE tempat Anda dapat menulis dan menguji kode C# secara efektif.
-4.  Contoh File Excel: Pastikan Anda memiliki contoh file Excel, sebaiknya yang berisi tabel pivot untuk demo. Untuk contoh kita, kita akan menggunakan`sample-pivot-table.xlsx`.
+4. Contoh Berkas Excel: Pastikan Anda memiliki contoh berkas Excel, sebaiknya yang berisi tabel pivot untuk demo. Untuk contoh kita, kita akan menggunakan `sample-pivot-table.xlsx`.
 
 Jika prasyarat ini terpenuhi, mari kita mulai proses pengkodean.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum Anda mulai menulis aplikasi, Anda perlu menyertakan namespace yang diperlukan dalam kode Anda untuk memanfaatkan pustaka Aspose.Cells secara efektif. Berikut cara melakukannya.
 
-### Impor Ruang Nama Aspose.Cells
+### Aspose.Cells névtér importálása
 
 ```csharp
 using System.IO;
@@ -46,18 +48,18 @@ Baris kode ini memastikan bahwa Anda dapat mengakses semua kelas dan metode dala
 
 Sekarang, mari kita uraikan prosesnya secara rinci untuk memastikan semuanya jelas dan mudah dipahami.
 
-## Langkah 1: Siapkan Direktori Anda
+## 1. lépés: Állítsa be a címtárát
 
 Pertama-tama, siapkan direktori tempat file Excel Anda berada. Penting untuk menyediakan jalur file yang benar.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
 
- Di sini, ganti`"Your Document Directory"`dengan jalur sebenarnya ke berkas Excel Anda. Di sinilah berkas tabel pivot contoh Anda seharusnya berada.
+Itt cserélje ki `"Your Document Directory"` dengan jalur sebenarnya ke berkas Excel Anda. Di sinilah berkas tabel pivot contoh Anda seharusnya berada.
 
-## Langkah 2: Muat File Excel Sumber
+## 2. lépés: Töltse be a forrás Excel fájlt
 
 Berikutnya, kita perlu memuat berkas Excel yang berisi contoh tabel pivot. 
 
@@ -66,9 +68,9 @@ Berikutnya, kita perlu memuat berkas Excel yang berisi contoh tabel pivot.
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- Pada langkah ini, kita membuat sebuah instance dari`Workbook` kelas, yang memuat berkas Excel yang ditentukan. 
+Pada langkah ini, kita membuat sebuah instance dari `Workbook` kelas, yang memuat berkas Excel yang ditentukan. 
 
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: Hozzáférés a munkalapokhoz
 
 Sekarang buku kerja telah dimuat, Anda harus mengakses lembar kerja yang berisi data tabel pivot.
 
@@ -141,7 +143,7 @@ Masing-masing potongan kode ini memperbarui beberapa sel tambahan dalam lembar k
 Berikutnya, Anda akan mengakses lembar kerja kedua, yang terdiri dari data tabel pivot.
 
 ```csharp
-//Mengakses lembar kerja kedua yang berisi tabel pivot
+// Mengakses lembar kerja kedua yang berisi tabel pivot
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Akses tabel pivot
@@ -161,7 +163,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Di sinilah transformasi yang sebenarnya dimulai. Dengan menetapkan`IsExcel2003Compatible` ke`true`, Anda membatasi panjang karakter hingga 255 saat menyegarkan.
+Di sinilah transformasi yang sebenarnya dimulai. Dengan menetapkan `IsExcel2003Compatible` hogy `true`Anda membatasi panjang karakter hingga 255 saat menyegarkan.
 
 ## Langkah 9: Periksa Panjang Setelah Pengaturan Kompatibilitas
 
@@ -180,7 +182,7 @@ Anda mungkin akan melihat keluaran yang mengonfirmasi efek pemotongan jika data 
 Sekarang, mari kita ubah pengaturan kompatibilitas dan periksa lagi.
 
 ```csharp
-//Sekarang atur properti IsExcel2003Compatible menjadi false dan segarkan lagi
+// Sekarang atur properti IsExcel2003Compatible menjadi false dan segarkan lagi
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -224,15 +226,15 @@ Terakhir, simpan buku kerja Anda dengan perubahan yang telah Anda buat.
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- Memilih format file yang tepat sangat penting saat menyimpan file Excel.`Xlsx`Format ini digunakan secara luas dan kompatibel dengan banyak versi Excel.
+Memilih format file yang tepat sangat penting saat menyimpan file Excel. `Xlsx` Format ini digunakan secara luas dan kompatibel dengan banyak versi Excel.
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda kini telah memprogram pengaturan kompatibilitas file Excel menggunakan Aspose.Cells untuk .NET. Tutorial ini menguraikan setiap langkah, mulai dari menyiapkan lingkungan hingga mengubah pengaturan kompatibilitas untuk tabel pivot. Jika Anda pernah bekerja dengan data yang memerlukan batasan atau kompatibilitas tertentu, ini adalah keterampilan yang tidak boleh Anda abaikan.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?  
+### Mi az Aspose.Cells?  
 Aspose.Cells adalah pustaka .NET yang dirancang untuk membantu pengembang membuat, memanipulasi, dan mengonversi file Excel dengan mudah.
 
 ### Mengapa kompatibilitas Excel penting?  
@@ -242,13 +244,15 @@ Kompatibilitas Excel sangat penting untuk memastikan bahwa file dapat dibuka dan
 Ya, Anda dapat membuat dan memanipulasi Tabel Pivot secara terprogram menggunakan Aspose.Cells. Pustaka ini menyediakan berbagai metode untuk menambahkan sumber data, kolom, dan fitur yang terkait dengan Tabel Pivot.
 
 ### Bagaimana cara memeriksa panjang string dalam sel Excel?  
-Anda dapat menggunakan`StringValue` milik suatu`Cell` objek untuk mendapatkan isi sel dan kemudian memanggil`.Length` properti untuk mengetahui panjang string.
+Használhatod a `StringValue` egy tulajdona `Cell` objek untuk mendapatkan isi sel dan kemudian memanggil `.Length` properti untuk mengetahui panjang string.
 
 ### Dapatkah saya menyesuaikan pemformatan sel melampaui tinggi dan lebar baris?  
- Tentu saja! Aspose.Cells memungkinkan pemformatan sel yang ekstensif. Anda dapat mengubah gaya font, warna, batas, format angka, dan banyak lagi melalui`Style` kelas.
+Tentu saja! Aspose.Cells memungkinkan pemformatan sel yang ekstensif. Anda dapat mengubah gaya font, warna, batas, format angka, dan banyak lagi melalui `Style` osztály.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

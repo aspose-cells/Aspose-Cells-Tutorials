@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ Ten/Ta/To `save` Metoda zapíše váš sešit do souboru a zachová všechny úp
 Dodržováním tohoto průvodce nyní získáte dovednosti pro programovou správu sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tento výkonný nástroj zefektivňuje složité úkoly a zvyšuje produktivitu při práci se soubory aplikace Excel. Pokračujte v objevování jeho funkcí, abyste dále vylepšili své pracovní postupy správy dat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

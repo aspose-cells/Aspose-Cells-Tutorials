@@ -1,44 +1,46 @@
 ---
-title: Salin Gaya dengan Penanda Cerdas di Aspose.Cells .NET
-linktitle: Salin Gaya dengan Penanda Cerdas di Aspose.Cells .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Salin gaya dan format dari berkas templat ke keluaran Excel yang Anda buat dengan mudah. Tutorial lengkap ini memandu Anda melalui proses langkah demi langkah.
-weight: 12
-url: /id/net/smart-markers-dynamic-data/copy-style-smart-marker/
+"description": "Könnyedén másolhat stílusokat és formátumokat egy sablonfájlból a létrehozott Excel-kimenetbe. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton."
+"linktitle": "Stílus másolása Smart Markerrel az Aspose.Cells .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Stílus másolása Smart Markerrel az Aspose.Cells .NET-ben"
+"url": "/id/net/smart-markers-dynamic-data/copy-style-smart-marker/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Salin Gaya dengan Penanda Cerdas di Aspose.Cells .NET
+# Stílus másolása Smart Markerrel az Aspose.Cells .NET-ben
 
-## Perkenalan
-Dalam dunia manajemen data dan pemrosesan lembar kerja, Aspose.Cells untuk .NET merupakan alat canggih yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengekspor file Excel secara terprogram. Salah satu fitur menonjol dari Aspose.Cells adalah kemampuannya untuk bekerja dengan penanda cerdas, yang memungkinkan pengembang untuk dengan mudah menyalin gaya dan format dari file templat ke output yang dihasilkan. Tutorial ini akan memandu Anda melalui proses penggunaan Aspose.Cells untuk menyalin gaya dari file templat dan menerapkannya ke file Excel yang Anda hasilkan.
-## Prasyarat
-Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
-1.  Aspose.Cells untuk .NET: Anda dapat mengunduh versi terbaru Aspose.Cells untuk .NET dari[Situs web Aspose](https://releases.aspose.com/cells/net/).
-2. Microsoft Visual Studio: Anda memerlukan versi Microsoft Visual Studio untuk menulis dan menjalankan kode C# Anda.
-3. Pengetahuan dasar tentang C# dan .NET: Anda harus memiliki pemahaman dasar tentang bahasa pemrograman C# dan kerangka kerja .NET.
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan dari Aspose.Cells for .NET. Tambahkan pernyataan berikut di bagian atas file C# Anda:
+## Bevezetés
+Az adatkezelés és a táblázatkezelés világában az Aspose.Cells for .NET egy hatékony eszköz, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, manipuláljanak és exportáljanak Excel-fájlokat. Az Aspose.Cells egyik kiemelkedő funkciója az intelligens jelölőkkel való együttműködés képessége, amely lehetővé teszi a fejlesztők számára, hogy könnyedén másolják a stílusokat és formátumokat egy sablonfájlból a generált kimenetbe. Ez az oktatóanyag végigvezeti Önt az Aspose.Cells használatán, hogy stílusokat másoljon egy sablonfájlból, és alkalmazza azokat a generált Excel-fájlban.
+## Előfeltételek
+Mielőtt elkezdené, győződjön meg arról, hogy a következő követelmények teljesülnek:
+1. Aspose.Cells .NET-hez: Az Aspose.Cells .NET legújabb verzióját letöltheti innen: [Aspose weboldal](https://releases.aspose.com/cells/net/).
+2. Microsoft Visual Studio: A C# kód írásához és futtatásához a Microsoft Visual Studio egy verziójára lesz szükséged.
+3. C# és .NET alapismeretek: Alapvető ismeretekkel kell rendelkezned a C# programozási nyelvről és a .NET keretrendszerről.
+## Csomagok importálása
+A kezdéshez importálnod kell a szükséges csomagokat az Aspose.Cells for .NET-ből. Add hozzá a következő using utasításokat a C# fájlod elejéhez:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System.Data;
 ```
-## Buat Sumber Data
- Mari kita mulai dengan membuat contoh sumber data, yang akan kita gunakan untuk mengisi berkas Excel kita. Dalam contoh ini, kita akan membuat`DataTable` ditelepon`dtStudent` dengan dua kolom: "Nama" dan "Usia".
+## Adatforrás létrehozása
+Kezdjük egy minta adatforrás létrehozásával, amelyet az Excel-fájlunk feltöltéséhez fogunk használni. Ebben a példában létrehozunk egy `DataTable` hívott `dtStudent` két oszloppal: „Név” és „Életkor”.
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Buat DataTable Siswa
+// Diákok adattáblájának létrehozása
 DataTable dtStudent = new DataTable("Student");
-// Tentukan bidang di dalamnya
+// Definiáljon benne egy mezőt
 DataColumn dcName = new DataColumn("Name", typeof(string));
 dtStudent.Columns.Add(dcName);
 dtStudent.Columns.Add(new DataColumn("Age", typeof(int)));
-// Tambahkan tiga baris ke dalamnya
+// Adj hozzá három sort
 DataRow drName1 = dtStudent.NewRow();
 DataRow drName2 = dtStudent.NewRow();
 DataRow drName3 = dtStudent.NewRow();
@@ -52,57 +54,59 @@ dtStudent.Rows.Add(drName1);
 dtStudent.Rows.Add(drName2);
 dtStudent.Rows.Add(drName3);
 ```
-## Muat File Template
- Selanjutnya, kita akan memuat berkas Excel template yang berisi gaya yang ingin kita salin. Dalam contoh ini, kita akan menganggap berkas template tersebut bernama "Template.xlsx" dan terletak di`dataDir` direktori.
+## Töltse be a sablonfájlt
+Ezután betöltjük a másolni kívánt stílusokat tartalmazó Excel sablonfájlt. Ebben a példában feltételezzük, hogy a sablonfájl neve „Template.xlsx”, és a következő helyen található: `dataDir` könyvtár.
 ```csharp
 string filePath = dataDir + "Template.xlsx";
-// Buat buku kerja dari file templat Penanda Cerdas
+// Munkafüzet létrehozása intelligens jelölők sablonfájljából
 Workbook workbook = new Workbook(filePath);
 ```
-## Buat Instansi WorkbookDesigner
- Sekarang, kita akan membuat`WorkbookDesigner` misalnya, yang akan digunakan untuk memproses penanda pintar dalam berkas templat.
+## WorkbookDesigner-példány létrehozása
+Most létrehozunk egy `WorkbookDesigner` példány, amelyet a sablonfájlban található intelligens jelölők feldolgozására fogunk használni.
 ```csharp
-// Membuat WorkbookDesigner baru
+// Új WorkbookDesigner példányosítása
 WorkbookDesigner designer = new WorkbookDesigner();
-// Tentukan Buku Kerja
+// Adja meg a munkafüzetet
 designer.Workbook = workbook;
 ```
-## Tetapkan Sumber Data
- Kemudian kita akan mengatur sumber data untuk`WorkbookDesigner` contohnya, yang mana adalah`dtStudent` `DataTable` kita buat sebelumnya.
+## Az adatforrás beállítása
+Ezután beállítjuk az adatforrást a `WorkbookDesigner` például, ami a `dtStudent` `DataTable` korábban hoztuk létre.
 ```csharp
-// Tetapkan Sumber Data
+// Az adatforrás beállítása
 designer.SetDataSource(dtStudent);
 ```
-## Memproses Penanda Cerdas
- Selanjutnya, kita akan menyebutnya`Process()` metode untuk memproses penanda pintar dalam berkas templat.
+## Az intelligens jelölők feldolgozása
+Ezután hívjuk fel a `Process()` metódus a sablonfájlban található intelligens jelölők feldolgozásához.
 ```csharp
-// Memproses penanda pintar
+// Az intelligens jelölők feldolgozása
 designer.Process();
 ```
-## Simpan File Excel
-Terakhir, kita akan menyimpan file Excel yang dihasilkan dengan gaya yang disalin.
+## Mentse el az Excel-fájlt
+Végül elmentjük a létrehozott Excel fájlt a másolt stílusokkal.
 ```csharp
-// Simpan file Excel
+// Mentse el az Excel-fájlt
 workbook.Save(dataDir + "output.xlsx", SaveFormat.Xlsx);
 ```
-Selesai! Anda telah berhasil menggunakan Aspose.Cells for .NET untuk menyalin gaya dari file template dan menerapkannya ke file Excel yang Anda buat.
-## Kesimpulan
-Dalam tutorial ini, Anda telah mempelajari cara menggunakan Aspose.Cells for .NET untuk menyalin gaya dari file template dan menerapkannya ke file Excel yang Anda buat. Dengan memanfaatkan kekuatan penanda cerdas, Anda dapat menyederhanakan proses pembuatan Excel dan memastikan tampilan dan nuansa yang konsisten di seluruh lembar kerja Anda.
-## Pertanyaan yang Sering Diajukan
-###  Apa tujuan dari`WorkbookDesigner` class in Aspose.Cells for .NET?
- Itu`WorkbookDesigner` class dalam Aspose.Cells untuk .NET digunakan untuk memproses penanda cerdas dalam file template dan menerapkannya ke file Excel yang dihasilkan. Class ini memungkinkan pengembang untuk menyalin gaya, format, dan atribut lain dari template ke output dengan mudah.
-###  Bisakah saya menggunakan Aspose.Cells untuk .NET dengan sumber data lain selain`DataTable`?
- Ya, Anda dapat menggunakan Aspose.Cells untuk .NET dengan berbagai sumber data, seperti`DataSet`, `IEnumerable` atau objek data kustom.`SetDataSource()` metode dari`WorkbookDesigner` kelas dapat menerima berbagai jenis sumber data.
-### Bagaimana saya dapat menyesuaikan gaya dan format dalam berkas templat?
-Anda dapat menyesuaikan gaya dan format dalam berkas templat menggunakan Microsoft Excel atau alat lainnya. Aspose.Cells for .NET kemudian akan menyalin gaya dan format ini ke berkas Excel yang dihasilkan, sehingga Anda dapat mempertahankan tampilan dan nuansa yang konsisten di seluruh lembar kerja Anda.
-### Apakah ada cara untuk menangani kesalahan atau pengecualian yang mungkin terjadi selama proses?
-Ya, Anda dapat menggunakan blok try-catch untuk menangani pengecualian apa pun yang mungkin terjadi selama proses. Aspose.Cells untuk .NET menyediakan pesan pengecualian terperinci yang dapat membantu Anda memecahkan masalah apa pun.
-### Dapatkah saya menggunakan Aspose.Cells untuk .NET di lingkungan produksi?
- Ya, Aspose.Cells untuk .NET adalah produk komersial yang banyak digunakan dalam lingkungan produksi. Produk ini menyediakan solusi yang tangguh dan andal untuk bekerja dengan file Excel secara terprogram. Anda dapat membeli[lisensi](https://purchase.aspose.com/buy)atau coba[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi kemampuan produk.
+Ennyi! Sikeresen használtad az Aspose.Cells for .NET-et stílusok másolásához egy sablonfájlból, és alkalmazásához a létrehozott Excel-fájlodban.
+## Következtetés
+Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for .NET-et stílusok sablonfájlból való másolására és a létrehozott Excel-fájlodra való alkalmazására. Az intelligens jelölők erejének kihasználásával egyszerűsítheted az Excel-generálási folyamatot, és biztosíthatod az egységes megjelenést és érzetet a táblázataidban.
+## GYIK
+### Mi a célja a `WorkbookDesigner` osztály az Aspose.Cells-ben .NET-hez?
+A `WorkbookDesigner` Az Aspose.Cells for .NET osztálya intelligens jelölők feldolgozására szolgál egy sablonfájlban, és alkalmazásukra a létrehozott Excel fájlban. Lehetővé teszi a fejlesztők számára, hogy egyszerűen másolják a stílusokat, formátumokat és egyéb attribútumokat a sablonból a kimenetbe.
+### Használhatom az Aspose.Cells for .NET-et más adatforrásokkal is? `DataTable`?
+Igen, az Aspose.Cells for .NET-et különféle adatforrásokkal használhatod, például `DataSet`, `IEnumerable`, vagy egyéni adatobjektumok. `SetDataSource()` a módszer `WorkbookDesigner` Az osztály különböző típusú adatforrásokat fogadhat.
+### Hogyan szabhatom testre a sablonfájl stílusait és formátumait?
+A sablonfájlban található stílusokat és formátumokat testreszabhatja a Microsoft Excel vagy más eszközök segítségével. Az Aspose.Cells for .NET ezután átmásolja ezeket a stílusokat és formátumokat a létrehozott Excel-fájlba, lehetővé téve az egységes megjelenés és érzet megőrzését a táblázatokban.
+### Van mód a folyamat során esetlegesen előforduló hibák vagy kivételek kezelésére?
+Igen, a try-catch blokkok segítségével kezelheti a folyamat során esetlegesen előforduló kivételeket. Az Aspose.Cells for .NET részletes kivételüzeneteket biztosít, amelyek segíthetnek a problémák elhárításában.
+### Használhatom az Aspose.Cells for .NET-et éles környezetben?
+Igen, az Aspose.Cells for .NET egy kereskedelmi forgalomban kapható termék, amelyet széles körben használnak termelési környezetekben. Robusztus és megbízható megoldást kínál az Excel-fájlok programozott kezelésére. Vásárolhat egy [engedély](https://purchase.aspose.com/buy) vagy próbáld ki a [ingyenes próba](https://releases.aspose.com/) hogy felmérje a termék képességeit.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

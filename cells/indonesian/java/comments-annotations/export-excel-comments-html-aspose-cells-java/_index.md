@@ -7,37 +7,39 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengekspor Komentar Excel ke HTML Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda kesulitan menyimpan komentar saat mengonversi file Excel ke HTML? Panduan ini akan menunjukkan cara mengekspor komentar Excel dengan mudah menggunakan pustaka Aspose.Cells for Java yang canggih, memastikan tidak ada komentar penting yang hilang saat diterjemahkan. Dengan mengintegrasikan fungsi ini, pengembang dapat meningkatkan penyajian data dan kegunaan aplikasi mereka.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur Aspose.Cells untuk Java
 - Mengekspor komentar Excel sambil menyimpan file sebagai HTML
 - Optimalkan kinerja dengan praktik terbaik
 
 Mari kita bahas prasyaratnya sebelum kita mulai menerapkan fitur ini!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan lingkungan pengembangan Anda siap dengan pustaka dan alat yang diperlukan.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Anda memerlukan pustaka Aspose.Cells for Java. Tutorial ini menggunakan versi 25.3, yang dapat diinstal menggunakan Maven atau Gradle.
 
-**Persyaratan Pengaturan Lingkungan:**
+**Környezeti beállítási követelmények:**
 
 - Instalasi Java Development Kit (JDK) yang berfungsi
 - Lingkungan pengembangan terintegrasi (IDE) seperti IntelliJ IDEA atau Eclipse
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 
 Anda harus memiliki pemahaman dasar tentang:
 - Konsep pemrograman Java
@@ -63,13 +65,13 @@ Untuk memulai, Anda perlu menyertakan pustaka Aspose.Cells dalam proyek Anda.
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells untuk Java menawarkan lisensi uji coba gratis, yang memungkinkan Anda mengevaluasi fitur-fitur pustaka. Untuk fungsionalitas penuh tanpa batasan:
-- Dapatkan lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/).
-- Beli langganan dari [situs resmi](https://purchase.aspose.com/buy).
+- Dapatkan lisensi sementara [itt](https://purchase.aspose.com/temporary-license/).
+- Beli langganan dari [hivatalos oldal](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah proyek Anda menyertakan Aspose.Cells, inisialisasikan sebagai berikut:
 
@@ -78,7 +80,7 @@ import com.aspose.cells.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Tetapkan lisensi jika tersedia
+        // Licenc beállítása, ha elérhető
         License license = new License();
         try {
             license.setLicense("Aspose.Total.Java.lic");
@@ -89,7 +91,7 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kami akan membahas cara mengekspor komentar Excel saat menyimpan file Anda sebagai HTML.
 
@@ -97,7 +99,7 @@ Di bagian ini, kami akan membahas cara mengekspor komentar Excel saat menyimpan 
 
 Tujuannya adalah untuk memastikan bahwa semua komentar yang ada dalam berkas Excel disertakan dalam HTML yang dihasilkan. Fitur ini dapat meningkatkan kejelasan dan konteks bagi pengguna yang melihat data secara daring.
 
-#### Langkah 1: Muat File Excel Anda
+#### 1. lépés: Töltse be az Excel-fájlt
 
 Pertama, muat buku kerja Excel yang ingin Anda konversi:
 
@@ -109,9 +111,9 @@ String srcDir = "/path/to/your/source/";
 Workbook wb = new Workbook(srcDir + "sampleExportCommentsHTML.xlsx");
 ```
 
-#### Langkah 2: Konfigurasikan Opsi Penyimpanan HTML
+#### 2. lépés: HTML mentési beállítások konfigurálása
 
-Mengatur `IsExportComments` properti untuk `true` di dalam `HtmlSaveOptions`:
+Mengatur `IsExportComments` ingatlan `true` a `HtmlSaveOptions`:
 
 ```java
 import com.aspose.cells.HtmlSaveOptions;
@@ -139,9 +141,9 @@ try {
 }
 ```
 
-**Tips Pemecahan Masalah:** Pastikan direktori keluaran Anda dapat ditulis dan memiliki cukup ruang.
+**Hibaelhárítási tipp:** Pastikan direktori keluaran Anda dapat ditulis dan memiliki cukup ruang.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 ### 1. Sistem Pelaporan Berbasis Web
 Integrasikan fungsi ini untuk menyempurnakan laporan data dengan anotasi, memberikan wawasan yang lebih jelas bagi pengguna akhir.
@@ -152,23 +154,23 @@ Ekspor kumpulan data yang diberi anotasi ke HTML, yang memungkinkan siswa meliha
 ### 3. Berbagi Data Keuangan
 Saat membagikan lembar keuangan, sertakan komentar dalam format HTML yang diekspor untuk analisis dan pengambilan keputusan terperinci.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Mengoptimalkan Penggunaan Sumber Daya:** Gunakan opsi penyimpanan streaming jika menangani berkas besar.
-- **Manajemen Memori:** Kelola memori Java dengan benar dengan membuang objek setelah digunakan untuk mencegah kebocoran.
-- **Praktik Terbaik:** Perbarui pustaka Aspose.Cells Anda secara berkala untuk mendapatkan manfaat peningkatan kinerja.
+- **Erőforrás-felhasználás optimalizálása:** Gunakan opsi penyimpanan streaming jika menangani berkas besar.
+- **Memóriakezelés:** Kelola memori Java dengan benar dengan membuang objek setelah digunakan untuk mencegah kebocoran.
+- **Bevált gyakorlatok:** Perbarui pustaka Aspose.Cells Anda secara berkala untuk mendapatkan manfaat peningkatan kinerja.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah berhasil mempelajari cara mengekspor komentar Excel sambil menyimpan file Anda sebagai HTML menggunakan Aspose.Cells untuk Java. Dengan keterampilan ini, Anda dapat meningkatkan penyajian data dalam aplikasi web dan seterusnya.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi fitur lain dari Aspose.Cells
 - Bereksperimen dengan konfigurasi berbeda untuk kasus penggunaan tertentu
 
 Siap untuk mencobanya? Terapkan solusi ini hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa kegunaan utama mengekspor komentar dari Excel ke HTML?**
 
@@ -188,20 +190,23 @@ Siap untuk mencobanya? Terapkan solusi ini hari ini!
 
 5. **Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Cells untuk Java?**
 
-   Kunjungi [dokumentasi resmi](https://reference.aspose.com/cells/java/) atau jelajahi forum komunitas untuk mendapatkan dukungan.
+   Látogassa meg a [hivatalos dokumentáció](https://reference.aspose.com/cells/java/) atau jelajahi forum komunitas untuk mendapatkan dukungan.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Perpustakaan](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltési könyvtár](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 Panduan komprehensif ini dirancang untuk membantu Anda menerapkan fungsi ekspor komentar secara efektif, memastikan aplikasi Anda memberikan pengalaman pengguna yang lebih baik.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

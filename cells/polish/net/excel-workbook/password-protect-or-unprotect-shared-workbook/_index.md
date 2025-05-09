@@ -1,28 +1,30 @@
 ---
-title: Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem
-linktitle: Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem
-second_title: Aspose.Cells dla .NET API Reference
-description: Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń.
-weight: 120
-url: /pl/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
+"description": "Zabezpiecz udostępniane pliki programu Excel za pomocą narzędzia Aspose.Cells for .NET, korzystając z naszego prostego przewodnika dotyczącego ochrony hasłem i technik usuwania zabezpieczeń."
+"linktitle": "Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem"
+"url": "/pl/net/excel-workbook/password-protect-or-unprotect-shared-workbook/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zabezpiecz lub usuń ochronę udostępnionego skoroszytu hasłem
 
 ## Wstęp
 
-W dzisiejszym cyfrowym miejscu pracy udostępnianie dokumentów jest powszechnym scenariuszem, który wymaga starannego rozważenia kwestii bezpieczeństwa. Podczas pracy z plikami programu Excel, zwłaszcza współdzielonymi skoroszytami, ochrona poufnych informacji staje się najważniejsza. W tym przewodniku przeprowadzę Cię przez kroki zabezpieczania hasłem i usuwania ochrony współdzielonego skoroszytu za pomocą Aspose.Cells dla .NET. Pod koniec będziesz czuć się pewnie, zarządzając bezpieczeństwem programu Excel jak profesjonalista!
+dzisiejszym cyfrowym miejscu pracy udostępnianie dokumentów jest powszechnym scenariuszem, który wymaga starannego rozważenia kwestii bezpieczeństwa. Podczas pracy z plikami programu Excel, zwłaszcza współdzielonymi skoroszytami, ochrona poufnych informacji staje się najważniejsza. W tym przewodniku przeprowadzę Cię przez kroki zabezpieczania hasłem i usuwania ochrony współdzielonego skoroszytu za pomocą Aspose.Cells dla .NET. Pod koniec będziesz czuć się pewnie, zarządzając bezpieczeństwem programu Excel jak profesjonalista!
 
 ## Wymagania wstępne
 
 Zanim zagłębimy się w kod, upewnij się, że masz przygotowane następujące elementy:
 
-- Podstawowa znajomość języka C#: Nie musisz być ekspertem od kodowania, ale powinieneś czuć się komfortowo ze składnią i koncepcjami języka C#.
--  Aspose.Cells dla .NET: Upewnij się, że biblioteka jest zainstalowana w Twoim projekcie. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+- Podstawowa znajomość języka C#: Nie musisz być ekspertem od kodowania, ale powinieneś dobrze znać składnię i pojęcia języka C#.
+- Aspose.Cells dla .NET: Upewnij się, że biblioteka jest zainstalowana w Twoim projekcie. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 - .NET SDK: Upewnij się, że masz zainstalowany .NET SDK do uruchomienia aplikacji.
 - Visual Studio lub dowolne środowisko IDE: Skonfiguruj preferowane środowisko kodowania, aby pisać i wykonywać kod.
 
@@ -59,7 +61,7 @@ Następnie utworzymy wystąpienie nowego skoroszytu programu Excel. Pomyśl o ty
 Workbook wb = new Workbook();
 ```
 
- Ten wiersz inicjuje nowy obiekt skoroszytu o nazwie`wb`. Teraz jesteśmy gotowi do pracy na tym świeżym płótnie.
+Ten wiersz inicjuje nowy obiekt skoroszytu o nazwie `wb`. Teraz jesteśmy gotowi do pracy na tym świeżym płótnie.
 
 ## Krok 3: Zabezpiecz udostępniony skoroszyt hasłem
 
@@ -106,7 +108,7 @@ Dzięki temu będziesz mieć pewność, że kod został wykonany zgodnie z oczek
 
 ## Wniosek
 
-W tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, jednocześnie umożliwiając współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
+W tym samouczku przeprowadziliśmy przez proces ochrony i usuwania ochrony udostępnionego skoroszytu przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz zapewnić bezpieczeństwo plików Excel, a jednocześnie umożliwić współpracę. Niezależnie od tego, czy udostępniasz poufne dane finansowe, czy informacje o klientach, ochrona Twojej pracy jest kluczowa w dzisiejszym środowisku.
 
 ## Najczęściej zadawane pytania
 
@@ -117,16 +119,18 @@ Oczywiście! Możesz użyć dowolnego ciągu, który spełnia wymagania Twojej p
 Niestety, jeśli zapomnisz hasła, nie będziesz mógł odblokować skoroszytu bez uciekania się do narzędzi innych firm lub ekspertów.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells to produkt komercyjny, ale możesz wypróbować go bezpłatnie przez ograniczony czas w ramach bezpłatnej wersji próbnej:[Bezpłatna wersja próbna](https://releases.aspose.com/).
+Aspose.Cells to produkt komercyjny, ale możesz wypróbować go bezpłatnie przez ograniczony czas w ramach bezpłatnej wersji próbnej: [Bezpłatna wersja próbna](https://releases.aspose.com/).
 
 ### Czy istnieje sposób na wykorzystanie tego w innych językach programowania?
 Aspose.Cells obsługuje głównie .NET, ale mają też biblioteki dla Javy i innych języków. Sprawdź ich stronę, aby uzyskać więcej informacji!
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz uzyskać pomoc poprzez forum wsparcia:[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać pomoc poprzez forum wsparcia: [Wsparcie Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Cominciamo con i prerequisiti prima di approfondire l'argomento.
 
 Per seguire questo tutorial, avrai bisogno di:
 - **Aspose.Cells per Java**: assicurati che il tuo progetto includa Aspose.Cells versione 25.3 o successiva.
-- **Kit di sviluppo Java (JDK)**: Qualsiasi versione stabile recente di JDK sarà sufficiente, ma si consiglia JDK 8+.
+- **Kit di sviluppo Java (JDK)**: Qualsiasi versione stabile recente di JDK sarà sufficiente, ma è consigliata la versione JDK 8+.
 - **Ambiente di sviluppo integrato (IDE)**: Utilizza qualsiasi IDE come IntelliJ IDEA o Eclipse.
 - **Conoscenze di base**: Familiarità con la programmazione Java e con gli strumenti di compilazione Maven/Gradle.
 
@@ -153,6 +155,9 @@ A questo punto, dovresti avere una solida conoscenza di come filtrare i dati di 
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

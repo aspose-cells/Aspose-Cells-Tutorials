@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ Truy xuất và in phiên bản hiện tại của Aspose.Cells cho Java.
 import com.aspose.cells.*;
 ```
 
-#### Bước 2: Tạo phương pháp hiển thị phiên bản
+#### Bước 2: Tạo phương thức hiển thị phiên bản
 Phương pháp này lấy thông tin phiên bản bằng cách sử dụng `CellsHelper.getVersion()`, trả về chuỗi chứa phiên bản hiện tại của thư viện.
 ```java
 class FeatureVersionDisplay {
@@ -210,6 +212,9 @@ Truy cập vào trình cắt cho phép tùy chỉnh hoặc kiểm tra thêm.
 - **Mục đích:** Thêm một bộ lọc để tăng cường khả năng tương tác dữ liệu trong bảng tổng hợp.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

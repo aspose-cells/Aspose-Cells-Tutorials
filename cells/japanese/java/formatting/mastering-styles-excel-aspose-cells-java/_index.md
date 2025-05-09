@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,9 +25,9 @@ Javaを使ってExcelファイルの見た目をもっと魅力的にしたい�
 
 ## 前提条件
 このチュートリアルを効果的に実行するには、次のものを用意してください。
-- **ライブラリと依存関係**MavenまたはGradle経由でAspose.Cells for Javaをインストールします。セットアップ手順については後ほどご案内します。
+- **ライブラリと依存関係**MavenまたはGradle経由でAspose.Cells for Javaをインストールします。セットアップ手順については後ほど説明します。
 - **環境設定**開発環境で Java (JDK 8 以上) がサポートされている必要があります。
-- **基礎知識**Java プログラミングと Excel ファイルの操作に関する基本的な概念を理解していることが推奨されます。
+- **基礎知識**Java プログラミングと Excel ファイルの操作に関する基本的な概念に精通していることが推奨されます。
 
 ## Aspose.Cells for Java のセットアップ
 Aspose.Cells の使い始めは簡単です。Maven または Gradle 経由でプロジェクトに組み込むことができます。
@@ -133,6 +135,9 @@ Aspose.Cells for Java を使ってカスタムスタイルを作成し、適用�
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

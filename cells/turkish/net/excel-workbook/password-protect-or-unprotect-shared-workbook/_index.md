@@ -1,14 +1,16 @@
 ---
-title: Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır
-linktitle: Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Paylaşılan Excel dosyalarınızı, parola koruması ve korumasını kaldırma tekniklerine ilişkin kolay kılavuzumuzla Aspose.Cells for .NET kullanarak güvenceye alın.
-weight: 120
-url: /tr/net/excel-workbook/password-protect-or-unprotect-shared-workbook/
+"description": "Paylaşılan Excel dosyalarınızı, parola koruması ve korumasını kaldırma tekniklerine ilişkin kolay kılavuzumuzla Aspose.Cells for .NET kullanarak güvenceye alın."
+"linktitle": "Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır"
+"url": "/tr/net/excel-workbook/password-protect-or-unprotect-shared-workbook/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Paylaşılan Çalışma Kitabını Parolayla Koru veya Korumasını Kaldır
@@ -22,7 +24,7 @@ Günümüzün dijital çalışma alanında, belgeleri paylaşmak, güvenliğin d
 Koda dalmadan önce aşağıdakilerin hazır olduğundan emin olun:
 
 - Temel C# Bilgisi: Kodlama uzmanı olmanıza gerek yok, ancak C# söz dizimi ve kavramlarına aşina olmalısınız.
--  Aspose.Cells for .NET: Projenizde kütüphanenin yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Projenizde kütüphanenin yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/cells/net/).
 - .NET SDK: Uygulamayı çalıştırmak için .NET SDK'nın yüklü olduğundan emin olun.
 - Visual Studio veya herhangi bir IDE: Kodu yazmak ve çalıştırmak için tercih ettiğiniz kodlama ortamını ayarlayın.
 
@@ -59,7 +61,7 @@ Sırada, yeni bir Excel çalışma kitabının bir örneğini oluşturacağız. 
 Workbook wb = new Workbook();
 ```
 
- Bu satır, adında yeni bir çalışma kitabı nesnesi başlatır`wb`Artık bu yeni tuval üzerinde çalışmaya hazırız.
+Bu satır, adında yeni bir çalışma kitabı nesnesi başlatır `wb`Artık bu yeni tuval üzerinde çalışmaya hazırız.
 
 ## Adım 3: Paylaşılan Çalışma Kitabını Parola ile Koruyun
 
@@ -117,16 +119,18 @@ Kesinlikle! Parola politikası gereksinimlerinizi karşılayan herhangi bir dize
 Ne yazık ki, şifrenizi unutursanız, üçüncü taraf araçlara veya uzmanlara başvurmadan çalışma kitabının korumasını kaldıramazsınız.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümü aracılığıyla sınırlı bir süre için ücretsiz deneyebilirsiniz:[Ücretsiz deneme](https://releases.aspose.com/).
+Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümü aracılığıyla sınırlı bir süre için ücretsiz deneyebilirsiniz: [Ücretsiz deneme](https://releases.aspose.com/).
 
 ### Bunu diğer programlama dillerinde kullanmanın bir yolu var mı?
 Aspose.Cells öncelikle .NET'i destekler, ancak Java ve diğer diller için de kütüphaneleri vardır. Daha fazla bilgi için sitelerini kontrol edin!
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek forumları aracılığıyla yardım alabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
+Destek forumları aracılığıyla yardım alabilirsiniz: [Aspose Desteği](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

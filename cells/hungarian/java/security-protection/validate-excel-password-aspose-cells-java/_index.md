@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ A5: Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/
 Böngészd át ezeket az anyagokat, hogy elmélyítsd az Aspose.Cells megértését és fejleszd a Java projektekben való megvalósítását. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,8 +6,11 @@ description: Learn how to set font size in an Excel file using Aspose.Cells for 
 keywords: [Aspose.Cells for .NET, set font size in Excel, Excel font size, C# Excel formatting, modify Excel cell style, Aspose.Cells tutorial, change font size C#]
 url: /net/formatting/setting-font-size/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
 # Set Font Size in Excel Using Aspose.Cells
@@ -19,6 +22,7 @@ Setting font size in an Excel file is crucial for enhancing readability and emph
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -47,7 +51,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

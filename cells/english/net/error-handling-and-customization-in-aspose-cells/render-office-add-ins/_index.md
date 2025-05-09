@@ -8,7 +8,9 @@ url: /net/error-handling-and-customization-in-aspose-cells/render-office-add-ins
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Office Add-ins in Excel to PDF with Aspose.Cells
@@ -82,6 +84,7 @@ You can get assistance from the Aspose community and support forum located [here
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

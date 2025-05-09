@@ -1,59 +1,64 @@
 ---
-title: Készítsen egy vonal-diagramot az Aspose.Cells-ben .NET-hez
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan készítsen egy munkafüzetet és generáljon egy vonal- diagramot adatjelzőkkel a .NET-hez Aspose.Cells használatával. Kövesse ezt a lépésről lépésre útmutatót kód példákkal.
-keywords: [Aspose.Cells for .NET, create line chart, data markers, workbook, .NET Excel chart, C# chart example, Excel automation, Aspose.Cells tutorial]
-url: /hu/net/charts/create-line-with-data-marker-chart/
+"description": "Ismerje meg, hogyan hozhat létre munkafüzetet és vonaldiagramot adatjelölőkkel az Aspose.Cells for .NET használatával. Kövesse ezt a lépésenkénti útmutatót kódpéldákkal."
+"title": "Vonaldiagram létrehozása adatjelölőkkel az Aspose.Cells for .NET programban"
+"url": "/hu/net/charts/create-line-with-data-marker-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készítsen egy vonal-diagramot az Aspose.Cells-ben
+# Vonaldiagram létrehozása adatjelölőkkel az Aspose.Cells-ben
 
-Ez a tanár bemutatja, hogyan lehet egy Excel munkafüzetben az Aspose.Cells használatával adatjelzőkkel ellátott vonaltervet készíteni. Megtanulhatja, hogyan lehet véletlenszerű adatokat generálni, behelyezni egy munkafüzetbe, és konfigurálni egy vizuálisan vonzó táblázatot a személyre szabható stílusokkal. A útmutató mindent lefedi, a munkafüzet beállításától a végleges fájlt megőrzésig. Akár az Excel jelentések automatizálása vagy az adatvisuálálálálása javítása, ez a lépésről lépésre adott példa segít C# segítségével könnyedén végrehajtani a vonaltervet.  
+Ez az oktatóanyag bemutatja, hogyan hozhatsz létre adatjelölőkkel ellátott vonaldiagramot egy Excel-munkafüzetben az Aspose.Cells for .NET használatával. Megtanulod, hogyan generálhatsz véletlenszerű adatokat, hogyan szúrhatsz be azokat egy munkalapba, és hogyan konfigurálhatsz egy vizuálisan vonzó diagramot testreszabható stílusokkal. Az útmutató mindent lefed a munkafüzet beállításától a végleges fájl mentéséig. Akár Excel-jelentéseket automatizálsz, akár az adatvizualizációt fejleszted, ez a lépésről lépésre bemutatott példa segít a vonaldiagramok egyszerű megvalósításában C# használatával.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
+## Telepítési utasítások:  
 
-A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:  
+Az Aspose.Cells for .NET használatához a projektben kövesse az alábbi lépéseket:  
 
-1. A NuGet segítségével telepítse:  
-   Nyissa ki a Visual Studio-ban a csomagkezelő konzolt, és futtassa ki:  
+1. Telepítés NuGet-en keresztül:  
+   Nyisd meg a Package Manager Console-t a Visual Studio-ban, és futtasd a következőt:  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. Letöltés:  
-   Alternatív módon letöltheti az utolsó Aspose.Cells .NET verzióját a [A letöltések elhelyezése](https://releases.aspose.com/cells/net/)\- Nem.
+2. DLL letöltése:  
+   Alternatív megoldásként letöltheti az Aspose.Cells for .NET legújabb verzióját innen: [Aspose letöltések](https://releases.aspose.com/cells/net/).
 
-3. Adj hivatkozást:  
-   Ha kézi úton töltötted le a DLL-t, adjon hozzá egy hivatkozást a `Aspose.Cells.dll`a .NET projektedben.
+3. Referencia hozzáadása:  
+   Ha manuálisan töltötted le a DLL-t, adj hozzá egy hivatkozást a következőhöz: `Aspose.Cells.dll` a .NET projektedben.
 
-4. Be kell foglalni a névterületet:  
-   C# fájljaihoz hozzon hozzá:  
+4. Névtér beillesztése:  
+   A C# fájlodban add hozzá:  
    ```csharp
    using Aspose.Cells;
    using System;
    using System.Drawing;
    ```
 
-5. A példa:  
-   Képzeld és takarítsd be a megadott C# kódot a projektedbe, frissítd a kimeneti címlapot, és végezd el a szöveget egy Excel fájl létrehozásához egy sortervvel.
+5. Futtassa a példát:  
+   Másold ki és illeszd be a megadott C# kódot a projektedbe, frissítsd a kimeneti könyvtárat, és futtasd a szkriptet egy vonaldiagrammal rendelkező Excel-fájl létrehozásához.
 
-## Lásd:
-A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még
+Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Mengatur Batas Secara Terprogram di Excel
-linktitle: Mengatur Batas Secara Terprogram di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur batas secara terprogram di Excel menggunakan Aspose.Cells for .NET. Hemat waktu dan otomatisasi tugas Excel Anda.
-weight: 10
-url: /id/net/excel-borders-and-formatting-options/setting-border/
+"description": "Pelajari cara mengatur batas secara terprogram di Excel menggunakan Aspose.Cells for .NET. Hemat waktu dan otomatisasi tugas Excel Anda."
+"linktitle": "Mengatur Batas Secara Terprogram di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Mengatur Batas Secara Terprogram di Excel"
+"url": "/id/net/excel-borders-and-formatting-options/setting-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Batas Secara Terprogram di Excel
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda lelah mengatur batas secara manual di lembar Excel Anda? Anda tidak sendirian! Mengatur batas bisa menjadi tugas yang membosankan, terutama saat Anda menangani kumpulan data yang besar. Namun, jangan khawatir! Dengan Aspose.Cells for .NET, Anda dapat mengotomatiskan proses ini, sehingga menghemat waktu dan tenaga Anda. Dalam tutorial ini, kita akan menyelami seluk-beluk pengaturan batas secara terprogram di buku kerja Excel. Baik Anda seorang pengembang berpengalaman atau baru memulai, Anda akan merasa panduan ini mudah diikuti dan penuh dengan wawasan yang bermanfaat.
 
 Jadi, apakah Anda siap untuk meningkatkan keterampilan otomatisasi Excel Anda? Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-1.  Visual Studio: Anda harus sudah menginstal Visual Studio di komputer Anda. Jika belum, unduh dari[Di Sini](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Anda bisa mendapatkannya dengan mengunduh DLL dari[tautan ini](https://releases.aspose.com/cells/net/) atau dengan menggunakan NuGet di proyek Anda:
+1. Visual Studio: Anda harus sudah menginstal Visual Studio di komputer Anda. Jika belum, unduh dari [itt](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Anda bisa mendapatkannya dengan mengunduh DLL dari [ezt a linket](https://releases.aspose.com/cells/net/) atau dengan menggunakan NuGet di proyek Anda:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -33,7 +35,7 @@ Install-Package Aspose.Cells
 
 Setelah Anda menyiapkan semuanya, kita dapat beralih ke bagian yang menyenangkan: pengkodean!
 
-## Paket Impor
+## Csomagok importálása
 
 Setelah semuanya siap, mari impor namespace yang diperlukan ke dalam file C# kita. Di bagian atas file kode Anda, tambahkan yang berikut ini:
 
@@ -45,23 +47,23 @@ using System.Drawing;
 
 Ruang nama ini memberi Anda akses ke fungsionalitas Aspose.Cells dan fungsionalitas warna dari ruang nama System.Drawing.
 
-## Langkah 1: Tentukan Direktori Dokumen Anda
+## 1. lépés: Dokumentumkönyvtár meghatározása
 
 Pertama-tama, kita perlu menentukan di mana file Excel kita akan disimpan. Tentukan jalur ke direktori dokumen Anda:
 
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas Excel Anda. 
+Csere `"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas Excel Anda. 
 
-## Langkah 2: Buat Objek Buku Kerja
+## 2. lépés: Munkafüzet-objektum létrehozása
 
- Selanjutnya, mari kita buat sebuah instance dari`Workbook` kelas. Ini akan mewakili buku kerja Excel kita.
+Következő lépésként hozzunk létre egy példányt a következőből: `Workbook` kelas. Ini akan mewakili buku kerja Excel kita.
 
 ```csharp
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
@@ -125,7 +127,7 @@ fc.Style.Borders[BorderType.TopBorder].Color = Color.FromArgb(0, 255, 255);
 fc.Style.Borders[BorderType.BottomBorder].Color = Color.FromArgb(255, 255, 0);
 ```
 
-## Langkah 8: Simpan Buku Kerja Anda
+## 8. lépés: Mentse el a munkafüzetét
 
 Terakhir, mari kita simpan buku kerja kita. Gunakan kode berikut untuk menyimpan perubahan:
 
@@ -133,31 +135,33 @@ Terakhir, mari kita simpan buku kerja kita. Gunakan kode berikut untuk menyimpan
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- Ini akan menyimpan file Excel Anda sebagai`output.xlsx` di direktori yang ditentukan. 
+Ini akan menyimpan file Excel Anda sebagai `output.xlsx` a megadott könyvtárban. 
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda telah berhasil menetapkan batas secara terprogram dalam file Excel menggunakan Aspose.Cells for .NET. Dengan mengotomatiskan proses ini, Anda dapat menghemat waktu yang tak terhitung banyaknya, terutama saat menangani kumpulan data yang lebih besar. Bayangkan dapat menyesuaikan laporan tanpa perlu bersusah payah—itulah efisiensi.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk format file lain selain Excel?  
 Ya, Aspose.Cells terutama berfokus pada Excel, tetapi juga memungkinkan Anda mengonversi file Excel ke berbagai format seperti PDF dan HTML.
 
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?  
- Anda dapat menggunakan uji coba gratis untuk menguji fungsinya. Untuk penggunaan jangka panjang, Anda perlu membeli lisensi, yang dapat Anda temukan[Di Sini](https://purchase.aspose.com/buy).
+### Szükségem van licencre az Aspose.Cells használatához?  
+Anda dapat menggunakan uji coba gratis untuk menguji fungsinya. Untuk penggunaan jangka panjang, Anda perlu membeli lisensi, yang dapat Anda temukan [itt](https://purchase.aspose.com/buy).
 
-### Bagaimana cara menginstal Aspose.Cells?  
+### Hogyan telepítsem az Aspose.Cells-t?  
 Anda dapat menginstal Aspose.Cells melalui NuGet atau dengan mengunduh DLL dari situs tersebut.
 
 ### Apakah ada dokumentasi yang tersedia?  
- Tentu saja! Anda dapat mengakses dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/cells/net/).
+Tentu saja! Anda dapat mengakses dokumentasi lengkapnya [itt](https://reference.aspose.com/cells/net/).
 
 ### Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?  
- Anda dapat mengunjungi forum dukungan Aspose untuk pertanyaan atau masalah apa pun yang Anda hadapi:[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Anda dapat mengunjungi forum dukungan Aspose untuk pertanyaan atau masalah apa pun yang Anda temui: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

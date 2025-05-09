@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 หากต้องการใช้ Aspose.Cells ในโปรเจ็กต์ Java ของคุณ ให้เพิ่มเป็นส่วนที่ต้องพึ่งพา ต่อไปนี้คือขั้นตอนในการรวม Aspose.Cells โดยใช้ Maven หรือ Gradle:
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -221,6 +223,9 @@ class LightCellsDataProviderFeature implements LightCellsDataProvider {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

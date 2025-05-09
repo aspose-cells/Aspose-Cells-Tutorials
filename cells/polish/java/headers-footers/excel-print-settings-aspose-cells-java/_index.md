@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ import com.aspose.cells.PrintErrorsType;
 pageSetup.setBlackAndWhite(true);
 pageSetup.setPrintComments(PrintCommentsType.PRINT_IN_PLACE);
 
-// Ustaw jakość roboczą, aby uzyskać szybszy wydruk
+// Ustaw jakość roboczą, aby przyspieszyć wydruk
 pageSetup.setPrintDraft(true);
 
 workbook.save(outDir + "PrintingBlackAndWhite_withComments_andDraft_out.xls");
@@ -183,6 +185,9 @@ Opanowując te funkcje konfiguracji drukowania za pomocą Aspose.Cells Java, mo�
    - Oczywiście! Jest zaprojektowany do wydajnego obsługiwania dużych zestawów danych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

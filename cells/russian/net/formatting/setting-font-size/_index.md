@@ -1,53 +1,57 @@
 ---
-title: Установка размера шрифта в Excel с использованием Aspose.Cells для .NET
-weight: 7700
-limit: 
-description: Узнайте, как установить размер шрифта в файле Excel с помощью Aspose.Cells для .NET.
-keywords: [Aspose.Cells for .NET, set font size in Excel, Excel font size, C# Excel formatting, modify Excel cell style, Aspose.Cells tutorial, change font size C#]
-url: /ru/net/formatting/setting-font-size/
+"description": "Узнайте, как задать размер шрифта в файле Excel с помощью Aspose.Cells for .NET. Это руководство охватывает создание книги, стилизацию ячеек и сохранение файла."
+"title": "Установка размера шрифта в Excel с помощью Aspose.Cells для .NET"
+"url": "/ru/net/formatting/setting-font-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
 # Установка размера шрифта в Excel с помощью Aspose.Cells
 
-Установка размера шрифта в файле Excel имеет решающее значение для повышения читаемости и подчеркивания ключевых точек данных. С помощью Aspose.Cells для .NET вы можете легко изменить размер шрифта любой ячейки программируемым образом.  
+Установка размера шрифта в файле Excel имеет решающее значение для улучшения читаемости и выделения ключевых точек данных. С Aspose.Cells for .NET вы можете легко изменить размер шрифта любой ячейки программным способом. В этом руководстве показано, как создать новую книгу Excel, добавить лист, заполнить ячейку текстом, изменить размер шрифта и сохранить файл в формате Excel. Следуя этому пошаговому руководству, вы освоите процесс настройки внешнего вида текста в файлах Excel с помощью C#.  
 
 ---
 
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке
+## Инструкция по установке
 
-Чтобы начать с Aspose.Cells для .NET, следуйте этим шагам установки:  
+Чтобы начать работу с Aspose.Cells для .NET, выполните следующие шаги по установке:  
 
-1. Установка через управляющий пакетами NuGet:  
-   * Откройте визуальную студию.  
-   * Перейти к Инструменты > Управляющий пакетами NuGet > Управление пакетами NuGet для решения.  
-   * Поиск`"Аспозиция. Клетки"`и нажмите на Установите.  
+1. Установка через менеджер пакетов NuGet:  
+   - Откройте Visual Studio.  
+   - Перейдите в Инструменты > Диспетчер пакетов NuGet > Управление пакетами NuGet для решения.  
+   - Искать `Aspose.Cells` и нажмите «Установить».  
 
-2. Установка через консоль NuGet Package Manager:  
-   * Откройте консоль для управления пакетами из инструментов > NuGet Package Manager > Console для управления пакетами.  
-   * Запустите команду:  
+2. Установка через консоль диспетчера пакетов NuGet:  
+   - Откройте консоль диспетчера пакетов из меню Инструменты > Диспетчер пакетов NuGet > Консоль диспетчера пакетов.  
+   - Выполните команду:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Загрузить DLL вручную:  
-   * Посетите ["Аспозиция.Клетка" Загрузка страницы](https://releases.aspose.com/cells/net/)\- Я не знаю .  
-   * Загрузи и вытащи пакету.  
-   * Добавьте ссылку на `"Аспозиция. Клетки".`в вашем проекте.  
+3. Загрузите DLL вручную:  
+   - Посетите [Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/net/).  
+   - Загрузите и распакуйте пакет.  
+   - Добавить ссылку на `Aspose.Cells.dll` в вашем проекте.  
 
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면:
 - 전체 통합 문서 렌더링이 필요하지 않은 경우 특정 페이지 범위를 사용하면 처리 시간과 리소스 소모를 줄일 수 있습니다.
 - 향상된 기능과 최적화를 위해 Aspose.Cells의 최신 버전으로 정기적으로 업데이트하세요.
 
-## 결론(H2)
+## 결론 (H2)
 
 이 튜토리얼을 통해 문서 변환을 설정하고 구현하는 방법을 배웠습니다. **자바용 Aspose.Cells**TIFF 이미지에 중점을 둡니다. 진행 상황 콜백을 활용하면 변환 프로세스를 효과적으로 모니터링하고 제어하여 다양한 비즈니스 요구에 맞게 조정할 수 있습니다.
 
@@ -181,6 +183,9 @@ A5: 물론입니다! 대부분의 Java 기반 시스템과 호환되며 기존 �
 - **지원 포럼**: [Aspose 지원 커뮤니티](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

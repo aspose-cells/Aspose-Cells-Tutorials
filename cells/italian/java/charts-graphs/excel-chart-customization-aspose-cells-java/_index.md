@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ Hai imparato come sfruttare Aspose.Cells per Java per personalizzare efficacemen
 ## Sezione FAQ
 ### 1. Come posso assicurarmi che la libreria Aspose.Cells sia correttamente integrata?
 Assicurati il tuo `pom.xml` O `build.gradle` il file includa la dipendenza corretta e che l'IDE lo riconosca dopo una ricostruzione.
-### 2. Cosa succede se le mie serie di grafici sono più di tre? È possibile disattivare l'interruzione di testo per tutte?
+### 2. Cosa succede se le serie dei miei grafici sono più di tre? È possibile disattivare l'interruzione di testo per tutte?
 Sì, esegui l'iterazione su tutte le serie utilizzando un ciclo:
 ```java
 for (int i = 0; i < chart.getNSeries().getCount(); i++) {
@@ -152,6 +154,9 @@ La versione di prova gratuita include filigrane sui file di output e un limite a
 Intraprendi il tuo percorso verso la personalizzazione dei grafici Excel con Aspose.Cells per Java e migliora il modo in cui presenti i dati. Buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

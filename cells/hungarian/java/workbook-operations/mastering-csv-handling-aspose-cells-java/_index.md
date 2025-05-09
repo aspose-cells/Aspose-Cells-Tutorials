@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (int row = 0; row < cells.getMaxDataRow() + 1; row++) {
         
         // Ellenőrizze, hogy az érték tartalmaz-e érvénytelen karaktereket
         String cellValue = cell.getStringValue();
-        if (cellValue != null && !cellValue.matches("[\\w\\s.,-]+")) { // Érvényes karakterekhez tartozó regex
+        if (cellValue != null && !cellValue.matches("[\\w\\s.,-]+")) { // Regex érvényes karakterekhez
             // Cserélje ki egy helykitöltővel vagy bármilyen kívánt karakterrel
             cell.putValue("INVALID");
         }
@@ -149,10 +151,10 @@ Készen állsz mélyebbre merülni? Próbáld ki ezeket a megoldásokat a követ
 2. **Milyen karakterkódolást támogat az Aspose.Cells?**
    - Különböző kódolásokat támogat, beleértve az UTF-8-at, az ISO-8859-1-et és egyebeket.
 3. **Hogyan kezelhetem hatékonyan a nagy CSV fájlokat?**
-   - Csomagonként dolgozza fel, vagy használjon párhuzamos feldolgozási technikákat a memóriahasználat optimalizálása érdekében.
+   - Csomókokban dolgozza fel, vagy használjon párhuzamos feldolgozási technikákat a memóriahasználat optimalizálása érdekében.
 4. **Létezik ingyenes verziója az Aspose.Cells-nek Java-ra?**
    - Igen, ingyenes próbaverzióval felfedezheted a funkcióit.
-5. **Az Aspose.Cells konvertálhat a CSV-n kívüli különböző fájlformátumok között is?**
+5. **Az Aspose.Cells konvertálhat a CSV-n kívüli különböző fájlformátumok között?**
    - Abszolút! Számos formátumot támogat, például XLSX-et, PDF-et és egyebeket.
 
 ## Erőforrás
@@ -166,6 +168,9 @@ Készen állsz mélyebbre merülni? Próbáld ki ezeket a megoldásokat a követ
 Az útmutató követésével magabiztosan kezelheted a CSV fájlokat az Aspose.Cells for Java használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-data-import-export/import-data-to-worksheet-in-excel-with-specif
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Import Data to Excel with Custom DB Num Pattern Formatting
@@ -172,6 +174,7 @@ If you need assistance, visit their [support forum](https://forum.aspose.com/c/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

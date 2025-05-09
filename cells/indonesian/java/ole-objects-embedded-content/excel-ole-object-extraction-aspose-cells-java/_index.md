@@ -7,29 +7,31 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengekstrak Objek OLE dari Excel dengan Aspose.Cells di Java
 
-### Perkenalan
+### Bevezetés
 
 Menangani file Excel yang rumit yang disematkan dengan dokumen, lembar kerja, atau presentasi dapat menjadi tantangan. Baik mengotomatiskan ekstraksi data untuk pelaporan atau mengintegrasikan pemrosesan Excel ke dalam aplikasi perangkat lunak Anda, mengekstraksi objek yang disematkan ini secara efisien sangatlah penting. Tutorial ini akan memandu Anda mengekstraksi objek OLE (Object Linking and Embedding) dari lembar kerja Excel menggunakan Java Aspose.Cells.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Mengonfigurasi lingkungan Anda dengan Aspose.Cells untuk Java
 - Langkah-langkah untuk mengekstrak objek OLE dari file Excel
 - Praktik terbaik untuk menangani berbagai format file yang tertanam dalam Excel
 
-Mari kita mulai dengan membahas prasyaratnya.
+Kezdjük az előfeltételek áttekintésével.
 
-### Prasyarat
+### Előfeltételek
 
 Sebelum memulai, pastikan Anda memiliki:
-- **Perpustakaan yang Diperlukan**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: Lingkungan pengembangan Java (JDK) yang berfungsi dan IDE seperti IntelliJ IDEA atau Eclipse.
-- **Prasyarat Pengetahuan**: Keakraban dengan konsep pemrograman Java seperti operasi I/O file.
+- **Kötelező könyvtárak**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**: Lingkungan pengembangan Java (JDK) yang berfungsi dan IDE seperti IntelliJ IDEA atau Eclipse.
+- **Ismereti előfeltételek**: Keakraban dengan konsep pemrograman Java seperti operasi I/O file.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
@@ -37,7 +39,7 @@ Tambahkan Aspose.Cells for Java ke dependensi proyek Anda. Berikut caranya:
 
 **Pengaturan Maven:**
 
-Tambahkan dependensi berikut di `pom.xml` mengajukan:
+Tambahkan dependensi berikut di `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -49,20 +51,20 @@ Tambahkan dependensi berikut di `pom.xml` mengajukan:
 
 **Pengaturan Gradle:**
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Akuisisi Lisensi:**
-- Mulailah dengan [uji coba gratis](https://releases.aspose.com/cells/java/) untuk menjelajahi kemampuan Aspose.Cells.
-- Untuk fungsionalitas penuh, pertimbangkan untuk memperoleh lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
+**Licenc beszerzése:**
+- Kezdj egy [ingyenes próba](https://releases.aspose.com/cells/java/) untuk menjelajahi kemampuan Aspose.Cells.
+- Untuk fungsionalitas penuh, pertimbangkan untuk memperoleh lisensi sementara dari [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
 - Beli lisensi untuk penggunaan jangka panjang di [Beli Aspose](https://purchase.aspose.com/buy).
 
-**Inisialisasi Dasar:**
+**Alapvető inicializálás:**
 
-Berikut cara Anda dapat menginisialisasi `Workbook` obyek:
+Berikut cara Anda dapat menginisialisasi `Workbook` objektum:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -71,7 +73,7 @@ String dataDir = "YOUR_DATA_DIRECTORY/";
 Workbook workbook = new Workbook(dataDir + "example_with_ole.xlsx");
 ```
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 Sekarang, mari kita uraikan implementasinya menjadi fitur-fitur utama.
 
@@ -79,13 +81,13 @@ Sekarang, mari kita uraikan implementasinya menjadi fitur-fitur utama.
 
 Fitur ini menunjukkan cara mengekstrak objek OLE tertanam dari lembar kerja Excel menggunakan Aspose.Cells Java.
 
-##### Ringkasan
+##### Áttekintés
 
 Anda akan mempelajari cara mengakses dan mengulangi objek OLE dalam buku kerja dan menyimpannya sebagai file terpisah berdasarkan jenis formatnya.
 
-##### Panduan Langkah demi Langkah
+##### Lépésről lépésre útmutató
 
-**1. Muat Buku Kerja**
+**1. Töltse be a munkafüzetet**
 
 Mulailah dengan memuat file Excel Anda:
 
@@ -146,41 +148,41 @@ for (int i = 0; i < oles.getCount(); i++) {
 }
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - **Deteksi Format File**Tentukan format objek OLE untuk membuat nama file yang sesuai.
-- **Penanganan Aliran Byte**: Menggunakan `FileOutputStream` untuk menulis data yang diekstraksi, memastikan sumber daya dikelola dengan benar dengan mencoba-dengan-sumber daya.
+- **Penanganan Aliran Byte**Használat `FileOutputStream` untuk menulis data yang diekstraksi, memastikan sumber daya dikelola dengan benar dengan mencoba-dengan-sumber daya.
 
-##### Tips Pemecahan Masalah
+##### Hibaelhárítási tippek
 
-- Pastikan jalur file Excel Anda benar dan dapat diakses.
+- Győződjön meg arról, hogy az Excel-fájl elérési útja helyes és elérhető.
 - Verifikasi bahwa versi pustaka Aspose.Cells sesuai dengan persyaratan implementasi Anda.
 - Tangani pengecualian untuk tipe objek OLE yang tidak didukung dengan baik.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
-Fitur ini dapat diterapkan dalam berbagai skenario:
+Ez a funkció különböző forgatókönyvekben alkalmazható:
 
-1. **Integrasi Data**: Ekstrak dokumen yang tertanam dari laporan keuangan untuk analisis lebih lanjut.
-2. **Pelaporan Otomatis**: Menghasilkan laporan dengan menarik konten dari beberapa sumber yang tertanam dalam file Excel.
+1. **Adatintegráció**: Ekstrak dokumen yang tertanam dari laporan keuangan untuk analisis lebih lanjut.
+2. **Automatizált jelentéskészítés**: Menghasilkan laporan dengan menarik konten dari beberapa sumber yang tertanam dalam file Excel.
 3. **Pengarsipan Konten**: Arsipkan semua objek yang tertanam dari lembar kerja Excel lama sebagai bagian dari proyek migrasi data.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
 Saat bekerja dengan file Excel besar yang berisi banyak objek OLE:
 
-- **Mengoptimalkan Operasi I/O File**Minimalkan akses disk dengan melakukan operasi buffering jika memungkinkan.
+- **Fájl I/O műveletek optimalizálása**Minimalkan akses disk dengan melakukan operasi buffering jika memungkinkan.
 - **Kelola Penggunaan Memori**: Gunakan alat manajemen memori Java untuk memantau dan menyesuaikan ukuran heap jika perlu.
 - **Praktik Terbaik Aspose.Cells**Manfaatkan penanganan struktur data buku kerja Aspose.Cells yang efisien untuk kinerja optimal.
 
-### Kesimpulan
+### Következtetés
 
 Anda telah mempelajari cara mengekstrak objek OLE secara efektif dari file Excel menggunakan Aspose.Cells Java. Kemampuan ini dapat menyederhanakan alur kerja Anda secara signifikan, baik saat Anda menangani tugas integrasi data yang rumit atau mengotomatiskan proses pelaporan yang berulang.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi fitur tambahan Aspose.Cells seperti kalkulasi rumus dan manipulasi bagan.
 - Bereksperimenlah dengan berbagai format file untuk memahami bagaimana Aspose.Cells menangani berbagai objek OLE.
 
-### Bagian FAQ
+### GYIK szekció
 
 **Q1: Jenis file apa yang dapat diekstraksi sebagai objek OLE?**
 
@@ -200,21 +202,24 @@ A4: Pertimbangkan pemrosesan secara batch, mengoptimalkan alokasi memori, dan me
 
 **Q5: Di mana saya dapat menemukan lebih banyak sumber daya tentang penggunaan Aspose.Cells Java?**
 
-A5: Kunjungi [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) untuk panduan lengkap dan referensi API.
+A5: Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és API-referenciákért.
 
-### Sumber daya
+### Erőforrás
 
-- **Dokumentasi**: [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Coba Aspose.Cells Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Próbálja ki az Aspose.Cells-t ingyen](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan ini, Anda akan siap memanfaatkan kekuatan Java Aspose.Cells untuk mengekstrak objek OLE dan menyempurnakan alur kerja pemrosesan data Anda. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

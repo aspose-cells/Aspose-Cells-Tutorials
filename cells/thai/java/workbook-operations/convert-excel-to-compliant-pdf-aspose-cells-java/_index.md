@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
    - คุณสามารถสำรวจได้ [องค์กรมาตรฐานสากล (ISO)](https://www.iso.org/standards.html) เว็บไซต์สำหรับเอกสารรายละเอียดเกี่ยวกับระดับการปฏิบัติตาม PDF/A ต่าง ๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Выравнивание и форматирование данных Excel
-linktitle: Выравнивание и форматирование данных Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как изменить выравнивание ячеек Excel без потери форматирования в Aspose.Cells для .NET. Изучите пошаговое руководство по бесшовному форматированию данных Excel.
-weight: 36
-url: /ru/net/excel-data-alignment-formatting/
+"description": "Узнайте, как изменить выравнивание ячеек Excel без потери форматирования в Aspose.Cells для .NET. Изучите пошаговое руководство по бесшовному форматированию данных Excel."
+"linktitle": "Выравнивание и форматирование данных Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Выравнивание и форматирование данных Excel"
+"url": "/ru/net/excel-data-alignment-formatting/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Выравнивание и форматирование данных Excel
@@ -25,19 +27,21 @@ url: /ru/net/excel-data-alignment-formatting/
    Начните с указания ячеек или диапазона, которые вы хотите настроить. Это может быть одна ячейка или целая таблица в зависимости от ваших потребностей.
 
 2. Примените желаемое выравнивание:
-    Используйте`.Style` свойство для применения настроек горизонтального или вертикального выравнивания. Aspose.Cells предоставляет вам такие опции, как`TextAlignmentType.Center`, `TextAlignmentType.Left` , или`TextAlignmentType.Right` для горизонтального выравнивания и аналогичные параметры для вертикального выравнивания.
+   Используйте `.Style` свойство для применения настроек горизонтального или вертикального выравнивания. Aspose.Cells предоставляет вам такие опции, как `TextAlignmentType.Center`, `TextAlignmentType.Left`, или `TextAlignmentType.Right` для горизонтального выравнивания и аналогичные параметры для вертикального выравнивания.
 
 3. Сохраните форматирование:
-    Самое замечательное в Aspose.Cells то, что когда вы изменяете выравнивание с помощью`.Style` объект, другие элементы форматирования, такие как границы, шрифты и цвета, остаются нетронутыми. Не нужно беспокоиться о потере этого пользовательского стиля!
+   Самое замечательное в Aspose.Cells то, что когда вы изменяете выравнивание с помощью `.Style` объект, другие элементы форматирования, такие как границы, шрифты и цвета, остаются нетронутыми. Не нужно беспокоиться о потере этого пользовательского стиля!
 
- Узнайте больше о том, как[Изменить выравнивание ячеек Excel без потери форматирования](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
+Узнайте больше о том, как [Изменить выравнивание ячеек Excel без потери форматирования](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## Учебники по выравниванию и форматированию данных Excel
 ### [Изменить выравнивание ячеек Excel без потери форматирования](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Узнайте, как изменить выравнивание ячеек Excel без потери форматирования с помощью Aspose.Cells для .NET. Следуйте нашему подробному пошаговому руководству для бесперебойного управления.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ public class GetSetThemeColors {
         // Mở một tệp Excel hiện có
         Workbook workbook = new Workbook(dataDir + "book1.xlsx");
         
-        // Đổi màu chủ đề Background1 thành màu đỏ
+        // Thay đổi màu chủ đề Background1 thành màu đỏ
         workbook.setThemeColor(ThemeColorType.BACKGROUND_1, Color.getRed());
         System.out.println("Background1 Theme Color changed to: Red");
         
@@ -196,6 +198,9 @@ Các bước tiếp theo bao gồm thử nghiệm các tính năng khác của A
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

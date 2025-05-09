@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: Zorg ervoor dat bereiknamen uniek en geldig zijn in de gehele werkmap om con
 Voor meer informatie kunt u de beschikbare bronnen raadplegen op [Aspose-downloads](https://releases.aspose.com/cells/java/) en overweeg een tijdelijke licentie aan te schaffen voor toegang tot alle functies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ Aspose.Cells for Javaでオートフィルターを実装し、データ分析�
 Java で Aspose.Cells を使用して Excel ピボット テーブルを自動化し、効率的なワークブック操作によってデータ分析ワークフローを強化する方法を学習します。
 
 ### [Aspose.Cells for Java を使用して Excel のピボットテーブル オプションを構成する: 完全ガイド](./configure-pivottable-options-aspose-cells-java/)
-Aspose.Cellsを使ってJavaでピボットテーブルのオプションを設定する方法（null値の表示や変更の保存など）を学びましょう。今すぐデータ分析スキルを高めましょう。
+Aspose.Cellsを使ってJavaでピボットテーブルオプションを設定する方法（null値の表示や変更の保存など）を学びましょう。今すぐデータ分析スキルを高めましょう。
 
 ### [Aspose.Cells for Java を使用して Excel でピボット テーブルを作成する方法: 包括的なガイド](./create-pivot-tables-excel-aspose-cells-java/)
 Aspose.Cells for Javaを使用してExcelでピボットテーブルを作成する方法を学びましょう。このステップバイステップガイドでは、ピボットテーブルのセットアップ、データの準備、カスタマイズについて解説します。
@@ -183,6 +185,9 @@ Aspose.Cells for Java を使用して、設定を維持しながらExcelのピ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

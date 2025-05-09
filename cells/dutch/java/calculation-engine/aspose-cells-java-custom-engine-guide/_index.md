@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -233,6 +235,9 @@ Klaar om dieper te duiken? Probeer deze oplossingen vandaag nog in uw projecten 
 Door deze handleiding te volgen, kunt u Aspose.Cells voor Java gebruiken om krachtige, aangepaste rekenengines te creëren die aansluiten op uw unieke zakelijke vereisten. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ Aspose.Cells의 더 많은 기능을 살펴보고 프로젝트를 더욱 향상�
    - Aspose.Cells가 제공하는 스트리밍 기술을 사용하여 데이터를 증분적으로 처리합니다.
 2. **Aspose.Cells를 사용하여 TSV 파일을 다른 형식으로 변환할 수 있나요?**
    - 네, 통합 문서를 XLSX나 CSV 등 다양한 형식으로 쉽게 내보낼 수 있습니다.
-3. **무료 평가판 라이센스의 제한 사항은 무엇입니까?**
+3. **무료 체험판 라이센스의 제한 사항은 무엇입니까?**
    - 무료 평가판 라이선스로 생성된 문서에는 평가 경고가 나타날 수 있습니다.
 4. **Aspose.Cells Java는 실시간 데이터 처리에 적합합니까?**
    - 일괄 처리에는 뛰어나지만 실시간 애플리케이션을 위한 추가 최적화도 고려하세요.
@@ -158,6 +160,9 @@ Aspose.Cells의 더 많은 기능을 살펴보고 프로젝트를 더욱 향상�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

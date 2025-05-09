@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ W tej sekcji pokazano, jak stylizować komórkę, korzystając z różnych opcji
    cell.setStyle(style);
    ```
 ### Porady dotyczące rozwiązywania problemów
-- Sprawdź, czy ścieżki plików są poprawne.
+- Sprawdź, czy ścieżki plików są prawidłowe.
 - Sprawdź, czy Aspose.Cells został prawidłowo dodany do ścieżki kompilacji.
 ## Zastosowania praktyczne
 1. **Automatyzacja generowania raportów**:Szybkie formatowanie i aktualizowanie raportów finansowych przy użyciu dynamicznych danych.
@@ -142,6 +144,9 @@ Gotowy, aby zacząć stylizować swoje arkusze Excela? Spróbuj i odkryj możliw
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

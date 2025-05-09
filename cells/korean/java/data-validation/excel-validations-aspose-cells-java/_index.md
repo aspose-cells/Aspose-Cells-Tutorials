@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ workbook.save(outDir + "/ValidationsSample_out.xlsx");
 수정된 통합 문서가 저장되었습니다.
 ## 실제 응용 프로그램
 Aspose.Cells는 다음을 포함한 다양한 시나리오에서 사용할 수 있습니다.
-1. **비즈니스 보고서에 대한 데이터 검증:** 보고서 전체에서 데이터 무결성 규칙을 자동으로 적용합니다.
+1. **비즈니스 보고서를 위한 데이터 검증:** 보고서 전체에서 데이터 무결성 규칙을 자동으로 적용합니다.
 2. **재무 데이터 관리:** 재무 항목을 검증하여 정확성과 규정 준수를 보장합니다.
 3. **설문조사 데이터 분석:** 일관된 설문조사 응답을 보장하기 위해 검증 규칙을 적용합니다.
 ## 성능 고려 사항
@@ -148,6 +150,9 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서를 로드하고, 워�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

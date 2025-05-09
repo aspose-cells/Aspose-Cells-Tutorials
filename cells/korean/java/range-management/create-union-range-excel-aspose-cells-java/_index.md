@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ dependency 'com.aspose:aspose-cells:25.3'
 Aspose.Cells는 다양한 라이선스 옵션을 제공합니다.
 - **무료 체험**: 제한된 기능으로 라이브러리를 테스트합니다.
 - **임시 면허**: 개발 중에 전체 액세스를 위해 임시 라이센스를 요청하세요.
-- **구입**: 제한 없는 사용을 위한 영구 라이센스를 획득하세요.
+- **구입**: 제한 없는 사용을 위한 영구 라이선스를 획득하세요.
 
 라이선스 파일이 있다면 이를 설정하여 Aspose.Cells 환경을 초기화합니다.
 
@@ -174,6 +176,9 @@ Excel에서 "연합 범위 만들기" 기능을 구현하는 방법을 성공적
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

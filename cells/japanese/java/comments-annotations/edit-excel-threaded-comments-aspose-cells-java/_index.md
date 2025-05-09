@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Excelはコラボレーションとデータ管理に不可欠ですが、スレ
 始める前に、Javaプログラミングの基礎知識を身に付けていることを確認してください。Aspose.Cells for Javaを使用するには、専用のライブラリとツールを使って開発環境を構築してください。
 
 ### 必要なライブラリ
-- **Java 用 Aspose.Cells**: Excel ファイルを操作するのに必要な主要なライブラリ。
+- **Java 用 Aspose.Cells**Excel ファイルを操作するのに必要な主要なライブラリ。
   - Maven 依存関係:
     ```xml
     <dependency>
@@ -162,6 +164,9 @@ Aspose.Cells for Java を使用して Excel のスレッドコメントを編集
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

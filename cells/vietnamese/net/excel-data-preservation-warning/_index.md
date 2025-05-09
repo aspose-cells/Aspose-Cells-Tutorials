@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ dữ liệu Excel và cảnh báo
-linktitle: Bảo vệ dữ liệu Excel và cảnh báo
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách sử dụng Aspose.Cells cho .NET để áp dụng các kỹ thuật bảo quản dữ liệu Excel nâng cao, như bảo quản tiền tố dấu nháy đơn trong ô và chỉ định cảnh báo sắp xếp trong khi sắp xếp.
-weight: 40
-url: /vi/net/excel-data-preservation-warning/
+"description": "Học cách sử dụng Aspose.Cells cho .NET để áp dụng các kỹ thuật bảo quản dữ liệu Excel nâng cao, như bảo quản tiền tố dấu nháy đơn trong ô và chỉ định cảnh báo sắp xếp trong khi sắp xếp."
+"linktitle": "Bảo vệ dữ liệu Excel và cảnh báo"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Bảo vệ dữ liệu Excel và cảnh báo"
+"url": "/vi/net/excel-data-preservation-warning/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ dữ liệu Excel và cảnh báo
@@ -38,9 +40,11 @@ Hướng dẫn này hướng dẫn bạn quy trình chỉ định cảnh báo s�
 Tìm hiểu cách giữ nguyên tiền tố dấu nháy đơn trong ô Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
 ### [Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel](./specify-sort-warning-while-sorting-data-in-excel/)
 Sắp xếp dữ liệu Excel dễ dàng bằng Aspose.Cells cho .NET. Tìm hiểu các chiến lược từng bước để quản lý dữ liệu Excel hiệu quả trong hướng dẫn toàn diện này.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

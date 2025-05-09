@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Door deze tutorial te volgen, heb je geleerd hoe je pagina-eindevoorbeelden in E
 Met deze uitgebreide handleiding bent u goed toegerust om Aspose.Cells voor Java te gebruiken om effectief pagina-eindevoorbeelden mogelijk te maken. Veel plezier met programmeren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

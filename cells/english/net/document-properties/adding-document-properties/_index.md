@@ -8,7 +8,9 @@ url: /net/document-properties/adding-document-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Document Properties in .NET
@@ -77,9 +79,11 @@ Aspose.Cells offers a free trial. For full features, a purchase is required. Che
 You can find comprehensive documentation [here](https://reference.aspose.com/cells/net/).
 ### What if I need help while using Aspose.Cells?
 You can visit the [Aspose support forum](https://forum.aspose.com/c/cells/9) for assistance from their community and support team.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

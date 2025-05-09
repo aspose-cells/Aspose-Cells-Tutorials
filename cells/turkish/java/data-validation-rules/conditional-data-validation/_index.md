@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Koşullu Veri Doğrulaması
@@ -22,7 +24,7 @@ Koşullu veri doğrulamasının ayrıntılarına dalmadan önce, Java için Aspo
 
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Java kütüphanesi için Aspose.Cells. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/java/).
 
 ## Adım 1: Yeni bir Java Projesi Oluşturun
@@ -52,7 +54,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## Adım 4: Doğrulama Kriterlerini Tanımlayın
 
-Koşullu veri doğrulaması, belirli hücrelerdeki veriler için ölçütler ayarlamayı içerir. Örneğin, bir hücredeki girdiyi 1 ile 100 arasında bir sayı olacak şekilde sınırlamak isteyebilirsiniz. Bu tür ölçütleri şu şekilde tanımlayabilirsiniz:
+Koşullu veri doğrulaması, belirli hücrelerdeki veriler için ölçütler belirlemeyi içerir. Örneğin, bir hücredeki girdiyi 1 ile 100 arasında bir sayı olacak şekilde sınırlamak isteyebilirsiniz. Bu tür ölçütleri şu şekilde tanımlayabilirsiniz:
 
 ```java
 DataValidation dataValidation = worksheet.getValidations().addDataValidation("A1:A10", DataValidationType.WHOLE, DataValidationOperator.BETWEEN, "1", "100");
@@ -116,6 +118,7 @@ Java için Aspose.Cells güçlü veri doğrulama özellikleri sağlasa da, karma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

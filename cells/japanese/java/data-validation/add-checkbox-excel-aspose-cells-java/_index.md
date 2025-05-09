@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,7 +196,7 @@ public class Main {
 
 ## パフォーマンスに関する考慮事項
 
-- **ワークブックサイズの最適化**コントロールとスタイルを最小化して、ブックを軽量に保ちます。
+- **ワークブックのサイズの最適化**コントロールとスタイルを最小化して、ブックを軽量に保ちます。
 - **メモリ管理**不要になったオブジェクトを破棄してメモリ リソースを解放します。
 - **効率的なデータ処理**可能な場合は、セルごとにデータを処理するのではなく、一括操作を使用します。
 
@@ -223,6 +225,9 @@ public class Main {
 - 共有環境でチェックボックスを使用する場合は、適切な権限を確保し、意図しない変更を防ぐために特定のセルをロックすることを検討してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

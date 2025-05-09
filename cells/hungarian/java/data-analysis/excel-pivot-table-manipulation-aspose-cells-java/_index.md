@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Adja hozzá a következő függőséget a `pom.xml` fájl:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencbeszerzés lépései:
+#### Licenc megszerzésének lépései:
 - **Ingyenes próbaverzió:** Tölts le egy ingyenes próbaverziót az Aspose.Cells funkcióinak teljes körű felfedezéséhez.
 - **Ideiglenes engedély:** Szerezzen be egy ideiglenes értékelési engedélyt a [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás:** Fontolja meg egy teljes licenc megvásárlását hosszú távú használatra.
@@ -205,10 +207,13 @@ Készen állsz mélyebbre merülni? Látogass el a [Aspose dokumentáció](https
 5. **Használhatom az Aspose.Cells-t más Java keretrendszerekkel, például a Spring Boot-tal?**
    - Abszolút! Jól integrálható különféle Java környezetekbe és keretrendszerekbe.
 
-Fedezzen fel többet itt: [Az Aspose hivatalos forrásai](https://releases.aspose.com/cells/java/) és ha segítségre van szükséged, ne habozz megkérdezni a közösséget az [támogatási fórum](https://forum.aspose.com/c/cells/9)Jó kódolást!
+Fedezzen fel többet itt: [Az Aspose hivatalos forrásai](https://releases.aspose.com/cells/java/) és ha segítségre van szükséged, ne habozz megkérdezni a közösséget az [támogató fórum](https://forum.aspose.com/c/cells/9)Jó kódolást!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

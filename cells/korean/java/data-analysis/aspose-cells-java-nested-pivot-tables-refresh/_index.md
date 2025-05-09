@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ public class Main {
         // Java 버전용 Aspose.Cells 표시
         System.out.println("Aspose.Cells Version: " + CellsHelper.getVersion());
         
-        // 여기에 코드 논리가 있습니다...
+        // 여기에 코드 로직이 있습니다...
     }
 }
 ```
@@ -201,6 +203,9 @@ Java에서 Aspose.Cells를 최적으로 사용하려면:
 이 포괄적인 가이드를 따라 하면 Aspose.Cells for Java를 사용하여 복잡한 Excel 데이터 관리 작업을 처리하는 데 필요한 역량을 갖추게 될 것입니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

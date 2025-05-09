@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Ladda endast nödvändiga kalkylblad eller använd strömmande API:er för at
 A:** Se till att korrekta index och positioner är inställda för att undvika beräkningsfel. Testa alltid dina konfigurationer med exempeldata innan du tillämpar dem på produktionsarbetsböcker.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

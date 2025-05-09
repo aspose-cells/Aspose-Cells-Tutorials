@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Domine tabelas e dados estruturados do Excel com nossos tutoriais detalhados do Aspose.Cells para desenvolvedores Java. Estes guias passo a passo demonstram como criar e personalizar tabelas do Excel, implementar intervalos nomeados, trabalhar com referências estruturadas e gerenciar dados tabulares com eficiência. Cada tutorial fornece exemplos práticos de código Java que mostram como aproveitar a funcionalidade de tabela do Excel para aplicativos de planilha mais fáceis de manter e poderosos, com estruturas de dados claramente organizadas.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de tabelas e referências estruturadas
 - Implementação passo a passo com exemplos de código completos
@@ -66,6 +68,9 @@ Aprenda a usar o Aspose.Cells com Java para identificar e manipular células den
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

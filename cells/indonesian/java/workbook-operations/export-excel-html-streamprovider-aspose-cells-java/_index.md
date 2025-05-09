@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengekspor File Excel ke HTML Menggunakan IStreamProvider & Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengekspor file Excel sebagai HTML secara efisien menggunakan Java? `Aspose.Cells` perpustakaan menawarkan solusi yang ampuh. Panduan ini akan memandu Anda dalam menerapkan `IStreamProvider` antarmuka dengan `Aspose.Cells` dalam Java, yang memungkinkan Anda mengonversi berkas Excel ke format HTML dengan mudah.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java
 - Menerapkan IStreamProvider untuk penanganan aliran kustom selama ekspor
 - Mengonfigurasi pengaturan ekspor seperti skrip dan lembar kerja tersembunyi
@@ -25,17 +27,17 @@ Apakah Anda ingin mengekspor file Excel sebagai HTML secara efisien menggunakan 
 
 Sebelum kita mulai, mari kita tinjau prasyarat yang Anda perlukan.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 
-- **Perpustakaan**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: Lingkungan pengembangan Java fungsional (IDE seperti IntelliJ IDEA atau Eclipse).
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan alat pembangun Maven atau Gradle.
+- **Könyvtárak**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**: Lingkungan pengembangan Java fungsional (IDE seperti IntelliJ IDEA atau Eclipse).
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan alat pembangun Maven atau Gradle.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi
+### Telepítési információk
 
 **Pakar**
 ```xml
@@ -51,14 +53,14 @@ Untuk mengikuti tutorial ini, pastikan Anda memiliki:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk mulai menggunakan Aspose.Cells, Anda dapat:
-- Mendapatkan **uji coba gratis** untuk menjelajahi fungsionalitasnya.
-- Meminta **lisensi sementara** untuk tujuan evaluasi tanpa batasan.
+- Szerezzen be egy **ingyenes próba** untuk menjelajahi fungsionalitasnya.
+- Meminta **ideiglenes engedély** untuk tujuan evaluasi tanpa batasan.
 - Beli lisensi penuh jika Anda memutuskan untuk mengintegrasikannya ke dalam lingkungan produksi Anda.
 
-### Inisialisasi dan Pengaturan
+### Inicializálás és beállítás
 
 Berikut cara menginisialisasi `Workbook` objek dengan Aspose.Cells:
 
@@ -73,11 +75,11 @@ public class AsposeInit {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Tinjauan Umum Implementasi IStreamProvider
 
-Itu `IStreamProvider` Antarmuka ini memungkinkan Anda menangani aliran selama proses ekspor, sehingga memberikan fleksibilitas dalam cara data diproses dan disimpan. Fitur ini penting untuk menyesuaikan format output atau mengintegrasikan dengan sistem lain.
+A `IStreamProvider` Antarmuka ini memungkinkan Anda menangani aliran selama proses ekspor, sehingga memberikan fleksibilitas dalam cara data diproses dan disimpan. Fitur ini penting untuk menyesuaikan format output atau mengintegrasikan dengan sistem lain.
 
 #### Menyiapkan Penyedia Streaming
 
@@ -128,9 +130,9 @@ Itu `IStreamProvider` Antarmuka ini memungkinkan Anda menangani aliran selama pr
 
 3. **Konfigurasikan Pengaturan Ekspor**
 
-    Terapkan metode seperti `setExportFrameScriptsAndProperties`Bahasa Indonesia: `setPresentationPreference` dll., untuk mengonfigurasikan bagaimana perilaku ekspor HTML Anda.
+    Terapkan metode seperti `setExportFrameScriptsAndProperties`, `setPresentationPreference` dll., untuk mengonfigurasikan bagaimana perilaku ekspor HTML Anda.
 
-#### Opsi Konfigurasi Utama
+#### Kulcskonfigurációs beállítások
 
 - **Ekspor Skrip dan Properti Bingkai**: Mengontrol apakah skrip dan properti disertakan dalam HTML yang diekspor.
   
@@ -148,37 +150,37 @@ Itu `IStreamProvider` Antarmuka ini memungkinkan Anda menangani aliran selama pr
   }
   ```
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
-- Pastikan `dataDir` jalurnya benar dan dapat diakses.
+- Biztosítsa a `dataDir` jalurnya benar dan dapat diakses.
 - Tangani pengecualian dalam metode penulisan aliran untuk menghindari ekspor yang tidak lengkap.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 ### Kasus Penggunaan
 
-1. **Pelaporan Otomatis**: Mengekspor data Excel ke HTML untuk laporan berbasis web.
-2. **Berbagi Data**: Mengirim data yang diformat melalui email atau berbagi di situs web.
-3. **Integrasi dengan Aplikasi Web**: Menyediakan konten dinamis dari spreadsheet dalam aplikasi web.
+1. **Automatizált jelentéskészítés**: Mengekspor data Excel ke HTML untuk laporan berbasis web.
+2. **Adatmegosztás**: Mengirim data yang diformat melalui email atau berbagi di situs web.
+3. **Integráció webes alkalmazásokkal**: Menyediakan konten dinamis dari spreadsheet dalam aplikasi web.
 4. **Pembuatan Template**: Membuat templat HTML yang diisi dengan data spreadsheet.
 
-### Kemungkinan Integrasi
+### Integrációs lehetőségek
 
 - Mengintegrasikan file HTML yang diekspor ke platform CMS seperti WordPress.
 - Menggunakan keluaran HTML sebagai bagian dari alur kerja otomatis dengan alat seperti Jenkins atau Travis CI untuk penerapan berkelanjutan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Mengoptimalkan Penggunaan Sumber Daya**Memantau penggunaan memori dan mengoptimalkan penanganan aliran untuk mengelola berkas Excel berukuran besar secara efisien.
+- **Erőforrás-felhasználás optimalizálása**Memantau penggunaan memori dan mengoptimalkan penanganan aliran untuk mengelola berkas Excel berukuran besar secara efisien.
 - **Manajemen Memori Java**: Waspadai pengumpulan sampah Java saat menangani kumpulan data besar di Aspose.Cells. Gunakan kembali objek jika memungkinkan untuk mengurangi overhead.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah membahas cara menerapkan `IStreamProvider` antarmuka menggunakan Aspose.Cells untuk Java guna mengekspor file Excel sebagai HTML secara efisien. Dengan mengonfigurasi berbagai pengaturan dan memahami aplikasi di dunia nyata, Anda dapat meningkatkan kemampuan penanganan data dalam proyek Java.
 
 Untuk mengeksplorasi fitur Aspose.Cells lebih lanjut, pertimbangkan untuk mendalami fungsionalitas yang lebih canggih atau mengintegrasikannya dengan layanan lain.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Untuk apa IStreamProvider digunakan?**
    - Digunakan untuk menangani pemrosesan aliran khusus selama ekspor berkas, memberikan kontrol atas bagaimana dan di mana data ditulis.
@@ -188,19 +190,22 @@ Untuk mengeksplorasi fitur Aspose.Cells lebih lanjut, pertimbangkan untuk mendal
    - Ya, Aspose.Cells mendukung berbagai format file seperti PDF, CSV, dan banyak lagi.
 4. **Apa keuntungan menggunakan Aspose.Cells untuk Java?**
    - Ia menawarkan fungsionalitas yang luas, kinerja tinggi, dan kemudahan penggunaan untuk menangani file Excel dalam aplikasi Java.
-5. **Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+5. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
    - Optimalkan implementasi penyedia aliran Anda untuk mengelola penggunaan memori secara efektif, dan pertimbangkan untuk memproses data dalam potongan jika perlu.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Dapatkan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió igénylése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

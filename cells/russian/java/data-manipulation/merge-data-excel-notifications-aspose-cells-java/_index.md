@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Как реализовать Aspose.Cells Java для слияния данных с уведомлениями
+# Как реализовать Aspose.Cells Java для объединения данных с уведомлениями
 
 ## Введение
 
@@ -222,6 +224,9 @@ public class GetNotificationsWhileMergingData {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

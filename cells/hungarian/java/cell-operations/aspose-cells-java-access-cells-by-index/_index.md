@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,9 +53,9 @@ Az Aspose.Cells Java-beli használatához add hozzá függőségként Maven vagy
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencbeszerzés lépései:
+#### Licenc megszerzésének lépései:
 Az Aspose.Cells különféle licencelési lehetőségeket kínál, beleértve az ingyenes próbaverziót és a teljes vásárlási lehetőségeket.
-- Látogassa meg a [ingyenes próbaoldal](https://releases.aspose.com/cells/java/) a könyvtár letöltéséhez.
+- Látogassa meg a [ingyenes próbaoldal](https://releases.aspose.com/cells/java/) könyvtár letöltéséhez.
 - Ideiglenes, értékelési célú engedélyért látogasson el a következő oldalra: [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 
 #### Alapvető inicializálás és beállítás:
@@ -106,7 +108,7 @@ public class UsingRowAndColumnIndexOfCell {
     public static void main(String[] args) throws Exception {
         // Előző kód...
 
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         // Szerezd meg a Cells gyűjteményt a munkalapról
@@ -151,7 +153,7 @@ Most már megtanultad, hogyan érheted el a cellákat sor- és oszlopindexeik al
 
 ### Következő lépések:
 - Kísérletezzen más munkalapok vagy több cella elérésével.
-- Fedezze fel a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) fejlettebb funkciókért.
+- Fedezze fel a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) a fejlettebb funkciókért.
 
 ### GYIK szekció
 1. **Milyen alternatívái vannak az Aspose.Cells-nek Java-ban?**
@@ -177,6 +179,9 @@ Ennek az oktatóanyagnak a követésével jó úton haladsz az Aspose.Cells Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

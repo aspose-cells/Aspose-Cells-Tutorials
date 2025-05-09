@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 ### 3. Yorumları Yönetin (Özellik Genel Bakışı)
-Örneğin, bir hücreden belirli bir yorumu kaldırarak yorumlara erişip onları düzenleyerek yönetin.
+Örneğin, bir hücreden belirli bir yorumu kaldırarak yorumlara erişip onları değiştirerek yorumları yönetin.
 
 **Adım adım:**
 #### Adım 1: Yorum Sınıflarını İçe Aktar
@@ -172,6 +174,9 @@ Bu eğitimde Excel yorumlarını etkili bir şekilde yönetmek için Java için 
    - Yalnızca gerekli sayfaları yükleyin ve verileri parçalar halinde işleyerek bellek kullanımını optimize edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

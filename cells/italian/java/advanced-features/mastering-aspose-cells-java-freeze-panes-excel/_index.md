@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ workbook.save(outDir + "FreezePanes_out.xls");
 
 ## Considerazioni sulle prestazioni
 - **Ottimizzare l'utilizzo delle risorse**: Gestire la memoria in modo efficiente eliminando gli oggetti non utilizzati con `Workbook.dispose()`.
-- **Gestione efficiente dei file**: Carica solo i fogli necessari se hai a che fare con cartelle di lavoro composte da più fogli.
+- **Gestione efficiente dei file**: Caricare solo i fogli necessari se si gestiscono cartelle di lavoro con più fogli.
 - **Elaborazione parallela**: Per operazioni su larga scala, si consiglia di elaborare più file contemporaneamente utilizzando le utilità simultanee di Java.
 
 ## Conclusione
@@ -143,6 +145,9 @@ Per ulteriori approfondimenti sulle capacità di Aspose.Cells o altre funzionali
 Per ulteriori domande o supporto, visita il [Forum Aspose](https://forum.aspose.com/c/cells/9)Buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-merging-unmerging-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merging and Unmerging Cells in Excel
@@ -26,9 +28,11 @@ In our tutorial on [unmerging merged cells in Excel](./unmerge-merged-cells/), w
 ## Merging and Unmerging Cells in Excel Tutorials
 ### [Unmerge Merged Cells in Excel](./unmerge-merged-cells/)
 Easily unmerge merged cells in Excel using Aspose.Cells for .NET. Follow our step-by-step guide to create better spreadsheets.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

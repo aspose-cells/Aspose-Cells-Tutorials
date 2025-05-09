@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ public class FeatureInstantiateWorkbook {
 
 **Объяснение:**
 - `Workbook()` инициализирует новый файл Excel. 
-- `workbook.getWorksheets().get(0)` открывает первый рабочий лист, который создается по умолчанию.
+- `workbook.getWorksheets().get(0)` открывает первый рабочий лист, созданный по умолчанию.
 
 ### Добавить текстовое поле на рабочий лист и извлечь объект-фигуру
 
@@ -203,6 +205,9 @@ Aspose.Cells можно использовать в различных сцен�
 - [Купить лицензию](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

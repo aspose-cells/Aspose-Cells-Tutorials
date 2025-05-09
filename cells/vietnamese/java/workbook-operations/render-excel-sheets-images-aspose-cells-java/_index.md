@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,14 +19,14 @@ Bạn có đang gặp khó khăn khi trực quan hóa dữ liệu Excel trong c�
 
 **Những gì bạn sẽ học được:**
 - Tạo và điền một `BufferedImage` trong Java
-- Kết xuất một bảng tính Excel thành ngữ cảnh đồ họa
+- Kết xuất bảng tính Excel thành ngữ cảnh đồ họa
 - Lưu hình ảnh đã kết xuất dưới dạng tệp PNG
 - Tối ưu hóa hiệu suất với Aspose.Cells
 
 Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đầu triển khai các tính năng này.
 ## Điều kiện tiên quyết
 Để làm theo hướng dẫn này, hãy đảm bảo bạn có:
-- **Thư viện bắt buộc:** Thiết lập Maven hoặc Gradle để quản lý sự phụ thuộc.
+- **Thư viện cần thiết:** Thiết lập Maven hoặc Gradle để quản lý sự phụ thuộc.
 - **Thiết lập môi trường:** Bộ công cụ phát triển Java (JDK) được cài đặt và cấu hình trên hệ thống của bạn.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với việc xử lý các tệp trong thư mục.
 ## Thiết lập Aspose.Cells cho Java
@@ -145,6 +147,9 @@ Bạn đã học cách hiển thị các trang tính Excel dưới dạng hình 
 Với các công cụ và mẹo này, bạn đang trên đường thành thạo việc hiển thị bảng tính Excel trong Java với Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

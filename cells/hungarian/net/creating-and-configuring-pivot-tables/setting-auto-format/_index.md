@@ -1,105 +1,109 @@
 ---
-title: A kimutatástábla automatikus formátumának programozott beállítása .NET-ben
-linktitle: A kimutatástábla automatikus formátumának programozott beállítása .NET-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a részletes, lépésenkénti oktatóanyagból megtudhatja, hogyan állíthatja be programozottan az Excel kimutatástábláinak automatikus formátumát az Aspose.Cells for .NET használatával.
-weight: 18
-url: /hu/net/creating-and-configuring-pivot-tables/setting-auto-format/
+"description": "Ebben a részletes, lépésről lépésre bemutató útmutatóban megtudhatja, hogyan állíthatja be az Excel pivot táblázatok automatikus formázását programozottan az Aspose.Cells for .NET használatával."
+"linktitle": "Pivot tábla automatikus formátumának beállítása programozottan .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pivot tábla automatikus formátumának beállítása programozottan .NET-ben"
+"url": "/hu/net/creating-and-configuring-pivot-tables/setting-auto-format/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A kimutatástábla automatikus formátumának programozott beállítása .NET-ben
+# Pivot tábla automatikus formátumának beállítása programozottan .NET-ben
 
 ## Bevezetés
-Amikor az adatok elemzéséről van szó, az Excel pivot táblái megváltoztathatják a játékot. Lehetővé teszik az adatok dinamikus összegzését és elemzését, így olyan betekintést nyerhet, amelyet szinte lehetetlen manuálisan kinyerni. De mi van akkor, ha automatizálni szeretné a pivot táblák formázását a .NET-ben? Itt megmutatom, hogyan állíthatja be programozottan a pivot tábla automatikus formátumát a hatékony Aspose.Cells .NET könyvtár használatával.
-Ebben az útmutatóban megvizsgáljuk a lényeget, végigjárjuk az előfeltételeket, importáljuk a szükséges csomagokat, majd belevágunk egy lépésről lépésre bemutatott oktatóanyagba, amellyel profi módon formázhatja a pivot táblázatokat. Jól hangzik? Egyből ugorjunk be!
+Az adatok elemzése terén az Excelben található pivot táblák gyökeresen megváltoztathatják a játékszabályokat. Lehetővé teszik az adatok dinamikus összegzését és elemzését, így olyan információkhoz juthat, amelyeket manuálisan szinte lehetetlen lenne kinyerni. De mi van akkor, ha automatizálni szeretné a pivot táblák formázásának folyamatát .NET-ben? Itt bemutatom, hogyan állíthatja be programozottan egy pivot tábla automatikus formátumát a hatékony Aspose.Cells .NET könyvtár segítségével.
+Ebben az útmutatóban megismerkedünk a lényegekkel, végigvezetjük az előfeltételeken, importáljuk a szükséges csomagokat, majd belemerülünk egy lépésről lépésre bemutatóba, amely segít elsajátítani a pivot táblák formázását, mint egy profi. Jól hangzik? Akkor vágjunk bele!
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy mindennel rendelkezik, ami az induláshoz szükséges:
-1. .NET fejlesztői környezet: Győződjön meg arról, hogy rendelkezik a Visual Studio (vagy bármely .NET-t támogató IDE) működő példányával.
-2.  Aspose.Cells Library: Az Excel-fájlok zökkenőmentes használatához telepítenie kell az Aspose.Cells könyvtárat. Ha még nem tette meg, megragadhatja a[letöltési oldal](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismerete: A C# programozás ismerete segít a lépések jobb megértésében.
-4.  Excel-fájl (sablon): Kezdésként szüksége lesz egy Excel-sablonfájlra, amelyet a példánkban dolgozunk fel. Az egyszerűség kedvéért létrehozhat egy mintafájlt, melynek neve`Book1.xls`.
+Mielőtt belekezdenénk, győződjünk meg róla, hogy minden megvan, amire szükséged van a kezdéshez:
+1. .NET fejlesztői környezet: Győződjön meg róla, hogy rendelkezik egy működő Visual Studio példánynal (vagy bármilyen .NET-et támogató IDE-vel).
+2. Aspose.Cells könyvtár: Az Excel-fájlokkal való zökkenőmentes munkához telepítenie kell az Aspose.Cells könyvtárat. Ha még nem tette meg, letöltheti innen: [letöltési oldal](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a lépéseket.
+4. Excel fájl (sablon): Kezdésként szüksége lesz egy Excel sablonfájlra, amelyet a példánkban feldolgozunk. Az egyszerűség kedvéért létrehozhat egy nevű mintafájlt. `Book1.xls`.
 ## Csomagok importálása
-Az Aspose.Cells használatához a projektben importálnia kell a szükséges csomagokat. A következőképpen állíthatja be ezt a .NET-projektben:
-### Hozzon létre egy új projektet
-Kezdje egy új .NET-projekt létrehozásával a kívánt IDE-ben. 
+Ahhoz, hogy elkezdhesd használni az Aspose.Cells-t a projektedben, importálnod kell a szükséges csomagokat. Így állíthatod be ezt a .NET projektedben:
+### Új projekt létrehozása
+Kezdésként hozz létre egy új .NET projektet a kívánt IDE-ben. 
 ### Referenciák hozzáadása
-Ügyeljen arra, hogy adjon hivatkozást az Aspose.Cells könyvtárra. Ha letöltötte a könyvtárat, adja hozzá a DLL-eket a kicsomagolásból. Ha NuGetet használ, egyszerűen futtassa:
+Feltétlenül adj hozzá egy hivatkozást az Aspose.Cells könyvtárra. Ha letöltötted a könyvtárat, add hozzá a kicsomagolt DLL-eket. Ha NuGet-et használsz, egyszerűen futtathatod a következőt:
 ```bash
 Install-Package Aspose.Cells
 ```
 ### Névterek importálása
-Most a kódfájlban importálnia kell az Aspose.Cells névteret. Ezt úgy teheti meg, hogy hozzáadja a következő sort a C# fájl tetejéhez:
+Most a kódfájlodba importálnod kell az Aspose.Cells névteret. Ezt úgy teheted meg, hogy a következő sort adod hozzá a C# fájlod elejéhez:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 using Aspose.Cells.Pivot;
 ```
-A lépések elvégzése után készen áll egy kód írására!
-Most bontsuk le az Ön által megadott kódot részletes lépésekre, az egyes részek működésének magyarázatával. 
-## 1. lépés: Határozza meg a dokumentumkönyvtárat
-Kezdésként be kell állítania annak a dokumentumkönyvtárnak az elérési útját, ahol az Excel-fájlok találhatók. Példánkban a következőképpen fogjuk meghatározni:
+Ha ezekkel a lépésekkel elkészültél, készen állsz a kód írására!
+Most bontsuk le a megadott kódot részletes lépésekre, magyarázatokkal arról, hogy mit csinálnak az egyes részek. 
+## 1. lépés: Dokumentumkönyvtár meghatározása
+Kezdésként be kell állítania a dokumentumok könyvtárának elérési útját, ahol az Excel-fájljai találhatók. Példánkban így definiáljuk:
 ```csharp
 string dataDir = "Your Document Directory";  // Szükség szerint módosítsa
 ```
- Ez a sor karakterlánc-változót hoz létre`dataDir`amely tartalmazza a dokumentumok elérési útját. Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a rendszer tényleges elérési útjával.
+Ez a sor egy karakterláncváltozót hoz létre `dataDir` amely a dokumentumok fájlelérési útját tartalmazza. Ügyeljen arra, hogy kicserélje `"Your Document Directory"` a rendszeren található tényleges elérési úttal.
 ## 2. lépés: Töltse be a sablonfájlt
-Ezután be kell töltenie egy meglévő munkafüzetet, amely tartalmazza a pivot táblát:
+Ezután be kell töltenie egy meglévő munkafüzetet, amely tartalmazza a pivot táblázatot:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Ez a sor inicializál egy újat`Workbook` objektumot a megadott Excel fájl betöltésével. A fájlnak legalább egy pivot táblát kell tartalmaznia, hogy a következő lépések hatékonyak legyenek.
+Ez a sor inicializál egy új `Workbook` objektum a megadott Excel fájl betöltésével. A fájlnak legalább egy pivot táblázatot kell tartalmaznia ahhoz, hogy a további lépések hatékonyak legyenek.
 ## 3. lépés: Nyissa meg a kívánt munkalapot
-Határozza meg, melyik munkalapon kell dolgoznia a pivot tábla eléréséhez. Ebben az esetben csak az elsőt kapjuk:
+Határozza meg, melyik munkalapon kell dolgoznia a pivot tábla eléréséhez. Ebben az esetben csak az elsőt fogjuk használni:
 ```csharp
-int pivotIndex = 0;  // A Pivot Table indexe
+int pivotIndex = 0;  // A kimutatástábla indexe
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Itt,`worksheet` lekéri az első munkalapot a munkafüzetből. A kimutatástábla indexe a következőre van állítva`0`, ami azt jelenti, hogy a munkalap első pivot tábláját érjük el.
-## 4. lépés: Keresse meg a Pivot Table-t
-Amikor a munkalap készen áll, ideje elérni a kimutatástáblázatot:
+Itt, `worksheet` lekéri az első munkalapot a munkafüzetből. A pivot tábla indexe erre van beállítva: `0`, ami azt jelenti, hogy az adott munkalap első pivottábláját érjük el.
+## 4. lépés: A pivottábla megkeresése
+Miután elkészült a munkalap, itt az ideje, hogy hozzáférjünk a pivot táblához:
 ```csharp
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 ```
- Ez inicializál egy újat`PivotTable` objektumot úgy, hogy a munkalapról lekéri a pivot táblát a megadott indexen.
-## 5. lépés: Állítsa be az Automatikus formátum tulajdonságot
-Most térjünk rá a lédús részre: állítsa be a pivot táblázat automatikus formázási beállításait.
+Ez inicializál egy új `PivotTable` objektum a munkalap megadott indexű pivot táblájának lekérésével.
+## 5. lépés: Az automatikus formázás tulajdonságának beállítása
+Most pedig térjünk át a lényegre: a pivot tábla automatikus formázási beállításainak megadása.
 ```csharp
 pivotTable.IsAutoFormat = true; // Automatikus formázás engedélyezése
 ```
- Ez a sor lehetővé teszi a pivot tábla automatikus formázását. Amikor be van állítva`true`, a pivot tábla automatikusan formázza magát az előre meghatározott stílusok alapján.
-## 6. lépés: Válasszon egy adott automatikus formátumtípust
-Azt is szeretnénk megadni, hogy a pivot tábla melyik automatikus formázási stílust alkalmazza. Az Aspose.Cells különféle formátumokkal rendelkezik, amelyek közül választhatunk. A következőképpen állíthatja be:
+Ez a sor engedélyezi a pivot tábla automatikus formázási funkcióját. Ha a következőre van beállítva: `true`, a pivottábla automatikusan formázza magát az előre definiált stílusok alapján.
+## 6. lépés: Válasszon ki egy adott automatikus formátumtípust
+Azt is meg kell adnunk, hogy a pivot tábla melyik automatikus formázási stílust alkalmazza. Az Aspose.Cells számos formátum közül választhatunk. Így állíthatjuk be:
 ```csharp
 pivotTable.AutoFormatType = Aspose.Cells.Pivot.PivotTableAutoFormatType.Report5;
 ```
- Ezzel a sorral egy adott automatikus formátumtípust rendelünk a pivot táblához.`Report5` csak egy példa egy stílusra; igényeinek megfelelően többféle lehetőség közül választhat. 
-## 7. lépés: Mentse el a munkafüzetet
-Végül ne felejtse el menteni a munkafüzetet az összes módosítás után:
+Ezzel a sorral egy adott automatikus formátumtípust rendelünk a pivot táblához. `Report5` csak egy példa egy stílusra; igényeidtől függően számos lehetőség közül választhatsz. 
+## 7. lépés: A munkafüzet mentése
+Végül ne felejtsd el menteni a munkafüzetedet az összes módosítás elvégzése után:
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
- Ez a kódsor a módosított munkafüzetet egy új, nevű fájlba menti`output.xls` a megadott könyvtárban. A gyönyörűen formázott pivot táblázat megtekintéséhez feltétlenül ellenőrizze ezt a fájlt!
+Ez a kódsor a módosított munkafüzetet egy új fájlba menti, melynek neve: `output.xls` a megadott könyvtárban. Ellenőrizd ezt a fájlt, hogy lásd a szépen formázott pivot táblázatodat!
 ## Következtetés
-Gratulálok! Ön éppen most programozott egy Excel pivot táblát automatikus formátumra az Aspose.Cells segítségével a .NET-ben. Ez a folyamat nemcsak időt takarít meg a jelentések elkészítésekor, hanem biztosítja az adatok konzisztenciáját minden futtatáskor. Néhány sornyi kóddal jelentősen javíthatja Excel-fájljait – akár egy digitális bűvész.
+Gratulálunk! Épp most programoztál egy Excel pivot táblázatot automatikus formázásra az Aspose.Cells használatával .NET-ben. Ez a folyamat nemcsak időt takarít meg a jelentések elkészítésekor, hanem biztosítja az adatok konzisztenciáját minden futtatáskor. Mindössze néhány sornyi kóddal jelentősen javíthatod az Excel fájljaidat – akár egy digitális varázsló.
 ## GYIK
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy hatékony .NET-könyvtár az Excel-fájlok kezeléséhez anélkül, hogy a Microsoft Excel telepítése szükséges lenne.
-### Formázhatok több pivot táblát egy munkafüzetben?
-Igen, a munkafüzeten belül több pivot table objektumon keresztül is formázza őket egyenként.
-### Létezik ingyenes próbaverzió az Aspose.Cells számára?
- Teljesen! Kezdheti egy ingyenes próbaverzióval[itt](https://releases.aspose.com/).
-### Mi a teendő, ha a kimutatástáblám formázása nem megfelelő?
-Győződjön meg arról, hogy a pivot táblára megfelelően hivatkozik, és létezik az automatikus formázás típusa – ellenkező esetben előfordulhat, hogy visszaáll az alapértelmezett beállításokra.
+Az Aspose.Cells egy hatékony .NET függvénykönyvtár, amely Excel fájlok kezelésére szolgál a Microsoft Excel telepítése nélkül.
+### Formázhatok több kimutatástáblát egy munkafüzetben?
+Igen, a munkafüzetben több kimutatástábla-objektumot is végig lehet vinni, hogy egyenként formázza őket.
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Természetesen! Ingyenes próbaverzióval kezdheted [itt](https://releases.aspose.com/).
+### Mi van, ha a pivot táblázatom formázása nem megfelelő?
+Győződjön meg arról, hogy a pivot táblára helyesen van hivatkozva, és az automatikus formázási típus létezik – ellenkező esetben előfordulhat, hogy a rendszer visszaáll az alapértelmezett beállításokra.
 ### Automatizálhatom ezt a folyamatot ütemezett feladatokkal?
-Igen! Ha ezt a kódot beépíti egy ütemezett feladatba, akkor rendszeresen automatizálhatja a jelentések létrehozását és formázását.
+Igen! Ha ezt a kódot beépíti egy ütemezett feladatba, akkor rendszeresen automatizálhatja a jelentések generálását és formázását.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

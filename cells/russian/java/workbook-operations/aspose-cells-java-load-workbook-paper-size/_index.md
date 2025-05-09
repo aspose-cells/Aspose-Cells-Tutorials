@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ Aspose.Cells для Java можно интегрировать в различн
 
 ## Соображения производительности
 При работе с Aspose.Cells для Java:
-- **Оптимизируйте использование ресурсов**: Минимизируйте объем используемой памяти, закрывая книги, когда они больше не нужны.
+- **Оптимизация использования ресурсов**: Минимизируйте объем используемой памяти, закрывая книги, когда они больше не нужны.
 - **Управление памятью Java**Используйте эффективные структуры данных и избегайте создания ненужных объектов для эффективного управления сборкой мусора Java.
 - **Лучшие практики**: Регулярно обновляйте Aspose.Cells до последней версии для повышения производительности и получения новых функций.
 
@@ -165,6 +167,9 @@ Aspose.Cells для Java можно интегрировать в различн
 - [Форум поддержки Aspose](https://forum.aspose.com/categories/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

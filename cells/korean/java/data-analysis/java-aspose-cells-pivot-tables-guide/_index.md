@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,7 +186,7 @@ pivotField.setBaseItemPosition(PivotItemPosition.NEXT);
 
 #### 개요
 
-이 기능을 사용하면 피벗 테이블의 데이터 필드에 통화나 백분율 서식과 같은 특정 숫자 서식 스타일을 적용할 수 있습니다.
+이 기능을 사용하면 피벗 테이블의 데이터 필드에 통화 또는 백분율 서식과 같은 특정 숫자 서식 스타일을 적용할 수 있습니다.
 
 ```java
 pivotField.setNumber(10);  // 미리 정의된 형식(예: 통화 또는 백분율)을 적용합니다.
@@ -201,7 +203,7 @@ pivotField.setNumber(10);  // 미리 정의된 형식(예: 통화 또는 백분�
 
 ## 성능 고려 사항
 
-- **메모리 사용 최적화**: 대용량 Excel 파일로 작업할 때는 필요한 워크시트와 피벗 테이블만 로드합니다.
+- **메모리 사용 최적화**: 대용량 Excel 파일로 작업할 때 필요한 워크시트와 피벗 테이블만 로드합니다.
 - **효율적인 데이터 조작**: 데이터 필드에 대한 루프 내에서 작업을 최소화하여 처리 시간을 줄입니다.
 - **Aspose.Cells 기능 활용**: 서식 지정과 같은 일반적인 작업에 대한 기본 제공 메서드를 활용하여 성능을 최적화합니다.
 
@@ -218,6 +220,9 @@ A: 필요한 워크시트만 로드하거나 스트리밍 API를 사용하여 �
 에이:** 계산 오류를 방지하려면 올바른 인덱스와 위치가 설정되어 있는지 확인하십시오. 프로덕션 통합 문서에 적용하기 전에 항상 샘플 데이터로 구성을 테스트하십시오.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

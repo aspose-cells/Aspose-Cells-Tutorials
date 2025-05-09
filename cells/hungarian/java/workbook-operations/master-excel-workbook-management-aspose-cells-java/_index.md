@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ A `save` metódus fájlba írja a munkafüzetet, megőrizve az összes módosít
 Az útmutató követésével elsajátíthatja az Excel-munkafüzetek programozott kezelésének képességeit az Aspose.Cells for Java használatával. Ez a hatékony eszköz leegyszerűsíti az összetett feladatokat és növeli az Excel-fájlok kezelésének termelékenységét. Fedezze fel folyamatosan a funkcióit, hogy tovább javíthassa adatkezelési munkafolyamatait.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

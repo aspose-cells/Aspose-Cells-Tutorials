@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Excelデータの操作は、特定のセル範囲をプログラムで選択す
 - プロジェクトにAspose.Cells for Javaを設定する
 - Java を使用してワークブックとワークシートをインスタンス化する
 - ワークシート内の特定のセル範囲を選択する
-- 変更を Excel ファイルに保存する
+- 変更をExcelファイルに保存する
 
 このチュートリアルでは、Javaプログラミングの基礎知識とExcelファイルの使用経験があることを前提としています。まずは前提条件を確認しましょう。
 
@@ -148,6 +150,9 @@ Java メモリ管理のベスト プラクティスに従うことで、Aspose.C
 Aspose.Cells for Java を使用して Excel 操作をマスターし、データ駆動型アプリケーションの潜在能力を最大限に引き出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

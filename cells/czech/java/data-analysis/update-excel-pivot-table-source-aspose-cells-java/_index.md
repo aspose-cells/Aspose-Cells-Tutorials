@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ V této příručce jste se naučili, jak změnit zdrojová data kontingenční 
 S těmito zdroji a tímto komplexním průvodcem jste nyní vybaveni k efektivnímu zpracování změn zdrojových dat kontingenčních tabulek pomocí Aspose.Cells v Javě. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

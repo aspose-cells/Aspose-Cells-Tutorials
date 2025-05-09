@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aspose.Cells for Java를 사용하여 일관된 테두리 스타일을 적용한 Excel 파일을 HTML로 내보내는 방법을 알아보세요. 이 가이드를 따라 고급 저장 옵션을 구성하고 구현하세요."
+"description": "Aspose.Cells for Java를 사용하여 일관된 테두리 스타일을 적용한 Excel 파일을 HTML로 내보내는 방법을 알아보세요. 이 가이드에 따라 고급 저장 옵션을 구성하고 구현하세요."
 "title": "Java용 Aspose.Cells를 사용하여 테두리 스타일을 유지하면서 Excel을 HTML로 내보내기"
 "url": "/ko/java/workbook-operations/aspose-cells-java-export-excel-html-border-styles/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Aspose.Cells for Java를 사용하여 일관된 테두리 스타일을 적용한
 - **구입**: 라이센스를 구매하세요 [Aspose 구매 페이지](https://purchase.aspose.com/temporary-license/) 장기간 사용을 위해.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

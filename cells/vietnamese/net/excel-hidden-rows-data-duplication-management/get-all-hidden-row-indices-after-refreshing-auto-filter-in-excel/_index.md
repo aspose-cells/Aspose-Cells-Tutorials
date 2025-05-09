@@ -1,14 +1,16 @@
 ---
-title: Nhận chỉ mục hàng ẩn sau khi làm mới bộ lọc tự động trong Excel
-linktitle: Nhận chỉ mục hàng ẩn sau khi làm mới bộ lọc tự động trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách lấy chỉ mục hàng ẩn sau khi làm mới Bộ lọc tự động trong Excel bằng Aspose.Cells cho .NET. Đơn giản hóa việc quản lý dữ liệu của bạn.
-weight: 10
-url: /vi/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/
+"description": "Khám phá cách lấy chỉ mục hàng ẩn sau khi làm mới Bộ lọc tự động trong Excel bằng Aspose.Cells cho .NET. Đơn giản hóa việc quản lý dữ liệu của bạn."
+"linktitle": "Nhận chỉ mục hàng ẩn sau khi làm mới bộ lọc tự động trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Nhận chỉ mục hàng ẩn sau khi làm mới bộ lọc tự động trong Excel"
+"url": "/vi/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận chỉ mục hàng ẩn sau khi làm mới bộ lọc tự động trong Excel
@@ -27,16 +29,16 @@ Trước khi bắt đầu viết mã, bạn cần lưu ý một số điều ki�
 
 ### Thiết lập môi trường phát triển của bạn
 
-1.  Cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Bạn có thể tải xuống từ[Trang web Visual Studio](https://visualstudio.microsoft.com/).
+1. Cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Bạn có thể tải xuống từ [Trang web Visual Studio](https://visualstudio.microsoft.com/).
 
 2. .NET Framework: Bạn sẽ cần phiên bản .NET Framework hoặc .NET Core tương thích. Thư viện này hoạt động tốt với cả hai nền tảng.
 
-3.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells từ[liên kết này](https://releases.aspose.com/cells/net/). Ngoài ra, bạn có thể cài đặt nó thông qua NuGet. Chỉ cần mở Package Manager Console và chạy:
+3. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells từ [liên kết này](https://releases.aspose.com/cells/net/). Ngoài ra, bạn có thể cài đặt nó thông qua NuGet. Chỉ cần mở Package Manager Console và chạy:
 ```
 Install-Package Aspose.Cells
 ```
 
-4.  Tệp Excel mẫu: Chuẩn bị một tệp Excel mẫu có tên`sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` để thử nghiệm. Đảm bảo bao gồm một số dữ liệu có thể lọc được.
+4. Tệp Excel mẫu: Chuẩn bị một tệp Excel mẫu có tên `sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` để thử nghiệm. Đảm bảo bao gồm một số dữ liệu có thể lọc được.
 
 ## Nhập gói
 
@@ -72,7 +74,7 @@ Tiếp theo, chúng ta cần tải tệp Excel của bạn vào một đối tư
 Workbook wb = new Workbook(sourceDir + "sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx");
 ```
 
- Ở đây, chúng tôi đang tạo ra một cái mới`Workbook` đối tượng tải tệp Excel được chỉ định.
+Ở đây, chúng tôi đang tạo ra một cái mới `Workbook` đối tượng tải tệp Excel được chỉ định.
 
 ## Bước 3: Truy cập vào bảng tính mong muốn
 
@@ -129,16 +131,18 @@ Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nh�
 Có! Aspose.Cells có các chức năng tích hợp để áp dụng bộ lọc và làm việc hiệu quả với dữ liệu Excel.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để tiếp tục sử dụng. Kiểm tra[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để tiếp tục sử dụng. Kiểm tra [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/cells/net/).
+Tài liệu đầy đủ có sẵn [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

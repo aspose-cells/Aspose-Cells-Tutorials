@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ for (int i = 0; i < connectionCount; i++) {
 ```
 Этот цикл проверяет, является ли объект `DBConnection` и извлекает соответствующую информацию.
 
-#### Функция 3: Извлечение сведений о параметрах соединения
+#### Функция 3: Извлечение сведений о параметрах подключения
 
 **Обзор:** Здесь вы научитесь получать доступ к подробным параметрам подключения для каждого подключения к базе данных.
 
@@ -195,6 +197,9 @@ for (int i = 0; i < connectionCount; i++) {
 Начните интегрировать и управлять подключениями к данным Excel уже сегодня с помощью Aspose.Cells для Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

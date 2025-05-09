@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Készen állsz fejleszteni a képességeidet? Kezdjük a szükséges előfeltét
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+Kezdés előtt győződjön meg róla, hogy rendelkezik a következőkkel:
 
 ### Szükséges könyvtárak és verziók:
 - **Aspose.Cells Java-hoz**: 25.3-as vagy újabb verzió.
@@ -152,6 +154,9 @@ Készen állsz arra, hogy ezeket a készségeket a következő projektedben is a
 Ezzel az átfogó útmutatóval most már képes leszel nagy Excel fájlokat kezelni, mint egy profi az Aspose.Cells for Java segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

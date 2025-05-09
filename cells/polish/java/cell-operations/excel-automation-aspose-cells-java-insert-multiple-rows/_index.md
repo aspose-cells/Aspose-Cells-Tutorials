@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Aby jeszcze bardziej rozwinąć swoje umiejętności, zapoznaj się z innymi fun
 Wykorzystaj Aspose.Cells dla Javy, aby podnieść poziom swoich zadań związanych z manipulacją danymi z łatwością i wydajnością. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

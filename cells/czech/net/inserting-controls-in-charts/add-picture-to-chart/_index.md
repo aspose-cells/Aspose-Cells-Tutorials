@@ -1,42 +1,44 @@
 ---
-title: Přidat obrázek do grafu
-linktitle: Přidat obrázek do grafu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se snadno přidávat obrázky do grafů aplikace Excel pomocí Aspose.Cells for .NET. Vylepšete své grafy a prezentace v několika jednoduchých krocích.
-weight: 11
-url: /cs/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "Naučte se, jak snadno přidávat obrázky do grafů v Excelu pomocí Aspose.Cells pro .NET. Vylepšete své grafy a prezentace v několika jednoduchých krocích."
+"linktitle": "Přidat obrázek do grafu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Přidat obrázek do grafu"
+"url": "/cs/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Přidat obrázek do grafu
 
 ## Zavedení
 
-Už vás nebaví nudné tabulky, které postrádají osobní nádech? Chcete se naučit, jak okořenit své excelové vizuály přidáním obrázků? Tak to máš štěstí! V tomto tutoriálu se ponoříme do světa Aspose.Cells pro .NET a naučíme se přidávat obrázky do grafů v Excelu. Vezměte si svůj oblíbený šálek kávy a můžeme začít!
+Už vás nebaví nudné grafy, které postrádají osobní nádech? Chcete se naučit, jak oživit vizuály v Excelu přidáním obrázků? Máte štěstí! V tomto tutoriálu se ponoříme do světa Aspose.Cells pro .NET a naučíme se, jak přidávat obrázky do grafů v Excelu. Takže si vezměte svůj oblíbený šálek kávy a pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do hrubky kódování, existuje několik předpokladů, které musíte hladce dodržovat:
+Než se pustíme do detailů kódování, je třeba splnit několik předpokladů, abyste mohli plynule postupovat:
 
-- Visual Studio: Zde budete psát a spouštět svůj kód .NET. Ujistěte se, že jej máte nainstalovaný.
--  Aspose.Cells for .NET: Tuto knihovnu budete potřebovat pro práci se soubory aplikace Excel. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
-- Základní porozumění C#: I když vás provedu kódem, znalost základů C# bude věci jasnější.
+- Visual Studio: Zde budete psát a spouštět kód .NET. Ujistěte se, že ho máte nainstalovaný.
+- Aspose.Cells pro .NET: Tuto knihovnu budete potřebovat pro práci se soubory aplikace Excel. Můžete [stáhněte si to zde](https://releases.aspose.com/cells/net/).
+- Základní znalost C#: I když vás kódem provedu, znalost základů C# vám vše usnadní.
 
 ### Kroky instalace
 
-1. Instalace Aspose.Cells: Aspose.Cells můžete přidat do svého projektu Visual Studio prostřednictvím NuGet Package Manager. Udělejte to tak, že přejdete na Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení a vyhledáte „Aspose.Cells“. Klepněte na tlačítko Instalovat.
+1. Instalace Aspose.Cells: Soubor Aspose.Cells můžete do projektu Visual Studia přidat pomocí Správce balíčků NuGet. To provedete tak, že přejdete do nabídky Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení a vyhledáte „Aspose.Cells“. Klikněte na Instalovat.
 2. Nastavení projektu: Vytvořte nový projekt konzolové aplikace C# ve Visual Studiu.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Jakmile máte vše nastaveno, dalším krokem je import potřebných balíčků do vašeho projektu. Jak na to:
+Jakmile máte vše nastavené, dalším krokem je import potřebných balíčků do vašeho projektu. Zde je návod, jak to udělat:
 
 ### Importujte požadované jmenné prostory
 
-V horní části souboru kódu C# budete muset importovat následující jmenné prostory:
+V horní části souboru s kódem C# budete muset importovat následující jmenné prostory:
 
 ```csharp
 using Aspose.Cells;
@@ -45,13 +47,13 @@ using Aspose.Cells.Drawing;
 using System.IO;
 ```
 
-To říká vašemu programu: „Hej! Budu používat tyto skvělé funkce od Aspose.Cells.“
+Toto říká vašemu programu: „Hej! Použiji tyto skvělé funkce z Aspose.Cells.“
 
-Nyní, když máme připraveny naše předpoklady, pojďme si celý proces rozdělit na malé kroky. 
+Nyní, když máme připravené všechny předpoklady, pojďme si celý proces rozdělit na několik kroků. 
 
 ## Krok 1: Definujte své adresáře
 
-Nejprve musíme nastavit cesty pro naše vstupní a výstupní soubory. Tento krok je zásadní, protože potřebujeme vědět, kde najít náš stávající soubor Excel a kam uložit upravený soubor.
+Nejdříve musíme nastavit cesty pro naše vstupní a výstupní soubory. Tento krok je klíčový, protože potřebujeme vědět, kde najít náš existující soubor Excelu a kam uložit upravený soubor.
 
 ```csharp
 //Zdrojový adresář
@@ -61,43 +63,43 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Nahradit`Your Document Directory` a`Your Output Directory` se skutečnými cestami ve vašem počítači. 
+Nahradit `Your Document Directory` a `Your Output Directory` se skutečnými cestami ve vašem počítači. 
 
-## Krok 2: Načtěte existující sešit
+## Krok 2: Načtení existujícího sešitu
 
-Nyní načteme existující soubor Excel, kam chceme přidat náš obrázek do grafu.
+Nyní si načtěme existující soubor aplikace Excel, kam chceme do grafu přidat náš obrázek.
 
 ```csharp
 // Otevřete existující soubor.
 Workbook workbook = new Workbook(sourceDir + "sampleAddingPictureInChart.xls");
 ```
 
-Tento kód otevře sešit a připraví jej k úpravám.
+Tento kód otevře sešit a připraví ho k úpravám.
 
-## Krok 3: Připravte tok obrázků
+## Krok 3: Příprava obrazového streamu
 
-Před přidáním obrázku si musíme přečíst obrázek, který chceme do grafu vložit. 
+Než přidáme obrázek, musíme si ho přečíst. 
 
 ```csharp
-// Získejte soubor obrázku do streamu.
+// Získejte soubor s obrázkem do streamu.
 FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png", FileMode.Open, FileAccess.Read);
 ```
 
-Ujistěte se, že máte obrázek uložený v určeném adresáři.
+Ujistěte se, že máte obrázek uložený v zadaném adresáři.
 
 ## Krok 4: Zaměřte se na graf
 
-Nyní upřesníme, do kterého grafu přidáme náš obrázek. V tomto příkladu zacílíme na první graf na prvním listu.
+Nyní určíme, do kterého grafu přidáme náš obrázek. V tomto příkladu se zaměříme na první graf na prvním listu.
 
 ```csharp
-// Získejte graf návrháře na druhém listu.
+// Získejte návrhářský graf na druhém listu.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-Přístup k libovolnému listu získáte odpovídající změnou indexu.
+K libovolnému listu se dostanete odpovídající změnou indexu.
 
-## Krok 5: Přidejte obrázek do grafu
+## Krok 5: Přidání obrázku do grafu
 
 S vybraným grafem je čas přidat obrázek! 
 
@@ -106,39 +108,39 @@ S vybraným grafem je čas přidat obrázek!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Zde,`50` a`50` jsou souřadnice X a Y, kam bude obrázek umístěn, a`200` je šířka a výška obrázku.
+Zde, `50` a `50` jsou souřadnice X a Y, kam bude obrázek umístěn, a `200` je šířka a výška obrázku.
 
-## Krok 6: Upravte formát čar obrázku
+## Krok 6: Úprava formátu čar obrázku
 
-Chcete svému obrázku dodat nějaký šmrnc? Můžete si přizpůsobit jeho okraj! Jak na to:
+Chcete svému obrázku dodat trochu šmrncu? Můžete si upravit jeho okraj! Zde je návod, jak to udělat:
 
 ```csharp
-// Získejte typ formátu řádku obrázku.
+// Získá typ řádkového formátu obrázku.
 Aspose.Cells.Drawing.LineFormat lineformat = pic0.Line; 
 
-// Nastavte styl čárky.
+// Nastavte styl pomlčky.
 lineformat.DashStyle = MsoLineDashStyle.Solid;
 
 // Nastavte tloušťku čáry.
 lineformat.Weight = 4;    
 ```
 
-Tento úryvek vám umožňuje vybrat, jak bude okraj vypadat a jak silný bude. Vyberte si jakýkoli styl, který rezonuje s vaší prezentací!
+Tento úryvek vám umožňuje zvolit vzhled a tloušťku okraje. Vyberte si jakýkoli styl, který odpovídá vaší prezentaci!
 
-## Krok 7: Uložte upravený sešit
+## Krok 7: Uložení upraveného sešitu
 
-Po vší té tvrdé práci uložme vaše úpravy provedením následujícího řádku kódu:
+Po vší té tvrdé práci si uložme vaše úpravy spuštěním následujícího řádku kódu:
 
 ```csharp
-// Uložte soubor aplikace Excel.
+// Uložte soubor Excelu.
 workbook.Save(outputDir + "outputAddingPictureInChart.xls");
 ```
 
-Nyní je váš obrázek úspěšně integrován do grafu a váš výstupní soubor je připraven k prohlížení!
+Nyní je váš obrázek úspěšně integrován do grafu a výstupní soubor je připraven k prohlížení!
 
-## Krok 8: Označte úspěch
+## Krok 8: Označení úspěchu
 
-Nakonec můžete přidat jednoduchou zprávu, která potvrdí, že vaše operace byla úspěšná:
+Nakonec můžete přidat jednoduchou zprávu, která potvrdí, že operace proběhla úspěšně:
 
 ```csharp
 Console.WriteLine("AddingPictureInChart executed successfully.");
@@ -146,27 +148,29 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak vnést trochu osobitosti do grafů aplikace Excel přidáním obrázků pomocí Aspose.Cells pro .NET. Pomocí několika jednoduchých kroků můžete své prezentace povýšit ze světských na nezapomenutelné. Tak na co čekáš? Vyzkoušejte to a nechte své žebříčky zářit!
+V tomto tutoriálu jsme prozkoumali, jak dodat vašim excelovým grafům trochu osobitosti přidáním obrázků pomocí Aspose.Cells pro .NET. Stačí jen pár jednoduchých kroků a vaše prezentace se stanou nezapomenutelnými. Tak na co čekáte? Zkuste to a nechte své grafy zazářit!
 
-## FAQ
+## Často kladené otázky
 
-### Mohu přidat více obrázků do jednoho grafu?
- Ano! Můžete zavolat na`AddPictureInChart` vícekrát přidat tolik obrázků, kolik si přejete.
+### Mohu do jednoho grafu přidat více obrázků?
+Ano! Můžete zavolat `AddPictureInChart` metodu několikrát, abyste přidali tolik obrázků, kolik chcete.
 
 ### Jaké formáty obrázků podporuje Aspose.Cells?
-Aspose.Cells podporuje různé formáty obrázků, včetně PNG, JPEG, BMP a GIF.
+Aspose.Cells podporuje různé obrazové formáty, včetně PNG, JPEG, BMP a GIF.
 
-### Mohu upravit polohu obrázku?
- Jistě! Souřadnice X a Y v`AddPictureInChart` metoda umožňuje přesné polohování.
+### Mohu si přizpůsobit polohu obrázku?
+Jistě! Souřadnice X a Y v `AddPictureInChart` metoda umožňuje přesné umístění.
 
 ### Je Aspose.Cells zdarma k použití?
-Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plné funkce je vyžadována licence. Cenu najdete[zde](https://purchase.aspose.com/buy).
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro plné funkce je vyžadována licence. Ceník naleznete [zde](https://purchase.aspose.com/buy).
 
 ### Kde najdu další příklady?
- Podívejte se na[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobnější příklady a funkce.
+Podívejte se na [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobnější příklady a funkce.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 - **자바 개발 키트(JDK)**: 버전 8 이상.
 - **통합 개발 환경(IDE)** IntelliJ IDEA나 Eclipse와 같은 것.
 - Java 프로그래밍에 대한 기본 지식.
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 
 ## Java용 Aspose.Cells 설정
 
@@ -219,6 +221,9 @@ public class CustomCalculationEngineDemo {
 이제 Aspose.Cells Java에서 사용자 정의 계산 엔진을 구현하는 방법을 익혔으니, 여러분의 기술을 시험해보고 그 어느 때보다 뛰어난 방식으로 스프레드시트를 최적화해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

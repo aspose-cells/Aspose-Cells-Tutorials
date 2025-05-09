@@ -1,14 +1,16 @@
 ---
-title: Grafik Sayfasına Onay Kutusu Ekle
-linktitle: Grafik Sayfasına Onay Kutusu Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel grafik sayfasına nasıl kolayca onay kutusu ekleyeceğinizi öğrenin.
-weight: 13
-url: /tr/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
+"description": "Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel grafik sayfasına nasıl kolayca onay kutusu ekleyeceğinizi öğrenin."
+"linktitle": "Grafik Sayfasına Onay Kutusu Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafik Sayfasına Onay Kutusu Ekle"
+"url": "/tr/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafik Sayfasına Onay Kutusu Ekle
@@ -25,7 +27,7 @@ Eğitime dalmadan önce, her şeyin ayarlandığından emin olalım. İhtiyacın
 - Öncelikle Visual Studio'ya ihtiyacınız olacak. Eğer henüz yüklemediyseniz, Microsoft sitesinden indirebilirsiniz.
 
 ### Aspose.Cells Kütüphanesi
--  Bir sonraki temel araç .NET için Aspose.Cells kütüphanesidir. Bunu şuradan kolayca edinebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/) indirmek için. Satın almadan önce test etmeyi tercih ederseniz, ayrıca bir[ücretsiz deneme mevcut](https://releases.aspose.com/).
+- Bir sonraki temel araç .NET için Aspose.Cells kütüphanesidir. Bunu şuradan kolayca edinebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/) indirmek için. Satın almadan önce test etmeyi tercih ederseniz, ayrıca bir [ücretsiz deneme mevcut](https://releases.aspose.com/).
 
 ### C#'ın Temel Anlayışı
 - Biraz kod yazacağımız için, C# hakkında temel bir anlayış faydalı olacaktır. Endişelenmeyin; ilerledikçe her şeyi açıklayacağım!
@@ -55,7 +57,7 @@ Projeniz kurulduktan sonra, Aspose.Cells kütüphanesini ekleme zamanı geldi. B
 
 ### Gerekli Kullanım Yönergelerini Ekleyin
 
- En üstte`Program.cs` dosyasına, Aspose.Cells işlevlerini kullanılabilir hale getirmek için aşağıdaki using yönergelerini ekleyin:
+En üstte `Program.cs` dosyasına, Aspose.Cells işlevlerini kullanılabilir hale getirmek için aşağıdaki using yönergelerini ekleyin:
 ```csharp
 using Aspose.Cells.Charts;
 using System;
@@ -72,11 +74,11 @@ Heyecan verici kısma geçmeden önce, dosyamızın nereye kaydedilmesini istedi
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Belirtilen dizine geçin
 ```
- Değiştirdiğinizden emin olun`"C:\\YourOutputDirectory\\"`dosyanızın kaydedilmesini istediğiniz yol ile. Bunu çalışma alanınızı ayarlamak gibi düşünün; araçlarınızı (veya bu durumda Excel dosyanızı) nereye koyduğunuzu bilmeniz gerekir.
+Değiştirdiğinizden emin olun `"C:\\YourOutputDirectory\\"` dosyanızın kaydedilmesini istediğiniz yol ile. Bunu çalışma alanınızı ayarlamak gibi düşünün; araçlarınızı (veya bu durumda Excel dosyanızı) nereye koyduğunuzu bilmeniz gerekir.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 
- Sonra, bir örnek oluşturuyoruz`Workbook` sınıf. Bütün çalışmalarımız burada gerçekleşecek.
+Sonra, bir örnek oluşturuyoruz `Workbook` sınıf. Bütün çalışmalarımız burada gerçekleşecek.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -84,7 +86,7 @@ Bu kod satırı boş bir tuvali açmak gibidir. Boyamaya (veya bizim durumumuzda
 
 ## Adım 3: Çalışma Sayfasına Grafik Ekleme
 
-Şimdi, çalışma kitabınıza bir grafik ekleme zamanı. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Şimdi, çalışma kitabınıza bir grafik ekleme zamanı. İşte bunu nasıl yapacağınız:
 ```csharp
 int index = workbook.Worksheets.Add(SheetType.Chart);
 Worksheet sheet = workbook.Worksheets[index];
@@ -95,7 +97,7 @@ Bu kodda:
 - Grafik türünü seçme. Burada basit bir sütun grafiği seçiyoruz.
 - Grafiğinizin boyutlarını belirleme.
 
-Bu adımı, sanat eserinizi çerçevenin içine yerleştirmeden önce ne tür bir çerçeve istediğinize karar vermek olarak düşünün.
+Bu adımı, sanat eserinizi çerçevenin içine yerleştirmeden önce ne tür bir çerçeve istediğinizi seçmek olarak düşünün.
 
 ## Adım 4: Grafiğinize Veri Serileri Ekleme
 
@@ -137,19 +139,21 @@ Bu satır, yeni oluşturduğunuz Excel dosyanızı onay kutusuyla tanımlanmış
 Aspose.Cells, .NET uygulamalarında Excel dosyaları oluşturmak ve düzenlemek için güçlü bir kütüphanedir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose ücretsiz deneme sunuyor. Mevcut deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sunuyor. Mevcut deneme sürümüyle başlayabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Bir grafik sayfasına onay kutusu eklemek karmaşık mıdır?  
 Hayır, hayır! Bu eğitimde gösterildiği gibi, bu sadece birkaç basit kod satırıyla yapılabilir.
 
 ### Aspose.Cells'i nereden satın alabilirim?  
- Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma bağlantısı](https://purchase.aspose.com/buy).
+Aspose.Cells'i şu adresten satın alabilirsiniz: [satın alma bağlantısı](https://purchase.aspose.com/buy).
 
 ### Sorun yaşarsam nasıl destek alabilirim?  
- Aspose, sorular sorabileceğiniz ve çözümler bulabileceğiniz bir destek forumu sunar. Şuraya göz atın:[destek sayfası](https://forum.aspose.com/c/cells/9).
+Aspose, sorular sorabileceğiniz ve çözümler bulabileceğiniz bir destek forumu sunar. Şuraya göz atın: [destek sayfası](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

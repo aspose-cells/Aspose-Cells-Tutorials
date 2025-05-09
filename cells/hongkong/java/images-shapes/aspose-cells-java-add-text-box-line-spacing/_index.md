@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -273,7 +275,7 @@ public class ExcelDemo {
 您已成功學習如何使用 Aspose.Cells for Java 在 Excel 工作簿中新增文字方塊和設定行距。這增強了您建立動態、視覺吸引力強的報告的能力。
 
 ## 關鍵字推薦
-- “ Java 的 Aspose.Cells”
+- “Aspose.Cells for Java”
 - “在 Excel 中新增文字方塊”
 - “在 Excel 中設定行距”
 - “帶有樣式文字的 Excel 工作簿”
@@ -281,6 +283,9 @@ public class ExcelDemo {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

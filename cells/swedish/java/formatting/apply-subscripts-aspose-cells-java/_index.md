@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ Nästa steg inkluderar att utforska andra textformateringsalternativ som upphöj
 Experimentera med Aspose.Cells för Java för att låsa upp kraftfulla automatiseringsfunktioner i Excel, och tveka inte att utforska dess omfattande dokumentation för ytterligare insikter.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

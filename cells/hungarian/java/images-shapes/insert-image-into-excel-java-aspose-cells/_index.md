@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ public class InitializeAspose {
 
 ## Megvalósítási útmutató
 
-Lépésről lépésre ismertetjük az egyes funkciókat.
+Lépésről lépésre lebontjuk az egyes funkciókat.
 
 ### Kép letöltése URL-címről
 
@@ -235,6 +237,9 @@ A4: Győződjön meg arról, hogy a könyvtár elérési utak léteznek, és ren
 A5: Igen, különféle formátumokat támogat, beleértve a JPEG, PNG, BMP, GIF és másokat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

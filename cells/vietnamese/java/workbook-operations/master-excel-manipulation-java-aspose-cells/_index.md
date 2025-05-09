@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,9 +56,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Để mở khóa đầy đủ các tính năng của Aspose.Cells:
 - **Dùng thử miễn phí**Kiểm tra các tính năng bằng giấy phép tạm thời.
 - **Giấy phép tạm thời**: Có được mục đích đánh giá miễn phí.
-- **Mua**: Hãy cân nhắc mua giấy phép để sử dụng lâu dài.
+- **Mua**: Hãy cân nhắc việc mua giấy phép để sử dụng lâu dài.
 
-Để biết chi tiết về cấp phép và tải xuống, hãy truy cập [Mua Aspose.Cells](https://purchase.aspose.com/buy).
+Để biết thông tin chi tiết về cấp phép và tải xuống, hãy truy cập [Mua Aspose.Cells](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
 
@@ -111,7 +113,7 @@ public class SaveWorkbook {
 }
 ```
 
-### Truy cập và thao tác các hình dạng trong một bảng tính
+### Truy cập và thao tác các hình dạng trong một trang tính
 
 #### Tổng quan
 Hình dạng làm tăng tính hấp dẫn trực quan của bảng tính. Phần này giải thích cách truy cập và sửa đổi hình dạng trong tệp Excel.
@@ -220,6 +222,9 @@ Hãy thử triển khai các giải pháp này trong dự án tiếp theo của 
 Hãy bắt đầu hành trình làm chủ thao tác Excel trong Java với Aspose.Cells ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

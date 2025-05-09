@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ R5: Sì, Aspose.Cells supporta l'integrazione con vari sistemi aziendali tramite
 - **Scaricamento**: Accedi alle ultime uscite su [Download di Aspose](https://releases.aspose.com/cells/java/)
 - **Acquistare**: Acquista una licenza per uso commerciale su [Acquisto Aspose](https://purchase.aspose.com/buy)
 - **Prova gratuita**: Inizia con una prova gratuita da [Prova gratuita di Aspose](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**Ottieni una licenza temporanea tramite [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: Ottieni una licenza temporanea tramite [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: Ricevi aiuto dalla comunità su [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 Seguendo questa guida, sarai sulla buona strada per implementare potenti funzionalità di globalizzazione nelle applicazioni Java utilizzando Aspose.Cells. Buon lavoro!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

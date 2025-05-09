@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 刷新数据透视表数据
@@ -90,9 +92,11 @@ workbook.save(outputFilePath);
    - 是的，您可以使用 Aspose.Cells 和 Java 调度库来安排自动数据刷新。这使您无需手动干预即可保持数据透视表的更新。
 
 现在您已经掌握了在 Aspose.Cells for Java 中刷新数据透视表的知识。确保您的分析准确无误，并在数据驱动的决策中保持领先地位。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

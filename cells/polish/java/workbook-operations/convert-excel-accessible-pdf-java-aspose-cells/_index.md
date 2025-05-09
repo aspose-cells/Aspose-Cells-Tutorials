@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Wypróbuj to rozwiązanie w swoim kolejnym projekcie i bez trudu popraw dostępn
 2. **Jak efektywnie obsługiwać duże pliki za pomocą Aspose.Cells?**
    - Zwiększ przydział pamięci maszyny wirtualnej Java (JVM) i wykorzystaj wydajne struktury danych, aby efektywnie zarządzać zasobami.
 
-3. **Czy mogę dodatkowo dostosować plik PDF wyjściowy?**
+3. **Czy mogę dodatkowo dostosować plik wyjściowy PDF?**
    - Tak, `PdfSaveOptions` oferuje szeroki zakres ustawień umożliwiających dostosowanie danych wyjściowych – od poziomów zgodności po opcje szyfrowania.
 
 4. **Czy mogę liczyć na pomoc, jeśli napotkam problemy w trakcie wdrażania?**
@@ -174,6 +176,9 @@ Wypróbuj to rozwiązanie w swoim kolejnym projekcie i bez trudu popraw dostępn
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

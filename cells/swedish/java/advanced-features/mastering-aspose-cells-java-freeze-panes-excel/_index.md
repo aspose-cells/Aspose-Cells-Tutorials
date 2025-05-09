@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Worksheet worksheet = worksheets.get(0);
 **Översikt**Lär dig hur du håller specifika rader och kolumner synliga när du bläddrar igenom ditt kalkylblad genom att använda inställningar för att frysa rutor.
 
 #### Steg 4: Ställ in frysrutor
-Använd frysrutor med hjälp av `freezePanes` metod.
+Applicera frysrutor med hjälp av `freezePanes` metod.
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 worksheet.freezePanes(3, 2, 3, 2);
@@ -143,6 +145,9 @@ För ytterligare utforskning av Aspose.Cells funktioner eller andra funktioner s
 För ytterligare frågor eller support, besök [Aspose-forumet](https://forum.aspose.com/c/cells/9)Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

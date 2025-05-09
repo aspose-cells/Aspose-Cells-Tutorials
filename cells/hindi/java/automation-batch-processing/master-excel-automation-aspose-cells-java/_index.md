@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Aspose.Cells for Java को विभिन्न वास्तविक-व�
    - Aspose.Cells को स्प्रिंग बूट, स्प्रिंग MVC या किसी अन्य जावा-आधारित फ्रेमवर्क में आसानी से एकीकृत किया जा सकता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

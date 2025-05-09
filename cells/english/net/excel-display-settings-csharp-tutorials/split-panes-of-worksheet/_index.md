@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Panes Of Worksheet
@@ -116,6 +118,7 @@ Yes, but it comes with limitations. For a full experience, it's best to use a [t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

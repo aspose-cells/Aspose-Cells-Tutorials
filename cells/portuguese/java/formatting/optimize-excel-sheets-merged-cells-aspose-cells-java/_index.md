@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ O gerenciamento eficaz de dados complexos no Excel geralmente envolve a mesclage
 
 Neste tutorial, exploraremos como usar **Aspose.Cells para Java** para otimizar suas planilhas do Excel com células mescladas. Você aprenderá a instanciar pastas de trabalho, acessar planilhas, criar e gerenciar intervalos de células, aplicar estilos, ajustar linhas automaticamente e salvar suas alterações com eficiência.
 
-### que você aprenderá
+### O que você aprenderá
 - Instanciando uma nova pasta de trabalho usando Aspose.Cells
 - Acessando e manipulando planilhas
 - Mesclar intervalos de células de forma eficaz
@@ -171,7 +173,7 @@ workbook.save(dataDir);
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**: Descarte objetos e fluxos corretamente para evitar vazamentos de memória.
+- **Otimizar o uso da memória**: Descarte objetos e fluxos corretamente para evitar vazamentos de memória.
 - **Processamento em lote**: Manipule grandes conjuntos de dados em lotes para manter a eficiência do desempenho.
 - **Evite operações desnecessárias**: Minimize as operações de leitura/gravação na pasta de trabalho para uma execução mais rápida.
 
@@ -211,6 +213,9 @@ Explore outras funcionalidades do Aspose.Cells analisando sua extensa documenta�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

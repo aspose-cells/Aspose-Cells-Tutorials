@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Experimentujte s dalšími funkcemi Aspose.Cells, jako je převod grafů nebo ma
 Tato příručka poskytuje komplexní přehled o použití nástroje Aspose.Cells pro Javu k převodu souborů aplikace Excel do formátu PDF a zajišťuje, že máte nástroje a znalosti potřebné k efektivní implementaci tohoto řešení.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

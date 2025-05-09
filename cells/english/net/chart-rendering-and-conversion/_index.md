@@ -8,7 +8,9 @@ url: /net/chart-rendering-and-conversion/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Rendering and Conversion
@@ -36,9 +38,11 @@ Discover how to render charts in .NET using Aspose.Cells. Follow our step-by-ste
 Learn to convert Excel charts to PDF using Aspose.Cells for .NET with this easy step-by-step guide. Explore essential tips and coding examples.
 ### [Create Chart PDF with Desired Page Size](./create-chart-pdf-with-desired-page-size/)
 Create a PDF with your Excel chart using Aspose.Cells for .NET. Learn how with this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

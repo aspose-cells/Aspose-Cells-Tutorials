@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Dowiedz się, jak efektywnie zarządzać plikami Excela i przekształcać je w pliki CSV przy użyciu Aspose.Cells for Java, włącznie z usuwaniem pustych wierszy i kolumn."
+"description": "Dowiedz się, jak efektywnie zarządzać plikami Excela i przekształcać je do formatu CSV przy użyciu Aspose.Cells for Java, włącznie z usuwaniem pustych wierszy i kolumn."
 "title": "Przycinanie i zapisywanie plików Excela jako CSV przy użyciu Aspose.Cells w Javie"
 "url": "/pl/java/workbook-operations/excel-aspose-cells-java-trim-save-csv/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ wb.save(outDir + "outputWithoutTrimBlankColumns.csv", SaveFormat.CSV);
 Aby przyciąć wiodące puste wiersze i kolumny, konfigurujemy opcje zapisywania tekstu.
 
 #### Przegląd
-TxtSaveOptions zapewnia elastyczność w sposobie zapisywania danych jako tekstu (np. CSV). Włączając przycinanie, można usunąć niepotrzebne odstępy, optymalizując wynik.
+TxtSaveOptions zapewnia elastyczność w sposobie zapisywania danych jako tekstu (np. CSV). Włączając przycinanie, można usunąć niepotrzebne odstępy, optymalizując dane wyjściowe.
 ```java
 import com.aspose.cells.TxtSaveOptions;
 
@@ -154,6 +156,9 @@ Jeśli chcesz dowiedzieć się więcej, rozważ zapoznanie się z bardziej zaawa
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

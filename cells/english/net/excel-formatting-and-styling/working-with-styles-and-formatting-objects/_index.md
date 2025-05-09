@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/working-with-styles-and-formatting-object
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Styles and Formatting Objects
@@ -235,6 +237,7 @@ You can get support via the [Aspose forum](https://forum.aspose.com/c/cells/9) i
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

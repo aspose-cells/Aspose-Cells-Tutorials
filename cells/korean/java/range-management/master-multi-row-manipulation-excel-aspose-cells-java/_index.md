@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 소개
 
-Excel 스프레드시트에서 여러 행의 데이터를 복제해야 했는데, 그 과정이 번거롭고 오류가 발생하기 쉽다는 것을 깨달은 적이 있으신가요? 데이터 통합이든 보고서 작성이든, 여러 행 작업을 효율적으로 관리하면 생산성을 크게 향상시킬 수 있습니다. **자바용 Aspose.Cells**강력한 API를 통해 Excel 파일과 원활하게 상호 작용할 수 있어 이 작업이 매우 수월해집니다.
+Excel 스프레드시트에서 여러 행의 데이터를 복제해야 했는데, 그 과정이 번거롭고 오류가 발생하기 쉽다는 것을 깨달은 적이 있으신가요? 데이터 통합이든 보고서 작성이든, 여러 행 작업을 효율적으로 관리하면 생산성을 크게 향상시킬 수 있습니다. **자바용 Aspose.Cells**강력한 API를 통해 Excel 파일과 원활하게 상호 작용할 수 있어 이 작업이 매우 간편해집니다.
 
 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Excel 스프레드시트에서 여러 행을 복사하는 방법을 살펴보겠습니다. 이 가이드를 마치면 이 기능의 단계와 실제 활용 방법을 확실히 이해하게 될 것입니다.
 
@@ -143,7 +145,7 @@ workbook.save(dataDir + "CMultipleRows_out.xlsx");
 
 - **파일을 찾을 수 없습니다**: Excel 파일 경로가 올바르고 접근 가능한지 확인하세요.
 - **워크시트 이름 오류**: 워크시트 이름에 오타가 있는지 다시 한번 확인하세요.
-- **범위를 벗어난 인덱스**행 인덱스가 사용 가능한 행 범위 내에 있는지 확인합니다.
+- **인덱스가 범위를 벗어났습니다**행 인덱스가 사용 가능한 행 범위 내에 있는지 확인합니다.
 
 ## 실제 응용 프로그램
 
@@ -195,6 +197,9 @@ A5: 통합 문서를 Excel에 저장하고 열어서 변경 사항을 시각적�
 Aspose.Cells for Java에 대한 이해와 역량을 심화할 수 있는 다음 리소스를 살펴보세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

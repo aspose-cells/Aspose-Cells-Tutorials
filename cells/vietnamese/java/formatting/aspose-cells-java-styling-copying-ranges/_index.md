@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ range2.copyData(range);
 Đảm bảo mọi thay đổi được lưu lại để sử dụng sau này bằng cách lưu sổ làm việc.
 
 #### Các bước thực hiện
-**Bước 5.1: Lưu Workbook**
+**Bước 5.1: Lưu sổ làm việc**
 Xác định thư mục đầu ra và lưu tệp:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -141,7 +143,7 @@ workbook.save(outDir + "/CopyRangeDataOnly_out.xlsx", SaveFormat.XLSX);
 Khám phá những trường hợp sử dụng thực tế sau để tạo kiểu và sao chép phạm vi:
 1. **Báo cáo tài chính**: Nâng cao khả năng đọc dữ liệu tài chính bằng các kiểu dáng.
 2. **Phân tích dữ liệu**: Sao chép kết quả phân tích để so sánh.
-3. **Quản lý hàng tồn kho**: Bảng định dạng để xác định mức tồn kho nhanh chóng.
+3. **Quản lý hàng tồn kho**: Bảng định dạng để xác định mức tồn kho một cách nhanh chóng.
 
 ## Cân nhắc về hiệu suất
 - **Tối ưu hóa việc sử dụng bộ nhớ**: Sử dụng API phát trực tuyến cho các tập dữ liệu lớn.
@@ -178,6 +180,9 @@ Bạn đã học cách tạo và định kiểu phạm vi, sao chép dữ liệu
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

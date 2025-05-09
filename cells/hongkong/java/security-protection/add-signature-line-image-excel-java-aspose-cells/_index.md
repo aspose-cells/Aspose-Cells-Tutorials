@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### 許可證取得步驟
-Aspose.Cells for Java 提供免費試用，可完全存取 API 的功能，讓您在購買前測試其功能。如需延長使用時間，請考慮取得臨時或永久許可證：
+Aspose.Cells for Java 提供免費試用，可完全存取 API 的功能，讓您可以在購買前測試其功能。如需延長使用時間，請考慮取得臨時或永久許可證：
 - **免費試用：** 下載地址 [Aspose 版本](https://releases。aspose.com/cells/java/).
 - **臨時執照：** 透過獲取 [購買 Aspose](https://purchase.aspose.com/temporary-license/) 用於評估目的。
 - **購買許可證：** 訪問 [購買 Aspose Cells](https://purchase.aspose.com/buy) 獲得永久許可證。
@@ -176,6 +178,9 @@ workbook.save(dataDir + "CSignatureLine_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

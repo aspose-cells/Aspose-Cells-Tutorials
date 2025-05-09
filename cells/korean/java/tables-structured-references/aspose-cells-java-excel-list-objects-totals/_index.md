@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ dataDir += "book1.xlsx";
 Workbook workbook = new Workbook(dataDir);
 ```
 
-### 워크시트에서 목록 개체 컬렉션에 액세스하기
+### 워크시트에서 목록 개체 컬렉션에 액세스
 
 **개요:** 워크시트에서 목록 개체 컬렉션에 액세스하여 조작합니다.
 
@@ -178,6 +180,9 @@ Aspose.Cells for Java를 마스터하면 복잡한 Excel 작업을 손쉽게 자
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

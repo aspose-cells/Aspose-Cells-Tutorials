@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ workbook.save(outDir + "/PivotTableHideAndSort_out.xlsx");
 **अगले कदम:**
 - विभिन्न डेटासेट के साथ प्रयोग करें.
 - चार्ट एकीकरण जैसी अतिरिक्त Aspose.Cells सुविधाओं का अन्वेषण करें।
-- अपनी अंतर्दृष्टि या चुनौतियों को साझा करें [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9).
+- अपनी अंतर्दृष्टि या चुनौतियों को साझा करें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 इसे आज़माने के लिए तैयार हैं? इन समाधानों को लागू करें और अपने Excel डेटा प्रबंधन पर नियंत्रण रखें!
 
@@ -194,6 +196,9 @@ workbook.save(outDir + "/PivotTableHideAndSort_out.xlsx");
 - **अस्थायी लाइसेंस:** से अस्थायी लाइसेंस प्राप्त करके सभी क्षमताओं का अन्वेषण करें [असपोज](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

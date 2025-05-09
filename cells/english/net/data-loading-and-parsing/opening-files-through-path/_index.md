@@ -8,7 +8,9 @@ url: /net/data-loading-and-parsing/opening-files-through-path/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening Files Through Path
@@ -88,6 +90,7 @@ You can find comprehensive documentation [here](https://reference.aspose.com/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

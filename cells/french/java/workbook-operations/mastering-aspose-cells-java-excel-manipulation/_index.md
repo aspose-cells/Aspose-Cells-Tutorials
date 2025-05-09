@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Aperçu**: Générez rapidement un classeur Excel vide pour démarrer votre manipulation de données.
 
 **Étape par étape :**
-1. **Instancier le classeur**: Créer un `Workbook` objet.
+1. **Instancier le classeur**Créer un `Workbook` objet.
 2. **Répertoire de sortie**: Définissez où vous souhaitez enregistrer le fichier.
 
 ```java
@@ -195,6 +197,9 @@ Lancez-vous dès aujourd'hui dans votre voyage avec Aspose.Cells pour Java et li
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Xử lý các tập dữ liệu Excel lớn trong Java có thể là một thác
 **Những gì bạn sẽ học được:**
 - Cách cấu hình tùy chọn tải trong Aspose.Cells Java
 - Triển khai trình xử lý dữ liệu tùy chỉnh với LightCellsDataHandler
-- Cải thiện hiệu suất tải sổ làm việc
+- Nâng cao hiệu suất tải sổ làm việc
 
 Hãy cùng tìm hiểu cách thiết lập môi trường và hiểu các điều kiện tiên quyết để xử lý Excel hiệu quả.
 
@@ -135,6 +137,9 @@ Khám phá thêm các tính năng nâng cao của Aspose.Cells hoặc tích hợ
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

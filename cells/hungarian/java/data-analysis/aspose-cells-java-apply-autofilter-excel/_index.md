@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ public class Main {
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjára
+String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjával
 
 try {
     Workbook workbook = new Workbook(dataDir + "/NonBlank.xlsx");
@@ -154,6 +156,9 @@ Elsajátítottad az Excel szűrési feladatok automatizálását az Aspose.Cells
 - **Támogatás**Csatlakozz a közösségi fórumhoz a következő címen: [Aspose támogatás](https://forum.aspose.com/c/cells/9) segítségért.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

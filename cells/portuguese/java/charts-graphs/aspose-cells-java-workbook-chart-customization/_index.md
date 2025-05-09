@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ workbook.save(outDir + "SCellRAsTheDataLabels_out.xlsx");
 
 ## Considerações de desempenho
 Ao trabalhar com arquivos grandes do Excel ou operações complexas:
-- **Otimize o uso da memória**: Use fluxos e gerencie os ciclos de vida dos objetos com cuidado para evitar vazamentos de memória.
+- **Otimizar o uso da memória**: Use fluxos e gerencie os ciclos de vida dos objetos com cuidado para evitar vazamentos de memória.
 - **Melhores práticas para gerenciamento de memória Java**: Garanta uma coleta de lixo eficiente liberando os recursos imediatamente após o uso.
 
 ## Conclusão
@@ -175,6 +177,9 @@ Pronto para levar suas habilidades de gerenciamento do Excel para o próximo ní
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

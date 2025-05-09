@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ import com.aspose.cells.AutoFitterOptions;
 
 AutoFitterOptions options = new AutoFitterOptions();
 options.setAutoFitMergedCellsType(AutoFitMergedCellsType.EACH_LINE);
-worksheet.autoFitRows(options); // Använd automatisk anpassning med anpassade inställningar
+worksheet.autoFitRows(options); // Tillämpa automatisk anpassning med anpassade inställningar
 ```
 
 ### Spara arbetsboken till en angiven katalog
@@ -211,6 +213,9 @@ Utforska ytterligare funktioner i Aspose.Cells genom att dyka ner i dess omfatta
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parameter und Methoden
 - **Arbeitsmappe**: Stellt die gesamte Excel-Datei dar.
-- **Arbeitsblatt**: Bezieht sich auf ein einzelnes Blatt innerhalb der Arbeitsmappe.
+- **Arbeitsblatt**Bezieht sich auf ein einzelnes Blatt innerhalb der Arbeitsmappe.
 - **ThreadedCommentCollection**Eine Sammlung von Kommentaren, die mit einer Zelle verknüpft sind.
 
 ## Praktische Anwendungen
@@ -148,6 +150,9 @@ Bereit, tiefer einzutauchen? Versuchen Sie, diese Lösung in Ihren eigenen Proje
 - [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

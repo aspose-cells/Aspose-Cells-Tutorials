@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,7 +204,7 @@ public class GetNotificationsWhileMergingData {
 
 1. **Automatizált jelentéskészítés:** Dinamikus jelentéseket generálhat Excelben adatbázis-lekérdezésekből, és frissítéseket kaphat az egyes szakaszok kitöltésekor.
 2. **Készletgazdálkodás:** Készletszintek egyesítése egy táblázatba, miközben nyomon követi a változásokat vagy eltéréseket.
-3. **Pénzügyi irányítópultok:** Automatikusan frissíti a pénzügyi mutatókat, és naplózza a feldolgozás során felmerülő rendellenességeket.
+3. **Pénzügyi irányítópultok:** Automatikusan frissíti a pénzügyi mutatókat, és naplózza az esetleges rendellenességeket a feldolgozás során.
 
 ## Teljesítménybeli szempontok
 
@@ -211,7 +213,7 @@ public class GetNotificationsWhileMergingData {
 - Használjon hatékony adatszerkezeteket az adatforrások beállításakor.
 
 ### Erőforrás-felhasználási irányelvek
-- Figyelje a Java heap tárhelyét nagyméretű Excel-fájlok vagy számos művelet kezelésekor.
+- Figyelje a Java heap tárhelyét nagy Excel-fájlok vagy számos művelet kezelésekor.
 
 ### Java memóriakezelési bevált gyakorlatok
 - A megfelelő szemétgyűjtés érdekében fel nem használt objektumokat szabadítson fel, és a feldolgozás után zárja be a munkafüzeteket.
@@ -222,6 +224,9 @@ Az útmutató követésével megtanultad, hogyan használhatod hatékonyan az As
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

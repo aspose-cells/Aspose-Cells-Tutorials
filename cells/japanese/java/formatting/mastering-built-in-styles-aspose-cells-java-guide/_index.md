@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ Aspose.Cells for Java の使用を開始するには、次の手順に従いま�
    - **購入**長期使用の場合はライセンスの購入をご検討ください。
 3. **基本的な初期化**：
    ```java
-   // Aspose.Cells for Java を初期化する
+   // Java 用 Aspose.Cells を初期化する
    Workbook workbook = new Workbook();
    ```
 
@@ -165,6 +167,9 @@ A5: バッチ処理と効率的なスタイルのアプリケーション手法�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

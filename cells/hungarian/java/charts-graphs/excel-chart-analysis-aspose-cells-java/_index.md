@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Az Aspose.Cells for Java ingyenes próbaverziót kínál teljes funkcionalitáss
 
 1. **Ingyenes próbaverzió**: Töltsd le a könyvtárat innen: [Aspose weboldala](https://releases.aspose.com/cells/java/) és használd fel a képességeinek felfedezésére.
 2. **Ideiglenes engedély**Látogatás [ezt a linket](https://purchase.aspose.com/temporary-license/) ideiglenes engedélyt kérni értékelési célokra.
-3. **Vásárlás**Folyamatos használathoz érdemes lehet licencet vásárolni a következő helyről: [Aspose vásárlási oldal](https://purchase.aspose.com/buy).
+3. **Vásárlás**Folyamatos használat esetén érdemes lehet licencet vásárolni a következő helyről: [Aspose vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### Alapvető inicializálás
 
@@ -86,7 +88,7 @@ Ez a kódrészlet bemutatja, hogyan tölthet be egy Excel-fájlt, előkészítve
 
 **Áttekintés**
 
-Egy Excel munkafüzet betöltése az első lépés a tartalmának elemzésében. Az Aspose.Cells egyszerűsíti ezt a folyamatot egyszerűsített metódusokkal.
+Egy Excel munkafüzet betöltése az első lépés a tartalmának elemzésében. Az Aspose.Cells egyszerűsíti ezt a folyamatot egyszerűsítő metódusokkal.
 
 #### 1. Szükséges osztályok importálása
 ```java
@@ -225,6 +227,9 @@ V4: Teljesen! Zökkenőmentesen integrálható olyan könyvtárakkal, mint az Ap
 Emeld Java projektjeidet a következő szintre az Excel diagramelemzés elsajátításával az Aspose.Cells segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

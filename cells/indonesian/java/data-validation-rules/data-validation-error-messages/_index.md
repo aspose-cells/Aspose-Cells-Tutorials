@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pesan Kesalahan Validasi Data
@@ -28,7 +30,7 @@ Pesan kesalahan validasi data adalah pemberitahuan yang ditampilkan kepada pengg
 
 Sekarang, mari selami pembuatan pesan kesalahan validasi data langkah demi langkah menggunakan Aspose.Cells untuk Java.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
@@ -41,7 +43,7 @@ import com.aspose.cells.*;
 
 public class DataValidationDemo {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi buku kerja
+        // A munkafüzet inicializálása
         Workbook workbook = new Workbook();
         // Akses lembar kerja
         Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -51,7 +53,7 @@ public class DataValidationDemo {
         DataValidation validation = worksheet.getValidations().get(0);
         validation.setErrorTitle("Invalid Data");
         validation.setErrorMessage("Please enter a valid value.");
-        // Simpan buku kerja
+        // A munkafüzet mentése
         workbook.save("DataValidationExample.xlsx");
     }
 }
@@ -82,11 +84,11 @@ Ya, Anda dapat menyematkan gambar atau ikon dalam pesan kesalahan untuk membuatn
 
 Ya, Aspose.Cells untuk Java memungkinkan Anda memvalidasi data dalam beberapa sel dan menentukan pesan kesalahan untuk setiap aturan validasi.
 
-## Kesimpulan
+## Következtetés
 
 Pesan kesalahan validasi data sangat penting untuk meningkatkan pengalaman pengguna dan kualitas data dalam aplikasi Anda. Dengan Aspose.Cells untuk Java, Anda dapat dengan mudah membuat dan menyesuaikan pesan ini untuk memberikan umpan balik yang berharga kepada pengguna.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana saya dapat menyesuaikan pesan kesalahan lebih lanjut?
 
@@ -111,6 +113,7 @@ Anda dapat menangkap kesalahan validasi dan menampilkan pesan kesalahan yang dis
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Çalışma Sayfasının Sayfa Sonu Önizlemesi
-linktitle: Çalışma Sayfasının Sayfa Sonu Önizlemesi
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Excel çalışma sayfalarında sayfa sonu önizlemelerini etkinleştirmek için Aspose.Cells for .NET'i basit adım adım bir eğitimle kullanmayı öğrenin.
-weight: 110
-url: /tr/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/
+"description": "Excel çalışma sayfalarında sayfa sonu önizlemelerini etkinleştirmek için Aspose.Cells for .NET'i basit adım adım bir eğitimle kullanmayı öğrenin."
+"linktitle": "Çalışma Sayfasının Sayfa Sonu Önizlemesi"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Sayfa Sonu Önizlemesi"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Sayfa Sonu Önizlemesi
 
 ## giriiş
 
-Doğru araçlara sahip değilseniz Excel dosyalarını programatik olarak oluşturmak ve yönetmek oldukça zahmetli olabilir. Geliştiriciler arasında çok ilgi gören bu araçlardan biri de Aspose.Cells for .NET'tir. Bu güçlü API, iş akışlarınızı optimize etmenize yardımcı olabilecek çok sayıda özellik sunarken Excel dosyalarını sorunsuz bir şekilde düzenlemenizi sağlar; örneğin daha iyi bir yazdırma düzeni için sayfa sonlarını ayarlama. Bu eğitimde, Aspose.Cells for .NET kullanarak bir çalışma sayfasında sayfa sonu önizlemelerinin nasıl etkinleştirileceğini inceleyeceğiz.
+Doğru araçlara sahip değilseniz Excel dosyalarını programatik olarak oluşturmak ve yönetmek oldukça zahmetli olabilir. Geliştiriciler arasında çok fazla ilgi gören bu araçlardan biri de Aspose.Cells for .NET'tir. Bu güçlü API, iş akışlarınızı optimize etmenize yardımcı olabilecek çok sayıda özellik sunarken Excel dosyalarını sorunsuz bir şekilde düzenlemenizi sağlar; örneğin daha iyi bir yazdırma düzeni için sayfa sonlarını ayarlama. Bu eğitimde, Aspose.Cells for .NET kullanarak bir çalışma sayfasında sayfa sonu önizlemelerinin nasıl etkinleştirileceğini inceleyeceğiz.
 
 ## Ön koşullar
 
 Başlamadan önce, yerine getirmeniz gereken birkaç ön koşul var:
 
 1. Temel C# Bilgisi: C# ve .NET framework hakkında temel bir anlayışa sahip olmak, eğitimde gezinmenize kesinlikle yardımcı olacaktır.
-2.  Aspose.Cells for .NET Kurulu: Aspose.Cells for .NET kitaplığına sahip olmanız gerekir.[buradan indirin](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Kurulu: Aspose.Cells for .NET kitaplığına sahip olmanız gerekir. [buradan indirin](https://releases.aspose.com/cells/net/).
 3. Visual Studio veya Benzer IDE: Kodu yazmak ve çalıştırmak için Visual Studio gibi bir entegre geliştirme ortamına (IDE) ihtiyacınız olacak.
-4. Excel Dosyası: Bir Excel dosyanız (örneğin) olmalıdır.`book1.xls`) düzenleme için belgeler dizininizde mevcuttur.
+4. Excel Dosyası: Bir Excel dosyanız (örneğin) olmalıdır. `book1.xls`) düzenleme için belgeler dizininizde mevcuttur.
 5. Ad Alanları: Kodunuzda gerekli ad alanlarının bulunduğundan emin olun; özellikle dosyaları ve Aspose.Cells kitaplığını işlemek için.
 
 Ön koşulları tamamladığımıza göre şimdi gerçek kodlamaya geçelim.
@@ -56,7 +58,7 @@ Visual Studio'nuzu veya IDE'nizi açın ve henüz yapmadıysanız yeni bir C# do
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu adımda, değiştirmeniz gerekir`"YOUR DOCUMENT DIRECTORY"`Excel dosyanızın kaydedildiği proje klasörünüzün gerçek yolu ile. Bu hayati önem taşır çünkü programa, düzenlemek istediğiniz dosyayı nerede arayacağını söyler.
+Bu adımda, değiştirmeniz gerekir `"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın kaydedildiği proje klasörünüzün gerçek yolu ile. Bu hayati önem taşır çünkü programa, düzenlemek istediğiniz dosyayı nerede arayacağını söyler.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 
@@ -65,7 +67,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Burada bir tane yaratıyoruz`FileStream` belirtilen Excel dosyasına işaret eden nesne (`book1.xls`). Bu, uygulamanızın dosyayı açmasına ve düzenlemesine olanak tanır.
+Burada bir tane yaratıyoruz `FileStream` belirtilen Excel dosyasına işaret eden nesne (`book1.xls`). Bu, uygulamanızın dosyayı açmasına ve düzenlemesine olanak tanır.
 
 ## Adım 3: Çalışma Kitabını Örneklendirin
 
@@ -75,7 +77,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Bu adımda, bir örnek oluşturuyorsunuz`Workbook` Excel dosyasını temsil eden nesne. Bu nesne esasen işlemlerinizin kalbidir ve tüm sayfalara erişmenizi ve çeşitli işlemler yapmanızı sağlar.
+Bu adımda, bir örnek oluşturuyorsunuz `Workbook` Excel dosyasını temsil eden nesne. Bu nesne esasen işlemlerinizin kalbidir ve tüm sayfalara erişmenizi ve çeşitli işlemler yapmanızı sağlar.
 
 ## Adım 4: Çalışma Sayfasına Erişim
 
@@ -102,7 +104,7 @@ Bu önemli adım, çalışma sayfası için sayfa sonu önizleme modunu etkinle�
 workbook.Save(dataDir + "output.xls");
 ```
 
-Değişikliklerinizi yaptıktan sonra çalışma kitabını kaydetmeniz önemlidir. Burada, onu şu şekilde kaydediyoruz:`output.xls`, ancak ihtiyacınıza göre dosya adını değiştirmekten çekinmeyin.
+Değişikliklerinizi yaptıktan sonra çalışma kitabını kaydetmeniz önemlidir. Burada, onu şu şekilde kaydediyoruz: `output.xls`, ancak ihtiyacınıza göre dosya adını değiştirmekten çekinmeyin.
 
 ## Adım 7: Kaynakları Temizleyin
 
@@ -123,19 +125,21 @@ Son olarak, kaynakları temizlemek iyi bir alışkanlıktır. Dosya akışını 
 Aspose.Cells, geliştiricilerin Microsoft Excel'in kurulu olmasına gerek kalmadan Excel dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan bir .NET API'sidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose test amaçlı ücretsiz deneme sunuyor.[buradan ücretsiz deneme alın](https://releases.aspose.com/).
+Evet, Aspose test amaçlı ücretsiz deneme sunuyor. [buradan ücretsiz deneme alın](https://releases.aspose.com/).
 
 ### Aspose.Cells'i nasıl satın alabilirim?
- Yapabilirsiniz[Aspose.Cells'i buradan satın alın](https://purchase.aspose.com/buy).
+Yapabilirsiniz [Aspose.Cells'i buradan satın alın](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells için teknik destek mevcut mu?
- Kesinlikle! Yardımı şu şekilde alabilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Yardımı şu şekilde alabilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/cells/9).
 
 ### Sayfa sonu önizlemelerini birden fazla çalışma sayfasına uygulayabilir miyim?
 Evet, çalışma kitabınızın çalışma sayfaları arasında dolaşabilir ve aynı özelliği her birine ayrı ayrı uygulayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

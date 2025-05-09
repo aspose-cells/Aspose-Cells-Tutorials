@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Aspose.Cells oferuje bezpłatną wersję próbną, umożliwiającą przetestowan
 Zacznij od skonfigurowania swojego projektu za pomocą Aspose.Cells:
 
 1. **Dodaj zależność**: Użyj Mavena lub Gradle, jak pokazano powyżej.
-2. **Konfiguracja licencji**: Jeśli posiadasz licencję, zastosuj ją:
+2. **Konfiguracja licencji**: Zastosuj swoją licencję, jeśli ją posiadasz:
    ```java
    License license = new License();
    license.setLicense("path/to/Aspose.Total.Java.lic");
@@ -153,7 +155,7 @@ Oto kilka scenariuszy z życia wziętych, w których dostosowanie poziomów komp
 
 Optymalizacja wydajności podczas pracy z dużymi plikami Excela obejmuje:
 
-- **Wybór właściwego poziomu kompresji**:Równowaga między rozmiarem pliku i czasem ładowania w zależności od przypadku użycia.
+- **Wybór odpowiedniego poziomu kompresji**:Równowaga między rozmiarem pliku i czasem ładowania w zależności od przypadku użycia.
 - **Zarządzanie pamięcią**:Monitoruj wykorzystanie pamięci Java, aby zapobiegać wyciekom i awariom.
 - **Przetwarzanie wsadowe**:Przetwarzaj pliki w partiach, aby skutecznie zarządzać zużyciem zasobów.
 
@@ -193,6 +195,9 @@ Gotowy, żeby to wypróbować? Przejdź do [Oficjalna dokumentacja Aspose](https
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Chúng tôi sẽ chia nhỏ quy trình thành các phần dễ quản lý hơn.
      boolean hasPrimaryCategoryAxis = chart.hasAxis(AxisType.CATEGORY, true);
      // Kiểm tra xem có trục danh mục chính hay không.
      ```
-   - **Trục danh mục phụ (Phải)**
+   - **Trục danh mục phụ (phải)**
      ```java
      boolean hasSecondaryCategoryAxis = chart.hasAxis(AxisType.CATEGORY, false);
      // Xác định xem trục danh mục phụ có tồn tại hay không.
@@ -165,6 +167,9 @@ A5: Tối ưu hóa mã bằng cách tải dữ liệu cần thiết, lưu trữ 
 - **Tải về**:Truy cập phiên bản mới nhất của Aspose.Cells for Java để bắt đầu triển khai các giải pháp này ngay hôm nay.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

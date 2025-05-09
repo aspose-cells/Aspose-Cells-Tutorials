@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Style style = workbook.getNamedStyle("Percent");
 
 #### Изменение атрибутов стиля
 **Изменить формат числа:**
-Используйте предопределенные числовые форматы Excel для изменения формата. Здесь мы изменим его на `0.00%`:
+Используйте предопределенные числовые форматы Excel для изменения формата. Здесь мы меняем его на `0.00%`:
 ```java
 style.setNumber(10); // «10» соответствует «0,00%»
 ```
@@ -172,6 +174,9 @@ workbook.save(outDir + "ModifyExistingStyle_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,30 +7,32 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengambil Versi File Excel Menggunakan Aspose.Cells untuk Java: Panduan Pengembang
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda menghadapi tantangan dalam mengidentifikasi versi file Excel Anda secara terprogram? Apakah Anda seorang pengembang yang mengerjakan proyek integrasi data atau siapa pun yang perlu memastikan kompatibilitas di berbagai versi Excel, mengetahui cara mengambil versi file Excel sangatlah penting. Panduan ini akan memandu Anda menggunakan Aspose.Cells untuk Java untuk mendapatkan nomor versi dari berbagai format file Excel dengan mudah.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara menggunakan Aspose.Cells untuk Java untuk mengekstrak versi file Excel.
 - Implementasi kode langkah demi langkah untuk mengidentifikasi versi Excel 2003, 2007, 2010, dan 2013 dalam format XLS dan XLSX.
 - Siapkan lingkungan pengembangan Anda dengan alat yang diperlukan.
 
 Mari mulai menata ruang kerja Anda dan menjelajahi fitur-fitur yang ditawarkan perpustakaan hebat ini!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai, pastikan Anda telah memenuhi prasyarat berikut:
 
-- **Perpustakaan & Ketergantungan:** Anda memerlukan Aspose.Cells untuk Java. Pustaka ini penting untuk berinteraksi dengan berkas Excel.
-- **Pengaturan Lingkungan:** Lingkungan pengembangan yang mendukung Java (seperti IntelliJ IDEA atau Eclipse) dan alat pembangunan Maven/Gradle.
-- **Persyaratan Pengetahuan:** Pemahaman dasar tentang pemrograman Java, keakraban dalam menangani operasi file di Java.
+- **Könyvtárak és függőségek:** Anda memerlukan Aspose.Cells untuk Java. Pustaka ini penting untuk berinteraksi dengan berkas Excel.
+- **Környezet beállítása:** Lingkungan pengembangan yang mendukung Java (seperti IntelliJ IDEA atau Eclipse) dan alat pembangunan Maven/Gradle.
+- **Tudáskövetelmények:** Pemahaman dasar tentang pemrograman Java, keakraban dalam menangani operasi file di Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -50,16 +52,16 @@ Tambahkan dependensi berikut ke `pom.xml`:
 
 ### Instalasi Gradle
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-1. **Uji Coba Gratis:** Mulailah dengan uji coba gratis untuk menjelajahi kemampuan Aspose.Cells.
-2. **Lisensi Sementara:** Untuk pengujian lanjutan, pertimbangkan untuk memperoleh lisensi sementara.
-3. **Pembelian:** Untuk berintegrasi ke lingkungan produksi, beli lisensi penuh.
+#### Licencbeszerzés lépései
+1. **Ingyenes próbaverzió:** Mulailah dengan uji coba gratis untuk menjelajahi kemampuan Aspose.Cells.
+2. **Ideiglenes engedély:** Untuk pengujian lanjutan, pertimbangkan untuk memperoleh lisensi sementara.
+3. **Vásárlás:** Untuk berintegrasi ke lingkungan produksi, beli lisensi penuh.
 
 Setelah menyiapkan dependensi proyek Anda, inisialisasi dan konfigurasikan Aspose.Cells dengan membuat instance `Workbook`:
 
@@ -74,16 +76,16 @@ public class ExcelVersionDemo {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang, mari terapkan fitur untuk mengambil nomor versi berbagai file Excel menggunakan Aspose.Cells.
 
 ### Dapatkan Versi File Excel (Excel 2003)
-#### Ringkasan
+#### Áttekintés
 Bagian ini menunjukkan cara mengambil versi dari file Excel 2003 (.xls).
 
-**Implementasi Langkah demi Langkah:**
-1. **Memuat Buku Kerja:** Muat file .xls Anda ke dalam `Workbook` obyek.
+**Lépésről lépésre történő megvalósítás:**
+1. **Memuat Buku Kerja:** Muat file .xls Anda ke dalam `Workbook` objektum.
 
     ```java
     String dataDir = "YOUR_DATA_DIRECTORY";
@@ -96,10 +98,10 @@ Bagian ini menunjukkan cara mengambil versi dari file Excel 2003 (.xls).
     ```
 
 ### Dapatkan Versi File Excel (Excel 2007)
-#### Ringkasan
+#### Áttekintés
 Pelajari cara mengambil versi dari file Excel 2007 (.xls).
 
-**Implementasi Langkah demi Langkah:**
+**Lépésről lépésre történő megvalósítás:**
 1. **Memuat Buku Kerja:** Mirip dengan Excel 2003, muat file .xls Anda.
 
     ```java
@@ -112,10 +114,10 @@ Pelajari cara mengambil versi dari file Excel 2007 (.xls).
     ```
 
 ### Dapatkan Versi File Excel (Excel 2010)
-#### Ringkasan
+#### Áttekintés
 Di sini, kami mengambil versi untuk berkas Excel 2010.
 
-**Implementasi Langkah demi Langkah:**
+**Lépésről lépésre történő megvalósítás:**
 1. **Muat Buku Kerja:** Muat file .xls Anda ke dalam `Workbook`.
 
     ```java
@@ -128,10 +130,10 @@ Di sini, kami mengambil versi untuk berkas Excel 2010.
     ```
 
 ### Dapatkan Versi File Excel (Excel 2013)
-#### Ringkasan
+#### Áttekintés
 Menentukan versi untuk file Excel 2013.
 
-**Implementasi Langkah demi Langkah:**
+**Lépésről lépésre történő megvalósítás:**
 1. **Muat Buku Kerja:** Muat file .xls Anda ke dalam `Workbook`.
 
     ```java
@@ -144,10 +146,10 @@ Menentukan versi untuk file Excel 2013.
     ```
 
 ### Dapatkan Versi File Excel (Excel 2007 XLSX)
-#### Ringkasan
+#### Áttekintés
 Ambil versi untuk file Excel 2007 dalam format .xlsx.
 
-**Implementasi Langkah demi Langkah:**
+**Lépésről lépésre történő megvalósítás:**
 1. **Muat Buku Kerja:** Muat file .xlsx Anda ke dalam `Workbook`.
 
     ```java
@@ -160,10 +162,10 @@ Ambil versi untuk file Excel 2007 dalam format .xlsx.
     ```
 
 ### Dapatkan Versi File Excel (Excel 2010 XLSX)
-#### Ringkasan
+#### Áttekintés
 Ambil detail versi untuk file Excel 2010 dalam format .xlsx.
 
-**Implementasi Langkah demi Langkah:**
+**Lépésről lépésre történő megvalósítás:**
 1. **Muat Buku Kerja:** Muat file .xlsx Anda ke dalam `Workbook`.
 
     ```java
@@ -176,10 +178,10 @@ Ambil detail versi untuk file Excel 2010 dalam format .xlsx.
     ```
 
 ### Dapatkan Versi File Excel (Excel 2013 XLSX)
-#### Ringkasan
+#### Áttekintés
 Dapatkan detail versi untuk file Excel 2013 dalam format .xlsx.
 
-**Implementasi Langkah demi Langkah:**
+**Lépésről lépésre történő megvalósítás:**
 1. **Muat Buku Kerja:** Muat file .xlsx Anda ke dalam `Workbook`.
 
     ```java
@@ -191,40 +193,43 @@ Dapatkan detail versi untuk file Excel 2013 dalam format .xlsx.
     System.out.println("Excel 2013 XLSX Version: " + workbook.getBuiltInDocumentProperties().getVersion());
     ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut ini adalah beberapa aplikasi praktis untuk mengambil versi file Excel:
-1. **Integrasi Data:** Pastikan kompatibilitas saat mengintegrasikan data dari berbagai sumber ke dalam sistem terpadu.
+1. **Adatintegráció:** Pastikan kompatibilitas saat mengintegrasikan data dari berbagai sumber ke dalam sistem terpadu.
 2. **Proyek Migrasi:** Lacak dan kelola kontrol versi selama migrasi file Excel antara berbagai platform.
-3. **Skrip Otomatisasi:** Gunakan dalam skrip otomatisasi untuk menangani berkas berdasarkan versi Excel spesifiknya.
+3. **Automatizálási szkriptek:** Gunakan dalam skrip otomatisasi untuk menangani berkas berdasarkan versi Excel spesifiknya.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells untuk Java:
-- **Manajemen Sumber Daya:** Pastikan pembuangan yang tepat `Workbook` objek untuk membebaskan sumber daya.
-- **Penggunaan Memori:** Pantau dan kelola penggunaan memori, terutama saat memproses file Excel berukuran besar.
-- **Pemrosesan Batch:** Memproses berkas secara batch jika menangani sejumlah besar dokumen.
+- **Erőforrás-gazdálkodás:** Pastikan pembuangan yang tepat `Workbook` objek untuk membebaskan sumber daya.
+- **Memóriahasználat:** Pantau dan kelola penggunaan memori, terutama saat memproses file Excel berukuran besar.
+- **Kötegelt feldolgozás:** Memproses berkas secara batch jika menangani sejumlah besar dokumen.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami mengeksplorasi bagaimana Aspose.Cells untuk Java dapat dimanfaatkan untuk mengambil nomor versi dari berbagai format file Excel. Dengan mengikuti langkah-langkah yang diuraikan, Anda dapat mengintegrasikan fungsi-fungsi ini ke dalam aplikasi Anda, memastikan pengelolaan data dan kompatibilitas yang lebih baik.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi lebih banyak fitur yang ditawarkan oleh Aspose.Cells.
 - Bereksperimen dengan properti tambahan yang tersedia melalui `BuiltInDocumentProperties`.
 
 Siap untuk mulai menerapkan solusi ini dalam proyek Anda? Cobalah hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menangani kesalahan saat mengambil versi file Excel?**
    - Pastikan penanganan pengecualian yang tepat di sekitar kode yang mengakses properti buku kerja.
 2. **Bisakah Aspose.Cells untuk Java mengambil informasi dari file yang dilindungi kata sandi?**
-   - Ya, Anda bisa menggunakannya `Workbook` dengan `LoadOptions` objek untuk menentukan kata sandi.
+   - Igen, használhatod `Workbook` dengan `LoadOptions` objek untuk menentukan kata sandi.
 3. **Apa saja kendala umum saat bekerja dengan versi Excel yang berbeda?**
    - Waspadai perbedaan spesifikasi format file antar versi, seperti penanganan proyek VBA atau makro.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

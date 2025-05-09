@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Bao gồm điều này trong `build.gradle` tài liệu:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 1. **Dùng thử miễn phí**:Aspose cung cấp bản dùng thử miễn phí để khám phá các khả năng của thư viện.
 2. **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời để mở rộng quyền truy cập mà không có giới hạn đánh giá.
 3. **Mua**: Hãy cân nhắc mua giấy phép đầy đủ từ [Mua Aspose](https://purchase.aspose.com/buy) để sử dụng lâu dài.
@@ -186,6 +188,9 @@ Hãy bắt đầu sử dụng Aspose.Cells for Java ngay hôm nay để nâng ca
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

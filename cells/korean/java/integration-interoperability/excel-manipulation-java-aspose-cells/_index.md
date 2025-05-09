@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java로 Excel 자동화 - Aspose.Cells를 사용하여 테이블 및 대화형 차트 만들기
@@ -66,7 +68,7 @@ implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 
 ### Aspose.Cells 라이선싱
 
-무료 평가판을 통해 Aspose.Cells for Java를 탐색해 보거나, 임시 라이선스를 요청하거나, 상업용 라이선스를 구매하여 평가 제한 없이 모든 기능을 활용하세요.
+무료 평가판을 통해 Aspose.Cells for Java를 탐색해 보거나, 임시 라이선스를 요청하거나, 상업용 라이선스를 구매하여 평가판 제한 없이 모든 기능을 활용하세요.
 
 #### 기본 통합 문서 초기화:
 
@@ -287,6 +289,9 @@ Aspose.Cells for Java의 기능을 활용하여 다양한 비즈니스 프로세
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

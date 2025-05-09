@@ -1,43 +1,48 @@
 ---
-title: Horizontální textová alianza v programu Excel s Aspose.Cells
-weight: 7700
-limit: 
-description: Naučte se, jak horizontálně vyrovnat text v buňkách programu Excel pomocí Aspose.Cells pro .NET s jednoduchým příkladem.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /cs/net/formatting/text-alignment-horizontal/
+"description": "Naučte se, jak vodorovně zarovnat text v buňkách aplikace Excel pomocí Aspose.Cells pro .NET s jednoduchým příkladem."
+"title": "Horizontální zarovnání textu v Excelu s Aspose.Cells"
+"url": "/cs/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Horizontální textová alianza v programu Excel s Aspose.Cells
+# Horizontální zarovnání textu v Excelu s Aspose.Cells
 
-Tento příklad ukazuje, jak použít Aspose.Cells pro .NET k vytvoření souboru Excel a nastavení horizontálního textového vyrovnání v konkrétní buňce. Tutorial vás vede iniciativizováním pracovního seznamu, úpravou vlastností buňky a ukládáním souboru v formátu Excel 97-2003.
+Tento příklad ukazuje, jak pomocí Aspose.Cells pro .NET vytvořit soubor aplikace Excel a nastavit vodorovné zarovnání textu v určité buňce. Výukový program vás provede inicializací sešitu, úpravou vlastností buňky a uložením souboru ve formátu Excel 97-2003. Ideální pro vývojáře, kteří si chtějí zlepšit dovednosti v manipulaci s excelovými soubory pomocí Aspose.Cells.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci
-1. Stáhněte a instalujte Aspose.Cells pro .NET z [Aspose vydává stránku](https://releases.aspose.com/cells/net/)\- Ne , ne .  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
-3. Použijte NuGet Package Manager k instalaci Aspose.Cells:  
+## Pokyny k instalaci
+1. Stáhněte a nainstalujte Aspose.Cells pro .NET z [Stránka s vydáním Aspose](https://releases.aspose.com/cells/net/).  
+2. Přidejte do svého projektu C# odkaz na Aspose.Cells.dll.  
+3. K instalaci Aspose.Cells použijte Správce balíčků NuGet:  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. Importujte požadované jmenné prostory do souboru C#:  
    ```csharp
    using Aspose.Cells;
    ```
 
 ## Viz také  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne . 
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

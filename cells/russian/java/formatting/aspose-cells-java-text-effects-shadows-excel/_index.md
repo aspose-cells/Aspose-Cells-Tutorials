@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ wb.save(dataDir + "STESOfShapeOrTextbox_out.xlsx", SaveFormat.XLSX);
 
 ## Заключение
 
-Вы узнали, как добавлять текстовые эффекты тени к фигурам и текстовым полям в Excel с помощью Aspose.Cells для Java. Эта функция может значительно улучшить визуальную привлекательность ваших отчетов, сделав их более интересными и профессиональными.
+Вы узнали, как добавлять текстовые эффекты теней к фигурам и текстовым полям в Excel с помощью Aspose.Cells для Java. Эта функция может значительно улучшить визуальную привлекательность ваших отчетов, сделав их более интересными и профессиональными.
 
 ### Следующие шаги
 - Поэкспериментируйте с различными настройками теней.
@@ -201,6 +203,9 @@ A5: Да, эффективное управление памятью и прим
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

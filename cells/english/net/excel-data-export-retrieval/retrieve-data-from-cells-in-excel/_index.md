@@ -8,7 +8,9 @@ url: /net/excel-data-export-retrieval/retrieve-data-from-cells-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Retrieve Data from Cells in Excel
@@ -163,6 +165,7 @@ Yes, Aspose offers a temporary license for evaluation purposes. You can find mor
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

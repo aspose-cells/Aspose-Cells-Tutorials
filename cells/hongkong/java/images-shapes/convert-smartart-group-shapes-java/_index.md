@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ public class LoadWorkbook {
 
 ### 存取工作表和形狀
 
-**概述**：存取特定工作表以及其中的形狀以進行轉換等進一步操作。
+**概述**：存取特定工作表以及其中的形狀，以進行轉換等進一步的操作。
 
 ```java
 import com.aspose.cells.*;
@@ -222,6 +224,9 @@ Aspose.Cells for Java 提供了廣泛的功能來增強您的 Excel 自動化任
 透過遵循本指南，您可以使用 Java 和 Aspose.Cells 有效地管理和轉換 Excel 中的 SmartArt 圖形。這項技能將顯著增強您在 Excel 文件中自動執行複雜任務的能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

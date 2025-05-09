@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Ismerje meg, hogyan kérhet le hatékonyan munkalap egyedi azonosítókat az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a használatot és a gyakorlati alkalmazásokat ismerteti."
-"title": "Munkalap egyedi azonosítók lekérése az Aspose.Cells segítségével Java-ban – Átfogó útmutató"
+"title": "Munkalap egyedi azonosítók lekérése az Aspose.Cells for Java segítségével – Átfogó útmutató"
 "url": "/hu/java/worksheet-management/retrieve-unique-ids-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Vedd bele ezt a `build.gradle` fájl:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió**Az Aspose ingyenes próbaverziót kínál a könyvtár képességeinek felfedezéséhez.
 2. **Ideiglenes engedély**: Ideiglenes licenc igénylése a kibővített hozzáféréshez, értékelési korlátozások nélkül.
 3. **Vásárlás**: Fontolja meg a teljes licenc megvásárlását a következőtől: [Aspose vásárlás](https://purchase.aspose.com/buy) hosszú távú használatra.
@@ -104,7 +106,7 @@ A `Workbook` Az osztály egy teljes Excel fájlt jelöl, így az összes munkala
 
 Miután a munkafüzet betöltődött, hozzáférhetsz az egyes munkalapokhoz:
 
-#### 2. lépés: Szerezd meg az első munkalapot
+#### 2. lépés: Az első munkalap beszerzése
 ```java
 import com.aspose.cells.Worksheet;
 
@@ -152,7 +154,7 @@ Az útmutató követésével megtanultad, hogyan kérhetsz le egyedi munkalap-az
 
 ### Következő lépések:
 - Fedezze fel az Aspose.Cells további funkcióit, mint például a diagramkezelés vagy a képletszámítás.
-- Integrálja ezt a funkciót nagyobb projektekbe az Excel-fájlok átfogó kezelése érdekében.
+- Integrálja ezt a funkciót nagyobb projektekbe az átfogó Excel-fájlkezelés érdekében.
 
 Készen áll a megvalósításra? Próbáljon meg egyedi azonosítókat lekérni különböző munkalapokról, és nézze meg, hogyan egyszerűsíti ez a folyamatait!
 
@@ -186,6 +188,9 @@ Kezdje el használni az Aspose.Cells for Java-t még ma, hogy fejlessze Excel ad
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

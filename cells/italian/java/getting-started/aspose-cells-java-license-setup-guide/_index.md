@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ Aspose.Cells per Java può essere integrato in vari scenari reali:
 ## Considerazioni sulle prestazioni
 
 Per ottimizzare le prestazioni quando si lavora con Aspose.Cells:
-- Gestire le risorse in modo efficiente mediante lo smaltimento `Workbook` oggetti subito dopo l'uso.
+- Gestire le risorse in modo efficiente smaltindole `Workbook` oggetti subito dopo l'uso.
 - Utilizzare le tecniche di gestione della memoria di Java, come l'impostazione delle opzioni JVM appropriate (`-Xms`, `-Xmx`) per gestire file di grandi dimensioni.
 
 ## Conclusione
@@ -185,7 +187,7 @@ Pronti a implementare queste soluzioni nei vostri progetti? Andate su [Documenta
 4. **Cosa succede se la mia applicazione genera un errore di licenza?**
    - Controlla il percorso del file di licenza, assicurati che la tua versione di Aspose.Cells sia compatibile con la tua licenza e verifica di averla applicata correttamente.
 
-5. **Come posso ottenere supporto se riscontro dei problemi?**
+5. **Come posso ottenere supporto se riscontro problemi?**
    - Visita il [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9) per ricevere assistenza dai membri della comunità e dal personale di supporto ufficiale.
 
 ## Risorse
@@ -196,6 +198,9 @@ Pronti a implementare queste soluzioni nei vostri progetti? Andate su [Documenta
 - **Supporto**: Hai bisogno di aiuto? Il [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9) è la tua risorsa di riferimento.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

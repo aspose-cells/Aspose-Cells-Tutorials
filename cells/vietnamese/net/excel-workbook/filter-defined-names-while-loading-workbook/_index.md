@@ -1,14 +1,16 @@
 ---
-title: Lọc tên được xác định trong khi tải sổ làm việc
-linktitle: Lọc tên được xác định trong khi tải sổ làm việc
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách lọc các tên đã xác định khi tải sổ làm việc bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này.
-weight: 100
-url: /vi/net/excel-workbook/filter-defined-names-while-loading-workbook/
+"description": "Tìm hiểu cách lọc các tên đã xác định khi tải sổ làm việc bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Lọc tên được xác định trong khi tải sổ làm việc"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Lọc tên được xác định trong khi tải sổ làm việc"
+"url": "/vi/net/excel-workbook/filter-defined-names-while-loading-workbook/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lọc tên được xác định trong khi tải sổ làm việc
@@ -22,9 +24,9 @@ Nếu bạn đang tìm hiểu về thao tác tệp Excel với Aspose.Cells cho 
 Trước khi bắt đầu, hãy đảm bảo bạn có đủ mọi công cụ cần thiết. Sau đây là những gì bạn cần:
 
 - Kiến thức cơ bản về lập trình C#: Bạn phải quen thuộc với cú pháp và khái niệm lập trình.
--  Aspose.Cells cho thư viện .NET: Đảm bảo bạn đã cài đặt và sẵn sàng sử dụng. Bạn có thể tải xuống thư viện từ đây[liên kết](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho thư viện .NET: Đảm bảo bạn đã cài đặt và sẵn sàng sử dụng. Bạn có thể tải xuống thư viện từ đây [liên kết](https://releases.aspose.com/cells/net/).
 - Visual Studio hoặc bất kỳ IDE C# nào: Môi trường phát triển rất quan trọng để viết và kiểm tra mã của bạn.
--  Tệp Excel mẫu: Chúng tôi sẽ sử dụng tệp Excel có tên`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`. Bạn có thể tạo tệp này theo cách thủ công hoặc tải xuống khi cần.
+- Tệp Excel mẫu: Chúng tôi sẽ sử dụng tệp Excel có tên `sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`. Bạn có thể tạo tệp này theo cách thủ công hoặc tải xuống khi cần.
 
 ## Nhập gói
 
@@ -43,13 +45,13 @@ Chúng ta hãy chia nhỏ quá trình lọc các tên đã xác định trong kh
 
 ## Bước 1: Chỉ định Tùy chọn Tải
 
- Điều đầu tiên chúng ta sẽ làm là tạo một phiên bản của`LoadOptions` lớp. Lớp này sẽ giúp chúng ta chỉ định cách chúng ta muốn tải tệp Excel của mình.
+Điều đầu tiên chúng ta sẽ làm là tạo một phiên bản của `LoadOptions` lớp. Lớp này sẽ giúp chúng ta chỉ định cách chúng ta muốn tải tệp Excel của mình.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
 ```
 
- Ở đây, chúng ta đang khởi tạo một đối tượng mới của`LoadOptions` lớp. Đối tượng này cho phép nhiều cấu hình khác nhau, chúng ta sẽ thiết lập ở bước tiếp theo.
+Ở đây, chúng ta đang khởi tạo một đối tượng mới của `LoadOptions` lớp. Đối tượng này cho phép nhiều cấu hình khác nhau, chúng ta sẽ thiết lập ở bước tiếp theo.
 
 ## Bước 2: Thiết lập Bộ lọc tải
 
@@ -59,7 +61,7 @@ Tiếp theo, chúng ta cần xác định dữ liệu nào chúng ta muốn lọ
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Dấu ngã (~toán tử biểu thị rằng chúng ta muốn loại trừ các tên đã xác định khỏi quá trình tải. Điều này rất quan trọng nếu bạn muốn giữ khối lượng công việc của mình nhẹ và tránh dữ liệu không cần thiết có thể làm phức tạp quá trình xử lý của bạn.
+Toán tử dấu ngã (~) biểu thị rằng chúng ta muốn loại trừ các tên đã xác định khỏi quá trình tải. Điều này rất quan trọng nếu bạn muốn giữ khối lượng công việc của mình nhẹ và tránh dữ liệu không cần thiết có thể làm phức tạp quá trình xử lý của bạn.
 
 ## Bước 3: Tải Workbook
 
@@ -69,7 +71,7 @@ Bây giờ tùy chọn tải của chúng ta đã được chỉ định, đã �
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Trong dòng này, bạn đang tạo một phiên bản mới của`Workbook` lớp, truyền đường dẫn đến tệp Excel mẫu của bạn và các tùy chọn tải. Thao tác này tải sổ làm việc của bạn với các tên đã xác định được lọc ra theo chỉ định.
+Trong dòng này, bạn đang tạo một phiên bản mới của `Workbook` lớp, truyền đường dẫn đến tệp Excel mẫu của bạn và các tùy chọn tải. Thao tác này tải sổ làm việc của bạn với các tên đã xác định được lọc ra theo chỉ định.
 
 ## Bước 4: Lưu tệp đầu ra
 
@@ -109,13 +111,15 @@ Có, Aspose.Cells cung cấp nhiều tùy chọn tải khác nhau để lọc c�
 Lọc các tên đã xác định có thể dẫn đến các công thức bị hỏng nếu chúng tham chiếu đến các tên đó. Bạn sẽ cần điều chỉnh các công thức của mình cho phù hợp.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?
- Có, bạn có thể dùng thử Aspose.Cells miễn phí để kiểm tra khả năng của nó trước khi mua. Hãy xem thử[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells miễn phí để kiểm tra khả năng của nó trước khi mua. Hãy xem thử [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tham khảo Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện và nhiều ví dụ hơn trên trang tham khảo Aspose.Cells [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

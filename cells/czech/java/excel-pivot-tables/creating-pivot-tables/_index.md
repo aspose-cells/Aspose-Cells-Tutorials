@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytváření kontingenčních tabulek
@@ -102,9 +104,11 @@ V tomto tutoriálu jsme si prošli procesem vytváření kontingenčních tabule
    Vytváření kontingenčních tabulek v Javě můžete automatizovat pomocí rozhraní Aspose.Cells for Java API, jak je ukázáno v tomto tutoriálu.
 
 Nyní máte znalosti a kód pro vytváření výkonných kontingenčních tabulek v Javě pomocí Aspose.Cells. Experimentujte s různými zdroji dat a konfiguracemi, abyste si kontingenční tabulky přizpůsobili svým specifickým potřebám. Přejeme vám příjemnou analýzu dat!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

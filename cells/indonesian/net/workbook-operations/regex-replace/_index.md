@@ -1,45 +1,47 @@
 ---
-title: Penggantian Regex di Buku Kerja menggunakan Aspose.Cells
-linktitle: Penggantian Regex di Buku Kerja menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara melakukan penggantian regex di buku kerja Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami.
-weight: 25
-url: /id/net/workbook-operations/regex-replace/
+"description": "Ismerje meg, hogyan végezhet reguláris kifejezések cseréjét Excel-munkafüzetekben az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal."
+"linktitle": "Regex csere munkafüzetben az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Regex csere munkafüzetben az Aspose.Cells használatával"
+"url": "/id/net/workbook-operations/regex-replace/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Penggantian Regex di Buku Kerja menggunakan Aspose.Cells
+# Regex csere munkafüzetben az Aspose.Cells használatával
 
-## Perkenalan
+## Bevezetés
 
-Selamat datang, sesama pengembang dan penggemar spreadsheet! Jika Anda pernah merasa terjerat dalam jaringan data yang perlu disempurnakan, Anda tidak sendirian. Terkadang, Anda hanya perlu mengubah istilah tertentu di ratusan (atau ribuan) sel dalam buku kerja Excel Anda. Untungnya, Aspose.Cells for .NET hadir untuk menyelamatkan dengan kemampuannya yang hebat, bahkan memungkinkan Anda untuk menggunakan ekspresi reguler untuk penggantian yang ditargetkan.
-## Prasyarat
+Üdvözlünk fejlesztőtársaink és táblázatkezelő-rajongók! Ha valaha is belekeveredett egy finomításra szoruló adathalmazba, nem vagy egyedül. Néha csak egy adott kifejezést kell módosítanod több száz (vagy ezer) cellában az Excel-munkafüzetedben. Szerencsére az Aspose.Cells for .NET hatékony képességeivel segít, sőt, reguláris kifejezések használatát is lehetővé teszi célzott cserékhez.
+## Előfeltételek
 
-Sebelum kita menyelami seluk-beluk penggunaan Aspose.Cells, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
+Mielőtt belemerülnénk az Aspose.Cells használatának részleteibe, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szükségünk van:
 
-- .NET Framework: Pastikan Anda telah menginstal .NET Framework, karena Aspose.Cells beroperasi dalam lingkungan ini.
--  Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh pustaka Aspose.Cells dari[lokasi](https://releases.aspose.com/cells/net/).
-- IDE (Integrated Development Environment): Microsoft Visual Studio sangat direkomendasikan, karena menyederhanakan pembuatan dan menjalankan aplikasi .NET.
-- Pengetahuan Pemrograman Dasar: Keakraban dengan konsep pemrograman dalam C# pasti akan membantu Anda mengikutinya dengan lancar.
+- .NET-keretrendszer: Győződjön meg róla, hogy telepítve van a .NET-keretrendszer, mivel az Aspose.Cells ebben a környezetben működik.
+- Aspose.Cells .NET-hez: Ha még nem tette meg, töltse le az Aspose.Cells könyvtárat a következő helyről: [telek](https://releases.aspose.com/cells/net/).
+- IDE (Integrált fejlesztői környezet): A Microsoft Visual Studio használata erősen ajánlott, mivel leegyszerűsíti a .NET alkalmazások építését és futtatását.
+- Alapvető programozási ismeretek: A C# programozási fogalmak ismerete mindenképpen segíteni fog a gördülékeny haladásban.
 
-Sekarang setelah prasyarat kita terpenuhi, mari kita lanjutkan!
+Most, hogy tisztában vagyunk az előfeltételeinkkel, lépjünk tovább!
 
-## Paket Impor
+## Csomagok importálása
 
-Langkah pertama dalam petualangan pemrograman kita adalah mengimpor paket-paket yang diperlukan. Dalam C#, ini berarti menambahkan referensi ke pustaka yang akan Anda gunakan dalam proyek Anda. Berikut cara melakukannya:
+Programozási kalandunk első lépése a szükséges csomagok importálása. C#-ban ez azt jelenti, hogy hivatkozásokat kell hozzáadni a projektben használni kívánt könyvtárakhoz. Így teheted meg:
 
-### Siapkan Proyek Anda
-1. Buka Visual Studio: Luncurkan Visual Studio dan buat proyek aplikasi konsol baru.
-2. Tambahkan Referensi ke Aspose.Cells: 
-- Klik kanan pada proyek Anda di Solution Explorer.
-- Klik “Kelola Paket NuGet.”
-- Cari "Aspose.Cells" dan klik "Instal".
+### Projekt beállítása
+1. Nyissa meg a Visual Studio-t: Indítsa el a Visual Studio-t, és hozzon létre egy új konzolalkalmazás-projektet.
+2. Hivatkozás hozzáadása az Aspose.Cells fájlhoz: 
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+- Kattintson a „NuGet-csomagok kezelése” elemre.
+- Keresd meg az „Aspose.Cells” fájlt, és kattints a „Telepítés” gombra.
 
-### Tambahkan Menggunakan Arahan
-Sekarang, mari kita nyatakan namespace yang diperlukan di bagian atas file C# Anda:
+### Hozzáadás direktívák használatával
+Most pedig deklaráljuk a szükséges névtereket a C# fájl tetején:
 
 ```csharp
 using Aspose.Cells;
@@ -47,29 +49,29 @@ using Aspose.Cells.Replacing;
 using System;
 ```
 
-Hal ini penting karena memberi tahu kompiler kelas dan metode apa yang akan Anda gunakan dari pustaka Aspose.Cells. 
+Ez kulcsfontosságú, mivel ez mondja meg a fordítónak, hogy az Aspose.Cells könyvtár mely osztályait és metódusait tervezed használni. 
 
-## Langkah 1: Tentukan Direktori Sumber dan Output Anda
-Hal pertama yang harus dilakukan! Anda perlu menentukan di mana file Excel Anda disimpan dan di mana menyimpan file yang dimodifikasi. Dalam kode, tampilannya seperti ini:
+## 1. lépés: A forrás- és kimeneti könyvtár meghatározása
+Először is a legfontosabb! Meg kell határoznod, hogy hol tárolódnak az Excel-fájlok, és hová mentsd a módosított fájlt. Kódban ez így néz ki:
 
 ```csharp
 string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"`dengan jalur dokumen Anda yang sebenarnya. Ini menjadi dasar untuk langkah selanjutnya. 
+Csere `"Your Document Directory"` a dokumentumok tényleges útvonalával. Ez megalapozza a következő lépéseket. 
 
-## Langkah 2: Muat Buku Kerja
-Selanjutnya, kita akan memuat buku kerja Excel Anda menggunakan Aspose.Cells. Berikut ini adalah rincian kode untuk melakukannya:
+## 2. lépés: A munkafüzet betöltése
+Ezután betöltjük az Excel munkafüzetedet az Aspose.Cells használatával. Íme a kód lebontása, amely ezt megvalósítja:
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ```
 
- Di sini, kita sedang membuat`Workbook` objek dengan memberikan jalur ke berkas Excel kita. Ingat, Anda perlu memiliki berkas bernama`SampleRegexReplace.xlsx` di direktori sumber yang Anda tentukan! Ini seperti menyiapkan peralatan sebelum Anda mulai membangun!
+Itt létrehozunk egy `Workbook` objektumot az Excel-fájlunk elérési útjának megadásával. Ne feledd, szükséged lesz egy fájlra, amelynek a neve `SampleRegexReplace.xlsx` a megadott forráskönyvtárban! Olyan, mintha előkészítenéd az eszközeidet, mielőtt elkezdenéd a buildelést!
 
-## Langkah 3: Siapkan Opsi Penggantian
-Sekarang, untuk menyesuaikan perilaku penggantian regex, kita harus menentukan beberapa opsi penggantian:
+## 3. lépés: Cserebeállítások beállítása
+reguláris kifejezések helyettesítési viselkedésének testreszabásához meg kell határoznunk néhány csereopciót:
 
 ```csharp
 ReplaceOptions replace = new ReplaceOptions();
@@ -78,65 +80,67 @@ replace.MatchEntireCellContents = false;
 replace.RegexKey = true;
 ```
 
-- CaseSensitive: Ini akan memungkinkan Anda memutuskan apakah pencarian harus membedakan antara huruf besar dan huruf kecil.
--  MatchEntireCellContents: Saat diatur ke`false`, ini memungkinkan kecocokan parsial dalam sel.
--  RegexKey: Mengatur ini ke`true` menunjukkan bahwa kunci pencarian adalah pola regex.
+- Kis- és nagybetűérzékeny: Ezzel eldöntheted, hogy a keresés különbséget tegyen-e a nagy- és kisbetűk között.
+- MatchEntireCellContents: Ha erre van beállítva `false`, lehetővé teszi a cellákon belüli részleges egyezéseket.
+- RegexKey: Beállítás erre: `true` azt jelzi, hogy a keresési kulcs egy reguláris kifejezésminta.
 
-## Langkah 4: Lakukan Penggantian Regex
-Kini tibalah saatnya yang ajaib—melaksanakan penggantian!
+## 4. lépés: Végezze el a reguláris kifejezés cseréjét
+Most jön a varázslatos pillanat – a csere végrehajtása!
 
 ```csharp
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 ```
 
-Pada langkah ini, kami memberi tahu Aspose.Cells:
--  Carilah seluruh kata "KIM" (terima kasih kepada`\\b` batas) dan menggantinya dengan "^^^TIM^^^". 
+Ebben a lépésben a következőket mondjuk az Aspose.Cells függvénynek:
+- Keresd meg a teljes "KIM" szót (köszönet a `\\b` határokat), és cseréld le "^^^TIM^^^"-re. 
 
-Anggap regex sebagai dokter bedah yang terampil; ia teliti dan hanya menghilangkan apa yang diperlukan!
+Gondolj a reguláris kifejezésre úgy, mint egy képzett sebészre; precíz és csak a legszükségesebbeket távolítja el!
 
-## Langkah 5: Simpan Buku Kerja Output
-Setelah kita membuat perubahan, saatnya menyimpan buku kerja kita yang telah diperbarui:
+## 5. lépés: A kimeneti munkafüzet mentése
+Miután elvégeztük a módosításokat, itt az ideje menteni a frissített munkafüzetet:
 
 ```csharp
 workbook.Save(outputDir + "RegexReplace_out.xlsx");
 ```
 
- Di sini, kami menyimpan buku kerja kami yang dimodifikasi sebagai`RegexReplace_out.xlsx` di direktori keluaran yang ditentukan. 
+Itt mentjük el a módosított munkafüzetünket, mint `RegexReplace_out.xlsx` a megadott kimeneti könyvtárban. 
 
-## Langkah 6: Pesan Konfirmasi
-Terakhir namun tidak kalah pentingnya, mari kita berikan juga umpan balik di konsol untuk menunjukkan bahwa semua yang kita rencanakan berjalan lancar:
+## 6. lépés: Megerősítő üzenet
+Végül, de nem utolsósorban, adjunk némi visszajelzést a konzolon is, jelezve, hogy minden, amit terveztünk, zökkenőmentesen sikerült:
 
 ```csharp
 Console.WriteLine("RegexReplace executed successfully.");
 ```
 
-Pesan ini hanyalah cara sederhana untuk memberi tahu Anda bahwa tugas Anda telah selesai dan pengganti Anda telah dieksekusi!
+Ez az üzenet csupán egy egyszerű módja annak, hogy tudasd veled, hogy a feladatod elkészült, és a helyettesedet kivégezték!
 
-## Kesimpulan
+## Következtetés
 
-Nah, itu dia! Anda baru saja mempelajari cara melakukan penggantian regex di buku kerja Excel menggunakan Aspose.Cells for .NET. Dengan alat-alat canggih ini, Anda dapat dengan mudah menaklukkan tugas pembersihan dan manipulasi data dengan sangat baik. Keindahan penggunaan regex adalah ia menambahkan lapisan presisi ekstra, yang memungkinkan Anda menyesuaikan operasi pencarian dan penggantian dengan kebutuhan spesifik Anda.
+És tessék! Most tanultad meg, hogyan kell reguláris kifejezéseket helyettesíteni Excel-munkafüzetekben az Aspose.Cells for .NET segítségével. Ezekkel a hatékony eszközökkel könnyedén és kifinomultan végezheted el az adattisztítási és -kezelési feladatokat. A reguláris kifejezések használatának szépsége abban rejlik, hogy extra pontossági réteget biztosít, lehetővé téve a keresési és csereműveletek testreszabását az adott igényekre szabva.
 
-Jadi, apa rencana Anda selanjutnya? Cobalah memperluas pola regex Anda atau mengintegrasikan fungsi ini ke dalam aplikasi pemrosesan data yang lebih besar. Semakin banyak Anda bereksperimen, semakin Anda akan menguasai keterampilan ini!
+Szóval, mi a következő lépés? Próbáld ki a reguláris kifejezések mintáinak bővítését, vagy integráld ezt a funkciót nagyobb adatfeldolgozó alkalmazásokba. Minél többet kísérletezel, annál jobban elsajátítod ezeket a készségeket!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka yang hebat untuk bekerja dengan file Excel dalam aplikasi .NET, yang memungkinkan Anda membuat, memanipulasi, dan mengonversi lembar kerja dengan mudah.
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony függvénykönyvtár, amely lehetővé teszi az Excel-fájlok egyszerű használatát .NET alkalmazásokban, lehetővé téve a táblázatok létrehozását, kezelését és konvertálását.
 
-### Mengapa menggunakan regex untuk penggantian?
-Regex memungkinkan Anda melakukan operasi pencarian dan penggantian kompleks yang melampaui pencocokan teks sederhana, membuatnya sempurna untuk tugas pemrosesan data.
+### Miért használjunk reguláris kifejezést cserékhez?
+A regex lehetővé teszi az egyszerű szövegegyeztetésen túlmutató összetett keresési és csereműveletek végrehajtását, így tökéletes az adatfeldolgozási feladatokhoz.
 
-### Apakah Aspose.Cells gratis?
-Aspose.Cells menawarkan uji coba gratis, tetapi lisensi diperlukan untuk penggunaan lebih lanjut. Periksa[Di Sini](https://purchase.aspose.com/buy) untuk lebih jelasnya.
+### Ingyenes az Aspose.Cells?
+Az Aspose.Cells ingyenes próbaverziót kínál, de a folyamatos használathoz licenc szükséges. Ellenőrizze [itt](https://purchase.aspose.com/buy) további részletekért.
 
-### Bisakah saya menggunakan Aspose.Cells di macOS?
-Aspose.Cells dibuat untuk .NET; namun, Anda dapat menjalankan aplikasi .NET di macOS melalui .NET Core atau .NET 5+.
+### Használhatom az Aspose.Cells-t macOS rendszeren?
+Az Aspose.Cells .NET-re készült; azonban .NET alkalmazásokat futtathatsz macOS rendszeren .NET Core vagy .NET 5+ rendszeren keresztül.
 
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dan pertanyaan.
+### Hol találok támogatást az Aspose.Cells-hez?
+Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose Fórum](https://forum.aspose.com/c/cells/9) segítségért és kérdésekért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

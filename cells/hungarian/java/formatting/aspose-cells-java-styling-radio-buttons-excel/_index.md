@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Magyarázat:
-- **`Workbook`**: Egy Excel fájlt jelöl.
+- **`Workbook`**Egy Excel fájlt jelöl.
 - **`Worksheet`**: A munkafüzet egy munkalapjára hivatkozik.
 - **`Cells`**: Cellák gyűjteménye a munkalapon.
 - **`Style`**: Cellák formázására szolgál.
@@ -200,6 +202,9 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan hozhat létre és formázha
 - **Dokumentáció**Átfogó útmutatók és API-referenciák találhatók a következő címen: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

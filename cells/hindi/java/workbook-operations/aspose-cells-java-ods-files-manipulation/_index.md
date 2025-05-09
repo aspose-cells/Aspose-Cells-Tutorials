@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ ImageIO.write(image, "png", new File(outDir + "/background.png"));
 अब आप Aspose.Cells for Java के साथ ODS फ़ाइलों को लोड करने और उनमें हेरफेर करने में माहिर हो गए हैं। वर्कशीट तक पहुँचने से लेकर बैकग्राउंड विवरण निकालने तक, आप परिष्कृत स्प्रेडशीट प्रोसेसिंग क्षमताओं के साथ अपने अनुप्रयोगों को बढ़ाने के लिए सुसज्जित हैं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

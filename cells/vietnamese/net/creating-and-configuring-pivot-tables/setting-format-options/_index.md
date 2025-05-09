@@ -1,14 +1,16 @@
 ---
-title: Thiết lập tùy chọn định dạng của Pivot Table trong .NET
-linktitle: Thiết lập tùy chọn định dạng của Pivot Table trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách sử dụng Aspose.Cells cho .NET để định dạng Pivot Table dễ dàng. Khám phá các kỹ thuật từng bước để cải thiện cách trình bày dữ liệu của bạn.
-weight: 20
-url: /vi/net/creating-and-configuring-pivot-tables/setting-format-options/
+"description": "Học cách sử dụng Aspose.Cells cho .NET để định dạng Pivot Table dễ dàng. Khám phá các kỹ thuật từng bước để cải thiện cách trình bày dữ liệu của bạn."
+"linktitle": "Thiết lập tùy chọn định dạng của Pivot Table trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập tùy chọn định dạng của Pivot Table trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/setting-format-options/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập tùy chọn định dạng của Pivot Table trong .NET
@@ -19,7 +21,7 @@ Bạn đã bao giờ cảm thấy choáng ngợp trước khối lượng dữ l
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã trang bị mọi thứ cần thiết để thành công. Sau đây là các điều kiện tiên quyết:
 1. Kiến thức cơ bản về C#: Bạn nên có hiểu biết cơ bản về ngôn ngữ lập trình C#. Nếu bạn thoải mái với những điều cơ bản, bạn đã sẵn sàng để giải quyết vấn đề này!
 2. Visual Studio hoặc bất kỳ IDE C# nào: Bạn sẽ cần có một môi trường phát triển tích hợp (IDE) như Visual Studio. Đây chính là nơi phép thuật xảy ra. 
-3. Thư viện Aspose.Cells: Để khai thác sức mạnh của Aspose.Cells, bạn sẽ cần tải xuống gói này. Bạn có thể dễ dàng tìm thấy nó tại[Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Để khai thác sức mạnh của Aspose.Cells, bạn sẽ cần tải xuống gói này. Bạn có thể dễ dàng tìm thấy nó tại [Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 4. Tệp Excel: Cần có tệp Excel mẫu để thực hành hướng dẫn. Bạn có thể thoải mái tạo một tập dữ liệu đơn giản trong bảng tính Excel (như "Book1.xls") cho bài tập này.
 5. .NET Framework: Đảm bảo rằng .NET Framework đã được cài đặt trên máy tính của bạn.
 Bạn đã hiểu hết chưa? Tuyệt vời! Bây giờ, chúng ta hãy cùng bắt đầu bước đầu tiên.
@@ -30,8 +32,8 @@ Mở Visual Studio (hoặc bất kỳ IDE C# nào bạn đang sử dụng) và t
 ### Thêm tham chiếu Aspose.Cells
 1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 2. Chọn Quản lý gói NuGet.
-3.  Trong hộp tìm kiếm, nhập`Aspose.Cells` và cài đặt nó.
-Bây giờ, bạn đã sẵn sàng để đưa thư viện vào. Bạn sẽ cần thêm chỉ thị using sau vào đầu tệp mã của mình:
+3. Trong hộp tìm kiếm, nhập `Aspose.Cells` và cài đặt nó.
+Bây giờ, bạn đã sẵn sàng để đưa thư viện vào. Bạn sẽ cần thêm lệnh using sau vào đầu tệp mã của mình:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -45,9 +47,9 @@ Sau khi đã nắm được cơ bản, chúng ta hãy cùng xem xét từng ph�
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp "Book1.xls" của bạn. Điều này giúp chương trình biết nơi tìm tệp đầu vào.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp "Book1.xls" của bạn. Điều này giúp chương trình biết nơi tìm tệp đầu vào.
 ## Bước 2: Tải tệp mẫu
- Tiếp theo, chúng ta sẽ tải tệp Excel mà chúng ta muốn thao tác. Điều này được thực hiện bằng cách sử dụng`Workbook` lớp học.
+Tiếp theo, chúng ta sẽ tải tệp Excel mà chúng ta muốn thao tác. Điều này được thực hiện bằng cách sử dụng `Workbook` lớp học.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
@@ -70,7 +72,7 @@ Hãy bắt đầu định dạng! Chúng ta có thể cấu hình xem có hiển
 ```csharp
 pivotTable.RowGrand = true;
 ```
- Đặt thuộc tính này thành`true` sẽ hiển thị tổng số ở cuối mỗi hàng trong Bảng Pivot của bạn. Đây là cách đơn giản nhưng hiệu quả để cung cấp bản tóm tắt.
+Đặt thuộc tính này thành `true` sẽ hiển thị tổng số ở cuối mỗi hàng trong Bảng Pivot của bạn. Đây là cách đơn giản nhưng hiệu quả để cung cấp bản tóm tắt.
 ## Bước 6: Đặt Tổng số của Bảng Pivot cho các Cột
 Cũng giống như cách chúng ta thiết lập tổng cho các hàng, chúng ta cũng có thể làm như vậy cho các cột.
 ```csharp
@@ -109,10 +111,12 @@ Có, Aspose.Cells cho phép bạn tạo, sửa đổi và thao tác Bảng Pivot
 ### Aspose.Cells có miễn phí không?
 Aspose.Cells là một thư viện trả phí, nhưng có bản dùng thử miễn phí.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Kiểm tra các[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để có hướng dẫn và ví dụ chi tiết.
+Kiểm tra các [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để có hướng dẫn và ví dụ chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

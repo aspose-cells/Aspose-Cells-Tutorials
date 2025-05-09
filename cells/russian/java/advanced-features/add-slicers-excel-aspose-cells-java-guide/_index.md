@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@
 - Загрузка существующей книги Excel
 - Доступ к определенному рабочему листу и таблице
 - Добавление среза в таблицу Excel
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Прежде чем углубляться в код, давайте начнем с некоторых предварительных условий.
 
@@ -176,6 +178,9 @@ public class SaveExcelWorkbookWithSlicer {
 - **Пакетная обработка:** Обрабатывайте данные пакетами для оптимизации использования памяти.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ A5: Το αντικείμενο HtmlSaveOptions ρυθμίζει τον τρόπ
 Ακολουθώντας αυτό το σεμινάριο, είστε πλήρως εξοπλισμένοι για να αξιοποιήσετε το Aspose.Cells για Java στα έργα σας, ενισχύοντας την παραγωγικότητα και την αποδοτικότητα. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ A5: Ellenőrizze a [Aspose dokumentáció](https://reference.aspose.com/cells/ja
 
 ## Erőforrás
 - **Dokumentáció**: [Tudjon meg többet az Aspose.Cells Java-hoz való használatáról](https://reference.aspose.com/cells/java/)
-- **Letöltés**: [Szerezd meg az Aspose.Cells legújabb kiadásait Java-hoz](https://releases.aspose.com/cells/java/)
+- **Letöltés**: [Szerezd meg az Aspose.Cells legújabb Java verzióit](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása**: [Vásároljon Aspose termékeket](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Kezdje el ingyenes próbaverzióját még ma](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély**: [Szerezd meg az ideiglenes jogosítványodat itt](https://purchase.aspose.com/temporary-license/)
@@ -147,6 +149,9 @@ A5: Ellenőrizze a [Aspose dokumentáció](https://reference.aspose.com/cells/ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

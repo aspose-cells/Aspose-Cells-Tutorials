@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ workbook.save(outDir + "/AutoFitSample_out.xlsx", SaveFormat.XLSX);
 ```
 
 ## Aplicaciones prácticas
-A continuación se presentan algunos casos de uso reales para estas funciones:
+continuación se presentan algunos casos de uso reales de estas funciones:
 1. **Limpieza de datos**:Automatiza la eliminación de espacios HTML redundantes antes del análisis de datos.
 2. **Informes financieros**:Garantice la claridad en las hojas financieras ajustando automáticamente el ancho de las columnas.
 3. **Gestión de inventario**:Importe de forma limpia datos de inventario desde fuentes web a Excel.
@@ -203,6 +205,9 @@ Al implementar Aspose.Cells para Java, puede administrar eficazmente los espacio
 - [Descargar Aspose.Cells para Java](https://downloads.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

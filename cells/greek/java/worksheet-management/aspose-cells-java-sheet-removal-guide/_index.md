@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ fstream.close();
 Ακολουθώντας αυτόν τον οδηγό, θα είστε άρτια εξοπλισμένοι για να διαχειρίζεστε αποτελεσματικά φύλλα Excel χρησιμοποιώντας το Aspose.Cells σε Java. Ξεκινήστε την εφαρμογή σήμερα και δείτε πώς μπορεί να βελτιώσει τα έργα σας!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

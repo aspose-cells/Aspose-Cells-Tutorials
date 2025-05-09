@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ In questa sezione, personalizzeremo i nomi dei subtotali e dei totali complessiv
 - **Ottimizzare l'utilizzo delle risorse**assicurati che la tua applicazione utilizzi in modo efficiente la memoria quando gestisce grandi set di dati con Aspose.Cells.
 - **Best practice per la gestione della memoria Java**:
   - Utilizzare try-with-resources per gestire le istanze delle cartelle di lavoro.
-  - Eliminare regolarmente gli oggetti inutilizzati dal mucchio.
+  - Eliminare regolarmente dal mucchio gli oggetti inutilizzati.
 
 ## Conclusione
 In questo tutorial, abbiamo spiegato come personalizzare i nomi dei subtotali e dei totali complessivi nei report di Excel utilizzando Aspose.Cells per Java. Implementando le impostazioni di globalizzazione, è possibile creare documenti finanziari multilingue personalizzati in base alle esigenze del pubblico.
@@ -156,6 +158,9 @@ Prova a implementare queste soluzioni nel tuo prossimo progetto per vedere come 
 - **Supporto**: https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Узнайте, как использовать Aspose.Cells для Java для проверки статуса подписи проекта VBA в файле Excel, гарантируя целостность и безопасность данных."
+"description": "Узнайте, как использовать Aspose.Cells для Java для проверки статуса подписи проекта VBA в файле Excel, обеспечивая целостность и безопасность данных."
 "title": "Как проверить подпись проекта VBA в Excel с помощью Aspose.Cells для Java"
 "url": "/ru/java/security-protection/aspose-cells-java-vba-project-check-signature/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ A: Начните с изучения обширной библиотеки фу
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

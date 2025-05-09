@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-column-view-width/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Column View Width in Pixels with Aspose.Cells for .NET
@@ -87,6 +89,7 @@ For support, check out the Aspose forum [here](https://forum.aspose.com/c/cells/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

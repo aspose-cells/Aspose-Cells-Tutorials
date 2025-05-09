@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel から PDF へのエクスポート
@@ -106,9 +108,11 @@ Aspose.Cells は大きな Excel ファイルを効率的に処理できるよう
 Q5: Aspose.Cells の詳細なドキュメントや例はどこで入手できますか?
 
 Aspose.Cells APIドキュメントをご覧ください [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 包括的なドキュメントと豊富な例により、知識をさらに広げることができます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

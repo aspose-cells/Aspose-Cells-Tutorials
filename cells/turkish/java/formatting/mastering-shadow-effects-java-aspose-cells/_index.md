@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Aspose.Cells for Java'yı kullanarak Excel şekillerine gölge efektlerinin nasıl uygulanacağını öğrenin. Profesyonel görsel stil ile elektronik tablolarınızı geliştirin."
+"description": "Aspose.Cells for Java kullanarak Excel şekillerine gölge efektlerinin nasıl uygulanacağını öğrenin. Profesyonel görsel stil ile elektronik tablolarınızı geliştirin."
 "title": "Java'da Aspose.Cells Kullanarak Gölge Efektleri Nasıl Uygulanır? Eksiksiz Bir Kılavuz"
 "url": "/tr/java/formatting/mastering-shadow-effects-java-aspose-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ Bu kılavuz, Aspose.Cells for Java kullanarak Excel belgelerinizi yaratıcı ve 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

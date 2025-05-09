@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Vamos começar! Antes de começar, certifique-se de que você possui os pré-req
 Para começar, certifique-se de ter:
 1. **Biblioteca Aspose.Cells**: Você precisa da biblioteca Aspose.Cells for Java versão 25.3 ou posterior.
 2. **Ambiente de Desenvolvimento**:Seu ambiente deve suportar Maven ou Gradle para gerenciar dependências.
-3. **Conhecimento Java**: É recomendável ter familiaridade básica com programação Java.
+3. **Conhecimento Java**: É recomendável familiaridade básica com programação Java.
 
 ## Configurando Aspose.Cells para Java
 
@@ -210,6 +212,9 @@ Explore mais integrando o Aspose.Cells com outros sistemas ou experimentando dif
 Comece a usar o Aspose.Cells para Java hoje mesmo para aprimorar seus recursos de visualização de dados!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

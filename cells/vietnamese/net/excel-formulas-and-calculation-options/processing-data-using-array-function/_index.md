@@ -1,14 +1,16 @@
 ---
-title: Xử lý dữ liệu bằng hàm mảng trong Excel
-linktitle: Xử lý dữ liệu bằng hàm mảng trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Tìm hiểu cách xử lý dữ liệu bằng các hàm mảng trong hướng dẫn chi tiết này.
-weight: 17
-url: /vi/net/excel-formulas-and-calculation-options/processing-data-using-array-function/
+"description": "Mở khóa sức mạnh của Excel với Aspose.Cells cho .NET. Tìm hiểu cách xử lý dữ liệu bằng các hàm mảng trong hướng dẫn chi tiết này."
+"linktitle": "Xử lý dữ liệu bằng hàm mảng trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xử lý dữ liệu bằng hàm mảng trong Excel"
+"url": "/vi/net/excel-formulas-and-calculation-options/processing-data-using-array-function/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xử lý dữ liệu bằng hàm mảng trong Excel
@@ -18,7 +20,7 @@ Chào mừng bạn đến với hướng dẫn đầy đủ của bạn về cá
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào cách xử lý dữ liệu Excel bằng các hàm mảng, bạn cần đáp ứng một số điều kiện tiên quyết sau:
 - Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi vì chúng ta sẽ viết một số mã.
--  Thư viện Aspose.Cells: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, bạn có thể tìm thêm thông tin chi tiết[đây](https://releases.aspose.com/cells/net/).
+- Thư viện Aspose.Cells: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Nếu bạn chưa thực hiện việc này, bạn có thể tìm thêm thông tin chi tiết [đây](https://releases.aspose.com/cells/net/).
 - Môi trường phát triển: Nên thiết lập Visual Studio hoặc bất kỳ IDE nào khác để phát triển .NET.
 - Đã cài đặt Excel: Mặc dù không nhất thiết phải có trong mọi thao tác, nhưng việc cài đặt Excel sẽ giúp bạn hình dung kết quả tốt hơn.
 Khi bạn đã đáp ứng được những điều kiện tiên quyết này, chúng ta đã sẵn sàng bắt đầu!
@@ -78,7 +80,7 @@ worksheet.Cells["C3"].PutValue(9);
 ```
 Chúng tôi đang điền các ô từ A1 đến C3 bằng các giá trị số. Giống như việc chuẩn bị nguyên liệu trước khi bạn bắt đầu nấu ăn — mọi thứ cần phải đúng vị trí của nó!
 ## Bước 6: Áp dụng công thức mảng
- Bây giờ đến phần kỳ diệu! Chúng ta sẽ áp dụng công thức mảng bằng cách sử dụng`LINEST` hàm sẽ tính toán số liệu thống kê cho hồi quy tuyến tính.
+Bây giờ đến phần kỳ diệu! Chúng ta sẽ áp dụng công thức mảng bằng cách sử dụng `LINEST` hàm sẽ tính toán số liệu thống kê cho hồi quy tuyến tính.
 ```csharp
 // Thêm công thức SUM vào ô "A6"
 worksheet.Cells["A6"].SetArrayFormula("=LINEST(A1:A3,B1:C3,TRUE,TRUE)", 5, 3);
@@ -111,16 +113,18 @@ Bạn đã có nó rồi—một hướng dẫn đầy đủ về cách xử lý
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel trong các ứng dụng .NET.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Bạn có thể dùng thử với bản dùng thử miễn phí có sẵn để tải xuống[đây](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử với bản dùng thử miễn phí có sẵn để tải xuống [đây](https://releases.aspose.com/).
 ### Có thư viện thay thế cho Aspose.Cells không?
 Có, các lựa chọn thay thế bao gồm EPPlus và NPOI, nhưng Aspose.Cells được biết đến với các tính năng mở rộng.
 ### Làm thế nào để khắc phục sự cố với Aspose.Cells?
- Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9)để giải quyết sự cố hoặc thắc mắc cụ thể.
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose [đây](https://forum.aspose.com/c/cells/9) để giải quyết sự cố hoặc thắc mắc cụ thể.
 ### Tôi có thể tìm tài liệu chi tiết ở đâu?
- Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/cells/net/) cho tất cả các tính năng và chức năng.
+Tài liệu chi tiết có sẵn [đây](https://reference.aspose.com/cells/net/) cho tất cả các tính năng và chức năng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

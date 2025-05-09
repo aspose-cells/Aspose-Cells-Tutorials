@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ try (FileInputStream fis = new FileInputStream(dataDir + "/sampleAccessAndModify
 باتباع هذا الدليل، ستتعلم كيفية تعديل تسميات كائنات OLE والتحقق منها باستخدام Aspose.Cells لجافا. ستساعدك هذه المهارات على إدارة ملفات Excel بكفاءة أكبر في مختلف السيناريوهات المهنية. لمزيد من الاستكشاف، يمكنك التعمق في ميزات Aspose.Cells الأخرى لإطلاق العنان لإمكانياتك في مهام إدارة البيانات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

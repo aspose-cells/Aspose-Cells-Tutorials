@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 यह ट्यूटोरियल आपको Aspose.Cells for Java में सूत्र गणनाओं को प्रभावी ढंग से प्रबंधित करने के लिए ज्ञान और उपकरणों से लैस करेगा। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

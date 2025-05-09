@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ Aspose.Cells を使用して Excel で書式設定された行を挿入する実
 このソリューションを Java アプリケーションに実装する準備はできましたか? ぜひお試しいただき、Aspose.Cells が Excel ファイルの操作を効率化する方法をご確認ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

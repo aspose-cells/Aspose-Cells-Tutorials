@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: Stellen Sie sicher, dass der Dateipfad korrekt ist und das XML-Schema dem er
 A3: Eine temporäre oder gekaufte Lizenz ist unerlässlich, um Evaluierungsbeschränkungen in Produktionsumgebungen aufzuheben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

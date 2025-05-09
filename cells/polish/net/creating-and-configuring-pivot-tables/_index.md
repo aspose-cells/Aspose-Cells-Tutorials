@@ -1,14 +1,16 @@
 ---
-title: Tworzenie i konfigurowanie tabel przestawnych
-linktitle: Tworzenie i konfigurowanie tabel przestawnych
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odkryj kompleksowe samouczki dotyczące Aspose.Cells dla .NET. Opanuj tabele przestawne w programie Excel programowo dzięki szczegółowym przewodnikom krok po kroku dla każdej funkcjonalności.
-weight: 37
-url: /pl/net/creating-and-configuring-pivot-tables/
+"description": "Odkryj kompleksowe samouczki dotyczące Aspose.Cells dla .NET. Opanuj tabele przestawne w programie Excel programowo dzięki szczegółowym przewodnikom krok po kroku dla każdej funkcjonalności."
+"linktitle": "Tworzenie i konfigurowanie tabel przestawnych"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Tworzenie i konfigurowanie tabel przestawnych"
+"url": "/pl/net/creating-and-configuring-pivot-tables/"
+"weight": 37
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie i konfigurowanie tabel przestawnych
@@ -44,33 +46,33 @@ Oprócz podstawowych operacji Aspose.Cells umożliwia implementację zaawansowan
 
 - [Pokaż opcję Filtruj strony raportu](./show-report-filter-pages-option/): Ta funkcja usprawnia interakcję użytkownika z tabelami przestawnymi, umożliwiając użytkownikom skuteczne filtrowanie danych. Postępuj zgodnie z przewodnikiem krok po kroku, aby płynnie wdrożyć tę funkcjonalność.
 
-- [Zapisywanie tabel przestawnych z niestandardowym sortowaniem i ukrywaniem](./saving-with-custom-sort-and-hide/): Dostosuj sposób wyświetlania danych, sortując i ukrywając określone wiersze. Ta funkcjonalność pomaga skupić uwagę na najbardziej istotnych punktach danych.
+- [Zapisywanie tabel przestawnych z niestandardowym sortowaniem i ukrywaniem](./saving-with-custom-sort-and-hide/)Dostosuj sposób wyświetlania danych, sortując i ukrywając określone wiersze. Ta funkcjonalność pomaga skupić uwagę na najbardziej istotnych punktach danych.
 
 Te samouczki nie tylko dostarczają wiedzy technicznej, ale także pozwalają dostosować pliki Excela do konkretnych wymagań projektu. Każdy przewodnik jest tak skonstruowany, aby zapewnić przejrzystość, ułatwiając programistom na każdym poziomie umiejętności implementację.
 
-## Tworzenie i konfigurowanie tabel przestawnych – samouczki
+## Tworzenie i konfigurowanie tabel przestawnych — samouczki
 ### [Zmiana danych źródłowych tabeli przestawnej programowo w .NET](./changing-source-data/)
-Dowiedz się, jak programowo zmieniać dane źródłowe tabeli przestawnej za pomocą Aspose.Cells dla .NET, korzystając z naszego kompleksowego samouczka krok po kroku.
+Dowiedz się, jak programowo zmieniać dane źródłowe tabeli przestawnej za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego kompleksowego samouczka krok po kroku.
 ### [Czyszczenie pól Pivot programowo w .NET](./clearing-pivot-fields/)
 Odblokuj moc Aspose.Cells dla .NET. Wyczyść pola Pivot w programie Excel bez wysiłku dzięki naszemu kompletnemu samouczkowi krok po kroku.
 ### [Funkcje konsolidacji programowo w .NET](./consolidation-functions/)
 Dowiedz się, jak używać Aspose.Cells dla .NET, aby programowo stosować funkcje konsolidacji. Automatyzuj zadania analizy danych efektywnie.
 ### [Utwórz nową tabelę przestawną programowo w .NET](./creating-new-pivot-table/)
 Naucz się programowo tworzyć tabelę przestawną w .NET przy użyciu Aspose.Cells dzięki naszemu przewodnikowi krok po kroku. Efektywnie analizuj swoje dane.
-### [Wyłącz programowo wstążkę tabeli przestawnej w .NET](./disabling-pivot-table-ribbon/)
+### [Programowe wyłączanie wstążki tabeli przestawnej w .NET](./disabling-pivot-table-ribbon/)
 Dowiedz się, jak wyłączyć wstążkę tabeli przestawnej w .NET przy użyciu Aspose.Cells. Ten przewodnik krok po kroku ułatwia dostosowywanie interakcji w programie Excel.
 ### [Formatowanie i wygląd tabel przestawnych programowo w .NET](./formatting-and-look/)
 Ulepsz swoje tabele przestawne programu Excel za pomocą Aspose.Cells dla .NET. Naucz się formatować, dostosowywać i automatyzować prezentację danych bez wysiłku.
 ### [Odświeżanie i obliczanie elementów w tabeli przestawnej w .NET](./refreshing-and-calculating-items/)
 Dowiedz się, jak odświeżać i obliczać elementy w tabeli przestawnej za pomocą Aspose.Cells dla .NET, korzystając z tego kompleksowego samouczka krok po kroku.
 ### [Ustawianie automatycznego formatowania tabeli przestawnej programowo w .NET](./setting-auto-format/)
-tym szczegółowym samouczku krok po kroku dowiesz się, jak programowo ustawić automatyczne formatowanie tabel przestawnych programu Excel za pomocą Aspose.Cells for .NET.
+W tym szczegółowym samouczku krok po kroku dowiesz się, jak programowo ustawić automatyczne formatowanie tabel przestawnych programu Excel za pomocą Aspose.Cells for .NET.
 ### [Ustawianie formatu pola danych programowo w .NET](./setting-data-field-format/)
 Opanuj formatowanie pól danych w tabelach przestawnych za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz formatowanie danych w programie Excel.
 ### [Ustawianie opcji formatowania tabeli przestawnej w .NET](./setting-format-options/)
-Naucz się używać Aspose.Cells dla .NET do formatowania tabel przestawnych bez wysiłku. Poznaj techniki krok po kroku, aby ulepszyć prezentację danych.
+Naucz się używać Aspose.Cells dla .NET do bezproblemowego formatowania tabel przestawnych. Poznaj techniki krok po kroku, aby ulepszyć prezentację danych.
 ### [Ustawianie formatu pola strony programowo w .NET](./setting-page-field-format/)
-Dowiedz się, jak programowo ustawić formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
+Dowiedz się, jak programowo ustawiać formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
 ### [Pokaż opcję Filtruj strony raportów w .NET](./show-report-filter-pages-option/)
 Dowiedz się, jak skutecznie używać Aspose.Cells dla .NET, aby wyświetlać strony filtrów raportów w tabelach przestawnych. Przewodnik krok po kroku z kompletnymi przykładami kodu.
 ### [Określanie zgodności pliku Excel programowo w środowisku .NET](./specifying-compatibility/)
@@ -84,14 +86,16 @@ Dowiedz się, jak zapisywać tabele przestawne z niestandardowym sortowaniem i u
 ### [Znajdowanie i odświeżanie zagnieżdżonych lub podrzędnych tabel przestawnych w .NET](./finding-and-refreshing-nested-or-children-pivot-tables/)
 Dowiedz się, jak znaleźć i odświeżyć zagnieżdżone tabele przestawne w plikach programu Excel przy użyciu Aspose.Cells dla .NET. Zawiera jasne instrukcje i przydatne wskazówki.
 ### [Analiza buforowanych rekordów Pivot podczas ładowania pliku Excel w .NET](./parsing-pivot-cached-records/)
-Dowiedz się, jak analizować buforowane rekordy pivot w .NET przy użyciu Aspose.Cells. Prosty przewodnik po efektywnym zarządzaniu plikami Excela i tabelami przestawnymi.
+Dowiedz się, jak analizować buforowane rekordy pivot w .NET przy użyciu Aspose.Cells. Prosty przewodnik po wydajnym zarządzaniu plikami Excela i tabelami przestawnymi.
 ### [Sortowanie niestandardowe tabeli przestawnej programowo w .NET](./pivot-table-custom-sort/)
 Dowiedz się, jak programowo sortować tabele przestawne w .NET przy użyciu Aspose.Cells. Przewodnik krok po kroku obejmujący konfigurację, sortowanie i zapisywanie wyników jako pliki Excel i PDF.
 ### [Ranking formatów wyświetlania danych w tabeli przestawnej w .NET](./pivot-table-data-display-format-ranking/)
 Dowiedz się, jak tworzyć i zarządzać rankingami formatów wyświetlania danych w tabeli przestawnej w środowisku .NET przy użyciu Aspose.Cells, korzystając z tego przewodnika krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

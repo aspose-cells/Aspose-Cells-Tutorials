@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-print-title/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Print Title in Worksheet
@@ -77,9 +79,11 @@ You can check the documentation [here](https://reference.aspose.com/cells/net/).
 You can download it from [this link](https://releases.aspose.com/cells/net/).
 ### Is there a way to get support for Aspose.Cells?
 Yes, for support, you can visit the [Aspose forum](https://forum.aspose.com/c/cells/9) for assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

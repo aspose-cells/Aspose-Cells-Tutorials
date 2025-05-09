@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/create-slicer-excel-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Slicer for Excel Table in Aspose.Cells .NET
@@ -108,6 +110,7 @@ You can get help through their dedicated support forum available [here](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

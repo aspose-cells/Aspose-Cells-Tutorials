@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,12 +142,12 @@ wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 
 ## 성능 고려 사항
 - **메모리 사용 최적화**: 더 이상 필요하지 않은 객체를 삭제하여 메모리를 효율적으로 사용하는 방식으로 Aspose.Cells를 사용합니다.
-- **배치 작업**가능한 경우 작업을 일괄적으로 수행하여 리소스 사용량을 최소화하고 성능을 향상시킵니다.
+- **배치 작업**가능한 경우 일괄적으로 작업을 수행하여 리소스 사용량을 최소화하고 성능을 향상시킵니다.
 - **리소스 소비 모니터링**: 대규모 스프레드시트를 조작하는 동안 CPU 및 메모리 사용량을 정기적으로 확인하세요.
 
 ## 결론
 
-이제 구현 방법을 익혔습니다. `CopyOptions` ~와 함께 `ReferToDestinationSheet` 그리고 `PasteOptions` Java에서 Aspose.Cells를 사용하여 특정 붙여넣기 유형에 대한 작업을 수행할 수 있습니다. 이러한 기술은 데이터 관리 워크플로를 간소화하여 정확한 참조와 효율적인 데이터 처리를 보장합니다.
+이제 구현 방법을 익혔습니다. `CopyOptions` ~와 함께 `ReferToDestinationSheet` 그리고 `PasteOptions` Java에서 Aspose.Cells를 사용하여 특정 붙여넣기 유형에 대한 작업을 수행합니다. 이러한 기술은 데이터 관리 워크플로를 간소화하여 정확한 참조와 효율적인 데이터 처리를 보장합니다.
 
 ### 다음 단계
 - 복사 및 붙여넣기 옵션의 다양한 구성을 실험해 보세요.
@@ -179,6 +181,9 @@ A5: 객체를 적절하게 폐기하고, 작업을 일괄적으로 수행하고,
 - **지원 포럼**: [Aspose 지원](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

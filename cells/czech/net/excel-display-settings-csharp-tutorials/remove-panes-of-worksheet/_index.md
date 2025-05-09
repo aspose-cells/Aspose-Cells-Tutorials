@@ -1,134 +1,138 @@
 ---
-title: Odebrat panely listu
-linktitle: Odebrat panely listu
-second_title: Aspose.Cells for .NET API Reference
-description: Zjistěte, jak bez námahy odstranit panely z listu aplikace Excel pomocí Aspose.Cells for .NET s naším podrobným průvodcem.
-weight: 120
-url: /cs/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
+"description": "Zjistěte, jak snadno odstranit panely z listu aplikace Excel pomocí Aspose.Cells pro .NET s naším podrobným návodem."
+"linktitle": "Odebrat panely pracovního listu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Odebrat panely pracovního listu"
+"url": "/cs/net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odebrat panely listu
+# Odebrat panely pracovního listu
 
 ## Zavedení
 
-Přistihli jste se někdy, že se potýkáte s tabulkami, které mají ty otravné zmrzlé panely? Pokud ano, nejste sami! Mnozí z nás tam byli a snažili se přijít na to, jak efektivně procházet soubory Excel. Ať už čistíte list pro prezentaci, sdílíte data nebo jen chcete efektivnější zobrazení, odstranění podoken může mít zásadní význam. V tomto článku prozkoumáme, jak tento problém vyřešit pomocí Aspose.Cells for .NET. Než se však ponoříme do kódu, připravme se na některé předpoklady.
+Už jste někdy měli potíže s tabulkami, které mají ty otravné zamrzlé panely? Pokud ano, nejste sami! Mnozí z nás se s tím setkali a snažili se přijít na to, jak efektivně procházet soubory aplikace Excel. Ať už čistíte list pro prezentaci, sdílíte data nebo jen chcete efektivnější zobrazení, odstranění panelů může mít zásadní význam. V tomto článku se podíváme na to, jak tento problém vyřešit pomocí Aspose.Cells pro .NET. Než se ale ponoříme do kódu, připravme si několik předpokladů.
 
 ## Předpoklady
 
-Než se po hlavě vrhneme do kódování, ujistěte se, že máte vše správně nastavené. Zde je to, co budete potřebovat:
+Než se po hlavě pustíme do programování, ujistěme se, že máte vše správně nastavené. Zde je to, co budete potřebovat:
 
-1. Visual Studio: Po instalaci sady Visual Studio získáte spolehlivé vývojové prostředí pro vytváření aplikací .NET.
-2.  Aspose.Cells Library: Je zřejmé, že to nemůžete udělat bez knihovny Aspose.Cells. Nebojte se; můžete si jej snadno stáhnout z[zde](https://releases.aspose.com/cells/net/) a dokonce nabízejí a[zkušební verze zdarma](https://releases.aspose.com/).
-3. Základní znalost C#: Pokud jste obeznámeni s C#, zjistíte, že je mnohem snazší ji sledovat. Bude užitečné vědět, jak pracovat s třídami, metodami a objekty.
-4. Soubor šablony Excel: Pro procvičení budete potřebovat také soubor Excel, se kterým budete pracovat. Můžete si vytvořit jednoduchý nebo stáhnout příklad.
+1. Visual Studio: Nainstalované Visual Studio vám poskytne spolehlivé vývojové prostředí pro vytváření aplikací .NET.
+2. Knihovna Aspose.Cells: Je zřejmé, že to bez knihovny Aspose.Cells nezvládnete. Nebojte se, můžete si ji snadno stáhnout z [zde](https://releases.aspose.com/cells/net/)dokonce nabízejí i [bezplatná zkušební verze](https://releases.aspose.com/).
+3. Základní znalost jazyka C#: Pokud máte zkušenosti s jazykem C#, bude pro vás mnohem snazší se v něm orientovat. Znalost práce s třídami, metodami a objekty bude užitečná.
+4. Šablona souboru Excel: Pro procvičení budete také potřebovat soubor Excel. Můžete si vytvořit jednoduchý soubor nebo si stáhnout příklad.
 
-Nyní, když máme připravené nástroje a znalosti, přejděme k importu potřebných balíčků.
+Nyní, když máme připravené nástroje a znalosti, pojďme k importu potřebných balíčků.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začneme kódovat, musíme naimportovat příslušné balíčky z knihovny Aspose.Cells. To nám umožní využívat všechny skvělé funkce, které knihovna nabízí. Zde je to, co musíte zahrnout do horní části souboru C#:
+Než začneme s kódováním, musíme importovat příslušné balíčky z knihovny Aspose.Cells. To nám umožní využít všechny skvělé funkce, které knihovna nabízí. Zde je to, co je třeba zahrnout na začátek vašeho C# souboru:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Tento jediný řádek dělá zázraky a poskytuje vám přístup ke třídám, metodám a vlastnostem určeným pro manipulaci se soubory aplikace Excel. Dost snadné, že?
+Tento jediný řádek dělá zázraky, poskytuje vám přístup ke třídám, metodám a vlastnostem určeným pro manipulaci se soubory aplikace Excel. Docela snadné, že?
 
-Nyní přichází ta vzrušující část: napsání našeho kódu pro odstranění panelů z listu! Zde je podrobný rozpis:
+A teď přichází ta vzrušující část: napsání kódu pro odstranění panelů z listu! Zde je podrobný popis:
 
-## Krok 1: Nastavte svůj adresář
+## Krok 1: Nastavení adresáře
 
 Nadpis: Zadejte adresář dokumentů
 
-První věc, kterou musíme udělat, je určit adresář, kde jsou uloženy naše dokumenty. To je zásadní, protože potřebujeme vědět, kde se nachází náš vstupní soubor a kde by měl být uložen výstupní soubor. Zde je návod, jak se to dělá:
+První věc, kterou musíme udělat, je zadat adresář, kde jsou uloženy naše dokumenty. To je klíčové, protože potřebujeme vědět, kde se nachází náš vstupní soubor a kam má být uložen výstupní soubor. Zde je návod, jak to udělat:
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači. Tohle by mohlo být něco jako`@"C:\Users\YourName\Documents\"`, ale ujistěte se, že formát je konzistentní, zejména u escape znaků.
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou na vašem počítači. Mohlo by to být něco jako `@"C:\Users\YourName\Documents\"`, ale dbejte na konzistenci formátu, zejména u řídicích znaků.
 
-## Krok 2: Vytvořte nový sešit
+## Krok 2: Vytvoření instance nového sešitu
 
-Nadpis: Vytvořte instanci sešitu
+Nadpis: Vytvoření instance sešitu
 
- Dále vytvoříme novou instanci souboru`Workbook` třída. Tato třída představuje soubor aplikace Excel a umožňuje nám s ním hladce pracovat. Zde otevřeme existující tabulku (soubor naší šablony):
+Dále vytvoříme novou instanci třídy `Workbook` třída. Tato třída představuje soubor aplikace Excel, což nám umožňuje s ním plynule pracovat. Zde otevřeme existující tabulku (náš soubor šablony):
 
 ```csharp
-// Vytvořte instanci nového sešitu a otevřete soubor šablony
+// Vytvoření instance nového sešitu a otevření souboru šablony
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Ujistěte se, že soubor Excel`"Book1.xls"` existuje v zadaném adresáři, nebo narazíte na chyby. 
+Ujistěte se, že soubor Excel `"Book1.xls"` existuje v zadaném adresáři, jinak narazíte na chyby. 
 
-## Krok 3: Nastavte aktivní buňku
+## Krok 3: Nastavení aktivní buňky
 
-Nadpis: Definujte aktivní buňku
+Nadpis: Definování aktivní buňky
 
-Před odstraněním podoken je dobrým zvykem nastavit aktivní buňku, abyste získali jasný bod zaměření v tabulce. Můžete to nastavit takto:
+Před odstraněním panelů je dobrým zvykem nastavit aktivní buňku, abyste v tabulce měli jasný bod zaměření. Zde je návod, jak to nastavit:
 
 ```csharp
-// Nastavte aktivní buňku
+// Nastavit aktivní buňku
 book.Worksheets[0].ActiveCell = "A20";
 ```
 
-V tomto případě nastavujeme aktivní buňku na A20. To není nezbytně nutné pro odstranění podoken, ale může vám to pomoci při vizuální orientaci při otevření výsledného souboru aplikace Excel.
+V tomto případě nastavujeme aktivní buňku na A20. To není nezbytně nutné pro odstranění panelů, ale může vám to pomoci s vizuální orientací při otevírání výsledného souboru aplikace Excel.
 
-## Krok 4: Vyjměte dělená skla
+## Krok 4: Odstraňte rozdělené panely
 
-Nadpis: Eliminujte tabule
+Nadpis: Odstraňte tabulky
 
-Nyní, okamžik, na který jste čekali! Jediným jednoduchým příkazem odstraníme rozdělené panely z našeho listu. Zde je kód:
+A teď ten okamžik, na který jste čekali! Jedním jednoduchým příkazem odstraníme rozdělené panely z našeho listu. Zde je kód:
 
 ```csharp
-// Rozdělte okno listu
+// Rozdělení okna pracovního listu
 book.Worksheets[0].RemoveSplit();
 ```
 
-Tento příkaz funguje jako kouzelná hůlka, která odstraňuje jakékoli existující rozdělení podokna, což umožňuje čistý pohled na vaše data.
+Tento příkaz funguje jako kouzelná hůlka, odstraňuje veškerá existující rozdělení panelů a umožňuje tak přehledné zobrazení dat.
 
-## Krok 5: Uložte výstupní soubor
+## Krok 5: Uložení výstupního souboru
 
-Nadpis: Uložte změny
+Nadpis: Uložit změny
 
-Nakonec je nezbytné uložit změny do nového souboru aplikace Excel. Tímto způsobem můžete zachovat původní soubor a ponechat své úpravy oddělené.
+Nakonec je nezbytné uložit změny do nového souboru aplikace Excel. Tímto způsobem můžete zachovat původní soubor a uchovat provedené úpravy odděleně.
 
 ```csharp
-// Uložte soubor aplikace Excel
+// Uložte soubor Excelu
 book.Save(dataDir + "output.xls");
 ```
 
- Tím se upravený sešit uloží jako`"output.xls"`ve stejném adresáři. Spusťte celý tento kód a voilà, právě jste odstranili panely!
+Tím se upravený sešit uloží jako `"output.xls"` ve stejném adresáři. Spusťte celý tento kód a voilà, právě jste odstranili panely!
 
 ## Závěr
 
-A tady to máte! Odebrání panelů z listu pomocí Aspose.Cells for .NET je snadné, když znáte postup. Ať už děláte pořádek ve svých datech kvůli přehlednosti nebo se připravujete na profesionální prezentaci, Aspose.Cells poskytuje výkonnou sadu nástrojů, která vám pomůže efektivně dosáhnout vašich cílů. Takže si vyhrňte rukávy, stáhněte si knihovnu, pokud jste tak ještě neudělali, a začněte experimentovat!
+A je to! Odstranění panelů z listu pomocí Aspose.Cells pro .NET je hračka, když znáte jednotlivé kroky. Ať už si upravujete data pro lepší přehlednost nebo se připravujete na profesionální prezentaci, Aspose.Cells poskytuje výkonnou sadu nástrojů, které vám pomohou efektivně dosáhnout vašich cílů. Vyhrňte si tedy rukávy, stáhněte si knihovnu, pokud jste tak ještě neučinili, a začněte experimentovat!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?
-Aspose.Cells je robustní knihovna pro programovou manipulaci se soubory Excelu v aplikacích .NET.
+Aspose.Cells je robustní knihovna pro programovou manipulaci s Excelovými soubory v .NET aplikacích.
 
-### Mohu vyzkoušet Aspose.Cells zdarma?
-Ano! Bezplatnou zkušební verzi si můžete stáhnout z webu Aspose.
+### Mohu si Aspose.Cells vyzkoušet zdarma?
+Ano! Zkušební verzi si můžete stáhnout zdarma z webových stránek Aspose.
 
-### Jsou pro použití Aspose.Cells vyžadovány znalosti programování?
-Základní znalosti programování v C# jsou prospěšné, ale nejsou nezbytně nutné.
+### Je pro používání Aspose.Cells vyžadována znalost programování?
+Základní znalost programování v C# je výhodou, ale není striktně podmínkou.
 
 ### Kde najdu dokumentaci?
- Máte přístup k dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Dokumentaci si můžete prohlédnout [zde](https://reference.aspose.com/cells/net/).
 
 ### Jak získám podporu pro Aspose.Cells?
- Pro podporu můžete navštívit fórum Aspose na této adrese[odkaz](https://forum.aspose.com/c/cells/9).
+Pro podporu můžete navštívit fórum Aspose na této adrese [odkaz](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

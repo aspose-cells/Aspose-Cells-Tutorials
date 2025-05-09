@@ -1,14 +1,16 @@
 ---
-title: Excel Kenar Boşluklarını Ayarla
-linktitle: Excel Kenar Boşluklarını Ayarla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET'i kullanarak Excel kenar boşluklarını nasıl kolayca ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Elektronik tablo düzenlerini geliştirmek isteyen geliştiriciler için mükemmeldir.
-weight: 110
-url: /tr/net/excel-page-setup/set-excel-margins/
+"description": "Aspose.Cells for .NET'i kullanarak Excel kenar boşluklarını nasıl kolayca ayarlayacağınızı adım adım kılavuzumuzla öğrenin. Elektronik tablo düzenlerini geliştirmek isteyen geliştiriciler için mükemmeldir."
+"linktitle": "Excel Kenar Boşluklarını Ayarla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Kenar Boşluklarını Ayarla"
+"url": "/tr/net/excel-page-setup/set-excel-margins/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Kenar Boşluklarını Ayarla
@@ -22,9 +24,9 @@ Excel belgelerini programatik olarak yönetmeye gelince, Aspose.Cells for .NET, 
 Excel çalışma sayfalarında kenar boşluklarını ayarlamanın inceliklerine dalmadan önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. C# Temel Anlayışı: C#'a aşinalık, kod parçacıklarını etkili bir şekilde anlamanıza ve uygulamanıza yardımcı olacaktır.
-2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Eğer sahip değilseniz, şuradan indirebilirsiniz:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Eğer sahip değilseniz, şuradan indirebilirsiniz: [Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
 3. IDE Kurulumu: Bir geliştirme ortamı kurduğunuzdan emin olun. Visual Studio gibi IDE'ler C# geliştirme için harikadır.
-4.  Lisans Anahtarı (İsteğe bağlı): Deneme sürümünü kullanabilmenize rağmen, geçici veya tam lisansa sahip olmak tüm özelliklerin kilidini açmanıza yardımcı olabilir. Lisanslama hakkında daha fazla bilgi edinebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+4. Lisans Anahtarı (İsteğe bağlı): Deneme sürümünü kullanabilmenize rağmen, geçici veya tam lisansa sahip olmak tüm özelliklerin kilidini açmanıza yardımcı olabilir. Lisanslama hakkında daha fazla bilgi edinebilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 Artık ön koşullarımız sağlandığı için, hemen koda geçelim ve Excel kenar boşluklarını adım adım nasıl değiştirebileceğimizi görelim.
 
@@ -50,13 +52,13 @@ Kodunuzda, Excel dosyanızı kaydetmek istediğiniz dosya yolunu temsil eden bir
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` sisteminizdeki gerçek yol ile.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
 Sonra, yeni bir çalışma kitabı nesnesi oluşturmamız gerekiyor. Bu nesne, tüm verileriniz ve çalışma sayfalarınız için bir kapsayıcı görevi görür.
 
- Yeni bir örnek oluştur`Workbook` nesne şu şekildedir:
+Yeni bir örnek oluştur `Workbook` nesne şu şekildedir:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -88,9 +90,9 @@ Artık bu çalışma sayfasını düzenlemeye hazırsınız!
 
 ## Adım 4: Sayfa Kurulumu Nesnesine Erişim
 
- Kenar boşluklarını değiştirmek için,`PageSetup` nesne. Bu nesne, kenar boşlukları da dahil olmak üzere sayfanın düzenini kontrol eden özellikler sağlar.
+Kenar boşluklarını değiştirmek için, `PageSetup` nesne. Bu nesne, kenar boşlukları da dahil olmak üzere sayfanın düzenini kontrol eden özellikler sağlar.
 
-Al`PageSetup` çalışma sayfasından özellik:
+Al `PageSetup` çalışma sayfasından özellik:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;
@@ -123,7 +125,7 @@ Kenar boşluklarını ayarladıktan sonraki son adım, çalışma kitabınızı 
 workbook.Save(dataDir + "SetMargins_out.xls");
 ```
 
- Yer değiştirmek`"SetMargins_out.xls"` İstediğiniz çıktı dosya adıyla. 
+Yer değiştirmek `"SetMargins_out.xls"` İstediğiniz çıktı dosya adıyla. 
 
 ## Çözüm
 
@@ -138,16 +140,18 @@ Aspose.Cells, geliştiricilerin Microsoft Excel'in kurulu olmasına gerek kalmad
 Ücretsiz deneme sürümünü kullanabilirsiniz, ancak daha uzun süreli kullanım veya gelişmiş özellikler için lisansa ihtiyacınız olacak.
 
 ### Daha fazla dokümanı nerede bulabilirim?
- Aspose.Cells belgelerini inceleyebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Aspose.Cells belgelerini inceleyebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 
 ### Sadece belirli sayfalar için kenar boşlukları ayarlayabilir miyim?
 Ne yazık ki, kenar boşluğu ayarları genellikle tek tek sayfalar yerine tüm çalışma sayfasına uygulanır.
 
 ### Excel dosyamı hangi formatlarda kaydedebilirim?
 Aspose.Cells, XLS, XLSX, CSV ve PDF dahil olmak üzere çeşitli formatları destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

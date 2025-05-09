@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizace dat kontingenční tabulky
@@ -90,9 +92,11 @@ Aktualizace dat kontingenční tabulky v Aspose.Cells pro Javu je jednoduchý, a
    - Ano, automatické aktualizace dat můžete naplánovat pomocí Aspose.Cells a plánovacích knihoven Java. To vám umožní udržovat vaše kontingenční tabulky aktuální bez ručního zásahu.
 
 Nyní máte znalosti o aktualizaci dat kontingenčních tabulek v Aspose.Cells pro Javu. Udržujte své analýzy přesné a buďte o krok napřed při rozhodování na základě dat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

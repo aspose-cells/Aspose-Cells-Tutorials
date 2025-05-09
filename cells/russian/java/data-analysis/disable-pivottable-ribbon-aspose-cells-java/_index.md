@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть следующие настройки:
 
-### Требуемые библиотеки:
+### Необходимые библиотеки:
 - **Aspose.Cells для Java**: Версия 25.3 или более поздняя.
   
 ### Требования к настройке среды:
@@ -164,6 +166,9 @@ A4: Конечно, вы можете программно создавать и
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

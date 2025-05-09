@@ -1,50 +1,55 @@
 ---
-title: Создать PDF из Excel- диаграммы с указанием размера страницы
-weight: 7700
-limit: 
-description: Узнайте, как создать PDF из таблицы Excel с указанным размером страницы с помощью Aspose.Cells для .NET. Пошаговое руководство с примерами кода.
-keywords: [Aspose.Cells for .NET, Excel to PDF, export chart to PDF, generate PDF from Excel, C# Excel PDF conversion, chart to PDF C#, .NET Excel library]
-url: /ru/net/charts/create-chart-pdf-with-desired-page-size/
+"description": "Узнайте, как создать PDF из диаграммы Excel с указанным размером страницы с помощью Aspose.Cells для .NET. Пошаговое руководство с примерами кода."
+"title": "Создать PDF из диаграммы Excel с указанным размером страницы"
+"url": "/ru/net/charts/create-chart-pdf-with-desired-page-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать PDF из Excel- диаграммы с указанием размера страницы
+# Создать PDF из диаграммы Excel с указанным размером страницы
 
-Экспорт графиков из Excel в PDF-файл с точным макетом страницы является важнейшим требованием для отчетности и визуализации данных. В этом учебном пособии показано, как использовать Aspose.Cells для .NET для генерации PDF из таблицы Excel, определяя размер страницы и выравнивание. Вы узнаете, как загружать файл Excel, получить доступ к рабочему листу и его графику и преобразовать его в хорошо форматированный PDF-файл.  
+Экспорт диаграмм из Excel в файл PDF с точной разметкой страницы является важнейшим требованием для отчетности и визуализации данных. В этом руководстве показано, как использовать Aspose.Cells для .NET для создания PDF из диаграммы Excel, указав размер страницы и выравнивание. Вы узнаете, как загрузить файл Excel, получить доступ к рабочему листу и его диаграмме и преобразовать его в хорошо отформатированный файл PDF.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-chart-pdf-with-desired-page-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке  
-Чтобы использовать Aspose.Cells для .NET, выполните следующие шаги:  
 
-1. Установка через NuGet:  
-   Откройте управляющий пакетами NuGet в Visual Studio и запустите:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Инструкция по установке  
+Чтобы использовать Aspose.Cells для .NET, выполните следующие действия:  
+
+1. Установить через NuGet:  
+   Откройте диспетчер пакетов NuGet в Visual Studio и запустите:  
    ```sh
    Install-Package Aspose.Cells
    ```  
 
-2. Загрузить DLL:  
-   Получите новейшую версию из [Aspose.Cells для страницы загрузки .NET](https://releases.aspose.com/cells/net/)\- Я не знаю .  
+2. Загрузите DLL:  
+   Получите последнюю версию с сайта [Страница загрузки Aspose.Cells для .NET](https://releases.aspose.com/cells/net/).  
 
-3. Включить пространство имен:  
-   Add the following in your C# file:  
+3. Включите пространство имен:  
+   Добавьте в файл C# следующее:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Rendering;
    ```  
-## См. также
-Для бесплатного пробного пробного процесса посетите [Старайтесь быть свободным](https://releases.aspose.com/)\- Я не знаю .  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.
+Для бесплатной пробной версии посетите [Бесплатная пробная версия Aspose](https://releases.aspose.com/).  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

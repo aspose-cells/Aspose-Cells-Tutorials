@@ -8,7 +8,9 @@ url: /net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Validation Area to Cells in Excel
@@ -136,6 +138,7 @@ You can seek assistance through their [support forum](https://forum.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

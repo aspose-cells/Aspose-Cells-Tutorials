@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Sind Sie bereit, diese Lösungen in Ihren Projekten zu implementieren? Besuchen 
 - **Unterstützung**: Brauchen Sie Hilfe? Die [Aspose Support Forum](https://forum.aspose.com/c/cells/9) ist Ihre Anlaufstelle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

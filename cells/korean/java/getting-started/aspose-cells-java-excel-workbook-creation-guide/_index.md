@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ Aspose.Cells는 무료 평가판과 평가 목적의 임시 라이선스를 포�
 
 - **무료 체험:** 라이브러리를 다운로드하세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/) 시작하려면.
 - **임시 면허:** 방문하여 하나를 얻으십시오 [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/).
-- **라이센스 구매:** 전체 액세스를 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+- **라이센스 구매:** 전체 액세스를 위해서는 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 라이센스를 받으면 다음 설정을 사용하여 애플리케이션에 라이센스를 적용하세요.
 ```java
@@ -157,6 +159,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ Készen állsz arra, hogy a tanultakat a gyakorlatba is átültesd? Próbáld ki
    - Felfedezheted a [Nemzetközi Szabványügyi Szervezet (ISO)](https://www.iso.org/standards.html) weboldalán részletes dokumentációt talál a különböző PDF/A megfelelőségi szintekről.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

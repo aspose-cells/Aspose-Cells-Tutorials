@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,7 +182,7 @@ Aspose.Cells for Java kullanarak bir Excel grafiğine TextBox eklemeyi inceledik
 ## SSS Bölümü
 
 1. **Bir grafiğe birden fazla TextBox ekleyebilir miyim?**
-   - Evet, tekrarlayabilirsiniz `addTextBoxInChart` İhtiyaç duyulduğu takdirde farklı koordinatlarla yöntem.
+   - Evet, tekrarlayabilirsiniz `addTextBoxInChart` İhtiyaç duyulduğu takdirde farklı koordinatlarla yöntem değiştirilebilir.
    
 2. **Excel dosyamda grafik yoksa ne olur?**
    - Varolmayan bir grafiğe erişmeye çalışmak bir istisnayla sonuçlanacaktır. Devam etmeden önce çalışma kitabınızın en az bir grafik içerdiğinden emin olun.
@@ -204,6 +206,9 @@ Aspose.Cells for Java kullanarak bir Excel grafiğine TextBox eklemeyi inceledik
 Bu kılavuzu takip ederek, Aspose.Cells'i Java projelerinize verimli bir şekilde entegre edebilir ve özel metin açıklamalarıyla Excel grafik işlevlerini geliştirebilirsiniz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

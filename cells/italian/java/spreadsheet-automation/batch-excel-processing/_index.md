@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elaborazione batch di Excel
@@ -46,7 +48,7 @@ public class BatchExcelProcessing {
 }
 ```
 
-### 3. Caricamento dei file Excel
+### 3. Caricamento di file Excel
 
 Per elaborare più file Excel, è necessario caricarli nell'applicazione. È possibile utilizzare cicli o elenchi per gestire i file:
 
@@ -109,9 +111,11 @@ L'automazione dell'elaborazione batch di Excel con Aspose.Cells per Java semplif
    Esplora la documentazione API su [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per informazioni approfondite ed esempi.
 
 Ottimizza le attività di elaborazione batch di Excel e aumenta la produttività utilizzando Aspose.Cells per Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

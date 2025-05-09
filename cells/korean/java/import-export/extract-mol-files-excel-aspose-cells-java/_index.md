@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ import com.aspose.cells.Workbook;
 주요 기능은 Excel 파일 내의 OLE 객체에서 분자 데이터(.mol 형식)에 접근하고 추출하는 것입니다. 이는 여러 플랫폼에서 데이터 분석을 통합해야 하는 화학자나 과학자에게 필수적일 수 있습니다.
 
 #### 1단계: 디렉토리 설정
-먼저, Excel 통합 문서가 있는 데이터 디렉터리와 추출된 파일이 저장될 출력 디렉터리를 정의합니다.
+먼저 Excel 통합 문서가 있는 데이터 디렉터리와 추출된 파일이 저장될 출력 디렉터리를 정의합니다.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY"; // 실제 경로로 대체
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // 원하는 출력 디렉토리 경로
@@ -168,6 +170,9 @@ Aspose.Cells for Java를 사용하여 Excel에서 임베디드 .mol 파일을 �
 이러한 리소스를 탐색하여 Aspose.Cells for Java에 대한 이해를 높이고 프로젝트에서 이의 잠재력을 극대화하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

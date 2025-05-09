@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Hiểu biết cơ bản về lập trình Java và quen thuộc với các công
    - Bạn có thể nhận được bản dùng thử miễn phí từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
    - Để sử dụng lâu dài, hãy cân nhắc mua giấy phép hoặc xin giấy phép tạm thời qua [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
-3. **Khởi tạo cơ bản**: Sau khi cài đặt, hãy tạo một phiên bản của `Workbook` để bắt đầu tạo và thao tác các tệp Excel.
+3. **Khởi tạo cơ bản**Sau khi cài đặt, hãy tạo một phiên bản của `Workbook` để bắt đầu tạo và thao tác các tệp Excel.
 
 ## Hướng dẫn thực hiện
 
@@ -205,6 +207,9 @@ Chúng tôi hy vọng hướng dẫn này hữu ích và cung cấp nhiều thô
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

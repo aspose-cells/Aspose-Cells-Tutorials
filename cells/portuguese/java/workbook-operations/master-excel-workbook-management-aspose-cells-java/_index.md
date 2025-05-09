@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ Criar uma pasta de trabalho do Excel é simples:
   ```
 
 **Explicação:**
-O `Workbook` construtor inicializa um arquivo Excel vazio, pronto para personalização.
+O `Workbook` O construtor inicializa um arquivo Excel vazio, pronto para personalização.
 
 ### População Celular
 O preenchimento de células é essencial para gerar relatórios ou processar informações:
@@ -229,6 +231,9 @@ O `save` O método grava sua pasta de trabalho em um arquivo, preservando todas 
 Seguindo este guia, você agora tem as habilidades necessárias para gerenciar pastas de trabalho do Excel programaticamente usando o Aspose.Cells para Java. Esta ferramenta poderosa simplifica tarefas complexas e aumenta a produtividade no processamento de arquivos do Excel. Continue explorando seus recursos para aprimorar ainda mais seus fluxos de trabalho de gerenciamento de dados.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

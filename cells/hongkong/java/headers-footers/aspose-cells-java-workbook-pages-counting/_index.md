@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ System.out.println("Total Pages in First Worksheet: " + pageCount);
 
 1. **列印管理**：透過了解確切的頁數來規劃和預算列印成本。
 2. **文件散佈**：為電子閱讀器或線上共用準備具有準確分頁的數位文件。
-3. **效能最佳化**：處理大型工作簿時最佳化資源使用量。
+3. **效能最佳化**：處理大型工作簿時最佳化資源使用情況。
 
 ## 性能考慮
 處理大量 Excel 文件時：
@@ -195,6 +197,9 @@ A5：是的，Aspose.Cells 可以輕鬆地使用 Maven 或 Gradle 整合到專�
 - **支援**： [Aspose 社群論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

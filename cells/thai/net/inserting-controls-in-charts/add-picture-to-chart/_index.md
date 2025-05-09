@@ -1,14 +1,16 @@
 ---
-title: เพิ่มรูปภาพลงในแผนภูมิ
-linktitle: เพิ่มรูปภาพลงในแผนภูมิ
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการเพิ่มรูปภาพลงในแผนภูมิ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปรับปรุงแผนภูมิและการนำเสนอของคุณในขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน
-weight: 11
-url: /th/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "เรียนรู้วิธีการเพิ่มรูปภาพลงในแผนภูมิ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ปรับปรุงแผนภูมิและการนำเสนอของคุณในขั้นตอนง่ายๆ เพียงไม่กี่ขั้นตอน"
+"linktitle": "เพิ่มรูปภาพลงในแผนภูมิ"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "เพิ่มรูปภาพลงในแผนภูมิ"
+"url": "/th/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มรูปภาพลงในแผนภูมิ
@@ -22,7 +24,7 @@ url: /th/net/inserting-controls-in-charts/add-picture-to-chart/
 ก่อนที่เราจะเริ่มต้นเขียนโค้ดอย่างเจาะลึก มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องมีเพื่อให้ปฏิบัติตามได้อย่างราบรื่น:
 
 - Visual Studio: นี่คือที่ที่คุณจะเขียนและรันโค้ด .NET ของคุณ ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไว้แล้ว
--  Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารีนี้เพื่อทำงานกับไฟล์ Excel คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/).
+- Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารีนี้เพื่อทำงานกับไฟล์ Excel คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/cells/net/).
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ในขณะที่ฉันจะแนะนำคุณเกี่ยวกับโค้ด ความเข้าใจพื้นฐานเกี่ยวกับ C# จะทำให้สิ่งต่างๆ ชัดเจนยิ่งขึ้น
 
 ### ขั้นตอนการติดตั้ง
@@ -61,7 +63,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- แทนที่`Your Document Directory` และ`Your Output Directory` ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณ 
+แทนที่ `Your Document Directory` และ `Your Output Directory` ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณ 
 
 ## ขั้นตอนที่ 2: โหลดสมุดงานที่มีอยู่
 
@@ -106,7 +108,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- ที่นี่,`50` และ`50` คือพิกัด X และ Y ที่จะวางภาพ และ`200` คือความกว้างและความสูงของรูปภาพ
+ที่นี่, `50` และ `50` คือพิกัด X และ Y ที่จะวางภาพ และ `200` คือความกว้างและความสูงของรูปภาพ
 
 ## ขั้นตอนที่ 6: ปรับแต่งรูปแบบเส้นของรูปภาพ
 
@@ -151,22 +153,24 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถเพิ่มรูปภาพหลายภาพลงในแผนภูมิเดียวได้หรือไม่
- ใช่ครับ สามารถโทรได้ที่`AddPictureInChart` วิธีการนี้ทำซ้ำหลายๆ ครั้งเพื่อเพิ่มรูปภาพได้มากเท่าที่คุณต้องการ
+ใช่ครับ สามารถโทรได้ที่ `AddPictureInChart` วิธีการนี้ทำซ้ำหลายๆ ครั้งเพื่อเพิ่มรูปภาพได้มากเท่าที่คุณต้องการ
 
 ### Aspose.Cells รองรับรูปแบบภาพอะไรบ้าง?
 Aspose.Cells รองรับรูปแบบภาพต่างๆ รวมถึง PNG, JPEG, BMP และ GIF
 
 ### ฉันสามารถปรับแต่งตำแหน่งของภาพได้ไหม?
- แน่นอน! พิกัด X และ Y ใน`AddPictureInChart` วิธีการนี้ช่วยให้สามารถวางตำแหน่งได้อย่างแม่นยำ
+แน่นอน! พิกัด X และ Y ใน `AddPictureInChart` วิธีการนี้ช่วยให้สามารถวางตำแหน่งได้อย่างแม่นยำ
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
-Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถดูราคาได้[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ จำเป็นต้องมีใบอนุญาต คุณสามารถดูราคาได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมได้ที่ไหน
- ตรวจสอบออก[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับตัวอย่างและฟังก์ชันที่มีรายละเอียดเพิ่มเติม
+ตรวจสอบออก [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับตัวอย่างและฟังก์ชันที่มีรายละเอียดเพิ่มเติม
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

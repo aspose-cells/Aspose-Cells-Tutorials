@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ import com.aspose.cells.Worksheet;
 
 public class CopyRangeWithRowHeights {
     public static void main(String[] args) throws Exception {
-        // Khởi tạo các trang tính từ một bảng tính mới
+        // Khởi tạo các bảng tính từ một bảng tính mới
         Worksheet srcSheet = new Workbook().getWorksheets().get(0);
         Worksheet dstSheet = new Workbook().getWorksheets().add("Destination Sheet");
 
@@ -214,6 +216,9 @@ Bây giờ bạn đã thành thạo việc tạo và quản lý sổ làm việc
    - Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng khác nhau bao gồm XLS và CSV.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

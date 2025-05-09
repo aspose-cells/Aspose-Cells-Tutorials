@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automazione dei fogli di calcolo
@@ -48,9 +50,11 @@ Scopri come automatizzare la creazione e la personalizzazione di grafici Excel u
 Scopri come automatizzare le attività di Excel in Java con esempi di codice sorgente utilizzando Aspose.Cells, una potente libreria per la manipolazione di Excel.
 ### [Integrazione dei dati in Excel](./data-integration-in-excel/)
 Scopri come integrare in modo efficiente i dati in Excel per ottenere informazioni e migliorare il processo decisionale. Guida passo passo con codice sorgente che utilizza Aspose.Cells per Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

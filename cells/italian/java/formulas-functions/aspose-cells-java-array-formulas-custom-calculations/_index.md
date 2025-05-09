@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,7 +200,7 @@ workbook.save(outDir + "output.pdf");
 Ecco alcuni scenari concreti in cui queste caratteristiche risaltano:
 1. **Rendicontazione finanziaria:** Automatizzare e formattare modelli finanziari complessi.
 2. **Analisi dei dati:** Applica calcoli personalizzati per migliorare le informazioni sui dati.
-3. **Generazione automatizzata di documenti:** Creare report standardizzati da distribuire.
+3. **Generazione automatica di documenti:** Creare report standardizzati da distribuire.
 
 Queste applicazioni dimostrano come Aspose.Cells può integrarsi in sistemi più ampi, semplificando i flussi di lavoro in tutti i settori.
 
@@ -233,6 +235,9 @@ Pronti a fare il passo successivo? Approfondite argomenti più avanzati o integr
 - [Acquista una licenza](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

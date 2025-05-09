@@ -1,14 +1,16 @@
 ---
-title: Power Query Formül Öğesini Güncelle
-linktitle: Power Query Formül Öğesini Güncelle
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz.
-weight: 160
-url: /tr/net/excel-workbook/update-power-query-formula-item/
+"description": "Aspose.Cells for .NET kullanarak Excel'deki Power Query formül öğelerini kolayca güncelleyin. Veri işleme süreçlerinizi kolaylaştırmak için adım adım kılavuz."
+"linktitle": "Power Query Formül Öğesini Güncelle"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Power Query Formül Öğesini Güncelle"
+"url": "/tr/net/excel-workbook/update-power-query-formula-item/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Power Query Formül Öğesini Güncelle
@@ -22,7 +24,7 @@ Excel ile daha önce çalıştıysanız, ne kadar güçlü olabileceğini biliyo
 Koda dalmadan önce, ayarlamanız gereken birkaç şey var:
 
 1. Visual Studio: .NET kodunuzu yazmak ve çalıştırmak için entegre bir geliştirme ortamına (IDE) ihtiyacınız olacak. Visual Studio bunun için en iyi seçimdir.
-2.  Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin mevcut olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/cells/net/).
 3. C# Hakkında Temel Bilgiler: Bunu birlikte ele alacağız ancak C# hakkında temel bilgilere sahip olmak, özellikle farklı sınıflar ve yöntemler arasında gezinirken kesinlikle yardımcı olacaktır.
 4. Örnek Excel Dosyaları: Kod parçacığında belirtilen Excel dosyalarına ihtiyacınız olacak. Şunlara sahip olduğunuzdan emin olun:
    - `SamplePowerQueryFormula.xlsx`
@@ -64,7 +66,7 @@ string outputDir = "Your Output Directory";
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- The`Workbook` sınıf, Excel dosyasına giriş noktanızdır. Kaynak dosyamızın yolunu geçirerek, onu düzenlememize izin veren bir örnek oluşturuyoruz. Bunu bir kitabı açmak gibi düşünebilirsiniz; içeriğini okumaya (veya düzenlemeye) hazırlanıyorsunuz.
+The `Workbook` sınıf, Excel dosyasına giriş noktanızdır. Kaynak dosyamızın yolunu geçirerek, onu düzenlememize izin veren bir örnek oluşturuyoruz. Bunu bir kitabı açmak gibi düşünebilirsiniz; içeriğini okumaya (veya düzenlemeye) hazırlanıyorsunuz.
 
 ## Adım 3: Veri Mashup'ına erişin
 
@@ -73,7 +75,7 @@ Daha sonra çalışma kitabının Veri Mashup'ında saklanan Power Query formül
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- The`DataMashup` sınıfı, çalışma kitabınızla ilişkili tüm Power Query formüllerini içerir. Burası, onarımlar için bir alet kutusu açtığınızda olduğu gibi, ağır işlerimizi yapacağımız yerdir.
+The `DataMashup` sınıfı, çalışma kitabınızla ilişkili tüm Power Query formüllerini içerir. Burası, onarımlar için bir alet kutusu açtığınızda olduğu gibi, ağır işlerimizi yapacağımız yerdir.
 
 ## Adım 4: Power Query Formüllerinde Döngü
 
@@ -92,8 +94,8 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 }
 ```
 
--  Her bir döngüde`PowerQueryFormula` içinde`mashupData`.
-- Bu döngü içerisinde her birimizin içine dalıyoruz`PowerQueryFormulaItem`.
+- Her bir döngüde `PowerQueryFormula` içinde `mashupData`.
+- Bu döngü içerisinde her birimizin içine dalıyoruz `PowerQueryFormulaItem`.
 - Öğenin adının "Kaynak" ile eşleşip eşleşmediğini kontrol ediyoruz. Eşleşiyorsa, değerini yeni kaynak dosyamıza bağlayacak şekilde güncelliyoruz.
 
 Bu, bir kılavuzda doğru sayfayı bulup ardından gerekli güncellemeleri yapmaya benzer; basit ve titiz bir süreçtir.
@@ -107,7 +109,7 @@ Güncellemeleri yaptıktan sonra değişikliklerimizi kaydetmenin zamanı geldi.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- The`Save` method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
+The `Save` method güncellenen çalışma kitabını belirtilen çıktı dizinine yazar. Bu, düzenlemelerinizi kılavuzun yeni bir sürümünde mühürlemek ve başkalarının kullanımına hazır hale getirmek gibidir!
 
 ## Çözüm
 
@@ -125,13 +127,15 @@ Hayır, Aspose.Cells, sunucunuzda veya geliştirme makinenizde Excel'e ihtiyaç 
 Aspose.Cells'i kullanarak .xlsx, .xls, .xlsm ve diğer birçok Excel formatıyla çalışabilirsiniz.
 
 ### Aspose.Cells için deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose Cells sürüm sayfası](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose Cells sürüm sayfası](https://releases.aspose.com/).
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9)Topluluk ve Aspose ekibinden sorular sorabileceğiniz ve yanıtlar bulabileceğiniz yer.
+Desteğe şu şekilde erişebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9)Topluluk ve Aspose ekibinden sorular sorabileceğiniz ve yanıtlar bulabileceğiniz yer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

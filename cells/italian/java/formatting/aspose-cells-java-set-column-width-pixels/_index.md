@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ Pronti a mettere in pratica queste tecniche? Immergetevi nei vostri progetti con
 ## Sezione FAQ
 
 1. **Qual è la differenza tra `setColumnWidth` E `setViewColumnWidthPixel` in Aspose.Cells?**
-   - `setColumnWidth` regola la larghezza in base ai caratteri, mentre `setViewColumnWidthPixel` imposta su uno specifico valore in pixel.
+   - `setColumnWidth` regola la larghezza in base ai caratteri, mentre `setViewColumnWidthPixel` imposta su un valore pixel specifico.
 
 2. **Posso impostare la larghezza di più colonne contemporaneamente?**
    - Sì, itera sulle colonne desiderate e applica `setViewColumnWidthPixel` singolarmente oppure utilizzare operazioni in blocco se disponibili nelle versioni più recenti.
@@ -178,6 +180,9 @@ Sfrutta la potenza di Aspose.Cells per Java e trasforma subito la gestione dei t
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

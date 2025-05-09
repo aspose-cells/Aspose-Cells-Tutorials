@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ import com.aspose.cells.Workbook;
 ```
 
 ##### Укажите каталог данных и загрузите рабочую книгу
-Определите путь, где находится ваш файл Excel, и загрузите его в `Workbook` объект:
+Определите путь, по которому находится ваш файл Excel, и загрузите его в `Workbook` объект:
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY"; // Замените на фактический путь к каталогу данных.
 dataDir += "sample.xlsx"; // Файл Excel, который вы хотите загрузить
@@ -174,6 +176,9 @@ for (int row = 0; row <= cells.getMaxDataRow(); row++) { // Пройдитесь
 - **Форум поддержки:** [Поддержка сообщества Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

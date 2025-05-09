@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizált adatkinyerés
@@ -111,9 +113,11 @@ Az Aspose.Cells for Java segítségével automatizált adatkinyerés leegyszerű
    Tekintse meg az API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és példákért.
 
 Kezdje el automatizálni adatkinyerési feladatait még ma az Aspose.Cells for Java segítségével, és egyszerűsítse adatkinyerési folyamatait.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

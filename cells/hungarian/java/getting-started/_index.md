@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@ Ismerje meg, hogyan automatizálhatja az Excel-munkafüzetek létrehozását és
 Ismerje meg, hogyan hozhat létre és szabhat testre Excel-munkafüzeteket az Aspose.Cells for Java segítségével. Ez az útmutató a szövegdobozok hozzáadását, a tulajdonságok beállítását és a fájlok hatékony mentését ismerteti.
 
 ### [Excel-munkafüzet létrehozása az Aspose.Cells használatával Java-ban: lépésről lépésre útmutató](./create-excel-workbook-aspose-cells-java/)
-Tanuld meg, hogyan hozhatsz létre és tölthetsz fel Excel-munkafüzeteket egyéni adatokkal az Aspose.Cells for Java használatával. Hatékonyan egyszerűsítheted a munkafolyamataidat.
+Ismerje meg, hogyan hozhat létre és tölthet fel Excel-munkafüzeteket egyéni adatokkal az Aspose.Cells for Java használatával. Hatékonyan korszerűsítheti munkafolyamatait.
 
 ### [Excel-munkafüzetek létrehozása az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./create-excel-workbooks-aspose-cells-java/)
 Ismerje meg, hogyan hozhat létre és formázhat Excel-munkafüzeteket az Aspose.Cells for Java használatával. Automatizálja az Excel-feladatokat, alkalmazzon stílusokat és mentse hatékonyan a jelentéseket.
@@ -73,7 +75,7 @@ Tanuld meg, hogyan ellenőrizheted az Aspose.Cells verzióját Java projektjeidb
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -81,6 +83,9 @@ Tanuld meg, hogyan ellenőrizheted az Aspose.Cells verzióját Java projektjeidb
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

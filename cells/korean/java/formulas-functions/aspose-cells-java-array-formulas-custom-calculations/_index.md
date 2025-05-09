@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ Workbook workbook = new Workbook();
 
 #### 주요 구성
 - 숫자 형식은 다음과 같은 상수로 정의됩니다. `14` 화폐로.
-- 귀하의 서식 요구 사항에 맞게 이 값을 수정하세요.
+- 귀하의 서식 요구 사항에 따라 이 값을 수정하세요.
 
 ### 사용자 정의 함수를 사용한 사용자 정의 계산 옵션
 특정 요구 사항에 맞는 사용자 정의 함수를 사용하여 계산을 향상시킵니다.
@@ -233,6 +235,9 @@ workbook.save(outDir + "output.pdf");
 - [라이센스 구매](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

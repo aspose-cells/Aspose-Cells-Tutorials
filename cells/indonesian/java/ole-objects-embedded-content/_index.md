@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Kuasai komponen dokumen yang kompleks dengan tutorial Aspose.Cells kami untuk objek OLE dan konten tertanam di Java. Panduan terperinci ini menunjukkan cara memasukkan, mengekstrak, dan memanipulasi objek tertanam, mengelola file yang ditautkan, dan bekerja dengan dokumen gabungan secara terprogram. Setiap tutorial mencakup contoh kode Java yang berfungsi yang menunjukkan cara mengimplementasikan dokumen Excel yang kaya yang berisi konten tertanam dari berbagai sumber, menyempurnakan lembar kerja Anda dengan elemen multimedia dan interaktif.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi objek ole & konten tertanam
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -53,10 +55,13 @@ Tutorial kode untuk Aspose.Words Java
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

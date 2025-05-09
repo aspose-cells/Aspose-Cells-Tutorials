@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -228,6 +230,9 @@ Diese Anleitung bietet eine detaillierte Anleitung zum Erstellen dynamischer Exc
 - Teilen Sie Ihre Erkenntnisse oder Fragen in Entwicklerforen, um mit der Community in Kontakt zu treten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ Questo passaggio scrive le modifiche in un file, rendendolo pronto per l'uso o l
 Quando si lavora con Aspose.Cells, tenere presente quanto segue per ottimizzare le prestazioni:
 - **Gestione della memoria:** Utilizzare API di streaming per set di dati di grandi dimensioni per ridurre l'occupazione di memoria.
 - **Ottimizzare l'utilizzo delle risorse:** Dopo aver salvato le modifiche, chiudere subito le cartelle di lavoro per liberare risorse.
-- **Buone pratiche Java:** Esegui regolarmente la profilazione della tua applicazione per identificare e risolvere i colli di bottiglia.
+- **Migliori pratiche Java:** Esegui regolarmente la profilazione della tua applicazione per identificare e risolvere i colli di bottiglia.
 
 ## Conclusione
 
@@ -200,6 +202,9 @@ Sperimenta le funzionalità aggiuntive di Aspose.Cells per creare solide applica
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

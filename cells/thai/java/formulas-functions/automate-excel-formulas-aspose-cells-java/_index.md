@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ public class ExcelCreator {
    สูตรการแพร่กระจายจะอัปเดตโดยอัตโนมัติเมื่อมีการเพิ่มแถวข้อมูลใหม่ ช่วยให้มั่นใจถึงความแม่นยำอย่างต่อเนื่องโดยไม่ต้องมีการแทรกแซงด้วยตนเอง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Pronti a semplificare il vostro processo di gestione dei dati? Analizziamo i pre
 Prima di implementare le funzionalità con Aspose.Cells, assicurati di avere quanto segue:
 
 ### Librerie e dipendenze richieste
-- **Aspose.Cells per Java**: Essenziale per la gestione dei file Excel. Assicurati di avere la versione 25.3 o successiva.
+- **Aspose.Cells per Java**: Essenziale per la gestione dei file Excel. Assicurati di avere la versione 25.3 o superiore.
 
 ### Requisiti di configurazione dell'ambiente
 - Un JDK (Java Development Kit) compatibile installato sul tuo sistema.
@@ -151,6 +153,9 @@ Per informazioni e documentazione più dettagliate:
 Sentiti libero di esplorare queste risorse mentre prosegui il tuo viaggio con Aspose.Cells e Java. Buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

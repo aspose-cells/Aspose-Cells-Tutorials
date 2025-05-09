@@ -1,14 +1,16 @@
 ---
-title: Đọc và ghi kết nối bên ngoài của tệp XLSB
-linktitle: Đọc và ghi kết nối bên ngoài của tệp XLSB
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách quản lý các kết nối bên ngoài trong các tệp XLSB bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này.
-weight: 130
-url: /vi/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
+"description": "Tìm hiểu cách quản lý các kết nối bên ngoài trong các tệp XLSB bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Đọc và ghi kết nối bên ngoài của tệp XLSB"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Đọc và ghi kết nối bên ngoài của tệp XLSB"
+"url": "/vi/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc và ghi kết nối bên ngoài của tệp XLSB
@@ -22,7 +24,7 @@ Xin chào, những người đam mê Excel! Bạn đã sẵn sàng để đắm 
 Trước khi bắt đầu, đây là một số thứ bạn cần:
 
 1. Kiến thức cơ bản về C#: Biết cách sử dụng ngôn ngữ lập trình C# sẽ giúp ích rất nhiều. Nếu bạn thoải mái khi viết mã C#, bạn đã sẵn sàng!
-2.  Aspose.Cells cho .NET: Bạn sẽ cần cài đặt thư viện này trong môi trường phát triển của mình. Nếu bạn chưa làm điều đó, bạn có thể dễ dàng tải xuống[đây](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells cho .NET: Bạn sẽ cần cài đặt thư viện này trong môi trường phát triển của mình. Nếu bạn chưa làm điều đó, bạn có thể dễ dàng tải xuống [đây](https://releases.aspose.com/cells/net/). 
 3. IDE: Bạn sẽ cần một trình soạn thảo mã hoặc Môi trường phát triển tích hợp (IDE) như Visual Studio. 
 4. Tệp XLSB mẫu: Chúng ta sẽ làm việc với tệp XLSB mẫu có chứa các kết nối bên ngoài. Bạn có thể tự tạo hoặc tải xuống các mẫu trực tuyến. 
 
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Trong đoạn mã này,`"Your Document Directory"` Và`"Your Document Directory"` được cho là sẽ lấy các đường dẫn tương ứng cho nơi các tệp đầu vào và đầu ra của bạn sẽ nằm. Bạn có thể thay thế các phương pháp này bằng các đường dẫn được mã hóa cứng nếu bạn thích.
+Trong đoạn mã này, `"Your Document Directory"` Và `"Your Document Directory"` được cho là sẽ lấy các đường dẫn tương ứng cho nơi các tệp đầu vào và đầu ra của bạn sẽ nằm. Bạn có thể thay thế các phương pháp này bằng các đường dẫn được mã hóa cứng nếu bạn thích.
 
 ## Bước 2: Tải tệp XLSB
 
@@ -63,7 +65,7 @@ Bây giờ là lúc tải tệp Excel của bạn vào đối tượng Workbook.
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
- Chỉ cần đảm bảo rằng tệp XLSB của bạn nằm trong thư mục đã chỉ định`sourceDir`. Nếu đường dẫn đúng, bảng tính của bạn sẽ sẵn sàng để thao tác!
+Chỉ cần đảm bảo rằng tệp XLSB của bạn nằm trong thư mục đã chỉ định `sourceDir`. Nếu đường dẫn đúng, bảng tính của bạn sẽ sẵn sàng để thao tác!
 
 ## Bước 3: Truy cập kết nối bên ngoài
 
@@ -74,7 +76,7 @@ Khi sổ làm việc được tải, bạn có thể truy cập các kết nối
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Đây,`DataConnections[0]` đề cập đến kết nối đầu tiên trong sổ làm việc. Chúng tôi đang đúc nó như một`DBConnection` nhập để thao tác thêm.
+Đây, `DataConnections[0]` đề cập đến kết nối đầu tiên trong sổ làm việc. Chúng tôi đang đúc nó như một `DBConnection` nhập để thao tác thêm.
 
 ## Bước 4: Trích xuất thông tin kết nối
 
@@ -131,19 +133,21 @@ Và bạn đã có nó! Bạn đã học thành công cách đọc và ghi các 
 Tệp XLSB là định dạng tệp Excel nhị phân lưu trữ dữ liệu bảng tính ở định dạng nhị phân, giúp tệp nhỏ gọn hơn và mở nhanh hơn.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?  
- Bạn có thể dễ dàng tải xuống từ trang web Aspose[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể dễ dàng tải xuống từ trang web Aspose [đây](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có! Bạn có thể bắt đầu với bản dùng thử miễn phí, có sẵn[đây](https://releases.aspose.com/).
+Có! Bạn có thể bắt đầu với bản dùng thử miễn phí, có sẵn [đây](https://releases.aspose.com/).
 
 ### Aspose.Cells có hỗ trợ các định dạng tệp khác không?  
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng tệp khác nhau, bao gồm XLSX, CSV, v.v.
 
 ### Tôi có thể tìm kiếm sự trợ giúp ở đâu nếu gặp vấn đề?  
-Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

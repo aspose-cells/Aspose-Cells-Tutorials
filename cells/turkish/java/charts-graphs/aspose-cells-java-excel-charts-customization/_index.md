@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,7 +189,7 @@ workbook.save(outDir + "/SettingChartLines_out.xls");
 
 Aspose.Cells for Java'nın grafik özelleştirme yetenekleri çeşitli gerçek dünya senaryolarında kullanılabilir:
 
-1. **Finansal Raporlama**: Dinamik, biçimlendirilmiş grafiklerle çeyreklik veya yıllık raporlarınızı geliştirin.
+1. **Finansal Raporlama**:Çeyreklik veya yıllık raporlarınızı dinamik, şık grafiklerle geliştirin.
 2. **Veri Analizi**: Veri kümelerini görselleştirerek trendleri ve içgörüleri hızla belirleyin.
 3. **Proje Yönetimi**:Proje zaman çizelgelerini etkin bir şekilde takip etmek için özelleştirilmiş Gantt grafiklerini kullanın.
 
@@ -220,6 +222,9 @@ Bir sonraki adımınız olarak, Aspose.Cells tarafından sağlanan daha gelişmi
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

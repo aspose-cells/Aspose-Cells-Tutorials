@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ V: Igen, számos Excel formátumot támogat, beleértve az XLS és XLSX formátu
 Az útmutató követésével most már felkészült leszel arra, hogy részösszeg-funkciókat építs be Java-alkalmazásaidba az Aspose.Cells segítségével. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

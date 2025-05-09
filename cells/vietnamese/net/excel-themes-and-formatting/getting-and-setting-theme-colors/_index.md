@@ -1,14 +1,16 @@
 ---
-title: Nhận và thiết lập màu chủ đề trong Excel
-linktitle: Nhận và thiết lập màu chủ đề trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách lấy và thiết lập màu chủ đề trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo này. Bao gồm hướng dẫn từng bước đầy đủ và ví dụ về mã.
-weight: 11
-url: /vi/net/excel-themes-and-formatting/getting-and-setting-theme-colors/
+"description": "Tìm hiểu cách lấy và đặt màu chủ đề trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo này. Bao gồm hướng dẫn từng bước đầy đủ và ví dụ về mã."
+"linktitle": "Nhận và thiết lập màu chủ đề trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Nhận và thiết lập màu chủ đề trong Excel"
+"url": "/vi/net/excel-themes-and-formatting/getting-and-setting-theme-colors/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận và thiết lập màu chủ đề trong Excel
@@ -18,11 +20,11 @@ Tùy chỉnh giao diện của sổ làm việc Excel có thể tạo ra sự kh
 Nghe có vẻ phức tạp phải không? Đừng lo, tôi sẽ giúp bạn! Chúng tôi sẽ chia nhỏ từng bước để đến cuối hướng dẫn này, bạn có thể dễ dàng điều chỉnh các màu đó. Hãy bắt đầu thôi!
 ## Điều kiện tiên quyết
 Trước khi tìm hiểu về mã, chúng ta hãy xem xét những gì bạn cần để mọi thứ hoạt động trơn tru:
-1. Aspose.Cells cho .NET – Đảm bảo bạn đã cài đặt phiên bản mới nhất. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET – Đảm bảo bạn đã cài đặt phiên bản mới nhất. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển .NET – Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
 3. Kiến thức cơ bản về C# – Điều này sẽ giúp bạn theo dõi các ví dụ mã hóa.
 4. Tệp Excel – Một tệp Excel mẫu mà bạn muốn thao tác.
- Bạn cũng có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá đầy đủ chức năng của Aspose.Cells miễn phí trước khi cam kết.
+Bạn cũng có thể nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá đầy đủ chức năng của Aspose.Cells miễn phí trước khi cam kết.
 ## Nhập không gian tên
 Để bắt đầu, hãy đảm bảo bạn nhập các không gian tên cần thiết vào dự án của mình. Điều này cho phép bạn truy cập tất cả các lớp và phương thức bạn cần để thao tác màu chủ đề Excel.
 ```csharp
@@ -68,7 +70,7 @@ workbook.SetThemeColor(ThemeColorType.Accent2, Color.Blue);
 Bạn thấy chúng tôi đã làm gì ở đó không? Chúng tôi chỉ cần truyền màu chúng tôi muốn vào, và thế là xong! Màu chủ đề đã thay đổi. Nhưng khoan đã, làm sao chúng tôi biết được nó có hiệu quả không? Đó là phần tiếp theo.
 ## Bước 4: Xác minh các thay đổi
 Chúng tôi không chỉ muốn cho rằng những thay đổi đã được thực hiện. Hãy xác minh màu mới bằng cách lấy lại chúng và in ra.
-Bạn đang truy xuất lại màu chủ đề đã cập nhật bằng phương thức GetThemeColor để xác nhận rằng những thay đổi đã được áp dụng.
+Bạn đang truy xuất màu chủ đề đã cập nhật bằng phương thức GetThemeColor một lần nữa để xác nhận rằng những thay đổi đã được áp dụng.
 ```csharp
 // Nhận màu chủ đề Background1 đã cập nhật.
 c = workbook.GetThemeColor(ThemeColorType.Background1);
@@ -87,23 +89,25 @@ Bạn đang sử dụng phương pháp Lưu để lưu sổ làm việc với nh
 // Lưu tập tin đã cập nhật.
 workbook.Save(dataDir + "output.out.xlsx");
 ```
-Và thế là xong! Bạn vừa mới thay đổi thành công màu chủ đề của tệp Excel bằng Aspose.Cells cho .NET. Chúc mừng!
+Và thế là xong! Bạn vừa mới sửa đổi thành công màu chủ đề của tệp Excel bằng Aspose.Cells cho .NET. Chúc mừng!
 ## Phần kết luận
 Thay đổi màu chủ đề trong tệp Excel bằng Aspose.Cells cho .NET rất đơn giản khi bạn đã quen với nó. Chỉ với một vài dòng mã, bạn có thể thay đổi hoàn toàn giao diện của sổ làm việc, mang lại cho nó giao diện tùy chỉnh và chuyên nghiệp. Cho dù bạn muốn phù hợp với thương hiệu của công ty hay chỉ muốn làm cho bảng tính của mình nổi bật, Aspose.Cells cung cấp các công cụ để thực hiện điều đó.
 ## Câu hỏi thường gặp
 ### Tôi có thể cài đặt màu tùy chỉnh ngoài các màu chủ đề được xác định trước không?
 Có, với Aspose.Cells, bạn có thể thiết lập màu tùy chỉnh cho bất kỳ phần nào trong bảng tính Excel, không chỉ các màu chủ đề được xác định trước.
 ### Tôi có cần phải trả phí để sử dụng Aspose.Cells không?
- Bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/)hoặc nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/). Để mở khóa đầy đủ chức năng, bạn nên sử dụng giấy phép trả phí.
+Bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/) hoặc nhận được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/). Để mở khóa đầy đủ chức năng, bạn nên sử dụng giấy phép trả phí.
 ### Tôi có thể áp dụng nhiều màu chủ đề khác nhau cho từng trang tính không?
 Có, bạn có thể thay đổi màu chủ đề của từng trang tính trong bảng tính bằng cách tải chúng riêng biệt và áp dụng màu mong muốn.
 ### Có thể quay lại màu chủ đề ban đầu không?
 Có, nếu bạn muốn quay lại màu chủ đề mặc định, bạn có thể lấy lại và thiết lập lại chúng bằng các phương thức GetThemeColor và SetThemeColor tương tự.
 ### Tôi có thể tự động hóa quy trình này cho nhiều sổ làm việc không?
 Chắc chắn rồi! Aspose.Cells cho phép bạn áp dụng các thay đổi chủ đề theo chương trình trên nhiều sổ làm việc trong một quy trình hàng loạt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

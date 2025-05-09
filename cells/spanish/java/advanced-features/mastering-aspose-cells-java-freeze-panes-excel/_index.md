@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Worksheet worksheet = worksheets.get(0);
 **Descripción general**:Aprenda a mantener filas y columnas específicas visibles mientras se desplaza por su hoja de cálculo aplicando la configuración de inmovilizar paneles.
 
 #### Paso 4: Configurar la congelación de paneles
-Aplique congelar paneles usando el `freezePanes` método.
+Aplique congelación de paneles utilizando el `freezePanes` método.
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 worksheet.freezePanes(3, 2, 3, 2);
@@ -109,7 +111,7 @@ workbook.save(outDir + "FreezePanes_out.xls");
 4. **Seguimiento de inventario**:Utilice paneles congelados para mantener a la vista columnas importantes, como nombres de artículos y cantidades.
 
 ## Consideraciones de rendimiento
-- **Optimizar el uso de recursos**:Administre la memoria de manera eficiente eliminando objetos que no estén en uso. `Workbook.dispose()`.
+- **Optimizar el uso de recursos**:Administre la memoria de manera eficiente eliminando objetos que no estén en uso con `Workbook.dispose()`.
 - **Manejo eficiente de archivos**:Cargue únicamente las hojas necesarias si trabaja con libros de trabajo de varias hojas.
 - **Procesamiento paralelo**:Para operaciones a gran escala, considere procesar múltiples archivos simultáneamente utilizando las utilidades concurrentes de Java.
 
@@ -143,6 +145,9 @@ Para explorar más a fondo las capacidades de Aspose.Cells u otras funciones com
 Para cualquier pregunta o ayuda adicional, visite el [Foro de Aspose](https://forum.aspose.com/c/cells/9)¡Feliz codificación!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ public class SaveWorkbookAsPDF {
    - अपने ब्राउज़र में संस्करण संख्या बदलें `pom.xml` फ़ाइल को नवीनतम रिलीज़ पर ले जाएं और निर्भरताओं को ताज़ा करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

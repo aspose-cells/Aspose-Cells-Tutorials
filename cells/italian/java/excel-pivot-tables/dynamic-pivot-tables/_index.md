@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabelle pivot dinamiche
@@ -107,9 +109,11 @@ Sì, è possibile applicare filtri alle tabelle pivot per visualizzare sottoinsi
 ### D5: Aspose.Cells supporta le funzionalità avanzate delle tabelle pivot di Excel?
 
 Sì, Aspose.Cells fornisce un ampio supporto per le funzionalità avanzate delle tabelle pivot di Excel, consentendo di creare tabelle pivot complesse.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

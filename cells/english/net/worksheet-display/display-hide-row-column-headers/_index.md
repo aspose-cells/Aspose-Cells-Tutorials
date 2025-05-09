@@ -8,7 +8,9 @@ url: /net/worksheet-display/display-hide-row-column-headers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display or Hide Row and Column Headers in Worksheet
@@ -142,6 +144,7 @@ If you face any issues while using Aspose.Cells, you can ask for help in their d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

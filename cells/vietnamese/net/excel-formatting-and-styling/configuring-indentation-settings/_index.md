@@ -1,14 +1,16 @@
 ---
-title: Cấu hình cài đặt thụt lề trong Excel
-linktitle: Cấu hình cài đặt thụt lề trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách cấu hình cài đặt thụt lề trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để cải thiện tài liệu Excel của bạn một cách dễ dàng.
-weight: 16
-url: /vi/net/excel-formatting-and-styling/configuring-indentation-settings/
+"description": "Tìm hiểu cách cấu hình cài đặt thụt lề trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để cải thiện tài liệu Excel của bạn một cách dễ dàng."
+"linktitle": "Cấu hình cài đặt thụt lề trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Cấu hình cài đặt thụt lề trong Excel"
+"url": "/vi/net/excel-formatting-and-styling/configuring-indentation-settings/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấu hình cài đặt thụt lề trong Excel
@@ -18,7 +20,7 @@ Việc tạo và quản lý bảng tính theo chương trình có thể giúp b�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào các chi tiết kỹ thuật, chúng ta hãy cùng tìm hiểu những gì bạn cần chuẩn bị trước khi bắt đầu viết kịch bản:
 1. Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và thực thi mã của mình.
-2. Aspose.Cells cho .NET: Tải xuống thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Tải xuống thư viện Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# và .NET framework sẽ giúp bạn hiểu các ví dụ chúng tôi sẽ đề cập.
 4. .NET Framework: Đảm bảo rằng dự án của bạn được thiết lập để hoạt động với phiên bản .NET Framework được Aspose.Cells hỗ trợ.
 Sau khi bạn đã sắp xếp xong mọi thứ, chúng ta đã sẵn sàng để bắt đầu!
@@ -30,7 +32,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các không g
 using System.IO;
 using Aspose.Cells;
 ```
- Điều này cho phép bạn truy cập tất cả các lớp và phương thức do thư viện cung cấp mà không cần phải chỉ định đường dẫn đầy đủ mỗi lần. Nếu bạn cần, hãy thoải mái kiểm tra thêm thông tin trong[tài liệu](https://reference.aspose.com/cells/net/).
+Điều này cho phép bạn truy cập tất cả các lớp và phương thức do thư viện cung cấp mà không cần phải chỉ định đường dẫn đầy đủ mỗi lần. Nếu bạn cần, hãy thoải mái kiểm tra thêm thông tin trong [tài liệu](https://reference.aspose.com/cells/net/).
 Bây giờ, chúng ta hãy chia nhỏ nhiệm vụ tạo tệp Excel và thêm một số thụt lề vào các ô. Tôi sẽ hướng dẫn bạn từng bước trong toàn bộ quá trình.
 ## Bước 2: Thiết lập thư mục tài liệu
 Đầu tiên, chúng ta cần một nơi để lưu trữ tệp Excel. Hãy xác định thư mục tài liệu của chúng ta.
@@ -82,7 +84,7 @@ Tiếp theo, hãy thiết lập mức thụt lề. Đây là cốt lõi của h�
 style.IndentLevel = 2;
 ```
 Ở đây, chúng ta đặt mức thụt lề là 2, nghĩa là văn bản trong ô sẽ được dịch chuyển so với lề trái, làm cho văn bản nổi bật hơn.
-## Bước 10: Áp dụng lại kiểu cho ô
+## Bước 10: Áp dụng lại Style cho ô
 Sau khi cấu hình xong kiểu, chúng ta cần áp dụng lại kiểu đó vào ô để xem sự thay đổi.
 ```csharp
 cell.SetStyle(style);
@@ -102,14 +104,16 @@ Aspose.Cells là thư viện .NET dùng để tạo, chỉnh sửa và chuyển 
 ### Tôi có thể sử dụng Aspose.Cells trên Linux không?
 Có, Aspose.Cells hỗ trợ .NET Core, cho phép bạn sử dụng nó trên môi trường Linux.
 ### Làm thế nào tôi có thể nhận được phiên bản dùng thử miễn phí?
- Bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Bạn có thể tải xuống phiên bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 ### Aspose.Cells có tương thích với mọi phiên bản Excel không?
 Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm các phiên bản cũ hơn như Excel 97-2003.
 ### Tôi có thể tìm thêm tài liệu ở đâu?
-Bạn có thể tìm thấy tài liệu toàn diện về[Trang tham khảo của Aspose](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang tham khảo của Aspose](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

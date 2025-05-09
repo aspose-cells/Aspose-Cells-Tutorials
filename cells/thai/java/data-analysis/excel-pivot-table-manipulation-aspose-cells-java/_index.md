@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,7 +180,7 @@ license.setLicense("Path to your Aspose.Cells license file");
 ## การพิจารณาประสิทธิภาพ
 
 เพื่อให้แน่ใจว่าได้รับประสิทธิภาพสูงสุดเมื่อทำงานกับชุดข้อมูลขนาดใหญ่ ให้ทำดังนี้:
-- ลดการใช้หน่วยความจำโดยการปิดเวิร์กบุ๊กเมื่อไม่ได้ใช้งาน
+- ลดการใช้หน่วยความจำโดยการปิดสมุดงานเมื่อไม่ได้ใช้งาน
 - เพิ่มประสิทธิภาพการดำเนินการตารางสรุปข้อมูลด้วยการจำกัดจำนวนฟิลด์และรายการที่ประมวลผลพร้อมกัน
 - ใช้โครงสร้างข้อมูลและอัลกอริทึมที่มีประสิทธิภาพที่ออกแบบมาสำหรับ Java เพื่อจัดการทรัพยากรอย่างมีประสิทธิผล
 
@@ -209,6 +211,9 @@ license.setLicense("Path to your Aspose.Cells license file");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

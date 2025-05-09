@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ for (int idx = 0; idx < ptChildren.length; idx++) {
 باتباع هذا الدليل الشامل، ستكون جاهزًا تمامًا للتعامل مع مهام إدارة بيانات Excel المعقدة باستخدام Aspose.Cells لـ Java. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

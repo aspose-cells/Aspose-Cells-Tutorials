@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -45,7 +47,7 @@ Aspose.Cells for Java를 사용하여 Excel 파일에 주석을 자동으로 추
 ### [Java에서 Aspose.Cells를 사용하여 Excel 스레드 주석 편집](./edit-excel-threaded-comments-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 파일의 스레드 댓글을 효율적으로 편집하는 방법을 알아보세요. 설정, 코드 예제 및 모범 사례는 이 가이드를 참조하세요.
 
-### [Java용 Aspose.Cells를 사용하여 Excel 주석 텍스트 방향 마스터하기](./excel-comment-text-direction-aspose-cells-java/)
+### [Aspose.Cells for Java를 사용하여 Excel 주석 텍스트 방향 마스터하기](./excel-comment-text-direction-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 주석의 텍스트 방향을 변경하는 방법을 알아보세요. 아랍어나 히브리어처럼 오른쪽에서 왼쪽으로 쓰는 언어를 통합하는 데 적합합니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel 주석을 HTML로 내보내기](./export-excel-comments-html-aspose-cells-java/)
@@ -63,6 +65,9 @@ Aspose.Words Java에 대한 코드 튜토리얼
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

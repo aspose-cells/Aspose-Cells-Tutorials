@@ -8,7 +8,9 @@ url: /net/excel-data-dependency-calculation/tracing-dependent-cells-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tracing Dependent Cells in Excel
@@ -150,6 +152,7 @@ Yes! You can purchase Aspose.Cells through their [buy page](https://purchase.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

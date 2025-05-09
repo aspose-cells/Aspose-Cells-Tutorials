@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,11 +17,11 @@
 
 ## Cara Membuat dan Menyimpan File ODS Menggunakan Aspose.Cells untuk Java: Panduan Pengembang
 
-### Perkenalan
+### Bevezetés
 
 Bekerja dengan spreadsheet secara terprogram dapat menjadi tantangan, terutama saat menangani berbagai format file. Jika Anda merasa kesulitan mengelola file OpenDocument Spreadsheet (ODS) di Java, tutorial ini adalah solusinya! Dengan Aspose.Cells untuk Java, membuat dan memodifikasi file ODS menjadi mudah. Panduan ini tidak hanya menunjukkan kemudahan penggunaan Aspose.Cells tetapi juga menunjukkan cara menyimpan file-file ini dengan versi skema tertentu.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda.
 - Membuat buku kerja dan mengakses lembar kerja pertamanya.
 - Memodifikasi nilai sel dalam lembar kerja.
@@ -27,12 +29,12 @@ Bekerja dengan spreadsheet secara terprogram dapat menjadi tantangan, terutama s
 
 Siap untuk memulai? Mari kita mulai dengan prasyarat yang Anda perlukan sebelum memulai implementasi.
 
-### Prasyarat
+### Előfeltételek
 
 Sebelum kita mulai, pastikan Anda memiliki:
-- **Perpustakaan & Versi**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Persyaratan Pengaturan Lingkungan**: Lingkungan pengembangan yang mendukung Java (disarankan JDK 8+).
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan IDE seperti IntelliJ IDEA atau Eclipse.
+- **Könyvtárak és verziók**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezeti beállítási követelmények**: Lingkungan pengembangan yang mendukung Java (disarankan JDK 8+).
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan IDE seperti IntelliJ IDEA atau Eclipse.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
@@ -56,15 +58,15 @@ Jika Anda menggunakan Gradle, sertakan ini di `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-##### Langkah-langkah Memperoleh Lisensi
+##### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis**: Unduh uji coba gratis dari [Halaman rilis Aspose](https://releases.aspose.com/cells/java/) untuk menjelajahi kemampuan Aspose.Cells sepenuhnya.
+1. **Ingyenes próbaverzió**Töltsön le egy ingyenes próbaverziót innen: [Az Aspose kiadási oldala](https://releases.aspose.com/cells/java/) untuk menjelajahi kemampuan Aspose.Cells sepenuhnya.
    
-2. **Lisensi Sementara**:Untuk penggunaan yang diperpanjang tanpa batasan evaluasi, mintalah lisensi sementara di [halaman pembelian](https://purchase.aspose.com/temporary-license/).
+2. **Ideiglenes engedély**:Untuk penggunaan yang diperpanjang tanpa batasan evaluasi, mintalah lisensi sementara di [vásárlási oldal](https://purchase.aspose.com/temporary-license/).
 
-3. **Pembelian**:Untuk membuka semua fitur untuk lingkungan produksi, beli lisensi dari [Situs pembelian Aspose](https://purchase.aspose.com/buy).
+3. **Vásárlás**:Untuk membuka semua fitur untuk lingkungan produksi, beli lisensi dari [Situs pembelian Aspose](https://purchase.aspose.com/buy).
 
-##### Inisialisasi Dasar
+##### Alapvető inicializálás
 
 Setelah disiapkan, Anda dapat menginisialisasi Aspose.Cells seperti ini:
 
@@ -73,20 +75,20 @@ import com.aspose.cells.Workbook;
 
 public class SetupAspose {
     public static void main(String[] args) {
-        // Inisialisasi objek Buku Kerja baru
+        // Új munkafüzet-objektum inicializálása
         Workbook workbook = new Workbook();
         System.out.println("Aspose.Cells setup complete!");
     }
 }
 ```
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 Sekarang, mari selami penerapan fitur utama Aspose.Cells untuk membuat dan menyimpan file ODS.
 
 #### Buat Buku Kerja dan Akses Lembar Kerja
 
-**Ringkasan**: Mulailah dengan membuat buku kerja baru dan mengakses lembar kerja pertamanya. Ini menjadi dasar untuk semua operasi yang terkait dengan lembar kerja.
+**Áttekintés**: Mulailah dengan membuat buku kerja baru dan mengakses lembar kerja pertamanya. Ini menjadi dasar untuk semua operasi yang terkait dengan lembar kerja.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -94,10 +96,10 @@ import com.aspose.cells.Worksheet;
 
 public class CreateWorkbook {
     public static void main(String[] args) {
-        // Inisialisasi objek Buku Kerja baru
+        // Új munkafüzet-objektum inicializálása
         Workbook workbook = new Workbook();
 
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         System.out.println("Workbook and worksheet created!");
@@ -107,7 +109,7 @@ public class CreateWorkbook {
 
 #### Ubah Nilai Sel
 
-**Ringkasan**: Ubah nilai sel dalam lembar kerja Anda dengan mudah. Langkah ini penting untuk mengisi data secara dinamis.
+**Áttekintés**: Ubah nilai sel dalam lembar kerja Anda dengan mudah. Langkah ini penting untuk mengisi data secara dinamis.
 
 ```java
 import com.aspose.cells.Cell;
@@ -125,7 +127,7 @@ public class ModifyCellValue {
 
 #### Simpan File ODS dengan Opsi Default
 
-**Ringkasan**: Pelajari cara menyimpan buku kerja Anda sebagai file ODS menggunakan pengaturan default, cocok untuk sebagian besar kasus penggunaan umum.
+**Áttekintés**: Pelajari cara menyimpan buku kerja Anda sebagai file ODS menggunakan pengaturan default, cocok untuk sebagian besar kasus penggunaan umum.
 
 ```java
 import com.aspose.cells.OdsSaveOptions;
@@ -145,7 +147,7 @@ public class SaveOdsFile {
 
 #### Simpan File ODS dengan Skema Ketat 1.1
 
-**Ringkasan**: Untuk skenario yang memerlukan kepatuhan ketat pada skema ODF 1.1, konfigurasikan dan simpan file ODS Anda sebagaimana mestinya.
+**Áttekintés**: Untuk skenario yang memerlukan kepatuhan ketat pada skema ODF 1.1, konfigurasikan dan simpan file ODS Anda sebagaimana mestinya.
 
 ```java
 public class SaveOdsStrictSchema {
@@ -162,26 +164,26 @@ public class SaveOdsStrictSchema {
 }
 ```
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java dapat digunakan dalam berbagai skenario dunia nyata:
 
-1. **Pelaporan Keuangan Otomatis**: Menghasilkan dan memodifikasi laporan keuangan secara dinamis berdasarkan masukan pengguna atau sumber data eksternal.
-2. **Alat Analisis Data**: Buat alat analisis khusus yang memanipulasi data spreadsheet secara terprogram untuk memberikan wawasan.
-3. **Integrasi dengan Layanan Web**: Gunakan Aspose.Cells untuk Java dalam aplikasi web untuk mengelola spreadsheet yang diunggah oleh pengguna.
+1. **Automatizált pénzügyi jelentéskészítés**: Menghasilkan dan memodifikasi laporan keuangan secara dinamis berdasarkan masukan pengguna atau sumber data eksternal.
+2. **Adatelemző eszközök**: Buat alat analisis khusus yang memanipulasi data spreadsheet secara terprogram untuk memberikan wawasan.
+3. **Integráció webszolgáltatásokkal**: Gunakan Aspose.Cells untuk Java dalam aplikasi web untuk mengelola spreadsheet yang diunggah oleh pengguna.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
-Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells:
-- **Optimalkan Penggunaan Memori**: Buang objek dengan benar dan kelola sumber daya secara efisien, terutama dalam pemrosesan data berskala besar.
+Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
+- **Memóriahasználat optimalizálása**: Buang objek dengan benar dan kelola sumber daya secara efisien, terutama dalam pemrosesan data berskala besar.
 - **Pengolahan Data yang Efisien**: Memproses data secara batch jika memungkinkan untuk mengurangi overhead.
 - **Praktik Terbaik untuk Manajemen Memori Java**: Memanfaatkan alat pembuatan profil untuk memantau penggunaan memori dan menyesuaikan pengaturan JVM sesuai kebutuhan.
 
-### Kesimpulan
+### Következtetés
 
-Anda kini telah mempelajari cara membuat dan menyimpan file ODS menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan pustaka, pembuatan buku kerja, modifikasi nilai sel, dan penyimpanan file dengan berbagai opsi skema. Untuk lebih meningkatkan keterampilan Anda, jelajahi lebih banyak fitur Aspose.Cells dengan mempelajarinya [dokumentasi](https://reference.aspose.com/cells/java/).
+Anda kini telah mempelajari cara membuat dan menyimpan file ODS menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan pustaka, pembuatan buku kerja, modifikasi nilai sel, dan penyimpanan file dengan berbagai opsi skema. Untuk lebih meningkatkan keterampilan Anda, jelajahi lebih banyak fitur Aspose.Cells dengan mempelajarinya [dokumentáció](https://reference.aspose.com/cells/java/).
 
-### Bagian FAQ
+### GYIK szekció
 
 **Q1: Bagaimana cara menangani pengecualian saat menyimpan file ODS?**
 A1: Gunakan blok try-catch untuk mengelola IOExceptions yang mungkin terjadi selama operasi file.
@@ -198,18 +200,21 @@ A4: Penggunaan `OdsSaveOptions` dan mengatur `setStrictSchema11(true)` untuk kep
 **Q5: Dapatkah Aspose.Cells terintegrasi dengan pustaka Java lainnya?**
 A5: Ya, Aspose.Cells dapat diintegrasikan secara mulus dengan berbagai kerangka kerja dan pustaka Java.
 
-### Sumber daya
+### Erőforrás
 
-- **Dokumentasi**: [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Halaman Rilis](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Lisensi](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulai Uji Coba Gratis Anda](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Sekarang](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Licenc vásárlása](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Indítsa el az ingyenes próbaverziót](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Minta Sekarang](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda dengan Aspose.Cells untuk Java hari ini dan sederhanakan tugas manajemen spreadsheet Anda!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

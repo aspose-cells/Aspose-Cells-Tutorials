@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ De volgende stappen omvatten het verkennen van andere tekstopmaakopties, zoals s
 Experimenteer met Aspose.Cells voor Java om de krachtige automatiseringsmogelijkheden van Excel te ontgrendelen. Raadpleeg ook de uitgebreide documentatie voor meer informatie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

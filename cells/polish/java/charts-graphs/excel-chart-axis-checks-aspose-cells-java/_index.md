@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Podzielimy proces na łatwe do opanowania sekcje.
    ```java
    import com.aspose.cells.Workbook;
    ```
-2. **Wczytaj skoroszyt z pliku**
+2. **Załaduj skoroszyt z pliku**
    Zastępować `"YOUR_DATA_DIRECTORY"` z rzeczywistą ścieżką:
    ```java
    String dataDir = "YOUR_DATA_DIRECTORY";
@@ -165,6 +167,9 @@ A5: Optymalizacja kodu poprzez załadowanie niezbędnych danych, buforowanie wyn
 - **Pobierać**:Uzyskaj dostęp do najnowszej wersji Aspose.Cells for Java i zacznij wdrażać te rozwiązania już dziś.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

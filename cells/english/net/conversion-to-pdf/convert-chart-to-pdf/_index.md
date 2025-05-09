@@ -8,7 +8,9 @@ url: /net/conversion-to-pdf/convert-chart-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Chart to PDF in .NET
@@ -102,9 +104,11 @@ If you encounter any issues, you can visit the [Aspose support forum](https://fo
 Yes, besides XLS/XLSX, Aspose.Cells supports a variety of formats, including CSV, PDF, HTML, and more.
 ### Can I purchase a license for Aspose.Cells?
 Absolutely! You can [purchase a license](https://purchase.aspose.com/buy) on the Aspose website for full version benefits.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

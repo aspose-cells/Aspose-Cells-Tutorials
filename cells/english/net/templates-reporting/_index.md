@@ -6,7 +6,9 @@ url: "/net/templates-reporting/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Templates & Report Generation
@@ -53,7 +55,11 @@ A code tutorial for Aspose.Cells Net
 
 ### [Master Aspose.Cells .NET Smart Markers for Data Integration in Excel](./mastering-data-integration-aspose-cells-smart-markers)
 Learn to master data integration using Aspose.Cells .NET Smart Markers with this comprehensive guide. Automate your Excel workflows and generate reports efficiently.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

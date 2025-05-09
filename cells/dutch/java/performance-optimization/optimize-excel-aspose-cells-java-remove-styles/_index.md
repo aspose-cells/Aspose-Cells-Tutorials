@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,11 +189,14 @@ A5: Bezoek [Officiële documentatie van Aspose](https://reference.aspose.com/cel
 - **Documentatie**: Ontdek gedetailleerde API-referenties op [Aspose-documentatie](https://reference.aspose.com/cells/java/).
 - **Download**: Download de nieuwste versie van [Aspose-releases](https://releases.aspose.com/cells/java/).
 - **Aankoop**: Beveilig uw licentie via [Aspose Aankoop](https://purchase.aspose.com/buy).
-- **Gratis proefperiode**: Test functies met een gratis proefperiode op [Aspose gratis proefperiode](https://releases.aspose.com/cells/java/).
+- **Gratis proefperiode**Test functies met een gratis proefperiode op [Aspose gratis proefperiode](https://releases.aspose.com/cells/java/).
 - **Tijdelijke licentie**: Vraag een tijdelijke vergunning aan op hun [tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 - **Steun**Sluit je aan bij het communityforum voor ondersteuning op [Aspose Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

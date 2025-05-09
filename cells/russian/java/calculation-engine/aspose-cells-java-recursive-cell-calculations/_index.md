@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Aspose.Cells для Java можно использовать в ознакоми
 
 ### Руководство по внедрению
 
-#### Обзор рекурсивного вычисления ячеек
+#### Обзор рекурсивного расчета ячеек
 
 Эта функция фокусируется на вычислении значений ячеек, которые зависят от рекурсивных формул, что имеет решающее значение для сложных электронных таблиц, где ячейки ссылаются друг на друга итеративно.
 
@@ -152,6 +154,9 @@ Aspose.Cells может легко интегрироваться в эти си
 Освоив эти приемы, вы будете хорошо подготовлены к решению сложных задач Excel с легкостью, используя Aspose.Cells для Java. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

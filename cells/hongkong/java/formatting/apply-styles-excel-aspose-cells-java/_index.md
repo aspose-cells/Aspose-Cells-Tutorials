@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
   // 命名樣式以便於參考
   style.setName("Date1");
   ```
-- 將樣式套用至儲存格 A1：
+- 將樣式套用到儲存格 A1：
   ```java
   cells.get("A1").setStyle(style);
   ```
@@ -205,6 +207,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

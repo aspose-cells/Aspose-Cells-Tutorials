@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Controllo dell'accesso ai file
@@ -25,7 +27,7 @@ Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 - [Kit di sviluppo Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) installato sul tuo sistema.
 - Libreria Aspose.Cells per Java. Puoi scaricarla da [Sito web di Aspose.Cells per Java](https://releases.aspose.com/cells/java/).
 
-## Passaggio 1: configurazione del progetto Java
+## Passaggio 1: impostazione del progetto Java
 
 1. Crea un nuovo progetto Java nel tuo ambiente di sviluppo integrato (IDE) preferito.
 
@@ -137,6 +139,7 @@ Puoi estendere il `ExcelFileManager` classe per registrare altre azioni quali mo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

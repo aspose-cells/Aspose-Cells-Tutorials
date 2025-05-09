@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introdução
 Tem dificuldade para navegar em planilhas grandes do Excel? **Painéis congelados** mantém linhas e colunas essenciais visíveis, tornando a análise de dados mais eficiente. Este tutorial irá guiá-lo através do uso **Aspose.Cells para Java** para congelar painéis de forma eficaz.
 
-### que você aprenderá
+### O que você aprenderá
 - Como carregar uma pasta de trabalho existente do Excel.
 - Técnicas para aplicar configurações de congelamento de painel.
 - Etapas para salvar sua pasta de trabalho modificada.
@@ -143,6 +145,9 @@ Para uma exploração mais aprofundada dos recursos do Aspose.Cells ou outros re
 Para mais dúvidas ou suporte, visite o [Fórum Aspose](https://forum.aspose.com/c/cells/9). Boa codificação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

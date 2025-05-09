@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ```
 
 ### ライセンス取得手順
-1. **無料トライアル:** Aspose.Cells の機能をテストするには、試用版をダウンロードしてください。
+1. **無料トライアル:** Aspose.Cells の機能をテストするには試用版をダウンロードしてください。
 2. **一時ライセンス:** 評価期間中に全機能にアクセスするための一時ライセンスを取得します。
 3. **購入：** 長期使用の場合はライセンスを購入してください。
 
@@ -199,6 +201,9 @@ Aspose.Cells for Java を使用して Excel クエリテーブルを読み取り
 コーディングを楽しみながら、Aspose.Cells for Java でプロのように Excel データを管理しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

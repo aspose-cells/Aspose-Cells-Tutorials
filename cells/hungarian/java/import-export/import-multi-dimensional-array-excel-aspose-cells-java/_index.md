@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Licencbeszerzés lépései
 - **Ingyenes próbaverzió**: Próbaverzió letöltése innen: [Az Aspose kiadási oldala](https://releases.aspose.com/cells/java/).
-- **Ideiglenes engedély**Ideiglenes jogosítvány beszerzése a következőn keresztül: [ezt a linket](https://purchase.aspose.com/temporary-license/) korlátozás nélküli tesztelésre.
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [ezt a linket](https://purchase.aspose.com/temporary-license/) korlátozás nélküli tesztelésre.
 - **Vásárlás**A teljes hozzáférés és támogatás érdekében érdemes megvásárolni a könyvtárat a következő címen: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
 #### Alapvető inicializálás
@@ -157,6 +159,9 @@ Ne felejts el letölteni egy [ingyenes próba](https://releases.aspose.com/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

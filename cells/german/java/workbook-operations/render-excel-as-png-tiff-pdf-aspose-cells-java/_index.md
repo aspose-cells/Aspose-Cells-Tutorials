@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ Sie haben nun gelernt, wie Sie Excel-Dateien mit Aspose.Cells für Java in die F
 Mit dieser Anleitung können Sie Excel-Dateien mit Aspose.Cells für Java in die Formate PNG, TIFF und PDF konvertieren. Verbessern Sie Ihre Datenfreigabe mit diesen vielseitigen Konvertierungstechniken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

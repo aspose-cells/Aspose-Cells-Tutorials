@@ -1,53 +1,55 @@
 ---
-title: Gérer les unités automatiques des axes des graphiques comme Microsoft Excel
-linktitle: Gérer les unités automatiques des axes des graphiques comme Microsoft Excel
-second_title: API de traitement Excel Aspose.Cells .NET
-description: Apprenez à gérer les unités automatiques des axes de graphique dans Excel comme un pro en utilisant Aspose.Cells pour .NET ! Tutoriel étape par étape inclus.
-weight: 10
-url: /fr/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+"description": "Apprenez à gérer les unités automatiques des axes de graphiques dans Excel comme un pro grâce à Aspose.Cells pour .NET ! Tutoriel étape par étape inclus."
+"linktitle": "Gérer les unités automatiques des axes de graphique comme Microsoft Excel"
+"second_title": "API de traitement Excel Aspose.Cells .NET"
+"title": "Gérer les unités automatiques des axes de graphique comme Microsoft Excel"
+"url": "/fr/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Gérer les unités automatiques des axes des graphiques comme Microsoft Excel
+# Gérer les unités automatiques des axes de graphique comme Microsoft Excel
 
 ## Introduction
 
-En matière de manipulation de fichiers Excel, Aspose.Cells for .NET se distingue par sa robustesse et sa simplicité d'automatisation des tâches liées à Excel. Que vous génériez des rapports, créiez des graphiques ou gériez des feuilles de calcul complexes, cette bibliothèque est votre outil de référence. Dans ce didacticiel, nous découvrirons comment gérer les unités automatiques d'un axe de graphique, comme vous le feriez dans Microsoft Excel. Alors, prenez votre matériel de codage, car nous sommes sur le point de plonger dans le monde d'Aspose.Cells !
+Pour la manipulation de fichiers Excel, Aspose.Cells pour .NET se distingue par sa robustesse et sa simplification de l'automatisation des tâches Excel. Que vous génériez des rapports, créiez des graphiques ou gériez des feuilles de calcul complexes, cette bibliothèque est votre outil de référence. Dans ce tutoriel, nous découvrirons comment gérer automatiquement les unités des axes d'un graphique, comme dans Microsoft Excel. Alors, à vos crayons, nous allons plonger dans le monde d'Aspose.Cells !
 
 ## Prérequis
 
-Avant de passer au didacticiel, assurons-nous que vous disposez de tout ce dont vous avez besoin pour le suivre :
+Avant de passer au tutoriel, assurons-nous que vous disposez de tout le nécessaire pour suivre :
 
 1. Visual Studio installé : vous aurez besoin d’un IDE comme Visual Studio pour écrire et exécuter votre code .NET.
-2. .NET Framework : ce didacticiel suppose que vous utilisez .NET Framework 4.0 ou une version ultérieure. Cependant, Aspose.Cells est également compatible avec .NET Core.
-3.  Bibliothèque Aspose.Cells : si vous ne l'avez pas encore fait, téléchargez la bibliothèque à partir du site Web Aspose[ici](https://releases.aspose.com/cells/net/) . Vous pouvez également commencer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
-4. Exemple de fichier Excel : nous utiliserons un exemple de fichier Excel nommé`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Assurez-vous que ce fichier est prêt dans votre répertoire de travail.
+2. .NET Framework : ce tutoriel suppose que vous utilisez .NET Framework 4.0 ou une version ultérieure. Cependant, Aspose.Cells est également compatible avec .NET Core.
+3. Bibliothèque Aspose.Cells : si vous ne l'avez pas déjà fait, téléchargez la bibliothèque depuis le site Web d'Aspose [ici](https://releases.aspose.com/cells/net/). Vous pouvez également commencer avec un essai gratuit disponible [ici](https://releases.aspose.com/).
+4. Exemple de fichier Excel : Nous utiliserons un exemple de fichier Excel nommé `sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Assurez-vous que ce fichier est prêt dans votre répertoire de travail.
 
-## Paquets d'importation
+## Importer des packages
 
-Tout d'abord, assurez-vous que vous avez importé les espaces de noms appropriés pour votre projet. Voici comment commencer :
+Tout d'abord, assurez-vous que les espaces de noms importés sont appropriés pour votre projet. Voici comment procéder :
 
 ### Créer un nouveau projet
 
 1. Ouvrez Visual Studio.
 2. Cliquez sur « Créer un nouveau projet ».
-3. Choisissez « Application console (.NET Framework) » et cliquez sur « Suivant ».
+3. Choisissez « Application console (.NET Framework) » et cliquez sur « Suivant ».
 4. Nommez votre projet et cliquez sur « Créer ».
 
-### Ajoutez la référence Aspose.Cells
+### Ajouter la référence Aspose.Cells
 
 Pour utiliser Aspose.Cells, vous devez ajouter une référence à la bibliothèque.
 
 1. Dans l’Explorateur de solutions, faites un clic droit sur « Références ».
-2. Choisissez « Ajouter une référence ».
-3.  Accédez au dossier dans lequel vous avez téléchargé Aspose.Cells et sélectionnez`Aspose.Cells.dll`.
+2. Choisissez « Ajouter une référence ».
+3. Accédez au dossier dans lequel vous avez téléchargé Aspose.Cells et sélectionnez `Aspose.Cells.dll`.
 
 ### Importer les espaces de noms requis
 
- Au sommet de votre`Program.cs` fichier, ajoutez les espaces de noms suivants :
+Au sommet de votre `Program.cs` fichier, ajoutez les espaces de noms suivants :
 
 ```csharp
 using System;
@@ -65,30 +67,30 @@ Vous êtes maintenant prêt à commencer à manipuler notre fichier Excel !
 
 ### Étape 1 : Initialisez vos répertoires
 
-Avant de charger le fichier Excel, configurons les répertoires de sortie et de source. Cela nous permettra de spécifier où nos fichiers sont stockés.
+Avant de charger le fichier Excel, configurons les répertoires de sortie et source. Cela nous permettra de spécifier l'emplacement de stockage de nos fichiers.
 
 ```csharp
-//Répertoire de sortie - où le PDF sera enregistré
-string outputDir = "Your Output Directory"; // spécifiez ici votre répertoire de sortie
+// Répertoire de sortie - où le PDF sera enregistré
+string outputDir = "Your Output Directory"; // spécifiez votre répertoire de sortie ici
 
 // Répertoire source - où se trouve le fichier Excel d'exemple
-string sourceDir = "Your Document Directory"; // spécifiez ici votre répertoire source
+string sourceDir = "Your Document Directory"; // spécifiez votre répertoire source ici
 ```
 
-### Étape 2 : Charger le fichier Excel
+### Étape 2 : Charger le fichier Excel
 
-Avec Aspose.Cells, le chargement d'un fichier Excel est simple. Voici comment procéder :
+Avec Aspose.Cells, charger un fichier Excel est simple. Voici comment procéder :
 
 ```csharp
 // Charger l'exemple de fichier Excel
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Vous avez désormais chargé votre classeur en toute simplicité !
+Vous avez maintenant chargé votre classeur en toute simplicité !
 
 ## Accéder et manipuler le graphique
 
-### Étape 3 : Accéder à la première feuille de travail
+### Étape 3 : Accéder à la première feuille de travail
 
 Ensuite, nous accéderons à la première feuille de calcul où se trouve notre graphique. 
 
@@ -97,7 +99,7 @@ Ensuite, nous accéderons à la première feuille de calcul où se trouve notre 
 Worksheet ws = wb.Worksheets[0];
 ```
 
-### Étape 4 : Accéder au graphique
+### Étape 4 : Accéder au graphique
 
 Il est maintenant temps d'accéder au premier graphique de votre feuille de calcul avec cette simple ligne de code :
 
@@ -106,11 +108,11 @@ Il est maintenant temps d'accéder au premier graphique de votre feuille de calc
 Chart ch = ws.Charts[0];
 ```
 
-### Étape 5 : Gérer les unités automatiques
+### Étape 5 : Gérer les unités automatiques
 
-Dans Excel, l'une des fonctionnalités clés des graphiques est la gestion automatique des unités pour les axes du graphique, ce qui permet de conserver des visuels clairs et compréhensibles. Heureusement, Aspose.Cells vous permet de modifier facilement ces propriétés.
+Dans Excel, l'une des fonctionnalités clés des graphiques est la gestion automatique des unités pour les axes, ce qui contribue à la clarté et à la lisibilité des visuels. Heureusement, Aspose.Cells vous permet de modifier facilement ces propriétés.
 
- Pour manipuler l'axe, vous devrez peut-être accéder au`Axis` de votre graphique et définissez le`MajorUnit`:
+Pour manipuler l'axe, vous devrez peut-être accéder au `Axis` de votre graphique et définissez le `MajorUnit`:
 
 ```csharp
 // Définir l'unité principale pour l'axe Y
@@ -123,14 +125,14 @@ Mettons à jour les unités automatiques maintenant !
 
 ### Étape 6 : Exporter le graphique au format PDF
 
-L'étape finale et passionnante consiste maintenant à convertir le graphique en fichier PDF. C'est là qu'Aspose.Cells brille, car vous pouvez exporter sans effort vos graphiques dans différents formats.
+L'étape finale, passionnante, consiste à convertir le graphique en fichier PDF. C'est là qu'Aspose.Cells se distingue : vous pouvez exporter facilement vos graphiques dans différents formats.
 
 ```csharp
-// Graphique de rendu au format PDF
+// Rendu graphique au format PDF
 ch.ToPdf(outputDir + "outputHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.pdf");
 ```
 
-### Étape 7 : Exécuter le programme
+### Étape 7 : Exécuter le programme
 
 Assurez-vous que tout est correctement configuré, puis exécutez votre application. Vous devriez voir un message indiquant :
 
@@ -140,27 +142,29 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 
 ## Conclusion
 
-Travailler avec Aspose.Cells pour .NET est non seulement efficace, mais aussi incroyablement gratifiant. Vous pouvez manipuler des fichiers Excel comme si vous les formatiez dans Excel lui-même ! Dans ce tutoriel, nous avons réussi à charger un fichier Excel, à accéder à un graphique et à le modifier, puis à le restituer au format PDF, tout en gérant les unités automatiques de l'axe du graphique. J'espère que vous avez apprécié ce voyage dans le monde de l'automatisation d'Excel.
+Travailler avec Aspose.Cells pour .NET est non seulement efficace, mais aussi incroyablement enrichissant. Vous pouvez manipuler des fichiers Excel comme si vous les mettiez en forme dans Excel ! Dans ce tutoriel, nous avons réussi à charger un fichier Excel, à accéder à un graphique et à le modifier, puis à le convertir au format PDF, tout en gérant les unités automatiques des axes du graphique. J'espère que vous avez apprécié cette découverte de l'automatisation d'Excel.
 
 ## FAQ
 
 ### Qu'est-ce qu'Aspose.Cells pour .NET ?
-Aspose.Cells est une puissante bibliothèque .NET pour créer, manipuler et convertir des fichiers Excel.
+Aspose.Cells est une puissante bibliothèque .NET permettant de créer, de manipuler et de convertir des fichiers Excel.
 
 ### Puis-je utiliser Aspose.Cells gratuitement ?
-Oui ! Vous pouvez commencer avec un essai gratuit disponible[ici](https://releases.aspose.com/).
+Oui ! Vous pouvez commencer avec un essai gratuit disponible. [ici](https://releases.aspose.com/).
 
 ### Dois-je installer quelque chose pour commencer ?
 Il suffit de la bibliothèque Aspose.Cells et d'un .NET Framework installé sur votre machine.
 
-### Puis-je afficher des graphiques dans d’autres formats que PDF ?
-Absolument ! Aspose.Cells prend en charge différents formats tels que XLSX, HTML et les images.
+### Puis-je afficher des graphiques dans des formats autres que PDF ?
+Absolument ! Aspose.Cells prend en charge divers formats tels que XLSX, HTML et les images.
 
 ### Où puis-je trouver de l’aide si je rencontre des problèmes ?
- Vous pouvez demander de l'aide à la communauté Aspose[ici](https://forum.aspose.com/c/cells/9).
+Vous pouvez demander de l'aide à la communauté Aspose [ici](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

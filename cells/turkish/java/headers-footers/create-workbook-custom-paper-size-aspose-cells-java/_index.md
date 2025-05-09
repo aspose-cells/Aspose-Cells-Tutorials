@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Bir çalışma kitabı oluşturmak Excel dosyalarını programatik olarak yönet
    com.aspose.cells.Worksheet ws = wb.getWorksheets().get(0);
    ```
 
-### Çalışma Sayfası Sayfa Kurulumu için Özel Kağıt Boyutunu Ayarla
+### Çalışma Sayfası Sayfa Düzeni için Özel Kağıt Boyutunu Ayarla
 
 **Genel Bakış:**
 Çalışma sayfanızın sayfa düzenini özelleştirerek belirli boyuttaki kağıda yazdırılmasını sağlayın.
@@ -174,6 +176,9 @@ Aspose.Cells for Java'ya dalın ve Excel otomasyon projelerinizi bugün bir üst
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

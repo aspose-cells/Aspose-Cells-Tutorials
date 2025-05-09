@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Entdecken Sie weitere Funktionen von Aspose.Cells, wie Diagramme, Pivot-Tabellen
 - Ja, Aspose.Cells unterstützt verschiedene Datenvalidierungstypen, sodass Sie in Ihrer Arbeitsmappe unterschiedliche Regeln durchsetzen können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

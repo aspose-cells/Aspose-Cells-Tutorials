@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: Dosya yolunun doğru olduğundan ve XML şemasının beklenen biçime uyduğ
 C3: Üretim ortamlarında değerlendirme sınırlamalarını kaldırmak için geçici veya satın alınmış bir lisansa ihtiyaç vardır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ public class InitializeAspose {
    사용하세요 `FormulaText` 셀 A2에 있는 수식의 텍스트를 추출하고 표시하는 함수:
    
    ```java
-   // 셀 A2에 수식 텍스트를 검색하여 설정합니다.
+   // 셀 A2의 수식 텍스트를 검색하여 설정합니다.
    Cell cellA2 = worksheet.getCells().get("A2");
    cellA2.setFormula("=FormulaText(A1)");
 
@@ -186,6 +188,9 @@ public class InitializeAspose {
 Aspose.Cells를 Java와 함께 활용하면 애플리케이션에서 Excel 파일을 효율적으로 관리하고 조작할 수 있습니다. 프로젝트에서 Aspose.Cells의 잠재력을 최대한 발휘할 수 있도록 더 많은 기능을 살펴보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Áp dụng đường viền cho phạm vi ô trong Excel
-linktitle: Áp dụng đường viền cho phạm vi ô trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách áp dụng đường viền cho các ô trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi.
-weight: 15
-url: /vi/net/excel-formatting-and-styling/applying-borders-to-range-of-cells/
+"description": "Tìm hiểu cách áp dụng đường viền cho các ô trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết từng bước của chúng tôi."
+"linktitle": "Áp dụng đường viền cho phạm vi ô trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Áp dụng đường viền cho phạm vi ô trong Excel"
+"url": "/vi/net/excel-formatting-and-styling/applying-borders-to-range-of-cells/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng đường viền cho phạm vi ô trong Excel
@@ -18,7 +20,7 @@ Bảng tính Excel thường yêu cầu các tín hiệu trực quan như đư�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu hướng dẫn này, hãy đảm bảo bạn đã chuẩn bị những điều sau:
 1. Hiểu biết cơ bản về .NET: Làm quen với C# sẽ giúp hành trình này trở nên dễ dàng hơn.
-2.  Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tìm thấy nó[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tìm thấy nó [đây](https://releases.aspose.com/cells/net/).
 3. Thiết lập IDE: Đảm bảo bạn đã thiết lập IDE, như Visual Studio, nơi bạn sẽ viết mã C#.
 4. .NET Framework: Xác nhận rằng dự án của bạn đang sử dụng .NET Framework tương thích.
 Bạn đã chuẩn bị mọi thứ chưa? Hoàn hảo! Chúng ta hãy chuyển sang phần thú vị—nhập các gói cần thiết.
@@ -46,9 +48,9 @@ Tiếp theo, bạn cần tạo một sổ làm việc Excel mới. Đây là khu
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Các`Workbook`class là đối tượng chính đại diện cho tệp Excel của bạn. Khởi tạo đối tượng này cho phép bạn làm việc trên sổ làm việc của mình.
+Các `Workbook` class là đối tượng chính đại diện cho tệp Excel của bạn. Khởi tạo đối tượng này cho phép bạn làm việc trên sổ làm việc của mình.
 ## Bước 3: Truy cập vào Bảng tính
-Bây giờ bạn đã có sổ làm việc sẵn sàng, đã đến lúc truy cập vào trang tính mà bạn sẽ làm việc. 
+Bây giờ bạn đã có bảng tính sẵn sàng, đã đến lúc truy cập vào bảng tính mà bạn sẽ làm việc. 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
@@ -59,13 +61,13 @@ Tiếp theo, hãy truy cập vào một ô cụ thể và thêm một số giá 
 Cell cell = worksheet.Cells["A1"];
 cell.PutValue("Hello World From Aspose");
 ```
- Chúng tôi lấy lại`Cell` đối tượng cho "A1" và chèn văn bản "Hello World From Aspose". Bước này cung cấp cho bạn điểm bắt đầu trong bảng tính của bạn.
+Chúng tôi lấy lại `Cell` đối tượng cho "A1" và chèn văn bản "Hello World From Aspose". Bước này cung cấp cho bạn điểm bắt đầu trong bảng tính của bạn.
 ## Bước 5: Tạo một phạm vi ô
 Bây giờ là lúc xác định phạm vi ô bạn muốn tạo kiểu bằng đường viền. Ở đây, chúng ta sẽ tạo một phạm vi bắt đầu từ ô "A1" và mở rộng đến cột thứ ba.
 ```csharp
 Range range = worksheet.Cells.CreateRange(0, 0, 1, 3);
 ```
-Mã này tạo ra một phạm vi bắt đầu từ hàng đầu tiên (chỉ mục 0) và cột đầu tiên (chỉ mục 0) và trải dài qua một hàng và ba cột (A1 đến C1).
+Mã này tạo ra một phạm vi bắt đầu từ hàng đầu tiên (chỉ mục 0) và cột đầu tiên (chỉ mục 0) và trải dài trên một hàng và ba cột (A1 đến C1).
 ## Bước 6: Thiết lập đường viền cho phạm vi
 Bây giờ đến phần quan trọng! Bạn sẽ áp dụng đường viền cho phạm vi đã xác định. Chúng ta sẽ tạo đường viền màu xanh lam dày xung quanh phạm vi của mình.
 ```csharp
@@ -87,16 +89,18 @@ Và bạn đã có nó! Bạn đã áp dụng thành công đường viền cho 
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ để tạo và thao tác các tệp Excel trong các ứng dụng .NET.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó[đây](https://releases.aspose.com/).
+Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó [đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu [đây](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells có thể xử lý những loại tệp Excel nào?
 Aspose.Cells có thể hoạt động với nhiều định dạng Excel khác nhau, bao gồm XLS, XLSX, ODS, v.v.
 ### Tôi có thể nhận được hỗ trợ cho các vấn đề liên quan đến Aspose.Cells như thế nào?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Trước tiên, chúng ta hãy tìm hiểu những điều kiện tiên quyết 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
 1. **Thư viện và các phụ thuộc**Bạn sẽ cần Aspose.Cells cho Java phiên bản 25.3 trở lên.
-2. **Thiết lập môi trường**: Hướng dẫn này giả định bạn đã có kiến thức cơ bản về môi trường phát triển Java như Maven hoặc Gradle.
+2. **Thiết lập môi trường**Hướng dẫn này giả định bạn đã có kiến thức cơ bản về môi trường phát triển Java như Maven hoặc Gradle.
 3. **Điều kiện tiên quyết về kiến thức**: Khuyến khích có hiểu biết cơ bản về lập trình Java và các công cụ xây dựng dựa trên XML (Maven/Gradle).
 
 ## Thiết lập Aspose.Cells cho Java
@@ -113,7 +115,7 @@ Sau đây là một số trường hợp sử dụng thực tế mà việc thê
 
 Khi làm việc với Aspose.Cells:
 - **Tối ưu hóa việc sử dụng tài nguyên**: Giới hạn số lượng ô theo kiểu HTML trong các bảng tính lớn để tránh tình trạng chậm hiệu suất.
-- **Quản lý bộ nhớ Java**: Sử dụng các phương pháp quản lý bộ nhớ hiệu quả trong Java để xử lý các tập dữ liệu lớn một cách hiệu quả. Điều này bao gồm đóng các phiên bản sổ làm việc ngay sau khi sử dụng.
+- **Quản lý bộ nhớ Java**Sử dụng các phương pháp quản lý bộ nhớ hiệu quả trong Java để xử lý các tập dữ liệu lớn một cách hiệu quả. Điều này bao gồm đóng các phiên bản sổ làm việc ngay sau khi sử dụng.
 
 ## Phần kết luận
 
@@ -150,6 +152,9 @@ Tận dụng sức mạnh của Aspose.Cells for Java để chuyển đổi các
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

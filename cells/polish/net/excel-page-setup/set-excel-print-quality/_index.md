@@ -1,14 +1,16 @@
 ---
-title: Ustaw jakość wydruku w programie Excel
-linktitle: Ustaw jakość wydruku w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak ustawić jakość wydruku w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Proste techniki kodowania dla lepszych wyników drukowania.
-weight: 160
-url: /pl/net/excel-page-setup/set-excel-print-quality/
+"description": "Dowiedz się, jak ustawić jakość wydruku w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Proste techniki kodowania dla lepszych wyników drukowania."
+"linktitle": "Ustaw jakość wydruku w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw jakość wydruku w programie Excel"
+"url": "/pl/net/excel-page-setup/set-excel-print-quality/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw jakość wydruku w programie Excel
@@ -23,9 +25,9 @@ Zanim przejdziemy do szczegółów kodowania, upewnijmy się, że wszystko jest 
 
 1. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest niezbędna, ponieważ będziemy pisać kod w tym języku.
 2. Zainstalowany program Visual Studio: Do pisania kodu w języku C# potrzebne będzie środowisko IDE. Zalecamy korzystanie z programu Visual Studio ze względu na jego rozbudowane funkcje i łatwość obsługi.
-3. Aspose.Cells dla .NET: Upewnij się, że masz bibliotekę Aspose.Cells. Możesz ją łatwo pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells dla .NET: Upewnij się, że masz bibliotekę Aspose.Cells. Możesz ją łatwo pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 4. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework, który jest zgodny z Aspose.Cells.
-5.  Klucz licencyjny: Podczas gdy Aspose.Cells oferuje bezpłatną wersję próbną, rozważ zakup licencji, jeśli planujesz używać jej w produkcji. Możesz kupić jedną[Tutaj](https://purchase.aspose.com/buy).
+5. Klucz licencyjny: Podczas gdy Aspose.Cells oferuje bezpłatną wersję próbną, rozważ zakup licencji, jeśli planujesz używać jej w produkcji. Możesz kupić jedną [Tutaj](https://purchase.aspose.com/buy).
 
 ## Importuj pakiety
 
@@ -53,7 +55,7 @@ Pierwszym krokiem w naszej podróży jest określenie ścieżki, w której będ�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wyjaśnienie: Zamień`YOUR DOCUMENT DIRECTORY` rzeczywistą ścieżką w systemie, w której chcesz zapisać pliki Excela. Ten katalog zostanie użyty później, gdy zapiszemy nasz skoroszyt.
+Wyjaśnienie: Zamień `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką w systemie, w której chcesz zapisać pliki Excela. Ten katalog zostanie użyty później, gdy zapiszemy nasz skoroszyt.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -63,7 +65,7 @@ Następnie musimy utworzyć obiekt skoroszytu, który będzie bramą umożliwiaj
 Workbook workbook = new Workbook();
 ```
 
- Wyjaśnienie: Tutaj tworzymy nową instancję`Workbook` Klasa. Ten obiekt będzie zawierał wszystkie dane i ustawienia, które chcesz zastosować do pliku Excel.
+Wyjaśnienie: Tutaj tworzymy nową instancję `Workbook` Klasa. Ten obiekt będzie zawierał wszystkie dane i ustawienia, które chcesz zastosować do pliku Excel.
 
 ## Krok 3: Dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -73,7 +75,7 @@ Każdy skoroszyt składa się z arkuszy. Aby zmienić ustawienia drukowania, nal
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Wyjaśnienie: Dzwoniąc`Worksheets[0]`, uzyskujemy dostęp do pierwszego arkusza w skoroszycie. W programie Excel arkusze są indeksowane od zera.
+Wyjaśnienie: Dzwoniąc `Worksheets[0]`, uzyskujemy dostęp do pierwszego arkusza w skoroszycie. W programie Excel arkusze są indeksowane od zera.
 
 ## Krok 4: Ustawianie jakości wydruku
 
@@ -83,7 +85,7 @@ Tutaj dzieje się magia! Możemy ustawić jakość wydruku arkusza kalkulacyjneg
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Wyjaśnienie:`PrintQuality` właściwość może być ustawiona na dowolną wartość, zazwyczaj między 75 a 600 dpi (punktów na cal). W tym przypadku ustawiamy ją na 180 dpi, co jest świetne dla dobrego balansu między jakością a rozmiarem pliku.
+Wyjaśnienie: `PrintQuality` właściwość może być ustawiona na dowolną wartość, zazwyczaj między 75 a 600 dpi (punktów na cal). W tym przypadku ustawiamy ją na 180 dpi, co jest świetne dla dobrego balansu między jakością a rozmiarem pliku.
 
 ## Krok 5: Zapisywanie skoroszytu
 
@@ -93,7 +95,7 @@ Ostatnim krokiem jest zapisanie skoroszytu, aby cała Twoja ciężka praca nie p
 workbook.Save(dataDir + "SetPrintQuality_out.xls");
 ```
 
- Wyjaśnienie: Ten wiersz zapisuje skoroszyt w określonym katalogu pod nazwą`SetPrintQuality_out.xls`. Upewnij się, że podany katalog istnieje; w przeciwnym razie wystąpi błąd.
+Wyjaśnienie: Ten wiersz zapisuje skoroszyt w określonym katalogu pod nazwą `SetPrintQuality_out.xls`. Upewnij się, że podany katalog istnieje; w przeciwnym razie wystąpi błąd.
 
 ## Wniosek
 
@@ -114,10 +116,12 @@ Aspose.Cells oferuje bezpłatny okres próbny, ale aby korzystać z niego długo
 Tak, wyższa jakość wydruku zwykle wiąże się z większym rozmiarem pliku, ale zapewnia lepszy efekt końcowy.
 
 ### Gdzie mogę znaleźć więcej materiałów na temat Aspose.Cells?  
- Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z dokumentacją [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

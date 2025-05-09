@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,10 +51,10 @@
 Узнайте, как использовать Aspose.Cells для Java для разблокировки или защиты строк листа. Защитите конфиденциальные данные с легкостью, используя наше полное руководство.
 
 ### [Как проверить подпись проекта VBA в Excel с помощью Aspose.Cells для Java](./aspose-cells-java-vba-project-check-signature/)
-Узнайте, как использовать Aspose.Cells для Java для проверки статуса подписи проекта VBA в файле Excel, гарантируя целостность и безопасность данных.
+Узнайте, как использовать Aspose.Cells для Java для проверки статуса подписи проекта VBA в файле Excel, обеспечивая целостность и безопасность данных.
 
 ### [Как проверить, защищен ли проект VBA в Excel с помощью Aspose.Cells для Java](./check-vba-project-protected-aspose-cells-java/)
-Узнайте, как использовать Aspose.Cells для Java, чтобы определить, защищен ли проект VBA в файле Excel. В этом руководстве рассматриваются настройка, использование и передовые методы.
+Узнайте, как использовать Aspose.Cells для Java, чтобы определить, защищен ли проект VBA в файле Excel. В этом руководстве рассматриваются настройка, использование и передовые практики.
 
 ### [Как проверить, подписан ли проект VBA в книгах Excel с помощью Aspose.Cells для Java](./check-vba-project-signed-aspose-cells-java/)
 Узнайте, как проверить статус подписи проектов VBA в книгах Excel с помощью Aspose.Cells для Java. Убедитесь, что ваши документы с поддержкой макросов защищены и подлинны.
@@ -126,6 +128,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Worksheet Page Setup Features
@@ -80,9 +82,11 @@ Learn how to set the print area in an Excel worksheet using Aspose.Cells for .NE
 Learn how to implement print quality for worksheets in Aspose.Cells for .NET in this easy-to-follow guide. Perfect for managing Excel documents efficiently.
 ### [Implement Print Title in Worksheet](./implement-print-title/)
 Learn how to implement print titles in Excel worksheets with Aspose.Cells for .NET using this simple step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

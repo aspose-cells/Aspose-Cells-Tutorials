@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,7 +200,7 @@ Java için Aspose.Cells çeşitli senaryolarda kullanılabilir:
 
 1. **Finansal Raporlama**:Çeyreklik raporlar için finansal tablolar oluşturun ve biçimlendirin.
 2. **Veri Analizi**: Excel'deki dinamik grafikleri kullanarak veri eğilimlerini görselleştirin.
-3. **Stok Yönetimi**:Envanter seviyelerini biçimlendirilmiş grafiklerle takip edin.
+3. **Stok Yönetimi**:Biçimlendirilmiş grafiklerle stok seviyelerini takip edin.
 
 Aspose.Cells'in veritabanları veya web uygulamaları gibi diğer sistemlerle entegre edilmesi, yeteneklerini daha da artırabilir.
 
@@ -243,6 +245,9 @@ Excel becerilerinizi bir üst seviyeye taşımaya hazır mısınız? Bu çözüm
 - **İndirmek**: [Java için Aspose.Cells İndirme Sayfası](https://downloads.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

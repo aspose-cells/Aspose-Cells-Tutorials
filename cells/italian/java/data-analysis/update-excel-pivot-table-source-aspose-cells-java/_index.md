@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ In questa guida hai imparato come modificare i dati di origine di una tabella pi
 Con queste risorse e questa guida completa, ora sei pronto a gestire efficacemente le modifiche ai dati sorgente delle tabelle pivot utilizzando Aspose.Cells in Java. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

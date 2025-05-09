@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ import com.aspose.cells.Worksheet;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "/book1.xlsx");
 ```
-**説明**これは、 `Workbook` Excel ファイルからオブジェクトを抽出し、シートにアクセスして操作できるようになります。
+**説明**: これは、 `Workbook` Excel ファイルからオブジェクトを抽出し、シートにアクセスして操作できるようになります。
 
 #### ステップ2: ワークシートを反復処理する
 ```java
@@ -158,7 +160,7 @@ Aspose.Cells for Javaをマスターすれば、Excelシートを画像として
 1. **ワークシートを画像としてエクスポートするのに最適な形式は何ですか?**
    - JPEG は、品質とファイル サイズのバランスが取れているため、よく使用されます。
 2. **出力画像の解像度を調整できますか？**
-   - はい、使用します `setHorizontalResolution` そして `setVerticalResolution` 方法 `ImageOrPrintOptions`。
+   - はい、使います `setHorizontalResolution` そして `setVerticalResolution` 方法 `ImageOrPrintOptions`。
 3. **特定のシートのみをレンダリングすることは可能ですか?**
    - はい、反復処理中にインデックスまたは名前でシートを選択します。
 4. **レンダリングに関する一般的な問題をトラブルシューティングするにはどうすればよいですか?**
@@ -175,6 +177,9 @@ Aspose.Cells for Javaをマスターすれば、Excelシートを画像として
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

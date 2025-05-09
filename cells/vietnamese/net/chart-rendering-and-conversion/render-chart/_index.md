@@ -1,14 +1,16 @@
 ---
-title: Biểu đồ kết xuất
-linktitle: Biểu đồ kết xuất
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách tạo biểu đồ trong .NET bằng Aspose.Cells. Làm theo hướng dẫn từng bước của chúng tôi để tạo hình ảnh tuyệt đẹp một cách dễ dàng.
-weight: 10
-url: /vi/net/chart-rendering-and-conversion/render-chart/
+"description": "Khám phá cách tạo biểu đồ trong .NET bằng Aspose.Cells. Làm theo hướng dẫn từng bước của chúng tôi để tạo hình ảnh tuyệt đẹp một cách dễ dàng."
+"linktitle": "Biểu đồ kết xuất"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Biểu đồ kết xuất"
+"url": "/vi/net/chart-rendering-and-conversion/render-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biểu đồ kết xuất
@@ -22,7 +24,7 @@ Biểu đồ là một yếu tố thiết yếu trong việc trình bày và ph�
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET.
-2.  Aspose.Cells cho .NET: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang phát hành của Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ [Trang phát hành của Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Việc quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn, nhưng đừng lo nếu bạn là người mới—hướng dẫn này sẽ giải thích mọi thứ từng bước một!
 
 ## Nhập gói
@@ -50,7 +52,7 @@ Trước khi tạo sổ làm việc và biểu đồ, chúng ta cần thiết l�
 string outputDir = "Your Output Directory"; // Chỉ định thư mục đầu ra ở đây.
 ```
 
-Hãy thay thế "Thư mục đầu ra" bằng đường dẫn mà bạn muốn lưu hình ảnh biểu đồ của mình.
+Hãy nhớ thay thế "Thư mục đầu ra" bằng đường dẫn mà bạn muốn lưu hình ảnh biểu đồ của mình.
 
 ## Bước 2: Tạo một Workbook
 
@@ -60,7 +62,7 @@ Tiếp theo, chúng ta sẽ thiết lập một sổ làm việc mới. Đây ch
 Workbook workbook = new Workbook();
 ```
 
- Dòng này tạo ra một phiên bản mới của`Workbook` lớp cho phép chúng ta làm việc với các trang tính và biểu đồ.
+Dòng này tạo ra một phiên bản mới của `Workbook` lớp cho phép chúng ta làm việc với các trang tính và biểu đồ.
 
 ## Bước 3: Thêm một bảng tính mới
 
@@ -86,7 +88,7 @@ worksheet.Cells["B2"].PutValue(20);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
-Trong đoạn mã này, chúng tôi sẽ điền một số giá trị số vào các ô "A1" đến "A3" và một số giá trị số khác vào các ô "B1" đến "B3". Hãy thoải mái tùy chỉnh các số này để phù hợp với nhu cầu của bạn!
+Trong đoạn mã này, chúng tôi sẽ điền một số giá trị số vào các ô "A1" đến "A3" và một số giá trị khác vào các ô "B1" đến "B3". Hãy thoải mái tùy chỉnh các số này để phù hợp với nhu cầu của bạn!
 
 ## Bước 5: Tạo biểu đồ
 
@@ -178,16 +180,18 @@ Bạn có thể tạo nhiều loại biểu đồ, bao gồm biểu đồ cột,
 Có, Aspose.Cells cho phép tùy chỉnh rộng rãi, bao gồm màu sắc, kiểu dáng và thành phần biểu đồ.
 
 ### Có bản dùng thử miễn phí không?
-Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và nguồn lực của cộng đồng tại[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ và nguồn lực của cộng đồng tại [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Có, cần có giấy phép để tiếp tục sử dụng sau thời gian dùng thử, nhưng bạn có thể nộp đơn xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, cần có giấy phép để tiếp tục sử dụng sau thời gian dùng thử, nhưng bạn có thể nộp đơn xin giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

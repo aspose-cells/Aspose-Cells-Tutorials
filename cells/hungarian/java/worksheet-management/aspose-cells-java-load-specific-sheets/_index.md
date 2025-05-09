@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx", loadOptions);
 
 ### Integrációs lehetőségek
 
-Integrálja az Aspose.Cells-t a következővel:
+Az Aspose.Cells integrálása a következővel:
 - Adatbázisok az adatmegőrzéshez
 - Webalkalmazások RESTful API-kon keresztül
 - Adatvizualizációs eszközök, mint például a Tableau vagy a Power BI a továbbfejlesztett jelentéskészítési lehetőségekhez
@@ -204,6 +206,9 @@ Készen állsz arra, hogy Java Excel-kezelési készségeidet a következő szin
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

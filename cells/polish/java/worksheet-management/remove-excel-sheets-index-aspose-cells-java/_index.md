@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,6 +137,9 @@ Aby uzyskać bardziej szczegółowe przewodniki i dokumentację:
 Mamy nadzieję, że ten samouczek pozwoli Ci wykorzystać pełen potencjał Aspose.Cells for Java w Twoich zadaniach zarządzania danymi. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

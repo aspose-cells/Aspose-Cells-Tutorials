@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Funkcja MIN w programie Excel wyjaśniona
@@ -86,7 +88,7 @@ Po zastosowaniu wzoru należy ponownie obliczyć arkusz, aby uzyskać wynik:
 workbook.calculateFormula();
 ```
 
-### Krok 7: Uzyskaj wynik
+### Krok 7: Otrzymaj wynik
 
 Na koniec pobierz wynik funkcji MIN:
 
@@ -125,6 +127,7 @@ Aby obsługiwać błędy podczas korzystania z funkcji MIN w programie Excel, mo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

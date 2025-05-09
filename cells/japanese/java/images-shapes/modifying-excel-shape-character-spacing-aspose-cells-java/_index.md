@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Excelの図形内でのテキストの見栄えを良くするのに苦労していませんか？文字間隔を調整したり、データの見栄えを良くしたりする必要がある場合でも、これらの調整により読みやすさが大幅に向上します。この包括的なガイドでは、文字間隔を調整する方法を説明します。 **Java 用 Aspose.Cells**Excel ファイルをプログラムで処理するための強力なライブラリです。
 
-このチュートリアルでは、Excelファイルの読み込み、ワークシート内の図形へのアクセス、図形内のテキストの文字間隔の変更、そして変更内容をファイルに保存する方法を解説します。チュートリアルを終える頃には、Aspose.Cells Javaを使ってExcelの図形テキストにスタイルを設定する実践的なスキルを習得できるでしょう。
+このチュートリアルでは、Excelファイルの読み込み、ワークシート内の図形へのアクセス、図形内のテキストの文字間隔の変更、そして変更内容をファイルに保存する方法を解説します。チュートリアルを終える頃には、Aspose.Cells Javaを使ってExcelの図形テキストのスタイルを設定する実践的なスキルを習得できるでしょう。
 
 **学習内容:**
 - Excel ブックを読み込む方法。
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### ライセンス取得手順
 Aspose.Cells を完全に利用するには、ライセンスが必要です。
-- **無料トライアル:** まずは無料トライアルで機能をご確認ください。
+- **無料トライアル:** まずは無料トライアルで機能をお試しください。
 - **一時ライセンス:** 延長使用の場合は、Web サイトで一時ライセンスを申請してください。
 - **購入：** 長期アクセスにはサブスクリプションの購入を検討してください。
 
@@ -180,6 +182,9 @@ wb.save(outDir + "/CCSpacing_out.xlsx", SaveFormat.XLSX);
 Aspose.Cells for Java を習得するための次のステップに進み、Excel ファイル操作の新たな可能性を解き放ちましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

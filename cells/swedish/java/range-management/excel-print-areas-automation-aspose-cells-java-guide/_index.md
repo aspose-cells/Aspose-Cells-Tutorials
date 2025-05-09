@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Workbook workbook = new Workbook();
 ```
 Den här koden skapar en tom Excel-fil i minnet, vilket gör att du kan lägga till och manipulera kalkylblad.
 
-#### Steg 2: Få åtkomst till arbetsblad
+#### Steg 2: Åtkomst till arbetsblad
 ```java
 // Hämta samlingen av alla arbetsblad
 WorksheetCollection worksheets = workbook.getWorksheets();
@@ -186,6 +188,9 @@ För vidare läsning och stöd, utforska dessa resurser:
 Ge dig ut på din resa för att automatisera Excel-bearbetning med Aspose.Cells och förändra hur du hanterar data!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

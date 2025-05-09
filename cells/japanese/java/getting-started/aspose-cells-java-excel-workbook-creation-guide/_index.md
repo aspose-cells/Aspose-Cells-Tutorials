@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6");
 ```java
 workbook.save(dataDir + "OUT_NamedRanges_out.xls");
 ```
-## 実践応用（H2）
+## 実践的応用（H2）
 これらの機能が非常に役立つ実際のシナリオをいくつか紹介します。
 1. **財務報告:** さまざまな財務指標の名前付き範囲を含む動的なレポートを生成します。
 2. **データ分析:** 連続していない名前付き範囲を使用して、スプレッドシートのさまざまな部分からのデータを統合し、分析します。
@@ -157,6 +159,9 @@ Aspose.Cells を使用する際に最適なパフォーマンスを確保する�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ system.out.println("Label added to chart successfully.");
 
 ## 資源
 
-探索有關 Aspose.Cells for Java 的更多資訊：
+了解有關 Aspose.Cells for Java 的更多資訊：
 - **文件:** [官方文檔](https://reference.aspose.com/cells/java/)
 - **下載：** [最新發布](https://releases.aspose.com/cells/java/)
 - **購買：** [立即購買](https://purchase.aspose.com/buy)
@@ -154,6 +156,9 @@ system.out.println("Label added to chart successfully.");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

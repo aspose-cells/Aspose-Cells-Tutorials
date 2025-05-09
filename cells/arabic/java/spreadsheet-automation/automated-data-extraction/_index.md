@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخراج البيانات الآلي
@@ -111,9 +113,11 @@ String[][] extractedData = worksheet.getCells().exportArray(cellArea);
    استكشف وثائق واجهة برمجة التطبيقات على [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) للحصول على معلومات وأمثلة متعمقة.
 
 ابدأ في أتمتة مهام استخراج البيانات الخاصة بك اليوم باستخدام Aspose.Cells for Java وقم بتبسيط عمليات استرجاع البيانات الخاصة بك.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Vill du automatisera skapandet och formateringen av Excel-filer i dina Java-appl
 
 I den här handledningen kommer vi att gå igenom:
 - Skapa en ny arbetsbok och lägga till kalkylblad
-- Dynamiskt ställa in cellvärden
+- Dynamisk inställning av cellvärden
 - Formatera markerade tecken i en cell
 - Spara arbetsboken effektivt
 
@@ -216,6 +218,9 @@ A5: Se till att din sökväg är korrekt och att du har skrivbehörighet för ka
 - **Stöd**: [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

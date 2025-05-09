@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ public class SaveExcelFile {
 
 ## Соображения производительности (H2)
 Для обеспечения оптимальной производительности при использовании Aspose.Cells:
-- **Оптимизируйте использование ресурсов**: Закрывайте рабочие книги и освобождайте ресурсы сразу после выполнения операций.
+- **Оптимизация использования ресурсов**: Закрывайте рабочие книги и освобождайте ресурсы сразу после выполнения операций.
   
 - **Управление памятью**: Для больших файлов следите за использованием памяти Java, чтобы предотвратить `OutOfMemoryError`.
 
@@ -210,6 +212,9 @@ public class SaveExcelFile {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

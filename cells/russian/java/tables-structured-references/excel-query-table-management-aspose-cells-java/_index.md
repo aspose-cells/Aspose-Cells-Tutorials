@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "SampleQT.xlsx");
 ```
 
-**2. Откройте рабочий лист и таблицу запросов:**
+**2. Доступ к рабочему листу и таблице запросов:**
 Найдите конкретный рабочий лист и его таблицу запросов, которую вы хотите изменить.
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -199,6 +201,9 @@ System.out.println("Preserve Formatting: " + preserveFormatting);
 Удачного вам программирования и получайте удовольствие от управления данными Excel как профессионал с помощью Aspose.Cells для Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells
-linktitle: स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: जेनेरिक सूचियों और स्मार्ट मार्करों के साथ .NET के लिए Aspose.Cells को मास्टर करें ताकि आसानी से गतिशील एक्सेल रिपोर्ट बनाई जा सके। डेवलपर्स के लिए आसान गाइड।
-weight: 20
-url: /hi/net/smart-markers-dynamic-data/generic-list-smart-markers/
+"description": "जेनेरिक सूचियों और स्मार्ट मार्करों के साथ .NET के लिए Aspose.Cells को मास्टर करें ताकि आसानी से गतिशील एक्सेल रिपोर्ट बनाई जा सके। डेवलपर्स के लिए आसान गाइड।"
+"linktitle": "स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells"
+"url": "/hi/net/smart-markers-dynamic-data/generic-list-smart-markers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्मार्ट मार्करों में जेनेरिक सूची का उपयोग करें Aspose.Cells
@@ -20,7 +22,7 @@ url: /hi/net/smart-markers-dynamic-data/generic-list-smart-markers/
 ### C# का बुनियादी ज्ञान
 आपको C# की बुनियादी समझ होनी चाहिए और क्लास और ऑब्जेक्ट के साथ काम करने का तरीका भी आना चाहिए। अगर आप ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग में माहिर हैं, तो आप पहले से ही सही रास्ते पर हैं।
 ### .NET के लिए Aspose.Cells स्थापित
- सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Cells इंस्टॉल है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/cells/net/). 
+सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Cells इंस्टॉल है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/cells/net/). 
 ### विज़ुअल स्टूडियो वातावरण
 आपकी मशीन पर Visual Studio सेटअप होना बहुत ज़रूरी है। यह सबसे आम डेवलपमेंट एनवायरनमेंट है जहाँ आप अपना C# कोड लिखेंगे।
 ### एक टेम्पलेट फ़ाइल
@@ -36,9 +38,9 @@ using System.Collections.Generic;
 ```
 ये नामस्थान एक्सेल फाइलों के साथ काम करने और कोशिकाओं को स्टाइल करने के लिए आवश्यक कार्यात्मकताएं प्रदान करेंगे।
 ## चरण 1: अपनी कक्षाएं परिभाषित करें
-सबसे पहली बात! हमें अपनी परिभाषा तय करनी होगी`Person` और`Teacher` कक्षाएं। यहां बताया गया है कि कैसे:
+सबसे पहली बात! हमें अपनी परिभाषा तय करनी होगी `Person` और `Teacher` कक्षाएं। यहां बताया गया है कि कैसे:
 ### व्यक्ति वर्ग को परिभाषित करें
-`Person` क्लास में नाम और आयु जैसी बुनियादी विशेषताएं होंगी।
+The `Person` क्लास में नाम और आयु जैसी बुनियादी विशेषताएं होंगी।
 ```csharp
 public class Person
 {
@@ -65,7 +67,7 @@ public class Person
 }
 ```
 ### शिक्षक वर्ग को परिभाषित करें
- अगला है`Teacher` वर्ग, जो विरासत में मिलता है`Person` इस वर्ग में छात्रों की सूची भी शामिल होगी।
+अगला है `Teacher` वर्ग, जो विरासत में मिलता है `Person` इस वर्ग में छात्रों की सूची भी शामिल होगी।
 ```csharp
 public class Teacher : Person
 {
@@ -114,7 +116,7 @@ flag.All = true;
 range.ApplyStyle(style, flag);
 ```
 ## चरण 5: शिक्षक और छात्र इंस्टैंस बनाएँ
- अब, आइए अपने उदाहरण बनाएं`Teacher` और`Person` कक्षाएं और उन्हें डेटा के साथ पॉप्युलेट करें:
+अब, आइए अपने उदाहरण बनाएं `Teacher` और `Person` कक्षाएं और उन्हें डेटा के साथ पॉप्युलेट करें:
 ```csharp
 System.Collections.Generic.List<Teacher> list = new System.Collections.Generic.List<Teacher>();
 // पहला शिक्षक ऑब्जेक्ट बनाएँ
@@ -125,7 +127,7 @@ h1.Students = new List<Person>
     new Person("Jamima Winfrey", 18),
     new Person("Reham Smith", 15)
 };
-//दूसरा शिक्षक ऑब्जेक्ट बनाएँ
+// दूसरा शिक्षक ऑब्जेक्ट बनाएँ
 Teacher h2 = new Teacher("Masood Shankar", 40);
 h2.Students = new List<Person>
 {
@@ -163,15 +165,17 @@ Aspose.Cells एक .NET लाइब्रेरी है जो Microsoft Exc
 ### क्या मैं अन्य फ़ाइल स्वरूपों के लिए Aspose.Cells का उपयोग कर सकता हूँ?
 हाँ! Aspose PDF, Word और अन्य प्रारूपों के लिए लाइब्रेरी प्रदान करता है, जो इसे दस्तावेज़ प्रबंधन के लिए बहुमुखी बनाता है।
 ### क्या मुझे Aspose.Cells का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- आप यहां से निःशुल्क परीक्षण शुरू कर सकते हैं[यहाँ](https://releases.aspose.com/), लेकिन उत्पादन में उपयोग के लिए सशुल्क लाइसेंस की आवश्यकता होती है।
+आप यहां से निःशुल्क परीक्षण शुरू कर सकते हैं [यहाँ](https://releases.aspose.com/), लेकिन उत्पादन में उपयोग के लिए सशुल्क लाइसेंस की आवश्यकता होती है।
 ### स्मार्ट मार्कर क्या हैं?
 स्मार्ट मार्कर एक्सेल टेम्पलेट्स में प्लेसहोल्डर होते हैं जो Aspose.Cells द्वारा संसाधित होने पर वास्तविक डेटा से प्रतिस्थापित हो जाते हैं।
 ### क्या Aspose.Cells बड़े डेटासेट के लिए उपयुक्त है?
 बिल्कुल! Aspose.Cells प्रदर्शन के लिए अनुकूलित है, जिससे यह बड़े डेटासेट को कुशलतापूर्वक संभालने में सक्षम है।
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

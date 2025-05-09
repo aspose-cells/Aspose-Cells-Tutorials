@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ public class ChartWithCheckbox {
 3. **Εκπαιδευτικά Εργαλεία:** Δημιουργήστε δυναμικό εκπαιδευτικό υλικό όπου οι μαθητές μπορούν να αλληλεπιδράσουν με το περιεχόμενο επιλέγοντας διαφορετικές επιλογές σε γραφήματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

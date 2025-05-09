@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Aspose.Cells を使用する場合は、最適なパフォーマンスを得る�
 - **購入とライセンス:** ライセンスを取得するか、無料トライアルをお試しください [Aspose 購入](https://purchase.aspose.com/buy) または [Aspose 無料トライアル](https://releases。aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

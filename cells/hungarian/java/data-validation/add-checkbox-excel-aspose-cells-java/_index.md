@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Arra biztatunk, hogy alkalmazd ezeket a megoldásokat a projektjeidben. Jó prog
 - Győződjön meg a megfelelő jogosultságokról, és fontolja meg bizonyos cellák zárolását a nem kívánt módosítások elkerülése érdekében, amikor megosztott környezetekben jelölőnégyzeteket használ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ A: 예, 매개변수를 조정하세요. `addShape` Excel의 그리드 구조에
 이 가이드를 따르면 이제 Aspose.Cells Java를 프로젝트에 통합하여 Excel 자동화 및 서식 기능을 향상시킬 수 있는 준비가 완료되었을 것입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

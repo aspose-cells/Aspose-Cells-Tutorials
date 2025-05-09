@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengubah Ukuran Label Data Bagan Secara Otomatis di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan dengan label data bagan yang tidak sesuai dengan bentuknya di Excel? Panduan ini akan menunjukkan kepada Anda cara menggunakan Aspose.Cells untuk Java untuk mengubah ukuran bentuk label data bagan secara otomatis, sehingga meningkatkan keterbacaan dan kualitas presentasi.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda.
 - Menggunakan fitur Aspose.Cells untuk mengubah ukuran label data bagan secara otomatis.
 - Aplikasi dunia nyata dari fitur ini.
@@ -25,7 +27,7 @@ Kesulitan dengan label data bagan yang tidak sesuai dengan bentuknya di Excel? P
 
 Mari kita mulai dengan meninjau prasyarat yang diperlukan sebelum menerapkan solusi ini.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikutinya, Anda memerlukan:
 - **Kit Pengembangan Java (JDK)** terinstal di komputer Anda. Kami merekomendasikan JDK 8 atau yang lebih tinggi untuk kompatibilitas.
@@ -34,7 +36,7 @@ Untuk mengikutinya, Anda memerlukan:
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi
+### Telepítési információk
 
 Untuk menggunakan Aspose.Cells di proyek Java Anda, sertakan sebagai dependensi menggunakan Maven atau Gradle:
 
@@ -52,14 +54,14 @@ Untuk menggunakan Aspose.Cells di proyek Java Anda, sertakan sebagai dependensi 
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose menawarkan uji coba gratis untuk menguji kemampuan pustakanya:
-1. **Uji Coba Gratis**: Unduh lisensi sementara dari [tautan ini](https://releases.aspose.com/cells/java/) selama 30 hari.
-2. **Lisensi Sementara**: Minta akses lebih lama melalui [halaman pembelian](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian**:Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi penuh dari [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió**: Unduh lisensi sementara dari [ezt a linket](https://releases.aspose.com/cells/java/) selama 30 hari.
+2. **Ideiglenes engedély**: Minta akses lebih lama melalui [vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás**:Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi penuh dari [Aspose vásárlási oldal](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah Aspose.Cells ditambahkan ke proyek Anda, inisialisasikan dalam aplikasi Java Anda:
 
@@ -71,19 +73,19 @@ public class InitializeAspose {
         // Buat contoh Buku Kerja baru atau buka yang sudah ada
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
         
-        // Simpan file Excel yang telah dimodifikasi
+        // Mentse el a módosított Excel fájlt
         workbook.save("output/path/output_file.xlsx");
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Label Data Bagan Pengubahan Ukuran Otomatis
 
 Bagian ini menjelaskan cara mengubah ukuran label data bagan menggunakan Aspose.Cells untuk Java. Kami akan fokus pada pengaturan dan manipulasi bagan dalam buku kerja Excel yang ada.
 
-#### Memuat Buku Kerja
+#### A munkafüzet betöltése
 
 Mulailah dengan memuat file Excel yang berisi grafik yang ingin Anda modifikasi:
 
@@ -114,7 +116,7 @@ public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
         // (Muat kode buku kerja di sini...)
         
-        // Akses lembar kerja pertama di buku kerja
+        // A munkafüzet első munkalapjának elérése
         Worksheet sheet = book.getWorksheets().get(0);
         
         // Dapatkan semua grafik dari lembar kerja
@@ -153,33 +155,33 @@ public class ResizeChartDataLabelShapeToFitText {
 }
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - **Bagan Tidak Diperbarui**:Pastikan Anda menelepon `chart.calculate()` setelah memodifikasi properti label.
 - **Masalah Lisensi**: Jika mengalami keterbatasan, verifikasi pengaturan lisensi Anda atau gunakan opsi lisensi sementara untuk akses fitur lengkap.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut ini adalah beberapa aplikasi nyata dari label data grafik pengubahan ukuran otomatis:
 
-1. **Laporan Keuangan**: Secara otomatis menyesuaikan label agar sesuai dengan berbagai nilai mata uang dan persentase dalam grafik keuangan.
+1. **Pénzügyi jelentések**: Secara otomatis menyesuaikan label agar sesuai dengan berbagai nilai mata uang dan persentase dalam grafik keuangan.
 2. **Dasbor Penjualan**Pastikan nama atau deskripsi produk pada bagan penjualan tetap dapat dibaca, berapa pun panjangnya.
 3. **Penelitian Akademis**: Pertahankan kejelasan dalam kumpulan data kompleks di mana panjang label bervariasi secara signifikan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells dengan file Excel besar:
-- **Manajemen Memori yang Efisien**: Buang benda-benda dengan benar setelah digunakan untuk mengosongkan memori.
-- **Pemrosesan Batch**: Proses bagan secara batch jika menangani set data yang besar, mengurangi beban pada JVM.
+- **Hatékony memóriakezelés**: Buang benda-benda dengan benar setelah digunakan untuk mengosongkan memori.
+- **Kötegelt feldolgozás**: Proses bagan secara batch jika menangani set data yang besar, mengurangi beban pada JVM.
 - **Gunakan Versi Terbaru**Pastikan Anda bekerja dengan versi terbaru untuk meningkatkan kinerja dan fitur.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara mengimplementasikan Aspose.Cells Java untuk mengubah ukuran label data bagan secara otomatis secara efisien. Kemampuan ini memastikan bagan Excel Anda mempertahankan integritas visualnya terlepas dari panjang teks, sehingga lebih mudah dibaca dan profesional.
 
 Langkah selanjutnya dapat mencakup penjelajahan opsi penyesuaian bagan lain dalam Aspose.Cells atau mengintegrasikan fitur ini ke dalam sistem pelaporan otomatis yang lebih besar.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa kegunaan utama untuk mengubah ukuran label data bagan?**
    - Untuk meningkatkan keterbacaan pada bagan dengan panjang label yang bervariasi.
@@ -192,18 +194,21 @@ Langkah selanjutnya dapat mencakup penjelajahan opsi penyesuaian bagan lain dala
 5. **Bisakah saya mengubah ukuran label pada bagan yang dibuat secara terprogram?**
    - Tentu saja! Anda dapat menerapkan fitur ini ke bagan apa pun yang dibuat menggunakan Aspose.Cells.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Jelajahi sumber daya ini untuk meningkatkan pemahaman dan kemampuan Anda dengan Aspose.Cells Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

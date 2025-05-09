@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ import com.aspose.cells.Workbook;
 
 public class InitializeAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Configurar la licencia (opcional si tienes una licencia válida temporal o comprada)
+        // Establecer la licencia (opcional si tiene una licencia temporal o comprada válida)
         // Licencia licencia = nueva Licencia();
         // licencia.setLicense("ruta_a_su_archivo_de_licencia");
 
@@ -186,6 +188,9 @@ Si tiene más preguntas o necesita ayuda, visite el [Foro de soporte de Aspose](
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

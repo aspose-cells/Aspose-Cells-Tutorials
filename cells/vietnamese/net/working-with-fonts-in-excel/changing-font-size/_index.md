@@ -1,14 +1,16 @@
 ---
-title: Thay đổi kích thước phông chữ trong Excel
-linktitle: Thay đổi kích thước phông chữ trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thay đổi kích thước phông chữ trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn dễ dàng này hướng dẫn bạn từng bước mã hóa để làm cho bảng tính của bạn hấp dẫn hơn.
-weight: 12
-url: /vi/net/working-with-fonts-in-excel/changing-font-size/
+"description": "Tìm hiểu cách thay đổi kích thước phông chữ trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn dễ dàng này hướng dẫn bạn từng bước mã hóa để làm cho bảng tính của bạn hấp dẫn hơn."
+"linktitle": "Thay đổi kích thước phông chữ trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thay đổi kích thước phông chữ trong Excel"
+"url": "/vi/net/working-with-fonts-in-excel/changing-font-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi kích thước phông chữ trong Excel
@@ -21,7 +23,7 @@ Trước khi bắt đầu hành trình thay đổi kích thước phông chữ t
 1. Visual Studio: Trước tiên, bạn phải cài đặt Visual Studio hoặc bất kỳ IDE tương thích nào trên máy tính của mình.
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework; hầu hết các phiên bản đều hoạt động được, nhưng tốt nhất vẫn nên sử dụng phiên bản mới nhất.
 ### Aspose.Cells cho .NET
-3.  Aspose.Cells: Bạn cần tải xuống và thiết lập gói Aspose.Cells, có thể thực hiện bằng cách truy cập[Trang tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Bạn cần tải xuống và thiết lập gói Aspose.Cells, có thể thực hiện bằng cách truy cập [Trang tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/).
 ### Kiến thức cơ bản về lập trình C#
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết. Nếu bạn chưa quen, hãy cân nhắc ôn lại những kiến thức cơ bản. 
 Với những điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu viết mã!
@@ -62,7 +64,7 @@ int i = workbook.Worksheets.Add();
 ```
 Vậy là xong! Bây giờ bạn có một bảng tính trống để bắt đầu thêm dữ liệu và tùy chọn kiểu dáng.
 ## Bước 4: Truy cập vào Bảng tính mới được thêm vào
-Tiếp theo, bạn sẽ cần truy cập vào bảng tính vừa tạo để thao tác với các ô.
+Tiếp theo, bạn cần truy cập vào bảng tính vừa tạo để thao tác với các ô.
 Sau đây là cách bạn có thể tham khảo bảng tính đã thêm:
 ```csharp
 // Lấy tham chiếu của bảng tính mới được thêm vào
@@ -109,21 +111,23 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
 Vậy là xong! Bạn vừa lưu tệp Excel đã sửa đổi của mình với kích thước phông chữ mới. Giống như việc niêm phong một lá thư trước khi gửi đi—bạn đang hoàn tất quy trình.
 ## Phần kết luận
-Xin chúc mừng! Bây giờ bạn đã thành thạo nghệ thuật thay đổi kích thước phông chữ trong Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang chuẩn bị báo cáo, danh sách dữ liệu hay bài thuyết trình sáng tạo, những kỹ năng này chắc chắn sẽ nâng cao trải nghiệm Excel của bạn. Tiếp tục thử nghiệm với các kiểu và tùy chọn bố cục khác nhau để làm cho bảng tính của bạn hiệu quả hơn và hấp dẫn hơn về mặt hình ảnh!
+Xin chúc mừng! Bây giờ bạn đã thành thạo nghệ thuật thay đổi kích thước phông chữ trong Excel bằng Aspose.Cells cho .NET. Cho dù bạn đang chuẩn bị báo cáo, danh sách dữ liệu hay bài thuyết trình sáng tạo, những kỹ năng này chắc chắn sẽ nâng cao trải nghiệm Excel của bạn. Tiếp tục thử nghiệm với các kiểu dáng và tùy chọn bố cục khác nhau để làm cho bảng tính của bạn hiệu quả hơn và hấp dẫn hơn về mặt hình ảnh!
 ## Câu hỏi thường gặp
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ để tạo và thao tác các tệp Excel trong các ứng dụng .NET.
 ### Tôi có thể sử dụng Aspose.Cells trong bản dùng thử miễn phí không?
- Có! Bạn có thể nhận được bản dùng thử miễn phí từ họ[trang web](https://releases.aspose.com/).
+Có! Bạn có thể nhận được bản dùng thử miễn phí từ họ [trang web](https://releases.aspose.com/).
 ### Có hỗ trợ cho người dùng Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể tìm thấy sự giúp đỡ và hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể tìm thấy sự giúp đỡ và hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể lưu tệp Excel ở định dạng nào khi sử dụng Aspose.Cells?
 Bạn có thể lưu ở nhiều định dạng khác nhau, bao gồm XLS, XLSX, CSV và nhiều định dạng khác.
 ### Tôi có thể mua Aspose.Cells ở đâu?
- Bạn có thể mua giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép từ [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,35 +1,37 @@
 ---
-title: Utwórz wykres kołowy
-linktitle: Utwórz wykres kołowy
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak utworzyć wykres kołowy w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Wizualizuj swoje dane bez wysiłku.
-weight: 12
-url: /pl/net/manipulating-chart-types/create-pie-chart/
+"description": "Dowiedz się, jak utworzyć wykres kołowy w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Wizualizuj swoje dane bez wysiłku."
+"linktitle": "Utwórz wykres kołowy"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz wykres kołowy"
+"url": "/pl/net/manipulating-chart-types/create-pie-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wykres kołowy
 
 ## Wstęp
 
-Tworzenie wykresów jest niezbędne do wizualnego przedstawiania danych, a wykresy kołowe są jednym z najpopularniejszych sposobów zilustrowania, w jaki sposób części składają się na całość. Dzięki Aspose.Cells dla .NET możesz łatwo zautomatyzować generowanie wykresów kołowych w plikach Excela. W tym samouczku zagłębimy się w to, jak utworzyć wykres kołowy od podstaw za pomocą Aspose.Cells dla .NET, z przewodnikiem krok po kroku, aby uczynić ten proces płynnym i prostym. Niezależnie od tego, czy jesteś nowy w tym narzędziu, czy chcesz poprawić swoje umiejętności automatyzacji programu Excel, ten przewodnik Cię obejmuje!
+Tworzenie wykresów jest niezbędne do wizualnego przedstawiania danych, a wykresy kołowe są jednym z najpopularniejszych sposobów zilustrowania, w jaki sposób części składają się na całość. Dzięki Aspose.Cells dla .NET możesz łatwo zautomatyzować generowanie wykresów kołowych w plikach Excela. W tym samouczku zagłębimy się w to, jak utworzyć wykres kołowy od podstaw za pomocą Aspose.Cells dla .NET, z przewodnikiem krok po kroku, aby uczynić ten proces płynnym i prostym. Niezależnie od tego, czy jesteś nowy w tym narzędziu, czy chcesz poprawić swoje umiejętności automatyzacji programu Excel, ten przewodnik jest dla Ciebie!
 
 ## Wymagania wstępne
 
 Zanim zagłębisz się w kod, upewnij się, że masz następujące ustawienia:
 
-1.  Aspose.Cells for .NET Library: Upewnij się, że Aspose.Cells jest zainstalowany w Twoim projekcie. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library: Upewnij się, że Aspose.Cells jest zainstalowany w Twoim projekcie. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 2. Środowisko programistyczne .NET: upewnij się, że Twój projekt jest skonfigurowany do korzystania z .NET Framework lub .NET Core.
 3. Podstawowa znajomość języka C#: Powinieneś znać podstawy programowania w języku C#, szczególnie programowania obiektowego (OOP).
 
- Dla zaawansowanych użytkowników, tymczasowa licencja może zostać zastosowana, aby odblokować wszystkie funkcje Aspose.Cells. Możesz poprosić o nią od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Dla zaawansowanych użytkowników, tymczasowa licencja może zostać zastosowana, aby odblokować wszystkie funkcje Aspose.Cells. Możesz poprosić o nią od [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
 
-Aby rozpocząć, zaimportuj niezbędne przestrzenie nazw i pakiety wymagane w tym samouczku. Obejmują one podstawowe operacje wejścia/wyjścia i pakiet Aspose.Cells.
+Na początek zaimportuj niezbędne przestrzenie nazw i pakiety wymagane w tym samouczku. Obejmują one podstawowe operacje wejścia/wyjścia i pakiet Aspose.Cells.
 
 ```csharp
 using System;
@@ -43,7 +45,7 @@ using Aspose.Cells.Charts;
 
 ## Krok 1: Utwórz nowy skoroszyt
 
- Najpierw musimy utworzyć instancję`Workbook` Klasa, która reprezentuje plik Excel. Skoroszyt zawiera wiele arkuszy, a w naszym przykładzie będziemy pracować z dwoma arkuszami — jednym dla danych i jednym dla wykresu kołowego.
+Najpierw musimy utworzyć instancję `Workbook` Klasa, która reprezentuje plik Excel. Skoroszyt zawiera wiele arkuszy, a w naszym przykładzie będziemy pracować z dwoma arkuszami — jednym dla danych i jednym dla wykresu kołowego.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -106,7 +108,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Metoda`Add()`akceptuje parametry dla typu wykresu (w tym przypadku`ChartType.Pie`) i jego położenie na arkuszu. Liczby oznaczają pozycje wierszy i kolumn.
+Metoda `Add()` akceptuje parametry dla typu wykresu (w tym przypadku `ChartType.Pie`) i jego położenie na arkuszu. Liczby oznaczają pozycje wierszy i kolumn.
 
 ## Krok 5: Dostosuj wygląd wykresu
 
@@ -131,7 +133,7 @@ Ustawiamy wypełnienie gradientowe dla obszaru wykresu i ukrywamy obramowanie, a
 
 ## Krok 6: Zdefiniuj dane wykresu
 
- Czas połączyć wykres z naszymi danymi.`NSeries` Właściwość wykresu wiąże dane dotyczące sprzedaży i regionów z wykresem kołowym.
+Czas połączyć wykres z naszymi danymi. `NSeries` Właściwość wykresu wiąże dane dotyczące sprzedaży i regionów z wykresem kołowym.
 
 ```csharp
 chart.NSeries.Add("Data!B2:B8", true);
@@ -139,7 +141,7 @@ chart.NSeries.CategoryData = "Data!A2:A8";
 chart.NSeries.IsColorVaried = true;
 ```
 
- Pierwszy wiersz określa, że korzystamy z danych sprzedaży z komórek`B2:B8` . Mówimy również wykresowi, aby używał nazw regionów z`A2:A8` jako etykiety kategorii.
+Pierwszy wiersz określa, że korzystamy z danych sprzedaży z komórek `B2:B8`. Mówimy również wykresowi, aby używał nazw regionów z `A2:A8` jako etykiety kategorii.
 
 ## Krok 7: Dodaj etykiety danych
 
@@ -193,19 +195,21 @@ Tworzenie wykresu kołowego za pomocą Aspose.Cells dla .NET to prosty i konfigu
 Tak! Aspose.Cells obsługuje różne typy wykresów, w tym wykresy słupkowe, wykresy liniowe i wykresy punktowe.
 
 ### Czy potrzebuję płatnej licencji, aby używać Aspose.Cells dla .NET?
-Możesz używać bezpłatnej wersji z pewnymi ograniczeniami. Aby korzystać z pełnych funkcji, będziesz potrzebować licencji, którą możesz kupić[Tutaj](https://purchase.aspose.com/buy).
+Możesz używać bezpłatnej wersji z pewnymi ograniczeniami. Aby korzystać z pełnych funkcji, będziesz potrzebować licencji, którą możesz kupić [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę wyeksportować wykres do formatów PDF lub obrazów?
 Oczywiście! Aspose.Cells pozwala eksportować wykresy do różnych formatów, w tym PDF i PNG.
 
 ### Czy można nadać każdemu wycinkowi ciasta inny kolor?
- Tak, możesz zastosować różne kolory do każdego wycinka, ustawiając`IsColorVaried` nieruchomość do`true`, jak pokazano w samouczku.
+Tak, możesz zastosować różne kolory do każdego wycinka, ustawiając `IsColorVaried` nieruchomość do `true`, jak pokazano w samouczku.
 
 ### Czy mogę zautomatyzować generowanie wielu wykresów w jednym skoroszycie?
 Tak, w jednym pliku Excela można tworzyć i dostosowywać dowolną liczbę wykresów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

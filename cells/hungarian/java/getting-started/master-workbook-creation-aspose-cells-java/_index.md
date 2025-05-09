@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ A munkafüzet első munkalapjának elérése egyszerű:
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Cells;
 
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet ws = wb.getWorksheets().get(0);
 Cells cell = ws.getCells();
 ```
@@ -218,6 +220,9 @@ További kutatáshoz:
 Az útmutató követésével felkészülhetsz arra, hogy hatékony Excel-funkciókat valósíts meg projektjeidben az Aspose.Cells for Java használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Değişiklikleri engelleyen korumalı Excel dosyalarıyla uğraşmaktan bıktın
 - Kurulum gereksinimleri ve ortam yapılandırması.
 - Performans optimizasyon teknikleri ve pratik uygulamaları.
 
-Ortamınızı kurmaya ve başlamaya başlayalım!
+Haydi ortamınızı kurmaya ve işe koyulmaya başlayalım!
 
 ## Ön koşullar
 
@@ -186,6 +188,9 @@ A: Aspose.Cells verimlilik için optimize edilmiş olsa da, belirli sayfaları v
 Excel dosya yönetiminizi Aspose.Cells for Java ile kolaylaştırmak için bu çözümü bugün uygulamaya başlayın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

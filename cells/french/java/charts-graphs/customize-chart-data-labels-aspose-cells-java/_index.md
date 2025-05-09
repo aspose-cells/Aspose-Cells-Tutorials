@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Une fois votre environnement prêt, configurons Aspose.Cells. Voici comment comm
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Initialisation de base**: Créer un `Workbook` exemple pour commencer à travailler avec des fichiers Excel.
+3. **Initialisation de base**Créer un `Workbook` exemple pour commencer à travailler avec des fichiers Excel.
 
 ## Guide de mise en œuvre
 
@@ -166,6 +168,9 @@ Pour explorer davantage les fonctionnalités d'Aspose.Cells, n'hésitez pas à t
 Ce guide complet devrait vous permettre de personnaliser efficacement les étiquettes de données des graphiques dans vos applications Java avec Aspose.Cells. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

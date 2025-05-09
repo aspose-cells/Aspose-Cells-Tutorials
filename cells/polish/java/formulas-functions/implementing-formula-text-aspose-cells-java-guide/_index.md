@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Gotowy, aby przenieść swoje umiejętności automatyzacji arkuszy kalkulacyjnyc
 Wykorzystując Aspose.Cells z Javą, możesz sprawnie zarządzać plikami Excela i manipulować nimi w swoich aplikacjach. Odkryj dalsze funkcjonalności, aby zmaksymalizować jego potencjał w swoich projektach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

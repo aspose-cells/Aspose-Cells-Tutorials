@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ Abrir y manipular archivos de Excel con Aspose.Cells para Java simplifica el pro
 Para obtener información más detallada, consulte [Documentación de Aspose](https://reference.aspose.com/cells/java/) y explorar recursos adicionales para ampliar su comprensión de esta poderosa biblioteca.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

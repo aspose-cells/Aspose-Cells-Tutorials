@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 หากต้องการใช้ประโยชน์จาก Aspose.Cells สำหรับ Java อย่างเต็มที่ โปรดพิจารณาตัวเลือกการอนุญาตสิทธิ์ดังต่อไปนี้:
 
 - **ทดลองใช้งานฟรี**:เริ่มต้นด้วยใบอนุญาตชั่วคราวเพื่อสำรวจคุณสมบัติทั้งหมด
-- **ใบอนุญาตชั่วคราว**: รับสิ่งนี้ได้ทาง [เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/) หากคุณต้องการการเข้าถึงเพิ่มเติมในระหว่างการพัฒนา
+- **ใบอนุญาตชั่วคราว**:รับสิ่งนี้ได้ทาง [เว็บไซต์ของ Aspose](https://purchase.aspose.com/temporary-license/) หากคุณต้องการการเข้าถึงเพิ่มเติมในระหว่างการพัฒนา
 - **ซื้อ**:หากต้องการใช้ในระยะยาว ให้ซื้อการสมัครสมาชิกจาก [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).
 
 ### การเริ่มต้นขั้นพื้นฐาน
@@ -190,6 +192,9 @@ workbook.save("TAHorizontal_out.xls");
 เริ่มสำรวจทรัพยากรเหล่านี้เพื่อปรับปรุงความสามารถในการจัดการ Excel ของคุณในแอปพลิเคชัน Java ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

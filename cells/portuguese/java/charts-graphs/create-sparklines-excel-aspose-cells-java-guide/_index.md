@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Antes de implementar esta solução, certifique-se de ter:
 
 - A biblioteca Aspose.Cells (versão 25.3) integrada ao seu projeto Java.
 - Um conhecimento básico de programação Java.
-- Maven ou Gradle instalado se você gerenciar dependências por meio dessas ferramentas.
+- Maven ou Gradle instalado se gerenciar dependências por meio dessas ferramentas.
 
 ### Requisitos de configuração do ambiente
 
@@ -196,6 +198,9 @@ Você aprendeu a criar e personalizar minigráficos no Excel usando o Aspose.Cel
 - **Licença temporária:** Solicite uma licença temporária através de [Página de Licença Temporária](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 مع هذا الدليل، أصبحتَ الآن جاهزًا لتحويل ملفات Excel إلى صيغ PNG وTIFF وPDF باستخدام Aspose.Cells لجافا. حسّن قدراتك على مشاركة البيانات باستخدام تقنيات التحويل متعددة الاستخدامات هذه.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

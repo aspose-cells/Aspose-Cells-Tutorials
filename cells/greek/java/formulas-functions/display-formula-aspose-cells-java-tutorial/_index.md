@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Απόκτηση Άδειας
 Το Aspose.Cells για Java είναι μια εμπορική βιβλιοθήκη, αλλά μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμαστική έκδοση για να αξιολογήσετε τις δυνατότητές της. Δείτε πώς μπορείτε να την αποκτήσετε:
-- **Δωρεάν δοκιμή**Κατεβάστε την τελευταία έκδοση από [Λήψεις Aspose](https://releases.aspose.com/cells/java/).
+- **Δωρεάν δοκιμή**: Κατεβάστε την τελευταία έκδοση από [Λήψεις Aspose](https://releases.aspose.com/cells/java/).
 - **Προσωρινή Άδεια**: Αίτημα προσωρινής άδειας μέσω [αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/) εάν χρειάζεστε περισσότερο χρόνο από ό,τι επιτρέπει η δοκιμαστική περίοδος.
 - **Αγορά**Για πλήρη πρόσβαση, αγοράστε μια άδεια χρήσης μέσω [Αγορά Aspose](https://purchase.aspose.com/buy).
 
@@ -141,6 +143,9 @@ public class ShowFormulas {
 - **Φόρουμ Υποστήριξης**: [Υποστήριξη Κοινότητας Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

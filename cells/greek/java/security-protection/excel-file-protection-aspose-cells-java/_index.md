@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ workbook.save(outDir + "ProtectingWorksheet_out.xls", SaveFormat.EXCEL_97_TO_200
 Εξερευνήστε περαιτέρω και ξεκλειδώστε νέες δυνατότητες στις εφαρμογές Java σας με το Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Uygulamalarınızı daha da geliştirmek için Aspose.Cells'in otomatik rapor ol
 Bu eğitim size Aspose.Cells for Java'da formül hesaplamalarını etkili bir şekilde yönetmeniz için gereken bilgi ve araçları sağlamalıdır. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

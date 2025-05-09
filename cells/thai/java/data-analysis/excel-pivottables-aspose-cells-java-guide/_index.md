@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 - **สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE)**:ใช้ IDE เช่น IntelliJ IDEA หรือ Eclipse
 - **เมเวน/เกรเดิล**:ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 
-**ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการดำเนินการไฟล์ Excel จะเป็นประโยชน์ แต่ไม่ใช่สิ่งบังคับ
+**ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการดำเนินการไฟล์ Excel จะเป็นประโยชน์ แต่ไม่ใช่สิ่งบังคับ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -188,6 +190,9 @@ A5: เยี่ยมชม [ฟอรั่ม Aspose](https://forum.aspose.co
 - **ใบอนุญาตชั่วคราว**:รักษาความปลอดภัยการเข้าถึงชั่วคราวสำหรับการทดสอบอย่างครอบคลุมที่ [ใบอนุญาตชั่วคราว Aspose](https://purchase-aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

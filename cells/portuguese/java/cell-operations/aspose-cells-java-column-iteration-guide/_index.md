@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ No mundo atual, movido a dados, gerenciar e processar dados de planilhas com efi
 **Palavra-chave primária:** Aspose.Cells Java
 **Palavras-chave secundárias:** Iterar colunas do Excel, processamento de dados
 
-### que você aprenderá
+### O que você aprenderá
 - Como configurar e usar o Aspose.Cells para Java.
 - Etapas para iterar sobre colunas em uma planilha do Excel.
 - Aplicações práticas da iteração de colunas.
@@ -169,6 +171,9 @@ Dominar a iteração de colunas com o Aspose.Cells abre um mundo de possibilidad
 Embarque em sua jornada com o Aspose.Cells hoje mesmo e revolucione a maneira como você lida com dados do Excel em Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

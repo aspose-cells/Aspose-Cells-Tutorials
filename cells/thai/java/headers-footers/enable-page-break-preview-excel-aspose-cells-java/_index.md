@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ workbook.save(dataDir + "PageBreakPreview_out.xls");
 ด้วยคู่มือที่ครอบคลุมนี้ คุณจะสามารถใช้ Aspose.Cells สำหรับ Java เพื่อเปิดใช้งานการแสดงตัวอย่างการแบ่งหน้าได้อย่างมีประสิทธิภาพ ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

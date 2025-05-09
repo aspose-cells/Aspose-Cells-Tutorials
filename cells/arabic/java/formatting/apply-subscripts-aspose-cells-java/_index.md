@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ workbook.save(dataDir + "ASubscript_out.xls");
 قم بتجربة Aspose.Cells for Java لفتح إمكانيات أتمتة Excel القوية، ولا تتردد في استكشاف وثائقها الشاملة للحصول على مزيد من الأفكار.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

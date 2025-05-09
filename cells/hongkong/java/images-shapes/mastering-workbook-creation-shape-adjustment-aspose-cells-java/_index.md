@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ Excel 是資料管理的基石，但如果沒有合適的工具，以程式設�
 </dependency>
 ```
 **Gradle：**
-對於 Gradle 用戶，請將其包含在您的 `build.gradle`：
+對於 Gradle 用戶，將其包含在您的 `build.gradle`：
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -178,6 +180,9 @@ Aspose.Cells for Java 可以應用在各種實際場景：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Adja meg a képletmezőket, amikor adatokat importál az Excel munkalapra
-linktitle: Adja meg a képletmezőket, amikor adatokat importál az Excel munkalapra
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a részletes oktatóanyagból megtudhatja, hogyan importálhat adatokat Excel-lapokba meghatározott képletmezőkkel az Aspose.Cells for .NET használatával.
-weight: 11
-url: /hu/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "Ebben a részletes oktatóanyagban megtudhatja, hogyan importálhat adatokat Excel-táblázatokba megadott képletmezők használatával az Aspose.Cells for .NET használatával."
+"linktitle": "Képletmezők megadása adatok Excel-táblázatba importálásakor"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Képletmezők megadása adatok Excel-táblázatba importálásakor"
+"url": "/hu/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adja meg a képletmezőket, amikor adatokat importál az Excel munkalapra
+# Képletmezők megadása adatok Excel-táblázatba importálásakor
 
 ## Bevezetés
 
-Ha az Excel-fájlok programozott kezeléséről van szó, az Aspose.Cells for .NET felbecsülhetetlen értékű eszköz. Robusztus funkcionalitást biztosít az Excel-táblázatok egyszerű létrehozásához, módosításához és kezeléséhez. Az egyik érdekes funkció, amelyet kínál, a képletmezők megadásának lehetősége, miközben adatokat importál egy Excel-lapba. Képzelje el, hogy egy pénzügyi jelentésen dolgozik, és automatikusan ki kell számítania a végösszegeket a felhasználói adatok alapján. Ez az oktatóanyag lépésről lépésre végigvezeti Önt abban, hogy ezt tiszta és egyértelmű megközelítéssel elérje.
+Az Excel-fájlok programozott kezelésének terén az Aspose.Cells for .NET egy felbecsülhetetlen értékű eszköz. Robusztus funkciókat biztosít az Excel-táblázatok egyszerű létrehozásához, módosításához és kezeléséhez. Az egyik érdekes funkciója, hogy képletmezőket adhat meg az adatok Excel-táblázatba importálása során. Képzelje el, hogy egy pénzügyi jelentésen dolgozik, és automatikusan kell kiszámítania az összegeket a felhasználói bevitel alapján. Ez az oktatóanyag lépésről lépésre végigvezeti Önt ezen egy letisztult és egyszerű megközelítésen.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, amire szükségünk van. 
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan. 
 
-1. Visual Studio vagy bármely .NET integrált fejlesztői környezet (IDE): Győződjön meg arról, hogy rendelkezik megfelelő IDE-vel a C# kód írásához és futtatásához.
-2.  Aspose.Cells for .NET: Le kell töltenie és hivatkoznia kell az Aspose.Cells könyvtárra a projektben. Letöltheti a[Az Aspose kiadja](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismeretek: A C# és az objektumorientált programozási fogalmak ismerete segít a példák jobb megértésében.
-4. .NET-keretrendszer: Ez az oktatóanyag feltételezi, hogy a .NET-keretrendszer 4.5-ös vagy újabb verzióját használja.
+1. Visual Studio vagy bármilyen .NET integrált fejlesztői környezet (IDE): Győződjön meg róla, hogy rendelkezik megfelelő IDE-vel a C# kód írásához és futtatásához.
+2. Aspose.Cells .NET-hez: Le kell töltened és hivatkoznod kell az Aspose.Cells könyvtárra a projektedben. Letöltheted innen: [Aspose kiadások](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# és az objektumorientált programozási alapfogalmak ismerete segít jobban megérteni a példákat.
+4. .NET-keretrendszer: Ez az oktatóanyag feltételezi, hogy a .NET-keretrendszer 4.5-ös vagy újabb verzióját használod.
 
-Miután az előfeltételeket rendezte, folytassuk az adatok importálását egy Excel-lapba meghatározott képletmezőkkel.
+Miután az előfeltételeket rendeztük, importáljunk néhány adatot egy Excel-táblázatba a megadott képletmezők segítségével.
 
 ## Csomagok importálása
 
-Mielőtt elkezdené írni a kódot, importálnia kell a szükséges Aspose.Cells névteret. Ez általában a C# fájl tetején történik:
+Mielőtt elkezdenéd a kód írását, importálnod kell a szükséges Aspose.Cells névteret. Ezt általában a C# fájl tetején tedd meg:
 
 ```csharp
 using Aspose.Cells;
@@ -38,23 +40,23 @@ using System;
 using System.Collections.Generic;
 ```
 
-Ez lehetővé teszi az Aspose.Cells könyvtár által biztosított osztályok és metódusok használatát anélkül, hogy minden alkalommal előtagot kellene adnia a névtérnek.
+Ez lehetővé teszi az Aspose.Cells könyvtár által biztosított osztályok és metódusok használatát anélkül, hogy minden alkalommal névtérrel kellene előtagolni őket.
 
-Bontsuk fel a teljes folyamatot kezelhető lépésekre:
+Bontsuk le a teljes folyamatot kezelhető lépésekre:
 
-## 1. lépés: Határozza meg a kimeneti könyvtárat
+## 1. lépés: A kimeneti könyvtár meghatározása
 
-Először is meg kell határoznia, hová szeretné menteni az Excel fájlt. A következőképpen teheti meg:
+Először is meg kell adnia, hová szeretné menteni az Excel-fájlt. Így teheti meg:
 
 ```csharp
-static string outputDir = "Your Document Directory"; // itt adja meg a dokumentumkönyvtárat
+static string outputDir = "Your Document Directory"; // adja meg itt a dokumentum könyvtárát
 ```
 
- Cserélje ki`"Your Document Directory"` a tényleges fájl elérési útjával. Ide kerül mentésre a generált Excel fájl.
+Csere `"Your Document Directory"` tényleges fájlelérési úttal. Ide lesz mentve a létrehozott Excel-fájl.
 
-## 2. lépés: Hozzon létre egy felhasználó által meghatározott osztályt az adatelemekhez
+## 2. lépés: Felhasználó által definiált osztály létrehozása adatelemekhez
 
-Ezután meghatározunk egy osztályt az importálni tervezett adatok strukturálásához.
+Ezután definiálunk egy osztályt az importálni kívánt adatok strukturálásához.
 
 ```csharp
 class DataItems
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Ez`DataItems` osztály tartalmazza a nyers egész számokat és a képleteket, amelyeket az Excel lapra írunk. 
+Ez `DataItems` Az osztály fogja tárolni a nyers egész számokat és a képleteket, amelyeket az Excel táblázatba fogunk írni. 
 
-## 3. lépés: Inicializáljon egy listát az adatelemek tárolására
+## 3. lépés: Lista inicializálása adatelemek tárolására
 
- Egy listát fogunk használni, hogy több példányunkat tároljuk`DataItems` osztály.
+Egy listát fogunk használni a mi több példányának tárolására `DataItems` osztály.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -78,65 +80,65 @@ List<DataItems> dis = new List<DataItems>();
 
 ## 4. lépés: Adatelemek hozzáadása a listához
 
-Most adjunk hozzá néhány bejegyzést a listánkhoz. Minden bejegyzés két számot és két képletet tartalmaz.
+Most adjunk hozzá néhány bejegyzést a listánkhoz. Minden bejegyzés két számot és két képletet fog tartalmazni.
 
 ```csharp
-// Határozza meg és adja hozzá az egyes adatelemeket
+// Definiálja és adja hozzá az egyes adatelemeket
 DataItems di = new DataItems();
 di.Number1 = 2002;
 di.Number2 = 3502;
 di.Formula1 = "=SUM(A2,B2)";
-di.Formula2 = "=HYPERLINK(\"https://www.aspose.com\",\"Aspose webhely\")";
+di.Formula2 = "=HYPERLINK(\"https://www.aspose.com\",\"Aspose weboldal\")";
 dis.Add(di);
 
-// Ismételje meg a további adatelemek esetében
+// Ismételje meg további adatelemek esetén
 ```
 
- Ügyeljen arra, hogy mindegyiket személyre szabja`DataItems` példány egyedi értékekkel és képletekkel.
+Mindenképpen szabd testre mindegyiket `DataItems` példány egyedi értékekkel és képletekkel.
 
-## 5. lépés: Munkafüzet és hozzáférési munkalap létrehozása
+## 5. lépés: Munkafüzet és Access-munkalap létrehozása
 
-Ezután hozza létre a munkafüzetet, és nyissa meg az első munkalapot, ahová végül importálni fogjuk az adatokat.
+Ezután hozd létre a munkafüzetet, és nyisd meg az első munkalapot, ahová végül importálni fogjuk az adatokat.
 
 ```csharp
-Workbook wb = new Workbook(); // hozzon létre egy új munkafüzetet
-Worksheet ws = wb.Worksheets[0]; // elérheti az első munkalapot
+Workbook wb = new Workbook(); // új munkafüzet létrehozása
+Worksheet ws = wb.Worksheets[0]; // az első munkalap elérése
 ```
 
-## 6. lépés: Adja meg az importálási táblázat beállításait
+## 6. lépés: Importálási táblázat beállításainak megadása
 
-Itt történik a varázslat. Meg kell adnia, hogy az adatok mely mezői feleljenek meg képleteknek. 
+Itt történik a varázslat. Meg kell adnod, hogy az adatmezők közül melyek felelnek meg a képleteknek. 
 
 ```csharp
 ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- Ebben a példában az utolsó két mező képleteket tartalmaz, amelyet a jelöl`true` , míg az első két mező értéke`false`.
+Ebben a példában az utolsó két mező képleteket tartalmaz, amit a következő jelöl `true`, míg az első két mező értéke `false`.
 
 ## 7. lépés: Egyéni objektumok importálása
 
-Most, hogy minden be van állítva, importáljuk az adatelemek listáját a munkalapra.
+Most, hogy minden elő van készítve, importáljuk az adatelemek listáját a munkalapba.
 
 ```csharp
 ws.Cells.ImportCustomObjects(dis, 0, 0, opts);
 ```
 
-Ez a sor hatékonyan importálja az adatokat az A1 cellától kezdve.
+Ez a sor gyakorlatilag az A1 cellától kezdődő adatokat importálja.
 
-## 8. lépés: Számítsa ki a képleteket
+## 8. lépés: Képletek kiszámítása
 
-Mivel importáltunk néhány képletet, létfontosságú kiszámolni őket.
+Mivel importáltunk néhány képletet, létfontosságú a kiszámításuk.
 
 ```csharp
 wb.CalculateFormula();
 ```
 
-Ez a módszer biztosítja, hogy a képletek a függőségeik alapján kerülnek kiértékelésre.
+Ez a metódus biztosítja, hogy a képletek a függőségeik alapján legyenek kiértékelve.
 
 ## 9. lépés: Oszlopok automatikus illesztése
 
-Annak érdekében, hogy az adatok megjeleníthetőek legyenek, automatikusan illesztheti az oszlopokat a tartalom alapján.
+Annak érdekében, hogy adataid könnyen megjeleníthetők legyenek, automatikusan igazíthatod az oszlopokat a tartalom alapján.
 
 ```csharp
 ws.AutoFitColumns();
@@ -146,48 +148,50 @@ Ez a lépés optimalizálja az Excel-fájl elrendezését.
 
 ## 10. lépés: Mentse el az Excel-fájlt
 
-Végül itt az ideje, hogy mentse az újonnan létrehozott Excel-fájlt. 
+Végül itt az ideje menteni az újonnan létrehozott Excel-fájlt. 
 
 ```csharp
 wb.Save(outputDir + "outputSpecifyFormulaFieldsWhileImportingDataToWorksheet.xlsx");
 ```
 
-Győződjön meg arról, hogy a kimeneti fájl neve releváns és leíró jellegű!
+Győződj meg róla, hogy a kimeneti fájlneved releváns és leíró!
 
-## 11. lépés: A végrehajtás ellenőrzése
+## 11. lépés: Végrehajtás ellenőrzése
 
-Egy egyszerű módja annak, hogy megbizonyosodjon arról, hogy minden megfelelően futott, érdemes lehet kinyomtatni egy üzenetet.
+Egy egyszerű módja annak, hogy megerősítsd, minden rendben ment, érdemes lehet kinyomtatni egy üzenetet.
 
 ```csharp
 Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully.");
 ```
 
-Ez azonnali visszajelzést ad arról, hogy a kód minden probléma nélkül működött.
+Ez azonnali visszajelzést ad arról, hogy a kód problémamentesen működött.
 
 ## Következtetés
 
-És megvan! Sikeresen importált adatokat egy Excel-lapba az Aspose.Cells for .NET és a megadott képletmezők használatával. Ezen lépések követésével hasonló technikákat alkalmazhat az adatfeldolgozási feladatok automatizálására az Ön igényei szerint. Legyen szó jelentésekről, vagy egyszerűen csak adatok karbantartásáról, az Excel Aspose-val való manipulálásának elsajátítása olyan készség, amelyet érdemes birtokolni.
+És íme! Sikeresen importáltad az adatokat egy Excel-táblázatba az Aspose.Cells for .NET és a megadott képletmezők használatával. Ezeket a lépéseket követve hasonló technikákat alkalmazhatsz az adatfeldolgozási feladatok automatizálására, az igényeidre szabva. Akár jelentésekhez dolgozol fel számokat, akár egyszerűen csak karbantartod az adatokat, az Excel-manipuláció művészetének elsajátítása az Aspose segítségével egy olyan készség, amelyet érdemes elsajátítani.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amelyet Excel-fájlok létrehozására, kezelésére és programozott konvertálására terveztek.
+Az Aspose.Cells egy .NET könyvtár, amelyet Excel fájlok programozott létrehozására, kezelésére és konvertálására terveztek.
 
-### Hogyan telepíthetem az Aspose.Cells for .NET fájlt?
- Letöltheti a[Az Aspose kiadja](https://releases.aspose.com/cells/net/) és hivatkozzon rá a projektjében.
+### Hogyan telepíthetem az Aspose.Cells for .NET-et?
+Letöltheted innen: [Aspose kiadások](https://releases.aspose.com/cells/net/) és hivatkozz rá a projektedben.
 
-### Használhatom ingyenesen az Aspose.Cells-t?
- Igen, az Aspose ingyenes próbaverziót kínál a címen[ezt a linket](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, az Aspose ingyenes próbaverziót kínál a következő címen: [ezt a linket](https://releases.aspose.com/).
 
-### Hol találok több példát?
- További példák és dokumentációk találhatók a[Aspose dokumentációs oldal](https://reference.aspose.com/cells/net/).
+### Hol találok további példákat?
+További példák és dokumentáció található a következő címen: [Aspose dokumentációs oldal](https://reference.aspose.com/cells/net/).
 
-### Mi a teendő, ha problémákat tapasztalok az Aspose használata közben?
- Kérhet segítséget az Aspose támogatási fórumától[itt](https://forum.aspose.com/c/cells/9).
+### Mi van, ha problémákba ütközöm az Aspose használata során?
+Segítséget kérhetsz az Aspose támogatói fórumán [itt](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

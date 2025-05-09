@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득
 Aspose.Cells를 사용하려면 다음을 수행하세요.
 - **무료 체험**: 무료 체험판을 시작하려면 라이브러리를 다운로드하세요.
-- **임시 면허**: 장기 평가를 위해 임시 라이센스를 얻으세요.
+- **임시 면허**장기 평가를 위해 임시 라이센스를 얻으세요.
 - **구입**: 귀하의 필요에 맞는다면 구매를 고려해 보세요.
 
 ### 기본 초기화 및 설정
@@ -151,6 +153,9 @@ Aspose.Cells가 제공하는 기능을 계속 탐색하려면 다양한 기능�
 지금 Aspose.Cells로 여정을 시작하고 모든 프로젝트에서 수치적 정확성을 확보하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

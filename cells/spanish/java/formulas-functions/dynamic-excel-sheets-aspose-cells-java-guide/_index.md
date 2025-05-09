@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ Comience creando una instancia del `Workbook` clase, que representa un archivo E
 
 ```java
 import com.aspose.cells.Workbook;
-// Crear una instancia de un nuevo objeto Workbook
+// Crear una instancia de un nuevo objeto de libro de trabajo
 Workbook workbook = new Workbook();
 ```
 
@@ -189,6 +191,9 @@ Explora las funciones avanzadas en el [Documentación de Aspose](https://referen
 ¡Aproveche el poder de Aspose.Cells para Java en su próximo proyecto y mejore sus capacidades de automatización de Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

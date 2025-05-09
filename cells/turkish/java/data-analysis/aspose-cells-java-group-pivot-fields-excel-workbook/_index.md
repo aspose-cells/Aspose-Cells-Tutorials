@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Aspose.Cells'i kullanmaya başlamak için şu adımları izleyin:
   groupTypeList.add(PivotGroupByType.QUARTERS);
   ```
 
-### Pivot Alanında Gruplamayı Uygula
+### Pivot Alanında Gruplama Uygula
 **Genel bakış**: Tanımlı ayarları pivot alanınıza uygulayarak gruplama işlemini gerçekleştirin.
 
 - **Gruplamayı Uygula**
@@ -183,6 +185,9 @@ Aspose.Cells kütüphanesinin diğer özelliklerini inceleyerek veya kapsamlı v
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

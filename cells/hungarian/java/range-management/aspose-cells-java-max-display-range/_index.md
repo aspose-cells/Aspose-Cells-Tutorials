@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ Győződjön meg arról, hogy a fájl elérési útja és neve helyes, hogy elke
 4. **Integráció az üzleti rendszerekkel:** Használjon megjelenítési tartományokat az irányítópult-vizualizációkhoz.
 ## Teljesítménybeli szempontok
 - **Memóriakezelés:** Optimalizálja a Java memóriabeállításait nagy fájlok feldolgozásakor.
-- **Hatékony lőtérhozzáférés:** Minimalizálja a felesleges hívásokat `getMaxDisplayRange()` hurkokon belül.
+- **Hatékony hatótávolság-hozzáférés:** Minimalizálja a felesleges hívásokat `getMaxDisplayRange()` hurkokon belül.
 - **Bevált gyakorlatok:** Használja ki az Aspose.Cells fejlett funkcióit, például a streaming API-kat a hatalmas adathalmazok hatékony kezeléséhez.
 ## Következtetés
 Az Aspose.Cells segítségével a Java munkalapok maximális megjelenítési tartományának elérésének elsajátítása javítja az adatkezelési és megjelenítési képességeidet. Fedezd fel az Aspose.Cells által biztosított egyéb funkciókat az Excel-műveletek további egyszerűsítése érdekében.
@@ -118,6 +120,9 @@ Készen állsz a gyakorlatba ültetni? Próbáld meg megvalósítani a megoldás
 - **Támogatási fórum:** [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

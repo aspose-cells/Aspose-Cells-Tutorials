@@ -1,112 +1,116 @@
 ---
-title: Dukungan XAdESSignature di Buku Kerja menggunakan Aspose.Cells
-linktitle: Dukungan XAdESSignature di Buku Kerja menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menerapkan dukungan tanda tangan XAdES di buku kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami untuk penandatanganan dokumen yang aman.
-weight: 29
-url: /id/net/workbook-operations/xades-signature-support/
+"description": "Ismerje meg, hogyan valósíthat meg XAdES aláírás-támogatást Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a biztonságos dokumentum-aláíráshoz."
+"linktitle": "XAdESSignature támogatás munkafüzetben Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "XAdESSignature támogatás munkafüzetben Aspose.Cells használatával"
+"url": "/id/net/workbook-operations/xades-signature-support/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dukungan XAdESSignature di Buku Kerja menggunakan Aspose.Cells
+# XAdESSignature támogatás munkafüzetben Aspose.Cells használatával
 
-## Perkenalan
-Di dunia digital saat ini, integritas dan keaslian data adalah yang terpenting. Bayangkan Anda sedang mengirim dokumen Excel yang penting, dan Anda ingin memastikan bahwa penerima tahu bahwa dokumen tersebut tidak dirusak. Di sinilah tanda tangan digital berperan! Dengan Aspose.Cells untuk .NET, Anda dapat dengan mudah menambahkan tanda tangan XAdES ke buku kerja Excel Anda, memastikan bahwa data Anda tetap aman dan tepercaya. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan dukungan tanda tangan XAdES di file Excel Anda langkah demi langkah. Mari kita mulai!
-## Prasyarat
-Sebelum kita memulai, ada beberapa hal yang perlu Anda siapkan untuk mengikuti tutorial ini:
-1. Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
-2. Lingkungan Pengembangan: IDE yang cocok untuk pengembangan .NET, seperti Visual Studio.
-3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
-4. Sertifikat Digital: Berkas PFX (pertukaran informasi pribadi) yang valid yang berisi sertifikat digital Anda dan kata sandi untuk mengaksesnya.
-Sudah mendapatkan semuanya? Bagus! Mari kita lanjutkan ke langkah berikutnya.
-## Paket Impor
-Untuk memulai dengan Aspose.Cells, Anda perlu mengimpor namespace yang diperlukan dalam proyek C# Anda. Ini akan memungkinkan Anda mengakses kelas dan metode yang diperlukan untuk menambahkan tanda tangan digital. Berikut cara melakukannya:
-### Buat Proyek C# Baru
-1. Buka Visual Studio.
-2. Buat proyek Aplikasi Konsol baru.
-3.  Beri nama proyek Anda sesuatu yang dapat dikenali, seperti`XAdESSignatureExample`.
-### Tambahkan Referensi Aspose.Cells
-1.  Klik kanan pada proyek Anda di Solution Explorer dan pilih`Manage NuGet Packages`.
-2.  Pencarian untuk`Aspose.Cells` dan instal versi terbaru.
-### Impor Namespace yang Diperlukan
- Di bagian atas Anda`Program.cs` file, tambahkan perintah berikut menggunakan perintah:
+## Bevezetés
+mai digitális világban az adatok integritása és hitelessége kiemelkedő fontosságú. Képzelje el, hogy egy kritikus Excel-dokumentumot küld, és biztosítani szeretné, hogy a címzett tudja, hogy azt nem módosították. Itt jönnek képbe a digitális aláírások! Az Aspose.Cells for .NET segítségével könnyedén hozzáadhat XAdES aláírásokat Excel-munkafüzeteihez, biztosítva adatai biztonságát és megbízhatóságát. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az XAdES aláírás-támogatás Excel-fájlokban való megvalósításának folyamatán. Vágjunk bele!
+## Előfeltételek
+Mielőtt belekezdenénk, van néhány dolog, amire szükséged van ahhoz, hogy követhesd ezt az oktatóanyagot:
+1. Aspose.Cells .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Cells könyvtár. Letöltheti [itt](https://releases.aspose.com/cells/net/).
+2. Fejlesztői környezet: Egy megfelelő IDE a .NET fejlesztéséhez, például a Visual Studio.
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódrészleteket.
+4. Digitális tanúsítvány: Érvényes PFX fájl (személyes adatcsere), amely tartalmazza a digitális tanúsítványát és az ahhoz való hozzáféréshez szükséges jelszót.
+Minden megvan? Remek! Lépjünk tovább a következő lépésre.
+## Csomagok importálása
+Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket a C# projektjébe. Ez lehetővé teszi a digitális aláírások hozzáadásához szükséges osztályok és metódusok elérését. Így teheti meg:
+### Új C# projekt létrehozása
+1. Nyisd meg a Visual Studio-t.
+2. Hozz létre egy új konzolalkalmazás-projektet.
+3. Nevezd el a projektedet valami könnyen felismerhetővel, például `XAdESSignatureExample`.
+### Aspose.Cells hivatkozás hozzáadása
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben, és válassza a lehetőséget `Manage NuGet Packages`.
+2. Keresés `Aspose.Cells` és telepítsd a legújabb verziót.
+### Importálja a szükséges névtereket
+A te tetején `Program.cs` fájlban, add hozzá a következőket direktívák használatával:
 ```csharp
 using Aspose.Cells.DigitalSignatures;
 using System;
 using System.IO;
 ```
-Ini akan memungkinkan Anda untuk menggunakan kelas dan metode Aspose.Cells dalam proyek Anda.
-Sekarang setelah Anda menyiapkan semuanya, mari kita uraikan proses penambahan tanda tangan XAdES ke buku kerja Anda ke dalam langkah-langkah yang dapat dikelola.
-## Langkah 1: Siapkan Direktori Sumber dan Output Anda
-Sebelum Anda mulai bekerja dengan berkas Excel Anda, Anda perlu menentukan di mana berkas sumber Anda berada dan di mana Anda ingin menyimpan berkas keluaran.
+Ez lehetővé teszi az Aspose.Cells osztályok és metódusok használatát a projektedben.
+Most, hogy mindent beállított, bontsuk le kezelhető lépésekre az XAdES aláírás munkafüzethez való hozzáadásának folyamatát.
+## 1. lépés: A forrás- és kimeneti könyvtárak beállítása
+Mielőtt elkezdenéd a munkát az Excel fájloddal, meg kell adnod, hogy hol található a forrásfájl, és hová szeretnéd menteni a kimeneti fájlt.
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"`dengan jalur sebenarnya tempat file Excel Anda disimpan dan tempat Anda ingin menyimpan file yang ditandatangani.
-## Langkah 2: Muat Buku Kerja
- Selanjutnya, Anda akan memuat buku kerja Excel yang ingin Anda tandatangani. Ini dilakukan dengan menggunakan`Workbook` kelas dari Aspose.Cells.
+Csere `"Your Document Directory"` az Excel-fájl tényleges tárolási útvonalával és az aláírt fájl mentési helyével.
+## 2. lépés: A munkafüzet betöltése
+Ezután betölti az aláírni kívánt Excel-munkafüzetet. Ezt a következővel teheti meg: `Workbook` osztály az Aspose.Cells-ből.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
- Pastikan untuk mengganti`"sourceFile.xlsx"` dengan nama berkas Excel Anda sebenarnya.
-## Langkah 3: Siapkan Sertifikat Digital Anda
-Untuk menambahkan tanda tangan digital, Anda perlu memuat berkas PFX dan memberikan kata sandinya. Berikut cara melakukannya:
+Mindenképpen cserélje ki `"sourceFile.xlsx"` a tényleges Excel-fájl nevével.
+## 3. lépés: Készítse elő digitális tanúsítványát
+Digitális aláírás hozzáadásához be kell töltenie a PFX fájlt, és meg kell adnia a hozzá tartozó jelszót. Ezt a következőképpen teheti meg:
 ```csharp
-string password = "pfxPassword"; // Ganti dengan kata sandi PFX Anda
-string pfx = "pfxFile"; // Jalur ke file PFX Anda
+string password = "pfxPassword"; // Cserélje ki a PFX jelszavára
+string pfx = "pfxFile"; // A PFX-fájl elérési útja
 ```
- Pastikan untuk mengganti`"pfxPassword"` dengan kata sandi Anda yang sebenarnya dan`"pfxFile"` dengan jalur ke berkas PFX Anda.
-## Langkah 4: Buat Tanda Tangan Digital
- Sekarang saatnya membuat tanda tangan digital menggunakan`DigitalSignature` kelas. Anda perlu membaca berkas PFX ke dalam array byte dan kemudian membuat tanda tangan.
+Mindenképpen cserélje ki `"pfxPassword"` valódi jelszavaddal és `"pfxFile"` a PFX fájl elérési útjával.
+## 4. lépés: Digitális aláírás létrehozása
+Most itt az ideje, hogy digitális aláírást hozzunk létre a `DigitalSignature` osztály. Be kell olvasnod a PFX fájlt egy bájttömbbe, majd létre kell hoznod az aláírást.
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
- Di Sini,`"testXAdES"` adalah alasan untuk menandatangani, dan`DateTime.Now` menunjukkan waktu penandatanganan.
-## Langkah 5: Tambahkan Tanda Tangan ke Buku Kerja
- Untuk menambahkan tanda tangan ke buku kerja Anda, Anda perlu membuat`DigitalSignatureCollection` dan tambahkan tanda tangan Anda di dalamnya.
+Itt, `"testXAdES"` az aláírás oka, és `DateTime.Now` az aláírás időpontját jelzi.
+## 5. lépés: Aláírás hozzáadása a munkafüzethez
+Az aláírás munkafüzetbe való felvételéhez létre kell hoznia egy `DigitalSignatureCollection` és add hozzá az aláírásodat.
 ```csharp
 DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
 dsCollection.Add(signature);
 ```
-## Langkah 6: Mengatur Tanda Tangan Digital ke Buku Kerja
-Sekarang setelah koleksi tanda tangan Anda siap, waktunya untuk mengaturnya ke dalam buku kerja.
+## 6. lépés: A digitális aláírás beállítása a munkafüzethez
+Most, hogy elkészült az aláírásgyűjteményed, itt az ideje, hogy beállítsd a munkafüzetben.
 ```csharp
 workbook.SetDigitalSignature(dsCollection);
 ```
-## Langkah 7: Simpan Buku Kerja
-Terakhir, simpan buku kerja Anda dengan tanda tangan digital yang diterapkan.
+## 7. lépés: A munkafüzet mentése
+Végül mentse el a munkafüzetet az alkalmazott digitális aláírással.
 ```csharp
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 ```
- Mengganti`"XAdESSignatureSupport_out.xlsx"` dengan nama file keluaran yang Anda inginkan.
-## Langkah 8: Konfirmasikan Keberhasilan
-Untuk memastikan semuanya berjalan lancar, Anda dapat mencetak pesan sukses ke konsol.
+Csere `"XAdESSignatureSupport_out.xlsx"` a kívánt kimeneti fájlnévvel.
+## 8. lépés: Siker megerősítése
+Annak érdekében, hogy minden zökkenőmentesen menjen, kinyomtathat egy sikeres üzenetet a konzolra.
 ```csharp
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
-## Kesimpulan
- Nah, itu dia! Anda telah berhasil menambahkan dukungan tanda tangan XAdES ke buku kerja Excel Anda menggunakan Aspose.Cells for .NET. Fitur hebat ini tidak hanya meningkatkan keamanan dokumen Anda, tetapi juga membantu menjaga integritas data Anda. Jika Anda memiliki pertanyaan atau mengalami masalah, silakan periksa[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) atau kunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan.
-## Pertanyaan yang Sering Diajukan
-### Apa itu XAdES?
-XAdES (XML Advanced Electronic Signatures) adalah standar tanda tangan elektronik yang memastikan integritas dan keaslian dokumen elektronik.
-### Apakah saya memerlukan sertifikat digital untuk menggunakan tanda tangan XAdES?
-Ya, Anda memerlukan sertifikat digital yang valid dalam format PFX untuk membuat tanda tangan XAdES.
-### Dapatkah saya menggunakan Aspose.Cells untuk format file lain?
-Ya, Aspose.Cells terutama berfungsi dengan berkas Excel, tetapi juga mendukung berbagai format lembar kerja lainnya.
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?
-Tentu saja! Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
-### Di mana saya dapat menemukan lebih banyak contoh dan tutorial?
- Anda dapat menjelajahi lebih banyak contoh dan dokumentasi terperinci di[Situs web Aspose.Cells](https://reference.aspose.com/cells/net/).
+## Következtetés
+És íme! Sikeresen hozzáadtad az XAdES aláírás-támogatást az Excel-munkafüzetedhez az Aspose.Cells for .NET használatával. Ez a hatékony funkció nemcsak a dokumentumok biztonságát növeli, hanem segít az adatok integritásának megőrzésében is. Ha bármilyen kérdésed van, vagy bármilyen problémába ütközöl, nyugodtan nézd meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) vagy látogassa meg a [támogató fórum](https://forum.aspose.com/c/cells/9) segítségért.
+## GYIK
+### Mi az XAdES?
+Az XAdES (XML Advanced Electronic Signatures) egy elektronikus aláírási szabvány, amely biztosítja az elektronikus dokumentumok integritását és hitelességét.
+### Szükségem van digitális tanúsítványra az XAdES aláírások használatához?
+Igen, érvényes PFX formátumú digitális tanúsítványra van szüksége XAdES aláírás létrehozásához.
+### Használhatom az Aspose.Cells fájlt más fájlformátumokhoz?
+Igen, az Aspose.Cells elsősorban Excel fájlokkal működik, de más táblázatkezelő formátumokat is támogat.
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Természetesen! Ingyenes próbaverziót kaphatsz [itt](https://releases.aspose.com/).
+### Hol találok további példákat és oktatóanyagokat?
+További példákat és részletes dokumentációt találhat a következő címen: [Aspose.Cells weboldal](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

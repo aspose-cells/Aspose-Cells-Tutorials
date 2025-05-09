@@ -1,14 +1,16 @@
 ---
-title: Triển khai Mảng Biến với Smart Markers Aspose.Cells
-linktitle: Triển khai Mảng Biến với Smart Markers Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch.
-weight: 23
-url: /vi/net/smart-markers-dynamic-data/variable-array-smart-markers/
+"description": "Mở khóa sức mạnh của Aspose.Cells. Tìm hiểu cách triển khai mảng biến với Smart Markers từng bước để tạo báo cáo Excel liền mạch."
+"linktitle": "Triển khai Mảng Biến với Smart Markers Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Triển khai Mảng Biến với Smart Markers Aspose.Cells"
+"url": "/vi/net/smart-markers-dynamic-data/variable-array-smart-markers/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Triển khai Mảng Biến với Smart Markers Aspose.Cells
@@ -18,7 +20,7 @@ Bạn đã bao giờ thấy mình bị vướng vào các bảng tính, cố g�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn đã được trang bị đầy đủ để thực hiện hướng dẫn này. Sau đây là danh sách kiểm tra nhanh để đảm bảo bạn đã chuẩn bị mọi thứ:
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET trên máy của mình. Aspose.Cells hoạt động liền mạch với các ứng dụng dựa trên .NET.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức lập trình cơ bản: Sẽ có lợi nếu bạn quen thuộc với lập trình C#, vì đó là ngôn ngữ chúng ta sẽ sử dụng cho các ví dụ của mình.
 4. Môi trường phát triển: Thiết lập môi trường phát triển như Visual Studio. Điều này sẽ giúp việc mã hóa trở nên dễ dàng!
 ## Nhập gói
@@ -36,14 +38,14 @@ Trước tiên, chúng ta cần thiết lập đường dẫn cho các tài li�
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn tệp đầu ra nằm. Điều này giống như thiết lập không gian làm việc trước khi bắt đầu vẽ; nó giúp giữ mọi thứ được ngăn nắp!
+Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn tệp đầu ra nằm. Điều này giống như thiết lập không gian làm việc trước khi bắt đầu vẽ; nó giúp giữ mọi thứ được ngăn nắp!
 ## Bước 2: Tạo một Workbook Designer mới
-Tiếp theo, chúng ta sẽ tạo một phiên bản của`WorkbookDesigner`. Hãy nghĩ về đối tượng này như một tấm vải mà chúng ta sẽ dùng để vẽ kiệt tác của mình (tất nhiên là tệp Excel!).
+Tiếp theo, chúng ta sẽ tạo một phiên bản của `WorkbookDesigner`. Hãy nghĩ về đối tượng này như một tấm vải mà chúng ta sẽ dùng để vẽ kiệt tác của mình (tất nhiên là tệp Excel!).
 ```csharp
 // Tạo một trình thiết kế sổ làm việc mới.
 WorkbookDesigner report = new WorkbookDesigner();
 ```
- Dòng mã này tạo ra một cái mới`WorkbookDesigner` trường hợp đặt nền tảng cho báo cáo excel của chúng tôi.
+Dòng mã này tạo ra một cái mới `WorkbookDesigner` trường hợp đặt nền tảng cho báo cáo excel của chúng tôi.
 ## Bước 3: Truy cập vào trang tính đầu tiên
 Bây giờ chúng ta cần cho chương trình biết chúng ta muốn làm việc trên trang tính nào. Nói chung, trang tính đầu tiên là nơi bạn bắt đầu, nhưng bạn có thể truy cập các trang tính khác nếu cần.
 ```csharp
@@ -64,7 +66,7 @@ Trong bước này, chúng tôi hướng dẫn chương trình sử dụng Smart
 // Đặt DataSource cho điểm đánh dấu.
 report.SetDataSource("VariableArray", new string[] { "English", "Arabic", "Hindi", "Urdu", "French" });
 ```
- Dòng này ràng buộc chúng ta`"VariableArray"` đánh dấu dữ liệu thực tế mà chúng ta muốn hiển thị. Hãy nghĩ về nó giống như việc đưa danh sách mua sắm cho thủ quỹ để lấy tất cả các mặt hàng bạn đã chọn.
+Dòng này ràng buộc chúng ta `"VariableArray"` đánh dấu dữ liệu thực tế mà chúng ta muốn hiển thị. Hãy nghĩ về nó giống như việc đưa danh sách mua sắm cho thủ quỹ để lấy tất cả các mặt hàng bạn đã chọn.
 ## Bước 6: Xử lý các điểm đánh dấu
 Trước khi lưu bảng tính, chúng ta cần xử lý các điểm đánh dấu để thay thế chúng bằng dữ liệu thực tế từ DataSource của chúng ta.
 ```csharp
@@ -89,13 +91,15 @@ Không, bạn có thể định nghĩa Smart Markers trong mã của mình như 
 ### Tôi có thể sử dụng Smart Markers cho các loại dữ liệu khác không?  
 Chắc chắn rồi! Smart Markers có thể được sử dụng cho bất kỳ loại dữ liệu nào bạn có thể quản lý trong các tập dữ liệu.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi cộng đồng và nhân viên có thể hỗ trợ bạn giải đáp thắc mắc.
+Bạn có thể tìm thấy sự hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi cộng đồng và nhân viên có thể hỗ trợ bạn giải đáp thắc mắc.
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?  
- Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử![Tải xuống tại đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử! [Tải xuống tại đây](https://releases.aspose.com/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

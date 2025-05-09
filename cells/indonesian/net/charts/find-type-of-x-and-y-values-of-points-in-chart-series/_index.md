@@ -1,35 +1,38 @@
 ---
-title: Temukan tipe nilai X dan Y dalam titik grafik menggunakan Aspose.Cells untuk .NET
-weight: 7700
-limit: 
-description: Pelajari cara menemukan jenis nilai X dan Y di titik grafik menggunakan Aspose.Cells untuk .NET. Cari file Excel, akses ke grafik, dan mengambil jenis nilai.
-keywords: [Aspose.Cells for .NET, Excel chart, chart points, X value type, Y value type, calculate chart data, retrieve chart values, C# Excel API]
-url: /id/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Pelajari cara menemukan jenis nilai X dan Y dalam titik bagan menggunakan Aspose.Cells for .NET. Muat file Excel, akses bagan, dan ambil jenis nilai."
+"title": "Menemukan Jenis Nilai X dan Y dalam Titik Bagan Menggunakan Aspose.Cells untuk .NET"
+"url": "/id/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cari Jenis Nilai X dan Y dalam Titik bagan menggunakan Aspose.Cells  
+# Menemukan Jenis Nilai X dan Y dalam Titik Bagan Menggunakan Aspose.Cells  
 
-Dalam tutorial ini, Anda akan belajar bagaimana menentukan jenis nilai X dan Y untuk titik grafik dalam file Excel menggunakan Aspose.Cells untuk .NET. Ini berguna ketika menganalisis data grafik secara dinamis dalam aplikasi .NET. Kami akan mulai dengan memuat file Excel yang berisi grafik, mengakses lembar kerja dan grafik, menghitung data grafik, dan mengekstrak jenis nilai dari titik data tertentu. Akhirnya, kami akan mencetak nilai-nilai ini ke konsol untuk verifikasi.  
+Dalam tutorial ini, Anda akan mempelajari cara menentukan jenis nilai X dan Y untuk titik bagan dalam file Excel menggunakan Aspose.Cells for .NET. Ini berguna saat menganalisis data bagan secara dinamis dalam aplikasi .NET. Kita akan mulai dengan memuat file Excel yang berisi bagan, mengakses lembar kerja dan bagan, menghitung data bagan, dan mengekstrak jenis nilai dari titik data tertentu. Terakhir, kita akan mencetak nilai-nilai ini ke konsol untuk verifikasi.  
 
-Aspose.Cells untuk .NET memudahkan untuk bekerja dengan grafik Excel secara programatik, memungkinkan pengembang untuk mengotomatiskan operasi spreadsheet yang kompleks tanpa memerlukan Microsoft Excel.  
+Aspose.Cells untuk .NET memudahkan pengerjaan bagan Excel secara terprogram, yang memungkinkan pengembang untuk mengotomatiskan operasi spreadsheet yang rumit tanpa memerlukan Microsoft Excel.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruksi Instalasi  
+## Telepítési utasítások  
 
-Untuk menggunakan Aspose.Cells untuk .NET dalam proyek Anda, ikuti langkah- langkah ini:  
+Untuk menggunakan Aspose.Cells for .NET di proyek Anda, ikuti langkah-langkah berikut:  
 
-1. Instal melalui NuGet Package Manager  
-- Buka Visual Studio dan navigasi ke Alat → NuGet Package Manager → Mengelola NuGet Packages for Solution.  
-- Cari Aspose.Cells dan klik Install.  
+1. Instal melalui Pengelola Paket NuGet  
+- Buka Visual Studio dan navigasikan ke Alat → Manajer Paket NuGet → Kelola Paket NuGet untuk Solusi.  
+- Cari Aspose.Cells dan klik Instal.  
 
-Atau, install menggunakan NuGet Package Manager Console:  
+Atau, instal menggunakan Konsol Manajer Paket NuGet:  
 
 ```powershell
 Install-Package Aspose.Cells
@@ -42,22 +45,24 @@ Jika Anda menggunakan .NET CLI, jalankan:
 dotnet add package Aspose.Cells
 ```  
 
-3. Tambahkan Referensi ke Proyek Anda  
-Once installed, include the following namespace in your C# file:  
+3. Tambahkan Referensi di Proyek Anda  
+Setelah terinstal, sertakan namespace berikut dalam file C# Anda:  
 
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```  
 
-## Lihat juga
-Untuk uji coba gratis, kunjungi [Tentukan Percobaan Bebas](https://releases.aspose.com/)Aku tidak tahu.  
-Untuk membeli lisensi, pergi ke [Aspose halaman pembelian](https://purchase.aspose.com/buy)Aku tidak tahu.  
-Untuk dokumentasi lengkap, kunjungi [Aspose.Cells untuk Dokumen .NET](https://docs.aspose.com/cells/net/)Aku tidak tahu.  
-Untuk menjelajahi referensi API lengkap, periksa [Aspose.Cells untuk Referensi API .NET](https://reference.aspose.com/cells/net/)Aku tidak tahu. 
+## Lihat Juga
+Untuk uji coba gratis, kunjungi [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Untuk membeli lisensi, kunjungi [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+Untuk dokumentasi lengkap, kunjungi [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+Untuk menjelajahi referensi API lengkap, lihat [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

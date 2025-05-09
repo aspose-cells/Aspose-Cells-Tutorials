@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Etapy uzyskania licencji
 
-Możesz nabyć Aspose.Cells dla Java poprzez:
+Aspose.Cells dla Java możesz nabyć poprzez:
 - **Bezpłatna wersja próbna:** Aby poznać pełnię możliwości, możesz pobrać bezpłatną wersję próbną.
 - **Licencja tymczasowa:** Aby móc korzystać z programu dłużej, bez ograniczeń, w okresie testowym, należy uzyskać licencję tymczasową.
 - **Zakup:** Jeśli potrzebujesz długoterminowego dostępu i wsparcia, rozważ zakup.
@@ -175,6 +177,9 @@ A: Odwiedź [Forum Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania 
 Postępując zgodnie z tym przewodnikiem, jesteś teraz wyposażony, aby skutecznie integrować i wykorzystywać Aspose.Cells for Java w swoich projektach. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

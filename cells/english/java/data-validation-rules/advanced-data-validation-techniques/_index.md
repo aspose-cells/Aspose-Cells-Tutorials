@@ -8,7 +8,9 @@ url: /java/data-validation-rules/advanced-data-validation-techniques/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Data Validation Techniques
@@ -113,6 +115,7 @@ You can find detailed documentation and references at [Aspose.Cells for Java API
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

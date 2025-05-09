@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Kezdjük azzal, hogy megbizonyosodunk arról, hogy minden előfeltétel teljesü
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+Kezdés előtt győződjön meg róla, hogy rendelkezik a következőkkel:
 
 ### Szükséges könyvtárak és verziók
 
@@ -186,12 +188,15 @@ A5: Látogatás [Az Aspose hivatalos dokumentációja](https://reference.aspose.
 
 - **Dokumentáció**Részletes API-referenciákat itt talál: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
 - **Letöltés**: Szerezd meg a legújabb verziót innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
-- **Vásárlás**: Biztosítsa jogosítványát a következővel: [Aspose vásárlás](https://purchase.aspose.com/buy).
-- **Ingyenes próbaverzió**: Tesztelje a funkciókat ingyenes próbaverzióval a következő címen: [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
+- **Vásárlás**Biztosítsa jogosítványát a következővel: [Aspose vásárlás](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**Tesztelje a funkciókat ingyenes próbaverzióval a következő címen: [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély**Ideiglenes engedélyt kell kérvényezni a [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 - **Támogatás**Csatlakozz a közösségi fórumhoz támogatásért a következő címen: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

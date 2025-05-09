@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -250,6 +252,9 @@ Ao dominar o Aspose.Cells para Java, você desbloqueia recursos poderosos na aut
 Seguindo este guia, você estará bem equipado para aproveitar o Aspose.Cells para Java em seus projetos, aumentando a produtividade e a precisão ao trabalhar com arquivos do Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

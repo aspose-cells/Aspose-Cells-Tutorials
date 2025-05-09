@@ -1,14 +1,16 @@
 ---
-title: Các tùy chọn in khác trong bảng tính
-linktitle: Các tùy chọn in khác trong bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tùy chỉnh tùy chọn in cho bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này.
-weight: 17
-url: /vi/net/worksheet-page-setup-features/other-print-options/
+"description": "Tìm hiểu cách tùy chỉnh tùy chọn in cho bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Các tùy chọn in khác trong bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Các tùy chọn in khác trong bảng tính"
+"url": "/vi/net/worksheet-page-setup-features/other-print-options/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các tùy chọn in khác trong bảng tính
@@ -20,7 +22,7 @@ Trước khi đi sâu vào mã, bạn cần phải có một số điều cần 
 ### 1. Môi trường .NET
 Hãy đảm bảo bạn đã thiết lập môi trường phát triển cho .NET. Cho dù bạn đang sử dụng Visual Studio, Visual Studio Code hay bất kỳ IDE nào khác tương thích với .NET, bạn đều có thể bắt đầu!
 ### 2. Thư viện Aspose.Cells
- Bạn sẽ cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Trang phát hành Aspose.Cells](https://releases.aspose.com/cells/net/).
+Bạn sẽ cần thư viện Aspose.Cells cho .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Trang phát hành Aspose.Cells](https://releases.aspose.com/cells/net/).
 ### 3. Kiến thức cơ bản về C#
 Có hiểu biết cơ bản về lập trình C# sẽ giúp bạn dễ dàng theo dõi hơn. Chúng ta sẽ không đi sâu vào cú pháp, nhưng hãy chuẩn bị đọc và hiểu một chút mã.
 ### 4. Một thư mục tài liệu
@@ -86,7 +88,7 @@ pageSetup.PrintDraft = true;
 ```
 Hãy nghĩ đến việc in bản nháp trước khi chỉnh sửa lần cuối—nó hoàn thành công việc mà không cần quá nhiều công sức!
 ### Xử lý lỗi ô
-Cuối cùng, nếu bạn muốn quản lý cách hiển thị lỗi ô trong bản in, bạn có thể thực hiện bằng cách:
+Cuối cùng, nếu bạn muốn quản lý cách hiển thị lỗi ô trong bản in, bạn có thể thực hiện bằng:
 ```csharp
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 ```
@@ -107,12 +109,14 @@ Có, nhưng Aspose.Cells cung cấp các tính năng nâng cao để quản lý 
 ### Aspose.Cells có hỗ trợ các định dạng tệp khác không?  
 Có, nó hỗ trợ nhiều định dạng, bao gồm XLSX, CSV và HTML.
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells?  
- Bạn có thể xin giấy phép tạm thời từ Aspose[Trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời từ Aspose [Trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể nhận được sự trợ giúp từ cộng đồng Aspose trên[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự trợ giúp từ cộng đồng Aspose trên [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

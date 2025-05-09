@@ -1,14 +1,16 @@
 ---
-title: เพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้ว
-linktitle: เพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้ว
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีการเพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้วโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 30
-url: /th/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "เรียนรู้วิธีการเพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้วโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "เพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้ว"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "เพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้ว"
+"url": "/th/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เพิ่มลายเซ็นดิจิทัลลงในไฟล์ Excel ที่ลงนามแล้ว
@@ -21,8 +23,8 @@ url: /th/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 
 ก่อนที่เราจะเข้าสู่รายละเอียดเล็กๆ น้อยๆ ของการเขียนโค้ด มีบางสิ่งบางอย่างที่คุณต้องมี:
 
-1.  Aspose.Cells สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/cells/net/).
-2.  ไฟล์ใบรับรอง: คุณจะต้องมีไฟล์ใบรับรองที่ถูกต้อง (โดยทั่วไปคือ`.pfx`ไฟล์) ที่มีใบรับรองดิจิทัลของคุณ ตรวจสอบให้แน่ใจว่าคุณทราบรหัสผ่านสำหรับไฟล์นี้
+1. Aspose.Cells สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/cells/net/).
+2. ไฟล์ใบรับรอง: คุณจะต้องมีไฟล์ใบรับรองที่ถูกต้อง (โดยทั่วไปคือ `.pfx` ไฟล์) ที่มีใบรับรองดิจิทัลของคุณ ตรวจสอบให้แน่ใจว่าคุณทราบรหัสผ่านสำหรับไฟล์นี้
 3. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณด้วย Visual Studio หรือ IDE อื่นๆ ที่สนับสนุน .NET
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้อย่างราบรื่น
 5. ไฟล์ตัวอย่าง: มีไฟล์ Excel ตัวอย่างที่ลงนามดิจิทัลแล้ว นี่จะเป็นไฟล์ที่คุณจะเพิ่มลายเซ็นใหม่
@@ -57,18 +59,18 @@ string outputDir = "Your Document Directory";
 
 ## ขั้นตอนที่ 2: โหลดสมุดงานที่ลงนามแล้ว
 
- ขั้นต่อไป คุณจะต้องโหลดเวิร์กบุ๊ก Excel ที่คุณต้องการแก้ไข ซึ่งทำได้โดยการสร้างอินสแตนซ์ของ`Workbook` คลาสและส่งผ่านเส้นทางของไฟล์ที่ลงนาม
+ขั้นต่อไป คุณจะต้องโหลดเวิร์กบุ๊ก Excel ที่คุณต้องการแก้ไข ซึ่งทำได้โดยการสร้างอินสแตนซ์ของ `Workbook` คลาสและส่งผ่านเส้นทางของไฟล์ที่ลงนาม
 
 ```csharp
 // โหลดสมุดงานที่มีลายเซ็นดิจิทัลแล้ว
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- ที่นี่เรากำลังโหลดสมุดงานที่ชื่อ`sampleDigitallySignedByCells.xlsx`. ตรวจสอบให้แน่ใจว่าไฟล์นี้ได้รับการลงนามแล้ว
+ที่นี่เรากำลังโหลดสมุดงานที่ชื่อ `sampleDigitallySignedByCells.xlsx`. ตรวจสอบให้แน่ใจว่าไฟล์นี้ได้รับการลงนามแล้ว
 
 ## ขั้นตอนที่ 3: สร้างคอลเลกชันลายเซ็นดิจิทัล
 
-ตอนนี้เรามาสร้างคอลเลกชันลายเซ็นดิจิทัลกัน คอลเลกชันนี้จะเก็บลายเซ็นดิจิทัลทั้งหมดที่คุณต้องการเพิ่มลงในเวิร์กบุ๊ก
+ตอนนี้มาสร้างคอลเลกชันลายเซ็นดิจิทัลกัน คอลเลกชันนี้จะเก็บลายเซ็นดิจิทัลทั้งหมดที่คุณต้องการเพิ่มลงในเวิร์กบุ๊ก
 
 ```csharp
 // สร้างคอลเลกชันลายเซ็นดิจิทัล
@@ -79,7 +81,7 @@ Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Asp
 
 ## ขั้นตอนที่ 4: สร้างใบรับรองใหม่
 
- คุณต้องโหลดไฟล์ใบรับรองของคุณเพื่อสร้างลายเซ็นดิจิทัลใหม่ นี่คือที่ที่คุณจะระบุเส้นทางไปยัง`.pfx` ไฟล์และรหัสผ่าน
+คุณต้องโหลดไฟล์ใบรับรองของคุณเพื่อสร้างลายเซ็นดิจิทัลใหม่ นี่คือที่ที่คุณระบุเส้นทางไปยัง `.pfx` ไฟล์และรหัสผ่าน
 
 ```csharp
 // ไฟล์ใบรับรองและรหัสผ่าน
@@ -90,7 +92,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- อย่าลืมเปลี่ยน`AsposeDemo.pfx`และรหัสผ่านพร้อมชื่อไฟล์ใบรับรองจริงและรหัสผ่านของคุณ
+อย่าลืมเปลี่ยน `AsposeDemo.pfx` และรหัสผ่านพร้อมชื่อไฟล์ใบรับรองจริงและรหัสผ่านของคุณ
 
 ## ขั้นตอนที่ 5: สร้างลายเซ็นดิจิทัล
 
@@ -119,7 +121,7 @@ workbook.AddDigitalSignature(dsCollection);
 สุดท้ายคุณจะต้องการบันทึกเวิร์กบุ๊กที่แก้ไขแล้วไปยังไดเร็กทอรีเอาท์พุตของคุณและปล่อยทรัพยากรใดๆ ที่กำลังใช้อยู่
 
 ```csharp
-//บันทึกสมุดงานและกำจัดมัน
+// บันทึกสมุดงานและกำจัดมัน
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -149,16 +151,18 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 ใช่ คุณสามารถสร้างคอลเลกชันลายเซ็นดิจิทัลและเพิ่มลายเซ็นหลายรายการลงในเวิร์กบุ๊กเดียวกันได้
 
 ### Aspose.Cells รองรับรูปแบบใดบ้างสำหรับลายเซ็นดิจิทัล?
- Aspose.Cells รองรับรูปแบบต่างๆ รวมถึง`.pfx` เพื่อขอรับใบรับรอง
+Aspose.Cells รองรับรูปแบบต่างๆ รวมถึง `.pfx` เพื่อขอรับใบรับรอง
 
 ### ฉันต้องมี .NET เวอร์ชันเฉพาะเพื่อใช้ Aspose.Cells หรือไม่
- ตรวจสอบ[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) เพื่อให้เข้ากันได้กับเวอร์ชัน .NET ของคุณ
+ตรวจสอบ [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) เพื่อให้เข้ากันได้กับเวอร์ชัน .NET ของคุณ
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Cells ได้อย่างไร
- คุณสามารถขอใบอนุญาตชั่วคราวได้จาก[หน้าการซื้อของ Aspose](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้จาก [หน้าการซื้อของ Aspose](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

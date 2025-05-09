@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### लाइसेंस प्राप्ति चरण
 - **मुफ्त परीक्षण**: यहां से एक परीक्षण डाउनलोड करें [एस्पोज का रिलीज़ पेज](https://releases.aspose.com/cells/java/).
-- **अस्थायी लाइसेंस**के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [इस लिंक](https://purchase.aspose.com/temporary-license/) बिना किसी सीमा के परीक्षण के लिए।
+- **अस्थायी लाइसेंस**: के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [इस लिंक](https://purchase.aspose.com/temporary-license/) बिना किसी सीमा के परीक्षण के लिए।
 - **खरीदना**पूर्ण पहुँच और सहायता के लिए, लाइब्रेरी खरीदने पर विचार करें [Aspose का खरीद पृष्ठ](https://purchase.aspose.com/buy).
 
 #### मूल आरंभीकरण
@@ -157,6 +159,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

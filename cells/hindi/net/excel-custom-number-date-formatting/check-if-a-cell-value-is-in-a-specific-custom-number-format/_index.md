@@ -1,14 +1,16 @@
 ---
-title: जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है
-linktitle: जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।
-weight: 10
-url: /hi/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/
+"description": "इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके कस्टम संख्या प्रारूपों के विरुद्ध Excel सेल मानों की जांच करना सीखें।"
+"linktitle": "जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है"
+"url": "/hi/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # जाँचें कि क्या सेल मान किसी विशिष्ट कस्टम संख्या प्रारूप में है
@@ -19,10 +21,10 @@ url: /hi/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-s
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम कोड में उतरें, कुछ पूर्वापेक्षाएँ हैं जिन्हें आपको सेट करना होगा:
+इससे पहले कि हम कोड में उतरें, कुछ पूर्व-आवश्यकताएं हैं जिन्हें आपको सेट करना होगा:
 
 1. विजुअल स्टूडियो स्थापित: सुनिश्चित करें कि आपके मशीन पर विजुअल स्टूडियो (कोई भी संस्करण) तैयार है, क्योंकि हम .NET वातावरण में काम करेंगे।
-2.  .NET लाइब्रेरी के लिए Aspose.Cells: आपको अपने प्रोजेक्ट में Aspose.Cells लाइब्रेरी डाउनलोड करके उसे जोड़ना होगा। आप नवीनतम संस्करण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+2. .NET लाइब्रेरी के लिए Aspose.Cells: आपको अपने प्रोजेक्ट में Aspose.Cells लाइब्रेरी को डाउनलोड करके जोड़ना होगा। आप नवीनतम संस्करण प्राप्त कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 3. C# की बुनियादी समझ: C# प्रोग्रामिंग से परिचित होने से आपको सहजता से आगे बढ़ने में मदद मिलेगी।
 
 अब जबकि हमने अपनी पूर्व-आवश्यकताओं को पूरा कर लिया है, तो चलिए सीधे आवश्यक पैकेजों को आयात करना शुरू करते हैं।
@@ -49,7 +51,7 @@ using System;
 Workbook wb = new Workbook();
 ```
 
- आरंभ करके`Workbook`, हमने मेमोरी में एक नई एक्सेल फ़ाइल स्थापित की, जो हेरफेर के लिए तैयार थी।
+आरंभ करके `Workbook`, हमने मेमोरी में एक नई एक्सेल फ़ाइल स्थापित की, जो हेरफेर के लिए तैयार थी।
 
 ## चरण 2: कार्यपुस्तिका सेटिंग सेट करें
 
@@ -57,10 +59,10 @@ Workbook wb = new Workbook();
 
 ```csharp
 // अमान्य कस्टम संख्या प्रारूपों के लिए अपवाद सक्षम करें
-wb.Settings.CheckCustomNumberFormat = true;
+wb.सेटिंगs.CheckCusकोmNumberFormat = true;
 ```
 
- सेटिंग`CheckCustomNumberFormat` को`true` Aspose.Cells को निर्देश देता है कि जब भी कोई अमान्य प्रारूप लागू किया जाए तो अपवाद फेंके, जिससे बेहतर त्रुटि प्रबंधन संभव हो सके।
+Setting `CheckCustomNumberFormat` to `true` Aspose.Cells को निर्देश देता है कि जब भी कोई अमान्य प्रारूप लागू किया जाए तो अपवाद फेंके, जिससे बेहतर त्रुटि प्रबंधन संभव हो सके।
 
 ## चरण 3: पहली वर्कशीट तक पहुँचें
 
@@ -83,7 +85,7 @@ Cell c = ws.Cells["A1"];
 c.PutValue(2347);
 ```
 
- का उपयोग करके`PutValue` , हम संख्या डालते हैं`2347` सेल "A1" में। 
+का उपयोग करके `PutValue`, हम संख्या डालते हैं `2347` सेल "A1" में। 
 
 ## चरण 5: सेल की शैली सेट करें
 
@@ -135,19 +137,21 @@ Console.WriteLine("CheckCustomNumberFormat executed successfully.");
 Aspose.Cells एक .NET लाइब्रेरी है जिसे Microsoft Excel स्थापित किए बिना Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने के लिए डिज़ाइन किया गया है।
 
 ### क्या मैं Aspose.Cells को निःशुल्क आज़मा सकता हूँ?
- हां, आप Aspose.Cells का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप Aspose.Cells का निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मुझे अतिरिक्त दस्तावेज़ कहां मिल सकते हैं?
- अधिक जानकारी के लिए, देखें[प्रलेखन](https://reference.aspose.com/cells/net/).
+अधिक जानकारी के लिए, देखें [प्रलेखन](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells कौन सी प्रोग्रामिंग भाषाओं का समर्थन करता है?
 Aspose.Cells मुख्यतः .NET भाषाओं जैसे C# और VB.NET का समर्थन करता है।
 
 ### मैं किसी समस्या की रिपोर्ट कैसे कर सकता हूँ या सहायता कैसे प्राप्त कर सकता हूँ?
- आप प्रश्न पूछ सकते हैं या समस्याओं की रिपोर्ट कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+आप प्रश्न पूछ सकते हैं या समस्याओं की रिपोर्ट कर सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

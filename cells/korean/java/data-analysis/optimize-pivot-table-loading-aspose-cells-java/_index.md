@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,13 +155,16 @@ wb.save(outDir + "outputParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx");
 - **다운로드**: [릴리스 및 다운로드](https://releases.aspose.com/cells/java/)
 - **라이센스 구매**: [Aspose 제품 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼**: [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 다음 자료를 살펴보고 Aspose.Cells for Java 사용에 대한 이해를 높이고 기술을 향상시키세요. 즐거운 코딩 되세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

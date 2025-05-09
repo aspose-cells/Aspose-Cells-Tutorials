@@ -1,14 +1,16 @@
 ---
-title: Đăng ký và gọi hàm từ Add-In trong Excel
-linktitle: Đăng ký và gọi hàm từ Add-In trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách đăng ký và gọi hàm từ phần bổ trợ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
-weight: 20
-url: /vi/net/excel-formulas-and-calculation-options/registering-and-calling-function-from-add-in/
+"description": "Khám phá cách đăng ký và gọi hàm từ phần bổ trợ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi."
+"linktitle": "Đăng ký và gọi hàm từ Add-In trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đăng ký và gọi hàm từ Add-In trong Excel"
+"url": "/vi/net/excel-formulas-and-calculation-options/registering-and-calling-function-from-add-in/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đăng ký và gọi hàm từ Add-In trong Excel
@@ -19,10 +21,10 @@ Trong hướng dẫn này, tôi sẽ hướng dẫn bạn quy trình đăng ký 
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào phép thuật mã hóa, chúng ta hãy xem xét những gì bạn cần có:
 1. Visual Studio: Đảm bảo bạn đã thiết lập Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và chạy mã của mình.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[trang tải xuống](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ [trang tải xuống](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết một chút về C# sẽ giúp ích rất nhiều; nó sẽ giúp bạn theo dõi dễ dàng hơn.
-4.  Tiện ích bổ sung Excel: Bạn nên có một tệp bổ trợ (như`.xlam`) chứa các chức năng bạn muốn đăng ký và sử dụng.
-5.  Một tiện ích bổ sung Excel mẫu: Đối với hướng dẫn này, chúng tôi sẽ sử dụng một tiện ích bổ sung Excel có tên`TESTUDF.xlam`. Vì vậy hãy đảm bảo bạn có sẵn thứ này nhé!
+4. Tiện ích bổ sung Excel: Bạn nên có một tệp bổ trợ (như `.xlam`) chứa các chức năng bạn muốn đăng ký và sử dụng.
+5. Một tiện ích bổ sung Excel mẫu: Đối với hướng dẫn này, chúng tôi sẽ sử dụng một tiện ích bổ sung Excel có tên `TESTUDF.xlam`. Vì vậy hãy đảm bảo bạn có sẵn thứ này nhé!
 Bây giờ bạn đã thiết lập xong, hãy xắn tay áo lên và bắt đầu viết mã thôi!
 ## Nhập gói
 Để bắt đầu, bạn sẽ cần nhập một số không gian tên cần thiết ở đầu tệp C# của mình. Sau đây là những gì bạn cần đưa vào:
@@ -42,7 +44,7 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`.xlam` tập tin và tập tin đầu ra sẽ được lưu. Điều này giống như việc thiết lập sân khấu trước khi chương trình bắt đầu.
+Thay thế `"Your Document Directory"` với con đường thực tế nơi bạn `.xlam` tập tin và tập tin đầu ra sẽ được lưu. Điều này giống như việc thiết lập sân khấu trước khi chương trình bắt đầu.
 ## Bước 2: Tạo một Workbook trống
 Tiếp theo, bạn sẽ muốn tạo một bảng tính trống để chúng ta có thể thử nghiệm với các hàm bổ trợ.
 ```csharp
@@ -56,7 +58,7 @@ Bây giờ, chúng ta hãy đi vào trọng tâm vấn đề! Đã đến lúc �
 // Đăng ký bổ trợ macro được kích hoạt cùng với tên hàm
 int id = workbook.Worksheets.RegisterAddInFunction(sourceDir + @"TESTUDF.xlam", "TEST_UDF", false);
 ```
- Dòng này đăng ký hàm bổ sung có tên`TEST_UDF` được tìm thấy trong`TESTUDF.xlam` tệp bổ sung.`false`tham số có nghĩa là tiện ích bổ sung không được tải ở chế độ 'cô lập'. 
+Dòng này đăng ký hàm bổ sung có tên `TEST_UDF` được tìm thấy trong `TESTUDF.xlam` tệp bổ sung. `false` tham số có nghĩa là tiện ích bổ sung không được tải ở chế độ 'cô lập'. 
 ## Bước 4: Đăng ký các chức năng bổ sung (nếu có)
 Nếu bạn có nhiều chức năng được đăng ký trong cùng một tệp bổ trợ, bạn cũng có thể đăng ký những chức năng đó!
 ```csharp
@@ -85,7 +87,7 @@ Bây giờ là lúc công bố hoành tráng! Hãy thiết lập công thức g�
 cell.Formula = "=TEST_UDF()";
 ```
 Với dòng này, chúng ta yêu cầu Excel sử dụng hàm của chúng ta trong ô A1. Giống như đưa cho Excel một lệnh và nói, "Này, làm thế này!"
-## Bước 8: Lưu Workbook
+## Bước 8: Lưu sổ làm việc
 Cuối cùng nhưng không kém phần quan trọng, đã đến lúc lưu giữ kiệt tác của chúng ta.
 ```csharp
 // Lưu bảng tính thành định dạng XLSX.
@@ -106,14 +108,16 @@ Excel Add-In là chương trình bổ sung các tính năng, chức năng hoặc
 ### Tôi có thể sử dụng Aspose.Cells mà không cần cài đặt cục bộ không?  
 Không, bạn cần cài đặt thư viện Aspose.Cells để sử dụng trong các ứng dụng .NET của mình.
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?  
- Bạn có thể ghé thăm họ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để biết thêm thông tin.
+Bạn có thể ghé thăm họ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để biết thêm thông tin.
 ### Có thể gọi nhiều hàm từ một tiện ích bổ sung duy nhất không?  
- Có! Bạn có thể đăng ký nhiều chức năng từ cùng một tệp bổ trợ bằng cách sử dụng`RegisterAddInFunction` phương pháp.
+Có! Bạn có thể đăng ký nhiều chức năng từ cùng một tệp bổ trợ bằng cách sử dụng `RegisterAddInFunction` phương pháp.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?  
- Bạn có thể khám phá tài liệu toàn diện của họ trên trang web[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu toàn diện của họ trên trang web [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

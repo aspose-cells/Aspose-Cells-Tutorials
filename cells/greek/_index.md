@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Οπτικά σεμινάρια Aspose.Cells
 Βουτήξτε στα οπτικά εκπαιδευτικά μας βοηθήματα Aspose.Cells, σχεδιασμένα για προγραμματιστές και λάτρεις που επιθυμούν να κατακτήσουν τον χειρισμό υπολογιστικών φύλλων. Κάθε εκπαιδευτικό βοήθημα καλύπτει βασικά χαρακτηριστικά της βιβλιοθήκης Aspose.Cells, από βασικές λειτουργίες όπως η δημιουργία και η μορφοποίηση υπολογιστικών φύλλων έως προηγμένες λειτουργίες όπως η οπτικοποίηση δεδομένων και ο χειρισμός τύπων. Είτε είστε αρχάριος είτε έμπειρος προγραμματιστής, οι οπτικοί οδηγοί μας παρέχουν ολοκληρωμένες, εύκολες στην παρακολούθηση οδηγίες μαζί με πρακτικά παραδείγματα.
@@ -24,46 +26,75 @@
 Μάθετε πώς να δημιουργείτε, να προσαρμόζετε και να διαχειρίζεστε γραφήματα σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Cells. Εξερευνήστε διάφορους τύπους γραφημάτων με εύκολα και αποτελεσματικά παραδείγματα.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Δημιουργία και μορφοποίηση γραφημάτων 3D στο Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Αλλαγή μεγέθους και θέσης γραφήματος στο Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Αλλαγή κατεύθυνσης ετικέτας τικ γραφήματος στο Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="Δημιουργία PDF από διάγραμμα Excel με καθορισμένο μέγεθος σελίδας" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Δημιουργήστε ένα γράφημα γραμμών με δείκτες δεδομένων στο Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Εύρεση τύπου τιμών X και Y σε σημεία γραφήματος" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Λήψη υπότιτλων γραφήματος από αρχείο ODS χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Τροποποίηση σχήματος ετικέτας δεδομένων γραφήματος στο Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Δημιουργήστε γράφημα Excel με το Aspose.Cells για .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Σχεδίαση αντικειμένων με Aspose.Cells για .NET](./net/drawing-objects/)
 Μάθετε πώς να δημιουργείτε, να προσαρμόζετε και να διαχειρίζεστε γραφήματα σε εφαρμογές .NET χρησιμοποιώντας το Aspose.Cells. Εξερευνήστε διάφορους τύπους γραφημάτων με εύκολα και αποτελεσματικά παραδείγματα.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Τροποποίηση ετικετών αντικειμένων Ole στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Δημιουργία και αποθήκευση αρχείων Excel με το Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Τροποποίηση στοίχισης κειμένου σχήματος στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Χειρισμός της σειράς Z των σχημάτων στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Δημιουργία βιβλίου εργασίας Excel με γραμματοσειρές Άπω Ανατολής και Λατινικής" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Συμπλήρωση υφής σε πλακίδια στο Excel με το Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Μορφοποίηση στο Aspose.Cells για .NET – Στυλ, χρώματα και άλλα](./net/formatting/)
 Μάθετε πώς να εφαρμόζετε μορφοποίηση στο Aspose.Cells για .NET, συμπεριλαμβανομένων στυλ, χρωμάτων, γραμματοσειρών, περιγραμμάτων και άλλων για επαγγελματικές αναφορές Excel.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Προσθήκη περιγραμμάτων σε μια περιοχή στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Εφαρμογή χρωμάτων και φόντου στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Συγχώνευση κελιών στο Excel χρησιμοποιώντας το Aspose.Cells για .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Ορισμός χρώματος γραμματοσειράς σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Ορισμός ονόματος γραμματοσειράς στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Ορισμός μεγέθους γραμματοσειράς στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Οριζόντια στοίχιση κειμένου στο Excel με το Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Αναδίπλωση κειμένου σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Συγκεντρωτικοί πίνακες στο Aspose.Cells για .NET](./net/pivot-tables/)
 Μάθετε πώς να δημιουργείτε, να μορφοποιείτε και να διαχειρίζεστε συγκεντρωτικούς πίνακες στο Aspose.Cells για .NET. Δημιουργήστε δυναμικές αναφορές και αναλύστε δεδομένα χωρίς κόπο σε C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Δημιουργήστε έναν Συγκεντρωτικό Πίνακα στο Excel χρησιμοποιώντας το Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Αποθήκευση Συγκεντρωτικού Πίνακα ως ODS στο Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
@@ -181,8 +212,10 @@
 
 
 ## Aspose.Cells για εκπαιδευτικά σεμινάρια Java
+
 {{% alert color="primary" %}}
 Εξερευνήστε τα μαθήματα Aspose.Cells για Java. Κατακτήστε τον χειρισμό αρχείων Excel με παραδείγματα κώδικα. Βελτιώστε τις δεξιότητές σας στην Java σήμερα!
+
 {{% /alert %}}
 
 Αυτοί είναι σύνδεσμοι προς μερικούς χρήσιμους πόρους:
@@ -219,6 +252,7 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

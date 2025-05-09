@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // Đặt màu tab của bảng tính thành màu đỏ
 worksheet.setTabColor(Color.getRed());
 ```
-*Giải thích*: Các `setTabColor` phương pháp gán một màu mới cho tab của bảng tính. Ở đây, chúng tôi sử dụng `Color.getRed()` để trình diễn.
+*Giải thích*: Các `setTabColor` phương pháp này gán một màu mới cho tab của bảng tính. Ở đây, chúng tôi sử dụng `Color.getRed()` để trình diễn.
 
 ##### Lưu thay đổi
 Cuối cùng, lưu những thay đổi của bạn vào một tập tin đầu ra:
@@ -165,6 +167,9 @@ Khám phá các tài nguyên này để hiểu sâu hơn và mở rộng khả n
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

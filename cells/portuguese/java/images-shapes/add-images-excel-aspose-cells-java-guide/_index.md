@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Automatizar a inserção de imagens como logotipos de empresas ou fotos de produtos em planilhas do Excel pode economizar tempo e reduzir erros em comparação com métodos manuais. Com **Aspose.Cells para Java**, você pode adicionar imagens programaticamente, melhorando a produtividade e a precisão.
 
-Este guia orientará você na adição de imagens a planilhas do Excel usando o Aspose.Cells em um ambiente Java. Ao final deste tutorial, você será capaz de:
+Este guia orientará você na adição de imagens a planilhas do Excel usando o Aspose.Cells em um ambiente Java. Ao final deste tutorial, você poderá:
 - Instanciar um objeto Workbook
 - Acessar e manipular planilhas em um arquivo Excel
 - Adicionar imagens a células específicas programaticamente
@@ -187,6 +189,9 @@ Experimente implementar esta solução em seu próximo projeto e veja quanto tem
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

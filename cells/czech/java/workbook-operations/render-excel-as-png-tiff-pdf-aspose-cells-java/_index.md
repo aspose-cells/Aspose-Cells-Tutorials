@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ Nyní jste se naučili, jak převádět soubory Excelu do formátů PNG, TIFF a 
 S touto příručkou jste nyní vybaveni k převodu souborů aplikace Excel do formátů PNG, TIFF a PDF pomocí nástroje Aspose.Cells pro Javu. Vylepšete své možnosti sdílení dat pomocí těchto všestranných konverzních technik.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

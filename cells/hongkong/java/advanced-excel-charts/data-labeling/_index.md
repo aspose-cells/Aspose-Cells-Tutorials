@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 數據標籤
@@ -76,7 +78,7 @@ cell.setStyle(style);
 
 ## 格式化標籤
 
-格式化標籤不只是改變字體。您可以對齊文字、合併儲存格並套用邊框來建立結構良好且易於閱讀的電子表格。
+格式化標籤不僅僅是改變字體。您可以對齊文字、合併儲存格並套用邊框來建立結構良好且易於閱讀的電子表格。
 
 ```java
 // 合併標題儲存格
@@ -145,6 +147,7 @@ Aspose.Cells for Java 支援多種格式儲存標記電子表格，包括 Excel 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

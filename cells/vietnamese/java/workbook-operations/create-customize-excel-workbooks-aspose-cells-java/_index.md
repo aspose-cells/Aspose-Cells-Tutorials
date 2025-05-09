@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ public class SetDocumentProperties {
 
 **Bước 3: Thiết lập thuộc tính 'ScaleCrop'**
 ```java
-        // Bật tính năng cắt theo tỷ lệ để có bố cục in tốt hơn
+        // Bật tính năng cắt tỷ lệ để có bố cục in tốt hơn
         props.setScaleCrop(true);
 ```
 
@@ -165,7 +167,7 @@ Sẵn sàng triển khai chưa? Hãy nhận bản dùng thử miễn phí hoặc
 
 ## Phần Câu hỏi thường gặp
 1. **Cách tốt nhất để cài đặt Aspose.Cells for Java vào dự án của tôi là gì?**
-   - Sử dụng quản lý phụ thuộc Maven hoặc Gradle như đã trình bày ở trên.
+   - Sử dụng quản lý phụ thuộc Maven hoặc Gradle như đã trình bày trước đó.
 2. **Tôi có thể tùy chỉnh các thuộc tính bổ sung trong sổ làm việc bằng Aspose.Cells không?**
    - Có, ngoài các thuộc tính tích hợp, bạn cũng có thể thiết lập các thuộc tính tài liệu tùy chỉnh.
 3. **Có giới hạn số lượng bảng tính tôi có thể tạo cùng một lúc không?**
@@ -185,6 +187,9 @@ Sẵn sàng triển khai chưa? Hãy nhận bản dùng thử miễn phí hoặc
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

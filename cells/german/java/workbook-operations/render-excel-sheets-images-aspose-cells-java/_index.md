@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,6 +147,9 @@ Sie haben gelernt, wie Sie Excel-Tabellen mit Aspose.Cells in Java als Bilder re
 Mit diesen Tools und Tipps sind Sie auf dem besten Weg, das Rendern von Excel-Tabellen in Java mit Aspose.Cells zu meistern!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Maven प्रोजेक्ट में Aspose.Cells का उपयोग 
 ```
 
 ### ग्रेडेल सेटअप
-Gradle प्रोजेक्ट के लिए, अपने में यह लाइन जोड़ें `build.gradle` फ़ाइल:
+Gradle प्रोजेक्ट के लिए, अपने प्रोजेक्ट में यह लाइन जोड़ें `build.gradle` फ़ाइल:
 
 ```gradle
 dependencies {
@@ -209,6 +211,9 @@ class Product implements Serializable {
 - **ए4:** संख्याओं, पाठ, आदि को प्रारूपित करने के लिए Aspose.Cells द्वारा प्रदान किए गए सेल स्टाइलिंग विकल्पों का उपयोग करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

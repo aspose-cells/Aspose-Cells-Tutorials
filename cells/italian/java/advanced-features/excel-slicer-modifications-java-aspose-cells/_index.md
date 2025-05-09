@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Pronti ad approfondire? Provate a implementare queste tecniche nei vostri proget
    - Elaborare solo i dati necessari, utilizzare flussi per la gestione dei file e ottimizzare le configurazioni degli slicer per ridurre i ricalcoli.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

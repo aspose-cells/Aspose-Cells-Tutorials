@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Aquisição de Licença
 O Aspose.Cells para Java oferece um teste gratuito com funcionalidade limitada, uma licença temporária para fins de teste ou uma licença comercial completa para uso em produção.
 - **Teste grátis**: Baixar de [Testes gratuitos do Aspose](https://releases.aspose.com/cells/java/).
-- **Licença Temporária**: Aplicar no [Página de licença temporária da Aspose](https://purchase.aspose.com/temporary-license/).
+- **Licença Temporária**: Aplicar no [Página de licença temporária do Aspose](https://purchase.aspose.com/temporary-license/).
 - **Comprar**: Compre uma licença completa através de [Aspose Compra](https://purchase.aspose.com/buy).
 Depois de obter sua licença, inicialize-a em seu código para desbloquear todos os recursos:
 ```java
@@ -90,7 +92,7 @@ workbook.save(outDir + "CMultipleColumns_out.xlsx");
 ```
 - **Explicação**: Grava todas as alterações em um novo arquivo do Excel no disco.
 ### Dicas para solução de problemas
-- Certifique-se de que o nome da planilha seja exatamente igual, inclusive diferenciando maiúsculas de minúsculas.
+- Certifique-se de que o nome da planilha seja exatamente igual, inclusive com diferenciação entre maiúsculas e minúsculas.
 - Verifique se os índices das colunas estão dentro dos limites do seu intervalo de dados.
 - Verifique as permissões de gravação no diretório de saída.
 ## Aplicações práticas
@@ -100,7 +102,7 @@ Explore cenários do mundo real onde essa funcionalidade é benéfica:
 3. **Gestão de Estoque**: Reestruture rapidamente os estoques de produtos para melhor visibilidade e gerenciamento.
 ## Considerações de desempenho
 Para garantir o desempenho ideal ao usar Aspose.Cells Java:
-- **Otimize o uso da memória**Manipule arquivos grandes do Excel processando-os em partes em vez de carregar conjuntos de dados inteiros na memória de uma só vez.
+- **Otimizar o uso da memória**Manipule arquivos grandes do Excel processando-os em partes em vez de carregar conjuntos de dados inteiros na memória de uma só vez.
 - **Acesso eficiente a dados**: Use referências de células com sabedoria para minimizar o tempo de recuperação de dados.
 - **Melhores práticas do Java**: Gerencie recursos de forma eficaz com try-with-resources para operações de arquivo e tratamento adequado de exceções.
 ## Conclusão
@@ -126,6 +128,9 @@ Este guia abordou como copiar várias colunas em uma planilha usando o Aspose.Ce
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

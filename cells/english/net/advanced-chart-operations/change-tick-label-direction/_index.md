@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/change-tick-label-direction/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Tick Label Direction
@@ -150,6 +152,7 @@ Yes, you can request a temporary license [here](https://purchase.aspose.com/temp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

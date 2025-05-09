@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel ワークブックの自動化
@@ -110,9 +112,11 @@ Excel ブックの自動化に関するよくある質問を次に示します�
    APIドキュメントは以下を参照できます。 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 詳しい情報とコードサンプルについては、こちらをご覧ください。
 
 Aspose.Cells for Java のより高度な機能や性能をぜひご検討いただき、Excel 自動化のニーズに合わせてカスタマイズしてください。ご質問やご不明な点がございましたら、お気軽にお問い合わせください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

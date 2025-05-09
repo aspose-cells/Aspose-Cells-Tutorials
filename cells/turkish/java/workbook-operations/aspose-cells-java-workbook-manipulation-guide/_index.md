@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-Bu temel kurulum, Aspose.Cells for Excel manipülasyonunun güçlü özelliklerini kullanmaya başlamanızı sağlar.
+Bu temel kurulum, Aspose.Cells for Excel'in güçlü özelliklerini kullanmaya başlamanızı sağlar.
 
 ## Uygulama Kılavuzu
 
@@ -90,7 +92,7 @@ import com.aspose.cells.Workbook;
 ```java
 Workbook workbook = new Workbook();
 ```
-Bu adım, sayfa ekleme ve hücreleri değiştirme gibi daha sonraki işlemler için ortamı hazırlayarak boş bir çalışma kitabı oluşturur.
+Bu adım, sayfa ekleme ve hücreleri değiştirme gibi sonraki işlemler için ortamı hazırlayarak boş bir çalışma kitabı oluşturur.
 
 ### Çalışma Sayfası Ekleme ve Hücrelere Erişim
 
@@ -139,7 +141,7 @@ Bu kod parçacığı A1 hücresindeki metni kalınlaştırarak görünürlüğü
 **Genel Bakış:**
 Çalışma kitabınızı düzenledikten sonra Aspose.Cells'i kullanarak istediğiniz yere kaydedin.
 
-#### Adım 1: İşlevselliği İçe Aktarma Kaydetme
+#### Adım 1: İçe Aktarma Kaydetme İşlevselliği
 ```java
 import com.aspose.cells.FileFormatType;
 ```
@@ -200,6 +202,9 @@ Sağlam Excel tabanlı uygulamalar oluşturmak için Aspose.Cells'in ek özellik
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ R : Les marqueurs intelligents permettent des propriétés imbriquées, vous pe
 R : Les options incluent un essai gratuit, une licence temporaire et un achat complet. Visitez [Site Web d'Aspose](https://purchase.aspose.com/buy) pour plus d'informations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

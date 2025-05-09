@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ Další kroky zahrnují prozkoumání dalších možností formátování textu,
 Experimentujte s Aspose.Cells pro Javu a zpřístupněte si výkonné možnosti automatizace v Excelu. Neváhejte si prohlédnout jeho komplexní dokumentaci, kde najdete další informace.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

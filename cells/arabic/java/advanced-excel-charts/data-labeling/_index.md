@@ -1,5 +1,5 @@
 ---
-"description": "استغل إمكانيات وسم البيانات باستخدام Aspose.Cells لجافا. تعلّم التقنيات خطوة بخطوة."
+"description": "استغل إمكانات وسم البيانات مع Aspose.Cells لجافا. تعلّم التقنيات خطوة بخطوة."
 "linktitle": "تصنيف البيانات"
 "second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells Java"
 "title": "تصنيف البيانات"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تصنيف البيانات
@@ -145,6 +147,7 @@ workbook.save("labeled_data.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

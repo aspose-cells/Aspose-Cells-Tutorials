@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ Nagyméretű Excel-fájlok kezelésekor vegye figyelembe a következő tippeket:
 
 Végigmentünk egy TextBox Excel-diagramhoz való hozzáadásának folyamatán az Aspose.Cells for Java használatával. Ez az útmutató mindent lefed a környezet beállításától és a fájlok betöltésétől kezdve a diagramobjektumok elérésén és a szövegdobozok testreszabásán át a végleges dokumentum mentéséig.
 
-**Következő lépések:** Kísérletezz tovább különböző stílusok alkalmazásával, vagy fedezd fel az Aspose.Cells-ben elérhető egyéb diagramtípusokat. Tekintsd meg a dokumentációjukat a következő címen: [Aspose referencia](https://reference.aspose.com/cells/java/) fejlettebb funkciókért.
+**Következő lépések:** Kísérletezz tovább különböző stílusok alkalmazásával, vagy fedezd fel az Aspose.Cells-ben elérhető egyéb diagramtípusokat. Tekintsd meg a dokumentációjukat a következő címen: [Aspose referencia](https://reference.aspose.com/cells/java/) a fejlettebb funkciókért.
 
 ## GYIK szekció
 
@@ -204,6 +206,9 @@ Végigmentünk egy TextBox Excel-diagramhoz való hozzáadásának folyamatán a
 Ezt az útmutatót követve hatékonyan integrálhatod az Aspose.Cells-t Java-projekteidbe, hogy egyéni szöveges megjegyzésekkel bővítsd az Excel diagramfunkciókat. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

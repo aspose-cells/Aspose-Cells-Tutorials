@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Pronti ad approfondire? Provate a implementare queste soluzioni nei vostri proge
 - **Acquistare**: Acquista una licenza su [Pagina di acquisto Aspose](https://purchase.aspose.com/temporary-license/) per un utilizzo a lungo termine.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

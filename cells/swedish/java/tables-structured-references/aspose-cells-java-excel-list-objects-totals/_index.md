@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Lär dig hur du automatiserar listobjekt i Excel med Aspose.Cells för Java, vilket möjliggör sömlös summor och beräkningar. Perfekt för datarapportering och lagerhantering."
-"title": "Master Aspose.Cells Java&#50; Automatisera Excel-listobjekt och summor för förbättrad datahantering"
+"title": "Bemästra Aspose.Cells Java&#50; Automatisera Excel-listobjekt och summor för förbättrad datahantering"
 "url": "/sv/java/tables-structured-references/aspose-cells-java-excel-list-objects-totals/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ listObject.setShowTotals(true);
 
 ### Ställa in totalberäkning för en listkolumn
 
-**Översikt:** Definiera hur du vill att totalsummorna ska beräknas för specifika kolumner i dina listobjekt.
+**Översikt:** Definiera hur du vill att totalsummor ska beräknas för specifika kolumner i dina listobjekt.
 
 ```java
 import com.aspose.cells.ListColumnCollection;
@@ -178,6 +180,9 @@ Nästa steg kan innebära att utforska ytterligare Aspose.Cells-funktioner som d
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

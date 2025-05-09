@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Aspose.Cells를 설치하고 초기화하면 Excel 파일을 만들고 조작할
 ## 구현 가이드
 
 ### 기능 1: 새 통합 문서 만들기
-빈 통합 문서를 만드는 것은 이 여정의 첫 번째 단계입니다. 이는 이후의 모든 데이터 조작의 기반이 됩니다.
+빈 통합 문서를 만드는 것은 이 여정의 첫 번째 단계입니다. 이는 이후의 모든 데이터 조작을 위한 기반을 마련합니다.
 
 #### 통합 문서 초기화
 ```java
@@ -172,6 +174,9 @@ wb.save(outDir + "/ExcelToHTML_out.html", opts);
 - **라이센스 구매:** 라이선스 옵션을 살펴보세요 [Aspose 구매 페이지](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

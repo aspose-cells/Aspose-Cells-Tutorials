@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ workbook.save(outDir + "/CFOnSUCharacters2_out.pdf", opts);
 
 ### Considerações de desempenho
 Ao trabalhar com grandes conjuntos de dados:
-- **Otimize o uso da memória**: Aproveite as APIs de streaming, se disponíveis, para lidar com arquivos grandes de forma eficiente.
+- **Otimizar o uso da memória**: Aproveite as APIs de streaming, se disponíveis, para lidar com arquivos grandes de forma eficiente.
 - **Gerenciar Recursos**: Descarte objetos que não estão em uso para liberar memória.
 - **Processamento em lote**Processe dados em blocos em vez de carregar conjuntos de dados inteiros na memória de uma só vez.
 
@@ -145,6 +147,9 @@ Pronto para o próximo desafio? Experimente implementar uma solução no seu pro
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

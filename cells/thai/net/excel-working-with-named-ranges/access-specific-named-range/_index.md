@@ -1,14 +1,16 @@
 ---
-title: เข้าถึงช่วงที่มีชื่อเฉพาะใน Excel
-linktitle: เข้าถึงช่วงที่มีชื่อเฉพาะใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการเข้าถึงช่วงที่มีชื่อเฉพาะใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนและโค้ดตัวอย่างที่ครอบคลุมนี้
-weight: 11
-url: /th/net/excel-working-with-named-ranges/access-specific-named-range/
+"description": "เรียนรู้วิธีการเข้าถึงช่วงที่มีชื่อเฉพาะใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนและโค้ดตัวอย่างที่ครอบคลุมนี้"
+"linktitle": "เข้าถึงช่วงที่มีชื่อเฉพาะใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "เข้าถึงช่วงที่มีชื่อเฉพาะใน Excel"
+"url": "/th/net/excel-working-with-named-ranges/access-specific-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เข้าถึงช่วงที่มีชื่อเฉพาะใน Excel
@@ -17,9 +19,9 @@ url: /th/net/excel-working-with-named-ranges/access-specific-named-range/
 ในโลกที่เปลี่ยนแปลงอย่างรวดเร็วในปัจจุบัน ข้อมูลคือทุกสิ่งทุกอย่าง ธุรกิจต่างๆ เจริญเติบโตจากข้อมูลเชิงลึกที่ได้มาจากข้อมูล และการจัดการข้อมูลนั้นอย่างมีประสิทธิภาพจึงเป็นสิ่งสำคัญ Excel เป็นแอปพลิเคชันที่ทุกคนที่ต้องการทำงานกับตัวเลขมักเลือกใช้ แต่เมื่อต้องจัดการงานอัตโนมัติและโปรแกรมจัดการข้อมูลนั้น เรามักจะหันไปใช้ไลบรารีที่ช่วยให้ชีวิตของเราง่ายขึ้น ไลบรารีอันทรงพลังดังกล่าวคือ Aspose.Cells สำหรับ .NET ไม่ว่าคุณจะเป็นนักพัฒนาซอฟต์แวร์ที่ต้องการจัดการกระบวนการ Excel อัตโนมัติหรือเป็นนักวิเคราะห์ธุรกิจที่ต้องการดึงช่วงข้อมูลเฉพาะจากสเปรดชีตของคุณ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการเข้าถึงช่วงข้อมูลเฉพาะใน Excel โดยใช้ Aspose.Cells สำหรับ .NET มาเริ่มกันเลย!
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม ให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นดังต่อไปนี้:
-1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://visualstudio.microsoft.com/).
+1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://visualstudio-microsoft.com/).
 2. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ที่เหมาะสมแล้ว Aspose.Cells รองรับหลายเวอร์ชัน ดังนั้นโปรดตรวจสอบเอกสารประกอบเพื่อดูความเข้ากันได้
-3.  ไลบรารี Aspose.Cells: คุณสามารถดาวน์โหลดไลบรารี Aspose.Cells ได้จาก[เว็บไซต์](https://releases.aspose.com/cells/net/)อีกวิธีหนึ่งคือ พิจารณาใช้ตัวจัดการแพ็กเกจ NuGet ภายใน Visual Studio เพื่อติดตั้ง
+3. ไลบรารี Aspose.Cells: คุณสามารถดาวน์โหลดไลบรารี Aspose.Cells ได้จาก [เว็บไซต์](https://releases.aspose.com/cells/net/)อีกวิธีหนึ่งคือ พิจารณาใช้ตัวจัดการแพ็กเกจ NuGet ภายใน Visual Studio เพื่อติดตั้ง
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# และพื้นฐานของ Excel จะเป็นประโยชน์
 ตอนนี้เรามีสิ่งจำเป็นพร้อมแล้ว มาดำเนินการกันต่อเลย!
 ## แพ็คเกจนำเข้า
@@ -32,14 +34,14 @@ using Aspose.Cells;
 บรรทัดนี้ช่วยให้คุณสามารถทำงานกับคลาสและเมธอดทั้งหมดที่รวมอยู่ในไลบรารี Aspose.Cells ได้
 
 ## ขั้นตอนที่ 1: เริ่มต้นเวิร์กบุ๊ก
- ขั้นแรก คุณจะต้องสร้างอินสแตนซ์ของ`Workbook` ชั้นเรียนและโหลดไฟล์ Excel ของคุณ
+ขั้นแรก คุณจะต้องสร้างอินสแตนซ์ของ `Workbook` ชั้นเรียนและโหลดไฟล์ Excel ของคุณ
 ```csharp
-string sourceDir = "Your Document Directory"; //จัดเตรียมเส้นทาง
+string sourceDir = "Your Document Directory"; // จัดเตรียมเส้นทาง
 Workbook workbook = new Workbook(sourceDir + "sampleAccessSpecificNamedRange.xlsx");
 ```
- ที่นี่แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ของคุณถูกบันทึก
+ที่นี่แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ของคุณถูกบันทึก
 ## ขั้นตอนที่ 2: เข้าถึงช่วงที่ตั้งชื่อ
- หากต้องการรับช่วงที่ระบุชื่อ คุณจะต้องใช้`GetRangeByName` วิธีการนี้จะดึงช่วงที่เชื่อมโยงกับชื่อที่คุณกำหนดไว้ก่อนหน้านี้
+หากต้องการรับช่วงที่ระบุชื่อ คุณจะต้องใช้ `GetRangeByName` วิธีการนี้จะดึงช่วงที่เชื่อมโยงกับชื่อที่คุณกำหนดไว้ก่อนหน้านี้
 ```csharp
 Range range = workbook.Worksheets.GetRangeByName("MyRangeTwo");
 ```
@@ -58,16 +60,18 @@ else
 ### Aspose.Cells สำหรับ .NET คืออะไร?  
 Aspose.Cells สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ด้วยโปรแกรมโดยไม่ต้องใช้ Microsoft Excel
 ### ฉันจะได้รับทดลองใช้ Aspose.Cells ฟรีได้อย่างไร?  
-คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีของ Aspose.Cells ได้จากเว็บไซต์[ที่นี่](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีของ Aspose.Cells ได้จากเว็บไซต์ [ที่นี่](https://releases-aspose.com/).
 ### ฉันสามารถเข้าถึงช่วงที่มีชื่อหลายรายการได้หรือไม่  
- ใช่ คุณสามารถเข้าถึงช่วงที่มีชื่อหลายช่วงได้โดยโทร`GetRangeByName` หลายครั้ง โดยแต่ละครั้งมีชื่อช่วงที่แตกต่างกัน
+ใช่ คุณสามารถเข้าถึงช่วงที่มีชื่อหลายช่วงได้โดยโทร `GetRangeByName` หลายครั้ง โดยแต่ละครั้งมีชื่อช่วงที่แตกต่างกัน
 ### Aspose.Cells สามารถใช้งานร่วมกับ Excel ทุกเวอร์ชันได้หรือไม่  
 ใช่ Aspose.Cells รองรับรูปแบบต่างๆ รวมถึง .xls, .xlsx และอื่นๆ อีกมากมาย
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้จากที่ไหน  
- คุณสามารถค้นหาการสนับสนุนสำหรับ Aspose.Cells ได้ใน[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถค้นหาการสนับสนุนสำหรับ Aspose.Cells ได้ใน [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

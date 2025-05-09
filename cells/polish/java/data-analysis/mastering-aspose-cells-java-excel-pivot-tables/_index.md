@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ pivotTable.setPageFieldOrder(PrintOrderType.DOWN_THEN_OVER);
 Wykorzystanie funkcji tabeli przestawnej Aspose.Cells for Java może okazać się niezwykle przydatne w różnych scenariuszach z życia wziętych:
 - **Wywiad biznesowy**:Generuj szczegółowe raporty z dużych zbiorów danych, aby ułatwić podejmowanie decyzji.
 - **Analiza finansowa**Podsumowanie sprawozdań finansowych i śledzenie kluczowych wskaźników.
-- **Zarządzanie zapasami**:Śledzenie poziomów zapasów i wydajności produktu.
+- **Zarządzanie zapasami**:Śledź poziomy zapasów i wydajność produktu.
 - **Analiza danych klientów**:Segmentuj dane klientów na potrzeby ukierunkowanych strategii marketingowych.
 
 ## Rozważania dotyczące wydajności
@@ -212,6 +214,9 @@ A5: Odwiedź [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java
 Życzymy przyjemnego kodowania i zapraszamy do odkrywania Aspose.Cells dla Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

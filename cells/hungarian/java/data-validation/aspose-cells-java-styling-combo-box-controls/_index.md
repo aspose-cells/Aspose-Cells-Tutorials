@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Nehezen automatizálja az Excel-feladatokat, vagy fejleszti a táblázatkezelő 
 - Kombinált lista vezérlők hozzáadásának és konfigurálásának lépései a munkalapokon.
 - Ezen funkciók valós alkalmazásai.
 
-Mielőtt belevágna, győződjön meg arról, hogy minden készen áll ezen funkciók megvalósításához. 
+Mielőtt belevágnál, győződj meg róla, hogy minden készen áll ezen funkciók megvalósításához. 
 ## Előfeltételek
 A bemutató hatékony követéséhez a következőkre lesz szükséged:
 - **Aspose.Cells Java-hoz** 25.3-as vagy újabb verziójú könyvtár.
@@ -136,6 +138,9 @@ Próbálja meg ezeket a megoldásokat megvalósítani a projektjeiben, hogy megt
 Indulj el az utazásra az Aspose.Cells for Java segítségével, és hozd ki az Excel automatizálásában rejlő összes lehetőséget!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

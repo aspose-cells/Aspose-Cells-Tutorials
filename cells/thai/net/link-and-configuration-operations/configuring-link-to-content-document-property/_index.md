@@ -1,14 +1,16 @@
 ---
-title: การกำหนดค่าลิงก์ไปยังคุณสมบัติเอกสารเนื้อหาใน .NET
-linktitle: การกำหนดค่าลิงก์ไปยังคุณสมบัติเอกสารเนื้อหาใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีเชื่อมโยงคุณสมบัติของเอกสารกับเนื้อหาใน Excel โดยใช้ Aspose.Cells สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนสำหรับนักพัฒนา
-weight: 10
-url: /th/net/link-and-configuration-operations/configuring-link-to-content-document-property/
+"description": "เรียนรู้วิธีเชื่อมโยงคุณสมบัติของเอกสารกับเนื้อหาใน Excel โดยใช้ Aspose.Cells สำหรับ .NET บทช่วยสอนแบบทีละขั้นตอนสำหรับนักพัฒนา"
+"linktitle": "การกำหนดค่าลิงก์ไปยังคุณสมบัติเอกสารเนื้อหาใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การกำหนดค่าลิงก์ไปยังคุณสมบัติเอกสารเนื้อหาใน .NET"
+"url": "/th/net/link-and-configuration-operations/configuring-link-to-content-document-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การกำหนดค่าลิงก์ไปยังคุณสมบัติเอกสารเนื้อหาใน .NET
@@ -21,11 +23,11 @@ url: /th/net/link-and-configuration-operations/configuring-link-to-content-docum
 
 ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีทุกสิ่งที่คุณต้องการ หากไม่มีข้อกำหนดเบื้องต้นต่อไปนี้ กระบวนการจะไม่ราบรื่น:
 
-1.  ไลบรารี Aspose.Cells สำหรับ .NET: คุณต้องติดตั้ง Aspose.Cells สำหรับ .NET ไว้ในเครื่องของคุณ หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก[หน้าดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases.aspose.com/cells/net/).
+1. ไลบรารี Aspose.Cells สำหรับ .NET: คุณต้องติดตั้ง Aspose.Cells สำหรับ .NET ไว้ในเครื่องของคุณ หากคุณยังไม่ได้ดาวน์โหลด ให้ดาวน์โหลดจาก [หน้าดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases-aspose.com/cells/net/).
 2. สภาพแวดล้อมการพัฒนา: ใช้สภาพแวดล้อมการพัฒนาที่รองรับ .NET เช่น Visual Studio
 3. ความรู้พื้นฐานเกี่ยวกับ C#: คู่มือนี้ถือว่าคุณมีความคุ้นเคยกับ C# และ .NET ในระดับหนึ่ง
 4. ไฟล์ Excel: มีไฟล์ Excel อยู่แล้วสำหรับใช้งาน ในตัวอย่างของเรา เราจะใช้ไฟล์ชื่อ "sample-document-properties.xlsx"
-5. ใบอนุญาตชั่วคราว: หากคุณไม่มีใบอนุญาตเต็มรูปแบบ คุณสามารถขอรับได้[ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อหลีกเลี่ยงข้อจำกัดในการจัดการไฟล์
+5. ใบอนุญาตชั่วคราว: หากคุณไม่มีใบอนุญาตเต็มรูปแบบ คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อหลีกเลี่ยงข้อจำกัดในการจัดการไฟล์
 
 ## แพ็คเกจนำเข้า
 
@@ -55,7 +57,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): บรรทัดนี้จะสร้างสมุดงานใหม่`Workbook`วัตถุ ซึ่งเป็นคลาสหลักที่ใช้ในการทำงานกับไฟล์ Excel ใน Aspose.Cells
+- Workbook workbook = new Workbook(): บรรทัดนี้จะสร้างสมุดงานใหม่ `Workbook` วัตถุ ซึ่งเป็นคลาสหลักที่ใช้ทำงานกับไฟล์ Excel ใน Aspose.Cells
 - dataDir: นี่คือที่ที่คุณระบุเส้นทางไปยังไฟล์ Excel ของคุณ แทนที่ "ไดเรกทอรีเอกสารของคุณ" ด้วยเส้นทางจริงบนเครื่องของคุณ
 
 คิดว่าขั้นตอนนี้เป็นเหมือนการเปิดประตู—คุณกำลังเข้าถึงไฟล์เพื่อที่จะสามารถทำการเปลี่ยนแปลงที่คุณต้องการได้!
@@ -69,7 +71,7 @@ Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
 
-- CustomDocumentPropertyCollection: คอลเล็กชันนี้มีคุณสมบัติที่กำหนดเองทั้งหมดที่เกี่ยวข้องกับไฟล์ Excel เรากำลังดึงข้อมูลเพื่อให้สามารถเพิ่มหรือแก้ไขคุณสมบัติได้
+- CustomDocumentPropertyCollection: คอลเล็กชันนี้มีคุณสมบัติที่กำหนดเองทั้งหมดที่เกี่ยวข้องกับไฟล์ Excel เรากำลังดึงข้อมูลมาเพื่อให้เราสามารถเพิ่มหรือแก้ไขคุณสมบัติได้
 
 ลองจินตนาการว่าคอลเลกชันนี้เป็น "กระเป๋า" ที่เก็บข้อมูลเพิ่มเติมทั้งหมดเกี่ยวกับเอกสารของคุณ เช่น ผู้เขียน เจ้าของ หรือแท็กที่กำหนดเอง
 
@@ -82,9 +84,9 @@ Aspose.Cells.Properties.CustomDocumentPropertyCollection customProperties = work
 customProperties.AddLinkToContent("Owner", "MyRange");
 ```
 
-- AddLinkToContent: วิธีนี้จะเพิ่มคุณสมบัติที่กำหนดเอง (ในกรณีนี้คือ "เจ้าของ") และลิงก์เข้ากับช่วงหรือพื้นที่ที่มีชื่อเฉพาะ ("MyRange") ภายในเวิร์กชีต
+- AddLinkToContent: วิธีนี้จะเพิ่มคุณสมบัติที่กำหนดเอง (ในกรณีนี้คือ "เจ้าของ") และลิงก์ไปยังช่วงหรือพื้นที่ที่มีชื่อเฉพาะ ("MyRange") ภายในเวิร์กชีต
 
-ลองนึกภาพว่าคุณกำลังแนบป้ายกำกับกับส่วนใดส่วนหนึ่งที่เฉพาะเจาะจงของสเปรดชีตของคุณ และตอนนี้ป้ายกำกับดังกล่าวสามารถโต้ตอบกับเนื้อหาในส่วนนั้นได้
+ลองนึกภาพว่าคุณกำลังแนบป้ายกำกับกับส่วนใดส่วนหนึ่งโดยเฉพาะของสเปรดชีตของคุณ และตอนนี้ป้ายกำกับดังกล่าวสามารถโต้ตอบกับเนื้อหาในส่วนนั้นได้
 
 ## ขั้นตอนที่ 4: ดึงข้อมูลและตรวจสอบคุณสมบัติที่เชื่อมโยง
 
@@ -98,8 +100,8 @@ Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["Own
 bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
-- คุณสมบัติที่กำหนดเอง["เจ้าของ": เรากำลังดึงข้อมูลคุณสมบัติ "เจ้าของ" ตามชื่อเพื่อตรวจสอบรายละเอียด
-- IsLinkedToContent: ค่าบูลีนนี้ส่งคืน`true` หากคุณสมบัติเชื่อมโยงกับเนื้อหาสำเร็จ
+- customProperties["Owner"]: เรากำลังดึงคุณสมบัติ "Owner" ตามชื่อเพื่อตรวจสอบรายละเอียด
+- IsLinkedToContent: ค่าบูลีนนี้ส่งคืน `true` หากคุณสมบัติเชื่อมโยงกับเนื้อหาสำเร็จ
 
 ในขั้นตอนนี้ เหมือนกับการตรวจสอบว่าป้ายกำกับ (คุณสมบัติ) ถูกแนบกับเนื้อหาอย่างถูกต้องหรือไม่ คุณกำลังตรวจสอบว่าโค้ดของคุณทำงานตามที่คาดหวังหรือไม่
 
@@ -125,7 +127,7 @@ string source = customProperty1.Source;
 workbook.Save(dataDir + "out_sample-document-properties.xlsx");
 ```
 
-- workbook.Save() : บันทึกไฟล์ Excel พร้อมการเปลี่ยนแปลงที่นำไปใช้ คุณสามารถระบุชื่อไฟล์ใหม่เพื่อหลีกเลี่ยงการเขียนทับไฟล์ต้นฉบับ
+- workbook.Save(): บันทึกไฟล์ Excel พร้อมการเปลี่ยนแปลงที่นำไปใช้ คุณสามารถระบุชื่อไฟล์ใหม่เพื่อหลีกเลี่ยงการเขียนทับไฟล์ต้นฉบับ
 
 คิดว่าขั้นตอนนี้เหมือนกับการกดปุ่ม "บันทึก" เพื่อล็อคการแก้ไขทั้งหมดของคุณ
 
@@ -143,16 +145,18 @@ workbook.Save(dataDir + "out_sample-document-properties.xlsx");
 คุณสมบัติที่เชื่อมโยงจะอัปเดตโดยอัตโนมัติเพื่อสะท้อนเนื้อหาใหม่ในช่วงที่ระบุ
 
 ### ฉันสามารถลบลิงก์ระหว่างทรัพย์สินและเนื้อหาได้หรือไม่
- ใช่ คุณสามารถยกเลิกการเชื่อมโยงทรัพย์สินได้โดยการลบออกจาก`CustomDocumentPropertyCollection`.
+ใช่ คุณสามารถยกเลิกการเชื่อมโยงทรัพย์สินได้โดยการลบออกจาก `CustomDocumentPropertyCollection`-
 
 ### ฟีเจอร์นี้พร้อมใช้งานใน Aspose.Cells เวอร์ชันฟรีหรือไม่
- ใช่ แต่เวอร์ชันฟรีมีข้อจำกัด คุณสามารถรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อสำรวจคุณสมบัติเต็มรูปแบบ
+ใช่ แต่เวอร์ชันฟรีมีข้อจำกัด คุณสามารถรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อสำรวจคุณสมบัติเต็มรูปแบบ
 
 ### ฉันสามารถใช้คุณลักษณะนี้กับรูปแบบเอกสารอื่น เช่น CSV ได้หรือไม่
 ไม่ คุณลักษณะนี้มีไว้สำหรับไฟล์ Excel โดยเฉพาะ เนื่องจากไฟล์ CSV ไม่รองรับคุณสมบัติเอกสารแบบกำหนดเอง
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

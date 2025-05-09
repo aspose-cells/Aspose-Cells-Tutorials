@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Je hebt nu geleerd hoe je ODS-bestanden kunt versleutelen en ontsleutelen met As
 Door deze handleiding te volgen, bent u goed toegerust om bestandsversleuteling en -ontsleuteling te implementeren in uw Java-applicaties met Aspose.Cells. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

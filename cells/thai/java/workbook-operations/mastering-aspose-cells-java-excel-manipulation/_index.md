@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **ภาพรวม**สร้างเวิร์กบุ๊ก Excel ที่ว่างเปล่าอย่างรวดเร็วเพื่อเริ่มจัดการข้อมูลของคุณ
 
 **ทีละขั้นตอน:**
-1. **สร้างตัวอย่างสมุดงาน**: สร้าง `Workbook` วัตถุ.
+1. **สร้างตัวอย่างสมุดงาน**สร้าง `Workbook` วัตถุ.
 2. **ไดเรกทอรีผลลัพธ์**: กำหนดว่าคุณต้องการบันทึกไฟล์ที่ไหน
 
 ```java
@@ -195,6 +197,9 @@ Aspose.Cells สำหรับ Java มีความยืดหยุ่น 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

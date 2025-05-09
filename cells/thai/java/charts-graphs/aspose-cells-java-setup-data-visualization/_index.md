@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@
 - IDE ที่เข้ากันได้ (Eclipse, IntelliJ IDEA)
 - ระบบสร้าง Maven หรือ Gradle
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ความคุ้นเคยกับแนวคิด Excel เช่น สมุดงานและแผนภูมิ
 
@@ -187,6 +189,9 @@ workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_20
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

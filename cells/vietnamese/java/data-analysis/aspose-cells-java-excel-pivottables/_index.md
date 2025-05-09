@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook workbook = new Workbook(); // Khởi tạo một đối tượng Workbook
 ```
-##### Bước 2: Thêm và truy cập vào trang tính
+##### Bước 2: Thêm và truy cập vào bảng tính
 Tiếp theo, thêm một bảng tính vào sổ làm việc của bạn và truy cập vào đó để thực hiện các thao tác tiếp theo:
 
 ```java
@@ -176,6 +178,9 @@ Các bước tiếp theo, hãy khám phá thêm các chức năng của Aspose.C
 - **Tải xuống:** Tải phiên bản mới nhất của Aspose.Cells cho Java từ trang web chính thức của họ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

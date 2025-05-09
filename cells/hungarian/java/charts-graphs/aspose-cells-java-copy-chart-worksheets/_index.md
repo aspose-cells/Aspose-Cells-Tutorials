@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Tanuld meg, hogyan másolhatsz hatékonyan diagramokat Excel munkalapok között az Aspose.Cells for Java használatával. Kövesd ezt a lépésről lépésre szóló útmutatót, és fejleszd adatvizualizációs munkafolyamatodat."
-"title": "Diagramok másolása munkalapok között Aspose.Cells for Java használatával – Átfogó útmutató"
+"title": "Diagramok másolása munkalapok között az Aspose.Cells for Java használatával – Átfogó útmutató"
 "url": "/hu/java/charts-graphs/aspose-cells-java-copy-chart-worksheets/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ Vedd bele ezt a `build.gradle` fájl:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencbeszerzés lépései:
+#### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió**Tölts le egy [ingyenes próba](https://releases.aspose.com/cells/java/) hogy felfedezzük az alapvető funkciókat.
 2. **Ideiglenes engedély**: Szerezzen be egy ideiglenes licencet a teljes hozzáféréshez az értékelés idejére a következőtől: [itt](https://purchase.aspose.com/temporary-license/).
 3. **Vásárlás**A további használathoz vásároljon licencet a következő címen: [Aspose weboldal](https://purchase.aspose.com/buy).
@@ -121,7 +123,7 @@ WorksheetCollection ws = workbook.getWorksheets();
 Worksheet sheet1 = ws.get("Chart");
 ```
 
-##### 3. lépés: A diagram másolása egy másik munkalapra
+##### 3. lépés: Másolja a diagramot egy másik munkalapra
 Használat `addCopy` metódus a diagram egy másik munkalapra való replikálásához.
 ```java
 import com.aspose.cells.Chart;
@@ -200,6 +202,9 @@ Készen állsz arra, hogy a tudásodat a gyakorlatban is alkalmazd? [Próbálja 
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 要遵循本教程，請確保您已具備：
 - 您的機器上安裝了 Java 開發工具包 (JDK)。
 - 整合開發環境 (IDE)，例如 IntelliJ IDEA 或 Eclipse。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 此外，使用 Maven 或 Gradle 將 Aspose.Cells 庫包含在您的專案中。 
 ## 設定 Aspose.Cells for Java（H2）
@@ -138,6 +140,9 @@ Aspose.Cells 可以讀取啟用巨集的文件，但執行巨集需要在 Aspose
 透過遵循這份綜合指南，您現在就可以使用 Aspose.Cells for Java 有效地處理 SXC 檔案。無論您是希望增強應用程式的開發人員，還是旨在簡化資料處理任務的組織，Aspose.Cells 都能提供無縫實現這些目標所需的工具。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

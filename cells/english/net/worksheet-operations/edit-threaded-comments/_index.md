@@ -8,7 +8,9 @@ url: /net/worksheet-operations/edit-threaded-comments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Edit Threaded Comments in Worksheet
@@ -106,6 +108,7 @@ For any queries or assistance, feel free to visit the support forum [here](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

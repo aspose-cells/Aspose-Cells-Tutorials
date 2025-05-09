@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ wb.save(dataDir + "AAXControl_out.xlsx", SaveFormat.XLSX);
 - **Λήψη**: Αποκτήστε πρόσβαση στην τελευταία έκδοση του Aspose.Cells Java από [αυτή η σελίδα](https://releases.aspose.com/cells/java/).
 - **Αγορά**Αγοράστε μια άδεια χρήσης μέσω [Ιστότοπος αγοράς της Aspose](https://purchase.aspose.com/buy).
 - **Δωρεάν δοκιμή και προσωρινή άδεια χρήσης**Ξεκινήστε με δωρεάν ή προσωρινή πρόσβαση μέσω των παρεχόμενων συνδέσμων.
-- **Υποστήριξη**: Συμμετέχετε σε συζητήσεις ή υποβάλετε ερωτήσεις σχετικά με [Φόρουμ Aspose](https://forum.aspose.com/c/cells/9).
+- **Υποστήριξη**Συμμετέχετε σε συζητήσεις ή υποβάλετε ερωτήσεις σχετικά με [Φόρουμ Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

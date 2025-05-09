@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Explicación:
-- **`Workbook`**: Representa un archivo Excel.
+- **`Workbook`**Representa un archivo Excel.
 - **`Worksheet`**:Se refiere a una hoja del libro de trabajo.
 - **`Cells`**:Una colección de celdas en la hoja de cálculo.
 - **`Style`**:Se utiliza para formatear celdas.
@@ -200,6 +202,9 @@ En este tutorial, exploramos cómo crear y aplicar estilo a una hoja de cálculo
 - **Documentación**:Puede encontrar guías completas y referencias de API en [Documentación de Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pobierz adres, liczbę komórek i przesunięcie dla całego zakresu programu Excel
-linktitle: Pobierz adres, liczbę komórek i przesunięcie dla całego zakresu programu Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak manipulować zakresami programu Excel za pomocą Aspose.Cells dla .NET. Uzyskaj informacje na temat adresów, przesunięć i innych dzięki naszemu prostemu samouczkowi.
-weight: 11
-url: /pl/net/excel-range-address-calculation/get-address-cell-count-and-offset-for-entire-excel-range/
+"description": "Dowiedz się, jak manipulować zakresami programu Excel za pomocą Aspose.Cells dla .NET. Uzyskaj informacje na temat adresów, przesunięć i innych dzięki naszemu prostemu samouczkowi."
+"linktitle": "Pobierz adres, liczbę komórek i przesunięcie dla całego zakresu programu Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobierz adres, liczbę komórek i przesunięcie dla całego zakresu programu Excel"
+"url": "/pl/net/excel-range-address-calculation/get-address-cell-count-and-offset-for-entire-excel-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz adres, liczbę komórek i przesunięcie dla całego zakresu programu Excel
@@ -21,7 +23,7 @@ Zanim zaczniemy brudzić sobie ręce kodem, jest kilka rzeczy, które musisz mie
 ### Czego potrzebujesz:
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To nasze IDE do programowania w C#.
 2. .NET Framework: Ten samouczek skupia się na aplikacjach .NET, dlatego upewnij się, że masz .NET Framework w wersji 4.0 lub nowszej.
-3. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) . Nowi użytkownicy powinni rozważyć rozpoczęcie od[bezpłatny okres próbny](https://releases.aspose.com/).
+3. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/)Nowi użytkownicy powinni rozważyć rozpoczęcie od [bezpłatny okres próbny](https://releases.aspose.com/).
 4. Podstawowa wiedza o C#: Nieco znajomości C# ułatwi tę podróż. Nie martw się, jeśli jesteś nowicjuszem; poprowadzę cię krok po kroku!
 Mając to na uwadze, czas zakasać rękawy i wziąć się do pracy!
 ## Importuj pakiety
@@ -35,7 +37,7 @@ Zanim zaczniesz kodować, dodajmy pakiet Aspose.Cells. Oto jak to zrobić:
 3. W Menedżerze pakietów NuGet wyszukaj „Aspose.Cells”.
 4. Kliknij „Zainstaluj”, aby dodać pakiet do projektu.
 ### Importuj przestrzeń nazw
- Na szczycie twojego`Program.cs`plik, zaimportuj przestrzeń nazw Aspose.Cells:
+Na szczycie twojego `Program.cs` plik, zaimportuj przestrzeń nazw Aspose.Cells:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -57,7 +59,7 @@ Następnie musimy dostać się do konkretnego arkusza kalkulacyjnego w skoroszyc
 // Otwórz pierwszy arkusz kalkulacyjny.
 Worksheet ws = wb.Worksheets[0];
 ```
- Tutaj indeksujemy do`Worksheets` kolekcja, aby zdobyć pierwszy arkusz.
+Tutaj indeksujemy do `Worksheets` kolekcja, aby zdobyć pierwszy arkusz.
 ## Krok 3: Utwórz zakres
 Teraz utwórzmy zakres w naszym arkuszu kalkulacyjnym. Zakres może być pojedynczą komórką lub grupą komórek. Utworzymy zakres rozciągający się od A1 do B3.
 ```csharp
@@ -65,7 +67,7 @@ Teraz utwórzmy zakres w naszym arkuszu kalkulacyjnym. Zakres może być pojedyn
 Console.WriteLine("Creating Range A1:B3\n");
 Range rng = ws.Cells.CreateRange("A1:B3");
 ```
- Ten`CreateRange`Metoda konstruuje nasz określony zakres. Zauważysz, że wydrukowaliśmy wiadomość na konsoli, aby śledzić, co się dzieje.
+Ten `CreateRange` Metoda konstruuje nasz określony zakres. Zauważysz, że wydrukowaliśmy wiadomość na konsoli, aby śledzić, co się dzieje.
 ## Krok 4: Wydrukuj adres zakresu
 Aby zrozumieć, gdzie znajdują się nasze dane, możemy pobrać adres zakresu:
 ```csharp
@@ -94,7 +96,7 @@ Przyjrzyjmy się kilku fajnym cechom zakresu. Na przykład możemy określić pr
 // Zakres wydruku przesunięcia, cała kolumna i cały wiersz.
 Console.WriteLine("Offset: " + rng.GetOffset(2, 2).Address);
 ```
- Ten`GetOffset`Metoda pozwala nam określić, ile wierszy i kolumn przesunąć od pozycji początkowej. W tym przypadku przesuwamy się o 2 wiersze w dół i 2 kolumny w poprzek, co prowadzi nas do C3.
+Ten `GetOffset` Metoda pozwala nam określić, ile wierszy i kolumn przesunąć od pozycji początkowej. W tym przypadku przesuwamy się o 2 wiersze w dół i 2 kolumny w poprzek, co prowadzi nas do C3.
 ## Krok 8: Drukuj całą kolumnę i wiersz
 Teraz sprawdźmy, do której kolumny i wiersza należy A1:
 ```csharp
@@ -121,16 +123,18 @@ Gratulacje ukończenia tego samouczka! Nauczyłeś się, jak tworzyć skoroszyt,
 ### Czym jest Aspose.Cells dla .NET?  
 Aspose.Cells for .NET to potężna biblioteka do zarządzania plikami Excel w aplikacjach .NET. Umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie dokumentów Excel.
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?  
- Chociaż możesz zacząć od bezpłatnego okresu próbnego, do korzystania z pełnych funkcji wymagana jest płatna licencja. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
+Chociaż możesz zacząć od bezpłatnego okresu próbnego, do korzystania z pełnych funkcji wymagana jest płatna licencja. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do oceny.
 ### Czy mogę manipulować plikami Excela bez użycia Aspose.Cells?  
 Tak, istnieją alternatywne biblioteki, takie jak EPPlus i ClosedXML, ale Aspose.Cells oferuje szerszy zakres funkcji i wsparcia.
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
- Możesz sprawdzić[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
+Możesz sprawdzić [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
- W celu uzyskania pomocy lub przesłania zapytania odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie możesz znaleźć pomoc od społeczności i zespołu wsparcia.
+Aby uzyskać pomoc lub zadać pytania, odwiedź stronę [Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie możesz znaleźć pomoc od społeczności i zespołu wsparcia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

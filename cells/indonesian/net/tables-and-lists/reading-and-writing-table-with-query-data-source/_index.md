@@ -1,103 +1,107 @@
 ---
-title: Membaca dan Menulis Tabel dengan Sumber Data Query
-linktitle: Membaca dan Menulis Tabel dengan Sumber Data Query
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Manfaatkan kekuatan Aspose.Cells untuk .NET. Pelajari cara membaca & menulis tabel dengan sumber data kueri dalam panduan langkah demi langkah terperinci ini.
-weight: 15
-url: /id/net/tables-and-lists/reading-and-writing-table-with-query-data-source/
+"description": "Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrásokkal ebben a részletes, lépésről lépésre haladó útmutatóban."
+"linktitle": "Tábla olvasása és írása lekérdezési adatforrással"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tábla olvasása és írása lekérdezési adatforrással"
+"url": "/id/net/tables-and-lists/reading-and-writing-table-with-query-data-source/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membaca dan Menulis Tabel dengan Sumber Data Query
+# Tábla olvasása és írása lekérdezési adatforrással
 
-## Perkenalan
-Dalam dunia yang digerakkan oleh teknologi saat ini, kemampuan untuk mengelola dan memanipulasi data secara efisien merupakan keterampilan yang penting. Baik Anda sedang mengembangkan aplikasi atau mengelola basis data, memiliki alat yang bagus dapat memperlancar pekerjaan Anda. Salah satu alat yang luar biasa tersebut adalah Aspose.Cells untuk .NET, yang memberdayakan pengembang untuk bekerja dengan lancar dengan file Excel. Dalam tutorial ini, kita akan mempelajari cara membaca dan menulis tabel dengan memanfaatkan sumber data kueri di Aspose.Cells.
-## Prasyarat
-Sebelum kita memulai perjalanan manipulasi data ini, mari pastikan Anda memiliki semua yang perlu diikuti:
-1. Pengetahuan Dasar tentang .NET  
-   Anda harus merasa nyaman dengan lingkungan .NET. Jika Anda baru memulai, jangan khawatir! Sedikit pengetahuan dasar sudah cukup untuk memahami konsepnya.
-2. Aspose.Cells untuk .NET  
-    Pastikan Anda telah memasang pustaka Aspose.Cells di proyek Anda. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
-3. Bahasa Indonesia: Studio Visual  
-   Menyiapkan Visual Studio akan membantu Anda dalam menulis dan menguji kode, karena Visual Studio terintegrasi dengan baik dengan proyek .NET.
-4. Contoh File Excel  
-   Anda akan memerlukan contoh berkas Excel yang berisi tabel yang ditautkan ke sumber data kueri. Anda dapat membuat tabel dasar atau mendapatkannya dari penyedia.
-5. Editor Kode  
-   Meskipun Visual Studio sudah memadai, IDE atau editor teks apa pun yang mendukung C# akan berfungsi dengan baik.
-Dengan memastikan Anda memiliki prasyarat ini, Anda siap memulai petualangan, dilengkapi dengan alat yang tepat untuk menaklukkan manipulasi data!
-## Paket Impor
-Untuk memulai, mari impor paket-paket yang diperlukan. Ini penting untuk menggunakan fitur-fitur yang disediakan oleh Aspose.Cells. Berikut cara melakukannya:
+## Bevezetés
+mai technológiavezérelt világban az adatok hatékony kezelésének és manipulálásának képessége kulcsfontosságú készség. Akár alkalmazásokat fejleszt, akár adatbázisokat kezel, a jó eszközök rendelkezésre állása leegyszerűsítheti a munkáját. Az egyik ilyen nagyszerű eszköz az Aspose.Cells for .NET, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak Excel-fájlokkal. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet táblázatokat olvasni és írni lekérdezési adatforrások segítségével az Aspose.Cells-ben.
+## Előfeltételek
+Mielőtt belevágnánk ebbe az adatkezelési folyamatba, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire szükségünk van:
+1. .NET alapismeretek  
+   Elég, ha már ismered a .NET környezetet. Ha most kezded, ne aggódj! Egy kis alapismeret is elég a koncepciók megértéséhez.
+2. Aspose.Cells .NET-hez  
+   Győződjön meg róla, hogy az Aspose.Cells könyvtár telepítve van a projektjében. Letöltheti [itt](https://releases.aspose.com/cells/net/).
+3. Vizuális Stúdió  
+   Visual Studio beállítása hasznos lesz a kód írásához és teszteléséhez, mivel gyönyörűen integrálható a .NET projektekkel.
+4. Egy minta Excel fájl  
+   Szükséged lesz egy minta Excel-fájlra, amely egy lekérdezési adatforráshoz kapcsolt táblázatot tartalmaz. Létrehozhatsz egy alapfájlt, vagy kérhetsz egyet.
+5. Egy kódszerkesztő  
+   Míg a Visual Studio elegendő, bármely C#-ot támogató IDE vagy szövegszerkesztő tökéletesen működik.
+Ha biztosítod ezeket az előfeltételeket, akkor készen állsz a kalandra, felvértezve a megfelelő eszközökkel az adatmanipuláció legyőzéséhez!
+## Csomagok importálása
+Kezdésként importáljuk a szükséges csomagokat. Ez elengedhetetlen az Aspose.Cells által biztosított funkciók használatához. Így csináld:
 ```csharp
 using System;
 using Aspose.Cells.Tables;
 ```
-Baris kode sederhana ini memuat pustaka Aspose.Cells dan kelas terkait tabel, yang akan Anda manfaatkan sepanjang tutorial ini.
-Mari kita uraikan contoh yang Anda berikan menjadi beberapa langkah yang mudah dikelola. Dengan cara ini, Anda dapat mengikutinya dengan mudah tanpa merasa kewalahan!
-## Langkah 1: Tentukan Jalur untuk File Anda
-Hal pertama yang perlu Anda lakukan adalah mengatur jalur untuk file masukan dan keluaran Anda. 
+Ezek az egyszerű kódsorok betöltik az Aspose.Cells könyvtárat és a táblázatokhoz kapcsolódó osztályokat, amelyeket ebben az oktatóanyagban végig használni fogsz.
+Bontsuk le a példát kezelhető lépésekre. Így könnyedén követheted a lépéseket anélkül, hogy túlterheltnek éreznéd magad!
+## 1. lépés: Adja meg a fájlok elérési útját
+Az első dolog, amit tenned kell, az a bemeneti és kimeneti fájlok elérési útjának beállítása. 
 ```csharp
 string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
-Di sini, Anda menetapkan direktori dokumen tempat file sumber (file Excel input) berada dan tempat file output akan disimpan setelah diproses. Selalu pastikan bahwa jalur ditetapkan dengan benar; jika tidak, Anda akan mengalami masalah "file tidak ditemukan".
-## Langkah 2: Muat Buku Kerja
-Berikutnya, mari muat buku kerja Excel yang akan Anda kerjakan.
+Itt állíthatod be a dokumentumkönyvtárakat, ahol a forrásfájl (a bemeneti Excel-fájl) található, és ahol a kimeneti fájl mentésre kerül a feldolgozás után. Mindig ügyelj arra, hogy az elérési utak helyesen legyenek beállítva, különben a „fájl nem található” hibaüzenetet kaphatod.
+## 2. lépés: A munkafüzet betöltése
+Következő lépésként töltsük be az Excel munkafüzetet, amellyel dolgozni fogunk.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleTableWithQueryTable.xls");
 ```
- Baris ini membuat contoh dari`Workbook`kelas, yang pada dasarnya adalah file Excel Anda dalam bentuk kode! Ganti`"SampleTableWithQueryTable.xls"` dengan nama berkas yang sebenarnya. Pastikan nama berkas sudah benar dan berkas tersebut ada di direktori yang ditentukan.
-## Langkah 3: Akses Lembar Kerja
-Setelah buku kerja dimuat, Anda perlu mengakses lembar kerja tertentu yang ingin Anda manipulasi.
+Ez a sor létrehoz egy példányt a következőből: `Workbook` osztály, ami gyakorlatilag az Excel fájlod kód formájában! Cseréld ki `"SampleTableWithQueryTable.xls"` a tényleges fájlnévvel. Győződjön meg arról, hogy a fájlnév helyes, és hogy a fájl létezik a megadott könyvtárban.
+## 3. lépés: A munkalap elérése
+Miután a munkafüzet betöltődött, hozzá kell férnie ahhoz a munkalaphoz, amelyet manipulálni szeretne.
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Ini akan mengambil lembar kerja pertama di buku kerja Anda. Jika data Anda ada di lembar kerja yang berbeda, sesuaikan indeksnya (indeks berbasis nol).
-## Langkah 4: Akses Tabel
-Sekarang setelah Anda memiliki lembar kerja, Anda akan ingin mengambil tabel yang berisi data kueri.
+Ez a program a munkafüzet első munkalapját veszi fel. Ha az adatok egy másik munkalapon vannak, akkor ennek megfelelően állítsa be az indexet (nulla alapú index).
+## 4. lépés: Hozzáférés a táblázathoz
+Most, hogy megvan a munkalap, érdemes elővenni a lekérdezési adatokat tartalmazó táblázatot.
 ```csharp
 ListObject table = worksheet.ListObjects[0];
 ```
- Itu`ListObjects` koleksi menampung semua tabel dalam lembar kerja, dan dengan menentukan`[0]`, Anda memilih tabel pertama. Jika lembar kerja Anda memiliki beberapa tabel, arahkan ke indeks yang benar.
-## Langkah 5: Periksa Jenis Sumber Data
-Sebelum kita membuat modifikasi apa pun, ada baiknya memeriksa jenis sumber data yang digunakan tabel.
+A `ListObjects` A gyűjtemény egy munkalapon belüli összes táblázatot tartalmazza, és a `[0]`, az első táblázatot jelöli ki. Ha a munkalap több táblázatot tartalmaz, mutasson a megfelelő indexre.
+## 5. lépés: Ellenőrizze az adatforrás típusát
+Mielőtt bármilyen módosítást végrehajtanánk, érdemes ellenőrizni, hogy milyen típusú adatforrást használ a tábla.
 ```csharp
 if (table.DataSourceType == TableDataSourceType.QueryTable)
 {
     table.ShowTotals = true;
 }
 ```
-Di sini, kami memeriksa apakah sumber data untuk tabel tersebut adalah tabel kueri. Jika ya, kami akan mengaktifkan tampilan total. Ini sangat berguna untuk laporan atau ringkasan tempat Anda ingin melihat nilai total secara sekilas.
-## Langkah 6: Simpan Buku Kerja
-Setelah perubahan dibuat, waktunya menyimpan pekerjaan Anda!
+Itt azt ellenőrizzük, hogy a tábla adatforrása egy lekérdezési tábla-e. Ha igen, akkor engedélyezzük az összesítések megjelenítését. Ez rendkívül hasznos jelentések vagy összefoglalók esetén, ahol egy pillantással meg szeretné tekinteni az összesített értékeket.
+## 6. lépés: A munkafüzet mentése
+változtatások elvégzése után itt az ideje menteni a munkádat!
 ```csharp
 workbook.Save(outputDir + "SampleTableWithQueryTable_out.xls");
 ```
-Baris ini menyimpan buku kerja yang dimodifikasi di direktori keluaran yang ditentukan. Pastikan untuk menetapkan nama atau jalur yang berbeda, sehingga Anda tidak menimpa berkas asli.
-## Langkah 7: Konfirmasikan Eksekusi yang Berhasil
-Terakhir, selalu menjadi praktik yang baik untuk memastikan kode Anda berjalan dengan sukses.
+Ez a sor a módosított munkafüzetet a megadott kimeneti könyvtárba menti. Ügyeljen arra, hogy más nevet vagy elérési utat adjon meg, hogy ne írja felül az eredeti fájlt.
+## 7. lépés: A sikeres végrehajtás megerősítése
+Végül, mindig jó gyakorlat annak megerősítése, hogy a kód sikeresen lefutott.
 ```csharp
 Console.WriteLine("ReadAndWriteTableWithQueryTableDataSource executed successfully.");
 ```
-Baris ini hanya mencetak pesan ke konsol yang menginformasikan bahwa tugas Anda telah berhasil diselesaikan. Baris ini berfungsi sebagai titik konfirmasi untuk memastikan semuanya berjalan lancar.
-## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara membaca dan menulis tabel menggunakan sumber data kueri dengan Aspose.Cells untuk .NET. Keterampilan ini akan memungkinkan Anda mengelola dan memanipulasi file Excel secara efisien dalam proyek Anda. Baik Anda membuat laporan, memproses data, atau sekadar memanipulasi spreadsheet, kini Anda dibekali dengan pengetahuan untuk menyelesaikan tugas-tugas ini seperti seorang profesional!
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?  
-Aspose.Cells adalah pustaka .NET canggih yang dirancang untuk membuat, membaca, dan memanipulasi file Excel tanpa perlu menginstal Microsoft Excel.
-### Dapatkah saya menggunakan Aspose.Cells untuk memanipulasi format file lain?  
-Sementara Aspose.Cells mengkhususkan diri dalam file Excel, Aspose menawarkan berbagai pustaka lain untuk format berbeda (misalnya, PDF, Word).
-### Apakah saya memerlukan lisensi untuk Aspose.Cells?  
- Lisensi sementara tersedia[Di Sini](https://purchase.aspose.com/temporary-license/) , dan Anda juga dapat mencobanya secara gratis melalui[uji coba gratis](https://releases.aspose.com/).
-### Di mana saya dapat menemukan dokumentasi untuk Aspose.Cells?  
- Anda dapat menemukan dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/cells/net/).
-### Bagaimana saya bisa mencari dukungan untuk Aspose.Cells?  
- Untuk pertanyaan atau masalah apa pun, Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+Ez a sor egyszerűen egy üzenetet nyomtat a konzolra, amely tájékoztat arról, hogy a feladat sikeresen befejeződött. Megerősítési pontként szolgál, hogy minden zökkenőmentesen ment.
+## Következtetés
+Gratulálunk! Sikeresen megtanultad, hogyan kell táblázatokat olvasni és írni lekérdezési adatforrások segítségével az Aspose.Cells for .NET segítségével. Ez a készség lehetővé teszi, hogy hatékonyan kezeld és manipuláld az Excel-fájlokat a projektjeidben. Akár jelentéseket készítesz, adatokat dolgozol fel, vagy csak táblázatokat manipulálsz, most már felvértezve azzal a tudással, hogy ezeket a feladatokat profi módon végezd el!
+## GYIK
+### Mi az Aspose.Cells?  
+Az Aspose.Cells egy hatékony .NET könyvtár, amelyet Excel fájlok létrehozására, olvasására és kezelésére terveztek anélkül, hogy telepíteni kellene a Microsoft Excelt.
+### Használhatom az Aspose.Cells-t más fájlformátumok kezelésére?  
+Míg az Aspose.Cells az Excel fájlokra specializálódott, az Aspose számos más könyvtárat is kínál különböző formátumokhoz (pl. PDF, Word).
+### Szükségem van licencre az Aspose.Cells-hez?  
+Ideiglenes jogosítvány kapható [itt](https://purchase.aspose.com/temporary-license/), és ingyenesen kipróbálhatod a következőn keresztül: [ingyenes próba](https://releases.aspose.com/).
+### Hol találom az Aspose.Cells dokumentációját?  
+A teljes dokumentációt megtalálhatja [itt](https://reference.aspose.com/cells/net/).
+### Hogyan kérhetek támogatást az Aspose.Cells-hez?  
+Bármilyen kérdés vagy probléma esetén látogassa meg az Aspose támogatási fórumot [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

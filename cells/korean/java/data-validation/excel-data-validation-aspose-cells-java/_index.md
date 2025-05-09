@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,11 +200,14 @@ Aspose.Cells를 사용하여 최적의 성능을 얻으려면:
 ## 자원
 - **선적 서류 비치:** 자세한 가이드를 살펴보세요 [Aspose의 문서](https://reference.aspose.com/cells/java/).
 - **다운로드:** 최신 버전을 받으세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/).
-- **구입:** 라이센스를 획득하세요 [Aspose 구매 포털](https://purchase.aspose.com/buy).
+- **구입:** 라이센스를 얻으세요 [Aspose 구매 포털](https://purchase.aspose.com/buy).
 - **무료 체험:** Aspose 사이트에서 무료 체험판을 통해 기능을 테스트해 보세요.
 - **임시 면허:** 확장 평가를 위한 임시 라이센스를 요청하세요. [라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

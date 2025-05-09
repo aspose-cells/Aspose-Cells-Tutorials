@@ -1,14 +1,16 @@
 ---
-title: Thêm vùng xác thực vào ô trong Excel
-linktitle: Thêm vùng xác thực vào ô trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm vùng xác thực trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao tính toàn vẹn dữ liệu của bạn.
-weight: 11
-url: /vi/net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/
+"description": "Tìm hiểu cách thêm vùng xác thực trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao tính toàn vẹn dữ liệu của bạn."
+"linktitle": "Thêm vùng xác thực vào ô trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm vùng xác thực vào ô trong Excel"
+"url": "/vi/net/excel-data-validation-filter/add-validation-area-to-cells-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm vùng xác thực vào ô trong Excel
@@ -21,11 +23,11 @@ Bạn có bao giờ cảm thấy choáng ngợp trước lượng dữ liệu kh
 
 Trước khi bắt đầu cuộc phiêu lưu Excel của chúng tôi, hãy đảm bảo bạn đã sắp xếp mọi thứ. Sau đây là những gì bạn cần:
 
-1.  Aspose.Cells for .NET Library: Thư viện này là công cụ bạn lựa chọn để quản lý các tệp Excel. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library: Thư viện này là công cụ bạn lựa chọn để quản lý các tệp Excel. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 2. Visual Studio: Chúng ta cần một môi trường thân thiện để chơi với mã của mình. Hãy chuẩn bị Visual Studio của bạn.
 3. Kiến thức cơ bản về C#: Bạn không cần phải là một phù thủy lập trình, nhưng hiểu biết sâu sắc về C# sẽ giúp mọi việc trở nên dễ dàng hơn.
 4. Một dự án .NET đang hoạt động: Đã đến lúc tạo hoặc chọn một dự án hiện có để tích hợp chức năng của chúng ta.
-5.  Tệp Excel: Đối với hướng dẫn của chúng tôi, chúng tôi sẽ làm việc với tệp Excel có tên`ValidationsSample.xlsx`. Đảm bảo rằng nó có sẵn trong thư mục dự án của bạn.
+5. Tệp Excel: Đối với hướng dẫn của chúng tôi, chúng tôi sẽ làm việc với tệp Excel có tên `ValidationsSample.xlsx`. Đảm bảo rằng nó có sẵn trong thư mục dự án của bạn.
 
 ## Nhập gói
 
@@ -122,19 +124,21 @@ Bạn đã làm được rồi! Bằng cách làm theo các bước này, bạn 
 Xác thực dữ liệu là tính năng hạn chế loại dữ liệu được nhập vào ô. Tính năng này đảm bảo người dùng nhập các giá trị hợp lệ, do đó duy trì tính toàn vẹn của dữ liệu.
 
 ### Làm thế nào để tải xuống Aspose.Cells cho .NET?
- Bạn có thể tải xuống từ đây[liên kết](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống từ đây [liên kết](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể dễ dàng bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Có! Bạn có thể dễ dàng bắt đầu với bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
 
 ### Aspose hỗ trợ những ngôn ngữ lập trình nào?
 Aspose cung cấp thư viện cho nhiều ngôn ngữ lập trình khác nhau, bao gồm C#, Java, Python, v.v.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm kiếm sự hỗ trợ thông qua họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự hỗ trợ thông qua họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

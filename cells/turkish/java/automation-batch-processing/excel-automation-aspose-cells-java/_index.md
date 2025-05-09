@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,7 +245,7 @@ Formül hesaplamaları veya özel biçimlendirme seçenekleri gibi daha da büy�
 Evet, kullanın `add` Çalışma sayfanıza ek sayfalar eklemek için çalışma sayfası koleksiyonunuza bir yöntem ekleyin.
 
 **S2: Mevcut Excel dosyalarını Aspose.Cells ile nasıl güncelleyebilirim?**
-Dosyayı yeni bir yere yükleyin `Workbook` örneği kaydedin ve kaydetmeden önce gerektiği gibi değiştirin.
+Dosyayı yeni bir yere yükleyin `Workbook` örneği inceleyin ve kaydetmeden önce gerektiği gibi değiştirin.
 
 **S3: Büyük veri kümelerini verimli bir şekilde yönetmek mümkün müdür?**
 Evet, kapsamlı veri kümeleriyle daha iyi performans elde etmek için akış özelliklerini kullanmayı düşünün.
@@ -266,6 +268,9 @@ Aspose'un platformu üzerinden bir lisans satın almayı veya genişletilmiş ge
 Aspose.Cells ile yolculuğunuza bugün başlayın ve Java'da Excel ile çalışma şeklinizi kökten değiştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

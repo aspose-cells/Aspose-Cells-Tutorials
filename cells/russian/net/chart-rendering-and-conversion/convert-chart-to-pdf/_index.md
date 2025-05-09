@@ -1,14 +1,16 @@
 ---
-title: Конвертировать диаграмму в PDF
-linktitle: Конвертировать диаграмму в PDF
-second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь конвертировать диаграммы Excel в PDF с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства. Изучите основные советы и примеры кодирования.
-weight: 11
-url: /ru/net/chart-rendering-and-conversion/convert-chart-to-pdf/
+"description": "Научитесь конвертировать диаграммы Excel в PDF с помощью Aspose.Cells для .NET с помощью этого простого пошагового руководства. Изучите основные советы и примеры кодирования."
+"linktitle": "Конвертировать диаграмму в PDF"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Конвертировать диаграмму в PDF"
+"url": "/ru/net/chart-rendering-and-conversion/convert-chart-to-pdf/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Конвертировать диаграмму в PDF
@@ -25,7 +27,7 @@ url: /ru/net/chart-rendering-and-conversion/convert-chart-to-pdf/
 Убедитесь, что на вашем компьютере установлен .NET Framework. Aspose.Cells совместим с различными версиями, но лучше всего работает с последней.
 
 ### Библиотека Aspose.Cells
- Вам понадобится библиотека Aspose.Cells for .NET. Вы можете скачать ее здесь[здесь](https://releases.aspose.com/cells/net/). Библиотека поставляется с богатым API, который инкапсулирует все функции, которые вам могут понадобиться для работы с Excel.
+Вам понадобится библиотека Aspose.Cells for .NET. Вы можете скачать ее здесь [здесь](https://releases.aspose.com/cells/net/). Библиотека поставляется с богатым API, который инкапсулирует все функции, которые вам могут понадобиться для работы с Excel.
 
 ### Визуальная Студия
 Наличие установленной Visual Studio имеет решающее значение, поскольку это отличная среда IDE для удобного написания кода .NET.
@@ -58,7 +60,7 @@ url: /ru/net/chart-rendering-and-conversion/convert-chart-to-pdf/
 
 ### Импорт требуемых пространств имен
 
- В верхней части вашего`Program.cs` файл, добавьте следующие пространства имен:
+В верхней части вашего `Program.cs` файл, добавьте следующие пространства имен:
 
 ```csharp
 using System;
@@ -83,7 +85,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Обязательно замените`"Your Output Directory"` и`"Your Document Directory"` с фактическим путем расположения ваших файлов.
+Обязательно замените `"Your Output Directory"` и `"Your Document Directory"` с фактическим путем расположения ваших файлов.
 
 ## Шаг 2: Загрузите книгу Excel
 
@@ -147,7 +149,7 @@ chart.ToPdf(ms);
 
 ## Шаг 6: Отображение сообщения об успешном завершении
 
-Наконец, всегда приятно указать, что ваша операция прошла успешно. Вы можете просто вывести сообщение об успешном завершении на консоль:
+Наконец, всегда приятно сообщить, что ваша операция прошла успешно. Вы можете просто вывести сообщение об успешном завершении на консоль:
 
 ```csharp
 Console.WriteLine("ChartToPdf executed successfully.");
@@ -160,7 +162,7 @@ Console.WriteLine("ChartToPdf executed successfully.");
 ## Часто задаваемые вопросы
 
 ### Может ли Aspose.Cells конвертировать несколько диаграмм одновременно?
- Да, вы можете выполнить цикл`worksheet.Charts` коллекция для преобразования каждой диаграммы по отдельности.
+Да, вы можете выполнить цикл `worksheet.Charts` коллекция для преобразования каждой диаграммы по отдельности.
 
 ### Подходит ли Aspose.Cells для больших файлов Excel?
 Конечно! Aspose.Cells оптимизирован для производительности и может эффективно обрабатывать большие файлы Excel.
@@ -169,13 +171,15 @@ Console.WriteLine("ChartToPdf executed successfully.");
 Aspose.Cells поддерживает различные версии .NET, включая .NET Framework и .NET Core.
 
 ### Где я могу найти подробную документацию?
- Посетите[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для получения подробной информации и примеров.
+Посетите [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для получения подробной информации и примеров.
 
 ### Есть ли бесплатная пробная версия?
- Да! Вы можете загрузить бесплатную пробную версию с[здесь](https://releases.aspose.com/).
+Да! Вы можете загрузить бесплатную пробную версию с [здесь](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

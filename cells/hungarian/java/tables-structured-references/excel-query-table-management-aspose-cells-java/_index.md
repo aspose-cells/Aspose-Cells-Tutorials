@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Ismerje meg, hogyan kezelheti hatékonyan az Excel lekérdezési táblázatait az Aspose.Cells for Java segítségével, beleértve az adatok olvasását, módosítását és mentését. Egyszerűsítse adatfolyamatait."
-"title": "Excel lekérdezéstábla-kezelés elsajátítása Aspose.Cells használatával Java-ban – Átfogó útmutató"
+"title": "Excel lekérdezéstáblázat-kezelés elsajátítása Aspose.Cells használatával Java-ban – Átfogó útmutató"
 "url": "/hu/java/tables-structured-references/excel-query-table-management-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,7 +189,7 @@ Most már megismerkedtél az Excel lekérdezési táblázatok olvasásával, mó
    - Gyakori problémák lehetnek a fájlelérési útvonal hibák vagy a licencelési problémák. Győződjön meg arról, hogy az elérési utak helyesek, és a licenc megfelelően van beállítva.
 
 5. **Hogyan kaphatok támogatást az Aspose.Cells-hez?**
-   - Látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) kérdéseket feltenni vagy meglévő beszélgetéseket keresni.
+   - Látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) kérdések feltevéséhez vagy a meglévő beszélgetések kereséséhez.
 
 ## Erőforrás
 - **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose Cells dokumentáció](https://reference.aspose.com/cells/java/)
@@ -199,6 +201,9 @@ Most már megismerkedtél az Excel lekérdezési táblázatok olvasásával, mó
 Jó programozást, és élvezd az Excel-adatok profi szintű kezelését az Aspose.Cells for Java segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class ExcelThemeApplication {
 
 ## Průvodce implementací
 
-V této části si projdeme procesem použití motivů na řadu grafů v Excelu.
+této části si projdeme procesem použití motivů na řadu grafů v Excelu.
 
 ### Krok 1: Načtěte soubor aplikace Excel
 
@@ -185,6 +187,9 @@ Naučili jste se, jak aplikovat motivy na řadu grafů pomocí Aspose.Cells pro 
 - **Podpora:** [Fórum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

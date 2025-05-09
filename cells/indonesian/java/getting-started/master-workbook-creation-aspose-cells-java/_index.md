@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Apakah Anda ingin memanfaatkan kekuatan Aspose.Cells untuk Java guna membuat buku kerja Excel yang dinamis? Tutorial ini akan memandu Anda membuat buku kerja, mengonfigurasi lembar kerja, menyesuaikan dimensi sel, menambahkan teks dengan jeda baris yang jelas, menata sel untuk pembungkusan teks, dan menyimpan pekerjaan Anda—semuanya menggunakan Aspose.Cells. Di akhir panduan ini, Anda akan diperlengkapi untuk memanfaatkan fitur-fitur ini secara efektif dalam aplikasi Java Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 
 - Cara mengatur Aspose.Cells untuk Java
 - Membuat dan mengonfigurasi buku kerja baru
@@ -25,15 +27,15 @@ Apakah Anda ingin memanfaatkan kekuatan Aspose.Cells untuk Java guna membuat buk
 - Mengonfigurasi gaya sel untuk pembungkusan teks
 - Menyimpan buku kerja secara efisien
 
-Ayo mulai!
+Merüljünk el!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-- **Perpustakaan yang Diperlukan**: Aspose.Cells untuk Java versi 25.3.
-- **Pengaturan Lingkungan**Lingkungan pengembangan Java (IDE) seperti IntelliJ IDEA atau Eclipse.
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan Maven/Gradle.
+- **Kötelező könyvtárak**: Aspose.Cells untuk Java versi 25.3.
+- **Környezet beállítása**Lingkungan pengembangan Java (IDE) seperti IntelliJ IDEA atau Eclipse.
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan Maven/Gradle.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -41,7 +43,7 @@ Untuk mulai bekerja dengan Aspose.Cells, Anda perlu menambahkannya sebagai depen
 
 **Pengaturan Maven:**
 
-Tambahkan yang berikut ke `pom.xml` mengajukan:
+Tambahkan yang berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -53,17 +55,17 @@ Tambahkan yang berikut ke `pom.xml` mengajukan:
 
 **Pengaturan Gradle:**
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Untuk memanfaatkan Aspose.Cells secara penuh, Anda mungkin memerlukan lisensi. Anda dapat memperoleh uji coba gratis atau membeli lisensi sementara untuk tujuan evaluasi. Untuk keterangan lebih lanjut, kunjungi [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+Untuk memanfaatkan Aspose.Cells secara penuh, Anda mungkin memerlukan lisensi. Anda dapat memperoleh uji coba gratis atau membeli lisensi sementara untuk tujuan evaluasi. Untuk keterangan lebih lanjut, kunjungi [Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah proyek Anda dikonfigurasi dengan pustaka:
 
@@ -72,11 +74,11 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Inisialisasi instance Buku Kerja baru
+// Új munkafüzet-példány inicializálása
 Workbook wb = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan setiap fitur dalam pembuatan buku kerja dan proses pembungkusan teks.
 
@@ -104,12 +106,12 @@ Mengakses lembar kerja pertama di buku kerja Anda sangatlah mudah:
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Cells;
 
-// Akses lembar kerja pertama di buku kerja
+// A munkafüzet első munkalapjának elérése
 Worksheet ws = wb.getWorksheets().get(0);
 Cells cell = ws.getCells();
 ```
 
-**Mengapa**: : Itu `Worksheet` Dan `Cells` Objek sangat penting untuk memanipulasi data dalam berkas Excel Anda, berfungsi sebagai titik masuk untuk konfigurasi lebih lanjut.
+**Mengapa**A `Worksheet` és `Cells` Objek sangat penting untuk memanipulasi data dalam berkas Excel Anda, berfungsi sebagai titik masuk untuk konfigurasi lebih lanjut.
 
 ### Sesuaikan Dimensi Kolom dan Baris
 
@@ -164,30 +166,30 @@ wb.save(outDir + "/UseExplicitLineBreaks_out.xls", FileFormatType.EXCEL_97_TO_20
 
 **Mengapa**: Menyimpan dalam format yang kompatibel memastikan bahwa pengguna dapat membuka dan melihat buku kerja Anda di berbagai platform.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java bersifat serbaguna, dapat diaplikasikan di:
 
-1. **Pelaporan Keuangan**:Secara otomatis menghasilkan laporan keuangan terperinci.
-2. **Alat Analisis Data**: Membuat templat yang dapat disesuaikan untuk analisis data.
-3. **Sistem Manajemen Inventaris**: Mengotomatiskan pembaruan inventaris dengan lembar Excel yang dinamis.
+1. **Pénzügyi jelentéstétel**:Secara otomatis menghasilkan laporan keuangan terperinci.
+2. **Adatelemző eszközök**: Membuat templat yang dapat disesuaikan untuk analisis data.
+3. **Készletgazdálkodási rendszerek**: Mengotomatiskan pembaruan inventaris dengan lembar Excel yang dinamis.
 4. **Pembuatan Dasbor Kustom**Membangun dasbor waktu nyata untuk wawasan bisnis.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Mengoptimalkan kinerja melibatkan:
 
-- **Penggunaan Memori yang Efisien**: Kelola ukuran dan kompleksitas buku kerja untuk mencegah konsumsi memori yang berlebihan.
-- **Operasi Batch**: Jika memungkinkan, lakukan operasi batch alih-alih manipulasi sel tunggal.
+- **Hatékony memóriahasználat**: Kelola ukuran dan kompleksitas buku kerja untuk mencegah konsumsi memori yang berlebihan.
+- **Kötegelt műveletek**: Jika memungkinkan, lakukan operasi batch alih-alih manipulasi sel tunggal.
 - **Pengumpulan Sampah**: Memanfaatkan pengumpulan sampah Java secara efektif dengan membuang objek yang tidak digunakan.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah menjajaki pembuatan buku kerja menggunakan Aspose.Cells untuk Java, mulai dari inisialisasi hingga penyimpanan file. Dengan keterampilan ini, Anda diperlengkapi dengan baik untuk menangani berbagai tugas terkait Excel secara terprogram. 
 
-**Langkah Berikutnya**: Jelajahi opsi penyesuaian lebih lanjut dan integrasikan kemampuan ini ke dalam sistem yang lebih besar.
+**Következő lépések**: Jelajahi opsi penyesuaian lebih lanjut dan integrasikan kemampuan ini ke dalam sistem yang lebih besar.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Versi Java apa yang kompatibel dengan Aspose.Cells?**
    - Aspose.Cells kompatibel dengan Java 8 dan di atasnya.
@@ -195,7 +197,7 @@ Dalam tutorial ini, kami telah menjajaki pembuatan buku kerja menggunakan Aspose
 2. **Dapatkah saya menggunakan Aspose.Cells dalam proyek komersial?**
    - Ya, tetapi Anda perlu membeli lisensi untuk penggunaan komersial.
 
-3. **Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+3. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
    - Gunakan fitur streaming Aspose untuk mengelola kumpulan data besar tanpa memuatnya sepenuhnya ke dalam memori.
 
 4. **Apakah mungkin untuk menerapkan pemformatan bersyarat menggunakan Aspose.Cells?**
@@ -204,20 +206,23 @@ Dalam tutorial ini, kami telah menjajaki pembuatan buku kerja menggunakan Aspose
 5. **Bisakah Aspose.Cells membuat bagan dalam file Excel?**
    - Tentu saja! Aplikasi ini menyediakan dukungan menyeluruh untuk membuat dan menyesuaikan grafik.
 
-## Sumber daya
+## Erőforrás
 
-Untuk eksplorasi lebih lanjut:
+További kutatáshoz:
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licencek vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
 - [Akuisisi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan ini, Anda akan siap untuk mengimplementasikan fungsionalitas Excel yang hebat menggunakan Aspose.Cells untuk Java dalam proyek Anda. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

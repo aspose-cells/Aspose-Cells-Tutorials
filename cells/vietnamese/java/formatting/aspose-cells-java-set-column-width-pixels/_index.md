@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 Ở đây, chúng tôi đang nhắm mục tiêu vào bảng tính đầu tiên có chỉ mục bằng 0. Bạn có thể sửa đổi điều này để truy cập các bảng tính khác khi cần.
 
-#### Bước 3: Đặt chiều rộng cột theo pixel
+#### Bước 3: Đặt chiều rộng cột theo Pixel
 Đặt chiều rộng của một cột cụ thể (ví dụ: chỉ mục 7) thành 200 pixel:
 
 ```java
@@ -178,6 +180,9 @@ Hãy tận dụng sức mạnh của Aspose.Cells for Java và chuyển đổi c
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

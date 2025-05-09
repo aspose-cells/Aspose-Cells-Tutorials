@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatiza Excel con Java: crea tablas y gráficos interactivos con Aspose.Cells
@@ -157,7 +159,7 @@ public class CreatingExcelTables {
 * **Creación de tablas con `ListObject`:** El `listObjects.add()` El método transforma el rango de celdas especificado en una tabla de Excel completamente funcional, incluidos encabezados y opciones de filtrado.
 * **Legibilidad mejorada:** `autoFitColumns()` ajusta automáticamente el ancho de cada columna para adaptarse a su contenido, mejorando la presentación visual.
 
-Al ejecutar este código Java se generará un archivo Excel que contiene una tabla bien estructurada con sus datos de muestra, lista para su posterior análisis o para compartir.
+Al ejecutar este código Java se generará un archivo Excel que contiene una tabla bien estructurada con datos de muestra, lista para su posterior análisis o uso compartido.
 
 ### Generar gráficos interactivos a partir de datos de Excel
 
@@ -287,6 +289,9 @@ Al dominar estas técnicas, puede optimizar significativamente sus flujos de tra
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

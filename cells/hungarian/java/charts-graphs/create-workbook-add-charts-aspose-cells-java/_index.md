@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ A mai adatvezérelt világban az információk vizualizálása kulcsfontosságú
 - Hogyan hozhatok létre munkafüzetet az Aspose.Cells for Java programban?
 - Hogyan vigyünk be adatokat adott cellákba
 - Diagramok hozzáadása és testreszabása a táblázatban
-- teljesítmény optimalizálásának legjobb gyakorlatai
+- A teljesítmény optimalizálásának legjobb gyakorlatai
 
 Kezdjük is! Mielőtt belekezdenénk, győződjön meg arról, hogy rendelkezik a szükséges előfeltételekkel.
 
@@ -102,7 +104,7 @@ Worksheet sheet = worksheets.get(0);
 ```
 Az első munkalap elérése kulcsfontosságú, mivel ez szolgál az adatbeviteli pontunkként.
 
-##### 3. Adatok bevitele a cellákba
+##### 3. Adatok bevitele cellákba
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Cell;
@@ -210,6 +212,9 @@ Fedezze fel tovább az Aspose.Cells más rendszerekkel való integrálásával, 
 Kezdje el használni az Aspose.Cells for Java-t még ma, hogy továbbfejlessze adatvizualizációs képességeit!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

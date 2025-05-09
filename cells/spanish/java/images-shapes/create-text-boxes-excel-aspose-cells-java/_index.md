@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ Workbook wb = new Workbook();
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 ##### Paso 2: Agregar cuadro de texto a la hoja de cálculo
-Usar `addShape` método, especificando el tipo como `TEXT_BOX`, junto con las dimensiones y la posición:
+Usar `addShape` método, especificando el tipo como `TEXT_BOX`, junto con dimensiones y posición:
 ```java
 Shape shape = ws.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 80, 400);
 ```
@@ -147,6 +149,9 @@ Para mayor lectura y exploración:
 Si sigue esta guía, estará bien equipado para comenzar a integrar Aspose.Cells Java en sus proyectos para obtener capacidades mejoradas de automatización y formato de Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

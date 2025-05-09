@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hướng dẫn xử lý bảng tính Java Aspose.Cells
@@ -15,7 +17,7 @@
 
 ## Giới thiệu
 
-Aspose.Cells for Java là một thư viện mạnh mẽ giúp các nhà phát triển Java có thể thao tác các tệp Excel theo chương trình. Cho dù bạn cần tạo, chỉnh sửa hay chuyển đổi tài liệu Excel, Aspose.Cells đều đơn giản hóa quy trình bằng bộ tính năng toàn diện của nó. Trong các hướng dẫn này, chúng tôi sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau khi làm việc với Aspose.Cells for Java, cung cấp các ví dụ về mã và thông tin chi tiết để giúp bạn trở nên thành thạo trong việc thao tác tệp Excel.
+Aspose.Cells for Java là một thư viện mạnh mẽ giúp các nhà phát triển Java có thể thao tác với các tệp Excel theo chương trình. Cho dù bạn cần tạo, chỉnh sửa hay chuyển đổi tài liệu Excel, Aspose.Cells đều đơn giản hóa quy trình với bộ tính năng toàn diện của nó. Trong các hướng dẫn này, chúng tôi sẽ hướng dẫn bạn qua nhiều khía cạnh khác nhau khi làm việc với Aspose.Cells for Java, cung cấp các ví dụ về mã và thông tin chi tiết để giúp bạn trở nên thành thạo trong việc thao tác với tệp Excel.
 
 ## Bắt đầu với Aspose.Cells cho Java
 
@@ -118,9 +120,11 @@ Hướng dẫn đầy đủ về cách tạo mẫu báo cáo, tạo tài liệu 
 
 ### [Tự động hóa & Xử lý hàng loạt](./automation-batch-processing/)
 Hướng dẫn từng bước để tự động hóa các tác vụ Excel, xử lý hàng loạt nhiều tệp và lên lịch hoạt động với Aspose.Cells cho Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

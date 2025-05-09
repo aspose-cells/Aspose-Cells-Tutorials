@@ -1,38 +1,40 @@
 ---
-title: Especificar compatibilidade do arquivo Excel programaticamente no .NET
-linktitle: Especificar compatibilidade do arquivo Excel programaticamente no .NET
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Aprenda a manipular tabelas dinâmicas do Excel com o Aspose.Cells para .NET, incluindo atualizações de dados, configurações de compatibilidade e formatação de células.
-weight: 23
-url: /pt/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Aprenda a manipular tabelas dinâmicas do Excel com o Aspose.Cells para .NET, incluindo atualizações de dados, configurações de compatibilidade e formatação de células."
+"linktitle": "Especificar compatibilidade de arquivo do Excel programaticamente em .NET"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Especificar compatibilidade de arquivo do Excel programaticamente em .NET"
+"url": "/pt/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Especificar compatibilidade do arquivo Excel programaticamente no .NET
+# Especificar compatibilidade de arquivo do Excel programaticamente em .NET
 
 ## Introdução
 
-No mundo atual, orientado a dados, gerenciar e manipular arquivos do Excel programaticamente se tornou essencial para muitos desenvolvedores. Se você estiver trabalhando com o Excel no .NET, o Aspose.Cells é uma biblioteca poderosa que facilita a criação, leitura, modificação e salvamento de arquivos do Excel. Um recurso importante desta biblioteca permite que você especifique a compatibilidade de arquivos do Excel programaticamente. Neste tutorial, exploraremos como manipular arquivos do Excel, focando particularmente no gerenciamento de compatibilidade usando o Aspose.Cells para .NET. No final, você entenderá como definir a compatibilidade para arquivos do Excel, especialmente para tabelas dinâmicas, enquanto atualiza e gerencia dados.
+No mundo atual, orientado a dados, gerenciar e manipular arquivos do Excel programaticamente tornou-se essencial para muitos desenvolvedores. Se você trabalha com o Excel em .NET, o Aspose.Cells é uma biblioteca poderosa que facilita a criação, a leitura, a modificação e o salvamento de arquivos do Excel. Um recurso importante dessa biblioteca permite especificar a compatibilidade de arquivos do Excel programaticamente. Neste tutorial, exploraremos como manipular arquivos do Excel, com foco especial no gerenciamento de compatibilidade usando o Aspose.Cells para .NET. Ao final, você entenderá como definir a compatibilidade de arquivos do Excel, especialmente para tabelas dinâmicas, enquanto atualiza e gerencia dados.
 
 ## Pré-requisitos
 
 Antes de mergulhar na fase de codificação, certifique-se de ter o seguinte:
 
 1. Conhecimento básico de C#: Como escreveremos código em C#, a familiaridade com a linguagem ajudará você a entender melhor o tutorial.
-2.  Biblioteca Aspose.Cells para .NET: Você pode baixá-la do[Página de lançamentos do Aspose Cells](https://releases.aspose.com/cells/net/)Se você ainda não fez isso, considere fazer uma avaliação gratuita para explorar seus recursos primeiro.
+2. Biblioteca Aspose.Cells para .NET: Você pode baixá-la do [Página de lançamentos do Aspose Cells](https://releases.aspose.com/cells/net/). Se você ainda não o fez, considere fazer um teste gratuito para explorar seus recursos primeiro.
 3. Visual Studio: um IDE onde você pode escrever e testar seu código C# de forma eficaz.
-4.  Arquivo Excel de exemplo: Certifique-se de ter um arquivo Excel de exemplo, de preferência um que contenha uma tabela dinâmica para a demonstração. Para nosso exemplo, usaremos`sample-pivot-table.xlsx`.
+4. Arquivo Excel de exemplo: Certifique-se de ter um arquivo Excel de exemplo, de preferência um que contenha uma tabela dinâmica para a demonstração. Para o nosso exemplo, usaremos `sample-pivot-table.xlsx`.
 
 Com esses pré-requisitos em vigor, vamos começar o processo de codificação.
 
 ## Pacotes de importação
 
-Antes de começar a escrever seu aplicativo, você precisa incluir os namespaces necessários em seu código para utilizar a biblioteca Aspose.Cells efetivamente. Veja como fazer isso.
+Antes de começar a escrever sua aplicação, você precisa incluir os namespaces necessários no seu código para utilizar a biblioteca Aspose.Cells de forma eficaz. Veja como fazer isso.
 
-### Importar Aspose.Cells Namespace
+### Importar namespace Aspose.Cells
 
 ```csharp
 using System.IO;
@@ -48,25 +50,25 @@ Agora, vamos detalhar o processo para garantir que tudo esteja claro e compreens
 
 ## Etapa 1: configure seu diretório
 
-Primeiro, configure o diretório onde seus arquivos do Excel estão localizados. É importante fornecer o caminho correto do arquivo.
+Antes de mais nada, configure o diretório onde seus arquivos do Excel estão localizados. É importante fornecer o caminho correto para o arquivo.
 
 ```csharp
 // O caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
 ```
 
- Aqui, substitua`"Your Document Directory"`com o caminho real para seus arquivos Excel. É aqui que seu arquivo de tabela dinâmica de amostra deve residir.
+Aqui, substitua `"Your Document Directory"` com o caminho real para seus arquivos do Excel. É aqui que seu arquivo de tabela dinâmica de exemplo deve estar.
 
-## Etapa 2: Carregue o arquivo de origem do Excel
+## Etapa 2: Carregar o arquivo de origem do Excel
 
 Em seguida, precisamos carregar o arquivo Excel que contém a tabela dinâmica de exemplo. 
 
 ```csharp
-// Carregar arquivo Excel de origem contendo tabela dinâmica de amostra
+// Carregar arquivo Excel de origem contendo tabela dinâmica de exemplo
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- Nesta etapa, criamos uma instância do`Workbook` classe, que carrega o arquivo Excel especificado. 
+Nesta etapa, criamos uma instância do `Workbook` classe, que carrega o arquivo Excel especificado. 
 
 ## Etapa 3: Acesse as planilhas
 
@@ -77,9 +79,9 @@ Agora que a pasta de trabalho foi carregada, você precisa acessar a planilha qu
 Worksheet dataSheet = wb.Worksheets[0];
 ```
 
-Aqui, acessamos a primeira planilha onde a tabela dinâmica está localizada. Você também pode fazer um loop ou especificar outras planilhas com base na sua estrutura do Excel.
+Aqui, acessamos a primeira planilha onde a tabela dinâmica está localizada. Você também pode percorrer ou especificar outras planilhas com base na estrutura do Excel.
 
-## Etapa 4: Manipular dados de células
+## Etapa 4: Manipular dados da célula
 
 Em seguida, você modificará alguns valores de células na planilha. 
 
@@ -96,7 +98,7 @@ cell.PutValue("FooBar");
 
 Este trecho de código atualiza a célula A3 com o valor “FooBar”.
 
-### Etapa 4.2: Modifique a célula B3 com uma string longa
+### Etapa 4.2: Modificar a célula B3 com uma string longa
 
 Agora, vamos definir uma sequência longa na célula B3, que exceda os limites de caracteres padrão do Excel.
 
@@ -120,7 +122,7 @@ Console.WriteLine("Length of original data string: " + cell.StringValue.Length);
 
 Isto é apenas para verificação para mostrar quantos caracteres seu celular contém.
 
-## Etapa 6: Defina outros valores de célula
+## Etapa 6: definir outros valores de célula
 
 Agora vamos acessar mais células e definir alguns valores.
 
@@ -141,7 +143,7 @@ Cada um desses trechos atualiza diversas células adicionais na planilha.
 Em seguida, você acessará a segunda planilha, que consiste nos dados da tabela dinâmica.
 
 ```csharp
-//Acesse a segunda planilha que contém a tabela dinâmica
+// Acesse a segunda planilha que contém a tabela dinâmica
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Acesse a tabela dinâmica
@@ -155,17 +157,17 @@ Este snippet permite que você manipule a tabela dinâmica para configurações 
 É crucial definir se sua tabela dinâmica é compatível com o Excel 2003 ou não. 
 
 ```csharp
-// A propriedade IsExcel2003Compatible informa se a Tabela Dinâmica é compatível com o Excel2003 ao atualizar a Tabela Dinâmica
+// A propriedade IsExcel2003Compatible informa se a Tabela Dinâmica é compatível com o Excel 2003 ao atualizar a Tabela Dinâmica
 pivotTable.IsExcel2003Compatible = true;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- É aqui que a verdadeira transformação começa. Ao definir`IsExcel2003Compatible` para`true`, você limita o comprimento de caracteres a 255 ao atualizar.
+É aqui que começa a verdadeira transformação. Ao definir `IsExcel2003Compatible` para `true`você limita o comprimento de caracteres a 255 ao atualizar.
 
 ## Etapa 9: Verifique o comprimento após a configuração de compatibilidade
 
-Depois de definir a compatibilidade, vamos ver como isso afeta os dados.
+Depois de definir a compatibilidade, vamos ver como ela afeta os dados.
 
 ```csharp
 // Verifique o valor da célula B5 da planilha dinâmica.
@@ -175,12 +177,12 @@ Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible propert
 
 Você provavelmente verá uma saída que confirma o efeito de truncamento se os dados iniciais excederem 255 caracteres.
 
-## Etapa 10: Alterar a configuração de compatibilidade
+## Etapa 10: alterar a configuração de compatibilidade
 
 Agora, vamos alterar a configuração de compatibilidade e verificar novamente.
 
 ```csharp
-//Agora defina a propriedade IsExcel2003Compatible como false e atualize novamente
+// Agora defina a propriedade IsExcel2003Compatible como falsa e atualize novamente
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -193,7 +195,7 @@ Isso permite que seus dados reflitam seu comprimento original sem as restriçõe
 Vamos verificar se os dados agora refletem com precisão seu comprimento real.
 
 ```csharp
-// Agora ele imprimirá o comprimento original dos dados da célula. Os dados não foram truncados agora.
+// Agora, ele imprimirá o comprimento original dos dados da célula. Os dados não foram truncados.
 b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to False: " + b5.StringValue.Length);
 ```
@@ -202,7 +204,7 @@ Você deverá ver que a saída confirma a remoção do truncamento.
 
 ## Etapa 12: formatar as células
 
-Para melhorar a experiência visual, talvez você queira formatar as células. 
+Para melhorar a experiência visual, você pode formatar as células. 
 
 ```csharp
 // Defina a altura da linha e a largura da coluna da célula B5 e também quebre seu texto
@@ -215,7 +217,7 @@ b5.SetStyle(st);
 
 Essas linhas de código facilitam a leitura dos dados ajustando as dimensões das células e permitindo o ajuste de texto.
 
-## Etapa 13: Salve a pasta de trabalho
+## Etapa 13: Salvar a pasta de trabalho
 
 Por fim, salve sua pasta de trabalho com as alterações feitas.
 
@@ -224,11 +226,11 @@ Por fim, salve sua pasta de trabalho com as alterações feitas.
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- A escolha de um formato de arquivo apropriado é crucial ao salvar arquivos Excel. O`Xlsx` formato é amplamente utilizado e compatível com muitas versões do Excel.
+A escolha de um formato de arquivo apropriado é crucial ao salvar arquivos do Excel. `Xlsx` O formato é amplamente utilizado e compatível com muitas versões do Excel.
 
 ## Conclusão
 
-Parabéns! Agora você programou as configurações de compatibilidade de arquivo do Excel usando o Aspose.Cells para .NET. Este tutorial descreveu cada etapa, desde a configuração do seu ambiente até a alteração das configurações de compatibilidade para tabelas dinâmicas. Se você já trabalhou com dados que exigiam limitações ou compatibilidade específicas, esta é uma habilidade que você não vai querer ignorar.
+Parabéns! Você programou as configurações de compatibilidade de arquivos do Excel usando o Aspose.Cells para .NET. Este tutorial descreveu cada etapa, desde a configuração do seu ambiente até a alteração das configurações de compatibilidade para tabelas dinâmicas. Se você já trabalhou com dados que exigiam limitações ou compatibilidade específicas, esta é uma habilidade que você não vai querer ignorar.
 
 ## Perguntas frequentes
 
@@ -238,17 +240,19 @@ Aspose.Cells é uma biblioteca .NET projetada para ajudar desenvolvedores a cria
 ### Por que a compatibilidade do Excel é importante?  
 A compatibilidade do Excel é crucial para garantir que os arquivos possam ser abertos e usados nas versões pretendidas do Excel, principalmente se eles contiverem recursos ou formatos não suportados em versões anteriores.
 
-### Posso criar tabelas dinâmicas programaticamente com Aspose.Cells?  
-Sim, você pode criar e manipular Tabelas Dinâmicas programaticamente usando Aspose.Cells. A biblioteca fornece vários métodos para adicionar fontes de dados, campos e recursos associados a Tabelas Dinâmicas.
+### Posso criar tabelas dinâmicas programadamente com Aspose.Cells?  
+Sim, você pode criar e manipular Tabelas Dinâmicas programaticamente usando Aspose.Cells. A biblioteca oferece vários métodos para adicionar fontes de dados, campos e recursos associados a Tabelas Dinâmicas.
 
 ### Como posso verificar o comprimento de uma string em uma célula do Excel?  
-Você pode usar o`StringValue` propriedade de um`Cell` objeto para obter o conteúdo da célula e então chamar o`.Length` propriedade para descobrir o comprimento da string.
+Você pode usar o `StringValue` propriedade de um `Cell` objeto para obter o conteúdo da célula e então chamar o `.Length` propriedade para descobrir o comprimento da string.
 
 ### Posso personalizar a formatação das células além da altura e largura da linha?  
- Absolutamente! Aspose.Cells permite uma formatação de células extensa. Você pode alterar estilos de fonte, cores, bordas, formatos de números e muito mais por meio do`Style` aula.
+Com certeza! O Aspose.Cells permite uma formatação abrangente de células. Você pode alterar estilos de fonte, cores, bordas, formatos de números e muito mais através do `Style` aula.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

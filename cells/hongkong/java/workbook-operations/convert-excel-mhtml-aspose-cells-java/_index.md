@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 - 對 Java 程式設計有基本的了解。
 
 ### 設定 Aspose.Cells for Java
-要在您的專案中使用 Aspose.Cells，請按照以下步驟操作：
+若要在您的專案中使用 Aspose.Cells，請按照以下步驟操作：
 
 #### Maven
 將以下相依性新增至您的 `pom.xml` 文件：
@@ -116,6 +118,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 使用 Aspose.Cells 輕鬆進入 Excel 轉換的世界，並改變您共享和管理資料的方式！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ cells.get("B3").setValue(50);
 
 **新しいワークブックオブジェクトのインスタンスを作成する**
 
-まだ作成されていない場合は、新しい `Workbook` 実例：
+まだ作成されていない場合は、新しいものを初期化します `Workbook` 実例：
 
 ```java
 Workbook workbook = new Workbook();
@@ -266,6 +268,9 @@ Aspose のプラットフォームを通じてライセンスを購入するか�
 今すぐ Aspose.Cells の旅に乗り出し、Java で Excel を操作する方法に革命を起こしましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

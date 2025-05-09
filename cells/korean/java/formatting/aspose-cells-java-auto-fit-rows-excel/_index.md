@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ## Java용 Aspose.Cells 설정
 Aspose.Cells를 사용하여 Excel 파일을 조작하기 전에 환경에 라이브러리를 설정하세요.
 
-1. **설치**: 위에 표시된 대로 Maven이나 Gradle을 통해 Aspose.Cells 종속성을 포함합니다.
+1. **설치**위에 표시된 대로 Maven이나 Gradle을 통해 Aspose.Cells 종속성을 포함합니다.
 2. **라이센스 취득**: 임시 라이센스를 다운로드하여 무료 평가판을 시작하세요. [Aspose 웹사이트](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -120,9 +122,9 @@ workbook.save(outDir + "AutoFitRowsinaRangeofCells_out.xls");
 
 ## 실제 응용 프로그램
 자동 맞춤 행이 매우 유용한 실제 시나리오는 다음과 같습니다.
-1. **재무 보고**: 자세한 데이터 입력에 따라 행 크기를 동적으로 조정하여 재무제표의 가독성을 보장합니다.
+1. **재무 보고**자세한 데이터 입력에 따라 행 크기를 동적으로 조정하여 재무제표의 가독성을 보장합니다.
 2. **재고 관리**: 다양한 설명과 수량에 맞춰 재고 목록을 조정하고 깔끔한 표현을 유지합니다.
-3. **프로젝트 계획**작업에 대한 설명이 여러 줄에 걸쳐 있는 간트 차트나 프로젝트 타임라인을 향상시킵니다.
+3. **프로젝트 계획**: 작업에 대한 설명이 여러 줄에 걸쳐 있는 간트 차트나 프로젝트 타임라인을 향상시킵니다.
 4. **데이터 분석**: 다양한 길이의 해설이나 결과를 중심으로 행을 깔끔하게 배치하여 대시보드를 최적화합니다.
 
 ## 성능 고려 사항
@@ -163,6 +165,9 @@ Aspose.Cells에 대해 더 자세히 알아보려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

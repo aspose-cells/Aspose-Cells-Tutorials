@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizace grafů v Excelu
@@ -117,9 +119,11 @@ Automatizace grafů v Excelu pomocí Aspose.Cells pro Javu zjednodušuje proces 
    Prozkoumejte dokumentaci k API na adrese [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
 
 Automatizujte své úkoly tvorby grafů v Excelu snadno pomocí Aspose.Cells pro Javu a vylepšete své možnosti vizualizace dat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh vào bảng tính Excel
-linktitle: Thêm hình ảnh vào bảng tính Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách dễ dàng thêm hình ảnh vào bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này. Cải thiện bảng tính của bạn.
-weight: 12
-url: /vi/net/excel-ole-picture-objects/add-picture-to-excel/
+"description": "Tìm hiểu cách dễ dàng thêm hình ảnh vào bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này. Cải thiện bảng tính của bạn."
+"linktitle": "Thêm hình ảnh vào bảng tính Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm hình ảnh vào bảng tính Excel"
+"url": "/vi/net/excel-ole-picture-objects/add-picture-to-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh vào bảng tính Excel
@@ -18,7 +20,7 @@ Khi nói đến việc tạo bảng tính chuyên nghiệp, hình ảnh rất qu
 ## Điều kiện tiên quyết
 Trước khi bắt đầu phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 1. Môi trường .NET: Bạn nên thiết lập môi trường phát triển .NET (như Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ .NET).
-2.  Thư viện Aspose.Cells: Để sử dụng Aspose.Cells cho .NET trong ứng dụng của bạn, bạn sẽ cần phải tải xuống thư viện. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Để sử dụng Aspose.Cells cho .NET trong ứng dụng của bạn, bạn sẽ cần phải tải xuống thư viện. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức lập trình cơ bản: Sự quen thuộc với C# hoặc VB.NET sẽ giúp bạn hiểu các ví dụ dễ dàng hơn.
 ## Nhập gói
 Để bắt đầu sử dụng Aspose.Cells, trước tiên bạn cần nhập các không gian tên cần thiết. Điều này thường có thể được thực hiện bằng cách thêm dòng sau vào đầu tệp mã của bạn:
@@ -32,12 +34,12 @@ Bây giờ, chúng ta hãy phân tích quy trình thêm hình ảnh vào bảng 
 Tạo thư mục để lưu trữ tài liệu
 Trước khi chúng ta làm bất cứ điều gì với sổ làm việc, chúng ta cần một nơi để lưu trữ nó. Chúng ta sẽ chỉ định thư mục tài liệu này:
 ```csharp
-string dataDir = "Your Document Directory"; //Xác định con đường mong muốn của bạn.
+string dataDir = "Your Document Directory"; // Xác định con đường mong muốn của bạn.
 ```
- Trong đoạn mã này, hãy thay thế`"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn lưu trữ các tệp Excel của mình. Thư mục này sẽ chứa tệp đầu ra sau khi thêm hình ảnh.
+Trong đoạn mã này, hãy thay thế `"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn lưu trữ các tệp Excel của mình. Thư mục này sẽ chứa tệp đầu ra sau khi thêm hình ảnh.
 ## Bước 2: Tạo thư mục nếu nó không tồn tại
 Kiểm tra và tạo thư mục
-Luôn là một cách làm tốt để kiểm tra xem thư mục có tồn tại hay không. Nếu không, chúng ta sẽ tạo nó:
+Luôn là một cách làm tốt để kiểm tra xem thư mục có tồn tại không. Nếu không, chúng ta sẽ tạo nó:
 ```csharp
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
@@ -78,7 +80,7 @@ Bây giờ bạn đã thêm hình ảnh, bước cuối cùng là lưu bảng t�
 ```csharp
 workbook.Save(dataDir + "output.xls"); // Lưu vào thư mục đã chỉ định.
 ```
- Hành động này ghi tất cả các thay đổi của bạn vào một tệp thực tế, tạo ra một bảng tính Excel bao gồm hình ảnh đẹp của bạn. Đó là{cherry on top of your cake} chốc lát!
+Hành động này ghi tất cả các thay đổi của bạn vào một tệp thực tế, tạo ra một bảng tính Excel bao gồm hình ảnh đẹp của bạn. Đây chính là khoảnh khắc {quả anh đào trên đỉnh chiếc bánh}!
 ## Phần kết luận
 Thêm hình ảnh vào bảng tính Excel bằng Aspose.Cells cho .NET là một quy trình cực kỳ đơn giản có thể nâng cao bảng tính của bạn. Bằng cách làm theo các hướng dẫn từng bước này, bạn có thể tích hợp hình ảnh vào tệp Excel của mình một cách liền mạch, khiến chúng trở nên hấp dẫn về mặt hình ảnh và nhiều thông tin. Bây giờ hãy tiếp tục và trải nghiệm sức mạnh của Aspose.Cells trong việc nâng cao các bài thuyết trình dữ liệu của bạn.
 ## Câu hỏi thường gặp
@@ -87,14 +89,16 @@ Có, bạn có thể thêm nhiều định dạng hình ảnh khác nhau như PN
 ### Aspose.Cells có hỗ trợ các định dạng tệp Excel khác ngoài .xls không?
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm .xlsx, .xlsm và .xlsb.
 ### Có phiên bản dùng thử không?
-Có! Bạn có thể dùng thử Aspose.Cells miễn phí trước khi mua. Chỉ cần kiểm tra[đây](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử Aspose.Cells miễn phí trước khi mua. Chỉ cần kiểm tra [đây](https://releases.aspose.com/).
 ### Tôi phải làm gì nếu hình ảnh của tôi không hiển thị?
 Đảm bảo đường dẫn hình ảnh là chính xác và tệp hình ảnh nằm trong thư mục đã chỉ định.
 ### Tôi có thể đặt hình ảnh lên nhiều ô không?
 Có! Bạn có thể định vị hình ảnh để bao phủ nhiều ô bằng cách chỉ định chỉ số hàng và cột mong muốn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,6 +171,9 @@ Làm chủ việc lặp lại cột với Aspose.Cells mở ra một thế giớ
 Hãy bắt đầu hành trình cùng Aspose.Cells ngay hôm nay và cách mạng hóa cách bạn xử lý dữ liệu Excel trong Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Áp dụng Định dạng có điều kiện tại Runtime trong Excel
-linktitle: Áp dụng Định dạng có điều kiện tại Runtime trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách áp dụng định dạng có điều kiện khi chạy trong Excel với Aspose.Cells cho .NET trong hướng dẫn toàn diện, từng bước này.
-weight: 11
-url: /vi/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/
+"description": "Tìm hiểu cách áp dụng định dạng có điều kiện khi chạy trong Excel với Aspose.Cells cho .NET trong hướng dẫn toàn diện, từng bước này."
+"linktitle": "Áp dụng Định dạng có điều kiện tại Runtime trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Áp dụng Định dạng có điều kiện tại Runtime trong Excel"
+"url": "/vi/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng Định dạng có điều kiện tại Runtime trong Excel
@@ -21,11 +23,11 @@ chúng là những công cụ mạnh mẽ để phân tích và trực quan hóa
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy của mình. Bạn có thể sử dụng bất kỳ phiên bản nào hỗ trợ phát triển .NET.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. .NET Framework: Đảm bảo rằng dự án của bạn đang hướng tới phiên bản tương thích của .NET Framework.
 
-Bây giờ chúng ta đã đáp ứng được các điều kiện tiên quyết, hãy cùng bắt đầu phần thú vị nhé!
+Bây giờ chúng ta đã nắm được các điều kiện tiên quyết, hãy cùng bắt đầu phần thú vị nhé!
 
 ## Nhập gói
 Để bắt đầu với Aspose.Cells, bạn sẽ cần nhập các không gian tên cần thiết vào dự án C# của mình. Sau đây là cách bạn có thể thực hiện:
@@ -80,7 +82,7 @@ int index = sheet.ConditionalFormattings.Add();
 FormatConditionCollection fcs = sheet.ConditionalFormattings[index];
 ```
 
-Ở đây, chúng ta sẽ thêm một bộ định dạng có điều kiện mới vào bảng tính của mình, bộ định dạng này sẽ chứa các quy tắc định dạng.
+Ở đây, chúng ta sẽ thêm một bộ sưu tập định dạng có điều kiện mới vào bảng tính của mình, bộ sưu tập này sẽ chứa các quy tắc định dạng.
 
 ## Bước 5: Xác định Phạm vi Định dạng
 Tiếp theo, chúng ta cần chỉ định phạm vi ô mà định dạng có điều kiện sẽ áp dụng. Giả sử chúng ta muốn định dạng hàng đầu tiên và cột thứ hai:
@@ -115,7 +117,7 @@ int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorTyp
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 ```
 
- Trong bước này, chúng tôi sẽ thêm hai điều kiện: một cho các giá trị giữa`A2` Và`100` và một giá trị khác cho các giá trị giữa`50` Và`100`. Điều này cho phép bạn làm nổi bật các ô một cách linh hoạt dựa trên giá trị của chúng.
+Trong bước này, chúng tôi sẽ thêm hai điều kiện: một cho các giá trị giữa `A2` Và `100`và một giá trị khác cho các giá trị giữa `50` Và `100`. Điều này cho phép bạn làm nổi bật các ô một cách linh hoạt dựa trên giá trị của chúng.
 
 ## Bước 7: Thiết lập Kiểu Định dạng
 Với các điều kiện của chúng ta, bây giờ chúng ta có thể thiết lập các kiểu định dạng. Hãy thay đổi màu nền cho các điều kiện của chúng ta:
@@ -144,23 +146,25 @@ Và bạn đã có nó! Bạn đã áp dụng thành công định dạng có đ
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?
 Có, Aspose.Cells hỗ trợ nhiều ngôn ngữ lập trình, bao gồm Java, Python, v.v.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể nhận được hỗ trợ bằng cách truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ bằng cách truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Có, cần có giấy phép để sử dụng cho mục đích thương mại, nhưng bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, cần có giấy phép để sử dụng cho mục đích thương mại, nhưng bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

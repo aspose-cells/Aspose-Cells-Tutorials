@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,14 +53,14 @@ Ismerje meg, hogyan valósíthat meg egész számok adatellenőrzését Excelben
 ### [Mesterszintű hibaellenőrzés Excelben az Aspose.Cells Java használatával: Átfogó útmutató](./master-error-checking-excel-aspose-cells-java/)
 Ismerje meg, hogyan kezelheti a hibaellenőrzési beállításokat az Excelben az Aspose.Cells for Java segítségével. Ez az útmutató a munkafüzetek létrehozását, a munkalapokhoz való hozzáférést és a változtatások hatékony mentését ismerteti.
 
-### [Hogyan validálhatjuk az Excel legördülő menüit az Aspose.Cells for Java használatával?](./validate-excel-dropdowns-aspose-cells-java/)
+### [Hogyan validáljuk az Excel legördülő menüit az Aspose.Cells for Java használatával?](./validate-excel-dropdowns-aspose-cells-java/)
 Tanuld meg, hogyan validálhatod a legördülő listákat az Excel cellákban az Aspose.Cells for Java segítségével. Egyszerűsítsd az adatellenőrzési folyamatot átfogó útmutatónkkal.
 
 
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -66,6 +68,9 @@ Tanuld meg, hogyan validálhatod a legördülő listákat az Excel cellákban az
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

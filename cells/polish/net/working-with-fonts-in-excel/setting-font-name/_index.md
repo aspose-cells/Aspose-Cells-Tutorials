@@ -1,14 +1,16 @@
 ---
-title: Ustawianie nazwy czcionki w programie Excel
-linktitle: Ustawianie nazwy czcionki w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym samouczku krok po kroku dowiesz się, jak ustawić nazwę czcionki w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla platformy .NET.
-weight: 11
-url: /pl/net/working-with-fonts-in-excel/setting-font-name/
+"description": "W tym samouczku krok po kroku dowiesz się, jak ustawić nazwę czcionki w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla platformy .NET."
+"linktitle": "Ustawianie nazwy czcionki w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie nazwy czcionki w programie Excel"
+"url": "/pl/net/working-with-fonts-in-excel/setting-font-name/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie nazwy czcionki w programie Excel
@@ -17,7 +19,7 @@ url: /pl/net/working-with-fonts-in-excel/setting-font-name/
 Jeśli chodzi o pracę z plikami Excela w aplikacjach .NET, potrzebujesz rozwiązania, które jest zarówno wydajne, jak i przyjazne dla użytkownika. Wprowadź Aspose.Cells, fantastyczną bibliotekę, która pozwala programistom na bezproblemowe tworzenie, manipulowanie i konwertowanie plików Excela. Niezależnie od tego, czy chcesz zautomatyzować raporty, czy dostosować formatowanie arkusza kalkulacyjnego, Aspose.Cells jest Twoim zestawem narzędzi. W tym samouczku zagłębimy się w sposób ustawiania nazwy czcionki w arkuszu kalkulacyjnym Excela przy użyciu Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz:
-1.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony[Strona Aspose](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony [Strona Aspose](https://releases.aspose.com/cells/net/).
 2. Visual Studio: środowisko programistyczne, w którym można pisać i testować kod.
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany tak, aby używać środowiska .NET Framework zgodnego z Aspose.Cells.
@@ -36,7 +38,7 @@ Zanim zaczniesz pracować z plikami Excela, musisz określić, gdzie będą prze
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką w systemie, w której chcesz zapisać plik Excela. 
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką w systemie, w której chcesz zapisać plik Excela. 
 ## Krok 2: Utwórz katalog, jeśli nie istnieje
 Zawsze warto upewnić się, że katalog, w którym chcesz zapisać plik, istnieje. Jeśli nie, utworzymy go.
 ```csharp
@@ -47,19 +49,19 @@ if (!IsExists)
 ```
 Ten fragment kodu sprawdza, czy katalog istnieje. Jeśli nie, tworzy nowy katalog w określonej ścieżce. 
 ## Krok 3: Utwórz obiekt skoroszytu
- Następnie musisz utworzyć`Workbook`obiekt, który reprezentuje plik Excel w pamięci.
+Następnie musisz utworzyć `Workbook` obiekt, który reprezentuje plik Excel w pamięci.
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
- Pomyśl o`Workbook` obiekt jako puste płótno, na którym będziesz dodawać dane i formatować je.
+Pomyśl o `Workbook` obiekt jako puste płótno, na którym będziesz dodawać dane i formatować je.
 ## Krok 4: Dodaj nowy arkusz kalkulacyjny
 Teraz dodajmy nowy arkusz do skoroszytu. Każdy skoroszyt może zawierać wiele arkuszy i możesz dodać ich tyle, ile potrzebujesz.
 ```csharp
 // Dodawanie nowego arkusza kalkulacyjnego do obiektu Excel
 int i = workbook.Worksheets.Add();
 ```
- Tutaj dodajemy nowy arkusz kalkulacyjny i pobieramy jego indeks (w tym przypadku indeks jest przechowywany w`i`).
+Tutaj dodajemy nowy arkusz kalkulacyjny i pobieramy jego indeks (w tym przypadku indeks jest przechowywany w `i`).
 ## Krok 5: Uzyskaj odniesienie do nowego arkusza kalkulacyjnego
 Aby móc pracować z arkuszem, który właśnie dodaliśmy, musimy uzyskać odwołanie do niego, korzystając z jego indeksu.
 ```csharp
@@ -108,23 +110,25 @@ Ostatnim krokiem jest zapisanie swojej pracy. Zapiszesz skoroszyt w określonym 
 // Zapisywanie pliku Excel
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- tym wierszu zapisujemy skoroszyt pod nazwą „book1.out.xls” w katalogu, który wcześniej określiliśmy. Pamiętaj,`SaveFormat` można dostosować do Twoich wymagań!
+W tym wierszu zapisujemy skoroszyt pod nazwą „book1.out.xls” w katalogu, który wcześniej określiliśmy. Pamiętaj, `SaveFormat` można dostosować do Twoich wymagań!
 ## Wniosek
 I masz! Udało Ci się ustawić nazwę czcionki w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Ta biblioteka ułatwia manipulowanie plikami Excel, umożliwiając wysoki stopień personalizacji. Wykonując te kroki, możesz łatwo modyfikować inne aspekty swoich arkuszy kalkulacyjnych, tworząc profesjonalnie wyglądające dokumenty dostosowane do Twoich potrzeb. 
 ## Najczęściej zadawane pytania
 ### Czy mogę również zmienić rozmiar czcionki?  
- Tak, możesz zmienić rozmiar czcionki, ustawiając`style.Font.Size = newSize;` Gdzie`newSize` jest pożądanym rozmiarem czcionki.
+Tak, możesz zmienić rozmiar czcionki, ustawiając `style.Font.Size = newSize;` Gdzie `newSize` jest pożądanym rozmiarem czcionki.
 ### Jakie inne style mogę zastosować do komórki?  
- Możesz zmienić kolor czcionki, kolor tła, obramowanie, wyrównanie i wiele więcej, korzystając z`Style` obiekt.
+Możesz zmienić kolor czcionki, kolor tła, obramowanie, wyrównanie i wiele więcej, korzystając z `Style` obiekt.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells to produkt komercyjny, ale możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) aby ocenić jego cechy.
+Aspose.Cells to produkt komercyjny, ale możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) aby ocenić jego cechy.
 ### Czy mogę pracować na wielu arkuszach kalkulacyjnych jednocześnie?  
-Oczywiście! Możesz iterować`workbook.Worksheets` aby uzyskać dostęp i modyfikować wiele arkuszy kalkulacyjnych w tym samym skoroszycie.
+Oczywiście! Możesz iterować `workbook.Worksheets` aby uzyskać dostęp i modyfikować wiele arkuszy kalkulacyjnych w tym samym skoroszycie.
 ### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy?  
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w przypadku jakichkolwiek pytań lub problemów.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w przypadku jakichkolwiek pytań lub problemów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ public class Main {
 - Εξασφαλίστε τα κατάλληλα δικαιώματα και εξετάστε το ενδεχόμενο κλειδώματος συγκεκριμένων κελιών για να αποτρέψετε ακούσιες αλλαγές κατά τη χρήση πλαισίων ελέγχου σε κοινόχρηστα περιβάλλοντα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

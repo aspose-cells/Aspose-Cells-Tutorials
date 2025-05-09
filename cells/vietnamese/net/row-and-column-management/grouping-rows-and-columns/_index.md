@@ -1,14 +1,16 @@
 ---
-title: Nhóm các hàng và cột trong Excel với Aspose.Cells
-linktitle: Nhóm các hàng và cột trong Excel với Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách nhóm các hàng và cột trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 12
-url: /vi/net/row-and-column-management/grouping-rows-and-columns/
+"description": "Tìm hiểu cách nhóm các hàng và cột trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Nhóm các hàng và cột trong Excel với Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Nhóm các hàng và cột trong Excel với Aspose.Cells"
+"url": "/vi/net/row-and-column-management/grouping-rows-and-columns/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhóm các hàng và cột trong Excel với Aspose.Cells
@@ -18,10 +20,10 @@ Nếu bạn đang làm việc với các bảng tính Excel lớn, bạn biết 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn mọi thứ bạn cần biết để thiết lập, nhóm và ẩn các hàng và cột trong trang tính Excel bằng Aspose.Cells for .NET. Cuối cùng, bạn sẽ có thể thao tác với các tệp Excel như một chuyên gia mà thậm chí không cần mở Excel. Sẵn sàng để bắt đầu chưa?
 ## Điều kiện tiên quyết
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn đã thiết lập và sẵn sàng mọi thứ:
-1.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 2. Visual Studio: Hướng dẫn này sử dụng Visual Studio để làm ví dụ mã.
 3. Kiến thức cơ bản về C#: Có kiến thức về C# và .NET sẽ rất hữu ích.
-4. Giấy phép Aspose: Cần có giấy phép trả phí hoặc tạm thời để tránh giới hạn đánh giá. Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép Aspose: Cần có giấy phép trả phí hoặc tạm thời để tránh giới hạn đánh giá. Nhận giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 ## Nhập gói
 Để bắt đầu, hãy nhập không gian tên Aspose.Cells cần thiết cùng với các thư viện .NET cần thiết để xử lý tệp. 
 ```csharp
@@ -35,21 +37,21 @@ Trước tiên, chúng ta cần xác định đường dẫn đến tệp Excel 
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Ở đây, thay thế`"Your Document Directory"` với đường dẫn thực tế đến các tệp Excel của bạn. Thiết lập này giúp mã của bạn tìm thấy các tệp cần thiết để làm việc.
+Ở đây, thay thế `"Your Document Directory"` với đường dẫn thực tế đến các tệp Excel của bạn. Thiết lập này giúp mã của bạn tìm thấy các tệp cần thiết để làm việc.
 ## Bước 2: Tạo luồng tệp để truy cập tệp Excel
 Aspose.Cells yêu cầu bạn mở tệp thông qua luồng tệp. Luồng này đọc và tải nội dung của tệp để xử lý.
 ```csharp
 // Tạo luồng tệp chứa tệp Excel cần mở
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Mã trên mở ra`book1.xls` từ thư mục bạn chỉ định. Nếu tệp không tồn tại, hãy đảm bảo tạo tệp hoặc đổi tên tệp.
+Mã trên mở ra `book1.xls` từ thư mục bạn chỉ định. Nếu tệp không tồn tại, hãy đảm bảo tạo tệp hoặc đổi tên tệp.
 ## Bước 3: Tải Workbook với Aspose.Cells
 Bây giờ, hãy khởi tạo sổ làm việc thông qua Aspose.Cells. Bước này cho phép chúng ta truy cập vào tệp Excel, cho phép thao tác dễ dàng.
 ```csharp
 // Mở tệp Excel thông qua luồng tệp
 Workbook workbook = new Workbook(fstream);
 ```
- Sau dòng này,`workbook` đối tượng sẽ chứa tất cả dữ liệu và cấu trúc từ tệp Excel của bạn. Hãy nghĩ về nó giống như việc tải toàn bộ bảng tính vào bộ nhớ.
+Sau dòng này, `workbook` đối tượng sẽ chứa tất cả dữ liệu và cấu trúc từ tệp Excel của bạn. Hãy nghĩ về nó giống như việc tải toàn bộ bảng tính vào bộ nhớ.
 ## Bước 4: Truy cập vào trang tính bạn muốn sửa đổi
 Aspose.Cells lưu trữ từng trang tính trong sổ làm việc dưới dạng một đối tượng riêng biệt. Ở đây, chúng tôi đang chọn trang tính đầu tiên.
 ```csharp
@@ -83,7 +85,7 @@ Sau khi thực hiện thay đổi, hãy lưu tệp với tên mới để tránh
 // Lưu tệp Excel đã sửa đổi
 workbook.Save(dataDir + "output.xls");
 ```
- Bây giờ bạn đã lưu thành công các hàng và cột được nhóm của mình vào`output.xls`. Bạn có thể điều chỉnh tên tệp nếu cần.
+Bây giờ bạn đã lưu thành công các hàng và cột được nhóm của mình vào `output.xls`. Bạn có thể điều chỉnh tên tệp nếu cần.
 ## Bước 8: Đóng luồng tệp để giải phóng tài nguyên
 Cuối cùng, đóng luồng tệp để giải phóng mọi tài nguyên. Không làm như vậy có thể gây ra sự cố nếu bạn cần truy cập hoặc sửa đổi tệp một lần nữa.
 ```csharp
@@ -95,19 +97,21 @@ Và thế là xong! Bây giờ bạn đã nhóm các hàng và cột trong tệp
 Nhóm các hàng và cột trong Excel bằng Aspose.Cells for .NET là một quy trình đơn giản có thể giúp bảng tính của bạn thân thiện với người dùng và được sắp xếp hợp lý hơn nhiều. Chỉ với một vài dòng mã, bạn đã thành thạo một tính năng mạnh mẽ sẽ mất nhiều bước hơn nếu thực hiện thủ công trong Excel. Thêm vào đó, bạn có thể tự động hóa quy trình này trên nhiều tệp, giúp tiết kiệm thời gian và giảm lỗi. Hướng dẫn này đã chỉ cho bạn tất cả các bước cần thiết để kiểm soát các tệp Excel của mình theo chương trình.
 ## Câu hỏi thường gặp
 ### Tôi có thể nhóm các hàng và cột mà không ẩn chúng không?  
- Vâng! Chỉ cần vượt qua`false` như tham số thứ ba trong`GroupRows` hoặc`GroupColumns` phương pháp.
+Vâng! Chỉ cần vượt qua `false` như tham số thứ ba trong `GroupRows` hoặc `GroupColumns` phương pháp.
 ### Tôi phải làm sao nếu muốn tách nhóm các hàng hoặc cột?  
- Sử dụng`worksheet.Cells.UngroupRows(startRow, endRow)` hoặc`worksheet.Cells.UngroupColumns(startColumn, endColumn)` để tách chúng ra.
+Sử dụng `whoặcksheet.Cells.UngroupRows(startRow, endRow)` or `worksheet.Cells.UngroupColumns(startColumn, endColumn)` để tách chúng ra.
 ### Tôi có thể nhóm nhiều phạm vi trong cùng một bảng tính không?  
- Chắc chắn rồi. Gọi`GroupRows` hoặc`GroupColumns`phương pháp trên mỗi phạm vi bạn muốn nhóm.
+Chắc chắn rồi. Gọi `GroupRows` hoặc `GroupColumns` phương pháp trên mỗi phạm vi bạn muốn nhóm.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells cho .NET không?  
- Có, trong khi phiên bản dùng thử có sẵn, bạn sẽ cần giấy phép để mở khóa đầy đủ chức năng. Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, trong khi phiên bản dùng thử có sẵn, bạn sẽ cần giấy phép để mở khóa đầy đủ chức năng. Bạn có thể nhận được giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể nhóm các hàng và cột bằng logic có điều kiện không?  
 Có! Bạn có thể tạo nhóm có điều kiện bằng cách đưa logic vào mã của mình trước khi nhóm, tùy thuộc vào dữ liệu trong mỗi hàng hoặc cột.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

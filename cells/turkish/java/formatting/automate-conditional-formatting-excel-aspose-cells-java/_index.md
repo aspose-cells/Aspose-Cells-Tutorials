@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "=A2", "1
 ```
 **Açıklama:**
 - `FormatConditionType` Ve `OperatorType` koşulun mantığını belirlemek.
-- Şu hücre referanslarını kullanırız: `=A2` koşulları dinamik olarak belirlemek.
+- Hücre referanslarını şu şekilde kullanırız: `=A2` koşulları dinamik olarak belirlemek.
 
 ### Çalışma Kitabını Kaydetme
 Çalışma kitabınızı tüm biçimlendirmeleri uygulayarak kaydedin:
@@ -182,6 +184,9 @@ Sonraki adımlar arasında farklı koşul tiplerini denemek ve Aspose.Cells küt
 - Destek: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

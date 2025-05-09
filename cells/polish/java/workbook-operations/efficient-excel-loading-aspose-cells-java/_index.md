@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,8 +118,8 @@ workbook.save(outDir + "LoadSourceExcelFile_out.pdf");
 
 ## Zastosowania praktyczne
 1. **Analiza danych**:Możesz skupić się wyłącznie na danych komórkowych, nie zagłębiając się w reprezentacje graficzne.
-2. **Automatyczne raportowanie**:Generuj raporty na podstawie danych programu Excel, wykluczając wykresy, aby zaoszczędzić czas przetwarzania i miejsce na dysku.
-3. **Integracja z aplikacjami Java**:Używaj Aspose.Cells w większych aplikacjach Java, które muszą wydajnie przetwarzać duże ilości plików Excel.
+2. **Automatyczne raportowanie**:Generuj raporty z danych programu Excel, wykluczając wykresy, aby zaoszczędzić czas przetwarzania i miejsce na dysku.
+3. **Integracja z aplikacjami Java**:Używaj Aspose.Cells w większych aplikacjach Java, które muszą wydajnie przetwarzać duże ilości plików Excela.
 
 ## Rozważania dotyczące wydajności
 - **Optymalizacja ładowania plików**:Wykluczając zbędne elementy, takie jak wykresy, zmniejszasz ilość zajmowanej przez plik pamięci, co przekłada się na szybszy czas ładowania.
@@ -143,7 +145,7 @@ Gotowy do rozpoczęcia? Spróbuj wdrożyć to rozwiązanie w swoim kolejnym proj
 4. **Jakie są najczęstsze problemy podczas korzystania z Aspose.Cells dla Java?**
    - Typowe problemy obejmują nieprawidłowe wersje bibliotek, nieprawidłowo skonfigurowane ścieżki i niewystarczające ustawienia licencjonowania. Upewnij się, że środowisko jest poprawnie skonfigurowane i w razie potrzeby zapoznaj się z dokumentacją.
 5. **Jak mogę zoptymalizować wydajność przetwarzania dużych plików Excel?**
-   - Wyeliminuj zbędne elementy, takie jak wykresy, aby zmniejszyć zużycie pamięci, efektywniej zarządzaj zasobami i rozważ podzielenie zadań na mniejsze procesy w celu lepszej obsługi.
+   - Wyeliminuj zbędne elementy, takie jak wykresy, aby zmniejszyć wykorzystanie pamięci, efektywnie zarządzaj zasobami i rozważ podzielenie zadań na mniejsze procesy w celu lepszej obsługi.
 
 ## Zasoby
 - [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -156,6 +158,9 @@ Skorzystaj z możliwości pakietu Aspose.Cells for Java, aby usprawnić przetwar
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

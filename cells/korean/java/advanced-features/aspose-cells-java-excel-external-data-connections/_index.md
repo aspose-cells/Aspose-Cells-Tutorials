@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 ## 당신이 배울 것
 - Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 외부 데이터 연결을 검색하는 방법.
-- 데이터베이스 세부정보와 매개변수를 포함하여 각 연결에 대한 자세한 정보를 추출합니다.
+- 데이터베이스 세부 정보 및 매개변수를 포함하여 각 연결에 대한 자세한 정보를 추출합니다.
 - 실제 사용 사례와 다른 시스템과의 통합 가능성.
 - Java 애플리케이션에서 Aspose.Cells를 사용할 때 성능을 최적화하기 위한 팁입니다.
 
@@ -32,7 +34,7 @@
 
 #### 환경 설정
 - 개발 환경이 Maven이나 Gradle 빌드 도구를 지원하는지 확인하세요.
-- Java 프로그래밍 개념에 대해 잘 알고 있으면 도움이 됩니다.
+- Java 프로그래밍 개념에 익숙해지면 도움이 됩니다.
 
 ### Java용 Aspose.Cells 설정
 
@@ -195,6 +197,9 @@ Aspose.Cells를 사용할 때 다음과 같은 성능 팁을 고려하세요.
 오늘부터 Aspose.Cells for Java를 사용하여 Excel 데이터 연결을 통합하고 관리해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

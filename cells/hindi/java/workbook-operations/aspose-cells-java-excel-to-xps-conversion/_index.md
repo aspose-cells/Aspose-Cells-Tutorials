@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ workbook.save("QEToXPSConversion_out.xps", SaveFormat.XPS);
 यदि आपको कोई समस्या आती है:
 - सुनिश्चित करें कि एक्सेल फ़ाइल का आपका पथ सही है.
 - यदि आप परीक्षण अवधि से परे सुविधाओं का उपयोग कर रहे हैं तो सत्यापित करें कि आपने लाइसेंस सही ढंग से सेट किया है।
-- निर्भरताओं में किसी भी संस्करण संघर्ष की जाँच करें।
+- निर्भरताओं में किसी भी संस्करण संघर्ष की जाँच करें.
 
 ## व्यावहारिक अनुप्रयोगों
 
@@ -144,6 +146,9 @@ workbook.save("QEToXPSConversion_out.xps", SaveFormat.XPS);
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

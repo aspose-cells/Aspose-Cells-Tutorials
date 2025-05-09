@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 **คำแนะนำทีละขั้นตอน**
 
 ##### ขั้นตอนที่ 1: นำเข้าคลาสที่จำเป็น
-เริ่มต้นด้วยการนำเข้า `Workbook` คลาสซึ่งเป็นแกนหลักในการโหลดไฟล์
+เริ่มต้นโดยการนำเข้า `Workbook` คลาสซึ่งเป็นแกนหลักในการโหลดไฟล์
 ```java
 import com.aspose.cells.Workbook;
 ```
@@ -146,7 +148,7 @@ String refersTo = namedRange.getRefersTo();
 3. **ฉันสามารถใช้ Aspose.Cells ในแอปพลิเคชันเว็บได้หรือไม่**
    - ใช่ Aspose.Cells สามารถรวมเข้ากับแอปพลิเคชันทั้งฝั่งเดสก์ท็อปและเซิร์ฟเวอร์ รวมถึงแอปพลิเคชันเว็บได้
 
-4. **มีการสนับสนุนสำหรับรูปแบบไฟล์ Excel ที่แตกต่างกันหรือไม่**
+4. **มีการสนับสนุนสำหรับรูปแบบไฟล์ Excel ที่แตกต่างกันหรือไม่?**
    - แน่นอน! Aspose.Cells รองรับรูปแบบต่างๆ เช่น XLS, XLSX, CSV และอื่นๆ อีกมากมาย
 
 5. **ฉันจะจัดการข้อยกเว้นเมื่อโหลดไฟล์อย่างไร**
@@ -162,6 +164,9 @@ String refersTo = namedRange.getRefersTo();
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

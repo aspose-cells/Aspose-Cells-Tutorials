@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Innan du börjar implementera, se till att du har följande:
 - En fungerande Java-utvecklingsmiljö (JDK installerad).
 - Installation av byggverktyget Maven eller Gradle på din maskin.
 
-**Kunskapsförkunskaper:**
+**Kunskapsförkunskapskrav:**
 - Grundläggande förståelse för Java-programmering.
 - Bekantskap med Excel-filstrukturer och XML-dataformat.
 
@@ -87,7 +89,7 @@ Vi börjar med att skapa en instans av en arbetsbok, komma åt arbetsblad och ma
    Workbook wb = new Workbook();
    ```
 
-2. **Åtkomstarbetsblad och cell:**
+2. **Åtkomstblad och cell:**
    ```java
    // Få åtkomst till det första kalkylbladet i arbetsboken.
    Worksheet ws = wb.getWorksheets().get(0);
@@ -173,6 +175,9 @@ A: Gå med i [Aspose-forumet](https://forum.aspose.com/c/cells/9) för samhälls
 - **Köp och licensiering:** Läs mer om licenser och köp på [Aspose köpsida](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

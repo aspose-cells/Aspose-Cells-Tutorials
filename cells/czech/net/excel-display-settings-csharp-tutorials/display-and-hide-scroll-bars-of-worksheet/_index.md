@@ -1,36 +1,38 @@
 ---
-title: Zobrazit A Skrýt Posuvníky Listu
-linktitle: Zobrazit A Skrýt Posuvníky Listu
-second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak zobrazit a skrýt posuvníky v listech aplikace Excel pomocí Aspose.Cells for .NET, pomocí tohoto podrobného a snadno srozumitelného kurzu.
-weight: 50
-url: /cs/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
+"description": "Naučte se, jak zobrazit a skrýt posuvníky v listech aplikace Excel pomocí Aspose.Cells pro .NET v tomto podrobném a snadno srozumitelném tutoriálu."
+"linktitle": "Zobrazení a skrytí posuvníků v pracovním listu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Zobrazení a skrytí posuvníků v pracovním listu"
+"url": "/cs/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zobrazit A Skrýt Posuvníky Listu
+# Zobrazení a skrytí posuvníků v pracovním listu
 
 ## Zavedení
 
-Správa souborů aplikace Excel programově se často může zdát jako kouzlo! Ať už chcete zlepšit uživatelský zážitek nebo zjednodušit rozhraní vaší tabulkové aplikace, ovládání vizuálních komponent, jako jsou posuvníky, je zásadní. V této příručce prozkoumáme, jak zobrazit a skrýt posuvníky listu pomocí Aspose.Cells for .NET. Pokud s tím začínáte nebo chcete vylepšit své dovednosti, jste na správném místě!
+Programová správa souborů Excelu se může často jevit jako kouzlo! Ať už chcete vylepšit uživatelský zážitek nebo zjednodušit rozhraní tabulkového procesoru, ovládání vizuálních komponent, jako jsou posuvníky, je nezbytné. V této příručce se podíváme na to, jak zobrazit a skrýt posuvníky listu pomocí Aspose.Cells pro .NET. Pokud jste v tomto oboru nováčkem nebo si chcete své dovednosti zdokonalit, jste na správném místě!
 
 ## Předpoklady
 
-Než začnete, ujistěte se, že máte vše, co potřebujete:
+Než začneme, ujistěte se, že máte vše, co potřebujete:
 
-1. Základní znalost C#: Základní znalost programování C# bude užitečná, protože budeme psát úryvky kódu v tomto jazyce.
-2.  Aspose.Cells for .NET: Budete potřebovat knihovnu Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
-3. Nastavení IDE: Integrované vývojové prostředí (IDE), jako je Visual Studio nebo nastavení editoru kódu pro psaní a spouštění kódu C#.
-4.  Soubor Excel: Ukázkový soubor Excel (např.`book1.xls`), které můžete upravovat a testovat.
+1. Základní znalost C#: Základní znalost programování v C# bude užitečná, protože budeme v tomto jazyce psát úryvky kódu.
+2. Aspose.Cells pro .NET: Budete potřebovat knihovnu Aspose.Cells. Můžete [stáhněte si to zde](https://releases.aspose.com/cells/net/).
+3. Nastavení IDE: Integrované vývojové prostředí (IDE), jako je Visual Studio, nebo editor kódu nastavený pro psaní a spouštění kódu C#.
+4. Soubor Excel: Ukázkový soubor Excel (např. `book1.xls`), které můžete upravovat a testovat.
 
-Jakmile splníte tyto předpoklady, můžeme se ponořit do kódu.
+Jakmile splníte tyto předpoklady, můžeme se pustit do kódu.
 
-## Import nezbytných balíčků
+## Import potřebných balíčků
 
-Chcete-li pracovat s Aspose.Cells, musíte nejprve importovat požadované jmenné prostory do kódu C#. Takto to uděláte:
+Abyste mohli pracovat s Aspose.Cells, musíte nejprve importovat požadované jmenné prostory do kódu C#. Postupujte takto:
 
 ```csharp
 using System.IO;
@@ -38,55 +40,55 @@ using Aspose.Cells;
 ```
 
 - `System.IO` umožňuje spravovat operace vstupu a výstupu souborů.
-- `Aspose.Cells` je knihovna, která poskytuje všechny potřebné funkce pro manipulaci se soubory Excel.
+- `Aspose.Cells` je knihovna, která poskytuje všechny potřebné funkce pro manipulaci s excelovými soubory.
 
-Nyní si rozdělme úkol na stravitelné kroky.
+Nyní si úkol rozdělme na stravitelné kroky.
 
-## Krok 1: Definujte cestu k souboru
+## Krok 1: Definování cesty k souboru
 
-Zde zadáte cestu k souboru Excel, se kterým chcete pracovat.
+Zde zadáte cestu k souboru aplikace Excel, se kterým chcete pracovat.
 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Nahradit`YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kde je uložen váš soubor Excel. To vašemu programu umožní najít potřebné soubory, se kterými bude manipulovat.
+Nahradit `YOUR DOCUMENT DIRECTORY` se skutečnou cestou, kam je uložen váš soubor Excel. To umožňuje vašemu programu najít potřebné soubory, se kterými bude manipulovat.
 
-## Krok 2: Vytvořte stream souborů
+## Krok 2: Vytvoření souborového streamu
 
-Zde vytvoříte souborový proud pro čtení souboru Excel.
+Zde vytvoříte souborový proud pro čtení souboru aplikace Excel.
 
 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream`třída umožňuje číst ze souborů a zapisovat do nich. V tomto případě otevíráme náš soubor Excel v režimu čtení.
+Ten/Ta/To `FileStream` třída umožňuje číst ze souborů a zapisovat do nich. V tomto případě otevíráme náš soubor aplikace Excel v režimu čtení.
 
-## Krok 3: Vytvořte instanci objektu sešitu
+## Krok 3: Vytvoření instance objektu Workbook
 
- Dále musíte vytvořit a`Workbook` objekt, který v kódu představuje váš soubor Excel.
+Dále je třeba vytvořit `Workbook` objekt, který v kódu představuje váš soubor aplikace Excel.
 
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
   
- Tento`Workbook` objekt nyní obsahuje všechna data a nastavení vašeho souboru Excel, což umožňuje manipulaci později v procesu.
+Tento `Workbook` Objekt nyní obsahuje všechna data a nastavení vašeho souboru Excel, což umožňuje pozdější manipulaci v procesu.
 
-## Krok 4: Skryjte vertikální posuvník
+## Krok 4: Skrytí svislého posuvníku
 
-Nyní přichází ta zábavná část! Vertikální posuvník můžete skrýt a vytvořit tak čistší rozhraní.
+A teď přichází ta zábavná část! Svislý posuvník můžete skrýt a vytvořit tak přehlednější rozhraní.
 
 
 ```csharp
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Nastavením`IsVScrollBarVisible` na`false`, je svislý posuvník skrytý. To může být zvláště užitečné, když chcete omezit rolování uživatelsky přívětivým způsobem.
+Nastavením `IsVScrollBarVisible` na `false`, svislý posuvník je skrytý. To může být obzvláště užitečné, pokud chcete omezit posouvání uživatelsky přívětivým způsobem.
 
-## Krok 5: Skryjte vodorovný posuvník
+## Krok 5: Skrytí vodorovného posuvníku
 
 Stejně jako u svislého posouvání můžete skrýt i vodorovný posuvník.
 
@@ -95,53 +97,55 @@ Stejně jako u svislého posouvání můžete skrýt i vodorovný posuvník.
 workbook.Settings.IsHScrollBarVisible = false;
 ```
   
-Zde také zneviditelníme vodorovný posuvník. To vám dává větší kontrolu nad vzhledem listu.
+Zde také skryjeme vodorovný posuvník. To vám dává větší kontrolu nad vzhledem listu.
 
-## Krok 6: Uložte upravený soubor Excel
+## Krok 6: Uložení upraveného souboru aplikace Excel
 
-Po změně nastavení viditelnosti je třeba změny uložit. 
+Po změně nastavení viditelnosti je nutné změny uložit. 
 
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
   
-Tento kód uloží upravený sešit pod novým názvem (`output.xls`). Zabraňuje přepsání vašeho původního souboru a umožňuje vám udržovat zálohu.
+Tento kód uloží upravený sešit pod novým názvem (`output.xls`). Zabraňuje přepsání původního souboru a umožňuje vám uchovávat zálohu.
 
-## Krok 7: Zavřete Stream souborů
+## Krok 7: Zavřete souborový stream
 
-Nakonec vždy nezapomeňte zavřít proudy souborů, abyste uvolnili systémové prostředky.
+A konečně, nezapomeňte vždy zavřít souborové streamy, abyste uvolnili systémové prostředky.
 
 
 ```csharp
 fstream.Close();
 ```
   
-Zavření streamu je dobrý postup, abyste zabránili úniku paměti a zajistili hladký chod vaší aplikace.
+Uzavření streamu je dobrým postupem, jak zabránit únikům paměti a zajistit hladký chod aplikace.
 
 ## Závěr
 
-Pomocí těchto jednoduchých kroků jste se naučili, jak zobrazit a skrýt posuvníky listu pomocí Aspose.Cells for .NET. To nejen zvyšuje estetiku vašich souborů Excel, ale také zlepšuje uživatelský zážitek, zejména při prezentaci dat nebo formulářů. 
+Dodržováním těchto jednoduchých kroků jste se naučili, jak zobrazit a skrýt posuvníky listu pomocí Aspose.Cells pro .NET. To nejen vylepší estetiku vašich souborů aplikace Excel, ale také zlepší uživatelský komfort, zejména při prezentaci dat nebo formulářů. 
 
-## FAQ
+## Často kladené otázky
 
-### Mohu po skrytí posuvníky znovu zobrazit?  
- Ano! Jen je potřeba nastavit`IsVScrollBarVisible` a`IsHScrollBarVisible` zpět k`true`.
+### Mohu posuvníky po jejich skrytí znovu zobrazit?  
+Ano! Stačí nastavit `IsVScrollBarVisible` a `IsHScrollBarVisible` zpět k `true`.
 
 ### Je Aspose.Cells zdarma k použití?  
- Aspose.Cells není zcela zdarma, ale můžete si jej po omezenou dobu zdarma vyzkoušet nebo zvážit nákup[dočasnou licenci](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells není zcela zdarma, ale můžete si ho po omezenou dobu zdarma vyzkoušet nebo zvážit jeho zakoupení. [dočasná licence](https://purchase.aspose.com/temporary-license/).
 
-### S jakými typy souborů aplikace Excel mohu pomocí Aspose.Cells manipulovat?  
-Můžete pracovat s různými formáty Excelu, včetně .xls, .xlsx, .xlsm, .xlsb atd.
+### S jakými typy souborů aplikace Excel mohu manipulovat pomocí Aspose.Cells?  
+Můžete pracovat s různými formáty aplikace Excel, včetně .xls, .xlsx, .xlsm, .xlsb atd.
 
 ### Kde najdu další příklady?  
- Zkontrolujte[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro další příklady a návody.
+Zkontrolujte [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/net/) pro další příklady a návody.
 
-### Co když při používání Aspose.Cells narazím na problémy?  
-Můžete vyhledat pomoc nebo nahlásit problémy na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
+### Co když narazím na problémy při používání Aspose.Cells?  
+Pomoc nebo problémy můžete nahlásit na fóru podpory Aspose. [zde](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

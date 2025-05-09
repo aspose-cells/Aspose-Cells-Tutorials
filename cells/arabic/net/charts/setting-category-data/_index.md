@@ -1,51 +1,56 @@
 ---
-title: إعداد مخطط Excel مع Aspose.Cells ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء دفتر عمل Excel، وإضافة بيانات العينات، وإنشاء جدول عمود باستخدام Aspose.Cells ل .NET مع أمثلة رمز خطوة بخطوة.
-keywords: [Aspose.Cells for .NET, create Excel chart, generate column chart, Excel automation, C# Excel library, .NET spreadsheet API]
-url: /ar/net/charts/setting-category-data/
+"description": "تعرف على كيفية إنشاء مصنف Excel وإضافة بيانات نموذجية وإنشاء مخطط عمودي باستخدام Aspose.Cells لـ .NET مع أمثلة التعليمات البرمجية خطوة بخطوة."
+"title": "إنشاء مخطط Excel باستخدام Aspose.Cells لـ .NET"
+"url": "/ar/net/charts/setting-category-data/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إعداد مخطط Excel مع Aspose.Cells ل .NET
-يوضح هذا المثال كيفية إنشاء دفتر عمل Excel، وتعبئة مع بيانات العينات، وإنشاء مخطط عمود باستخدام Aspose.Cells ل .NET. يشمل الدليل خطوة بخطوة إنشاء دفتر عمل، وإضافة البيانات، وتعيين علامات الفئة، وتكوين الرسم البياني. يوفر Aspose.Cells API قوية لتلقيح إنشاء ملفات Excel والتلاعب بها في تطبيقات .NET، مما يسهل إنشاء مخططات ديناميكية برنامجيا.  
+# إنشاء مخطط Excel باستخدام Aspose.Cells لـ .NET
+يوضح هذا المثال كيفية إنشاء مصنف Excel، وملئه ببيانات نموذجية، وإنشاء مخطط عمودي باستخدام Aspose.Cells لـ .NET. يغطي هذا الدليل خطوة بخطوة إنشاء مصنف، وإضافة البيانات، وتعيين تسميات الفئات، وتكوين المخطط. يوفر Aspose.Cells واجهة برمجة تطبيقات فعّالة لأتمتة إنشاء ملفات Excel ومعالجتها في تطبيقات .NET، مما يُسهّل إنشاء مخططات ديناميكية برمجيًا.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/setting-category-data" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-للاستخدام Aspose.Cells ل .NET، اتبع هذه الخطوات:  
+لاستخدام Aspose.Cells لـ .NET، اتبع الخطوات التالية:  
 
-1. قم بتثبيتها عبر مدير الحزمات NuGet:  
-   * افتح مشروع .NET الخاص بك في Visual Studio.  
-   * اذهب إلى أدوات → مدير حزم NuGet → إدارة حزم NuGet للحصول على الحل.  
-   * ابحث عن Aspose.Cells واكتتاب النسخة الأخيرة  
+1. التثبيت عبر مدير حزمة NuGet:  
+   - افتح مشروع .NET الخاص بك في Visual Studio.  
+   - انتقل إلى الأدوات → مدير حزمة NuGet → إدارة حزم NuGet للحل.  
+   - ابحث عن Aspose.Cells وقم بتثبيت الإصدار الأحدث.  
 
-   بدلاً من ذلك، قم بتثبيته باستخدام جهاز تحكم الحزم:  
+   بدلاً من ذلك، قم بتثبيته باستخدام وحدة التحكم في إدارة الحزم:  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
 2. التنزيل من موقع Aspose:  
-   * زيارة الصفحة الرسمية للتنزيل: [Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/)  
-   * قم بتنزيل DLL وإضافة إشارة إليها في مشروعك.  
+   - قم بزيارة صفحة التنزيل الرسمية: [Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/)  
+   - قم بتنزيل ملف DLL وأضف مرجعًا إليه في مشروعك.  
 
-3. التقدم بطلب للحصول على الترخيص (اختياري):  
-   * الحصول على رخصة من[إستهداف الشراء](https://purchase.aspose.com/buy)أو طلب[رخصة مؤقتة](https://purchase.aspose.com/temporary-license/). . .  
-   * اطلب الترخيص في رمزك:  
+3. تطبيق الترخيص (اختياري):  
+   - الحصول على ترخيص من [شراء Aspose](https://purchase.aspose.com/buy) أو اطلب [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/).  
+   - قم بتطبيق الترخيص في الكود الخاص بك:  
      ```csharp
      Aspose.Cells.License license = new Aspose.Cells.License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

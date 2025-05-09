@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ Salvar a pasta de trabalho usando essas opções garante que qualquer conteúdo 
 
 Ao trabalhar com arquivos grandes do Excel:
 - Otimize o uso de memória configurando o Aspose.Cells para funcionar eficientemente no seu ambiente Java.
-- Use o `HtmlSaveOptions` classe criteriosamente, adaptando-a para lidar apenas com os elementos necessários para conversão.
+- Use o `HtmlSaveOptions` classe criteriosamente, adaptando-a para lidar apenas com elementos necessários para conversão.
 
 ## Conclusão
 
@@ -151,6 +153,9 @@ Explore recursos adicionais do Aspose.Cells, como conversão de gráficos ou for
 Este tutorial serve como um guia abrangente para converter arquivos do Excel em HTML usando o Aspose.Cells para Java, garantindo clareza e funcionalidade em suas apresentações na web.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

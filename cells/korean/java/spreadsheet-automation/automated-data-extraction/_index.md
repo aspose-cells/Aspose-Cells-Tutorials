@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 자동 데이터 추출
@@ -25,7 +27,7 @@ Excel 파일에서 데이터를 추출하는 것은 다양한 비즈니스 애�
 
 1. 효율성: 수동 데이터 추출을 없애 시간과 노력을 절약합니다.
 2. 정확성: 데이터 검색 시 오류 발생 위험을 줄입니다.
-3. 일관성: 추출 과정 전체에서 균일한 데이터 형식을 유지합니다.
+3. 일관성: 추출 과정에서 일관된 데이터 형식을 유지합니다.
 4. 확장성: 대량의 데이터를 손쉽게 처리합니다.
 
 ## 시작하기
@@ -111,9 +113,11 @@ Aspose.Cells for Java를 사용하여 데이터 추출을 자동화하면 Excel 
    API 문서를 탐색하세요 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 예를 보려면 여기를 클릭하세요.
 
 오늘부터 Aspose.Cells for Java를 사용하여 데이터 추출 작업을 자동화하고 데이터 검색 프로세스를 간소화하세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

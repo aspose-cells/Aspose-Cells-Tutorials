@@ -1,14 +1,16 @@
 ---
-title: Tabloda Temaları Uygula
-linktitle: Tabloda Temaları Uygula
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'i kullanarak Excel'deki grafiklere temaları nasıl uygulayacağınızı, kolay takip edilebilen adım adım kılavuzumuzla öğrenin. Veri sunumunuzu geliştirin.
-weight: 10
-url: /tr/net/setting-chart-appearance/apply-themes-in-chart/
+"description": "Aspose.Cells for .NET'i kullanarak Excel'deki grafiklere temaları nasıl uygulayacağınızı, kolay takip edilebilen adım adım kılavuzumuzla öğrenin. Veri sunumunuzu geliştirin."
+"linktitle": "Tabloda Temaları Uygula"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Tabloda Temaları Uygula"
+"url": "/tr/net/setting-chart-appearance/apply-themes-in-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tabloda Temaları Uygula
@@ -25,8 +27,8 @@ Kodlama bölümüne geçmeden önce, yerine getirmeniz gereken birkaç ön koşu
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET uygulamaları geliştirmek için kullanıcı dostu bir ortam sağlar.
 2. .NET Framework veya .NET Core: Tercihinize bağlı olarak, kodumuzu takip edecek şekilde .NET Framework veya .NET Core'un kurulu olması gerekir.
-3.  Aspose.Cells for .NET: Bunu kaçıramazsınız! Başlamak için Aspose.Cells for .NET'i indirin. DLL'leri bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-4. C# Temel Bilgisi: Kodu adım adım size anlatacağız ancak C# ile ilgili temel bilgilere sahip olmak kesinlikle yardımcı olacaktır.
+3. Aspose.Cells for .NET: Bunu kaçıramazsınız! Başlamak için Aspose.Cells for .NET'i indirin. DLL'leri bulabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
+4. C# Hakkında Temel Bilgi: Kodu adım adım size anlatacağız ancak C# hakkında temel bir bilgiye sahip olmak kesinlikle yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
 
@@ -54,18 +56,18 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Burada, değiştirin`Your Output Directory` Ve`Your Document Directory` belirli yollarınızla. Bu dizinlerin açıkça tanımlanması iş akışınızı kolaylaştıracak ve ileride herhangi bir karışıklığın önüne geçecektir.
+Burada, değiştirin `Your Output Directory` Ve `Your Document Directory` belirli yollarınızla. Bu dizinlerin açıkça tanımlanması iş akışınızı kolaylaştıracak ve ileride herhangi bir karışıklığın önüne geçecektir.
 
 ## Adım 2: Çalışma Kitabını Örneklendirin
 
- Sırada, değiştirmek istediğiniz grafiği içeren Excel dosyasını açma zamanı var. Bunu, bir örneğini oluşturarak yapıyoruz`Workbook` sınıfımızı oluşturuyoruz ve kaynak dosyamızı yüklüyoruz.
+Sırada, değiştirmek istediğiniz grafiği içeren Excel dosyasını açma zamanı var. Bunu, bir örneğini oluşturarak yapıyoruz `Workbook` sınıfımızı oluşturuyoruz ve kaynak dosyamızı yüklüyoruz.
 
 ```csharp
 // Bir grafik içeren dosyayı açmak için çalışma kitabını örneklendirin
 Workbook workbook = new Workbook(sourceDir + "sampleApplyingThemesInChart.xlsx");
 ```
 
- Emin olun ki`sampleApplyingThemesInChart.xlsx` kaynak dizininizde mevcuttur.
+Emin olun ki `sampleApplyingThemesInChart.xlsx` kaynak dizininizde mevcuttur.
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -102,10 +104,10 @@ Bu kod satırı, grafikteki ilk serinin düz dolgu kullanacak şekilde ayarlanma
 
 ## Adım 6: Rengi Yapılandırın
 
- Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir dizi oluşturmayı içerir.`CellsColor` nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
+Artık dizimiz hazır olduğuna göre, rengini değiştirmemiz gerekiyor. Bu, bir `CellsColor` nesne ve bir tema rengi belirterek. Bu örnek için bir vurgu stili seçeceğiz.
 
 ```csharp
-//SolidFill'in CellsColor'ını alın
+// SolidFill'in CellsColor'ını alın
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 
 // Accent stilinde bir tema oluşturun
@@ -114,7 +116,7 @@ cc.ThemeColor = new ThemeColor(ThemeColorType.Accent6, 0.6);
 
 İşte olanlar:
 1. Katı dolgunun rengini elde ediyoruz.
-2.  Kullanarak`ThemeColor` , katı dolgumuz için bir renk belirledik. Değiştirebilirsiniz`Accent6` İstediğiniz tema rengine göre başka bir tema rengine dönüştürebilirsiniz.
+2. Kullanarak `ThemeColor`katı dolgumuz için bir renk belirledik. Değiştirebilirsiniz `Accent6` İstediğiniz tema rengine göre başka bir tema rengine dönüştürebilirsiniz.
 
 ## Adım 7: Temayı Seriye Uygulayın
 
@@ -129,7 +131,7 @@ Bu çizgi grafikteki renkleri etkili bir şekilde günceller.
 
 ## Adım 8: Çalışma Kitabını Kaydedin
 
-Tüm bu zor çalışmalardan sonra, değişikliklerimizi yeni bir Excel dosyasına kaydetmemiz gerekiyor.
+Tüm bu zorlu çalışmalardan sonra, değişikliklerimizi yeni bir Excel dosyasına kaydetmemiz gerekiyor.
 
 ```csharp
 // Excel dosyasını kaydedin
@@ -158,19 +160,21 @@ Aspose.Cells for .NET kullanarak Excel'deki grafiklerinize temalar uygulamak, ve
 Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla düzenlemelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 
 ### Satın almadan önce Aspose.Cells'i deneyebilir miyim?
- Evet, ücretsiz denemeyi indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeyi indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Hangi tür grafik temalarını uygulayabilirim?
 Aspose.Cells, Vurgu stilleri ve diğerleri de dahil olmak üzere çeşitli tema renklerini destekler.
 
 ### Birden fazla grafiğe tema uygulamak mümkün müdür?
-Kesinlikle! Döngüye girebilirsin`worksheet.Charts` ve ihtiyaç halinde temaları uygulayın.
+Kesinlikle! Döngüye girebilirsin `worksheet.Charts` ve ihtiyaç duyulduğu takdirde temaları uygulayın.
 
 ### Aspose.Cells için desteği nereden alabilirim?
- Destek alabilir ve kullanıcı topluluğuyla etkileşim kurabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Destek alabilir ve kullanıcı topluluğuyla etkileşim kurabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Workbook workbook = new Workbook("path/to/your/XML_Data.xlsx");
 ### Hozzáférési munkalapok és listaobjektumok
 Nyissa meg azt a munkalapot és listaobjektumot (táblázatot), amelyből ki szeretné vonni az XML elérési utat:
 ```java
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet ws = workbook.getWorksheets().get(0);
 
 // A ListObject elérése az első lapról
@@ -152,6 +154,9 @@ Fedezze fel a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/j
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

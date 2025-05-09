@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-Excelにインポートした際に、HTMLデータが乱雑になり、フォーマットに問題が生じることにお困りではありませんか？特に、 `<br>` タグなどの要素は、データの視覚的な一貫性を損なう可能性があります。このチュートリアルでは、Aspose.Cells for Javaを使用して、Excelシート内の余分なスペースを削除し、列を自動調整することで、HTMLコンテンツを効率化する方法を説明します。これらの機能を習得することで、データのインポートがスムーズになり、プレゼンテーションもより美しくなります。
+Excelにインポートした際に、HTMLデータが乱雑になり、フォーマットに問題が生じることにお困りではありませんか？特に、 `<br>` タグなどの要素は、データの視覚的な一貫性を損なう可能性があります。このチュートリアルでは、Aspose.Cells for Javaを使用して、Excelシート内の余分なスペースを削除し、列を自動調整することで、HTMLコンテンツを効率化する方法を説明します。これらの機能を習得することで、データのインポートがよりスムーズになり、プレゼンテーションもより美しくなります。
 
 **学習内容:**
 - Aspose.Cells を使用して HTML 文字列から不要なスペースを削除します。
@@ -155,7 +157,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 ```
 
-**Accessワークシートと列の自動調整**
+**ワークシートにアクセスして列を自動調整する**
 最初のワークシートにアクセスし、列を自動調整します。
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -165,7 +167,7 @@ workbook.save(outDir + "/AutoFitSample_out.xlsx", SaveFormat.XLSX);
 
 ## 実用的なアプリケーション
 これらの機能の実際の使用例をいくつか紹介します。
-1. **データクリーニング**データ分析の前に、余分な HTML スペースの削除を自動化します。
+1. **データクリーニング**データ分析の前に、冗長な HTML スペースの削除を自動化します。
 2. **財務報告**列幅を自動調整して財務シートの明瞭性を確保します。
 3. **在庫管理**Web ソースから Excel に在庫データをクリーンにインポートします。
 4. **顧客データ統合**CRM システムへの顧客データのインポートを効率化します。
@@ -203,6 +205,9 @@ Java プロジェクトを次のレベルに引き上げる準備はできてい
 - [Aspose.Cells for Javaをダウンロード](https://downloads.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

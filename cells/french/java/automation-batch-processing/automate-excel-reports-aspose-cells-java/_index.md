@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5 : Parcourez les cellules d'une colonne, déterminez la largeur maximale requ
 En tirant parti de ces ressources, vous serez bien équipé pour améliorer davantage vos compétences et mettre en œuvre des tâches d’automatisation Excel plus complexes.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

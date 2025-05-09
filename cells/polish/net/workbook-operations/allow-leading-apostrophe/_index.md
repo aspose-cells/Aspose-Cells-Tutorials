@@ -1,14 +1,16 @@
 ---
-title: Zezwalaj na wiodący apostrof w skoroszycie za pomocą Aspose.Cells
-linktitle: Zezwalaj na wiodący apostrof w skoroszycie za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zezwolić na wiodące apostrofy w programie Excel przy użyciu Aspose.Cells dla .NET. Prosty samouczek z przykładami kodu, wskazówkami i często zadawanymi pytaniami.
-weight: 15
-url: /pl/net/workbook-operations/allow-leading-apostrophe/
+"description": "Dowiedz się, jak zezwolić na wiodące apostrofy w programie Excel przy użyciu Aspose.Cells dla .NET. Prosty samouczek z przykładami kodu, wskazówkami i często zadawanymi pytaniami."
+"linktitle": "Zezwalaj na wiodący apostrof w skoroszycie za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zezwalaj na wiodący apostrof w skoroszycie za pomocą Aspose.Cells"
+"url": "/pl/net/workbook-operations/allow-leading-apostrophe/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zezwalaj na wiodący apostrof w skoroszycie za pomocą Aspose.Cells
@@ -18,7 +20,7 @@ Zarządzanie danymi przekroczyło mnóstwo granic, ewoluując od tradycyjnych me
 ## Wymagania wstępne
 Zanim wyruszymy w tę podróż, upewnijmy się, że jesteś dobrze przygotowany. Oto, co musisz mieć w swoim zestawie narzędzi:
 1. Visual Studio: zainstalowanie tego programu w systemie jest bardzo ważne, ponieważ będziesz pisać i uruchamiać kod C# w celu implementacji funkcjonalności Aspose.Cells.
-2.  Aspose.Cells dla .NET: Będziesz chciał mieć tę bibliotekę do swojej dyspozycji. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Będziesz chciał mieć tę bibliotekę do swojej dyspozycji. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o C#: Niewielka znajomość programowania w C# bardzo się przyda. Jeśli znasz struktury danych, jesteś już o krok przed innymi.
 4. .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework, aby zapewnić zgodność z Aspose.Cells.
 ## Importuj pakiety
@@ -57,24 +59,24 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 ## Krok 3: Utwórz obiekt WorkbookDesigner
- Ten`WorkbookDesigner` Klasa jest kluczowa dla przetwarzania inteligentnych znaczników w skoroszycie. Oto jak możesz ją utworzyć:
+Ten `WorkbookDesigner` Klasa jest kluczowa dla przetwarzania inteligentnych znaczników w skoroszycie. Oto jak możesz ją utworzyć:
 ```csharp
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 ## Krok 4: Załaduj skoroszyt
- Teraz czas załadować skoroszyt z określonego katalogu źródłowego. Upewnij się, że masz plik Excel o nazwie`AllowLeadingApostropheSample.xlsx` w tym katalogu.
+Teraz czas załadować skoroszyt z określonego katalogu źródłowego. Upewnij się, że masz plik Excel o nazwie `AllowLeadingApostropheSample.xlsx` w tym katalogu.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
+workbook.Ustawienies.QuotePrefixToStyle = false;
 ```
- Ustawienie`QuotePrefixToStyle`Ustawienie false pozwala na prawidłowe traktowanie początkowych apostrofów. 
+Setting `QuotePrefixToStyle` Ustawienie false pozwala na prawidłowe traktowanie początkowych apostrofów. 
 ## Krok 5: Przypisz skoroszyt do projektanta
- Następnie musisz połączyć skoroszyt z`WorkbookDesigner` obiekt, który utworzyłeś wcześniej.
+Następnie musisz połączyć skoroszyt z `WorkbookDesigner` obiekt, który utworzyłeś wcześniej.
 ```csharp
 designer.Workbook = workbook;
 ```
 ## Krok 6: Utwórz przykładowe dane
- Tutaj dzieje się magia! Stworzysz listę`DataObject` wystąpienia — jedno ze zwykłą nazwą i drugie zawierające wiodący apostrof. 
+Tutaj dzieje się magia! Stworzysz listę `DataObject` wystąpienia — jedno ze zwykłą nazwą i drugie zawierające wiodący apostrof. 
 ```csharp
 List<DataObject> list = new List<DataObject>
 {
@@ -82,9 +84,9 @@ List<DataObject> list = new List<DataObject>
     new DataObject { Id = 2, Name = "'demo" }
 };
 ```
-Symuluje wprowadzane dane i pokazuje, jak biblioteka będzie obsługiwać wiodący apostrof.
+Symuluje wprowadzane dane i pokazuje, jak biblioteka poradzi sobie z wiodącym apostrofem.
 ## Krok 7: Ustaw źródło danych
- Następnie ustaw tę listę jako źródło danych dla swojego`WorkbookDesigner`.
+Następnie ustaw tę listę jako źródło danych dla swojego `WorkbookDesigner`.
 ```csharp
 designer.SetDataSource("sampleData", list);
 ```
@@ -109,18 +111,20 @@ masz to! Za pomocą zaledwie kilku kroków możesz zezwolić na wiodące apostro
 Dzięki tej nowo odkrytej umiejętności możesz zapewnić, że Twoje pliki Excela będą dokładnie przedstawiać informacje, nawet z dziwacznymi elementami, takimi jak wiodące apostrofy. Więc śmiało, poświęć swoim arkuszom kalkulacyjnym uwagę, na jaką zasługują!
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells dla .NET?  
-Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, edytowania i konwertowania plików Excela programowo, bez konieczności instalowania programu Microsoft Excel.
+Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, edytowania i konwertowania plików Excela w sposób programowy, bez konieczności instalowania programu Microsoft Excel.
 ### Jak mogę pobrać Aspose.Cells?  
- Aspose.Cells dla .NET można pobrać ze strony[Link do pobrania](https://releases.aspose.com/cells/net/).
+Możesz pobrać Aspose.Cells dla .NET ze strony [Link do pobrania](https://releases.aspose.com/cells/net/).
 ### Czy mogę wypróbować Aspose.Cells za darmo?  
- Oczywiście! Możesz zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz zacząć od bezpłatnego okresu próbnego dostępnego [Tutaj](https://releases.aspose.com/).
 ### Czym jest WorkbookDesigner?  
- A`WorkbookDesigner` jest klasą w Aspose.Cells służącą do pracy z plikami szablonów programu Excel, które zawierają inteligentne znaczniki do wiązania danych.
+A `WorkbookDesigner` jest klasą w Aspose.Cells służącą do pracy z plikami szablonów programu Excel, które zawierają inteligentne znaczniki do wiązania danych.
 ### Gdzie mogę znaleźć pomoc, jeśli mam pytania?  
- Możesz odwiedzić forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9) Jeśli masz jakiekolwiek pytania lub problemy, skontaktuj się z nami.
+Możesz odwiedzić forum wsparcia Aspose [Tutaj](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w razie jakichkolwiek pytań lub problemów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

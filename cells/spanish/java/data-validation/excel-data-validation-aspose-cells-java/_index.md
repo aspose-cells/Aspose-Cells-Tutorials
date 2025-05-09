@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ System.out.println("Process completed successfully.");
 La validación de datos de Excel se puede utilizar eficazmente en varios escenarios:
 1. **Formularios y encuestas:** Restrinja las opciones desplegables a respuestas predefinidas para una recopilación de datos consistente.
 2. **Gestión de inventario:** Limite las entradas a identificaciones de productos o categorías válidas.
-3. **Informes financieros:** Controla los rangos de entrada de valores monetarios, garantizando la precisión.
+3. **Informes financieros:** Controle los rangos de entrada de valores monetarios, garantizando la precisión.
 
 ## Consideraciones de rendimiento
 
@@ -203,6 +205,9 @@ Esta guía le ha enseñado a crear una lista de validación de datos en una hoja
 - **Licencia temporal:** Solicitar una licencia temporal para evaluación extendida en el [Página de licencia](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม:
 จำเป็นต้องมีสภาพแวดล้อมการพัฒนาแบบโลคัลหรือบนคลาวด์เพื่อเขียนและดำเนินการโค้ดของคุณ IDE เช่น IntelliJ IDEA หรือ Eclipse จะเป็นประโยชน์
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 แนะนำให้มีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการทำงานของ Excel
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
@@ -187,6 +189,9 @@ workbook.save(outDir + "outSourceSampleCountryNames.xlsx");
 ด้วยคู่มือนี้ คุณจะพร้อมแล้วสำหรับการเริ่มใช้ Aspose.Cells ในแอปพลิเคชัน Java ของคุณ ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

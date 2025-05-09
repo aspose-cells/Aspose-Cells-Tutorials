@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,11 +191,14 @@ workbook.save(dataDir + "/HTCLChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 2. **क्या मैं बड़े डेटासेट के लिए Aspose.Cells का उपयोग कर सकता हूँ?**
    - हां, यह अनुकूलित मेमोरी प्रबंधन तकनीकों के माध्यम से बड़े स्प्रेडशीट को कुशलतापूर्वक संभालने में सहायता करता है।
 3. **मैं Java में Aspose.Cells के साथ सामान्य समस्याओं का निवारण कैसे करूँ?**
-   - अपने लाइसेंस सेटअप की जाँच करें और सुनिश्चित करें कि सभी निर्भरताएँ सही ढंग से शामिल हैं। [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) सामुदायिक समर्थन के लिए.
+   - अपने लाइसेंस सेटअप की जाँच करें और सुनिश्चित करें कि सभी निर्भरताएँ सही ढंग से शामिल हैं। [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) सामुदायिक समर्थन के लिए.
 4. **क्या Aspose.Cells का उपयोग करके Excel फ़ाइलों को अन्य प्रारूपों में परिवर्तित करना संभव है?**
    - बिल्कुल! आप कार्यपुस्तिकाओं को PDF और HTML सहित विभिन्न प्रारूपों में निर्यात कर सकते हैं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

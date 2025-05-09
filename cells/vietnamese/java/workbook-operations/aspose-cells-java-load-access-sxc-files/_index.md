@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells có thể đọc các tệp hỗ trợ macro, nhưng việc thực 
 Bằng cách làm theo hướng dẫn toàn diện này, giờ đây bạn đã sẵn sàng làm việc hiệu quả với các tệp SXC bằng Aspose.Cells for Java. Cho dù bạn là nhà phát triển muốn cải thiện ứng dụng của mình hay tổ chức muốn hợp lý hóa các tác vụ xử lý dữ liệu, Aspose.Cells đều cung cấp các công cụ cần thiết để đạt được các mục tiêu này một cách liền mạch.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

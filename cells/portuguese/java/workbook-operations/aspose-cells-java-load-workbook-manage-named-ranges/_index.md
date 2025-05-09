@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ Pronto para dar o próximo passo? Acesse [Documentação do Aspose](https://refe
 
 ## Seção de perguntas frequentes
 
-1. **O que é um intervalo nomeado no Excel?**
+1. **que é um intervalo nomeado no Excel?**
    - Um intervalo nomeado permite que você se refira a células ou grupos de células pelo nome em vez de referências de célula, simplificando operações de dados complexas.
 
 2. **Como posso lidar com pastas de trabalho grandes de forma eficiente com o Aspose.Cells?**
@@ -162,6 +164,9 @@ Este guia abrangente tem como objetivo fornecer as ferramentas e o conhecimento 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

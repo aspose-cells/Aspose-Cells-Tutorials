@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Le chargement de fichiers Excel protégés par mot de passe est essentiel pour traiter des informations sensibles. Aspose.Cells permet d'ouvrir ces fichiers facilement en spécifiant le mot de passe requis.
 
 #### Mise en œuvre étape par étape
-1. **Configurer LoadOptions**: Créer un `LoadOptions` objet et définissez le mot de passe requis.
+1. **Configurer LoadOptions**Créer un `LoadOptions` objet et définissez le mot de passe requis.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5 : Assurez-vous que le chemin d’accès à votre fichier de licence est corr
 - **Soutien**: [Assistance du forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ÁTLAG függvény Excelben
@@ -22,7 +24,7 @@ Az Excel táblázatokat széles körben használják adatelemzésre és számít
 
 Mielőtt belemerülnénk az ÁTLAG függvény használatába, be kell állítanunk a fejlesztői környezetünket. A kezdéshez kövesd az alábbi lépéseket:
 
-1. Aspose.Cells letöltése Java-hoz: Látogasson el ide [Aspose.Cells Java-hoz](https://releases.aspose.com/cells/java/) a könyvtár letöltéséhez.
+1. Aspose.Cells letöltése Java-hoz: Látogasson el ide [Aspose.Cells Java-hoz](https://releases.aspose.com/cells/java/) könyvtár letöltéséhez.
 
 2. Az Aspose.Cells telepítése: Kövesse az Aspose dokumentációjában található telepítési utasításokat. [itt](https://reference.aspose.com/cells/java/).
 
@@ -140,6 +142,7 @@ A funkciók és a speciális funkciók átfogó listáját az Aspose.Cells for J
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

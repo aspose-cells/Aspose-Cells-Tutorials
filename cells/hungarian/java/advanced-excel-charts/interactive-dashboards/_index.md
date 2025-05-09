@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interaktív műszerfalak
@@ -42,7 +44,7 @@ Workbook workbook = new Workbook();
 
 ## Adatok hozzáadása
 
-Ahhoz, hogy a műszerfalunk interaktív legyen, adatokra van szükségünk. Mintaadatokat generálhat, vagy külső forrásból kérheti le azokat. Ebben a példában létrehozunk néhány mintaadatot.
+Ahhoz, hogy a műszerfalunk interaktív legyen, adatokra van szükségünk. Mintaadatokat generálhatsz, vagy külső forrásból kérheted le őket. Ebben a példában létrehozunk néhány mintaadatot.
 
 ```java
 // Hozzáférés az első munkalaphoz
@@ -129,6 +131,7 @@ Igen, az Aspose.Cells for Java jól alkalmazható mind kis, mind nagyméretű ad
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

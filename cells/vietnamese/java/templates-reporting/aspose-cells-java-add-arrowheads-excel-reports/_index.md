@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,8 +59,8 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Để sử dụng Aspose.Cells for Java, bạn có thể bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng của nó. Để sử dụng lâu dài, hãy cân nhắc việc mua giấy phép tạm thời hoặc đầy đủ:
 
-- **Dùng thử miễn phí**Tải xuống phiên bản mới nhất từ [Aspose phát hành](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời**Yêu cầu cấp giấy phép tạm thời tại [Mua Aspose](https://purchase.aspose.com/temporary-license/).
+- **Dùng thử miễn phí**: Tải xuống phiên bản mới nhất từ [Aspose phát hành](https://releases.aspose.com/cells/java/).
+- **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời tại [Mua Aspose](https://purchase.aspose.com/temporary-license/).
 - **Mua**: Đối với mục đích thương mại, hãy mua giấy phép trực tiếp thông qua [Mua Aspose](https://purchase.aspose.com/buy).
 
 Sau khi thư viện được thiết lập, bạn đã sẵn sàng để bắt đầu viết mã.
@@ -111,7 +113,7 @@ import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.PlacementType;
 ```
 
-**Bước 2: Thêm Hình dạng Đường thẳng vào Bảng tính của bạn**
+**Bước 2: Thêm Hình dạng Đường thẳng vào Bảng tính của Bạn**
 ```java
 LineShape line = (LineShape) worksheet.getShapes().addShape(MsoDrawingType.LINE, 7, 0, 1, 0, 85, 250);
 line.setPlacement(PlacementType.FREE_FLOATING);
@@ -137,7 +139,7 @@ line.getLine().setWeight(3);
 ```
 *Màu của đường được đặt thành đỏ và độ đậm là 3 để dễ nhìn hơn.*
 
-### Thiết lập Mũi tên Dòng (H2)
+### Thiết lập mũi tên dòng (H2)
 
 #### Tổng quan
 Mũi tên có thể chỉ hướng hoặc dòng chảy trong sơ đồ. Hãy cấu hình chúng trên dòng của chúng ta.
@@ -218,6 +220,9 @@ A: Truy cập chúng bằng cách sử dụng `getWorksheets().get(index)` với
 A: Có, tối ưu hóa mã bằng cách giảm thiểu việc tạo đối tượng trong vòng lặp và theo dõi việc sử dụng bộ nhớ để ngăn ngừa rò rỉ. Sử dụng các cấu trúc dữ liệu hiệu quả do Aspose.Cells cung cấp để có hiệu suất tốt hơn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

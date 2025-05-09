@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ public class Main {
 - **Utilizzo in una formula:** Applicalo come formula all'interno di qualsiasi cella, come `"=MyStaticFunc()"`.
 
 #### Suggerimenti per la risoluzione dei problemi
-- Assicurati di avere la versione corretta di Aspose.Cells. Versioni non corrispondenti possono causare modifiche all'API o funzionalità mancanti.
+- Assicurati di avere la versione corretta di Aspose.Cells. Versioni non corrispondenti possono causare modifiche all'API o la perdita di funzionalità.
 - Controlla il percorso di build del tuo progetto per eventuali problemi di dipendenza.
 
 ## Applicazioni pratiche
@@ -180,6 +182,9 @@ In questo tutorial, abbiamo esplorato come estendere il `AbstractCalculationEngi
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

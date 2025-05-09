@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introdução
 Lidar com as complexidades da integração de dados pode ser desafiador, especialmente quando você precisa mesclar dados de várias fontes, como arquivos XML, em planilhas do Excel. Este tutorial o guiará pelo uso do Aspose.Cells Java para vincular células de uma pasta de trabalho do Excel a campos específicos dentro de um arquivo XML. Ao vincular dinamicamente elementos do mapa XML a células designadas, você simplificará o processamento de dados e aumentará a eficiência do seu fluxo de trabalho.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando Aspose.Cells em um ambiente Java
 - Carregando uma pasta de trabalho do Excel usando Aspose.Cells
 - Acessando e vinculando mapas XML com células da planilha
@@ -156,6 +158,9 @@ R5: Sim, após a compra de uma licença. O teste gratuito permite avaliação co
 - **Apoiar:** [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

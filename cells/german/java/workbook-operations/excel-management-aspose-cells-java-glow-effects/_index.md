@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,6 +129,9 @@ A3: Ja, Aspose.Cells unterstützt über seine vielseitige API verschiedene Forma
 Begeben Sie sich auf die Reise zur Beherrschung der Excel-Dateibearbeitung mit Aspose.Cells für Java und verbessern Sie Ihre datengesteuerten Anwendungen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

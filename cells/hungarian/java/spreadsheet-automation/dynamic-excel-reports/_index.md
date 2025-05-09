@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dinamikus Excel-jelentések
@@ -18,7 +20,7 @@ A dinamikus Excel-jelentések hatékony módjai az adatok bemutatásának, amely
 
 ## Bevezetés
 
-A dinamikus jelentések elengedhetetlenek a folyamatosan változó adatokkal foglalkozó vállalkozások és szervezetek számára. Ahelyett, hogy manuálisan frissítenénk az Excel-táblázatokat minden új adat érkezésekor, a dinamikus jelentések automatikusan lekérhetik, feldolgozhatják és frissíthetik az adatokat, így időt takaríthatnak meg és csökkenthetik a hibák kockázatát. Ebben az oktatóanyagban a dinamikus Excel-jelentések létrehozásának következő lépéseit ismertetjük:
+dinamikus jelentések elengedhetetlenek a folyamatosan változó adatokkal foglalkozó vállalkozások és szervezetek számára. Ahelyett, hogy manuálisan frissítenénk az Excel-táblázatokat minden új adat érkezésekor, a dinamikus jelentések automatikusan lekérhetik, feldolgozhatják és frissíthetik az adatokat, így időt takaríthatnak meg és csökkenthetik a hibák kockázatát. Ebben az oktatóanyagban a dinamikus Excel-jelentések létrehozásának következő lépéseit ismertetjük:
 
 ## 1. lépés: A fejlesztői környezet beállítása
 
@@ -71,7 +73,7 @@ worksheet.getCells().applyStyle(style, new StyleFlag());
 
 ## 6. lépés: Adatfrissítés automatizálása
 
-A dinamikus jelentések kulcsa az adatok automatikus frissítésének képessége. Ez a folyamat ütemezhető, vagy manuálisan is elindítható. Például frissítheti az adatbázis adatait időszakosan, vagy amikor a felhasználó egy gombra kattint.
+dinamikus jelentések kulcsa az adatok automatikus frissítésének képessége. Ez a folyamat ütemezhető, vagy manuálisan is elindítható. Például frissítheti az adatbázis adatait időszakosan, vagy amikor a felhasználó egy gombra kattint.
 
 ```java
 // Adatok frissítése
@@ -82,7 +84,7 @@ worksheet.calculateFormula(true);
 
 Ebben az oktatóanyagban megismerkedtünk a dinamikus Excel-jelentések létrehozásának alapjaival az Aspose.Cells for Java használatával. Megtanultad, hogyan állíthatod be a fejlesztői környezetedet, hogyan hozhatsz létre munkafüzetet, hogyan adhatsz hozzá adatokat, hogyan alkalmazhatsz képleteket és stílusokat, valamint hogyan automatizálhatod az adatfrissítést.
 
-dinamikus Excel-jelentések értékes eszközök azoknak a vállalkozásoknak, amelyek naprakész információkra támaszkodnak. Az Aspose.Cells for Java segítségével robusztus és rugalmas jelentéseket készíthet, amelyek könnyedén alkalmazkodnak a változó adatokhoz.
+A dinamikus Excel-jelentések értékes eszközök azoknak a vállalkozásoknak, amelyek naprakész információkra támaszkodnak. Az Aspose.Cells for Java segítségével robusztus és rugalmas jelentéseket készíthet, amelyek könnyedén alkalmazkodnak a változó adatokhoz.
 
 Most már megvannak az alapjai ahhoz, hogy az Ön igényeire szabott dinamikus jelentéseket hozzon létre. Kísérletezzen a különböző funkciókkal, és máris úton lesz a hatékony, adatvezérelt Excel-jelentések készítése felé.
 
@@ -113,6 +115,7 @@ Igen, az Aspose.Cells for Java lehetővé teszi dinamikus Excel-jelentések expo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

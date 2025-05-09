@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,7 +203,7 @@ Aspose.Cells for Java to wszechstronny pakiet, który sprawdzi się w wielu zast
 
 ## Rozważania dotyczące wydajności
 
-Optymalizacja wydajności podczas pracy z dużymi plikami Excela ma kluczowe znaczenie:
+Optymalizacja wydajności jest kluczowa podczas pracy z dużymi plikami programu Excel:
 - Używaj strumieni do odczytu/zapisu dużych zbiorów danych, aby zminimalizować użycie pamięci.
 - W miarę możliwości stosuj techniki przetwarzania wsadowego, aby zmniejszyć obciążenie obliczeniowe.
 - Regularnie aktualizuj Aspose.Cells, aby korzystać z udoskonaleń i poprawek błędów poprawiających wydajność.
@@ -226,6 +228,9 @@ Aby lepiej poznać możliwości pakietu Aspose.Cells, zapoznaj się z jego obsze
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

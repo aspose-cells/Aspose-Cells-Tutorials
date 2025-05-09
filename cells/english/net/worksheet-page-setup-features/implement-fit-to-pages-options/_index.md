@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-fit-to-pages-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Fit to Pages Options in Worksheet
@@ -89,6 +91,7 @@ If you need assistance, you can post your queries on the Aspose [support forum](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@
 تعلّم كيفية تحسين عرض Excel باستخدام Aspose.Cells لجافا. حسّن الأداء وجودة الصورة، واكتشف أفضل الممارسات للتعامل بسلاسة مع Excel.
 
 ### [تحسين مصنفات Excel في Java باستخدام Aspose.Cells: دليل الأداء](./optimize-excel-workbooks-java-aspose-cells-guide/)
-تعلم كيفية تحسين مصنفات Excel في Java باستخدام Aspose.Cells لتحسين الأداء وتقليل استخدام الذاكرة. يغطي هذا الدليل تكوين المصنفات، وإدارة أوراق العمل، ودمج الخلايا، والروابط التشعبية، وتقنيات الحفظ الفعالة.
+تعلم كيفية تحسين مصنفات Excel في Java باستخدام Aspose.Cells لتحسين الأداء وتقليل استخدام الذاكرة. يغطي هذا الدليل تكوين المصنفات، وإدارة أوراق العمل، ودمج الخلايا، والروابط التشعبية، وتقنيات الحفظ الفعّالة.
 
 ### [تحسين خلايا مصنف Excel في Java باستخدام Aspose.Cells: دليل شامل](./optimize-workbook-cells-java-aspose-cells-guide/)
 تعلّم كيفية تحسين خلايا مصنف Excel وإدارتها بكفاءة باستخدام Aspose.Cells لجافا. حسّن تطبيقات جافا لديك مع هذا الدليل الشامل.
@@ -78,6 +80,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Page Setup Settings From Other Worksheet
@@ -160,6 +162,7 @@ Absolutely! You can request a [temporary license](https://purchase.aspose.com/te
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

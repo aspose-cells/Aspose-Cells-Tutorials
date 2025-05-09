@@ -7,37 +7,39 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mendeteksi Format File dari File Terenkripsi Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Pernahkah Anda menghadapi situasi di mana Anda perlu mengidentifikasi format file terenkripsi tetapi tidak tahu caranya? Baik itu bagian dari alur pemrosesan data Anda atau fitur dalam perangkat lunak Anda, mengetahui format file sangatlah penting. Panduan ini membahas cara mendeteksi format file terenkripsi dengan mudah menggunakan Aspose.Cells untuk Java.
 
 **Aspose.Cells untuk Java**, yang terkenal karena fitur-fiturnya yang tangguh dalam mengelola Excel dan format spreadsheet lainnya, kini memungkinkan Anda mengidentifikasi jenis file bahkan saat dienkripsi. Berikut ini adalah hal-hal yang akan dibahas dalam tutorial ini:
 
-- **Apa yang Akan Anda Pelajari:**
+- **Amit tanulni fogsz:**
   - Cara menggunakan Aspose.Cells untuk mendeteksi format file
   - Mendeteksi jenis file terenkripsi dengan mudah
   - Implementasi praktis menggunakan Java
 
 Di akhir panduan ini, Anda akan siap untuk mengintegrasikan fungsi-fungsi ini ke dalam aplikasi Anda. Mari kita mulai dengan menyiapkan lingkungan Anda.
 
-## Prasyarat (H2)
+## Előfeltételek (H2)
 
 Sebelum kita mulai menerapkan solusi kami, pastikan Anda memiliki hal berikut:
 
-- **Pustaka dan Dependensi yang Diperlukan:**
+- **Szükséges könyvtárak és függőségek:**
   - Aspose.Cells untuk Java versi 25.3
 
-- **Pengaturan Lingkungan:**
+- **Környezet beállítása:**
   - Java Development Kit (JDK) terinstal pada sistem Anda.
   - Lingkungan Pengembangan Terpadu (IDE), seperti IntelliJ IDEA atau Eclipse.
 
-- **Prasyarat Pengetahuan:**
+- **Előfeltételek a tudáshoz:**
   - Pemahaman dasar tentang pemrograman Java dan konsep penanganan berkas.
   
 ## Menyiapkan Aspose.Cells untuk Java (H2)
@@ -60,15 +62,15 @@ Untuk mulai menggunakan Aspose.Cells, Anda perlu menyertakannya dalam proyek And
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh, tetapi Anda dapat memulai dengan uji coba gratis. Berikut cara mendapatkannya:
 
-- **Uji Coba Gratis:** Unduh paket uji coba gratis dari [Uji Coba Gratis Aspose Cells](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Ajukan permohonan lisensi sementara di [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/) jika Anda memerlukan akses tambahan.
-- **Pembelian:** Untuk penggunaan jangka panjang, beli produk dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Unduh paket uji coba gratis dari [Aspose Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Ajukan permohonan lisensi sementara di [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/) jika Anda memerlukan akses tambahan.
+- **Vásárlás:** Untuk penggunaan jangka panjang, beli produk dari [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Setelah Anda menyiapkan Aspose.Cells di proyek Anda, inisialisasikan sebagai berikut:
 
@@ -86,15 +88,15 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang, mari selami penerapan deteksi format file untuk file terenkripsi menggunakan Aspose.Cells.
 
 ### Mendeteksi Format File (H2)
 
-#### Ringkasan
+#### Áttekintés
 
-Menggunakan `FileFormatUtil` class di Aspose.Cells, Anda dapat mendeteksi format file terenkripsi dengan memberikan kata sandi yang benar. Fungsionalitas ini sangat penting saat menangani berbagai jenis file yang disimpan dengan aman menggunakan enkripsi.
+A `FileFormatUtil` class di Aspose.Cells, Anda dapat mendeteksi format file terenkripsi dengan memberikan kata sandi yang benar. Fungsionalitas ini sangat penting saat menangani berbagai jenis file yang disimpan dengan aman menggunakan enkripsi.
 
 #### Implementasi Langkah demi Langkah (Subjudul H3)
 
@@ -113,17 +115,17 @@ Menggunakan `FileFormatUtil` class di Aspose.Cells, Anda dapat mendeteksi format
 
 3. **Deteksi Format File:**
 
-   Menggunakan `FileFormatUtil.detectFileFormat` untuk mengidentifikasi format file dengan memberikan jalur file dan kata sandi.
+   Használat `FileFormatUtil.detectFileFormat` untuk mengidentifikasi format file dengan memberikan jalur file dan kata sandi.
 
    ```java
    FileFormatInfo fileFormatInfo = FileFormatUtil.detectFileFormat(filename, "1234");
    ```
 
-   - **Parameternya:** 
+   - **Paraméterek:** 
      - `filename`: Jalur ke berkas terenkripsi Anda.
      - `"1234"`: Kata sandi untuk mendekripsi informasi format file.
 
-   - **Nilai Pengembalian:** A `FileFormatInfo` objek yang berisi rincian tentang format file yang terdeteksi.
+   - **Visszatérési érték:** Egy `FileFormatInfo` objek yang berisi rincian tentang format file yang terdeteksi.
 
 4. **Tentukan Jenis Format File:**
 
@@ -139,41 +141,41 @@ Menggunakan `FileFormatUtil` class di Aspose.Cells, Anda dapat mendeteksi format
    }
    ```
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
-- **Masalah Umum:** 
+- **Gyakori problémák:** 
   - Jalur berkas atau kata sandi yang salah dapat mengakibatkan kesalahan.
   - Pastikan pustaka Aspose.Cells disertakan dan diperbarui dengan benar.
 
-## Aplikasi Praktis (H2)
+## Gyakorlati alkalmazások (H2)
 
 Mendeteksi format file terenkripsi memiliki beberapa aplikasi praktis:
 
 1. **Alur Integrasi Data:**
    Otomatisasi pemrosesan data dengan mengidentifikasi jenis file sebelum konversi atau analisis.
    
-2. **Unggahan yang Didorong Pengguna:**
+2. **Unggahan Berdasarkan Keinginan Pengguna:**
    Terapkan validasi jenis file yang aman pada platform yang menerima unggahan pengguna.
 
 3. **Sistem Manajemen Dokumen Perusahaan:**
    Tingkatkan kemampuan penanganan dokumen dengan deteksi format yang akurat, pastikan interoperabilitas yang lancar antar sistem.
 
-## Pertimbangan Kinerja (H2)
+## Teljesítményszempontok (H2)
 
 Saat bekerja dengan Aspose.Cells untuk Java dalam aplikasi yang kritis terhadap kinerja:
 
-- **Mengoptimalkan Penggunaan Sumber Daya:** Batasi operasi berkas pada yang diperlukan saja, dan proses berkas secara asinkron jika memungkinkan.
+- **Erőforrás-felhasználás optimalizálása:** Batasi operasi berkas pada yang diperlukan saja, dan proses berkas secara asinkron jika memungkinkan.
 - **Manajemen Memori Java:**
   - Pantau penggunaan memori saat menangani file yang besar atau banyak.
   - Gunakan struktur data dan algoritma yang efisien untuk menangani transformasi data.
 
-## Kesimpulan
+## Következtetés
 
 Kini Anda memiliki alat untuk mendeteksi format file terenkripsi menggunakan Aspose.Cells untuk Java. Kemampuan ini menyempurnakan aplikasi Anda dengan memastikan penanganan dan pemrosesan berbagai jenis file yang benar. Terus jelajahi fitur-fitur Aspose.Cells untuk membuka lebih banyak potensi dalam manajemen spreadsheet.
 
 Langkah selanjutnya termasuk bereksperimen dengan berbagai jenis file, mengintegrasikan fungsi ini ke dalam sistem yang lebih besar, atau menjelajahi API Aspose lainnya untuk melengkapi solusi Anda.
 
-## Bagian FAQ (H2)
+## GYIK szekció (H2)
 
 1. **Bagaimana cara menangani kata sandi yang salah?**
    - Gunakan penanganan pengecualian di sekitar `detectFileFormat` metode untuk mengelola kesalahan dengan baik.
@@ -188,19 +190,22 @@ Langkah selanjutnya termasuk bereksperimen dengan berbagai jenis file, menginteg
    - Ya, dengan mengulangi direktori file dan menerapkan logika deteksi secara terprogram.
 
 5. **Bagaimana jika saya memerlukan dukungan untuk format file tambahan?**
-   - Jelajahi perpustakaan Aspose lainnya atau hubungi mereka [forum dukungan](https://forum.aspose.com/c/cells/9) untuk panduan.
+   - Jelajahi perpustakaan Aspose lainnya atau hubungi mereka [támogató fórum](https://forum.aspose.com/c/cells/9) útmutatásért.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh Perpustakaan:** [Sel Aspose Rilis](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Uji Coba Gratis Aspose Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- **Dokumentáció:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Aspose Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
 
 Dengan mengikuti panduan ini, Anda kini siap menerapkan deteksi format file untuk file terenkripsi menggunakan Aspose.Cells di Java. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

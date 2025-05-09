@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Die kostenlose Testversion umfasst Wasserzeichen in den Ausgabedateien und eine 
 Begeben Sie sich auf die Reise zur perfekten Anpassung von Excel-Diagrammen mit Aspose.Cells für Java und verbessern Sie Ihre Datenpräsentation. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

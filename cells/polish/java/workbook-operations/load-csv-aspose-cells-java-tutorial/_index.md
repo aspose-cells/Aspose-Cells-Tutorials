@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book_CSV.csv", loadOptions);
 
-// Plik CSV został załadowany do obiektu skoroszytu.
+// Plik CSV został teraz załadowany do obiektu skoroszytu.
 ```
 
 **Wyjaśnienie parametrów:**
@@ -122,7 +124,7 @@ Workbook workbook = new Workbook(dataDir + "Book_CSV.csv", loadOptions);
 
 ### Porady dotyczące rozwiązywania problemów
 
-- **Nie znaleziono pliku:** Sprawdź dokładnie poprawność katalogu i nazwy pliku.
+- **Nie znaleziono pliku:** Sprawdź jeszcze raz poprawność katalogu i nazwy pliku.
 - **Problemy z pamięcią:** Monitoruj wykorzystanie zasobów podczas pracy z dużymi plikami. W razie potrzeby dostosuj ustawienia JVM.
 
 ## Zastosowania praktyczne
@@ -176,6 +178,9 @@ Gotowy, aby to wypróbować? Wdróż to rozwiązanie w swoim kolejnym projekcie 
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

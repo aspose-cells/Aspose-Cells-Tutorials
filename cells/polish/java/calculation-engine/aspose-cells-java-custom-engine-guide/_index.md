@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -233,6 +235,9 @@ Gotowy na głębsze zanurzenie? Spróbuj wdrożyć te rozwiązania w swoich proj
 Postępując zgodnie z tym przewodnikiem, możesz wykorzystać Aspose.Cells for Java do tworzenia potężnych niestandardowych silników obliczeniowych, które pasują do Twoich unikalnych wymagań biznesowych. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

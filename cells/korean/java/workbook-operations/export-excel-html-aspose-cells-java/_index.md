@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,12 +165,15 @@ Excel 파일을 HTML로 내보내는 것이 유익한 실제 사용 사례는 �
 - **라이브러리 다운로드**: [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **라이센스 구매**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 
 이제 모든 정보를 갖추었으니, 이 기술을 실제로 적용하여 Aspose.Cells가 여러분의 데이터 처리 능력을 어떻게 변화시킬 수 있는지 확인해 보세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

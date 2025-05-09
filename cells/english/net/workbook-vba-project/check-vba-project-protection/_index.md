@@ -8,7 +8,9 @@ url: /net/workbook-vba-project/check-vba-project-protection/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check if VBA Project is Protected and Locked for Viewing
@@ -75,6 +77,7 @@ For any queries or issues, visit the [Aspose forums](https://forum.aspose.com/c/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

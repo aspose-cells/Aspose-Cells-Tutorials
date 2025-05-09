@@ -8,7 +8,9 @@ url: /net/tables-and-lists/creating-list-object/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create List Object in Excel using Aspose.Cells
@@ -142,6 +144,7 @@ For more information and in-depth documentation, visit the site [here](https://r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ workbook.save(outDir + "PrintNoComments_out.pdf");
 A megjegyzések közvetlen kinyomtatása a megfelelő helyen biztosítja a releváns adatok mellett a jegyzetek áttekinthető áttekintését.
 
 #### Áttekintés
-Állítsa be a `PrintCommentsType` hogy `PRINT_IN_PLACE` hogy ezt elérjük.
+Állítsa be a `PrintCommentsType` hogy `PRINT_IN_PLACE` hogy ezt elérje.
 
 #### Megvalósítási lépések
 **1. lépés: A munkafüzet betöltése**
@@ -168,7 +170,7 @@ Az optimális teljesítmény érdekében:
 - Rendszeresen frissítsd az Aspose.Cells-t az új optimalizálásokért és hibajavításokért.
 
 ## Következtetés
-Az Excel-megjegyzések nyomtatási beállításainak elsajátításával **Aspose.Cells Java**, testreszabhatja a jegyzetek megjelenését a dokumentumkimenetekben. Akár a jelentések tisztán tartásáról, akár az együttműködés segítéséről, akár a visszajelzések hatékony gyűjtéséről van szó, ezek a konfigurációk rugalmasságot és kontrollt biztosítanak.
+Az Excel-megjegyzések nyomtatási beállításainak elsajátításával **Aspose.Cells Java**, testreszabhatja a jegyzetek megjelenését a dokumentumkimenetekben. Akár a jelentések tisztán tartásáról, az együttműködés segítéséről vagy a visszajelzések hatékony gyűjtéséről van szó, ezek a konfigurációk rugalmasságot és kontrollt biztosítanak.
 
 Készen állsz a megvalósításra? Kezdd az Aspose.Cells ingyenes próbaverziójának letöltésével, és kísérletezz különböző megjegyzésnyomtatási beállításokkal!
 
@@ -199,6 +201,9 @@ A5: Számos formátumot támogat, beleértve az XLS-t és az XLSX-et is, így bi
 Kezdj el elsajátítani az Excel kommentnyomtatást az Aspose.Cells Java segítségével még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

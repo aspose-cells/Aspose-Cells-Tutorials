@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 - セルの書式設定、ハイパーリンクの挿入、ピボット テーブルの使用などの操作を有効にします。
 - Aspose.Cells を使用して環境を設定するためのベスト プラクティス。
 
-これらのスキルを身に付ければ、データセキュリティを強化しながら、Excelファイルをプログラムで自信を持って管理できるようになります。まずは前提条件を確認しましょう。
+これらのスキルを身に付ければ、データセキュリティを強化しながら、Excelファイルをプログラムで自信を持って管理できるようになります。まずは前提条件を確認しましょう！
 
 ## 前提条件
 
@@ -198,6 +200,9 @@ Aspose.Cells を使用する場合は、次のベスト プラクティスを考
 - **ダウンロード**最新バージョンを入手する [Aspose リリース](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

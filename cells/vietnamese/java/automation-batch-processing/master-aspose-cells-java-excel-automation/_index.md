@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -213,7 +215,7 @@ public class CopyVBAModules {
 ### Lưu sổ làm việc có sửa đổi (H2)
 **Tổng quan**Hoàn tất và lưu công việc của bạn bằng cách lưu sổ làm việc đã sửa đổi.
 
-#### Bước 1: Lưu các Workbook đã sửa đổi
+#### Bước 1: Lưu sổ làm việc đã sửa đổi
 ```java
 import com.aspose.cells.*;
 
@@ -234,6 +236,9 @@ Hướng dẫn này cung cấp hướng dẫn toàn diện về cách sử dụn
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

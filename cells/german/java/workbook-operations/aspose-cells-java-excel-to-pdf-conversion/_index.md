@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Experimentieren Sie mit zusätzlichen Funktionen von Aspose.Cells wie Diagrammko
 Dieses Handbuch bietet einen umfassenden Überblick über die Verwendung von Aspose.Cells für Java zum Konvertieren von Excel-Dateien in PDF und stellt sicher, dass Sie über die erforderlichen Tools und Kenntnisse verfügen, um diese Lösung effektiv zu implementieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

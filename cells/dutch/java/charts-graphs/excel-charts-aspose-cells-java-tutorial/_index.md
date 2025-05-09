@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: Gebruik vooraf gedefinieerde stijl-ID's of maak aangepaste stijlen met behul
 A5: Optimaliseer gegevensbereiken, minimaliseer de complexiteit van grafieken en beheer het geheugen effectief door objecten te verwijderen wanneer ze niet nodig zijn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

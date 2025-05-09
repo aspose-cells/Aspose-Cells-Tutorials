@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,7 +66,7 @@ Bắt đầu bằng cách khởi tạo dự án của bạn và đảm bảo Asp
 
 ## Hướng dẫn thực hiện
 
-### Tính năng nhập ArrayList vào Excel
+### Tính năng Import ArrayList vào Excel
 
 Tính năng này cho phép bạn chuyển đổi dữ liệu được lưu trữ trong một `ArrayList` thành định dạng có cấu trúc trong bảng tính Excel. Sau đây là cách bạn có thể thực hiện điều này:
 
@@ -93,7 +95,7 @@ list.add("Kyle Huang");
 list.add("Tommy Wang");
 ```
 
-**Giải thích:** Ở đây, chúng tôi đang chuẩn bị một `ArrayList` chứa chuỗi. Dữ liệu này sau đó sẽ được chuyển sang Excel.
+**Giải thích:** Ở đây, chúng tôi đang chuẩn bị một cái đơn giản `ArrayList` chứa chuỗi. Dữ liệu này sau đó sẽ được chuyển sang Excel.
 
 #### Nhập dữ liệu vào bảng tính
 
@@ -175,6 +177,9 @@ Bây giờ bạn đã học được cách nhập một `ArrayList` vào Excel b
 Hướng dẫn này sẽ giúp bạn sử dụng Aspose.Cells for Java hiệu quả trong các dự án của mình, nâng cao khả năng xử lý dữ liệu và năng suất. Chúc bạn viết code vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

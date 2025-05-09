@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 Aspose.Cells for Java के साथ एक्सेल स्लाइसर अनुकूलन में महारत हासिल करने के लिए अपनी यात्रा शुरू करें, और अपने डेटा प्रस्तुतियों को अगले स्तर पर ले जाएं!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

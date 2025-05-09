@@ -1,45 +1,50 @@
 ---
-title: Kapjon a grafikon feliratot az ODS fájltól az Aspose.Cells használatával a .NET-hez
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan töltsön be egy ODS fájlt, hozzáférjen egy táblázathoz, és vegye vissza a feliratot az Aspose.Cells segítségével .NET-hez. Egyszerű és hatékony példa lépésről lépésre útmutatással.
-keywords: [Aspose.Cells for .NET, Load ODS File, Get Chart Subtitle, Access Chart in Excel, Retrieve Chart Data, Read ODS File, C# Excel Charts, .NET Spreadsheet API]
-url: /hu/net/charts/get-chart-sub-title-for-ods-file/
+"description": "Tanuld meg, hogyan tölthetsz be egy ODS fájlt, hogyan érhetsz el egy diagramot, és hogyan kérheted le a feliratát az Aspose.Cells for .NET használatával. Egyszerű és hatékony példa lépésről lépésre bemutatott útmutatással."
+"title": "Diagram alcímének lekérése ODS fájlból az Aspose.Cells for .NET használatával"
+"url": "/hu/net/charts/get-chart-sub-title-for-ods-file/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kapjon a táblázat feliratát az ODS fájltól az Aspose.Cells segítségével  
-Ez a példa bemutatja, hogyan lehet használni az Aspose.Cells a .NET-hez egy ODS fájl feltöltéséhez, egy adott táblázathoz hozzáféréshez egy munkalapban, és a feliratot visszaállítani. A fejlesztők ezt a útmutatót követve hatékonyan olvashatják és kivonhatják a táblázat információkat az ODS táblázatokból C# segítségével. A példa egyértelmű, lépésről lépésre megközelítést biztosít az Excel fájlok táblázataival való együttműködéshez, biztosítva a simán végrehajtást a .NET alkalmazásokban.  
+# Diagram alcímének lekérése ODS fájlból az Aspose.Cells használatával  
+Ez a példa bemutatja, hogyan használható az Aspose.Cells for .NET egy ODS fájl betöltéséhez, egy adott diagram eléréséhez egy munkalapon belül, és annak alcímének lekéréséhez. Az útmutató követésével a fejlesztők hatékonyan olvashatják és kinyerhetik a diagraminformációkat ODS táblázatokból C# használatával. A példa világos, lépésről lépésre bemutatja a diagramok Excel fájlokban történő kezelését, biztosítva a zökkenőmentes megvalósítást a .NET alkalmazásokban.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
-A következő lépéseket kell követni, hogy ezt a példákat használd:  
 
-1. A .NET-re az Aspose.Cells telepítése a NuGet-en keresztül:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások:  
+A példa használatához kövesse az alábbi lépéseket:  
+
+1. Telepítse az Aspose.Cells for .NET programot NuGet-en keresztül:  
    ```shell
    Install-Package Aspose.Cells
    ```  
-2. Adja meg a szükséges névterületet a C# projekthez:  
+2. Adja hozzá a szükséges névteret a C# projektjében:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Charts;
    ```  
-3. A megadott kódot futtasd be egy ODS fájl feltöltéséhez, hozzáférj egy diagramhoz, és nyomd ki a feliratot a konzolon.  
+3. Futtassa a megadott kódot egy ODS fájl betöltéséhez, egy diagram eléréséhez és az alcím konzolra nyomtatásához.  
 
-## Lásd:
-A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még
+Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

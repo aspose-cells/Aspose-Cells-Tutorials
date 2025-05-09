@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Questo codice accede al foglio di lavoro predefinito creato con la nuova istanza
 ### Inserimento di valori nelle celle
 
 **Panoramica:**  
-Per popolare le celle, utilizzare `Cells` raccolta fornita da Aspose.Cells.
+Per popolare le celle, utilizzare il `Cells` raccolta fornita da Aspose.Cells.
 
 #### Inserimento di un valore nella cella B3
 ```java
@@ -222,6 +224,9 @@ A5: Assicurati di utilizzare il percorso file corretto e che l'applicazione disp
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

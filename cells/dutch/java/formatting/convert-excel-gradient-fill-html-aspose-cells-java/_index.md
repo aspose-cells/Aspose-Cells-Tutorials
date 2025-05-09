@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ A5: Ja, loop door een map met Excel-bestanden en pas de conversielogica iteratie
 Zet de volgende stap in het onder de knie krijgen van Aspose.Cells voor Java en benut het volledige potentieel ervan om uw datapresentatieprojecten te verbeteren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

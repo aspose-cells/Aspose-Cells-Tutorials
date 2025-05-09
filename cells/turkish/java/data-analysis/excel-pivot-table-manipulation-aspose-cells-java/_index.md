@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ Her özelliğin uygulamasını Java için Aspose.Cells kullanarak inceleyelim.
 **Genel Bakış:** Yüklenen çalışma kitabında belirli bir çalışma sayfasına ve onun pivot tablosuna nasıl erişeceğinizi öğrenin.
 
 #### Adımlar:
-1. **Gerekli Sınıfları İthal Edin:**
+1. **Gerekli Sınıfları İçeri Aktarın:**
    ```java
    import com.aspose.cells.PivotTable;
    import com.aspose.cells.Worksheet;
@@ -123,7 +125,7 @@ Her özelliğin uygulamasını Java için Aspose.Cells kullanarak inceleyelim.
 **Genel Bakış:** Bu özellik, belirli satır alanları için ara toplamların nasıl yapılandırılacağını gösterir.
 
 #### Adımlar:
-1. **Gerekli Sınıfları İthal Edin:**
+1. **Gerekli Sınıfları İçeri Aktarın:**
    ```java
    import com.aspose.cells.PivotField;
    import com.aspose.cells.PivotFieldSubtotalType;
@@ -209,6 +211,9 @@ Daha fazlasını keşfedin [Aspose'nin resmi kaynakları](https://releases.aspos
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

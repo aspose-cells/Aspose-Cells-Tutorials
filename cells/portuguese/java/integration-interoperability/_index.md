@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de integração mostram como combinar o Aspose.Cells com outros sistemas para criar soluções abrangentes de processamento de documentos em Java. Estes guias passo a passo demonstram a integração com outros produtos Aspose, bibliotecas Java de terceiros e serviços externos. Cada tutorial inclui exemplos práticos de código Java para implementar fluxos de trabalho multiformato e troca de dados entre diferentes tipos de documentos, ajudando você a criar aplicativos conectados que aproveitam todo o poder do ecossistema de processamento de documentos do Aspose.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de integração e interoperabilidade
 - Implementação passo a passo com exemplos de código completos
@@ -63,6 +65,9 @@ Aprenda a implementar uma classe Teacher em Java, gerenciar dados de alunos e in
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,6 +224,9 @@ Aspose.Cells for Java предлагает обширные возможност
 Следуя этому руководству, вы сможете эффективно управлять и преобразовывать графику SmartArt в Excel с помощью Java с Aspose.Cells. Этот навык значительно повысит вашу способность автоматизировать сложные задачи в документах Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

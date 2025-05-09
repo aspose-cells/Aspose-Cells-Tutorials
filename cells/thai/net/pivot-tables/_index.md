@@ -1,26 +1,30 @@
 ---
-title: ตารางหมุนใน Aspose.Cells สําหรับ .NET 
-weight: 10
-limit:
-description: เรียนรู้วิธีการสร้าง, การฟอร์เมท, และการจัดการตารางหมุนใน Aspose.Cells สําหรับ .NET. สร้างรายงานไดนามิกและวิเคราะห์ข้อมูลโดยไม่ต้องพยายามใน C #.
-keywords:
-url: /th/net/pivot-tables/
+"description": "เรียนรู้วิธีการสร้าง จัดรูปแบบ และจัดการตารางสรุปข้อมูลใน Aspose.Cells สำหรับ .NET สร้างรายงานแบบไดนามิกและวิเคราะห์ข้อมูลได้อย่างง่ายดายใน C#"
+"title": "ตารางสรุปข้อมูลใน Aspose.Cells สำหรับ .NET"
+"url": "/th/net/pivot-tables/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## การ เบ่ง เบ่ง เบ่ง 
+## การแนะนำ 
  
-Pivot tables are a powerful feature in Aspose.Cells for .NET, allowing developers to create dynamic, interactive data summaries within Excel files programmatically. With just a few lines of C# code, you can generate pivot tables, define data sources, set row and column fields, apply filters, and even format the output for better readability. Whether you're working with large datasets or need quick insights, pivot tables streamline the data analysis process, making them an essential tool for reporting and business intelligence.  
+ตารางสรุปข้อมูลเป็นฟีเจอร์ที่มีประสิทธิภาพใน Aspose.Cells สำหรับ .NET ช่วยให้นักพัฒนาสามารถสร้างสรุปข้อมูลแบบโต้ตอบแบบไดนามิกภายในไฟล์ Excel ได้ด้วยการเขียนโปรแกรม ด้วยโค้ด C# เพียงไม่กี่บรรทัด คุณก็สามารถสร้างตารางสรุปข้อมูล กำหนดแหล่งข้อมูล ตั้งค่าฟิลด์แถวและคอลัมน์ ใช้ตัวกรอง และแม้แต่จัดรูปแบบเอาต์พุตเพื่อให้อ่านได้ง่ายขึ้น ไม่ว่าคุณจะทำงานกับชุดข้อมูลขนาดใหญ่หรือต้องการข้อมูลเชิงลึกอย่างรวดเร็ว ตารางสรุปข้อมูลจะช่วยปรับกระบวนการวิเคราะห์ข้อมูลให้กระชับขึ้น ทำให้เป็นเครื่องมือสำคัญสำหรับการรายงานและการวิเคราะห์ทางธุรกิจ  
 
-โดยใช้ Aspose.Cells สําหรับ .NET คุณสามารถปรับแต่งตารางหมุนโดยการเพิ่มสนามคํานวณ, การเปลี่ยนแปลงชนิดการรวมข้อมูล, และการนําเสนอแบบเพื่อการดูเป็นมืออาชีพ. API รองรับฟังก์ชันที่ทันสมัย เช่น การแบ่งกลุ่มข้อมูล, การอํานวยความสดุภาพตารางหมุนแบบไดเนมิก, และการจัดการแหล่งข้อมูลหลายอย่างมีประสิทธิภาพ. นี่ทําให้ผู้พัฒนาสามารถอัตโนมัติการสร้างรายงาน Excel, การ đảm bảoให้ผู้ใช้ได้สรุปแม่นยําและทันสมัยด้วยความพยายามน้อย.
+การใช้ Aspose.Cells สำหรับ .NET ช่วยให้คุณปรับแต่งตารางสรุปข้อมูลได้อย่างเต็มที่โดยการเพิ่มฟิลด์ที่คำนวณได้ การเปลี่ยนประเภทการรวมข้อมูล และใช้รูปแบบเพื่อให้ดูเป็นมืออาชีพ API รองรับฟังก์ชันขั้นสูง เช่น การจัดกลุ่มข้อมูล การรีเฟรชตารางสรุปข้อมูลแบบไดนามิก และการจัดการแหล่งข้อมูลหลายแหล่งอย่างมีประสิทธิภาพ ซึ่งช่วยให้ผู้พัฒนาสามารถสร้างรายงาน Excel โดยอัตโนมัติ ช่วยให้ผู้ใช้ได้รับผลสรุปที่ถูกต้องและเป็นปัจจุบันด้วยความพยายามที่น้อยที่สุด
 
-{{< tutorial-card link="./create-pivot-table/" title="สร้างตารางหมุนใน Excel โดยใช้ Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-table-save-in-ods/" title="เก็บตารางหมุนเป็น ODS ใน Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./create-pivot-table/" title="สร้างตารางสรุปข้อมูลใน Excel โดยใช้ Aspose.Cells" imgSrc="./create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-table-save-in-ods/" title="บันทึกตารางสรุปข้อมูลเป็น ODS ใน Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

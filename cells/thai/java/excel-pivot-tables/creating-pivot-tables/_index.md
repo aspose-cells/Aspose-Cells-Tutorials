@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างตารางสรุปข้อมูล
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    คุณสามารถทำให้การสร้าง Pivot Table ใน Java เป็นอัตโนมัติได้โดยใช้ Aspose.Cells สำหรับ Java API ตามที่สาธิตในบทช่วยสอนนี้
 
 ตอนนี้คุณมีความรู้และโค้ดในการสร้าง Pivot Table ที่มีประสิทธิภาพใน Java โดยใช้ Aspose.Cells แล้ว ทดลองใช้แหล่งข้อมูลและการกำหนดค่าต่างๆ เพื่อปรับแต่ง Pivot Table ให้เหมาะกับความต้องการของคุณ วิเคราะห์ข้อมูลอย่างสนุกสนาน!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_20
 3. **SaveFormat.EXCEL_97_TO_2003 と他のものの違いは何ですか?**  
    この形式は、Excelの旧バージョン（97～2003）との互換性を確保します。XLSXなどの最新形式の場合は、 `SaveFormat。XLSX`.
 4. **Aspose.Cells で大規模なデータセットを効率的に処理するにはどうすればよいですか?**  
-   ストリーミング API などのメモリ最適化テクニックを活用して、大きなファイルをメモリに完全にロードせずに処理します。
+   ストリーミング API などのメモリ最適化技術を活用して、大きなファイルをメモリに完全にロードせずに処理します。
 5. **Aspose.Cells ワークブック内のワークシートの数に制限はありますか?**  
    Aspose.Cells によって設定される固有の制限はありませんが、システム メモリと Excel 自体によって実際的な制限が課せられます。
 
@@ -187,6 +189,9 @@ workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_20
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

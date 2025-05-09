@@ -1,53 +1,58 @@
 ---
-title: Appliquer les couleurs et les arrière-plans dans Excel en utilisant Aspose.Cells pour .NET
-weight: 7700
-limit: 
-description: Apprenez à appliquer des couleurs et des styles de fond dans Excel en utilisant Aspose.Cells pour .NET. Personnalisez la mise en forme de cellules et enregistrez des livres de travail dans le format Excel 97-2003.
-keywords: [Aspose.Cells for .NET, Excel colors, Excel background, format Excel cells, set cell style, .NET Excel library, apply colors in Excel, Excel customization]
-url: /fr/net/formatting/colors-and-background/
+"description": "Apprenez à appliquer des couleurs et des styles d'arrière-plan dans Excel avec Aspose.Cells pour .NET. Personnalisez la mise en forme des cellules et enregistrez vos classeurs au format Excel 97-2003."
+"title": "Appliquer des couleurs et des arrière-plans dans Excel à l'aide d'Aspose.Cells pour .NET"
+"url": "/fr/net/formatting/colors-and-background/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# Appliquer les couleurs et les arrière-plans dans Excel à l'aide de Aspose.Cells
+# Appliquer des couleurs et des arrière-plans dans Excel à l'aide d'Aspose.Cells
   
-Aspose.Cells pour .NET permet aux développeurs de formater de manière programmatique des feuilles de calcul Excel en appliquant des couleurs et des styles de fond aux cellules. Cet exemple montre comment créer un livre de calcul Excel, ajouter une feuille de calcul, personnaliser les styles de cellules avec différentes couleurs de premier plan et de fond, et enregistrer le fichier dans le format Excel 97-2003. En tirant parti de Aspose.Cells, les développeurs peuvent facilement améliorer l'esthétique des feuilles de calcul et améliorer la lisibilité des données.  
+Aspose.Cells pour .NET permet aux développeurs de formater par programmation des feuilles de calcul Excel en appliquant des couleurs et des styles d'arrière-plan aux cellules. Cet exemple montre comment créer un classeur Excel, ajouter une feuille de calcul, personnaliser les styles de cellule avec différentes couleurs de premier plan et d'arrière-plan, et enregistrer le fichier au format Excel 97-2003. Grâce à Aspose.Cells, les développeurs peuvent facilement améliorer l'esthétique des feuilles de calcul et la lisibilité des données.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/colors-and-background" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instructions d'installation  
-Pour commencer avec Aspose.Cells pour .NET, suivez ces étapes:  
+Pour démarrer avec Aspose.Cells pour .NET, suivez ces étapes :  
 
-1. Télécharger et installer Aspose.Cells pour .NET  
-   * Téléchargez la dernière version de [Aspose.Cells téléchargement](https://releases.aspose.com/cells/net/)\- Je suis désolé .  
-   * Installez- le en utilisant NuGet dans Visual Studio:  
+1. Téléchargez et installez Aspose.Cells pour .NET  
+   - Téléchargez la dernière version depuis [Téléchargement d'Aspose.Cells](https://releases.aspose.com/cells/net/).  
+   - Installez-le à l’aide de NuGet dans Visual Studio :  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-2. Ajouter des références à l' espace de noms  
-   In your C# project, include:  
+2. Ajouter des références d'espace de noms  
+   Dans votre projet C#, incluez :  
    ```csharp
    using Aspose.Cells;
    using System.Drawing;
    ```  
 
-3. Appliquer les couleurs et les arrière-plans aux cellules Excel  
-   * Créer une nouvelle`Livret de travail`\- Je suis désolé.  
-   * Récupérer le `Tableau de travail`et appliquer des styles personnalisés à des cellules spécifiques.  
-   * Conserver le manuel de travail modifié dans `.xls`le format.  
+3. Appliquer des couleurs et des arrière-plans aux cellules Excel  
+   - Créer un nouveau `Workbook` objet.  
+   - Récupérer le `Worksheet` et appliquer des styles personnalisés à des cellules spécifiques.  
+   - Enregistrez le classeur modifié dans `.xls` format.  
 
 ## Voir aussi  
-Pour acheter une licence, allez à [Page d'achat à proposer](https://purchase.aspose.com/buy)\- Je suis désolé .  
-Pour une documentation complète, visitez [Aspose.Cells pour la documentation .NET](https://docs.aspose.com/cells/net/)\- Je suis désolé .  
-Pour explorer la référence complète de l'API, consultez [Aspose.Cells pour la référence .NET API](https://reference.aspose.com/cells/net/)\- Je suis désolé . 
+Pour acheter une licence, rendez-vous sur [Page d'achat d'Aspose](https://purchase.aspose.com/buy).  
+Pour une documentation complète, visitez [Documentation d'Aspose.Cells pour .NET](https://docs.aspose.com/cells/net/).  
+Pour explorer la référence complète de l'API, consultez [Référence de l'API Aspose.Cells pour .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Dzięki temu przewodnikowi nauczyłeś się, jak załadować plik Excela do `Wor
 Zrób kolejny krok w swojej drodze rozwoju, eksperymentując z Aspose.Cells dla Java i już dziś usprawnij proces konwersji plików Excel do PDF!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

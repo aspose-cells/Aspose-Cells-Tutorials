@@ -1,14 +1,16 @@
 ---
-title: Określ autora podczas ochrony zapisu skoroszytu programu Excel
-linktitle: Określ autora podczas ochrony zapisu skoroszytu programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: W tym przewodniku krok po kroku dowiesz się, jak włączyć ochronę przed zapisem w skoroszycie programu Excel, określając jednocześnie autora za pomocą Aspose.Cells for .NET.
-weight: 30
-url: /pl/net/excel-security/specify-author-while-write-protecting-excel-workbook/
+"description": "W tym przewodniku krok po kroku dowiesz się, jak zabezpieczyć skoroszyt programu Excel, określając jednocześnie autora za pomocą Aspose.Cells for .NET."
+"linktitle": "Określ autora podczas ochrony zapisu skoroszytu programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Określ autora podczas ochrony zapisu skoroszytu programu Excel"
+"url": "/pl/net/excel-security/specify-author-while-write-protecting-excel-workbook/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ autora podczas ochrony zapisu skoroszytu programu Excel
@@ -23,7 +25,7 @@ Zanim zagłębimy się w szczegóły implementacji, niezbędne jest posiadanie s
 
 1. Visual Studio: Potrzebujesz działającej instalacji Visual Studio. Tutaj będziesz pisać i kompilować swój kod .NET.
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework. Aspose.Cells obsługuje różne wersje, więc wybierz taką, która pasuje do Twojej aplikacji.
-3.  Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać z[oficjalna strona pobierania](https://releases.aspose.com/cells/net/).
+3. Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać z [oficjalna strona pobierania](https://releases.aspose.com/cells/net/).
 4. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci bez trudu poruszać się po procesie kodowania.
 
 ## Importuj pakiety
@@ -51,7 +53,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Pamiętaj o wymianie`"YOUR SOURCE DIRECTORY"` I`"YOUR OUTPUT DIRECTORY"` z rzeczywistymi ścieżkami na twojej maszynie. Pomyśl o tym jak o stworzeniu uporządkowanego miejsca pracy zanim zaczniesz tworzyć swoje arcydzieło!
+Pamiętaj o wymianie `"YOUR SOURCE DIRECTORY"` I `"YOUR OUTPUT DIRECTORY"` z rzeczywistymi ścieżkami na twojej maszynie. Pomyśl o tym jak o stworzeniu uporządkowanego miejsca pracy zanim zaczniesz tworzyć swoje arcydzieło!
 
 ## Krok 2: Utwórz pusty skoroszyt
 
@@ -69,11 +71,11 @@ Podobnie jak artysta zaczyna od pustego płótna, Ty zaczynasz od pustego skoros
 Ochrona przed zapisem jest kluczowym aspektem, zwłaszcza jeśli chcesz mieć pewność, że integralność Twoich danych pozostanie nienaruszona. Możesz to zrobić za pomocą hasła.
 
 ```csharp
-//Zabezpiecz skoroszyt hasłem przed zapisem.
+// Zabezpiecz skoroszyt hasłem przed zapisem.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
- W tym wierszu zamień`"YOUR_PASSWORD"` z silnym hasłem, które sam wybierzesz. To hasło działa jak zamknięte drzwi — tylko ci, którzy mają klucz (hasło), mogą wejść.
+W tym wierszu zamień `"YOUR_PASSWORD"` z silnym hasłem, które sam wybierzesz. To hasło działa jak zamknięte drzwi — tylko ci, którzy mają klucz (hasło), mogą wejść.
 
 ## Krok 4: Określ autora
 
@@ -84,7 +86,7 @@ Teraz określimy autora skoroszytu. Jest to szczególnie przydatne dla rozlicze�
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- Pamiętaj o wymianie`"YOUR_AUTHOR"` z nazwą, którą chcesz skojarzyć z dokumentem. Pomyśl o tym jak o podpisaniu swojego dzieła sztuki — pozwala to ludziom wiedzieć, komu mają podziękować za to dzieło!
+Pamiętaj o wymianie `"YOUR_AUTHOR"` z nazwą, którą chcesz skojarzyć z dokumentem. Pomyśl o tym jak o podpisaniu swojego dzieła sztuki — pozwala to ludziom wiedzieć, komu mają podziękować za to dzieło!
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -95,7 +97,7 @@ Ostatnim krokiem jest zapisanie skoroszytu w pożądanym formacie. W tym przypad
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Tutaj plik wyjściowy zostanie zapisany w określonym przez Ciebie katalogu wyjściowym pod nazwą`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. To tutaj Twoja ciężka praca w końcu się opłaca i możesz udostępnić swój skoroszyt innym, wiedząc, że jest dobrze chroniony!
+Tutaj plik wyjściowy zostanie zapisany w określonym przez Ciebie katalogu wyjściowym pod nazwą `outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. To tutaj Twoja ciężka praca w końcu się opłaca i możesz udostępnić swój skoroszyt innym, wiedząc, że jest dobrze chroniony!
 
 ## Wniosek
 
@@ -104,22 +106,24 @@ masz to! Nauczyłeś się, jak utworzyć skoroszyt programu Excel, ustawić ochr
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dostosować hasło zabezpieczające przed zapisem?  
- Tak, możesz dostosować hasło według swoich potrzeb. Wystarczy zastąpić`YOUR_PASSWORD` z wybranym przez Ciebie hasłem.
+Tak, możesz dostosować hasło według swoich potrzeb. Wystarczy wymienić `YOUR_PASSWORD` z wybranym przez Ciebie hasłem.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells to płatna biblioteka, ale możesz wypróbować ją za darmo w ramach ograniczonego czasowo okresu próbnego. Odwiedź[Link do bezpłatnej wersji próbnej](https://releases.aspose.com/) aby zacząć.
+Aspose.Cells to płatna biblioteka, ale możesz wypróbować ją za darmo w ramach ograniczonego czasowo okresu próbnego. Odwiedź [Link do bezpłatnej wersji próbnej](https://releases.aspose.com/) aby zacząć.
 
 ### Jak kupić bibliotekę Aspose.Cells?  
- Możesz zakupić Aspose.Cells za pośrednictwem ich[kup stronę](https://purchase.aspose.com/buy).
+Możesz zakupić Aspose.Cells za pośrednictwem ich [kup stronę](https://purchase.aspose.com/buy).
 
 ### Czy mogę zastosować to podejście w aplikacjach internetowych?  
 Oczywiście! Aspose.Cells działa bezproblemowo zarówno w aplikacjach desktopowych, jak i internetowych, korzystając z .NET.
 
 ### Co mam zrobić, jeśli potrzebuję wsparcia?  
- W przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.
+przypadku pytań i rozwiązywania problemów, społeczność Aspose jest bardzo pomocna. Możesz odwiedzić ich [forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

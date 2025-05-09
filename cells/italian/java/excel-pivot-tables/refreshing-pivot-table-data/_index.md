@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aggiornamento dei dati della tabella pivot
@@ -90,9 +92,11 @@ Aggiornare i dati delle tabelle pivot in Aspose.Cells per Java è un processo se
    - Sì, è possibile pianificare l'aggiornamento automatico dei dati utilizzando Aspose.Cells e le librerie di pianificazione Java. Questo consente di mantenere aggiornate le tabelle pivot senza interventi manuali.
 
 Ora hai le conoscenze necessarie per aggiornare i dati delle tabelle pivot in Aspose.Cells per Java. Mantieni le tue analisi accurate e prendi decisioni basate sui dati con la massima efficacia.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

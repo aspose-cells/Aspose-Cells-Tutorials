@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Készen áll a kipróbálásra? Használja még ma ezt a megoldást!
 Ez az átfogó útmutató segít hatékonyan megvalósítani a megjegyzésexportálási funkciót, biztosítva, hogy alkalmazásai fokozott felhasználói élményt nyújtsanak.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

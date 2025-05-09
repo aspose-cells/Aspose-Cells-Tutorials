@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Lisans Edinimi
 
-Aspose.Cells'in tam işlevselliği için bir lisansa ihtiyacınız var, ancak onu şu adresten indirerek ücretsiz denemeye başlayabilirsiniz: [ücretsiz deneme sayfası](https://releases.aspose.com/cells/java/). Uzun süreli kullanım için, geçici veya kalıcı bir lisans edinmeyi düşünün. [satın alma portalı](https://purchase.aspose.com/buy).
+Aspose.Cells'in tam işlevselliği için bir lisansa ihtiyacınız var, ancak onu şu adresten indirerek ücretsiz denemeye başlayabilirsiniz: [ücretsiz deneme sayfası](https://releases.aspose.com/cells/java/)Uzun süreli kullanım için, geçici veya kalıcı bir lisans edinmeyi düşünün. [satın alma portalı](https://purchase.aspose.com/buy).
 
 ### Temel Başlatma
 
@@ -180,7 +182,7 @@ public class SaveWorkbook {
     }
 }
 ```
-*Açıklama*: Bu kod çalışma kitabınızı XLSX formatında belirtilen bir konuma kaydeder ve Excel'de kullanılmaya hazır hale getirir.
+*Açıklama*: Bu kod çalışma kitabınızı XLSX formatında belirtilen bir konuma kaydeder ve Excel'de kullanıma hazır hale getirir.
 
 ## Pratik Uygulamalar
 
@@ -214,6 +216,9 @@ Artık Aspose.Cells for Java kullanarak Excel çalışma kitapları oluşturma v
    - Kesinlikle! Aspose.Cells, XLS ve CSV dahil olmak üzere çeşitli formatları destekler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

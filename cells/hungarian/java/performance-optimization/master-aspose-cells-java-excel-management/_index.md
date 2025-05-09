@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Vágjunk bele! Mielőtt elkezdenéd, győződj meg róla, hogy a környezeted me
 ## Előfeltételek
 
 ### Szükséges könyvtárak, verziók és függőségek
-folytatáshoz a következőkre lesz szükséged:
+A folytatáshoz a következőkre lesz szükséged:
 - **Java fejlesztőkészlet (JDK)**Győződjön meg arról, hogy a JDK 8-as vagy újabb verziója telepítve van.
 - **Aspose.Cells Java-hoz**Az elsődleges könyvtár, amelyet használni fogunk.
 
@@ -113,7 +115,7 @@ Workbook wb = new Workbook(dataDir + "sampleSheetId.xlsx");
 
 #### Lépésről lépésre történő megvalósítás
 **Forrásfájl betöltése:**
-Töltsd be az Excel fájlt a korábban leírtak szerint.
+Töltsd be az Excel fájlt a korábban bemutatott módon.
 
 **Első munkalap lekérése:**
 Az első munkalap elérése és lekérése:
@@ -138,7 +140,7 @@ System.out.println("Sheet or Tab Id: " + ws.getTabId());
 **Áttekintés**: Módosítsa a munkalap lapazonosítóját a szervezeti igényeknek megfelelően.
 
 #### Lépésről lépésre történő megvalósítás
-**Hozzáférés és módosítás lapazonosító:**
+**Hozzáférés és módosítás lapazonosítója:**
 Nyissa meg az első munkalapot, majd módosítsa a lap azonosítóját:
 ```java
 ws.setTabId(358);
@@ -212,6 +214,9 @@ Indulj el az Aspose.Cells for Java segítségével, és fejleszd az Excel-adatok
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

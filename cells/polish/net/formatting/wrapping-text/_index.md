@@ -1,49 +1,54 @@
 ---
-title: Wrap Text w komórkach Excel za pomocą Aspose.Cells dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak włożyć tekst w komórkach Excel za pomocą Aspose.Cells dla .NET. W tym przewodniku znajdują się tworzenie podręcznika, dodanie arkusza roboczego i zastosowanie włożenia tekstu.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /pl/net/formatting/wrapping-text/
----  
+"description": "Dowiedz się, jak zawijać tekst w komórkach programu Excel za pomocą Aspose.Cells dla .NET. Ten przewodnik obejmuje tworzenie skoroszytu, dodawanie arkusza kalkulacyjnego i stosowanie zawijania tekstu."
+"title": "Zawijanie tekstu w komórkach programu Excel przy użyciu Aspose.Cells dla platformy .NET"
+"url": "/pl/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# Zawijanie tekstu w komórkach programu Excel za pomocą Aspose.Cells 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+Zawijanie tekstu w komórkach programu Excel zapewnia, że długie wpisy tekstowe są w pełni widoczne bez rozszerzania szerokości kolumny. Używając Aspose.Cells dla .NET, możesz programowo zastosować zawijanie tekstu do dowolnej komórki w arkuszu kalkulacyjnym programu Excel. Ten samouczek przeprowadzi Cię przez proces tworzenia nowego skoroszytu programu Excel, dodawania arkusza kalkulacyjnego, wstawiania tekstu do komórki i włączania zawijania tekstu. Wykonując te kroki, możesz wydajnie formatować dokumenty programu Excel w swoich aplikacjach C#.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji:  
 Aby użyć Aspose.Cells dla .NET, wykonaj następujące kroki:  
 
-1. Instalacja za pośrednictwem NuGet:  
-   * Otwórz Visual Studio.  
-   * Przejdź do Narzędzi → Menedżer pakietów NuGet → Zarządzaj pakietami NuGet dla rozwiązania.  
-   * Poszukaj Aspose.Cells i kliknij Instalacja.  
+1. Instalacja za pomocą NuGet:  
+   - Otwórz program Visual Studio.  
+   - Przejdź do Narzędzia → Menedżer pakietów NuGet → Zarządzaj pakietami NuGet dla rozwiązania.  
+   - Wyszukaj Aspose.Cells i kliknij Zainstaluj.  
 
-2. Instalacja za pośrednictwem konsoli pakietowego:  
-   * Otwarte narzędzia → Menedżer pakietu NuGet → Konsolę menedżer pakietu.  
-   * Wydaj polecenie:  
+2. Instalacja za pomocą konsoli Menedżera pakietów:  
+   - Otwórz Narzędzia → Menedżer pakietów NuGet → Konsola menedżera pakietów.  
+   - Uruchom polecenie:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Wykorzystanie w ręku:  
-   * Pobierz Aspose.Cells dla .NET DLL z [Wyrzucanie](https://releases.aspose.com/)\- Nie .  
-   * Dodaj pobrane Aspose.Cells.dll do referencji projektu.  
-## Zobacz również  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie . 
+3. Dodaj ręcznie odniesienie:  
+   - Pobierz bibliotekę DLL Aspose.Cells dla .NET ze strony [Wydania Aspose](https://releases.aspose.com/).  
+   - Dodaj pobrany plik Aspose.Cells.dll do odniesień swojego projektu.  
+## Zobacz także  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

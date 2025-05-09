@@ -8,7 +8,9 @@ url: /java/excel-pivot-tables/grouping-data-in-pivot-tables/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grouping Data in Pivot Tables
@@ -108,9 +110,11 @@ You can customize the grouping of data in a pivot table using the `PivotField` c
 ### 3. Can I automate the creation of pivot tables using Aspose.Cells for Java?
 
 Yes, you can automate the creation of pivot tables in Excel using Aspose.Cells for Java, as demonstrated in the provided source code examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

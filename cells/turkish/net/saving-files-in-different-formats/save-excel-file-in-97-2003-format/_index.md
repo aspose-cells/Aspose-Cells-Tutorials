@@ -1,14 +1,16 @@
 ---
-title: Excel Dosyasını 97-2003 Formatında Kaydet
-linktitle: Excel Dosyasını 97-2003 Formatında Kaydet
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel dosyalarını 97-2003 formatında nasıl kaydedeceğinizi öğrenin. Pratik bilgiler ve adım adım rehberlik alın.
-weight: 10
-url: /tr/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
+"description": "Aspose.Cells for .NET kullanarak Excel dosyalarını 97-2003 formatında nasıl kaydedeceğinizi öğrenin. Pratik bilgiler ve adım adım rehberlik alın."
+"linktitle": "Excel Dosyasını 97-2003 Formatında Kaydet"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel Dosyasını 97-2003 Formatında Kaydet"
+"url": "/tr/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Dosyasını 97-2003 Formatında Kaydet
@@ -18,7 +20,7 @@ Excel dosyalarını programatik olarak oluşturmak ve yönetmek, özellikle veri
 ## Ön koşullar
 Ayrıntılara dalmadan önce, listenizde işaretlemeniz gereken birkaç ön koşul var:
 1. .NET'in Temel Anlayışı: C# veya VB.NET'e aşinalık son derece faydalı olacaktır.
-2.  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Henüz yüklü değilse,[buradan indirin](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Henüz yüklü değilse, [buradan indirin](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Visual Studio veya herhangi bir .NET uyumlu IDE gibi bir geliştirme ortamı kodlamayı ve hata ayıklamayı kolaylaştıracaktır.
 4. NuGet Paket Yöneticisi: Projenizde Aspose.Cells'in en kolay şekilde kurulumu için. 
 Bu ön koşulları sağladıktan sonra harekete geçmeye hazırız!
@@ -44,9 +46,9 @@ Bu bölümde, Aspose.Cells kullanarak bir Excel dosyasını 97-2003 formatında 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-- `"Your Document Directory"` : Bu yer tutucu dizesini Excel dosyanızın kaydedilmesini istediğiniz gerçek yol ile değiştirin. Şuna benzer bir şey olabilir:`"C:\\ExcelFiles\\"`.
+- `"Your Document Directory"`: Bu yer tutucu dizesini Excel dosyanızın kaydedilmesini istediğiniz gerçek yol ile değiştirin. Şuna benzer bir şey olabilir: `"C:\\ExcelFiles\\"`.
 ## Adım 2: Yeni bir Çalışma Kitabı Nesnesi Oluşturun
- Şimdi, yeni bir örnek oluşturalım`Workbook` sınıf. Burası tüm sihrin gerçekleştiği yer!
+Şimdi, yeni bir örnek oluşturalım `Workbook` sınıf. Burası tüm sihrin gerçekleştiği yer!
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -72,16 +74,18 @@ Unutmayın, herhangi bir kodlama projesinde olduğu gibi, farklı özellikler de
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Microsoft Excel'i yüklemelerine gerek kalmadan Excel dosya formatlarıyla çalışabilmelerini sağlayan güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells for .NET'i nasıl indirebilirim?
- Buradan indirebilirsiniz[bu bağlantı](https://releases.aspose.com/cells/net/).
+Buradan indirebilirsiniz [bu bağlantı](https://releases.aspose.com/cells/net/).
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, ücretsiz deneme sürümüyle deneyebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümüyle deneyebilirsiniz [Burada](https://releases.aspose.com/).
 ### Excel dosyasını hangi formatlarda kaydedebilirim?
 Excel dosyalarını XLS, XLSX, CSV, PDF ve daha birçok farklı formatta kaydedebilirsiniz.
 ### Aspose.Cells için desteği nereden alabilirim?
- Ziyaret edin[Aspose destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+Ziyaret edin [Aspose destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

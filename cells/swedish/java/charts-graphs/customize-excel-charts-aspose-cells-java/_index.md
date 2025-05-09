@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ A2: Använd try-catch-block runt arbetsboksinitialiseringen för att fånga unda
 A3: Ja, du kan definiera anpassade temafärger med hjälp av RGB-värden via ytterligare Aspose.Cells-inställningar.
 
 **F4: Vad händer om min arbetsbok innehåller flera ark med diagram?**
-A4: Åtkomst till varje ark via `workbook.getWorksheets().get(i)` och tillämpa diagramjusteringar efter behov.
+A4: Åtkomst till varje ark via `workbook.getWorksheets().get(i)` och gör diagramändringar efter behov.
 
 **F5: Hur säkerställer jag kompatibilitet mellan olika Excel-versioner?**
 A5: Spara dina arbetsböcker i format som är kompatibla med äldre Excel-versioner med hjälp av `workbook.saveFormat()` alternativ.
@@ -181,6 +183,9 @@ A5: Spara dina arbetsböcker i format som är kompatibla med äldre Excel-versio
 Kontakta gärna supportforumet om du stöter på problem eller behöver ytterligare hjälp.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

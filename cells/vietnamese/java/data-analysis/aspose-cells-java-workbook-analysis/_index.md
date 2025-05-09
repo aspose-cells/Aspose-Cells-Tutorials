@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ Có, bạn có thể tích hợp nó với các dịch vụ đám mây như AWS 
 Hãy cân nhắc sử dụng API phát trực tuyến và chia nhỏ quá trình xử lý thành các tác vụ nhỏ hơn để quản lý việc sử dụng bộ nhớ hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

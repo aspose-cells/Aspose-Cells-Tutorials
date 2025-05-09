@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Innan du implementerar vår lösning, se till att du har följande:
 
 1. **Obligatoriska bibliotek:** Aspose.Cells för Java-biblioteket version 25.3.
 2. **Krav för miljöinstallation:** En utvecklingsmiljö med Maven eller Gradle som beroendehanterare.
-3. **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och Excel-operationer är meriterande.
+3. **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och Excel-operationer är meriterande.
 
 ## Konfigurera Aspose.Cells för Java
 För att hantera Excel-databasanslutningar, inkludera Aspose.Cells i ditt projekt.
@@ -167,6 +169,9 @@ Redo att ta din Java-applikation till nästa nivå? Testa att integrera Aspose.C
    - En tillfällig licens låter dig utforska Aspose.Cells fulla möjligheter under en provperiod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

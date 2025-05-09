@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Volgende stappen kunnen zijn het verkennen van andere functies, zoals grafiekint
 Deze handleiding stelt je in staat om het volledige potentieel van Aspose.Cells voor Java te benutten bij het effectief configureren van draaitabellen. Veel plezier met programmeren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

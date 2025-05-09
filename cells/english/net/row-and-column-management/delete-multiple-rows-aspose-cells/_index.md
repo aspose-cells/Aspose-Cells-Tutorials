@@ -8,7 +8,9 @@ url: /net/row-and-column-management/delete-multiple-rows-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Multiple Rows in Aspose.Cells .NET
@@ -100,6 +102,7 @@ There’s no built-in undo function in Aspose.Cells. It’s best to keep a backu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

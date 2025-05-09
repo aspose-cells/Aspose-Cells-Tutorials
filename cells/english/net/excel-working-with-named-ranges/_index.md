@@ -8,7 +8,9 @@ url: /net/excel-working-with-named-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Named Ranges in Excel
@@ -34,9 +36,11 @@ This method is ideal for targeted data management, allowing you to be precise wi
 Unlock the power of Excel by accessing named ranges with our easy guide using Aspose.Cells for .NET. Perfect for data management.
 ### [Access Specific Named Range in Excel](./access-specific-named-range/)
 Learn how to access specific named ranges in Excel using Aspose.Cells for .NET with this comprehensive, step-by-step tutorial and sample code.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

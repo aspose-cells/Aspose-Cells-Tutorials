@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ Thao tác này định hình hình dạng thành dạng nổi tự do thay vì c
 
 **Tổng quan:** Tùy chỉnh kiểu đường kẻ và hiệu ứng đổ màu cho hình chữ nhật của bạn.
 
-#### Bước 1: Cấu hình Kiểu Đường
+#### Bước 1: Cấu hình Kiểu đường kẻ
 ```java
 import com.aspose.cells.LineFormat;
 import com.aspose.cells.MsoLineStyle;
@@ -176,6 +178,9 @@ Thử nghiệm với nhiều loại hình dạng và kiểu dáng khác nhau ho�
 - **Ủng hộ:** Tìm kiếm sự giúp đỡ trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ Workbook workbook = new Workbook();
 ```java
 var sheet = workbook.getWorksheets().get(0);
 ```
-*Magyarázat:* munkalapok indexelése nullától kezdődik, tehát `get(0)` eléri az első munkalapot.
+*Magyarázat:* A munkalapok indexelése nullától kezdődik, tehát `get(0)` eléri az első munkalapot.
 
 **3. lépés: Kép hozzáadása a munkalaphoz**
 ```java
@@ -171,11 +173,14 @@ Javasoljuk, hogy próbálja ki ezen megoldások megvalósítását, és nézze m
 
 ## Erőforrás
 - **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose referencia](https://reference.aspose.com/cells/java/).
-- **Letöltési könyvtár:** Hozzáférés a legújabb verziókhoz innen: [Kiadások oldala](https://releases.aspose.com/cells/java/).
+- **Könyvtár letöltése:** Hozzáférés a legújabb verziókhoz innen: [Kiadások oldala](https://releases.aspose.com/cells/java/).
 - **Licenc vásárlása:** Látogatás [Vásároljon Aspose sejteket](https://purchase.aspose.com/buy) hogy megszerezd az állandó jogosítványodat.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

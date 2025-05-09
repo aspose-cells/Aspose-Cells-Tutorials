@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Áttekintés**Gyorsan létrehozhat egy üres Excel-munkafüzetet az adatkezelés megkezdéséhez.
 
 **Lépésről lépésre:**
-1. **Munkafüzet példányosítása**: Hozz létre egy `Workbook` objektum.
+1. **Munkafüzet példányosítása**Hozz létre egy `Workbook` objektum.
 2. **Kimeneti könyvtár**: Adja meg, hová szeretné menteni a fájlt.
 
 ```java
@@ -195,6 +197,9 @@ Kezdje el utazását még ma az Aspose.Cells for Java segítségével, és akná
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

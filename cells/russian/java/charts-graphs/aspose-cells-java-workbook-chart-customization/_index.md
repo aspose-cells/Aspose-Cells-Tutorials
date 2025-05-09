@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Создание или загрузка рабочей книги из существующего файла
 - Доступ к определенным рабочим листам и диаграммам в вашей рабочей книге
 - Установка меток данных в диаграммах с использованием указанных диапазонов ячеек
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Давайте рассмотрим, как можно решить эти проблемы шаг за шагом.
 
@@ -175,6 +177,9 @@ workbook.save(outDir + "SCellRAsTheDataLabels_out.xlsx");
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

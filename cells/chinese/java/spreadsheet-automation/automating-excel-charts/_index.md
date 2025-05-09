@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自动化 Excel 图表
@@ -117,9 +119,11 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    探索 API 文档 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 以获得深入的信息和示例。
 
 使用 Aspose.Cells for Java 轻松自动化您的 Excel 图表任务并提升您的数据可视化能力。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

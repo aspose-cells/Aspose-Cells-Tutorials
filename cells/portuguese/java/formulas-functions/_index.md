@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Domine os recursos de cálculo do Excel com nossos tutoriais abrangentes de fórmulas Aspose.Cells para desenvolvedores Java. Estes guias práticos mostram como criar e gerenciar expressões de cálculo, implementar funções integradas do Excel, manipular referências de fórmulas e controlar o comportamento de recálculo. Cada tutorial fornece exemplos detalhados de código Java para trabalhar com diferentes tipos de fórmulas, desde funções aritméticas simples até funções financeiras, estatísticas e lógicas complexas, ajudando você a criar recursos poderosos de processamento de dados em seus aplicativos.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de fórmulas e funções
 - Implementação passo a passo com exemplos de código completos
@@ -93,6 +95,9 @@ Aprenda a extrair texto de fórmula de células do Excel usando Aspose.Cells com
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

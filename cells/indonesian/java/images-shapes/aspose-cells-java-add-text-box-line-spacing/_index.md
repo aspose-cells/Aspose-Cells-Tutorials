@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menambahkan Kotak Teks dan Mengatur Spasi Baris di Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Membuat laporan Excel yang dinamis sering kali memerlukan pemformatan teks khusus, seperti menambahkan kotak teks dengan spasi baris tertentu. Dengan Aspose.Cells untuk Java, hal ini menjadi sederhana dan efisien. Tutorial ini akan memandu Anda dalam menyempurnakan presentasi buku kerja menggunakan Aspose.Cells untuk Java untuk menambahkan bentuk teks bergaya.
 
@@ -25,9 +27,9 @@ Di akhir panduan ini, Anda akan mempelajari cara:
 
 Mari kita mulai dengan menyiapkan lingkungan Anda.
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 - Java Development Kit (JDK) terinstal di komputer Anda
 - IDE atau editor untuk menulis kode Java
 - Sistem build Maven atau Gradle dikonfigurasi untuk mengelola dependensi
@@ -40,7 +42,7 @@ Sertakan Aspose.Cells dalam manajemen ketergantungan proyek Anda menggunakan Mav
 
 **Pakar**
 
-Tambahkan blok dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan blok dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -52,7 +54,7 @@ Tambahkan blok dependensi berikut ke `pom.xml` mengajukan:
 
 **Bahasa Inggris Gradle**
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -77,13 +79,13 @@ public class ExcelDemo {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat Buku Kerja dan Mengakses Lembar Kerja
 
 Mulailah dengan membuat buku kerja Excel baru dan mengakses lembar kerja pertamanya. Di sinilah Anda akan menambahkan kotak teks.
 
-#### Ringkasan
+#### Áttekintés
 
 Membuat buku kerja baru menyediakan ruang kosong untuk menambahkan data, bentuk, dan pemformatan sesuai kebutuhan.
 
@@ -96,7 +98,7 @@ public class ExcelDemo {
         // Buat Buku Kerja baru (file Excel)
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         System.out.println("Workbook and first worksheet accessed.");
@@ -108,7 +110,7 @@ public class ExcelDemo {
 
 Selanjutnya, tambahkan bentuk kotak teks ke lembar kerja yang Anda pilih. Bentuk ini dapat berisi konten tekstual apa pun yang Anda perlukan.
 
-#### Ringkasan
+#### Áttekintés
 
 Kotak teks adalah alat serbaguna untuk menyertakan teks khusus seperti catatan atau instruksi langsung dalam lembar Excel.
 
@@ -121,7 +123,7 @@ public class ExcelDemo {
         // Buat Buku Kerja baru (file Excel)
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         // Tambahkan bentuk kotak teks ke lembar kerja
@@ -144,7 +146,7 @@ public class ExcelDemo {
         // Buat Buku Kerja baru (file Excel)
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         // Tambahkan bentuk kotak teks ke lembar kerja
@@ -170,7 +172,7 @@ public class ExcelDemo {
         // Buat Buku Kerja baru (file Excel)
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         // Tambahkan bentuk kotak teks ke lembar kerja
@@ -199,7 +201,7 @@ public class ExcelDemo {
         // Buat Buku Kerja baru (file Excel)
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         // Tambahkan bentuk kotak teks ke lembar kerja
@@ -227,7 +229,7 @@ public class ExcelDemo {
 }
 ```
 
-### Simpan Buku Kerja
+### Munkafüzet mentése
 
 Terakhir, simpan buku kerja Anda dengan kotak teks yang baru ditambahkan dan diformat.
 
@@ -239,7 +241,7 @@ public class ExcelDemo {
         // Buat Buku Kerja baru (file Excel)
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         // Tambahkan bentuk kotak teks ke lembar kerja
@@ -262,13 +264,13 @@ public class ExcelDemo {
         paragraph.setSpaceBeforeSizeType(LineSpaceSizeType.POINTS);
         paragraph.setSpaceBefore(10);
 
-        // Simpan buku kerja
+        // A munkafüzet mentése
         workbook.save("StyledTextShape.xlsx", SaveFormat.XLSX);
     }
 }
 ```
 
-## Kesimpulan
+## Következtetés
 
 Anda telah berhasil mempelajari cara menambahkan kotak teks dan mengatur spasi baris dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Ini meningkatkan kemampuan Anda untuk membuat laporan yang dinamis dan menarik secara visual.
 
@@ -281,6 +283,9 @@ Anda telah berhasil mempelajari cara menambahkan kotak teks dan mengatur spasi b
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

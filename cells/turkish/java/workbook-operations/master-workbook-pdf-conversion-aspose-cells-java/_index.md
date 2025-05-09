@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ license.setLicense("path_to_your_license_file");
 ### PDF Seçenekleriyle Çalışma Kitabı Yükleme ve Kaydetme
 
 **Genel Bakış:**
-Bu özellik, Aspose.Cells'i kullanarak Excel çalışma kitaplarını PDF dosyaları olarak kaydederken ayrıntılı özelleştirmeye olanak tanır `PdfSaveOptions` ve sayfa kurtarıcı geri aramalar.
+Bu özellik, Aspose.Cells'i kullanarak Excel çalışma kitaplarını PDF dosyaları olarak kaydederken ayrıntılı özelleştirmeye olanak tanır `PdfSaveOptions` ve sayfa kaydetme geri aramaları.
 
 #### Adım 1: Çalışma Kitabını Yükleyin
 
@@ -194,6 +196,9 @@ Becerilerinizi daha da ileriye taşımaya hazır mısınız? [Aspose.Cells belge
 - **Ücretsiz Deneme & Geçici Lisans:** Ücretsiz denemeyle özellikleri keşfedin veya geçici bir lisans talep edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Klaar om je Excel-automatiseringsvaardigheden naar een hoger niveau te tillen? D
    - Ja, met behulp van `FindOptions` geconfigureerd om naar de originele waarden te kijken, kunt u dergelijke zoekopdrachten uitvoeren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

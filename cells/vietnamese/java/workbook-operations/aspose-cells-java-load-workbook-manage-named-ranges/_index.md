@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Tải một bảng tính Excel vào ứng dụng Java của bạn thật đơn g
 **Hướng dẫn từng bước**
 
 ##### Bước 1: Nhập các lớp cần thiết
-Bắt đầu bằng cách nhập khẩu `Workbook` lớp này đóng vai trò quan trọng trong việc tải tập tin.
+Bắt đầu bằng cách nhập `Workbook` lớp này đóng vai trò quan trọng trong việc tải tập tin.
 ```java
 import com.aspose.cells.Workbook;
 ```
@@ -162,6 +164,9 @@ Hướng dẫn toàn diện này nhằm mục đích cung cấp cho bạn các c
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Kelompokkan Bidang Pivot di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan mengatur kumpulan data besar dalam Excel? **Aspose.Cells untuk Java** menyediakan solusi yang kuat untuk memanipulasi data Excel secara terprogram. Tutorial ini akan memandu Anda memuat buku kerja Excel, mengakses lembar kerjanya, memodifikasi tabel pivot, mengelompokkan bidang menurut rentang tanggal, dan menyimpan buku kerja yang dimodifikasi.
 
@@ -21,12 +23,12 @@ Dengan mengikuti tutorial ini, Anda akan menjadi mahir dalam:
 - Memuat buku kerja menggunakan Aspose.Cells
 - Mengakses dan memodifikasi tabel pivot
 - Pengelompokan data dalam bidang pivot
-- Menyegarkan dan menghitung ulang data tabel pivot
+- Pivot tábla adatainak frissítése és újraszámítása
 
 Mari mulai menyiapkan lingkungan Anda untuk Aspose.Cells Java.
 
-### Prasyarat
-Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
+### Előfeltételek
+Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
 - **Kit Pengembangan Java (JDK)**Pastikan JDK 8 atau yang lebih tinggi terinstal pada sistem Anda.
 - **Aspose.Cells untuk Java**Sertakan pustaka Aspose.Cells dalam proyek Anda menggunakan Maven atau Gradle:
@@ -50,8 +52,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Menyiapkan Aspose.Cells untuk Java
 Untuk mulai menggunakan Aspose.Cells, ikuti langkah-langkah berikut:
-1. **Instal Aspose.Cells** menggunakan Maven atau Gradle seperti yang ditunjukkan di atas.
-2. **Dapatkan Lisensi**: Dapatkan lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi perpustakaan tanpa batasan.
+1. **Az Aspose.Cells telepítése** menggunakan Maven atau Gradle seperti yang ditunjukkan di atas.
+2. **Dapatkan Lisensi**: Dapatkan lisensi sementara dari [Aspose weboldala](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi perpustakaan tanpa batasan.
 3. **Inisialisasi dan Pengaturan**:
    ```java
    import com.aspose.cells.License;
@@ -62,12 +64,12 @@ Untuk mulai menggunakan Aspose.Cells, ikuti langkah-langkah berikut:
 
 Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokkan bidang pivot dalam buku kerja Excel.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memuat dan Mengakses Buku Kerja
-**Ringkasan**: Mulailah dengan memuat buku kerja yang ada dari direktori yang Anda tentukan dan akses lembar kerjanya untuk memanipulasi data.
+**Áttekintés**: Mulailah dengan memuat buku kerja yang ada dari direktori yang Anda tentukan dan akses lembar kerjanya untuk memanipulasi data.
 
-- **Muat Buku Kerja**
+- **Munkafüzet betöltése**
   ```java
   import com.aspose.cells.Workbook;
   
@@ -75,7 +77,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   Workbook wb = new Workbook(dataDir + "/sampleGroupPivotFieldsInPivotTable.xlsx");
   ```
 
-- **Lembar Kerja Akses**
+- **Hozzáférési munkalap**
   ```java
   import com.aspose.cells.Worksheet;
 
@@ -83,7 +85,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   ```
 
 ### Akses Tabel Pivot di Lembar Kerja
-**Ringkasan**: Navigasi ke tabel pivot dalam lembar kerja yang Anda pilih untuk operasi lebih lanjut.
+**Áttekintés**: Navigasi ke tabel pivot dalam lembar kerja yang Anda pilih untuk operasi lebih lanjut.
 
 - **Ambil PivotTable**
   ```java
@@ -93,7 +95,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   ```
 
 ### Tetapkan Rentang Tanggal untuk Pengelompokan
-**Ringkasan**: Tentukan rentang tanggal tertentu untuk mengelompokkan data secara efektif dalam bidang pivot Anda.
+**Áttekintés**: Tentukan rentang tanggal tertentu untuk mengelompokkan data secara efektif dalam bidang pivot Anda.
 
 - **Tentukan Rentang Tanggal**
   ```java
@@ -104,7 +106,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   ```
 
 ### Tentukan Jenis Grup untuk Bidang Pivot
-**Ringkasan**: Tentukan jenis pengelompokan yang akan diterapkan ke bidang pivot Anda.
+**Áttekintés**: Tentukan jenis pengelompokan yang akan diterapkan ke bidang pivot Anda.
 
 - **Tentukan Jenis Grup**
   ```java
@@ -117,7 +119,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   ```
 
 ### Terapkan Pengelompokan pada Bidang Pivot
-**Ringkasan**: Terapkan operasi pengelompokan dengan menerapkan pengaturan yang ditentukan ke bidang pivot Anda.
+**Áttekintés**: Terapkan operasi pengelompokan dengan menerapkan pengaturan yang ditentukan ke bidang pivot Anda.
 
 - **Terapkan Pengelompokan**
   ```java
@@ -125,7 +127,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   ```
 
 ### Segarkan dan Hitung Data Tabel Pivot
-**Ringkasan**Pastikan data tabel pivot mencerminkan perubahan Anda dengan menyegarkan dan menghitung ulang.
+**Áttekintés**Pastikan data tabel pivot mencerminkan perubahan Anda dengan menyegarkan dan menghitung ulang.
 
 - **Segarkan dan Hitung Ulang**
   ```java
@@ -136,7 +138,7 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   ```
 
 ### Simpan Buku Kerja ke Direktori Output
-**Ringkasan**: Setelah modifikasi selesai, simpan buku kerja Anda ke direktori keluaran yang ditentukan.
+**Áttekintés**: Setelah modifikasi selesai, simpan buku kerja Anda ke direktori keluaran yang ditentukan.
 
 - **Simpan Buku Kerja yang Dimodifikasi**
   ```java
@@ -144,28 +146,28 @@ Sekarang, mari lanjutkan dengan penerapan fitur Aspose.Cells untuk mengelompokka
   wb.save(outDir + "/outputGroupPivotFieldsInPivotTable.xlsx");
   ```
 
-## Aplikasi Praktis
-1. **Pelaporan Keuangan**:Otomatiskan pembuatan ringkasan keuangan triwulanan dengan mengelompokkan data penjualan.
-2. **Manajemen Inventaris**: Kategorikan data inventaris ke dalam bulan untuk melacak tren musiman dengan mudah.
+## Gyakorlati alkalmazások
+1. **Pénzügyi jelentéstétel**:Otomatiskan pembuatan ringkasan keuangan triwulanan dengan mengelompokkan data penjualan.
+2. **Készletgazdálkodás**: Kategorikan data inventaris ke dalam bulan untuk melacak tren musiman dengan mudah.
 3. **Analisis Penjualan**: Gunakan tabel pivot untuk mengelompokkan data pembelian pelanggan guna mendapatkan wawasan bulanan atau triwulanan yang terperinci.
-4. **Perencanaan Proyek**: Atur jadwal proyek per kuartal untuk meningkatkan efisiensi perencanaan dan pelacakan.
-5. **Konsolidasi Data**: Gabungkan beberapa laporan ke dalam satu buku kerja, kelompokkan data sesuai kebutuhan untuk peninjauan yang lebih mudah.
+4. **Projekttervezés**: Atur jadwal proyek per kuartal untuk meningkatkan efisiensi perencanaan dan pelacakan.
+5. **Adatkonszolidáció**: Gabungkan beberapa laporan ke dalam satu buku kerja, kelompokkan data sesuai kebutuhan untuk peninjauan yang lebih mudah.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk mengoptimalkan operasi Aspose.Cells Anda:
-- **Manajemen Memori**Pastikan penggunaan memori yang efisien dengan memuat hanya buku kerja yang diperlukan.
-- **Pemrosesan Batch**: Untuk kumpulan data besar, pertimbangkan pemrosesan secara batch untuk mencegah kelebihan sumber daya.
+- **Memóriakezelés**Pastikan penggunaan memori yang efisien dengan memuat hanya buku kerja yang diperlukan.
+- **Kötegelt feldolgozás**: Untuk kumpulan data besar, pertimbangkan pemrosesan secara batch untuk mencegah kelebihan sumber daya.
 - **Pengaturan Optimasi**Memanfaatkan pengaturan kinerja perpustakaan untuk meningkatkan kecepatan dan mengurangi jejak memori.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, Anda telah mempelajari cara menggunakan Aspose.Cells Java untuk memuat buku kerja, mengakses tabel pivot, menentukan kriteria pengelompokan, menyegarkan data, dan menyimpan modifikasi. Dengan menerapkan teknik ini, Anda dapat meningkatkan alur kerja analisis data di Excel secara signifikan.
 
 Jelajahi lebih lanjut dengan mempelajari fitur-fitur lain dari pustaka Aspose.Cells atau mengintegrasikannya dengan berbagai sistem untuk solusi pengelolaan data yang komprehensif. Cobalah implementasi ini hari ini untuk melihat bagaimana Java Aspose.Cells dapat mengubah tugas penanganan data Anda!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara menangani kumpulan data besar menggunakan Aspose.Cells?**
    - Memanfaatkan pemrosesan batch dan mengoptimalkan penggunaan memori dengan memuat hanya komponen yang diperlukan.
-2. **Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?**
+2. **Használhatom az Aspose.Cells-t más programozási nyelvekkel?**
    - Ya, Aspose menawarkan pustaka untuk .NET, Python, C++, dan banyak lagi.
 3. **Apa keuntungan utama menggunakan Aspose.Cells Java dibandingkan manipulasi Excel manual?**
    - Otomatisasi menghemat waktu, mengurangi kesalahan, dan meningkatkan skalabilitas dalam tugas pemrosesan data.
@@ -174,15 +176,18 @@ Jelajahi lebih lanjut dengan mempelajari fitur-fitur lain dari pustaka Aspose.Ce
 5. **Bagaimana cara memecahkan masalah saat mengelompokkan bidang pivot?**
    - Pastikan format tanggal dan indeks lembar kerja yang benar. Periksa dokumentasi API untuk mengetahui kesalahan umum.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Pustaka Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

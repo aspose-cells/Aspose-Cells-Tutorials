@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ Oto kilka scenariuszy z życia wziętych, w których zarządzanie metadanymi sko
 Aby zapewnić optymalną wydajność podczas korzystania z Aspose.Cells, należy zastosować się do następujących sprawdzonych praktyk:
 
 - **Optymalizacja wykorzystania zasobów:** Zarządzaj pamięcią efektywnie, zamykając skoroszyty, gdy nie są już potrzebne.
-- **Przetwarzanie wsadowe:** Jeśli masz do czynienia z wieloma plikami, przetwarzaj je w partiach, aby skrócić czas ładowania.
+- **Przetwarzanie wsadowe:** Jeśli masz do czynienia z wieloma plikami, przetwarzaj je partiami, aby skrócić czas ładowania.
 - **Użyj odpowiednich typów danych:** Upewnij się, że właściwości niestandardowe korzystają z odpowiednich typów danych, aby uniknąć niepotrzebnego obciążenia.
 
 ## Wniosek
@@ -179,6 +181,9 @@ A5: Wizyta [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) w celu uz
 - **Wsparcie:** Uzyskaj dostęp do wsparcia społeczności i profesjonalistów poprzez [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

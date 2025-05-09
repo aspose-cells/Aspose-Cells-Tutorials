@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,13 +210,16 @@ A5: 방문하세요 [Aspose.Cells 문서](https://reference.aspose.com/cells/jav
 - **다운로드**: [Aspose.Cells Java 릴리스](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 이 가이드를 따라 하면 Aspose.Cells Java의 강력한 기능을 활용하여 OLE 객체를 추출하고 데이터 처리 워크플로를 개선할 수 있습니다. 즐거운 코딩 되세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

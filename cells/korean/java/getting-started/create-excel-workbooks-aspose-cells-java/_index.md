@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,7 +182,7 @@ Aspose.Cells의 더 많은 기능을 탐색하려면 다음을 살펴보세요. 
 1. **Java용 Aspose.Cells를 시작하려면 어떻게 해야 하나요?**
    - 위에 표시된 대로 Maven이나 Gradle을 사용하여 프로젝트에 라이브러리를 설정하는 것으로 시작합니다.
 2. **셀에 여러 스타일을 적용할 수 있나요?**
-   - 네, 다양한 스타일 속성을 설정할 수 있습니다. `Style` 셀에 적용하기 전에 객체를 선택합니다.
+   - 네, 다양한 스타일 속성을 설정할 수 있습니다. `Style` 셀에 적용하기 전에 객체를 변경합니다.
 3. **통합 문서가 메모리에 비해 너무 큰 경우 어떻게 해야 합니까?**
    - 위에 설명된 성능 고려 사항에 따라 데이터를 더 작은 단위로 처리하거나 리소스 사용을 최적화하는 것을 고려하세요.
 4. **라이선스를 구매하지 않고도 Aspose.Cells 기능을 테스트할 수 있는 방법이 있나요?**
@@ -200,6 +202,9 @@ Aspose.Cells의 더 많은 기능을 탐색하려면 다음을 살펴보세요. 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Innan vi börjar, se till att du har följande på plats:
 - Ett fungerande Java Development Kit (JDK) installerat på din maskin.
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering och objektorienterade koncept.
 - Bekantskap med Maven eller Gradle för beroendehantering.
 
@@ -174,6 +176,9 @@ Redo att anta fler utmaningar? Implementera den här lösningen och se hur den f
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

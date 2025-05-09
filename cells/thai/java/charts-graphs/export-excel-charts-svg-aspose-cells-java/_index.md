@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 2. **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:**
    - ติดตั้ง Java Development Kit (JDK) ที่เข้ากันได้บนระบบของคุณ
    - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA, Eclipse หรือที่คล้ายกัน
-3. **ข้อกำหนดเบื้องต้นของความรู้:**
+3. **ข้อกำหนดความรู้เบื้องต้น:**
    - ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และการจัดการการอ้างอิงโดยใช้ Maven หรือ Gradle
    - ความคุ้นเคยกับการทำงานด้วยโปรแกรมกับไฟล์ Excel
 
@@ -153,6 +155,9 @@ chart.toImage(outDir + "ECharttoSVG_out.svg", opts);
 - **ฟอรั่มการสนับสนุน:** [การสนับสนุนชุมชน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

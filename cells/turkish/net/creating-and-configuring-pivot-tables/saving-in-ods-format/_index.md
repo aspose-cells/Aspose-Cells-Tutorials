@@ -1,14 +1,16 @@
 ---
-title: Pivot Tablosunu .NET'te Programatik Olarak ODS Formatında Kaydetme
-linktitle: Pivot Tablosunu .NET'te Programatik Olarak ODS Formatında Kaydetme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Pivot Tablolarınızı ODS formatında nasıl kaydedeceğinizi öğrenin.
-weight: 25
-url: /tr/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Pivot Tablolarınızı ODS formatında nasıl kaydedeceğinizi öğrenin."
+"linktitle": "Pivot Tablosunu .NET'te Programatik Olarak ODS Formatında Kaydetme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Pivot Tablosunu .NET'te Programatik Olarak ODS Formatında Kaydetme"
+"url": "/tr/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tablosunu .NET'te Programatik Olarak ODS Formatında Kaydetme
@@ -21,13 +23,13 @@ Koda geçmeden önce, ihtiyacınız olacak birkaç temel şey var:
 ### 1. .NET'in Temel Bilgileri
 .NET ve programlama kavramları hakkında temel bir anlayışa sahip olmak, takip etmenizi kolaylaştıracaktır.
 ### 2. .NET için Aspose.Cells
- .NET için Aspose.Cells'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/cells/net/) . Deneme sürümü de mevcuttur[Burada](https://releases.aspose.com/).
+.NET için Aspose.Cells'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/cells/net/). Deneme sürümü de mevcuttur [Burada](https://releases.aspose.com/).
 ### 3. Geliştirme Ortamı
 .NET kodlarınızı yazıp test edebileceğiniz Visual Studio gibi bir IDE'niz olduğundan emin olun.
 ### 4. Biraz Sabır
 Herhangi bir kodlama çabasında olduğu gibi, sabır anahtardır. İlk seferde her şey mükemmel çalışmazsa endişelenmeyin; hata ayıklama sürecin bir parçasıdır.
 ## Paketleri İçe Aktar
-Aspose.Cells ile çalışmak için gerekli ad alanlarını içe aktarmanız gerekir. Aşağıdaki using yönergesini kod dosyanızın başına ekleyin:
+Aspose.Cells ile çalışmak için gerekli ad alanlarını içe aktarmanız gerekir. Kod dosyanızın başına aşağıdaki using yönergesini ekleyin:
 ```csharp
 using System;
 using Aspose.Cells.Pivot;
@@ -39,7 +41,7 @@ Bu satır, Aspose.Cells kütüphanesindeki tüm işlevlere erişmenizi sağlayar
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Bu satırda şunu değiştirin:`"Your Document Directory"` dosyayı kaydetmek istediğiniz yolu yazın.
+Bu satırda şunu değiştirin: `"Your Document Directory"` dosyayı kaydetmek istediğiniz yolu yazın.
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 Daha sonra Pivot Tablo da dahil olmak üzere tüm verilerinizi ve yapılarınızı tutacak yeni bir Çalışma Kitabı nesnesi oluşturacaksınız.
 ```csharp
@@ -90,7 +92,7 @@ PivotTableCollection pivotTables = sheet.PivotTables;
 // Çalışma sayfasına PivotTable ekleme
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- Bu kod parçacığında, Pivot Tablo için veri aralığını ve çalışma sayfasında nereye yerleştirileceğini belirtiyoruz. Veri aralığı`=A1:C8` verilerimizin bulunduğu alanı kapsar.
+Bu kod parçacığında, Pivot Tablo için veri aralığını ve çalışma sayfasında nereye yerleştirileceğini belirtiyoruz. Veri aralığı `=A1:C8` verilerimizin bulunduğu alanı kapsar.
 ## Adım 6: Pivot Tablonuzu Özelleştirin
 Sonra, Pivot Tablonuzu ihtiyaçlarınıza uyacak şekilde özelleştirmek isteyeceksiniz. Bu, gösterilenleri, nasıl kategorilendirildiğini ve verileri nasıl hesapladığını kontrol etmeyi içerir.
 ```csharp
@@ -124,16 +126,18 @@ Ve işte oldu! Sadece Aspose.Cells kullanarak bir Pivot Tablosu oluşturmakla ka
 ### Aspose.Cells Nedir?
 Aspose.Cells, .NET uygulamalarında Excel dosyaları oluşturmanıza ve düzenlemenize olanak tanıyan gelişmiş bir kütüphanedir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 ### Aspose.Cells hangi formatları destekliyor?
 XLSX, XLS, ODS, PDF ve daha birçok formatı destekler.
 ### Aspose.Cells için desteği nasıl alabilirim?
- Yardımı şu adreste bulabilirsiniz:[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
+Yardımı şu adreste bulabilirsiniz: [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
 ### Geçici lisans var mı?
- Evet, Aspose sitesi üzerinden geçici lisans başvurusunda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose sitesi üzerinden geçici lisans başvurusunda bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

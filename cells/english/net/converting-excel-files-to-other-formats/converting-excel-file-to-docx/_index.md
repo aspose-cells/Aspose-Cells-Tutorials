@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/converting-excel-file-to-docx/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Excel File to DOCX Programmatically in .NET
@@ -127,6 +129,7 @@ The layout of the Excel file is retained as much as possible during conversion. 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

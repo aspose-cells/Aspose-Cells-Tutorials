@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ import com.aspose.cells.Workbook;
 
 public class ClearHorizontalPageBreaks {
     public static void main(String[] args) throws Exception {
-        // Workbook オブジェクトのインスタンス化
+        // Workbookオブジェクトのインスタンス化
         Workbook workbook = new Workbook();
         
         // ワークブックの最初のワークシートにアクセスする
@@ -139,7 +141,7 @@ import com.aspose.cells.Workbook;
 
 public class ClearVerticalPageBreaks {
     public static void main(String[] args) throws Exception {
-        // Workbook オブジェクトのインスタンス化
+        // Workbookオブジェクトのインスタンス化
         Workbook workbook = new Workbook();
         
         // ワークブックの最初のワークシートにアクセスする
@@ -194,6 +196,9 @@ Excel でページ区切りをクリアすると、次のようないくつか�
 - Aspose.Cells for Java の追加機能を調べて、Excel ドキュメントの処理機能をさらに強化します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Laporan Excel Dinamis
@@ -16,7 +18,7 @@
 
 Laporan Excel yang dinamis merupakan cara yang ampuh untuk menyajikan data yang dapat beradaptasi dan diperbarui seiring perubahan data Anda. Dalam panduan ini, kita akan membahas cara membuat laporan Excel yang dinamis menggunakan Aspose.Cells for Java API. 
 
-## Perkenalan
+## Bevezetés
 
 Laporan dinamis sangat penting bagi bisnis dan organisasi yang menangani data yang terus berubah. Daripada memperbarui lembar Excel secara manual setiap kali data baru masuk, laporan dinamis dapat secara otomatis mengambil, memproses, dan memperbarui data, sehingga menghemat waktu dan mengurangi risiko kesalahan. Dalam tutorial ini, kami akan membahas langkah-langkah berikut untuk membuat laporan Excel yang dinamis:
 
@@ -29,7 +31,7 @@ Sebelum kita mulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda
 Untuk memulai, mari buat buku kerja Excel baru menggunakan Aspose.Cells. Berikut contoh sederhana cara membuatnya:
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 ```
 
@@ -38,7 +40,7 @@ Workbook workbook = new Workbook();
 Sekarang setelah kita memiliki buku kerja, kita dapat menambahkan data ke dalamnya. Anda dapat mengambil data dari database, API, atau sumber lain dan mengisinya di lembar Excel Anda. Misalnya:
 
 ```java
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Tambahkan data ke lembar kerja
@@ -78,7 +80,7 @@ Kunci dari laporan dinamis adalah kemampuan untuk memperbarui data secara otomat
 worksheet.calculateFormula(true);
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah mempelajari dasar-dasar pembuatan laporan Excel dinamis menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menyiapkan lingkungan pengembangan, membuat buku kerja, menambahkan data, menerapkan rumus, gaya, dan mengotomatiskan pembaruan data.
 
@@ -113,6 +115,7 @@ Ya, Aspose.Cells untuk Java memungkinkan Anda mengekspor laporan Excel dinamis k
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Aspose.Cells for Java kullanarak Excel çalışma kitaplarını nasıl oluştura
 Bu kılavuzu takip ederek, Excel ile ilgili projelerinizde Aspose.Cells for Java'nın yeteneklerini kullanmak için iyi bir donanıma sahip olmalısınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

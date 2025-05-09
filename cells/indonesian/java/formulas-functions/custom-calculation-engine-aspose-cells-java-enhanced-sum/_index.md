@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Judul: Menerapkan Mesin Perhitungan Kustom di Aspose.Cells Java: Meningkatkan Fungsionalitas SUM Anda
 
-## Perkenalan
+## Bevezetés
 
 Pernahkah Anda merasa ingin mengubah fungsi spreadsheet standar agar lebih sesuai dengan kebutuhan bisnis unik Anda? Potongan kode yang akan kita bahas memecahkan masalah ini dengan menunjukkan cara membuat dan menggunakan mesin kalkulasi khusus dengan **Aspose.Cells untuk Java**Pustaka canggih ini memungkinkan Anda menyesuaikan perhitungan seperti fungsi SUM, sehingga menambah fleksibilitas pada tugas pemrosesan data Anda.
 
@@ -26,7 +28,7 @@ Dalam tutorial ini, kami akan memandu Anda untuk meningkatkan fungsionalitas SUM
 
 Mari kita mulai dengan menyiapkan lingkungan kita dan memastikan kita memiliki semua alat yang diperlukan.
 
-### Prasyarat
+### Előfeltételek
 
 Sebelum menyelami tutorial ini, pastikan Anda telah:
 
@@ -39,13 +41,13 @@ Sebelum menyelami tutorial ini, pastikan Anda telah:
 
 Untuk mulai menggunakan Aspose.Cells, Anda perlu menyiapkan proyek Anda dengan dependensi yang diperlukan. Pustaka ini memungkinkan Anda untuk memanipulasi file Excel secara terprogram, menawarkan serangkaian fungsi yang luas termasuk mesin kalkulasi khusus.
 
-### Informasi Instalasi
+### Telepítési információk
 
 Tergantung pada alat yang Anda buat, ikuti langkah-langkah berikut:
 
 **Pakar**
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -57,21 +59,21 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 **Bahasa Inggris Gradle**
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara untuk tujuan evaluasi. Berikut caranya:
 
-- **Uji Coba Gratis**: Unduh perpustakaan dari [rilis](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**:Dapatkan satu melalui [tautan ini](https://purchase.aspose.com/temporary-license/) untuk menghilangkan batasan apa pun selama evaluasi Anda.
-- **Pembelian**:Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi melalui [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**: Töltsd le a könyvtárat innen: [kiadások](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**:Dapatkan satu melalui [ezt a linket](https://purchase.aspose.com/temporary-license/) untuk menghilangkan batasan apa pun selama evaluasi Anda.
+- **Vásárlás**:Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi melalui [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah Anda menyiapkan pustaka di proyek Anda, inisialisasikan sebagai berikut:
 
@@ -80,7 +82,7 @@ import com.aspose.cells.Workbook;
 
 public class AsposeCellsSetup {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi objek Buku Kerja baru
+        // Új munkafüzet-objektum inicializálása
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java is ready to use!");
@@ -88,7 +90,7 @@ public class AsposeCellsSetup {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang setelah lingkungan kita disiapkan, mari terapkan fitur mesin kalkulasi khusus.
 
@@ -96,11 +98,11 @@ Sekarang setelah lingkungan kita disiapkan, mari terapkan fitur mesin kalkulasi 
 
 Bagian ini berfokus pada perluasan kemampuan Aspose.Cells dengan memodifikasi cara menghitung fungsi SUM. Kita akan membuat `CustomEngine` kelas dengan mengganti metode untuk menyesuaikan perilaku.
 
-#### Ringkasan
+#### Áttekintés
 
 Kami akan memperpanjang `AbstractCalculationEngine` dan mengesampingkannya `calculate` metode untuk menyesuaikan operasi SUM, menambahkan nilai tetap 30 ke setiap hasil.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Tentukan Mesin Kustom**
 
@@ -130,7 +132,7 @@ import com.aspose.cells.*;
 
 public class CustomCalculationEngineDemo {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi buku kerja baru
+        // Új munkafüzet inicializálása
         Workbook workbook = new Workbook();
 
         Worksheet sheet = workbook.getWorksheets().get(0);
@@ -157,26 +159,26 @@ public class CustomCalculationEngineDemo {
 }
 ```
 
-#### Opsi Konfigurasi Utama
+#### Kulcskonfigurációs beállítások
 
 - **Opsi Perhitungan**: Kelas ini memungkinkan Anda menentukan mesin penghitungan khusus, membuatnya fleksibel untuk beragam kasus penggunaan.
   
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
 - Pastikan pustaka Aspose.Cells Anda mutakhir untuk menghindari masalah kompatibilitas.
 - Periksa ulang penggantian metode dan pastikan nama fungsi yang benar digunakan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Mesin kalkulasi khusus dapat sangat berguna dalam beberapa skenario dunia nyata:
 
-1. **Analisis Keuangan**: Menyesuaikan rumus untuk biaya tambahan atau pajak secara dinamis.
-2. **Validasi Data**: Terapkan logika khusus untuk memvalidasi dan menyesuaikan data secara otomatis.
-3. **Pelaporan**: Menyesuaikan perhitungan untuk memenuhi persyaratan pelaporan bisnis tertentu.
-4. **Manajemen Inventaris**: Memodifikasi operasi penjumlahan berdasarkan kebijakan inventaris.
-5. **Perangkat Lunak Pendidikan**: Menyesuaikan keluaran rumus untuk tujuan pendidikan.
+1. **Pénzügyi elemzés**: Menyesuaikan rumus untuk biaya tambahan atau pajak secara dinamis.
+2. **Adatérvényesítés**: Terapkan logika khusus untuk memvalidasi dan menyesuaikan data secara otomatis.
+3. **Jelentéstétel**: Menyesuaikan perhitungan untuk memenuhi persyaratan pelaporan bisnis tertentu.
+4. **Készletgazdálkodás**: Memodifikasi operasi penjumlahan berdasarkan kebijakan inventaris.
+5. **Oktatási szoftver**: Menyesuaikan keluaran rumus untuk tujuan pendidikan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat menerapkan mesin kalkulasi khusus, pertimbangkan kiat kinerja berikut:
 
@@ -184,13 +186,13 @@ Saat menerapkan mesin kalkulasi khusus, pertimbangkan kiat kinerja berikut:
 - Gunakan struktur data dan algoritma yang efisien untuk menangani kumpulan data besar.
 - Pantau penggunaan memori dan terapkan praktik terbaik untuk manajemen memori Java dengan Aspose.Cells.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti tutorial ini, Anda telah mempelajari cara meningkatkan fungsionalitas SUM di Aspose.Cells menggunakan mesin kalkulasi khusus. Kustomisasi yang canggih ini dapat mengadaptasi operasi spreadsheet sesuai kebutuhan spesifik Anda, sehingga memberikan fleksibilitas dan efisiensi.
 
 Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells yang lebih canggih atau mengintegrasikannya dengan sistem lain untuk solusi manajemen data yang komprehensif.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu Aspose.Cells Java?**
    - Aspose.Cells untuk Java adalah pustaka yang memungkinkan Anda bekerja secara terprogram dengan file Excel dalam aplikasi Java.
@@ -205,20 +207,23 @@ Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells 
    - Masalah umum meliputi penggantian metode yang salah dan masalah kompatibilitas karena versi pustaka yang ketinggalan zaman.
 
 5. **Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells untuk Java?**
-   - Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk panduan terperinci dan referensi API.
+   - Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) részletes útmutatókért és API-referenciákért.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**: [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Coba Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Legújabb kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Próbáld ki az Aspose.Cells-t](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 Sekarang setelah Anda menguasai penerapan mesin kalkulasi khusus di Aspose.Cells Java, uji keterampilan Anda dan mulailah mengoptimalkan spreadsheet Anda seperti belum pernah sebelumnya!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

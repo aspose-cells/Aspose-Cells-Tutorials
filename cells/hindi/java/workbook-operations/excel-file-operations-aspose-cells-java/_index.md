@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Aspose.Cells की आगे की कार्यक्षमताओं क
 - **खरीद और लाइसेंसिंग:** खरीद या लाइसेंस संबंधी पूछताछ के लिए, यहां जाएं [खरीद पृष्ठ](https://purchase.aspose.com/buy) और [अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

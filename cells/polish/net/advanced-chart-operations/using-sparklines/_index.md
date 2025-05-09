@@ -1,14 +1,16 @@
 ---
-title: Korzystanie z wykresów Sparkline
-linktitle: Korzystanie z wykresów Sparkline
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak skutecznie używać wykresów sparkline w programie Excel z Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku dla płynnego działania.
-weight: 18
-url: /pl/net/advanced-chart-operations/using-sparklines/
+"description": "Dowiedz się, jak skutecznie używać wykresów sparkline w programie Excel z Aspose.Cells dla .NET. Dołączony przewodnik krok po kroku dla płynnego działania."
+"linktitle": "Korzystanie z wykresów Sparkline"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Korzystanie z wykresów Sparkline"
+"url": "/pl/net/advanced-chart-operations/using-sparklines/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Korzystanie z wykresów Sparkline
@@ -23,8 +25,8 @@ Zanim zagłębimy się w świat wykresów sparkline, omówmy kilka warunków wst
 
 1. Znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci lepiej zrozumieć kodowanie.
 2. Zainstalowany .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework.
-3. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
-4.  Szablon programu Excel: Użyjemy pliku programu Excel o nazwie`sampleUsingSparklines.xlsx`. Zapisz go w katalogu roboczym.
+3. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
+4. Szablon programu Excel: Użyjemy pliku programu Excel o nazwie `sampleUsingSparklines.xlsx`. Zapisz go w katalogu roboczym.
 
 Teraz, gdy mamy już niezbędną konfigurację, możemy przejść do szczegółów wdrożenia wykresów sparkline!
 
@@ -54,19 +56,19 @@ string outputDir = "Your Output Directory"; // podaj ścieżkę
 string sourceDir = "Your Document Directory"; // podaj ścieżkę
 ```
 
- Tutaj zamień`Your Output Directory` I`Your Document Directory` z rzeczywistymi ścieżkami w Twoim systemie.
+Tutaj zamień `Your Output Directory` I `Your Document Directory` z rzeczywistymi ścieżkami w Twoim systemie.
 
 ## Krok 2: Utwórz i otwórz skoroszyt
 
 Teraz utwórzmy skoroszyt i otwórzmy plik szablonu programu Excel.
 
 ```csharp
-//Utwórz instancję skoroszytu
+// Utwórz instancję skoroszytu
 // Otwórz plik szablonu
 Workbook book = new Workbook(sourceDir + "sampleUsingSparklines.xlsx");
 ```
 
- Ten kod tworzy instancję`Workbook` klasę i ładuje określony plik szablonu z katalogu źródłowego.
+Ten kod tworzy instancję `Workbook` klasę i ładuje określony plik szablonu z katalogu źródłowego.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -108,12 +110,12 @@ Następnie chcemy określić, gdzie w arkuszu kalkulacyjnym zostaną umieszczone
 // Zdefiniuj obszar komórek D2:D10
 CellArea ca = new CellArea();
 ca.StartColumn = 4; // mi
-ca.EndColumn = 4;   // mi
+ca.mindColumn = 4;   // E
 ca.StartRow = 1;    // 2
 ca.EndRow = 7;      // 8
 ```
 
-tym fragmencie kodu konfigurujemy obszar w arkuszu roboczym oznaczony jako D2:D10, w którym zostaną utworzone nowe wykresy sparkline. Dostosuj odwołania do komórek w zależności od tego, gdzie chcesz wyświetlać swoje wykresy sparkline.
+W tym fragmencie kodu konfigurujemy obszar w arkuszu roboczym oznaczony jako D2:D10, w którym zostaną utworzone nowe wykresy sparkline. Dostosuj odwołania do komórek w zależności od tego, gdzie chcesz wyświetlać swoje wykresy sparkline.
 
 ## Krok 6: Dodaj wykresy Sparkline do arkusza kalkulacyjnego
 
@@ -125,7 +127,7 @@ int idx = sheet.SparklineGroupCollection.Add(SparklineType.Column, "Sheet1!B2:D8
 SparklineGroup group = sheet.SparklineGroupCollection[idx];
 ```
 
- Tutaj dodajemy wykres typu kolumnowego dla danych obejmujących`Sheet1!B2:D8` do wcześniej zdefiniowanego obszaru komórki. Nie zapomnij zmodyfikować zakresu danych zgodnie ze swoimi wymaganiami.
+Tutaj dodajemy wykres typu kolumnowego dla danych obejmujących `Sheet1!B2:D8` do wcześniej zdefiniowanego obszaru komórki. Nie zapomnij zmodyfikować zakresu danych zgodnie ze swoimi wymaganiami.
 
 ## Krok 7: Dostosuj kolory Sparkline
 
@@ -138,7 +140,7 @@ clr.Color = Color.Orange; // Wybierz swój ulubiony kolor
 group.SeriesColor = clr;
 ```
 
- W tym kodzie tworzymy nowy`CellsColor` na przykład ustawiając go na pomarańczowy i stosując do serii wykresów sparkline, które właśnie utworzyliśmy.
+tym kodzie tworzymy nowy `CellsColor` na przykład ustawiając go na pomarańczowy i stosując do serii wykresów sparkline, które właśnie utworzyliśmy.
 
 ## Krok 8: Zapisz zmodyfikowany skoroszyt
 
@@ -163,19 +165,21 @@ I oto masz — kompleksowy przewodnik krok po kroku dotyczący tworzenia i wykor
 Sparkline to miniaturowe wykresy mieszczące się w pojedynczej komórce, zapewniające kompaktową i prostą wizualizację trendów danych.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Tak, potrzebujesz ważnej licencji, aby korzystać ze wszystkich funkcji Aspose.Cells. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli dopiero zaczynasz.
+Tak, potrzebujesz ważnej licencji, aby korzystać ze wszystkich funkcji Aspose.Cells. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli dopiero zaczynasz.
 
 ### Czy mogę tworzyć różne rodzaje wykresów sparkline?
 Oczywiście! Aspose.Cells obsługuje różne typy sparkline, w tym linie, kolumny i sparkline wygranych/przegranych.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Możesz uzyskać dostęp do szczegółowej dokumentacji i przykładów dla Aspose.Cells dla .NET[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz uzyskać dostęp do szczegółowej dokumentacji i przykładów dla Aspose.Cells dla .NET [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Czy jest dostępna bezpłatna wersja próbna?
- Tak, możesz pobrać bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną Aspose.Cells [Tutaj](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

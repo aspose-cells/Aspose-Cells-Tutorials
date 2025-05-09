@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ A1: Sí, iterando sobre una colección de rutas de archivos y aplicando el proce
 A2: Aspose.Cells admite una amplia gama de formatos de Excel, incluidas versiones anteriores como `.xls` otros más nuevos como `.xlsx`.
 
 **P3: ¿Cómo puedo manejar archivos grandes de Excel sin tener problemas de memoria?**
-A3: Considere descomponer archivos grandes u optimizar los datos antes de la conversión. La gestión eficiente de recursos es clave.
+A3: Considere dividir archivos grandes u optimizar los datos antes de la conversión. La gestión eficiente de recursos es clave.
 
 **P4: ¿Existen opciones de personalización para la salida PDF?**
 A4: Sí, Aspose.Cells proporciona varias opciones de configuración para personalizar la apariencia y la funcionalidad de los PDF generados.
@@ -136,6 +138,9 @@ A5: Verifique las rutas de archivos, asegúrese de tener los permisos correctos 
 Ahora que tienes las herramientas y el conocimiento, ¡comienza a convertir eficientemente archivos de Excel a PDF con Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

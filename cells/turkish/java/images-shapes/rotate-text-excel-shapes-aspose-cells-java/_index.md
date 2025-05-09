@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells'i denemek için ücretsiz geçici bir lisans edinebilir veya tam işlevsellik için satın alabilirsiniz. Aşağıdaki adımları izleyin:
 
 1. **Ücretsiz Deneme**: Kütüphaneyi şu adresten indirin: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/).
-2. **Geçici Lisans**Geçici lisans talebinde bulunun [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/).
-3. **Satın almak**: Uzun süreli kullanım için, şu adresten lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
+2. **Geçici Lisans**: Geçici lisans talebinde bulunun [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/).
+3. **Satın almak**Uzun süreli kullanım için, şu adresten lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
 ### Temel Başlatma ve Kurulum
 
@@ -199,6 +201,9 @@ Bu eğitimde, Aspose.Cells for Java kullanarak Excel'de şekillerin içindeki me
 Bu teknikleri deneyin ve Aspose.Cells for Java'yı kullanarak Excel belge düzenlemelerinizi bir üst seviyeye taşıyın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

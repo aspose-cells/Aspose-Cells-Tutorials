@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ Khi làm việc với các tập dữ liệu lớn hoặc bảng tính phức t�
 Bằng cách thành thạo các kỹ thuật này, bạn có thể nâng cao hiệu suất và độ tin cậy của các tác vụ tự động hóa Excel bằng Aspose.Cells trong Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

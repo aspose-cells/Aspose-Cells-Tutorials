@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Sie sollten nun ein solides Verständnis dafür haben, wie Sie Slicer-Eigenschaf
 Begeben Sie sich auf die Reise zur Beherrschung der Excel-Slicer-Anpassung mit Aspose.Cells für Java und bringen Sie Ihre Datenpräsentationen auf die nächste Ebene!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

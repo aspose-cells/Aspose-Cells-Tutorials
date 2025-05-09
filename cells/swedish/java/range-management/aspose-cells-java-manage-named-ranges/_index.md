@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,7 +198,7 @@ Du har nu bemästrat skapandet, kopieringen och borttagningen av namngivna områ
 
 **Försök att implementera dessa tekniker i dina projekt idag!**
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Vad är Aspose.Cells?**
    - Ett bibliotek som gör det möjligt för utvecklare att hantera Excel-filer programmatiskt utan att behöva installera Microsoft Office.
@@ -215,6 +217,9 @@ Du har nu bemästrat skapandet, kopieringen och borttagningen av namngivna områ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

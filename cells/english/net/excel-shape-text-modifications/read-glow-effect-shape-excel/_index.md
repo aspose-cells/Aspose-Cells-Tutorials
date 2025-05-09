@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/read-glow-effect-shape-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read Glow Effect of Shape in Excel
@@ -93,6 +95,7 @@ Yes! You can obtain a temporary license [here](https://purchase.aspose.com/tempo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

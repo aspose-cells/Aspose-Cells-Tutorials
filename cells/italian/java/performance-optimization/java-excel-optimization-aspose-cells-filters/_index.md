@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Aspose.Cells è un prodotto commerciale, ma puoi iniziare con una prova gratuita
 
 ### Inizializzazione e configurazione di base
 
-Dopo aver configurato Aspose.Cells, inizializzalo nella tua applicazione Java:
+Una volta configurato Aspose.Cells, inizializzalo nella tua applicazione Java:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -190,6 +192,9 @@ Pronti a portare le vostre competenze di elaborazione Java ed Excel a un livello
 - **Supporto:** Ottieni aiuto e discuti i problemi su [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

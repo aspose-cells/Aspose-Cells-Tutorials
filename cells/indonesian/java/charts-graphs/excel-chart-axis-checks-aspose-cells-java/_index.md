@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Periksa Sumbu Bagan Excel Secara Efisien Menggunakan Aspose.Cells Java
 
-### Perkenalan
+### Bevezetés
 Kesulitan dengan pemeriksaan manual sumbu grafik Excel? Temukan solusi yang efisien menggunakan **Aspose.Cells untuk Java**Tutorial ini akan memandu Anda melalui verifikasi terprogram terhadap keberadaan sumbu dalam diagram Anda, yang akan meningkatkan efisiensi dan produktivitas.
 
 Belajar untuk:
@@ -23,17 +25,17 @@ Belajar untuk:
 
 Di akhir panduan ini, Anda akan mengelola sumbu grafik secara efisien dengan Aspose.Cells untuk Java. Mari kita mulai dengan meninjau prasyaratnya.
 
-### Prasyarat
-Pastikan Anda memiliki:
+### Előfeltételek
+Győződjön meg róla, hogy rendelkezik:
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi.
-- **Pakar** atau **Bahasa Inggris Gradle**: Disiapkan untuk menangani dependensi.
+- **Pakar** vagy **Bahasa Inggris Gradle**: Disiapkan untuk menangani dependensi.
 - Pengetahuan dasar tentang Java dan penanganan file Excel secara terprogram.
 
 ### Menyiapkan Aspose.Cells untuk Java
 Sertakan pustaka dalam proyek Anda menggunakan Maven atau Gradle:
 
 **Pakar**
-Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
+Tambahkan ketergantungan ini ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,38 +45,38 @@ Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
 ```
 
 **Bahasa Inggris Gradle**
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
-Mulailah dengan **lisensi uji coba gratis** untuk menjelajahi kemampuan Aspose.Cells tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan untuk membeli atau mendapatkan lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
+#### Licencszerzés
+Kezdj egy **ingyenes próbalicenc** untuk menjelajahi kemampuan Aspose.Cells tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan untuk membeli atau mendapatkan lisensi sementara dari [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 Kami akan membagi prosesnya menjadi beberapa bagian yang dapat dikelola.
 
-#### Muat Buku Kerja
-**Ringkasan**:Memuat buku kerja Excel adalah langkah pertama Anda dalam mengakses isinya.
+#### Munkafüzet betöltése
+**Áttekintés**:Memuat buku kerja Excel adalah langkah pertama Anda dalam mengakses isinya.
 1. **Impor Kelas yang Diperlukan**
    ```java
    import com.aspose.cells.Workbook;
    ```
 2. **Memuat Buku Kerja dari File**
-   Mengganti `"YOUR_DATA_DIRECTORY"` dengan jalur sebenarnya:
+   Csere `"YOUR_DATA_DIRECTORY"` dengan jalur sebenarnya:
    ```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook workbook = new Workbook(dataDir + "/source.xlsx");
    // Objek buku kerja sekarang berisi semua lembar, bagan, dan data.
    ```
 
-#### Lembar Kerja Akses
-**Ringkasan**: Akses lembar kerja individual untuk mengerjakan kontennya.
+#### Hozzáférési munkalap
+**Áttekintés**: Akses lembar kerja individual untuk mengerjakan kontennya.
 1. **Impor Kelas Lembar Kerja**
    ```java
    import com.aspose.cells.Worksheet;
    ```
-2. **Mengakses Lembar Kerja Tertentu**
+2. **Hozzáférés egy adott munkalaphoz**
    Ambil lembar kerja pertama:
    ```java
    Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -82,7 +84,7 @@ Kami akan membagi prosesnya menjadi beberapa bagian yang dapat dikelola.
    ```
 
 #### Bagan Akses
-**Ringkasan**: Mengekstrak dan memanipulasi grafik dalam lembar kerja.
+**Áttekintés**: Mengekstrak dan memanipulasi grafik dalam lembar kerja.
 1. **Impor Kelas Bagan**
    ```java
    import com.aspose.cells.Chart;
@@ -95,7 +97,7 @@ Kami akan membagi prosesnya menjadi beberapa bagian yang dapat dikelola.
    ```
 
 #### Periksa Keberadaan Axis
-**Ringkasan**: Verifikasi apakah sumbu tertentu ada dalam bagan.
+**Áttekintés**: Verifikasi apakah sumbu tertentu ada dalam bagan.
 1. **Impor AxisType**
    ```java
    import com.aspose.cells.AxisType;
@@ -104,7 +106,7 @@ Kami akan membagi prosesnya menjadi beberapa bagian yang dapat dikelola.
    - **Sumbu Kategori Utama (Kiri)**
      ```java
      boolean hasPrimaryCategoryAxis = chart.hasAxis(AxisType.CATEGORY, true);
-     // Memeriksa apakah sumbu kategori utama ada.
+     // Memeriksa apakah sumbu kategori utama hadir.
      ```
    - **Sumbu Kategori Sekunder (Kanan)**
      ```java
@@ -122,36 +124,36 @@ Kami akan membagi prosesnya menjadi beberapa bagian yang dapat dikelola.
      // Memeriksa sumbu nilai sekunder di sebelah kanan.
      ```
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 - Pastikan file Excel Anda tidak rusak dan dalam kondisi baik. `.xlsx` format.
 - Verifikasi jalur yang ditentukan di `dataDir`.
 - Periksa apakah izin yang diperlukan telah ditetapkan untuk membaca berkas dari direktori.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 Penggunaan nyata untuk memeriksa sumbu grafik meliputi:
-1. **Analisis Data**: Verifikasi grafik secara otomatis sebelum menjalankan laporan.
+1. **Adatelemzés**: Verifikasi grafik secara otomatis sebelum menjalankan laporan.
 2. **Pembuatan Dasbor**: Pastikan konfigurasi sumbu yang konsisten di seluruh dasbor.
-3. **Pelaporan Otomatis**: Validasi dan sesuaikan grafik dalam proses otomatis.
-4. **Pemodelan Keuangan**: Konfirmasikan sumbu yang diperlukan untuk proyeksi yang akurat.
+3. **Automatizált jelentéskészítés**: Validasi dan sesuaikan grafik dalam proses otomatis.
+4. **Pénzügyi modellezés**: Konfirmasikan sumbu yang diperlukan untuk proyeksi yang akurat.
 5. **Integrasi dengan Alat BI**: Tingkatkan visualisasi data sebelum integrasi.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 Optimalkan kinerja dengan:
 - Hanya membaca lembar atau bagan yang diperlukan.
 - Mengelola penggunaan memori, terutama dengan file besar.
 - Memanfaatkan praktik terbaik Java untuk manajemen sumber daya dan pengumpulan sampah.
 
-### Kesimpulan
-Anda sekarang memahami cara memuat buku kerja, mengakses lembar kerja dan bagan, serta memeriksa keberadaan sumbu menggunakan Aspose.Cells untuk Java. Jelajahi fitur tambahan seperti penataan bagan dan manipulasi data di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+### Következtetés
+Anda sekarang memahami cara memuat buku kerja, mengakses lembar kerja dan bagan, serta memeriksa keberadaan sumbu menggunakan Aspose.Cells untuk Java. Jelajahi fitur tambahan seperti penataan bagan dan manipulasi data di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 
-### Bagian FAQ
+### GYIK szekció
 **Q1: Bagaimana cara menangani beberapa sumbu di buku kerja saya?**
 A1: Gunakan loop untuk mengulangi semua grafik, menerapkan pemeriksaan sumbu seperti yang ditunjukkan di atas.
 
 **Q2: Bagaimana jika grafik tidak memiliki sumbu kategori atau nilai?**
 A2: Tambahkan sumbu secara terprogram menggunakan metode Aspose.Cells.
 
-**Q3: Dapatkah saya menggunakan Aspose.Cells untuk format Excel lainnya seperti `.xls` atau `.xlsm`....**
+**Q3: Dapatkah saya menggunakan Aspose.Cells untuk format Excel lainnya seperti `.xls` vagy `.xlsm`?**
 A3: Ya, mendukung berbagai format. Pastikan Anda menggunakan ekstensi file yang benar saat memuat buku kerja.
 
 **Q4: Bagaimana cara memperbarui sumbu grafik yang ada dengan Aspose.Cells?**
@@ -160,11 +162,14 @@ A4: Lihat dokumentasi tentang modifikasi bagan dan terapkan perubahan pada prope
 **Q5: Bagaimana jika aplikasi saya memerlukan pemrosesan Excel berkinerja tinggi?**
 A5: Optimalkan kode dengan memuat data yang diperlukan, menyimpan hasil dalam cache, atau memanfaatkan kemampuan multi-threading Java.
 
-### Sumber daya
-- **Dokumentasi**: [Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
-- **Unduh**: Akses versi terbaru Aspose.Cells untuk Java untuk mulai menerapkan solusi ini hari ini.
+### Erőforrás
+- **Dokumentáció**: [Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
+- **Letöltés**: Akses versi terbaru Aspose.Cells untuk Java untuk mulai menerapkan solusi ini hari ini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

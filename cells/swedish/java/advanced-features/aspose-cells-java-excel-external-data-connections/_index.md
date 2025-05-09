@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 
 #### Funktion 1: Hämta externa dataanslutningar
 
-**Översikt:** Den här funktionen låter dig lista alla externa datakopplingar i en Excel-arbetsbok. Att förstå dessa kopplingar är nyckeln till att hantera hur dina data integreras med andra system.
+**Översikt:** Den här funktionen låter dig lista alla externa datakopplingar i en Excel-arbetsbok. Att förstå dessa kopplingar är avgörande för att hantera hur dina data integreras med andra system.
 
 **Implementeringssteg:**
 
@@ -92,7 +94,7 @@ int connectionCount = connections.getCount();
 ```
 Här får vi tillgång till alla externa dataanslutningar och avgör hur många det finns.
 
-#### Funktion 2: Extrahera databasanslutningsdetaljer
+#### Funktion 2: Extrahera databasanslutningsinformation
 
 **Översikt:** Det här avsnittet fokuserar på att extrahera och visa detaljerad information från varje databasanslutningsobjekt (DBConnection).
 
@@ -195,6 +197,9 @@ Vid det här laget bör du vara väl rustad för att hantera externa datakopplin
 Börja integrera och hantera dina Excel-datakopplingar idag med Aspose.Cells för Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

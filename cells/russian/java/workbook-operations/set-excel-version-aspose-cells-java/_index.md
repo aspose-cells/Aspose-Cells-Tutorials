@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 
 Перед началом убедитесь, что у вас есть следующее:
 
-- **Требуемые библиотеки:** Включите Aspose.Cells для Java (версии 25.3 или более поздней) в свой проект.
+- **Необходимые библиотеки:** Включите Aspose.Cells для Java (версии 25.3 или более поздней) в свой проект.
 - **Настройка среды:** Предполагается знакомство с системами разработки и сборки Java, такими как Maven или Gradle.
 - **Необходимые знания:** Базовое понимание концепций программирования на Java, особенно принципов объектно-ориентированного программирования.
 
@@ -144,7 +146,7 @@ dwb.save(outDir + "outputSpecifyDocumentVersionOfExcelFile.xlsx", dSaveFormat.XL
 
 ### Следующие шаги
 - Поэкспериментируйте с другими встроенными свойствами.
-- Изучите всеобъемлющий [Документация Aspose.Cells](https://reference.aspose.com/cells/java/) для получения дополнительных функций.
+- Исследуйте всеобъемлющий [Документация Aspose.Cells](https://reference.aspose.com/cells/java/) для получения дополнительных функций.
 
 ## Раздел часто задаваемых вопросов
 1. **Что такое Aspose.Cells для Java?**
@@ -167,6 +169,9 @@ dwb.save(outDir + "outputSpecifyDocumentVersionOfExcelFile.xlsx", dSaveFormat.XL
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

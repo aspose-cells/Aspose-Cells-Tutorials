@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ worksheet.getCells().deleteRows(2, 10, true);
 #### Шаг 4: Сохраните измененную рабочую книгу.
 Сохраните изменения:
 ```java
-// Сохранение измененной книги
+// Сохранение измененной рабочей книги
 dataDir + "DeleteMultipleRows_out.xls";
 ```
 
@@ -180,6 +182,9 @@ Aspose.Cells для Java позволяет использовать разли�
 В этом руководстве дается полное представление об удалении строк в Excel с помощью Aspose.Cells для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

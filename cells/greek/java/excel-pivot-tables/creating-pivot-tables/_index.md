@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Δημιουργία Συγκεντρωτικών Πινάκων
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    Μπορείτε να αυτοματοποιήσετε τη δημιουργία Συγκεντρωτικού Πίνακα σε Java χρησιμοποιώντας το Aspose.Cells για Java API, όπως φαίνεται σε αυτό το σεμινάριο.
 
 Τώρα έχετε τις γνώσεις και τον κώδικα για να δημιουργήσετε ισχυρούς Συγκεντρωτικούς Πίνακες σε Java χρησιμοποιώντας το Aspose.Cells. Πειραματιστείτε με διαφορετικές πηγές δεδομένων και διαμορφώσεις για να προσαρμόσετε τους Συγκεντρωτικούς Πίνακες σας στις συγκεκριμένες ανάγκες σας. Καλή ανάλυση δεδομένων!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

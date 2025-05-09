@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,7 +183,7 @@ workbook.save(outDir + "/SettingPageSetupProperties_out.xls");
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**: Limite o número de planilhas e evite operações excessivas na memória para gerenciar a memória Java de forma eficaz.
+- **Otimizar o uso da memória**: Limite o número de planilhas e evite operações excessivas na memória para gerenciar a memória Java de forma eficaz.
 - **Gestão Eficiente de Recursos**: Feche todos os fluxos e descarte os objetos quando eles não forem mais necessários para liberar recursos.
 - **Melhores Práticas**:
   - Utilize processamento em lote para grandes conjuntos de dados.
@@ -202,6 +204,9 @@ Para se aprofundar nos recursos do Aspose.Cells, considere explorar recursos mai
    - Sim, você pode baixar manualmente e adicionar arquivos JAR ao classpath do seu projeto.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Aprimore seus relatórios do Excel incorporando hiperlinks de imagens interativos. Este tutorial orienta você no uso do Aspose.Cells para Java para tornar imagens estáticas clicáveis, criando planilhas mais envolventes e funcionais.
 
-### que você aprenderá
+### O que você aprenderá
 - Inicializando uma pasta de trabalho Aspose.Cells em Java.
 - Inserir imagens como hiperlinks clicáveis.
 - Principais parâmetros e métodos envolvidos.
@@ -171,6 +173,9 @@ R5: Problemas comuns incluem caminhos de arquivo incorretos ou configuração de
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

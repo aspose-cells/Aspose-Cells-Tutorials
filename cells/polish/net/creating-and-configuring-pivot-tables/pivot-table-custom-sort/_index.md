@@ -1,14 +1,16 @@
 ---
-title: Sortowanie niestandardowe tabeli przestawnej programowo w .NET
-linktitle: Sortowanie niestandardowe tabeli przestawnej programowo w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo sortować tabele przestawne w .NET przy użyciu Aspose.Cells. Przewodnik krok po kroku obejmujący konfigurację, sortowanie i zapisywanie wyników jako pliki Excel i PDF.
-weight: 29
-url: /pl/net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/
+"description": "Dowiedz się, jak programowo sortować tabele przestawne w .NET przy użyciu Aspose.Cells. Przewodnik krok po kroku obejmujący konfigurację, sortowanie i zapisywanie wyników jako pliki Excel i PDF."
+"linktitle": "Sortowanie niestandardowe tabeli przestawnej programowo w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Sortowanie niestandardowe tabeli przestawnej programowo w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sortowanie niestandardowe tabeli przestawnej programowo w .NET
@@ -19,9 +21,9 @@ Jeśli chodzi o pracę z programem Excel w środowisku .NET, jedna biblioteka wy
 Zanim zakasamy rękawy i zaczniemy pisać kod, upewnij się, że masz przygotowane kilka rzeczy:
 1. Visual Studio: Będziesz potrzebować działającej wersji Visual Studio. To plac zabaw, na którym dzieje się cała magia.
 2. .NET Framework: Znajomość programowania .NET jest niezbędna. Niezależnie od tego, czy jesteś entuzjastą .NET Core czy .NET Framework, jesteś gotowy do działania.
-3.  Biblioteka Aspose.Cells: Musisz zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z[Link do pobrania](https://releases.aspose.com/cells/net/) i dodaj do swojego projektu.
+3. Biblioteka Aspose.Cells: Musisz zainstalować bibliotekę Aspose.Cells. Możesz ją pobrać z [Link do pobrania](https://releases.aspose.com/cells/net/) i dodaj do swojego projektu.
 4. Podstawowa wiedza na temat tabel przestawnych: Chociaż nie musisz być ekspertem, odrobina wiedzy na temat działania tabel przestawnych okaże się pomocna w trakcie przechodzenia przez ten samouczek.
-5.  Przykładowy plik programu Excel: Utwórz przykładowy plik programu Excel o nazwie`SamplePivotSort.xlsx` gotowe do przetestowania w Twoim katalogu roboczym.
+5. Przykładowy plik programu Excel: Utwórz przykładowy plik programu Excel o nazwie `SamplePivotSort.xlsx` gotowe do przetestowania w Twoim katalogu roboczym.
 ## Importuj pakiety
 Gdy już wszystkie wymagania wstępne zostaną posortowane, pierwszym krokiem jest zaimportowanie niezbędnych pakietów. Aby to zrobić, umieść następujące wiersze na górze kodu:
 ```csharp
@@ -42,14 +44,14 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "SamplePivotSort.xlsx");
 ```
- W tym kroku inicjujemy nowy`Workbook` wystąpienie ze ścieżką do naszego pliku Excel. Działa to jak płótno, na którym nasza tabela przestawna ożyje.
+W tym kroku inicjujemy nowy `Workbook` wystąpienie ze ścieżką do naszego pliku Excel. Działa to jak płótno, na którym nasza tabela przestawna ożyje.
 ## Krok 2: Uzyskaj dostęp do arkusza kalkulacyjnego
 Następnie musimy uzyskać dostęp do arkusza kalkulacyjnego, w którym dodamy tabelę przestawną.
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 PivotTableCollection pivotTables = sheet.PivotTables;
 ```
- Tutaj bierzemy pierwszy arkusz roboczy w naszym skoroszycie i wywołujemy`PivotTableCollection`Ta kolekcja pozwala nam zarządzać wszystkimi tabelami przestawnymi w tym arkuszu.
+Tutaj bierzemy pierwszy arkusz roboczy w naszym skoroszycie i wywołujemy `PivotTableCollection`Ta kolekcja pozwala nam zarządzać wszystkimi tabelami przestawnymi w tym arkuszu.
 ## Krok 3: Utwórz swoją pierwszą tabelę przestawną
 Teraz czas utworzyć tabelę przestawną.
 ```csharp
@@ -69,7 +71,7 @@ rowField.IsAscendSort = true;
 ```
 Upewniamy się, że sumy całkowite dla wierszy i kolumn nie są wyświetlane, co może sprawić, że dane będą czystsze. Następnie dodajemy pierwsze pole do obszaru wiersza, umożliwiając automatyczne sortowanie i sortowanie rosnące.
 ## Krok 5: Dodaj kolumny i pola danych
-Po ustawieniu wierszy dodajmy kolumny i pola danych.
+Gdy wiersze są już ustawione, dodajmy kolumny i pola danych.
 ```csharp
 pivotTable.AddFieldToArea(PivotFieldType.Column,0);
 PivotField colField = pivotTable.ColumnFields[0];
@@ -88,7 +90,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 Metody te odświeżają dane i przeliczają je, dzięki czemu wszystko jest aktualne i prawidłowo wyświetlane w tabeli przestawnej.
-## Krok 7: Sortowanie niestandardowe na podstawie wartości pól wiersza
+## Krok 7: Sortowanie niestandardowe na podstawie wartości pól wierszy
 Dodajmy odrobinę finezji, sortując tabelę przestawną według określonych wartości, np. „Owoce morza”.
 ```csharp
 index = pivotTables.Add("=Sheet1!A1:C10", "E10", "PivotTable2");
@@ -116,7 +118,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 options.OnePagePerSheet = true;
 wb.Save(outputDir + "out.pdf", options);
 ```
- Tutaj zapisujesz skoroszyt jako plik Excel i PDF.`PdfSaveOptions` umożliwia lepsze formatowanie, zapewniając, że każdy arkusz pojawi się na osobnej stronie po konwersji.
+Tutaj zapisujesz skoroszyt jako plik Excel i PDF. `PdfSaveOptions` umożliwia lepsze formatowanie, zapewniając, że każdy arkusz pojawi się na osobnej stronie po konwersji.
 ## Krok 10: Zakończenie Podsumuj wszystko, informując użytkownika, że wszystko jest w porządku.
 ```csharp
 Console.WriteLine("PivotTableCustomSort executed successfully.");
@@ -127,16 +129,18 @@ Do tej pory nauczyłeś się, jak wykorzystać moc Aspose.Cells do tworzenia i d
 ### Czym jest tabela przestawna?
 Tabela przestawna to narzędzie do przetwarzania danych w programie Excel, które umożliwia podsumowywanie i analizowanie danych, zapewniając elastyczny sposób łatwego wyciągania wniosków.
 ### Jak zainstalować Aspose.Cells?
- Można go zainstalować za pomocą NuGet w programie Visual Studio lub pobrać bezpośrednio z witryny[Link do pobrania](https://releases.aspose.com/cells/net/).
+Można go zainstalować za pomocą NuGet w programie Visual Studio lub pobrać bezpośrednio z witryny [Link do pobrania](https://releases.aspose.com/cells/net/).
 ### Czy istnieje wersja próbna Aspose.Cells?
- Tak! Możesz wypróbować za darmo odwiedzając[Link do bezpłatnej wersji próbnej](https://releases.aspose.com/).
+Tak! Możesz wypróbować za darmo odwiedzając [Link do bezpłatnej wersji próbnej](https://releases.aspose.com/).
 ### Czy mogę sortować wiele pól w tabeli przestawnej?
 Oczywiście! Możesz dodać i sortować wiele pól w zależności od swoich wymagań.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Społeczność jest bardzo aktywna, a pytania możesz zadawać na ich forum[Tutaj](https://forum.aspose.com/c/cells/9).
+Społeczność jest bardzo aktywna, a pytania możesz zadawać na ich forum [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

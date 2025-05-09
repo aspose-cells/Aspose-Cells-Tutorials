@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ A3: Aspose.Cells उच्च प्रदर्शन और विश्वस
 **प्रश्न 4: मैं गैर-Maven/Gradle प्रोजेक्ट में Aspose.Cells कैसे स्थापित करूं?**
 A4: JAR को यहाँ से डाउनलोड करें [Aspose वेबसाइट](https://releases.aspose.com/cells/java/) और इसे अपने प्रोजेक्ट के क्लासपाथ में मैन्युअल रूप से जोड़ें।
 **प्रश्न 5: यदि मुझे Aspose.Cells के साथ कोई समस्या आती है तो क्या कोई सहायता उपलब्ध है?**
-A5: हाँ, आप के माध्यम से समर्थन तक पहुँच सकते हैं [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) या सहायता के लिए उनकी ग्राहक सेवा से संपर्क करें।
+A5: हाँ, आप के माध्यम से समर्थन तक पहुँच सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) या सहायता के लिए उनकी ग्राहक सेवा से संपर्क करें।
 ## संसाधन
 - **दस्तावेज़ीकरण:** [Aspose.Cells के बारे में अधिक जानें](https://reference.aspose.com/cells/java/)
 - **डाउनलोड करना:** Aspose.Cells का नवीनतम संस्करण प्राप्त करें [यहाँ](https://releases.aspose.com/cells/java/)
@@ -129,6 +131,9 @@ A5: हाँ, आप के माध्यम से समर्थन तक
 - **अस्थायी लाइसेंस:** पूर्ण कार्यक्षमता के लिए अस्थायी लाइसेंस प्राप्त करें [यहाँ](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

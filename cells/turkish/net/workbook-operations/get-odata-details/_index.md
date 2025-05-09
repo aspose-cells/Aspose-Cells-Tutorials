@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells kullanarak Çalışma Kitabından OData Ayrıntılarını Alın
-linktitle: Aspose.Cells kullanarak Çalışma Kitabından OData Ayrıntılarını Alın
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel Çalışma Kitaplarından OData ayrıntılarının nasıl alınacağını keşfedin.
-weight: 20
-url: /tr/net/workbook-operations/get-odata-details/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel Çalışma Kitaplarından OData ayrıntılarının nasıl alınacağını keşfedin."
+"linktitle": "Aspose.Cells kullanarak Çalışma Kitabından OData Ayrıntılarını Alın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells kullanarak Çalışma Kitabından OData Ayrıntılarını Alın"
+"url": "/tr/net/workbook-operations/get-odata-details/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells kullanarak Çalışma Kitabından OData Ayrıntılarını Alın
@@ -19,11 +21,11 @@ Merhaba, geliştirici arkadaş! Excel dosyalarını yönetmeyi ve OData ayrınt�
 Sulu konuya girmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte hızlı bir kontrol listesi:
 - Visual Studio: Bu makale Visual Studio'nun yüklü olduğunu varsayar. Değilse, devam edin ve kurun.
 - .NET Framework: Uyumlu bir .NET Framework (örneğin .NET Core veya .NET 5/6) içinde çalıştığınızdan emin olun.
--  Aspose.Cells Kütüphanesi: Projenize Aspose.Cells kütüphanesinin eklenmesi gerekir. Bunu şuradan indirebilirsiniz:[Aspose Sürümleri](https://releases.aspose.com/cells/net/) sayfa. 
+- Aspose.Cells Kütüphanesi: Projenize Aspose.Cells kütüphanesinin eklenmesi gerekir. Bunu şuradan indirebilirsiniz: [Aspose Sürümleri](https://releases.aspose.com/cells/net/) sayfa. 
 - Temel C# Bilgisi: C# programlamaya dair biraz bilgi sahibi olmak faydalı olacaktır, ancak endişelenmeyin; bu kılavuz tüm kod parçacıklarını anlamanıza yardımcı olacak.
 Tamam, şimdi ön koşullarımızı tamamladığımıza göre gerekli paketleri içe aktaralım!
 ## Paketleri İçe Aktar
- C# projenizde Aspose.Cells ile çalışmak için öncelikle ilgili paketleri içe aktarmamız gerekir. Aşağıdaki using yönergelerini en üste eklediğinizden emin olun`.cs` dosya:
+C# projenizde Aspose.Cells ile çalışmak için öncelikle ilgili paketleri içe aktarmamız gerekir. Aşağıdaki using yönergelerini en üste eklediğinizden emin olun `.cs` dosya:
 ```csharp
 using Aspose.Cells.QueryTables;
 using System;
@@ -34,19 +36,19 @@ Bu paketler, Aspose.Cells tarafından sağlanan Excel işleme işlevlerine ve ve
 ```csharp
 string SourceDir = "Your Document Directory";
 ```
- Bu satırda şunu değiştirin:`"Your Document Directory"` gerçek yolunuzla`ODataSample.xlsx` dosya bulunur. Bu yol önemlidir çünkü programa Excel dosyanızı bulma ve açma araçlarını sağlar.
+Bu satırda şunu değiştirin: `"Your Document Directory"` gerçek yolunuzla `ODataSample.xlsx` dosya bulunur. Bu yol önemlidir çünkü programa Excel dosyanızı bulma ve açma araçlarını sağlar.
 ## Adım 2: Bir Çalışma Kitabı Örneği Oluşturun
 Şimdi Aspose.Cells kullanarak Excel çalışma kitabınızı yükleme zamanı. Bunu sadece bir satır kodla yapabilirsiniz!
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "ODataSample.xlsx");
 ```
- Burada, yeni bir örnek oluşturuyoruz`Workbook` sınıfına Excel dosyamızı işaret ederek. Oluşturucu, dosya yolunu girdi olarak alır ve çalışma kitabını belleğe yükleyerek etkileşime girmeye hazır hale getirir.
+Burada, yeni bir örnek oluşturuyoruz `Workbook` sınıfına Excel dosyamızı işaret ederek. Oluşturucu, dosya yolunu girdi olarak alır ve çalışma kitabını belleğe yükleyerek etkileşime girmeye hazır hale getirir.
 ## Adım 3: Power Query Formüllerine Erişim
 Artık çalışma kitabımız yüklendiğine göre, içeriğine dalalım. Özellikle, Power Query formülleri koleksiyonuna erişmek istiyoruz:
 ```csharp
 PowerQueryFormulaCollction PQFcoll = workbook.DataMashup.PowerQueryFormulas;
 ```
- Bu satırla, şunu alırız:`PowerQueryFormulaCollection`çalışma kitabının Veri Karma özelliğinden. Bu koleksiyon Excel dosyasında bulunan tüm Power Query formüllerini içerir. Excel'de sorgularla çalıştıysanız, bu bilginin ne kadar değerli olabileceğini bilirsiniz!
+Bu satırla, şunu alırız: `PowerQueryFormulaCollection` çalışma kitabının Veri Karma özelliğinden. Bu koleksiyon, Excel dosyasında bulunan tüm Power Query formüllerini içerir. Excel'de sorgularla çalıştıysanız, bu bilginin ne kadar değerli olabileceğini bilirsiniz!
 ## Adım 4: Power Query Formüllerinde Döngü
 Az önce eriştiğimiz her Power Query formülüne daha yakından bakalım. Koleksiyonda döngü oluşturacağız ve her sorgunun adını ve öğelerini yazdıracağız:
 ```csharp
@@ -61,10 +63,10 @@ foreach (PowerQueryFormula PQF in PQFcoll)
     }
 }
 ```
-1.  Dış Döngü: Burada, her bir döngüden geçiyoruz`PowerQueryFormula` içinde`PQFcoll`Her formül için bağlantı adını yazdırıyoruz.
+1. Dış Döngü: Burada, her bir döngüden geçiyoruz `PowerQueryFormula` içinde `PQFcoll`Her formül için bağlantı adını yazdırıyoruz.
   
-2.  İç Döngü: Dış döngü içerisinde, getirmek için başka bir döngü oluşturuyoruz`PowerQueryFormulaItems` her formülden. Her bir madde için adını ve değerini yazdırıyoruz.
-Bu, Power Query formüllerinizin yapısı hakkında size derin bir içgörü sağlar. Soğanın katmanlarını soymak gibidir; ne kadar çok kazarsanız, o kadar çok şey keşfedersiniz!
+2. İç Döngü: Dış döngü içerisinde, getirmek için başka bir döngü oluşturuyoruz `PowerQueryFormulaItems` her formülden. Her bir madde için adını ve değerini yazdırıyoruz.
+Bu, Power Query formüllerinizin yapısı hakkında size derin bir içgörü sağlar. Bir soğanın katmanlarını soymak gibidir; ne kadar çok kazarsanız, o kadar çok şey keşfedersiniz!
 ## Adım 5: Uygulamayı Onaylayın
 Son olarak kullanıcıya işlemin başarıyla gerçekleştirildiğini bildirelim:
 ```csharp
@@ -77,16 +79,18 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak bir Excel çalışma ki
 ### Aspose.Cells for .NET nedir?  
 Aspose.Cells, geliştiricilerin Microsoft Excel'e güvenmeden Excel dosyaları oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells'i kullanmaya nasıl başlayabilirim?  
- Aspose.Cells'i indirerek başlayabilirsiniz[sürüm sayfası](https://releases.aspose.com/cells/net/) ve kurulum talimatlarını takip edin.
+Aspose.Cells'i indirerek başlayabilirsiniz. [sürüm sayfası](https://releases.aspose.com/cells/net/) ve kurulum talimatlarını takip edin.
 ### Ücretsiz deneme imkanı var mı?  
- Evet! Aspose.Cells'i ücretsiz deneyebilirsiniz. Sadece şuraya gidin:[ücretsiz deneme sayfası](https://releases.aspose.com/) ve bir şans verin.
-### Aspose.Cells için desteği nerede bulabilirim?  
-Yardıma ihtiyacınız varsa, ziyaret edebileceğiniz en iyi yer[Aspose destek forumu](https://forum.aspose.com/c/cells/9)Sorularınızı sorabileceğiniz ve diğer kullanıcılarla bağlantı kurabileceğiniz yer.
+Evet! Aspose.Cells'i ücretsiz deneyebilirsiniz. Sadece şuraya gidin: [ücretsiz deneme sayfası](https://releases.aspose.com/) ve bir deneyin.
+### Aspose.Cells için desteği nereden bulabilirim?  
+Yardıma ihtiyacınız varsa, ziyaret edebileceğiniz en iyi yer [Aspose destek forumu](https://forum.aspose.com/c/cells/9)Sorularınızı sorabileceğiniz ve diğer kullanıcılarla bağlantı kurabileceğiniz bir yer.
 ### Aspose.Cells'i ticari amaçlarla kullanabilir miyim?  
- Evet, yapabilirsiniz! Sadece bir lisans satın almanız gerektiğini unutmayın. Fiyatlandırma seçeneklerini şu adresten kontrol edebilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Evet, yapabilirsiniz! Sadece bir lisans satın almanız gerektiğini unutmayın. Fiyatlandırma seçeneklerini şu adresten kontrol edebilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

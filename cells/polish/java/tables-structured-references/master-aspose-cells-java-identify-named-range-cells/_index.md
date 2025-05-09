@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ public class IdentifyRangeCells {
         Workbook workbook = new Workbook("path_to_your_excel_file");
         WorksheetCollection worksheets = workbook.getWorksheets();
         
-        // Pobierz określony nazwany zakres
+        // Pobierz określony zakres nazwany
         Range range = worksheets.getRangeByName("TestRange");
 
         // Wydrukuj szczegóły asortymentu
@@ -198,6 +200,9 @@ Jeśli chcesz dowiedzieć się więcej, rozważ zapoznanie się z bardziej zaawa
 Rozpocznij przygodę z Aspose.Cells i przenieś swoje aplikacje Java na nowy poziom!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

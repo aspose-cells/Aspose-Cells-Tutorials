@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ Első lépésként töltsd le és add hozzá az Aspose.Cells könyvtárat a proj
 
 Az Aspose különféle licencelési lehetőségeket kínál:
 - **Ingyenes próbaverzió**: Tesztelje a funkciókat teljes funkcionalitással 30 napig.
-- **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
 - **Licenc vásárlása**Szerezzen be egy állandó licencet korlátlan használatra.
 
 Látogatás [Aspose vásárlási oldala](https://purchase.aspose.com/buy) ha többet szeretne megtudni a licencelési lehetőségekről.
@@ -198,6 +200,9 @@ következő lépések közé tartozik az Aspose.Cells további funkcióinak felf
 Indulj el az Aspose.Cells for Java segítségével még ma, és hozd ki az Excel fájlfeldolgozásban rejlő összes lehetőséget!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

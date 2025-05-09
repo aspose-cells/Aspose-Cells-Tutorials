@@ -1,14 +1,16 @@
 ---
-title: Защитить определенную строку на листе Excel
-linktitle: Защитить определенную строку на листе Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как защитить определенные строки в рабочих листах Excel с помощью Aspose.Cells для .NET. Пошаговое руководство, разработанное специально для разработчиков.
-weight: 90
-url: /ru/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
+"description": "Узнайте, как защитить определенные строки в рабочих листах Excel с помощью Aspose.Cells для .NET. Пошаговое руководство, разработанное специально для разработчиков."
+"linktitle": "Защитить определенную строку на листе Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Защитить определенную строку на листе Excel"
+"url": "/ru/net/protect-excel-file/protect-specific-row-in-excel-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Защитить определенную строку на листе Excel
@@ -22,7 +24,7 @@ url: /ru/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 Прежде чем мы начнем, вам понадобится несколько вещей:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Вы можете использовать любую версию, которая поддерживает разработку .NET.
-2.  Aspose.Cells для .NET: Вам необходимо установить библиотеку Aspose.Cells. Посетить[эта ссылка для скачивания](https://releases.aspose.com/cells/net/) последний выпуск.
+2. Aspose.Cells для .NET: Вам необходимо установить библиотеку Aspose.Cells. Посетить [эта ссылка для скачивания](https://releases.aspose.com/cells/net/) последний выпуск.
 3. Базовые знания .NET: знакомство с C# и базовыми концепциями программирования будет полезно, поскольку мы будем работать с фрагментами кода.
 
 Как только вы все сделаете, приступим к делу!
@@ -61,7 +63,7 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Заменять`"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить новый файл Excel.
+Заменять `"YOUR DOCUMENT DIRECTORY"` на фактический путь, по которому вы хотите сохранить новый файл Excel.
 
 ## Шаг 2: Создайте новую рабочую книгу
 
@@ -106,11 +108,11 @@ for (int i = 0; i <= 255; i++)
 Теперь пришло время заблокировать строку, которую вы хотите защитить. В этом случае мы блокируем первую строку.
 
 ```csharp
-//Получите стиль первой строки.
+// Получите стиль первой строки.
 style = sheet.Cells.Rows[0].Style;
 // Заприте его.
 style.IsLocked = true;
-//Создайте флаг.
+// Создайте флаг.
 flag = new StyleFlag();
 // Установите настройки блокировки.
 flag.Locked = true;
@@ -127,7 +129,7 @@ sheet.Cells.ApplyRowStyle(0, style, flag);
 sheet.Protect(ProtectionType.All);
 ```
 
-## Шаг 7: Сохраните рабочую книгу
+## Шаг 7: Сохраните рабочую книгу.
 
 Наконец, пришло время сохранить ваш новый файл Excel. Вы можете выбрать желаемый формат для вашего файла Excel.
 
@@ -149,16 +151,18 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 Вы можете выбирать ячейки по отдельности и применять стили блокировки, аналогично тому, как вы блокируете строку.
 
 ### Можно ли использовать Aspose.Cells бесплатно?  
- Aspose.Cells — коммерческий продукт, но вы можете попробовать его в бесплатной пробной версии.[здесь](https://releases.aspose.com/).
+Aspose.Cells — коммерческий продукт, но вы можете попробовать его с помощью бесплатной пробной версии. [здесь](https://releases.aspose.com/).
 
 ### Нужно ли мне подключение к Интернету для использования Aspose.Cells?  
 Нет, Aspose.Cells — это библиотека .NET, которая может работать в автономном режиме после установки.
 
 ### Где я могу получить поддержку по Aspose.Cells?  
- По любым вопросам или для получения поддержки вы можете посетить[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
+По любым вопросам или для получения поддержки вы можете посетить [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

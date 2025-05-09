@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Sie haben nun gelernt, wie Sie ODS-Dateien mit Aspose.Cells für Java ver- und e
 Mit dieser Anleitung sind Sie bestens gerüstet, um die Dateiverschlüsselung und -entschlüsselung in Ihren Java-Anwendungen mit Aspose.Cells zu implementieren. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

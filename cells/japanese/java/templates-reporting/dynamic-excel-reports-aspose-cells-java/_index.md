@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 このチュートリアルを実行するには、次のものを用意してください。
 
 - **必要なライブラリ:** Aspose.Cells for Java ライブラリ。プロジェクト設定との互換性を確認してください。
-- **環境設定:** マシンにインストールされた JDK と適切な IDE (IntelliJ IDEA や Eclipse など)。
+- **環境設定:** マシンに JDK がインストールされ、適切な IDE (IntelliJ IDEA や Eclipse など) が必要です。
 - **知識要件:** Java プログラミングの基本的な理解と Excel 操作の知識。
 
 ## Aspose.Cells for Java のセットアップ
@@ -179,6 +181,9 @@ Aspose.Cells for Javaを活用して、名前付き範囲を使った複雑な�
 Aspose.Cells for Java で動的な Excel レポートの世界に飛び込み、データ管理の新たな可能性を解き放ちましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

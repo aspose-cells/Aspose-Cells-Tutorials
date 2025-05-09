@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ DBConnection dbCon = (DBConnection) wb.getDataConnections().get(0);
 ```
 Esto recupera la primera conexión de base de datos de la colección de conexiones de datos del libro de trabajo.
 
-### Modificar y mostrar detalles de la conexión a la base de datos
+### Modificar y mostrar detalles de conexión a la base de datos
 **Descripción general:** Ahora, modifique el nombre de esta conexión y muestre sus detalles para verificación.
 
 #### Paso 1: Importar utilidades de Java
@@ -145,13 +147,13 @@ Considere explorar otras funciones como la manipulación de gráficos o el cálc
 1. **¿Qué es Aspose.Cells?**
    - Una potente biblioteca Java para administrar archivos Excel, que ofrece funciones como leer, escribir y modificar hojas de cálculo.
 2. **¿Puedo utilizar Aspose.Cells con otros formatos de archivo además de XLSB?**
-   - Sí, admite múltiples formatos de Excel, incluidos XLSX, CSV, etc.
+   - Sí, admite varios formatos de Excel, incluidos XLSX, CSV, etc.
 3. **¿Cuál es la diferencia entre SaveFormat.AUTO y otros formatos de guardado?**
    - SaveFormat.AUTO determina automáticamente el mejor formato a utilizar al guardar un libro en función de su tipo de archivo original.
 4. **¿Cómo manejo conjuntos de datos grandes en Aspose.Cells?**
    - Divida el conjunto de datos en fragmentos más pequeños u optimice la configuración de memoria de Java para obtener un mejor rendimiento.
 5. **¿Existe algún costo asociado con el uso de Aspose.Cells?**
-   - Si bien hay una prueba gratuita, para continuar usándolo es necesario comprar una licencia u obtener una temporal para fines de evaluación.
+   - Si bien hay una prueba gratuita, para continuar usándola es necesario comprar una licencia u obtener una temporal para fines de evaluación.
 
 ## Recursos
 - [Documentación de Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -163,6 +165,9 @@ Explora estos recursos para profundizar tu comprensión de Aspose.Cells para Jav
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

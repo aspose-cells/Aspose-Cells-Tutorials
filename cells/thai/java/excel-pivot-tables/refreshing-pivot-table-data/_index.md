@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การรีเฟรชข้อมูลตารางสรุปข้อมูล
@@ -43,7 +45,7 @@ Workbook workbook = new Workbook(filePath);
 ค้นหาตารางสรุปข้อมูลในเวิร์กบุ๊กของคุณ คุณสามารถทำได้โดยระบุชีตและชื่อของมัน
 
 ```java
-String sheetName = "Sheet1"; // แทนที่ด้วยชื่อชีตของคุณ
+String sheetName = "Sheet1"; // แทนที่ด้วยชื่อชีทของคุณ
 String pivotTableName = "PivotTable1"; // แทนที่ด้วยชื่อตาราง Pivot ของคุณ
 
 Worksheet worksheet = workbook.getWorksheets().get(sheetName);
@@ -90,9 +92,11 @@ workbook.save(outputFilePath);
    - ใช่ คุณสามารถกำหนดเวลาการรีเฟรชข้อมูลอัตโนมัติได้โดยใช้ไลบรารี Aspose.Cells และ Java scheduling วิธีนี้ช่วยให้คุณสามารถอัปเดต Pivot Table ของคุณได้โดยไม่ต้องดำเนินการด้วยตนเอง
 
 ตอนนี้คุณมีความรู้ในการรีเฟรชข้อมูล Pivot Table ใน Aspose.Cells สำหรับ Java แล้ว ทำให้การวิเคราะห์ของคุณแม่นยำและก้าวล้ำหน้าในการตัดสินใจตามข้อมูลของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

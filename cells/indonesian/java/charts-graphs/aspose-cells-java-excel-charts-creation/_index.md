@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Membuat dan Menata Bagan Excel dengan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia yang digerakkan oleh data saat ini, visualisasi informasi yang efektif sangat penting untuk analisis dan pengambilan keputusan. Sering kali, ada kebutuhan untuk membuat bagan dinamis dalam buku kerja Excel secara terprogram—terutama saat menangani kumpulan data besar atau sistem pelaporan otomatis. Tutorial ini menunjukkan cara menggunakan Aspose.Cells untuk Java untuk membuat dan menyesuaikan bagan di Excel dengan lancar. Dengan mengintegrasikan Aspose.Cells ke dalam aplikasi Java Anda, Anda dapat mengotomatiskan pembuatan bagan, meningkatkan penyajian data, dan menghemat waktu.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menginisialisasi buku kerja dan mengisinya dengan data menggunakan Aspose.Cells.
 - Membuat dan mengonfigurasi diagram garis dengan penanda data.
 - Menyesuaikan tampilan dan warna seri untuk visualisasi yang lebih baik.
@@ -25,11 +27,11 @@ Dalam dunia yang digerakkan oleh data saat ini, visualisasi informasi yang efekt
 
 Mari kita mulai dengan membahas prasyarat yang diperlukan untuk memulai.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum membuat dan menata bagan menggunakan Aspose.Cells untuk Java, pastikan Anda memiliki pengaturan berikut:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 Sertakan Aspose.Cells sebagai dependensi dalam proyek Anda. Berikut adalah petunjuk untuk pengguna Maven dan Gradle:
 
 **Pakar:**
@@ -46,19 +48,19 @@ Sertakan Aspose.Cells sebagai dependensi dalam proyek Anda. Berikut adalah petun
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal di sistem Anda.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse untuk pengkodean dan pengujian.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Diperlukan pemahaman dasar tentang pemrograman Java, beserta pengetahuan tentang buku kerja Excel dan konsep pembuatan grafik. 
 
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells adalah produk komersial yang memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memperoleh uji coba gratis untuk mengevaluasi fitur-fiturnya, meminta lisensi sementara untuk pengujian lebih lanjut, atau membeli produk untuk penggunaan jangka panjang.
 
-- **Uji Coba Gratis:** [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Pembelian:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -69,7 +71,7 @@ import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi contoh buku kerja baru
+        // Új munkafüzetpéldány inicializálása
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -77,26 +79,26 @@ public class SetupAsposeCells {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kita akan menguraikan implementasi menjadi beberapa fitur berbeda: Inisialisasi Buku Kerja dan Pengisian Data, Pembuatan dan Konfigurasi Bagan, Kustomisasi Seri, dan Penyimpanan Buku Kerja.
 
 ### Fitur 1: Inisialisasi Buku Kerja dan Pengisian Data
 
-**Ringkasan:** Fitur ini berfokus pada pembuatan buku kerja baru, mengakses lembar kerja pertamanya, dan mengisinya dengan data untuk pembuatan bagan.
+**Áttekintés:** Fitur ini berfokus pada pembuatan buku kerja baru, mengakses lembar kerja pertamanya, dan mengisinya dengan data untuk pembuatan bagan.
 
-#### Langkah 1: Inisialisasi Buku Kerja
-Mulailah dengan membuat instance `Workbook` obyek:
+#### 1. lépés: A munkafüzet inicializálása
+Mulailah dengan membuat instance `Workbook` objektum:
 
 ```java
 import com.aspose.cells.*;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // Membuat contoh buku kerja
+        // Munkafüzet példányosítása
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Első munkalap elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -104,7 +106,7 @@ public class FeatureWorkbookInitialization {
 Tentukan tajuk kolom dan isi baris dengan data contoh:
 
 ```java
-        // Tetapkan judul kolom 
+        // Oszlopcím beállítása 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
 
@@ -125,7 +127,7 @@ Tentukan tajuk kolom dan isi baris dengan data contoh:
 
 ### Fitur 2: Pembuatan dan Konfigurasi Bagan
 
-**Ringkasan:** Fitur ini menunjukkan cara menambahkan bagan ke lembar kerja buku kerja, mengatur gayanya, dan mengonfigurasi properti dasar.
+**Áttekintés:** Fitur ini menunjukkan cara menambahkan bagan ke lembar kerja buku kerja, mengatur gayanya, dan mengonfigurasi properti dasar.
 
 #### Langkah 3: Tambahkan Bagan ke Lembar Kerja
 Tambahkan diagram garis dengan penanda data:
@@ -135,10 +137,10 @@ import com.aspose.cells.*;
 
 public class FeatureChartCreation {
     public static void main(String[] args) throws Exception {
-        // Membuat contoh buku kerja
+        // Munkafüzet példányosítása
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Első munkalap elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         // Tambahkan bagan ke lembar kerja
@@ -156,7 +158,7 @@ public class FeatureChartCreation {
 
 ### Fitur 3: Konfigurasi dan Kustomisasi Seri
 
-**Ringkasan:** Tingkatkan daya tarik visual bagan Anda dengan menyesuaikan pengaturan seri, seperti berbagai warna dan gaya penanda.
+**Áttekintés:** Tingkatkan daya tarik visual bagan Anda dengan menyesuaikan pengaturan seri, seperti berbagai warna dan gaya penanda.
 
 #### Langkah 4: Sesuaikan Pengaturan Seri
 Konfigurasikan data seri, terapkan pemformatan khusus, dan sesuaikan penanda:
@@ -166,10 +168,10 @@ import com.aspose.cells.*;
 
 public class FeatureSeriesConfiguration {
     public static void main(String[] args) throws Exception {
-        // Membuat contoh buku kerja
+        // Munkafüzet példányosítása
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama
+        // Első munkalap elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         // Tambahkan seri ke bagan
@@ -204,9 +206,9 @@ public class FeatureSeriesConfiguration {
 
 ### Fitur 4: Menyimpan Buku Kerja
 
-**Ringkasan:** Terakhir, simpan buku kerja untuk mempertahankan perubahan Anda dan pastikan bagan disertakan dalam berkas Excel.
+**Áttekintés:** Terakhir, simpan buku kerja untuk mempertahankan perubahan Anda dan pastikan bagan disertakan dalam berkas Excel.
 
-#### Langkah 5: Simpan Buku Kerja
+#### 5. lépés: A munkafüzet mentése
 Simpan buku kerja Anda dengan grafik yang baru dibuat:
 
 ```java
@@ -214,7 +216,7 @@ import com.aspose.cells.*;
 
 public class FeatureWorkbookSaving {
     public static void main(String[] args) throws Exception {
-        // Membuat contoh buku kerja
+        // Munkafüzet példányosítása
         Workbook workbook = new Workbook();
         
         // Akses lembar kerja pertama dan tambahkan data, konfigurasi bagan sesuai langkah sebelumnya...
@@ -233,6 +235,9 @@ public class FeatureWorkbookSaving {
 - "Pemrograman Java untuk otomatisasi Excel"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

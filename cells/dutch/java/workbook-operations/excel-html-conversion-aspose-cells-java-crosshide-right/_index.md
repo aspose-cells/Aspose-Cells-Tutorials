@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Ontdek de extra functies van Aspose.Cells, zoals het converteren van grafieken o
 Deze tutorial is een uitgebreide handleiding voor het converteren van Excel-bestanden naar HTML met behulp van Aspose.Cells voor Java. Hiermee zorgt u voor duidelijkheid en functionaliteit in uw webpresentaties.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

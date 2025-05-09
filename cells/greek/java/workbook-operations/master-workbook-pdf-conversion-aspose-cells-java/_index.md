@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ class TestPageSavingCallback implements IPageSavingCallback {
 - **Δωρεάν δοκιμή & Προσωρινή άδεια χρήσης:** Εξερευνήστε τις λειτουργίες με μια δωρεάν δοκιμή ή ζητήστε μια προσωρινή άδεια χρήσης.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

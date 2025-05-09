@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Workbook workbook = new Workbook(dataDir + "source.xlsx");
 เริ่มต้นด้วยการโหลดไฟล์ Excel ของคุณโดยใช้ Aspose.Cells:
 
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY/"; // ระบุเส้นทางไดเร็กทอรีต้นทาง
+String dataDir = "YOUR_DATA_DIRECTORY/"; // ระบุเส้นทางไดเร็กทอรีแหล่งที่มา
 Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
 
@@ -109,7 +111,7 @@ opts.setDesiredSize(400, 400); // ตั้งค่าขนาดที่ต�
 ตัวเลือกเหล่านี้จะช่วยให้แน่ใจว่าเวิร์กชีตจะถูกแสดงผลเป็นภาพหน้าเดียวที่มีขนาดที่ระบุ
 
 #### **ขั้นตอนที่ 4: เรนเดอร์และบันทึกภาพ**
-ใช้ `SheetRender` เพื่อแสดงแผ่นงาน:
+ใช้ `SheetRender` การแสดงผลแผ่นงาน:
 
 ```java
 SheetRender sr = new SheetRender(worksheet, opts);
@@ -169,6 +171,9 @@ sr.toImage(0, "YOUR_OUTPUT_DIRECTORY/EWSheetToImage_out.png");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

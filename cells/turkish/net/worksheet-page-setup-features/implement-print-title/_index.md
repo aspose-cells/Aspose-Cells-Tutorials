@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasında Baskı Başlığını Uygula
-linktitle: Çalışma Sayfasında Baskı Başlığını Uygula
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu basit adım adım öğreticiyi kullanarak Aspose.Cells for .NET ile Excel çalışma sayfalarında baskı başlıklarını nasıl uygulayacağınızı öğrenin.
-weight: 27
-url: /tr/net/worksheet-page-setup-features/implement-print-title/
+"description": "Bu basit adım adım eğitimi kullanarak Aspose.Cells for .NET ile Excel çalışma sayfalarında baskı başlıklarını nasıl uygulayacağınızı öğrenin."
+"linktitle": "Çalışma Sayfasında Baskı Başlığını Uygula"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasında Baskı Başlığını Uygula"
+"url": "/tr/net/worksheet-page-setup-features/implement-print-title/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasında Baskı Başlığını Uygula
@@ -18,7 +20,7 @@ Profesyonel raporlar veya elektronik tablolar oluşturmaya gelince, bazen belirl
 ## Ön koşullar
 Kodlamaya başlamadan önce her şeyin ayarlandığından emin olalım. İhtiyacınız olanlar şunlar:
 1. Visual Studio Kurulu - .NET kullanarak uygulama geliştirmek için bir çalışma ortamına ihtiyacınız olacak.
-2.  Aspose.Cells for .NET - Eğer henüz yapmadıysanız, Aspose.Cells for .NET'i indirin ve kurun. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET - Eğer henüz yapmadıysanız, Aspose.Cells for .NET'i indirin ve kurun. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. .NET Framework - .NET Framework'ün uyumlu bir sürümü üzerinde çalıştığınızdan emin olun.
 4. Temel C# Bilgisi - Biraz kodlama geçmişi çok işe yarar, bu yüzden C# becerilerinizi tazeleyin!
 Bu ön koşullara sahip olduğunuzda, artık hazırsınız!
@@ -34,7 +36,7 @@ using System;
 Bu adım, Aspose.Cells tarafından sağlanan ve sonraki adımlarda kullanacağımız tüm sınıflara ve metotlara erişmenizi sağladığı için önemlidir.
 Artık ithalatları ayarladığımıza göre, baskı başlıklarının adım adım uygulanmasına geçelim.
 ## Adım 2: Belge Dizinini Ayarlayın
-Yapmamız gereken ilk şey, belgemizi nerede saklamak istediğimizi tanımlamaktır. Bizim durumumuzda, çıktı Excel dosyamızı saklayacağız. Şunu değiştirmek isteyeceksiniz`"Your Document Directory"` makinenizde geçerli bir yol ile.
+Yapmamız gereken ilk şey, belgemizi nerede saklamak istediğimizi tanımlamaktır. Bizim durumumuzda, çıktı Excel dosyamızı saklayacağız. Şunu değiştirmek isteyeceksiniz `"Your Document Directory"` makinenizde geçerli bir yol ile.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
@@ -72,14 +74,16 @@ Basılı başlıklar, Excel çalışma sayfasındaki her yazdırılan sayfada g�
 ### Sadece satırlar veya sadece sütunlar için baskı başlıklarını kullanabilir miyim?
 Evet, ihtiyaçlarınıza göre satırları, sütunları veya her ikisini de yazdırma başlığı olarak tanımlayabilirsiniz.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Belgeleri kontrol edebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Belgeleri kontrol edebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells for .NET'i nasıl indirebilirim?
- Buradan indirebilirsiniz[bu bağlantı](https://releases.aspose.com/cells/net/).
+Buradan indirebilirsiniz [bu bağlantı](https://releases.aspose.com/cells/net/).
 ### Aspose.Cells desteği almanın bir yolu var mı?
- Evet, destek için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9) yardım için.
+Evet, destek için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9) yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

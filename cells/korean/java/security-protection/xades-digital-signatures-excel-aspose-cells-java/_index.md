@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@
 
 ## Java용 Aspose.Cells 설정
 
-Aspose.Cells는 우리 구현의 핵심입니다. 설정을 시작해 봅시다.
+Aspose.Cells는 우리 구현의 핵심입니다. 설정해 보겠습니다.
 
 **Maven 종속성**
 
@@ -163,7 +165,7 @@ Aspose.Cells의 광범위한 API를 사용하여 SAP나 Oracle과 같은 엔터�
 2. **Aspose.Cells에 대한 Maven 종속성을 어떻게 설정합니까?**
    - 관련 내용을 추가하세요 `<dependency>` 당신의 입장 `pom.xml` 위에 표시된 대로 파일입니다.
 3. **XAdES를 사용하여 여러 문서에 동시에 서명할 수 있나요?**
-   - 이 튜토리얼에서는 단일 문서를 다루지만 루프와 유사한 논리를 사용하여 여러 Excel 파일을 일괄 처리하도록 확장할 수 있습니다.
+   - 이 튜토리얼에서는 단일 문서를 다루지만 루프와 비슷한 논리를 사용하여 여러 Excel 파일을 일괄 처리하도록 확장할 수 있습니다.
 4. **Aspose.Cells 문제에 대한 지원은 어디에서 받을 수 있나요?**
    - 방문하세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9) 커뮤니티와 공식적인 지원을 위해.
 5. **Aspose.Cells를 사용하는 데 비용이 드나요?**
@@ -174,12 +176,15 @@ Aspose.Cells의 광범위한 API를 사용하여 SAP나 Oracle과 같은 엔터�
 - 다운로드: [Java용 Aspose.Cells 릴리스](https://releases.aspose.com/cells/java/)
 - 구입: [Aspose 제품 구매](https://purchase.aspose.com/buy)
 - 무료 체험: [Aspose.Cells를 사용해 보세요](https://releases.aspose.com/cells/java/)
-- 임시 면허: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- 임시 면허: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 
 이 포괄적인 가이드를 따라 하면 Excel 파일의 디지털 서명을 활용하여 Java 애플리케이션의 보안과 안정성을 강화하는 방법을 익히게 됩니다. 즐거운 코딩 되세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

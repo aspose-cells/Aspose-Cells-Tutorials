@@ -1,14 +1,16 @@
 ---
-title: Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET
-linktitle: Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách liên kết thuộc tính tài liệu với nội dung trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
-weight: 10
-url: /vi/net/link-and-configuration-operations/configuring-link-to-content-document-property/
+"description": "Tìm hiểu cách liên kết thuộc tính tài liệu với nội dung trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho nhà phát triển."
+"linktitle": "Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET"
+"url": "/vi/net/link-and-configuration-operations/configuring-link-to-content-document-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET
@@ -21,11 +23,11 @@ Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách cấu hình li�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết. Nếu không có các điều kiện tiên quyết sau, quá trình sẽ không diễn ra suôn sẻ:
 
-1.  Thư viện Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET trên máy của mình. Nếu bạn chưa tải xuống, hãy tải xuống từ[Trang tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/).
+1. Thư viện Aspose.Cells cho .NET: Bạn cần cài đặt Aspose.Cells cho .NET trên máy của mình. Nếu bạn chưa tải xuống, hãy tải xuống từ [Trang tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển: Sử dụng bất kỳ môi trường phát triển nào hỗ trợ .NET như Visual Studio.
 3. Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã có đôi chút hiểu biết về C# và .NET.
 4. Tệp Excel: Có một tệp Excel hiện có để làm việc. Trong ví dụ của chúng tôi, chúng tôi sẽ sử dụng tệp có tên là "sample-document-properties.xlsx".
-5. Giấy phép tạm thời: Nếu bạn không có giấy phép đầy đủ, bạn có thể xin cấp[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) để tránh những hạn chế về thao tác tập tin.
+5. Giấy phép tạm thời: Nếu bạn không có giấy phép đầy đủ, bạn có thể xin cấp [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) để tránh những hạn chế về thao tác tập tin.
 
 ## Nhập gói
 
@@ -55,7 +57,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): Dòng này tạo một Workbook mới`Workbook`đối tượng, là lớp chính được sử dụng để làm việc với các tệp Excel trong Aspose.Cells.
+- Workbook workbook = new Workbook(): Dòng này tạo một Workbook mới `Workbook` đối tượng, là lớp chính được sử dụng để làm việc với các tệp Excel trong Aspose.Cells.
 - dataDir: Đây là nơi bạn chỉ định đường dẫn đến tệp Excel của mình. Thay thế "Your Document Directory" bằng đường dẫn thực tế trên máy của bạn.
 
 Hãy coi bước này như việc mở một cánh cửa—bạn đang truy cập vào tệp để có thể thực hiện những thay đổi cần thiết!
@@ -82,7 +84,7 @@ Bây giờ chúng ta đã có các thuộc tính tùy chỉnh, bước tiếp th
 customProperties.AddLinkToContent("Owner", "MyRange");
 ```
 
-- AddLinkToContent: Phương pháp này thêm một thuộc tính tùy chỉnh (trong trường hợp này là "Owner") và liên kết nó với một phạm vi hoặc vùng được đặt tên cụ thể ("MyRange") trong bảng tính.
+- AddLinkToContent: Phương pháp này thêm một thuộc tính tùy chỉnh (trong trường hợp này là "Owner") và liên kết nó với một phạm vi cụ thể hoặc vùng được đặt tên ("MyRange") trong bảng tính.
 
 Hãy tưởng tượng bạn đang gắn nhãn vào một phần cụ thể của bảng tính và nhãn đó giờ đây có thể tương tác với nội dung trong phần đó.
 
@@ -98,8 +100,8 @@ Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["Own
 bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
-- Thuộc tính tùy chỉnh["Chủ sở hữu"]: Chúng tôi đang lấy thuộc tính "Chủ sở hữu" theo tên để kiểm tra thông tin chi tiết của thuộc tính đó.
-- IsLinkedToContent: Giá trị boolean này trả về`true` nếu thuộc tính được liên kết thành công với nội dung.
+- customProperties["Owner"]: Chúng tôi đang lấy thuộc tính "Owner" theo tên để kiểm tra thông tin chi tiết của thuộc tính đó.
+- IsLinkedToContent: Giá trị boolean này trả về `true` nếu thuộc tính được liên kết thành công với nội dung.
 
 Ở giai đoạn này, nó giống như việc kiểm tra xem nhãn (thuộc tính) có được gắn đúng vào nội dung hay không. Bạn đang đảm bảo rằng mã của mình đã thực hiện đúng như mong đợi.
 
@@ -143,16 +145,18 @@ Có, bạn có thể liên kết nhiều thuộc tính vào cùng một phạm v
 Thuộc tính được liên kết sẽ tự động cập nhật để phản ánh nội dung mới trong phạm vi được chỉ định.
 
 ### Tôi có thể xóa liên kết giữa thuộc tính và nội dung không?
- Có, bạn có thể hủy liên kết tài sản bằng cách xóa nó khỏi`CustomDocumentPropertyCollection`.
+Có, bạn có thể hủy liên kết tài sản bằng cách xóa nó khỏi `CustomDocumentPropertyCollection`.
 
 ### Tính năng này có sẵn trong phiên bản miễn phí của Aspose.Cells không?
- Có, nhưng phiên bản miễn phí có những hạn chế. Bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá đầy đủ các tính năng.
+Có, nhưng phiên bản miễn phí có những hạn chế. Bạn có thể nhận được [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để khám phá đầy đủ các tính năng.
 
 ### Tôi có thể sử dụng tính năng này với các định dạng tài liệu khác như CSV không?
 Không, tính năng này chỉ dành riêng cho tệp Excel vì tệp CSV không hỗ trợ thuộc tính tài liệu tùy chỉnh.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

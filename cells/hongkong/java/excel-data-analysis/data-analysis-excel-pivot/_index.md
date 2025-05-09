@@ -1,17 +1,19 @@
 ---
 "description": "使用 Aspose.Cells for Java 學習在 Excel 中進行資料分析。有效使用資料透視表的逐步指南。"
-"linktitle": "資料分析 Excel 資料透視表"
+"linktitle": "Excel 資料透視表資料分析"
 "second_title": "Aspose.Cells Java Excel 處理 API"
-"title": "資料分析 Excel 資料透視表"
+"title": "Excel 資料透視表資料分析"
 "url": "/zh-hant/java/excel-data-analysis/data-analysis-excel-pivot/"
 "weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 資料分析 Excel 資料透視表
+# Excel 資料透視表資料分析
 
 
 ## Aspose.Cells for Java簡介
@@ -120,6 +122,7 @@ pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // 停用自動小�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

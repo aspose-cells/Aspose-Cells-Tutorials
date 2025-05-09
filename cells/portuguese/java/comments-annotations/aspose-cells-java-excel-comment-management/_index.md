@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ ThreadedCommentCollection threadedComments = comments.getThreadedComments("A1");
 // Remova o primeiro comentário encadeado da célula A1
 comments.removeAt("I4");
 ```
-*Observação:* O `removeAt` O método direciona os comentários por meio de seu índice interno. Certifique-se de entender a estrutura do seu comentário antes da remoção.
+*Observação:* O `removeAt` O método direciona os comentários por meio de seu índice interno. Certifique-se de entender a estrutura do seu comentário antes de removê-lo.
 ### 4. Gerenciar autores de comentários encadeados (visão geral do recurso)
 Gerenciar autores envolve acessar e modificar metadados associados aos comentários, como remover um autor da lista de comentários encadeados.
 
@@ -172,6 +174,9 @@ Este tutorial explorou o uso do Aspose.Cells para Java para gerenciar comentári
    - Carregue apenas as planilhas necessárias e otimize o uso da memória processando os dados em blocos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

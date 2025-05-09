@@ -1,14 +1,16 @@
 ---
-title: รับเส้นทาง XML จากตารางวัตถุรายการโดยใช้ Aspose.Cells
-linktitle: รับเส้นทาง XML จากตารางวัตถุรายการโดยใช้ Aspose.Cells
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีรับเส้นทาง XML จาก List Object Table ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา .NET
-weight: 11
-url: /th/net/xml-map-operations/get-xml-path-from-list-object-table/
+"description": "เรียนรู้วิธีรับเส้นทาง XML จาก List Object Table ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา .NET"
+"linktitle": "รับเส้นทาง XML จากตารางวัตถุรายการโดยใช้ Aspose.Cells"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "รับเส้นทาง XML จากตารางวัตถุรายการโดยใช้ Aspose.Cells"
+"url": "/th/net/xml-map-operations/get-xml-path-from-list-object-table/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับเส้นทาง XML จากตารางวัตถุรายการโดยใช้ Aspose.Cells
@@ -17,7 +19,7 @@ url: /th/net/xml-map-operations/get-xml-path-from-list-object-table/
 ในบทช่วยสอนโดยละเอียดนี้ เราจะเจาะลึกถึงวิธีการดึงเส้นทาง XML จาก List Object Table ในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET Aspose.Cells เป็นไลบรารีที่มีประสิทธิภาพที่ช่วยให้คุณสามารถจัดการและจัดการไฟล์ Excel ได้อย่างง่ายดายด้วยโปรแกรม ไม่ว่าคุณจะกำลังจัดการกับโครงสร้างข้อมูลที่ซับซ้อนหรือตารางพื้นฐาน บทช่วยสอนนี้จะแสดงวิธีการรับเส้นทาง XML จาก List Object ที่มีการแมป XML ซึ่งมีประโยชน์อย่างยิ่งสำหรับการจัดการแอปพลิเคชันที่ขับเคลื่อนด้วยข้อมูล
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่ม โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้แล้ว:
-1.  Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Cells จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/net/) หรือคุณสามารถติดตั้งได้ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio โดยรัน`Install-Package Aspose.Cells`.
+1. Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Cells จาก [ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/net/)หรือคุณสามารถติดตั้งได้ผ่านตัวจัดการแพ็กเกจ NuGet ใน Visual Studio โดยรัน `Install-Package Aspose-Cells`.
 2. สภาพแวดล้อมการพัฒนา: เราจะใช้ Visual Studio สำหรับบทช่วยสอนนี้ แต่ IDE ที่เข้ากันได้กับ .NET ตัวใดก็ได้ก็สามารถใช้ได้
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ถือว่าคุณคุ้นเคยกับ C# และมีความเข้าใจพื้นฐานในการทำงานกับไฟล์และแพ็คเกจใน .NET
 ## แพ็คเกจนำเข้า
@@ -39,7 +41,7 @@ using System.Collections;
 string sourceDir = "Your Document Directory";
 ```
 ## ขั้นตอนที่ 2: โหลดไฟล์ Excel
- ขั้นต่อไป คุณต้องโหลดไฟล์ Excel ที่มีข้อมูลที่แมปด้วย XML ที่นี่เราจะใช้`Workbook` คลาสสำหรับโหลดไฟล์จากไดเร็กทอรีที่ระบุ ตรวจสอบให้แน่ใจว่าไฟล์ Excel ของคุณมีข้อมูล XML ที่คุณต้องการ
+ขั้นต่อไป คุณต้องโหลดไฟล์ Excel ที่มีข้อมูลที่แมปด้วย XML ที่นี่เราจะใช้ `Workbook` คลาสสำหรับโหลดไฟล์จากไดเร็กทอรีที่ระบุ ตรวจสอบให้แน่ใจว่าไฟล์ Excel ของคุณมีข้อมูล XML ที่คุณต้องการ
 ```csharp
 // โหลดไฟล์ XLSX ที่มีข้อมูลจากไฟล์ XML
 Workbook workbook = new Workbook(sourceDir + "XML Data.xlsx");
@@ -57,7 +59,7 @@ Worksheet ws = workbook.Worksheets[0];
 Aspose.Cells.Tables.ListObject listObject = ws.ListObjects[0];
 ```
 ## ขั้นตอนที่ 5: ดึงข้อมูล XML Map Binding URL
- ในที่สุด เราจะเรียกค้น URL การจับคู่ข้อมูลแมป XML นี่คือตำแหน่งที่ไฟล์ XML จะถูกแมปไปยัง List Object`DataBinding.Url` คุณสมบัติของแผนที่ XML จะให้เส้นทาง XML หรือ URL ที่เป็นแหล่งที่มาของข้อมูล เส้นทางนี้จึงสามารถนำไปใช้เพื่อวัตถุประสงค์ในการจัดการข้อมูลได้
+ในที่สุด เราจะเรียกค้น URL การผูกข้อมูลแมป XML นี่คือที่ที่ไฟล์ XML จะถูกแมปไปยัง List Object `DataBinding.Url` คุณสมบัติของแผนที่ XML จะให้เส้นทาง XML หรือ URL ที่เป็นแหล่งที่มาของข้อมูล เส้นทางนี้จึงสามารถนำไปใช้เพื่อวัตถุประสงค์ในการจัดการข้อมูลได้
 ```csharp
 // รับ URL ของการผูกข้อมูลแผนที่ XML ของวัตถุรายการ
 string url = listObject.XmlMap.DataBinding.Url;
@@ -81,10 +83,12 @@ Console.WriteLine(url);
 ### Aspose.Cells เข้ากันได้กับ .NET Core ได้หรือไม่
 ใช่ Aspose.Cells เข้ากันได้อย่างสมบูรณ์กับ .NET Core, .NET Framework และแพลตฟอร์มอื่นๆ อีกมากมาย จึงทำให้มีความยืดหยุ่นสำหรับโปรเจ็กต์ต่างๆ
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells สำหรับ .NET หรือไม่?
- ใช่ Aspose.Cells ต้องมีใบอนุญาตสำหรับการใช้งานจริง คุณสามารถขอรับได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาตเต็มรูปแบบจาก[หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/buy).
+ใช่ Aspose.Cells ต้องมีใบอนุญาตสำหรับการใช้งานจริง คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อใบอนุญาตเต็มรูปแบบจาก [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

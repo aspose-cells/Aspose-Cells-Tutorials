@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Recuperação automática da pasta de trabalho Java: gerenciando arquivos do Excel com Aspose.Cells
+# Recuperação Automática da Pasta de Trabalho Java: Gerenciando Arquivos do Excel com Aspose.Cells
 
 **Introdução**
 
@@ -180,6 +182,9 @@ Pronto para assumir o controle dos seus arquivos do Excel? Experimente implement
 - **Apoiar**: Participe da discussão e busque ajuda no [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

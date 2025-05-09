@@ -1,63 +1,68 @@
 ---
-title: ค้นหาชนิดของค่า X และ Y ในจุดตาราง โดยใช้ Aspose.Cells สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการหาชนิดของค่า X และ Y ในจุดแผนที่โดยใช้ Aspose.Cells สําหรับ .NET โหลดไฟล์ Excel เข้าสู่แผนที่ และหาชนิดของค่า
-keywords: [Aspose.Cells for .NET, Excel chart, chart points, X value type, Y value type, calculate chart data, retrieve chart values, C# Excel API]
-url: /th/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "เรียนรู้วิธีค้นหาประเภทค่า X และ Y ในจุดแผนภูมิโดยใช้ Aspose.Cells สำหรับ .NET โหลดไฟล์ Excel เข้าถึงแผนภูมิ และดึงประเภทค่า"
+"title": "ค้นหาประเภทค่า X และ Y ในจุดแผนภูมิโดยใช้ Aspose.Cells สำหรับ .NET"
+"url": "/th/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ค้นหาค่าประเภท X และ Y ในจุดตาราง โดยใช้ Aspose.Cells  
+# ค้นหาประเภทค่า X และ Y ในจุดแผนภูมิโดยใช้ Aspose.Cells  
 
-ในบทเรียนนี้ คุณจะได้เรียนรู้วิธีการกําหนดชนิดของค่า X และ Y ของจุดแผนที่ในไฟล์ Excel โดยใช้ Aspose.Cells สําหรับ .NET. นี่เป็นประโยชน์ในการวิเคราะห์ข้อมูลแผนที่โดยไดมิกในแอพลิเคชั่น .NET เราเริ่มต้นโดยการพกไฟล์ Excel ที่มีแผนที่, เข้าสู่ใบงานและแผนที่, คํานวณข้อมูลแผนที่, และถอดชนิดของค่าจากจุดข้อมูลที่特定. ในที่สุด, เราจะพิมพ์ค่าเหล่านี้ไปยังเครื่องจักรเพื่อการตรวจสอบ.  
+ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการกำหนดประเภทของค่า X และ Y สำหรับจุดแผนภูมิในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ซึ่งมีประโยชน์เมื่อวิเคราะห์ข้อมูลแผนภูมิแบบไดนามิกภายในแอปพลิเคชัน .NET เราจะเริ่มต้นด้วยการโหลดไฟล์ Excel ที่มีแผนภูมิ เข้าถึงเวิร์กชีตและแผนภูมิ คำนวณข้อมูลแผนภูมิ และแยกประเภทค่าจากจุดข้อมูลที่ระบุ ในที่สุด เราจะพิมพ์ค่าเหล่านี้ไปยังคอนโซลเพื่อยืนยัน  
 
-Aspose.Cells สําหรับ .NET ทําให้ทํางานกับตาราง Excel ได้ง่ายขึ้นตามหลักสูตร ทําให้ผู้พัฒนาสามารถอัตโนมัติการทํางานแบบกระดาษตารางที่ซับซ้อนโดยไม่ต้องต้องการ Microsoft Excel  
+Aspose.Cells สำหรับ .NET ช่วยให้การทำงานกับแผนภูมิ Excel ในโปรแกรมเป็นเรื่องง่าย ช่วยให้นักพัฒนาสามารถดำเนินการกับสเปรดชีตที่ซับซ้อนโดยอัตโนมัติโดยไม่ต้องใช้ Microsoft Excel  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
+## คำแนะนำในการติดตั้ง  
 
-เพื่อใช้ Aspose.Cells สําหรับ .NET ในโครงการของคุณ ติดตามขั้นตอนนี้  
+หากต้องการใช้ Aspose.Cells สำหรับ .NET ในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. โกตั้งผ่าน NuGet Package Manager  
-- เปิด Visual Studio และเดินไปยัง Tools → NuGet Package Manager → 管理 NuGet Packages for Solution  
-- ค้นหา Aspose.Cells แล้วคลิกติดตั้ง  
+1. ติดตั้งผ่านตัวจัดการแพ็คเกจ NuGet  
+- เปิด Visual Studio และไปที่เครื่องมือ → ตัวจัดการแพ็กเกจ NuGet → จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+- ค้นหา Aspose.Cells และคลิกติดตั้ง  
 
-หรือติดตั้งโดยใช้ คอนโซลผู้จัดการแพ็คเกจ NuGet:  
+หรือติดตั้งโดยใช้คอนโซลตัวจัดการแพ็กเกจ NuGet:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```  
 
-2. โกตั้งผ่าน .NET CLI  
-หากคุณกําลังใช้ CLI .NET กรอก:  
+2. ติดตั้งผ่าน .NET CLI  
+หากคุณใช้ .NET CLI ให้รัน:  
 
 ```powershell
 dotnet add package Aspose.Cells
 ```  
 
-3. เพิ่ม หมาย ถึง โครงการ ของ คุณ  
-Once installed, include the following namespace in your C# file:  
+3. เพิ่มการอ้างอิงในโครงการของคุณ  
+เมื่อติดตั้งแล้ว ให้รวมเนมสเปซต่อไปนี้ลงในไฟล์ C# ของคุณ:  
 
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```  
 
-## ดูอีกด้วย
-สําหรับการทดลองฟรี ลงท่อง[มุ่งมั่น ใน การ ทดสอบ](https://releases.aspose.com/). .  
-เพื่อซื้อใบอนุญาต ไปที่ [เป้าหมายซื้อหน้า](https://purchase.aspose.com/buy). .  
-สําหรับเอกสารครบถ้วน ลงที่ [Aspose.Cells สําหรับเอกสาร .NET](https://docs.aspose.com/cells/net/). .  
-เพื่อสํารวจข้อมูล API ทั้งหมด ตรวจสอบ [Aspose.Cells สําหรับ .NET API Reference](https://reference.aspose.com/cells/net/). . 
+## ดูเพิ่มเติม
+สำหรับการทดลองใช้ฟรี โปรดไปที่ [ทดลองใช้ Aspose ฟรี](https://releases-aspose.com/).  
+หากต้องการซื้อใบอนุญาต ให้ไปที่ [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).  
+สำหรับเอกสารประกอบทั้งหมด กรุณาเยี่ยมชม [เอกสาร Aspose.Cells สำหรับ .NET](https://docs-aspose.com/cells/net/).  
+หากต้องการสำรวจข้อมูลอ้างอิง API แบบเต็ม โปรดดู [เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET](https://reference-aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

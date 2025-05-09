@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Výukové programy pro zpracování tabulek v Javě v Aspose.Cells
@@ -118,9 +120,11 @@ Kompletní návody pro vytváření šablon sestav, generování dokumentů a im
 
 ### [Automatizace a dávkové zpracování](./automation-batch-processing/)
 Podrobné návody pro automatizaci úloh v Excelu, dávkové zpracování více souborů a plánování operací pomocí Aspose.Cells pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

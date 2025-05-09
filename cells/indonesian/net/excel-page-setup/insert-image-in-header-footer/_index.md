@@ -1,33 +1,35 @@
 ---
-title: Sisipkan Gambar Di Header Footer
-linktitle: Sisipkan Gambar Di Header Footer
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara menyisipkan gambar di header dan footer menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-weight: 60
-url: /id/net/excel-page-setup/insert-image-in-header-footer/
+"description": "Pelajari cara menyisipkan gambar di header dan footer menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif ini."
+"linktitle": "Sisipkan Gambar Di Header Footer"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Sisipkan Gambar Di Header Footer"
+"url": "/id/net/excel-page-setup/insert-image-in-header-footer/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sisipkan Gambar Di Header Footer
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan file Excel, header dan footer memainkan peran penting dalam menyediakan konteks dan informasi yang berharga. Bayangkan Anda sedang menyusun laporan untuk bisnis Anda, dan logo perusahaan perlu ada di header untuk memberikan sentuhan profesional. Dalam panduan ini, kami akan menunjukkan cara menggunakan Aspose.Cells for .NET untuk menyisipkan gambar di header atau footer lembar Excel Anda.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kode sebenarnya, ada beberapa hal yang perlu Anda siapkan:
 
-1.  Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah memasang pustaka Aspose.Cells di lingkungan .NET Anda. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+1. Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah memasang pustaka Aspose.Cells di lingkungan .NET Anda. Jika Anda belum memilikinya, Anda dapat [töltsd le itt](https://releases.aspose.com/cells/net/).
 2. Visual Studio atau IDE lainnya: Anda memerlukan lingkungan pengembangan terintegrasi untuk menulis dan mengeksekusi kode C# Anda.
-3.  Contoh Gambar: Siapkan gambar yang ingin Anda sisipkan di header atau footer. Untuk contoh kita, kita akan menggunakan logo perusahaan yang disebut`aspose-logo.jpg`.
+3. Contoh Gambar: Siapkan gambar yang ingin Anda sisipkan di header atau footer. Untuk contoh kita, kita akan menggunakan logo perusahaan yang disebut `aspose-logo.jpg`.
 4. Pengetahuan Dasar C#: Meskipun tidak wajib, memahami C# akan memudahkan Anda mengikuti tutorial ini.
 5. Akses Sistem Berkas: Pastikan Anda memiliki akses ke sistem berkas tempat Anda akan membaca gambar dan menyimpan berkas Excel.
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai, Anda perlu mengimpor namespace yang diperlukan ke dalam file C# Anda. Berikut uraian singkatnya:
 
@@ -47,7 +49,7 @@ Pertama, Anda perlu menentukan direktori tempat file dan gambar Excel berada. Pe
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Perbarui sesuai kebutuhan
 ```
 
- Baris ini mengatur`dataDir`variabel, yang merupakan jalur dasar untuk menemukan gambar yang ingin Anda sisipkan ke dalam header.
+Baris ini mengatur `dataDir` variabel, yang merupakan jalur dasar untuk menemukan gambar yang ingin Anda sisipkan ke dalam header.
 
 ## Langkah 2: Membuat Objek Buku Kerja
 
@@ -57,11 +59,11 @@ Berikutnya, Anda perlu membuat buku kerja baru tempat Anda akan menambahkan gamb
 Workbook workbook = new Workbook();
 ```
 
- Baris kode ini menginisialisasi instance baru dari`Workbook` kelas yang memungkinkan Anda memanipulasi lembar kerja Excel.
+Ez a kódsor inicializálja a(z) egy új példányát. `Workbook` kelas, yang memungkinkan Anda memanipulasi lembar kerja Excel.
 
 ## Langkah 3: Menentukan Jalur Gambar
 
- Saatnya membuat variabel string untuk menyimpan jalur ke gambar yang ingin Anda gunakan. Dalam kasus kami, kami menggunakan`aspose-logo.jpg`.
+Saatnya membuat variabel string untuk menyimpan jalur ke gambar yang ingin Anda gunakan. Dalam kasus kami, kami menggunakan `aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
@@ -79,19 +81,19 @@ byte[] binaryData = new byte[inFile.Length];
 long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
--  Itu`FileStream` digunakan untuk membuka gambar dalam mode baca.
--  Kemudian, kita mendeklarasikan array byte`binaryData` untuk menyimpan data gambar.
--  Terakhir, kami membaca data gambar dari`FileStream`.
+- A `FileStream` digunakan untuk membuka gambar dalam mode baca.
+- Kemudian, kita mendeklarasikan array byte `binaryData` untuk menyimpan data gambar.
+- Terakhir, kami membaca data gambar dari `FileStream`.
 
 ## Langkah 5: Mengakses Objek Pengaturan Halaman
 
- Untuk membuat perubahan pada header, kita harus mengakses`PageSetup` objek yang terkait dengan lembar kerja pertama. 
+Untuk membuat perubahan pada header, kita harus mengakses `PageSetup` objek yang terkait dengan lembar kerja pertama. 
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Di sini, kita mendapatkan`PageSetup` objek, yang memungkinkan kita memanipulasi pengaturan pencetakan untuk lembar kerja.
+Di sini, kita mendapatkan `PageSetup` objek, yang memungkinkan kita memanipulasi pengaturan pencetakan untuk lembar kerja.
 
 ## Langkah 6: Memasukkan Gambar ke Header
 
@@ -101,7 +103,7 @@ Dengan data biner gambar yang ada, kita sekarang dapat memasukkannya ke dalam he
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Baris ini menempatkan gambar di bagian tengah header. Parameter`1` menentukan bagian header.
+Baris ini menempatkan gambar di bagian tengah header. Parameter `1` menentukan bagian header.
 
 ## Langkah 7: Mengatur Konten Header
 
@@ -127,7 +129,7 @@ Baris ini menyimpan buku kerja dengan nama file yang ditentukan dalam direktori 
 
 ## Langkah 9: Menutup FileStream
 
- Terakhir, jangan lupa untuk menutup`FileStream` untuk membebaskan sumber daya.
+Terakhir, jangan lupa untuk menutup `FileStream` untuk membebaskan sumber daya.
 
 ```csharp
 inFile.Close();
@@ -135,11 +137,11 @@ inFile.Close();
 
 Ini menjaga aplikasi Anda tetap rapi dan mencegah kebocoran memori.
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda telah berhasil menambahkan gambar ke header file Excel menggunakan Aspose.Cells untuk .NET. Baik itu logo perusahaan atau kutipan yang menginspirasi, header dapat meningkatkan profesionalisme dokumen Anda secara signifikan. Sekarang, Anda dapat menerapkan pengetahuan ini ke berbagai proyek—bayangkan betapa bagusnya laporan Anda dengan header dan footer yang disesuaikan!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Format file apa yang didukung Aspose.Cells untuk gambar?
 Aspose.Cells mendukung berbagai format, termasuk JPEG, PNG, BMP, GIF, dan TIFF.
@@ -147,17 +149,19 @@ Aspose.Cells mendukung berbagai format, termasuk JPEG, PNG, BMP, GIF, dan TIFF.
 ### Bisakah saya menyisipkan beberapa gambar ke dalam header/footer?
 Ya, Anda dapat menyisipkan gambar terpisah ke dalam bagian berbeda di header atau footer dengan menggunakan placeholder berbeda.
 
-### Apakah Aspose.Cells gratis?
- Aspose.Cells menawarkan uji coba gratis, tetapi versi berlisensi tersedia untuk akses penuh dan fitur tambahan. Anda bisa mendapatkannya[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/).
+### Ingyenes az Aspose.Cells?
+Aspose.Cells menawarkan uji coba gratis, tetapi versi berlisensi tersedia untuk akses penuh dan fitur tambahan. Anda bisa mendapatkannya [ideiglenes jogosítvány itt](https://purchase.aspose.com/temporary-license/).
 
 ### Bagaimana saya dapat memecahkan masalah gambar yang tidak ditampilkan?
 Pastikan jalur gambar sudah benar dan berkasnya ada. Periksa juga kompatibilitas format gambar.
 
 ### Di mana saya dapat menemukan dokumentasi tambahan untuk Aspose.Cells?
- Anda dapat menemukan dokumentasi terperinci[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menemukan dokumentasi terperinci [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

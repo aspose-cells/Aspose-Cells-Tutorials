@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Ya aprendiste a convertir un archivo de Excel a un PDF accesible con Aspose.Cell
 
 **Próximos pasos:**
 - Experimente con diferentes `PdfSaveOptions` para adaptar las funciones de accesibilidad.
-- Explore la posibilidad de integrar esta funcionalidad en aplicaciones web o sistemas más grandes.
+- Explore la integración de esta funcionalidad en aplicaciones web o sistemas más grandes.
 
 ¡Pruebe implementar esta solución en su próximo proyecto y mejore la accesibilidad de los documentos sin esfuerzo!
 
@@ -174,6 +176,9 @@ Ya aprendiste a convertir un archivo de Excel a un PDF accesible con Aspose.Cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

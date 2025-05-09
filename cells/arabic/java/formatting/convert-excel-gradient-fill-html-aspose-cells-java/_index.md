@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ wb.save(dataDir + "out_sourceGradientFill.html");
 اتخذ الخطوة التالية في إتقان Aspose.Cells لـ Java واستفد من إمكاناتها الكاملة لتحسين مشاريع عرض البيانات الخاصة بك!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

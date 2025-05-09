@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ workbook.save(outputDir + "outputChangeTickLabelDirection.xlsx");
 2. **科学データの視覚化**データ ポイントを凡例とより効果的に配置します。
 3. **ビジネスダッシュボード**ラベルの向きを改善してユーザー エクスペリエンスを向上させます。
 
-Aspose.Cells Java 統合は、API を通じて他のシステムに拡張され、さまざまなファイル形式をサポートしているため、さまざまなビジネス ニーズに柔軟に対応できます。
+Aspose.Cells Java 統合は API を通じて他のシステムに拡張され、さまざまなファイル形式をサポートしているため、さまざまなビジネス ニーズに柔軟に対応できます。
 
 ## パフォーマンスに関する考慮事項
 大規模なデータセットや複数のグラフを扱う場合:
@@ -153,7 +155,7 @@ Aspose.Cells for Java を使用してグラフの目盛りラベルの方向を�
 1. **Aspose.Cells for Java をインストールするにはどうすればよいですか?**
    - 上記のように、Maven/Gradle プロジェクトに依存関係を追加します。
 2. **Aspose.Cells Java を使用して目盛りラベルを垂直に変更できますか?**
-   - はい、使用します `ChartTextDirectionType.VERTICAL` 水平ではなく。
+   - はい、使います `ChartTextDirectionType.VERTICAL` 水平ではなく。
 3. **Aspose.Cells を使用してグラフを変更するときによく発生する問題は何ですか?**
    - チャートのインデックスが正しいことを確認し、ファイル パスを検証します。
 4. **大きな Excel ファイルではパフォーマンスに影響がありますか?**
@@ -172,6 +174,9 @@ Aspose.Cells for Java を使用してグラフの目盛りラベルの方向を�
 より詳しい情報とサポートについては、これらのリソースを自由に調べてください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

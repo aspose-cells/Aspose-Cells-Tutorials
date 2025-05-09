@@ -8,7 +8,9 @@ url: /net/worksheet-operations/cut-and-paste-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cut and Paste Cells within Worksheet
@@ -96,6 +98,7 @@ If you need help, you can always reach out on the [Aspose forum](https://forum.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ Workbook workbook = new Workbook();
 // ワークブックの最初のワークシートにアクセスします。
 Worksheet worksheet1 = workbook.getWorksheets().get(0);
 ```
-ワークブックには複数のワークシートが含まれており、それぞれを個別に操作できます。 `worksheet1` ワークブックの最初のシートを表します。
+ワークブックには複数のワークシートが含まれており、それぞれを個別に操作できます。ここでは、 `worksheet1` ワークブックの最初のシートを表します。
 
 #### データの入力
 特定のセルにデータを入力して、アクティブに設定する方法を説明します。
@@ -160,6 +162,9 @@ A: システムに十分なメモリがあることを確認し、問題を防�
 何か問題が発生した場合やご質問がある場合は、サポートフォーラムからお気軽にお問い合わせください。楽しいコーディングを！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

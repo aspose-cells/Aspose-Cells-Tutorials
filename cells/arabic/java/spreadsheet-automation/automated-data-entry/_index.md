@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إدخال البيانات الآلي
@@ -115,9 +117,11 @@ validation.setFormula2("100");
    يمكنك استكشاف الوثائق في [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 الآن لديك المعرفة والأدوات اللازمة لأتمتة إدخال البيانات بفعالية باستخدام Aspose.Cells لجافا. ابدأ بتحسين عمليات معالجة بياناتك ورفع كفاءة أعمالك.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

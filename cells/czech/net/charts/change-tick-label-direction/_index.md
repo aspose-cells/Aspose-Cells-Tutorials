@@ -1,51 +1,55 @@
 ---
-title: Změňte směr štítku tabulky v programu Excel pomocí Aspose.Cells 
-weight: 7700
-limit: 
-description: Naučte se, jak změnit směr štítků žetony v Excelové pracovní listě pomocí Aspose.Cells pro .NET s jednoduchým příkladem kódu.
-keywords: [Aspose.Cells for .NET, change tick label direction, Excel chart labels, .NET Excel library, chart text direction]
-url: /cs/net/charts/change-tick-label-direction/
+"description": "Naučte se, jak změnit směr popisků zaškrtávacích políček grafu v listu aplikace Excel pomocí Aspose.Cells pro .NET s jednoduchým příkladem kódu."
+"title": "Změna směru popisků grafu v Excelu pomocí Aspose.Cells"
+"url": "/cs/net/charts/change-tick-label-direction/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změňte směr štítku tabulky v programu Excel pomocí Aspose.Cells 
+# Změna směru popisků grafu v Excelu pomocí Aspose.Cells 
 
-Tento příklad ukazuje, jak upravit směr žetónových štítků v Excelové pracovní listě pomocí Aspose.Cells pro .NET. Nastavením textového směru žetónových štítků kategorii osy můžete zvýšit čitelnost dat v žetonu. Kód načítá stávající Excelovou pracovní knihu, přistupuje k první pracovní listě, získává graf, nastaví směr žetónových štítků na horizontální a pak uloží upravenou pracovní knihu. Tento přístup zajišťuje přesnou kontrolu orientace žetónových štítků v aplikacích .NET. 
+Tento příklad ukazuje, jak upravit směr popisků zaškrtávacích políček grafu v listu aplikace Excel pomocí Aspose.Cells pro .NET. Úpravou směru textu popisků zaškrtávacích políček osy kategorií můžete zlepšit čitelnost dat grafu. Kód načte existující sešit aplikace Excel, přistupuje k prvnímu listu, načte graf, nastaví směr popisků zaškrtávacích políček na vodorovný a poté upravený sešit uloží. Tento přístup zajišťuje přesnou kontrolu nad orientací popisků grafu ve vašich aplikacích .NET. 
  
 ---
 
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci  
-Pro tento příklad postupujte následujícími krokmi:  
 
-1. Instalujte Aspose.Cells pro .NET  
-   * Snížení z [Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/)  
-   * Nebo instalovat prostřednictvím NuGet:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Pokyny k instalaci  
+Chcete-li spustit tento příklad, postupujte takto:  
+
+1. Instalace Aspose.Cells pro .NET  
+   - Stáhnout z [Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/)  
+   - Nebo nainstalujte přes NuGet:  
      ```shell
      Install-Package Aspose.Cells
      ```  
 
-2. Nastavte si svůj projekt  
-   * Vytvořte nový projekt .NET.  
-   * Přidejte odkaz na Aspose.Cells.dll.  
+2. Nastavení projektu  
+   - Vytvořte nový projekt .NET.  
+   - Přidejte odkaz na Aspose.Cells.dll.  
 
-3. Způsobit kód  
-   * Změňte`"Váš adresář dokumentů"`s skutečnou dráhou souboru.  
-   * Vypravte program na aktualizaci směru značky žetonu v grafu.  
+3. Spusťte kód  
+   - Nahradit `"Your Document Directory"` se skutečnou cestou k souboru.  
+   - Spusťte program pro aktualizaci směru označení ticků v grafu.  
 
 ## Viz také
-Pro bezplatnou zkoušku navštivte [Vyzkoušejte se bezplatně](https://releases.aspose.com/)\- Ne , ne .  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne .
+Pro bezplatnou zkušební verzi navštivte [Bezplatná zkušební verze Aspose](https://releases.aspose.com/).  
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

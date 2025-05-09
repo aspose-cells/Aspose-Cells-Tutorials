@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencszerzés
-Az Aspose.Cells for Java ingyenes próbaverziót kínál a funkciók kipróbálásához. Igényeitől függően ideiglenes licencet vásárolhat, vagy megvásárolhatja a teljes verziót:
+Az Aspose.Cells for Java ingyenes próbaverziót kínál a funkciók kipróbálásához. Az igényeidtől függően ideiglenes licencet vásárolhatsz, vagy megvásárolhatod a teljes verziót:
 - **Ingyenes próbaverzió:** Tökéletes a funkciók teszteléséhez.
 - **Ideiglenes engedély:** Korlátozások nélküli, hosszabb próbaverziókhoz.
 - **Vásárlás:** Az összes prémium funkció eléréséhez.
@@ -157,7 +159,7 @@ Az Aspose.Cells Java integrálható különféle vállalati rendszerekbe, péld�
 
 Az optimális teljesítmény biztosítása érdekében:
 - A memóriahasználat minimalizálása a nagy fájlok kisebb darabokban történő feldolgozásával.
-- Haszd fel újra a munkafüzet objektumait, ahol lehetséges, ahelyett, hogy gyakran hoznál létre új példányokat.
+- Használd fel újra a munkafüzet objektumait, ahol lehetséges, ahelyett, hogy gyakran hoznál létre új példányokat.
 - Kövesse a Java ajánlott eljárásait az erőforrás-kezeléshez, például a try-with-resources metódust használja fájlfolyamokhoz.
 
 ## Következtetés
@@ -199,6 +201,9 @@ Gratulálunk! Megtanultad, hogyan szúrhatsz be hatékonyan sorokat Excel munkaf
 Indulj el az Aspose.Cells for Java segítségével még ma, és forradalmasítsd az Excel-adatok kezelését!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

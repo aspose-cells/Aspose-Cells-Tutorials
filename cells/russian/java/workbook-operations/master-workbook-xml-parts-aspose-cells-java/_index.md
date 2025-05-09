@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Мастер частей XML рабочей книги с помощью Aspose.Cells для Java. Узнайте, как добавлять, управлять и искать пользовательские данные XML в рабочих книгах Excel."
+"description": "Мастер частей XML рабочей книги с использованием Aspose.Cells для Java. Узнайте, как добавлять, управлять и искать пользовательские данные XML в рабочих книгах Excel."
 "title": "Как управлять частями XML рабочей книги с помощью Aspose.Cells для Java&#58; Подробное руководство"
 "url": "/ru/java/workbook-operations/master-workbook-xml-parts-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ public class InitializeWorkbook {
 Начните свое путешествие с Aspose.Cells для Java сегодня и измените способ обработки книг Excel в своих приложениях!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

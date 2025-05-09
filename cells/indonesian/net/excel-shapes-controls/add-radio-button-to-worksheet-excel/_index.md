@@ -1,28 +1,30 @@
 ---
-title: Tambahkan Tombol Radio ke Lembar Kerja di Excel
-linktitle: Tambahkan Tombol Radio ke Lembar Kerja di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan tombol radio ke lembar kerja Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Sempurna untuk membuat formulir Excel yang interaktif.
-weight: 19
-url: /id/net/excel-shapes-controls/add-radio-button-to-worksheet-excel/
+"description": "Pelajari cara menambahkan tombol radio ke lembar kerja Excel menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Sempurna untuk membuat formulir Excel yang interaktif."
+"linktitle": "Tambahkan Tombol Radio ke Lembar Kerja di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tambahkan Tombol Radio ke Lembar Kerja di Excel"
+"url": "/id/net/excel-shapes-controls/add-radio-button-to-worksheet-excel/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Tombol Radio ke Lembar Kerja di Excel
 
-## Perkenalan
+## Bevezetés
 Pernahkah Anda bertanya-tanya bagaimana cara mempercantik lembar Excel Anda dengan elemen interaktif seperti tombol radio? Baik Anda sedang membuat survei, formulir, atau alat analisis, menambahkan tombol radio benar-benar dapat meningkatkan interaksi pengguna. Dalam tutorial ini, kami akan memandu Anda melalui proses penambahan tombol radio ke lembar Excel Anda menggunakan Aspose.Cells for .NET. Kami akan menguraikan semuanya menjadi langkah-langkah yang mudah diikuti, memastikan Anda akan menjadi ahli di akhir artikel ini. Siap untuk mencobanya? Mari kita mulai!
-## Prasyarat
+## Előfeltételek
 Sebelum kita masuk ke bagian yang menyenangkan yaitu menambahkan tombol radio, mari pastikan Anda telah menyiapkan semuanya untuk memulai.
-1.  Aspose.Cells untuk .NET: Pertama, pastikan Anda telah mengunduh dan menginstal[Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/) pustaka. Anda dapat mengunduhnya melalui NuGet di Visual Studio atau dari halaman unduhan.
+1. Aspose.Cells untuk .NET: Pertama, pastikan Anda telah mengunduh dan menginstal [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/) pustaka. Anda dapat mengunduhnya melalui NuGet di Visual Studio atau dari halaman unduhan.
 2. IDE (Integrated Development Environment): Anda memerlukan IDE seperti Visual Studio untuk menulis dan mengeksekusi kode C# Anda.
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework 4.0 atau yang lebih baru di komputer Anda. Aspose.Cells memerlukan ini agar dapat berfungsi.
 4. Pemahaman Dasar C#: Keakraban dengan sintaksis C# dan pemrograman .NET akan membuat segalanya lebih mudah saat Anda mengikutinya.
 Setelah semuanya siap, kita siap berangkat!
-## Paket Impor
+## Csomagok importálása
 Sebelum melakukan pengodean, penting untuk mengimpor namespace yang diperlukan guna menghindari kesalahan di kemudian hari. Tambahkan yang berikut ke kode Anda:
 ```csharp
 using System.IO;
@@ -33,14 +35,14 @@ using Aspose.Cells.Drawing;
 Impor ini penting untuk mengakses fungsionalitas buku kerja, menambahkan tombol radio, dan menangani operasi file.
 ## Langkah 1: Menyiapkan Buku Kerja
 Hal pertama yang terpenting, mari buat buku kerja Excel baru.
- Untuk memulai, Anda perlu membuat instance baru`Workbook` objek. Ini akan mewakili berkas Excel Anda dalam bentuk kode.
+Untuk memulai, Anda perlu membuat instance baru `Workbook` objek. Ini akan mewakili berkas Excel Anda dalam bentuk kode.
 ```csharp
-// Buat Buku Kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook excelbook = new Workbook();
 ```
 Pada langkah ini, Anda membuat buku kerja kosong. Bayangkan buku kerja tersebut sebagai kanvas kosong tempat Anda akan menambahkan tombol radio pada langkah berikutnya.
 ## Langkah 2: Menambahkan dan Memformat Nilai Sel
-Selanjutnya, mari tambahkan judul ke lembar kerja. Kita akan menambahkan beberapa teks ke sel`C2` dan format agar menjadi tebal. Langkah ini menambahkan konteks ke tombol radio Anda.
+Selanjutnya, mari tambahkan judul ke lembar kerja. Kita akan menambahkan beberapa teks ke sel `C2` dan format agar menjadi tebal. Langkah ini menambahkan konteks ke tombol radio Anda.
 ### Sisipkan Teks di Sel
 ```csharp
 // Masukkan nilai di sel C2.
@@ -51,7 +53,7 @@ excelbook.Worksheets[0].Cells["C2"].PutValue("Age Groups");
 // Atur teks font di sel C2 menjadi tebal.
 excelbook.Worksheets[0].Cells["C2"].GetStyle().Font.IsBold = true;
 ```
- Di sini, kami telah menambahkan judul sederhana, “Kelompok Usia,” di sel`C2`, dan membuatnya tebal sehingga menonjol. Mudah, bukan?
+Di sini, kami telah menambahkan judul sederhana, “Kelompok Usia,” di sel `C2`, dan membuatnya tebal sehingga menonjol. Mudah, bukan?
 ## Langkah 3: Menambahkan Tombol Radio Pertama
 Sekarang tibalah bagian yang menarik: menambahkan tombol radio pertama Anda ke lembar kerja!
 ### Tambahkan Tombol Radio
@@ -71,7 +73,7 @@ Di sini, kami memberi tombol radio label, “20-29,” yang mewakili kelompok us
 // Tetapkan sel A1 sebagai sel yang ditautkan untuk tombol radio.
 radio1.LinkedCell = "A1";
 ```
- Ini menghubungkan tombol radio ke sel`A1`artinya hasil pemilihan tombol akan disimpan di sel tersebut.
+Ini menghubungkan tombol radio ke sel `A1`, artinya hasil pemilihan tombol akan disimpan di sel tersebut.
 ### Tambahkan Efek 3D
 ```csharp
 // Jadikan tombol radio 3-D.
@@ -121,14 +123,14 @@ radio3.Line.DashStyle = MsoLineDashStyle.Solid;
 ## Langkah 5: Menyimpan File Excel
 Setelah semua tombol radio ditambahkan dan diformat, saatnya menyimpan berkas.
 ```csharp
-// Simpan berkas excel.
+// Mentse el az excel fájlt.
 string dataDir = "Your Document Directory";
 excelbook.Save(dataDir + "book1.out.xls");
 ```
 Pada langkah ini, buku kerja disimpan ke direktori yang Anda tentukan. Semudah itu—lembar kerja interaktif Anda kini siap!
-## Kesimpulan
+## Következtetés
 Nah, itu dia! Anda baru saja menambahkan tombol radio ke lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Tutorial ini mencakup semuanya mulai dari menyiapkan buku kerja, memasukkan dan memformat nilai, menambahkan beberapa tombol radio, dan menautkannya ke sel. Sekarang, Anda siap membuat lembar Excel interaktif yang tidak hanya tampak hebat tetapi juga memberikan pengalaman pengguna yang lebih baik. Selamat menjelajahi lebih banyak kemungkinan dengan Aspose.Cells!
-## Pertanyaan yang Sering Diajukan
+## GYIK
 ### Bisakah saya menambahkan lebih banyak tombol radio ke lembar yang berbeda?  
 Tentu saja! Anda dapat mengulangi proses ini pada lembar mana pun dalam buku kerja dengan menentukan indeks lembar kerja yang benar.
 ### Bisakah saya menyesuaikan tampilan tombol radio lebih lanjut?  
@@ -136,12 +138,14 @@ Ya, Aspose.Cells menyediakan berbagai opsi penyesuaian, termasuk mengubah warna,
 ### Bagaimana saya dapat mendeteksi tombol radio mana yang dipilih?  
 Sel yang ditautkan (misalnya, A1) akan menampilkan indeks tombol radio yang dipilih. Anda dapat memeriksa nilai sel yang ditautkan untuk mengetahui sel mana yang dipilih.
 ### Apakah ada batasan jumlah tombol radio yang dapat saya tambahkan?  
-Tidak, tidak ada batasan pasti mengenai jumlah tombol radio yang dapat Anda tambahkan. Akan tetapi, sebaiknya antarmukanya tetap ramah pengguna.
-### Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?  
+Tidak, tidak ada batasan pasti mengenai jumlah tombol radio yang dapat Anda tambahkan. Akan tetapi, sebaiknya antarmuka tetap ramah pengguna.
+### Használhatom az Aspose.Cells-t más programozási nyelvekkel?  
 Ya, Aspose.Cells mendukung banyak bahasa pemrograman, termasuk Java. Namun, tutorial ini secara khusus berfokus pada .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

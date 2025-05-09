@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Nabycie licencji
 Aspose.Cells for Java oferuje bezpłatną wersję próbną, ale aby korzystać z niej bez ograniczeń, potrzebujesz licencji. Możesz uzyskać:
 - A **bezpłatny okres próbny** ze strony internetowej Aspose.
-- A **licencja tymczasowa** w celach ewaluacyjnych.
+- A **licencja tymczasowa** celach ewaluacyjnych.
 - Jeśli Twoje potrzeby wykraczają poza zakres wersji próbnej, kup pełną licencję.
 W celu podstawowej inicjalizacji i konfiguracji:
 ```java
@@ -126,6 +128,9 @@ Ten samouczek pozwala Ci udoskonalić aplikacje oparte na Excelu za pomocą nies
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

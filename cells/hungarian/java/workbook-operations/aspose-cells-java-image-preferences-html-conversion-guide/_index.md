@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Az Excel-fájlok HTML-be konvertálása kiváló minőségű képekkel kulcsfont
 Ez az útmutató a vizuális hűség megőrzését célozza meg a konvertálás során azáltal, hogy lehetővé teszi a fejlesztők számára a képkezelési beállítások módosítását. Akár tapasztalt, akár új vagy az Aspose.Cells használatában, ez az oktatóanyag segít optimalizálni a képbeállításokat a Java-alkalmazásokban.
 
 **Amit tanulni fogsz:**
-- Az Aspose.Cells beállítása és konfigurálása Java-ban
+- Az Aspose.Cells beállítása és konfigurálása Java-hoz
 - Képbeállítások módosítása HTML-konverziókhoz
 - Optimális teljesítmény biztosítása a konverzió során
 - Ezen készségek alkalmazása valós helyzetekben
@@ -163,6 +165,9 @@ Indulj el az utazásodra még ma az Aspose.Cells for Java segítségével, és a
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

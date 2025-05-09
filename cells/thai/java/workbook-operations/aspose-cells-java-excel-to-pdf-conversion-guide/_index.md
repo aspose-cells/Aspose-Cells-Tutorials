@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ A: แน่นอน! คุณสามารถทำซ้ำไฟล์ Ex
 A: Aspose.Cells รองรับการตั้งค่าตำแหน่งต่างๆ ซึ่งคุณสามารถกำหนดค่าได้ในระหว่างการดำเนินการบันทึก
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

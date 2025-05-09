@@ -8,7 +8,9 @@ url: /net/worksheet-operations/print-sheet-with-settings/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Print Sheet with Additional Settings
@@ -99,6 +101,7 @@ You can seek assistance from the Aspose community by visiting their [support for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

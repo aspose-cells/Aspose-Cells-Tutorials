@@ -8,7 +8,9 @@ url: /net/excel-file-handling/export-custom-properties-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Custom Properties to PDF from Excel
@@ -102,6 +104,7 @@ Absolutely! The `PdfSaveOptions` class provides various properties that allow fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

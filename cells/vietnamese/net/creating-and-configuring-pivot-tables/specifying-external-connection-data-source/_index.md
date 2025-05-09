@@ -1,14 +1,16 @@
 ---
-title: Chỉ định nguồn dữ liệu kết nối bên ngoài trong .NET
-linktitle: Chỉ định nguồn dữ liệu kết nối bên ngoài trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chỉ định nguồn dữ liệu kết nối bên ngoài trong bảng trục Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET.
-weight: 24
-url: /vi/net/creating-and-configuring-pivot-tables/specifying-external-connection-data-source/
+"description": "Tìm hiểu cách chỉ định nguồn dữ liệu kết nối bên ngoài trong bảng trục Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển .NET."
+"linktitle": "Chỉ định nguồn dữ liệu kết nối bên ngoài trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định nguồn dữ liệu kết nối bên ngoài trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/specifying-external-connection-data-source/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định nguồn dữ liệu kết nối bên ngoài trong .NET
@@ -18,8 +20,8 @@ Trong thế giới xử lý và phân tích dữ liệu, việc quản lý và t
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, có một vài điều bạn cần chuẩn bị. Sau đây là danh sách kiểm tra đơn giản để đảm bảo bạn đã sẵn sàng:
 1. Môi trường .NET: Đảm bảo bạn có môi trường .NET đang hoạt động. Có thể là .NET Framework hoặc .NET Core, tùy thuộc vào nhu cầu của dự án.
-2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.Cells được cài đặt trong dự án của mình. Bạn chưa có? Bạn có thể dễ dàng tải xuống[đây](https://releases.aspose.com/cells/net/).
-3. Tệp Excel mẫu: Đối với hướng dẫn này, chúng tôi sử dụng tệp Excel mẫu có tên`SamplePivotTableExternalConnection.xlsx`. Đảm bảo bạn đã chuẩn bị sẵn tệp này trong thư mục tài liệu đã chỉ định.
+2. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần thư viện Aspose.Cells được cài đặt trong dự án của mình. Bạn chưa có? Bạn có thể dễ dàng tải xuống [đây](https://releases.aspose.com/cells/net/).
+3. Tệp Excel mẫu: Đối với hướng dẫn này, chúng tôi sử dụng tệp Excel mẫu có tên `SamplePivotTableExternalConnection.xlsx`. Đảm bảo bạn đã chuẩn bị sẵn tệp này trong thư mục tài liệu đã chỉ định.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với mã hóa C# chắc chắn sẽ hữu ích vì chúng ta sẽ cùng nhau viết một số mã!
 Khi đã đáp ứng được các điều kiện tiên quyết này, bạn đã sẵn sàng tìm hiểu cách chỉ định nguồn dữ liệu kết nối bên ngoài trong bảng trục Excel bằng Aspose.Cells cho .NET.
 ## Nhập gói
@@ -36,16 +38,16 @@ Câu lệnh import này cho phép bạn truy cập các lớp và phương thứ
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục của bạn. Đoạn mã này cho chương trình biết nơi tìm tệp Excel mà bạn muốn thao tác.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế đến thư mục của bạn. Đoạn mã này cho chương trình biết nơi tìm tệp Excel mà bạn muốn thao tác.
 Bây giờ chúng ta đã sắp xếp xong các mục nhập và thư mục, đã đến lúc tải tệp Excel mẫu.
 ## Bước 3: Tải Workbook
- Bước này bao gồm việc tạo ra một phiên bản của`Workbook` lớp và tải tệp mẫu của chúng tôi vào đó. Đây là cách thực hiện:
+Bước này bao gồm việc tạo ra một phiên bản của `Workbook` lớp và tải tệp mẫu của chúng tôi vào đó. Sau đây là cách thực hiện:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SamplePivotTableExternalConnection.xlsx");
 ```
- Chuyện gì đang xảy ra ở đây? Khi chúng ta tạo ra một`Workbook` đối tượng, chúng tôi đang yêu cầu chương trình của mình đọc tệp Excel tại vị trí đã cho. Nếu tệp được tìm thấy, hãy coi như tệp đã được tải!
+Chuyện gì đang xảy ra ở đây? Khi chúng ta tạo ra một `Workbook` đối tượng, chúng tôi đang yêu cầu chương trình của mình đọc tệp Excel tại vị trí đã cho. Nếu tệp được tìm thấy, hãy coi như tệp đã được tải!
 ## Bước 4: Truy cập vào Bảng tính
-Sau khi workbook được tải, chúng ta thường cần tương tác với các sheet cụ thể trong workbook đó. Nếu tệp của chúng ta chứa nhiều sheet, chúng ta có thể truy cập sheet cần thiết theo chỉ mục của nó:
+Sau khi workbook được tải, chúng ta thường cần tương tác với các sheet cụ thể trong workbook đó. Nếu file của chúng ta chứa nhiều sheet, chúng ta có thể truy cập sheet cần thiết theo chỉ mục của nó:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
@@ -53,7 +55,7 @@ Trong trường hợp này, chúng ta đang truy cập vào trang tính đầu t
 ## Nhận bảng Pivot
 Bây giờ chúng ta đã có quyền truy cập vào bảng tính, bước tiếp theo là trích xuất bảng trục.
 ## Bước 5: Lấy lại Bảng Pivot
- Trong bảng tính, bạn có thể lấy lại bảng trục bằng cách sử dụng`PivotTables` tài sản:
+Trong bảng tính, bạn có thể lấy lại bảng trục bằng cách sử dụng `PivotTables` tài sản:
 ```csharp
 var pivotTable = worksheet.PivotTables[0];
 ```
@@ -81,16 +83,18 @@ Trong thế giới dữ liệu ngày nay, việc quản lý các tệp Excel c�
 ### Aspose.Cells dành cho .NET là gì?  
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và xử lý các tệp Excel theo chương trình mà không cần cài đặt Microsoft Excel.
 ### Tôi có cần phải mua Aspose.Cells để sử dụng không?  
- Mặc dù Aspose.Cells là một thư viện trả phí, bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) để khám phá các tính năng của sản phẩm trước khi mua hàng.
+Mặc dù Aspose.Cells là một thư viện trả phí, bạn có thể truy cập phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/) để khám phá các tính năng của sản phẩm trước khi mua hàng.
 ### Tôi có được hỗ trợ nếu gặp vấn đề không?  
- Chắc chắn rồi! Bạn có thể nhận được sự trợ giúp từ cộng đồng Aspose thông qua[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể nhận được sự trợ giúp từ cộng đồng Aspose thông qua [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể sử dụng Aspose.Cells để đọc bảng tổng hợp từ Excel không?  
 Có! Aspose.Cells cung cấp các chức năng để đọc, sửa đổi và tạo bảng trục cũng như tương tác với các nguồn dữ liệu bên ngoài.
 ### Làm thế nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells?  
- Bạn có thể nộp đơn xin một[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+Bạn có thể nộp đơn xin một [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

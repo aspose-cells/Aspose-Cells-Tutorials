@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ public class FeatureConfigurePageSetup {
 Khi sổ làm việc của bạn đã sẵn sàng, việc lưu đúng cách sẽ đảm bảo mọi thay đổi được lưu giữ.
 
 #### Tổng quan
-Tính năng này bao gồm cách lưu công việc của bạn vào một thư mục cụ thể với tên tệp mong muốn bằng Aspose.Cells.
+Tính năng này hướng dẫn cách lưu công việc của bạn vào một thư mục cụ thể với tên tệp mong muốn bằng Aspose.Cells.
 
 #### Thực hiện từng bước
 ##### Lưu Workbook (H3)
@@ -199,6 +201,9 @@ Aspose.Cells Java cung cấp tính linh hoạt trên nhiều miền khác nhau. 
 5. **Quản lý hàng tồn kho**: Sử dụng sổ làm việc để duy trì và cập nhật hồ sơ kiểm kê một cách linh hoạt, tích hợp với cơ sở dữ liệu hiện có.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

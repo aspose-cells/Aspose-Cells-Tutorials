@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ A5: Obiekt HtmlSaveOptions konfiguruje sposób zapisywania plików Excel w forma
 Postępując zgodnie z tym samouczkiem, będziesz dobrze wyposażony do wykorzystania Aspose.Cells for Java w swoich projektach, zwiększając produktywność i wydajność. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

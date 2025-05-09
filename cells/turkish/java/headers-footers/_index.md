@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Aspose.Cells for Java kullanarak Excel dosyasından sınırlı sayfaların nası
 Aspose.Cells Java kullanarak Excel dosyanızı A4 kağıt boyutu için nasıl yapılandıracağınızı öğrenin. Bu kılavuz kurulum, uygulama ve en iyi uygulamaları kapsar.
 
 ### [Aspose.Cells Java'da Ana Kağıt Boyutu Ayarı: Başlıkları ve Altbilgileri Kolayca Yapılandırın](./set-paper-size-aspose-cells-java-guide/)
-Aspose.Cells for Java kullanarak A4, A3, A2 ve Letter gibi kağıt boyutlarını nasıl ayarlayacağınızı ve alacağınızı öğrenin. Bu kılavuz kurulumdan gelişmiş yapılandırmalara kadar her şeyi kapsar.
+Java için Aspose.Cells'i kullanarak A4, A3, A2 ve Letter gibi kağıt boyutlarını nasıl ayarlayacağınızı ve alacağınızı öğrenin. Bu kılavuz kurulumdan gelişmiş yapılandırmalara kadar her şeyi kapsar.
 
 
 
@@ -102,6 +104,9 @@ Aspose.Cells for Java kullanarak A4, A3, A2 ve Letter gibi kağıt boyutlarını
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

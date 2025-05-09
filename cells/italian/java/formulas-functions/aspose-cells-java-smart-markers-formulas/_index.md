@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Implementando le funzionalità illustrate in questo tutorial, hai sbloccato le p
 - **Prova gratuita e licenza temporanea:** Inizia con una prova gratuita o ottieni una licenza temporanea su [Prova gratuita di Aspose](https://releases.aspose.com/cells/java/) E [Licenza temporanea](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Le animamos a implementar lo aprendido hoy y a ver cómo puede mejorar sus flujo
    - Sí, Aspose ofrece bibliotecas similares para .NET, C++ y más.
 
 4. **¿Existe un costo de rendimiento al usar cifrado en archivos de Excel?**
-   - El cifrado aumenta ligeramente el tamaño del archivo y los tiempos de carga, pero proporciona protección de datos esencial.
+   - El cifrado aumenta ligeramente el tamaño del archivo y los tiempos de carga, pero proporciona protección esencial de datos.
 
 5. **¿Dónde puedo encontrar más ejemplos del uso de Aspose.Cells?**
    - Comprueba el [Documentación de Aspose](https://reference.aspose.com/cells/java/) para guías completas y ejemplos de código.
@@ -169,6 +171,9 @@ Le animamos a implementar lo aprendido hoy y a ver cómo puede mejorar sus flujo
 - **Apoyo:** Únase a la comunidad Aspose en sus foros de soporte para obtener ayuda y debates.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

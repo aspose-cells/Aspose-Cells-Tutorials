@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatelemzés Excel Pivot
@@ -28,7 +30,7 @@ Az útmutató követéséhez a következőkre lesz szükséged:
 
 ## Új Excel-munkafüzet létrehozása
 
-Kezdjük egy új Excel-munkafüzet létrehozásával az Aspose.Cells for Java használatával. Ez szolgál majd az adatelemzésünk alapjául.
+Kezdjük egy új Excel munkafüzet létrehozásával az Aspose.Cells for Java használatával. Ez szolgál majd az adatelemzésünk alapjául.
 
 ```java
 // Java kód új Excel munkafüzet létrehozásához
@@ -48,7 +50,7 @@ cells.importData(yourDataArray, 0, 0, importOptions);
 
 ## Pivot táblák létrehozása
 
-A kimutatástáblázatok hatékony módszereket kínálnak az adatok Excelben történő összefoglalására és elemzésére. Hozzunk létre egy kimutatástáblázatot a munkafüzetünkben az adatelemzés megkönnyítése érdekében.
+A kimutatástáblázatok hatékony módszerek az adatok Excelben történő összefoglalására és elemzésére. Hozzunk létre egy kimutatástáblázatot a munkafüzetünkben az adatelemzés megkönnyítése érdekében.
 
 ```java
 // Java kód egy pivot tábla létrehozásához
@@ -120,6 +122,7 @@ Igen, az Aspose.Cells for Java egy kereskedelmi célú könyvtár, és érvénye
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

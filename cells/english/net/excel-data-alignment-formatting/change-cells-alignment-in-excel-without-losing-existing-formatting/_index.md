@@ -8,7 +8,9 @@ url: /net/excel-data-alignment-formatting/change-cells-alignment-in-excel-withou
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Excel Cells Alignment Without Losing Formatting
@@ -186,6 +188,7 @@ Yes, you can create multiple Style objects and apply them sequentially or condit
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

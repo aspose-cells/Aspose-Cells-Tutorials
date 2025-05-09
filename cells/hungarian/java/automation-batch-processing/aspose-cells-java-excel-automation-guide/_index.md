@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Szeretnéd programozottan kezelni az Excel-fájlokat Java használatával? Az Excel-feladatok kezelése és automatizálása ijesztő kihívást jelenthet, de az Aspose.Cells könyvtárral ez egyszerűsödik és hatékonnyá válik. Ez az átfogó útmutató végigvezet a nulláról induló új munkafüzetek létrehozásán, munkalapok hozzáadásán, cellaértékek beállításán, stílusok, például szegélyek alkalmazásán – mindezt tiszta Java nyelven. Az Aspose.Cells for Java ezen képességeinek elsajátításával hatékony adatkezelési és jelentéskészítő eszközökhöz férhetsz hozzá.
 
 **Amit tanulni fogsz:**
-- Hogyan lehet új munkafüzetet példányosítani az Aspose.Cells használatával.
+- Hogyan lehet új munkafüzetet létrehozni az Aspose.Cells használatával.
 - Munkafüzeten belüli munkalapok hozzáadásának és elérésének módszerei.
 - Módszerek cellaértékek beállítására és szükség szerinti formázására.
 - Cellatartományok definiálásának és elnevezésének lépései.
@@ -241,6 +243,9 @@ Most már megismerkedtél az Aspose.Cells for Java főbb funkcióival – munkaf
    - Az Excel mellett támogatja a CSV, PDF, HTML és egyebeket.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

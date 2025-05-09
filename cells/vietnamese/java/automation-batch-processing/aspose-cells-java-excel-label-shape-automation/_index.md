@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Thăm nom [Diễn đàn hỗ trợ của Aspose](https://forum.aspose.com/c/cell
 Bằng cách làm theo hướng dẫn này, bạn đã thực hiện một bước thiết yếu để làm chủ tự động hóa Excel với Aspose.Cells for Java. Hãy tiếp tục khám phá và tích hợp các tính năng mạnh mẽ này vào ứng dụng của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

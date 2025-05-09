@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Licencszerzés
 Az Aspose.Cells for Java ingyenes próbaverziót kínál a funkcióinak kiértékeléséhez:
 - **Ingyenes próbaverzió**Letöltés innen: [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/).
-- **Ideiglenes engedély**Jelentkezés ezen a címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/) a fejlett funkcióteszteléshez.
+- **Ideiglenes engedély**Jelentkezés ezen a módon: [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/) a fejlett funkcióteszteléshez.
 - **Vásárlás**Teljes hozzáférésért látogasson el ide: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
 **Alapvető inicializálás és beállítás:**
@@ -148,6 +150,9 @@ A5: Igen, jól integrálható olyan népszerű keretrendszerekkel, mint a Spring
 - **Támogatási fórum**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

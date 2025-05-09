@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Chúng ta hãy chuyển sang các điều kiện tiên quyết cần thiết tr�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java:** Đảm bảo phiên bản 25.3 trở lên có sẵn trong dự án của bạn.
 
 ### Thiết lập môi trường:
@@ -164,6 +166,9 @@ Bước tiếp theo, hãy cân nhắc khám phá các tính năng bổ sung củ
 Bằng cách làm theo hướng dẫn toàn diện này, giờ đây bạn đã có đủ khả năng triển khai và tận dụng các tính năng ngắt tính toán công thức của Aspose.Cells for Java một cách hiệu quả. Chúc bạn viết code vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

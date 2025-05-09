@@ -1,53 +1,55 @@
 ---
-title: Exportujte hodnotu řetězce HTML buněk do DataTable v Excelu
-linktitle: Exportujte hodnotu řetězce HTML buněk do DataTable v Excelu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se exportovat hodnoty řetězce HTML z buněk aplikace Excel do tabulky DataTable pomocí Aspose.Cells for .NET v jednoduchém podrobném tutoriálu.
-weight: 11
-url: /cs/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
+"description": "Naučte se, jak exportovat řetězcové hodnoty HTML z buněk aplikace Excel do DataTable pomocí Aspose.Cells pro .NET v jednoduchém podrobném tutoriálu."
+"linktitle": "Export HTML řetězcových hodnot buněk do DataTable v Excelu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Export HTML řetězcových hodnot buněk do DataTable v Excelu"
+"url": "/cs/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportujte hodnotu řetězce HTML buněk do DataTable v Excelu
+# Export HTML řetězcových hodnot buněk do DataTable v Excelu
 
 ## Zavedení
 
-Při práci se soubory aplikace Excel v prostředí .NET můžete zjistit, že potřebujete extrahovat informace z buněk nejen jako prostý text, ale spíše jako řetězce HTML. To může být docela užitečné, když pracujete s daty ve formátu RTF nebo když chcete zachovat formátování. V této příručce vás provedu exportem hodnoty řetězce HTML buněk do tabulky DataTable pomocí Aspose.Cells for .NET. 
+Při práci se soubory Excelu v prostředí .NET se může stát, že budete potřebovat extrahovat informace z buněk, a to nejen jako prostý text, ale spíše jako řetězce HTML. To může být docela užitečné, pokud pracujete s daty ve formátu RTF nebo pokud chcete zachovat formátování. V této příručce vás provedu exportem hodnot řetězce HTML z buněk do DataTable pomocí Aspose.Cells pro .NET. 
 
 ## Předpoklady
 
-Než se ponoříte do kódu, ujistěte se, že máte vše, co potřebujete. Zde je rychlý kontrolní seznam:
+Než se pustíme do kódu, ujistěte se, že máte vše potřebné připravené. Zde je stručný kontrolní seznam:
 
-1. Základní znalost C# a .NET: Než se pustíte do kódování, ujistěte se, že jste obeznámeni s programováním v C# a se základy .NET frameworku.
-2.  Aspose.Cells for .NET: Pokud jste to ještě neudělali, musíte nainstalovat Aspose.Cells for .NET. Bezplatnou zkušební verzi si můžete stáhnout z[zde](https://releases.aspose.com/).
-3. Visual Studio nebo IDE dle vašeho výběru: Nastavte své prostředí pro psaní kódu C#. Visual Studio se doporučuje pro jeho širokou škálu funkcí a snadné použití.
-4. Vzorový soubor Excel: Budete potřebovat vzorový soubor Excel (`sampleExportTableAsHtmlString.xlsx`) pracovat. Ujistěte se, že je umístěn v adresáři, který je přístupný.
-5. NuGet Package Manager: Ujistěte se, že máte ve svém projektu přístup k NuGet Package Manager, abyste mohli snadno přidat knihovnu Aspose.Cells.
+1. Základní znalost C# a .NET: Než se pustíte do programování, ujistěte se, že znáte programování v C# a základy frameworku .NET.
+2. Aspose.Cells pro .NET: Pokud jste tak ještě neučinili, musíte si nainstalovat Aspose.Cells pro .NET. Bezplatnou zkušební verzi si můžete stáhnout z [zde](https://releases.aspose.com/).
+3. Visual Studio nebo IDE dle vašeho výběru: Nastavte si prostředí pro psaní kódu C#. Visual Studio se doporučuje pro širokou škálu funkcí a snadné použití.
+4. Ukázkový soubor Excel: Budete potřebovat ukázkový soubor Excel (`sampleExportTableAsHtmlString.xlsx`) s nímž chcete pracovat. Ujistěte se, že je umístěn v adresáři, který je přístupný.
+5. Správce balíčků NuGet: Ujistěte se, že máte ve svém projektu přístup ke Správci balíčků NuGet, abyste mohli snadno přidat knihovnu Aspose.Cells.
 
-Když máme tyto předpoklady pod kontrolou, ušpiněme si ruce nějakým kódováním!
+S těmito předpoklady pod kontrolou se pojďme pustit do programování!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než začneme pracovat s Aspose.Cells, musíme naimportovat potřebné balíčky. To obvykle zahrnuje přidání balíčku Aspose.Cells NuGet do vašeho projektu. Jak na to:
+Než začneme pracovat s Aspose.Cells, musíme importovat potřebné balíčky. To obvykle zahrnuje přidání NuGet balíčku Aspose.Cells do vašeho projektu. Zde je návod, jak to udělat:
 
 ### Otevřete Správce balíčků NuGet
 
-V aplikaci Visual Studio klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte Spravovat balíčky NuGet.
+V aplikaci Visual Studio klikněte pravým tlačítkem myši na projekt v Průzkumníku řešení a vyberte možnost Spravovat balíčky NuGet.
 
-### Vyhledejte Aspose.Cells
+### Hledat Aspose.Cells
 
- Ve Správci balíčků NuGet zadejte`Aspose.Cells` ve vyhledávací liště.
+Ve Správci balíčků NuGet zadejte `Aspose.Cells` ve vyhledávacím řádku.
 
 ### Nainstalujte balíček
 
-Jakmile najdete Aspose.Cells, klikněte na tlačítko Instalovat. Tím se knihovna přidá do vašeho projektu a umožní vám ji importovat do vašeho kódu.
+Jakmile najdete Aspose.Cells, klikněte na tlačítko Instalovat. Tím se knihovna přidá do vašeho projektu a umožní vám ji importovat do kódu.
 
-### Importujte jmenný prostor
+### Importovat jmenný prostor
 
-Přidejte následující direktivu using v horní části souboru kódu:
+Přidejte následující direktivu using na začátek souboru s kódem:
 
 ```csharp
 using System;
@@ -56,21 +58,21 @@ using Aspose.Cells;
 using System.Data;
 ```
 
-Nyní, když jsme vše nastavili, pojďme se vrhnout na podrobný proces exportu hodnot řetězce HTML ze souboru aplikace Excel do tabulky DataTable. 
+Nyní, když máme vše nastavené, se pojďme ponořit do podrobného procesu exportu řetězcových hodnot HTML ze souboru aplikace Excel do datové tabulky (DataTable). 
 
-## Krok 1: Definujte zdrojový adresář
+## Krok 1: Definování zdrojového adresáře
 
-Začnete definováním adresáře, kde je uložen váš vzorový soubor Excel. To je zásadní, protože to říká vaší aplikaci, kde má soubor najít. Zde je kód:
+Začnete definováním adresáře, kde je uložen váš vzorový soubor Excelu. To je klíčové, protože to vaší aplikaci říká, kde má soubor najít. Zde je kód pro tento účel:
 
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
 
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k souboru Excel.
+Nezapomeňte vyměnit `"Your Document Directory"` se skutečnou cestou k vašemu souboru aplikace Excel.
 
 ## Krok 2: Načtěte ukázkový soubor Excel
 
- Dalším krokem je načtení sešitu aplikace Excel. Budete používat`Workbook` třídy z Aspose.Cells. Soubor můžete načíst takto:
+Dalším krokem je načtení sešitu aplikace Excel. Použijete `Workbook` třída z Aspose.Cells, která to udělá. Soubor načtete takto:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
@@ -78,19 +80,19 @@ Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
 
 Tento jednoduchý řádek kódu inicializuje sešit a načte zadaný soubor aplikace Excel.
 
-## Krok 3: Otevřete první pracovní list
+## Krok 3: Přístup k prvnímu pracovnímu listu
 
-Po načtení sešitu budete chtít získat přístup ke konkrétnímu listu, který obsahuje data, která vás zajímají. Obecně platí, že začnete prvním listem:
+Jakmile je sešit načten, budete chtít přistupovat ke konkrétnímu listu, který obsahuje data, která vás zajímají. Obecně začnete s prvním listem:
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Zde pracujeme s prvním listem (index 0). Ujistěte se, že jsou vaše data na správném listu.
+Zde pracujeme s prvním listem (index 0). Ujistěte se, že vaše data jsou na správném listu.
 
 ## Krok 4: Zadejte možnosti exportu tabulky
 
-Chcete-li ovládat, jak se data exportují, musíte nastavit`ExportTableOptions`. V tomto případě chcete zajistit, aby se názvy sloupců neexportovaly, a chcete exportovat data buněk jako řetězce HTML:
+Chcete-li ovládat způsob exportu dat, je třeba nastavit `ExportTableOptions`tomto případě chcete zajistit, aby názvy sloupců nebyly exportovány, a chcete, aby data buněk byla exportována jako řetězce HTML:
 
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();
@@ -98,51 +100,53 @@ opts.ExportColumnName = false;
 opts.ExportAsHtmlString = true;
 ```
 
-Tato konfigurace vám umožňuje zachovat bohaté formátování dat buněk při exportu.
+Tato konfigurace umožňuje zachovat bohaté formátování dat buněk při exportu.
 
 ## Krok 5: Export buněk do DataTable
 
- Nyní přichází zásadní část, kdy data skutečně exportujete. Pomocí`ExportDataTable` můžete vytáhnout data z listu do a`DataTable`. Postup:
+Nyní přichází klíčová část, kdy data skutečně exportujete. Pomocí `ExportDataTable` metodu, můžete data z listu načíst do `DataTable`Zde je návod, jak to udělat:
 
 ```csharp
 DataTable dt = ws.Cells.ExportDataTable(0, 0, 3, 3, opts);
 ```
 
-Tento kód exportuje zadaný rozsah buněk (od řádku 0, sloupce 0 do řádku 3, sloupce 3) do DataTable pomocí možností zadaných dříve.
+Tento kód exportuje zadaný rozsah buněk (od řádku 0, sloupce 0 do řádku 3, sloupce 3) do objektu DataTable s použitím dříve zadaných možností.
 
-## Krok 6: Vytiskněte hodnotu řetězce HTML
+## Krok 6: Výpis hodnoty řetězce HTML
 
-Nakonec si vytiskneme hodnotu řetězce HTML z konkrétní buňky v DataTable, abychom viděli, co se nám podařilo exportovat. Pokud například chcete vytisknout hodnotu ze třetího řádku a druhého sloupce, postupujte takto:
+Nakonec si vytiskněme hodnotu HTML řetězce z konkrétní buňky v tabulce DataTable, abychom viděli, co se nám podařilo exportovat. Pokud například chcete vytisknout hodnotu ze třetího řádku a druhého sloupce, postupujte takto:
 
 ```csharp
 Console.WriteLine(dt.Rows[2][1].ToString());
 ```
 
-Tento řádek vytiskne požadovaný řetězec HTML z DataTable do konzoly. 
+Tento řádek vypíše požadovaný řetězec HTML z DataTable do konzole. 
 
 ## Závěr 
 
-A tady to máte! Úspěšně jste exportovali hodnoty řetězce HTML z buněk v souboru aplikace Excel do DataTable pomocí Aspose.Cells for .NET. Tato schopnost nejen obohatí vaše dovednosti manipulace s daty, ale také rozšiřuje vaše možnosti při práci s formátovaným obsahem přímo ze souborů aplikace Excel. 
+tady to máte! Úspěšně jste exportovali řetězcové hodnoty HTML z buněk v souboru aplikace Excel do datové tabulky pomocí Aspose.Cells pro .NET. Tato funkce nejen obohacuje vaše dovednosti v oblasti manipulace s daty, ale také rozšiřuje vaše možnosti při práci s formátovaným obsahem přímo z souborů aplikace Excel. 
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu použít Aspose.Cells pro jiné formáty souborů než Excel?  
-Ano, Aspose.Cells je primárně pro Excel, ale Aspose nabízí další knihovny pro různé formáty.
+Ano, Aspose.Cells je primárně pro Excel, ale Aspose nabízí i další knihovny pro různé formáty.
 
 ### Potřebuji licenci pro Aspose.Cells?  
- Ano, pro produkční použití je vyžadována platná licence. Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
+Ano, pro produkční použití je vyžadována platná licence. Můžete získat dočasnou licenci. [zde](https://purchase.aspose.com/temporary-license/).
 
-### Co když můj soubor Excel obsahuje vzorce? Budou exportovat správně?  
-Ano, Aspose.Cells si poradí se vzorci a při exportu se vyhodnotí na výsledné hodnoty.
+### Co když můj soubor Excelu obsahuje vzorce? Budou exportovány správně?  
+Ano, Aspose.Cells umí pracovat se vzorci a při exportu budou vyhodnoceny na výsledné hodnoty.
 
 ### Je možné změnit možnosti exportu?  
- Absolutně! Můžete přizpůsobit`ExportTableOptions` aby vyhovoval vašim konkrétním potřebám.
+Rozhodně! Můžete si to přizpůsobit `ExportTableOptions` aby vyhovovaly vašim specifickým potřebám.
 
 ### Kde najdu podrobnější dokumentaci k Aspose.Cells?  
- Můžete najít rozsáhlou dokumentaci[zde](https://reference.aspose.com/cells/net/).
+Rozsáhlou dokumentaci najdete [zde](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

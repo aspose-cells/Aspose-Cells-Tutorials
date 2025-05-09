@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ A4: Aspose.Cells は高い互換性を備えていますが、極端に古いフ
 A5: チェック [Aspose ドキュメント](https://reference.aspose.com/cells/java/) さらに詳しい情報や例については、コミュニティ フォーラムをご覧ください。
 
 ## リソース
-- **ドキュメント**： [Aspose.Cells for Java の詳細](https://reference.aspose.com/cells/java/)
+- **ドキュメント**： [Aspose.Cells for Java について詳しく見る](https://reference.aspose.com/cells/java/)
 - **ダウンロード**： [Aspose.Cells for Java の最新リリースを入手](https://releases.aspose.com/cells/java/)
 - **ライセンスを購入する**： [Aspose製品を購入する](https://purchase.aspose.com/buy)
 - **無料トライアル**： [今すぐ無料トライアルを開始](https://releases.aspose.com/cells/java/)
@@ -147,6 +149,9 @@ A5: チェック [Aspose ドキュメント](https://reference.aspose.com/cells/
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

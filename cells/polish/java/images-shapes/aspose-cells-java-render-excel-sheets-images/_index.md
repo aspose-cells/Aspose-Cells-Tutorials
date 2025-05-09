@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Opanowując Aspose.Cells for Java, możesz podnieść poziom swojej wizualizacji
 
 1. **Jaki jest najlepszy format eksportowania arkuszy kalkulacyjnych jako obrazów?**
    - Format JPEG jest powszechnie używany ze względu na równowagę między jakością i rozmiarem pliku.
-2. **Czy mogę zmienić rozdzielczość obrazu wyjściowego?**
+2. **Czy mogę dostosować rozdzielczość obrazu wyjściowego?**
    - Tak, użyj `setHorizontalResolution` I `setVerticalResolution` metody w `ImageOrPrintOptions`.
 3. **Czy możliwe jest renderowanie tylko określonych arkuszy?**
    - Oczywiście, wybieraj arkusze według indeksu lub nazwy podczas iteracji.
@@ -175,6 +177,9 @@ Opanowując Aspose.Cells for Java, możesz podnieść poziom swojej wizualizacji
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

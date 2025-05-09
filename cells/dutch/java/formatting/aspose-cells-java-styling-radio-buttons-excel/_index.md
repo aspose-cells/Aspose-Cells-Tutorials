@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Uitleg:
-- **`Workbook`**: Geeft een Excel-bestand weer.
+- **`Workbook`**Geeft een Excel-bestand weer.
 - **`Worksheet`**: Verwijst naar een werkblad in de werkmap.
 - **`Cells`**: Een verzameling cellen in het werkblad.
 - **`Style`**: Wordt gebruikt voor het opmaken van cellen.
@@ -200,6 +202,9 @@ In deze tutorial hebben we uitgelegd hoe je een werkblad kunt maken en vormgeven
 - **Documentatie**: Uitgebreide handleidingen en API-referenties vindt u op [Aspose.Cells-documentatie](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Při práci s Aspose.Cells v Javě zvažte následující tipy pro optimalizaci 
 Nyní jste zvládli načítání a manipulaci se soubory ODS pomocí Aspose.Cells pro Javu. Od přístupu k pracovním listům až po extrakci detailů na pozadí jste vybaveni k vylepšení svých aplikací pomocí sofistikovaných funkcí pro zpracování tabulkových procesorů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

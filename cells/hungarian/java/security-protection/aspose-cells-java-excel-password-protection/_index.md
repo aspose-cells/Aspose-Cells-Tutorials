@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Jelszóval védett Excel fájlok betöltése elengedhetetlen érzékeny információk kezelésekor. Az Aspose.Cells egyszerű módot kínál ezeknek a fájloknak a megnyitására a szükséges jelszó megadásával.
 
 #### Lépésről lépésre történő megvalósítás
-1. **Betöltési beállítások beállítása**: Hozz létre egy `LoadOptions` objektumot, és állítsa be a szükséges jelszót.
+1. **Betöltési beállítások beállítása**Hozz létre egy `LoadOptions` objektumot, és állítsa be a szükséges jelszót.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -130,7 +132,7 @@ A4: Részletes dokumentáció áll rendelkezésre [itt](https://reference.aspose
 5. válasz: Győződjön meg arról, hogy a licencfájl elérési útja helyes, és hogy az alkalmazás hozzáférhet.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások Java-ra](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Aspose.Cells licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Próbáld ki az Aspose.Cells ingyenes verzióját](https://releases.aspose.com/cells/java/)
@@ -138,6 +140,9 @@ A4: Részletes dokumentáció áll rendelkezésre [itt](https://reference.aspose
 - **Támogatás**: [Aspose Fórum Támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

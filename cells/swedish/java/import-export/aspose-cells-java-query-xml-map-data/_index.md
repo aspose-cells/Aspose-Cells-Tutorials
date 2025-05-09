@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Lär dig hur du effektivt kan fråga XML-mappdata länkade till Excel-filer med Aspose.Cells för Java. Öka dina kunskaper i datahantering med vår omfattande guide."
-"title": "Bemästra Aspose.Cells Java&#50; Fråga och manipulera XML-mappningsdata i Excel"
+"title": "Behärska Aspose.Cells Java - Fråga och manipulera XML-mappningsdata i Excel"
 "url": "/sv/java/import-export/aspose-cells-java-query-xml-map-data/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Genom att bemästra Aspose.Cells-biblioteket för att fråga XML-kartdata i Exce
 Genom att följa den här handledningen kommer du att vara väl rustad för att utnyttja kraften i Aspose.Cells för Java för att fråga XML-mappdata i Excel-filer. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Dzięki wdrożeniu funkcji omówionych w tym samouczku odblokowałeś potężne 
 - **Bezpłatna wersja próbna i licencja tymczasowa:** Zacznij od bezpłatnego okresu próbnego lub uzyskaj tymczasową licencję na [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/cells/java/) I [Licencja tymczasowa](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

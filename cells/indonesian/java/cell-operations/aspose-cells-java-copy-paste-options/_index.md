@@ -7,31 +7,33 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells: Menerapkan CopyOptions & PasteOptions di Java untuk Manajemen Data Excel
 
-## Perkenalan
+## Bevezetés
 
-Apakah Anda ingin meningkatkan kemampuan pengelolaan data dalam file Excel menggunakan Java? Dengan kekuatan Aspose.Cells, Anda dapat mengelola dan memanipulasi data spreadsheet secara terprogram dengan mudah. Tutorial ini akan memandu Anda dalam menerapkan dua fitur hebat: **Opsi Salinan** dengan `ReferToDestinationSheet` Dan **Opsi Tempel** untuk jenis tempel dan pengaturan visibilitas tertentu. Fungsionalitas ini mengatasi masalah umum yang terkait dengan pemeliharaan referensi yang benar saat menyalin data antar lembar dan memastikan hanya nilai sel yang terlihat yang ditempel.
+Apakah Anda ingin meningkatkan kemampuan pengelolaan data dalam file Excel menggunakan Java? Dengan kekuatan Aspose.Cells, Anda dapat mengelola dan memanipulasi data spreadsheet secara terprogram dengan mudah. Tutorial ini akan memandu Anda dalam menerapkan dua fitur hebat: **Opsi Salinan** -vel `ReferToDestinationSheet` és **Opsi Tempel** untuk jenis tempel dan pengaturan visibilitas tertentu. Fungsionalitas ini mengatasi masalah umum yang terkait dengan pemeliharaan referensi yang benar saat menyalin data antar lembar dan memastikan hanya nilai sel yang terlihat yang ditempel.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara mengatur Aspose.Cells di proyek Java Anda.
-- Implementasi `CopyOptions.ReferToDestinationSheet` untuk menjaga integritas referensi.
-- Mengonfigurasi `PasteOptions` untuk menempelkan nilai hanya dari sel yang terlihat.
+- Megvalósítás `CopyOptions.ReferToDestinationSheet` untuk menjaga integritas referensi.
+- Konfigurálás `PasteOptions` untuk menempelkan nilai hanya dari sel yang terlihat.
 - Aplikasi dunia nyata dan kiat pengoptimalan kinerja untuk menggunakan Aspose.Cells.
 
 Mari kita mulai dengan prasyarat yang perlu Anda ikuti!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai implementasi, pastikan Anda telah menyiapkan hal-hal berikut:
 
-- **Perpustakaan yang Diperlukan**: Anda akan memerlukan pustaka Aspose.Cells. Pastikan proyek Anda menyertakan versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: Tutorial ini mengasumsikan Anda menggunakan Maven atau Gradle untuk manajemen ketergantungan.
-- **Prasyarat Pengetahuan**:Direkomendasikan untuk memiliki pengetahuan tentang Java dan operasi spreadsheet dasar.
+- **Kötelező könyvtárak**: Anda akan memerlukan pustaka Aspose.Cells. Pastikan proyek Anda menyertakan versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**: Tutorial ini mengasumsikan Anda menggunakan Maven atau Gradle untuk manajemen ketergantungan.
+- **Ismereti előfeltételek**:Direkomendasikan untuk memiliki pengetahuan tentang Java dan operasi spreadsheet dasar.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -51,13 +53,13 @@ Untuk menggunakan fitur-fitur yang dibahas, pertama-tama siapkan Aspose.Cells di
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells menawarkan uji coba gratis, lisensi sementara, dan opsi pembelian:
 
-- **Uji Coba Gratis**: Mulailah dengan fitur lengkap selama periode evaluasi Anda.
-- **Lisensi Sementara**: Ajukan permohonan lisensi sementara untuk menghapus batasan apa pun saat mengevaluasi.
-- **Pembelian**: Untuk penggunaan jangka panjang, Anda dapat membeli lisensi permanen.
+- **Ingyenes próbaverzió**: Mulailah dengan fitur lengkap selama periode evaluasi Anda.
+- **Ideiglenes engedély**: Ajukan permohonan lisensi sementara untuk menghapus batasan apa pun saat mengevaluasi.
+- **Vásárlás**: Untuk penggunaan jangka panjang, Anda dapat membeli lisensi permanen.
 
 Setelah disiapkan, inisialisasi Aspose.Cells di aplikasi Java Anda seperti ini:
 ```java
@@ -66,11 +68,11 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: CopyOptions dengan ReferToDestinationSheet
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini memungkinkan Anda untuk mempertahankan referensi yang benar saat menyalin data antar lembar. Dengan mengatur `CopyOptions.ReferToDestinationSheet` jika benar, rumus apa pun di sel yang Anda salin akan menyesuaikan referensinya untuk menunjuk ke lembar tujuan.
 
 **Langkah 1: Inisialisasi Buku Kerja dan Lembar Kerja**
@@ -97,13 +99,13 @@ options.setReferToDestinationSheet(true); // Sesuaikan rumus ke lembar tujuan
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), options, null);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Mengapa?*: Ini memastikan bahwa semua rumus yang merujuk ke lembar lain diperbarui untuk mencerminkan lokasi lembar baru.
+*Miért?*: Ini memastikan bahwa semua rumus yang merujuk ke lembar lain diperbarui untuk mencerminkan lokasi lembar baru.
 
-**Tips Pemecahan Masalah**:Jika referensi masih tampak salah, periksa kembali `ReferToDestinationSheet` diatur sebelum mengeksekusi operasi penyalinan.
+**Hibaelhárítási tipp**:Jika referensi masih tampak salah, periksa kembali `ReferToDestinationSheet` diatur sebelum menjalankan operasi penyalinan.
 
 ### Fitur 2: PasteOptions dengan Jenis Tempel dan Pengaturan Visibilitas Tertentu
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini memungkinkan Anda mengontrol apa yang akan ditempel saat menyalin data. Dengan menggunakan `PasteType.VALUES` dan pengaturan `onlyVisibleCells` ke true, hanya nilai dari sel yang terlihat yang disalin.
 
 **Langkah 1: Inisialisasi Buku Kerja dan Lembar Kerja**
@@ -128,32 +130,32 @@ pasteOptions.setOnlyVisibleCells(true); // Sertakan hanya sel yang terlihat
 destination.getCells().copyRows(source.getCells(), 0, 0, source.getCells().getMaxDisplayRange().getRowCount(), null, pasteOptions);
 wb.save("YOUR_OUTPUT_DIRECTORY/destination.xlsx");
 ```
-*Mengapa?*Konfigurasi ini ideal untuk skenario di mana Anda perlu mengekstrak data tanpa memformat atau menyembunyikan sel.
+*Miért?*Konfigurasi ini ideal untuk skenario di mana Anda perlu mengekstrak data tanpa memformat atau menyembunyikan sel.
 
-**Tips Pemecahan Masalah**: Jika tidak semua nilai yang terlihat ditempel, verifikasi bahwa pengaturan visibilitas di Excel telah ditetapkan dengan benar sebelum menyalin.
+**Hibaelhárítási tipp**: Jika tidak semua nilai yang terlihat ditempel, verifikasi bahwa pengaturan visibilitas di Excel telah ditetapkan dengan benar sebelum menyalin.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Konsolidasi Data**: Menggunakan `CopyOptions` untuk mengkonsolidasikan laporan keuangan pada beberapa lembar sambil tetap mempertahankan referensi rumus yang benar.
+1. **Adatkonszolidáció**Használat `CopyOptions` untuk mengkonsolidasikan laporan keuangan pada beberapa lembar sambil tetap mempertahankan referensi rumus yang benar.
 2. **Transfer Data Selektif**: Mempekerjakan `PasteOptions` untuk mentransfer hanya data yang diperlukan dari kumpulan data yang difilter ke buku kerja lain, dengan tetap menjaga ruang dan kejelasan.
-3. **Pelaporan Otomatis**: Otomatisasi pembuatan laporan dengan menyalin hanya sel yang terlihat dengan rumus yang disesuaikan dengan konteks lembar baru.
+3. **Automatizált jelentéskészítés**: Otomatisasi pembuatan laporan dengan menyalin hanya sel yang terlihat dengan rumus yang disesuaikan dengan konteks lembar baru.
 
-## Pertimbangan Kinerja
-- **Optimalkan Penggunaan Memori**: Gunakan Aspose.Cells dengan cara yang hemat memori dengan membuang objek saat tidak lagi diperlukan.
-- **Operasi Batch**Lakukan operasi secara berkelompok jika memungkinkan untuk meminimalkan penggunaan sumber daya dan meningkatkan kinerja.
+## Teljesítménybeli szempontok
+- **Memóriahasználat optimalizálása**: Gunakan Aspose.Cells dengan cara yang hemat memori dengan membuang objek saat tidak lagi diperlukan.
+- **Kötegelt műveletek**Lakukan operasi secara berkelompok jika memungkinkan untuk meminimalkan penggunaan sumber daya dan meningkatkan kinerja.
 - **Memantau Konsumsi Sumber Daya**: Periksa penggunaan CPU dan memori secara teratur selama manipulasi spreadsheet besar.
 
-## Kesimpulan
+## Következtetés
 
-Anda sekarang telah menguasai cara menerapkannya `CopyOptions` dengan `ReferToDestinationSheet` Dan `PasteOptions` untuk jenis tempel tertentu menggunakan Aspose.Cells di Java. Teknik ini akan memperlancar alur kerja pengelolaan data Anda, memastikan referensi akurat dan penanganan data yang efisien.
+Anda sekarang telah menguasai cara menerapkannya `CopyOptions` -vel `ReferToDestinationSheet` és `PasteOptions` untuk jenis tempel tertentu menggunakan Aspose.Cells di Java. Teknik ini akan memperlancar alur kerja pengelolaan data Anda, memastikan referensi akurat dan penanganan data yang efisien.
 
-### Langkah Berikutnya
+### Következő lépések
 - Bereksperimenlah dengan berbagai konfigurasi opsi Salin dan Tempel.
 - Jelajahi fitur tambahan Aspose.Cells untuk menyempurnakan tugas otomatisasi Excel Anda.
 
 Siap untuk meningkatkan keterampilan spreadsheet Anda ke tingkat berikutnya? Cobalah menerapkan solusi ini dalam proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Apa itu `CopyOptions.ReferToDestinationSheet` digunakan untuk?**
 A1: Menyesuaikan referensi rumus agar menunjuk ke lembar tujuan saat data disalin antar lembar kerja, guna memastikan keakuratan.
@@ -170,15 +172,18 @@ A4: Periksa kembali bahwa `CopyOptions.ReferToDestinationSheet` diatur sebelum o
 **Q5: Apakah ada praktik manajemen memori yang direkomendasikan saat menggunakan Aspose.Cells?**
 A5: Buang objek dengan benar, lakukan operasi secara berkelompok, dan pantau konsumsi sumber daya selama manipulasi ekstensif.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Uji Coba Gratis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Ajukan Permohonan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Dukungan Aspose](https://forum.aspose.com/c/cells)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Rilis Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

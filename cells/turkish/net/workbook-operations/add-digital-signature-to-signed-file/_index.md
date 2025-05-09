@@ -1,14 +1,16 @@
 ---
-title: İmzalanmış Excel Dosyasına Dijital İmza Ekle
-linktitle: İmzalanmış Excel Dosyasına Dijital İmza Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak önceden imzalanmış bir Excel dosyasına dijital imza eklemeyi öğrenin. Belgelerinizi güvence altına alın.
-weight: 12
-url: /tr/net/workbook-operations/add-digital-signature-to-signed-file/
+"description": "Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak önceden imzalanmış bir Excel dosyasına dijital imza eklemeyi öğrenin. Belgelerinizi güvence altına alın."
+"linktitle": "İmzalanmış Excel Dosyasına Dijital İmza Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "İmzalanmış Excel Dosyasına Dijital İmza Ekle"
+"url": "/tr/net/workbook-operations/add-digital-signature-to-signed-file/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İmzalanmış Excel Dosyasına Dijital İmza Ekle
@@ -17,14 +19,14 @@ url: /tr/net/workbook-operations/add-digital-signature-to-signed-file/
 Günümüzün dijital dünyasında, belgelerin gerçekliğini ve bütünlüğünü sağlamak hayati önem taşır. Dijital imzalar, bir belgenin değiştirilmediğini ve meşru bir kaynaktan geldiğini doğrulamanın sağlam bir yolu olarak hizmet eder. .NET'te Excel dosyalarıyla çalışıyorsanız ve zaten imzalanmış bir dosyaya dijital imza eklemek istiyorsanız, doğru yerdesiniz! Bu kılavuzda, .NET için Aspose.Cells kullanarak mevcut imzalanmış bir Excel dosyasına yeni bir dijital imza ekleme sürecini adım adım anlatacağız. 
 ## Ön koşullar
 Ayrıntılara dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1.  .NET için Aspose.Cells: İlk ve en önemlisi, .NET ortamınızda Aspose.Cells'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[yayın sayfası](https://releases.aspose.com/cells/net/).
+1. .NET için Aspose.Cells: İlk ve en önemlisi, .NET ortamınızda Aspose.Cells'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [yayın sayfası](https://releases.aspose.com/cells/net/).
 2. .NET Framework: Makinenizde .NET Framework'ün kurulu olduğundan emin olun. Bu kılavuz, temel .NET programlama kavramlarına aşina olduğunuzu varsayar.
 3. Dijital Sertifika: Dijital imza oluşturmak için geçerli bir dijital sertifikaya (.pfx formatında) ihtiyacınız olacak. Eğer yoksa, test amaçlı kendi kendine imzalanmış bir sertifika oluşturabilirsiniz.
 4. Geliştirme Ortamı: C# kodunuzu yazıp çalıştırabileceğiniz Visual Studio benzeri bir kod düzenleyici veya IDE.
 5. Örnek Excel Dosyası: Dijital olarak imzalanmış mevcut bir Excel dosyanız olmalı. Bu, başka bir imza ekleyeceğimiz dosya olacaktır.
 Bu ön koşulları tamamladığımıza göre, koda geçelim!
 ## Paketleri İçe Aktar
-Kodlamaya başlamadan önce, gerekli ad alanlarını içe aktardığınızdan emin olun. İşte C# dosyanızın en üstüne eklemeniz gerekenler:
+Kodlamaya başlamadan önce gerekli ad alanlarını içe aktardığınızdan emin olun. İşte C# dosyanızın en üstüne eklemeniz gerekenler:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -41,14 +43,14 @@ string sourceDir = "Your Document Directory"; // Gerçek dizininizle değiştiri
 // Çıktı dizini
 string outputDir = "Your Document Directory"; // Gerçek dizininizle değiştirin
 ```
- Yer değiştirmek`"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile. Bu, dosya işlemleriniz için sahneyi hazırlar.
+Yer değiştirmek `"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile. Bu, dosya işlemleriniz için sahneyi hazırlar.
 ## Adım 2: Mevcut İmzalanmış Çalışma Kitabını Yükleyin
 Sonra, halihazırda imzalanmış olan mevcut Excel çalışma kitabını yükleyeceksiniz. Sihir burada başlıyor:
 ```csharp
 // Yeni dijital imza eklemek için dijital olarak imzalanmış çalışma kitabını yükleyin
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
- Bu satır yeni bir satır başlatır`Workbook` Belirtilen dosya ile nesne. Dosya adının mevcut imzalı Excel dosyanızla eşleştiğinden emin olun.
+Bu satır yeni bir satır başlatır `Workbook` Belirtilen dosyaya sahip nesne. Dosya adının mevcut imzalı Excel dosyanızla eşleştiğinden emin olun.
 ## Adım 3: Dijital İmza Koleksiyonu Oluşturun
 Dijital imzalarınızı yönetmek için bir koleksiyon oluşturmanız gerekir. Bu, gerektiğinde birden fazla imza bulundurmanıza olanak tanır:
 ```csharp
@@ -61,11 +63,11 @@ Bu koleksiyon, çalışma kitabınıza uygulamadan önce yeni dijital imzanızı
 ```csharp
 // Sertifika dosyası ve şifresi
 string certFileName = sourceDir + "AsposeDemo.pfx"; // Sertifika dosyanız
-string password = "aspose"; //Sertifika şifreniz
+string password = "aspose"; // Sertifika şifreniz
 // Yeni sertifika oluştur
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
- Değiştirdiğinizden emin olun`AsposeDemo.pfx` sertifika dosyanızın adıyla ve parolayı buna göre güncelleyin. Bu adım çok önemlidir çünkü doğru sertifika olmadan geçerli bir imza oluşturamazsınız.
+Değiştirdiğinizden emin olun `AsposeDemo.pfx` sertifika dosyanızın adıyla ve parolayı buna göre güncelleyin. Bu adım çok önemlidir çünkü doğru sertifika olmadan geçerli bir imza oluşturamazsınız.
 ## Adım 5: Yeni Bir Dijital İmza Oluşturun
 Sertifikanız yüklendiğinde, artık yeni bir dijital imza oluşturabilirsiniz. Bu imza koleksiyonunuza eklenecektir:
 ```csharp
@@ -84,7 +86,7 @@ Bu adım, yeni dijital imzanızı çalışma kitabınıza etkili bir şekilde uy
 ## Adım 7: Çalışma Kitabını Kaydedin
 Son olarak, çalışma kitabını yeni dijital imzayla birlikte kaydedin. İşte tüm sıkı çalışmanızın karşılığını aldığınız an:
 ```csharp
-//Çalışma kitabını kaydedin ve imha edin.
+// Çalışma kitabını kaydedin ve imha edin.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -106,13 +108,15 @@ Evet, geçerli bir dijital imza oluşturmak için güvenilir bir sertifika otori
 ### Test için kendi imzalı sertifikayı kullanabilir miyim?
 Kesinlikle! Geliştirme ve test amaçları için kendi kendine imzalanmış bir sertifika oluşturabilirsiniz, ancak üretim için güvenilir bir CA'dan sertifika kullanmak en iyisidir.
 ### İmzalanmamış bir belgeye imza eklemeye çalışırsam ne olur?
-Zaten imzalanmamış bir belgeye dijital imza eklemeyi denerseniz sorunsuz çalışacaktır, ancak orijinal imza mevcut olmayacaktır.
+Zaten imzalanmamış bir belgeye dijital imza eklemeyi denerseniz, sorunsuz çalışacaktır, ancak orijinal imza mevcut olmayacaktır.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Kontrol edebilirsiniz[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
+Kontrol edebilirsiniz [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

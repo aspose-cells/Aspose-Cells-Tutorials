@@ -1,14 +1,16 @@
 ---
-title: Excel'deki Hücrelerin HTML Dize Değerini DataTable'a Aktarma
-linktitle: Excel'deki Hücrelerin HTML Dize Değerini DataTable'a Aktarma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Basit adım adım bir eğitimde, Aspose.Cells for .NET kullanarak Excel hücrelerindeki HTML dize değerlerini bir DataTable'a nasıl aktaracağınızı öğrenin.
-weight: 11
-url: /tr/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
+"description": "Basit adım adım bir eğitimde, Aspose.Cells for .NET kullanarak Excel hücrelerindeki HTML dize değerlerini bir DataTable'a nasıl aktaracağınızı öğrenin."
+"linktitle": "Excel'deki Hücrelerin HTML Dize Değerini DataTable'a Aktarma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'deki Hücrelerin HTML Dize Değerini DataTable'a Aktarma"
+"url": "/tr/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'deki Hücrelerin HTML Dize Değerini DataTable'a Aktarma
@@ -22,7 +24,7 @@ url: /tr/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 Koda dalmadan önce, ihtiyacınız olan her şeyin yerinde olduğundan emin olalım. İşte hızlı bir kontrol listesi:
 
 1. C# ve .NET'in Temel Bilgileri: Kodlamaya başlamadan önce, C# programlamaya ve .NET framework'ünün temellerine aşina olduğunuzdan emin olun.
-2.  Aspose.Cells for .NET: Henüz yapmadıysanız, Aspose.Cells for .NET'i yüklemeniz gerekir. Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+2. Aspose.Cells for .NET: Henüz yapmadıysanız, Aspose.Cells for .NET'i yüklemeniz gerekir. Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 3. Tercih ettiğiniz Visual Studio veya IDE: C# kodu yazmak için ortamınızı kurun. Visual Studio, geniş özellik yelpazesi ve kullanım kolaylığı nedeniyle önerilir.
 4. Örnek Excel Dosyası: Bir örnek Excel dosyasına ihtiyacınız olacak (`sampleExportTableAsHtmlString.xlsx`) ile çalışmak için. Erişilebilir bir dizinde bulunduğundan emin olun.
 5. NuGet Paket Yöneticisi: Aspose.Cells kütüphanesini kolayca eklemek için projenizde NuGet Paket Yöneticisine erişiminiz olduğundan emin olun.
@@ -39,7 +41,7 @@ Visual Studio'da Çözüm Gezgini'nde projenize sağ tıklayın ve NuGet Paketle
 
 ### Aspose.Cells'i arayın
 
- NuGet Paket Yöneticisi'nde şunu yazın:`Aspose.Cells` Arama çubuğunda.
+NuGet Paket Yöneticisi'nde şunu yazın: `Aspose.Cells` Arama çubuğunda.
 
 ### Paketi yükleyin
 
@@ -66,11 +68,11 @@ Artık her şeyi ayarladığımıza göre, HTML dize değerlerini bir Excel dosy
 string sourceDir = "Your Document Directory";
 ```
 
- Değiştirdiğinizden emin olun`"Your Document Directory"` Excel dosyanızın gerçek yolunu belirtin.
+Değiştirdiğinizden emin olun `"Your Document Directory"` Excel dosyanızın gerçek yolunu belirtin.
 
 ## Adım 2: Örnek Excel Dosyasını Yükleyin
 
- Bir sonraki adım Excel çalışma kitabını yüklemektir.`Workbook` Bunu yapmak için Aspose.Cells'den bir sınıf kullanın. Dosyayı şu şekilde yükleyebilirsiniz:
+Bir sonraki adım Excel çalışma kitabını yüklemektir. `Workbook` Bunu yapmak için Aspose.Cells'den bir sınıf kullanın. Dosyayı şu şekilde yükleyebilirsiniz:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
@@ -90,7 +92,7 @@ Burada ilk çalışma sayfasıyla (indeks 0) çalışıyoruz. Verilerinizin doğ
 
 ## Adım 4: Dışa Aktarma Tablosu Seçeneklerini Belirleyin
 
-Verilerin nasıl dışa aktarılacağını kontrol etmek için, şunları ayarlamanız gerekir:`ExportTableOptions`Bu durumda, sütun adlarının dışa aktarılmamasını ve hücre verilerinin HTML dizeleri olarak dışa aktarılmasını istersiniz:
+Verilerin nasıl dışa aktarılacağını kontrol etmek için şunları ayarlamanız gerekir: `ExportTableOptions`Bu durumda, sütun adlarının dışa aktarılmamasını ve hücre verilerinin HTML dizeleri olarak dışa aktarılmasını istersiniz:
 
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();
@@ -102,7 +104,7 @@ Bu yapılandırma, hücre verilerinizi dışa aktarırken zengin biçimlendirmey
 
 ## Adım 5: Hücreleri DataTable'a Aktar
 
- Şimdi verileri gerçekten dışa aktardığınız kritik kısım geliyor.`ExportDataTable` yöntemi, verileri çalışma sayfasından bir`DataTable`Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Şimdi verileri gerçekten dışa aktardığınız kritik kısım geliyor. `ExportDataTable` yöntemi, verileri çalışma sayfasından bir `DataTable`Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 DataTable dt = ws.Cells.ExportDataTable(0, 0, 3, 3, opts);
@@ -130,19 +132,21 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasındaki hücrele
 Evet, Aspose.Cells öncelikli olarak Excel içindir, ancak Aspose farklı formatlar için başka kütüphaneler de sunmaktadır.
 
 ### Aspose.Cells için lisansa ihtiyacım var mı?  
- Evet, üretim kullanımı için geçerli bir lisans gereklidir. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, üretim kullanımı için geçerli bir lisans gereklidir. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Excel dosyam formüller içeriyorsa ne olur? Bunlar doğru şekilde dışa aktarılır mı?  
 Evet, Aspose.Cells formülleri işleyebilir ve dışa aktarıldığında, bunlar sonuç değerlerine göre değerlendirilir.
 
 ### İhracat seçeneklerini değiştirmek mümkün mü?  
- Kesinlikle! Özelleştirebilirsiniz`ExportTableOptions` özel ihtiyaçlarınıza uyacak şekilde.
+Kesinlikle! Özelleştirebilirsiniz `ExportTableOptions` özel ihtiyaçlarınıza uyacak şekilde.
 
-### Aspose.Cells için daha detaylı dokümanları nerede bulabilirim?  
- Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+### Aspose.Cells için daha detaylı dokümantasyonu nerede bulabilirim?  
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

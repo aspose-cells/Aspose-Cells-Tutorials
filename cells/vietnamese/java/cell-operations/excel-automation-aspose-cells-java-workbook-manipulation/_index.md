@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Sẵn sàng nâng cao kỹ năng tự động hóa Excel của bạn lên một 
    - Có, sử dụng `FindOptions` được cấu hình để xem các giá trị ban đầu cho phép bạn thực hiện các tìm kiếm như vậy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

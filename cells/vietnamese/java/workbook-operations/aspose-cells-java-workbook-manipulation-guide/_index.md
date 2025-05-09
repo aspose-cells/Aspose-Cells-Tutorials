@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Với hướng dẫn này, bạn sẽ thành thạo trong việc quản lý các
 ## Điều kiện tiên quyết
 
 Để thực hiện theo hướng dẫn này, hãy đảm bảo rằng bạn có những điều sau:
-- **Thư viện bắt buộc:** Thư viện Aspose.Cells cho Java phiên bản 25.3 trở lên.
+- **Thư viện cần thiết:** Thư viện Aspose.Cells cho Java phiên bản 25.3 trở lên.
 - **Môi trường phát triển:** Đã cài đặt Java Development Kit (JDK) và IDE phù hợp như IntelliJ IDEA hoặc Eclipse.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với các thao tác trên tệp Excel.
 
@@ -200,6 +202,9 @@ Thử nghiệm các tính năng bổ sung của Aspose.Cells để xây dựng c
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

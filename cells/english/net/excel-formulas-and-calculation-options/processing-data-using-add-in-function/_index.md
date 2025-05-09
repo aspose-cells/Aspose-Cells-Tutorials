@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/processing-data-using-add-in-fu
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Processing Data Using Add-In Function in Excel
@@ -117,6 +119,7 @@ You can purchase Aspose.Cells directly from the website [here](https://purchase.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

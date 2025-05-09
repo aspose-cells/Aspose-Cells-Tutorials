@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,7 +203,7 @@ Excel 파일 버전을 검색하는 몇 가지 실용적인 응용 프로그램�
 ## 성능 고려 사항
 
 Java에서 Aspose.Cells를 사용하는 동안 성능을 최적화하려면:
-- **자원 관리:** 적절한 폐기를 보장하세요 `Workbook` 리소스를 해제하기 위한 객체입니다.
+- **자원 관리:** 적절한 폐기를 보장하세요 `Workbook` 객체를 해제하여 리소스를 확보합니다.
 - **메모리 사용량:** 특히 대용량 Excel 파일을 처리할 때 메모리 사용량을 모니터링하고 관리합니다.
 - **일괄 처리:** 대량의 문서를 다루는 경우 파일을 일괄적으로 처리합니다.
 
@@ -225,6 +227,9 @@ Java에서 Aspose.Cells를 사용하는 동안 성능을 최적화하려면:
    - VBA 프로젝트나 매크로 처리 등 버전 간 파일 형식 사양의 차이점을 알고 있어야 합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

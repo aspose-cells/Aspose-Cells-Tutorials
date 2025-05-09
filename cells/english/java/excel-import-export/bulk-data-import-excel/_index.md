@@ -8,7 +8,9 @@ url: /java/excel-import-export/bulk-data-import-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bulk Data Import Excel
@@ -99,9 +101,11 @@ Absolutely! Aspose.Cells for Java supports both importing and exporting data to 
 Yes, please review the licensing information on the Aspose website for details on licensing and pricing.
 
 Feel free to explore further and adapt the code examples to meet your specific requirements. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

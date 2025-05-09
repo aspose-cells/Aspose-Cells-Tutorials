@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Opanowanie Aspose.Cells dla Java: Zaawansowane techniki zarządzania hiperlinkami w programie Excel
 
-W dzisiejszym świecie opartym na danych zarządzanie plikami Excela i ich przetwarzanie jest niezbędne. Dla analityków, deweloperów lub profesjonalistów biznesowych obsługa skoroszytów wypełnionych hiperłączami może być częstym wyzwaniem. Ten samouczek przeprowadzi Cię przez proces używania Aspose.Cells for Java do ładowania skoroszytu Excela i efektywnego przetwarzania jego hiperłączy. Do końca tego artykułu opanujesz korzystanie z Aspose.Cells do tych zadań.
+W dzisiejszym świecie opartym na danych zarządzanie plikami Excela i przetwarzanie ich jest niezbędne. Dla analityków, deweloperów lub profesjonalistów biznesowych obsługa skoroszytów wypełnionych hiperłączami może być częstym wyzwaniem. Ten samouczek przeprowadzi Cię przez proces używania Aspose.Cells for Java do ładowania skoroszytu Excela i efektywnego przetwarzania jego hiperłączy. Do końca tego artykułu opanujesz korzystanie z Aspose.Cells do tych zadań.
 
 ## Czego się nauczysz:
 - Konfigurowanie środowiska z Aspose.Cells dla Java
@@ -110,7 +112,7 @@ Po załadowaniu skoroszytu możesz uzyskać dostęp do konkretnych arkuszy i two
 ##### Wdrażanie krok po kroku
 
 1. **Uzyskaj dostęp do arkusza kalkulacyjnego**
-   Pobierz arkusz według indeksu lub nazwy.
+   Pobierz arkusz kalkulacyjny według indeksu lub nazwy.
    
 2. **Utwórz zakres**
    Zdefiniuj zakres za pomocą odwołań do komórek, aby hermetyzować blok komórek.
@@ -215,6 +217,9 @@ A1: Aspose.Cells for Java obsługuje Java 8 i nowsze. Upewnij się, że Twoje ś
 A2: Tak, skupiając się na określonych zakresach lub arkuszach kalkulacyjnych, możesz zoptymalizować wydajność nawet w przypadku większych plików.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

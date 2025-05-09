@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Формулы анализа данных Excel
@@ -92,7 +94,7 @@ pivotTable.calculateData();
 
 ## Заключение
 
-В этой статье мы изучили анализ данных в Excel с использованием Aspose.Cells для Java. Мы начали с представления библиотеки и настройки среды Java. Затем мы рассмотрели базовые формулы Excel, такие как СУММ и СРЗНАЧ для анализа данных. Наконец, мы коснулись продвинутых методов, таких как сводные таблицы.
+В этой статье мы изучили анализ данных в Excel с использованием Aspose.Cells для Java. Мы начали с представления библиотеки и настройки среды Java. Затем мы рассмотрели основные формулы Excel, такие как СУММ и СРЗНАЧ для анализа данных. Наконец, мы коснулись продвинутых методов, таких как сводные таблицы.
 
 ## Часто задаваемые вопросы
 
@@ -119,6 +121,7 @@ Aspose.Cells для Java с легкостью обрабатывает боль
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

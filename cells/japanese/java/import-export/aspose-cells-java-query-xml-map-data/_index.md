@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ ExcelでXMLマップデータをクエリするためのAspose.Cellsライブラ
 このチュートリアルに従うことで、Excelファイル内のXMLマップデータをクエリする際にAspose.Cells for Javaのパワーを活用できるようになります。コーディングを楽しんでください！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

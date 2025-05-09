@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@
 - สภาพแวดล้อมการพัฒนาของคุณควรได้รับการกำหนดค่าให้รันแอปพลิเคชัน Java (ติดตั้ง JDK)
 - IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans จะช่วยในการเขียนโค้ดและแก้ไขข้อบกพร่อง
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ความคุ้นเคยกับการจัดการเส้นทางไฟล์ในแอปพลิเคชัน Java
 
@@ -171,7 +173,7 @@ book.save(outDir + "/FAWorksheetColumns_out.pdf", saveOptions);
 ## ส่วนคำถามที่พบบ่อย
 
 1. **เวอร์ชัน Java ขั้นต่ำที่จำเป็นสำหรับ Aspose.Cells คืออะไร** 
-   คุณต้องมีอย่างน้อย Java 8 จึงจะทำงานกับ Aspose.Cells สำหรับ Java ได้
+   คุณต้องมี Java 8 อย่างน้อยจึงจะทำงานกับ Aspose.Cells สำหรับ Java ได้
 
 2. **ฉันจะจัดการไฟล์ขนาดใหญ่โดยไม่ประสบปัญหาหน่วยความจำได้อย่างไร**
    เพิ่มประสิทธิภาพการตั้งค่า JVM และพิจารณาแบ่งงานออกหากจำเป็น
@@ -194,6 +196,9 @@ book.save(outDir + "/FAWorksheetColumns_out.pdf", saveOptions);
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

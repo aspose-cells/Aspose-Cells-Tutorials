@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ workbook.save(dataDir + "sampleFilterDataWhileLoadingWorkbook_out.pdf", SaveForm
 4. **如何有效率地處理大型 Excel 文件？**
    使用過濾器僅載入工作簿的必要部分。
 5. **這種方法可以用於 Web 應用程式嗎？**
-   絕對地！它非常適合在網頁呈現之前選擇性地載入資料。
+   絕對地！它非常適合在網頁呈現之前有選擇地載入資料。
 
 ## 資源
 - [Aspose.Cells文檔](https://reference.aspose.com/cells/java/)
@@ -153,6 +155,9 @@ workbook.save(dataDir + "sampleFilterDataWhileLoadingWorkbook_out.pdf", SaveForm
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

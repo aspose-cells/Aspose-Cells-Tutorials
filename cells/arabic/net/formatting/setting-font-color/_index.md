@@ -1,55 +1,60 @@
 ---
-title: حدد لون الخط في خلاياه Excel باستخدام Aspose.Cells ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية تعيين لون الخط في خلية Excel باستخدام Aspose.Cells ل .NET. إنشاء دفتر عمل، وتعديل أنماط الخلية، والإنشاء من الملف بشكل برنامج.
-keywords: [Aspose.Cells for .NET, Set Font Color in Excel, Change Font Color, Excel Cell Formatting, .NET Excel Library, Modify Excel Styles, C# Excel Formatting]
-url: /ar/net/formatting/setting-font-color/
+"description": "تعرّف على كيفية ضبط لون الخط في خلية Excel باستخدام Aspose.Cells لـ .NET. أنشئ مصنفًا، وعدّل أنماط الخلايا، واحفظ الملف برمجيًا."
+"title": "تعيين لون الخط في خلايا Excel باستخدام Aspose.Cells لـ .NET"
+"url": "/ar/net/formatting/setting-font-color/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## حدد لون الخط في خلاياه Excel باستخدام Aspose.Cells
+## تعيين لون الخط في خلايا Excel باستخدام Aspose.Cells
   
-تظهر هذه الدروسية كيفية تعيين لون الخط في خلية إكسيل باستخدام Aspose.Cells ل .NET. سوف تتعلم كيفية إنشاء دفتر عمل إكسيل، وإضافة ورقة عمل، وتعديل قيمة وخيارات الخلية، وتطبيق لون الخط المخصص. عن طريق اتباع هذه الخطوات، يمكنك التحكم برنامجيا بتصميم الخلية في ملفات إكسيل باستخدام C#. هذا مفيد بشكل خاص لتوليد التقارير، وتسليط الضوء على البيانات المهمة، وتعزيز قراءة ورقة الهاتف.  
+يوضح هذا البرنامج التعليمي كيفية ضبط لون الخط في خلية Excel باستخدام Aspose.Cells لـ .NET. ستتعلم كيفية إنشاء مصنف Excel، وإضافة ورقة عمل، وتعديل قيمة الخلية ونمطها، وتطبيق لون خط مخصص. باتباع هذه الخطوات، يمكنك التحكم برمجيًا في تنسيق الخلايا في ملفات Excel باستخدام C#. يُعد هذا مفيدًا بشكل خاص لإنشاء التقارير، وإبراز البيانات المهمة، وتحسين سهولة قراءة جداول البيانات.  
  
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-للاستخدام Aspose.Cells ل .NET، اتبع هذه الخطوات:  
+لاستخدام Aspose.Cells لـ .NET، اتبع الخطوات التالية:  
 
-1. قم بتثبيتها عبر مدير الحزمات NuGet:  
-   * افتح استوديو "بيزيوال".  
-   * إذهب إلى أدوات > مدير حزم NuGet > إدارة حزم NuGet للحصول على الحل.  
-   * ابحث عن Aspose.Cells واكتتاب النسخة الأخيرة  
+1. التثبيت عبر مدير حزمة NuGet:  
+   - افتح Visual Studio.  
+   - انتقل إلى الأدوات > مدير حزم NuGet > إدارة حزم NuGet للحل.  
+   - ابحث عن Aspose.Cells وقم بتثبيت الإصدار الأحدث.  
 
-2. إضافة عبر جهاز إدارة الحزم:  
-   * افتح كنزول مدير الحزم في Visual Studio.  
-   * أبدأ بالقيام بأمر التالي:  
+2. التثبيت عبر وحدة تحكم إدارة الحزم:  
+   - افتح وحدة تحكم إدارة الحزم في Visual Studio.  
+   - قم بتشغيل الأمر التالي:  
      ```powershell
      Install-Package Aspose.Cells
      ```
 
 3. التنزيل من موقع Aspose:  
-   * زيارة[Aspose.Cells ل .NET تنزيل](https://releases.aspose.com/cells/net/). . .  
-   * قم بتنزيل وتثبيت أحدث DLLs يدوياً.  
+   - يزور [تنزيل Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/).  
+   - قم بتنزيل أحدث ملفات DLL وتثبيتها يدويًا.  
 
-4. إضافة إشارة إلى Aspose.Cells في مشروعك:  
-   * في متصفح الحلول، انقر على المرجحات.  
-   * انقر فوق إضافة الإشارة والتحفيز من أجل ملف Aspose.Cells.dll.  
-   * انقر على موافقة لإضافةها إلى مشروعك. 
+4. أضف مرجعًا إلى Aspose.Cells في مشروعك:  
+   - في مستكشف الحلول، انقر بزر الماوس الأيمن فوق المراجع.  
+   - انقر فوق إضافة مرجع واستعرض الملف Aspose.Cells.dll.  
+   - انقر فوق موافق لإضافته إلى مشروعك. 
    
-## انظر أيضاً  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Laad alleen de benodigde werkbladen of gebruik streaming API's voor het staps
 A:** Zorg ervoor dat de juiste indices en posities zijn ingesteld om rekenfouten te voorkomen. Test uw configuraties altijd met voorbeeldgegevens voordat u ze toepast op productiewerkmappen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

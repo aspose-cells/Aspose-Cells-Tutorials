@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Sie haben nun gelernt, wie Sie mit Aspose.Cells für Java eine Arbeitsmappe mit 
 Erkunden Sie diese Ressourcen für zusätzliche Unterstützung und Informationen zur effektiven Verwendung von Aspose.Cells in Ihren Java-Projekten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

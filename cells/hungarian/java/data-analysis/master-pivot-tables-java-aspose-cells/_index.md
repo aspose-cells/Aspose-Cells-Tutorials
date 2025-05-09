@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Most már elsajátítottad a pivot táblák beállításának és kezelésének 
 Ha követi ezt az átfogó útmutatót, jó úton haladhat afelé, hogy kihasználja az Aspose.Cells for Java hatékony funkcióit adatvezérelt projektjeiben. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

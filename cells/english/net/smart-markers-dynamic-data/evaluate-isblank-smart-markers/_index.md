@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/evaluate-isblank-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Evaluate IsBlank with Smart Markers in Aspose.Cells
@@ -116,9 +118,11 @@ If the dataset is empty, the smart markers will not populate with any data, and 
 While there’s a free trial available, continued usage will require a purchased license. More details can be found [here](https://purchase.aspose.com/buy).
 ### Where can I get support for Aspose.Cells?
 You can find support in the [Aspose forum](https://forum.aspose.com/c/cells/9) where the community and tech support are active.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

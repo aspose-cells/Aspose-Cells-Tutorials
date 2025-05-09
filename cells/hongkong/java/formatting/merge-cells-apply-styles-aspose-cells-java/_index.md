@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Cells cells = worksheet.getCells();
 cells.merge(5, 2, 2, 3);
 ```
 
-### 設定單元格值和样式
+### 設定單元格值和樣式
 
 #### 概述
 自訂儲存格樣式可增強可讀性和視覺吸引力。讓我們用字體樣式和背景顏色來設定一個值。
@@ -192,6 +194,9 @@ wbk.save(outDir + "mergingcells_out.ods");
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

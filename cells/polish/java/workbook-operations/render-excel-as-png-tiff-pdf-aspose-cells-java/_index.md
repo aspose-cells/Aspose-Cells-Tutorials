@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ W tej sekcji pokażemy, jak renderować pliki Excela do formatów PNG, TIFF i PD
 3. **Udostępnianie dokumentów:** Eksportuj szablony umów w formacie Excel do pliku PDF, zachowując spójny styl czcionek.
 
 ## Rozważania dotyczące wydajności
-- **Optymalizacja jakości obrazu:** Dostosuj ustawienia DPI w `ImageOrPrintOptions` aby zachować równowagę między jakością i rozmiarem pliku.
+- **Optymalizacja jakości obrazu:** Dostosuj ustawienia DPI w `ImageOrPrintOptions` aby zrównoważyć jakość i rozmiar pliku.
 - **Zarządzanie pamięcią:** Stosuj wydajne struktury danych i szybko pozbywaj się niewykorzystanych zasobów, aby skutecznie zarządzać pamięcią.
 - **Przetwarzanie wsadowe:** W przypadku dużych zbiorów danych należy rozważyć przetwarzanie plików w partiach, aby uniknąć przeciążenia pamięci.
 
@@ -185,6 +187,9 @@ Nauczyłeś się już, jak konwertować pliki Excel do formatów PNG, TIFF i PDF
 Dzięki temu przewodnikowi jesteś teraz wyposażony w narzędzia do konwersji plików Excel do formatów PNG, TIFF i PDF przy użyciu Aspose.Cells for Java. Zwiększ możliwości udostępniania danych dzięki tym wszechstronnym technikom konwersji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

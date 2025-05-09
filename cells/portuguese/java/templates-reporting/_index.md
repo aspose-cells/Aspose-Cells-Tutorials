@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Aprenda a criar soluções de relatórios poderosas com nossos tutoriais de modelos Aspose.Cells para Java. Estes guias passo a passo demonstram como criar e usar modelos do Excel, implementar vinculação de dados, gerar relatórios dinâmicos e executar operações de mala direta programaticamente. Cada tutorial inclui exemplos detalhados de código Java para cenários comuns de relatórios, ajudando você a criar sistemas flexíveis de geração de documentos que produzem relatórios do Excel consistentes e com aparência profissional a partir dos dados do seu aplicativo.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar modelos e operações de relatórios
 - Implementação passo a passo com exemplos de código completos
@@ -54,6 +56,9 @@ Aprenda a automatizar a geração dinâmica de relatórios do Excel com o Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

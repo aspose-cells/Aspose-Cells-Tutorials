@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -228,6 +230,9 @@ Hướng dẫn này cung cấp hướng dẫn chi tiết để tạo biểu đ�
 - Chia sẻ những phát hiện hoặc câu hỏi của bạn trên diễn đàn dành cho nhà phát triển để tương tác với cộng đồng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

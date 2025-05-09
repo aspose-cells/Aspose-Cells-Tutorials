@@ -1,14 +1,16 @@
 ---
-title: Excel'de Font Alt Çizgisi Kullanımı
-linktitle: Excel'de Font Alt Çizgisi Kullanımı
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Adım adım kılavuzumuzla Excel hücrelerindeki metinlerin altını kolayca çizmek için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin.
-weight: 14
-url: /tr/net/working-with-fonts-in-excel/using-font-underline-type/
+"description": "Adım adım kılavuzumuzla Excel hücrelerindeki metinlerin altını kolayca çizmek için Aspose.Cells for .NET'i nasıl kullanacağınızı öğrenin."
+"linktitle": "Excel'de Font Alt Çizgisi Kullanımı"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Font Alt Çizgisi Kullanımı"
+"url": "/tr/net/working-with-fonts-in-excel/using-font-underline-type/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Font Alt Çizgisi Kullanımı
@@ -20,9 +22,9 @@ Kod örneklerimize dalmadan önce, geliştirme ortamınızın kullanıma hazır 
 ### C# Temel Bilgisi
 C# programlama konusunda temel bir anlayışa sahip olmalısınız. Nesne yönelimli prensiplere aşinalık da kavramları daha iyi kavramanıza yardımcı olacaktır.
 ### Visual Studio'yu yükledim
- Kodunuzu etkili bir şekilde çalıştırmak ve test etmek için Visual Studio'nun yüklü olması önemlidir. Bunu şuradan indirebilirsiniz:[Microsoft web sitesi](https://visualstudio.microsoft.com/).
+Kodunuzu etkili bir şekilde çalıştırmak ve test etmek için Visual Studio'nun yüklü olması önemlidir. Bunu şuradan indirebilirsiniz: [Microsoft web sitesi](https://visualstudio.microsoft.com/).
 ### .NET için Aspose.Cells
- Aspose.Cells for .NET kütüphanesini yüklediğinizden emin olun. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/cells/net/) veya Visual Studio'daki NuGet Paket Yöneticisini kullanın.
+Aspose.Cells for .NET kütüphanesini yüklediğinizden emin olun. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/cells/net/) veya Visual Studio'daki NuGet Paket Yöneticisini kullanın.
 ### .NET Çerçevesi
 Projenizde uygun .NET framework'ünün kurulu olduğundan emin olun. Aspose.Cells çeşitli sürümleri destekler; uyumluluk için belgelerini kontrol edin.
 Bu ön koşullar sağlandığında, altı çizili metin içeren ilk Excel belgenizi oluşturmaya hazırsınız!
@@ -45,7 +47,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Bu kod parçacığı belirtilen dizinin var olup olmadığını kontrol eder. Yoksa, sizin için oluşturur. Değiştir`"Your Document Directory"` İstediğiniz yol ile.
+Bu kod parçacığı belirtilen dizinin var olup olmadığını kontrol eder. Yoksa, sizin için oluşturur. Değiştir `"Your Document Directory"` İstediğiniz yol ile.
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 Sonra, esasen Excel dosyanız olan bir çalışma kitabının yeni bir örneğini oluşturmak isteyeceksiniz. İşte nasıl:
 ```csharp
@@ -59,7 +61,7 @@ Bu satır yeni bir çalışma kitabı başlatır. Bunu, başyapıtınızı oluş
 // Excel nesnesine yeni bir çalışma sayfası ekleme
 int i = workbook.Worksheets.Add();
 ```
- Bu, çalışma kitabınıza yeni bir çalışma sayfası ekler ve yeni eklenen sayfanın dizinini değişkende depolar`i`.
+Bu, çalışma kitabınıza yeni bir çalışma sayfası ekler ve yeni eklenen sayfanın dizinini değişkende depolar `i`.
 ## Adım 4: Yeni Çalışma Sayfasına Başvurun
 Şimdi, az önce eklediğiniz çalışma sayfasına bir referans almanız gerekiyor. Bu, onu düzenlemenize olanak tanır:
 ```csharp
@@ -73,7 +75,7 @@ Bu adımla kodunuzu doğrudan yeni çalışma sayfasına yönlendiriyor ve içer
 // Çalışma sayfasından "A1" hücresine erişim
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
-Burada A1 pozisyonundaki hücreyi tutup içine biraz metin ekleyelim.
+Burada A1 pozisyonundaki hücreyi alıp içine biraz metin ekleyelim.
 ## Adım 6: Hücreye Değer Ekleyin
 Hadi o hücreye biraz içerik koyalım:
 ```csharp
@@ -122,9 +124,11 @@ Evet! Aspose, değerlendirme amaçlı ücretsiz deneme ve geçici lisans sunuyor
 Aspose.Cells XLS, XLSX, CSV ve daha birçok formatı destekler.
 ### Aspose.Cells için yardım veya desteği nerede bulabilirim?
 Aspose web sitesinde topluluk desteğine ve forumlara erişebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ Igen, de vannak használati korlátozások. Fontolja meg egy ideiglenes vagy ál
 **4. A Java mely verziói támogatják az Aspose.Cells függvényt?**
 Az Aspose.Cells for Java támogatja a JDK 8-as és újabb verzióit. Győződjön meg róla, hogy a környezete naprakész a kompatibilitási problémák elkerülése érdekében.
 
-**5. Hogyan háríthatom el a hibát, ha a munkafüzet mentése nem sikerül?**
+**5. Hogyan háríthatom el a hibát, ha a munkafüzet mentése nem történik meg megfelelően?**
 Ellenőrizze, hogy rendelkezik-e írási jogosultságokkal a kimeneti könyvtárban, ellenőrizze a fájlelérési utak pontosságát, és győződjön meg arról, hogy a munkafüzetnek nincsenek megnyitott példányai a lemezen.
 
 ## Erőforrás
@@ -188,6 +190,9 @@ Ellenőrizze, hogy rendelkezik-e írási jogosultságokkal a kimeneti könyvtár
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

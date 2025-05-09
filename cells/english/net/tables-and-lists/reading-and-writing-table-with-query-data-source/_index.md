@@ -8,7 +8,9 @@ url: /net/tables-and-lists/reading-and-writing-table-with-query-data-source/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read and Write Table with Query Data Source
@@ -99,6 +101,7 @@ For any questions or issues, you can visit the Aspose support forum [here](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

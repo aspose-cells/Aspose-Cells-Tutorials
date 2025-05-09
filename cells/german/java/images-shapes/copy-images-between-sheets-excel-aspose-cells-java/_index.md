@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ Um Ihr Verständnis zu vertiefen, erkunden Sie weitere Funktionen von Aspose.Cel
 Durch die Erkundung dieser Ressourcen können Sie tiefer in Aspose.Cells für Java eintauchen und Ihre Excel-Automatisierungsfunktionen verbessern. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

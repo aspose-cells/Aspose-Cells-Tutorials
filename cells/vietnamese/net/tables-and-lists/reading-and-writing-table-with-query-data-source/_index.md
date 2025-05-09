@@ -1,14 +1,16 @@
 ---
-title: Đọc và ghi bảng với nguồn dữ liệu truy vấn
-linktitle: Đọc và ghi bảng với nguồn dữ liệu truy vấn
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Aspose.Cells cho .NET. Học cách đọc và viết bảng với nguồn dữ liệu truy vấn trong hướng dẫn từng bước chi tiết này.
-weight: 15
-url: /vi/net/tables-and-lists/reading-and-writing-table-with-query-data-source/
+"description": "Mở khóa sức mạnh của Aspose.Cells cho .NET. Học cách đọc và viết bảng với nguồn dữ liệu truy vấn trong hướng dẫn từng bước chi tiết này."
+"linktitle": "Đọc và ghi bảng với nguồn dữ liệu truy vấn"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đọc và ghi bảng với nguồn dữ liệu truy vấn"
+"url": "/vi/net/tables-and-lists/reading-and-writing-table-with-query-data-source/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc và ghi bảng với nguồn dữ liệu truy vấn
@@ -20,7 +22,7 @@ Trước khi bắt đầu hành trình xử lý dữ liệu này, hãy đảm b�
 1. Kiến thức cơ bản về .NET  
    Bạn nên thoải mái với môi trường .NET. Nếu bạn mới bắt đầu, đừng lo lắng! Một chút kiến thức cơ bản là tất cả những gì bạn cần để nắm bắt các khái niệm.
 2. Aspose.Cells cho .NET  
-    Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+   Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Studio trực quan  
    Thiết lập Visual Studio sẽ hữu ích cho việc viết và kiểm tra mã của bạn vì nó tích hợp hoàn hảo với các dự án .NET.
 4. Một tệp Excel mẫu  
@@ -48,7 +50,7 @@ Tiếp theo, hãy tải bảng tính Excel mà bạn sẽ làm việc.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleTableWithQueryTable.xls");
 ```
- Dòng này tạo ra một trường hợp của`Workbook`lớp, về cơ bản là tệp Excel của bạn ở dạng mã! Thay thế`"SampleTableWithQueryTable.xls"` với tên tệp thực tế. Đảm bảo tên tệp là chính xác và tệp tồn tại trong thư mục đã chỉ định.
+Dòng này tạo ra một trường hợp của `Workbook` lớp, về cơ bản là tệp Excel của bạn ở dạng mã! Thay thế `"SampleTableWithQueryTable.xls"` với tên tệp thực tế. Đảm bảo tên tệp là chính xác và tệp tồn tại trong thư mục đã chỉ định.
 ## Bước 3: Truy cập vào Bảng tính
 Sau khi bảng tính được tải, bạn cần truy cập vào bảng tính cụ thể mà bạn muốn thao tác.
 ```csharp
@@ -60,7 +62,7 @@ Bây giờ bạn đã có bảng tính, bạn sẽ muốn lấy bảng chứa d�
 ```csharp
 ListObject table = worksheet.ListObjects[0];
 ```
- Các`ListObjects` bộ sưu tập giữ tất cả các bảng trong một bảng tính và bằng cách chỉ định`[0]`, bạn đang chọn bảng đầu tiên. Nếu bảng tính của bạn có nhiều bảng, hãy trỏ đến chỉ mục chính xác.
+Các `ListObjects` bộ sưu tập giữ tất cả các bảng trong một bảng tính và bằng cách chỉ định `[0]`, bạn đang chọn bảng đầu tiên. Nếu bảng tính của bạn có nhiều bảng, hãy trỏ đến chỉ mục chính xác.
 ## Bước 5: Kiểm tra loại nguồn dữ liệu
 Trước khi thực hiện bất kỳ sửa đổi nào, bạn nên kiểm tra xem bảng đang sử dụng loại nguồn dữ liệu nào.
 ```csharp
@@ -90,14 +92,16 @@ Aspose.Cells là một thư viện .NET mạnh mẽ được thiết kế để 
 ### Tôi có thể sử dụng Aspose.Cells để xử lý các định dạng tệp khác không?  
 Trong khi Aspose.Cells chuyên về các tệp Excel, Aspose còn cung cấp nhiều thư viện khác cho các định dạng khác nhau (ví dụ: PDF, Word).
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?  
- Có giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) và bạn cũng có thể dùng thử miễn phí thông qua[dùng thử miễn phí](https://releases.aspose.com/).
+Có giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/)và bạn cũng có thể dùng thử miễn phí thông qua [dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?  
- Bạn có thể tìm thấy tài liệu đầy đủ[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu đầy đủ [đây](https://reference.aspose.com/cells/net/).
 ### Tôi có thể tìm kiếm sự hỗ trợ cho Aspose.Cells bằng cách nào?  
- Nếu có bất kỳ câu hỏi hoặc vấn đề nào, bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+Nếu có bất kỳ câu hỏi hoặc vấn đề nào, bạn có thể truy cập diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

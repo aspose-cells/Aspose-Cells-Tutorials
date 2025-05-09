@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ workbook.save(dataDir + "ASubscript_out.xls");
 Πειραματιστείτε με το Aspose.Cells για Java για να ξεκλειδώσετε ισχυρές δυνατότητες αυτοματοποίησης του Excel και μη διστάσετε να εξερευνήσετε την ολοκληρωμένη τεκμηρίωσή του για περισσότερες πληροφορίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

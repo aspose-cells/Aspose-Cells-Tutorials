@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 ## Bevezetés
 Szeretnéd javítani Excel-fájljaid vizuális megjelenését Java segítségével? Akár fejlesztő, akár rendszergazda vagy, a stílusok programozott létrehozása és testreszabása gyökeresen megváltoztathatja a játékszabályokat. Ez az oktatóanyag végigvezet egy stílusobjektum létrehozásán az Aspose.Cells for Java CellsFactory osztályának használatával – ez egy hatékony könyvtár, amely leegyszerűsíti az Excel-fájlokkal való munkát.
 
-Ebben az átfogó útmutatóban a környezet beállítását, a stílusok hatékony megvalósítását, a valós alkalmazások felfedezését és a teljesítmény optimalizálását fogjuk ismertetni. Megtanulod, hogyan:
+Ebben az átfogó útmutatóban a környezet beállítását, a stílusok hatékony megvalósítását, a valós alkalmazások felfedezését és a teljesítmény optimalizálását tárgyaljuk. Megtanulod, hogyan:
 - Egyéni stílusok létrehozása az Aspose.Cells for Java használatával
 - Alkalmazd ezeket a stílusokat az Excel-dokumentumok olvashatóságának javításához
 - Integrálja az Aspose.Cells-t más rendszerekkel az átfogó adatkezelés érdekében
@@ -133,6 +135,9 @@ A következő lépések közé tartozik az Aspose.Cells egyéb funkcióinak felf
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

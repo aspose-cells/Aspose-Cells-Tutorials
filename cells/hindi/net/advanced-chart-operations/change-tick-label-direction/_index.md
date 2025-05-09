@@ -1,14 +1,16 @@
 ---
-title: टिक लेबल की दिशा बदलें
-linktitle: टिक लेबल की दिशा बदलें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells के साथ Excel चार्ट में टिक लेबल की दिशा को तेज़ी से बदलें। निर्बाध कार्यान्वयन के लिए इस गाइड का पालन करें।
-weight: 12
-url: /hi/net/advanced-chart-operations/change-tick-label-direction/
+"description": ".NET के लिए Aspose.Cells के साथ Excel चार्ट में टिक लेबल की दिशा को तेज़ी से बदलें। निर्बाध कार्यान्वयन के लिए इस गाइड का पालन करें।"
+"linktitle": "टिक लेबल की दिशा बदलें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "टिक लेबल की दिशा बदलें"
+"url": "/hi/net/advanced-chart-operations/change-tick-label-direction/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # टिक लेबल की दिशा बदलें
@@ -19,7 +21,7 @@ url: /hi/net/advanced-chart-operations/change-tick-label-direction/
 
 ## आवश्यक शर्तें
 
-इससे पहले कि हम बारीकियों में उतरें, आइए सुनिश्चित करें कि आपके पास Aspose.Cells का अधिकतम लाभ उठाने के लिए सब कुछ सेट है। यहाँ आपको क्या चाहिए:
+इससे पहले कि हम बारीकियों में उतरें, आइए सुनिश्चित करें कि आपके पास Aspose.Cells का अधिकतम लाभ उठाने के लिए सब कुछ सेट है। आपको ये चीज़ें चाहिए:
 
 ### .NET फ्रेमवर्क
 
@@ -27,7 +29,7 @@ url: /hi/net/advanced-chart-operations/change-tick-label-direction/
 
 ### .NET के लिए Aspose.Cells
 
-इसके बाद, आपको Aspose.Cells लाइब्रेरी की आवश्यकता होगी। आप इसे आसानी से यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/)यह एक सरल इंस्टॉलेशन है, और आप बस कुछ ही क्लिक के साथ इसे चलाना शुरू कर देंगे!
+इसके बाद, आपको Aspose.Cells लाइब्रेरी की आवश्यकता होगी। आप इसे आसानी से यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/)यह एक सरल इंस्टॉलेशन है, और आप बस कुछ ही क्लिक के साथ इसे चलाना शुरू कर देंगे!
 
 ### C# की बुनियादी समझ
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- आपको प्रतिस्थापित करने की आवश्यकता है`"Your Document Directory"` और`"Your Output Directory"` आपके सिस्टम पर वास्तविक पथों के साथ. 
+आपको प्रतिस्थापित करने की आवश्यकता है `"Your Document Directory"` और `"Your Output Directory"` आपके सिस्टम पर वास्तविक पथों के साथ. 
 
 ## चरण 2: कार्यपुस्तिका लोड करें
 
@@ -136,19 +138,21 @@ Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 हां, आप Aspose.Cells द्वारा समर्थित किसी भी चार्ट पर समान विधियां लागू कर सकते हैं।
 
 ### Aspose.Cells किस फ़ाइल स्वरूपों का समर्थन करता है?  
-Aspose.Cells XLSX, XLS, CSV, आदि जैसे विभिन्न प्रारूपों का समर्थन करता है!
+Aspose.Cells XLSX, XLS, CSV, और अधिक जैसे विभिन्न प्रारूपों का समर्थन करता है!
 
 ### क्या इसका कोई परीक्षण संस्करण उपलब्ध है?  
- बिलकुल! आप निशुल्क परीक्षण पा सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप निशुल्क परीक्षण पा सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### यदि मुझे Aspose.Cells का उपयोग करते समय कोई समस्या आती है तो क्या होगा?  
- कृपया बेझिझक मदद लें[एस्पोज फोरम](https://forum.aspose.com/c/cells/9)समुदाय और सहायता कर्मचारी काफी उत्तरदायी हैं!
+कृपया बेझिझक मदद लें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9); समुदाय और सहायता कर्मचारी काफी उत्तरदायी हैं!
 
 ### क्या मुझे अस्थायी लाइसेंस मिल सकता है?  
- हां, आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+हां, आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

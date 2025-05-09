@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Excel 파일에서 특정 수식을 자동으로 감지하고 싶으신가요? �
 
 ## 필수 조건
 
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 - **Java용 Aspose.Cells 라이브러리** 설치됨(버전 25.3 이상).
 - IntelliJ IDEA나 Eclipse와 같은 IDE를 컴퓨터에 설치합니다.
 - Java 프로그래밍과 Maven/Gradle 빌드 시스템에 대한 기본 지식.
@@ -178,6 +180,9 @@ System.out.println("Name of the cell containing formula: " + cell.getName());
 - [Aspose.Cells 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

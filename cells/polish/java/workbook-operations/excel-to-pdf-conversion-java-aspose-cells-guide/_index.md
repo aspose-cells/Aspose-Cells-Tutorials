@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ A5: Sprawdź ścieżki plików, upewnij się, że masz odpowiednie uprawnienia i
 Teraz, gdy dysponujesz już odpowiednimi narzędziami i wiedzą, możesz zacząć efektywnie konwertować pliki Excela do formatu PDF za pomocą Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

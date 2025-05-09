@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ A5: Besuchen Sie die [Aspose Temporäre Lizenzseite](https://purchase.aspose.com
 Mit diesem umfassenden Leitfaden sind Sie bestens gerüstet, um Aspose.Cells für Java effektiv in Ihren Projekten zu implementieren. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

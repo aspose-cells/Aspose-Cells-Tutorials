@@ -8,7 +8,9 @@ url: /net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-name-csharp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Excel Worksheet By Name C# Tutorial
@@ -119,6 +121,7 @@ You can check out the comprehensive [documentation](https://reference.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

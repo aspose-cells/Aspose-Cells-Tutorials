@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "使用 Aspose.Cells for Java 掌握 Excel 儲存格中的文字換行。了解如何設定、實現文字換行樣式以及最佳化儲存格呈現。"
-"title": "如何使用 Aspose.Cells for Java 在 Excel 儲存格中換行文字&#58;完整指南"
+"title": "如何使用 Aspose.Cells for Java 在 Excel 儲存格中換行完整指南"
 "url": "/zh-hant/java/formatting/master-text-wrapping-excel-cells-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ document.save("WrapTextinCell_out.xls");
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

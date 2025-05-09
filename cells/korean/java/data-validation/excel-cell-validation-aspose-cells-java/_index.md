@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Aspose.Cells Java를 활용한 Excel 셀 유효성 검사 마스터하기
 
 ## 소개
-Excel 스프레드시트 작업 시 데이터 무결성을 유지하는 것은 매우 중요합니다. 셀 유효성 검사 규칙을 효과적으로 구현하면 이러한 무결성을 유지할 수 있습니다. 이 포괄적인 튜토리얼에서는 **자바용 Aspose.Cells** Excel 통합 문서를 로드하고 특정 셀에 유효성 검사를 적용하는 방법. 이 가이드는 Aspose.Cells의 강력한 기능을 활용하여 데이터 제약 조건을 원활하게 적용하는 방법을 안내합니다.
+Excel 스프레드시트 작업 시 데이터 무결성을 유지하는 것은 매우 중요합니다. 셀 유효성 검사 규칙을 효과적으로 구현하면 이러한 무결성을 유지할 수 있습니다. 이 포괄적인 튜토리얼에서는 다음을 사용하는 방법을 알아봅니다. **자바용 Aspose.Cells** Excel 통합 문서를 로드하고 특정 셀에 유효성 검사를 적용하는 방법. 이 가이드는 Aspose.Cells의 강력한 기능을 활용하여 데이터 제약 조건을 원활하게 적용하는 방법을 안내합니다.
 
 ### 배울 내용:
 - Aspose.Cells를 사용하여 Excel 통합 문서를 로드합니다.
@@ -48,7 +50,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### 환경 설정
-Java SE 개발 키트(JDK)와 IntelliJ IDEA 또는 Eclipse와 같은 IDE로 개발 환경이 설정되어 있는지 확인하세요. 또한, Aspose.Cells의 잠재력을 최대한 활용하려면 라이선스 구매를 고려해 보세요. 무료 체험판, 임시 라이선스 또는 구매 옵션이 있습니다.
+Java SE 개발 키트(JDK)와 IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하여 개발 환경을 설정하세요. 또한, Aspose.Cells의 잠재력을 최대한 활용하려면 라이선스 구매를 고려해 보세요. 무료 체험판, 임시 라이선스 또는 구매 옵션이 있습니다.
 
 ## Java용 Aspose.Cells 설정
 ### 설치 정보
@@ -211,6 +213,9 @@ public class ValidateCellD1 {
 - 병목 현상을 파악하고 이에 따라 최적화하기 위해 애플리케이션 프로파일을 작성하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

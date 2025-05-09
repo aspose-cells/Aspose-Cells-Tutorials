@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Sind Sie bereit, diese Lösungen in Ihren Projekten zu implementieren? Probieren
 Tauchen Sie tiefer in Aspose.Cells ein und beginnen Sie noch heute mit dem Exportieren Ihrer Excel-Tabellen als Bilder!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

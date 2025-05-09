@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -251,6 +253,9 @@ Om je vaardigheden verder te verbeteren, kun je de extra functionaliteiten van A
 Nu je alle tools en kennis tot je beschikking hebt, kun je beginnen met experimenteren met Aspose.Cells voor Java om je Excel-gerelateerde taken in Java-applicaties te stroomlijnen. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

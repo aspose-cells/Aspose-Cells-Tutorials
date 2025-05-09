@@ -1,54 +1,59 @@
 ---
-title: Excel'de .NET için Aspose.Cells kullanarak yazı tipi adını ayarlamak
-weight: 7700
-limit: 
-description: Excel dosyasında yazı tipi adını .NET için Aspose.Cells kullanarak nasıl ayarlayacağınızı öğrenin. Bir çalışma defteri oluşturun, bir çalışma sayfası ekleyin ve hücre metnini zorla biçimlendirin.
-keywords: [Aspose.Cells for .NET, set font name in Excel, format Excel text, C# Excel font, change font in Excel, Excel cell formatting, .NET Excel library]
-url: /tr/net/formatting/setting-font-name/
+"description": "Aspose.Cells for .NET kullanarak bir Excel dosyasında yazı tipi adının nasıl ayarlanacağını öğrenin. Bir çalışma kitabı oluşturun, bir çalışma sayfası ekleyin ve hücre metnini zahmetsizce biçimlendirin."
+"title": "Aspose.Cells for .NET kullanarak Excel'de Yazı Tipi Adını Ayarlama"
+"url": "/tr/net/formatting/setting-font-name/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'de Aspose.Cells kullanarak yazı tipi adını ayarlamak
+# Aspose.Cells kullanarak Excel'de Yazı Tipi Adını Ayarlama
 
-Excel dosyasında yazı tipi adını ayarlamak profesyonel ve tutarlı bir belge biçimini korumak için gereklidir. .NET için Aspose.Cells ile, Excel çalışma defteri kolayca oluşturabilir, bir çalışma sayfası ekleyebilir ve hücre biçimlerini değiştirebilirsiniz. Bu öğretim kitabı size belirli bir hücre için özel bir yazı tipi adı ayarlama sürecini takip eder.  
+Excel dosyasında yazı tipi adını ayarlamak, profesyonel ve tutarlı bir belge biçimini korumak için önemlidir. Aspose.Cells for .NET ile kolayca bir Excel çalışma kitabı oluşturabilir, bir çalışma sayfası ekleyebilir ve hücre stillerini değiştirebilirsiniz. Bu eğitim, C# dilinde belirli bir hücre için özel bir yazı tipi adı ayarlama sürecinde size yol gösterir. Adım adım kılavuzu izleyin ve Excel belge biçimlendirmenizi kolaylıkla geliştirin.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
+## Kurulum Talimatları  
 
-.NET için Aspose.Cells kullanmak için, bu adımları izleyin:  
+Aspose.Cells for .NET'i kullanmak için şu adımları izleyin:  
 
-1. NuGet üzerinden yükle:  
-   Visual Studio' da NuGet Paket Yöneticisi açıver ve çalıştır:  
+1. NuGet üzerinden kurulum:  
+   Visual Studio'da NuGet Paket Yöneticisini açın ve şunu çalıştırın:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Aspose Web Sitesi ' nden indir:  
-   * En son versiyonu alın .[Aspose.Cells indirimi](https://releases.aspose.com/cells/net/)\- Evet .  
+2. Aspose Web Sitesinden İndirin:  
+   - En son sürümü şu adresten edinin: [Aspose.Cells İndirmeleri](https://releases.aspose.com/cells/net/).  
 
-3. Aspose.Cellse İpucu Ekle:  
-   * .NET projenize `Aspose.Cells.`\- Evet .  
+3. Aspose.Cells'e Referans Ekle:  
+   - .NET projenize bir referans ekleyin `Aspose.Cells.dll`.  
 
-4. İzn Verme Lisansı (Önemli):  
-   * Lisanslı bir sürümü kullanıyorsanız, lisans dosyasını aşağıdaki şekilde ayarlayın:  
+4. Lisans Uygula (İsteğe bağlı):  
+   - Lisanslı bir sürüm kullanıyorsanız lisans dosyasını aşağıdaki şekilde ayarlayın:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Cells.lic");
    ```  
 
-## Ayrıca bakın  
-Lisans almak için, [Satın alma sayfasını hedef edin](https://purchase.aspose.com/buy)\- Evet .  
-Tam belgeler için ziyaret edin [.NET Belgeleme için Aspose.Cells](https://docs.aspose.com/cells/net/)\- Evet .  
-API referansını incelemek için, kontrol edin [.NET API Referansı için Aspose.Cells](https://reference.aspose.com/cells/net/)\- Evet . 
+## Ayrıca Bakınız  
+Lisans satın almak için şuraya gidin: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).  
+Tam dokümantasyon için şu adresi ziyaret edin: [Aspose.Cells for .NET Belgeleri](https://docs.aspose.com/cells/net/).  
+Tam API referansını keşfetmek için şuraya göz atın: [Aspose.Cells for .NET API Başvurusu](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

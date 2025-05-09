@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Volgende stappen kunnen zijn het onderzoeken van andere waarschuwingstypen of he
 - **Aankoop en licentie:** Haal uw licentie of probeer de gratis proefversie via [Aspose Aankoop](https://purchase.aspose.com/buy) of [Aspose gratis proefperiode](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

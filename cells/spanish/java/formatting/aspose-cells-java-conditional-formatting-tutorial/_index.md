@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Sí, puedes hacer referencia a celdas en diferentes hojas usando referencias est
 Especifique el formato de guardado deseado (p. ej., XLS o XLSX) para mantener la compatibilidad con varias versiones de Excel. Aspose.Cells admite varios formatos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

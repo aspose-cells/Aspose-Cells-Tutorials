@@ -8,7 +8,9 @@ url: /net/data-loading-and-parsing/opening-sxc-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening SXC Files
@@ -97,6 +99,7 @@ For further details and advanced functionalities, refer to the [documentation](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

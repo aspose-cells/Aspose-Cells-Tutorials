@@ -1,46 +1,48 @@
 ---
-title: Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan
-linktitle: Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengubah perataan sel Excel tanpa kehilangan format menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang komprehensif untuk kontrol yang lancar.
-weight: 10
-url: /id/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/
+"description": "Pelajari cara mengubah perataan sel Excel tanpa kehilangan format menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang komprehensif untuk kontrol yang lancar."
+"linktitle": "Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan"
+"url": "/id/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengubah Perataan Sel Excel Tanpa Kehilangan Pemformatan
 
-## Perkenalan
+## Bevezetés
 
 Mengelola file Excel terkadang terasa seperti menavigasi labirin, terutama saat harus mempertahankan format sambil melakukan penyesuaian penting seperti mengubah perataan sel. Jika Anda pernah mencoba mengubah perataan sel di Excel dan mendapati bahwa pemformatan terganggu, Anda tidak sendirian! Dalam tutorial ini, kita akan mempelajari cara mengubah perataan sel Excel tanpa kehilangan format apa pun, menggunakan Aspose.Cells untuk .NET. Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat kode, penting untuk memastikan bahwa Anda telah menyiapkan semuanya dengan benar. Berikut ini yang Anda perlukan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio (versi apa pun yang mendukung .NET) di komputer Anda.
-2. Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells dari[Situs Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells .NET-hez: Töltse le és telepítse az Aspose.Cells könyvtárat innen: [Aspose weboldala](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Sedikit pengetahuan dengan pemrograman C# akan berguna karena kita akan bekerja dalam konteks C#.
-4.  Contoh File Excel: Untuk demonstrasi, siapkan contoh file Excel (misalnya,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) yang berisi beberapa format sel awal.
+4. Contoh File Excel: Untuk demonstrasi, siapkan contoh file Excel (misalnya, `sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) yang berisi beberapa format sel awal.
 
-## Paket Impor
+## Csomagok importálása
 
 Langkah pertama dalam menggunakan Aspose.Cells untuk .NET adalah menyertakan namespace yang diperlukan dalam proyek Anda. Berikut caranya:
 
-### Buka Proyek Anda
+### Nyisd meg a projektedet
 
 Buka Visual Studio dan buat proyek C# baru (aplikasi konsol akan berfungsi dengan baik).
 
-### Tambahkan Referensi ke Aspose.Cells
+### Hivatkozás hozzáadása az Aspose.Cells fájlhoz
 
-- Klik kanan pada proyek Anda di Solution Explorer.
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
 - Pilih "Kelola Paket NuGet."
--  Pencarian untuk`Aspose.Cells` dan menginstalnya.
+- Keresés `Aspose.Cells` és telepítse.
 
-### Impor Namespace yang Diperlukan
+### Importálja a szükséges névtereket
 
 Di bagian atas file C# Anda, tambahkan perintah penggunaan berikut:
 
@@ -54,21 +56,21 @@ Ini akan memungkinkan Anda untuk menggunakan kelas dan metode yang disediakan ol
 
 Sekarang setelah prasyarat kita diurutkan dan paket-paket diimpor, mari kita uraikan proses mengubah perataan sel langkah demi langkah.
 
-## Langkah 1: Siapkan Direktori Sumber dan Output Anda
+## 1. lépés: A forrás- és kimeneti könyvtárak beállítása
 
 Untuk memulai, Anda perlu menentukan di mana file Excel Anda disimpan dan di mana Anda ingin menyimpannya setelah diproses.
 
 ```csharp
-// Direktori sumber
-string sourceDir = "Your Document Directory\\"; // Ganti dengan direktori Anda yang sebenarnya
+// Forráskönyvtár
+string sourceDir = "Your Document Directory\\"; // Cserélje le a tényleges könyvtárára
 
-// Direktori keluaran
-string outputDir = "Your Document Directory\\"; // Ganti dengan direktori Anda yang sebenarnya
+// Kimeneti könyvtár
+string outputDir = "Your Document Directory\\"; // Cserélje le a tényleges könyvtárára
 ```
 
- Kode ini mengatur jalur untuk file input dan output. Pastikan untuk mengganti`"Your Document Directory\\"` dengan jalur sebenarnya di komputer Anda.
+Kode ini mengatur jalur untuk file input dan output. Pastikan untuk mengganti `"Your Document Directory\\"` dengan jalur sebenarnya di komputer Anda.
 
-## Langkah 2: Muat File Excel Sampel
+## 2. lépés: Töltse be a minta Excel-fájlt
 
 Berikutnya, Anda ingin memuat contoh file Excel ke dalam aplikasi.
 
@@ -95,7 +97,7 @@ Contoh ini mengakses lembar kerja pertama. Jika data Anda ada di lembar lain, se
 Tentukan sel mana yang ingin Anda ubah dengan membuat rentang. Pilihan ini akan berfokus pada rentang tertentu, seperti “B2:D7”.
 
 ```csharp
-//Membuat rentang sel.
+// Membuat rentang sel.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -128,25 +130,25 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Dengan mengatur`Alignments` properti StyleFlag untuk`true`, Anda memberi tahu Aspose.Cells untuk menerapkan gaya perataan dengan benar.
+Dengan mengatur `Alignments` properti StyleFlag untuk `true`, Anda memberi tahu Aspose.Cells untuk menerapkan gaya perataan dengan benar.
 
 ## Langkah 7: Terapkan Gaya ke Rentang Sel
 
 Setelah gaya dan bendera Anda siap, saatnya menerapkan gaya tersebut ke rentang sel:
 
 ```csharp
-//Terapkan gaya ke rentang sel.
+// Terapkan gaya ke rentang sel.
 rng.ApplyStyle(st, flag);
 ```
 
 Langkah ini secara efektif mengubah perataan semua sel dalam rentang tersebut sambil mempertahankan format apa pun yang ada.
 
-## Langkah 8: Simpan Buku Kerja
+## 8. lépés: A munkafüzet mentése
 
 Terakhir, Anda ingin menyimpan perubahan ke berkas baru sehingga dokumen asli tetap utuh.
 
 ```csharp
-// Simpan buku kerja dalam format XLSX.
+// Mentse el a munkafüzetet XLSX formátumban.
 wb.Save(outputDir + "outputChangeCellsAlignmentAndKeepExistingFormatting.xlsx", SaveFormat.Xlsx);
 ```
 
@@ -162,29 +164,31 @@ Console.WriteLine("ChangeCellsAlignmentAndKeepExistingFormatting executed succes
 
 Pesan ini muncul di konsol jika operasi Anda selesai tanpa masalah.
 
-## Kesimpulan
+## Következtetés
 
 Mengubah perataan sel di Excel sambil tetap mempertahankan format yang ada adalah proses yang mudah dengan Aspose.Cells untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat menyederhanakan manipulasi Excel dalam aplikasi Anda dan menghindari kesulitan karena kehilangan format yang penting. Baik Anda membuat laporan atau mengelola umpan data, menguasai keterampilan ini dapat mengubah segalanya!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah Aspose.Cells menangani file Excel berukuran besar?
+### Képes az Aspose.Cells nagy Excel fájlokat kezelni?
 Tentu saja! Perangkat lunak ini dioptimalkan untuk kinerja dan dapat memproses file besar secara efisien.
 
-### Apakah ada versi uji coba yang tersedia untuk Aspose.Cells?
- Ya! Anda dapat mengunduh uji coba gratis dari situs tersebut[Uji coba gratis](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Cells-hez?
+Ya! Anda dapat mengunduh uji coba gratis dari situs tersebut [Uji coba gratis](https://releases.aspose.com/).
 
-### Bahasa pemrograman apa yang didukung Aspose.Cells?
-Aspose.Cells terutama mendukung .NET, Java, dan beberapa bahasa lain melalui pustaka masing-masing.
+### Milyen programozási nyelveket támogat az Aspose.Cells?
+Aspose.Cells terutama mendukung .NET, Java, dan beberapa bahasa lain melalui pustakanya masing-masing.
 
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Untuk pertanyaan atau masalah terkait dukungan, kunjungi[forum dukungan](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Untuk pertanyaan atau masalah terkait dukungan, kunjungi [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ### Bisakah saya menerapkan beberapa gaya sekaligus?
 Ya, Anda dapat membuat beberapa objek Gaya dan menerapkannya secara berurutan atau bersyarat sesuai kebutuhan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

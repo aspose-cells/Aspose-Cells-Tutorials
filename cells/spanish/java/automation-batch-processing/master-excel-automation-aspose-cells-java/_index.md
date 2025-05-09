@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@ Asegúrese de que su entorno de desarrollo admita Maven o Gradle para la gestió
 - Familiaridad con el manejo de archivos y directorios en Java.
 
 ## Configuración de Aspose.Cells para Java
-Para empezar a usar Aspose.Cells, deberá incluirlo como dependencia en su proyecto. Así es como puede hacerlo:
+Para empezar a usar Aspose.Cells, deberá incluirlo como dependencia en su proyecto. A continuación, le explicamos cómo hacerlo:
 
 **Experto:**
 ```xml
@@ -202,6 +204,9 @@ Esta guía le ha guiado a través del uso de Aspose.Cells para Java para crear, 
    - Aspose.Cells se puede integrar fácilmente en Spring Boot, Spring MVC o cualquier otro marco basado en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

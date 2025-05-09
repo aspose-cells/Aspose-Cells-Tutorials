@@ -1,46 +1,51 @@
 ---
-title: Управление Z-порядком форм в Excel с помощью Aspose.Cells
-weight: 7700
-limit: 
-description: Узнайте, как загрузить рабочую книгу Excel, изменить формы Z-показаний и сохранить изменения с помощью Aspose.Cells для .NET.
-keywords: [Aspose.Cells, C#, .NET, Excel manipulation, Z-order, shapes, workbook, developers, code example]
-url: /ru/net/drawing-objects/send-shape-front-or-back-in-worksheet/
+"description": "Узнайте, как загрузить книгу Excel, изменить Z-порядок фигур и сохранить изменения с помощью Aspose.Cells для .NET."
+"title": "Управление Z-порядком фигур в Excel с помощью Aspose.Cells"
+"url": "/ru/net/drawing-objects/send-shape-front-or-back-in-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Управление Z-порядком форм в Excel с помощью Aspose.Cells
+# Управление Z-порядком фигур в Excel с помощью Aspose.Cells
  
-Этот пример демонстрирует, как использовать Aspose.Cells для .NET для загрузки рабочей книги Excel, манипулирования позициями форм Z-поряда в рабочем листе и сохранения обновленной рабочей книги. Следуя этому руководству, разработчики могут получить представление о доступе к формам, регулировании их визуального порядка складирования и обеспечении правильного представления элементов в файлах Excel.
+В этом примере показано, как использовать Aspose.Cells для .NET для загрузки книги Excel, управления позициями Z-порядка фигур на листе и сохранения обновленной книги. Следуя этому руководству, разработчики могут получить представление о доступе к фигурам, настройке их визуального порядка наложения и обеспечении правильного представления элементов в файлах Excel. Приведенные фрагменты кода предлагают четкий пошаговый подход к эффективному выполнению этих операций.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/send-shape-front-or-back-in-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке  
-1. Убедитесь, что у вас установлена среда развития .NET, например, Visual Studio.  
+## Инструкция по установке  
+1. Убедитесь, что у вас настроена среда разработки .NET, например Visual Studio.  
 2. Установите Aspose.Cells для .NET через NuGet Package Manager. Используйте следующую команду в консоли Package Manager:  
    ```
    Install-Package Aspose.Cells
    ```
-3. Добавьте ссылку на пространство имен Aspose.Cells в своем проекте:  
+3. Добавьте ссылку на пространство имен Aspose.Cells в свой проект:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Drawing; 
    ```
-4. Подготовить исходный файл Excel и обновить `источникDir`и `выпускDir`пути в приведенных примерах кода.  
-5. Копируйте и вставьте предоставленный снайп кода в свой проект для манипулирования Z-порядком форм в файле Excel.  
-6. Создайте и запустите приложение, чтобы увидеть изменения, отраженные в выходном файле Excel.
+4. Подготовьте исходный файл Excel и обновите его. `sourceDir` и `outputDir` пути в предоставленных примерах кода.  
+5. Скопируйте и вставьте предоставленный фрагмент кода в свой проект, чтобы управлять Z-порядком фигур в файле Excel.  
+6. Создайте и запустите свое приложение, чтобы увидеть изменения, отраженные в выходном файле Excel.
 
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

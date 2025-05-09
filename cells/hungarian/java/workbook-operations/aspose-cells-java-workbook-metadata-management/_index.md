@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@ Mielőtt folytatná, győződjön meg arról, hogy rendelkezik a következőkkel
 
 ## Az Aspose.Cells beállítása Java-hoz
 
-Az Aspose.Cells Java projektbe való integrálásához használj Mavent vagy Gradle-t. Az alábbiakban a build konfigurációba való beillesztés lépései láthatók:
+Az Aspose.Cells Java projektbe való integrálásához használj Mavent vagy Gradle-t. Az alábbiakban a build konfigurációjába való beillesztés lépései láthatók:
 
 ### Szakértő
 Adja hozzá a következő függőséget a `pom.xml` fájl:
@@ -99,10 +101,10 @@ Szükség szerint adjon hozzá vagy frissítsen egyéni tulajdonságokat.
 type meta.getCustomDocumentProperties().add("test", "test");
 ```
 
-##### 4. lépés: A módosított metaadatok mentése
+##### 4. lépés: Mentse el a módosított metaadatokat
 Mentse el a módosításokat egy új fájlba, megőrizve az eredetit.
 ```java
-// A módosított metaadatok mentése új fájlba
+// Mentse vissza a módosított metaadatokat egy új fájlba
 type meta.save(dataDir + "UsingWorkbookMetadata_out.xlsx");
 ```
 
@@ -179,6 +181,9 @@ A5: Látogatás [Aspose támogatói fóruma](https://forum.aspose.com/c/cells/9)
 - **Támogatás:** Hozzáférés a közösségi és szakmai támogatáshoz a [Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

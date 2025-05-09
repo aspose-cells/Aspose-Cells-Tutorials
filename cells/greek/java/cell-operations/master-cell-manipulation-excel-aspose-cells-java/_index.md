@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ A5: Απολύτως. Προσφέρει ισχυρά χαρακτηριστικ
 Κατακτώντας αυτά τα εργαλεία και τις τεχνικές, μπορείτε να βελτιώσετε τα έργα σας που σχετίζονται με το Excel με Java, αξιοποιώντας στο έπακρο τη δύναμη του Aspose.Cells. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cómo copiar varias columnas en una hoja de cálculo de Excel con Aspose.Cells Java
 ## Introducción
-Reorganice datos eficientemente en Excel con Aspose.Cells para Java. Esta guía completa le muestra cómo automatizar la copia de varias columnas en una hoja de cálculo, ahorrando tiempo y reduciendo errores.
+Reorganice datos eficientemente en Excel con Aspose.Cells para Java. Esta guía completa le muestra cómo automatizar la copia de varias columnas dentro de una hoja de cálculo, ahorrando tiempo y reduciendo errores.
 **Lo que aprenderás:**
 - Configurar y utilizar Aspose.Cells para Java.
 - Cargue un libro de Excel y acceda a hojas de trabajo específicas.
@@ -126,6 +128,9 @@ Esta guía explica cómo copiar varias columnas dentro de una hoja de cálculo c
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

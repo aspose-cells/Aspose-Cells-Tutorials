@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 本教程是使用 Aspose.Cells for Java 将 Excel 文件转换为 HTML 的综合指南，确保您的 Web 演示文稿的清晰度和功能性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

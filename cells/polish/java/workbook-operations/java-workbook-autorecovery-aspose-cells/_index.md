@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ W tej sekcji pokazano, jak utworzyć nową instancję obiektu Aspose.Cells Workb
 ### Odczyt właściwości AutoRecover
 
 **Przegląd**
-Zapoznanie się z bieżącym stanem właściwości AutoRecover pozwala zrozumieć, w jaki sposób program Excel obsługuje niezapisaną pracę w przypadku awarii.
+Zapoznanie się z bieżącym stanem właściwości Autoodzyskiwania pozwala zrozumieć, w jaki sposób program Excel obsługuje niezapisaną pracę w przypadku awarii.
 
 **Etapy wdrażania:**
 1. **Importuj klasę WorkbookSettings:**
@@ -180,6 +182,9 @@ Gotowy przejąć kontrolę nad swoimi plikami Excel? Spróbuj wdrożyć to rozwi
 - **Wsparcie**:Dołącz do dyskusji i poszukaj pomocy w [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

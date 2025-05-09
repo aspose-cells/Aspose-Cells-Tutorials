@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/tile-picture-texture-shape-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tile Picture as Texture in Shape in Excel
@@ -94,6 +96,7 @@ You can buy a license directly from the [Aspose purchase page](https://purchase.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

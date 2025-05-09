@@ -1,14 +1,16 @@
 ---
-title: Grafikte Başlıkları ve Eksenleri Ayarla
-linktitle: Grafikte Başlıkları ve Eksenleri Ayarla
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla, kod örnekleri ve ipuçlarıyla birlikte Aspose.Cells for .NET kullanarak grafiklerde başlıkları ve eksenleri nasıl ayarlayacağınızı öğrenin.
-weight: 15
-url: /tr/net/setting-chart-appearance/set-titles-and-axes-in-chart/
+"description": "Bu adım adım kılavuzla, kod örnekleri ve ipuçlarıyla birlikte Aspose.Cells for .NET kullanarak grafiklerde başlıkları ve eksenleri nasıl ayarlayacağınızı öğrenin."
+"linktitle": "Grafikte Başlıkları ve Eksenleri Ayarla"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafikte Başlıkları ve Eksenleri Ayarla"
+"url": "/tr/net/setting-chart-appearance/set-titles-and-axes-in-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafikte Başlıkları ve Eksenleri Ayarla
@@ -23,7 +25,7 @@ Adım adım eğitime dalmadan önce, başlamak için ihtiyacınız olan her şey
 
 1. Visual Studio: .NET uygulamaları geliştirmek için sisteminizde Visual Studio'nun yüklü olduğundan emin olun.
 2. .NET Framework: .NET Framework 4.0 veya üzerini kullandığınızdan emin olun.
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin ve kurun. Bunu şu adreste bulabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirin ve kurun. Bunu şu adreste bulabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/cells/net/).
 4. Temel C# Bilgisi: C# programlamaya aşina olmanız, konuyu daha rahat takip etmenize yardımcı olacaktır.
 
 Tüm bunları tamamladıktan sonra, gerekli paketleri içe aktararak ilk Excel grafiğimizi oluşturmaya başlayalım!
@@ -42,7 +44,7 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-Bu ad alanlarını içe aktararak artık Aspose.Cells tarafından sağlanan sınıfları ve metotları Excel dosyaları ve grafikleriyle çalışmak için kullanabiliriz.
+Bu ad alanlarını içe aktararak artık Aspose.Cells tarafından sağlanan sınıfları ve yöntemleri Excel dosyaları ve grafikleriyle çalışmak için kullanabiliriz.
 
 Artık her şeyi ayarladığımıza göre, süreci yönetilebilir adımlara bölelim.
 
@@ -68,7 +70,7 @@ Daha sonra verilerimizi gireceğimiz ve grafiği oluşturacağımız çalışma 
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Dizin kullanılarak`0`, çalışma kitabımızda bulunan ilk çalışma sayfasına erişiyoruz.
+Dizin kullanılarak `0`, çalışma kitabımızda bulunan ilk çalışma sayfasına erişiyoruz.
 
 ## Adım 3: Örnek Veri Ekleme
 
@@ -117,7 +119,7 @@ Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Bu satır, grafiği örnek verilerimizle ilişkilendirir, böylece bilgiyi nereden çekeceğini bilir. Grafiğin doğru bir şekilde işlenmesi için çok önemlidir.
+Bu satır, grafiği örnek verilerimize bağlar, böylece bilgiyi nereden çekeceğini bilir. Grafiğin doğru bir şekilde işlenmesi için çok önemlidir.
 
 ## Adım 7: Grafik Renklerini Özelleştirin
 
@@ -212,16 +214,18 @@ Aspose.Cells, .NET uygulamalarında Excel elektronik tabloları oluşturmanıza 
 Evet! Aspose.Cells sütun, çubuk, çizgi, pasta ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler.
 
 ### Aspose.Cells'in ücretsiz bir versiyonu var mı?
- Evet, Aspose.Cells'i ücretsiz olarak deneyebilirsiniz[deneme bağlantısı](https://releases.aspose.com/).
+Evet, Aspose.Cells'i ücretsiz olarak deneyebilirsiniz [deneme bağlantısı](https://releases.aspose.com/).
 
 ### Aspose.Cells dokümanlarını nerede bulabilirim?
- Kapsamlı dokümanları şu adreste bulabilirsiniz:[Aspose.Cells referans sayfası](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümanları şu adreste bulabilirsiniz: [Aspose.Cells referans sayfası](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Topluluk desteğini şu adresten alabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Topluluk desteğini şu adresten alabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

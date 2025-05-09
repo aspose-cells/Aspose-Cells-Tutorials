@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,7 +175,7 @@ Excel에서 용지 크기를 A4로 설정하는 것은 여러 가지 실용적�
    - Aspose.Cells는 다양한 표준 및 사용자 정의 크기의 용지를 지원합니다.
    
 4. **대용량 파일에서 코드가 효율적으로 실행되도록 하려면 어떻게 해야 하나요?**
-   - 메모리 관리 및 최신 라이브러리 버전으로 업데이트와 같은 성능 최적화 기술을 활용하세요.
+   - 메모리 관리 및 최신 라이브러리 버전으로 업데이트하는 등의 성능 최적화 기술을 활용하세요.
    
 5. **더 많은 도움이 필요할 경우 어디에서 도움을 받을 수 있나요?**
    - 커뮤니티 전문가와 개발자로부터 도움을 받으려면 Aspose 지원 포럼을 방문하세요.
@@ -189,6 +191,9 @@ Excel에서 용지 크기를 A4로 설정하는 것은 여러 가지 실용적�
 지금 Aspose.Cells Java로 여정을 시작하고 Excel 파일 조작의 모든 잠재력을 활용해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

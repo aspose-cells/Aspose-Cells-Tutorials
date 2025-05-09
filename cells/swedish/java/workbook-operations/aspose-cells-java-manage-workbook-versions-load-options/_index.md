@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Nästa steg inkluderar att experimentera med olika konfigurationer eller integre
    - Ja, konfigurera separat `LoadOptions` instanser för varje arbetsbok efter behov.
 3. **Vad ska jag göra om arbetsboken inte kan sparas?**
    - Kontrollera filbehörigheterna i din utdatakatalog och se till att det finns tillräckligt med diskutrymme.
-4. **Hur kan jag utesluta andra element som kommentarer eller kalkylblad vid inläsning?**
+4. **Hur kan jag utesluta andra element som kommentarer eller kalkylblad när jag laddar?**
    - Använd ytterligare filter som `LoadDataFilterOptions.COMMENTS` inom `LoadFilter`.
 5. **Vilka är fördelarna med att använda Aspose.Cells för versionshantering?**
    - Det förenklar spårning och säkerställer kompatibilitet mellan olika miljöer.
@@ -173,6 +175,9 @@ Nästa steg inkluderar att experimentera med olika konfigurationer eller integre
 Utforska dessa resurser för att fördjupa din förståelse och dina förmågor med Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

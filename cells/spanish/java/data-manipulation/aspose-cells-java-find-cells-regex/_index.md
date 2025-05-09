@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Antes de comenzar, asegúrese de tener:
 
 ### Configuración de Aspose.Cells para Java
 
-#### Instalación mediante administradores de dependencia
+#### Instalación mediante administradores de dependencias
 
 Agregue la biblioteca Aspose.Cells a su proyecto usando Maven o Gradle:
 
@@ -102,7 +104,7 @@ Utilice el `find` método con su patrón de expresión regular:
 ```java
 // Encontrar celdas que coincidan con la expresión regular especificada
 Cells cells = worksheet.getCells();
-cells.find("abc[\\s]*$", null, opt); // Busca "abc" seguido de cualquier carácter de espacio en blanco al final del contenido de una celda
+cells.find("abc[\\s]*$", null, opt); // Busca 'abc' seguido de cualquier carácter de espacio en blanco al final del contenido de una celda
 ```
 
 **Explicación:**
@@ -159,6 +161,9 @@ Para mayor exploración:
 - **Apoyo:** Únase al foro de la comunidad Aspose en [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

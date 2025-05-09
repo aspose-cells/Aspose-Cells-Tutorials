@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 इस ट्यूटोरियल के दौरान, आपने सीखा कि Aspose.Cells for Java के साथ Excel दस्तावेज़ कैसे बनाएँ और उन्हें स्टाइल करें। इन तकनीकों में महारत हासिल करके, आप जटिल स्प्रेडशीट कार्यों को कुशलतापूर्वक संभालने के लिए अपने एप्लिकेशन की क्षमता को महत्वपूर्ण रूप से बढ़ा सकते हैं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

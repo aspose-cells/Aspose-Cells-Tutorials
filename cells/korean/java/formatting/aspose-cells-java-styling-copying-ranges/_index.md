@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ workbook.save(outDir + "/CopyRangeDataOnly_out.xlsx", SaveFormat.XLSX);
 스타일링 및 범위 복사에 대한 실제 사용 사례를 살펴보세요.
 1. **재무 보고**: 스타일을 사용하여 재무 데이터의 가독성을 높입니다.
 2. **데이터 분석**: 비교를 위해 분석 결과를 복사합니다.
-3. **재고 관리**: 재고 수준을 빠르게 식별하기 위한 스타일 시트.
+3. **재고 관리**: 재고 수준을 빠르게 식별하기 위한 스타일 시트입니다.
 
 ## 성능 고려 사항
 - **메모리 사용 최적화**: 대규모 데이터 세트에는 스트리밍 API를 사용하세요.
@@ -178,6 +180,9 @@ Aspose.Cells Java를 사용하여 범위를 만들고 스타일을 지정하고,
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

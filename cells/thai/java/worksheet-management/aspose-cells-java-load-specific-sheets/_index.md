@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 การจัดการไฟล์ Excel ขนาดใหญ่เป็นเรื่องท้าทาย นักพัฒนามักต้องเข้าถึงเฉพาะเวิร์กชีตเฉพาะภายในเวิร์กบุ๊กเท่านั้น เพื่อหลีกเลี่ยงการประมวลผลข้อมูลที่ไม่เกี่ยวข้องโดยไม่จำเป็น บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้ **Aspose.Cells สำหรับ Java** เพื่อโหลดและจัดการเวิร์กชีตที่เลือกอย่างมีประสิทธิภาพ โดยเพิ่มประสิทธิภาพการทำงานและการใช้ทรัพยากร
 
-เมื่ออ่านบทความนี้จบ คุณจะเรียนรู้:
+เมื่ออ่านบทความนี้จบ คุณจะได้เรียนรู้:
 - วิธีตั้งค่า Aspose.Cells ในสภาพแวดล้อม Java ของคุณ
 - ขั้นตอนในการโหลดแผ่นงานเฉพาะภายในเวิร์กบุ๊ก Excel
 - การประยุกต์ใช้งานจริงและเคล็ดลับการบูรณาการ
@@ -135,7 +137,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx", loadOptions);
 #### คำอธิบายขั้นตอนสำคัญ
 
 - **ตัวเลือกการโหลด**กำหนดวิธีการโหลดไฟล์ Excel ใช้ `LoadFormat.XLSX` สำหรับไฟล์ .xlsx
-- **โหลดแบบกำหนดเอง**: ชั้นย่อยของ `LoadFilter`ซึ่งช่วยให้คุณระบุแผ่นงานที่จำเป็นได้
+- **โหลดแบบกำหนดเอง**:ชั้นย่อยของ `LoadFilter`ซึ่งช่วยให้คุณระบุแผ่นงานที่จำเป็นได้
 
 ##### เคล็ดลับการแก้ไขปัญหา
 
@@ -204,6 +206,9 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx", loadOptions);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

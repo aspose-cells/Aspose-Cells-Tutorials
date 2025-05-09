@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET
-linktitle: Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 16
-url: /vi/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/
+"description": "Tìm hiểu cách chuyển đổi tệp Excel sang bản trình bày PowerPoint (PPTX) theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET"
+"url": "/vi/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi tệp Excel sang PPTX theo chương trình trong .NET
@@ -21,14 +23,14 @@ Trong thế giới phát triển nhanh như ngày nay, việc chia sẻ dữ li�
 
 Trước khi đi sâu vào mã, chúng ta hãy xem qua các điều kiện tiên quyết cần thiết. Bằng cách thiết lập đúng môi trường, bạn sẽ đảm bảo trải nghiệm mã hóa mượt mà.
 
-1. Cài đặt Aspose.Cells cho .NET: Trước tiên, bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet trong Visual Studio hoặc tải xuống các tệp DLL từ[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+1. Cài đặt Aspose.Cells cho .NET: Trước tiên, bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet trong Visual Studio hoặc tải xuống các tệp DLL từ [Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 
 Cài đặt qua NuGet bằng lệnh sau:
 ```bash
 Install-Package Aspose.Cells
 ```
 2. Môi trường phát triển: Đảm bảo bạn có môi trường phát triển .NET, chẳng hạn như Visual Studio, được thiết lập trên hệ thống của bạn. Hướng dẫn này tương thích với cả .NET Framework và .NET Core/5+.
-3.  Giấy phép hợp lệ: Bạn có thể sử dụng Aspose.Cells mà không cần giấy phép cho mục đích thử nghiệm, nhưng nó sẽ hiển thị hình mờ trong đầu ra. Để sử dụng sản xuất, hãy lấy giấy phép từ[Trang mua hàng của Aspose](https://purchase.aspose.com/buy) hoặc sử dụng một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để phát huy hết tiềm năng.
+3. Giấy phép hợp lệ: Bạn có thể sử dụng Aspose.Cells mà không cần giấy phép cho mục đích thử nghiệm, nhưng nó sẽ hiển thị hình mờ trong đầu ra. Để sử dụng sản xuất, hãy lấy giấy phép từ [Trang mua hàng của Aspose](https://purchase.aspose.com/buy) hoặc sử dụng một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để phát huy hết tiềm năng.
 
 ## Nhập không gian tên
 
@@ -42,16 +44,16 @@ Bây giờ bạn đã thiết lập mọi thứ, chúng ta hãy cùng phân tíc
 
 ## Bước 1: Khởi tạo đối tượng Workbook
 
- Trong bước đầu tiên này, chúng ta sẽ khởi tạo một`Workbook` để tải tệp Excel mà bạn muốn chuyển đổi thành bản trình bày PowerPoint.
+Trong bước đầu tiên này, chúng ta sẽ khởi tạo một `Workbook` để tải tệp Excel mà bạn muốn chuyển đổi thành bản trình bày PowerPoint.
 
- Nghĩ về một`Workbook` dưới dạng tệp Excel hoàn chỉnh, bao gồm tất cả các bảng tính, công thức, biểu đồ và dữ liệu. Chúng tôi cần đối tượng này để tương tác với nội dung bên trong tệp Excel của bạn.
+Nghĩ về một `Workbook` dưới dạng tệp Excel hoàn chỉnh, bao gồm tất cả các bảng tính, công thức, biểu đồ và dữ liệu. Chúng tôi cần đối tượng này để tương tác với nội dung bên trong tệp Excel của bạn.
 
 ```csharp
 string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
--  sourceDir: Thay thế`"Your Document Directory"` bằng đường dẫn đến tệp Excel của bạn.
+- sourceDir: Thay thế `"Your Document Directory"` bằng đường dẫn đến tệp Excel của bạn.
 - Sổ làm việc: Dòng này tải tệp Excel của bạn (`Book1.xlsx`) vào bộ nhớ, giúp nó sẵn sàng để chuyển đổi.
 
 ## Bước 2: Chọn thư mục đầu ra
@@ -66,7 +68,7 @@ string outputDir = "Your Document Directory";
 
 ## Bước 3: Chuyển đổi Excel sang PPTX
 
- Đây là phép thuật! Trong bước này, chúng ta sẽ sử dụng`Save` phương pháp chuyển đổi tệp Excel sang định dạng bản trình bày PowerPoint (PPTX). Aspose.Cells xử lý tất cả các công việc nặng nhọc ở hậu trường.
+Đây là phép thuật! Trong bước này, chúng ta sẽ sử dụng `Save` phương pháp chuyển đổi tệp Excel sang định dạng bản trình bày PowerPoint (PPTX). Aspose.Cells xử lý tất cả các công việc nặng nhọc ở hậu trường.
 
 ```csharp
 workbook.Save(outputDir + "Book1.pptx", SaveFormat.Pptx);
@@ -101,13 +103,15 @@ Aspose.Cells sẽ giữ nguyên hầu hết các biểu đồ, bảng và hình 
 Trong khi hướng dẫn này tập trung vào chuyển đổi trực tiếp, Aspose.Cells cho phép tùy chỉnh nâng cao hơn, bao gồm sửa đổi giao diện và bố cục của bản trình bày.
 
 ### Tôi có cần giấy phép để chạy mã này không?
-Bạn có thể chạy mã này mà không cần giấy phép, nhưng đầu ra sẽ bao gồm hình mờ. Để có đầy đủ chức năng, bạn có thể lấy[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua một[giấy phép](https://purchase.aspose.com/buy).
+Bạn có thể chạy mã này mà không cần giấy phép, nhưng đầu ra sẽ bao gồm hình mờ. Để có đầy đủ chức năng, bạn có thể lấy [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua một [giấy phép](https://purchase.aspose.com/buy).
 
 ### Có thể tự động chuyển đổi nhiều tập tin không?
 Có, bạn có thể tự động hóa quy trình này bằng cách lặp qua danh sách các tệp Excel và chuyển đổi chúng sang PPTX bằng các bước tương tự.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

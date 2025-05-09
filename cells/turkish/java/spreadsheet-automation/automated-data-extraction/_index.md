@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Otomatik Veri Çıkarımı
@@ -111,9 +113,11 @@ Java için Aspose.Cells ile veri çıkarmayı otomatikleştirmek, Excel dosyalar
    API belgelerini şu adreste inceleyin: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
 
 Aspose.Cells for Java ile veri çıkarma görevlerinizi bugün otomatikleştirmeye başlayın ve veri alma süreçlerinizi kolaylaştırın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

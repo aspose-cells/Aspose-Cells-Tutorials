@@ -1,14 +1,16 @@
 ---
-title: Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel
-linktitle: Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Sắp xếp dữ liệu Excel dễ dàng bằng Aspose.Cells cho .NET. Tìm hiểu các chiến lược từng bước để quản lý dữ liệu Excel hiệu quả trong hướng dẫn toàn diện này.
-weight: 11
-url: /vi/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-data-in-excel/
+"description": "Sắp xếp dữ liệu Excel dễ dàng bằng Aspose.Cells cho .NET. Tìm hiểu các chiến lược từng bước để quản lý dữ liệu Excel hiệu quả trong hướng dẫn toàn diện này."
+"linktitle": "Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel"
+"url": "/vi/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-data-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định cảnh báo sắp xếp khi sắp xếp dữ liệu trong Excel
@@ -22,9 +24,9 @@ Bạn đã bao giờ thử sắp xếp dữ liệu trong Excel, chỉ để bố
 Trước khi đi sâu vào việc phân loại dữ liệu, bạn cần phải có một số điều kiện tiên quyết sau:
 
 1. Visual Studio: Bạn sẽ cần một IDE hoặc trình soạn thảo mã và Visual Studio là một trong những lựa chọn tốt nhất cho phát triển .NET.
-2.  Thư viện Aspose.Cells: Đảm bảo bạn có thư viện Aspose.Cells. Bạn có thể lấy nó từ[Liên kết tải xuống](https://releases.aspose.com/cells/net/) hoặc bắt đầu với[Dùng thử miễn phí](https://releases.aspose.com/).
+2. Thư viện Aspose.Cells: Đảm bảo bạn có thư viện Aspose.Cells. Bạn có thể lấy nó từ [Liên kết tải xuống](https://releases.aspose.com/cells/net/) hoặc bắt đầu với [Dùng thử miễn phí](https://releases.aspose.com/).
 3. Hiểu biết cơ bản về C#: Một chút quen thuộc với C# sẽ giúp ích rất nhiều. Nếu bạn đã từng làm quen với C# trước đây, bạn đã sẵn sàng rồi!
-4.  Tệp Excel mẫu: Bạn có thể tạo một tệp Excel mẫu có tên`sampleSortAsNumber.xlsx` với dữ liệu trong cột A mà bạn muốn sắp xếp.
+4. Tệp Excel mẫu: Bạn có thể tạo một tệp Excel mẫu có tên `sampleSortAsNumber.xlsx` với dữ liệu trong cột A mà bạn muốn sắp xếp.
 
 Khi bạn đã đáp ứng được những điều kiện tiên quyết này, chúng ta có thể bắt tay ngay vào viết mã!
 
@@ -42,7 +44,7 @@ Bây giờ mọi thứ đã theo thứ tự, chúng ta hãy cùng thực hiện 
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Đầu tiên, bạn cần chỉ định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi`sampleSortAsNumber.xlsx` tập tin sẽ được định vị. Thay thế`"Your Document Directory"`với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn.
+Đầu tiên, bạn cần chỉ định đường dẫn đến thư mục tài liệu của bạn. Đây là nơi `sampleSortAsNumber.xlsx` tập tin sẽ được định vị. Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -50,13 +52,13 @@ string dataDir = "Your Document Directory";
 
 ## Bước 2: Tạo một phiên bản Workbook
 
- Tiếp theo, bạn sẽ tạo một phiên bản của`Workbook`lớp sử dụng đường dẫn bạn vừa xác định. Hãy nghĩ về sổ làm việc như phiên bản kỹ thuật số của một tập tài liệu vật lý cho bảng tính của bạn.
+Tiếp theo, bạn sẽ tạo một phiên bản của `Workbook` lớp sử dụng đường dẫn bạn vừa xác định. Hãy nghĩ về sổ làm việc như phiên bản kỹ thuật số của một tập tài liệu vật lý cho bảng tính của bạn.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sampleSortAsNumber.xlsx");
 ```
 
- Ở đây, chúng tôi đang tải tệp Excel vào`workbook` đối tượng để thao tác.
+Ở đây, chúng tôi đang tải tệp Excel vào `workbook` đối tượng để thao tác.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -80,13 +82,13 @@ Mã này chỉ định phạm vi ô chứa dữ liệu chúng ta muốn sắp x�
 
 ## Bước 5: Tạo đối tượng DataSorter
 
- Trước khi chúng ta sắp xếp, chúng ta cần một`DataSorter` để xử lý quá trình phân loại. Điều này giống như việc thuê một người tổ chức chuyên nghiệp để sắp xếp tập hồ sơ của bạn.
+Trước khi chúng ta sắp xếp, chúng ta cần một `DataSorter` để xử lý quá trình phân loại. Điều này giống như việc thuê một người tổ chức chuyên nghiệp để sắp xếp tập hồ sơ của bạn.
 
 ```csharp
 DataSorter sorter = workbook.DataSorter;
 ```
 
- Với`sorter` Đối tượng đã sẵn sàng, tiếp theo chúng ta có thể thiết lập các tham số sắp xếp.
+Với `sorter` Đối tượng đã sẵn sàng, tiếp theo chúng ta có thể thiết lập các tham số sắp xếp.
 
 ## Bước 6: Cấu hình Sorter
 
@@ -103,7 +105,7 @@ Sau đây là tóm tắt nhanh về những gì đang diễn ra:
 
 ## Bước 7: Chỉ định Sắp xếp theo Số
 
- Để tránh vấn đề phổ biến khi sắp xếp các số được lưu trữ dưới dạng văn bản, chúng ta có thể đặt`SortAsNumber` thuộc tính thành đúng.
+Để tránh vấn đề phổ biến khi sắp xếp các số được lưu trữ dưới dạng văn bản, chúng ta có thể thiết lập `SortAsNumber` thuộc tính thành đúng.
 
 ```csharp
 sorter.SortAsNumber = true;
@@ -121,7 +123,7 @@ sorter.Sort(worksheet.Cells, ca);
 
 Với lệnh đơn giản này, dữ liệu của bạn sẽ tự động được sắp xếp dựa trên các tiêu chí chúng tôi đã đặt. Giống như việc lật qua tập hồ sơ của bạn và sắp xếp mọi thứ một cách hoàn hảo chỉ trong vài giây!
 
-## Bước 9: Lưu sổ làm việc
+## Bước 9: Lưu Workbook
 
 Cuối cùng, bạn cần lưu sổ làm việc đã sắp xếp của mình. Nếu bạn muốn giữ nguyên tệp gốc, hãy đảm bảo lưu nó bằng tên khác.
 
@@ -147,13 +149,15 @@ Có, Excel cung cấp các tùy chọn sắp xếp tích hợp, nhưng sử dụ
 Bạn có thể sắp xếp nhiều loại dữ liệu khác nhau, bao gồm số, ngày tháng và văn bản, bằng nhiều thứ tự sắp xếp khác nhau.
 
 ### Có bản dùng thử miễn phí Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể kiểm tra bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể kiểm tra bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?  
- Bạn có thể nhận được sự hỗ trợ trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Determine If Paper Size Of Worksheet Is Automatic
@@ -121,6 +123,7 @@ You can find comprehensive documentation and tutorials [here](https://reference.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

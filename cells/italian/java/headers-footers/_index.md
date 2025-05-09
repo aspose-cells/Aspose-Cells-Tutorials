@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ Scopri come rimuovere le interruzioni di pagina orizzontali e verticali in Excel
 ### [Copiare le impostazioni di impostazione pagina tra fogli di lavoro in Excel utilizzando Aspose.Cells Java](./copy-page-setup-excel-aspose-cells-java/)
 Scopri come copiare le impostazioni di pagina tra fogli di lavoro utilizzando Aspose.Cells per Java. Semplifica la formattazione dei tuoi documenti Excel con questa guida completa.
 
-### [Crea una cartella di lavoro e imposta un formato carta personalizzato utilizzando Aspose.Cells per Java](./create-workbook-custom-paper-size-aspose-cells-java/)
+### [Crea una cartella di lavoro e imposta un formato di carta personalizzato utilizzando Aspose.Cells per Java](./create-workbook-custom-paper-size-aspose-cells-java/)
 Scopri come automatizzare le attività di Excel con Aspose.Cells in Java, tra cui la creazione di cartelle di lavoro e l'impostazione di formati di carta personalizzati.
 
 ### [Abilita l'anteprima delle interruzioni di pagina in Excel con Aspose.Cells per Java](./enable-page-break-preview-excel-aspose-cells-java/)
@@ -102,6 +104,9 @@ Scopri come impostare e recuperare formati carta come A4, A3, A2 e Letter utiliz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,36 +1,38 @@
 ---
-title: Zkopírujte nastavení stránky z jiného listu
-linktitle: Zkopírujte nastavení stránky z jiného listu
-second_title: Aspose.Cells for .NET API Reference
-description: Naučte se kopírovat nastavení stránky mezi listy pomocí Aspose.Cells for .NET pomocí tohoto podrobného průvodce, který je ideální pro vylepšení vaší správy tabulek.
-weight: 10
-url: /cs/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
+"description": "Naučte se kopírovat nastavení stránky mezi listy pomocí Aspose.Cells pro .NET s tímto podrobným návodem, který je ideální pro vylepšení správy tabulek."
+"linktitle": "Kopírování nastavení stránky z jiného listu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Kopírování nastavení stránky z jiného listu"
+"url": "/cs/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zkopírujte nastavení stránky z jiného listu
+# Kopírování nastavení stránky z jiného listu
 
 ## Zavedení
 
-Ocitli jste se někdy v situaci, kdy potřebujete replikovat nastavení stránky z jednoho listu do druhého? Ať už pracujete s finančními zprávami nebo časovými osami projektů, jednotnost prezentace je klíčová. S Aspose.Cells for .NET můžete snadno kopírovat nastavení stránky mezi listy. Tento průvodce vás provede procesem krok za krokem, takže bude jednoduchý a přímočarý, i když s .NET nebo Aspose.Cells teprve začínáte. Jste připraveni se ponořit? Začněme!
+Ocitli jste se někdy v situaci, kdy potřebujete replikovat nastavení stránky z jednoho listu do druhého? Ať už pracujete s finančními výkazy nebo časovými harmonogramy projektů, jednotnost prezentace je klíčová. S Aspose.Cells pro .NET můžete snadno kopírovat nastavení stránky mezi listy. Tato příručka vás krok za krokem provede celým procesem, takže je jednoduchý a přímočarý, i když s .NET nebo Aspose.Cells teprve začínáte. Jste připraveni se do toho pustit? Pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než se pustíme do kódu, je potřeba mít několik základních položek:
+Než se pustíme do kódu, je třeba mít připraveno několik základních věcí:
 
-1. Vývojové prostředí .NET: Ujistěte se, že máte nastavené prostředí kompatibilní s .NET, jako je Visual Studio nebo jakékoli jiné IDE podle vašeho výběru.
-2.  Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/).
-3. Základní porozumění C#: Znalost základů C# vám určitě pomůže lépe porozumět konceptům.
-4.  Dokumentace Aspose.Cells: Seznamte se s[dokumentace](https://reference.aspose.com/cells/net/) pro pokročilé konfigurace nebo další funkce, které se vám mohou hodit později.
+1. Vývojové prostředí .NET: Ujistěte se, že máte nastavené prostředí kompatibilní s .NET, například Visual Studio nebo jakékoli jiné IDE dle vašeho výběru.
+2. Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete [stáhněte si to zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost C#: Znalost základů C# vám určitě pomůže lépe pochopit dané koncepty.
+4. Dokumentace k Aspose.Cells: Seznamte se s [dokumentace](https://reference.aspose.com/cells/net/) pro jakékoli pokročilé konfigurace nebo další funkce, které by se vám mohly později hodit.
 
-Nyní, když máme naše předpoklady seřazeny, pojďme importovat požadované balíčky!
+Nyní, když máme vyřešené předpoklady, pojďme importovat požadované balíčky!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li ve svém projektu začít používat Aspose.Cells, budete muset do kódu importovat následující balíček:
+Chcete-li začít používat Aspose.Cells ve svém projektu, budete muset do kódu importovat následující balíček:
 
 ```csharp
 using System.IO;
@@ -38,83 +40,83 @@ using Aspose.Cells;
 using System;
 ```
 
-Tento jediný řádek umožňuje přístup ke všem výkonným komponentám knihovny Aspose.Cells.
+Tento jediný řádek vám umožní přístup ke všem výkonným komponentám knihovny Aspose.Cells.
 
-Pojďme si celý proces rozdělit do zvládnutelných kroků, abychom se ujistili, že plně porozumíte každé části. Vytvoříme sešit, přidáme dva listy, upravíme nastavení stránky jednoho a poté tato nastavení zkopírujeme do jiného.
+Rozdělme si celý proces na srozumitelné kroky, abyste každé části plně porozuměli. Vytvoříme sešit, přidáme dva listy, upravíme nastavení stránky jednoho z nich a poté tato nastavení zkopírujeme do druhého.
 
 ## Krok 1: Vytvořte sešit
 
 Vytvořte si pracovní sešit:
- Nejprve musíte vytvořit instanci souboru`Workbook` třída. Toto je v podstatě váš výchozí bod. 
+Nejprve je třeba vytvořit instanci `Workbook` třída. Toto je v podstatě váš výchozí bod. 
 
 ```csharp
 Workbook wb = new Workbook();
 ```
 
-Tento řádek inicializuje sešit, kde budete ukládat své listy.
+Tento řádek inicializuje sešit, do kterého budete ukládat pracovní listy.
 
-## Krok 2: Přidejte pracovní listy
+## Krok 2: Přidání pracovních listů
 
-Přidejte pracovní listy do sešitu:
-Nyní, když máte svůj sešit, je čas přidat nějaké pracovní listy.
+Přidání pracovních listů do sešitu:
+Nyní, když máte sešit, je čas přidat několik pracovních listů.
 
 ```csharp
 wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
 ```
 
-Zde jsme přidali dva listy s názvem "TestSheet1" a "TestSheet2". Je to jako vytvořit dvě různé stránky v sešitu, kde můžete obsah spravovat nezávisle.
+Zde jsme přidali dva pracovní listy s názvem „TestSheet1“ a „TestSheet2“. Je to jako byste v sešitu vytvořili dvě různé stránky, kde můžete obsah spravovat nezávisle na sobě.
 
-## Krok 3: Otevřete sešity
+## Krok 3: Přístup k pracovním listům
 
 Přístup k vašim pracovním listům:
-Dále budete potřebovat přístup k nově vytvořeným listům, abyste mohli provést úpravy.
+Dále budete muset přistupovat k nově vytvořeným pracovním listům, abyste mohli provést úpravy.
 
 ```csharp
 Worksheet TestSheet1 = wb.Worksheets["TestSheet1"];
 Worksheet TestSheet2 = wb.Worksheets["TestSheet2"];
 ```
 
-Nyní máte odkazy na oba listy, takže můžete snadno upravit jejich vlastnosti.
+Nyní máte odkazy na oba pracovní listy, takže můžete snadno upravit jejich vlastnosti.
 
-## Krok 4: Nastavte velikost papíru pro TestSheet1
+## Krok 4: Nastavení velikosti papíru pro TestSheet1
 
 Upravit nastavení stránky:
- Nastavíme velikost papíru "TestSheet1" na`PaperA3ExtraTransverse`.
+Nastavme velikost papíru „TestSheet1“ na `PaperA3ExtraTransverse`.
 
 ```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
 ```
 
-Tento krok je zásadní, pokud je váš dokument určen pro konkrétní rozvržení tisku. Je to jako výběr velikosti plátna pro vaše umělecké dílo.
+Tento krok je klíčový, pokud je váš dokument určen pro konkrétní rozvržení tisku. Je to jako výběr velikosti plátna pro vaši kresbu.
 
 ## Krok 5: Tisk aktuálních velikostí papíru
 
 Zkontrolujte aktuální velikost papíru:
-Nyní se podívejme, jaké jsou aktuální velikosti papíru před operací kopírování.
+Nyní se podívejme, jaké jsou aktuální formáty papíru před kopírováním.
 
 ```csharp
 Console.WriteLine("Before Paper Size: " + TestSheet1.PageSetup.PaperSize);
 Console.WriteLine("Before Paper Size: " + TestSheet2.PageSetup.PaperSize);
 ```
 
-Tím se do konzole vypíše aktuální nastavení stránky pro oba listy. Před provedením změn je vždy dobré ověřit, co máte, že?
+Tím se do konzole zobrazí aktuální nastavení stránky pro oba listy. Vždy je dobré si před provedením změn ověřit, co máte, že?
 
 ## Krok 6: Zkopírujte nastavení stránky z TestSheet1 do TestSheet2
 
-Zkopírujte nastavení stránky:
-Přichází ta vzrušující část! Všechna nastavení nastavení stránky můžete zkopírovat z "TestSheet1" do "TestSheet2".
+Zkopírujte nastavení nastavení stránky:
+A tady přichází ta vzrušující část! Můžete zkopírovat všechna nastavení stránky z „TestSheet1“ do „TestSheet2“.
 
 ```csharp
 TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 ```
 
-Tento řádek kódu v podstatě přebírá veškeré formátování "TestSheet1" a aplikuje jej na "TestSheet2". Je to jako udělat snímek jedné stránky a vložit ji na druhou!
+Tento řádek kódu v podstatě vezme veškeré formátování „TestSheet1“ a použije ho na „TestSheet2“. Je to jako pořídit snímek jedné stránky a vložit ho na jinou!
 
 ## Krok 7: Tisk aktualizovaných velikostí papíru
 
 Znovu zkontrolujte velikosti papíru:
-Nakonec potvrďte, že nastavení bylo úspěšně zkopírováno.
+Nakonec ověřme, že nastavení byla úspěšně zkopírována.
 
 ```csharp
 Console.WriteLine("After Paper Size: " + TestSheet1.PageSetup.PaperSize);
@@ -123,42 +125,44 @@ Console.WriteLine();
 Console.WriteLine("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.\r\n");
 ```
 
-Po operaci kopírování byste měli vidět, že se velikosti stránek pro oba listy shodují. To je vše! Nastavení byla bez problémů přenesena.
+Po kopírování byste měli vidět, že velikosti stránek pro oba listy se shodují. To je vše! Nastavení bylo bez problémů přeneseno.
 
-## Krok 8: Uložte sešit
+## Krok 8: Uložte si sešit
 
 Uložte změny:
-Po vší té dřině si nezapomeňte sešit uložit!
+Nezapomeňte si po vší té tvrdé práci uložit pracovní sešit!
 
 ```csharp
 wb.Save("CopiedPageSetupExample.xlsx");
 ```
 
-Uložení sešitu je nezbytné, abyste zajistili, že všechny vaše změny zůstanou zachovány. Představte si tento krok jako stisknutí tlačítka „uložit“ po dokončení dokumentu – zásadní pro to, abyste neztratili žádný pokrok!
+Uložení sešitu je nezbytné pro zajištění zachování všech provedených změn. Představte si tento krok jako stisknutí tlačítka „Uložit“ po dokončení dokumentu – je to zásadní pro to, abyste neztratili žádný pokrok!
 
 ## Závěr
 
-Pomocí Aspose.Cells pro .NET je správa pracovních listů hračkou. Nastavení stránek můžete snadno kopírovat z jednoho listu do druhého, což vám pomůže udržet konzistenci v dokumentech. Pomocí podrobných kroků uvedených v této příručce můžete s jistotou manipulovat s nastavením stránky sešitu a ušetřit čas při formátování. 
+Použití Aspose.Cells pro .NET usnadňuje správu pracovních listů. Můžete snadno kopírovat nastavení stránek z jednoho listu do druhého, což vám pomůže zachovat konzistenci v rámci dokumentů. Díky podrobným krokům popsaným v této příručce můžete s jistotou manipulovat s nastavením stránek v sešitu a ušetřit čas při formátování. 
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?  
-Aspose.Cells je výkonná knihovna pro práci s tabulkami v aplikacích .NET.
+Aspose.Cells je výkonná knihovna pro práci s tabulkami v .NET aplikacích.
 
 ### Mohu používat Aspose.Cells s jinými programovacími jazyky?  
 Aspose.Cells primárně podporuje jazyky .NET, ale existují i další knihovny Aspose pro různé jazyky.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Cells?  
- Ano, můžete si stáhnout a[zkušební verze zdarma](https://releases.aspose.com/) z Aspose.Cells.
+Ano, můžete si stáhnout [bezplatná zkušební verze](https://releases.aspose.com/) z Aspose.Cells.
 
 ### Jak získám podporu pro Aspose.Cells?  
- K podpoře se můžete dostat přes[Aspose fórum](https://forum.aspose.com/c/cells/9).
+Podporu můžete získat prostřednictvím [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Mohu získat dočasnou licenci pro Aspose.Cells?  
-Absolutně! Můžete požádat a[dočasná licence](https://purchase.aspose.com/temporary-license/) hodnotit produkt.
+Rozhodně! Můžete požádat o [dočasná licence](https://purchase.aspose.com/temporary-license/) k vyhodnocení produktu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

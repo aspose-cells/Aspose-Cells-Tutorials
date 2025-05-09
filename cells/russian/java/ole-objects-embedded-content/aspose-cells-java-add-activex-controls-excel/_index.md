@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ A: Несмотря на оптимизацию производительнос
 - **Скачать**: Получите доступ к последней версии Aspose.Cells Java с сайта [эта страница](https://releases.aspose.com/cells/java/).
 - **Покупка**: Купить лицензию через [Сайт покупки Aspose](https://purchase.aspose.com/buy).
 - **Бесплатная пробная версия и временная лицензия**Начните с бесплатного или временного доступа по предоставленным ссылкам.
-- **Поддерживать**: Присоединяйтесь к обсуждениям или задавайте вопросы на [Форум Aspose](https://forum.aspose.com/c/cells/9).
+- **Поддерживать**Присоединяйтесь к обсуждениям или задавайте вопросы на [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

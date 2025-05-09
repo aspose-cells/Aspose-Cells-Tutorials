@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ import com.aspose.cells.SaveFormat;
 ```
 
 #### Adım 8: Çalışma Kitabını Kaydedin
-Çıktı dizininizi tanımlayın ve formatını kaydedin:
+Çıktı dizininizi tanımlayın ve kaydetme biçimini belirleyin:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // Çıktı dizin yolunu belirtin
 workbook.save(outDir + "InsertingARow_out.xls", SaveFormat.EXCEL_97_TO_2003);
@@ -199,6 +201,9 @@ Tebrikler! Aspose.Cells for Java kullanarak Excel çalışma kitaplarına satır
 Aspose.Cells for Java ile yolculuğunuza bugün başlayın ve Excel verilerini işleme biçiminizi kökten değiştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

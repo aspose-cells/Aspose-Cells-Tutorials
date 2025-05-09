@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### 라이센스 취득 단계
 - **무료 체험**: 평가판을 다운로드하세요 [Aspose의 릴리스 페이지](https://releases.aspose.com/cells/java/).
-- **임시 면허**임시 면허를 취득하세요 [이 링크](https://purchase.aspose.com/temporary-license/) 제한 없이 테스트할 수 있습니다.
+- **임시 면허**: 임시 면허를 취득하세요 [이 링크](https://purchase.aspose.com/temporary-license/) 제한 없이 테스트할 수 있습니다.
 - **구입**: 전체 액세스 및 지원을 위해 라이브러리 구매를 고려하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).
 
 #### 기본 초기화
@@ -157,6 +159,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@ Det är meriterande om du har grundläggande kunskaper i Java-programmering och 
 
 ## Konfigurera Aspose.Cells för Java
 
-För att använda Aspose.Cells för Java i ditt projekt måste du inkludera biblioteket. Här är sätt att göra det med hjälp av populära byggverktyg:
+För att använda Aspose.Cells för Java i ditt projekt måste du inkludera biblioteket. Här är sätt att göra det med populära byggverktyg:
 
 **Maven:**
 
@@ -186,6 +188,9 @@ A: Även om Aspose.Cells är optimerat för effektivitet, överväg att optimera
 Börja implementera den här lösningen idag för att effektivisera din Excel-filhantering med Aspose.Cells för Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

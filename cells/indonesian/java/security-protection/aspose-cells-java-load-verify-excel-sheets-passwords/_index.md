@@ -7,24 +7,26 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Aspose.Cells Java: Memuat dan Memverifikasi Kata Sandi Lembar Excel dengan Aman
 
-## Perkenalan
+## Bevezetés
 Mengelola file Excel yang dilindungi kata sandi secara terprogram dapat menjadi tantangan, terutama saat memverifikasi kata sandi lembar kerja di Java. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java untuk memuat buku kerja Excel dan memverifikasi kata sandi lembar kerja secara efisien.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Muat berkas Excel ke dalam objek Buku Kerja.
 - Akses lembar kerja tertentu dalam buku kerja.
 - Verifikasi apakah lembar kerja dilindungi kata sandi dan periksa kata sandinya.
 
-Ayo mulai!
+Merüljünk el!
 
-## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki:
+## Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi terinstal di sistem Anda.
 - **Lingkungan Pengembangan Terpadu (IDE):** Seperti IntelliJ IDEA atau Eclipse untuk menulis kode Java.
 - **Pemahaman Dasar:** Kemampuan menggunakan konsep pemrograman Java dan alat bantu pembangunan Maven/Gradle.
@@ -46,42 +48,42 @@ Untuk menggunakan Aspose.Cells di proyek Java Anda, sertakan pustaka yang diperl
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Untuk memanfaatkan Aspose.Cells sepenuhnya:
-- **Uji Coba Gratis:** Unduh lisensi sementara untuk menjelajahi kemampuan penuh.
-- **Lisensi Sementara:** Dapatkan ini untuk penggunaan jangka pendek tanpa batasan evaluasi.
-- **Pembelian:** Beli langganan untuk penggunaan jangka panjang.
+- **Ingyenes próbaverzió:** Unduh lisensi sementara untuk menjelajahi kemampuan penuh.
+- **Ideiglenes engedély:** Dapatkan ini untuk penggunaan jangka pendek tanpa batasan evaluasi.
+- **Vásárlás:** Beli langganan untuk penggunaan jangka panjang.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Impor Aspose.Cells ke proyek Java Anda:
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita uraikan implementasi ke dalam beberapa bagian logis berdasarkan fungsionalitas.
 
 ### Memuat Buku Kerja
-**Ringkasan:**
+**Áttekintés:**
 Memuat file Excel ke dalam `Workbook` objek menjadi mudah dengan Aspose.Cells, yang memungkinkan manipulasi terprogram atau pembacaan berkas data.
 
-**Tangga:**
+**Lépések:**
 1. **Tentukan Jalur File:**
    Tentukan jalur tempat file Excel Anda berada.
    ```java
    String dataDir = "YOUR_DATA_DIRECTORY";
    ```
 2. **Muat Buku Kerja:**
-   Inisialisasi a `Workbook` objek menggunakan jalur berkas yang ditentukan.
+   Inicializáljon egy `Workbook` objek menggunakan jalur berkas yang ditentukan.
    ```java
    Workbook book = new Workbook(dataDir + "book1.xlsx");
    ```
 
 ### Mengakses Lembar Kerja dari Buku Kerja
-**Ringkasan:**
+**Áttekintés:**
 Mengakses lembar kerja tertentu sangat penting untuk manipulasi atau pengambilan data yang ditargetkan.
 
-**Tangga:**
+**Lépések:**
 1. **Paket Impor yang Diperlukan:**
    Pastikan Anda mengimpor kelas yang diperlukan.
    ```java
@@ -95,10 +97,10 @@ Mengakses lembar kerja tertentu sangat penting untuk manipulasi atau pengambilan
    ```
 
 ### Periksa apakah Lembar Kerja Dilindungi Kata Sandi dan Verifikasi Kata Sandi
-**Ringkasan:**
+**Áttekintés:**
 Fitur ini memungkinkan Anda untuk memeriksa perlindungan kata sandi pada lembar kerja dan memverifikasinya.
 
-**Tangga:**
+**Lépések:**
 1. **Periksa Perlindungan:**
    Tentukan apakah lembar kerja memiliki perlindungan kata sandi.
    ```java
@@ -107,7 +109,7 @@ Fitur ini memungkinkan Anda untuk memeriksa perlindungan kata sandi pada lembar 
    }
    ```
 2. **Verifikasi Kata Sandi:**
-   Menggunakan `verifyPassword()` untuk memeriksa kebenaran kata sandi yang diberikan.
+   Használat `verifyPassword()` untuk memeriksa kebenaran kata sandi yang diberikan.
    ```java
    boolean isPasswordCorrect = sheet.getProtection().verifyPassword("password");
 
@@ -118,29 +120,29 @@ Fitur ini memungkinkan Anda untuk memeriksa perlindungan kata sandi pada lembar 
    }
    ```
 
-## Aplikasi Praktis
-Berikut ini adalah beberapa skenario dunia nyata di mana fitur-fitur ini sangat berguna:
+## Gyakorlati alkalmazások
+Íme néhány valós helyzet, ahol ezek a funkciók kiemelkednek:
 1. **Manajemen Keamanan Data:** Verifikasi secara otomatis integritas lembar data sensitif di lingkungan perusahaan.
-2. **Sistem Pelaporan Otomatis:** Muat dan proses templat laporan dengan aman.
+2. **Automatizált jelentéskészítő rendszerek:** Muat dan proses templat laporan dengan aman.
 3. **Alat Pendidikan:** Mengembangkan aplikasi yang memerlukan akses ke sumber daya pendidikan yang dilindungi kata sandi.
 
 Integrasi dengan sistem lain, seperti basis data atau layanan web, dapat meningkatkan kemampuan aplikasi Anda dengan mengotomatiskan manipulasi file Excel berdasarkan logika bisnis.
 
-## Pertimbangan Kinerja
-Untuk kinerja optimal:
-- **Optimalkan Penggunaan Memori:** Muat hanya lembar kerja yang diperlukan jika memungkinkan.
+## Teljesítménybeli szempontok
+Az optimális teljesítmény érdekében:
+- **Memóriahasználat optimalizálása:** Muat hanya lembar kerja yang diperlukan jika memungkinkan.
 - **Kelola Sumber Daya:** Buang benda-benda dengan tepat untuk mengosongkan memori.
 - **Ikuti Praktik Terbaik:** Gunakan metode Aspose.Cells yang efisien untuk menangani file besar dan operasi kompleks.
 
-## Kesimpulan
+## Következtetés
 Dengan mengikuti panduan ini, Anda telah mempelajari cara memuat buku kerja Excel, mengakses lembar tertentu, dan memverifikasi kata sandi lembar kerja menggunakan Aspose.Cells di Java. Kemampuan ini membuka pintu ke berbagai aplikasi, mulai dari keamanan data hingga pelaporan otomatis.
 
-**Langkah Berikutnya:** Jelajahi fitur-fitur tambahan yang ditawarkan oleh Aspose.Cells untuk lebih meningkatkan fungsionalitas aplikasi Anda. Cobalah menerapkan solusi ini dalam sebuah proyek hari ini!
+**Következő lépések:** Jelajahi fitur-fitur tambahan yang ditawarkan oleh Aspose.Cells untuk lebih meningkatkan fungsionalitas aplikasi Anda. Cobalah menerapkan solusi ini dalam sebuah proyek hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?**
    Pustaka canggih yang memungkinkan pengembang bekerja dengan berkas Excel secara terprogram tanpa perlu menginstal Microsoft Office.
-2. **Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+2. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
    Gunakan metode seperti `Workbook.setMemorySetting()` untuk mengelola penggunaan memori secara efektif saat bekerja dengan file besar.
 3. **Bisakah Aspose.Cells berjalan pada platform Java apa pun?**
    Ya, ini kompatibel dengan semua platform Java utama, termasuk JDK 8 dan yang lebih tinggi.
@@ -149,16 +151,19 @@ Dengan mengikuti panduan ini, Anda telah mempelajari cara memuat buku kerja Exce
 5. **Bagaimana cara mengintegrasikan Aspose.Cells dengan sistem lain?**
    Gunakan API yang luas untuk terhubung dengan basis data atau layanan web untuk solusi manajemen data yang komprehensif.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Dapatkan Lisensi Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung:** [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Dapatkan Lisensi Gratis](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

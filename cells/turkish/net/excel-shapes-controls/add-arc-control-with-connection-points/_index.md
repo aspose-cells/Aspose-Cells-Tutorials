@@ -1,14 +1,16 @@
 ---
-title: Bağlantı Noktalarıyla Ark Kontrolü Ekleyin
-linktitle: Bağlantı Noktalarıyla Ark Kontrolü Ekleyin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu ayrıntılı kılavuzda, Aspose.Cells for .NET kullanarak bağlantı noktalarıyla yay denetimlerinin nasıl ekleneceğini öğrenin.
-weight: 27
-url: /tr/net/excel-shapes-controls/add-arc-control-with-connection-points/
+"description": "Bu ayrıntılı kılavuzda, Aspose.Cells for .NET kullanarak bağlantı noktalarıyla yay denetimlerinin nasıl ekleneceğini öğrenin."
+"linktitle": "Bağlantı Noktalarıyla Ark Kontrolü Ekleyin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Bağlantı Noktalarıyla Ark Kontrolü Ekleyin"
+"url": "/tr/net/excel-shapes-controls/add-arc-control-with-connection-points/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bağlantı Noktalarıyla Ark Kontrolü Ekleyin
@@ -18,7 +20,7 @@ Görsel olarak ilgi çekici Excel raporları oluşturmaya gelince, çizimler hay
 ## Ön koşullar
 Kodlamanın heyecanına dalmadan önce, her şeyin hazır olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 1. .NET Framework: Uyumlu bir sürümün yüklü olduğundan emin olun. Aspose.Cells, .NET Core dahil olmak üzere birden fazla sürümle çalışır.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan kolayca alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan kolayca alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/cells/net/).
 3. İyi Bir IDE: Her .NET geliştiricisinin sadık dostu Visual Studio, kodlama deneyiminizi kolaylaştırmaya yardımcı olacak.
 4. Temel C# Bilgisi: Eğer C# konusunda bilginiz varsa, bu eğitimi rahatlıkla takip edebilirsiniz.
 5. Belge Dizininize Erişim: Excel dosyalarınızı nereye kaydedeceğinizi bilin. Çıktınızı verimli bir şekilde düzenlemek için önemlidir.
@@ -46,7 +48,7 @@ Artık dizinimiz hazır olduğuna göre yeni bir Excel çalışma kitabı oluşt
 ```csharp
 Workbook excelbook = new Workbook();
 ```
- Arayarak`Workbook` constructor'ı kullandığınızda, aslında şunu söylüyorsunuz: "Hey, yeni bir Excel dosyası başlatalım!" Bu, tüm şekilleriniz ve verileriniz için bir tuval olacaktır.
+Arayarak `Workbook` constructor'ı kullandığınızda, aslında şunu söylüyorsunuz: "Hey, yeni bir Excel dosyası başlatalım!" Bu, tüm şekilleriniz ve verileriniz için bir tuval olacaktır.
 ## Adım 3: İlk Yay Şeklini Ekleme
 Eğlence burada başlıyor! İlk yay şeklimizi ekleyelim.
 ```csharp
@@ -60,7 +62,7 @@ Boş bir yay şekli, boyasız bir tuval gibidir; biraz gösteriş gerektirir!
 arc1.Fill.FillType = FillType.Solid;
 arc1.Fill.SolidFill.Color = Color.Blue;
 ```
-Bu, yayı düz mavi yapar. Rengi istediğiniz herhangi bir tona değiştirerek değiştirebilirsiniz.`Color.Blue` başka bir renk için.
+Bu, yayı düz mavi yapar. Rengi istediğiniz herhangi bir tona değiştirerek değiştirebilirsiniz. `Color.Blue` başka bir renk için.
 ### Ark Yerleşimini Ayarla
 ```csharp
 arc1.Placement = PlacementType.FreeFloating;
@@ -106,16 +108,18 @@ Tebrikler! Aspose.Cells for .NET kullanarak Excel sayfalarınıza bağlantı nok
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına ve düzenlemelerine olanak tanıyan güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Ücretsiz denemeyi deneyebilirsiniz. Ziyaret edin[bu bağlantı](https://releases.aspose.com/) başlamak için.
+Evet! Ücretsiz denemeyi deneyebilirsiniz. Ziyaret edin [bu bağlantı](https://releases.aspose.com/) başlamak için.
 ### Yayların dışında başka şekiller nasıl eklerim?
-Dikdörtgenler, daireler ve daha fazlası gibi çeşitli şekiller eklemek için Aspose.Cells.Drawing ad alanında bulunan farklı sınıfları kullanabilirsiniz.
+Aspose.Cells.Drawing ad alanında bulunan farklı sınıfları kullanarak dikdörtgenler, daireler ve daha fazlası gibi çeşitli şekiller ekleyebilirsiniz.
 ### Aspose.Cells ile hangi tür dosyalar oluşturabilirim?
 XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli Excel formatlarını oluşturabilir ve düzenleyebilirsiniz.
 ### Aspose.Cells için teknik destek mevcut mu?
- Kesinlikle! Şuraya erişebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+Kesinlikle! Şuraya erişebilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/cells/9) yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Obsługuj automatyczne jednostki osi wykresu, podobnie jak w programie Microsoft Excel
-linktitle: Obsługuj automatyczne jednostki osi wykresu, podobnie jak w programie Microsoft Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak obsługiwać automatyczne jednostki osi wykresu w programie Excel jak profesjonalista, używając Aspose.Cells dla .NET! Zawiera samouczek krok po kroku.
-weight: 10
-url: /pl/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+"description": "Dowiedz się, jak obsługiwać automatyczne jednostki osi wykresu w programie Excel jak profesjonalista, używając Aspose.Cells dla .NET! Zawiera samouczek krok po kroku."
+"linktitle": "Obsługuj automatyczne jednostki osi wykresu, podobnie jak w programie Microsoft Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Obsługuj automatyczne jednostki osi wykresu, podobnie jak w programie Microsoft Excel"
+"url": "/pl/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obsługuj automatyczne jednostki osi wykresu, podobnie jak w programie Microsoft Excel
@@ -23,8 +25,8 @@ Zanim przejdziemy do samouczka, upewnijmy się, że masz wszystko, co jest potrz
 
 1. Zainstalowany program Visual Studio: Będziesz potrzebować środowiska IDE, takiego jak Visual Studio, aby pisać i wykonywać kod .NET.
 2. .NET Framework: Ten samouczek zakłada, że używasz .NET Framework 4.0 lub nowszego. Jednak Aspose.Cells jest również zgodny z .NET Core.
-3.  Biblioteka Aspose.Cells: Jeśli jeszcze tego nie zrobiłeś, pobierz bibliotekę ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/net/) . Możesz również zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
-4. Przykładowy plik Excela: Będziemy używać przykładowego pliku Excela o nazwie`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Upewnij się, że masz ten plik w swoim katalogu roboczym.
+3. Biblioteka Aspose.Cells: Jeśli jeszcze tego nie zrobiłeś, pobierz bibliotekę ze strony internetowej Aspose [Tutaj](https://releases.aspose.com/cells/net/). Możesz również zacząć od bezpłatnego okresu próbnego dostępnego [Tutaj](https://releases.aspose.com/).
+4. Przykładowy plik Excela: Będziemy używać przykładowego pliku Excela o nazwie `sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Upewnij się, że masz ten plik w swoim katalogu roboczym.
 
 ## Importuj pakiety
 
@@ -43,11 +45,11 @@ Aby użyć Aspose.Cells, należy dodać odwołanie do biblioteki.
 
 1. W Eksploratorze rozwiązań kliknij prawym przyciskiem myszy „Odwołania”.
 2. Wybierz „Dodaj odniesienie”.
-3.  Przejdź do folderu, w którym pobrałeś Aspose.Cells i wybierz`Aspose.Cells.dll`.
+3. Przejdź do folderu, w którym pobrałeś Aspose.Cells i wybierz `Aspose.Cells.dll`.
 
 ### Importuj wymagane przestrzenie nazw
 
- Na szczycie twojego`Program.cs` plik, dodaj następujące przestrzenie nazw:
+Na szczycie twojego `Program.cs` plik, dodaj następujące przestrzenie nazw:
 
 ```csharp
 using System;
@@ -68,7 +70,7 @@ Teraz wszystko jest gotowe, aby rozpocząć pracę nad plikiem Excel!
 Zanim załadujemy plik Excel, skonfigurujmy katalogi wyjściowe i źródłowe. Pozwoli nam to określić, gdzie przechowywane są nasze pliki.
 
 ```csharp
-//Katalog wyjściowy – gdzie zostanie zapisany plik PDF
+// Katalog wyjściowy – gdzie zostanie zapisany plik PDF
 string outputDir = "Your Output Directory"; // podaj tutaj swój katalog wyjściowy
 
 // Katalog źródłowy – w którym znajduje się przykładowy plik Excel
@@ -84,7 +86,7 @@ Używając Aspose.Cells, ładowanie pliku Excel jest proste. Oto jak to zrobić:
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Teraz bez problemu załadowałeś swój skoroszyt!
+Teraz z łatwością załadowałeś swój skoroszyt!
 
 ## Dostęp i manipulowanie wykresem
 
@@ -110,11 +112,11 @@ Chart ch = ws.Charts[0];
 
 W programie Excel jedną z kluczowych funkcji wykresów jest obsługa automatycznych jednostek dla osi wykresu, co pomaga zachować przejrzystość i zrozumiałość wizualizacji. Na szczęście Aspose.Cells pozwala na łatwą modyfikację tych właściwości.
 
- Aby manipulować osią, może być konieczne uzyskanie dostępu do`Axis` swojego wykresu i ustaw`MajorUnit`:
+Aby manipulować osią, może być konieczne uzyskanie dostępu do `Axis` swojego wykresu i ustaw `MajorUnit`:
 
 ```csharp
 // Ustaw główną jednostkę dla osi Y
-ch.AxisY.MajorUnit = 10; // Możesz ustawić zgodnie ze swoimi wymaganiami
+ch.AxisY.MajorUnit = 10; // Możesz ustawić według swoich potrzeb
 ```
 
 Zaktualizujmy jednostki automatyczne już teraz!
@@ -148,7 +150,7 @@ Praca z Aspose.Cells dla .NET jest nie tylko wydajna, ale również niesamowicie
 Aspose.Cells to potężna biblioteka .NET służąca do tworzenia, edytowania i konwertowania plików Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
+Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego [Tutaj](https://releases.aspose.com/).
 
 ### Czy muszę coś zainstalować, aby zacząć?
 Wystarczy zainstalować na swoim komputerze bibliotekę Aspose.Cells i .NET Framework.
@@ -157,10 +159,12 @@ Wystarczy zainstalować na swoim komputerze bibliotekę Aspose.Cells i .NET Fram
 Oczywiście! Aspose.Cells obsługuje różne formaty, takie jak XLSX, HTML i obrazy.
 
 ### Gdzie mogę znaleźć pomoc, jeśli napotkam problemy?
- Możesz zwrócić się o pomoc do społeczności Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz zwrócić się o pomoc do społeczności Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ Ten krok powoduje zapisanie wszystkich zmian w pliku Excel i potwierdzenie powod
 
 ### Porady dotyczące rozwiązywania problemów
 - **Problemy ze ścieżką pliku:** Upewnij się, że ścieżki źródłowe i docelowe są poprawnie określone.
-- **Konflikty wersji biblioteki:** Sprawdź, czy używasz zgodnej wersji Aspose.Cells dla Java w zależnościach projektu.
+- **Konflikty wersji biblioteki:** Sprawdź, czy w zależnościach projektu używasz zgodnej wersji Aspose.Cells dla Java.
 
 ## Zastosowania praktyczne
 
@@ -164,6 +166,9 @@ A5: Wizyta [Oficjalna dokumentacja Aspose](https://reference.aspose.com/cells/ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

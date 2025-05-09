@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ workbook.save(outDir + "/TLDValidation_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - Ναι, το Aspose.Cells υποστηρίζει διάφορους τύπους επικύρωσης δεδομένων, επιτρέποντάς σας να επιβάλλετε διαφορετικούς κανόνες σε όλο το βιβλίο εργασίας σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

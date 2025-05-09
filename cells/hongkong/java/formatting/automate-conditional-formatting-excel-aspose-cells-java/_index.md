@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 要繼續本教程，請確保您已具備：
 - **Java 開發工具包 (JDK)** 安裝在您的機器上。
 - 用於編寫 Java 程式碼的 IDE，例如 IntelliJ IDEA 或 Eclipse。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 透過使用 Maven 或 Gradle 將 Aspose.Cells for Java 包含在專案依賴項中來設定它，如下所示。
 
@@ -182,6 +184,9 @@ Aspose.Cells for Java 可用於各種場景：
 - 支持： [Aspose 論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

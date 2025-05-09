@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,14 +116,14 @@ Siguiendo esta guía, ha aprendido a deshabilitar el comprobador de compatibilid
 - Integre Aspose.Cells en un proyecto Java más grande para automatizar las operaciones de Excel.
 
 ## Sección de preguntas frecuentes
-1. **¿Qué es el comprobador de compatibilidad en Excel?**
+1. **¿Qué es el verificador de compatibilidad en Excel?**
    - Alerta a los usuarios sobre posibles problemas cuando un archivo de Excel creado en versiones más nuevas se abre en versiones anteriores.
 2. **¿Cómo afecta deshabilitarlo a mis archivos?**
    - Deshabilitarlo evita advertencias pero no elimina las funciones no compatibles, que podrían causar errores si se utilizan.
 3. **¿Puedo seguir utilizando otras funciones de Aspose.Cells después de deshabilitar el verificador de compatibilidad?**
    - Sí, esta configuración solo afecta las comprobaciones de compatibilidad y no el acceso a otras funciones.
 4. **¿Existe una diferencia de rendimiento cuando el verificador de compatibilidad está deshabilitado?**
-   - Deshabilitarlo puede mejorar levemente el rendimiento al omitir comprobaciones adicionales durante la carga o guardado de archivos.
+   - Deshabilitarlo puede mejorar levemente el rendimiento al omitir comprobaciones adicionales durante el guardado o carga de archivos.
 5. **¿Necesito una licencia para todas las funcionalidades de Aspose.Cells?**
    - Se requiere una licencia temporal o completa para utilizar funciones avanzadas sin limitaciones.
 
@@ -134,6 +136,9 @@ Siguiendo esta guía, ha aprendido a deshabilitar el comprobador de compatibilid
 - [Foro de soporte de la comunidad](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

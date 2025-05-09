@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Aspose.Cells for Java를 사용하여 Excel 파일에 연결된 XML 맵 데이터를 효율적으로 쿼리하는 방법을 알아보세요. 포괄적인 가이드를 통해 데이터 관리 역량을 향상시켜 보세요."
+"description": "Aspose.Cells for Java를 사용하여 Excel 파일에 연결된 XML 맵 데이터를 효율적으로 쿼리하는 방법을 알아보세요. 포괄적인 가이드를 통해 데이터 관리 역량을 향상시키세요."
 "title": "Aspose.Cells Java 쿼리 마스터하기 및 Excel에서 XML 맵 데이터 조작"
 "url": "/ko/java/import-export/aspose-cells-java-query-xml-map-data/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Excel에서 XML 맵 데이터를 쿼리하는 Aspose.Cells 라이브러리를 �
 이 튜토리얼을 따라 하면 Aspose.Cells for Java의 강력한 기능을 활용하여 Excel 파일에서 XML 맵 데이터를 쿼리하는 데 필요한 모든 기능을 갖추게 될 것입니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Trước khi đi sâu vào chi tiết triển khai, hãy đảm bảo bạn có 
 ## Điều kiện tiên quyết
 Để sử dụng Aspose.Cells for Java hiệu quả, hãy đáp ứng các điều kiện tiên quyết sau:
 
-- **Thư viện bắt buộc:** Bạn sẽ cần Aspose.Cells cho Java. Phiên bản ổn định mới nhất tại thời điểm viết bài là 25.3.
+- **Thư viện cần thiết:** Bạn sẽ cần Aspose.Cells cho Java. Phiên bản ổn định mới nhất tại thời điểm viết bài là 25.3.
 - **Thiết lập môi trường:** Hướng dẫn này giả định bạn đã quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc và thiết lập cơ bản môi trường phát triển Java (JDK, IDE như IntelliJ IDEA hoặc Eclipse).
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và làm việc với các thư viện bên ngoài.
 
@@ -171,6 +173,9 @@ Bây giờ bạn đã học cách tạo sổ làm việc bằng nút bấm bằn
 Hãy thoải mái khám phá các tài nguyên này để biết thêm hỗ trợ và thông tin về cách sử dụng Aspose.Cells hiệu quả trong các dự án Java của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

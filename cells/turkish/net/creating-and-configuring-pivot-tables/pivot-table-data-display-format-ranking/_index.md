@@ -1,14 +1,16 @@
 ---
-title: Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama
-linktitle: Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells'i kullanarak .NET'te Pivot Table veri görüntüleme biçimi sıralamalarının nasıl oluşturulacağını ve yönetileceğini öğrenin.
-weight: 30
-url: /tr/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/
+"description": "Bu adım adım kılavuzla Aspose.Cells kullanarak .NET'te Pivot Table veri görüntüleme biçimi sıralamalarının nasıl oluşturulacağını ve yönetileceğini öğrenin."
+"linktitle": "Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama"
+"url": "/tr/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama
@@ -18,8 +20,8 @@ Veri analizi söz konusu olduğunda, özellikle Excel'de, Pivot Tablolar en iyi 
 ## Ön koşullar
 Ayrıntılara girmeden önce, takip etmek için her şeyin ayarlandığından emin olalım. İhtiyacınız olanlar şunlardır:
 1. Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamınız olduğundan emin olun. Bu, Visual Studio veya herhangi bir uyumlu IDE olabilir.
-2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/cells/net/)Ayrıca, anında herhangi bir maliyet ödemeden başlamanız için ücretsiz deneme sürümü de mevcuttur.
-3.  Örnek Veriler: Bu eğitim için, adlı bir Excel dosyası kullanacağız.`PivotTableSample.xlsx`Pivot Tablo oluşturmak için bu dosyada verilerinizin doğru şekilde yapılandırıldığından emin olun.
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/cells/net/)Ayrıca, herhangi bir anında maliyet ödemeden başlamanız için ücretsiz deneme sürümü de mevcuttur.
+3. Örnek Veriler: Bu eğitim için, adlı bir Excel dosyası kullanacağız. `PivotTableSample.xlsx`Pivot Tablo oluşturmak için bu dosyada verilerinizin doğru şekilde yapılandırıldığından emin olun.
 Artık temel konuları hallettiğimize göre, koda geçelim!
 ## Paketleri İçe Aktar
 Başlamak için, .NET projenize gerekli ad alanlarını içe aktarmanız gerekir. Bu, uygulamanızın Aspose.Cells işlevselliğine erişebilmesini sağlamak için önemli bir adımdır. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
@@ -36,14 +38,14 @@ Excel belgenizi yüklemeden önce, kaynak verilerinizin nerede bulunduğunu ve �
 string sourceDir = "Your Document Directory"; // Gerçek dizininizle güncelleyin
 string outputDir = "Your Document Directory"; // Gerçek dizininizle güncelleyin
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile.
+Değiştirdiğinizden emin olun `"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile.
 ## Adım 2: Çalışma Kitabını Yükleyin
 Sonra, Pivot Tablonuzu içeren Excel dosyasını yüklemek isteyeceksiniz. İşte nasıl:
 ```csharp
 // Bir şablon dosyası yükleyin
 Workbook workbook = new Workbook(sourceDir + "PivotTableSample.xlsx");
 ```
- The`Workbook` class, Excel dosyalarıyla çalışmanız için bir geçittir. Giriş dosyanızın yolunu geçirerek, Aspose.Cells'e bu dosyayı belleğe yüklemesini söylersiniz.
+The `Workbook` class, Excel dosyalarıyla çalışmanız için bir geçittir. Giriş dosyanızın yolunu geçirerek, Aspose.Cells'e bu dosyayı belleğe yüklemesini söylersiniz.
 ## Adım 3: Çalışma Sayfasına Erişim
 Çalışma kitabını yükledikten sonra Pivot Tablonuzu içeren belirli çalışma sayfasına erişmeniz gerekir:
 ```csharp
@@ -57,7 +59,7 @@ Bu kod parçacığı çalışma kitabınızdan ilk çalışma sayfasını alır.
 int pivotIndex = 0; // Pivot Tablonun Dizini
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 ```
-Bu senaryoda ilk Pivot Tablosuna erişiyoruz. Birden fazla Pivot Tablonuz varsa,`pivotIndex`.
+Bu senaryoda ilk Pivot Tablosuna erişiyoruz. Birden fazla Pivot Tablonuz varsa, `pivotIndex`.
 ## Adım 5: Veri Alanlarına Erişim
 Pivot Tablo'ya erişildikten sonraki adım, veri alanlarına inmektir. İşte nasıl:
 ```csharp
@@ -75,7 +77,7 @@ pivotField.DataDisplayFormat = PivotFieldDataDisplayFormat.RankLargestToSmallest
 ```
 Bunu yaparak, Pivot Tablosuna ilk veri alanını azalan sıralama düzeninde görüntülemesini talimatını veriyorsunuz. Artan sıralamaya geçmek isterseniz, görüntüleme biçimini buna göre değiştirebilirsiniz.
 ## Adım 7: Verileri Hesaplayın
-Pivot Tablosunda yapılan değişiklikler, verileri yeniden hesaplayana kadar etkili olmayacaktır. İşte nasıl:
+Pivot Tablo'da yapılan değişiklikler, verileri yeniden hesaplayana kadar etkili olmayacaktır. İşte nasıl:
 ```csharp
 pivotTable.CalculateData();
 ```
@@ -88,7 +90,7 @@ workbook.Save(outputDir + "PivotTableDataDisplayFormatRanking_out.xlsx");
 ```
 Bu, uygulanan görüntüleme biçimiyle yeni bir Excel dosyası oluşturacaktır. 
 ## Adım 9: Onay Mesajı
-Her şeyin beklendiği gibi çalıştığını doğrulamak her zaman iyidir. Bunu bildirmek için basit bir konsol çıktısı ekleyebilirsiniz:
+Her şeyin beklendiği gibi çalıştığını doğrulamak her zaman iyidir. Bunu size bildirmek için basit bir konsol çıktısı ekleyebilirsiniz:
 ```csharp
 Console.WriteLine("PivotTableDataDisplayFormatRanking executed successfully.");
 ```
@@ -98,16 +100,18 @@ Tebrikler! Aspose.Cells for .NET kullanarak Pivot Table veri görüntüleme biç
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Microsoft Excel'e ihtiyaç duymadan Excel dosyalarıyla çalışmasını sağlayan bir .NET kütüphanesidir. Excel belgelerini sorunsuz bir şekilde okumayı, yazmayı ve düzenlemeyi sağlar.
 ### Aspose.Cells için ödeme yapmam gerekir mi?
-Aspose.Cells ücretsiz deneme sunarken, tüm özellikler için satın alma işlemi gerekir. Şunu kontrol edebilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
+Aspose.Cells ücretsiz deneme sunarken, tüm özellikler için satın alma işlemi gerekir. Şunu kontrol edebilirsiniz [satın alma sayfası](https://purchase.aspose.com/buy) Daha detaylı bilgi için.
 ### Aspose.Cells kullanarak Pivot Tablolar oluşturabilir miyim?
 Evet, Aspose.Cells, Pivot Tabloları programlı olarak oluşturmak ve yönetmek için güçlü özellikler sunar.
 ### Aspose.Cells kullanımı hakkında daha fazla bilgiyi nerede bulabilirim?
- Kapsamlı olana başvurabilirsiniz[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı rehberlik ve API referansları için.
+Kapsamlı olana başvurabilirsiniz [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı rehberlik ve API referansları için.
 ### Ya sorunlarla karşılaşırsam?
- Herhangi bir sorunla karşılaşırsanız, topluluğa ulaşmaktan ve destek vermekten çekinmeyin.[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Herhangi bir sorunla karşılaşırsanız, topluluğa ulaşmaktan ve destek almaktan çekinmeyin. [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

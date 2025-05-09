@@ -1,17 +1,19 @@
 ---
-title: Grafiğin Ana Izgara Çizgilerini Alın
-linktitle: Grafiğin Ana Izgara Çizgilerini Alın
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu detaylı adım adım eğitimle Aspose.Cells for .NET kullanarak grafiklerde ana kılavuz çizgilerinin nasıl elde edileceğini öğrenin. Excel raporlama becerilerinizi geliştirin.
-weight: 12
-url: /tr/net/setting-chart-appearance/get-major-gridlines-of-chart/
+"description": "Bu detaylı adım adım eğitimle Aspose.Cells for .NET kullanarak grafiklerde ana kılavuz çizgilerinin nasıl elde edileceğini öğrenin. Excel raporlama becerilerinizi geliştirin."
+"linktitle": "Grafiğin Ana Izgaralarını Alın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafiğin Ana Izgaralarını Alın"
+"url": "/tr/net/setting-chart-appearance/get-major-gridlines-of-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grafiğin Ana Izgara Çizgilerini Alın
+# Grafiğin Ana Izgaralarını Alın
 
 ## giriiş
 
@@ -21,7 +23,7 @@ Görsel olarak çekici ve bilgilendirici grafikler oluşturmak, etkili veri sunu
 
 Eğitime başlamadan önce her şeyin hazır olduğundan emin olun:
 
--  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin indirildiğinden ve referans alındığından emin olun. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+- .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesinin indirildiğinden ve referans alındığından emin olun. Bunu alabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 - Geliştirme Ortamı: Herhangi bir .NET geliştirme ortamı işe yarar, ancak sağlam desteği ve araçları nedeniyle Visual Studio şiddetle tavsiye edilir.
 - C# Temel Anlayışı: Biraz kod yazacağımız için C# programlamanın temellerine aşina olmak faydalı olacaktır.
 
@@ -82,7 +84,7 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
- Burada hücrelere bazı rastgele değerler giriyoruz`A1` ile`B3`. Bu veriler grafiğimiz için veri kaynağı görevi görecektir. Görselleştirmek için anlamlı verilere sahip olmak önemlidir; aksi takdirde grafik hiçbir bağlamı olmayan güzel çizgilerden ibaret olurdu!
+Burada hücrelere bazı rastgele değerler giriyoruz `A1` ile `B3`. Bu veriler grafiğimiz için veri kaynağı görevi görecektir. Görselleştirmek için anlamlı verilere sahip olmak önemlidir; aksi takdirde grafik hiçbir bağlamı olmayan güzel çizgilerden ibaret olurdu!
 
 ## Adım 5: Çalışma Sayfasına Bir Grafik Ekleyin
 
@@ -102,7 +104,7 @@ Az önce oluşturduğumuz grafiği düzenlemek isteyeceksiniz, o yüzden ona bir
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Burada daha önce kaydettiğimiz indeksi kullanarak oluşturduğumuz grafiğe erişiyoruz. 
+Burada daha önce kaydettiğimiz indeksi kullanarak oluşturduğumuz grafiğimize erişiyoruz. 
 
 ## Adım 7: Grafiğe Veri Serileri Ekleyin
 
@@ -147,7 +149,7 @@ Sonunda şaheserimizi kurtarmanın zamanı geldi!
 workbook.Save(outputDir + "outputMajorGridlinesOfChart.xlsx");
 ```
 
-Bu satır, çalışmanızı belirtilen dizinde bir Excel dosyası olarak kaydedecektir. Bunu, sanat eserinize "kaydet" düğmesine tıklamak, başkalarının hayranlık duyması (veya sizin tekrar ziyaret etmeniz!) için orada olduğundan emin olmak olarak düşünün.
+Bu satır, çalışmanızı belirtilen dizinde bir Excel dosyası olarak kaydedecektir. Bunu, sanat eserinize "kaydet" tıklamak, başkalarının hayranlık duyması (veya sizin tekrar ziyaret etmeniz!) için orada olduğundan emin olmak olarak düşünün.
 
 ## Çözüm
 
@@ -161,19 +163,21 @@ Bu tekniklere hakim olduğunuzda, verilerinizi öne çıkaran dinamik raporlar o
 Aspose.Cells for .NET, Excel elektronik tablolarını düzenlemek için güçlü bir API'dir ve geliştiricilerin elektronik tablo dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanır.
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Geçici lisans almak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Geçici lisans almak için şu adresi ziyaret edebilirsiniz: [bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Renklerin ötesinde, grafiğin görünümünü özelleştirebilir miyim?
 Evet! Aspose.Cells, grafik öğeleri için yazı tipleri, stiller ve biçimler dahil olmak üzere kapsamlı özelleştirmeye olanak tanır.
 
 ### Daha fazla dokümanı nerede bulabilirim?
-Kapsamlı belgeleri şu adreste bulabilirsiniz:[Aspose'un referans sayfası](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeleri şu adreste bulabilirsiniz: [Aspose'un referans sayfası](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Evet! Bunu şu adresten indirerek deneyebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet! Bunu şu adresten indirerek deneyebilirsiniz: [Burada](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

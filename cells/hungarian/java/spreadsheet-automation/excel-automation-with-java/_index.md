@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel automatizálás Java-val
@@ -124,9 +126,11 @@ Az Aspose.Cells for Java lehetővé teszi az Excel-feladatok hatékony automatiz
 ---
 
 Ez a lépésről lépésre bemutatott útmutató forráskód-példákkal szilárd alapot nyújt az Excel automatizálásához Java-ban az Aspose.Cells használatával. Jó kódolást és Excel-feladatok automatizálását!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

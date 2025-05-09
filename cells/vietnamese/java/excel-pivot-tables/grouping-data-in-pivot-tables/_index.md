@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhóm dữ liệu trong bảng Pivot
@@ -108,9 +110,11 @@ Bạn có thể tùy chỉnh nhóm dữ liệu trong bảng trục bằng cách 
 ### 3. Tôi có thể tự động tạo bảng trục bằng Aspose.Cells cho Java không?
 
 Có, bạn có thể tự động tạo bảng tổng hợp trong Excel bằng Aspose.Cells cho Java, như được minh họa trong các ví dụ về mã nguồn được cung cấp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

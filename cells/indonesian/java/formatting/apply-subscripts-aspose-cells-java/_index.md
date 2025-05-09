@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,20 +17,20 @@
 
 Dalam dunia yang digerakkan oleh data saat ini, menyajikan informasi dengan jelas dan akurat sangatlah penting. Salah satu tantangan umum yang dihadapi pengembang saat mengotomatiskan tugas Excel adalah menerapkan format teks khusus seperti subskrip atau superskrip dalam sel secara terprogram. Panduan lengkap ini akan menunjukkan kepada Anda cara menggunakan pustaka Aspose.Cells di Java untuk menerapkan format subskrip dengan mudah.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Menyiapkan Aspose.Cells untuk Java
 - Menerapkan format subskrip pada nilai sel
 - Menerapkan gaya dan menyimpan file Excel dengan format khusus
-- Aplikasi dunia nyata dari fitur ini
+- A funkció valós alkalmazásai
 
 Pastikan Anda memiliki semua yang dibutuhkan sebelum masuk ke kode.
 
-### Prasyarat
+### Előfeltételek
 
 Untuk mengikutinya, pastikan Anda memiliki:
 
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi terinstal di komputer Anda.
-- **Pakar** atau **Bahasa Inggris Gradle**: Untuk mengelola dependensi. Tutorial ini mencakup kedua konfigurasi untuk menyiapkan pustaka Aspose.Cells.
+- **Pakar** vagy **Bahasa Inggris Gradle**: Untuk mengelola dependensi. Tutorial ini mencakup kedua konfigurasi untuk menyiapkan pustaka Aspose.Cells.
 - Pemahaman dasar tentang pemrograman Java dan keakraban dengan manipulasi file Excel.
 
 ### Menyiapkan Aspose.Cells untuk Java
@@ -49,25 +51,25 @@ Aspose.Cells adalah pustaka tangguh yang memungkinkan Anda bekerja dengan berkas
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
-Aspose.Cells menawarkan uji coba gratis, lisensi sementara, dan versi berbayar. Mulailah dengan mengunduh [uji coba gratis](https://releases.aspose.com/cells/java/) untuk menjelajahi fitur-fiturnya tanpa batasan. Untuk pengujian yang lebih lama atau penggunaan produksi, pertimbangkan untuk mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells menawarkan uji coba gratis, lisensi sementara, dan versi berbayar. Mulailah dengan mengunduh [ingyenes próba](https://releases.aspose.com/cells/java/) untuk menjelajahi fitur-fiturnya tanpa batasan. Untuk pengujian yang lebih lama atau penggunaan produksi, pertimbangkan untuk mendapatkan [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Untuk mulai menggunakan Aspose.Cells di proyek Anda:
 1. Siapkan lingkungan Java Anda dan tambahkan dependensi Maven atau Gradle.
-2. Inisialisasi a `Workbook` objek untuk mulai bekerja dengan file Excel.
+2. Inicializáljon egy `Workbook` objek untuk mulai bekerja dengan file Excel.
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 Mari kita bahas penerapan format subskrip langkah demi langkah.
 
-**Inisialisasi Buku Kerja**
+**Munkafüzet inicializálása**
 
-Mulailah dengan membuat contoh `Workbook` kelas, yang mewakili file Excel:
+Kezdje egy példány létrehozásával a `Workbook` kelas, yang mewakili file Excel:
 ```java
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
@@ -96,7 +98,7 @@ font.setSubscript(true); // Mengaktifkan subskrip
 cell.setStyle(style);
 ```
 
-**Simpan Buku Kerja**
+**A munkafüzet mentése**
 
 Setelah menerapkan gaya yang diinginkan, simpan perubahan Anda ke file Excel:
 ```java
@@ -104,29 +106,29 @@ String dataDir = Utils.getSharedDataDir(ApplyingSubscript.class) + "TechnicalArt
 workbook.save(dataDir + "ASubscript_out.xls");
 ```
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 Menggunakan fitur pemformatan subskrip Aspose.Cells untuk Java dapat bermanfaat dalam berbagai skenario, seperti:
 - **Rumus Kimia**: Menampilkan senyawa kimia secara akurat.
 - **Ekspresi Matematika**: Meningkatkan keterbacaan persamaan dalam laporan keuangan.
 - **Notasi Ilmiah**: Menyajikan data dengan eksponen secara jelas.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
 Saat bekerja dengan file Excel berukuran besar atau operasi yang rumit, pertimbangkan kiat berikut untuk mengoptimalkan kinerja:
 - Minimalkan penggunaan memori dengan melepaskan sumber daya saat tidak diperlukan.
 - Gunakan API streaming jika tersedia untuk menangani kumpulan data yang sangat besar secara efisien.
 - Terus perbarui pustaka Aspose.Cells Anda untuk mendapatkan manfaat peningkatan kinerja dan perbaikan bug.
 
-### Kesimpulan
+### Következtetés
 
 Dalam tutorial ini, Anda mempelajari cara menggunakan API Java Aspose.Cells untuk menerapkan format subskrip di sel Excel. Dengan mengintegrasikan langkah-langkah ini ke dalam proyek Anda, Anda dapat meningkatkan penyajian data secara signifikan. 
 
 Langkah selanjutnya termasuk menjelajahi opsi pemformatan teks lain seperti superskrip atau gaya tebal dengan Aspose.Cells. Lakukan eksperimen dan sesuaikan lebih lanjut berdasarkan persyaratan proyek Anda.
 
-### Bagian FAQ
+### GYIK szekció
 
-1. **Bagaimana cara menangani kumpulan data besar dengan Aspose.Cells?**
+1. **Hogyan kezelhetek nagy adathalmazokat az Aspose.Cells segítségével?**
    - Memanfaatkan API streaming untuk manajemen memori yang efisien.
 2. **Bisakah saya menerapkan subskrip ke beberapa sel sekaligus?**
    - Ya, ulangi pada rentang sel dan terapkan gaya satu per satu.
@@ -135,19 +137,22 @@ Langkah selanjutnya termasuk menjelajahi opsi pemformatan teks lain seperti supe
 4. **Bagaimana jika versi Java saya di bawah 8?**
    - Pastikan kompatibilitas dengan memutakhirkan JDK Anda setidaknya ke versi 8 atau lebih tinggi.
 5. **Di mana saya dapat menemukan lebih banyak contoh fitur Aspose.Cells?**
-   - Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk panduan lengkap dan referensi API.
+   - Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és API-referenciákért.
 
-### Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+### Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 Bereksperimenlah dengan Aspose.Cells untuk Java untuk membuka kemampuan otomatisasi Excel yang hebat, dan jangan ragu untuk menjelajahi dokumentasinya yang komprehensif untuk wawasan lebih jauh.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

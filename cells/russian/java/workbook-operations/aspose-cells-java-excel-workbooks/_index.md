@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ public class CopyRangeWithRowHeights {
         // Создать исходный диапазон "A1:D10"
         Range srcRange = srcSheet.getCells().createRange("A1:D10");
 
-        // Создать диапазон назначения «A1:D10»
+        // Создать диапазон назначения "A1:D10"
         Range dstRange = dstSheet.getCells().createRange("A1:D10");
 
         // Настройте параметры вставки для копирования высоты строк
@@ -214,6 +216,9 @@ Aspose.Cells для Java можно использовать в различны
    - Конечно! Aspose.Cells поддерживает различные форматы, включая XLS и CSV.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การรักษาความปลอดภัยข้อมูล Excel
@@ -40,9 +42,11 @@
 เรียนรู้วิธีการตรวจสอบการเข้าถึงไฟล์โดยใช้ Aspose.Cells สำหรับ Java API คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับและคำถามที่พบบ่อย
 ### [การตรวจสอบข้อมูลเพื่อความปลอดภัย](./data-validation-for-security/)
 เพิ่มความปลอดภัยข้อมูลด้วย Aspose.Cells สำหรับ Java ศึกษาเทคนิคการตรวจสอบข้อมูลที่ครอบคลุม เรียนรู้วิธีนำการตรวจสอบและการป้องกันที่แข็งแกร่งมาใช้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

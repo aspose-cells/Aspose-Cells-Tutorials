@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Vamos começar entendendo os pré-requisitos necessários para começar.
 Antes de começar, certifique-se de ter o seguinte:
 
 1. **Bibliotecas e Dependências**Você precisará do Aspose.Cells para Java versão 25.3 ou posterior.
-2. **Configuração do ambiente**: Este tutorial pressupõe familiaridade básica com ambientes de desenvolvimento Java, como Maven ou Gradle.
+2. **Configuração do ambiente**Este tutorial pressupõe familiaridade básica com ambientes de desenvolvimento Java, como Maven ou Gradle.
 3. **Pré-requisitos de conhecimento**: Recomenda-se um conhecimento básico de programação Java e ferramentas de construção baseadas em XML (Maven/Gradle).
 
 ## Configurando Aspose.Cells para Java
@@ -87,7 +89,7 @@ cell.setHtmlString("<Font Style=\"FONT-WEIGHT: bold; FONT-STYLE: italic; TEXT-DE
 ```
 
 **Explicação**: 
-- **Parâmetros**: O `setHtmlString` O método recebe uma sequência de código HTML. Neste exemplo, estamos aplicando os estilos negrito, itálico e sublinhado com configurações de fonte específicas ao conteúdo da célula.
+- **Parâmetros**: O `setHtmlString` O método recebe uma string de código HTML. Neste exemplo, estamos aplicando os estilos negrito, itálico e sublinhado com configurações de fonte específicas ao conteúdo da célula.
 - **Propósito**: Essa abordagem permite que você aproveite os recursos avançados de formatação do HTML no Excel, aprimorando a apresentação de dados.
 
 #### Etapa 3: Salve sua pasta de trabalho
@@ -106,14 +108,14 @@ workbook.save("AHTMLRText_out.xlsx");
 Aqui estão alguns casos de uso do mundo real em que adicionar texto rico em HTML no Excel se mostra benéfico:
 
 1. **Relatórios Financeiros**: Aumente a clareza e o apelo visual formatando as principais métricas financeiras com fontes em negrito e coloridas.
-2. **Painéis**Use o estilo HTML para melhor visualização de dados, tornando os painéis mais interativos e informativos.
+2. **Painéis**: Use o estilo HTML para melhor visualização de dados, tornando os painéis mais interativos e informativos.
 3. **Materiais de Marketing**: Crie relatórios de marketing personalizados diretamente no Excel, garantindo a consistência da marca por meio de texto estilizado.
 
 ## Considerações de desempenho
 
 Ao trabalhar com Aspose.Cells:
 - **Otimize o uso de recursos**: Limite o número de células no estilo HTML em pastas de trabalho grandes para evitar atrasos no desempenho.
-- **Gerenciamento de memória Java**: Use práticas eficientes de gerenciamento de memória em Java para lidar com grandes conjuntos de dados de forma eficaz. Isso inclui fechar instâncias de pastas de trabalho imediatamente após o uso.
+- **Gerenciamento de memória Java**Use práticas eficientes de gerenciamento de memória em Java para lidar com grandes conjuntos de dados de forma eficaz. Isso inclui fechar instâncias de pastas de trabalho imediatamente após o uso.
 
 ## Conclusão
 
@@ -130,7 +132,7 @@ R: Embora muitas tags HTML comuns funcionem, algumas podem não ser suportadas d
 R: Não há um limite estrito, mas o excesso de conteúdo HTML pode afetar o desempenho.
 
 **T3: Como posso garantir que meu estilo apareça corretamente em todas as versões do Excel?**
-R: Teste sua pasta de trabalho em diferentes versões do Excel, pois o suporte a estilos ou marcas específicos pode variar.
+R: Teste sua pasta de trabalho em diferentes versões do Excel, pois o suporte para estilos ou marcas específicos pode variar.
 
 **Q4: E se eu encontrar erros com o `setHtmlString` método?**
 R: Certifique-se de que sua sequência de caracteres HTML esteja bem formada e verifique se você está usando uma versão compatível do Aspose.Cells.
@@ -150,6 +152,9 @@ Aproveite o poder do Aspose.Cells para Java para transformar o processamento e a
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

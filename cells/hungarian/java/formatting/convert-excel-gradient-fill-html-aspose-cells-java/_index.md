@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ V5: Igen, ismételje meg az Excel-fájlok egy könyvtárát, és iteratívan alk
 Tedd meg a következő lépést az Aspose.Cells for Java elsajátításában, és használd ki a benne rejlő összes lehetőséget az adatprezentációs projektjeid fejlesztéséhez!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

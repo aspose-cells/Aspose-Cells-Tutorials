@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ public class ChartLocalizationSetup {
 
 **Шаг 1: Получите системные региональные настройки**
 
-Получить текущие языковые настройки системы с помощью Java `Locale` сорт:
+Получите текущие языковые настройки системы с помощью Java `Locale` сорт:
 
 ```java
 import java.util.Locale;
@@ -196,6 +198,9 @@ public void localizeChart(Chart chart) {
 Начните свой путь к эффективной локализации диаграмм с помощью Aspose.Cells, расширяя охват и влияние ваших Java-приложений.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

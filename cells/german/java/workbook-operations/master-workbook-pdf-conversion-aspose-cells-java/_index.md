@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Bereit, Ihre Fähigkeiten zu erweitern? Tauchen Sie ein in die [Aspose.Cells-Dok
 - **Kostenlose Testversion und temporäre Lizenz:** Entdecken Sie die Funktionen mit einer kostenlosen Testversion oder fordern Sie eine temporäre Lizenz an.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

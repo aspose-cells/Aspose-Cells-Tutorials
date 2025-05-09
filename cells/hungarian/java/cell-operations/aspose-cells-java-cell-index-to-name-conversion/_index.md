@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ Ebben az oktatóanyagban megtanultad, hogyan konvertálhatsz cellaindexeket neve
 4. **Az Aspose.Cells hatékonyan tudja kezelni a nagy fájlokat?**
    - Igen, különösen akkor, ha nagy adathalmazok kezelésére tervezett streamelési API-kat használunk.
 5. **Van elérhető támogatás, ha problémákba ütközöm?**
-   - Az Aspose egy [támogatási fórum](https://forum.aspose.com/c/cells/9) ahol kérdéseket tehet fel és segítséget kaphat a közösségtől.
+   - Az Aspose egy [támogató fórum](https://forum.aspose.com/c/cells/9) ahol kérdéseket tehet fel és segítséget kaphat a közösségtől.
 
 ## Erőforrás
 - [Dokumentáció](https://reference.aspose.com/cells/java/)
@@ -146,6 +148,9 @@ Ebben az oktatóanyagban megtanultad, hogyan konvertálhatsz cellaindexeket neve
 Nyugodtan fedezd fel ezeket az erőforrásokat, és kísérletezz az Aspose.Cells for Java-val kapcsolatos újonnan megszerzett tudásoddal!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

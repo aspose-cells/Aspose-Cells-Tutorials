@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel automatizálása Java-val - Táblázatok és interaktív diagramok létrehozása az Aspose.Cells használatával
@@ -75,7 +77,7 @@ import com.aspose.cells.Workbook;
 
 public class InitializeAspose {
     public static void main(String[] args) throws Exception {
-        // Hozzon létre egy új üres Excel-munkafüzetet
+        // Hozz létre egy új üres Excel-munkafüzetet
         Workbook workbook = new Workbook();
 
         // Mentse el az újonnan létrehozott munkafüzetet
@@ -287,6 +289,9 @@ Ezen technikák elsajátításával jelentősen egyszerűsítheti Excel-alapú m
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

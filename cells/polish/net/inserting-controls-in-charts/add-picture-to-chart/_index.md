@@ -1,14 +1,16 @@
 ---
-title: Dodaj obraz do wykresu
-linktitle: Dodaj obraz do wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo dodawać obrazy do wykresów Excela za pomocą Aspose.Cells dla .NET. Ulepsz swoje wykresy i prezentacje w zaledwie kilku prostych krokach.
-weight: 11
-url: /pl/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "Dowiedz się, jak łatwo dodawać obrazy do wykresów Excela za pomocą Aspose.Cells dla .NET. Ulepsz swoje wykresy i prezentacje w zaledwie kilku prostych krokach."
+"linktitle": "Dodaj obraz do wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj obraz do wykresu"
+"url": "/pl/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj obraz do wykresu
@@ -22,12 +24,12 @@ Czy masz dość nudnych wykresów, którym brakuje osobistego akcentu? Chcesz do
 Zanim przejdziemy do szczegółów kodowania, istnieje kilka warunków wstępnych, które musisz spełnić, aby wszystko poszło gładko:
 
 - Visual Studio: Tutaj będziesz pisać i uruchamiać swój kod .NET. Upewnij się, że masz go zainstalowanego.
--  Aspose.Cells dla .NET: Ta biblioteka będzie Ci potrzebna do pracy z plikami Excel. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Ta biblioteka będzie Ci potrzebna do pracy z plikami Excel. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 - Podstawowa znajomość języka C#: wprawdzie przeprowadzę Cię przez kod, ale znajomość podstaw języka C# sprawi, że wszystko stanie się jaśniejsze.
 
 ### Kroki instalacji
 
-1. Zainstaluj Aspose.Cells: Możesz dodać Aspose.Cells do swojego projektu Visual Studio za pomocą NuGet Package Manager. Aby to zrobić, przejdź do Tools > NuGet Package Manager > Manage NuGet Packages for Solution i wyszukaj „Aspose.Cells”. Kliknij Install.
+1. Zainstaluj Aspose.Cells: Możesz dodać Aspose.Cells do swojego projektu Visual Studio za pomocą Menedżera pakietów NuGet. Aby to zrobić, przejdź do Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania i wyszukaj „Aspose.Cells”. Kliknij Zainstaluj.
 2. Konfigurowanie projektu: Utwórz nowy projekt aplikacji konsolowej C# w programie Visual Studio.
 
 ## Importuj pakiety
@@ -61,7 +63,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Zastępować`Your Document Directory` I`Your Output Directory` z rzeczywistymi ścieżkami na Twoim komputerze. 
+Zastępować `Your Document Directory` I `Your Output Directory` z rzeczywistymi ścieżkami na Twoim komputerze. 
 
 ## Krok 2: Załaduj istniejący skoroszyt
 
@@ -106,7 +108,7 @@ Po wybraniu wykresu czas dodać zdjęcie!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Tutaj,`50` I`50` to współrzędne X i Y, pod którymi zostanie umieszczony obraz, oraz`200` jest szerokością i wysokością obrazu.
+Tutaj, `50` I `50` to współrzędne X i Y, pod którymi zostanie umieszczony obraz, oraz `200` jest szerokością i wysokością obrazu.
 
 ## Krok 6: Dostosuj format linii obrazu
 
@@ -151,22 +153,24 @@ W tym samouczku sprawdziliśmy, jak dodać odrobinę osobowości do wykresów Ex
 ## Najczęściej zadawane pytania
 
 ### Czy mogę dodać wiele zdjęć do jednego wykresu?
- Tak! Możesz zadzwonić`AddPictureInChart` Metodę tę powtarzaj wielokrotnie, aby dodać tyle zdjęć, ile chcesz.
+Tak! Możesz zadzwonić `AddPictureInChart` Metodę tę powtarzaj wielokrotnie, aby dodać tyle zdjęć, ile chcesz.
 
 ### Jakie formaty obrazów obsługuje Aspose.Cells?
 Aspose.Cells obsługuje wiele formatów obrazów, w tym PNG, JPEG, BMP i GIF.
 
 ### Czy mogę dostosować położenie obrazu?
- Oczywiście! Współrzędne X i Y w`AddPictureInChart` Metoda ta pozwala na precyzyjne pozycjonowanie.
+Oczywiście! Współrzędne X i Y w `AddPictureInChart` Metoda ta pozwala na precyzyjne pozycjonowanie.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells oferuje bezpłatną wersję próbną, ale do korzystania z pełnych funkcji wymagana jest licencja. Cennik można znaleźć[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do korzystania z pełnych funkcji wymagana jest licencja. Cennik można znaleźć [Tutaj](https://purchase.aspose.com/buy).
 
 ### Gdzie mogę znaleźć więcej przykładów?
- Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby zobaczyć bardziej szczegółowe przykłady i funkcjonalności.
+Sprawdź [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby zobaczyć bardziej szczegółowe przykłady i funkcjonalności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

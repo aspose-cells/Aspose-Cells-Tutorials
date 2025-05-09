@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel exportálása XML Java-ba
@@ -60,7 +62,7 @@ worksheet.save(outputStream, SaveFormat.XML);
 
 ## 5. lépés: Az XML fájl mentése
 
-Szükség esetén az XML-adatokat fájlba mentheti.
+Szükség esetén az XML adatokat fájlba mentheti.
 
 ```java
 // XML adatok mentése fájlba
@@ -126,6 +128,7 @@ Gratulálunk! Sikeresen megtanultad, hogyan exportálhatsz Excel-adatokat XML-be
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

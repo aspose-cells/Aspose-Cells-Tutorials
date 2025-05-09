@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells का उपयोग करके तालिका को ODS में बदलें
-linktitle: Aspose.Cells का उपयोग करके तालिका को ODS में बदलें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel तालिकाओं को ODS में परिवर्तित करना सीखें।
-weight: 12
-url: /hi/net/tables-and-lists/converting-table-to-ods/
+"description": "हमारे आसान चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel तालिकाओं को ODS में परिवर्तित करना सीखें।"
+"linktitle": "Aspose.Cells का उपयोग करके तालिका को ODS में बदलें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Aspose.Cells का उपयोग करके तालिका को ODS में बदलें"
+"url": "/hi/net/tables-and-lists/converting-table-to-ods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells का उपयोग करके तालिका को ODS में बदलें
@@ -23,11 +25,11 @@ url: /hi/net/tables-and-lists/converting-table-to-ods/
 
 ### विज़ुअल स्टूडियो स्थापित करें
 
-सुनिश्चित करें कि आपके सिस्टम पर Visual Studio सेट अप है। यह एक मजबूत IDE है जो आपको आसानी से अपना C# कोड लिखने, डीबग करने और चलाने में मदद करेगा।
+सुनिश्चित करें कि आपके सिस्टम पर Visual Studio सेट अप है। यह एक मज़बूत IDE है जो आपको आसानी से अपना C# कोड लिखने, डीबग करने और चलाने में मदद करेगा।
 
 ### Aspose.Cells लाइब्रेरी डाउनलोड करें
 
- आपको अपने प्रोजेक्ट में Aspose.Cells लाइब्रेरी इंस्टॉल करनी होगी। आप नवीनतम संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/)वैकल्पिक रूप से, यदि आप चाहें, तो आप इसे NuGet के माध्यम से जोड़ सकते हैं:
+आपको अपने प्रोजेक्ट में Aspose.Cells लाइब्रेरी इंस्टॉल करनी होगी। आप नवीनतम संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/)वैकल्पिक रूप से, यदि आप चाहें, तो आप इसे NuGet के माध्यम से जोड़ सकते हैं:
 
 ```bash
 Install-Package Aspose.Cells
@@ -60,14 +62,14 @@ using Aspose.Cells;
 ## चरण 1: अपना स्रोत और आउटपुट निर्देशिका सेट करें
 
 क्या करें:
-कोडिंग शुरू करने से पहले, यह तय करें कि आपकी स्रोत एक्सेल फ़ाइल कहाँ संग्रहीत है और आप अपनी ODS फ़ाइल कहाँ सहेजना चाहते हैं।
+कोडिंग शुरू करने से पहले, तय करें कि आपकी स्रोत एक्सेल फ़ाइल कहाँ संग्रहीत है और आप अपनी ODS फ़ाइल कहाँ सहेजना चाहते हैं।
 
 ```csharp
 string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` आपके कंप्यूटर पर वह वास्तविक पथ जहाँ आपके दस्तावेज़ संग्रहीत हैं। फ़ाइल संचालन के दौरान त्रुटियों से बचने के लिए सही पथ सुनिश्चित करना आवश्यक है।
+प्रतिस्थापित करें `"Your Document Directory"` आपके कंप्यूटर पर वह वास्तविक पथ जहाँ आपके दस्तावेज़ संग्रहीत हैं। फ़ाइल संचालन के दौरान त्रुटियों से बचने के लिए सही पथ सुनिश्चित करना आवश्यक है।
 
 ## चरण 2: एक्सेल फ़ाइल खोलें
 
@@ -78,7 +80,7 @@ string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 ```
 
- यहाँ, आप एक नया आरंभ कर रहे हैं`Workbook` ऑब्जेक्ट को अपनी एक्सेल फ़ाइल के पथ के साथ जोड़ें। सुनिश्चित करें कि "SampleTable.xlsx" आपकी फ़ाइल का नाम है; यदि यह अलग है, तो तदनुसार समायोजित करें।
+यहाँ, आप एक नया आरंभ कर रहे हैं `Workbook` ऑब्जेक्ट को अपनी एक्सेल फ़ाइल के पथ के साथ जोड़ें। सुनिश्चित करें कि "SampleTable.xlsx" आपकी फ़ाइल का नाम है; यदि यह अलग है, तो तदनुसार समायोजित करें।
 
 ## चरण 3: ODS फ़ाइल के रूप में सहेजें
 
@@ -89,7 +91,7 @@ Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 wb.Save(outputDir + "ConvertTableToOds_out.ods");
 ```
 
-यह लाइन कार्यपुस्तिका को "ConvertTableToOds_out.ods" नाम से निर्दिष्ट आउटपुट निर्देशिका में सहेजती है। आप इसे अपनी इच्छानुसार कोई भी नाम दे सकते हैं, बशर्ते यह के साथ समाप्त हो`.ods`.
+यह लाइन कार्यपुस्तिका को "ConvertTableToOds_out.ods" नाम से निर्दिष्ट आउटपुट निर्देशिका में सहेजती है। आप इसे अपनी इच्छानुसार कोई भी नाम दे सकते हैं, बशर्ते यह के साथ समाप्त हो `.ods`.
 
 ## चरण 4: रूपांतरण सफलता सत्यापित करें
 
@@ -112,19 +114,21 @@ Console.WriteLine("ConvertTableToOds executed successfully.");
 Aspose.Cells .NET अनुप्रयोगों में Excel फ़ाइलों के प्रबंधन और हेरफेर के लिए एक शक्तिशाली लाइब्रेरी है। 
 
 ### क्या मैं Aspose.Cells को निःशुल्क आज़मा सकता हूँ?
- हाँ! आप Aspose.Cells का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हाँ! आप Aspose.Cells का निःशुल्क परीक्षण यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या Aspose.Cells उपयोगकर्ताओं के लिए समर्थन उपलब्ध है?
- बिल्कुल! आप यहाँ से सहायता प्राप्त कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+बिल्कुल! आप यहाँ से सहायता प्राप्त कर सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 ### मैं Aspose.Cells के लिए स्थायी लाइसेंस कैसे खरीद सकता हूं?
- आप Aspose खरीद पृष्ठ से सीधे एक स्थायी लाइसेंस खरीद सकते हैं, जिसे आप पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+आप Aspose खरीद पृष्ठ से सीधे स्थायी लाइसेंस खरीद सकते हैं, जिसे आप पा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं Aspose.Cells के साथ किस प्रकार के फ़ाइल स्वरूपों को परिवर्तित कर सकता हूँ?
 Aspose.Cells के साथ, आप XLSX, XLS, ODS, CSV, और कई अन्य सहित विभिन्न प्रारूपों के बीच रूपांतरण कर सकते हैं!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

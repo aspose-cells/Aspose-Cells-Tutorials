@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -105,7 +107,7 @@ Salvando la cartella di lavoro utilizzando queste opzioni si garantisce che qual
 
 ### Suggerimenti per la risoluzione dei problemi
 
-- **Problemi di percorso**: assicurarsi che tutti i percorsi dei file siano specificati correttamente e accessibili.
+- **Problemi di percorso**: Assicurarsi che tutti i percorsi dei file siano specificati correttamente e accessibili.
 - **Compatibilità della libreria**: Verifica di utilizzare una versione compatibile di Aspose.Cells per Java per evitare comportamenti imprevisti.
 
 ## Applicazioni pratiche
@@ -151,6 +153,9 @@ Esplora le funzionalità aggiuntive di Aspose.Cells, come la conversione dei gra
 Questo tutorial rappresenta una guida completa per convertire i file Excel in HTML utilizzando Aspose.Cells per Java, garantendo chiarezza e funzionalità nelle presentazioni web.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Dominar el formato condicional en libros de trabajo .NET con Aspose.Cells para Java
+# Dominar el formato condicional en libros .NET con Aspose.Cells para Java
 
 ## Introducción
 
@@ -206,6 +208,9 @@ En este tutorial, exploramos cómo aprovechar Aspose.Cells para Java para automa
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

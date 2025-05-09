@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Så här ställer du in kommentarer på Excel-listobjekt med hjälp av Aspose.Cells för Java
 
-Inom datahantering är det viktigt att effektivt kommentera kalkylblad för tydlighet och samarbete. Om du har haft problem med att lägga till kommentarer direkt till specifika objekt i en Excel-arbetsbok med Java, kommer den här guiden att hjälpa dig. Vi utforskar hur man ställer in kommentarer för tabell- eller listobjekt i ett Excel-arbetsblad med Aspose.Cells för Java – din omfattande lösning för avancerade Excel-manipulationer.
+Inom datahantering är det viktigt att effektivt kommentera kalkylblad för tydlighet och samarbete. Om du har haft problem med att lägga till kommentarer direkt till specifika objekt i en Excel-arbetsbok med Java, kommer den här guiden att hjälpa dig. Vi utforskar hur du ställer in kommentarer för tabell- eller listobjekt i ett Excel-arbetsblad med Aspose.Cells för Java – din omfattande lösning för avancerade Excel-manipulationer.
 
 ## Vad du kommer att lära dig:
 - Installera och konfigurera Aspose.Cells för Java
@@ -171,6 +173,9 @@ Grattis! Du har lärt dig hur du anger kommentarer på Excel-listobjekt med Aspo
 Utforska dessa resurser när du fortsätter din resa med Aspose.Cells för Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

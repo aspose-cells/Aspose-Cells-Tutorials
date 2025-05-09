@@ -1,46 +1,51 @@
 ---
-title: التلاعب بالترتيب Z للأشكال في Excel باستخدام Aspose.Cells
-weight: 7700
-limit: 
-description: تعلم كيفية تحميل دفتر عمل Excel وتعديل شكل أوامر Z، وتخزين التغييرات باستخدام Aspose.Cells ل .NET.
-keywords: [Aspose.Cells, C#, .NET, Excel manipulation, Z-order, shapes, workbook, developers, code example]
-url: /ar/net/drawing-objects/send-shape-front-or-back-in-worksheet/
+"description": "تعرف على كيفية تحميل مصنف Excel وتعديل ترتيبات الشكل Z وحفظ التغييرات باستخدام Aspose.Cells لـ .NET."
+"title": "معالجة ترتيب Z للأشكال في Excel باستخدام Aspose.Cells"
+"url": "/ar/net/drawing-objects/send-shape-front-or-back-in-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التلاعب بالترتيب Z للأشكال في Excel باستخدام Aspose.Cells
+# معالجة ترتيب Z للأشكال في Excel باستخدام Aspose.Cells
  
-يوضح هذا المثال كيفية استخدام Aspose.Cells لـ .NET لتحميل دفتر عمل Excel ، وتلاعب بمواقع ترتيب Z للأشكال داخل ورقة عمل ، وتحفظ دفتر العمل المحدث. من خلال اتباع هذا الدليل ، يمكن للمطورين اكتساب نظرة بصرية في الوصول إلى الأشكال ، وتعديل ترتيب التجميع البصري ، وضمان تمثيل عناصر في ملفات Excel بشكل صحيح. تقدم قطع الكود المقدمة نهجا واضحا خطوة خطوة لتنفيذ هذه العمليات بكفاءة.
+يوضح هذا المثال كيفية استخدام Aspose.Cells لـ .NET لتحميل مصنف Excel، ومعالجة ترتيب الأشكال Z في ورقة العمل، وحفظ المصنف المُحدّث. باتباع هذا الدليل، يمكن للمطورين اكتساب فهم أعمق لكيفية الوصول إلى الأشكال، وتعديل ترتيب التكديس المرئي، وضمان التمثيل الصحيح للعناصر في ملفات Excel. تُقدم مقتطفات التعليمات البرمجية المُقدمة نهجًا واضحًا وخطوة بخطوة لتنفيذ هذه العمليات بكفاءة.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/send-shape-front-or-back-in-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
-1. تأكد من أن لديك بيئة تطوير .NET، مثل Visual Studio.  
-2. قم بتثبيت Aspose.Cells ل .NET عبر NuGet Package Manager. استخدم الأوامر التالية في Console Manager Package:  
+1. تأكد من إعداد بيئة تطوير .NET، مثل Visual Studio.  
+2. ثبّت Aspose.Cells لـ .NET عبر مدير حزم NuGet. استخدم الأمر التالي في وحدة تحكم مدير الحزم:  
    ```
    Install-Package Aspose.Cells
    ```
-3. إضافة إشارة إلى مساحة أسماء Aspose.Cells في مشروعك:  
+3. أضف مرجعًا إلى مساحة اسم Aspose.Cells في مشروعك:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Drawing; 
    ```
-4. إعداد ملف Excel المصدر وتحديث الملف`المصدر`و`النتائج`المسارات في أمثلة الرمز المقدمة.  
-5. نسخ وتلصق مقطع الرمز المقدم في مشروعك للتلاعب بالترتيب Z للأشكال داخل ملف Excel الخاص بك.  
-6. قم ببناء وتشغيل تطبيقك لرؤية التغييرات التي تعكس في ملف Excel المخرج.
+4. قم بإعداد ملف Excel المصدر الخاص بك وقم بتحديثه `sourceDir` و `outputDir` المسارات في أمثلة التعليمات البرمجية المقدمة.  
+5. انسخ ولصق مقتطف التعليمات البرمجية المقدم في مشروعك للتحكم في ترتيب Z للأشكال داخل ملف Excel الخاص بك.  
+6. قم ببناء وتشغيل تطبيقك لرؤية التغييرات التي تنعكس في ملف Excel الناتج.
 
-## انظر أيضاً  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

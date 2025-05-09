@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@ Java için Aspose.Cells kullanarak pivot grafikleri oluşturmadan önce şunlara
 
 ### Bilgi Önkoşulları
 - Java programlama kavramlarının temel düzeyde anlaşılması.
-- Excel çalışma kitapları ve grafiklerine aşinalık faydalıdır ancak gerekli değildir.
+- Excel çalışma kitapları ve grafiklerine aşinalık faydalıdır ancak zorunlu değildir.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -209,6 +211,9 @@ Aspose.Cells hakkında daha fazla bilgi edinmek ve veri yönetimi araç setinize
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

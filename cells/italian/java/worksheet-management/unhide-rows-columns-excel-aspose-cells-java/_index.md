@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ public class UnhideRowsColumns {
 - `index`: Indice di riga (basato su 0).
 - `height`: Nuova altezza per la riga.
 
-### Colonne nascoste
+### Scoprire le colonne
 Allo stesso modo, per visualizzare una colonna:
 ```java
 public class UnhideRowsColumns {
@@ -231,6 +233,9 @@ I prossimi passi prevedono l'esplorazione di ulteriori funzionalità di Aspose.C
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

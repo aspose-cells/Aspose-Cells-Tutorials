@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ A5: Χρησιμοποιήστε αποτελεσματικές πρακτικέ
 Αξιοποιώντας το Aspose.Cells για Java, μπορείτε να αναβαθμίσετε τις εργασίες αυτοματοποίησης του Excel σε ένα νέο επίπεδο αποτελεσματικότητας και σαφήνειας. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

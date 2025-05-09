@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
    - **パラメータ:** save メソッドでは、変更された Excel ファイルを保存するためのファイル パスが必要です。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 Aspose.Cells for Java はさまざまなシナリオで使用できます。
 
 1. **自動財務報告:** さまざまなワークシートからデータを取得し、関連するグラフを概要シートにコピーすることで、財務レポートを自動的に生成および更新します。
@@ -183,6 +185,9 @@ Aspose.Cells for Java はさまざまなシナリオで使用できます。
 - 可能な場合はシェイプ操作をグループ化して、シェイプ操作の数を最小限に抑え、処理時間とリソースの消費を削減します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

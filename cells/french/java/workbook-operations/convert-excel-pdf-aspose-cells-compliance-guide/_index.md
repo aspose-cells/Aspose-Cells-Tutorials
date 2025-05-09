@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ A5 : Oui, avec l'achat d'une licence ou d'un essai approprié. Assurez-vous de 
 Ce guide vous fournit les outils et les connaissances nécessaires pour exploiter efficacement Aspose.Cells pour Java, améliorant ainsi vos capacités de traitement de documents.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

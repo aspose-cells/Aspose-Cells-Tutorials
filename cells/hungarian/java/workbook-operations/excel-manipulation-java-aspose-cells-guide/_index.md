@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ Nagy adathalmazokkal vagy összetett munkafüzetekkel való munka során vegye f
 Ezen technikák elsajátításával javíthatja Excel automatizálási feladatainak teljesítményét és megbízhatóságát az Aspose.Cells használatával Java-ban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

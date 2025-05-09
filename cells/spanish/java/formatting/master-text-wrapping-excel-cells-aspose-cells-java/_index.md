@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ document.save("WrapTextinCell_out.xls");
 
 ## Aplicaciones prácticas
 
-Comprender cómo ajustar el texto puede resultar beneficioso en diversas situaciones:
+Comprender cómo ajustar el texto puede resultar beneficioso en varios escenarios:
 
 1. **Informes financieros**:Descripciones largas o notas que acompañan a las cifras financieras.
 2. **Gestión de inventario**:Descripciones detalladas de artículos en un catálogo.
@@ -139,7 +141,7 @@ La integración de Aspose.Cells con otros sistemas, como bases de datos o aplica
 ## Consideraciones de rendimiento
 
 Al trabajar con grandes conjuntos de datos:
-- Optimice el uso de la memoria administrando el tamaño del libro de trabajo y el contenido de las celdas de manera eficiente.
+- Optimice el uso de la memoria administrando el tamaño del libro y el contenido de las celdas de manera eficiente.
 - Actualice periódicamente Aspose.Cells para beneficiarse de las mejoras de rendimiento en las versiones más nuevas.
 
 Adherirse a las mejores prácticas de Java para la gestión de memoria garantiza el buen funcionamiento de la aplicación.
@@ -178,6 +180,9 @@ Siguiendo esta guía, ha aprendido a ajustar texto eficazmente dentro de celdas 
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

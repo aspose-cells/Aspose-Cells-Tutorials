@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ Cell cell = worksheet.getCells().get(0, 0); // 最初のセル (A1) にアクセ
 
 ## FAQセクション
 **1. Maven 以外のプロジェクトに Aspose.Cells をインストールするにはどうすればよいですか?**
-- JARファイルを直接ダウンロードしてください。 [Aspose ダウンロードページ](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスに追加します。
+- JARファイルを直接ダウンロードしてください。 [Aspose ダウンロード ページ](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスに追加します。
 
 **2. Aspose.Cells を Java 8 で使用できますか?**
 - はい、Java 8 以降のバージョンと互換性があります。
@@ -151,6 +153,9 @@ Cell cell = worksheet.getCells().get(0, 0); // 最初のセル (A1) にアクセ
 Aspose.CellsとJavaの学習を続ける際には、ぜひこれらのリソースをご活用ください。楽しいコーディングを！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

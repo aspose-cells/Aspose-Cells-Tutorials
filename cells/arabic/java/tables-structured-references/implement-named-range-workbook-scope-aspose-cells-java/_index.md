@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: تأكد من أن أسماء النطاقات فريدة وصالحة في 
 لمزيد من المعلومات، استكشف الموارد المتاحة على [تنزيلات Aspose](https://releases.aspose.com/cells/java/) وفكر في الحصول على ترخيص مؤقت للوصول إلى الميزات الكاملة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

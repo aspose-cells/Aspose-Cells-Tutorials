@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```java
 import com.aspose.cells.Cell;
 
-// Hozzáférés A1 cellához
+// Hozzáférési cella A1
 Cell cell = worksheet.getCells().get("A1");
 ```
 
@@ -157,7 +159,7 @@ workbook.save(outDir + "/DisplayBullets_out.xlsx");
 
 ## Teljesítménybeli szempontok
 
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - Az erőforrások hatékony kezelése a nem használt objektumok felszabadításával.
 - A memória-csúcsok elkerülése érdekében a nagy adathalmazokat fokozatosan kell kezelni.
 - Használja az Aspose hatékony memóriakezelési gyakorlatát Java alkalmazásokhoz.
@@ -194,6 +196,9 @@ Ez az oktatóanyag végigvezetett egy Excel-munkafüzet létrehozásán, a cella
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

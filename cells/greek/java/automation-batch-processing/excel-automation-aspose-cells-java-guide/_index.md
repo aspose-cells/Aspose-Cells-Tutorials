@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ class SaveWorkbook {
 - Να δοκιμάζετε πάντα διεξοδικά τα σενάρια αυτοματοποίησης και να χειρίζεστε τις εξαιρέσεις με ευγένεια. Βεβαιωθείτε ότι οι πηγές δεδομένων σας είναι αξιόπιστες και ενημερωμένες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

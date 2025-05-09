@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ A5: Evet, uygun bir lisans satın alımı veya deneme ile. Ticari kullanım içi
 Bu kılavuz, Aspose.Cells for Java'yı etkili bir şekilde kullanmanız ve belge işleme yeteneklerinizi geliştirmeniz için gereken araçları ve bilgileri sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

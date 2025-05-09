@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erweiterte Datenvalidierungstechniken
@@ -20,7 +22,7 @@ Bei der Datenvalidierung werden Regeln und Einschränkungen definiert, um zu ver
 
 ## Einrichten von Aspose.Cells für Java
 
-Bevor wir uns mit den fortgeschrittenen Techniken befassen, beginnen wir mit Aspose.Cells für Java. Sie können die Bibliothek von der [Download-Link für Aspose.Cells für Java](https://releases.aspose.com/cells/java/). Befolgen Sie unbedingt die Installationsanweisungen in der Dokumentation unter [Aspose.Cells für Java-API-Referenzen](https://reference.aspose.com/cells/java/).
+Bevor wir uns mit den fortgeschrittenen Techniken befassen, beginnen wir mit Aspose.Cells für Java. Sie können die Bibliothek von der [Download-Link für Aspose.Cells für Java](https://releases.aspose.com/cells/java/)Befolgen Sie unbedingt die Installationsanweisungen in der Dokumentation unter [Aspose.Cells für Java-API-Referenzen](https://reference.aspose.com/cells/java/).
 
 ## Grundlegende Datenvalidierung
 
@@ -113,6 +115,7 @@ Ausführliche Dokumentationen und Referenzen finden Sie unter [Aspose.Cells für
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

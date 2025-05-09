@@ -8,7 +8,9 @@ url: /net/working-with-chart-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Chart Data
@@ -34,9 +36,11 @@ Learn how to create a Line with Data Markers chart in Excel using Aspose.Cells f
 Learn to find the types of X and Y values in chart series using Aspose.Cells for .NET with this detailed, easy-to-follow guide.
 ### [Get Chart Subtitle for ODS File](./get-chart-subtitle-for-ods-file/)
 Explore how to extract chart subtitles from ODS files using Aspose.Cells for .NET with this detailed step-by-step guide. Perfect for developers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

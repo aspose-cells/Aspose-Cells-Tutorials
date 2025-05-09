@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تصدير Excel إلى PDF
@@ -106,9 +108,11 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 س5: أين يمكنني العثور على مزيد من الوثائق والأمثلة لـ Aspose.Cells؟
 
 استكشف وثائق واجهة برمجة التطبيقات Aspose.Cells على [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) للحصول على توثيق شامل ومجموعة كبيرة من الأمثلة لتوسيع معرفتك بشكل أكبر.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ Kísérletezz különböző alakzattípusokkal és stílusokkal, vagy integráld
    - Gyakori hibák közé tartozik a helytelen koordinátabeállítások vagy a stílusok alkalmazásának elmulasztása a munkafüzet mentése előtt.
 
 5. **Hogyan járulhatok hozzá az Aspose.Cells dokumentációjának vagy funkcióinak fejlesztéséhez?**
-   - Lépjen kapcsolatba a közösséggel a saját oldalukon [támogatási fórum](https://forum.aspose.com/c/cells/9) és ossza meg visszajelzéseit vagy javaslatait a fejlesztésekre.
+   - Lépjen kapcsolatba a közösséggel a saját oldalukon [támogató fórum](https://forum.aspose.com/c/cells/9) és ossza meg visszajelzéseit vagy javaslatait a fejlesztésekre.
 
 ## Erőforrás
 - **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
@@ -176,6 +178,9 @@ Kísérletezz különböző alakzattípusokkal és stílusokkal, vagy integráld
 - **Támogatás:** Kérjen segítséget a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

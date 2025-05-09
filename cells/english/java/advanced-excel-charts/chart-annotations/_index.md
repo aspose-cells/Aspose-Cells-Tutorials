@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/chart-annotations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Annotations
@@ -127,6 +129,7 @@ You can find more tutorials and documentation on Aspose.Cells for Java at [here]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

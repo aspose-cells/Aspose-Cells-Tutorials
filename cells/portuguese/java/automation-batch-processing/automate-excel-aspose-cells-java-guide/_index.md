@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ As possibilidades de integração incluem conectar o Aspose.Cells com bancos de 
 ## Considerações de desempenho
 
 Ao trabalhar com arquivos grandes do Excel, considere estas dicas para um desempenho ideal:
-- **Otimize o uso da memória**: Ajuste as configurações da JVM com base na capacidade do seu sistema.
+- **Otimizar o uso da memória**: Ajuste as configurações da JVM com base na capacidade do seu sistema.
 - **Tratamento eficiente de dados**: Carregue somente planilhas e intervalos de dados necessários na memória.
 - **Melhores Práticas**: Use APIs de streaming quando disponíveis para lidar com grandes conjuntos de dados sem sobrecarregar os recursos.
 
@@ -192,6 +194,9 @@ Este guia apresentou os recursos essenciais do Aspose.Cells para Java, demonstra
 Seguindo este guia, você estará bem equipado para automatizar tarefas do Excel usando o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

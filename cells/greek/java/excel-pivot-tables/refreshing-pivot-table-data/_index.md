@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ανανέωση δεδομένων Συγκεντρωτικού Πίνακα
@@ -90,9 +92,11 @@ workbook.save(outputFilePath);
    - Ναι, μπορείτε να προγραμματίσετε αυτόματες ανανεώσεις δεδομένων χρησιμοποιώντας το Aspose.Cells και τις βιβλιοθήκες προγραμματισμού Java. Αυτό σας επιτρέπει να διατηρείτε τους Συγκεντρωτικούς Πίνακες σας ενημερωμένους χωρίς χειροκίνητη παρέμβαση.
 
 Τώρα έχετε τις γνώσεις για να ανανεώσετε τα δεδομένα του Συγκεντρωτικού Πίνακα στο Aspose.Cells για Java. Διατηρήστε τις αναλύσεις σας ακριβείς και μείνετε μπροστά στις αποφάσεις σας που βασίζονται σε δεδομένα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

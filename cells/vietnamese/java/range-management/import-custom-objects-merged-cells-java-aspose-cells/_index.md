@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@ Bạn đã bao giờ đối mặt với thách thức nhập dữ liệu hiệu 
 
 **Những gì bạn sẽ học được:**
 - Thiết lập và sử dụng Aspose.Cells cho Java.
-- Các kỹ thuật nhập đối tượng tùy chỉnh vào các ô đã hợp nhất.
+- Các kỹ thuật để nhập các đối tượng tùy chỉnh vào các ô đã hợp nhất.
 - Tối ưu hóa hiệu suất khi làm việc với các tập dữ liệu lớn.
 - Ứng dụng thực tế của tính năng này.
 Bạn đã sẵn sàng chưa? Trước tiên hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu.
@@ -165,6 +167,9 @@ Bây giờ bạn đã được trang bị kiến thức và công cụ, hãy b�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

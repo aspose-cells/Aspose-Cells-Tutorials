@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial komentar dan anotasi kami menunjukkan kepada Anda cara mengimplementasikan fitur kolaboratif dalam dokumen Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini mencakup pembuatan dan pemformatan komentar sel, pengelolaan diskusi berulir, pengendalian visibilitas komentar, dan penggunaan alat tinjauan secara terprogram. Setiap tutorial mencakup contoh kode Java praktis yang menunjukkan cara menyempurnakan lembar kerja Anda dengan catatan penjelasan dan mekanisme umpan balik untuk mendukung kolaborasi tim.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi komentar & anotasi
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -59,10 +61,13 @@ Tutorial kode untuk Aspose.Words Java
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

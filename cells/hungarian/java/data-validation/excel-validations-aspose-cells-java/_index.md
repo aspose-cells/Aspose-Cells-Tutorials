@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,8 +140,8 @@ Megtanultad, hogyan tölthetsz be Excel-munkafüzeteket, hogyan érhetsz el munk
 5. **Van mód az ellenőrzési frissítések automatizálására több munkafüzetben?**
    - Igen, szkripteld ezeket a műveleteket az alkalmazáslogikádban, hogy tömegesen alkalmazhasd őket.
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells letöltések](https://releases.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells letöltések](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ingyenes próbaverzió igénylése](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
@@ -148,6 +150,9 @@ Ez az útmutató segít az Excel-validációk Aspose.Cells használatával tört
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

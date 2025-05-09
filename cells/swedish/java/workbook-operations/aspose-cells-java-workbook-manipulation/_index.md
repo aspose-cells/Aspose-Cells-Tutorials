@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ För hjälp eller feedback, gå med i [Aspose-forumet](https://forum.aspose.com/
 - **Köp och gratis provperiod**Läs mer om att skaffa en licens eller börja med en gratis provperiod på [Aspose-köp](https://purchase.aspose.com/buy) och [Gratis provperiod](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

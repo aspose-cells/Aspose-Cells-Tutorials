@@ -1,41 +1,44 @@
 ---
-title: Crie um gráfico de linhas com marcadores de dados em Aspose.Cells para .NET
-weight: 7700
-limit: 
-description: Aprenda a criar um livro de trabalho e gerar um gráfico de linhas com marcadores de dados usando Aspose.Cells para .NET. Siga este guia passo a passo com exemplos de código.
-keywords: [Aspose.Cells for .NET, create line chart, data markers, workbook, .NET Excel chart, C# chart example, Excel automation, Aspose.Cells tutorial]
-url: /pt/net/charts/create-line-with-data-marker-chart/
+"description": "Aprenda a criar uma pasta de trabalho e gerar um gráfico de linhas com marcadores de dados usando o Aspose.Cells para .NET. Siga este guia passo a passo com exemplos de código."
+"title": "Crie um gráfico de linhas com marcadores de dados no Aspose.Cells para .NET"
+"url": "/pt/net/charts/create-line-with-data-marker-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criar um gráfico de linhas com marcadores de dados em Aspose.Cells
+# Crie um gráfico de linhas com marcadores de dados em Aspose.Cells
 
-Este tutorial demonstra como criar um gráfico de linhas com marcadores de dados em um livro de trabalho do Excel usando Aspose.Cells para .NET. Você aprenderá como gerar dados aleatórios, inserí-los em uma folha de trabalho e configurar um gráfico visualmente atraente com estilos personalizáveis. O guia abrange tudo, desde a configuração do seu livro de trabalho até salvar o arquivo final. Se você está automatizando relatórios do Excel ou melhorando a visualização de dados, este exemplo passo a passo irá ajudá-lo a implementar gráficos de linhas sem esforço usando C #.  
+Este tutorial demonstra como criar um gráfico de linhas com marcadores de dados em uma pasta de trabalho do Excel usando o Aspose.Cells para .NET. Você aprenderá a gerar dados aleatórios, inseri-los em uma planilha e configurar um gráfico visualmente atraente com estilos personalizáveis. O guia abrange tudo, desde a configuração da sua pasta de trabalho até o salvamento do arquivo final. Seja para automatizar relatórios do Excel ou aprimorar a visualização de dados, este exemplo passo a passo ajudará você a implementar gráficos de linhas sem esforço usando C#.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação:  
 
-Para usar Aspose.Cells para .NET no seu projeto, siga estes passos:  
+Para usar o Aspose.Cells para .NET em seu projeto, siga estas etapas:  
 
-1. Instalação através do NuGet:  
-   Abra o Console do Gestor de Pacotes no Visual Studio e execute:  
+1. Instalar via NuGet:  
+   Abra o Console do Gerenciador de Pacotes no Visual Studio e execute:  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. Download DLL:  
-   Alternativamente, você pode baixar a versão mais recente de Aspose.Cells para .NET em [Aspone Downloads](https://releases.aspose.com/cells/net/)\- Não .
+2. Baixar DLL:  
+   Alternativamente, você pode baixar a versão mais recente do Aspose.Cells para .NET em [Downloads do Aspose](https://releases.aspose.com/cells/net/).
 
-3. Adicionar Referência:  
-   Se você baixou o DLL manualmente, adicione uma referência para `Aspose.Cells.`no seu projeto .NET.
+3. Adicionar referência:  
+   Se você baixou a DLL manualmente, adicione uma referência a `Aspose.Cells.dll` no seu projeto .NET.
 
-4. Incluir espaço de nomes:  
+4. Incluir namespace:  
    No seu arquivo C#, adicione:  
    ```csharp
    using Aspose.Cells;
@@ -43,17 +46,19 @@ Para usar Aspose.Cells para .NET no seu projeto, siga estes passos:
    using System.Drawing;
    ```
 
-5. Exercer o Exemplo:  
-   Copiar e colar o código C# fornecido no seu projeto, atualizar o diretório de saída e executar o script para gerar um arquivo Excel com um gráfico de linhas.
+5. Execute o exemplo:  
+   Copie e cole o código C# fornecido no seu projeto, atualize o diretório de saída e execute o script para gerar um arquivo Excel com um gráfico de linhas.
 
 ## Veja também
-Para uma prova gratuita, visite [Aplique um julgamento livre](https://releases.aspose.com/)\- Não .  
-Para comprar uma licença, vai para o[Aponta a página de compra](https://purchase.aspose.com/buy)\- Não .  
-Para obter a documentação completa, visite [Aspose.Cells para Documentação .NET](https://docs.aspose.com/cells/net/)\- Não .  
-Para explorar a referência completa da API, verifique [Aspose.Cells para Referência de API .NET](https://reference.aspose.com/cells/net/)\- Não . 
+Para um teste gratuito, visite [Teste gratuito do Aspose](https://releases.aspose.com/).  
+Para adquirir uma licença, acesse [Página de compra da Aspose](https://purchase.aspose.com/buy).  
+Para documentação completa, visite [Documentação do Aspose.Cells para .NET](https://docs.aspose.com/cells/net/).  
+Para explorar a referência completa da API, confira [Referência da API Aspose.Cells para .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

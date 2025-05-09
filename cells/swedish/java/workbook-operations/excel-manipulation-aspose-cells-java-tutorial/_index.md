@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ Du har nu lärt dig hur du skapar Excel-arbetsböcker från grunden och tillämp
 
 För ytterligare utforskning kan du experimentera med mer avancerade funktioner som formelberäkningar eller diagramgenerering. Glöm inte att kolla in [Aspose-dokumentation](https://reference.aspose.com/cells/java/) för mer detaljerad information och exempel.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 **F: Vad är Aspose.Cells?**
 A: Aspose.Cells är ett bibliotek som låter utvecklare skapa, manipulera och konvertera Excel-filer i Java-applikationer utan att behöva installera Microsoft Office.
@@ -183,6 +185,9 @@ A: Besök [Aspose webbplats](https://purchase.aspose.com/temporary-license/) fö
 - **Stöd**Gå med i gemenskapen eller få hjälp via [Aspose-forumet](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

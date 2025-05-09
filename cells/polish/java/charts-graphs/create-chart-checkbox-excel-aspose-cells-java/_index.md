@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Oto kilka scenariuszy z życia wziętych, w których możesz zastosować wiedzę
 3. **Narzędzia edukacyjne:** Twórz dynamiczne materiały edukacyjne, dzięki którym uczniowie mogą wchodzić w interakcję z treścią, wybierając różne opcje na wykresach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

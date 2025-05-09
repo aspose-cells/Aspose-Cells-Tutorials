@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 中的数据集成
@@ -109,9 +111,11 @@ Aspose.Cells for Java 提供免费试用，但需要许可证才能完整使用�
 虽然 Aspose.Cells for Java 是一个强大的选择，但 Apache POI 等替代方案也提供了 Excel 集成功能。
 
 本指南全面易懂，助您掌握如何使用 Aspose.Cells for Java 在 Excel 中进行数据集成。欢迎进一步探索，并根据您的具体需求调整这些步骤。祝您数据集成愉快！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Aspose.Cells for Java Kullanarak Excel'de Dizili Yorumlar Nasıl Okunur
+# Java için Aspose.Cells Kullanarak Excel'de Dizili Yorumlar Nasıl Okunur
 
 ## giriiş
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parametreler ve Yöntemler
 - **Çalışma kitabı**: Excel dosyasının tamamını temsil eder.
-- **Çalışma sayfası**: Çalışma kitabındaki tek bir sayfayı ifade eder.
+- **Çalışma sayfası**Çalışma kitabındaki tek bir sayfayı ifade eder.
 - **KonuluYorumKoleksiyonu**Bir hücreyle ilişkili yorumların koleksiyonu.
 
 ## Pratik Uygulamalar
@@ -148,6 +150,9 @@ Daha derine dalmaya hazır mısınız? Bu çözümü kendi projelerinizde uygula
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

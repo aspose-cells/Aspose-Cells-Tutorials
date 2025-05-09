@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ Dividiremos la implementación en dos características clave: crear y manipular 
 ### Característica 1: Creación de libros de trabajo y manipulación básica
 
 #### Descripción general
-Crear un libro de trabajo y modificar su contenido mediante programación puede mejorar significativamente sus capacidades de procesamiento de datos. Comencemos creando un archivo de Excel y agregándole datos.
+Crear un libro de trabajo y modificar su contenido mediante programación puede mejorar significativamente sus capacidades de procesamiento de datos. Comencemos creando un archivo de Excel y añadiéndole datos.
 
 #### Implementación paso a paso
 
@@ -140,7 +142,7 @@ System.out.println("Workbook saved successfully!");
 ### Función 2: Establecer la visibilidad de columnas y filas
 
 #### Descripción general
-Controlar la visibilidad de columnas y filas es crucial para enfocarse en partes específicas de sus datos. Esta función le permite configurar qué columnas y filas son visibles.
+Controlar la visibilidad de columnas y filas es crucial para centrarse en partes específicas de sus datos. Esta función le permite configurar qué columnas y filas son visibles.
 
 #### Implementación paso a paso
 
@@ -226,6 +228,9 @@ Ahora que tienes todos los recursos y conocimientos, ¡sigue adelante y comienza
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

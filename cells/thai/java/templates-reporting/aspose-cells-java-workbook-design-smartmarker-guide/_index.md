@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ class CustomSmartMarkerCallBack implements ISmartMarkerCallBack {
 }
 ```
 
-**รวมการโทรกลับด้วย Workbook Designer**
+**บูรณาการการโทรกลับด้วย Workbook Designer**
 กำหนดการโทรกลับแบบกำหนดเองของคุณให้กับ `WorkbookDesigner`-
 ```java
 report.setSmartMarkerCallback(new CustomSmartMarkerCallBack(report.getWorkbook()));
@@ -178,7 +180,7 @@ report.process();
 ## บทสรุป
 เราได้ครอบคลุมถึงสิ่งสำคัญในการออกแบบเวิร์กบุ๊กและการประมวลผลมาร์กเกอร์อัจฉริยะโดยใช้ Aspose.Cells สำหรับ Java ตั้งแต่การตั้งค่าเริ่มต้นไปจนถึงการใช้งานคอลแบ็กขั้นสูง ตอนนี้คุณมีความเข้าใจที่ชัดเจนเกี่ยวกับการทำงานอัตโนมัติของงาน Excel ด้วยไลบรารีที่มีประสิทธิภาพนี้ 
 
-ขั้นตอนต่อไปได้แก่ การทดลองใช้เทมเพลตที่ซับซ้อนมากขึ้น หรือการรวมเทคนิคเหล่านี้เข้ากับระบบปัจจุบันของคุณ อย่าลังเลที่จะสำรวจเพิ่มเติม!
+ขั้นตอนต่อไปได้แก่ การทดลองใช้เทมเพลตที่ซับซ้อนมากขึ้นหรือการรวมเทคนิคเหล่านี้เข้ากับระบบปัจจุบันของคุณ อย่าลังเลที่จะสำรวจเพิ่มเติม!
 
 ### ส่วนคำถามที่พบบ่อย
 1. **ฉันจะจัดการชุดข้อมูลขนาดใหญ่ใน Aspose.Cells ได้อย่างไร**
@@ -202,6 +204,9 @@ report.process();
 ใช้พลังของ Aspose.Cells สำหรับ Java และเปลี่ยนแปลงงานการประมวลผลข้อมูลของคุณได้อย่างง่ายดาย!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 試算表自動化
@@ -43,14 +45,16 @@
 ### [Excel 工作簿自動化](./excel-workbook-automation/)
 使用 Aspose.Cells 學習 Java 中的 Excel 工作簿自動化：以程式設計方式建立、讀取、更新 Excel 檔案。立即開始！
 ### [自動化 Excel 圖表](./automating-excel-charts/)
-透過原始程式碼範例探索如何使用 Aspose.Cells for Java 自動建立和自訂 Excel 圖表。簡化您的圖表任務。 
+探索如何使用 Aspose.Cells for Java 透過原始程式碼範例自動建立和自訂 Excel 圖表。簡化您的圖表任務。 
 ### [使用 Java 實現 Excel 自動化](./excel-automation-with-java/)
 了解如何使用 Aspose.Cells（一個強大的 Excel 操作庫）透過原始程式碼範例在 Java 中自動執行 Excel 任務。
 ### [Excel 中的資料集成](./data-integration-in-excel/)
 了解如何在 Excel 中有效地整合資料以獲得更好的洞察力和決策能力。使用 Aspose.Cells for Java 的源代碼的逐步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

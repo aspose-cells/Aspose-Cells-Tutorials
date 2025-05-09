@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Acquisizione della licenza
 
-Aspose.Cells offre una prova gratuita, licenze temporanee e versioni a pagamento. Inizia scaricando un [prova gratuita](https://releases.aspose.com/cells/java/) per esplorare le sue funzionalità senza limitazioni. Per test prolungati o utilizzo in produzione, si consiglia di ottenere un [licenza temporanea](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells offre una prova gratuita, licenze temporanee e versioni a pagamento. Inizia scaricando [prova gratuita](https://releases.aspose.com/cells/java/) per esplorare le sue funzionalità senza limitazioni. Per test prolungati o utilizzo in produzione, si consiglia di ottenere un [licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 #### Inizializzazione di base
 
@@ -122,7 +124,7 @@ Quando si lavora con file Excel di grandi dimensioni o si eseguono operazioni co
 
 In questo tutorial, hai imparato a utilizzare l'API Java Aspose.Cells per applicare la formattazione in pedice alle celle di Excel. Integrando questi passaggi nei tuoi progetti, puoi migliorare significativamente la presentazione dei dati. 
 
-prossimi passi includono l'esplorazione di altre opzioni di formattazione del testo, come apici o grassetti, con Aspose.Cells. Sperimenta e personalizza ulteriormente in base alle esigenze del tuo progetto.
+I prossimi passi includono l'esplorazione di altre opzioni di formattazione del testo, come apici o grassetti, con Aspose.Cells. Sperimenta e personalizza ulteriormente in base alle esigenze del tuo progetto.
 
 ### Sezione FAQ
 
@@ -148,6 +150,9 @@ prossimi passi includono l'esplorazione di altre opzioni di formattazione del te
 Prova Aspose.Cells per Java per sbloccare le potenti funzionalità di automazione di Excel e non esitare a consultare la sua completa documentazione per ulteriori approfondimenti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

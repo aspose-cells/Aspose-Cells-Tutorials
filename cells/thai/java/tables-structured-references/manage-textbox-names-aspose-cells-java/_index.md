@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,15 +33,15 @@
 
 หากต้องการปฏิบัติตามบทช่วยสอนนี้อย่างมีประสิทธิผล คุณควรมี:
 
-### ไลบรารีและสิ่งที่ต้องพึ่งพา:
-- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
+### ไลบรารีและการอ้างอิงที่จำเป็น:
+- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 - ความเข้าใจพื้นฐานเกี่ยวกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม:
 - Java Development Kit (JDK) ติดตั้งอยู่บนเครื่องของคุณ
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม Java เช่นคลาสและวิธีการ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
@@ -193,6 +195,9 @@ public class InitializeAsposeCells {
    - ตรวจสอบการกำหนดค่าการสร้างโปรเจ็กต์ของคุณอีกครั้ง (Maven/Gradle) เพื่อให้แน่ใจว่าการอ้างอิง Aspose.Cells ที่จำเป็นทั้งหมดถูกรวมไว้อย่างถูกต้อง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

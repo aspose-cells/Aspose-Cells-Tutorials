@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells Visuele Tutorials
 Duik in onze Aspose.Cells visuele tutorials, speciaal ontworpen voor ontwikkelaars en enthousiastelingen die spreadsheetmanipulatie onder de knie willen krijgen. Elke tutorial behandelt de essentiële functies van de Aspose.Cells-bibliotheek, van basisbewerkingen zoals het maken en opmaken van spreadsheets tot geavanceerde functionaliteiten zoals datavisualisatie en formulemanipulatie. Of je nu een beginner of een ervaren ontwikkelaar bent, onze visuele handleidingen bieden uitgebreide, eenvoudig te volgen instructies en praktische voorbeelden.
@@ -24,46 +26,75 @@ Aspose.Cells voor .NET Visual Tutorials bieden een uitgebreide, stapsgewijze lee
 Leer hoe u grafieken in .NET-toepassingen kunt maken, aanpassen en beheren met Aspose.Cells. Ontdek verschillende grafiektypen met eenvoudige, efficiënte voorbeelden.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="3D-grafieken maken en opmaken in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Formaat en positie van grafiek in Excel wijzigen" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Richting van grafiekmarkeringen wijzigen in Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="PDF maken van Excel-grafiek met opgegeven paginaformaat" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Een lijndiagram met gegevensmarkeringen maken in Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Vind het type X- en Y-waarden in grafiekpunten" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Grafiek-ondertitel uit ODS-bestand halen met Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Wijzig de vorm van grafiekgegevenslabels in Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Maak een Excel-grafiek met Aspose.Cells voor .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Objecten tekenen met Aspose.Cells voor .NET](./net/drawing-objects/)
 Leer hoe u grafieken in .NET-toepassingen kunt maken, aanpassen en beheren met Aspose.Cells. Ontdek verschillende grafiektypen met eenvoudige, efficiënte voorbeelden.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Wijzig OLE-objectlabels in Excel met Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Excel-bestanden maken en opslaan met Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Wijzig de uitlijning van vormtekst in Excel met Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Manipuleren van de Z-volgorde van vormen in Excel met Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Maak een Excel-werkmap met Verre Oosten- en Latijnse lettertypen" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Tegeltextuurvulling in Excel met Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Opmaak in Aspose.Cells voor .NET – Stijlen, kleuren en meer](./net/formatting/)
 Leer hoe u opmaak toepast in Aspose.Cells voor .NET, inclusief stijlen, kleuren, lettertypen, randen en meer voor professionele Excel-rapporten.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Randen toevoegen aan een bereik in Excel met Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Kleuren en achtergronden toepassen in Excel met Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Cellen samenvoegen in Excel met Aspose.Cells voor .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Letterkleur instellen in Excel-cellen met Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Lettertypenaam instellen in Excel met Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Lettergrootte instellen in Excel met Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Horizontale tekstuitlijning in Excel met Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Tekst in Excel-cellen omwikkelen met Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Draaitabellen in Aspose.Cells voor .NET](./net/pivot-tables/)
 Leer hoe u draaitabellen maakt, opmaakt en beheert in Aspose.Cells voor .NET. Genereer dynamische rapporten en analyseer gegevens moeiteloos in C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Een draaitabel maken in Excel met Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Draaitabel opslaan als ODS in Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Hieronder vindt u links naar nuttige bronnen:
@@ -72,7 +103,7 @@ Hieronder vindt u links naar nuttige bronnen:
 - [Gegevensvalidatie](./net/data-validation/)
 - [Automatisering en batchverwerking](./net/automation-batch-processing/)
 - [Sjablonen en rapportage](./net/templates-reporting/)
-- [Berekeningsmachine](./net/calculation-engine/)
+- [Berekeningsmotor](./net/calculation-engine/)
 - [OLE-objecten en ingesloten inhoud](./net/ole-objects-embedded-content/)
 - [Integratie en interoperabiliteit](./net/integration-interoperability/)
 - [Prestatieoptimalisatie](./net/performance-optimization/)
@@ -181,8 +212,10 @@ Hieronder vindt u links naar nuttige bronnen:
 
 
 ## Aspose.Cells voor Java-zelfstudies
+
 {{% alert color="primary" %}}
 Ontdek de tutorials van Aspose.Cells voor Java. Leer Excel-bestanden bewerken met codevoorbeelden. Verbeter je Java-vaardigheden vandaag nog!
+
 {{% /alert %}}
 
 Hieronder vindt u links naar nuttige bronnen:
@@ -190,7 +223,7 @@ Hieronder vindt u links naar nuttige bronnen:
 - [Gegevensvalidatie](./java/data-validation/)
 - [Automatisering en batchverwerking](./java/automation-batch-processing/)
 - [Sjablonen en rapportage](./java/templates-reporting/)
-- [Berekeningsmachine](./java/calculation-engine/)
+- [Berekeningsmotor](./java/calculation-engine/)
 - [OLE-objecten en ingesloten inhoud](./java/ole-objects-embedded-content/)
 - [Integratie en interoperabiliteit](./java/integration-interoperability/)
 - [Prestatieoptimalisatie](./java/performance-optimization/)
@@ -219,6 +252,7 @@ Hieronder vindt u links naar nuttige bronnen:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ Fedezze fel az Aspose.Cells további funkcióit, például a PDF-konvertálást 
    - Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) és fedezd fel a fórumaikat közösségi támogatásért.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java-referencia](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-referenciához](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Legújabb kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
@@ -169,6 +171,9 @@ Fedezze fel az Aspose.Cells további funkcióit, például a PDF-konvertálást 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

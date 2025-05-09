@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ license.setLicense(fstream);
 
 **ステップバイステップ:**
 1. **ライセンスファイルをロードする**： 使用 `FileInputStream` ライセンス ファイルを読み取ります。
-2. **ライセンスを設定する**インスタンスを作成する `License` そしてそれを適用します `setLicense()` 方法。
+2. **ライセンスを設定する**: インスタンスを作成する `License` そしてそれを適用します `setLicense()` 方法。
 
 ```java
 import java.io.FileInputStream;
@@ -195,6 +197,9 @@ Aspose.Cells の機能をさらに詳しく知るには、豊富なドキュメ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

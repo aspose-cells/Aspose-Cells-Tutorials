@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ O Aspose.Cells pode se integrar perfeitamente a esses sistemas, aprimorando suas
 ### Considerações de desempenho
 
 Ao lidar com cálculos recursivos, considere o seguinte:
-- **Otimizar o uso de memória Java**: Use práticas eficientes de gerenciamento de memória para lidar com grandes conjuntos de dados.
+- **Otimizar o uso da memória Java**: Use práticas eficientes de gerenciamento de memória para lidar com grandes conjuntos de dados.
 - **Alocação de Recursos**: Monitore o uso da CPU durante cálculos intensivos para garantir o desempenho ideal.
 - **Melhores Práticas**: Atualize regularmente para a versão mais recente do Aspose.Cells para obter recursos aprimorados e correções de bugs.
 
@@ -152,6 +154,9 @@ Pronto para implementar esta solução? Mergulhe no mundo prático da automaçã
 Ao dominar essas técnicas, você estará bem equipado para lidar com tarefas complexas do Excel com facilidade usando o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

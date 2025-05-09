@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ V5: Igen, az Aspose.Cells robusztus API-ján keresztül támogatja a különfél
 - **Letöltés**: A legújabb kiadások a következő címen érhetők el: [Aspose letöltések](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: Kereskedelmi célú licenc vásárlása itt: [Aspose vásárlás](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval innen: [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**Ideiglenes jogosítvány beszerzése a következőn keresztül: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 - **Támogatás**Kérjen segítséget a közösségtől a következő címen: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Az útmutató követésével jó úton haladsz afelé, hogy hatékony globalizációs funkciókat valósíts meg Java alkalmazásokban az Aspose.Cells használatával. Jó kódolást!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

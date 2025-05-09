@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saisie automatisée des données
@@ -115,9 +117,11 @@ L'automatisation de la saisie de données avec Aspose.Cells pour Java simplifie 
    Vous pouvez explorer la documentation sur [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Vous disposez désormais des connaissances et des outils nécessaires pour automatiser efficacement la saisie de données grâce à Aspose.Cells pour Java. Améliorez vos processus de traitement des données et optimisez l'efficacité de votre entreprise.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

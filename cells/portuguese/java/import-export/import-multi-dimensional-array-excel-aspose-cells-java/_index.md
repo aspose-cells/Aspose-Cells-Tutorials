@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Etapas de aquisição de licença
 - **Teste grátis**: Baixe uma versão de teste em [Página de lançamento da Aspose](https://releases.aspose.com/cells/java/).
-- **Licença Temporária**Obtenha uma licença temporária através de [este link](https://purchase.aspose.com/temporary-license/) para testes sem limitações.
+- **Licença Temporária**: Obtenha uma licença temporária através de [este link](https://purchase.aspose.com/temporary-license/) para testes sem limitações.
 - **Comprar**:Para acesso e suporte completos, considere comprar a biblioteca em [Página de compras da Aspose](https://purchase.aspose.com/buy).
 
 #### Inicialização básica
@@ -157,6 +159,9 @@ Não se esqueça de baixar um [teste gratuito](https://releases.aspose.com/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

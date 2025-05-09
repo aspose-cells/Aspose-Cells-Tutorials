@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,9 +196,9 @@ public class ConfiguringSeriesInChart {
 }
 ```
 
-### Característica 6: Formato del área de trazado y leyenda
+### Característica 6: Área de trazado y formato de leyenda
 #### Descripción general
-Formatear el área del gráfico y la leyenda mejora el atractivo visual de sus gráficos.
+Formatear el área de trazado y la leyenda mejora el atractivo visual de sus gráficos.
 
 ```java
 import com.aspose.cells.Chart;
@@ -244,6 +246,9 @@ Ya aprendió a configurar Aspose.Cells para Java, crear y manipular libros de Ex
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

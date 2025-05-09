@@ -1,38 +1,40 @@
 ---
-title: Mengatur Judul Cetak Excel
-linktitle: Mengatur Judul Cetak Excel
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara mengatur judul cetak Excel secara efisien menggunakan Aspose.Cells untuk .NET. Sederhanakan proses pencetakan Anda dengan panduan langkah demi langkah kami.
-weight: 170
-url: /id/net/excel-page-setup/set-excel-print-title/
+"description": "Pelajari cara mengatur judul cetak Excel secara efisien menggunakan Aspose.Cells untuk .NET. Sederhanakan proses pencetakan Anda dengan panduan langkah demi langkah kami."
+"linktitle": "Mengatur Judul Cetak Excel"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Mengatur Judul Cetak Excel"
+"url": "/id/net/excel-page-setup/set-excel-print-title/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Judul Cetak Excel
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan lembar kerja Excel, memastikan kejelasan dalam dokumen cetak Anda sangatlah penting. Pernahkah Anda mencetak laporan dan menemukan bahwa judul tidak muncul di setiap halaman? Membuat frustrasi, bukan? Nah, jangan khawatir lagi! Dalam panduan ini, kami akan memandu Anda melalui langkah-langkah untuk menetapkan judul cetak di Excel menggunakan Aspose.Cells untuk .NET. Jika Anda pernah ingin menyederhanakan proses pencetakan agar lembar kerja Anda terlihat lebih profesional, Anda telah datang ke tempat yang tepat.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita masuk ke langkah-langkahnya, mari pastikan Anda telah menyiapkan semuanya agar dapat mengikuti langkah-langkah dengan lancar:
 
 1. Visual Studio Terpasang: Anda memerlukan versi Visual Studio yang berfungsi di komputer Anda tempat Anda dapat menjalankan aplikasi .NET.
-2.  Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh Aspose.Cells untuk .NET dari[lokasi](https://releases.aspose.com/cells/net/)Pustaka ini merupakan inti operasi kami untuk mengelola berkas Excel secara terprogram.
+2. Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh Aspose.Cells untuk .NET dari [telek](https://releases.aspose.com/cells/net/)Pustaka ini merupakan inti operasi kami untuk mengelola berkas Excel secara terprogram.
 3. Pengetahuan Pemrograman Dasar: Keakraban dengan pemrograman C# akan membantu Anda memahami dan memodifikasi potongan kode yang disediakan.
 4. .NET Framework: Pastikan Anda menginstal versi .NET yang benar untuk kompatibilitas dengan Aspose.Cells.
 
 Setelah Anda menyiapkan prasyarat ini, kita bisa mulai bekerja!
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk mulai memanfaatkan kekuatan Aspose.Cells, pastikan untuk menyertakan paket yang diperlukan dalam proyek Anda. 
 
-### Tambahkan Referensi Aspose.Cells
+### Aspose.Cells hivatkozás hozzáadása
 
 Untuk menggunakan Aspose.Cells dalam program Anda, Anda perlu menambahkan referensi ke Aspose.Cells.dll. Anda dapat melakukannya dengan:
 
@@ -65,11 +67,11 @@ Hal pertama yang perlu kita lakukan adalah menentukan di mana dokumen Excel akan
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ganti saja`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file Excel Anda. Misalnya, Anda dapat menggunakan`@"C:\Reports\"`.
+Csak cserélje ki `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file Excel Anda. Misalnya, Anda dapat menggunakan `@"C:\Reports\"`.
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## 2. lépés: Munkafüzet-objektum példányosítása
 
- Selanjutnya, kita membuat sebuah instance dari`Workbook` kelas, yang merepresentasikan berkas Excel.
+Selanjutnya, kita membuat sebuah instance dari `Workbook` osztály, amely egy Excel fájlt jelöl.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -79,17 +81,17 @@ Baris ini menginisialisasi buku kerja baru, membuatnya siap untuk dimanipulasi.
 
 ## Langkah 3: Dapatkan Referensi PageSetup
 
- Sekarang mari kita mengakses lembar kerja`PageSetup` properti. Di sinilah sebagian besar pengaturan cetak akan dikonfigurasi.
+Sekarang mari kita mengakses lembar kerja `PageSetup` properti. Di sinilah sebagian besar pengaturan cetak akan dikonfigurasi.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Di sini, kita ambil`PageSetup` dari lembar kerja pertama. Ini memberi kita kendali atas bagaimana halaman disiapkan untuk dicetak.
+Di sini, kita ambil `PageSetup` dari lembar kerja pertama. Ini memberi kita kendali atas bagaimana halaman disiapkan untuk dicetak.
 
 ## Langkah 4: Tentukan Kolom Judul
 
- Untuk menentukan kolom mana yang akan dicetak sebagai judul, kami menetapkan pengenal kolom ke`PrintTitleColumns` milik. 
+Untuk menentukan kolom mana yang akan dicetak sebagai judul, kami menetapkan pengenal kolom ke `PrintTitleColumns` ingatlan. 
 
 ```csharp
 pageSetup.PrintTitleColumns = "$A:$B";
@@ -107,7 +109,7 @@ pageSetup.PrintTitleRows = "$1:$2";
 
 Dengan melakukan ini, baris 1 dan 2 ditandai sebagai baris judul. Jadi, jika Anda memiliki beberapa informasi tajuk di sana, informasi tersebut akan tetap terlihat di beberapa halaman cetak.
 
-## Langkah 6: Simpan Buku Kerja
+## 6. lépés: A munkafüzet mentése
 
 Langkah terakhir proses kita adalah menyimpan buku kerja dengan semua pengaturan yang telah kita terapkan. 
 
@@ -119,29 +121,31 @@ Pastikan direktori dokumen Anda ditentukan dengan benar sehingga Anda dapat deng
 
 Dan begitu saja, judul cetak Anda sudah ditetapkan, dan berkas Excel Anda siap dicetak!
 
-## Kesimpulan
+## Következtetés
 
 Menetapkan judul cetak di Excel menggunakan Aspose.Cells for .NET adalah proses mudah yang dapat meningkatkan keterbacaan dokumen cetak Anda secara drastis. Dengan mengikuti langkah-langkah yang diuraikan dalam artikel ini, Anda sekarang memiliki keterampilan untuk menjaga agar baris dan kolom tajuk penting tersebut tetap terlihat di seluruh laporan Anda. Ini tidak hanya meningkatkan presentasi profesional tetapi juga menghemat waktu selama proses peninjauan!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells untuk .NET?
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells untuk .NET adalah pustaka .NET untuk mengelola file Excel tanpa perlu menginstal Microsoft Excel.
 
 ### Bisakah saya mengatur judul cetak pada beberapa lembar kerja?
 Ya, Anda dapat mengulangi proses untuk setiap lembar kerja di buku kerja Anda.
 
-### Apakah Aspose.Cells gratis?
+### Ingyenes az Aspose.Cells?
 Aspose.Cells menyediakan uji coba gratis dengan batasan. Untuk fitur lengkap, diperlukan lisensi.
 
-### Format file apa yang didukung Aspose.Cells?
+### Milyen fájlformátumokat támogat az Aspose.Cells?
 Mendukung berbagai format, termasuk XLS, XLSX, CSV, dan banyak lagi.
 
 ### Di mana saya dapat menemukan informasi lebih lanjut?
- Anda dapat menjelajahi dokumentasinya[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menjelajahi dokumentasinya [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ workbook.save(outDir + "UnMURangeofCells_out.xlsx");
 - **프로젝트 일정:** 병합된 셀을 사용하여 여러 행에 걸쳐 날짜를 표시합니다.
 
 ### 성능 고려 사항
-Aspose.Cells에서 최적의 성능을 보장하려면:
+Aspose.Cells를 사용하여 최적의 성능을 보장하려면:
 - 메모리 사용을 효율적으로 관리하려면 단일 실행에서 수행되는 작업 수를 제한합니다.
 - 대용량 Excel 파일을 처리하기 위해 스트림을 활용하여 메모리 사용량을 줄입니다.
 - 성능 향상과 버그 수정을 위해 Aspose.Cells를 정기적으로 업데이트하세요.
@@ -200,6 +202,9 @@ Aspose.Cells에서 최적의 성능을 보장하려면:
 - **지원 및 포럼:** 커뮤니티와 교류하세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

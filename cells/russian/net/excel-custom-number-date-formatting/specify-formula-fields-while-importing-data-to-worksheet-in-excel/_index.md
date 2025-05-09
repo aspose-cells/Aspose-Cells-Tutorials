@@ -1,14 +1,16 @@
 ---
-title: Укажите поля формул при импорте данных в таблицу Excel
-linktitle: Укажите поля формул при импорте данных в таблицу Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве.
-weight: 11
-url: /ru/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "Узнайте, как импортировать данные в таблицы Excel с указанными полями формул с помощью Aspose.Cells для .NET в этом подробном руководстве."
+"linktitle": "Укажите поля формул при импорте данных в таблицу Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Укажите поля формул при импорте данных в таблицу Excel"
+"url": "/ru/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Укажите поля формул при импорте данных в таблицу Excel
@@ -22,7 +24,7 @@ url: /ru/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое. 
 
 1. Visual Studio или любая интегрированная среда разработки (IDE) .NET: убедитесь, что у вас есть подходящая IDE для написания и запуска кода C#.
-2.  Aspose.Cells для .NET: Вам нужно будет загрузить и сослаться на библиотеку Aspose.Cells в вашем проекте. Вы можете загрузить ее с[Релизы Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Вам нужно будет загрузить и сослаться на библиотеку Aspose.Cells в вашем проекте. Вы можете загрузить ее с [Aspose выпускает](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: знакомство с C# и концепциями объектно-ориентированного программирования поможет вам лучше понять примеры.
 4. .NET Framework: в этом руководстве предполагается, что вы используете .NET Framework 4.5 или выше.
 
@@ -44,13 +46,13 @@ using System.Collections.Generic;
 
 ## Шаг 1: Определите выходной каталог
 
-Сначала вам нужно определить, где вы хотите сохранить файл Excel. Вот как это можно сделать:
+Сначала вам нужно определить, где вы хотите сохранить свой файл Excel. Вот как это можно сделать:
 
 ```csharp
 static string outputDir = "Your Document Directory"; // укажите здесь каталог вашего документа
 ```
 
- Заменять`"Your Document Directory"` с вашим фактическим путем к файлу. Это то место, где будет сохранен сгенерированный файл Excel.
+Заменять `"Your Document Directory"` с вашим фактическим путем к файлу. Это то место, где будет сохранен сгенерированный файл Excel.
 
 ## Шаг 2: Создание пользовательского класса для элементов данных
 
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Этот`DataItems` класс будет содержать необработанные целые числа и формулы, которые мы запишем на лист Excel. 
+Этот `DataItems` класс будет содержать необработанные целые числа и формулы, которые мы запишем на лист Excel. 
 
 ## Шаг 3: Инициализация списка для хранения элементов данных
 
- Мы будем использовать список для хранения нескольких экземпляров наших`DataItems` сорт.
+Мы будем использовать список для хранения нескольких экземпляров наших `DataItems` сорт.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -86,13 +88,13 @@ DataItems di = new DataItems();
 di.Number1 = 2002;
 di.Number2 = 3502;
 di.Formula1 = "=SUM(A2,B2)";
-di.Formula2 = "=HYPERLINK(\"https://www.aspose.com\",\"Сайт Aspose\")";
+di.Formula2 = "=HYPERLINK(\"https://www.aspose.com\",\"Веб-сайт Aspose\")";
 dis.Add(di);
 
 // Повторите для дополнительных элементов данных.
 ```
 
- Обязательно настройте каждый`DataItems` экземпляр с уникальными значениями и формулами.
+Обязательно настройте каждый `DataItems` экземпляр с уникальными значениями и формулами.
 
 ## Шаг 5: Создайте рабочую книгу и рабочий лист Access
 
@@ -112,7 +114,7 @@ ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- В этом примере последние два поля содержат формулы, что обозначено как`true` , в то время как первые два поля установлены на`false`.
+В этом примере последние два поля содержат формулы, что обозначено как `true`, в то время как первые два поля установлены на `false`.
 
 ## Шаг 7: Импорт пользовательских объектов
 
@@ -156,7 +158,7 @@ wb.Save(outputDir + "outputSpecifyFormulaFieldsWhileImportingDataToWorksheet.xls
 
 ## Шаг 11: Проверка выполнения
 
-В качестве простого способа подтверждения того, что все прошло правильно, вы можете распечатать сообщение.
+В качестве простого способа убедиться, что все прошло правильно, вы можете распечатать сообщение.
 
 ```csharp
 Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully.");
@@ -174,20 +176,22 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 Aspose.Cells — это библиотека .NET, предназначенная для программного создания, обработки и преобразования файлов Excel.
 
 ### Как установить Aspose.Cells для .NET?
- Вы можете скачать его с сайта[Релизы Aspose](https://releases.aspose.com/cells/net/) и сослаться на него в своем проекте.
+Вы можете скачать его с сайта [Aspose выпускает](https://releases.aspose.com/cells/net/) и сослаться на него в своем проекте.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, доступную по адресу[эта ссылка](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, доступную по адресу [эта ссылка](https://releases.aspose.com/).
 
 ### Где я могу найти больше примеров?
- Дополнительные примеры и документацию можно найти на сайте[Страница документации Aspose](https://reference.aspose.com/cells/net/).
+Дополнительные примеры и документацию можно найти на сайте [Страница документации Aspose](https://reference.aspose.com/cells/net/).
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose?
- Вы можете обратиться за помощью на форум поддержки Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Вы можете обратиться за помощью на форум поддержки Aspose. [здесь](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

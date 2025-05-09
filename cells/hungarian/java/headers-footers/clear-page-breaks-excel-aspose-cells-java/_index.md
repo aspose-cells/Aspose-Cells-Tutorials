@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ public class ClearHorizontalPageBreaks {
         // Workbook objektum példányosítása
         Workbook workbook = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         var sheet = workbook.getWorksheets().get(0);
         
         // Folytassa az oldaltörések törlését...
@@ -142,7 +144,7 @@ public class ClearVerticalPageBreaks {
         // Workbook objektum példányosítása
         Workbook workbook = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         var sheet = workbook.getWorksheets().get(0);
         
         // Folytassa az oldaltörések törlését...
@@ -194,6 +196,9 @@ Ebben az útmutatóban azt vizsgáltuk meg, hogyan törölhetők a vízszintes �
 - Fedezze fel az Aspose.Cells for Java további funkcióit, hogy tovább javítsa Excel dokumentumkezelési képességeit.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

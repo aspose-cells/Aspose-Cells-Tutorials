@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ LoadOptions loadOptions3 = new LoadOptions(LoadFormat.SPREADSHEET_ML);
 **คำอธิบาย**: เดอะ `LoadOptions` วัตถุมีความจำเป็นในการระบุประเภทไฟล์ที่คุณกำลังทำงานด้วย เพื่อให้แน่ใจว่า Aspose.Cells ประมวลผลไฟล์อย่างถูกต้อง
 
 #### ขั้นตอนที่ 2: เปิดเวิร์กบุ๊กโดยใช้ LoadOptions
-กับคุณ `LoadOptions` กำหนดค่าแล้วดำเนินการเปิดไฟล์ SpreadsheetML:
+ด้วยของคุณ `LoadOptions` กำหนดค่าแล้วดำเนินการเปิดไฟล์ SpreadsheetML:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -147,6 +149,9 @@ A5: ตรวจสอบ [เอกสารประกอบ Aspose](https://
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

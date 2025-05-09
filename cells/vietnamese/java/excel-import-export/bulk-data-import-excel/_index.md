@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhập dữ liệu hàng loạt Excel
@@ -99,9 +101,11 @@ Hoàn toàn có thể! Aspose.Cells for Java hỗ trợ cả việc nhập và x
 Có, vui lòng xem lại thông tin cấp phép trên trang web Aspose để biết chi tiết về cấp phép và giá cả.
 
 Hãy thoải mái khám phá thêm và điều chỉnh các ví dụ mã để đáp ứng các yêu cầu cụ thể của bạn. Chúc bạn viết mã vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

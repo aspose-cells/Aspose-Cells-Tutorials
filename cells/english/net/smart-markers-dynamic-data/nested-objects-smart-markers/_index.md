@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/nested-objects-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handle Nested Objects with Smart Markers Aspose.Cells
@@ -105,6 +107,7 @@ Absolutely! Aspose.Cells is designed to handle complex nested objects efficientl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

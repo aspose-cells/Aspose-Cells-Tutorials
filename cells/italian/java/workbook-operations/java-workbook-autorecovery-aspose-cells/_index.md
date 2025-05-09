@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ Controlla se Excel deve recuperare automaticamente il lavoro non salvato in caso
 **Fasi di implementazione:**
 1. **Imposta AutoRecover su False:**
    ```java
-   workbook.getSettings().setAutoRecover(false); // Disabilitazione della funzione AutoRecover
+   workbook.getSettings().setAutoRecover(false); // Disabilitazione della funzione di ripristino automatico
    ```
 
 ### Salva cartella di lavoro
@@ -180,6 +182,9 @@ Pronto a prendere il controllo dei tuoi file Excel? Prova a implementare questa 
 - **Supporto**: Partecipa alla discussione e chiedi aiuto nel [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

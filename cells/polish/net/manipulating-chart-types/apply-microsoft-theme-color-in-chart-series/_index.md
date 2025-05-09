@@ -1,14 +1,16 @@
 ---
-title: Zastosuj kolor motywu Microsoft w serii wykresów
-linktitle: Zastosuj kolor motywu Microsoft w serii wykresów
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się stosować kolory motywu Microsoft w seriach wykresów przy użyciu Aspose.Cells dla .NET. Samouczek krok po kroku dotyczący ulepszania wizualizacji danych.
-weight: 14
-url: /pl/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/
+"description": "Naucz się stosować kolory motywu Microsoft w seriach wykresów przy użyciu Aspose.Cells dla .NET. Samouczek krok po kroku dotyczący ulepszania wizualizacji danych."
+"linktitle": "Zastosuj kolor motywu Microsoft w serii wykresów"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zastosuj kolor motywu Microsoft w serii wykresów"
+"url": "/pl/net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zastosuj kolor motywu Microsoft w serii wykresów
@@ -22,9 +24,9 @@ W dzisiejszym świecie, w którym wszystko jest wizualne, sposób, w jaki prezen
 Zanim przejdziemy do praktycznych kroków, upewnijmy się, że masz wszystko, czego potrzebujesz. Chociaż ten przewodnik ma być przyjazny dla początkujących, podstawowa znajomość programowania i pojęć .NET będzie pomocna. Oto, czego potrzebujesz:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Aspose.Cells działa bezproblemowo z aplikacjami .NET, więc będziesz potrzebować kompatybilnej wersji.
-2.  Biblioteka Aspose.Cells: Najnowszą wersję biblioteki Aspose.Cells można pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Najnowszą wersję biblioteki Aspose.Cells można pobrać ze strony [Tutaj](https://releases.aspose.com/cells/net/).
 3. Visual Studio: gotowe środowisko programistyczne, takie jak Visual Studio, może ułatwić Ci życie. Upewnij się, że masz je zainstalowane, aby pisać i wykonywać swój kod.
-4.  Przykładowy plik Excela: Powinieneś mieć przykładowy plik Excela (taki jak`sampleMicrosoftThemeColorInChartSeries.xlsx`) zawierający co najmniej jeden wykres do ćwiczeń.
+4. Przykładowy plik programu Excel: Powinieneś mieć przykładowy plik programu Excel (taki jak `sampleMicrosoftThemeColorInChartSeries.xlsx`) zawierający co najmniej jeden wykres do ćwiczeń.
 
 Teraz gdy już to omówiliśmy, możemy zaimportować niezbędne pakiety, aby rozpocząć dostosowywanie naszych wykresów.
 
@@ -56,18 +58,18 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Pamiętaj o wymianie`"Your Output Directory"` I`"Your Document Directory"` z rzeczywistymi ścieżkami na Twoim komputerze.
+Pamiętaj o wymianie `"Your Output Directory"` I `"Your Document Directory"` z rzeczywistymi ścieżkami na Twoim komputerze.
 
-## Krok 2: Utwórz skoroszyt
+## Krok 2: Utwórz instancję skoroszytu
 
- Następnie musisz utworzyć instancję`Workbook` klasa, która działa jako serce naszego zarządzania plikami Excela. To jak otwieranie drzwi do twoich danych.
+Następnie musisz utworzyć instancję `Workbook` klasa, która działa jako serce naszego zarządzania plikami Excel. To jak otwieranie drzwi do twoich danych.
 
 ```csharp
 // Utwórz skoroszyt, aby otworzyć plik zawierający wykres
 Workbook workbook = new Workbook(sourceDir + "sampleMicrosoftThemeColorInChartSeries.xlsx");
 ```
 
-Za pomocą tego wiersza ładujemy istniejący plik Excel do aplikacji.
+Za pomocą tego wiersza ładujemy istniejący plik Excela do aplikacji.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -107,7 +109,7 @@ Można to porównać do decydowania o wyglądzie i charakterze pomieszczenia prz
 Następnie musimy zdefiniować kolor dla obszaru wypełnienia wykresu. W ten sposób ożywimy wybrany kolor.
 
 ```csharp
-//Pobierz kolor komórek SolidFill
+// Pobierz kolor komórek SolidFill
 CellsColor cc = chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor;
 ```
 
@@ -115,7 +117,7 @@ Tutaj pobieramy ustawienia kolorów dla serii wykresów.
 
 ## Krok 7: Zastosuj kolor motywu
 
- Teraz zastosujmy kolor motywu Microsoft. Wybierzemy`Accent` styl, bo kto nie lubi odrobiny koloru?
+Teraz zastosujmy kolor motywu Microsoft. Wybierzemy `Accent` styl, bo kto nie lubi odrobiny koloru?
 
 ```csharp
 // Utwórz motyw w stylu Accent
@@ -133,11 +135,11 @@ Gdy motyw jest już zdefiniowany, czas zastosować go do naszej serii wykresów.
 chart.NSeries[0].Area.FillFormat.SolidFill.CellsColor = cc;
 ```
 
-W tym momencie wyobrażony kolor jest oficjalnie w twojej serii. Jak to jest ekscytujące?
+tym momencie wyobrażony kolor jest oficjalnie w twojej serii. Jak to jest ekscytujące?
 
 ## Krok 9: Zapisz skoroszyt
 
-W końcu wykonałeś całą robotę i teraz musisz zapisać swoją pracę. Pomyśl o tym jak o cofnięciu się i podziwianiu pięknie udekorowanego pokoju.
+W końcu wykonałeś całą robotę i teraz musisz zapisać swoją pracę. Pomyśl o tym jak o cofnięciu się i podziwianiu swojego pięknie udekorowanego pokoju.
 
 ```csharp
 // Zapisz plik Excela
@@ -164,19 +166,21 @@ Dostosowywanie wykresów za pomocą Aspose.Cells dla .NET jest proste i wydajne.
 Aspose.Cells to potężna biblioteka służąca do manipulowania plikami Excela w aplikacjach .NET, umożliwiająca użytkownikom tworzenie, modyfikowanie i konwertowanie dokumentów Excela.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Tak, chociaż dostępna jest bezpłatna wersja próbna, licencja jest wymagana do ciągłego użytku komercyjnego. Możesz zapoznać się z opcjami licencjonowania[Tutaj](https://purchase.aspose.com/buy).
+Tak, chociaż dostępna jest bezpłatna wersja próbna, licencja jest wymagana do ciągłego użytku komercyjnego. Możesz zapoznać się z opcjami licencjonowania [Tutaj](https://purchase.aspose.com/buy).
 
 ### Czy mogę dostosować kolory poza motywami Microsoft?
 Oczywiście! Aspose.Cells pozwala na rozległą personalizację kolorów, w tym wartości RGB, standardowe kolory i wiele więcej.
 
 ### Gdzie mogę znaleźć dodatkową dokumentację?
- Możesz zapoznać się z dokumentacją Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/) aby uzyskać bardziej szczegółowe przewodniki i funkcje.
+Możesz zapoznać się z dokumentacją Aspose.Cells [Tutaj](https://reference.aspose.com/cells/net/) aby uzyskać bardziej szczegółowe przewodniki i funkcje.
 
 ### Czy mogę liczyć na pomoc, jeśli wystąpią jakieś problemy?
- Tak! Możesz odwiedzić forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9) aby uzyskać wsparcie społeczności i pomoc w rozwiązaniu swoich pytań.
+Tak! Możesz odwiedzić forum Aspose [Tutaj](https://forum.aspose.com/c/cells/9) aby uzyskać wsparcie społeczności i pomoc w rozwiązaniu swoich pytań.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

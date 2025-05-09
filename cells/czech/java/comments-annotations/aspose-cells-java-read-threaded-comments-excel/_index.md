@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parametry a metody
 - **Pracovní sešit**: Představuje celý soubor aplikace Excel.
-- **Pracovní list**: Odkazuje na jeden list v sešitu.
+- **Pracovní list**Odkazuje na jeden list v sešitu.
 - **Kolekce komentářů s vlákny**Soubor komentářů přidružených k buňce.
 
 ## Praktické aplikace
@@ -148,6 +150,9 @@ Jste připraveni ponořit se hlouběji? Zkuste toto řešení implementovat ve s
 - [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

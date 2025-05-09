@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحديث بيانات جدول المحور
@@ -90,9 +92,11 @@ workbook.save(outputFilePath);
    - نعم، يمكنك جدولة تحديثات البيانات التلقائية باستخدام Aspose.Cells ومكتبات جدولة Java. هذا يسمح لك بتحديث جداولك المحورية باستمرار دون تدخل يدوي.
 
 الآن لديك المعرفة اللازمة لتحديث بيانات جدول البيانات المحوري في Aspose.Cells لجافا. حافظ على دقة تحليلاتك وكن سباقًا في قراراتك المستندة إلى البيانات.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

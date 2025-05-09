@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Erwägen Sie als nächste Schritte, erweiterte Funktionen von Aspose.Cells zu er
 Nachdem Sie nun die Implementierung einer benutzerdefinierten Berechnungs-Engine in Aspose.Cells Java beherrschen, stellen Sie Ihre Fähigkeiten auf die Probe und beginnen Sie mit der Optimierung Ihrer Tabellenkalkulationen wie nie zuvor!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

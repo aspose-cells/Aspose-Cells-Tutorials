@@ -1,14 +1,16 @@
 ---
-title: Lấy Phạm vi với Liên kết ngoài trong Bảng tính
-linktitle: Lấy Phạm vi với Liên kết ngoài trong Bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách lấy phạm vi hiệu quả bằng liên kết ngoài trong bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này.
-weight: 17
-url: /vi/net/worksheet-operations/get-range-with-external-links/
+"description": "Tìm hiểu cách lấy phạm vi hiệu quả bằng liên kết ngoài trong bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước toàn diện này."
+"linktitle": "Lấy Phạm vi với Liên kết ngoài trong Bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lấy Phạm vi với Liên kết ngoài trong Bảng tính"
+"url": "/vi/net/worksheet-operations/get-range-with-external-links/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy Phạm vi với Liên kết ngoài trong Bảng tính
@@ -18,12 +20,12 @@ Trong thế giới dữ liệu ngày nay, việc quản lý các tệp Excel hi�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào mã và các ví dụ khác nhau, bạn cần đảm bảo rằng mình đã đáp ứng các điều kiện tiên quyết sau:
 1. .NET Framework: Đảm bảo rằng bạn đang chạy phiên bản .NET Framework tương thích với Aspose.Cells.
-2.  Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/cells/net/).
 3. Visual Studio hoặc IDE tương tự: Sẽ rất hữu ích nếu bạn có một IDE phù hợp để viết và thực thi mã C#.
-4.  Tệp Excel mẫu: Đối với hướng dẫn này, hãy sử dụng tệp Excel có tên`SampleExternalReferences.xlsx`, trong đó sẽ chứa một số liên kết bên ngoài để minh họa.
+4. Tệp Excel mẫu: Đối với hướng dẫn này, hãy sử dụng tệp Excel có tên `SampleExternalReferences.xlsx`, trong đó sẽ chứa một số liên kết bên ngoài để minh họa.
 Sau khi hoàn thành danh sách kiểm tra, chúng ta hãy cùng bắt tay vào viết mã nhé!
 ## Nhập gói
- Để bắt đầu sử dụng chức năng Aspose.Cells, bạn cần nhập các không gian tên cần thiết vào dự án của mình. Điều này sẽ cho phép bạn truy cập các lớp như`Workbook`, `Name` , Và`ReferredArea`. 
+Để bắt đầu sử dụng chức năng Aspose.Cells, bạn cần nhập các không gian tên cần thiết vào dự án của mình. Điều này sẽ cho phép bạn truy cập các lớp như `Workbook`, `Name`, Và `ReferredArea`. 
 Sau đây là cách thiết lập mục nhập của bạn:
 ```csharp
 using System;
@@ -39,7 +41,7 @@ Bây giờ chúng ta đã nhập các gói cần thiết, hãy bắt đầu bằ
 string sourceDir = "Your Document Directory";
 ```
 ## Bước 2: Tải Workbook
- Tiếp theo, bạn sẽ tạo một phiên bản của`Workbook` bằng cách chuyển đường dẫn đến tệp Excel của bạn. Đảm bảo nối thư mục với tên tệp.
+Tiếp theo, bạn sẽ tạo một phiên bản của `Workbook` bằng cách chuyển đường dẫn đến tệp Excel của bạn. Đảm bảo nối thư mục với tên tệp.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleExternalReferences.xlsx");
 ```
@@ -47,12 +49,12 @@ Bây giờ bạn đã tải xong bảng tính và sẵn sàng sử dụng!
 ## Lặp lại qua các phạm vi được đặt tên
 Các phạm vi được đặt tên có thể chứa các liên kết bên ngoài và để kiểm tra các liên kết này, bạn cần lặp qua các phạm vi được đặt tên trong bảng tính.
 ## Bước 3: Truy cập các phạm vi được đặt tên
- Bạn sẽ sử dụng một`foreach` vòng lặp để lặp qua các phạm vi được đặt tên có trong`workbook.Worksheets.Names`. Đây chính là nơi phép thuật xảy ra!
+Bạn sẽ sử dụng một `foreach` vòng lặp để lặp qua các phạm vi được đặt tên có trong `workbook.Worksheets.Names`. Đây chính là nơi phép thuật xảy ra!
 ```csharp
 foreach (Name namedRange in workbook.Worksheets.Names)
 ```
 ## Bước 4: Nhận khu vực giới thiệu
- Trong vòng lặp này, bạn có thể gọi phương thức`GetReferredAreas(true)`trên phạm vi được đặt tên. Phương pháp này trả về một mảng`ReferredArea` các đối tượng trỏ tới các liên kết bên ngoài.
+Trong vòng lặp này, bạn có thể gọi phương thức `GetReferredAreas(true)` trên phạm vi được đặt tên. Phương pháp này trả về một mảng `ReferredArea` các đối tượng trỏ tới các liên kết bên ngoài.
 ```csharp
 ReferredArea[] referredAreas = namedRange.GetReferredAreas(true);
 ```
@@ -64,12 +66,12 @@ if (referredAreas != null)
 ## Vòng lặp qua các khu vực được giới thiệu
 Bây giờ bạn đã có các khu vực được tham chiếu, đã đến lúc đào sâu hơn bằng cách lặp qua các khu vực này để trích xuất dữ liệu có liên quan.
 ## Bước 6: Lặp lại qua các khu vực được giới thiệu
- Sử dụng vòng lặp for đơn giản để duyệt qua từng vòng lặp`ReferredArea` đối tượng trong`referredAreas` mảng.
+Sử dụng vòng lặp for đơn giản để duyệt qua từng vòng lặp `ReferredArea` đối tượng trong `referredAreas` mảng.
 ```csharp
 for (int i = 0; i < referredAreas.Length; i++)
 ```
 ## Bước 7: Trích xuất thông tin từ mỗi khu vực
- Ở đây, bạn sẽ tạo một biến cho mỗi`ReferredArea` và sau đó bắt đầu trích xuất thông tin cần thiết như liệu đó có phải là liên kết ngoài, tên trang tính và thông tin chi tiết về phạm vi hay không.
+Ở đây, bạn sẽ tạo một biến cho mỗi `ReferredArea` và sau đó bắt đầu trích xuất thông tin cần thiết như liệu đó có phải là liên kết ngoài, tên trang tính và thông tin chi tiết về phạm vi hay không.
 ```csharp
 ReferredArea referredArea = referredAreas[i];
 Console.WriteLine("IsExternalLink: " + referredArea.IsExternalLink);
@@ -94,17 +96,19 @@ Và bạn đã có nó! Chúng ta vừa xem qua hướng dẫn đầy đủ về
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ để tạo, thao tác và chuyển đổi bảng tính Excel trong các ứng dụng .NET.
 ### Làm thế nào để cài đặt Aspose.Cells?
- Bạn có thể tải xuống thư viện từ[liên kết này](https://releases.aspose.com/cells/net/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web.
+Bạn có thể tải xuống thư viện từ [liên kết này](https://releases.aspose.com/cells/net/) và làm theo hướng dẫn cài đặt được cung cấp trên trang web.
 ### Aspose.Cells hỗ trợ những loại tệp Excel nào?
 Nó hỗ trợ nhiều định dạng tệp, bao gồm XLS, XLSX, CSV và nhiều định dạng khác.
 ### Tôi có thể lấy tham chiếu bên ngoài từ một phạm vi được đặt tên không?
- Có, bạn có thể sử dụng`GetReferredAreas`phương pháp truy cập các tham chiếu bên ngoài được liên kết đến một phạm vi được đặt tên.
+Có, bạn có thể sử dụng `GetReferredAreas` phương pháp truy cập các tham chiếu bên ngoài được liên kết đến một phạm vi được đặt tên.
 ### Có bản dùng thử miễn phí Aspose.Cells không?
- Vâng, bạn có thể bắt đầu với một[dùng thử miễn phí tại đây](https://releases.aspose.com/).
+Vâng, bạn có thể bắt đầu với một [dùng thử miễn phí tại đây](https://releases.aspose.com/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

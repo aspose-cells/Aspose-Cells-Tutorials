@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ for (int i = 0; i < sheetCount; i++) {
 
 #### Magyarázat
 - **`SheetRender`:** Egy osztály, amely munkalapok megadott képformátumokban történő megjelenítésére szolgál.
-- **Lapok ismétlése:** Hozzáfér minden egyes munkalaphoz, és előkészíti azokat a megjelenítéshez a következő használatával: `SheetRender`.
+- **Lapok ismétlése:** Hozzáfér minden munkalaphoz, és előkészíti azokat a megjelenítéshez a következő használatával: `SheetRender`.
 - **Kimeneti útvonal konfigurációja:** Győződjön meg róla, hogy `outDir` egy érvényes kimeneti könyvtárra van beállítva, ahová az SVG fájlok mentésre kerülnek.
 
 #### Hibaelhárítási tippek
@@ -186,6 +188,9 @@ Próbáld meg megvalósítani ezeket a lépéseket egy saját projektjeidből sz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

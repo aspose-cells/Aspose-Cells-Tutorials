@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Bây giờ bạn đã học cách mã hóa và giải mã các tệp ODS bằng 
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để triển khai mã hóa và giải mã tệp trong các ứng dụng Java của mình bằng Aspose.Cells. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

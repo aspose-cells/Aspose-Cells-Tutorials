@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Nu ska vi fortsätta med att implementera Aspose.Cells-funktioner för att grupp
   groupTypeList.add(PivotGroupByType.QUARTERS);
   ```
 
-### Tillämpa gruppering på pivotfält
+### Använd gruppering på pivotfält
 **Översikt**Implementera grupperingsåtgärden genom att tillämpa definierade inställningar på ditt pivotfält.
 
 - **Tillämpa gruppering**
@@ -183,6 +185,9 @@ Utforska mer genom att fördjupa dig i andra funktioner i Aspose.Cells-bibliotek
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

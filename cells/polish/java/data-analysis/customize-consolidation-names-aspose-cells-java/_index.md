@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Wypróbuj i zobacz, jak niestandardowe nazwy konsolidacji mogą usprawnić Twoje
 Przeglądaj te zasoby, aby uzyskać dodatkowe wskazówki i wsparcie dotyczące korzystania z Aspose.Cells Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

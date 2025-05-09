@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Innan du börjar, se till att du har:
 
 - **Obligatoriska bibliotek:** Aspose.Cells för Java (version 25.3 eller senare).
 - **Miljöinställningar:** En fungerande Java-utvecklingsmiljö.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java och förtrogenhet med byggverktygen Maven/Gradle.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java och förtrogenhet med byggverktygen Maven/Gradle.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -172,6 +174,9 @@ Börja implementera den här lösningen idag och förbättra din Excel-filhanter
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

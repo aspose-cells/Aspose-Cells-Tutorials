@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Desideri automatizzare il raggruppamento di righe e colonne nei file Excel? La l
 
 **Cosa imparerai:**
 - Creazione di un'istanza di un oggetto Workbook
-- Accesso a fogli di lavoro e celle tramite programmazione
+- Accesso a fogli di lavoro e celle a livello di programmazione
 - Raggruppare e nascondere in modo efficiente righe e colonne
 - Impostazione delle proprietà delle righe e delle colonne di riepilogo per una migliore organizzazione dei dati
 - Salvataggio della cartella di lavoro modificata
@@ -182,6 +184,9 @@ Intraprendi il tuo viaggio con Aspose.Cells per Java e trasforma il modo in cui 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Shape sh = ws.getShapes().get(0);
 هل أنت مستعد لتطبيق حلك؟ اتبع هذه الخطوات، واستكشف الموارد المتاحة، وابدأ بتحسين تطبيقات جافا لديك باستخدام Aspose.Cells اليوم!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

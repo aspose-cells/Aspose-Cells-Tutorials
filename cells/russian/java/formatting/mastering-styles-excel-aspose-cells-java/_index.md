@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ workbook.setDefaultStyle(style);
 ```
 #### Шаг 3: Сохраните рабочую книгу
 ```java
-// Определите путь для сохранения файла Excel и сохраните его.
+// Определите путь для сохранения файла Excel и сохраните его
 String dataDir = Utils.getSharedDataDir(CreateStyleobjectusingCellsFactoryclass.class) + "TechnicalArticles/";
 workbook.save(dataDir + "CreateStyleobject_out.xlsx");
 ```
@@ -133,6 +135,9 @@ workbook.save(dataDir + "CreateStyleobject_out.xlsx");
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thiết lập vùng in Excel
-linktitle: Thiết lập vùng in Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thiết lập vùng in trong trang tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để hợp lý hóa các tác vụ in của bạn.
-weight: 140
-url: /vi/net/excel-page-setup/set-excel-print-area/
+"description": "Tìm hiểu cách thiết lập vùng in trong trang tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để hợp lý hóa các tác vụ in của bạn."
+"linktitle": "Thiết lập vùng in Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thiết lập vùng in Excel"
+"url": "/vi/net/excel-page-setup/set-excel-print-area/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập vùng in Excel
@@ -23,7 +25,7 @@ Trước khi bắt đầu cuộc phiêu lưu lập trình, hãy dành chút th�
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio vì đây là môi trường phát triển mà chúng ta sẽ sử dụng.
 2. .NET Framework: Đảm bảo dự án của bạn được thiết lập với .NET Framework tương thích với Aspose.Cells. Nói chung, .NET Core hoặc .NET Framework 4.5 trở lên sẽ hoạt động.
-3.  Thư viện Aspose.Cells: Bạn sẽ cần phải có Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Bạn sẽ cần phải có Aspose.Cells cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Việc quen thuộc với cú pháp và cấu trúc C# là rất quan trọng vì chúng ta sẽ viết các đoạn mã trong suốt hướng dẫn này.
 
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng bước vào thế giới thao tác trên Excel!
@@ -45,31 +47,31 @@ Bây giờ, chúng ta hãy phân tích từng bước quá trình thiết lập 
 
 Tạo một biến để chỉ định vị trí lưu trữ tài liệu Excel của bạn. 
 
- Khi bạn đang làm việc trên một dự án, điều cần thiết là phải có một đường dẫn được xác định nơi các tệp của bạn nằm hoặc sẽ được lưu. Trong trường hợp của chúng tôi, chúng tôi sẽ xác định một biến có tên`dataDir` như sau:
+Khi bạn đang làm việc trên một dự án, điều cần thiết là phải có một đường dẫn được xác định nơi các tệp của bạn nằm hoặc sẽ được lưu. Trong trường hợp của chúng tôi, chúng tôi sẽ xác định một biến có tên `dataDir` như sau:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn trên máy tính nơi bạn muốn lưu tệp Excel của mình. Điều này giống như việc dựng trại căn cứ trước khi leo núi vậy!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn trên máy tính nơi bạn muốn lưu tệp Excel của mình. Điều này giống như việc dựng trại căn cứ trước khi leo núi vậy!
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
 Tạo một phiên bản của lớp Workbook.
 
- Bây giờ là lúc tạo bản thiết kế cho sổ làm việc Excel của bạn. Bạn sẽ thực hiện việc này bằng cách tạo một`Workbook` đối tượng. Bước này là nơi mọi điều kỳ diệu bắt đầu:
+Bây giờ là lúc tạo bản thiết kế cho sổ làm việc Excel của bạn. Bạn sẽ thực hiện việc này bằng cách tạo một `Workbook` đối tượng. Bước này là nơi mọi điều kỳ diệu bắt đầu:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Nghĩ về`Workbook` lớp như bức tranh của bạn. Mọi chi tiết bạn thêm vào sẽ phản ánh trong bức tranh cuối cùng—tệp Excel của bạn!
+Nghĩ về `Workbook` lớp như bức tranh của bạn. Mọi chi tiết bạn thêm vào sẽ phản ánh trong bức tranh cuối cùng—tệp Excel của bạn!
 
 ## Bước 3: Truy cập PageSetup
 
 Lấy đối tượng PageSetup của trang tính đầu tiên.
 
- Mỗi trang tính trong sổ làm việc của bạn có các thuộc tính thiết lập riêng, chẳng hạn như vùng in, hướng trang và lề. Bạn sẽ truy cập các thuộc tính này bằng cách sử dụng`PageSetup` lớp. Đây là cách để lấy tờ đầu tiên`PageSetup`:
+Mỗi trang tính trong sổ làm việc của bạn có các thuộc tính thiết lập riêng, chẳng hạn như vùng in, hướng trang và lề. Bạn sẽ truy cập các thuộc tính này bằng cách sử dụng `PageSetup` lớp. Đây là cách để lấy tờ đầu tiên `PageSetup`:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
@@ -111,19 +113,21 @@ Thiết lập vùng in trong tệp Excel bằng Aspose.Cells cho .NET có thể 
 Aspose.Cells là thư viện .NET dùng để tạo, xử lý và chuyển đổi bảng tính Excel mà không cần dùng đến Microsoft Excel.
 
 ### Làm thế nào để tải xuống Aspose.Cells?
- Bạn có thể tải xuống Aspose.Cells cho .NET từ[trang phát hành](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống Aspose.Cells cho .NET từ [trang phát hành](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) để bạn kiểm tra các tính năng của thư viện.
+Có, Aspose cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) để bạn kiểm tra các tính năng của thư viện.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Tài liệu toàn diện có sẵn trên[Trang web tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Tài liệu toàn diện có sẵn trên [Trang web tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Đối với bất kỳ thắc mắc hoặc vấn đề nào, bạn có thể liên hệ qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Đối với bất kỳ thắc mắc hoặc vấn đề nào, bạn có thể liên hệ qua [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

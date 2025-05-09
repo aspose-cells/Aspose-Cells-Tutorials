@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ Workbook workbook = new Workbook();
 
 Ez a szakasz az Excel-cellákban található megjegyzések formázásával kapcsolatos konkrét feladatokat ismerteti.
 
-### Munkafüzet létrehozása és előkészítése
+### Munkafüzet példányosítása és előkészítése
 **Áttekintés:**
 Hozz létre egy új Excel-fájlt, és nyisd meg az első munkalapot, ahol hozzáadhatod és formázhatod a megjegyzéseidet.
 
@@ -203,6 +205,9 @@ Ha bármilyen kérdése van, vagy segítségre van szüksége, látogassa meg a 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Naučte se vytvářet výkonná řešení pro tvorbu sestav s našimi tutoriály
 Naučte se, jak vylepšit své excelovské sestavy pomocí šipek pomocí Aspose.Cells pro Javu. Ideální pro vizualizaci dat a diagramové znázornění.
 
 ### [Vytváření dynamických sestav Excelu a konfigurace záložek PDF pomocí Aspose.Cells v Javě](./aspose-cells-java-dynamic-excel-reports-pdf-bookmarks/)
-Naučte se, jak vytvářet dynamické sestavy v Excelu, spravovat pracovní listy a konfigurovat záložky PDF pomocí Aspose.Cells pro Javu. Osvojte si efektivní techniky správy dat.
+Naučte se, jak vytvářet dynamické sestavy v Excelu, spravovat pracovní listy a konfigurovat záložky PDF pomocí Aspose.Cells pro Javu. Zvládněte efektivní techniky správy dat.
 
 ### [Výukový program Aspose.Cells v Javě: Implementace SmartMarkerů s třídou Person pro dynamické sestavy v Excelu](./aspose-cells-java-smartmarkers-person-class/)
 Naučte se, jak používat Aspose.Cells v Javě k implementaci SmartMarkerů a automatizaci dynamického reportování dat pomocí třídy Person. Podrobný návod pro zefektivnění automatizace v Excelu.
@@ -54,6 +56,9 @@ Naučte se, jak automatizovat generování dynamických reportů v Excelu pomoc�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

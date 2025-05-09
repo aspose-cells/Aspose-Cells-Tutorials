@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creación de tablas dinámicas
@@ -102,9 +104,11 @@ En este tutorial, explicamos el proceso de creación de tablas dinámicas con la
    Puede automatizar la creación de tablas dinámicas en Java utilizando la API Aspose.Cells para Java, como se muestra en este tutorial.
 
 Ahora tienes los conocimientos y el código para crear potentes tablas dinámicas en Java con Aspose.Cells. Experimenta con diferentes fuentes de datos y configuraciones para adaptar tus tablas dinámicas a tus necesidades específicas. ¡Que disfrutes del análisis de datos!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

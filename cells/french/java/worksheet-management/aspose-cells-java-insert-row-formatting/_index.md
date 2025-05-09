@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ Dans ce tutoriel, nous avons découvert comment insérer une ligne avec mise en 
 Prêt à implémenter cette solution dans votre application Java ? Essayez-la et découvrez comment Aspose.Cells peut simplifier vos manipulations de fichiers Excel !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

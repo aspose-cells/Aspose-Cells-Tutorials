@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Adquisición de licencias
 Aspose.Cells para Java es una biblioteca comercial, pero puedes empezar con una prueba gratuita para evaluar sus capacidades. Aquí te explicamos cómo obtenerla:
-- **Prueba gratuita**Descargue la última versión desde [Descargas de Aspose](https://releases.aspose.com/cells/java/).
+- **Prueba gratuita**: Descargue la última versión desde [Descargas de Aspose](https://releases.aspose.com/cells/java/).
 - **Licencia temporal**:Solicitar una licencia temporal a través de [este enlace](https://purchase.aspose.com/temporary-license/) Si necesita más tiempo del que permite el juicio.
 - **Compra**:Para tener acceso completo, compre una licencia a través de [Compra de Aspose](https://purchase.aspose.com/buy).
 
@@ -141,6 +143,9 @@ R: Aspose.Cells es altamente compatible y se puede integrar con Spring, Hibernat
 - **Foro de soporte**: [Soporte comunitario de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

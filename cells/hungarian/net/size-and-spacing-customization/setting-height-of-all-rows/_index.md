@@ -1,101 +1,105 @@
 ---
-title: Állítsa be az összes sor magasságát az Excelben az Aspose.Cells segítségével
-linktitle: Állítsa be az összes sor magasságát az Excelben az Aspose.Cells segítségével
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ezzel az átfogó, lépésenkénti oktatóanyaggal megtudhatja, hogyan állíthatja be az összes sor magasságát egy Excel-munkalapon az Aspose.Cells for .NET használatával.
-weight: 12
-url: /hu/net/size-and-spacing-customization/setting-height-of-all-rows/
+"description": "Tanuld meg, hogyan állíthatod be az összes sor magasságát egy Excel-munkalapon az Aspose.Cells for .NET használatával ezzel az átfogó, lépésről lépésre haladó oktatóanyaggal."
+"linktitle": "Az összes sor magasságának beállítása Excelben az Aspose.Cells segítségével"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Az összes sor magasságának beállítása Excelben az Aspose.Cells segítségével"
+"url": "/hu/net/size-and-spacing-customization/setting-height-of-all-rows/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be az összes sor magasságát az Excelben az Aspose.Cells segítségével
+# Az összes sor magasságának beállítása Excelben az Aspose.Cells segítségével
 
 ## Bevezetés
-Az adatkezelés rohanó világában elengedhetetlen a táblázatok megjelenésének ellenőrzése. Előfordulhat, hogy módosítania kell a sorok magasságát az Excelben a jobb láthatóság, rendszerezés vagy egyszerűen a munkája általános esztétikájának javítása érdekében. Ha .NET-alkalmazásokkal dolgozik, az Aspose.Cells egy hihetetlen könyvtár, amely lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben az oktatóanyagban végigvezetjük Önt egy Excel-munkalap összes sorának magasságának egyszerű beállításán az Aspose.Cells segítségével. Merüljünk el!
+Az adatkezelés gyors tempójú világában elengedhetetlen, hogy kézben tarthasd a táblázataid megjelenését. Előfordulhat, hogy az Excelben a sorok magasságát kell beállítanod a jobb láthatóság, a rendszerezés vagy egyszerűen a munkád általános esztétikájának javítása érdekében. Ha .NET alkalmazásokkal dolgozol, az Aspose.Cells egy hihetetlen könyvtár, amely lehetővé teszi az Excel-fájlok egyszerű kezelését. Ebben az oktatóanyagban végigvezetünk az Excel-munkalap összes sorának magasságának beállításán az Aspose.Cells segítségével. Vágjunk bele!
 ## Előfeltételek
-Mielőtt belevágnánk a kódolási részbe, győződjünk meg arról, hogy rendelkezik mindennel, ami az induláshoz szükséges:
--  Aspose.Cells for .NET: Ha még nem rendelkezik vele, töltse le a[Aspose Letöltések oldal](https://releases.aspose.com/cells/net/).
-- Visual Studio: fejlesztői környezet a C# kód írásához és futtatásához.
-- Alapvető C# ismerete: A C# alapjainak megértése segít megérteni a kód működését.
+Mielőtt belevágnánk a kódolásba, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szükségünk van:
+- Aspose.Cells .NET-hez: Ha még nem telepítetted, töltsd le innen: [Aspose letöltési oldal](https://releases.aspose.com/cells/net/).
+- Visual Studio: Egy fejlesztői környezet C# kód írásához és futtatásához.
+- C# alapismeretek: A C# alapjainak ismerete segít megérteni a kód működését.
 ## Csomagok importálása
-Az Aspose.Cells kódolás megkezdéséhez importálnia kell a szükséges névtereket. Íme, hogyan kell csinálni:
-### Hozzon létre egy új C# projektet
-Először nyissa meg a Visual Studio-t, és hozzon létre egy új C#-projektet.
-### Adja hozzá az Aspose.Cells könyvtárat
-Ezután hozzá kell adnia az Aspose.Cells könyvtárat a projekthez. Ha letöltötte a könyvtárat, hivatkozhat a DLL-re, mint bármely más könyvtárra.
-Ha egy automatizáltabb megközelítést szeretne, akkor a NuGet Package Manageren keresztül is telepítheti a következő végrehajtásával:
+Az Aspose.Cells-szel való kódolás megkezdéséhez importálni kell a szükséges névtereket. Így teheted meg:
+### Új C# projekt létrehozása
+Először nyisd meg a Visual Studio-t, és hozz létre egy új C# projektet.
+### Aspose.Cells könyvtár hozzáadása
+Ezután hozzá kell adnod az Aspose.Cells könyvtárat a projektedhez. Ha letöltötted a könyvtárat, akkor a DLL-jére hivatkozhatsz, mint bármely más könyvtárra.
+Ha egy automatizáltabb megközelítést szeretne, a NuGet csomagkezelőn keresztül is telepítheti a következő parancs futtatásával:
 ```bash
 Install-Package Aspose.Cells
 ```
 ### Adja meg a szükséges névtereket
-A C# fájl tetején adja meg a következő névtereket:
+C# fájl tetején szerepeljenek a következő névterek:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Ezek a névterek biztosítják az Excel-fájlok kezeléséhez szükséges osztályokat és módszereket.
-Most bontsuk le az Excel-fájl összes sora magasságának beállítási folyamatát.
-## 1. lépés: Határozza meg a címtár elérési útját
-Az első lépés az Excel-fájl elérési útjának megadása. Ez döntő fontosságú, mert megmondja az alkalmazásnak, hogy hol találja meg a kezelni kívánt fájlt.
+Ezek a névterek biztosítják a szükséges osztályokat és metódusokat az Excel-fájlok kezeléséhez.
+Most pedig bontsuk le az Excel-fájl összes sorának magasságának beállításának folyamatát.
+## 1. lépés: A könyvtár elérési útjának meghatározása
+Az első lépés az Excel-fájl elérési útjának megadása. Ez azért kulcsfontosságú, mert ez jelzi az alkalmazásnak, hogy hol találja a módosítani kívánt fájlt.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` az Excel-fájl tényleges mentési elérési útjával. Például:`C:\Documents\`.
+Csere `"Your Document Directory"` az Excel-fájl tényleges mentési útvonalával. Például: `C:\Documents\`.
 ## 2. lépés: Fájlfolyam létrehozása
- Ezután létre kell hoznia a`FileStream`amely az Excel fájl eléréséhez lesz használva. Ez lehetővé teszi a fájl megnyitását és kezelését.
+Ezután létre kell hoznia egy `FileStream` amelyet az Excel-fájl eléréséhez fog használni. Ez lehetővé teszi a fájl megnyitását és kezelését.
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Győződjön meg arról, hogy a „book1.xls” az Excel-fájl neve. A`FileMode.Open` paraméter azt jelzi, hogy egy meglévő fájlt nyit meg.
-## 3. lépés: Példányosítson egy munkafüzet-objektumot
- Most itt az ideje létrehozni egy példányt a`Workbook` osztályba, hogy betöltse az Excel fájlt a memóriába.
+Győződjön meg arról, hogy az Excel-fájl neve „book1.xls”. `FileMode.Open` A paraméter azt jelzi, hogy egy meglévő fájlt nyitsz meg.
+## 3. lépés: Munkafüzet-objektum példányosítása
+Most itt az ideje, hogy létrehozzunk egy példányt a `Workbook` osztály az Excel fájl memóriába töltéséhez.
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
- Ez a sor olvassa el a következővel megnyitott Excel-fájlt`FileStream` és előkészíti a manipulációra.
-## 4. lépés: Nyissa meg a munkalapot
-Az Aspose.Cells lehetővé teszi az egyes munkalapok elérését a munkafüzeten belül. Itt elérjük az első munkalapot.
+Ez a sor beolvassa az Excel fájlt, amelyet a következővel nyitott meg: `FileStream` és felkészíti azt a manipulációra.
+## 4. lépés: A munkalap elérése
+Az Aspose.Cells lehetővé teszi az egyes munkalapok elérését a munkafüzetedben. Itt az első munkalapot fogjuk elérni.
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- A munkalapokat nullától kezdve indexeljük, tehát`[0]` a munkafüzeted első munkalapjára utal.
-## 5. lépés: Állítsa be a sor magasságát
- Most készen állunk az összes sor magasságának beállítására. Használatával a`StandardHeight` tulajdonságnál megadhat egy szabványos magasságot a munkalap minden sorához.
+A munkalapok nullától kezdődően vannak indexelve, tehát `[0]` a munkafüzet első munkalapjára utal.
+## 5. lépés: Sormagasság beállítása
+Most már készen állunk arra, hogy beállítsuk az összes sor magasságát. A `StandardHeight` tulajdonsággal meghatározhat egy szabványos magasságot a munkalap minden sorához.
 ```csharp
 worksheet.Cells.StandardHeight = 15;
 ```
-Ebben a példában az összes sor magasságát 15-re állítjuk. Nyugodtan állítsa be a számot igényei szerint.
+Ebben a példában az összes sor magasságát 15-re állítjuk. Nyugodtan módosítsa a számot az igényei szerint.
 ## 6. lépés: Mentse el a módosított fájlt
-Az összes módosítás elvégzése után feltétlenül mentse a módosított munkafüzetet egy új fájlba, vagy írja felül a meglévőt.
+Az összes módosítás elvégzése után elengedhetetlen, hogy a módosított munkafüzetet új fájlba mentse, vagy felülírja a meglévőt.
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
-Ez a sor az új Excel-fájlt "output.out.xls" néven menti a megadott könyvtárba. Ha felül akarja írni az eredeti fájlt, csak ugyanazt a nevet használja.
-## 7. lépés: Tisztítsa meg az erőforrásokat
- Végül jó szokás bezárni a`FileStream` hogy elkerülje az erőforrásszivárgást az alkalmazásban.
+Ez a sor az új Excel fájlt „output.out.xls” néven menti a megadott könyvtárba. Ha felül szeretné írni az eredeti fájlt, egyszerűen használja ugyanazt a nevet.
+## 7. lépés: Erőforrások tisztítása
+Végül, jó szokás lezárni a `FileStream` hogy elkerülje az erőforrás-szivárgásokat az alkalmazásában.
 ```csharp
 fstream.Close();
 ```
- Ez a sor biztosítja, hogy a`FileStream` felszabadulnak, ami elengedhetetlen a teljesítmény fenntartásához.
+Ez a sor biztosítja, hogy a rendszer által használt összes rendszererőforrás `FileStream` szabadulnak fel, ami elengedhetetlen a teljesítmény fenntartásához.
 ## Következtetés
-És megvan! Sikeresen megtanulta, hogyan állíthatja be az összes sor magasságát egy Excel-munkalapon az Aspose.Cells for .NET segítségével. Ez a készség nemcsak az adatok olvashatóságát javítja, hanem professzionális hatást is ad a jelentéseihez és táblázataihoz. Az Aspose.Cells segítségével a lehetőségek hatalmasak, és az Excel-fájlok módosítása még soha nem volt ilyen egyszerű.
+És íme! Sikeresen megtanultad, hogyan állíthatod be az összes sor magasságát egy Excel munkalapban az Aspose.Cells for .NET segítségével. Ez a készség nemcsak az adatok olvashatóságát javítja, hanem professzionális megjelenést kölcsönöz a jelentéseknek és táblázatoknak is. Az Aspose.Cells segítségével a lehetőségek hatalmasak, és az Excel fájlok finomhangolása soha nem volt ilyen egyszerű.
 ## GYIK
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, olvasását, kezelését és mentését .NET-alkalmazásokban.
-### Szükségem van engedélyre az Aspose.Cells használatához?
- Igen, bár az Aspose.Cells ingyenes próbaverziót kínál, a korlátozások nélküli folyamatos használathoz licencre lesz szüksége. Ki lehet nézni[ideiglenes licencelési lehetőségek itt](https://purchase.aspose.com/temporary-license/).
-### Módosíthatom bizonyos sorok sormagasságát az összes helyett?
- Teljesen! Az adott sorok magasságát a gombbal állíthatja be`Cells.SetRowHeight(rowIndex, height)` módszer.
-### Az Aspose.Cells többplatformos?
-Igen, az Aspose.Cells bármely .NET-keretrendszerben használható, így sokoldalúan használható különféle alkalmazási forgatókönyvekhez.
+Az Aspose.Cells egy hatékony függvénykönyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, olvasását, kezelését és mentését .NET-alkalmazásokban.
+### Szükségem van licencre az Aspose.Cells használatához?
+Igen, bár az Aspose.Cells ingyenes próbaverziót kínál, a korlátozások nélküli folyamatos használathoz licencre lesz szükséged. Megnézheted [ideiglenes engedélyek lehetőségei itt](https://purchase.aspose.com/temporary-license/).
+### Módosíthatom a sorok magasságát csak bizonyos sorokra vonatkozóan az összes helyett?
+Természetesen! Beállíthatod az egyes sorok magasságát a `Cells.SetRowHeight(rowIndex, height)` módszer.
+### Az Aspose.Cells több platformon is elérhető?
+Igen, az Aspose.Cells bármilyen .NET keretrendszerben használható, így sokoldalúan használható különféle alkalmazási forgatókönyvekben.
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- Segítséget kérhet vagy kérdéseket tehet fel a[Aspose fórum](https://forum.aspose.com/c/cells/9) a Cell felhasználóknak szentelt.
+Segítséget kérhetsz vagy kérdéseket tehetsz fel a [Aspose Fórum](https://forum.aspose.com/c/cells/9) dedikált a Cells felhasználóknak.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

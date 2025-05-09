@@ -8,7 +8,9 @@ url: /java/spreadsheet-automation/automated-data-entry/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automated Data Entry
@@ -115,9 +117,11 @@ Automating data entry with Aspose.Cells for Java streamlines your data managemen
    You can explore the documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Now you have the knowledge and tools to automate data entry effectively using Aspose.Cells for Java. Start improving your data handling processes and elevate your business efficiency.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

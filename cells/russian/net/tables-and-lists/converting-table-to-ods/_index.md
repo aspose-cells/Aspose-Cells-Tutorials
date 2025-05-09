@@ -1,14 +1,16 @@
 ---
-title: Преобразование таблицы в ODS с помощью Aspose.Cells
-linktitle: Преобразование таблицы в ODS с помощью Aspose.Cells
-second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь преобразовывать таблицы Excel в ODS с помощью Aspose.Cells для .NET с помощью нашего простого пошагового руководства.
-weight: 12
-url: /ru/net/tables-and-lists/converting-table-to-ods/
+"description": "Научитесь преобразовывать таблицы Excel в ODS с помощью Aspose.Cells для .NET с помощью нашего простого пошагового руководства."
+"linktitle": "Преобразование таблицы в ODS с помощью Aspose.Cells"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Преобразование таблицы в ODS с помощью Aspose.Cells"
+"url": "/ru/net/tables-and-lists/converting-table-to-ods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразование таблицы в ODS с помощью Aspose.Cells
@@ -27,7 +29,7 @@ url: /ru/net/tables-and-lists/converting-table-to-ods/
 
 ### Загрузить библиотеку Aspose.Cells
 
- Вам понадобится установить библиотеку Aspose.Cells в вашем проекте. Вы можете скачать последнюю версию[здесь](https://releases.aspose.com/cells/net/). В качестве альтернативы, если вы предпочитаете, вы можете добавить его через NuGet:
+Вам понадобится установить библиотеку Aspose.Cells в вашем проекте. Вы можете скачать последнюю версию [здесь](https://releases.aspose.com/cells/net/). В качестве альтернативы, если вы предпочитаете, вы можете добавить его через NuGet:
 
 ```bash
 Install-Package Aspose.Cells
@@ -67,7 +69,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Заменять`"Your Document Directory"` с фактическим путем на вашем компьютере, где хранятся ваши документы. Указание правильных путей имеет важное значение для избежания ошибок во время операций с файлами.
+Заменять `"Your Document Directory"` с фактическим путем на вашем компьютере, где хранятся ваши документы. Указание правильных путей имеет важное значение для избежания ошибок во время операций с файлами.
 
 ## Шаг 2: Откройте файл Excel.
 
@@ -78,7 +80,7 @@ string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 ```
 
- Здесь вы инициализируете новый`Workbook` object с путем к файлу Excel. Убедитесь, что "SampleTable.xlsx" — это имя вашего файла; если оно отличается, измените его соответствующим образом.
+Здесь вы инициализируете новый `Workbook` object с путем к файлу Excel. Убедитесь, что "SampleTable.xlsx" — это имя вашего файла; если оно отличается, измените его соответствующим образом.
 
 ## Шаг 3: Сохранить как ODS-файл
 
@@ -89,7 +91,7 @@ Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 wb.Save(outputDir + "ConvertTableToOds_out.ods");
 ```
 
-Эта строка сохраняет книгу в указанном выходном каталоге с именем "ConvertTableToOds_out.ods". Вы можете назвать ее как угодно, главное, чтобы она заканчивалась на`.ods`.
+Эта строка сохраняет книгу в указанном выходном каталоге с именем "ConvertTableToOds_out.ods". Вы можете назвать ее как угодно, главное, чтобы она заканчивалась на `.ods`.
 
 ## Шаг 4: Проверка успешности преобразования
 
@@ -109,22 +111,24 @@ Console.WriteLine("ConvertTableToOds executed successfully.");
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Cells?
-Aspose.Cells — мощная библиотека для управления и работы с файлами Excel в приложениях .NET. 
+Aspose.Cells — мощная библиотека для управления и манипулирования файлами Excel в приложениях .NET. 
 
 ### Могу ли я попробовать Aspose.Cells бесплатно?
- Да! Вы можете загрузить бесплатную пробную версию Aspose.Cells с сайта[здесь](https://releases.aspose.com/).
+Да! Вы можете загрузить бесплатную пробную версию Aspose.Cells с сайта [здесь](https://releases.aspose.com/).
 
 ### Доступна ли поддержка для пользователей Aspose.Cells?
- Конечно! Вы можете получить поддержку через[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Конечно! Вы можете получить поддержку через [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Как я могу приобрести постоянную лицензию на Aspose.Cells?
- Вы можете купить постоянную лицензию непосредственно на странице покупки Aspose, которую вы можете найти[здесь](https://purchase.aspose.com/buy).
+Вы можете купить постоянную лицензию непосредственно на странице покупки Aspose, которую вы можете найти [здесь](https://purchase.aspose.com/buy).
 
 ### Какие типы форматов файлов можно конвертировать с помощью Aspose.Cells?
 С помощью Aspose.Cells вы можете конвертировать данные между различными форматами, включая XLSX, XLS, ODS, CSV и многими другими!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

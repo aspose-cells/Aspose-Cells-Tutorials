@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ Aspose.Cellsは無料トライアルでも強力な機能を提供していま�
 // ドキュメント ディレクトリへのパス。
 String dataDir = Utils.getSharedDataDir(FindingwithRegularExpressions.class) + "Data/";
 
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -159,6 +161,9 @@ cells.find("abc[\\s]*$", null, opt); // セル内容の末尾に「abc」とそ�
 - **サポート：** Asposeコミュニティフォーラムに参加してください [Aspose サポートフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ Aspose.Cells Java を統合することで、複雑なデータ ワークフロ�
 ### 次のステップ
 - さまざまな種類のデータ ソースを試してください。
 - Aspose.Cells の数式計算やグラフ生成などの他の機能を調べてみましょう。
-- 参加する [Aspose コミュニティフォーラム](https://forum.aspose.com/c/cells/9) 洞察を共有し、仲間から学びます。
+- 参加する [Aspose コミュニティフォーラム](https://forum.aspose.com/c/cells/9) 洞察を共有し、仲間から学ぶ。
 
 ## FAQセクション
 1. **Excel の XML マップとは何ですか?**
@@ -139,6 +141,9 @@ Aspose.Cells Java を統合することで、複雑なデータ ワークフロ�
 - [一時ライセンス情報](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

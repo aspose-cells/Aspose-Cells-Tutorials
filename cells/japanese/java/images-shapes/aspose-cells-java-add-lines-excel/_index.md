@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ Aspose.Cells for Java を使用して、Excel ワークシートに線を追加�
    - 直接の曲線はサポートされていませんが、複数の線分を角度を付けて接続することで曲線をシミュレートできます。
 
 **5. 線の形状を追加した後に削除することはできますか?**
-   - はい、使用します `worksheet.getShapes().removeAt(index);` ここで、index は図形コレクション内の線図形の位置です。
+   - はい、使います `worksheet.getShapes().removeAt(index);` ここで、index は図形コレクション内の線図形の位置です。
 
 ## リソース
 - **ドキュメント:** [Aspose.Cells Java リファレンス](https://reference.aspose.com/cells/java/)
@@ -190,6 +192,9 @@ Aspose.Cells for Java を使用して、Excel ワークシートに線を追加�
 この包括的なガイドは、Aspose.Cells Java を効果的に使用して Excel ドキュメントを強化するために必要な知識とツールを習得することを目的としています。これらのテクニックを今すぐ実践してみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

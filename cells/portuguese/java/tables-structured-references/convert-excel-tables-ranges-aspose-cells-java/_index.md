@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ Comece inicializando um `Workbook` objeto e carregando um arquivo Excel existent
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Defina aqui o caminho do seu diretório de dados
+String dataDir = "YOUR_DATA_DIRECTORY"; // Defina o caminho do seu diretório de dados aqui
 Workbook wb = new Workbook(dataDir + "book1.xlsx");
 ```
 
@@ -95,7 +97,7 @@ Converta um objeto de tabela ou lista em sua planilha em um intervalo regular pa
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Defina aqui o caminho do seu diretório de dados
+String dataDir = "YOUR_DATA_DIRECTORY"; // Defina o caminho do seu diretório de dados aqui
 Workbook wb = new Workbook(dataDir + "book1.xlsx");
 wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 ```
@@ -112,7 +114,7 @@ Após as modificações, salve sua pasta de trabalho para preservar as alteraç�
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Defina aqui o caminho do seu diretório de dados
+String dataDir = "YOUR_DATA_DIRECTORY"; // Defina o caminho do seu diretório de dados aqui
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // Defina aqui o caminho do diretório de saída
 Workbook wb = new Workbook(dataDir + "book1.xlsx");
 wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
@@ -175,6 +177,9 @@ Aproveite o Aspose.Cells para seus projetos Java e simplifique a maneira como vo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

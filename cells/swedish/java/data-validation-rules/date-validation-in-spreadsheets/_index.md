@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datumvalidering i kalkylblad
@@ -16,7 +18,7 @@
 
 ## Introduktion
 
-databehandlingsvärlden är kalkylblad oumbärliga verktyg, och Java-utvecklare arbetar ofta med kalkylbladsdata. Att säkerställa dataintegritet är avgörande, särskilt när man hanterar datum. I den här guiden utforskar vi hur man utför datumvalidering i kalkylblad med hjälp av Aspose.Cells för Java, ett kraftfullt API för att arbeta med Excel-filer.
+databehandlingsvärlden är kalkylblad oumbärliga verktyg, och Java-utvecklare arbetar ofta med kalkylbladsdata. Att säkerställa dataintegritet är avgörande, särskilt när man hanterar datum. I den här guiden utforskar vi hur man utför datumvalidering i kalkylblad med Aspose.Cells för Java, ett kraftfullt API för att arbeta med Excel-filer.
 
 ## Förkunskapskrav
 
@@ -117,6 +119,7 @@ Du kan hänvisa till [Aspose.Cells för Java API-referens](https://reference.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

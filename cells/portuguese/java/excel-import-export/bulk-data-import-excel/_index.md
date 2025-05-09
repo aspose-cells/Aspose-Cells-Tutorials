@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importação de dados em massa do Excel
@@ -18,7 +20,7 @@ Neste guia completo, mostraremos o processo de importação em massa de dados do
 
 ## Introdução
 
-importação em massa de dados do Excel é um requisito comum em muitos aplicativos Java. Seja trabalhando com dados financeiros, registros de clientes ou qualquer outro tipo de informação armazenada em planilhas do Excel, o Aspose.Cells para Java oferece uma solução robusta e fácil de usar.
+A importação em massa de dados do Excel é um requisito comum em muitos aplicativos Java. Seja trabalhando com dados financeiros, registros de clientes ou qualquer outro tipo de informação armazenada em planilhas do Excel, o Aspose.Cells para Java oferece uma solução robusta e fácil de usar.
 
 ## Pré-requisitos
 
@@ -74,7 +76,7 @@ Neste ponto, você tem acesso aos dados do arquivo Excel e pode executar qualque
 
 ## Conclusão
 
-A importação em massa de dados do Excel usando o Aspose.Cells para Java é uma solução poderosa e flexível para lidar com grandes conjuntos de dados com eficiência. Seguindo este guia passo a passo, você pode otimizar suas tarefas de processamento de dados e garantir a precisão dos dados.
+importação em massa de dados do Excel usando o Aspose.Cells para Java é uma solução poderosa e flexível para lidar com grandes conjuntos de dados com eficiência. Seguindo este guia passo a passo, você pode otimizar suas tarefas de processamento de dados e garantir a precisão dos dados.
 
 ## Perguntas frequentes
 
@@ -99,9 +101,11 @@ Com certeza! O Aspose.Cells para Java suporta importação e exportação de dad
 Sim, revise as informações de licenciamento no site da Aspose para obter detalhes sobre licenciamento e preços.
 
 Sinta-se à vontade para explorar mais e adaptar os exemplos de código para atender às suas necessidades específicas. Boa programação!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

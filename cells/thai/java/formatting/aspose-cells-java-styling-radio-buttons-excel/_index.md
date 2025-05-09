@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### คำอธิบาย:
-- **`Workbook`**: หมายถึงไฟล์ Excel
+- **`Workbook`**หมายถึงไฟล์ Excel
 - **`Worksheet`**: หมายถึงแผ่นงานในสมุดงาน
 - **`Cells`**:คอลเลกชันของเซลล์ในเวิร์กชีต
 - **`Style`**: ใช้สำหรับการจัดรูปแบบเซลล์
@@ -200,6 +202,9 @@ public class SaveWorkbookWithControls {
 - **เอกสารประกอบ**:คำแนะนำที่ครอบคลุมและเอกสารอ้างอิง API สามารถพบได้ที่ [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Informacje o rozszerzeniu dostępu do sieci Web
-linktitle: Informacje o rozszerzeniu dostępu do sieci Web
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak uzyskać dostęp do informacji o rozszerzeniach internetowych w plikach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego przewodnika krok po kroku.
-weight: 10
-url: /pl/net/excel-workbook/access-web-extension-information/
+"description": "Dowiedz się, jak uzyskać dostęp do informacji o rozszerzeniach internetowych w plikach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego przewodnika krok po kroku."
+"linktitle": "Informacje o rozszerzeniu dostępu do sieci Web"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Informacje o rozszerzeniu dostępu do sieci Web"
+"url": "/pl/net/excel-workbook/access-web-extension-information/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Informacje o rozszerzeniu dostępu do sieci Web
@@ -22,8 +24,8 @@ Zapraszamy do naszego dogłębnego zapoznania się z Aspose.Cells dla .NET! W ty
 Zanim zakasamy rękawy i zaczniemy, jest kilka rzeczy, które musisz skonfigurować. Oto lista kontrolna, aby upewnić się, że wszystko działa płynnie:
 
 1. Środowisko .NET: Upewnij się, że masz środowisko .NET skonfigurowane na swoim komputerze. Zazwyczaj oznacza to zainstalowanie Visual Studio lub innego zgodnego IDE.
-2.  Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Nie przejmuj się tym; możesz łatwo[pobierz najnowszą wersję tutaj](https://releases.aspose.com/cells/net/).
-3.  Przykładowy plik programu Excel: Na potrzeby tego samouczka upewnij się, że masz przykładowy plik programu Excel (np.`WebExtensionsSample.xlsx`) dostępne. Możesz utworzyć jeden z rozszerzeniami internetowymi lub pobrać jeden, jeśli to konieczne. 
+2. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Nie przejmuj się tym; możesz łatwo [pobierz najnowszą wersję tutaj](https://releases.aspose.com/cells/net/).
+3. Przykładowy plik programu Excel: Na potrzeby tego samouczka upewnij się, że masz przykładowy plik programu Excel (np. `WebExtensionsSample.xlsx`) dostępne. Możesz utworzyć jeden z rozszerzeniami internetowymi lub pobrać jeden, jeśli to konieczne. 
 4. Podstawowa wiedza o języku C#: Podstawowa znajomość programowania w języku C# znacznie ułatwi poruszanie się po tym samouczku.
 5. Menedżer pakietów NuGet: Znajomość pakietu NuGet pomoże Ci bezproblemowo zarządzać pakietem Aspose.Cells w ramach projektu.
 
@@ -32,7 +34,7 @@ Zanim zakasamy rękawy i zaczniemy, jest kilka rzeczy, które musisz skonfigurow
 Teraz, gdy wszystko jest już skonfigurowane, czas na wprowadzenie niezbędnych pakietów. Oto, jak możesz to zrobić w swoim projekcie:
 
 1. Otwórz swój projekt: Uruchom środowisko IDE programu Visual Studio i otwórz projekt, w którym chcesz użyć Aspose.Cells.
-2.  Dodaj pakiet NuGet: Przejdź do`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution` . Szukaj`Aspose.Cells` i zainstaluj.
+2. Dodaj pakiet NuGet: Przejdź do `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`. Szukaj `Aspose.Cells` i zainstaluj.
 3. Dyrektywa using: Dodaj następującą dyrektywę using na początku pliku C#, aby uzyskać dostęp do przestrzeni nazw Aspose.Cells:
 
 ```csharp
@@ -55,11 +57,11 @@ Następnie należy załadować skoroszyt programu Excel. Ten krok umożliwia man
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 ```
- W tym wierszu tworzymy nową instancję`Workbook` klasę i wskazując na nasz przykładowy plik. 
+W tym wierszu tworzymy nową instancję `Workbook` klasę i wskazując na nasz przykładowy plik. 
 
 ## Krok 3: Pobierz panele zadań rozszerzeń internetowych
 
- Po załadowaniu skoroszytu możesz uzyskać dostęp do`WebExtensionTaskPanes` kolekcja. Daje ci to niezbędny dostęp do rozszerzeń internetowych osadzonych w skoroszycie.
+Po załadowaniu skoroszytu możesz teraz uzyskać dostęp do `WebExtensionTaskPanes` kolekcja. Daje ci to niezbędny dostęp do rozszerzeń internetowych osadzonych w skoroszycie.
 
 ```csharp
 WebExtensionTaskPaneCollection taskPanes = workbook.Worksheets.WebExtensionTaskPanes;
@@ -68,12 +70,12 @@ Tutaj pobieramy wszystkie panele zadań powiązane z rozszerzeniami internetowym
 
 ## Krok 4: Przejrzyj panele zadań
 
-Gdy masz już kolekcję, następnym logicznym krokiem jest przejście przez każdy panel zadań i pobranie jego właściwości. Używając`foreach` Pętla to doskonały sposób na płynne poruszanie się po każdym panelu zadań.
+Gdy masz już kolekcję, następnym logicznym krokiem jest przejście przez każdy panel zadań i pobranie jego właściwości. Używając `foreach` pętla to doskonały sposób na płynne poruszanie się po każdym panelu zadań.
 
 ```csharp
 foreach (WebExtensionTaskPane taskPane in taskPanes)
 {
-    // W tej pętli wyodrębnimy właściwości
+    // tej pętli wyodrębnimy właściwości
 }
 ```
 
@@ -119,7 +121,7 @@ Pamiętaj, że to tylko czubek góry lodowej, jeśli chodzi o funkcjonalności A
 Aspose.Cells to rozbudowana biblioteka umożliwiająca manipulowanie arkuszami kalkulacyjnymi Excela w aplikacjach .NET.
 
 ### Jak pobrać Aspose.Cells?
- Można go pobrać ze strony[oficjalna strona](https://releases.aspose.com/cells/net/).
+Można go pobrać ze strony [oficjalna strona](https://releases.aspose.com/cells/net/).
 
 ### Czy Aspose.Cells obsługuje rozszerzenia internetowe?
 Tak, Aspose.Cells w pełni obsługuje rozszerzenia internetowe, co pozwala na skuteczną manipulację i dostęp.
@@ -128,10 +130,12 @@ Tak, Aspose.Cells w pełni obsługuje rozszerzenia internetowe, co pozwala na sk
 Aspose.Cells obsługuje wiele języków, w tym C#, VB.NET i ASP.NET.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Oczywiście! Możesz otrzymać bezpłatną wersję próbną, odwiedzając[ten link](https://releases.aspose.com/).
+Oczywiście! Możesz otrzymać bezpłatną wersję próbną, odwiedzając [ten link](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

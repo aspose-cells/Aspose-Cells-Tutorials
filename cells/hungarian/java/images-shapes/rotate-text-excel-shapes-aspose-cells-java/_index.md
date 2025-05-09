@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Excel-táblázatok használatakor előfordulhat, hogy olyan helyzetekben találkozhat, amikor egy alakzaton belüli szöveget pontosan kell igazítani anélkül, hogy a teljes alakzatot el kellene forgatni. Ez az oktatóanyag végigvezeti Önt a használatán. **Aspose.Cells Java-hoz** ennek a funkciónak az eléréséhez. A folytatással megtanulhatja, hogyan forgathatja el hatékonyan a szöveget az alakzatokon belül, miközben az alakzat statikus marad – ez tökéletes az Excel-dokumentum olvashatóságának és megjelenítésének javításához.
 
 ### Amit tanulni fogsz:
-- Tölts be egy meglévő Excel fájlt az Aspose.Cells paranccsal.
+- Tölts be egy meglévő Excel fájlt az Aspose.Cells segítségével.
 - Munkalap celláinak és alakzatainak elérése és kezelése.
 - Alakzatokon belüli szöveg elforgatása az irányuk megváltoztatása nélkül.
 - Mentse vissza a módosításokat egy új Excel-fájlba.
@@ -199,6 +201,9 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan manipulálhatjuk az alakzat
 Kísérletezz ezekkel a technikákkal, és emeld az Excel dokumentumok manipulációját a következő szintre az Aspose.Cells for Java segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

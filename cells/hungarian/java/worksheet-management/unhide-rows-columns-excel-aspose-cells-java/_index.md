@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,7 +195,7 @@ public class UnhideRowsColumns {
 
 ## Gyakorlati alkalmazások
 
-1. **Adatelemzési jelentések**Jelentések automatikus elkészítése a releváns szakaszok megjelenítésével.
+1. **Adatelemzési jelentések**Jelentések automatikus elkészítése a releváns szakaszok felfedésével.
 2. **Pénzügyi adatkezelés**: Táblázatok testreszabása pénzügyi auditokhoz vagy áttekintésekhez.
 3. **Készletrendszerek**: A készletkategóriák láthatóságának beállítása a felhasználói szerepkörök alapján.
 4. **Projektmenedzsment eszközök**: Módosítsa a feladatlistákat a részletek szükség szerinti megjelenítéséhez/elrejtéséhez.
@@ -231,6 +233,9 @@ A következő lépések közé tartozik az Aspose.Cells további funkcióinak fe
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

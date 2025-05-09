@@ -1,51 +1,55 @@
 ---
-title: Ändern Sie die Tabellen-Tick-Label-Richtung in Excel mit Aspose.Cells 
-weight: 7700
-limit: 
-description: Erfahren Sie, wie Sie die Richtung von Chart-Tick-Labels in einem Excel- Arbeitsblatt mit einem einfachen Codebeispiel mit Aspose.Cells für .NET ändern.
-keywords: [Aspose.Cells for .NET, change tick label direction, Excel chart labels, .NET Excel library, chart text direction]
-url: /de/net/charts/change-tick-label-direction/
+"description": "Erfahren Sie anhand eines einfachen Codebeispiels, wie Sie mit Aspose.Cells für .NET die Richtung der Diagramm-Teilstrichbeschriftungen in einem Excel-Arbeitsblatt ändern."
+"title": "Ändern Sie die Richtung der Diagramm-Tick-Beschriftung in Excel mit Aspose.Cells"
+"url": "/de/net/charts/change-tick-label-direction/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändern Sie die Tabellen-Tick-Label-Richtung in Excel mit Aspose.Cells 
+# Ändern Sie die Richtung der Diagramm-Tick-Beschriftung in Excel mit Aspose.Cells 
 
-Dieses Beispiel zeigt, wie man die Richtung der Kartenzeichenetiketten in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET ändert. Durch die Anpassung der Textrichtung der Kategorie-Achsenzeichen können Sie die Lesbarkeit der Kartendaten verbessern. Der Code lädt ein bestehendes Excel-Arbeitsblatt auf, greift auf das erste Arbeitsblatt zu, holt das Karten ab, setzt die Richtung des Kartenzeichen auf horizontal und speichert dann das modifizierte Arbeitsblatt. Dieser Ansatz sorgt für eine präzise Steuerung der Kartenzeichenorientierung in Ihren .NET-Anwendungen. 
+Dieses Beispiel zeigt, wie Sie die Richtung der Teilstrichbeschriftungen in einem Excel-Arbeitsblatt mit Aspose.Cells für .NET ändern. Durch Anpassen der Textrichtung der Teilstrichbeschriftungen der Rubrikenachse können Sie die Lesbarkeit der Diagrammdaten verbessern. Der Code lädt eine vorhandene Excel-Arbeitsmappe, greift auf das erste Arbeitsblatt zu, ruft das Diagramm ab, stellt die Richtung der Teilstrichbeschriftungen auf horizontal und speichert anschließend die geänderte Arbeitsmappe. Dieser Ansatz gewährleistet eine präzise Kontrolle über die Ausrichtung der Diagrammbeschriftungen in Ihren .NET-Anwendungen. 
  
 ---
 
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installationsanweisungen  
-Um dieses Beispiel auszuführen, folgen Sie diesen Schritten:  
+Um dieses Beispiel auszuführen, führen Sie die folgenden Schritte aus:  
 
 1. Installieren Sie Aspose.Cells für .NET  
-   * Download von [Aspose.Cells für .NET](https://releases.aspose.com/cells/net/)  
-   * Oder installieren Sie über NuGet:  
+   - Herunterladen von [Aspose.Cells für .NET](https://releases.aspose.com/cells/net/)  
+   - Oder über NuGet installieren:  
      ```shell
      Install-Package Aspose.Cells
      ```  
 
-2. Setzen Sie Ihr Projekt ein  
-   * Erstellen Sie ein neues .NET-Projekt.  
-   * Hinzufügen einer Verweisung auf Aspose.Cells.dll.  
+2. Richten Sie Ihr Projekt ein  
+   - Erstellen Sie ein neues .NET-Projekt.  
+   - Fügen Sie einen Verweis auf Aspose.Cells.dll hinzu.  
 
-3. Führen Sie den Code aus  
-   * Ersetzen`"Ihr Dokumentenverzeichnis"`mit dem eigentlichen Dateipfad.  
-   * Führen Sie das Programm aus, um die Richtung des Zeichnungslabels im Diagramm zu aktualisieren.  
+3. Ausführen des Codes  
+   - Ersetzen `"Your Document Directory"` mit dem tatsächlichen Dateipfad.  
+   - Führen Sie das Programm aus, um die Richtung der Teilstrichbeschriftung im Diagramm zu aktualisieren.  
 
 ## Siehe auch
-Für eine kostenlose Testversion besuchen Sie [Werfen Sie sich eine kostenlose Prüfung vor](https://releases.aspose.com/)\- Ich weiß .  
-Um eine Lizenz zu kaufen, gehen Sie zu [Verwenden Sie die Kaufseite](https://purchase.aspose.com/buy)\- Ich weiß .  
-Für die vollständige Dokumentation besuchen Sie [Aspose.Cells für .NET- Dokumentation](https://docs.aspose.com/cells/net/)\- Ich weiß .  
-Um die vollständige API-Verweise zu erforschen, überprüfen Sie [Aspose.Cells für den .NET API-Verweis](https://reference.aspose.com/cells/net/)\- Ich weiß .
+Für eine kostenlose Testversion besuchen Sie [Kostenlose Aspose-Testversion](https://releases.aspose.com/).  
+Um eine Lizenz zu erwerben, gehen Sie zu [Aspose-Kaufseite](https://purchase.aspose.com/buy).  
+Die vollständige Dokumentation finden Sie unter [Aspose.Cells für .NET-Dokumentation](https://docs.aspose.com/cells/net/).  
+Um die vollständige API-Referenz zu erkunden, schauen Sie sich an [Aspose.Cells für .NET API-Referenz](https://reference.aspose.com/cells/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Aspose.Cells Java elsajátítása: Egyéni betöltési szűrők megvalósítása és Excel-táblázatok képként exportálása
 
 ## Bevezetés
-Nagyméretű Excel-munkafüzetek feldolgozásának optimalizálását szeretnéd? Ez az útmutató bemutatja, hogyan **Aspose.Cells Java-hoz** egyéni betöltési szűrők megvalósításával és a munkalapok képként történő exportálásával segíthet. Ezek a funkciók tökéletesek nagy adathalmazok hatékony kezelésére, miközben kiváló minőségű vizuális ábrázolásokat biztosítanak.
+Szeretné optimalizálni a nagyméretű Excel-munkafüzetek feldolgozását? Ez az útmutató bemutatja, hogyan **Aspose.Cells Java-hoz** egyéni betöltési szűrők megvalósításával és a munkalapok képként történő exportálásával segíthet. Ezek a funkciók tökéletesek nagy adathalmazok hatékony kezelésére, miközben kiváló minőségű vizuális ábrázolásokat biztosítanak.
 
 Ebben az oktatóanyagban a következőket fogjuk áttekinteni:
 - Egyéni betöltési szűrők létrehozása az adatbetöltés szabályozásához
@@ -188,6 +190,9 @@ Az útmutató követésével most már készen állsz arra, hogy kihasználd az 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

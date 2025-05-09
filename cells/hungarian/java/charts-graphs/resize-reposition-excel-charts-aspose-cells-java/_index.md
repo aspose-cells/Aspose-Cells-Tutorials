@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Az adatvizualizáció hatékony kezelése javítja az adatok értelmezését és
 - Meglévő Excel fájl betöltése az Aspose.Cells segítségével
 - Diagramok átméretezésének technikái a munkafüzetben
 - Diagramok áthelyezésének módszerei a munkalapon
-- teljesítmény optimalizálásának legjobb gyakorlatai
+- A teljesítmény optimalizálásának legjobb gyakorlatai
 Mielőtt belekezdenénk, vizsgáljuk meg a szükséges előfeltételeket.
 ### Előfeltételek
 A bemutató követéséhez a következőkre van szükséged:
@@ -148,6 +150,9 @@ A következő lépések magukban foglalhatják a diagramok létrehozását a sem
 Merülj el ezekben az anyagokban, hogy elsajátítsd a diagramok manipulálását Excel fájlokban az Aspose.Cells for Java segítségével. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

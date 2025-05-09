@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ Esse recurso funciona de forma semelhante ao agrupamento de linhas, mas em um ei
 **Parâmetros explicados:**
 - `groupColumns(int firstColumn, int lastColumn, boolean hidden)`: Agrupa colunas entre `firstColumn` e `lastColumn`. Se `hidden` é verdade, eles são recolhidos por padrão.
 
-### Configurando a propriedade SummaryRowBelow
+### Definindo a propriedade SummaryRowBelow
 
 Ajustando o `SummaryRowBelow` propriedade altera o posicionamento do resumo na sua planilha:
 
@@ -195,6 +197,9 @@ Agora você tem as habilidades para agrupar linhas e colunas, bem como configura
 - **Documentação**: [Documentação Java do Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-print-area/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Print Area of Worksheet
@@ -84,6 +86,7 @@ You can get a free trial [here](https://releases.aspose.com/) or request a [temp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

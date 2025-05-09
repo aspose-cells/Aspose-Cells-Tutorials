@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Dowiedz się, jak konwertować arkusze Excela na wysokiej jakości obrazy TIFF przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje ładowanie skoroszytów, konfigurowanie opcji obrazu i efektywne renderowanie arkuszy."
+"description": "Dowiedz się, jak konwertować arkusze Excela na wysokiej jakości obrazy TIFF przy użyciu Aspose.Cells for Java. Ten przewodnik obejmuje ładowanie skoroszytów, konfigurowanie opcji obrazu i wydajne renderowanie arkuszy."
 "title": "Konwertuj arkusze Excela na obrazy TIFF za pomocą Aspose.Cells dla Java&#58; Kompleksowy przewodnik"
 "url": "/pl/java/workbook-operations/convert-excel-sheets-tiff-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,6 +163,9 @@ Więcej informacji znajdziesz pod poniższymi linkami:
 - **Forum wsparcia**: [Społeczność wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

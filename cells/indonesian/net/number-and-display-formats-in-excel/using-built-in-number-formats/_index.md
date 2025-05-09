@@ -1,30 +1,32 @@
 ---
-title: Menggunakan Format Angka Bawaan di Excel Secara Terprogram
-linktitle: Menggunakan Format Angka Bawaan di Excel Secara Terprogram
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Otomatiskan pemformatan angka di Excel menggunakan Aspose.Cells untuk .NET. Pelajari cara menerapkan format tanggal, persentase, dan mata uang secara terprogram.
-weight: 10
-url: /id/net/number-and-display-formats-in-excel/using-built-in-number-formats/
+"description": "Otomatiskan pemformatan angka di Excel menggunakan Aspose.Cells untuk .NET. Pelajari cara menerapkan format tanggal, persentase, dan mata uang secara terprogram."
+"linktitle": "Menggunakan Format Angka Bawaan di Excel Secara Terprogram"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Menggunakan Format Angka Bawaan di Excel Secara Terprogram"
+"url": "/id/net/number-and-display-formats-in-excel/using-built-in-number-formats/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menggunakan Format Angka Bawaan di Excel Secara Terprogram
 
-## Perkenalan
+## Bevezetés
 Dalam tutorial ini, kami akan memandu Anda tentang cara menggunakan format angka bawaan di Excel menggunakan Aspose.Cells untuk .NET. Kami akan membahas semuanya mulai dari menyiapkan lingkungan Anda hingga menerapkan berbagai format seperti tanggal, persentase, dan mata uang. Baik Anda seorang profesional berpengalaman atau baru mengenal ekosistem .NET, panduan ini akan membantu Anda memformat sel Excel dengan mudah.
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki hal berikut:
--  Pustaka Aspose.Cells untuk .NET telah terinstal. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+## Előfeltételek
+Mielőtt belevágnál, győződj meg róla, hogy a következőkkel rendelkezel:
+- Pustaka Aspose.Cells untuk .NET telah terinstal. Anda dapat [töltsd le itt](https://releases.aspose.com/cells/net/).
 - Pengetahuan dasar tentang C# dan pemrograman .NET.
 - Visual Studio atau IDE .NET apa pun yang terinstal di komputer Anda.
--  Lisensi Aspose yang valid atau[lisensi sementara](https://purchase.aspose.com/temporary-license/).
+- Lisensi Aspose yang valid atau [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 - .NET framework terpasang (versi 4.0 atau lebih tinggi).
   
 Jika Anda tidak memiliki salah satu hal di atas, ikuti tautan yang disediakan untuk mengatur semuanya. Siap? Mari kita mulai bagian yang menyenangkan!
-## Paket Impor
+## Csomagok importálása
 Sebelum memulai tutorial, pastikan untuk mengimpor namespace yang diperlukan untuk bekerja dengan Aspose.Cells untuk .NET:
 ```csharp
 using System.IO;
@@ -35,23 +37,23 @@ Setelah mengimpornya, Anda siap untuk memanipulasi file Excel secara terprogram.
 ## Langkah 1: Buat atau Akses Buku Kerja Excel Anda
 Pada langkah ini, Anda akan membuat buku kerja baru. Anggap saja ini seperti membuka file Excel baru, tetapi Anda melakukannya melalui kode!
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Buat direktori jika belum ada.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
- Di sini, kita hanya membuat instance baru`Workbook` objek. Ini berfungsi sebagai berkas Excel Anda, siap untuk manipulasi data. Anda juga dapat memuat berkas yang sudah ada dengan memberikan jalurnya.
-## Langkah 2: Akses Lembar Kerja
+Di sini, kita hanya membuat instance baru `Workbook` objek. Ini berfungsi sebagai berkas Excel Anda, siap untuk manipulasi data. Anda juga dapat memuat berkas yang sudah ada dengan memberikan jalurnya.
+## 2. lépés: A munkalap elérése
 Buku kerja Excel dapat berisi beberapa lembar kerja. Pada langkah ini, kita akan mengakses lembar kerja pertama di buku kerja Anda:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 Kita sekarang mengakses lembar kerja pertama dalam buku kerja. Jika Anda perlu memanipulasi lembar tambahan, Anda dapat merujuknya menggunakan indeks atau nama lembar tersebut.
-## Langkah 3: Tambahkan Data ke Sel
+## 3. lépés: Adatok hozzáadása cellákhoz
 Mari kita mulai menambahkan beberapa data ke sel tertentu. Pertama, kita akan memasukkan tanggal sistem saat ini ke dalam sel "A1":
 ```csharp
 worksheet.Cells["A1"].PutValue(DateTime.Now);
@@ -68,7 +70,7 @@ Di sini, kita mengambil gaya sel A1. Anggap saja ini seperti mengambil "mode" se
 ```csharp
 style.Number = 15;
 ```
- Pengaturan`Number` properti ke 15 menerapkan format tanggal yang diinginkan. Ini adalah kode format angka bawaan untuk menampilkan tanggal dalam format "d-mmm-yy".
+Pengaturan `Number` properti ke 15 menerapkan format tanggal yang diinginkan. Ini adalah kode format angka bawaan untuk menampilkan tanggal dalam format "d-mmm-yy".
 3. Terapkan Gaya ke Sel:
 ```csharp
 worksheet.Cells["A1"].SetStyle(style);
@@ -101,31 +103,33 @@ style = worksheet.Cells["A3"].GetStyle();
 style.Number = 6;  // Format sebagai mata uang
 worksheet.Cells["A3"].SetStyle(style);
 ```
- Pengaturan`Number` properti ke 6 menerapkan format mata uang. Sekarang nilai di sel A3 akan ditampilkan sebagai "2.546,00," lengkap dengan koma dan dua tempat desimal.
-## Langkah 7: Simpan File Excel
+Pengaturan `Number` properti ke 6 menerapkan format mata uang. Sekarang nilai di sel A3 akan ditampilkan sebagai "2.546,00," lengkap dengan koma dan dua tempat desimal.
+## 7. lépés: Mentse el az Excel-fájlt
 Sekarang setelah kita menerapkan semua keajaiban pemformatan, saatnya untuk menyimpan berkas:
 ```csharp
-// Menyimpan file Excel
+// Az Excel fájl mentése
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- Baris ini menyimpan file Excel dalam format Excel 97-2003. Anda dapat mengubah`SaveFormat`sesuai dengan kebutuhan Anda. Dan begitu saja, Anda telah membuat dan memformat file Excel secara terprogram!
-## Kesimpulan
+Baris ini menyimpan file Excel dalam format Excel 97-2003. Anda dapat mengubah `SaveFormat` sesuai dengan kebutuhan Anda. Dan begitu saja, Anda telah membuat dan memformat file Excel secara terprogram!
+## Következtetés
 Selamat! Anda telah berhasil mempelajari cara menggunakan Aspose.Cells for .NET untuk menerapkan format angka bawaan ke sel dalam file Excel. Dari tanggal hingga persentase dan mata uang, kami telah membahas beberapa kebutuhan pemformatan paling umum untuk pemrosesan data Excel. Sekarang, alih-alih memformat sel secara manual, Anda dapat mengotomatiskan seluruh proses—menghemat waktu dan mengurangi kesalahan.
-## Pertanyaan yang Sering Diajukan
+## GYIK
 ### Dapatkah saya menerapkan format angka khusus menggunakan Aspose.Cells untuk .NET?
- Ya! Selain format bawaan, Aspose.Cells juga mendukung format angka khusus. Anda dapat membuat format yang sangat spesifik menggunakan`Custom` properti di`Style` kelas.
+Ya! Selain format bawaan, Aspose.Cells juga mendukung format angka khusus. Anda dapat membuat format yang sangat spesifik menggunakan `Custom` properti di `Style` osztály.
 ### Bagaimana cara memformat sel sebagai mata uang dengan simbol tertentu?
- Untuk menerapkan simbol mata uang tertentu, Anda dapat menggunakan format khusus dengan mengatur`Style.Custom` milik.
+Untuk menerapkan simbol mata uang tertentu, Anda dapat menggunakan format khusus dengan mengatur `Style.Custom` ingatlan.
 ### Bisakah saya memformat seluruh baris atau kolom?
- Tentu saja! Anda dapat menerapkan gaya ke seluruh baris atau kolom menggunakan`Rows` atau`Columns`koleksi di`Worksheet` obyek.
+Tentu saja! Anda dapat menerapkan gaya ke seluruh baris atau kolom menggunakan `Rows` vagy `Columns` koleksi di `Worksheet` objektum.
 ### Bagaimana cara memformat beberapa sel sekaligus?
-Anda dapat menggunakan`Range` objek untuk memilih beberapa sel dan menerapkan gaya ke semuanya sekaligus.
-### Apakah saya perlu menginstal Microsoft Excel untuk menggunakan Aspose.Cells?
+Használhatod a `Range` objek untuk memilih beberapa sel dan menerapkan gaya ke semuanya sekaligus.
+### Telepítenem kell a Microsoft Excelt az Aspose.Cells használatához?
 Tidak, Aspose.Cells bekerja secara independen dari Microsoft Excel, jadi Anda tidak perlu menginstal Excel di komputer Anda.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

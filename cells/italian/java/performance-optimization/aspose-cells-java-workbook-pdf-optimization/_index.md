@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ Integrando queste funzionalità, hai migliorato la capacità delle tue applicazi
 4. **L'utilizzo di Aspose.Cells per Java ha un costo?**
    - È disponibile una prova gratuita; è possibile acquistare licenze temporanee o acquistarle dal sito web di Aspose.
 5. **Come posso integrare Aspose.Cells con altri sistemi?**
-   - È possibile utilizzare le sue ampie funzionalità API per connettersi a database, servizi Web e altro ancora.
+   - È possibile utilizzare le ampie funzionalità API per connettersi a database, servizi Web e altro ancora.
 
 ## Risorse
 - [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -184,6 +186,9 @@ Integrando queste funzionalità, hai migliorato la capacità delle tue applicazi
 Intraprendi il tuo viaggio con Aspose.Cells per Java e sfrutta appieno il potenziale della gestione dei file Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

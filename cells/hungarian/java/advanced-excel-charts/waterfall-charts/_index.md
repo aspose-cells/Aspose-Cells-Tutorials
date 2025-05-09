@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vízesésdiagramok
@@ -113,11 +115,12 @@ Természetesen további adatsorokat is hozzáadhat a vízesésdiagramhoz, hogy h
 
 ### Hol találok további forrásokat és példákat az Aspose.Cells for Java-hoz?
 
-Az Aspose.Cells for Java dokumentációját itt tekintheti meg: [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és kódpéldákért.
+Az Aspose.Cells Java-hoz készült dokumentációját itt tekintheti meg: [reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és kódpéldákért.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

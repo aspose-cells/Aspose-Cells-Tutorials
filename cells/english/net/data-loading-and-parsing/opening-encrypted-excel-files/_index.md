@@ -8,7 +8,9 @@ url: /net/data-loading-and-parsing/opening-encrypted-excel-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening Encrypted Excel Files
@@ -85,9 +87,11 @@ Aspose.Cells supports various formats, including .xls, .xlsx, .xlsm, and more.
 Yes, Aspose.Cells is compatible with .NET Core and .NET Framework.
 ### Where can I get support if I encounter issues?
 You can ask for help on the [Aspose support forum](https://forum.aspose.com/c/cells/9), where both users and developers discuss issues.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

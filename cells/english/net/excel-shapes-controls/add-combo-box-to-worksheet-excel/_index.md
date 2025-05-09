@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-combo-box-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Combo Box to Worksheet in Excel
@@ -148,6 +150,7 @@ You can get support from the [Aspose forum](https://forum.aspose.com/c/cells/9).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

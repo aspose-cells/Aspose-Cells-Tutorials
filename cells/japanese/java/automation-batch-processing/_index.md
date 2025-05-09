@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,13 +69,13 @@ Aspose.Cells for Javaを使ってExcelファイルにボタンを追加し、ス
 Aspose.Words Javaのコードチュートリアル
 
 ### [Aspose.Cells Java による Excel 自動化: 完全ガイド](./excel-automation-aspose-cells-java-guide/)
-Aspose.Cells for Javaを使ってExcelの自動化をマスターしましょう。この包括的なガイドで、Excelワークブックを簡単に作成、変更、管理する方法を学びましょう。
+Aspose.Cells for Javaを使ってExcelの自動化をマスターしましょう。この包括的なガイドで、Excelブックを簡単に作成、変更、管理する方法を学びましょう。
 
 ### [Aspose.Cells Java による Excel 自動化: ワークブック操作の包括的なガイド](./excel-automation-aspose-cells-java-master-workbook-manipulation/)
 Aspose.Cells for Javaを使用してExcelタスクを自動化する方法を学びましょう。このチュートリアルでは、テンプレートの読み込み、図形の操作、ワークブックの効率的な保存について説明します。
 
 ### [Aspose.Cells for Java で Excel の自動化をマスターする: 完全ガイド](./excel-automation-aspose-cells-java-tutorial/)
-Aspose.Cells for Java を使用して Excel タスクを自動化する方法を学びます。バージョンの取得、テーブルの読み取り、ODS 形式での保存方法を学びます。
+Aspose.Cells for Javaを使ってExcelのタスクを自動化する方法を学びましょう。バージョンの取得、テーブルの読み取り、ODS形式での保存方法を学びます。
 
 ### [Aspose.Cells を使用した Java での Excel 自動化: 包括的なガイド](./excel-automation-java-aspose-cells-guide/)
 Aspose.Cellsを使用してJavaでExcelタスクを自動化する方法を学びましょう。このガイドでは、ワークブックの初期化、ワークシートへのアクセス、自動フィルター、そしてファイルの効率的な保存について説明します。
@@ -102,6 +104,9 @@ Aspose.Cells for Javaを使用してExcelタスクを自動化する方法を学
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ workbook.save(outDir + "/CopySparkline_out.xlsx");
 **ขั้นตอนต่อไป**:ทดลองกับการกำหนดค่าที่แตกต่างกัน สำรวจคุณลักษณะ Aspose.Cells เพิ่มเติม และพิจารณาผสานรวมโซลูชันนี้เข้ากับเวิร์กโฟลว์ที่ใหญ่กว่า
 
 ## ส่วนคำถามที่พบบ่อย
-1. **สปาร์กไลน์ใน Excel คืออะไร?**
+1. **Sparkline ใน Excel คืออะไร?**
    - สปาร์กไลน์เป็นแผนภูมิขนาดเล็กภายในเซลล์ซึ่งแสดงแนวโน้มข้อมูลได้ในทันที
 2. **ฉันสามารถใช้ Aspose.Cells สำหรับ Java โดยไม่ต้องมีใบอนุญาตได้หรือไม่**
    - ใช่ แต่มีข้อจำกัด การทดลองใช้ฟรีหรือใบอนุญาตชั่วคราวจะให้ฟังก์ชันการทำงานเต็มรูปแบบชั่วคราว
@@ -164,6 +166,9 @@ workbook.save(outDir + "/CopySparkline_out.xlsx");
 - สนับสนุน: [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

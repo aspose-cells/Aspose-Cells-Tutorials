@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@ Temel Java programlama anlayışı gereklidir. Bağımlılık yönetimi için Ma
 
 ## Java için Aspose.Cells Kurulumu
 
-Aspose.Cells'i kullanmaya başlamak için onu proje ortamınızda ayarlamanız gerekir. İşte nasıl:
+Aspose.Cells'i kullanmaya başlamak için, onu proje ortamınızda ayarlamanız gerekir. İşte nasıl:
 
 ### Kurulum
 
@@ -205,6 +207,9 @@ Daha fazla araştırma için Aspose.Cells tarafından sunulan formül hesaplama 
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

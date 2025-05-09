@@ -1,36 +1,38 @@
 ---
-title: Specificare i campi formula durante l'importazione dei dati nel foglio Excel
-linktitle: Specificare i campi formula durante l'importazione dei dati nel foglio Excel
-second_title: API di elaborazione Excel .NET Aspose.Cells
-description: In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET.
-weight: 11
-url: /it/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "In questo tutorial dettagliato scoprirai come importare dati in fogli Excel con campi formula specificati utilizzando Aspose.Cells per .NET."
+"linktitle": "Specificare i campi formula durante l'importazione di dati in un foglio Excel"
+"second_title": "API di elaborazione Excel .NET Aspose.Cells"
+"title": "Specificare i campi formula durante l'importazione di dati in un foglio Excel"
+"url": "/it/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Specificare i campi formula durante l'importazione dei dati nel foglio Excel
+# Specificare i campi formula durante l'importazione di dati in un foglio Excel
 
 ## Introduzione
 
-Quando si tratta di gestire file Excel in modo programmatico, Aspose.Cells per .NET è uno strumento prezioso. Fornisce funzionalità robuste per creare, modificare e manipolare fogli di calcolo Excel con facilità. Una delle caratteristiche interessanti che offre è la possibilità di specificare campi formula durante l'importazione di dati in un foglio Excel. Immagina di lavorare su un report finanziario e di dover calcolare automaticamente i totali in base all'input dell'utente. Questo tutorial ti guiderà passo dopo passo nel raggiungimento di questo obiettivo con un approccio pulito e diretto.
+Quando si tratta di gestire file Excel a livello di codice, Aspose.Cells per .NET è uno strumento prezioso. Offre funzionalità affidabili per creare, modificare e manipolare fogli di calcolo Excel con facilità. Una delle funzionalità più interessanti è la possibilità di specificare campi formula durante l'importazione di dati in un foglio Excel. Immagina di lavorare a un report finanziario e di dover calcolare automaticamente i totali in base all'input dell'utente. Questo tutorial ti guiderà passo dopo passo nel raggiungimento di questo obiettivo con un approccio semplice e diretto.
 
 ## Prerequisiti
 
 Prima di immergerci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno. 
 
 1. Visual Studio o qualsiasi ambiente di sviluppo integrato (IDE) .NET: assicurati di disporre di un IDE adatto per scrivere ed eseguire il codice C#.
-2.  Aspose.Cells per .NET: dovrai scaricare e fare riferimento alla libreria Aspose.Cells nel tuo progetto. Puoi scaricarla da[Rilasci di Aspose](https://releases.aspose.com/cells/net/).
-3. Conoscenza di base del linguaggio C#: la familiarità con il linguaggio C# e con i concetti di programmazione orientata agli oggetti ti aiuterà a comprendere meglio gli esempi.
-4. .NET Framework: questo tutorial presuppone che tu stia utilizzando .NET Framework 4.5 o versione successiva.
+2. Aspose.Cells per .NET: dovrai scaricare e fare riferimento alla libreria Aspose.Cells nel tuo progetto. Puoi scaricarla da [Rilasci di Aspose](https://releases.aspose.com/cells/net/).
+3. Conoscenza di base di C#: la familiarità con C# e con i concetti di programmazione orientata agli oggetti ti aiuterà a comprendere meglio gli esempi.
+4. .NET Framework: in questo tutorial si presuppone che si utilizzi .NET Framework 4.5 o versione successiva.
 
 Una volta soddisfatti i prerequisiti, procediamo a importare alcuni dati in un foglio Excel con campi formula specificati.
 
 ## Importa pacchetti
 
-Prima di iniziare a scrivere il codice, dovrai importare il namespace Aspose.Cells necessario. Questo viene solitamente fatto all'inizio del tuo file C#:
+Prima di iniziare a scrivere il codice, è necessario importare lo spazio dei nomi Aspose.Cells necessario. Questa operazione viene in genere eseguita all'inizio del file C#:
 
 ```csharp
 using Aspose.Cells;
@@ -44,17 +46,17 @@ Scomponiamo l'intero processo in passaggi gestibili:
 
 ## Passaggio 1: definire la directory di output
 
-Per prima cosa, devi stabilire dove vuoi salvare il tuo file Excel. Ecco come puoi farlo:
+Per prima cosa, devi stabilire dove vuoi salvare il file Excel. Ecco come fare:
 
 ```csharp
-static string outputDir = "Your Document Directory"; // specifica qui la directory del tuo documento
+static string outputDir = "Your Document Directory"; // specifica qui la directory dei tuoi documenti
 ```
 
- Sostituire`"Your Document Directory"` con il tuo percorso file effettivo. Qui è dove verrà salvato il file Excel generato.
+Sostituire `"Your Document Directory"` Con il percorso effettivo del file. È qui che verrà salvato il file Excel generato.
 
 ## Passaggio 2: creare una classe definita dall'utente per gli elementi dati
 
-Successivamente, definiremo una classe per strutturare i dati che intendiamo importare.
+Ora definiremo una classe per strutturare i dati che intendiamo importare.
 
 ```csharp
 class DataItems
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Questo`DataItems` La classe conterrà i numeri interi grezzi e le formule che scriveremo nel foglio Excel. 
+Questo `DataItems` La classe conterrà i numeri interi grezzi e le formule che scriveremo nel foglio Excel. 
 
 ## Passaggio 3: inizializzare un elenco per contenere gli elementi dati
 
- Utilizzeremo un elenco per contenere più istanze del nostro`DataItems` classe.
+Utilizzeremo un elenco per contenere più istanze del nostro `DataItems` classe.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -78,7 +80,7 @@ List<DataItems> dis = new List<DataItems>();
 
 ## Passaggio 4: aggiungere elementi dati all'elenco
 
-Ora, aggiungiamo alcune voci alla nostra lista. Ogni voce conterrà due numeri e due formule.
+Ora aggiungiamo alcune voci alla nostra lista. Ogni voce conterrà due numeri e due formule.
 
 ```csharp
 // Definisci e aggiungi ogni elemento dati
@@ -92,7 +94,7 @@ dis.Add(di);
 // Ripetere per ulteriori elementi di dati
 ```
 
- Assicurati di personalizzare ciascuno`DataItems` istanza con valori e formule univoci.
+Assicurati di personalizzare ogni `DataItems` istanza con valori e formule univoci.
 
 ## Passaggio 5: creare una cartella di lavoro e un foglio di lavoro di Access
 
@@ -105,26 +107,26 @@ Worksheet ws = wb.Worksheets[0]; // accedi al primo foglio di lavoro
 
 ## Passaggio 6: specificare le opzioni della tabella di importazione
 
-Qui è dove avviene la magia. Devi specificare quali campi nei tuoi dati corrispondono alle formule. 
+È qui che avviene la magia. Devi specificare quali campi nei tuoi dati corrispondono alle formule. 
 
 ```csharp
 ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- In questo esempio, gli ultimi due campi contengono formule, che sono indicate da`true` , mentre i primi due campi sono impostati su`false`.
+In questo esempio, gli ultimi due campi contengono formule, il che è indicato da `true`, mentre i primi due campi sono impostati su `false`.
 
 ## Passaggio 7: importare oggetti personalizzati
 
-Ora che tutto è impostato, importiamo l'elenco degli elementi dati nel foglio di lavoro.
+Ora che tutto è impostato, importiamo l'elenco dei dati nel foglio di lavoro.
 
 ```csharp
 ws.Cells.ImportCustomObjects(dis, 0, 0, opts);
 ```
 
-Questa riga importa effettivamente i dati a partire dalla cella A1.
+Questa riga importa di fatto i dati a partire dalla cella A1.
 
-## Passaggio 8: Calcola le formule
+## Passaggio 8: calcolare le formule
 
 Poiché abbiamo importato alcune formule, è fondamentale calcolarle.
 
@@ -154,40 +156,42 @@ wb.Save(outputDir + "outputSpecifyFormulaFieldsWhileImportingDataToWorksheet.xls
 
 Assicurati che il nome del file di output sia pertinente e descrittivo!
 
-## Fase 11: Controllo dell'esecuzione
+## Fase 11: Verifica dell'esecuzione
 
-Per confermare in modo semplice che tutto è andato a buon fine, potresti voler stampare un messaggio.
+Per confermare in modo semplice che tutto sia andato a buon fine, potresti voler stampare un messaggio.
 
 ```csharp
 Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed successfully.");
 ```
 
-In questo modo avrai un riscontro immediato che il codice ha funzionato senza problemi.
+In questo modo avrai subito la conferma che il codice ha funzionato senza problemi.
 
 ## Conclusione
 
-Ed ecco fatto! Hai importato con successo i dati in un foglio Excel usando Aspose.Cells per .NET e campi formula specificati. Seguendo questi passaggi, puoi applicare tecniche simili per automatizzare attività di elaborazione dati su misura per le tue esigenze. Che tu stia elaborando numeri per report o semplicemente gestendo dati, padroneggiare l'arte della manipolazione di Excel con Aspose è un'abilità che vale la pena avere.
+Ed ecco fatto! Hai importato correttamente i dati in un foglio Excel utilizzando Aspose.Cells per .NET e specificando i campi formula. Seguendo questi passaggi, puoi applicare tecniche simili per automatizzare le attività di elaborazione dati in base alle tue esigenze. Che tu stia elaborando numeri per report o semplicemente gestendo dati, padroneggiare l'arte della manipolazione di Excel con Aspose è un'abilità che vale la pena acquisire.
 
 ## Domande frequenti
 
-### Che cos'è Aspose.Cells?
+### Che cosa è Aspose.Cells?
 Aspose.Cells è una libreria .NET progettata per creare, manipolare e convertire file Excel a livello di programmazione.
 
 ### Come faccio a installare Aspose.Cells per .NET?
- Puoi scaricarlo da[Rilasci di Aspose](https://releases.aspose.com/cells/net/) e farvi riferimento nel vostro progetto.
+Puoi scaricarlo da [Rilasci di Aspose](https://releases.aspose.com/cells/net/) e farvi riferimento nel vostro progetto.
 
 ### Posso usare Aspose.Cells gratuitamente?
- Sì, Aspose offre una prova gratuita disponibile su[questo collegamento](https://releases.aspose.com/).
+Sì, Aspose offre una prova gratuita disponibile su [questo collegamento](https://releases.aspose.com/).
 
 ### Dove posso trovare altri esempi?
- Ulteriori esempi e documentazione possono essere trovati su[Pagina di documentazione di Aspose](https://reference.aspose.com/cells/net/).
+Ulteriori esempi e documentazione possono essere trovati su [Pagina di documentazione di Aspose](https://reference.aspose.com/cells/net/).
 
 ### Cosa succede se riscontro problemi durante l'utilizzo di Aspose?
- Puoi cercare aiuto nel forum di supporto di Aspose[Qui](https://forum.aspose.com/c/cells/9).
+Puoi cercare aiuto nel forum di supporto di Aspose [Qui](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

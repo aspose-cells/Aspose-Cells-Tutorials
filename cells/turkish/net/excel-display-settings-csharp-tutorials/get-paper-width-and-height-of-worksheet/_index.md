@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın
-linktitle: Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET'te çalışma sayfalarının genişliğini ve yüksekliğini nasıl ayarlayacağınızı basit adım adım bir kılavuzla öğrenin.
-weight: 80
-url: /tr/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
+"description": "Aspose.Cells for .NET'te çalışma sayfalarının genişliğini ve yüksekliğini nasıl ayarlayacağınızı basit adım adım bir kılavuzla öğrenin."
+"linktitle": "Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Kağıt Genişliğini ve Yüksekliğini Alın
@@ -22,16 +24,16 @@ Hiç bir Excel sayfasını yazdırmayı denediniz ve çeşitli kağıt boyutlar�
 Kodlamanın büyüsüne dalmadan önce, başlamak için ihtiyacınız olan şeyleri bir araya getirelim:
 
 1. C#'ın Temel Anlayışı: C#'a giriş seviyesinde hakim olmalısınız. Programlamaya yeni başladıysanız endişelenmeyin! Basit tutacağız.
-2.  Aspose.Cells Kütüphanesi: Makinenizde .NET için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Makinenizde .NET için Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/cells/net/).
 3. .NET Geliştirme Ortamı: C# kodunuzu yazmak ve yürütmek için Visual Studio'yu veya seçtiğiniz herhangi bir IDE'yi kurun. Nereden başlayacağınızdan emin değilseniz, Visual Studio Community Edition sağlam bir seçimdir.
-4.  Referanslar ve Belgeler: Daha derin içgörüler için Aspose.Cells belgelerine aşina olun. Bunu bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+4. Referanslar ve Belgeler: Daha derin içgörüler için Aspose.Cells belgelerine aşina olun. Bunu bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 5. Temel Excel Dosya Bilgisi: Excel dosyalarının nasıl yapılandırıldığını (çalışma sayfaları, satırlar ve sütunlar) anlamak çok faydalı olacaktır.
 
 Harika! Artık temelleri işaretlediğimize göre, gerekli paketleri içe aktarmaya geçebiliriz.
 
 ## Paketleri İçe Aktar
 
- Hayatımızı kolaylaştırmak ve Aspose.Cells'in tüm gücünden yararlanmak için birkaç paketi içe aktarmamız gerekiyor. Bir tane eklemek kadar basit`using` Kod dosyanızın en üstündeki ifade. İçe aktarmanız gerekenler şunlardır:
+Hayatımızı kolaylaştırmak ve Aspose.Cells'in tüm gücünden yararlanmak için birkaç paketi içe aktarmamız gerekiyor. Bir tane eklemek kadar basit `using` Kod dosyanızın en üstündeki ifade. İçe aktarmanız gerekenler şunlardır:
 
 ```csharp
 using System;
@@ -60,7 +62,7 @@ Artık çalışma kitabımız olduğuna göre, içindeki belirli bir çalışma 
 Worksheet ws = wb.Worksheets[0];
 ```
 
-Burada, çalışma kitabımızdan ilk çalışma sayfasını (indeks 0) alıyoruz. Bunu bir kitabın ilk sayfasına geçmek gibi düşünebilirsiniz. 
+Burada, çalışma kitabımızdan ilk çalışma kağıdını (indeks 0) alıyoruz. Bunu bir kitabın ilk sayfasına geçmek gibi düşünebilirsiniz. 
 
 ## Adım 3: Kağıt Boyutunu Ayarlayın ve Ölçüleri Alın
 
@@ -72,7 +74,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Bu blokta, kağıt boyutunu A2 olarak ayarlıyoruz ve ardından genişliğini ve yüksekliğini alıyoruz.`PaperWidth` Ve`PaperHeight` özellikler boyutları inç cinsinden sağlar. Bu, bir çerçeveye resim koymadan önce boyutunu kontrol etmeye benzer.
+Bu blokta, kağıt boyutunu A2 olarak ayarlıyoruz ve ardından genişliğini ve yüksekliğini alıyoruz. `PaperWidth` Ve `PaperHeight` özellikler inç cinsinden boyutları sağlar. Bu, bir çerçeveye resim koymadan önce boyutunu kontrol etmeye benzer.
 
 ## Adım 4: Diğer Kağıt Boyutları İçin Tekrarlayın
 
@@ -82,15 +84,15 @@ Diğer yaygın kağıt boyutları için işlemi tekrarlayalım. A3, A4 ve Letter
 //Kağıt boyutunu A3 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Kağıt boyutunu A4 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
+//Kağıt boyutunu A4 olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
-//Kağıt boyutunu Letter olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç cinsinden yazdırın
+//Kağıt boyutunu Letter olarak ayarlayın ve kağıt genişliğini ve yüksekliğini inç olarak yazdırın
 ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Bu blokların her biri bir önceki adımı taklit eder ancak`PaperSize`mülkü buna göre ayarlayın. Sadece boyut göstergesini değiştirerek, zahmetsizce farklı kağıt boyutları elde edersiniz. Bu, depolamanız gereken şeye göre bir kutunun boyutunu değiştirmek gibidir!
+Bu blokların her biri bir önceki adımı taklit eder ancak `PaperSize` mülkü buna göre ayarlayın. Sadece boyut göstergesini değiştirerek, zahmetsizce farklı kağıt boyutları elde edersiniz. Bu, depolamanız gereken şeye göre bir kutunun boyutunu değiştirmek gibidir!
 
 ## Çözüm
 
@@ -102,19 +104,21 @@ Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup
 Aspose.Cells, Excel'in kurulu olmasına gerek kalmadan Excel dosyalarını işlemek için tasarlanmış bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Ücretsiz denemeye şu adresten başlayabilirsiniz:[bu bağlantı](https://releases.aspose.com/).
+Evet! Ücretsiz denemeye şu adresten başlayabilirsiniz: [bu bağlantı](https://releases.aspose.com/).
 
 ### Özel kağıt boyutlarını nasıl ayarlayabilirim?
- Aspose.Cells, özel kağıt boyutlarını ayarlamak için seçenekler sunar`PageSetup` sınıf.
+Aspose.Cells, özel kağıt boyutlarını ayarlamak için seçenekler sunar `PageSetup` sınıf.
 
 ### Aspose.Cells'i kullanmak için kodlama bilgisi gerekli mi?
 Temel kodlama bilgisi yardımcı olur, ancak daha kolay anlamak için eğitimleri takip edebilirsiniz!
 
 ### Daha fazla örneği nerede bulabilirim?
- The[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) zengin örnekler ve öğretici materyaller sunmaktadır.
+The [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) zengin örnekler ve öğretici materyaller sunuyor.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

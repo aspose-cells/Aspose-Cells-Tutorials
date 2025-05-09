@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial operasi buku kerja kami menyediakan panduan komprehensif untuk menangani file Excel secara terprogram di Java. Ikuti panduan langkah demi langkah ini untuk mempelajari cara membuat buku kerja baru, membuka file yang sudah ada dari berbagai sumber, menyimpan dalam berbagai format, dan mengonversi antara berbagai jenis spreadsheet yang populer. Tutorial praktis ini mencakup contoh kode lengkap untuk konversi file, manajemen properti buku kerja, dan teknik pengoptimalan untuk membangun aplikasi pemrosesan Excel yang tangguh di Java.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi buku kerja
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -482,10 +484,13 @@ Pelajari cara mengatur dan mengelola properti dokumen seperti pembuatan versi da
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

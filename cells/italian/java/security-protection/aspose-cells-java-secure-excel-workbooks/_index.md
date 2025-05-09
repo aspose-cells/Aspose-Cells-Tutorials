@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ workbook.getSettings().setPassword("1234");
 ### Funzionalità 3: applicazione di crittografia avanzata alla cartella di lavoro
 **Panoramica**Migliora la sicurezza applicando una crittografia avanzata tramite il provider crittografico Aspose.Cells.
 
-#### Passaggio 1: impostare le opzioni di crittografia
+#### Passaggio 1: imposta le opzioni di crittografia
 ```java
 import com.aspose.cells.EncryptionType;
 import com.aspose.cells.Workbook;
@@ -157,6 +159,9 @@ In questo tutorial, hai imparato come proteggere le tue cartelle di lavoro Excel
    - Sì, Aspose.Cells supporta un'ampia gamma di formati di file Excel, comprese le versioni precedenti come `.xls` quelli più nuovi come `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

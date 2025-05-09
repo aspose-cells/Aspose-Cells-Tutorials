@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ GlobalizationSettings.setInstance(globalizationSettings);
 3. **Анализ данных о продажах**: Предоставляйте локализованную информацию, настраивая итоговые данные на панелях мониторинга продаж.
 
 ## Соображения производительности
-- **Оптимизируйте использование ресурсов**Убедитесь, что ваше приложение эффективно использует память при обработке больших наборов данных с помощью Aspose.Cells.
+- **Оптимизация использования ресурсов**Убедитесь, что ваше приложение эффективно использует память при обработке больших наборов данных с помощью Aspose.Cells.
 - **Лучшие практики управления памятью Java**:
   - Используйте try-with-resources для управления экземплярами рабочих книг.
   - Регулярно очищайте кучу от неиспользуемых объектов.
@@ -156,6 +158,9 @@ GlobalizationSettings.setInstance(globalizationSettings);
 - **Поддерживать**: https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

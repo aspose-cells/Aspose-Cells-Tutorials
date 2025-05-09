@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ workbook.getWorksheets().get(0).getCells().get("A1").setValue("DEMO TEXT ON SHEE
 ```
 *Förklaring:* Den här koden anger värdet för cell A1 i det första kalkylbladet och verifierar datainsättningen.
 
-- **Lägg till ett andra arbetsblad och fyll i det**
+- **Lägg till ett andra arbetsblad och fyll i**
 
 ```java
 import com.aspose.cells.SheetType;
@@ -164,6 +166,9 @@ Den här handledningen behandlade hur man skapar och manipulerar arbetsböcker m
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

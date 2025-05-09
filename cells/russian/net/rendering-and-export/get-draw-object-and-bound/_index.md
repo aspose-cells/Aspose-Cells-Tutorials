@@ -1,14 +1,16 @@
 ---
-title: Получите границы объектов рисования с помощью Aspose.Cells
-linktitle: Получите границы объектов рисования с помощью Aspose.Cells
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как извлекать границы объектов чертежа в Excel с помощью Aspose.Cells для .NET, с помощью нашего подробного пошагового руководства.
-weight: 15
-url: /ru/net/rendering-and-export/get-draw-object-and-bound/
+"description": "Узнайте, как извлекать границы объектов чертежа в Excel с помощью Aspose.Cells для .NET, с помощью нашего подробного пошагового руководства."
+"linktitle": "Получите границы объектов рисования с помощью Aspose.Cells"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Получите границы объектов рисования с помощью Aspose.Cells"
+"url": "/ru/net/rendering-and-export/get-draw-object-and-bound/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получите границы объектов рисования с помощью Aspose.Cells
@@ -23,7 +25,7 @@ url: /ru/net/rendering-and-export/get-draw-object-and-bound/
 Прежде чем приступить к написанию кода, вам необходимо выполнить несколько предварительных условий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Вы можете использовать любую предпочитаемую вами версию.
-2.  Aspose.Cells для .NET: Загрузите и установите Aspose.Cells с сайта[ссылка для скачивания](https://releases.aspose.com/cells/net/) . Также доступна бесплатная пробная версия.[здесь](https://releases.aspose.com/).
+2. Aspose.Cells для .NET: Загрузите и установите Aspose.Cells с сайта [ссылка для скачивания](https://releases.aspose.com/cells/net/). Также доступна бесплатная пробная версия. [здесь](https://releases.aspose.com/).
 3. Базовые знания C#: Знакомство с программированием на C# будет полезным. Если вы новичок, не волнуйтесь! Мы проведем вас через каждый шаг.
 
 После настройки среды мы перейдем к необходимым пакетам.
@@ -49,7 +51,7 @@ using Aspose.Cells.Rendering;
 
 ## Шаг 1: Создание класса обработчика событий объекта рисования
 
- Во-первых, вам нужно создать класс, который расширяет`DrawObjectEventHandler`. Этот класс будет обрабатывать события рисования и позволит вам извлекать координаты объекта.
+Во-первых, вам нужно создать класс, который расширяет `DrawObjectEventHandler`. Этот класс будет обрабатывать события рисования и позволит вам извлекать координаты объекта.
 
 ```csharp
 class clsDrawObjectEventHandler : DrawObjectEventHandler
@@ -75,8 +77,8 @@ class clsDrawObjectEventHandler : DrawObjectEventHandler
 }
 ```
 
--  В этом классе мы переопределяем`Draw` метод, который вызывается всякий раз, когда встречается объект рисования. 
--  Мы проверяем тип`DrawObject` . Если это`Cell` , мы регистрируем его позицию и значение. Если это`Image`, мы регистрируем его положение и имя.
+- В этом классе мы переопределяем `Draw` метод, который вызывается всякий раз, когда встречается объект рисования. 
+- Мы проверяем тип `DrawObject`. Если это `Cell`, мы регистрируем его позицию и значение. Если это `Image`, мы регистрируем его положение и имя.
 
 ## Шаг 2: Установка входных и выходных каталогов
 
@@ -90,11 +92,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
--  Заменять`"Your Document Directory"` с путем к вашему фактическому документу. Убедитесь, что у вас есть образец файла Excel с именем`"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` хранится в этом каталоге.
+- Заменять `"Your Document Directory"` с путем к вашему фактическому документу. Убедитесь, что у вас есть образец файла Excel с именем `"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` хранится в этом каталоге.
 
 ## Шаг 3: Загрузите образец файла Excel
 
- После настройки каталогов мы можем загрузить файл Excel в экземпляр`Workbook` сорт.
+Установив каталоги, мы теперь можем загрузить файл Excel в экземпляр `Workbook` сорт.
 
 ```csharp
 // Загрузить образец файла Excel
@@ -114,7 +116,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## Шаг 5: Назначьте обработчик событий
 
- Крайне важно назначить`DrawObjectEventHandler` экземпляр для наших параметров сохранения PDF. Этот шаг гарантирует, что наш пользовательский обработчик событий обработает каждый объект чертежа.
+Крайне важно назначить `DrawObjectEventHandler` экземпляр для наших параметров сохранения PDF. Этот шаг гарантирует, что наш пользовательский обработчик событий обработает каждый объект чертежа.
 
 ```csharp
 // Назначить экземпляр класса DrawObjectEventHandler
@@ -150,19 +152,21 @@ Console.WriteLine("GetDrawObjectAndBoundUsingDrawObjectEventHandler executed suc
 Aspose.Cells — мощная библиотека, предназначенная для работы с файлами Excel в приложениях .NET, позволяющая создавать, редактировать и конвертировать электронные таблицы.
 
 ### Могу ли я попробовать Aspose.Cells бесплатно?
- Да! Вы можете загрузить бесплатную пробную версию Aspose.Cells[здесь](https://releases.aspose.com/).
+Да! Вы можете загрузить бесплатную пробную версию Aspose.Cells [здесь](https://releases.aspose.com/).
 
 ### Какие форматы файлов поддерживает Aspose.Cells?
 Aspose.Cells поддерживает различные форматы, включая XLSX, XLS, CSV, PDF и другие.
 
 ### Где я могу найти больше примеров использования Aspose.Cells?
- Вы можете изучить больше примеров и подробную документацию на их сайте по адресу[Документация Aspose.Cells](https://reference.aspose.com/cells/net/).
+Вы можете изучить больше примеров и подробную документацию на их сайте по адресу [Документация Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Как я могу получить поддержку по Aspose.Cells?
- Для получения поддержки посетите[Форум Aspose](https://forum.aspose.com/c/cells/9)где вы можете задать вопросы и получить помощь от сообщества.
+Для получения поддержки посетите [Форум Aspose](https://forum.aspose.com/c/cells/9) где вы можете задать вопросы и получить помощь от сообщества.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

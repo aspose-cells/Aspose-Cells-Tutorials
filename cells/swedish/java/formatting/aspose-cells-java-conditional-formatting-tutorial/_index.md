@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Ja, du kan referera till celler mellan olika ark med hjälp av vanliga Excel-ref
 Ange önskat sparformat (t.ex. XLS eller XLSX) för att bibehålla kompatibilitet med olika Excel-versioner. Aspose.Cells stöder flera format.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ public class FeatureSaveWorkbook {
 Για να συνεχίσετε να εξερευνάτε τις δυνατότητες του Aspose.Cells, εξετάστε το ενδεχόμενο να εξερευνήσετε προηγμένες λειτουργίες όπως η δημιουργία γραφημάτων, η επικύρωση δεδομένων και πολλά άλλα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

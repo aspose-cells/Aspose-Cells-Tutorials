@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-cells-and-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Cells and Ranges in Worksheet using Aspose.Cells
@@ -106,6 +108,7 @@ Aspose.Cells supports various security features such as workbook encryption, set
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

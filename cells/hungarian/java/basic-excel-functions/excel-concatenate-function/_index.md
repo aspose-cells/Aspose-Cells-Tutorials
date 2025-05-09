@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel ÖSSZEFŰZ függvény
@@ -105,7 +107,7 @@ Az Aspose.Cells for Java használatával Excelben különböző cellákból szá
 
 3. Használd a `setFormula` metódus egy ÖSSZEFŰZ képlet létrehozásához, amely összefűzi a cellákból származó szöveget.
 
-4. Számítsa újra a munkalapon található képleteket a következővel: `workbook.calculateFormula()`.
+4. Számítsa ki újra a munkalapon található képleteket a következővel: `workbook.calculateFormula()`.
 
 5. Mentse el az Excel fájlt.
 
@@ -130,6 +132,7 @@ Ez a megközelítés hasznos lehet, ha szöveget szeretne összefűzni Excel-ké
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

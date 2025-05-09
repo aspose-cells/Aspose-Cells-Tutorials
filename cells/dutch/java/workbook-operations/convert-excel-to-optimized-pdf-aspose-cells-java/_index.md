@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Door deze handleiding te volgen, hebt u geleerd hoe u een Excel-bestand in een `
 Zet de volgende stap in uw ontwikkeling door te experimenteren met Aspose.Cells voor Java en verbeter vandaag nog uw Excel-naar-PDF-conversieproces!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

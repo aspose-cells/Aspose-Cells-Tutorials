@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Jste připraveni uvést tyto znalosti do praxe? Začněte experimentováním s t
 Tato komplexní příručka si klade za cíl vybavit vás znalostmi a nástroji potřebnými k efektivnímu používání Aspose.Cells v Javě k vylepšení vašich dokumentů v Excelu. Začněte tyto techniky implementovat ještě dnes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

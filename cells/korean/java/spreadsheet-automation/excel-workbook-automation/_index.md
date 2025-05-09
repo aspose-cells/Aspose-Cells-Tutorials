@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 통합 문서 자동화
@@ -97,8 +99,8 @@ Excel 통합 문서 자동화와 관련된 몇 가지 일반적인 질문은 다
 ### 컴퓨터에 Excel이 설치되지 않은 상태에서 Java로 Excel 작업을 자동화할 수 있나요?
    네, 가능합니다. Aspose.Cells for Java를 사용하면 Microsoft Excel을 설치하지 않고도 Excel 파일을 작업할 수 있습니다.
 
-### Aspose.Cells를 사용하여 Excel 데이터에 셀 서식을 지정하거나 스타일을 적용하려면 어떻게 해야 하나요?
-   Aspose.Cells를 사용하면 셀에 다양한 서식과 스타일을 적용할 수 있습니다. 자세한 예제는 API 문서를 참조하세요.
+### Aspose.Cells를 사용하여 Excel 데이터에 셀 서식을 지정하거나 스타일을 적용하려면 어떻게 해야 합니까?
+   Aspose.Cells를 사용하면 셀에 다양한 서식과 스타일을 적용할 수 있습니다. 자세한 예시는 API 문서를 참조하세요.
 
 ### Aspose.Cells for Java는 다양한 Excel 파일 형식과 호환됩니까?
    네, Aspose.Cells는 XLS, XLSX, XLSM 등 다양한 Excel 파일 형식을 지원합니다.
@@ -110,9 +112,11 @@ Excel 통합 문서 자동화와 관련된 몇 가지 일반적인 질문은 다
    API 설명서를 참조할 수 있습니다. [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 코드 샘플을 보려면 클릭하세요.
 
 Aspose.Cells for Java의 고급 기능을 살펴보고 Excel 자동화 요구 사항을 맞춤 설정해 보세요. 궁금한 점이 있거나 추가 지원이 필요하시면 언제든지 문의해 주세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

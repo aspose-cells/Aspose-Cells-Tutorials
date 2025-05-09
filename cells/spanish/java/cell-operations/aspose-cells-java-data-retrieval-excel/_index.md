@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Configuración de Aspose.Cells para Java
 - Recuperación de varios tipos de datos celulares
 - Gestión de dependencias con Maven o Gradle
-- Mejores prácticas para la optimización del rendimiento
+- Mejores prácticas para optimizar el rendimiento
 
 ¿Listo para optimizar tus procesos de recuperación de datos? ¡Comencemos!
 
@@ -181,6 +183,9 @@ Ya domina la recuperación de datos de celdas de Excel con Aspose.Cells para Jav
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

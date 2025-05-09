@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Aspose.Cells for Java का उपयोग करके गतिशील Exc
 Java के लिए Aspose.Cells के साथ Excel कार्यों को स्वचालित करने का तरीका जानें। SmartMarkers का उपयोग करके अपनी डेटा-संचालित रिपोर्ट को सुव्यवस्थित करें और प्रदर्शन को अनुकूलित करें।
 
 ### [Aspose.Cells Java का उपयोग करके गतिशील Excel रिपोर्ट में महारत हासिल करें: नामित श्रेणियाँ और जटिल सूत्र](./dynamic-excel-reports-aspose-cells-java/)
-जानें कि Aspose.Cells for Java का लाभ कैसे उठाएं ताकि नामित श्रेणियों और जटिल सूत्रों के साथ गतिशील Excel रिपोर्ट बनाई जा सके। अपने डेटा प्रबंधन कार्यों को कुशलतापूर्वक बढ़ाएँ।
+जानें कि Aspose.Cells for Java का लाभ कैसे उठाया जाए ताकि नामित श्रेणियों और जटिल सूत्रों के साथ गतिशील Excel रिपोर्ट बनाई जा सके। अपने डेटा प्रबंधन कार्यों को कुशलतापूर्वक बढ़ाएँ।
 
 ### [Aspose.Cells Java और स्मार्ट मार्कर का उपयोग करके डायनामिक एक्सेल रिपोर्ट बनाना](./dynamic-excel-reports-aspose-cells-java-smart-markers/)
 स्मार्ट मार्कर का उपयोग करके Aspose.Cells for Java के साथ गतिशील Excel रिपोर्ट जनरेशन को स्वचालित करने का तरीका जानें। अपनी रिपोर्टिंग प्रक्रिया को कुशलतापूर्वक सुव्यवस्थित करें।
@@ -54,6 +56,9 @@ Java के लिए Aspose.Cells के साथ Excel कार्यों 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

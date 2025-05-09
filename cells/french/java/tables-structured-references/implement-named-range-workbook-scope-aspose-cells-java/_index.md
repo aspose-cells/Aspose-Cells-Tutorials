@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5 : Assurez-vous que les noms de plage sont uniques et valides dans l’ensemb
 Pour plus d'informations, explorez les ressources disponibles sur [Téléchargements d'Aspose](https://releases.aspose.com/cells/java/) et envisagez d'obtenir une licence temporaire pour un accès complet aux fonctionnalités.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ license.setLicense("path/to/your/license/file");
 
 ## Guida all'implementazione
 
-In questa sezione, suddivideremo ogni funzionalità in passaggi chiari. Vedremo come caricare una cartella di lavoro, accedere alle tabelle pivot, impostare le opzioni di formattazione automatica e applicare stili.
+In questa sezione, suddivideremo ogni funzionalità in passaggi chiari. Esploreremo come caricare una cartella di lavoro, accedere alle tabelle pivot, impostare le opzioni di formattazione automatica e applicare stili.
 
 ### Funzionalità 1: Caricamento di una cartella di lavoro
 Il caricamento di un file Excel è il primo passo per manipolarne il contenuto a livello di programmazione. Questo processo prevede la creazione di un `Workbook` oggetto che fornisce metodi per interagire con i dati di Excel.
@@ -188,6 +190,9 @@ A5: Visita il [Forum di Aspose](https://forum.aspose.com/c/cells/9) per ricevere
 - **Licenza temporanea**: Accesso temporaneo sicuro per test completi presso [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

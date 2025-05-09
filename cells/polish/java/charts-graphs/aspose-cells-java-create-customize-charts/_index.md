@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ Opanowałeś już tworzenie i dostosowywanie wykresów za pomocą Aspose.Cells w
 Dzięki temu przewodnikowi będziesz przygotowany do tworzenia i dostosowywania wykresów w aplikacjach Java przy użyciu Aspose.Cells z łatwością. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

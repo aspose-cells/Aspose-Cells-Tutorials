@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ workbook.save(outDir + "DataSorting_out.xls");
 การปฏิบัติตามแนวทางปฏิบัตินี้จะช่วยให้การดำเนินงานราบรื่นแม้จะมีชุดข้อมูลขนาดใหญ่ก็ตาม
 
 ## บทสรุป
-ในคู่มือนี้ เราจะอธิบายวิธีการใช้ฟังก์ชันการเรียงลำดับแบบคู่หลักใน Excel โดยใช้ Aspose.Cells สำหรับ Java คุณสามารถจัดระเบียบชุดข้อมูลที่ซับซ้อนได้โดยตรงจากแอปพลิเคชัน Java ของคุณอย่างมีประสิทธิภาพโดยการตั้งค่าคีย์การเรียงลำดับหลักและรอง 
+ในคู่มือนี้ เราจะอธิบายวิธีการใช้ฟังก์ชันการเรียงลำดับแบบคู่หลักใน Excel โดยใช้ Aspose.Cells สำหรับ Java การตั้งค่าคีย์การเรียงลำดับหลักและรองจะช่วยให้คุณจัดระเบียบชุดข้อมูลที่ซับซ้อนได้โดยตรงจากแอปพลิเคชัน Java ของคุณอย่างมีประสิทธิภาพ 
 
 หากต้องการสำรวจความสามารถของ Aspose.Cells เพิ่มเติม โปรดพิจารณาอ่านเอกสารประกอบที่ครอบคลุมหรือทดลองใช้คุณลักษณะเพิ่มเติม
 
@@ -193,6 +195,9 @@ workbook.save(outDir + "DataSorting_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

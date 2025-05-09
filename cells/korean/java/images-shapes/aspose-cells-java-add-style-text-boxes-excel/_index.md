@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 **배울 내용:**
 - Excel 워크시트에 텍스트 상자를 추가하는 방법.
 - 글꼴, 색상, 스타일을 포함하여 텍스트 상자의 모양을 구성합니다.
-- 텍스트 상자에 하이퍼링크를 추가합니다.
+- 텍스트 상자에 하이퍼링크 추가.
 - 개발 환경에서 Java용 Aspose.Cells 설정하기.
 
 ## 필수 조건
@@ -177,7 +179,7 @@ Aspose.Cells를 사용할 때 최적의 성능을 위해 다음 팁을 고려하
    - Maven이나 Gradle을 사용하여 프로젝트에 종속성으로 포함하고 버전이 25.3 이상인지 확인하세요.
 2. **Excel이 설치되지 않은 상태에서도 프로그래밍 방식으로 텍스트 상자를 추가할 수 있나요?**
    - 네, Aspose.Cells는 모든 작업을 내부적으로 처리하므로 서버에 Excel을 설치할 필요가 없습니다.
-3. **추가할 수 있는 텍스트 상자의 수에 제한이 있나요?**
+3. **텍스트 상자를 얼마나 추가할 수 있는지에 제한이 있나요?**
    - 본질적인 제한은 없지만 복잡한 모양이 많으면 성능이 달라질 수 있습니다.
 4. **여러 텍스트 상자의 스타일을 효율적으로 관리하려면 어떻게 해야 하나요?**
    - 일관성을 유지하고 중복을 줄이려면 스타일 객체를 사용하여 여러 텍스트 상자에 적용하세요.
@@ -189,6 +191,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 위해 다음 팁을 고려하
 - [Java용 Aspose.Cells 다운로드](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

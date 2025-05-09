@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ pivotField.setNumber(10);  // يطبق تنسيقًا محددًا مسبقًا�
 أ:** تأكد من ضبط المؤشرات والمواضع بشكل صحيح لتجنب أخطاء الحساب. اختبر تكويناتك دائمًا باستخدام بيانات نموذجية قبل تطبيقها على مصنفات الإنتاج.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

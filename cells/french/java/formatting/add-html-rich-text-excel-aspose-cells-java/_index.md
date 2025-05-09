@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Voici quelques cas d’utilisation réels où l’ajout de texte enrichi en HTML
 
 Lorsque vous travaillez avec Aspose.Cells :
 - **Optimiser l'utilisation des ressources**: Limitez le nombre de cellules de style HTML dans les grands classeurs pour éviter les ralentissements des performances.
-- **Gestion de la mémoire Java**: Utilisez des pratiques efficaces de gestion de la mémoire en Java pour gérer efficacement les grands ensembles de données. Cela inclut la fermeture rapide des instances de classeur après utilisation.
+- **Gestion de la mémoire Java**Utilisez des pratiques efficaces de gestion de la mémoire en Java pour gérer efficacement les grands ensembles de données. Cela inclut la fermeture rapide des instances de classeur après utilisation.
 
 ## Conclusion
 
@@ -150,6 +152,9 @@ Profitez de la puissance d'Aspose.Cells pour Java pour transformer la gestion et
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

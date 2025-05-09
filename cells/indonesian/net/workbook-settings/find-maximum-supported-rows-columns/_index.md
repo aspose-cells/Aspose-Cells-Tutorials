@@ -1,93 +1,97 @@
 ---
-title: Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLS dan XLSX
-linktitle: Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLS dan XLSX
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan jumlah baris dan kolom maksimum yang didukung oleh format XLS dan XLSX menggunakan Aspose.Cells untuk .NET. Maksimalkan pengelolaan data Excel Anda dengan tutorial lengkap ini.
-weight: 11
-url: /id/net/workbook-settings/find-maximum-supported-rows-columns/
+"description": "Fedezze fel az XLS és XLSX formátumok által támogatott sorok és oszlopok maximális számát az Aspose.Cells for .NET segítségével. Maximalizálja Excel adatkezelését ezzel az átfogó oktatóanyaggal."
+"linktitle": "XLS és XLSX formátumok által támogatott maximális sor- és oszlopszám megkeresése"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "XLS és XLSX formátumok által támogatott maximális sor- és oszlopszám megkeresése"
+"url": "/id/net/workbook-settings/find-maximum-supported-rows-columns/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLS dan XLSX
+# XLS és XLSX formátumok által támogatott maximális sor- és oszlopszám megkeresése
 
-## Perkenalan
-Dalam dunia Excel, mengelola kumpulan data besar bisa menjadi tugas yang berat, terutama saat menangani jumlah baris dan kolom maksimum yang didukung oleh berbagai format file. Tutorial ini akan memandu Anda melalui proses menemukan jumlah baris dan kolom maksimum yang didukung oleh format XLS dan XLSX menggunakan pustaka Aspose.Cells for .NET. Di akhir artikel ini, Anda akan memiliki pemahaman menyeluruh tentang cara memanfaatkan alat canggih ini untuk menangani tugas-tugas terkait Excel secara efisien.
-## Prasyarat
-Sebelum kita masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-1. [Kerangka .NET](https://dotnet.microsoft.com/en-us/download) atau[Inti .NET](https://dotnet.microsoft.com/en-us/download) terinstal pada sistem Anda.
-2. [Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/) pustaka yang diunduh dan dirujuk dalam proyek Anda.
- Jika Anda belum melakukannya, Anda dapat mengunduh pustaka Aspose.Cells untuk .NET dari[situs web](https://releases.aspose.com/cells/net/) atau menginstalnya melalui[Bahasa Inggris NuGet](https://www.nuget.org/packages/Aspose.Cells/).
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan dari pustaka Aspose.Cells for .NET. Tambahkan pernyataan berikut di bagian atas berkas C# Anda:
+## Bevezetés
+Az Excel világában a nagy adathalmazok kezelése ijesztő feladat lehet, különösen, ha a különböző fájlformátumok által támogatott sorok és oszlopok maximális számát kell kezelni. Ez az oktatóanyag végigvezeti Önt az XLS és XLSX formátumok által támogatott sorok és oszlopok maximális számának megtalálásában az Aspose.Cells for .NET könyvtár segítségével. A cikk végére átfogó ismereteket szerezhet arról, hogyan használhatja ezt a hatékony eszközt az Excellel kapcsolatos feladatok hatékony kezeléséhez.
+## Előfeltételek
+Mielőtt belemerülnénk az oktatóanyagba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. [.NET keretrendszer](https://dotnet.microsoft.com/en-us/download) vagy [.NET Core](https://dotnet.microsoft.com/en-us/download) telepítve a rendszerére.
+2. [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/) letöltött és a projektben hivatkozott könyvtár.
+Ha még nem tette meg, letöltheti az Aspose.Cells for .NET könyvtárat a következő címről: [weboldal](https://releases.aspose.com/cells/net/) vagy telepítse a következőn keresztül: [NuGet](https://www.nuget.org/packages/Aspose.Cells/).
+## Csomagok importálása
+A kezdéshez importálnod kell a szükséges csomagokat az Aspose.Cells for .NET könyvtárból. Add hozzá a következő using utasításokat a C# fájlod elejéhez:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-## Langkah 1: Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLS
-Mari kita mulai dengan menjelajahi jumlah baris dan kolom maksimum yang didukung oleh format XLS (Excel 97-2003).
+## 1. lépés: Keresse meg az XLS formátum által támogatott maximális sorok és oszlopok számát
+Kezdjük az XLS (Excel 97-2003) formátum által támogatott maximális sorok és oszlopok számának vizsgálatával.
 ```csharp
-// Cetak pesan tentang format XLS.
+// XLS formátumról szóló üzenet nyomtatása.
 Console.WriteLine("Maximum Rows and Columns supported by XLS format.");
-// Membuat buku kerja dalam format XLS.
+// XLS formátumú munkafüzet létrehozása.
 Workbook wb = new Workbook(FileFormatType.Excel97To2003);
-// Cetak baris dan kolom maksimum yang didukung oleh format XLS.
+// Nyomtassa ki az XLS formátum által támogatott sorok és oszlopok maximális számát.
 int maxRows = wb.Settings.MaxRow + 1;
 int maxCols = wb.Settings.MaxColumn + 1;
 Console.WriteLine("Maximum Rows: " + maxRows);
 Console.WriteLine("Maximum Columns: " + maxCols);
 Console.WriteLine();
 ```
-Pada langkah ini, kita:
-1. Cetak pesan untuk menunjukkan bahwa kami sedang bekerja dengan format XLS.
-2.  Buat yang baru`Workbook` contoh menggunakan`FileFormatType.Excel97To2003` enum, yang mewakili format XLS.
-3.  Ambil baris dan kolom maksimum yang didukung oleh format XLS menggunakan`Workbook.Settings.MaxRow` Dan`Workbook.Settings.MaxColumn`properti, masing-masing. Kami menambahkan 1 ke nilai-nilai ini untuk mendapatkan jumlah baris dan kolom maksimum yang sebenarnya (karena keduanya berbasis nol).
-4. Cetak baris dan kolom maksimum ke konsol.
-## Langkah 2: Temukan Jumlah Baris dan Kolom Maksimum yang Didukung oleh Format XLSX
-Selanjutnya, mari kita jelajahi jumlah baris dan kolom maksimum yang didukung oleh format XLSX (Excel 2007 dan yang lebih baru).
+Ebben a lépésben a következőket tesszük:
+1. Nyomtasson ki egy üzenetet, amely jelzi, hogy az XLS formátummal dolgozunk.
+2. Hozz létre egy újat `Workbook` például a `FileFormatType.Excel97To2003` enum, amely az XLS formátumot jelöli.
+3. Az XLS formátum által támogatott maximális sorok és oszlopok lekérése a következő használatával: `Workbook.Settings.MaxRow` és `Workbook.Settings.MaxColumn` tulajdonságok. Ezekhez az értékekhez 1-et adunk, hogy megkapjuk a tényleges maximális sor- és oszlopszámot (mivel ezek nulla alapúak).
+4. Nyomtassa ki a maximális sorok és oszlopok számát a konzolra.
+## 2. lépés: Keresse meg az XLSX formátum által támogatott maximális sorok és oszlopok számát
+Következő lépésként vizsgáljuk meg az XLSX (Excel 2007-es és újabb) formátum által támogatott sorok és oszlopok maximális számát.
 ```csharp
-// Cetak pesan tentang format XLSX.
+// Üzenet nyomtatása az XLSX formátumról.
 Console.WriteLine("Maximum Rows and Columns supported by XLSX format.");
-// Buat buku kerja dalam format XLSX.
+// Hozz létre egy munkafüzetet XLSX formátumban.
 wb = new Workbook(FileFormatType.Xlsx);
-// Cetak baris dan kolom maksimum yang didukung oleh format XLSX.
+// Nyomtassa ki az XLSX formátum által támogatott sorok és oszlopok maximális számát.
 maxRows = wb.Settings.MaxRow + 1;
 maxCols = wb.Settings.MaxColumn + 1;
 Console.WriteLine("Maximum Rows: " + maxRows);
 Console.WriteLine("Maximum Columns: " + maxCols);
 ```
-Pada langkah ini, kita:
-1. Cetak pesan untuk menunjukkan bahwa kami sedang bekerja dengan format XLSX.
-2.  Buat yang baru`Workbook` contoh menggunakan`FileFormatType.Xlsx` enum, yang mewakili format XLSX.
-3.  Ambil baris dan kolom maksimum yang didukung oleh format XLSX menggunakan`Workbook.Settings.MaxRow` Dan`Workbook.Settings.MaxColumn`properti, masing-masing. Kami menambahkan 1 ke nilai-nilai ini untuk mendapatkan jumlah baris dan kolom maksimum yang sebenarnya (karena keduanya berbasis nol).
-4. Cetak baris dan kolom maksimum ke konsol.
-## Langkah 3: Menampilkan Pesan Sukses
-Terakhir, mari tampilkan pesan sukses untuk menunjukkan bahwa contoh "FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats" telah berhasil dijalankan.
+Ebben a lépésben a következőket tesszük:
+1. Nyomtasson ki egy üzenetet, amely jelzi, hogy az XLSX formátummal dolgozunk.
+2. Hozz létre egy újat `Workbook` például a `FileFormatType.Xlsx` enum, amely az XLSX formátumot jelöli.
+3. A XLSX formátum által támogatott maximális sorok és oszlopok lekérése a következő használatával: `Workbook.Settings.MaxRow` és `Workbook.Settings.MaxColumn` tulajdonságok. Ezekhez az értékekhez 1-et adunk, hogy megkapjuk a tényleges maximális sor- és oszlopszámot (mivel ezek nulla alapúak).
+4. Nyomtassa ki a maximális sorok és oszlopok számát a konzolra.
+## 3. lépés: Sikeres üzenet megjelenítése
+Végül jelenítsünk meg egy sikerüzenetet, amely jelzi, hogy a „FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats” példa sikeresen végrehajtódott.
 ```csharp
 Console.WriteLine("FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats executed successfully.");
 ```
-Langkah ini hanya mencetak pesan sukses ke konsol.
-## Kesimpulan
-Dalam tutorial ini, Anda telah mempelajari cara menggunakan pustaka Aspose.Cells for .NET untuk menemukan baris dan kolom maksimum yang didukung oleh format file XLS dan XLSX. Dengan memahami keterbatasan format ini, Anda dapat merencanakan dan mengelola proyek berbasis Excel dengan lebih baik, memastikan bahwa data Anda sesuai dengan rentang yang didukung.
-## Pertanyaan yang Sering Diajukan
-### Berapa jumlah baris maksimum yang didukung oleh format XLS?
-Jumlah baris maksimum yang didukung oleh format XLS (Excel 97-2003) adalah 65.536.
-### Berapa jumlah maksimum kolom yang didukung oleh format XLS?
-Jumlah maksimum kolom yang didukung oleh format XLS (Excel 97-2003) adalah 256.
-### Berapa jumlah baris maksimum yang didukung oleh format XLSX?
-Jumlah baris maksimum yang didukung oleh format XLSX (Excel 2007 dan yang lebih baru) adalah 1.048.576.
-### Berapa jumlah maksimum kolom yang didukung oleh format XLSX?
-Jumlah maksimum kolom yang didukung oleh format XLSX (Excel 2007 dan yang lebih baru) adalah 16.384.
-### Dapatkah saya menggunakan pustaka Aspose.Cells untuk .NET untuk bekerja dengan format file Excel lainnya?
- Ya, pustaka Aspose.Cells untuk .NET mendukung berbagai format file Excel, termasuk XLS, XLSX, ODS, dan lainnya. Anda dapat menjelajahi[dokumentasi](https://reference.aspose.com/cells/net/) untuk mempelajari fitur dan fungsi yang tersedia.
+Ez a lépés egyszerűen egy sikeres üzenetet ír ki a konzolra.
+## Következtetés
+Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for .NET könyvtárat az XLS és XLSX fájlformátumok által támogatott sorok és oszlopok maximális számának megkereséséhez. Ezen formátumok korlátainak megértésével jobban megtervezheted és kezelheted Excel-alapú projektjeidet, biztosítva, hogy adataid a támogatott tartományokon belül legyenek.
+## GYIK
+### Mi az XLS formátum által támogatott sorok maximális száma?
+Az XLS (Excel 97-2003) formátum által támogatott sorok maximális száma 65 536.
+### Maximum hány oszlopot támogat az XLS formátum?
+Az XLS (Excel 97-2003) formátum által támogatott oszlopok maximális száma 256.
+### Mi az XLSX formátum által támogatott sorok maximális száma?
+Az XLSX (Excel 2007-es és újabb) formátum által támogatott sorok maximális száma 1 048 576.
+### Maximálisan hány oszlopot támogat az XLSX formátum?
+Az XLSX (Excel 2007-es és újabb) formátum által támogatott oszlopok maximális száma 16 384.
+### Használhatom az Aspose.Cells for .NET könyvtárat más Excel fájlformátumokkal való munkához?
+Igen, az Aspose.Cells for .NET könyvtár számos Excel fájlformátumot támogat, beleértve az XLS, XLSX, ODS és egyebeket. A [dokumentáció](https://reference.aspose.com/cells/net/) hogy megismerje az elérhető funkciókat és funkciókat.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

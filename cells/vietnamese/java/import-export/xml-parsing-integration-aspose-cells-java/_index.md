@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Mua lại giấy phép
 - **Dùng thử miễn phí**: Bắt đầu bằng bản dùng thử miễn phí để khám phá Aspose.Cells.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để đánh giá mở rộng.
+- **Giấy phép tạm thời**Xin giấy phép tạm thời để đánh giá mở rộng.
 - **Mua**:Để sử dụng lâu dài, hãy mua giấy phép thương mại.
 
 #### Khởi tạo cơ bản
@@ -203,6 +205,9 @@ Thử nghiệm với các cấu trúc XML phức tạp hơn hoặc các định 
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

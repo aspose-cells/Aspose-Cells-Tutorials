@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,6 +118,9 @@ Vous disposez désormais des outils nécessaires pour convertir des fichiers Exc
 Plongez dans le monde des conversions Excel en toute simplicité grâce à Aspose.Cells et transformez la façon dont vous partagez et gérez les données !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

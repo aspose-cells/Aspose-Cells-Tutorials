@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ A: 성능 최적화를 위해 최적화되었지만, 복잡한 모양과 컨트�
 - **다운로드**: Aspose.Cells Java의 최신 버전에 액세스하세요. [이 페이지](https://releases.aspose.com/cells/java/).
 - **구입**: 라이센스를 구매하세요 [Aspose 구매 사이트](https://purchase.aspose.com/buy).
 - **무료 체험판 및 임시 라이센스**제공된 링크를 통해 무료 또는 임시 액세스를 시작하세요.
-- **지원하다**: 토론에 참여하거나 질문을 하세요. [Aspose 포럼](https://forum.aspose.com/c/cells/9).
+- **지원하다**토론에 참여하거나 질문을 하세요. [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

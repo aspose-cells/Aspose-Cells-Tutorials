@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Object dataTable[][] = worksheet.getCells().exportArray(2, 1, 5, 3);
 Aspose.Cells for Java 可用於各種場景：
 - **財務分析：** 提取並處理財務數據以供報告。
 - **數據集成：** 將 Excel 資料集與其他應用程式或資料庫無縫整合。
-- **批次：** 自動批次處理多個Excel檔案。
+- **批次：** 自動批次處理多個 Excel 檔案。
 
 透過整合 Aspose.Cells，您可以增強應用程式高效處理複雜電子表格任務的能力。
 
@@ -169,6 +171,9 @@ Aspose.Cells for Java 可用於各種場景：
 - **臨時執照：** [獲得臨時許可證](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menambahkan Baris di Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 Dalam dunia yang digerakkan oleh data saat ini, membuat laporan Excel yang menarik secara visual dan informatif sangatlah penting di berbagai industri. Menambahkan baris ke lembar Excel Anda dapat meningkatkan penyajian data Anda secara signifikan. Panduan lengkap ini akan menunjukkan kepada Anda cara menggunakan Aspose.Cells untuk Java untuk menambahkan gaya garis kustom di Excel.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara menambahkan bentuk garis menggunakan Aspose.Cells untuk Java.
 - Sesuaikan gaya dan penempatan garis putus-putus.
 - Simpan file Excel yang dimodifikasi dengan baris tambahan.
@@ -24,17 +26,17 @@ Dalam dunia yang digerakkan oleh data saat ini, membuat laporan Excel yang menar
 
 Mari mulai menyiapkan lingkungan Anda dan menambahkan garis dinamis ke lembar Excel Anda!
 
-## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+## Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Lingkungan pengembangan Java (misalnya, JDK 8+).
 - IDE seperti IntelliJ IDEA atau Eclipse.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan alat pembangun Maven atau Gradle akan memberikan manfaat.
 
@@ -52,17 +54,17 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Instalasi Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis:** Unduh versi uji coba dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk menjelajahi fitur lengkap tanpa batasan.
-- **Pembelian:** Pertimbangkan pembelian untuk penggunaan jangka panjang.
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió:** Unduh versi uji coba dari [Aspose weboldal](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Dapatkan lisensi sementara untuk menjelajahi fitur lengkap tanpa batasan.
+- **Vásárlás:** Pertimbangkan pembelian untuk penggunaan jangka panjang.
 
-**Inisialisasi dan Pengaturan Dasar**
+**Alapvető inicializálás és beállítás**
 Inisialisasi lingkungan Aspose.Cells Anda di aplikasi Java Anda:
 ```java
 import com.aspose.cells.*;
@@ -78,11 +80,11 @@ public class InitializeAspose {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita uraikan proses penambahan baris ke lembar Excel menggunakan Aspose.Cells.
 
 ### Menambahkan Garis ke Lembar Kerja Excel
-**Ringkasan:** Kita akan menambahkan tiga bentuk garis berbeda ke lembar kerja, menyesuaikan gayanya, dan menyimpan hasilnya.
+**Áttekintés:** Kita akan menambahkan tiga bentuk garis berbeda ke lembar kerja, menyesuaikan gayanya, dan menyimpan hasilnya.
 
 #### Langkah 1: Buat Buku Kerja dan Akses Lembar Kerja Pertama
 ```java
@@ -139,33 +141,33 @@ workbook.save(dataDir + "tstlines.xls");
 System.out.println("Excel file with lines saved successfully!");
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - Pastikan semua dependensi ditambahkan dengan benar ke konfigurasi build Anda.
 - Verifikasi bahwa jalur untuk menyimpan file dapat diakses dan dapat ditulis.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Segmentasi Data:** Gunakan garis untuk memisahkan berbagai bagian data dalam laporan.
 2. **Indikator Visual:** Sorot metrik atau ambang batas utama dengan gaya garis yang berbeda.
 3. **Template Desain:** Buat templat Excel yang dapat digunakan kembali dengan tata letak baris yang telah ditentukan sebelumnya.
-4. **Integrasi dengan Alat Pelaporan:** Tingkatkan pelaporan otomatis dengan menambahkan elemen visual secara terprogram.
+4. **Integráció a jelentéskészítő eszközökkel:** Tingkatkan pelaporan otomatis dengan menambahkan elemen visual secara terprogram.
 
-## Pertimbangan Kinerja
-- **Mengoptimalkan Penggunaan Sumber Daya:** Gunakan fitur manajemen memori Aspose.Cells saat bekerja dengan kumpulan data besar untuk mencegah konsumsi sumber daya yang berlebihan.
-- **Pemrosesan Batch:** Proses garis dan bentuk lain secara berkelompok, bukan secara individual demi efisiensi.
+## Teljesítménybeli szempontok
+- **Erőforrás-felhasználás optimalizálása:** Gunakan fitur manajemen memori Aspose.Cells saat bekerja dengan kumpulan data besar untuk mencegah konsumsi sumber daya yang berlebihan.
+- **Kötegelt feldolgozás:** Proses garis dan bentuk lain secara berkelompok, bukan secara individual demi efisiensi.
 - **Operasi Asinkron:** Pertimbangkan operasi asinkron jika aplikasi Anda mendukungnya untuk menghindari pembekuan UI selama pemrosesan berat.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah mempelajari cara menambahkan dan menyesuaikan bentuk garis dalam lembar kerja Excel menggunakan Aspose.Cells untuk Java. Fitur ini dapat meningkatkan keterbacaan dan profesionalisme laporan Anda. Bereksperimenlah dengan berbagai gaya dan penempatan untuk memenuhi kebutuhan spesifik Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 - Jelajahi objek gambar lain yang tersedia di Aspose.Cells.
 - Integrasikan teknik ini ke dalam aplikasi pemrosesan data yang lebih besar.
 
 Siap untuk mempraktikkan pengetahuan ini? Mulailah dengan bereksperimen dengan bentuk garis dalam proyek Anda!
 
-## Bagian FAQ
+## GYIK szekció
 **1. Bagaimana cara mengubah warna bentuk garis di Aspose.Cells?**
-   - Menggunakan `line.setLineColor(Color.getRed());` untuk mengatur warna yang diinginkan.
+   - Használat `line.setLineColor(Color.getRed());` untuk mengatur warna yang diinginkan.
 
 **2. Dapatkah saya menambahkan baris secara terprogram tanpa menggunakan templat Excel?**
    - Ya, Anda dapat membuat dan memodifikasi bentuk garis secara langsung melalui kode seperti yang ditunjukkan di atas.
@@ -177,19 +179,22 @@ Siap untuk mempraktikkan pengetahuan ini? Mulailah dengan bereksperimen dengan b
    - Meskipun garis lengkung langsung tidak didukung, Anda dapat mensimulasikannya dengan menghubungkan beberapa segmen garis pada sudut.
 
 **5. Apakah mungkin untuk menghapus bentuk garis setelah menambahkannya?**
-   - Ya, gunakan `worksheet.getShapes().removeAt(index);` di mana index adalah posisi bentuk garis Anda dalam koleksi bentuk.
+   - Igen, használom `worksheet.getShapes().removeAt(index);` di mana index adalah posisi bentuk garis Anda dalam koleksi bentuk.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Aspose.Cells untuk Java](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Dapatkan Uji Coba Aspose.Cells Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung:** [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Beli Aspose.Cells untuk Java](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Szerezd meg az Aspose.Cells ingyenes próbaverzióját](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás:** [Aspose.Cells Fórum](https://forum.aspose.com/c/cells/9)
 
 Panduan lengkap ini bertujuan untuk membekali Anda dengan pengetahuan dan peralatan yang diperlukan untuk menggunakan Aspose.Cells Java secara efektif guna menyempurnakan dokumen Excel Anda. Mulailah menerapkan teknik ini hari ini!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

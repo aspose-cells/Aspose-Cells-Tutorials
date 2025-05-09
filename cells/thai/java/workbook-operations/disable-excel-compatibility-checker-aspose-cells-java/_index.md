@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 2. **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** 
    - ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณ
    - IDE เช่น IntelliJ IDEA หรือ Eclipse
-3. **ข้อกำหนดเบื้องต้นของความรู้:**
+3. **ข้อกำหนดความรู้เบื้องต้น:**
    - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
    - ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 
@@ -53,7 +55,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 หากต้องการใช้ Aspose.Cells ได้อย่างเต็มประสิทธิภาพ คุณต้องมีใบอนุญาต:
 - **ทดลองใช้งานฟรี**: ทดสอบไลบรารีด้วยข้อจำกัดบางประการ
 - **ใบอนุญาตชั่วคราว**: เพื่อการประเมินแบบขยาย
-- **ซื้อใบอนุญาต**: เพื่อการใช้งานเชิงพาณิชย์.
+- **ซื้อใบอนุญาต**: เพื่อการใช้งานเชิงพาณิชย์
 
 หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับการขอรับใบอนุญาต โปรดไปที่ [หน้าการซื้อของ Aspose](https://purchase-aspose.com/buy).
 
@@ -134,6 +136,9 @@ workbook.save(dataDir + "DCChecker_out.xls");
 - [ฟอรั่มการสนับสนุนชุมชน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

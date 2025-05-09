@@ -1,82 +1,86 @@
 ---
-title: Terapkan Urutan Halaman di Lembar Kerja
-linktitle: Terapkan Urutan Halaman di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur urutan halaman dalam lembar kerja Excel menggunakan Aspose.Cells for .NET dalam panduan langkah demi langkah yang sederhana. Sempurna untuk pemula dan ahli.
-weight: 24
-url: /id/net/worksheet-page-setup-features/implement-page-order/
+"description": "Tanuld meg, hogyan állíthatod be az oldalak sorrendjét egy Excel-munkafüzetben az Aspose.Cells for .NET használatával egy egyszerű, lépésről lépésre szóló útmutatóban. Tökéletes kezdőknek és haladóknak."
+"linktitle": "Oldalsorrend megvalósítása a munkalapon"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Oldalsorrend megvalósítása a munkalapon"
+"url": "/id/net/worksheet-page-setup-features/implement-page-order/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Terapkan Urutan Halaman di Lembar Kerja
+# Oldalsorrend megvalósítása a munkalapon
 
-## Perkenalan
-Ingin menyesuaikan urutan halaman dalam lembar kerja Excel? Terkadang, mengendalikan cara data dicetak itu penting, terutama dengan lembar kerja besar yang tidak muat dalam satu halaman. Di sinilah Aspose.Cells for .NET berperan, memberi Anda alat yang hebat untuk menyusun halaman cetak sesuai keinginan Anda. Dalam panduan ini, kami akan memandu Anda mengatur urutan halaman dalam lembar kerja, khususnya untuk mencetak di baris terlebih dahulu, lalu ke kolom. Kedengarannya teknis? Jangan khawatir—saya akan membuatnya tetap sederhana, menguraikan semuanya langkah demi langkah.
-## Prasyarat
-Sebelum kita memulai, pastikan Anda telah menyiapkan hal berikut:
-1.  Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh[Aspose.Cells untuk .NET di sini](https://releases.aspose.com/cells/net/)Instal di proyek Anda untuk mengakses fitur yang akan kita gunakan.
-2. Lingkungan Pengembangan: IDE apa pun yang kompatibel dengan .NET seperti Visual Studio akan berfungsi.
-3. Pengetahuan Dasar C#: Kita akan bekerja dengan beberapa kode C#, jadi pemahaman mengenai konsep pemrograman dasar akan sangat membantu.
-Mencoba[Aspose.Cells untuk .NET dengan uji coba gratis](https://releases.aspose.com/)atau dapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengakses semua fitur!
-## Paket Impor
-Untuk memulai, kita perlu mengimpor namespace Aspose.Cells yang diperlukan. Ini akan memberi kita akses ke semua yang diperlukan untuk operasi kita.
+## Bevezetés
+Szeretnéd beállítani az oldalak sorrendjét egy Excel munkalapon? Néha elengedhetetlen az adatok nyomtatásának szabályozása, különösen nagyméretű táblázatok esetén, amelyek nem férnek el szépen egy oldalon. Itt jön a képbe az Aspose.Cells for .NET, amely hatékony eszközöket biztosít a nyomtatott oldalak tetszés szerinti strukturálásához. Ebben az útmutatóban végigvezetünk az oldalak sorrendjének beállításán egy munkalapon, konkrétan úgy, hogy először sorokon, majd oszlopokon keresztül nyomtass. Technikailag hangzik? Ne aggódj – egyszerűen fogom kezelni, lépésről lépésre lebontva mindent.
+## Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőket beállítottuk:
+1. Aspose.Cells .NET-hez: Ha még nem tette meg, töltse le [Aspose.Cells .NET-hez itt](https://releases.aspose.com/cells/net/)Telepítsd a projektedbe, hogy hozzáférhess a használni kívánt funkciókhoz.
+2. Fejlesztői környezet: Bármely .NET-kompatibilis IDE, például a Visual Studio működni fog.
+3. C# alapismeretek: C# kóddal fogunk dolgozni, így az alapvető programozási fogalmak ismerete előnyös lesz.
+Próbáld ki [Aspose.Cells .NET-hez ingyenes próbaverzióval](https://releases.aspose.com/) vagy szerezz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy minden funkcióhoz hozzáférhess!
+## Csomagok importálása
+Kezdésként importálnunk kell a szükséges Aspose.Cells névtereket. Ez hozzáférést biztosít számunkra mindenhez, ami a működésünkhöz szükséges.
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System;
 ```
-Mari kita uraikan tutorial ini menjadi beberapa langkah mudah. Kita akan mulai dengan membuat buku kerja baru, mengakses pengaturan halaman lembar kerja, mengatur urutan halaman, lalu menyimpannya. 
-## Langkah 1: Buat Buku Kerja
-Hal pertama yang perlu kita lakukan adalah membuat objek buku kerja. Objek ini mewakili berkas Excel kita di Aspose.Cells.
+Bontsuk le ezt az oktatóanyagot néhány egyszerű lépésre. Először hozzunk létre egy új munkafüzetet, lépjünk be a munkalap oldalbeállításaiba, állítsuk be az oldalak sorrendjét, majd mentsük el. 
+## 1. lépés: Munkafüzet létrehozása
+Az első dolog, amit tennünk kell, egy munkafüzet objektum létrehozása. Ez az Aspose.Cells fájlban található Excel fájlunkat jelöli.
 ```csharp
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
- Di sini, kita membuat sebuah instance dari`Workbook` kelas. Anggap saja seperti membuka buku kerja Excel baru yang kosong di program Anda.
-## Langkah 2: Akses PageSetup dari Lembar Kerja
- Untuk mengontrol pengaturan cetak, kita perlu mengakses`PageSetup` objek lembar kerja. Ini akan memungkinkan kita untuk menyesuaikan bagaimana lembar kerja dicetak atau diekspor.
+Itt létrehozunk egy példányt a következőből: `Workbook` osztály. Képzeld el úgy, mintha egy új, üres Excel-munkafüzetet nyitnál meg a programodban.
+## 2. lépés: Nyissa meg a Munkalap PageSetup ablakát
+A nyomtatási beállítások kezeléséhez hozzá kell férnünk a `PageSetup` munkalap objektuma. Ez lehetővé teszi számunkra, hogy beállítsuk a munkalap nyomtatásának vagy exportálásának módját.
 ```csharp
-// Mendapatkan referensi PageSetup dari lembar kerja
+// A munkalap PageSetup hivatkozásának lekérése
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
- Pada baris ini, kita mengambil`PageSetup` dari lembar kerja pertama (`Worksheets[0]`). Di sinilah kita akan mengonfigurasi pengaturan cetak, termasuk urutan halaman yang dicetak.
-## Langkah 3: Atur Urutan Halaman ke OverThenDown
-Sekarang untuk langkah kunci: mengatur urutan halaman. Secara default, Excel dapat mencetak setiap kolom sebelum pindah ke baris berikutnya, tetapi di sini kita menentukannya untuk menjadi "OverThenDown"—secara horizontal terlebih dahulu, kemudian vertikal.
+Ebben a sorban megragadjuk a `PageSetup` az első munkalapon (`Worksheets[0]`). Itt fogjuk konfigurálni a nyomtatási beállításokat, beleértve az oldalak nyomtatási sorrendjét is.
+## 3. lépés: Állítsa az Oldalsorrendet OverThenDown értékre
+Most pedig a kulcsfontosságú lépés: az oldalak sorrendjének beállítása. Alapértelmezés szerint az Excel minden oszlopot kinyomtathat, mielőtt a következő sorra lépne, de itt azt adjuk meg, hogy „OverThenDown” módon történjen – először vízszintesen, majd függőlegesen.
 ```csharp
-// Mengatur urutan pencetakan halaman ke atas lalu ke bawah
+// Az oldalak nyomtatási sorrendjének beállítása felülre, majd lefelé
 pageSetup.Order = PrintOrderType.OverThenDown;
 ```
- Kami telah mengatur`Order` milik`PageSetup` ke`PrintOrderType.OverThenDown`. Ini memberi tahu Excel untuk mencetak di seluruh baris sebelum berpindah ke baris halaman berikutnya. Jika Anda mencetak lembar kerja yang lebar, pengaturan ini memastikan semuanya mengalir secara logis pada hasil cetak.
-## Langkah 4: Simpan Buku Kerja
-Terakhir, mari kita simpan buku kerja kita untuk melihat hasilnya. Kita akan menentukan jalur dan nama file tempat penyimpanannya.
+Beállítottuk a `Order` tulajdona `PageSetup` hogy `PrintOrderType.OverThenDown`Ez arra utasítja az Excelt, hogy a következő sorra való továbblépés előtt nyomtasson ki több sort is. Ha széles táblázatot nyomtat, ez a beállítás biztosítja, hogy minden logikusan haladjon a nyomaton.
+## 4. lépés: A munkafüzet mentése
+Végül mentsük el a munkafüzetünket az eredmény megtekintéséhez. Megadjuk a fájl elérési útját és nevét, ahová menteni szeretnénk.
 ```csharp
-// Jalur ke direktori dokumen
+// A dokumentumok könyvtárának elérési útja
 string dataDir = "Your Document Directory";
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.Save(dataDir + "SetPageOrder_out.xls");
 ```
- Pada kode di atas, kita menyimpan buku kerja di direktori yang ditentukan dengan nama`SetPageOrder_out.xls` . Mengganti`"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan berkas Anda.
-Butuh bantuan dengan format output? Aspose.Cells mendukung banyak format, jadi bereksperimenlah dengan format seperti`.xlsx` jika Anda memerlukan format Excel terbaru.
-## Kesimpulan
-Nah, itu dia! Anda baru saja mengatur urutan halaman dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, kami mengendalikan cara data dicetak, yang dapat menjadi pengubah permainan untuk menyajikan kumpulan data besar dengan jelas di atas kertas. Ini hanyalah salah satu dari sekian banyak pengaturan cetak yang dapat Anda sesuaikan dengan Aspose.Cells. Jadi, apakah Anda sedang mempersiapkan laporan, lembar kerja siap cetak, atau dokumen terorganisasi, Aspose.Cells siap membantu Anda.
-## Pertanyaan yang Sering Diajukan
-### Bisakah saya mengubah urutan halaman untuk beberapa lembar kerja sekaligus?
- Ya, cukup ulangi setiap lembar kerja di buku kerja dan terapkan hal yang sama`PageSetup.Order` pengaturan.
-### Apa saja pilihan lain untuk pemesanan cetak selain OverThenDown?
- Pilihan alternatifnya adalah`DownThenOver`, yang akan mencetak kolom terlebih dahulu, kemudian mencetak baris demi baris.
-### Apakah kode ini memerlukan lisensi?
-Beberapa fitur mungkin terbatas tanpa lisensi. Anda dapat mencoba[Aspose.Cells untuk .NET dengan uji coba gratis](https://releases.aspose.com/).
-### Bisakah saya melihat dulu susunan halaman sebelum mencetaknya?
-Meskipun Aspose.Cells memungkinkan pengaturan cetak, Anda harus membuka file yang disimpan di Excel untuk melihat pratinjaunya karena tidak ada pratinjau langsung di Aspose.
-### Apakah pengaturan urutan halaman ini kompatibel dengan format lain seperti PDF?
-Ya, setelah ditetapkan, urutan halaman akan berlaku untuk ekspor PDF atau format lain yang didukung, memastikan alur halaman yang konsisten.
+A fenti kódban a munkafüzetet a megadott könyvtárba mentjük a következő néven: `SetPageOrder_out.xls`Csere `"Your Document Directory"` azzal az elérési úttal, ahová menteni szeretné a fájlt.
+Segítségre van szüksége a kimeneti formátumokkal kapcsolatban? Az Aspose.Cells sokat támogat, ezért kísérletezzen olyan formátumokkal, mint például `.xlsx` ha a legújabb Excel formátumra van szükséged.
+## Következtetés
+És íme! Épp most állítottad be az oldalak sorrendjét egy Excel munkalapon az Aspose.Cells for .NET segítségével. Mindössze néhány sornyi kóddal szabályoztuk az adatok nyomtatását, ami forradalmi változást hozhat a nagy adathalmazok papíron történő világos bemutatásában. Ez csak egy a számos nyomtatási beállítás közül, amelyeket az Aspose.Cells segítségével testreszabhatsz. Tehát akár jelentéseket, nyomtatásra kész táblázatokat vagy rendezett dokumentumokat készítesz, az Aspose.Cells mindent megold.
+## GYIK
+### Meg lehet változtatni egyszerre több munkalap oldalsorrendjét?
+Igen, egyszerűen végig kell menni a munkafüzet minden egyes munkalapján, és alkalmazni kell ugyanazt `PageSetup.Order` beállítás.
+### Milyen más nyomtatási sorrendi lehetőségek vannak az OverThenDown mellett?
+Az alternatív lehetőség az `DownThenOver`, amely először az oszlopokat, majd a sorokat nyomtatja ki.
+### Ehhez a kódhoz licenc kell?
+Bizonyos funkciók licenc nélkül korlátozottak lehetnek. Kipróbálhatja [Aspose.Cells .NET-hez ingyenes próbaverzióval](https://releases.aspose.com/).
+### Megtekinthetem az oldalak sorrendjét nyomtatás előtt?
+Bár az Aspose.Cells lehetővé teszi a nyomtatási beállításokat, a mentett fájlt Excelben kell megnyitni az előnézethez, mivel az Aspose-ban nincs közvetlen előnézet.
+### Ez az oldalsorrend-beállítás kompatibilis más formátumokkal, például PDF-fel?
+Igen, a beállítás után az oldalak sorrendje a PDF-exportokra vagy más támogatott formátumokra is érvényes lesz, biztosítva az oldalfolyam egységességét.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

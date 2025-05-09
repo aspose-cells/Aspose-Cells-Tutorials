@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## การแนะนำ
 
-ในโลกปัจจุบันที่ข้อมูลเป็นปัจจัยสำคัญในการแปลงไฟล์ Excel เป็นรูปแบบที่ใช้งานได้บนเว็บ เช่น HTML ถือเป็นสิ่งสำคัญสำหรับการนำเสนอรายงานทางการเงินออนไลน์หรือการแบ่งปันข้อมูลอัปเดตโครงการกับทีม บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java เพื่อการแปลงที่มีประสิทธิภาพ
+ในโลกปัจจุบันที่ข้อมูลเป็นปัจจัยสำคัญในการแปลงไฟล์ Excel เป็นรูปแบบที่เป็นมิตรกับเว็บ เช่น HTML ถือเป็นสิ่งสำคัญสำหรับการนำเสนอรายงานทางการเงินออนไลน์หรือการแบ่งปันข้อมูลอัปเดตโครงการกับทีม บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java เพื่อการแปลงที่มีประสิทธิภาพ
 
 **สิ่งที่คุณจะได้เรียนรู้:**
 - การโหลดไฟล์ Excel ใน Java
@@ -177,6 +179,9 @@ workbook.save(outDir + "/PrintHeadings_out.html", options);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

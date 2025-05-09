@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Analisis Garis Tren
@@ -18,12 +20,12 @@
 
 Dalam tutorial ini, kita akan mempelajari cara melakukan Analisis Garis Tren menggunakan Aspose.Cells untuk Java. Analisis garis tren membantu dalam memahami pola dan membuat keputusan berdasarkan data. Kami akan memberikan petunjuk langkah demi langkah beserta contoh kode sumber.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java terinstal di sistem Anda.
-- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Menyiapkan Proyek
 
@@ -37,7 +39,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 // Impor pustaka yang diperlukan
 import com.aspose.cells.*;
 
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 
 // Akses lembar kerja
@@ -86,7 +88,7 @@ Sekarang, Anda memiliki bagan dengan garis tren yang ditambahkan. Anda dapat men
 
 Dalam tutorial ini, kita telah mempelajari cara melakukan Analisis Garis Tren menggunakan Aspose.Cells untuk Java. Kita telah membuat contoh buku kerja Excel, menambahkan data, membuat bagan, dan menambahkan garis tren untuk memvisualisasikan dan menganalisis data. Kini Anda dapat menggunakan teknik ini untuk melakukan analisis garis tren pada kumpulan data Anda sendiri.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengubah jenis garis tren?
 
@@ -94,7 +96,7 @@ Untuk mengubah jenis garis tren, ubah `TrendlineType` enumerasi saat menambahkan
 
 ### Bisakah saya menyesuaikan tampilan garis tren?
 
-Ya, Anda dapat menyesuaikan tampilan garis tren dengan mengakses properti seperti `setLineFormat()` Dan `setWeight()` dari objek garis tren.
+Ya, Anda dapat menyesuaikan tampilan garis tren dengan mengakses properti seperti `setLineFormat()` és `setWeight()` dari objek garis tren.
 
 ### Bagaimana cara mengekspor bagan ke gambar atau PDF?
 
@@ -103,6 +105,7 @@ Anda dapat mengekspor diagram ke berbagai format menggunakan Aspose.Cells. Lihat
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

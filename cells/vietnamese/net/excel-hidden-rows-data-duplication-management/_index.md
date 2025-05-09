@@ -1,14 +1,16 @@
 ---
-title: Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel
-linktitle: Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa tiềm năng của Excel với hướng dẫn Aspose.Cells dành cho .NET, cung cấp thông tin chi tiết về cách quản lý các hàng ẩn và sao chép dữ liệu dễ dàng.
-weight: 42
-url: /vi/net/excel-hidden-rows-data-duplication-management/
+"description": "Mở khóa tiềm năng của Excel với hướng dẫn Aspose.Cells dành cho .NET, cung cấp thông tin chi tiết về cách quản lý các hàng ẩn và sao chép dữ liệu dễ dàng."
+"linktitle": "Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel"
+"url": "/vi/net/excel-hidden-rows-data-duplication-management/"
+"weight": 42
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quản lý hàng ẩn và dữ liệu trùng lặp trong Excel
@@ -34,9 +36,11 @@ Tiếp theo, chúng ta hãy nói về sự trùng lặp dữ liệu, một vấn
 Khám phá cách lấy chỉ mục hàng ẩn sau khi làm mới Bộ lọc tự động trong Excel bằng Aspose.Cells cho .NET. Đơn giản hóa việc quản lý dữ liệu của bạn.
 ### [Tự động đổi tên các cột trùng lặp khi xuất dữ liệu Excel](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
 Tự động đổi tên các cột trùng lặp trong Excel bằng Aspose.Cells cho .NET! Hãy làm theo hướng dẫn từng bước của chúng tôi để sắp xếp hợp lý việc xuất dữ liệu của bạn một cách dễ dàng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

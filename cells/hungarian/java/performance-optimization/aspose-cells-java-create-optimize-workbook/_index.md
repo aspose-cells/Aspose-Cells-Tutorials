@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Az útmutató követésével megtanultad, hogyan hozhatsz létre és optimalizá
 
 **Következő lépések:**
 - Kísérletezz további funkciókkal, például az adatok importálásával/exportálásával.
-- Fedezze fel a kiterjedt [Aspose dokumentáció](https://reference.aspose.com/cells/java/) fejlettebb funkciókért.
+- Fedezze fel a kiterjedt [Aspose dokumentáció](https://reference.aspose.com/cells/java/) a fejlettebb funkciókért.
 
 Készen állsz arra, hogy ezeket a stratégiákat megvalósítsd a projektjeidben? Kezdj bele még ma!
 
@@ -178,6 +180,9 @@ Kezdje el alkalmazni ezeket a technikákat projektjeiben még ma, és tapasztalj
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

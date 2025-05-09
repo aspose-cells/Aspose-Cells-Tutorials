@@ -8,7 +8,9 @@ url: /net/row-and-column-management/insert-multiple-rows-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Multiple Rows in Aspose.Cells .NET
@@ -88,6 +90,7 @@ You can find detailed documentation [here](https://reference.aspose.com/cells/ne
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,38 +1,40 @@
 ---
-title: Mengatur Judul dan Sumbu pada Bagan
-linktitle: Mengatur Judul dan Sumbu pada Bagan
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur judul dan sumbu dalam bagan menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini, lengkap dengan contoh kode dan kiat.
-weight: 15
-url: /id/net/setting-chart-appearance/set-titles-and-axes-in-chart/
+"description": "Tanuld meg, hogyan állíthatsz be címeket és tengelyeket diagramokban az Aspose.Cells for .NET használatával ebből a lépésről lépésre haladó útmutatóból, amely kódpéldákat és tippeket is tartalmaz."
+"linktitle": "Címek és tengelyek beállítása a diagramban"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Címek és tengelyek beállítása a diagramban"
+"url": "/id/net/setting-chart-appearance/set-titles-and-axes-in-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Judul dan Sumbu pada Bagan
+# Címek és tengelyek beállítása a diagramban
 
-## Perkenalan
+## Bevezetés
 
-Membuat bagan yang menarik secara visual dan informatif merupakan bagian penting dari analisis dan penyajian data. Dalam artikel ini, kita akan membahas cara mengatur judul dan sumbu dalam bagan menggunakan Aspose.Cells untuk .NET. Dengan fitur-fiturnya yang tangguh, Aspose.Cells memungkinkan Anda membuat, memanipulasi, dan menyesuaikan file Excel secara efisien. Di akhir panduan ini, Anda akan dapat membuat bagan dengan judul dan sumbu yang diatur dengan tepat yang mengomunikasikan data Anda secara efektif.
+vizuálisan vonzó és informatív diagramok létrehozása az adatelemzés és -megjelenítés létfontosságú része. Ebben a cikkben azt vizsgáljuk meg, hogyan állíthatunk be címeket és tengelyeket a diagramokban az Aspose.Cells for .NET segítségével. Robusztus funkcióinak köszönhetően az Aspose.Cells lehetővé teszi az Excel-fájlok hatékony létrehozását, kezelését és testreszabását. Az útmutató végére képes leszel olyan diagramot létrehozni, amely megfelelően beállított címekkel és tengelyekkel rendelkezik, és hatékonyan közvetíti az adataidat.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita menyelami tutorial langkah demi langkah, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah prasyaratnya:
+Mielőtt belemerülnénk a lépésről lépésre bemutatóba, győződjünk meg róla, hogy minden a rendelkezésedre áll, amire szükséged van az induláshoz. Íme az előfeltételek:
 
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di sistem Anda untuk mengembangkan aplikasi .NET.
-2. .NET Framework: Pastikan Anda menggunakan .NET Framework 4.0 atau yang lebih tinggi.
-3.  Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells. Anda dapat menemukannya di[tautan unduhan](https://releases.aspose.com/cells/net/).
-4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan lebih nyaman.
+1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszerén .NET alkalmazások fejlesztéséhez.
+2. .NET-keretrendszer: Győződjön meg róla, hogy a .NET-keretrendszer 4.0-s vagy újabb verzióját használja.
+3. Aspose.Cells könyvtár: Töltse le és telepítse az Aspose.Cells könyvtárat. Megtalálja a következő címen: [letöltési link](https://releases.aspose.com/cells/net/).
+4. C# alapismeretek: A C# programozásban való jártasság segít abban, hogy kényelmesebben kövesd a feladatot.
 
-Setelah semua ini tersedia, mari mulai mengimpor paket yang diperlukan dan membuat bagan Excel pertama kita!
+Miután mindezek megvannak, kezdjük el importálni a szükséges csomagokat és elkészíteni az első Excel-táblázatunkat!
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk memulai perjalanan pembuatan grafik Excel, kita perlu mengimpor namespace yang diperlukan. Ini akan membantu kita mengakses fungsionalitas Aspose.Cells yang kita perlukan.
+Az Excel diagramkészítés megkezdéséhez importálnunk kell a szükséges névtereket. Ez segít majd elérni a szükséges Aspose.Cells funkciókat.
 
-### Impor Ruang Nama Aspose.Cells
+### Aspose.Cells névtér importálása
 
 ```csharp
 using System;
@@ -42,40 +44,40 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-Dengan mengimpor namespace ini, kita sekarang dapat memanfaatkan kelas dan metode yang disediakan oleh Aspose.Cells untuk bekerja dengan file dan grafik Excel.
+Ezen névterek importálásával mostantól használhatjuk az Aspose.Cells által biztosított osztályokat és metódusokat Excel fájlokkal és grafikákkal való munkához.
 
-Sekarang setelah semuanya siap, mari kita bagi prosesnya menjadi beberapa langkah yang lebih mudah dikelola.
+Most, hogy mindent előkészítettünk, bontsuk le a folyamatot kezelhető lépésekre.
 
-## Langkah 1: Buat Buku Kerja
+## 1. lépés: Munkafüzet létrehozása
 
-Pada langkah ini, kita akan membuat buku kerja baru. 
+Ebben a lépésben egy új munkafüzetet fogunk létrehozni. 
 
 ```csharp
-//Direktori keluaran
+//Kimeneti könyvtár
 static string outputDir = "Your Document Directory";
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 
-Baris kode ini membuat contoh buku kerja baru yang akan kita gunakan untuk operasi kita. Anggap saja seperti membuka kanvas kosong tempat kita dapat menambahkan data dan diagram.
+Ez a kódsor egy új munkafüzet-példányt hoz létre, amelyet a műveleteinkhez fogunk használni. Gondoljon rá úgy, mintha egy üres vásznat nyitna meg, ahová felvehetjük az adatainkat és a diagramjainkat.
 
-## Langkah 2: Akses Lembar Kerja
+## 2. lépés: A munkalap elérése
 
-Berikutnya, kita perlu mengakses lembar kerja tempat kita memasukkan data dan membuat bagan.
+Ezután el kell érnünk azt a munkalapot, ahová beírjuk az adatainkat és elkészítjük a diagramot.
 
 ```csharp
-// Mendapatkan referensi lembar kerja yang baru ditambahkan dengan meneruskan indeks lembar kerjanya
+// Az újonnan hozzáadott munkalap hivatkozásának lekérése a munkalap indexének átadásával
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Dengan menggunakan indeks`0`, kita mengakses lembar kerja pertama yang tersedia di buku kerja kita.
+Az index segítségével `0`, a munkafüzetünkben elérhető első munkalapot érjük el.
 
-## Langkah 3: Tambahkan Data Sampel
+## 3. lépés: Mintaadatok hozzáadása
 
-Sekarang mari masukkan beberapa contoh data ke dalam lembar kerja kita. Data ini akan ditampilkan dalam diagram nanti.
+Most illesszünk be néhány mintaadatot a munkalapunkba. Ezeket az adatokat később a diagramon fogjuk ábrázolni.
 
 ```csharp
-// Menambahkan nilai sampel ke sel
+// Mintaértékek hozzáadása cellákhoz
 worksheet.Cells["A1"].PutValue(50);
 worksheet.Cells["A2"].PutValue(100);
 worksheet.Cells["A3"].PutValue(150);
@@ -84,144 +86,146 @@ worksheet.Cells["B2"].PutValue(32);
 worksheet.Cells["B3"].PutValue(50);
 ```
 
-Di sini, Anda menempatkan data di kolom A dan B pada lembar kerja Anda. Data ini berfungsi sebagai kumpulan data bagan kita. Pertanyaan singkat: Bukankah menyenangkan melihat angka-angka memenuhi sel?
+Itt a munkalap A és B oszlopaiba helyezel adatokat. Ezek az adatok szolgálnak a diagram adatkészleteként. Gyors kérdés: Nem kielégítő látni, hogy számok töltik meg a cellákat?
 
-## Langkah 4: Tambahkan Bagan
+## 4. lépés: Diagram hozzáadása
 
-Sekarang tibalah bagian yang menarik—menambahkan bagan ke lembar kerja untuk memvisualisasikan data!
+Most jön az izgalmas rész – egy diagram hozzáadása a munkalaphoz az adatok vizualizálásához!
 
 ```csharp
-// Menambahkan bagan ke lembar kerja
+// Diagram hozzáadása a munkalaphoz
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-Kami menambahkan bagan kolom, yang diposisikan dalam sel tertentu. Bagan ini akan membantu memvisualisasikan data dalam kolom, sehingga memudahkan untuk membandingkan nilai.
+Hozzáadunk egy oszlopdiagramot, amely a megadott cellákon belül helyezkedik el. Ez a diagram segít az oszlopokban lévő adatok vizualizálásában, megkönnyítve az értékek összehasonlítását.
 
-## Langkah 5: Akses Instansi Bagan
+## 5. lépés: Hozzáférés a diagrampéldányhoz
 
-Setelah bagan dibuat, kita perlu menyimpan referensinya sehingga kita dapat menyesuaikannya.
+Miután létrehoztuk a diagramot, el kell mentenünk egy ráhivatkozást, hogy testre szabhassuk.
 
 ```csharp
-// Mengakses contoh grafik yang baru ditambahkan
+// Az újonnan hozzáadott diagram példányának elérése
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
-Di sinilah kita mengambil bagan yang baru kita buat, membuatnya siap untuk dimodifikasi. Ini seperti mengambil kuas untuk mulai melukis!
+Itt hívjuk le az újonnan létrehozott diagramunkat, és készítjük elő a módosításokra. Olyan ez, mintha ecsetet ragadnál, hogy elkezdj festeni!
 
-## Langkah 6: Tentukan Sumber Data Bagan
+## 6. lépés: A diagram adatforrásának meghatározása
 
-Berikutnya, kita perlu memberi tahu bagan kita sumber data mana yang akan digunakan.
+Következő lépésként meg kell adnunk a diagramunknak, hogy melyik adatforrást használja.
 
 ```csharp
-// Menambahkan SeriesCollection (sumber data bagan) ke bagan mulai dari sel "A1" hingga "B3"
+// Sorozatgyűjtemény (diagram adatforrás) hozzáadása a diagramhoz az „A1” cellától a „B3” celláig terjedő tartományban
 chart.NSeries.Add("A1:B3", true);
 ```
 
-Baris ini menghubungkan bagan ke data sampel kita, sehingga bagan mengetahui dari mana informasi harus diambil. Baris ini penting untuk menampilkan bagan secara akurat.
+Ez a vonal összeköti a diagramot a mintaadatokkal, így az tudja, honnan kell kiolvasni az információt. Ez kulcsfontosságú a diagram pontos megjelenítéséhez.
 
-## Langkah 7: Sesuaikan Warna Bagan
+## 7. lépés: A diagram színeinek testreszabása
 
-Mari tambahkan sedikit warna—waktunya membuat bagan kita menarik secara visual!
+Adjunk hozzá egy kis színt – itt az ideje, hogy vizuálisan vonzóbbá tegyük a diagramunkat!
 
 ```csharp
-// Mengatur warna latar depan area plot
+// A nyomtatási terület előtérszínének beállítása
 chart.PlotArea.Area.ForegroundColor = Color.Blue;
 
-// Mengatur warna latar depan area grafik
+// A diagramterület előtérszínének beállítása
 chart.ChartArea.Area.ForegroundColor = Color.Yellow;
 
-// Mengatur warna latar depan area Koleksi Seri ke-1
+// Az 1. sorozatgyűjtemény terület előtérszínének beállítása
 chart.NSeries[0].Area.ForegroundColor = Color.Red;
 
-// Mengatur warna latar depan area titik Koleksi Seri ke-1
+// Az 1. sorozat gyűjtőpontjának előtérszínének beállítása
 chart.NSeries[0].Points[0].Area.ForegroundColor = Color.Cyan;
 
-// Mengisi area Koleksi Seri ke-2 dengan gradien
+// A 2. sorozatgyűjtemény területének kitöltése színátmenettel
 chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells.Drawing.GradientStyleType.Horizontal, 1);
 ```
 
-Dengan menyesuaikan area plot dan warna seri, kami meningkatkan estetika bagan kami, membuatnya menarik perhatian dan lebih informatif. Warna menghidupkan data—bukankah Anda menyukai visual yang hidup?
+A diagramterület és az adatsorok színeinek testreszabásával javítjuk diagramunk esztétikáját, szemet gyönyörködtetővé és informatívabbá téve azt. A színek életre keltik az adatokat – nem imádja az élénk látványvilágot?
 
-## Langkah 8: Mengatur Judul Bagan
+## 8. lépés: Állítsa be a diagram címét
 
-Bagan tidak akan lengkap tanpa judul! Mari tambahkan judul untuk mencerminkan apa yang digambarkan bagan kita.
+Egy diagram nem teljes cím nélkül! Adjunk hozzá egyet, amely tükrözi, hogy mit ábrázol a diagramunk.
 
 ```csharp
-// Mengatur judul bagan
+// Diagram címének beállítása
 chart.Title.Text = "Sales Performance";
 ```
 
-Mengganti "Kinerja Penjualan" dengan judul yang sesuai untuk kumpulan data Anda akan menambah konteks dan kejelasan bagi siapa pun yang melihat diagram ini.
+Ha az „Értékesítési teljesítmény” szót az adathalmaz megfelelő címével helyettesíti, az kontextust és az érthetőséget növeli a diagramot megtekintők számára.
 
-## Langkah 9: Sesuaikan Warna Font Judul
+## 9. lépés: A cím betűszínének testreszabása
 
-Untuk memastikan judul kita menonjol, mari sesuaikan warna fontnya.
+Annak érdekében, hogy a címünk kiemelkedjen, állítsuk be a betűszínét.
 
 ```csharp
-// Mengatur warna font judul grafik menjadi biru
+// A diagram címének betűszínének kékre állítása
 chart.Title.Font.Color = Color.Blue;
 ```
 
-Memilih warna yang mencolok akan menonjolkan judul Anda, dan langsung menarik perhatian. Anda dapat menganggapnya seperti menghias judul untuk sebuah presentasi.
+Egy külön szín kiválasztása kiemeli a címet, azonnal felhívva rá a figyelmet. Úgy is elképzelheted, mintha egy prezentáció címét dobnád fel.
 
-## Langkah 10: Tetapkan Judul Sumbu Kategori dan Nilai
+## 10. lépés: Kategória- és értéktengelyek címeinek beállítása
 
-Kita juga harus memberi label pada sumbu kita untuk memberikan kejelasan pada penyajian data.
+A tengelyeket is fel kell címkéznünk, hogy az adatok megjelenítése egyértelmű legyen.
 
 ```csharp
-// Mengatur judul sumbu kategori grafik
+// A diagram kategóriatengelyének címének beállítása
 chart.CategoryAxis.Title.Text = "Categories";
 
-// Mengatur judul sumbu nilai grafik
+// A diagram értéktengelyének címének beállítása
 chart.ValueAxis.Title.Text = "Values";
 ```
 
-Anggap sumbu tersebut seperti rambu jalan—sumbu tersebut memandu audiens Anda mengenai apa yang diharapkan saat mereka melihat diagram tersebut.
+Gondolj a tengelyekre úgy, mint az útjelző táblákra – ezek útbaigazítják a közönségedet, hogy mire számíthatnak a térképen.
 
-## Langkah 11: Simpan Buku Kerja
+## 11. lépés: A munkafüzet mentése
 
-Akhirnya, setelah semua kerja keras dalam membuat dan menyesuaikan bagan, tibalah waktunya untuk menyimpan perubahan kita.
+Végül, a diagram létrehozásának és testreszabásának nehéz munkája után itt az ideje menteni a módosításokat.
 
 ```csharp
-// Menyimpan file Excel
+// Az Excel fájl mentése
 workbook.Save(outputDir + "outputSettingTitlesAxes.xlsx");
 ```
 
-Pastikan untuk menentukan direktori keluaran yang benar tempat file Anda akan disimpan. Dan voila! Anda telah berhasil menyimpan bagan inspirasional Anda.
+Győződj meg róla, hogy a fájl mentése helyének megfelelő kimeneti könyvtárát adod meg. És voilá! Sikeresen mentetted az inspiráló táblázatodat.
 
-## Langkah 12: Pesan Konfirmasi
+## 12. lépés: Megerősítő üzenet
 
-Untuk mengakhiri semuanya dengan rapi, mari kita pastikan proses kita telah dijalankan dengan sukses.
+A dolgok tisztán foglalása érdekében győződjünk meg arról, hogy a folyamatunk sikeresen végrehajtódott.
 
 ```csharp
 Console.WriteLine("SettingTitlesAxes executed successfully.");
 ```
 
-Tidak ada yang mengalahkan perasaan menyelesaikan pekerjaan dengan baik! 
+Semmi sem veri azt az érzést, hogy jól végezted a munkádat! 
 
-## Kesimpulan
+## Következtetés
 
-Membuat bagan yang terstruktur dengan baik dan menarik secara visual di Excel menggunakan Aspose.Cells for .NET mudah dilakukan jika Anda mengikuti langkah-langkah berikut. Dengan menambahkan judul dan mengatur sumbu, Anda dapat mengubah kumpulan data sederhana menjadi representasi visual yang mendalam yang mengomunikasikan pesan Anda secara efektif. Baik untuk presentasi bisnis, laporan proyek, atau sekadar untuk penggunaan pribadi, menyesuaikan bagan dapat membuat perbedaan besar.
+Az Aspose.Cells for .NET segítségével könnyen létrehozhat jól strukturált és vizuálisan vonzó diagramokat az Excelben, ha követi ezeket a lépéseket. Címek hozzáadásával és tengelyek beállításával egy egyszerű adathalmazt áttekinthető vizuális ábrázolássá alakíthat, amely hatékonyan közvetíti az üzenetét. Akár üzleti prezentációról, projektjelentésről vagy egyszerűen személyes használatra szánja, a diagramok testreszabása hatalmas különbséget jelenthet.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka hebat yang memungkinkan Anda membuat dan memanipulasi lembar kerja Excel dalam aplikasi .NET.
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony függvénykönyvtár, amely lehetővé teszi Excel-táblázatok létrehozását és kezelését .NET alkalmazásokban.
 
-### Bisakah saya membuat berbagai jenis bagan menggunakan Aspose.Cells?
-Ya! Aspose.Cells mendukung berbagai jenis bagan termasuk kolom, batang, garis, pai, dan banyak lagi.
+### Létrehozhatok különböző típusú diagramokat az Aspose.Cells használatával?
+Igen! Az Aspose.Cells különféle diagramtípusokat támogat, beleértve az oszlop-, sáv-, vonal-, kördiagramokat és egyebeket.
 
-### Apakah ada versi gratis Aspose.Cells?
- Ya, Anda dapat mencoba Aspose.Cells secara gratis melalui[tautan uji coba](https://releases.aspose.com/).
+### Van az Aspose.Cells ingyenes verziója?
+Igen, ingyenesen kipróbálhatod az Aspose.Cells-t a következőn keresztül: [próbalink](https://releases.aspose.com/).
 
-### Di mana saya dapat menemukan dokumentasi Aspose.Cells?
- Anda dapat menemukan dokumentasi lengkap di[Halaman referensi Aspose.Cells](https://reference.aspose.com/cells/net/).
+### Hol találom az Aspose.Cells dokumentációját?
+Átfogó dokumentációt találhat a következő címen: [Aspose.Cells referenciaoldal](https://reference.aspose.com/cells/net/).
 
-### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan komunitas di[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Közösségi támogatást kaphatsz a [Aspose fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

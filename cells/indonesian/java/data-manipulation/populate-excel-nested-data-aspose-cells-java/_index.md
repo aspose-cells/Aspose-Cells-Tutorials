@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengisi Excel dengan Data Bertingkat Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Mengelola struktur data bersarang secara efisien di Excel dapat menjadi tantangan. **Aspose.Cells untuk Java** menyediakan solusi yang hebat untuk mengisi buku kerja Excel secara dinamis menggunakan penanda cerdas. Tutorial ini akan memandu Anda melalui proses tersebut, memastikan Anda dapat menangani kumpulan data yang rumit seperti individu dan anggota keluarga mereka dengan mudah.
 
@@ -25,14 +27,14 @@ Dengan mengikuti panduan ini, Anda akan mempelajari cara:
 
 Sebelum terjun ke implementasi, mari pastikan lingkungan Anda telah disiapkan dengan benar dan dilengkapi dengan semua prasyarat yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum melanjutkan, pastikan Anda memiliki:
 - **Kit Pengembangan Java (JDK)**Pastikan JDK 8 atau yang lebih baru terinstal di sistem Anda.
 - **Aspose.Cells untuk Java**: Tambahkan pustaka Aspose.Cells ke proyek Anda menggunakan Maven atau Gradle seperti yang dijelaskan di bawah ini.
-- **Lingkungan Pengembangan**: Gunakan editor teks atau IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
+- **Fejlesztői környezet**: Gunakan editor teks atau IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Untuk menyertakan Aspose.Cells dalam proyek Anda:
 
@@ -50,13 +52,13 @@ Untuk menyertakan Aspose.Cells dalam proyek Anda:
 implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk menggunakan Aspose.Cells, Anda dapat:
-- **Uji Coba Gratis**: Unduh pustaka dan mulai dengan lisensi evaluasi sementara.
-- **Pembelian**: Dapatkan lisensi penuh untuk penggunaan produksi.
+- **Ingyenes próbaverzió**: Unduh pustaka dan mulai dengan lisensi evaluasi sementara.
+- **Vásárlás**: Dapatkan lisensi penuh untuk penggunaan produksi.
 
-Mengunjungi [Aspose Pembelian](https://purchase.aspose.com/buy) untuk mempelajari lebih lanjut tentang cara memperoleh lisensi. Untuk uji coba gratis, kunjungi [Rilis Aspose](https://releases.aspose.com/cells/java/).
+Látogatás [Aspose vásárlás](https://purchase.aspose.com/buy) untuk mempelajari lebih lanjut tentang cara memperoleh lisensi. Untuk uji coba gratis, kunjungi [Aspose kiadások](https://releases.aspose.com/cells/java/).
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -68,7 +70,7 @@ import com.aspose.cells.Workbook;
 
 public class AsposeCellsSetup {
     public static void main(String[] args) {
-        // Inisialisasi objek Buku Kerja baru.
+        // Új munkafüzet objektum inicializálása.
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java is set up and ready to use!");
@@ -78,19 +80,19 @@ public class AsposeCellsSetup {
 
 Cuplikan ini menunjukkan betapa mudahnya memulai bekerja dengan Aspose.Cells. Pastikan lingkungan Anda mengenali pustaka tersebut sebelum menjalankan kode lebih lanjut.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan implementasi kita ke dalam beberapa bagian yang dapat dikelola, masing-masing berfokus pada fungsionalitas spesifik Aspose.Cells untuk Java.
 
 ### Menyiapkan Buku Kerja dengan Data Awal
 
-#### Ringkasan
+#### Áttekintés
 
 Bagian ini melibatkan inisialisasi buku kerja baru dan pengaturan tajuk awal pada lembar kerja pertama menggunakan penanda pintar.
 
 **Langkah-langkah Implementasi:**
-1. **Inisialisasi Buku Kerja dan Lembar Kerja**:
-   - Buat contoh dari `Workbook`.
+1. **Munkafüzet és munkalap inicializálása**:
+   - Hozz létre egy példányt a következőből: `Workbook`.
    - Akses lembar kerja pertama dari buku kerja.
 2. **Mengatur Header Kolom**:
    - Tentukan tajuk untuk kolom A, B, C, dan D.
@@ -129,13 +131,13 @@ public class InitializeWorkbook {
 
 ### Membuat Daftar Objek Bertingkat untuk Sumber Data
 
-#### Ringkasan
+#### Áttekintés
 
 Langkah ini melibatkan pembuatan kelas Java untuk merepresentasikan struktur data bersarang, yang akan digunakan sebagai sumber data dalam buku kerja Excel kita.
 
 **Langkah-langkah Implementasi:**
 1. **Definisi Struktur Kelas**:
-   - Membuat `Individual` Dan `Person` kelas.
+   - Teremt `Individual` és `Person` kelas.
    - Sertakan bidang dan konstruktor yang diperlukan.
 2. **Buat Daftar Data**:
    - Membuat instance objek dari `Individual`, masing-masing berisi bersarang `Person`.
@@ -183,17 +185,17 @@ public class CreateDataList {
 
 ### Memproses Buku Kerja dengan Penanda Cerdas dan Sumber Data
 
-#### Ringkasan
+#### Áttekintés
 
 Di sini, Anda akan memanfaatkan `WorkbookDesigner` untuk memproses buku kerja Anda menggunakan penanda pintar dan sumber data.
 
 **Langkah-langkah Implementasi:**
 1. **Inisialisasi WorkbookDesigner**:
-   - Buat contoh dari `WorkbookDesigner`.
+   - Hozz létre egy példányt a következőből: `WorkbookDesigner`.
 2. **Tetapkan Sumber Data**:
    - Tetapkan daftar individu sebagai sumber data untuk memproses penanda pintar.
 3. **Memproses Buku Kerja**:
-   - Gunakan `process` metode untuk mengisi buku kerja dengan data bersarang Anda.
+   - Használd a `process` metode untuk mengisi buku kerja dengan data bersarang Anda.
 
 **Implementasi Kode:**
 ```java
@@ -227,13 +229,16 @@ public class ProcessWorkbook {
 }
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara mengelola dan mengisi buku kerja Excel secara efisien dengan data bertingkat menggunakan Aspose.Cells untuk Java. Pendekatan ini tidak hanya menyederhanakan penanganan kumpulan data yang kompleks tetapi juga meningkatkan fleksibilitas proses manajemen data Anda.
 
 Untuk penjelajahan lebih jauh, pertimbangkan untuk mendalami fitur Aspose.Cells yang lebih canggih atau bereksperimen dengan berbagai jenis struktur data.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

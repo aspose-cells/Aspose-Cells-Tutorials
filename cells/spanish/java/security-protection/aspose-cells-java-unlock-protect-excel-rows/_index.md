@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ La incorporación de estas funciones en sistemas empresariales como soluciones E
 ## Consideraciones de rendimiento
 - **Optimizar el bucle**:Procese sólo las filas necesarias para conservar recursos.
 - **Gestión de la memoria**:Liberar objetos del libro de trabajo inmediatamente después de su uso.
-- **Eficiencia de Aspose.Cells**:Utilice las API eficientes de Aspose para manejar grandes conjuntos de datos sin caídas significativas en el rendimiento.
+- **Eficiencia de Aspose.Cells**Utilice las API eficientes de Aspose para manejar grandes conjuntos de datos sin caídas significativas en el rendimiento.
 
 ## Conclusión
 Aprendió a desbloquear y proteger filas de hojas de cálculo de Excel con Aspose.Cells para Java. Estas habilidades son vitales para mantener la integridad y seguridad de los datos en sus aplicaciones. Experimente con diferentes tipos de protección y explore funciones adicionales, como el formato condicional y la manipulación de gráficos, disponibles en la biblioteca.
@@ -180,6 +182,9 @@ A5: La prueba gratuita permite el acceso completo, pero añade una marca de agua
 - **Apoyo**:Visite el [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9) Para cualquier duda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

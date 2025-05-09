@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득 단계:
 1. **무료 체험**: Aspose는 라이브러리의 기능을 탐색할 수 있는 무료 체험판을 제공합니다.
 2. **임시 면허**: 평가 제한 없이 장기 액세스를 위한 임시 라이선스를 요청하세요.
-3. **구입**: 전체 라이센스 구매를 고려하세요 [Aspose 구매](https://purchase.aspose.com/buy) 장기간 사용을 위해.
+3. **구입**: 전체 라이센스 구매를 고려하세요. [Aspose 구매](https://purchase.aspose.com/buy) 장기간 사용을 위해.
 
 #### 기본 초기화 및 설정:
 종속성을 추가한 후 다음 예제를 사용하여 애플리케이션에서 Aspose.Cells를 초기화합니다.
@@ -186,6 +188,9 @@ A5: 다양한 플랫폼 지원과 광범위한 문서화 등 강력한 기능을
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

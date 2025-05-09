@@ -1,43 +1,48 @@
 ---
-title: Excel에서 Aspose.Cells와 수평 텍스트 조율
-weight: 7700
-limit: 
-description: 간단한 예로 .NET에 대한 Aspose.Cells을 사용하여 Excel 셀에서 텍스트를 수평으로 조정하는 방법을 배우십시오.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /ko/net/formatting/text-alignment-horizontal/
+"description": "간단한 예제를 통해 Aspose.Cells for .NET을 사용하여 Excel 셀의 텍스트를 수평으로 정렬하는 방법을 알아봅니다."
+"title": "Aspose.Cells를 사용한 Excel의 가로 텍스트 정렬"
+"url": "/ko/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel에서 Aspose.Cells와 수평 텍스트 조율
+# Aspose.Cells를 사용한 Excel의 가로 텍스트 정렬
 
-이 예제에서는 Excel 파일을 생성하고 특정 셀에 수평 텍스트 조화를 설정하는 데 .NET에 대한 Aspose.Cells을 사용하는 방법을 보여줍니다. 이 튜토리얼은 작업 책자를 초기화하고, 세포의 특성을 수정하고, 파일을 Excel 97-2003 형식으로 저장하는 데 안내합니다. Aspose.Cells를 사용하여 Excel 파일 조작 기술을 향상시키고자 하는 개발자에게 적합합니다.
+이 예제는 Aspose.Cells for .NET을 사용하여 Excel 파일을 만들고 특정 셀에 가로 텍스트 정렬을 설정하는 방법을 보여줍니다. 이 자습서에서는 통합 문서 초기화, 셀 속성 수정, Excel 97-2003 형식으로 파일 저장 방법을 안내합니다. Aspose.Cells를 사용하여 Excel 파일 조작 능력을 향상시키고자 하는 개발자에게 적합합니다.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 설치 지침
-1. .NET에서 Aspose.Cells를 다운로드하여 설치합니다.[Aspose 발매 페이지](https://releases.aspose.com/cells/net/)\- 그래  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
-3. Aspose.Cells을 설치하기 위해 NuGet 패키지 관리자를 사용하십시오:  
+1. Aspose.Cells for .NET을 다운로드하고 설치하세요. [Aspose 릴리스 페이지](https://releases.aspose.com/cells/net/).  
+2. C# 프로젝트에 Aspose.Cells.dll에 대한 참조를 추가합니다.  
+3. NuGet 패키지 관리자를 사용하여 Aspose.Cells를 설치하세요.  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. C# 파일에 필요한 네임스페이스를 가져옵니다.  
    ```csharp
    using Aspose.Cells;
    ```
 
-## 또한 참조  
-라이선스를 구매하려면[구매 페이지를 설정](https://purchase.aspose.com/buy)\- 그래  
-전체 문서 를 보기 위해 방문 하십시오 [.NET 문서에 대한 Aspose.Cells](https://docs.aspose.com/cells/net/)\- 그래  
-전체 API 참조를 확인하려면 확인합니다 [.NET API 참조의 Aspose.Cells](https://reference.aspose.com/cells/net/)\- 그래 
+## 또한 참조하세요  
+라이센스를 구매하려면 다음으로 이동하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).  
+전체 문서는 다음을 방문하세요. [.NET용 Aspose.Cells 문서](https://docs.aspose.com/cells/net/).  
+전체 API 참조를 살펴보려면 다음을 확인하세요. [.NET API 참조용 Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

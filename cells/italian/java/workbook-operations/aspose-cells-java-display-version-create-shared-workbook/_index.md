@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,9 +131,9 @@ public class CreateSharedWorkbook {
 
 ## Applicazioni pratiche
 
-Esplora questi casi d'uso in cui Aspose.Cells per Java può davvero dare il meglio di sé:
+Scopri questi casi d'uso in cui Aspose.Cells per Java può davvero dare il meglio di sé:
 
-1. **Reporting finanziario collaborativo:** Consenti a più parti interessate di modificare contemporaneamente i report finanziari.
+1. **Rendicontazione finanziaria collaborativa:** Consenti a più parti interessate di modificare contemporaneamente i report finanziari.
 2. **Dashboard di gestione dei progetti:** Consentire ai membri del team di aggiornare lo stato del progetto in tempo reale.
 3. **Sistemi di tracciamento dell'inventario:** Consentire aggiornamenti simultanei sui livelli di inventario da parte di diversi reparti.
 
@@ -175,6 +177,9 @@ A: Visita il [Forum di Aspose](https://forum.aspose.com/c/cells/9) per ricevere 
 Seguendo questa guida, sarai ora in grado di integrare e utilizzare in modo efficiente Aspose.Cells per Java nei tuoi progetti. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

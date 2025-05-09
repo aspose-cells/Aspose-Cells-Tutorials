@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,7 +185,7 @@ class Person {
 }
 ```
 
-- **カスタムクラスを使用する理由** データを効率的に整理し、大規模なアプリケーションでの管理と拡張を容易にします。
+- **カスタム クラスを使用する理由** データを効率的に整理し、大規模なアプリケーションでの管理と拡張を容易にします。
 
 ## 実用的なアプリケーション
 
@@ -208,6 +210,9 @@ Aspose.Cells を使用して大規模なデータセットや多数の画像を�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
 #### Etapy uzyskania licencji
-- **Bezpłatna wersja próbna**:Pobierz wersję próbną, aby przetestować funkcje.
+- **Bezpłatna wersja próbna**:Pobierz pakiet próbny, aby przetestować funkcje.
 - **Licencja tymczasowa**:Zdobądź wersję do długotrwałego użytkowania bez ograniczeń.
 - **Zakup**:Kup licencję do użytku komercyjnego z pełnym wsparciem.
 
@@ -96,7 +98,7 @@ Poniższy kod przechodzi przez wszystkie kolumny (do 255) i odblokowuje je:
 ```java
 // Utwórz nowy skoroszyt.
 Workbook wb = new Workbook();
-// Pobierz pierwszą kartkę z zeszytu ćwiczeń.
+// Pobierz pierwszą arkusz z zeszytu ćwiczeń.
 Worksheet sheet = wb.getWorksheets().get(0);
 
 // Zdefiniuj obiekty stylu i flagi stylu.
@@ -133,7 +135,7 @@ Ten fragment kodu blokuje tylko pierwszą kolumnę w arkuszu kalkulacyjnym:
 ```java
 // Utwórz nowy skoroszyt.
 Workbook wb = new Workbook();
-// Pobierz pierwszą kartkę z zeszytu ćwiczeń.
+// Pobierz pierwszą arkusz z zeszytu ćwiczeń.
 Worksheet sheet = wb.getWorksheets().get(0);
 
 // Pobierz styl pierwszej kolumny i zablokuj go.
@@ -162,7 +164,7 @@ Aby zabezpieczyć cały arkusz kalkulacyjny, użyj:
 ```java
 // Utwórz nowy skoroszyt.
 Workbook wb = new Workbook();
-// Pobierz pierwszą kartkę z zeszytu ćwiczeń.
+// Pobierz pierwszą arkusz z zeszytu ćwiczeń.
 Worksheet sheet = wb.getWorksheets().get(0);
 
 // Chroń arkusz kalkulacyjny za pomocą wszystkich typów zabezpieczeń.
@@ -223,6 +225,9 @@ Dzięki opanowaniu Aspose.Cells for Java nauczyłeś się, jak skutecznie odblok
 - [Bezpłatny pakiet próbny](#)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validação de dados para segurança
@@ -135,7 +137,7 @@ Em uma era em que os dados são reis, protegê-los não é uma opção, mas uma 
 
 ### O que é validação de dados?
 
-A validação de dados é um processo que garante que os dados inseridos em um sistema atendam a determinados critérios antes de serem aceitos.
+validação de dados é um processo que garante que os dados inseridos em um sistema atendam a determinados critérios antes de serem aceitos.
 
 ### Por que a validação de dados é importante?
 
@@ -156,6 +158,7 @@ Técnicas avançadas incluem listas suspensas em cascata e uso de fórmulas para
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

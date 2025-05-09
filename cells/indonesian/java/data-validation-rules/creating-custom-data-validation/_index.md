@@ -8,21 +8,23 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Membuat Validasi Data Kustom
 
 
-## Perkenalan
+## Bevezetés
 
 Validasi data membantu menjaga integritas data dengan mencegah pengguna memasukkan data yang salah atau tidak valid ke dalam lembar kerja Excel. Meskipun Excel menawarkan opsi validasi data bawaan, ada beberapa skenario di mana Anda perlu menentukan aturan validasi khusus. Aspose.Cells untuk Java memungkinkan Anda mencapainya secara efisien.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kode, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.Cells untuk Java: Unduh dan instal pustaka dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal pustaka dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
 
@@ -87,15 +89,15 @@ Terakhir, simpan file Excel dengan aturan validasi data khusus yang diterapkan.
 workbook.save("CustomDataValidation.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah mempelajari cara membuat aturan validasi data kustom menggunakan Aspose.Cells untuk Java. Dengan mengikuti langkah-langkah ini, Anda dapat memastikan bahwa data Excel Anda mematuhi kriteria tertentu, sehingga meningkatkan integritas dan akurasi data.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
-Anda dapat mengunduh Aspose.Cells untuk Java dari situs web di [Di Sini](https://releases.aspose.com/cells/java/).
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web di [itt](https://releases.aspose.com/cells/java/).
 
 ### Dapatkah saya menerapkan validasi data khusus ke beberapa rentang di lembar kerja yang sama?
 
@@ -116,6 +118,7 @@ Ya, Aspose.Cells untuk Java mendukung berbagai format file Excel, termasuk XLS, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

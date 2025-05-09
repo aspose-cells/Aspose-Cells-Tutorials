@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,8 +59,8 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Om Aspose.Cells voor Java te gebruiken, kunt u beginnen met een gratis proefperiode om de functies te verkennen. Voor langdurig gebruik kunt u een tijdelijke of volledige licentie overwegen:
 
-- **Gratis proefperiode**Download de nieuwste versie van [Aspose-releases](https://releases.aspose.com/cells/java/).
-- **Tijdelijke licentie**Vraag een tijdelijke licentie aan bij [Aspose Aankoop](https://purchase.aspose.com/temporary-license/).
+- **Gratis proefperiode**: Download de nieuwste versie van [Aspose-releases](https://releases.aspose.com/cells/java/).
+- **Tijdelijke licentie**: Vraag een tijdelijke licentie aan bij [Aspose Aankoop](https://purchase.aspose.com/temporary-license/).
 - **Aankoop**: Voor commercieel gebruik kunt u een licentie rechtstreeks via [Aspose Aankoop](https://purchase.aspose.com/buy).
 
 Zodra de bibliotheek is ingesteld, kunt u beginnen met coderen.
@@ -218,6 +220,9 @@ A: Krijg er toegang toe via `getWorksheets().get(index)` met de gewenste index.
 A: Ja, optimaliseer de code door het aanmaken van objecten binnen lussen te minimaliseren en bewaak het geheugengebruik om lekken te voorkomen. Gebruik de efficiënte datastructuren van Aspose.Cells voor betere prestaties.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

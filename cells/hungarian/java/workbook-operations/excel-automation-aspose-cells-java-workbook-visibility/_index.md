@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ public class CreateWorkbook {
         // Új munkafüzet példányosítása
         Workbook workbook = new Workbook();
         
-        // A munkafüzet első munkalapjának lekérése
+        // munkafüzet első munkalapjának lekérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         System.out.println("Worksheet accessed successfully!");
@@ -213,7 +215,7 @@ Mostanra már alaposan ismernie kell az Excel-munkafüzetek létrehozásának é
    - Használjon streaming API-kat és kezelje a memóriát az objektumok megfelelő megsemmisítésével.
 
 5. **Van elérhető támogatás a hibaelhárításhoz?**
-   - Az Aspose egy [támogatási fórum](https://forum.aspose.com/c/cells/9) ahol kérdéseket tehetsz fel és segítséget kaphatsz a közösségtől és a fejlesztőktől.
+   - Az Aspose egy [támogató fórum](https://forum.aspose.com/c/cells/9) ahol kérdéseket tehetsz fel és segítséget kaphatsz a közösségtől és a fejlesztőktől.
 
 ## Erőforrás
 - [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
@@ -226,6 +228,9 @@ Most, hogy minden szükséges erőforrással és tudással rendelkezel, kezdd el
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

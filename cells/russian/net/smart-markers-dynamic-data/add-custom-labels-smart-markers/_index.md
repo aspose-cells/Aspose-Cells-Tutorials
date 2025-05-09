@@ -1,14 +1,16 @@
 ---
-title: Добавьте пользовательские метки с помощью смарт-маркеров в Aspose.Cells
-linktitle: Добавьте пользовательские метки с помощью смарт-маркеров в Aspose.Cells
-second_title: API обработки Excel Aspose.Cells .NET
-description: Откройте для себя мощь Aspose.Cells для .NET, чтобы добавлять пользовательские метки и интеллектуальные маркеры в документы Excel. Следуйте этому пошаговому руководству и создавайте динамичные, визуально привлекательные отчеты.
-weight: 10
-url: /ru/net/smart-markers-dynamic-data/add-custom-labels-smart-markers/
+"description": "Откройте для себя мощь Aspose.Cells для .NET, чтобы добавлять пользовательские метки и интеллектуальные маркеры в документы Excel. Следуйте этому пошаговому руководству и создавайте динамичные, визуально привлекательные отчеты."
+"linktitle": "Добавьте пользовательские метки с помощью смарт-маркеров в Aspose.Cells"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавьте пользовательские метки с помощью смарт-маркеров в Aspose.Cells"
+"url": "/ru/net/smart-markers-dynamic-data/add-custom-labels-smart-markers/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавьте пользовательские метки с помощью смарт-маркеров в Aspose.Cells
@@ -19,7 +21,7 @@ url: /ru/net/smart-markers-dynamic-data/add-custom-labels-smart-markers/
 ## Предпосылки
 Для прохождения этого урока вам понадобится следующее:
 1. Visual Studio: на вашем компьютере должна быть установлена версия Visual Studio, так как мы будем использовать ее для написания и выполнения примеров кода.
-2.  Aspose.Cells for .NET: Вам понадобится установить библиотеку Aspose.Cells for .NET в вашем проекте. Вы можете загрузить последнюю версию с[Документация Aspose.Cells для .NET](https://reference.aspose.com/cells/net/) или используйте[Менеджер пакетов NuGet](https://www.nuget.org/packages/Aspose.Cells/) для его установки.
+2. Aspose.Cells for .NET: Вам необходимо установить библиотеку Aspose.Cells for .NET в вашем проекте. Вы можете загрузить последнюю версию с [Документация Aspose.Cells для .NET](https://reference.aspose.com/cells/net/) или используйте [Менеджер пакетов NuGet](https://www.nuget.org/packages/Aspose.Cells/) для его установки.
 ## Импортные пакеты
 Прежде чем погрузиться в код, давайте начнем с импорта необходимых пакетов:
 ```csharp
@@ -41,41 +43,41 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 Workbook designer = new Workbook(dataDir + "SmartMarker_Designer.xlsx");
 ```
- В этом примере мы предполагаем, что у вас есть два файла Excel:`Book1.xlsx` и`SmartMarker_Designer.xlsx` .`Book1.xlsx` файл содержит смарт-маркеры, которые вы хотите использовать, и`SmartMarker_Designer.xlsx` Файл — это рабочая книга, которую вы будете использовать для обработки смарт-маркеров.
+В этом примере мы предполагаем, что у вас есть два файла Excel: `Book1.xlsx` и `SmartMarker_Designer.xlsx`. `Book1.xlsx` файл содержит смарт-маркеры, которые вы хотите использовать, и `SmartMarker_Designer.xlsx` Файл — это рабочая книга, которую вы будете использовать для обработки смарт-маркеров.
 ## Шаг 2: Экспорт данных в таблицу данных
- Далее нам необходимо экспортировать данные с первого листа`workbook`в таблицу данных. Эта таблица данных будет использоваться для заполнения смарт-маркеров в рабочей книге дизайнера.
+Далее нам необходимо экспортировать данные с первого листа `workbook` в таблицу данных. Эта таблица данных будет использоваться для заполнения смарт-маркеров в рабочей книге дизайнера.
 ```csharp
 // Экспортируйте данные из первого рабочего листа для заполнения таблицы данных.
 DataTable dt = workbook.Worksheets[0].Cells.ExportDataTable(0, 0, 11, 5, true);
 // Задайте имя таблицы
 dt.TableName = "Report";
 ```
- В этом примере мы экспортируем данные с первого листа`workbook` и хранить его в`DataTable` объект. Мы также устанавливаем имя таблицы на «Отчет».
+В этом примере мы экспортируем данные с первого листа `workbook` и хранить его в `DataTable` объект. Мы также устанавливаем имя таблицы на «Отчет».
 ## Шаг 3: Создайте WorkbookDesigner и задайте источник данных
- Теперь мы создадим`WorkbookDesigner` объект и задайте источник данных для смарт-маркеров.
+Теперь мы создадим `WorkbookDesigner` объект и задайте источник данных для смарт-маркеров.
 ```csharp
 // Создать новый экземпляр WorkbookDesigner
 WorkbookDesigner d = new WorkbookDesigner();
-// Укажите рабочую книгу для дизайнерской книги
+// Укажите рабочую книгу для дизайнера книги
 d.Workbook = designer;
 // Установить источник данных
 d.SetDataSource(dt);
 ```
- На этом этапе мы создаем новый`WorkbookDesigner` объект и указание`designer` workbook как целевая workbook. Затем мы устанавливаем источник данных для смарт-маркеров с помощью`DataTable` мы создали на предыдущем шаге.
+На этом этапе мы создаем новый `WorkbookDesigner` объект и указание `designer` workbook как целевая workbook. Затем мы устанавливаем источник данных для смарт-маркеров с помощью `DataTable` мы создали на предыдущем шаге.
 ## Шаг 4: Обработка смарт-маркеров
 Теперь, когда мы настроили источник данных, мы можем обработать смарт-маркеры в рабочей книге дизайнера.
 ```csharp
 // Обработка смарт-маркеров
 d.Process();
 ```
-Эта строка кода заменит смарт-маркеры в рабочей книге дизайнера данными из`DataTable`.
+Эта строка кода заменит смарт-маркеры в рабочей книге дизайнера данными из `DataTable`.
 ## Шаг 5: Сохраните вывод
-Последний шаг — сохранение обработанной книги в новый файл.
+Последний шаг — сохранение обработанной книги в новом файле.
 ```csharp
 // Сохраните файл Excel.
 designer.Save(dataDir + "output.xlsx", SaveFormat.Xlsx);
 ```
- В этом примере мы сохраняем обработанную книгу в новый файл с именем «output.xlsx» в папке`dataDir` каталог.
+В этом примере мы сохраняем обработанную книгу в новый файл с именем «output.xlsx» в папке `dataDir` каталог.
 ## Заключение
 В этом руководстве вы узнали, как использовать Aspose.Cells для .NET для добавления пользовательских меток в документы Excel с помощью интеллектуальных маркеров. Следуя пошаговому руководству, вы теперь можете создавать динамические и визуально привлекательные отчеты, которые можно легко настраивать и обновлять по мере необходимости.
 ## Часто задаваемые вопросы
@@ -84,14 +86,16 @@ Aspose.Cells for .NET — это мощная библиотека, котора
 ### Могу ли я использовать Aspose.Cells для .NET в любом проекте .NET?
 Да, Aspose.Cells для .NET — это библиотека .NET Standard, что означает, что ее можно использовать в любом проекте .NET, включая приложения .NET Core, .NET Framework и Xamarin.
 ### Как установить Aspose.Cells для .NET?
- Вы можете установить Aspose.Cells для .NET с помощью менеджера пакетов NuGet в Visual Studio или загрузив последнюю версию с сайта[Документация Aspose.Cells для .NET](https://reference.aspose.com/cells/net/).
+Вы можете установить Aspose.Cells для .NET с помощью менеджера пакетов NuGet в Visual Studio или загрузив последнюю версию с сайта [Документация Aspose.Cells для .NET](https://reference.aspose.com/cells/net/).
 ### Могу ли я попробовать Aspose.Cells для .NET бесплатно?
- Да, Aspose.Cells для .NET предлагает[бесплатная пробная версия](https://releases.aspose.com/) что позволяет вам оценить возможности и функциональность библиотеки перед совершением покупки.
+Да, Aspose.Cells для .NET предлагает [бесплатная пробная версия](https://releases.aspose.com/) что позволяет вам оценить возможности и функциональность библиотеки перед совершением покупки.
 ### Где я могу найти дополнительную информацию и поддержку по Aspose.Cells для .NET?
- Вы можете найти[документация](https://reference.aspose.com/cells/net/) и[поддержка форума](https://forum.aspose.com/c/cells/9) для Aspose.Cells for .NET на сайте Aspose. Дополнительно вы можете приобрести[лицензия](https://purchase.aspose.com/buy) или[запросить временную лицензию](https://purchase.aspose.com/temporary-license/) если вам необходимо использовать библиотеку в коммерческом проекте.
+Вы можете найти [документация](https://reference.aspose.com/cells/net/) и [поддержка форума](https://forum.aspose.com/c/cells/9) для Aspose.Cells for .NET на сайте Aspose. Дополнительно можно приобрести [лицензия](https://purchase.aspose.com/buy) или [запросить временную лицензию](https://purchase.aspose.com/temporary-license/) если вам необходимо использовать библиотеку в коммерческом проекте.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ Esta línea recupera la primera hoja de trabajo del libro, lo que le permite rea
 #### Descripción general
 El ajuste automático de filas específicas mejora la legibilidad al ajustar su altura en función del contenido.
 
-**Paso 3: Ajustar filas automáticamente**
+**Paso 3: Ajuste automático de filas**
 ```java
 // Ajuste automático de filas a partir del índice 0 hasta el índice 5 inclusive para la fila en el índice 1
 worksheet.autoFitRow(1, 0, 5);
@@ -122,7 +124,7 @@ Este código guarda el libro de trabajo ajustado en un directorio de salida con 
 A continuación se muestran algunos escenarios del mundo real en los que el ajuste automático de filas puede resultar increíblemente útil:
 1. **Informes financieros**:Asegure la legibilidad de los estados financieros ajustando dinámicamente el tamaño de las filas en función de las entradas de datos detalladas.
 2. **Gestión de inventario**:Ajustar las listas de inventario para acomodar diferentes descripciones y cantidades, manteniendo una presentación limpia.
-3. **Planificación de proyectos**Mejore los diagramas de Gantt o las líneas de tiempo de proyectos donde las tareas tienen descripciones que abarcan varias líneas.
+3. **Planificación de proyectos**: Mejore los diagramas de Gantt o las líneas de tiempo de proyectos donde las tareas tienen descripciones que abarcan varias líneas.
 4. **Análisis de datos**:Optimice los paneles ajustando cuidadosamente las filas alrededor de comentarios o resultados de longitud variable.
 
 ## Consideraciones de rendimiento
@@ -163,6 +165,9 @@ Con estos recursos, podrás profundizar en las capacidades de Aspose.Cells para 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

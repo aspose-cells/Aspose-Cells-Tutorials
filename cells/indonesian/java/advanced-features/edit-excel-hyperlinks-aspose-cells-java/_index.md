@@ -7,33 +7,35 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Pengeditan Hyperlink dalam Spreadsheet Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 Mengelola hyperlink dalam lembar kerja Excel bisa menjadi tantangan, terutama saat menangani kumpulan data besar atau beberapa dokumen. Baik Anda perlu memperbarui tautan untuk alamat web baru atau memastikan konsistensi di seluruh file, solusi yang efisien sangatlah penting. Tutorial ini memandu Anda dalam menggunakan **Aspose.Cells untuk Java** untuk mengedit hyperlink dalam lembar kerja Excel secara efisien.
 
 Dalam panduan komprehensif ini, kami akan membahas cara:
-- Memuat buku kerja Excel
+- Excel-munkafüzet betöltése
 - Mengakses dan mengubah hyperlink dalam lembar kerja
 - Simpan dokumen yang diperbarui
 
 Dengan mengikuti tutorial ini, Anda akan menyederhanakan pengelolaan hyperlink dalam file Excel Anda menggunakan Aspose.Cells Java. Mari kita mulai dengan menyiapkan prasyaratnya.
 
-## Prasyarat
+## Előfeltételek
 Sebelum kita mulai, pastikan Anda telah menyiapkan pustaka dan lingkungan yang diperlukan:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal pada sistem Anda.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA, Eclipse, atau serupa.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang konsep pemrograman Java.
 - Kemampuan mengoperasikan file Excel dan hyperlink.
 
@@ -54,13 +56,13 @@ Untuk memulai Aspose.Cells, Anda perlu menyertakannya dalam proyek Anda. Berikut
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 Untuk menggunakan Aspose.Cells, Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara untuk tujuan evaluasi:
-- **Uji Coba Gratis:** Unduh dari [Pelepas Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Minta satu [Di Sini](https://purchase.aspose.com/temporary-license/) untuk membuka fitur lengkap tanpa batasan.
-- **Pembelian:** Untuk penggunaan komersial, beli lisensi di [Aspose Pembelian](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Letöltés innen [Pelepas Aspose](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Minta satu [itt](https://purchase.aspose.com/temporary-license/) untuk membuka fitur lengkap tanpa batasan.
+- **Vásárlás:** Untuk penggunaan komersial, beli lisensi di [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda:
 
 ```java
@@ -78,11 +80,11 @@ public class InitializeAsposeCells {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Sekarang, mari kita telusuri proses pengeditan hyperlink dalam lembar kerja Excel Anda menggunakan Aspose.Cells Java.
 
-### Memuat Buku Kerja
-Mulailah dengan memuat file Excel yang berisi hyperlink yang ingin Anda edit. Langkah ini melibatkan pembuatan file `Workbook` obyek:
+### A munkafüzet betöltése
+Mulailah dengan memuat file Excel yang berisi hyperlink yang ingin Anda edit. Langkah ini melibatkan pembuatan file `Workbook` objektum:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -96,7 +98,7 @@ public class LoadWorkbook {
         // Buka buku kerja yang ada dari jalur file yang ditentukan
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
-        // Akses lembar kerja pertama di buku kerja
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
     }
 }
@@ -130,36 +132,36 @@ public class EditHyperlinks {
 }
 ```
 
-#### Penjelasan Potongan Kode
+#### A kódrészletek magyarázata
 - **Akses Hyperlink:** `worksheet.getHyperlinks().get(i)` mengambil setiap objek hyperlink.
 - **Memperbarui Hyperlink:** `hl.setAddress("http://www.aspose.com")` mengubah tautan ke alamat baru.
 
-### Menyimpan Buku Kerja
+### A munkafüzet mentése
 Setelah mengedit, simpan buku kerja Anda untuk mempertahankan perubahan:
 
 ```java
-// Simpan buku kerja yang diperbarui
+// Mentse el a frissített munkafüzetet
 dataDir + "EHOfWorksheet_out.xlsx";
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut adalah beberapa skenario dunia nyata di mana Anda mungkin menerapkan pengeditan hyperlink dengan Aspose.Cells Java:
 1. **Memperbarui Tautan Web:** Perbarui URL lama secara otomatis dalam laporan perusahaan atau dokumen keuangan.
 2. **Konsistensi di Seluruh Dokumen:** Standarisasi hyperlink di beberapa file Excel untuk menjaga konsistensi dalam pencitraan merek atau keakuratan informasi.
-3. **Integrasi Data:** Memfasilitasi integrasi dengan memperbarui tautan yang mengarah ke basis data internal atau API eksternal.
+3. **Adatintegráció:** Memfasilitasi integrasi dengan memperbarui tautan yang mengarah ke basis data internal atau API eksternal.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk kinerja optimal, pertimbangkan kiat-kiat berikut saat bekerja dengan Aspose.Cells:
-- **Manajemen Memori yang Efisien:** Menggunakan `try-with-resources` untuk manajemen sumber daya otomatis dan menutup buku kerja dengan segera.
-- **Pemrosesan Batch:** Memproses berkas secara bertahap, jangan satu per satu, untuk mengurangi biaya overhead.
+- **Hatékony memóriakezelés:** Használat `try-with-resources` untuk manajemen sumber daya otomatis dan menutup buku kerja dengan segera.
+- **Kötegelt feldolgozás:** Memproses berkas secara bertahap, jangan satu per satu, untuk mengurangi biaya overhead.
 - **Penanganan Data yang Dioptimalkan:** Minimalkan jumlah operasi dalam loop untuk meningkatkan kinerja.
 
-## Kesimpulan
+## Következtetés
 Mengedit hyperlink di Excel dengan Aspose.Cells Java menyederhanakan pengelolaan tautan dokumen secara efisien. Dengan mengikuti panduan ini, Anda telah mempelajari cara memuat buku kerja, memodifikasi hyperlink, dan menyimpan perubahan Anda—semuanya terintegrasi dengan lancar ke dalam aplikasi Java Anda.
 
-Siap untuk mempraktikkan keterampilan ini? Jelajahi fitur yang lebih canggih dengan mempelajari lebih dalam [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+Siap untuk mempraktikkan keterampilan ini? Jelajahi fitur yang lebih canggih dengan mempelajari lebih dalam [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 
-## Bagian FAQ
+## GYIK szekció
 **Q1: Bisakah saya mengedit beberapa lembar kerja sekaligus?**
 A1: Ya, ulangi terus `workbook.getWorksheets()` dan menerapkan perubahan hyperlink ke setiap lembar kerja.
 
@@ -175,17 +177,20 @@ A4: Ya, Aspose.Cells tersedia untuk .NET, C++, dan lainnya. Lihat [situs web res
 **Q5: Bagaimana saya dapat memastikan lisensi saya tetap aktif saat menggunakan Aspose.Cells?**
 A5: Periksa status langganan Anda secara berkala di dasbor Aspose dan perbarui atau perbarui lisensi Anda bila diperlukan.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** Mulailah dengan uji coba gratis di [Unduhan Aspose](https://releases.aspose.com/cells/java/)
-- **Pembelian:** Beli lisensi untuk penggunaan komersial [Di Sini](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** Akses pustaka Java Aspose.Cells dari [halaman rilis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** Minta lisensi sementara untuk akses fitur lengkap di [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** Mulailah dengan uji coba gratis di [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** Beli lisensi untuk penggunaan komersial [itt](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** Akses pustaka Java Aspose.Cells dari [a kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** Minta lisensi sementara untuk akses fitur lengkap di [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
-Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan dukungan, kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
+Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan dukungan, kunjungi [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

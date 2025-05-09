@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 
 이 강력한 기능을 설정하고 구현하는 방법을 자세히 살펴보겠습니다. 필요한 사전 요구 사항을 충족하는지 확인하세요.
 ## 필수 조건
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 - **자바 개발 키트(JDK):** 버전 8 이상
 - **Java용 Aspose.Cells:** 라이브러리 버전 25.3 이상
 - Java 프로그래밍 및 Excel 파일 조작에 대한 기본 지식
@@ -118,6 +120,9 @@ Aspose.Cells를 사용하여 Java에서 워크시트의 최대 표시 범위에 
 - **지원 포럼:** [Aspose 지원 커뮤니티](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Создать диаграмму PDF с желаемым размером страницы
-linktitle: Создать диаграмму PDF с желаемым размером страницы
-second_title: API обработки Excel Aspose.Cells .NET
-description: Создайте PDF с вашей диаграммой Excel с помощью Aspose.Cells для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства.
-weight: 12
-url: /ru/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": "Создайте PDF с вашей диаграммой Excel с помощью Aspose.Cells для .NET. Узнайте, как это сделать, с помощью этого пошагового руководства."
+"linktitle": "Создать диаграмму PDF с желаемым размером страницы"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Создать диаграмму PDF с желаемым размером страницы"
+"url": "/ru/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать диаграмму PDF с желаемым размером страницы
@@ -27,11 +29,11 @@ url: /ru/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-s
 
 ### Aspose.Cells для .NET
 
-Убедитесь, что у вас установлен Aspose.Cells for .NET. Все подробности вы можете найти на[Документация Aspose.Cells](https://reference.aspose.com/cells/net/). 
+Убедитесь, что у вас установлен Aspose.Cells for .NET. Все подробности вы можете найти на [Документация Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 ### Среда разработки
 
- Настройте среду разработки. Это может быть Visual Studio или любая другая IDE, поддерживающая C#. Загрузите и установите библиотеку Aspose.Cells из[страница загрузки](https://releases.aspose.com/cells/net/).
+Настройте среду разработки. Это может быть Visual Studio или любая другая IDE, поддерживающая C#. Загрузите и установите библиотеку Aspose.Cells из [страница загрузки](https://releases.aspose.com/cells/net/).
 
 ### Образец файла Excel
 
@@ -77,7 +79,7 @@ string sourceDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
- The`Workbook` class играет центральную роль во взаимодействии с вашим документом Excel. Убедитесь, что путь правильно указывает на ваш файл Excel — ошибка здесь не позволит выполнить остальной код.
+The `Workbook` class играет центральную роль во взаимодействии с вашим документом Excel. Убедитесь, что путь правильно указывает на ваш файл Excel — ошибка здесь не позволит выполнить остальной код.
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -88,7 +90,7 @@ Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.
 Worksheet ws = wb.Worksheets[0];
 ```
 
- В Aspose.Cells рабочие листы индексируются, начиная с нуля, поэтому`Worksheets[0]` относится к первому листу.
+В Aspose.Cells рабочие листы индексируются, начиная с нуля, поэтому `Worksheets[0]` относится к первому листу.
 
 ## Шаг 4: Получите доступ к первой диаграмме
 
@@ -112,7 +114,7 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 
 В этом коде:
 - PDF-файл будет сохранен в указанном вами ранее выходном каталоге.
--  Цифры`7, 7` представляют собой ширину и высоту желаемого размера страницы соответственно.
+- Цифры `7, 7` представляют собой ширину и высоту желаемого размера страницы соответственно.
 - PageLayoutAlignmentType.Center обеспечивает центрирование диаграммы на странице.
 
 ## Шаг 6: Подтверждающее сообщение
@@ -135,19 +137,21 @@ Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 Aspose.Cells для .NET используется для программного создания, редактирования и преобразования документов Excel в приложениях .NET.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?  
- Да, Aspose.Cells предлагает[бесплатная пробная версия](https://releases.aspose.com/) для целей оценки.
+Да, Aspose.Cells предлагает [бесплатная пробная версия](https://releases.aspose.com/) для целей оценки.
 
 ### Есть ли возможность продлить пробный период сверх первоначального?  
- Вы можете подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенного тестирования.
+Вы можете подать заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенного тестирования.
 
 ### Что делать, если у меня возникнут проблемы или вопросы?  
- Вы можете обратиться за помощью к сообществу Aspose на их сайте[форум поддержки](https://forum.aspose.com/c/cells/9).
+Вы можете обратиться за помощью к сообществу Aspose на их сайте [форум поддержки](https://forum.aspose.com/c/cells/9).
 
 ### Как я могу приобрести Aspose.Cells?  
- Вы можете купить Aspose.Cells у[страница покупки](https://purchase.aspose.com/buy).
+Вы можете купить Aspose.Cells у [страница покупки](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

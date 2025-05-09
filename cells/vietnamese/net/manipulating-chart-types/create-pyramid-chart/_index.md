@@ -1,14 +1,16 @@
 ---
-title: Tạo biểu đồ kim tự tháp
-linktitle: Tạo biểu đồ kim tự tháp
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách dễ dàng tạo biểu đồ kim tự tháp trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc trực quan hóa dữ liệu.
-weight: 13
-url: /vi/net/manipulating-chart-types/create-pyramid-chart/
+"description": "Tìm hiểu cách dễ dàng tạo biểu đồ kim tự tháp trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc trực quan hóa dữ liệu."
+"linktitle": "Tạo biểu đồ kim tự tháp"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo biểu đồ kim tự tháp"
+"url": "/vi/net/manipulating-chart-types/create-pyramid-chart/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo biểu đồ kim tự tháp
@@ -25,13 +27,13 @@ Trước khi khám phá thế giới thú vị của biểu đồ kim tự tháp
 Bạn nên có hiểu biết cơ bản về phát triển C# và .NET. Sự quen thuộc với môi trường Visual Studio cũng sẽ có lợi.
 
 ### Aspose.Cells cho thư viện .NET
- Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống trực tiếp từ[Trang phát hành Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/)Thực hiện theo hướng dẫn cài đặt hoặc sử dụng NuGet Package Manager để dễ dàng kết hợp nó vào dự án của bạn.
+Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống trực tiếp từ [Trang phát hành Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/). Thực hiện theo hướng dẫn cài đặt hoặc sử dụng NuGet Package Manager để dễ dàng kết hợp vào dự án của bạn.
 
 ### Studio trực quan
 Nên cài đặt Visual Studio để mã hóa chương trình ví dụ của chúng tôi. 
 
 ### Cấp phép (Tùy chọn)
- Trong khi bạn có thể thử nghiệm với bản dùng thử miễn phí có sẵn thông qua[Liên kết dùng thử miễn phí](https://releases.aspose.com/) , để sử dụng cho mục đích sản xuất, hãy cân nhắc đến việc truy cập[Mua liên kết](https://purchase.aspose.com/buy) hoặc lựa chọn giấy phép tạm thời từ[Liên kết Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Trong khi bạn có thể thử nghiệm với bản dùng thử miễn phí có sẵn thông qua [Liên kết dùng thử miễn phí](https://releases.aspose.com/), để sử dụng cho mục đích sản xuất, hãy cân nhắc đến việc truy cập [Mua liên kết](https://purchase.aspose.com/buy) hoặc lựa chọn giấy phép tạm thời từ [Liên kết Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 Bây giờ mọi thứ đã sẵn sàng, chúng ta hãy cùng bắt tay vào làm thôi!
 
@@ -62,7 +64,7 @@ Trước tiên, chúng ta cần xác định nơi lưu tệp đầu ra (tệp Ex
 string outputDir = "Your Output Directory";
 ```
 
- Hãy chắc chắn thay thế`"Your Output Directory"` với đường dẫn hợp lệ trên máy tính của bạn. Đường dẫn này là nơi tệp Excel bạn tạo sẽ được lưu.
+Hãy chắc chắn thay thế `"Your Output Directory"` với đường dẫn hợp lệ trên máy tính của bạn. Đường dẫn này là nơi tệp Excel bạn tạo sẽ được lưu.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -84,7 +86,7 @@ Mỗi sổ làm việc chứa ít nhất một trang tính. Ở đây chúng ta 
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Bằng cách tham khảo`Worksheets[0]`, chúng ta sẽ tương tác trực tiếp với trang tính đầu tiên, nơi chúng ta sẽ thêm dữ liệu và biểu đồ.
+Bằng cách tham khảo `Worksheets[0]`, chúng ta sẽ tương tác trực tiếp với trang tính đầu tiên, nơi chúng ta sẽ thêm dữ liệu và biểu đồ.
 
 ## Bước 4: Thêm dữ liệu mẫu vào ô
 
@@ -111,7 +113,7 @@ Bây giờ, chúng ta hãy thêm biểu đồ kim tự tháp. Đây chính là n
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pyramid, 5, 0, 25, 10);
 ```
 
- Trong dòng này, chúng tôi chỉ định loại biểu đồ là`Pyramid` và xác định vị trí của nó trong bảng tính bằng cách sử dụng các chỉ mục hàng và cột. Điều này giống như việc đóng khung một bức tranh trên tường của bạn – bạn cần chọn nơi nó trông đẹp nhất!
+Trong dòng này, chúng tôi chỉ định loại biểu đồ là `Pyramid` và xác định vị trí của nó trong bảng tính bằng cách sử dụng các chỉ mục hàng và cột. Điều này giống như việc đóng khung một bức tranh trên tường của bạn – bạn cần chọn nơi nó trông đẹp nhất!
 
 ## Bước 6: Truy cập Biểu đồ mới được thêm vào
 
@@ -144,7 +146,7 @@ Cuối cùng, đã đến lúc lưu kiệt tác của chúng ta. Hãy ghi sổ l
 workbook.Save(outputDir + "outputHowToCreatePyramidChart.xlsx");
 ```
 
- Hành động này sẽ tạo một tệp Excel có tên`outputHowToCreatePyramidChart.xlsx` trong thư mục đầu ra bạn chỉ định.
+Hành động này sẽ tạo một tệp Excel có tên `outputHowToCreatePyramidChart.xlsx` trong thư mục đầu ra bạn chỉ định.
 
 ## Bước 9: Xác nhận bảng điều khiển
 
@@ -175,10 +177,12 @@ Bạn có thể tạo nhiều loại biểu đồ khác nhau, bao gồm biểu �
 Đảm bảo bạn đã thiết lập các công cụ phát triển .NET như Visual Studio trên máy của mình để có thể làm việc với Aspose.Cells một cách liền mạch.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

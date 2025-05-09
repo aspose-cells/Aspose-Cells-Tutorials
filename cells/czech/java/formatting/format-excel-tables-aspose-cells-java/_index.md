@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Naučili jste se, jak nastavit a používat Aspose.Cells pro Javu k vytváření
 Začněte tyto techniky implementovat ve svých projektech a podívejte se, jak Aspose.Cells dokáže transformovat vaše úkoly správy dat v Excelu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

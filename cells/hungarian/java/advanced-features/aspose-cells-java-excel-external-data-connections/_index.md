@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,14 +59,14 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Licencbeszerzés lépései
 - **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval, hogy felfedezhesse a könyvtár lehetőségeit.
 - **Ideiglenes engedély**: Szerezzen be ideiglenes engedélyt meghosszabbított tesztelésre.
-- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását.
+- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni a licenc megvásárlását.
 
 **Alapvető inicializálás és beállítás**
 Miután hozzáadtad a függőséget, inicializálhatod az Aspose.Cells-t a Java alkalmazásodban:
 ```java
 import com.aspose.cells.Workbook;
 
-// Excel munkafüzet betöltése
+// Excel-munkafüzet betöltése
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
@@ -195,6 +197,9 @@ Mostanra már jól felkészültnek kell lennie a külső adatkapcsolatok kezelé
 Kezdje el Excel adatkapcsolatainak integrálását és kezelését még ma az Aspose.Cells for Java segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

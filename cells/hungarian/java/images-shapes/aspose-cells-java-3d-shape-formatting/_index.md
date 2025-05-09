@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ Shape shape = worksheet.getShapes().get(0);
 ```
 **Magyarázat**: 
 - `getWorksheets().get(0)` eléri az első munkalapot.
-- `getShapes().get(0)` lekéri az adott munkalap első alakzatát.
+- `getShapes().get(0)` lekéri az első alakzatot az adott munkalapon.
 
 ### ThreeDFramat beállítások alkalmazása
 A vizuális megjelenés fokozása érdekében alkalmazzon háromdimenziós formázást:
@@ -171,6 +173,9 @@ Használd ki az Aspose.Cells Java erejét, hogy átalakítsd Excel adatprezentá
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ A: Ja, es werden mehrere JDK-Versionen unterstützt. Stellen Sie die Kompatibili
 Nutzen Sie noch heute die Leistungsfähigkeit von Aspose.Cells für Java, um Ihre Excel-Datenmanipulationsaufgaben zu verbessern!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

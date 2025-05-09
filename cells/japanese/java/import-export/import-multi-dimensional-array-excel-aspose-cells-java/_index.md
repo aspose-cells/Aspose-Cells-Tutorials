@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 - **ファイルパスの問題**ディレクトリが正しく定義され、アクセス可能であることを確認します。
 - **ライブラリの競合**バージョンの競合や依存関係の不足がないか確認します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 この機能が役立つ実用的なシナリオをいくつか紹介します。
 1. **財務報告**トランザクション データを Excel に自動的にインポートし、分析および視覚化します。
@@ -157,6 +159,9 @@ Aspose.Cells for Java を使用して、多次元配列から Excel ワークシ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

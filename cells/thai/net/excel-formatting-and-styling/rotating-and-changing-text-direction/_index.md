@@ -1,14 +1,16 @@
 ---
-title: การหมุนและการเปลี่ยนแปลงทิศทางข้อความใน Excel
-linktitle: การหมุนและการเปลี่ยนแปลงทิศทางข้อความใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: แปลงทิศทางข้อความใน Excel ด้วย Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อหมุนและปรับข้อความได้อย่างง่ายดาย
-weight: 22
-url: /th/net/excel-formatting-and-styling/rotating-and-changing-text-direction/
+"description": "แปลงทิศทางข้อความใน Excel ด้วย Aspose.Cells สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อหมุนและปรับข้อความได้อย่างง่ายดาย"
+"linktitle": "การหมุนและการเปลี่ยนแปลงทิศทางข้อความใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การหมุนและการเปลี่ยนแปลงทิศทางข้อความใน Excel"
+"url": "/th/net/excel-formatting-and-styling/rotating-and-changing-text-direction/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การหมุนและการเปลี่ยนแปลงทิศทางข้อความใน Excel
@@ -18,8 +20,8 @@ url: /th/net/excel-formatting-and-styling/rotating-and-changing-text-direction/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเจาะลึกในส่วนของการเขียนโค้ด ให้แน่ใจว่าคุณมีบางสิ่งที่พร้อมแล้ว:
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนคอมพิวเตอร์ของคุณแล้ว ไลบรารี Aspose.Cells ทำงานได้ดีกับมัน
-2.  ไลบรารี Aspose.Cells: คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์](https://releases.aspose.com/cells/net/).
-3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามบทช่วยสอนได้ง่ายขึ้น
+2. ไลบรารี Aspose.Cells: คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์](https://releases-aspose.com/cells/net/).
+3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะทำให้คุณทำตามบทช่วยสอนได้ง่ายขึ้น
 4. .NET Framework: ตรวจสอบให้แน่ใจว่าโครงการของคุณกำหนดเป้าหมายไปที่ .NET Framework เนื่องจาก Aspose.Cells ได้รับการออกแบบให้ทำงานภายในสภาพแวดล้อมนั้น
 เมื่อคุณมีข้อกำหนดเบื้องต้นทั้งหมดพร้อมแล้ว คุณก็พร้อมที่จะเริ่มต้นได้เลย!
 ## แพ็คเกจนำเข้า
@@ -31,7 +33,7 @@ url: /th/net/excel-formatting-and-styling/rotating-and-changing-text-direction/
 - คลิกขวาที่โครงการใน Solution Explorer และเลือกจัดการแพ็คเกจ NuGet
 - ค้นหา Aspose.Cells และติดตั้ง
 ### นำเข้าเนมสเปซที่จำเป็น
- ตอนนี้ถึงเวลาที่จะนำเนมสเปซที่จำเป็นเข้ามา ที่ด้านบนของ`Program.cs` ไฟล์ รวมถึงสิ่งต่อไปนี้:
+ตอนนี้ถึงเวลาที่จะนำเนมสเปซที่จำเป็นเข้ามา ที่ด้านบนของ `Program.cs` ไฟล์ รวมถึงสิ่งต่อไปนี้:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -48,7 +50,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-รหัสนี้กำหนดไดเรกทอรีสำหรับบันทึกไฟล์ Excel โดยจะตรวจสอบว่าไดเรกทอรีนั้นมีอยู่หรือไม่ และสร้างขึ้นใหม่หากไม่มี โปรดเปลี่ยนใหม่`"Your Document Directory"` ด้วยเส้นทางที่ถูกต้อง
+รหัสนี้จะตั้งค่าไดเรกทอรีสำหรับบันทึกไฟล์ Excel โดยจะตรวจสอบว่าไดเรกทอรีนั้นมีอยู่หรือไม่ และจะสร้างไดเรกทอรีนั้นขึ้นมาใหม่หากไม่มี โปรดเปลี่ยนใหม่ `"Your Document Directory"` ด้วยเส้นทางที่ถูกต้อง
 ## ขั้นตอนที่ 2: การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 ต่อไปเราจะสร้างเวิร์กบุ๊ก Excel ใหม่ นี่คือส่วนที่เราจะจัดการเซลล์ของเรา
 ```csharp
@@ -56,7 +58,7 @@ if (!IsExists)
 Workbook workbook = new Workbook();
 ```
 
- โดยการสร้าง`Workbook` วัตถุนั้น คุณจะเริ่มต้นด้วยไฟล์ Excel ใหม่ที่ว่างเปล่าซึ่งคุณสามารถแก้ไขได้
+โดยการสร้าง `Workbook` วัตถุนั้น คุณจะเริ่มต้นด้วยไฟล์ Excel ใหม่ที่ว่างเปล่าซึ่งคุณสามารถแก้ไขได้
 ## ขั้นตอนที่ 3: การรับข้อมูลอ้างอิงของแผ่นงาน
 ตอนนี้เข้าถึงแผ่นงานที่คุณต้องการทำการเปลี่ยนแปลง
 ```csharp
@@ -64,7 +66,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- การ`Worksheet` วัตถุหมายถึงเวิร์กชีตแรกในเวิร์กบุ๊กของคุณ คุณสามารถเข้าถึงชีตอื่น ๆ ได้โดยการเปลี่ยนดัชนี
+การ `Worksheet` วัตถุหมายถึงเวิร์กชีตแรกในเวิร์กบุ๊กของคุณ คุณสามารถเข้าถึงชีตอื่น ๆ ได้โดยการเปลี่ยนดัชนี
 ## ขั้นตอนที่ 4: การเข้าถึงเซลล์เฉพาะ
 มาเน้นที่เซลล์เฉพาะในกรณีนี้คือ "A1" 
 ```csharp
@@ -124,10 +126,12 @@ Aspose.Cells รองรับรูปแบบต่างๆ เช่น XL
 ### ฉันจำเป็นต้องติดตั้งอะไรอื่นนอกจาก Visual Studio หรือไม่?  
 ต้องเพิ่มเฉพาะไลบรารี Aspose.Cells ลงในโปรเจ็กต์ของคุณเท่านั้น
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Cells ได้จากที่ใด  
- คุณสามารถตรวจสอบได้[เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำที่ครอบคลุมและการอ้างอิง API
+คุณสามารถตรวจสอบได้ [เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำที่ครอบคลุมและการอ้างอิง API
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

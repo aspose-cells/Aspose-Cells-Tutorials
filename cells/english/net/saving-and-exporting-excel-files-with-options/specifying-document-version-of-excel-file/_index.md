@@ -8,7 +8,9 @@ url: /net/saving-and-exporting-excel-files-with-options/specifying-document-vers
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specifying Document Version of Excel File Programmatically in .NET
@@ -83,6 +85,7 @@ You can access community and support through the [Aspose.Cells support forum](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

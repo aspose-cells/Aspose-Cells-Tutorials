@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Aspose.Cells สำหรับ Java มีความหลากหลาย�
 - **ซื้อ**:ซื้อลิขสิทธิ์ได้ที่ [หน้าสั่งซื้อ Aspose](https://purchase.aspose.com/temporary-license/) สำหรับการใช้งานในระยะยาว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatintegráció Excelben
@@ -66,7 +68,7 @@ Az Excel erőssége abban rejlik, hogy képes összetett számításokat végezn
 
 ## 7. Adatvizualizáció
 
-betekintéshez hatékony adatvizualizációra van szükség. Az Excel különféle diagramtípusokat kínál az integrált adatok ábrázolására:
+A betekintéshez hatékony adatvizualizációra van szükség. Az Excel különféle diagramtípusokat kínál az integrált adatok ábrázolására:
 
 ```java
 // Java kód diagramok létrehozásához
@@ -109,9 +111,11 @@ Abszolút! Az Aspose.Cells for Java egy hatékony automatizálási API-t biztos�
 Míg az Aspose.Cells for Java egy robusztus választás, az olyan alternatívák, mint az Apache POI, szintén biztosítanak Excel integrációs lehetőségeket.
 
 Ez az átfogó útmutató segít elsajátítani az adatintegrációt Excelben az Aspose.Cells for Java használatával. Nyugodtan böngésszen tovább, és igazítsa ezeket a lépéseket az Ön igényeihez. Jó adatintegrációt!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

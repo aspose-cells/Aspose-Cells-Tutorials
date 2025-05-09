@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class NamedRangeExample {
 
 #### 概述
 
-命名範圍簡化了引用單元格，使您的公式更易於理解和維護。在本節中，您將建立一個引用特定儲存格的命名範圍。
+命名範圍簡化了引用單元格，使您的公式更易於理解和維護。在本節中，您將建立引用特定儲存格的命名範圍。
 
 #### 步驟 1：定義命名範圍
 ```java
@@ -161,7 +163,7 @@ book.save(outDir + "/SetSimpleFormulaNamedRange_out.xlsx");
 
 現在，您已經掌握了使用 Aspose.Cells for Java（一種用於自動執行 Excel 任務的強大工具）來建立和使用命名範圍的方法。為了進一步了解，請探索其他 Aspose.Cells 功能，例如圖表建立或資料透視表。
 
-**後續步驟**：嘗試在更複雜的場景中應用命名範圍，以充分了解它們在提高電子表格的效率和清晰度方面的潛力。
+**後續步驟**：嘗試在更複雜的場景中應用命名範圍，以充分了解其在提高電子表格效率和清晰度方面的潛力。
 
 ## 常見問題部分
 
@@ -189,9 +191,12 @@ book.save(outDir + "/SetSimpleFormulaNamedRange_out.xlsx");
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
-透過遵循本指南，您可以在專案中充分發揮 Aspose.Cells for Java 命名範圍的強大功能。編碼愉快！
+透過遵循本指南，您可以在專案中充分發揮 Aspose.Cells for Java 的命名範圍的強大功能。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

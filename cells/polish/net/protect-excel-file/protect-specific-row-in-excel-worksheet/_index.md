@@ -1,28 +1,30 @@
 ---
-title: Chroń konkretny wiersz w arkuszu kalkulacyjnym programu Excel
-linktitle: Chroń konkretny wiersz w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak chronić określone wiersze w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dostosowany do potrzeb programistów.
-weight: 90
-url: /pl/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
+"description": "Dowiedz się, jak chronić określone wiersze w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dostosowany do potrzeb programistów."
+"linktitle": "Chroń konkretny wiersz w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Chroń konkretny wiersz w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/protect-excel-file/protect-specific-row-in-excel-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chroń konkretny wiersz w arkuszu kalkulacyjnym programu Excel
 
 ## Wstęp
 
-W dzisiejszym szybkim świecie skuteczne zarządzanie arkuszami kalkulacyjnymi jest ważniejsze niż kiedykolwiek. Microsoft Excel jest niezastąpionym narzędziem w wielu branżach i zawodach. Jednak gdy dzielimy się tymi dokumentami, zwłaszcza w środowiskach współpracy, ochrona określonych informacji w arkuszach kalkulacyjnych staje się kluczowa. Jak więc można zapieczętować wiersz w programie Excel, aby zapobiec niechcianym modyfikacjom? Cóż, jeśli pracujesz z .NET, masz szczęście! Aspose.Cells to doskonała biblioteka do programowego radzenia sobie z plikami Excel, umożliwiająca skuteczną ochronę określonych wierszy.
+dzisiejszym szybkim świecie skuteczne zarządzanie arkuszami kalkulacyjnymi jest ważniejsze niż kiedykolwiek. Microsoft Excel jest niezastąpionym narzędziem w wielu branżach i zawodach. Jednak gdy dzielimy się tymi dokumentami, zwłaszcza w środowiskach współpracy, ochrona określonych informacji w arkuszach kalkulacyjnych staje się kluczowa. Jak więc można zapieczętować wiersz w programie Excel, aby zapobiec niechcianym modyfikacjom? Cóż, jeśli pracujesz z .NET, masz szczęście! Aspose.Cells to doskonała biblioteka do programowego radzenia sobie z plikami Excel, umożliwiająca skuteczną ochronę określonych wierszy.
 
 ## Wymagania wstępne
 
 Zanim zaczniemy, będziesz potrzebować kilku rzeczy:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. Możesz użyć dowolnej wersji, która obsługuje rozwój .NET.
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Odwiedź[ten link do pobrania](https://releases.aspose.com/cells/net/) najnowsze wydanie.
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Odwiedź [ten link do pobrania](https://releases.aspose.com/cells/net/) najnowsze wydanie.
 3. Podstawowa wiedza na temat platformy .NET: Znajomość języka C# i podstawowych koncepcji programowania będzie pomocna, ponieważ będziemy pracować z fragmentami kodu.
 
 Gdy już wszystko jest na swoim miejscu, możemy zabrać się do pracy!
@@ -45,7 +47,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Teraz, gdy wszystko jest już skonfigurowane, chrońmy krok po kroku konkretny wiersz w naszym arkuszu kalkulacyjnym Excel. Przykład, którego użyjemy, blokuje pierwszy wiersz, ale możesz go dostosować do dowolnego wiersza, jaki chcesz.
+Teraz, gdy wszystko jest już skonfigurowane, chrońmy konkretny wiersz w naszym arkuszu kalkulacyjnym Excel krok po kroku. Przykład, którego użyjemy, blokuje pierwszy wiersz, ale możesz go dostosować do dowolnego wiersza, jaki chcesz.
 
 ## Krok 1: Zdefiniuj katalog dokumentów
 
@@ -61,7 +63,7 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać nowy plik Excela.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, pod którą chcesz zapisać nowy plik Excela.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -90,7 +92,7 @@ Zanim zablokujemy jakikolwiek wiersz, musimy upewnić się, że wszystkie kolumn
 Style style;
 // Zdefiniuj obiekt styleflag.
 StyleFlag flag;
-// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -106,11 +108,11 @@ for (int i = 0; i <= 255; i++)
 Teraz czas zablokować rząd, który chcesz chronić. W tym przypadku blokujemy pierwszy rząd.
 
 ```csharp
-//Pobierz styl pierwszego rzędu.
+// Pobierz styl pierwszego rzędu.
 style = sheet.Cells.Rows[0].Style;
 // Zamknij to.
 style.IsLocked = true;
-//Utwórz instancję flagi.
+// Utwórz instancję flagi.
 flag = new StyleFlag();
 // Ustaw ustawienie blokady.
 flag.Locked = true;
@@ -138,7 +140,7 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 
 ## Wniosek
 
-I masz! Udało Ci się zabezpieczyć konkretny wiersz w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Ta funkcjonalność jest niezwykle przydatna dla deweloperów i użytkowników, którzy muszą zapewnić integralność danych, a jednocześnie udostępniać pliki Excela. Teraz możesz pewnie udostępniać arkusze kalkulacyjne, chroniąc jednocześnie ważne informacje w nich zawarte.
+masz! Udało Ci się zabezpieczyć konkretny wiersz w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Ta funkcjonalność jest niezwykle przydatna dla deweloperów i użytkowników, którzy muszą zapewnić integralność danych, a jednocześnie udostępniać pliki Excela. Teraz możesz pewnie udostępniać arkusze kalkulacyjne, chroniąc jednocześnie ważne informacje w nich zawarte.
 
 ## Najczęściej zadawane pytania
 
@@ -149,16 +151,18 @@ Tak, możesz powtórzyć proces blokowania dla dowolnego innego rzędu w taki sa
 Możesz wybierać poszczególne komórki i stosować style blokowania, podobnie jak blokujesz wiersz.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells to produkt komercyjny, ale możesz wypróbować go dzięki bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Aspose.Cells to produkt komercyjny, ale możesz wypróbować go dzięki bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
 ### Czy do korzystania z Aspose.Cells potrzebuję połączenia internetowego?  
 Nie, Aspose.Cells to biblioteka .NET i po zainstalowaniu może działać w trybie offline.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?  
- W przypadku pytań lub chęci uzyskania pomocy możesz odwiedzić stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+W przypadku pytań lub chęci uzyskania pomocy możesz odwiedzić stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

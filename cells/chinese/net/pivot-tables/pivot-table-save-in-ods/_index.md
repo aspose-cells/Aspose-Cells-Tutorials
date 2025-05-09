@@ -1,47 +1,52 @@
 ---
-title: 保存转向表作为ODS在 .NET的Aspose.Cells中
-weight: 7700
-limit: 
-description: 学习如何创建和保存一个转向表在ODS格式使用 .NET的Aspose.Cells. 按照此步骤指南提供代码示例.
-keywords: [Aspose.Cells for .NET, PivotTable in ODS, save PivotTable, create PivotTable, .NET spreadsheet, Excel automation, C# PivotTable]
-url: /zh/net/pivot-tables/pivot-table-save-in-ods/
+"description": "学习如何使用 Aspose.Cells for .NET 创建并保存 ODS 格式的数据透视表。请遵循本指南中的代码示例，逐步操作。"
+"title": "在 Aspose.Cells for .NET 中将数据透视表保存为 ODS"
+"url": "/zh/net/pivot-tables/pivot-table-save-in-ods/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 保存转向表作为ODS在 .NET的Aspose.Cells中 
+# 在 Aspose.Cells for .NET 中将数据透视表保存为 ODS 
 
-对于 .NET 应用程序, Aspose.Cells提供了可行的电子表格自动化功能,包括 PivotTables. 本教程将您通过创建一个 PivotTable 在工作簿中,添加数据,配置 PivotTable 设置,并保存它作为一个 ODS 文件. 通过简单的 C# 实现,您将能够轻松生成动态报告.无论您正在处理财务数据,销售报告或任何表格信息,这本指南确保无的 PivotTable 创建和出口在 ODS 格式.  
+Aspose.Cells for .NET 提供强大的电子表格自动化功能，包括数据透视表。本教程将指导您在工作簿中创建数据透视表、添加数据、配置数据透视表设置并将其保存为 ODS 文件。只需使用简单的 C# 实现，您就能轻松生成动态报表。无论您处理的是财务数据、销售报表还是其他表格信息，本指南都能确保您无缝创建数据透视表并以 ODS 格式导出。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/pivot-table-save-in-ods" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明
-为了开始使用 .NET 的Aspose.Cells,请按照以下步骤进行:  
 
-1. 通过官方存储库下载 .NET的Aspose.Cells:[子,细胞 下载](https://releases.aspose.com/cells/net/)  
-2. 通过 NuGet 包管理器安装:  
-   * 开放视觉工作室  
-   * 在包管理器控制台中执行下列命令:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安装说明
+要开始使用 Aspose.Cells for .NET，请按照以下步骤操作：  
+
+1. 从官方存储库下载 Aspose.Cells for .NET： [Aspose.Cells 下载](https://releases.aspose.com/cells/net/)  
+2. 通过 NuGet 包管理器安装：  
+   - 打开 Visual Studio  
+   - 在程序包管理器控制台中运行以下命令：  
      ```powershell
      Install-Package Aspose.Cells
      ```
-3. 在C#项目中包含Aspose.Cells名称空间:  
+3. 在您的 C# 项目中包含 Aspose.Cells 命名空间：  
    ```csharp
    using Aspose.Cells;
    ```  
-4. 开始使用提供的例子编码创建和保存ODS格式中的转向表.  
+4. 使用提供的示例开始编码以创建并保存 ODS 格式的数据透视表。  
 
-## 查看  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+## 另请参阅  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

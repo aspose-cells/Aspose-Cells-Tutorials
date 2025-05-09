@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ license.setLicense("Aspose.Cells.lic");
 ```java
 import com.aspose.cells.Workbook;
 
-// Crear una instancia de un nuevo objeto Workbook
+// Crear una instancia de un nuevo objeto de libro de trabajo
 Workbook workbook = new Workbook();
 ```
 Este fragmento de código inicializa un libro de trabajo en blanco, que sirve como base para futuras manipulaciones.
@@ -188,6 +190,9 @@ Para profundizar su comprensión de Aspose.Cells, explore el [documentación ofi
 ¡Embárquese en su viaje con Aspose.Cells para Java y desbloquee todo el potencial de la automatización de Excel en sus aplicaciones!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

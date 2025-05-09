@@ -7,34 +7,36 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Java Aspose.Cells untuk Query Web di Excel
 
-## Perkenalan
+## Bevezetés
 
 Mengakses koneksi data eksternal di Excel bisa jadi sulit, tetapi mengintegrasikan kueri web menggunakan Aspose.Cells untuk Java menyederhanakan proses secara signifikan. Panduan ini akan membantu pengembang dan analis bisnis meningkatkan kemampuan pemrosesan data Excel mereka dengan mengakses koneksi eksternal, khususnya berfokus pada `WebQueryConnection`.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membuka buku kerja Excel dan mengakses koneksi eksternal dengan Aspose.Cells untuk Java.
 - Proses pengecoran koneksi eksternal ke `WebQueryConnection` untuk mengambil URL.
-- Aplikasi praktis dari fitur-fitur ini dalam skenario dunia nyata.
+- Ezen funkciók gyakorlati alkalmazásai valós helyzetekben.
   
 Sebelum kita membahas detailnya, pastikan pengaturan Anda sudah siap.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikuti tutorial ini secara efektif:
 
-- **Perpustakaan dan Ketergantungan:** Instal Aspose.Cells untuk Java (versi 25.3).
-- **Pengaturan Lingkungan:** Miliki lingkungan pengembangan Java dengan Maven atau Gradle yang dikonfigurasi.
-- **Basis Pengetahuan:** Menguasai konsep pemrograman Java dan operasi dasar Excel.
+- **Könyvtárak és függőségek:** Instal Aspose.Cells untuk Java (versi 25.3).
+- **Környezet beállítása:** Miliki lingkungan pengembangan Java dengan Maven atau Gradle yang dikonfigurasi.
+- **Tudásbázis:** Menguasai konsep pemrograman Java dan operasi dasar Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Instalasi
+### Telepítés
 
 **Pakar:**
 
@@ -50,18 +52,18 @@ Tambahkan dependensi berikut ke `pom.xml`:
 
 **Gradasi:**
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk menggunakan Aspose.Cells sepenuhnya, Anda memerlukan lisensi. Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara.
 
-- **Uji Coba Gratis:** Tersedia di [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Dapatkan dari [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+- **Ingyenes próbaverzió:** Tersedia di [Aspose letöltések](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Dapatkan dari [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
 Terapkan lisensi di aplikasi Java Anda:
 
@@ -70,11 +72,11 @@ License license = new License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membaca Buku Kerja dan Mengakses Koneksi Eksternal
 
-#### Langkah 1: Buka Buku Kerja
+#### 1. lépés: Nyissa meg a munkafüzetet
 
 Buka buku kerja Excel untuk mengakses data dan koneksinya:
 
@@ -85,7 +87,7 @@ import com.aspose.cells.ExternalConnection;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "WebQuerySample.xlsx");
 ```
-- **Mengapa?** Membuka buku kerja penting untuk mengakses data dan koneksinya.
+- **Miért?** Membuka buku kerja penting untuk mengakses data dan koneksinya.
 
 #### Langkah 2: Akses Koneksi Eksternal
 
@@ -97,7 +99,7 @@ for (ExternalConnection connection : connections) {
     // Tangani setiap koneksi berdasarkan jenisnya.
 }
 ```
-- **Mengapa?** Loop ini memungkinkan penanganan berbagai jenis koneksi secara efisien.
+- **Miért?** Loop ini memungkinkan penanganan berbagai jenis koneksi secara efisien.
 
 ### Casting Koneksi Eksternal ke WebQueryConnection
 
@@ -108,7 +110,7 @@ Akses koneksi pertama untuk sumber data yang ditargetkan:
 ```java
 ExternalConnection connection = workbook.getDataConnections().get(0);
 ```
-- **Mengapa?** Mengakses koneksi tertentu sangat penting ketika berhadapan dengan sumber data tertentu.
+- **Miért?** Mengakses koneksi tertentu sangat penting ketika berhadapan dengan sumber data tertentu.
 
 #### Langkah 2: Transmisikan dan Akses URL
 
@@ -120,37 +122,37 @@ if (connection instanceof WebQueryConnection) {
     String url = webQuery.getUrl();
 }
 ```
-- **Mengapa?** Casting memungkinkan akses unik `WebQueryConnection` properti.
+- **Miért?** Casting memungkinkan akses unik `WebQueryConnection` tulajdonságok.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - Pastikan berkas Excel Anda berisi koneksi eksternal yang valid.
 - Verifikasi jalur direktori data untuk mencegah `FileNotFoundException`.
 - Periksa ulang instalasi Aspose.Cells dalam dependensi proyek.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Pembaruan Data Otomatis:** Perbarui data dari sumber daring secara otomatis menggunakan kueri web.
 2. **Sistem Pelaporan:** Integrasikan data keuangan atau statistik eksternal ke dalam laporan khusus.
-3. **Proyek Analisis Data:** Ambil dan analisis data waktu nyata dari API untuk tujuan penelitian.
+3. **Adatelemzési projektek:** Ambil dan analisis data waktu nyata dari API untuk tujuan penelitian.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Mengoptimalkan Penggunaan Sumber Daya:** Batasi operasi buku kerja bersamaan untuk mengelola memori secara efisien.
-- **Penanganan Data yang Efisien:** Akses hanya koneksi dan properti yang diperlukan untuk mengurangi waktu pemrosesan.
+- **Erőforrás-felhasználás optimalizálása:** Batasi operasi buku kerja bersamaan untuk mengelola memori secara efisien.
+- **Hatékony adatkezelés:** Akses hanya koneksi dan properti yang diperlukan untuk mengurangi waktu pemrosesan.
 - **Manajemen Memori Java:** Pantau dan sesuaikan pengaturan JVM berdasarkan kebutuhan aplikasi Anda.
 
-## Kesimpulan
+## Következtetés
 
 Dengan menguasai Aspose.Cells untuk Java, Anda dapat membuka buku kerja dan mengelola kueri web eksternal secara efektif. Kemampuan ini memungkinkan otomatisasi pengambilan data dan peningkatan alur kerja berbasis Excel.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan berbagai jenis koneksi eksternal.
-- Jelajahi fitur tambahan di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+- Jelajahi fitur tambahan di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 
 Siap untuk menyelami lebih dalam? Terapkan solusi ini pada proyek Anda berikutnya!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Untuk apa Aspose.Cells for Java digunakan?**
    - Ini adalah pustaka untuk memanipulasi file Excel secara terprogram, ideal untuk pemrosesan dan otomatisasi data.
@@ -167,16 +169,19 @@ Siap untuk menyelami lebih dalam? Terapkan solusi ini pada proyek Anda berikutny
 5. **Bagaimana cara mengelola buku kerja besar secara efisien?**
    - Mengoptimalkan lingkungan Java dan memproses data dalam potongan-potongan untuk meningkatkan kinerja.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
-- **Unduh Aspose.Cells:** [Halaman Rilis](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** [Aspose Pembelian](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Cobalah](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta di sini](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan:** [Bergabunglah dengan Komunitas](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció:** [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
+- **Aspose.Cells letöltése:** [Kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** [Aspose vásárlás](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Próbáld ki](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Kérelem itt](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum:** [Bergabunglah dengan Komunitas](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

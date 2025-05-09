@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5: Duże pliki i złożone operacje mogą zwiększyć wykorzystanie pamięci. O
 Zapoznaj się z tymi zasobami, aby pogłębić swoją wiedzę na temat Aspose.Cells dla Java i wykorzystać pełen potencjał manipulowania danymi w programie Excel w swoich aplikacjach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

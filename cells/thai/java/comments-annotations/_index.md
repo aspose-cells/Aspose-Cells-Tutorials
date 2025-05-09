@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@
 เรียนรู้วิธีการเพิ่มความคิดเห็นลงในไฟล์ Excel โดยอัตโนมัติด้วย Aspose.Cells สำหรับ Java ปรับปรุงเวิร์กโฟลว์ของคุณและปรับปรุงงานการจัดการข้อมูลอย่างมีประสิทธิภาพ
 
 ### [แก้ไขความคิดเห็นแบบเธรดของ Excel โดยใช้ Aspose.Cells ใน Java](./edit-excel-threaded-comments-aspose-cells-java/)
-เรียนรู้วิธีแก้ไขความคิดเห็นแบบเธรดในไฟล์ Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคู่มือนี้สำหรับการตั้งค่า ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
+เรียนรู้วิธีแก้ไขความคิดเห็นแบบเธรดในไฟล์ Excel อย่างมีประสิทธิภาพด้วย Aspose.Cells สำหรับ Java ปฏิบัติตามคู่มือนี้เพื่อการตั้งค่า ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
 
 ### [การเรียนรู้ทิศทางข้อความแสดงความคิดเห็นใน Excel อย่างละเอียดโดยใช้ Aspose.Cells สำหรับ Java](./excel-comment-text-direction-aspose-cells-java/)
 เรียนรู้วิธีการเปลี่ยนทิศทางข้อความในความคิดเห็นของ Excel ด้วย Aspose.Cells สำหรับ Java เหมาะอย่างยิ่งสำหรับการผสานภาษาที่อ่านจากขวาไปซ้าย เช่น อาหรับหรือฮีบรู
@@ -63,6 +65,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

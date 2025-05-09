@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ WorksheetCollection worksheets = workbook.getWorksheets();
 
 ### Tính năng: Thêm biểu đồ vào trang tính
 
-**Tổng quan**: Thêm biểu diễn trực quan cho dữ liệu bằng cách tạo biểu đồ trong bảng tính được chỉ định của bạn.
+**Tổng quan**: Thêm biểu diễn trực quan cho dữ liệu bằng cách tạo biểu đồ trong bảng tính bạn chỉ định.
 
 #### Bước 5: Nhập ChartCollection
 Đảm bảo bạn có dữ liệu nhập khẩu phù hợp:
@@ -131,7 +133,7 @@ Chart chart = charts.get(0); // Hoặc tạo một biểu đồ mới với char
 ```
 *Tại sao lại thực hiện bước này?*:Biểu đồ là công cụ mạnh mẽ để trực quan hóa dữ liệu, giúp truyền tải thông tin phức tạp một cách rõ ràng.
 
-### Tính năng: Thiết lập Nguồn dữ liệu chuỗi và Tùy chỉnh Đường biểu đồ
+### Tính năng: Thiết lập Nguồn Dữ liệu Chuỗi và Tùy chỉnh Đường Biểu đồ
 
 **Tổng quan**: Tùy chỉnh biểu đồ của bạn bằng cách thiết lập nguồn dữ liệu chuỗi và sửa đổi kiểu đường để tăng tính hấp dẫn về mặt trực quan.
 
@@ -220,6 +222,9 @@ Bước tiếp theo của bạn, hãy cân nhắc khám phá các loại biểu 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

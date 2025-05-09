@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi Data Impor Excel
 
 
-## Perkenalan
+## Bevezetés
 Dalam dunia yang digerakkan oleh data saat ini, memastikan keakuratan dan keandalan data yang diimpor sangatlah penting. Aspose.Cells untuk Java menyediakan solusi yang hebat untuk validasi data impor Excel. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses penerapan validasi data untuk impor Excel menggunakan Aspose.Cells untuk Java. Apakah Anda seorang pengembang berpengalaman atau baru mengenal dunia pemrograman Java, artikel ini akan membekali Anda dengan pengetahuan dan kode sumber yang Anda butuhkan untuk unggul dalam validasi data.
 
 ## Memahami Dasar-Dasarnya
@@ -31,7 +33,7 @@ Untuk memulai perjalanan kita, pertama-tama kita perlu menyiapkan lingkungan pen
 
 4. Tambahkan Aspose.Cells ke Proyek Anda: Sertakan pustaka Aspose.Cells dalam proyek Anda sebagai dependensi.
 
-## Langkah 2: Memuat File Excel
+## 2. lépés: Az Excel fájl betöltése
 Sekarang lingkungan kita sudah siap, mari lanjutkan dengan memuat file Excel yang berisi data yang akan diimpor.
 
 ```java
@@ -59,7 +61,7 @@ dataValidation.setShowInput(true);
 dataValidation.setShowError(true);
 ```
 
-## Pertanyaan yang Sering Diajukan
+## Gyakran ismételt kérdések
 
 ### Apa itu validasi data?
 Validasi data adalah proses pengecekan keakuratan, integritas, dan kelengkapan data sebelum diimpor ke aplikasi atau basis data. Validasi data membantu mencegah kesalahan dan memastikan bahwa hanya data valid yang diterima.
@@ -76,13 +78,15 @@ Aspose.Cells untuk Java mendukung berbagai jenis validasi data, termasuk bilanga
 ### Apakah Aspose.Cells untuk Java cocok untuk validasi data yang kompleks?
 Ya, Aspose.Cells untuk Java cocok untuk menangani skenario validasi data yang kompleks, menjadikannya alat yang hebat untuk pemrosesan data.
 
-## Kesimpulan
+## Következtetés
 Dalam panduan lengkap ini, kami telah menjajaki proses penerapan validasi data impor Excel menggunakan Aspose.Cells untuk Java. Dengan mengikuti langkah-langkah yang diuraikan dalam artikel ini, Anda dapat memastikan keakuratan dan keandalan data yang diimpor dalam aplikasi Java Anda. Validasi data merupakan aspek penting dari manajemen data, dan Aspose.Cells untuk Java menyederhanakan proses tersebut.
 
 Sekarang, berbekal pengetahuan dan kode sumber yang disediakan, Anda siap untuk meningkatkan kemampuan validasi data dan meningkatkan pengalaman pengguna. Selamat membuat kode!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

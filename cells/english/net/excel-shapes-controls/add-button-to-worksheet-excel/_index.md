@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-button-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add a Button to Worksheet in Excel
@@ -125,6 +127,7 @@ Yes, you can modify many properties, including the background color, border styl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

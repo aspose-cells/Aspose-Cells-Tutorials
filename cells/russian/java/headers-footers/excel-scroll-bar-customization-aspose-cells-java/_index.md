@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Этапы получения лицензии
 Aspose.Cells предлагает бесплатную пробную версию для изучения своих возможностей. Для длительного использования вы можете приобрести временную лицензию или купить полную версию.
 
-1. **Бесплатная пробная версия**Загрузите последнюю версию с сайта [Выпуски Java Aspose.Cells](https://releases.aspose.com/cells/java/).
+1. **Бесплатная пробная версия**: Загрузите последнюю версию с сайта [Выпуски Java Aspose.Cells](https://releases.aspose.com/cells/java/).
 2. **Временная лицензия**: Запросить временную лицензию через [Купить временную лицензию](https://purchase.aspose.com/temporary-license/).
 3. **Покупка**: Для полного доступа посетите [Купить Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ workbook.getSettings().setHScrollBarVisible(false);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

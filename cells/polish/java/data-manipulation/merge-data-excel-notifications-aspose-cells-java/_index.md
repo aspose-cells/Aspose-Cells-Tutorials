@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ public class GetNotificationsWhileMergingData {
         // Pobierz pierwszy arkusz ze skoroszytu
         Worksheet sheet = report.getWorkbook().getWorksheets().get(0);
         
-        // Ustaw znacznik tablicy zmiennych na komórkę
+        // Ustaw znacznik zmiennej tablicy na komórkę
         Cells cells = sheet.getCells();
         cells.get("A1").putValue("&=$VariableArray");
     }
@@ -222,6 +224,9 @@ Dzięki temu przewodnikowi nauczyłeś się, jak skutecznie używać Aspose.Cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

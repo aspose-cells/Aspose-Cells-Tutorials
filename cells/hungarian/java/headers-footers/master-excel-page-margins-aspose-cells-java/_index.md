@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,6 +175,9 @@ Ez az útmutató felvértezi Önt az Excel oldalmargóinak programozott beállí
    - Győződj meg róla, hogy a build konfigurációd (Maven vagy Gradle) tartalmazza az Aspose.Cells megfelelő függőségi bejegyzését.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

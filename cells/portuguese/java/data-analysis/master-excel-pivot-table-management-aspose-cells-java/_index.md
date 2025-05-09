@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ workbook.save(outDir + "DPTableFromWorksheet_out.xlsx");
 ## Considerações de desempenho
 
 Para garantir que seu aplicativo seja executado sem problemas:
-- **Otimize o uso da memória**: Gerencie com eficiência a memória Java ao manipular arquivos grandes do Excel carregando apenas as partes necessárias do arquivo por vez.
+- **Otimizar o uso da memória**: Gerencie com eficiência a memória Java ao manipular arquivos grandes do Excel carregando apenas as partes necessárias do arquivo por vez.
 - **Melhores Práticas**: Crie regularmente o perfil do seu aplicativo para identificar gargalos e otimizar caminhos de código que interagem com o Aspose.Cells.
 
 ## Conclusão
@@ -210,6 +212,9 @@ Seguindo este guia, você agora tem as ferramentas necessárias para gerenciar t
 Comece a explorar os recursos do Aspose.Cells para Java hoje mesmo e eleve seus processos de gerenciamento de dados!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

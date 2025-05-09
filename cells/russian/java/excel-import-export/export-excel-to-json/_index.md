@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт Excel в JSON
@@ -76,9 +78,11 @@ workbook.save("output.json", jsonSaveOptions);
    Да, вы можете загрузить пробную версию Aspose.Cells для Java с их веб-сайта, чтобы оценить ее возможности.
 
 Не стесняйтесь исследовать дополнительные возможности Aspose.Cells для Java, чтобы расширить свои возможности обработки данных.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

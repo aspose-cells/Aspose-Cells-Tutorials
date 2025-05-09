@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Entri Data Otomatis
@@ -29,7 +31,7 @@ Sebelum menyelami detail teknisnya, mari kita pahami mengapa mengotomatisasi ent
 
 ### 1. Menyiapkan Lingkungan
 
-Untuk memulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+Untuk memulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ### 2. Inisialisasi Aspose.Cells
 
@@ -40,7 +42,7 @@ import com.aspose.cells.Workbook;
 
 public class DataEntryAutomation {
     public static void main(String[] args) {
-        // Inisialisasi Aspose.Cells
+        // Aspose.Cells inicializálása
         Workbook workbook = new Workbook();
     }
 }
@@ -51,7 +53,7 @@ public class DataEntryAutomation {
 Selanjutnya, mari kita memuat file Excel yang ada dan memanipulasi datanya:
 
 ```java
-// Memuat file Excel
+// Excel fájl betöltése
 workbook.open("sample.xlsx");
 
 // Mengakses lembar kerja
@@ -93,7 +95,7 @@ validation.setFormula1("0");
 validation.setFormula2("100");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Mengotomatiskan entri data dengan Aspose.Cells untuk Java akan menyederhanakan proses pengelolaan data, mengurangi kesalahan, dan meningkatkan produktivitas. Dengan contoh kode sumber yang disediakan, Anda dapat mulai menerapkan otomatisasi dalam aplikasi Java Anda hari ini.
 
@@ -115,9 +117,11 @@ Mengotomatiskan entri data dengan Aspose.Cells untuk Java akan menyederhanakan p
    Anda dapat menjelajahi dokumentasi di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/).
 
 Sekarang Anda memiliki pengetahuan dan alat untuk mengotomatiskan entri data secara efektif menggunakan Aspose.Cells untuk Java. Mulailah meningkatkan proses penanganan data Anda dan tingkatkan efisiensi bisnis Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

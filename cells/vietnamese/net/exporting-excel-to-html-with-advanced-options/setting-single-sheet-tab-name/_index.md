@@ -1,14 +1,16 @@
 ---
-title: Thiết lập tên tab trang tính đơn trong xuất HTML
-linktitle: Thiết lập tên tab trang tính đơn trong xuất HTML
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã.
-weight: 21
-url: /vi/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/
+"description": "Dễ dàng đặt tên tab trang tính duy nhất trong quá trình xuất HTML bằng Aspose.Cells cho .NET. Hướng dẫn từng bước có kèm ví dụ về mã."
+"linktitle": "Thiết lập tên tab trang tính đơn trong xuất HTML"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập tên tab trang tính đơn trong xuất HTML"
+"url": "/vi/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập tên tab trang tính đơn trong xuất HTML
@@ -19,7 +21,7 @@ Trong thế giới kỹ thuật số ngày nay, xử lý và xuất dữ liệu 
 Trước khi đi sâu vào nội dung chính của hướng dẫn này, chúng ta hãy cùng phác thảo những gì bạn cần để thực hiện công việc này một cách suôn sẻ:
 ### Phần mềm thiết yếu
 - Microsoft Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio vì nó cung cấp môi trường để chúng ta viết và thực thi mã.
-- Aspose.Cells cho .NET: Thư viện này nên được tham chiếu trong dự án của bạn. Bạn có thể tải xuống từ[Tải xuống Aspose](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Thư viện này nên được tham chiếu trong dự án của bạn. Bạn có thể tải xuống từ [Tải xuống Aspose](https://releases.aspose.com/cells/net/).
 ### Hiểu biết cơ bản
 - Sự quen thuộc với lập trình C# cơ bản là rất quan trọng. Nếu bạn đã từng thử viết mã trước đây, bạn sẽ cảm thấy thoải mái. 
 ### Thiết lập dự án
@@ -31,7 +33,7 @@ Mở dự án Visual Studio mà bạn đã tạo ở bước trước.
 ### Thêm tham chiếu đến Aspose.Cells
 1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 2. Chọn “Quản lý các gói NuGet”.
-3.  Tìm kiếm`Aspose.Cells` và cài đặt gói.
+3. Tìm kiếm `Aspose.Cells` và cài đặt gói.
 4. Bước này đảm bảo bạn có tất cả các thư viện cần thiết để làm việc với các tệp Excel.
 ### Thêm không gian tên bắt buộc
 Trong tệp mã của bạn, hãy thêm các không gian tên sau vào đầu:
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Ở đây, bạn sẽ thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục của bạn. Hãy nghĩ về bước này như việc thiết lập bối cảnh cho một vở kịch—mọi thứ cần phải ở đúng vị trí của nó!
+Ở đây, bạn sẽ thay thế `"Your Document Directory"` với đường dẫn thực tế đến thư mục của bạn. Hãy nghĩ về bước này như việc thiết lập bối cảnh cho một vở kịch—mọi thứ cần phải ở đúng vị trí của nó!
 ## Bước 2: Tải sổ làm việc của bạn
 Tiếp theo, hãy tải bảng tính mà chúng ta muốn xuất.
 ```csharp
@@ -87,7 +89,7 @@ Sau đây là chức năng của từng tham số:
 - ExcludeUnusedStyles: Cắt bỏ các kiểu không được sử dụng, giúp tệp gọn gàng.
 - ExportHiddenWorksheet: Nếu bạn có các trang tính ẩn, tùy chọn này cũng sẽ xuất chúng.
 ## Bước 5: Lưu sổ làm việc
-Bây giờ là lúc lưu lại những thay đổi của chúng ta.
+Bây giờ là lúc dành cho khoảnh khắc quan trọng để lưu lại những thay đổi của chúng ta.
 ```csharp
 // Lưu sổ làm việc ở định dạng HTML với các tùy chọn lưu HTML được chỉ định
 wb.Save(outputDir + "outputSampleSingleSheet.htm", options);
@@ -101,21 +103,23 @@ Console.WriteLine("SetSingleSheetTabNameInHtml executed successfully.");
 Đây là dấu hiệu cho thấy mã của bạn đã chạy trơn tru, giống như một bài thuyết trình được thực hiện tốt!
 ## Phần kết luận
 Và bạn đã có nó! Bạn đã xuất thành công một bảng tính Excel sang định dạng HTML trong khi thiết lập các tham số cụ thể bằng Aspose.Cells cho .NET. Chỉ với một vài dòng mã, bạn có thể quản lý hiệu quả nhu cầu xuất dữ liệu của mình. Việc sử dụng các công cụ như Aspose.Cells có thể cải thiện đáng kể năng suất và giúp các tác vụ của bạn dễ dàng hơn rất nhiều.
-Hãy nhớ rằng, khả năng rất rộng lớn. Hướng dẫn này chỉ giới thiệu sơ qua. Đừng ngại khám phá tất cả các tùy chọn mà Aspose.Cells cung cấp!
+Hãy nhớ rằng, khả năng rất rộng lớn. Hướng dẫn này chỉ là giới thiệu sơ lược. Đừng ngại khám phá tất cả các tùy chọn mà Aspose.Cells cung cấp!
 ## Câu hỏi thường gặp
 ### Aspose.Cells dành cho .NET là gì?  
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel trong các ứng dụng .NET mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?  
-Có! Bạn có thể tải xuống bản dùng thử miễn phí để khám phá tất cả các tính năng của nó trước khi mua. Kiểm tra[dùng thử miễn phí tại đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí để khám phá tất cả các tính năng của nó trước khi mua. Kiểm tra [dùng thử miễn phí tại đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?  
- Để có tài liệu mở rộng, hãy truy cập[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Để có tài liệu mở rộng, hãy truy cập [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 ### Tôi phải làm gì nếu gặp vấn đề?  
- Các[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) cung cấp hỗ trợ cộng đồng nơi bạn có thể đặt câu hỏi và tìm giải pháp.
+Các [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) cung cấp hỗ trợ cộng đồng nơi bạn có thể đặt câu hỏi và tìm giải pháp.
 ### Có thể quản lý các trang tính ẩn trong xuất HTML không?  
- Chắc chắn rồi! Bằng cách thiết lập`options.ExportHiddenWorksheet = true;`, các trang tính ẩn được bao gồm trong bản xuất.
+Chắc chắn rồi! Bằng cách thiết lập `options.ExportHiddenWorksheet = true;`, các trang tính ẩn được bao gồm trong bản xuất.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

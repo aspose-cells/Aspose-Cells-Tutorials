@@ -1,14 +1,16 @@
 ---
-title: Wdrażanie nagłówka i stopki w arkuszu kalkulacyjnym
-linktitle: Wdrażanie nagłówka i stopki w arkuszu kalkulacyjnym
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak skonfigurować nagłówki i stopki w arkuszach kalkulacyjnych programu Excel za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z samouczka krok po kroku, praktycznych przykładów i przydatnych wskazówek.
-weight: 22
-url: /pl/net/worksheet-page-setup-features/implement-header-and-footer/
+"description": "Dowiedz się, jak skonfigurować nagłówki i stopki w arkuszach kalkulacyjnych programu Excel za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z samouczka krok po kroku, praktycznych przykładów i przydatnych wskazówek."
+"linktitle": "Wdrażanie nagłówka i stopki w arkuszu kalkulacyjnym"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wdrażanie nagłówka i stopki w arkuszu kalkulacyjnym"
+"url": "/pl/net/worksheet-page-setup-features/implement-header-and-footer/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wdrażanie nagłówka i stopki w arkuszu kalkulacyjnym
@@ -19,13 +21,13 @@ Podczas pracy z arkuszami kalkulacyjnymi programu Excel nagłówki i stopki odgr
 
 ## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
+Zanim zaczniesz, upewnij się, że masz przygotowane następujące rzeczy:
 
-1.  Aspose.Cells dla .NET: Musisz zainstalować Aspose.Cells dla .NET.[Pobierz tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Musisz zainstalować Aspose.Cells dla .NET. [Pobierz tutaj](https://releases.aspose.com/cells/net/).
 2. Konfiguracja IDE: Visual Studio (lub preferowane środowisko IDE) z zainstalowanym środowiskiem .NET Framework.
-3.  Licencja: Choć możesz zacząć od bezpłatnej wersji próbnej, uzyskanie pełnej lub tymczasowej licencji pozwoli Ci w pełni wykorzystać potencjał Aspose.Cells.[Uzyskaj tymczasową licencję](https://purchase.aspose.com/temporary-license/).
+3. Licencja: Choć możesz zacząć od bezpłatnej wersji próbnej, uzyskanie pełnej lub tymczasowej licencji pozwoli Ci w pełni wykorzystać potencjał Aspose.Cells. [Uzyskaj tymczasową licencję](https://purchase.aspose.com/temporary-license/).
 
-Dokumentacja Aspose.Cells jest przydatnym źródłem informacji w trakcie całego procesu. Możesz ją znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Dokumentacja Aspose.Cells jest przydatnym źródłem informacji w trakcie całego procesu. Możesz ją znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 
 ## Importowanie pakietów
 
@@ -53,19 +55,19 @@ string dataDir = "Your Document Directory";
 Workbook excel = new Workbook();
 ```
 
- Tutaj stworzyliśmy`Workbook` obiekt, który reprezentuje nasz plik Excel.`PageSetup` arkusza kalkulacyjnego możemy modyfikować opcje nagłówka i stopki.
+Tutaj stworzyliśmy `Workbook` obiekt, który reprezentuje nasz plik Excel. `PageSetup` arkusza kalkulacyjnego, gdzie możemy modyfikować opcje nagłówka i stopki.
 
 
 ## Krok 2: Uzyskaj dostęp do właściwości arkusza kalkulacyjnego i ustawień strony
 
- W Aspose.Cells każdy arkusz ma`PageSetup`właściwość, która kontroluje funkcje układu, w tym nagłówki i stopki. Zdobądźmy`PageSetup` obiekt dla naszego arkusza kalkulacyjnego.
+W Aspose.Cells każdy arkusz ma `PageSetup` właściwość, która kontroluje funkcje układu, w tym nagłówki i stopki. Zdobądźmy `PageSetup` obiekt dla naszego arkusza kalkulacyjnego.
 
 ```csharp
 // Uzyskaj odniesienie do PageSetup pierwszego arkusza kalkulacyjnego
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 ```
 
- Dzięki temu,`pageSetup` zawiera teraz wszystkie ustawienia potrzebne do dostosowania nagłówków i stopek.
+Dzięki temu, `pageSetup` zawiera teraz wszystkie ustawienia potrzebne do dostosowania nagłówków i stopek.
 
 
 ## Krok 3: Ustaw lewą sekcję nagłówka
@@ -77,7 +79,7 @@ Nagłówki w programie Excel są podzielone na trzy sekcje: lewą, środkową i 
 pageSetup.SetHeader(0, "&A");
 ```
 
- Używanie`&A` pozwala na dynamiczne wyświetlanie nazwy arkusza. Jest to szczególnie pomocne, jeśli masz wiele arkuszy w skoroszycie i chcesz, aby każdy nagłówek odzwierciedlał tytuł arkusza.
+Używanie `&A` pozwala na dynamiczne wyświetlanie nazwy arkusza. Jest to szczególnie pomocne, jeśli masz wiele arkuszy w skoroszycie i chcesz, aby każdy nagłówek odzwierciedlał tytuł arkusza.
 
 
 ## Krok 4: Dodaj datę i godzinę do środka nagłówka
@@ -90,7 +92,7 @@ pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
 W tym kodzie:
-- `&D`wstawia bieżącą datę.
+- `&D` wstawia bieżącą datę.
 - `&T` wstawia aktualny czas.
 - `"Times New Roman,Bold"` stosuje do tych elementów czcionkę Times New Roman pogrubioną.
 
@@ -117,7 +119,7 @@ Przejdźmy do stopek! Zaczniemy od skonfigurowania lewej sekcji stopki z niestan
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
- Ten`&\"Courier New\"&14` ustawienie w powyższym kodzie stosuje czcionkę „Courier New” o rozmiarze 14 do określonego tekstu (`123`). Reszta tekstu pozostaje w domyślnej czcionce stopki.
+Ten `&\"Courier New\"&14` ustawienie w powyższym kodzie stosuje czcionkę „Courier New” o rozmiarze 14 do określonego tekstu (`123`). Reszta tekstu pozostaje w domyślnej czcionce stopki.
 
 
 ## Krok 7: Wstaw numer strony na środku stopki
@@ -129,7 +131,7 @@ Umieszczenie numerów stron w stopce to świetny sposób, aby ułatwić czytelni
 pageSetup.SetFooter(1, "&P");
 ```
 
- Tutaj,`&P` dodaje bieżący numer strony do środkowej sekcji stopki. To mały szczegół, ale kluczowy dla profesjonalnie wyglądających dokumentów.
+Tutaj, `&P` dodaje bieżący numer strony do środkowej sekcji stopki. To mały szczegół, ale kluczowy dla profesjonalnie wyglądających dokumentów.
 
 
 ## Krok 8: Wyświetl całkowitą liczbę stron w prawej stopce
@@ -166,19 +168,21 @@ Dodawanie nagłówków i stopek do arkuszy kalkulacyjnych programu Excel to cenn
 Tak, Aspose.Cells for .NET pozwala na określenie czcionek dla każdej sekcji nagłówka i stopki za pomocą specjalnych znaczników czcionek.
 
 ### Jak usunąć nagłówki i stopki?  
- Możesz wyczyścić nagłówki i stopki, ustawiając tekst nagłówka lub stopki na pusty ciąg za pomocą`SetHeader` Lub`SetFooter`.
+Możesz wyczyścić nagłówki i stopki, ustawiając tekst nagłówka lub stopki na pusty ciąg za pomocą `SetHeader` Lub `SetFooter`.
 
 ### Czy mogę wstawiać obrazy do nagłówków i stopek za pomocą Aspose.Cells dla .NET?  
 Obecnie Aspose.Cells obsługuje głównie tekst w nagłówkach i stopkach. Obrazy mogą wymagać obejścia, takiego jak wstawianie obrazów do samego arkusza kalkulacyjnego.
 
 ### Czy Aspose.Cells obsługuje dynamiczne dane w nagłówkach i stopkach?  
- Tak, możesz używać różnych kodów dynamicznych (takich jak`&D` na datę lub`&P` (w celu uzyskania numeru strony) w celu dodania dynamicznej zawartości.
+Tak, możesz używać różnych kodów dynamicznych (takich jak `&D` na datę lub `&P` (w celu uzyskania numeru strony) w celu dodania dynamicznej zawartości.
 
 ### Jak mogę dostosować wysokość nagłówka lub stopki?  
- Aspose.Cells zapewnia opcje w ramach`PageSetup` Klasa umożliwiająca dostosowanie marginesów nagłówka i stopki, co daje Ci kontrolę nad odstępami.
+Aspose.Cells zapewnia opcje w ramach `PageSetup` Klasa umożliwiająca dostosowanie marginesów nagłówka i stopki, co daje Ci kontrolę nad odstępami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

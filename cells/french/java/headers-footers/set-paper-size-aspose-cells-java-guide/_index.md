@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,6 +224,9 @@ Ensuite, explorez davantage de fonctionnalités d’Aspose.Cells ou plongez dans
 - [Principes fondamentaux de la programmation Java](https://docs.oracle.com/javase/tutorial/index.html)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

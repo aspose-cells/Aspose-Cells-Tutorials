@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ String outputDir = "path/to/output/directory/";
 workbook.save(outputDir + "ASubtotal_out.xlsx");
 ```
 ### Hibaelhárítási tippek
-- **Gyakori problémák**: Győződjön meg arról, hogy a fájlelérési utak helyesek és elérhetők.
+- **Gyakori problémák**Győződjön meg arról, hogy a fájlelérési utak helyesek és elérhetők.
 - **Részösszeg nem jelenik meg**: Ellenőrizd, hogy helyesen definiáltad-e a cellaterületet.
 ## Gyakorlati alkalmazások
 1. **Pénzügyi jelentéstétel**: Gyorsan összefoglalhatja a havi értékesítési adatokat régiók vagy részlegek szerint.
@@ -121,7 +123,7 @@ workbook.save(outputDir + "ASubtotal_out.xlsx");
 3. **Felmérés elemzése**Összesített válaszok egy felmérési adathalmaz demográfiai csoportjai alapján.
 4. **Projektkövetés**: Összefoglalja a feladatok teljesítési százalékait a különböző projektfázisokban.
 ## Teljesítménybeli szempontok
-- **Erőforrás-felhasználás optimalizálása**Nagy fájlokkal végzett munka során csak a szükséges munkalapokat töltse be.
+- **Erőforrás-felhasználás optimalizálása**: Nagy fájlokkal végzett munka során csak a szükséges munkalapokat töltse be.
 - **Memóriakezelés**: A memória felszabadítása érdekében azonnal szabaduljon meg a felesleges tárgyaktól.
 - **Hatékony adatkezelés**: Nagyon nagy adathalmazok esetén használjon streamelési műveleteket, ha alkalmazható.
 ## Következtetés
@@ -142,7 +144,7 @@ Fontolja meg a feladatok kisebb műveletekre bontását, és ha lehetséges, a s
 ### 5. Mit tegyek, ha a részösszegek nem jelennek meg a fájl mentése után?
 Győződjön meg arról, hogy a cellaterület helyesen van definiálva, és hogy a munkafüzetet írható helyre mentette.
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Aspose.Cells licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -150,6 +152,9 @@ Győződjön meg arról, hogy a cellaterület helyesen van definiálva, és hogy
 - **Támogatás**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

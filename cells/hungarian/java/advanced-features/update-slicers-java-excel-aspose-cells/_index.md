@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ Hozz létre egy osztályt `UpdateSlicer`:
 ```java
 public class UpdateSlicer {
     public static void main(String[] args) throws Exception {
-        // Munkafüzet betöltése és az első munkalap elérése.
+        // Töltsd be a munkafüzetet és nyisd meg az első munkalapot.
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook wb = new Workbook(dataDir + "/sampleUpdatingSlicer.xlsx");
         Worksheet ws = wb.getWorksheets().get(0);
@@ -214,6 +216,9 @@ A teljesítmény optimalizálása kritikus fontosságú nagy fájlok vagy össze
 Ebben az útmutatóban azt vizsgáltuk meg, hogyan frissíthetők a szeletelők Java Excel-fájlokban az Aspose.Cells használatával. Megtanultad, hogyan töltheted be és jelenítheted meg a könyvtár verzióját, hogyan kezelheted a szeletelőket programozottan, és hogyan mentheted vissza a módosításokat az Excel-fájlodba. Ezekkel a készségekkel automatizálhatod az adatszűrési folyamatokat, növelve a termelékenységet és a pontosságot az adatelemzési feladatokban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

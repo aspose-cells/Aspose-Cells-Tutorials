@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ Maven का उपयोग करके Aspose.Cells को एकीकृत
 
 ### ग्रैडल के माध्यम से स्थापना
 
-Gradle का उपयोग करने वाले लोग इसे अपने में शामिल करें `build.gradle` फ़ाइल:
+जो लोग Gradle का उपयोग कर रहे हैं, वे इसे अपने में शामिल करें `build.gradle` फ़ाइल:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -181,6 +183,9 @@ A5: बिल्कुल! यह अधिकांश जावा-आधा�
 - **सहयता मंच**: [Aspose समर्थन समुदाय](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

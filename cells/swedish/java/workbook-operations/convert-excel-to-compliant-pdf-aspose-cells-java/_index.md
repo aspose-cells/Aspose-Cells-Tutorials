@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells arbetar under en licensmodell som erbjuder gratis provperioder, tillfälliga licenser för utvärderingsändamål och köpmöjligheter för fullständiga licenser.
 
 1. **Gratis provperiod:** Ladda ner biblioteket från [releases.aspose.com](https://releases.aspose.com/cells/java/) att prova det med begränsade funktioner.
-2. **Tillfällig licens:** Skaffa en tillfällig licens för åtkomst till alla funktioner under testfasen genom att besöka [purchase.aspose.com/temporär-licens/](https://purchase.aspose.com/temporary-license/).
+2. **Tillfällig licens:** Skaffa en tillfällig licens för åtkomst till alla funktioner under testfasen genom att besöka [purchase.aspose.com/tillfällig-licens/](https://purchase.aspose.com/temporary-license/).
 3. **Köpa:** Om du är nöjd med testversionen kan du köpa en licens på [purchase.aspose.com/buy](https://purchase.aspose.com/buy).
 
 ### Grundläggande initialisering
@@ -197,6 +199,9 @@ Redo att omsätta det du lärt dig i praktiken? Försök att implementera den h�
    - Du kan utforska [Internationella standardiseringsorganisationen (ISO)](https://www.iso.org/standards.html) webbplatsen för detaljerad dokumentation om olika PDF/A-efterlevnadsnivåer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

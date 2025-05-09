@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parametry i metody
 - **Podręcznik z ćwiczeniami**:Reprezentuje cały plik Excela.
-- **Arkusz roboczy**: Dotyczy pojedynczego arkusza w skoroszycie.
+- **Arkusz roboczy**Dotyczy pojedynczego arkusza w skoroszycie.
 - **Kolekcja komentarzy wątkowych**:Zbiór komentarzy powiązanych z komórką.
 
 ## Zastosowania praktyczne
@@ -148,6 +150,9 @@ Gotowy na głębsze zanurzenie? Spróbuj wdrożyć to rozwiązanie w swoich proj
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

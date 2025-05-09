@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ ShapeTextAlignment shapeTextAlignment = sh.getTextBody().getTextAlignment();
 shapeTextAlignment.setRotateTextWithShape(false);
 ```
 
-**解釋**： 這 `getShapes()` 方法檢索所有形狀，我們透過設定修改文字對齊方式 `setRotateTextWithShape` 為假。
+**解釋**： 這 `getShapes()` 方法檢索所有形狀，我們透過設定來修改文字對齊方式 `setRotateTextWithShape` 為假。
 
 ### 功能 5：將 Excel 檔案儲存到輸出目錄
 
@@ -199,6 +201,9 @@ wb.save(outDir + "/outputRotateTextWithShapeInsideWorksheet.xlsx");
 試驗這些技術，並使用 Aspose.Cells for Java 將您的 Excel 文件操作提升到一個新的水平！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

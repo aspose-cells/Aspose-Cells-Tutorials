@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استيراد البيانات من Excel
@@ -96,9 +98,11 @@ public class ExcelDataImport {
    قم بزيارة وثائق Aspose.Cells [هنا](https://reference.aspose.com/cells/java/) للحصول على الموارد والأمثلة المتعمقة.
 
 لا تتردد في استكشاف المزيد وتعديل هذا الكود ليناسب متطلبات استيراد البيانات الخاصة بك. برمجة ممتعة!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

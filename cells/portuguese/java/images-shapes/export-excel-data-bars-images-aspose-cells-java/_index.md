@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ public class InitializeAspose {
 **Visão geral:**
 Esta etapa envolve carregar uma pasta de trabalho específica do Excel do seu diretório de dados, acessar sua primeira planilha e identificar as células que você deseja formatar.
 
-#### Etapa 1: Importar os pacotes necessários
+#### Etapa 1: Importar pacotes necessários
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -211,6 +213,9 @@ Neste tutorial, você aprendeu a utilizar o Aspose.Cells para Java para exportar
 - [Apoio à Comunidade](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

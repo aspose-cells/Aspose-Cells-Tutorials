@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java-Tabellenkalkulationsverarbeitungs-Tutorials
@@ -118,9 +120,11 @@ Vollständige Tutorials zum Erstellen von Berichtsvorlagen, Generieren von Dokum
 
 ### [Automatisierung und Stapelverarbeitung](./automation-batch-processing/)
 Schritt-für-Schritt-Tutorials zum Automatisieren von Excel-Aufgaben, zur Stapelverarbeitung mehrerer Dateien und zum Planen von Vorgängen mit Aspose.Cells für Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

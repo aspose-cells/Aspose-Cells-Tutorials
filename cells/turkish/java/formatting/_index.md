@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ Aspose.Cells for Java kullanarak Excel'de stil oluşturmayı otomatikleştirmeyi
 ### [Aspose.Cells Kullanarak Java'da Excel Temalarını Çıkarma: Kapsamlı Bir Kılavuz](./excel-theme-extraction-aspose-cells-java-guide/)
 Aspose.Cells for Java kullanarak Excel çalışma kitaplarından temaları nasıl çıkaracağınızı ve yöneteceğinizi öğrenin. Bu kılavuz kurulumu, kod örneklerini ve en iyi uygulamaları kapsar.
 
-### [Excel Çalışma Kitabı Başlatma ve Aspose.Cells Java Kullanarak Hücre Stili: Kapsamlı Bir Kılavuz](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
+### [Aspose.Cells Java'yı kullanarak Excel Çalışma Kitabı Başlatma ve Hücre Stili: Kapsamlı Bir Kılavuz](./excel-workbook-initialization-cell-styling-aspose-cells-java/)
 Aspose.Cells for Java ile Excel çalışma kitaplarını başlatma ve biçimlendirme konusunda uzmanlaşın. Bu kılavuz çalışma kitabı kurulumunu, hücre değişikliğini ve biçimlendirme tekniklerini kapsar.
 
 ### [Aspose.Cells Java ile Excel'de Çalışma Kitabı Stilini Geliştirme: Geliştiriciler İçin Kapsamlı Bir Kılavuz](./excel-workbook-styling-aspose-cells-java/)
@@ -205,7 +207,7 @@ Aspose.Cells ile Java'da veri biçimlendirmede ustalaşmayı öğrenin. Bu kıla
 Aspose.Cells for Java kullanarak Excel satır yüksekliklerini kolayca nasıl ayarlayacağınızı öğrenin. Bu kapsamlı kılavuz, kitaplığı kurmaktan pratik çözümler uygulamaya kadar her şeyi kapsar.
 
 ### [Java'da Aspose.Cells Kullanarak Gölge Efektleri Nasıl Uygulanır: Eksiksiz Bir Kılavuz](./mastering-shadow-effects-java-aspose-cells/)
-Aspose.Cells for Java'yı kullanarak Excel şekillerine gölge efektlerinin nasıl uygulanacağını öğrenin. Profesyonel görsel stil ile elektronik tablolarınızı geliştirin.
+Aspose.Cells for Java kullanarak Excel şekillerine gölge efektlerinin nasıl uygulanacağını öğrenin. Profesyonel görsel stil ile elektronik tablolarınızı geliştirin.
 
 ### [Aspose.Cells ile Java'da Excel Stillerine Hakim Olmak: Kapsamlı Bir Kılavuz](./mastering-styles-excel-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel dosyalarınıza özel stiller oluşturmayı ve bunları programlama yoluyla uygulamayı öğrenin. Okunabilirliği artırın ve veri yönetimi iş akışlarınıza sorunsuz bir şekilde entegre edin.
@@ -228,7 +230,7 @@ Aspose.Cells for Java ile Excel çalışma sayfalarında yakınlaştırma faktö
 ### [Aspose.Cells Java Kullanarak Excel Verilerini Sütun Rengine Göre Sıralama: Eksiksiz Bir Kılavuz](./sort-excel-data-by-column-color-aspose-cells-java/)
 Aspose.Cells for Java kullanarak Excel verilerini sütun rengine göre verimli bir şekilde nasıl sıralayacağınızı öğrenin. Bu kılavuz ön koşulları, uygulama adımlarını ve pratik uygulamaları kapsar.
 
-### [Java için Aspose.Cells Kullanarak Excel Hücrelerine Stil Verme ve Köprüler Ekleme](./style-excel-cells-hyperlinks-aspose-cells-java/)
+### [Java için Aspose.Cells Kullanarak Excel Hücrelerine Nasıl Stil Verilir ve Köprüler Nasıl Eklenir](./style-excel-cells-hyperlinks-aspose-cells-java/)
 Aspose.Cells ile Excel hücrelerini biçimlendirmede ve Java uygulamalarınıza köprüler eklemede ustalaşın. Kusursuz entegrasyon ve biçimlendirme için bu kapsamlı kılavuzu izleyin.
 
 
@@ -243,6 +245,9 @@ Aspose.Cells ile Excel hücrelerini biçimlendirmede ve Java uygulamalarınıza 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

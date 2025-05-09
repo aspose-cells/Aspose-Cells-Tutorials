@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gruppieren von Daten in Pivot-Tabellen
@@ -108,9 +110,11 @@ Sie können die Gruppierung der Daten in einer Pivot-Tabelle anpassen, indem Sie
 ### 3. Kann ich die Erstellung von Pivot-Tabellen mit Aspose.Cells für Java automatisieren?
 
 Ja, Sie können die Erstellung von Pivot-Tabellen in Excel mit Aspose.Cells für Java automatisieren, wie in den bereitgestellten Quellcodebeispielen gezeigt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

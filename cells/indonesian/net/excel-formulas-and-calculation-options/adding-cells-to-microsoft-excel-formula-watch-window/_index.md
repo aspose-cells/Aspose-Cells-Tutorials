@@ -1,34 +1,36 @@
 ---
-title: Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel
-linktitle: Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan sel ke Excel Formula Watch Window menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhana dan efisien.
-weight: 10
-url: /id/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel-formula-watch-window/
+"description": "Pelajari cara menambahkan sel ke Excel Formula Watch Window menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhana dan efisien."
+"linktitle": "Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel"
+"url": "/id/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel-formula-watch-window/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menambahkan Sel ke Jendela Pengawas Rumus Microsoft Excel
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda siap untuk meningkatkan pengalaman buku kerja Excel Anda? Jika Anda bekerja dengan Microsoft Excel dan perlu memantau rumus dengan lebih efektif, maka Anda berada di tempat yang tepat! Dalam panduan ini, kita akan membahas cara menambahkan sel ke Formula Watch Window di Excel menggunakan Aspose.Cells for .NET. Fungsionalitas ini membantu Anda mengawasi rumus-rumus penting, sehingga pengelolaan spreadsheet menjadi jauh lebih lancar.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami seluk-beluk coding, mari pastikan Anda sudah siap untuk memulai perjalanan ini. Berikut ini yang Anda perlukan:
 
 - Visual Studio: Pastikan Anda telah menginstal Visual Studio. Jika belum, sekarang saatnya untuk mencobanya!
-- Aspose.Cells untuk .NET: Anda memerlukan pustaka Aspose.Cells. Jika Anda belum mengunduhnya, periksa[Tautan unduhan](https://releases.aspose.com/cells/net/).
+- Aspose.Cells untuk .NET: Anda memerlukan pustaka Aspose.Cells. Jika Anda belum mengunduhnya, periksa [Letöltési link](https://releases.aspose.com/cells/net/).
 - Pengetahuan Dasar C#: Sedikit latar belakang dalam pemrograman C# akan sangat membantu dalam memahami tutorial ini.
 - .NET Framework: Pastikan Anda memiliki versi .NET Framework yang kompatibel dalam proyek Visual Studio Anda.
 
 Sudah mendapatkan semua yang Anda butuhkan? Keren! Mari kita masuk ke bagian yang menyenangkan—mengimpor paket yang diperlukan.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum kita mulai membuat kode, mari kita sertakan pustaka penting. Buka proyek .NET Anda dan impor namespace Aspose.Cells di awal file C# Anda. Berikut cara melakukannya:
 
@@ -41,17 +43,17 @@ using System.Text;
 
 Baris tunggal ini memungkinkan Anda mengakses semua fungsi yang disediakan oleh Aspose.Cells! Sekarang, kita siap memulai panduan langkah demi langkah untuk menambahkan sel ke Formula Watch Window.
 
-## Langkah 1: Siapkan Direktori Output Anda
+## 1. lépés: A kimeneti könyvtár beállítása
 
 Memiliki direktori keluaran yang terdefinisi dengan baik seperti memiliki peta di kota baru; peta tersebut akan mengarahkan Anda ke tujuan dengan mudah. Anda perlu menentukan di mana file Excel akhir Anda akan disimpan.
 
 ```csharp
-string outputDir = "Your Document Directory"; // Ganti dengan direktori Anda yang sebenarnya
+string outputDir = "Your Document Directory"; // Cserélje le a tényleges könyvtárára
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur pada sistem Anda. Ini memastikan bahwa saat program menyimpan buku kerja, program tersebut mengetahui dengan pasti di mana harus meletakkan berkas tersebut.
+Mindenképpen cserélje ki `"Your Document Directory"` dengan jalur pada sistem Anda. Ini memastikan bahwa saat program menyimpan buku kerja, program tersebut mengetahui dengan pasti di mana harus meletakkan berkas tersebut.
 
-## Langkah 2: Buat Buku Kerja Kosong
+## 2. lépés: Üres munkafüzet létrehozása
 
 Sekarang direktori kita sudah ditetapkan, mari buat buku kerja kosong. Bayangkan buku kerja sebagai kanvas kosong yang menunggu Anda untuk menuangkan beberapa data ke dalamnya!
 
@@ -59,9 +61,9 @@ Sekarang direktori kita sudah ditetapkan, mari buat buku kerja kosong. Bayangkan
 Workbook wb = new Workbook();
 ```
 
- Di sini, kita membuat contoh baru dari`Workbook` kelas. Ini memberi kita buku kerja baru yang kosong untuk dikerjakan. 
+Itt létrehozunk egy új példányt a következőből: `Workbook` kelas. Ini memberi kita buku kerja baru yang kosong untuk dikerjakan. 
 
-## Langkah 3: Akses Lembar Kerja Pertama
+## 3. lépés: Az első munkalap elérése
 
 Setelah buku kerja kita siap, saatnya mengakses lembar kerja pertama. Setiap buku kerja memiliki kumpulan lembar kerja, dan untuk contoh ini, kita akan bekerja terutama di dalam lembar kerja pertama.
 
@@ -69,7 +71,7 @@ Setelah buku kerja kita siap, saatnya mengakses lembar kerja pertama. Setiap buk
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Itu`Worksheets` koleksi memungkinkan kita untuk mengakses semua lembar di buku kerja. Dengan`[0]`, kami secara khusus menargetkan lembar pertama, karena itu adalah titik awal yang paling logis!
+A `Worksheets` koleksi memungkinkan kita untuk mengakses semua lembar di buku kerja. Dengan `[0]`kami secara khusus menargetkan lembar pertama, karena itu adalah titik awal yang paling logis!
 
 ## Langkah 4: Masukkan Nilai Integer ke dalam Sel
 
@@ -101,7 +103,7 @@ Sekarang setelah rumus kita siap, saatnya menambahkannya ke Jendela Pengawasan R
 ws.CellWatches.Add(c1.Name);
 ```
 
- Dengan`CellWatches.Add`pada dasarnya kita berkata, “Hai Excel, awasi C1 untuk saya!” Ini memastikan bahwa setiap perubahan pada sel dependen rumus akan tercermin di Jendela Pengawasan Rumus.
+Vel `CellWatches.Add`, pada dasarnya kita berkata, “Hai Excel, awasi C1 untuk saya!” Ini memastikan bahwa setiap perubahan pada sel dependen rumus akan tercermin di Jendela Pengawasan Rumus.
 
 ## Langkah 7: Tetapkan Rumus Lain di Sel E1
 
@@ -124,7 +126,7 @@ ws.CellWatches.Add(e1.Row, e1.Column);
 
 Dengan menambahkan E1 dengan cara ini, kami memastikan bahwa rumus kedua kami juga dipantau secara ketat. Ini fantastis untuk melacak beberapa kalkulasi tanpa kekacauan!
 
-## Langkah 9: Simpan Buku Kerja
+## 9. lépés: A munkafüzet mentése
 
 Sekarang semuanya sudah pada tempatnya dan rumus sudah diatur untuk dipantau, mari simpan kerja keras kita ke dalam berkas Excel.
 
@@ -132,32 +134,34 @@ Sekarang semuanya sudah pada tempatnya dan rumus sudah diatur untuk dipantau, ma
 wb.Save(outputDir + "outputAddCellsToMicrosoftExcelFormulaWatchWindow.xlsx", SaveFormat.Xlsx);
 ```
 
-Baris ini menyimpan buku kerja ke direktori yang ditentukan dalam format XLSX.`SaveFormat.Xlsx` bagian memastikannya disimpan sebagai file Excel modern. Seperti menyelesaikan lukisan dan menaruhnya dalam bingkai, langkah ini membuatnya.
+Baris ini menyimpan buku kerja ke direktori yang ditentukan dalam format XLSX. `SaveFormat.Xlsx` bagian memastikannya disimpan sebagai file Excel modern. Seperti menyelesaikan lukisan dan menaruhnya dalam bingkai, langkah ini membuatnya.
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda telah berhasil menambahkan sel ke Microsoft Excel Formula Watch Window menggunakan Aspose.Cells for .NET. Anda telah mempelajari cara membuat buku kerja, menyisipkan nilai, mengatur rumus, dan mengawasi rumus tersebut melalui Formula Watch Window. Baik Anda mengelola data yang kompleks atau hanya ingin menyederhanakan perhitungan, pendekatan ini dapat meningkatkan pengalaman spreadsheet Anda secara signifikan.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa itu Formula Watch Window di Excel?  
 Jendela Formula Watch di Excel memungkinkan Anda memantau nilai rumus tertentu saat Anda membuat perubahan pada lembar kerja Anda.
 
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells untuk .NET?  
- Ya, Aspose.Cells memerlukan lisensi untuk penggunaan komersial, tetapi Anda dapat memulai dengan uji coba gratis yang tersedia di[Tautan uji coba gratis](https://releases.aspose.com/).
+### Szükségem van licencre az Aspose.Cells for .NET használatához?  
+Ya, Aspose.Cells memerlukan lisensi untuk penggunaan komersial, tetapi Anda dapat memulai dengan uji coba gratis yang tersedia di [Ingyenes próbaverzió linkje](https://releases.aspose.com/).
 
 ### Bisakah saya menggunakan Aspose.Cells pada platform lain selain .NET?  
 Aspose.Cells memiliki pustaka untuk berbagai platform, termasuk Java, Android, dan layanan Cloud.
 
-### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Cells?  
- Anda dapat menemukan dokumentasi terperinci di Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
+### Hol találok további dokumentációt az Aspose.Cells-ről?  
+Anda dapat menemukan dokumentasi terperinci di Aspose.Cells [itt](https://reference.aspose.com/cells/net/).
 
 ### Bagaimana saya dapat melaporkan masalah atau mencari dukungan untuk Aspose.Cells?  
- Anda bisa mendapatkan bantuan dari komunitas Aspose di[Forum dukungan](https://forum.aspose.com/c/cells/9).
+Anda bisa mendapatkan bantuan dari komunitas Aspose di [Forum dukungan](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

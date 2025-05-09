@@ -1,60 +1,65 @@
 ---
-title: Переобороть и переустроить диаграмму в Excel с использованием Aspose.Cells для .NET
-weight: 7700
-limit: 
-description: Узнайте, как изменить размер и переположить график в рабочей книге Excel с помощью Aspose.Cells для .NET. Пошаговое руководство с примерами кода и инструкциями по установке.
-keywords: [Aspose.Cells for .NET, resize chart in Excel, reposition chart, Excel chart manipulation, .NET Excel library, C# Excel chart, modify Excel charts ]
-url: /ru/net/charts/change-chart-size-and-position/
+"description": "Узнайте, как изменить размер и положение диаграммы в книге Excel с помощью Aspose.Cells для .NET. Пошаговое руководство с примерами кода и инструкциями по установке."
+"title": "Изменение размера и положения диаграммы в Excel с помощью Aspose.Cells для .NET"
+"url": "/ru/net/charts/change-chart-size-and-position/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Переобороть и переустроить диаграмму в Excel с помощью Aspose.Cells 
-Aspose.Cells для .NET предоставляет мощный API для работы с файлами Excel программируемым образом. Этот пример демонстрирует, как изменить размер и переположить график в рабочей книге Excel с использованием Aspose.Cells. Независимо от того, нужно ли регулировать размеры графика или перенести его в определенное положение, этот учебник проходит через процесс с помощью простого C# кода. Используя Aspose.Cells, вы можете бесперебойно манипулировать графиками Excel, гарантируя точную форматку ваших отчетов и визуальных презентаций данных.  
+# Изменение размера и положения диаграммы в Excel с помощью Aspose.Cells 
+Aspose.Cells для .NET предоставляет мощный API для программной работы с файлами Excel. В этом примере показано, как изменить размер и положение диаграммы в книге Excel с помощью Aspose.Cells. Если вам нужно изменить размеры диаграммы или переместить ее в определенное положение, это руководство проведет вас через процесс с помощью простого кода C#. Используя Aspose.Cells, вы можете легко управлять диаграммами Excel, гарантируя точное форматирование ваших отчетов и визуальных презентаций данных.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкция по установке:  
 
-Чтобы использовать Aspose.Cells для .NET, выполните следующие шаги:  
+Чтобы использовать Aspose.Cells для .NET, выполните следующие действия:  
 
-1. Установка через управляющий пакетами NuGet  
-* Откройте визуальную студию.  
-* Перейти к инструментам → Управляющему пакетам NuGet → Управлению пакетами NuGet для решения.  
-* Поиск "Аспозиция. Клетки".  
-* Нажмите на Установите, чтобы добавить пакет к вашему проекту.  
+1. Установить через менеджер пакетов NuGet  
+- Откройте Visual Studio.  
+- Перейдите в меню Инструменты → Диспетчер пакетов NuGet → Управление пакетами NuGet для решения.  
+- Найдите Aspose.Cells.  
+- Нажмите «Установить», чтобы добавить пакет в свой проект.  
 
-В качестве альтернативы, установить его с помощью консоли NuGet Package Manager:  
+Либо установите его с помощью консоли диспетчера пакетов NuGet:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```
 
-2. Добавьте пространство имен в код C#  
+2. Добавьте пространство имен в свой код C#  
 ```csharp
 using Aspose.Cells;
 ```
 
-3. Ограничение действия (необязательно, для полной функции)  
-Если у вас есть лицензия, применяйте ее с помощью следующего кода:  
+3. Активировать лицензию (необязательно, для получения полного набора функций)  
+Если у вас есть лицензия, примените ее, используя следующий код:  
 
 ```csharp
 License license = new License();
 license.SetLicense("Aspose.Cells.lic");
 ```
 
-## См. также
-Для бесплатного пробного пробного процесса посетите [Старайтесь быть свободным](https://releases.aspose.com/)\- Я не знаю .  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.
+Для бесплатной пробной версии посетите [Бесплатная пробная версия Aspose](https://releases.aspose.com/).  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Innan du börjar, se till att du har följande:
 - En fungerande Java-utvecklingsmiljö
 - Maven- eller Gradle-byggverktyg
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering
 - Kunskap om Excel-filer (valfritt men fördelaktigt)
 
@@ -135,7 +137,7 @@ int heightOfValue = cell.getHeightOfValue();
 #### Översikt:
 Justera automatiskt rad- och kolumnstorlekar baserat på innehållsdimensioner.
 
-**Steg 1**: Ange pixeldimensioner.
+**Steg 1**Ange pixeldimensioner.
 ```java
 worksheet.getCells().setColumnWidthPixel(1, widthOfValue);
 worksheet.getCells().setRowHeightPixel(1, heightOfValue);
@@ -201,6 +203,9 @@ För att fortsätta utforska, överväg att integrera Aspose.Cells med andra sys
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

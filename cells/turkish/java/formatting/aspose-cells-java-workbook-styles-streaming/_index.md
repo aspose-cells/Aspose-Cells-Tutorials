@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ class LightCellsDataProviderFeature implements LightCellsDataProvider {
     }
 
     public boolean isGatherString() {
-        return false; // Hiçbir ip toplamaya gerek yok.
+        return false; // Tel toplamaya gerek yok.
     }
 
     public int nextCell() {
@@ -221,6 +223,9 @@ Doğru tekniklerle, Aspose.Cells for Java, Excel çalışma kitaplarını yönet
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Inserir imagens dinâmicas no Excel sem incorporá-las é crucial ao lidar com recursos atualizados com frequência, como logotipos de empresas ou conteúdo da web. Com **Aspose.Cells para Java**, você pode vincular imagens da web diretamente aos seus arquivos do Excel com eficiência. Este tutorial o guiará pela configuração e inserção de imagens vinculadas usando o Aspose.Cells.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando o Aspose.Cells para Java no seu projeto.
 - Inserir uma imagem vinculada em uma planilha do Excel.
 - Principais opções de configuração para desempenho ideal.
@@ -172,6 +174,9 @@ Pronto para ir mais longe? Implemente essas soluções em seus projetos hoje mes
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

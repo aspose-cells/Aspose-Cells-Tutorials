@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Aspose.Cells for Java jest produktem komercyjnym. Możesz jednak uzyskać bezpł
 
 ### Inicjalizacja
 
-Po dodaniu Aspose.Cells jako zależności i obsłużeniu licencji:
+Po dodaniu Aspose.Cells jako zależności i obsłudze licencji:
 ```java
 import com.aspose.cells.*;
 
@@ -203,6 +205,9 @@ Ten przewodnik wyposażył Cię w umiejętności tworzenia listy walidacji danyc
 - **Licencja tymczasowa:** Złóż wniosek o tymczasową licencję na rozszerzoną ocenę w [Strona licencji](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Agrupación de datos en tablas dinámicas
@@ -108,9 +110,11 @@ Puede personalizar la agrupación de datos en una tabla dinámica utilizando el 
 ### 3. ¿Puedo automatizar la creación de tablas dinámicas utilizando Aspose.Cells para Java?
 
 Sí, puede automatizar la creación de tablas dinámicas en Excel utilizando Aspose.Cells para Java, como se demuestra en los ejemplos de código fuente proporcionados.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

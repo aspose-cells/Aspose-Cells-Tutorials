@@ -1,26 +1,28 @@
 ---
-title: Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML
-linktitle: Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak efektywnie eksportować arkusze kalkulacyjne programu Excel do formatu HTML z oddzielnym kodem CSS za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 14
-url: /pl/net/exporting-excel-to-html-with-advanced-options/exporting-worksheet-css-separately/
+"description": "Dowiedz się, jak efektywnie eksportować arkusze kalkulacyjne programu Excel do formatu HTML z oddzielnym kodem CSS za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML"
+"url": "/pl/net/exporting-excel-to-html-with-advanced-options/exporting-worksheet-css-separately/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportowanie arkusza kalkulacyjnego CSS oddzielnie w wyjściowym HTML
 
 ## Wstęp
-W tym przewodniku dowiesz się, jak eksportować arkusz kalkulacyjny programu Excel do HTML, ze szczególnym uwzględnieniem eksportowania CSS oddzielnie. To nie tylko poprawia łatwość utrzymania stylów, ale także zwiększa wydajność przepływu pracy. Teraz przejdźmy od razu do wymagań wstępnych i zabierzmy się do pracy!
+W tym przewodniku dowiesz się, jak eksportować arkusz kalkulacyjny programu Excel do HTML, ze szczególnym uwzględnieniem eksportowania CSS oddzielnie. To nie tylko poprawia łatwość utrzymania stylów, ale także zwiększa wydajność przepływu pracy. Teraz przejdźmy od razu do wymagań wstępnych i zabierzmy się do roboty!
 ## Wymagania wstępne
 Zanim przejdziemy do kodu, oto co będzie Ci potrzebne, aby ten samouczek przebiegał sprawnie:
-1. Licencja Aspose.Cells dla .NET: Aby w pełni wykorzystać funkcje Aspose.Cells, potrzebujesz licencji. Możesz[pobierz najnowszą wersję](https://releases.aspose.com/cells/net/)lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli tylko chcesz zbadać sytuację.
+1. Licencja Aspose.Cells dla .NET: Aby w pełni wykorzystać funkcje Aspose.Cells, potrzebujesz licencji. Możesz [pobierz najnowszą wersję](https://releases.aspose.com/cells/net/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli tylko chcesz zbadać sytuację.
 2. Środowisko programistyczne: Najlepiej byłoby, gdybyś miał zainstalowany program Visual Studio, aby móc bezproblemowo uruchamiać projekty .NET.
 3. Podstawowa wiedza o języku C#: Podstawowe umiejętności programowania w języku C# pomogą Ci lepiej zrozumieć fragmenty kodu.
-4.  Dokumentacja referencyjna: Zapoznaj się z[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby uzyskać dostęp do dodatkowych funkcji i możliwości.
+4. Dokumentacja referencyjna: Zapoznaj się z [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby uzyskać dostęp do dodatkowych funkcji i możliwości.
 Gdy już spełnisz te wymagania wstępne, możemy przejść do ekscytującej części!
 ## Importuj pakiety
 Aby rozpocząć, musisz zaimportować odpowiednie przestrzenie nazw z Aspose.Cells. Oto, jak możesz to skonfigurować:
@@ -33,19 +35,19 @@ using System.Drawing;
 ```
 To oprogramowanie zapewni Ci wszystkie niezbędne narzędzia do tworzenia skoroszytów, edytowania arkuszy i zarządzania stylami.
 
-Podzielmy to na mniejsze, łatwiejsze do opanowania części. Każdy krok przybliży Cię do celu, jakim jest wyeksportowanie dynamicznego arkusza kalkulacyjnego programu Excel do pliku HTML z zachowaniem wszystkich funkcji CSS!
+Podzielmy to na mniejsze, łatwiejsze do opanowania części. Każdy krok przybliży Cię do celu, jakim jest wyeksportowanie dynamicznego arkusza kalkulacyjnego programu Excel do pliku HTML z zachowaniem wszystkich właściwości CSS!
 ## Krok 1: Ustaw katalog wyjściowy
 Pierwszą rzeczą, którą musisz zrobić, jest podjęcie decyzji, gdzie chcesz zapisać wyeksportowany plik HTML. Jest to kluczowe, ponieważ jeśli zrobisz to źle, możesz skończyć na szukaniu dokumentu wysoko i nisko!
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Po prostu zamień`"Your Document Directory"` ze ścieżką, pod którą chcesz zapisać plik. Na przykład:`string outputDir = @"C:\MyExports\";`.
+Po prostu zamień `"Your Document Directory"` ze ścieżką, pod którą chcesz zapisać plik. Na przykład: `string outputDir = @"C:\MyExports\";`.
 ## Krok 2: Utwórz obiekt skoroszytu
 Następnie musimy utworzyć nowy obiekt skoroszytu. Pomyśl o skoroszycie jako o pustym płótnie, gdzie dzieje się cała magia!
 ```csharp
 Workbook wb = new Workbook();
 ```
- W ten sposób zainicjowaliśmy nową instancję klasy Workbook. Ta zmienna`wb` będzie teraz zawierał cały nasz arkusz kalkulacyjny Excel.
+W ten sposób zainicjowaliśmy nową instancję klasy Workbook. Ta zmienna `wb` będzie teraz zawierał cały nasz arkusz kalkulacyjny Excel.
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Teraz czas zanurzyć się w płótnie i chwycić pierwszy arkusz roboczy. Ta część jest prosta, ponieważ do tego samouczka potrzebujemy tylko pierwszego arkusza.
 ```csharp
@@ -73,13 +75,13 @@ Na tym etapie przygotujemy opcje zapisu HTML. Jest to kluczowe dla zapewnienia, 
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.ExportWorksheetCSSSeparately = true;
 ```
- Z`ExportWorksheetCSSSeparately` opcja ustawiona na true, informujesz bibliotekę, aby obsługiwała style CSS oddzielnie, zamiast osadzać je bezpośrednio w pliku HTML.
+Z `ExportWorksheetCSSSeparately` opcja ustawiona na true, informujesz bibliotekę, aby obsługiwała style CSS oddzielnie, zamiast osadzać je bezpośrednio w pliku HTML.
 ## Krok 7: Zapisz skoroszyt jako HTML
 W końcu nadszedł czas, aby zapisać całą ciężką pracę! Ten wiersz zapisuje skoroszyt w określonym katalogu wyjściowym jako plik HTML.
 ```csharp
 wb.Save(outputDir + "outputExportWorksheetCSSSeparately.html", opts);
 ```
-Tutaj nadajemy nazwę naszemu plikowi wyjściowemu`outputExportWorksheetCSSSeparately.html`I voilà — udało Ci się!
+Tutaj nadajemy nazwę naszemu plikowi wyjściowemu `outputExportWorksheetCSSSeparately.html`I voilà — udało Ci się!
 ## Krok 8: Potwierdź wykonanie
 Aby mieć pewność, że wszystko przebiegło pomyślnie, zawsze warto wysłać komunikat potwierdzający.
 ```csharp
@@ -92,16 +94,18 @@ I oto masz — Twój własny przewodnik po eksportowaniu arkusza kalkulacyjnego 
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca tworzenie, modyfikowanie i konwertowanie arkuszy kalkulacyjnych programu Excel bez konieczności korzystania z programu Microsoft Excel.
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Cells?
- Darmową wersję próbną możesz pobrać ze strony[Strona wydań Aspose.Cells](https://releases.aspose.com/).
+Darmową wersję próbną możesz pobrać ze strony [Strona wydań Aspose.Cells](https://releases.aspose.com/).
 ### Czy mogę dodatkowo dostosować wynik HTML?
 Tak, Aspose.Cells oferuje różne opcje dostosowywania wyników HTML do Twoich potrzeb.
 ### Czy można manipulować innymi elementami arkusza za pomocą Aspose.Cells?
 Oczywiście! Aspose.Cells pozwala manipulować wykresami, obrazami i wieloma innymi elementami w arkuszu kalkulacyjnym.
 ### Gdzie mogę znaleźć dodatkowe materiały?
- Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
+Sprawdź [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

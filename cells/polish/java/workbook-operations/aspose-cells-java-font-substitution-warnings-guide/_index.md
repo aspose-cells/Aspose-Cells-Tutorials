@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Kolejne kroki mogą obejmować zbadanie innych typów ostrzeżeń lub integracj�
 - **Zakup i licencjonowanie:** Uzyskaj licencję lub wypróbuj bezpłatną wersję próbną za pośrednictwem [Zakup Aspose](https://purchase.aspose.com/buy) Lub [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

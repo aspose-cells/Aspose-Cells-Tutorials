@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Aspose.Cells는 평가 목적으로 무료 체험판 라이선스를 제공합�
 1. 방문하세요 [무료 체험](https://releases.aspose.com/cells/java/) 페이지.
 2. 임시 라이센스를 다운로드하여 귀하의 신청서에 적용하세요.
 
-상업적 사용의 경우 다음에서 전체 라이센스를 구매하는 것을 고려하세요. [구입](https://purchase.aspose.com/buy) 해당 웹사이트의 섹션입니다.
+상업적 사용의 경우 다음에서 전체 라이센스를 구매하는 것을 고려하십시오. [구입](https://purchase.aspose.com/buy) 해당 웹사이트의 섹션입니다.
 
 ### 기본 초기화
 
@@ -192,6 +194,9 @@ A: 네, Aspose.Cells는 다양한 Excel 함수를 지원하므로 복잡한 스�
 이제 모든 정보와 리소스를 갖추었으니, Java에서 Aspose.Cells를 사용하여 동적 Excel 파일을 만들어 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

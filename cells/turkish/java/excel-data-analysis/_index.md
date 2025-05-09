@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Veri Analizi
@@ -32,7 +34,7 @@ Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Sıralama, 
 ### [Gelişmiş Veri Analizi Excel](./advanced-data-analysis-excel/)
 Aspose.Cells for Java ile Excel'de gelişmiş veri analizinde ustalaşın. Kaynak kod örnekleriyle adım adım öğrenin.
 ### [Veri Analizi Excel Pivot](./data-analysis-excel-pivot/)
-Java için Aspose.Cells ile Excel'de Veri Analizini Öğrenin: Pivot tabloların etkili kullanımı için adım adım kılavuz.
+Aspose.Cells for Java ile Excel'de Veri Analizini Öğrenin: Pivot tabloların etkili kullanımı için adım adım kılavuz.
 ### [Veri Analizi Excel Grafikleri](./data-analysis-excel-charts/)
 Java için Aspose.Cells ile Veri Analizinde Mükemmelliğin Kilidini Açın. Çarpıcı Excel Grafikleri ve Raporları Oluşturun.
 ### [Veri Analizi Excel Formülleri](./data-analysis-excel-formulas/)
@@ -41,6 +43,7 @@ Aspose.Cells for Java ile Excel'de Veri Analizinin Gücünü Açın. Temel Form�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

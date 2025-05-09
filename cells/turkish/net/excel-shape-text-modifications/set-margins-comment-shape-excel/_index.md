@@ -1,14 +1,16 @@
 ---
-title: Excel'de Yorum veya Şekil için Kenar Boşluklarını Ayarlama
-linktitle: Excel'de Yorum veya Şekil için Kenar Boşluklarını Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de yorumlar ve şekiller için kenar boşluklarının nasıl ayarlanacağını öğrenin. Kolay uygulama için adım adım kılavuz eklenmiştir.
-weight: 18
-url: /tr/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel'de yorumlar ve şekiller için kenar boşluklarının nasıl ayarlanacağını öğrenin. Kolay uygulama için adım adım kılavuz eklenmiştir."
+"linktitle": "Excel'de Yorum veya Şekil için Kenar Boşluklarını Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Yorum veya Şekil için Kenar Boşluklarını Ayarlama"
+"url": "/tr/net/excel-shape-text-modifications/set-margins-comment-shape-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Yorum veya Şekil için Kenar Boşluklarını Ayarlama
@@ -21,8 +23,8 @@ Kodlama macerasına dalmadan önce, bu eğitimi başarıyla yürütmek için iht
 C# ve .NET hakkında temel bir anlayışa sahip olmalısınız. Bu eğitim, programlama kavramları hakkında en azından temel bir anlayışa sahip olanlar için tasarlanmıştır.
 ### Çevre Kurulumu
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun. Kodlamayı basitleştiren bir geliştirme ortamıdır.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız var. Henüz indirmediyseniz, indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-3. Örnek Excel Dosyası: Bir örnek Excel dosyası oluşturun veya indirin. Bu eğitim için, adlı bir dosya kullanacağız`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine ihtiyacınız var. Henüz indirmediyseniz, indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
+3. Örnek Excel Dosyası: Bir örnek Excel dosyası oluşturun veya indirin. Bu eğitim için, adlı bir dosya kullanacağız `sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Paketleri İçe Aktarma
 Yolculuğumuzun ilk adımı gerekli paketleri içe aktarmaktır. Projenize Aspose.Cells ad alanlarını eklemeniz gerekecektir. Bu, Aspose.Cells'in sunduğu tüm işlevlere erişmenizi sağlayacaktır.
 ### Projenizi Açın
@@ -53,9 +55,9 @@ string sourceDir = "Your Document Directory";
 //Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
-Değiştirdiğinizden emin olun`"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile.
+Değiştirdiğinizden emin olun `"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile.
 ## Adım 2: Excel Dosyasını Yükleyin
- Bu adımda, üzerinde çalışmayı planladığımız Excel dosyasını açacağız. Gücünden yararlanalım`Workbook` sınıf.
+Bu adımda, üzerinde çalışmayı planladığımız Excel dosyasını açacağız. Gücünden yararlanalım `Workbook` sınıf.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx");
 ```
@@ -73,12 +75,12 @@ foreach (Shape sh in ws.Shapes)
 ```
 Burada foreach döngüsünü kullanıyoruz. Bu, her şekli tek tek ele almanın basit bir yoludur.
 ## Adım 5: Metin Hizalamasını Ayarlayın
-Her şeklin, değiştirmemiz gereken bir hizalama ayarı zaten olabilir. Burada, şeklin metin hizalamasına erişiyoruz ve kenar boşluklarını manuel olarak ayarlayacağımızı belirtiyoruz.
+Her şeklin, değiştirmemiz gereken bir hizalama ayarı olabilir. Burada, şeklin metin hizalamasına erişiyoruz ve kenar boşluklarını manuel olarak ayarlayacağımızı belirtiyoruz.
 ```csharp
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Ayarlayarak`IsAutoMargin`false'a çevirirsek, artık kenar boşlukları üzerinde kontrole sahibiz.
+Ayarlayarak `IsAutoMargin` false'a çevirirsek, artık kenar boşlukları üzerinde kontrole sahibiz.
 ## Adım 6: Kenar Boşluklarını Ayarlayın
 Bu, kenar boşluklarını tanımladığımız kritik adımdır. Bu değerleri ihtiyaçlarınıza göre özelleştirebilirsiniz.
 ```csharp
@@ -103,18 +105,20 @@ Console.WriteLine("SetMarginsOfCommentOrShapeInsideTheWorksheet executed success
 Tebrikler! Aspose.Cells for .NET kullanarak Excel'de yorumlar veya şekiller için kenar boşluklarını nasıl ayarlayacağınızı öğrendiniz. Bu işlevsellik yalnızca Excel belgelerinize cilalı bir görünüm kazandırmakla kalmaz, aynı zamanda okunabilirliği de artırarak verilerinizin net bir şekilde sunulmasını sağlar. İster raporlama görevlerini otomatikleştiren bir uygulama geliştiriyor olun, ister sadece projelerinizi geliştiriyor olun, bu bilginin işe yarayacağı kesindir.
 ## SSS
 ### Aspose.Cells Nedir?
-Aspose.Cells, Microsoft Excel'in kurulu olmasına gerek kalmadan Excel dosyaları oluşturmak, düzenlemek ve dönüştürmek için tasarlanmış bir .NET kütüphanesidir.
+Aspose.Cells, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosyaları oluşturmak, düzenlemek ve dönüştürmek için tasarlanmış bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Aspose.Cells ücretsiz deneme sunuyor. İndirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Aspose.Cells ücretsiz deneme sunuyor. İndirebilirsiniz [Burada](https://releases.aspose.com/).
 ### Aspose.Cells için lisans nasıl satın alabilirim?
- Bu adresi ziyaret ederek bir Aspose.Cells lisansı satın alabilirsiniz.[satın alma bağlantısı](https://purchase.aspose.com/buy).
+Bu adresi ziyaret ederek bir Aspose.Cells lisansı satın alabilirsiniz. [satın alma bağlantısı](https://purchase.aspose.com/buy).
 ### Kütüphanenin mevcut projelere entegrasyonu kolay mı?
 Kesinlikle! Aspose.Cells .NET projelerine kolayca entegre olur ve API'si basittir.
-### Aspose.Cells için desteği nerede bulabilirim?
- Aspose aracılığıyla destek alabilirsiniz[forum](https://forum.aspose.com/c/cells/9).
+### Aspose.Cells için desteği nereden bulabilirim?
+Aspose aracılığıyla destek alabilirsiniz [forum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

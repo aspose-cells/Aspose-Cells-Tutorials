@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ Inkludera detta i din `build.gradle` fil:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Licensförvärv**Börja med en gratis provperiod eller tillfällig licens från Aspose för att utvärdera bibliotekets kapacitet. För långvarig användning, överväg att köpa en prenumeration.
+**Licensförvärv**Börja med en gratis provperiod eller tillfällig licens från Aspose för att utvärdera bibliotekets kapacitet. För långvarig användning kan du överväga att köpa en prenumeration.
 
 ### Grundläggande initialisering
 När du har konfigurerat, initiera ditt arbetsboksobjekt i Java:
@@ -160,6 +162,9 @@ För att ytterligare utforska bibliotekets potential kan du experimentera med yt
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

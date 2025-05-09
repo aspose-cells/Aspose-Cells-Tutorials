@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Diagram interaktivitás
@@ -70,11 +72,11 @@ chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(
 ```
 
 ### 4.3. Drill-down megvalósítása
-részletezési funkciók megvalósításához használhat hiperhivatkozásokat, vagy létrehozhat egyéni műveleteket. Íme egy példa egy adatponthoz való hiperhivatkozás hozzáadására:
+A részletezési funkciók megvalósításához használhat hiperhivatkozásokat, vagy létrehozhat egyéni műveleteket. Íme egy példa egy adatponthoz való hiperhivatkozás hozzáadására:
 
 ```java
 // Adatpontra mutató hivatkozás hozzáadása
-String url = "https://példa.com/adatok-részletei";
+String url = "https://example.com/data-details";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
@@ -111,6 +113,7 @@ További példákat és részletes dokumentációt az Aspose.Cells Java-ban val�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

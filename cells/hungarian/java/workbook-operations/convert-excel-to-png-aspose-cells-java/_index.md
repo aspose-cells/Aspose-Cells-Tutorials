@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ Az optimális teljesítmény érdekében:
 Most, hogy megtanultad, hogyan konvertálhatsz Excel-fájlokat PNG-képekké az Aspose.Cells segítségével, érdemes lehet felfedezni ennek a hatékony könyvtárnak a további funkcióit. Automatizálhatsz különféle táblázatkezelő feladatokat, vagy integrálhatod ezeket a képességeket nagyobb Java-alkalmazásokba.
 ### Következő lépések
 - Kísérletezzen különböző `ImageOrPrintOptions` beállítások.
-- Tekintse meg a teljes dokumentációt a következő címen: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
+- A teljes dokumentációt itt tekintheti meg: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
 Készen állsz az Excel-fájljaid konvertálására? Alkalmazd ezt a megoldást a következő projektedben, és nézd meg, hogyan javítja az adatmegosztást!
 ## GYIK szekció
 **1. kérdés: Az Aspose.Cells hatékonyan tudja kezelni a nagyméretű Excel fájlokat?**
@@ -142,6 +144,9 @@ A5: Az Aspose.Cells különféle formátumokat támogat, például JPEG, BMP vag
 - **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

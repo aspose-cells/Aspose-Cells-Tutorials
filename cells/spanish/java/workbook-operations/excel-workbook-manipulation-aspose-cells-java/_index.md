@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@
 - Acceder a hojas de cálculo y eliminar paneles en un archivo de Excel
 - Guardar las modificaciones en el sistema de archivos
 
-¡Profundicemos en estas funcionalidades paso a paso!
+¡Vamos a sumergirnos en estas funcionalidades paso a paso!
 
 ## Prerrequisitos
 
@@ -172,6 +174,9 @@ Esta guía completa te proporciona los conocimientos necesarios para manipular e
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

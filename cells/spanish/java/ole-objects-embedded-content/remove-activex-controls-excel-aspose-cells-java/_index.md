@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ Ya aprendió a eliminar eficazmente los controles ActiveX de los libros de Excel
    - Sí, Aspose.Cells le permite acceder y manipular varios tipos de formas dentro de un libro de Excel.
 
 3. **¿Es posible automatizar este proceso para múltiples archivos?**
-   - ¡Por supuesto! Puedes escribir un script para iterar sobre varios libros de trabajo y aplicar la misma lógica programáticamente.
+   - ¡Claro! Puedes escribir un script para iterar sobre varios libros de trabajo y aplicar la misma lógica programáticamente.
 
 4. **¿Cuáles son algunos problemas comunes al utilizar Aspose.Cells?**
    - Los problemas comunes incluyen dependencias faltantes o rutas de archivos incorrectas, que puedes resolver verificando la configuración y las configuraciones de tu proyecto.
@@ -190,6 +192,9 @@ Ya aprendió a eliminar eficazmente los controles ActiveX de los libros de Excel
 ¡Embárquese hoy mismo en su viaje con Aspose.Cells Java y desbloquee todo el potencial de la manipulación de archivos de Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

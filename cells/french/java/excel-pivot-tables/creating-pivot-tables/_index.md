@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Création de tableaux croisés dynamiques
@@ -102,9 +104,11 @@ Dans ce tutoriel, nous avons expliqué comment créer des tableaux croisés dyna
    Vous pouvez automatiser la création de tableaux croisés dynamiques en Java à l’aide de l’API Aspose.Cells pour Java, comme illustré dans ce didacticiel.
 
 Vous disposez désormais des connaissances et du code nécessaires pour créer de puissants tableaux croisés dynamiques en Java avec Aspose.Cells. Testez différentes sources de données et configurations pour adapter vos tableaux croisés dynamiques à vos besoins spécifiques. Bonne analyse de données !
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

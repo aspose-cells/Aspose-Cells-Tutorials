@@ -1,50 +1,55 @@
 ---
-title: 建立PDF從 Excel 圖表中,
-weight: 7700
-limit: 
-description: 學習如何使用Aspose.Cells來從 Excel 圖表中製作特定頁面大小的 PDF.
-keywords: [Aspose.Cells for .NET, Excel to PDF, export chart to PDF, generate PDF from Excel, C# Excel PDF conversion, chart to PDF C#, .NET Excel library]
-url: /zh-hant/net/charts/create-chart-pdf-with-desired-page-size/
+"description": "了解如何使用 Aspose.Cells for .NET 從具有指定頁面大小的 Excel 圖表建立 PDF。帶有程式碼範例的分步指南。"
+"title": "使用指定頁面大小從 Excel 圖表建立 PDF"
+"url": "/zh-hant/net/charts/create-chart-pdf-with-desired-page-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 建立PDF從 Excel 圖表中,
+# 使用指定頁面大小從 Excel 圖表建立 PDF
 
-輸出表格從 Excel 輸出到一個有精確頁面布局的 PDF 檔案是報告和數據可視化的關鍵要求. 這教學展示了如何使用Aspose.Cells在 .NET 來生成 Excel 圖表中的 PDF,同時指定頁面大小和對齊.您將學習如何加載 Excel 檔案,访问工作表及其圖表,並將其轉換成格式良好的 PDF 檔案.  
+將圖表從 Excel 匯出為具有精確頁面佈局的 PDF 檔案是報表和資料視覺化的關鍵要求。本教學課程示範如何使用 Aspose.Cells for .NET 從 Excel 圖表產生 PDF，同時指定頁面大小和對齊方式。您將學習如何載入 Excel 文件、存取工作表及其圖表以及如何將其轉換為格式良好的 PDF 文件。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-chart-pdf-with-desired-page-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置說明  
-請使用以下步:  
 
-1. 透過NuGet安裝:  
-   在 Visual Studio 打開 NuGet 包管理器,然後執行:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安裝說明  
+若要使用 Aspose.Cells for .NET，請依照下列步驟操作：  
+
+1. 透過 NuGet 安裝：  
+   在 Visual Studio 中開啟 NuGet 套件管理器並執行：  
    ```sh
    Install-Package Aspose.Cells
    ```  
 
-2. 下載DLL:  
-   獲得最新版本[網頁下載頁面的Aspose.Cells](https://releases.aspose.com/cells/net/)我們都在等.  
+2. 下載 DLL：  
+   從 [Aspose.Cells for .NET下載頁面](https://releases。aspose.com/cells/net/).  
 
-3. 包含名稱空間:  
-   請將以下內容加入您的C#檔案:  
+3. 包括命名空間：  
+   在您的 C# 檔案中加入以下內容：  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Rendering;
    ```  
-## 更多 閱讀
-免費試用,請訪問[提供免費試用](https://releases.aspose.com/)我們都在等.  
-購買駕照的方法:[購買頁面](https://purchase.aspose.com/buy)我們都在等.  
-查看更多關於此事的資料.[網頁文檔的Aspose.Cells](https://docs.aspose.com/cells/net/)我們都在等.  
-查看這個網站的全文.[應用程式使用者應使用Aspose.Cells](https://reference.aspose.com/cells/net/)我們都在等. 
+## 另請參閱
+如需免費試用，請訪問 [Aspose 免費試用](https://releases。aspose.com/).  
+要購買許可證，請訪問 [Aspose 購買頁面](https://purchase。aspose.com/buy).  
+如需完整文檔，請訪問 [Aspose.Cells for .NET文檔](https://docs。aspose.com/cells/net/).  
+若要探索完整的 API 參考，請查看 [Aspose.Cells for .NET API參考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

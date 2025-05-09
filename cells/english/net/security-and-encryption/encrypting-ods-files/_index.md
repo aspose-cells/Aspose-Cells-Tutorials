@@ -8,7 +8,9 @@ url: /net/security-and-encryption/encrypting-ods-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Encrypting ODS Files in .NET
@@ -112,9 +114,11 @@ Absolutely! You can set up a script that automatically encrypts files based on s
 Yes, commercial use requires a license, but you can explore the free trial options available.
 ### Where can I find more about Aspose.Cells features?
 You can check out the extensive [documentation](https://reference.aspose.com/cells/net/) for more information on features and functionalities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

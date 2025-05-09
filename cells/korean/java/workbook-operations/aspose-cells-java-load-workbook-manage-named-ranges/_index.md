@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ String refersTo = namedRange.getRefersTo();
 
 대규모 데이터 세트나 수많은 통합 문서를 작업할 때 성능을 최적화하기 위해 다음 팁을 고려하세요.
 - **효율적인 메모리 관리 사용**: 사용하지 않는 객체를 삭제하여 메모리 리소스를 적절하게 처리합니다.
-- **일괄 처리**: 해당되는 경우 모든 데이터를 한 번에 로드하는 대신, 일괄적으로 데이터를 처리합니다.
+- **일괄 처리**: 해당되는 경우 모든 데이터를 한 번에 로드하는 대신 일괄적으로 데이터를 처리합니다.
 - **범위 작업 최적화**: 큰 범위에서의 작업을 최소화하고 특정 작업에 대해서는 명명된 범위를 사용합니다.
 
 ## 결론
@@ -162,6 +164,9 @@ String refersTo = namedRange.getRefersTo();
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

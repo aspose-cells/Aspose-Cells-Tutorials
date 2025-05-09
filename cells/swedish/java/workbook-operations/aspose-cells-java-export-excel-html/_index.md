@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,9 +177,12 @@ Vi uppmuntrar dig att testa den här lösningen i dina projekt och dela med dig 
 - [Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
-Genom att följa den här guiden bör du vara väl rustad att utnyttja Aspose.Cells för Java för att exportera Excel-kalkylblad som HTML. Lycka till med kodningen!
+Genom att följa den här guiden bör du vara väl rustad för att utnyttja Aspose.Cells för Java för att exportera Excel-kalkylblad som HTML. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

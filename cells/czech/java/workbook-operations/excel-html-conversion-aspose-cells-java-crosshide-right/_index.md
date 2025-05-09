@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Prozkoumejte další funkce Aspose.Cells, jako je převod grafů nebo podmíněn
 Tento tutoriál slouží jako komplexní průvodce převodem souborů Excelu do HTML pomocí Aspose.Cells pro Javu a zajišťuje přehlednost a funkčnost vašich webových prezentací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

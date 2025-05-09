@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,11 +90,11 @@ public class InitializeAspose {
 }
 ```
 
-Miután a beállítással végeztünk, folytassuk a szeletelők pivot táblákban való megvalósításával.
+Miután a beállítás elkészült, folytassuk a szeletelők pivot táblákban való megvalósításával.
 
 ## Megvalósítási útmutató
 
-A megvalósítást különálló funkciókra bontjuk, amelyek mindegyike konkrét feladatokat céloz meg a célunkon belül, hogy szeletelőket adjunk pivot táblákhoz az Aspose.Cells for Java használatával.
+A megvalósítást különálló funkciókra bontjuk, amelyek mindegyike konkrét feladatokat céloz meg a célunkon belül, hogy szeletelőket adjunk a pivot táblákhoz az Aspose.Cells for Java használatával.
 
 ### 1. funkció: Verziókijelző
 
@@ -210,6 +212,9 @@ A szeletelő elérése további testreszabást vagy ellenőrzéseket tesz lehet�
 - **Cél:** Szeletelőt ad hozzá a kimutatástáblázaton belüli adatinteraktivitás javítása érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

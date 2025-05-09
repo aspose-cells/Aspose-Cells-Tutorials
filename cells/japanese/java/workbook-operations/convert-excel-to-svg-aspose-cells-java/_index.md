@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ for (int i = 0; i < sheetCount; i++) {
     SheetRender sr = new SheetRender(sheet, imgOptions); // レンダリングの準備
 
     for (double k = 0; k < sr.getPageCount(); k++) { // ページを反復処理する
-        double outDir = "YOUR_OUTPUT_DIRECTORY"; // 出力ディレクトリのパスをここで指定してください
+        double outDir = "YOUR_OUTPUT_DIRECTORY"; // ここで出力ディレクトリのパスを指定してください
         double outputPath = outDir + sheet.getName() + k + "_out.svg"; // 各SVGファイルの出力パスを定義する
 
         sr.toImage(k, outputPath); // 各ページをSVGファイルに変換して保存します
@@ -186,6 +188,9 @@ Aspose.Cells for Java を使用する場合は、次のヒントを考慮して�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

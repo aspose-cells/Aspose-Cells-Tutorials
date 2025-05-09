@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ I den här handledningen har du lärt dig hur du utnyttjar kraften i Aspose.Cell
 - Testa alltid dina automatiseringsskript noggrant och hantera undantag korrekt. Se till att dina datakällor är tillförlitliga och uppdaterade.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

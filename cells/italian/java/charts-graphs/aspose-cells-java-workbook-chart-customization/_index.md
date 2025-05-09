@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Hai difficoltà a creare o modificare cartelle di lavoro di Excel in modo effici
 Vediamo passo dopo passo come risolvere queste sfide.
 
 ## Prerequisiti
-Prima di iniziare, assicurati di aver soddisfatto i seguenti requisiti:
+Prima di iniziare, assicurati di soddisfare i seguenti requisiti:
 
 ### Librerie e versioni richieste:
 - **Aspose.Cells per Java** versione 25.3 o successiva.
@@ -113,7 +115,7 @@ Ottimizza i tuoi grafici impostando etichette dati che visualizzano i valori di 
 ```java
 import com.aspose.cells.DataLabels;
 
-// Accedi alle etichette dei dati delle serie nel grafico.
+// Accedi alle etichette dei dati della serie nel grafico.
 DataLabels dataLabels = chart.getNSeries().get(0).getDataLabels();
 
 // Configura per visualizzare l'intervallo di celle come testo dell'etichetta dati.
@@ -175,6 +177,9 @@ Pronti a portare le vostre capacità di gestione di Excel a un livello superiore
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

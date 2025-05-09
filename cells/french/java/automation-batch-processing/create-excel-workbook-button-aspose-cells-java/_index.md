@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Vous savez maintenant comment créer un classeur avec un bouton grâce à Aspose
 N'hésitez pas à explorer ces ressources pour obtenir une assistance et des informations supplémentaires sur l'utilisation efficace d'Aspose.Cells dans vos projets Java !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

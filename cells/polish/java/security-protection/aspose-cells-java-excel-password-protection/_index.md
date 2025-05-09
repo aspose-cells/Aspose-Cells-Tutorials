@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Nabycie licencji
 Aspose.Cells for Java wymaga licencji, aby odblokować wszystkie funkcje. Możesz uzyskać:
 - A **bezpłatny okres próbny** aby odkryć pełnię możliwości.
-- A **licencja tymczasowa** w celach ewaluacyjnych.
+- A **licencja tymczasowa** celach ewaluacyjnych.
 - Kup pełną wersję **licencja** do użytku produkcyjnego.
 
 Odwiedź [strona zakupu](https://purchase.aspose.com/buy) aby uzyskać licencję i rozpocząć podstawową inicjalizację poprzez ustawienie licencji w kodzie:
@@ -138,6 +140,9 @@ A5: Upewnij się, że ścieżka do pliku licencji jest prawidłowa i że jest do
 - **Wsparcie**: [Wsparcie forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Đặt chiều rộng cột theo pixel với Aspose.Cells cho .NET
-linktitle: Đặt chiều rộng cột theo pixel với Aspose.Cells cho .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập chiều rộng cột theo pixel bằng Aspose.Cells cho .NET. Cải thiện tệp Excel của bạn bằng hướng dẫn từng bước dễ dàng này.
-weight: 11
-url: /vi/net/size-and-spacing-customization/setting-column-width/
+"description": "Tìm hiểu cách thiết lập chiều rộng cột theo pixel bằng Aspose.Cells cho .NET. Cải thiện tệp Excel của bạn bằng hướng dẫn từng bước dễ dàng này."
+"linktitle": "Đặt chiều rộng cột theo pixel với Aspose.Cells cho .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đặt chiều rộng cột theo pixel với Aspose.Cells cho .NET"
+"url": "/vi/net/size-and-spacing-customization/setting-column-width/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt chiều rộng cột theo pixel với Aspose.Cells cho .NET
@@ -18,9 +20,9 @@ Khi nói đến việc làm việc với các tệp Excel theo chương trình, 
 ## Điều kiện tiên quyết
 Trước khi bắt tay vào thực hiện, bạn cần chuẩn bị một số thứ sau:
 1. Visual Studio: Đây là sân chơi của bạn, nơi bạn sẽ viết và chạy mã .NET của mình. Đảm bảo bạn đã cài đặt phiên bản mới nhất.
-2.  Aspose.Cells cho .NET: Bạn có thể mua giấy phép hoặc tải xuống phiên bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Thư viện này cho phép chúng ta thao tác các tệp Excel theo chương trình.
+2. Aspose.Cells cho .NET: Bạn có thể mua giấy phép hoặc tải xuống phiên bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/cells/net/). Thư viện này cho phép chúng ta thao tác các tệp Excel theo chương trình.
 3. Kiến thức cơ bản về C#: Nếu bạn quen thuộc với lập trình C#, bạn sẽ thấy dễ theo dõi hơn. Nếu không, đừng lo! Chúng tôi sẽ giải thích rõ ràng từng bước.
-4.  Tệp Excel: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel hiện có. Bạn có thể tạo một tệp trong Excel và lưu dưới dạng`Book1.xlsx`.
+4. Tệp Excel: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel hiện có. Bạn có thể tạo một tệp trong Excel và lưu dưới dạng `Book1.xlsx`.
 Bây giờ bạn đã chuẩn bị mọi thứ, hãy nhập các gói cần thiết.
 ## Nhập gói
 Để bắt đầu làm việc với Aspose.Cells, bạn sẽ cần thêm tham chiếu đến thư viện Aspose.Cells trong dự án của mình. Sau đây là các bước để thực hiện:
@@ -29,7 +31,7 @@ Khởi chạy Visual Studio và mở dự án mà bạn muốn thêm chức năn
 ### Cài đặt Aspose.Cells
 Bạn có thể cài đặt thư viện thông qua NuGet Package Manager. Để thực hiện việc này:
 - Vào Công cụ > Trình quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp…
--  Tìm kiếm`Aspose.Cells` và nhấp vào nút Cài đặt.
+- Tìm kiếm `Aspose.Cells` và nhấp vào nút Cài đặt.
 ### Thêm Sử dụng Chỉ thị
 Thêm lệnh using sau vào đầu tệp mã của bạn:
 ```csharp
@@ -44,9 +46,9 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`Book1.xlsx` tập tin được lưu trữ.
+Thay thế `"Your Document Directory"` với con đường thực tế nơi bạn `Book1.xlsx` tập tin được lưu trữ.
 ## Bước 2: Tải tệp Excel
- Tiếp theo, chúng ta cần tải tệp Excel của mình vào`Workbook` đối tượng. Đối tượng này giống như một hộp chứa tệp Excel của bạn, cho phép bạn tương tác với nó thông qua mã.
+Tiếp theo, chúng ta cần tải tệp Excel của mình vào `Workbook` đối tượng. Đối tượng này giống như một hộp chứa tệp Excel của bạn, cho phép bạn tương tác với nó thông qua mã.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
@@ -56,7 +58,7 @@ Sau khi bạn đã tải sổ làm việc, bạn cần truy cập vào trang tí
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Đoạn mã này truy cập vào trang tính đầu tiên. Nếu bạn muốn làm việc với một trang tính khác, bạn có thể thay đổi chỉ mục cho phù hợp.
+Đoạn mã này truy cập vào trang tính đầu tiên. Nếu bạn muốn làm việc với trang tính khác, bạn có thể thay đổi chỉ mục cho phù hợp.
 ## Bước 4: Đặt Chiều rộng Cột
 Đã đến lúc thiết lập chiều rộng của cột! Với Aspose.Cells, thật tuyệt vời và đơn giản. Bạn sẽ chỉ định cả chỉ mục cột và chiều rộng tính bằng pixel.
 ```csharp
@@ -64,7 +66,7 @@ worksheet.Cells.SetColumnWidthPixel(7, 200);
 ```
 Trong trường hợp này, chúng ta sẽ thiết lập chiều rộng của cột thứ 8 (vì chỉ số bắt đầu từ số 0) thành 200 pixel. Bạn có thể dễ dàng điều chỉnh để phù hợp với yêu cầu của mình.
 ## Bước 5: Lưu thay đổi của bạn
-Sau khi điều chỉnh xong, điều quan trọng là phải lưu các thay đổi vào một tệp Excel mới. Bằng cách này, bạn sẽ không ghi đè lên tệp gốc trừ khi bạn muốn.
+Sau khi thực hiện tất cả các điều chỉnh, điều quan trọng là phải lưu các thay đổi vào tệp Excel mới. Bằng cách này, bạn sẽ không ghi đè lên tệp gốc trừ khi bạn muốn.
 ```csharp
 workbook.Save(outDir + "SetColumnWidthInPixels_Out.xlsx");
 ```
@@ -89,9 +91,11 @@ Aspose.Cells chủ yếu được thiết kế cho ngôn ngữ .NET, nhưng nó 
 ### Có cách nào để hoàn nguyên những thay đổi tôi đã thực hiện không?
 Nếu bạn lưu thay đổi vào một tệp mới, tệp gốc sẽ không thay đổi. Luôn sao lưu khi thực hiện sửa đổi.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

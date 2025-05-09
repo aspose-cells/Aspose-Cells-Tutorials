@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ book.save(outDir + "/FAWorksheetColumns_out.pdf", saveOptions);
 ## 實際應用
 
 以下是一些將 Excel 檔案轉換為 PDF 特別有用的實際場景：
-1. **報告產生：** 自動將每月財務報告轉換為 PDF 以供分發給利害關係人。
+1. **報告產生：** 自動將每月財務報告轉換為 PDF 以供利害關係人分發。
 2. **數據共享：** 以不可編輯的格式與客戶分享數據，確保一致性和完整性。
 3. **歸檔：** 以普遍可存取的標準化格式儲存重要文件。
 
@@ -194,6 +196,9 @@ book.save(outDir + "/FAWorksheetColumns_out.pdf", saveOptions);
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

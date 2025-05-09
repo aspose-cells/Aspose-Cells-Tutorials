@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/reading-numbers-spreadsheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reading Numbers Spreadsheet Programmatically in .NET
@@ -91,6 +93,7 @@ You can apply for a temporary license [here](https://purchase.aspose.com/tempora
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

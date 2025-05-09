@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ Asposeの公式サイトからライブラリをダウンロードして、無�
 Aspose.Cellsのインスタンスを作成して初期化します。 `Workbook`以下のように表示されます。
 
 ```java
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
@@ -89,7 +91,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 // ドキュメント ディレクトリへのパス。
 String dataDir = Utils.getSharedDataDir(FindingCellsContainingFormula.class) + "Data/";
 
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
@@ -178,6 +180,9 @@ System.out.println("Name of the cell containing formula: " + cell.getName());
 - [Aspose.Cells サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

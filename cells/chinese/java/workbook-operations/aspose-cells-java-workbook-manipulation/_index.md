@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ excelWorkbook1.save(outDir + "/CWBetweenWorkbooks_out.xls");
 - **购买和免费试用**：详细了解如何获取许可证或开始免费试用，请访问 [Aspose 购买](https://purchase.aspose.com/buy) 和 [免费试用](https://releases。aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

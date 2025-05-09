@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 // Crear un nuevo libro de trabajo.
 Workbook workbook = new Workbook();
 
-// Obtener las celdas de la primera hoja de cálculo.
+// Obtenga las celdas de la primera hoja de cálculo.
 Cells cells = workbook.getWorksheets().get(0).getCells();
 ```
 ### Agregar y aplicar estilo a texto en una celda
@@ -130,7 +132,7 @@ ValidationCollection validations = workbook.getWorksheets().get(0).getValidation
 
 // Agrega una nueva validación al área de celda especificada.
 int i = validations.add(area);
-Validation validation = validations.get(i); // Acceda a la validación agregada.
+Validation validation = validations.get(i); // Acceda a la validación añadida.
 
 // Establezca el tipo de validación de datos como TEXT_LENGTH para comprobar la longitud del texto.
 validation.setType(ValidationType.TEXT_LENGTH);
@@ -193,6 +195,9 @@ Explora más funciones de Aspose.Cells, como gráficos, tablas dinámicas o incl
 - Sí, Aspose.Cells admite varios tipos de validación de datos, lo que le permite aplicar diferentes reglas en su libro de trabajo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

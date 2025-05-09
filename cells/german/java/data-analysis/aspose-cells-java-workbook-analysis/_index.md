@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ Ja, Sie können es in Cloud-Dienste wie AWS S3 oder Azure Blob Storage integrier
 Erwägen Sie die Verwendung von Streaming-APIs und die Aufteilung der Verarbeitung in kleinere Aufgaben, um die Speichernutzung effektiv zu verwalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

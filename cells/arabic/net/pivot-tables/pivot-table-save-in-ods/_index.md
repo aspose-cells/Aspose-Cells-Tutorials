@@ -1,47 +1,52 @@
 ---
-title: حفظ الجدول المحوري كـ ODS في Aspose.Cells لـ .NET
-weight: 7700
-limit: 
-description: تعلم كيفية إنشاء وتخزين جدول محوري في تنسيق ODS باستخدام Aspose.Cells ل .NET. اتبع هذا الدليل خطوة بخطوة مع أمثلة رمزية.
-keywords: [Aspose.Cells for .NET, PivotTable in ODS, save PivotTable, create PivotTable, .NET spreadsheet, Excel automation, C# PivotTable]
-url: /ar/net/pivot-tables/pivot-table-save-in-ods/
+"description": "تعلّم كيفية إنشاء وحفظ جدول محوري بتنسيق ODS باستخدام Aspose.Cells لـ .NET. اتبع هذا الدليل خطوة بخطوة مع أمثلة برمجية."
+"title": "حفظ جدول محوري بتنسيق ODS في Aspose.Cells لـ .NET"
+"url": "/ar/net/pivot-tables/pivot-table-save-in-ods/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# حفظ الجدول المحوري كـ ODS في Aspose.Cells لـ .NET 
+# حفظ جدول محوري بتنسيق ODS في Aspose.Cells لـ .NET 
 
-توفر Aspose.Cells لـ .NET ميزات قوية لتلقيح جداول kalkulativ، بما في ذلك الجداول المحورية. يمركزك هذا الدليل من خلال إنشاء جدول محور في دفتر عمل، وإضافة البيانات، وتكوين إعدادات الجداول المحورية، والإنقاذ كملف ODS. مع تنفيذ بسيط C#، ستتمكن من إنشاء تقارير ديناميكية بسهولة. سواء كنت معالجًا بيانات مالية، تقارير المبيعات، أو أي معلومات جدولية، يضمن هذا الدليل إنشاء جدول محورية وصدرها بشكل سلس في شكل ODS.  
+يوفر Aspose.Cells لـ .NET ميزات فعّالة لأتمتة جداول البيانات، بما في ذلك جداول PivotTables. يشرح هذا البرنامج التعليمي كيفية إنشاء جدول PivotTable في مصنف، وإضافة البيانات، وضبط إعداداته، وحفظه كملف ODS. باستخدام لغة C# بسيطة، ستتمكن من إنشاء تقارير ديناميكية بسهولة. سواء كنت تعالج بيانات مالية، أو تقارير مبيعات، أو أي معلومات جدولية، يضمن هذا الدليل إنشاء جداول PivotTable وتصديرها بتنسيق ODS بسلاسة.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/pivot-table-save-in-ods" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت
-لبدء Aspose.Cells ل .NET، اتبع هذه الخطوات:  
+للبدء في استخدام Aspose.Cells لـ .NET، اتبع الخطوات التالية:  
 
-1. قم بتنزيل Aspose.Cells لـ .NET من المخبز الرسمي: ["أسبوس.خلايا" تنزيل](https://releases.aspose.com/cells/net/)  
-2. قم بتثبيتها عبر مدير الحزمات NuGet:  
-   * افتح استوديو البصري  
-   * قم بإجراء الأمر التالي في جهاز إدارة الحزم:  
+1. قم بتنزيل Aspose.Cells لـ .NET من المستودع الرسمي: [تنزيل Aspose.Cells](https://releases.aspose.com/cells/net/)  
+2. التثبيت عبر مدير حزمة NuGet:  
+   - افتح برنامج Visual Studio  
+   - قم بتشغيل الأمر التالي في وحدة التحكم في إدارة الحزم:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-3. إدراج مساحة أسماء Aspose.Cells في مشروع C# الخاص بك:  
+3. قم بتضمين مساحة اسم Aspose.Cells في مشروع C# الخاص بك:  
    ```csharp
    using Aspose.Cells;
    ```  
-4. ابدأ في التشفير باستخدام المثال المقدم لإنشاء وتخزين جدول محوري في تنسيق ODS.  
+4. ابدأ في الترميز باستخدام المثال المقدم لإنشاء جدول محوري وحفظه بتنسيق ODS.  
 
-## انظر أيضاً  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de recursos avançados demonstram como aproveitar os recursos especializados do Excel usando o Aspose.Cells em Java. Esses guias detalhados abordam a implementação de filtragem interativa de dados, a criação de sistemas de navegação com hiperlinks, o estabelecimento de conexões externas de dados e o uso dos poderosos recursos avançados do Excel. Cada tutorial fornece exemplos práticos de código Java para funcionalidades especializadas do Excel, ajudando você a criar soluções sofisticadas de planilhas que aproveitam ao máximo os recursos avançados do Excel.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de recursos avançados
 - Implementação passo a passo com exemplos de código completos
@@ -93,6 +95,9 @@ Aprenda a automatizar atualizações de segmentação em arquivos do Excel com o
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

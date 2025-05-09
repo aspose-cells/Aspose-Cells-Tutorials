@@ -1,14 +1,16 @@
 ---
-title: Thiết lập tùy chọn hình ảnh cho HTML trong .NET
-linktitle: Thiết lập tùy chọn hình ảnh cho HTML trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Aspose.Cells cho .NET. Tìm hiểu cách thiết lập tùy chọn hình ảnh để chuyển đổi HTML nhằm trình bày dữ liệu Excel của bạn một cách đẹp mắt trên web.
-weight: 11
-url: /vi/net/worksheet-operations/setting-image-preferences-for-html/
+"description": "Mở khóa sức mạnh của Aspose.Cells cho .NET. Tìm hiểu cách thiết lập tùy chọn hình ảnh để chuyển đổi HTML nhằm trình bày dữ liệu Excel của bạn một cách đẹp mắt trên web."
+"linktitle": "Thiết lập tùy chọn hình ảnh cho HTML trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập tùy chọn hình ảnh cho HTML trong .NET"
+"url": "/vi/net/worksheet-operations/setting-image-preferences-for-html/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập tùy chọn hình ảnh cho HTML trong .NET
@@ -21,7 +23,7 @@ Tạo các trang web hấp dẫn về mặt hình ảnh từ bảng tính Excel 
 Trước khi tìm hiểu mã, hãy đảm bảo bạn có những thông tin sau:
 
 1. Đã cài đặt Visual Studio: Bạn sẽ cần một môi trường phát triển như Visual Studio để chạy và thử nghiệm các ứng dụng .NET của mình.
-2.  Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells. Bạn có thể lấy phiên bản mới nhất từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells. Bạn có thể lấy phiên bản mới nhất từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
 4. Một tệp Excel mẫu: Chuẩn bị một tệp Excel có tên "Book1.xlsx" để làm việc. Đặt nó vào một thư mục được chỉ định mà bạn sẽ tham chiếu trong mã của mình.
 
@@ -60,7 +62,7 @@ Chúng ta hãy cùng tìm hiểu quy trình thiết lập tùy chọn hình ản
 string dataDir = "Your Document Directory";
 ```
 
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế trên máy của bạn.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế trên máy của bạn.
 
 ## Bước 2: Xác định đường dẫn tệp
 
@@ -84,13 +86,13 @@ Với dòng này, Aspose.Cells sẽ đọc tệp Excel của bạn và chuẩn b
 
 ## Bước 4: Tạo phiên bản HtmlSaveOptions
 
- Để tùy chỉnh cách chuyển đổi diễn ra, bạn sẽ cần tạo một phiên bản của`HtmlSaveOptions`. Lớp này cho phép bạn chỉ định cách bạn muốn dữ liệu Excel của mình được thể hiện ở định dạng HTML.
+Để tùy chỉnh cách chuyển đổi diễn ra, bạn sẽ cần tạo một phiên bản của `HtmlSaveOptions`. Lớp này cho phép bạn chỉ định cách bạn muốn dữ liệu Excel của mình được thể hiện ở định dạng HTML.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 ```
 
- Bằng cách thiết lập`SaveFormat.Html`, bạn chỉ ra rằng định dạng đầu ra của bạn sẽ là HTML.
+Bằng cách thiết lập `SaveFormat.Html`, bạn chỉ ra rằng định dạng đầu ra của bạn sẽ là HTML.
 
 ## Bước 5: Đặt Định dạng hình ảnh thành PNG
 
@@ -110,7 +112,7 @@ Chọn PNG sẽ đảm bảo bạn giữ nguyên được chất lượng hình 
 saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
 ```
 
- Bằng cách chọn`SmoothingMode.AntiAlias`, bạn sẽ làm cho hình ảnh trông mượt mà và chuyên nghiệp hơn.
+Bằng cách chọn `SmoothingMode.AntiAlias`, bạn sẽ làm cho hình ảnh trông mượt mà và chuyên nghiệp hơn.
 
 ## Bước 7: Tối ưu hóa việc hiển thị văn bản
 
@@ -130,11 +132,11 @@ Cuối cùng, đã đến lúc lưu sổ làm việc của bạn dưới dạng 
 book.Save(dataDir + "output.html", saveOptions);
 ```
 
- Tại đây, tệp HTML mới sẽ được lưu trong cùng thư mục có tên`output.html`.
+Tại đây, tệp HTML mới sẽ được lưu trong cùng thư mục có tên `output.html`.
 
 ## Phần kết luận
 
-Bằng cách làm theo hướng dẫn từng bước này, bạn đã học cách thiết lập tùy chọn hình ảnh cho xuất HTML bằng Aspose.Cells cho .NET. Cách tiếp cận này không chỉ hỗ trợ tạo biểu diễn trực quan hấp dẫn cho dữ liệu Excel của bạn mà còn tối ưu hóa dữ liệu đó để sử dụng trên web. Cho dù bạn đang tạo báo cáo, bảng thông tin hay chỉ đơn giản là trực quan hóa dữ liệu, những cấu hình thực tế này có thể tạo ra sự khác biệt đáng kể!
+Bằng cách làm theo hướng dẫn từng bước này, bạn đã học được cách thiết lập tùy chọn hình ảnh cho xuất HTML bằng Aspose.Cells cho .NET. Cách tiếp cận này không chỉ hỗ trợ tạo ra biểu diễn trực quan hấp dẫn cho dữ liệu Excel của bạn mà còn tối ưu hóa dữ liệu đó để sử dụng trên web. Cho dù bạn đang tạo báo cáo, bảng thông tin hay chỉ đơn giản là trực quan hóa dữ liệu, những cấu hình thực tế này có thể tạo ra sự khác biệt đáng kể!
 
 ## Câu hỏi thường gặp
 
@@ -148,7 +150,7 @@ Có, bạn có thể sử dụng Aspose.Cells trong bất kỳ IDE hoặc ứng 
 
 ### Có phiên bản dùng thử không?
 
- Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells từ[Trang web Aspose](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells từ [Trang web Aspose](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng định dạng hình ảnh nào với Aspose.Cells?
 
@@ -156,10 +158,12 @@ Aspose.Cells hỗ trợ nhiều định dạng hình ảnh để xuất, bao g�
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
 
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi cộng đồng và nhóm hỗ trợ có thể hỗ trợ bạn.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi cộng đồng và nhóm hỗ trợ có thể hỗ trợ bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

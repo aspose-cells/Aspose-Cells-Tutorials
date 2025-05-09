@@ -1,90 +1,92 @@
 ---
-title: Beépített számformátumok használata az Excel programban programozottan
-linktitle: Beépített számformátumok használata az Excel programban programozottan
-second_title: Aspose.Cells .NET Excel Processing API
-description: Automatizálja a számformázást az Excelben az Aspose.Cells for .NET használatával. Ismerje meg a dátum-, százalék- és pénznemformátumok programozott alkalmazásának módját.
-weight: 10
-url: /hu/net/number-and-display-formats-in-excel/using-built-in-number-formats/
+"description": "Automatizálja a számformázást az Excelben az Aspose.Cells for .NET használatával. Ismerje meg, hogyan alkalmazhat programozottan dátum-, százalék- és pénznemformátumokat."
+"linktitle": "Beépített számformátumok használata az Excelben programozottan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Beépített számformátumok használata az Excelben programozottan"
+"url": "/hu/net/number-and-display-formats-in-excel/using-built-in-number-formats/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beépített számformátumok használata az Excel programban programozottan
+# Beépített számformátumok használata az Excelben programozottan
 
 ## Bevezetés
-Ebben az oktatóanyagban végigvezetjük, hogyan használhatja a beépített számformátumokat az Excelben az Aspose.Cells for .NET használatával. A környezet beállításától a különböző formátumok, például dátumok, százalékok és pénznemek alkalmazásáig mindenre kiterjedünk. Akár tapasztalt profi, akár csak belemerül a .NET-ökoszisztémába, ez az útmutató segít az Excel-cellák gyors formázására.
+Ebben az oktatóanyagban bemutatjuk, hogyan használhatod a beépített számformátumokat az Excelben az Aspose.Cells for .NET segítségével. Mindent lefedünk a környezet beállításától kezdve a különböző formátumok, például dátumok, százalékok és pénznemek alkalmazásáig. Akár tapasztalt profi vagy, akár csak most ismerkedsz a .NET ökoszisztémával, ezzel az útmutatóval gyerekjáték lesz formázni az Excel cellákat.
 ## Előfeltételek
-Búvárkodás előtt győződjön meg arról, hogy rendelkezik az alábbiakkal:
--  Aspose.Cells for .NET könyvtár telepítve. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
+Mielőtt belevágnál, győződj meg róla, hogy a következőkkel rendelkezel:
+- Aspose.Cells for .NET könyvtár telepítve van. Megteheti [töltsd le itt](https://releases.aspose.com/cells/net/).
 - C# és alapvető .NET programozási ismeretek.
-- Visual Studio vagy bármely, a gépére telepített .NET IDE.
--  Érvényes Aspose jogosítvány ill[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
-- .NET-keretrendszer telepítve (4.0-s vagy újabb verzió).
+- Visual Studio vagy bármilyen, a gépedre telepített .NET IDE.
+- Érvényes Aspose licenc vagy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+- Telepített .NET keretrendszer (4.0-s vagy újabb verzió).
   
-Ha a fentiek közül bármelyik hiányzik, kövesse a mellékelt hivatkozásokat az összes beállításához. Kész? Ugorjunk a mókás részbe!
+Ha a fentiek közül bármelyik hiányzik, kövesd a megadott linkeket a beállításhoz. Készen állsz? Kezdjük a mókás részt!
 ## Csomagok importálása
-Mielőtt elkezdené az oktatóanyagot, feltétlenül importálja az Aspose.Cells for .NET-hez szükséges névtereket:
+Mielőtt belekezdenénk az oktatóanyagba, importáljuk a szükséges névtereket az Aspose.Cells for .NET használatához:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System;
 ```
-Miután ezeket importálta, készen áll az Excel-fájlok programozott kezelésére. Most pedig merüljünk el a lépésről lépésre szóló útmutatóban!
-## 1. lépés: Az Excel-munkafüzet létrehozása vagy elérése
-Ebben a lépésben új munkafüzetet hoz létre. Tekintsd ezt úgy, mint egy új Excel-fájl megnyitását, kivéve, hogy ezt kódon keresztül csinálod!
+Miután importáltad ezeket, máris elkezdheted programozottan kezelni az Excel-fájlokat. Most pedig lássuk a lépésről lépésre bemutatót!
+## 1. lépés: Excel-munkafüzet létrehozása vagy elérése
+Ebben a lépésben egy új munkafüzetet fogsz létrehozni. Gondolj erre úgy, mintha egy új Excel fájlt nyitnál meg, azzal a különbséggel, hogy kódon keresztül csinálod!
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
 	System.IO.Directory.CreateDirectory(dataDir);
-// Munkafüzet objektum példányosítása
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
- Itt egyszerűen létrehozunk egy újat`Workbook` objektum. Ez Excel-fájlként működik, készen áll az adatok manipulálására. Meglévő fájlt is betölthet az elérési út megadásával.
-## 2. lépés: Nyissa meg a munkalapot
-Az Excel-munkafüzetek több munkalapot is tartalmazhatnak. Ebben a lépésben elérjük a munkafüzet első munkalapját:
+Itt egyszerűen csak egy új példányt hozunk létre `Workbook` objektum. Ez az Ön Excel-fájljaként működik, készen áll az adatkezelésre. Egy meglévő fájlt is betölthet az elérési útjának megadásával.
+## 2. lépés: A munkalap elérése
+Az Excel-munkafüzetek több munkalapot is tartalmazhatnak. Ebben a lépésben a munkafüzet első munkalapját fogjuk elérni:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Most elérjük a munkafüzet első munkalapját. Ha további lapokat kell kezelnie, hivatkozhat rájuk indexük vagy nevük használatával.
-## 3. lépés: Adjon hozzá adatokat a cellákhoz
-Kezdjük el néhány adat hozzáadását bizonyos cellákhoz. Először beszúrjuk az aktuális rendszerdátumot az "A1" cellába:
+Most a munkafüzet első munkalapjához férünk hozzá. Ha további munkalapokat kell módosítania, hivatkozhat rájuk az indexük vagy a nevük használatával.
+## 3. lépés: Adatok hozzáadása cellákhoz
+Kezdjünk el adatokat hozzáadni bizonyos cellákhoz. Először is beillesztjük az aktuális rendszerdátumot az "A1" cellába:
 ```csharp
 worksheet.Cells["A1"].PutValue(DateTime.Now);
 ```
-Ez a sor beszúrja az aktuális dátumot az A1 cellába. Nagyon klassz, igaz? Képzeld el, hogy ezt manuálisan csinálod több száz cellánál – rémálom lenne. Most pedig térjünk át a formázásra!
-## 4. lépés: Dátum formázása az "A1" cellában
-Ezután formázza a dátumot egy olvashatóbb formátumban, például "október 15-24". Itt ragyog igazán az Aspose.Cells:
+Ez a sor beszúrja az aktuális dátumot az A1 cellába. Elég klassz, ugye? Képzeld el, hogy ezt manuálisan kell megtenned több száz cellán keresztül – rémálom lenne. Most pedig térjünk át a formázásra!
+## 4. lépés: Dátum formázása az „A1” cellában
+Ezután formázzuk a dátumot egy olvashatóbb formátumba, például „15-Okt-24”. Itt ragyog igazán az Aspose.Cells:
 1. A cella stílusának lekérése:
 ```csharp
 Style style = worksheet.Cells["A1"].GetStyle();
 ```
-Itt az A1 cella stílusát ragadjuk meg. Tekintsd ezt úgy, mintha megragadnád a cella "divatját", mielőtt bármilyen módosítást végeznél.
+Itt az A1 cella stílusát vesszük alapul. Gondoljon erre úgy, mintha a cella „stílusát” venné át, mielőtt bármilyen módosítást végezne.
 2. Állítsa be a dátumformátumot:
 ```csharp
 style.Number = 15;
 ```
- Beállítása a`Number` tulajdonság a 15-re alkalmazza a kívánt dátumformátumot. Ez egy beépített számformátumú kód a dátumok "d-hh-éé" formátumú megjelenítéséhez.
-3. Alkalmazza a stílust a cellára:
+A beállítás `Number` tulajdonság 15-re állítása a kívánt dátumformátumot alkalmazza. Ez egy beépített számformátum-kód a dátumok „n-hhh-éé” formátumban történő megjelenítéséhez.
+3. Stílus alkalmazása a cellára:
 ```csharp
 worksheet.Cells["A1"].SetStyle(style);
 ```
-Ez a sor alkalmazza a stílusmódosításokat a cellára. Mostantól az alapértelmezett dátumformátum helyett valami sokkal felhasználóbarátabbat fog látni, például „15-október 24.”.
-## 5. lépés: Százalék hozzáadása és formázása az "A2" cellában
-Térjünk át a százalékok formázására. Képzelje el, hogy be szeretne szúrni egy értéket, és százalékban szeretné megjeleníteni. Ebben a lépésben hozzáadunk egy számértéket az "A2" cellához, és százalékos formában formázzuk:
+Ez a sor alkalmazza a stílusmódosításokat a cellára. Most az alapértelmezett dátumformátum helyett valami sokkal felhasználóbarátabbat fog látni, például a „15-Okt-24.”-et.
+## 5. lépés: Százalék hozzáadása és formázása az „A2” cellában
+Térjünk át a százalékok formázására. Képzeljük el, hogy be szeretne szúrni egy értéket, és százalékként szeretné megjeleníteni. Ebben a lépésben egy numerikus értéket adunk az "A2" cellához, és százalékként formázzuk:
 1. Numerikus érték beszúrása:
 ```csharp
 worksheet.Cells["A2"].PutValue(20);
 ```
-Ezzel beszúrja a 20-as számot az A2 cellába. Lehet, hogy azt gondolja: "Ez csak egy sima szám – hogyan alakítsam át százalékra?" Nos, mindjárt eljutunk odáig.
-2. Töltse le a stílust, és állítsa be a százalékos formátumot:
+Ez a függvény a 20-as számot szúrja be az A2 cellába. Gondolhatja most: „Ez csak egy sima szám – hogyan alakítsam át százalékká?” Nos, mindjárt elérkezünk ehhez.
+2. Stílus lekérése és százalékos formátum beállítása:
 ```csharp
 style = worksheet.Cells["A2"].GetStyle();
-style.Number = 9;  // Formázás százalékban
+style.Number = 9;  // Formátum százalékként
 worksheet.Cells["A2"].SetStyle(style);
     ```
 Setting the `Number` property to 9 applies the built-in percentage format. Now the value in A2 will be displayed as "2000%." (Yes, 20 is treated as 2000% in percentage formatting).
@@ -94,38 +96,40 @@ Now, let’s add a numeric value in cell A3 and format it as currency. This is a
 ```csharp
 worksheet.Cells["A3"].PutValue(2546);
 ```
-Itt hozzáadjuk a 2546-ot az A3 cellához. Ezután ezt a számot úgy formázzuk, hogy pénznemként jelenjen meg.
-2. Töltse le a stílust és állítsa be a pénznemformátumot:
+Itt a 2546-ot adjuk hozzá az A3 cellához. Ezután formázzuk ezt a számot, hogy pénznemként jelenjen meg.
+2. Stílus lekérése és pénznemformátum beállítása:
 ```csharp
 style = worksheet.Cells["A3"].GetStyle();
 style.Number = 6;  // Formátum pénznemként
 worksheet.Cells["A3"].SetStyle(style);
 ```
- Beállítása a`Number` A 6-os tulajdonság a pénznemformátumot alkalmazza. Most az A3 cellában lévő érték "2546,00" lesz, vesszővel és két tizedesjegygel kiegészítve.
-## 7. lépés: Mentse el az Excel fájlt
-Most, hogy alkalmaztuk az összes formázási varázslatot, ideje elmenteni a fájlt:
+A beállítás `Number` A 6-os értékű tulajdonság a pénznemformátumot alkalmazza. Az A3 cellában lévő érték most „2546,00” formában jelenik meg, vesszőkkel és két tizedesjegyre kiegészítve.
+## 7. lépés: Mentse el az Excel-fájlt
+Most, hogy minden formázási varázslatot alkalmaztunk, itt az ideje menteni a fájlt:
 ```csharp
 // Az Excel fájl mentése
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- Ez a sor az Excel fájlt Excel 97-2003 formátumban menti. Meg tudod változtatni a`SaveFormat`hogy megfeleljen az Ön igényeinek. És éppen így, Ön programozottan hozott létre és formázott egy Excel-fájlt!
+Ez a sor Excel 97-2003 formátumban menti az Excel fájlt. A formátumot módosíthatja. `SaveFormat` az igényeidnek megfelelően. És ezzel máris létrehoztál és formáztál egy Excel fájlt programozottan!
 ## Következtetés
-Gratulálok! Sikeresen megtanulta az Aspose.Cells for .NET használatát, amellyel beépített számformátumokat alkalmazhat egy Excel-fájl celláiban. A dátumoktól a százalékokig és a pénznemekig lefedtük az Excel adatfeldolgozás leggyakoribb formázási igényeit. Mostantól a cellák kézi formázása helyett automatizálhatja a teljes folyamatot, így időt takaríthat meg és csökkenti a hibákat.
+Gratulálunk! Sikeresen megtanultad, hogyan használhatod az Aspose.Cells for .NET programot beépített számformátumok alkalmazására egy Excel-fájl celláira. A dátumoktól a százalékokon át a pénznemekig áttekintettük az Excel adatfeldolgozás néhány leggyakoribb formázási igényét. Most a cellák manuális formázása helyett automatizálhatod a teljes folyamatot – így időt takaríthatsz meg és csökkentheted a hibákat.
 ## GYIK
 ### Alkalmazhatok egyéni számformátumokat az Aspose.Cells for .NET használatával?
- Igen! A beépített formátumok mellett az Aspose.Cells támogatja az egyéni számformátumokat is. A segítségével nagyon specifikus formátumokat hozhat létre`Custom` ingatlan a`Style` osztály.
+Igen! A beépített formátumok mellett az Aspose.Cells egyéni számformátumokat is támogat. Nagyon specifikus formátumokat hozhat létre a `Custom` ingatlan a `Style` osztály.
 ### Hogyan formázhatok egy cellát pénznemként egy adott szimbólummal?
- Egy adott pénznemszimbólum alkalmazásához egyéni formázást használhat a`Style.Custom` ingatlan.
+Egy adott pénznemszimbólum alkalmazásához egyéni formázást használhat a következő beállítással: `Style.Custom` ingatlan.
 ### Formázhatok teljes sorokat vagy oszlopokat?
- Teljesen! A stílusokat egész sorokra vagy oszlopokra alkalmazhatja a`Rows` vagy`Columns`gyűjtemények a`Worksheet` objektum.
-### Hogyan formázhatok egyszerre több cellát?
-Használhatja a`Range` objektumot több cella kijelöléséhez és stílusok alkalmazásához egyszerre.
-### Az Aspose.Cells használatához telepíteni kell a Microsoft Excelt?
-Nem, az Aspose.Cells a Microsoft Exceltől függetlenül működik, így nincs szükség az Excel telepítésére a gépére.
+Természetesen! Stílusokat alkalmazhatsz teljes sorokra vagy oszlopokra a `Rows` vagy `Columns` gyűjtemények a `Worksheet` objektum.
+### Hogyan tudok egyszerre több cellát formázni?
+Használhatod a `Range` objektummal több cellát kijelölhet, és egyszerre mindegyikre stílusokat alkalmazhat.
+### Telepítenem kell a Microsoft Excelt az Aspose.Cells használatához?
+Nem, az Aspose.Cells a Microsoft Exceltől függetlenül működik, így nincs szükség Excel telepítésére a gépeden.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

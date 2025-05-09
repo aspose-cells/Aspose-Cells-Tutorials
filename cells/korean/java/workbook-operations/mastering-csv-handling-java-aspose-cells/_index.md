@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Java 애플리케이션에서 CSV 파일 로딩 및 가져오기를 관리하는
 ## 필수 조건
 
 ### 필수 라이브러리, 버전 및 종속성
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 - 시스템에 Java Development Kit(JDK) 버전 8 이상이 설치되어 있어야 합니다.
 - IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경(IDE).
 - 종속성 관리를 위해 Maven이나 Gradle을 설정합니다.
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells를 사용하려면 무료 평가판을 시작하거나 장기 테스트를 위해 임시 라이선스를 요청하세요.
 - **무료 체험:** 체험판 패키지를 다운로드하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
 - **임시 면허:** 임시 라이센스를 요청하려면 다음을 수행하십시오. [라이센스 페이지](https://purchase.aspose.com/temporary-license/).
-- **구입:** 전체 액세스를 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+- **구입:** 전체 액세스를 위해서는 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 ### 기본 초기화 및 설정
 
@@ -184,6 +186,9 @@ A5: 물론입니다. 이 프로세스를 예약된 작업이나 서비스에 통
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

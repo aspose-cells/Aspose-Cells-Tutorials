@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ workbook.save(dataDir + "/HTCLChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
    - Απολύτως! Μπορείτε να εξαγάγετε βιβλία εργασίας σε διάφορες μορφές, συμπεριλαμβανομένων PDF και HTML.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

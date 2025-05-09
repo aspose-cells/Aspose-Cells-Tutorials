@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Sonraki adımlar arasında diğer uyarı tiplerini keşfetmek veya Aspose.Cells'
 - **Satın Alma ve Lisanslama:** Lisansınızı alın veya ücretsiz denemeyi deneyin [Aspose Satın Alma](https://purchase.aspose.com/buy) veya [Aspose Ücretsiz Deneme](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

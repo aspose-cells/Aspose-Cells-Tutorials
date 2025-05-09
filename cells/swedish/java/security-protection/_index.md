@@ -1,12 +1,14 @@
 ---
-"description": "Steg-för-steg-handledningar för att implementera arbetsboksskydd, lösenordsskydd och åtkomstkontroller i Excel med Aspose.Cells för Java."
+"description": "Steg-för-steg-handledningar för att implementera arbetsboksskydd, lösenordssäkerhet och åtkomstkontroller i Excel med Aspose.Cells för Java."
 "title": "Handledningar om Excel-säkerhet och -skydd för Aspose.Cells Java"
 "url": "/sv/java/security-protection/"
 "weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Lär dig säkra Excel-dokument med våra omfattande säkerhetshandledningar i As
 Lär dig hur du lägger till digitala signaturer i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar installation, laddning av arbetsböcker och skapande av säkra digitala signaturer.
 
 ### [Hur man lägger till en signaturrad till en bild i Excel med hjälp av Java och Aspose.Cells](./add-signature-line-image-excel-java-aspose-cells/)
-Lär dig hur du integrerar signaturrader i bilder i Excel-filer med hjälp av Aspose.Cells för Java. Effektivisera dina dokumentarbetsflöden med den här omfattande guiden.
+Lär dig hur du integrerar signaturrader i bilder i Excel-filer med Aspose.Cells för Java. Effektivisera dina dokumentarbetsflöden med den här omfattande guiden.
 
 ### [Hur man laddar och validerar lösenordsskyddade Excel-filer med hjälp av Aspose.Cells i Java](./aspose-cells-java-excel-password-protection/)
 Lär dig hur du säkrar dina Excel-filer med lösenord med Aspose.Cells för Java. Den här guiden behandlar hur du laddar krypterade ark, validerar ändringslösenord och integrerar dessa funktioner i Java-applikationer.
@@ -126,6 +128,9 @@ Lär dig hur du säkrar dina Excel-dokument med digitala XAdES-signaturer med As
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

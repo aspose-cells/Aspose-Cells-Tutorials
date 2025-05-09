@@ -1,54 +1,59 @@
 ---
-title: Definir o nome de fonte no Excel usando Aspose.Cells para .NET
-weight: 7700
-limit: 
-description: Aprenda a definir o nome de fonte em um arquivo do Excel usando Aspose.Cells para .NET. Crie um livro de trabalho, adicione uma folha de cálculo e formatar o texto de célula sem esforço.
-keywords: [Aspose.Cells for .NET, set font name in Excel, format Excel text, C# Excel font, change font in Excel, Excel cell formatting, .NET Excel library]
-url: /pt/net/formatting/setting-font-name/
+"description": "Aprenda a definir o nome da fonte em um arquivo do Excel usando o Aspose.Cells para .NET. Crie uma pasta de trabalho, adicione uma planilha e formate o texto das células sem esforço."
+"title": "Definir nome da fonte no Excel usando Aspose.Cells para .NET"
+"url": "/pt/net/formatting/setting-font-name/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Definir o nome de fonte no Excel usando Aspose.Cells
+# Definir nome da fonte no Excel usando Aspose.Cells
 
-A configuração do nome de fonte em um arquivo do Excel é essencial para manter um formato de documento profissional e consistente. Com Aspose.Cells para .NET, você pode facilmente criar um livro de trabalho do Excel, adicionar uma folha de cálculo e modificar estilos de células. Este tutorial o guia através do processo de configuração de um nome de fonte personalizado para uma célula específica em C#. Siga o guia passo a passo e aprimorar sua formatação do documento do Excel com facilidade.  
+Definir o nome da fonte em um arquivo do Excel é essencial para manter um formato de documento profissional e consistente. Com o Aspose.Cells para .NET, você pode criar facilmente uma pasta de trabalho do Excel, adicionar uma planilha e modificar estilos de células. Este tutorial explica como definir um nome de fonte personalizado para uma célula específica em C#. Siga o guia passo a passo e aprimore a formatação do seu documento do Excel com facilidade.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação  
 
-Para usar Aspose.Cells para .NET, siga estes passos:  
+Para usar o Aspose.Cells para .NET, siga estas etapas:  
 
-1. Instalação através do NuGet:  
-   Abra o Gerente de Pacotes NuGet no Visual Studio e execute:  
+1. Instalar via NuGet:  
+   Abra o Gerenciador de Pacotes NuGet no Visual Studio e execute:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Descarregar do site Aspose:  
-   * Obtenha a versão mais recente de [Aspose.Cells Descargas](https://releases.aspose.com/cells/net/)\- Não .  
+2. Baixe do site da Aspose:  
+   - Obtenha a versão mais recente em [Downloads do Aspose.Cells](https://releases.aspose.com/cells/net/).  
 
-3. Adicionar Referência a Aspose.Cells:  
-   * No seu projeto .NET, adicione uma referência a `Aspose.Cells.`\- Não .  
+3. Adicionar referência a Aspose.Cells:  
+   - No seu projeto .NET, adicione uma referência a `Aspose.Cells.dll`.  
 
-4. Licença de aplicação (opcional):  
-   * Se utilizar uma versão licenciada, configure o ficheiro de licença da seguinte forma:  
+4. Aplicar licença (opcional):  
+   - Se estiver usando uma versão licenciada, configure o arquivo de licença da seguinte maneira:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Cells.lic");
    ```  
 
 ## Veja também  
-Para comprar uma licença, vai para o[Aponta a página de compra](https://purchase.aspose.com/buy)\- Não .  
-Para obter a documentação completa, visite [Aspose.Cells para Documentação .NET](https://docs.aspose.com/cells/net/)\- Não .  
-Para explorar a referência completa da API, verifique [Aspose.Cells para Referência de API .NET](https://reference.aspose.com/cells/net/)\- Não . 
+Para adquirir uma licença, acesse [Página de compra da Aspose](https://purchase.aspose.com/buy).  
+Para documentação completa, visite [Documentação do Aspose.Cells para .NET](https://docs.aspose.com/cells/net/).  
+Para explorar a referência completa da API, confira [Referência da API Aspose.Cells para .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

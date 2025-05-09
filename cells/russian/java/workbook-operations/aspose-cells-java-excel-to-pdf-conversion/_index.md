@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ import com.aspose.cells.*;
 В этом руководстве представлен всесторонний обзор использования Aspose.Cells для Java для преобразования файлов Excel в PDF, что гарантирует наличие у вас инструментов и знаний, необходимых для эффективной реализации этого решения.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

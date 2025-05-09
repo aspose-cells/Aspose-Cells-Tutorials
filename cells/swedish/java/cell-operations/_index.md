@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,13 +72,13 @@ Lär dig hur du automatiserar infogning av flera rader i Excel med Aspose.Cells 
 Bemästra Excel-automation med Aspose.Cells för Java. Lär dig skapa arbetsböcker, manipulera celler, ange formler, tillämpa stilar och utföra avancerade sökningar programmatiskt.
 
 ### [Hantera Excel-cellcitatprefix med Aspose.Cells Java: En omfattande guide](./manage-excel-cell-quote-prefix-aspose-cells-java/)
-Lär dig hur du hanterar prefix med enkla citattecken i Excel-celler med hjälp av Aspose.Cells för Java. Den här guiden behandlar installation, implementering av StyleFlag och praktiska tillämpningar.
+Lär dig hur du hanterar prefix för enkla citattecken i Excel-celler med hjälp av Aspose.Cells för Java. Den här guiden behandlar installation, implementering av StyleFlag och praktiska tillämpningar.
 
 ### [Bemästra cellmanipulation i Excel med hjälp av Aspose.Cells för Java](./master-cell-manipulation-excel-aspose-cells-java/)
 Lär dig automatisera och effektivisera dina dataflöden genom att bemästra cellmanipulation i Excel med Aspose.Cells för Java. Kom igång idag!
 
 ### [Behärska cellsammanslagning och uppdelad cellsammanslagning i Java med hjälp av Aspose.Cells för Excel-optimering](./master-cell-merging-unmerging-java-aspose-cells/)
-Lär dig hur du effektivt sammanfogar och avsammanfogar celler i Excel med Aspose.Cells för Java. Den här guiden innehåller steg-för-steg-instruktioner, praktiska tillämpningar och prestandatips.
+Lär dig hur du effektivt sammanfogar och avsammanfogar celler i Excel med hjälp av Aspose.Cells för Java. Den här guiden innehåller steg-för-steg-instruktioner, praktiska tillämpningar och prestandatips.
 
 ### [Fyll Excel med data med hjälp av Aspose.Cells och smarta markörer](./populate-excel-aspose-cells-smart-markers/)
 En kodhandledning för Aspose.Words Java
@@ -96,6 +98,9 @@ En kodhandledning för Aspose.Words Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

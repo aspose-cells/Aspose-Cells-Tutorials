@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ### Modyfikowanie wartości i stylu komórki
 
 #### Przegląd:
-Zmień zawartość i styl komórek, aby zwiększyć czytelność danych.
+Zmień zawartość i styl komórek, aby poprawić czytelność danych.
 
 **Krok 1**: Modyfikuj wartość komórki.
 ```java
@@ -201,6 +203,9 @@ Aby kontynuować eksplorację, rozważ integrację Aspose.Cells z innymi systema
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

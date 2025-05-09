@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ La aplicación de estilo a celdas individuales permite una personalización deta
   // Establecer el formato de número para la fecha (14 representa mm-dd-aa)
   style.setNumber(14);
   
-  // Cambiar el color de fuente a rojo
+  // Cambiar el color de la fuente a rojo
   style.getFont().setColor(Color.getRed());
 
   // Nombra el estilo para facilitar su referencia
@@ -205,6 +207,9 @@ Esperamos que este tutorial te haya resultado informativo y útil. ¡Que disfrut
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

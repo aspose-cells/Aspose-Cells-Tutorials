@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,8 +22,8 @@ Nella gestione dei dati e nell'automazione dei fogli di calcolo, la manipolazion
 Questa guida ti guiderà nella creazione di cartelle di lavoro, nell'accesso ai fogli di lavoro, nella copia di forme e nel salvataggio delle modifiche utilizzando Aspose.Cells per Java. Al termine di questo tutorial, avrai acquisito le competenze pratiche necessarie per migliorare i tuoi progetti di automazione Excel.
 
 **Cosa imparerai:**
-- Creazione di una cartella di lavoro da un file esistente
-- Accesso alle raccolte di fogli di lavoro e ai fogli di lavoro specifici per nome
+- Creazione di un'istanza di una cartella di lavoro da un file esistente
+- Accesso alle raccolte di fogli di lavoro e a fogli di lavoro specifici per nome
 - Copia di forme tra diversi fogli di lavoro
 - Salvataggio delle cartelle di lavoro dopo le modifiche
 
@@ -169,7 +171,7 @@ Aspose.Cells per Java può essere utilizzato in vari scenari:
 
 1. **Reporting finanziario automatizzato:** Genera e aggiorna automaticamente report finanziari estraendo dati da diversi fogli di lavoro e copiando i grafici pertinenti nei fogli di riepilogo.
 
-2. **Dashboard dinamiche:** Crea dashboard in cui forme come grafici o loghi vengono copiate tra fogli di lavoro per fornire informazioni in tempo reale sui set di dati.
+2. **Dashboard dinamiche:** Crea dashboard in cui forme come grafici o loghi vengono copiati tra fogli di lavoro per fornire informazioni in tempo reale sui set di dati.
 
 3. **Elaborazione batch di file Excel:** Elaborare batch di file Excel creando cartelle di lavoro, manipolando dati e salvando i risultati in una directory specificata.
 
@@ -183,6 +185,9 @@ Quando si lavora con cartelle di lavoro di grandi dimensioni o forme complesse:
 - Ridurre al minimo il numero di operazioni di formatura raggruppandole ove possibile, riducendo così i tempi di elaborazione e il consumo di risorse.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

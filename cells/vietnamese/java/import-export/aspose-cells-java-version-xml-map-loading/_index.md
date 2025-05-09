@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: Đảm bảo đường dẫn tệp là chính xác và lược đồ XML kh�
 A3: Giấy phép tạm thời hoặc giấy phép mua là cần thiết để loại bỏ những hạn chế trong việc đánh giá trong cài đặt sản xuất.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

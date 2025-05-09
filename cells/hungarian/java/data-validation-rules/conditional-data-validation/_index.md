@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Feltételes adatérvényesítés
@@ -20,7 +22,7 @@ Mielőtt belemerülnénk a feltételes adatérvényesítés részleteibe, rövid
 
 ## Előfeltételek
 
-Mielőtt belekezdenénk, győződjünk meg róla, hogy a következő előfeltételek teljesülnek:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java fejlesztőkészlet (JDK) telepítve van a rendszerére.
 - Aspose.Cells Java könyvtárhoz. Letöltheted innen: [itt](https://releases.aspose.com/cells/java/).
@@ -116,6 +118,7 @@ Bár az Aspose.Cells for Java robusztus adatérvényesítési funkciókat kíná
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

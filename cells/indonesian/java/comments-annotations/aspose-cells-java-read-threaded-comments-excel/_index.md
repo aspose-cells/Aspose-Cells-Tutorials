@@ -7,32 +7,34 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membaca Komentar Berulir di Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengekstrak dan mengelola komentar berulir dari file Excel secara efisien menggunakan Java? Seperti yang diketahui banyak pengembang, menangani data Excel, terutama komentar yang berulir, bisa jadi rumit. Tutorial ini memandu Anda membaca komentar berulir yang terkait dengan sel tertentu menggunakan pustaka Aspose.Cells yang canggih untuk Java.
 
-### Apa yang Akan Anda Pelajari
+### Amit tanulni fogsz
 - Menyiapkan dan mengonfigurasi Aspose.Cells untuk Java.
 - Petunjuk langkah demi langkah tentang cara mengekstrak komentar berulir dari lembar kerja Excel.
-- Aplikasi praktis fitur ini dalam skenario dunia nyata.
+- A funkció gyakorlati alkalmazásai valós helyzetekben.
 - Pertimbangan kinerja saat mengelola data Excel dengan Aspose.Cells.
 
 Mari kita mulai dengan melihat prasyarat yang Anda perlukan!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-### Pustaka dan Versi yang Diperlukan
+### Szükséges könyvtárak és verziók
 - **Aspose.Cells untuk Java** versi 25.3 atau yang lebih baru diperlukan untuk membaca, memodifikasi, dan membuat file Excel.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Pastikan lingkungan pengembangan Anda mendukung Maven atau Gradle untuk mengelola dependensi.
 - Memiliki pemahaman dasar tentang pemrograman Java untuk mengikuti contoh kode secara efektif.
 
@@ -41,7 +43,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 Integrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven atau Gradle. Berikut caranya:
 
 ### Pakar
-Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
+Tambahkan ketergantungan ini ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,36 +53,36 @@ Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Unduh uji coba gratis dari Aspose untuk menjelajahi fitur-fiturnya.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk fungsionalitas yang diperluas selama evaluasi.
-- **Pembelian**: Jika Anda menemukan Aspose.Cells memenuhi kebutuhan Anda, beli lisensi penuh untuk penggunaan tanpa batas.
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**: Unduh uji coba gratis dari Aspose untuk menjelajahi fitur-fiturnya.
+- **Ideiglenes engedély**: Dapatkan lisensi sementara untuk fungsionalitas yang diperluas selama evaluasi.
+- **Vásárlás**: Jika Anda menemukan Aspose.Cells memenuhi kebutuhan Anda, beli lisensi penuh untuk penggunaan tanpa batas.
 
 Untuk mengatur:
 1. Gunakan Maven atau Gradle seperti yang ditunjukkan di atas untuk mengunduh pustaka.
 2. Terapkan lisensi yang diperlukan jika diperoleh.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang setelah kita mengonfigurasi segalanya, mari fokus pada pembacaan komentar berulir dari sel lembar kerja Excel menggunakan Aspose.Cells untuk Java.
 
 ### Membaca Komentar Berantai
 Fitur ini memungkinkan Anda mengakses dan menampilkan catatan yang terkait dengan sel tertentu dalam lembar Excel. Berikut caranya:
 
-#### Langkah 1: Muat Buku Kerja Anda
+#### 1. lépés: A munkafüzet betöltése
 Mulailah dengan memuat berkas buku kerja Anda ke dalam memori.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "ThreadedCommentsSample.xlsx");
 ```
 
-#### Langkah 2: Akses Lembar Kerja
-Akses lembar kerja pertama dalam buku kerja Anda tempat komentar disimpan.
+#### 2. lépés: A munkalap elérése
+Akses lembar kerja pertama di buku kerja Anda tempat komentar disimpan.
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -103,51 +105,54 @@ for (Object obj : threadedComments) {
 ```
 
 ### Parameter dan Metode
-- **Buku Kerja**: Mewakili keseluruhan berkas Excel.
-- **Lembar Kerja**: Merujuk pada lembar tunggal dalam buku kerja.
+- **Munkafüzet**: Mewakili keseluruhan berkas Excel.
+- **Munkalap**A munkafüzet egyetlen munkalapjára utal.
 - **Koleksi Komentar Berulir**Kumpulan komentar yang terkait dengan sel.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Membaca komentar berulir dapat berguna dalam berbagai skenario, seperti:
-1. **Alur Kerja Kolaboratif**: Memfasilitasi komunikasi antar anggota tim dengan meninjau dan mengelola umpan balik langsung dari file Excel.
-2. **Audit Data**: Melacak perubahan atau saran yang dibuat terhadap data dalam suatu organisasi.
-3. **Alat Pelaporan**: Tingkatkan laporan dengan menambahkan konteks atau klarifikasi menggunakan komentar.
+1. **Együttműködési munkafolyamatok**: Memfasilitasi komunikasi antar anggota tim dengan meninjau dan mengelola umpan balik langsung dari file Excel.
+2. **Adatellenőrzés**: Melacak perubahan atau saran yang dibuat terhadap data dalam suatu organisasi.
+3. **Jelentéskészítő eszközök**: Tingkatkan laporan dengan menambahkan konteks atau klarifikasi menggunakan komentar.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat bekerja dengan Aspose.Cells, pertimbangkan tips berikut untuk mengoptimalkan kinerja:
 - Minimalkan penggunaan memori dengan menutup buku kerja saat tidak diperlukan.
 - Gunakan struktur data yang efisien untuk menangani kumpulan data besar.
 - Profilkan aplikasi Anda untuk mengidentifikasi hambatan dan mengoptimalkannya sebagaimana mestinya.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara membaca komentar berulir dari sel Excel secara efektif menggunakan Aspose.Cells untuk Java. Fitur ini dapat meningkatkan kolaborasi, pelaporan, dan manajemen data dalam aplikasi Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 Jelajahi fitur Aspose.Cells lainnya, seperti membuat atau memodifikasi komentar, dan pertimbangkan untuk mengintegrasikannya ke dalam sistem atau alur kerja yang lebih besar yang mungkin sedang Anda kembangkan.
 
 Siap untuk menyelami lebih dalam? Cobalah menerapkan solusi ini dalam proyek Anda sendiri!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara menangani beberapa lembar kerja untuk komentar berulir?**
    - Ulangi setiap lembar kerja menggunakan `workbook.getWorksheets().forEach()` dan menerapkan logika yang sama.
 2. **Bisakah Aspose.Cells mengelola file Excel selain .xlsx?**
-   - Ya, ini mendukung berbagai format termasuk `.xls`Bahasa Indonesia: `.xlsm`, dan banyak lagi.
+   - Ya, ini mendukung berbagai format termasuk `.xls`, `.xlsm`, és még sok más.
 3. **Bagaimana jika saya menemukan kesalahan saat membaca komentar?**
    - Pastikan jalur berkas Anda benar dan Anda memiliki izin yang diperlukan untuk membaca berkas.
 4. **Bagaimana cara memperbarui atau menghapus komentar berulir menggunakan Aspose.Cells?**
-   - Menggunakan `worksheet.getComments().add()` untuk pembaruan, dan `worksheet.getComments().removeAt(index)` untuk penghapusan.
+   - Használat `worksheet.getComments().add()` untuk pembaruan, dan `worksheet.getComments().removeAt(index)` untuk penghapusan.
 5. **Apakah ada dukungan untuk bahasa pemrograman lain selain Java?**
    - Ya, Aspose.Cells tersedia dalam C#, .NET, Python, dan lainnya.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

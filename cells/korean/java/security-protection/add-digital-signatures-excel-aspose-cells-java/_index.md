@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 ### 필수 라이브러리, 버전 및 종속성
 따라오려면 다음이 필요합니다.
 - 컴퓨터에 Java Development Kit(JDK)가 설치되어 있어야 합니다.
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 - Aspose.Cells 라이브러리 버전 25.3 이상.
 
 ### 환경 설정 요구 사항
@@ -189,6 +191,9 @@ workbook.dispose();
 - 더욱 고급 스프레드시트 조작을 위해 Aspose.Cells가 제공하는 추가 기능을 살펴보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

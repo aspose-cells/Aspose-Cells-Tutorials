@@ -1,51 +1,55 @@
 ---
-title: 在Excel中使用Aspose.Cells来更改图表标签方向 
-weight: 7700
-limit: 
-description: 通过简单的代码示例学习如何在Excel工作表中改变图标标签的方向,使用 .NET的Aspose.Cells.
-keywords: [Aspose.Cells for .NET, change tick label direction, Excel chart labels, .NET Excel library, chart text direction]
-url: /zh/net/charts/change-tick-label-direction/
+"description": "通过简单的代码示例了解如何使用 Aspose.Cells for .NET 更改 Excel 工作表中图表刻度标签的方向。"
+"title": "使用 Aspose.Cells 在 Excel 中更改图表刻度标签方向"
+"url": "/zh/net/charts/change-tick-label-direction/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在Excel中使用Aspose.Cells来更改图表标签方向 
+# 使用 Aspose.Cells 在 Excel 中更改图表刻度标签方向 
 
-本例展示了如何使用 .NET 的Aspose.Cells来修改Excel 工作表中的图标标标签方向.通过调整类轴标签的文本方向,您可以提高图标数据的可读性.代码将加载现有Excel 工作簿,访问第一个工作表,检索图表,将标签方向设置为水平,然后保存修改的工作簿.这种方法确保了您的 .NET 应用程序中的图标标导的精确控制. 
+此示例演示如何使用 Aspose.Cells for .NET 修改 Excel 工作表中图表刻度标签的方向。通过调整类别轴刻度标签的文本方向，可以增强图表数据的可读性。代码加载现有的 Excel 工作簿，访问第一个工作表，检索图表，将刻度标签方向设置为水平，然后保存修改后的工作簿。此方法可确保在 .NET 应用程序中精确控制图表标签的方向。 
  
 ---
 
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明  
-运行这个例子,请按照以下步骤:  
 
-1. 安装 .NET 的Aspose.Cells  
-   * 从[对于 .NET 的Aspose.Cells](https://releases.aspose.com/cells/net/)  
-   * 或通过 NuGet 安装:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安装说明  
+要运行此示例，请按照以下步骤操作：  
+
+1. 安装 Aspose.Cells for .NET  
+   - 下载地址 [Aspose.Cells for .NET](https://releases.aspose.com/cells/net/)  
+   - 或者通过 NuGet 安装：  
      ```shell
      Install-Package Aspose.Cells
      ```  
 
-2. 设定自己的项目  
-   * 创建一个新的.NET项目.  
-   * 添加一个引用Aspose.Cells.dll.  
+2. 设置你的项目  
+   - 创建一个新的 .NET 项目。  
+   - 添加对 Aspose.Cells.dll 的引用。  
 
 3. 运行代码  
-   * 取代`"你的文件目录"`根据实际文件路径.  
-   * 执行程序,更新图表中的标签方向.  
+   - 代替 `"Your Document Directory"` 使用实际文件路径。  
+   - 执行程序以更新图表中的刻度标签方向。  
 
-## 查看
-免费试用,请访问[设法免费试验](https://releases.aspose.com/)现在,我们要去.  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去.
+## 另请参阅
+如需免费试用，请访问 [Aspose 免费试用](https://releases。aspose.com/).  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

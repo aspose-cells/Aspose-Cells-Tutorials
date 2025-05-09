@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lösenordsskydd för Excel
@@ -102,7 +104,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
-I den här koden laddar vi den tidigare skapade Excel-filen, anger ett lösenord och skyddar arbetsboken. Du kan ersätta `"MySecretPassword"` med ditt önskade lösenord.
+den här koden laddar vi den tidigare skapade Excel-filen, anger ett lösenord och skyddar arbetsboken. Du kan ersätta `"MySecretPassword"` med ditt önskade lösenord.
 
 ## Slutsats
 
@@ -133,6 +135,7 @@ Lösenordsskydd i Excel-filer är en stark säkerhetsåtgärd, men det är vikti
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

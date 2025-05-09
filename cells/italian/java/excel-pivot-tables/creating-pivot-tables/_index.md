@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creazione di tabelle pivot
@@ -102,9 +104,11 @@ In questo tutorial, abbiamo illustrato il processo di creazione di tabelle pivot
    È possibile automatizzare la creazione di tabelle pivot in Java utilizzando l'API Aspose.Cells per Java, come illustrato in questo tutorial.
 
 Ora hai le conoscenze e il codice necessari per creare potenti tabelle pivot in Java utilizzando Aspose.Cells. Sperimenta diverse fonti dati e configurazioni per adattare le tue tabelle pivot alle tue esigenze specifiche. Buona analisi dei dati!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

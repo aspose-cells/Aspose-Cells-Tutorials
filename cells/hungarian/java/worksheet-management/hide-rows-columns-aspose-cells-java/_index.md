@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,13 +142,16 @@ Megtanultad, hogyan használhatod az Aspose.Cells függvényt Java-ban bizonyos 
    - Abszolút! Az Aspose.Cells zökkenőmentesen integrálható Java alapú szerveroldali alkalmazásokba.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása vagy ingyenes próbaverzió beszerzése](https://purchase.aspose.com/buy)
 
 Készen állsz az Excel fájlkezelésed fejlesztésére? Alkalmazd ezeket a megoldásokat még ma a projektjeidben!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

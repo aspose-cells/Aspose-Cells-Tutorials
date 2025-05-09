@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # JavaによるExcel自動化
@@ -124,9 +126,11 @@ Aspose.Cells for Java を使えば、Excel タスクを効率的に自動化で�
 ---
 
 このステップバイステップガイドとソースコード例を読めば、Aspose.Cells を使った Java での Excel 自動化の基礎をしっかりと身に付けられるはずです。Excel タスクのコーディングと自動化をぜひ楽しんでください！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

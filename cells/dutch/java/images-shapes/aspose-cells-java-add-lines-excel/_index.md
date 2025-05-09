@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Klaar om deze kennis in de praktijk te brengen? Experimenteer met lijnvormen in 
 Deze uitgebreide gids is bedoeld om u te voorzien van de kennis en tools die u nodig hebt om Aspose.Cells Java effectief te gebruiken en uw Excel-documenten te verbeteren. Begin vandaag nog met de implementatie van deze technieken!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

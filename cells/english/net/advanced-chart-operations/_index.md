@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Chart Operations
@@ -73,9 +75,11 @@ Learn how to set chart data using Aspose.Cells for .NET through a detailed, step
 Learn how to set values format code of chart series in Aspose.Cells for .NET with this detailed step-by-step tutorial. Perfect for beginners.
 ### [Using Sparklines](./using-sparklines/)
 Learn how to effectively use sparklines in Excel with Aspose.Cells for .NET. Step-by-step guide included for a smooth experience.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

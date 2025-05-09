@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ Sau khi thiết lập môi trường và mua được giấy phép, hãy triển
 **Tổng quan:**
 Khởi tạo một sổ làm việc cho phép mở một tệp Excel hiện có để đọc hoặc sửa đổi. Bước này khởi tạo bất kỳ tác vụ tự động nào liên quan đến tệp Excel.
 
-#### Các bước để khởi tạo một sổ làm việc (H3):
+#### Các bước để khởi tạo một bảng tính (H3):
 1. **Nhập các lớp bắt buộc:**
    ```java
    import com.aspose.cells.Workbook;
@@ -183,6 +185,9 @@ Khi làm việc với bảng tính lớn hoặc hình dạng phức tạp:
 - Giảm thiểu số lượng thao tác định hình bằng cách nhóm chúng lại với nhau khi có thể, giảm thời gian xử lý và mức tiêu thụ tài nguyên.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

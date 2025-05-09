@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Sie haben nun gelernt, wie Sie eine Java-Anwendung mit einer Access-Datenbank ve
 Dieser umfassende Leitfaden vermittelt Ihnen das Wissen, wie Sie Aspose.Cells für Java optimal nutzen und Ihre Datenverwaltungsaufgaben durch Automatisierung optimieren können. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

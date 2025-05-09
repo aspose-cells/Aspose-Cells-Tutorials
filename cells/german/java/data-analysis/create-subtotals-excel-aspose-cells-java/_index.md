@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ A: Ja, es unterstützt eine Vielzahl von Excel-Formaten, einschließlich XLS und
 Mit dieser Anleitung sind Sie nun bestens gerüstet, um mithilfe von Aspose.Cells Zwischensummenfunktionen in Ihre Java-Anwendungen zu integrieren. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Aquisição de Licença
-Você pode experimentar o Aspose.Cells gratuitamente ou obter uma licença temporária para todos os recursos, sem limitações. Siga estes passos:
+Você pode experimentar o Aspose.Cells gratuitamente ou obter uma licença temporária para acessar todos os recursos sem limitações. Siga estes passos:
 1. **Teste gratuito:** Baixe a biblioteca de [Lançamentos do Aspose.Cells](https://releases.aspose.com/cells/java/).
 2. **Licença temporária:** Solicite uma licença temporária através do [Site de compra Aspose](https://purchase.aspose.com/temporary-license/).
 3. **Comprar:** Para uso a longo prazo, adquira uma licença no mesmo site.
@@ -153,7 +155,7 @@ Você aprendeu com sucesso a carregar e iterar linhas em um arquivo Excel usando
 1. **Como instalo o Aspose.Cells para Java?**
    - Use Maven ou Gradle para adicionar a dependência, conforme detalhado acima.
 2. **Posso usar o Aspose.Cells sem uma licença?**
-   - Sim, mas com limitações, como marcas d'água de avaliação e recursos restritos.
+   - Sim, mas com limitações como marcas d'água de avaliação e recursos restritos.
 3. **Quais são os principais benefícios de usar o Aspose.Cells?**
    - Ele oferece recursos robustos de manipulação do Excel com esforço mínimo de codificação.
 4. **Como lidar com grandes conjuntos de dados de forma eficiente?**
@@ -173,6 +175,9 @@ Explorando esses recursos, você pode aprofundar seu conhecimento sobre o Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

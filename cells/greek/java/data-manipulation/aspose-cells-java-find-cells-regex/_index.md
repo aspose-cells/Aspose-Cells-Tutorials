@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,6 +161,9 @@ cells.find("abc[\\s]*$", null, opt); // Αναζητά τον όρο 'abc' ακ�
 - **Υποστήριξη:** Γίνετε μέλος του φόρουμ της κοινότητας Aspose στη διεύθυνση [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

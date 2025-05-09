@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ Connection conn = DriverManager.getConnection("jdbc:ucanaccess://" + dataDir + "
 Statement st = conn.createStatement();
 ```
 
-### Ejecución de una consulta SQL y obtención de un conjunto de resultados
+### Ejecución de una consulta SQL y obtención del conjunto de resultados
 **Descripción general:** Ejecute una consulta para recuperar todos los registros de la tabla 'Estudiante'.
 
 #### Paso 3: Ejecutar la consulta
@@ -190,6 +192,9 @@ En este tutorial, aprendió a conectar una base de datos de Microsoft Access med
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

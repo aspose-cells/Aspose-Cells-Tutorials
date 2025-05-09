@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Автоматизация рабочих книг Excel
@@ -110,9 +112,11 @@ public class UpdateExcelData {
    Вы можете обратиться к документации API по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения подробной информации и примеров кода.
 
 Не стесняйтесь исследовать более продвинутые функции и возможности Aspose.Cells for Java, чтобы адаптировать ваши потребности в автоматизации Excel. Если у вас есть какие-либо конкретные вопросы или вам нужна дополнительная помощь, не стесняйтесь спрашивать.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

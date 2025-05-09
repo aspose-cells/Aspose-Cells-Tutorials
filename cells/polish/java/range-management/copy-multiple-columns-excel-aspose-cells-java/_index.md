@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Cells cells = workbook.getWorksheets().get("Columns").getCells();
 ```
 - **Wyjaśnienie**:Uzyskuje dostęp do arkusza kalkulacyjnego o nazwie „Kolumny” i pobiera zbiór komórek w celu ich edycji.
 ### Kopiowanie wielu kolumn
-**Przegląd**:Pokaż, jak kopiować wiele kolumn w obrębie tego samego arkusza kalkulacyjnego za pomocą Aspose.Cells Java.
+**Przegląd**:Pokaż, jak skopiować wiele kolumn w obrębie tego samego arkusza kalkulacyjnego za pomocą Aspose.Cells Java.
 #### Krok 3: Wykonaj kopię kolumny
 ```java
 cells.copyColumns(cells, 0, 6, 3);
@@ -101,8 +103,8 @@ Zapoznaj się z rzeczywistymi scenariuszami, w których ta funkcjonalność jest
 ## Rozważania dotyczące wydajności
 Aby zapewnić optymalną wydajność podczas korzystania z Aspose.Cells Java:
 - **Optymalizacja wykorzystania pamięci**:Obsługuj duże pliki programu Excel, przetwarzając je partiami, zamiast ładować do pamięci całe zestawy danych na raz.
-- **Efektywny dostęp do danych**:Należy rozsądnie korzystać z odwołań do komórek, aby zminimalizować czas pobierania danych.
-- **Najlepsze praktyki w Javie**:Efektywne zarządzanie zasobami dzięki opcji try-with-resources dla operacji na plikach i prawidłowej obsługi wyjątków.
+- **Efektywny dostęp do danych**: Używaj odwołań do komórek rozważnie, aby zminimalizować czas pobierania danych.
+- **Najlepsze praktyki Java**:Efektywne zarządzanie zasobami dzięki metodzie try-with-resources dla operacji na plikach i prawidłowej obsłudze wyjątków.
 ## Wniosek
 W tym przewodniku opisano, jak kopiować wiele kolumn w arkuszu kalkulacyjnym za pomocą Aspose.Cells Java, od konfiguracji środowiska po implementację kodu. Zautomatyzuj powtarzalne zadania w programie Excel i usprawnij procesy zarządzania danymi.
 **Następne kroki**: Poznaj inne funkcje pakietu Aspose.Cells for Java, takie jak formatowanie warunkowe i tworzenie wykresów, aby jeszcze bardziej udoskonalić swoje umiejętności automatyzacji pracy w programie Excel.
@@ -126,6 +128,9 @@ W tym przewodniku opisano, jak kopiować wiele kolumn w arkuszu kalkulacyjnym za
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

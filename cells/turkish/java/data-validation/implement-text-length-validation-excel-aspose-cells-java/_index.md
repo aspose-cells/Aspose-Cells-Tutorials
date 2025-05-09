@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ Aspose.Cells for Java'yı çeşitli yollarla edinebilirsiniz:
 - **Ücretsiz Deneme**Özellikleri değerlendirmek için deneme lisansını indirin.
 - **Geçici Lisans**:Daha fazla zamana ihtiyacınız varsa geçici lisans talebinde bulunun.
 - **Satın almak**:Ticari kullanım için tam lisans satın alın.
-Ortamınızı kurduktan ve lisansınızı aldıktan sonra aşağıdaki şekilde başlatın:
+Ortamınızı kurduktan ve lisansı edindikten sonra aşağıdaki şekilde başlatın:
 
 ```java
 import com.aspose.cells.License;
@@ -193,6 +195,9 @@ Grafikler, pivot tablolar veya hatta diğer Java tabanlı sistemlerle entegrasyo
 - Evet, Aspose.Cells çeşitli veri doğrulama türlerini destekler ve çalışma kitabınız genelinde farklı kurallar uygulamanıza olanak tanır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

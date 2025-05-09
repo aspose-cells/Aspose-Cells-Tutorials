@@ -1,14 +1,16 @@
 ---
-title: Wstaw obraz w nagłówku i stopce arkusza kalkulacyjnego
-linktitle: Wstaw obraz w nagłówku i stopce arkusza kalkulacyjnego
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym kompleksowym przewodniku dowiesz się, jak w prosty sposób wstawić obraz do nagłówka/stopki za pomocą Aspose.Cells for .NET.
-weight: 15
-url: /pl/net/worksheet-page-setup-features/insert-image-in-header-footer/
+"description": "W tym kompleksowym przewodniku dowiesz się, jak w prosty sposób wstawić obraz do nagłówka/stopki za pomocą Aspose.Cells dla .NET."
+"linktitle": "Wstaw obraz w nagłówku i stopce arkusza kalkulacyjnego"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wstaw obraz w nagłówku i stopce arkusza kalkulacyjnego"
+"url": "/pl/net/worksheet-page-setup-features/insert-image-in-header-footer/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw obraz w nagłówku i stopce arkusza kalkulacyjnego
@@ -18,9 +20,9 @@ Jeśli chodzi o tworzenie profesjonalnie wyglądających arkuszy kalkulacyjnych 
 ## Wymagania wstępne
 Zanim rozpoczniesz wstawianie obrazów do sekcji nagłówka i stopki, upewnij się, że masz kilka rzeczy na swoim miejscu:
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To IDE jest potęgą dla rozwoju .NET.
-2.  Aspose.Cells dla .NET: Możesz otrzymać bezpłatną wersję próbną lub kupić ją, jeśli poważnie myślisz o maksymalizacji swoich możliwości w programie Excel. Pobierz ją[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Możesz otrzymać bezpłatną wersję próbną lub kupić ją, jeśli poważnie myślisz o maksymalizacji swoich możliwości w programie Excel. Pobierz ją [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Przydatna będzie podstawowa znajomość języka C# i umiejętność uruchamiania aplikacji .NET.
-4. Plik obrazu: Przygotuj plik obrazu, np. logo firmy. W tym przykładzie będziemy się do niego odwoływać jako`aspose-logo.jpg`.
+4. Plik obrazu: Przygotuj plik obrazu, np. logo firmy. W tym przykładzie będziemy się do niego odwoływać jako `aspose-logo.jpg`.
 ## Importuj pakiety
 Aby rozpocząć naszą podróż kodowania, upewnij się, że masz niezbędne pakiety zaimportowane do swojego projektu C#. Potrzebujesz przestrzeni nazw Aspose.Cells, która zawiera wszystkie klasy i metody, z którymi będziesz pracować.
 Oto jak uwzględnić to w kodzie:
@@ -32,7 +34,7 @@ using System;
 Teraz, gdy wszystko już skonfigurowaliśmy, możemy przejść przez cały proces, podając proste do wykonania kroki.
 ## Krok 1: Skonfiguruj swój katalog
 Zdefiniuj miejsce przechowywania plików.
- Najpierw musimy określić ścieżkę do naszego katalogu dokumentów, w którym znajdują się plik Excel i obraz. Możesz ustawić dowolną ścieżkę; wystarczy podstawić`"Your Document Directory"` z rzeczywistą ścieżką katalogu.
+Najpierw musimy określić ścieżkę do naszego katalogu dokumentów, w którym znajdują się plik Excel i obraz. Możesz ustawić dowolną ścieżkę; wystarczy podstawić `"Your Document Directory"` z rzeczywistą ścieżką katalogu.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
@@ -44,7 +46,7 @@ Workbook workbook = new Workbook();
 ```
 ## Krok 3: Załaduj swój obraz
 Otwórz i odczytaj plik obrazu, konwertując go na tablicę bajtów w celu przetworzenia.
-Następnie ustawimy ścieżkę do naszego obrazu (w tym przypadku logo) i zainicjujemy`FileStream` obiekt do odczytu obrazu. Oto jak to zrobić:
+Następnie ustawimy ścieżkę do naszego obrazu (w tym przypadku logo) i zainicjujemy `FileStream` obiekt do odczytu obrazu. Oto jak to zrobić:
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
 // Deklarowanie obiektu FileStream
@@ -87,7 +89,7 @@ workbook.Save(dataDir + "InsertImageInHeaderFooter_out.xls");
 ```
 ## Krok 8: Oczyść zasoby
 Zamknij FileStream, aby zwolnić zasoby.
- Na koniec, po wszystkich manipulacjach, nie zapomnij o uporządkowaniu i zamknięciu`FileStream`!
+Na koniec, po wszystkich manipulacjach, nie zapomnij o uporządkowaniu, zamykając `FileStream`!
 ```csharp
 inFile.Close();
 ```
@@ -97,16 +99,18 @@ I masz! Udało Ci się wstawić obraz do nagłówka/stopki arkusza kalkulacyjneg
 ### Czy mogę użyć dowolnego formatu obrazu?
 Tak, Aspose.Cells obsługuje różne formaty obrazów, w tym JPEG, PNG i BMP dla obrazów nagłówka i stopki.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale aby kontynuować korzystanie, musisz kupić licencję. Dowiedz się więcej o cenach[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale aby kontynuować korzystanie, musisz kupić licencję. Dowiedz się więcej o cenach [Tutaj](https://purchase.aspose.com/buy).
 ### Jak uzyskać dostęp do dokumentacji Aspose.Cells?
- Możesz zagłębić się w funkcje i funkcje Aspose.Cells odwiedzając stronę[dokumentacja](https://reference.aspose.com/cells/net/).
+Możesz zagłębić się w funkcje i funkcje Aspose.Cells odwiedzając stronę [dokumentacja](https://reference.aspose.com/cells/net/).
 ### Czy mogę używać Aspose.Cells bez programu Visual Studio?
 Tak, o ile dysponujesz środowiskiem uruchomieniowym .NET, możesz używać Aspose.Cells w dowolnym środowisku programistycznym zgodnym z .NET.
 ### Co powinienem zrobić, jeśli napotkam problemy?
- Jeśli napotkasz jakiekolwiek problemy lub potrzebujesz wsparcia, sprawdź[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc od społeczności i deweloperów.
+Jeśli napotkasz jakiekolwiek problemy lub potrzebujesz pomocy, sprawdź [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc od społeczności i deweloperów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

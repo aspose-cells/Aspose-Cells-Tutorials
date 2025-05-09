@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,7 +186,7 @@ Bằng cách làm theo hướng dẫn này, giờ đây bạn đã hiểu rõ c�
 - Khám phá tài liệu Aspose để biết thêm các tính năng.
 - Thử nghiệm nhiều cấu hình khác nhau để phù hợp với nhu cầu của bạn.
 
-Bạn đã sẵn sàng thử chưa? Triển khai giải pháp này và xem nó cải thiện khả năng xử lý tài liệu của ứng dụng như thế nào.
+Bạn đã sẵn sàng thử chưa? Hãy triển khai giải pháp này và xem nó cải thiện khả năng xử lý tài liệu của ứng dụng như thế nào.
 
 ## Phần Câu hỏi thường gặp
 
@@ -216,6 +218,9 @@ Tận dụng các tài nguyên này để hiểu sâu hơn và nâng cao khả n
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

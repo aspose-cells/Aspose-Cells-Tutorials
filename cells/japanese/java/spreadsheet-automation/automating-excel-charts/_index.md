@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelグラフの自動化
@@ -117,9 +119,11 @@ Aspose.Cells for Java で Excel グラフを自動化すると、Excel ファイ
    APIドキュメントをご覧ください [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 詳しい情報と例については、こちらをご覧ください。
 
 Aspose.Cells for Java を使用して Excel のグラフ作成タスクを簡単に自動化し、データの視覚化機能を向上させます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

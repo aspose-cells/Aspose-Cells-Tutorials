@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class LoadWorkbookExample {
     }
 }
 ```
-Qui, `dataDir` dovrebbe essere sostituito con il percorso della directory. `Workbook` la classe inizializza e carica il file Excel specificato.
+Qui, `dataDir` dovrebbe essere sostituito con il percorso della directory. Il `Workbook` la classe inizializza e carica il file Excel specificato.
 
 #### Caratteristica 2: iterare le connessioni esterne
 
@@ -205,6 +207,9 @@ Quando si lavora con cartelle di lavoro di grandi dimensioni o con numerose conn
 - Aggiornare regolarmente Aspose.Cells per Java per beneficiare di miglioramenti delle prestazioni e correzioni di bug.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

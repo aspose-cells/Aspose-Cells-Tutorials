@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Excel otomasyon becerilerinizi bir üst seviyeye taşımaya hazır mısınız? B
    - Kesinlikle! Çalışma kitaplarını PDF ve HTML dahil olmak üzere çeşitli formatlarda dışa aktarabilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

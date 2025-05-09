@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Shape sh4 = ws.getShapes().get(3); // Czwarty kształt
 Ten krok daje Ci bezpośredni dostęp do kształtów, umożliwiając dalszą manipulację.
 ### Funkcja 3: Manipulowanie pozycją kształtu w osi Z
 #### Przegląd
-Kontrolowanie kolejności Z kształtów może być kluczowe dla hierarchii wizualnej. Przyjrzyjmy się, jak zmienić położenie kształtu:
+Kontrolowanie kolejności Z kształtów może mieć kluczowe znaczenie dla hierarchii wizualnej. Przyjrzyjmy się, jak zmienić położenie kształtu:
 ##### Krok 1: Uzyskaj aktualną pozycję Z-Order
 Pobierz bieżącą pozycję Z-order dla punktu odniesienia:
 ```java
@@ -161,6 +163,9 @@ Upewnij się, że ścieżka wyjściowa jest prawidłowa i sprawdź, czy masz wys
 - **Forum wsparcia:** [Wsparcie dla komórek Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

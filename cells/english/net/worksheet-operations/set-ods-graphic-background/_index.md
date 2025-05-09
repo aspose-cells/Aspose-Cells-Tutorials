@@ -8,7 +8,9 @@ url: /net/worksheet-operations/set-ods-graphic-background/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Graphic Background in ODS File
@@ -165,6 +167,7 @@ Yes, you can find support on the [Aspose.Cells Forum](https://forum.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

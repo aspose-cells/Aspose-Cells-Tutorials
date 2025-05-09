@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 Ez a sor betölti az Excel fájlt a memóriába, előkészítve azt a szerkesztésre.
 
-### A munkalap elérése
+### munkalap elérése
 
 Ezután nyissa meg azt a munkalapot, amelyből törölni szeretne egy sort:
 
@@ -153,7 +155,7 @@ Az Aspose.Cells for Java képességeinek további felfedezéséhez érdemes lehe
    - Igen, megfelelő memóriakezeléssel és teljesítménybeli megfontolásokkal.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -161,6 +163,9 @@ Az Aspose.Cells for Java képességeinek további felfedezéséhez érdemes lehe
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

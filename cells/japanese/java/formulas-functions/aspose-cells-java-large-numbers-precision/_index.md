@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ Aspose.Cells の機能をさらに詳しく知るには、さまざまな機能�
 4. **大きなファイルを処理中にメモリの問題が発生した場合はどうなりますか?**
    - Java のヒープ サイズ設定を調整するか、ストリーミング オプションを使用してデータを小さなチャンクで処理します。
 5. **Excel と HTML 以外のファイル形式もサポートされていますか?**
-   - はい、Aspose.Cells は CSV、PDF など、幅広いファイル形式をサポートしています。
+   - はい、Aspose.Cells は CSV、PDF など幅広いファイル形式をサポートしています。
 
 ## リソース
 - **ドキュメント**： [Aspose.Cells Java リファレンス](https://reference.aspose.com/cells/java/)
@@ -151,6 +153,9 @@ Aspose.Cells の機能をさらに詳しく知るには、さまざまな機能�
 今すぐ Aspose.Cells を使い始め、すべてのプロジェクトで数値の精度を確保しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ Worksheet ws = wb.getWorksheets().get(0);
 Chart ch = ws.getCharts().get(0);
 ```
 
-### 圖表軸單位自動化
+### 自動化圖表軸單位
 
 自動化圖表軸單元可確保您的圖表模仿 Excel 的行為，從而提供資料表示的一致性和準確性。
 
@@ -150,6 +152,9 @@ Aspose.Cells 提供各種配置選項，可讓您廣泛地自訂圖表。探索�
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

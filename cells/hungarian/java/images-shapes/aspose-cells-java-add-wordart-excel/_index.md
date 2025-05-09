@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ import com.aspose.cells.Worksheet;
 // Új munkafüzet-objektum létrehozása
 Workbook wb = new Workbook();
 
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 ##### WordArt szöveg hozzáadása
@@ -158,6 +160,9 @@ Ezzel az oktatóanyaggal megtanultad, hogyan adhatsz hozzá WordArt szöveget Ex
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

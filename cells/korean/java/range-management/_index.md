@@ -1,12 +1,14 @@
 ---
-"description": "Aspose.Cells Java 튜토리얼을 통해 셀 범위, 선택 영역 작업 및 Excel 스프레드시트에서 대량 작업을 수행하는 방법을 알아보세요."
+"description": "Aspose.Cells Java 튜토리얼을 통해 셀 범위, 선택 영역을 다루고 Excel 스프레드시트에서 대량 작업을 수행하는 방법을 알아보세요."
 "title": "Aspose.Cells for Java를 활용한 Excel 범위 관리 튜토리얼"
 "url": "/ko/java/range-management/"
 "weight": 5
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,6 +95,9 @@ Aspose.Cells for Java를 사용하여 Excel 파일에서 셀 병합을 효율적
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

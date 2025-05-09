@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ Bây giờ bạn đã biết cách tận dụng Aspose.Cells for Java để tự
 - Khám phá các tính năng khác của Aspose.Cells như tạo biểu đồ hoặc bảng tổng hợp.
 - Thử nghiệm các tiêu chí lọc khác nhau để phù hợp với nhu cầu của bạn.
 
-**Kêu gọi hành động**:Hãy thử triển khai các giải pháp này vào dự án của bạn ngay hôm nay và xem hiệu quả tăng lên!
+**Kêu gọi hành động**:Hãy thử triển khai các giải pháp này vào dự án của bạn ngay hôm nay và xem hiệu quả tăng lên như thế nào!
 
 ## Phần Câu hỏi thường gặp
 
@@ -185,6 +187,9 @@ Bây giờ bạn đã biết cách tận dụng Aspose.Cells for Java để tự
 Hướng dẫn toàn diện này sẽ trang bị cho bạn kiến thức để bắt đầu sử dụng Aspose.Cells cho Java một cách hiệu quả. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

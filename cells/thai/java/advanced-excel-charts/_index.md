@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แผนภูมิ Excel ขั้นสูง
@@ -47,9 +49,11 @@
 เรียนรู้วิธีสร้าง Waterfall Charts ที่สวยงามด้วย Aspose.Cells สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมโค้ดต้นฉบับสำหรับการแสดงภาพข้อมูลอย่างมีประสิทธิภาพ
 ### [การโต้ตอบของแผนภูมิ](./chart-interactivity/)
 เรียนรู้วิธีการสร้างแผนภูมิแบบโต้ตอบโดยใช้ Aspose.Cells สำหรับ Java เพิ่มประสิทธิภาพการแสดงภาพข้อมูลของคุณด้วยการโต้ตอบ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

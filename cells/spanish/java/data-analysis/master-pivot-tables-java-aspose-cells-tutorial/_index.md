@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ Esta función le permite mostrar páginas de filtro de informes utilizando vario
 
 #### Uso del objeto de campo
 1. **Tabla dinámica de acceso:**
-   Recuperar el objeto de la tabla dinámica.
+   Recupere el objeto de la tabla dinámica.
 2. **Mostrar página de filtros:**
    Utilice un objeto de campo de los campos de página de la tabla dinámica.
    ```java
@@ -141,7 +143,7 @@ Guarde el libro de trabajo modificado en un directorio de salida.
    ```
 
 ## Aplicaciones prácticas
-- **Informe de datos:** Automatice la generación de informes complejos aprovechando tablas dinámicas para resumir datos de manera eficiente.
+- **Informe de datos:** Automatice la generación de informes complejos aprovechando tablas dinámicas para resumir los datos de manera eficiente.
 - **Análisis financiero:** Utilice tablas dinámicas para agregar métricas financieras y generar información sobre las tendencias de rendimiento.
 - **Gestión de inventario:** Analizar los niveles de inventario en diferentes categorías o períodos de tiempo, lo que ayuda en la planificación estratégica.
 - **Segmentación de clientes:** Segmente los datos de los clientes según diversos criterios utilizando filtros dentro de tablas dinámicas.
@@ -186,6 +188,9 @@ Siguiendo esta guía, adquirirás las habilidades necesarias para usar Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

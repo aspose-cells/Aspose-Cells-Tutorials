@@ -1,14 +1,16 @@
 ---
-title: लिंक और कॉन्फ़िगरेशन ऑपरेशन
-linktitle: लिंक और कॉन्फ़िगरेशन ऑपरेशन
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: Aspose.Cells for .NET पर विस्तृत ट्यूटोरियल खोजें, जिसमें लिंक कॉन्फ़िगरेशन और बहुत कुछ शामिल है। अपने Excel एप्लिकेशन को बेहतर बनाने की चाहत रखने वाले डेवलपर्स के लिए बिल्कुल सही।
-weight: 37
-url: /hi/net/link-and-configuration-operations/
+"description": "Aspose.Cells for .NET पर विस्तृत ट्यूटोरियल खोजें, जिसमें लिंक कॉन्फ़िगरेशन और बहुत कुछ शामिल है। अपने Excel एप्लिकेशन को बेहतर बनाने की चाहत रखने वाले डेवलपर्स के लिए बिल्कुल सही।"
+"linktitle": "लिंक और कॉन्फ़िगरेशन ऑपरेशन"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "लिंक और कॉन्फ़िगरेशन ऑपरेशन"
+"url": "/hi/net/link-and-configuration-operations/"
+"weight": 37
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # लिंक और कॉन्फ़िगरेशन ऑपरेशन
@@ -21,14 +23,16 @@ url: /hi/net/link-and-configuration-operations/
 
 प्रौद्योगिकी में प्रगति के साथ, प्रभावी दस्तावेज़ प्रबंधन की मांग सर्वकालिक उच्च स्तर पर है। जब आप हमारे ट्यूटोरियल का पता लगाते हैं, तो याद रखें कि आप समान विचारधारा वाले व्यक्तियों के समुदाय में शामिल हो रहे हैं जो सीखने और अपने अनुभव साझा करने के लिए उत्सुक हैं। 
 
-क्या आप इसमें शामिल होने के लिए तैयार हैं? हमारी वेबसाइट पर जाएँ[.NET में लिंक टू कंटेंट डॉक्यूमेंट प्रॉपर्टी को कॉन्फ़िगर करना](./configuring-link-to-content-document-property/) ट्यूटोरियल, और आइए उन जटिल कार्यों को आसान बना दें! Aspose.Cells में महारत हासिल करने की आपकी यात्रा यहीं से शुरू होती है, और हम आपके साथ इसका हिस्सा बनने के लिए उत्साहित हैं। चलिए कोडिंग शुरू करते हैं!
+क्या आप इसमें शामिल होने के लिए तैयार हैं? हमारी वेबसाइट पर जाएँ [.NET में लिंक टू कंटेंट डॉक्यूमेंट प्रॉपर्टी को कॉन्फ़िगर करना](./configuring-link-to-content-document-property/) ट्यूटोरियल, और आइए उन जटिल कार्यों को आसान बना दें! Aspose.Cells में महारत हासिल करने की आपकी यात्रा यहीं से शुरू होती है, और हम आपके साथ इसका हिस्सा बनने के लिए उत्साहित हैं। चलिए कोडिंग शुरू करते हैं!
 
 ## लिंक और कॉन्फ़िगरेशन ऑपरेशन ट्यूटोरियल
 ### [.NET में लिंक टू कंटेंट डॉक्यूमेंट प्रॉपर्टी को कॉन्फ़िगर करना](./configuring-link-to-content-document-property/)
 .NET के लिए Aspose.Cells का उपयोग करके Excel में दस्तावेज़ गुणों को सामग्री से लिंक करना सीखें। डेवलपर्स के लिए चरण-दर-चरण ट्यूटोरियल।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

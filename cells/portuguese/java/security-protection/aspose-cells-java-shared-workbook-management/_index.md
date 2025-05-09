@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ wb.save("YOUR_OUTPUT_DIRECTORY/outputShared_DaysPreservingHistory.xlsx");
 3. **Gerenciamento de projetos**: Gerencie cronogramas e recursos de projetos em um ambiente compartilhado, permitindo atualizações em tempo real.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Monitore regularmente o uso de memória do seu aplicativo ao manipular pastas de trabalho grandes.
+- **Otimizar o uso da memória**: Monitore regularmente o uso de memória do seu aplicativo ao manipular pastas de trabalho grandes.
 - **Melhores Práticas**: Utilize as configurações do Aspose.Cells para gerenciar o tamanho e o desempenho da pasta de trabalho com eficiência.
 
 ## Conclusão
@@ -148,6 +150,9 @@ R5: Sim, ele se integra bem com frameworks populares como Spring e Hibernate.
 - **Fórum de Suporte**: [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ import com.aspose.cells.WorksheetCollection;
 WorksheetCollection worksheets = workbook.getWorksheets();
 ```
 
-### Belirli Bir Çalışma Sayfasıyla Çalışmak
+### Belirli Bir Çalışma Sayfasıyla Çalışma
 
 #### Genel bakış
 
@@ -192,6 +194,9 @@ Aspose.Cells'in kapsamlı özelliklerine dalarak daha gelişmiş özelliklerini 
 - **Destek Forumu:** [Aspose Desteği](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

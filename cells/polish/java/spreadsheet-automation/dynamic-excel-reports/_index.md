@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamiczne raporty Excela
@@ -89,7 +91,7 @@ Teraz masz podstawy do tworzenia dynamicznych raportów dostosowanych do Twoich 
 
 ## Często zadawane pytania
 
-### 1. Jaka jest zaleta stosowania Aspose.Cells dla Java?
+### 1. Jaka jest zaleta używania Aspose.Cells dla Java?
 
 Aspose.Cells for Java zapewnia kompleksowy zestaw funkcji do pracy z plikami Excel programowo. Umożliwia łatwe tworzenie, edytowanie i manipulowanie plikami Excel, co czyni go cennym narzędziem do dynamicznych raportów.
 
@@ -113,6 +115,7 @@ Tak, Aspose.Cells for Java pozwala eksportować dynamiczne raporty Excela do ró
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

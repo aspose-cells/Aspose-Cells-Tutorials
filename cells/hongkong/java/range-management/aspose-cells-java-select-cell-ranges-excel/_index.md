@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ Aspose.Cells 與各種 Java 框架無縫集成，使其能夠適應涉及 Web �
 - **優化記憶體使用：** 僅載入必要的工作表。
 - **有效的範圍選擇：** 最小化單元格範圍上的操作以獲得更好的效能。
 
-遵守 Java 記憶體管理最佳實務可確保使用 Aspose.Cells 的應用程式順利運行。
+遵守 Java 記憶體管理最佳實務可確保使用 Aspose.Cells 的應用程式順利運作。
 ## 結論
 在本教學中，您學習如何使用 Aspose.Cells for Java 選擇 Excel 工作表中的特定儲存格範圍。透過遵循這些步驟，您可以自動執行電子表格任務並將其有效地整合到更大的系統中。
 為了進一步探索，請嘗試操作不同的資料類型或將您的解決方案與其他應用程式整合。如果您有任何疑問，請瀏覽下面提供的資源。
@@ -148,6 +150,9 @@ Aspose.Cells 與各種 Java 框架無縫集成，使其能夠適應涉及 Web �
 使用 Aspose.Cells for Java 掌握 Excel 操作並釋放資料驅動應用程式的全部潛力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

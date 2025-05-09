@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ Worksheet worksheet = worksheets.get(0);
 
 #### 개요
 
-셀 검증은 사전 정의된 규칙이나 형식을 검사하여 데이터 무결성을 보장합니다.
+셀 검증은 미리 정의된 규칙이나 형식을 검사하여 데이터 무결성을 보장합니다.
 
 **5단계: 셀 검증**
 셀 "A9"에 접근하여 검증합니다.
@@ -192,6 +194,9 @@ Aspose.Cells의 포괄적인 기능을 살펴보고 더욱 고급 기능을 탐�
 - **지원 포럼:** [Aspose 지원](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

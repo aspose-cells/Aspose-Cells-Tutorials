@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ public class AsposeCellsSetup {
         // वर्कबुक ऑब्जेक्ट को इंस्टैंसिएट करें
         Workbook workbook = new Workbook();
         
-        // कार्यपुस्तिका पर यहां कार्य करें
+        // कार्यपुस्तिका पर यहां कार्य निष्पादित करें
     }
 }
 ```
@@ -194,6 +196,9 @@ sheet.getVerticalPageBreaks().clear();
 - अपनी Excel दस्तावेज़ प्रबंधन क्षमताओं को और बढ़ाने के लिए Aspose.Cells for Java की अतिरिक्त सुविधाओं का अन्वेषण करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

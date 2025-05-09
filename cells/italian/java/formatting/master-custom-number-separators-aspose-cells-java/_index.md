@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Acquisizione della licenza
 Aspose.Cells per Java offre una prova gratuita, ma per utilizzarlo senza limitazioni è necessaria una licenza. Puoi ottenere:
 - UN **prova gratuita** dal sito web di Aspose.
-- UN **licenza temporanea** a fini di valutazione.
+- UN **licenza temporanea** fini di valutazione.
 - Acquista una licenza completa se le tue esigenze vanno oltre l'ambito della versione di prova.
 Per l'inizializzazione e la configurazione di base:
 ```java
@@ -86,7 +88,7 @@ Per garantire che i dati siano ben presentati, adatta automaticamente le colonne
 worksheet.autoFitColumns();
 ```
 ### Salvataggio della cartella di lavoro
-Infine, salva la cartella di lavoro nel formato di file che preferisci. Qui, la salviamo in formato PDF:
+Infine, salva la cartella di lavoro nel formato che preferisci. Qui la salviamo in formato PDF:
 ```java
 workbook.save("SpecifyingCustomSeparators_out.pdf");
 ```
@@ -126,6 +128,9 @@ Questo tutorial ti permette di migliorare le tue applicazioni basate su Excel co
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@ Aspose.Cells for Java を使ってテーマを適用し、Excel のグラフを�
 Aspose.Cells for Java を使用して、Excel の列幅の調整を自動化する方法を学びます。このガイドでは、ワークブックの読み込み、列の自動調整、ファイルの効率的な保存について説明します。
 
 ### [Aspose.Cells for Java を使用した Excel の行の自動調整: 包括的なガイド](./aspose-cells-java-auto-fit-rows-excel/)
-Aspose.Cells for Java を使用して Excel ブックの行の高さを自動的に調整し、データの表示を整然として読みやすくする方法を学習します。
+Aspose.Cells for Java を使用して Excel ブックの行の高さを自動的に調整し、データの表示を整理して読みやすくする方法を学習します。
 
 ### [Aspose.Cells for Java で Excel セルのスタイル設定をマスターする: 総合ガイド](./aspose-cells-java-cell-styling-guide/)
 Aspose.Cells for Java を使用して Excel セルのスタイルを設定する方法を学びます。このガイドでは、ワークブックの操作、セルのスタイル設定テクニック、パフォーマンス向上のヒントを紹介します。
@@ -243,6 +245,9 @@ Aspose.Cellsを使って、Excelセルのスタイル設定とJavaアプリケ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

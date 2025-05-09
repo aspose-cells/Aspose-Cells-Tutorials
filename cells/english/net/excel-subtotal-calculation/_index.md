@@ -8,7 +8,9 @@ url: /net/excel-subtotal-calculation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Subtotal and Calculation
@@ -32,9 +34,11 @@ Ever wondered where that pesky formula is pulling its data from? Tracing precede
 Learn how to create subtotals in Excel using Aspose.Cells for .NET with this easy step-by-step tutorial.
 ### [Tracing Precedents in Excel](./tracing-precedents-in-excel/)
 Learn how to trace precedents in Excel with Aspose.Cells for .NET! Discover step-by-step code tutorials enhancing your spreadsheet skills.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

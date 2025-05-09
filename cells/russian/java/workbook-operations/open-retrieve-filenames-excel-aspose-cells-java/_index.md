@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ String fileName = workbook4.getFileName();
 ##### Объяснение
 - **Цель метода:** The `getFileName()` метод возвращает путь к исходному файлу, использованному для создания этого `Workbook`, полезно для отслеживания или отображения имен файлов.
 #### Советы по устранению неполадок
-- Убедитесь, что путь к файлу указан правильно и доступен из вашего приложения.
+- Убедитесь, что путь к файлу правильный и доступен из вашего приложения.
 - Обработка исключений, таких как `FileNotFoundException`, что может произойти, если файл не существует в указанном месте.
 
 ## Практические применения
@@ -133,6 +135,9 @@ String fileName = workbook4.getFileName();
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

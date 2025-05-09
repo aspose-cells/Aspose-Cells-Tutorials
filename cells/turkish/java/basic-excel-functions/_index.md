@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Temel Excel Fonksiyonları
@@ -48,9 +50,11 @@ Aspose.Cells for Java ile Excel'deki MIN Fonksiyonunun Gücünü Keşfedin. Mini
 Aspose.Cells for Java ile Excel metin fonksiyonlarının sırlarını açığa çıkarın. Excel'de metni zahmetsizce düzenlemeyi, çıkarmayı ve dönüştürmeyi öğrenin.
 ### [Excel Tarih Fonksiyonları Eğitimi](./excel-date-functions-tutorial/)
 Java için Aspose.Cells kullanarak Excel Tarih Fonksiyonlarını öğrenin. Kaynak kodlu adım adım öğreticileri keşfedin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

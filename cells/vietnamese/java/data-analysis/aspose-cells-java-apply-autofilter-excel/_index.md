@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Bạn đã thành thạo việc tự động hóa các tác vụ lọc Excel b�
 - **Ủng hộ**: Tham gia diễn đàn cộng đồng tại [Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

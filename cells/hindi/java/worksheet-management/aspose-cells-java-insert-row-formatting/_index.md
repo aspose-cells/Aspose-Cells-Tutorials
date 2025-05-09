@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ InsertOptions insertOptions = new InsertOptions();
 insertOptions.setCopyFormatType(CopyFormatType.SAME_AS_ABOVE);
 ```
 
-### चरण 4: एक पंक्ति सम्मिलित करें
+### चरण 4: पंक्ति डालें
 
 पंक्ति को इच्छित स्थान पर डालने के लिए, `insertRows()` विधि। यहाँ, हम इसे इंडेक्स 2 (तीसरे स्थान) पर डाल रहे हैं:
 ```java
@@ -158,6 +160,9 @@ Aspose.Cells का उपयोग करके Excel में फ़ॉर्
 अपने जावा एप्लीकेशन में इस समाधान को लागू करने के लिए तैयार हैं? इसे आज़माएँ और देखें कि Aspose.Cells आपके एक्सेल फ़ाइल मैनिपुलेशन को कैसे सरल बना सकता है!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

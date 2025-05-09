@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ CRM、ERP、カスタム Java アプリケーションなどの他のシステ�
 このガイドに従うことで、Aspose.Cells for Java を使った Excel 自動化をマスターするための重要な一歩を踏み出しました。これらの強力な機能を探求し、アプリケーションに統合し続けてください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

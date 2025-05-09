@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/interactive-dashboards/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interactive Dashboards
@@ -129,6 +131,7 @@ Yes, Aspose.Cells for Java is well-suited for both small-scale and large-scale d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

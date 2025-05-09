@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licencszerzés
 Az Aspose.Cells használatához a következőket teheti:
 - **Ingyenes próbaverzió**Töltsd le a könyvtárat az ingyenes próbaverzió használatához.
-- **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
 - **Vásárlás**: Fontolja meg a vásárlást, ha megfelel az igényeinek.
 
 ### Alapvető inicializálás és beállítás
@@ -151,6 +153,9 @@ Az Aspose.Cells további funkcióinak felfedezéséhez érdemes lehet kísérlet
 Indulj el az Aspose.Cells utazására még ma, és biztosítsd a numerikus pontosságot minden projektedben!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

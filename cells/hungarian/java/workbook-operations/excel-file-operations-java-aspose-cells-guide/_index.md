@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ A hivatkozott területek lekérése kulcsfontosságú lehet az adatokon belüli 
 ## Teljesítménybeli szempontok
 
 Nagyméretű Excel-fájlok kezelésekor vegye figyelembe az alábbi teljesítménynövelő tippeket:
-- memóriahasználat minimalizálása a használaton kívüli objektumok eltávolításával.
+- A memóriahasználat minimalizálása a használaton kívüli objektumok eltávolításával.
 - Optimalizálja a fájlhozzáférési és feldolgozási időket az olvasási/írási műveletek számának korlátozásával.
 - Használja az Aspose.Cells hatékony API-jait összetett táblázatok kezeléséhez.
 
@@ -193,6 +195,9 @@ Ebben az oktatóanyagban megtanultad, hogyan tölthetsz be egy Excel-munkafüzet
 - [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

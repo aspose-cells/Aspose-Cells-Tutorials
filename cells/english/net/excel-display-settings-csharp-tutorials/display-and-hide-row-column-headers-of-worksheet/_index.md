@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/display-and-hide-row-column-he
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display And Hide Row Column Headers Of Worksheet
@@ -135,6 +137,7 @@ You can apply for a temporary license for evaluation purposes at [this link](htt
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

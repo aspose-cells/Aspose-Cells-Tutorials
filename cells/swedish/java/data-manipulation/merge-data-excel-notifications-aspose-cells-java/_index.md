@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ import com.aspose.cells.License;
 
 public class InitializeAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Ställ in licens
+        // Ange licens
         License license = new License();
         license.setLicense("path_to_your_license.lic");
         
@@ -222,6 +224,9 @@ Genom att följa den här guiden har du lärt dig hur du effektivt använder Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

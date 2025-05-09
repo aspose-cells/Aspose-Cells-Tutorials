@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ workbook.save(filePath); // Salvar alterações no arquivo
 ### Dicas para solução de problemas
 - **Arquivo não encontrado**: Verifique novamente o caminho do arquivo.
 - **ÍndiceForaDosLimites**: Certifique-se de acessar uma planilha e um índice de célula válidos.
-- **Problemas de licença**: Confirme se sua licença está aplicada corretamente se estiver além dos limites de teste.
+- **Problemas de licença**: Confirme se sua licença está aplicada corretamente se estiver sendo executada além dos limites de teste.
 
 ## Aplicações práticas
 
@@ -162,6 +164,9 @@ Se você achou este tutorial útil, tente implementar essas técnicas em seus pr
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

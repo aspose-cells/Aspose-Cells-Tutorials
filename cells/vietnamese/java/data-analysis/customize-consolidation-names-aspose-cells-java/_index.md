@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ public class CustomSettings extends GlobalizationSettings {
 
 #### Bước 2: Tích hợp CustomSettings
 
-Thiết lập cài đặt tùy chỉnh trong sổ làm việc:
+Thiết lập cài đặt tùy chỉnh của bạn trong sổ làm việc:
 
 ```java
 Workbook workbook = new Workbook();
@@ -188,6 +190,9 @@ Hãy thử và xem tên hợp nhất tùy chỉnh có thể cải thiện quy tr
 Khám phá các tài nguyên này để biết thêm hướng dẫn và hỗ trợ về cách sử dụng Aspose.Cells Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

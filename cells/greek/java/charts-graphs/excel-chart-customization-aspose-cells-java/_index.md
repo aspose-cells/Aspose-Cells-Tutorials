@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ for (int i = 0; i < chart.getNSeries().getCount(); i++) {
 Ξεκινήστε το ταξίδι σας προς την τελειοποίηση της προσαρμογής γραφημάτων Excel με το Aspose.Cells για Java και αναβαθμίστε τον τρόπο που παρουσιάζετε δεδομένα. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

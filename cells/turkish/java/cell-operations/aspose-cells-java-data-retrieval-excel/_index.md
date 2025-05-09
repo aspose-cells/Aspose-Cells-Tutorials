@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,10 +179,13 @@ Aspose.Cells for Java kullanarak Excel hücrelerinden veri alma konusunda ustala
 - **Geçici Lisans:** [Geçici Lisans Alın](https://purchase.aspose.com/temporary-license/)
 - **Destek:** [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
-Aspose.Cells for Java ile yolculuğunuza başlayın ve uygulamalarınızda Excel veri manipülasyonunun tüm potansiyelini ortaya çıkarın!
+Aspose.Cells for Java ile yolculuğunuza başlayın ve uygulamalarınızda Excel veri işlemenin tüm potansiyelini ortaya çıkarın!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

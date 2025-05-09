@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 
 **สิ่งที่คุณจะได้เรียนรู้:**
 - วิธีการลบตัวแบ่งหน้าแนวนอนในเวิร์กชีต Excel
-- เทคนิคในการเคลียร์การแบ่งหน้าแนวตั้ง
+- เทคนิคในการเคลียร์ตัวแบ่งหน้าแนวตั้ง
 - การติดตั้งและกำหนดค่า Aspose.Cells สำหรับ Java
 - การประยุกต์ใช้งานจริงและความเป็นไปได้ในการบูรณาการ
 
@@ -194,6 +196,9 @@ sheet.getVerticalPageBreaks().clear();
 - สำรวจคุณลักษณะเพิ่มเติมของ Aspose.Cells สำหรับ Java เพื่อปรับปรุงความสามารถในการจัดการเอกสาร Excel ของคุณให้ดียิ่งขึ้น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

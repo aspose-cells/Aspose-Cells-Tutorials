@@ -7,30 +7,32 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Otomatisasi Excel dengan Aspose.Cells Java: Pembuatan Buku Kerja dan Manipulasi Sel Tingkat Lanjut
 
-## Perkenalan
+## Bevezetés
 
 Bosan dengan penyuntingan lembar kerja secara manual atau mengotomatiskan tugas Excel yang rumit? Temukan kekuatan Aspose.Cells untuk Java untuk membuat buku kerja, memanipulasi nilai sel, menetapkan rumus, menerapkan gaya khusus, dan melakukan pencarian canggih secara terprogram. Panduan ini akan meningkatkan keterampilan otomatisasi Excel Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menginisialisasi buku kerja dan mengakses lembar kerja.
 - Teknik untuk memanipulasi nilai sel dengan rumus dan menerapkan gaya khusus.
 - Menggunakan opsi pencarian lanjutan untuk menemukan nilai tertentu meskipun ada perubahan format.
-- Aplikasi praktis dalam skenario dunia nyata.
+- Gyakorlati alkalmazások valós helyzetekben.
 
 Mari kita mulai dengan prasyarat yang dibutuhkan untuk Aspose.Cells Java.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menerapkan tugas otomatisasi Excel menggunakan Aspose.Cells untuk Java, pastikan Anda memiliki:
-1. **Perpustakaan dan Ketergantungan:** Sertakan pustaka Aspose.Cells dalam proyek Anda, tentukan versi 25.3 atau yang lebih baru.
-2. **Pengaturan Lingkungan:** Mendukung Java dengan alat pembangunan Maven atau Gradle.
-3. **Prasyarat Pengetahuan:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi Excel.
+1. **Könyvtárak és függőségek:** Sertakan pustaka Aspose.Cells dalam proyek Anda, tentukan versi 25.3 atau yang lebih baru.
+2. **Környezet beállítása:** Mendukung Java dengan alat pembangunan Maven atau Gradle.
+3. **Előfeltételek a tudáshoz:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -52,43 +54,43 @@ Sertakan ini di dalam `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells untuk Java adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis untuk mengevaluasi fitur-fiturnya.
-1. **Uji Coba Gratis:** Unduh dan uji tanpa batasan fitur.
-2. **Lisensi Sementara:** Dapatkan lisensi sementara untuk evaluasi lanjutan.
-3. **Pembelian:** Beli lisensi penuh jika Aspose.Cells memenuhi kebutuhan Anda.
+1. **Ingyenes próbaverzió:** Unduh dan uji tanpa batasan fitur.
+2. **Ideiglenes engedély:** Dapatkan lisensi sementara untuk evaluasi lanjutan.
+3. **Vásárlás:** Beli lisensi penuh jika Aspose.Cells memenuhi kebutuhan Anda.
 
-### Inisialisasi Dasar
-Untuk menginisialisasi Aspose.Cells di proyek Anda:
+### Alapvető inicializálás
+Az Aspose.Cells inicializálása a projektben:
 ```java
 // Impor paket yang diperlukan
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Inisialisasi buku kerja baru
+// Új munkafüzet inicializálása
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini mencakup pembuatan buku kerja, manipulasi sel, dan fitur pencarian lanjutan.
 
 ### Fitur 1: Pembuatan Buku Kerja dan Manipulasi Sel
 
-#### Ringkasan
+#### Áttekintés
 Buat buku kerja Excel, akses lembar kerja, manipulasi nilai sel dengan rumus, dan terapkan gaya kustom secara terprogram.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **1. Buat Buku Kerja Baru:**
-Mulailah dengan membuat contoh `Workbook` kelas:
+Kezdje egy példány létrehozásával a `Workbook` osztály:
 ```java
 import com.aspose.cells.Workbook;
-// Inisialisasi objek buku kerja baru
+// Új munkafüzet-objektum inicializálása
 Workbook workbook = new Workbook();
 ```
 
 **2. Akses Lembar Kerja Pertama:**
-Akses lembar kerja pertama di buku kerja yang baru Anda buat:
+Nyissa meg az újonnan létrehozott munkafüzet első munkalapját:
 ```java
 import com.aspose.cells.Worksheet;
 // Ambil lembar kerja pertama
@@ -121,22 +123,22 @@ cell.setStyle(style);
 Pastikan semua perhitungan rumus diperbarui sebelum menyimpan:
 ```java
 workbook.calculateFormula();
-// Tentukan jalur direktori keluaran
+// Kimeneti könyvtár elérési útjának meghatározása
 String outDir = "YOUR_OUTPUT_DIRECTORY";
-// Simpan buku kerja yang dimodifikasi
+// Mentse el a módosított munkafüzetet
 workbook.save(outDir + "SDUOriginalValues_out.xlsx");
 ```
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 - Pastikan lingkungan Java Anda diatur dengan benar.
 - Verifikasi apakah Aspose.Cells ditambahkan dengan benar sebagai dependensi dalam proyek Anda.
 
 ### Fitur 2: Pencarian dengan FindOptions Menggunakan Nilai Asli
 
-#### Ringkasan
+#### Áttekintés
 Cari nilai tertentu dalam buku kerja Excel, bahkan ketika pemformatan khusus mungkin mengaburkan konten sebenarnya.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **1. Inisialisasi Buku Kerja dan Lembar Kerja:**
 Dengan asumsi buku kerja dan lembar kerja sudah disiapkan:
 ```java
@@ -164,46 +166,49 @@ Object obj = 20; // Hasil yang diharapkan dari rumus di D4
 Cell foundCell = worksheet.getCells().find(obj, null, options);
 ```
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 - Pastikan kriteria pencarian Anda didefinisikan dengan benar.
 - Verifikasi apakah sel berisi nilai yang diharapkan sebelum melakukan pencarian.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Jelajahi skenario dunia nyata di mana fitur-fitur ini dapat bermanfaat:
-1. **Pelaporan Keuangan Otomatis:** Hasilkan laporan keuangan dengan ringkasan terhitung dan format khusus.
-2. **Sistem Manajemen Inventaris:** Cari tingkat inventaris menggunakan nilai asli meskipun format tampilan.
-3. **Proyek Analisis Data:** Buat buku kerja dinamis yang secara otomatis memperbarui perhitungan berdasarkan perubahan data.
+1. **Automatizált pénzügyi jelentéskészítés:** Hasilkan laporan keuangan dengan ringkasan terhitung dan format khusus.
+2. **Készletgazdálkodási rendszerek:** Cari tingkat inventaris menggunakan nilai asli meskipun format tampilan.
+3. **Adatelemzési projektek:** Buat buku kerja dinamis yang secara otomatis memperbarui perhitungan berdasarkan perubahan data.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Optimalkan kinerja saat bekerja dengan Aspose.Cells di Java:
-- **Manajemen Memori:** Perhatikan penggunaan memori, terutama dengan kumpulan data besar. Buang objek yang tidak diperlukan dan kelola sumber daya secara efisien.
-- **Pemrosesan Batch:** Memproses sel secara batch untuk mengurangi overhead dan meningkatkan waktu eksekusi.
+- **Memóriakezelés:** Perhatikan penggunaan memori, terutama dengan kumpulan data besar. Buang objek yang tidak diperlukan dan kelola sumber daya secara efisien.
+- **Kötegelt feldolgozás:** Memproses sel secara batch untuk mengurangi overhead dan meningkatkan waktu eksekusi.
 - **Optimalkan Rumus:** Gunakan rumus yang efisien dan minimalkan referensi rentang sel jika memungkinkan.
 
-## Kesimpulan
+## Következtetés
 
 Tutorial ini membahas otomatisasi tugas Excel menggunakan Aspose.Cells untuk Java, dengan fokus pada pembuatan buku kerja, manipulasi sel, dan pencarian tingkat lanjut. Kuasai teknik-teknik ini untuk menyempurnakan alur kerja pemrosesan data Anda.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan fitur-fitur tambahan seperti grafik dan tabel pivot.
 - Jelajahi dokumentasi Aspose.Cells yang luas untuk membuka lebih banyak kemampuan.
 
 Siap untuk meningkatkan keterampilan otomatisasi Excel Anda ke tingkat berikutnya? Pelajari sumber daya di bawah ini dan mulailah menerapkannya hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Untuk apa Aspose.Cells for Java digunakan?**
    - Mengotomatiskan tugas-tugas terkait dengan pembuatan, manipulasi, dan pencarian data dalam lembar kerja Excel menggunakan Java.
 
 2. **Bagaimana cara mengatur Aspose.Cells dengan Maven atau Gradle?**
-   - Tambahkan cuplikan dependensi masing-masing yang disediakan di atas ke dalam `pom.xml` atau `build.gradle` mengajukan.
+   - Tambahkan cuplikan dependensi masing-masing yang disediakan di atas ke dalam `pom.xml` vagy `build.gradle` fájl.
 
 3. **Bisakah saya mencari nilai meskipun pemformatan sel menyembunyikannya?**
    - Ya, menggunakan `FindOptions` dikonfigurasi untuk melihat nilai asli memungkinkan Anda melakukan pencarian tersebut.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

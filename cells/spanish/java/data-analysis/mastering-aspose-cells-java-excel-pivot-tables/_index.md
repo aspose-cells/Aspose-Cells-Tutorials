@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ En el vertiginoso mundo del análisis de datos, crear informes dinámicos y deta
 En este tutorial, exploraremos cómo aprovechar Aspose.Cells para Java para cargar libros, acceder a tablas dinámicas y personalizarlas según sus necesidades. Ya sea que desee agregar campos al área de datos, configurar totales generales, gestionar valores nulos o definir el orden del diseño, esta guía le ayudará. Al finalizar este tutorial, tendrá los conocimientos necesarios para mejorar sus informes de Excel de forma eficiente.
 
 **Lo que aprenderás:**
-- Cargar un libro de trabajo existente y acceder a sus tablas dinámicas
+- Cargar un libro existente y acceder a sus tablas dinámicas
 - Agregar campos al área de datos en una tabla dinámica
 - Configurar totales generales para filas y columnas
 - Manejar valores nulos mostrando cadenas personalizadas
@@ -212,6 +214,9 @@ A5: Visita el [Documentación de Aspose.Cells](https://reference.aspose.com/cell
 ¡Feliz codificación y siéntete libre de explorar más con Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

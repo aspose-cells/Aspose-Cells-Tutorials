@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Загрузка существующей книги Excel
 - Доступ к ячейкам рабочего листа и управление ими
 - Перемещение диапазонов ячеек на рабочем листе
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Прежде чем начать, убедитесь, что у вас выполнены все предварительные условия, чтобы вы были готовы к реализации Aspose.Cells на Java.
 
@@ -203,6 +205,9 @@ Aspose.Cells для Java упрощает различные реальные з
 Это всеобъемлющее руководство позволяет вам использовать весь потенциал Aspose.Cells для Java, улучшая управление файлами Excel в приложениях Java. Начните сегодня и откройте новые уровни производительности!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Sind Sie bereit, diese Fähigkeiten in Ihrem nächsten Projekt anzuwenden? Probi
 Mit diesem umfassenden Handbuch sind Sie jetzt in der Lage, große Excel-Dateien mit Aspose.Cells für Java wie ein Profi zu verarbeiten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

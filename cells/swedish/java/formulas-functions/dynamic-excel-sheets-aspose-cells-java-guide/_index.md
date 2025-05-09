@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Innan du börjar, se till att du har:
 2. **Krav för miljöinstallation:**
    - Ett Java Development Kit (JDK) installerat på ditt system
    - En IDE som IntelliJ IDEA eller Eclipse
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmering
 
 ## Konfigurera Aspose.Cells för Java
@@ -189,6 +191,9 @@ Utforska avancerade funktioner i [Aspose-dokumentation](https://reference.aspose
 Omfamna kraften i Aspose.Cells för Java i ditt nästa projekt och höj dina automatiseringsmöjligheter i Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Funkcja COUNTIF w programie Excel
@@ -36,7 +38,7 @@ Teraz, gdy mamy już bibliotekę Aspose.Cells w naszym projekcie, możemy skonfi
 
 1. Utwórz nowy projekt Java w preferowanym zintegrowanym środowisku programistycznym (IDE).
 
-2. Importuj Aspose.Cells: Zaimportuj niezbędne klasy z biblioteki Aspose.Cells do swojej klasy Java.
+2. Importuj Aspose.Cells: Importuj niezbędne klasy z biblioteki Aspose.Cells do swojej klasy Java.
 
 3. Zainicjuj Aspose.Cells: Zainicjuj bibliotekę Aspose.Cells w kodzie Java, tworząc wystąpienie `Workbook` klasa.
 
@@ -155,6 +157,7 @@ Zaawansowane samouczki i dokumentację dla Aspose.Cells dla języka Java można 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

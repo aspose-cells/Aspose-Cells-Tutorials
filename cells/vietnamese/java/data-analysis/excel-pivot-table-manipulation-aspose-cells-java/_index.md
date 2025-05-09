@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Bao gồm dòng này trong `build.gradle` tài liệu:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Các bước xin cấp giấy phép:
+#### Các bước xin cấp phép:
 - **Dùng thử miễn phí:** Tải xuống giấy phép dùng thử miễn phí để khám phá đầy đủ các tính năng của Aspose.Cells.
 - **Giấy phép tạm thời:** Xin giấy phép đánh giá tạm thời từ [Trang web Aspose](https://purchase.aspose.com/temporary-license/).
 - **Mua:** Hãy cân nhắc mua giấy phép đầy đủ để sử dụng lâu dài.
@@ -209,6 +211,9 @@ Khám phá thêm tại [Tài nguyên chính thức của Aspose](https://release
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fonctions Excel de base
@@ -48,9 +50,11 @@ Découvrez la puissance de la fonction MIN dans Excel avec Aspose.Cells pour Jav
 Découvrez les secrets des fonctions de texte d'Excel avec Aspose.Cells pour Java. Apprenez à manipuler, extraire et transformer du texte dans Excel sans effort.
 ### [Tutoriel sur les fonctions de date dans Excel](./excel-date-functions-tutorial/)
 Apprenez les fonctions de date d'Excel avec Aspose.Cells pour Java. Explorez des tutoriels pas à pas avec code source.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,37 +7,39 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells Java: Mengatur Mode Perhitungan Rumus ke Manual
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia manajemen data dan analisis keuangan yang serba cepat saat ini, efisiensi adalah kuncinya. Bayangkan memiliki kendali atas kapan rumus Excel Anda menghitung—menghemat waktu, sumber daya, dan mencegah penghitungan ulang yang tidak perlu. Tutorial ini akan memandu Anda melalui pengaturan mode penghitungan rumus di Aspose.Cells untuk Java ke manual, yang menawarkan kendali yang tepat atas penghitungan. 
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur Aspose.Cells untuk Java.
 - Langkah-langkah untuk mengonfigurasi mode perhitungan rumus buku kerja ke manual.
 - Konfigurasi utama dan implikasinya.
-- Aplikasi praktis dari fitur ini.
+- Ennek a funkciónak a gyakorlati alkalmazásai.
 - Tips pengoptimalan kinerja.
 
 Sebelum memulai, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memenuhi persyaratan berikut:
+A bemutató követéséhez győződjön meg arról, hogy megfelel a következő követelményeknek:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java**Anda memerlukan Aspose.Cells versi 25.3 atau yang lebih baru.
   
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - **Kit Pengembangan Java (JDK)**Pastikan JDK terinstal pada sistem Anda.
 - **Lingkungan Pengembangan Terpadu (IDE)**:Alat seperti IntelliJ IDEA, Eclipse, atau NetBeans direkomendasikan.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan alat bantu pembangunan Maven atau Gradle untuk manajemen ketergantungan.
 
@@ -57,19 +59,19 @@ Tambahkan dependensi berikut di `pom.xml`:
 ```
 
 ### Pengaturan Gradle
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis**: Unduh lisensi sementara untuk mengevaluasi Aspose.Cells untuk Java tanpa batasan apa pun.
-2. **Lisensi Sementara**: Ajukan permohonan lisensi uji coba gratis 30 hari di situs web Aspose.
-3. **Pembelian**:Untuk penggunaan jangka panjang, beli langganan dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió**: Unduh lisensi sementara untuk mengevaluasi Aspose.Cells untuk Java tanpa batasan apa pun.
+2. **Ideiglenes engedély**: Ajukan permohonan lisensi uji coba gratis 30 hari di situs web Aspose.
+3. **Vásárlás**Hosszú távú használathoz vásároljon előfizetést innen: [Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 
 Setelah Anda menambahkan dependensi dan memperoleh lisensi, inisialisasi Aspose.Cells di aplikasi Java Anda:
 
@@ -80,19 +82,19 @@ License license = new License();
 license.setLicense("Path to your license file");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita telusuri pengaturan buku kerja dengan mode perhitungan rumus manual menggunakan Aspose.Cells untuk Java.
 
 ### Membuat Buku Kerja dan Mengatur Mode Perhitungan
 
-#### Ringkasan
+#### Áttekintés
 
 Mengatur mode perhitungan rumus ke manual akan mencegah perhitungan ulang rumus secara otomatis, sehingga Anda dapat memicu perhitungan hanya saat dibutuhkan. Hal ini dapat meningkatkan kinerja secara signifikan dalam buku kerja yang besar.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
-##### Langkah 1: Buat Buku Kerja Baru
+##### 1. lépés: Új munkafüzet létrehozása
 Mulailah dengan menginisialisasi contoh buku kerja baru:
 
 ```java
@@ -111,7 +113,7 @@ import com.aspose.cells.SaveFormat;
 workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);
 ```
 
-##### Langkah 3: Simpan Buku Kerja
+##### 3. lépés: A munkafüzet mentése
 
 Terakhir, simpan buku kerja Anda ke lokasi yang diinginkan dalam format XLSX:
 
@@ -119,37 +121,37 @@ Terakhir, simpan buku kerja Anda ke lokasi yang diinginkan dalam format XLSX:
 workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - **Kesalahan Perhitungan**Pastikan semua rumus valid sebelum menyimpan.
-- **Masalah Jalur File**: Periksa kembali jalur file yang digunakan dalam `save` metode.
+- **Fájlútvonal-problémák**: Periksa kembali jalur file yang digunakan dalam `save` módszer.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Memahami cara mengatur mode perhitungan dapat bermanfaat dalam berbagai skenario:
 
 1. **Set Data Besar**: Mencegah perhitungan yang tidak diperlukan, meningkatkan kinerja.
-2. **Pemrosesan Batch**Memungkinkan pemrosesan beberapa buku kerja tanpa melakukan perhitungan ulang setiap waktu.
+2. **Kötegelt feldolgozás**Memungkinkan pemrosesan beberapa buku kerja tanpa melakukan perhitungan ulang setiap waktu.
 3. **Integrasi dengan Sistem Eksternal**: Berguna saat mengintegrasikan fungsionalitas Excel ke dalam aplikasi Java yang memerlukan perhitungan ulang yang terkendali.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Mengoptimalkan aplikasi Anda untuk kinerja yang lebih baik sangatlah penting:
 
-- **Pedoman Penggunaan Sumber Daya**Batasi jumlah rumus dan kurangi kerumitan buku kerja jika memungkinkan.
-- **Manajemen Memori**: Gunakan fitur manajemen memori Aspose.Cells yang efisien untuk menangani kumpulan data besar secara efektif.
-- **Praktik Terbaik**: Selalu atur mode perhitungan dengan tepat berdasarkan kebutuhan penggunaan.
+- **Erőforrás-felhasználási irányelvek**Batasi jumlah rumus dan kurangi kerumitan buku kerja jika memungkinkan.
+- **Memóriakezelés**: Gunakan fitur manajemen memori Aspose.Cells yang efisien untuk menangani kumpulan data besar secara efektif.
+- **Bevált gyakorlatok**: Selalu atur mode perhitungan dengan tepat berdasarkan kebutuhan penggunaan.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara mengontrol perhitungan rumus di Aspose.Cells untuk Java dengan menyetel mode ke manual. Hal ini tidak hanya meningkatkan kinerja tetapi juga memberi Anda fleksibilitas dan kontrol yang lebih besar atas tugas pemrosesan data Excel Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 Jelajahi fitur Aspose.Cells lebih lanjut, seperti pembuatan laporan otomatis atau manipulasi rumus tingkat lanjut, untuk menyempurnakan aplikasi Anda lebih jauh.
 
-**Ajakan Bertindak**:Coba terapkan solusi ini di proyek Java Anda berikutnya untuk melihat perbedaannya!
+**Cselekvésre ösztönzés**:Coba terapkan solusi ini di proyek Java Anda berikutnya untuk melihat perbedaannya!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa mode perhitungan dalam Aspose.Cells untuk Java?**
    - Ini menentukan kapan rumus dihitung: otomatis, manual, atau tidak pernah.
@@ -164,20 +166,23 @@ Jelajahi fitur Aspose.Cells lebih lanjut, seperti pembuatan laporan otomatis ata
    - Lupa memicu perhitungan secara manual setelah menetapkan rumus.
 
 5. **Di mana saya dapat menemukan lebih banyak sumber daya tentang Aspose.Cells untuk Java?**
-   - Mengunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) dan menjelajahi berbagai panduan yang tersedia.
+   - Látogatás [Aspose dokumentáció](https://reference.aspose.com/cells/java/) dan menjelajahi berbagai panduan yang tersedia.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**: https://reference.aspose.com/sel/java/
-- **Unduh**: https://releases.aspose.com/sel/java/
-- **Pembelian**: https://purchase.aspose.com/beli
-- **Uji Coba Gratis**: https://releases.aspose.com/sel/java/
-- **Lisensi Sementara**: https://purchase.aspose.com/lisensi-sementara/
-- **Mendukung**: https://forum.aspose.com/c/sel/9
+- **Dokumentáció**: https://reference.aspose.com/sel/java/
+- **Letöltés**: https://releases.aspose.com/sel/java/
+- **Vásárlás**: https://purchase.aspose.com/beli
+- **Ingyenes próbaverzió**: https://releases.aspose.com/sel/java/
+- **Ideiglenes engedély**: https://purchase.aspose.com/lisensi-sementara/
+- **Támogatás**: https://forum.aspose.com/c/sel/9
 
 Tutorial ini akan membekali Anda dengan pengetahuan dan alat untuk mengelola kalkulasi rumus secara efektif di Aspose.Cells untuk Java. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

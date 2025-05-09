@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ Voor verdere verkenning kunt u zich verdiepen in geavanceerde functies zoals for
 Met deze uitgebreide handleiding kunt u het volledige potentieel van Aspose.Cells voor Java benutten en uw Excel-bestandsbeheer in Java-applicaties verbeteren. Ga vandaag nog aan de slag en bereik een ongekende productiviteit!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

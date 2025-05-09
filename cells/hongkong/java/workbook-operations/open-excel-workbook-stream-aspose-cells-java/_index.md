@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 **介紹**
 
-在當今數位時代，高效管理資料至關重要，尤其是在處理儲存在 Excel 檔案中的大型資料集時。無論您開發的是處理財務報告的軟體還是自動執行資料分析任務，以程式方式開啟和操作 Excel 工作簿都可以節省時間並減少錯誤。本指南探討如何使用 Aspose.Cells for Java（專為無縫處理 Excel 檔案而設計的強大函式庫）從流程開啟 Excel 工作簿。
+在當今數位時代，高效管理資料至關重要，尤其是在處理儲存在 Excel 檔案中的大型資料集時。無論您開發的是處理財務報告的軟體還是自動執行資料分析任務，以程式方式開啟和操作 Excel 工作簿都可以節省時間並減少錯誤。本指南探討如何使用 Aspose.Cells for Java（專為無縫處理 Excel 檔案而設計的強大程式庫）從流程開啟 Excel 工作簿。
 
 在本教程中，您將學習：
 
@@ -171,6 +173,9 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 透過遵循這份全面的指南，您將能夠在專案中充分利用 Aspose.Cells for Java，從而增強功能和效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de COUNTIF İşlevi
@@ -52,7 +54,7 @@ Daha sonra COUNTIF fonksiyonunu uygulayabileceğimiz yeni bir Excel dosyası olu
 1. Yeni bir Excel dosyası oluşturun: Yeni bir Excel dosyası oluşturmak için aşağıdaki kodu kullanın.
 
 ```java
-// Yeni bir Excel dosyası oluştur
+// Yeni bir Excel dosyası oluşturun
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -155,6 +157,7 @@ Java için Aspose.Cells'e ilişkin gelişmiş eğitimleri ve belgeleri şu adres
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

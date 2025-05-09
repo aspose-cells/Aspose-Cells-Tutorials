@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ De forma predeterminada, las hojas de trabajo tienen índice cero.
 
 Ahora insertaremos filas en una posición específica dentro de nuestra hoja de cálculo seleccionada:
 
-#### Paso 5: Importar clase de celdas
+#### Paso 5: Importar la clase de celdas
 ```java
 import com.aspose.cells.Cells;
 ```
@@ -199,6 +201,9 @@ Para garantizar un rendimiento óptimo:
 ¡Embárquese hoy mismo en su viaje con Aspose.Cells para Java y revolucione su forma de manejar los datos de Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

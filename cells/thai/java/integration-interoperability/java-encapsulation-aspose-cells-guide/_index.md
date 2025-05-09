@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@
 
 ### การตั้งค่า Aspose.Cells สำหรับ Java
 
-#### การติดตั้งแบบพึ่งพา
+#### การติดตั้งการพึ่งพา
 
 ในการเริ่มต้น ให้เพิ่ม Aspose.Cells เป็นส่วนที่ต้องมีในโปรเจ็กต์ของคุณโดยใช้ Maven หรือ Gradle
 
@@ -219,6 +221,9 @@ class DataObject {
 โปรดอย่าลังเลที่จะสำรวจทรัพยากรเหล่านี้เพื่อดูข้อมูลเพิ่มเติมและการสนับสนุน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

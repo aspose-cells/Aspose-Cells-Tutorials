@@ -8,7 +8,9 @@ url: /net/worksheet-security/allow-edit-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Allow Users to Edit Ranges in Worksheet using Aspose.Cells
@@ -108,6 +110,7 @@ No, the protection is internal. Users will only be prompted to enter a password 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

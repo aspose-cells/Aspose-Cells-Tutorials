@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ public class InitializeAspose {
 ### 更新富文本單元格中的字體設置
 修改特定單元格內的字體設定以增強可讀性或簡報效果。
 
-#### 載入工作簿和 Access 工作表
+#### 載入工作簿和存取工作表
 首先，載入您的工作簿並存取包含目標儲存格的工作表：
 
 ```java
@@ -202,6 +204,9 @@ A5：將其與基於 Java 的 Web 應用程式或資料處理腳本集成，以�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

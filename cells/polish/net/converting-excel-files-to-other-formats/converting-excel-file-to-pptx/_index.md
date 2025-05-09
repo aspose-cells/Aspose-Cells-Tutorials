@@ -1,34 +1,36 @@
 ---
-title: Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET
-linktitle: Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo przekonwertować plik Excela na prezentację PowerPoint (PPTX) przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku.
-weight: 16
-url: /pl/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/
+"description": "Dowiedz się, jak programowo przekonwertować plik Excela na prezentację PowerPoint (PPTX) przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET"
+"url": "/pl/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja pliku Excel do formatu PPTX programowo w środowisku .NET
 
 ## Wstęp
 
-W dzisiejszym szybkim świecie wizualne udostępnianie danych jest ważniejsze niż kiedykolwiek. Prezentacje są popularnym sposobem przekazywania spostrzeżeń, ale co, jeśli wszystkie dane są przechowywane w arkuszach Excela? Czyż nie byłoby wspaniale, gdybyś mógł przekonwertować dane Excela bezpośrednio na prezentację PowerPoint (PPTX)? Ten przewodnik przeprowadzi Cię przez proces programowego osiągnięcia tego przy użyciu Aspose.Cells dla .NET. Przygotuj się na łatwą transformację plików Excela w dynamiczne prezentacje PowerPoint!
+dzisiejszym szybkim świecie wizualne udostępnianie danych jest ważniejsze niż kiedykolwiek. Prezentacje są popularnym sposobem przekazywania spostrzeżeń, ale co, jeśli wszystkie dane są przechowywane w arkuszach Excela? Czyż nie byłoby wspaniale, gdybyś mógł przekonwertować dane Excela bezpośrednio na prezentację PowerPoint (PPTX)? Ten przewodnik przeprowadzi Cię przez proces programowego osiągnięcia tego przy użyciu Aspose.Cells dla .NET. Przygotuj się na łatwą transformację plików Excela w dynamiczne prezentacje PowerPoint!
 
 ## Wymagania wstępne
 
-Zanim zagłębimy się w kod, omówmy niezbędne wymagania wstępne. Ustawiając odpowiednie środowisko, zapewnisz sobie płynne kodowanie.
+Zanim zagłębimy się w kod, omówmy niezbędne wymagania wstępne. Konfigurując odpowiednie środowisko, zapewnisz sobie płynne kodowanie.
 
-1. Zainstaluj Aspose.Cells dla .NET: Najpierw musisz zainstalować bibliotekę Aspose.Cells. Możesz to zrobić za pomocą NuGet w Visual Studio lub pobrać biblioteki DLL z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+1. Zainstaluj Aspose.Cells dla .NET: Najpierw musisz zainstalować bibliotekę Aspose.Cells. Możesz to zrobić za pomocą NuGet w Visual Studio lub pobrać biblioteki DLL z [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 
 Zainstaluj za pomocą NuGet, używając następującego polecenia:
 ```bash
 Install-Package Aspose.Cells
 ```
 2. Środowisko programistyczne: Upewnij się, że masz środowisko programistyczne .NET, takie jak Visual Studio, skonfigurowane w swoim systemie. Ten przewodnik jest zgodny zarówno z .NET Framework, jak i .NET Core/5+.
-3.  Ważna licencja: Możesz używać Aspose.Cells bez licencji do celów testowych, ale w wynikach będzie wyświetlany znak wodny. Do użytku produkcyjnego uzyskaj licencję od[Strona zakupu Aspose](https://purchase.aspose.com/buy) lub użyj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby uwolnić cały potencjał.
+3. Ważna licencja: Możesz używać Aspose.Cells bez licencji do celów testowych, ale w wynikach pojawi się znak wodny. Do użytku produkcyjnego uzyskaj licencję od [Strona zakupu Aspose](https://purchase.aspose.com/buy) lub użyj [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby uwolnić cały potencjał.
 
 ## Importuj przestrzenie nazw
 
@@ -42,16 +44,16 @@ Teraz, gdy wszystko już skonfigurowałeś, omówmy krok po kroku proces konwers
 
 ## Krok 1: Zainicjuj obiekt skoroszytu
 
- W tym pierwszym kroku zainicjujemy`Workbook` obiekt, aby załadować plik Excel, który chcesz przekonwertować na prezentację PowerPoint.
+W tym pierwszym kroku zainicjujemy `Workbook` obiekt, aby załadować plik Excel, który chcesz przekonwertować na prezentację PowerPoint.
 
- Pomyśl o`Workbook` jako kompletny plik Excel, w tym wszystkie arkusze kalkulacyjne, formuły, wykresy i dane. Potrzebujemy tego obiektu do interakcji z zawartością wewnątrz pliku Excel.
+Pomyśl o `Workbook` jako kompletny plik Excel, w tym wszystkie arkusze kalkulacyjne, formuły, wykresy i dane. Potrzebujemy tego obiektu do interakcji z zawartością wewnątrz pliku Excel.
 
 ```csharp
 string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
--  sourceDir: Zastąp`"Your Document Directory"` ze ścieżką do pliku Excel.
+- sourceDir: Zastąp `"Your Document Directory"` ze ścieżką do pliku Excel.
 - Skoroszyt: Ten wiersz ładuje plik Excela (`Book1.xlsx`) do pamięci, co umożliwia jego konwersję.
 
 ## Krok 2: Wybierz katalog wyjściowy
@@ -66,7 +68,7 @@ string outputDir = "Your Document Directory";
 
 ## Krok 3: Konwertuj Excela do PPTX
 
- Oto magia! W tym kroku użyjemy`Save` metoda konwersji pliku Excel do formatu prezentacji PowerPoint (PPTX). Aspose.Cells zajmuje się całą ciężką pracą w tle.
+Oto magia! W tym kroku użyjemy `Save` metoda konwersji pliku Excel do formatu prezentacji PowerPoint (PPTX). Aspose.Cells zajmuje się całą ciężką pracą w tle.
 
 ```csharp
 workbook.Save(outputDir + "Book1.pptx", SaveFormat.Pptx);
@@ -101,13 +103,15 @@ Aspose.Cells zachowuje większość wykresów, tabel i innych elementów wizualn
 Chociaż ten samouczek skupiał się na bezpośredniej konwersji, Aspose.Cells pozwala na bardziej zaawansowaną personalizację, w tym modyfikację wyglądu i układu prezentacji.
 
 ### Czy potrzebuję licencji, aby uruchomić ten kod?
-Możesz uruchomić ten kod bez licencji, ale wynik będzie zawierał znak wodny. Aby uzyskać pełną funkcjonalność, możesz uzyskać[bezpłatny okres próbny](https://releases.aspose.com/) lub kup[licencja](https://purchase.aspose.com/buy).
+Możesz uruchomić ten kod bez licencji, ale wynik będzie zawierał znak wodny. Aby uzyskać pełną funkcjonalność, możesz uzyskać [bezpłatny okres próbny](https://releases.aspose.com/) lub kup [licencja](https://purchase.aspose.com/buy).
 
 ### Czy można zautomatyzować konwersję wielu plików?
 Tak, możesz zautomatyzować ten proces, przeglądając listę plików Excela i konwertując je do formatu PPTX, wykonując te same kroki.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

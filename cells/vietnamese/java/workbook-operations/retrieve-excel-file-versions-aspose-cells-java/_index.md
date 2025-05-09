@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ Lấy phiên bản cho tệp Excel 2007 ở định dạng .xlsx.
 
 ### Nhận Phiên bản Tệp Excel (Excel 2010 XLSX)
 #### Tổng quan
-Truy xuất thông tin chi tiết về phiên bản cho tệp Excel 2010 ở định dạng .xlsx.
+Truy xuất thông tin chi tiết phiên bản cho tệp Excel 2010 ở định dạng .xlsx.
 
 **Thực hiện từng bước:**
 1. **Tải sổ làm việc:** Tải tệp .xlsx của bạn vào `Workbook`.
@@ -225,6 +227,9 @@ Bạn đã sẵn sàng triển khai giải pháp này vào dự án của mình 
    - Lưu ý sự khác biệt về thông số định dạng tệp giữa các phiên bản, chẳng hạn như xử lý các dự án VBA hoặc macro.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

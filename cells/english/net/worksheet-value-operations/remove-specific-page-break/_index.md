@@ -8,7 +8,9 @@ url: /net/worksheet-value-operations/remove-specific-page-break/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Specific Page Break from Worksheet using Aspose.Cells
@@ -83,6 +85,7 @@ You can reach out to the [Aspose Support Forum](https://forum.aspose.com/c/cells
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

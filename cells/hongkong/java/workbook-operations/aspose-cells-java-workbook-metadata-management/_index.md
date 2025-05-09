@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ A3：確保您的檔案路徑正確且檔案格式受 Aspose.Cells 支援。
 **Q4：自訂文件屬性的類型有什麼限制嗎？**
 A4：雖然大多數資料類型都受支持，但始終確保與 Excel 的屬性限制相容。
 
-**問題5：如果我遇到問題，如何獲得支援？**
+**Q5：如果我遇到問題，如何獲得支援？**
 A5：參觀 [Aspose 的支援論壇](https://forum.aspose.com/c/cells/9) 尋求社區和專業援助。
 
 ## 資源
@@ -179,6 +181,9 @@ A5：參觀 [Aspose 的支援論壇](https://forum.aspose.com/c/cells/9) 尋求�
 - **支持：** 透過以下方式獲得社群和專業支持 [Aspose 論壇](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/shrinking-text-to-fit-cell-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Shrinking Text to Fit Cell Size in Excel
@@ -114,6 +116,7 @@ Yes, you can obtain a [temporary license](https://purchase.aspose.com/temporary-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

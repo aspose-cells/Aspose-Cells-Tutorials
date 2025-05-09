@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Zu den nächsten Schritten könnte die Untersuchung anderer Warntypen oder die I
 - **Kauf und Lizenzierung:** Holen Sie sich Ihre Lizenz oder testen Sie die kostenlose Testversion über [Aspose Kauf](https://purchase.aspose.com/buy) oder [Kostenlose Aspose-Testversion](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

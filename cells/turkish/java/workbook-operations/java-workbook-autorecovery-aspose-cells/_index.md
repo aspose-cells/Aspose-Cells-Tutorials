@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ license.setLicense("path_to_your_license.lic");
 Bu bölüm, Java'da Excel dosyalarıyla çalışmanın temeli olan Aspose.Cells Çalışma Kitabı nesnesinin yeni bir örneğinin nasıl oluşturulacağını göstermektedir.
 
 **Adım Adım Uygulama**
-1. **Gerekli Sınıfları İthal Edin:**
+1. **Gerekli Sınıfları İçeri Aktarın:**
    ```java
    import com.aspose.cells.Workbook;
    ```
@@ -180,6 +182,9 @@ Excel dosyalarınızın kontrolünü ele geçirmeye hazır mısınız? Bu çöz�
 - **Destek**: Tartışmaya katılın ve yardım isteyin [Aspose Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

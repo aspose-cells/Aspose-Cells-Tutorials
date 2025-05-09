@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ wr.toImage("path/to/DocumentConversionProgressForTiff_out.tiff");
 - **正しいパスを確認する**すべてのファイル パス (ソース Excel と出力 TIFF) が正しく定義されていることを確認します。
 - **Javaのメモリ使用量を監視する**Aspose.Cells はリソースを大量に消費する可能性があります。JVM に十分なメモリを割り当ててください。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 このアプローチは、次のようなシナリオで役立ちます。
 1. **自動報告システム**大規模なデータセットを視覚的な形式に変換して、解釈を容易にします。
@@ -181,6 +183,9 @@ A5: もちろんです! ほとんどの Java ベースのシステムと互換�
 - **サポートフォーラム**： [Aspose サポートコミュニティ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

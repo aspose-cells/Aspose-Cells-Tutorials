@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Aspose.Cells ofrece una prueba gratuita que te permite probar sus funciones sin 
 ```java
 import com.aspose.cells.Workbook;
 
-// Inicializar la biblioteca Aspose.Cells con un archivo de licencia (si está disponible)
+// Inicialice la biblioteca Aspose.Cells con un archivo de licencia (si está disponible)
 Workbook workbook = new Workbook(); // Crea un nuevo archivo Excel.
 ```
 
@@ -162,6 +164,9 @@ Como próximos pasos, considere explorar otras características de Aspose.Cells 
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

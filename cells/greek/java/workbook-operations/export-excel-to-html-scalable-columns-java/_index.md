@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Για να χρησιμοποιήσετε το Aspose.Cells χωρίς περιορισμούς αξιολόγησης, μπορείτε να κάνετε τα εξής:
 - **Δωρεάν δοκιμή**: Λήψη δοκιμαστικής άδειας χρήσης από [Ιστότοπος του Aspose](https://releases.aspose.com/cells/java/).
-- **Προσωρινή Άδεια**Υποβάλετε αίτηση για προσωρινή άδεια στο [Σελίδα Προσωρινής Άδειας Χρήσης Aspose](https://purchase.aspose.com/temporary-license/).
+- **Προσωρινή Άδεια**: Υποβάλετε αίτηση για προσωρινή άδεια στο [Σελίδα Προσωρινής Άδειας Χρήσης Aspose](https://purchase.aspose.com/temporary-license/).
 - **Αγορά**Αποκτήστε μια πλήρη άδεια για εμπορική χρήση από το [Σελίδα αγοράς](https://purchase.aspose.com/buy).
 
 ### Βασική Αρχικοποίηση
@@ -209,6 +211,9 @@ public class ExcelToHtmlConverter {
 Ξεκινήστε το ταξίδι σας για να τελειοποιήσετε τον χειρισμό αρχείων Excel με το Aspose.Cells για Java και βελτιώστε την παρουσίαση δεδομένων σας σήμερα!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

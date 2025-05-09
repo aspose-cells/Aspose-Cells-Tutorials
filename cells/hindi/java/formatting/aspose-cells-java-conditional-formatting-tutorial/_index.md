@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ book.save(outDir + "ASToARAC_out.xlsx");
 विभिन्न Excel संस्करणों के साथ संगतता बनाए रखने के लिए वांछित सेव फ़ॉर्मेट (जैसे, XLS या XLSX) निर्दिष्ट करें। Aspose.Cells कई फ़ॉर्मेट का समर्थन करता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

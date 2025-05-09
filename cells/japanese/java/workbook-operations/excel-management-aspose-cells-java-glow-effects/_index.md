@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ ge.setTransparency(0.4); // 透明度レベルを設定します。
 ## 結論
 Aspose.CellsをJavaプロジェクトに統合することで、Excelファイル操作を伴う複雑なタスクを簡単に自動化できます。このチュートリアルでは、図形にグローなどの動的な視覚効果を適用しながら、Excelファイルを読み込み、変更、保存する方法を学びました。
 ### 次のステップ
-Aspose.Cells の機能をさらに詳しく調べるには:
+Aspose.Cells の機能をさらに詳しく知るには:
 - その他のシェイプのプロパティと効果について詳しく見てみましょう。
 - Excel 形式でのデータ処理に関するワークフロー全体の自動化を検討します。
 ## FAQセクション
@@ -127,6 +129,9 @@ A3: はい、Aspose.Cells は、多用途の API を通じて、CSV、ODS など
 Aspose.Cells for Java を使用して Excel ファイルの操作を習得し、データ駆動型アプリケーションを向上させましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

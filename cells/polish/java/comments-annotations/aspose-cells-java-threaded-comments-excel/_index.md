@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Wstęp
 Zarządzanie komentarzami wątkowymi w programie Excel może być trudne, szczególnie w przypadku korzystania z języka Java. Ten przewodnik pokazuje, jak skutecznie dodawać i zarządzać komentarzami wątkowymi w skoroszytach programu Excel przy użyciu Aspose.Cells for Java — solidnej biblioteki zaprojektowanej do bezproblemowej interakcji z plikami programu Excel.
 
-tym samouczku dowiesz się:
+W tym samouczku dowiesz się:
 - Konfigurowanie środowiska z Aspose.Cells dla Java
 - Tworzenie nowego skoroszytu
 - Dodawanie autorów do komentarzy wątkowych
@@ -165,6 +167,9 @@ A2: Użyj zależności Maven lub Gradle, jak pokazano wcześniej, i upewnij się
 A3: Tak, możesz dodać wielu autorów, aby obsługiwać różnych komentujących w skoroszycie programu Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

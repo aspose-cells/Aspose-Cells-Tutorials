@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ public class Main {
 - साझा परिवेशों में चेकबॉक्स का उपयोग करते समय अनपेक्षित परिवर्तनों को रोकने के लिए उचित अनुमतियाँ सुनिश्चित करें और विशिष्ट कक्षों को लॉक करने पर विचार करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

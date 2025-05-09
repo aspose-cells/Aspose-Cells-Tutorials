@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introdução
 
-Você está procurando agilizar o processo de criação de novas pastas de trabalho do Excel ou importar dados XML diretamente para suas planilhas? Com **Aspose.Cells para Java**, você pode automatizar essas tarefas com eficiência. Este tutorial guiará você pelo uso do Aspose.Cells para criar e inicializar uma pasta de trabalho, bem como importar dados XML sem problemas.
+Você está procurando agilizar o processo de criação de novas pastas de trabalho do Excel ou importar dados XML diretamente para suas planilhas? Com **Aspose.Cells para Java**, você pode automatizar essas tarefas com eficiência. Este tutorial o guiará pelo uso do Aspose.Cells para criar e inicializar uma pasta de trabalho, bem como importar dados XML sem problemas.
 
 Neste guia abrangente, abordaremos:
 - Criando uma nova pasta de trabalho do Excel
@@ -172,6 +174,9 @@ Mergulhe na criação de aplicativos Excel robustos com **Aspose.Cells para Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

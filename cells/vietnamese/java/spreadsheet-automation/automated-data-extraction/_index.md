@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất dữ liệu tự động
@@ -111,9 +113,11 @@ Tự động trích xuất dữ liệu với Aspose.Cells for Java giúp đơn g
    Khám phá tài liệu API tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
 Hãy bắt đầu tự động hóa các tác vụ trích xuất dữ liệu của bạn ngay hôm nay với Aspose.Cells for Java và hợp lý hóa quy trình truy xuất dữ liệu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

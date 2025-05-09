@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 피벗 테이블에서 데이터 그룹화
@@ -108,9 +110,11 @@ Excel의 피벗 테이블은 대규모 데이터 세트를 요약하고 분석�
 ### 3. Aspose.Cells for Java를 사용하여 피벗 테이블 생성을 자동화할 수 있나요?
 
 네, 제공된 소스 코드 예제에서 보여주듯이, Aspose.Cells for Java를 사용하여 Excel에서 피벗 테이블을 자동으로 만들 수 있습니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

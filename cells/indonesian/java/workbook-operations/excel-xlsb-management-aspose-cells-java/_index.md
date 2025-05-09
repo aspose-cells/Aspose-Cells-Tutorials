@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Manajemen File Excel XLSB dengan Aspose.Cells di Java
 Kelola file Excel Anda dengan mudah dengan mempelajari cara memuat dan memodifikasi koneksi database dalam format XLSB menggunakan Aspose.Cells untuk Java.
 
-## Perkenalan
+## Bevezetés
 Apakah Anda menghadapi tantangan dalam mengelola file Excel XLSB, terutama dalam hal membaca atau memodifikasi koneksi database? Panduan lengkap ini memperkenalkan **Aspose.Cells untuk Java**, pustaka canggih yang menyederhanakan pekerjaan dengan file Excel. Anda akan mempelajari cara:
 - Muat berkas Excel XLSB menggunakan Aspose.Cells.
 - Membaca dan mengubah rincian koneksi basis data eksternal dalam berkas.
@@ -22,9 +24,9 @@ Apakah Anda menghadapi tantangan dalam mengelola file Excel XLSB, terutama dalam
 
 Mari jelajahi pengaturan lingkungan Anda dan penerapan fitur-fitur ini selangkah demi selangkah.
 
-### Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki:
-- **Kit Pengembangan Java (JDK)** terinstal di komputer Anda.
+### Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
+- **Kit Pengembangan Java (JDK)** telepítve a gépedre.
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan Maven atau Gradle untuk manajemen ketergantungan.
 
@@ -45,8 +47,8 @@ Tambahkan Aspose.Cells sebagai dependensi dalam proyek Anda menggunakan Maven at
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Akuisisi Lisensi
-Aspose.Cells menawarkan uji coba gratis untuk menguji kemampuannya. Anda dapat memperolehnya dengan mengunjungi situs mereka [halaman uji coba gratis](https://releases.aspose.com/cells/java/)Untuk penggunaan berkelanjutan, pertimbangkan untuk memperoleh lisensi sementara atau membeli satu dari [bagian pembelian](https://purchase.aspose.com/buy).
+### Licencszerzés
+Aspose.Cells menawarkan uji coba gratis untuk menguji kemampuannya. Anda dapat memperolehnya dengan mengunjungi situs mereka [ingyenes próbaoldal](https://releases.aspose.com/cells/java/)Untuk penggunaan berkelanjutan, pertimbangkan untuk memperoleh lisensi sementara atau membeli satu dari [bagian pembelian](https://purchase.aspose.com/buy).
 
 Setelah Anda memiliki berkas lisensi, inisialisasikan berkas tersebut dalam proyek Anda sebagai berikut:
 ```java
@@ -56,9 +58,9 @@ License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Muat File Excel XLSB
-**Ringkasan:** Mulailah dengan memuat file XLSB yang ada ke dalam `Workbook` obyek.
+**Áttekintés:** Mulailah dengan memuat file XLSB yang ada ke dalam `Workbook` objektum.
 
 #### Langkah 1: Impor Kelas yang Diperlukan
 ```java
@@ -70,10 +72,10 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sampleExternalConnection_XLSB.xlsb");
 ```
-Mengganti `dataDir` dengan jalur direktori Anda yang sebenarnya berisi file XLSB.
+Csere `dataDir` dengan jalur direktori Anda yang sebenarnya berisi file XLSB.
 
 ### Membaca Koneksi DB Eksternal dari File XLSB
-**Ringkasan:** Berikutnya, baca koneksi basis data eksternal pertama yang tertanam dalam buku kerja.
+**Áttekintés:** Berikutnya, baca koneksi basis data eksternal pertama yang tertanam dalam buku kerja.
 
 #### Langkah 1: Impor Kelas DBConnection
 ```java
@@ -87,7 +89,7 @@ DBConnection dbCon = (DBConnection) wb.getDataConnections().get(0);
 Ini mengambil koneksi basis data pertama dari kumpulan koneksi data buku kerja.
 
 ### Ubah dan Tampilkan Detail Koneksi DB
-**Ringkasan:** Sekarang, ubah nama koneksi ini dan tampilkan detailnya untuk verifikasi.
+**Áttekintés:** Sekarang, ubah nama koneksi ini dan tampilkan detailnya untuk verifikasi.
 
 #### Langkah 1: Impor Utilitas Java
 ```java
@@ -108,7 +110,7 @@ dbCon.setName("NewCust");
 Ini mengubah nama koneksi menjadi "NewCust".
 
 ### Simpan File Excel XLSB yang Dimodifikasi
-**Ringkasan:** Terakhir, simpan modifikasi Anda kembali ke berkas XLSB.
+**Áttekintés:** Terakhir, simpan modifikasi Anda kembali ke berkas XLSB.
 
 #### Langkah 1: Impor Kelas SaveFormat
 ```java
@@ -120,29 +122,29 @@ import com.aspose.cells.SaveFormat;
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "/outputExternalConnection_XLSB.xlsb", SaveFormat.AUTO);
 ```
-Mengganti `outDir` dengan jalur direktori keluaran Anda yang sebenarnya.
+Csere `outDir` dengan jalur direktori keluaran Anda yang sebenarnya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 - **Pelaporan Basis Data:** Otomatisasi penyambungan file Excel ke basis data untuk pelaporan dinamis.
-- **Integrasi Data:** Gunakan file XLSB sebagai jembatan antara aplikasi Java dan sumber data eksternal.
-- **Analisis Keuangan:** Ubah rincian koneksi dengan cepat untuk integrasi yang lancar dengan basis data keuangan.
+- **Adatintegráció:** Gunakan file XLSB sebagai jembatan antara aplikasi Java dan sumber data eksternal.
+- **Pénzügyi elemzés:** Ubah rincian koneksi dengan cepat untuk integrasi yang lancar dengan basis data keuangan.
 
-## Pertimbangan Kinerja
-Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells:
-- Buang `Workbook` objek dengan tepat setelah digunakan untuk mengelola penggunaan memori.
+## Teljesítménybeli szempontok
+Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
+- Ártalmatlanítsa `Workbook` objek dengan tepat setelah digunakan untuk mengelola penggunaan memori.
 - Tangani file Excel yang besar dalam beberapa bagian untuk mengurangi konsumsi sumber daya.
 - Optimalkan pengaturan tumpukan Java berdasarkan kebutuhan aplikasi Anda.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah menguasai pengelolaan file XLSB dengan Aspose.Cells untuk Java. Dengan memuat, membaca, memodifikasi, dan menyimpan koneksi basis data dalam file-file ini, Anda dapat menyederhanakan proses pengelolaan data Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 Pertimbangkan untuk menjelajahi fitur lain seperti manipulasi bagan atau perhitungan rumus untuk meningkatkan kemampuan penanganan file Excel Anda.
 
-**Ajakan Bertindak:** Cobalah menerapkan solusi ini pada proyek Anda berikutnya dan lihat bagaimana solusi ini meningkatkan alur kerja Anda!
+**Cselekvésre ösztönzés:** Cobalah menerapkan solusi ini pada proyek Anda berikutnya dan lihat bagaimana solusi ini meningkatkan alur kerja Anda!
 
-## Bagian FAQ
-1. **Apa itu Aspose.Cells?**
+## GYIK szekció
+1. **Mi az Aspose.Cells?**
    - Pustaka Java yang canggih untuk mengelola berkas Excel, menawarkan fitur seperti membaca, menulis, dan memodifikasi lembar kerja.
 2. **Dapatkah saya menggunakan Aspose.Cells dengan format file lain selain XLSB?**
    - Ya, ini mendukung berbagai format Excel termasuk XLSX, CSV, dll.
@@ -150,19 +152,22 @@ Pertimbangkan untuk menjelajahi fitur lain seperti manipulasi bagan atau perhitu
    - SaveFormat.AUTO secara otomatis menentukan format terbaik untuk digunakan saat menyimpan buku kerja berdasarkan jenis file aslinya.
 4. **Bagaimana cara menangani kumpulan data besar di Aspose.Cells?**
    - Pisahkan kumpulan data menjadi potongan-potongan yang lebih kecil atau optimalkan pengaturan memori Java Anda untuk kinerja yang lebih baik.
-5. **Apakah ada biaya yang terkait dengan penggunaan Aspose.Cells?**
+5. **Vannak-e költségek az Aspose.Cells használatának?**
    - Meskipun ada uji coba gratis, penggunaan lanjutan memerlukan pembelian lisensi atau memperoleh lisensi sementara untuk tujuan evaluasi.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis dan Lisensi Sementara](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió és ideiglenes licenc](https://releases.aspose.com/cells/java/)
 
 Jelajahi sumber daya ini untuk memperdalam pemahaman Anda tentang Aspose.Cells untuk Java. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

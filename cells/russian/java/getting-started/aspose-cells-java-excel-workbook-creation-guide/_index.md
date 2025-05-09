@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## Предварительные условия (H2)
 Прежде чем приступить к работе, убедитесь, что у вас есть следующее:
 
-- **Требуемые библиотеки:** Aspose.Cells для Java версии 25.3 или более поздней.
+- **Необходимые библиотеки:** Aspose.Cells для Java версии 25.3 или более поздней.
 - **Настройка среды:** Установленный в вашей системе рабочий комплект разработки Java (JDK).
 - **Необходимые знания:** Базовые знания программирования на Java и знакомство с системами сборки Maven или Gradle.
 
@@ -157,6 +159,9 @@ workbook.save(dataDir + "OUT_NamedRanges_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

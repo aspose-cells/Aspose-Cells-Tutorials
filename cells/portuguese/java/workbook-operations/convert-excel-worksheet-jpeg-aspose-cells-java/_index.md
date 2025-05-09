@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ A2: Sim, definindo `imgOptions.setImageType(ImageType.PNG)` ou `ImageType.BMP` r
 **P3: E se minha pasta de trabalho for protegida por senha?**
 R3: Você pode carregar uma pasta de trabalho protegida fornecendo a senha no construtor da pasta de trabalho, como a seguir: `new Workbook(dataDir + "/book1.xlsx", password)`. 
 
-**P4: É possível personalizar a qualidade da imagem?**
+**Q4: É possível personalizar a qualidade da imagem?**
 A4: Sim, ajuste o nível de compressão JPEG usando `imgOptions.setJpegQuality(int value)` onde o valor varia de 0 (menor qualidade) a 100 (maior qualidade).
 
 **P5: Onde posso baixar a versão mais recente do Aspose.Cells para Java?**
@@ -172,6 +174,9 @@ Com este guia, você agora está preparado para converter seus dados do Excel em
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

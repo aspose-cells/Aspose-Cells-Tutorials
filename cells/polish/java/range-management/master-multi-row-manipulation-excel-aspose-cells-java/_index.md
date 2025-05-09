@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Czy kiedykolwiek zdarzyło Ci się zduplikować kilka wierszy danych z arkusza kalkulacyjnego Excel, tylko po to, aby zdać sobie sprawę, że proces ten jest uciążliwy i podatny na błędy? Niezależnie od tego, czy chodzi o konsolidację danych, czy przygotowywanie raportów, efektywne zarządzanie wieloma operacjami wierszowymi może znacznie zwiększyć produktywność. Dzięki **Aspose.Cells dla Javy**, zadanie to staje się bezproblemowe dzięki zaawansowanemu interfejsowi API, który płynnie współpracuje z plikami Excela.
 
-W tym samouczku pokażemy, jak kopiować wiele wierszy w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells for Java. Pod koniec tego przewodnika będziesz mieć solidne zrozumienie kroków i praktycznych zastosowań tej funkcji.
+W tym samouczku pokażemy, jak kopiować wiele wierszy w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells for Java. Pod koniec tego przewodnika będziesz mieć solidne zrozumienie kroków i praktycznych zastosowań tej funkcji.
 
 ### Czego się nauczysz:
 - Jak skonfigurować Aspose.Cells dla języka Java w środowisku programistycznym.
@@ -195,6 +197,9 @@ A5: Zapisz i otwórz skoroszyt w programie Excel, aby wizualnie sprawdzić zmian
 Przeglądaj te zasoby, aby pogłębić swoje zrozumienie i możliwości Aspose.Cells dla Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

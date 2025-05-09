@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Aspose.Cells for Java を使用して、Excel セルの特定の部分にある�
    - Java JDK を実行するマシンと、Maven または Gradle プロジェクトをサポートする IDE。
 
 2. **複数のフォント設定を一度に変更できますか?**
-   - はい、全てを反復処理できます `FontSetting` セル内のオブジェクトを変更をまとめて適用します。
+   - はい、すべて反復処理できます `FontSetting` セル内のオブジェクトを変更をまとめて適用します。
 
 3. **Aspose.Cells を使用して行ったフォントの変更を元に戻すことは可能ですか?**
    - はい、変更前の初期状態を保存することで、元のフォントを復元できます。
@@ -179,6 +181,9 @@ Aspose.Cells for Java を使用して、Excel セルの特定の部分にある�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

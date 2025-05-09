@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Profundicemos en la funcionalidad principal de agregar datos a las celdas de Exc
 El `Workbook` La clase es la puerta de entrada para crear o manipular archivos de Excel. Empiece por instanciarla:
 
 ```java
-// Crear una instancia de un nuevo objeto Workbook
+// Crear una instancia de un nuevo objeto de libro de trabajo
 Workbook workbook = new Workbook();
 ```
 
@@ -212,6 +214,9 @@ Experimenta con lo que has aprendido hoy y no dudes en contactar con el [Foro de
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

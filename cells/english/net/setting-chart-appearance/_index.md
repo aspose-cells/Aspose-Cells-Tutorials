@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Chart Appearance
@@ -48,9 +50,11 @@ Unlock the potential of Excel charting with Aspose.Cells for .NET. Learn to set 
 Learn how to customize chart lines in Excel using Aspose.Cells for .NET with our detailed step-by-step guide.
 ### [Set Titles and Axes in Chart](./set-titles-and-axes-in-chart/)
 Learn how to set titles and axes in charts using Aspose.Cells for .NET with this step-by-step guide, complete with code examples and tips.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

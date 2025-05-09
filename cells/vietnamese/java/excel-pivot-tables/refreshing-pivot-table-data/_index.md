@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm mới dữ liệu bảng Pivot
@@ -90,9 +92,11 @@ Làm mới dữ liệu Pivot Table trong Aspose.Cells for Java là một quy tr�
    - Có, bạn có thể lên lịch làm mới dữ liệu tự động bằng Aspose.Cells và các thư viện lập lịch Java. Điều này cho phép bạn cập nhật Pivot Tables của mình mà không cần can thiệp thủ công.
 
 Bây giờ bạn đã có kiến thức để làm mới dữ liệu Pivot Table trong Aspose.Cells for Java. Giữ cho các phân tích của bạn chính xác và luôn đi đầu trong các quyết định dựa trên dữ liệu của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

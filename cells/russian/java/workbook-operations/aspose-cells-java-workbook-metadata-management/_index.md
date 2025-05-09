@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ A4: Хотя поддерживается большинство типов да
 А5: Посетить [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) для оказания общественной и профессиональной помощи.
 
 ## Ресурсы
-- **Документация:** Изучите всеобъемлющий [Документация Java Aspose.Cells](https://reference.aspose.com/cells/java/) чтобы узнать больше.
+- **Документация:** Исследуйте всеобъемлющий [Документация Java Aspose.Cells](https://reference.aspose.com/cells/java/) чтобы узнать больше.
 - **Скачать:** Получите последнюю версию с сайта [Сайт релиза Aspose](https://releases.aspose.com/cells/java/).
 - **Покупка:** Рассмотрите возможность приобретения полной лицензии на расширенные функции через [Страница покупки Aspose](https://purchase.aspose.com/buy).
 - **Бесплатная пробная версия:** Начните с бесплатной пробной версии, чтобы протестировать возможности Aspose.Cells.
@@ -179,6 +181,9 @@ A4: Хотя поддерживается большинство типов да
 - **Поддерживать:** Получите доступ к общественной и профессиональной поддержке через [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

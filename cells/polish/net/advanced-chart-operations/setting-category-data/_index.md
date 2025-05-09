@@ -1,14 +1,16 @@
 ---
-title: Ustawianie kategorii danych
-linktitle: Ustawianie kategorii danych
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawić dane kategorii na wykresach Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby ułatwić implementację.
-weight: 15
-url: /pl/net/advanced-chart-operations/setting-category-data/
+"description": "Dowiedz się, jak ustawić dane kategorii na wykresach Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby ułatwić implementację."
+"linktitle": "Ustawianie kategorii danych"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie kategorii danych"
+"url": "/pl/net/advanced-chart-operations/setting-category-data/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie kategorii danych
@@ -22,11 +24,11 @@ Jeśli chodzi o programowe zarządzanie plikami Excela i manipulowanie nimi, pos
 Zanim zagłębimy się w szczegóły, upewnijmy się, że masz wszystko, czego potrzebujesz:
 
 1. Środowisko programistyczne: Upewnij się, że masz skonfigurowane środowisko programistyczne .NET. Zalecane jest Visual Studio.
-2.  Biblioteka Aspose.Cells dla .NET: Pobierz najnowszą wersję biblioteki ze strony[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Pobierz najnowszą wersję biblioteki ze strony [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość pojęć języka C# i programu Excel pomoże Ci w płynniejszym przyswojeniu treści.
-4.  Dostęp do dokumentacji: Posiadanie dostępu do[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) może dostarczyć dodatkowych informacji, jeśli utkniesz. 
+4. Dostęp do dokumentacji: Posiadanie dostępu do [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) może dostarczyć dodatkowych informacji, jeśli utkniesz. 
 
-Mając wszystko gotowe, możemy krok po kroku odkryć magię operacji w programie Excel.
+Mając wszystko już gotowe, możemy krok po kroku odkryć magię operacji w programie Excel.
 
 ## Importuj pakiety 
 
@@ -54,7 +56,7 @@ Najpierw musisz określić, gdzie plik Excel zostanie zapisany. Utwórz zmienną
 string outputDir = "Your Output Directory";
 ```
 
- Zastępować`"Your Output Directory"` z rzeczywistą ścieżką do lokalizacji, w której chcesz zapisać plik wyjściowy Excela. Dzięki temu będziesz dokładnie wiedział, gdzie znaleźć swój ukończony produkt!
+Zastępować `"Your Output Directory"` z rzeczywistą ścieżką do lokalizacji, w której chcesz zapisać plik wyjściowy Excela. Dzięki temu będziesz dokładnie wiedział, gdzie znaleźć swój ukończony produkt!
 
 ## Krok 3: Tworzenie instancji obiektu skoroszytu
 
@@ -72,7 +74,7 @@ Będziesz musiał pracować z pierwszym arkuszem w skoroszycie. Dostęp do arkus
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Indeks`0` wskazuje na pierwszy arkusz kalkulacyjny. W programie Excel pomyśl o tym jak o otwarciu pierwszej zakładki w skoroszycie.
+Indeks `0` wskazuje na pierwszy arkusz kalkulacyjny. W programie Excel pomyśl o tym jak o otwarciu pierwszej karty w skoroszycie.
 
 ## Krok 5: Dodawanie wartości próbek do komórek
 
@@ -102,7 +104,7 @@ worksheet.Cells["C3"].PutValue("Y1");
 worksheet.Cells["C4"].PutValue("Y2");
 ```
 
-Tutaj oznaczamy każdy zestaw danych kategoriami takimi jak „Q1” i „Y1”, co ułatwi późniejszą interpretację wykresu.
+Tutaj oznaczamy każdy zestaw danych kategoriami takimi jak „Q1” i „Y1”, co ułatwi późniejszą interpretację naszego wykresu.
 
 ## Tworzenie wykresu
 
@@ -120,7 +122,7 @@ Ten wiersz tworzy nowy wykres kolumnowy zaczynający się od wiersza 5 i kolumny
 
 ## Krok 8: Dostęp do instancji wykresu
 
-Zanim będziemy mogli zapełnić wykres danymi, musimy uzyskać dostęp do wystąpienia nowo utworzonego wykresu:
+Zanim będziemy mogli zapełnić wykres danymi, musimy uzyskać dostęp do instancji nowo utworzonego wykresu:
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
@@ -178,19 +180,21 @@ I masz! Udało Ci się ustawić dane kategorii dla wykresu w skoroszycie program
 Aspose.Cells to biblioteka .NET do zarządzania plikami Excel bez konieczności korzystania z programu Microsoft Excel. Umożliwia programowe tworzenie, edycję i konwersję dokumentów Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz wypróbować Aspose.Cells za darmo. Oferują bezpłatną wersję próbną dostępną[Tutaj](https://releases.aspose.com/).
+Tak, możesz wypróbować Aspose.Cells za darmo. Oferują bezpłatną wersję próbną dostępną [Tutaj](https://releases.aspose.com/).
 
 ### Czy Aspose.Cells nadaje się do dużych zbiorów danych?
-Oczywiście! Aspose.Cells jest zaprojektowany do wydajnego obsługiwania dużych zestawów danych, co czyni go niezawodnym wyborem dla aplikacji intensywnie wykorzystujących dane.
+Oczywiście! Aspose.Cells jest zaprojektowany do wydajnego obsługiwania dużych zestawów danych, co czyni go niezawodnym wyborem dla aplikacji intensywnie korzystających z danych.
 
 ### Jak dodawać wykresy za pomocą Aspose.Cells?
 Możesz dodać wykresy, tworząc nowy obiekt wykresu i łącząc go z zakresami komórek zawierającymi dane, jak pokazano w tym samouczku.
 
 ### Gdzie mogę znaleźć więcej przykładów użycia Aspose.Cells?
- Więcej przykładów i szczegółową dokumentację można znaleźć na stronie[Strona dokumentacji Aspose.Cells](https://reference.aspose.com/cells/net/).
+Więcej przykładów i szczegółową dokumentację można znaleźć na stronie [Strona dokumentacji Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

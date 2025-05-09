@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 
 ## 필수 조건
 
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 
 ### 필수 라이브러리
 Maven이나 Gradle을 통해 Aspose.Cells for Java를 프로젝트에 통합하세요. 최신 기능과 개선 사항을 활용하려면 25.3 이상 버전을 사용하세요.
@@ -162,6 +164,9 @@ workbook.save(dataDir + "DBlankColumns_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

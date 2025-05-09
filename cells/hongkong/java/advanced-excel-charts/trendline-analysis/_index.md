@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 趨勢線分析
@@ -31,7 +33,7 @@
 
 2. 透過包含 JAR 檔案將 Aspose.Cells for Java 庫新增到您的專案中。
 
-## 步驟2：載入數據
+## 步驟 2：載入數據
 
 ```java
 // 導入必要的庫
@@ -103,6 +105,7 @@ workbook.save("output.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

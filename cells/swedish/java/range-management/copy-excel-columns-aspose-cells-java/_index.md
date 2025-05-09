@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -44,7 +46,7 @@ Grundläggande förståelse för Java-programmering och kännedom om Excel-filer
 
 ## Konfigurera Aspose.Cells för Java
 
-Till att börja med, inkludera nödvändiga beroenden i ditt projekt med hjälp av Maven eller Gradle:
+Till att börja med, inkludera de nödvändiga beroendena i ditt projekt med hjälp av Maven eller Gradle:
 
 **Maven:**
 
@@ -173,10 +175,13 @@ Den här handledningen har guidat dig genom att automatisera kolumnkopiering i E
 - [Tillfällig licensinhämtning](https://purchase.aspose.com/temporary-license/)
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
-Genom att följa den här guiden bör du vara väl rustad för att implementera kolumnkopiering i Excel med Aspose.Cells för Java. Lycka till med kodningen!
+Genom att följa den här guiden bör du vara väl rustad för att implementera kolumnkopiering i Excel med hjälp av Aspose.Cells för Java. Lycka till med kodningen!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

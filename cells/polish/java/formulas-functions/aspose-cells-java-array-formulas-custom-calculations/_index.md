@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Wstęp
 
-Czy chcesz usprawnić zadania przetwarzania danych w programie Excel za pomocą Javy? Wielu programistów staje przed wyzwaniami, próbując programowo manipulować złożonymi formułami arkusza kalkulacyjnego. Ten samouczek przeprowadzi Cię przez wykorzystanie **Aspose.Cells dla Javy** aby ustawić formuły tablicowe, stosować style liczbowe, dostosowywać obliczenia i wydajnie zapisywać swoją pracę. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z automatyzacją programu Excel w Javie, ten kompleksowy przewodnik jest dla Ciebie idealny.
+Czy chcesz usprawnić zadania przetwarzania danych w programie Excel za pomocą języka Java? Wielu programistów staje przed wyzwaniami, próbując programowo manipulować złożonymi formułami arkusza kalkulacyjnego. Ten samouczek przeprowadzi Cię przez wykorzystanie **Aspose.Cells dla Javy** aby ustawić formuły tablicowe, stosować style liczbowe, dostosowywać obliczenia i wydajnie zapisywać swoją pracę. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z automatyzacją programu Excel w Javie, ten kompleksowy przewodnik jest dla Ciebie idealny.
 
 ### Czego się nauczysz
 - Jak ustawić formuły tablicowe za pomocą Aspose.Cells
@@ -233,6 +235,9 @@ Gotowy na kolejny krok? Zanurz się w bardziej zaawansowanych tematach lub zinte
 - [Kup licencję](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Поддержка XAdESSignature в рабочей книге с использованием Aspose.Cells
-linktitle: Поддержка XAdESSignature в рабочей книге с использованием Aspose.Cells
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как реализовать поддержку подписи XAdES в книгах Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для безопасной подписи документов.
-weight: 29
-url: /ru/net/workbook-operations/xades-signature-support/
+"description": "Узнайте, как реализовать поддержку подписи XAdES в книгах Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для безопасной подписи документов."
+"linktitle": "Поддержка XAdESSignature в рабочей книге с использованием Aspose.Cells"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Поддержка XAdESSignature в рабочей книге с использованием Aspose.Cells"
+"url": "/ru/net/workbook-operations/xades-signature-support/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поддержка XAdESSignature в рабочей книге с использованием Aspose.Cells
@@ -16,8 +18,8 @@ url: /ru/net/workbook-operations/xades-signature-support/
 ## Введение
 В современном цифровом мире целостность и подлинность данных имеют первостепенное значение. Представьте, что вы отправляете важный документ Excel и хотите убедиться, что получатель знает, что он не был подделан. Вот где в игру вступают цифровые подписи! С Aspose.Cells for .NET вы можете легко добавлять подписи XAdES в свои книги Excel, гарантируя, что ваши данные останутся в безопасности и заслуживают доверия. В этом руководстве мы шаг за шагом проведем вас через процесс внедрения поддержки подписей XAdES в ваши файлы Excel. Давайте погрузимся в это!
 ## Предпосылки
-Прежде чем начать, вам необходимо подготовить несколько вещей, чтобы следовать этому руководству:
-1. Aspose.Cells для .NET: Убедитесь, что у вас установлена библиотека Aspose.Cells. Вы можете скачать ее[здесь](https://releases.aspose.com/cells/net/).
+Прежде чем начать, вам необходимо иметь под рукой несколько вещей, чтобы следовать этому руководству:
+1. Aspose.Cells для .NET: Убедитесь, что у вас установлена библиотека Aspose.Cells. Вы можете скачать ее [здесь](https://releases.aspose.com/cells/net/).
 2. Среда разработки: подходящая IDE для разработки .NET, например Visual Studio.
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 4. Цифровой сертификат: действительный файл PFX (файл обмена личной информацией), содержащий ваш цифровой сертификат и пароль для доступа к нему.
@@ -27,12 +29,12 @@ url: /ru/net/workbook-operations/xades-signature-support/
 ### Создать новый проект C#
 1. Откройте Visual Studio.
 2. Создайте новый проект консольного приложения.
-3.  Назовите свой проект как-нибудь узнаваемо, например`XAdESSignatureExample`.
+3. Назовите свой проект как-нибудь узнаваемо, например `XAdESSignatureExample`.
 ### Добавить ссылку Aspose.Cells
-1.  Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений и выберите`Manage NuGet Packages`.
-2.  Искать`Aspose.Cells` и установите последнюю версию.
+1. Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений и выберите `Manage NuGet Packages`.
+2. Искать `Aspose.Cells` и установите последнюю версию.
 ### Импортируйте необходимые пространства имен
- В верхней части вашего`Program.cs` файл, добавьте следующие директивы using:
+В верхней части вашего `Program.cs` файл, добавьте следующие директивы using:
 ```csharp
 using Aspose.Cells.DigitalSignatures;
 using System;
@@ -48,29 +50,29 @@ string sourceDir = "Your Document Directory";
 // Выходной каталог
 string outputDir = "Your Document Directory";
 ```
- Заменять`"Your Document Directory"`с фактическим путем, где хранится ваш файл Excel и где вы хотите сохранить подписанный файл.
+Заменять `"Your Document Directory"` с фактическим путем, где хранится ваш файл Excel и где вы хотите сохранить подписанный файл.
 ## Шаг 2: Загрузите рабочую книгу
- Далее вы загрузите книгу Excel, которую хотите подписать. Это делается с помощью`Workbook` класс из Aspose.Cells.
+Далее вы загрузите книгу Excel, которую хотите подписать. Это делается с помощью `Workbook` класс из Aspose.Cells.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
- Обязательно замените`"sourceFile.xlsx"` на имя вашего фактического файла Excel.
+Обязательно замените `"sourceFile.xlsx"` на имя вашего фактического файла Excel.
 ## Шаг 3: Подготовьте свой цифровой сертификат
-Чтобы добавить цифровую подпись, вам нужно загрузить ваш PFX-файл и указать для него пароль. Вот как это можно сделать:
+Чтобы добавить цифровую подпись, вам нужно загрузить ваш PFX-файл и указать пароль для него. Вот как это можно сделать:
 ```csharp
 string password = "pfxPassword"; // Замените на свой пароль PFX
 string pfx = "pfxFile"; // Путь к вашему PFX-файлу
 ```
- Обязательно замените`"pfxPassword"` с вашим реальным паролем и`"pfxFile"` с путем к вашему PFX-файлу.
+Обязательно замените `"pfxPassword"` с вашим реальным паролем и `"pfxFile"` с путем к вашему PFX-файлу.
 ## Шаг 4: Создайте цифровую подпись
- Теперь пришло время создать цифровую подпись с помощью`DigitalSignature` класс. Вам нужно будет считать PFX-файл в байтовый массив, а затем создать подпись.
+Теперь пришло время создать цифровую подпись с помощью `DigitalSignature` класс. Вам нужно будет считать PFX-файл в байтовый массив, а затем создать подпись.
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
- Здесь,`"testXAdES"` является причиной подписания, и`DateTime.Now` указывается время подписания.
+Здесь, `"testXAdES"` является причиной подписания, и `DateTime.Now` указывает время подписания.
 ## Шаг 5: Добавьте подпись в рабочую книгу
- Чтобы добавить подпись в свою рабочую книгу, вам нужно создать`DigitalSignatureCollection` и добавьте к нему свою подпись.
+Чтобы добавить подпись в свою рабочую книгу, вам нужно создать `DigitalSignatureCollection` и добавьте к нему свою подпись.
 ```csharp
 DigitalSignatureCollection dsCollection = new DigitalSignatureCollection();
 dsCollection.Add(signature);
@@ -80,19 +82,19 @@ dsCollection.Add(signature);
 ```csharp
 workbook.SetDigitalSignature(dsCollection);
 ```
-## Шаг 7: Сохраните рабочую книгу
+## Шаг 7: Сохраните рабочую книгу.
 Наконец, сохраните свою книгу с примененной цифровой подписью.
 ```csharp
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 ```
- Заменять`"XAdESSignatureSupport_out.xlsx"` с желаемым именем выходного файла.
+Заменять `"XAdESSignatureSupport_out.xlsx"` с желаемым именем выходного файла.
 ## Шаг 8: Подтвердите успех
 Чтобы убедиться, что все прошло гладко, вы можете вывести на консоль сообщение об успешном завершении.
 ```csharp
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 ## Заключение
- И вот оно! Вы успешно добавили поддержку подписи XAdES в свою книгу Excel с помощью Aspose.Cells for .NET. Эта мощная функция не только повышает безопасность ваших документов, но и помогает поддерживать целостность ваших данных. Если у вас есть какие-либо вопросы или вы столкнулись с какими-либо проблемами, не стесняйтесь ознакомиться с[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) или посетите[форум поддержки](https://forum.aspose.com/c/cells/9) за помощь.
+И вот оно! Вы успешно добавили поддержку подписи XAdES в свою книгу Excel с помощью Aspose.Cells for .NET. Эта мощная функция не только повышает безопасность ваших документов, но и помогает поддерживать целостность ваших данных. Если у вас есть какие-либо вопросы или вы столкнулись с какими-либо проблемами, не стесняйтесь ознакомиться с [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) или посетите [форум поддержки](https://forum.aspose.com/c/cells/9) за помощь.
 ## Часто задаваемые вопросы
 ### Что такое XAdES?
 XAdES (XML Advanced Electronic Signatures) — стандарт электронных подписей, обеспечивающий целостность и подлинность электронных документов.
@@ -101,12 +103,14 @@ XAdES (XML Advanced Electronic Signatures) — стандарт электрон
 ### Могу ли я использовать Aspose.Cells для других форматов файлов?
 Да, Aspose.Cells в основном работает с файлами Excel, но также поддерживает различные другие форматы электронных таблиц.
 ### Существует ли бесплатная пробная версия Aspose.Cells?
-Конечно! Вы можете получить бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Конечно! Вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 ### Где я могу найти больше примеров и руководств?
- Вы можете изучить больше примеров и подробную документацию на[Сайт Aspose.Cells](https://reference.aspose.com/cells/net/).
+Вы можете изучить больше примеров и подробную документацию на [Сайт Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

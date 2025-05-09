@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ Aspose.Cells ile çalışmaya başlamak için şu kurulum adımlarını izleyin:
    Öncelikle geliştirme ortamınızı ayarlayarak ve Aspose kütüphanesine doğru şekilde referans verildiğinden emin olarak başlayın.
 
 ## Uygulama Kılavuzu
-Aspose.Cells for Java kullanarak bir Excel dosyasını yüklemek ve bir çalışma sayfasındaki belirli hücreleri bulmak için süreci açık adımlara ayıracağız.
+Aspose.Cells for Java kullanarak bir Excel dosyasını yüklemek ve çalışma sayfasındaki belirli hücreleri bulmak için süreci açık adımlara ayıracağız.
 
 ### Özellik 1: Çalışma Kitabını Oluşturma ve Yükleme (H2)
 **Genel Bakış:** Bu özellik, bir Excel çalışma kitabının belleğe yüklenmesini ve daha fazla düzenleme veya analiz yapılmasına olanak sağlamasını göstermektedir.
@@ -163,6 +165,9 @@ Aspose.Cells for Java ile bugün verimli Excel otomasyonuna doğru yolculuğunuz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

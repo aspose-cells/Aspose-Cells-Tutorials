@@ -1,27 +1,29 @@
 ---
-title: Pivot Table Sắp xếp tùy chỉnh theo chương trình trong .NET
-linktitle: Pivot Table Sắp xếp tùy chỉnh theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sắp xếp theo chương trình Pivot Tables trong .NET bằng Aspose.Cells. Hướng dẫn từng bước bao gồm thiết lập, cấu hình, sắp xếp và lưu kết quả dưới dạng tệp Excel và PDF.
-weight: 29
-url: /vi/net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/
+"description": "Tìm hiểu cách sắp xếp theo chương trình Pivot Tables trong .NET bằng Aspose.Cells. Hướng dẫn từng bước bao gồm thiết lập, cấu hình, sắp xếp và lưu kết quả dưới dạng tệp Excel và PDF."
+"linktitle": "Pivot Table Sắp xếp tùy chỉnh theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Pivot Table Sắp xếp tùy chỉnh theo chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Table Sắp xếp tùy chỉnh theo chương trình trong .NET
 
 ## Giới thiệu
-Khi nói đến việc làm việc với Excel trong môi trường .NET, có một thư viện nổi bật hơn hẳn so với các thư viện còn lại: Aspose.Cells. Bây giờ, bạn có thích không khi một công cụ cho phép bạn thao tác bảng tính theo chương trình? Đó chính xác là những gì Aspose.Cells làm! Trong hướng dẫn hôm nay, chúng ta sẽ đi sâu vào thế giới của Pivot Table và chỉ cho bạn cách triển khai sắp xếp tùy chỉnh theo chương trình bằng thư viện đa năng này.
+Khi nói đến việc làm việc với Excel trong môi trường .NET, có một thư viện nổi bật hơn hẳn so với các thư viện còn lại: Aspose.Cells. Bây giờ, bạn có thích không khi một công cụ cho phép bạn thao tác bảng tính theo chương trình? Đó chính xác là những gì Aspose.Cells làm! Trong hướng dẫn hôm nay, chúng ta sẽ đi sâu vào thế giới của Pivot Table và chỉ cho bạn cách triển khai sắp xếp tùy chỉnh theo chương trình bằng cách sử dụng thư viện đa năng này.
 ## Điều kiện tiên quyết
 Trước khi bắt tay vào viết mã, hãy đảm bảo rằng bạn đã chuẩn bị một số thứ sau:
 1. Visual Studio: Bạn sẽ cần một phiên bản Visual Studio đang hoạt động. Đây là sân chơi nơi mọi điều kỳ diệu diễn ra.
 2. .NET Framework: Sự quen thuộc với lập trình .NET là điều cần thiết. Cho dù bạn là người đam mê .NET Core hay .NET Framework, bạn đều có thể bắt đầu.
-3.  Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[Liên kết tải xuống](https://releases.aspose.com/cells/net/) và thêm nó vào dự án của bạn.
+3. Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ [Liên kết tải xuống](https://releases.aspose.com/cells/net/) và thêm nó vào dự án của bạn.
 4. Hiểu biết cơ bản về Bảng Pivot: Mặc dù bạn không cần phải là chuyên gia, nhưng một chút kiến thức về cách hoạt động của Bảng Pivot sẽ có ích khi chúng ta thực hiện hướng dẫn này.
-5.  Tệp Excel mẫu: Có một tệp Excel mẫu có tên`SamplePivotSort.xlsx` sẵn sàng trong thư mục làm việc của bạn để thử nghiệm.
+5. Tệp Excel mẫu: Có một tệp Excel mẫu có tên `SamplePivotSort.xlsx` sẵn sàng trong thư mục làm việc của bạn để thử nghiệm.
 ## Nhập gói
 Sau khi bạn đã sắp xếp xong tất cả các điều kiện tiên quyết, bước đầu tiên là nhập các gói cần thiết. Để thực hiện việc này, hãy bao gồm các dòng sau ở đầu mã của bạn:
 ```csharp
@@ -42,21 +44,21 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "SamplePivotSort.xlsx");
 ```
- Trong bước này, chúng tôi khởi tạo một cái mới`Workbook` trường hợp có đường dẫn đến tệp Excel của chúng ta. Điều này đóng vai trò như một khung vẽ nơi Bảng Pivot của chúng ta sẽ trở nên sống động.
+Trong bước này, chúng tôi khởi tạo một cái mới `Workbook` trường hợp có đường dẫn đến tệp Excel của chúng ta. Điều này đóng vai trò như một khung vẽ nơi Bảng Pivot của chúng ta sẽ trở nên sống động.
 ## Bước 2: Truy cập vào Bảng tính
 Tiếp theo, chúng ta cần truy cập vào bảng tính nơi chúng ta sẽ thêm Bảng Pivot.
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 PivotTableCollection pivotTables = sheet.PivotTables;
 ```
- Ở đây, chúng ta lấy bảng tính đầu tiên trong sổ làm việc của mình và gọi`PivotTableCollection`. Bộ sưu tập này cho phép chúng ta quản lý tất cả các Bảng Pivot trên bảng tính này.
+Ở đây, chúng ta lấy bảng tính đầu tiên trong sổ làm việc của mình và gọi `PivotTableCollection`. Bộ sưu tập này cho phép chúng ta quản lý tất cả các Bảng Pivot trên bảng tính này.
 ## Bước 3: Tạo Bảng Pivot đầu tiên của bạn
 Bây giờ là lúc tạo Bảng Pivot của chúng ta.
 ```csharp
 int index = pivotTables.Add("=Sheet1!A1:C10", "E3", "PivotTable1");
 PivotTable pivotTable = pivotTables[index];
 ```
-Chúng tôi thêm một Bảng Pivot mới vào bảng tính của mình, chỉ định phạm vi dữ liệu và vị trí của nó. "E3" cho biết nơi chúng tôi muốn Bảng Pivot của mình bắt đầu. Sau đó, chúng tôi tham chiếu Bảng Pivot mới này bằng chỉ mục của nó.
+Chúng tôi thêm một Pivot Table mới vào bảng tính của mình, chỉ định phạm vi dữ liệu và vị trí của nó. "E3" cho biết nơi chúng tôi muốn Pivot Table của mình bắt đầu. Sau đó, chúng tôi tham chiếu Pivot Table mới này bằng chỉ mục của nó.
 ## Bước 4: Cấu hình Cài đặt Bảng Pivot
 Hãy cấu hình Bảng Pivot của chúng ta! Điều này có nghĩa là kiểm soát các khía cạnh như tổng số và sắp xếp trường.
 ```csharp
@@ -109,14 +111,14 @@ pivotTable = pivotTables[index];
 // Lặp lại các thiết lập hàng và cột tương tự như các bước trước đó
 ```
 Bạn chỉ cần lặp lại quy trình tương tự, tạo Bảng Pivot thứ ba với tiêu chí sắp xếp phù hợp với nhu cầu của bạn.
-## Bước 9: Lưu sổ làm việcĐã đến lúc lưu lại mọi công sức mà chúng ta đã bỏ ra!
+## Bước 9: Lưu sổ làm việcĐã đến lúc lưu lại tất cả công sức mà chúng ta đã bỏ ra!
 ```csharp
 wb.Save(outputDir + "out.xlsx");
 PdfSaveOptions options = new PdfSaveOptions();
 options.OnePagePerSheet = true;
 wb.Save(outputDir + "out.pdf", options);
 ```
- Tại đây, bạn lưu sổ làm việc dưới dạng tệp Excel và PDF.`PdfSaveOptions` cho phép định dạng tốt hơn, đảm bảo mỗi trang tính xuất hiện trên một trang riêng biệt khi chuyển đổi.
+Tại đây, bạn lưu sổ làm việc dưới dạng tệp Excel và PDF. `PdfSaveOptions` cho phép định dạng tốt hơn, đảm bảo mỗi trang tính xuất hiện trên một trang riêng biệt khi chuyển đổi.
 ## Bước 10: Kết thúcKết thúc bằng cách cho người dùng biết mọi thứ đều ổn.
 ```csharp
 Console.WriteLine("PivotTableCustomSort executed successfully.");
@@ -127,16 +129,18 @@ Bây giờ, bạn đã biết cách khai thác sức mạnh của Aspose.Cells �
 ### Bảng Pivot là gì?
 Bảng Pivot là công cụ xử lý dữ liệu trong Excel cho phép bạn tóm tắt và phân tích dữ liệu, cung cấp một cách linh hoạt để dễ dàng trích xuất thông tin chi tiết.
 ### Làm thế nào để cài đặt Aspose.Cells?
- Bạn có thể cài đặt nó thông qua NuGet trong Visual Studio hoặc tải xuống trực tiếp từ[Liên kết tải xuống](https://releases.aspose.com/cells/net/).
+Bạn có thể cài đặt nó thông qua NuGet trong Visual Studio hoặc tải xuống trực tiếp từ [Liên kết tải xuống](https://releases.aspose.com/cells/net/).
 ### Có phiên bản dùng thử của Aspose.Cells không?
- Vâng! Bạn có thể dùng thử miễn phí bằng cách truy cập[Liên kết dùng thử miễn phí](https://releases.aspose.com/).
+Vâng! Bạn có thể dùng thử miễn phí bằng cách truy cập [Liên kết dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể sắp xếp nhiều trường trong một Bảng Pivot không?
 Chắc chắn rồi! Bạn có thể thêm và sắp xếp nhiều trường dựa trên yêu cầu của mình.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Cộng đồng này khá năng động và bạn có thể đặt câu hỏi trên diễn đàn của họ[đây](https://forum.aspose.com/c/cells/9).
+Cộng đồng này khá năng động và bạn có thể đặt câu hỏi trên diễn đàn của họ [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

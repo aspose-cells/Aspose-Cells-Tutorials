@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Ecco alcuni scenari in cui questa funzionalità può rivelarsi particolarmente u
 ### Considerazioni sulle prestazioni
 
 Quando si ha a che fare con grandi set di dati:
-- Ottimizzare i modelli regex in modo che siano il più specifici possibile per ridurre i tempi di ricerca.
+- Ottimizzare i modelli di espressioni regolari per renderli il più specifici possibile, in modo da ridurre i tempi di ricerca.
 - Monitorare l'utilizzo della memoria, soprattutto quando si lavora con dati estesi nei file Excel.
 - Utilizza le funzionalità di Aspose.Cells come `Workbook.OpenOptions` per un caricamento dei file ottimizzato in base alle tue esigenze.
 
@@ -159,6 +161,9 @@ Pronti a fare il passo successivo? Provate a implementare queste tecniche nei vo
 - **Supporto:** Unisciti al forum della community Aspose su [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

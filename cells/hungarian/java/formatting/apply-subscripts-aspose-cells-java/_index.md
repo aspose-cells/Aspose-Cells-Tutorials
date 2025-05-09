@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ Nagyméretű Excel-fájlokkal vagy összetett műveletekkel végzett munka sorá
 
 Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells Java API-t alsó index formázás alkalmazásához Excel cellákban. Ezen lépések projektekbe való integrálásával jelentősen javíthatod az adatok megjelenítését. 
 
-következő lépések közé tartozik más szövegformázási lehetőségek, például felső indexek vagy félkövér stílusok felfedezése az Aspose.Cells segítségével. Kísérletezz és szabd testre a beállításokat a projekted igényei szerint.
+A következő lépések közé tartozik más szövegformázási lehetőségek, például felső indexek vagy félkövér stílusok felfedezése az Aspose.Cells segítségével. Kísérletezz és szabd testre a beállításokat a projekted igényei szerint.
 
 ### GYIK szekció
 
@@ -133,7 +135,7 @@ következő lépések közé tartozik más szövegformázási lehetőségek, pé
 3. **Vannak más szövegformázási lehetőségek is?**
    - Abszolút! Az Aspose.Cells támogatja a felső indexeket, a félkövér betűtípusokat, a dőlt betűs írást és egyebeket.
 4. **Mi van, ha a Java verzióm 8 alatti?**
-   - A kompatibilitás érdekében frissítsd a JDK-dat legalább 8-as vagy újabb verzióra.
+   - kompatibilitás érdekében frissítsd a JDK-dat legalább 8-as vagy újabb verzióra.
 5. **Hol találok további példákat az Aspose.Cells funkcióira?**
    - Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és API-referenciákért.
 
@@ -148,6 +150,9 @@ következő lépések közé tartozik más szövegformázási lehetőségek, pé
 Kísérletezz az Aspose.Cells for Java programmal, hogy hatékony Excel automatizálási képességeket hozz létre, és ne habozz elolvasni az átfogó dokumentációt további információkért.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

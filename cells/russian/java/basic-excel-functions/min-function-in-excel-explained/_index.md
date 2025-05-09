@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Объяснение функции МИН в Excel
@@ -79,7 +81,7 @@ cell.setFormula("=MIN(A1:A10)");
 
 ### Шаг 6: Рассчитайте рабочий лист
 
-После применения формулы необходимо пересчитать рабочий лист, чтобы получить результат:
+После применения формулы вам необходимо пересчитать рабочий лист, чтобы получить результат:
 
 ```java
 // Рассчитать рабочий лист
@@ -125,6 +127,7 @@ System.out.println("The minimum value is: " + minValue);
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

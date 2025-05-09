@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Научитесь эффективно создавать, оформлять и обрабатывать книги Excel с помощью Aspose.Cells для Java. Идеально подходит для автоматизации отчетов, ввода данных и многого другого."
+"description": "Научитесь эффективно создавать, стилизовать и управлять книгами Excel с помощью Aspose.Cells для Java. Идеально подходит для автоматизации отчетов, ввода данных и многого другого."
 "title": "Освоение создания и стилизации рабочих книг Excel с помощью Aspose.Cells на Java"
 "url": "/ru/java/advanced-features/excel-master-aspose-cells-java-tutorial/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aspose.Cells для Java можно использовать в различны
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

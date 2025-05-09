@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
 "description": "Aspose.Cells for Javaを使ってExcelで動的なバブルチャートを作成する方法を学びましょう。このステップバイステップガイドでは、環境設定からチャートの設定と保存まで、すべてを網羅しています。"
-"title": "Aspose.Cells for Java を使用して Excel でバブルチャートを作成する - ステップバイステップガイド"
+"title": "Aspose.Cells for Java を使用して Excel でバブル チャートを作成する - ステップバイステップ ガイド"
 "url": "/ja/java/charts-graphs/aspose-cells-java-create-bubble-charts/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - **科学研究**バブルのサイズがデータの重要性を示す実験結果を表示します。
 
 ## パフォーマンスに関する考慮事項
-- 未使用のオブジェクトをすぐに破棄して、ワークブックのメモリ使用量を最小限に抑えます。
+- 未使用のオブジェクトをすぐに破棄することで、ワークブックのメモリ使用量を最小限に抑えます。
 - グラフ データ ソースを最適化して、レンダリング時の処理時間を短縮します。
 - Aspose.Cells を使用して大規模なデータセットを処理する場合は、効率的な Java メモリ管理プラクティスを使用します。
 
@@ -176,9 +178,12 @@ Aspose.Cells for Java を使ってバブルチャートを作成および設定�
 - **ダウンロード**最新バージョンを入手する [リリースページ](https://releases。aspose.com/cells/java/).
 - **購入**ライセンスオプションを調べる [このページ](https://purchase。aspose.com/buy).
 - **無料トライアル**無料トライアルで機能をテストしてみましょう [Asposeのリリースセクション](https://releases。aspose.com/cells/java/).
-- **サポートフォーラム**ご質問がありましたら、 [サポートフォーラム](https://forum.aspose.com/c/cells/9) 利用可能です。
+- **サポートフォーラム**ご質問等ございましたら、 [サポートフォーラム](https://forum.aspose.com/c/cells/9) 利用可能です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

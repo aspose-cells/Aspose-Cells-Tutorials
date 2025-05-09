@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ public class RetrieveChartPointTypes {
 By following this guide, you've gained the skills needed to leverage Aspose.Cells for managing Excel charts and enum handling. These capabilities can significantly enhance your Java applications by providing powerful data manipulation features. Continue exploring the library's documentation for more advanced functionalities and happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

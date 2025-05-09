@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Aspose.Cells for Javaを使用してデータを設定し、視覚化する方�
 Aspose.Cells for Java を使用して、グラフを含む Excel ブックを効率的に作成、読み込み、カスタマイズする方法を学びます。このガイドでは、セットアップ、グラフのカスタマイズ、そして実用的な応用例を解説します。
 
 ### [Aspose.Cells for Java を使用して Excel グラフの軸単位を自動化する: 完全ガイド](./automate-chart-axis-units-aspose-cells-java/)
-Aspose.Cells for Javaを使って、Microsoft Excelと同じようにExcelのグラフ軸の単位を自動化する方法を学びましょう。データ可視化のワークフローを効率的に強化できます。
+Aspose.Cells for Javaを使用して、Microsoft Excelと同様にExcelのグラフ軸の単位を自動化する方法を学びましょう。データ可視化ワークフローを効率的に強化できます。
 
 ### [Aspose.Cells for Java で Excel グラフを自動化する: 総合ガイド](./automate-excel-charts-aspose-cells-java/)
 Aspose.Cells for Java を使って、動的な Excel グラフを簡単に作成する方法をマスターしましょう。設定、カスタマイズ、自動化のテクニックを学び、データ視覚化プロセスを効率化します。
@@ -195,6 +197,9 @@ Aspose.Cells for Java を使用してグラフの凡例をカスタマイズす�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

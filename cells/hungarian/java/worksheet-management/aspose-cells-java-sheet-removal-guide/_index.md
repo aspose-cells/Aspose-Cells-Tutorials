@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Most már megtanultad, hogyan távolíthatsz el egy munkalapot a neve alapján a
 Az útmutató követésével hatékonyan kezelheted az Excel-táblázatokat az Aspose.Cells segítségével Java nyelven. Kezdd el a megvalósítást még ma, és nézd meg, hogyan segíthet a projektjeid fejlesztésében!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

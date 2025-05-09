@@ -1,14 +1,16 @@
 ---
-title: Làm việc với Thuộc tính Kiểu Nội dung
-linktitle: Làm việc với Thuộc tính Kiểu Nội dung
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách sử dụng Aspose.Cells cho .NET để làm việc với các thuộc tính kiểu nội dung nhằm nâng cao khả năng quản lý siêu dữ liệu Excel. Thực hiện theo hướng dẫn từng bước đơn giản này.
-weight: 180
-url: /vi/net/excel-workbook/working-with-content-type-properties/
+"description": "Tìm hiểu cách sử dụng Aspose.Cells cho .NET để làm việc với các thuộc tính kiểu nội dung nhằm nâng cao khả năng quản lý siêu dữ liệu Excel. Thực hiện theo hướng dẫn từng bước đơn giản này."
+"linktitle": "Làm việc với Thuộc tính Kiểu Nội dung"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Làm việc với Thuộc tính Kiểu Nội dung"
+"url": "/vi/net/excel-workbook/working-with-content-type-properties/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với Thuộc tính Kiểu Nội dung
@@ -22,7 +24,7 @@ Nếu bạn đang đắm mình vào thế giới thao tác tệp Excel bằng As
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là một số điều kiện tiên quyết:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET trên máy của mình. Aspose.Cells hoạt động tốt nhất với .NET Standard hoặc .NET Core.
-2.  Thư viện Aspose.Cells: Bạn có thể tải xuống phiên bản mới nhất từ[Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/). Cài đặt thông qua NuGet hoặc thêm tham chiếu thủ công vào dự án của bạn.
+2. Thư viện Aspose.Cells: Bạn có thể tải xuống phiên bản mới nhất từ [Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/). Cài đặt thông qua NuGet hoặc thêm tham chiếu thủ công vào dự án của bạn.
 3. Visual Studio: Một IDE vững chắc sẽ giúp cuộc sống của bạn dễ dàng hơn. Đảm bảo bạn đã thiết lập nó trên máy tính của mình.
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết vì chúng ta sẽ viết các đoạn mã bằng ngôn ngữ này.
 5. Hiểu biết về Excel: Hiểu biết cơ bản về Excel và các thành phần của nó sẽ giúp bạn hiểu được những gì chúng tôi đang làm ở đây.
@@ -48,7 +50,7 @@ string outputDir = "Your Document Directory";
 
 ## Bước 2: Tạo một Workbook mới
 
- Bây giờ chúng ta đã có thư mục đầu ra, hãy tạo một sổ làm việc mới.`Workbook` lớp là điểm khởi đầu để xử lý các tệp Excel.
+Bây giờ chúng ta đã có thư mục đầu ra, hãy tạo một sổ làm việc mới. `Workbook` lớp là điểm khởi đầu để xử lý các tệp Excel.
 
 ```csharp
 Workbook workbook = new Workbook(FileFormatType.Xlsx);
@@ -66,7 +68,7 @@ Khi sổ làm việc của chúng ta đã sẵn sàng, đã đến lúc thêm m�
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 ```
 
- Trong bước này, chúng tôi đã thêm một thuộc tính có tên là "MK31" với giá trị "Dữ liệu đơn giản".`Add`phương thức này trả về chỉ mục của thuộc tính mới được thêm vào, chúng ta có thể sử dụng sau.
+Trong bước này, chúng tôi đã thêm một thuộc tính có tên là "MK31" với giá trị "Dữ liệu đơn giản". `Add` phương thức này trả về chỉ mục của thuộc tính mới được thêm vào, chúng ta có thể sử dụng sau.
 
 ### Đặt thuộc tính Nillable
 
@@ -74,7 +76,7 @@ int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 workbook.ContentTypeProperties[index].IsNillable = false;
 ```
 
- Ở đây, chúng tôi thiết lập`IsNillable` thuộc tính cho`false`, biểu thị rằng trường này phải có giá trị.
+Ở đây, chúng tôi thiết lập `IsNillable` thuộc tính cho `false`, biểu thị rằng trường này phải có giá trị.
 
 ### Thêm Thuộc tính Loại Nội dung Thứ hai
 
@@ -85,7 +87,7 @@ index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-M
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
 
- Trong đoạn mã này, chúng tôi tạo một thuộc tính có tên "MK32" với ngày và giờ hiện tại được định dạng theo ISO 8601. Chúng tôi đã làm cho thuộc tính này có thể là null bằng cách đặt`IsNillable` ĐẾN`true`.
+Trong đoạn mã này, chúng tôi tạo một thuộc tính có tên "MK32" với ngày và giờ hiện tại được định dạng theo ISO 8601. Chúng tôi đã làm cho thuộc tính này có thể là null bằng cách đặt `IsNillable` ĐẾN `true`.
 
 ## Bước 4: Lưu sổ làm việc
 
@@ -120,16 +122,18 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ để tạo, thao tác v
 Có! Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLS, XLSX, CSV và nhiều định dạng khác.
 
 ### Làm thế nào để tôi có thể dùng thử Aspose.Cells miễn phí?
- Bạn có thể tải xuống bản dùng thử miễn phí từ[địa điểm](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí từ [địa điểm](https://releases.aspose.com/).
 
 ### Có cách nào để thêm các thuộc tính phức tạp hơn không?
 Hoàn toàn có thể! Bạn có thể thêm các đối tượng phức tạp vào thuộc tính kiểu nội dung miễn là chúng có thể được tuần tự hóa đúng cách.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
-Để biết hướng dẫn chi tiết hơn, hãy tham khảo[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Để biết hướng dẫn chi tiết hơn, hãy tham khảo [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

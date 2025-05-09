@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/manage-paper-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Paper Size of Worksheet
@@ -85,6 +87,7 @@ You can download a free trial version from the [Aspose.Cells download page](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

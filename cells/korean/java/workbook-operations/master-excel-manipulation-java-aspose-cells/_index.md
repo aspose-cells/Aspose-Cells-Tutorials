@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ public class SaveWorkbook {
 #### 개요
 도형은 워크시트의 시각적인 매력을 향상시킵니다. 이 섹션에서는 Excel 파일 내에서 도형에 접근하고 수정하는 방법을 설명합니다.
 
-**액세스 모양**
+**모양 액세스**
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Shape;
@@ -202,7 +204,7 @@ Aspose.Cells for Java를 사용하여 Excel 도형과 ActiveX 컨트롤을 처�
 **질문 3: 통합 문서를 로딩할 때 흔히 발생하는 문제는 무엇입니까?**
 - 파일 경로가 올바른지, 파일이 손상되었거나 사용 중이 아닌지 확인하세요.
 
-**질문 4: 서로 다른 Excel 버전 간의 호환성을 어떻게 보장할 수 있나요?**
+**질문 4: 여러 Excel 버전 간의 호환성을 어떻게 보장할 수 있나요?**
 - 다양한 Excel 버전에서 통합 문서를 테스트하여 동작을 확인하세요.
 
 **질문 5: Aspose.Cells 기능에 대한 더 많은 예를 어디에서 볼 수 있나요?**
@@ -220,6 +222,9 @@ Aspose.Cells for Java를 사용하여 Excel 도형과 ActiveX 컨트롤을 처�
 지금 Aspose.Cells를 사용하여 Java로 Excel을 다루는 여정을 시작하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

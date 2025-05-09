@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 ### 学ぶ内容
 - **ワークブックのメタデータを読み込んでいます:** 既存のドキュメント プロパティに簡単にアクセスできます。
 - **ワークブックのメタデータの変更:** ワークブック内のカスタム プロパティを追加または変更します。
-- **変更を効率的に保存する:** 変更したメタデータを新規または既存のファイルに保存します。
+- **変更を効率的に保存する:** 変更されたメタデータを新しいファイルまたは既存のファイルに保存します。
 
 コードに進む前に、必要なものがすべて揃っていることを確認してください。
 
@@ -179,6 +181,9 @@ A5: 訪問 [Asposeのサポートフォーラム](https://forum.aspose.com/c/cel
 - **サポート：** コミュニティと専門家のサポートにアクセスするには [Asposeフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

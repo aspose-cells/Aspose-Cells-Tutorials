@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ workbook.save(outDir + "/MVBAorMacroCode_out.xlsm");
 - **パラメータ**変更したブックを保存するファイル パス。
 - **戻り値**なし。ワークブックを直接保存します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 VBA コードをプログラムで変更すると有益な実際のシナリオをいくつか示します。
 1. **データクリーニングと自動化**複数のブックにわたるデータ検証用のマクロを自動的に更新します。
 2. **カスタムレポートツール**更新されたビジネス ロジックを反映するために、Excel ファイルに埋め込まれたレポート スクリプトをカスタマイズします。
@@ -186,6 +188,9 @@ Aspose.Cells for Java を使用して Excel ブック内の VBA コードを読�
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

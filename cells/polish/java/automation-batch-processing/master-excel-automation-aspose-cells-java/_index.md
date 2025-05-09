@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Ten przewodnik przeprowadzi Cię przez korzystanie z Aspose.Cells for Java do tw
    - Aspose.Cells można łatwo zintegrować ze Spring Boot, Spring MVC lub dowolnym innym frameworkiem opartym na Javie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

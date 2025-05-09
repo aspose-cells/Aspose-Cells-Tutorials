@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Selamat datang di panduan lengkap yang dirancang untuk membantu Anda memanfaatkan kekuatan Aspose.Cells untuk Java, dengan fokus pada kemampuan pemformatan data. Baik Anda sedang mempersiapkan laporan keuangan, membuat faktur, atau menganalisis kumpulan data, menguasai teknik-teknik ini akan memperlancar alur kerja Anda dan meningkatkan produktivitas.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Siapkan Aspose.Cells di lingkungan Java Anda
 - Memformat sel dengan gaya, font, dan warna khusus
 - Terapkan pemformatan bersyarat untuk presentasi dinamis
@@ -23,7 +25,7 @@ Selamat datang di panduan lengkap yang dirancang untuk membantu Anda memanfaatka
 
 Siap untuk terjun ke dunia otomatisasi Excel menggunakan Java? Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai perjalanan ini, pastikan Anda memiliki hal berikut:
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi.
@@ -46,35 +48,35 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Akuisisi Lisensi:** Anda dapat memulai dengan uji coba gratis untuk menjelajahi kemampuan Aspose.Cells. Untuk penggunaan produksi, dapatkan lisensi sementara atau yang dibeli melalui [Situs web Aspose](https://purchase.aspose.com/buy).
+**Licenc beszerzése:** Anda dapat memulai dengan uji coba gratis untuk menjelajahi kemampuan Aspose.Cells. Untuk penggunaan produksi, dapatkan lisensi sementara atau yang dibeli melalui [Aspose weboldala](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Berikut cara menginisialisasi Buku Kerja Aspose.Cells di Java:
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet sheet = workbook.getWorksheets().get(0);
 ```
 
 Dengan pengaturan ini, Anda siap menyelami teknik pemformatan data.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memformat Sel dengan Gaya Kustom
 
-#### Ringkasan
+#### Áttekintés
 Gaya khusus memungkinkan Anda membedakan data penting secara visual. Kami akan mengatur font, warna, dan batas untuk meningkatkan keterbacaan dan menekankan informasi penting.
 
 #### Proses Langkah demi Langkah
@@ -115,7 +117,7 @@ cells.get("A1").setStyle(style);
 
 ### Pemformatan Bersyarat
 
-#### Ringkasan
+#### Áttekintés
 Pemformatan bersyarat mengubah gaya sel secara dinamis berdasarkan nilainya, memberikan wawasan sekilas.
 
 ##### Menerapkan Pemformatan Bersyarat
@@ -137,7 +139,7 @@ condition.getStyle().setForegroundColor(conditionStyle.getForegroundColor());
 
 ### Menerapkan Format Angka dan Validasi Data
 
-#### Ringkasan
+#### Áttekintés
 Format angka khusus memastikan konsistensi di seluruh kumpulan data, sementara aturan validasi data mencegah entri yang salah.
 
 ##### Pemformatan Angka
@@ -166,15 +168,15 @@ validation.setOperator(OperatorType.BETWEEN);
 validation.addArea("B2", "B10");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Laporan Keuangan**: Gunakan gaya khusus untuk kejelasan dan pemformatan bersyarat untuk wawasan cepat.
-- **Manajemen Inventaris**: Terapkan aturan validasi data untuk menjaga keakuratan catatan stok.
-- **Perencanaan Proyek**: Format kolom tanggal dengan format angka tertentu untuk memastikan konsistensi.
+- **Pénzügyi jelentések**: Gunakan gaya khusus untuk kejelasan dan pemformatan bersyarat untuk wawasan cepat.
+- **Készletgazdálkodás**: Terapkan aturan validasi data untuk menjaga keakuratan catatan stok.
+- **Projekttervezés**: Format kolom tanggal dengan format angka tertentu untuk memastikan konsistensi.
 
 Aplikasi ini mendemonstrasikan bagaimana Aspose.Cells dapat menyederhanakan tugas di berbagai industri, meningkatkan akurasi dan efisiensi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Optimalkan aplikasi Anda dengan:
 - Meminimalkan pembuatan objek dalam loop
@@ -183,11 +185,11 @@ Optimalkan aplikasi Anda dengan:
 
 Mengikuti panduan ini memastikan bahwa aplikasi Java Anda tetap responsif dan efisien bahkan saat menangani operasi Excel yang ekstensif.
 
-## Kesimpulan
+## Következtetés
 
-Dengan Aspose.Cells, Anda dapat mengubah cara Anda menangani data Excel di Java. Dengan menguasai pemformatan sel, gaya bersyarat, dan aturan validasi, Anda diperlengkapi dengan baik untuk mengatasi berbagai tantangan yang didorong oleh data. Jelajahi lebih jauh dengan menyelami [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) atau bereksperimen dengan fitur tambahan.
+Dengan Aspose.Cells, Anda dapat mengubah cara Anda menangani data Excel di Java. Dengan menguasai pemformatan sel, gaya bersyarat, dan aturan validasi, Anda diperlengkapi dengan baik untuk mengatasi berbagai tantangan yang didorong oleh data. Jelajahi lebih jauh dengan menyelami [Az Aspose dokumentációja](https://reference.aspose.com/cells/java/) atau bereksperimen dengan fitur tambahan.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menerapkan gaya ke beberapa sel secara efisien?**
    - Buat dan gunakan kembali objek gaya alih-alih menentukan objek baru untuk setiap sel.
@@ -200,17 +202,20 @@ Dengan Aspose.Cells, Anda dapat mengubah cara Anda menangani data Excel di Java.
 5. **Apa saja kendala umum saat memformat file Excel menggunakan Java?**
    - Mengabaikan penggunaan kembali gaya, penanganan kesalahan yang tidak tepat, dan mengabaikan pengoptimalan kinerja.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda menuju penguasaan Excel dengan Aspose.Cells untuk Java hari ini dan revolusikan cara Anda mengelola data!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

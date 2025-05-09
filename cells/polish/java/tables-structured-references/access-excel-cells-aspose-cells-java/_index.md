@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ Poznaj dodatkowe funkcjonalności pakietu Aspose.Cells, takie jak tworzenie wykr
 3. **Jak obsługiwać zakresy nazwane w Aspose.Cells?**
    - Zakresy nazwane powinny być wstępnie zdefiniowane w programie Excel lub utworzone programowo przy użyciu interfejsu API Aspose.
 4. **Jakie są najlepsze praktyki zarządzania pamięcią podczas pracy z dużymi plikami?**
-   - Pozbywaj się przedmiotów we właściwy sposób i rozważ przetwarzanie danych w partiach.
+   - Prawidłowo pozbuj się przedmiotów i rozważ przetwarzanie danych w partiach.
 5. **Czy Aspose.Cells można zintegrować z innymi bibliotekami Java?**
    - Tak, integruje się dobrze z różnymi frameworkami i bibliotekami Java.
 
@@ -149,6 +151,9 @@ Poznaj dodatkowe funkcjonalności pakietu Aspose.Cells, takie jak tworzenie wykr
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

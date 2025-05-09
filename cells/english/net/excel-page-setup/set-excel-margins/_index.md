@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-margins/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Margins
@@ -149,6 +151,7 @@ Aspose.Cells supports various formats, including XLS, XLSX, CSV, and PDF.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

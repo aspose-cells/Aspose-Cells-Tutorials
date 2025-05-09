@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo bảng Pivot
@@ -102,9 +104,11 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn bạn quy trình tạ
    Bạn có thể tự động tạo Bảng Pivot trong Java bằng cách sử dụng API Aspose.Cells for Java, như được trình bày trong hướng dẫn này.
 
 Bây giờ bạn đã có kiến thức và mã để tạo Pivot Table mạnh mẽ trong Java bằng Aspose.Cells. Thử nghiệm với các nguồn dữ liệu và cấu hình khác nhau để tùy chỉnh Pivot Table theo nhu cầu cụ thể của bạn. Chúc bạn phân tích dữ liệu vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

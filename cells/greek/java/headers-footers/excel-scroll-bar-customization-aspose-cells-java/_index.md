@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Βήματα απόκτησης άδειας χρήσης
 Το Aspose.Cells προσφέρει μια δωρεάν δοκιμαστική έκδοση για να εξερευνήσετε τις δυνατότητές του. Για εκτεταμένη χρήση, μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης ή να αγοράσετε την πλήρη έκδοση.
 
-1. **Δωρεάν δοκιμή**Κατεβάστε την τελευταία έκδοση από [Εκδόσεις Java του Aspose.Cells](https://releases.aspose.com/cells/java/).
+1. **Δωρεάν δοκιμή**: Κατεβάστε την τελευταία έκδοση από [Εκδόσεις Java του Aspose.Cells](https://releases.aspose.com/cells/java/).
 2. **Προσωρινή Άδεια**: Αίτημα προσωρινής άδειας μέσω [Αγορά προσωρινής άδειας χρήσης](https://purchase.aspose.com/temporary-license/).
 3. **Αγορά**Για πλήρη πρόσβαση, επισκεφθείτε [Αγορά Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ workbook.getSettings().setHScrollBarVisible(false);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

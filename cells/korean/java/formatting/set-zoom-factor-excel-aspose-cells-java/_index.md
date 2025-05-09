@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Worksheet worksheet = worksheets.get(0);
 **3. 확대/축소 비율 설정**
 확대/축소 수준을 조정합니다.
 ```java
-worksheet.setZoom(75); // 확대 비율을 75%로 설정합니다.
+worksheet.setZoom(75); // 확대/축소 비율을 75%로 설정합니다.
 ```
 - **설명:** 그만큼 `setZoom` 이 방법은 Excel에서 워크시트의 표시 여부를 결정하며, 전체 크기를 100%로 설정합니다.
 
@@ -147,6 +149,9 @@ Aspose.Cells for Java를 사용하여 워크시트의 확대/축소 비율을 �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

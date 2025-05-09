@@ -1,14 +1,16 @@
 ---
-title: Thêm hình ảnh vào biểu đồ
-linktitle: Thêm hình ảnh vào biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách dễ dàng thêm hình ảnh vào biểu đồ Excel bằng Aspose.Cells cho .NET. Cải thiện biểu đồ và bài thuyết trình của bạn chỉ trong vài bước đơn giản.
-weight: 11
-url: /vi/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "Tìm hiểu cách dễ dàng thêm hình ảnh vào biểu đồ Excel bằng Aspose.Cells cho .NET. Cải thiện biểu đồ và bài thuyết trình của bạn chỉ trong vài bước đơn giản."
+"linktitle": "Thêm hình ảnh vào biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm hình ảnh vào biểu đồ"
+"url": "/vi/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm hình ảnh vào biểu đồ
@@ -22,7 +24,7 @@ Bạn có thấy chán những biểu đồ nhàm chán thiếu nét cá nhân k
 Trước khi đi sâu vào phần cốt lõi của việc viết mã, bạn cần có một số điều kiện tiên quyết để có thể thực hiện suôn sẻ:
 
 - Visual Studio: Đây là nơi bạn sẽ viết và chạy mã .NET của mình. Hãy đảm bảo rằng bạn đã cài đặt nó.
--  Aspose.Cells cho .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Bạn sẽ cần thư viện này để làm việc với các tệp Excel. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 - Hiểu biết cơ bản về C#: Mặc dù tôi sẽ hướng dẫn bạn viết mã, nhưng việc nắm được những kiến thức cơ bản về C# sẽ giúp bạn hiểu rõ hơn.
 
 ### Các bước cài đặt
@@ -61,7 +63,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Thay thế`Your Document Directory` Và`Your Output Directory` với đường dẫn thực tế trên máy tính của bạn. 
+Thay thế `Your Document Directory` Và `Your Output Directory` với đường dẫn thực tế trên máy tính của bạn. 
 
 ## Bước 2: Tải Workbook hiện có
 
@@ -106,7 +108,7 @@ Sau khi đã chọn biểu đồ, đã đến lúc thêm hình ảnh!
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Đây,`50` Và`50` là tọa độ X và Y nơi hình ảnh sẽ được đặt và`200` là chiều rộng và chiều cao của hình ảnh.
+Đây, `50` Và `50` là tọa độ X và Y nơi hình ảnh sẽ được đặt và `200` là chiều rộng và chiều cao của hình ảnh.
 
 ## Bước 6: Tùy chỉnh Định dạng Dòng của Hình ảnh
 
@@ -151,22 +153,24 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách thêm một chút c
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm nhiều hình ảnh vào một biểu đồ không?
- Vâng! Bạn có thể gọi`AddPictureInChart` phương pháp này nhiều lần để thêm nhiều hình ảnh tùy ý.
+Vâng! Bạn có thể gọi `AddPictureInChart` phương pháp này nhiều lần để thêm nhiều hình ảnh tùy ý.
 
 ### Aspose.Cells hỗ trợ những định dạng hình ảnh nào?
 Aspose.Cells hỗ trợ nhiều định dạng hình ảnh, bao gồm PNG, JPEG, BMP và GIF.
 
 ### Tôi có thể tùy chỉnh vị trí của hình ảnh không?
- Chắc chắn rồi! Tọa độ X và Y trong`AddPictureInChart` phương pháp cho phép định vị chính xác.
+Chắc chắn rồi! Tọa độ X và Y trong `AddPictureInChart` phương pháp cho phép định vị chính xác.
 
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, cần phải có giấy phép. Bạn có thể tìm thấy giá[đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ tính năng, cần phải có giấy phép. Bạn có thể tìm thấy giá [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
- Kiểm tra các[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và chức năng chi tiết hơn.
+Kiểm tra các [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và chức năng chi tiết hơn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

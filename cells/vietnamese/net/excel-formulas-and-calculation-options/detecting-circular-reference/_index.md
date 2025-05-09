@@ -1,14 +1,16 @@
 ---
-title: Phát hiện tham chiếu vòng tròn trong Excel theo chương trình
-linktitle: Phát hiện tham chiếu vòng tròn trong Excel theo chương trình
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Dễ dàng phát hiện tham chiếu vòng tròn trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo tính toán chính xác trong bảng tính của bạn.
-weight: 13
-url: /vi/net/excel-formulas-and-calculation-options/detecting-circular-reference/
+"description": "Dễ dàng phát hiện tham chiếu vòng tròn trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để đảm bảo tính toán chính xác trong bảng tính của bạn."
+"linktitle": "Phát hiện tham chiếu vòng tròn trong Excel theo chương trình"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Phát hiện tham chiếu vòng tròn trong Excel theo chương trình"
+"url": "/vi/net/excel-formulas-and-calculation-options/detecting-circular-reference/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phát hiện tham chiếu vòng tròn trong Excel theo chương trình
@@ -19,7 +21,7 @@ Khi làm việc với các tệp Excel, một trong những vấn đề khó ch�
 Trước khi đi sâu vào cách phát hiện tham chiếu vòng, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây sẽ là môi trường phát triển của bạn.
 2. .NET Framework: Đảm bảo rằng bạn đang sử dụng phiên bản .NET Framework tương thích (ít nhất là .NET Framework 4.0).
-3.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi vì chúng ta sẽ viết mã bằng ngôn ngữ này.
 5. Tệp Excel: Chuẩn bị tệp Excel có chứa tham chiếu vòng tròn để thử nghiệm. Bạn có thể tạo một tệp đơn giản hoặc tải xuống mẫu.
 Bây giờ chúng ta đã có đủ các điều kiện tiên quyết, hãy chuyển sang phần thú vị nhé!
@@ -32,7 +34,7 @@ Trước khi bạn có thể bắt đầu mã hóa, bạn cần nhập các gói
 - Chọn "Quản lý gói NuGet".
 - Tìm kiếm “Aspose.Cells” và cài đặt phiên bản mới nhất.
 ### Nhập không gian tên bắt buộc
- Ở đầu trang của bạn`Program.cs` tệp, nhập các không gian tên cần thiết:
+Ở đầu trang của bạn `Program.cs` tệp, nhập các không gian tên cần thiết:
 ```csharp
 using System;
 using System.Collections;
@@ -48,20 +50,20 @@ Bây giờ chúng ta đã thiết lập mọi thứ, hãy cùng tìm hiểu mã 
 // Thư mục đầu vào
 string sourceDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp Excel của bạn.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế đến tệp Excel của bạn.
 ## Bước 2: Tải Workbook bằng LoadOptions
 Tiếp theo, bạn sẽ tải bảng tính Excel của mình. Đây chính là nơi phép thuật bắt đầu!
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 var objWB = new Aspose.Cells.Workbook(sourceDir + "Circular Formulas.xls", loadOptions);
 ```
- Ở đây, chúng ta đang tạo một phiên bản mới của`LoadOptions` và tải sổ làm việc từ đường dẫn đã chỉ định. Đảm bảo tên tệp Excel của bạn khớp!
+Ở đây, chúng ta đang tạo một phiên bản mới của `LoadOptions` và tải sổ làm việc từ đường dẫn đã chỉ định. Đảm bảo tên tệp Excel của bạn khớp!
 ## Bước 3: Bật Cài đặt Lặp lại
-Để cho phép tham chiếu vòng tròn, bạn cần bật cài đặt lặp trong sổ làm việc.
+Để cho phép tham chiếu vòng tròn, bạn cần bật cài đặt lặp trong bảng tính.
 ```csharp
 objWB.Settings.Iteration = true;
 ```
-Điều này yêu cầu Aspose.Cells cho phép tham chiếu vòng trong quá trình tính toán.
+Điều này yêu cầu Aspose.Cells cho phép tham chiếu vòng tròn trong quá trình tính toán.
 ## Bước 4: Tạo tùy chọn tính toán và màn hình tròn
 Bây giờ, chúng ta hãy tạo các tùy chọn tính toán và màn hình tròn tùy chỉnh của mình.
 ```csharp
@@ -69,7 +71,7 @@ CalculationOptions copts = new CalculationOptions();
 CircularMonitor cm = new CircularMonitor();
 copts.CalculationMonitor = cm;
 ```
- Ở đây, chúng ta đang tạo một trường hợp của`CalculationOptions` và một phong tục`CircularMonitor`Màn hình này sẽ giúp theo dõi mọi tham chiếu vòng tròn được tìm thấy trong quá trình tính toán.
+Ở đây, chúng ta đang tạo một trường hợp của `CalculationOptions` và một phong tục `CircularMonitor`. Màn hình này sẽ giúp theo dõi mọi tham chiếu vòng tròn được tìm thấy trong quá trình tính toán.
 ## Bước 5: Tính toán các công thức
 Bây giờ là lúc tính toán các công thức trong bảng tính của bạn.
 ```csharp
@@ -89,7 +91,7 @@ Cuối cùng, hãy hiển thị kết quả và xác nhận rằng phương phá
 Console.WriteLine("DetectCircularReference executed successfully.\r\n");
 ```
 ## Bước 8: Triển khai lớp CircularMonitor
- Để hoàn tất quá trình, bạn sẽ cần phải triển khai`CircularMonitor` lớp. Lớp này sẽ kế thừa từ`AbstractCalculationMonitor` và xử lý việc phát hiện các tham chiếu vòng tròn.
+Để hoàn tất quá trình, bạn sẽ cần phải triển khai `CircularMonitor` lớp. Lớp này sẽ kế thừa từ `AbstractCalculationMonitor` và xử lý việc phát hiện các tham chiếu vòng tròn.
 ```csharp
 public class CircularMonitor : AbstractCalculationMonitor
 {
@@ -122,10 +124,12 @@ Bạn cần cài đặt Visual Studio, .NET Framework và thư viện Aspose.Cel
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
 Có, Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng của nó.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
- Bạn có thể ghé thăm[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết và ví dụ.
+Bạn có thể ghé thăm [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,101 +1,105 @@
 ---
-title: Menampilkan atau Menyembunyikan Bilah Gulir di Lembar Kerja
-linktitle: Menampilkan atau Menyembunyikan Bilah Gulir di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyembunyikan atau menampilkan bilah gulir secara efektif di lembar Excel menggunakan Aspose.Cells for .NET. Tingkatkan pengalaman pengguna aplikasi Anda.
-weight: 13
-url: /id/net/worksheet-display/display-hide-scroll-bars/
+"description": "Tanuld meg, hogyan rejtheted el vagy jelenítheted meg hatékonyan a görgetősávokat az Excel-táblázatokban az Aspose.Cells for .NET használatával. Növeld alkalmazásad felhasználói élményét."
+"linktitle": "Görgetősávok megjelenítése vagy elrejtése a munkalapon"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Görgetősávok megjelenítése vagy elrejtése a munkalapon"
+"url": "/id/net/worksheet-display/display-hide-scroll-bars/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menampilkan atau Menyembunyikan Bilah Gulir di Lembar Kerja
+# Görgetősávok megjelenítése vagy elrejtése a munkalapon
 
-## Perkenalan
-Saat bekerja dengan file Excel dalam aplikasi .NET, memiliki kendali atas pengaturan tampilan sangat penting untuk menyediakan antarmuka yang bersih dan ramah pengguna. Salah satu fitur yang sering kali berguna adalah kemampuan untuk menampilkan atau menyembunyikan bilah gulir di lembar kerja Anda. Dalam tutorial ini, kita akan membahas cara menampilkan atau menyembunyikan bilah gulir di lembar kerja menggunakan Aspose.Cells untuk .NET. Baik Anda sedang menyusun laporan Excel sederhana atau alat analisis data yang kompleks, menguasai pengaturan ini dapat meningkatkan pengalaman pengguna secara signifikan.
-## Prasyarat
-Sebelum menyelami kodenya, ada beberapa prasyarat yang perlu Anda pastikan sudah Anda miliki:
-1. Pengetahuan Dasar C# dan .NET: Keakraban dengan konsep pemrograman dalam C# dan kerangka kerja .NET akan membuat pembelajaran lebih mudah.
-2.  Pustaka Aspose.Cells untuk .NET: Anda harus memasang pustaka Aspose.Cells di proyek Anda. Anda dapat mengunduh pustaka dari[Di Sini](https://releases.aspose.com/cells/net/).
-3. Lingkungan Pengembangan: Pastikan Anda telah menyiapkan lingkungan pengembangan yang sesuai, seperti Visual Studio, tempat Anda dapat menulis dan menguji kode C# Anda.
-4.  File Excel: Anda harus memiliki file Excel yang sudah ada untuk digunakan. Untuk tutorial ini, kita akan menggunakan file bernama`book1.xls`Letakkan ini di proyek Anda atau direktori tempat Anda akan bekerja.
-Mari langsung ke inti tutorialnya!
-## Paket Impor
-Langkah pertama untuk setiap proyek Aspose.Cells melibatkan pengimporan namespace yang diperlukan. Ini memungkinkan aplikasi kita untuk mengakses fungsionalitas yang disediakan oleh pustaka Aspose.Cells. Berikut ini adalah cara melakukannya dalam C#:
+## Bevezetés
+Amikor Excel-fájlokkal dolgozol .NET alkalmazásokban, a megjelenítési beállítások feletti kontroll elengedhetetlen a letisztult és felhasználóbarát felület biztosításához. Az egyik gyakran hasznos funkció a görgetősávok megjelenítése vagy elrejtése a munkalapokon. Ebben az oktatóanyagban megvizsgáljuk, hogyan jeleníthetők meg vagy rejthetők el a görgetősávok egy munkalapon az Aspose.Cells for .NET használatával. Akár egy egyszerű Excel-jelentést, akár egy összetett adatelemző eszközt készítesz, ezeknek a beállításoknak az elsajátítása jelentősen javíthatja a felhasználói élményt.
+## Előfeltételek
+Mielőtt belemerülnénk a kódba, van néhány előfeltétel, amiről meg kell győződnünk:
+1. C# és .NET alapismeretek: A C# és a .NET keretrendszer programozási koncepcióinak ismerete sokkal könnyebbé teszi a követést.
+2. Aspose.Cells .NET könyvtárhoz: A projektben telepíteni kell az Aspose.Cells könyvtárat. A könyvtárat innen töltheti le: [itt](https://releases.aspose.com/cells/net/).
+3. Fejlesztői környezet: Győződjön meg róla, hogy megfelelő fejlesztői környezettel rendelkezik, például a Visual Studio-val, ahol C# kódot írhat és tesztelhet.
+4. Egy Excel-fájl: Rendelkeznie kell egy meglévő Excel-fájllal, amellyel dolgozhat. Ebben az oktatóanyagban egy nevű fájlt fogunk használni. `book1.xls`Helyezd el ezt a projektedben vagy abban a könyvtárban, amelyből dolgozni fogsz.
+Vágjunk bele a tutoriál lényegébe!
+## Csomagok importálása
+Bármely Aspose.Cells projekt első lépése a szükséges névterek importálása. Ez lehetővé teszi alkalmazásunk számára, hogy hozzáférjen az Aspose.Cells könyvtár által biztosított funkciókhoz. Az alábbiakban bemutatjuk, hogyan teheti ezt meg C#-ban:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Pastikan untuk menambahkan direktif penggunaan ini di bagian atas berkas C# Anda.
-Sekarang, mari kita uraikan prosesnya menjadi langkah-langkah yang sederhana dan mudah dicerna untuk menyembunyikan bilah gulir di lembar kerja menggunakan Aspose.Cells untuk .NET.
-## Langkah 1: Menyiapkan Direktori Data Anda
- Pertama-tama, kita perlu menentukan di mana file Excel kita berada. Di sinilah Anda akan mengarahkan aplikasi untuk menemukannya`book1.xls`.
+Ezeket mindenképpen a C# fájl tetején található direktívák segítségével add hozzá.
+Most bontsuk le a folyamatot egyszerű, könnyen érthető lépésekre, hogy hogyan rejtsük el a görgetősávokat egy munkalapon az Aspose.Cells for .NET használatával.
+## 1. lépés: Az adatkönyvtár beállítása
+Először is meg kell adnunk, hogy hol találhatók az Excel-fájljaink. Ide kell irányítanunk az alkalmazást a kereséshez. `book1.xls`.
 ```csharp
-// Jalur ke direktori dokumen.
-string dataDir = "Your Document Directory"; // Perbarui jalur ini!
+// A dokumentumok könyvtárának elérési útja.
+string dataDir = "Your Document Directory"; // Frissítsd ezt az útvonalat!
 ```
- Mengganti`"Your Document Directory"`dengan jalur sebenarnya yang Anda miliki`book1.xls` disimpan. Ini bisa berupa jalur drive lokal atau lokasi jaringan, pastikan saja sudah benar.
-## Langkah 2: Membuat Aliran File
-Selanjutnya, kita akan membuat aliran file untuk mengakses file Excel kita. Berikut cara melakukannya:
+Csere `"Your Document Directory"` a tényleges útvonallal, ahol van `book1.xls` tárolva. Ez lehet egy helyi meghajtó elérési útja vagy egy hálózati hely, csak győződjön meg róla, hogy helyes.
+## 2. lépés: Fájlfolyam létrehozása
+Ezután létrehozunk egy fájlfolyamot az Excel-fájlunk eléréséhez. Így teheti ezt meg:
 ```csharp
-// Membuat aliran file yang berisi file Excel yang akan dibuka
+// Létrehoz egy fájlfolyamot, amely tartalmazza a megnyitni kívánt Excel-fájlt.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Kode ini terbuka`book1.xls` untuk membaca, memberi kita kemampuan untuk memanipulasi isinya.
-## Langkah 3: Membuat Instansiasi Buku Kerja
- Setelah aliran file kita siap, sekarang kita perlu membuat instance`Workbook` objek, yang akan memungkinkan kita berinteraksi dengan konten berkas Excel kita.
+Ez a kód megnyílik `book1.xls` olvasásra, lehetővé téve számunkra a tartalmának manipulálását.
+## 3. lépés: Munkafüzet példányosítása
+Miután elkészült a fájlfolyamunk, létre kell hoznunk egy példányt `Workbook` objektum, amely lehetővé teszi számunkra, hogy interakcióba lépjünk az Excel-fájlunk tartalmával.
 ```csharp
-// Membuat instance objek Buku Kerja
-// Membuka file Excel melalui aliran file
+// Workbook objektum példányosítása
+// Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
- Itu`Workbook` objek memuat konten berkas Excel, membuatnya siap untuk modifikasi lebih lanjut.
-## Langkah 4: Menyembunyikan Bilah Gulir Vertikal
- Sekarang mari kita bahas cara menyembunyikan bilah gulir vertikal. Ini semudah mengatur properti pada bilah gulir vertikal.`workbook.Settings` obyek.
+A `Workbook` Az objektum betölti az Excel fájl tartalmát, így az előkészítve a további módosításokhoz.
+## 4. lépés: A függőleges görgetősáv elrejtése
+Most pedig nézzük meg a függőleges görgetősáv elrejtését. Ez olyan egyszerű, mint egy tulajdonság beállítása a `workbook.Settings` objektum.
 ```csharp
-// Menyembunyikan bilah gulir vertikal file Excel
+// Az Excel fájl függőleges görgetősávjának elrejtése
 workbook.Settings.IsVScrollBarVisible = false;
 ```
-Dengan baris kode ini, kami memberi tahu aplikasi untuk menyembunyikan bilah gulir vertikal. Tidak ada yang lebih menyebalkan daripada bilah gulir yang tidak perlu saat melihat data Anda!
-## Langkah 5: Menyembunyikan Bilah Gulir Horizontal
-Tapi tunggu dulu, kita belum selesai! Mari kita sembunyikan juga bilah gulir horizontal. Anda sudah menebaknya, pendekatannya sama:
+Ezzel a kódsorral azt mondjuk az alkalmazásnak, hogy rejtse el a függőleges görgetősávot. Nincs bosszantóbb, mint a felesleges görgetősávok az adatok megtekintésekor!
+## 5. lépés: A vízszintes görgetősáv elrejtése
+De várj, még nem végeztünk! Rejtsük el a vízszintes görgetősávot is. Kitaláltad, ugyanaz a megközelítés:
 ```csharp
-// Menyembunyikan bilah gulir horizontal file Excel
+// Az Excel fájl vízszintes görgetősávjának elrejtése
 workbook.Settings.IsHScrollBarVisible = false;
 ```
-Dengan ini, Anda memastikan tampilan yang rapi di kedua sumbu lembar Excel Anda.
-## Langkah 6: Menyimpan File Excel yang Telah Dimodifikasi
-Setelah melakukan perubahan, saatnya menyimpan berkas Excel yang telah dimodifikasi. Kita perlu menentukan nama berkas keluaran dan direktorinya.
+Ezzel biztosíthatod a zavartalan nézetet az Excel-táblázatod mindkét tengelyén.
+## 6. lépés: A módosított Excel-fájl mentése
+A módosítások elvégzése után itt az ideje menteni a módosított Excel-fájlt. Meg kell adnunk a kimeneti fájl nevét és a könyvtárát.
 ```csharp
-// Menyimpan file Excel yang dimodifikasi
+// A módosított Excel fájl mentése
 workbook.Save(dataDir + "output.xls");
 ```
- Ini menyimpan file Excel baru Anda sebagai`output.xls`, yang mencerminkan perubahan yang telah Anda buat.
-## Langkah 7: Menutup Aliran File
-Terakhir, untuk menjaga efisiensi sumber daya aplikasi Anda, ingatlah untuk menutup aliran file. Ini mencegah kebocoran memori dan masalah lainnya.
+Ez a következő néven menti el az új Excel fájlt: `output.xls`, tükrözve az Ön által végrehajtott módosításokat.
+## 7. lépés: A fájlfolyam bezárása
+Végül, az alkalmazás erőforrás-hatékonyságának megőrzése érdekében ne felejtse el bezárni a fájlfolyamot. Ez megakadályozza a memóriaszivárgásokat és egyéb problémákat.
 ```csharp
-// Menutup aliran file untuk membebaskan semua sumber daya
+// A fájlfolyam bezárása az összes erőforrás felszabadításához
 fstream.Close();
 ```
-Nah, itu dia! Anda telah menyelesaikan langkah-langkah untuk menyembunyikan kedua bilah gulir di lembar kerja Excel menggunakan Aspose.Cells for .NET.
-## Kesimpulan
-Dalam tutorial ini, kami memandu Anda melalui operasi yang sederhana namun ampuh dalam menangani dokumen Excel dengan Aspose.Cells untuk .NET. Dengan mengendalikan visibilitas bilah gulir, Anda menciptakan antarmuka yang lebih rapi dan lebih profesional bagi pengguna Anda. Ini mungkin tampak seperti detail kecil, tetapi seperti ceri di atas pepatah, ini dapat membuat perbedaan yang signifikan dalam pengalaman pengguna.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?  
-Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengelola file Excel secara efisien tanpa perlu menginstal Microsoft Excel.
-### Bisakah saya menyembunyikan satu saja bilah gulir?  
-Ya! Anda dapat menyembunyikan bilah gulir vertikal atau horizontal secara selektif dengan menyetel properti yang sesuai.
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?  
- Meskipun Aspose.Cells menawarkan uji coba gratis, untuk membuka semua fitur, Anda perlu membeli lisensi. Informasi lebih lanjut dapat ditemukan[Di Sini](https://purchase.aspose.com/buy).
-### Fitur apa lagi yang dapat saya gunakan dengan Aspose.Cells?  
-Pustaka mendukung berbagai fitur seperti membaca, menulis, memformat lembar kerja, dan melakukan perhitungan rumit.
-### Di mana saya dapat menemukan dokumentasi lebih lanjut?  
- Anda dapat menemukan dokumentasi lengkap tentang semua fitur dan fungsi Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
+És tessék! Elvégezted a lépéseket, hogy elrejtsd mindkét görgetősávot egy Excel-munkafüzetben az Aspose.Cells for .NET használatával.
+## Következtetés
+Ebben az oktatóanyagban végigvezettünk egy egyszerű, mégis hatékony műveleten, amellyel az Aspose.Cells for .NET segítségével kezelheted az Excel dokumentumokat. A görgetősávok láthatóságának szabályozásával rendezettebb és professzionálisabb felületet hozhatsz létre a felhasználóid számára. Ez apró részletnek tűnhet, de mint a mondásos hab a tortán, jelentős különbséget jelenthet a felhasználói élményben.
+## GYIK
+### Mi az Aspose.Cells?  
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan hozzanak létre, manipuláljanak és kezeljenek Excel fájlokat anélkül, hogy telepíteni kellene a Microsoft Excelt.
+### Elrejthetek csak az egyik görgetősávot?  
+Igen! A megfelelő tulajdonság beállításával szelektíven elrejtheti a függőleges vagy a vízszintes görgetősávot.
+### Szükségem van licencre az Aspose.Cells használatához?  
+Bár az Aspose.Cells ingyenes próbaverziót kínál, az összes funkció feloldásához licencet kell vásárolnia. További információ erről itt található. [itt](https://purchase.aspose.com/buy).
+### Milyen egyéb funkciókat használhatok az Aspose.Cells-szel?  
+A könyvtár számos funkciót támogat, mint például az olvasás, írás, táblázatok formázása és összetett számítások elvégzése.
+### Hol találok további dokumentációt?  
+Az Aspose.Cells összes funkciójáról és funkciójáról átfogó dokumentációt talál. [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

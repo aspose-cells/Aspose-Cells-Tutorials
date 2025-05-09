@@ -1,14 +1,16 @@
 ---
-title: Добавление ячеек в окно просмотра формул Microsoft Excel
-linktitle: Добавление ячеек в окно просмотра формул Microsoft Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как добавлять ячейки в Excel Formula Watch Window с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Это просто и эффективно.
-weight: 10
-url: /ru/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel-formula-watch-window/
+"description": "Узнайте, как добавлять ячейки в Excel Formula Watch Window с помощью Aspose.Cells для .NET с помощью этого пошагового руководства. Это просто и эффективно."
+"linktitle": "Добавление ячеек в окно просмотра формул Microsoft Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавление ячеек в окно просмотра формул Microsoft Excel"
+"url": "/ru/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel-formula-watch-window/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавление ячеек в окно просмотра формул Microsoft Excel
@@ -22,11 +24,11 @@ url: /ru/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-ex
 Прежде чем погрузиться в тонкости кодирования, давайте убедимся, что вы хорошо подготовлены к этому путешествию. Вот что вам понадобится:
 
 - Visual Studio: Убедитесь, что у вас установлена Visual Studio. Если нет, самое время ее установить!
-- Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Если вы ее еще не скачали, проверьте[Ссылка для скачивания](https://releases.aspose.com/cells/net/).
+- Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Если вы ее еще не загрузили, проверьте [Ссылка для скачивания](https://releases.aspose.com/cells/net/).
 - Базовые знания C#: Небольшие знания программирования на C# будут иметь большое значение для понимания этого руководства.
 - .NET Framework: убедитесь, что в вашем проекте Visual Studio установлена совместимая версия .NET Framework.
 
-Получили все необходимое? Отлично! Давайте перейдем к самому интересному — импорту необходимых пакетов.
+Получили все необходимое? Отлично! Давайте перейдем к самой интересной части — импорту необходимых пакетов.
 
 ## Импортные пакеты
 
@@ -49,7 +51,7 @@ using System.Text;
 string outputDir = "Your Document Directory"; // Замените на ваш реальный каталог
 ```
 
- Обязательно замените`"Your Document Directory"` с путем в вашей системе. Это гарантирует, что когда программа сохраняет книгу, она точно знает, где разместить файл.
+Обязательно замените `"Your Document Directory"` с путем в вашей системе. Это гарантирует, что когда программа сохраняет книгу, она точно знает, где разместить файл.
 
 ## Шаг 2: Создайте пустую рабочую книгу
 
@@ -59,7 +61,7 @@ string outputDir = "Your Document Directory"; // Замените на ваш р
 Workbook wb = new Workbook();
 ```
 
- Здесь мы создаем новый экземпляр`Workbook` класс. Это дает нам чистую, пустую рабочую тетрадь для работы. 
+Здесь мы создаем новый экземпляр `Workbook` класс. Это дает нам чистую, пустую рабочую тетрадь для работы. 
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -69,7 +71,7 @@ Workbook wb = new Workbook();
 Worksheet ws = wb.Worksheets[0];
 ```
 
- The`Worksheets` Коллекция позволяет нам получить доступ ко всем листам в рабочей книге. С`[0]`, мы специально ориентируемся на первый лист, просто потому, что это самая логичная отправная точка!
+The `Worksheets` Коллекция позволяет нам получить доступ ко всем листам в рабочей книге. С `[0]`мы специально ориентируемся на первый лист, просто потому, что это самая логичная отправная точка!
 
 ## Шаг 4: Вставьте целочисленные значения в ячейки
 
@@ -101,7 +103,7 @@ c1.Formula = "=Sum(A1,A2)";
 ws.CellWatches.Add(c1.Name);
 ```
 
- С`CellWatches.Add`мы по сути говорим: «Эй, Excel, присмотри за ячейкой C1!» Это гарантирует, что любые изменения в зависимых ячейках формулы будут отражены в окне «Наблюдение за формулами».
+С `CellWatches.Add`, мы по сути говорим: «Эй, Excel, присмотри за C1 для меня!» Это гарантирует, что любые изменения в зависимых ячейках формулы будут отражены в окне «Наблюдение за формулами».
 
 ## Шаг 7: Задайте еще одну формулу в ячейке E1
 
@@ -132,7 +134,7 @@ ws.CellWatches.Add(e1.Row, e1.Column);
 wb.Save(outputDir + "outputAddCellsToMicrosoftExcelFormulaWatchWindow.xlsx", SaveFormat.Xlsx);
 ```
 
-Эта строка сохраняет книгу в указанном каталоге в формате XLSX.`SaveFormat.Xlsx` часть гарантирует, что он будет сохранен как современный файл Excel. Подобно завершению картины и помещению ее в рамку, этот шаг делает его.
+Эта строка сохраняет книгу в указанном каталоге в формате XLSX. `SaveFormat.Xlsx` часть гарантирует, что он будет сохранен как современный файл Excel. Подобно завершению картины и помещению ее в рамку, этот шаг делает его.
 
 ## Заключение
 
@@ -144,20 +146,22 @@ wb.Save(outputDir + "outputAddCellsToMicrosoftExcelFormulaWatchWindow.xlsx", Sav
 Окно просмотра формул в Excel позволяет отслеживать значения определенных формул по мере внесения изменений в электронную таблицу.
 
 ### Нужна ли мне лицензия для использования Aspose.Cells для .NET?  
- Да, Aspose.Cells требует лицензию для коммерческого использования, но вы можете начать с бесплатной пробной версии, доступной на их сайте.[Бесплатная пробная ссылка](https://releases.aspose.com/).
+Да, Aspose.Cells требует лицензию для коммерческого использования, но вы можете начать с бесплатной пробной версии, доступной на их сайте. [Бесплатная пробная ссылка](https://releases.aspose.com/).
 
 ### Могу ли я использовать Aspose.Cells на других платформах, помимо .NET?  
 Aspose.Cells имеет библиотеки для различных платформ, включая Java, Android и облачные сервисы.
 
 ### Где я могу найти дополнительную документацию по Aspose.Cells?  
- Подробную документацию вы можете найти на Aspose.Cells[здесь](https://reference.aspose.com/cells/net/).
+Подробную документацию вы можете найти на Aspose.Cells [здесь](https://reference.aspose.com/cells/net/).
 
 ### Как я могу сообщить о проблемах или обратиться за поддержкой по Aspose.Cells?  
- Вы можете получить помощь от сообщества Aspose в их[Форум поддержки](https://forum.aspose.com/c/cells/9).
+Вы можете получить помощь от сообщества Aspose в их [Форум поддержки](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

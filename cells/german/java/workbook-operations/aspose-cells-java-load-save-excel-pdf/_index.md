@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,6 +155,9 @@ Zu den nächsten Schritten gehören die Erkundung erweiterter Funktionen von Asp
 Beginnen Sie noch heute mit der Implementierung dieser leistungsstarken Funktionen und verbessern Sie Ihre Excel-Arbeitsmappenverarbeitungsfunktionen mit Aspose.Cells für Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

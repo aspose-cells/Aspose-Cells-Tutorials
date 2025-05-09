@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ FileInputStream fstream = new FileInputStream(filePath);
 Ez a lépés előkészíti a munkafüzetet a szerkesztéshez.
 
 **2. Munkafüzet-objektum példányosítása**
-Miután a fájlfolyam elkészült, hozz létre egy `Workbook` objektum:
+Miután a fájlfolyam elkészült, hozzon létre egy `Workbook` objektum:
 ```java
 Workbook workbook = new Workbook(fstream);
 ```
@@ -151,6 +153,9 @@ Részletesebb információkért és dokumentációért:
 Nyugodtan fedezd fel ezeket az anyagokat, miközben folytatod az Aspose.Cells és a Java világával kapcsolatos utadon. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

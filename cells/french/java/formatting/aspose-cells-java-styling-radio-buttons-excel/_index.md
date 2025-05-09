@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Explication:
-- **`Workbook`**: Représente un fichier Excel.
+- **`Workbook`**Représente un fichier Excel.
 - **`Worksheet`**: Fait référence à une feuille du classeur.
 - **`Cells`**:Un ensemble de cellules dans la feuille de calcul.
 - **`Style`**: Utilisé pour formater les cellules.
@@ -200,6 +202,9 @@ Dans ce tutoriel, nous avons découvert comment créer et styliser une feuille d
 - **Documentation**: Des guides complets et des références API sont disponibles à l'adresse [Documentation d'Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

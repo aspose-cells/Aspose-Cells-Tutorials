@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,6 +129,9 @@ R3: Sì, Aspose.Cells supporta vari formati come CSV, ODS e altri ancora tramite
 Intraprendi il tuo viaggio per padroneggiare la manipolazione dei file Excel con Aspose.Cells per Java e potenzia le tue applicazioni basate sui dati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

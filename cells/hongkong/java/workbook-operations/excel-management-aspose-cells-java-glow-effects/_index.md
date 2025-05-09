@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ Aspose.Cells 提供免費試用，但要獲得完整功能，您可能需要獲�
 ## 設定 Aspose.Cells for Java
 首先將 Aspose.Cells 整合到您的 Java 專案中。如果您正在使用 Maven 或 Gradle 等建置自動化工具，請包含如上所示的依賴項來處理專案中的下載和連結程式庫。
 ### 基本初始化
-一旦加入到依賴項中，初始化一個實例 `Workbook` 開始處理 Excel 文件的類別：
+一旦加入到依賴項中，初始化一個實例 `Workbook` 類別開始處理 Excel 文件：
 ```java
 import com.aspose.cells.Workbook;
 // 從指定目錄載入來源 Excel 檔案。
@@ -127,6 +129,9 @@ A3：是的，Aspose.Cells 透過其多功能 API 支援各種格式，如 CSV�
 踏上使用 Aspose.Cells for Java 掌握 Excel 檔案操作的旅程，並提升您的資料驅動應用程式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

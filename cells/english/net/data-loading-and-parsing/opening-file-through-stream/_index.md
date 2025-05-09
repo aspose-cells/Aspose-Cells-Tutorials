@@ -8,7 +8,9 @@ url: /net/data-loading-and-parsing/opening-file-through-stream/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening File through Stream
@@ -76,9 +78,11 @@ You can find support and community help on the [Aspose Forum](https://forum.aspo
 Absolutely! You can check out the [free trial](https://releases.aspose.com/) to see if it meets your needs.
 ### How can I purchase Aspose.Cells?
 You can buy Aspose.Cells directly from the [purchase link](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Lär dig hur du integrerar signaturrader i bilder i Excel-filer med hjälp av Aspose.Cells för Java. Effektivisera dina dokumentarbetsflöden med den här omfattande guiden."
+"description": "Lär dig hur du integrerar signaturrader i bilder i Excel-filer med Aspose.Cells för Java. Effektivisera dina dokumentarbetsflöden med den här omfattande guiden."
 "title": "Hur man lägger till en signaturrad till en bild i Excel med hjälp av Java och Aspose.Cells"
 "url": "/sv/java/security-protection/add-signature-line-image-excel-java-aspose-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Att hantera digitala signaturer i dokument är avgörande, särskilt när man ha
 
 **Vad du kommer att lära dig:**
 - Konfigurera en ny arbetsbok
-- Infoga bilder i Excel-kalkylblad
+- Infoga bilder i Excel-arbetsblad
 - Lägga till anpassningsbara signaturrader till bilder
 - Bästa praxis för installation och användning av Aspose.Cells
 
@@ -176,6 +178,9 @@ Vi uppmuntrar dig att prova att implementera dessa lösningar och se hur de kan 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

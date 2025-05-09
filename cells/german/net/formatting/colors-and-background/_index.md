@@ -1,53 +1,58 @@
 ---
-title: Farben und Hintergründe in Excel mit Aspose.Cells für .NET anwenden
-weight: 7700
-limit: 
-description: Lernen Sie, wie Farben und Hintergrundstile in Excel mit Aspose.Cells für .NET angewendet werden. Passen Sie die Zellformatierung an und speichern Sie Arbeitsbücher im Excel 97-2003-Format.
-keywords: [Aspose.Cells for .NET, Excel colors, Excel background, format Excel cells, set cell style, .NET Excel library, apply colors in Excel, Excel customization]
-url: /de/net/formatting/colors-and-background/
+"description": "Erfahren Sie, wie Sie mit Aspose.Cells für .NET Farben und Hintergrundstile in Excel anwenden. Passen Sie die Zellenformatierung an und speichern Sie Arbeitsmappen im Excel 97-2003-Format."
+"title": "Wenden Sie Farben und Hintergründe in Excel mit Aspose.Cells für .NET an"
+"url": "/de/net/formatting/colors-and-background/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# Farben und Hintergründe in Excel mit Aspose.Cells anwenden
+# Wenden Sie Farben und Hintergründe in Excel mit Aspose.Cells an
   
-Aspose.Cells für .NET ermöglicht es Entwicklern, Excel-Arbeitsblätter programmatisch zu formatieren, indem sie Farben und Hintergrundstile auf Zellen anwenden. Dieses Beispiel zeigt, wie man ein Excel-Arbeitsbuch erstellt, ein Arbeitsblatt hinzufügt, Zellstile mit verschiedenen Vordergrund- und Hintergrundfarben anpasst und die Datei im Excel 97-2003-Format speichert. Durch die Nutzung von Aspose.Cells können Entwickler leicht die Tabellen- Ästhetik verbessern und die Datenläsbarkeit verbessern.  
+Mit Aspose.Cells für .NET können Entwickler Excel-Arbeitsblätter programmgesteuert formatieren, indem sie Farben und Hintergrundstile auf Zellen anwenden. Dieses Beispiel zeigt, wie Sie eine Excel-Arbeitsmappe erstellen, ein Arbeitsblatt hinzufügen, Zellenstile mit verschiedenen Vorder- und Hintergrundfarben anpassen und die Datei im Excel 97-2003-Format speichern. Mit Aspose.Cells können Entwickler die Tabellenkalkulationsästhetik und die Datenlesbarkeit einfach verbessern.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/colors-and-background" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installationsanweisungen  
-Um mit Aspose.Cells für .NET zu beginnen, folgen Sie diesen Schritten:  
+Um mit Aspose.Cells für .NET zu beginnen, führen Sie die folgenden Schritte aus:  
 
-1. Download und Installation von Aspose.Cells für .NET  
-   * Laden Sie die neueste Version von [Aspose.Cells - Herunterladen](https://releases.aspose.com/cells/net/)\- Ich weiß .  
-   * Installieren Sie es mit NuGet in Visual Studio:  
+1. Herunterladen und Installieren von Aspose.Cells für .NET  
+   - Laden Sie die neueste Version herunter von [Aspose.Cells herunterladen](https://releases.aspose.com/cells/net/).  
+   - Installieren Sie es mit NuGet in Visual Studio:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-2. Hinzufügen von Namenspezifischen Referenzen  
-   In your C# project, include:  
+2. Namespace-Referenzen hinzufügen  
+   Fügen Sie in Ihr C#-Projekt Folgendes ein:  
    ```csharp
    using Aspose.Cells;
    using System.Drawing;
    ```  
 
 3. Farben und Hintergründe auf Excel-Zellen anwenden  
-   * Erstellen Sie eine neue `Arbeitsbuch`Gegenstand.  
-   * Erholen Sie die `Arbeitsblatt`und benutzerdefinierte Stile auf bestimmte Zellen anwenden.  
-   * Speichern Sie das modifizierte Arbeitsbuch in `.xls`Formate.  
+   - Erstellen Sie ein neues `Workbook` Objekt.  
+   - Abrufen der `Worksheet` und wenden Sie benutzerdefinierte Stile auf bestimmte Zellen an.  
+   - Speichern Sie die geänderte Arbeitsmappe in `.xls` Format.  
 
 ## Siehe auch  
-Um eine Lizenz zu kaufen, gehen Sie zu [Verwenden Sie die Kaufseite](https://purchase.aspose.com/buy)\- Ich weiß .  
-Für die vollständige Dokumentation besuchen Sie [Aspose.Cells für .NET- Dokumentation](https://docs.aspose.com/cells/net/)\- Ich weiß .  
-Um die vollständige API-Verweise zu erforschen, überprüfen Sie [Aspose.Cells für den .NET API-Verweis](https://reference.aspose.com/cells/net/)\- Ich weiß . 
+Um eine Lizenz zu erwerben, gehen Sie zu [Aspose-Kaufseite](https://purchase.aspose.com/buy).  
+Die vollständige Dokumentation finden Sie unter [Aspose.Cells für .NET-Dokumentation](https://docs.aspose.com/cells/net/).  
+Um die vollständige API-Referenz zu erkunden, schauen Sie sich an [Aspose.Cells für .NET API-Referenz](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

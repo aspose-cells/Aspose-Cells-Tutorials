@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Узнайте, как задать настройки изображения при конвертации HTML с помощью Aspose.Cells для Java. Это руководство гарантирует высококачественные визуальные эффекты при конвертации сложных файлов Excel."
+"description": "Узнайте, как задать настройки изображения при конвертации HTML с помощью Aspose.Cells для Java. Это руководство обеспечивает высококачественные визуальные эффекты при конвертации сложных файлов Excel."
 "title": "Aspose.Cells Java&#58; Как задать настройки изображения для преобразования файлов Excel в HTML"
 "url": "/ru/java/workbook-operations/aspose-cells-java-image-preferences-html-conversion-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ System.out.println("PDF Creation Time successfully.");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

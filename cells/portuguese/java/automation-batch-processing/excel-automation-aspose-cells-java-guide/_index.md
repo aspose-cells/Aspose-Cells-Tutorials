@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ Neste tutorial, você aprendeu a aproveitar o poder do Aspose.Cells para Java pa
 - Teste sempre seus scripts de automação minuciosamente e trate as exceções com elegância. Certifique-se de que suas fontes de dados sejam confiáveis e atualizadas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

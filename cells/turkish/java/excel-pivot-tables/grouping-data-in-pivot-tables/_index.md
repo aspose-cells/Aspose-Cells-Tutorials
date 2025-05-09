@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tablolarda Verileri Gruplandırma
@@ -44,7 +46,7 @@ int index = worksheet.getPivotTables().add(sourceData, "A1", "PivotTable1");
 // Pivot tabloyu dizine göre al
 PivotTable pivotTable = worksheet.getPivotTables().get(index);
 
-// Satırlara ve sütunlara alan ekleyin
+// Satırlara ve sütunlara alanlar ekleyin
 pivotTable.addFieldToArea("Product", PivotFieldType.ROW);
 pivotTable.addFieldToArea("Region", PivotFieldType.COLUMN);
 
@@ -108,9 +110,11 @@ Pivot tablodaki verilerin gruplandırılmasını, şunu kullanarak özelleştire
 ### 3. Java için Aspose.Cells'i kullanarak pivot tabloların oluşturulmasını otomatikleştirebilir miyim?
 
 Evet, sağlanan kaynak kod örneklerinde gösterildiği gibi, Java için Aspose.Cells'i kullanarak Excel'de pivot tabloların oluşturulmasını otomatikleştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

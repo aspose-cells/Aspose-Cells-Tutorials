@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anotace grafů
@@ -100,7 +102,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak přidávat anotace do grafů pomocí Aspose.Cells pro Javu. Anotace zvyšují přehlednost a srozumitelnost grafů, díky čemuž jsou pro vaše publikum informativnější. Můžete prozkoumat pokročilejší možnosti anotací a formátování a vytvořit vizuálně přitažlivé grafy přizpůsobené vašim specifickým potřebám.
+V tomto tutoriálu jsme se naučili, jak přidávat anotace do grafů pomocí Aspose.Cells pro Javu. Anotace zvyšují přehlednost a srozumitelnost grafů, díky čemuž jsou pro vaše publikum informativnější. Můžete prozkoumat pokročilejší možnosti anotací a formátování a vytvořit vizuálně přitažlivé grafy přizpůsobené vašim specifickým potřebám.
 
 ## Často kladené otázky
 
@@ -127,6 +129,7 @@ Další návody a dokumentaci k Aspose.Cells pro Javu naleznete na adrese [zde](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

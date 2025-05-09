@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel の一括データインポート
@@ -99,9 +101,11 @@ Aspose.Cells for Javaは、複雑なExcelファイルを処理するための豊
 はい。ライセンスと価格の詳細については、Aspose Web サイトのライセンス情報を確認してください。
 
 ぜひコード例をさらに詳しく調べて、ご自身の要件に合わせて調整してみてください。楽しいコーディングを！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

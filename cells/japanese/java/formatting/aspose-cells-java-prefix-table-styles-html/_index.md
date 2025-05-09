@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ public class Main {
 Workbook wb = new Workbook();
 ```
 
-#### ステップ2: セルにアクセスして書式を設定する
+#### ステップ2: セルにアクセスして書式設定する
 特定のセルにアクセスしてスタイルを適用します。ここでは、強調するためにフォントの色を赤に変更します。
 
 ```java
@@ -164,7 +166,7 @@ wb.save(outDir + "outputTableCssId.html", opts);
    開発者が Java アプリケーション内で Excel ファイルを管理および変換できるようにするライブラリ。
 2. **セルにさらにスタイルを追加するにはどうすればよいですか?**
    使用 `Style` フォント サイズ、背景色、境界線などの書式設定オプションを調整するクラス。
-3. **ワークブック内のテーブルごとに異なる CSS ID を適用できますか?**
+3. **ワークブック内の各テーブルに異なる CSS ID を適用できますか?**
    はい、次の方法で一意のCSS IDを設定します。 `setTableCssId` 必要に応じて、個々のシートまたはテーブルに対して行います。
 4. **Java プロジェクトで Maven または Gradle を使用していない場合はどうなりますか?**
    AsposeのJARファイルを直接ダウンロードしてください。 [ダウンロードページ](https://releases.aspose.com/cells/java/) プロジェクトのビルド パスにそれらを含めます。
@@ -181,6 +183,9 @@ wb.save(outDir + "outputTableCssId.html", opts);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

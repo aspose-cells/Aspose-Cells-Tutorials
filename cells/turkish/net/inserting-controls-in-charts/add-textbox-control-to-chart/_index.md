@@ -1,29 +1,31 @@
 ---
-title: Grafiğe TextBox Denetimi Ekle
-linktitle: Grafiğe TextBox Denetimi Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'deki grafiklere TextBox eklemeyi öğrenin. Veri görselleştirmenizi zahmetsizce geliştirin.
-weight: 12
-url: /tr/net/inserting-controls-in-charts/add-textbox-control-to-chart/
+"description": "Aspose.Cells for .NET kullanarak Excel'deki grafiklere TextBox eklemeyi öğrenin. Veri görselleştirmenizi zahmetsizce geliştirin."
+"linktitle": "Grafiğe TextBox Denetimi Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafiğe TextBox Denetimi Ekle"
+"url": "/tr/net/inserting-controls-in-charts/add-textbox-control-to-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafiğe TextBox Denetimi Ekle
 
 ## giriiş
 
-Excel'de dinamik ve görsel olarak çekici grafikler oluşturmak, verileri etkili bir şekilde temsil etmenin harika bir yoludur. Kullanabileceğiniz şık bir özellik, bir grafiğe bir TextBox eklemektir. .NET için Aspose.Cells ile bu görev kolay ve eğlenceli hale gelir! Bu kılavuzda, bir TextBox'ı grafiğinize adım adım entegre etme sürecini adım adım anlatacağız. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu eğitim Excel grafiklerinizi geliştirmek için ihtiyacınız olan tüm araçları size verecektir. Peki, dalmaya hazır mısınız?
+Excel'de dinamik ve görsel olarak çekici grafikler oluşturmak, verileri etkili bir şekilde temsil etmenin harika bir yoludur. Kullanabileceğiniz şık bir özellik, bir grafiğe bir TextBox eklemektir. .NET için Aspose.Cells ile bu görev kolay ve eğlenceli hale gelir! Bu kılavuzda, bir TextBox'ı grafiğinize adım adım entegre etme sürecini adım adım anlatacağız. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, bu eğitim Excel grafiklerinizi geliştirmek için ihtiyacınız olan tüm araçları size sunacaktır. Peki, dalmaya hazır mısınız?
 
 ## Ön koşullar
 
 Kodlamaya başlamadan önce, elinizde olması gereken birkaç şey var:
 
-- C#'ın Temel Anlayışı: C# programlamanın temellerine hakim olmak faydalı olacaktır. Endişelenmeyin; uzman olmanıza gerek yok, sadece sözdiziminde gezinme konusunda rahat olmanız yeterli.
--  Yüklü Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
-- Visual Studio: .NET framework için kullanmayı tercih ettiğiniz Visual Studio veya herhangi bir IDE'ye aşinalık şarttır.
+- C#'ın Temel Anlayışı: C# programlamanın temel bir kavrayışı faydalı olacaktır. Endişelenmeyin; uzman olmanıza gerek yok, sadece sözdiziminde gezinme konusunda rahat olmanız yeterli.
+- Yüklü Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesinin yüklü olduğundan emin olun. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
+- Visual Studio: .NET Framework için kullanmayı tercih ettiğiniz Visual Studio veya herhangi bir IDE'ye aşinalık önemlidir.
 - Mevcut Bir Excel Dosyası: Bu örnek için, "sampleAddingTextBoxControlInChart.xls" adlı mevcut bir Excel dosyasıyla çalışacağız. Bir tane oluşturabilir veya bir örnek indirebilirsiniz.
 
 Artık her şey yerli yerinde olduğuna göre kodlama kısmına geçebiliriz!
@@ -51,11 +53,11 @@ string sourceDir = "Your Document Directory";
 // Çıktı dizini
 string outputDir = "Your Output Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` Ve`"Your Output Directory"` sisteminizdeki gerçek yollarla.
+Yer değiştirmek `"Your Document Directory"` Ve `"Your Output Directory"` sisteminizdeki gerçek yollarla.
 
 ## Adım 2: Mevcut Excel Dosyasını Açın
 
-Sonra, değiştirmek istediğimiz grafiği içeren Excel dosyasını açmamız gerekiyor. Bu, grafiği almamızı ve değişiklikler yapmamızı sağlayacaktır.
+Sonra, değiştirmek istediğimiz grafiği içeren Excel dosyasını açmamız gerekiyor. Bu, grafiği getirmemize ve değişiklikler yapmamıza olanak tanıyacaktır.
 
 ```csharp
 // Mevcut dosyayı açın.
@@ -142,7 +144,7 @@ Son adım, yaptığınız değişiklikleri yeni bir Excel dosyasına kaydetmekti
 // Excel dosyasını kaydedin.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Yer değiştirmek`"outputAddingTextBoxControlInChart.xls"` istediğiniz dosya adıyla.
+Yer değiştirmek `"outputAddingTextBoxControlInChart.xls"` istediğiniz dosya adıyla.
 
 ## Çözüm
 
@@ -157,16 +159,18 @@ Aspose.Cells for .NET, Microsoft Excel'e güvenmeye gerek kalmadan Excel dosyala
 Evet! TextBox oluşturma adımlarını farklı pozisyonlarda tekrarlayarak ihtiyacınız kadar TextBox ekleyebilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgelere erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı belgelere erişebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Aspose destek forumundan yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose destek forumundan yardım isteyebilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

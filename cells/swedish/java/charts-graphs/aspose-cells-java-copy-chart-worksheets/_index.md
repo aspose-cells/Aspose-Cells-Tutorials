@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Se till att din utvecklingsmiljö är korrekt konfigurerad innan du fortsätter.
 ### Krav för miljöinstallation:
 - En integrerad utvecklingsmiljö (IDE), till exempel IntelliJ IDEA, Eclipse eller NetBeans.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering
 - Bekantskap med byggverktygen Maven eller Gradle
 
@@ -200,6 +202,9 @@ Redo att omsätta din kunskap i praktiken? [Försök att implementera lösningen
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ Workbook wb = new Workbook(dataDir + "/sampleFindAndRefreshNestedOrChildrenPivot
 ```java
 Worksheet ws = wb.getWorksheets().get(0);
 ```
-- **Scopo:** Recupera un foglio di lavoro specifico dalla cartella di lavoro, consentendo ulteriori operazioni sul suo contenuto.
+- **Scopo:** Recupera uno specifico foglio di lavoro dalla cartella di lavoro, consentendo ulteriori operazioni sul suo contenuto.
 
 ### Funzionalità 3: accedere alla tabella pivot e ai suoi elementi figlio
 
@@ -135,7 +137,7 @@ PivotTable[] ptChildren = ptParent.getChildren();
 
 ### Funzionalità 4: Aggiorna e calcola i dati per le tabelle pivot figlio
 
-**Panoramica:** Mantenere i dati aggiornati è fondamentale per analisi e report accurati.
+**Panoramica:** Mantenere i dati aggiornati è fondamentale per ottenere analisi e report accurati.
 
 #### 6.1 Eseguire l'iterazione sulle tabelle pivot figlio
 ```java
@@ -156,7 +158,7 @@ for (int idx = 0; idx < ptChildren.length; idx++) {
 Ecco alcuni scenari reali in cui Aspose.Cells per Java può rivelarsi particolarmente utile:
 
 1. **Rendicontazione finanziaria:** Automatizza l'aggiornamento dei riepiloghi finanziari, assicurandoti che i report riflettano i dati più recenti.
-2. **Gestione dell'inventario:** Aggiorna dinamicamente i livelli delle scorte nelle viste della tabella pivot per ottenere informazioni in tempo reale.
+2. **Gestione dell'inventario:** Aggiorna dinamicamente i livelli delle scorte nelle viste della tabella pivot per fornire informazioni in tempo reale.
 3. **Analisi delle vendite:** Aggiorna i dati di vendita nelle tabelle pivot nidificate per ottenere metriche di prestazioni aggiornate.
 
 ## Considerazioni sulle prestazioni
@@ -201,6 +203,9 @@ In questa guida, hai imparato come gestire efficacemente le tabelle pivot nidifi
 Seguendo questa guida completa, sarai pronto ad affrontare complesse attività di gestione dei dati Excel utilizzando Aspose.Cells per Java. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Javaプロジェクトが依存関係管理のためにMavenまたはGradleでセットアップされていることを確認してください。これにより、開発環境にAspose.Cellsを組み込むプロセスが簡素化されます。
 
 ### 知識の前提条件
-基本的な Java プログラミング概念の知識と Excel ファイル操作の経験があれば有利ですが、このガイドに従うために必須ではありません。
+基本的な Java プログラミング概念の知識と Excel ファイル操作の経験があれば有利ですが、このガイドに従うのに必須ではありません。
 
 ## Aspose.Cells for Java のセットアップ (H2)
 Aspose.Cells を依存関係として追加したら、次のステップはプロジェクト内で初期化することです。手順は以下のとおりです。
@@ -122,7 +124,7 @@ System.out.println("Paper size set for TestSheet1.");
 次に、ページ設定をコピーします。 `TestSheet1` に `TestSheet2`：
 
 ```java
-// TestSheet2 にアクセスする
+// TestSheet2 にアクセス
 Worksheet TestSheet2 = wb.getWorksheets().get("TestSheet2");
 
 // TestSheet1からTestSheet2にPageSetupをコピーします。
@@ -135,7 +137,7 @@ System.out.println("Page setup copied successfully.");
 - すべてのワークシートが名前またはインデックスによって正しく参照されていることを確認します。
 - Aspose.Cells がプロジェクトの依存関係に適切に追加されていることを確認します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 この機能は、次のようなシナリオで特に役立ちます。
 1. **標準化されたレポート:** 財務レポート内の複数のシートにわたって一貫したレイアウトを確保します。
 2. **テンプレートの作成:** チーム間で共有されるドキュメント テンプレートに統一されたページ設定を適用します。
@@ -179,6 +181,9 @@ System.out.println("Page setup copied successfully.");
 - **サポートフォーラム:** [Aspose コミュニティ サポート](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

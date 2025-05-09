@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ shadowEffect.setTransparency(0.3); // Az átlátszóság módosítása lágyabb 
 
 ### Munkafüzet mentése
 
-A módosítások mentésével megtekintheti a hatásokat:
+A hatások megtekintéséhez mentse el a módosításokat:
 
 ```java
 workbook.save(dataDir + "WorkingWithShadowEffect_out.xlsx");
@@ -120,7 +122,7 @@ workbook.save(dataDir + "WorkingWithShadowEffect_out.xlsx");
 
 Javítsa valós alkalmazásait árnyékeffektusokkal:
 
-1. **Prezentációs diák**: Tegye kiemelkedővé a diagramokat és ábrákat.
+1. **Prezentációs diák**: Emeld ki a diagramokat és ábrákat.
 2. **Jelentések**: Mélység növelése a vállalati jelentések adatvizualizációiban az áttekinthetőség érdekében.
 3. **Marketinganyagok**Készítsen lebilincselő infografikákat, amelyek megragadják a figyelmet.
 
@@ -164,6 +166,9 @@ Ez az útmutató segít kreatívan és hatékonyan fejleszteni Excel-dokumentuma
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

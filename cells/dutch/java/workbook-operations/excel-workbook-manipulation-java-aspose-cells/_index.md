@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Door deze tutorial te volgen, hebt u geleerd hoe u efficiënt Excel-werkmappen kunt bewerken met Aspose.Cells voor Java. Deze krachtige tool vereenvoudigt het proces van het maken, wijzigen en verbeteren van uw Excel-bestanden, zodat u zich kunt concentreren op het leveren van hoogwaardige data-oplossingen. Blijf de functies verkennen om de mogelijkheden ervan volledig te benutten in uw projecten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

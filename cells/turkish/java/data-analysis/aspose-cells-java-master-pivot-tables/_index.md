@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Java projenizde Aspose.Cells'i başlatın:
 import com.aspose.cells.Workbook;
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Lisansı Başlat (eğer varsa)
+        // Lisansı Başlatın (eğer varsa)
         // yeni Lisans().setLicense("lisansa/giden/yol");
 
         Workbook workbook = new Workbook();  // Boş bir çalışma kitabıyla başlayın veya mevcut bir dosyayı yükleyin
@@ -156,7 +158,7 @@ Aspose.Cells'in grafik oluşturma, formül hesaplamaları veya Excel otomasyonun
 
 1. **Aspose.Cells'i Spring Boot uygulamasına nasıl entegre edebilirim?**
    - Bağımlılığınızı ekleyin `pom.xml` ve bunu servis katmanınız içerisinde yapılandırın.
-2. **Aspose.Cells büyük dosyaları etkin bir şekilde işleyebilir mi?**
+2. **Aspose.Cells büyük dosyaları verimli bir şekilde işleyebilir mi?**
    - Evet, uygun bellek yönetimi ve akış API'leri ile büyük veri kümelerini etkili bir şekilde işleyebilir.
 3. **Pivot tabloları değiştirirken karşılaşılan yaygın sorunlar nelerdir?**
    - Fonksiyonları uygulamadan önce veri alanlarının mevcut olduğundan emin olun; hatalardan kaçınmak için doğru endeksleri kontrol edin.
@@ -172,6 +174,9 @@ Aspose.Cells'in grafik oluşturma, formül hesaplamaları veya Excel otomasyonun
 - **Geçici Lisans:** [Geçici Lisans Alın](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

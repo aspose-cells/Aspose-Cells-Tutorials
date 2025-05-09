@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ workbook.save(outDir + "/UsingGenericList_out.xlsx");
 ج: تشمل الخيارات فترة تجريبية مجانية، وترخيصًا مؤقتًا، وشراءً كاملاً. تفضل بزيارة [موقع Aspose](https://purchase.aspose.com/buy) لمزيد من المعلومات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

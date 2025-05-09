@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Cells for Java を使用して、複合チャートを作成する方法を学びましょう。このステップバイステップガイドでは、ソースコードと効果的なデータ視覚化のためのヒントを紹介します。"
+"description": "Aspose.Cells for Java を使用して、複合チャートを作成する方法を学びましょう。このステップバイステップガイドでは、効果的なデータ視覚化のためのソースコードとヒントを紹介します。"
 "linktitle": "複合チャートタイプ"
 "second_title": "Aspose.Cells Java Excel 処理 API"
 "title": "複合チャートタイプ"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 複合チャートタイプ
@@ -36,7 +38,7 @@
 import com.aspose.cells.*;
 ```
 
-### ステップ 2: Workbook オブジェクトを初期化します。
+### 手順 2: Workbook オブジェクトを初期化します。
 
 ```java
 Workbook workbook = new Workbook();
@@ -137,6 +139,7 @@ Aspose.Cells for Javaはユーザーフレンドリーな設計で、初心者�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

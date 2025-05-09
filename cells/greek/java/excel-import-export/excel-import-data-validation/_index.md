@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Επικύρωση δεδομένων εισαγωγής Excel
@@ -80,9 +82,11 @@ dataValidation.setShowError(true);
 Σε αυτόν τον ολοκληρωμένο οδηγό, εξερευνήσαμε τη διαδικασία εφαρμογής της επικύρωσης δεδομένων εισαγωγής Excel χρησιμοποιώντας το Aspose.Cells για Java. Ακολουθώντας τα βήματα που περιγράφονται σε αυτό το άρθρο, μπορείτε να διασφαλίσετε την ακρίβεια και την αξιοπιστία των εισαγόμενων δεδομένων στις εφαρμογές Java που χρησιμοποιείτε. Η επικύρωση δεδομένων είναι μια κρίσιμη πτυχή της διαχείρισης δεδομένων και το Aspose.Cells για Java απλοποιεί τη διαδικασία.
 
 Τώρα, οπλισμένοι με τις γνώσεις και τον πηγαίο κώδικα που παρέχονται, είστε έτοιμοι να βελτιώσετε τις δυνατότητες επικύρωσης δεδομένων σας και την εμπειρία χρήστη. Καλή κωδικοποίηση!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

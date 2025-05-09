@@ -8,7 +8,9 @@ url: /net/worksheet-display/display-tab/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display Tab in Worksheet using Aspose.Cells
@@ -82,6 +84,7 @@ You can get support or ask questions in the [Aspose forums](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

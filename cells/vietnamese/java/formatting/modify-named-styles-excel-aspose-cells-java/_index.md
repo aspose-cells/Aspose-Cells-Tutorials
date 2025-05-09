@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ Bạn đã học cách tự động sửa đổi các kiểu được đặt tê
 Khám phá các tính năng khác của Aspose.Cells, chẳng hạn như tạo biểu đồ hoặc xử lý các thao tác dữ liệu phức tạp, để nâng cao hơn nữa các ứng dụng của bạn. Hãy thử triển khai giải pháp này ngay hôm nay và xem cách nó có thể hợp lý hóa các tác vụ liên quan đến Excel của bạn!
 
 ## Phần Câu hỏi thường gặp
-**1. Phiên bản JDK tối thiểu cần có để sử dụng Aspose.Cells là bao nhiêu?**
+**1. Phiên bản JDK tối thiểu cần thiết để sử dụng Aspose.Cells là bao nhiêu?**
 - Bạn cần JDK 8 trở lên.
 
 **2. Tôi có thể sửa đổi kiểu trong tệp Excel mà không cần mở chúng theo cách thủ công không?**
@@ -172,6 +174,9 @@ Khám phá thêm với các tài nguyên sau:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

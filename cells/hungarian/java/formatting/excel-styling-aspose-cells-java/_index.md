@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,13 +211,16 @@ V: Teljesen egyetértek! Az Aspose.Cells integrálható Java-alapú webes alkalm
 V: Igen, az Aspose.Cells támogatja az Excel fájlok konvertálását különféle formátumokba, például PDF, CSV és egyebekbe.
 
 **K: Milyen támogatási lehetőségek állnak rendelkezésre, ha problémákba ütközöm?**
-A: Az Aspose átfogó képet nyújt [támogatási fórum](https://forum.aspose.com/c/cells/9) hibaelhárításért és segítségért a kérdéseiddel kapcsolatban.
+A: Az Aspose átfogó képet nyújt [támogató fórum](https://forum.aspose.com/c/cells/9) hibaelhárításért és segítségért a kérdéseiddel kapcsolatban.
 
 ## Erőforrás
 
 - **Dokumentáció:** Fedezze fel a teljes [Aspose.Cells dokumentáció](https://docs.aspose.com/cells/java/) a fejlettebb funkciókért.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

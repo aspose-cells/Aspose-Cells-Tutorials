@@ -7,35 +7,37 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengambil ID Unik Lembar Kerja Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Mengelola file Excel yang besar sering kali melibatkan penanganan beberapa lembar kerja, yang masing-masing memiliki tujuan tersendiri dalam kumpulan data Anda. Mengekstrak pengenal uniknya secara terprogram dapat sangat membantu. Dalam panduan ini, kami akan menunjukkan kepada Anda cara menggunakan **Aspose.Cells untuk Java** untuk mengambil ID unik lembar kerja secara efisien.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Menyiapkan Aspose.Cells dalam proyek Java
 - Mengambil ID unik dari lembar kerja Excel
 - Aplikasi praktis untuk mengambil ID unik
 
 Dengan pengetahuan ini, Anda dapat menyederhanakan alur kerja dengan mengintegrasikan manajemen data Excel ke dalam aplikasi Java Anda. Mari kita bahas prasyaratnya dan mulai.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda telah melakukan pengaturan berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő beállításokkal rendelkezünk:
 
-### Pustaka, Versi, dan Dependensi yang Diperlukan:
+### Szükséges könyvtárak, verziók és függőségek:
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru.
   
-### Persyaratan Pengaturan Lingkungan:
+### Környezeti beállítási követelmények:
 - Java Development Kit (JDK) terinstal di sistem Anda.
 - IDE seperti IntelliJ IDEA atau Eclipse.
 
-### Prasyarat Pengetahuan:
+### Előfeltételek a tudáshoz:
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan dalam mengelola dependensi menggunakan Maven atau Gradle.
 
@@ -44,7 +46,7 @@ Sebelum kita mulai, pastikan Anda telah melakukan pengaturan berikut:
 Untuk bekerja dengan Aspose.Cells, Anda perlu menyertakannya dalam proyek Anda. Berikut caranya:
 
 **Pengaturan Maven:**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,17 +56,17 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 **Pengaturan Gradle:**
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi:
-1. **Uji Coba Gratis**: Aspose menawarkan uji coba gratis untuk menjelajahi kemampuan perpustakaan.
-2. **Lisensi Sementara**: Minta lisensi sementara untuk akses tambahan tanpa batasan evaluasi.
-3. **Pembelian**: Pertimbangkan untuk membeli lisensi penuh dari [Aspose Pembelian](https://purchase.aspose.com/buy) untuk penggunaan jangka panjang.
+### Licenc megszerzésének lépései:
+1. **Ingyenes próbaverzió**: Aspose menawarkan uji coba gratis untuk menjelajahi kemampuan perpustakaan.
+2. **Ideiglenes engedély**: Minta lisensi sementara untuk akses tambahan tanpa batasan evaluasi.
+3. **Vásárlás**: Pertimbangkan untuk membeli lisensi penuh dari [Aspose vásárlás](https://purchase.aspose.com/buy) hosszú távú használatra.
 
-#### Inisialisasi dan Pengaturan Dasar:
+#### Alapvető inicializálás és beállítás:
 Setelah Anda menambahkan dependensi, inisialisasi Aspose.Cells di aplikasi Anda dengan contoh ini:
 ```java
 import com.aspose.cells.Workbook;
@@ -79,28 +81,28 @@ public class AsposeSetup {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang setelah Anda mengintegrasikan Aspose.Cells, mari ambil ID unik lembar kerja.
 
-### Memuat File Excel
+### Excel fájl betöltése
 
 Pertama, muat file Excel tempat Anda ingin mengekstrak ID unik:
 
-#### Langkah 1: Muat Buku Kerja
+#### 1. lépés: A munkafüzet betöltése
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
-// Jalur direktori sumber
+// Forráskönyvtár elérési útja
 String sourceDir = Utils.Get_SourceDirectory();
 
-// Memuat buku kerja
+// A munkafüzet betöltése
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
-Itu `Workbook` kelas mewakili keseluruhan berkas Excel, yang memungkinkan Anda mengakses semua lembar kerjanya.
+A `Workbook` kelas mewakili keseluruhan berkas Excel, yang memungkinkan Anda mengakses semua lembar kerjanya.
 
-### Mengakses Lembar Kerja
+### Munkalap elérése
 
 Setelah buku kerja Anda dimuat, akses lembar individual:
 
@@ -127,36 +129,36 @@ System.out.println("Unique Id: " + uniqueId);
 ```
 Kode ini mengambil string yang secara unik mengidentifikasi lembar kerja ini dalam buku kerja, penting untuk referensi terprogram.
 
-### Tips Pemecahan Masalah:
+### Hibaelhárítási tippek:
 - Pastikan jalur file Excel Anda benar untuk mencegah `FileNotFoundException`.
 - Verifikasi izin baca/tulis pada direktori yang berisi berkas Anda jika Anda mengalami masalah izin.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Mengambil ID unik memiliki beberapa aplikasi di dunia nyata:
 1. **Konsistensi Data**: Memastikan operasi data mengacu pada lembar kerja yang benar dalam buku kerja yang kompleks.
-2. **Pelaporan Otomatis**: Menghasilkan laporan dinamis dengan lembar kerja spesifik yang direferensikan berdasarkan ID-nya.
-3. **Integrasi dengan Basis Data**: Menghubungkan lembar Excel langsung ke tabel basis data menggunakan pengenal unik.
+2. **Automatizált jelentéskészítés**: Menghasilkan laporan dinamis dengan lembar kerja spesifik yang direferensikan berdasarkan ID-nya.
+3. **Integráció adatbázisokkal**: Menghubungkan lembar Excel langsung ke tabel basis data menggunakan pengenal unik.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Bekerja secara efisien dengan file Excel berukuran besar sangatlah penting:
-- **Optimalkan Penggunaan Memori**Muat hanya data yang diperlukan ke dalam memori saat bekerja dengan kumpulan data yang besar.
-- **Praktik Terbaik**: Gunakan API streaming jika tersedia untuk menangani file besar tanpa membebani sumber daya sistem.
+- **Memóriahasználat optimalizálása**Muat hanya data yang diperlukan ke dalam memori saat bekerja dengan kumpulan data yang besar.
+- **Bevált gyakorlatok**: Gunakan API streaming jika tersedia untuk menangani file besar tanpa membebani sumber daya sistem.
 
 Pertimbangan ini memastikan aplikasi Anda tetap responsif dan hemat sumber daya.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara mengambil ID lembar kerja unik menggunakan Aspose.Cells di Java. Fungsionalitas ini meningkatkan manajemen data dengan memungkinkan referensi yang tepat ke lembar tertentu.
 
-### Langkah Berikutnya:
+### Következő lépések:
 - Jelajahi fitur tambahan Aspose.Cells seperti manipulasi bagan atau perhitungan rumus.
 - Integrasikan fungsi ini ke dalam proyek yang lebih besar untuk penanganan file Excel yang komprehensif.
 
 Siap untuk menerapkannya? Cobalah mengambil ID unik dari berbagai lembar kerja dan lihat bagaimana hal itu menyederhanakan proses Anda!
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Apa ID unik lembar kerja di Aspose.Cells?**
 A1: Ini adalah string yang secara unik mengidentifikasi lembar kerja dalam buku kerja Excel, berguna untuk referensi terprogram.
@@ -173,19 +175,22 @@ A4: Masalah umum meliputi jalur file yang salah dan masalah izin. Pastikan penga
 **Q5: Bagaimana Aspose.Cells untuk Java dibandingkan dengan pustaka lain?**
 A5: Menawarkan fitur-fitur tangguh, termasuk dukungan lintas-platform dan dokumentasi yang luas, menjadikannya pilihan utama bagi banyak pengembang.
 
-## Sumber daya
+## Erőforrás
 Untuk informasi lebih rinci:
-- **Dokumentasi**: [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian dan Lisensi**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Forum Sel Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
+- **Pembelian dan Lisensi**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Próbálja ki ingyen](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Forum Sel Aspose](https://forum.aspose.com/c/cells/9)
 
 Mulailah memanfaatkan Aspose.Cells untuk Java hari ini untuk meningkatkan kemampuan manipulasi data Excel Anda!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

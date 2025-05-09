@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ Cuối cùng, hãy lưu những thay đổi vào một tệp mới:
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Bước 8: Lưu Workbook
+#### Bước 8: Lưu sổ làm việc
 Xác định thư mục đầu ra và định dạng lưu:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // Chỉ định đường dẫn thư mục đầu ra
@@ -184,7 +186,7 @@ Xin chúc mừng! Bạn đã học được cách chèn hàng hiệu quả vào 
 4. **Có hỗ trợ các định dạng tệp khác ngoài .xls và .xlsx không?**
    - Có, Aspose.Cells hỗ trợ nhiều định dạng bảng tính như CSV, JSON, v.v.
 
-5. **Tôi phải làm sao nếu gặp lỗi trong quá trình thực hiện?**
+5. **Tôi phải làm sao nếu gặp lỗi trong quá trình triển khai?**
    - Kiểm tra tài liệu tại [Tài liệu Aspose](https://reference.aspose.com/cells/java/) hoặc liên hệ với diễn đàn cộng đồng để được hỗ trợ.
 
 ## Tài nguyên
@@ -199,6 +201,9 @@ Xin chúc mừng! Bạn đã học được cách chèn hàng hiệu quả vào 
 Hãy bắt đầu hành trình của bạn với Aspose.Cells for Java ngay hôm nay và cách mạng hóa cách bạn xử lý dữ liệu Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ public class AssignFormulas {
 - **Wyjaśnienie**:Ten `setFormula()` Metoda przypisuje formuły do komórek. Używamy funkcji Excela takich jak `VLOOKUP` I `IFNA` Tutaj.
 
 ### Obliczanie formuł skoroszytu
-**Przegląd**:Automatycznie oblicza wszystkie formuły w skoroszycie, aby zapewnić dokładność danych.
+**Przegląd**:Automatycznie obliczaj wszystkie formuły w skoroszycie, aby zapewnić dokładność danych.
 
 #### Wdrażanie krok po kroku
 
@@ -189,7 +191,7 @@ public class CalculateWorkbookFormulas {
     }
 }
 ```
-- **Wyjaśnienie**:Ten `calculateFormula()` Metoda aktualizuje wszystkie komórki na podstawie przypisanych im formuł, zapewniając dokładne przedstawienie danych.
+- **Wyjaśnienie**:Ten `calculateFormula()` Metoda ta aktualizuje wszystkie komórki na podstawie przypisanych im formuł, zapewniając dokładne przedstawienie danych.
 
 ## Zastosowania praktyczne
 1. **Automatyczne generowanie raportów**:Użyj Aspose.Cells do zautomatyzowania tworzenia miesięcznych raportów sprzedaży poprzez pobieranie danych z wielu źródeł.
@@ -206,6 +208,9 @@ W tym samouczku przyjrzeliśmy się sposobom tworzenia i modyfikowania skoroszyt
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

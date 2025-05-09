@@ -1,14 +1,16 @@
 ---
-title: Regex Değiştir
-linktitle: Regex Değiştir
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET ile Excel'de regex değiştirmeyi nasıl verimli bir şekilde kullanacağınızı öğrenin. E-tablo görevlerinizde üretkenliği ve doğruluğu artırın.
-weight: 140
-url: /tr/net/excel-workbook/regex-replace/
+"description": "Aspose.Cells for .NET ile Excel'de regex değiştirmeyi nasıl verimli bir şekilde kullanacağınızı öğrenin. E-tablo görevlerinizde üretkenliği ve doğruluğu artırın."
+"linktitle": "Regex Değiştir"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Regex Değiştir"
+"url": "/tr/net/excel-workbook/regex-replace/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Regex Değiştir
@@ -22,7 +24,7 @@ Excel elektronik tablolarınızda titiz değişiklikler yapmak için saatler har
 Kodlamanın inceliklerine dalmadan önce, önünüzdeki yolculuğa iyi donanımlı olduğunuzdan emin olalım.
 
 1. .NET Framework: .NET ortamınızın kurulu olduğundan emin olun. .NET Core veya .NET Framework olsun, hazır olmalısınız.
-2. Aspose.Cells Kütüphanesi: Bu kütüphane, güçlü elektronik tablo manipülasyonlarının kilidini açmanız için anahtarınızdır.[buradan indirin](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Bu kütüphane, güçlü elektronik tablo manipülasyonlarının kilidini açmanız için anahtarınızdır. [buradan indirin](https://releases.aspose.com/cells/net/).
 3. Bir IDE: Kodlama deneyiminizi çok daha akıcı hale getirecek olan Visual Studio gibi favori Entegre Geliştirme Ortamınızı (IDE) kullanın.
 4. Temel Programlama Bilgisi: C# ve düzenli ifade kavramlarına aşinalık faydalı olacaktır.
 
@@ -31,7 +33,7 @@ Kodlamanın inceliklerine dalmadan önce, önünüzdeki yolculuğa iyi donanıml
 Başlamak için Aspose.Cells kütüphanesini ekleyerek projenizi kurduğunuzdan emin olun. Bunu Visual Studio'daki NuGet Paket Yöneticisi aracılığıyla yapabilirsiniz.
 
 1. Projenizi açın ve Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e gidin.
-2.  Arama`Aspose.Cells` ve kurun.
+2. Arama `Aspose.Cells` ve kurun.
 
 Artık her şey hazır olduğuna göre, uygulamamız için gerekli paketleri içe aktaralım.
 
@@ -59,7 +61,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Burada,`"Your Document Directory"` Ve`"Your Document Directory"` kaynak ve çıktı yollarını kolayca yakalamanıza yardımcı olan yardımcı işlevlerdir. Kaynak dizininizin adlı bir dosya içerdiğinden emin olun`SampleRegexReplace.xlsx` Bu örnek için.
+Burada, `"Your Document Directory"` Ve `"Your Document Directory"` kaynak ve çıktı yollarını kolayca yakalamanıza yardımcı olan yardımcı işlevlerdir. Kaynak dizininizin adlı bir dosya içerdiğinden emin olun `SampleRegexReplace.xlsx` Bu örnek için.
 
 ## Adım 2: Çalışma Kitabını Yükleme
 
@@ -69,7 +71,7 @@ Artık dosyalarımızın nerede olduğunu bildiğimize göre, çalışma kitabı
 Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ```
 
- Burada yaptığımız şey, yeni bir örnek oluşturmaktır`Workbook` sınıf, kaynak dosyanın yolunu oluşturucuya iletir. Bu Excel dosyanızı yükler ve düzenlemeye hazır hale getirir!
+Burada yaptığımız şey, yeni bir örnek oluşturmaktır `Workbook` sınıf, kaynak dosyanın yolunu oluşturucuya iletir. Bu Excel dosyanızı yükler ve düzenlemeye hazır hale getirir!
 
 ## Adım 3: Değiştirme Seçeneklerini Yapılandırma
 
@@ -83,13 +85,13 @@ replace.RegexKey = true; // Regex kullandığımızı belirtin
 ```
 
 Bu yapılandırmada:
-- `CaseSensitive` ayarlandı`false`, yani "KIM" kelimesini ararken harfin büyük ya da küçük olması dikkate alınmayacaktır.
-- `MatchEntireCellContents` ayarlandı`false` böylece hücre içeriğinin parçalarını değiştirebiliriz.
-- `RegexKey` ayarlandı`true` aramamızda düzenli bir ifade kullanacağımızı belirtmek için.
+- `CaseSensitive` ayarlandı `false`, yani "KIM" kelimesini ararken harfin büyük ya da küçük olması dikkate alınmayacaktır.
+- `MatchEntireCellContents` ayarlandı `false` böylece hücre içeriğinin parçalarını değiştirebiliriz.
+- `RegexKey` ayarlandı `true` aramamızda düzenli bir ifade kullanacağımızı belirtmek için.
 
 ## Adım 4: Değiştirmenin Gerçekleştirilmesi
 
-Şimdi sihir gerçekleşiyor. "KIM"i " ile değiştirmenin zamanı geldi.^^^TIM^^^".
+Şimdi sihir gerçekleşiyor. "KIM"i "^^^TIM^^^" ile değiştirmenin zamanı geldi.
 
 ```csharp
 workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
@@ -97,7 +99,7 @@ workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 
 Bu satırda:
 - `\\b` regex'te bir kelime sınırını belirtir ve "KIM"i yalnızca bir bütün kelime olarak göründüğünde ve başka bir kelimenin parçası olmadığında değiştirmemizi sağlar.
-- Bunu " ile değiştiriyoruz^^^TIM^^^" (üç şapka işaretine dikkat edin). Bu, regex tabanlı değiştirmelerin ne kadar basit olabileceğini gösteriyor!
+- Bunu "^^^TIM^^^" ile değiştiriyoruz (üç şapka işaretine dikkat edin). Bu, regex tabanlı değiştirmelerin ne kadar basit olabileceğini gösteriyor!
 
 ## Adım 5: Çalışma Kitabını Kaydetme
 
@@ -135,13 +137,15 @@ Kesinlikle! Aspose.Cells, Excel dosyalarını oluşturmak, değiştirmek ve dön
 Evet, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Birden fazla farklı kelimeyi aynı anda değiştirmek için regex kullanabilir miyim?  
-Evet, birden fazla terimi aynı anda eşleştirmek için daha karmaşık regex desenleri oluşturabilirsiniz.
+Evet, birden fazla terimi aynı anda eşleştirmek için daha karmaşık regex kalıpları oluşturabilirsiniz.
 
 ### Aspose.Cells için daha fazla örnek ve dokümanı nerede bulabilirim?  
-Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

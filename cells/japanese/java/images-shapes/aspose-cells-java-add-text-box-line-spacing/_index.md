@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ import com.aspose.cells.Worksheet;
 
 public class ExcelDemo {
     public static void main(String[] args) {
-        // 新しいワークブック（Excelファイル）を作成する
+        // 新しいワークブック（Excel ファイル）を作成する
         Workbook workbook = new Workbook();
         
         // 最初のワークシートにアクセスする
@@ -118,7 +120,7 @@ import com.aspose.cells.MsoDrawingType;
 
 public class ExcelDemo {
     public static void main(String[] args) {
-        // 新しいワークブック（Excelファイル）を作成する
+        // 新しいワークブック（Excel ファイル）を作成する
         Workbook workbook = new Workbook();
         
         // 最初のワークシートにアクセスする
@@ -141,7 +143,7 @@ import com.aspose.cells.Shape;
 
 public class ExcelDemo {
     public static void main(String[] args) {
-        // 新しいワークブック（Excelファイル）を作成する
+        // 新しいワークブック（Excel ファイル）を作成する
         Workbook workbook = new Workbook();
         
         // 最初のワークシートにアクセスする
@@ -158,7 +160,7 @@ public class ExcelDemo {
 }
 ```
 
-### 図形内のテキスト段落にアクセス
+### 図形内のテキスト段落にアクセスする
 
 テキスト ボックス内の個々の段落にアクセスして、特定の書式を適用できます。
 
@@ -167,7 +169,7 @@ import com.aspose.cells.TextParagraph;
 
 public class ExcelDemo {
     public static void main(String[] args) {
-        // 新しいワークブック（Excelファイル）を作成する
+        // 新しいワークブック（Excel ファイル）を作成する
         Workbook workbook = new Workbook();
         
         // 最初のワークシートにアクセスする
@@ -196,7 +198,7 @@ import com.aspose.cells.LineSpaceSizeType;
 
 public class ExcelDemo {
     public static void main(String[] args) throws Exception {
-        // 新しいワークブック（Excelファイル）を作成する
+        // 新しいワークブック（Excel ファイル）を作成する
         Workbook workbook = new Workbook();
         
         // 最初のワークシートにアクセスする
@@ -236,7 +238,7 @@ import com.aspose.cells.SaveFormat;
 
 public class ExcelDemo {
     public static void main(String[] args) throws Exception {
-        // 新しいワークブック（Excelファイル）を作成する
+        // 新しいワークブック（Excel ファイル）を作成する
         Workbook workbook = new Workbook();
         
         // 最初のワークシートにアクセスする
@@ -281,6 +283,9 @@ Aspose.Cells for Javaを使用して、Excelブックにテキストボックス
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

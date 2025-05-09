@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ import com.aspose.cells.FilterOperatorType;
 worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
 ```
 
-#### Adım 3: Filtreyi Yenileyin
+#### Adım 3: Filtreyi yenileyin
 Değişikliklerin uygulandığından emin olun:
 
 ```java
@@ -208,6 +210,9 @@ C: Evet, birden fazla JDK sürümünü destekler; uyumluluğu sağlamak için k�
 Excel veri işleme görevlerinizi geliştirmek için Aspose.Cells for Java'nın gücünden yararlanmaya bugün başlayın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

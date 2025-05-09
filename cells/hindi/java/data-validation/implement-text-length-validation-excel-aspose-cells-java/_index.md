@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Aspose.Cells की और भी विशेषताओं का पता �
 - हां, Aspose.Cells विभिन्न डेटा सत्यापन प्रकारों का समर्थन करता है, जिससे आप अपनी कार्यपुस्तिका में विभिन्न नियम लागू कर सकते हैं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

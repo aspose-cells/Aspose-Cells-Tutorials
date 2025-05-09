@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ System.out.println("Workbook loaded without charts.");
 ### Lưu sổ làm việc dưới dạng PDF với một trang trên một tờ
 **Tổng quan**:Chức năng này lưu từng trang tính trong một sổ làm việc dưới dạng một trang riêng lẻ trong một tệp PDF duy nhất, lý tưởng cho mục đích lập tài liệu và báo cáo.
 
-#### Bước 1: Cấu hình tùy chọn lưu PDF
+#### Bước 1: Cấu hình Tùy chọn Lưu PDF
 Thiết lập `PdfSaveOptions` để đảm bảo một trang cho mỗi tờ:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -153,6 +155,9 @@ Các bước tiếp theo bao gồm khám phá các tính năng nâng cao hơn c�
 Hãy bắt đầu triển khai những tính năng mạnh mẽ này ngay hôm nay và nâng cao khả năng xử lý bảng tính Excel của bạn với Aspose.Cells for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/converting-excel-file-to-pdf-a
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Excel File to PDF (A-1a) Programmatically in .NET
@@ -87,6 +89,7 @@ No, you don’t need Excel installed. Aspose.Cells is a standalone .NET library 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

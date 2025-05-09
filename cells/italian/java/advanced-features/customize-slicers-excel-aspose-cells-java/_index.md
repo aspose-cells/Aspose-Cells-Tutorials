@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ A questo punto, dovresti avere una solida conoscenza di come personalizzare le p
 Intraprendi il tuo viaggio per padroneggiare la personalizzazione dello slicer di Excel con Aspose.Cells per Java e porta le tue presentazioni di dati a un livello superiore!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

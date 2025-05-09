@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ VBAスクリプトを深く理解することなくExcelタスクを自動化し
 - インスタンス化の方法 `Workbook` Aspose.Cells Java を使用したオブジェクト。
 - 読み込まれたワークブック内の特定のワークシートにアクセスします。
 - ワークシート内の指定された位置に行を挿入します。
-- 変更されたワークブックを効率的に保存します。
+- 変更されたブックを効率的に保存します。
 
 さあ、これらの機能を一緒にマスターしましょう!
 
@@ -199,6 +201,9 @@ Aspose.Cells Java は、CRM プラットフォーム、ERP ソリューション
 今すぐ Aspose.Cells for Java を使い始め、Excel データの処理方法に革命を起こしましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

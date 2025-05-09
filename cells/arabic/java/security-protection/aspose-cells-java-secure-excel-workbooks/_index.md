@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ workbook.save(outDir + "/AEncryption_out.xls");
    - نعم، يدعم Aspose.Cells مجموعة واسعة من تنسيقات ملفات Excel، بما في ذلك الإصدارات القديمة مثل `.xls` وأحدث منها مثل `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

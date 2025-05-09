@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 เรียนรู้วิธีการเพิ่มตัวแบ่งหน้าใน Excel โดยใช้ Aspose.Cells สำหรับ Java เพื่อปรับปรุงการนำเสนอข้อมูลของคุณด้วยการจัดรูปแบบที่มีประสิทธิภาพ
 
 ### [วิธีการเพิ่มส่วนหัวของรูปภาพใน Excel โดยใช้ Aspose.Cells สำหรับ Java (ส่วนหัวและส่วนท้าย)](./aspose-cells-java-image-header-excel/)
-เรียนรู้วิธีเพิ่มส่วนหัวของรูปภาพลงในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่าสภาพแวดล้อม การแทรกภาพลงในส่วนหัว และการเพิ่มประสิทธิภาพการทำงาน
+เรียนรู้วิธีเพิ่มส่วนหัวของรูปภาพลงในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่าสภาพแวดล้อม การแทรกรูปภาพลงในส่วนหัว และการเพิ่มประสิทธิภาพการทำงาน
 
 ### [การพิมพ์เวอร์ชันและการเรนเดอร์แผ่นงานด้วย Aspose.Cells Java](./aspose-cells-java-printing-versions-rendering-sheets-png/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
@@ -102,6 +104,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

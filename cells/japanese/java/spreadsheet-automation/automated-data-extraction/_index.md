@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自動データ抽出
@@ -111,9 +113,11 @@ Aspose.Cells for Java によるデータ抽出の自動化により、Excel フ�
    APIドキュメントをご覧ください [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 詳しい情報と例については、こちらをご覧ください。
 
 今すぐ Aspose.Cells for Java を使用してデータ抽出タスクの自動化を開始し、データ取得プロセスを効率化しましょう。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

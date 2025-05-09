@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ for (int i = 0; i < connectionCount; i++) {
    - Μια προσωρινή άδεια χρήσης σάς επιτρέπει να εξερευνήσετε όλες τις δυνατότητες του Aspose.Cells κατά τη διάρκεια μιας δοκιμαστικής περιόδου.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

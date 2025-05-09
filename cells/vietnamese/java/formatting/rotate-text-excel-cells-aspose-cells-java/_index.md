@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Tăng cường tính hấp dẫn trực quan cho các trang tính Excel của b�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
 1. **Thư viện và các thành phần phụ thuộc:** Bao gồm Aspose.Cells vào dự án của bạn thông qua Maven hoặc Gradle.
-2. **Thiết lập môi trường:** Một Java IDE có cài đặt JDK (ví dụ: IntelliJ IDEA, Eclipse).
+2. **Thiết lập môi trường:** Một IDE Java có cài đặt JDK (ví dụ: IntelliJ IDEA, Eclipse).
 3. **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về các thao tác trên tệp Java và Excel.
 
 ## Thiết lập Aspose.Cells cho Java
@@ -145,6 +147,9 @@ A: Ghé thăm [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java
 - **Ủng hộ:** [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

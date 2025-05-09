@@ -1,48 +1,50 @@
 ---
-title: Vytvořit sdílený sešit
-linktitle: Vytvořit sdílený sešit
-second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak vytvořit sdílený sešit pomocí Aspose.Cells for .NET pomocí tohoto jednoduchého průvodce krok za krokem. Ideální pro posílení týmové spolupráce.
-weight: 70
-url: /cs/net/excel-workbook/create-shared-workbook/
+"description": "Naučte se, jak vytvořit sdílený sešit pomocí Aspose.Cells pro .NET s tímto jednoduchým podrobným návodem. Ideální pro zlepšení týmové spolupráce."
+"linktitle": "Vytvořit sdílený sešit"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Vytvořit sdílený sešit"
+"url": "/cs/net/excel-workbook/create-shared-workbook/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytvořit sdílený sešit
 
 ## Zavedení
 
-Vytvoření sdíleného sešitu může znamenat zásadní změnu pro spolupráci, zvláště pokud žonglujete s daty napříč různými týmy nebo odděleními. S Aspose.Cells for .NET máte k dispozici robustní nástroj pro programovou správu souborů aplikace Excel. Tento průvodce vás provede kroky k vytvoření sdíleného sešitu, díky čemuž bude vaše spolupráce efektivnější a efektivnější. Ať už jste nováček nebo zkušený vývojář, s tímto jednoduchým, ale výkonným tutoriálem si přijdete na své!
+Vytvoření sdíleného sešitu může být pro spolupráci zásadní, zejména pokud žonglujete s daty napříč různými týmy nebo odděleními. S Aspose.Cells pro .NET máte k dispozici robustní nástroj pro programovou správu souborů aplikace Excel. Tato příručka vás provede kroky k vytvoření sdíleného sešitu, čímž zefektivní a zjednoduší vaši spolupráci. Ať už jste začátečník nebo zkušený vývojář, s tímto jednoduchým, ale účinným tutoriálem si užijete spoustu zábavy!
 
 ## Předpoklady
 
-Než se ponoříme do toho nejnutnějšího vytváření sdíleného sešitu, pojďme si utřídit několik věcí:
+Než se ponoříme do detailů vytváření sdíleného sešitu, pojďme si ujasnit pár věcí:
 
-1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Je to vývojové prostředí, kde můžete psát a spouštět svůj kód.
-2.  Aspose.Cells for .NET: Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout z[Aspose.Cells ke stažení](https://releases.aspose.com/cells/net/).
-3. .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework. Tento příklad bude fungovat s .NET Core nebo .NET Framework 4.x.
-4. Základní znalost C#: Trocha znalosti programování v C# bude dlouhá cesta. Pokud umíte napsat základní kód, měli byste jít!
+1. Visual Studio: Ujistěte se, že máte na svém počítači nainstalované Visual Studio. Jedná se o vývojové prostředí, kde můžete psát a spouštět svůj kód.
+2. Aspose.Cells pro .NET: Budete potřebovat knihovnu Aspose.Cells. Můžete si ji stáhnout z [Soubory ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework. Tento příklad bude fungovat s .NET Core nebo .NET Framework 4.x.
+4. Základní znalost C#: Trocha znalosti programování v C# bude hodně užitečná. Pokud umíte psát základní kód, měli byste být připraveni!
 
 Jakmile splníte tyto předpoklady, můžete začít vytvářet sdílený sešit.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nyní, když máme naše prostředí hotové, importujme potřebné balíčky, abychom mohli začít. Můžete to udělat takto:
+Nyní, když máme naše prostředí připravené, importujme potřebné balíčky, abychom mohli začít. Zde je návod, jak to udělat:
 
 ### Vytvořit nový projekt
 1. Otevřete Visual Studio.
-2. Vytvořte nový projekt konzoly C#.
-3. Svůj projekt pojmenujte něco jako "SharedWorkbookExample".
+2. Vytvořte nový konzolový projekt v C#.
+3. Pojmenujte svůj projekt například „SharedWorkbookExample“.
 
-### Nainstalujte Aspose.Cells
-1. Klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení a vyberte „Spravovat balíčky NuGet“.
-2. Vyhledejte "Aspose.Cells" a nainstalujte jej. Tím do svého projektu přidáte potřebné reference.
+### Instalace Aspose.Cells
+1. V Průzkumníku řešení klikněte pravým tlačítkem myši na svůj projekt a vyberte možnost „Spravovat balíčky NuGet“.
+2. Vyhledejte „Aspose.Cells“ a nainstalujte jej. Tím se do vašeho projektu přidají potřebné reference.
 
 ### Přidat pomocí direktiv
- V horní části vašeho`Program.cs` soubor, přidejte následující pomocí direktivy:
+Na vrcholu tvého `Program.cs` soubor, přidejte následující pomocí direktivy:
 
 ```csharp
 using System;
@@ -51,81 +53,83 @@ using System.Linq;
 using System.Text;
 ```
 
-A právě tak jste se připravili na úspěch! Pojďme si projít kroky vytvoření sdíleného sešitu.
+A takhle máte připravené na úspěch! Pojďme si projít kroky vytvoření sdíleného sešitu.
 
-Nyní se dostáváme k té šťavnaté části! Zde je návod, jak vytvořit sdílený sešit pomocí Aspose.Cells for .NET, rozdělený do snadno pochopitelných kroků.
+A teď se dostáváme k té šťavnaté části! Zde je návod, jak vytvořit sdílený sešit pomocí Aspose.Cells pro .NET, rozdělený do snadno sledovatelných kroků.
 
-## Krok 1: Nastavte výstupní adresář
+## Krok 1: Nastavení výstupního adresáře
 
-V tomto kroku určíte, kam bude výstupní soubor uložen. Je to jako rozhodování, kam umístit své čerstvě upečené sušenky – chcete mít jistotu, že je později snadno najdete!
+V tomto kroku určíte, kam bude výstupní soubor uložen. Je to jako když se rozhodujete, kam umístíte čerstvě upečené sušenky – chcete se ujistit, že je později snadno najdete!
 
 ```csharp
 //Výstupní adresář
 string outputDir = "Your Document Directory";
 ```
 
-## Krok 2: Vytvořte objekt sešitu
+## Krok 2: Vytvoření objektu sešitu
 
-Dále se naše zaměření přesune na vytvoření sešitu. Tady se děje kouzlo!
+Dále se naše pozornost přesune k vytvoření pracovního sešitu. A tady se začne dít ta pravá magie!
 
 ```csharp
 //Vytvořit objekt sešitu
 Workbook wb = new Workbook();
 ```
- Vytvořením instance`Workbook` třídy připravujeme na památku nový sešit. Berte to jako otevření nového prázdného listu v Excelu, který čeká na zaplnění daty.
+Vytvořením instance `Workbook` třídě si připravíme nový sešit v paměti. Představte si to jako otevření nového prázdného listu v Excelu, který čeká na naplnění daty.
 
-## Krok 3: Sdílejte sešit
+## Krok 3: Sdílení sešitu
 
-Je čas udělat z vašeho sešitu mistrovské dílo založené na spolupráci! Sdílení umožňuje přístup více uživatelům současně.
+Je čas proměnit váš sešit v mistrovské dílo pro spolupráci! Jeho sdílení umožňuje přístup více uživatelům současně.
 
 ```csharp
-//Sdílejte sešit
-wb.Settings.Shared = true;
+//Sdílení pracovního sešitu
+wb.Prostředís.Shared = true;
 ```
- Nastavení`wb.Settings.Shared` na`true` označuje, že k tomuto sešitu může přistupovat více uživatelů najednou. Je to jako rozdávat klíče od svého domu přátelům – mohou přicházet a odcházet, jak chtějí!
+Setting `wb.Settings.Shared` na `true` označuje, že k tomuto sešitu má přístup více uživatelů najednou. Je to jako rozdávat klíče od svého domu přátelům – můžou přicházet a odcházet, kdykoli se jim zlíbí!
 
-## Krok 4: Uložte sdílený sešit
+## Krok 4: Uložení sdíleného sešitu
 
-Nyní, když je váš sešit připraven ke sdílení, je čas uložit změny. Toto je okamžik pravdy!
+Nyní, když je váš sešit připraven ke sdílení, je čas uložit změny. To je okamžik pravdy!
 
 ```csharp
-//Uložte sdílený sešit
+//Uložení sdíleného sešitu
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 ```
- Zde ukládáme náš sdílený sešit s názvem`outputSharedWorkbook.xlsx` v zadaném výstupním adresáři. Tím se vygeneruje soubor Excel, který nyní může sdílet a upravovat více uživatelů.
+Zde ukládáme náš sdílený sešit s názvem `outputSharedWorkbook.xlsx` v zadaném výstupním adresáři. Tím se vygeneruje soubor Excel, který nyní může sdílet a upravovat více uživatelů.
 
-## Krok 5: Zobrazte zprávu o úspěchu
+## Krok 5: Zobrazení zprávy o úspěchu
 
-Abychom potvrdili, že vše proběhlo hladce, vytiskneme zprávu o úspěchu.
+Abychom potvrdili, že vše proběhlo hladce, vypíšeme zprávu o úspěchu.
 
 ```csharp
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
-Tento jednoduchý řádek kódu odešle zprávu do konzole, která oznamuje, že náš úkol byl úspěšně dokončen. Je to jako vítězný pokřik v cíli!
+Tento jednoduchý řádek kódu vypíše do konzole zprávu o úspěšném dokončení úkolu. Je to jako vítězný pokřik v cíli!
 
 ## Závěr 
 
-Vytvoření sdíleného sešitu není jen o generování souboru aplikace Excel; jde o posílení spolupráce a efektivity mezi týmy. S Aspose.Cells pro .NET je proces přímočarý a uživatelsky přívětivý. Podle zde uvedených kroků můžete bez námahy vytvořit sešit, který umožní více uživatelům pracovat s ním současně. Tak proč čekat? Ponořte se do toho a začněte vytvářet sdílené sešity, které umožní vašim týmům spolupracovat jako nikdy předtím!
+Vytvoření sdíleného sešitu není jen o generování souboru aplikace Excel; jde o zlepšení spolupráce a efektivity mezi týmy. S Aspose.Cells pro .NET je proces přímočarý a uživatelsky přívětivý. Podle zde uvedených kroků můžete bez námahy vytvořit sešit, který umožňuje interakci více uživatelů současně. Tak proč čekat? Pusťte se do toho a začněte vytvářet sdílené sešity, které umožní vašim týmům spolupracovat jako nikdy předtím!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je sdílený sešit?
-Sdílený sešit je soubor aplikace Excel, který umožňuje více uživatelům současně na něm spolupracovat.
+Sdílený sešit je soubor aplikace Excel, na kterém může spolupracovat více uživatelů současně.
 
-### Mohu zrušit sdílení sešitu, jakmile je sdílen?
- Ano, můžete zrušit sdílení sešitu nastavením`Shared` majetek do`false`.
+### Mohu zrušit sdílení sešitu, jakmile je sdílený?
+Ano, sdílení sešitu můžete zrušit nastavením `Shared` majetek `false`.
 
 ### Potřebuji licenci k používání Aspose.Cells?
-Ano, pro komerční použití Aspose.Cells je vyžadována licence. Můžete také získat bezplatnou zkušební verzi a vyzkoušet její funkce.
+Ano, pro komerční použití Aspose.Cells je vyžadována licence. Můžete si také nechat vyzkoušet jeho funkce zdarma.
 
 ### Kde mohu získat podporu pro Aspose.Cells?
- Podporu a dotazy můžete najít na[Fórum podpory Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Podporu a dotazy můžete najít na [Fórum podpory Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 ### Jak mohu začít používat Aspose.Cells?
- Začněte stažením knihovny z[Aspose.Cells ke stažení](https://releases.aspose.com/cells/net/)stránce a postupujte podle kroků instalace uvedených v této příručce.
+Začněte stažením knihovny z [Soubory ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) stránku a postupujte podle kroků instalace uvedených v této příručce.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

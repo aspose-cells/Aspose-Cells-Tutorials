@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποιημένη εξαγωγή δεδομένων
@@ -111,9 +113,11 @@ String[][] extractedData = worksheet.getCells().exportArray(cellArea);
    Εξερευνήστε την τεκμηρίωση του API στη διεύθυνση [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) για αναλυτικές πληροφορίες και παραδείγματα.
 
 Ξεκινήστε την αυτοματοποίηση των εργασιών εξαγωγής δεδομένων σας σήμερα με το Aspose.Cells για Java και βελτιστοποιήστε τις διαδικασίες ανάκτησης δεδομένων σας.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

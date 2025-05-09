@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,12 +190,12 @@ következő lépések közé tartozik a különböző fájltípusokkal való kí
    - Igen, egy fájlkönyvtáron keresztüli iterációval és az észlelési logika programozott alkalmazásával.
 
 5. **Mi van, ha további fájlformátumokhoz van szükségem támogatásra?**
-   - Fedezze fel az Aspose többi könyvtárát, vagy vegye fel a kapcsolatot a könyvtárosokkal. [támogatási fórum](https://forum.aspose.com/c/cells/9) útmutatásért.
+   - Fedezze fel az Aspose többi könyvtárát, vagy vegye fel a kapcsolatot a könyvtárosokkal. [támogató fórum](https://forum.aspose.com/c/cells/9) útmutatásért.
 
 ## Erőforrás
 
 - **Dokumentáció:** [Aspose.Cells Java dokumentáció](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Aspose Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
@@ -201,6 +203,9 @@ következő lépések közé tartozik a különböző fájltípusokkal való kí
 Az útmutató követésével most már képes leszel fájlformátum-észlelésre titkosított fájlok esetén az Aspose.Cells használatával Java-ban. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

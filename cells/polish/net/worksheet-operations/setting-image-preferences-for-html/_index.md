@@ -1,14 +1,16 @@
 ---
-title: Ustawianie preferencji obrazów dla HTML w .NET
-linktitle: Ustawianie preferencji obrazów dla HTML w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odblokuj moc Aspose.Cells dla .NET. Dowiedz się, jak ustawić preferencje obrazu dla konwersji HTML, aby pięknie prezentować dane Excela w sieci.
-weight: 11
-url: /pl/net/worksheet-operations/setting-image-preferences-for-html/
+"description": "Odblokuj moc Aspose.Cells dla .NET. Dowiedz się, jak ustawić preferencje obrazu dla konwersji HTML, aby pięknie prezentować dane Excela w sieci."
+"linktitle": "Ustawianie preferencji obrazów dla HTML w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie preferencji obrazów dla HTML w .NET"
+"url": "/pl/net/worksheet-operations/setting-image-preferences-for-html/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie preferencji obrazów dla HTML w .NET
@@ -21,9 +23,9 @@ Tworzenie atrakcyjnych wizualnie stron internetowych z arkuszy kalkulacyjnych pr
 Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
 
 1. Zainstalowane środowisko Visual Studio: Będziesz potrzebować środowiska programistycznego, takiego jak Visual Studio, aby uruchamiać i testować aplikacje .NET.
-2.  Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells. Możesz pobrać najnowszą wersję z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells. Możesz pobrać najnowszą wersję z [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć przykłady.
-4. Przykładowy plik Excel: Przygotuj plik Excel o nazwie „Book1.xlsx” do pracy. Umieść go w wyznaczonym folderze, do którego będziesz się odwoływać w swoim kodzie.
+4. Przykładowy plik Excela: Przygotuj plik Excela o nazwie „Book1.xlsx” do pracy. Umieść go w wyznaczonym folderze, do którego będziesz się odwoływać w swoim kodzie.
 
 ## Importuj pakiety
 
@@ -39,7 +41,7 @@ Uruchom program Visual Studio i otwórz istniejący projekt C# (lub utwórz nowy
 2. Wybierz „Zarządzaj pakietami NuGet”.
 3. Wyszukaj „Aspose.Cells” i zainstaluj pakiet.
 
-### Uwzględnij dyrektywę Using
+### Dołącz dyrektywę Using
 
 Na górze pliku z kodem C# dodaj przestrzeń nazw Aspose.Cells:
 
@@ -60,7 +62,7 @@ Najpierw musisz ustawić ścieżkę, w której przechowywane są Twoje dokumenty
 string dataDir = "Your Document Directory";
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką na Twoim komputerze.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką na Twoim komputerze.
 
 ## Krok 2: Określ ścieżkę pliku
 
@@ -84,17 +86,17 @@ Za pomocą tego wiersza Aspose.Cells odczytuje plik Excel i przygotowuje go do e
 
 ## Krok 4: Utwórz instancję HtmlSaveOptions
 
- Aby dostosować sposób konwersji, musisz utworzyć wystąpienie`HtmlSaveOptions`Ta klasa umożliwia określenie sposobu reprezentacji danych programu Excel w formacie HTML.
+Aby dostosować sposób konwersji, musisz utworzyć wystąpienie `HtmlSaveOptions`Ta klasa umożliwia określenie sposobu reprezentacji danych programu Excel w formacie HTML.
 
 ```csharp
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html);
 ```
 
- Poprzez ustawienie`SaveFormat.Html`, wskazujesz, że formatem wyjściowym będzie HTML.
+Poprzez ustawienie `SaveFormat.Html`, wskazujesz, że formatem wyjściowym będzie HTML.
 
 ## Krok 5: Ustaw format obrazu na PNG
 
-Podczas konwersji obrazów w arkuszu kalkulacyjnym do formatu HTML możesz określić format tych obrazów. W tym przykładzie ustawimy go na PNG, który jest powszechnie używanym formatem obrazu do wyświetlania wysokiej jakości.
+Podczas konwersji obrazów w arkuszu kalkulacyjnym do formatu HTML możesz określić format tych obrazów. W tym przykładzie ustawimy go na PNG, który jest szeroko stosowanym formatem obrazów do wyświetlania wysokiej jakości.
 
 ```csharp
 saveOptions.ImageOptions.ImageType = Drawing.ImageType.Png;
@@ -110,7 +112,7 @@ Aby poprawić wygląd obrazów, możesz ustawić tryb wygładzania. Wygładzanie
 saveOptions.ImageOptions.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
 ```
 
- Wybierając`SmoothingMode.AntiAlias`, dzięki czemu Twoje zdjęcia będą wyglądać płynniej i bardziej profesjonalnie.
+Wybierając `SmoothingMode.AntiAlias`, dzięki czemu Twoje zdjęcia będą wyglądać płynniej i bardziej profesjonalnie.
 
 ## Krok 7: Zoptymalizuj renderowanie tekstu
 
@@ -130,7 +132,7 @@ Na koniec nadszedł czas, aby zapisać skoroszyt jako plik HTML, korzystając z 
 book.Save(dataDir + "output.html", saveOptions);
 ```
 
- Tutaj nowy plik HTML zostanie zapisany w tym samym katalogu pod nazwą`output.html`.
+Tutaj nowy plik HTML zostanie zapisany w tym samym katalogu pod nazwą `output.html`.
 
 ## Wniosek
 
@@ -140,7 +142,7 @@ Dzięki temu przewodnikowi krok po kroku nauczyłeś się, jak ustawić preferen
 
 ### Czym jest Aspose.Cells dla .NET?
 
-Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, odczytywania i modyfikowania plików Excel w aplikacjach .NET.
+Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, odczytywania i manipulowania plikami Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells bez programu Visual Studio?
 
@@ -148,18 +150,20 @@ Tak, możesz używać Aspose.Cells w dowolnym środowisku IDE lub aplikacji kons
 
 ### Czy jest dostępna wersja próbna?
 
- Oczywiście! Możesz pobrać bezpłatną wersję próbną Aspose.Cells z[Strona internetowa Aspose](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną Aspose.Cells z [Strona internetowa Aspose](https://releases.aspose.com/).
 
-### Jakich formatów obrazów mogę używać z Aspose.Cells?
+### Jakich formatów obrazów mogę używać w Aspose.Cells?
 
 Aspose.Cells obsługuje wiele formatów obrazów do eksportu, w tym PNG, JPEG i BMP.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
 
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie zespoły społeczności i wsparcia mogą Ci pomóc.
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie zespoły społeczności i wsparcia mogą Ci pomóc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

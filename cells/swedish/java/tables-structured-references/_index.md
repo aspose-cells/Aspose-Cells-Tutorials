@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Lär dig hur du får åtkomst till och manipulerar Excel-celler efter namn med A
 ### [Lägg till anpassade innehållstypsegenskaper i Excel-arbetsböcker med hjälp av Aspose.Cells Java](./aspose-cells-java-custom-content-types/)
 Lär dig hur du effektivt lägger till och hanterar anpassade innehållstypsegenskaper i Excel med Aspose.Cells för Java, vilket förbättrar dataorganisation och metadatastrukturering.
 
-### [Master Aspose.Cells Java: Automatisera Excel-listobjekt och totalsummor för förbättrad datahantering](./aspose-cells-java-excel-list-objects-totals/)
+### [Bemästra Aspose.Cells Java: Automatisera Excel-listobjekt och totaler för förbättrad datahantering](./aspose-cells-java-excel-list-objects-totals/)
 Lär dig hur du automatiserar listobjekt i Excel med Aspose.Cells för Java, vilket möjliggör sömlös summor och beräkningar. Perfekt för datarapportering och lagerhantering.
 
 ### [Aspose.Cells Java: Bemästra Excel-tabellmanipulation genom celler](./aspose-cells-java-manipulate-excel-tables/)
@@ -66,6 +68,9 @@ Lär dig hur du använder Aspose.Cells med Java för att effektivt identifiera o
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

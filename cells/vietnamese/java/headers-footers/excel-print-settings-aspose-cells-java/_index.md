@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Mua lại giấy phép
 
 - **Dùng thử miễn phí**: Bắt đầu bằng cách tải xuống giấy phép dùng thử miễn phí từ [Trang web của Aspose](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời**: Để thử nghiệm mở rộng, hãy yêu cầu giấy phép tạm thời tại [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
+- **Giấy phép tạm thời**: Để thử nghiệm mở rộng, hãy yêu cầu giấy phép tạm thời tại [Trang Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
 - **Mua**: Nếu bạn quyết định sử dụng Aspose.Cells lâu dài, hãy mua giấy phép từ [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
@@ -183,6 +185,9 @@ Bằng cách thành thạo các tính năng thiết lập in này bằng Aspose.
    - Chắc chắn rồi! Nó được thiết kế để xử lý các tập dữ liệu lớn một cách hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Java kullanarak Excel dosyalarındaki veri yönetimi yeteneklerinizi geliştirme
 - Yapılandırma `PasteOptions` yalnızca görünür hücrelerdeki değerleri yapıştırmak için.
 - Aspose.Cells'i kullanmak için gerçek dünya uygulamaları ve performans optimizasyon ipuçları.
 
-Hadi, takip etmeniz gereken ön koşullarla başlayalım!
+Haydi, takip etmeniz gereken ön koşullarla başlayalım!
 
 ## Ön koşullar
 
@@ -179,6 +181,9 @@ C5: Nesneleri uygun şekilde elden çıkarın, işlemleri gruplar halinde gerçe
 - **Destek Forumu**: [Aspose Desteği](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

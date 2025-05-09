@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ Recupere a planilha desejada acessando seu índice na pasta de trabalho.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Acessar Tabela Dinâmica a partir da Planilha
+### Acessar Tabela Dinâmica a partir de Planilha
 
 #### Visão geral
 
@@ -180,6 +182,9 @@ Explore mais a fundo, aprofundando-se em recursos e funcionalidades adicionais d
 Mergulhe mais fundo no Aspose.Cells, expanda suas habilidades em Java e revolucione a maneira como você interage com dados do Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

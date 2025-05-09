@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ Vedd bele ezt a `build.gradle` fájl:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencbeszerzés lépései:
+#### Licenc megszerzésének lépései:
 - **Ingyenes próbaverzió**Tölts le egy próbaverziót az Aspose.Cells teszteléséhez.
 - **Ideiglenes engedély**Szerezzen be egy ideiglenes licencet a teljes funkcióhozzáféréshez a fejlesztés során.
 - **Vásárlás**: Vásároljon licencet éles használatra.
@@ -135,7 +137,7 @@ int heightOfValue = cell.getHeightOfValue();
 #### Áttekintés:
 A sor- és oszlopméretek automatikus beállítása a tartalom méretei alapján.
 
-**1. lépés**: Képpontméretek beállítása.
+**1. lépés**: Pixelméretek beállítása.
 ```java
 worksheet.getCells().setColumnWidthPixel(1, widthOfValue);
 worksheet.getCells().setRowHeightPixel(1, heightOfValue);
@@ -201,6 +203,9 @@ A további felfedezéshez érdemes lehet az Aspose.Cells-t más rendszerekkel in
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

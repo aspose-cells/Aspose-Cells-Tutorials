@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ public class AddWorksheet {
 #### 概要
 ワークシートの名前を変更すると、Excelファイルの読みやすさと整理しやすさが向上します。既存のワークシートに新しい名前を設定する方法を見てみましょう。
 
-##### ステップ1：新しい名前を設定する
+##### ステップ1: 新しい名前を設定する
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -237,6 +239,9 @@ Aspose.Cells for Java は、さまざまな実際のシナリオで活用でき�
    - Maven または Gradle を使用して、リポジトリから直接プロジェクトに含めます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

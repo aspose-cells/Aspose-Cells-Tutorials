@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ workbook.save(outDir + "DPTableFromWorksheet_out.xlsx");
 Ξεκινήστε να εξερευνάτε τις δυνατότητες του Aspose.Cells για Java σήμερα και αναβαθμίστε τις διαδικασίες διαχείρισης δεδομένων σας!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

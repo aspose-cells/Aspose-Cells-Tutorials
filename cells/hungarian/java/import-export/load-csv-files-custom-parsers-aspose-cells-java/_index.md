@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Bevezetés
 
-A CSV-fájlok Java-alkalmazásokba való betöltése kihívást jelenthet, különösen, ha többféle adattípussal, például dátumokkal kell foglalkozni. Ez az útmutató bemutatja, hogyan használható az Aspose.Cells Java-ban CSV-fájlok egyéni elemzőkkel történő betöltéséhez, biztosítva a pontos adatértelmezést és -kezelést.
+A CSV-fájlok Java-alkalmazásokba való betöltése kihívást jelenthet, különösen, ha többféle adattípussal, például dátumokkal dolgozunk. Ez az útmutató bemutatja, hogyan használható az Aspose.Cells Java-ban CSV-fájlok egyéni elemzőkkel történő betöltéséhez, biztosítva a pontos adatértelmezést és -kezelést.
 
 Ebben az oktatóanyagban a következőket tárgyaljuk:
 - CSV-fájlok betöltése speciális elemzési igényekkel
@@ -159,7 +161,7 @@ Mi fogjuk konfigurálni `TxtLoadOptions` ... megadásához, hogy az Aspose.Cells
 
 ### Adatok megjelenítése és mentése
 
-A CSV fájl betöltése után nyissa meg és jelenítse meg a cellaadatokat. Végül mentse vissza a feldolgozott adatokat egy Excel fájlba.
+A CSV-fájl betöltése után nyissa meg és jelenítse meg a cellaadatokat. Végül mentse vissza a feldolgozott adatokat egy Excel-fájlba.
 
 #### Lépésről lépésre történő megvalósítás
 
@@ -243,6 +245,9 @@ Az Aspose.Cells további funkcióinak felfedezéséhez érdemes lehet belemerül
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

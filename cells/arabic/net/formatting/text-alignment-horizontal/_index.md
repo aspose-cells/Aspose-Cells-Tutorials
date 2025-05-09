@@ -1,43 +1,48 @@
 ---
-title: التنظيم الأفقي للنص في Excel مع Aspose.Cells
-weight: 7700
-limit: 
-description: تعلم كيفية تحديد النص الأفقي في خلايا Excel باستخدام Aspose.Cells ل .NET مع مثال بسيط.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /ar/net/formatting/text-alignment-horizontal/
+"description": "تعرف على كيفية محاذاة النص أفقيًا في خلايا Excel باستخدام Aspose.Cells for .NET من خلال مثال بسيط."
+"title": "محاذاة النص أفقيًا في Excel باستخدام Aspose.Cells"
+"url": "/ar/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التنظيم الأفقي للنص في Excel مع Aspose.Cells
+# محاذاة النص أفقيًا في Excel باستخدام Aspose.Cells
 
-يوضح هذا المثال كيفية استخدام Aspose.Cells لـ .NET لإنشاء ملف Excel وتعيين التوجه الأفقي للنص في خلية معينة. يوفّر لك التعليمات التعليمية من خلال إعداد كتاب عمل، وتعديل خصائص الخلية، وتخزين الملف في شكل Excel 97-2003. مثالي للمطورين الذين يبحثون عن تعزيز مهارات التعامل مع ملف Excel باستخدام Aspose.Cells.
+يوضح هذا المثال كيفية استخدام Aspose.Cells لـ .NET لإنشاء ملف Excel وضبط محاذاة النص أفقيًا في خلية محددة. يرشدك هذا البرنامج التعليمي خلال تهيئة مصنف، وتعديل خصائص الخلية، وحفظ الملف بتنسيق Excel 97-2003. مثالي للمطورين الذين يتطلعون إلى تحسين مهاراتهم في التعامل مع ملفات Excel باستخدام Aspose.Cells.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت
-1. تحميل وتثبيت Aspose.Cells ل .NET من [صفحة إصدارات Aspose](https://releases.aspose.com/cells/net/). . .  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
-3. استخدم مدير الحزمة NuGet لتركيب Aspose.Cells:  
+1. قم بتنزيل Aspose.Cells لـ .NET وتثبيته من [صفحة إصدارات Aspose](https://releases.aspose.com/cells/net/).  
+2. أضف مرجعًا إلى Aspose.Cells.dll في مشروع C# الخاص بك.  
+3. استخدم NuGet Package Manager لتثبيت Aspose.Cells:  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. استيراد المساحات المطلوبة في ملف C# الخاص بك:  
    ```csharp
    using Aspose.Cells;
    ```
 
-## انظر أيضاً  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

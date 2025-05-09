@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fungsi Analisis Data Excel
@@ -18,16 +20,16 @@
 
 Dalam panduan lengkap ini, kita akan membahas cara memanfaatkan Aspose.Cells untuk Java untuk menjalankan fungsi analisis data di Excel. Baik Anda seorang pengembang atau analis data, Aspose.Cells untuk Java menyediakan fitur-fitur canggih untuk memanipulasi dan menganalisis data Excel secara terprogram. Kita akan membahas berbagai tugas analisis data, seperti menyortir, memfilter, menghitung statistik, dan banyak lagi. Mari kita bahas!
 
-## Prasyarat
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+## Előfeltételek
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/): Anda memerlukan pustaka Aspose.Cells untuk Java. Ikuti tautan untuk mengunduh dan memasangnya di proyek Anda.
 
-## Memuat File Excel
+## Excel fájl betöltése
 Pertama, Anda memerlukan berkas Excel untuk digunakan. Anda dapat membuat berkas baru atau memuat berkas yang sudah ada menggunakan Aspose.Cells. Berikut cara memuat berkas Excel:
 
 ```java
-// Memuat file Excel yang ada
+// Meglévő Excel fájl betöltése
 Workbook workbook = new Workbook("example.xlsx");
 ```
 
@@ -81,10 +83,10 @@ pivotTable.addFieldToArea(PivotFieldType.ROW, 0);
 pivotTable.addFieldToArea(PivotFieldType.DATA, 3);
 ```
 
-## Kesimpulan
+## Következtetés
 Aspose.Cells untuk Java menyediakan berbagai fitur untuk analisis data di Excel. Dalam panduan ini, kami telah membahas dasar-dasar pengurutan, pemfilteran, penghitungan statistik, dan pembuatan tabel pivot. Kini Anda dapat memanfaatkan kekuatan Aspose.Cells untuk mengotomatiskan dan menyederhanakan tugas analisis data Anda di Excel.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menerapkan beberapa kriteria penyortiran?
 
@@ -117,6 +119,7 @@ Untuk contoh, tutorial, dan sumber daya yang lebih canggih tentang Aspose.Cells 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποιημένη εισαγωγή δεδομένων
@@ -115,9 +117,11 @@ validation.setFormula2("100");
    Μπορείτε να εξερευνήσετε την τεκμηρίωση στη διεύθυνση [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Τώρα έχετε τις γνώσεις και τα εργαλεία για να αυτοματοποιήσετε αποτελεσματικά την εισαγωγή δεδομένων χρησιμοποιώντας το Aspose.Cells για Java. Ξεκινήστε να βελτιώνετε τις διαδικασίες διαχείρισης δεδομένων σας και αυξήστε την αποδοτικότητα της επιχείρησής σας.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

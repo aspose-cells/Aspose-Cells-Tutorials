@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,7 +181,7 @@ Sperimenta le diverse funzionalità di Aspose.Cells, come la manipolazione di gr
 **D4:** È possibile manipolare i grafici utilizzando Aspose.Cells?
 **A4:** Sì, puoi creare e modificare grafici nelle cartelle di lavoro di Excel utilizzando l'API Aspose.Cells.
 
-**D5:** Come posso ottenere supporto se riscontro dei problemi?
+**D5:** Come posso ottenere supporto se riscontro problemi?
 **A5:** Visita il [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9) per ricevere assistenza sia dai membri della comunità che dal personale di supporto ufficiale.
 
 ## Risorse
@@ -191,6 +193,9 @@ Questa guida fornisce una solida base per ottimizzare le cartelle di lavoro di E
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

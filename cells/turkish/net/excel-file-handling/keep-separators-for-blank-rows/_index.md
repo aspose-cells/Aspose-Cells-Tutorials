@@ -1,14 +1,16 @@
 ---
-title: Excel'de Boş Satırlar İçin Ayırıcıları Koruyun
-linktitle: Excel'de Boş Satırlar İçin Ayırıcıları Koruyun
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de boş satırlar için ayırıcıların nasıl tutulacağını öğrenin. Kod örnekleri içeren adım adım kılavuz.
-weight: 11
-url: /tr/net/excel-file-handling/keep-separators-for-blank-rows/
+"description": "Aspose.Cells for .NET kullanarak Excel'de boş satırlar için ayırıcıların nasıl tutulacağını öğrenin. Kod örnekleriyle adım adım kılavuz."
+"linktitle": "Excel'de Boş Satırlar İçin Ayırıcıları Koruyun"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Boş Satırlar İçin Ayırıcıları Koruyun"
+"url": "/tr/net/excel-file-handling/keep-separators-for-blank-rows/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Boş Satırlar İçin Ayırıcıları Koruyun
@@ -18,9 +20,9 @@ Excel, verileri nasıl işlediğimiz konusunda oyunun kurallarını değiştirmi
 ## Ön koşullar
 İşin teknik tarafına dalmadan önce, her şeyin yerli yerinde olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET uygulamaları oluşturmak için oyun alanınızdır.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirip projenize entegre etmelisiniz. Bunu şuradan alabilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini indirip projenize entegre etmelisiniz. Bunu şuradan alabilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# ve .NET programlamaya dair temel bir anlayışa sahip olmak, kodda kolayca ilerlemenize kesinlikle yardımcı olacaktır.
-4. Excel Dosyalarına Erişim: Örnek bir Excel dosyanız olduğundan emin olun (örneğin,`Book1.xlsx`) ile çalışabiliriz.
+4. Excel Dosyalarına Erişim: Örnek bir Excel dosyanız olduğundan emin olun (örneğin, `Book1.xlsx`) ile çalışabiliriz.
 5. Dizin İzinleri: Çıktı dosyalarınızı kaydedeceğiniz dizin için okuma ve yazma izinlerinizin olduğundan emin olun.
 ## Paketleri İçe Aktar
 Artık ön koşullarımızı tamamladığımıza göre, ihtiyacınız olan paketleri içe aktararak başlayalım. Visual Studio ortamınızı açın, yeni bir proje oluşturun ve gerekli Aspose.Cells ad alanına başvurduğunuzdan emin olun. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
@@ -37,15 +39,15 @@ Başlamaya hazır mısınız? Süreci adım adım inceleyelim! Bu eğitimde, bir
 string dataDir = "Your Document Directory";
 string filePath = dataDir + "Book1.xlsx";
 ```
-Değiştirdiğinizden emin olun`"Your Document Directory"` dosyalarınızın bulunduğu gerçek yol ile.
+Değiştirdiğinizden emin olun `"Your Document Directory"` dosyalarınızın bulunduğu gerçek yol ile.
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
- Daha sonra, bir tane oluşturmamız gerekiyor`Workbook` Aspose.Cells kullanarak Excel dosyalarıyla etkileşim kurmak için ana arayüzümüz olan nesne. Excel dosyamızı yükleyelim:
+Daha sonra, bir tane oluşturmamız gerekiyor `Workbook` Aspose.Cells kullanarak Excel dosyalarıyla etkileşim kurmak için ana arayüzümüz olan nesne. Excel dosyamızı yükleyelim:
 ```csharp
 Workbook wb = new Workbook(filePath);
 ```
 Bu satır esasen Excel çalışma kitabını programımıza yükler. Şimdi onu gerektiği gibi değiştirebiliriz!
 ## Adım 3: Kaydetme Seçeneklerini Oluşturun
- Artık çalışma kitabımız hazır olduğuna göre, onu nasıl kaydetmek istediğimizi belirtmenin zamanı geldi. Bir örneğini oluşturacağız`TxtSaveOptions` özel yapılandırmalarımızı içeren.
+Artık çalışma kitabımız hazır olduğuna göre, onu nasıl kaydetmek istediğimizi belirtmenin zamanı geldi. Bir örneğini oluşturacağız `TxtSaveOptions` özel yapılandırmalarımızı içeren.
 ```csharp
 TxtSaveOptions options = new TxtSaveOptions();
 ```
@@ -61,7 +63,7 @@ Tüm ayarlar yerli yerindeyken, dosyayı kaydetme zamanı geldi. Çalışma kita
 ```csharp
 wb.Save(dataDir + "output.csv", options);
 ```
- Bu satır gerçek kaydetme eylemini gerçekleştirir ve bir`output.csv` Belirtilen dizindeki dosya.
+Bu satır gerçek kaydetme eylemini gerçekleştirir ve bir `output.csv` Belirtilen dizindeki dosya.
 ## Adım 6: Başarılı Yürütmeyi Onaylayın
 İşleri toparlamak için bir onay mesajı ekleyelim. Bu, süreç boyunca her şeyin sorunsuz bir şekilde ilerlemesini sağlamaya yardımcı olacaktır. 
 ```csharp
@@ -74,16 +76,18 @@ Bu satır konsola bir başarı mesajı yazdıracak ve her şeyin plana göre git
 ### Aspose.Cells Nedir?
 Aspose.Cells, .NET uygulamalarında Excel dosyalarıyla çalışmak için sağlam bir kütüphanedir ve Excel belgelerini okuma, yazma ve dönüştürme gibi bir dizi işlevselliğe olanak tanır.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose.Cells indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Evet, Aspose.Cells indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 ### Excel dosyalarını hangi formatlarda kaydedebilirim?
 Aspose.Cells CSV, XLSX, PDF ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 ### Daha fazla bilgi ve desteği nereden bulabilirim?
- Kapsamlı olana başvurabilirsiniz[belgeleme](https://reference.aspose.com/cells/net/) ve toplum destek forumu[Burada](https://forum.aspose.com/c/cells/9).
+Kapsamlı olana başvurabilirsiniz [belgeleme](https://reference.aspose.com/cells/net/) ve toplum destek forumu [Burada](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Değerlendirme amaçlı geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Değerlendirme amaçlı geçici lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

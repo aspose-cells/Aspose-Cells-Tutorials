@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Khi làm việc với Aspose.Cells trong Java, hãy cân nhắc các mẹo sau �
 Bây giờ bạn đã thành thạo việc tải và thao tác các tệp ODS với Aspose.Cells for Java. Từ việc truy cập bảng tính đến trích xuất thông tin chi tiết nền, bạn được trang bị để nâng cao ứng dụng của mình với khả năng xử lý bảng tính tinh vi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

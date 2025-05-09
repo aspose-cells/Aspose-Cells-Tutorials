@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득
 평가 제한 없이 Aspose.Cells의 모든 기능을 활용하려면:
 - **무료 체험**: 평가판을 다운로드하세요 [Aspose 웹사이트](https://releases.aspose.com/cells/java/).
-- **임시 면허**: 테스트 중에 장시간 접속하려면 하나를 구입하세요.
+- **임시 면허**: 테스트 중에 장시간 사용할 수 있도록 하나를 구입하세요.
 - **구입**: 프로젝트에 도움이 된다고 생각되면 구매를 고려해 보세요.
 
 ### 기본 초기화
@@ -202,6 +204,9 @@ Aspose.Cells for Java를 사용하여 통합 문서 XML 파트를 관리하는 �
 지금 Aspose.Cells for Java를 사용하여 여정을 시작하고 애플리케이션에서 Excel 통합 문서를 처리하는 방식을 혁신해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

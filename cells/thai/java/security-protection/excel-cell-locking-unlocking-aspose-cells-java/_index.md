@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ public class FeatureUnlockAllColumns {
 #### ภาพรวม
 การล็อคเซลล์เฉพาะจะช่วยปกป้องข้อมูลสำคัญไม่ให้ถูกเปลี่ยนแปลง ขณะเดียวกันก็อนุญาตให้พื้นที่อื่น ๆ ยังคงสามารถแก้ไขได้
 
-##### ขั้นตอนที่ 4: โหลดเวิร์กบุ๊กและเข้าถึงเวิร์กชีต
+##### ขั้นตอนที่ 4: โหลดสมุดงานและเข้าถึงแผ่นงาน
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Style;
@@ -195,6 +197,9 @@ public class FeatureLockSpecificCells {
 - **ฟอรั่มสนับสนุน**- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

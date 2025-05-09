@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 - การตั้งค่าสภาพแวดล้อมของคุณสำหรับ Aspose.Cells Java
 - การสร้างกล่องข้อความใน Excel โดยใช้ Java
 - การจัดตำแหน่งย่อหน้าต่างๆ ภายในกล่องข้อความ
-- การประยุกต์ใช้ฟีเจอร์นี้ในโลกแห่งความเป็นจริง
+- การนำฟีเจอร์นี้ไปใช้ในโลกแห่งความเป็นจริง
 
 เริ่มต้นด้วยการทำความเข้าใจข้อกำหนดเบื้องต้นที่จำเป็นก่อนเริ่มต้น
 
@@ -147,6 +149,9 @@ A: แม้ว่า Aspose.Cells จะให้ความยืดหยุ
 หากทำตามคู่มือนี้ คุณจะมีความพร้อมในการเริ่มบูรณาการ Aspose.Cells Java เข้ากับโปรเจ็กต์ของคุณเพื่อเพิ่มความสามารถด้านการทำงานอัตโนมัติและการจัดรูปแบบของ Excel ให้ดียิ่งขึ้น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

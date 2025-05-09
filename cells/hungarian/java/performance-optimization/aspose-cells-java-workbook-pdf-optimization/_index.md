@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ class FeatureVersionDisplay {
 - **Paraméterek és visszatérési értékek:** A `getVersion()` A metódus egy karakterláncot ad vissza, amely a könyvtár verzióját jelöli.
 
 ### 2. funkció: Üres munkafüzet létrehozása
-**Áttekintés:** Ismerd meg, hogyan hozhatsz létre üres munkafüzet-objektumot az Aspose.Cells for Java használatával, ezzel megalapozva az adatkezelési munkafolyamatodat.
+**Áttekintés:** Tanuld meg, hogyan hozhatsz létre üres munkafüzet-objektumot az Aspose.Cells for Java használatával, ezzel megalapozva az adatkezelési munkafolyamatodat.
 
 #### Lépésről lépésre történő megvalósítás
 ##### Munkafüzet létrehozása és inicializálása
@@ -184,6 +186,9 @@ Ezen funkciók integrálásával továbbfejlesztette Java-alkalmazásai képess�
 Indulj el az utazásra az Aspose.Cells for Java segítségével, és aknázd ki az Excel fájlkezelésben rejlő összes lehetőséget.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

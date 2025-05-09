@@ -8,7 +8,9 @@ url: /net/worksheet-operations/detect-international-macro-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detect International Macro Sheet in Workbook
@@ -86,6 +88,7 @@ You can access support through the Aspose forum [here](https://forum.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

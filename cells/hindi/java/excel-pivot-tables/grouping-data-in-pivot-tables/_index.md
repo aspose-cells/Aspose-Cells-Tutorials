@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पिवट तालिकाओं में डेटा समूहीकरण
@@ -108,9 +110,11 @@ workbook.save("output_custom_grouping.xlsx");
 ### 3. क्या मैं Java के लिए Aspose.Cells का उपयोग करके पिवट टेबल के निर्माण को स्वचालित कर सकता हूँ?
 
 हां, आप जावा के लिए Aspose.Cells का उपयोग करके एक्सेल में पिवट टेबल के निर्माण को स्वचालित कर सकते हैं, जैसा कि प्रदान किए गए स्रोत कोड उदाहरणों में प्रदर्शित किया गया है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

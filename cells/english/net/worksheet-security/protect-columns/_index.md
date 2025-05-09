@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Columns in Worksheet using Aspose.Cells
@@ -121,6 +123,7 @@ Yes, you can lock individual cells by accessing each cell’s style and applying
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

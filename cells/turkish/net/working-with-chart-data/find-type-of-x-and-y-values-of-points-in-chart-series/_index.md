@@ -1,14 +1,16 @@
 ---
-title: Grafik Serilerindeki Noktaların X ve Y Değerlerinin Türünü Bulun
-linktitle: Grafik Serilerindeki Noktaların X ve Y Değerlerinin Türünü Bulun
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu ayrıntılı ve kolay takip edilebilir kılavuzla Aspose.Cells for .NET'i kullanarak grafik serilerindeki X ve Y değerlerinin türlerini bulmayı öğrenin.
-weight: 11
-url: /tr/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Bu ayrıntılı ve kolay takip edilebilir kılavuzla Aspose.Cells for .NET'i kullanarak grafik serilerindeki X ve Y değerlerinin türlerini bulmayı öğrenin."
+"linktitle": "Grafik Serilerindeki Noktaların X ve Y Değerlerinin Türünü Bulun"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafik Serilerindeki Noktaların X ve Y Değerlerinin Türünü Bulun"
+"url": "/tr/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafik Serilerindeki Noktaların X ve Y Değerlerinin Türünü Bulun
@@ -23,15 +25,15 @@ Adımlara geçmeden önce birkaç şeyin hazır olduğundan emin olun:
 
 1. .NET Ortamı: Bir .NET geliştirme ortamı kurmuş olmalısınız. Bu, Visual Studio, Visual Studio Code veya herhangi bir uyumlu IDE olabilir.
    
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 
-3.  Örnek Excel Dosyası: Grafikler içeren bir örnek Excel dosyası edinin. Bu eğitim için, şu adlı bir dosya kullanacağız:`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Proje dizininizde olduğundan emin olun.
+3. Örnek Excel Dosyası: Grafikler içeren bir örnek Excel dosyası edinin. Bu eğitim için, şu adlı bir dosya kullanacağız: `sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Proje dizininizde olduğundan emin olun.
 
 4. Temel Programlama Bilgisi: C# programlamaya aşina olmanız, takip etmenizi kolaylaştıracaktır.
 
 ## Paketleri İçe Aktar
 
-Excel verileri ve grafikleriyle etkileşim kurmak için, ilgili paketleri Aspose.Cells'den içe aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
+Excel verileri ve grafikleriyle etkileşim kurmak için ilgili paketleri Aspose.Cells'den içe aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
 
 ### Projenizi Kurun
 
@@ -50,7 +52,7 @@ using System.Text;
 using Aspose.Cells.Charts;
 ```
 
-Bu ad alanları Aspose.Cells'in çalışma kitabına, çalışma sayfalarına ve grafik işlevlerine erişim sağlar.
+Bu ad alanları, Aspose.Cells'in çalışma kitabına, çalışma sayfalarına ve grafik işlevlerine erişim sağlar.
 
 Şimdi, grafik serinizdeki X ve Y değerlerinin türlerini belirleme sürecini parçalara ayıralım. İşte bunu adım adım nasıl yapabileceğiniz.
 
@@ -62,11 +64,11 @@ Bu ad alanları Aspose.Cells'in çalışma kitabına, çalışma sayfalarına ve
 string sourceDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` Excel dosyanızın kaydedildiği yolu belirtin.
+Yer değiştirmek `"Your Document Directory"` Excel dosyanızın kaydedildiği yolu belirtin.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
- Sonra Excel dosyasını bir`Workbook` nesne. Bu, dosyanın tüm içeriğine erişmenizi sağlar.
+Sonra Excel dosyasını bir `Workbook` nesne. Bu, dosyanın tüm içeriğine erişmenizi sağlar.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -137,13 +139,15 @@ Evet, Aspose, Aspose.Cells'in özelliklerini keşfedebileceğiniz ücretsiz bir 
 Aspose.Cells sütun, çubuk, çizgi, pasta ve daha fazlası dahil olmak üzere çeşitli grafik türlerini destekler.
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Desteğe şu şekilde erişebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici bir lisans mevcut mu?
- Evet, talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Ürünü serbestçe değerlendirmek.
+Evet, talep edebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Ürünü serbestçe değerlendirmek.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

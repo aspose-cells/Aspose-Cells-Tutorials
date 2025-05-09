@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ Chúng tôi thêm một đường nét liền nữa để hoàn thiện:
 LineShape line3 = (LineShape)worksheet.getShapes().addShape(MsoDrawingType.LINE, 13, 1, 0, 0, 0, 250);
 line3.setHasLine(true);
 
-shapeline = line1.getLine(); // Sử dụng lại định dạng của dòng đầu tiên để đơn giản hơn
+shapeline = line1.getLine(); // Sử dụng lại định dạng của dòng đầu tiên để đơn giản hóa
 shapeline.setDashStyle(MsoLineDashStyle.SOLID);
 
 line3.setPlacement(PlacementType.FREE_FLOATING);
@@ -190,6 +192,9 @@ Sẵn sàng áp dụng kiến thức này vào thực tế? Hãy bắt đầu b�
 Hướng dẫn toàn diện này nhằm mục đích trang bị cho bạn kiến thức và công cụ cần thiết để sử dụng hiệu quả Aspose.Cells Java nhằm nâng cao tài liệu Excel của bạn. Hãy bắt đầu triển khai các kỹ thuật này ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

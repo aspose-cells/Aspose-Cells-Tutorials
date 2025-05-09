@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,11 +20,11 @@
 Bạn đang gặp khó khăn trong việc tạo bảng tính Excel động, hấp dẫn về mặt hình ảnh bằng Java? Aspose.Cells for Java giúp bạn quản lý các kiểu và phông chữ một cách dễ dàng. Hướng dẫn toàn diện này hướng dẫn bạn cách khởi tạo sổ làm việc, tạo và áp dụng các kiểu và tùy chỉnh các thuộc tính phông chữ.
 
 **Những gì bạn sẽ học được:**
-- Cách thiết lập và khởi tạo sổ làm việc Excel bằng Aspose.Cells cho Java.
+- Cách thiết lập và khởi tạo bảng tính Excel bằng Aspose.Cells cho Java.
 - Các kỹ thuật tạo và quản lý kiểu trong bảng tính của bạn.
 - Phương pháp tạo kiểu phông chữ bằng các thuộc tính như màu sắc.
 
-Hãy cùng xem lại các điều kiện tiên quyết trước khi bắt đầu.
+Hãy cùng xem lại các điều kiện tiên quyết trước khi bắt đầu nhé.
 
 ## Điều kiện tiên quyết
 
@@ -163,6 +165,9 @@ Khám phá các tài nguyên này để hiểu sâu hơn và mở rộng khả n
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

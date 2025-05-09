@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij tekst z grafiki Smart Art typu koła zębatego w programie Excel
-linktitle: Wyodrębnij tekst z grafiki Smart Art typu koła zębatego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wyodrębnić tekst z SmartArt typu koła zębatego w programie Excel przy użyciu Aspose.Cells dla .NET. Zawiera przewodnik krok po kroku i przykład kodu.
-weight: 10
-url: /pl/net/excel-shape-text-modifications/extract-text-gear-smart-art-excel/
+"description": "Dowiedz się, jak wyodrębnić tekst z SmartArt typu koła zębatego w programie Excel przy użyciu Aspose.Cells dla .NET. Zawiera przewodnik krok po kroku i przykład kodu."
+"linktitle": "Wyodrębnij tekst z grafiki Smart Art typu koła zębatego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wyodrębnij tekst z grafiki Smart Art typu koła zębatego w programie Excel"
+"url": "/pl/net/excel-shape-text-modifications/extract-text-gear-smart-art-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij tekst z grafiki Smart Art typu koła zębatego w programie Excel
@@ -20,7 +22,7 @@ Zanim przejdziemy do konkretów, musisz spełnić kilka podstawowych warunków w
 ### Środowisko .NET
 Upewnij się, że masz środowisko programistyczne .NET skonfigurowane na swoim komputerze. Może to być Visual Studio lub dowolne wybrane przez Ciebie IDE, które obsługuje programowanie .NET.
 ### Aspose.Cells dla .NET
- Następnie musisz zainstalować bibliotekę Aspose.Cells. To potęga, która umożliwi Ci bezproblemową manipulację plikami Excel. Możesz ją pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/cells/net/) . Jeśli chcesz to najpierw zbadać, skorzystaj z[bezpłatny okres próbny](https://releases.aspose.com/).
+Następnie musisz zainstalować bibliotekę Aspose.Cells. To potęga, która umożliwi Ci bezproblemową manipulację plikami Excel. Możesz ją pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/cells/net/). Jeśli chcesz to najpierw zbadać, skorzystaj z [bezpłatny okres próbny](https://releases.aspose.com/).
 ### Podstawowa wiedza z języka C#
 Podstawowa znajomość programowania w języku C# to dokładnie to, czego potrzebujesz, aby korzystać z tego samouczka. Jeśli jesteś w tym nowy, nie martw się — zaprojektuję kroki tak, aby były jak najbardziej przyjazne dla początkujących.
 ### Przykładowy plik Excela
@@ -50,7 +52,7 @@ Zacznij od zdefiniowania katalogu, w którym znajduje się plik Excel:
 // Katalog źródłowy
 string sourceDir = "Your Document Directory";
 ```
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do pliku Excel.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką do pliku Excel.
 ## Krok 2: Załaduj skoroszyt programu Excel
 Następnie załadujemy skoroszyt programu Excel. Oto jak możemy uzyskać dostęp do jego zawartości:
 ```csharp
@@ -99,7 +101,7 @@ for (int i = 0; i < shps.Length; i++)
     }
 }
 ```
-tej pętli sprawdzamy rodzaj kształtu i drukujemy tekst, jeśli jest to kształt koła zębatego.
+W tej pętli sprawdzamy rodzaj kształtu i drukujemy tekst, jeśli jest to kształt koła zębatego.
 ## Krok 8: Potwierdzenie wykonania
 Na koniec możesz dodać komunikat potwierdzający, który pojawi się po pomyślnym zakończeniu procesu:
 ```csharp
@@ -107,21 +109,23 @@ Console.WriteLine("ExtractTextFromGearTypeSmartArtShape executed successfully.")
 ```
 W ten sposób ekstrakcja jest ukończona, a na konsoli powinieneś zobaczyć wynikowy tekst!
 ## Wniosek
- Gratulacje! Właśnie nauczyłeś się, jak wyodrębnić tekst z kształtów SmartArt typu koła zębatego w programie Excel przy użyciu Aspose.Cells dla .NET. Ta przydatna technika otwiera drzwi do automatyzacji raportów lub dokumentacji, która opiera się na wizualnej reprezentacji danych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, kontrolowanie i wyodrębnianie informacji z SmartArt może usprawnić Twój przepływ pracy i zwiększyć Twoją wydajność. Nie zapomnij zapoznać się ze szczegółowymi[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) dla dalszych możliwości.
+Gratulacje! Właśnie nauczyłeś się wyodrębniać tekst z kształtów SmartArt typu koła zębatego w programie Excel przy użyciu Aspose.Cells dla .NET. Ta przydatna technika otwiera drzwi do automatyzacji raportów lub dokumentacji, która opiera się na wizualnej reprezentacji danych. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, kontrolowanie i wyodrębnianie informacji z SmartArt może usprawnić Twój przepływ pracy i zwiększyć Twoją wydajność. Nie zapomnij zapoznać się ze szczegółowymi [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) dla dalszych możliwości.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET umożliwiająca programistom łatwe tworzenie i modyfikowanie plików Excel.
 ### Czy mogę używać Aspose.Cells z innymi językami?
 Tak! Aspose.Cells jest dostępny w wielu językach programowania, w tym Java i Python.
 ### Czy muszę kupić Aspose.Cells dla .NET?
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania wymagany jest zakup. Możesz znaleźć opcje zakupu[Tutaj](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania wymagany jest zakup. Możesz znaleźć opcje zakupu [Tutaj](https://purchase.aspose.com/buy).
 ### Czy użytkownicy Aspose.Cells mogą liczyć na pomoc techniczną?
- Oczywiście! Możesz znaleźć wsparcie społeczności na[Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Oczywiście! Możesz znaleźć wsparcie społeczności na [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
 ### Czy mogę wyodrębnić inne typy obiektów SmartArt za pomocą tej metody?
 Tak, po wprowadzeniu niewielkich modyfikacji można wyodrębnić tekst z różnych kształtów SmartArt, zmieniając warunki w kodzie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

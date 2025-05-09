@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasındaki Diğer Yazdırma Seçenekleri
-linktitle: Çalışma Sayfasındaki Diğer Yazdırma Seçenekleri
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı kılavuzda, Aspose.Cells for .NET kullanarak Excel çalışma sayfaları için yazdırma seçeneklerinin nasıl özelleştirileceğini öğrenin.
-weight: 17
-url: /tr/net/worksheet-page-setup-features/other-print-options/
+"description": "Bu kapsamlı kılavuzda, Aspose.Cells for .NET kullanarak Excel çalışma sayfaları için yazdırma seçeneklerinin nasıl özelleştirileceğini öğrenin."
+"linktitle": "Çalışma Sayfasındaki Diğer Yazdırma Seçenekleri"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasındaki Diğer Yazdırma Seçenekleri"
+"url": "/tr/net/worksheet-page-setup-features/other-print-options/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasındaki Diğer Yazdırma Seçenekleri
@@ -20,7 +22,7 @@ Koda geçmeden önce, yerinde olması gereken birkaç temel şey var:
 ### 1. .NET Ortamı
 .NET için bir geliştirme ortamı kurduğunuzdan emin olun. Visual Studio, Visual Studio Code veya başka bir .NET uyumlu IDE kullanıyor olun, hazırsınız!
 ### 2. Aspose.Cells Kütüphanesi
- Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Eğer henüz yüklemediyseniz, şuradan indirebilirsiniz:[Aspose.Cells Sürüm Sayfası](https://releases.aspose.com/cells/net/).
+Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Eğer henüz yüklemediyseniz, şuradan indirebilirsiniz: [Aspose.Cells Sürüm Sayfası](https://releases.aspose.com/cells/net/).
 ### 3. C#'ın Temel Bilgileri
 C# programlamanın temellerini anlamak takip etmeyi kolaylaştıracaktır. Sözdizimine derinlemesine dalmayacağımız için biraz kod okumaya ve anlamaya hazır olun.
 ### 4. Bir Belge Dizini
@@ -105,14 +107,16 @@ Aspose.Cells, .NET uygulamalarında Excel dosyalarını programlı olarak oluşt
 ### Aspose.Cells olmadan yazdırabilir miyim?  
 Evet, ancak Aspose.Cells, standart kütüphanelerin sunmadığı gelişmiş Excel dosyalarını yönetme özellikleri sunuyor.
 ### Aspose.Cells diğer dosya formatlarını destekliyor mu?  
-Evet, XLSX, CSV ve HTML dahil olmak üzere geniş bir format yelpazesini destekler.
+Evet, XLSX, CSV ve HTML dahil olmak üzere çok çeşitli formatları destekler.
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?  
- Aspose'dan geçici bir lisans alabilirsiniz[Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).
-### Aspose.Cells için desteği nerede bulabilirim?  
- Aspose topluluğundan yardım alabilirsiniz[Destek Forumu](https://forum.aspose.com/c/cells/9).
+Aspose'dan geçici bir lisans alabilirsiniz [Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).
+### Aspose.Cells için desteği nereden bulabilirim?  
+Aspose topluluğundan yardım alabilirsiniz [Destek Forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

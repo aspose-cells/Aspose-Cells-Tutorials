@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ dependencies {
 
 ### Licencbeszerzés lépései
 Az Aspose.Cells képességeinek teljes feloldásához licencre lesz szükséged:
-- **Ingyenes próbaverzió:** Kezdés ezzel [Az Aspose ingyenes próbaverziója](https://releases.aspose.com/cells/java/) a funkciók felfedezéséhez.
+- **Ingyenes próbaverzió:** Kezdje ezzel [Az Aspose ingyenes próbaverziója](https://releases.aspose.com/cells/java/) a funkciók felfedezéséhez.
 - **Ideiglenes engedély:** Szerezzen be ideiglenes engedélyt kiterjedt tesztelésre [itt](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás:** Hosszú távú használat esetén érdemes lehet teljes licencet vásárolni a következő címen: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
@@ -162,7 +164,7 @@ Következő lépésként érdemes lehet megfontolni az Aspose.Cells további fun
 ## Erőforrás
 További olvasmányokért és forrásokért:
 - **Dokumentáció:** [Aspose.Cells Java API referencia](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Próbálja ki az ingyenes próbaverziót:** [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
 - **Ideiglenes jogosítvány beszerzése:** [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
@@ -172,6 +174,9 @@ Kezdje el a megoldás bevezetését még ma, és fejlessze Excel fájlkezelésé
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

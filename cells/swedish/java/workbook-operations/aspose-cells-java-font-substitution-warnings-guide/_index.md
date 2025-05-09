@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Nästa steg kan innefatta att utforska andra varningstyper eller integrera Aspos
 - **Köp och licensiering:** Skaffa din licens eller prova den kostnadsfria testversionen via [Aspose-köp](https://purchase.aspose.com/buy) eller [Aspose Gratis Provperiod](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

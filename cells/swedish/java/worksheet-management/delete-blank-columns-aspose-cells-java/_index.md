@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
 #### Steg 2: Få åtkomst till arbetsbladssamlingen
-Excel-filer kan innehålla flera ark. Hämta alla kalkylblad med hjälp av `WorksheetCollection`.
+Excel-filer kan innehålla flera ark. Hämta alla ark med hjälp av `WorksheetCollection`.
 
 ```java
 // Hämta en referens till Worksheets-objektet, som innehåller alla ark i arbetsboken
@@ -162,6 +164,9 @@ Vid det här laget bör du ha en god förståelse för hur man använder Aspose.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

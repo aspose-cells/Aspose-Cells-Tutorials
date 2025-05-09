@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 基本函数
@@ -48,9 +50,11 @@
 使用 Aspose.Cells for Java 解锁 Excel 文本函数的秘密。学习如何轻松地在 Excel 中操作、提取和转换文本。
 ### [Excel 日期函数教程](./excel-date-functions-tutorial/)
 学习使用 Aspose.Cells for Java 实现 Excel 日期函数。探索包含源代码的分步教程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

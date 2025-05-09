@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Aspose.Cells สำหรับ Java มีความหลากหลาย 
 ในคู่มือนี้ เราจะอธิบายวิธีอัปเดตตัวแบ่งข้อมูลในไฟล์ Java Excel โดยใช้ Aspose.Cells คุณจะได้เรียนรู้วิธีโหลดและแสดงเวอร์ชันไลบรารี จัดการตัวแบ่งข้อมูลด้วยโปรแกรม และบันทึกการเปลี่ยนแปลงกลับไปยังไฟล์ Excel ของคุณ ด้วยทักษะเหล่านี้ คุณสามารถทำให้กระบวนการกรองข้อมูลเป็นแบบอัตโนมัติ เพิ่มประสิทธิภาพการทำงานและความแม่นยำในงานวิเคราะห์ข้อมูล
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

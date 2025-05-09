@@ -1,14 +1,16 @@
 ---
-title: Podział paneli w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-linktitle: Podział paneli w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dzielić panele arkusza kalkulacyjnego za pomocą Aspose.Cells dla .NET w przewodniku krok po kroku. Idealne do ulepszonej analizy danych i dostosowywania widoku.
-weight: 21
-url: /pl/net/worksheet-display/split-panes/
+"description": "Dowiedz się, jak dzielić panele arkusza kalkulacyjnego za pomocą Aspose.Cells dla .NET w przewodniku krok po kroku. Idealne do ulepszonej analizy danych i dostosowywania widoku."
+"linktitle": "Podział paneli w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Podział paneli w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"url": "/pl/net/worksheet-display/split-panes/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podział paneli w arkuszu kalkulacyjnym za pomocą Aspose.Cells
@@ -18,7 +20,7 @@ Dzielenie paneli arkusza kalkulacyjnego to fantastyczny sposób na pracę z duż
 W tym samouczku zagłębimy się w szczegóły korzystania z Aspose.Cells dla .NET do dzielenia paneli w arkuszu kalkulacyjnym programu Excel. Dzięki rozbiciu każdego kroku łatwo będzie Ci śledzić i stosować. Jesteś gotowy, aby usprawnić pracę z danymi? Zanurzmy się!
 ## Wymagania wstępne
 Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
-1. Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells z[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/). Aby korzystać ze wszystkich funkcji, potrzebna jest wersja licencjonowana lub próbna.
+1. Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells z [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/). Aby korzystać ze wszystkich funkcji, potrzebna jest wersja licencjonowana lub próbna.
 2. IDE: Skonfiguruj środowisko IDE zgodne z platformą .NET, np. Visual Studio.
 3. Podstawowa wiedza z zakresu języka C#: Znajomość podstaw programowania w języku C# i .NET będzie pomocna w zrozumieniu przykładów kodu.
 ## Importuj pakiety
@@ -29,7 +31,7 @@ using Aspose.Cells;
 ```
 Poniżej przedstawimy szczegółowo każdy krok, który należy wykonać, aby podzielić panele w arkuszu kalkulacyjnym przy użyciu Aspose.Cells dla platformy .NET.
 ## Krok 1: Zainicjuj skoroszyt
- Pierwszym krokiem jest utworzenie`Workbook` instancji, która umożliwia pracę z plikami Excela. Możesz utworzyć nowy skoroszyt lub załadować istniejący plik. Oto jak to zrobić:
+Pierwszym krokiem jest utworzenie `Workbook` instancji, która umożliwia pracę z plikami Excela. Możesz utworzyć nowy skoroszyt lub załadować istniejący plik. Oto jak to zrobić:
 ```csharp
 // Zdefiniuj ścieżkę do katalogu dokumentów
 string dataDir = "Your Document Directory";
@@ -47,15 +49,15 @@ workbook.Worksheets[0].ActiveCell = "A20";
 ```
 Tutaj:
 - Uzyskujemy dostęp do pierwszego arkusza w skoroszycie (`workbook.Worksheets[0]`).
-- `"A20"`to komórka, którą ustawiamy jako aktywną. Możesz to zmienić w zależności od tego, gdzie chcesz, aby podział nastąpił.
+- `"A20"` to komórka, którą ustawiamy jako aktywną. Możesz to zmienić w zależności od tego, gdzie chcesz, aby podział nastąpił.
 ## Krok 3: Podziel panel arkusza kalkulacyjnego
- Mając zestaw aktywnych komórek, jesteśmy gotowi podzielić arkusz kalkulacyjny. Aspose.Cells pozwala na bezproblemowe dzielenie paneli za pomocą`Split` metoda.
+Mając zestaw aktywnych komórek, jesteśmy gotowi podzielić arkusz kalkulacyjny. Aspose.Cells pozwala na bezproblemowe dzielenie paneli za pomocą `Split` metoda.
 ```csharp
 // Podziel okno arkusza kalkulacyjnego na aktywnej komórce
 workbook.Worksheets[0].Split();
 ```
 W tym kroku:
--  Powołanie`Split()` na arkuszu kalkulacyjnym automatycznie dzieli panel na aktywnej komórce (`A20`).
+- Powołanie `Split()` na arkuszu kalkulacyjnym automatycznie dzieli panel na aktywnej komórce (`A20`).
 - Zobaczysz dwa lub więcej paneli, co umożliwi Ci równoczesne przeglądanie różnych części arkusza kalkulacyjnego.
 ## Krok 4: Zapisz skoroszyt
 Po podzieleniu paneli zapisz skoroszyt, aby zachować zmiany. Zapiszmy go jako nowy plik, aby uniknąć nadpisania oryginału.
@@ -76,13 +78,15 @@ Tak, ustawiając aktywną komórkę, określasz lokalizację podziału. Podział
 ### Czy możliwe jest dzielenie szyb w pionie i poziomie?  
 Oczywiście! Ustawiając różne aktywne komórki, możesz utworzyć podziały pionowe, poziome lub oba typy podziałów w arkuszu.
 ### Czy mogę programowo usunąć podzielone panele?  
- Tak, użyj`RemoveSplit()`metoda usuwania podzielonych paneli z arkusza kalkulacyjnego.
+Tak, użyj `RemoveSplit()` metoda usuwania podzielonych paneli z arkusza kalkulacyjnego.
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?  
- Tak, chociaż możesz wypróbować Aspose.Cells z bezpłatną wersją próbną, licencja jest wymagana do nieograniczonego dostępu. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, chociaż możesz wypróbować Aspose.Cells z bezpłatną wersją próbną, licencja jest wymagana do nieograniczonego dostępu. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

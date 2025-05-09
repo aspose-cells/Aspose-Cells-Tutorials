@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ V této příručce jsme se zabývali tím, jak efektivně slučovat a upravovat
 3. **Jaký vliv má automatické přizpůsobení na výkon s velkými datovými sadami?**
    - Automatické přizpůsobení sice zlepšuje čitelnost, ale u rozsáhlých dat může prodloužit dobu zpracování; optimalizujte ho selektivním použitím.
 4. **Mohu vrátit zpět operaci sloučení v kódu?**
-   - Ano, buňky můžete rozdělit pomocí `range.unMerge()` případě potřeby.
+   - Ano, buňky můžete rozdělit pomocí `range.unMerge()` v případě potřeby.
 5. **Jaké jsou některé běžné problémy se stylováním sloučených buněk?**
    - Zajistěte, aby byly styly použity po sloučení, aby nedošlo k nesprávnému zarovnání nebo formátování.
 
@@ -172,6 +174,9 @@ Využijte sílu Aspose.Cells pro Javu ve svém dalším projektu v Excelu a snad
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

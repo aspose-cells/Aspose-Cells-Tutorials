@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan vi börjar, se till att du har följande förutsättningar uppfyllda:
 
 - **Bibliotek och beroenden:** Du behöver Aspose.Cells för Java. Se till att du använder en kompatibel version (t.ex. 25.3).
 - **Miljöinställningar:** Ha JDK installerat på din dator för att köra Java-applikationer.
-- **Kunskapsförkunskaper:** Grundläggande Java-programmeringskoncept rekommenderas.
+- **Kunskapsförkunskapskrav:** Grundläggande Java-programmeringskoncept rekommenderas.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -205,6 +207,9 @@ Genom att implementera funktionerna som tas upp i den här handledningen har du 
 - **Gratis provperiod och tillfällig licens:** Börja med en gratis provperiod eller skaffa en tillfällig licens på [Aspose Gratis Provperiod](https://releases.aspose.com/cells/java/) och [Tillfällig licens](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

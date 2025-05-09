@@ -1,14 +1,16 @@
 ---
-title: Render Slicer trong Aspose.Cells .NET
-linktitle: Render Slicer trong Aspose.Cells .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Làm chủ các slicer dựng hình với Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi và tạo các bài thuyết trình Excel hấp dẫn về mặt hình ảnh một cách dễ dàng.
-weight: 16
-url: /vi/net/excel-slicers-management/render-slicers/
+"description": "Làm chủ các slicer dựng hình với Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi và tạo các bài thuyết trình Excel hấp dẫn về mặt hình ảnh một cách dễ dàng."
+"linktitle": "Render Slicer trong Aspose.Cells .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Render Slicer trong Aspose.Cells .NET"
+"url": "/vi/net/excel-slicers-management/render-slicers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Slicer trong Aspose.Cells .NET
@@ -18,7 +20,7 @@ Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào việc kế
 ## Điều kiện tiên quyết
 Trước khi bắt đầu chuyến hành trình thú vị này, bạn cần lưu ý một số điều kiện tiên quyết sau:
 1. Kiến thức về các khái niệm lập trình cơ bản: Sự quen thuộc với lập trình C# sẽ vô cùng có giá trị vì chúng ta sẽ áp dụng nó trong suốt hướng dẫn này.
-2.  Aspose.Cells cho .NET: Đảm bảo bạn có cài đặt hợp lệ. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo bạn có cài đặt hợp lệ. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Visual Studio hoặc bất kỳ IDE C# nào: Thiết lập một IDE để viết mã sẽ giúp bạn chạy và kiểm tra các đoạn mã một cách hiệu quả.
 4. Tệp Excel mẫu: Bạn sẽ cần một tệp Excel mẫu chứa các đối tượng slicer để làm việc. Nếu bạn không có, bạn có thể tạo một tệp Excel đơn giản cho hướng dẫn này.
 Bây giờ bạn đã biết mình cần gì, hãy cùng bắt đầu làm việc với các thư viện nhé!
@@ -43,23 +45,23 @@ string outputDir = "Your Document Directory";
 ```
 Bước này bao gồm việc xác định đường dẫn cho cả đầu vào (sourceDir) và đầu ra (outputDir). Đảm bảo rằng bạn thay thế "Your Document Directory" bằng đường dẫn thực tế trên hệ thống của bạn.
 ## Bước 2: Tải tệp Excel mẫu
- Tiếp theo, đã đến lúc tải tệp Excel chứa các lát cắt bạn muốn hiển thị. Điều này có thể được thực hiện bằng cách sử dụng`Workbook` lớp học.
+Tiếp theo, đã đến lúc tải tệp Excel chứa các lát cắt bạn muốn hiển thị. Điều này có thể được thực hiện bằng cách sử dụng `Workbook` lớp học.
 ```csharp
 // Tải tệp Excel mẫu có chứa slicer.
 Workbook wb = new Workbook(sourceDir + "sampleRenderingSlicer.xlsx");
 ```
- Ở đây, chúng ta tạo một phiên bản mới của`Workbook` lớp và tải tệp Excel của chúng tôi. Đảm bảo tệp "sampleRenderingSlicer.xlsx" tồn tại trong thư mục nguồn được chỉ định của bạn. 
+Ở đây, chúng ta tạo một phiên bản mới của `Workbook` lớp và tải tệp Excel của chúng tôi. Đảm bảo tệp "sampleRenderingSlicer.xlsx" tồn tại trong thư mục nguồn được chỉ định của bạn. 
 ## Bước 3: Truy cập vào Bảng tính
 Bây giờ sổ làm việc của bạn đã được tải, bạn sẽ muốn truy cập vào trang tính có các lát cắt. Hãy tiếp tục và thực hiện điều đó:
 ```csharp
 // Truy cập bảng tính đầu tiên.
 Worksheet ws = wb.Worksheets[0];
 ```
- Bước này lấy bảng tính đầu tiên của sổ làm việc và gán nó cho`ws` biến. Trong trường hợp máy cắt của bạn nằm trên một tờ giấy khác, chỉ cần điều chỉnh chỉ mục cho phù hợp.
+Bước này lấy bảng tính đầu tiên của sổ làm việc và gán nó cho `ws` biến. Trong trường hợp máy cắt của bạn nằm trên một tờ giấy khác, chỉ cần điều chỉnh chỉ mục cho phù hợp.
 ## Bước 4: Xác định vùng in
 Trước khi kết xuất, bạn cần thiết lập vùng in. Điều này đảm bảo rằng chỉ vùng được chọn có các lát cắt được kết xuất.
 ```csharp
-//Thiết lập vùng in vì chúng ta chỉ muốn hiển thị phần cắt.
+// Thiết lập vùng in vì chúng ta chỉ muốn hiển thị phần cắt.
 ws.PageSetup.PrintArea = "B15:E25";
 ```
 Trong đoạn mã này, chúng tôi xác định vùng in cho bảng tính. Sửa đổi "B15:E25" để phù hợp với phạm vi thực tế nơi các lát cắt của bạn được đặt.
@@ -74,14 +76,14 @@ imgOpts.ImageType = Aspose.Cells.Drawing.ImageType.Png;
 imgOpts.OnePagePerSheet = true;
 imgOpts.OnlyArea = true;
 ```
- Ở đây, bạn tạo một thể hiện của`ImageOrPrintOptions` và cấu hình nó. Các thông số quan trọng bao gồm loại hình ảnh (PNG) và độ phân giải (200 DPI). Các thiết lập này nâng cao chất lượng hình ảnh đầu ra của bạn. 
+Ở đây, bạn tạo một thể hiện của `ImageOrPrintOptions` và cấu hình nó. Các thông số quan trọng bao gồm loại hình ảnh (PNG) và độ phân giải (200 DPI). Các thiết lập này nâng cao chất lượng hình ảnh đầu ra của bạn. 
 ## Bước 6: Tạo đối tượng Sheet Render
- Với các tùy chọn được thiết lập, bước tiếp theo bao gồm việc tạo ra một`SheetRender` đối tượng, được sử dụng để chuyển đổi bảng tính thành hình ảnh.
+Với các tùy chọn được thiết lập, bước tiếp theo bao gồm việc tạo ra một `SheetRender` đối tượng, được sử dụng để chuyển đổi bảng tính thành hình ảnh.
 ```csharp
 // Tạo đối tượng render trang tính và render trang tính thành hình ảnh.
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(ws, imgOpts);
 ```
- Mã này khởi tạo một`SheetRender`đối tượng nơi bạn truyền bảng tính và các tùy chọn kết xuất. Đối tượng này hiện sẽ kiểm soát cách kết xuất diễn ra.
+Mã này khởi tạo một `SheetRender` đối tượng nơi bạn truyền bảng tính và các tùy chọn kết xuất. Đối tượng này hiện sẽ kiểm soát cách kết xuất diễn ra.
 ## Bước 7: Kết xuất trang tính thành hình ảnh
 Cuối cùng, đã đến lúc kết xuất hình ảnh và lưu vào thư mục đầu ra của bạn. Hãy thực hiện điều đó:
 ```csharp
@@ -95,16 +97,18 @@ Bạn vừa học cách tạo các lát cắt từ tệp Excel bằng Aspose.Cel
 ### Aspose.Cells là gì?  
 Aspose.Cells là một thư viện mạnh mẽ cho phép bạn tạo, thao tác và hiển thị các tệp Excel theo chương trình.
 ### Làm thế nào để tải xuống Aspose.Cells cho .NET?  
- Bạn có thể tải nó xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
+Bạn có thể tải nó xuống từ [địa điểm](https://releases.aspose.com/cells/net/).
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
-Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
-### Có thể hiển thị nhiều slicer cùng một lúc không?  
+Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
+### Có thể hiển thị nhiều lát cắt cùng một lúc không?  
 Có, bạn có thể thiết lập vùng in thành một phạm vi bao gồm nhiều bộ cắt và kết xuất chúng cùng nhau.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể nhận được sự hỗ trợ của cộng đồng tại[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ của cộng đồng tại [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

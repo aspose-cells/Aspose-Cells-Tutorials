@@ -1,34 +1,36 @@
 ---
-title: Edit Rentang Dalam Lembar Kerja Excel
-linktitle: Edit Rentang Dalam Lembar Kerja Excel
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara mengedit rentang dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET dengan panduan komprehensif ini yang menampilkan petunjuk langkah demi langkah.
-weight: 20
-url: /id/net/protect-excel-file/edit-ranges-in-excel-worksheet/
+"description": "Pelajari cara mengedit rentang dalam lembar kerja Excel menggunakan Aspose.Cells untuk .NET dengan panduan komprehensif ini yang menampilkan petunjuk langkah demi langkah."
+"linktitle": "Edit Rentang Dalam Lembar Kerja Excel"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Edit Rentang Dalam Lembar Kerja Excel"
+"url": "/id/net/protect-excel-file/edit-ranges-in-excel-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Edit Rentang Dalam Lembar Kerja Excel
 
-## Perkenalan
+## Bevezetés
 
 Dalam hal mengedit lembar kerja Excel, salah satu fitur paling canggih yang berguna adalah kemampuan untuk melindungi area tertentu sekaligus mengizinkan pengeditan di area lain. Ini bisa sangat berguna dalam lingkungan kolaboratif di mana banyak pengguna memerlukan akses tetapi hanya boleh mengubah sel yang ditentukan. Hari ini, kita akan membahas cara memanfaatkan Aspose.Cells for .NET untuk mengelola rentang yang dapat diedit dalam lembar kerja Excel. Jadi, ambil minuman pengodean favorit Anda dan mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat kode, pastikan Anda sudah menyiapkan semuanya. Berikut ini yang Anda perlukan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Edisi komunitas berfungsi dengan baik.
-2.  Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells untuk .NET. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+2. Pustaka Aspose.Cells: Anda memerlukan pustaka Aspose.Cells untuk .NET. Anda dapat [töltsd le itt](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Pemahaman mendasar tentang C# akan sangat membantu.
 4. Pengaturan Proyek: Buat aplikasi konsol C# baru di Visual Studio.
 
 Sempurna—Anda sudah siap! Sekarang, mari selami inti kode.
 
-## Paket Impor
+## Csomagok importálása
 
 Setelah Anda menyiapkan proyek, langkah awal melibatkan pengimporan namespace Aspose.Cells yang diperlukan. Untuk melakukannya, cukup sertakan baris berikut di bagian atas berkas kode Anda:
 
@@ -38,29 +40,29 @@ using Aspose.Cells;
 
 Ini akan memungkinkan Anda untuk mengakses semua fungsi yang disediakan oleh Aspose.Cells dalam proyek Anda.
 
-## Langkah 1: Siapkan Direktori
+## 1. lépés: A címtár beállítása
 
 Sebelum Anda mulai bekerja dengan file Excel, ada baiknya Anda membuat direktori tempat file Anda akan berada. Langkah ini memastikan bahwa aplikasi Anda mengetahui tempat untuk membaca dan menulis data.
 
 Mari kita buat kode untuk membuat direktori (jika belum ada):
 
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
-// Buat direktori jika belum ada.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Mengganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file Anda. Ini bisa berupa sesuatu seperti`@"C:\ExcelFiles\"`.
+Csere `"YOUR DOCUMENT DIRECTORY"` dengan jalur tempat Anda ingin menyimpan file Anda. Ini bisa berupa sesuatu seperti `@"C:\ExcelFiles\"`.
 
 ## Langkah 2: Buat Buku Kerja Baru
 
 Sekarang direktori Anda sudah siap, mari buat buku kerja Excel baru. Ini sama seperti membuka kanvas kosong sebelum mulai melukis.
 
 ```csharp
-// Membuat Buku Kerja baru
+// Új munkafüzet példányosítása
 Workbook book = new Workbook();
 ```
 
@@ -71,7 +73,7 @@ Dengan ini, buku kerja kosong Anda sudah siap digunakan!
 Setiap buku kerja berisi setidaknya satu lembar kerja secara default. Anda perlu mengambil lembar kerja tersebut untuk melakukan operasi pada lembar kerja tersebut.
 
 ```csharp
-// Dapatkan lembar kerja pertama (default)
+// Az első (alapértelmezett) munkalap beolvasása
 Worksheet sheet = book.Worksheets[0];
 ```
 
@@ -112,7 +114,7 @@ Menetapkan kata sandi untuk rentang yang dilindungi memastikan bahwa hanya merek
 proteced_range.Password = "YOUR_PASSWORD";
 ```
 
- Mengganti`"YOUR_PASSWORD"` dengan kata sandi pilihan Anda. Ingat saja, jangan membuatnya terlalu sederhana—anggap saja seperti mengunci peti harta karun Anda!
+Csere `"YOUR_PASSWORD"` dengan kata sandi pilihan Anda. Ingat, jangan membuatnya terlalu sederhana—anggap saja seperti mengunci peti harta karun Anda!
 
 ## Langkah 7: Lindungi Lembaran
 
@@ -130,35 +132,37 @@ Dengan menerapkan metode ini, pada dasarnya Anda mengunci seluruh lembar kerja. 
 Kita akhirnya mencapai langkah terakhir dalam tutorial kita—menyimpan buku kerja ke direktori yang Anda tentukan!
 
 ```csharp
-// Simpan file Excel
+// Mentse el az Excel-fájlt
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
-Ini akan menyimpan buku kerja Anda yang dilindungi sebagai`protectedrange.out.xls` di direktori yang Anda tentukan.
+Ini akan menyimpan buku kerja Anda yang dilindungi sebagai `protectedrange.out.xls` di direktori yang Anda tentukan.
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda telah berhasil membuat lembar kerja Excel menggunakan Aspose.Cells for .NET, menentukan rentang yang dapat diedit, menetapkan kata sandi, dan melindungi lembar kerja—semuanya dalam beberapa langkah mudah. Sekarang Anda dapat berbagi buku kerja dengan rekan kerja, meningkatkan kolaborasi sekaligus menjaga keamanan data penting.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?  
+### Mi az Aspose.Cells?  
 Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 
 ### Bisakah saya melindungi sel tertentu dalam lembar kerja Excel?  
 Ya, dengan menggunakan Aspose.Cells, Anda dapat menentukan rentang tertentu yang dapat diedit dan melindungi sisa lembar kerja.
 
-### Apakah ada versi uji coba yang tersedia untuk Aspose.Cells?  
- Tentu saja! Anda dapat mengunduh uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Cells-hez?  
+Tentu saja! Anda dapat mengunduh uji coba gratis [itt](https://releases.aspose.com/).
 
-### Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?  
+### Használhatom az Aspose.Cells-t más programozási nyelvekkel?  
 Meskipun tutorial ini berfokus pada .NET, Aspose.Cells tersedia untuk beberapa bahasa pemrograman, termasuk Java dan Cloud API.
 
-### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?  
- Anda dapat menjelajahi dokumentasi lengkapnya[Di Sini](https://reference.aspose.com/cells/net/).
+### Hol találok több információt az Aspose.Cells-ről?  
+Anda dapat menjelajahi dokumentasi lengkapnya [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

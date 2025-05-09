@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@
 
 ### Gradle 安裝
 
-對於 Gradle 用戶，請將其包含在您的 `build.gradle` 文件：
+對於 Gradle 用戶，將其包含在您的 `build.gradle` 文件：
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -218,6 +220,9 @@ pivotField.setNumber(10);  // 套用預定義格式，例如貨幣或百分比�
 一個：** 確保設定正確的索引和位置以避免計算錯誤。在將設定套用到生產工作簿之前，請務必使用範例資料進行測試。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

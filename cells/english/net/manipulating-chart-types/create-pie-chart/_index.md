@@ -8,7 +8,9 @@ url: /net/manipulating-chart-types/create-pie-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Pie Chart
@@ -207,6 +209,7 @@ Yes, you can create and customize as many charts as needed within a single Excel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,7 +201,7 @@ Készen állsz átvenni az irányítást az Excel-munkafüzeteid felett? Kezdd e
 
 ## Erőforrás
 - **Dokumentáció:** [Aspose.Cells referencia](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Próbálja ki az Aspose.Cells-t ingyen](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
@@ -207,6 +209,9 @@ Készen állsz átvenni az irányítást az Excel-munkafüzeteid felett? Kezdd e
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

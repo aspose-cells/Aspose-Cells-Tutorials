@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,10 +210,13 @@ För att fördjupa dina kunskaper kan du utforska mer avancerade funktioner som 
 - **Ladda ner biblioteket**Åtkomst till alla versioner av Aspose.Cells på [Sida med utgåvor](https://releases.aspose.com/cells/java/).
 - **Köp och licensiering**Utforska köpalternativ och få en tillfällig licens på [Asposes köpsida](https://purchase.aspose.com/buy).
 
-Experimentera med det du lärt dig idag, och tveka inte att kontakta [Aspose Supportforum](https://forum.aspose.com/c/cells/9) För frågor eller hjälp. Lycka till med kodningen!
+Experimentera med det du lärt dig idag och tveka inte att kontakta [Aspose Supportforum](https://forum.aspose.com/c/cells/9) För frågor eller hjälp. Lycka till med kodningen!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

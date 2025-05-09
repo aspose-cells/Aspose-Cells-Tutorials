@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ Trước khi bắt đầu triển khai mã, hãy đảm bảo bạn đã thiết
 
 1. **Cài đặt**: Thêm sự phụ thuộc Maven hoặc Gradle ở trên để đưa Aspose.Cells vào dự án của bạn.
 2. **Mua lại giấy phép**:
-   - Bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu cấp giấy phép tạm thời từ [Trang web của Aspose](https://purchase.aspose.com/temporary-license/).
+   - Bắt đầu với bản dùng thử miễn phí hoặc yêu cầu cấp giấy phép tạm thời từ [Trang web của Aspose](https://purchase.aspose.com/temporary-license/).
    - Hãy cân nhắc mua giấy phép đầy đủ để sử dụng lâu dài.
 3. **Khởi tạo cơ bản**: Sau đây là cách bạn khởi tạo thư viện Aspose.Cells trong ứng dụng Java của mình:
 
@@ -211,6 +213,9 @@ Trong hướng dẫn này, bạn đã học cách khai thác sức mạnh của 
 - Luôn kiểm tra kỹ lưỡng các tập lệnh tự động hóa của bạn và xử lý các ngoại lệ một cách khéo léo. Đảm bảo rằng nguồn dữ liệu của bạn đáng tin cậy và được cập nhật.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

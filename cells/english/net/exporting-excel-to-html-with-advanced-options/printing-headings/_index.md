@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/printing-headings/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Printing Headings Programmatically in Excel
@@ -77,9 +79,11 @@ While you can use Aspose.Cells with a free trial, a temporary or paid license is
 You can access the support forum [here](https://forum.aspose.com/c/cells/9) for all your queries and troubleshooting needs.
 ### Can Aspose.Cells be used with other programming languages?  
 Yes, Aspose.Cells features versions for Java, Python, and other languages, allowing for versatile development across platforms.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

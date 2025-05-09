@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Java プログラミングの基本的な理解と、Maven や Gradle などの�
 
 ## Aspose.Cells for Java のセットアップ
 
-始めるには **Java 用 Aspose.Cells**開発環境に統合しましょう。手順は以下のとおりです。
+始めるには **Java 用 Aspose.Cells**開発環境に統合しましょう。その方法は以下の通りです。
 
 ### ライセンス取得手順
 
@@ -199,6 +201,9 @@ Excelのセル名をインデックス値に変換する方法について説明
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

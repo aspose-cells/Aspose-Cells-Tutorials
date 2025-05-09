@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 导入数据验证
@@ -80,9 +82,11 @@ Aspose.Cells for Java 支持各种数据验证类型，包括整数、小数、�
 在本指南中，我们探索了使用 Aspose.Cells for Java 实现 Excel 导入数据验证的过程。按照本文概述的步骤，您可以确保 Java 应用程序中导入数据的准确性和可靠性。数据验证是数据管理的关键环节，而 Aspose.Cells for Java 简化了这一流程。
 
 现在，有了以上知识和源代码，您就可以增强数据验证能力并提升用户体验了。祝您编码愉快！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

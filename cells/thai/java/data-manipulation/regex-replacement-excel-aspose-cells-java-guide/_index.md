@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@
 - Java Development Kit (JDK) ที่เข้ากันได้ เวอร์ชัน 8 ขึ้นไป
 - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 
-**ข้อกำหนดเบื้องต้นของความรู้:**
+**ข้อกำหนดความรู้เบื้องต้น:**
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ความคุ้นเคยกับนิพจน์ทั่วไปจะเป็นประโยชน์ แต่ไม่จำเป็น
 
@@ -171,6 +173,9 @@ workbook.save(outDir + "/RegexReplace_out.xlsx");
 - สนับสนุน: [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

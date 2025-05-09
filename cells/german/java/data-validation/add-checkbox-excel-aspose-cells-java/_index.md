@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Wir empfehlen Ihnen, diese Lösungen in Ihren Projekten zu implementieren. Viel 
 - Stellen Sie die entsprechenden Berechtigungen sicher und erwägen Sie das Sperren bestimmter Zellen, um unbeabsichtigte Änderungen bei der Verwendung von Kontrollkästchen in gemeinsam genutzten Umgebungen zu verhindern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

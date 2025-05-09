@@ -1,29 +1,31 @@
 ---
-title: Konwersja pliku Excel do PDF (A-1a) programowo w .NET
-linktitle: Konwersja pliku Excel do PDF (A-1a) programowo w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak konwertować pliki Excel do formatu PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
-weight: 14
-url: /pl/net/converting-excel-files-to-other-formats/converting-excel-file-to-pdf-a-1a/
+"description": "Dowiedz się, jak konwertować pliki Excel do PDF/A-1a w celach archiwalnych, używając Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu."
+"linktitle": "Konwersja pliku Excel do PDF (A-1a) programowo w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konwersja pliku Excel do PDF (A-1a) programowo w .NET"
+"url": "/pl/net/converting-excel-files-to-other-formats/converting-excel-file-to-pdf-a-1a/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja pliku Excel do PDF (A-1a) programowo w .NET
 
 ## Wstęp
-nowoczesnym świecie przetwarzania dokumentów zdarzają się sytuacje, gdy trzeba przekonwertować pliki Excela na PDF, szczególnie w celach archiwalnych. Ale czy wiesz, że istnieje specjalny format znany jako PDF/A-1a? Ten format zapewnia długoterminowe przechowywanie dokumentów przy zachowaniu zgodności z określonymi standardami. W tym samouczku zagłębimy się w proces krok po kroku konwersji pliku Excela na format PDF/A-1a przy użyciu Aspose.Cells dla .NET.
+W nowoczesnym świecie przetwarzania dokumentów zdarzają się sytuacje, gdy trzeba przekonwertować pliki Excela na PDF, szczególnie w celach archiwalnych. Ale czy wiesz, że istnieje specjalny format znany jako PDF/A-1a? Ten format zapewnia długoterminowe przechowywanie dokumentów przy zachowaniu zgodności z określonymi standardami. W tym samouczku zagłębimy się w proces krok po kroku konwersji pliku Excela na format PDF/A-1a przy użyciu Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziesz do samouczka, musisz mieć kilka rzeczy na miejscu. Oto krótka lista kontrolna:
--  Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 - .NET Framework: Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane przy użyciu .NET Framework lub .NET Core.
 - Visual Studio: Aby zapewnić bezproblemowy rozwój, zaleca się korzystanie z programu Visual Studio.
--  Ważna licencja: Chociaż Aspose.Cells oferuje bezpłatną wersję próbną, możesz rozważyć złożenie wniosku o licencję[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kupując pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+- Ważna licencja: Chociaż Aspose.Cells oferuje bezpłatną wersję próbną, możesz rozważyć złożenie wniosku o licencję [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kupując pełną wersję [Tutaj](https://purchase.aspose.com/buy).
   
 ## Importuj pakiety
-Zanim zaczniemy kodować, musimy upewnić się, że odpowiednie przestrzenie nazw są importowane. Bez zaimportowania tych przestrzeni nazw nie będziesz mieć dostępu do niezbędnych klas i metod do pracy z plikami Excel i zapisywania ich jako pliki PDF.
+Zanim zaczniemy kodować, musimy upewnić się, że odpowiednie przestrzenie nazw są importowane. Bez zaimportowania tych przestrzeni nazw nie będziesz mieć dostępu do podstawowych klas i metod do pracy z plikami Excel i zapisywania ich jako pliki PDF.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -63,7 +65,7 @@ Teraz nadchodzi ważna część — konfiguracja opcji zapisu PDF. Chcemy, aby w
 PdfSaveOptions opts = new PdfSaveOptions();
 opts.Compliance = PdfCompliance.PdfA1a;
 ```
- Poprzez ustawienie`Compliance` Do`PdfA1a`zapewniasz, że wygenerowany plik PDF jest w pełni zgodny ze standardem PDF/A-1a. Jest to niezbędne, jeśli chcesz, aby Twoje pliki PDF spełniały wymogi archiwalne lub prawne.
+Poprzez ustawienie `Compliance` Do `PdfA1a`, zapewniasz, że wygenerowany plik PDF jest w pełni zgodny ze standardem PDF/A-1a. Jest to niezbędne, jeśli chcesz, aby Twoje pliki PDF spełniały wymogi archiwalne lub prawne.
 ## Krok 6: Zapisz skoroszyt jako plik PDF
 Na koniec zapiszmy nasz skoroszyt jako PDF. Użyjemy metody save, przekazując katalog wyjściowy i opcje zapisu PDF.
 ```csharp
@@ -71,21 +73,23 @@ wb.Save(outputDir + "outputCompliancePdfA1a.pdf", opts);
 ```
 W tym wierszu zapisujemy plik Excela jako PDF w określonym katalogu, stosując jednocześnie skonfigurowane wcześniej opcje zgodności PDF/A-1a. I voilà! Udało Ci się pomyślnie przekonwertować plik Excela na PDF w formacie A-1a.
 ## Wniosek
-I oto masz — prosty, ale skuteczny sposób na konwersję pliku Excel do formatu zgodnego ze standardem PDF/A-1a przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy generujesz raporty, przechowujesz dokumenty do długoterminowego przechowywania, czy po prostu potrzebujesz niezawodnego sposobu na konwersję plików Excel do formatu PDF, to rozwiązanie jest dla Ciebie.
+oto masz — prosty, ale skuteczny sposób na konwersję pliku Excel do formatu zgodnego ze standardem PDF/A-1a przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy generujesz raporty, przechowujesz dokumenty do długoterminowego przechowywania, czy po prostu potrzebujesz niezawodnego sposobu na konwersję plików Excel do formatu PDF, to rozwiązanie jest dla Ciebie.
 ## Najczęściej zadawane pytania
 ### Na czym polega zgodność ze standardem PDF/A-1a?
 PDF/A-1a to standard przeznaczony do długoterminowego przechowywania dokumentów elektronicznych. Zapewnia, że dokumenty są samowystarczalne, ze wszystkimi niezbędnymi informacjami osadzonymi, takimi jak czcionki, profile kolorów i inne.
 ### Czy mogę przekonwertować wiele plików Excela do formatu PDF na raz?
 Oczywiście! Używając Aspose.Cells, możesz przechodzić przez wiele plików Excela i konwertować każdy z nich do PDF. Możesz nawet przetwarzać je wsadowo dla wydajności.
 ### Czy korzystanie z Aspose.Cells dla .NET jest bezpłatne?
- Aspose.Cells to płatna biblioteka, ale możesz ją wypróbować za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/) Do użytku produkcyjnego należy rozważyć zakup[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zakup pełnej licencji.
+Aspose.Cells to płatna biblioteka, ale możesz ją wypróbować za pomocą [bezpłatna wersja próbna](https://releases.aspose.com/)Do użytku produkcyjnego należy rozważyć zakup [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub kupując pełną licencję.
 ### Jakie inne standardy PDF obsługuje Aspose.Cells?
 Oprócz PDF/A-1a, Aspose.Cells obsługuje również PDF/A-1b, który jest kolejnym standardem archiwizacji dokumentów, choć mniej rygorystycznym niż A-1a.
 ### Czy muszę mieć zainstalowany program Microsoft Excel, aby korzystać z Aspose.Cells?
-Nie, nie potrzebujesz zainstalowanego programu Excel. Aspose.Cells to samodzielna biblioteka .NET, która nie polega na programie Excel do manipulowania plikami Excel ani ich konwertowania.
+Nie, nie potrzebujesz zainstalowanego programu Excel. Aspose.Cells to samodzielna biblioteka .NET, która nie polega na programie Excel w celu manipulowania plikami Excel ani ich konwersji.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

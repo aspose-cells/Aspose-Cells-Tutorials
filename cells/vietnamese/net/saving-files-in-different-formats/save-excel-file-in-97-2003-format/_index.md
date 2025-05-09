@@ -1,14 +1,16 @@
 ---
-title: Lưu File Excel theo Định dạng 97-2003
-linktitle: Lưu File Excel theo Định dạng 97-2003
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách lưu tệp Excel ở định dạng 97-2003 bằng Aspose.Cells cho .NET. Nhận thông tin chi tiết thực tế và hướng dẫn từng bước.
-weight: 10
-url: /vi/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
+"description": "Tìm hiểu cách lưu tệp Excel ở định dạng 97-2003 bằng Aspose.Cells cho .NET. Nhận thông tin chi tiết thực tế và hướng dẫn từng bước."
+"linktitle": "Lưu File Excel theo Định dạng 97-2003"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lưu File Excel theo Định dạng 97-2003"
+"url": "/vi/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu File Excel theo Định dạng 97-2003
@@ -18,7 +20,7 @@ Việc tạo và quản lý các tệp Excel theo chương trình có thể là 
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, có một số điều kiện tiên quyết mà bạn cần phải hoàn thành trong danh sách của mình:
 1. Hiểu biết cơ bản về .NET: Sự quen thuộc với C# hoặc VB.NET sẽ vô cùng hữu ích.
-2.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án của mình. Nếu bạn chưa cài đặt, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án của mình. Nếu bạn chưa cài đặt, bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Một môi trường phát triển như Visual Studio hoặc bất kỳ IDE nào tương thích với .NET sẽ hỗ trợ việc mã hóa và gỡ lỗi.
 4. Trình quản lý gói NuGet: Giúp cài đặt Aspose.Cells vào dự án của bạn dễ dàng nhất. 
 Sau khi bạn đã chuẩn bị xong những điều kiện tiên quyết này, chúng ta đã sẵn sàng!
@@ -44,15 +46,15 @@ Trước tiên, bạn cần phải thiết lập thư mục nơi tệp Excel c�
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-- `"Your Document Directory"` : Thay thế chuỗi giữ chỗ này bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Nó có thể giống như`"C:\\ExcelFiles\\"`.
+- `"Your Document Directory"`: Thay thế chuỗi giữ chỗ này bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Nó có thể giống như `"C:\\ExcelFiles\\"`.
 ## Bước 2: Tạo một đối tượng sổ làm việc mới
- Tiếp theo, chúng ta hãy tạo một phiên bản mới của`Workbook` lớp học. Đây chính là nơi mọi điều kỳ diệu xảy ra!
+Tiếp theo, chúng ta hãy tạo một phiên bản mới của `Workbook` lớp học. Đây chính là nơi mọi điều kỳ diệu xảy ra!
 ```csharp
 Workbook workbook = new Workbook();
 ```
 - `Workbook`:Lớp này biểu diễn tệp Excel mà bạn đang làm việc. Bằng cách khởi tạo nó, về cơ bản bạn đang tạo một sổ làm việc trống mới.
 ## Bước 3: Lưu Workbook theo Định dạng 97-2003
-Đây chính là khoảnh khắc bạn đang chờ đợi! Đã đến lúc lưu sổ làm việc của bạn. Có hai cách để thực hiện việc này.
+Đây là khoảnh khắc bạn đang chờ đợi! Đã đến lúc lưu sổ làm việc của bạn. Có hai cách để thực hiện việc này.
 ### Lưu đơn giản
 Sử dụng mã sau để lưu tệp của bạn trực tiếp vào đường dẫn đã chỉ định.
 ```csharp
@@ -72,16 +74,18 @@ Hãy nhớ rằng, giống như bất kỳ dự án mã hóa nào, việc thử 
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nhà phát triển làm việc với các định dạng tệp Excel mà không cần cài đặt Microsoft Excel.
 ### Làm thế nào để tải xuống Aspose.Cells cho .NET?
- Bạn có thể tải xuống từ[liên kết này](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống từ [liên kết này](https://releases.aspose.com/cells/net/).
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### Tôi có thể lưu tệp Excel ở định dạng nào?
 Bạn có thể lưu tệp Excel ở nhiều định dạng khác nhau như XLS, XLSX, CSV, PDF, v.v.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được giúp đỡ.
+Ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được giúp đỡ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

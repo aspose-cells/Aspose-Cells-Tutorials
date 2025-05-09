@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/update-slicers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Slicers in Aspose.Cells .NET
@@ -113,6 +115,7 @@ Aspose.Cells supports various formats including XLS, XLSX, CSV, and more!
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

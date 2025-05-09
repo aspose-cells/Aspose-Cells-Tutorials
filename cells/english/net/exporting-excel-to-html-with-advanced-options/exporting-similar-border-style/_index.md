@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/exporting-similar-border
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exporting Similar Border Style Programmatically in Excel
@@ -88,9 +90,11 @@ Yes! Aspose.Cells supports multiple formats such as XLSX, CSV, PDF, and more.
 Support is available through the [Aspose forum](https://forum.aspose.com/c/cells/9) for community assistance.
 ### How do I download Aspose.Cells?
 You can download it directly from the [Aspose.Cells Releases page](https://releases.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

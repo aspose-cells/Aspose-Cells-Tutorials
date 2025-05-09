@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/variable-array-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Variable Array with Smart Markers Aspose.Cells
@@ -97,6 +99,7 @@ Yes, you can try Aspose.Cells for free by downloading their trial version! [Down
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

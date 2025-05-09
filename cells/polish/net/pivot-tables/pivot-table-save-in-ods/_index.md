@@ -1,47 +1,52 @@
 ---
-title: Zapisz tablicę obrotową jako ODS w Aspose.Cells dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak tworzyć i zapisać tabelę obrotową w formie ODS za pomocą Aspose.Cells dla .NET.
-keywords: [Aspose.Cells for .NET, PivotTable in ODS, save PivotTable, create PivotTable, .NET spreadsheet, Excel automation, C# PivotTable]
-url: /pl/net/pivot-tables/pivot-table-save-in-ods/
+"description": "Dowiedz się, jak utworzyć i zapisać tabelę przestawną w formacie ODS przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z przykładami kodu."
+"title": "Zapisz tabelę przestawną jako ODS w Aspose.Cells dla .NET"
+"url": "/pl/net/pivot-tables/pivot-table-save-in-ods/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zapisz tablicę obrotową jako ODS w Aspose.Cells dla .NET 
+# Zapisz tabelę przestawną jako ODS w Aspose.Cells dla .NET 
 
-Aspose.Cells dla .NET zapewnia mocne funkcje automatyzacji arkuszy kalkulacyjnych, w tym PivotTables. Ten podręcznik przeprowadzi Cię przez tworzenie PivotTable w księdze roboczej, dodawanie danych, konfigurację ustawień PivotTable i zapisywanie go jako plik ODS. Dzięki prostemu wdrożeniu C# będziesz mógł bez wysiłku generować dynamiczne raporty.  
+Aspose.Cells for .NET oferuje potężne funkcje automatyzacji arkuszy kalkulacyjnych, w tym tabele przestawne. Ten samouczek przeprowadzi Cię przez proces tworzenia tabeli przestawnej w skoroszycie, dodawania danych, konfigurowania ustawień tabeli przestawnej i zapisywania jej jako pliku ODS. Dzięki prostej implementacji C# będziesz w stanie bez wysiłku generować dynamiczne raporty. Niezależnie od tego, czy przetwarzasz dane finansowe, raporty sprzedaży czy jakiekolwiek informacje tabelaryczne, ten przewodnik zapewnia bezproblemowe tworzenie i eksportowanie tabeli przestawnej w formacie ODS.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/pivot-table-save-in-ods" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji
-Aby zacząć od Aspose.Cells dla .NET, wykonaj następujące kroki:  
+Aby rozpocząć korzystanie z Aspose.Cells dla platformy .NET, wykonaj następujące kroki:  
 
-1. Pobierz Aspose.Cells dla .NET z oficjalnego repozytorium: [Aspose.Cells Zabierz](https://releases.aspose.com/cells/net/)  
-2. Instalacja za pośrednictwem Menedżera pakietu NuGet:  
-   * Otwórz Visual Studio  
-   * Wyślij następujące polecenie w konsoli zarządzającego pakietami:  
+1. Pobierz Aspose.Cells dla .NET z oficjalnego repozytorium: [Pobierz Aspose.Cells](https://releases.aspose.com/cells/net/)  
+2. Instalacja za pomocą Menedżera pakietów NuGet:  
+   - Otwórz program Visual Studio  
+   - Uruchom następujące polecenie w konsoli Menedżera pakietów:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-3. Włącz przestrzeni nazwisk Aspose.Cells do projektu C#:  
+3. Dodaj przestrzeń nazw Aspose.Cells do swojego projektu C#:  
    ```csharp
    using Aspose.Cells;
    ```  
-4. Zacznij kodowanie przy użyciu podanego przykładu do tworzenia i zapisywania tabeli obrotowej w formie ODS.  
+4. Rozpocznij kodowanie, korzystając z podanego przykładu, aby utworzyć i zapisać tabelę przestawną w formacie ODS.  
 
-## Zobacz również  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie . 
+## Zobacz także  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

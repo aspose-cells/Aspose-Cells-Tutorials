@@ -1,14 +1,16 @@
 ---
-title: Анализ кэшированных записей Pivot при загрузке файла Excel в .NET
-linktitle: Анализ кэшированных записей Pivot при загрузке файла Excel в .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как анализировать кэшированные записи сводной таблицы в .NET с помощью Aspose.Cells. Простое руководство по эффективному управлению файлами Excel и сводными таблицами.
-weight: 28
-url: /ru/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/
+"description": "Узнайте, как анализировать кэшированные записи сводной таблицы в .NET с помощью Aspose.Cells. Простое руководство по эффективному управлению файлами Excel и сводными таблицами."
+"linktitle": "Анализ кэшированных записей Pivot при загрузке файла Excel в .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Анализ кэшированных записей Pivot при загрузке файла Excel в .NET"
+"url": "/ru/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Анализ кэшированных записей Pivot при загрузке файла Excel в .NET
@@ -20,13 +22,13 @@ url: /ru/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/
 ### Визуальная Студия
 - Убедитесь, что у вас установлена копия Visual Studio. Это надежный корабль, который позволит вам плавно перемещаться по вашему коду.
 ### Aspose.Cells для .NET
--  Вам понадобится установленный Aspose.Cells. Вы можете либо купить его через их[веб-сайт](https://purchase.aspose.com/buy) или начните с[бесплатная пробная версия](https://releases.aspose.com/).
+- Вам понадобится установленный Aspose.Cells. Вы можете либо купить его через их [веб-сайт](https://purchase.aspose.com/buy) или начните с [бесплатная пробная версия](https://releases.aspose.com/).
 ### Базовые знания C#
 - Это руководство предполагает, что у вас есть базовые знания C#. Это как знать основы перед тем, как отправиться в плавание.
 ### Файл Excel со сводной таблицей
 - Подготовьте файл Excel, содержащий сводную таблицу, поскольку мы будем практиковаться именно на ней!
 ## Импортные пакеты
-Теперь давайте подготовим наш корабль, импортировав необходимые пакеты. В вашем проекте Visual Studio вам нужно убедиться, что у вас есть эти пространства имен в верхней части вашего файла C#:
+Теперь давайте подготовим наш корабль, импортировав необходимые пакеты. В вашем проекте Visual Studio вам нужно убедиться, что у вас есть эти пространства имен в верхней части файла C#:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -46,9 +48,9 @@ string sourceDir = "Your Document Directory";
 //Исходный каталог
 string outputDir = "Your Document Directory";
 ```
- Заменять`"Your Document Directory"` с фактическим путем, где хранятся ваши файлы Excel. Этот шаг имеет решающее значение, поскольку если каталоги установлены неправильно, мы не сможем найти наши файлы, как будто потерялись в море!
+Заменять `"Your Document Directory"` с фактическим путем, где хранятся ваши файлы Excel. Этот шаг имеет решающее значение, поскольку если каталоги установлены неправильно, мы не сможем найти наши файлы, как будто потерялись в море!
 ## Шаг 2: Создание параметров загрузки
-Далее нам нужно создать экземпляр`LoadOptions`. Здесь мы можем задать некоторые параметры загрузки нашего файла Excel.
+Далее нам нужно создать экземпляр `LoadOptions`. Здесь мы можем задать некоторые параметры загрузки нашего файла Excel.
 ```csharp
 //Создать параметры загрузки
 LoadOptions options = new LoadOptions();
@@ -122,16 +124,18 @@ Console.WriteLine("ParsingPivotCachedRecordsWhileLoadingExcelFile executed succe
 ### Что такое Aspose.Cells?
 Aspose.Cells — мощная библиотека .NET, используемая для программного управления и манипулирования файлами Excel.
 ### Как начать работу с Aspose.Cells?
- Вы можете начать использовать Aspose.Cells, загрузив его с их сайта[сайт](https://releases.aspose.com/cells/net/) и следуя инструкциям по установке.
+Вы можете начать использовать Aspose.Cells, загрузив его с их сайта [сайт](https://releases.aspose.com/cells/net/) и следуя инструкциям по установке.
 ### Могу ли я попробовать Aspose.Cells бесплатно?
- Да! Aspose предлагает[бесплатная пробная версия](https://releases.aspose.com/)чтобы вы могли изучить его особенности перед покупкой.
+Да! Aspose предлагает [бесплатная пробная версия](https://releases.aspose.com/) чтобы вы могли изучить его особенности перед покупкой.
 ### Где я могу найти документацию по Aspose.Cells?
- Подробную документацию вы можете найти[здесь](https://reference.aspose.com/cells/net/).
+Подробную документацию вы можете найти [здесь](https://reference.aspose.com/cells/net/).
 ### Как получить поддержку по Aspose.Cells?
- Для получения поддержки вы можете посетить форум Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Для получения поддержки вы можете посетить форум Aspose. [здесь](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

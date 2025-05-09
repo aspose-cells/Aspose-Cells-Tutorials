@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Les prochaines étapes incluent l'exploration de fonctionnalités plus avancées
 Lancez-vous dès aujourd'hui dans votre parcours vers la maîtrise d'Aspose.Cells pour Java et rationalisez vos flux de travail Excel en toute simplicité !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

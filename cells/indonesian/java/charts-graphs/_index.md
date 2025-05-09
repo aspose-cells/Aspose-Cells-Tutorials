@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Pelajari cara membuat visualisasi data yang menarik dengan tutorial bagan Aspose.Cells kami untuk Java. Panduan terperinci ini memandu Anda membuat berbagai jenis bagan, menyesuaikan elemen bagan, memformat komponen visual, dan bekerja dengan sumber data dinamis. Setiap tutorial menyertakan contoh kode Java praktis yang menunjukkan cara menerapkan bagan yang tampak profesional yang memvisualisasikan data spreadsheet Anda secara efektif, meningkatkan kemampuan analitis aplikasi Java berbasis Excel Anda.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi grafik & diagram
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -139,7 +141,7 @@ Pelajari cara mengotomatiskan manipulasi grafik Excel menggunakan Aspose.Cells u
 Pelajari cara mengotomatiskan pemuatan dan pengaksesan grafik dalam file Excel menggunakan Aspose.Cells untuk Java. Tutorial langkah demi langkah ini mencakup semua yang Anda butuhkan untuk mengintegrasikan pustaka canggih ini ke dalam proyek Java Anda.
 
 ### [Membuat dan Memformat Bagan Excel dengan Aspose.Cells untuk Java](./excel-charts-aspose-cells-java/)
-Pelajari cara membuat, memformat, dan memanipulasi grafik Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup semuanya mulai dari menyiapkan lingkungan hingga menerapkan fitur grafik tingkat lanjut.
+Pelajari cara membuat, memformat, dan memanipulasi grafik Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup semuanya, mulai dari menyiapkan lingkungan hingga menerapkan fitur grafik tingkat lanjut.
 
 ### [Membuat dan Menyesuaikan Bagan Excel dengan Aspose.Cells untuk Java: Panduan Lengkap](./excel-charts-aspose-cells-java-tutorial/)
 Pelajari cara membuat dan menyesuaikan bagan di Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, input data, penyesuaian bagan, dan penyimpanan buku kerja Anda.
@@ -191,10 +193,13 @@ Pelajari cara menyesuaikan legenda bagan menggunakan Aspose.Cells untuk Java. Pa
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

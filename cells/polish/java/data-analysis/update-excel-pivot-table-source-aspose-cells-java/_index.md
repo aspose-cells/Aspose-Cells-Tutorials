@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ W tym przewodniku dowiesz się, jak zmienić dane źródłowe tabeli przestawnej
 Dzięki tym zasobom i temu kompleksowemu przewodnikowi jesteś teraz wyposażony, aby skutecznie obsługiwać zmiany danych źródłowych tabeli przestawnej przy użyciu Aspose.Cells w Javie. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

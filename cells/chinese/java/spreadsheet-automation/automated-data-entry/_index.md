@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自动数据输入
@@ -115,9 +117,11 @@ validation.setFormula2("100");
    您可以在以下位置浏览文档 [https://reference.aspose.com/cells/java/](https://reference。aspose.com/cells/java/).
 
 现在您已掌握使用 Aspose.Cells for Java 高效自动化数据录入的知识和工具。立即开始改进您的数据处理流程，提升业务效率。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

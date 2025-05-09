@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class ExcelToPdf {
 
 #### Шаги:
 
-##### Импортировать необходимые классы
+##### Импортируйте необходимые классы
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -198,6 +200,9 @@ workbook.save(outDir + "/outputCreatePdfBookmarkEntryForChartSheet.pdf", save_op
 Начните свое путешествие с Aspose.Cells сегодня и измените свой способ взаимодействия с данными Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

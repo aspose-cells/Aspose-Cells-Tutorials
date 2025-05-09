@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ IL `save` Il metodo scrive la cartella di lavoro in un file, conservando tutte l
 Seguendo questa guida, ora hai le competenze per gestire le cartelle di lavoro di Excel a livello di codice utilizzando Aspose.Cells per Java. Questo potente strumento semplifica le attività complesse e migliora la produttività nella gestione dei file Excel. Continua a esplorare le sue funzionalità per migliorare ulteriormente i tuoi flussi di lavoro di gestione dei dati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

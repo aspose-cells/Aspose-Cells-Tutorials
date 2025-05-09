@@ -1,56 +1,61 @@
 ---
-title: A Excelben a Aspose.Cells segítségével módosítsa a táblázat adatcímké formáját
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell megváltoztatni az Excel-diagramban található adatcímkék alakját a .NET-hez Aspose.Cells segítségével.
-keywords: [Aspose.Cells, .NET, Excel Chart, Data Labels, Shape Type, Modify Chart, Speech Bubble Oval, Change Shape, C# Excel Automation]
-url: /hu/net/charts/set-shape-type-of-data-labels-of-chart/
+"description": "Tanuld meg, hogyan módosíthatod az adatcímkék alakzattípusát egy Excel-diagramban az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldával és utasításokkal."
+"title": "Diagram adatcímkéjének alakjának módosítása Excelben az Aspose.Cells használatával"
+"url": "/hu/net/charts/set-shape-type-of-data-labels-of-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# A Excelben a Aspose.Cells segítségével módosítsa a táblázat adatcímké formáját
-Ebben a tankönyvben megvizsgáljuk, hogyan módosíthatjuk az Excel-diagramban található adatcímkék alakját az .NET-hez Aspose.Cells segítségével. A diagramokban található adatcímkék segítenek a jobb vizualizációban, és megváltoztatni a alakjuk olvashatóságát. Ez a példa bemutatja, hogyan lehet hozzáférni egy meglévő Excel-diagramhoz, visszahozni a sorozat adatcímkékhez, és megváltoztatni a alak típusát egy beszédbubbó oval (Wedge Ellipse Callout). C# kód néhány sorával hatékonyan növelheti az Excel-diagramok vizuális vonzóját.  
+# Diagram adatcímkéjének alakjának módosítása Excelben az Aspose.Cells használatával
+Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan módosíthatjuk az adatcímkék alakzattípusát egy Excel-diagramban az Aspose.Cells for .NET használatával. A diagramokban található adatcímkék jobb vizualizációt biztosítanak, alakjuk megváltoztatása pedig javíthatja az olvashatóságot. Ez a példa bemutatja, hogyan férhet hozzá egy meglévő Excel-diagramhoz, hogyan kérheti le a sorozat adatcímkéit, és hogyan módosíthatja alakzattípusukat beszédbuborék-oválisra (ék ellipszis alakúra). Néhány sor C# kóddal hatékonyan javíthatja Excel-diagramjainak vizuális megjelenését.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/set-shape-type-of-data-labels-of-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítás:  
+## Telepítési utasítások:  
 
-A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:  
+Az Aspose.Cells for .NET használatához a projektben kövesse az alábbi lépéseket:  
 
-1. A NuGet segítségével telepítse:  
-   * Nyissa ki a Visual Studio projektét.  
-   * Menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
-   * Keresd a Aspose.Cells és telepítsd a legújabb verziót.  
+1. Telepítés NuGet-en keresztül:  
+   - Nyisd meg a Visual Studio-projektedet.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.Cells fájlt, és telepítsd a legújabb verziót.  
 
-   Vagy használja a csomagkezelő konzolt:  
+   Vagy használd a Csomagkezelő konzolt:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Letöltsük az Aspose weboldalról:  
-   * Látogatás[Aspose.Cells a .NET letöltéshez](https://releases.aspose.com/cells/net/)és kapjuk a legújabb DLL-eket.  
-   * A letöltött DLL hivatkozást manuálisan adjon hozzá a projekthez.  
+2. Letöltés az Aspose weboldaláról:  
+   - Látogatás [Aspose.Cells .NET-hez letöltés](https://releases.aspose.com/cells/net/) és szerezd be a legújabb DLL-eket.  
+   - Adja hozzá manuálisan a letöltött DLL-hivatkozást a projekthez.  
 
-3. A licenc alkalmazása (szükséges, de ajánlott):  
-   * Ha rendelkezik engedélysel, alkalmazza a következőkkel:  
+3. A licenc alkalmazása (opcionális, de ajánlott):  
+   - Ha van engedélyed, igényeld a következő módon:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 	 
-## Lásd:
-A ingyenes próbapróbára látogatás [Képzelj ingyenes próbázást](https://releases.aspose.com/)\- Nem.  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még
+Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose ingyenes próbaverzió](https://releases.aspose.com/).  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

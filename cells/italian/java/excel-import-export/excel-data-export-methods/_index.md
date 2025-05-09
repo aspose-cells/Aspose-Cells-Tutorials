@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metodi di esportazione dati Excel
@@ -148,7 +150,7 @@ Esplora tecniche avanzate come la formattazione personalizzata e l'automazione p
 
 Scopri come formattare i dati esportati per renderli visivamente accattivanti e facili da leggere.
 
-## Gestione di grandi set di dati
+## Gestione di set di dati di grandi dimensioni
 
 Scopri strategie per esportare in modo efficiente grandi set di dati, garantendo prestazioni ottimali.
 
@@ -190,6 +192,7 @@ Ora, con conoscenze pratiche ed esempi di codice sorgente, sei pronto a ecceller
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

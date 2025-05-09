@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ public class SaveWorkbook {
    - Επεξεργαστείτε μόνο τα απαραίτητα δεδομένα, χρησιμοποιήστε ροές για τον χειρισμό αρχείων και βελτιστοποιήστε τις διαμορφώσεις του αναλυτή για να μειώσετε τους επανυπολογισμούς.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ public class FindoutifVBAProjectisProtected {
         System.out.println("IsProtected - Before Protecting VBA Project: " + vbaProj.isProtected());
 ```
 
-### Cómo proteger un proyecto de VBA
+### Proteger un proyecto de VBA
 
 **Descripción general:**
 A continuación, veamos cómo proteger el proyecto VBA con una contraseña.
@@ -175,6 +177,9 @@ Ha aprendido a revisar y proteger proyectos de VBA en archivos de Excel con Aspo
 ¡Embárcate en tu viaje con Aspose.Cells y desbloquea todo el potencial del procesamiento de Excel en Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/file-handling/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # File Handling
@@ -34,9 +36,11 @@ Unlock the power of file saving in .NET using Aspose.Cells. Learn to save Excel 
 Learn how to save an Excel file to a stream using Aspose.Cells for .NET with this step-by-step guide packed with examples.
 ### [Saving Text File with Custom Separator](./file-saving-text-file-with-custom-separator/)
 Learn how to save a text file with a custom separator using Aspose.Cells for .NET. Step-by-step guide and tips included.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

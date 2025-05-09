@@ -1,14 +1,16 @@
 ---
-title: Dodaj pole wyboru do arkusza kalkulacyjnego w programie Excel
-linktitle: Dodaj pole wyboru do arkusza kalkulacyjnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo dodawać pola wyboru do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego samouczka krok po kroku, który zawiera przykłady kodu i wyjaśnienia.
-weight: 18
-url: /pl/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
+"description": "Dowiedz się, jak łatwo dodawać pola wyboru do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego samouczka krok po kroku, który zawiera przykłady kodu i wyjaśnienia."
+"linktitle": "Dodaj pole wyboru do arkusza kalkulacyjnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj pole wyboru do arkusza kalkulacyjnego w programie Excel"
+"url": "/pl/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj pole wyboru do arkusza kalkulacyjnego w programie Excel
@@ -17,19 +19,19 @@ url: /pl/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
 Jeśli chodzi o zarządzanie danymi w programie Excel, istnieje niezliczona ilość funkcji i metod, które mogą usprawnić Twoje zadania i ulepszyć arkusze kalkulacyjne. Jedną z takich funkcji jest pole wyboru — sprytne małe narzędzie, które pozwala użytkownikom dokonywać wyborów binarnych bezpośrednio w arkuszach kalkulacyjnych programu Excel. W tym przewodniku przeprowadzimy Cię przez proces dodawania pola wyboru do arkusza kalkulacyjnego programu Excel przy użyciu biblioteki Aspose.Cells dla .NET. Więc zapnij pasy i przygotuj się na ekscytującą podróż do świata automatyzacji programu Excel!
 ## Wymagania wstępne
 Zanim zagłębimy się w szczegóły kodowania, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Oto wymagania wstępne:
-- Studio wizualne: Zakładamy, że masz środowisko robocze skonfigurowane z Visual Studio. Jeśli nie, możesz je łatwo pobrać z[Visual Studio](https://visualstudio.microsoft.com/vs/).
+- Visual Studio: Zakładamy, że masz środowisko robocze skonfigurowane z Visual Studio. Jeśli nie, możesz je łatwo pobrać z [Studio wizualne](https://visualstudio.microsoft.com/vs/).
 - .NET Framework: Upewnij się, że .NET Framework jest zainstalowany w systemie. Sprawdź zgodność Aspose.Cells z wersją .NET.
--  Aspose.Cells dla .NET: Musisz mieć pobraną bibliotekę Aspose.Cells i odwołać się do niej w swoim projekcie. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Musisz mieć pobraną bibliotekę Aspose.Cells i odwołać się do niej w swoim projekcie. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 - Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci łatwiej zrozumieć przykłady.
 Mając te wymagania za sobą, możemy zaczynać!
 ## Importuj pakiety
 Zanim zaczniemy kodować, musimy zaimportować niezbędne pakiety do naszego projektu C#. Biblioteka Aspose.Cells jest niezbędna do naszego zadania, a jej importowanie jest dziecinnie proste. Wystarczy wykonać następujące kroki:
 ### Utwórz nowy projekt C#
-- Otwórz program Visual Studio i utwórz nową aplikację konsolową C#.
+- Otwórz program Visual Studio i utwórz nową aplikację konsolową w języku C#.
 ### Dodaj odwołanie do Aspose.Cells
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
-- Menedżerze pakietów NuGet wyszukaj „Aspose.Cells” i zainstaluj.
+- W Menedżerze pakietów NuGet wyszukaj „Aspose.Cells” i zainstaluj.
 ### Importuj przestrzeń nazw
 Na górze pliku Program.cs umieść następujące odwołanie do przestrzeni nazw Aspose.Cells:
 ```csharp
@@ -56,7 +58,7 @@ Następnie musimy utworzyć nową instancję skoroszytu. Będzie ona stanowić p
 Workbook excelBook = new Workbook();
 ```
 ## Krok 3: Dodaj pole wyboru do arkusza kalkulacyjnego
- Teraz dodajmy pole wyboru do pierwszego arkusza naszego skoroszytu. Możesz określić położenie i rozmiar pola wyboru za pomocą`Add` metoda:
+Teraz dodajmy pole wyboru do pierwszego arkusza naszego skoroszytu. Możesz określić położenie i rozmiar pola wyboru za pomocą `Add` metoda:
 ```csharp
 // Dodaj pole wyboru do pierwszego arkusza w skoroszycie.
 int index = excelBook.Worksheets[0].CheckBoxes.Add(5, 5, 100, 120);
@@ -100,16 +102,18 @@ Gratulacje! Właśnie dodałeś pole wyboru do arkusza kalkulacyjnego programu E
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie, modyfikowanie i zarządzanie plikami Excela.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, Aspose oferuje bezpłatną wersję próbną Aspose.Cells. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną Aspose.Cells. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/).
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Chociaż możesz korzystać z wersji próbnej za darmo, do ciągłego korzystania i dostępu do pełnych funkcji wymagana jest płatna licencja. Możesz ją kupić[Tutaj](https://purchase.aspose.com/buy).
+Chociaż możesz korzystać z wersji próbnej za darmo, do ciągłego użytkowania i dostępu do pełnych funkcji wymagana jest płatna licencja. Możesz ją kupić [Tutaj](https://purchase.aspose.com/buy).
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Pełna dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/cells/net/).
+Pełna dokumentacja jest dostępna [Tutaj](https://reference.aspose.com/cells/net/).
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Jeśli masz jakieś pytania lub potrzebujesz pomocy, możesz odwiedzić forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Jeśli masz jakieś pytania lub potrzebujesz pomocy, możesz odwiedzić forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Pobierz zakres z linkami zewnętrznymi w arkuszu kalkulacyjnym
-linktitle: Pobierz zakres z linkami zewnętrznymi w arkuszu kalkulacyjnym
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak efektywnie pobierać zakresy z linkami zewnętrznymi w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 17
-url: /pl/net/worksheet-operations/get-range-with-external-links/
+"description": "Dowiedz się, jak efektywnie pobierać zakresy z linkami zewnętrznymi w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Pobierz zakres z linkami zewnętrznymi w arkuszu kalkulacyjnym"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobierz zakres z linkami zewnętrznymi w arkuszu kalkulacyjnym"
+"url": "/pl/net/worksheet-operations/get-range-with-external-links/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz zakres z linkami zewnętrznymi w arkuszu kalkulacyjnym
@@ -18,12 +20,12 @@ W dzisiejszym świecie opartym na danych efektywne zarządzanie plikami Excela j
 ## Wymagania wstępne
 Zanim zagłębimy się w kod i różne przykłady, musisz upewnić się, że spełnione są następujące wymagania wstępne:
 1. .NET Framework: Upewnij się, że używasz wersji .NET Framework zgodnej z Aspose.Cells.
-2.  Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 3. Visual Studio lub podobne środowisko IDE: Przydatne jest posiadanie odpowiedniego środowiska IDE do pisania i wykonywania kodu C#.
-4.  Przykładowy plik programu Excel: W tym samouczku użyj pliku programu Excel o nazwie`SampleExternalReferences.xlsx`, który powinien zawierać pewne linki zewnętrzne w celach demonstracyjnych.
+4. Przykładowy plik programu Excel: W tym samouczku użyj pliku programu Excel o nazwie `SampleExternalReferences.xlsx`, który powinien zawierać pewne linki zewnętrzne w celach demonstracyjnych.
 Mając już za sobą tę listę kontrolną, możemy zabrać się za kodowanie!
 ## Importuj pakiety
- Aby rozpocząć korzystanie z funkcjonalności Aspose.Cells, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu. Umożliwi ci to dostęp do klas takich jak`Workbook`, `Name` , I`ReferredArea`. 
+Aby rozpocząć korzystanie z funkcjonalności Aspose.Cells, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu. Umożliwi ci to dostęp do klas takich jak `Workbook`, `Name`, I `ReferredArea`. 
 Oto jak skonfigurować importy:
 ```csharp
 using System;
@@ -39,7 +41,7 @@ Najpierw określ katalog, w którym znajduje się plik Excel. Jest to proste prz
 string sourceDir = "Your Document Directory";
 ```
 ## Krok 2: Załaduj skoroszyt
- Następnie utworzysz instancję`Workbook` przekazując ścieżkę do pliku Excel. Upewnij się, że połączyłeś katalog z nazwą pliku.
+Następnie utworzysz instancję `Workbook` przekazując ścieżkę do pliku Excel. Upewnij się, że połączyłeś katalog z nazwą pliku.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleExternalReferences.xlsx");
 ```
@@ -47,12 +49,12 @@ Teraz masz już załadowany skoroszyt i jesteś gotowy do pracy!
 ## Iterowanie przez nazwane zakresy
 Zakresy nazwane mogą zawierać linki zewnętrzne. Aby zbadać te linki, należy przejść przez nazwane zakresy w arkuszu.
 ## Krok 3: Dostęp do nazwanych zakresów
- Użyjesz`foreach` pętla do iteracji przez nazwane zakresy zawarte w`workbook.Worksheets.Names`. To tutaj dzieje się magia!
+Użyjesz `foreach` pętla do iteracji przez nazwane zakresy zawarte w `workbook.Worksheets.Names`. To tutaj dzieje się magia!
 ```csharp
 foreach (Name namedRange in workbook.Worksheets.Names)
 ```
 ## Krok 4: Zdobądź obszary polecane
- W tej pętli możesz wywołać metodę`GetReferredAreas(true)` nazwanym zakresie. Ta metoda zwraca tablicę`ReferredArea` obiekty wskazujące na linki zewnętrzne.
+W tej pętli możesz wywołać metodę `GetReferredAreas(true)` w nazwanym zakresie. Ta metoda zwraca tablicę `ReferredArea` obiekty wskazujące na linki zewnętrzne.
 ```csharp
 ReferredArea[] referredAreas = namedRange.GetReferredAreas(true);
 ```
@@ -64,12 +66,12 @@ if (referredAreas != null)
 ## Pętla przez obszary referencyjne
 Teraz, gdy znasz już obszary, do których się odwołujesz, czas na jeszcze dokładniejsze zbadanie ich, poprzez pętlenie, aby wyodrębnić istotne dane.
 ## Krok 6: Iteruj przez obszary odsyłające
- Użyj prostej pętli for, aby przejść przez każdy z nich`ReferredArea` obiekt w`referredAreas` szyk.
+Użyj prostej pętli for, aby przejść przez każdy z nich `ReferredArea` obiekt w `referredAreas` szyk.
 ```csharp
 for (int i = 0; i < referredAreas.Length; i++)
 ```
 ## Krok 7: Wyodrębnij informacje z każdego obszaru
- Tutaj utworzysz zmienną dla każdego`ReferredArea` a następnie zacznij wyodrębniać istotne informacje, takie jak to, czy jest to link zewnętrzny, nazwa arkusza i szczegóły zakresu.
+Tutaj utworzysz zmienną dla każdego `ReferredArea` a następnie zacznij wyodrębniać istotne informacje, takie jak to, czy jest to link zewnętrzny, nazwa arkusza i szczegóły zakresu.
 ```csharp
 ReferredArea referredArea = referredAreas[i];
 Console.WriteLine("IsExternalLink: " + referredArea.IsExternalLink);
@@ -94,17 +96,19 @@ I masz to! Właśnie przeszliśmy przez kompletny samouczek, jak uzyskać zakres
 ### Czym jest Aspose.Cells?
 Aspose.Cells to rozbudowana biblioteka do tworzenia, modyfikowania i konwertowania arkuszy kalkulacyjnych programu Excel w aplikacjach .NET.
 ### Jak zainstalować Aspose.Cells?
- Możesz pobrać bibliotekę z[ten link](https://releases.aspose.com/cells/net/) i postępuj zgodnie z instrukcjami instalacji podanymi na stronie.
+Możesz pobrać bibliotekę z [ten link](https://releases.aspose.com/cells/net/) i postępuj zgodnie z instrukcjami instalacji podanymi na stronie.
 ### Jakie typy plików Excel obsługuje Aspose.Cells?
 Obsługuje szeroką gamę formatów plików, w tym XLS, XLSX, CSV i inne.
 ### Czy mogę uzyskać odwołania zewnętrzne z nazwanego zakresu?
- Tak, możesz użyć`GetReferredAreas`metoda umożliwiająca dostęp do odniesień zewnętrznych powiązanych z nazwanym zakresem.
+Tak, możesz użyć `GetReferredAreas` metoda umożliwiająca dostęp do odniesień zewnętrznych powiązanych z nazwanym zakresem.
 ### Czy istnieje bezpłatna wersja próbna Aspose.Cells?
- Tak, możesz zacząć od[bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
+Tak, możesz zacząć od [bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

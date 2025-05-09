@@ -1,14 +1,16 @@
 ---
-title: Çalışma Kitabının İçerik Türü Özellikleriyle Çalışma
-linktitle: Çalışma Kitabının İçerik Türü Özellikleriyle Çalışma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de içerik türü özellikleriyle nasıl çalışacağınızı öğrenin. Veri yönetiminizi geliştirmek için adım adım eğitim.
-weight: 28
-url: /tr/net/workbook-operations/work-with-content-type-properties/
+"description": "Aspose.Cells for .NET kullanarak Excel'de içerik türü özellikleriyle nasıl çalışacağınızı öğrenin. Veri yönetiminizi geliştirmek için adım adım eğitim."
+"linktitle": "Çalışma Kitabının İçerik Türü Özellikleriyle Çalışma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Kitabının İçerik Türü Özellikleriyle Çalışma"
+"url": "/tr/net/workbook-operations/work-with-content-type-properties/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Kitabının İçerik Türü Özellikleriyle Çalışma
@@ -19,7 +21,7 @@ url: /tr/net/workbook-operations/work-with-content-type-properties/
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 - Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun; Community sürümü gayet iyi çalışır.
 - .NET Framework/ .NET Core: .NET Framework 4.5 veya üzeri ya da .NET Core 2.1 veya üzeri sürümün yüklü olduğundan emin olun.
--  Aspose.Cells Kütüphanesi: .NET için Aspose.Cells'e ihtiyacınız olacak. Bunu şuradan kolayca indirebilirsiniz:[indirme bağlantısı burada](https://releases.aspose.com/cells/net/).
+- Aspose.Cells Kütüphanesi: .NET için Aspose.Cells'e ihtiyacınız olacak. Bunu şuradan kolayca indirebilirsiniz: [indirme bağlantısı burada](https://releases.aspose.com/cells/net/).
 - Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, bu kılavuzda herhangi bir aksama yaşamadan ilerlemenize yardımcı olacaktır.
 Her şeyi ayarladıktan sonra ilerleyebiliriz.
 ## Paketleri İçe Aktar
@@ -27,8 +29,8 @@ Herhangi bir kodlama macerasının ilk adımı gerekli paketleri içe aktarmakt�
 1. Visual Studio’yu açın.
 2. Yeni Bir Proje Oluşturun: "Yeni bir proje oluştur" seçeneğini seçerek yeni bir proje başlatın.
 3. Doğru Şablonu Seçin: Bir Konsol Uygulaması (.NET Framework veya .NET Core) seçin.
-4. Aspose.Cells'i yükleyin: NuGet Paket Yöneticisini açın, şunu arayın:`Aspose.Cells`ve kurun.
-Bunları hallettikten sonra, sıra kodlamaya geldi!
+4. Aspose.Cells'i yükleyin: NuGet Paket Yöneticisini açın, şunu arayın: `Aspose.Cells`ve kurun.
+Bunları hallettikten sonra, şimdi kodlama zamanı!
 ## Adım 1: Projenizi Kurma
 Öncelikle Excel dosyamızı kaydedeceğimiz çıktı dizinini ayarlayarak başlayalım.
 ```csharp
@@ -37,7 +39,7 @@ using System;
 // Kaynak dizini
 string outputDir = "Your Document Directory";
 ```
- Yukarıdaki kodda şunu değiştirin:`"Your Document Directory"` Oluşturduğunuz Excel dosyasını depolamak istediğiniz yol ile. Örneğin, şunu kullanabilirsiniz`"C:\\Documents\\"` Windows kullanıyorsanız. Bu önemlidir çünkü uygulamamıza bitmiş ürünü nereye koyacağını söyler.
+Yukarıdaki kodda şunu değiştirin: `"Your Document Directory"` Oluşturduğunuz Excel dosyasını depolamak istediğiniz yol ile. Örneğin, şunu kullanabilirsiniz `"C:\\Documents\\"` Windows kullanıyorsanız. Bu önemlidir çünkü uygulamamıza bitmiş ürünü nereye koyacağını söyler.
 ## Adım 2: Bir Çalışma Kitabı Oluşturma
 Sonra, yeni bir çalışma kitabı oluşturmamız gerekiyor. Aspose.Cells bunu çok kolaylaştırıyor!
 ```csharp
@@ -50,20 +52,20 @@ Bu kod satırı, XLSX biçiminde bir çalışma kitabının yeni bir örneğini 
 int index = workbook.ContentTypeProperties.Add("MK31", "Simple Data");
 workbook.ContentTypeProperties[index].IsNillable = false;
 ```
- Burada, anahtarı olan yeni bir içerik türü özelliği ekliyoruz`"MK31"` ve bir değer`"Simple Data"` .`IsNillable` mülk ayarlandı`false`bu verinin boş olamayacağını belirtir. Bunu, doldurulması gereken bir formdaki alanı tanımlamak gibi düşünebilirsiniz.
+Burada, anahtarı olan yeni bir içerik türü özelliği ekliyoruz `"MK31"` ve bir değer `"Simple Data"`. `IsNillable` mülk ayarlandı `false`bu verinin boş olamayacağını belirtir. Bunu, doldurulması gereken bir formdaki alanı tanımlamak gibi düşünebilirsiniz.
 ## Adım 4: DateTime Özelliği Ekleme
 DateTime değerini gösteren başka bir özellik ekleyelim.
 ```csharp
 index = workbook.ContentTypeProperties.Add("MK32", DateTime.Now.ToString("yyyy-MM-dd'T'HH:mm:ss"), "DateTime");
 workbook.ContentTypeProperties[index].IsNillable = true;
 ```
- Bu kod parçacığı, anahtarı olan yeni bir özellik ekler`"MK32"` ve değerini belirli bir şekilde biçimlendirilmiş geçerli tarih ve saate ayarlar. Burada,`IsNillable` ayarlandı`true`, bu alanın boş bırakılmasının sorun olmadığı anlamına gelir. Bunu bir ankette isteğe bağlı bir alan yapmak gibi düşünün.
+Bu kod parçacığı, anahtarı olan yeni bir özellik ekler `"MK32"` ve değerini belirli bir şekilde biçimlendirilmiş geçerli tarih ve saate ayarlar. Burada, `IsNillable` ayarlandı `true`, bu alanın boş bırakılmasının sorun olmadığı anlamına gelir. Bunu bir ankette isteğe bağlı bir alan yapmak gibi düşünün.
 ## Adım 5: Çalışma Kitabını Kaydetme
 Özelliklerimiz oluşturulduktan sonra, çalışma kitabını kaydetme ve hepsini kalıcı hale getirme zamanı geldi!
 ```csharp
 workbook.Save(outputDir + "WorkingWithContentTypeProperties_out.xlsx");
 ```
- The`Save` method çalışma kitabımızı belirtilen dizinde depolar. Burada dizini istenen dosya adıyla birleştirerek, adında bir çıktı dosyası oluştururuz.`WorkingWithContentTypeProperties_out.xlsx`. Voilà! Excel dosyanız artık kaydedildi ve heyecan verici içerik türü özellikleriyle dolu.
+The `Save` method çalışma kitabımızı belirtilen dizinde depolar. Burada dizini istenen dosya adıyla birleştirerek, adında bir çıktı dosyası oluştururuz. `WorkingWithContentTypeProperties_out.xlsx`. Voilà! Excel dosyanız artık kaydedildi ve heyecan verici içerik türü özellikleriyle dolu.
 ## Adım 6: Onay Mesajı
 Son olarak, işlemimizin başarılı olduğunu doğrulamak için hızlı bir konsol mesajı ekleyelim.
 ```csharp
@@ -78,14 +80,16 @@ Aspose.Cells, .NET uygulamalarında çeşitli formatlardaki Excel dosyalarını 
 ### Aspose.Cells'i .NET Core ile kullanabilir miyim?
 Evet, Aspose.Cells hem .NET Framework hem de .NET Core ile uyumludur.
 ### Aspose.Cells'i nasıl satın alabilirim?
- Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma bağlantısı burada](https://purchase.aspose.com/buy).
+Aspose.Cells'i şu adresten satın alabilirsiniz: [satın alma bağlantısı burada](https://purchase.aspose.com/buy).
 ### Ücretsiz deneme imkanı var mı?
- Kesinlikle! Ücretsiz denemeyi şuradan kontrol edebilirsiniz:[bu bağlantı](https://releases.aspose.com/).
-### Aspose.Cells için desteği nerede bulabilirim?
- Herhangi bir destek sorunuz varsa bize ulaşabilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Ücretsiz denemeyi şuradan kontrol edebilirsiniz: [bu bağlantı](https://releases.aspose.com/).
+### Aspose.Cells için desteği nereden bulabilirim?
+Herhangi bir destek sorunuz varsa bize ulaşabilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

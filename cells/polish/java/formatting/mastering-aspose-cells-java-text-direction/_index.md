@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Dowiedz się, jak ustawić kierunek tekstu w komórkach programu Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, ustawianie wartości komórek i zapisywanie plików."
+"description": "Dowiedz się, jak ustawić kierunek tekstu w komórkach Excela za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje tworzenie skoroszytów, ustawianie wartości komórek i zapisywanie plików."
 "title": "Opanowanie kierunku tekstu w komórkach programu Excel za pomocą Aspose.Cells for Java — kompleksowy przewodnik"
 "url": "/pl/java/formatting/mastering-aspose-cells-java-text-direction/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Wykorzystując Aspose.Cells dla Java, jesteś wyposażony w możliwość ulepsze
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

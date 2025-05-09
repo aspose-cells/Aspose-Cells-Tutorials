@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 
 - **Java 開發工具包 (JDK)**：版本 8 或更高版本。
 - **整合開發環境 (IDE)** 例如 IntelliJ IDEA 或 Eclipse。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - Maven 或 Gradle 用於依賴管理。
 
 ## 設定 Aspose.Cells for Java
@@ -159,7 +161,7 @@ public class CustomCalculationEngineDemo {
 
 #### 關鍵配置選項
 
-- **計算選項**：此類可讓您指定自訂運算引擎，使其能夠靈活地適應不同的用例。
+- **計算選項**：此類可讓您指定自訂運算引擎，使其能夠靈活地適用於各種用例。
   
 #### 故障排除提示
 
@@ -168,7 +170,7 @@ public class CustomCalculationEngineDemo {
 
 ## 實際應用
 
-自訂計算引擎在以下幾種實際場景中非常有用：
+自訂計算引擎在以下幾個實際場景中非常有用：
 
 1. **財務分析**：動態調整附加費用或稅費的計算公式。
 2. **數據驗證**：實作自訂邏輯以自動驗證和調整資料。
@@ -219,6 +221,9 @@ public class CustomCalculationEngineDemo {
 現在您已經掌握了在 Aspose.Cells Java 中實作自訂運算引擎，請測試您的技能並開始以前所未有的方式優化您的電子表格！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

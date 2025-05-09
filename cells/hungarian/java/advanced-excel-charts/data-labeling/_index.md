@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatcímkézés
@@ -26,8 +28,8 @@ Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy telepítve van
 
 A kezdéshez le kell töltened és telepítened kell az Aspose.Cells for Java programot. Kövesd az alábbi egyszerű lépéseket:
 
-1. Látogatás [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/).
-2. Töltsd le az Aspose.Cells legújabb verzióját Java-ban.
+1. Látogatás [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/).
+2. Töltsd le az Aspose.Cells legújabb verzióját Java-hoz.
 3. Kövesse a dokumentációban található telepítési utasításokat.
 
 ## Táblázat betöltése és létrehozása
@@ -145,6 +147,7 @@ A hibákat szabályosan kezelheted a try-catch blokkok használatával, amelyek 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

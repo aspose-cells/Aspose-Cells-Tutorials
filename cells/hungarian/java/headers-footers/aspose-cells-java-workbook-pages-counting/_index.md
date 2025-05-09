@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 // Szükség szerint testreszabhatja a beállításokat, pl. beállíthatja a papírméretet vagy a minőséget.
 ```
 
-**3. Hozzon létre egy munkafüzet-előnézeti objektumot**
+**3. Munkafüzet-előnézeti objektum létrehozása**
 Ez az objektum a munkafüzet és a megadott beállítások alapján kiszámítja az oldalak számát.
 ```java
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
@@ -195,6 +197,9 @@ V5: Igen, az Aspose.Cells könnyen integrálható Maven vagy Gradle használatá
 - **Támogatás**: [Aspose Közösségi Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

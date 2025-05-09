@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java ile Excel Otomasyonu
@@ -23,7 +25,7 @@ Excel otomasyonu, Excel dosyalarını okuma, yazma ve düzenleme gibi görevleri
 
 ## 2. Java Projenizi Kurma
 
-Başlamak için Aspose.Cells for Java'yı şu adresten indirin: [Burada](https://releases.aspose.com/cells/java/). Kütüphaneyi Java projenize ekleyin. İşte Gradle projenize Aspose.Cells eklemek için bir kod parçası:
+Başlamak için Aspose.Cells for Java'yı şu adresten indirin: [Burada](https://releases.aspose.com/cells/java/)Kütüphaneyi Java projenize ekleyin. İşte Gradle projenize Aspose.Cells eklemek için bir kod parçası:
 
 ```gradle
 dependencies {
@@ -124,9 +126,11 @@ Java için Aspose.Cells, Excel görevlerini verimli bir şekilde otomatikleştir
 ---
 
 Kaynak kod örneklerinin yer aldığı bu adım adım kılavuz, Aspose.Cells kullanarak Java'da Excel otomasyonu için sağlam bir temel sağlamalıdır. İyi kodlamalar ve Excel görevlerinizi otomatikleştirmeler!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

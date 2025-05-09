@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Az adatkezelés területén kulcsfontosságú az információk precíz megjelen�
 ## Amit tanulni fogsz
 - Aspose.Cells munkafüzet példányosítása Java nyelven.
 - Munkalapok és adott cellák hatékony elérése.
-- A sorok magasságának automatikus beállítása a tartalom alapján.
+- sorok magasságának automatikus beállítása a tartalom alapján.
 - A módosított munkafüzet egyszerű mentése.
 - Ezen technikák gyakorlati alkalmazásai valós helyzetekben.
 
@@ -52,7 +54,7 @@ Alapvető Java programozási ismeretek, beleértve az objektumorientált alapfog
 ## Az Aspose.Cells beállítása Java-hoz
 Mielőtt az Aspose.Cells segítségével Excel fájlokat manipulálna, állítsa be a könyvtárat a környezetében:
 
-1. **Telepítés**: Illeszd be az Aspose.Cells függőséget Maven vagy Gradle segítségével a fent látható módon.
+1. **Telepítés**Illeszd be az Aspose.Cells függőséget Maven vagy Gradle segítségével a fent látható módon.
 2. **Licencszerzés**: Kezdje egy ingyenes próbaverzióval egy ideiglenes licenc letöltésével innen: [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -88,7 +90,7 @@ Itt, `dataDir` az Excel-fájl könyvtárára kell mutatnia. Ez inicializálja a 
 
 **2. lépés: Az első munkalap elérése**
 ```java
-// A munkafüzet első munkalapjának lekérése
+// munkafüzet első munkalapjának lekérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 Ez a sor a munkafüzet első munkalapját kéri le, lehetővé téve rajta műveletek végrehajtását.
@@ -120,9 +122,9 @@ Ez a kód egy új fájlnévvel menti a módosított munkafüzetet egy kimeneti k
 
 ## Gyakorlati alkalmazások
 Íme néhány valós helyzet, ahol a sorok automatikus illesztése hihetetlenül hasznos lehet:
-1. **Pénzügyi jelentéstétel**A pénzügyi kimutatások olvashatóságának biztosítása a sorméretek dinamikus módosításával a részletes adatbevitelek alapján.
+1. **Pénzügyi jelentéstétel**pénzügyi kimutatások olvashatóságának biztosítása a sorméretek dinamikus módosításával a részletes adatbevitelek alapján.
 2. **Készletgazdálkodás**A leltárlistákat a változó leírásoknak és mennyiségeknek megfelelően kell igazítani, ügyelve a letisztult megjelenítésre.
-3. **Projekttervezés**Javítsa a Gantt-diagramokat vagy a projekt ütemterveit, ahol a feladatok leírása több soron átívelő.
+3. **Projekttervezés**: Javítsa a Gantt-diagramokat vagy a projekt ütemterveit, ahol a feladatok leírása több soron átívelő.
 4. **Adatelemzés**Optimalizálja az irányítópultokat a sorok különböző hosszúságú kommentárok vagy eredmények köré rendezésével.
 
 ## Teljesítménybeli szempontok
@@ -163,6 +165,9 @@ Ezekkel az anyagokkal mélyebben elmerülhetsz az Aspose.Cells for Java képess�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

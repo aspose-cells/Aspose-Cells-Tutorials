@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Grafiklerinin Otomatikleştirilmesi
@@ -117,9 +119,11 @@ Excel grafiklerini Aspose.Cells for Java ile otomatikleştirmek, Excel dosyalar�
    API belgelerini şu adreste inceleyin: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/) Ayrıntılı bilgi ve örnekler için.
 
 Aspose.Cells for Java'yı kullanarak Excel grafik görevlerinizi kolaylıkla otomatikleştirin ve veri görselleştirme yeteneklerinizi artırın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

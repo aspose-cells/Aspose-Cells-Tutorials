@@ -1,14 +1,16 @@
 ---
-title: .NET'te Pivot Alanlarını Programatik Olarak Temizleme
-linktitle: .NET'te Pivot Alanlarını Programatik Olarak Temizleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'in gücünü açığa çıkarın. Adım adım kapsamlı eğitimimiz ile Excel'deki Pivot Alanlarını zahmetsizce temizleyin.
-weight: 11
-url: /tr/net/creating-and-configuring-pivot-tables/clearing-pivot-fields/
+"description": "Aspose.Cells for .NET'in gücünü açığa çıkarın. Excel'deki Pivot Alanlarını adım adım kapsamlı eğitimimiz ile zahmetsizce temizleyin."
+"linktitle": ".NET'te Pivot Alanlarını Programatik Olarak Temizleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Pivot Alanlarını Programatik Olarak Temizleme"
+"url": "/tr/net/creating-and-configuring-pivot-tables/clearing-pivot-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Pivot Alanlarını Programatik Olarak Temizleme
@@ -20,7 +22,7 @@ Pivot alanlarının karmaşasını programatik olarak nasıl temizleyeceğinizi 
 Bu yolculuğa çıkmadan önce, araç setinizde bulunması gereken birkaç şey var:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodumuzu yazmak için bu IDE'yi kullanacağız.
-2.  Aspose.Cells for .NET: Excel dosyalarını düzenlemek için kullanacağımız ana paket budur. Eğer henüz yapmadıysanız, indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Excel dosyalarını düzenlemek için kullanacağımız ana paket budur. Eğer henüz yapmadıysanız, indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Uzman olmanıza gerek yok, ancak C# hakkında temel bir anlayışa sahip olmak, birlikte inceleyeceğimiz kodda gezinmenize yardımcı olacaktır.
 
 ## Paketleri İçe Aktar
@@ -62,16 +64,16 @@ Sonra, üzerinde çalışmak istediğimiz Excel dosyasını yükleyelim. Bu adı
 // Bir şablon dosyası yükleyin
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Burada yeni bir örnek oluşturuyoruz`Workbook` nesne ve "Book1.xls" adlı Excel dosyamızı yüklüyoruz. Bu, mevcut verilerle etkileşime girmemizi sağlar.
+Burada yeni bir örnek oluşturuyoruz `Workbook` nesne ve "Book1.xls" adlı Excel dosyamızı yüklüyoruz. Bu, mevcut verilerle etkileşime girmemizi sağlar.
 
 ## Adım 3: Çalışma Sayfasına Erişim
-Artık çalışma kitabını açtığımıza göre, pivot tabloları içeren belirli çalışma sayfasına erişmemiz gerekiyor. İhtiyacınız olanı bulmak için sayfaları çevirmek gibi.
+Artık çalışma kitabımız açık olduğuna göre, pivot tabloları içeren belirli çalışma sayfasına erişmemiz gerekiyor. İhtiyacınız olanı bulmak için sayfaları çevirmek gibi.
 
 ```csharp
 // İlk çalışma kağıdını al
 Worksheet sheet = workbook.Worksheets[0];
 ```
- The`Worksheets`koleksiyon bize herhangi bir sayfayı indeksine göre (0'dan başlayarak) almamızı sağlar. Burada, sadece ilkini alıyoruz.
+The `Worksheets` koleksiyon bize herhangi bir sayfayı indeksine göre (0'dan başlayarak) almamızı sağlar. Burada, sadece ilkini alıyoruz.
 
 ## Adım 4: Pivot Tabloları Edinin
 Bir sonraki adım, seçtiğimiz çalışma sayfasındaki tüm pivot tabloları toplamaktır. Ne üzerinde çalıştığımızı görmenin zamanı geldi!
@@ -80,7 +82,7 @@ Bir sonraki adım, seçtiğimiz çalışma sayfasındaki tüm pivot tabloları t
 // Pivot tabloları sayfaya alın
 PivotTableCollection pivotTables = sheet.PivotTables;
 ```
- Biz bir tane yaratıyoruz`PivotTableCollection` Sayfada bulunan tüm pivot tablolarını tutan örnek. Bu, pivot tablolarını yönetmek için araç kutumuzdur.
+Biz bir tane yaratıyoruz `PivotTableCollection` Sayfada bulunan tüm pivot tablolarını tutan örnek. Bu, pivot tablolarını yönetmek için araç kutumuzdur.
 
 ## Adım 5: İlk Pivot Tabloya Erişim
 Bu örnek için ilk pivot tabloya odaklanalım. Bu, aynı anda çok fazla projeyle uğraşmak yerine tek bir proje üzerinde çalışmaya karar vermek gibi bir şey!
@@ -94,10 +96,10 @@ Daha önce olduğu gibi, ilk pivot tabloya erişiyoruz. Sayfanızda en az bir pi
 ## Adım 6: Veri Alanlarını Temizle
 Şimdi asıl önemli kısma geliyoruz: pivot tablomuzun veri alanlarını temizlemek. Bu, herhangi bir hesaplamayı veya özeti sıfırlamaya yardımcı olur.
 ```csharp
-//Tüm veri alanlarını temizle
+// Tüm veri alanlarını temizle
 pivotTable.DataFields.Clear();
 ```
- The`Clear()` Bu yöntem, sıfırlama düğmesine basmak gibi olup, veri alanlarımızla yeni bir başlangıç yapmamızı sağlar.
+The `Clear()` Bu yöntem, sıfırlama düğmesine basmak gibi olup, veri alanlarımızla yeni bir başlangıç yapmamızı sağlar.
 
 ## Adım 7: Yeni Veri Alanı Ekle
 Eski veri alanlarını temizledikten sonra yenilerini ekleyebiliriz. Bu adım, taze bir yemek için bir tarifteki malzemeleri değiştirmek gibidir!
@@ -114,7 +116,7 @@ Burada, "Betrag Netto FW" adlı yeni bir veri alanı ekliyoruz. Bu, pivot tablom
 // Yenileme veri bayrağını ayarlayın
 pivotTable.RefreshDataFlag = false;
 ```
- Ayarlama`RefreshDataFlag` false gereksiz veri alımını önler. Bu, asistanınıza henüz market alışverişi yapmamasını söylemek gibidir!
+Ayarlama `RefreshDataFlag` false gereksiz veri alımını önler. Bu, asistanınıza henüz market alışverişi yapmamasını söylemek gibidir!
 
 ## Adım 9: Verileri Yenile ve Hesapla
 Yenile butonuna basalım ve pivot tablomuzun yeni verilerle güncellendiğinden emin olmak için bazı hesaplamalar yapalım.
@@ -124,7 +126,7 @@ Yenile butonuna basalım ve pivot tablomuzun yeni verilerle güncellendiğinden 
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
- The`RefreshData()`yöntem geçerli verileri getirir ve pivot tabloyu günceller. Bu arada,`CalculateData()` Yapılması gereken hesaplamaları işler.
+The `RefreshData()` yöntem geçerli verileri getirir ve pivot tabloyu günceller. Bu arada, `CalculateData()` Yapılması gereken hesaplamaları işler.
 
 ## Adım 10: Çalışma Kitabını Kaydedin
 Son olarak Excel dosyasında yaptığımız değişiklikleri kaydedelim. Mektubu yazdıktan sonra zarfı mühürlemek gibi!
@@ -144,7 +146,7 @@ Burada, değiştirilmiş çalışma kitabını "output.xls" adı altında kayded
 Aspose.Cells for .NET, kullanıcıların Excel dosyaları oluşturmasına, düzenlemesine, dönüştürmesine ve yazdırmasına olanak tanıyan bir Excel dosya düzenleme kütüphanesidir.
 
 ### Aspose.Cells için lisansa ihtiyacım var mı?
- Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz denemeyle başlayabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Bu yöntemi kullanarak birden fazla pivot alanını temizleyebilir miyim?
 Evet! Birden fazla pivot tabloyu yinelemek ve gerektiğinde alanlarını temizlemek için bir döngü kullanabilirsiniz.
@@ -153,10 +155,12 @@ Evet! Birden fazla pivot tabloyu yinelemek ve gerektiğinde alanlarını temizle
 XLS, XLSX, CSV ve daha birçok Excel formatıyla çalışabilirsiniz.
 
 ### Aspose.Cells konusunda yardım alabileceğiniz bir topluluk var mı?
- Kesinlikle! Aspose topluluk desteği bulunabilir[Burada](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Aspose topluluk desteği bulunabilir [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

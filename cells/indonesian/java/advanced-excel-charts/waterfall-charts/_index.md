@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bagan Air Terjun
@@ -18,11 +20,11 @@
 
 Bagan waterfall merupakan alat penting dalam visualisasi data, yang memungkinkan Anda melacak efek kumulatif dari nilai positif atau negatif yang dimasukkan secara berurutan. Dalam panduan ini, kita akan menjelajahi cara membuat bagan waterfall yang menakjubkan menggunakan Aspose.Cells for Java API. Baik Anda mengerjakan laporan keuangan, analisis penjualan, atau proyek berbasis data apa pun, bagan waterfall dapat memberikan wawasan berharga tentang data Anda.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita membahas detailnya, pastikan Anda telah memenuhi prasyarat berikut:
 
-- Aspose.Cells untuk Java: Anda harus menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Anda harus menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
 
@@ -81,7 +83,7 @@ waterfallChart.getNSeries().setCategoryData("A2:A6");
 
 Kami telah menambahkan diagram waterfall ke lembar kerja kami, menentukan seri data dan kategori data. Anda dapat menyesuaikan tampilan diagram lebih lanjut sesuai kebutuhan Anda.
 
-## Langkah 5: Simpan Buku Kerja
+## 5. lépés: A munkafüzet mentése
 
 ```java
 workbook.save("WaterfallChart.xlsx");
@@ -89,11 +91,11 @@ workbook.save("WaterfallChart.xlsx");
 
 Simpan buku kerja ke dalam sebuah berkas. Anda dapat memilih format apa pun yang Anda inginkan, seperti XLSX atau PDF.
 
-## Kesimpulan
+## Következtetés
 
 Membuat diagram waterfall menggunakan Aspose.Cells for Java mudah dan dapat meningkatkan kemampuan visualisasi data Anda. Dengan mengikuti langkah-langkah ini, Anda dapat secara efisien menyajikan perubahan data kumulatif dengan cara yang menarik secara visual. Bereksperimenlah dengan berbagai kumpulan data dan kustomisasi diagram untuk memenuhi kebutuhan proyek Anda dengan sebaik-baiknya.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana saya dapat menyesuaikan tampilan bagan air terjun saya?
 
@@ -118,6 +120,7 @@ Anda dapat menjelajahi dokumentasi untuk Aspose.Cells untuk Java di [referensi.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

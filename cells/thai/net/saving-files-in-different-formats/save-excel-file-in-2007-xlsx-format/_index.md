@@ -1,14 +1,16 @@
 ---
-title: บันทึกไฟล์ Excel ในรูปแบบ xlsx 2007
-linktitle: บันทึกไฟล์ Excel ในรูปแบบ xlsx 2007
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: บันทึกไฟล์ Excel ในรูปแบบ XLSX ได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนนี้โดยใช้ Aspose.Cells สำหรับ .NET เชี่ยวชาญการจัดการ Excel
-weight: 12
-url: /th/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-format/
+"description": "บันทึกไฟล์ Excel ในรูปแบบ XLSX ได้อย่างง่ายดายด้วยคู่มือทีละขั้นตอนนี้โดยใช้ Aspose.Cells สำหรับ .NET เชี่ยวชาญการจัดการ Excel"
+"linktitle": "บันทึกไฟล์ Excel ในรูปแบบ xlsx 2007"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "บันทึกไฟล์ Excel ในรูปแบบ xlsx 2007"
+"url": "/th/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-format/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # บันทึกไฟล์ Excel ในรูปแบบ xlsx 2007
@@ -18,7 +20,7 @@ url: /th/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-form
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะลงรายละเอียดที่น่าสนใจ มีข้อกำหนดเบื้องต้นสองสามข้อที่คุณต้องมี:
 1. Visual Studio - ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในระบบของคุณแล้ว ซึ่งจะช่วยให้คุณเขียนและรันโค้ด C# ได้อย่างง่ายดาย
-2. ไลบรารี Aspose.Cells - คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก[หน้าเปิดตัว Aspose Cells](https://releases.aspose.com/cells/net/).
+2. ไลบรารี Aspose.Cells - คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก [หน้าเปิดตัว Aspose Cells](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานด้านการเขียนโปรแกรม - ความคุ้นเคยกับ C# และ .NET บางส่วนจะช่วยเพิ่มความเข้าใจของคุณเกี่ยวกับตัวอย่างโค้ดที่เราจะครอบคลุม
 4. ไดเรกทอรีเอกสารทดสอบ - สร้างหรือตัดสินใจเลือกโฟลเดอร์ที่คุณจะบันทึกและทดสอบไฟล์ Excel ของคุณ สำหรับบทช่วยสอนนี้ เราจะเรียกโฟลเดอร์นี้ว่า "ไดเรกทอรีเอกสารของคุณ"
 เมื่อทุกอย่างพร้อมแล้ว คุณก็พร้อมที่จะแสดงทักษะของคุณแล้ว!
@@ -27,7 +29,7 @@ url: /th/net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-form
 ### เปิด IDE ของคุณ
 เปิด Visual Studio ของคุณและสร้างโปรเจ็กต์ใหม่ (แนะนำให้ใช้แอปพลิเคชันคอนโซลเพื่อความเรียบง่าย)
 ### นำเข้าเนมสเปซที่จำเป็น
- ที่ด้านบนของคุณ`.cs` ไฟล์คุณจะต้องนำเข้า`Aspose.Cells` namespace เพิ่มบรรทัดต่อไปนี้:
+ที่ด้านบนของคุณ `.cs` ไฟล์คุณจะต้องนำเข้า `Aspose.Cells` namespace เพิ่มบรรทัดต่อไปนี้:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -39,35 +41,37 @@ using Aspose.Cells;
 ```csharp
 string dataDir = "Your Document Directory"; // แทนที่ด้วยเส้นทางจริงของคุณ
 ```
- อย่าลืมเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางจริงในระบบของคุณ นี่จะเป็นตำแหน่งที่ไฟล์ Excel ของคุณจะถูกส่งออก
+อย่าลืมเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงในระบบของคุณ นี่จะเป็นตำแหน่งที่ไฟล์ Excel ของคุณจะถูกส่งออก
 ## ขั้นตอนที่ 2: สร้างวัตถุเวิร์กบุ๊ก
- ตอนนี้ถึงเวลาสร้างอินสแตนซ์ของ`Workbook` คลาสซึ่งเป็นวัตถุหลักที่ใช้ตลอดทั้ง Aspose.Cells ซึ่งแสดงถึงสเปรดชีต Excel ของคุณ
+ตอนนี้ถึงเวลาสร้างอินสแตนซ์ของ `Workbook` คลาสซึ่งเป็นวัตถุหลักที่ใช้ตลอดทั้ง Aspose.Cells ซึ่งแสดงถึงสเปรดชีต Excel ของคุณ
 ```csharp
 Workbook workbook = new Workbook();
 ```
- คิดถึง`Workbook` เป็นผืนผ้าใบเปล่าสำหรับผลงานชิ้นเอก Excel ของคุณ
+คิดถึง `Workbook` เป็นผืนผ้าใบเปล่าสำหรับผลงานชิ้นเอก Excel ของคุณ
 ## ขั้นตอนที่ 3: บันทึกสมุดงานในรูปแบบ XLSX
 ตอนนี้มาถึงช่วงเวลาแห่งความรุ่งโรจน์แล้ว! คุณจะบันทึกสมุดงานของคุณในรูปแบบ XLSX ซึ่งเป็นขั้นตอนที่ผืนผ้าใบเปล่าของคุณจะถูกแปลงเป็นไฟล์ Excel จริง
 ```csharp
 workbook.Save(dataDir + "output.xlsx", SaveFormat.Xlsx);
 ```
- ที่นี่,`output.xlsx` คือชื่อไฟล์ที่คุณกำลังสร้าง คุณสามารถเปลี่ยนชื่อไฟล์เป็นชื่ออะไรก็ได้ แต่ต้องแน่ใจว่าลงท้ายด้วย`.xlsx` เพื่อแสดงว่ามันเป็นไฟล์ Excel`SaveFormat.Xlsx` พารามิเตอร์แจ้งให้ Aspose บันทึกโดยเฉพาะในรูปแบบ XLSX ปี 2007
+ที่นี่, `output.xlsx` คือชื่อไฟล์ที่คุณกำลังสร้าง คุณสามารถเปลี่ยนชื่อไฟล์เป็นชื่ออะไรก็ได้ แต่ต้องแน่ใจว่าลงท้ายด้วย `.xlsx` เพื่อแสดงว่ามันเป็นไฟล์ Excel `SaveFormat.Xlsx` พารามิเตอร์แจ้งให้ Aspose บันทึกโดยเฉพาะในรูปแบบ XLSX ปี 2007
 ## บทสรุป
 ขอแสดงความยินดี! ตอนนี้คุณได้บันทึกไฟล์ Excel ในรูปแบบ XLSX 2007 โดยใช้ Aspose.Cells สำหรับ .NET สำเร็จแล้ว ไม่ต้องเครียดกับรูปแบบไฟล์ Excel อีกต่อไป! โปรดจำไว้ว่าการเขียนโปรแกรมคือการแบ่งงานที่ซับซ้อนออกเป็นขั้นตอนง่ายๆ และนั่นคือสิ่งที่เราได้ทำที่นี่ หากคุณลองใช้ไลบรารี Aspose.Cells คุณจะค้นพบคุณสมบัติเพิ่มเติมอีกมากมายที่จะช่วยปรับปรุงและเพิ่มประสิทธิภาพงานที่เกี่ยวข้องกับ Excel ของคุณได้ ดังนั้น จงสร้างสรรค์และสำรวจความเป็นไปได้ใหม่ๆ! 
 ## คำถามที่พบบ่อย
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารีอันทรงพลังสำหรับการทำงานกับไฟล์ Excel ในแอปพลิเคชัน .NET ซึ่งมีฟังก์ชันมากมายสำหรับการจัดการ การแปลง และการคำนวณ
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
- Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้หลังจากช่วงทดลองใช้งาน คุณจะต้องซื้อใบอนุญาต สำหรับรายละเอียด โปรดไปที่[ซื้อ Aspose.Cells](https://purchase.aspose.com/buy).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้หลังจากช่วงทดลองใช้งาน คุณจะต้องซื้อใบอนุญาต สำหรับรายละเอียด โปรดไปที่ [ซื้อ Aspose.Cells](https://purchase-aspose.com/buy).
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมได้ที่ไหน
- คุณสามารถตรวจสอบเอกสารสำหรับตัวอย่างและข้อมูลรายละเอียดเกี่ยวกับ Aspose.Cells ได้[ที่นี่](https://reference.aspose.com/cells/net/).
+คุณสามารถตรวจสอบเอกสารสำหรับตัวอย่างและข้อมูลรายละเอียดเกี่ยวกับ Aspose.Cells ได้ [ที่นี่](https://reference-aspose.com/cells/net/).
 ### ฉันสามารถใช้ Aspose.Cells โดยไม่ใช้ Visual Studio ได้หรือไม่
 ใช่ คุณสามารถใช้ Aspose.Cells ในสภาพแวดล้อมที่รองรับ .NET ไม่เพียงแค่ Visual Studio เท่านั้น
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร
-คุณสามารถเข้าถึงการสนับสนุนชุมชนได้ผ่านทาง[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถเข้าถึงการสนับสนุนชุมชนได้ผ่านทาง [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

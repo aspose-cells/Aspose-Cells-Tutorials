@@ -8,7 +8,9 @@ url: /net/data-loading-and-parsing/opening-file-with-data-only/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening File with Data Only
@@ -85,6 +87,7 @@ For support, you can visit the [Aspose Forum](https://forum.aspose.com/c/cells/9
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ Ortamınız hazır olduğunda projenizde Aspose.Cells'i başlatın:
 
 ### Bir Excel Dosyasından Bir Grafiği Yükleme ve Yenileme
 
-**Genel bakış**: Bu özellik, mevcut bir Excel dosyasını grafikle yüklemenize ve veri doğruluğunu garantilemek için onu yenilemenize olanak tanır.
+**Genel bakış**: Bu özellik, mevcut bir Excel dosyasını grafikle yüklemenize ve veri doğruluğunu garantilemek için yenilemenize olanak tanır.
 
 #### Adım Adım Uygulama
 
@@ -196,6 +198,9 @@ Bu öğreticiyi takip ederek, gelişmiş Excel grafik yönetimi için Aspose.Cel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Zanim zaczniemy, upewnij się, że masz następującą konfigurację:
 
 **Konfiguracja środowiska:**
 - Pakiet Java Development Kit (JDK) zainstalowany na Twoim komputerze.
-- Środowisko IDE, np. IntelliJ IDEA, Eclipse lub dowolny edytor tekstu obsługujący Javę.
+- Środowisko IDE, takie jak IntelliJ IDEA, Eclipse lub dowolny edytor tekstu obsługujący Javę.
 
 **Wymagania wstępne dotyczące wiedzy:**
 - Podstawowa znajomość programowania w Javie.
@@ -190,6 +192,9 @@ Po co czekać? Zacznij wdrażać te techniki w swoich projektach już dziś!
 Rozpocznij przygodę z Aspose.Cells Java już dziś i odkryj pełen potencjał manipulowania plikami Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

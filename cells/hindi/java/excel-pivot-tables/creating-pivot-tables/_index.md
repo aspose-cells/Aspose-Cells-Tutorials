@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पिवट टेबल बनाना
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    आप Aspose.Cells for Java API का उपयोग करके जावा में पिवट टेबल निर्माण को स्वचालित कर सकते हैं, जैसा कि इस ट्यूटोरियल में दिखाया गया है।
 
 अब आपके पास Aspose.Cells का उपयोग करके जावा में शक्तिशाली पिवट टेबल बनाने का ज्ञान और कोड है। अपनी विशिष्ट आवश्यकताओं के अनुसार अपनी पिवट टेबल को तैयार करने के लिए विभिन्न डेटा स्रोतों और कॉन्फ़िगरेशन के साथ प्रयोग करें। डेटा विश्लेषण का आनंद लें!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

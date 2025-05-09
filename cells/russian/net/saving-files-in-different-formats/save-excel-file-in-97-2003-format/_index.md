@@ -1,14 +1,16 @@
 ---
-title: Сохранить файл Excel в формате 97-2003
-linktitle: Сохранить файл Excel в формате 97-2003
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как сохранять файлы Excel в формате 97-2003 с помощью Aspose.Cells для .NET. Получите практические советы и пошаговые инструкции.
-weight: 10
-url: /ru/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
+"description": "Узнайте, как сохранять файлы Excel в формате 97-2003 с помощью Aspose.Cells для .NET. Получите практические советы и пошаговые инструкции."
+"linktitle": "Сохранить файл Excel в формате 97-2003"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Сохранить файл Excel в формате 97-2003"
+"url": "/ru/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранить файл Excel в формате 97-2003
@@ -18,7 +20,7 @@ url: /ru/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format
 ## Предпосылки
 Прежде чем мы углубимся в детали, вам нужно будет отметить в своем списке несколько предварительных условий:
 1. Базовые знания .NET: знакомство с C# или VB.NET будет чрезвычайно полезным.
-2.  Aspose.Cells для .NET: Убедитесь, что в вашем проекте установлена библиотека Aspose.Cells. Если вы еще этого не сделали, вы можете[скачать здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Убедитесь, что в вашем проекте установлена библиотека Aspose.Cells. Если вы еще этого не сделали, вы можете [скачать здесь](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Среда разработки, такая как Visual Studio или любая совместимая с .NET IDE, облегчит кодирование и отладку.
 4. Менеджер пакетов NuGet: для максимально простой установки Aspose.Cells в вашем проекте. 
 Как только вы выполните все эти предварительные условия, мы готовы приступить к работе!
@@ -44,9 +46,9 @@ using Aspose.Cells;
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-- `"Your Document Directory"` : Замените эту строку-заполнитель на фактический путь, по которому вы хотите сохранить файл Excel. Это может быть что-то вроде`"C:\\ExcelFiles\\"`.
+- `"Your Document Directory"`: Замените эту строку-заполнитель на фактический путь, по которому вы хотите сохранить файл Excel. Это может быть что-то вроде `"C:\\ExcelFiles\\"`.
 ## Шаг 2: Создание нового объекта рабочей книги
- Далее давайте создадим новый экземпляр`Workbook` класс. Вот где происходит вся магия!
+Далее давайте создадим новый экземпляр `Workbook` класс. Вот где происходит вся магия!
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -72,16 +74,18 @@ workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ### Что такое Aspose.Cells?
 Aspose.Cells — мощная библиотека для .NET, которая позволяет разработчикам работать с форматами файлов Excel без необходимости установки Microsoft Excel.
 ### Как загрузить Aspose.Cells для .NET?
- Вы можете скачать его здесь[эта ссылка](https://releases.aspose.com/cells/net/).
+Вы можете скачать его здесь [эта ссылка](https://releases.aspose.com/cells/net/).
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, вы можете попробовать бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете попробовать бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 ### В каких форматах можно сохранить файл Excel?
 Вы можете сохранять файлы Excel в различных форматах, таких как XLS, XLSX, CSV, PDF и других.
 ### Где я могу получить поддержку по Aspose.Cells?
- Посетите[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) за помощь.
+Посетите [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) за помощь.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

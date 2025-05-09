@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Experimenteer met extra functies van Aspose.Cells, zoals grafiekconversie of geg
 Deze handleiding biedt een uitgebreid overzicht van het gebruik van Aspose.Cells voor Java om Excel-bestanden naar PDF te converteren. Zo beschikt u over de tools en kennis die nodig zijn om deze oplossing effectief te implementeren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

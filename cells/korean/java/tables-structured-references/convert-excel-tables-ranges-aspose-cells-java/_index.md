@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Aspose.Cells Java를 사용하여 데이터 처리 프로세스를 개선하는 
 
 시작하기 전에 다음 사항을 확인하세요.
 1. **필수 라이브러리**: 
-   - 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+   - 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
    - Aspose.Cells 라이브러리(버전 25.3 권장).
 2. **환경 설정**:
    - 컴퓨터에 JDK가 설치되어 있습니다.
@@ -175,6 +177,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

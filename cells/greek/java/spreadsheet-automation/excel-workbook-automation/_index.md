@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποίηση βιβλίου εργασίας Excel
@@ -110,9 +112,11 @@ public class UpdateExcelData {
    Μπορείτε να ανατρέξετε στην τεκμηρίωση του API στη διεύθυνση [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) για αναλυτικές πληροφορίες και δείγματα κώδικα.
 
 Μη διστάσετε να εξερευνήσετε πιο προηγμένες λειτουργίες και δυνατότητες του Aspose.Cells για Java για να προσαρμόσετε τις ανάγκες αυτοματοποίησης του Excel σας. Εάν έχετε συγκεκριμένες ερωτήσεις ή χρειάζεστε περαιτέρω βοήθεια, μη διστάσετε να ρωτήσετε.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

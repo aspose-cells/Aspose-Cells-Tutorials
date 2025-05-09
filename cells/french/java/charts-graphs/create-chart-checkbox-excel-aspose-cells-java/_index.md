@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Voici quelques scénarios réels dans lesquels vous pouvez appliquer les connais
 3. **Outils pédagogiques :** Créez des supports d’apprentissage dynamiques où les étudiants peuvent interagir avec le contenu en sélectionnant différentes options dans des graphiques.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

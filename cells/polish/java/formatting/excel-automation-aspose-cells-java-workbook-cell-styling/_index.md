@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ public class AddWorksheet {
 
 **3.4 Dostęp do arkuszy kalkulacyjnych**
 
-Uzyskaj dostęp do dowolnego arkusza kalkulacyjnego według jego indeksu w `WorksheetCollection`.
+Uzyskaj dostęp do dowolnego arkusza kalkulacyjnego za pomocą jego indeksu w `WorksheetCollection`.
 
 ### Funkcja 3: Praca z komórkami i stylami
 
@@ -228,6 +230,9 @@ tym przewodniku nauczyłeś się, jak tworzyć i konfigurować skoroszyty progra
    - Obsługuje różne formaty Excela, w tym XLSX i CSV.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

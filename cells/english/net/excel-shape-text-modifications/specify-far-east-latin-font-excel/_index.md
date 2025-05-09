@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/specify-far-east-latin-font-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Far East & Latin Font in Excel
@@ -109,6 +111,7 @@ You can purchase Aspose.Cells directly from the [Aspose website](https://purchas
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

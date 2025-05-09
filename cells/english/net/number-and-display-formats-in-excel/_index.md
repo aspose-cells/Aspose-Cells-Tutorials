@@ -8,7 +8,9 @@ url: /net/number-and-display-formats-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Number and Display Formats in Excel
@@ -30,9 +32,11 @@ If you’re looking to add a personal touch to your Excel sheets, customizing di
 Automate number formatting in Excel using Aspose.Cells for .NET. Learn how to apply date, percentage, and currency formats programmatically.
 ### [Customizing Display Formats with User-Defined Numbers](./customizing-display-formats-with-user-defined-numbers/)
 Learn how to customize display formats with Aspose.Cells for .NET. Format dates, percentages, and currency using this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Hemos explicado cómo añadir un cuadro de texto a un gráfico de Excel con Aspo
 Siguiendo esta guía, podrá integrar Aspose.Cells eficientemente en sus proyectos Java para mejorar las funcionalidades de gráficos de Excel con anotaciones de texto personalizadas. ¡Que disfrute programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

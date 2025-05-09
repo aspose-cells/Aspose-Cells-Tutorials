@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Poznaj więcej, zagłębiając się w dodatkowe funkcje i możliwości Aspose.Ce
 Poznaj bliżej Aspose.Cells, rozwiń swoje umiejętności w zakresie języka Java i zrewolucjonizuj sposób interakcji z danymi w programie Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

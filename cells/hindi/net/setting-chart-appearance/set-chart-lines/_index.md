@@ -1,14 +1,16 @@
 ---
-title: चार्ट लाइन सेट करें
-linktitle: चार्ट लाइन सेट करें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में चार्ट लाइनों को अनुकूलित करना सीखें।
-weight: 14
-url: /hi/net/setting-chart-appearance/set-chart-lines/
+"description": "हमारे विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में चार्ट लाइनों को अनुकूलित करना सीखें।"
+"linktitle": "चार्ट लाइन सेट करें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट लाइन सेट करें"
+"url": "/hi/net/setting-chart-appearance/set-chart-lines/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट लाइन सेट करें
@@ -23,7 +25,7 @@ url: /hi/net/setting-chart-appearance/set-chart-lines/
 
 - विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके पास विज़ुअल स्टूडियो इंस्टॉल है। सभी सुविधाओं का लाभ उठाने के लिए नवीनतम संस्करण का उपयोग करना अत्यधिक अनुशंसित है।
 - .NET फ्रेमवर्क: आपका प्रोजेक्ट .NET फ्रेमवर्क (या .NET कोर) पर आधारित होना चाहिए जहां आप Aspose.Cells को लागू करेंगे।
--  .NET के लिए Aspose.Cells: Aspose.Cells को डाउनलोड करें और इंस्टॉल करें[Aspose वेबसाइट](https://releases.aspose.com/cells/net/).
+- .NET के लिए Aspose.Cells: Aspose.Cells को डाउनलोड करें और इंस्टॉल करें [Aspose वेबसाइट](https://releases.aspose.com/cells/net/).
 - C# की बुनियादी समझ: कोडिंग करते समय C# प्रोग्रामिंग भाषा की जानकारी उपयोगी होगी।
 
 ## पैकेज आयात करें
@@ -47,7 +49,7 @@ using System.Drawing;
 string outputDir = "Your Output Directory";
 ```
 
- स्पष्टीकरण: "आपकी आउटपुट निर्देशिका" को उस पथ से बदलें जहाँ आप चाहते हैं कि Aspose.Cells फ़ाइल को सहेजे, जैसे`C:\\MyExcelFiles\\`.
+स्पष्टीकरण: "आपकी आउटपुट निर्देशिका" को उस पथ से बदलें जहाँ आप चाहते हैं कि Aspose.Cells फ़ाइल को सहेजे, जैसे `C:\\MyExcelFiles\\`.
 
 ## चरण 2: वर्कबुक ऑब्जेक्ट को इंस्टैंसिएट करें
 
@@ -58,7 +60,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- स्पष्टीकरण: यह पंक्ति एक उदाहरण बनाती है`Workbook`Aspose.Cells लाइब्रेरी से क्लास। यह एक नई खाली एक्सेल फ़ाइल खोलने जैसा है जहाँ आप अपनी शीट और डेटा जोड़ना शुरू कर सकते हैं।
+स्पष्टीकरण: यह पंक्ति एक उदाहरण बनाती है `Workbook` Aspose.Cells लाइब्रेरी से क्लास। यह एक नई खाली एक्सेल फ़ाइल खोलने जैसा है जहाँ आप अपनी शीट और डेटा जोड़ना शुरू कर सकते हैं।
 
 ## चरण 3: वर्कशीट का संदर्भ लें
 
@@ -69,7 +71,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- स्पष्टीकरण: कार्यपत्रक 0 से शुरू होकर अनुक्रमित होते हैं, इसलिए`worksheets[0]` प्रथम कार्यपत्रक को संदर्भित करता है।
+स्पष्टीकरण: कार्यपत्रकों को 0 से आरंभ करके अनुक्रमित किया जाता है, इसलिए `worksheets[0]` प्रथम कार्यपत्रक को संदर्भित करता है।
 
 ## चरण 4: कक्षों में नमूना मान जोड़ें
 
@@ -122,7 +124,7 @@ chart.NSeries.Add("A1:B3", true);
 
 ## चरण 8: चार्ट का स्वरूप अनुकूलित करें
 
-अब मज़ेदार भाग - अपने चार्ट को कस्टमाइज़ करना! चलिए कुछ रंग बदलते हैं।
+अब मज़ेदार भाग के लिए - अपने चार्ट को कस्टमाइज़ करना! चलो कुछ रंग बदलते हैं।
 
 ```csharp
 // प्लॉट क्षेत्र का अग्रभूमि रंग सेट करना
@@ -191,19 +193,21 @@ Console.WriteLine("SettingChartLines executed successfully.");
 Aspose.Cells for .NET, .NET अनुप्रयोगों में एक्सेल स्प्रेडशीट में हेरफेर करने के लिए एक शक्तिशाली लाइब्रेरी है।
 
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?  
- हां, Aspose अपनी कार्यक्षमता का परीक्षण करने के लिए एक निःशुल्क परीक्षण प्रदान करता है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, Aspose अपनी कार्यक्षमता का परीक्षण करने के लिए एक निःशुल्क परीक्षण प्रदान करता है। आप इसे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या Aspose.Cells के लिए समर्थन उपलब्ध है?  
- बिल्कुल! आप यहाँ से सहायता प्राप्त कर सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+बिल्कुल! आप यहाँ से सहायता प्राप्त कर सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 ### क्या मैं Aspose.Cells का उपयोग करके अन्य प्रकार के चार्ट बना सकता हूँ?  
 हां, Aspose लाइन, पाई और क्षेत्र चार्ट सहित विभिन्न प्रकार के चार्ट का समर्थन करता है।
 
 ### मैं Aspose.Cells के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?  
- आप इसके लिए आवेदन कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose वेबसाइट के माध्यम से.
+आप इसके लिए आवेदन कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose वेबसाइट के माध्यम से.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Scopri come automatizzare le attività di Excel con Aspose.Cells in Java, tra cui la creazione di cartelle di lavoro e l'impostazione di formati di carta personalizzati."
-"title": "Crea una cartella di lavoro e imposta un formato carta personalizzato utilizzando Aspose.Cells per Java"
+"title": "Crea una cartella di lavoro e imposta un formato di carta personalizzato utilizzando Aspose.Cells per Java"
 "url": "/it/java/headers-footers/create-workbook-custom-paper-size-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Personalizza l'impostazione di pagina del tuo foglio di lavoro per assicurarti c
    ws.getPageSetup().customPaperSize(6, 4); // Imposta larghezza e altezza in pollici
    ```
 
-### Accesso e modifica del valore della cella
+### Accedi e modifica il valore della cella
 
 **Panoramica:**
 Modifica valori di celle specifiche per riflettere accuratamente i dati all'interno del foglio di lavoro.
@@ -174,6 +176,9 @@ Scopri Aspose.Cells per Java e potenzia subito i tuoi progetti di automazione Ex
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

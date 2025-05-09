@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mempertahankan Presisi untuk Angka Besar Menggunakan Aspose.Cells di Java
 
-## Perkenalan
+## Bevezetés
 
 Menangani data numerik besar yang presisinya sangat penting—seperti angka keuangan atau pengukuran ilmiah—bisa jadi menantang. Tutorial ini memandu Anda menggunakan pustaka Java Aspose.Cells untuk memastikan angka besar tetap akurat saat bekerja dengan file Excel.
 
@@ -25,16 +27,16 @@ Dalam panduan ini, kita akan mempelajari cara menggunakan Aspose.Cells untuk Jav
 
 Mari kita mulai dengan memeriksa prasyaratnya.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda memiliki pengaturan berikut:
-- **Perpustakaan**: Aspose.Cells untuk pustaka Java (versi 25.3)
-- **Lingkungan**: Lingkungan pengembangan dengan JDK terinstal (sebaiknya JDK 8 atau yang lebih baru)
-- **Pengetahuan**: Pengetahuan dasar tentang pemrograman Java dan alat build Maven/Gradle
+- **Könyvtárak**: Aspose.Cells untuk pustaka Java (versi 25.3)
+- **Környezet**: Lingkungan pengembangan dengan JDK terinstal (sebaiknya JDK 8 atau yang lebih baru)
+- **Tudás**: Pengetahuan dasar tentang pemrograman Java dan alat build Maven/Gradle
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi:
+### Telepítési információk:
 Untuk mengintegrasikan Aspose.Cells dalam proyek Anda, gunakan Maven atau Gradle. Berikut cara melakukannya:
 
 **Pakar:**
@@ -51,22 +53,22 @@ Untuk mengintegrasikan Aspose.Cells dalam proyek Anda, gunakan Maven atau Gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Untuk menggunakan Aspose.Cells, Anda dapat:
-- **Uji Coba Gratis**Unduh perpustakaan untuk memulai uji coba gratis.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk evaluasi lanjutan.
-- **Pembelian**: Pertimbangkan untuk membeli jika sesuai dengan kebutuhan Anda.
+- **Ingyenes próbaverzió**Unduh perpustakaan untuk memulai uji coba gratis.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Vásárlás**: Pertimbangkan untuk membeli jika sesuai dengan kebutuhan Anda.
 
-### Inisialisasi dan Pengaturan Dasar
-Setelah terinstal, inisialisasi Aspose.Cells di aplikasi Java Anda dengan membuat `Workbook` obyek:
+### Alapvető inicializálás és beállítás
+Setelah terinstal, inisialisasi Aspose.Cells di aplikasi Java Anda dengan membuat `Workbook` objektum:
 ```java
 import com.aspose.cells.*;
 
-// Inisialisasi Buku Kerja
+// Munkafüzet inicializálása
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan proses implementasi menjadi beberapa langkah yang jelas.
 
@@ -89,14 +91,14 @@ loadOptions.setKeepPrecision(true);
 java.io.ByteArrayInputStream stream = new java.io.ByteArrayInputStream(byteArray);
 Workbook workbook = new Workbook(stream, loadOptions);
 ```
-**Penjelasan:**
-- **`HtmlLoadOptions`**: Mengonfigurasi bagaimana HTML dimuat. `setKeepPrecision(true)` memastikan angka besar tidak terpotong.
+**Magyarázat:**
+- **`HtmlLoadOptions`**: Mengonfigurasi bagaimana HTML dimuat. `setKeepPrecision(true)` memastikan angka yang besar tidak terpotong.
 - **Konversi Aliran Byte**: Mengubah string HTML menjadi aliran byte untuk dimuat ke Aspose.Cells.
 
 ### 2. Sesuaikan Kolom Secara Otomatis dan Simpan Buku Kerja
 Berikutnya, sesuaikan kolom lembar kerja agar sesuai dengan konten dan simpan buku kerja dalam format Excel:
 ```java
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Sesuaikan kolom secara otomatis untuk menampilkan semua data dengan benar
@@ -105,32 +107,32 @@ table.autoFitColumns();
 // Tentukan jalur keluaran untuk menyimpan
 String outputPath = "KPOfLargeNumbers_out.xlsx";
 
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.save(outputPath, SaveFormat.XLSX);
 ```
-**Penjelasan:**
+**Magyarázat:**
 - **`autoFitColumns()`**: Menyesuaikan lebar kolom berdasarkan konten.
-- **Penghematan**: : Itu `save()` metode menulis buku kerja ke file Excel.
+- **Penghematan**A `save()` metode menulis buku kerja ke file Excel.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut adalah beberapa skenario di mana menjaga presisi angka besar sangatlah penting:
 1. **Sistem Keuangan**: Representasi akurat dari jumlah atau saldo transaksi.
 2. **Riset ilmiah**: Memastikan integritas data dalam perhitungan dengan kumpulan data besar.
-3. **Analisis Data**: Menangani data besar tanpa kehilangan akurasi numerik selama pemrosesan.
+3. **Adatelemzés**: Menangani data besar tanpa kehilangan akurasi numerik selama pemrosesan.
 4. **Aplikasi Kriptografi**: Bekerja dengan tombol dan angka besar.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat menangani kumpulan data besar, mengoptimalkan kinerja sangatlah penting:
-- **Manajemen Memori**:Perhatikan penggunaan memori Java saat menangani file besar.
+- **Memóriakezelés**:Perhatikan penggunaan memori Java saat menangani file besar.
 - **Pengolahan Data yang Efisien**: Gunakan fitur Aspose.Cells seperti pemrosesan data streaming untuk menangani buku kerja yang lebih besar secara efisien.
-- **Praktik Terbaik**: Perbarui perpustakaan secara berkala untuk mendapatkan manfaat dari peningkatan kinerja dan perbaikan bug.
+- **Bevált gyakorlatok**: Perbarui perpustakaan secara berkala untuk mendapatkan manfaat dari peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, Anda telah mempelajari cara menggunakan Aspose.Cells untuk Java guna menjaga ketepatan angka-angka besar saat bekerja dengan file Excel. Dengan mengikuti langkah-langkah ini, data numerik Anda akan tetap akurat selama pemrosesan. 
 
 Untuk terus menjelajahi apa yang ditawarkan Aspose.Cells, pertimbangkan untuk bereksperimen dengan berbagai fitur dan konfigurasi.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Berapa ukuran angka maksimum yang dapat ditangani Aspose.Cells?**
    - Aspose.Cells menangani angka yang sangat besar secara default selama angka tersebut sesuai dengan Java `BigDecimal` batas.
 2. **Bagaimana cara memastikan kompatibilitas di berbagai sistem?**
@@ -142,15 +144,18 @@ Untuk terus menjelajahi apa yang ditawarkan Aspose.Cells, pertimbangkan untuk be
 5. **Apakah ada dukungan untuk format file lain selain Excel dan HTML?**
    - Ya, Aspose.Cells mendukung berbagai format file termasuk CSV, PDF, dan banyak lagi.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- **Pembelian & Uji Coba**: [Beli atau Dapatkan Uji Coba Aspose.Cells Gratis](https://purchase.aspose.com/buy)
-- **Mendukung**: [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Rilis Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás és próba**: [Beli atau Dapatkan Uji Coba Aspose.Cells Gratis](https://purchase.aspose.com/buy)
+- **Támogatás**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda dengan Aspose.Cells hari ini dan pastikan presisi numerik dalam semua proyek Anda!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

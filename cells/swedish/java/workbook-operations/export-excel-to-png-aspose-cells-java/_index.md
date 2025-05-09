@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ Den här koden genererar en bild av din första kalkylbladssida och sparar den s
 Att exportera arbetsblad som bilder kan vara fördelaktigt i olika scenarier:
 1. **Dokumentation:** Bädda in kalkylbladsdata i rapporter utan att ändra det ursprungliga filformatet.
 2. **Datadelning:** Tillhandahålla visuella ögonblicksbilder av data till intressenter som kanske inte har Excel installerat.
-3. **Webbintegration:** Visa kalkylbladsinnehåll på webbplatser eller webbapplikationer.
+3. **Webbintegration:** Visa kalkylbladsinnehåll på webbplatser eller i webbapplikationer.
 
 ### Integrationsmöjligheter
 - Integrera den här funktionen i automatiserade rapporteringssystem.
@@ -169,6 +171,9 @@ Utforska ytterligare funktioner i Aspose.Cells, som PDF-konvertering eller kalky
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel adatexportálási módszerek
@@ -115,7 +117,7 @@ public class ExcelToHTML {
         // HTML mentési beállítások létrehozása
         HtmlSaveOptions htmlSaveOptions = new HtmlSaveOptions();
 
-        // Munkafüzet mentése HTML formátumban
+        // A munkafüzet mentése HTML formátumban
         workbook.save("output.html", htmlSaveOptions);
     }
 }
@@ -190,6 +192,7 @@ Most, gyakorlati ismeretekkel és forráskódpéldákkal felvértezve, készen �
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

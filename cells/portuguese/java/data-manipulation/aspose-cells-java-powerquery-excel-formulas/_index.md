@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No âmbito da gestão e análise de dados, extrair insights de pastas de trabalho do Excel é crucial. Com a crescente complexidade das fontes de dados, os profissionais frequentemente enfrentam dificuldades com fórmulas do PowerQuery incorporadas em arquivos do Excel. Este tutorial guiará você pelo acesso e processamento dessas fórmulas usando o Aspose.Cells para Java, uma biblioteca poderosa projetada para simplificar essas tarefas.
 
-## que você aprenderá
+## O que você aprenderá
 - Como configurar o Aspose.Cells para Java em seu ambiente.
 - Acessando e iterando fórmulas do PowerQuery em uma pasta de trabalho do Excel.
 - Extraindo informações detalhadas de cada item da fórmula.
@@ -170,6 +172,9 @@ Visite o [Fórum Aspose](https://forum.aspose.com/c/cells/9) para obter suporte 
 - **Comprar**: Compre uma licença ou solicite um teste em [compra.aspose.com](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

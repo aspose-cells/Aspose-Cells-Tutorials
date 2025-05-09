@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@
    - IDE เช่น IntelliJ IDEA หรือ Eclipse
    - เครื่องมือสร้าง Maven หรือ Gradle ที่กำหนดค่าไว้ในโปรเจ็กต์ของคุณ
 
-3. **ข้อกำหนดเบื้องต้นของความรู้:**
+3. **ข้อกำหนดความรู้เบื้องต้น:**
    - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และแนวคิดเชิงวัตถุ
    - ความคุ้นเคยกับการประมวลผลและการจัดการสูตร Excel
 
@@ -233,6 +235,9 @@ public void run() {
 หากทำตามคำแนะนำนี้ คุณจะสามารถใช้ Aspose.Cells สำหรับ Java เพื่อสร้างโปรแกรมคำนวณแบบกำหนดเองที่มีประสิทธิภาพซึ่งเหมาะกับความต้องการทางธุรกิจเฉพาะของคุณ ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

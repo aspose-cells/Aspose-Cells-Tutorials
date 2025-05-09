@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatelemző függvények Excelben
@@ -19,7 +21,7 @@
 Ebben az átfogó útmutatóban azt vizsgáljuk meg, hogyan használhatjuk az Aspose.Cells for Java-t adatelemzési függvények végrehajtására Excelben. Akár fejlesztő, akár adatelemző vagy, az Aspose.Cells for Java hatékony funkciókat kínál az Excel-adatok programozott kezeléséhez és elemzéséhez. Különböző adatelemzési feladatokat fogunk áttekinteni, például a rendezést, szűrést, statisztikák kiszámítását és egyebeket. Vágjunk bele!
 
 ## Előfeltételek
-Mielőtt belekezdenénk, győződjünk meg róla, hogy a következő előfeltételek teljesülnek:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)Szükséged lesz az Aspose.Cells Java könyvtárra. Kövesd a linket a letöltéshez és a projektedben való beállításhoz.
 
@@ -112,11 +114,12 @@ A kimutatástábla megjelenését testreszabhatja különféle tulajdonságok é
 
 ### Hol találok haladóbb példákat és forrásokat?
 
-További haladóbb példákért, oktatóanyagokért és forrásokért az Aspose.Cells for Java-val kapcsolatban látogassa meg a következőt: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)Rengeteg információt találsz, amelyek segítenek elsajátítani az Excel adatelemzését az Aspose.Cells segítségével.
+További haladó példákért, oktatóanyagokért és forrásokért az Aspose.Cells for Java-val kapcsolatban látogassa meg a következőt: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)Rengeteg információt találsz, amelyek segítenek elsajátítani az Excel adatelemzését az Aspose.Cells segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

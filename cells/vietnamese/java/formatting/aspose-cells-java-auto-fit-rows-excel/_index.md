@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Hiểu biết cơ bản về lập trình Java, bao gồm các khái niệm hư�
 ## Thiết lập Aspose.Cells cho Java
 Trước khi thao tác với các tệp Excel bằng Aspose.Cells, hãy thiết lập thư viện trong môi trường của bạn:
 
-1. **Cài đặt**: Bao gồm sự phụ thuộc Aspose.Cells thông qua Maven hoặc Gradle như được hiển thị ở trên.
+1. **Cài đặt**Bao gồm sự phụ thuộc Aspose.Cells thông qua Maven hoặc Gradle như được hiển thị ở trên.
 2. **Mua lại giấy phép**: Bắt đầu với bản dùng thử miễn phí bằng cách tải xuống giấy phép tạm thời từ [Trang web của Aspose](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -120,7 +122,7 @@ Mã này lưu bảng tính đã điều chỉnh của bạn vào một thư mụ
 
 ## Ứng dụng thực tế
 Sau đây là một số tình huống thực tế mà tính năng tự động điều chỉnh hàng có thể cực kỳ hữu ích:
-1. **Báo cáo tài chính**: Đảm bảo tính dễ đọc của báo cáo tài chính bằng cách điều chỉnh kích thước hàng một cách linh hoạt dựa trên các mục dữ liệu chi tiết.
+1. **Báo cáo tài chính**Đảm bảo tính dễ đọc của báo cáo tài chính bằng cách điều chỉnh kích thước hàng một cách linh hoạt dựa trên các mục dữ liệu chi tiết.
 2. **Quản lý hàng tồn kho**: Điều chỉnh danh sách hàng tồn kho để phù hợp với các mô tả và số lượng khác nhau, duy trì cách trình bày rõ ràng.
 3. **Lập kế hoạch dự án**:Cải thiện biểu đồ Gantt hoặc mốc thời gian của dự án trong đó các nhiệm vụ có mô tả trải dài trên nhiều dòng.
 4. **Phân tích dữ liệu**:Tối ưu hóa bảng thông tin bằng cách sắp xếp các hàng hợp lý xung quanh các bình luận hoặc kết quả có độ dài khác nhau.
@@ -163,6 +165,9 @@ Với các tài nguyên này, bạn có thể tìm hiểu sâu hơn về khả n
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,35 +1,37 @@
 ---
-title: Shift první řádek dolů při vkládání řádků DataTable v Excelu
-linktitle: Shift první řádek dolů při vkládání řádků DataTable v Excelu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se vkládat řádky DataTable do Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells for .NET. Průvodce krok za krokem pro automatizaci bez námahy.
-weight: 11
-url: /cs/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/
+"description": "Naučte se vkládat řádky DataTable v Excelu bez posunutí prvního řádku dolů pomocí Aspose.Cells pro .NET. Podrobný návod pro snadnou automatizaci."
+"linktitle": "Posunout první řádek dolů při vkládání řádků DataTable v Excelu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Posunout první řádek dolů při vkládání řádků DataTable v Excelu"
+"url": "/cs/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Shift první řádek dolů při vkládání řádků DataTable v Excelu
+# Posunout první řádek dolů při vkládání řádků DataTable v Excelu
 
 ## Zavedení
 
-Nebaví vás ruční posouvání řádků při vkládání nových dat do excelových tabulek? Tak to máš štěstí! V tomto článku se ponoříme do toho, jak tento proces automatizovat pomocí Aspose.Cells for .NET. Na konci tohoto kurzu se nejen naučíte pracovat s datovými tabulkami v Excelu, ale také jak upravit možnosti importu tak, aby lépe vyhovovaly vašim potřebám. Věř mi; to vám může ušetřit spoustu času a námahy! Takže, vezměte si šálek kávy a můžeme začít!
+Už vás nebaví ručně posouvat řádky při vkládání nových dat do excelových tabulek? Máte štěstí! V tomto článku se ponoříme do toho, jak tento proces automatizovat pomocí Aspose.Cells pro .NET. Na konci tohoto tutoriálu se nejen naučíte pracovat s datovými tabulkami v Excelu, ale také jak si přizpůsobit možnosti importu tak, aby lépe vyhovovaly vašim potřebám. Věřte mi, může vám to ušetřit spoustu času a starostí! Takže si dejte šálek kávy a pojďme na to!
 
 ## Předpoklady
 
-Než se pustíme do kódování, ujistěte se, že máte vše nastaveno:
+Než se pustíme do kódování, ujistěme se, že máte vše nastavené:
 
-1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio (2017 nebo novější by mělo fungovat dobře).
-2.  Aspose.Cells for .NET: Musíte mít knihovnu Aspose.Cells. Pokud jste to ještě neudělali, můžete si ji stáhnout[zde](https://releases.aspose.com/cells/net/).
-3. Základní porozumění C# a Excelu: Základní znalost programování v C# a toho, jak Excel funguje, vám jistě pomůže efektivněji pokračovat.
+1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio (verze 2017 nebo novější by měla fungovat bez problémů).
+2. Aspose.Cells pro .NET: Potřebujete mít knihovnu Aspose.Cells. Pokud jste tak ještě neučinili, můžete si ji stáhnout. [zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost C# a Excelu: Základní znalost programování v C# a fungování Excelu vám jistě pomůže efektivněji sledovat daný text.
 
- Budete také chtít mít po ruce vzorový soubor Excel. V této příručce použijeme ukázku s názvem`sampleImportTableOptionsShiftFirstRowDown.xlsx`. Tento soubor můžete vytvořit nebo najít šablonu, která vyhovuje vašim potřebám.
+Také budete chtít mít po ruce vzorový soubor aplikace Excel. V této příručce použijeme vzor s názvem `sampleImportTableOptionsShiftFirstRowDown.xlsx`Můžete si vytvořit tento soubor nebo najít šablonu, která vyhovuje vašim potřebám.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než se vrhneme na kódování, musíme se ujistit, že importujeme potřebné balíčky. Ve svém projektu C# zahrňte následující jmenné prostory:
+Než se pustíme do programování, musíme se ujistit, že jsme importovali potřebné balíčky. Ve vašem projektu v C# zahrňte následující jmenné prostory:
 
 ```csharp
 using System;
@@ -40,19 +42,19 @@ using System.Drawing;
 
 Tyto balíčky jsou nezbytné pro práci se sešitem, pracovním listem a tabulkami.
 
-## Krok 1: Nastavte svůj projekt
+## Krok 1: Nastavení projektu
 
-### Vytvořte nový projekt C#
+### Vytvoření nového projektu v C#
 
-Začněte vytvořením nové konzolové aplikace C# v sadě Visual Studio. Dejte svému projektu vhodný název, například „ExcelDataImport“.
+Začněte vytvořením nové konzolové aplikace v C# ve Visual Studiu. Dejte projektu vhodný název, například „ExcelDataImport“.
 
-### Přidejte balíček NuGet Aspose.Cells
+### Přidat balíček NuGet pro Aspose.Cells
 
-Chcete-li přidat balíček Aspose.Cells, klikněte pravým tlačítkem na svůj projekt v Průzkumníku řešení, vyberte Spravovat balíčky NuGet a vyhledejte „Aspose.Cells“. Nainstalujte balíček, abyste se ujistili, že máte přístup ke všem funkcím, které potřebujeme.
+Chcete-li přidat balíček Aspose.Cells, klikněte pravým tlačítkem myši na váš projekt v Průzkumníku řešení, vyberte možnost Spravovat balíčky NuGet a vyhledejte „Aspose.Cells“. Nainstalujte balíček, abyste se ujistili, že máte přístup ke všem potřebným funkcím.
 
-## Krok 2: Definujte tabulku dat
+## Krok 2: Definování datové tabulky
 
- Dále implementujeme`ICellsDataTable` rozhraní k vytvoření třídy, která poskytuje data k importu. Zde je návod, jak můžete strukturovat`CellsDataTable` třída:
+Dále implementujeme `ICellsDataTable` rozhraní pro vytvoření třídy, která poskytuje data k importu. Zde je návod, jak strukturovat `CellsDataTable` třída:
 
 ```csharp
 class CellsDataTable : ICellsDataTable
@@ -65,15 +67,15 @@ class CellsDataTable : ICellsDataTable
     static String[] col3data = new String[] { "Red", "Green", "Blue" };
     static String[][] colsData = new String[][] { col0data, col1data, col2data, col3data };
     
-    // ... Implementovat další členy...
+    // ... Implementovat další členy ...
 }
 ```
 
 Zde definujeme názvy sloupců a data pro každý sloupec, což usnadní strukturu naší importované tabulky.
 
-## Krok 3: Implementujte členy rozhraní ICellsDataTable
+## Krok 3: Implementace členů rozhraní ICellsDataTable
 
- V rámci`CellsDataTable` třídy, musíte implementovat členy`ICellsDataTable` rozhraní. Zde je požadovaná implementace:
+V rámci `CellsDataTable` třídy, musíte implementovat členy `ICellsDataTable` rozhraní. Zde je požadovaná implementace:
 
 ```csharp
 public object this[string columnName]
@@ -114,11 +116,11 @@ bool ICellsDataTable.Next()
 }
 ```
 
-Tato část třídy zpracovává načítání dat, definuje počet řádků a sloupců a spravuje aktuální stav indexu.
+Tato část třídy se zabývá načítáním dat, definováním počtu řádků a sloupců a správou aktuálního stavu indexu.
 
 ## Krok 4: Napište hlavní funkci
 
- Nyní vytvoříme`Run`metoda pro orchestraci celého procesu importu tabulky:
+Nyní si vytvořme `Run` metoda pro orchestraci celého procesu importu tabulky:
 
 ```csharp
 public static void Run()
@@ -131,18 +133,18 @@ public static void Run()
     Worksheet ws = wb.Worksheets[0];
 ```
 
-## Krok 5: Nastavte možnosti importu
+## Krok 5: Nastavení možností importu
 
- Chcete-li řídit chování importu, měli byste vytvořit instanci`ImportTableOptions` a podle toho nastavte vlastnosti. Konkrétně chceme nastavit`ShiftFirstRowDown` na`false`.
+Pro řízení chování importu byste měli vytvořit instanci `ImportTableOptions` a odpovídajícím způsobem nastavit vlastnosti. Konkrétně chceme nastavit `ShiftFirstRowDown` na `false`.
 
 ```csharp
     ImportTableOptions opts = new ImportTableOptions();
-    opts.ShiftFirstRowDown = false; // Nechceme posouvat první řadu dolů
+    opts.ShiftFirstRowDown = false; // Nechceme posunout první řádek dolů.
 ```
 
-## Krok 6: Importujte tabulku DataTable
+## Krok 6: Import datové tabulky
 
- Nyní můžeme importovat data z našeho`CellsDataTable` do pracovního listu.
+Nyní můžeme importovat data z našeho `CellsDataTable` do pracovního listu.
 
 ```csharp
     ws.Cells.ImportData(cellsDataTable, 2, 2, opts);
@@ -151,7 +153,7 @@ public static void Run()
 
 Tento příkaz přímo vloží vaši datovou tabulku počínaje zadaným řádkem a sloupcem.
 
-## Krok 7: Uložte sešit
+## Krok 7: Uložení sešitu
 
 Nakonec upravený sešit uložíme zpět do souboru:
 
@@ -162,27 +164,29 @@ Nakonec upravený sešit uložíme zpět do souboru:
 
 ## Závěr
 
-A tady to máte! Naučili jste se, jak vložit řádky DataTable do listu aplikace Excel bez přesunutí prvního řádku pomocí Aspose.Cells for .NET. Tento proces nejen zefektivňuje manipulaci s daty v Excelu, ale také zvyšuje výkon vaší aplikace automatizací obvykle těžkopádného úkolu. S těmito znalostmi ve vaší sadě nástrojů budete lépe vybaveni ke zvládnutí úloh automatizace Excelu, což vám ušetří čas a námahu.
+A tady to máte! Naučili jste se, jak vkládat řádky DataTable do excelového listu bez nutnosti přesunout první řádek pomocí Aspose.Cells pro .NET. Tento proces nejenže zefektivňuje manipulaci s daty v Excelu, ale také zvyšuje výkon vaší aplikace automatizací obvykle těžkopádného úkolu. S těmito znalostmi ve vaší sadě nástrojů jste lépe vybaveni pro zvládání automatizačních úloh v Excelu, což vám ušetří čas a úsilí.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells pro .NET?
-Aspose.Cells for .NET je programovací knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel v aplikacích .NET.
+Aspose.Cells pro .NET je programovací knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel v aplikacích .NET.
 
 ### Potřebuji licenci k používání Aspose.Cells?
-Ano, pro plné funkce budete potřebovat platnou licenci. Pro počáteční testování je však k dispozici bezplatná zkušební verze.
+Ano, pro všechny funkce budete potřebovat platnou licenci. Pro úvodní testování je však k dispozici bezplatná zkušební verze.
 
 ### Mohu používat Aspose.Cells ve webových aplikacích?
-Absolutně! Aspose.Cells je ideální pro desktopové, webové a cloudové aplikace vyvinuté v .NET.
+Rozhodně! Aspose.Cells je perfektní pro desktopové, webové a cloudové aplikace vyvinuté v .NET.
 
 ### Jaké typy souborů aplikace Excel mohu vytvořit pomocí Aspose.Cells?
-Můžete vytvářet různé formáty souborů aplikace Excel, včetně XLSX, XLS, CSV a dalších.
+Můžete vytvářet různé formáty souborů Excelu, včetně XLSX, XLS, CSV a dalších.
 
 ### Kde mohu získat podporu pro Aspose.Cells?
- Můžete se ptát nebo najít pomoc v[Aspose fóra](https://forum.aspose.com/c/cells/9).
+Můžete se zeptat nebo vyhledat pomoc v [Fóra Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

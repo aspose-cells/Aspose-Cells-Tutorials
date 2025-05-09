@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ import com.aspose.cells.Workbook;
 ```java
 Workbook wb = new Workbook("path_to_your_file/pivot_table_test.xlsx");
 ```
-이 단계에서는 다음을 초기화합니다. `Workbook` 지정한 파일에 객체를 추가하면 해당 파일의 내용을 프로그래밍 방식으로 조작할 수 있습니다.
+이 단계에서는 다음을 초기화합니다. `Workbook` 지정한 파일에 객체를 추가하면 해당 객체의 내용을 프로그래밍 방식으로 조작할 수 있습니다.
 
 **2. 피벗 테이블에 액세스합니다.**
 다음으로, 통합 문서의 첫 번째 워크시트에서 피벗 테이블에 액세스합니다.
@@ -100,7 +102,7 @@ PivotTable pt = wb.getWorksheets().get(0).getPivotTables().get(0);
 ```java
 pt.setEnableWizard(false);
 ```
-그만큼 `setEnableWizard(false)` 이 메서드 호출은 피벗 테이블에서 대화형 리본 기능을 제거합니다.
+그만큼 `setEnableWizard(false)` 메서드 호출은 이 피벗 테이블에서 대화형 리본 기능을 제거합니다.
 
 **4. 변경 사항 저장:**
 마지막으로, 수정 사항을 새 파일에 저장합니다.
@@ -164,6 +166,9 @@ A5: 방문 [Aspose 공식 문서](https://reference.aspose.com/cells/java/) 포�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

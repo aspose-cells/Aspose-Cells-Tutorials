@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Excel에서 대용량 데이터 세트를 관리하는 일은 어려울 수 있�
 
 ## 필수 조건
 
-시작하기 전에 다음 사항이 있는지 확인하세요.
+시작하기에 앞서 다음 사항이 있는지 확인하세요.
 1. **자바 개발 키트(JDK):** 컴퓨터에 8 이상 버전이 설치되어 있어야 합니다.
 2. **Maven/Gradle:** Java 프로젝트에서 종속성을 관리합니다.
 3. **IDE:** Java 코드를 작성하고 실행하려면 IntelliJ IDEA나 Eclipse를 사용하면 됩니다.
@@ -143,7 +145,7 @@ Java용 Aspose.Cells의 기능을 더욱 자세히 알아보려면 수식 계산
 
 1. **Java용 Aspose.Cells를 어떻게 설치하나요?**
    - 설정 섹션에 표시된 대로 Maven/Gradle 종속성 관리를 사용합니다.
-2. **한 번에 여러 행을 삭제할 수 있나요?**
+2. **여러 행을 한 번에 삭제할 수 있나요?**
    - 예, 더 높은 값을 지정하면 `totalRows` 매개변수 `deleteRows()` 방법.
 3. **설정의 영향은 무엇입니까? `updateReference` 거짓으로?**
    - 셀 참조는 업데이트되지 않습니다. 주의해서 처리하지 않으면 수식이 손상될 수 있습니다.
@@ -161,6 +163,9 @@ Java용 Aspose.Cells의 기능을 더욱 자세히 알아보려면 수식 계산
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

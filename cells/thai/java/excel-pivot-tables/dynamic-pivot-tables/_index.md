@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตารางสรุปแบบไดนามิก
@@ -107,9 +109,11 @@ pivotTable.calculateData();
 ### คำถามที่ 5: Aspose.Cells รองรับคุณลักษณะตารางสรุปขั้นสูงของ Excel หรือไม่
 
 ใช่ Aspose.Cells ให้การสนับสนุนอย่างครอบคลุมสำหรับฟีเจอร์ตารางสรุปขั้นสูงของ Excel ช่วยให้คุณสามารถสร้างตารางสรุปที่ซับซ้อนได้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datenvalidierungsregeln
@@ -42,9 +44,11 @@ Lernen Sie die Datenvalidierung in Excel mit Aspose.Cells für Java. Implementie
 Erfahren Sie, wie Sie bedingte Datenvalidierung mit Aspose.Cells für Java implementieren. Schritt-für-Schritt-Anleitung mit Quellcode für die präzise Datenverarbeitung in Excel-Tabellen.
 ### [Eingabenachricht bei der Datenvalidierung](./input-message-in-data-validation/)
 Erfahren Sie, wie Sie die Datenvalidierung in Excel mit Aspose.Cells für Java verbessern. Schritt-für-Schritt-Anleitung mit Codebeispielen zur Verbesserung der Datengenauigkeit und Benutzerführung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

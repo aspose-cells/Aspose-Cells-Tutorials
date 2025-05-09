@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ W tej sekcji opisano szczegółowe zadania związane z formatowaniem komentarzy 
 
 ### Utwórz instancję i przygotuj skoroszyt
 **Przegląd:**
-Utwórz nowy plik programu Excel i otwórz pierwszy arkusz kalkulacyjny, w którym możesz dodać i sformatować komentarze.
+Utwórz nowy plik programu Excel i otwórz pierwszy arkusz kalkulacyjny, w którym dodasz i sformatujesz swoje komentarze.
 
 #### 1. Utwórz nowy skoroszyt
 ```java
@@ -203,6 +205,9 @@ Jeśli masz jakieś pytania lub potrzebujesz pomocy, odwiedź stronę [Forum wsp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

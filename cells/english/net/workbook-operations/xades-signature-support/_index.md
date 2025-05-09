@@ -8,7 +8,9 @@ url: /net/workbook-operations/xades-signature-support/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XAdESSignature Support in Workbook using Aspose.Cells
@@ -108,6 +110,7 @@ You can explore more examples and detailed documentation on the [Aspose.Cells we
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

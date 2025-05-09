@@ -1,14 +1,16 @@
 ---
-title: Разрешить начальный апостроф
-linktitle: Разрешить начальный апостроф
-second_title: Справочник API Aspose.Cells для .NET
-description: Легко управляйте ведущими апострофами в Excel с помощью Aspose.Cells для .NET. Это всеобъемлющее руководство проведет вас шаг за шагом через весь процесс.
-weight: 60
-url: /ru/net/excel-workbook/allow-leading-apostrophe/
+"description": "Легко управляйте ведущими апострофами в Excel с помощью Aspose.Cells для .NET. Это всеобъемлющее руководство проведет вас шаг за шагом через весь процесс."
+"linktitle": "Разрешить начальный апостроф"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Разрешить начальный апостроф"
+"url": "/ru/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разрешить начальный апостроф
@@ -22,7 +24,7 @@ url: /ru/net/excel-workbook/allow-leading-apostrophe/
 Прежде чем погрузиться в код, вот несколько предварительных условий, которые вам необходимо выполнить:
 
 1. Базовые знания .NET: знакомство с фреймворком .NET является обязательным. Если вы уже занимаетесь C# или VB.NET, считайте, что вы готовы.
-2.  Aspose.Cells для .NET Library: Вам понадобится установить Aspose.Cells. Вы можете легко сделать это через менеджер пакетов NuGet или загрузить его с[Сайт Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET Library: Вам понадобится установить Aspose.Cells. Вы можете легко сделать это через менеджер пакетов NuGet или загрузить его с [Сайт Aspose](https://releases.aspose.com/cells/net/).
 3. Настройка IDE: убедитесь, что у вас есть интегрированная среда разработки (IDE), например Visual Studio, готовая к написанию кода.
 4. Пример файла Excel: вы можете использовать пример файла («AllowLeadingApostropheSample.xlsx»), с которым мы будем работать в коде.
 
@@ -62,7 +64,7 @@ string outputDir = "Your Output Directory";
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- The`WorkbookDesigner`управляет дизайном и привязкой данных нашей рабочей книги, облегчая нам жизнь при преобразовании данных в визуальный формат.
+The `WorkbookDesigner` управляет дизайном и привязкой данных нашей рабочей книги, облегчая нам жизнь при преобразовании данных в визуальный формат.
 
 ## Шаг 3: Загрузите существующую рабочую книгу
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Установив`QuotePrefixToStyle` значение false, мы указываем Aspose.Cells обрабатывать начальные апострофы как обычные символы, что позволяет нам правильно обрабатывать их в наших выходных данных.
+Установив `QuotePrefixToStyle` значение false, мы указываем Aspose.Cells обрабатывать начальные апострофы как обычные символы, что позволяет нам правильно обрабатывать их в наших выходных данных.
 
 ## Шаг 5: Загрузка данных для интеллектуальных маркеров
 
@@ -96,7 +98,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Мы создаем список`DataObject`где одно из имен намеренно включает в себя начальный апостроф. Это поможет проиллюстрировать, как Aspose.Cells справляется с такими сценариями.
+Мы создаем список `DataObject`, где одно из имен намеренно включает в себя начальный апостроф. Это поможет проиллюстрировать, как Aspose.Cells справляется с такими сценариями.
 
 ## Шаг 6: Привяжите источник данных к конструктору
 
@@ -110,7 +112,7 @@ designer.SetDataSource("sampleData", list);
 
 ## Шаг 7: Обработка смарт-маркеров
 
-Давайте приступим к обработке смарт-маркеров с использованием предоставленных нами данных.
+Давайте приступим к обработке смарт-маркеров с помощью предоставленных нами данных.
 
 ```csharp
 designer.Process();
@@ -150,19 +152,21 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells — мощная библиотека .NET для программного создания, обработки и преобразования файлов Excel в различные форматы.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, вы можете использовать Aspose.Cells, подписавшись на бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете использовать Aspose.Cells, подписавшись на бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку по Aspose.Cells?
- Вы можете найти помощь и задать вопросы на[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете найти помощь и задать вопросы на [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Какие типы файлов поддерживает Aspose.Cells?
 Aspose.Cells поддерживает множество форматов, таких как XLS, XLSX, CSV и многие другие.
 
 ### Как приобрести лицензию на Aspose.Cells?
- Вы можете купить лицензию на Aspose.Cells прямо на странице покупки.[здесь](https://purchase.aspose.com/buy).
+Вы можете купить лицензию на Aspose.Cells прямо на странице покупки. [здесь](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

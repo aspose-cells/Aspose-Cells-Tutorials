@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Aby rozpocząć przygodę z Aspose.Cells dla Java, wykonaj następujące kroki k
 
 1. **Dodaj zależności:** Użyj Maven lub Gradle, jak pokazano powyżej, aby uwzględnić Aspose.Cells w swoim projekcie.
 2. **Nabycie licencji:**
-   - Uzyskaj [bezpłatna licencja próbna](https://releases.aspose.com/cells/java/) w celach ewaluacyjnych.
+   - Uzyskaj [bezpłatna licencja próbna](https://releases.aspose.com/cells/java/) celach ewaluacyjnych.
    - W przypadku dłuższego użytkowania należy rozważyć złożenie wniosku o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
    - Kup produkt za pośrednictwem [Strona zakupu Aspose](https://purchase.aspose.com/buy) dla pełnej funkcjonalności.
 
@@ -159,7 +161,7 @@ Gotowy wdrożyć te strategie w swoich projektach? Zacznij już dziś!
 2. **Jak zarządzać pamięcią podczas korzystania z Aspose.Cells?**
    - Zawsze dzwoń `dispose()` metoda po zakończeniu operacji na skoroszycie w celu zwolnienia zasobów.
 3. **Czy mogę używać Aspose.Cells bez zakupu licencji?**
-   - Tak, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/cells/java/) w celach ewaluacyjnych.
+   - Tak, możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/cells/java/) celach ewaluacyjnych.
 4. **Jakie są najczęstsze problemy podczas korzystania z Aspose.Cells?**
    - Do typowych problemów należą zarządzanie pamięcią i wycieki zasobów, którym można zaradzić poprzez odpowiednią utylizację wystąpień skoroszytów.
 5. **Jak zintegrować Aspose.Cells z innymi aplikacjami Java?**
@@ -178,6 +180,9 @@ Zacznij wdrażać te techniki w swoich projektach już dziś i poznaj zalety zop
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

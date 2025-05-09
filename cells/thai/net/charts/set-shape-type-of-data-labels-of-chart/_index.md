@@ -1,56 +1,61 @@
 ---
-title: ปรับเปลี่ยนรูปแบบตารางข้อมูลใน Excel โดยใช้ Aspose.Cells
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการเปลี่ยนรูปแบบของตราข้อมูลในตาราง Excel โดยใช้ Aspose.Cells สําหรับ .NET. คู่มือขั้นตอนพร้อมตัวอย่างรหัสและคําแนะนํา
-keywords: [Aspose.Cells, .NET, Excel Chart, Data Labels, Shape Type, Modify Chart, Speech Bubble Oval, Change Shape, C# Excel Automation]
-url: /th/net/charts/set-shape-type-of-data-labels-of-chart/
+"description": "เรียนรู้วิธีการเปลี่ยนประเภทรูปร่างของป้ายชื่อข้อมูลในแผนภูมิ Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดและคำแนะนำ"
+"title": "ปรับเปลี่ยนรูปร่างป้ายข้อมูลแผนภูมิใน Excel โดยใช้ Aspose.Cells"
+"url": "/th/net/charts/set-shape-type-of-data-labels-of-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ปรับเปลี่ยนรูปแบบตารางข้อมูลใน Excel โดยใช้ Aspose.Cells
-ในบทเรียนนี้ เราจะศึกษาวิธีการปรับเปลี่ยนรูปแบบของตารางข้อมูลในตาราง Excel โดยใช้ Aspose.Cells สําหรับ .NET. ตารางข้อมูลในตารางช่วยให้การจดจําได้ดีกว่า และการเปลี่ยนรูปแบบของพวกเขาสามารถเพิ่มความอ่านได้ดีขึ้น. ตัวอย่างนี้แสดงวิธีการเข้าถึงตาราง Excel ที่มีอยู่, ค้นหาตารางข้อมูลลําดับ, และเปลี่ยนรูปแบบของพวกเขาเป็น Speech Bubble Oval (Wedge Ellipse Callout). ด้วยเส้นโค้ด C # บางเส้น, คุณสามารถเพิ่มความน่าสนใจทางการมองเห็นของตาราง Excel ของคุณได้อย่างมีประสิทธิภาพ.  
+# ปรับเปลี่ยนรูปร่างป้ายข้อมูลแผนภูมิใน Excel โดยใช้ Aspose.Cells
+ในบทช่วยสอนนี้ เราจะมาเรียนรู้วิธีการปรับเปลี่ยนประเภทรูปร่างของป้ายข้อมูลในแผนภูมิ Excel โดยใช้ Aspose.Cells สำหรับ .NET ป้ายข้อมูลในแผนภูมิช่วยให้แสดงภาพได้ดีขึ้น และการเปลี่ยนรูปร่างของป้ายข้อมูลจะช่วยให้อ่านได้ง่ายขึ้น ตัวอย่างนี้สาธิตวิธีการเข้าถึงแผนภูมิ Excel ที่มีอยู่ เรียกค้นป้ายข้อมูลชุดข้อมูล และเปลี่ยนประเภทรูปร่างเป็น Speech Bubble Oval (Wedge Ellipse Callout) ด้วยโค้ด C# เพียงไม่กี่บรรทัด คุณก็สามารถเพิ่มความสวยงามให้กับแผนภูมิ Excel ได้อย่างมีประสิทธิภาพ  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/set-shape-type-of-data-labels-of-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง:  
+## คำแนะนำในการติดตั้ง:  
 
-เพื่อใช้ Aspose.Cells สําหรับ .NET ในโครงการของคุณ ติดตามขั้นตอนนี้  
+หากต้องการใช้ Aspose.Cells สำหรับ .NET ในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. โครงการผ่าน NuGet:  
-   * เปิดโครงการ Visual Studio  
-   * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-   * ค้นหา Aspose.Cells และติดตั้งฉบับล่าสุด  
+1. ติดตั้งผ่าน NuGet:  
+   - เปิดโครงการ Visual Studio ของคุณ  
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+   - ค้นหา Aspose.Cells และติดตั้งเวอร์ชันล่าสุด  
 
-   หรือใช้คอนโซลผู้จัดการแพ็คเกจ  
+   หรือใช้คอนโซลตัวจัดการแพ็คเกจ:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
 2. ดาวน์โหลดจากเว็บไซต์ Aspose:  
-   * เยี่ยมชม[Aspose.Cells สําหรับ .NET Download](https://releases.aspose.com/cells/net/)และได้รับ DLLs ล่าสุด  
-   * เพิ่มข้อมูล DLL ที่ดาวน์โหลดไปยังโครงการของคุณด้วยมือ  
+   - เยี่ยม [ดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases.aspose.com/cells/net/) และรับ DLL ล่าสุด  
+   - เพิ่มการอ้างอิง DLL ที่ดาวน์โหลดลงในโครงการของคุณด้วยตนเอง  
 
-3. การขอใบอนุญาต (เป็นทางเลือก แต่แนะนํา)  
-   * หากคุณมีใบอนุญาต ใช้มัน  
+3. สมัครใบอนุญาต (ทางเลือกแต่แนะนำ):  
+   - หากคุณมีใบอนุญาต ให้ใช้ดังนี้:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 	 
-## ดูอีกด้วย
-สําหรับการทดลองฟรี ลงท่อง[มุ่งมั่น ใน การ ทดสอบ](https://releases.aspose.com/). .  
-เพื่อซื้อใบอนุญาต ไปที่ [เป้าหมายซื้อหน้า](https://purchase.aspose.com/buy). .  
-สําหรับเอกสารครบถ้วน ลงที่ [Aspose.Cells สําหรับเอกสาร .NET](https://docs.aspose.com/cells/net/). .  
-เพื่อสํารวจข้อมูล API ทั้งหมด ตรวจสอบ [Aspose.Cells สําหรับ .NET API Reference](https://reference.aspose.com/cells/net/). . 
+## ดูเพิ่มเติม
+สำหรับการทดลองใช้ฟรี โปรดไปที่ [ทดลองใช้ Aspose ฟรี](https://releases-aspose.com/).  
+หากต้องการซื้อใบอนุญาต ให้ไปที่ [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).  
+สำหรับเอกสารประกอบทั้งหมด กรุณาเยี่ยมชม [เอกสาร Aspose.Cells สำหรับ .NET](https://docs-aspose.com/cells/net/).  
+หากต้องการสำรวจข้อมูลอ้างอิง API แบบเต็ม โปรดดู [เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET](https://reference-aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

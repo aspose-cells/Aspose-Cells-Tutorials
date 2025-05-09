@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 С этим руководством вы теперь готовы конвертировать файлы Excel в форматы PNG, TIFF и PDF с помощью Aspose.Cells для Java. Расширьте свои возможности обмена данными с помощью этих универсальных методов конвертации.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

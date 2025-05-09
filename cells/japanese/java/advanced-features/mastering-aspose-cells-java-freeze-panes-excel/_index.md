@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Aspose.Cells を評価版の制限なくご利用いただくには、無料ト�
 それでは、ウィンドウの固定機能の実装に移りましょう。
 
 ## 実装ガイド
-### Excel ファイルの読み込みとアクセス
+### Excelファイルの読み込みとアクセス
 **概要**このセクションでは、Aspose.Cells Java を使用して既存の Excel ファイルを読み込み、その最初のワークシートにアクセスする方法について説明します。
 
 #### ステップ1: 必要なクラスをインポートする
@@ -143,6 +145,9 @@ Aspose.Cellsの機能やグラフ作成、データ検証などの他の機能�
 ご質問やサポートについては、 [Asposeフォーラム](https://forum.aspose.com/c/cells/9)楽しいコーディングを！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-workbook/workbook-print-preview/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Workbook Print Preview
@@ -151,6 +153,7 @@ If you encounter any issues or have questions, you can seek support through the 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

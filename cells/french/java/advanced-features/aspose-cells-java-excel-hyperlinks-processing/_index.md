@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A1 : Aspose.Cells pour Java prend en charge Java 8 et versions ultérieures. As
 A2 : Oui, en vous concentrant sur des plages ou des feuilles de calcul spécifiques, vous pouvez optimiser les performances même avec des fichiers plus volumineux.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

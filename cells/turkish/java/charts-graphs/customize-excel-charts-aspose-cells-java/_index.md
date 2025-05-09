@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,6 +183,9 @@ A5: Çalışma kitaplarınızı eski Excel sürümleriyle uyumlu formatlarda kay
 Herhangi bir sorunla karşılaşırsanız veya daha fazla yardıma ihtiyacınız olursa destek forumuna ulaşmaktan çekinmeyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

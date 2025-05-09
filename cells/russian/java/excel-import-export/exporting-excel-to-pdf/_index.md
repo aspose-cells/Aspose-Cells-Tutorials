@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт Excel в PDF
@@ -105,10 +107,12 @@ workbook.save(pdfFilePath, SaveFormat.PDF);
 
 В5: Где я могу найти дополнительную документацию и примеры для Aspose.Cells?
 
-Изучите документацию API Aspose.Cells по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и множества примеров для дальнейшего расширения ваших знаний.
+Изучите документацию API Aspose.Cells по адресу [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) для получения исчерпывающей документации и множества примеров, которые помогут вам еще больше расширить свои знания.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

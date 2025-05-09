@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,7 +189,7 @@ class LightCellsDataProviderFeature implements LightCellsDataProvider {
             colIndex = -1;
             return true;
         }
-        return false; // Больше никаких листов
+        return false; // Больше никаких листов.
     }
 }
 ```
@@ -221,6 +223,9 @@ class LightCellsDataProviderFeature implements LightCellsDataProvider {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

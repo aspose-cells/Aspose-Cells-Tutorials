@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -228,6 +230,9 @@ chart.getNSeries().setCategoryData("=$D$15:$I$15");
 - Μοιραστείτε τα ευρήματά σας ή τις ερωτήσεις σας σε φόρουμ προγραμματιστών για να αλληλεπιδράσετε με την κοινότητα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

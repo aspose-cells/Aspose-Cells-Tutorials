@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A: Bellek kullanım modellerini inceleyin ve kodunuzu büyük veri kümelerini v
 Bu kılavuzu takip ederek artık Aspose.Cells for Java'yı kullanarak Excel elektronik tablolarınızı özel şekillerle zenginleştirmek için donanımlısınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

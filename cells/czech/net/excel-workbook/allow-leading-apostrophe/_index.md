@@ -1,36 +1,38 @@
 ---
-title: Povolit úvodní apostrof
-linktitle: Povolit úvodní apostrof
-second_title: Aspose.Cells for .NET API Reference
-description: Snadná správa hlavních apostrofů v Excelu pomocí Aspose.Cells pro .NET. Tento komplexní tutoriál vás krok za krokem provede celým procesem.
-weight: 60
-url: /cs/net/excel-workbook/allow-leading-apostrophe/
+"description": "Snadno spravujte úvodní apostrofy v Excelu s Aspose.Cells pro .NET. Tento komplexní tutoriál vás krok za krokem provede celým procesem."
+"linktitle": "Povolit úvodní apostrof"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Povolit úvodní apostrof"
+"url": "/cs/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Povolit úvodní apostrof
 
 ## Zavedení
 
-Vítejte v tomto podrobném průvodci, jak používat Aspose.Cells pro .NET k bezproblémové správě tabulek, zejména se zaměřením na manipulaci s hlavními apostrofy v hodnotách buněk. Schopnost efektivně spravovat data je v dnešním datacentrickém světě klíčová. Všimli jste si někdy, jak může Excel někdy zacházet s textovými hodnotami, které začínají apostrofem, jinak? To může vést k neočekávaným výsledkům, pokud automatizujete úlohy aplikace Excel pomocí kódu .NET. Neboj se! Tento tutoriál vám pomůže se v tom orientovat. 
+Vítejte v tomto podrobném návodu, jak používat Aspose.Cells pro .NET k bezproblémové správě tabulek, se zvláštním zaměřením na práci s úvodními apostrofy v hodnotách buněk. Schopnost efektivně spravovat data je v dnešním světě zaměřeném na data klíčová. Všimli jste si někdy, jak Excel někdy může odlišně zacházet s textovými hodnotami začínajícími apostrofem? To může vést k neočekávaným výsledkům, pokud automatizujete úlohy v Excelu pomocí kódu .NET. Nebojte se! Tento návod vám s tím pomůže. 
 
 ## Předpoklady
 
-Než se ponoříte do kódu, zde je několik předpokladů, které musíte splnit:
+Než se ponoříme do kódu, je zde několik předpokladů, které musíte splnit:
 
-1. Základní znalost .NET: Znalost .NET frameworku je nezbytná. Pokud již fušujete do C# nebo VB.NET, považujte se za připraveného.
-2.  Aspose.Cells for .NET Library: Musíte mít nainstalovaný Aspose.Cells. Můžete to snadno provést prostřednictvím správce balíčků NuGet nebo si jej stáhnout z[Aspose stránky](https://releases.aspose.com/cells/net/).
-3. Nastavení IDE: Ujistěte se, že máte integrované vývojové prostředí (IDE), jako je Visual Studio, připravené pro kódování.
-4. Ukázkový soubor Excel: Můžete použít ukázkový soubor ("AllowLeadingApostropheSample.xlsx"), se kterým budeme v kódu pracovat.
+1. Základní znalost .NET: Znalost frameworku .NET je nezbytná. Pokud se již učíte pracovat s C# nebo VB.NET, považujte se za připraveného.
+2. Knihovna Aspose.Cells pro .NET: Budete muset mít nainstalovanou knihovnu Aspose.Cells. Můžete to snadno provést pomocí správce balíčků NuGet nebo si ji stáhnout z [Aspose site](https://releases.aspose.com/cells/net/).
+3. Nastavení IDE: Ujistěte se, že máte připravené integrované vývojové prostředí (IDE), jako je Visual Studio, pro kódování.
+4. Ukázkový soubor aplikace Excel: Můžete použít ukázkový soubor („AllowLeadingApostropheSample.xlsx“), se kterým budeme v kódu pracovat.
 
-Nyní, když jste zaškrtli předpoklady, pojďme importovat potřebné balíčky a nastavit náš projekt.
+Nyní, když jste splnili předpoklady, importujme potřebné balíčky a nastavme náš projekt.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít, budete muset importovat některé základní balíčky. Můžete to udělat takto:
+Pro začátek budete muset importovat několik základních balíčků. Zde je návod, jak to udělat:
 
 ```csharp
 using Aspose.Cells.Rendering;
@@ -41,7 +43,7 @@ using System.Collections.Generic;
 
 Ujistěte se, že jste do projektu přidali odkazy na Aspose.Cells. Pokud používáte Visual Studio, můžete to provést vyhledáním „Aspose.Cells“ ve Správci balíčků NuGet.
 
-Naše úkoly rozdělíme do zvládnutelných kroků, abychom zajistili přehlednost.
+Pro zajištění přehlednosti si rozdělíme úkoly do zvládnutelných kroků.
 
 ## Krok 1: Nastavení zdrojových a výstupních adresářů
 
@@ -53,40 +55,40 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-## Krok 2: Vytvořte objekt Návrháře sešitu
+## Krok 2: Vytvoření objektu návrháře sešitů
 
-Nyní vytvoříme instanci WorkbookDesigneru, který je zásadní pro práci s chytrými značkami v Aspose.Cells.
+Nyní vytvoříme instanci WorkbookDesigneru, který je klíčový pro práci s inteligentními značkami v Aspose.Cells.
 
 ```csharp
 // Vytvoření instance objektu WorkbookDesigner
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- The`WorkbookDesigner`spravuje návrh a datovou vazbu našeho sešitu, což nám usnadňuje život při převodu dat do vizuálního formátu.
+Ten/Ta/To `WorkbookDesigner` spravuje návrh a datové vazby našeho sešitu, což nám usnadňuje život při převodu dat do vizuálního formátu.
 
-## Krok 3: Načtěte existující sešit
+## Krok 3: Načtení existujícího sešitu
 
-Dále načteme stávající sešit, který obsahuje naše chytré značky.
+Dále načteme existující sešit, který obsahuje naše inteligentní značky.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
 ```
 
-Aby byla tato funkce užitečná, musí zde ukázkový soubor Excel obsahovat inteligentní značky. Tímto způsobem můžeme nahradit značky našimi vlastními daty.
+Aby byla tato funkce užitečná, musí ukázkový soubor Excel obsahovat inteligentní značky. Tímto způsobem můžeme značky nahradit našimi vlastními daty.
 
-## Krok 4: Nakonfigurujte nastavení sešitu
+## Krok 4: Konfigurace nastavení sešitu
 
-Nyní se budete chtít ujistit, že nastavení sešitu je nakonfigurováno tak, aby správně zpracovávalo úvodní apostrofy.
+Nyní budete chtít zajistit, aby nastavení sešitu byla nakonfigurována tak, aby správně zpracovávala úvodní apostrofy.
 
 ```csharp
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Nastavením`QuotePrefixToStyle` na hodnotu false, dáváme Aspose.Cells pokyn, aby zacházel s úvodními apostrofy jako s běžnými znaky, což nám umožňuje přesně s nimi zacházet v našem výstupu.
+Nastavením `QuotePrefixToStyle` na hodnotu false, dáváme Aspose.Cells pokyn, aby s úvodními apostrofy zacházela jako s běžnými znaky, což nám umožňuje je ve výstupu přesně zpracovat.
 
-## Krok 5: Načtení dat pro chytré značky
+## Krok 5: Načtení dat pro inteligentní značky
 
-Je čas vytvořit náš zdroj dat, který nahradí chytré značky v šabloně Excel.
+Je čas vytvořit náš zdroj dat, který nahradí inteligentní značky v šabloně aplikace Excel.
 
 ```csharp
 List<DataObject> list = new List<DataObject>
@@ -96,73 +98,75 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Vytváříme seznam`DataObject`kde jeden z názvů záměrně obsahuje úvodní apostrof. To pomůže ilustrovat, jak Aspose.Cells řeší takové scénáře.
+Vytváříme seznam `DataObject`, kde jeden z názvů záměrně obsahuje úvodní apostrof. To pomůže ilustrovat, jak Aspose.Cells řeší takové scénáře.
 
-## Krok 6: Svažte zdroj dat s návrhářem
+## Krok 6: Propojení zdroje dat s návrhářem
 
-Nyní svážeme náš zdroj dat s návrhářem sešitu.
+Nyní propojíme náš zdroj dat s návrhářem sešitu.
 
 ```csharp
 designer.SetDataSource("sampleData", list);
 ```
 
-Ujistěte se, že "sampleData" odpovídá inteligentním značkám v souboru Excel. Tímto způsobem Aspose.Cells ví, kam vložit data.
+Ujistěte se, že „sampleData“ odpovídá inteligentním značkám ve vašem souboru Excel. Tímto způsobem Aspose.Cells ví, kam má data vložit.
 
-## Krok 7: Zpracujte inteligentní značky
+## Krok 7: Zpracování inteligentních značek
 
-Pokračujme ve zpracování inteligentních značek s údaji, které jsme poskytli.
+Pojďme zpracovat inteligentní značky s daty, která jsme poskytli.
 
 ```csharp
 designer.Process();
 ```
 
-V této linii se děje kouzlo; Aspose.Cells vezme vaše data a naplní určené inteligentní značky v sešitu aplikace Excel.
+Na tomto řádku se děje kouzlo; Aspose.Cells vezme vaše data a naplní jimi určené inteligentní značky v sešitu aplikace Excel.
 
-## Krok 8: Uložte zpracovaný sešit
+## Krok 8: Uložení zpracovaného sešitu
 
-Nakonec aktualizovaný sešit uložíme do nového souboru.
+Nakonec uložíme aktualizovaný sešit do nového souboru.
 
 ```csharp
 designer.Workbook.Save(outputDir + "AllowLeadingApostropheSample_out.xlsx");
 ```
 
-Tím se náš zpracovaný excelový list uloží pod novým názvem, což zajistí, že nepřepíšeme původní soubor.
+Tím se upravený excelový list uloží pod novým názvem, čímž se zajistí, že se původní soubor nepřepíše.
 
-## Krok 9: Potvrďte úspěšné provedení
+## Krok 9: Potvrzení úspěšného provedení
 
-Naším posledním krokem je dát uživateli vědět, že operace byla úspěšná.
+Naším posledním krokem je informovat uživatele o úspěšné operaci.
 
 ```csharp
 Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 ```
 
-Tento jednoduchý výstup z konzoly vás může ujistit, že všechny kroky byly provedeny bez škytavky.
+Tento jednoduchý výstup z konzole vás může ujistit, že všechny kroky byly provedeny bez jakýchkoli zádrhelů.
 
 ## Závěr
 
-V této příručce jsme prošli složitostmi zacházení s úvodními apostrofy v Excelu pomocí Aspose.Cells pro .NET. Od nastavení prostředí až po efektivní manipulaci se soubory aplikace Excel jste se naučili eliminovat potenciální úskalí, se kterými se často setkáváte při práci s číselnými řetězci a automatickým formátováním.
+V této příručce jsme se probrali složitostmi práce s úvodními apostrofy v Excelu pomocí Aspose.Cells pro .NET. Od nastavení prostředí až po efektivní manipulaci s excelovými soubory jste se naučili eliminovat potenciální úskalí, se kterými se často setkáváme při práci s číselnými řetězci a automatickým formátováním.
 
-Nyní, ať už generujete sestavy, vytváříte funkce pro analýzu dat nebo spravujete importy a exporty dat, máte nástroje, jak se s těmito scénáři s jistotou vypořádat!
+Ať už generujete reporty, vytváříte funkce pro analýzu dat nebo spravujete import a export dat, máte nyní nástroje, které vám s jistotou pomohou s těmito scénáři!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?
-Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a převod souborů aplikace Excel v různých formátech programově.
+Aspose.Cells je výkonná knihovna .NET pro programově vytvářet, manipulovat a převádět soubory aplikace Excel v různých formátech.
 
 ### Mohu používat Aspose.Cells zdarma?
- Ano, Aspose.Cells můžete používat po přihlášení k bezplatné zkušební verzi[zde](https://releases.aspose.com/).
+Ano, Aspose.Cells můžete používat po registraci k bezplatné zkušební verzi. [zde](https://releases.aspose.com/).
 
 ### Jak mohu získat podporu pro Aspose.Cells?
- Pomoc a dotazy můžete najít na[Aspose Support Forum](https://forum.aspose.com/c/cells/9).
+Pomoc a dotazy můžete najít na [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Jaké typy souborů Aspose.Cells podporuje?
-Aspose.Cells podporuje různé formáty, jako je XLS, XLSX, CSV a mnoho dalších.
+Aspose.Cells podporuje různé formáty, jako například XLS, XLSX, CSV a mnoho dalších.
 
-### Jak si koupím licenci pro Aspose.Cells?
- Licenci pro Aspose.Cells si můžete zakoupit přímo z jejich nákupní stránky[zde](https://purchase.aspose.com/buy).
+### Jak si mohu zakoupit licenci pro Aspose.Cells?
+Licenci pro Aspose.Cells si můžete zakoupit přímo na jejich nákupní stránce. [zde](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

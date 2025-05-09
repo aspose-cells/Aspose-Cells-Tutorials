@@ -8,7 +8,9 @@ url: /net/worksheet-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Worksheet Management with Aspose.Cells for .NET
@@ -151,6 +153,9 @@ Learn how to set worksheet tab colors in Excel with Aspose.Cells for .NET. This 
 Learn how to use Aspose.Cells for .NET to split worksheet panes in Excel, improving data navigation and analysis efficiency for better visualization of large datasets.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

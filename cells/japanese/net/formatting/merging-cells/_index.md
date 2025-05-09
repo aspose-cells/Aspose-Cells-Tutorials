@@ -1,54 +1,59 @@
 ---
-title: .NET のAspose.Cellsを使用して Excel に セルを統合する
-weight: 7700
-limit: 
-description: .NETのAspose.Cellsを使用して Excel ファイルにセルを統合する方法について学びましょう.このガイドはワークブックを作成し,セル操作し,さまざまなフォーマットでファイルを保存します.
-keywords: [Aspose.Cells for .NET, merge cells in Excel, Excel cell merging, C# Excel merge, workbook manipulation, Aspose.Cells example, merge rows and columns, C# Excel library]
-url: /ja/net/formatting/merging-cells/
+"description": "Aspose.Cells for .NET を使用して Excel ファイル内のセルを結合する方法を学びます。このガイドでは、ワークブックの作成、セルの操作、さまざまな形式でのファイルの保存について説明します。"
+"title": "Aspose.Cells for .NET を使用して Excel のセルを結合する"
+"url": "/ja/net/formatting/merging-cells/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET のAspose.Cellsを使用して Excel に セルを統合する
+# Aspose.Cells for .NET を使用して Excel のセルを結合する
   
-.NET の Aspose.Cells は Excel ファイル を プログラム 的に 処理 する 強力な ライブラリ です.この チュートリアル で, Excel ワークシート の セル を C# で 統合 する こと を 学び ます.新しい ワークブック を 作成 し,ワークシート に アクセス し,文書 を 効率 的 に フォーマット する ため に 特定の セル を 統合 する こと を 始め ます.この ステップ バイ ステップ ガイド は, .NET の Aspose.Cells を 活用 し て スプレッドシート 操作 を 効率化 する に 役立つ.  
+Aspose.Cells for .NETは、Excelファイルをプログラムで操作するための強力なライブラリです。このチュートリアルでは、C#を使ってExcelワークシート内のセルを結合する方法を学びます。まず、新しいブックを作成し、ワークシートにアクセスし、特定のセルを結合してドキュメントを効率的に書式設定します。このステップバイステップガイドは、Aspose.Cells for .NETを使ったスプレッドシート操作を効率化するのに役立ちます。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
-プロジェクトで .NET のAspose.Cellsを使用するには,次の手順を実行してください.  
 
-1. NuGet を介してインストール  
-   Visual Studio で パッケージ管理コンソールを開いて:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## インストール手順  
+プロジェクトで Aspose.Cells for .NET を使用するには、次の手順に従います。  
+
+1. NuGet経由でインストール  
+   Visual Studio でパッケージ マネージャー コンソールを開き、次を実行します。  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
 2. DLLをダウンロードする  
-   ダウンロードする[.NETダウンロードのAspose.Cells](https://releases.aspose.com/cells/net/)プロジェクトでDLLを参照してください  
+   または、最新バージョンを以下からダウンロードしてください。 [Aspose.Cells for .NET のダウンロード](https://releases.aspose.com/cells/net/) プロジェクト内で DLL を参照します。  
 
-3. プロジェクト に 参照 を 追加 する  
-   * Visual Studioでは Solution Explorerで右クリックします  
-   * 参照を追加 > ブラウザ > ダウンロードされたDLLを選択してください.  
-   * 参照を追加するにはOKをクリックします.  
+3. プロジェクトに参照を追加する  
+   - Visual Studio のソリューション エクスプローラーでプロジェクトを右クリックします。  
+   - [参照の追加] > [参照] > ダウンロードした DLL を選択します。  
+   - 参照を追加するには、[OK] をクリックします。  
 
-4. "アスペーズ.セル" を 活用 始め  
-   C# ファイルの初めには次の名前空間を追加します  
+4. Aspose.Cells を使い始める  
+   C# ファイルの先頭に次の名前空間を追加します。  
    ```csharp
    using Aspose.Cells;
    ```
 
-## また見てください  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

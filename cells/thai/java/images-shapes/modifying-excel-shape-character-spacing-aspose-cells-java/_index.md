@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,14 +34,14 @@
 ก่อนที่จะเริ่มต้น ให้แน่ใจว่าคุณมี:
 1. **ห้องสมุดที่จำเป็น:** รวม Aspose.Cells สำหรับ Java ในโครงการของคุณโดยใช้ Maven หรือ Gradle
 2. **การตั้งค่าสภาพแวดล้อม:** ตรวจสอบให้แน่ใจว่ามีการติดตั้ง JDK ไว้ในเครื่องของคุณและใช้ IDE เช่น IntelliJ IDEA หรือ Eclipse
-3. **ข้อกำหนดเบื้องต้นของความรู้:** มีความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และมีความคุ้นเคยกับการจัดการไฟล์ Excel ด้วยโปรแกรม
+3. **ข้อกำหนดความรู้เบื้องต้น:** มีความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และมีความคุ้นเคยกับการจัดการไฟล์ Excel ด้วยโปรแกรม
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
 ในการเริ่มใช้ Aspose.Cells ให้ตั้งค่าในสภาพแวดล้อมโครงการของคุณ:
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -180,6 +182,9 @@ wb.save(outDir + "/CCSpacing_out.xlsx", SaveFormat.XLSX);
 ก้าวสู่ขั้นตอนถัดไปในการเชี่ยวชาญ Aspose.Cells สำหรับ Java และปลดล็อคศักยภาพใหม่ในการจัดการไฟล์ Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

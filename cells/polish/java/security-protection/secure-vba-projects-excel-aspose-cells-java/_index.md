@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Użyj `Workbook` klasę w celu załadowania skoroszytu poprzez określenie jego 
 Workbook wb = new Workbook(dataDir + "/samplePasswordProtectVBAProject.xlsm");
 ```
 
-**Wyjaśnienie**:Ten `Workbook` Konstruktor odczytuje plik i inicjuje go w celu dalszych operacji.
+**Wyjaśnienie**:Ten `Workbook` Konstruktor odczytuje plik i inicjuje go do dalszych operacji.
 
 ### Funkcja 2: Dostęp i ochrona projektu VBA w skoroszycie programu Excel
 
@@ -179,7 +181,7 @@ Oto kilka scenariuszy z życia wziętych, w których można zastosować te funkc
 
 **Wytyczne dotyczące korzystania z zasobów**:
 - Monitoruj wykorzystanie pamięci przez swoją aplikację, szczególnie w przypadku dużych zbiorów danych.
-- W miarę możliwości korzystaj z obsługi wielowątkowości w Aspose.Cells.
+- W miarę możliwości wykorzystaj obsługę wielowątkowości w Aspose.Cells.
 
 ## Wniosek
 
@@ -202,7 +204,7 @@ W tym samouczku omówiliśmy, jak załadować skoroszyt programu Excel, uzyskać
    - Tak, Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX i inne.
 
 4. **Jakie są korzyści z korzystania z tymczasowej licencji na Aspose.Cells?**
-   - Tymczasowa licencja umożliwia korzystanie ze wszystkich funkcji bez ograniczeń w okresie testowym.
+   - Tymczasowa licencja umożliwia zapoznanie się ze wszystkimi funkcjami bez ograniczeń w okresie testowym.
 
 5. **Gdzie mogę znaleźć dodatkową pomoc, jeśli będzie mi potrzebna?**
    - Odwiedź [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9) o wsparcie społeczności i władz.
@@ -212,6 +214,9 @@ W tym samouczku omówiliśmy, jak załadować skoroszyt programu Excel, uzyskać
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

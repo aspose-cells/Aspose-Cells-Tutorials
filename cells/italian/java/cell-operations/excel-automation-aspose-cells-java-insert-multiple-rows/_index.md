@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 #### Passaggio 2: inserire le righe nel foglio di lavoro
-Quindi, utilizzare il `insertRows` metodo per aggiungere righe a un indice specificato:
+Quindi, usa il `insertRows` metodo per aggiungere righe a un indice specificato:
 ```java
 import com.aspose.cells.Cells;
 
@@ -178,6 +180,9 @@ Per migliorare ulteriormente le tue competenze, esplora altre funzionalità offe
 Sfrutta Aspose.Cells per Java per migliorare le tue attività di manipolazione dei dati con facilità ed efficienza. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,31 +1,33 @@
 ---
-title: Mengonversi File Excel ke Format Lain
-linktitle: Mengonversi File Excel ke Format Lain
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Jelajahi daftar tutorial Aspose.Cells untuk .NET yang komprehensif untuk mengonversi file Excel ke dalam format seperti JSON, DOCX, HTML, PDF, Markdown, dan banyak lagi.
-weight: 35
-url: /id/net/converting-excel-files-to-other-formats/
+"description": "Jelajahi daftar tutorial Aspose.Cells untuk .NET yang komprehensif untuk mengonversi file Excel ke dalam format seperti JSON, DOCX, HTML, PDF, Markdown, dan banyak lagi."
+"linktitle": "Mengonversi File Excel ke Format Lain"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Mengonversi File Excel ke Format Lain"
+"url": "/id/net/converting-excel-files-to-other-formats/"
+"weight": 35
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengonversi File Excel ke Format Lain
 
-## Perkenalan
+## Bevezetés
 
 Bagi pengembang yang bekerja dengan file Excel dalam .NET, transformasi file yang efisien dapat menjadi pengubah permainan. Aspose.Cells untuk .NET menawarkan dukungan yang kuat untuk mengonversi file Excel ke dalam berbagai format, menyediakan penanganan data yang fleksibel di seluruh aplikasi. Berikut adalah panduan untuk beberapa tutorial berharga yang memperlihatkan proses mengonversi file Excel ke berbagai jenis file menggunakan Aspose.Cells.
 
 ## Mengonversi File Excel ke JSON, DOCX, HTML, dan Lainnya
 
-1. [Mengonversi CSV ke JSON secara Terprogram di .NET](./converting-csv-to-json/): Mengubah file CSV ke format JSON kini lebih mudah dari sebelumnya. Panduan ini menyediakan pendekatan berbasis kode yang mudah dipahami untuk mengubah data, cocok untuk aplikasi yang memerlukan data JSON terstruktur dari input CSV mentah.
+1. [Mengonversi CSV ke JSON secara Terprogram di .NET](./converting-csv-to-json/)Mengubah file CSV ke format JSON kini lebih mudah dari sebelumnya. Panduan ini menyediakan pendekatan berbasis kode yang mudah dipahami untuk mengubah data, cocok untuk aplikasi yang memerlukan data JSON terstruktur dari input CSV mentah.
 
 2. [Mengonversi File Excel ke DOCX Secara Terprogram di .NET](./converting-excel-file-to-docx/): Tutorial ini menawarkan cara mudah untuk mengonversi data Excel ke format DOCX, ideal untuk membuat laporan atau dokumen yang dapat dibagikan. Anda dapat mengikuti pendekatan langkah demi langkah ini untuk membuat dokumen DOCX dengan data tertanam.
 
 3. [Mengonversi File Excel ke HTML dengan Tooltip di .NET](./converting-excel-file-to-html-with-tooltip/): Tingkatkan interaktivitas aplikasi web Anda dengan menyematkan data Excel sebagai HTML dengan tooltip. Aspose.Cells memudahkan konversi data Excel ke HTML, dengan menambahkan lapisan informasi yang kaya ke konten web Anda.
 
-4. [Mengonversi File Excel ke PDF (A-1a) Secara Terprogram di .NET](./converting-excel-file-to-pdf-a-1a/): Mengonversi file ke PDF/A-1a memastikan penyimpanan data Anda dalam jangka panjang. Tutorial ini akan memandu Anda melalui proses konversi, merinci contoh kode untuk membuat file PDF/A-1a untuk pengarsipan yang aman.
+4. [Mengonversi File Excel ke PDF (A-1a) Secara Terprogram di .NET](./converting-excel-file-to-pdf-a-1a/)Mengonversi file ke PDF/A-1a memastikan penyimpanan data Anda dalam jangka panjang. Tutorial ini akan memandu Anda melalui proses konversi, merinci contoh kode untuk membuat file PDF/A-1a untuk pengarsipan yang aman.
 
 5. [Pelacakan Kemajuan Konversi Dokumen Secara Terprogram di .NET](./tracking-document-conversion-progress/): Pantau kemajuan konversi secara real-time! Aspose.Cells untuk .NET mencakup fitur yang memungkinkan Anda melacak dan mengelola konversi dokumen, menjaga proses tetap transparan dan efisien.
 
@@ -64,9 +66,11 @@ Pelajari cara menyimpan buku kerja dalam format Strict Open XML Spreadsheet meng
 deskripsi: Pelajari cara melacak kemajuan konversi dokumen secara terprogram menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
 ### [Melacak Kemajuan Konversi Dokumen untuk TIFF Secara Terprogram di .NET](./tracking-document-conversion-progress-for-tiff/)
 Pelajari cara melacak kemajuan konversi TIFF secara terprogram menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami. Tingkatkan keterampilan manajemen dokumen Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

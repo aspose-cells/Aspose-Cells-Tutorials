@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ try {
 - **`Workbook`-** แสดงถึงไฟล์ Excel
 - **การจัดการข้อยกเว้น:** สิ่งสำคัญสำหรับการดีบักและการสร้างความมั่นใจว่าโค้ดมีความแข็งแกร่ง
 
-### การเข้าถึงแผ่นงานและการลบบานหน้าต่าง
+### การเข้าถึงเวิร์กชีตและการลบบานหน้าต่าง
 
 **ภาพรวม:**
 เรียนรู้วิธีการเข้าถึงเวิร์กชีตที่ต้องการภายในเวิร์กบุ๊กและลบแผงแยกที่มีอยู่
@@ -172,6 +174,9 @@ try {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

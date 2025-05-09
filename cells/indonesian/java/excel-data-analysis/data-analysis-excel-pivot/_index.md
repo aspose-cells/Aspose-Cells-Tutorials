@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Analisis Data Excel Pivot
@@ -18,12 +20,12 @@
 
 Sebelum menyelami seluk-beluk analisis data, mari berkenalan dengan Aspose.Cells untuk Java. Pustaka Java ini merupakan bagian dari keluarga produk Aspose.Cells, yang terkenal karena kemampuannya dalam menangani berkas Excel. Aspose.Cells untuk Java memungkinkan Anda membuat, memodifikasi, dan memanipulasi buku kerja Excel, lembar kerja, bagan, dan tabel pivot secara terprogram.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikuti panduan ini, Anda memerlukan hal berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java pada sistem Anda.
-- Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan sertakan pustaka Aspose.Cells untuk Java dalam proyek Anda. Anda dapat menemukan tautan unduhan [itt](https://releases.aspose.com/cells/java/).
 - Contoh Data: Siapkan data Excel yang ingin Anda analisis.
 
 ## Membuat Buku Kerja Excel Baru
@@ -91,15 +93,15 @@ pivotTable.getField(1).setDisplayAutomaticSubtotals(false); // Nonaktifkan subto
 
 Setelah kita membuat dan menyesuaikan tabel pivot, saatnya menganalisis data. Anda dapat menggunakan tabel pivot untuk menghasilkan wawasan, mendeteksi tren, dan membuat keputusan yang tepat.
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan ini, kami telah menjajaki cara melakukan analisis data di Excel menggunakan Aspose.Cells untuk Java. Kami memulai dengan membuat buku kerja baru, mengimpor data, dan membuat tabel pivot. Kemudian, kami mendefinisikan bidang tabel pivot, menggabungkan data, dan menyesuaikan tata letak. Dengan alat-alat ini, Anda dapat membuka potensi penuh analisis data di Excel dengan Java.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Anda dapat mengunduh Aspose.Cells untuk Java dari situs web [Di Sini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di proyek Java Anda.
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web [itt](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang diberikan untuk mengaturnya di proyek Java Anda.
 
 ### Dapatkah saya melakukan perhitungan tingkat lanjut dalam tabel pivot?
 
@@ -120,6 +122,7 @@ Ya, Aspose.Cells untuk Java adalah pustaka komersial, dan Anda memerlukan lisens
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

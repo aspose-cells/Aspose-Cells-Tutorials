@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Sparklines di Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Sparkline adalah bagan kecil yang muat dalam satu sel, yang memungkinkan Anda memvisualisasikan tren data secara langsung dalam lembar kerja Excel tanpa mengacaukannya dengan bagan berukuran penuh. Panduan ini akan memandu Anda membuat dan menyesuaikan sparkline menggunakan Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membuat contoh buku kerja dengan Aspose.Cells
 - Mengakses dan mengubah lembar kerja
 - Menambahkan dan bekerja dengan grup sparkline
@@ -25,15 +27,15 @@ Sparkline adalah bagan kecil yang muat dalam satu sel, yang memungkinkan Anda me
 
 Mari kita mulai dengan membahas prasyarat yang Anda perlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum menerapkan solusi ini, pastikan Anda memiliki:
+A megoldás bevezetése előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 
 - Pustaka Aspose.Cells (versi 25.3) terintegrasi ke dalam proyek Java Anda.
 - Pemahaman dasar tentang pemrograman Java.
 - Maven atau Gradle diinstal jika mengelola dependensi melalui alat ini.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 
 Siapkan lingkungan pengembangan Java Anda dan pilih alat pembangunan seperti Maven atau Gradle untuk manajemen ketergantungan.
 
@@ -55,7 +57,7 @@ Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven atau 
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells adalah produk komersial, tetapi Anda dapat memperoleh uji coba gratis untuk menjelajahi fitur-fiturnya. Pertimbangkan untuk membeli lisensi untuk penggunaan jangka panjang.
 
@@ -77,7 +79,7 @@ class SparklineExample {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan proses pembuatan dan konfigurasi grafik mini di Excel menggunakan Aspose.Cells untuk Java.
 
@@ -87,7 +89,7 @@ Untuk memanipulasi file Excel, mulailah dengan membuat contoh `Workbook` kelas. 
 ```java
 import com.aspose.cells.*;
 
-// Buat contoh kelas Buku Kerja untuk bekerja dengan file Excel.
+// Hozzon létre egy példányt a Workbook osztályból az Excel-fájlok kezeléséhez.
 Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 ```
@@ -118,7 +120,7 @@ for (int i = 0; i < worksheet.getSparklineGroups().getCount(); i++) {
 
 ### Langkah 4: Menambahkan Sparklines ke Lembar Kerja
 
-Tentukan area tempat Anda ingin menerapkan grafik mini, lalu tambahkan menggunakan `add()` metode.
+Tentukan area tempat Anda ingin menerapkan grafik mini, lalu tambahkan menggunakan `add()` módszer.
 ```java
 // Tentukan area sel di mana grafik mini akan diterapkan.
 CellArea ca = new CellArea();
@@ -149,34 +151,34 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/UsingSparklines_out.xls");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa aplikasi praktis untuk menggunakan grafik mini di Excel dengan Aspose.Cells:
-1. **Pelaporan Keuangan**: Visualisasikan kinerja saham harian dalam lembar kerja keuangan.
+1. **Pénzügyi jelentéstétel**: Visualisasikan kinerja saham harian dalam lembar kerja keuangan.
 2. **Analisis Data Penjualan**: Pahami tren penjualan dengan cepat tanpa meninggalkan lembar kerja.
-3. **Manajemen Inventaris**: Memantau tingkat inventaris secara sekilas pada berbagai periode.
+3. **Készletgazdálkodás**: Memantau tingkat inventaris secara sekilas pada berbagai periode.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk kinerja optimal saat bekerja dengan kumpulan data besar di Aspose.Cells:
 - Minimalkan penggunaan sumber daya dengan memproses data dalam potongan-potongan jika memungkinkan.
 - Memanfaatkan teknik manajemen memori Java yang efisien untuk menangani buku kerja yang besar.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara membuat dan menyesuaikan grafik mini di Excel menggunakan Aspose.Cells untuk Java. Bereksperimenlah lebih jauh dengan menjelajahi fitur-fitur lain dari pustaka tersebut, seperti penyesuaian bagan atau perlindungan buku kerja.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi lebih lanjut tentang kemampuan Aspose.Cells.
 - Cobalah mengintegrasikan solusi Anda dengan umpan data untuk pembaruan waktu nyata.
 
-## Bagian FAQ
+## GYIK szekció
 
 **1. Apa itu sparklines?**
    Sparkline adalah bagan kecil yang ditempatkan dalam sel tunggal untuk menggambarkan tren dalam kumpulan data.
 
 **2. Bagaimana cara mengubah jenis grafik mini?**
-   Menggunakan `SparklineType` saat menambahkan grafik mini baru untuk menentukan tipe seperti LINE atau COLUMN.
+   Használat `SparklineType` saat menambahkan grafik mini baru untuk menentukan tipe seperti LINE atau COLUMN.
 
 **3. Dapatkah saya menerapkan grafik mini ke beberapa lembar kerja sekaligus?**
    Meskipun Aspose.Cells tidak mendukung operasi massal secara langsung, Anda dapat mengulangi setiap lembar kerja secara terprogram.
@@ -185,17 +187,20 @@ Anda telah mempelajari cara membuat dan menyesuaikan grafik mini di Excel menggu
    Pastikan memori yang tersedia cukup; buku kerja yang besar dapat memengaruhi kinerja.
 
 **5. Bagaimana cara mendapatkan dukungan teknis untuk Aspose.Cells?**
-   Mengunjungi [Dukungan Aspose](https://forum.aspose.com/c/cells/9) atau merujuk pada dokumentasi lengkapnya.
+   Látogatás [Aspose támogatás](https://forum.aspose.com/c/cells/9) atau merujuk pada dokumentasi lengkapnya.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** Jelajahi panduan terperinci dan referensi API di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
-- **Unduh:** Akses versi terbaru Aspose.Cells dari [Rilis](https://releases.aspose.com/cells/java/).
-- **Pembelian:** Beli lisensi untuk membuka fitur lengkap melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
-- **Uji Coba Gratis:** Mulailah dengan versi uji coba di [Uji Coba Gratis](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Ajukan permohonan lisensi sementara melalui [Halaman Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+- **Dokumentáció:** Részletes útmutatókat és API-referenciákat itt talál: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés:** Akses versi terbaru Aspose.Cells dari [Kiadások](https://releases.aspose.com/cells/java/).
+- **Vásárlás:** Beli lisensi untuk membuka fitur lengkap melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Mulailah dengan versi uji coba di [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Ajukan permohonan lisensi sementara melalui [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

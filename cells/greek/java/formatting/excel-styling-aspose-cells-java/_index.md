@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -216,6 +218,9 @@ workbook.save("StyledExcelFile_out.xls");
 - **Απόδειξη με έγγραφα:** Εξερευνήστε το πλήρες [Τεκμηρίωση Aspose.Cells](https://docs.aspose.com/cells/java/) για πιο προηγμένες λειτουργίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

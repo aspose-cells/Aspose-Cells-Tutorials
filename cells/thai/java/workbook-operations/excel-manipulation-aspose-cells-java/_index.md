@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ while (rowsIterator.hasNext()) {
 **คำอธิบาย:** ตัววนซ้ำช่วยให้สามารถผ่านแต่ละขั้นตอนได้อย่างสะดวก `Row` วัตถุ ใช้ `getIndex()` วิธีการในการดึงดัชนีของแถวปัจจุบัน
 
 ### เคล็ดลับการแก้ไขปัญหา
-- **ไม่พบไฟล์ข้อยกเว้น:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้องและสามารถเข้าถึงได้
+- **ข้อยกเว้นไม่พบไฟล์:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้องและสามารถเข้าถึงได้
 - **ปัญหา Classpath:** ตรวจสอบว่า Aspose.Cells ได้รับการเพิ่มเป็นส่วนที่ต้องพึ่งพาในการกำหนดค่าโครงการของคุณอย่างถูกต้อง
 
 ## การประยุกต์ใช้งานจริง
@@ -173,6 +175,9 @@ while (rowsIterator.hasNext()) {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

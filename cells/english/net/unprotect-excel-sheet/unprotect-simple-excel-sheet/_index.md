@@ -8,7 +8,9 @@ url: /net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unprotect Simple Excel Sheet
@@ -130,6 +132,7 @@ You can refer to the [documentation](https://reference.aspose.com/cells/net/) fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

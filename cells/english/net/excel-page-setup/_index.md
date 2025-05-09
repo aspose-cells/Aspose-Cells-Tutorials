@@ -8,7 +8,9 @@ url: /net/excel-page-setup/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Page Setup
@@ -84,6 +86,7 @@ With so many tutorials at your fingertips, mastering Aspose.Cells for .NET doesn
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

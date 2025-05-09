@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi sang XPS trong .NET
-linktitle: Chuyển đổi sang XPS trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells cho .NET chỉ trong vài bước đơn giản, có hướng dẫn bằng các ví dụ mã thực tế.
-weight: 10
-url: /vi/net/xps-and-pdf-operations/converting-to-xps/
+"description": "Tìm hiểu cách chuyển đổi tệp Excel sang định dạng XPS bằng Aspose.Cells cho .NET chỉ trong vài bước đơn giản, có hướng dẫn bằng các ví dụ mã thực tế."
+"linktitle": "Chuyển đổi sang XPS trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi sang XPS trong .NET"
+"url": "/vi/net/xps-and-pdf-operations/converting-to-xps/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi sang XPS trong .NET
@@ -18,7 +20,7 @@ Khi nói đến việc chuyển đổi các tệp Excel sang định dạng XPS,
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết của quá trình chuyển đổi, hãy đảm bảo rằng bạn có mọi thứ mình cần. Sau đây là những gì bạn cần:
 1. Visual Studio: Đây là IDE nơi bạn sẽ viết mã của mình. Hãy đảm bảo rằng bạn đã cài đặt nó.
-2.  Thư viện Aspose.Cells: Bạn cần thư viện này để xử lý các tệp Excel một cách hiệu quả. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần thư viện này để xử lý các tệp Excel một cách hiệu quả. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về .NET: Sự quen thuộc với C# hoặc VB.NET sẽ giúp bạn hiểu rõ hơn các ví dụ của chúng tôi.
 4. Tệp Excel: Chuẩn bị sẵn một tệp Excel mẫu (trong hướng dẫn này, chúng ta sẽ sử dụng "Book1.xls") trong thư mục làm việc của bạn.
 
@@ -48,7 +50,7 @@ Bây giờ, hãy tải tệp Excel của bạn vào đối tượng Aspose Workb
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Ở đây, chúng tôi đang tạo một phiên bản mới của`Workbook` lớp và tải "Book1.xls" vào đó.
+Ở đây, chúng tôi đang tạo một phiên bản mới của `Workbook` lớp và tải "Book1.xls" vào đó.
 ## Bước 3: Truy cập vào trang tính đầu tiên
 Tiếp theo, chúng ta cần lấy worksheet mà chúng ta muốn làm việc. Vì chúng ta đang sử dụng worksheet đầu tiên, nên mã của chúng ta sẽ trông như thế này:
 ```csharp
@@ -56,7 +58,7 @@ Worksheet sheet = workbook.Worksheets[0]; // Truy cập vào bảng tính đầu
 ```
 Dòng mã này cho phép bạn truy cập vào bảng tính đầu tiên để thực hiện các lệnh tiếp theo.
 ## Bước 4: Cấu hình tùy chọn hình ảnh và in
- Bây giờ chúng ta cần xác định cách chúng ta muốn hiển thị đầu ra của mình. Điều này liên quan đến việc tạo một thể hiện của`ImageOrPrintOptions` và thiết lập định dạng đầu ra mong muốn.
+Bây giờ chúng ta cần xác định cách chúng ta muốn hiển thị đầu ra của mình. Điều này liên quan đến việc tạo một thể hiện của `ImageOrPrintOptions` và thiết lập định dạng đầu ra mong muốn.
 ```csharp
 Aspose.Cells.Rendering.ImageOrPrintOptions options = new Aspose.Cells.Rendering.ImageOrPrintOptions();
 options.SaveFormat = SaveFormat.Xps; // Thiết lập định dạng đầu ra thành XPS
@@ -68,7 +70,7 @@ Sau khi thiết lập các tùy chọn, đã đến lúc hiển thị trang tín
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(sheet, options);
 sr.ToImage(0, dataDir + "out_printingxps.out.xps");
 ```
- Ở đây, chúng tôi đã tạo ra một`SheetRender` đối tượng, đảm nhiệm quá trình kết xuất. Phương pháp`ToImage` xử lý việc chuyển đổi thực tế và lưu đầu ra đã kết xuất dưới dạng "out_printingxps.out.xps".
+Ở đây, chúng tôi đã tạo ra một `SheetRender` đối tượng, đảm nhiệm quá trình kết xuất. Phương pháp `ToImage` xử lý việc chuyển đổi thực tế và lưu đầu ra đã kết xuất dưới dạng "out_printingxps.out.xps".
 ## Bước 6: Xuất toàn bộ Workbook sang XPS
 Nếu bạn muốn chuyển đổi toàn bộ bảng tính thay vì chỉ một trang tính, bạn có thể làm theo bước bổ sung này:
 ```csharp
@@ -82,16 +84,18 @@ Xin chúc mừng! Bạn đã chuyển đổi thành công tệp Excel sang đị
 ### Định dạng XPS là gì?
 XPS (XML Paper Specification) là định dạng tài liệu cố định, giữ nguyên bố cục và hình thức của tài liệu.
 ### Tôi có cần phải mua Aspose.Cells để sử dụng không?
- Bạn có thể dùng thử miễn phí Aspose.Cells[đây](https://releases.aspose.com/). Sau đó, bạn có thể cần phải mua giấy phép để có đầy đủ chức năng.
+Bạn có thể dùng thử miễn phí Aspose.Cells [đây](https://releases.aspose.com/). Sau đó, bạn có thể cần phải mua giấy phép để có đầy đủ chức năng.
 ### Tôi có thể chuyển đổi nhiều tệp Excel cùng lúc không?
 Có, bạn có thể điều chỉnh mã để lặp qua nhiều tệp trong thư mục và áp dụng cùng một logic chuyển đổi cho từng tệp.
 ### Nếu tôi chỉ cần chuyển đổi một số trang tính cụ thể thì sao?
- Bạn có thể chỉ định chỉ mục của trang tính bạn muốn trong`SheetRender` đối tượng như được hiển thị trong các bước của chúng tôi.
+Bạn có thể chỉ định chỉ mục của trang tính bạn muốn trong `SheetRender` đối tượng như được hiển thị trong các bước của chúng tôi.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
- Bạn có thể khám phá[tài liệu](https://reference.aspose.com/cells/net/) để biết thêm các tính năng và tùy chọn nâng cao có trong thư viện.
+Bạn có thể khám phá [tài liệu](https://reference.aspose.com/cells/net/) để biết thêm các tính năng và tùy chọn nâng cao có trong thư viện.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

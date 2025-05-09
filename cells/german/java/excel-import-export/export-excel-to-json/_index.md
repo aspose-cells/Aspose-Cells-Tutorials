@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportieren von Excel nach JSON
@@ -76,9 +78,11 @@ Herzlichen Glückwunsch! Sie haben Excel-Daten mit Aspose.Cells für Java erfolg
    Ja, Sie können eine Testversion von Aspose.Cells für Java von der Website herunterladen, um die Funktionen zu testen.
 
 Erkunden Sie weitere Möglichkeiten mit Aspose.Cells für Java, um Ihre Datenverarbeitungsfunktionen zu verbessern.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

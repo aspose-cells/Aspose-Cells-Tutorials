@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Leer werkbladmanipulatie onder de knie te krijgen met onze gedetailleerde Aspose
 Leer hoe je specifieke werkbladen op naam kunt benaderen met Aspose.Cells voor Java. Stroomlijn je gegevensverwerking met deze uitgebreide handleiding.
 
 ### [Werkbladen toevoegen in Excel met Aspose.Cells voor Java: een complete handleiding](./add-spreadsheets-excel-aspose-cells-java/)
-Leer hoe u programmatisch werkbladen aan een Excel-bestand toevoegt met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+Leer hoe u programmatisch werkbladen aan een Excel-bestand kunt toevoegen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
 ### [Een kolom invoegen in Excel met Aspose.Cells voor Java - Een uitgebreide handleiding](./aspose-cells-java-insert-column-excel/)
 Beheers het invoegen van kolommen in je Excel-werkbladen met Aspose.Cells voor Java. Volg deze gedetailleerde handleiding om automatisch rapporten te genereren en je gegevensbeheer te verbeteren.
@@ -108,6 +110,9 @@ Leer hoe u moeiteloos rijen en kolommen in Excel-bestanden zichtbaar maakt met A
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

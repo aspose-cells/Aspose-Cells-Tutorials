@@ -8,7 +8,9 @@ url: /net/workbook-settings/support-named-range-formulas-in-german/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Support Named Range Formulas in German Locale
@@ -83,6 +85,7 @@ You can find the documentation for Aspose.Cells for .NET on the [Aspose document
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

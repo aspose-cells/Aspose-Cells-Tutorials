@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,9 +171,12 @@ workbook.save(outDir + "ConsolidationFunctions_out.xlsx");
 - **선적 서류 비치:** [Aspose.Cells Java 참조](https://reference.aspose.com/cells/java/)
 - **다운로드:** [Aspose Cells 출시](https://releases.aspose.com/cells/java/)
 - **구매 및 체험:** [Aspose 구매 및 무료 체험](https://purchase.aspose.com/buy)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

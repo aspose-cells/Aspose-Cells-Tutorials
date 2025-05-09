@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Aspose.Cells предлагает бесплатную пробную лицен
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Базовая инициализация**: Создать `Workbook` пример для начала работы с файлами Excel.
+3. **Базовая инициализация**Создать `Workbook` пример для начала работы с файлами Excel.
 
 ## Руководство по внедрению
 
@@ -166,6 +168,9 @@ wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 Это всеобъемлющее руководство должно помочь вам эффективно настраивать метки данных диаграмм в ваших приложениях Java с помощью Aspose.Cells. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

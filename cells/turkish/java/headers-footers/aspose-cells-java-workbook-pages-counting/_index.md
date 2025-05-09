@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ A1: Aspose.Cells şu anda tüm çalışma kitapları veya çalışma sayfaları 
 **S2: Yazdırma ayarları sayfa sayısını nasıl etkiler?**
 A2: Kağıt boyutu ve yönü gibi yazdırma ayarları, hesaplanan sayfa sayısını doğrudan etkiler. Doğru sonuçlar elde etmek için bunların amaçlanan çıktınızla eşleştiğinden emin olun.
 
-**S3: Sayfa sayımı için çalışma kitabı veya çalışma sayfası boyutunda bir sınır var mı?**
+**S3: Sayfa sayımında çalışma kitabı veya çalışma sayfası boyutunda bir sınır var mı?**
 A3: Aspose.Cells büyük dosyaları verimli bir şekilde işler, ancak performans sistem kaynaklarına bağlı olarak değişebilir. İşlemler sırasında bellek kullanımını düzenli olarak izleyin.
 
 **S4: Aspose.Cells için lisanslama maliyeti nedir?**
@@ -195,6 +197,9 @@ C5: Evet, Aspose.Cells Maven veya Gradle kullanılarak projelere kolayca entegre
 - **Destek**: [Aspose Topluluk Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

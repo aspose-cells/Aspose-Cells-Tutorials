@@ -8,7 +8,9 @@ url: /net/protect-excel-file/protect-specific-column-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Specific Column In Excel Worksheet
@@ -165,6 +167,7 @@ You can find assistance and community support at the [Aspose forum](https://foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ Với các bước này, bạn đã triển khai thành công tính năng ngắt
 Hiểu cách ngắt dòng văn bản có thể mang lại lợi ích trong nhiều trường hợp:
 
 1. **Báo cáo tài chính**:Mô tả dài hoặc ghi chú kèm theo số liệu tài chính.
-2. **Quản lý hàng tồn kho**: Mô tả chi tiết về sản phẩm trong danh mục.
+2. **Quản lý hàng tồn kho**: Mô tả chi tiết sản phẩm trong danh mục.
 3. **Hệ thống nhân sự**: Hồ sơ nhân viên mở rộng với các trường dữ liệu toàn diện.
 
 Việc tích hợp Aspose.Cells với các hệ thống khác, như cơ sở dữ liệu hoặc ứng dụng web, có thể nâng cao khả năng quản lý dữ liệu của bạn.
@@ -178,6 +180,9 @@ Sẵn sàng áp dụng kiến thức này vào thực tế? Hãy thử nghiệm 
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

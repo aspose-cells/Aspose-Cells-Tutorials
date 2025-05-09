@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Domine a arte de exportar gráficos do Excel como PDFs de alta qualidade, mantendo tamanhos de página personalizados, com o Aspose.Cells para Java. Este tutorial guiará você pelo processo, garantindo que seus documentos sejam visualmente atraentes e formatados profissionalmente.
 
-## que você aprenderá
+## O que você aprenderá
 - Como carregar um arquivo do Excel e acessar seu conteúdo.
 - Etapas para recuperar planilhas e gráficos específicos de arquivos do Excel.
 - Técnicas para converter um gráfico em PDF com dimensões de página personalizadas.
@@ -177,6 +179,9 @@ Embarque em sua jornada com o Aspose.Cells para Java hoje mesmo e transforme a m
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

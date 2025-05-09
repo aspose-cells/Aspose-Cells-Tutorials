@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosowywanie stylów tabeli przestawnej
@@ -87,9 +89,11 @@ Dostosowywanie stylów tabeli przestawnej w Aspose.Cells for Java API jest prost
    Dokumentację API można znaleźć pod adresem [Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/) Aby uzyskać szczegółowe informacje.
 
 Teraz masz wiedzę, jak tworzyć i dostosowywać style tabeli przestawnej w Aspose.Cells dla Java. Poznaj więcej i spraw, aby Twoje prezentacje danych były naprawdę wyjątkowe!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

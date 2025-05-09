@@ -1,14 +1,16 @@
 ---
-title: Tạo đối tượng danh sách trong Excel bằng Aspose.Cells
-linktitle: Tạo đối tượng danh sách trong Excel bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tạo đối tượng danh sách trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết này. Làm chủ việc quản lý dữ liệu và tính toán dễ dàng.
-weight: 10
-url: /vi/net/tables-and-lists/creating-list-object/
+"description": "Tạo đối tượng danh sách trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết này. Làm chủ việc quản lý dữ liệu và tính toán dễ dàng."
+"linktitle": "Tạo đối tượng danh sách trong Excel bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo đối tượng danh sách trong Excel bằng Aspose.Cells"
+"url": "/vi/net/tables-and-lists/creating-list-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo đối tượng danh sách trong Excel bằng Aspose.Cells
@@ -28,7 +30,7 @@ Có một chút quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn 
 Bạn sẽ cần một Môi trường phát triển tích hợp (IDE) để chạy mã C# của mình. Visual Studio rất phổ biến và hỗ trợ các dự án .NET ngay khi cài đặt. Nếu bạn thích các giải pháp thay thế, bạn có thể sử dụng JetBrains Rider hoặc thậm chí Visual Studio Code.
 
 ### Aspose.Cells cho .NET
- Bạn phải có thư viện Aspose.Cells. Nếu bạn chưa có, hãy tải xuống[đây](https://releases.aspose.com/cells/net/) . Bạn cũng có thể dùng thử với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Bạn phải có thư viện Aspose.Cells. Nếu bạn chưa có, hãy tải xuống [đây](https://releases.aspose.com/cells/net/). Bạn cũng có thể dùng thử với bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
 
 ### Tạo một dự án và tham chiếu Aspose.Cells
 Đảm bảo dự án của bạn tham chiếu đến thư viện Aspose.Cells bằng cách thêm các DLL có liên quan.
@@ -86,7 +88,7 @@ Bây giờ đến phần thú vị là thực sự thêm một danh sách! Sử 
 listObjects.Add(1, 1, 7, 5, true);
 ```
 
- Trong đó, các tham số (1, 1, 7, 5) xác định tọa độ bắt đầu và kết thúc của phạm vi dữ liệu trong danh sách của bạn, trong khi`true` ở cuối biểu thị rằng phạm vi của bạn bao gồm các tiêu đề. Hãy nghĩ về điều này như việc đặt nền tảng cho danh sách của bạn—dữ liệu cơ sở phải đúng!
+Trong đó, các tham số (1, 1, 7, 5) xác định tọa độ bắt đầu và kết thúc của phạm vi dữ liệu trong danh sách của bạn, trong khi `true` ở cuối biểu thị rằng phạm vi của bạn bao gồm các tiêu đề. Hãy nghĩ về điều này như việc đặt nền tảng cho danh sách của bạn—dữ liệu cơ sở phải đúng!
 
 ## Bước 5: Hiển thị Tổng số trong Danh sách của bạn
 
@@ -131,16 +133,18 @@ Aspose.Cells là một API mạnh mẽ để tạo và quản lý các tài li�
 Có! Mặc dù hướng dẫn này tập trung vào .NET, Aspose.Cells cũng có sẵn cho Java, Android và Python.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?  
- Có, bạn cần giấy phép để có đầy đủ chức năng, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí để kiểm tra mọi thứ. Hãy xem thử[đây](https://releases.aspose.com/).
+Có, bạn cần giấy phép để có đầy đủ chức năng, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí để kiểm tra mọi thứ. Hãy xem thử [đây](https://releases.aspose.com/).
 
 ### Tôi có cần phải cài đặt Excel trên máy không?  
 Không, Aspose.Cells không yêu cầu phải cài đặt Excel trên máy để tạo hoặc thao tác với các tệp Excel.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?  
- Để biết thêm thông tin và tài liệu chuyên sâu, hãy truy cập trang web[đây](https://reference.aspose.com/cells/net/).
+Để biết thêm thông tin và tài liệu chuyên sâu, hãy truy cập trang web [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

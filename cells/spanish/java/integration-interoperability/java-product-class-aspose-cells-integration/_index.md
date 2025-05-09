@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ Explora aplicaciones prácticas de esta configuración:
    - Actualice automáticamente los listados de productos con la información de stock actual desde un archivo Excel.
 
 3. **Análisis de datos:**
-   - Exporte datos procesados a Excel para un análisis posterior utilizando las ricas funciones de Aspose.Cells.
+   - Exporte los datos procesados a Excel para un análisis posterior utilizando las amplias funciones de Aspose.Cells.
 
 Estos ejemplos resaltan la versatilidad de combinar clases Java con funcionalidades de Aspose.Cells en diversos escenarios comerciales.
 
@@ -209,6 +211,9 @@ En este tutorial, aprendiste a definir un `Product` Clase en Java e integración
 - **A4:** Utilice las opciones de estilo de celda proporcionadas por Aspose.Cells para dar formato a números, texto y más.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

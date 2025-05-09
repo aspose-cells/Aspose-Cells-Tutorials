@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ try {
 1. **Aspose.Cells에 필요한 최소 JDK 버전은 무엇입니까?**
    - JDK 8 이상.
 2. **Aspose.Cells를 사용하여 PDF 파일 크기를 줄이려면 어떻게 해야 하나요?**
-   - 사용 `PdfSaveOptions` 다음과 같은 최적화 유형이 있습니다. `MINIMUM_SIZE`.
+   - 사용 `PdfSaveOptions` 다음과 같은 최적화 유형 `MINIMUM_SIZE`.
 3. **Aspose.Cells는 매크로가 포함된 복잡한 Excel 파일을 처리할 수 있나요?**
    - 네, 하지만 일부 기능을 사용하려면 유료 라이선스가 필요할 수 있습니다.
 4. **PDF로 변환할 수 있는 워크시트 수에 제한이 있나요?**
@@ -154,6 +156,9 @@ try {
 Aspose.Cells for Java를 사용하여 개발 여정의 다음 단계를 밟고, 오늘부터 Excel을 PDF로 변환하는 프로세스를 한 단계 업그레이드하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

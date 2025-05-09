@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 
 - **ไลบรารีและเวอร์ชัน:** Aspose.Cells สำหรับ Java เวอร์ชัน 25.3
 - **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** สภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้พร้อมกำหนดค่า Maven หรือ Gradle
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยพื้นฐานกับแนวคิดการเขียนโปรแกรม Java เช่น คลาส เมธอด และการจัดการข้อยกเว้น
+- **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยพื้นฐานกับแนวคิดการเขียนโปรแกรม Java เช่น คลาส เมธอด และการจัดการข้อยกเว้น
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -176,6 +178,9 @@ sr.toImage(0, outDir + "OutputBlankPageWhenNothingToPrint.png");
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

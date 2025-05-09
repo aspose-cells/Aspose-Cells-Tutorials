@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ Javaを使ってExcelファイル内のSmartArtグラフィックを管理・操
 - Excel ドキュメント内の SmartArt オブジェクトを識別します。
 - Aspose.Cells を使用して Java で SmartArt をグループ シェイプに変換します。
 
-実装の詳細に入る前に、前提条件について詳しく見ていきましょう。
+実装の詳細を始める前に、前提条件について詳しく見ていきましょう。
 
 ### 前提条件
 
@@ -36,7 +38,7 @@ Javaを使ってExcelファイル内のSmartArtグラフィックを管理・操
 
 ## Aspose.Cells for Java のセットアップ
 
-Aspose.Cells for Javaは、依存関係管理ツールを使えば簡単にプロジェクトに追加できます。手順は以下のとおりです。
+Aspose.Cells for Javaは、依存関係管理ツールを使って簡単にプロジェクトに追加できます。手順は以下のとおりです。
 
 ### Mavenの使用
 次のスニペットを `pom.xml`：
@@ -94,7 +96,7 @@ public class LoadWorkbook {
         // 入力ファイルのデータディレクトリを定義する
         String dataDir = "YOUR_DATA_DIRECTORY";
 
-        // 新しいワークブックオブジェクトを作成し、サンプルファイルを開きます
+        // 新しいワークブックオブジェクトを作成し、サンプルファイルを開きます。
         Workbook wb = new Workbook(dataDir + "sampleSmartArtShape_GetResultOfSmartArt.xlsx");
     }
 }
@@ -222,6 +224,9 @@ Aspose.Cells for Javaは、Excelの自動化タスクを強化するための幅
 このガイドに従うことで、JavaとAspose.Cellsを使用してExcelのSmartArtグラフィックを効果的に管理および変換できるようになります。このスキルは、Excelドキュメント内で複雑なタスクを自動化する能力を大幅に向上させます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ Exempel:
 ExternalConnection connection = workbook.getDataConnections().get(0);
 ```
 
-### Funktion: Hantera webbfrågeanslutning
+### Funktion: Hantering av webbfrågeanslutning
 
 #### Översikt
 Den här funktionen förklarar hur man identifierar och arbetar med webbfrågekopplingar, vilket möjliggör åtkomst till externa datakällor som URL:er.
@@ -175,6 +177,9 @@ A5: Överväg att använda strömmande metoder och säkerställ korrekt resursha
 - **Stöd**: [Aspose-forumet](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,7 +236,7 @@ Aspose.Cells для Java можно использовать в различны
 4. **Как отформатировать данные диаграммы в Excel с помощью Aspose.Cells?**
    - Используйте `setValuesFormatCode` метод применения определенных форматов.
 
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    - Посетите [официальная документация](https://reference.aspose.com/cells/java/) и [форум поддержки](https://forum.aspose.com/c/cells/9).
 
 ## Ресурсы
@@ -243,6 +245,9 @@ Aspose.Cells для Java можно использовать в различны
 - **Скачать**: [Страница загрузки Aspose.Cells для Java](https://downloads.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

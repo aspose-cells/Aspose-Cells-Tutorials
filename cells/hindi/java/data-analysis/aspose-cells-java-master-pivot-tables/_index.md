@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ Aspose.Cells की अन्य विशेषताओं जैसे चा
 4. **क्या प्रतिदिन एक्सेल रिपोर्ट तैयार करने को स्वचालित करने का कोई तरीका है?**
    - इन स्क्रिप्टों के भीतर Aspose.Cells को एकीकृत करके क्रॉन जॉब्स या समान उपकरणों का उपयोग करके कार्यों को शेड्यूल करें।
 5. **यदि मुझे Aspose.Cells के साथ समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?**
-   - दौरा करना [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) सामुदायिक सहायता और आधिकारिक समर्थन के लिए।
+   - दौरा करना [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) सामुदायिक सहायता और आधिकारिक समर्थन के लिए।
 
 ## संसाधन
 - **दस्तावेज़ीकरण:** [Aspose.Cells जावा संदर्भ](https://reference.aspose.com/cells/java/)
@@ -172,6 +174,9 @@ Aspose.Cells की अन्य विशेषताओं जैसे चा
 - **अस्थायी लाइसेंस:** [अस्थायी लाइसेंस प्राप्त करें](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

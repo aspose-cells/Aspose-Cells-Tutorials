@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ピボットテーブルデータの更新
@@ -90,9 +92,11 @@ Aspose.Cells for Java でピボットテーブルデータを更新すること�
    - はい、Aspose.CellsとJavaスケジューリングライブラリを使用して、自動データ更新をスケジュール設定できます。これにより、手動操作なしでピボットテーブルを最新の状態に保つことができます。
 
 Aspose.Cells for Javaでピボットテーブルデータを更新する方法を習得しました。分析の精度を維持し、データに基づいた意思決定を常に先取りしましょう。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/file-handling/file-saving-text-file-with-custom-separator/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Text File with Custom Separator
@@ -89,6 +91,7 @@ Absolutely! Aspose.Cells supports various formats including XLSX, XLS, and even 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

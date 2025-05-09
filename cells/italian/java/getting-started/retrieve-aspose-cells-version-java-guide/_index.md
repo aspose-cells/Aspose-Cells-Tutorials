@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ public class FeatureCheckVersion {
 
 ## Applicazioni pratiche
 
-La conoscenza della versione di Aspose.Cells può avere diverse applicazioni pratiche:
+La versione di Aspose.Cells può avere diverse applicazioni pratiche:
 
 1. **Controlli di compatibilità:** Assicurati che le dipendenze del tuo progetto non siano in conflitto tra loro.
 2. **Utilizzo delle funzionalità:** Identifica le funzionalità disponibili in base alla versione della libreria.
@@ -149,6 +151,9 @@ Speriamo che questa guida vi sia stata utile. Per ulteriori informazioni e assis
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

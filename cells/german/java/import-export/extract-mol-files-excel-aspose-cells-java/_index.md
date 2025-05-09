@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,6 +170,9 @@ Versuchen Sie noch heute, diese Extraktionsfunktion zu implementieren und bringe
 Erkunden Sie diese Ressourcen, um Ihr Verständnis zu vertiefen und das Potenzial von Aspose.Cells für Java in Ihren Projekten zu maximieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,28 +1,30 @@
 ---
-title: Validación de datos decimales en Excel
-linktitle: Validación de datos decimales en Excel
-second_title: API de procesamiento de Excel Aspose.Cells .NET
-description: Descubra cómo implementar la validación de datos decimales en Excel con Aspose.Cells para .NET con nuestra guía fácil de seguir. Mejore la integridad de los datos sin esfuerzo.
-weight: 11
-url: /es/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Descubra cómo implementar la validación de datos decimales en Excel con Aspose.Cells para .NET con nuestra guía sencilla. Mejore la integridad de los datos sin esfuerzo."
+"linktitle": "Validación de datos decimales en Excel"
+"second_title": "API de procesamiento de Excel Aspose.Cells .NET"
+"title": "Validación de datos decimales en Excel"
+"url": "/es/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validación de datos decimales en Excel
 
 ## Introducción
 
-La creación de hojas de cálculo con datos precisos es esencial para una comunicación clara en cualquier empresa. Una forma de garantizar la precisión de los datos es mediante el uso de la validación de datos en Excel. En este tutorial, vamos a aprovechar el poder de Aspose.Cells para .NET para crear un mecanismo de validación de datos decimales que mantenga sus datos confiables y limpios. Si está buscando mejorar su rendimiento en Excel, ¡está en el lugar correcto!
+Crear hojas de cálculo con datos precisos es esencial para una comunicación clara en cualquier empresa. Una forma de garantizar la precisión de los datos es mediante la validación de datos en Excel. En este tutorial, aprovecharemos el potencial de Aspose.Cells para .NET para crear un mecanismo de validación de datos decimales que mantenga sus datos fiables y limpios. Si busca mejorar su rendimiento en Excel, ¡está en el lugar correcto!
 
 ## Prerrequisitos
 
 Antes de sumergirse en el código, asegúrese de tener todo configurado para una experiencia de navegación fluida:
 
-1. Visual Studio: descargue e instale Visual Studio si aún no lo ha hecho. Es el entorno perfecto para desarrollar aplicaciones .NET.
-2.  Aspose.Cells para .NET: deberá tener la biblioteca Aspose.Cells agregada a su proyecto. Puede descargarla a través de[Este enlace](https://releases.aspose.com/cells/net/).
+1. Visual Studio: Descarga e instala Visual Studio si aún no lo has hecho. Es el entorno perfecto para desarrollar aplicaciones .NET.
+2. Aspose.Cells para .NET: Necesitará tener la biblioteca Aspose.Cells agregada a su proyecto. Puede descargarla a través de [este enlace](https://releases.aspose.com/cells/net/).
 3. Conocimientos básicos de C#: si bien explicaremos todo paso a paso, tener una comprensión fundamental de la programación en C# le permitirá comprender mejor los conceptos.
 4. .NET Framework: asegúrese de tener instalado el .NET Framework necesario que sea compatible con Aspose.Cells.
 5. Bibliotecas: haga referencia a la biblioteca Aspose.Cells en su proyecto para evitar errores de compilación.
@@ -31,7 +33,7 @@ Ahora que hemos cubierto los conceptos básicos, pasemos a la parte emocionante:
 
 ## Importar paquetes
 
-Para comenzar, debe importar los paquetes necesarios en su archivo C#. Esto le permitirá acceder a las funcionalidades de Aspose.Cells.
+Para comenzar, debe importar los paquetes necesarios en su archivo de C#. Esto le permitirá acceder a las funcionalidades de Aspose.Cells.
 
 ```csharp
 using System.IO;
@@ -43,7 +45,7 @@ Al incluir esta línea en la parte superior de su archivo, le está indicando a 
 
 Ahora que hemos preparado el escenario, repasemos los pasos necesarios para crear una validación de datos decimales en una hoja de cálculo de Excel.
 
-## Paso 1: Configurar el directorio de documentos
+## Paso 1: Configure su directorio de documentos
 
 Antes de poder guardar cualquier archivo, debe asegurarse de que el directorio de documentos esté configurado correctamente:
 
@@ -51,11 +53,11 @@ Antes de poder guardar cualquier archivo, debe asegurarse de que el directorio d
 string dataDir = "Your Document Directory";
 ```
 
- Reemplazar`"Your Document Directory"` con la ruta donde quieres guardar tus archivos de Excel.
+Reemplazar `"Your Document Directory"` con la ruta donde desea guardar sus archivos de Excel.
 
 ## Paso 2: Verificar la existencia del directorio
 
-Este fragmento verifica si el directorio existe y lo crea si no existe:
+Este fragmento comprueba si el directorio existe y lo crea si no existe:
 
 ```csharp
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -63,7 +65,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Este paso es como asegurarse de que su espacio de trabajo esté listo antes de comenzar un nuevo proyecto. ¡Sin desorden, sin estrés!
+Este paso es como asegurarte de que tu espacio de trabajo esté listo antes de empezar un nuevo proyecto. ¡Sin desorden ni estrés!
 
 ## Paso 3: Crear un objeto de libro de trabajo
 
@@ -73,7 +75,7 @@ A continuación, crearemos un nuevo objeto de libro de trabajo, que es esencialm
 Workbook workbook = new Workbook();
 ```
 
-Piense en un libro de trabajo como si fuera un lienzo en blanco para sus datos. En este punto, no tiene contenido, pero está listo para que lo pinten.
+Piense en un libro de trabajo como un lienzo en blanco para sus datos. En este punto, no tiene contenido, pero está listo para ser pintado.
 
 ## Paso 4: Crear y acceder a la hoja de trabajo
 
@@ -84,7 +86,7 @@ Ahora, creemos una hoja de trabajo y accedamos a la primera hoja del libro:
 Worksheet ExcelWorkSheet = workbook.Worksheets[0];
 ```
 
-Al igual que un libro tiene varias páginas, un libro de ejercicios puede tener varias hojas de trabajo. Actualmente nos centraremos en la primera.
+Al igual que un libro tiene varias páginas, un libro de ejercicios puede tener varias hojas de trabajo. Nos centraremos en la primera.
 
 ## Paso 5: Obtener la Colección de Validaciones
 
@@ -120,9 +122,9 @@ Validation validation = validations[validations.Add(ca)];
 
 Ahora tenemos un objeto de validación que vamos a configurar para aplicar nuestras condiciones decimales.
 
-## Paso 8: Establezca el tipo de validación
+## Paso 8: Establecer el tipo de validación
 
-continuación, especificaremos el tipo de validación que queremos:
+A continuación, especificaremos el tipo de validación que queremos:
 
 ```csharp
 validation.Type = ValidationType.Decimal;
@@ -130,7 +132,7 @@ validation.Type = ValidationType.Decimal;
 
 Al establecer el tipo en Decimal, le indicamos a Excel que espere valores decimales en la celda validada.
 
-## Paso 9: Especificar el operador
+## Paso 9: Especifique el operador
 
 Ahora, especificaremos la condición para los valores permitidos. Queremos asegurarnos de que los datos ingresados se encuentren entre dos rangos:
 
@@ -138,7 +140,7 @@ Ahora, especificaremos la condición para los valores permitidos. Queremos asegu
 validation.Operator = OperatorType.Between;
 ```
 
-Piense en ello como si estuviera trazando una línea divisoria. Cualquier número que esté fuera de este rango será rechazado, ¡lo que mantendrá limpios sus datos!
+Piensa en ello como dibujar un límite. Cualquier número fuera de este rango será rechazado, ¡manteniendo tus datos limpios!
 
 ## Paso 10: Establecer límites para la validación
 
@@ -149,7 +151,7 @@ validation.Formula1 = Decimal.MinValue.ToString();
 validation.Formula2 = Decimal.MaxValue.ToString();
 ```
 
-Con estos límites, cualquier número decimal, no importa cuán grande o pequeño sea, es aceptado, ¡siempre que sea válido!
+Con estos límites, cualquier número decimal, por grande o pequeño que sea, es aceptado, ¡siempre que sea válido!
 
 ## Paso 11: Personalización del mensaje de error
 
@@ -173,7 +175,7 @@ area.StartColumn = 0;
 area.EndColumn = 0;
 ```
 
-En esta configuración, estamos diciendo que la validación se aplica desde la celda A1 a A10.
+En esta configuración, estamos diciendo que la validación se aplica desde la celda A1 a la A10.
 
 ## Paso 13: Agregar el área de validación
 
@@ -193,12 +195,12 @@ Por último, guardemos el libro de trabajo con nuestra validación de datos deci
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-¡Y ya está! Has creado con éxito un libro de trabajo con validación de datos decimales utilizando Aspose.Cells para .NET.
+¡Listo! Has creado correctamente un libro de trabajo con validación de datos decimales usando Aspose.Cells para .NET.
 
 ## Conclusión
 
-Implementar la validación de datos decimales en Excel con Aspose.Cells para .NET es muy fácil si sigue estos sencillos pasos. No solo se asegura de que los datos permanezcan limpios y estructurados, sino que también mejora la integridad general de los datos en sus hojas de cálculo, lo que las hace confiables y fáciles de usar.
-Ya sea que trabajes en finanzas, gestión de proyectos o cualquier campo que utilice informes de datos, dominar estas habilidades mejorará significativamente tu productividad. Así que, ¡anímate a intentarlo! Tus hojas de cálculo te lo agradecerán.
+Implementar la validación de datos decimales en Excel con Aspose.Cells para .NET es facilísimo si sigues estos sencillos pasos. No solo garantizas que los datos se mantengan limpios y estructurados, sino que también mejoras la integridad general de los datos en tus hojas de cálculo, haciéndolas fiables y fáciles de usar.
+Ya sea que trabajes en finanzas, gestión de proyectos o cualquier campo que utilice informes de datos, dominar estas habilidades mejorará significativamente tu productividad. ¡Anímate a probarlo! Tus hojas de cálculo te lo agradecerán.
 
 ## Preguntas frecuentes
 
@@ -206,19 +208,21 @@ Ya sea que trabajes en finanzas, gestión de proyectos o cualquier campo que uti
 La validación de datos en Excel es una función que restringe el tipo de datos que se pueden ingresar en una celda o rango en particular, lo que garantiza la integridad de los datos.
 
 ### ¿Puedo personalizar el mensaje de error en la validación de datos?
-¡Sí! Puedes proporcionar mensajes de error personalizados para orientar a los usuarios cuando se introducen datos incorrectos.
+¡Sí! Puedes proporcionar mensajes de error personalizados para guiar a los usuarios cuando se introducen datos incorrectos.
 
 ### ¿Aspose.Cells es de uso gratuito?
- Aspose.Cells ofrece una prueba gratuita, pero necesitará una licencia para un uso a largo plazo. Puede encontrar más información sobre cómo adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ofrece una prueba gratuita, pero necesitará una licencia para uso a largo plazo. Puede encontrar más información sobre cómo adquirir una licencia temporal. [aquí](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Qué tipos de datos puedo validar en Excel?
 Con Aspose.Cells, puede validar varios tipos de datos, incluidos números enteros, decimales, fechas, listas y fórmulas personalizadas.
 
 ### ¿Dónde puedo encontrar más documentación de Aspose.Cells?
- Puede explorar la extensa documentación[aquí](https://reference.aspose.com/cells/net/).
+Puede explorar la extensa documentación [aquí](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ public class ExcelFileOpener {
         // Excel 97/2003 फ़ाइल लोड करें
         Workbook workbook = new Workbook("path_to_your_file.xls");
         
-        // सफलतापूर्वक खोलने की पुष्टि करें
+        // सफलतापूर्वक खुलने की पुष्टि करें
         System.out.println("Excel 97/2003 Workbook opened successfully.");
     }
 }
@@ -91,7 +93,7 @@ public class OpenExcel97File {
         // फ़ाइल पथ के साथ वर्कबुक ऑब्जेक्ट आरंभ करें
         new Workbook(filePath);
         
-        // सफलतापूर्वक खोलने की पुष्टि करें
+        // सफलतापूर्वक खुलने की पुष्टि करें
         System.out.println("Excel 97/2003 Workbook opened successfully.");
     }
 }
@@ -146,6 +148,9 @@ Aspose.Cells को विभिन्न अनुप्रयोगों म�
 आज Aspose.Cells के साथ जावा में एक्सेल फाइलों का प्रबंधन शुरू करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

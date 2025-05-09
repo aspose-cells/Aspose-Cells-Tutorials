@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Miután a munkafüzet betöltődik, az egyes munkalapok elérése egyszerűvé v
 import com.aspose.cells.Worksheet;
 
 // Töltsd be a munkafüzetet (feltételezve, hogy a 'wb' már inicializálva van)
-Worksheet ws = wb.getWorksheets().get(0); // munkafüzet első munkalapjának elérése
+Worksheet ws = wb.getWorksheets().get(0); // A munkafüzet első munkalapjának elérése
 ```
 
 **Magyarázat**: `getWorksheets()` visszaadja a munkafüzetben található összes munkalap gyűjteményét. A meghívással `get(0)`, hozzáfér az első munkalaphoz, amely további műveleteket, például az adatszűrést teszi lehetővé.
@@ -185,6 +187,9 @@ Most már megtanultad, hogyan használhatod az Aspose.Cells for Java-t az Excel-
 Ez az átfogó útmutató felvértezi Önt az Aspose.Cells hatékony Java-használatához szükséges ismeretekkel. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

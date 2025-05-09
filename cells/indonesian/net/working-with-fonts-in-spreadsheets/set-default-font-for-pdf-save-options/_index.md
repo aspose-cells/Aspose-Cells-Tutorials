@@ -1,32 +1,34 @@
 ---
-title: Tetapkan Font Default untuk Opsi Penyimpanan PDF
-linktitle: Tetapkan Font Default untuk Opsi Penyimpanan PDF
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur font default untuk opsi penyimpanan PDF menggunakan Aspose.Cells untuk .NET, yang memastikan dokumen Anda terlihat sempurna setiap saat.
-weight: 11
-url: /id/net/working-with-fonts-in-spreadsheets/set-default-font-for-pdf-save-options/
+"description": "Tanuld meg, hogyan állíthatsz be alapértelmezett betűtípusokat a PDF mentési beállításaihoz az Aspose.Cells for .NET használatával, így biztosítva, hogy dokumentumaid minden alkalommal tökéletesen nézzenek ki."
+"linktitle": "Alapértelmezett betűtípus beállítása PDF mentési beállításokhoz"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Alapértelmezett betűtípus beállítása PDF mentési beállításokhoz"
+"url": "/id/net/working-with-fonts-in-spreadsheets/set-default-font-for-pdf-save-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tetapkan Font Default untuk Opsi Penyimpanan PDF
+# Alapértelmezett betűtípus beállítása PDF mentési beállításokhoz
 
-## Perkenalan
-Saat membuat laporan, faktur, atau dokumen lain dalam format PDF, memastikan konten Anda terlihat tepat adalah yang terpenting. Font memainkan peran penting dalam menjaga daya tarik visual dan keterbacaan dokumen Anda. Namun, apa yang terjadi jika font yang Anda gunakan dalam file Excel tidak tersedia di sistem tempat Anda membuat PDF? Di sinilah Aspose.Cells for .NET berguna. Pustaka canggih ini memungkinkan Anda menyetel font default untuk opsi penyimpanan PDF, memastikan dokumen Anda terlihat profesional dan konsisten, di mana pun dokumen dibuka.
-## Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-1. Visual Studio: Anda memerlukan lingkungan pengembangan seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
-2.  Aspose.Cells untuk .NET: Anda dapat mengunduh versi terbaru dari[tautan ini](https://releases.aspose.com/cells/net/)Atau, Anda dapat menginstalnya melalui NuGet Package Manager di Visual Studio.
-3. Pengetahuan Dasar C#: Memahami dasar-dasar C# akan membantu Anda mengikuti contoh kode.
-4. Contoh Berkas Excel: Siapkan contoh berkas Excel untuk pengujian. Anda dapat membuat berkas dengan berbagai fon dan gaya untuk melihat bagaimana Aspose.Cells menangani fon yang hilang.
-## Paket Impor
-Sebelum Anda dapat menggunakan Aspose.Cells dalam proyek Anda, Anda perlu mengimpor paket yang diperlukan. Berikut cara melakukannya:
-1. Buka Proyek Anda: Luncurkan Visual Studio dan buka proyek Anda yang ada atau buat yang baru.
-2. Tambahkan Referensi: Klik kanan pada proyek Anda di Solution Explorer dan pilih "Kelola Paket NuGet."
-3. Instal Aspose.Cells: Cari "Aspose.Cells" dan klik tombol "Instal".
-4. Tambahkan Petunjuk Penggunaan: Di bagian atas file C# Anda, sertakan namespace berikut:
+## Bevezetés
+Jelentések, számlák vagy bármilyen más PDF formátumú dokumentum létrehozásakor kiemelkedő fontosságú, hogy a tartalom megfelelően nézzen ki. A betűtípusok létfontosságú szerepet játszanak a dokumentumok vizuális megjelenésének és olvashatóságának fenntartásában. De mi történik, ha az Excel-fájlban használt betűtípus nem érhető el azon a rendszeren, ahol a PDF-et generálja? Itt jön jól az Aspose.Cells for .NET. Ez a hatékony könyvtár lehetővé teszi az alapértelmezett betűtípusok beállítását a PDF mentési beállításaihoz, biztosítva, hogy a dokumentumok professzionálisak és egységesek legyenek, függetlenül attól, hogy hol nyitják meg őket.
+## Előfeltételek
+Mielőtt belekezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
+1. Visual Studio: A kód írásához és végrehajtásához szükséged lesz egy fejlesztői környezetre, például a Visual Studio-ra.
+2. Aspose.Cells .NET-hez: A legújabb verziót innen töltheti le: [ezt a linket](https://releases.aspose.com/cells/net/)Alternatív megoldásként telepítheti a Visual Studio NuGet csomagkezelőjével is.
+3. C# alapismeretek: A C# alapjainak ismerete segít a kódpéldák követésében.
+4. Minta Excel fájl: Készíts elő egy minta Excel fájlt tesztelésre. Létrehozhatsz egyet különböző betűtípusokkal és stílusokkal, hogy lásd, hogyan kezeli az Aspose.Cells a hiányzó betűtípusokat.
+## Csomagok importálása
+Mielőtt használhatnád az Aspose.Cells-t a projektedben, importálnod kell a szükséges csomagokat. Így teheted meg:
+1. Nyisd meg a projekted: Indítsd el a Visual Studio-t, és nyisd meg a meglévő projektedet, vagy hozz létre egy újat.
+2. Referenciák hozzáadása: Kattintson jobb gombbal a projektjére a Megoldáskezelőben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Aspose.Cells telepítése: Keresse meg az „Aspose.Cells” fájlt, és kattintson a „Telepítés” gombra.
+4. User Directives hozzáadása: A C# fájl tetején szerepeljenek a következő névterek:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -35,82 +37,84 @@ using System.Text;
 using Aspose.Cells.Rendering;
 using System.Drawing.Imaging;
 ```
-## Langkah 1: Siapkan Direktori Anda
-Sebelum bekerja dengan file, penting untuk menentukan direktori sumber dan output. Ini akan memudahkan Anda menemukan file Excel input dan menyimpan file output yang dihasilkan.
+## 1. lépés: Állítsa be a könyvtárait
+fájlokkal való munka megkezdése előtt fontos meghatározni a forrás- és kimeneti könyvtárakat. Ez megkönnyíti a bemeneti Excel-fájl megtalálását és a létrehozott kimeneti fájlok mentését.
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori Anda.
-## Langkah 2: Buka File Excel
- Sekarang setelah kita menyiapkan direktori kita, mari kita buka file Excel yang ingin Anda gunakan.`Workbook` kelas di Aspose.Cells digunakan untuk memuat dokumen Excel.
+Csere `"Your Document Directory"` a könyvtáraid tényleges elérési útjával.
+## 2. lépés: Nyissa meg az Excel-fájlt
+Most, hogy beállítottuk a könyvtárainkat, nyissuk meg azt az Excel fájlt, amellyel dolgozni szeretnénk. A `Workbook` Az Aspose.Cells osztálya az Excel dokumentum betöltéséhez használatos.
 ```csharp
-// Buka file Excel
+// Excel-fájl megnyitása
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
-Pastikan untuk mengganti nama berkas dengan nama berkas Anda yang sebenarnya.
-## Langkah 3: Siapkan Opsi Rendering Gambar
-Selanjutnya, kita perlu mengonfigurasi opsi rendering untuk mengonversi lembar Excel kita ke format gambar. Kita akan membuat contoh`ImageOrPrintOptions`, menentukan jenis gambar dan font default.
+Ügyelj arra, hogy a fájlnevet a tényleges fájlnevedre cseréld.
+## 3. lépés: Képmegjelenítési beállítások megadása
+Ezután konfigurálnunk kell a renderelési beállításokat az Excel-táblázat képformátumba konvertálásához. Létrehozunk egy példányt a következőből: `ImageOrPrintOptions`, megadva a kép típusát és az alapértelmezett betűtípust.
 ```csharp
-// Merender ke format file PNG
+// PNG fájlformátumba renderelés
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 imgOpt.ImageType = Drawing.ImageType.Png;
 imgOpt.CheckWorkbookDefaultFont = false;
 imgOpt.DefaultFont = "Times New Roman";
 ```
- Dalam potongan kode ini, kami mengatur`CheckWorkbookDefaultFont` properti untuk`false`, yang berarti jika ada font yang hilang, font default yang ditentukan (“Times New Roman”) akan digunakan sebagai gantinya.
-## Langkah 4: Render Lembar sebagai Gambar
- Sekarang, mari kita render lembar pertama buku kerja sebagai gambar PNG. Kita akan menggunakan`SheetRender` kelas untuk menyelesaikan hal ini.
+Ebben a kódrészletben beállítottuk a `CheckWorkbookDefaultFont` ingatlan `false`ami azt jelenti, hogy ha hiányzik valamelyik betűtípus, akkor a megadott alapértelmezett betűtípus („Times New Roman”) lesz használva.
+## 4. lépés: A munkalap renderelése képként
+Most pedig jelenítsük meg a munkafüzet első lapját PNG képként. Használni fogjuk a `SheetRender` osztály ennek megvalósításához.
 ```csharp
-// Render lembar kerja pertama menjadi gambar
+// Az első munkalap renderelése képpé
 SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
-## Langkah 5: Ubah Jenis Gambar dan Render ke TIFF
- Jika Anda ingin merender lembar yang sama ke format gambar yang berbeda, seperti TIFF, Anda cukup mengubah`ImageType` properti dan ulangi proses rendering.
+## 5. lépés: Képtípus módosítása és renderelés TIFF formátumra
+Ha ugyanazt a munkalapot más képformátumban, például TIFF-ben szeretné megjeleníteni, egyszerűen módosíthatja a `ImageType` tulajdonságot, és ismételje meg a renderelési folyamatot.
 ```csharp
-// Diatur ke format TIFF
+// TIFF formátumra állítás
 imgOpt.ImageType = Drawing.ImageType.Tiff;
 WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
-## Langkah 6: Konfigurasikan Opsi Penyimpanan PDF
- Selanjutnya, mari kita atur opsi penyimpanan PDF. Kita akan membuat contoh`PdfSaveOptions`menetapkan font default, dan menentukan bahwa kita ingin memeriksa font yang hilang.
+## 6. lépés: PDF mentési beállítások konfigurálása
+Következő lépésként állítsuk be a PDF mentési beállításait. Létrehozunk egy példányt a következőből: `PdfSaveOptions`, állítsd be az alapértelmezett betűtípust, és add meg, hogy hiányzó betűtípusokat szeretnénk keresni.
 ```csharp
-// Konfigurasikan opsi penyimpanan PDF
+// PDF mentési beállítások konfigurálása
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.DefaultFont = "Times New Roman";
 saveOptions.CheckWorkbookDefaultFont = false;
 ```
-## Langkah 7: Simpan Buku Kerja sebagai PDF
-Setelah opsi penyimpanan dikonfigurasi, saatnya menyimpan buku kerja Excel kita sebagai berkas PDF. 
+## 7. lépés: A munkafüzet mentése PDF formátumban
+A mentési beállítások konfigurálása után itt az ideje, hogy PDF fájlként mentsük el az Excel-munkafüzetünket. 
 ```csharp
-// Simpan buku kerja ke PDF
+// Munkafüzet mentése PDF formátumban
 workbook.Save(outputDir + "out1_pdf.pdf", saveOptions);
 ```
-## Langkah 8: Konfirmasi Eksekusi
-Terakhir, sebaiknya Anda memberi tahu pengguna bahwa proses telah berhasil diselesaikan. Anda dapat melakukannya dengan menggunakan pesan konsol sederhana.
+## 8. lépés: Végrehajtás megerősítése
+Végül, jó gyakorlat, ha értesítjük a felhasználót a folyamat sikeres befejezéséről. Ezt egy egyszerű konzolüzenettel teheti meg.
 ```csharp
 Console.WriteLine("SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions executed successfully.\r\n");
 ```
-## Kesimpulan
-Aspose.Cells menyediakan cara yang fleksibel dan tangguh untuk menangani manipulasi file Excel, sehingga memudahkan pengembang untuk membuat dokumen yang menarik secara visual dengan format yang tetap terjaga. Baik Anda mengerjakan laporan, dokumen keuangan, atau bentuk presentasi data lainnya, memiliki kendali atas tampilan font dapat meningkatkan kualitas output secara signifikan.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka .NET yang canggih yang memungkinkan pengembang untuk memanipulasi berkas Excel tanpa perlu menginstal Microsoft Excel. Pustaka ini mendukung berbagai format berkas dan menawarkan fitur-fitur lengkap untuk bekerja dengan lembar kerja.
-### Bagaimana cara mengatur font default untuk file Excel saya?
- Anda dapat mengatur font default menggunakan`PdfSaveOptions` class dan tentukan nama font yang diinginkan. Ini memastikan bahwa meskipun font tidak ada, dokumen Anda akan menggunakan font default yang telah Anda tentukan.
-### Bisakah saya mengonversi file Excel ke format selain PDF?
-Tentu saja! Aspose.Cells memungkinkan Anda mengonversi file Excel ke berbagai format, termasuk gambar (PNG, TIFF), HTML, CSV, dan banyak lagi.
-### Apakah Aspose.Cells gratis untuk digunakan?
-Aspose.Cells adalah produk komersial, tetapi Anda dapat mencobanya secara gratis dengan versi uji coba terbatas. Untuk fungsionalitas penuh, Anda perlu membeli lisensi.
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
- Anda dapat menemukan dukungan untuk Aspose.Cells dengan mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9), tempat Anda dapat mengajukan pertanyaan dan berbagi wawasan dengan pengguna dan pengembang lain.
+## Következtetés
+Az Aspose.Cells rugalmas és robusztus módot kínál az Excel-fájlok manipulációjának kezelésére, megkönnyítve a fejlesztők számára a vizuálisan vonzó, formázást megőrző dokumentumok létrehozását. Akár jelentéseken, pénzügyi dokumentumokon vagy bármilyen más adatmegjelenítési formában dolgozik, a betűtípus-megjelenítés feletti kontroll jelentősen javíthatja a kimeneti minőséget.
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony .NET könyvtár, amely lehetővé teszi a fejlesztők számára, hogy Excel fájlokat kezeljenek anélkül, hogy telepíteni kellene a Microsoft Excelt. Különböző fájlformátumokat támogat, és gazdag funkciókat kínál a táblázatokkal való munkához.
+### Hogyan állíthatok be alapértelmezett betűtípust az Excel fájljaimhoz?
+Beállíthat egy alapértelmezett betűtípust a `PdfSaveOptions` osztályt, és adja meg a kívánt betűtípus nevét. Ez biztosítja, hogy még ha egy betűtípus hiányzik is, a dokumentum a megadott alapértelmezett betűtípust fogja használni.
+### Konvertálhatok Excel fájlokat PDF-től eltérő formátumba?
+Abszolút! Az Aspose.Cells lehetővé teszi Excel fájlok konvertálását különféle formátumokba, beleértve a képeket (PNG, TIFF), HTML-t, CSV-t és egyebeket.
+### Ingyenesen használható az Aspose.Cells?
+Az Aspose.Cells egy kereskedelmi termék, de ingyenesen kipróbálható egy korlátozott próbaverzióval. A teljes funkcionalitás eléréséhez licencet kell vásárolnia.
+### Hol találok támogatást az Aspose.Cells-hez?
+Az Aspose.Cells támogatását a következő helyen találja: [Aspose fórum](https://forum.aspose.com/c/cells/9), ahol kérdéseket tehet fel és megoszthatja tapasztalatait más felhasználókkal és fejlesztőkkel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

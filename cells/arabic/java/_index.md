@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # دروس معالجة جداول بيانات Java باستخدام Aspose.Cells
@@ -118,9 +120,11 @@ Aspose.Cells لجافا هي مكتبة فعّالة تُمكّن مطوري ج�
 
 ### [الأتمتة والمعالجة الدفعية](./automation-batch-processing/)
 دروس تعليمية خطوة بخطوة لأتمتة مهام Excel ومعالجة دفعات من الملفات المتعددة وجدولة العمليات باستخدام Aspose.Cells لـ Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

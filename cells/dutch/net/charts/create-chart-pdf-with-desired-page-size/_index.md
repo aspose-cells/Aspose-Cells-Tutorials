@@ -1,50 +1,55 @@
 ---
-title: PDF maken vanaf Excel-diagram met gespecificeerde paginagrootte
-weight: 7700
-limit: 
-description: Leer hoe je een PDF kunt maken uit een Excel-grafiek met een bepaalde paginagrootte met behulp van Aspose.Cells voor .NET. Stap-voor-stap gids met code voorbeelden.
-keywords: [Aspose.Cells for .NET, Excel to PDF, export chart to PDF, generate PDF from Excel, C# Excel PDF conversion, chart to PDF C#, .NET Excel library]
-url: /nl/net/charts/create-chart-pdf-with-desired-page-size/
+"description": "Leer hoe u een PDF maakt van een Excel-grafiek met een opgegeven paginaformaat met Aspose.Cells voor .NET. Stapsgewijze handleiding met codevoorbeelden."
+"title": "PDF maken van Excel-grafiek met opgegeven paginaformaat"
+"url": "/nl/net/charts/create-chart-pdf-with-desired-page-size/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF maken vanaf Excel-diagram met gespecificeerde paginagrootte
+# PDF maken van Excel-grafiek met opgegeven paginaformaat
 
-Het exporteren van grafieken van Excel naar een PDF-bestand met een nauwkeurige pagina-afdeling is een cruciale vereiste voor het rapporteren en visualiseren van gegevens. Deze handleiding toont aan hoe u Aspose.Cells voor .NET kunt gebruiken om een PDF uit een Excel-grafiek te genereren terwijl u de paginagrootte en -aangrijzing bepaalt.  
+Het exporteren van grafieken vanuit Excel naar een PDF-bestand met een nauwkeurige pagina-indeling is een cruciale vereiste voor rapportage en datavisualisatie. Deze tutorial laat zien hoe u Aspose.Cells voor .NET kunt gebruiken om een PDF te genereren van een Excel-grafiek, waarbij u de paginagrootte en -uitlijning kunt opgeven. U leert hoe u een Excel-bestand laadt, een werkblad en de bijbehorende grafiek opent en deze converteert naar een correct opgemaakt PDF-bestand.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-chart-pdf-with-desired-page-size" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-Om Aspose.Cells te gebruiken voor .NET, volg deze stappen:  
+Volg deze stappen om Aspose.Cells voor .NET te gebruiken:  
 
-1. Installeer via NuGet:  
-   Open de NuGet Pakket Manager in Visual Studio en voer:  
+1. Installeren via NuGet:  
+   Open de NuGet Package Manager in Visual Studio en voer het volgende uit:  
    ```sh
    Install-Package Aspose.Cells
    ```  
 
 2. Download de DLL:  
-   Haal de nieuwste versie van de [Aspose.Cells voor .NET downloadpagina](https://releases.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
+   Download de nieuwste versie van de [Aspose.Cells voor .NET downloadpagina](https://releases.aspose.com/cells/net/).  
 
-3. Voeg het Naamruimte in:  
-   Add the following in your C# file:  
+3. Voeg de naamruimte toe:  
+   Voeg het volgende toe aan uw C#-bestand:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Rendering;
    ```  
 ## Zie ook
-Voor een gratis proefverhaal, bezoek [Stel een gratis proef voor](https://releases.aspose.com/)\- Ik heb het niet gedaan .  
-Om een vergunning te kopen, ga naar [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-Voor volledige documentatie, bezoek [Aspose.Cells voor .NET Documentatie](https://docs.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-Voor de volledige API-referentie, bekijk [Aspose.Cells voor .NET API Reference](https://reference.aspose.com/cells/net/)\- Ik heb het niet gedaan . 
+Voor een gratis proefperiode, bezoek [Aspose gratis proefperiode](https://releases.aspose.com/).  
+Om een licentie te kopen, ga naar [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+Voor volledige documentatie, bezoek [Aspose.Cells voor .NET-documentatie](https://docs.aspose.com/cells/net/).  
+Voor de volledige API-referentie kunt u terecht op [Aspose.Cells voor .NET API-referentie](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -301,6 +303,9 @@ workbook.save(outDir + "IPCellReference_out.xlsx");
 - Aktualisieren Sie Aspose.Cells regelmäßig, um die neuesten Funktionen und Leistungsverbesserungen zu nutzen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

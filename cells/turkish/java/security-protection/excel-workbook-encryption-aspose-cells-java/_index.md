@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -105,7 +107,7 @@ workbook.getSettings().setPassword("1234"); // İstediğiniz şifreyi buraya aya
 ```
 **Açıklama**: : `setPassword` yöntemi dosyayı açmak için girilmesi gereken bir parola uygular.
 
-### Bir Excel Dosyasına XOR Şifrelemesi Uygulama
+### Bir Excel Dosyasına XOR Şifrelemesinin Uygulanması
 
 #### Genel bakış
 XOR şifrelemesi, rastgele incelemelere karşı temel koruma sağlar:
@@ -179,6 +181,9 @@ Daha sonra bu teknikleri projelerinize uygulamaya çalışın veya daha fazla ye
    - Evet, birden fazla dosyayla çalışırken üretkenliği önemli ölçüde artırabilen toplu işlemleri destekler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

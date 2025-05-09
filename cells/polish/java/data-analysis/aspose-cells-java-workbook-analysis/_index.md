@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ Tak, można zintegrować go z usługami w chmurze, takimi jak AWS S3 lub Azure B
 Warto rozważyć użycie interfejsów API przesyłania strumieniowego i podzielenie przetwarzania na mniejsze zadania, aby skutecznie zarządzać wykorzystaniem pamięci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

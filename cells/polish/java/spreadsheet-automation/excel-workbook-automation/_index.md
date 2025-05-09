@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyzacja skoroszytu programu Excel
@@ -89,7 +91,7 @@ public class UpdateExcelData {
 ```
 
 ## Wniosek
-tym samouczku omówiliśmy podstawy automatyzacji skoroszytów programu Excel przy użyciu Aspose.Cells dla języka Java. Nauczyłeś się, jak programowo tworzyć, odczytywać i aktualizować skoroszyty programu Excel. Aspose.Cells oferuje szeroki zakres funkcji do zaawansowanej automatyzacji programu Excel, co czyni go potężnym narzędziem do obsługi plików programu Excel w aplikacjach Java.
+W tym samouczku omówiliśmy podstawy automatyzacji skoroszytów programu Excel przy użyciu Aspose.Cells dla języka Java. Nauczyłeś się, jak programowo tworzyć, odczytywać i aktualizować skoroszyty programu Excel. Aspose.Cells oferuje szeroki zakres funkcji do zaawansowanej automatyzacji programu Excel, co czyni go potężnym narzędziem do obsługi plików programu Excel w aplikacjach Java.
 
 ## Często zadawane pytania (FAQ)
 Poniżej przedstawiono kilka typowych pytań dotyczących automatyzacji skoroszytu programu Excel:
@@ -110,9 +112,11 @@ Poniżej przedstawiono kilka typowych pytań dotyczących automatyzacji skoroszy
    Dokumentację API można znaleźć pod adresem [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady kodu.
 
 Możesz swobodnie odkrywać bardziej zaawansowane funkcje i możliwości Aspose.Cells for Java, aby dostosować automatyzację programu Excel do swoich potrzeb. Jeśli masz jakieś konkretne pytania lub potrzebujesz dalszej pomocy, nie wahaj się zapytać.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

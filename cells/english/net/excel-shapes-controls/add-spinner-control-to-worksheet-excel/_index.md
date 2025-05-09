@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Spinner Control to Worksheet in Excel
@@ -130,6 +132,7 @@ Absolutely! You can add as many Spinners as needed by following the same steps f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

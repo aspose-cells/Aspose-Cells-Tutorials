@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,26 +17,26 @@
 
 Dalam lingkungan bisnis yang serba cepat saat ini, penanganan data spreadsheet secara efisien sangat penting untuk pengambilan keputusan dan pelaporan. File OpenDocument Spreadsheet (ODS) dapat menjadi rumit untuk dikelola tanpa alat yang tepat. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk Java guna membaca dan memvalidasi file ODS dengan lancar.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Menyiapkan Aspose.Cells untuk Java
 - Membaca file ODS dengan Aspose.Cells
 - Mengakses lembar kerja dalam buku kerja
 - Bekerja dengan lembar kerja tertentu
 - Memeriksa pengaturan validasi sel di spreadsheet Anda
-- Aplikasi praktis dari fitur-fitur ini
+- Ezen tulajdonságok gyakorlati alkalmazásai
 
 Mari kita mulai dengan meninjau prasyaratnya.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
 1. **Kit Pengembangan Java (JDK):** Direkomendasikan versi 8 atau lebih tinggi.
 2. **Lingkungan Pengembangan Terpadu (IDE):** Gunakan IDE seperti IntelliJ IDEA atau Eclipse untuk manajemen kode yang lebih baik.
 3. **Aspose.Cells untuk Pustaka Java:** Panduan ini menggunakan versi 25.3, tersedia melalui Maven atau Gradle.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Untuk menggunakan Aspose.Cells untuk Java, tambahkan pustaka sebagai dependensi dalam berkas konfigurasi build proyek Anda:
 
@@ -52,9 +54,9 @@ Untuk menggunakan Aspose.Cells untuk Java, tambahkan pustaka sebagai dependensi 
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Aspose menawarkan lisensi uji coba gratis untuk menguji pustaka mereka tanpa batasan fungsionalitas atau waktu. Anda dapat meminta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/)Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi penuh.
+Aspose menawarkan lisensi uji coba gratis untuk menguji pustaka mereka tanpa batasan fungsionalitas atau waktu. Anda dapat meminta lisensi sementara [itt](https://purchase.aspose.com/temporary-license/)Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi penuh.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -75,11 +77,11 @@ public class InitializeAsposeCells {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membaca File ODS
 
-#### Ringkasan
+#### Áttekintés
 
 Aspose.Cells memungkinkan Anda membaca file ODS dengan mudah, menyediakan akses ke data untuk pemrosesan atau analisis.
 
@@ -89,7 +91,7 @@ import com.aspose.cells.Workbook;
 ```
 
 **Langkah 2: Buka File ODS**
-Tetapkan jalur direktori data Anda dan gunakan untuk membuat instance `Workbook` obyek:
+Tetapkan jalur direktori data Anda dan gunakan untuk membuat instance `Workbook` objektum:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -98,7 +100,7 @@ Workbook workbook = new Workbook(dataDir + "/SampleBook1.ods");
 
 ### Mengakses Lembar Kerja di Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 
 Setelah Anda membuka berkas ODS, mengakses lembar kerjanya sangat penting untuk operasi selanjutnya.
 
@@ -111,7 +113,7 @@ WorksheetCollection worksheets = workbook.getWorksheets();
 
 ### Bekerja dengan Lembar Kerja Tertentu
 
-#### Ringkasan
+#### Áttekintés
 
 Menargetkan lembar kerja tertentu memungkinkan manipulasi dan analisis data yang terfokus.
 
@@ -126,7 +128,7 @@ Worksheet worksheet = worksheets.get(0);
 
 ### Pemeriksaan Validasi Sel
 
-#### Ringkasan
+#### Áttekintés
 
 Memvalidasi sel memastikan integritas data dengan memeriksa aturan atau format yang telah ditetapkan sebelumnya.
 
@@ -143,13 +145,13 @@ if (cell.getValidation() != null) {
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Pemeriksaan Integritas Data:** Validasi data masukan terhadap aturan bisnis sebelum diproses.
-2. **Pelaporan Otomatis:** Hasilkan laporan dengan mengakses dan menganalisis lembar kerja tertentu.
-3. **Analisis Keuangan:** Melakukan perhitungan pada lembar kerja keuangan sambil memastikan kepatuhan terhadap aturan validasi.
+2. **Automatizált jelentéskészítés:** Hasilkan laporan dengan mengakses dan menganalisis lembar kerja tertentu.
+3. **Pénzügyi elemzés:** Melakukan perhitungan pada lembar kerja keuangan sambil memastikan kepatuhan terhadap aturan validasi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk mengoptimalkan kinerja Aspose.Cells:
 
@@ -157,15 +159,15 @@ Untuk mengoptimalkan kinerja Aspose.Cells:
 - Memanfaatkan aliran untuk pemrosesan berkas besar guna mengurangi jejak memori.
 - Profilkan aplikasi Anda untuk mengidentifikasi dan mengatasi hambatan.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, Anda telah mempelajari cara menyiapkan Aspose.Cells untuk Java, membaca file ODS, mengakses lembar kerja, menangani lembar tertentu, dan memvalidasi data sel. Dengan keterampilan ini, Anda dapat mengelola data spreadsheet secara efisien di aplikasi Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 
-Jelajahi fitur Aspose.Cells yang lebih canggih dengan menyelami fitur-fiturnya yang komprehensif [dokumentasi](https://reference.aspose.com/cells/java/)Pertimbangkan untuk mengintegrasikannya dengan sistem lain guna meningkatkan kemampuan pemrosesan data.
+Jelajahi fitur Aspose.Cells yang lebih canggih dengan menyelami fitur-fiturnya yang komprehensif [dokumentáció](https://reference.aspose.com/cells/java/)Pertimbangkan untuk mengintegrasikannya dengan sistem lain guna meningkatkan kemampuan pemrosesan data.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Dapatkah saya menggunakan Aspose.Cells untuk Java tanpa membeli lisensi?**
 - Ya, Anda dapat memulai dengan lisensi uji coba gratis untuk menjelajahi semua fitur tanpa batasan.
@@ -180,18 +182,21 @@ Jelajahi fitur Aspose.Cells yang lebih canggih dengan menyelami fitur-fiturnya y
 - Diperlukan lingkungan Java yang kompatibel (JDK 8+). Pastikan IDE Anda mendukung build Maven atau Gradle.
 
 **Q5: Di mana saya dapat menemukan lebih banyak contoh Aspose.Cells yang sedang beraksi?**
-- Kunjungi [Repositori GitHub Aspose.Cells](https://github.com/aspose-cells/Aspose.Cells-for-Java) untuk contoh proyek dan cuplikan kode.
+- Látogassa meg a [Repositori GitHub Aspose.Cells](https://github.com/aspose-cells/Aspose.Cells-for-Java) untuk contoh proyek dan cuplikan kode.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh Aspose.Cells:** [Halaman Rilis](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** [Halaman Pembelian Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Uji Coba Gratis Aspose Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan:** [Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Aspose.Cells letöltése:** [Kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Aspose Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum:** [Aspose támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

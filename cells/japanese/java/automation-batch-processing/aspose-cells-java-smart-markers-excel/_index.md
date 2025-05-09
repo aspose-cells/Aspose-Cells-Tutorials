@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Excel でのスマート マーカーの初期化と処理に焦点を当て、�
 ### Excel ファイルからワークブックを初期化する
 
 #### 概要
-最初のステップは、スマートマーカーを含むExcelファイルをAspose.Cellsを使って読み込むことです。そのためには、 `Workbook` 物体。
+最初のステップは、スマートマーカーを含むExcelファイルをAspose.Cellsを使って読み込むことです。これには、 `Workbook` 物体。
 
 #### コードスニペット
 ```java
@@ -183,6 +185,9 @@ A: Aspose.Cells は大きなファイルを効率的に処理しますが、パ�
 - **サポート**ご質問がある場合は、Asposeフォーラムからお問い合わせください。 [forum.aspose.com/c/cells/9](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ Det här kommandot sparar den ändrade arbetsboken i den angivna utdatakatalogen
 Masterfunktionalitet för dubbel sortering av data kan utnyttjas i olika scenarier:
 1. **Finansiell dataanalys:** Sortera transaktioner efter datum och belopp för bättre insikter.
 2. **Lagerhantering:** Organisera produkter baserat på kategori och lagernivåer.
-3. **Hantering av kunddata:** Prioritera kundinteraktioner efter region och engagemangsstatistik.
+3. **Kunddatahantering:** Prioritera kundinteraktioner efter region och engagemangsstatistik.
 
 Att integrera Aspose.Cells med dina Java-applikationer kan effektivisera databehandlingsuppgifter, särskilt när man hanterar komplexa datamängder som kräver sortering på flera nivåer.
 
@@ -193,6 +195,9 @@ För ytterligare utforskning av Aspose.Cells funktioner, överväg att fördjupa
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

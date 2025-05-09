@@ -1,14 +1,16 @@
 ---
-title: Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle
-linktitle: Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma kitabına kimlikli özel XML parçalarının nasıl ekleneceğini öğrenin.
-weight: 11
-url: /tr/net/workbook-operations/add-custom-xml-parts-with-id/
+"description": "Bu kapsamlı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel çalışma kitabına kimlikli özel XML parçalarının nasıl ekleneceğini öğrenin."
+"linktitle": "Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle"
+"url": "/tr/net/workbook-operations/add-custom-xml-parts-with-id/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Kitabına Kimlikli Özel XML Parçaları Ekle
@@ -18,7 +20,7 @@ Excel dosyalarını programatik olarak yönetme ve düzenleme söz konusu olduğ
 ## Ön koşullar
 Koda dalmadan önce birkaç şeyi ayarlamamız gerekiyor:
 1. Visual Studio: Kodlama için kullanacağımızdan, makinenizde Visual Studio'nun yüklü olduğundan emin olun.
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu henüz yapmadıysanız,[buradan indirin](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu henüz yapmadıysanız, [buradan indirin](https://releases.aspose.com/cells/net/).
 3. .NET Framework: .NET framework ve C# programlama diline aşinalık faydalı olacaktır. 
 Ön koşulları sağladıktan sonra, biraz kodlama sihriyle işleri yoluna koymanın zamanı geldi!
 ## Paketleri İçe Aktar
@@ -32,7 +34,7 @@ using System.Text;
 Bu satır Aspose.Cells'in sunduğu tüm işlevlere erişmenizi sağlar.
 Artık sahneyi hazırladığımıza göre, süreci yönetilebilir adımlara bölelim. Bu şekilde, bunalmadan takip edebileceksiniz. 
 ## Adım 1: Boş bir Çalışma Kitabı Oluşturun
- Başlamak için, bir örnek oluşturmanız gerekir`Workbook` Excel çalışma kitabınızı temsil eden sınıf.
+Başlamak için, bir örnek oluşturmanız gerekir `Workbook` Excel çalışma kitabınızı temsil eden sınıf.
 ```csharp
 // Boş çalışma kitabı oluştur.
 Workbook wb = new Workbook();
@@ -48,7 +50,7 @@ byte[] btsSchema = new byte[] { 1, 2, 3 };
 ```
 Unutmayın, bu örnekte basit bayt dizileri kullanılsa da, burada genellikle geçerli XML ve şema kullanırsınız.
 ## Adım 3: Özel XML Parçaları Ekleyin
- Şimdi özel XML parçalarınızı çalışma kitabınıza ekleme zamanı. Bunu, şunu çağırarak yapabilirsiniz:`Add` yöntem üzerinde`CustomXmlParts` çalışma kitabı koleksiyonu.
+Şimdi özel XML parçalarınızı çalışma kitabınıza ekleme zamanı. Bunu, şunu çağırarak yapabilirsiniz: `Add` yöntem üzerinde `CustomXmlParts` çalışma kitabı koleksiyonu.
 ```csharp
 // Dört adet özel XML parçası oluşturun.
 wb.CustomXmlParts.Add(btsData, btsSchema);
@@ -58,9 +60,9 @@ wb.CustomXmlParts.Add(btsData, btsSchema);
 ```
 Bu kod parçacığı çalışma kitabına dört özdeş özel XML parçası ekler. Bunu gereksinimlerinize göre özelleştirebilirsiniz.
 ## Adım 4: Özel XML Parçalarına Kimlik Atamak
-Artık XML parçalarımızı eklediğimize göre, her birine benzersiz bir tanımlayıcı verelim. Bu kimlik, XML parçalarını daha sonra almamıza yardımcı olacaktır.
+Artık XML parçalarımızı eklediğimize göre, her birine benzersiz bir tanımlayıcı verelim. Bu kimlik, XML parçalarını daha sonra almamıza yardımcı olacak.
 ```csharp
-//Özel xml parçalarına kimlikler atayın.
+// Özel xml parçalarına kimlikler atayın.
 wb.CustomXmlParts[0].ID = "Fruit";
 wb.CustomXmlParts[1].ID = "Color";
 wb.CustomXmlParts[2].ID = "Sport";
@@ -82,7 +84,7 @@ Artık arama kimliklerimiz olduğuna göre, belirtilen kimliğe karşılık gele
 // Arama kimliğine göre özel xml parçasını arayın.
 Aspose.Cells.Markup.CustomXmlPart cxp = wb.CustomXmlParts.SelectByID(srchID);
 ```
- Bu satır kaldıraçları kullanır`SelectByID` İlgi duyduğumuz XML parçasını bulmaya çalışmak.
+Bu satır kaldıraçları kullanır `SelectByID` İlgi duyduğumuz XML parçasını bulmaya çalışmak.
 ## Adım 7: Özel XML Parçasının Bulunup Bulunmadığını Kontrol Edin
 Son olarak XML kısmının bulunup bulunmadığını kontrol edip konsola uygun bir mesaj yazdırmamız gerekiyor.
 ```csharp
@@ -104,17 +106,19 @@ Bu makalede, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabına öz
 ### Aspose.Cells Nedir?  
 Aspose.Cells, geliştiricilerin Microsoft Excel'in kurulu olmasına gerek kalmadan Excel dosyaları oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan sağlam bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet! Ücretsiz deneme sürümüyle başlayabilirsiniz. Sadece[buradan indirin](https://releases.aspose.com/).
+Evet! Ücretsiz deneme sürümüyle başlayabilirsiniz. Sadece [buradan indirin](https://releases.aspose.com/).
 ### Bir çalışma kitabına birden fazla özel XML parçası eklemek mümkün müdür?  
 Kesinlikle! İhtiyacınız olduğu kadar çok özel XML parçası ekleyebilirsiniz ve her birine kolay erişim için benzersiz kimlikler atanabilir.
 ### Kimliklerini bilmiyorsam XML parçalarını nasıl alabilirim?  
- Kimlikleri bilmiyorsanız, döngüye girebilirsiniz`CustomXmlParts` Mevcut parçaları ve bunların kimliklerini görebilmenizi, bunları tanımlamanızı ve bunlara erişmenizi kolaylaştırır.
+Kimlikleri bilmiyorsanız, döngüye girebilirsiniz `CustomXmlParts` Mevcut parçaları ve bunların kimliklerini görebilmenizi, bunları tanımlamanızı ve bunlara erişmenizi kolaylaştırır.
 ### Aspose.Cells için daha fazla kaynak veya desteği nerede bulabilirim?  
- Şunu kontrol edebilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/) Ayrıntılı rehberlik için veya şu adresi ziyaret edin:[destek forumu](https://forum.aspose.com/c/cells/9) Topluluk yardımı için.
+Şunu kontrol edebilirsiniz: [belgeleme](https://reference.aspose.com/cells/net/) Ayrıntılı rehberlik için veya şu adresi ziyaret edin: [destek forumu](https://forum.aspose.com/c/cells/9) Topluluk yardımı için.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

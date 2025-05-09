@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Esportazione di Excel in PDF
@@ -26,7 +28,7 @@ Prima di addentrarci nel procedimento, assicurati di aver impostato i seguenti p
 
 ## Passaggio 1: creare un progetto Java
 
-Inizia creando un nuovo progetto Java nell'Integrated Development Environment (IDE) o nell'editor di testo che preferisci. Configura il progetto per utilizzare la libreria Aspose.Cells per Java.
+Inizia creando un nuovo progetto Java nell'ambiente di sviluppo integrato (IDE) o nell'editor di testo che preferisci. Configura il progetto per utilizzare la libreria Aspose.Cells per Java.
 
 ## Passaggio 2: caricare il file Excel
 
@@ -106,9 +108,11 @@ Sebbene Aspose.Cells sia ottimizzato per la gestione efficiente di file Excel di
 D5: Dove posso trovare ulteriore documentazione ed esempi per Aspose.Cells?
 
 Esplora la documentazione dell'API Aspose.Cells su [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per una documentazione completa e una serie di esempi con cui ampliare ulteriormente le tue conoscenze.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

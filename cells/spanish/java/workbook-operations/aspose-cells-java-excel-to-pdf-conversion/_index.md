@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Experimente con funciones adicionales de Aspose.Cells como la conversión de gr�
 Esta guía proporciona una descripción general completa del uso de Aspose.Cells para Java para convertir archivos de Excel a PDF, garantizando que tenga las herramientas y el conocimiento necesarios para implementar esta solución de manera efectiva.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

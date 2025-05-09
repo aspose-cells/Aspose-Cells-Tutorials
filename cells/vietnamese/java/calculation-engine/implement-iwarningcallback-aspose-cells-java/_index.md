@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -45,7 +47,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells for Java cung cấp bản dùng thử miễn phí bao gồm chức năng giới hạn. Để có quyền truy cập đầy đủ, bạn có thể mua giấy phép hoặc nhận giấy phép tạm thời. Thực hiện theo các bước sau để có được một giấy phép:
 1. **Dùng thử miễn phí**: Tải xuống thư viện từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
 2. **Giấy phép tạm thời**: Nộp đơn xin một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn cần đầy đủ chức năng tạm thời.
-3. **Mua**: Để sử dụng lâu dài, hãy mua giấy phép qua [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
+3. **Mua**Để sử dụng lâu dài, hãy mua giấy phép qua [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 #### Khởi tạo cơ bản
 Khởi tạo Aspose.Cells trong dự án của bạn bằng cách tạo một phiên bản của `Workbook` lớp học:
 ```java
@@ -131,7 +133,7 @@ Hãy cân nhắc khám phá các tính năng bổ sung của Aspose.Cells để 
 3. **Tôi có cần Aspose.Cells cho tất cả các dự án Java liên quan đến tệp Excel không?**
    - Mặc dù không bắt buộc, Aspose.Cells cung cấp các tính năng mạnh mẽ giúp đơn giản hóa các thao tác phức tạp trên tệp Excel.
 4. **Tôi có thể sử dụng IWarningCallback với các thư viện khác không?**
-   - Tính năng này dành riêng cho Aspose.Cells; tuy nhiên, chức năng tương tự có thể tồn tại trong các thư viện khác, tùy thuộc vào khả năng của chúng.
+   - Tính năng này dành riêng cho Aspose.Cells; tuy nhiên, chức năng tương tự có thể có trong các thư viện khác, tùy thuộc vào khả năng của chúng.
 5. **Tôi có thể tìm thêm tài nguyên về Aspose.Cells cho Java ở đâu?**
    - Khám phá [Tài liệu Java Aspose.Cells](https://reference.aspose.com/cells/java/) và tải xuống thư viện từ [Aspose phát hành](https://releases.aspose.com/cells/java/).
 ## Tài nguyên
@@ -143,6 +145,9 @@ Hãy cân nhắc khám phá các tính năng bổ sung của Aspose.Cells để 
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

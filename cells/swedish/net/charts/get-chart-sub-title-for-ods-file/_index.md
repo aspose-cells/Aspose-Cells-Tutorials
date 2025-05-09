@@ -1,45 +1,50 @@
 ---
-title: Få diagram undertexter från ODS-fil med hjälp av Aspose.Cells för .NET
-weight: 7700
-limit: 
-description: Lär dig hur du laddar en ODS-fil, får tillgång till ett diagram och hämtar dess undertexter med hjälp av Aspose.Cells för .NET. Ett enkelt och effektivt exempel med steg för steg vägledning.
-keywords: [Aspose.Cells for .NET, Load ODS File, Get Chart Subtitle, Access Chart in Excel, Retrieve Chart Data, Read ODS File, C# Excel Charts, .NET Spreadsheet API]
-url: /sv/net/charts/get-chart-sub-title-for-ods-file/
+"description": "Lär dig hur du laddar en ODS-fil, öppnar ett diagram och hämtar dess underrubrik med hjälp av Aspose.Cells för .NET. Enkelt och effektivt exempel med steg-för-steg-vägledning."
+"title": "Hämta diagramunderrubrik från ODS-fil med Aspose.Cells för .NET"
+"url": "/sv/net/charts/get-chart-sub-title-for-ods-file/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Få grafinsubtitlar från ODS-fil med hjälp av Aspose.Cells  
-Detta exempel visar hur man använder Aspose.Cells för .NET för att ladda en ODS-fil, komma åt ett specifikt diagram i ett arbetsblad och hämta dess undertexter. Genom att följa denna guide kan utvecklare effektivt läsa och utvinna diagraminformation från ODS-tabletter med hjälp av C#. Exemplet ger ett tydligt, steg för steg tillvägagångssätt för att arbeta med diagram i Excel-filer, vilket säkerställer smidig implementering i .NET-applikationer.  
+# Hämta diagramunderrubrik från ODS-fil med Aspose.Cells  
+Det här exemplet visar hur man använder Aspose.Cells för .NET för att läsa in en ODS-fil, komma åt ett specifikt diagram i ett kalkylblad och hämta dess underrubrik. Genom att följa den här guiden kan utvecklare effektivt läsa och extrahera diagraminformation från ODS-kalkylblad med hjälp av C#. Exemplet ger en tydlig steg-för-steg-metod för att arbeta med diagram i Excel-filer, vilket säkerställer en smidig implementering i .NET-applikationer.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Installationsinstruktioner:  
-För att använda detta exempel, följ följande steg:  
 
-1. Installa Aspose.Cells för .NET via NuGet:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Installationsanvisningar:  
+För att använda det här exemplet, följ dessa steg:  
+
+1. Installera Aspose.Cells för .NET via NuGet:  
    ```shell
    Install-Package Aspose.Cells
    ```  
-2. Lägg till det nödvändiga namnesfeltet i ditt C#-projekt:  
+2. Lägg till det obligatoriska namnutrymmet i ditt C#-projekt:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Charts;
    ```  
-3. Kör den angivna koden för att ladda en ODS-fil, gå till ett diagram och skriva ut undertexterna på konsolen.  
+3. Kör den angivna koden för att ladda en ODS-fil, komma åt ett diagram och skriva ut dess underrubrik till konsolen.  
 
 ## Se även
-För en gratis provprovning, besök [Ställ dig ett fria försök](https://releases.aspose.com/)\- Jag är inte rädd.  
-Om du vill köpa en licens, gå till [Sätt in köpsidorna](https://purchase.aspose.com/buy)\- Jag är inte rädd.  
-För fullständig dokumentation, besök [Aspose.Cells för .NET- dokumentation](https://docs.aspose.com/cells/net/)\- Jag är inte rädd.  
-Om du vill se hela API-referensen, kolla in [Aspose.Cells för .NET API Referens](https://reference.aspose.com/cells/net/)\- Jag är inte rädd. 
+För en gratis provperiod, besök [Aspose Gratis Provperiod](https://releases.aspose.com/).  
+För att köpa en licens, gå till [Aspose köpsida](https://purchase.aspose.com/buy).  
+För fullständig dokumentation, besök [Aspose.Cells för .NET-dokumentation](https://docs.aspose.com/cells/net/).  
+För att utforska hela API-referensen, kolla in [Aspose.Cells för .NET API-referens](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

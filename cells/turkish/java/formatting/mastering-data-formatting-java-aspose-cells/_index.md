@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,7 +181,7 @@ Bu uygulamalar, Aspose.Cells'in çeşitli sektörlerdeki görevleri nasıl kolay
 Uygulamanızı şu şekilde optimize edin:
 - Döngüler içinde nesne oluşturmayı en aza indirme
 - Mümkün olduğunda stilleri yeniden kullanmak
-- Büyük veri kümeleri için toplu işlemeyi kullanma
+- Büyük veri kümeleri için toplu işleme olanak tanıma
 
 Bu yönergeleri izlemek, kapsamlı Excel işlemlerini gerçekleştirirken bile Java uygulamalarınızın duyarlı ve verimli kalmasını sağlar.
 
@@ -211,6 +213,9 @@ Aspose.Cells ile Java'da Excel verilerini işleme şeklinizi dönüştürebilirs
 Aspose.Cells for Java ile Excel'de ustalaşma yolculuğunuza bugün başlayın ve verilerinizi yönetme biçiminizde devrim yaratın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

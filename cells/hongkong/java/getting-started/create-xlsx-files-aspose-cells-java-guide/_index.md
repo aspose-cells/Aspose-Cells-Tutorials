@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ System.out.println("Worksheets are saved successfully.");
    - 是的，Aspose.Cells 支援以程式設計方式建立各種類型的圖表。
 **3. 是否可以使用 Aspose.Cells for Java 對單元格套用格式？**
    - 絕對地！您可以設定儲存格格式，包括設定字體樣式和儲存格邊框。
-**4. 如果在使用 Aspose.Cells 儲存檔案時遇到錯誤怎麼辦？**
+**4. 如果使用 Aspose.Cells 儲存檔案時遇到錯誤怎麼辦？**
    - 檢查您的檔案路徑權限並確保所有依賴項都已正確配置。
 **5. Aspose.Cells 能有效處理非常大的 Excel 檔案嗎？**
    - 是的，使用串流 API 可以幫助有效地管理大檔案的記憶體使用情況。
@@ -149,6 +151,9 @@ System.out.println("Worksheets are saved successfully.");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

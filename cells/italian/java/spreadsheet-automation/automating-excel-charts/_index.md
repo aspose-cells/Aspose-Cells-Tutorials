@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automazione dei grafici Excel
 
 
-grafici di Excel sono strumenti potenti per la visualizzazione dei dati e automatizzarne la creazione e la personalizzazione può migliorare significativamente la produttività. In questo tutorial, ti mostreremo come automatizzare le attività relative ai grafici di Excel utilizzando Aspose.Cells per Java, una versatile API Java per lavorare con i file Excel.
+I grafici di Excel sono strumenti potenti per la visualizzazione dei dati e automatizzarne la creazione e la personalizzazione può migliorare significativamente la produttività. In questo tutorial, ti mostreremo come automatizzare le attività relative ai grafici di Excel utilizzando Aspose.Cells per Java, una versatile API Java per lavorare con i file Excel.
 
 ## Perché automatizzare i grafici Excel?
 
@@ -117,9 +119,11 @@ L'automazione dei grafici Excel con Aspose.Cells per Java semplifica il processo
    Esplora la documentazione API su [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per informazioni approfondite ed esempi.
 
 Automatizza con facilità le tue attività di creazione di grafici Excel utilizzando Aspose.Cells per Java e potenzia le tue capacità di visualizzazione dei dati.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

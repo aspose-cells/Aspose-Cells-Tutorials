@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,7 +220,7 @@ O Aspose.Cells para Java pode ser utilizado em vários cenários do mundo real:
 
 Ao trabalhar com grandes conjuntos de dados ou operações complexas, a otimização do desempenho é crucial:
 
-- **Otimize o uso da memória**: Descarte objetos que não são mais necessários e use fluxos para lidar com grandes volumes de dados de forma eficiente.
+- **Otimizar o uso da memória**: Descarte objetos que não são mais necessários e use fluxos para lidar com grandes volumes de dados de forma eficiente.
 - **Use estruturas de dados eficientes**: Ao manipular planilhas, utilize estruturas de dados eficientes, como matrizes, para operações em massa.
 - **Perfil e Benchmark**:Faça um perfil regular da sua aplicação para identificar gargalos.
 
@@ -237,6 +239,9 @@ Neste guia, exploramos os fundamentos do uso do Aspose.Cells para Java para mani
    - Use Maven ou Gradle para incluí-lo em seu projeto diretamente do repositório.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

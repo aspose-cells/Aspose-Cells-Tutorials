@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động hóa biểu đồ Excel
@@ -117,9 +119,11 @@ Tự động hóa biểu đồ Excel với Aspose.Cells for Java giúp đơn gi�
    Khám phá tài liệu API tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết và ví dụ.
 
 Tự động hóa tác vụ lập biểu đồ Excel của bạn một cách dễ dàng bằng Aspose.Cells for Java và nâng cao khả năng trực quan hóa dữ liệu của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

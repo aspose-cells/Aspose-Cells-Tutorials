@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: Abyste předešli konfliktům, zajistěte, aby názvy oblastí byly jedineč
 Pro více informací si prohlédněte dostupné zdroje na adrese [Soubory ke stažení Aspose](https://releases.aspose.com/cells/java/) a zvažte získání dočasné licence pro přístup k plným funkcím.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

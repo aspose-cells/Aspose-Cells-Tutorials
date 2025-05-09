@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ Bạn đã sẵn sàng áp dụng những gì đã học vào thực tế chưa?
    - Bạn có thể khám phá [Tổ chức Tiêu chuẩn hóa Quốc tế (ISO)](https://www.iso.org/standards.html) trang web cung cấp tài liệu chi tiết về nhiều cấp độ tuân thủ PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

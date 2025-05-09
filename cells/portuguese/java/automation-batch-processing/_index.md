@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de automação mostram como processar arquivos do Excel com eficiência e em escala usando Aspose.Cells em Java. Esses guias práticos demonstram técnicas para processamento em lote de múltiplas planilhas, implementação de automação de fluxo de trabalho e criação de operações agendadas para manipulação de documentos do Excel. Cada tutorial inclui exemplos práticos de código Java para cenários comuns de automação, ajudando você a construir sistemas robustos que podem lidar com o processamento de planilhas em alto volume com intervenção manual mínima.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de automação e processamento em lote
 - Implementação passo a passo com exemplos de código completos
@@ -102,6 +104,9 @@ Aprenda a automatizar tarefas do Excel usando o Aspose.Cells para Java. Este gui
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

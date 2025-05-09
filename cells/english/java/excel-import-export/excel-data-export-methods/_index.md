@@ -8,7 +8,9 @@ url: /java/excel-import-export/excel-data-export-methods/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Export Methods
@@ -190,6 +192,7 @@ Now, equipped with practical knowledge and source code examples, you're ready to
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

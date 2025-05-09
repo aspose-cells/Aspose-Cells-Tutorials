@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ Zintegrowanie tych funkcji z oprogramowaniem do zarządzania dokumentacją lub n
 
 ## Rozważania dotyczące wydajności
 Podczas pracy z Aspose.Cells należy wziąć pod uwagę następujące kwestie:
-- **Optymalizacja wykorzystania pamięci**:Pozbywaj się przedmiotów, których już nie potrzebujesz.
+- **Optymalizacja wykorzystania pamięci**:Pozbywaj się przedmiotów, które nie są już potrzebne.
 - **Przetwarzanie wsadowe**:Przetwarzaj wiele plików w partiach, aby zmniejszyć obciążenie.
 - **Operacje asynchroniczne**:W miarę możliwości należy wykorzystywać operacje asynchroniczne, aby poprawić responsywność.
 
@@ -198,6 +200,9 @@ Ten samouczek pokazuje, jak używać Aspose.Cells for Java do ładowania plików
 Rozpocznij przygodę z Aspose.Cells już dziś i zmień sposób, w jaki korzystasz z danych programu Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

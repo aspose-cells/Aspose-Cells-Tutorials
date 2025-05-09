@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,13 +30,13 @@
 
 หากต้องการปฏิบัติตามบทช่วยสอนนี้อย่างมีประสิทธิผล คุณจะต้องมี:
 
-### ไลบรารีและสิ่งที่ต้องพึ่งพา:
+### ไลบรารีและการอ้างอิงที่จำเป็น:
 - **Aspose.Cells สำหรับ Java** เวอร์ชัน 25.3 ขึ้นไป
   
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม:
 - ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Java Development Kit (JDK) ไว้ในเครื่องของคุณ โดยควรเป็น JDK 8 ขึ้นไป
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความคุ้นเคยเบื้องต้นกับการเขียนโปรแกรม Java
 - ความเข้าใจเกี่ยวกับระบบสร้าง XML และ Gradle/Maven
 
@@ -176,6 +178,9 @@ wb.save(outDir + "outputSampleSingleSheet.htm", options);
 - **ฟอรั่มการสนับสนุน:** เข้าร่วมการสนทนาและรับความช่วยเหลือเกี่ยวกับ [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

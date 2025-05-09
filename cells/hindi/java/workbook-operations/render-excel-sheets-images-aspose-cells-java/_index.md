@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ ImageSaver.saveImage(image, "/RWToGraphicContext_out.png");
 **3. मैं छवि आउटपुट प्रारूप कैसे बदल सकता हूँ?**
    - संशोधित करें `ImageIO.write()` विधि के दूसरे पैरामीटर को "jpg" या "bmp" जैसे प्रारूपों में बदलें।
 **4. यदि मेरी प्रस्तुत छवियाँ धुंधली हों तो क्या होगा?**
-   - DPI सेटिंग समायोजित करें `ImageOrPrintOptions` उच्चतर रिज़ोल्यूशन आउटपुट के लिए.
+   - DPI सेटिंग समायोजित करें `ImageOrPrintOptions` उच्च रिज़ॉल्यूशन आउटपुट के लिए.
 **5. मैं Aspose.Cells के साथ रेंडरिंग समस्याओं का निवारण कैसे कर सकता हूँ?**
    - लॉग की जाँच करें, सही संस्करण संगतता सुनिश्चित करें, और परामर्श करें [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9).
 ## संसाधन
@@ -145,6 +147,9 @@ ImageSaver.saveImage(image, "/RWToGraphicContext_out.png");
 इन उपकरणों और युक्तियों के साथ, आप Aspose.Cells के साथ जावा में एक्सेल शीट रेंडरिंग में महारत हासिल करने की राह पर हैं!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

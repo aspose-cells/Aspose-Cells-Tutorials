@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/trendline-analysis/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trendline Analysis
@@ -103,6 +105,7 @@ You can export the chart to various formats using Aspose.Cells. Refer to the doc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

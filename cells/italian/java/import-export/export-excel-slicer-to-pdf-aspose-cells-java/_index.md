@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,13 +132,16 @@ Seguendo questa guida, hai imparato come esportare in modo efficiente i grafici 
 - **Scaricamento**: [Ottieni le ultime uscite](https://releases.aspose.com/cells/java/)
 - **Acquistare**: [Acquista una licenza](https://purchase.aspose.com/buy)
 - **Prova gratuita**: [Prova Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: Per ulteriore assistenza, visitare il [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 Seguendo queste linee guida e utilizzando Aspose.Cells per Java, sarai pronto a trasformare i tuoi slicer Excel in PDF in modo efficiente. Inizia a implementare questa soluzione nei tuoi progetti oggi stesso!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

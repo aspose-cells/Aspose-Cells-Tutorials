@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Pelajari cara mengamankan dokumen Excel dengan tutorial keamanan Aspose.Cells yang komprehensif untuk pengembang Java. Panduan terperinci ini menunjukkan cara menerapkan perlindungan kata sandi, menerapkan tanda tangan digital, mengelola enkripsi dokumen, dan mengontrol izin pengguna secara terprogram. Setiap tutorial menyediakan contoh kode Java yang berfungsi untuk skenario keamanan umum, membantu Anda membangun aplikasi yang menjaga kerahasiaan dan integritas data sekaligus mendukung kolaborasi yang tepat pada konten spreadsheet.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi keamanan & perlindungan
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -122,10 +124,13 @@ Pelajari cara mengamankan dokumen Excel Anda dengan tanda tangan digital XAdES m
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

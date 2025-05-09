@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ workbook.save(outDir + "ResizeChart_out.xls");
 #### 차트 위치 변경
 차트의 위치를 변경하면 레이아웃과 가독성이 최적화됩니다. 방법은 다음과 같습니다.
 ##### 1단계: Excel 파일 로드
-통합 문서를 로드하세요.
+통합 문서를 로드합니다.
 ```java
 String filePath = "YOUR_DATA_DIRECTORY/book1.xls";
 Workbook workbook = new Workbook(filePath);
@@ -127,7 +129,7 @@ Aspose.Cells for Java는 다재다능합니다. 몇 가지 실용적인 활용 �
 - **일괄 처리**: 여러 차트나 통합 문서를 일괄적으로 처리하여 오버헤드를 줄입니다.
 - **효율적인 코드 관행**: 루프 내에서 객체 생성을 최소화하는 등 효율적인 코딩 관행을 활용합니다.
 ### 결론
-Aspose.Cells for Java를 사용하여 Excel 차트를 효과적으로 로드하고, 크기를 조정하고, 위치를 변경하는 방법을 살펴보았습니다. 이러한 기법은 데이터 표현의 시각적 매력과 명확성을 향상시킵니다. 활용 능력을 더욱 향상시키고 싶다면 Aspose.Cells에서 제공하는 고급 기능을 살펴보는 것도 좋습니다.
+Aspose.Cells for Java를 사용하여 Excel 차트를 효과적으로 로드하고, 크기를 조정하고, 위치를 변경하는 방법을 살펴보았습니다. 이러한 기법은 데이터 표현의 시각적 매력과 명확성을 향상시킵니다. 활용 능력을 더욱 확장하려면 Aspose.Cells에서 제공하는 고급 기능을 살펴보는 것도 좋습니다.
 다음 단계로는 Aspose.Cells를 사용하여 차트를 처음부터 만들거나 Excel 파일의 다른 측면을 사용자 지정하는 것이 포함될 수 있습니다.
 ### FAQ 섹션
 1. **Java용 Aspose.Cells란 무엇인가요?**
@@ -148,6 +150,9 @@ Aspose.Cells for Java를 사용하여 Excel 차트를 효과적으로 로드하�
 Aspose.Cells for Java를 사용하여 Excel 파일에서 차트를 조작하는 방법을 익힐 수 있는 리소스를 살펴보세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

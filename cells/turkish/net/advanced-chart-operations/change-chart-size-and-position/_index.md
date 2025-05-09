@@ -1,14 +1,16 @@
 ---
-title: Grafik Boyutunu ve Pozisyonunu Değiştir
-linktitle: Grafik Boyutunu ve Pozisyonunu Değiştir
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kolay takip edilebilir kılavuzla Aspose.Cells for .NET'i kullanarak Excel'deki grafiklerin boyutunu ve konumunu değiştirmeyi öğrenin.
-weight: 11
-url: /tr/net/advanced-chart-operations/change-chart-size-and-position/
+"description": "Bu kolay takip edilebilir kılavuzla Aspose.Cells for .NET'i kullanarak Excel'deki grafiklerin boyutunu ve konumunu değiştirmeyi öğrenin."
+"linktitle": "Grafik Boyutunu ve Pozisyonunu Değiştir"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafik Boyutunu ve Pozisyonunu Değiştir"
+"url": "/tr/net/advanced-chart-operations/change-chart-size-and-position/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafik Boyutunu ve Pozisyonunu Değiştir
@@ -24,11 +26,11 @@ Kodlama ve grafik düzenlemenin inceliklerine dalmadan önce, birkaç ön koşul
 ### C# Temel Bilgisi
 - C# programlama diline aşinalık şarttır. C# sözdiziminde gezinebiliyorsanız, zaten bir adım öndesiniz!
 
-### Aspose.Cells for .NET Kütüphanesi
--  Aspose.Cells kütüphanesinin yüklü olması gerekir. Eğer henüz yüklü değilse, endişelenmeyin! Bunu şu adresten kolayca indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+### Aspose.Cells .NET Kütüphanesi
+- Aspose.Cells kütüphanesinin yüklü olması gerekir. Eğer henüz yüklü değilse, endişelenmeyin! Bunu şu adresten kolayca indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 
 ### Geliştirme Ortamı
-- C# kodunuzu sorunsuz bir şekilde yazıp çalıştırabileceğiniz geliştirme ortamınızı (örneğin Visual Studio) kurun.
+- C# kodlarınızı sorunsuz bir şekilde yazıp çalıştırabileceğiniz geliştirme ortamınızı (örneğin Visual Studio) kurun.
 
 ### Grafikli Excel Dosyası
 - Bu eğitim için kullanabileceğimiz en azından bir grafiğin bulunduğu bir Excel dosyasına sahip olmak faydalı olacaktır.
@@ -37,7 +39,7 @@ Listenizdeki bu ön koşulları tamamladığınızda, grafik boyutunu ve konumun
 
 ## Paketleri İçe Aktar
 
-Artık her şey ayarlandığına göre, gerekli paketleri içe aktaralım. Bu adım önemlidir çünkü Excel dosyalarını işlemek için gereken Aspose.Cells sınıflarına ve yöntemlerine erişmemizi sağlar.
+Artık her şey ayarlandığına göre, gerekli paketleri içe aktaralım. Bu adım çok önemlidir çünkü Excel dosyalarını işlemek için gereken Aspose.Cells sınıflarına ve yöntemlerine erişmemizi sağlar.
 
 ```csharp
 using System;
@@ -65,7 +67,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
 ```
 
- Burada, yeni bir örnek oluşturuyoruz`Workbook` sınıfa gidin ve Excel dosyamızı içine yükleyin. Çalışma kitabını tüm sayfalarınızı ve grafiklerinizi içeren dijital bir not defteri olarak düşünün. Geçirdiğimiz parametre Excel dosyamıza giden tam yoldur, bu yüzden dosya adını içerdiğinden emin olun!
+Burada, yeni bir örnek oluşturuyoruz `Workbook` sınıfa gidin ve Excel dosyamızı içine yükleyin. Çalışma kitabını tüm sayfalarınızı ve grafiklerinizi içeren dijital bir not defteri olarak düşünün. Geçirdiğimiz parametre Excel dosyamıza giden tam yoldur, bu yüzden dosya adını içerdiğinden emin olun!
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -73,7 +75,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.x
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Artık çalışma kitabımız yüklendiğine göre, üzerinde çalışmak istediğimiz belirli çalışma sayfasına erişmemiz gerekiyor; bu durumda bu, ilk çalışma sayfasıdır (indeks`[0]`). Bir kitapta doğru sayfayı çevirmek gibi, bu adım düzenlemelerimiz için istediğimiz sayfaya odaklanmamıza yardımcı olur.
+Artık çalışma kitabımız yüklendiğine göre, üzerinde çalışmak istediğimiz belirli çalışma sayfasına erişmemiz gerekiyor; bu durumda bu, ilk çalışma sayfasıdır (indeks `[0]`). Bir kitapta doğru sayfayı çevirmek gibi, bu adım düzenlemelerimiz için istediğimiz sayfaya odaklanmamıza yardımcı olur.
 
 ## Adım 4: Grafiği Yükleyin
 
@@ -81,7 +83,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Çalışma kağıdını aldıktan sonra, doğrudan grafiğe erişmeye başlıyoruz! İlk grafiğe (tekrar, dizin) geçiyoruz`[0]`). Bu, süslemek istediğiniz sanat eserini seçmek gibidir. Tablonuzun o çalışma sayfasında mevcut olduğundan emin olun, yoksa kafanız karışır!
+Çalışma kağıdını aldıktan sonra, doğrudan grafiğe erişmeye başlıyoruz! İlk grafiğe (tekrar, dizin) geçiyoruz `[0]`). Bu, süslemek istediğiniz sanat eserini seçmek gibidir. Tablonuzun o çalışma sayfasında mevcut olduğundan emin olun, yoksa kafanız karışır!
 
 ## Adım 5: Grafiği Yeniden Boyutlandırın
 
@@ -90,7 +92,7 @@ chart.ChartObject.Width = 400;
 chart.ChartObject.Height = 300;
 ```
 
- Grafiğin boyutlarını değiştirme zamanı geldi! Burada genişliği ayarlıyoruz`400` pikseller ve yükseklik`300` piksel. Boyutu ayarlamak, sanat eseriniz için mükemmel çerçeveyi seçmeye benzer; çok büyük veya çok küçük olursa odaya tam olarak uymaz.
+Grafiğin boyutlarını değiştirme zamanı geldi! Burada genişliği ayarlıyoruz `400` pikseller ve yükseklik `300` piksel. Boyutu ayarlamak, sanat eseriniz için mükemmel çerçeveyi seçmeye benzer; çok büyük veya çok küçük olursa odaya tam olarak uymaz.
 
 ## Adım 6: Grafiği Yeniden Konumlandırın
 
@@ -99,7 +101,7 @@ chart.ChartObject.X = 250;
 chart.ChartObject.Y = 150;
 ```
 
- Artık doğru boyuta sahip olduğumuza göre, grafiği hareket ettirelim!`X` Ve`Y` özellikleri, aslında çalışma sayfasındaki tabloyu yeniden konumlandırıyoruz. Bunu, çerçeveli resminizi güzelliğini daha iyi sergilemek için duvardaki yeni bir noktaya sürüklemek olarak düşünün!
+Artık doğru boyuta sahip olduğumuza göre, grafiği hareket ettirelim! `X` Ve `Y` özellikleri, aslında çalışma sayfasındaki tabloyu yeniden konumlandırıyoruz. Bunu, çerçeveli resminizi güzelliğini daha iyi sergilemek için duvardaki yeni bir noktaya sürüklemek gibi düşünün!
 
 ## Adım 7: Çalışma Kitabını Kaydedin
 
@@ -127,19 +129,21 @@ Tebrikler! Aspose.Cells for .NET kullanarak Excel'deki grafiklerin boyutunu ve k
 Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarında Excel dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- Aspose.Cells'i ücretsiz deneyebilirsiniz ancak üretim uygulamalarında sürekli kullanım için bir lisans gereklidir. Bir tane edinebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells'i ücretsiz deneyebilirsiniz ancak üretim uygulamalarında sürekli kullanım için bir lisans gereklidir. Bir tane edinebilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Visual Studio olmadan Aspose.Cells'i kullanabilir miyim?  
 Evet, Aspose.Cells'i herhangi bir .NET uyumlu IDE'de kullanabilirsiniz, ancak Visual Studio geliştirmeyi kolaylaştıran araçlar sunar.
 
 ### Aspose.Cells için nasıl destek alabilirim?  
- Özel desteklerinden faydalanabilirsiniz[Destek Forumu](https://forum.aspose.com/c/cells/9).
+Özel desteklerinden faydalanabilirsiniz [Destek Forumu](https://forum.aspose.com/c/cells/9).
 
 ### Geçici lisans var mı?  
- Evet, Aspose.Cells'i kısa bir süreliğine değerlendirmek için geçici bir lisans edinebilirsiniz; bu lisans şu anda mevcuttur:[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, Aspose.Cells'i kısa bir süreliğine değerlendirmek için geçici bir lisans edinebilirsiniz; bu lisans şu anda mevcuttur: [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

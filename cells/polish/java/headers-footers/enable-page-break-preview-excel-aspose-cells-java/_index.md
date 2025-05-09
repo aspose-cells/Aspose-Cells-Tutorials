@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Postępując zgodnie z tym samouczkiem, nauczyłeś się, jak włączyć podglą
 Dzięki temu kompleksowemu przewodnikowi jesteś dobrze wyposażony, aby wykorzystać Aspose.Cells for Java, umożliwiając skutecznie podglądy podziału stron. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

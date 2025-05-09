@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ Hasonló az előző részhez:
 FileInputStream fstream = new FileInputStream(dataDir + "book.xls");
 Workbook workbook = new Workbook(fstream);
 ```
-##### 2. Streambejegyzés használatának bezárása
+##### 2. Bezárás a streambejegyzés használatához
 Mindig zárd be a streameket a memóriaszivárgások elkerülése érdekében:
 ```java
 fstream.close();
@@ -122,7 +124,7 @@ V: Igen, az Aspose biztosít könyvtárakat .NET, C++, Python és más nyelvekhe
 A: Az Aspose.Cells számos Excel formátumot támogat, beleértve a következőket: `.xlsx`Egyszerűen módosítsa a fájlelérési utakat ennek megfelelően.
 **K: Hogyan kezelhetem a kivételeket a munkafüzet-műveletek során?**
 A: Használjon try-catch blokkokat a kivételek kezelésére és a streamek lezárásának biztosítására a `finally` blokk a tisztításhoz.
-**K: Van-e korlátozás arra vonatkozóan, hogy egyszerre hány munkalapot távolíthatok el?**
+**K: Van-e korlátja annak, hogy egyszerre hány munkalapot távolíthatok el?**
 V: Nem, de nagyon nagy munkafüzetek kezelésekor vegye figyelembe a teljesítményre gyakorolt hatásokat.
 ## Erőforrás
 Részletesebb útmutatókért és dokumentációkért:
@@ -135,6 +137,9 @@ Részletesebb útmutatókért és dokumentációkért:
 Reméljük, hogy ez az oktatóanyag segít abban, hogy teljes mértékben kihasználd az Aspose.Cells for Java lehetőségeit az adatkezelési feladataidban. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

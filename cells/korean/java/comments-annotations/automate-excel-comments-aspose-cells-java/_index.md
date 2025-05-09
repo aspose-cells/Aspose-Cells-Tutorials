@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ public class ExcelEnhancer {
 
 ### 통합 문서 열기 및 로드
 
-**개요**Aspose.Cells를 사용하여 지정된 디렉토리에서 통합 문서를 로드하여 기존 Excel 파일을 여는 방법을 알아보세요.
+**개요**지정된 디렉토리에서 통합 문서를 로드하여 Aspose.Cells를 사용하여 기존 Excel 파일을 여는 방법을 알아보세요.
 
 #### 1단계: 필요한 클래스 가져오기
 ```java
@@ -155,7 +157,7 @@ workbook.save(outDir + "/STheCofTOrListObject_out.xlsx", SaveFormat.XLSX);
 Aspose.Cells for Java는 주석을 추가하는 것 이상의 기능을 제공합니다. 실제 활용 사례는 다음과 같습니다.
 1. **데이터 주석**: 메타데이터나 분석 결과를 데이터 세트에 자동으로 주석으로 추가합니다.
 2. **자동 보고**: 주요 지표를 요약한 동적 주석이 포함된 보고서를 생성합니다.
-3. **협동**: 상황에 맞는 메모를 포함시켜 공유 Excel 파일을 개선하여 팀 커뮤니케이션을 개선합니다.
+3. **협동**: 더 나은 팀 커뮤니케이션을 위해 상황에 맞는 메모를 포함하여 공유 Excel 파일을 강화합니다.
 
 ## 성능 고려 사항
 
@@ -194,6 +196,9 @@ Aspose.Cells for Java를 사용하여 Excel 파일에 주석을 추가하는 방
 지금 당장 Aspose.Cells for Java를 마스터하는 여정을 시작하고 Excel 워크플로를 손쉽게 간소화하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

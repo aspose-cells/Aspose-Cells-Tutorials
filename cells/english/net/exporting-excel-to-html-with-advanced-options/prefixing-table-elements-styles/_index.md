@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Prefixing Table Elements Styles with Html Save Options
@@ -107,6 +109,7 @@ Yes, you can get community support by posting your questions on the [Aspose foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

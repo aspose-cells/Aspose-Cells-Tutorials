@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Kezdjük az előfeltételek beállításával!
 
 ## Előfeltételek
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
+bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Aspose.Cells Java-hoz**A használandó könyvtár verziója a 25.3.
 - **Fejlesztői környezet**Egy kompatibilis IDE, mint például az IntelliJ IDEA vagy az Eclipse.
 - **Maven/Gradle**Függőségkezeléshez.
@@ -196,6 +198,9 @@ Az oktatóanyag követésével jelentős lépést tettél az Aspose.Cells Java f
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

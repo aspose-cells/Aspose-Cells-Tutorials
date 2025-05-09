@@ -1,14 +1,16 @@
 ---
-title: Thay đổi căn chỉnh ô Excel mà không làm mất định dạng
-linktitle: Thay đổi căn chỉnh ô Excel mà không làm mất định dạng
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng bằng Aspose.Cells for .NET. Làm theo hướng dẫn từng bước toàn diện của chúng tôi để kiểm soát liền mạch.
-weight: 10
-url: /vi/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/
+"description": "Tìm hiểu cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng bằng Aspose.Cells for .NET. Làm theo hướng dẫn từng bước toàn diện của chúng tôi để kiểm soát liền mạch."
+"linktitle": "Thay đổi căn chỉnh ô Excel mà không làm mất định dạng"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thay đổi căn chỉnh ô Excel mà không làm mất định dạng"
+"url": "/vi/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi căn chỉnh ô Excel mà không làm mất định dạng
@@ -22,9 +24,9 @@ Quản lý các tệp Excel đôi khi có thể giống như đang điều hư�
 Trước khi đi sâu vào mã hóa thực tế, điều quan trọng là phải đảm bảo rằng bạn đã thiết lập mọi thứ đúng cách. Sau đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio (bất kỳ phiên bản nào hỗ trợ .NET) trên máy tính của mình.
-2. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells từ[Trang web của Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells từ [Trang web của Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Một chút quen thuộc với lập trình C# sẽ rất hữu ích vì chúng ta sẽ làm việc trong bối cảnh C#.
-4.  Tệp Excel mẫu: Để minh họa, hãy chuẩn bị một tệp Excel mẫu (ví dụ:`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) có chứa một số định dạng ô ban đầu.
+4. Tệp Excel mẫu: Để minh họa, hãy chuẩn bị một tệp Excel mẫu (ví dụ: `sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) có chứa một số định dạng ô ban đầu.
 
 ## Nhập gói
 
@@ -38,7 +40,7 @@ Mở Visual Studio và tạo một dự án C# mới (ứng dụng bảng điề
 
 - Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 - Chọn "Quản lý gói NuGet".
--  Tìm kiếm`Aspose.Cells` và cài đặt nó.
+- Tìm kiếm `Aspose.Cells` và cài đặt nó.
 
 ### Nhập các không gian tên bắt buộc
 
@@ -66,7 +68,7 @@ string sourceDir = "Your Document Directory\\"; // Thay thế bằng thư mục 
 string outputDir = "Your Document Directory\\"; // Thay thế bằng thư mục thực tế của bạn
 ```
 
- Mã này thiết lập đường dẫn cho các tệp đầu vào và đầu ra. Hãy chắc chắn thay thế`"Your Document Directory\\"` với đường dẫn thực tế trên máy tính của bạn.
+Mã này thiết lập đường dẫn cho các tệp đầu vào và đầu ra. Hãy chắc chắn thay thế `"Your Document Directory\\"` với đường dẫn thực tế trên máy tính của bạn.
 
 ## Bước 2: Tải tệp Excel mẫu
 
@@ -95,7 +97,7 @@ Ví dụ này truy cập vào trang tính đầu tiên. Nếu dữ liệu của 
 Xác định ô nào bạn muốn thay đổi bằng cách tạo một phạm vi. Lựa chọn này sẽ tập trung vào một phạm vi được chỉ định, chẳng hạn như “B2:D7”.
 
 ```csharp
-//Tạo phạm vi ô.
+// Tạo phạm vi ô.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -128,20 +130,20 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Bằng cách thiết lập`Alignments` thuộc tính của StyleFlag để`true`, bạn yêu cầu Aspose.Cells áp dụng các kiểu căn chỉnh một cách chính xác.
+Bằng cách thiết lập `Alignments` thuộc tính của StyleFlag để `true`, bạn yêu cầu Aspose.Cells áp dụng các kiểu căn chỉnh một cách chính xác.
 
 ## Bước 7: Áp dụng Kiểu cho Phạm vi Ô
 
 Sau khi đã thiết lập xong các kiểu và cờ, đã đến lúc áp dụng các kiểu đó vào phạm vi ô:
 
 ```csharp
-//Áp dụng kiểu cho một phạm vi ô.
+// Áp dụng kiểu cho một phạm vi ô.
 rng.ApplyStyle(st, flag);
 ```
 
 Bước này có hiệu quả trong việc thay đổi cách căn chỉnh của tất cả các ô trong phạm vi đó trong khi vẫn giữ nguyên mọi định dạng hiện có.
 
-## Bước 8: Lưu Workbook
+## Bước 8: Lưu sổ làm việc
 
 Cuối cùng, bạn sẽ muốn lưu những thay đổi của mình vào một tệp mới để giữ nguyên bản gốc.
 
@@ -172,19 +174,21 @@ Thay đổi căn chỉnh ô trong Excel trong khi vẫn giữ nguyên định d�
 Chắc chắn rồi! Nó được tối ưu hóa về hiệu suất và có thể xử lý hiệu quả các tệp lớn.
 
 ### Có phiên bản dùng thử nào cho Aspose.Cells không?
- Có! Bạn có thể tải xuống bản dùng thử miễn phí từ trang web[Dùng thử miễn phí](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí từ trang web [Dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells chủ yếu hỗ trợ .NET, Java và một số ngôn ngữ khác thông qua các thư viện tương ứng.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Đối với bất kỳ thắc mắc hoặc vấn đề liên quan đến hỗ trợ, hãy truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Đối với bất kỳ thắc mắc hoặc vấn đề liên quan đến hỗ trợ, hãy truy cập [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể áp dụng nhiều kiểu cùng một lúc không?
 Có, bạn có thể tạo nhiều đối tượng Style và áp dụng chúng theo trình tự hoặc có điều kiện tùy theo yêu cầu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/document-properties/accessing-value-of-document-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accessing Value of Document Properties in .NET
@@ -93,6 +95,7 @@ Absolutely! You can find the free trial option at [this link](https://releases.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

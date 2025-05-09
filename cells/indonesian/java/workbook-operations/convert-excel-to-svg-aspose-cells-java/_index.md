@@ -7,28 +7,30 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konversi Lembar Excel ke SVG dengan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengubah data Excel Anda menjadi format yang lebih fleksibel dan menarik secara visual? Mengonversi lembar Excel menjadi Scalable Vector Graphics (SVG) merupakan solusi yang sangat baik, khususnya untuk aplikasi web atau presentasi interaktif. Tutorial ini memandu Anda melalui proses mengonversi buku kerja Excel ke file SVG menggunakan Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Memuat buku kerja Excel dalam Java.
 - Mengonfigurasi opsi gambar untuk konversi SVG.
 - Mengonversi lembar kerja ke format SVG dengan mudah.
 
 Dengan mengikuti panduan ini, Anda akan dapat mengintegrasikan visualisasi data Excel dengan lancar ke dalam proyek Anda. Mari kita mulai dengan prasyaratnya!
 
-## Prasyarat
+## Előfeltételek
 
 Pastikan Anda memiliki alat dan pengetahuan ini sebelum memulai:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 Untuk menggunakan Aspose.Cells untuk Java, tambahkan sebagai dependensi dalam proyek Anda melalui Maven atau Gradle.
 
 - **Pakar:**
@@ -45,21 +47,21 @@ Untuk menggunakan Aspose.Cells untuk Java, tambahkan sebagai dependensi dalam pr
   compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
   ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 Pastikan Java Development Kit (JDK) terinstal, dan IDE Anda dikonfigurasi untuk pengembangan Java.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java dan penanganan file dalam Java akan membantu dalam mengikuti tutorial ini secara efektif.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Instal pustaka melalui Maven atau Gradle seperti yang ditunjukkan di atas. 
 
-### Akuisisi Lisensi
-Aspose.Cells menawarkan uji coba gratis untuk mengevaluasi fitur lengkapnya, tersedia [Di Sini](https://purchase.aspose.com/temporary-license/)Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi.
+### Licencszerzés
+Aspose.Cells menawarkan uji coba gratis untuk mengevaluasi fitur lengkapnya, tersedia [itt](https://purchase.aspose.com/temporary-license/)Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi.
 
-### Inisialisasi dan Pengaturan Dasar
-Buat contoh dari `Workbook`:
+### Alapvető inicializálás és beállítás
+Hozz létre egy példányt a következőből: `Workbook`:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -73,12 +75,12 @@ Workbook workbook = new Workbook(path);
 ```
 Dengan pengaturan ini, Anda siap memuat dan memanipulasi file Excel.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Bagian ini menguraikan langkah-langkah untuk mengubah lembar Excel menjadi SVG menggunakan Aspose.Cells Java.
 
-### Memuat Buku Kerja Excel
+### Excel munkafüzet betöltése
 
-#### Ringkasan
+#### Áttekintés
 Memuat buku kerja adalah langkah pertama dalam operasi dengan Aspose.Cells. Ini melibatkan membaca file Excel yang ada dan membuat `Workbook` objek yang mewakilinya dalam memori.
 
 ```java
@@ -88,17 +90,17 @@ import com.aspose.cells.Workbook;
 double dataDir = "YOUR_DATA_DIRECTORY";
 double path = dataDir + "Book1.xlsx";
 
-// Memuat buku kerja
+// A munkafüzet betöltése
 Workbook workbook = new Workbook(path);
 ```
 
-#### Penjelasan
-- **`Workbook` kelas:** Mewakili berkas Excel dan menyediakan metode untuk mengakses isinya.
-- **Spesifikasi Jalur:** Pastikan bahwa `dataDir` menunjuk dengan benar ke direktori tempat file Excel berada.
+#### Magyarázat
+- **`Workbook` osztály:** Mewakili berkas Excel dan menyediakan metode untuk mengakses isinya.
+- **Spesifikasi Jalur:** Győződjön meg róla, hogy `dataDir` menunjuk dengan benar ke direktori tempat file Excel berada.
 
 ### Mengonfigurasi Opsi Gambar untuk Konversi SVG
 
-#### Ringkasan
+#### Áttekintés
 Konfigurasikan opsi gambar untuk mengubah lembar kerja menjadi gambar. Ini menentukan bagaimana setiap lembar kerja akan diubah ke format gambar.
 
 ```java
@@ -111,14 +113,14 @@ imgOptions.setSaveFormat(SaveFormat.SVG); // Atur format penyimpanan ke SVG
 imgOptions.setOnePagePerSheet(true); // Pastikan satu halaman per lembar dalam SVG
 ```
 
-#### Penjelasan
+#### Magyarázat
 - **`ImageOrPrintOptions`:** Memungkinkan konfigurasi rendering lembar kerja.
 - **`setSaveFormat`:** Menentukan format keluaran, di sini diatur ke `SVG`.
 - **`setOnePagePerSheet`:** Memastikan setiap lembar kerja disimpan sebagai satu halaman dalam SVG.
 
 ### Mengonversi Lembar Kerja ke Format SVG
 
-#### Ringkasan
+#### Áttekintés
 Dengan opsi gambar yang dikonfigurasikan, ubah setiap lembar kerja menjadi berkas SVG.
 
 ```java
@@ -142,17 +144,17 @@ for (int i = 0; i < sheetCount; i++) {
 }
 ```
 
-#### Penjelasan
+#### Magyarázat
 - **`SheetRender`:** Kelas yang digunakan untuk menyajikan lembar kerja dalam format gambar tertentu.
 - **Ulangi melalui lembaran:** Mengakses setiap lembar kerja dan mempersiapkannya untuk dirender menggunakan `SheetRender`.
-- **Konfigurasi jalur keluaran:** Pastikan bahwa `outDir` diatur ke direktori keluaran yang valid di mana file SVG akan disimpan.
+- **Konfigurasi jalur keluaran:** Győződjön meg róla, hogy `outDir` diatur ke direktori keluaran yang valid di mana file SVG akan disimpan.
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 - **Pastikan jalur yang benar:** Verifikasi apakah data dan direktori keluaran Anda akurat.
 - **Periksa izin berkas:** Konfirmasikan aplikasi Anda memiliki akses tulis ke direktori keluaran yang ditentukan.
 - **Verifikasi versi perpustakaan:** Pastikan Anda menggunakan versi Aspose.Cells yang kompatibel (misalnya, 25.3).
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Jelajahi skenario dunia nyata di mana mengonversi lembar Excel ke SVG bermanfaat:
 1. **Dasbor Web:** Menampilkan data dengan grafik yang dapat diskalakan dengan menjaga kualitas pada resolusi apa pun.
 2. **Laporan Visualisasi Data:** Sematkan gambar vektor bagan dan grafik berkualitas tinggi ke dalam laporan.
@@ -160,19 +162,19 @@ Jelajahi skenario dunia nyata di mana mengonversi lembar Excel ke SVG bermanfaat
 4. **Kompatibilitas Lintas Platform:** Pastikan konsistensi data visual di seluruh platform, dari seluler hingga desktop.
 5. **Integrasi dengan Alat Desain:** Impor grafik vektor dengan mudah ke dalam perangkat lunak desain seperti Adobe Illustrator.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat menggunakan Aspose.Cells untuk Java, pertimbangkan kiat berikut:
-- **Manajemen Memori:** Perhatikan penggunaan memori saat memuat file Excel berukuran besar; optimalkan ukuran buku kerja jika memungkinkan.
-- **Pemrosesan Batch:** Jika mengonversi beberapa buku kerja, proseslah secara berkelompok untuk menghindari pemakaian sumber daya berlebihan.
+- **Memóriakezelés:** Perhatikan penggunaan memori saat memuat file Excel berukuran besar; optimalkan ukuran buku kerja jika memungkinkan.
+- **Kötegelt feldolgozás:** Jika mengonversi beberapa buku kerja, proseslah secara berkelompok untuk menghindari pemakaian sumber daya berlebihan.
 - **Pengumpulan Sampah:** Memanggil pengumpulan sampah secara teratur (`System.gc()`) setelah tugas pemrosesan yang berat.
 
-## Kesimpulan
+## Következtetés
 Tutorial ini membahas cara mengonversi lembar Excel ke format SVG menggunakan Aspose.Cells untuk Java. Dengan mengikuti panduan implementasi terstruktur dan mempertimbangkan aplikasi praktis, Anda dapat meningkatkan kemampuan visualisasi data dalam berbagai proyek.
 
-### Langkah Berikutnya
+### Következő lépések
 Cobalah menerapkan langkah-langkah ini dengan contoh buku kerja dari proyek Anda sendiri! Jelajahi lebih jauh dengan mengintegrasikan output SVG ke dalam aplikasi web atau alat desain.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?**
    - Pustaka untuk membaca, menulis, dan memanipulasi file Excel secara terprogram dalam Java.
 2. **Bagaimana cara memperoleh lisensi Aspose.Cells?**
@@ -186,6 +188,9 @@ Cobalah menerapkan langkah-langkah ini dengan contoh buku kerja dari proyek Anda
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

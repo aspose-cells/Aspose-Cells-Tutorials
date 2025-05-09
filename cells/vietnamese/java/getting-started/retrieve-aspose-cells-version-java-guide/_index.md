@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Tính năng này cho phép bạn xác định phiên bản thư viện Aspose.Ce
 
 #### Bước 1: Nhập các lớp cần thiết
 
-Bắt đầu bằng cách nhập khẩu `CellsHelper` lớp học:
+Bắt đầu bằng cách nhập `CellsHelper` lớp học:
 
 ```java
 import com.aspose.cells.CellsHelper;
@@ -149,6 +151,9 @@ Chúng tôi hy vọng hướng dẫn này hữu ích. Để biết thêm thông 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

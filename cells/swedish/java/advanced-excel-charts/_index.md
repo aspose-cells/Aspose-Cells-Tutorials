@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Avancerade Excel-diagram
@@ -16,7 +18,7 @@
 
 ## Avancerade Excel-diagram med Aspose.Cells för Java:
 
-en värld av datadrivet beslutsfattande är effektiv datavisualisering nyckeln. Aspose.Cells för Java ger Java-utvecklare möjlighet att skapa avancerade Excel-diagram som omvandlar rådata till meningsfulla insikter. Dessa handledningar guidar dig genom processen att skapa fängslande diagram, från enkla stapeldiagram till invecklade värmekartor, med hjälp av kraften i Java.
+I en värld av datadrivet beslutsfattande är effektiv datavisualisering nyckeln. Aspose.Cells för Java ger Java-utvecklare möjlighet att skapa avancerade Excel-diagram som omvandlar rådata till meningsfulla insikter. Dessa handledningar guidar dig genom processen att skapa fängslande diagram, från enkla stapeldiagram till invecklade värmekartor, med hjälp av kraften i Java.
 
 ## Steg-för-steg-vägledning för datavisualisering:
 
@@ -47,9 +49,11 @@ Lär dig hur du skapar fängslande diagramanimationer med Aspose.Cells för Java
 Lär dig hur du skapar fantastiska vattenfallsdiagram med Aspose.Cells för Java. Steg-för-steg-guide med källkod för effektiv datavisualisering.
 ### [Diagraminteraktivitet](./chart-interactivity/)
 Lär dig hur du skapar interaktiva diagram med Aspose.Cells för Java. Förbättra din datavisualisering med interaktivitet.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: पहले से हस्ताक्षरित एक्सेल फ़ाइल में डिजिटल हस्ताक्षर जोड़ें
-linktitle: पहले से हस्ताक्षरित एक्सेल फ़ाइल में डिजिटल हस्ताक्षर जोड़ें
-second_title: .NET API संदर्भ के लिए Aspose.Cells
-description: इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके पहले से हस्ताक्षरित Excel फ़ाइल में डिजिटल हस्ताक्षर जोड़ने का तरीका जानें।
-weight: 30
-url: /hi/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "इस विस्तृत चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके पहले से हस्ताक्षरित Excel फ़ाइल में डिजिटल हस्ताक्षर जोड़ने का तरीका जानें।"
+"linktitle": "पहले से हस्ताक्षरित एक्सेल फ़ाइल में डिजिटल हस्ताक्षर जोड़ें"
+"second_title": ".NET API संदर्भ के लिए Aspose.Cells"
+"title": "पहले से हस्ताक्षरित एक्सेल फ़ाइल में डिजिटल हस्ताक्षर जोड़ें"
+"url": "/hi/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पहले से हस्ताक्षरित एक्सेल फ़ाइल में डिजिटल हस्ताक्षर जोड़ें
@@ -21,8 +23,8 @@ url: /hi/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 
 इससे पहले कि हम कोडिंग की बारीकियों में उतरें, कुछ चीजें हैं जो आपको पता होनी चाहिए:
 
-1.  .NET के लिए Aspose.Cells: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Cells लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[साइट](https://releases.aspose.com/cells/net/).
-2.  प्रमाणपत्र फ़ाइल: आपको एक वैध प्रमाणपत्र फ़ाइल (आमतौर पर एक`.pfx`फ़ाइल) जिसमें आपका डिजिटल प्रमाणपत्र है। सुनिश्चित करें कि आपको इस फ़ाइल का पासवर्ड पता है।
+1. .NET के लिए Aspose.Cells: सुनिश्चित करें कि आपके .NET प्रोजेक्ट में Aspose.Cells लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [साइट](https://releases.aspose.com/cells/net/).
+2. प्रमाणपत्र फ़ाइल: आपको एक वैध प्रमाणपत्र फ़ाइल (आमतौर पर एक `.pfx` फ़ाइल) जिसमें आपका डिजिटल प्रमाणपत्र है। सुनिश्चित करें कि आपको इस फ़ाइल का पासवर्ड पता है।
 3. विकास परिवेश: अपना विकास परिवेश Visual Studio या किसी अन्य IDE के साथ सेट करें जो .NET का समर्थन करता हो।
 4. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको इसे आसानी से समझने में मदद मिलेगी।
 5. नमूना फ़ाइलें: एक नमूना एक्सेल फ़ाइल रखें जो पहले से ही डिजिटल रूप से हस्ताक्षरित हो। यह वह फ़ाइल होगी जिसमें आप एक नया हस्ताक्षर जोड़ेंगे।
@@ -57,14 +59,14 @@ string outputDir = "Your Document Directory";
 
 ## चरण 2: पहले से हस्ताक्षरित कार्यपुस्तिका लोड करें
 
- इसके बाद, आपको उस एक्सेल वर्कबुक को लोड करना होगा जिसे आप संशोधित करना चाहते हैं। यह एक इंस्टेंस बनाकर किया जाता है`Workbook` क्लास में जाकर हस्ताक्षरित फ़ाइल का पथ पास करना।
+इसके बाद, आपको उस एक्सेल वर्कबुक को लोड करना होगा जिसे आप संशोधित करना चाहते हैं। यह एक इंस्टेंस बनाकर किया जाता है `Workbook` क्लास में जाकर हस्ताक्षरित फ़ाइल का पथ पास करना।
 
 ```csharp
 // वह कार्यपुस्तिका लोड करें जो पहले से ही डिजिटल रूप से हस्ताक्षरित है
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- यहाँ, हम नामक कार्यपुस्तिका लोड कर रहे हैं`sampleDigitallySignedByCells.xlsx`सुनिश्चित करें कि यह फ़ाइल पहले से हस्ताक्षरित है.
+यहाँ, हम नामक कार्यपुस्तिका लोड कर रहे हैं `sampleDigitallySignedByCells.xlsx`सुनिश्चित करें कि यह फ़ाइल पहले से हस्ताक्षरित है.
 
 ## चरण 3: डिजिटल हस्ताक्षर संग्रह बनाएं
 
@@ -79,7 +81,7 @@ Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Asp
 
 ## चरण 4: नया प्रमाणपत्र बनाएं
 
- नया डिजिटल हस्ताक्षर बनाने के लिए आपको अपनी प्रमाणपत्र फ़ाइल लोड करनी होगी। यहीं पर आप अपने प्रमाणपत्र का पथ निर्दिष्ट करते हैं।`.pfx` फ़ाइल और उसका पासवर्ड.
+नया डिजिटल हस्ताक्षर बनाने के लिए आपको अपनी प्रमाणपत्र फ़ाइल लोड करनी होगी। यहीं पर आप अपने प्रमाणपत्र का पथ निर्दिष्ट करते हैं। `.pfx` फ़ाइल और उसका पासवर्ड.
 
 ```csharp
 // प्रमाणपत्र फ़ाइल और उसका पासवर्ड
@@ -90,7 +92,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- प्रतिस्थापित करना सुनिश्चित करें`AsposeDemo.pfx`और पासवर्ड आपके वास्तविक प्रमाणपत्र फ़ाइल नाम और पासवर्ड के साथ।
+प्रतिस्थापित करना सुनिश्चित करें `AsposeDemo.pfx` और पासवर्ड आपके वास्तविक प्रमाणपत्र फ़ाइल नाम और पासवर्ड के साथ।
 
 ## चरण 5: डिजिटल हस्ताक्षर बनाएं
 
@@ -105,7 +107,7 @@ Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.Dig
 
 ## चरण 6: कार्यपुस्तिका में डिजिटल हस्ताक्षर संग्रह जोड़ें
 
-अब समय आ गया है कि डिजिटल सिग्नेचर कलेक्शन को वर्कबुक में जोड़ा जाए। यहीं पर जादू होता है!
+अब समय आ गया है कार्यपुस्तिका में डिजिटल हस्ताक्षर संग्रह जोड़ने का। यहीं पर जादू होता है!
 
 ```csharp
 // कार्यपुस्तिका के अंदर डिजिटल हस्ताक्षर संग्रह जोड़ें
@@ -119,7 +121,7 @@ workbook.AddDigitalSignature(dsCollection);
 अंत में, आप संशोधित कार्यपुस्तिका को अपनी आउटपुट निर्देशिका में सहेजना चाहेंगे और उपयोग किए जा रहे किसी भी संसाधन को रिलीज़ करना चाहेंगे।
 
 ```csharp
-//कार्यपुस्तिका को सहेजें और उसका निपटान करें।
+// कार्यपुस्तिका को सहेजें और उसका निपटान करें।
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -149,16 +151,18 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 हां, आप एक डिजिटल हस्ताक्षर संग्रह बना सकते हैं और एक ही कार्यपुस्तिका में एकाधिक हस्ताक्षर जोड़ सकते हैं।
 
 ### Aspose.Cells डिजिटल हस्ताक्षर के लिए कौन से प्रारूपों का समर्थन करता है?
- Aspose.Cells विभिन्न प्रारूपों का समर्थन करता है, जिनमें शामिल हैं`.pfx` प्रमाण पत्र के लिए.
+Aspose.Cells विभिन्न प्रारूपों का समर्थन करता है, जिनमें शामिल हैं `.pfx` प्रमाण पत्र के लिए.
 
 ### क्या मुझे Aspose.Cells का उपयोग करने के लिए .NET के किसी विशिष्ट संस्करण की आवश्यकता है?
- जाँचें[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/) अपने .NET संस्करण के साथ संगतता के लिए.
+जाँचें [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/) अपने .NET संस्करण के साथ संगतता के लिए.
 
 ### मैं Aspose.Cells के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं[Aspose का खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं [Aspose का खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

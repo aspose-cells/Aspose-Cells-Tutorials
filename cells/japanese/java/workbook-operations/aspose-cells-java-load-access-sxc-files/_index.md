@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Cell cell = worksheet.getCells().get("C3");
 ### トラブルシューティングのヒント
 - SXC ファイル パスがプロジェクトの作業ディレクトリを基準として正しく指定されていることを確認します。
 - Aspose.Cells ライブラリのバージョンがすべての構成 (Maven/Gradle) で一致していることを確認します。
-## 実践応用（H2）
+## 実践的応用（H2）
 Aspose.Cells for Java は、次のようなさまざまな実際のアプリケーションに統合できます。
 - **データ移行:** 従来の SXC ファイルを最新の Excel 形式に変換して、現在のシステムとの互換性と統合を向上させます。
 - **自動レポート:** Aspose.Cells を利用して、スプレッドシートから特定のデータ ポイントに自動的にアクセスし、レポートを生成します。
@@ -138,6 +140,9 @@ Aspose.Cells はマクロ対応ファイルを読み取ることができます�
 この包括的なガイドに従うことで、Aspose.Cells for Java を使用してSXCファイルを効率的に操作できるようになります。アプリケーションの強化を目指す開発者の方でも、データ処理タスクの効率化を目指す組織の方でも、Aspose.Cellsはこれらの目標をシームレスに達成するために必要なツールを提供します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

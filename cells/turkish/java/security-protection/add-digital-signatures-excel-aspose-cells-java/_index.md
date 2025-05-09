@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Bu kapsamlı kılavuz, elektronik tabloları programatik olarak işlemeyi basitl
 - Java için Aspose.Cells nasıl kurulur ve kullanılır.
 - Dijital olarak imzalanmış bir çalışma kitabını yükleme adımları.
 - Dijital imza koleksiyonunun oluşturulması.
-- Sertifikaların yüklenmesi ve KeyStore örneklerinin oluşturulması.
+- Sertifikaları yükleme ve KeyStore örnekleri oluşturma.
 - Çalışma kitaplarına dijital imza ekleme.
 - Güncellenen çalışma kitabını yeni dijital imzalarla kaydediyorum.
 
@@ -113,7 +115,7 @@ InputStream inStream = new FileInputStream(dataDir + "/" + certFileName);
 ```
 **Açıklama:**
 - Sertifikalar genellikle şu şekilde saklanır: `.pfx` dosyalar.
-- Bir `InputStream` sertifika verilerini okur ve bunları bir KeyStore'a yüklenmeye hazırlar.
+- Bir `InputStream` sertifika verilerini okur ve bunları bir KeyStore'a yüklenmek üzere hazırlar.
 
 ### Anahtar Deposu Oluşturun ve Sertifika Yükleyin
 #### Genel bakış
@@ -166,7 +168,7 @@ workbook.dispose();
 - `dispose()` çalışma kitabıyla ilişkili kaynakları serbest bırakmak için çağrılır.
 
 ## Pratik Uygulamalar
-Dijital imzaların eklenmesi gerçek dünyadaki birçok senaryoda faydalı olabilir:
+Dijital imza eklemek birçok gerçek dünya senaryosunda faydalı olabilir:
 1. **Finansal Raporlama:** Finansal belgelerin tahrif edilmediğinden emin olur.
 2. **Hukuki Belgeler:** Hukuki anlaşmaların geçerliliğini ve inkar edilemezliğini sağlar.
 3. **Hükümet Formları:** Yetkililere iletilen formların bütünlüğünü doğrular.
@@ -189,6 +191,9 @@ Artık Aspose.Cells for Java kullanarak Excel çalışma kitaplarına dijital im
 - Daha gelişmiş elektronik tablo düzenleme için Aspose.Cells tarafından sağlanan ek özellikleri keşfedin
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

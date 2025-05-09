@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Java के लिए Aspose.Cells का उपयोग करते समय
 इस व्यापक गाइड के साथ, आप पेज ब्रेक पूर्वावलोकन को प्रभावी ढंग से सक्षम करने के लिए Aspose.Cells for Java का उपयोग करने के लिए अच्छी तरह से सुसज्जित हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

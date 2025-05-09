@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -275,12 +277,15 @@ Has aprendido a agregar un cuadro de texto y a configurar el interlineado en un 
 ## Recomendaciones de palabras clave
 - Aspose.Cells para Java
 - "Agregar cuadro de texto en Excel"
-- Establecer el interlineado en Excel
+- "Establecer el interlineado en Excel"
 - Libro de Excel con texto con estilo
 - Java y Aspose.Cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

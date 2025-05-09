@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ Aspose.Cells を使用する上で、Excel ブックの作成と保存は不可�
 Microsoft Office ライブラリを統合すると、Excel マクロでその広範な機能を活用できるようになります。
 
 **実装手順:**
-1. **Office ライブラリ参照の追加**
+1. **Office ライブラリ参照を追加する**
    - Officeライブラリをリンクするには `addRegisteredReference`。
 
    ```java
@@ -172,6 +174,9 @@ Microsoft Office ライブラリを統合すると、Excel マクロでその広
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

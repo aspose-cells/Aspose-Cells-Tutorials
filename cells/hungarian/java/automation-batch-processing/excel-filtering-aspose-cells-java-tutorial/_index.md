@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ import com.aspose.cells.FilterOperatorType;
 worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
 ```
 
-#### 3. lépés: A szűrő frissítése
+#### 3. lépés: Frissítse a szűrőt
 Győződjön meg arról, hogy a módosítások érvénybe lépnek:
 
 ```java
@@ -208,6 +210,9 @@ V: Igen, több JDK verziót is támogat; a kompatibilitást a könyvtár dokumen
 Kezdje el kihasználni az Aspose.Cells for Java erejét, hogy még ma hatékonyabbá tegye Excel adatkezelési feladatait!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

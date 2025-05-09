@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Stai cercando di migliorare visivamente l'analisi dei dati di Excel esportando l
 
 **Cosa imparerai:**
 - Come caricare una cartella di lavoro di Excel utilizzando Aspose.Cells per Java.
-- Applicazione della formattazione condizionale alle barre dati per migliorare la visualizzazione dei dati.
+- Applicazione della formattazione condizionale delle barre dati per migliorare la visualizzazione dei dati.
 - Esportazione di barre dati formattate come immagini PNG per una facile condivisione o incorporamento.
 - Salvare nuovamente le modifiche nella cartella di lavoro di Excel.
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 **Acquisizione della licenza:**
-- Per scopi di sviluppo, si consiglia di utilizzare il [prova gratuita](https://releases.aspose.com/cells/java/).
+- Per scopi di sviluppo, si consiglia di utilizzare [prova gratuita](https://releases.aspose.com/cells/java/).
 - Per sbloccare tutte le funzionalità senza restrizioni, puoi ottenere una licenza temporanea o acquistare un abbonamento direttamente da Aspose.
 
 ### Inizializzazione di base
@@ -211,6 +213,9 @@ In questo tutorial, hai imparato come sfruttare Aspose.Cells per Java per esport
 - [Supporto alla comunità](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ public class InitializeAspose {
 باستخدام Aspose.Cells مع Java، يمكنك إدارة ملفات Excel ومعالجتها بكفاءة في تطبيقاتك. استكشف المزيد من الوظائف لتحقيق أقصى استفادة من إمكاناتها في مشاريعك!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

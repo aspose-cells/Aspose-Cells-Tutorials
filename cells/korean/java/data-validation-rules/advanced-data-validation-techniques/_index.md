@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 고급 데이터 검증 기술
@@ -20,7 +22,7 @@
 
 ## Java용 Aspose.Cells 설정
 
-고급 기술을 살펴보기 전에 Java용 Aspose.Cells부터 시작해 보겠습니다. 라이브러리는 다음에서 다운로드할 수 있습니다. [Aspose.Cells for Java 다운로드 링크](https://releases.aspose.com/cells/java/). 설명서에 제공된 설치 지침을 반드시 따르십시오. [Java API 참조용 Aspose.Cells](https://reference.aspose.com/cells/java/).
+고급 기술을 살펴보기 전에 Java용 Aspose.Cells부터 시작해 보겠습니다. 라이브러리는 다음에서 다운로드할 수 있습니다. [Aspose.Cells for Java 다운로드 링크](https://releases.aspose.com/cells/java/)설명서에 제공된 설치 지침을 반드시 따르십시오. [Java API 참조용 Aspose.Cells](https://reference.aspose.com/cells/java/).
 
 ## 기본 데이터 검증
 
@@ -113,6 +115,7 @@ Aspose.Cells for Java는 다음에서 다운로드할 수 있습니다. [다운�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

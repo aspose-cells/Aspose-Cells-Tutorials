@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel szövegfüggvények demisztifikálva
@@ -47,7 +49,7 @@ A C1 cellában most a „Hello, World!” szöveg lesz.
 
 ## BAL és JOBB - Szöveg kinyerése
 
-A `LEFT` és `RIGHT` A függvények lehetővé teszik, hogy egy szöveges karakterlánc bal vagy jobb oldaláról kinyerjünk egy megadott számú karaktert. Így használhatjuk őket:
+A `LEFT` és `RIGHT` A függvények lehetővé teszik, hogy egy szöveges karakterlánc bal vagy jobb oldaláról meghatározott számú karaktert kinyerjünk. Így használhatjuk őket:
 
 ```java
 // Java kód szöveg kinyeréséhez az Aspose.Cells használatával
@@ -109,7 +111,7 @@ A B4-es cellában a „JAVA PROGRAMOZÁS” szöveg, a C4-es cellában pedig a �
 
 ## KERESÉS és CSERÉLÉS - Szöveg megkeresése és cseréje
 
-A `FIND` függvény lehetővé teszi egy adott karakter vagy szöveg pozíciójának meghatározását egy karakterláncon belül, míg a `REPLACE` függvény segít szöveget helyettesíteni. Nézzük meg őket működés közben:
+A `FIND` A függvény lehetővé teszi egy adott karakter vagy szöveg pozíciójának meghatározását egy karakterláncon belül, míg a `REPLACE` függvény segít szöveget helyettesíteni. Nézzük meg őket működés közben:
 
 ```java
 // Java kód az Aspose.Cells használatával történő kereséshez és cseréhez
@@ -174,9 +176,11 @@ Karakterláncon belüli szöveg kereséséhez és cseréjéhez használja a `FIN
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

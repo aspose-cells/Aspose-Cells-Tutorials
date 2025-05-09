@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### 라이센스 취득
-Aspose.Cells for Java는 무료 평가판 라이선스를 통해 기능을 평가해 볼 수 있습니다. 장기간 사용하려면 라이선스를 구매하거나 임시 라이선스를 신청해야 합니다.
+Aspose.Cells for Java는 무료 평가판 라이선스를 통해 기능을 평가할 수 있습니다. 장기간 사용하려면 라이선스를 구매하거나 임시 라이선스를 신청해야 합니다.
 
 - **무료 체험:** [무료 버전을 다운로드하세요](https://releases.aspose.com/cells/java/)
 - **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
@@ -132,7 +134,7 @@ wb.save(outDir + "LinkCellstoXmlMapElements_out.xlsx", SaveFormat.XLSX);
 - 연결된 셀에 스타일 지정이나 조건부 서식 지정과 같은 추가 기능을 살펴보세요.
 
 ## FAQ 섹션
-**질문 1: Aspose.Cells를 사용하는 데 필요한 최소 Java 버전은 무엇입니까?**
+**Q1: Aspose.Cells를 사용하는 데 필요한 최소 Java 버전은 무엇입니까?**
 A1: Aspose.Cells의 모든 기능과의 호환성을 보장하려면 Java 8 이상을 권장합니다.
 
 **질문 2: 하나의 통합 문서에서 두 개 이상의 XML 맵을 연결할 수 있나요?**
@@ -156,6 +158,9 @@ A5: 네, 라이선스를 구매하신 후 사용하실 수 있습니다. 무료 
 - **지원하다:** [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

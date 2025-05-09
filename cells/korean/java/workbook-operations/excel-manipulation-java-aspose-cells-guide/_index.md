@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Java를 사용하여 Excel 작업을 자동화하거나 데이터 관리를 간�
 ## 필수 조건
 
 시작하기 전에 다음 사항이 있는지 확인하세요.
-- **자바 개발 키트(JDK)**: 시스템에 8 버전 이상이 설치되어 있어야 합니다.
+- **자바 개발 키트(JDK)**: 시스템에 8버전 이상이 설치되어 있어야 합니다.
 - **통합 개발 환경(IDE)**: IntelliJ IDEA, Eclipse 또는 Java를 지원하는 IDE 등.
 - Java 프로그래밍 개념에 대한 기본적인 이해.
 
@@ -235,6 +237,9 @@ class SaveWorkbook {
 이러한 기술을 익히면 Java에서 Aspose.Cells를 사용하여 Excel 자동화 작업의 성능과 안정성을 향상시킬 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

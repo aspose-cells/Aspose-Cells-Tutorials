@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ Aspose.Cells for Java を使って、Excel プレゼンテーションに反射�
 ### [Aspose.Cells for Java で Excel シートを画像としてレンダリングする方法: 包括的なガイド](./aspose-cells-java-render-excel-sheets-images/)
 Aspose.Cells for Javaを使ってExcelデータを高品質な画像に変換する方法を学びましょう。このガイドでは、セットアップからレンダリングまでのすべての手順を網羅し、シームレスなデータ可視化を実現します。
 
-### [Aspose.Cells Java を使用して ODS ファイルにグラフィック背景を設定する: ステップバイステップガイド](./aspose-cells-java-set-ods-graphic-background/)
+### [Aspose.Cells Java を使用して ODS ファイルにグラフィック背景を設定する: ステップバイステップ ガイド](./aspose-cells-java-set-ods-graphic-background/)
 Aspose.Cells for Javaを使用してODSファイルにグラフィック背景を設定する方法を学びましょう。プロフェッショナルなビジュアルでスプレッドシートを強化し、魅力を高めましょう。
 
 ### [Aspose.Cells for Java を使用して Excel に WordArt の透かしを追加する方法](./aspose-cells-java-wordart-watermark-excel/)
@@ -141,6 +143,9 @@ Aspose.Cells Javaを使って背景画像を追加し、Excelレポートを魅�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

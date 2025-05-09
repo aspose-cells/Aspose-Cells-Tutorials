@@ -7,29 +7,31 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengekstrak GUID dari Objek OLE di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda kesulitan mengekstrak metadata objek tertanam seperti GUID dari Excel? Anda tidak sendirian! Banyak pengembang menghadapi tantangan saat mengakses dan memanipulasi data dalam spreadsheet yang kompleks, terutama yang berisi objek OLE (Object Linking and Embedding). Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java guna memuat buku kerja Excel, mengakses objek OLE PowerPoint yang tertanam, dan mengekstrak GUID-nya secara efisien.
 
-Dalam artikel ini, kami akan membahas:
+Ebben a cikkben a következőket fogjuk tárgyalni:
 - Memuat buku kerja dengan Aspose.Cells
 - Mengakses lembar kerja dan objek OLE tertentu
 - Mengekstrak dan memformat GUID dari pengidentifikasi kelas
 
 Mari kita bahas prasyarat yang Anda perlukan untuk memulai!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-1. **Perpustakaan yang Diperlukan**: Anda memerlukan pustaka Aspose.Cells untuk Java. Kami sarankan menggunakan Maven atau Gradle untuk manajemen dependensi.
-2. **Pengaturan Lingkungan**: Lingkungan pengembangan Java yang disiapkan dengan JDK terinstal (disarankan versi 8 atau lebih tinggi).
-3. **Prasyarat Pengetahuan**Pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel.
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
+1. **Kötelező könyvtárak**: Anda memerlukan pustaka Aspose.Cells untuk Java. Kami sarankan menggunakan Maven atau Gradle untuk manajemen dependensi.
+2. **Környezet beállítása**: Lingkungan pengembangan Java yang disiapkan dengan JDK terinstal (disarankan versi 8 atau lebih tinggi).
+3. **Ismereti előfeltételek**Pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -51,14 +53,14 @@ Sertakan dalam Anda `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Aspose.Cells menawarkan lisensi uji coba gratis untuk tujuan evaluasi. Anda dapat meminta lisensi sementara atau membeli lisensi penuh jika Anda berencana untuk menggunakannya secara ekstensif dalam proyek Anda.
-1. **Uji Coba Gratis**: Unduh perpustakaan dari [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara**: Minta lisensi sementara melalui [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian**:Untuk penggunaan jangka panjang, beli melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió**: Töltsd le a könyvtárat innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély**: Ideiglenes engedély igénylése a következőn keresztül: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás**:Untuk penggunaan jangka panjang, beli melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda:
 ```java
 import com.aspose.cells.Workbook;
@@ -74,13 +76,13 @@ public class ExcelGUIDExtractor {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang, mari terapkan fitur untuk mengekstrak GUID dari objek PowerPoint OLE yang tertanam di Excel.
 
 ### Memuat dan Mengakses Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 Mulailah dengan memuat buku kerja Anda yang berisi objek OLE yang tertanam. Langkah ini menginisialisasi sumber data Anda untuk operasi selanjutnya.
 
 #### Potongan Kode
@@ -91,9 +93,9 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sample.xls");
 ```
 
-### Lembar Kerja Akses
+### Hozzáférési munkalap
 
-#### Ringkasan
+#### Áttekintés
 Identifikasi dan akses lembar kerja tertentu yang berisi objek OLE. Ini membantu mempersempit pencarian Anda dalam buku kerja.
 
 #### Potongan Kode
@@ -105,7 +107,7 @@ Worksheet ws = wb.getWorksheets().get(0);
 
 ### Akses Objek OLE
 
-#### Ringkasan
+#### Áttekintés
 Temukan objek OLE di dalam lembar kerja untuk mengekstrak metadatanya, seperti GUID.
 
 #### Potongan Kode
@@ -117,7 +119,7 @@ OleObject oleObj = ws.getOleObjects().get(0);
 
 ### Ekstrak dan Format GUID dari Pengidentifikasi Kelas
 
-#### Ringkasan
+#### Áttekintés
 Dapatkan pengenal kelas objek OLE dalam format byte, lalu ubah menjadi string GUID standar.
 
 #### Potongan Kode
@@ -145,30 +147,30 @@ String guid = sb.toString();
 System.out.println("Extracted GUID: " + guid);
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - Pastikan jalur buku kerja ditentukan dengan benar.
 - Verifikasi bahwa lembar kerja pertama berisi objek OLE; jika tidak, sesuaikan indeks sebagaimana mestinya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Memahami cara mengekstrak GUID dari file Excel dapat berguna dalam berbagai skenario:
-1. **Validasi Data**: Mengonfirmasi integritas dan sumber objek yang tertanam.
+1. **Adatérvényesítés**: Mengonfirmasi integritas dan sumber objek yang tertanam.
 2. **Tugas Otomatisasi**: Merampingkan proses seperti pembuatan laporan atau migrasi data.
-3. **Integrasi dengan Basis Data**: Menghubungkan metadata objek OLE dengan kumpulan data lain untuk analisis yang komprehensif.
+3. **Integráció adatbázisokkal**: Menghubungkan metadata objek OLE dengan kumpulan data lain untuk analisis yang komprehensif.
 
-## Pertimbangan Kinerja
-Saat bekerja dengan Aspose.Cells, pertimbangkan kiat kinerja berikut:
+## Teljesítménybeli szempontok
+Az Aspose.Cells használatakor vegye figyelembe az alábbi teljesítménynövelő tippeket:
 - Optimalkan penggunaan memori dengan memproses buku kerja dalam potongan-potongan jika ukurannya besar.
 - Kelola pengaturan ruang tumpukan Java untuk mencegah kesalahan kehabisan memori.
 - Gunakan struktur data dan algoritma yang efisien untuk menangani konten buku kerja.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah mempelajari cara memuat buku kerja Excel, mengakses objek OLE, dan mengekstrak GUID menggunakan Aspose.Cells untuk Java. Keterampilan ini meningkatkan kemampuan Anda untuk memanipulasi spreadsheet yang rumit secara terprogram. Untuk lebih mengeksplorasi kemampuan Aspose.Cells, pertimbangkan untuk bereksperimen dengan fitur lain seperti validasi data atau manipulasi bagan.
 
-## Langkah Berikutnya
+## Következő lépések
 - Cobalah menerapkan teknik ini dalam proyek Anda.
-- Jelajahi fungsi tambahan Aspose.Cells dengan berkonsultasi [dokumentasi resmi](https://reference.aspose.com/cells/java/).
+- Jelajahi fungsi tambahan Aspose.Cells dengan berkonsultasi [hivatalos dokumentáció](https://reference.aspose.com/cells/java/).
 
-## Bagian FAQ
+## GYIK szekció
 **Q1: Dapatkah saya mengekstrak GUID dari semua objek OLE dalam buku kerja?**
 A1: Ya, ulangi terus `ws.getOleObjects()` dan menerapkan logika ekstraksi ke setiap objek.
 
@@ -182,17 +184,20 @@ A3: Terapkan blok try-catch di sekitar bagian kode penting untuk mengelola penge
 A4: Aspose.Cells mendukung berbagai format file, tetapi pastikan versi buku kerja Anda kompatibel dengan fitur pustaka yang didukung.
 
 **Q5: Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?**
-A5: Kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan komunitas dan profesional.
+A5: Kunjungi [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) közösségi és szakmai segítségért.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Halaman Pembelian Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Unduhan Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/) 
+## Erőforrás
+- **Dokumentáció**: [Referensi API Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Unduhan Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/) 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

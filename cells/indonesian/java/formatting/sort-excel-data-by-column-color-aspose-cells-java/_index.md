@@ -7,35 +7,37 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengurutkan Data Excel Berdasarkan Warna Kolom Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Mengurutkan kumpulan data besar di Excel bisa jadi sulit, terutama jika warna sel menunjukkan prioritas atau kategori. Tutorial ini menunjukkan cara mengurutkan data berdasarkan warna kolom menggunakan Aspose.Cells untuk Java, yang akan meningkatkan alur kerja dan produktivitas Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara menggunakan Aspose.Cells untuk Java untuk operasi penyortiran
 - Teknik untuk mengurutkan data berdasarkan warna latar belakang sel
 - Langkah-langkah untuk mengintegrasikan solusi ini ke dalam aplikasi Java Anda yang sudah ada
 
 Mari kita mulai dengan prasyarat yang diperlukan sebelum menerapkan fungsi ini dalam proyek Anda!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda memiliki pengaturan berikut:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 Anda akan memerlukan Aspose.Cells untuk pustaka Java. Versi yang digunakan di sini adalah 25.3.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal
 - IDE seperti IntelliJ IDEA atau Eclipse
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java, keakraban dengan operasi Excel, dan pengalaman bekerja dengan Maven atau Gradle bermanfaat untuk mengikuti tutorial ini secara efektif.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -43,7 +45,7 @@ Pemahaman dasar tentang pemrograman Java, keakraban dengan operasi Excel, dan pe
 Untuk menggunakan Aspose.Cells untuk Java, sertakan dalam proyek Anda. Berikut cara melakukannya menggunakan Maven atau Gradle:
 
 ### Pakar
-Tambahkan dependensi berikut di `pom.xml` mengajukan:
+Tambahkan dependensi berikut di `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -60,10 +62,10 @@ Sertakan baris ini di `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-Dapatkan lisensi sementara gratis untuk mengevaluasi Aspose.Cells tanpa batasan dengan mengunjungi [Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk memintanya.
+### Licencbeszerzés lépései
+Dapatkan lisensi sementara gratis untuk mengevaluasi Aspose.Cells tanpa batasan dengan mengunjungi [Aspose weboldal](https://purchase.aspose.com/temporary-license/) untuk memintanya.
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 Setelah disertakan dalam proyek Anda, inisialisasi Aspose.Cells sebagai berikut:
 
 ```java
@@ -71,7 +73,7 @@ import com.aspose.cells.*;
 
 public class ExcelOperations {
     public static void main(String[] args) throws Exception {
-        // Tetapkan lisensi jika tersedia
+        // Licenc beállítása, ha elérhető
         License license = new License();
         license.setLicense("path/to/your/license/file");
 
@@ -80,21 +82,21 @@ public class ExcelOperations {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita telusuri langkah-langkah untuk mengurutkan data Excel berdasarkan warna kolom menggunakan Aspose.Cells untuk Java.
 
-### Memuat File Excel Sumber
-**Ringkasan:** Mulailah dengan memuat file Excel sumber Anda ke dalam `Workbook` objek, yang berfungsi sebagai titik awal untuk operasi apa pun yang akan Anda lakukan pada data.
+### Töltse be a forrás Excel fájlt
+**Áttekintés:** Kezd azzal, hogy betöltöd a forrás Excel fájlt egy `Workbook` objek, yang berfungsi sebagai titik awal untuk operasi apa pun yang akan Anda lakukan pada data.
 
 ```java
-// Mulai: 1
-// Muat file Excel sumber
+// ExStart:1
+// Töltse be a forrás Excel fájlt
 Workbook workbook = new Workbook("path/to/your/source/file.xlsx");
 ```
 
 ### Membuat Instansi Objek Pengurut Data
-**Ringkasan:** Gunakan `DataSorter` kelas untuk menentukan kriteria pengurutan berdasarkan warna sel. Objek ini memungkinkan Anda menentukan kunci untuk pengurutan.
+**Áttekintés:** Használd a `DataSorter` kelas untuk menentukan kriteria pengurutan berdasarkan warna sel. Objek ini memungkinkan Anda menentukan kunci untuk pengurutan.
 
 ```java
 // Membuat instance objek pengurut data
@@ -102,26 +104,26 @@ DataSorter sorter = workbook.getDataSorter();
 ```
 
 ### Tambahkan Kunci untuk Menyortir Berdasarkan Warna
-**Ringkasan:** Tentukan bagaimana data Anda harus diurutkan. Dalam contoh ini, kita akan mengurutkan Kolom B dalam urutan menurun berdasarkan warna latar belakang sel merah.
+**Áttekintés:** Tentukan bagaimana data Anda harus diurutkan. Dalam contoh ini, kita akan mengurutkan Kolom B dalam urutan menurun berdasarkan warna latar belakang sel merah.
 
 ```java
 // Tambahkan kunci untuk Kolom B, Urutkan dalam urutan menurun dengan warna latar belakang merah
 sorter.addKey(1, SortOnType.CELL_COLOR, SortOrder.DESCENDING, Color.getRed());
 ```
 
-**Penjelasan:** 
+**Magyarázat:** 
 - `addKey` mengambil empat parameter: indeks kolom (berbasis 1), jenis pengurutan (`CELL_COLOR`), memesan (`DESCENDING`), dan warna spesifik untuk disortir.
 
 ### Lakukan Operasi Sortir
-**Ringkasan:** Jalankan operasi penyortiran pada rentang sel tertentu dalam lembar kerja Anda.
+**Áttekintés:** Jalankan operasi penyortiran pada rentang sel tertentu dalam lembar kerja Anda.
 
 ```java
 // Urutkan data berdasarkan kunci
 sorter.sort(workbook.getWorksheets().get(0).getCells(), CellArea.createCellArea("A2", "C6"));
 ```
 
-**Penjelasan:**
-- Itu `CellArea.createCellArea` metode menentukan awal dan akhir rentang yang akan diurutkan.
+**Magyarázat:**
+- A `CellArea.createCellArea` metode menentukan awal dan akhir rentang yang akan diurutkan.
 
 ### Simpan File Output
 Terakhir, simpan buku kerja Anda yang telah diurutkan sebagai berkas baru.
@@ -131,51 +133,54 @@ Terakhir, simpan buku kerja Anda yang telah diurutkan sebagai berkas baru.
 workbook.save("path/to/your/output/file.xlsx");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Menerapkan Aspose.Cells untuk mengurutkan berdasarkan warna kolom bermanfaat dalam berbagai skenario:
-1. **Manajemen Proyek:** Prioritaskan tugas berdasarkan urgensi yang ditunjukkan melalui warna.
-2. **Analisis Keuangan:** Kategorikan data berdasarkan tingkat risiko yang ditetapkan melalui warna sel.
-3. **Pelacakan Inventaris:** Urutkan item berdasarkan status stok yang disorot dengan warna latar belakang berbeda.
+1. **Projektmenedzsment:** Prioritaskan tugas berdasarkan urgensi yang ditunjukkan melalui warna.
+2. **Pénzügyi elemzés:** Kategorikan data berdasarkan tingkat risiko yang ditetapkan melalui warna sel.
+3. **Készletkövetés:** Urutkan item berdasarkan status stok yang disorot dengan warna latar belakang berbeda.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat bekerja dengan kumpulan data besar, pertimbangkan kiat pengoptimalan berikut:
 - Gunakan praktik manajemen memori yang efisien di Java untuk menangani file Excel berukuran besar dengan lancar.
 - Hanya muat lembar atau rentang yang diperlukan ke dalam memori jika memungkinkan.
 - Bersihkan objek dan sumber daya yang tidak digunakan secara teratur setelah memproses setiap segmen file.
 
-## Kesimpulan
+## Következtetés
 Tutorial ini membahas cara Aspose.Cells untuk Java dapat mengurutkan data Excel secara efisien berdasarkan warna kolom. Dengan mengikuti pendekatan terstruktur yang diuraikan di sini, Anda dapat mengintegrasikan fungsionalitas ini ke dalam aplikasi Anda dengan lancar.
 
 Untuk melangkah lebih jauh, jelajahi fitur penyortiran tambahan yang ditawarkan oleh Aspose.Cells atau bereksperimenlah dengan berbagai teknik manipulasi data menggunakan API-nya yang ekstensif.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Cobalah menerapkan penyortiran berdasarkan beberapa kriteria.
 - Jelajahi fungsionalitas lanjutan lainnya yang disediakan oleh Aspose.Cells untuk Java.
 
 Siap untuk meningkatkan kemampuan pemrosesan Excel Anda? Cobalah solusi ini hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara mengurutkan berdasarkan beberapa kolom dalam urutan yang berbeda?**
-   - Gunakan `addKey` metode beberapa kali dengan parameter yang berbeda untuk menentukan setiap kriteria penyortiran.
+   - Használd a `addKey` metode beberapa kali dengan parameter yang berbeda untuk menentukan setiap kriteria penyortiran.
 2. **Dapatkah saya menggunakan Aspose.Cells untuk Java tanpa lisensi?**
    - Ya, tetapi beroperasi dalam mode evaluasi dengan batasan jumlah baris dan sel yang diproses.
 3. **Apa saja kesalahan umum saat menyiapkan Aspose.Cells dengan Maven/Gradle?**
-   - Pastikan Anda `pom.xml` atau `build.gradle` berkas memiliki versi yang benar yang ditentukan untuk dependensi.
+   - Pastikan Anda `pom.xml` vagy `build.gradle` berkas memiliki versi yang benar yang ditentukan untuk dependensi.
 4. **Bagaimana cara menerapkan lisensi sementara untuk proyek saya?**
-   - Unduh lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/) dan menggunakan `setLicense` metode seperti yang ditunjukkan dalam panduan pengaturan.
+   - Unduh lisensi sementara dari [Aspose weboldal](https://purchase.aspose.com/temporary-license/) dan menggunakan `setLicense` metode seperti yang ditunjukkan dalam panduan pengaturan.
 5. **Apakah mungkin untuk mengurutkan data berdasarkan properti sel lainnya?**
    - Ya, Aspose.Cells mendukung penyortiran berdasarkan nilai, font, dan bahkan kriteria khusus melalui API serbagunanya.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

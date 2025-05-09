@@ -1,51 +1,56 @@
 ---
-title: .NET のAspose.CellsでExcel Chartを作成する
-weight: 7700
-limit: 
-description: Excel のワークブックを作成し,サンプルデータを追加し,ステップバイ・ステップコードの例を備えた .NET のAspose.Cellsを使用して列表を作成する方法について学びましょう.
-keywords: [Aspose.Cells for .NET, create Excel chart, generate column chart, Excel automation, C# Excel library, .NET spreadsheet API]
-url: /ja/net/charts/setting-category-data/
+"description": "Aspose.Cells for .NET を使用して Excel ブックを作成し、サンプル データを追加し、縦棒グラフを生成する方法を、ステップバイステップのコード例とともに学習します。"
+"title": "Aspose.Cells for .NET で Excel グラフを作成する"
+"url": "/ja/net/charts/setting-category-data/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET のAspose.CellsでExcel Chartを作成する
-この例では Excel のワークブックを作成し,サンプルデータで埋め,NET のAspose.Cellsを使用して列表を作成する方法を示しています.ステップバイ・ステップガイドではワークブックを作成し,データを追加し,カテゴリーラベルを設定し,チャートを構成します. Aspose.Cellsは.NET アプリケーションで Excel のファイル作成と操作を自動化するための強力な API を提供し,ダイナミックなチャートをプログラム的に生成することを容易にする.  
+# Aspose.Cells for .NET で Excel グラフを作成する
+この例では、Aspose.Cells for .NET を使用して Excel ブックを作成し、サンプルデータを入力して縦棒グラフを生成する方法を説明します。このステップバイステップガイドでは、ブックの作成、データの追加、カテゴリラベルの設定、グラフの設定について説明しています。Aspose.Cells は、.NET アプリケーションでの Excel ファイルの作成と操作を自動化する強力な API を提供し、プログラムで動的なグラフを簡単に生成できます。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/setting-category-data" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
+## インストール手順  
 
-.NET のAspose.Cellsを使用するには,次の手順を実行してください.  
+Aspose.Cells for .NET を使用するには、次の手順に従います。  
 
-1. NuGet パッケージ管理者によるインストール:  
-   * Visual Studioで .NET プロジェクトを開く  
-   * ツール → NuGet パッケージ管理者 → ソリューションのための NuGet パッケージ管理へ  
-   * Aspose.Cellsを検索して最新バージョンをインストールします  
+1. NuGet パッケージ マネージャー経由でインストールします。  
+   - Visual Studio で .NET プロジェクトを開きます。  
+   - [ツール] → [NuGet パッケージ マネージャー] → [ソリューションの NuGet パッケージの管理] に移動します。  
+   - Aspose.Cells を検索し、最新バージョンをインストールします。  
 
-   代替的に,パッケージ管理コンソールを使用してインストールしてください.  
+   または、パッケージ マネージャー コンソールを使用してインストールします。  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. Aspose ウェブサイトからダウンロードする:  
-   * ダウンロードページをご覧ください[Aspose.Cellsは .NET](https://releases.aspose.com/cells/net/)  
-   * プロジェクトにDLLをダウンロードして参照を追加します  
+2. Aspose Web サイトからダウンロード:  
+   - 公式ダウンロードページにアクセスしてください: [Aspose.Cells .NET 版](https://releases.aspose.com/cells/net/)  
+   - DLL をダウンロードし、プロジェクトに参照を追加します。  
 
-3. 申請許可 (オプション):  
-   * 免許を取得する[購入を目標に](https://purchase.aspose.com/buy)申請する[派遣許可証](https://purchase.aspose.com/temporary-license/)やってくれ  
-   * ライセンスコードで申請してください  
+3. ライセンスの適用（オプション）:  
+   - ライセンスを取得する [Aspose 購入](https://purchase.aspose.com/buy) またはリクエスト [一時ライセンス](https://purchase。aspose.com/temporary-license/).  
+   - コードにライセンスを適用します。  
      ```csharp
      Aspose.Cells.License license = new Aspose.Cells.License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

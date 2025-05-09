@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ public class Main {
         // Aspose.Cells를 사용하여 Excel 파일 로드
         Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
         
-        // 여기에 코드 논리가 있습니다...
+        // 여기에 코드 로직이 있습니다...
     }
 }
 ```
@@ -113,7 +115,7 @@ public class PivotTableExample {
         // 워크시트에서 첫 번째 피벗 테이블에 액세스합니다.
         PivotTable pivotTable = worksheet.getPivotTables().get(0);
 
-        // 추가적인 맞춤 코드...
+        // 추가적인 사용자 정의 코드...
     }
 }
 ```
@@ -181,7 +183,7 @@ Aspose.Cells를 사용할 때 최적의 성능을 위해 다음 사항을 고려
 
 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 통합 문서를 로드하고, 피벗 테이블에 액세스하고, 데이터 영역에 필드를 추가하고, 총합계를 구성하고, Null 값을 처리하고, 레이아웃 순서를 설정하는 방법을 살펴보았습니다. 이러한 기술을 활용하면 동적이고 사용자 지정 가능한 보고서를 쉽게 만들 수 있습니다.
 
-Aspose.Cells의 기능을 계속 탐색하려면 차트 조작이나 고급 Excel 수식 처리와 같은 다른 기능도 살펴보세요.
+Aspose.Cells의 기능을 계속 살펴보려면 차트 조작이나 고급 Excel 수식 처리와 같은 다른 기능도 살펴보세요.
 
 ## FAQ 섹션
 
@@ -194,7 +196,7 @@ A2: 네, Aspose.Cells for Java는 Microsoft Excel과 독립적으로 작동하�
 **질문 3: Aspose.Cells에 사용할 수 있는 라이선스 옵션은 무엇입니까?**
 A3: 30일 무료 체험판 라이선스로 시작하실 수 있습니다. 연장하려면 임시 라이선스를 신청하거나 구독을 구매하세요.
 
-**질문 4: Aspose.Cells를 사용하여 Java에서 대용량 데이터 세트를 효율적으로 처리하려면 어떻게 해야 하나요?**
+**Q4: Aspose.Cells를 사용하여 Java에서 대용량 데이터 세트를 효율적으로 처리하려면 어떻게 해야 하나요?**
 A4: 대용량 Excel 파일을 작업할 때 원활한 성능을 보장하기 위해 데이터 구조를 최적화하고 메모리를 효과적으로 관리하는 등의 모범 사례를 구현합니다.
 
 **질문 5: Java에서 Aspose.Cells를 사용하는 데 대한 추가 리소스는 어디에서 찾을 수 있나요?**
@@ -212,6 +214,9 @@ A5: 방문하세요 [Aspose.Cells 문서](https://reference.aspose.com/cells/jav
 즐거운 코딩을 하시고, Aspose.Cells for Java를 통해 더욱 다양한 기능을 탐험해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

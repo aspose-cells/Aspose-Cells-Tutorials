@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells kullanarak Çalışma Kitabında Önde Gelen Kesme İşaretine İzin Verme
-linktitle: Aspose.Cells kullanarak Çalışma Kitabında Önde Gelen Kesme İşaretine İzin Verme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de önde gelen kesme işaretlerine nasıl izin vereceğinizi öğrenin. Kod örnekleri, ipuçları ve SSS içeren basit eğitim.
-weight: 15
-url: /tr/net/workbook-operations/allow-leading-apostrophe/
+"description": "Aspose.Cells for .NET kullanarak Excel'de önde gelen kesme işaretlerine nasıl izin vereceğinizi öğrenin. Kod örnekleri, ipuçları ve SSS içeren basit eğitim."
+"linktitle": "Aspose.Cells kullanarak Çalışma Kitabında Önde Gelen Kesme İşaretine İzin Verme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells kullanarak Çalışma Kitabında Önde Gelen Kesme İşaretine İzin Verme"
+"url": "/tr/net/workbook-operations/allow-leading-apostrophe/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells kullanarak Çalışma Kitabında Önde Gelen Kesme İşaretine İzin Verme
@@ -18,7 +20,7 @@ Veri yönetimi, geleneksel yöntemlerden, verilerle çalışma şeklimizi kolayl
 ## Ön koşullar
 Bu yolculuğa çıkmadan önce, iyi hazırlandığınızdan emin olalım. İşte araç setinizde olması gerekenler:
 1. Visual Studio: Aspose.Cells işlevlerini uygulamak için C# kodu yazıp çalıştıracağınızdan, bunun sisteminizde yüklü olması çok önemlidir.
-2.  Aspose.Cells for .NET: Bu kütüphaneyi elinizin altında bulundurmak isteyeceksiniz. Buradan indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Bu kütüphaneyi elinizin altında bulundurmak isteyeceksiniz. Buradan indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. C# Temel Bilgisi: C# programlamaya dair biraz bilgi çok işe yarayacaktır. Veri yapılarına aşinaysanız, oyunda zaten öndesiniz.
 4. .NET Framework: Aspose.Cells ile uyumluluğu garantilemek için sisteminizde .NET Framework'ün yüklü olduğundan emin olun.
 ## Paketleri İçe Aktar
@@ -57,24 +59,24 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 ## Adım 3: Bir WorkbookDesigner Nesnesi Oluşturun
- The`WorkbookDesigner` sınıfı, çalışma kitabınızdaki akıllı işaretçileri işlemek için çok önemlidir. Bunu şu şekilde örnekleyebilirsiniz:
+The `WorkbookDesigner` sınıfı, çalışma kitabınızdaki akıllı işaretçileri işlemek için çok önemlidir. Bunu şu şekilde örnekleyebilirsiniz:
 ```csharp
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 ## Adım 4: Çalışma Kitabını Yükleyin
- Şimdi çalışma kitabınızı belirtilen kaynak dizinden yükleme zamanı. Adlı bir Excel dosyanız olduğundan emin olun.`AllowLeadingApostropheSample.xlsx` o dizinde.
+Şimdi çalışma kitabınızı belirtilen kaynak dizinden yükleme zamanı. Adlı bir Excel dosyanız olduğundan emin olun. `AllowLeadingApostropheSample.xlsx` o dizinde.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
+workbook.Ayars.QuotePrefixToStyle = false;
 ```
- Ayar`QuotePrefixToStyle`false değeri öndeki kesme işaretlerinin doğru şekilde işlenmesini sağlar. 
+Setting `QuotePrefixToStyle` false değeri öndeki kesme işaretlerinin doğru şekilde işlenmesini sağlar. 
 ## Adım 5: Çalışma Kitabını Tasarımcıya Ata
- Daha sonra çalışma kitabınızı şuraya bağlamanız gerekir:`WorkbookDesigner` daha önce oluşturduğunuz nesne.
+Daha sonra çalışma kitabınızı şuraya bağlamanız gerekir: `WorkbookDesigner` daha önce oluşturduğunuz nesne.
 ```csharp
 designer.Workbook = workbook;
 ```
 ## Adım 6: Örnek Veri Oluşturun
- İşte sihir burada gerçekleşiyor! Bir liste oluşturacaksınız`DataObject` Örnekler—biri normal isimli, diğeri ise başında kesme işareti olan. 
+İşte sihir burada gerçekleşiyor! Bir liste oluşturacaksınız `DataObject` Örnekler—biri normal isimli, diğeri ise başında kesme işareti olan. 
 ```csharp
 List<DataObject> list = new List<DataObject>
 {
@@ -84,12 +86,12 @@ List<DataObject> list = new List<DataObject>
 ```
 Bu, veri girişlerinizi simüle ederek kütüphanenin öndeki kesme işaretini nasıl işleyeceğini gösterir.
 ## Adım 7: Veri Kaynağını Ayarlayın
- Sonra bu listeyi veri kaynağınız olarak ayarlayın.`WorkbookDesigner`.
+Sonra bu listeyi veri kaynağınız olarak ayarlayın. `WorkbookDesigner`.
 ```csharp
 designer.SetDataSource("sampleData", list);
 ```
 ## Adım 8: Akıllı İşaretleyicileri İşleyin
-Şimdi heyecan verici kısma geliyoruz: Akıllı kalemlerinizi işleyin!
+Şimdi heyecan verici kısma geldik: Akıllı kalemlerinizi işleyin!
 ```csharp
 designer.Process();
 ```
@@ -111,16 +113,18 @@ Bu yeni kazanılan beceriyle, Excel dosyalarınızın bilgileri doğru bir şeki
 ### Aspose.Cells for .NET nedir?  
 Aspose.Cells for .NET, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosyalarını programlı bir şekilde oluşturmak, düzenlemek ve dönüştürmek için tasarlanmış güçlü bir kütüphanedir.
 ### Aspose.Cells'i nasıl indirebilirim?  
- Aspose.Cells for .NET'i şu adresten indirebilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/cells/net/).
+Aspose.Cells for .NET'i şu adresten indirebilirsiniz: [İndirme bağlantısı](https://releases.aspose.com/cells/net/).
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?  
- Kesinlikle! Ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyle başlayabilirsiniz [Burada](https://releases.aspose.com/).
 ### WorkbookDesigner nedir?  
- A`WorkbookDesigner` Aspose.Cells'de veri bağlama için akıllı işaretleyiciler içeren şablon Excel dosyalarıyla çalışmak için kullanılan bir sınıftır.
+A `WorkbookDesigner` Aspose.Cells'de veri bağlama için akıllı işaretleyiciler içeren şablon Excel dosyalarıyla çalışmak için kullanılan bir sınıftır.
 ### Sorularım olursa nereden destek alabilirim?  
- Aspose destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9) Herhangi bir soru veya sorununuzda yardım için.
+Aspose destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/cells/9) Herhangi bir soru veya sorununuzda yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

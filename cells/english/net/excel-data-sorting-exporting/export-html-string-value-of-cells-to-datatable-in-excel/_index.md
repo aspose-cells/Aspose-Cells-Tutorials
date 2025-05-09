@@ -8,7 +8,9 @@ url: /net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-data
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export HTML String Value of Cells to DataTable in Excel
@@ -144,6 +146,7 @@ You can find extensive documentation [here](https://reference.aspose.com/cells/n
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,7 +185,7 @@ Készen állsz arra, hogy Excel automatizálási készségeidet a következő sz
 ## Erőforrás
 
 További kutatásért és részletes információkért:
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -193,6 +195,9 @@ További kutatásért és részletes információkért:
 Ennek az oktatóanyagnak a követésével jó úton haladsz afelé, hogy jártas legyél az Aspose.Cells for Java használatában, és gyerekjátékká tegyél az Excel diagramok kezelését a projektjeidben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

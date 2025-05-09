@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,6 +211,9 @@ Java ve Excel entegrasyon becerilerinizi geliştirmeye hazır mısınız? Bu tek
 - **A4:** Sayıları, metni ve daha fazlasını biçimlendirmek için Aspose.Cells tarafından sağlanan hücre biçimlendirme seçeneklerini kullanın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

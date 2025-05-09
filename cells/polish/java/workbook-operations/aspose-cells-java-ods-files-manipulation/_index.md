@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Podczas pracy z Aspose.Cells w Javie należy wziąć pod uwagę następujące ws
 Opanowałeś już ładowanie i manipulowanie plikami ODS za pomocą Aspose.Cells for Java. Od dostępu do arkuszy kalkulacyjnych po wyodrębnianie szczegółów tła, jesteś wyposażony, aby ulepszyć swoje aplikacje dzięki zaawansowanym możliwościom przetwarzania arkuszy kalkulacyjnych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

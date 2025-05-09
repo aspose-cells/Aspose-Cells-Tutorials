@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ Aspose.Cells का उपयोग करते समय इष्टतम �
 Aspose.Cells क्षमताओं का अन्वेषण जारी रखने के लिए, चार्ट निर्माण, डेटा सत्यापन और अधिक जैसी उन्नत सुविधाओं में गोता लगाने पर विचार करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

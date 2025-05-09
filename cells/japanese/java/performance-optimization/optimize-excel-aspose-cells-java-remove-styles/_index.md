@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,9 +191,12 @@ A5: 訪問 [Asposeの公式ドキュメント](https://reference.aspose.com/cell
 - **購入**ライセンスを取得するには [Aspose 購入](https://purchase。aspose.com/buy).
 - **無料トライアル**無料トライアルで機能をテストする [Aspose 無料トライアル](https://releases。aspose.com/cells/java/).
 - **一時ライセンス**一時ライセンスを申請する [一時ライセンスページ](https://purchase。aspose.com/temporary-license/).
-- **サポート**サポートのためのコミュニティフォーラムに参加する [Asposeフォーラム](https://forum。aspose.com/c/cells/9).
+- **サポート**サポートのためのコミュニティフォーラムに参加してください [Asposeフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

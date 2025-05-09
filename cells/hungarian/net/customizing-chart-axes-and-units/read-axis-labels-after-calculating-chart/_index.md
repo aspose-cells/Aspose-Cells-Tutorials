@@ -1,37 +1,39 @@
 ---
-title: Olvassa el a tengelycímkéket a diagram kiszámítása után
-linktitle: Olvassa el a tengelycímkéket a diagram kiszámítása után
-second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel lehetőségeit az Aspose.Cells for .NET segítségével. Részletes, lépésenkénti útmutatónkban megtudhatja, hogyan olvassa el egyszerűen a diagramtengely-címkéket.
-weight: 11
-url: /hu/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-chart/
+"description": "Engedd szabadjára a benned rejlő lehetőségeket az Aspose.Cells for .NET segítségével. Tanuld meg, hogyan olvashatod el egyszerűen a diagramtengelyek feliratait részletes, lépésről lépésre szóló útmutatónkban."
+"linktitle": "Tengelyfeliratok olvasása a diagram kiszámítása után"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tengelyfeliratok olvasása a diagram kiszámítása után"
+"url": "/hu/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Olvassa el a tengelycímkéket a diagram kiszámítása után
+# Tengelyfeliratok olvasása a diagram kiszámítása után
 
 ## Bevezetés
 
-Amikor Excel-fájlokkal dolgozik .NET-ben, az egyik leghatékonyabb könyvtár az Aspose.Cells. Segítségével könnyedén kezelheti a táblázatokat, akár adatokat olvas, akár diagramokat hoz létre, akár bonyolult számításokat végez. Ebben az oktatóanyagban egy speciális funkcióba merülünk bele: a tengelycímkék beolvasása a diagramból a számítás után. Ha valaha is azon töprengett, hogyan bontsa ki ezeket a címkéket programozottan, akkor jó helyen jár! Lépésről lépésre bontjuk le, minden szükséges részletet megadva az út során.
+Amikor Excel-fájlokkal dolgozol .NET-ben, az egyik leghatékonyabb könyvtár, ami rendelkezésedre áll, az Aspose.Cells. Lehetővé teszi a táblázatok egyszerű kezelését, akár adatokat olvasol, diagramokat hozol létre, akár bonyolult számításokat végzel. Ebben az oktatóanyagban egy konkrét funkcióba merülünk el: a tengelyfeliratok beolvasásába egy diagramból a számítás után. Ha valaha is elgondolkodtál azon, hogyan lehet ezeket a feliratokat programozottan kinyerni, jó helyen jársz! Lépésről lépésre lebontjuk, és minden szükséges részletet megadunk.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kód apró részleteibe, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges:
+Mielőtt belemerülnénk a kód részleteibe, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szükségünk van:
 
-1.  Visual Studio: A Visual Studio telepítve kell legyen a gépére. Ha még nem rendelkezik vele, letöltheti a[Microsoft webhely](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells Library: Ez az útmutató feltételezi, hogy rendelkezik az Aspose.Cells könyvtárral. Könnyen letöltheti innen[Aspose kiadási oldala](https://releases.aspose.com/cells/net/) Ha nem biztos abban, hogy hol kezdje, a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) lehet a legjobb barátod!
-3. Alapvető C# ismerete: A C# programozási nyelv ismerete segít megérteni a példákat, és gond nélkül követni.
-4.  Excel-fájl: Győződjön meg arról, hogy rendelkezik egy Excel-fájllal, amely diagramokat tartalmaz ehhez az oktatóanyaghoz. Létrehozhat egy minta Excel-fájlt, melynek neve`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` tesztelési célokra.
-5. .NET-környezet: Ellenőrizze, hogy a .NET-környezet megfelelően van-e beállítva. Ez az oktatóanyag a .NET keretrendszert célozza meg, ezért győződjön meg róla, hogy készen áll!
+1. Visual Studio: A Visual Studio-nak telepítve kell lennie a gépeden. Ha még nincs telepítve, letöltheted innen: [Microsoft weboldal](https://visualstudio.microsoft.com/).
+2. Aspose.Cells könyvtár: Ez az útmutató feltételezi, hogy rendelkezik az Aspose.Cells könyvtárral. Könnyen letöltheti innen: [Az Aspose kiadási oldala](https://releases.aspose.com/cells/net/)Ha nem biztos benne, hol kezdje, a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) a legjobb barátod lehet!
+3. C# alapismeretek: A C# programozási nyelv ismerete segít megérteni a példákat, és zökkenőmentesen követni a folyamatot.
+4. Excel-fájl: Győződjön meg arról, hogy rendelkezik egy Excel-fájllal, amely diagramokat tartalmaz ehhez az oktatóanyaghoz. Létrehozhat egy nevű minta Excel-fájlt. `sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` tesztelési célokra.
+5. .NET környezet: Ellenőrizd, hogy a .NET környezeted megfelelően van-e beállítva. Ez az oktatóanyag a .NET keretrendszert célozza meg, ezért győződj meg róla, hogy készen állsz a használatra!
 
-Most, hogy megvan minden, amire szükségünk van, kezdjük a beállítással és a kóddal!
+Most, hogy mindenünk megvan, amire szükségünk van, vágjunk bele a beállításokba és a kódba!
 
 ## Csomagok importálása
 
-Mielőtt bármilyen kódot futtathatnánk, importálnunk kell a szükséges csomagokat. Ez egy egyszerű lépés, de kulcsfontosságú. Ehhez a következő névtereket kell felvennie a kódfájl tetejére:
+Mielőtt bármilyen kódot futtathatnánk, importálnunk kell a szükséges csomagokat. Ez egy egyszerű lépés, de kulcsfontosságú. Ehhez a következő névtereket kell hozzáadni a kódfájl elejéhez:
 
 ```csharp
 using System;
@@ -43,70 +45,70 @@ using Aspose.Cells.Charts;
 using System.Collections;
 ```
 
-Íme, mit csinál mindegyik:
+Íme, mit csinálnak mindegyikük:
 - Aspose.Cells: Ez a névtér hozzáférést biztosít az Aspose.Cells könyvtár által biztosított összes funkcióhoz.
-- Rendszer: Alapvető névtér az alapvető C#-funkciókhoz, például a konzolműveletekhez.
--  System.Collections: Ez a névtér olyan gyűjtemények használatához szükséges, mint pl`ArrayList`, amelyet a tengelycímkéink rögzítésére fogunk használni.
+- Rendszer: Alapvető névtér az alapvető C# funkciókhoz, például a konzolműveletekhez.
+- System.Collections: Ez a névtér szükséges olyan gyűjtemények használatához, mint a `ArrayList`, amelyet a tengelycímkék tárolására fogunk használni.
 
-Miután hozzáadta ezeket az importokat, készen áll a kódolás lédús részeire!
+Miután hozzáadtad ezeket az importokat, máris elkezdheted a kódolás izgalmas részeit!
 
-## 1. lépés: Határozza meg a forráskönyvtárat
+## 1. lépés: A forráskönyvtár meghatározása
 
-Először állítsa be a könyvtár elérési útját, ahol az Excel-fájl található. 
+Kezd azzal, hogy beállítod a könyvtár elérési útját, ahol az Excel-fájl található. 
 
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` az Excel fájl tényleges elérési útjával (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) tárolva van. Ez megmondja a programnak, hogy hol találja meg a fájlt.
+Csere `"Your Document Directory"` az Excel-fájl tényleges elérési útjával (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) tárolva van. Ez megmondja a programnak, hogy hol keresse a fájlt.
 
-## 2. lépés: Töltse be a munkafüzetet
+## 2. lépés: A munkafüzet betöltése
 
- Most töltsük be a munkafüzetet (az Excel-fájlt) a`Workbook` osztály.
+Most töltsük be a munkafüzetet (az Excel-fájlt) a következővel: `Workbook` osztály.
 
 ```csharp
-Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
+Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingAChart.xlsx");
 ```
- A`Workbook` osztály az Ön átjárója az Excel fájlhoz. A teljes elérési út megadásával új munkafüzet-példányt hozunk létre, amely az Excel-adatainkat tartalmazza.
+The `Workbook` Az osztály az Excel-fájlhoz vezető átjáró. A teljes elérési út megadásával létrehozunk egy új munkafüzet-példányt, amely az Excel-adatainkat tartalmazza.
 
-## 3. lépés: Nyissa meg az első munkalapot
+## 3. lépés: Az első munkalap elérése
 
-Ezután a munkafüzet első munkalapjához szeretne hozzáférni.
+Ezután a munkafüzet első munkalapját szeretné elérni.
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
- A munkalapok nulla indexeltek, tehát`0` az első lapra vonatkozik. Ez a sor hozzáférést biztosít számunkra az adott munkalap összes cellájához és diagramjához.
+A munkalapok nulla indexűek, tehát `0` az első munkalapra utal. Ez a sor hozzáférést biztosít az adott munkalap összes cellájához és diagramjához.
 
-## 4. lépés: Nyissa meg a diagramot
+## 4. lépés: Hozzáférés a diagramhoz
 
-Most jön a döntő lépés – a diagram elérése.
+Most jön a döntő lépés – maga a diagram elérése.
 
 ```csharp
 Chart ch = ws.Charts[0];
 ```
-Hasonlóképpen, a diagramok is indexelve vannak. Ezzel megkapjuk az első diagramot a munkalapon. Más, különböző indexekkel rendelkező diagramokat is elérhet.
+Hasonlóképpen, a diagramok is indexeltek. Ezzel megkapjuk a munkalap első diagramját. Más, eltérő indexekkel rendelkező diagramokhoz is hozzáférhetünk.
 
 ## 5. lépés: Számítsa ki a diagramot
 
-Mielőtt elolvasná a tengelycímkéket, meg kell győződnie arról, hogy a diagram kiszámítása megtörtént.
+Mielőtt elolvasná a tengelyfeliratokat, meg kell győződnie arról, hogy a diagram kiszámításra került.
 
 ```csharp
 ch.Calculate();
 ```
-A diagram kiszámítása biztosítja, hogy az összes adat és címke a munkalap legfrissebb adatai szerint frissüljön. Ez olyan, mintha újratöltené az akkumulátort használat előtt!
+A diagram kiszámítása biztosítja, hogy minden adat és címke frissüljön a munkalap legfrissebb adatai szerint. Olyan ez, mintha egy akkumulátort újratöltenél használat előtt!
 
-## Olvassa el a tengelycímkéket
+## Tengelycímkék olvasása
 
-## 6. lépés: Nyissa meg a kategóriatengelyt
+## 6. lépés: A kategóriatengely elérése
 
-Most olvassuk le a tengelycímkéket a kategóriatengelyről.
+Most olvassuk le a tengelyfeliratokat a kategóriatengelyről.
 
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
- Itt kihúzzuk a címkéket a kategória tengelyéről, és eltároljuk őket egy`ArrayList`. Ez a lista létfontosságú a címkék ismétléséhez és megjelenítéséhez.
+Itt a kategóriatengelyről húzzuk ki a címkéket, és egy `ArrayList`Ez a lista létfontosságú a címkék végigjátszásához és megjelenítéséhez.
 
-## 7. lépés: Nyomtassa ki a tengelycímkéket a konzolra
+## 7. lépés: Nyomtassa ki a tengelyfeliratokat a konzolra
 
 Végül nyomtassuk ki ezeket a címkéket a konzolra.
 
@@ -114,46 +116,48 @@ Végül nyomtassuk ki ezeket a címkéket a konzolra.
 Console.WriteLine("Category Axis Labels: ");
 Console.WriteLine("---------------------");
 
-// Ismételje meg a tengelycímkéket, és nyomtassa ki őket egyenként
+// Tengelyfeliratok iterálása és egyenkénti nyomtatása
 for (int i = 0; i < lstLabels.Count; i++)
 {
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Ez a részlet először egy címet és egy elválasztó sort ad ki. Ezután végigfutjuk az egyes címkéket a`lstLabels`ArrayList és nyomtassa ki a konzolra. Ha tíz címke van, mindegyiket ott fogja látni!
+Ez a kódrészlet először egy címet és egy elválasztó vonalat ad ki. Ezután végigmegyünk az egyes címkéken a `lstLabels` Írd ki az ArrayList függvényt a konzolra. Ha tíz címke van, akkor mindegyiket ott fogod látni!
 
-## 8. lépés: Utolsó üzenet
+## 8. lépés: Záró üzenet
 
-Ha ezzel végeztünk, adjunk át egy végső sikerüzenetet a felhasználónak.
+Ha készen vagyunk, küldjünk egy végső sikerüzenetet a felhasználónak.
 
 ```csharp
 Console.WriteLine("ReadAxisLabelsAfterCalculatingTheChart executed successfully.");
 ```
-Ez egy barátságos emlékeztető, hogy a folyamat zökkenőmentesen ment!
+Ez egy baráti emlékeztető, hogy a folyamat zökkenőmentesen zajlott!
 
 ## Következtetés
 
-És itt van – egy teljes útmutató a kategóriatengely-címkék kiolvasásához egy Excel-fájlban lévő diagramról az Aspose.Cells könyvtár segítségével a .NET-hez. Elég egyértelmű, igaz? Néhány sornyi kóddal fontos információkat húzhat ki a táblázatokból, és zökkenőmentesen integrálhatja azokat alkalmazásaiba.
+És íme, itt van – egy teljes útmutató arról, hogyan olvashatod ki a kategóriatengelyek feliratait egy Excel-fájlban található diagramból az Aspose.Cells .NET-hez készült könyvtár segítségével. Elég egyszerű, ugye? Mindössze néhány sornyi kóddal fontos információkat kinyerhetsz a táblázataidból, és zökkenőmentesen integrálhatod azokat az alkalmazásaidba.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy hatékony könyvtár az Excel-fájlok kezeléséhez .NET-ben. Különféle funkciókat biztosít, például olvasást, írást és diagramkezelést.
+Az Aspose.Cells egy hatékony függvénykönyvtár Excel fájlok .NET-ben történő kezeléséhez. Különféle funkciókat biztosít, mint például olvasás, írás és diagramkezelés.
 
 ### Használhatom az Aspose.Cells-t ingyenes próbaverzióban?
- Igen! Ingyenes próbaverziót letölthet a webhelyről[itt](https://releases.aspose.com/).
+Igen! Letölthet egy ingyenes próbaverziót innen [itt](https://releases.aspose.com/).
 
 ### Hogyan vásárolhatok Aspose.Cells-t?
- Az Aspose.Cellshez licencet vásárolhat a rajtuk keresztül[vásárlási oldal](https://purchase.aspose.com/buy).
+Az Aspose.Cells licencét a következő webhelyen vásárolhatja meg: [vásárlási oldal](https://purchase.aspose.com/buy).
 
-### Hol találok támogatást az Aspose.Cells számára?
- Támogatásért keresse fel az Aspose fórumot[itt](https://forum.aspose.com/c/cells/9).
+### Hol találok támogatást az Aspose.Cells-hez?
+Segítségért látogassa meg az Aspose fórumot [itt](https://forum.aspose.com/c/cells/9).
 
 ### Kaphatok ideiglenes jogosítványt?
-Igen! Az Aspose ideiglenes licencet kínál, amelyet kérhet[ezt a linket](https://purchase.aspose.com/temporary-license/).
+Igen! Az Aspose ideiglenes licencet kínál, amelyet igényelhet. [ezt a linket](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

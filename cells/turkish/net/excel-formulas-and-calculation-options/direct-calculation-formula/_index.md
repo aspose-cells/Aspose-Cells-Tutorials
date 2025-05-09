@@ -1,14 +1,16 @@
 ---
-title: Excel'de Programatik Olarak Doğrudan Hesaplama Formülü
-linktitle: Excel'de Programatik Olarak Doğrudan Hesaplama Formülü
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Excel hesaplamalarını programatik olarak yürütmek için Aspose.Cells for .NET'i nasıl kullanacağınızı keşfedin. Zahmetsiz Excel işlemleri için adım adım kılavuz.
-weight: 14
-url: /tr/net/excel-formulas-and-calculation-options/direct-calculation-formula/
+"description": "Excel hesaplamalarını programatik olarak yürütmek için Aspose.Cells for .NET'i nasıl kullanacağınızı keşfedin. Zahmetsiz Excel işlemleri için adım adım kılavuz."
+"linktitle": "Excel'de Programatik Olarak Doğrudan Hesaplama Formülü"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Programatik Olarak Doğrudan Hesaplama Formülü"
+"url": "/tr/net/excel-formulas-and-calculation-options/direct-calculation-formula/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Programatik Olarak Doğrudan Hesaplama Formülü
@@ -20,7 +22,7 @@ Koda dalmadan önce, Aspose.Cells ile sorunsuz bir yolculuk deneyimi için her �
 ### .NET yüklü mü?
 Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells for .NET, .NET'in birçok sürümüyle uyumludur, bu nedenle en azından .NET Framework 4.0 veya üzeri bir sürümün kurulu olduğundan emin olun.
 ### Aspose.Cells'i edinin
- Projenizde Aspose.Cells kütüphanesini indirmeniz ve referans vermeniz gerekecektir. Bu, NuGet aracılığıyla veya doğrudan şu adresten indirilerek kolayca yapılabilir:[onların yayın sayfası](https://releases.aspose.com/cells/net/).
+Projenizde Aspose.Cells kütüphanesini indirmeniz ve referans vermeniz gerekecektir. Bu, NuGet aracılığıyla veya doğrudan şu adresten indirilerek kolayca yapılabilir: [onların yayın sayfası](https://releases.aspose.com/cells/net/).
 ### C# Temel Bilgisi
 Kod örneklerimiz C# dilinde olacağından, dilin temellerine aşina olmanız çok önemlidir. Nesne yönelimli programlama kavramlarına aşinalık da yardımcı olacaktır!
 ### Biraz Sabır!
@@ -53,7 +55,7 @@ Bu satır, sayıları ve formülleri boyayacağımız boş tuvalimiz olan yeni b
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Bu ifade, çalışma kitabından ilk çalışma sayfasını alır ve onu özgürce düzenlememize olanak tanır. Çalışma sayfalarını bir not defterindeki ayrı sayfalar gibi düşünün - her biri kendi veri kümesini içerebilir!
+Bu ifade, çalışma kitabından ilk çalışma sayfasını alır ve onu serbestçe düzenlememize olanak tanır. Çalışma sayfalarını bir not defterindeki ayrı sayfalar gibi düşünün - her biri kendi veri kümesini içerebilir!
 ## Adım 4: Hücrelere Değer Ekleme
 Belirli hücrelere, A1 ve A2'ye değerler koyacağız. İşte nasıl:
 ```csharp
@@ -68,7 +70,7 @@ Artık hücrelerimiz sayılarla doldurulduğuna göre, A1 ve A2'nin toplamını 
 ```csharp
 var results = worksheet.CalculateFormula("=Sum(A1:A2)");
 ```
- Burada, şunu çağırıyoruz:`CalculateFormula` girdilerimize dayanarak toplamı hesaplamak. Bu, Excel'den bizim için ağır işi yapmasını istemeye benzer—ne kadar da kullanışlı!
+Burada, şunu çağırıyoruz: `CalculateFormula` girdilerimize dayanarak toplamı hesaplamak. Excel'den bizim için ağır işi yapmasını istemeye benzer—ne kadar da kullanışlı!
 ## Adım 6: Çıktıyı Görüntüleme
 Hesaplamalarımızı görüntülemek için değerleri konsola yazdıracağız:
 ```csharp
@@ -84,16 +86,18 @@ Bu kod, A1 ve A2 hücrelerindeki değerleri hesapladığımız toplamla birlikte
 ### Aspose.Cells for .NET nedir?
 Aspose.Cells for .NET, Excel dosyalarını programlı olarak yönetmek için güçlü bir kütüphanedir ve Excel elektronik tabloları oluşturmanıza, değiştirmenize ve hesaplamanıza olanak tanır.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümüne şu adresten erişebilirsiniz: [Burada](https://releases.aspose.com/).
 ### Excel fonksiyonlarını bilmek gerekli mi?
 Yararlı olsa da, kesinlikle gerekli değildir. Aspose.Cells'i kullanmak Excel işlevlerini programatik olarak işlemenizi sağlar.
 ### Daha fazla dokümanı nerede bulabilirim?
-Kapsamlı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için nasıl destek alabilirim?
- Destek için lütfen bizimle iletişime geçmekten çekinmeyin[destek forumu](https://forum.aspose.com/c/cells/9).
+Destek için lütfen bizimle iletişime geçmekten çekinmeyin [destek forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

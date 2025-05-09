@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Para experimentar o Aspose.Cells, você pode obter uma licença temporária gratuita ou comprá-lo para obter a funcionalidade completa. Siga estes passos:
 
 1. **Teste grátis**: Baixe a biblioteca de [Downloads do Aspose](https://releases.aspose.com/cells/java/).
-2. **Licença Temporária**Solicite uma licença temporária em [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/).
+2. **Licença Temporária**: Solicite uma licença temporária em [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/).
 3. **Comprar**:Para uso de longo prazo, adquira uma licença através de [Aspose Compra](https://purchase.aspose.com/buy).
 
 ### Inicialização e configuração básicas
@@ -199,6 +201,9 @@ Neste tutorial, exploramos como manipular texto dentro de formas no Excel usando
 Experimente essas técnicas e leve suas manipulações de documentos do Excel para o próximo nível usando o Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

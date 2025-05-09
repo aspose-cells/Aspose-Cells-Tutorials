@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ public class RemoveSlicer {
     }
 }
 ```
-- **Đầu ra**: Xác nhận việc loại bỏ máy cắt.
+- **Đầu ra**: Xác nhận việc tháo bỏ máy cắt.
 ### Lưu một tập tin Excel
 **Tổng quan**: Lưu những thay đổi được thực hiện vào bảng tính của bạn ở định dạng XLSX.
 ```java
@@ -185,6 +187,9 @@ Các bước tiếp theo: Triển khai một dự án nhỏ sử dụng các ch�
    - Có, nhưng có giới hạn. Hãy cân nhắc việc xin giấy phép tạm thời hoặc vĩnh viễn để có đầy đủ tính năng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

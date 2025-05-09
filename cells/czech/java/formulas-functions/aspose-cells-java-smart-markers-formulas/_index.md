@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Implementací funkcí popsaných v tomto tutoriálu jste odemkli výkonné možn
 - **Bezplatná zkušební verze a dočasná licence:** Začněte s bezplatnou zkušební verzí nebo si získejte dočasnou licenci na [Bezplatná zkušební verze Aspose](https://releases.aspose.com/cells/java/) a [Dočasná licence](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

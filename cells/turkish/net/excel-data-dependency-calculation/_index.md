@@ -1,14 +1,16 @@
 ---
-title: Excel Veri Bağımlılığı ve Hesaplaması
-linktitle: Excel Veri Bağımlılığı ve Hesaplaması
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Excel otomasyon becerilerinizi geliştirmek için bağımlı hücreleri izleme de dahil olmak üzere Excel veri bağımlılıklarını ve hesaplamalarını kapsayan Aspose.Cells for .NET eğitimlerini keşfedin.
-weight: 34
-url: /tr/net/excel-data-dependency-calculation/
+"description": "Excel otomasyon becerilerinizi geliştirmek için bağımlı hücreleri izleme de dahil olmak üzere Excel veri bağımlılıklarını ve hesaplamalarını kapsayan Aspose.Cells for .NET eğitimlerini keşfedin."
+"linktitle": "Excel Veri Bağımlılığı ve Hesaplaması"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel Veri Bağımlılığı ve Hesaplaması"
+"url": "/tr/net/excel-data-dependency-calculation/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Veri Bağımlılığı ve Hesaplaması
@@ -24,9 +26,11 @@ Belirli bir hücrenin değerine hangi hücrelerin bağımlı olduğunu nasıl ta
 ## Excel Veri Bağımlılığı ve Hesaplama Eğitimleri
 ### [Excel'de Bağımlı Hücreleri İzleme](./tracing-dependent-cells-in-excel/)
 Bu kolay takip edilebilir eğitimle Aspose.Cells for .NET'i kullanarak Excel'de bağımlı hücreleri nasıl izleyeceğinizi öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

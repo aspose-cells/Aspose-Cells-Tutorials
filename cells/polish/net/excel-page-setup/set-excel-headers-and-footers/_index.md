@@ -1,14 +1,16 @@
 ---
-title: Ustaw nagłówki i stopki programu Excel
-linktitle: Ustaw nagłówki i stopki programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak łatwo ustawić nagłówki i stopki w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do profesjonalnych dokumentów.
-weight: 100
-url: /pl/net/excel-page-setup/set-excel-headers-and-footers/
+"description": "Dowiedz się, jak łatwo ustawić nagłówki i stopki w programie Excel za pomocą Aspose.Cells dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne do profesjonalnych dokumentów."
+"linktitle": "Ustaw nagłówki i stopki programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw nagłówki i stopki programu Excel"
+"url": "/pl/net/excel-page-setup/set-excel-headers-and-footers/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw nagłówki i stopki programu Excel
@@ -22,7 +24,7 @@ Jeśli chodzi o zarządzanie dokumentami arkusza kalkulacyjnego, nagłówki i st
 Zanim przejdziemy do szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć. Po pierwsze, będziesz potrzebować:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To tutaj będziesz pisać i wykonywać swój kod C#.
-2.  Biblioteka Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# jest kluczowa, ponieważ wszystkie przykłady kodu będą napisane w tym języku.
 4. Konfiguracja projektu: Utwórz nowy projekt C# w programie Visual Studio, w którym zaimplementujemy logikę nagłówka/stopki programu Excel.
 
@@ -63,17 +65,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook excel = new Workbook();
 ```
 
- Wyjaśnienie: Tutaj zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, w której chcesz zapisać plik Excel.`Workbook` obiekt stanowi główny punkt wejścia do tworzenia i edycji plików Excela.
+Wyjaśnienie: Tutaj zamień `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, w której chcesz zapisać plik Excel. `Workbook` obiekt stanowi główny punkt wejścia do tworzenia i modyfikowania plików Excela.
 
 ## Krok 2: Uzyskaj odniesienie do PageSetup
 
- Następnie musimy uzyskać dostęp do`PageSetup` właściwość arkusza kalkulacyjnego, w którym chcemy ustawić nagłówki i stopki.
+Następnie musimy uzyskać dostęp do `PageSetup` właściwość arkusza kalkulacyjnego, w którym chcemy ustawić nagłówki i stopki.
 
 ```csharp
 PageSetup pageSetup = excel.Worksheets[0].PageSetup;
 ```
 
- Wyjaśnienie: Uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego (indeks`0` ) naszego skoroszytu.`PageSetup` Klasa udostępnia właściwości i metody umożliwiające dostosowanie wyglądu strony po wydrukowaniu, w tym nagłówków i stopek.
+Wyjaśnienie: Uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego (indeks `0`) naszego skoroszytu. `PageSetup` Klasa udostępnia właściwości i metody umożliwiające dostosowanie wyglądu strony po wydrukowaniu, w tym nagłówków i stopek.
 
 ## Krok 3: Ustaw nagłówek
 
@@ -83,7 +85,7 @@ Teraz zacznijmy ustawiać nagłówek. Zaczniemy od lewej sekcji:
 pageSetup.SetHeader(0, "&A");
 ```
 
- Wyjaśnienie:`SetHeader` Metoda pozwala nam zdefiniować zawartość nagłówka. Tutaj,`&A` oznacza nazwę arkusza kalkulacyjnego, która będzie wyświetlana po lewej stronie nagłówka.
+Wyjaśnienie: `SetHeader` Metoda pozwala nam zdefiniować zawartość nagłówka. Tutaj, `&A` oznacza nazwę arkusza kalkulacyjnego, która będzie wyświetlana po lewej stronie nagłówka.
 
 ## Krok 4: Dostosuj nagłówek centralny
 
@@ -93,7 +95,7 @@ Następnie dostosujemy centralny nagłówek, aby wyświetlał bieżącą datę i
 pageSetup.SetHeader(1, "&\"Times New Roman,Bold\"&D-&T");
 ```
 
- Wyjaśnienie:`&D` I`&T` kody automatycznie zastąpią się bieżącą datą i czasem. Określamy również, że czcionka tego nagłówka powinna być „Times New Roman” i pogrubiona.
+Wyjaśnienie: `&D` I `&T` kody automatycznie zastąpią się bieżącą datą i czasem. Określamy również, że czcionka tego nagłówka powinna być „Times New Roman” i pogrubiona.
 
 ## Krok 5: Ustaw właściwy nagłówek
 
@@ -103,7 +105,7 @@ Ustawmy teraz prawą sekcję nagłówka tak, aby wyświetlała nazwę pliku.
 pageSetup.SetHeader(2, "&\"Times New Roman,Bold\"&12&F");
 ```
 
- Wyjaśnienie: Tutaj,`&F` zostanie zastąpiona nazwą pliku. Używamy tej samej czcionki, której użyliśmy w nagłówku centralnym, aby zachować spójny wygląd.
+Wyjaśnienie: Tutaj, `&F` zostanie zastąpiona nazwą pliku. Używamy tej samej czcionki, której użyliśmy w nagłówku centralnym, aby zachować spójny wygląd.
 
 ## Krok 6: Skonfiguruj stopkę
 
@@ -113,7 +115,7 @@ Teraz, gdy nasze nagłówki wyglądają szykownie, zwróćmy uwagę na stopki. Z
 pageSetup.SetFooter(0, "Hello World! &\"Courier New\"&14 123");
 ```
 
-Wyjaśnienie: W lewej stopce wstawiamy niestandardową wiadomość „Witaj świecie!” wraz z tekstem`123` w innym stylu czcionki — Courier New.
+Wyjaśnienie: W lewej stopce wstawiamy niestandardową wiadomość „Witaj świecie!” wraz z tekstem `123` w innym stylu czcionki — Courier New.
 
 ## Krok 7: Konfiguracja stopki środkowej
 
@@ -123,7 +125,7 @@ Następnie ustawiamy stopkę środkową tak, aby wyświetlała bieżący numer s
 pageSetup.SetFooter(1, "&P");
 ```
 
- Wyjaśnienie:`&P` Kod automatycznie wstawia numer strony na środku stopki — przydatny sposób na śledzenie stron.
+Wyjaśnienie: `&P` Kod automatycznie wstawia numer strony na środku stopki — przydatny sposób na śledzenie stron.
 
 ## Krok 8: Konfiguracja prawej stopki
 
@@ -133,7 +135,7 @@ Aby zakończyć ustawienia stopki, ustawmy prawą stopkę tak, aby pokazywała c
 pageSetup.SetFooter(2, "&N");
 ```
 
- Wyjaśnienie: Tutaj,`&N` zostanie zastąpiona całkowitą liczbą stron. Dodaje profesjonalnego akcentu, zwłaszcza w przypadku dłuższych dokumentów.
+Wyjaśnienie: Tutaj, `&N` zostanie zastąpiona całkowitą liczbą stron. Dodaje profesjonalnego akcentu, zwłaszcza w przypadku dłuższych dokumentów.
 
 ## Krok 9: Zapisz skoroszyt
 
@@ -143,7 +145,7 @@ Gdy wszystko jest już ustawione, wystarczy zapisać skoroszyt, aby zobaczyć ef
 excel.Save(dataDir + "SetHeadersAndFooters_out.xls");
 ```
 
- Wyjaśnienie: Zamień`"SetHeadersAndFooters_out.xls"` z wybraną nazwą pliku. Zapisz skoroszyt i gotowe!
+Wyjaśnienie: Zamień `"SetHeadersAndFooters_out.xls"` z wybraną nazwą pliku. Zapisz skoroszyt i gotowe!
 
 ## Wniosek
 
@@ -155,19 +157,21 @@ masz to! Ustawianie nagłówków i stopek w programie Excel przy użyciu Aspose.
 Aspose.Cells to biblioteka .NET służąca do programowego tworzenia, modyfikowania i renderowania plików Excel.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
 
 ### Czy Aspose.Cells jest zgodny ze starszymi formatami programu Excel?
 Oczywiście! Aspose.Cells obsługuje zarówno stare, jak i nowe formaty plików Excel.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Szczegółową dokumentację można sprawdzić na stronie[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Szczegółową dokumentację można sprawdzić pod adresem [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Aby uzyskać pomoc, odwiedź stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Aby uzyskać pomoc, odwiedź stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

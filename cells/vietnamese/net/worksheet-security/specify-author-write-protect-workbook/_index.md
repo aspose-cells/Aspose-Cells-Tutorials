@@ -1,14 +1,16 @@
 ---
-title: Chỉ định Tác giả khi Viết Bảo vệ Sổ làm việc bằng Aspose.Cells
-linktitle: Chỉ định Tác giả khi Viết Bảo vệ Sổ làm việc bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chỉ định tác giả khi viết bảo vệ sổ làm việc Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
-weight: 26
-url: /vi/net/worksheet-security/specify-author-write-protect-workbook/
+"description": "Tìm hiểu cách chỉ định tác giả khi viết bảo vệ sổ làm việc Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Chỉ định Tác giả khi Viết Bảo vệ Sổ làm việc bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định Tác giả khi Viết Bảo vệ Sổ làm việc bằng Aspose.Cells"
+"url": "/vi/net/worksheet-security/specify-author-write-protect-workbook/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định Tác giả khi Viết Bảo vệ Sổ làm việc bằng Aspose.Cells
@@ -22,7 +24,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số điều kiện ti
 - [Tải xuống Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/)
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn thực hiện hướng dẫn này một cách dễ dàng hơn vì chúng ta sẽ viết các ví dụ mã.
 4. Thiết lập dự án có thể thực thi: Đảm bảo bạn có ứng dụng bảng điều khiển cơ bản hoặc ứng dụng Windows Forms sẵn sàng để thử nghiệm.
-5.  Giấy phép dùng thử (Tùy chọn): Nếu bạn muốn khám phá tất cả các tính năng mà không bị hạn chế, hãy cân nhắc việc xin giấy phép tạm thời từ[Đặt ra](https://purchase.aspose.com/temporary-license/).
+5. Giấy phép dùng thử (Tùy chọn): Nếu bạn muốn khám phá tất cả các tính năng mà không bị hạn chế, hãy cân nhắc việc xin giấy phép tạm thời từ [Đặt ra](https://purchase.aspose.com/temporary-license/).
 Bây giờ bạn đã có mọi thứ rồi, chúng ta hãy tiến lên thôi!
 ## Nhập gói
 Để bắt đầu, chúng ta cần nhập các gói cần thiết cho thư viện Aspose.Cells. Thêm không gian tên sau vào đầu tệp mã của bạn:
@@ -39,19 +41,19 @@ Trong phần này, chúng tôi sẽ chia nhỏ quy trình thành các bước r�
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn lưu trữ tệp của mình. Thiết lập này giúp bạn dễ dàng quản lý vị trí tệp sau này trong quá trình này.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu trữ các tệp của mình. Thiết lập này giúp bạn dễ dàng quản lý vị trí tệp sau này trong quá trình này.
 ## Bước 2: Tạo một Workbook trống
 Bây giờ là lúc tạo một sổ làm việc mới, trống. Sổ làm việc này sẽ đóng vai trò là nền tảng cho dự án của chúng ta.
 ```csharp
 Workbook wb = new Workbook();
 ```
- Khi bạn khởi tạo một`Workbook` đối tượng, bạn đang tạo một tệp Excel mới trong bộ nhớ. Bây giờ bạn có thể bắt đầu thao tác sổ làm việc này khi cần.
+Khi bạn khởi tạo một `Workbook` đối tượng, bạn đang tạo một tệp Excel mới trong bộ nhớ. Bây giờ bạn có thể bắt đầu thao tác sổ làm việc này khi cần.
 ## Bước 3: Viết Bảo vệ Sổ làm việc bằng Mật khẩu
 Để đảm bảo không có thay đổi không mong muốn nào được thực hiện đối với sổ làm việc, chúng tôi sẽ áp dụng bảo vệ ghi bằng mật khẩu. Hãy thiết lập:
 ```csharp
 wb.Settings.WriteProtection.Password = "1234";
 ```
- Trong dòng trên, chúng tôi đang thiết lập mật khẩu thành`"1234"`. Hãy thoải mái chọn mật khẩu mạnh hơn để bảo mật tốt hơn.
+Trong dòng trên, chúng tôi đang thiết lập mật khẩu thành `"1234"`. Hãy thoải mái chọn mật khẩu mạnh hơn để bảo mật tốt hơn.
 ## Bước 4: Chỉ định Tác giả cho Bảo vệ ghi
 Đây là bước mà tất cả chúng ta đang chờ đợi—chỉ định tác giả trong khi bảo vệ tác phẩm! Điều này sẽ tăng thêm một lớp trách nhiệm và tính minh bạch.
 ```csharp
@@ -63,7 +65,7 @@ Bước cuối cùng là lưu những thay đổi của bạn vào một tệp c
 ```csharp
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
- Các`Save` phương pháp này sẽ ghi nhận mọi thay đổi của bạn vào hệ thống tệp, tạo ra một sổ làm việc thực tế mà bạn (hoặc bất kỳ ai có mật khẩu) có thể mở và sử dụng sau này.
+Các `Save` phương pháp này sẽ ghi nhận mọi thay đổi của bạn vào hệ thống tệp, tạo ra một sổ làm việc thực tế mà bạn (hoặc bất kỳ ai có mật khẩu) có thể mở và sử dụng sau này.
 ## Bước 6: Xác nhận thực hiện thành công
 Cuối cùng, hãy luôn xác nhận rằng mã của bạn được thực thi như mong đợi:
 ```csharp
@@ -78,15 +80,17 @@ Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát tr
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
 Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép.
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể yêu cầu giấy phép tạm thời thông qua[Trang web Aspose](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời thông qua [Trang web Aspose](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể sử dụng Aspose.Cells trong bất kỳ ứng dụng .NET nào không?
 Có, Aspose.Cells tương thích với nhiều ứng dụng .NET, bao gồm máy tính để bàn, web và các dự án hướng dịch vụ.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Tài liệu toàn diện có sẵn tại[Hướng dẫn tham khảo Aspose.Cells](https://reference.aspose.com/cells/net/).
+Tài liệu toàn diện có sẵn tại [Hướng dẫn tham khảo Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

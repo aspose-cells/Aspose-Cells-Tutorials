@@ -6,7 +6,9 @@ url: "/net/automation-batch-processing/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Automation & Batch Processing
@@ -197,7 +199,11 @@ A code tutorial for Aspose.Cells Net
 
 ### [Set Up Directories and Create Workbooks with Aspose.Cells .NET](./set-up-directories-create-workbooks-aspose-cells-dotnet)
 A code tutorial for Aspose.Cells Net
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

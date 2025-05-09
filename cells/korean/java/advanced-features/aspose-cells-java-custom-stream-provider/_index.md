@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Aspose.Cells와 Java를 사용하여 사용자 지정 스트림 공급자를 구현하는 방법을 알아보세요. 연결된 이미지와 외부 리소스를 효율적으로 관리하여 Excel 통합 문서를 더욱 효과적으로 활용하세요."
-"title": "Aspose.Cells Java 마스터하기&#58; Excel 통합 문서에 대한 사용자 지정 스트림 공급자 구현"
+"title": "Aspose.Cells Java 마스터링 & Excel 통합 문서용 사용자 지정 스트림 공급자 구현"
 "url": "/ko/java/advanced-features/aspose-cells-java-custom-stream-provider/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Aspose.Cells는 강력하지만, 리소스가 매우 많으면 성능이 달라�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

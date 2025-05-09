@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Quản lý dữ liệu phức tạp trong Excel hiệu quả thường liên quan đến việc hợp nhất các ô để tăng khả năng đọc và tổ chức. Tuy nhiên, xử lý không đúng cách có thể dẫn đến các thách thức về định dạng và kém hiệu quả. **Thư viện Aspose.Cells cho Java** đơn giản hóa nhiệm vụ này bằng cách cho phép hợp nhất ô liền mạch mà không ảnh hưởng đến trải nghiệm của người dùng.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng **Aspose.Cells cho Java** để tối ưu hóa các trang tính Excel của bạn bằng các ô được hợp nhất. Bạn sẽ học cách khởi tạo sổ làm việc, truy cập trang tính, tạo và quản lý các phạm vi ô, áp dụng kiểu, tự động điều chỉnh các hàng và lưu các thay đổi của bạn một cách hiệu quả.
+Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng **Aspose.Cells cho Java** để tối ưu hóa các trang tính Excel của bạn với các ô được hợp nhất. Bạn sẽ học cách khởi tạo sổ làm việc, truy cập trang tính, tạo và quản lý các phạm vi ô, áp dụng kiểu, tự động điều chỉnh các hàng và lưu các thay đổi của bạn một cách hiệu quả.
 
 ### Những gì bạn sẽ học được
 - Tạo một sổ làm việc mới bằng Aspose.Cells
@@ -211,6 +213,9 @@ Khám phá thêm các chức năng của Aspose.Cells bằng cách tìm hiểu t
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

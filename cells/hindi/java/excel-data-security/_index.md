@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल डेटा सुरक्षा
@@ -40,9 +42,11 @@ Java के लिए Aspose.Cells का उपयोग करके प्र
 Aspose.Cells for Java API का उपयोग करके फ़ाइल एक्सेस का ऑडिट करना सीखें। स्रोत कोड और FAQ के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [सुरक्षा के लिए डेटा सत्यापन](./data-validation-for-security/)
 जावा के लिए Aspose.Cells के साथ डेटा सुरक्षा को बेहतर बनाएँ। व्यापक डेटा सत्यापन तकनीकों का अन्वेषण करें। जानें कि मज़बूत सत्यापन और सुरक्षा को कैसे लागू किया जाए।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

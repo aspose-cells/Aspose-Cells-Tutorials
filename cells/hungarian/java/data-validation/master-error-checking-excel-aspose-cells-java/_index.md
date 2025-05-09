@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ Készségeid további fejlesztéséhez fedezd fel az Aspose.Cells további funkc
 ## GYIK szekció
 
 **1. kérdés: Hogyan kezelhetem a különböző típusú hibákat az Excelben Java használatával?**
-A1: Konfigurálja az Aspose.Cells fájlban elérhető különféle hibaellenőrzési beállításokat az adatinkonzisztenciák kezelésére.
+A1: Konfigurálja az Aspose.Cells-ben elérhető különféle hibaellenőrzési beállításokat az adatinkonzisztenciák kezelésére.
 
 **2. kérdés: Alkalmazhatok hibaellenőrzést adott tartományokra a teljes munkalapok helyett?**
 A2: Igen, adjon meg bármilyen cellatartományt a hibaellenőrzések alkalmazásához a következővel: `CellArea`.
@@ -167,7 +169,7 @@ A2: Igen, adjon meg bármilyen cellatartományt a hibaellenőrzések alkalmazás
 A3: Győződjön meg arról, hogy a kimeneti útvonal helyes, és hívja a `save()` módszer a módosítások után.
 
 **4. kérdés: Hogyan telepíthetem az Aspose.Cells-t egy nem Maven/Gradle projektre?**
-A4: Töltsd le a JAR fájlt az Aspose weboldaláról, és manuálisan illeszd be a projekted osztályútvonalába.
+A4: Töltsd le a JAR fájlt az Aspose weboldaláról, és illeszd be manuálisan a projekted osztályútvonalába.
 
 **5. kérdés: Van-e támogatás az .xls formátumtól eltérő Excel-fájlokhoz?**
 V5: Igen, az Aspose.Cells több formátumot is támogat, beleértve az XLSX-et, a CSV-t és egyebeket.
@@ -184,6 +186,9 @@ Böngészd át ezeket az anyagokat, hogy elmélyítsd az Aspose.Cells for Java i
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

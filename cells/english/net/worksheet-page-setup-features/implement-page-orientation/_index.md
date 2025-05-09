@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-page-orientation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Page Orientation in Worksheet
@@ -86,6 +88,7 @@ You can find comprehensive documentation for Aspose.Cells [here](https://referen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

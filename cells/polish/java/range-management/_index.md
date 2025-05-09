@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,13 +88,16 @@ Dowiedz się, jak skutecznie rozdzielić komórki w plikach Excela za pomocą As
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells dla API Java Odniesienie](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/)
 - [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

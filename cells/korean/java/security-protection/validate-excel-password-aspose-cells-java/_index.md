@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ fstream.close();
 Aspose.Cells를 사용하는 동안 최적의 성능을 보장하려면:
 
 - **리소스 사용 최적화**: 사용 후 스트림을 닫고 리소스를 즉시 해제합니다.
-- **메모리 관리**: 특히 대용량 파일을 처리할 때 누수를 방지하려면 Java 메모리 관리 관행을 염두에 두십시오.
+- **메모리 관리**: 특히 대용량 파일을 처리할 때 누수를 방지하려면 Java 메모리 관리 관행을 주의 깊게 살펴보세요.
 - **일괄 처리**: 여러 파일을 처리할 때 오버헤드를 최소화하기 위해 일괄 처리 기술을 고려하세요.
 
 ## 결론
@@ -183,6 +185,9 @@ A5: 방문하세요 [Aspose.Cells 문서](https://reference.aspose.com/cells/jav
 다음 리소스를 탐색하여 Java 프로젝트에서 Aspose.Cells에 대한 이해를 높이고 구현을 개선해 보세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

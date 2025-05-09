@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Tanuld meg, hogyan alakíthatsz statikus képeket kattintható hiperhivatkozáso
 Ismerje meg, hogyan használható az Aspose.Cells for Java szeletelők hozzáadásához Excel-munkafüzetekben, ezáltal javítva az adatszűrést és -elemzést.
 
 ### [Aspose.Cells Java elsajátítása: Egyéni adatfolyam-szolgáltató megvalósítása Excel-munkafüzetekhez](./aspose-cells-java-custom-stream-provider/)
-Ismerd meg, hogyan implementálhatsz egyéni adatfolyam-szolgáltatót Aspose.Cells használatával Java nyelven. Fejleszd Excel-munkafüzeteidet a csatolt képek és külső erőforrások hatékony kezelésével.
+Ismerd meg, hogyan valósíthatsz meg egyéni adatfolyam-szolgáltatót Aspose.Cells használatával Java nyelven. Fejleszd Excel-munkafüzeteidet a csatolt képek és külső erőforrások hatékony kezelésével.
 
 ### [Aspose.Cells mesterprogram Java-hoz: Excel-adatkapcsolatok betöltése és webes lekérdezések elérése](./aspose-cells-java-excel-data-connections/)
 Ismerje meg, hogyan tölthet be hatékonyan Excel adatkapcsolatokat az Aspose.Cells for Java használatával, hogyan férhet hozzá webes lekérdezésekhez, és hogyan fejlesztheti Java alkalmazásait.
@@ -54,7 +56,7 @@ Tanuld meg, hogyan szabhatod testre a szeletelő tulajdonságait Excelben az Asp
 ### [Hogyan lehet rejtett külső linkeket észlelni az Excel-munkafüzetekben az Aspose.Cells Java használatával](./detect-hidden-external-links-excel-aspose-cells-java/)
 Tanulja meg, hogyan azonosíthatja és kezelheti a rejtett külső hivatkozásokat Excelben az Aspose.Cells for Java segítségével. Biztosítsa az adatok átláthatóságát és integritását lépésről lépésre bemutató útmutatónkkal.
 
-### [Hivatkozások szerkesztésének mesteri elsajátítása Excel-táblázatokban Aspose.Cells Java használatával](./edit-excel-hyperlinks-aspose-cells-java/)
+### [Hivatkozások szerkesztésének mesteri elsajátítása Excel táblázatokban Aspose.Cells Java használatával](./edit-excel-hyperlinks-aspose-cells-java/)
 Ismerje meg, hogyan szerkesztheti hatékonyan a hiperhivatkozásokat Excel-fájlokban az Aspose.Cells for Java segítségével. Ez az útmutató részletes kódpéldákkal ismerteti a munkafüzetek betöltését, módosítását és mentését.
 
 ### [Külső Excel-hivatkozások elsajátítása az Aspose.Cells segítségével Java-ban: Átfogó útmutató](./excel-external-links-aspose-cells-java-guide/)
@@ -85,7 +87,7 @@ Ismerje meg, hogyan automatizálhatja a szeletelőfrissítéseket Excel-fájlokb
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -93,6 +95,9 @@ Ismerje meg, hogyan automatizálhatja a szeletelőfrissítéseket Excel-fájlokb
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

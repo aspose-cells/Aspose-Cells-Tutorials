@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Hướng dẫn mã cho Aspose.Words Java
 ### [Cách tạo và xuất Excel sang HTML bằng Aspose.Cells Java | Hướng dẫn thao tác sổ làm việc](./aspose-cells-java-excel-html-export/)
 Tìm hiểu cách sử dụng Aspose.Cells for Java để tạo sổ làm việc Excel từ đầu, điền dữ liệu vào và xuất dưới dạng tệp HTML. Hướng dẫn từng bước này bao gồm mọi thứ bạn cần.
 
-### [Hướng dẫn sử dụng Java của Aspose.Cells: Làm chủ thao tác bảng tính Excel](./aspose-cells-java-excel-manipulation-guide/)
+### [Hướng dẫn Java Aspose.Cells: Làm chủ thao tác bảng tính Excel](./aspose-cells-java-excel-manipulation-guide/)
 Tìm hiểu cách thao tác sổ làm việc Excel trong Java bằng Aspose.Cells. Hướng dẫn này bao gồm khởi tạo sổ làm việc, thêm trang tính và hình ảnh, thiết lập vị trí hình ảnh và lưu tệp hiệu quả.
 
 ### [Cách tải và lưu Excel dưới dạng Markdown bằng Aspose.Cells cho Java](./aspose-cells-java-excel-to-markdown/)
@@ -486,6 +488,9 @@ Tìm hiểu cách thiết lập và quản lý các thuộc tính tài liệu nh
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

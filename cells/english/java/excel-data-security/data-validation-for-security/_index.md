@@ -8,7 +8,9 @@ url: /java/excel-data-security/data-validation-for-security/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Validation for Security
@@ -156,6 +158,7 @@ Advanced techniques include cascading drop-down lists and using formulas for val
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

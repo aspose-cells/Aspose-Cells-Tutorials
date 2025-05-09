@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ Crear y configurar `PdfSaveOptions` Para conversión de PDF personalizada:
 ```java
 import com.aspose.cells.PdfSaveOptions;
 
-// Crear PdfSaveOptions para opciones de guardado personalizadas
+// Cree PdfSaveOptions para opciones de guardado personalizadas
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // Configurar una devolución de llamada personalizada para guardar páginas en la conversión de PDF
@@ -194,6 +196,9 @@ Siguiendo esta guía, ha aprendido a aprovechar Aspose.Cells Java para optimizar
 - **Prueba gratuita y licencia temporal:** Explore las funciones con una prueba gratuita o solicite una licencia temporal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

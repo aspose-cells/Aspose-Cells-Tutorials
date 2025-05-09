@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 建立自訂資料驗證
@@ -28,7 +30,7 @@
 
 首先，在您首選的整合開發環境 (IDE) 中建立一個新的 Java 專案。將 Aspose.Cells for Java 函式庫新增至專案的類別路徑。
 
-## 步驟2：建立Excel工作簿
+## 步驟 2：建立 Excel 工作簿
 
 讓我們先使用 Aspose.Cells for Java 建立一個新的 Excel 工作簿。
 
@@ -116,6 +118,7 @@ workbook.save("CustomDataValidation.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

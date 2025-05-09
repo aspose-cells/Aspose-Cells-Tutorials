@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@ Creare subtotali in una cartella di lavoro di Excel è fondamentale per riassume
 
 ## Cosa imparerai
 - Impostazione di Aspose.Cells per Java nel tuo progetto
-- Istruzioni dettagliate per la creazione di subtotali in un foglio Excel
+- Istruzioni dettagliate per creare subtotali in un foglio Excel
 - Casi pratici di utilizzo per l'implementazione di questa funzionalità
 - Suggerimenti sulle prestazioni e best practice quando si utilizza Aspose.Cells
 
@@ -154,6 +156,9 @@ R: Sì, supporta un'ampia gamma di formati Excel, inclusi XLS e XLSX.
 Seguendo questa guida, dovresti essere pronto a integrare funzionalità di subtotale nelle tue applicazioni Java utilizzando Aspose.Cells. Buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

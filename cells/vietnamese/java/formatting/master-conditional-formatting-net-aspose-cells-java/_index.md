@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Chúng ta hãy bắt đầu bằng cách tìm hiểu các điều kiện tiên q
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo rằng bạn có những điều sau:
 
-1. **Thư viện bắt buộc:**
+1. **Thư viện cần thiết:**
    - Aspose.Cells cho Java phiên bản 25.3 trở lên
    - Môi trường phát triển Java cơ bản (JDK, IDE như IntelliJ IDEA, Eclipse)
 
@@ -206,6 +208,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tận dụng Aspose
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Defina o diretório onde você deseja salvar seus arquivos de saída.
 String outDir = "YOUR_OUTPUT_DIRECTORY/";
 ```
 
-#### Etapa 2: Salvar no formato desejado
+#### Etapa 2: salvar no formato desejado
 Use o `save()` método do `Workbook` classe, especificando o formato desejado usando `SaveFormat`.
 
 ```java
@@ -174,7 +176,7 @@ workbook.save(outDir + "OpeningExistingFile_out.ods", SaveFormat.ODS);
 
 Para garantir o desempenho ideal ao usar Aspose.Cells em Java:
 
-- **Otimize o uso da memória**: Gerencie a memória com eficiência, especialmente ao trabalhar com arquivos grandes do Excel.
+- **Otimizar o uso da memória**: Gerencie a memória com eficiência, especialmente ao trabalhar com arquivos grandes do Excel.
 - **Utilizar Streams**: Use APIs de streaming para manipular dados de forma mais eficiente.
 - **Melhores Práticas**: Siga as melhores práticas para lidar com operações de E/S e gerenciar recursos.
 
@@ -217,6 +219,9 @@ Agora você aprendeu a configurar o Aspose.Cells em Java, abrir e modificar arqu
 Seguindo este guia, você estará bem equipado para aproveitar o Aspose.Cells em seus aplicativos Java para uma automação robusta do Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

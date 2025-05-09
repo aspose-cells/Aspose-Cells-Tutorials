@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Java에서 Aspose.Cells와 함께 LightCellsDataHandler를 사용하여 대용량 Excel 파일을 효율적으로 처리하는 방법을 알아보세요. 성능을 최적화하고 메모리 사용량을 줄이는 방법도 알아보세요."
-"title": "Aspose.Cells를 사용하여 Java에서 LightCellsDataHandler를 구현하여 Excel 파일 최적화하는 방법"
+"title": "Aspose.Cells를 사용하여 Java에서 Excel 파일 최적화를 위한 LightCellsDataHandler 구현 방법"
 "url": "/ko/java/performance-optimization/implement-lightcellsdatahandler-java-aspose-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ public boolean processCell(Cell cell) {
 이 가이드를 따라 하면 Aspose.Cells를 사용하여 Java에서 Excel 파일을 처리하는 방법을 마스터하는 데 큰 도움이 될 것입니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

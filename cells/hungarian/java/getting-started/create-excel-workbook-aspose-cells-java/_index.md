@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Tanuld meg, hogyan hozhatsz létre és tölthetsz fel Excel-munkafüzeteket egyéni adatokkal az Aspose.Cells for Java használatával. Hatékonyan egyszerűsítheted a munkafolyamataidat."
+"description": "Ismerje meg, hogyan hozhat létre és tölthet fel Excel-munkafüzeteket egyéni adatokkal az Aspose.Cells for Java használatával. Hatékonyan korszerűsítheti munkafolyamatait."
 "title": "Excel-munkafüzet létrehozása az Aspose.Cells használatával Java-ban – lépésről lépésre útmutató"
 "url": "/hu/java/getting-started/create-excel-workbook-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Kezdjük az előfeltételek áttekintésével, mielőtt belevágnánk a kódolá
 ### Előfeltételek
 
 #### Szükséges könyvtárak és függőségek
-folytatáshoz a következőkre lesz szükséged:
+A folytatáshoz a következőkre lesz szükséged:
 - **Java fejlesztőkészlet (JDK)**: 8-as vagy újabb verzió.
 - **Aspose.Cells Java-hoz**Győződjön meg róla, hogy telepítve van a 25.3-as verzió Maven vagy Gradle segítségével.
 
@@ -198,6 +200,9 @@ Az útmutató követésével egy robusztus megoldást kapsz Excel-munkafüzetek 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

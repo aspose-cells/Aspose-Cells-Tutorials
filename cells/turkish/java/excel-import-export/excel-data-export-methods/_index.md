@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Veri Dışa Aktarma Yöntemleri
@@ -24,7 +26,7 @@ Excel, veri yönetimi için güçlü bir araçtır ve Aspose.Cells for Java, pro
 
 Aspose.Cells for Java, Java geliştiricilerinin Excel dosyalarıyla zahmetsizce çalışmasını sağlayan çok yönlü bir kütüphanedir. Kapsamlı API'si ve özellikleri onu veriyle ilgili görevler için değerli bir varlık haline getirir.
 
-## Java için Aspose.Cells'e Başlarken
+## Java için Aspose.Cells ile Başlarken
 
 Pratik örneklere dalmadan önce, Aspose.Cells'i Java için kuralım ve potansiyelinden yararlanmaya hazırlanalım.
 
@@ -190,6 +192,7 @@ Artık pratik bilgi ve kaynak kodu örnekleriyle donatılmış olarak, Aspose.Ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

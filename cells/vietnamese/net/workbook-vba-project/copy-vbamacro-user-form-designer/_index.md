@@ -1,26 +1,28 @@
 ---
-title: Sao chép VBAMacro User Form Designer Storage vào Workbook bằng Aspose.Cells
-linktitle: Sao chép VBAMacro User Form Designer Storage vào Workbook bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sao chép VBA Macro User Form Designer hiệu quả trong Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện của chúng tôi! Mở khóa tiềm năng của Excel.
-weight: 11
-url: /vi/net/workbook-vba-project/copy-vbamacro-user-form-designer/
+"description": "Tìm hiểu cách sao chép VBA Macro User Form Designer hiệu quả trong Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện của chúng tôi! Mở khóa tiềm năng của Excel."
+"linktitle": "Sao chép VBAMacro User Form Designer Storage vào Workbook bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sao chép VBAMacro User Form Designer Storage vào Workbook bằng Aspose.Cells"
+"url": "/vi/net/workbook-vba-project/copy-vbamacro-user-form-designer/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép VBAMacro User Form Designer Storage vào Workbook bằng Aspose.Cells
 
 ## Giới thiệu
-Chào mừng! Nếu bạn đang muốn nâng cao trải nghiệm Excel của mình bằng macro VBA và biểu mẫu người dùng, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách bạn có thể sao chép liền mạch Macro VBA UserForm Designer từ sổ làm việc này sang sổ làm việc khác bằng Aspose.Cells for .NET. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, chúng tôi sẽ hướng dẫn bạn từng bước quan trọng. Hãy coi đây là cẩm nang của bạn để thành thạo nghệ thuật xử lý các tệp Excel theo chương trình. Sẵn sàng để bắt đầu chưa? Bắt đầu thôi!
+Chào mừng! Nếu bạn đang muốn nâng cao trải nghiệm Excel của mình với macro VBA và biểu mẫu người dùng, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng tôi sẽ đi sâu vào cách bạn có thể sao chép liền mạch Macro VBA UserForm Designer từ sổ làm việc này sang sổ làm việc khác bằng Aspose.Cells for .NET. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, chúng tôi sẽ hướng dẫn bạn từng bước quan trọng. Hãy coi đây là cẩm nang của bạn để thành thạo nghệ thuật xử lý các tệp Excel theo chương trình. Sẵn sàng để bắt đầu chưa? Bắt đầu thôi!
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 1. Môi trường phát triển C#: Bạn nên có một môi trường làm việc sẵn sàng cho việc phát triển C#. Visual Studio được khuyến khích sử dụng.
-2.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã tích hợp thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã tích hợp thư viện Aspose.Cells vào dự án của mình. Bạn có thể dễ dàng [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về VBA và Macro Excel: Hiểu rõ về VBA và cách thức hoạt động của macro Excel sẽ giúp bạn dễ dàng thực hiện hướng dẫn này.
-4. Tệp Excel có Biểu mẫu Người dùng: Để thử nghiệm, hãy tạo hoặc lấy một sổ làm việc Excel có chứa Biểu mẫu Người dùng, tốt nhất là có bật macro (như`.xlsm` tập tin).
+4. Tệp Excel có Biểu mẫu Người dùng: Để thử nghiệm, hãy tạo hoặc lấy một sổ làm việc Excel có chứa Biểu mẫu Người dùng, tốt nhất là có bật macro (như `.xlsm` tập tin).
 ## Nhập gói
 Trong dự án C# của bạn, bạn sẽ cần nhập một số không gian tên nhất định ở đầu tệp của mình để sử dụng các chức năng của Aspose.Cells. Sau đây là cách thực hiện:
 ```csharp
@@ -40,7 +42,7 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Ở đây, thay thế`"Your Document Directory"` với đường dẫn thực tế nơi các tệp của bạn được lưu trữ. Đây là nơi sổ làm việc nguồn của chúng tôi (có UserForm) sẽ được lấy từ đó và nơi sổ làm việc mới sẽ được lưu.
+Ở đây, thay thế `"Your Document Directory"` với đường dẫn thực tế nơi các tệp của bạn được lưu trữ. Đây là nơi sổ làm việc nguồn của chúng tôi (có UserForm) sẽ được lấy từ đó và nơi sổ làm việc mới sẽ được lưu.
 ## Bước 2: Tạo một Workbook mục tiêu trống
 Tiếp theo, hãy tạo bảng tính mục tiêu để sao chép biểu mẫu người dùng và macro:
 ```csharp
@@ -54,7 +56,7 @@ Chúng ta cần tải lên bảng tính có chứa biểu mẫu người dùng v
 // Tải tệp Excel có chứa VBA-Macro Designer User Form
 Workbook templateFile = new Workbook(sourceDir + "sampleDesignerForm.xlsm");
 ```
- Hãy chắc chắn để thay đổi`"sampleDesignerForm.xlsm"` vào tên tệp thực tế của bạn. Sổ làm việc này giống như sổ công thức nấu ăn của bạn—đó là thứ chúng ta sẽ lấy nguyên liệu từ đó!
+Hãy chắc chắn để thay đổi `"sampleDesignerForm.xlsm"` vào tên tệp thực tế của bạn. Sổ tay làm việc này giống như sổ công thức nấu ăn của bạn—đó là thứ chúng ta sẽ lấy nguyên liệu từ đó!
 ## Bước 4: Sao chép các trang tính vào sổ làm việc đích
 Bây giờ, chúng ta hãy bắt đầu sao chép các bảng tính từ mẫu của mình sang bảng tính đích:
 ```csharp
@@ -127,16 +129,18 @@ Xin chúc mừng! Bạn đã hoàn thành hướng dẫn từng bước để sa
 ### Aspose.Cells hỗ trợ những phiên bản Excel nào?
 Aspose.Cells hỗ trợ nhiều định dạng Excel bao gồm XLSX, XLSM, CSV, v.v.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Bạn có thể bắt đầu bằng bản dùng thử miễn phí, cho phép bạn đánh giá thư viện:[Dùng thử miễn phí](https://releases.aspose.com/).
+Có! Bạn có thể bắt đầu bằng bản dùng thử miễn phí, cho phép bạn đánh giá thư viện: [Dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có cần Visual Studio để chạy mã này không?
 Mặc dù được khuyến khích sử dụng vì các tính năng thân thiện với người dùng, bất kỳ IDE C# nào cũng có thể sử dụng được miễn là nó hỗ trợ phát triển .NET.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
- Bạn có thể khám phá[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và giải thích chi tiết.
+Bạn có thể khám phá [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và giải thích chi tiết.
 ### Làm thế nào để giải quyết vấn đề khi sử dụng Aspose.Cells?
- Bạn nên ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng và đội ngũ hỗ trợ của Aspose giúp đỡ.
+Bạn nên ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng và đội ngũ hỗ trợ của Aspose giúp đỡ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

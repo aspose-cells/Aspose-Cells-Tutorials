@@ -1,56 +1,58 @@
 ---
-title: ページサイズを取得
-linktitle: ページサイズを取得
-second_title: Aspose.Cells for .NET API リファレンス
-description: このステップバイステップ ガイドでは、Aspose.Cells for .NET を使用してページ サイズを取得する方法を説明します。Excel ファイルで作業する開発者に最適です。
-weight: 40
-url: /ja/net/excel-page-setup/get-page-dimensions/
+"description": "このステップバイステップガイドでは、Aspose.Cells for .NET を使用してページサイズを取得する方法を学びます。Excelファイルを扱う開発者に最適です。"
+"linktitle": "ページサイズを取得"
+"second_title": "Aspose.Cells for .NET API リファレンス"
+"title": "ページサイズを取得"
+"url": "/ja/net/excel-page-setup/get-page-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ページサイズを取得
 
 ## 導入
 
-.NET アプリケーションでスプレッドシートを処理する場合、Aspose.Cells ライブラリは、開発者が Excel ファイルを簡単に操作できる強力なツールとして際立っています。しかし、この強力なライブラリを使用して、さまざまな用紙サイズのページ寸法を取得するにはどうすればよいでしょうか。このチュートリアルでは、プロセスをステップごとに説明し、Aspose.Cells の動作を理解するだけでなく、プロジェクトでの使用にも習熟できるようにします。 
+.NETアプリケーションでスプレッドシートを扱う場合、Aspose.Cellsライブラリは、開発者がExcelファイルを簡単に操作できる強力なツールとして際立っています。しかし、この強力なライブラリを使って、様々な用紙サイズのページサイズを取得するにはどうすればよいでしょうか？このチュートリアルでは、そのプロセスをステップバイステップで解説します。Aspose.Cellsの仕組みを理解するだけでなく、プロジェクトで使いこなせるようになるための知識も身に付けることができます。 
 
 ## 前提条件 
 
-コーディング部分に進む前に、効果的に進めるために準備しておく必要があることがいくつかあります。
+コーディング部分に進む前に、効果的に進めるために準備しておく必要があるものがいくつかあります。
 
 ### ビジュアルスタジオ
-マシンに Visual Studio がインストールされていることを確認してください。ここで .NET コードを記述して実行します。
+お使いのマシンにVisual Studioがインストールされていることを確認してください。ここで.NETコードを記述して実行します。
 
 ### Aspose.Cells ライブラリ
-プロジェクトで Aspose.Cells ライブラリをダウンロードして参照する必要があります。次の場所から入手できます。
-- ダウンロードリンク:[.NET 用 Aspose.Cells](https://releases.aspose.com/cells/net/)
+Aspose.Cellsライブラリをダウンロードし、プロジェクトで参照する必要があります。以下の場所から入手できます。
+- ダウンロードリンク: [Aspose.Cells .NET 版](https://releases.aspose.com/cells/net/)
 
 ### C#の基礎知識
-C# の基礎知識があれば役立ちます。このチュートリアルでは、簡単に理解できる基本的なプログラミング概念を採用します。
+C#の基礎知識があればなお良いでしょう。このチュートリアルでは、分かりやすい基本的なプログラミング概念を扱います。
 
-準備はできましたか？ さあ始めましょう！
+準備はできましたか？ さあ、始めましょう！
 
 ## パッケージのインポート
 
-最初のステップは、必要な Aspose.Cells パッケージを C# プロジェクトにインポートすることです。手順は次のとおりです。
+最初のステップは、必要なAspose.CellsパッケージをC#プロジェクトにインポートすることです。手順は以下のとおりです。
 
 ### 新しいプロジェクトを作成する
 
- Visual Studioを開き、新しいC#コンソールアプリケーションプロジェクトを作成します。好きな名前を付けることができますが、ここでは`GetPageDimensions`.
+Visual Studioを開き、新しいC#コンソールアプリケーションプロジェクトを作成します。好きな名前を付けて構いませんが、ここでは `GetPageDimensions`。
 
-### 参照を追加
+### 参照を追加する
 
 Aspose.Cells を使用するには、ライブラリへの参照を追加する必要があります。
 - ソリューション エクスプローラーでプロジェクトを右クリックします。
 - 「NuGet パッケージの管理」を選択します。
 - 「Aspose.Cells」を検索してインストールします。
 
-### Usingディレクティブを追加する
+### ディレクティブの使用を追加する
 
-あなたの一番上に`Program.cs`ファイルに、Aspose.Cells 機能にアクセスするための次の using ディレクティブを挿入します。
+あなたの `Program.cs` ファイルに、Aspose.Cells 機能にアクセスするための次の using ディレクティブを挿入します。
 
 ```csharp
 using System;
@@ -59,13 +61,13 @@ using System.Linq;
 using System.Text;
 ```
 
-必要なパッケージをインポートしたので、準備は完了です。 
+必要なパッケージをインポートしたので、準備は順調です。 
 
-それでは、各手順を実行して、さまざまな用紙サイズの寸法を取得する方法を見てみましょう。 
+それでは、各ステップを実行して、さまざまな用紙サイズの寸法を取得する方法を見てみましょう。 
 
-## ステップ 1: ワークブック クラスのインスタンスを作成する
+## ステップ1: ワークブッククラスのインスタンスを作成する
 
-最初に行う必要があるのは、Aspose.Cells から Workbook クラスのインスタンスを作成することです。このクラスは Excel ファイルを表します。
+まず最初に、Aspose.CellsからWorkbookクラスのインスタンスを作成する必要があります。このクラスはExcelファイルを表します。
 
 ```csharp
 Workbook book = new Workbook();
@@ -85,18 +87,18 @@ Worksheet sheet = book.Worksheets[0];
 
 ## ステップ3: 用紙サイズをA2に設定し、寸法を取得する
 
-次は、用紙サイズを設定して寸法を取得します。まずは A2 用紙サイズから始めます。
+次は用紙サイズを設定して寸法を取得します。まずは A2 用紙サイズから始めます。
 
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
 
-このコードは用紙サイズを A2 に設定し、幅と高さを即座に出力します。Aspose.Cells の美しさはそのシンプルさにあります。
+このコードは用紙サイズをA2に設定し、幅と高さを即座に出力します。Aspose.Cellsの美しさは、そのシンプルさにあります。
 
-## ステップ4: 他の用紙サイズについても繰り返します
+## ステップ4: 他の用紙サイズでも繰り返します
 
-A3、A4、レターなどの他の用紙サイズでもこのプロセスを繰り返す必要があります。手順は次のとおりです。
+A3、A4、レターサイズなどの他の用紙サイズでもこの手順を繰り返します。手順は以下のとおりです。
 
 A3の場合:
 
@@ -121,7 +123,7 @@ Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.Pag
 
 ## ステップ5: 出力の結論
 
-最後に、操作全体が正常に完了したことを確認します。このステータスをコンソールに記録するだけです。
+最後に、操作全体が正常に完了したことを確認します。コンソールに次のステータスをログ出力してください。
 
 ```csharp
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
@@ -129,7 +131,7 @@ Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 
 ## 結論
 
-おめでとうございます。これで、Aspose.Cells for .NET を使用して、さまざまな用紙サイズのページ サイズを取得する方法を学習できました。レポート ツール、自動化されたスプレッドシート、データ分析機能などを開発している場合でも、さまざまな形式のページ サイズを取得できることは非常に役立ちます。 
+おめでとうございます！Aspose.Cells for .NET を使用して、さまざまな用紙サイズのページサイズを取得する方法を習得しました。レポートツール、自動スプレッドシート、データ分析機能などを開発する場合でも、さまざまな形式のページサイズを取得できることは非常に役立ちます。 
 
 ## よくある質問
 
@@ -140,16 +142,18 @@ Aspose.Cells は、Microsoft Excel を必要とせずに Excel ファイルを�
 いいえ、Aspose.Cells はスタンドアロン ライブラリであり、Excel をインストールする必要はありません。
 
 ### Aspose.Cells のその他の例はどこで見つかりますか?
-ドキュメントはここで確認できます:[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/).
+ドキュメントはここで確認できます: [Aspose.Cells ドキュメント](https://reference。aspose.com/cells/net/).
 
 ### Aspose.Cells の無料試用版はありますか?
-はい！無料試用版は以下から入手できます。[Aspose.Cells 無料トライアル](https://releases.aspose.com/).
+はい！無料試用版は以下から入手できます。 [Aspose.Cells 無料トライアル](https://releases。aspose.com/).
 
 ### Aspose.Cells のサポートを受けるにはどうすればよいですか?
-Aspose サポート フォーラムにアクセスしてサポートを受けることができます。[Aspose.Cells サポート](https://forum.aspose.com/c/cells/9).
+Aspose サポート フォーラムにアクセスしてサポートを受けることができます。 [Aspose.Cells サポート](https://forum。aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

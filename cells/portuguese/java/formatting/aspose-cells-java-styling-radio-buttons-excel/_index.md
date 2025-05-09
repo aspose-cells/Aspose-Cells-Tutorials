@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Explicação:
-- **`Workbook`**: Representa um arquivo Excel.
+- **`Workbook`**Representa um arquivo Excel.
 - **`Worksheet`**: Refere-se a uma planilha na pasta de trabalho.
 - **`Cells`**: Uma coleção de células na planilha.
 - **`Style`**: Usado para formatar células.
@@ -200,6 +202,9 @@ Neste tutorial, exploramos como criar e estilizar uma planilha, adicionar botõe
 - **Documentação**: Guias abrangentes e referências de API podem ser encontrados em [Documentação do Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

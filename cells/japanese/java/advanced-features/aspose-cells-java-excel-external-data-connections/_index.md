@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 - Aspose.Cells for Java を使用して Excel ブックから外部データ接続を取得する方法。
 - データベースの詳細やパラメータなど、各接続に関する詳細情報を抽出します。
 - 実用的な使用例と他のシステムとの統合の可能性。
-- Java アプリケーションで Aspose.Cells を操作するときにパフォーマンスを最適化するためのヒント。
+- Java アプリケーションで Aspose.Cells を使用する際にパフォーマンスを最適化するためのヒント。
 
 この包括的なガイドを活用すれば、データ接続を効果的に管理するために必要なスキルを習得できます。さあ、始めましょう！
 
@@ -195,6 +197,9 @@ Aspose.Cells を使用する場合は、次のパフォーマンスのヒント�
 Aspose.Cells for Java を使用して、Excel データ接続の統合と管理を今すぐ開始しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

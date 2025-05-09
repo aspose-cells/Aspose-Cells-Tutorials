@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@
 - 存取 Maven 或 Gradle 專案結構，因為我們將透過這些工具新增相依性。
 
 ### 知識前提
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 熟悉用 Java 處理檔案和使用流。
 
 ## 設定 Aspose.Cells for Java
@@ -100,7 +102,7 @@ java.security.KeyStore inputKeyStore = java.security.KeyStore.getInstance("PKCS1
 inputKeyStore.load(inStream, password.toCharArray());
 ```
 
-在這裡，我們正在載入 Excel 文件（`sourceFile.xlsx`) 和 PKCS#12 憑證 (`pfxFile.pfx`）。這 `password` 用於解鎖您的證書。
+這裡，我們載入 Excel 文件（`sourceFile.xlsx`) 和 PKCS#12 憑證 (`pfxFile.pfx`）。這 `password` 用於解鎖您的證書。
 
 #### 第 2 步：建立並配置數位簽名
 
@@ -180,6 +182,9 @@ workbook.save(outputDir + "XAdESSignatureSupport_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

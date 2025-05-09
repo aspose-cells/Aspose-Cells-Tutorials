@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,6 +177,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 Αυτός ο οδηγός θα σας δώσει τη δυνατότητα να χρησιμοποιείτε αποτελεσματικά το Aspose.Cells για Java στα έργα σας, βελτιώνοντας την επεξεργασία δεδομένων και την παραγωγικότητα. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

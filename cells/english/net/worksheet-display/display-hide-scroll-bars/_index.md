@@ -8,7 +8,9 @@ url: /net/worksheet-display/display-hide-scroll-bars/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display or Hide Scroll Bars in Worksheet
@@ -97,6 +99,7 @@ You can find comprehensive documentation on all features and functionalities of 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

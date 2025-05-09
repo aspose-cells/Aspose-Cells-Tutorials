@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ Workbook wb = new Workbook("path_to_your_file/pivot_table_test.xlsx");
 ```java
 PivotTable pt = wb.getWorksheets().get(0).getPivotTables().get(0);
 ```
-這裡， `getPivotTables()` 檢索指定工作表中的所有資料透視表，並且 `.get(0)` 訪問第一個。
+這裡， `getPivotTables()` 檢索指定工作表中的所有資料透視表，並 `.get(0)` 訪問第一個。
 
 **3.停用功能區：**
 透過設定其屬性來停用資料透視表精靈（功能區）：
@@ -164,6 +166,9 @@ A5：參觀 [Aspose的官方文檔](https://reference.aspose.com/cells/java/) �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

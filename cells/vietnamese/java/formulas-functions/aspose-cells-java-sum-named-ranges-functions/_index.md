@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Hướng dẫn này trình bày cách sử dụng các phạm vi được đặt
 Hướng dẫn này cung cấp cho bạn hiểu biết toàn diện về việc triển khai các phạm vi được đặt tên và các hàm tổng bằng Aspose.Cells cho Java. Hãy thử để khai thác toàn bộ tiềm năng của tự động hóa Excel trong các ứng dụng của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

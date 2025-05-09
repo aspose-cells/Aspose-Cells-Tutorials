@@ -1,14 +1,16 @@
 ---
-title: Настройки и настройка цвета в Excel
-linktitle: Настройки и настройка цвета в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Освойте настройки и настройку цветов в Excel с помощью Aspose.Cells для .NET. Узнайте, как программно вычислить выбранный цвет Excel в этом пошаговом руководстве.
-weight: 27
-url: /ru/net/color-settings-and-customization-in-excel/
+"description": "Освойте настройки и настройку цветов в Excel с помощью Aspose.Cells для .NET. Узнайте, как программно вычислить выбранный цвет Excel в этом пошаговом руководстве."
+"linktitle": "Настройки и настройка цвета в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Настройки и настройка цвета в Excel"
+"url": "/ru/net/color-settings-and-customization-in-excel/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройки и настройка цвета в Excel
@@ -23,12 +25,14 @@ url: /ru/net/color-settings-and-customization-in-excel/
 
 [Вычислить цвет, выбранный MS Excel программным способом](./compute-color-chosen-by-ms-excel/) предоставляет простое, но подробное руководство по началу работы. Независимо от того, работаете ли вы с большими наборами данных или автоматизируете отчеты, освоение этой функциональности откроет новые возможности для настройки ваших рабочих книг Excel.
 
-## Настройки и настройка цвета в учебных пособиях Excel
+## Настройки и настройка цвета в обучающих материалах Excel
 ### [Вычислить цвет, выбранный MS Excel программным способом](./compute-color-chosen-by-ms-excel/)
 Узнайте, как вычислить цвет, выбранный MS Excel, с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству, чтобы получить программный доступ к цвету условного форматирования Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

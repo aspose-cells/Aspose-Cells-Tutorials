@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Szeretnéd automatizálni a szeletelők módosítását az Excel-fájljaidban Ja
 **Amit tanulni fogsz:**
 - Hogyan jeleníthető meg az Aspose.Cells for Java aktuális verziója?
 - Lépések egy meglévő Excel-munkafüzet betöltésére.
-- Módszerek a munkalap szeletelők eléréséhez és módosításához.
+- Munkalap-szeletelők elérésének és módosításának módszerei.
 - Technikák a módosított Excel-fájl lemezre mentéséhez.
 
 Áttekintjük a kódolásba való belevágás előtt szükséges előfeltételeket is. Kezdjük is!
@@ -145,7 +147,7 @@ public class ModifySlicerProperties {
         // A szeletelő által megjelenített oszlopok számának beállítása
         slicer.setNumberOfColumns(2);
         
-        // A stílus típusának módosítása a jobb vizuális megjelenés érdekében
+        // A vizuális megjelenés javítása érdekében módosítsa a stílus típusát
         slicer.setStyleType(SlicerStyleType.SLICER_STYLE_LIGHT_6);
     }
 }
@@ -223,6 +225,9 @@ Készen állsz mélyebbre merülni? Próbáld ki ezeket a technikákat a projekt
    - Csak a szükséges adatokat dolgozza fel, streameket használjon a fájlkezeléshez, és optimalizálja a szeletelő konfigurációit az újraszámítások csökkentése érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Das Laden passwortgeschützter Excel-Dateien ist beim Umgang mit vertraulichen Informationen unerlässlich. Aspose.Cells bietet eine einfache Möglichkeit, diese Dateien durch Angabe des erforderlichen Passworts zu öffnen.
 
 #### Schrittweise Implementierung
-1. **LoadOptions einrichten**: Erstellen Sie ein `LoadOptions` Objekt und legen Sie das erforderliche Passwort fest.
+1. **LoadOptions einrichten**Erstellen Sie ein `LoadOptions` Objekt und legen Sie das erforderliche Passwort fest.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5: Stellen Sie sicher, dass der Pfad zu Ihrer Lizenzdatei korrekt ist und dass 
 - **Unterstützung**: [Aspose Forum-Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

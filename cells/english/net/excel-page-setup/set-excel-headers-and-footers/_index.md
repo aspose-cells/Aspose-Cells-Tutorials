@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-headers-and-footers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Headers And Footers
@@ -169,6 +171,7 @@ For support, visit the [Aspose Support Forum](https://forum.aspose.com/c/cells/9
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

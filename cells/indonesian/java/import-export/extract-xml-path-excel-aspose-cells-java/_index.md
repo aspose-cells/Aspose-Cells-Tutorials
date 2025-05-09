@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengekstrak Jalur XML dari Tabel Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 Kesulitan mengekstrak jalur XML langsung dari tabel Excel menggunakan Java? Dengan pustaka Aspose.Cells yang canggih, sederhanakan proses ini secara efektif. Tutorial ini memandu Anda mengekstrak jalur XML secara terprogram.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda.
 - Memuat berkas Excel dengan data XML.
 - Mengakses lembar kerja dan objek daftar dalam buku kerja.
@@ -25,16 +27,16 @@ Kesulitan mengekstrak jalur XML langsung dari tabel Excel menggunakan Java? Deng
 
 Sebelum memulai implementasi, pastikan Anda telah menyiapkan semuanya.
 
-## Prasyarat
+## Előfeltételek
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - JDK terinstal di komputer Anda (sebaiknya JDK 8 atau lebih tinggi).
 - IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan mengeksekusi kode.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menangani file Excel secara terprogram memang bermanfaat, namun bukanlah hal yang wajib.
 
@@ -52,19 +54,19 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 **Gradasi:**
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-1. **Uji Coba Gratis**Mulailah dengan uji coba gratis 30 hari untuk menjelajahi kemampuan Aspose.Cells.
-2. **Lisensi Sementara**: Ajukan permohonan lisensi sementara jika Anda membutuhkan lebih banyak waktu tanpa batasan evaluasi.
-3. **Pembelian**: Setelah puas, beli langganan untuk terus menggunakan Aspose.Cells.
+### Licencbeszerzés lépései
+1. **Ingyenes próbaverzió**Mulailah dengan uji coba gratis 30 hari untuk menjelajahi kemampuan Aspose.Cells.
+2. **Ideiglenes engedély**: Ajukan permohonan lisensi sementara jika Anda membutuhkan lebih banyak waktu tanpa batasan evaluasi.
+3. **Vásárlás**: Setelah puas, beli langganan untuk terus menggunakan Aspose.Cells.
 
 Inisialisasi lingkungan Anda:
 ```java
-// Tetapkan jalur file lisensi
+// Licencfájl elérési útjának beállítása
 License license = new License();
 license.setLicense("path/to/your/license/file");
 
@@ -72,7 +74,7 @@ license.setLicense("path/to/your/license/file");
 Workbook workbook = new Workbook("source-file-path.xlsx");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Sekarang, terapkan solusinya dengan mengekstrak jalur XML dari tabel Excel menggunakan Aspose.Cells di Java.
 
 ### Memuat File XLSX yang Berisi Data XML
@@ -81,77 +83,80 @@ Muat buku kerja Excel Anda yang berisi data XML:
 // Muat file XLSX yang berisi data dari file XML
 Workbook workbook = new Workbook("path/to/your/XML_Data.xlsx");
 ```
-**Penjelasan**: : Itu `Workbook` class mewakili keseluruhan dokumen Excel. Di sini, kita memuat file yang sudah ada dengan data XML Anda.
+**Magyarázat**A `Workbook` class mewakili keseluruhan dokumen Excel. Di sini, kita memuat file yang sudah ada dengan data XML Anda.
 
 ### Mengakses Lembar Kerja dan Objek Daftar
 Akses lembar kerja dan objek daftar (tabel) tempat Anda ingin mengekstrak jalur XML:
 ```java
-// Akses lembar kerja pertama di buku kerja
+// A munkafüzet első munkalapjának elérése
 Worksheet ws = workbook.getWorksheets().get(0);
 
 // Akses ListObject dari lembar pertama
 ListObject listObject = ws.getListObjects().get(0);
 ```
-**Penjelasan**: `Worksheet` mewakili satu lembar dalam file Excel. Metode `getListObjects()` mengambil semua objek tabel dalam lembar kerja tersebut.
+**Magyarázat**: `Worksheet` mewakili satu lembar dalam file Excel. Metode `getListObjects()` mengambil semua objek tabel dalam lembar kerja tersebut.
 
 ### Ekstrak Jalur XML
 Ekstrak jalur XML menggunakan properti objek daftar:
 ```java
-// Dapatkan URL pengikatan data peta XML objek daftar
+// A listaobjektum XML-leképezési adatkötésének URL-címének lekérése
 String url = listObject.getXmlMap().getDataBinding().getUrl();
 
 // Menampilkan nama atau jalur file XML
 System.out.println(url);
 ```
-**Penjelasan**: : Itu `getXmlMap()` metode mengembalikan `XmlMap` objek, yang berisi informasi tentang bagaimana tabel Anda diikat ke sumber XML eksternal. `getDataBinding().getUrl()` mengambil URL pengikatan ini.
+**Magyarázat**A `getXmlMap()` metode mengembalikan `XmlMap` objek, yang berisi informasi tentang bagaimana tabel Anda diikat ke sumber XML eksternal. `getDataBinding().getUrl()` mengambil URL pengikatan ini.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - **Pastikan Jalur File Sudah Benar**: Verifikasi bahwa jalur berkas dalam kode Anda akurat.
 - **Periksa Nilai Null**Selalu periksa apakah objek seperti lembar kerja dan listObjects dapat bernilai null sebelum mengakses metodenya.
-- **Penanganan Kesalahan**: Gunakan blok try-catch untuk menangani pengecualian potensial dengan baik.
+- **Hibakezelés**: Gunakan blok try-catch untuk menangani pengecualian potensial dengan baik.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Mengekstrak jalur XML dari tabel Excel sangat berharga dalam:
 1. **Proyek Integrasi Data**Mengintegrasikan data secara mulus antara sistem yang memanfaatkan format XML.
-2. **Sistem Pelaporan Otomatis**: Otomatisasi pembuatan laporan dengan mengintegrasikan kumpulan data berbasis XML langsung ke dalam file Excel.
-3. **Platform E-dagang**: Gunakan jalur XML yang diekstraksi untuk memperbarui informasi produk yang disimpan dalam database Excel secara dinamis.
+2. **Automatizált jelentéskészítő rendszerek**: Otomatisasi pembuatan laporan dengan mengintegrasikan kumpulan data berbasis XML langsung ke dalam file Excel.
+3. **E-kereskedelmi platformok**: Gunakan jalur XML yang diekstraksi untuk memperbarui informasi produk yang disimpan dalam database Excel secara dinamis.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat bekerja dengan kumpulan data besar atau file Excel yang rumit:
 - Optimalkan penggunaan memori dengan melepaskan sumber daya setelah memproses setiap buku kerja menggunakan `Workbook.dispose()`.
 - Batasi jumlah lembar kerja dan tabel yang dimuat ke memori secara bersamaan.
 - Ikuti praktik terbaik Java untuk eksekusi yang efisien.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara mengekstrak jalur XML dari tabel Excel menggunakan Aspose.Cells di Java. Keterampilan ini sangat berguna untuk tugas integrasi data, yang meningkatkan kemampuan otomatisasi proyek Anda.
 
 Sebagai langkah selanjutnya, jelajahi lebih banyak fitur Aspose.Cells atau pertimbangkan untuk mengintegrasikan sumber data tambahan ke dalam alur kerja Anda. Untuk pertanyaan lebih lanjut, rujuk sumber daya yang disediakan untuk dokumentasi terperinci dan opsi dukungan.
 
-## Bagian FAQ
+## GYIK szekció
 **Q1: Apa itu Peta XML di Aspose.Cells?**
 Peta XML mendefinisikan bagaimana data dari file XML dipetakan ke objek daftar (tabel) dalam buku kerja Excel.
 
 **Q2: Dapatkah saya menggunakan kode ini dengan versi Java apa pun?**
 Ya, tetapi JDK 8 atau lebih tinggi direkomendasikan untuk alasan kompatibilitas dan kinerja.
 
-**Q3: Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+**3. kérdés: Hogyan kezelhetem hatékonyan a nagyméretű Excel-fájlokat?**
 Optimalkan penggunaan memori dengan membuang buku kerja setelah diproses dan batasi jumlah objek yang dimuat sekaligus.
 
 **Q4: Bagaimana jika data XML saya tidak terikat dengan benar ke objek daftar?**
 Pastikan peta XML Anda telah disiapkan dengan benar, dan verifikasi bahwa jalur file akurat. Tinjau `getListObjects()` metode untuk setiap ketidaksesuaian.
 
 **Q5: Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.Cells dengan Java?**
-Jelajahi [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) untuk panduan lengkap dan contoh kode.
+Fedezze fel a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és kódmintákért.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Coba Aspose.Cells Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Komunitas Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Próbáld ki az Aspose.Cells ingyenes verzióját](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatiseer Excel met Java - Maak tabellen en interactieve grafieken met Aspose.Cells
@@ -287,6 +289,9 @@ Wanneer u deze technieken onder de knie krijgt, kunt u uw Excel-gebaseerde workf
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

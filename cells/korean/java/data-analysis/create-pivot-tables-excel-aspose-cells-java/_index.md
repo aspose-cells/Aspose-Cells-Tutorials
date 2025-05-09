@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득 단계:
 1. **무료 체험:** 무료 평가판을 다운로드하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
 2. **임시 면허:** 확장 기능에 대한 임시 라이센스를 얻으세요 [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/).
-3. **구입:** 전체 액세스를 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+3. **구입:** 전체 액세스를 위해서는 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 ### 기본 초기화:
 ```java
@@ -168,8 +170,8 @@ workbook.save("output.xlsx");
 ## 실제 응용 프로그램
 
 1. **판매 분석:** 분기, 제품, 지역별로 판매 보고서를 자동으로 생성합니다.
-2. **재고 관리:** 다양한 창고와 제품 범주의 재고 수준을 추적하기 위해 피벗 테이블을 만듭니다.
-3. **HR 분석:** 직원의 성과 지표나 출근 기록을 쉽게 검토할 수 있도록 요약합니다.
+2. **재고 관리:** 다양한 창고와 제품 범주에 걸쳐 재고 수준을 추적하기 위해 피벗 테이블을 만듭니다.
+3. **HR 분석:** 직원의 성과 지표나 출석 기록을 쉽게 검토할 수 있도록 요약합니다.
 4. **재무 보고:** 최소한의 수동 개입으로 재무 데이터를 포괄적인 보고서로 통합합니다.
 
 ## 성능 고려 사항
@@ -211,6 +213,9 @@ workbook.save("output.xlsx");
 - [Aspose 구매 페이지](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

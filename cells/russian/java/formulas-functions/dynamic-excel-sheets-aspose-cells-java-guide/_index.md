@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 ## Предпосылки
 
 Перед началом убедитесь, что у вас есть:
-1. **Требуемые библиотеки:**
+1. **Необходимые библиотеки:**
    - Aspose.Cells для Java версии 25.3 или более поздней
 2. **Требования к настройке среды:**
    - Java Development Kit (JDK), установленный в вашей системе
@@ -189,6 +191,9 @@ Aspose.Cells для Java универсален и позволяет испол
 Используйте возможности Aspose.Cells для Java в своем следующем проекте и расширьте возможности автоматизации Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

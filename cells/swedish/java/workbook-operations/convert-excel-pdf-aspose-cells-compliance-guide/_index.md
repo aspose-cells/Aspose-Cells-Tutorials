@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Att konvertera en Excel-arbetsbok till ett PDFA-1a-kompatibelt PDF-format är vi
 Innan du börjar, se till att du har:
 - **Obligatoriska bibliotek:** Ladda ner Aspose.Cells för Java för att hantera Excel-dokument och konvertera dem till olika format, inklusive PDF.
 - **Krav för miljöinstallation:** En utvecklingsmiljö med JDK 8 eller senare. Använd ett byggverktyg som Maven eller Gradle för att hantera beroenden.
-- **Kunskapsförkunskaper:** Grundläggande kunskaper om Java-programmeringskoncept och XML-konfigurationsfiler hjälper dig att följa den här guiden effektivt.
+- **Kunskapsförkunskapskrav:** Grundläggande kunskaper om Java-programmeringskoncept och XML-konfigurationsfiler hjälper dig att följa den här guiden effektivt.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -146,6 +148,9 @@ A5: Ja, med köp av lämplig licens eller testversion. Se till att du följer li
 Den här guiden ger dig verktygen och kunskapen för att effektivt utnyttja Aspose.Cells för Java och förbättra dina dokumentbehandlingsmöjligheter.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odświeżanie danych tabeli przestawnej
@@ -90,9 +92,11 @@ Odświeżanie danych tabeli przestawnej w Aspose.Cells for Java to prosty, ale n
    - Tak, możesz zaplanować automatyczne odświeżanie danych za pomocą bibliotek harmonogramowania Aspose.Cells i Java. Dzięki temu możesz aktualizować swoje tabele przestawne bez ręcznej interwencji.
 
 Teraz masz wiedzę, jak odświeżyć dane Pivot Table w Aspose.Cells for Java. Utrzymuj dokładność swoich analiz i bądź o krok przed innymi w podejmowaniu decyzji opartych na danych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

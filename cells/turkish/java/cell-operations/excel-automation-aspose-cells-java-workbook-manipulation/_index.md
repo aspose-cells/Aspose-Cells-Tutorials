@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Excel otomasyon becerilerinizi bir üst seviyeye taşımaya hazır mısınız? A
    - Evet, kullanarak `FindOptions` orijinal değerlere bakacak şekilde yapılandırılmış olması bu tür aramaları yapmanıza olanak tanır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

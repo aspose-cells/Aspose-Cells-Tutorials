@@ -1,36 +1,38 @@
 ---
-title: Nastavení formátu datového pole programově v .NET
-linktitle: Nastavení formátu datového pole programově v .NET
-second_title: Aspose.Cells .NET Excel Processing API
-description: Hlavní nastavení formátů datových polí v kontingenčních tabulkách pomocí Aspose.Cells for .NET s tímto podrobným výukovým programem. Vylepšete formátování dat v Excelu.
-weight: 19
-url: /cs/net/creating-and-configuring-pivot-tables/setting-data-field-format/
+"description": "Zvládněte nastavení formátů datových polí v kontingenčních tabulkách pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Vylepšete formátování dat v Excelu."
+"linktitle": "Programové nastavení formátu datových polí v .NET"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Programové nastavení formátu datových polí v .NET"
+"url": "/cs/net/creating-and-configuring-pivot-tables/setting-data-field-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavení formátu datového pole programově v .NET
+# Programové nastavení formátu datových polí v .NET
 
 ## Zavedení
-Pokud se ponoříte do manipulace se soubory Excelu pomocí .NET, pravděpodobně jste se setkali s datovými sadami, které vyžadují nějaké efektní formátování. Jedním z běžných požadavků je nastavit datová pole, zejména v kontingenčních tabulkách, způsobem, který zajistí, že vaše data budou nejen srozumitelná, ale také vizuálně přitažlivá a přehledná. S Aspose.Cells pro .NET může být tento úkol hračkou. V tomto tutoriálu doslova rozebereme, jak programově nastavit formáty datových polí v .NET krok za krokem, zpochybníme skličující složitosti a uděláme vše stravitelné!
+Pokud se pouštíte do manipulace s excelovými soubory v .NET, pravděpodobně jste se setkali s datovými sadami, které vyžadují trochu složitějšího formátování. Jedním z běžných požadavků je nastavení datových polí, zejména v kontingenčních tabulkách, takovým způsobem, aby vaše data byla nejen srozumitelná, ale také vizuálně přitažlivá a přehledná. S Aspose.Cells pro .NET může být tento úkol hračka. V tomto tutoriálu si doslova krok za krokem rozebereme, jak programově nastavit formáty datových polí v .NET, a zvládneme tak složité úkoly a zároveň je uděláme stravitelnými!
 ## Předpoklady
-Než se vydáme na tuto cestu, ujistěte se, že máte vše vyřešeno. Zde je rychlý kontrolní seznam toho, co potřebujete:
-1. Visual Studio: Protože kdo by neměl rád dobré integrované vývojové prostředí (IDE)?
-2.  Aspose.Cells for .NET Library: Můžete si ji snadno stáhnout z[Stránka Aspose Releases](https://releases.aspose.com/cells/net/).
+Než se na tuto cestu vydáme, ujistěme se, že máte vše vyřešeno. Zde je stručný kontrolní seznam toho, co budete potřebovat:
+1. Visual Studio: Protože kdo by nemiloval dobré integrované vývojové prostředí (IDE)?
+2. Knihovna Aspose.Cells pro .NET: Můžete si ji snadno stáhnout z [Stránka s vydáními Aspose](https://releases.aspose.com/cells/net/).
 3. Základní znalost C#: Pokud rozumíte základům programovacího jazyka, můžete začít!
 ### Proč Aspose.Cells?
-Aspose.Cells for .NET je výkonná knihovna speciálně navržená pro správu operací se soubory aplikace Excel. Umožňuje vám snadno číst, psát, manipulovat a převádět soubory Excel. Představte si, že byste mohli programově vytvářet sestavy, kontingenční tabulky nebo dokonce grafy, aniž byste se museli ponořit do uživatelského rozhraní Excelu – zní to jako kouzlo, že?
-## Importujte balíčky
-Nyní, když máme všechny předpoklady nastavené, pojďme se vrhnout na další kroky. Začněte importem potřebných balíčků. Zde je návod, jak je můžete uvést do provozu:
+Aspose.Cells pro .NET je výkonná knihovna speciálně navržená pro správu operací s Excelovými soubory. Umožňuje vám snadno číst, zapisovat, manipulovat s Excelovými soubory a převádět je. Představte si, že byste mohli programově vytvářet sestavy, kontingenční tabulky nebo dokonce grafy, aniž byste se museli hrabat v uživatelském rozhraní Excelu – zní to jako kouzlo, že?
+## Importovat balíčky
+Nyní, když máme všechny předpoklady nastavené, pojďme se ponořit do dalších kroků. Začněte importem potřebných balíčků. Zde je návod, jak je spustit:
 ### Vytvořit nový projekt
-Otevřete Visual Studio a vytvořte nový projekt C#. Vyberte šablonu konzolové aplikace, protože my budeme provádět backendové zpracování.
-### Přidejte odkaz do Aspose.Cells
-1. Klepněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
-2. Vyberte „Spravovat balíčky NuGet“.
-3. V části Procházet vyhledejte „Aspose.Cells“.
-4. Nainstalujte knihovnu. Po instalaci jste připraveni k importu!
+Otevřete Visual Studio a vytvořte nový projekt v C#. Vyberte šablonu konzolové aplikace, protože budeme provádět backendové zpracování.
+### Přidat odkaz na Aspose.Cells
+1. Klikněte pravým tlačítkem myši na svůj projekt v Průzkumníku řešení.
+2. Vyberte možnost „Spravovat balíčky NuGet“.
+3. V sekci Procházet vyhledejte „Aspose.Cells“.
+4. Nainstalujte knihovnu. Po instalaci můžete začít s importem!
 ### Importujte požadované jmenné prostory
 V horní části souboru kódu C# přidejte následující jmenné prostory:
 ```csharp
@@ -39,87 +41,89 @@ using Aspose.Cells;
 using System.Drawing;
 using Aspose.Cells.Pivot;
 ```
-To vám umožní přístup k funkcím nabízeným Aspose.Cells.
+Tím získáte přístup k funkcím, které nabízí Aspose.Cells.
 
-Dobře, teď se dostáváme k tomu podstatnému z našeho programu. Budeme pracovat s existujícím souborem Excel — pro účely tohoto tutoriálu jej pojmenujme „Book1.xls“.
+Dobře, teď se dostáváme k podstatě našeho programu. Budeme pracovat s existujícím souborem aplikace Excel – pro účely tohoto tutoriálu ho pojmenujeme „Book1.xls“.
 ## Krok 1: Definujte svůj datový adresář
-Nejprve musíte svému programu sdělit, kde najde tento vzácný soubor Excel.
+V první řadě musíte programu sdělit, kde má najít ten drahocenný soubor aplikace Excel.
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "Your Document Directory"; // Nezapomeňte to změnit na svou skutečnou cestu!
 ```
-## Krok 2: Načtěte sešit
-Načtení sešitu je podobné jako otevření knihy před jejím čtením. Postup je následující:
+## Krok 2: Načtení sešitu
+Načtení sešitu je podobné jako otevření knihy před jejím přečtením. Postupujte takto:
 ```csharp
-// Načtěte soubor šablony
+// Načíst soubor šablony
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
-Ujistěte se, že Book1.xls sedí pěkně v určeném adresáři, jinak můžete narazit na pár škytavek!
-## Krok 3: Otevřete první pracovní list
-Nyní, když máme náš sešit, dáme si do rukou první pracovní list (jako obálku naší knihy):
+Ujistěte se, že soubor Book1.xls je správně umístěn v zadaném adresáři, jinak můžete narazit na pár problémů!
+## Krok 3: Přístup k prvnímu pracovnímu listu
+Teď, když máme pracovní sešit, pojďme se pustit do prvního pracovního listu (jako obálky naší knihy):
 ```csharp
 // Získejte první pracovní list
 Worksheet worksheet = workbook.Worksheets[0]; // Index začíná na 0!
 ```
-## Krok 4: Otevřete kontingenční tabulku
-S pracovním listem, který máme v rukou, je čas najít kontingenční tabulku, se kterou potřebujeme pracovat.
+## Krok 4: Přístup k kontingenční tabulce
+S pracovním listem v rukou je čas najít kontingenční tabulku, se kterou budeme pracovat.
 ```csharp
-int pivotindex = 0; // Za předpokladu, že chcete první kontingenční tabulku
+int pivotindex = 0; // Za předpokladu, že chcete první pivotní tabulku
 PivotTable pivotTable = worksheet.PivotTables[pivotindex];
 ```
 ## Krok 5: Získejte datová pole
-Nyní, když jsme v kontingenční tabulce, vytáhneme datová pole. Představte si to jako jít do knihovny a načíst konkrétní knihy (nebo datová pole).
+Teď, když jsme v kontingenční tabulce, pojďme vytáhnout datová pole. Představte si to, jako byste šli do knihovny a vyhledali konkrétní knihy (nebo datová pole).
 ```csharp
 Aspose.Cells.Pivot.PivotFieldCollection pivotFields = pivotTable.DataFields;
 ```
 ## Krok 6: Přístup k prvnímu datovému poli
-Z kolekce polí můžeme přistupovat k prvnímu. Je to jako vybrat z police první knihu ke čtení.
+Z kolekce polí můžeme přistupovat k prvnímu. Je to jako vybrat si první knihu z police, kterou si přečteme.
 ```csharp
-Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0]; // Získejte první datové pole
+Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0]; // Získat první datové pole
 ```
-## Krok 7: Nastavte formát zobrazení dat
-Dále nastavíme formát zobrazení dat kontingenčního pole. Zde můžete začít zobrazovat smysluplné vizuální prvky – například procenta:
+## Krok 7: Nastavení formátu zobrazení dat
+Dále nastavíme formát zobrazení dat v pivotním poli. Zde můžete začít zobrazovat smysluplné vizuály – například procenta:
 ```csharp
 // Nastavení formátu zobrazení dat
 pivotField.DataDisplayFormat = Aspose.Cells.Pivot.PivotFieldDataDisplayFormat.PercentageOf;
 ```
-## Krok 8: Nastavte základní pole a základní položku
-Každé pivotní pole může být svázáno s jiným polem jako základní reference. Pojďme to nastavit:
+## Krok 8: Nastavení základního pole a základní položky
+Každé pivotní pole lze propojit s jiným polem jako základní referencí. Nastavme to:
 ```csharp
-//Nastavení základního pole
+// Nastavení základního pole
 pivotField.BaseFieldIndex = 1; // Použijte vhodný index pro základní pole
 // Nastavení základní položky
 pivotField.BaseItemPosition = Aspose.Cells.Pivot.PivotItemPosition.Next; // Vyberte další položku
 ```
-## Krok 9: Nastavte formát čísla
-Když to vezmeme o krok dále, upravíme formát čísel. Je to podobné jako rozhodování o tom, jak chcete čísla zobrazovat – pojďme je udělat úhledně!
+## Krok 9: Nastavení formátu čísla
+Půjdeme o krok dál a upravme formát čísel. Je to podobné jako rozhodování o tom, jak chcete, aby se čísla zobrazovala – udělejme je úhledné!
 ```csharp
-// Nastavení formátu čísel
-pivotField.Number = 10; // Podle potřeby použijte index formátu
+// Nastavení formátu čísla
+pivotField.Number = 10; // Použijte index formátu podle potřeby
 ```
 ## Krok 10: Uložte soubor Excel
-Vše nastaveno a hotovo! Je čas uložit změny. Váš sešit nyní bude odrážet všechny mocné změny, které jste právě provedli.
+Hotovo! Čas uložit změny. Váš sešit nyní bude odrážet všechny důležité změny, které jste právě provedli.
 ```csharp
-// Uložení souboru Excel
+// Uložení souboru aplikace Excel
 workbook.Save(dataDir + "output.xls");
 ```
-A tady to máte, lidi! Datová pole vaší kontingenční tabulky jsou nyní naformátována k dokonalosti!
+A tady to máte, přátelé! Datová pole vaší kontingenční tabulky jsou nyní naformátována k dokonalosti!
 ## Závěr
-Gratuluji! Právě jste prošli výukovým programem o programovém nastavení formátů datových polí v .NET pomocí Aspose.Cells. S každým krokem jsme odstranili vrstvy složitosti, což vám umožňuje dynamicky interagovat s Excelem, upravovat kontingenční tabulky a zobrazovat data v použitelných formátech. Pokračujte ve cvičení, prozkoumejte další funkce.
-## FAQ
-### Mohu použít Aspose.Cells k vytvoření souborů aplikace Excel od začátku?
-Absolutně! Pomocí Aspose.Cells můžete od základu vytvářet a manipulovat se soubory aplikace Excel.
+Gratulujeme! Právě jste úspěšně zvládli tutoriál o programovém nastavování formátů datových polí v .NET pomocí Aspose.Cells. S každým krokem jsme odstraňovali vrstvy složitosti, což vám umožňuje dynamicky interagovat s Excelem, upravovat kontingenční tabulky a zobrazovat data v akčních formátech. Pokračujte v procvičování a prozkoumejte další funkce.
+## Často kladené otázky
+### Mohu použít Aspose.Cells k vytvoření souborů aplikace Excel od nuly?
+Rozhodně! S Aspose.Cells můžete vytvářet a manipulovat s excelovými soubory od základů.
 ### Je k dispozici bezplatná zkušební verze?
- Ano! Můžete se podívat na[Bezplatná zkušební verze](https://releases.aspose.com/).
-### Jaké formáty podporuje Aspose.Cells pro soubory Excel?
+Ano! Můžete se podívat na [Bezplatná zkušební verze](https://releases.aspose.com/).
+### Jaké formáty souborů Excelu podporuje Aspose.Cells?
 Podporuje různé formáty včetně XLS, XLSX, CSV a dalších.
-### Musím za licenci platit?
- Máte několik možností! Licenci si můžete zakoupit na[Koupit stránku](https://purchase.aspose.com/buy) . Případně a[Dočasná licence](https://purchase.aspose.com/temporary-license/) je také k dispozici.
-### Kde najdu podporu, když mám problémy?
- Podporu na nich najdete[Fórum podpory](https://forum.aspose.com/c/cells/9).
+### Musím platit za licenci?
+Máte několik možností! Licenci si můžete zakoupit na [Koupit stránku](https://purchase.aspose.com/buy)Alternativně, a [Dočasná licence](https://purchase.aspose.com/temporary-license/) je také k dispozici.
+### Kde mohu najít podporu, pokud mám problémy?
+Podporu u nich najdete [Fórum podpory](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

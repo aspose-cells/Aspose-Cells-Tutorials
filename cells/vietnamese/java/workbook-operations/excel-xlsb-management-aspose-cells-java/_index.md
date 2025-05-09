@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ Thay thế `outDir` với đường dẫn thư mục đầu ra thực tế của
 ## Ứng dụng thực tế
 - **Báo cáo cơ sở dữ liệu:** Tự động kết nối các tệp Excel với cơ sở dữ liệu để tạo báo cáo động.
 - **Tích hợp dữ liệu:** Sử dụng tệp XLSB làm cầu nối giữa các ứng dụng Java và nguồn dữ liệu bên ngoài.
-- **Phân tích tài chính:** Sửa đổi thông tin chi tiết kết nối ngay lập tức để tích hợp liền mạch với cơ sở dữ liệu tài chính.
+- **Phân tích tài chính:** Sửa đổi thông tin kết nối ngay lập tức để tích hợp liền mạch với cơ sở dữ liệu tài chính.
 
 ## Cân nhắc về hiệu suất
 Để đảm bảo hiệu suất tối ưu khi sử dụng Aspose.Cells:
@@ -163,6 +165,9 @@ Khám phá các tài nguyên này để hiểu sâu hơn về Aspose.Cells for J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

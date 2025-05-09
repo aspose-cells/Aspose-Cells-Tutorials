@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,13 +33,13 @@
 ก่อนที่เราจะเริ่มต้น ให้แน่ใจว่าคุณมีการตั้งค่าต่อไปนี้:
 
 **ห้องสมุดที่จำเป็น:**
-- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
+- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 
 **การตั้งค่าสภาพแวดล้อม:**
 - Java Development Kit (JDK) ติดตั้งอยู่บนเครื่องของคุณ
 - IDE เช่น IntelliJ IDEA, Eclipse หรือโปรแกรมแก้ไขข้อความใดๆ ที่รองรับ Java
 
-**ข้อกำหนดเบื้องต้นของความรู้:**
+**ข้อกำหนดความรู้เบื้องต้น:**
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ความคุ้นเคยกับการจัดการเส้นทางไฟล์ใน Java
 
@@ -190,6 +192,9 @@ workbook.save(outDir + "/RemoveActiveXControl_out.xlsx", SaveFormat.XLSX);
 ร่วมออกเดินทางกับ Aspose.Cells Java วันนี้และปลดล็อกศักยภาพทั้งหมดของการจัดการไฟล์ Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

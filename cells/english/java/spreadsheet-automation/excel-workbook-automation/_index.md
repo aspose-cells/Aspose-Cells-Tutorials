@@ -8,7 +8,9 @@ url: /java/spreadsheet-automation/excel-workbook-automation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Workbook Automation
@@ -110,9 +112,11 @@ Here are some common questions related to Excel Workbook Automation:
    You can refer to the API documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in-depth information and code samples.
 
 Feel free to explore more advanced features and capabilities of Aspose.Cells for Java to tailor your Excel automation needs. If you have any specific questions or need further assistance, please don't hesitate to ask.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Apprenez à créer et manipuler des classeurs et des tableaux croisés dynamiques Excel avec Aspose.Cells pour Java. Simplifiez vos analyses de données sans effort."
+"description": "Apprenez à créer et manipuler des classeurs et des tableaux croisés dynamiques Excel avec Aspose.Cells pour Java. Simplifiez vos tâches d'analyse de données sans effort."
 "title": "Maîtriser Aspose.Cells pour Java &#58; créer efficacement des classeurs et des tableaux croisés dynamiques Excel"
 "url": "/fr/java/data-analysis/aspose-cells-java-excel-pivottables/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,6 +178,9 @@ Ensuite, explorez les fonctionnalités supplémentaires d'Aspose.Cells, telles q
 - **Téléchargements :** Obtenez la dernière version d'Aspose.Cells pour Java sur leur site officiel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

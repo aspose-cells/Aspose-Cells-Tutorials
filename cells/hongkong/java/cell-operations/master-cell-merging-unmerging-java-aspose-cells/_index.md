@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 在資料管理中，有效地組織資訊對於提取有意義的見解至關重要。 Excel 表格通常包含零散的數據，可以透過將儲存格合併為統一的區塊來簡化這些數據，從而提高可讀性和視覺吸引力。 **Aspose.Cells for Java** 提供強大的單元格合併和取消合併功能來應對這些挑戰。
 
-本教學將指導您使用 Aspose.Cells for Java 合併和取消合併 Excel 檔案中的儲存格。透過遵循本綜合指南，您將獲得這些功能的實際應用實務經驗。
+本教學指導您使用 Aspose.Cells for Java 合併和取消合併 Excel 檔案中的儲存格。透過遵循本綜合指南，您將獲得這些功能的實際應用實務經驗。
 
 **您將學到什麼：**
 - 設定您的環境以使用 Aspose.Cells for Java。
@@ -200,6 +202,9 @@ workbook.save(outDir + "UnMURangeofCells_out.xlsx");
 - **支援和論壇：** 與社區互動 [Aspose 論壇](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ Teraz przyjrzyjmy się, jak zaimplementować podstawowe funkcje Aspose.Cells: ł
 Skoroszyty programu Excel często zawierają złożone formuły. Aspose.Cells pozwala obliczyć te wyniki formuł programowo, zapewniając dokładność przed dalszym przetwarzaniem.
 
 **Kroki:**
-1. **Wywołaj obliczenie wzoru:** Użyj `calculateFormula()` metoda aktualizująca wszystkie komórki obliczonymi wartościami.
+1. **Wywołaj obliczenie formuły:** Użyj `calculateFormula()` metoda aktualizująca wszystkie komórki obliczonymi wartościami.
    ```java
    wb.calculateFormula();
    ```
@@ -137,7 +139,7 @@ Konwersja skoroszytu programu Excel do formatu PDF jest niezbędna do udostępni
 
 Zrozumienie, jak ładować, obliczać i konwertować skoroszyty programu Excel, otwiera drzwi do różnych zastosowań w świecie rzeczywistym:
 1. **Automatyczne generowanie raportów:** Usprawnij tworzenie raportów na potrzeby analiz biznesowych, automatyzując przetwarzanie danych za pomocą formuł i konwertując raporty do plików PDF.
-2. **Przepływy pracy walidacji danych:** Przed wygenerowaniem dokumentów podsumowujących w formacie PDF wprowadź kontrole poprawności danych finansowych w arkuszach Excela.
+2. **Przepływy pracy weryfikacji danych:** Przed wygenerowaniem dokumentów podsumowujących w formacie PDF wprowadź kontrole poprawności danych finansowych w arkuszach Excela.
 3. **Udostępnianie danych między platformami:** Konwertuj złożone skoroszyty programu Excel do plików PDF, aby łatwo udostępniać je na różnych platformach i nie mieć problemów ze zgodnością.
 
 ## Rozważania dotyczące wydajności
@@ -172,6 +174,9 @@ A: Oczywiście! Możesz łatwo iterować zbiór plików Excela, stosując to sam
 A: Aspose.Cells obsługuje różne ustawienia regionalne, które można skonfigurować podczas operacji zapisywania.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

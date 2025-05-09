@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Az Aspose.Cells teljes használatához licencet kell beszereznie:
 - **Ingyenes próbaverzió**Töltsd le és kezdd el a próbaverziót az azonnali hozzáféréshez.
 - **Ideiglenes engedély**: Jelentkezz rá, ha kibővített értékelési lehetőségeket szeretnél.
-- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását.
+- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni a licenc megvásárlását.
 
 Miután elkészült a licencfájl, inicializálja azt az alkalmazásban az alábbiak szerint:
 
@@ -174,6 +176,9 @@ Készen állsz a további kihívásokra? Vezesd be ezt a megoldást, és nézd m
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

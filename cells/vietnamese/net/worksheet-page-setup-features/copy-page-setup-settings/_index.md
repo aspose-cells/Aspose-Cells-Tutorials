@@ -1,14 +1,16 @@
 ---
-title: Sao chép thiết lập trang từ nguồn đến trang tính đích
-linktitle: Sao chép thiết lập trang từ nguồn đến trang tính đích
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sao chép cài đặt thiết lập trang giữa các trang tính bằng Aspose.Cells cho .NET! Hướng dẫn nhanh chóng và dễ dàng dành cho nhà phát triển.
-weight: 10
-url: /vi/net/worksheet-page-setup-features/copy-page-setup-settings/
+"description": "Tìm hiểu cách sao chép cài đặt thiết lập trang giữa các trang tính bằng Aspose.Cells cho .NET! Hướng dẫn nhanh chóng và dễ dàng dành cho nhà phát triển."
+"linktitle": "Sao chép thiết lập trang từ nguồn đến trang tính đích"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sao chép thiết lập trang từ nguồn đến trang tính đích"
+"url": "/vi/net/worksheet-page-setup-features/copy-page-setup-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép thiết lập trang từ nguồn đến trang tính đích
@@ -18,7 +20,7 @@ Bạn đã bao giờ thấy mình phải xử lý nhiều trang tính trong Exce
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào phần mã hóa, hãy đảm bảo rằng bạn có mọi thứ cần thiết để thực hiện thành công hướng dẫn này. Sau đây là các điều kiện tiên quyết:
 1. Kiến thức cơ bản về lập trình C#: Mặc dù các ví dụ mã hóa khá đơn giản, nhưng việc quen thuộc với C# sẽ giúp bạn hiểu các khái niệm tốt hơn.
-2.  Thư viện Aspose.Cells: Để bắt đầu, bạn nên cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Nếu bạn chưa cài đặt, hãy truy cập[Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
+2. Thư viện Aspose.Cells: Để bắt đầu, bạn nên cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Nếu bạn chưa cài đặt, hãy truy cập [Trang Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
 3. Visual Studio hoặc bất kỳ IDE C# nào: Bạn sẽ cần một Môi trường phát triển tích hợp (IDE) được thiết lập để lập trình C#. Visual Studio được khuyến khích sử dụng vì các tính năng mạnh mẽ của nó.
 4. .NET Framework: Đảm bảo dự án của bạn đang nhắm tới phiên bản .NET framework tương thích, hoạt động tốt với Aspose.Cells.
 5. Hiểu biết cơ bản về Workbook và Worksheet: Điều cần thiết là phải biết Workbook và Worksheet là gì trong Excel vì chúng ta sẽ thao tác với chúng trong suốt hướng dẫn này.
@@ -32,7 +34,7 @@ using System;
 ```
 Các không gian tên này cung cấp các lớp thiết yếu để tạo sổ làm việc, thêm bảng tính và quản lý các thuộc tính thiết lập trang.
 ## Bước 1: Tạo một Workbook mới
-Để bắt đầu, chúng ta cần tạo một sổ làm việc mới. Hãy nghĩ về sổ làm việc như một bức tranh của bạn, sẵn sàng chứa nhiều trang tính có dữ liệu quan trọng. Sau đây là cách chúng tôi thực hiện:
+Để bắt đầu, chúng ta cần tạo một sổ làm việc mới. Hãy nghĩ về sổ làm việc như một bức tranh của bạn, sẵn sàng chứa nhiều trang tính có dữ liệu quan trọng. Sau đây là cách chúng ta thực hiện:
 ```csharp
 Workbook wb = new Workbook();
 ```
@@ -83,16 +85,18 @@ Và bạn đã có nó! Bạn đã học thành công cách sao chép cài đặ
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ để quản lý các tệp Excel, cho phép các nhà phát triển tạo, thao tác và chuyển đổi bảng tính theo chương trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Vâng! Bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/) để thử nghiệm các tính năng, nhưng đối với các dự án dài hạn, nên mua giấy phép.
+Vâng! Bạn có thể sử dụng [dùng thử miễn phí](https://releases.aspose.com/) để thử nghiệm các tính năng, nhưng đối với các dự án dài hạn, nên mua giấy phép.
 ### Tôi có thể nhận được hỗ trợ kỹ thuật bằng cách nào?
-Bạn có thể truy cập hỗ trợ kỹ thuật thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) nơi các chuyên gia có thể hỗ trợ giải đáp thắc mắc của bạn.
+Bạn có thể truy cập hỗ trợ kỹ thuật thông qua [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) nơi các chuyên gia có thể hỗ trợ giải đáp thắc mắc của bạn.
 ### Có giấy phép tạm thời không?
- Có, nếu bạn muốn kiểm tra toàn bộ khả năng của Aspose.Cells, bạn có thể đăng ký[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để sử dụng thư viện trong thời gian có hạn.
+Có, nếu bạn muốn kiểm tra toàn bộ khả năng của Aspose.Cells, bạn có thể đăng ký [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để sử dụng thư viện trong thời gian có hạn.
 ### Tôi có thể tùy chỉnh các tùy chọn thiết lập trang của mình không?
 Chắc chắn rồi! Aspose.Cells cung cấp nhiều tùy chọn để tùy chỉnh thiết lập trang—bao gồm lề, đầu trang, chân trang và nhiều tùy chọn khác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

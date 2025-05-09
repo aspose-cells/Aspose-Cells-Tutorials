@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # गतिशील पिवट तालिकाएँ
@@ -107,9 +109,11 @@ pivotTable.calculateData();
 ### प्रश्न 5: क्या Aspose.Cells एक्सेल की उन्नत पिवट टेबल सुविधाओं का समर्थन करता है?
 
 हां, Aspose.Cells एक्सेल की उन्नत पिवट टेबल सुविधाओं के लिए व्यापक समर्थन प्रदान करता है, जिससे आप जटिल पिवट टेबल बना सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

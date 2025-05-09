@@ -1,14 +1,16 @@
 ---
-title: ปรับเปลี่ยนแผนภูมิเส้น
-linktitle: ปรับเปลี่ยนแผนภูมิเส้น
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีปรับเปลี่ยนแผนภูมิเส้นใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 15
-url: /th/net/manipulating-chart-types/modify-line-chart/
+"description": "เรียนรู้วิธีปรับเปลี่ยนแผนภูมิเส้นใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "ปรับเปลี่ยนแผนภูมิเส้น"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ปรับเปลี่ยนแผนภูมิเส้น"
+"url": "/th/net/manipulating-chart-types/modify-line-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปรับเปลี่ยนแผนภูมิเส้น
@@ -22,20 +24,20 @@ url: /th/net/manipulating-chart-types/modify-line-chart/
 ก่อนที่เราจะลงรายละเอียดเกี่ยวกับการปรับแต่งแผนภูมิ เรามาตรวจสอบก่อนว่าคุณได้เตรียมทุกอย่างที่จำเป็นเพื่อเริ่มต้นใช้งานแล้ว นี่คือข้อกำหนดเบื้องต้นที่สำคัญ:
 
 ### ติดตั้ง Visual Studio
- คุณจะต้องติดตั้ง Visual Studio บนเครื่องของคุณเพื่อเขียนและรันโค้ด C# ได้อย่างมีประสิทธิภาพ หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์ของ Visual Studio](https://visualstudio.microsoft.com/).
+คุณจะต้องติดตั้ง Visual Studio ลงในเครื่องของคุณเพื่อเขียนและรันโค้ด C# ได้อย่างมีประสิทธิภาพ หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์ของ Visual Studio](https://visualstudio-microsoft.com/).
 
 ### ดาวน์โหลด Aspose.Cells สำหรับ .NET
- หากต้องการใช้ Aspose.Cells คุณต้องมีไลบรารี คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้อย่างง่ายดายจาก[ลิงค์นี้](https://releases.aspose.com/cells/net/).
+หากต้องการใช้ Aspose.Cells คุณจะต้องมีไลบรารี คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้อย่างง่ายดายจาก [ลิงค์นี้](https://releases-aspose.com/cells/net/).
 
 ### ความรู้พื้นฐานเกี่ยวกับ C#
 แม้ว่าเราจะอธิบายทุกอย่างทีละขั้นตอน แต่ความเข้าใจพื้นฐานเกี่ยวกับ C# จะช่วยให้คุณนำทางผ่านบทช่วยสอนนี้ได้อย่างราบรื่น
 
 ### ไฟล์ Excel ที่มีอยู่
- ตรวจสอบให้แน่ใจว่าคุณมีไฟล์ Excel พร้อมแผนภูมิเส้น เราจะทำงานกับไฟล์ชื่อ`sampleModifyLineChart.xlsx`ก็ให้มีสิ่งนั้นอยู่ในมือด้วยเช่นกัน 
+ตรวจสอบให้แน่ใจว่าคุณมีไฟล์ Excel พร้อมแผนภูมิเส้น เราจะทำงานกับไฟล์ชื่อ `sampleModifyLineChart.xlsx`ก็ให้มีสิ่งนั้นอยู่ในมือด้วยเช่นกัน 
 
 ## แพ็คเกจนำเข้า
 
-ในการเริ่มต้น เราจะต้องตั้งค่าโครงการโดยนำเข้าเนมสเปซที่จำเป็น วิธีดำเนินการมีดังต่อไปนี้:
+ในการเริ่มต้น เราจะต้องตั้งค่าโครงการโดยนำเข้าเนมสเปซที่จำเป็น วิธีดำเนินการมีดังนี้:
 
 ### สร้างโครงการใหม่ใน Visual Studio
 เปิด Visual Studio และสร้างโปรเจ็กต์ C# Console Application ใหม่ ตั้งชื่อตามความเกี่ยวข้อง เช่น "LineChartModifier"
@@ -44,7 +46,7 @@ url: /th/net/manipulating-chart-types/modify-line-chart/
 ในโปรเจ็กต์ของคุณ คลิกขวาที่ "ข้อมูลอ้างอิง" และเลือก "เพิ่มข้อมูลอ้างอิง" ค้นหา Aspose.Cells และเพิ่มลงในโปรเจ็กต์ของคุณ
 
 ### นำเข้าเนมสเปซที่จำเป็น
- ที่ด้านบนของคุณ`Program.cs`คุณจะต้องนำเข้าเนมสเปซที่จำเป็น:
+ที่ด้านบนของคุณ `Program.cs`คุณจะต้องนำเข้าเนมสเปซที่จำเป็น:
 
 ```csharp
 using Aspose.Cells;
@@ -154,19 +156,21 @@ Console.WriteLine("ModifyLineChart executed successfully.");
 ใช่ คุณสามารถปรับเปลี่ยนแผนภูมิประเภทต่างๆ (เช่น แผนภูมิแท่ง แผนภูมิวงกลม ฯลฯ) ได้ด้วยวิธีการที่คล้ายกัน
 
 ### มี Aspose.Cells เวอร์ชันทดลองใช้งานหรือไม่
- แน่นอนครับ! สามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+แน่นอนครับ! สามารถทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะเปลี่ยนประเภทแผนภูมิหลังจากเพิ่มชุดข้อมูลได้อย่างไร
-คุณสามารถใช้`ChartType` คุณสมบัติในการกำหนดประเภทแผนภูมิใหม่ให้กับแผนภูมิของคุณ
+คุณสามารถใช้ `ChartType` คุณสมบัติในการกำหนดประเภทแผนภูมิใหม่ให้กับแผนภูมิของคุณ
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน
- ตรวจสอบเอกสารประกอบ[ที่นี่](https://reference.aspose.com/cells/net/).
+ตรวจสอบเอกสารประกอบ [ที่นี่](https://reference-aspose.com/cells/net/).
 
 ### จะเกิดอะไรขึ้นหากฉันพบปัญหาขณะใช้ Aspose.Cells?
- อย่าลืมขอความช่วยเหลือจากฟอรัมสนับสนุน Aspose[ที่นี่](https://forum.aspose.com/c/cells/9).
+อย่าลืมขอความช่วยเหลือจากฟอรัมสนับสนุน Aspose [ที่นี่](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

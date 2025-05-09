@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 لاستخدام Aspose.Cells لجافا، يمكنك البدء بفترة تجريبية مجانية لاستكشاف ميزاته. للاستخدام الممتد، يُنصح بالحصول على ترخيص مؤقت أو كامل:
 
 - **نسخة تجريبية مجانية**:قم بتنزيل أحدث إصدار من [إصدارات Aspose](https://releases.aspose.com/cells/java/).
-- **رخصة مؤقتة**اطلب ترخيصًا مؤقتًا في [شراء Aspose](https://purchase.aspose.com/temporary-license/).
+- **رخصة مؤقتة**: اطلب ترخيصًا مؤقتًا في [شراء Aspose](https://purchase.aspose.com/temporary-license/).
 - **شراء**:للاستخدام التجاري، قم بشراء الترخيص مباشرة من خلال [شراء Aspose](https://purchase.aspose.com/buy).
 
 بمجرد إعداد المكتبة، ستكون جاهزًا لبدء الترميز.
@@ -218,6 +220,9 @@ workbook.save(outDir + "/AddinganArrowHead_out.xlsx");
 ج: نعم، حسّن الكود بتقليل إنشاء الكائنات داخل الحلقات، وراقب استخدام الذاكرة لمنع التسريبات. استخدم هياكل البيانات الفعّالة التي توفرها Aspose.Cells لتحسين الأداء.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

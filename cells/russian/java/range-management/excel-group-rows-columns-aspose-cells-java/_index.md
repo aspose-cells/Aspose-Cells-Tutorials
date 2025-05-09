@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ license.setLicense("path_to_license_file");
 ## Соображения производительности
 
 При работе с большими наборами данных в Aspose.Cells:
-- Оптимизируйте использование памяти, избавляясь от ненужных объектов после использования.
+- Оптимизируйте использование памяти, утилизируя объекты после использования.
 - Избегайте загрузки целых рабочих книг, если нужны только определенные данные.
 - Используйте потоки для обработки, чтобы сократить объем используемой памяти.
 
@@ -195,6 +197,9 @@ license.setLicense("path_to_license_file");
 - **Документация**: [Документация Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

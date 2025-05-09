@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel munkafüzet automatizálás
@@ -110,9 +112,11 @@ Ebben az oktatóanyagban az Excel-munkafüzet-automatizálás alapjait ismertett
    Az API dokumentációját itt tekintheti meg: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és kódmintákért.
 
 Fedezze fel az Aspose.Cells for Java fejlettebb funkcióit és képességeit, hogy az Excel automatizálási igényeihez igazítsa azokat. Ha bármilyen konkrét kérdése van, vagy további segítségre van szüksége, kérjük, ne habozzon megkérdezni.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

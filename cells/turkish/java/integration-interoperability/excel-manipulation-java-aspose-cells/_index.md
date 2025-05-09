@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'i Java ile Otomatikleştirin - Aspose.Cells kullanarak Tablolar ve Etkileşimli Grafikler Oluşturun
@@ -248,7 +250,7 @@ Bu güncellenmiş kodu çalıştırdığınızda, hem veri tablosunu hem de kar�
     * **Çözüm:** Formül sözdizimini iki kez kontrol edin ve `calculateFormula()` Gerektiğinde metod çağrılır.
 
 3.  **Grafik Oluşturma Sorunları:** Grafikler doğru şekilde görüntülenmiyor veya eksik veriler içeriyor.
-    * **Çözüm:** Grafik için belirtilen veri aralıklarını doğrulayın ve emin olun `chart.calculate()` Veriler ayarlandıktan sonra çağrılır.
+    * **Çözüm:** Grafik için belirtilen veri aralıklarını doğrulayın ve emin olun `chart.calculate()` veriler ayarlandıktan sonra çağrılır.
 
 ## Çözüm
 
@@ -287,6 +289,9 @@ Bu tekniklere hakim olarak Excel tabanlı iş akışlarınızı önemli ölçüd
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

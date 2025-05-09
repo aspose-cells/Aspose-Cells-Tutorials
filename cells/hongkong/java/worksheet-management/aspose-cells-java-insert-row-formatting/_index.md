@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@
 
 ## 設定 Aspose.Cells for Java
 
-若要開始在專案中使用 Aspose.Cells，請將其作為依賴項包含在內。以下是使用 Maven 或 Gradle 執行此操作的方法：
+若要開始在專案中使用 Aspose.Cells，請將其作為依賴項包含在內。使用 Maven 或 Gradle 執行此操作的方法如下：
 
 ### Maven
 將以下相依性新增至您的 `pom.xml` 文件：
@@ -158,6 +160,9 @@ workbook.save(dataDir + "InsertingARowWithFormatting_out.xlsx");
 準備好在您的 Java 應用程式中實作此解決方案了嗎？試試一下，看看 Aspose.Cells 如何簡化您的 Excel 檔案操作！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ Bu eğitimde, Aspose.Cells Java kullanarak bir Excel dosyasına biçimlendirmeyl
 ## Kaynaklar
 - **Belgeleme**: [Aspose.Cells Java Belgeleri](https://reference.aspose.com/cells/java/)
 - **İndirmek**: [Son Sürümler](https://releases.aspose.com/cells/java/)
-- **Satın almak**: [Java için Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
+- **Satın almak**: [Java için Aspose.Cells satın alın](https://purchase.aspose.com/buy)
 - **Ücretsiz Deneme**: [Ücretsiz Denemeye Başlayın](https://releases.aspose.com/cells/java/)
 - **Geçici Lisans**: [Geçici Lisans Alın](https://purchase.aspose.com/temporary-license/)
 - **Destek**: [Aspose Forumları](https://forum.aspose.com/c/cells/9)
@@ -158,6 +160,9 @@ Bu eğitimde, Aspose.Cells Java kullanarak bir Excel dosyasına biçimlendirmeyl
 Bu çözümü Java uygulamanızda uygulamaya hazır mısınız? Deneyin ve Aspose.Cells'in Excel dosya işlemlerinizi nasıl kolaylaştırabileceğini görün!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

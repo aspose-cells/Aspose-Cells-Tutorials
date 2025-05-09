@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ import com.aspose.cells.Worksheet;
 Worksheet sheet = worksheets.get(0);
 ```
 ### Accesso alla raccolta di celle di un foglio di lavoro
-Una volta selezionato il foglio di lavoro desiderato, accedi alla raccolta delle sue celle. Questo consente operazioni dettagliate a livello di cella.
+Una volta selezionato il foglio di lavoro desiderato, accedi alla sua raccolta di celle. Questo consente operazioni dettagliate a livello di cella.
 **Panoramica**: IL `Cells` L'oggetto consente di interagire con singole celle o gruppi di celle all'interno di un foglio di lavoro.
 ```java
 import com.aspose.cells.Cells;
@@ -134,6 +136,9 @@ prossimi passi potrebbero riguardare l'integrazione di queste funzionalità in p
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ line.setPlacement(PlacementType.FREE_FLOATING);
 ### Konfigurera linjeutseende (H2)
 
 #### Översikt
-Att anpassa utseendet på din rad kan få den att sticka ut eller förmedla specifik information.
+Att anpassa utseendet på din linje kan få den att sticka ut eller förmedla specifik information.
 
 **Steg 1: Importera färgklass**
 ```java
@@ -175,7 +177,7 @@ import com.aspose.cells.SaveFormat;
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // Ersätt med faktisk utdataväg
 workbook.save(outDir + "/AddinganArrowHead_out.xlsx");
 ```
-*Se till att byta ut `YOUR_OUTPUT_DIRECTORY` med önskad plats för att spara.*
+*Se till att byta ut `YOUR_OUTPUT_DIRECTORY` med önskad sparplats.*
 
 ## Praktiska tillämpningar (H2)
 
@@ -203,7 +205,7 @@ Du har nu lärt dig hur du skapar dynamiska Excel-rapporter med anpassade former
 
 Nästa steg inkluderar att utforska fler funktioner i biblioteket eller integrera dessa förbättringar i större projekt. Experimentera och skräddarsy lösningar som passar dina specifika behov.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 **F: Kan jag lägga till andra former med Aspose.Cells för Java?**
 A: Ja, Aspose.Cells stöder en mängd olika former utöver linjer, inklusive rektanglar och ovaler.
@@ -218,6 +220,9 @@ A: Få åtkomst till dem med hjälp av `getWorksheets().get(index)` med önskat 
 A: Ja, optimera koden genom att minimera objektskapandet inom loopar och övervaka minnesanvändningen för att förhindra läckor. Använd effektiva datastrukturer från Aspose.Cells för bättre prestanda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

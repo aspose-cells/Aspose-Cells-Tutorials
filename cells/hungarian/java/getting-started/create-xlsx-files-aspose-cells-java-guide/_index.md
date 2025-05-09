@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Az Excel-fájlok programozott létrehozása kihívást jelenthet, de az Aspose.C
 **Amit tanulni fogsz:**
 - Hogyan integrálható az Aspose.Cells egy Java projektbe?
 - Munkafüzet objektum inicializálása
-- munkafüzet mentése XLSX fájlként
+- A munkafüzet mentése XLSX fájlként
 - Gyakori problémák elhárítása
 
 Kezdjük azzal, hogy megbizonyosodunk arról, hogy minden megvan, amire szükséged van ehhez az útmutatóhoz.
@@ -149,6 +151,9 @@ Ezzel az átfogó útmutatóval készen állsz arra, hogy kiaknázd az Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

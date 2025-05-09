@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Licentieverwerving
 - **Gratis proefperiode**: Start met een gratis proefperiode om Aspose.Cells te ontdekken.
-- **Tijdelijke licentie**: Vraag een tijdelijke vergunning aan voor uitgebreide evaluatie.
+- **Tijdelijke licentie**Vraag een tijdelijke vergunning aan voor uitgebreide evaluatie.
 - **Aankoop**: Voor langdurig gebruik, koop een commerciële licentie.
 
 #### Basisinitialisatie
@@ -203,6 +205,9 @@ Experimenteer met complexere XML-structuren of andere formaten die door Aspose.C
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,31 +1,33 @@
 ---
-title: Automaticky přizpůsobit řádky pro sloučené buňky Aspose.Cells .NET
-linktitle: Automaticky přizpůsobit řádky pro sloučené buňky Aspose.Cells .NET
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se, jak automaticky přizpůsobit řádky pro sloučené buňky pomocí Aspose.Cells pro .NET efektivně a zlepšit své dovednosti v automatizaci Excelu.
-weight: 14
-url: /cs/net/row-column-autofit-conversion/autofit-rows-merged-cells/
+"description": "Naučte se, jak efektivně automaticky přizpůsobit řádky sloučených buněk pomocí Aspose.Cells for .NET a vylepšete si své dovednosti v automatizaci práce s Excelem."
+"linktitle": "Automatické přizpůsobení řádků pro sloučené buňky Aspose.Cells .NET"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Automatické přizpůsobení řádků pro sloučené buňky Aspose.Cells .NET"
+"url": "/cs/net/row-column-autofit-conversion/autofit-rows-merged-cells/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Automaticky přizpůsobit řádky pro sloučené buňky Aspose.Cells .NET
+# Automatické přizpůsobení řádků pro sloučené buňky Aspose.Cells .NET
 
 ## Zavedení
-Už vás nebaví bojovat s nepředvídatelným chováním Excelu, pokud jde o sloučené buňky? Zkoušeli jste někdy přizpůsobit řádky obsahu, abyste našli tvrdohlavé prázdné místo? Tak to jste na správném místě! Tato příručka osvětlí, jak automaticky přizpůsobit řádky speciálně pro sloučené buňky pomocí Aspose.Cells pro .NET. Ponoříme se hluboko do základní dovednosti, díky které budou vaše dobrodružství s tabulkou méně jako bitva a spíše jako klidná procházka parkem. 
+Už vás nebaví potýkat se s podivným chováním Excelu při sloučení buněk? Už jste se někdy pokoušeli přizpůsobit řádky obsahu, ale našli jste jen tvrdohlavé prázdné místo? Jste na správném místě! Tato příručka vám osvětlí, jak automaticky přizpůsobit řádky konkrétně pro sloučené buňky pomocí Aspose.Cells pro .NET. Ponoříme se hlouběji do klíčové dovednosti, díky které se vaše dobrodružství s tabulkami budou cítit méně jako bitva a spíše jako klidná procházka parkem. 
 ## Předpoklady
-Než se pustíme do této kódovací cesty, je potřeba nastavit několik věcí:
-1. .NET Framework: Ujistěte se, že máte na svém počítači nainstalovanou kompatibilní verzi rozhraní .NET Framework.
-2.  Aspose.Cells pro .NET: Toto je zářící rytíř v našem hradu Excel. Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
-3. Nastavení IDE: Pro tento kurz můžete použít Visual Studio nebo jakékoli .NET kompatibilní IDE. Ujistěte se, že víte, jak vytvořit, spustit a ladit projekt. 
-4. Základní porozumění C#: Znalost provazů C# vám pomůže pokračovat, aniž byste zakopávali o koncepty. Pokud jste obeznámeni s programovým vytvářením souborů Excel a manipulací s nimi, stojíte již pevně na zemi!
-Pojďme rovnou do kódování!
-## Importujte balíčky
-Abychom měli přístup k funkcím poskytovaným Aspose.Cells, musíme do našeho projektu zahrnout potřebné jmenné prostory. Díky tomu může být celý proces čistší a lépe ovladatelný. Jak na to:
-### Přidejte odkaz do Aspose.Cells
-Začněte kliknutím pravým tlačítkem myši na svůj projekt v sadě Visual Studio a výběrem možnosti Přidat odkaz. Vyhledejte sestavení Aspose.Cells nebo jej nainstalujte pomocí NuGet:
+Než se vydáme na tuto cestu kódování, je třeba si připravit několik věcí:
+1. .NET Framework: Ujistěte se, že máte v počítači nainstalovanou kompatibilní verzi rozhraní .NET Framework.
+2. Aspose.Cells pro .NET: Toto je zářící rytíř v našem excelovém hradě. Můžete si ho stáhnout. [zde](https://releases.aspose.com/cells/net/).
+3. Nastavení IDE: Pro tento tutoriál můžete použít Visual Studio nebo jakékoli IDE kompatibilní s .NET. Ujistěte se, že jste obeznámeni s vytvářením, spouštěním a laděním projektu. 
+4. Základní znalost jazyka C#: Znalost základů jazyka C# vám pomůže sledovat program, aniž byste se museli zadrhávat o konkrétní koncepty. Pokud jste obeznámeni s programovým vytvářením a manipulací se soubory Excelu, už stojíte na pevné zemi!
+Pojďme se rovnou pustit do kódování!
+## Importovat balíčky
+Abychom mohli využívat funkce poskytované Aspose.Cells, musíme do našeho projektu zahrnout potřebné jmenné prostory. To může celý proces vyčistit a zjednodušit jeho správu. Postupujte takto:
+### Přidat odkaz na Aspose.Cells
+Začněte kliknutím pravým tlačítkem myši na váš projekt ve Visual Studiu a výběrem možnosti „Přidat referenci“. Vyhledejte sestavení Aspose.Cells nebo jej nainstalujte pomocí NuGetu:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -36,117 +38,119 @@ using Aspose.Cells;
 using System.Drawing;
 using System;
 ```
-Tento doplněk zpřístupňuje Aspose.Cells pro použití v našem kódu. Nyní můžeme začít naše kódovací dobrodružství!
-Pojďme si náš příklad rozdělit na stravitelné kroky!
-## Krok 1: Nastavte výstupní adresář
-Než začneme kódovat, musíme definovat náš výstupní adresář. Zde bude umístěn náš nově vytvořený soubor Excel.
+Díky tomuto doplnění můžeme Aspose.Cells použít v našem kódu. Nyní můžeme začít s našimi programátorskými dobrodružstvími!
+Rozdělme si náš příklad na srozumitelné kroky!
+## Krok 1: Nastavení výstupního adresáře
+Než začneme s kódováním, musíme definovat náš výstupní adresář. Zde bude umístěn náš nově vytvořený soubor Excel.
 ```csharp
 // Výstupní adresář
-string outputDir = "Your Document Directory"; // Ujistěte se, že to přizpůsobíte své vlastní cestě.
+string outputDir = "Your Document Directory"; // Nezapomeňte si to přizpůsobit své vlastní cestě.
 ```
-Představte si to jako přípravu jeviště před naším vystoupením; zajišťuje, že po dokončení našeho úkolu bude vše na správném místě.
-## Krok 2: Vytvořte nový sešit
-Vytvoření sešitu je snadné jako facka! Jak na to:
+Představte si to jako přípravu pódia před naším vystoupením; zajistí to, že až dokončíme úkol, bude vše na správném místě.
+## Krok 2: Vytvoření instance nového sešitu
+Vytvoření sešitu je hračka! Zde je návod, jak na to:
 ```csharp
-// Vytvořte nový sešit
+// Vytvořit instanci nového sešitu
 Workbook wb = new Workbook();
 ```
-Tento řádek kódu vytvoří nový prázdný sešit aplikace Excel, do kterého můžeme začít vkládat data.
+Tento řádek kódu vytvoří nový, prázdný sešit aplikace Excel, do kterého můžeme začít vkládat data.
 ## Krok 3: Získejte první pracovní list
 Dále chceme pracovat s prvním listem v našem sešitu:
 ```csharp
-// Získejte první (výchozí) list
+// Získejte první (výchozí) pracovní list
 Worksheet _worksheet = wb.Worksheets[0];
 ```
-Berte to jako otevření prázdného plátna, kde budeme malovat naše datové mistrovské dílo.
-## Krok 4: Vytvořte rozsah a sloučte buňky
-Nyní je čas vytvořit řadu buněk a sloučit je:
+Představte si to jako otevření prázdného plátna, na kterém budeme malovat naše datové mistrovské dílo.
+## Krok 4: Vytvoření rozsahu a sloučení buněk
+Nyní je čas vytvořit oblast buněk a sloučit je:
 ```csharp
-// Vytvořte oblast A1:B1
+// Vytvořte rozsah A1:B1
 Range range = _worksheet.Cells.CreateRange(0, 0, 1, 2);
 // Sloučit buňky
 range.Merge();
 ```
-Sloučením buněk A1 a B1 je v podstatě spojíme do jedné větší buňky – ideální pro uložení většího množství textu. 
-## Krok 5: Vložte hodnotu do sloučené buňky
-Nyní do naší nově sloučené buňky přidáme nějaký obsah:
+Sloučením buněk A1 a B1 je v podstatě sjednotíme do jedné větší buňky – ideální pro uložení většího množství textu. 
+## Krok 5: Vložení hodnoty do sloučené buňky
+Nyní přidáme do nově sloučené buňky nějaký obsah:
 ```csharp
-// Vložte hodnotu do sloučené buňky A1
+// Vložit hodnotu do sloučené buňky A1
 _worksheet.Cells[0, 0].Value = "A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog....end";
 ```
-Tento krok je podobný vyplnění našeho plátna zářivými barvami. Čím více textu zahrneme, tím více místa budeme potřebovat, abychom vše přesně zobrazili!
+Tento krok je podobný vyplnění našeho plátna zářivou barvou. Čím více textu zahrneme, tím více místa budeme potřebovat k přesnému zobrazení všeho!
 ## Krok 6: Vytvořte objekt stylu
-Chceme se ujistit, že se náš text dobře vejde do sloučené buňky. Vytvořme objekt stylu, který nám s tím pomůže:
+Chceme se ujistit, že se náš text pěkně vejde do sloučené buňky. Vytvořme si stylový objekt, který nám s tím pomůže:
 ```csharp
-// Vytvořte objekt stylu
+// Vytvoření stylového objektu
 Aspose.Cells.Style style = _worksheet.Cells[0, 0].GetStyle();
 ```
-Tento řádek zachycuje aktuální nastavení stylu pro naši buňku, což nám umožňuje jej dále upravovat.
-## Krok 7: Nastavte obtékání textu
+Tento řádek zachycuje aktuální nastavení stylu pro naši buňku, což nám umožňuje jej dále přizpůsobit.
+## Krok 7: Nastavení obtékání textu
 Dále povolíme zalamování textu pro sloučenou buňku:
 ```csharp
-// Zapnout obtékání textu
+// Nastavit obtékání textu
 style.IsTextWrapped = true;
 ```
-Povolení obtékání textu je jako úprava okrajů v dokumentu aplikace Word; pomáhá to, aby se náš text úhledně vešel, aniž by se rozléval do propasti sousedních buněk.
-## Krok 8: Použijte styl na buňku
-Potřebujeme použít tento elegantní nový styl zpět na naši sloučenou buňku:
+Povolení zalamování textu je jako úprava okrajů v dokumentu Wordu; pomáhá to úhledně vejít text, aniž by se rozlil do propasti sousedních buněk.
+## Krok 8: Použití stylu na buňku
+Tenhle nový elegantní styl musíme aplikovat zpět na naši sloučenou buňku:
 ```csharp
-// Použijte styl na buňku
+// Použití stylu na buňku
 _worksheet.Cells[0, 0].SetStyle(style);
 ```
-Je čas uvést všechny tyto změny stylu do praxe!
-## Krok 9: Vytvořte objekt AutoFitterOptions
-Nyní se pojďme pustit do hrubšího automatického přizpůsobení:
+Je čas uvést všechny ty stylové změny do praxe!
+## Krok 9: Vytvoření objektu AutoFitterOptions
+A teď se pojďme podívat na detail automatického přizpůsobení:
 ```csharp
 // Vytvořte objekt pro AutoFitterOptions
 AutoFitterOptions options = new AutoFitterOptions();
 ```
-Pomocí AutoFitterOptions můžeme ovládat, jak se funkce automatického přizpůsobení chová pro naše sloučené buňky.
-## Krok 10: Nastavte možnost Auto-Fit pro sloučené buňky
-Nastavíme konkrétní možnost automatického přizpůsobení:
+Pomocí AutoFitterOptions můžeme ovládat, jak se funkce automatického přizpůsobení chová pro sloučené buňky.
+## Krok 10: Nastavení možnosti automatického přizpůsobení pro sloučené buňky
+Nastavme si konkrétní možnost automatického přizpůsobení:
 ```csharp
-// Nastavit automatické přizpůsobení pro sloučené buňky
+// Nastavení automatického přizpůsobení pro sloučené buňky
 options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
 ```
-To znamená, že při úpravě výšky řádku bude započítán každý řádek textu v našich sloučených buňkách. Docela pěkné, že?
-## Krok 11: Automaticky přizpůsobit řádky v listu
-Nyní můžeme konečně využít kouzla Excelu k automatickému přizpůsobení našich řádků:
+To znamená, že při úpravě výšky řádku bude započítán každý řádek textu v našich sloučených buňkách. Docela úhledné, že?
+## Krok 11: Automatické přizpůsobení řádků v pracovním listu
+Nyní se konečně můžeme obrátit na kouzlo Excelu, které nám automaticky přizpůsobí řádky:
 ```csharp
-//Automaticky přizpůsobit řádky v listu (včetně sloučených buněk)
+// Automatické přizpůsobení řádků v listu (včetně sloučených buněk)
 _worksheet.AutoFitRows(options);
 ```
-V tomto okamžiku by se řádky v našem listu měly natáhnout a stáhnout, aby krásně předvedly obsah. 
+V tomto okamžiku by se řádky v našem listu měly roztahovat a smršťovat, aby se obsah krásně zobrazil. 
 ## Krok 12: Uložte soubor Excel
-Abychom mohli věci dokončit, musíme naši práci uložit:
+Abychom to dokončili, musíme si uložit naši práci:
 ```csharp
-// Uložte soubor aplikace Excel
+// Uložte soubor Excelu
 wb.Save(outputDir + "AutofitRowsforMergedCells.xlsx");
 ```
-Ujistěte se, že jste se podívali do svého výstupního adresáře, abyste našli svůj nově vytvořený soubor Excel, připravený zapůsobit na každého, kdo ho uvidí!
-## Krok 14: Potvrďte provedení
-Na závěr neuškodí malé potvrzení:
+Nezapomeňte zkontrolovat výstupní adresář, kde najdete nově vytvořený soubor Excelu, který ohromí každého, kdo ho uvidí!
+## Krok 14: Potvrzení provedení
+Nakonec malé potvrzení neuškodí:
 ```csharp
 Console.WriteLine("AutofitRowsforMergedCells executed successfully.\r\n");
 ```
-To zajišťuje, že víte, že při provádění kódu nedošlo k žádným škytavkám. Nyní se můžete posadit, relaxovat a obdivovat plody své práce!
+Díky tomu máte jistotu, že při provádění kódu nedošlo k žádným zádrhelům. Nyní se můžete pohodlně usadit, relaxovat a obdivovat plody své práce!
 ## Závěr
-V několika krocích jsme odhalili záhadu automatického přizpůsobování řádků pro sloučené buňky v Excelu pomocí Aspose.Cells for .NET. Dodržováním této příručky jste nejen získali cenné dovednosti, ale také jste se zbavili frustrace z problémů s formátováním v Excelu. Ať už spravujete data pro projekt v práci nebo si vytváříte osobní rozpočet, tyto dovednosti se vám jistě budou hodit.
-Tak proč to nezkusit? Ponořte se do svého editoru kódu a začněte experimentovat s tím, co jste se dnes naučili. Vaše budoucí já (a všichni spolupracovníci, kteří někdy uvidí vaše tabulky) vám poděkují.
-## FAQ
+několika krocích jsme odhalili záhadu automatického přizpůsobení řádků sloučeným buňkám v Excelu pomocí Aspose.Cells pro .NET. Dodržováním tohoto návodu jste nejen získali cennou dovednost, ale také se osvobodili od frustrací spojených s problémy s formátováním v Excelu. Ať už spravujete data pro pracovní projekt nebo vytváříte osobní rozpočet, tyto dovednosti se vám jistě budou hodit.
+Tak proč to nezkusit? Ponořte se do editoru kódu a začněte experimentovat s tím, co jste se dnes naučili. Vaše budoucí já (a všichni kolegové, kteří by se mohli kdy podívat na vaše tabulky) vám poděkují.
+## Často kladené otázky
 ### Co je Aspose.Cells?
-Aspose.Cells je výkonná knihovna .NET, která umožňuje vytvářet, manipulovat a převádět soubory Excelu programově.
+Aspose.Cells je výkonná knihovna .NET, která umožňuje programově vytvářet, manipulovat a převádět soubory aplikace Excel.
 ### Mohu používat Aspose.Cells zdarma?
- Ano! Aspose.Cells poskytuje bezplatnou zkušební verzi, kterou můžete použít k prozkoumání jeho funkcí. Jen hlavu[zde](https://releases.aspose.com/) začít.
+Ano! Aspose.Cells nabízí bezplatnou zkušební verzi, kterou můžete využít k prozkoumání jeho funkcí. Stačí se podívat [zde](https://releases.aspose.com/) začít.
 ### Jak nainstaluji Aspose.Cells?
- Můžete jej snadno nainstalovat pomocí NuGet ve Visual Studiu pomocí příkazu:`Install-Package Aspose.Cells`.
-### Jaké programovací jazyky mohu používat s Aspose.Cells?
-Aspose.Cells, který je navržen především pro .NET, lze také použít s jinými jazyky kompatibilními s .NET, jako je C# a VB.NET.
+Můžete jej snadno nainstalovat pomocí NuGetu ve Visual Studiu pomocí příkazu: `Install-Package Aspose.Cells`.
+### Jaké programovací jazyky mohu použít s Aspose.Cells?
+Aspose.Cells, navržený především pro .NET, lze také použít s dalšími jazyky kompatibilními s .NET, jako jsou C# a VB.NET.
 ### Kde najdu podporu pro Aspose.Cells?
- Nápovědu a zdroje naleznete na fóru Aspose[zde](https://forum.aspose.com/c/cells/9).
+Pomoc a zdroje najdete na fóru Aspose. [zde](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

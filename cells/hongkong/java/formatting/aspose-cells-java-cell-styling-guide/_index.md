@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 3. **如果我的工作簿包含多張工作表怎麼辦？**
    - 使用 `getWorksheets().get(index)` 方法。
 4. **如何有效率地處理大型 Excel 文件？**
-   - 使用 Aspose 的串流功能分塊處理資料並優化記憶體使用。
+   - 使用 Aspose 的流功能分塊處理資料並優化記憶體使用。
 5. **在哪裡可以找到其他樣式選項？**
    - 諮詢 [Aspose.Cells for Java文檔](https://reference。aspose.com/cells/java/).
 ## 資源
@@ -142,6 +144,9 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

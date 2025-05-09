@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-worksheet-password/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Entire Worksheet with Password using Aspose.Cells
@@ -114,6 +116,7 @@ Yes! Aspose.Cells offers a [free trial](https://releases.aspose.com/) so you can
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/data-validation-rules/data-validation-error-messages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Validation Error Messages
@@ -111,6 +113,7 @@ You can catch validation errors and display customized error messages to users, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

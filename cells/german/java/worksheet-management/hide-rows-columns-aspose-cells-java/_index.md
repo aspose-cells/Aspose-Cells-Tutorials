@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Sie haben gelernt, wie Sie Aspose.Cells mit Java verwenden, um bestimmte Zeilen 
 Bereit, Ihr Excel-Dateimanagement zu verbessern? Implementieren Sie diese Lösungen noch heute in Ihren Projekten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

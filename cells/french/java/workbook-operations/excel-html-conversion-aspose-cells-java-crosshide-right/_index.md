@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Explorez les fonctionnalités supplémentaires d'Aspose.Cells telles que la conv
 Ce didacticiel sert de guide complet pour la conversion de fichiers Excel en HTML à l'aide d'Aspose.Cells pour Java, garantissant clarté et fonctionnalité dans vos présentations Web.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

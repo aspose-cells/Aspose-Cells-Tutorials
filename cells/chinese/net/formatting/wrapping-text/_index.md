@@ -1,49 +1,54 @@
 ---
-title: 在 Excel 细胞中使用 .NET 的 Aspose.Cells 包装文本
-weight: 7700
-limit: 
-description: 了解如何用 .NET 的Aspose.Cells来包装Excel 细胞中的文本.本指南包括创建一个工作簿,添加一个工作表,以及应用文本包装.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /zh/net/formatting/wrapping-text/
----  
+"description": "学习如何使用 Aspose.Cells for .NET 在 Excel 单元格中自动换行。本指南涵盖创建工作簿、添加工作表以及应用文本换行。"
+"title": "使用 Aspose.Cells for .NET 在 Excel 单元格中换行"
+"url": "/zh/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# 使用 Aspose.Cells 在 Excel 单元格中换行 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+在 Excel 单元格中自动换行可确保长文本条目完全可见，而不会增加列宽。使用 Aspose.Cells for .NET，您可以以编程方式将文本换行应用于 Excel 工作表中的任何单元格。本教程将指导您创建新的 Excel 工作簿、添加工作表、在单元格中插入文本以及启用文本换行。按照这些步骤，您可以在 C# 应用程序中高效地格式化 Excel 文档。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明:  
-为了使用 .NET 的Aspose.Cells,请按照以下步骤进行:  
+## 安装说明：  
+要使用 Aspose.Cells for .NET，请按照以下步骤操作：  
 
-1. 通过 NuGet 安装:  
-   * 开放视觉工作室.  
-   * 导航到工具 → NuGet 包管理器 → 解决方案管理 NuGet 包.  
-   * 搜索Aspose.Cells并单击安装.  
+1. 通过 NuGet 安装：  
+   - 打开 Visual Studio。  
+   - 导航到工具 → NuGet 包管理器 → 管理解决方案的 NuGet 包。  
+   - 搜索 Aspose.Cells 并单击安装。  
 
-2. 通过包管理器控制台安装:  
-   * 开放工具 → NuGet 包管理器 → 包管理器控制台.  
-   * 运行命令:  
+2. 通过程序包管理器控制台安装：  
+   - 打开工具 → NuGet 包管理器 → 包管理器控制台。  
+   - 运行以下命令：  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. 随手添加参考:  
-   * 下载 .NET DLL 的Aspose.Cells[射释放](https://releases.aspose.com/)现在,我们要去.  
-   * 加入下载的Aspose.Cells.dll到您的项目参考.  
-## 查看  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+3. 手动添加参考：  
+   - 从以下位置下载 Aspose.Cells for .NET DLL [Aspose 版本](https://releases。aspose.com/).  
+   - 将下载的 Aspose.Cells.dll 添加到您的项目引用中。  
+## 另请参阅  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

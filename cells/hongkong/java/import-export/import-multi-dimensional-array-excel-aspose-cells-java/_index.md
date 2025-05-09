@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ Cells cells = workbook.getWorksheets().get("Sheet1").getCells();
 #### 步驟 3：定義資料數組
 將資料準備為二維數組：
 ```java
-// 定義一個二維字串陣列來儲存將匯入到 Excel 的資料。
+// 定義一個二維字串陣列來儲存將導入 Excel 的資料。
 String[][] strArray = { { "A", "1A", "2A" }, { "B", "2B", "3B" } };
 ```
 
@@ -117,7 +119,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 
 處理大型資料集時，請考慮以下事項：
 - 盡可能使用批次處理。
-- 透過在 Java 程式碼中有效管理物件生命週期來優化記憶體使用情況。
+- 透過在 Java 程式碼中有效管理物件生命週期來優化記憶體使用量。
 - 利用 Aspose.Cells 的內建優化功能來處理大型 Excel 檔案。
 
 ## 結論
@@ -157,6 +159,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

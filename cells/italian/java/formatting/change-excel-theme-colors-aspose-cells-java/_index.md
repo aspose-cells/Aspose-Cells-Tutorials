@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ public class SetupAsposeCells {
 }
 ```
 
-Questo semplice frammento di codice dimostra come creare un'istanza di `Workbook` classe, che è fondamentale per tutte le operazioni in Aspose.Cells.
+Questo semplice frammento di codice mostra come creare un'istanza di `Workbook` classe, che è fondamentale per tutte le operazioni in Aspose.Cells.
 
 ## Guida all'implementazione
 
@@ -196,6 +198,9 @@ prossimi passi includono la sperimentazione di altre funzionalità di Aspose.Cel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

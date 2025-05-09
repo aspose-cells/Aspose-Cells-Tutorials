@@ -7,25 +7,27 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menonaktifkan Skrip Bingkai dan Properti Dokumen Selama Ekspor HTML dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengekspor buku kerja Excel sebagai HTML sambil memastikan bahwa skrip bingkai dan properti dokumen dikecualikan? Tutorial ini akan memandu Anda melalui penggunaan **Aspose.Cells untuk Java** untuk mencegah skrip bingkai dan properti dokumen diekspor selama konversi HTML. Dengan mengikuti panduan langkah demi langkah ini, Anda akan mempelajari cara mengendalikan keluaran data secara efektif untuk presentasi web yang lebih aman dan efisien.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Pentingnya menonaktifkan ekspor skrip dalam konversi HTML
 - Menyiapkan Aspose.Cells untuk Java di lingkungan pengembangan Anda
 - Menerapkan fitur untuk menonaktifkan pengeksporan skrip bingkai dan properti dokumen
-- Aplikasi praktis dan pertimbangan kinerja
+- Gyakorlati alkalmazások és teljesítménybeli szempontok
 
 Sekarang, mari kita lihat prasyarat yang Anda perlukan sebelum kita mulai.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai dengan **Aspose.Cells untuk Java**, pastikan Anda memiliki hal berikut ini:
 
@@ -35,7 +37,7 @@ Sebelum memulai dengan **Aspose.Cells untuk Java**, pastikan Anda memiliki hal b
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda, ikuti langkah-langkah berikut:
+Az Aspose.Cells projektbe való integrálásához kövesse az alábbi lépéseket:
 
 ### Instalasi Maven
 Tambahkan ketergantungan ini di `pom.xml` file untuk menyertakan Aspose.Cells untuk Java:
@@ -53,27 +55,27 @@ Untuk proyek yang menggunakan Gradle, tambahkan baris berikut ke `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
-1. **Uji Coba Gratis**Unduh lisensi uji coba gratis dari [Situs web Aspose](https://releases.aspose.com/cells/java/) untuk menjelajahi kemampuan Aspose.Cells tanpa batasan.
-2. **Lisensi Sementara**:Jika Anda memerlukan lebih banyak waktu untuk evaluasi, pertimbangkan untuk mengajukan lisensi sementara di [tautan ini](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian**:Untuk akses penuh dan pembaruan, beli lisensi melalui [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+### Licencszerzés
+1. **Ingyenes próbaverzió**Unduh lisensi uji coba gratis dari [Aspose weboldala](https://releases.aspose.com/cells/java/) untuk menjelajahi kemampuan Aspose.Cells tanpa batasan.
+2. **Ideiglenes engedély**:Jika Anda memerlukan lebih banyak waktu untuk evaluasi, pertimbangkan untuk mengajukan lisensi sementara di [ezt a linket](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás**:Untuk akses penuh dan pembaruan, beli lisensi melalui [Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Untuk memulai Aspose.Cells, inisialisasi pustaka dalam kode Anda dengan menyiapkan lisensi:
 ```java
 com.aspose.cells.License license = new com.aspose.cells.License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kita akan menjelajahi cara menonaktifkan skrip bingkai ekspor dan properti dokumen menggunakan Aspose.Cells untuk Java.
 
 ### Menonaktifkan Skrip Bingkai Ekspor dan Properti Dokumen
 Fitur ini memungkinkan Anda untuk mengontrol keluaran HTML dengan mencegah skrip bingkai dan properti dokumen disertakan.
 
-#### Langkah 1: Muat Buku Kerja yang Ada
-Muat buku kerja Excel Anda ke dalam `Workbook` obyek:
+#### 1. lépés: Meglévő munkafüzet betöltése
+Muat buku kerja Excel Anda ke dalam `Workbook` objektum:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -117,45 +119,48 @@ w.getWorksheets().get(0).getCells().get("A1").putValue("Hello, Aspose!");
 w.save(dataDir + "ModifiedSample_out.xlsx");
 ```
 
-## Aplikasi Praktis
-- **Pelaporan Web**:Hasilkan laporan HTML yang bersih dengan menghapus skrip dan properti yang tidak diperlukan.
-- **Privasi Data**Pastikan metadata sensitif tidak dibagikan secara tidak sengaja kepada pengguna akhir.
+## Gyakorlati alkalmazások
+- **Webes jelentéskészítés**:Hasilkan laporan HTML yang bersih dengan menghapus skrip dan properti yang tidak diperlukan.
+- **Adatvédelem**Pastikan metadata sensitif tidak dibagikan secara tidak sengaja kepada pengguna akhir.
 - **Integrasi Kustom**:Integrasikan data Excel secara mulus ke dalam aplikasi web khusus tanpa penanganan skrip tambahan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Mengoptimalkan Aspose.Cells untuk Java melibatkan:
 - Penggunaan memori yang efisien: Hindari memuat buku kerja besar sepenuhnya ke dalam memori; pertimbangkan untuk melakukan streaming atau memproses potongan.
 - Mengelola sumber daya: Pastikan pembuangan objek buku kerja yang tepat untuk membebaskan sumber daya dengan segera.
 
-## Kesimpulan
+## Következtetés
 Dengan mengikuti panduan ini, Anda telah mempelajari cara menonaktifkan skrip bingkai dan properti dokumen secara efektif selama konversi HTML menggunakan Aspose.Cells untuk Java. Fungsionalitas ini penting untuk menjaga integritas dan privasi data dalam aplikasi web.
 
-### Langkah Berikutnya
-Jelajahi lebih banyak fitur Aspose.Cells dengan memeriksa [dokumentasi resmi](https://reference.aspose.com/cells/java/) atau bereksperimen dengan manipulasi buku kerja yang berbeda.
+### Következő lépések
+Jelajahi lebih banyak fitur Aspose.Cells dengan memeriksa [hivatalos dokumentáció](https://reference.aspose.com/cells/java/) atau bereksperimen dengan manipulasi buku kerja yang berbeda.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu frame script?**
    - Skrip bingkai adalah segmen kode JavaScript yang tertanam dalam berkas HTML yang dapat menjalankan berbagai fungsi saat dimuat di peramban.
 2. **Apakah saya masih dapat memanipulasi buku kerja setelah menonaktifkan ekspor skrip?**
    - Ya, manipulasi buku kerja tidak bergantung pada pengaturan ekspor skrip.
 3. **Apakah saya perlu membeli Aspose.Cells untuk semua fitur?**
    - Meskipun banyak fitur tersedia dalam mode uji coba, beberapa kemampuan lanjutan memerlukan lisensi.
-4. **Apakah Aspose.Cells cocok untuk kumpulan data besar?**
+4. **Alkalmas az Aspose.Cells nagy adathalmazokhoz?**
    - Tentu saja. Ia menangani buku kerja yang besar secara efisien dengan praktik manajemen sumber daya yang tepat.
-5. **Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?**
-   - Kunjungi [Forum Aspose](https://forum.aspose.com/c/cells/9) untuk dukungan komunitas dan profesional.
+5. **Hol kaphatok támogatást, ha problémákba ütközöm?**
+   - Látogassa meg a [Aspose fórum](https://forum.aspose.com/c/cells/9) közösségi és szakmai támogatásért.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Dapatkan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Ajukan Permohonan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Ingyenes próbaverzió igénylése](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda dengan Aspose.Cells hari ini dan tingkatkan aplikasi Java Anda dengan menangani data Excel secara mulus!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

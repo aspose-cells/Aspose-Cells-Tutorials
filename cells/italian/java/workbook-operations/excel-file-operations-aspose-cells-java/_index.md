@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ Quando si salva un file Excel in formato testo, ad esempio CSV, potrebbe essere 
 Aspose.Cells per Java è versatile e può essere applicato in vari scenari:
 1. **Migrazione dei dati:** Trasferisci i dati senza problemi tra sistemi diversi utilizzando formati personalizzati.
 2. **Strumenti di reporting:** Genera report con requisiti di formattazione specifici direttamente dai file Excel.
-3. **Script di automazione:** Automatizza le attività ripetitive, come l'esportazione dei dati in formato CSV per l'analisi.
+3. **Script di automazione:** Automatizza le attività ripetitive, come l'esportazione dei dati in CSV per l'analisi.
 
 ## Considerazioni sulle prestazioni
 
@@ -188,6 +190,9 @@ Prova a implementare queste soluzioni nei tuoi progetti e scopri come semplifica
 - **Acquisto e licenza:** Per informazioni sugli acquisti o sulle licenze, visitare il sito [pagina di acquisto](https://purchase.aspose.com/buy) E [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

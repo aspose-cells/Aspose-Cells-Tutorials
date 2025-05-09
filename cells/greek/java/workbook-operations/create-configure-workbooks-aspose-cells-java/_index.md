@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -251,6 +253,9 @@ workbook.save(outDir + "/DataValidationWorkbook.xls");
 Τώρα που έχετε όλα τα εργαλεία και τις γνώσεις στη διάθεσή σας, ξεκινήστε να πειραματίζεστε με το Aspose.Cells για Java για να βελτιστοποιήσετε τις εργασίες σας που σχετίζονται με το Excel σε εφαρμογές Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tipos de gráficos combinados
@@ -26,7 +28,7 @@ Antes de profundizar en la creación de gráficos combinados, comprendamos breve
 
 Para empezar a crear gráficos combinados, necesitará tener Aspose.Cells para Java instalado y configurado en su proyecto Java. Puede descargar la biblioteca desde el sitio web de Aspose mediante el siguiente enlace: [Descargar Aspose.Cells para Java](https://releases.aspose.com/cells/java/).
 
-Una vez que tengas la biblioteca lista, puedes proceder con los siguientes pasos para crear gráficos combinados.
+Una vez que tenga la biblioteca lista, puede continuar con los siguientes pasos para crear gráficos combinados.
 
 ## Creación de un gráfico combinado
 
@@ -137,6 +139,7 @@ Puede encontrar documentación completa y una gran cantidad de ejemplos de códi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

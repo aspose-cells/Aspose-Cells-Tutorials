@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ A5: Bezpłatna wersja próbna umożliwia pełny dostęp, ale dodaje znak wodny. 
 - **Wsparcie**:Odwiedź [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) w razie pytań.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

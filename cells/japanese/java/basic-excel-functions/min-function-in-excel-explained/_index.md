@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ExcelのMIN関数の説明
@@ -43,7 +45,7 @@ ExcelのMIN関数の機能について理解が深まったところで、Aspose
 
 ### ステップ1: 開発環境をセットアップする
 
-コーディングを始める前に、開発環境にAspose.Cells for Javaがインストールされ、セットアップされていることを確認してください。ダウンロードはこちらから可能です。 [ここ](https://releases。aspose.com/cells/java/).
+コーディングを始める前に、開発環境にAspose.Cells for Javaがインストールされ、セットアップされていることを確認してください。ダウンロードはこちらから。 [ここ](https://releases。aspose.com/cells/java/).
 
 ### ステップ2: Javaプロジェクトを作成する
 
@@ -125,6 +127,7 @@ ExcelでMIN関数を使用する際にエラーが発生した場合、IFERROR�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

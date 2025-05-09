@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 介紹
 
-由於格式較舊，處理舊版 Excel 文件（例如 Excel 97 或 2003 中的文件）可能相當具有挑戰性。許多企業仍然依賴這些文件來相容於現有系統。本綜合指南將示範如何利用 Java 中的 Aspose.Cells 函式庫來有效地管理這些檔案。
+由於格式較舊，處理舊版 Excel 檔案（例如 Excel 97 或 2003 中的檔案）可能會比較困難。許多企業仍然依賴這些文件來相容於現有系統。本綜合指南將示範如何利用 Java 中的 Aspose.Cells 函式庫來有效地管理這些檔案。
 
 透過學習本教程，您將了解：
 - 如何設定 Aspose.Cells for Java
@@ -146,6 +148,9 @@ Aspose.Cells可以整合到各種應用程式中：
 立即開始使用 Aspose.Cells 在 Java 中管理 Excel 檔案！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

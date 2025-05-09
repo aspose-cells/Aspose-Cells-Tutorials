@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Eksperymentuj z dodatkowymi funkcjami Aspose.Cells, takimi jak konwersja wykres�
 W tym przewodniku znajdziesz kompleksowy przegląd wykorzystania Aspose.Cells for Java do konwersji plików Excel do formatu PDF. Dzięki niemu będziesz mieć dostęp do narzędzi i wiedzy potrzebnych do efektywnego wdrożenia tego rozwiązania.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

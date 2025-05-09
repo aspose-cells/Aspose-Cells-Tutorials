@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ public class AsposeInit {
    }
    ```
 
-2. **ストリームプロバイダーをワークブックに統合する**
+2. **ストリームプロバイダーをワークブックと統合する**
 
    ```java
    import com.aspose.cells.Workbook;
@@ -201,6 +203,9 @@ Aspose.Cells の機能をさらに詳しく調べるには、より高度な機�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

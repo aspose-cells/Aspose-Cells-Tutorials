@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Az Aspose.Cells teljes kihasználásához használhatsz egy ingyenes próbaverziót, vagy vásárolhatsz licencet:
 - **Ingyenes próbaverzió:** Letöltés innen: [Aspose kiadások](https://releases.aspose.com/cells/java/) oldal.
-- **Ideiglenes engedély:** Szerezzen be ideiglenes licencet a korlátozások nélküli teljes hozzáféréshez a következő címen: [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+- **Ideiglenes engedély:** Szerezzen be ideiglenes licencet a korlátozások nélküli teljes hozzáféréshez a következő címen keresztül: [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás:** Állandó licenc vásárolható a következő címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
 ### Inicializálás és beállítás
@@ -91,7 +93,7 @@ Először töltsd be a diagramot tartalmazó Excel fájlt az Aspose.Cells fájlb
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjára
+String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjával
 Workbook workbook = new Workbook(dataDir + "/book1.xls");
 
 // Hozzáférés az első munkalaphoz
@@ -133,7 +135,7 @@ chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().setCellsColor
 Végül mentse el a módosításokat:
 
 ```java
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Cserélje le a könyvtár elérési útjára
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Cserélje le a könyvtár elérési útjával
 workbook.save(outDir + "/AThemes_out.xlsx");
 ```
 
@@ -146,9 +148,9 @@ A tematikus diagramok különféle helyzetekben használhatók, például:
 
 ## Teljesítménybeli szempontok
 
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - A tárgyak megfelelő megsemmisítésével hatékonyan kezelje az emlékezetét.
-- Nagy adathalmazokhoz használjon streamelési API-kat a memóriahasználat csökkentése érdekében.
+- Nagy adathalmazok esetén használjon streamelési API-kat a memóriahasználat csökkentése érdekében.
 - A Java programozás legjobb gyakorlatainak alkalmazása, például az objektumok létrehozásának minimalizálása a ciklusokon belül és az algoritmusok optimalizálása.
 
 ## Következtetés
@@ -165,7 +167,7 @@ Megtanultad, hogyan alkalmazhatsz témákat egy diagramsorozatra az Aspose.Cells
    - Az Accent_6 az Aspose.Cells számos előre definiált témaszínének egyike, amelyek mindegyike különálló színpalettát biztosít, amely testreszabható az átlátszóság és az intenzitás érdekében.
 
 2. **Alkalmazhatok témákat egyszerre több diagramsorozatra?**
-   - Igen, a sorozatgyűjteményben is végigmehetsz, és a témákat hasonlóan alkalmazhatod, mint ahogy az az első sorozatnál is látható volt.
+   - Igen, a sorozatgyűjteményben is végigmehetsz, és a témákat hasonlóképpen alkalmazhatod, mint ahogy az az első sorozatnál látható volt.
 
 3. **Hogyan tudom megváltoztatni egy diagramterület kitöltési típusát?**
    - Használat `setFillType(FillType)` metódus különböző kitöltési stílusok, például színátmenetes vagy mintázatos kitöltések megadására.
@@ -185,6 +187,9 @@ Megtanultad, hogyan alkalmazhatsz témákat egy diagramsorozatra az Aspose.Cells
 - **Támogatás:** [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

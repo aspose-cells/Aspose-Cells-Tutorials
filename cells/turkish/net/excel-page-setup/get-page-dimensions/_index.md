@@ -1,14 +1,16 @@
 ---
-title: Sayfa Boyutlarını Al
-linktitle: Sayfa Boyutlarını Al
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak sayfa boyutlarının nasıl alınacağını öğrenin. Excel dosyalarıyla çalışan geliştiriciler için mükemmeldir.
-weight: 40
-url: /tr/net/excel-page-setup/get-page-dimensions/
+"description": "Bu adım adım kılavuzda Aspose.Cells for .NET kullanarak sayfa boyutlarının nasıl alınacağını öğrenin. Excel dosyalarıyla çalışan geliştiriciler için mükemmeldir."
+"linktitle": "Sayfa Boyutlarını Al"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Sayfa Boyutlarını Al"
+"url": "/tr/net/excel-page-setup/get-page-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfa Boyutlarını Al
@@ -26,7 +28,7 @@ Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET kodunuzu burad
 
 ### Aspose.Cells Kütüphanesi
 Projenizde Aspose.Cells kütüphanesini indirmeniz ve referans vermeniz gerekecektir. Bunu şuradan edinebilirsiniz:
--  İndirme Bağlantısı:[.NET için Aspose.Cells](https://releases.aspose.com/cells/net/)
+- İndirme Bağlantısı: [.NET için Aspose.Cells](https://releases.aspose.com/cells/net/)
 
 ### C# Temel Bilgisi
 C# hakkında temel bir anlayışa sahip olmanız faydalı olacaktır. Bu eğitim, takip edilmesi kolay olması gereken temel programlama kavramlarını kullanacaktır.
@@ -39,7 +41,7 @@ Yolculuğumuzun ilk adımı, gerekli Aspose.Cells paketlerini C# projemize aktar
 
 ### Yeni Bir Proje Oluştur
 
- Visual Studio'yu açın ve yeni bir C# Konsol Uygulaması projesi oluşturun. İstediğiniz ismi verebilirsiniz, hadi başlayalım`GetPageDimensions`.
+Visual Studio'yu açın ve yeni bir C# Konsol Uygulaması projesi oluşturun. İstediğiniz ismi verebilirsiniz, hadi başlayalım `GetPageDimensions`.
 
 ### Referans Ekle
 
@@ -50,7 +52,7 @@ Aspose.Cells'i kullanmak için kütüphaneye referanslar eklemeniz gerekir:
 
 ### Yönergeleri Kullanarak Ekle
 
- En üstte`Program.cs` dosyasına, Aspose.Cells işlevselliğine erişmek için bu yönergeyi kullanarak ekleyin:
+En üstte `Program.cs` dosyasına, Aspose.Cells işlevselliğine erişmek için bu using yönergesini ekleyin:
 
 ```csharp
 using System;
@@ -85,7 +87,7 @@ Bu satır ilk çalışma sayfasını getirir ve kağıt boyutlarını ayarlamam�
 
 ## Adım 3: Kağıt Boyutunu A2 Olarak Ayarlama ve Boyutları Alma
 
-Şimdi kağıt boyutunu ayarlama ve boyutları yakalama zamanı! A2 kağıt boyutuyla başlıyoruz.
+Şimdi kağıt boyutunu ayarlama ve boyutları alma zamanı! A2 kağıt boyutuyla başlıyoruz.
 
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
@@ -96,7 +98,7 @@ Bu kod kağıt boyutunu A2 olarak ayarlar ve hemen genişliği ve yüksekliği �
 
 ## Adım 4: Diğer Kağıt Boyutları İçin Tekrarlayın
 
-Bu işlemi A3, A4 ve Letter gibi diğer kağıt boyutları için tekrarlamak isteyeceksiniz. Bunu şu şekilde yapabilirsiniz:
+Bu işlemi A3, A4 ve Letter gibi diğer kağıt boyutları için tekrarlamak isteyeceksiniz. Bunu nasıl yapabileceğiniz aşağıda açıklanmıştır:
 
 A3 için:
 
@@ -140,16 +142,18 @@ Aspose.Cells, Microsoft Excel'e ihtiyaç duymadan Excel dosyaları oluşturmak, 
 Hayır, Aspose.Cells bağımsız bir kütüphanedir ve Excel'in kurulu olmasını gerektirmez.
 
 ### Aspose.Cells için daha fazla örneği nerede bulabilirim?
- Dokümantasyonu buradan inceleyebilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Dokümantasyonu buradan inceleyebilirsiniz: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells'in ücretsiz deneme sürümü var mı?
- Evet! Ücretsiz deneme sürümünü şuradan edinebilirsiniz:[Aspose.Cells Ücretsiz Deneme](https://releases.aspose.com/).
+Evet! Ücretsiz deneme sürümünü şuradan edinebilirsiniz: [Aspose.Cells Ücretsiz Deneme](https://releases.aspose.com/).
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Aspose destek forumunu ziyaret ederek yardım alabilirsiniz:[Aspose.Cells Desteği](https://forum.aspose.com/c/cells/9).
+Aspose destek forumunu ziyaret ederek yardım alabilirsiniz: [Aspose.Cells Desteği](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

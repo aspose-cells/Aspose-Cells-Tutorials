@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,12 +133,12 @@ try {
 2. **Automatyzacja raportowania:** Generuj dynamiczne raporty, manipulując szablonami programu Excel.
 3. **Analiza finansowa:** Automatyczne przetwarzanie arkuszy finansowych zwiększa wydajność aplikacji bankowych.
 4. **Integracja z systemami ERP:** Płynna integracja z systemami planowania zasobów przedsiębiorstwa w celu lepszego zarządzania danymi.
-5. **Przetwarzanie wsadowe:** Możliwość jednoczesnej obsługi wielu plików i skrócenie czasu przetwarzania.
+5. **Przetwarzanie wsadowe:** Możliwość jednoczesnej obsługi wielu plików i skrócenia czasu przetwarzania.
 
 ## Rozważania dotyczące wydajności
 
 - **Optymalizacja wykorzystania zasobów:** Ogranicz zakres operacji wyłącznie do niezbędnych arkuszy kalkulacyjnych i komórek.
-- **Zarządzanie pamięcią:** Po użyciu pozbywaj się obiektów ze skoroszytu bezzwłocznie, aby zwolnić zasoby.
+- **Zarządzanie pamięcią:** Po użyciu pozbywaj się obiektów skoroszytu bezzwłocznie, aby zwolnić zasoby.
 - **Wskazówki dotyczące wydajności:** Do obsługi dużych zbiorów danych należy stosować przesyłanie strumieniowe w celu zminimalizowania zużycia pamięci.
 
 ## Wniosek
@@ -172,6 +174,9 @@ Ten kompleksowy przewodnik wyposaża Cię w wiedzę potrzebną do efektywnego ma
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

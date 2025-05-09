@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Workbook wb = new Workbook();
 **2. lépés: A munkalap elérése**
 Nyissa meg azt a munkalapot, amelyhez megjegyzéseket szeretne hozzáadni:
 ```java
-// A munkafüzet első munkalapjának lekérése
+// munkafüzet első munkalapjának lekérése
 Worksheet sheet = wb.getWorksheets().get(0);
 ```
 
@@ -155,6 +157,9 @@ Kezdj el kísérletezni az Aspose.Cells for Java-val még ma, és alakítsd át 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

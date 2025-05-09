@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ Workbook workbook = new Workbook();
 ```
 ### การเข้าถึงคอลเลกชันแผ่นงาน
 เข้าถึงคอลเลกชันเวิร์กชีตภายในเวิร์กบุ๊กของคุณ ซึ่งช่วยให้สามารถจัดการชีตที่มีอยู่หรือสร้างชีตใหม่ได้
-**ภาพรวม**:โดยการได้รับ `WorksheetCollection`คุณสามารถนำทางไปยังแผ่นงานทั้งหมดในเวิร์กบุ๊กได้
+**ภาพรวม**: โดยการได้รับ `WorksheetCollection`คุณสามารถนำทางไปยังแผ่นงานทั้งหมดในเวิร์กบุ๊กได้
 ```java
 import com.aspose.cells.WorksheetCollection;
 // รับชุดเอกสารประกอบการสอน
@@ -134,6 +136,9 @@ Aspose.Cells สำหรับ Java มีความหลากหลาย 
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

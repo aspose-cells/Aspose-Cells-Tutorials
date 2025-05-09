@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्प्रेडशीट स्वचालन
@@ -48,9 +50,11 @@ Aspose.Cells के साथ जावा में Excel वर्कबुक
 एक्सेल हेरफेर के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Cells का उपयोग करके स्रोत कोड उदाहरणों के साथ जावा में एक्सेल कार्यों को स्वचालित करने का तरीका जानें।
 ### [एक्सेल में डेटा एकीकरण](./data-integration-in-excel/)
 बेहतर जानकारी और निर्णय लेने के लिए Excel में डेटा को कुशलतापूर्वक एकीकृत करने का तरीका जानें। Java के लिए Aspose.Cells का उपयोग करके स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

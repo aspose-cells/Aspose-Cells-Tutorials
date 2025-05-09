@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Você pode começar com um teste gratuito para avaliar o Aspose.Cells para Java:
 - **Licença Temporária**: Obtenha isso para obter recursos estendidos durante a avaliação.
 - **Comprar**: Para acesso e suporte completos, adquira uma licença no site da Aspose.
 
-Depois que seu ambiente estiver configurado, vamos prosseguir para a implementação do recurso de recortar e colar.
+Depois que seu ambiente estiver configurado, vamos implementar o recurso de recortar e colar.
 
 ## Guia de Implementação
 
@@ -163,6 +165,9 @@ R5: Com certeza. Oferece recursos robustos, ideais para tarefas complexas de pro
 Ao dominar essas ferramentas e técnicas, você poderá aprimorar seus projetos relacionados ao Excel com Java, aproveitando ao máximo o poder do Aspose.Cells. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

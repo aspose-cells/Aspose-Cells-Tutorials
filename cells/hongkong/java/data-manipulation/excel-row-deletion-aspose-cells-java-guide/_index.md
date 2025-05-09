@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **購買**：購買用於生產用途的完整許可證。
 
 #### 基本初始化和設定
-在您的 Java 應用程式中初始化 Aspose.Cells 如下：
+在您的 Java 應用程式中初始化 Aspose.Cells，如下所示：
 ```java
 import com.aspose.cells.Workbook;
 
@@ -180,6 +182,9 @@ Aspose.Cells for Java 支援各種實際應用：
 本指南提供了使用 Aspose.Cells for Java 在 Excel 中刪除行的全面了解。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

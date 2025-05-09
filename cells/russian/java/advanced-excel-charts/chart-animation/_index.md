@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Анимация диаграммы
@@ -68,7 +70,7 @@ Chart chart = worksheet.getCharts().get(0); // При необходимости
 
 ```java
 chart.getChartObject().setAnimationType(AnimationType.SLIDE);
-chart.getChartObject().setAnimationDuration(1000); // Длительность анимации в миллисекундах
+chart.getChartObject().setAnimationDuration(1000); // Продолжительность анимации в миллисекундах
 chart.getChartObject().setAnimationDelay(500);    // Задержка перед началом анимации (миллисекунды)
 ```
 
@@ -101,6 +103,7 @@ workbook.save("output.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

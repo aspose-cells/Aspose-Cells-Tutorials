@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No ambiente moderno centrado em dados, dominar a manipulação de planilhas é essencial para desenvolvedores que lidam com modelos financeiros ou dados de pesquisas. Definir uma célula ativa no Excel pode aumentar significativamente a eficiência do seu fluxo de trabalho. Este guia completo mostrará como usar o Aspose.Cells para Java para definir uma célula ativa no Excel sem esforço.
 
-## que você aprenderá
+## O que você aprenderá
 - Instalando e configurando o Aspose.Cells para Java.
 - Criando uma nova pasta de trabalho e manipulando células.
 - Tornando uma célula específica ativa na sua planilha.
@@ -160,6 +162,9 @@ R: Certifique-se de que seu sistema tenha memória suficiente e considere otimiz
 Sinta-se à vontade para entrar em contato pelo fórum de suporte caso encontre algum problema ou tenha mais dúvidas. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

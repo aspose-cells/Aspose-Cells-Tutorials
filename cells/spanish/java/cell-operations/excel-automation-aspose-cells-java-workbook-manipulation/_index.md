@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ Esta sección cubre la creación de libros de trabajo, la manipulación de celda
 ### Característica 1: Creación de libros de trabajo y manipulación de celdas
 
 #### Descripción general
-Cree un libro de Excel, acceda a hojas de cálculo, manipule valores de celdas con fórmulas y aplique estilos personalizados mediante programación.
+Cree un libro de Excel, acceda a hojas de trabajo, manipule valores de celdas con fórmulas y aplique estilos personalizados mediante programación.
 
 #### Implementación paso a paso
 **1. Crear un nuevo libro de trabajo:**
@@ -131,7 +133,7 @@ workbook.save(outDir + "SDUOriginalValues_out.xlsx");
 - Asegúrese de que su entorno Java esté configurado correctamente.
 - Verifique que Aspose.Cells se haya agregado correctamente como una dependencia en su proyecto.
 
-### Función 2: Búsqueda con FindOptions usando valores originales
+### Función 2: Búsqueda con FindOptions utilizando valores originales
 
 #### Descripción general
 Busque valores específicos dentro de un libro de Excel, incluso cuando el formato personalizado pueda ocultar el contenido real.
@@ -204,6 +206,9 @@ Este tutorial exploró la automatización de tareas de Excel con Aspose.Cells pa
    - Sí, usando `FindOptions` configurado para mirar valores originales le permite realizar dichas búsquedas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

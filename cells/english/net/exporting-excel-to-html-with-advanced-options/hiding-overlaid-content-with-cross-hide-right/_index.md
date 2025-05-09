@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiding Overlaid Content with Cross Hide Right while Saving to Html
@@ -86,9 +88,11 @@ Absolutely! Aspose.Cells supports a range of Excel formats including XLS, XLSX, 
 You can find support on the [Aspose Forum](https://forum.aspose.com/c/cells/9) where you can ask questions and share experiences.
 ### How do I buy Aspose.Cells?
 You can purchase Aspose.Cells by visiting the [purchase page](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

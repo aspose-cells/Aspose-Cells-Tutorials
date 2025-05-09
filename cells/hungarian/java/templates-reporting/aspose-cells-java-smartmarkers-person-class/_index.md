@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ A dinamikus adatokat, például neveket és életkorokat tartalmazó Excel-jelen
 
 Ezt a lépésről lépésre haladó útmutatót követve megtanulhatod, hogyan használhatod az Aspose.Cells-t a jelentéskészítés egyszerű automatizálására. A következőket fogod elérni:
 - **Az Aspose.Cells beállítása és konfigurálása Java-hoz**
-- **SmartMarkerek megvalósítása a következő használatával: `Person` osztály**
+- **SmartMarkerek implementálása a következő használatával: `Person` osztály**
 - **Dinamikus adatok integrálása Excel-jelentésekbe**
 
 Készen állsz a belevágásra? Győződjünk meg róla, hogy minden szükséges dolog megvan.
@@ -183,7 +185,7 @@ Készen állsz a továbbiakra? Fedezz fel olyan fejlett funkciókat, mint a diag
    - Igen, zökkenőmentesen integrálható a Spring Boot, Hibernate stb. rendszerekkel.
 3. **Mik azok a SmartMarkerek?**
    - Lehetővé teszik a dinamikus adatkötést az Excel-sablonokban speciális jelölők használatával.
-4. **Hogyan javíthatom ki a feldolgozás során felmerülő hibákat?**
+4. **Hogyan javíthatom ki a feldolgozás során fellépő hibákat?**
    - Ellenőrizze a hiányzó vagy helytelen jelölő szintaxist, és győződjön meg arról, hogy minden függőség megfelelően van konfigurálva.
 5. **Alkalmas az Aspose.Cells nagy teljesítményű alkalmazásokhoz?**
    - Igen, megfelelő optimalizálási technikákkal, mint amilyeneket fentebb említettünk.
@@ -201,6 +203,9 @@ Tedd meg a következő lépést, és kezdd el implementálni az Aspose.Cells-t a
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

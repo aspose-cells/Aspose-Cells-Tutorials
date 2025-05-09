@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Przejrzyj komórki w kolumnie, określ maksymalną szerokość wymaganą prz
 Korzystając z tych zasobów, będziesz dobrze przygotowany do dalszego rozwijania swoich umiejętności i wdrażania bardziej złożonych zadań automatyzacji w programie Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

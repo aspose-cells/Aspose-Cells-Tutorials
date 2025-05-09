@@ -1,14 +1,16 @@
 ---
-title: Wdrażanie tytułu wydruku w arkuszu kalkulacyjnym
-linktitle: Wdrażanie tytułu wydruku w arkuszu kalkulacyjnym
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wdrażać tytuły wydruków w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
-weight: 27
-url: /pl/net/worksheet-page-setup-features/implement-print-title/
+"description": "Dowiedz się, jak wdrażać tytuły wydruków w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku."
+"linktitle": "Wdrażanie tytułu wydruku w arkuszu kalkulacyjnym"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wdrażanie tytułu wydruku w arkuszu kalkulacyjnym"
+"url": "/pl/net/worksheet-page-setup-features/implement-print-title/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wdrażanie tytułu wydruku w arkuszu kalkulacyjnym
@@ -18,13 +20,13 @@ Jeśli chodzi o tworzenie profesjonalnych raportów lub arkuszy kalkulacyjnych, 
 ## Wymagania wstępne
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest skonfigurowane. Oto, czego będziesz potrzebować:
 1. Zainstalowany program Visual Studio — będziesz potrzebować środowiska roboczego do tworzenia aplikacji za pomocą platformy .NET.
-2.  Aspose.Cells dla .NET - Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Cells dla .NET. Znajdziesz go[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET - Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Cells dla .NET. Znajdziesz go [Tutaj](https://releases.aspose.com/cells/net/).
 3. .NET Framework — upewnij się, że pracujesz na zgodnej wersji .NET Framework.
 4. Podstawowa znajomość języka C# - Odrobina wiedzy z zakresu kodowania może okazać się bardzo przydatna, dlatego odśwież swoje umiejętności w zakresie języka C#!
 Gdy już spełnisz te wymagania, będziesz gotowy do działania!
 ## Importuj pakiety
 Aby zacząć, musimy zaimportować niezbędne pakiety z biblioteki Aspose.Cells w naszym projekcie C#. Oto, jak możesz to zrobić:
-## Krok 1: Importuj przestrzeń nazw Aspose.Cells
+## Krok 1: Importowanie przestrzeni nazw Aspose.Cells
 Otwórz plik C# i dodaj następującą dyrektywę using:
 ```csharp
 using System.IO;
@@ -34,7 +36,7 @@ using System;
 Ten krok jest kluczowy, gdyż umożliwia dostęp do wszystkich klas i metod udostępnianych przez Aspose.Cells, z których skorzystamy w kolejnych krokach.
 Teraz, gdy importowanie zostało już skonfigurowane, możemy przejść do szczegółowej implementacji tytułów drukowanych.
 ## Krok 2: Ustaw katalog dokumentów
-Pierwszą rzeczą, którą musimy zrobić, jest zdefiniowanie, gdzie chcemy przechowywać nasz dokument. W naszym przypadku będziemy przechowywać nasz plik wyjściowy Excel. Będziesz chciał zastąpić`"Your Document Directory"` z prawidłową ścieżką na Twoim komputerze.
+Pierwszą rzeczą, którą musimy zrobić, jest zdefiniowanie, gdzie chcemy przechowywać nasz dokument. W naszym przypadku będziemy przechowywać nasz plik wyjściowy Excel. Będziesz chciał zastąpić `"Your Document Directory"` z prawidłową ścieżką na Twoim komputerze.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
@@ -70,16 +72,18 @@ Za pomocą kilku prostych kroków możesz wdrożyć tytuły wydruków w arkuszac
 ### Czym są tytuły wydruków w arkuszu kalkulacyjnym?
 Tytuły wydruków to konkretne wiersze lub kolumny arkusza kalkulacyjnego programu Excel, które będą pojawiać się na każdej stronie wydruku, ułatwiając zrozumienie danych.
 ### Czy mogę używać tytułów wydruku tylko dla wierszy lub tylko dla kolumn?
-Tak, możesz zdefiniować wiersze, kolumny lub oba typy treści jako tytuły wydruku, zależnie od potrzeb.
+Tak, możesz zdefiniować wiersze, kolumny lub oba typy tytułów jako tytuły wydruku, zależnie od potrzeb.
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?
- Możesz sprawdzić dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz sprawdzić dokumentację [Tutaj](https://reference.aspose.com/cells/net/).
 ### Jak pobrać Aspose.Cells dla .NET?
- Można go pobrać z[ten link](https://releases.aspose.com/cells/net/).
+Można go pobrać z [ten link](https://releases.aspose.com/cells/net/).
 ### Czy istnieje sposób na uzyskanie wsparcia dla Aspose.Cells?
- Tak, w celu uzyskania pomocy możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+Tak, w celu uzyskania pomocy możesz odwiedzić stronę [Forum Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

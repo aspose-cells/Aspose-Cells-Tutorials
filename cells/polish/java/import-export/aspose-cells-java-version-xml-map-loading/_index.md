@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ A2: Upewnij się, że ścieżka pliku jest poprawna, a schemat XML jest zgodny z
 A3: Licencja tymczasowa lub zakupiona jest niezbędna do usunięcia ograniczeń ewaluacyjnych w środowiskach produkcyjnych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

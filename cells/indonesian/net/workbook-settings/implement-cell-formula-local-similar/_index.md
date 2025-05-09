@@ -1,45 +1,47 @@
 ---
-title: Menerapkan Rumus Sel Lokal Mirip dengan Rumus Rentang Lokal
-linktitle: Menerapkan Rumus Sel Lokal Mirip dengan Rumus Rentang Lokal
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara menerapkan rumus sel yang mirip dengan fungsi lokal rumus rentang di Aspose.Cells untuk .NET. Pelajari cara menyesuaikan nama fungsi Excel bawaan dan banyak lagi.
-weight: 13
-url: /id/net/workbook-settings/implement-cell-formula-local-similar/
+"description": "Ismerd meg, hogyan valósíthatsz meg egy olyan cellaképletet, amely hasonló a .NET-ben található Aspose.Cells tartományképlet helyi funkcionalitásához. Tanuld meg a beépített Excel függvények nevének testreszabását és egyebeket."
+"linktitle": "Cellaképlet Lokális implementálása Hasonlóan a Tartományképlet Lokálishoz"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Cellaképlet Lokális implementálása Hasonlóan a Tartományképlet Lokálishoz"
+"url": "/id/net/workbook-settings/implement-cell-formula-local-similar/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menerapkan Rumus Sel Lokal Mirip dengan Rumus Rentang Lokal
+# Cellaképlet Lokális implementálása Hasonlóan a Tartományképlet Lokálishoz
 
-## Perkenalan
-Aspose.Cells untuk .NET adalah API manipulasi spreadsheet yang kuat dan fleksibel yang memungkinkan Anda membuat, memanipulasi, dan mengonversi file Excel secara terprogram. Salah satu dari banyak fitur yang ditawarkan oleh Aspose.Cells adalah kemampuan untuk menyesuaikan perilaku fungsi Excel bawaan, termasuk kemampuan untuk membuat nama fungsi lokal Anda sendiri. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah untuk mengimplementasikan rumus sel yang mirip dengan fungsi lokal rumus rentang di Aspose.Cells untuk .NET.
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki hal berikut:
-1. Microsoft Visual Studio 2010 atau yang lebih baru terinstal di sistem Anda.
-2.  Versi terbaru dari pustaka Aspose.Cells for .NET yang terpasang di proyek Anda. Anda dapat mengunduh pustaka dari[Halaman unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/).
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam proyek C# Anda. Tambahkan pernyataan berikut di bagian atas berkas kode Anda:
+## Bevezetés
+Az Aspose.Cells for .NET egy hatékony és rugalmas táblázatkezelő API, amely lehetővé teszi Excel-fájlok programozott létrehozását, kezelését és konvertálását. Az Aspose.Cells számos funkciójának egyike a beépített Excel-függvények viselkedésének testreszabása, beleértve a saját helyi függvénynevek létrehozásának lehetőségét is. Ebben az oktatóanyagban végigvezetjük Önt azon lépéseken, hogyan valósíthat meg egy olyan cellaképletet, amely hasonló az Aspose.Cells for .NET helyi tartományképlet-funkcionalitásához.
+## Előfeltételek
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
+1. A rendszerére telepítve van a Microsoft Visual Studio 2010 vagy újabb verziója.
+2. Az Aspose.Cells for .NET könyvtár legújabb verziója telepítve van a projektedben. A könyvtárat letöltheted innen: [Aspose.Cells .NET letöltési oldal](https://releases.aspose.com/cells/net/).
+## Csomagok importálása
+kezdéshez importálnod kell a szükséges csomagokat a C# projektedbe. Add hozzá a következő using utasításokat a kódfájl elejéhez:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-## Langkah 1: Buat Kelas Pengaturan Globalisasi Kustom
- Langkah pertama adalah membuat custom`GlobalizationSettings`kelas yang akan memungkinkan Anda untuk mengganti perilaku default fungsi Excel. Dalam contoh ini, kita akan mengubah nama-nama`SUM` Dan`AVERAGE` fungsi untuk`UserFormulaLocal_SUM` Dan`UserFormulaLocal_AVERAGE`, masing-masing.
+## 1. lépés: Egyéni globalizációs beállítások osztályának létrehozása
+Az első lépés egy egyéni beállítás létrehozása `GlobalizationSettings` osztály, amely lehetővé teszi az Excel függvények alapértelmezett viselkedésének felülbírálását. Ebben a példában a következő neveket fogjuk megváltoztatni: `SUM` és `AVERAGE` funkciók `UserFormulaLocal_SUM` és `UserFormulaLocal_AVERAGE`, rendre.
 ```csharp
 class GS : GlobalizationSettings
 {
     public override string GetLocalFunctionName(string standardName)
     {
-        //Ubah nama fungsi SUM sesuai kebutuhan Anda.
+        //Módosítsa a SZUM függvény nevét az igényei szerint.
         if (standardName == "SUM")
         {
             return "UserFormulaLocal_SUM";
         }
-        //Ubah nama fungsi AVERAGE sesuai kebutuhan Anda.
+        //Módosítsa az ÁTLAG függvény nevét az igényei szerint.
         if (standardName == "AVERAGE")
         {
             return "UserFormulaLocal_AVERAGE";
@@ -48,49 +50,51 @@ class GS : GlobalizationSettings
     }
 }
 ```
-## Langkah 2: Buat Buku Kerja Baru dan Tetapkan Pengaturan Globalisasi Kustom
- Selanjutnya, buat instance Workbook baru dan tetapkan kustom`GlobalizationSettings` implementasi kelas ke Buku Kerja`Settings.GlobalizationSettings` milik.
+## 2. lépés: Új munkafüzet létrehozása és az egyéni globalizációs beállítások hozzárendelése
+Ezután hozzon létre egy új munkafüzet-példányt, és rendelje hozzá az egyéni `GlobalizationSettings` megvalósítási osztály a munkafüzethez `Settings.GlobalizationSettings` ingatlan.
 ```csharp
-//Buat buku kerja
+//Munkafüzet létrehozása
 Workbook wb = new Workbook();
-//Tetapkan kelas implementasi GlobalizationSettings
+//Globalizációs beállítások implementációs osztály hozzárendelése
 wb.Settings.GlobalizationSettings = new GS();
 ```
-## Langkah 3: Akses Lembar Kerja Pertama dan Sel
-Sekarang, mari mengakses lembar kerja pertama dalam buku kerja dan sel tertentu dalam lembar kerja tersebut.
+## 3. lépés: Az első munkalap és egy cella elérése
+Most pedig lépjünk be a munkafüzet első munkalapjába és egy adott cellába azon belül.
 ```csharp
-//Akses lembar kerja pertama
+//Első munkalap elérése
 Worksheet ws = wb.Worksheets[0];
-//Akses beberapa sel
+//Hozzáférés bizonyos cellákhoz
 Cell cell = ws.Cells["C4"];
 ```
-## Langkah 4: Tetapkan Rumus dan Cetak RumusLokal
- Terakhir, mari kita tetapkan`SUM` Dan`AVERAGE` rumus ke dalam sel dan mencetak hasilnya`FormulaLocal` nilai-nilai.
+## 4. lépés: Képletek hozzárendelése és a FormulaLocal kinyomtatása
+Végül rendeljük hozzá a `SUM` és `AVERAGE` képleteket a cellába, és kinyomtatja az eredményt `FormulaLocal` értékek.
 ```csharp
-//Tetapkan rumus SUM dan cetak FormulaLocal-nya
+//Rendeljen hozzá SZUM képletet, és írja ki a FormulaLocal értékét
 cell.Formula = "SUM(A1:A2)";
 Console.WriteLine("Formula Local: " + cell.FormulaLocal);
-//Tetapkan rumus AVERAGE dan cetak FormulaLocal-nya
+//Rendeljen hozzá ÁTLAG képletet, és írja ki a FormulaLocal értékét.
 cell.Formula = "=AVERAGE(B1:B2, B5)";
 Console.WriteLine("Formula Local: " + cell.FormulaLocal);
 ```
-## Kesimpulan
-Dalam tutorial ini, Anda telah mempelajari cara menerapkan rumus sel yang mirip dengan fungsi lokal rumus rentang di Aspose.Cells untuk .NET. Dengan membuat sel khusus`GlobalizationSettings` kelas, Anda dapat mengganti perilaku default fungsi Excel dan menyesuaikan nama fungsi lokal agar sesuai dengan kebutuhan Anda. Ini dapat sangat berguna saat bekerja dengan dokumen Excel yang dilokalkan atau diinternasionalkan.
-## Pertanyaan yang Sering Diajukan
-###  Apa tujuan dari`GlobalizationSettings` class in Aspose.Cells?
- Itu`GlobalizationSettings` kelas di Aspose.Cells memungkinkan Anda menyesuaikan perilaku fungsi Excel bawaan, termasuk kemampuan untuk mengubah nama fungsi lokal.
-###  Bisakah saya mengesampingkan perilaku fungsi selain`SUM` and `AVERAGE`?
- Ya, Anda dapat mengesampingkan perilaku fungsi Excel bawaan apa pun dengan memodifikasi`GetLocalFunctionName` metode dalam kebiasaan Anda`GlobalizationSettings` kelas.
-### Apakah ada cara untuk mengatur ulang nama fungsi kembali ke nilai default?
- Ya, Anda dapat mengatur ulang nama fungsi dengan menghapus nama kustom`GlobalizationSettings` kelas atau dengan mengembalikan string kosong dari`GetLocalFunctionName` metode.
-### Dapatkah saya menggunakan fitur ini untuk membuat fungsi khusus di Aspose.Cells?
- Tidak,`GlobalizationSettings`kelas dirancang untuk mengesampingkan perilaku fungsi Excel bawaan, bukan untuk membuat fungsi kustom. Jika Anda perlu membuat fungsi kustom, Anda dapat menggunakan`UserDefinedFunction` kelas di Aspose.Cells.
-### Apakah fitur ini tersedia di semua versi Aspose.Cells untuk .NET?
- Ya, itu`GlobalizationSettings` kelas dan kemampuan untuk menyesuaikan nama fungsi tersedia di semua versi Aspose.Cells untuk .NET.
+## Következtetés
+Ebben az oktatóanyagban megtanultad, hogyan valósíthatsz meg egy olyan cellaképletet, amely hasonló az Aspose.Cells for .NET helyi tartományképlet-funkcionalitásához. Egyéni `GlobalizationSettings` osztályban felülbírálhatja az Excel-függvények alapértelmezett viselkedését, és testreszabhatja a helyi függvényneveket az igényeinek megfelelően. Ez különösen hasznos lehet lokalizált vagy nemzetközi Excel-dokumentumokkal való munka esetén.
+## GYIK
+### Mi a célja a `GlobalizationSettings` osztály az Aspose.Cells-ben?
+A `GlobalizationSettings` Az Aspose.Cells osztálya lehetővé teszi a beépített Excel-függvények viselkedésének testreszabását, beleértve a helyi függvénynevek módosításának lehetőségét is.
+### Felülírhatom-e a függvények viselkedését a következőn kívül? `SUM` és `AVERAGE`?
+Igen, bármelyik beépített Excel-függvény viselkedését felülírhatja a következő módosításával: `GetLocalFunctionName` módszer az Ön egyéni `GlobalizationSettings` osztály.
+### Van mód arra, hogy a függvények neveit visszaállítsuk az alapértelmezett értékekre?
+Igen, a függvényneveket visszaállíthatod az egyéni nevek eltávolításával `GlobalizationSettings` osztályból, vagy egy üres karakterlánc visszaadásával a `GetLocalFunctionName` módszer.
+### Használhatom ezt a funkciót egyéni függvények létrehozására az Aspose.Cells-ben?
+Nem, a `GlobalizationSettings` Az osztály célja a beépített Excel-függvények viselkedésének felülbírálása, nem pedig egyéni függvények létrehozása. Ha egyéni függvényeket kell létrehoznia, használhatja a `UserDefinedFunction` osztály az Aspose.Cells-ben.
+### Ez a funkció az Aspose.Cells for .NET összes verziójában elérhető?
+Igen, a `GlobalizationSettings` osztály és a függvénynevek testreszabásának lehetősége az Aspose.Cells for .NET összes verziójában elérhető.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

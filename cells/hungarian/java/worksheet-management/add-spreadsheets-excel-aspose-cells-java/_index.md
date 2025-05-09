@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ Az Aspose.Cells Java projektben való használatának megkezdéséhez kövesse a
 
 ### Alapvető inicializálás és beállítás
 
-telepítés után az Aspose.Cells inicializálása a következőképpen történhet:
+A telepítés után az Aspose.Cells inicializálása a következőképpen történhet:
 
 ```java
 import com.aspose.cells.*;
@@ -188,9 +190,12 @@ A5: Nézd meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/
 - **Licenc vásárlása**Szerezzen be licenceket és fedezze fel a lehetőségeket a következő helyen: [vásárlási oldal](https://purchase.aspose.com/buy).
 - **Ingyenes próbaverzió**Kezdje egy ingyenes próbaverzióval, amely elérhető a következő címen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély**: Ideiglenes hozzáférés beszerzése innen: [itt](https://purchase.aspose.com/temporary-license/).
-- **Támogatási fórum**: Csatlakozz a beszélgetésekhez és kérj segítséget a következő témában: [támogatási fórum](https://forum.aspose.com/c/cells/9).
+- **Támogatási fórum**: Csatlakozz a beszélgetésekhez és kérj segítséget a következő témában: [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

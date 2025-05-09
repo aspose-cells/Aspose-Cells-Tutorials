@@ -1,14 +1,16 @@
 ---
-title: Excel Çalışma Sayfasındaki Satırı Koru
-linktitle: Excel Çalışma Sayfasındaki Satırı Koru
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu eğitimde, .NET için Aspose.Cells kullanarak bir Excel elektronik tablosunun satırlarını nasıl koruyacağınızı keşfedin. C# dilinde adım adım eğitim.
-weight: 60
-url: /tr/net/protect-excel-file/protect-row-in-excel-worksheet/
+"description": "Bu eğitimde, .NET için Aspose.Cells kullanarak bir Excel elektronik tablosunun satırlarını nasıl koruyacağınızı keşfedin. C# dilinde adım adım eğitim."
+"linktitle": "Excel Çalışma Sayfasındaki Satırı Koru"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Çalışma Sayfasındaki Satırı Koru"
+"url": "/tr/net/protect-excel-file/protect-row-in-excel-worksheet/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Çalışma Sayfasındaki Satırı Koru
@@ -21,11 +23,11 @@ Excel sayfalarıyla çalışırken, verilerin bütünlüğünü korumak için ge
 
 Uygulamalı bölüme geçmeden önce, her şeyin ayarlandığından emin olalım. İşte bazı ön koşullar:
 
-1.  Aspose.Cells for .NET: Kütüphaneyi şu adresten indirin:[Aspose web sitesi](https://releases.aspose.com/cells/net/)Tüm yeni özellikler ve hata düzeltmeleri için en son sürüme sahip olduğunuzdan emin olun.
+1. Aspose.Cells for .NET: Kütüphaneyi şu adresten indirin: [Aspose web sitesi](https://releases.aspose.com/cells/net/)Tüm yeni özellikler ve hata düzeltmeleri için en son sürüme sahip olduğunuzdan emin olun.
 2. Visual Studio: Visual Studio (Community, Professional veya Enterprise) gibi bir Entegre Geliştirme Ortamı (IDE), C# kodunuzu etkili bir şekilde derlemenize ve çalıştırmanıza yardımcı olacaktır.
 3. .NET Framework: .NET Framework'ün uyumlu bir sürümüne ihtiyacınız olacak. Aspose.Cells birden fazla sürümü destekler, bu nedenle sizinkinin güncel olduğundan emin olun. 
 4. Temel C# Bilgisi: Bu kılavuz boyunca kodumuzu yazarken C# hakkında temel bir anlayışa sahip olmak faydalı olacaktır.
-5.  Referans Belgeleri: Kendinizi şu konularda bilgilendirin:[Aspose.Cells for .NET belgeleri](https://reference.aspose.com/cells/net/) Kullanılan yöntemler ve sınıflar hakkında ek ayrıntılar için.
+5. Referans Belgeleri: Kendinizi şu konularda bilgilendirin: [Aspose.Cells for .NET belgeleri](https://reference.aspose.com/cells/net/) Kullanılan yöntemler ve sınıflar hakkında ek ayrıntılar için.
 
 ## Paketleri İçe Aktar
 
@@ -50,7 +52,7 @@ if (!IsExists)
     Directory.CreateDirectory(dataDir);
 }
 ```
- Bu kodda şunu değiştirin:`YOUR DOCUMENT DIRECTORY` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile.
+Bu kodda şunu değiştirin: `YOUR DOCUMENT DIRECTORY` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
@@ -59,7 +61,7 @@ Sonra, tüm manipülasyonların gerçekleşeceği yeni bir çalışma kitabı ol
 ```csharp
 Workbook wb = new Workbook();
 ```
- Bu satır, yeni bir örneğini başlatır`Workbook` Sınıf, üzerinde çalışmamız için yeni bir çalışma kağıdı oluşturuyor.
+Bu satır, yeni bir örneğini başlatır `Workbook` Sınıf, üzerinde çalışmamız için yeni bir çalışma kağıdı oluşturuyor.
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -91,7 +93,7 @@ Bu döngü, varsayılan düzenleme izinlerini garantilemek için ilk 256 sütunu
 
 ## Adım 5: Belirli Satırı Kilitleme
 
-Şimdi, kilitleme için çalışma sayfamızın ilk satırını hedefleyeceğiz. Bu adım, kullanıcıların bu satırda bulunan kritik verilerde yetkisiz değişiklikler yapamamasını sağlar.
+Şimdi, çalışma sayfamızın ilk satırını kilitlemek için hedefleyeceğiz. Bu adım, kullanıcıların bu satırda bulunan kritik verilerde yetkisiz değişiklikler yapamamasını sağlar.
 
 ```csharp
 style = sheet.Cells.Rows[0].Style; // İlk satırın stilini al
@@ -104,7 +106,7 @@ Burada, ilk satır için stili alıyoruz, kilitli olarak işaretliyoruz ve kilit
 
 ## Adım 6: Sayfayı Koruma
 
- Satırımız kilitlendiğinde, ekstra bir adım atalım ve çalışma sayfasını tamamen koruyalım. Bu, kilidi, tanımlanan tüm işlevlerde uygulayacaktır.`ProtectionType`.
+Satırımız kilitlendiğinde, ekstra bir adım atalım ve çalışma sayfasını tamamen koruyalım. Bu, kilidi, tanımlanan tüm işlevlerde uygulayacaktır. `ProtectionType`.
 
 ```csharp
 sheet.Protect(ProtectionType.All); // Sayfayı tüm özellikleriyle koruyun
@@ -133,16 +135,18 @@ Aspose.Cells, kullanıcıların Excel dosyalarını program aracılığıyla olu
 Evet, birden fazla satırda ilerleyerek ve her birine benzer stil değişiklikleri uygulayarak kilitleme tekniğini genişletebilirsiniz.
 
 ### Korumadan sonra satırların kilidini açmanın bir yolu var mı?
- Evet, önce sayfanın korumasını kaldırabilir ve ardından ayarlayabilirsiniz.`IsLocked` İstenilen satırların özelliğini değiştirerek korumayı tekrar uygular.
+Evet, önce sayfanın korumasını kaldırabilir ve ardından ayarlayabilirsiniz. `IsLocked` İstenilen satırların özelliğini değiştirerek korumayı tekrar uygular.
 
 ### Aspose.Cells Excel dışında başka formatları da destekliyor mu?
 Kesinlikle! Aspose.Cells çalışma kitaplarını CSV, PDF ve HTML gibi çeşitli biçimlere dönüştürebilir ve kaydedebilir.
 
 ### Aspose.Cells için desteği nereden alabilirim?
- Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9) yardım ve toplum rehberliği için.
+Ziyaret edebilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/cells/9) yardım ve toplum rehberliği için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

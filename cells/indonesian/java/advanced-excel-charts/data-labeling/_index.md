@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pelabelan Data
@@ -18,7 +20,7 @@
 
 Pelabelan data melibatkan penambahan informasi deskriptif atau metadata ke data Anda, sehingga lebih mudah dipahami oleh pengguna. Pelabelan dapat mencakup penambahan judul, tajuk, deskripsi, dan informasi lainnya ke sel spreadsheet.
 
-## Menyiapkan Lingkungan Anda
+## A környezet beállítása
 
 Sebelum kita mulai membuat kode, pastikan Anda telah menginstal perangkat pengembangan Java di sistem Anda. Anda juga memerlukan editor kode; kami sarankan untuk menggunakan Eclipse atau IntelliJ IDEA.
 
@@ -26,7 +28,7 @@ Sebelum kita mulai membuat kode, pastikan Anda telah menginstal perangkat pengem
 
 Untuk memulai, Anda perlu mengunduh dan menginstal Aspose.Cells untuk Java. Ikuti langkah-langkah sederhana berikut:
 
-1. Mengunjungi [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
+1. Látogatás [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/).
 2. Unduh versi terbaru Aspose.Cells untuk Java.
 3. Ikuti petunjuk instalasi yang disediakan dalam dokumentasi.
 
@@ -105,7 +107,7 @@ Pelajari cara menangani pengecualian dan kasus kesalahan dengan baik untuk memas
 
 ```java
 try {
-    // Kode Anda di sini
+    // A kódod itt
 } catch (Exception e) {
     System.out.println("An error occurred: " + e.getMessage());
 }
@@ -120,15 +122,15 @@ Setelah Anda memberi label pada data Anda, penting untuk menyimpan pekerjaan And
 workbook.save("labeled_data.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Pelabelan data merupakan langkah penting dalam membuat data spreadsheet Anda mudah diakses dan dipahami. Dengan Aspose.Cells untuk Java, Anda memiliki alat yang hebat untuk meningkatkan tugas manajemen dan analisis data Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Untuk menginstal Aspose.Cells untuk Java, kunjungi [dokumentasi](https://reference.aspose.com/cells/java/) untuk petunjuk pemasangan terperinci.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi [dokumentáció](https://reference.aspose.com/cells/java/) untuk petunjuk pemasangan terperinci.
 
 ### Bisakah saya menyesuaikan tampilan label?
 
@@ -145,6 +147,7 @@ Anda dapat menangani kesalahan dengan baik dengan menggunakan blok try-catch unt
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,11 +17,11 @@
 
 ## Cara Menerapkan Fitur Penyesuaian Otomatis untuk File Excel Menggunakan Aspose.Cells untuk Java
 
-### Perkenalan
+### Bevezetés
 
 Apakah Anda ingin mengonversi tabel HTML menjadi berkas Excel yang terstruktur dengan baik menggunakan Java, memastikan konten pas di setiap sel? Tutorial ini akan memandu Anda memanfaatkan Aspose.Cells untuk Java guna memuat data HTML dan secara otomatis menyesuaikan ukuran baris dan kolom agar sesuai dengan kontennya.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menggunakan Aspose.Cells untuk Java untuk mengubah tabel HTML menjadi file Excel.
 - Menerapkan penyesuaian otomatis baris dan kolom menggunakan `HtmlLoadOptions`.
 - Menyiapkan lingkungan Anda dengan Maven atau Gradle untuk manajemen ketergantungan yang mudah.
@@ -27,9 +29,9 @@ Apakah Anda ingin mengonversi tabel HTML menjadi berkas Excel yang terstruktur d
 
 Sebelum memulai, mari kita tinjau prasyarat yang diperlukan untuk memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi terinstal di komputer Anda.
 - **IDE:** IDE Java apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans cocok.
 - **Maven/Gradle:** Kemampuan menggunakan alat-alat pembangunan ini untuk mengelola dependensi.
@@ -41,7 +43,7 @@ Anda juga memerlukan pengetahuan dasar tentang pemrograman Java dan bekerja deng
 Aspose.Cells adalah pustaka canggih yang memungkinkan pengembang untuk bekerja dengan file Excel di Java. Mari kita mulai dengan menambahkannya sebagai dependensi.
 
 ### Pakar
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -60,10 +62,10 @@ dependencies {
 }
 ```
 
-#### Akuisisi Lisensi
-Untuk menggunakan Aspose.Cells untuk Java, Anda dapat memulai dengan uji coba gratis dengan mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/cells/java/)Untuk fungsionalitas penuh, beli lisensi atau minta lisensi sementara.
+#### Licencszerzés
+Untuk menggunakan Aspose.Cells untuk Java, Anda dapat memulai dengan uji coba gratis dengan mengunduhnya dari [Aspose weboldal](https://releases.aspose.com/cells/java/)Untuk fungsionalitas penuh, beli lisensi atau minta lisensi sementara.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 Setelah pengaturan proyek Anda selesai, inisialisasi Aspose.Cells seperti ini:
 
 ```java
@@ -72,7 +74,7 @@ License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kita akan mempelajari langkah-langkah yang diperlukan untuk memuat konten HTML dan menyesuaikan otomatis baris dan kolom dalam berkas Excel.
 
@@ -124,35 +126,35 @@ wb.save("outputWith_AutoFitColsAndRows.xlsx");
 
 Ini menyimpan buku kerja di mana baris dan kolom secara otomatis disesuaikan dengan kontennya.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
-Jika Anda mengalami masalah:
+Ha problémákba ütközik:
 - Pastikan HTML terbentuk dengan baik.
 - Periksa apakah versi pustaka Aspose.Cells cocok dengan pengaturan proyek Anda.
 - Validasi bahwa jalur untuk menyimpan file ditentukan dengan benar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-Aspose.Cells dapat digunakan dalam berbagai skenario:
-1. **Pelaporan Data:** Ubah tabel data web menjadi laporan Excel terstruktur.
+Az Aspose.Cells különböző forgatókönyvekben használható:
+1. **Adatszolgáltatás:** Ubah tabel data web menjadi laporan Excel terstruktur.
 2. **Platform E-dagang:** Secara otomatis membuat ringkasan pesanan dari templat HTML.
 3. **Analisis Survei:** Ubah hasil survei yang disimpan sebagai HTML ke dalam format Excel untuk dianalisis.
 4. **Integrasi dengan Aplikasi Web Java:** Sederhanakan fungsi ekspor data di aplikasi Anda.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar, pertimbangkan hal berikut:
 - Gunakan aliran buffer untuk menangani konten HTML besar secara efisien.
 - Optimalkan penggunaan memori dengan mengelola objek buku kerja secara hati-hati dan menutupnya saat tidak diperlukan.
 - Jelajahi pengaturan kinerja Aspose.Cells untuk menangani file besar.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, Anda telah mempelajari cara menggunakan Aspose.Cells untuk Java guna mengonversi tabel HTML menjadi berkas Excel dengan baris dan kolom yang dapat disesuaikan secara otomatis. Fungsionalitas ini penting untuk memastikan keterbacaan data dan penyajian yang profesional dalam aplikasi Anda. 
 
 Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya seperti menata sel atau mengintegrasikannya dengan solusi penyimpanan cloud.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Dapatkah saya menggunakan Aspose.Cells dengan Java 11?**
 - Ya, Aspose.Cells mendukung semua versi JDK terbaru, termasuk 11 dan di atasnya.
@@ -160,7 +162,7 @@ Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells 
 **Q2: Bagaimana jika HTML saya berisi gambar?**
 - Aspose.Cells terutama menangani data tekstual. Untuk HTML yang kompleks, pertimbangkan praproses untuk mengekstrak konten teks saja.
 
-**Q3: Bagaimana cara menangani file Excel besar dengan Aspose.Cells?**
+**3. kérdés: Hogyan kezelhetek nagyméretű Excel fájlokat az Aspose.Cells segítségével?**
 - Memanfaatkan pengaturan pengoptimalan memori yang tersedia di perpustakaan untuk mengelola penggunaan sumber daya secara efektif.
 
 **Q4: Apakah ada batasan jumlah baris/kolom yang dapat saya sesuaikan secara otomatis?**
@@ -169,18 +171,21 @@ Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells 
 **Q5: Bisakah saya menyesuaikan tampilan sel lebih lanjut?**
 - Tentu saja! Aspose.Cells menawarkan berbagai pilihan gaya untuk font, warna, border, dan banyak lagi.
 
-## Sumber daya
+## Erőforrás
 
 Untuk informasi tambahan, lihat:
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis dan Lisensi Sementara](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió és ideiglenes licenc](https://releases.aspose.com/cells/java/)
 
-Untuk dukungan, kunjungi [Forum Aspose](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
+Támogatásért látogassa meg a [Aspose Fórum](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

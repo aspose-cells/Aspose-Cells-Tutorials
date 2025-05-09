@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ So optimieren Sie die Leistung bei der Verwendung von Aspose.Cells:
 In diesem Tutorial haben Sie gelernt, wie Sie Excel-Dokumente mit Aspose.Cells für Java erstellen und formatieren. Durch die Beherrschung dieser Techniken können Sie die Fähigkeit Ihrer Anwendung, komplexe Tabellenkalkulationsaufgaben effizient zu bewältigen, deutlich verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

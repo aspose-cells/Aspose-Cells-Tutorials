@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách quản lý liên k�
    - Có, Aspose.Cells hỗ trợ liên kết đến nhiều tài nguyên bên ngoài trong một bảng tính duy nhất.
 2. **Một số lỗi thường gặp khi truy cập liên kết ngoài là gì?**
    - Các vấn đề thường gặp bao gồm lỗi không tìm thấy tệp và ngoại lệ bị từ chối cấp quyền.
-3. **Tôi phải xử lý các liên kết bị hỏng trong tệp Excel của mình như thế nào?**
+3. **Tôi phải xử lý các liên kết hỏng trong tệp Excel của mình như thế nào?**
    - Sử dụng `Workbook.getBrokenExternalLinks()` phương pháp xác định và xử lý các liên kết bị hỏng.
 4. **Có thể tự động cập nhật liên kết trên nhiều bảng tính không?**
    - Có, bạn có thể lặp lại một tập hợp các sổ làm việc và cập nhật liên kết theo chương trình.
@@ -158,6 +160,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách quản lý liên k�
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

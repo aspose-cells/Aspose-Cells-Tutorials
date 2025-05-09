@@ -1,5 +1,5 @@
 ---
-"description": "حسّن مخططاتك باستخدام التعليقات التوضيحية باستخدام Aspose.Cells لجافا - دليل خطوة بخطوة. تعلّم كيفية إضافة التعليقات التوضيحية لعرض بيانات مفيد."
+"description": "حسّن مخططاتك باستخدام التعليقات التوضيحية باستخدام Aspose.Cells لجافا - دليل خطوة بخطوة. تعلّم كيفية إضافة التعليقات التوضيحية لتصور البيانات بشكل مفيد."
 "linktitle": "تعليقات الرسم البياني"
 "second_title": "واجهة برمجة تطبيقات معالجة Excel لـ Aspose.Cells Java"
 "title": "تعليقات الرسم البياني"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تعليقات الرسم البياني
@@ -127,6 +129,7 @@ textFrame.getText().getCharacters().setColor(Color.getRed());
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

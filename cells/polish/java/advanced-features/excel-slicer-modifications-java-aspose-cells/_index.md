@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Aby skorzystać z tego samouczka, będziesz potrzebować:
 
 ### Wymagane biblioteki i zależności
 
-Użyjemy Aspose.Cells for Java, potężnej biblioteki, która umożliwia manipulowanie plikami Excel w aplikacjach Java. Poniżej znajdują się szczegóły instalacji:
+Użyjemy Aspose.Cells for Java, potężnej biblioteki, która umożliwia manipulację plikami Excel w aplikacjach Java. Poniżej znajdują się szczegóły instalacji:
 
 **Maven:**
 
@@ -185,7 +187,7 @@ Oto kilka praktycznych scenariuszy, w których modyfikacja fragmentatorów progr
    Użyj krajalnic, aby skutecznie zarządzać poziomami zapasów, kategoryzując produkty w oparciu o stan magazynowy.
 
 4. **Śledzenie projektu:**
-   Śledź postępy projektu za pomocą filtratorów umożliwiających interesariuszom filtrowanie zadań według priorytetu lub terminu.
+   Śledź postęp projektu za pomocą filtratorów umożliwiających interesariuszom filtrowanie zadań według priorytetu lub terminu.
 
 5. **Analityka HR:**
    Analizuj wskaźniki efektywności pracowników, używając segmentatorów do segmentowania danych według działu lub roli.
@@ -223,6 +225,9 @@ Gotowy na głębsze zanurzenie? Spróbuj wdrożyć te techniki w swoich projekta
    - Przetwarzaj tylko niezbędne dane, wykorzystuj strumienie do obsługi plików i optymalizuj konfiguracje fragmentatorów, aby ograniczyć liczbę ponownych obliczeń.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

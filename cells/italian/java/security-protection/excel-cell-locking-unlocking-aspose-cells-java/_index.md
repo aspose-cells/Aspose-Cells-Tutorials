@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,10 +193,13 @@ Esplora ulteriori funzionalità della libreria Aspose.Cells per migliorare le tu
 - **Scarica la libreria**: [Versioni Java di Aspose Cells](https://releases.aspose.com/cells/java/)
 - **Acquista licenza**: [Acquista il prodotto Aspose](https://purchase.aspose.com/buy)
 - **Prova gratuita**: [Inizia con la prova gratuita](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Forum di supporto**: [Forum di supporto Aspose](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

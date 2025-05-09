@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ Scopri come creare grafici a bolle dinamici in Excel con Aspose.Cells per Java. 
 Un tutorial sul codice per Aspose.Words Java
 
 ### [Come creare ed esportare grafici in Java utilizzando Aspose.Cells: una guida completa](./aspose-cells-java-create-export-charts/)
-Scopri come utilizzare Aspose.Cells per Java per creare grafici dinamici, configurare le opzioni di output delle immagini ed esportare immagini di alta qualità. Migliora le tue competenze di visualizzazione dati oggi stesso.
+Scopri come utilizzare Aspose.Cells per Java per creare grafici dinamici, configurare le opzioni di output delle immagini ed esportare immagini di alta qualità. Migliora le tue competenze di visualizzazione dei dati oggi stesso.
 
 ### [Crea grafici Excel dinamici con Aspose.Cells Java: una guida completa per gli sviluppatori](./aspose-cells-java-dynamic-excel-charts/)
 Scopri come creare grafici interattivi e dinamici in Excel utilizzando Aspose.Cells per Java. Padroneggia intervalli denominati, caselle combinate e formule dinamiche.
@@ -195,6 +197,9 @@ Scopri come personalizzare le legende dei grafici utilizzando Aspose.Cells per J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

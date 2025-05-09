@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ The `FormulaText` fonksiyonu, bir Excel hücresindeki formülün metnini almanı
 
 ### Parametre ve Yöntemlerin Açıklaması
 - **`setFormula(String formula)`**: Belirtilen hücreye bir formül ayarlar.
-- **`getStringValue()`**: Hücrenin değerinin dize gösterimini alır, çıktıyı doğrulamak için yararlıdır.
+- **`getStringValue()`**: Hücrenin değerinin dize gösterimini alır, çıktıyı doğrulamak için kullanışlıdır.
 
 #### Sorun Giderme İpuçları
 - Aspose.Cells'in proje bağımlılıklarınıza doğru şekilde eklendiğinden emin olun.
@@ -143,7 +145,7 @@ The `FormulaText` fonksiyonu, bir Excel hücresindeki formülün metnini almanı
 
 1. **Denetim İzi Oluşturma:** Denetleme amaçlı olarak formülleri elektronik tablolardan çıkarın ve kaydedin.
 2. **Veri Doğrulaması:** Hücreler arasında karmaşık hesaplamaları doğrulamak için formül metni alma özelliğini kullanın.
-3. **Raporlama Araçlarıyla Entegrasyon:** İş zekası raporlarına elektronik tablo verilerini entegre etmek için formüller çıkarın.
+3. **Raporlama Araçlarıyla Entegrasyon:** İş zekası raporlarına elektronik tablo verilerini entegre etmek için formülleri çıkarın.
 
 ## Performans Hususları
 - **Bellek Yönetimi:** Özellikle büyük veri kümeleriyle çalışırken, çalışma kitabınızın yapısını iyileştirerek ve verimli veri türleri kullanarak bellek kullanımını düzenli olarak izleyin.
@@ -186,6 +188,9 @@ E-tablo otomasyon becerilerinizi bir üst seviyeye taşımaya hazır mısınız?
 Java ile Aspose.Cells'i kullanarak, uygulamalarınızdaki Excel dosyalarını verimli bir şekilde yönetebilir ve düzenleyebilirsiniz. Projelerinizde potansiyelini en üst düzeye çıkarmak için daha fazla işlevselliği keşfedin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

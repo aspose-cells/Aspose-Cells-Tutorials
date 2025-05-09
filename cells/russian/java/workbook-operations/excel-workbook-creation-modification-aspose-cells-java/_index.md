@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Приобретение лицензии
 Для полной функциональности Aspose.Cells требуется лицензия:
 - **Бесплатная пробная версия**: Скачать с [Релизы Aspose](https://releases.aspose.com/cells/java/) для тестирования с ограничениями.
-- **Временная лицензия**Получите временную лицензию через [Страница покупки Aspose](https://purchase.aspose.com/temporary-license/).
+- **Временная лицензия**: Получите временную лицензию через [Страница покупки Aspose](https://purchase.aspose.com/temporary-license/).
 - **Покупка**: Для бесперебойного доступа приобретите полную лицензию на [Покупка Aspose](https://purchase.aspose.com/buy).
 
 ## Настройка Aspose.Cells для Java
@@ -206,6 +208,9 @@ public class CalculateWorkbookFormulas {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

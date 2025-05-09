@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ För att följa den här handledningen behöver du:
 
 - **Bibliotek och beroenden:** Installera Aspose.Cells för Java. Använd Maven eller Gradle som ditt byggverktyg.
 - **Miljöinställningar:** Den här guiden förutsätter en Java-utvecklingsmiljö med Java SDK installerat.
-- **Kunskapsförkunskaper:** Grundläggande kunskaper i Java-programmering och Excel-filer är meriterande.
+- **Kunskapsförkunskapskrav:** Grundläggande kunskaper i Java-programmering och Excel-filer är meriterande.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -199,6 +201,9 @@ A1: För stora filer, överväg att optimera minnesanvändningen genom att endas
 A2: Ja, Aspose.Cells kan integreras i applikationer som finns på olika molnplattformar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

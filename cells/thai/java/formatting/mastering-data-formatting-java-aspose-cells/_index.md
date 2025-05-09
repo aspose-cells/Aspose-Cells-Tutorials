@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ validation.addArea("B2", "B10");
 เริ่มต้นการเดินทางสู่ความเชี่ยวชาญ Excel ด้วย Aspose.Cells สำหรับ Java วันนี้ และปฏิวัติวิธีการจัดการข้อมูลของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

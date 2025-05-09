@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ public class UsingDisplayRange {
 ```
 
 #### ขั้นตอนที่ 3: กำหนดช่วงการแสดงผลสูงสุด
-ใช้ `MaxDisplayRange` เพื่อให้ได้ช่วงข้อมูลที่มองเห็นได้กว้างที่สุด
+ใช้ `MaxDisplayRange` เพื่อให้ได้ข้อมูลที่มีขอบเขตการมองเห็นที่ใหญ่ที่สุด
 ```java
 import com.aspose.cells.Range;
 import com.aspose.cells.Cells;
@@ -198,6 +200,9 @@ public class UsingDisplayRange {
 - พิจารณาใช้เทคนิคเช่นการสตรีมข้อมูลหรือเพิ่มประสิทธิภาพโค้ดของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

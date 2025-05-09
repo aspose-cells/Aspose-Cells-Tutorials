@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ System.out.println("Encrypted workbook has been opened successfully.");
 
 1. **Finansal Sistemlerde Veri Güvenliği:** İşlem kaydı ve raporlamada kullanılan Excel elektronik tablolarını şifreleyerek hassas finansal verileri güvence altına alın.
 2. **İK Yönetimi:** Excel formatında saklanan personel kayıtlarını şifreleyerek İK veritabanlarındaki çalışan bilgilerini koruyun.
-3. **Stok Kontrolü:** Tescilli ürünlerle iş yapan işletmeler için envanter listelerinin gizliliğini koruyun.
+3. **Stok Kontrolü:** Tescilli ürünlerle uğraşan işletmeler için envanter listelerinin gizliliğini koruyun.
 
 ## Performans Hususları
 
@@ -169,6 +171,9 @@ Bugün öğrendiklerinizi uygulamanızı ve veri yönetimi iş akışlarınızı
 - **Destek:** Yardım ve tartışmalar için Aspose topluluğunun destek forumlarına katılın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

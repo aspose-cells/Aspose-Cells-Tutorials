@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Innan vi börjar, se till att du har följande inställningar:
 - En fungerande Java Development Kit (JDK)-installation.
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Det är meriterande att du har goda kunskaper i Excel-filformat och pivottabeller, men det är inte ett krav.
 
@@ -164,6 +166,9 @@ A5: Besök [Asposes officiella dokumentation](https://reference.aspose.com/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,16 +17,16 @@
 
 Membuat subtotal dalam buku kerja Excel merupakan tugas penting untuk meringkas kumpulan data besar secara efisien. Dengan pustaka Aspose.Cells yang canggih untuk Java, Anda dapat mengotomatiskan proses ini secara terprogram. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk membuat subtotal dalam aplikasi Java Anda.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda
 - Petunjuk langkah demi langkah tentang membuat subtotal dalam lembar Excel
 - Kasus penggunaan praktis untuk menerapkan fitur ini
 - Kiat kinerja dan praktik terbaik saat menggunakan Aspose.Cells
 
-Mari kita bahas prasyaratnya sebelum memulai coding.
+Mielőtt elkezdenénk a kódolást, nézzük át az előfeltételeket.
 
-### Prasyarat
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+### Előfeltételek
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 
 - **JDK (Perangkat Pengembangan Java)**Pastikan Java terinstal di sistem Anda. Verifikasi dengan menjalankan `java -version` di terminal Anda.
 - **Maven atau Gradle**: Kami akan menggunakan Maven untuk manajemen ketergantungan, tetapi langkah yang sama berlaku untuk pengguna Gradle.
@@ -34,7 +36,7 @@ Aspose.Cells untuk Java adalah pustaka yang tangguh untuk mengelola berkas Excel
 
 **Menggunakan Maven:**
 
-Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
+Tambahkan ketergantungan ini ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,27 +47,27 @@ Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
 
 **Menggunakan Gradle:**
 
-Sertakan hal berikut dalam formulir Anda `build.gradle` mengajukan:
+Sertakan hal berikut dalam formulir Anda `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh, tetapi Anda dapat memulai dengan uji coba gratis atau mengajukan lisensi sementara untuk menjelajahi fitur-fiturnya tanpa batasan.
-1. **Uji Coba Gratis**: Unduh pustaka dan cobalah. Kunjungi [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara**: Minta lisensi sementara dari [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/) untuk menghapus batasan-batasan uji coba.
-3. **Pembelian**:Untuk penggunaan berkelanjutan, beli lisensi di [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió**: Unduh pustaka dan cobalah. Kunjungi [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély**: Minta lisensi sementara dari [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/) untuk menghapus batasan-batasan uji coba.
+3. **Vásárlás**:Untuk penggunaan berkelanjutan, beli lisensi di [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 Sekarang setelah Anda menyiapkan lingkungan Anda, mari fokus pada penerapan subtotal.
 
 #### Ikhtisar Pembuatan Subtotal
-Subtotal membantu dalam meringkas data dengan menerapkan fungsi agregat seperti jumlah, rata-rata, atau hitungan pada suatu rentang. Dengan Aspose.Cells, ini dilakukan secara terprogram menggunakan `subtotal` metode.
+Subtotal membantu dalam meringkas data dengan menerapkan fungsi agregat seperti jumlah, rata-rata, atau hitungan pada suatu rentang. Dengan Aspose.Cells, ini dilakukan secara terprogram menggunakan `subtotal` módszer.
 
 ##### Langkah 1: Inisialisasi Buku Kerja dan Koleksi Sel
 Mulailah dengan memuat buku kerja Anda dan mengakses sel-selnya:
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 // Mengakses koleksi sel lembar kerja pertama
@@ -84,7 +86,7 @@ cac.EndColumn = 2;
 ```
 
 ##### Langkah 3: Terapkan Subtotal
-Gunakan `subtotal` metode untuk menghitung dan memasukkan subtotal:
+Használd a `subtotal` metode untuk menghitung dan memasukkan subtotal:
 ```java
 // Terapkan subtotal pada kolom C (indeks 1) dengan fungsi SUM
 cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
@@ -98,62 +100,65 @@ cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 ##### Langkah 4: Simpan dan Keluarkan
 Terakhir, simpan buku kerja Anda dengan subtotal baru:
 ```java
-// Simpan file Excel yang telah dimodifikasi
+// Mentse el a módosított Excel fájlt
 dataDir + "CreatingSubtotals_out.xls";
 
 // Konfirmasi keberhasilan
 System.out.println("Process completed successfully");
 ```
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 Penerapan subtotal dapat bermanfaat dalam berbagai skenario:
-1. **Laporan Keuangan**: Merangkum transaksi atau pendapatan selama periode tertentu.
-2. **Manajemen Inventaris**:Agregat tingkat stok berdasarkan kategori atau lokasi.
+1. **Pénzügyi jelentések**: Merangkum transaksi atau pendapatan selama periode tertentu.
+2. **Készletgazdálkodás**: Mengumpulkan tingkat stok berdasarkan kategori atau lokasi.
 3. **Analisis Penjualan**: Hitung total penjualan per wilayah atau jenis produk.
 
 Kemungkinan integrasi mencakup menggabungkan Aspose.Cells dengan database untuk pembaruan data dinamis, atau menggunakannya dalam aplikasi Java yang lebih besar untuk mengotomatiskan tugas pelaporan keuangan dan bisnis.
 
-### Pertimbangan Kinerja
-Saat bekerja dengan kumpulan data besar, pertimbangkan kiat-kiat berikut:
-- **Optimalkan Penggunaan Memori**Segera buang benda apa pun yang tidak digunakan.
-- **Pemrosesan Batch**: Proses data dalam potongan-potongan jika memungkinkan untuk mengelola memori secara efisien.
+### Teljesítménybeli szempontok
+Nagy adathalmazokkal való munka során vegye figyelembe a következő tippeket:
+- **Memóriahasználat optimalizálása**Segera buang benda apa pun yang tidak digunakan.
+- **Kötegelt feldolgozás**: Proses data dalam potongan-potongan jika memungkinkan untuk mengelola memori secara efisien.
 - **Praktik Terbaik Aspose.Cells**Ikuti panduan dari dokumentasi Aspose untuk kinerja yang optimal.
 
-### Kesimpulan
+### Következtetés
 Anda telah berhasil mempelajari cara membuat subtotal dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Fitur ini dapat meningkatkan kemampuan pemrosesan data Anda, sehingga memudahkan analisis dan interpretasi kumpulan data besar.
 
-#### Langkah Berikutnya
+#### Következő lépések
 - Jelajahi fungsi agregasi lainnya seperti rata-rata atau jumlah.
 - Integrasikan solusi ini ke dalam aplikasi yang lebih besar.
-- Konsultasikan dengan [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk fitur yang lebih canggih.
+- Konsultasikan dengan [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk fitur yang lebih canggih.
 
-### Bagian FAQ
+### GYIK szekció
 **T: Bagaimana cara menginstal Aspose.Cells untuk Java?**
 A: Gunakan Maven atau Gradle seperti yang ditunjukkan di atas, dan tambahkan dependensi ke file proyek Anda.
 
 **T: Dapatkah saya menggunakan Aspose.Cells versi gratis?**
-A: Ya, Anda dapat memulai dengan uji coba. Kunjungi [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/) untuk informasi lebih lanjut.
+A: Ya, Anda dapat memulai dengan uji coba. Kunjungi [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/) további információkért.
 
 **T: Apa saja masalah umum saat menggunakan subtotal di Aspose.Cells?**
 A: Pastikan rentang sel ditentukan dengan benar dan Anda menerapkan subtotal ke indeks kolom yang sesuai.
 
 **T: Bagaimana saya dapat menerapkan fungsi konsolidasi yang berbeda?**
-A: Kamu bisa menggunakan `ConsolidationFunction.AVERAGE`Bahasa Indonesia: `ConsolidationFunction.COUNT`, dll., sesuai kebutuhan Anda.
+A: Kamu bisa menggunakan `ConsolidationFunction.AVERAGE`, `ConsolidationFunction.COUNT`, dll., sesuai kebutuhan Anda.
 
 **T: Apakah Aspose.Cells kompatibel dengan semua versi file Excel?**
 A: Ya, ini mendukung berbagai format Excel termasuk XLS dan XLSX.
 
-### Sumber daya
-- **Dokumentasi**: [Dokumentasi Java Aspose Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Sel Aspose untuk Java](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Coba Aspose Cells](https://releases.aspose.com/cells/java/)
-- **Permintaan Lisensi Sementara**: [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Komunitas Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+### Erőforrás
+- **Dokumentáció**: [Dokumentasi Java Aspose Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Rilis Sel Aspose untuk Java](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Próbáld ki az Aspose Cells-t](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedélykérelem**: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan ini, Anda sekarang akan siap untuk menggabungkan fungsionalitas subtotal ke dalam aplikasi Java Anda menggunakan Aspose.Cells. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

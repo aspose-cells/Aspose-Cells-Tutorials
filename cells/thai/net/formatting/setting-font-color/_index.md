@@ -1,55 +1,60 @@
 ---
-title: กําหนดสีลายอักษรในเซลล์ Excel โดยใช้ Aspose.Cells สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการตั้งสีลายอักษรในเซลล์ Excel โดยใช้ Aspose.Cells สําหรับ .NET สร้างหนังสือทํางาน ปรับเปลี่ยนสไตล์เซลล์ และบันทึกไฟล์ตามโปรแกรม
-keywords: [Aspose.Cells for .NET, Set Font Color in Excel, Change Font Color, Excel Cell Formatting, .NET Excel Library, Modify Excel Styles, C# Excel Formatting]
-url: /th/net/formatting/setting-font-color/
+"description": "เรียนรู้วิธีการตั้งค่าสีแบบอักษรในเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET สร้างเวิร์กบุ๊ก ปรับเปลี่ยนรูปแบบเซลล์ และบันทึกไฟล์ด้วยโปรแกรม"
+"title": "ตั้งค่าสีแบบอักษรในเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET"
+"url": "/th/net/formatting/setting-font-color/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## กําหนดสี Font ในเซลล์ Excel โดยใช้ Aspose.Cells
+## ตั้งค่าสีแบบอักษรในเซลล์ Excel โดยใช้ Aspose.Cells
   
-คู่มือนี้แสดงวิธีการตั้งสีลายอักษรในเซลล์ Excel โดยใช้ Aspose.Cells สําหรับ .NET คุณจะได้เรียนรู้วิธีการสร้างหนังสือทํางาน Excel เพิ่มใบงาน ปรับเปลี่ยนค่าและสไตล์ของเซลล์ และใช้สีลายอักษรที่กําหนดเอง โดยการปฏิบัติตามขั้นตอนเหล่านี้ คุณสามารถควบคุมการฟอร์เมทเซลล์ในไฟล์ Excel โดยใช้ C# โดยเฉพาะสําหรับการสร้างรายงาน การเน้นข้อมูลสําคัญ และการเพิ่มความสามารถในการอ่านใบกระดาษ  
+บทช่วยสอนนี้สาธิตวิธีการตั้งค่าสีแบบอักษรในเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET คุณจะได้เรียนรู้วิธีสร้างเวิร์กบุ๊ก Excel เพิ่มเวิร์กชีต ปรับเปลี่ยนค่าและรูปแบบของเซลล์ และใช้สีแบบอักษรที่กำหนดเอง เมื่อทำตามขั้นตอนเหล่านี้ คุณจะสามารถควบคุมการจัดรูปแบบเซลล์ในไฟล์ Excel ได้ด้วยการเขียนโปรแกรมโดยใช้ C# ซึ่งมีประโยชน์อย่างยิ่งสำหรับการสร้างรายงาน การเน้นข้อมูลที่สำคัญ และการปรับปรุงความสามารถในการอ่านสเปรดชีต  
  
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
-เพื่อใช้ Aspose.Cells สําหรับ .NET ติดตามขั้นตอนนี้  
+## คำแนะนำในการติดตั้ง  
+ในการใช้ Aspose.Cells สำหรับ .NET ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. โครงการผ่าน NuGet Package Manager:  
-   * เปิด Visual Studio  
-   * ไปยัง Tools > NuGet Package Manager > การจัดการ NuGet Packages for Solution  
-   * ค้นหา Aspose.Cells และติดตั้งฉบับล่าสุด  
+1. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:  
+   - เปิด Visual Studio  
+   - ไปที่เครื่องมือ > ตัวจัดการแพ็กเกจ NuGet > จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+   - ค้นหา Aspose.Cells และติดตั้งเวอร์ชันล่าสุด  
 
-2. โกตั้งผ่าน คอนโซลผู้จัดการแพคเกจ  
-   * เปิด คอนโซลผู้จัดการแพ็คเกจใน Visual Studio  
-   * กรอกคําสั่งต่อไปนี้  
+2. ติดตั้งผ่านคอนโซล Package Manager:  
+   - เปิดคอนโซลตัวจัดการแพ็คเกจใน Visual Studio  
+   - รันคำสั่งต่อไปนี้:  
      ```powershell
      Install-Package Aspose.Cells
      ```
 
 3. ดาวน์โหลดจากเว็บไซต์ Aspose:  
-   * เยี่ยมชม[Aspose.Cells สําหรับ .NET Download](https://releases.aspose.com/cells/net/). .  
-   * ดาวน์โหลดและติดตั้ง DLL ล่าสุดด้วยมือ  
+   - เยี่ยม [ดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases-aspose.com/cells/net/).  
+   - ดาวน์โหลดและติดตั้ง DLL ล่าสุดด้วยตนเอง  
 
-4. เพิ่มความหมาย Aspose.Cells ในโครงการของคุณ  
-   * ใน Solution Explorer คลิกขวาที่ References  
-   * คลิกเพิ่มความหมายและดูไฟล์ Aspose.Cells.dll  
-   * คลิก OK เพื่อเพิ่มมันไปยังโครงการของคุณ 
+4. เพิ่มการอ้างอิงถึง Aspose.Cells ในโครงการของคุณ:  
+   - ใน Solution Explorer ให้คลิกขวาที่การอ้างอิง  
+   - คลิกเพิ่มการอ้างอิงและค้นหาไฟล์ Aspose.Cells.dll  
+   - คลิกตกลงเพื่อเพิ่มลงในโครงการของคุณ 
    
-## ดูอีกด้วย  
-เพื่อซื้อใบอนุญาต ไปที่ [เป้าหมายซื้อหน้า](https://purchase.aspose.com/buy). .  
-สําหรับเอกสารครบถ้วน ลงที่ [Aspose.Cells สําหรับเอกสาร .NET](https://docs.aspose.com/cells/net/). .  
-เพื่อสํารวจข้อมูล API ทั้งหมด ตรวจสอบ [Aspose.Cells สําหรับ .NET API Reference](https://reference.aspose.com/cells/net/). . 
+## ดูเพิ่มเติม  
+หากต้องการซื้อใบอนุญาต ให้ไปที่ [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).  
+สำหรับเอกสารประกอบทั้งหมด กรุณาเยี่ยมชม [เอกสาร Aspose.Cells สำหรับ .NET](https://docs-aspose.com/cells/net/).  
+หากต้องการสำรวจข้อมูลอ้างอิง API แบบเต็ม โปรดดู [เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET](https://reference-aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

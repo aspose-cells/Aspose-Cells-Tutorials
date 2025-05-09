@@ -1,14 +1,16 @@
 ---
-title: Tạo biểu đồ hình tròn
-linktitle: Tạo biểu đồ hình tròn
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo biểu đồ hình tròn trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Trực quan hóa dữ liệu của bạn một cách dễ dàng.
-weight: 12
-url: /vi/net/manipulating-chart-types/create-pie-chart/
+"description": "Tìm hiểu cách tạo biểu đồ hình tròn trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Trực quan hóa dữ liệu của bạn một cách dễ dàng."
+"linktitle": "Tạo biểu đồ hình tròn"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo biểu đồ hình tròn"
+"url": "/vi/net/manipulating-chart-types/create-pie-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo biểu đồ hình tròn
@@ -21,11 +23,11 @@ Tạo biểu đồ là điều cần thiết để biểu diễn dữ liệu tr�
 
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập những thông tin sau:
 
-1.  Aspose.Cells cho Thư viện .NET: Đảm bảo rằng bạn đã cài đặt Aspose.Cells trong dự án của mình. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho Thư viện .NET: Đảm bảo rằng bạn đã cài đặt Aspose.Cells trong dự án của mình. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển .NET: Đảm bảo dự án của bạn được thiết lập để sử dụng .NET Framework hoặc .NET Core.
 3. Kiến thức cơ bản về C#: Bạn nên thành thạo lập trình C#, đặc biệt là lập trình hướng đối tượng (OOP).
 
- Đối với người dùng nâng cao, có thể áp dụng giấy phép tạm thời để mở khóa tất cả các tính năng của Aspose.Cells. Bạn có thể yêu cầu một giấy phép từ[đây](https://purchase.aspose.com/temporary-license/).
+Đối với người dùng nâng cao, có thể áp dụng giấy phép tạm thời để mở khóa tất cả các tính năng của Aspose.Cells. Bạn có thể yêu cầu một giấy phép từ [đây](https://purchase.aspose.com/temporary-license/).
 
 ## Nhập gói
 
@@ -43,13 +45,13 @@ using Aspose.Cells.Charts;
 
 ## Bước 1: Tạo một Workbook mới
 
- Đầu tiên, chúng ta cần tạo một phiên bản của`Workbook` lớp, biểu diễn tệp Excel. Một sổ làm việc chứa nhiều trang tính và trong ví dụ của chúng tôi, chúng tôi sẽ làm việc với hai trang tính—một trang tính cho dữ liệu và một trang tính cho biểu đồ hình tròn.
+Đầu tiên, chúng ta cần tạo một phiên bản của `Workbook` lớp, biểu diễn tệp Excel. Một sổ làm việc chứa nhiều trang tính và trong ví dụ của chúng tôi, chúng tôi sẽ làm việc với hai trang tính—một trang tính cho dữ liệu và một trang tính cho biểu đồ hình tròn.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Thao tác này sẽ khởi tạo một bảng tính Excel mới. Nhưng dữ liệu sẽ đi đâu? Chúng ta hãy giải quyết vấn đề đó ở bước tiếp theo.
+Thao tác này khởi tạo một bảng tính Excel mới. Nhưng dữ liệu sẽ đi đâu? Chúng ta hãy giải quyết vấn đề đó ở bước tiếp theo.
 
 ## Bước 2: Thêm dữ liệu vào trang tính
 
@@ -85,7 +87,7 @@ cells["B8"].PutValue(10000);
 
 Ở đây, chúng tôi sẽ thêm hai cột: một cột cho khu vực và một cột cho số liệu bán hàng. Dữ liệu này sẽ được thể hiện trong biểu đồ hình tròn.
 
-## Bước 3: Thêm Bảng biểu đồ
+## Bước 3: Thêm một bảng biểu đồ
 
 Tiếp theo, chúng ta hãy thêm một bảng tính riêng để lưu biểu đồ hình tròn.
 
@@ -106,7 +108,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Phương pháp`Add()`chấp nhận các tham số cho loại biểu đồ (trong trường hợp này,`ChartType.Pie`), và vị trí của nó trên bảng tính. Các con số biểu thị vị trí hàng và cột.
+Phương pháp `Add()` chấp nhận các tham số cho loại biểu đồ (trong trường hợp này, `ChartType.Pie`), và vị trí của nó trên bảng tính. Các con số biểu thị vị trí hàng và cột.
 
 ## Bước 5: Tùy chỉnh giao diện biểu đồ
 
@@ -131,7 +133,7 @@ Chúng tôi thiết lập độ dốc cho vùng vẽ và ẩn đường viền �
 
 ## Bước 6: Xác định dữ liệu biểu đồ
 
- Đã đến lúc liên kết biểu đồ với dữ liệu của chúng tôi.`NSeries` Thuộc tính của biểu đồ liên kết số liệu bán hàng và khu vực với biểu đồ hình tròn.
+Đã đến lúc liên kết biểu đồ với dữ liệu của chúng tôi. `NSeries` Thuộc tính của biểu đồ liên kết số liệu bán hàng và khu vực với biểu đồ hình tròn.
 
 ```csharp
 chart.NSeries.Add("Data!B2:B8", true);
@@ -139,7 +141,7 @@ chart.NSeries.CategoryData = "Data!A2:A8";
 chart.NSeries.IsColorVaried = true;
 ```
 
- Dòng đầu tiên chỉ rõ rằng chúng ta đang sử dụng dữ liệu bán hàng từ các ô`B2:B8` . Chúng tôi cũng yêu cầu biểu đồ sử dụng tên vùng từ`A2:A8` như nhãn danh mục.
+Dòng đầu tiên chỉ rõ rằng chúng ta đang sử dụng dữ liệu bán hàng từ các ô `B2:B8`. Chúng tôi cũng yêu cầu biểu đồ sử dụng tên vùng từ `A2:A8` như nhãn danh mục.
 
 ## Bước 7: Thêm nhãn dữ liệu
 
@@ -175,7 +177,7 @@ legend.Border.Color = Color.Blue;
 legend.Area.FillFormat.Texture = TextureType.Bouquet;
 ```
 
-## Bước 9: Lưu sổ làm việc
+## Bước 9: Lưu Workbook
 
 Cuối cùng, chúng ta lưu sổ làm việc vào một tệp Excel. Bạn có thể chỉ định thư mục đầu ra và tên tệp khi cần.
 
@@ -193,19 +195,21 @@ Tạo biểu đồ hình tròn bằng Aspose.Cells cho .NET là một quy trình
 Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ thanh, biểu đồ đường và biểu đồ phân tán.
 
 ### Tôi có cần giấy phép trả phí để sử dụng Aspose.Cells cho .NET không?
-Bạn có thể sử dụng phiên bản miễn phí với một số hạn chế. Để có đầy đủ tính năng, bạn sẽ cần một giấy phép, bạn có thể mua[đây](https://purchase.aspose.com/buy).
+Bạn có thể sử dụng phiên bản miễn phí với một số hạn chế. Để có đầy đủ tính năng, bạn sẽ cần một giấy phép, bạn có thể mua [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể xuất biểu đồ sang các định dạng như PDF hoặc hình ảnh không?
 Chắc chắn rồi! Aspose.Cells cho phép bạn xuất biểu đồ sang nhiều định dạng khác nhau, bao gồm PDF và PNG.
 
 ### Có thể trang trí mỗi lát bánh bằng nhiều màu sắc khác nhau không?
- Có, bạn có thể áp dụng các màu khác nhau cho mỗi lát cắt bằng cách thiết lập`IsColorVaried` tài sản để`true`, như được hiển thị trong hướng dẫn.
+Có, bạn có thể áp dụng các màu khác nhau cho mỗi lát cắt bằng cách thiết lập `IsColorVaried` tài sản để `true`, như được hiển thị trong hướng dẫn.
 
 ### Tôi có thể tự động tạo nhiều biểu đồ trong một bảng tính không?
 Có, bạn có thể tạo và tùy chỉnh nhiều biểu đồ tùy theo nhu cầu trong một tệp Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

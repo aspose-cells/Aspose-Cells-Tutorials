@@ -1,14 +1,16 @@
 ---
-title: Zapisz plik Excel w formacie 97-2003
-linktitle: Zapisz plik Excel w formacie 97-2003
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zapisywać pliki Excel w formacie 97-2003 przy użyciu Aspose.Cells dla .NET. Uzyskaj praktyczne informacje i wskazówki krok po kroku.
-weight: 10
-url: /pl/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
+"description": "Dowiedz się, jak zapisywać pliki Excel w formacie 97-2003 przy użyciu Aspose.Cells dla .NET. Uzyskaj praktyczne informacje i wskazówki krok po kroku."
+"linktitle": "Zapisz plik Excel w formacie 97-2003"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zapisz plik Excel w formacie 97-2003"
+"url": "/pl/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisz plik Excel w formacie 97-2003
@@ -18,9 +20,9 @@ Tworzenie i zarządzanie plikami Excel programowo może być przełomem, szczeg�
 ## Wymagania wstępne
 Zanim przejdziemy do konkretów, jest kilka warunków wstępnych, które musisz spełnić, aby znaleźć się na Twojej liście:
 1. Podstawowa znajomość .NET: Znajomość języka C# lub VB.NET będzie niezwykle pomocna.
-2.  Aspose.Cells dla .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w Twoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w Twoim projekcie. Jeśli jeszcze tego nie zrobiłeś, możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Środowisko programistyczne, takie jak Visual Studio lub dowolne środowisko IDE zgodne z platformą .NET, ułatwi kodowanie i debugowanie.
-4. Menedżer pakietów NuGet: umożliwia najłatwiejszą instalację Aspose.Cells w projekcie. 
+4. Menedżer pakietów NuGet: najłatwiejsza instalacja Aspose.Cells w projekcie. 
 Gdy już spełnimy te wymagania wstępne, będziemy gotowi do działania!
 ## Importuj pakiety
 Aby rozpocząć pracę z Aspose.Cells, musisz najpierw zaimportować niezbędne przestrzenie nazw do swojego projektu. Umożliwi ci to dostęp do klas i metod wymaganych do manipulowania plikami Excel. Oto jak to zrobić:
@@ -44,9 +46,9 @@ Najpierw najważniejsze! Musisz ustalić katalog, w którym zostanie zapisany pl
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-- `"Your Document Directory"` : Zastąp ten ciąg zastępczy rzeczywistą ścieżką, w której chcesz zapisać plik Excel. Może to być coś takiego`"C:\\ExcelFiles\\"`.
+- `"Your Document Directory"`: Zastąp ten ciąg zastępczy rzeczywistą ścieżką, w której chcesz zapisać plik Excel. Może to być coś takiego `"C:\\ExcelFiles\\"`.
 ## Krok 2: Utwórz nowy obiekt skoroszytu
- Następnie utwórzmy nową instancję`Workbook` klasa. To tutaj dzieje się cała magia!
+Następnie utwórzmy nową instancję `Workbook` klasa. To tutaj dzieje się cała magia!
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -72,16 +74,18 @@ Pamiętaj, że jak w przypadku każdego projektu kodowania, eksperymentowanie i 
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka dla platformy .NET, która umożliwia programistom pracę z plikami w formatach Excel bez konieczności instalowania programu Microsoft Excel.
 ### Jak pobrać Aspose.Cells dla .NET?
- Można go pobrać z[ten link](https://releases.aspose.com/cells/net/).
+Można go pobrać z [ten link](https://releases.aspose.com/cells/net/).
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz wypróbować bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Tak, możesz wypróbować bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 ### W jakich formatach mogę zapisać plik Excel?
 Pliki Excela można zapisywać w różnych formatach, takich jak XLS, XLSX, CSV, PDF i innych.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Odwiedź[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+Odwiedź [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

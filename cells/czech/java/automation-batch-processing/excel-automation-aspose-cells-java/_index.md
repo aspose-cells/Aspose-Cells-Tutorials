@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -266,6 +268,9 @@ Zvažte zakoupení licence nebo žádost o prodlouženou dočasnou licenci prost
 Vydejte se na svou cestu s Aspose.Cells ještě dnes a zrevolucionizujte způsob práce s Excelem v Javě!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

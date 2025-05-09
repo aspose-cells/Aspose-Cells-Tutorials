@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Optimalizace výkonu je zásadní při práci s velkými soubory nebo složitým
 V této příručce jsme se zabývali aktualizací slicerů v souborech Excel v Javě pomocí Aspose.Cells. Naučili jste se, jak načíst a zobrazit verzi knihovny, programově manipulovat s slicery a ukládat změny zpět do souboru Excel. Díky těmto dovednostem můžete automatizovat procesy filtrování dat, čímž zvýšíte produktivitu a přesnost při úlohách analýzy dat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

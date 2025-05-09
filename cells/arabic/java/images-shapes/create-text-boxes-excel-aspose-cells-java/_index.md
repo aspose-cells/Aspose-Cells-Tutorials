@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ wb.save("output_directory/CTBoxHDLineAlignment_out.xlsx");
 من خلال اتباع هذا الدليل، يجب أن تكون الآن مجهزًا بشكل جيد لبدء دمج Aspose.Cells Java في مشاريعك لتحسين أتمتة Excel وإمكانيات التنسيق.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

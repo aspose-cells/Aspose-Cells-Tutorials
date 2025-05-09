@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Excelシートをプログラムで管理するのに苦労し、特定のワー
 - Aspose.Cells for Java をセットアップおよび構成する方法。
 - ワークシートを名前で削除する手順を説明します。
 - 他のシステムとの主要な統合の可能性。
-- 現実世界のシナリオにおける実用的なアプリケーション。
+- 現実のシナリオにおける実践的なアプリケーション。
 - パフォーマンス最適化のヒント。
 
 このガイドに従うことで、Aspose.Cells を使って Excel ファイルを効率的に操作するために必要なスキルを習得できます。始める前に、前提条件を確認しましょう。
@@ -195,6 +197,9 @@ Aspose.Cells for Java を使用して、ワークシート名でワークシー�
 このガイドに従うことで、JavaでAspose.Cellsを使ってExcelシートを効率的に管理できるようになります。今すぐ導入して、プロジェクトをいかに強化できるかを実感してください！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

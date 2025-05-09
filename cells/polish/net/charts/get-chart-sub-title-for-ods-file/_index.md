@@ -1,45 +1,50 @@
 ---
-title: Uzyskaj podtytuł wykresu z pliku ODS za pomocą Aspose.Cells dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak ładować plik ODS, uzyskać dostęp do wykresu i odzyskać jego podtytuł za pomocą Aspose.Cells dla .NET. Prosta i wydajna przykłada z przewodnictwem krok po kroku.
-keywords: [Aspose.Cells for .NET, Load ODS File, Get Chart Subtitle, Access Chart in Excel, Retrieve Chart Data, Read ODS File, C# Excel Charts, .NET Spreadsheet API]
-url: /pl/net/charts/get-chart-sub-title-for-ods-file/
+"description": "Dowiedz się, jak załadować plik ODS, uzyskać dostęp do wykresu i pobrać jego podtytuł za pomocą Aspose.Cells dla .NET. Prosty i wydajny przykład z instrukcjami krok po kroku."
+"title": "Pobierz podtytuł wykresu z pliku ODS przy użyciu Aspose.Cells dla .NET"
+"url": "/pl/net/charts/get-chart-sub-title-for-ods-file/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uzyskaj podtytuł wykresu z pliku ODS za pomocą Aspose.Cells  
-W tym przykładzie pokazano, jak używać Aspose.Cells dla .NET do ładowania pliku ODS, uzyskania dostępu do konkretnej tabeli w arkuszu roboczym i odzyskiwania jego podtytułu.  
+# Pobierz podtytuł wykresu z pliku ODS za pomocą Aspose.Cells  
+Ten przykład pokazuje, jak używać Aspose.Cells dla .NET do ładowania pliku ODS, uzyskiwania dostępu do określonego wykresu w arkuszu kalkulacyjnym i pobierania jego podtytułu. Postępując zgodnie z tym przewodnikiem, programiści mogą sprawnie odczytywać i wyodrębniać informacje o wykresach z arkuszy kalkulacyjnych ODS przy użyciu języka C#. Przykład zapewnia jasne, krok po kroku podejście do pracy z wykresami w plikach Excel, zapewniając płynną implementację w aplikacjach .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji:  
-Aby użyć tego przykładu, wykonaj następujące kroki:  
+Aby skorzystać z tego przykładu, wykonaj następujące kroki:  
 
-1. Instaluj Aspose.Cells dla .NET za pośrednictwem programu NuGet:  
+1. Zainstaluj Aspose.Cells dla .NET za pomocą NuGet:  
    ```shell
    Install-Package Aspose.Cells
    ```  
-2. Dodaj wymagany przestrzeni nazw w projekcie C#:  
+2. Dodaj wymaganą przestrzeń nazw w swoim projekcie C#:  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Charts;
    ```  
-3. Wyślij podaną kodę do ładowania pliku ODS, dostępuj do wykresu i drukuj podtytuł na konsoli.  
+3. Uruchom dostarczony kod, aby załadować plik ODS, uzyskać dostęp do wykresu i wydrukować jego napis na konsoli.  
 
-## Zobacz również
-Bezpłatna próbka[Wystarczy bezpłatny test](https://releases.aspose.com/)\- Nie .  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie . 
+## Zobacz także
+Aby skorzystać z bezpłatnej wersji próbnej, odwiedź stronę [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

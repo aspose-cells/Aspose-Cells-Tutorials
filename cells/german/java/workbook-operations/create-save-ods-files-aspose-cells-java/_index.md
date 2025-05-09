@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ A5: Ja, Aspose.Cells kann nahtlos in verschiedene Java-Frameworks und -Bibliothe
 Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells für Java und vereinfachen Sie Ihre Tabellenkalkulationsverwaltungsaufgaben!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

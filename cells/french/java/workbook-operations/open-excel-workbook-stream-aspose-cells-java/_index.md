@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Dans ce guide, nous avons expliqué comment ouvrir un classeur Excel à partir d
 En suivant ce guide complet, vous serez bien équipé pour exploiter Aspose.Cells pour Java dans vos projets, améliorant à la fois la fonctionnalité et l'efficacité.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

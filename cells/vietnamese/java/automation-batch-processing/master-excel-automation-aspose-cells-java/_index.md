@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ public class LicenseSetup {
 ```
 
 ## Hướng dẫn thực hiện
-Chúng ta hãy chia nhỏ quá trình triển khai thành các phần cụ thể theo tính năng:
+Chúng ta hãy chia nhỏ phần triển khai thành các phần cụ thể theo tính năng:
 
 ### Tính năng: Thông tin phiên bản
 #### Tổng quan
@@ -202,6 +204,9 @@ Hướng dẫn này hướng dẫn bạn cách sử dụng Aspose.Cells for Java
    - Aspose.Cells có thể dễ dàng tích hợp vào Spring Boot, Spring MVC hoặc bất kỳ nền tảng Java nào khác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

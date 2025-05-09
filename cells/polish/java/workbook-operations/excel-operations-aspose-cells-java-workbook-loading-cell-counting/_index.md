@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ long largeCellCount = worksheet.getCells().getCountLarge();
 ## Rozważania dotyczące wydajności
 - **Optymalizacja wykorzystania pamięci**:Zarządzaj pamięcią efektywnie, zamykając `Workbook` obiektów, gdy nie są używane, szczególnie w przypadku dużych plików.
 - **Przetwarzanie wsadowe**:W przypadku dużych zbiorów danych należy przetwarzać dane w partiach, aby uniknąć przepełnienia pamięci.
-- **Najlepsze praktyki w Javie**:Wykorzystaj narzędzia do zbierania śmieci i profilowania w celu efektywnego monitorowania wykorzystania zasobów.
+- **Najlepsze praktyki Java**:Wykorzystaj narzędzia do zbierania śmieci i profilowania w celu efektywnego monitorowania wykorzystania zasobów.
 
 ## Wniosek
 Teraz powinieneś czuć się komfortowo ładując skoroszyty programu Excel i licząc komórki za pomocą Aspose.Cells dla Java. Te możliwości są niezbędne do automatyzacji zadań arkusza kalkulacyjnego i integracji z innymi aplikacjami.
@@ -154,6 +156,9 @@ Rozpocznij przygodę z doskonaleniem obsługi arkuszy kalkulacyjnych dzięki Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

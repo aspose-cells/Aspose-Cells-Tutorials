@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ public class AsposeCellsSetup {
 ### Функция 1: Создание экземпляра рабочей книги
 
 #### Обзор
-Создание экземпляра `Workbook` объект позволяет вам загрузить существующий файл Excel в ваше Java-приложение для обработки или чтения.
+Создание экземпляра `Workbook` объект позволяет загрузить существующий файл Excel в приложение Java для обработки или чтения.
 
 #### Шаги:
 **1. Импорт необходимых классов:**
@@ -201,6 +203,9 @@ Aspose.Cells для Java можно использовать в различны
 - **Поддерживать:** [Форум Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

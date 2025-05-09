@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ workbook.save(outDir + "/AThemes_out.xlsx");
 ## 성능 고려 사항
 
 Aspose.Cells를 사용할 때 성능을 최적화하려면:
-- 객체를 적절히 폐기하여 메모리를 효과적으로 관리하세요.
+- 객체를 적절하게 폐기하여 메모리를 효과적으로 관리하세요.
 - 대용량 데이터 세트의 경우 스트리밍 API를 사용하여 메모리 사용량을 줄이세요.
 - 루프 내에서 객체 생성을 최소화하고 알고리즘을 최적화하는 등 Java 프로그래밍의 모범 사례를 구현합니다.
 
@@ -185,6 +187,9 @@ Aspose.Cells for Java를 사용하여 차트 시리즈에 테마를 적용하는
 - **지원하다:** [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

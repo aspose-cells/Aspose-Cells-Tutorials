@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Hãy cùng khám phá cách bạn có thể tích hợp thư viện mạnh mẽ 
 ## Điều kiện tiên quyết (H2)
 Trước khi bắt đầu, hãy đảm bảo bạn có những thứ sau:
 
-- **Thư viện bắt buộc:** Aspose.Cells cho Java phiên bản 25.3 trở lên.
+- **Thư viện cần thiết:** Aspose.Cells cho Java phiên bản 25.3 trở lên.
 - **Thiết lập môi trường:** Bộ công cụ phát triển Java (JDK) đang hoạt động được cài đặt trên hệ thống của bạn.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với hệ thống xây dựng Maven hoặc Gradle.
 
@@ -157,6 +159,9 @@ Khám phá các tài nguyên này để hiểu sâu hơn và ứng dụng Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

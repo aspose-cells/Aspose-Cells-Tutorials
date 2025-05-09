@@ -1,33 +1,35 @@
 ---
-title: Salvando Tabela Dinâmica em Formato ODS Programaticamente em .NET
-linktitle: Salvando Tabela Dinâmica em Formato ODS Programaticamente em .NET
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Aprenda como salvar tabelas dinâmicas no formato ODS usando o Aspose.Cells para .NET com este guia passo a passo.
-weight: 25
-url: /pt/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Aprenda como salvar tabelas dinâmicas no formato ODS usando o Aspose.Cells para .NET com este guia passo a passo."
+"linktitle": "Salvando Tabela Dinâmica em Formato ODS Programaticamente em .NET"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Salvando Tabela Dinâmica em Formato ODS Programaticamente em .NET"
+"url": "/pt/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Salvando Tabela Dinâmica em Formato ODS Programaticamente em .NET
 
 ## Introdução
-Quando se trata de gerenciar dados em planilhas, nada se compara ao poder das Tabelas Dinâmicas. Elas são uma ferramenta essencial para resumir, analisar e apresentar conjuntos de dados complexos. Hoje, vamos nos aprofundar no uso do Aspose.Cells para .NET para salvar uma Tabela Dinâmica no formato ODS. Seja você um desenvolvedor experiente ou esteja apenas começando a usar o .NET, você achará este guia simples. 
+Quando se trata de gerenciar dados em planilhas, nada se compara ao poder das Tabelas Dinâmicas. Elas são uma ferramenta essencial para resumir, analisar e apresentar conjuntos de dados complexos. Hoje, vamos nos aprofundar no uso do Aspose.Cells para .NET para salvar uma Tabela Dinâmica no formato ODS. Seja você um desenvolvedor experiente ou esteja apenas começando a usar o .NET, este guia será bastante simples. 
 Vamos começar!
 ## Pré-requisitos
-Antes de começarmos a usar o código, você precisará de alguns elementos essenciais:
+Antes de começarmos a trabalhar no código, você precisa de alguns elementos essenciais:
 ### 1. Conhecimento básico de .NET
 Ter um conhecimento básico do .NET e seus conceitos de programação ajudará você a acompanhar facilmente.
 ### 2. Aspose.Cells para .NET
- Você precisará ter o Aspose.Cells for .NET instalado. Você pode baixá-lo do[Página de lançamentos da Aspose](https://releases.aspose.com/cells/net/) . Uma versão de teste também está disponível[aqui](https://releases.aspose.com/).
+Você precisará ter o Aspose.Cells para .NET instalado. Você pode baixá-lo do site [Página de lançamentos do Aspose](https://releases.aspose.com/cells/net/). Uma versão de teste também está disponível [aqui](https://releases.aspose.com/).
 ### 3. Ambiente de desenvolvimento
 Certifique-se de ter um IDE como o Visual Studio, onde você pode escrever e testar seu código .NET.
 ### 4. Um pouco de paciência
-Como em qualquer esforço de codificação, paciência é a chave. Não se preocupe se as coisas não funcionarem perfeitamente na primeira vez; a depuração faz parte do processo.
+Como em qualquer projeto de codificação, paciência é fundamental. Não se preocupe se as coisas não funcionarem perfeitamente na primeira vez; a depuração faz parte do processo.
 ## Pacotes de importação
-Para trabalhar com Aspose.Cells, você precisará importar os namespaces necessários. Adicione a seguinte diretiva using no início do seu arquivo de código:
+Para trabalhar com Aspose.Cells, você precisará importar os namespaces necessários. Adicione a seguinte diretiva "using" no início do seu arquivo de código:
 ```csharp
 using System;
 using Aspose.Cells.Pivot;
@@ -35,13 +37,13 @@ using Aspose.Cells.Pivot;
 Esta linha permite que você acesse todas as funcionalidades da biblioteca Aspose.Cells, facilitando seu processo de codificação.
 Agora, vamos dividir o processo em etapas gerenciáveis.
 ## Etapa 1: configure seu diretório de saída
-Primeiro, você precisa definir onde quer salvar seu arquivo ODS. Esta é uma atribuição simples de um caminho de diretório.
+Primeiro, você precisa definir onde deseja salvar seu arquivo ODS. Isso é uma simples atribuição de um caminho de diretório.
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Nesta linha, substitua`"Your Document Directory"` com o caminho onde você gostaria de salvar o arquivo.
-## Etapa 2: Crie uma nova pasta de trabalho
-Em seguida, você instanciará um novo objeto Pasta de Trabalho, que conterá todos os seus dados e estruturas, incluindo a Tabela Dinâmica.
+Nesta linha, substitua `"Your Document Directory"` com o caminho onde você gostaria de salvar o arquivo.
+## Etapa 2: Criar uma nova pasta de trabalho
+Em seguida, você instanciará um novo objeto Workbook, que conterá todos os seus dados e estruturas, incluindo a Tabela Dinâmica.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -82,17 +84,17 @@ cells["C6"].PutValue(4070);
 cells["C7"].PutValue(5000);
 cells["C8"].PutValue(6430);
 ```
-Nessas linhas, estamos definindo os títulos e preenchendo os dados de vendas. Pense nessa etapa como estocar sua despensa antes de cozinhar uma refeição; quanto melhores forem seus ingredientes (dados), melhor será sua refeição (análise).
-## Etapa 5: Crie uma tabela dinâmica
-Agora vem a parte divertida — criar a Tabela Dinâmica! Veja como adicioná-la à sua planilha:
+Nestas linhas, estamos definindo os títulos e preenchendo os dados de vendas. Pense nesta etapa como se estivesse abastecendo sua despensa antes de preparar uma refeição: quanto melhores forem seus ingredientes (dados), melhor será sua refeição (análise).
+## Etapa 5: Criar uma Tabela Dinâmica
+Agora vem a parte divertida: criar a Tabela Dinâmica! Veja como adicioná-la à sua planilha:
 ```csharp
 PivotTableCollection pivotTables = sheet.PivotTables;
-// Adicionar uma tabela dinâmica à planilha
+// Adicionar uma Tabela Dinâmica à planilha
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- Neste snippet, estamos especificando o intervalo de dados para a Tabela Dinâmica e onde colocá-la na planilha. O intervalo de dados`=A1:C8` abrange a área onde nossos dados existem.
+Neste snippet, estamos especificando o intervalo de dados para a Tabela Dinâmica e onde colocá-la na planilha. O intervalo de dados `=A1:C8` abrange a área onde nossos dados existem.
 ## Etapa 6: personalize sua tabela dinâmica
-Em seguida, você vai querer personalizar sua Tabela Dinâmica para atender às suas necessidades. Isso envolve controlar o que é mostrado, como é categorizado e como calcula os dados.
+Em seguida, você precisará personalizar sua Tabela Dinâmica para atender às suas necessidades. Isso envolve controlar o que é exibido, como é categorizado e como os dados são calculados.
 ```csharp
 PivotTable pivotTable = pivotTables[index];
 // Não exibindo totais gerais para linhas.
@@ -105,35 +107,37 @@ pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
 pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
 pivotTable.CalculateData();
 ```
-Aqui, você está decidindo quais campos de dados resumir e como eles devem ser representados. É como arrumar a mesa para seu jantar; você decide o que se encaixa melhor e como apresentá-lo.
+Aqui, você decide quais campos de dados resumir e como eles devem ser representados. É como pôr a mesa para o seu jantar: você decide o que se encaixa melhor e como apresentar.
 ## Etapa 7: Salve sua pasta de trabalho
-Finalmente, você está pronto para salvar seu trabalho no formato ODS desejado. Veja como fazer isso:
+Por fim, você está pronto para salvar seu trabalho no formato ODS desejado. Veja como fazer:
 ```csharp
 workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
 ```
-Com esta etapa, você conclui seu projeto e o protege no diretório escolhido — um acabamento satisfatório!
+Com esta etapa, você conclui seu projeto e o protege no diretório escolhido — um resultado satisfatório!
 ## Etapa 8: Verifique sua saída
-Por fim, é sempre uma boa ideia verificar se o processo foi concluído com sucesso. Você pode adicionar uma mensagem de console simples:
+Por fim, é sempre uma boa ideia verificar se o processo foi concluído com sucesso. Você pode adicionar uma mensagem simples no console:
 ```csharp
 Console.WriteLine("PivotTableSaveInODS executed successfully.");
 ```
-Esta mensagem aparecerá no seu console para confirmar que tudo ocorreu sem problemas. Assim como um chef verificando se tudo está perfeitamente cozido antes de servir!
+Esta mensagem aparecerá no seu console para confirmar que tudo correu bem. É como um chef verificando se tudo está perfeito antes de servir!
 ## Conclusão 
-aí está! Você não só criou uma Tabela Dinâmica usando Aspose.Cells, mas também a salvou no formato ODS. Este guia o guiou por cada etapa, garantindo que você esteja armado com o conhecimento e a confiança para lidar com tarefas semelhantes no futuro.
+E pronto! Você não só criou uma Tabela Dinâmica usando Aspose.Cells, como também a salvou no formato ODS. Este guia o guiou por cada etapa, garantindo que você esteja munido do conhecimento e da confiança necessários para realizar tarefas semelhantes no futuro.
 ## Perguntas frequentes
 ### O que é Aspose.Cells?
 Aspose.Cells é uma biblioteca sofisticada que permite criar e manipular arquivos do Excel em aplicativos .NET.
 ### Posso usar o Aspose.Cells gratuitamente?
- Sim, você pode baixar uma versão de teste gratuita no[Site Aspose](https://releases.aspose.com/).
+Sim, você pode baixar uma versão de teste gratuita no [Site Aspose](https://releases.aspose.com/).
 ### Quais formatos o Aspose.Cells suporta?
 Ele suporta vários formatos, incluindo XLSX, XLS, ODS, PDF e muitos outros.
 ### Como obtenho suporte para o Aspose.Cells?
- Você pode encontrar ajuda em[Fórum de suporte Aspose](https://forum.aspose.com/c/cells/9).
+Você pode encontrar ajuda em [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9).
 ### Existe uma licença temporária disponível?
- Sim, você pode solicitar uma licença temporária através do site da Aspose[aqui](https://purchase.aspose.com/temporary-license/).
+Sim, você pode solicitar uma licença temporária através do site da Aspose [aqui](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 - XLSX 形式で新しいワークブックを作成する方法。
 - 最初のワークシートにアクセスして操作します。
 - グラフ作成用のデータを追加します。
-- 縦棒グラフを簡単に作成します。
+- 簡単に縦棒グラフを作成します。
 - ワークブックを効率的に保存します。
 
 実装を始める前に、すべてが正しく設定されていることを確認してください。必要なライブラリや環境設定などの前提条件を説明し、スムーズに開始できるようにします。
@@ -108,8 +110,8 @@ public class AccessWorksheet {
 }
 ```
 
-### 3. グラフにデータを追加する
-グラフを作成するには、ワークシートにデータが必要です。サンプルデータを使用してセルにデータを入力する方法は次のとおりです。
+### 3. グラフのデータを追加する
+グラフを作成するには、ワークシートにデータが必要です。サンプルデータを使用してセルにデータを入力する手順は次のとおりです。
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Worksheet;
@@ -220,6 +222,9 @@ Aspose.Cells for Javaを使ったワークブックの作成とグラフ作成�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

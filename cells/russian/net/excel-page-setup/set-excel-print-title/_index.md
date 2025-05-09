@@ -1,14 +1,16 @@
 ---
-title: Установить заголовок печати Excel
-linktitle: Установить заголовок печати Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Научитесь эффективно устанавливать заголовки печати Excel с помощью Aspose.Cells для .NET. Оптимизируйте процесс печати с помощью нашего пошагового руководства.
-weight: 170
-url: /ru/net/excel-page-setup/set-excel-print-title/
+"description": "Научитесь эффективно устанавливать заголовки печати Excel с помощью Aspose.Cells для .NET. Оптимизируйте процесс печати с помощью нашего пошагового руководства."
+"linktitle": "Установить заголовок печати Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Установить заголовок печати Excel"
+"url": "/ru/net/excel-page-setup/set-excel-print-title/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить заголовок печати Excel
@@ -22,7 +24,7 @@ url: /ru/net/excel-page-setup/set-excel-print-title/
 Прежде чем мы углубимся в пошаговые инструкции, давайте убедимся, что у вас все готово для беспрепятственного выполнения:
 
 1. Установленная Visual Studio: Вам понадобится рабочая версия Visual Studio на вашем компьютере, на которой вы сможете запускать приложения .NET.
-2.  Aspose.Cells для .NET: Если вы еще этого не сделали, загрузите Aspose.Cells для .NET с сайта[сайт](https://releases.aspose.com/cells/net/). Эта библиотека является основой нашей работы по программному управлению файлами Excel.
+2. Aspose.Cells для .NET: Если вы еще этого не сделали, загрузите Aspose.Cells для .NET с сайта [сайт](https://releases.aspose.com/cells/net/). Эта библиотека является основой нашей работы по программному управлению файлами Excel.
 3. Базовые знания программирования: знакомство с программированием на C# поможет вам понимать и изменять предоставленные фрагменты кода.
 4. .NET Framework: убедитесь, что у вас установлена правильная версия .NET для совместимости с Aspose.Cells.
 
@@ -65,11 +67,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Просто замените`"YOUR DOCUMENT DIRECTORY"` с путем, по которому вы хотите сохранить файл Excel. Например, вы можете использовать`@"C:\Reports\"`.
+Просто замените `"YOUR DOCUMENT DIRECTORY"` с путем, по которому вы хотите сохранить файл Excel. Например, вы можете использовать `@"C:\Reports\"`.
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
- Далее мы создаем экземпляр`Workbook` класс, представляющий файл Excel.
+Далее мы создаем экземпляр `Workbook` класс, представляющий файл Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -79,17 +81,17 @@ Workbook workbook = new Workbook();
 
 ## Шаг 3: Получите справку по PageSetup
 
- Теперь давайте перейдем к рабочему листу`PageSetup` свойство. Здесь будут настроены большинство наших параметров печати.
+Теперь давайте перейдем к рабочему листу `PageSetup` свойство. Здесь будут настроены большинство наших параметров печати.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Здесь мы берем`PageSetup` с первого рабочего листа. Это дает нам контроль над тем, как страница будет настроена для печати.
+Здесь мы берем `PageSetup` с первого рабочего листа. Это дает нам контроль над тем, как страница будет настроена для печати.
 
 ## Шаг 4: Определите заголовки столбцов
 
- Чтобы указать, какие столбцы будут напечатаны как заголовки, мы назначаем нашим столбцам идентификаторы столбцов.`PrintTitleColumns` свойство. 
+Чтобы указать, какие столбцы будут напечатаны как заголовки, мы назначаем нашим столбцам идентификаторы столбцов. `PrintTitleColumns` свойство. 
 
 ```csharp
 pageSetup.PrintTitleColumns = "$A:$B";
@@ -138,10 +140,12 @@ Aspose.Cells предоставляет бесплатную пробную ве
 Поддерживает множество форматов, включая XLS, XLSX, CSV и другие.
 
 ### Где я могу найти более подробную информацию?
- Вы можете изучить документацию[здесь](https://reference.aspose.com/cells/net/).
+Вы можете изучить документацию [здесь](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

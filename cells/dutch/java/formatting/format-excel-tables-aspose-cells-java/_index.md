@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Je hebt geleerd hoe je Aspose.Cells voor Java kunt instellen en gebruiken om Lis
 Begin met het implementeren van deze technieken in uw projecten en ontdek hoe Aspose.Cells uw Excel-gegevensbeheertaken kan transformeren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

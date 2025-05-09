@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Paramètres et méthodes
 - **Cahier d'exercices**: Représente l'intégralité du fichier Excel.
-- **Feuille de travail**: Fait référence à une seule feuille dans le classeur.
+- **Feuille de travail**Fait référence à une seule feuille dans le classeur.
 - **Collection de commentaires en fil de discussion**:Un ensemble de commentaires associés à une cellule.
 
 ## Applications pratiques
@@ -148,6 +150,9 @@ Prêt à aller plus loin ? Essayez d'implémenter cette solution dans vos propr
 - [Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

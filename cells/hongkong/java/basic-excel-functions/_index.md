@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 基本函數
@@ -48,9 +50,11 @@
 使用 Aspose.Cells for Java 解鎖 Excel 文字函數的秘密。學習輕鬆地在 Excel 中操作、擷取和轉換文字。
 ### [Excel 日期函數教學](./excel-date-functions-tutorial/)
 學習使用 Aspose.Cells for Java 的 Excel 日期函數。探索帶有原始程式碼的分步教程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

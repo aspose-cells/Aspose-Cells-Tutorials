@@ -7,35 +7,37 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Memodifikasi Label Data Bagan Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Pernahkah Anda perlu mengotomatiskan modifikasi label data bagan dalam buku kerja Excel? Memperbarui label data secara manual dapat memakan waktu dan rentan terhadap kesalahan, terutama saat menangani kumpulan data besar atau beberapa file. Tutorial ini akan memandu Anda dalam menggunakan **Aspose.Cells untuk Java** untuk memuat buku kerja, mengakses lembar kerja tertentu, memodifikasi label data seri bagan, dan menyimpan file yang diperbarui—semuanya secara terprogram.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara mengatur Aspose.Cells untuk Java
 - Memuat dan mengakses buku kerja dan lembar kerja Excel
 - Memodifikasi label data grafik dengan mudah
-- Menyimpan perubahan Anda kembali ke dalam file Excel
+- Menyimpan perubahan Anda kembali ke file Excel
 
 Mari selami bagaimana Anda dapat menyederhanakan alur kerja Anda dengan mengotomatiskan tugas-tugas ini menggunakan Aspose.Cells Java.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következők a helyén vannak:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**Anda memerlukan versi 25.3 atau yang lebih baru dari pustaka ini untuk mengikuti tutorial ini.
   
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - IDE yang kompatibel seperti IntelliJ IDEA atau Eclipse yang dikonfigurasi untuk pengembangan Java.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan alat pembangun Maven atau Gradle akan bermanfaat, tetapi tidaklah wajib.
 
@@ -57,13 +59,13 @@ Untuk memulai dengan Aspose.Cells, Anda perlu menambahkannya ke dependensi proye
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
+#### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis**: Mulailah dengan uji coba gratis untuk menjelajahi fitur Aspose.Cells untuk Java.
-2. **Lisensi Sementara**: Dapatkan lisensi sementara jika Anda memerlukan lebih dari 30 hari untuk evaluasi.
-3. **Pembelian**: Setelah puas, pertimbangkan untuk membeli lisensi penuh untuk penggunaan produksi.
+1. **Ingyenes próbaverzió**: Mulailah dengan uji coba gratis untuk menjelajahi fitur Aspose.Cells untuk Java.
+2. **Ideiglenes engedély**: Dapatkan lisensi sementara jika Anda memerlukan lebih dari 30 hari untuk evaluasi.
+3. **Vásárlás**: Setelah puas, pertimbangkan untuk membeli lisensi penuh untuk penggunaan produksi.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Untuk menginisialisasi Aspose.Cells dalam proyek Anda, pastikan bahwa berkas build Anda menyertakan dependensi seperti yang ditunjukkan di atas. Untuk pemberian lisensi, terapkan lisensi menggunakan:
 
@@ -72,18 +74,18 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini akan memandu Anda melalui setiap fitur modifikasi label data bagan dalam buku kerja Excel.
 
 ### Memuat dan Memodifikasi Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 Mulailah dengan memuat file Excel yang ada ke dalam aplikasi Java Anda menggunakan Aspose.Cells, yang memungkinkan akses terprogram ke kontennya.
 
-#### Langkah 1: Membuat Instansi Objek Buku Kerja
+#### 1. lépés: Munkafüzet-objektum példányosítása
 
-Mulailah dengan membuat `Workbook` objek dari lokasi file Excel yang ditentukan:
+Kezdje egy `Workbook` objek dari lokasi file Excel yang ditentukan:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -105,7 +107,7 @@ Kode ini mengambil lembar kerja pertama dalam buku kerja Anda, dengan asumsi lem
 
 ### Memodifikasi Label Data dari Seri Bagan
 
-#### Ringkasan
+#### Áttekintés
 Ubah label data langsung dalam rangkaian bagan tertentu untuk mencerminkan informasi atau gaya baru.
 
 #### Langkah 3: Akses Bagan Pertama
@@ -129,9 +131,9 @@ datalabels.setText("aspose");
 
 Di sini, Anda menyetel teks label data ke "aspose", yang menunjukkan cara menyesuaikan titik data secara terprogram.
 
-### Simpan Buku Kerja yang Dimodifikasi
+### Módosított munkafüzet mentése
 
-#### Ringkasan
+#### Áttekintés
 Setelah membuat perubahan, simpan kembali buku kerja Anda ke disk atau distribusikan sesuai kebutuhan.
 
 #### Langkah 5: Simpan File yang Diperbarui
@@ -145,35 +147,35 @@ workbook.save(outDir + "/ModifyPieChart_out.xls");
 
 Langkah ini menyelesaikan perubahan Anda, menyimpannya dalam direktori keluaran yang ditentukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java menawarkan solusi yang tangguh di berbagai industri. Berikut ini adalah beberapa aplikasi praktis untuk memodifikasi label data bagan:
 
-- **Pelaporan Keuangan**: Secara otomatis memperbarui grafik keuangan dengan data waktu nyata.
+- **Pénzügyi jelentéstétel**: Secara otomatis memperbarui grafik keuangan dengan data waktu nyata.
 - **Penelitian Akademis**: Perbarui grafik dan bagan dalam makalah penelitian secara efisien.
 - **Analisis Penjualan**: Ubah angka penjualan di dasbor untuk mencerminkan tren terbaru.
 
 Integrasi dengan sistem lain, seperti basis data atau layanan web, dapat lebih meningkatkan fungsionalitas dengan mengotomatiskan pengambilan data dan proses pembaruan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan file Excel berukuran besar:
+Nagyméretű Excel-fájlokkal való munka során:
 
 - Optimalkan penggunaan memori dengan menangani satu lembar kerja dalam satu waktu jika memungkinkan.
 - Gunakan streaming untuk membaca/menulis guna mengelola sumber daya secara efektif.
 
 Praktik terbaik meliputi membuang objek saat tidak digunakan dan meminimalkan berapa kali buku kerja dibuka atau ditutup selama pemrosesan.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara mengotomatiskan proses modifikasi label data bagan menggunakan Aspose.Cells untuk Java. Alat canggih ini dapat menghemat waktu dan mengurangi kesalahan dengan menangani operasi Excel secara terprogram.
 
-### Langkah Berikutnya
+### Következő lépések
 Jelajahi fitur tambahan yang disediakan oleh Aspose.Cells, seperti membuat bagan dari awal atau menyesuaikan konten buku kerja lebih lanjut.
 
-**Ajakan Bertindak**:Coba terapkan solusi ini pada proyek Anda sendiri untuk melihat bagaimana solusi ini menyederhanakan tugas manajemen data!
+**Cselekvésre ösztönzés**:Coba terapkan solusi ini pada proyek Anda sendiri untuk melihat bagaimana solusi ini menyederhanakan tugas manajemen data!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menangani buku kerja besar dengan Aspose.Cells?**
    - Gunakan streaming dan optimalkan penggunaan memori dengan memproses satu lembar kerja dalam satu waktu.
@@ -190,18 +192,21 @@ Jelajahi fitur tambahan yang disediakan oleh Aspose.Cells, seperti membuat bagan
 5. **Bagaimana cara mengelola lisensi di lingkungan produksi?**
    - Gunakan lisensi yang dibeli untuk memastikan akses tanpa gangguan ke semua fitur.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
 - [Opsi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan memanfaatkan Aspose.Cells untuk Java, Anda dapat mengotomatiskan dan menyempurnakan alur kerja terkait Excel dengan presisi dan mudah. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

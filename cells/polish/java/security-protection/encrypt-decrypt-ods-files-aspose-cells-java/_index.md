@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Teraz wiesz, jak szyfrować i deszyfrować pliki ODS za pomocą Aspose.Cells dla
 Postępując zgodnie z tym przewodnikiem, będziesz dobrze wyposażony do implementacji szyfrowania i deszyfrowania plików w swoich aplikacjach Java przy użyciu Aspose.Cells. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

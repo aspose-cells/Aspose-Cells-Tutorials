@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Excel é uma ferramenta amplamente utilizada para manipulação e análise de da
 
 Neste guia, mostraremos como automatizar a inserção de linhas em planilhas do Excel com o Aspose.Cells para Java. Ao final deste artigo, você terá uma sólida compreensão de como utilizar o Aspose.Cells para aprimorar a eficiência e a produtividade dos seus aplicativos Java.
 
-### que você aprenderá
+### O que você aprenderá
 - Como configurar o Aspose.Cells para Java usando Maven ou Gradle.
 - Etapas para inserir várias linhas em uma planilha do Excel com código Java.
 - Melhores práticas para otimizar o desempenho ao trabalhar com grandes conjuntos de dados em arquivos do Excel.
@@ -178,6 +180,9 @@ Para aprimorar ainda mais suas habilidades, explore outros recursos oferecidos p
 Aproveite o Aspose.Cells para Java para aprimorar suas tarefas de manipulação de dados com facilidade e eficiência. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

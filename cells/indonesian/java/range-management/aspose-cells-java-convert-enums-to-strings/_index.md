@@ -7,22 +7,24 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengonversi Enums ke String di Excel Menggunakan Aspose.Cells untuk Java
-## Perkenalan
+## Bevezetés
 Menangani file Excel secara terprogram bisa jadi rumit, terutama saat Anda memerlukan kontrol yang tepat atas representasi data. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java untuk menampilkan versi pustaka dan mengonversi nilai enum lintas tipe HTML menjadi string. Fungsionalitas ini meningkatkan presisi dan fleksibilitas dalam mengelola file Excel.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menampilkan versi Aspose.Cells untuk Java saat ini.
 - Mengonversi enum lintas tipe HTML ke representasi stringnya.
 - Memuat buku kerja Excel dengan konfigurasi spesifik menggunakan Aspose.Cells.
 
 Mari kita bahas cara menerapkan fitur-fitur ini secara efektif. Sebelum memulai, pastikan Anda memiliki prasyarat yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 Untuk mengikutinya, Anda memerlukan:
 - **Aspose.Cells untuk Pustaka Java**Pastikan Anda memiliki versi 25.3 atau yang lebih baru.
 - **Lingkungan Pengembangan Java**: Pengaturan dengan JDK dan IDE seperti IntelliJ IDEA atau Eclipse.
@@ -30,7 +32,7 @@ Untuk mengikutinya, Anda memerlukan:
 
 ### Menyiapkan Aspose.Cells untuk Java
 **Konfigurasi Maven:**
-Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven dengan menambahkan dependensi berikut ke `pom.xml` mengajukan:
+Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven dengan menambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -40,26 +42,26 @@ Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven dengan menambahkan dep
 </dependency>
 ```
 **Konfigurasi Gradle:**
-Untuk Gradle, sertakan baris ini di `build.gradle` mengajukan:
+Untuk Gradle, sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh. Anda dapat memulai dengan:
-- **Uji Coba Gratis**: Unduh dari [Halaman rilis Aspose](https://releases.aspose.com/cells/java/) untuk menguji perpustakaan.
-- **Lisensi Sementara**:Dapatkan satu melalui [Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**:Untuk akses penuh, pertimbangkan untuk membeli lisensi di [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**Letöltés innen: [Az Aspose kiadási oldala](https://releases.aspose.com/cells/java/) hogy tesztelje a könyvtárat.
+- **Ideiglenes engedély**:Dapatkan satu melalui [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás**:Untuk akses penuh, pertimbangkan untuk membeli lisensi di [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
 Setelah Anda memiliki berkas lisensi Anda:
 1. Atur lisensi dengan `License.setLicense()` metode untuk membuka kunci semua fitur.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Bagian ini menguraikan setiap fitur menjadi langkah-langkah yang mudah dikelola, menyediakan potongan kode dan penjelasan yang jelas.
 
 ### Menampilkan Versi Aspose.Cells untuk Java
-#### Ringkasan
+#### Áttekintés
 Mengetahui versi pustaka yang sedang Anda gunakan sangat penting untuk debugging dan kompatibilitas. Langkah ini akan menunjukkan kepada Anda cara menampilkan versi Aspose.Cells saat ini.
 **Langkah 1: Impor Kelas yang Diperlukan**
 ```java
@@ -75,7 +77,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 System.out.println("Aspose.Cells Version: " + CellsHelper.getVersion());
 ```
 ### Konversi HTML Cross Type Enums ke String
-#### Ringkasan
+#### Áttekintés
 Fitur ini memungkinkan Anda untuk mengonversi `HtmlCrossType` enum ke representasi stringnya, berguna saat mengonfigurasi cara data Excel diekspor ke HTML.
 **Langkah 1: Impor Kelas yang Diperlukan**
 ```java
@@ -108,49 +110,52 @@ opts.setHtmlCrossStringType(HtmlCrossType.FIT_TO_CELL);
 String strHtmlCrossStringType = strsHtmlCrossStringType[opts.getHtmlCrossStringType()];
 wb.save(outDir + "/out" + strHtmlCrossStringType + ".htm", opts);
 ```
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - **Perpustakaan Tidak Ditemukan**Pastikan pengaturan Maven atau Gradle Anda benar, dan versi pustakanya cocok.
 - **Masalah Lisensi**: Verifikasi bahwa jalur berkas lisensi Anda telah diatur dengan benar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Aspose.Cells untuk Java dapat digunakan dalam berbagai skenario:
-1. **Pelaporan Data**: Secara otomatis mengonversi data Excel ke laporan HTML dengan gaya yang disesuaikan.
-2. **Integrasi Web**:Integrasikan fungsionalitas Excel ke dalam aplikasi web untuk presentasi data yang dinamis.
-3. **Alur Kerja Otomatis**: Mengotomatiskan tugas pemrosesan dan konversi data dalam sistem perusahaan.
+1. **Adatjelentés**: Secara otomatis mengonversi data Excel ke laporan HTML dengan gaya yang disesuaikan.
+2. **Webintegráció**:Integrasikan fungsionalitas Excel ke dalam aplikasi web untuk presentasi data yang dinamis.
+3. **Automatizált munkafolyamatok**: Mengotomatiskan tugas pemrosesan dan konversi data dalam sistem perusahaan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Mengoptimalkan kinerja saat menggunakan Aspose.Cells sangat penting:
-- **Manajemen Memori**: Menggunakan `Workbook.dispose()` untuk membebaskan sumber daya setelah operasi.
+- **Memóriakezelés**Használat `Workbook.dispose()` untuk membebaskan sumber daya setelah operasi.
 - **Pemuatan Efisien**: Hanya muat lembar kerja atau rentang yang diperlukan untuk file besar.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah mempelajari cara menampilkan versi Aspose.Cells untuk Java dan mengonversi nilai enum menjadi string. Alat-alat ini dapat meningkatkan manipulasi file Excel Anda secara signifikan, membuatnya lebih fleksibel dan efisien.
 
-**Langkah Berikutnya:**
-- Jelajahi fitur lebih lanjut di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+**Következő lépések:**
+- Jelajahi fitur lebih lanjut di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 - Cobalah memadukan fungsi ini ke dalam proyek Anda.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?**
    - Pustaka lengkap untuk mengelola berkas Excel secara terprogram dengan Java.
 2. **Bagaimana cara mendapatkan lisensi untuk Aspose.Cells?**
-   - Mengunjungi [Halaman pembelian Aspose](https://purchase.aspose.com/buy) atau meminta lisensi sementara melalui situs mereka.
+   - Látogatás [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) atau meminta lisensi sementara melalui situs mereka.
 3. **Bisakah saya menggunakan Aspose.Cells tanpa membelinya?**
    - Ya, Anda dapat memulai dengan uji coba gratis untuk mengevaluasi fitur-fiturnya.
 4. **Bagaimana cara mengelola memori saat menggunakan Aspose.Cells?**
-   - Menggunakan `Workbook.dispose()` dan memuat hanya data yang diperlukan demi efisiensi.
+   - Használat `Workbook.dispose()` dan memuat hanya data yang diperlukan demi efisiensi.
 5. **Apa tujuan mengubah tipe silang HTML menjadi string?**
    - Ini membantu dalam menyesuaikan bagaimana konten Excel ditampilkan dalam format HTML.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

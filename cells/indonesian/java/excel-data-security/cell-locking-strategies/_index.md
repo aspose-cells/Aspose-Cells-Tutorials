@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Strategi Penguncian Sel
 
 
-## Perkenalan
+## Bevezetés
 
 Di era digital ini, lembar kerja Excel berfungsi sebagai tulang punggung bagi banyak operasi bisnis. Namun, apa yang terjadi jika informasi sensitif atau rumus penting tidak sengaja diubah atau dihapus? Di sinilah penguncian sel berperan. Aspose.Cells untuk Java menawarkan serangkaian alat dan teknik untuk mengunci sel dalam file Excel Anda, guna memastikan integritas dan keamanan data.
 
@@ -24,14 +26,14 @@ Keakuratan dan kerahasiaan data tidak dapat dinegosiasikan di sebagian besar ind
 
 ## Memulai dengan Aspose.Cells untuk Java
 
-Sebelum menyelami penguncian sel, mari pastikan Anda memiliki alat yang diperlukan dalam perangkat Anda. Pertama, Anda perlu mengunduh dan menyiapkan Aspose.Cells untuk Java. Anda dapat menemukan tautan unduhan [Di Sini](https://releases.aspose.com/cells/java/)Setelah pustaka terinstal, kita dapat melanjutkan ke hal-hal dasar.
+Sebelum menyelami penguncian sel, mari pastikan Anda memiliki alat yang diperlukan dalam perangkat Anda. Pertama, Anda perlu mengunduh dan menyiapkan Aspose.Cells untuk Java. Anda dapat menemukan tautan unduhan [itt](https://releases.aspose.com/cells/java/)Setelah pustaka terinstal, kita dapat melanjutkan ke hal-hal dasar.
 
 ## Penguncian Sel Dasar
 
 Dasar penguncian sel terletak pada penandaan sel-sel individual sebagai terkunci atau tidak terkunci. Secara default, semua sel dalam lembar Excel terkunci, tetapi tidak berlaku hingga Anda melindungi lembar kerja tersebut. Berikut cuplikan kode dasar untuk mengunci sel menggunakan Aspose.Cells untuk Java:
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("sample.xlsx");
 
 // Akses lembar kerja
@@ -107,17 +109,17 @@ Dengan satu baris kode ini, Anda dapat melindungi seluruh lembar kerja dari peng
 
 Persyaratan proyek spesifik Anda mungkin menuntut strategi penguncian sel yang unik. Aspose.Cells untuk Java menawarkan fleksibilitas untuk memenuhi skenario khusus. Apakah Anda perlu mengunci sel berdasarkan masukan pengguna atau menyesuaikan aturan penguncian secara dinamis, Anda dapat mencapainya dengan fitur API yang ekstensif.
 
-## Praktik Terbaik
+## Bevált gyakorlatok
 
 - Selalu simpan cadangan file Excel Anda sebelum menerapkan penguncian sel untuk menghindari kehilangan data yang tidak disengaja.
 - Dokumentasikan aturan dan izin penguncian sel Anda untuk referensi.
 - Uji strategi penguncian sel Anda secara menyeluruh untuk memastikan strategi tersebut memenuhi persyaratan keamanan dan integritas data Anda.
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami telah membahas aspek-aspek penting penguncian sel menggunakan Aspose.Cells untuk Java. Dengan menerapkan strategi yang dibahas di sini, Anda dapat meningkatkan keamanan dan integritas file Excel Anda, memastikan bahwa data Anda tetap akurat dan rahasia.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa itu penguncian sel?
 
@@ -125,7 +127,7 @@ Penguncian sel adalah teknik yang digunakan untuk mencegah perubahan yang tidak 
 
 ### Bagaimana cara melindungi seluruh lembar kerja Excel?
 
-Anda dapat melindungi seluruh lembar kerja Excel menggunakan Aspose.Cells untuk Java dengan memanggil `protect` metode pada objek lembar kerja dengan `ProtectionType.ALL` parameter.
+Anda dapat melindungi seluruh lembar kerja Excel menggunakan Aspose.Cells untuk Java dengan memanggil `protect` metode pada objek lembar kerja dengan `ProtectionType.ALL` paraméter.
 
 ### Dapatkah saya menentukan aturan penguncian sel khusus?
 
@@ -142,6 +144,7 @@ Untuk memastikan efektivitas strategi penguncian sel Anda, ujilah secara menyelu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

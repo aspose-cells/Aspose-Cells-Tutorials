@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Förbättra dina Excel-diagram programmatiskt med hjälp av Java med Aspose.Cell
 
 Innan du lägger till etikettkontroller i diagram med Aspose.Cells för Java, se till att du har:
 1. **Aspose.Cells-biblioteket:** Version 25.3 eller senare.
-2. **Java-utvecklingsmiljö:** JDK installerad och konfigurerad.
+2. **Java-utvecklingsmiljö:** JDK installerat och konfigurerat.
 3. **ID:** IntelliJ IDEA eller Eclipse rekommenderas för att skriva och testa kod.
 
 ## Konfigurera Aspose.Cells för Java
@@ -154,6 +156,9 @@ Ge dig ut på din resa med Aspose.Cells Java för att låsa upp kraftfulla autom
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

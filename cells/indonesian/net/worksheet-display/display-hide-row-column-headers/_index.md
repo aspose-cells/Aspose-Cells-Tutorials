@@ -1,146 +1,150 @@
 ---
-title: Menampilkan atau Menyembunyikan Judul Baris dan Kolom di Lembar Kerja
-linktitle: Menampilkan atau Menyembunyikan Judul Baris dan Kolom di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menampilkan atau menyembunyikan tajuk baris dan kolom di lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti tutorial terperinci kami.
-weight: 12
-url: /id/net/worksheet-display/display-hide-row-column-headers/
+"description": "Ismerje meg, hogyan jelenítheti meg vagy rejtheti el a sor- és oszlopfejléceket az Excel-munkafüzetekben az Aspose.Cells for .NET használatával. Kövesse részletes oktatóanyagunkat."
+"linktitle": "Sor- és oszlopfejlécek megjelenítése vagy elrejtése a munkalapon"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Sor- és oszlopfejlécek megjelenítése vagy elrejtése a munkalapon"
+"url": "/id/net/worksheet-display/display-hide-row-column-headers/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menampilkan atau Menyembunyikan Judul Baris dan Kolom di Lembar Kerja
+# Sor- és oszlopfejlécek megjelenítése vagy elrejtése a munkalapon
 
-## Perkenalan
+## Bevezetés
 
-Pernahkah Anda menemukan diri Anda dalam situasi di mana tajuk baris dan kolom lembar kerja Excel mengacaukan tampilan Anda, sehingga sulit untuk fokus pada konten? Baik Anda sedang mempersiapkan laporan, mendesain dasbor interaktif, atau sekadar menekankan visualisasi data, memanipulasi tajuk ini dapat membantu menjaga kejelasan. Untungnya, Aspose.Cells for .NET hadir untuk menyelamatkan Anda! Tutorial komprehensif ini akan memandu Anda, langkah demi langkah, melalui proses menampilkan atau menyembunyikan tajuk baris dan kolom dalam lembar kerja Excel menggunakan Aspose.Cells. Pada akhirnya, Anda akan menjadi ahli dalam mengelola komponen penting spreadsheet Anda ini!
+Találkoztál már olyan helyzetben, hogy egy Excel munkalap sor- és oszlopfejlécei elhomályosítják a nézetet, és megnehezítik a tartalomra való összpontosítást? Akár egy jelentést készítesz, akár egy interaktív irányítópultot tervezel, vagy egyszerűen csak az adatvizualizációra helyezed a hangsúlyt, ezeknek a fejléceknek a kezelése segíthet megőrizni az áttekinthetőséget. Szerencsére az Aspose.Cells for .NET a segítségedre siet! Ez az átfogó oktatóanyag lépésről lépésre végigvezet a sor- és oszlopfejlécek megjelenítésén vagy elrejtésén egy Excel munkalapon az Aspose.Cells segítségével. A végére profi leszel a táblázatok ezen alapvető összetevőinek kezelésében!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai tutorial, berikut ini yang Anda perlukan:
+Mielőtt belevágnál az oktatóanyagba, itt van, amire szükséged van:
 
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda.
-2.  Pustaka Aspose.Cells: Anda harus memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
-3. Pemahaman Dasar C#: Keakraban dengan pemrograman C# sangat membantu, meskipun panduan langkah demi langkah akan menyederhanakan prosesnya.
+1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a számítógépén.
+2. Aspose.Cells könyvtár: Rendelkeznie kell az Aspose.Cells könyvtárral. Letöltheti [itt](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozással való ismeretség hasznos, bár a lépésről lépésre bemutatott útmutató leegyszerűsíti a folyamatot.
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk memulai, Anda perlu mengimpor paket-paket yang diperlukan ke dalam proyek C# Anda. Berikut cara melakukannya:
+A kezdéshez importálnod kell a szükséges csomagokat a C# projektedbe. Így teheted meg:
 
-### Buat Proyek C# Baru
+### Új C# projekt létrehozása
 
-1. Buka Visual Studio.
-2. Klik “Buat proyek baru”.
-3. Pilih “Aplikasi Konsol (.NET Framework)” atau jenis yang Anda sukai, lalu tetapkan nama dan lokasi proyek Anda.
+1. Nyisd meg a Visual Studio-t.
+2. Kattintson az „Új projekt létrehozása” gombra.
+3. Válassza a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget vagy a kívánt típust, és adja meg a projekt nevét és helyét.
 
-### Tambahkan Referensi Aspose.Cells
+### Adja hozzá az Aspose.Cells hivatkozást
 
-1. Klik kanan pada “Referensi” di Solution Explorer.
-2. Pilih “Tambahkan Referensi”.
-3. Telusuri untuk menemukan file Aspose.Cells.dll, yang Anda unduh sebelumnya, dan tambahkan ke proyek Anda.
+1. Kattintson a jobb gombbal a „Referenciák” elemre a Megoldáskezelőben.
+2. Válassza a „Referencia hozzáadása” lehetőséget.
+3. Böngésszen a korábban letöltött Aspose.Cells.dll fájl megkereséséhez, és adja hozzá a projekthez.
 
-### Impor Namespace Aspose.Cells
+### Importálja az Aspose.Cells névteret
 
- Buka file C# utama Anda (biasanya`Program.cs`) dan impor namespace Aspose.Cells yang diperlukan dengan menambahkan baris ini di bagian atas:
+Nyisd meg a fő C# fájlodat (általában `Program.cs`) és importálja a szükséges Aspose.Cells névteret a következő sor hozzáadásával a tetejéhez:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Sekarang Anda sudah menyiapkan dasar-dasarnya, mari selami kode di mana keajaiban terjadi!
+Most, hogy lefektetted az alapokat, vágjunk bele a kódba, ahol a varázslat történik!
 
-## Langkah 4: Tentukan Direktori Dokumen
+## 4. lépés: Adja meg a dokumentumkönyvtárat
 
-Hal pertama yang perlu Anda lakukan adalah menentukan jalur ke direktori dokumen Anda. Hal ini penting untuk memuat dan menyimpan file Excel Anda dengan benar.
+Az első dolog, amit tenned kell, az a dokumentumok könyvtárának elérési útjának megadása. Ez elengedhetetlen az Excel-fájlok megfelelő betöltéséhez és mentéséhez.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
- Pastikan untuk mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Anda berada.
+Mindenképpen cserélje ki `"Your Document Directory"` a fájlok tényleges elérési útjával.
 
-## Langkah 5: Buat Aliran File
+## 5. lépés: Fájlfolyam létrehozása
 
-Selanjutnya, Anda akan membuat aliran file untuk membuka file Excel Anda. Ini akan memungkinkan Anda untuk membaca dan memanipulasi lembar kerja.
+Ezután létre kell hoznod egy fájlfolyamot az Excel-fájlod megnyitásához. Ez lehetővé teszi a táblázat olvasását és kezelését.
 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Baris kode ini membuka file Excel bernama`book1.xls`Jika berkas ini tidak ada, pastikan untuk membuat satu atau mengubah namanya sebagaimana mestinya.
+Ez a kódsor megnyitja a következő Excel fájlt: `book1.xls`Ha ez a fájl nem létezik, feltétlenül hozzon létre egyet, vagy ennek megfelelően módosítsa a nevét.
 
-## Langkah 6: Buat Instansiasi Objek Buku Kerja
+## 6. lépés: A munkafüzet objektum példányosítása
 
- Sekarang saatnya untuk membuat`Workbook` objek, yang mewakili buku kerja Excel Anda. Inisialisasi buku kerja menggunakan aliran file.
+Most itt az ideje létrehozni egy `Workbook` objektum, amely az Excel-munkafüzetet jelöli. Inicializálja a munkafüzetet a fájlfolyam használatával.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
 
-## Langkah 7: Akses Lembar Kerja
+## 7. lépés: A munkalap elérése
 
-Langkah selanjutnya adalah mengakses lembar kerja tertentu tempat Anda ingin menyembunyikan atau menampilkan tajuk. Dalam kasus ini, kita akan mengakses lembar kerja pertama.
+A következő lépés annak a munkalapnak a megnyitása, amelyen el szeretné rejteni vagy megjeleníteni a fejléceket. Ebben az esetben az első munkalapot fogjuk megnyitni.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Anda dapat mengubah indeks dalam tanda kurung siku jika Anda ingin mengakses lembar kerja yang berbeda.
+A szögletes zárójelben lévő indexet módosíthatja, ha egy másik munkalaphoz szeretne hozzáférni.
 
-## Langkah 8: Sembunyikan Header
+## 8. lépés: Fejlécek elrejtése
 
- Sekarang tibalah bagian yang menyenangkan! Anda dapat menyembunyikan tajuk baris dan kolom menggunakan properti sederhana. Pengaturan`IsRowColumnHeadersVisible` ke`false` mencapai hal ini.
+Most jön a mókás rész! Egy egyszerű tulajdonsággal elrejtheted a sor- és oszlopfejléceket. Beállítás `IsRowColumnHeadersVisible` hogy `false` ezt eléri.
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Bukankah itu keren? Anda juga dapat mengaturnya ke`true` jika Anda ingin menampilkan header lagi.
+Nem klassz, nem? Beállíthatod úgy is, hogy `true` ha újra meg szeretnéd jeleníteni a fejléceket.
 
-## Langkah 9: Simpan File Excel yang Dimodifikasi
+## 9. lépés: Mentse el a módosított Excel-fájlt
 
-Setelah mengubah header, Anda perlu menyimpan perubahan. Ini akan membuat file Excel baru atau menimpa file yang sudah ada, tergantung pada kebutuhan Anda.
+A fejlécek módosítása után mentenie kell a módosításokat. Ez egy új Excel-fájlt hoz létre, vagy felülírja a meglévőt, az igényeitől függően.
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-## Langkah 10: Tutup Aliran File
+## 10. lépés: Zárja be a fájlfolyamot
 
-Untuk memastikan tidak ada kebocoran memori, selalu tutup aliran file setelah Anda selesai bekerja dengan file tersebut.
+A memóriaszivárgások elkerülése érdekében mindig zárja be a fájlfolyamot, miután befejezte a fájlokkal való munkát.
 
 ```csharp
 fstream.Close();
 ```
 
-Selamat! Anda telah berhasil memanipulasi tajuk baris dan kolom dalam lembar kerja Excel menggunakan Aspose.Cells for .NET. 
+Gratulálunk! Sikeresen manipuláltad a sor- és oszlopfejléceket egy Excel-munkalapon az Aspose.Cells for .NET használatával. 
 
-## Kesimpulan
+## Következtetés
 
-Mampu menampilkan atau menyembunyikan tajuk baris dan kolom Excel merupakan keterampilan yang berguna, terutama untuk membuat data Anda mudah disajikan dan dipahami. Aspose.Cells menyediakan cara yang intuitif dan canggih untuk mengelola lembar kerja tanpa kurva belajar yang curam. Sekarang, baik Anda ingin merapikan laporan atau menyederhanakan dasbor interaktif, Anda memiliki alat yang Anda butuhkan!
+Az Excel sor- és oszlopfejléceinek megjelenítése vagy elrejtése hasznos készség, különösen az adatok megjelenítéséhez és könnyen érthetővé tételéhez. Az Aspose.Cells intuitív és hatékony módszert kínál a táblázatok kezelésére meredek tanulási görbe nélkül. Mostantól, akár egy jelentést szeretne rendszerezni, akár egy interaktív irányítópultot szeretne egyszerűsíteni, rendelkezésére állnak a szükséges eszközök!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka .NET yang memungkinkan manipulasi file Excel, membuatnya lebih mudah untuk membuat, memodifikasi, dan mengonversi spreadsheet secara terprogram.
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi az Excel fájlok kezelését, megkönnyítve a táblázatok programozott létrehozását, módosítását és konvertálását.
 
-### Bisakah saya menampilkan kembali header setelah menyembunyikannya?
- Ya! Cukup atur saja`worksheet.IsRowColumnHeadersVisible` ke`true` untuk menampilkan kembali headernya.
+### Újra megjeleníthetem a fejléceket az elrejtésük után?
+Igen! Csak állítsd be `worksheet.IsRowColumnHeadersVisible` hogy `true` hogy újra megjelenjenek a fejlécek.
 
-### Apakah Aspose.Cells gratis?
- Aspose.Cells adalah pustaka berbayar, tetapi Anda dapat mencobanya secara gratis untuk waktu terbatas. Periksa[Halaman Uji Coba Gratis](https://releases.aspose.com/).
+### Ingyenes az Aspose.Cells?
+Az Aspose.Cells egy fizetős könyvtár, de korlátozott ideig ingyenesen kipróbálhatod. Nézd meg a [Ingyenes próbaverzió oldal](https://releases.aspose.com/).
 
-### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menjelajahi lebih banyak detail dan metode terkait Aspose.Cells di[Halaman dokumentasi](https://reference.aspose.com/cells/net/).
+### Hol találok további dokumentációt?
+Az Aspose.Cells-szel kapcsolatos további részleteket és metódusokat a következő helyen találja: [Dokumentációs oldal](https://reference.aspose.com/cells/net/).
 
-### Bagaimana jika saya menemui masalah atau bug?
- Jika Anda menghadapi masalah saat menggunakan Aspose.Cells, Anda dapat meminta bantuan di situs web khusus mereka.[Forum Dukungan](https://forum.aspose.com/c/cells/9).
+### Mi van, ha problémákba vagy hibákba ütközöm?
+Ha bármilyen problémába ütközik az Aspose.Cells használata során, kérjen segítséget a dedikált elérhetőségeiken. [Támogatási fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

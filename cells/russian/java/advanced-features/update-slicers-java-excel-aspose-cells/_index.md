@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Aspose.Cells для Java универсален и допускает разли
 В этом руководстве мы рассмотрели, как обновлять срезы в файлах Java Excel с помощью Aspose.Cells. Вы узнали, как загружать и отображать версию библиотеки, программно манипулировать срезами и сохранять изменения обратно в файл Excel. С этими навыками вы можете автоматизировать процессы фильтрации данных, повышая производительность и точность в задачах анализа данных.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

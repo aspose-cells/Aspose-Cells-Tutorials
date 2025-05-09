@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Excelブックのカスタムプロパティの管理と共有は、特にデー
 この包括的なウォークスルーに従うことで、次の方法を学習できます。
 - Aspose.Cellsで開発環境をセットアップする
 - JavaでExcelワークブックを読み込み、管理する
-- カスタムプロパティを効率的にPDF形式でエクスポート
+- カスタムプロパティを効率的にPDF形式でエクスポートします
 
 データ管理プロセスを効率化しましょう。まず、必要な前提条件がすべて満たされていることを確認してください。
 
@@ -160,6 +162,9 @@ Aspose.Cells for Javaを使用して、Excelファイルのカスタムプロパ
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

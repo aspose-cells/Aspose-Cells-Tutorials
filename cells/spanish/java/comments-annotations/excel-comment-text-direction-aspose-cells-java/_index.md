@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,12 +50,12 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Pasos para la adquisición de la licencia
-Aspose.Cells para Java ofrece una prueba gratuita que te permite explorar sus funciones antes de comprometerte económicamente. Empieza con una licencia temporal en [Licencia temporal](https://purchase.aspose.com/temporary-license/), que proporciona acceso completo sin restricciones para fines de evaluación. Para uso continuo o implementación comercial, considere adquirir una licencia en [Comprar Aspose.Cells](https://purchase.aspose.com/buy).
+Aspose.Cells para Java ofrece una prueba gratuita que te permite explorar sus funciones antes de comprometerte económicamente. Empieza con una licencia temporal en [Licencia temporal](https://purchase.aspose.com/temporary-license/), que proporciona acceso completo sin restricciones para fines de evaluación. Para uso continuo o implementación comercial, considere comprar una licencia en [Comprar Aspose.Cells](https://purchase.aspose.com/buy).
 
 ### Inicialización y configuración básicas
 Inicialice la biblioteca Aspose.Cells en su aplicación Java:
 ```java
-// Crear una nueva instancia de Workbook para trabajar con archivos de Excel
+// Crear una nueva instancia de libro de trabajo para trabajar con archivos de Excel
 Workbook workbook = new Workbook();
 ```
 Esta configuración permite una manipulación fluida de documentos de Excel.
@@ -155,6 +157,9 @@ Para obtener información más detallada, visita la documentación oficial de As
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

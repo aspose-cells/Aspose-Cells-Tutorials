@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Pivot táblázatok
@@ -29,7 +31,7 @@ Az Aspose.Cells for Java lehetővé teszi a pivot tábla műveletek automatizál
 
 ## Excel Pivot táblák oktatóanyagok
 ### [Pivot táblák létrehozása](./creating-pivot-tables/)
-Tanuld meg, hogyan hozhatsz létre hatékony pivot táblázatokat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és vizualizáció érdekében.
+Tanuld meg, hogyan hozhatsz létre hatékony pivot táblákat Java nyelven az Aspose.Cells segítségével a továbbfejlesztett adatelemzés és vizualizáció érdekében.
 ### [Dinamikus pivot táblázatok](./dynamic-pivot-tables/)
 Dinamikus pivot táblázatok létrehozása könnyedén az Aspose.Cells for Java használatával. Adatok egyszerű elemzése és összefoglalása. Adatelemzési képességeinek bővítése.
 ### [Adatok csoportosítása kimutatástáblákban](./grouping-data-in-pivot-tables/)
@@ -40,9 +42,11 @@ Tanuld meg, hogyan hozhatsz létre számított mezőket a pivottáblákban az As
 Tanuld meg, hogyan frissítheted a pivot tábla adatait az Aspose.Cells for Java programban. Tartsd naprakészen az adataid könnyedén.
 ### [Kimutatási táblázat stílusainak testreszabása](./customizing-pivot-table-styles/)
 Tanuld meg, hogyan szabhatod testre a pivot tábla stílusait az Aspose.Cells for Java API-ban. Hozz létre vizuálisan vonzó pivot táblákat könnyedén.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

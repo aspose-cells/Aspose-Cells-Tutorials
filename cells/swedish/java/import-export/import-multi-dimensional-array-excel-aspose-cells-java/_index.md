@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ Du har nu bemästrat hur man importerar data från en flerdimensionell array til
 
 Glöm inte att ladda ner en [gratis provperiod](https://releases.aspose.com/cells/java/) och börja implementera idag!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **F: Hur hanterar jag nullvärden i min array när jag importerar?**
    - A: Aspose.Cells lämnar cellerna tomma om motsvarande värde är `null`.
@@ -157,6 +159,9 @@ Glöm inte att ladda ner en [gratis provperiod](https://releases.aspose.com/cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

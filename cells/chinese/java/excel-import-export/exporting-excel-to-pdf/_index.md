@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 将 Excel 导出为 PDF
@@ -106,9 +108,11 @@ Q2：我可以自定义 PDF 输出格式吗？
 问题5：在哪里可以找到有关 Aspose.Cells 的更多文档和示例？
 
 探索 Aspose.Cells API 文档 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 提供全面的文档和丰富的示例，以进一步扩展您的知识。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

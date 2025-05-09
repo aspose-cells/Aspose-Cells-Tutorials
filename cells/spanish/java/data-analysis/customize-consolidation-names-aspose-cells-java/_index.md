@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ GlobalizationSettings.setInstance(new CustomSettings());
 
 - **Optimización del rendimiento:** Asegúrese siempre de utilizar la última versión de Aspose.Cells para obtener un mejor rendimiento y nuevas funciones.
 - **Pautas de uso de recursos:** Supervise el uso de la memoria, especialmente cuando trabaje con grandes conjuntos de datos.
-- **Gestión de memoria Java:** Utilice la configuración de JVM adecuada para gestionar archivos grandes de Excel de manera eficiente.
+- **Gestión de memoria Java:** Utilice la configuración JVM adecuada para gestionar archivos Excel grandes de manera eficiente.
 
 ## Conclusión
 
@@ -188,6 +190,9 @@ Pruébelo y vea cómo los nombres de consolidación personalizados pueden mejora
 Explora estos recursos para obtener más orientación y soporte sobre el uso de Aspose.Cells en Java. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

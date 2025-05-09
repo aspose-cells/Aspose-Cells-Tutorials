@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Weitere Hilfe erhalten Sie in den folgenden Ressourcen:
 Versuchen Sie, diese Funktionen in Ihren Java-Projekten zu implementieren, und sehen Sie, wie Aspose.Cells Ihre Excel-Dateiverarbeitungsaufgaben optimieren kann.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

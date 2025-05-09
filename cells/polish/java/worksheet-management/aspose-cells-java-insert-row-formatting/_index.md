@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ tym samouczku sprawdziliśmy, jak wstawić wiersz z formatowaniem do pliku Excel
 Gotowy do wdrożenia tego rozwiązania w swojej aplikacji Java? Wypróbuj je i zobacz, jak Aspose.Cells może usprawnić manipulacje plikami Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

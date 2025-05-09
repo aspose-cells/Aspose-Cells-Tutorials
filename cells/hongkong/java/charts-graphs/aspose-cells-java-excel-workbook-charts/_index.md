@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -230,11 +232,14 @@ Aspose.Cells for Java可以整合到各種應用程式中，例如：
 - **批量操作**：對大量資料進行操作而不是一次一個地進行操作，以提高效率。
 
 **關鍵字建議：**
-- “ Java 的 Aspose.Cells”
+- “Aspose.Cells for Java”
 - “建立 Excel 工作簿”
 - “在 Java 中整合圖表”
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

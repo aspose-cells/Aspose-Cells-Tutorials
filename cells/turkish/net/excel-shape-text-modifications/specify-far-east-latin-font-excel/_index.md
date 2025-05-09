@@ -1,14 +1,16 @@
 ---
-title: Excel'de Uzak Doğu ve Latin Fontunu Belirleyin
-linktitle: Excel'de Uzak Doğu ve Latin Fontunu Belirleyin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı ve kolay takip edilebilen eğitimde, Aspose.Cells for .NET kullanarak Excel'de Uzak Doğu ve Latin fontlarının nasıl belirleneceğini öğrenin.
-weight: 17
-url: /tr/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/
+"description": "Bu kapsamlı ve kolay takip edilebilen eğitimde, Aspose.Cells for .NET kullanarak Excel'de Uzak Doğu ve Latin fontlarının nasıl belirleneceğini öğrenin."
+"linktitle": "Excel'de Uzak Doğu ve Latin Fontunu Belirleyin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Uzak Doğu ve Latin Fontunu Belirleyin"
+"url": "/tr/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Uzak Doğu ve Latin Fontunu Belirleyin
@@ -20,7 +22,7 @@ Ayrıntılara girmeden önce, Aspose.Cells'i kullanmaya başlamadan önce ayarla
 ### .NET Framework veya .NET Core
 Makinenizde .NET Framework veya .NET Core'un yüklü olduğundan emin olun. Bu kütüphane her ikisiyle de iyi çalışır.
 ### Aspose.Cells Kurulumu
- Aspose.Cells kütüphanesini indirmeniz gerekecek.[buradan indirin](https://releases.aspose.com/cells/net/) . NuGet paketlerini yükleme konusunda bilginiz yoksa, aşağıdaki adımları izleyin:[bu rehber](https://www.nuget.org/).
+Aspose.Cells kütüphanesini indirmeniz gerekecek. [buradan indirin](https://releases.aspose.com/cells/net/). NuGet paketlerini yükleme konusunda bilginiz yoksa, aşağıdaki adımları izleyin: [bu rehber](https://www.nuget.org/).
 ### Entegre Geliştirme Ortamı (IDE)
 Visual Studio veya JetBrains Rider gibi bir IDE'ye sahip olmak, projenizi kodlamayı, hata ayıklamayı ve çalıştırmayı basitleştirebilir.
 ### C# Temel Bilgisi
@@ -29,11 +31,11 @@ Bu eğitimi takip edebilmek için C# programlamaya aşina olmanız çok faydalı
 Aspose.Cells ile çalışabilmemiz için, gerekli paketleri projemize aktarmamız gerekiyor. Bunu şu şekilde yapabilirsiniz:
 ### Yeni Bir Proje Oluştur
 1. IDE'nizi açın ve yeni bir Konsol Uygulaması projesi oluşturun.
-2.  Projenize açıklayıcı bir isim verin, örneğin:`FontSpecifyingApp`.
+2. Projenize tanımlayıcı bir isim verin, örneğin: `FontSpecifyingApp`.
 ### Aspose.Cells NuGet Paketini Ekle
 1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
-2.  Seçme`Manage NuGet Packages...`.
-3.  Arama`Aspose.Cells` ve kurun.
+2. Seçme `Manage NuGet Packages...`.
+3. Arama `Aspose.Cells` ve kurun.
 Bu adımların sonunda kodlamaya başlamak için her şey hazır olacak!
 ```csharp
 using System;
@@ -63,7 +65,7 @@ Worksheet ws = wb.Worksheets[0];
 ## Adım 4: Bir Metin Kutusu Ekleyin
 Şimdi, çalışma sayfamıza bir metin kutusu ekleyeceğiz. Metnimizi buraya yazacağız. Bunu bir sunumun slaydında bir metin kutusu oluşturmak olarak düşünün.
 ```csharp
-// Çalışma sayfasının içine metin kutusu ekleyin.
+// Çalışma sayfasına metin kutusu ekleyin.
 int idx = ws.TextBoxes.Add(5, 5, 50, 200);
 Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
 ```
@@ -71,7 +73,7 @@ Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
 Biraz metin yazalım. Bu örnekte, Uzak Doğu yazı tipini göstermek için Japonca karakterler gireceğiz. Bilgisayarınızdaki bir metin kutusuna yazmak kadar basit!
 ```csharp
 // Metin kutusunun metnini ayarlayın.
-tb.Text = "こんにちは世界"; //Japoncada "Merhaba Dünya" anlamına geliyor.
+tb.Text = "こんにちは世界"; // Japoncada "Merhaba Dünya" anlamına geliyor.
 ```
 ## Adım 6: Yazı Tiplerini Belirleyin
 Şimdi heyecan verici kısım geliyor! Metin için hem Latin hem de Uzak Doğu yazı tiplerini ayarlayacağız. Bu, şık bir düğün davetiyesi için mükemmel yazı tipini seçmeye benzer!
@@ -100,14 +102,16 @@ Aspose.Cells, makinenizde Microsoft Excel'in yüklü olmasına gerek kalmadan Ex
 ### Aspose.Cells'i web uygulamaları için kullanabilir miyim?
 Evet! Aspose.Cells hem masaüstü uygulamaları hem de .NET ile oluşturulmuş web uygulamaları için kullanılabilir.
 ### Aspose.Cells'in ücretsiz bir versiyonu var mı?
- Evet, Aspose ücretsiz deneme sunuyor.[buradan indirin](https://releases.aspose.com/).
+Evet, Aspose ücretsiz deneme sunuyor. [buradan indirin](https://releases.aspose.com/).
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek isteyebilir ve değerli kaynaklar bulabilirsiniz.[Aspose forumları](https://forum.aspose.com/c/cells/9).
+Destek isteyebilir ve değerli kaynaklar bulabilirsiniz. [Aspose forumları](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells'i nereden satın alabilirim?
- Aspose.Cells'i doğrudan şu adresten satın alabilirsiniz:[Aspose web sitesi](https://purchase.aspose.com/buy).
+Aspose.Cells'i doğrudan şu adresten satın alabilirsiniz: [Aspose web sitesi](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

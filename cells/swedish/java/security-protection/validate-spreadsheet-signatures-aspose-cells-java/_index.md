@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Licensförvärv
 
-Du kan börja med att skaffa en gratis testlicens för att utforska Aspose.Cells funktioner utan begränsningar. Följ dessa steg:
+Du kan börja med att skaffa en gratis provlicens för att utforska Aspose.Cells funktioner utan begränsningar. Följ dessa steg:
 1. Besök [Asposes tillfälliga licenssida](https://purchase.aspose.com/temporary-license/) och ansöka om ett tillfälligt körkort.
 2. När du har fått licensen, inkludera den i ditt projekt enligt följande:
 
@@ -205,6 +207,9 @@ För vidare utforskning, överväg att fördjupa dig i andra funktioner som erbj
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

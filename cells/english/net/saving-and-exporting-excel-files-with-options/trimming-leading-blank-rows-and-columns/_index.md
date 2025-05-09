@@ -8,7 +8,9 @@ url: /net/saving-and-exporting-excel-files-with-options/trimming-leading-blank-r
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trimming Leading Blank Rows and Columns while Exporting
@@ -91,6 +93,7 @@ You can seek support and advice from the [Aspose Forum](https://forum.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

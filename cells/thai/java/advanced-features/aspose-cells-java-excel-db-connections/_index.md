@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,10 +30,10 @@
 
 1. **ห้องสมุดที่จำเป็น:** ไลบรารี Aspose.Cells สำหรับ Java เวอร์ชัน 25.3
 2. **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** สภาพแวดล้อมการพัฒนาที่มี Maven หรือ Gradle เป็นตัวจัดการการอ้างอิงของคุณ
-3. **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และการทำงานของ Excel จะเป็นประโยชน์
+3. **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และการทำงานของ Excel จะเป็นประโยชน์
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
-ในการจัดการการเชื่อมต่อฐานข้อมูล Excel ให้รวม Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ
+ในการจัดการการเชื่อมต่อ Excel DB ให้รวม Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ
 
 ### การตั้งค่า Maven
 เพิ่มการอ้างอิงต่อไปนี้ให้กับของคุณ `pom.xml`-
@@ -167,6 +169,9 @@ for (int i = 0; i < connectionCount; i++) {
    - ใบอนุญาตชั่วคราวช่วยให้คุณสำรวจขีดความสามารถทั้งหมดของ Aspose.Cells ในระหว่างช่วงทดลองใช้งาน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

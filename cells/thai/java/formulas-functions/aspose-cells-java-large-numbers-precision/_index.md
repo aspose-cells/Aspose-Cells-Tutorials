@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### การขอใบอนุญาต
 ในการใช้ Aspose.Cells คุณสามารถทำได้ดังนี้:
 - **ทดลองใช้งานฟรี**:ดาวน์โหลดไลบรารีเพื่อเริ่มต้นทดลองใช้งานฟรี
-- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
+- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
 - **ซื้อ**:พิจารณาซื้อหากเหมาะกับความต้องการของคุณ
 
 ### การเริ่มต้นและการตั้งค่าเบื้องต้น
@@ -151,6 +153,9 @@ workbook.save(outputPath, SaveFormat.XLSX);
 ร่วมออกเดินทางกับ Aspose.Cells วันนี้และมั่นใจกับความแม่นยำเชิงตัวเลขในทุกโครงการของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Opanowałeś już tworzenie i używanie nazwanych zakresów za pomocą Aspose.Ce
 Postępując zgodnie z tym przewodnikiem, będziesz dobrze wyposażony, aby wykorzystać moc nazwanych zakresów z Aspose.Cells dla Java w swoich projektach. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

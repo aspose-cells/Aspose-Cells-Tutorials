@@ -1,91 +1,95 @@
 ---
-title: Dapatkan Dimensi Halaman Lembar Kerja
-linktitle: Dapatkan Dimensi Halaman Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mendapatkan dimensi halaman dalam lembar kerja Excel dengan Aspose.Cells for .NET. Panduan langkah demi langkah untuk menyesuaikan ukuran kertas A2, A3, A4, dan Letter.
-weight: 13
-url: /id/net/worksheet-page-setup-features/get-page-dimensions/
+"description": "Ismerje meg, hogyan tud oldalméreteket lekérni egy Excel-munkalapban az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató az A2, A3, A4 és Letter papírméretek testreszabásához."
+"linktitle": "Munkalap oldalméreteinek lekérése"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Munkalap oldalméreteinek lekérése"
+"url": "/id/net/worksheet-page-setup-features/get-page-dimensions/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Dimensi Halaman Lembar Kerja
+# Munkalap oldalméreteinek lekérése
 
-## Perkenalan
-Jika Anda bekerja dengan file Excel secara terprogram menggunakan Aspose.Cells for .NET, mungkin ada saatnya Anda perlu mengakses dan mengatur dimensi halaman lembar kerja. Mengetahui dimensi dapat membantu tata letak, pencetakan, dan kustomisasi lembar Excel untuk tujuan tertentu. Dalam artikel ini, kita akan membahas cara mengambil dan menampilkan berbagai dimensi halaman di Excel menggunakan Aspose.Cells for .NET. Kita akan membahas tutorial langkah demi langkah untuk memastikan Anda memiliki semua detail untuk memulai dengan percaya diri.
-## Prasyarat
-Sebelum memulai, mari pastikan Anda memiliki semua yang dibutuhkan untuk mengikuti tutorial ini.
-1.  Aspose.Cells untuk .NET: Pastikan Anda telah menginstal Aspose.Cells untuk .NET. Anda dapat[unduh perpustakaan di sini](https://releases.aspose.com/cells/net/) atau instal melalui NuGet di proyek .NET Anda.
-2. Lingkungan .NET: Lingkungan pengembangan .NET yang kompatibel (misalnya, Visual Studio).
-3.  Pengaturan Lisensi: Untuk fungsionalitas penuh Aspose.Cells, terapkan lisensi. Anda dapat[meminta lisensi sementara gratis](https://purchase.aspose.com/temporary-license/) untuk tujuan evaluasi.
-Mulailah dengan versi uji coba gratis Aspose.Cells jika Anda mengevaluasinya untuk pertama kali.
-## Paket Impor
-Sebelum kita masuk ke kode, Anda perlu mengimpor namespace Aspose.Cells ke proyek Anda untuk mengakses semua kelas dan metode yang diperlukan.
+## Bevezetés
+Ha az Aspose.Cells for .NET segítségével programozottan dolgozol Excel-fájlokkal, előfordulhat, hogy szükséged lesz egy munkalap oldalméreteire és be kell állítanod azokat. A méretek ismerete segíthet az Excel-lapok elrendezésében, nyomtatásában és testreszabásában adott célokra. Ebben a cikkben azt vizsgáljuk meg, hogyan kérhetsz le és jeleníthetsz meg különböző oldalméreteket Excelben az Aspose.Cells for .NET segítségével. Lépésről lépésre bemutatjuk, hogyan rendelkezel minden részlettel a magabiztos kezdéshez.
+## Előfeltételek
+Mielőtt belevágnánk, győződjünk meg róla, hogy mindent megtalálsz, amire szükséged van ehhez az oktatóanyaghoz.
+1. Aspose.Cells .NET-hez: Győződjön meg róla, hogy telepítve van az Aspose.Cells .NET-hez. Ezt megteheti [töltse le a könyvtárat itt](https://releases.aspose.com/cells/net/) vagy telepítse NuGet segítségével a .NET projektjébe.
+2. .NET környezet: Egy kompatibilis .NET fejlesztői környezet (pl. Visual Studio).
+3. Licenc beállítása: Az Aspose.Cells teljes funkcionalitásának eléréséhez igényeljen licencet. [igényeljen ingyenes ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/) értékelési célokra.
+Ha először próbálod ki az Aspose.Cells ingyenes próbaverzióját, próbáld ki.
+## Csomagok importálása
+Mielőtt belevágnánk a kódba, importálnunk kell az Aspose.Cells névteret a projektbe, hogy hozzáférhessünk az összes szükséges osztályhoz és metódushoz.
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Mari kita uraikan prosesnya menjadi beberapa langkah mudah. Di sini, kita akan mengakses berbagai ukuran kertas, menerapkannya pada lembar kerja, dan mencetak dimensi untuk masing-masing ukuran.
-## Langkah 1: Buat Contoh Buku Kerja
- Langkah pertama adalah membuat instance dari`Workbook` kelas. Objek ini akan bertindak sebagai buku kerja utama yang berisi lembar kerja yang dapat kita manipulasi.
+Bontsuk le a folyamatot egyszerű lépésekre. Itt különböző papírméreteket fogunk elérni, alkalmazzuk őket egy munkalapra, és kinyomtatjuk az egyes méreteket.
+## 1. lépés: Munkafüzet-példány létrehozása
+Az első lépés egy példány létrehozása a `Workbook` osztály. Ez az objektum a fő munkafüzetünkként fog működni, amely a módosítható munkalapokat tartalmazza.
 ```csharp
 Workbook book = new Workbook();
 ```
- Pikirkanlah`Workbook` sebagai wadah utama untuk berkas Excel Anda. Kita memerlukannya untuk mengakses dan mengontrol lembar kerja individual.
-## Langkah 2: Akses Lembar Kerja Pertama
- Selanjutnya, mari kita akses lembar kerja pertama di buku kerja. Secara default, buku kerja baru dilengkapi dengan satu lembar, jadi kita dapat langsung merujuknya menggunakan indeks`0`.
+Gondolj rá `Workbook` az Excel-fájl fő tárolójaként. Szükségünk van rá az egyes munkalapok eléréséhez és kezeléséhez.
+## 2. lépés: Az első munkalap elérése
+Következő lépésként tekintsük meg a munkafüzet első munkalapját. Alapértelmezés szerint egy új munkafüzet egyetlen lappal rendelkezik, így közvetlenül hivatkozhatunk rá egy index segítségével. `0`.
 ```csharp
 Worksheet sheet = book.Worksheets[0];
 ```
- Itu`Worksheets` koleksi di`Workbook` memungkinkan kita mengakses setiap lembar kerja berdasarkan indeks. Di sini, kita ambil lembar pertama untuk mulai mengatur dimensi halaman.
-## Langkah 3: Atur Ukuran Kertas ke A2 dan Tampilkan Dimensi
-Sekarang setelah kita memiliki akses ke lembar kerja kita, mari kita atur ukuran kertasnya ke A2. Pengaturan ukuran kertas berguna untuk memformat halaman sebelum mencetak atau mengekspornya. Setelah kita mengatur ukuran kertas, kita akan mencetak dimensi halaman dalam inci.
+A `Worksheets` gyűjtemény `Workbook` lehetővé teszi az egyes munkalapok elérését index alapján. Itt az első munkalapot fogjuk meg, hogy elkezdjük beállítani az oldal méreteit.
+## 3. lépés: Állítsa be a papírméretet A2-re, és jelenítse meg a méreteket
+Most, hogy hozzáférünk a munkalapunkhoz, állítsuk be a papírméretét A2-re. A papírméret beállítása hasznos az oldal formázásához nyomtatás vagy exportálás előtt. Miután beállítottuk a papírméretet, az oldal méreteit hüvelykben fogjuk kinyomtatni.
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
- Di sini, kita mengubah`PaperSize` properti untuk`PaperA2` Setelah mengatur ukuran,`PageSetup.PaperWidth` Dan`PageSetup.PaperHeight` mengambil lebar dan tinggi lembar dalam inci. Ini memberi kita gambaran singkat tentang dimensi halaman.
-## Langkah 4: Atur Ukuran Kertas ke A3 dan Tampilkan Dimensi
-Dengan mengikuti langkah yang sama seperti di atas, mari sesuaikan dimensi halaman ke ukuran A3. Perubahan ini berguna untuk cetakan yang sedikit lebih besar atau untuk memuat lebih banyak konten pada satu halaman.
+Itt megváltoztatjuk a `PaperSize` ingatlan `PaperA2`A méret beállítása után `PageSetup.PaperWidth` és `PageSetup.PaperHeight` lekéri a lap szélességét és magasságát hüvelykben. Ez gyors áttekintést nyújt az oldal méreteiről.
+## 4. lépés: Állítsa be a papírméretet A3-ra, és jelenítse meg a méreteket
+A fenti lépéseket követve állítsuk be az oldal méreteit A3-as méretre. Ez a módosítás kissé nagyobb nyomatok esetén, vagy ha több tartalom fér el egy oldalon.
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA3;
 Console.WriteLine("PaperA3: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
-Ukuran A3 dua kali lebih besar dari A4, sehingga cocok untuk tabel besar atau diagram terperinci. Mengubah ukuran kertas membantu menyesuaikan tata letak lembar kerja.
-## Langkah 5: Atur Ukuran Kertas ke A4 dan Tampilkan Dimensi
-Sekarang, mari kita atur ukuran kertas ke A4. Ini adalah ukuran halaman yang paling umum digunakan untuk mencetak dokumen. Kita akan menampilkan dimensi yang diperbarui setelahnya.
+Az A3-as méret kétszerese az A4-es méretnek, így jó választás nagyméretű táblázatokhoz vagy részletes diagramokhoz. A papírméret módosítása segít a munkalap elrendezésének ennek megfelelő módosításában.
+## 5. lépés: Állítsa be a papírméretet A4-re, és jelenítse meg a méreteket
+Most állítsuk be a papírméretet A4-re. Ez a leggyakrabban használt oldalméret dokumentumok nyomtatásához. Később megjelenítjük a frissített méreteket.
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 Console.WriteLine("PaperA4: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
-Jika target Anda adalah format dokumen standar, A4 biasanya merupakan ukuran yang paling sesuai. Mengetahui dimensi dapat membantu dalam menyesuaikan tata letak konten untuk menghindari masalah pencetakan.
-## Langkah 6: Atur Ukuran Kertas ke Letter dan Tampilkan Dimensi
-Terakhir, kita akan mengatur ukuran kertas ke format Letter, yang umum digunakan di Amerika Utara. Mari kita cetak dimensinya sekali lagi.
+Ha a cél egy szabványos dokumentumformátum, akkor az A4-es méret jellemzően a legmegfelelőbb. A méretek ismerete segíthet a tartalom elrendezésének beállításában a nyomtatási problémák elkerülése érdekében.
+## 6. lépés: Állítsa a papírméretet Letter értékre és a kijelző méreteit
+Végül a papírméretet Letter formátumra állítjuk be, amelyet általában Észak-Amerikában használnak. Nyomtassuk ki a méreteket még utoljára.
 ```csharp
 sheet.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + sheet.PageSetup.PaperWidth + "x" + sheet.PageSetup.PaperHeight);
 ```
-Ukuran Letter banyak digunakan untuk dokumen di Amerika Utara, jadi pengaturan ukuran ini membantu saat berkolaborasi dengan tim atau klien yang berbasis di sana.
-## Kesimpulan
-Dalam tutorial ini, kami membahas cara mengatur dan mengambil dimensi halaman untuk berbagai ukuran kertas menggunakan Aspose.Cells untuk .NET. Dengan mengonfigurasi ukuran halaman seperti A2, A3, A4, dan Letter, Anda dapat memformat lembar kerja Excel agar sesuai dengan kebutuhan pencetakan dan tata letak tertentu. Kontrol atas dimensi halaman ini sangat berharga untuk pelaporan dan presentasi profesional, karena memastikan konten Anda pas di setiap ukuran halaman.
-## Pertanyaan yang Sering Diajukan
-### Bagaimana cara mengubah orientasi halaman di Aspose.Cells?  
- Anda dapat mengubah orientasi menggunakan`PageSetup.Orientation` properti, mengaturnya ke`PageOrientationType.Portrait` atau`PageOrientationType.Landscape`.
-### Bisakah saya mengatur dimensi halaman khusus di Aspose.Cells?  
- Ya, Anda dapat mengatur dimensi halaman khusus dengan menyesuaikan margin dan opsi skala di bawah`PageSetup` untuk kontrol lebih lanjut.
-### Berapa ukuran kertas default di Aspose.Cells?  
-Ukuran kertas standar biasanya A4. Namun, ini mungkin bergantung pada pengaturan regional dan dapat disesuaikan sesuai kebutuhan.
-### Apakah mungkin untuk melihat pratinjau tata letak halaman di Aspose.Cells?  
-Meskipun Aspose.Cells tidak menawarkan pratinjau grafis, Anda dapat mengatur tata letak secara terprogram dan menggunakan pratinjau cetak di Excel.
-### Bagaimana cara menginstal Aspose.Cells untuk .NET?  
- Anda dapat menginstal Aspose.Cells menggunakan NuGet Package Manager di Visual Studio atau mengunduh DLL dari[Halaman unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+Az A4 méret széles körben elterjedt dokumentumméret Észak-Amerikában, így ennek a méretnek a beállítása hasznos az ottani csapatokkal vagy ügyfelekkel való együttműködés során.
+## Következtetés
+Ebben az oktatóanyagban bemutattuk, hogyan állíthatjuk be és kérhetjük le az oldalméreteket különböző papírméretekhez az Aspose.Cells for .NET használatával. Az olyan oldalméretek konfigurálásával, mint az A2, A3, A4 és Letter, formázhatjuk az Excel munkalapokat az adott nyomtatási és elrendezési igényeknek megfelelően. Az oldalméretek feletti szabályozás különösen értékes a professzionális jelentéskészítés és prezentáció során, mivel biztosítja, hogy a tartalom tökéletesen illeszkedjen minden oldalmérethez.
+## GYIK
+### Hogyan tudom megváltoztatni az oldal tájolását az Aspose.Cells-ben?  
+A tájolást a segítségével módosíthatja. `PageSetup.Orientation` tulajdonságot, beállítva azt valamelyikre `PageOrientationType.Pvagytrait` or `PageOrientationType.Landscape`.
+### Beállíthatok egyéni oldalméreteket az Aspose.Cells-ben?  
+Igen, beállíthat egyéni oldalméreteket a margók és a méretezési beállítások módosításával a `PageSetup` a nagyobb kontroll érdekében.
+### Mi az alapértelmezett papírméret az Aspose.Cells-ben?  
+Az alapértelmezett papírméret általában A4. Ez azonban a regionális beállításoktól függhet, és szükség szerint módosítható.
+### Lehetséges az oldalelrendezések előnézete az Aspose.Cells-ben?  
+Bár az Aspose.Cells nem kínál grafikus előnézetet, programozottan beállíthat elrendezéseket és használhat nyomtatási előnézeteket az Excelben.
+### Hogyan telepíthetem az Aspose.Cells for .NET-et?  
+Az Aspose.Cells programot telepítheted a Visual Studio NuGet csomagkezelőjével, vagy letöltheted a DLL-t a következő helyről: [Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

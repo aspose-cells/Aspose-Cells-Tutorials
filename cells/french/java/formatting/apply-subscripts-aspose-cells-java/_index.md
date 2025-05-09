@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ Les prochaines étapes incluent l'exploration d'autres options de mise en forme 
 Expérimentez avec Aspose.Cells pour Java pour débloquer de puissantes capacités d'automatisation d'Excel et n'hésitez pas à explorer sa documentation complète pour plus d'informations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

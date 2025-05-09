@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/excel-concatenate-function/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel CONCATENATE Function
@@ -130,6 +132,7 @@ This approach can be useful if you want to concatenate text without relying on E
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,45 @@
 ---
-title: 3D-tárgyak létrehozása és formázása Excelben Az Aspose.Cells segítségével .NET 
-weight: 7700
-limit: 
-description: Aspose.Cells a .NET-hez, az Excel-diagram 3D formázása, az Excel C# munkatárgyának létrehozása, a Excel C#-ban a diagram hozzáadása, az Excel- diagram C# formátum, az Aspose.Cells oktatás, a .NET Excel könyvtár  
-keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
-url: /hu/net/charts/applying-3d-format/
+"description": "Aspose.Cells .NET-hez, Excel diagram 3D formázása, Excel munkafüzet létrehozása C#-ban, diagram hozzáadása Excelben C#-ban, Excel diagram formázása C#-ban, Aspose.Cells oktatóanyag, .NET Excel könyvtár"
+"title": "3D-s diagramok létrehozása és formázása Excelben az Aspose.Cells for .NET használatával"
+"url": "/hu/net/charts/applying-3d-format/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 3D-es térképeket készítsen és formázjon az Excelben Aspose.Cells segítségével 
+# 3D-s diagramok létrehozása és formázása Excelben az Aspose.Cells használatával 
 
-Az Aspose.Cells a .NET-hez képest egy erős könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programszerűen hozzon létre, manipuláljanak és formátálják az Excel fájlokat. Ez a példa bemutatja, hogyan lehet létrehozni egy új Excel munkafüzetet, behelyezni az adatokat egy munkalapba, hozzáadni egy táblázatot és alkalmazni a 3D formátációt a táblázat sorozatára.  
+Az Aspose.Cells for .NET egy hatékony függvénykönyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és formázását. Ez a példa bemutatja, hogyan hozhat létre új Excel-munkafüzetet, hogyan szúrhat be adatokat egy munkalapba, hogyan adhat hozzá diagramot, és hogyan alkalmazhat 3D formázást a diagramsorozatokra. Az útmutató követésével megtanulhatja, hogyan állíthat be kategóriaadatokat, hogyan konfigurálhatja a diagram tulajdonságait, és hogyan javíthatja a vizualizációt 3D effektusokkal C# használatával.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/applying-3d-format" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A .NET-ben az Aspose.Cells használatához kövesse az alábbi lépéseket:  
+## Telepítési utasítások  
+Az Aspose.Cells .NET-hez való használatához kövesse az alábbi lépéseket:  
 
-1. A NuGet csomagkezelő segítségével telepítse:  
-   * Nyissa ki a Visual Studio- t, és menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
-   * Keresd meg az Aspose.Cells és telepítsd.  
+1. Telepítés a NuGet csomagkezelőn keresztül:  
+   - Nyissa meg a Visual Studio programot, és lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.Cells fájlt és telepítsd.  
 
-   Vagy telepítse a NuGet csomagkezelő konzolt:  
+   Vagy telepítse a NuGet csomagkezelő konzolján keresztül:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Letöltsük le a legújabb verziót:  
-   * Kapd a legújabb verziót az Aspose honlapján:  
-     [Letöltsd az Aspose.Cells .NET-re](https://releases.aspose.com/cells/net/)  
+2. Töltsd le a legújabb verziót:  
+   - Szerezd meg a legújabb verziót az Aspose weboldaláról:  
+     [Aspose.Cells letöltése .NET-hez](https://releases.aspose.com/cells/net/)  
 
-3. Adj hivatkozást a projektedhez:  
-   * A telepítés után a következő névterületet adja be a C# kódjába:  
+3. Referencia hozzáadása a projekthez:  
+   - A telepítés után a C# kódban szerepeltesse a következő névteret:  
      ```csharp
      using Aspose.Cells;
      using Aspose.Cells.Charts;
@@ -44,8 +47,11 @@ A .NET-ben az Aspose.Cells használatához kövesse az alábbi lépéseket:
      using System;
      using System.Drawing;
      ```  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

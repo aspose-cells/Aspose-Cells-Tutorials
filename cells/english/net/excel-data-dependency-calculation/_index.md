@@ -8,7 +8,9 @@ url: /net/excel-data-dependency-calculation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Dependency and Calculation
@@ -24,9 +26,11 @@ Ever wondered how to track which cells are dependent on a particular cell’s va
 ## Excel Data Dependency and Calculation Tutorials
 ### [Tracing Dependent Cells in Excel](./tracing-dependent-cells-in-excel/)
 Learn how to trace dependent cells in Excel using Aspose.Cells for .NET with this easy-to-follow tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

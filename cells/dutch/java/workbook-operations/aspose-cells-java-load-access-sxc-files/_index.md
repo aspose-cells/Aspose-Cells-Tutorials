@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells kan bestanden met macro's lezen, maar het uitvoeren van macro's ver
 Door deze uitgebreide handleiding te volgen, bent u nu klaar om efficiënt met SXC-bestanden te werken met Aspose.Cells voor Java. Of u nu een ontwikkelaar bent die uw applicaties wil verbeteren of een organisatie die gegevensverwerkingstaken wil stroomlijnen, Aspose.Cells biedt de tools die nodig zijn om deze doelen naadloos te bereiken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

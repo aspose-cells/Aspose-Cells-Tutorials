@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ Sind Sie bereit, Ihre Arbeitsmappen in verschiedenen Formaten zu speichern? Prob
 Begeben Sie sich mit Aspose.Cells Java auf Ihre Reise und verändern Sie die Art und Weise, wie Sie Excel-Dateien in verschiedenen Formaten verwalten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

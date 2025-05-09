@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 ก่อนที่จะดำเนินการต่อ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 - **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** คุณจะต้องมี Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 - **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** ติดตั้ง JDK (Java Development Kit) ที่เข้ากันได้บนระบบของคุณ
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และมีความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และมีความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -121,7 +123,7 @@ public class CustomSettings extends GlobalizationSettings {
 ```
 
 **คำอธิบาย:**
-- `getTotalName()`:ส่งคืน "AVG" สำหรับฟังก์ชันค่าเฉลี่ย
+- `getTotalName()`: คืนค่า "AVG" สำหรับฟังก์ชันค่าเฉลี่ย
 - `getGrandTotalName()`:ส่งคืน "GRAND AVG" สำหรับผลรวมเฉลี่ยทั้งหมด
 
 #### ขั้นตอนที่ 2: รวม CustomSettings
@@ -188,6 +190,9 @@ GlobalizationSettings.setInstance(new CustomSettings());
 สำรวจแหล่งข้อมูลเหล่านี้เพื่อรับคำแนะนำและการสนับสนุนเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells Java ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

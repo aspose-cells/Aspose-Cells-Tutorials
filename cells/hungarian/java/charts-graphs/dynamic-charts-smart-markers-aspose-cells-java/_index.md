@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ Az intelligens jelölők helyőrzőkként működnek, amelyeket feldolgozáskor 
    ```java
    cells.get("A1").putValue("&=$Headers(horizontal)");
    cells.get("A2").putValue("&=$Year2000(horizontal)");
-   // Folytatás más években is, szükség szerint
+   // Folytatás más években szükség szerint
    ```
 
 ### Intelligens jelölők adatforrásainak beállítása
@@ -211,13 +213,16 @@ Megtanultad, hogyan használhatod az Aspose.Cells for Java-t dinamikus diagramok
 3. **Milyen típusú diagramokat hozhatok létre az Aspose.Cells segítségével?**
    - Különböző típusú diagramokat hozhat létre, beleértve az oszlop-, vonal-, kör-, sáv-, terület-, szórt-, radár-, buborék-, részvény-, felület- és egyebeket.
 4. **Hogyan konvertálhatok karakterlánc értékeket numerikus értékekké a munkalapomon?**
-   - Használd a `convertStringToNumericValue()` metódus a munkalap cellagyűjteményén.
+   - Használd a `convertStringToNumericValue()` metódus a munkalap cellagyűjteményében.
 5. **Az Aspose.Cells hatékonyan tudja kezelni a nagy adathalmazokat?**
    - Igen, olyan funkciókat kínál, mint a streamelés és az erőforrás-kezelés a nagy adathalmazok kezeléséhez.
 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

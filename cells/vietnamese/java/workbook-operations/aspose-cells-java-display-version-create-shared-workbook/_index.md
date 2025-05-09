@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,6 +177,9 @@ A: Ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để đ
 Bằng cách làm theo hướng dẫn này, giờ đây bạn đã được trang bị để tích hợp và sử dụng Aspose.Cells for Java hiệu quả trong các dự án của mình. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

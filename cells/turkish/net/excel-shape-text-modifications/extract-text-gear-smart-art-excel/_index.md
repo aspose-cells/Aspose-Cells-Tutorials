@@ -1,14 +1,16 @@
 ---
-title: Excel'de Dişli Türü Akıllı Sanatından Metin Çıkarma
-linktitle: Excel'de Dişli Türü Akıllı Sanatından Metin Çıkarma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de dişli tipi SmartArt'tan metnin nasıl çıkarılacağını öğrenin. Adım adım kılavuz ve kod örneği dahildir.
-weight: 10
-url: /tr/net/excel-shape-text-modifications/extract-text-gear-smart-art-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel'de dişli tipi SmartArt'tan metnin nasıl çıkarılacağını öğrenin. Adım adım kılavuz ve kod örneği dahildir."
+"linktitle": "Excel'de Dişli Türü Akıllı Sanatından Metin Çıkarma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Dişli Türü Akıllı Sanatından Metin Çıkarma"
+"url": "/tr/net/excel-shape-text-modifications/extract-text-gear-smart-art-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Dişli Türü Akıllı Sanatından Metin Çıkarma
@@ -20,7 +22,7 @@ Başlamadan önce, sahip olmanız gereken bazı temel ön koşullar var. Endişe
 ### .NET Ortamı
 Bilgisayarınızda bir .NET geliştirme ortamının kurulu olduğundan emin olun. Bu, Visual Studio veya .NET geliştirmeyi destekleyen herhangi bir IDE olabilir.
 ### .NET için Aspose.Cells
- Sonra, Aspose.Cells kütüphanesini yüklemeniz gerekecek. Bu, Excel dosyalarını sorunsuz bir şekilde düzenlemenizi sağlayacak güç merkezidir. Bunu şuradan indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/) . Eğer önce keşfetmek istiyorsanız, şu avantajdan yararlanın:[ücretsiz deneme](https://releases.aspose.com/).
+Sonra, Aspose.Cells kütüphanesini yüklemeniz gerekecek. Bu, Excel dosyalarını sorunsuz bir şekilde düzenlemenizi sağlayacak güç merkezidir. Bunu şuradan indirebilirsiniz: [Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/). Eğer önce keşfetmek istiyorsanız, şu avantajdan yararlanın: [ücretsiz deneme](https://releases.aspose.com/).
 ### C# Temel Bilgisi
 Bu eğitimde takip etmeniz gereken tek şey C# programlamanın temel bir anlayışıdır. Eğer yeniyseniz endişelenmeyin—adımları mümkün olduğunca yeni başlayanlar için uygun olacak şekilde tasarlayacağım.
 ### Örnek Excel Dosyası
@@ -50,8 +52,8 @@ using System.Text;
 // Kaynak dizini
 string sourceDir = "Your Document Directory";
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` Excel dosyanızın gerçek yolunu belirtin.
-## Adım 2: Excel Çalışma Kitabını yükleyin
+Değiştirdiğinizden emin olun `"Your Document Directory"` Excel dosyanızın gerçek yolunu belirtin.
+## Adım 2: Excel Çalışma Kitabını Yükleyin
 Sonra Excel çalışma kitabını yükleyeceğiz. İçeriğine şu şekilde erişebiliriz:
 ```csharp
 // Dişli tipi akıllı sanat şeklini içeren örnek Excel dosyasını yükleyin.
@@ -107,21 +109,23 @@ Console.WriteLine("ExtractTextFromGearTypeSmartArtShape executed successfully.")
 ```
 Böylece çıkarma işleminiz tamamlanmış olacak ve konsolda metin çıktınızı görmelisiniz!
 ## Çözüm
- Tebrikler! Excel'de Aspose.Cells for .NET kullanarak dişli tipi SmartArt şekillerinden metin çıkarmayı öğrendiniz. Bu kullanışlı teknik, görsel veri gösterimine dayanan raporları veya belgeleri otomatikleştirmenin kapılarını açar. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, SmartArt'tan bilgi kontrol etmek ve çıkarmak iş akışınızı kolaylaştırabilir ve sizi daha verimli hale getirebilir. Ayrıntılı[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/) daha fazla yetenek için.
+Tebrikler! Excel'de Aspose.Cells for .NET kullanarak dişli tipi SmartArt şekillerinden metin çıkarmayı öğrendiniz. Bu kullanışlı teknik, görsel veri gösterimine dayanan raporları veya belgeleri otomatikleştirmenin kapılarını açar. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, SmartArt'tan bilgi kontrol etmek ve çıkarmak iş akışınızı kolaylaştırabilir ve sizi daha verimli hale getirebilir. Ayrıntılı [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/) daha fazla yetenek için.
 ## SSS
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin Excel dosyalarını kolayca oluşturmalarına ve düzenlemelerine olanak tanıyan bir .NET kütüphanesidir.
 ### Aspose.Cells'i diğer dillerle kullanabilir miyim?
 Evet! Aspose.Cells, Java ve Python da dahil olmak üzere birden fazla programlama dilinde mevcuttur.
 ### .NET için Aspose.Cells'i satın almam gerekir mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için satın alma gerekiyor. Satın alma seçeneklerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için satın alma gerekiyor. Satın alma seçeneklerini bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Aspose.Cells kullanıcıları için destek mevcut mu?
- Kesinlikle! Topluluk desteğini şu adreste bulabilirsiniz:[Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Topluluk desteğini şu adreste bulabilirsiniz: [Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
 ### Bu yöntemi kullanarak başka SmartArt türleri de çıkarabilir miyim?
 Evet, kodunuzdaki koşulları değiştirerek çeşitli SmartArt şekillerinden küçük değişikliklerle metin çıkarabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

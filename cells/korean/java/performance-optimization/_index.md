@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -42,7 +44,7 @@ Aspose.Cells for Java를 사용하여 통합 문서 생성을 최적화하고 PD
 ### [Aspose.Cells Java를 활용한 Excel 통합 문서 최적화 마스터하기: 성능 및 VBA 향상](./excel-workbook-optimization-aspose-cells-java-guide/)
 Aspose.Cells for Java를 사용하여 Excel 통합 문서를 최적화하는 방법을 알아보세요. 이 가이드에서는 성능 향상, VBA 프로젝트 통합, 등록된 참조 추가에 대해 다룹니다.
 
-### [Aspose.Cells를 사용하여 Java에서 LightCellsDataHandler를 구현하여 Excel 파일 최적화하는 방법](./implement-lightcellsdatahandler-java-aspose-cells/)
+### [Aspose.Cells를 사용하여 Java에서 Excel 파일 최적화를 위한 LightCellsDataHandler 구현 방법](./implement-lightcellsdatahandler-java-aspose-cells/)
 Java에서 Aspose.Cells와 함께 LightCellsDataHandler를 사용하여 대용량 Excel 파일을 효율적으로 처리하는 방법을 알아보세요. 성능을 최적화하고 메모리 사용량을 줄이는 방법도 알아보세요.
 
 ### [Aspose.Cells를 사용하여 Java Excel 로딩 최적화: 성능 향상을 위한 사용자 지정 워크시트 필터 구현](./java-excel-optimization-aspose-cells-filters/)
@@ -78,6 +80,9 @@ Aspose.Cells for Java를 사용하여 Excel 통합 문서 셀을 효율적으로
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

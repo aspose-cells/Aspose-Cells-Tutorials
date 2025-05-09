@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득 단계
 Aspose는 평가 목적으로 무료 체험판 라이선스를 제공합니다. 시작하려면 다음 단계를 따르세요.
 1. 방문하세요 [Aspose 구매 페이지](https://purchase.aspose.com/buy) 라이선싱 옵션을 살펴보세요.
-2. 임시 라이센스를 얻으려면 여기를 클릭하세요. [임시 면허](https://purchase.aspose.com/temporary-license/).
+2. 임시 라이센스를 얻으려면 다음을 클릭하세요. [임시 면허](https://purchase.aspose.com/temporary-license/).
 3. 모든 기능을 사용하려면 Java 애플리케이션에 라이센스를 적용하세요.
 
 ### 기본 초기화 및 설정
@@ -132,7 +134,7 @@ Aspose.Cells를 사용하여 XML 맵이 포함된 Excel 통합 문서를 로드�
 ```java
 public class LoadExcelWithXmlMap {
     public static void main(String[] args) throws Exception {
-        // 데이터 디렉토리 경로 자리 표시자를 정의합니다.
+        // 데이터 디렉토리 경로 자리 표시자 정의
         String dataDir = "YOUR_DATA_DIRECTORY";
 
         // XML 맵이 포함된 샘플 Excel 파일을 로드합니다.
@@ -162,10 +164,10 @@ import com.aspose.cells.XmlMap;
 ```java
 public class GetXmlElementRootName {
     public static void main(String[] args) throws Exception {
-        // 데이터 디렉토리 경로 자리 표시자를 정의합니다.
+        // 데이터 디렉토리 경로 자리 표시자 정의
         String dataDir = "YOUR_DATA_DIRECTORY";
 
-        // XML 맵이 포함된 Excel 파일 로드
+        // XML 맵이 포함된 Excel 파일을 로드합니다.
         Workbook wb = new Workbook(dataDir + "/sampleRootElementNameOfXmlMap.xlsx");
 
         // 통합 문서의 워크시트 컬렉션에서 첫 번째 XML 맵에 액세스합니다.
@@ -208,13 +210,16 @@ Java용 Aspose.Cells를 사용할 때 성능을 최적화하는 것은 매우 �
 **질문 1: Aspose.Cells의 다른 버전과의 호환성 문제는 어떻게 해결하나요?**
 A1: 항상 다음을 사용하여 현재 버전을 확인하세요. `CellsHelper.getVersion()` 그리고 릴리스 노트와 비교하여 중요한 변경 사항이나 새로운 기능이 있는지 확인하세요.
 
-**질문 2: XML 맵이 Excel에서 제대로 로드되지 않으면 어떻게 해야 하나요?**
+**질문 2: Excel에서 XML 맵이 제대로 로드되지 않으면 어떻게 해야 하나요?**
 A2: 파일 경로가 정확하고 XML 스키마가 예상 형식과 일치하는지 확인하세요. 디버깅 도구를 사용하면 불일치를 추적하는 데 도움이 될 수 있습니다.
 
 **질문 3: 라이선스 없이도 Aspose.Cells를 프로덕션 환경에서 사용할 수 있나요?**
 A3: 프로덕션 환경에서 평가 제한을 제거하려면 임시 라이선스나 구매 라이선스가 필수입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

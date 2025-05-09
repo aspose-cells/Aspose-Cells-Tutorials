@@ -1,49 +1,54 @@
 ---
-title: Завертывать текст в ячейках Excel с использованием Aspose.Cells для .NET
-weight: 7700
-limit: 
-description: Узнайте, как завязать текст в ячейках Excel с помощью Aspose.Cells для .NET.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /ru/net/formatting/wrapping-text/
----  
+"description": "Узнайте, как переносить текст в ячейках Excel с помощью Aspose.Cells для .NET. В этом руководстве рассматривается создание книги, добавление листа и применение переноса текста."
+"title": "Перенос текста в ячейках Excel с помощью Aspose.Cells для .NET"
+"url": "/ru/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# Перенос текста в ячейках Excel с помощью Aspose.Cells 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+Перенос текста в ячейках Excel гарантирует, что длинные текстовые записи будут полностью видны без расширения ширины столбца. Используя Aspose.Cells for .NET, вы можете программно применять перенос текста к любой ячейке на листе Excel. В этом руководстве вы узнаете, как создать новую книгу Excel, добавить лист, вставить текст в ячейку и включить перенос текста. Выполнив эти шаги, вы сможете эффективно форматировать документы Excel в своих приложениях C#.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Инструкция по установке:  
-Чтобы использовать Aspose.Cells для .NET, выполните следующие шаги:  
+Чтобы использовать Aspose.Cells для .NET, выполните следующие действия:  
 
-1. Установка через NuGet:  
-   * Откройте визуальную студию.  
-   * Перейти к инструментам → Управляющему пакетам NuGet → Управлению пакетами NuGet для решения.  
-   * Поиск Aspose.Cells и нажмите на Установку.  
+1. Установить через NuGet:  
+   - Откройте Visual Studio.  
+   - Перейдите в меню Инструменты → Диспетчер пакетов NuGet → Управление пакетами NuGet для решения.  
+   - Найдите Aspose.Cells и нажмите «Установить».  
 
-2. Установка через консоль управления пакетами:  
-   * Открытые инструменты → NuGet Пакетный менеджер → Консоль Пакетного менеджера.  
-   * Запустите команду:  
+2. Установка через консоль диспетчера пакетов:  
+   - Откройте Инструменты → Диспетчер пакетов NuGet → Консоль диспетчера пакетов.  
+   - Выполните команду:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
 3. Добавить ссылку вручную:  
-   * Скачать Aspose.Cells для .NET DLL с [Выпускание](https://releases.aspose.com/)\- Я не знаю .  
-   * Добавьте загруженный Aspose.Cells.dll к ссылкам на проект.  
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+   - Загрузите DLL-библиотеку Aspose.Cells для .NET с сайта [Релизы Aspose](https://releases.aspose.com/).  
+   - Добавьте загруженный Aspose.Cells.dll в ссылки вашего проекта.  
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

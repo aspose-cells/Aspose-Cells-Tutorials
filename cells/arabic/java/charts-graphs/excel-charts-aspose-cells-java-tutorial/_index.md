@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: استخدم معرفات الأنماط المحددة مسبقًا أو ق
 A5: تحسين نطاقات البيانات، وتقليل تعقيد المخططات، وإدارة الذاكرة بشكل فعال من خلال التخلص من الكائنات عند عدم الحاجة إليها.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

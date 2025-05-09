@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Aspose.Cells इन प्रणालियों में सहजता स
 इन तकनीकों में महारत हासिल करके, आप Aspose.Cells for Java का उपयोग करके जटिल Excel कार्यों को आसानी से संभालने में सक्षम हो जाएँगे। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

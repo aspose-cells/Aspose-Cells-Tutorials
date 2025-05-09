@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 소개
 
-VBA 스크립트를 깊이 파고들지 않고 Excel 작업을 자동화하는 데 어려움을 겪어 본 적이 있으신가요? **자바용 Aspose.Cells**이 강력한 라이브러리는 Excel 파일에 대한 고급 작업을 수행할 수 있을 뿐만 아니라 통합 문서를 프로그래밍 방식으로 효율적으로 조작할 수 있는 방법을 제공합니다. 이 튜토리얼에서는 Excel 통합 문서에 행을 쉽게 삽입하는 방법을 살펴보겠습니다.
+VBA 스크립트를 깊이 파고들지 않고도 Excel 작업을 자동화하는 데 어려움을 겪어 본 적이 있으신가요? **자바용 Aspose.Cells**이 강력한 라이브러리는 Excel 파일에 대한 고급 작업을 수행할 수 있을 뿐만 아니라 통합 문서를 프로그래밍 방식으로 효율적으로 조작할 수 있는 방법을 제공합니다. 이 튜토리얼에서는 Excel 통합 문서에 행을 쉽게 삽입하는 방법을 살펴보겠습니다.
 
 **배울 내용:**
 - 인스턴스화하는 방법 `Workbook` Aspose.Cells Java를 사용하여 객체를 만듭니다.
@@ -23,7 +25,7 @@ VBA 스크립트를 깊이 파고들지 않고 Excel 작업을 자동화하는 �
 - 워크시트의 지정된 위치에 행을 삽입합니다.
 - 수정된 통합 문서를 효율적으로 저장합니다.
 
-함께 자세히 살펴보고 이 기능들을 익혀보죠!
+함께 이 기능들을 익혀보도록 하죠!
 
 ## 필수 조건
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells for Java는 기능 평가를 위한 무료 평가판을 제공합니다. 필요에 따라 임시 라이선스를 구매하거나 정식 버전을 구매할 수 있습니다.
 - **무료 체험:** 기능을 테스트하기에 완벽합니다.
 - **임시 면허:** 제한 없이 장기적으로 시도해 보세요.
-- **구입:** 모든 프리미엄 기능을 사용해 보세요.
+- **구입:** 모든 프리미엄 기능에 액세스하세요.
 
 ## Java용 Aspose.Cells 설정
 
@@ -199,6 +201,9 @@ Aspose.Cells Java는 CRM 플랫폼, ERP 솔루션 등 다양한 엔터프라이�
 지금 Aspose.Cells for Java를 사용하여 여정을 시작하고 Excel 데이터를 처리하는 방식을 혁신해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

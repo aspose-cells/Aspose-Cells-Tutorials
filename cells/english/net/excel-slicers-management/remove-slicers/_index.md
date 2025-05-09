@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/remove-slicers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Slicers in Aspose.Cells .NET
@@ -103,6 +105,7 @@ Yes, Aspose.Cells supports .NET Core, so you can use it with your .NET Core proj
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

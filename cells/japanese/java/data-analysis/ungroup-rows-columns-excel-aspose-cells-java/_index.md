@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ workbook.save(outDir + "UngroupingColumns_out.xls"); // 列の場合
 2. **プロジェクト管理**プロジェクト計画内のグループ化されたタスクまたはタイムラインを調整します。
 3. **データレポート**グループ化を変更して、プレゼンテーション用の Excel シートを準備します。
 
-Aspose.Cells をデータベースや Web サービスなどの他のシステムと統合すると、これらのプロセスをさらに自動化して効率を高めることができます。
+Aspose.Cells をデータベースや Web サービスなどの他のシステムと統合すると、これらのプロセスをさらに自動化し、効率を高めることができます。
 
 ## パフォーマンスに関する考慮事項
 
@@ -167,6 +169,9 @@ Aspose.Cells の機能をさらに詳しく調べたり、より高度な機能�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

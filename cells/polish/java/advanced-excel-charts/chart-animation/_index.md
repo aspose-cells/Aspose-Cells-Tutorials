@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animacja wykresu
@@ -16,7 +18,7 @@
 
 ## Wprowadzenie do tworzenia animacji wykresów
 
-W tym samouczku pokażemy, jak tworzyć dynamiczne animacje wykresów przy użyciu interfejsu API Aspose.Cells for Java. Animacje wykresów mogą być skutecznym sposobem wizualizacji trendów danych i zmian w czasie, dzięki czemu raporty i prezentacje będą bardziej angażujące i pouczające. Zapewnimy Ci przewodnik krok po kroku i dołączymy kompletne przykłady kodu źródłowego dla Twojej wygody.
+tym samouczku pokażemy, jak tworzyć dynamiczne animacje wykresów przy użyciu interfejsu API Aspose.Cells for Java. Animacje wykresów mogą być skutecznym sposobem wizualizacji trendów danych i zmian w czasie, dzięki czemu raporty i prezentacje będą bardziej angażujące i pouczające. Zapewnimy Ci przewodnik krok po kroku i dołączymy kompletne przykłady kodu źródłowego dla Twojej wygody.
 
 ## Wymagania wstępne
 
@@ -82,7 +84,7 @@ workbook.save("output.xlsx");
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak tworzyć animacje wykresów przy użyciu interfejsu API Aspose.Cells for Java. Omówiliśmy podstawowe kroki, w tym importowanie biblioteki, ładowanie lub tworzenie skoroszytu programu Excel, uzyskiwanie dostępu do wykresu, konfigurowanie ustawień animacji i zapisywanie skoroszytu. Dzięki włączaniu animacji wykresów do raportów i prezentacji możesz ożywić swoje dane i skutecznie przekazać swój komunikat.
+tym samouczku nauczyliśmy się, jak tworzyć animacje wykresów przy użyciu interfejsu API Aspose.Cells for Java. Omówiliśmy podstawowe kroki, w tym importowanie biblioteki, ładowanie lub tworzenie skoroszytu programu Excel, uzyskiwanie dostępu do wykresu, konfigurowanie ustawień animacji i zapisywanie skoroszytu. Dzięki włączaniu animacji wykresów do raportów i prezentacji możesz ożywić swoje dane i skutecznie przekazać swój komunikat.
 
 ## Najczęściej zadawane pytania
 
@@ -101,6 +103,7 @@ Opóźnienie animacji określa odstęp czasu przed rozpoczęciem animacji wykres
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

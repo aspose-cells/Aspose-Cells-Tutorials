@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Säkerställa `LoadOptions` är inställda som visas ovan.
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/LargeBook1.xlsx", opts);
 
-// Verifiera lyckad inläsning genom att hämta arkantal
+// Verifiera lyckad inläsning genom att hämta antalet ark
 int sheetCount = wb.getWorksheets().getCount();
 ```
 
@@ -135,6 +137,9 @@ Utforska mer avancerade funktioner i Aspose.Cells eller integrera det i dina pro
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

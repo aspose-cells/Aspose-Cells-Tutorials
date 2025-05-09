@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells를 사용하려면 라이선스를 구매해야 합니다. 무료 체험판으로 시작하거나, 장기 테스트를 위해 임시 라이선스를 요청할 수 있습니다. 실제 운영 환경에서 사용하려면 라이선스를 구매해야 합니다.
 
-1. **무료 체험:** 라이브러리를 다운로드하여 기능을 탐색해 보세요.
+1. **무료 체험:** 라이브러리를 다운로드하여 기능을 직접 살펴보세요.
 2. **임시 면허:** 요청하세요 [Aspose 웹사이트](https://purchase.aspose.com/temporary-license/) 평가 기간 동안 모든 기능을 사용할 수 있습니다.
 3. **구입:** 체험판에 만족하면 공식 사이트를 통해 라이센스를 구매하세요.
 
@@ -193,6 +195,9 @@ Aspose.Cells를 사용하여 대규모 통합 문서에서 텍스트 상자를 �
    - 프로젝트의 빌드 구성(Maven/Gradle)을 다시 한 번 확인하여 모든 필수 Aspose.Cells 종속성이 올바르게 포함되어 있는지 확인하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

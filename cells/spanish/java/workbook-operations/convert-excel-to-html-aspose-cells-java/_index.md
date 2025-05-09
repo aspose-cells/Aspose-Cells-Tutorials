@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ En el mundo actual, dominado por los datos, convertir archivos de Excel a format
 - Cargar un archivo Excel en Java
 - Inicialización de opciones de guardado de HTML para mantener la estructura
 - Guardar su libro de trabajo como un documento HTML
-- Mejores prácticas para la optimización del rendimiento
+- Mejores prácticas para optimizar el rendimiento
 
 Antes de sumergirse en la implementación, asegúrese de tener todo lo que necesita para comenzar.
 
@@ -177,6 +179,9 @@ Emprende tu camino para optimizar la presentación de datos aprovechando Aspose.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

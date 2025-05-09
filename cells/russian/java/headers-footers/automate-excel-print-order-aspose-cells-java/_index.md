@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Узнайте, как автоматизировать конфигурацию порядка печати в файлах Excel с помощью Aspose.Cells для Java с помощью этого подробного руководства. Эффективно оптимизируйте свой рабочий процесс."
-"title": "Автоматизируйте порядок печати Excel с помощью Aspose.Cells для Java&#58; Подробное руководство"
+"title": "Автоматизируйте порядок печати Excel с помощью Aspose.Cells для Java&#58; Полное руководство"
 "url": "/ru/java/headers-footers/automate-excel-print-order-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ workbook.save(testFile);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Şifre Koruması
@@ -16,7 +18,7 @@
 
 ## Excel Parola Korumasına Giriş
 
-Dijital çağda, hassas verilerinizi güvence altına almak çok önemlidir. Excel elektronik tabloları genellikle korunması gereken kritik bilgiler içerir. Bu eğitimde, Aspose.Cells for Java kullanarak Excel parola korumasının nasıl uygulanacağını inceleyeceğiz. Bu adım adım kılavuz, verilerinizin gizli kalmasını sağlayarak sizi süreçte yönlendirecektir.
+Dijital çağda, hassas verilerinizi güvence altına almak çok önemlidir. Excel elektronik tabloları genellikle korunması gereken kritik bilgiler içerir. Bu eğitimde, Java için Aspose.Cells kullanarak Excel parola korumasının nasıl uygulanacağını inceleyeceğiz. Bu adım adım kılavuz, verilerinizin gizli kalmasını sağlayarak sizi süreçte yönlendirecektir.
 
 ## Ön koşullar
 
@@ -133,6 +135,7 @@ Excel dosyalarında parola koruması güçlü bir güvenlik önlemidir, ancak g�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

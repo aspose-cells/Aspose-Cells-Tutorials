@@ -8,7 +8,9 @@ url: /net/workbook-operations/add-custom-xml-parts-with-id/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom XML Parts with ID to Workbook
@@ -116,6 +118,7 @@ You can check out the [documentation](https://reference.aspose.com/cells/net/) f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

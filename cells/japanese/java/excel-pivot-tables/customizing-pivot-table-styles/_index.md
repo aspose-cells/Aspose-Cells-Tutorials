@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ピボットテーブルスタイルのカスタマイズ
@@ -87,9 +89,11 @@ Aspose.Cells for Java API では、ピボットテーブルのスタイルをカ
    APIドキュメントは以下を参照できます。 [Aspose.Cells for Java API リファレンス](https://reference.aspose.com/cells/java/) 詳細情報については。
 
 Aspose.Cells for Javaでピボットテーブルのスタイルを作成およびカスタマイズする方法を習得しました。さらに詳しく学習して、データプレゼンテーションを真に魅力的なものにしましょう！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

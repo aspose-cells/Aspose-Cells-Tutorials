@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ A: แม้ว่า Aspose.Cells จะได้รับการเพิ่
 เริ่มใช้งานโซลูชั่นนี้วันนี้เพื่อปรับปรุงการจัดการไฟล์ Excel ของคุณด้วย Aspose.Cells สำหรับ Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

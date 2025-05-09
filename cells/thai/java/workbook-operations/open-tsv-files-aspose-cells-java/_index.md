@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ System.out.println("Cell Name: " + cell.getName() + " Value: " + cell.getStringV
 **คำอธิบาย:** ที่นี่ เราจะเข้าถึงชีตแรกและดึงข้อมูลจากเซลล์ C3 คุณสามารถปรับเปลี่ยนข้อมูลนี้ให้เหมาะกับความต้องการเฉพาะของคุณได้
 
 ### เคล็ดลับการแก้ไขปัญหา
-- **ไม่พบไฟล์ข้อยกเว้น:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้อง
+- **ข้อยกเว้นไม่พบไฟล์:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ถูกต้อง
 - **LoadFormat กำหนดค่าไม่ถูกต้อง:** ตรวจสอบอีกครั้งว่า `LoadOptions` ถูกกำหนดไว้สำหรับ TSV
 
 ## การประยุกต์ใช้งานจริง
@@ -158,6 +160,9 @@ System.out.println("Cell Name: " + cell.getName() + " Value: " + cell.getStringV
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

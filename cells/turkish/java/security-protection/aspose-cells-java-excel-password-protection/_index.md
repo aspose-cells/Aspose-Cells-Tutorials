@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Hassas bilgilerle uğraşırken parola korumalı Excel dosyalarını yüklemek önemlidir. Aspose.Cells, gerekli parolayı belirterek bu dosyaları açmanın basit bir yolunu sağlar.
 
 #### Adım Adım Uygulama
-1. **Yükleme Seçeneklerini Ayarla**: Bir tane oluştur `LoadOptions` nesnesine tıklayın ve gerekli şifreyi ayarlayın.
+1. **Yükleme Seçeneklerini Ayarla**Bir tane oluştur `LoadOptions` nesnesine tıklayın ve gerekli şifreyi ayarlayın.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ C5: Lisans dosyanızın yolunun doğru olduğundan ve uygulamanız tarafından e
 - **Destek**: [Aspose Forum Desteği](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

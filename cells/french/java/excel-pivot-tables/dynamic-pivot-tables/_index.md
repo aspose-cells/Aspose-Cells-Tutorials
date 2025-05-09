@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tableaux croisés dynamiques
@@ -107,9 +109,11 @@ Oui, vous pouvez appliquer des filtres aux tableaux croisés dynamiques pour aff
 ### Q5 : Aspose.Cells prend-il en charge les fonctionnalités avancées du tableau croisé dynamique d’Excel ?
 
 Oui, Aspose.Cells fournit une prise en charge étendue des fonctionnalités avancées du tableau croisé dynamique d'Excel, vous permettant de créer des tableaux croisés dynamiques complexes.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

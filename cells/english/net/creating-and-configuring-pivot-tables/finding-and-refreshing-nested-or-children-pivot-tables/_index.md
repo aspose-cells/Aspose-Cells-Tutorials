@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested-or
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Finding and Refreshing Nested or Children Pivot Tables in .NET
@@ -96,6 +98,7 @@ You can check the [Aspose Support Forum](https://forum.aspose.com/c/cells/9) for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

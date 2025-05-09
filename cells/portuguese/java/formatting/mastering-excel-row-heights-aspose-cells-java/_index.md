@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ Defina uma altura padrão para todas as linhas na planilha selecionada:
 ```java
 worksheet.getCells().setStandardHeight(15f);
 ```
-*Parâmetros e Propósito*: O `setStandardHeight` método define uma altura de linha uniforme (em pontos) em toda a planilha, melhorando a legibilidade e a consistência.
+*Parâmetros e propósito*: O `setStandardHeight` método define uma altura de linha uniforme (em pontos) em toda a planilha, melhorando a legibilidade e a consistência.
 
 **5. Salvar pasta de trabalho modificada**
 Por fim, salve suas alterações em um arquivo de saída:
@@ -130,7 +132,7 @@ Ajustar a altura das fileiras não é apenas uma questão de estética; também 
 
 ## Considerações de desempenho
 Ao trabalhar com arquivos grandes do Excel, considere o seguinte:
-- **Otimize o uso da memória**: Carregue somente planilhas ou partes de um arquivo necessárias para conservar memória.
+- **Otimizar o uso da memória**: Carregue somente planilhas ou partes de um arquivo necessárias para conservar memória.
 - **Processamento de Dados Eficiente**: Use operações em lote sempre que possível para minimizar a sobrecarga.
 
 ## Conclusão
@@ -160,6 +162,9 @@ Experimente outros recursos do Aspose.Cells para automatizar e otimizar ainda ma
 - **Apoiar**: [Fórum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: एक्सेल में आकृति के साथ टेक्स्ट घुमाएँ
-linktitle: एक्सेल में आकृति के साथ टेक्स्ट घुमाएँ
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel में आकृतियों के साथ टेक्स्ट को घुमाना सीखें। बेहतरीन Excel प्रस्तुति के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 12
-url: /hi/net/excel-shape-text-modifications/rotate-text-shape-excel/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel में आकृतियों के साथ टेक्स्ट को घुमाना सीखें। बेहतरीन Excel प्रस्तुति के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "एक्सेल में आकृति के साथ टेक्स्ट घुमाएँ"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "एक्सेल में आकृति के साथ टेक्स्ट घुमाएँ"
+"url": "/hi/net/excel-shape-text-modifications/rotate-text-shape-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल में आकृति के साथ टेक्स्ट घुमाएँ
@@ -18,9 +20,9 @@ url: /hi/net/excel-shape-text-modifications/rotate-text-shape-excel/
 ## आवश्यक शर्तें
 आरंभ करने से पहले, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपकी मशीन पर विज़ुअल स्टूडियो स्थापित है, क्योंकि यहीं पर हम अपना कोड लिखेंगे।
-2.  .NET के लिए Aspose.Cells: आपको Aspose.Cells लाइब्रेरी की आवश्यकता होगी। आप कर सकते हैं[डाउनलोड का नवीनतम संस्करण यहां](https://releases.aspose.com/cells/net/) या इसे मुफ्त में आज़माएं[मुफ्त परीक्षण](https://releases.aspose.com/).
+2. .NET के लिए Aspose.Cells: आपको Aspose.Cells लाइब्रेरी की आवश्यकता होगी। आप कर सकते हैं [डाउनलोड का नवीनतम संस्करण यहां](https://releases.aspose.com/cells/net/) या इसे मुफ्त में आज़माएं [मुफ्त परीक्षण](https://releases.aspose.com/).
 3. C# का बुनियादी ज्ञान: C# और .NET परिवेश से परिचित होना उपयोगी होगा, हालांकि हम आपको हर कदम पर मार्गदर्शन करेंगे।
-4.  एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल, आइए इसे कॉल करें`sampleRotateTextWithShapeInsideWorksheet.xlsx`, हमारे कोड का परीक्षण करने के लिए आवश्यक है। आपको इस फ़ाइल को ऐसी निर्देशिका में रखना चाहिए जहाँ आप आसानी से पहुँच सकें।
+4. एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल, आइए इसे कॉल करें `sampleRotateTextWithShapeInsideWorksheet.xlsx`, हमारे कोड का परीक्षण करने के लिए आवश्यक है। आपको इस फ़ाइल को ऐसी निर्देशिका में रखना चाहिए जहाँ आप आसानी से पहुँच सकें।
 क्या सब कुछ तैयार है? बढ़िया! चलिए मज़ेदार भाग में चलते हैं।
 ## पैकेज आयात करें
 आरंभ करने के लिए, हमें अपने प्रोजेक्ट में आवश्यक पैकेज आयात करने की आवश्यकता है। ऐसा करने का तरीका इस प्रकार है:
@@ -53,7 +55,7 @@ string sourceDir = "Your Document Directory"; // अपनी दस्ताव
 //आउटपुट निर्देशिका
 string outputDir = "Your Document Directory"; // अपनी आउटपुट निर्देशिका सेट करें
 ```
- प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ जहाँ आपका`sampleRotateTextWithShapeInsideWorksheet.xlsx` फ़ाइल स्थित है.
+प्रतिस्थापित करें `"Your Document Directory"` वास्तविक पथ के साथ जहाँ आपका `sampleRotateTextWithShapeInsideWorksheet.xlsx` फ़ाइल स्थित है.
 ## चरण 2: नमूना एक्सेल फ़ाइल लोड करें
 अब, आइए सैंपल एक्सेल फ़ाइल लोड करें। यह महत्वपूर्ण है, क्योंकि हम मौजूदा डेटा में हेरफेर करना चाहते हैं।
 ```csharp
@@ -88,7 +90,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //RotateTextWithShape को false पर सेट करके आकृति के साथ पाठ को न घुमाएँ.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- सेटिंग करके`RotateTextWithShape` गलत पर, हम सुनिश्चित करते हैं कि पाठ सीधा रहे और आकृति के साथ घूमे नहीं, जिससे सब कुछ साफ और व्यवस्थित रहे।
+सेटिंग करके `RotateTextWithShape` गलत पर, हम सुनिश्चित करते हैं कि पाठ सीधा रहे और आकृति के साथ घूमे नहीं, जिससे सब कुछ साफ और व्यवस्थित रहे।
 ## चरण 7: आउटपुट एक्सेल फ़ाइल को सेव करें
 अंत में, आइए अपने बदलावों को एक नई एक्सेल फ़ाइल में सेव करें। इससे यह सुनिश्चित होगा कि हम अपने संपादन न खोएँ और एक सुव्यवस्थित आउटपुट प्राप्त करें।
 ```csharp
@@ -97,7 +99,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 और बस! आपकी आउटपुट फ़ाइल अब सहेज ली गई है, जिसमें सेल B4 का टेक्स्ट और आकृति में किए गए समायोजन शामिल हैं।
 ## चरण 8: कोड निष्पादित करें
- आपके`Main` विधि, ऊपर दिए गए सभी कोड स्निपेट को लपेटें, और अपना प्रोजेक्ट चलाएँ। अपने आउटपुट फ़ाइल में परिवर्तन देखें!
+आपके `Main` विधि, ऊपर दिए गए सभी कोड स्निपेट को लपेटें, और अपना प्रोजेक्ट चलाएँ। अपने आउटपुट फ़ाइल में परिवर्तन देखें!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,18 +107,20 @@ Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 .NET के लिए Aspose.Cells का उपयोग करके Excel में आकृतियों के साथ टेक्स्ट को घुमाना पहली बार में एक जटिल प्रक्रिया की तरह लग सकता है, लेकिन एक बार जब आप इसे समझ लेते हैं तो यह काफी सरल हो जाता है। इन सरल चरणों का पालन करके, आप अपनी स्प्रेडशीट को अधिक पेशेवर और आकर्षक दिखने के लिए अनुकूलित कर सकते हैं। अब, चाहे आप इसे किसी क्लाइंट के लिए कर रहे हों या अपने व्यक्तिगत प्रोजेक्ट के लिए, हर कोई आपके काम की गुणवत्ता की प्रशंसा करेगा!
 ## अक्सर पूछे जाने वाले प्रश्न
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
- हाँ! आप इसका उपयोग कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) पुस्तकालय का अनुभव करने के लिए.
+हाँ! आप इसका उपयोग कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) पुस्तकालय का अनुभव करने के लिए.
 ### Aspose.Cells Excel के किस संस्करण का समर्थन करता है?
 Aspose.Cells विभिन्न प्रकार के एक्सेल प्रारूपों का समर्थन करता है, जिनमें XLS, XLSX, CSV, आदि शामिल हैं।
 ### क्या पुराने एक्सेल संस्करणों में आकृतियों के साथ पाठ को घुमाना संभव है?
 हां, यह कार्यक्षमता Aspose.Cells द्वारा समर्थित पुराने प्रारूपों पर लागू की जा सकती है।
 ### मैं Aspose.Cells के बारे में अधिक दस्तावेज़ कहां पा सकता हूं?
- आप व्यापक जानकारी प्राप्त कर सकते हैं[प्रलेखन](https://reference.aspose.com/cells/net/) अधिक जानकारी के लिए.
+आप व्यापक जानकारी प्राप्त कर सकते हैं [प्रलेखन](https://reference.aspose.com/cells/net/) अधिक जानकारी के लिए.
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त करूं?
- आप यहां जाकर सहायता मांग सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+आप यहां जाकर सहायता मांग सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

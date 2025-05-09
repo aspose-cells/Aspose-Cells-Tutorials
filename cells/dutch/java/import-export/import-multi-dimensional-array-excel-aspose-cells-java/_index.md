@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Stappen voor het verkrijgen van een licentie
 - **Gratis proefperiode**: Download een proefversie van [Aspose's releasepagina](https://releases.aspose.com/cells/java/).
-- **Tijdelijke licentie**Verkrijg een tijdelijke licentie via [deze link](https://purchase.aspose.com/temporary-license/) voor testen zonder beperkingen.
+- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie via [deze link](https://purchase.aspose.com/temporary-license/) voor testen zonder beperkingen.
 - **Aankoop**: Voor volledige toegang en ondersteuning kunt u overwegen de bibliotheek aan te schaffen bij [De aankooppagina van Aspose](https://purchase.aspose.com/buy).
 
 #### Basisinitialisatie
@@ -157,6 +159,9 @@ Vergeet niet om een [gratis proefperiode](https://releases.aspose.com/cells/java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

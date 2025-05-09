@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells を最大限に活用するには、無料トライアルを使用するか、ライセンスを購入してください。
 - **無料トライアル:** ダウンロードはこちら [Aspose リリース](https://releases.aspose.com/cells/java/) ページ。
-- **一時ライセンス:** 制限なくフルアクセスするための一時ライセンスを取得するには、 [一時ライセンスページ](https://purchase。aspose.com/temporary-license/).
+- **一時ライセンス:** 制限のないフルアクセスのための一時ライセンスを取得するには、 [一時ライセンスページ](https://purchase。aspose.com/temporary-license/).
 - **購入：** 永久ライセンスは、 [Aspose 購入ページ](https://purchase。aspose.com/buy).
 
 ### 初期化とセットアップ
@@ -185,6 +187,9 @@ Aspose.Cells for Java を使用してグラフ系列にテーマを適用する�
 - **サポート：** [Asposeフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

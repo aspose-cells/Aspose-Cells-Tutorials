@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Sonraki adımlar, Aspose.Cells ile grafik entegrasyonu veya gelişmiş veri işl
 Bu kılavuz, PivotTable'ları etkili bir şekilde yapılandırmada Aspose.Cells for Java'nın tüm potansiyelinden yararlanmanızı sağlamalıdır. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

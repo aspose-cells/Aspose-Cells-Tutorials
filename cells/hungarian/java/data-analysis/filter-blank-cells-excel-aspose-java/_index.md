@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 #### Áttekintés
 Használd az Aspose.Cells szűrési képességeit az üres sorok eltávolításához az adathalmazból.
 
-##### 3. lépés: Üres cella szűrő alkalmazása
+##### 3. lépés: Üres cellaszűrő alkalmazása
 Hívd a `matchBlanks` módszer üres cellák szűrésére:
 
 ```java
@@ -178,7 +180,7 @@ Arra biztatunk, hogy [próbálja meg megvalósítani ezt a megoldást](https://r
 4. **Mi van, ha licencelési hibába ütközöm a beállítás során?**
    - Győződjön meg arról, hogy a licencfájl elérési útja helyes, és a könyvtár verziója megegyezik a licenccel.
 
-5. **Van támogatás más táblázatformátumokhoz?**
+5. **Vannak más táblázatformátumok is támogatva?**
    - Az Aspose.Cells különféle formátumokat támogat, például XLSX, CSV, ODS stb.
 
 ## Erőforrás
@@ -193,6 +195,9 @@ Ezt az útmutatót követve magabiztosan implementálhatsz ürescellás szűrés
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ class CustomCalculationSetup {
         // Új munkafüzet-példány létrehozása
         Workbook wb = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
         
         // Írj szöveget az A1 cellába
@@ -207,7 +209,7 @@ Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a
 ## GYIK szekció
 
 **1. kérdés:** Milyen előnyei vannak egy egyedi kalkulátor használatának?
-*Az egyéni motorok lehetővé teszik az adatfeldolgozás pontos vezérlését, lehetővé téve az egyedi üzleti logikát közvetlenül az Excelen belül.*
+*Az egyéni motorok lehetővé teszik az adatfeldolgozás precíz vezérlését, lehetővé téve az egyedi üzleti logikát közvetlenül az Excelen belül.*
 
 **2. kérdés:** Hogyan kezeljem a hibákat az egyéni függvényemben?
 *Hibakezelés implementálása a `calculate` módszer a kivételek szabályos kezelésére.*
@@ -219,7 +221,7 @@ Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a
 *Bár nagy teljesítményűek, az egyéni motoroknak tiszteletben kell tartaniuk a rendszermemória-korlátokat és a feldolgozási időkorlátokat.*
 
 **5. kérdés:** Hogyan tudok hibakeresni az egyéni számítási logikámban található problémákat?
-*Használja a naplózást a saját `calculate` módszer az értékek nyomon követésére és a probléma lehetséges helyének azonosítására.*
+*Használja a naplózást a saját `calculate` módszer az értékek nyomon követésére és a probléma lehetséges előfordulási helyének azonosítására.*
 
 ## Erőforrás
 
@@ -233,6 +235,9 @@ Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a
 Az útmutató követésével az Aspose.Cells for Java segítségével hatékony, egyedi számítási motorokat hozhatsz létre, amelyek megfelelnek az egyedi üzleti igényeidnek. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

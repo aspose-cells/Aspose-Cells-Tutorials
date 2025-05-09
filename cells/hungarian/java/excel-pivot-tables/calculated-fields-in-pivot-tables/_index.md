@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Számított mezők a kimutatástáblákban
 
 ## Bevezetés
-A kimutatástáblázatok hatékony eszközök az adatok Excelben történő elemzéséhez és összegzéséhez. Előfordul azonban, hogy egyéni számításokat kell végezni az adatokon a kimutatástáblázatban. Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre számított mezőket a kimutatástáblázatokban az Aspose.Cells for Java használatával, lehetővé téve az adatelemzés következő szintre emelését.
+kimutatástáblázatok hatékony eszközök az adatok Excelben történő elemzéséhez és összegzéséhez. Előfordul azonban, hogy egyéni számításokat kell végezni az adatokon a kimutatástáblázatban. Ebben az oktatóanyagban bemutatjuk, hogyan hozhat létre számított mezőket a kimutatástáblázatokban az Aspose.Cells for Java használatával, lehetővé téve az adatelemzés következő szintre emelését.
 
 ### Előfeltételek
 Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
@@ -82,11 +84,12 @@ Gratulálunk! Megtanultad, hogyan hozhatsz létre számított mezőket a kimutat
    A számított mezőknek vannak bizonyos korlátozásai, például nem támogatnak bizonyos típusú számításokat. A részletekért kérjük, ellenőrizze a dokumentációt.
 
 ### Hol találok további forrásokat az Aspose.Cells for Java-ról?
-   Az API dokumentációját itt tekintheti meg: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/).
+   Az API dokumentációját itt tekintheti meg: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

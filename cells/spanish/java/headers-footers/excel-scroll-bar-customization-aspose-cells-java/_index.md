@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Pasos para la adquisición de la licencia
 Aspose.Cells ofrece una prueba gratuita para explorar sus funciones. Para un uso prolongado, puede adquirir una licencia temporal o la versión completa.
 
-1. **Prueba gratuita**Descargue la última versión desde [Versiones de Java de Aspose.Cells](https://releases.aspose.com/cells/java/).
+1. **Prueba gratuita**: Descargue la última versión desde [Versiones de Java de Aspose.Cells](https://releases.aspose.com/cells/java/).
 2. **Licencia temporal**:Solicitar una licencia temporal a través de [Comprar Licencia Temporal](https://purchase.aspose.com/temporary-license/).
 3. **Compra**:Para acceso completo, visite [Comprar Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -149,7 +151,7 @@ Al usar Aspose.Cells para Java, puede personalizar fácilmente la configuración
 
 ## Sección de preguntas frecuentes
 1. **¿Cómo configuro Aspose.Cells en mi proyecto Java?**
-   - Utilice las dependencias de Maven o Gradle para agregar Aspose.Cells, lo que garantiza que su `pom.xml` o `build.gradle` se actualiza en consecuencia.
+   - Utilice las dependencias de Maven o Gradle para agregar Aspose.Cells, lo que garantiza que su `pom.xml` o `build.gradle` Se actualiza en consecuencia.
 2. **¿Puedo utilizar esta función con otras versiones de archivos de Excel (por ejemplo, .xlsx)?**
    - Sí, Aspose.Cells admite varios formatos de archivo, incluidos `.xls` y `.xlsx`.
 3. **¿Qué pasa si las barras de desplazamiento no se ocultan como se espera?**
@@ -169,6 +171,9 @@ Al usar Aspose.Cells para Java, puede personalizar fácilmente la configuración
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

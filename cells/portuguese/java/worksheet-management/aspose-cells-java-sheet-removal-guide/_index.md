@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Agora você aprendeu a remover uma planilha pelo nome usando o Aspose.Cells para
 Seguindo este guia, você estará bem equipado para gerenciar planilhas do Excel com eficiência usando o Aspose.Cells em Java. Comece a implementar hoje mesmo e veja como ele pode aprimorar seus projetos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

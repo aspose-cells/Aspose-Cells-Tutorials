@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-**Требуемые библиотеки:**
+**Необходимые библиотеки:**
 - **Aspose.Cells для Java**: Основная библиотека, позволяющая работать с файлами Excel.
 
 **Требования к настройке среды:**
@@ -160,17 +162,20 @@ workbook.save(outDir + "/RegexReplace_out.xlsx");
 4. **Где я могу найти дополнительные ресурсы по Aspose.Cells?**
    - Посещать [Документация Aspose](https://reference.aspose.com/cells/java/) для получения подробных руководств и примеров.
 5. **Есть ли способ протестировать мою реализацию без покупки лицензии?**
-   - Да, начните с бесплатной пробной версии, доступной по адресу [Получить бесплатную пробную версию](https://releases.aspose.com/cells/java/).
+   - Да, начните с бесплатной пробной версии, доступной по адресу [Получите бесплатную пробную версию](https://releases.aspose.com/cells/java/).
 
 ## Ресурсы
 - Документация: [Документация Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - Скачать: [Загрузки Aspose](https://releases.aspose.com/cells/java/)
 - Покупка: [Купить продукцию Aspose](https://purchase.aspose.com/buy)
-- Бесплатная пробная версия: [Получить бесплатную пробную версию](https://releases.aspose.com/cells/java/)
+- Бесплатная пробная версия: [Получите бесплатную пробную версию](https://releases.aspose.com/cells/java/)
 - Временная лицензия: [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)
 - Поддерживать: [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Aquisição de Licença
 Antes de usar o Aspose.Cells, considere obter uma licença para acesso total sem limitações:
 - **Teste grátis**: Teste os recursos com uma avaliação gratuita em [Aspose](https://releases.aspose.com/cells/java/).
-- **Licença Temporária**Obtenha uma licença temporária através de [Página de compras da Aspose](https://purchase.aspose.com/temporary-license/).
+- **Licença Temporária**: Obtenha uma licença temporária através de [Página de compras da Aspose](https://purchase.aspose.com/temporary-license/).
 - **Comprar**:Para uso de longo prazo, considere adquirir uma licença completa através [Aspose](https://purchase.aspose.com/buy).
 
 ### Inicialização básica
@@ -148,7 +150,7 @@ workbook.save(outDir + "/CCPosition_out.xls");
 Integre o Aspose.Cells com outros aplicativos ou sistemas Java que exigem manipulações automatizadas de arquivos do Excel, como sistemas de CRM ou ferramentas de análise de dados.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Use métodos que economizem memória e descarte objetos não utilizados.
+- **Otimizar o uso da memória**: Use métodos que economizem memória e descarte objetos não utilizados.
 - **Processamento em lote**: Processe grandes conjuntos de dados em lotes para manter o desempenho.
 - **Gerenciamento de threads**: Utilize multithreading para processamento simultâneo quando aplicável.
 
@@ -174,6 +176,9 @@ Neste tutorial, mostramos como reposicionar gráficos em uma pasta de trabalho d
 - **Compra e teste gratuito**: Comece com um teste ou compre através de [Site da Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Klaar om het uit te proberen? Implementeer deze oplossing vandaag nog!
 Deze uitgebreide handleiding is bedoeld om u te helpen de functionaliteit voor het exporteren van opmerkingen effectief te implementeren. Zo zorgt u ervoor dat uw toepassingen een verbeterde gebruikerservaring bieden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

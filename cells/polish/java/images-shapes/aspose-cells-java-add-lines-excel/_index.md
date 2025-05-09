@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Etapy uzyskania licencji
-- **Bezpłatna wersja próbna:** Pobierz wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/java/).
+- **Bezpłatna wersja próbna:** Pobierz wersję próbną z [Strona internetowa Aspose](https://releases.aspose.com/cells/java/).
 - **Licencja tymczasowa:** Uzyskaj tymczasową licencję, aby móc korzystać ze wszystkich funkcji bez ograniczeń.
 - **Zakup:** Rozważ zakup z myślą o długoterminowym użytkowaniu.
 
@@ -187,9 +189,12 @@ Gotowy, aby wykorzystać tę wiedzę w praktyce? Zacznij od eksperymentowania z 
 - **Licencja tymczasowa:** [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
 - **Wsparcie:** [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9)
 
-Ten kompleksowy przewodnik ma na celu wyposażenie Cię w wiedzę i narzędzia niezbędne do efektywnego używania Aspose.Cells Java w celu ulepszenia dokumentów Excel. Zacznij wdrażać te techniki już dziś!
+Ten kompleksowy przewodnik ma na celu wyposażenie Cię w wiedzę i narzędzia niezbędne do efektywnego używania Aspose.Cells Java w celu ulepszenia Twoich dokumentów Excel. Zacznij wdrażać te techniki już dziś!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

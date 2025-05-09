@@ -8,7 +8,9 @@ url: /net/workbook-vba-project/find-if-vba-project-is-protected/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Find out if VBA Project is Protected using Aspose.Cells
@@ -83,6 +85,7 @@ You can reach out to the support community for Aspose.Cells [here](https://forum
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

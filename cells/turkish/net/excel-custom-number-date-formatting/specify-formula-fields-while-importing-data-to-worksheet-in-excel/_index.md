@@ -1,14 +1,16 @@
 ---
-title: Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
-linktitle: Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin.
-weight: 11
-url: /tr/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "Bu detaylı eğitimde, Aspose.Cells for .NET kullanarak belirtilen formül alanlarına sahip Excel sayfalarına veri aktarmayı öğrenin."
+"linktitle": "Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin"
+"url": "/tr/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Sayfasına Veri Aktarırken Formül Alanlarını Belirleyin
@@ -22,7 +24,7 @@ Excel dosyalarını programatik olarak işlemek söz konusu olduğunda, Aspose.C
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. 
 
 1. Visual Studio veya herhangi bir .NET entegre geliştirme ortamı (IDE): C# kodunuzu yazmak ve çalıştırmak için uygun bir IDE'niz olduğundan emin olun.
-2.  .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesini indirmeniz ve başvurmanız gerekecektir. Bunu şuradan indirebilirsiniz:[Aspose sürümleri](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Projenizde Aspose.Cells kütüphanesini indirmeniz ve başvurmanız gerekecektir. Bunu şuradan indirebilirsiniz: [Aspose sürümleri](https://releases.aspose.com/cells/net/).
 3. Temel C# bilgisi: C# ve nesne yönelimli programlama kavramlarına aşinalık, örnekleri daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework: Bu eğitimde .NET Framework 4.5 veya üzerini kullandığınız varsayılmaktadır.
 
@@ -50,7 +52,7 @@ Tüm süreci yönetilebilir adımlara bölelim:
 static string outputDir = "Your Document Directory"; // belge dizininizi burada belirtin
 ```
 
- Yer değiştirmek`"Your Document Directory"` gerçek dosya yolunuzla. Oluşturulan Excel dosyasının kaydedileceği yer burasıdır.
+Yer değiştirmek `"Your Document Directory"` gerçek dosya yolunuzla. Oluşturulan Excel dosyasının kaydedileceği yer burasıdır.
 
 ## Adım 2: Veri Öğeleri için Kullanıcı Tarafından Tanımlanan Bir Sınıf Oluşturun
 
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Bu`DataItems` Sınıf, Excel dosyasına yazacağımız ham tam sayıları ve formülleri tutacak. 
+Bu `DataItems` Sınıf, Excel dosyasına yazacağımız ham tam sayıları ve formülleri tutacak. 
 
 ## Adım 3: Veri Öğelerini Tutmak İçin Bir Liste Başlatın
 
- Birden fazla örneğini tutmak için bir liste kullanacağız`DataItems` sınıf.
+Birden fazla örneğini tutmak için bir liste kullanacağız `DataItems` sınıf.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -92,7 +94,7 @@ dis.Add(di);
 // Ek veri öğeleri için tekrarlayın
 ```
 
- Her birini özelleştirdiğinizden emin olun`DataItems` Benzersiz değerlere ve formüllere sahip örnek.
+Her birini özelleştirdiğinizden emin olun `DataItems` Benzersiz değerlere ve formüllere sahip örnek.
 
 ## Adım 5: Çalışma Kitabı Oluşturun ve Çalışma Sayfasına Erişin
 
@@ -112,7 +114,7 @@ ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- Bu örnekte, son iki alan formülleri içerir ve bu da şu şekilde gösterilir:`true` , ilk iki alan ise`false`.
+Bu örnekte, son iki alan formülleri içerir ve bu da şu şekilde gösterilir: `true`, ilk iki alan ise `false`.
 
 ## Adım 7: Özel Nesneleri İçe Aktar
 
@@ -174,20 +176,22 @@ Bu size kodun herhangi bir sorun olmadan çalıştığına dair anında geri bil
 Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenlemek ve dönüştürmek için tasarlanmış bir .NET kütüphanesidir.
 
 ### Aspose.Cells for .NET'i nasıl kurarım?
- Bunu şuradan indirebilirsiniz:[Aspose sürümleri](https://releases.aspose.com/cells/net/) ve projenizde buna referans verin.
+Bunu şuradan indirebilirsiniz: [Aspose sürümleri](https://releases.aspose.com/cells/net/) ve projenizde buna referans verin.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose şu adreste mevcut olan ücretsiz bir deneme sunuyor:[bu bağlantı](https://releases.aspose.com/).
+Evet, Aspose şu adreste mevcut olan ücretsiz bir deneme sunuyor: [bu bağlantı](https://releases.aspose.com/).
 
 ### Daha fazla örneği nerede bulabilirim?
- Ek örnekler ve belgeler şu adreste bulunabilir:[Aspose dokümantasyon sayfası](https://reference.aspose.com/cells/net/).
+Ek örnekler ve belgeler şu adreste bulunabilir: [Aspose dokümantasyon sayfası](https://reference.aspose.com/cells/net/).
 
 ### Aspose kullanırken sorunlarla karşılaşırsam ne olur?
- Aspose destek forumundan yardım alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose destek forumundan yardım alabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

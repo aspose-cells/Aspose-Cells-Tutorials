@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Aspose.Cells for Java kullanarak bir Excel hücresinin belirli bölümlerindeki 
    - Java JDK ve Maven veya Gradle projelerini destekleyen bir IDE çalıştıran bir makine.
 
 2. **Birden fazla yazı tipi ayarını aynı anda değiştirebilir miyim?**
-   - Evet, her şeyi yineleyebilirsiniz `FontSetting` değişiklikleri toplu olarak uygulamak için hücre içindeki nesneler.
+   - Evet, hepsini yineleyebilirsiniz `FontSetting` değişiklikleri toplu olarak uygulamak için hücre içindeki nesneler.
 
 3. **Aspose.Cells kullanılarak yapılan font değişikliklerini geri almak mümkün müdür?**
    - Elbette, değişiklik yapmadan önce ilk halinin kaydedilmesiyle orijinal yazı tiplerine geri dönebilirsiniz.
@@ -179,6 +181,9 @@ Aspose.Cells for Java kullanarak bir Excel hücresinin belirli bölümlerindeki 
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

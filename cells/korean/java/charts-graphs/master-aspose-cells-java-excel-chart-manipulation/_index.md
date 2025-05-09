@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Excel 자동화 기술을 한 단계 더 발전시킬 준비가 되셨나요? �
 이 튜토리얼을 따라하면 Aspose.Cells for Java를 능숙하게 다룰 수 있게 되어 프로젝트에서 Excel 차트를 손쉽게 조작할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

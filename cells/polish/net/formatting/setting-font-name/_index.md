@@ -1,54 +1,59 @@
 ---
-title: Ustawienie nazwy czcionki w Excel za pomocą Aspose.Cells dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak ustawić nazwę czcionki w pliku Excel za pomocą Aspose.Cells dla .NET. Stwórz podręcznik, dodaj kartę i bez wysiłku sformatuj tekst komórki.
-keywords: [Aspose.Cells for .NET, set font name in Excel, format Excel text, C# Excel font, change font in Excel, Excel cell formatting, .NET Excel library]
-url: /pl/net/formatting/setting-font-name/
+"description": "Dowiedz się, jak ustawić nazwę czcionki w pliku Excela za pomocą Aspose.Cells dla .NET. Utwórz skoroszyt, dodaj arkusz i sformatuj tekst komórki bez wysiłku."
+"title": "Ustawianie nazwy czcionki w programie Excel przy użyciu Aspose.Cells dla .NET"
+"url": "/pl/net/formatting/setting-font-name/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustawienie nazwy czcionki w Excel za pomocą Aspose.Cells
+# Ustawianie nazwy czcionki w programie Excel za pomocą Aspose.Cells
 
-Ustawienie nazwy czcionki w pliku Excel jest niezbędne do utrzymania profesjonalnego i spójnego formatu dokumentu. Dzięki Aspose.Cells dla .NET można łatwo utworzyć podręcznik Excel, dodać arkusz i modyfikować styl komórek.  
+Ustawienie nazwy czcionki w pliku Excel jest niezbędne do zachowania profesjonalnego i spójnego formatu dokumentu. Dzięki Aspose.Cells dla .NET możesz łatwo utworzyć skoroszyt Excela, dodać arkusz kalkulacyjny i zmodyfikować style komórek. Ten samouczek przeprowadzi Cię przez proces ustawiania niestandardowej nazwy czcionki dla określonej komórki w C#. Postępuj zgodnie z przewodnikiem krok po kroku i z łatwością ulepsz formatowanie dokumentu Excela.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
 
 Aby użyć Aspose.Cells dla .NET, wykonaj następujące kroki:  
 
-1. Instalacja za pośrednictwem NuGet:  
-   Otwórz zarządcę pakietów NuGet w Visual Studio i uruchomi:  
+1. Instalacja za pomocą NuGet:  
+   Otwórz Menedżera pakietów NuGet w programie Visual Studio i uruchom:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Zabierz z strony internetowej Aspose:  
-   * / Zbierz najnowszą wersję z [Aspose.Cells - pobierany w stronę](https://releases.aspose.com/cells/net/)\- Nie .  
+2. Pobierz ze strony internetowej Aspose:  
+   - Pobierz najnowszą wersję z [Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/).  
 
-3. Dodaj odniesienie do Aspose.Cells:  
-   * W projekcie .NET dodać odniesienie do `Aspose.Cells.`\- Nie .  
+3. Dodaj odwołanie do Aspose.Cells:  
+   - W projekcie .NET dodaj odwołanie do `Aspose.Cells.dll`.  
 
-4. Licencja na wniosek (opcjonalna):  
-   * Jeśli używasz licencjonowanej wersji, ustaw plik licencji w następujący sposób:  
+4. Zastosuj licencję (opcjonalnie):  
+   - W przypadku korzystania z wersji licencjonowanej należy skonfigurować plik licencji w następujący sposób:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Cells.lic");
    ```  
 
-## Zobacz również  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie . 
+## Zobacz także  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

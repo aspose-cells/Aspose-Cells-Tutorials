@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Aspose.Cells Java offre versatilità in diversi ambiti. Ecco alcuni casi d'uso r
 5. **Gestione dell'inventario**: Utilizzare le cartelle di lavoro per gestire e aggiornare dinamicamente i registri di inventario, integrandoli con i database esistenti.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

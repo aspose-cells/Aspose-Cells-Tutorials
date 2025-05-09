@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ workbook.save(dataDir + "PageBreakPreview_out.xls");
 - **ファイルパスの問題:** 提供されたパスが正しく、アクセス可能であることを確認します。
 - **依存関係が解決されない:** Maven または Gradle ファイルのバージョン互換性を再確認してください。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 改ページプレビューを有効にする実際のアプリケーションをいくつか示します。
 
@@ -192,6 +194,9 @@ Aspose.Cells for Java の使用中にパフォーマンスを最適化するに�
 この包括的なガイドを読めば、Aspose.Cells for Java を活用してページ区切りのプレビューを効果的に実現できるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

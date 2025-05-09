@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ Java için Aspose.Cells ile çalışma kitabı düzenleme ve sayfalar arası şe
 Aspose.Cells for Java kullanarak Excel'de SmartArt grafiklerini otomatik olarak güncellemeyi öğrenin. Bu adım adım eğitimle iş akışınızı kolaylaştırın ve üretkenliğinizi artırın.
 
 ### [Java'da Aspose.Cells kullanarak SmartArt'ı Grup Şekillerine Dönüştürme: Kapsamlı Bir Kılavuz](./convert-smartart-group-shapes-java/)
-Aspose.Cells for Java kullanarak SmartArt grafiklerini Excel dosyalarında grup şekillerine nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulumu, kod örneklerini ve pratik uygulamaları kapsar.
+Aspose.Cells for Java kullanarak Excel dosyalarında SmartArt grafiklerini grup şekillerine nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulumu, kod örneklerini ve pratik uygulamaları kapsar.
 
 ### [Aspose.Cells for Java Kullanarak Excel'de Sayfalar Arası Görüntü Kopyalama: Kapsamlı Bir Kılavuz](./copy-images-between-sheets-excel-aspose-cells-java/)
 Bu detaylı Java kılavuzuyla Aspose.Cells kütüphanesini kullanarak Excel'de sayfalar arasında resimleri zahmetsizce nasıl kopyalayacağınızı öğrenin.
@@ -141,6 +143,9 @@ Aspose.Cells Java ile arka plan görüntüleri ekleyerek Excel raporlarınızı 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

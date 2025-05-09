@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ A5: Tak, przejrzyj katalog plików Excela i zastosuj logikę konwersji iteracyjn
 Zrób kolejny krok w opanowaniu narzędzia Aspose.Cells for Java i wykorzystaj jego pełny potencjał, aby udoskonalić swoje projekty prezentacji danych!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

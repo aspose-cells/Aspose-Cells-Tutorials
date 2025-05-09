@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ import com.aspose.cells.Workbook;
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "TestBook.xlsx");
 ```
-- **วัตถุประสงค์**: เริ่มต้นการ `Workbook` วัตถุที่มีเส้นทางไฟล์ที่คุณระบุ
+- **วัตถุประสงค์**: เริ่มต้น a `Workbook` วัตถุที่มีเส้นทางไฟล์ที่คุณระบุ
 - **พารามิเตอร์**:เส้นทางไฟล์ไปยังเอกสาร Excel ของคุณ
 
 #### ขั้นตอนที่ 2: แยกธีม
@@ -200,6 +202,9 @@ Aspose.Cells สำหรับ Java เป็นไลบรารีอัน�
 - **สนับสนุน**- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

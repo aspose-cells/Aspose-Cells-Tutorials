@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ import com.aspose.cells.Workbook;
 
 **Descripción general:** Recupere una hoja de trabajo específica de su libro de trabajo cargado.
 
-1. **Acceda a la primera hoja de trabajo:**
+1. **Accede a la primera hoja de trabajo:**
    Utilice el `getWorksheets()` método e índice en él:
    ```java
    import com.aspose.cells.Worksheet;
@@ -192,6 +194,9 @@ Para obtener más recursos, puede visitar [Documentación oficial de Aspose](htt
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

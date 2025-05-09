@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -266,6 +268,9 @@ workbook.save(outDir + "CreateChart_out.xls");
 Ξεκινήστε το ταξίδι σας με το Aspose.Cells σήμερα και φέρτε επανάσταση στον τρόπο που εργάζεστε με το Excel σε Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

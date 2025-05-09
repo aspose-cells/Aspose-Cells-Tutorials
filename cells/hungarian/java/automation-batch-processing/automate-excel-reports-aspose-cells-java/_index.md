@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,8 +144,8 @@ workbook.save(outDir + "/ACIconsSet_out.xlsx");
 
 ## Gyakorlati alkalmazások
 1. **Pénzügyi jelentéstétel**Automatikusan generáljon negyedéves pénzügyi jelentéseket dinamikus adatokkal és vizuálisan vonzó ikonokkal.
-2. **Teljesítmény-műszerfalak**: Hozzon létre műszerfalakat az értékesítési csapatok számára a kulcsfontosságú mutatók feltételes formázás használatával történő megjelenítéséhez.
-3. **Készletgazdálkodás**Készletjelentések készítése, amelyeken zászló ikonok segítségével kiemelhetők a kevés készleten lévő tételek.
+2. **Teljesítmény-műszerfalak**: Hozzon létre műszerfalakat az értékesítési csapatok számára a kulcsfontosságú mutatók feltételes formázás használatával történő vizualizálásához.
+3. **Készletgazdálkodás**Készletjelentések készítése, amelyeken zászló ikonok segítségével kiemelhetők az alacsony készletű tételek.
 4. **Projektkövetés**: Kövesse nyomon a projekt mérföldköveit és állapotát közlekedési lámpák ikonjaival.
 5. **Ügyfélszegmentáció**Ügyfélszegmentációs jelentések generálása különböző ikonkészletekkel kiemelt csoportosításokkal.
 
@@ -172,7 +174,7 @@ A3: Kötegelt feldolgozási technikák használata, a memória bölcs kezelése 
 A5: Haladjon végig egy oszlop celláin, határozza meg a tartalmuk által megkövetelt maximális szélességet, és állítsa be a következővel: `setColumnWidth`.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
@@ -182,6 +184,9 @@ A5: Haladjon végig egy oszlop celláin, határozza meg a tartalmuk által megk�
 Ezen erőforrások kihasználásával felkészült leszel arra, hogy tovább fejleszd készségeidet és összetettebb Excel automatizálási feladatokat valósíts meg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

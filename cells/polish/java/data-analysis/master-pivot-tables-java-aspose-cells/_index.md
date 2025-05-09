@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Opanowałeś już podstawy konfigurowania i manipulowania tabelami przestawnymi 
 Postępując zgodnie z tym kompleksowym przewodnikiem, powinieneś być na dobrej drodze do wykorzystania potężnych funkcji Aspose.Cells dla Java w swoich projektach opartych na danych. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

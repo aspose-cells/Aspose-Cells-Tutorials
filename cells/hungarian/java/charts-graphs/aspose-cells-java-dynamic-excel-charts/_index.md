@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ A felhasználói beállítások alapján alkalmazkodó képletek mélyebb beteki
 
 5. **FKERES képletek alkalmazása**
 
-   Dinamikus képletek használata a változásokra való reagáláshoz:
+   Használjon dinamikus képleteket a változásokra való reagáláshoz:
 ```java
 import com.aspose.cells.Cell;
 
@@ -228,6 +230,9 @@ Ez az útmutató részletesen bemutatja a dinamikus Excel-diagramok létrehozás
 - Oszd meg a tapasztalataidat vagy kérdéseidet a fejlesztői fórumokon, hogy kapcsolatba léphess a közösséggel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

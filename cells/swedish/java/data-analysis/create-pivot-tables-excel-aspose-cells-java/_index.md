@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Innan vi börjar, se till att du har följande:
 - En kompatibel IDE som IntelliJ IDEA eller Eclipse.
 - JDK (Java Development Kit) installerat på ditt system.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Bekantskap med Excel och pivottabeller.
 
@@ -211,6 +213,9 @@ Nästa steg inkluderar att experimentera med olika datamängder och utforska and
 - [Aspose köpsida](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

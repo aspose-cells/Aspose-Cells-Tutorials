@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Az Aspose különféle licencelési lehetőségeket kínál:
 Miután beépítetted az Aspose.Cells-t a projektedbe, inicializáld a LoadOptions beállításával a TSV fájlok kezelésére:
 
 ```java
-// LoadFormat által megadott LoadOptions példányosítása.
+// A LoadFormat által megadott LoadOptions példányosítása.
 LoadOptions loadOptions = new LoadOptions(LoadFormat.TSV);
 ```
 
@@ -85,7 +87,7 @@ Ismerje meg, hogyan olvashat be egy TSV-fájlt egy Workbook objektumba adott bet
 #### 1. lépés: A LoadOptions beállítása
 
 ```java
-// LoadFormat által megadott LoadOptions példányosítása.
+// A LoadFormat által megadott LoadOptions példányosítása.
 LoadOptions loadOptions = new LoadOptions(LoadFormat.TSV);
 ```
 **Magyarázat:** `LoadOptions` TSV formátumra van konfigurálva, így a könyvtár helyesen értelmezi a fájlt.
@@ -158,6 +160,9 @@ Fedezze fel az Aspose.Cells további funkcióit projektjei további fejlesztés�
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

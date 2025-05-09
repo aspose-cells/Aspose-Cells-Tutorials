@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -236,11 +238,14 @@ A5: Verificare la presenza di problemi comuni quali errori nel percorso dei file
 - **Scaricamento**: [Rilasci di cellule Aspose](https://releases.aspose.com/cells/java/)
 - **Acquistare**: [Acquista la licenza Aspose](https://purchase.aspose.com/buy)
 - **Prova gratuita**: [Valuta le caratteristiche](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Forum di supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

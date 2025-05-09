@@ -1,29 +1,31 @@
 ---
-title: Beágyazott vagy gyermek kimutatástáblák keresése és frissítése a .NET-ben
-linktitle: Beágyazott vagy gyermek kimutatástáblák keresése és frissítése a .NET-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan kereshet és frissíthet beágyazott kimutatástáblázatokat az Excel-fájlokban az Aspose.Cells for .NET segítségével. Világos lépéseket és hasznos tippeket tartalmaz.
-weight: 27
-url: /hu/net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested-or-children-pivot-tables/
+"description": "Ismerje meg, hogyan kereshet meg és frissíthet beágyazott kimutatástáblákat Excel-fájljaiban az Aspose.Cells for .NET segítségével. Világos lépések és hasznos tippek is találhatók."
+"linktitle": "Beágyazott vagy gyermek pivottáblák keresése és frissítése .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Beágyazott vagy gyermek pivottáblák keresése és frissítése .NET-ben"
+"url": "/hu/net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested-or-children-pivot-tables/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Beágyazott vagy gyermek kimutatástáblák keresése és frissítése a .NET-ben
+# Beágyazott vagy gyermek pivottáblák keresése és frissítése .NET-ben
 
 ## Bevezetés
-Az adatelemzés és jelentéskészítés világában a pivot táblák egyszerűen játékot váltanak. Lehetővé teszik számunkra, hogy nyers adatainkat gyönyörű, érthető betekintésekké alakítsuk át. De mi történik, ha az Excel-munkafüzet beágyazott vagy gyermek kimutatástáblákat tartalmaz? Ebben a cikkben bemutatjuk, hogyan keresheti meg és frissítheti ezeket a beágyazott pivot táblákat az Aspose.Cells for .NET segítségével. Képzelje el, hogy egy labirintusban próbál meg elrejtett kincset megtalálni. Minden beágyazott pivot tábla olyan, mint egy rejtett kincsesláda, amelyet fel kell tárnia. Az általunk elvégzett lépések végigvezetik Önt az Excel-lapok útvesztőjén, biztosítva, hogy ne csak megtalálja a beágyazott kimutatástáblázatokat, hanem naprakészen is tartsa azokat.
+Az adatelemzés és -jelentéskészítés világában a pivot táblák egyszerűen megváltoztatják a játékszabályokat. Lehetővé teszik számunkra, hogy nyers adatainkat gyönyörű, érthető információkká alakítsuk. De mi történik, ha az Excel-munkafüzet beágyazott vagy gyermek pivot táblákat tartalmaz? Ebben a cikkben bemutatjuk, hogyan találhatja meg és frissítheti ezeket a beágyazott pivot táblákat az Aspose.Cells for .NET segítségével. Képzelje el, hogy rejtett kincset próbál megtalálni egy labirintusban. Minden beágyazott pivot tábla olyan, mint egy rejtett kincsesláda, amelyet fel kell tárnia. A lépések, amelyeket megteszünk, végigvezetik Önt az Excel-táblázatok labirintusán, biztosítva, hogy ne csak megtalálja a beágyazott pivot táblákat, hanem naprakészen is tartsa azokat.
 ## Előfeltételek
-Mielőtt belevágnánk a kódolási mókába, meg kell felelnie néhány előfeltételnek:
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a számítógépére. Itt kell írni és végrehajtani a C# kódot.
-2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET-nek telepítve kell lennie. A legújabb verziót letöltheti a[Az Aspose kiadási oldala](https://releases.aspose.com/cells/net/) . Ha még nem áll készen a vásárlásra, kezdheti a[ingyenes próbaverzió](https://releases.aspose.com/).
-3. Alapvető C# ismerete: Ha egy kicsit ismeri a C# programozást, akkor ez a folyamat gördülékenyebbé válik.
-4. Excel-munkafüzet kimutatástáblákkal: Szüksége lesz egy minta Excel-fájlra, amely kimutatástáblázatokat tartalmaz. Nyugodtan használja a megadott példát, vagy készítsen saját példát.
-Miután kijelölte ezeket a listáról, minden készen áll! Most feltűrjük az ingujjunkat, és belevágunk a kódba.
+Mielőtt belevágnánk a kódolás mókájába, van néhány előfeltétel, amire szükséged lesz:
+1. Visual Studio: Győződj meg róla, hogy a Visual Studio telepítve van a számítógépeden. Itt fogod írni és végrehajtani a C# kódodat.
+2. Aspose.Cells for .NET: Telepítenie kell az Aspose.Cells for .NET programot. A legújabb verziót letöltheti innen: [Aspose kiadások oldala](https://releases.aspose.com/cells/net/)Ha még nem állsz készen a vásárlásra, elkezdheted egy [ingyenes próba](https://releases.aspose.com/).
+3. C# alapismeretek: A C# programozásban való jártasság megkönnyíti ezt a folyamatot.
+4. Excel-munkafüzet kimutatástáblázatokkal: Szükséged lesz egy minta Excel-fájlra, amely kimutatástáblázatokat tartalmaz. Nyugodtan használhatod a megadott példát, vagy létrehozhatsz sajátot.
+Miután ezeket kipipáltad a listádról, minden készen is vagy! Most pedig hajtsuk fel az ingujjunkat, és lássuk a kódot.
 ## Csomagok importálása
-A kódolás megkezdése előtt importálni kell a szükséges csomagokat. A .NET keretrendszerben ezt úgy tehetjük meg, hogy a C# fájl tetejére adjuk a use direktívákat. A fő csomag, amelyet használni fog, az Aspose.Cells. A következőképpen importálhatja:
+Mielőtt elkezdenénk a kódolást, importálnunk kell a szükséges csomagokat. A .NET keretrendszerben ezt úgy tesszük, hogy a C# fájlunk elejére hozzáadjuk a using direktívákat. A fő csomag, amit használni fogsz, az Aspose.Cells. Így importálhatod:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -32,69 +34,71 @@ using System.Text;
 using Aspose.Cells;
 using Aspose.Cells.Pivot;
 ```
-Ennek a sornak a hozzáadásával azt mondja a C#-nak, hogy tartalmazza az Aspose.Cells által biztosított összes funkciót, ami megkönnyíti az Excel-fájlok létrehozását és kezelését.
-## 1. lépés: Határozza meg a forráskönyvtárat
-Az első lépés az Excel fájl tárolási könyvtárának megadása. A következőképpen teheti meg:
+sor hozzáadásával azt utasítod a C#-nak, hogy az Aspose.Cells által biztosított összes funkciót foglalja magában, megkönnyítve az Excel-fájlok létrehozását és kezelését.
+## 1. lépés: A forráskönyvtár meghatározása
+Az első lépés annak a könyvtárnak a megadása, ahová az Excel-fájlt tárolja. Így teheti meg:
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával. Itt a kód megkeresi a szükséges munkafüzetet. Gondolj erre úgy, mintha elmesélnéd egy barátodnak, hol rejtetted el a kincset!
+Csere `"Your Document Directory"` az Excel-fájl tényleges elérési útjával. Itt fogja a kód a kívánt munkafüzetet keresni. Képzeld el úgy, mintha elmondanád egy barátodnak, hová rejtetted a kincset!
 ## 2. lépés: Töltse be az Excel-munkafüzetet
- Ezután be kell töltenie az Excel fájlt a`Workbook` objektum, amely lehetővé teszi annak programozott kezelését. Ezt a következőképpen érheti el:
+Ezután be kell töltened az Excel fájlodat egy `Workbook` objektum, amely lehetővé teszi annak programozott kezelését. Ezt így teheti meg:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindAndRefreshNestedOrChildrenPivotTables.xlsx");
 ```
- Ebben a sorban egy új példányt hoz létre a`Workbook` osztályt, és betölti a fájlt abba. A fájlnév hozzáfűzésével a`sourceDir`, egyenesen a kincsesládához vezeted a munkafüzetet.
-## 3. lépés: Nyissa meg a munkalapot
-A munkafüzet betöltése után el kell érnie a kimutatástáblákat tartalmazó konkrét munkalapot. Lépjünk az első munkalaphoz:
+Ebben a sorban a(z) egy új példányát hozod létre. `Workbook` osztályt, és betölti bele a fájlt. A fájlnév hozzáfűzésével a `sourceDir`, a munkafüzetet egyenesen a kincsesládához vezeted.
+## 3. lépés: A munkalap elérése
+Miután betöltődött a munkafüzet, hozzá kell férnie ahhoz a munkalaphoz, amely a kimutatástáblákat tartalmazza. Lássuk az első munkalapot:
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
-Ez a sor a munkafüzet első munkalapját fogja meg. Ha a kimutatástáblázatok el vannak rejtve más munkalapokon, akkor csak módosítani kell az indexet (ne feledje, hogy nulla alapú!).
+Ez a sor a munkafüzet első munkalapját jelöli. Ha a kimutatástáblák más munkalapokon vannak elrejtve, akkor csak az indexet kell módosítani (ne feledje, hogy az nulla alapú!).
 
-## 4. lépés: Nyissa meg a kívánt kimutatási táblázatot
-Ezután elérjük az adott szülő pivot táblát, amely a gyermekeket tartalmazza. Ebben a példában fogjuk meg a harmadik pivot táblát:
+## 4. lépés: Nyissa meg a kívánt pivottáblát
+Ezután hozzáférünk ahhoz a szülő pivot táblához, amely a gyerekeket tartalmazza. Ebben a példában vegyük a harmadik pivot táblát:
 ```csharp
 PivotTable ptParent = ws.PivotTables[2];
 ```
-Itt a pivot table tömb harmadik pozícióját nézi. Csakúgy, mint a felső polcon lévő cukorkára nyúlni, a megfelelő asztalhoz nyúlunk.
-## 5. lépés: Szerezze be a szülői kimutatás gyermekeit
-Most, hogy megtaláltuk szülői pivot táblázatunkat, ideje mélyebbre ásni, és megtalálni a gyermekeit:
+Itt a pivot tábla tömbjének harmadik pozícióját vizsgáljuk. Ahogy a felső polcon lévő csokoládéért nyúlunk, úgy nyúlunk a megfelelő asztalért is.
+## 5. lépés: A szülő pivottábla gyermekeinek lekérése
+Most, hogy megtaláltuk a szülő pivot táblánkat, itt az ideje, hogy mélyebbre ássunk és megtaláljuk a gyermekeit:
 ```csharp
 PivotTable[] ptChildren = ptParent.GetChildren();
 ```
- Ebben a lépésben a`GetChildren()` metódus gyermek kimutatástáblák tömbjének lekéréséhez. Olyanok ezek, mint a kis kincsek, amelyek a nagy kincsesláda alatt rejtőznek!
-## 6. lépés: Frissítsen minden gyermek kimutatási táblázatot
-Itt az ideje, hogy ezeket a kincseket ragyogóan és naprakészen tartsuk! Végig kell lépnünk minden gyermek kimutatástáblán, és frissítenünk kell az adataikat. Tegyük ezt egy egyszerű for ciklus segítségével:
+Ebben a lépésben a `GetChildren()` metódus egy gyermek pivot táblák tömbjének lekéréséhez. Ezek olyanok, mint a nagy kincsesláda alatt rejtőző kis kincsek!
+## 6. lépés: Frissítse az egyes gyermek pivottáblákat
+Ideje ezeket a kincseket csillogóan és naprakészen tartani! Végig kell mennünk minden egyes gyermek pivot táblázaton, és frissítenünk kell az adataikat. Tegyük ezt meg egy egyszerű for ciklussal:
 ```csharp
 int count = ptChildren.Length;
 for (int idx =0; idx < count; idx++)
 {
- // Hozzáférés a gyermek kimutatástáblához
+ // Hozzáférés a gyermek pivottáblához 
  PivotTable ptChild = ptChildren[idx];
- // Frissítse a gyermek kimutatási táblázatot
+ // Frissítse a gyermek pivot táblát 
  ptChild.RefreshData();
  ptChild.CalculateData();
 }
 ```
--  Meghatározzuk, hogy hány gyermek kimutatástáblát használunk`ptChildren.Length`.
-- Ezután minden gyermek kimutatástáblához frissítjük az adatait`RefreshData()` követi`CalculateData()`. Gondoljon erre úgy, hogy minden gyermeknek egy gyors fényezést ad, hogy csillogjon!
+- A gyermek pivot táblák számát a következő segítségével határozzuk meg: `ptChildren.Length`.
+- Ezután minden gyermek pivot tábla adatait frissítjük a következővel: `RefreshData()` majd `CalculateData()`Gondolj erre úgy, mintha minden gyereknek adnál egy gyors polírozást, hogy csillogóan csillogjanak!
 ## Következtetés
-És megvan! Néhány egyszerű lépésben megtanulta, hogyan keresheti meg és frissítheti a beágyazott pivot táblákat egy Excel-fájlban az Aspose.Cells for .NET segítségével. Akár jelentéseket készít, akár adatokat elemez, a kimutatástáblázatok naprakészen tartása biztosítja, hogy a pontos adatok kéznél legyenek.
+És íme! Néhány egyszerű lépésben megtanultad, hogyan keresd meg és frissítsd a beágyazott kimutatástáblákat egy Excel-fájlban az Aspose.Cells for .NET segítségével. Akár jelentéseket készítesz, akár adatokat elemzel, a kimutatástáblák naprakészen tartása biztosítja, hogy pontos információk álljanak rendelkezésedre.
 ## GYIK
-### Mi az Aspose.Cells a .NET számára?
-Az Aspose.Cells for .NET egy hatékony könyvtár az Excel-fájlok kezelésére, lehetővé téve a táblázatok könnyű olvasását, írását és kezelését.
-### Meg kell vásárolnom előre az Aspose.Cells-t?
-Mielőtt a vásárlás mellett döntene, ingyenes próbaverziót indíthat a webhelyükön.
-### Működhetek más Excel-szolgáltatásokkal a könyvtár használatával?
-Teljesen! A pivot táblákon túl többek között a diagramokat, képleteket és formázást is kezelheti.
-### Szükséges-e kódolási tudás az Aspose.Cells használatához?
-C# vagy .NET alapszintű ismerete előnyös az Aspose.Cells hatékony használatához.
+### Mi az Aspose.Cells .NET-hez?
+Az Aspose.Cells for .NET egy hatékony függvénykönyvtár Excel-fájlok kezeléséhez, amely lehetővé teszi a táblázatok egyszerű olvasását, írását és kezelését.
+### Előre meg kell vásárolnom az Aspose.Cells-t?
+Ingyenes próbaverzióval kezdheted a weboldalukon, mielőtt vásárlás mellett döntesz.
+### Dolgozhatok más Excel-funkciókkal ezzel a könyvtárral?
+Abszolút! A pivot táblázatokon túl diagramokat, képleteket és formázást is kezelhetsz, többek között.
+### Szükséges kódolási tudás az Aspose.Cells használatához?
+A C# vagy a .NET alapismeretei előnyösek az Aspose.Cells hatékony használatához.
 ### Hogyan kaphatok segítséget, ha problémákba ütközöm?
- Ellenőrizheti a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9) a közösség segítségéért vagy támogatásáért.
+Ellenőrizheti a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) közösség segítségéért vagy támogatásáért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

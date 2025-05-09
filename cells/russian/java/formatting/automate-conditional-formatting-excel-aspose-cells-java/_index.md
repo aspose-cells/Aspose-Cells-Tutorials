@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ Aspose.Cells для Java можно использовать в различны
    Оптимизируйте работу, ограничивая количество применяемых условий и эффективно управляя использованием памяти.
 4. **Есть ли плата за использование Aspose.Cells для Java?**
    Хотя предлагается бесплатная пробная версия, для долгосрочного использования требуется приобретение лицензии.
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    Посетите [официальная документация](https://reference.aspose.com/cells/java/) и форум поддержки.
 
 ## Ресурсы
@@ -182,6 +184,9 @@ Aspose.Cells для Java можно использовать в различны
 - Поддерживать: [Форум Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

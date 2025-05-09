@@ -7,35 +7,37 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Membuat Bagan Gelembung di Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Sempurnakan laporan Excel Anda dengan bagan gelembung dinamis menggunakan Aspose.Cells untuk Java. Tutorial komprehensif ini akan memandu Anda melalui proses pembuatan, penyesuaian, dan penyimpanan bagan gelembung di buku kerja Excel, sehingga presentasi data menjadi lebih mendalam.
 
-**Apa yang Akan Anda Pelajari:**
-- Inisialisasi baru `Workbook` obyek
+**Amit tanulni fogsz:**
+- Inisialisasi baru `Workbook` objektum
 - Mengakses dan memanipulasi sel lembar kerja
 - Membuat dan mengonfigurasi diagram gelembung dengan kumpulan data khusus
 - Menyimpan buku kerja Anda secara efisien
 
 Mari kita bahas bagaimana Aspose.Cells untuk Java dapat menyederhanakan proses visualisasi data Anda. Pastikan Anda telah menyiapkan semuanya sebelum kita mulai.
 
-## Prasyarat
+## Előfeltételek
 Untuk membuat diagram gelembung menggunakan Aspose.Cells untuk Java, pastikan Anda memenuhi prasyarat berikut:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java**: Instal versi terbaru (misalnya, 25.3).
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) yang kompatibel terpasang.
 - Konfigurasikan proyek Anda untuk menggunakan Maven atau Gradle.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan mengenali struktur file Excel dan jenis bagan.
 
@@ -58,29 +60,29 @@ Bagi mereka yang menggunakan Gradle, tambahkan ini ke `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells menawarkan uji coba gratis dengan fungsionalitas terbatas. Untuk kapabilitas lengkap:
-- **Pembelian**:Kunjungi [halaman pembelian](https://purchase.aspose.com/buy) untuk pilihan lisensi.
-- **Lisensi Sementara**: Dapatkan lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji sepenuhnya.
+- **Vásárlás**Látogassa meg a [vásárlási oldal](https://purchase.aspose.com/buy) untuk pilihan lisensi.
+- **Ideiglenes engedély**: Dapatkan lisensi sementara dari [itt](https://purchase.aspose.com/temporary-license/) untuk menguji sepenuhnya.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Sebelum menggunakan Aspose.Cells, inisialisasikan dalam proyek Java Anda:
 ```java
 import com.aspose.cells.Workbook;
 
-// Inisialisasi objek Buku Kerja baru
+// Új munkafüzet-objektum inicializálása
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita uraikan proses pembuatan dan konfigurasi diagram gelembung dengan Aspose.Cells.
 
 ### Menginisialisasi Objek Buku Kerja
-A `Workbook` mewakili keseluruhan berkas Excel, yang memungkinkan Anda memanipulasi lembar, sel, dan lain-lain. Inisialisasi berkas sebagai berikut:
+Egy `Workbook` mewakili keseluruhan berkas Excel, yang memungkinkan Anda memanipulasi lembar, sel, dan lain-lain. Inisialisasi berkas sebagai berikut:
 ```java
 import com.aspose.cells.Workbook;
 
-// Buat contoh Buku Kerja baru
+// Új munkafüzet-példány létrehozása
 Workbook workbook = new Workbook();
 ```
 
@@ -134,7 +136,7 @@ chart.getNSeries().get(0).setXValues("B3:D3");
 chart.getNSeries().get(0).setValues("B1:D1");
 ```
 
-### Menyimpan Buku Kerja
+### A munkafüzet mentése
 Simpan buku kerja Anda untuk mempertahankan semua perubahan:
 ```java
 import com.aspose.cells.SaveFormat;
@@ -144,22 +146,22 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 
-## Aplikasi Praktis
-- **Pelaporan Keuangan**: Visualisasikan metrik keuangan dengan diagram gelembung.
+## Gyakorlati alkalmazások
+- **Pénzügyi jelentéstétel**: Visualisasikan metrik keuangan dengan diagram gelembung.
 - **Analisis Data Penjualan**: Menyorot tren penjualan di seluruh wilayah menggunakan berbagai ukuran gelembung.
 - **Riset ilmiah**Menampilkan hasil eksperimen di mana ukuran gelembung menandakan signifikansi data.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - Minimalkan penggunaan memori buku kerja dengan segera membuang objek yang tidak digunakan.
 - Optimalkan sumber data bagan untuk mengurangi waktu pemrosesan selama rendering.
 - Gunakan praktik manajemen memori Java yang efisien saat menangani kumpulan data besar dengan Aspose.Cells.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah mempelajari cara membuat dan mengonfigurasi bagan gelembung menggunakan Aspose.Cells untuk Java. Alat canggih ini dapat meningkatkan kemampuan pelaporan Excel Anda secara signifikan. Pertimbangkan untuk menjelajahi jenis bagan lain atau mengintegrasikan solusi ini ke dalam alur pemrosesan data yang lebih besar.
 
-**Ajakan Bertindak**:Coba terapkan panduan ini dalam proyek Anda hari ini!
+**Cselekvésre ösztönzés**:Coba terapkan panduan ini dalam proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Berapa versi minimum Aspose.Cells yang diperlukan?**
    - Versi 25.3 direkomendasikan untuk tutorial ini untuk memastikan kompatibilitas dengan semua fitur yang didemonstrasikan.
 2. **Bagaimana cara menyesuaikan warna bagan gelembung?**
@@ -168,17 +170,20 @@ Anda kini telah mempelajari cara membuat dan mengonfigurasi bagan gelembung meng
    - Ya, Aspose.Cells sepenuhnya kompatibel lintas-platform dengan aplikasi Java.
 4. **Apa saja masalah umum saat menetapkan ukuran gelembung?**
    - Pastikan rentang data untuk ukuran gelembung sesuai dengan ukuran kumpulan data untuk mencegah kesalahan.
-5. **Bagaimana cara memperoleh lisensi sementara untuk Aspose.Cells?**
-   - Mengunjungi [Halaman lisensi sementara Aspose](https://purchase.aspose.com/temporary-license/) untuk menerapkan dan menguji semua fitur sepenuhnya.
+5. **Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?**
+   - Látogatás [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/) untuk menerapkan dan menguji semua fitur sepenuhnya.
 
-## Sumber daya
-- **Dokumentasi**:Untuk rincian lebih lanjut, lihat [dokumentasi resmi](https://reference.aspose.com/cells/java/).
-- **Unduh**:Dapatkan versi terbaru dari [halaman rilis](https://releases.aspose.com/cells/java/).
-- **Pembelian**: Jelajahi opsi lisensi di [halaman ini](https://purchase.aspose.com/buy).
-- **Uji Coba Gratis**: Mulailah dengan uji coba gratis untuk menguji kemampuan di [Bagian rilis Aspose](https://releases.aspose.com/cells/java/).
-- **Forum Dukungan**:Untuk pertanyaan apa pun, [forum dukungan](https://forum.aspose.com/c/cells/9) tersedia.
+## Erőforrás
+- **Dokumentáció**:Untuk rincian lebih lanjut, lihat [hivatalos dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés**: Szerezd meg a legújabb verziót innen: [halaman rilis](https://releases.aspose.com/cells/java/).
+- **Vásárlás**: Jelajahi opsi lisensi di [ez az oldal](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**: Mulailah dengan uji coba gratis untuk menguji kemampuan di [Bagian rilis Aspose](https://releases.aspose.com/cells/java/).
+- **Támogatási fórum**:Untuk pertanyaan apa pun, [támogató fórum](https://forum.aspose.com/c/cells/9) tersedia.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

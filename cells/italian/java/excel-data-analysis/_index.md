@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Analisi dei dati Excel
@@ -32,7 +34,7 @@ Sfrutta la potenza dell'analisi dei dati in Excel con Aspose.Cells per Java. Imp
 ### [Analisi dati avanzata Excel](./advanced-data-analysis-excel/)
 Padroneggia l'analisi dati avanzata in Excel con Aspose.Cells per Java. Impara passo dopo passo, con esempi di codice sorgente.
 ### [Analisi dei dati Excel Pivot](./data-analysis-excel-pivot/)
-Impara l'analisi dei dati in Excel con Aspose.Cells per Java: guida passo passo per un utilizzo efficace delle tabelle pivot.
+Impara l'analisi dei dati in Excel con Aspose.Cells per Java: guida dettagliata per un utilizzo efficace delle tabelle pivot.
 ### [Grafici Excel per l'analisi dei dati](./data-analysis-excel-charts/)
 Ottieni l'eccellenza nell'analisi dei dati con Aspose.Cells per Java. Crea grafici e report Excel straordinari.
 ### [Formule di Excel per l'analisi dei dati](./data-analysis-excel-formulas/)
@@ -41,6 +43,7 @@ Sfrutta la potenza dell'analisi dati in Excel con Aspose.Cells per Java. Impara 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

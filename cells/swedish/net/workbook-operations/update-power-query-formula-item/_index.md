@@ -1,25 +1,27 @@
 ---
-title: Uppdatera Power Query formelobjekt i arbetsbok
-linktitle: Uppdatera Power Query formelobjekt i arbetsbok
-second_title: Aspose.Cells .NET Excel Processing API
-description: Lär dig hur du uppdaterar Power Query-formler i Excel med Aspose.Cells för .NET i den här omfattande steg-för-steg-guiden.
-weight: 27
-url: /sv/net/workbook-operations/update-power-query-formula-item/
+"description": "Lär dig hur du uppdaterar Power Query-formler i Excel med Aspose.Cells för .NET i den här omfattande steg-för-steg-guiden."
+"linktitle": "Uppdatera Power Query-formelobjekt i arbetsboken"
+"second_title": "Aspose.Cells .NET Excel-bearbetnings-API"
+"title": "Uppdatera Power Query-formelobjekt i arbetsboken"
+"url": "/sv/net/workbook-operations/update-power-query-formula-item/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Uppdatera Power Query formelobjekt i arbetsbok
+# Uppdatera Power Query-formelobjekt i arbetsboken
 
 ## Introduktion
-Att förstå hur man hanterar data effektivt med Power Query i Excel är avgörande för alla dataanalytiker eller Excel-entusiaster. Om du någonsin har behövt uppdatera formelobjekten i din Power Query-arbetsbok är du på rätt plats. Den här guiden är skräddarsydd för att hjälpa dig lära dig hur du använder Aspose.Cells för .NET för att sömlöst uppdatera Power Query-formler i en Excel-arbetsbok. Med några enkla steg kommer du att kunna manipulera och effektivisera dina data och se till att dina arbetsböcker förblir dynamiska och centraliserade.
-## Förutsättningar
-Innan du börjar dyka in i exempelkoden och stegen, låt oss gå igenom vad du behöver:
-1. Grundläggande förståelse för C# och .NET: Bekantskap med programmeringskoncept i C# kommer att vara fördelaktigt eftersom vi kommer att skriva lite kod.
-2.  Installera Aspose.Cells för .NET: Du måste ha Aspose.Cells-biblioteket integrerat i ditt .NET-projekt. Du kan ladda ner den[här](https://releases.aspose.com/cells/net/).
-3. En Excel-fil redo för ändring: Se till att du har en Excel-fil som innehåller en Power Query som du vill uppdatera. Du måste ha ett exempel på arbetsboken`SamplePowerQueryFormula.xlsx` till ditt förfogande.
+Att förstå hur man hanterar data effektivt med Power Query i Excel är avgörande för alla dataanalytiker eller Excel-entusiaster. Om du någonsin har behövt uppdatera formelobjekten i din Power Query-arbetsbok har du kommit rätt. Den här guiden är skräddarsydd för att hjälpa dig lära dig hur du använder Aspose.Cells för .NET för att sömlöst uppdatera Power Query-formler i en Excel-arbetsbok. Med några enkla steg kan du manipulera och effektivisera dina data, vilket säkerställer att dina arbetsböcker förblir dynamiska och centraliserade.
+## Förkunskapskrav
+Innan du börjar dyka ner i exempelkoden och stegen, låt oss gå igenom vad du behöver:
+1. Grundläggande förståelse för C# och .NET: Bekantskap med programmeringskoncept i C# är fördelaktigt eftersom vi kommer att skriva en del kod.
+2. Installera Aspose.Cells för .NET: Du behöver ha Aspose.Cells-biblioteket integrerat i ditt .NET-projekt. Du kan ladda ner det [här](https://releases.aspose.com/cells/net/).
+3. En Excel-fil redo för modifiering: Se till att du har en Excel-fil som innehåller en Power Query som du vill uppdatera. Du behöver en exempelarbetsbok som `SamplePowerQueryFormula.xlsx` till ditt förfogande.
 ## Importera paket
 För att komma igång, se till att du har följande namnrymder inkluderade i din C#-fil:
 ```csharp
@@ -35,21 +37,21 @@ Först och främst måste du definiera var dina käll- och utdatafiler finns.
 string SourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
- I det här steget anger du katalogsökvägarna. Ersätta`"Your Document Directory"` med den faktiska sökvägen där dina Excel-filer sparas. Detta talar om för programmet var det ska leta efter din källfil och var den uppdaterade filen ska sparas.
-## Steg 2: Ladda arbetsboken
-Nu när du har dina arbetskataloger inställda är nästa steg att ladda din Excel-fil i programmet.
+I det här steget anger du sökvägarna till katalogen. Ersätt `"Your Document Directory"` med den faktiska sökvägen där dina Excel-filer sparas. Detta talar om för programmet var det ska leta efter din källfil och var det ska spara den uppdaterade filen.
+## Steg 2: Läs in arbetsboken
+Nu när du har ställt in dina arbetskataloger är nästa steg att ladda din Excel-fil i programmet.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Här skapar du en`Workbook` objekt som laddar den angivna Excel-filen. De`Workbook`klass är en del av Aspose.Cells-biblioteket och är avgörande för alla operationer du ska utföra på den Excel-filen.
-## Steg 3: Få åtkomst till Power Query-data
-När arbetsboken har laddats är det dags att komma åt Power Query-formlerna som finns lagrade i.
+Här skapar du en `Workbook` objekt som laddar den angivna Excel-filen. `Workbook` Klassen är en del av Aspose.Cells-biblioteket och är avgörande för alla operationer du kommer att utföra på den Excel-filen.
+## Steg 3: Åtkomst till Power Query-data
+När arbetsboken har laddats är det dags att komma åt Power Query-formlerna som lagras i den.
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- I den här raden`DataMashup` egenskapen hjälper till att komma åt Power Query-datastrukturerna i arbetsboken. Den här egenskapen ger dig möjlighet att interagera med olika aspekter av Power Query-data som finns i din Excel-fil.
-## Steg 4: Loop Through Power Query-formler
-Med Power Query-data tillgänglig är nästa steg att iterera genom var och en av de närvarande formlerna.
+I den här linjen, `DataMashup` Egenskapen hjälper till att komma åt Power Query-datastrukturerna i arbetsboken. Den här egenskapen ger dig möjlighet att interagera med olika aspekter av Power Query-data som finns i din Excel-fil.
+## Steg 4: Loopa igenom Power Query-formler
+När Power Query-data är tillgängliga är nästa steg att iterera igenom var och en av de formler som finns.
 ```csharp
 foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 {
@@ -62,36 +64,38 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
     }
 }
 ```
- Det är här magin händer. Vi går igenom var och en`PowerQueryFormula` och sedan genom varje`PowerQueryFormulaItem` . De`if` satsen letar efter formelobjektet med namnet "Source" och uppdaterar dess värde till att vara sökvägen till källfilen som du vill att Power Query ska referera till. Detta gör att du dynamiskt kan ändra vilken fil Power Query hämtar data från.
+Det är här magin händer. Vi går igenom varje `PowerQueryFormula` och sedan genom varje `PowerQueryFormulaItem`Den `if` Uttrycket letar efter formelobjektet med namnet "Källa" och uppdaterar dess värde till att vara sökvägen till källfilen som du vill att Power Query ska referera till. Detta gör att du kan dynamiskt ändra vilken fil Power Query hämtar data från.
 ## Steg 5: Spara den uppdaterade arbetsboken
-Efter att ha uppdaterat de nödvändiga formelobjekten är ditt sista steg att spara arbetsboken.
+Efter att du har uppdaterat de nödvändiga formelobjekten är ditt sista steg att spara arbetsboken.
 ```csharp
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 ```
-Den här raden sparar den ändrade arbetsboken till en ny fil, och bevarar därmed originalet samtidigt som du kan arbeta med den uppdaterade versionen.
+Den här raden sparar den ändrade arbetsboken till en ny fil, vilket bevarar originalet samtidigt som du kan arbeta med den uppdaterade versionen.
 ## Steg 6: Bekräftelsemeddelande
-Slutligen är det bra att kontrollera om din kod har körts korrekt.
+Slutligen är det en bra idé att kontrollera om din kod har körts korrekt.
 ```csharp
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
-Detta enkla meddelande kommer att bekräfta för dig i konsolen att din operation lyckades, vilket ger ett lugnande slut på processen.
+Det här enkla meddelandet bekräftar i konsolen att din operation lyckades, vilket ger ett lugnande slut på processen.
 ## Slutsats
-Och där har du det! Att uppdatera Power Query-formelobjekt i Excel med Aspose.Cells för .NET kan göras med bara några enkla steg. Genom att följa den här guiden kan du effektivt hantera dina Excel-dataanslutningar och hålla dina arbetsböcker igång smidigt. Oavsett om du är ett erfaret proffs eller precis har börjat med datamanipulation, erbjuder Aspose.Cells ett kraftfullt sätt att automatisera och förbättra Excel-arbetsflöden. 
-## FAQ's
-### Kan jag använda Aspose.Cells med någon version av .NET?
+Och där har du det! Att uppdatera Power Query-formelobjekt i Excel med Aspose.Cells för .NET kan göras i några få enkla steg. Genom att följa den här guiden kan du effektivt hantera dina Excel-datakopplingar och hålla dina arbetsböcker igång smidigt. Oavsett om du är ett erfaret proffs eller precis har börjat med datahantering, erbjuder Aspose.Cells ett kraftfullt sätt att automatisera och förbättra Excel-arbetsflöden. 
+## Vanliga frågor
+### Kan jag använda Aspose.Cells med vilken version av .NET som helst?
 Aspose.Cells är kompatibel med flera versioner av .NET, inklusive .NET Framework och .NET Core.
 ### Är Aspose.Cells gratis att använda?
- Aspose.Cells erbjuder en gratis provperiod, men för kontinuerlig användning krävs en licens. Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells erbjuder en gratis provperiod, men för kontinuerlig användning krävs en licens. Du kan få en tillfällig licens. [här](https://purchase.aspose.com/temporary-license/).
 ### Vad händer om min befintliga Excel-fil inte har Power Query?
-Processen som beskrivs fokuserar på att uppdatera Power Query-objekt, så om din fil saknar dem måste du först inkorporera Power Queries.
+Den beskrivna processen fokuserar på att uppdatera Power Query-objekt, så om din fil saknar dem måste du först integrera Power Queries.
 ### Var kan jag hitta mer information om Aspose.Cells?
- Kontrollera dokumentationen för omfattande vägledning och exempel. Besök[dokumentation](https://reference.aspose.com/cells/net/).
+Kontrollera dokumentationen för omfattande vägledning och exempel. Besök [dokumentation](https://reference.aspose.com/cells/net/).
 ### Hur rapporterar jag buggar eller problem med Aspose.Cells?
-Du kan kontakta deras stödda forum för att få hjälp angående eventuella problem du stöter på.
+Du kan kontakta deras supportforum för hjälp med eventuella problem du stöter på.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

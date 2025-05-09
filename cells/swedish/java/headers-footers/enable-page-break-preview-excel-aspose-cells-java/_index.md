@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ Genom att följa den här handledningen har du lärt dig hur du aktiverar förha
 
 **Uppmaning till handling:** Försök att implementera den här lösningen i dina nuvarande projekt för att förbättra dokumentläsbarheten och presentationen.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Vad är Aspose.Cells för Java?**
    - Det är ett kraftfullt bibliotek som låter dig skapa, modifiera och konvertera Excel-filer programmatiskt med hjälp av Java.
@@ -192,6 +194,9 @@ Genom att följa den här handledningen har du lärt dig hur du aktiverar förha
 Med den här omfattande guiden är du väl rustad att använda Aspose.Cells för Java för att effektivt aktivera förhandsgranskningar av sidbrytningar. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

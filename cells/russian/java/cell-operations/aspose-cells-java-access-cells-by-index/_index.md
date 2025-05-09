@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Практические сценарии интеграции
 - Советы по оптимизации производительности
 
-Давайте сначала рассмотрим необходимые для начала работы предварительные условия.
+Давайте сначала рассмотрим предварительные условия, необходимые для начала работы.
 
 ### Предпосылки
 
@@ -177,6 +179,9 @@ public class UsingRowAndColumnIndexOfCell {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

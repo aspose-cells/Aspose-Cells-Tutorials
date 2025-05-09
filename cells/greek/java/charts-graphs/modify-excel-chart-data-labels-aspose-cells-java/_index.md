@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ workbook.save(outDir + "/ModifyPieChart_out.xls");
 Αξιοποιώντας το Aspose.Cells για Java, μπορείτε να αυτοματοποιήσετε και να βελτιώσετε τις ροές εργασίας που σχετίζονται με το Excel με ακρίβεια και ευκολία. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

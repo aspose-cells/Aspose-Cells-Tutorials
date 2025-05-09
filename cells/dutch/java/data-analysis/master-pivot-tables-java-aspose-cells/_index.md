@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Je beheerst nu de basisprincipes van het opzetten en bewerken van draaitabellen 
 Door deze uitgebreide handleiding te volgen, bent u goed op weg om de krachtige functies van Aspose.Cells voor Java te benutten in uw datagestuurde projecten. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

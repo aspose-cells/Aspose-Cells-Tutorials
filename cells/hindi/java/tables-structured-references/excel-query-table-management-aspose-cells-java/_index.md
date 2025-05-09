@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ queryTable.setPreserveFormatting(true);  // मौजूदा स्वरू�
 ```
 
 **4. परिवर्तन सहेजें:**
-संशोधित कार्यपुस्तिका को नई Excel फ़ाइल में वापस लिखें.
+संशोधित कार्यपुस्तिका को नई Excel फ़ाइल में लिखें.
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "RAWQueryTable_out.xlsx");
@@ -199,6 +201,9 @@ Aspose.Cells के साथ कुशलतापूर्वक कार्�
 कोडिंग का आनंद लें, और Aspose.Cells for Java के साथ एक्सेल डेटा को प्रो की तरह प्रबंधित करने का आनंद लें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

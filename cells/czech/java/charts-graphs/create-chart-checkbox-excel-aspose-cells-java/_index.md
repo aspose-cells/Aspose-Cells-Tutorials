@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Zde je několik reálných scénářů, kde můžete aplikovat znalosti z tohoto
 3. **Vzdělávací nástroje:** Vytvářejte dynamické výukové materiály, kde mohou studenti interagovat s obsahem výběrem různých možností v grafech.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

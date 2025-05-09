@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Este tutorial demonstrou como usar intervalos nomeados com funções SOMA no Asp
 Este tutorial oferece uma compreensão abrangente da implementação de intervalos nomeados e funções de soma usando Aspose.Cells para Java. Experimente e aproveite todo o potencial da automação do Excel em seus aplicativos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

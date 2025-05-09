@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Lặp lại qua các ô trong một cột, xác định chiều rộng tối
 Bằng cách tận dụng các nguồn lực này, bạn sẽ được trang bị tốt để nâng cao hơn nữa các kỹ năng của mình và triển khai các tác vụ tự động hóa Excel phức tạp hơn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

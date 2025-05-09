@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Cải thiện ứng dụng Java của bạn bằng cách thiết lập phiên b�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- **Thư viện bắt buộc:** Bao gồm Aspose.Cells for Java (phiên bản 25.3 trở lên) vào dự án của bạn.
+- **Thư viện cần thiết:** Bao gồm Aspose.Cells for Java (phiên bản 25.3 trở lên) vào dự án của bạn.
 - **Thiết lập môi trường:** Giả định là bạn đã quen thuộc với các hệ thống phát triển và xây dựng Java như Maven hoặc Gradle.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về các khái niệm lập trình Java, đặc biệt là các nguyên tắc hướng đối tượng.
 
@@ -167,6 +169,9 @@ Bạn đã học cách thiết lập phiên bản tài liệu trong tệp Excel 
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Xóa các bình luận có luồng khỏi bảng tính
-linktitle: Xóa các bình luận có luồng khỏi bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Dễ dàng xóa các chú thích có luồng khỏi bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý Excel của bạn.
-weight: 23
-url: /vi/net/worksheet-operations/remove-threaded-comments/
+"description": "Dễ dàng xóa các chú thích có luồng khỏi bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Đơn giản hóa việc quản lý Excel của bạn."
+"linktitle": "Xóa các bình luận có luồng khỏi bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xóa các bình luận có luồng khỏi bảng tính"
+"url": "/vi/net/worksheet-operations/remove-threaded-comments/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa các bình luận có luồng khỏi bảng tính
@@ -18,7 +20,7 @@ Trong thời đại kỹ thuật số, làm việc cộng tác đã trở thành
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, bạn cần kiểm tra một số điều cần thiết trong danh sách của mình:
 1. Kiến thức cơ bản về C# và .NET: Vì chúng ta đang sử dụng Aspose.Cells cho .NET nên việc quen thuộc với lập trình C# là rất quan trọng.
-2.  Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển: Thiết lập IDE ưa thích của bạn (ví dụ: Visual Studio) để viết và thực thi mã C#.
 4. Tệp Excel mẫu: Tạo hoặc thu thập tệp Excel mẫu có chú thích theo chủ đề cho mục đích thử nghiệm.
 ## Nhập gói
@@ -28,7 +30,7 @@ using System;
 ```
 Câu lệnh import đơn giản này sẽ cho phép bạn truy cập vào tất cả các chức năng mạnh mẽ mà thư viện Aspose.Cells cung cấp.
 ## Bước 1: Xác định đường dẫn tệp của bạn
- Để bắt đầu, bạn cần thiết lập thư mục nguồn và thư mục đầu ra nơi chứa các tệp Excel của bạn. Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi tập tin của bạn được lưu trữ.
+Để bắt đầu, bạn cần thiết lập thư mục nguồn và thư mục đầu ra nơi chứa các tệp Excel của bạn. Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi tập tin của bạn được lưu trữ.
 ```csharp
 // Thư mục nguồn
 string sourceDir = "Your Document Directory";
@@ -36,7 +38,7 @@ string sourceDir = "Your Document Directory";
 string outDir = "Your Document Directory";
 ```
 ## Bước 2: Tải Workbook
- Tiếp theo, khởi tạo một cái mới`Workbook` đối tượng trỏ đến tệp Excel nguồn của bạn. Đối tượng này sẽ đóng vai trò là trung tâm để truy cập và thao tác bảng tính của bạn.
+Tiếp theo, khởi tạo một cái mới `Workbook` đối tượng trỏ đến tệp Excel nguồn của bạn. Đối tượng này sẽ đóng vai trò là trung tâm để truy cập và thao tác bảng tính của bạn.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
@@ -46,7 +48,7 @@ Bây giờ, bạn sẽ muốn truy cập vào bảng tính cụ thể chứa cá
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## Bước 4: Nhận bộ sưu tập bình luận
- Để quản lý bình luận, chúng ta cần có được`CommentCollection` từ bảng tính. Bộ sưu tập này cho phép bạn dễ dàng tương tác với các bình luận có chủ đề.
+Để quản lý bình luận, chúng ta cần có được `CommentCollection` từ bảng tính. Bộ sưu tập này cho phép bạn dễ dàng tương tác với các bình luận có chủ đề.
 ```csharp
 CommentCollection comments = worksheet.Comments;
 ```
@@ -56,12 +58,12 @@ Nếu bạn muốn xóa một bình luận cụ thể, việc biết tác giả 
 ThreadedCommentAuthor author = worksheet.Comments.GetThreadedComments("A1")[0].Author;
 ```
 ## Bước 6: Xóa bình luận
- Một khi bạn có`CommentCollection`, bạn có thể xóa chú thích trong ô A1 bằng một dòng mã đơn giản. Đây chính là nơi phép thuật xảy ra!
+Một khi bạn có `CommentCollection`, bạn có thể xóa chú thích trong ô A1 bằng một dòng mã đơn giản. Đây chính là nơi phép thuật xảy ra!
 ```csharp
 comments.RemoveAt("A1");
 ```
 ## Bước 7: Xóa tác giả bình luận
- Để giữ cho sổ làm việc của bạn sạch sẽ, bạn cũng có thể muốn xóa tác giả của bình luận. Truy cập`ThreadedCommentAuthorCollection` và xóa tác giả nếu cần thiết:
+Để giữ cho sổ làm việc của bạn sạch sẽ, bạn cũng có thể muốn xóa tác giả của bình luận. Truy cập `ThreadedCommentAuthorCollection` và xóa tác giả nếu cần thiết:
 ```csharp
 ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
 // Xóa Tác giả của bình luận đầu tiên trong A1
@@ -83,7 +85,7 @@ Việc xóa các chú thích có luồng khỏi các bảng tính Excel bằng A
 ### Tôi có thể xóa bình luận khỏi nhiều ô cùng lúc không?
 Có, khi sử dụng vòng lặp, bạn có thể lặp lại qua nhiều ô và xóa hàng loạt bình luận.
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ những loại bình luận nào?
 Aspose.Cells hỗ trợ chú thích theo luồng và chú thích thông thường trong Excel.
 ### Aspose.Cells có tương thích với mọi phiên bản Excel không?
@@ -91,9 +93,11 @@ Có, Aspose.Cells tương thích với mọi phiên bản Excel, bao gồm các 
 ### Thư viện có hỗ trợ đa luồng không?
 Aspose.Cells chủ yếu được thiết kế để sử dụng luồng đơn; tuy nhiên, bạn có thể triển khai luồng trong logic ứng dụng của mình nếu cần.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

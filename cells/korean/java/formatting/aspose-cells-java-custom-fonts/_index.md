@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Aspose.Cells for Java를 사용하여 Excel 문서에 사용자 지정 글꼴을
 - Maven이나 Gradle을 이용해 Java용 Aspose.Cells를 설정하는 방법.
 - 사용 중 `setFontFolder` 그리고 `setFontFolders` 행동 양식.
 - 다양한 유형의 글꼴 소스 구성: FolderFontSource, FileFontSource, MemoryFontSource.
-- 구현 중에 흔히 발생하는 문제를 해결합니다.
+- 구현 중에 발생하는 일반적인 문제를 해결합니다.
 
 시작할 준비 되셨나요? 시작하기 전에 필요한 전제 조건을 먼저 살펴보겠습니다.
 
@@ -192,10 +194,13 @@ Aspose.Cells를 사용할 때 최적의 성능을 위해 다음 사항을 고려
 - [임시 면허 정보](https://purchase.aspose.com/temporary-license/)
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
-이 종합 가이드를 통해 이제 Aspose.Cells for Java에서 사용자 지정 글꼴 설정을 효과적으로 구현할 수 있습니다. 즐거운 코딩 되세요!
+이 포괄적인 가이드를 통해 이제 Aspose.Cells for Java에서 사용자 지정 글꼴 설정을 효과적으로 구현할 수 있습니다. 즐거운 코딩 되세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

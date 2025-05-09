@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/countif-function-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # COUNTIF Function in Excel
@@ -155,6 +157,7 @@ You can find advanced tutorials and documentation for Aspose.Cells for Java at [
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

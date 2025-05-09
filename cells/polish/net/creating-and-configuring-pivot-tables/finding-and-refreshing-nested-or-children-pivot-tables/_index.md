@@ -1,14 +1,16 @@
 ---
-title: Znajdowanie i odświeżanie zagnieżdżonych lub podrzędnych tabel przestawnych w .NET
-linktitle: Znajdowanie i odświeżanie zagnieżdżonych lub podrzędnych tabel przestawnych w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak znaleźć i odświeżyć zagnieżdżone tabele przestawne w plikach programu Excel przy użyciu Aspose.Cells dla .NET. Zawiera jasne instrukcje i przydatne wskazówki.
-weight: 27
-url: /pl/net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested-or-children-pivot-tables/
+"description": "Dowiedz się, jak znaleźć i odświeżyć zagnieżdżone tabele przestawne w plikach programu Excel przy użyciu Aspose.Cells dla .NET. Zawiera jasne instrukcje i przydatne wskazówki."
+"linktitle": "Znajdowanie i odświeżanie zagnieżdżonych lub podrzędnych tabel przestawnych w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Znajdowanie i odświeżanie zagnieżdżonych lub podrzędnych tabel przestawnych w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested-or-children-pivot-tables/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znajdowanie i odświeżanie zagnieżdżonych lub podrzędnych tabel przestawnych w .NET
@@ -18,7 +20,7 @@ url: /pl/net/creating-and-configuring-pivot-tables/finding-and-refreshing-nested
 ## Wymagania wstępne
 Zanim przejdziemy do zabawy w kodowanie, musisz spełnić kilka warunków wstępnych:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To tutaj będziesz pisać i wykonywać swój kod C#.
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz pobrać najnowszą wersję z[Strona wydań Aspose](https://releases.aspose.com/cells/net/) . Jeśli nie jesteś gotowy na zakup, możesz również zacząć od[bezpłatny okres próbny](https://releases.aspose.com/).
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz pobrać najnowszą wersję z [Strona wydań Aspose](https://releases.aspose.com/cells/net/). Jeśli nie jesteś gotowy na zakup, możesz również zacząć od [bezpłatny okres próbny](https://releases.aspose.com/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci ten proces.
 4. Skoroszyt programu Excel z tabelami przestawnymi: Będziesz potrzebować przykładowego pliku programu Excel zawierającego tabele przestawne. Możesz użyć podanego przykładu lub utworzyć własny.
 Gdy już je odhaczysz na liście, wszystko gotowe! Teraz zakasajmy rękawy i zajmijmy się kodem.
@@ -38,13 +40,13 @@ Pierwszym krokiem jest określenie katalogu, w którym przechowywany jest plik E
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką pliku Excel. To tutaj kod będzie szukał wymaganego skoroszytu. Pomyśl o tym jak o tym, jakbyś powiedział przyjacielowi, gdzie ukryłeś skarb!
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką pliku Excel. To tutaj Twój kod będzie szukał wymaganego skoroszytu. Pomyśl o tym jak o tym, jakbyś powiedział przyjacielowi, gdzie ukryłeś skarb!
 ## Krok 2: Załaduj skoroszyt programu Excel
- Następnie musisz załadować plik Excel do`Workbook` obiekt, który pozwala na manipulowanie nim programowo. Oto jak to osiągnąć:
+Następnie musisz załadować plik Excel do `Workbook` obiekt, który pozwala na manipulowanie nim programowo. Oto jak to osiągnąć:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindAndRefreshNestedOrChildrenPivotTables.xlsx");
 ```
- W tym wierszu tworzysz nową instancję`Workbook` i załadowanie do niej pliku. Dodając nazwę pliku do`sourceDir`, prowadzisz skoroszyt prosto do skrzyni ze skarbem.
+W tym wierszu tworzysz nową instancję `Workbook` i załadowanie do niej pliku. Dodając nazwę pliku do `sourceDir`, prowadzisz skoroszyt prosto do skrzyni ze skarbem.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Po załadowaniu skoroszytu musisz uzyskać dostęp do konkretnego arkusza zawierającego tabele przestawne. Uzyskajmy dostęp do pierwszego arkusza:
 ```csharp
@@ -63,22 +65,22 @@ Teraz, gdy znaleźliśmy naszą nadrzędną tabelę przestawną, czas zagłębi�
 ```csharp
 PivotTable[] ptChildren = ptParent.GetChildren();
 ```
- W tym kroku używamy`GetChildren()` metoda pobierania tablicy tabel przestawnych dla dzieci. Są jak małe skarby ukryte pod wielką skrzynią skarbów!
+W tym kroku używamy `GetChildren()` metoda pobierania tablicy tabel przestawnych dla dzieci. Są jak małe skarby ukryte pod wielką skrzynią skarbów!
 ## Krok 6: Odśwież każdą tabelę przestawną dla dzieci
 Czas utrzymać te skarby w blasku i aktualności! Musimy przejść przez każdą tabelę przestawną dla dzieci i odświeżyć ich dane. Zróbmy to za pomocą prostej pętli for:
 ```csharp
 int count = ptChildren.Length;
 for (int idx =0; idx < count; idx++)
 {
- // Uzyskaj dostęp do tabeli przestawnej podrzędnej
+ // Uzyskaj dostęp do tabeli przestawnej podrzędnej 
  PivotTable ptChild = ptChildren[idx];
- // Odśwież tabelę przestawną podrzędną
+ // Odśwież tabelę przestawną podrzędną 
  ptChild.RefreshData();
  ptChild.CalculateData();
 }
 ```
--  Określamy, ile jest tabel przestawnych podrzędnych za pomocą`ptChildren.Length`.
-- Następnie dla każdej tabeli przestawnej podrzędnej odświeżamy jej dane za pomocą`RefreshData()` po którym następuje`CalculateData()`. Można to traktować jako szybkie polerowanie włosów każdego dziecka, aby zawsze błyszczało!
+- Określamy, ile jest tabel przestawnych podrzędnych za pomocą `ptChildren.Length`.
+- Następnie dla każdej tabeli przestawnej podrzędnej odświeżamy jej dane za pomocą `RefreshData()` po którym następuje `CalculateData()`. Można to traktować jako szybkie polerowanie włosów każdego dziecka, aby zawsze błyszczało!
 ## Wniosek
 I masz to! W zaledwie kilku prostych krokach nauczyłeś się, jak zlokalizować i odświeżyć zagnieżdżone tabele przestawne w pliku Excela przy użyciu Aspose.Cells dla .NET. Niezależnie od tego, czy generujesz raporty, czy analizujesz dane, aktualizowanie tabel przestawnych zapewnia, że masz dokładne spostrzeżenia na wyciągnięcie ręki.
 ## Najczęściej zadawane pytania
@@ -87,14 +89,16 @@ Aspose.Cells for .NET to zaawansowana biblioteka do zarządzania plikami Excela,
 ### Czy muszę z góry kupić Aspose.Cells?
 Zanim podejmiesz decyzję o zakupie, możesz skorzystać z bezpłatnego okresu próbnego na ich stronie internetowej.
 ### Czy korzystając z tej biblioteki mogę korzystać z innych funkcji programu Excel?
-Oczywiście! Poza tabelami przestawnymi możesz manipulować wykresami, formułami i formatowaniem, a także innymi funkcjami.
+Oczywiście! Poza tabelami przestawnymi możesz manipulować wykresami, formułami i formatowaniem, wśród innych funkcji.
 ### Czy do korzystania z Aspose.Cells wymagana jest znajomość kodowania?
 Podstawowa znajomość języka C# lub .NET będzie pomocna w efektywnym wykorzystaniu Aspose.Cells.
-### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz sprawdzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po pomoc lub wsparcie ze strony społeczności.
+### Jak uzyskać pomoc, jeśli napotkam problemy?
+Możesz sprawdzić [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) po pomoc lub wsparcie ze strony społeczności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

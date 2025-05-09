@@ -1,14 +1,16 @@
 ---
-title: Utwórz wykres liniowy
-linktitle: Utwórz wykres liniowy
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Twórz oszałamiające wykresy liniowe za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie wizualizować swoje dane.
-weight: 11
-url: /pl/net/manipulating-chart-types/create-line-chart/
+"description": "Twórz oszałamiające wykresy liniowe za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie wizualizować swoje dane."
+"linktitle": "Utwórz wykres liniowy"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz wykres liniowy"
+"url": "/pl/net/manipulating-chart-types/create-line-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wykres liniowy
@@ -22,7 +24,7 @@ Czy jesteś gotowy, aby wizualizować swoje dane w oszałamiającej przejrzysto�
 Zanim przejdziemy do szczegółów tworzenia wykresu liniowego, upewnijmy się, że potrafisz to zrobić:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio, ponieważ jest to jedno z najpopularniejszych środowisk IDE do tworzenia aplikacji .NET.
-2.  Biblioteka Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells, którą możesz pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells, którą możesz pobrać ze strony [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# pomoże Ci lepiej zrozumieć przykłady i fragmenty kodu.
 4. .NET Framework lub .NET Core: podstawowa konfiguracja dowolnego z tych środowisk, ponieważ będzie ono stanowić podstawę naszych aplikacji.
 
@@ -44,9 +46,9 @@ using System.Drawing;
 using Aspose.Cells.Charts;
 ```
 
- Ta linia importuje`Aspose.Cells` przestrzeń nazw, która zawiera wszystkie klasy i metody, których użyjemy do utworzenia naszego wykresu liniowego.
+Ta linia importuje `Aspose.Cells` przestrzeń nazw, która zawiera wszystkie klasy i metody, których użyjemy do utworzenia naszego wykresu liniowego.
 
-Teraz rozbijmy cały proces na proste, przyswajalne kroki. Każdy krok poprowadzi Cię przez logiczny przepływ tworzenia wykresu liniowego przy użyciu Aspose.Cells dla .NET.
+Teraz rozbijmy cały proces na proste, przyswajalne kroki. Każdy krok przeprowadzi Cię przez logiczny przepływ tworzenia wykresu liniowego przy użyciu Aspose.Cells dla .NET.
 
 ## Krok 1: Skonfiguruj katalog wyjściowy
 
@@ -56,7 +58,7 @@ Pierwszym krokiem jest określenie, gdzie chcesz zapisać plik wyjściowy. To ja
 // Katalog wyjściowy
 string outputDir = "Your Output Directory";
 ```
- Zastępować`"Your Output Directory"` rzeczywistą ścieżką, pod którą chcesz zapisać wygenerowany plik Excela.
+Zastępować `"Your Output Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać wygenerowany plik Excela.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -76,7 +78,7 @@ W naszym nowo utworzonym skoroszycie musimy uzyskać odniesienie do arkusza, w k
 // Uzyskanie odniesienia do nowo dodanego arkusza roboczego poprzez podanie indeksu arkusza
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Tutaj uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego (indeks`0`).
+Tutaj uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego (indeks `0`).
 
 ## Krok 4: Dodaj wartości przykładowe do komórek
 
@@ -125,13 +127,13 @@ W tym przykładzie informujemy wykres, aby użył wartości w komórkach od A1 d
 
 ## Krok 8: Zapisz plik Excel
 
-Wielki finał! Po całej ciężkiej pracy czas zapisać plik Excela i zobaczyć wykres liniowy w akcji.
+Wielki finał! Po całej ciężkiej pracy nadszedł czas, aby zapisać plik Excela i zobaczyć wykres liniowy w akcji.
 
 ```csharp
 // Zapisywanie pliku Excel
 workbook.Save(outputDir + "outputHowToCreateLineChart.xlsx");
 ```
- Ten wiersz zapisuje skoroszyt w określonym katalogu wyjściowym pod nazwą`outputHowToCreateLineChart.xlsx`.
+Ten wiersz zapisuje skoroszyt w określonym katalogu wyjściowym pod nazwą `outputHowToCreateLineChart.xlsx`.
 
 ## Krok 9: Wykonaj i zweryfikuj
 
@@ -158,13 +160,15 @@ Tak, Aspose.Cells zapewnia rozbudowaną obsługę różnych typów wykresów, w 
 Tak, możesz pobrać bezpłatną wersję próbną, aby poznać jej funkcje. Do długoterminowego użytkowania rozważ zakup licencji.
 
 ### Czy istnieje forum wsparcia?  
- Oczywiście! Odpowiedzi i pytania znajdziesz na[Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Oczywiście! Odpowiedzi i pytania znajdziesz na [Forum Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 ### Jak kupić licencję?  
- Licencje można łatwo nabyć za pośrednictwem[strona zakupu](https://purchase.aspose.com/buy).
+Licencje można łatwo nabyć za pośrednictwem [strona zakupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

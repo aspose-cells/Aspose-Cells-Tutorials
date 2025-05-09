@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
 ## Przewodnik wdrażania
-### Funkcja 1: Utwórz i wypełnij obraz buforowany
+### Funkcja 1: Utwórz i wypełnij BufferedImage
 #### Przegląd
 Tworzenie `BufferedImage` pozwala rysować grafikę programowo. Tutaj utworzymy obraz wypełniony kolorem niebieskim.
 **Krok 1: Importuj niezbędne pakiety**
@@ -145,6 +147,9 @@ Nauczyłeś się, jak renderować arkusze Excela jako obrazy za pomocą Aspose.C
 Dzięki tym narzędziom i wskazówkom będziesz na dobrej drodze do opanowania renderowania arkuszy Excela w Javie za pomocą Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

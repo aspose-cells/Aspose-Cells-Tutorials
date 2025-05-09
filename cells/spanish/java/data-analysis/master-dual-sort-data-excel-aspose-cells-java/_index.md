@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ El `ASCENDING` order ordena la segunda clave en orden ascendente, complementando
 
 #### Paso 2: Definir el índice de la segunda columna clave
 ```java
-sorter.setKey2(1); // Ordenar por la segunda columna (Columna B).
+sorter.setKey2(1); // Ordenar por la segunda columna (columna B).
 ```
 
 ### Ordenar datos en un rango específico
@@ -193,6 +195,9 @@ Para explorar más a fondo las capacidades de Aspose.Cells, considere profundiza
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

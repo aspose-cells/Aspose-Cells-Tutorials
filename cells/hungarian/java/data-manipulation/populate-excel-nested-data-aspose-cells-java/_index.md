@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 
 Az Aspose.Cells használatához a következőket teheti:
 - **Ingyenes próbaverzió**Töltsd le a könyvtárat, és kezdj egy ideiglenes próbalicenccel.
-- **Vásárlás**Teljes körű licenc beszerzése éles használatra.
+- **Vásárlás**: Teljes körű licenc beszerzése éles használatra.
 
 Látogatás [Aspose vásárlás](https://purchase.aspose.com/buy) ha többet szeretne megtudni a licencek beszerzéséről. Ingyenes próbaverzióért látogasson el a következő oldalra: [Aspose kiadások](https://releases.aspose.com/cells/java/).
 
@@ -234,6 +236,9 @@ Az útmutató követésével megtanulta, hogyan kezelheti és töltheti fel hat�
 További felfedezéshez érdemes lehet az Aspose.Cells fejlettebb funkcióinak megismerését vagy különböző adatszerkezetekkel való kísérletezést fontolóra venni.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

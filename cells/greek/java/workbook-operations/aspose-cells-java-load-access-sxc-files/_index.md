@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Cell cell = worksheet.getCells().get("C3");
 Ακολουθώντας αυτόν τον ολοκληρωμένο οδηγό, είστε πλέον έτοιμοι να εργαστείτε αποτελεσματικά με αρχεία SXC χρησιμοποιώντας το Aspose.Cells για Java. Είτε είστε προγραμματιστής που θέλει να βελτιώσει τις εφαρμογές του είτε ένας οργανισμός που στοχεύει στη βελτιστοποίηση των εργασιών επεξεργασίας δεδομένων, το Aspose.Cells προσφέρει τα απαραίτητα εργαλεία για την απρόσκοπτη επίτευξη αυτών των στόχων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

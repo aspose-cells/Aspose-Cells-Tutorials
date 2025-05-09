@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Java 프로그래밍에 대한 기본적인 이해와 Excel 파일 구조에 대
 시작하려면 Maven이나 Gradle을 통해 Aspose.Cells 라이브러리를 다운로드하세요. 무료 평가판 라이선스는 다음에서 받으실 수 있습니다. [Aspose 웹사이트](https://purchase.aspose.com/temporary-license/)이를 통해 테스트 단계에서 아무런 제한 없이 모든 기능을 탐색할 수 있습니다.
 
 ### 설치 및 기본 초기화
-Maven이나 Gradle을 통해 설치한 후, Aspose.Cells를 Java 프로젝트 종속성에 포함합니다. 다음과 같이 초기화합니다.
+Maven이나 Gradle을 통해 설치한 후, Java 프로젝트 종속성에 Aspose.Cells를 포함합니다. 다음과 같이 초기화합니다.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -250,6 +252,9 @@ Aspose.Cells for Java를 마스터하면 Excel 자동화의 강력한 기능을 
 이 가이드를 따르면 프로젝트에서 Aspose.Cells for Java를 효과적으로 활용하여 Excel 파일을 작업할 때 생산성과 정확성을 향상시킬 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

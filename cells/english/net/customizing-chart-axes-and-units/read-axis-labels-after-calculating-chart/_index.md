@@ -8,7 +8,9 @@ url: /net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-ch
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read Axis Labels after Calculating Chart
@@ -155,6 +157,7 @@ Yes! Aspose offers a temporary license that you can request from [this link](htt
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

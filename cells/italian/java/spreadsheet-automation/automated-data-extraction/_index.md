@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Estrazione automatizzata dei dati
@@ -111,9 +113,11 @@ L'automazione dell'estrazione dati con Aspose.Cells per Java semplifica il proce
    Esplora la documentazione API su [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) per informazioni approfondite ed esempi.
 
 Inizia oggi stesso ad automatizzare le tue attività di estrazione dati con Aspose.Cells per Java e semplifica i processi di recupero dati.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

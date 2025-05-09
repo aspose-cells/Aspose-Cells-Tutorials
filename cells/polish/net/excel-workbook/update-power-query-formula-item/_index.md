@@ -1,14 +1,16 @@
 ---
-title: Aktualizuj element formuły Power Query
-linktitle: Aktualizuj element formuły Power Query
-second_title: Aspose.Cells dla .NET API Reference
-description: Łatwa aktualizacja elementów formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku, który usprawni procesy manipulacji danymi.
-weight: 160
-url: /pl/net/excel-workbook/update-power-query-formula-item/
+"description": "Łatwa aktualizacja elementów formuły Power Query w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku, który usprawni procesy manipulacji danymi."
+"linktitle": "Aktualizuj element formuły Power Query"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Aktualizuj element formuły Power Query"
+"url": "/pl/net/excel-workbook/update-power-query-formula-item/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualizuj element formuły Power Query
@@ -22,7 +24,7 @@ Jeśli kiedykolwiek pracowałeś z programem Excel, wiesz, jak potężny może b
 Zanim zagłębisz się w kod, jest kilka rzeczy, które powinieneś skonfigurować:
 
 1. Visual Studio: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), aby pisać i uruchamiać kod .NET. Visual Studio jest najlepszym wyborem.
-2.  Biblioteka Aspose.Cells: Upewnij się, że biblioteka Aspose.Cells jest dostępna w Twoim projekcie. Możesz ją pobrać z[strona](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Upewnij się, że biblioteka Aspose.Cells jest dostępna w Twoim projekcie. Możesz ją pobrać z [strona](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Choć przejdziemy przez ten proces wspólnie, z pewnością pomocna okaże się podstawowa znajomość języka C#, zwłaszcza podczas poruszania się po różnych klasach i metodach.
 4. Przykładowe pliki Excela: Będziesz potrzebować plików Excela wymienionych we fragmencie kodu. Upewnij się, że masz:
    - `SamplePowerQueryFormula.xlsx`
@@ -49,7 +51,7 @@ Rozłóżmy na czynniki pierwsze fragment kodu, który nam dostarczyłeś. Ten s
 
 ## Krok 1: Skonfiguruj katalogi robocze
 
-tym kroku zdefiniujemy, gdzie znajdują się nasze pliki źródłowe i wyjściowe. Dzięki temu Aspose będzie wiedział, gdzie szukać plików Excel.
+W tym kroku zdefiniujemy, gdzie znajdują się nasze pliki źródłowe i wyjściowe. Dzięki temu Aspose będzie wiedział, gdzie szukać plików Excel.
 
 ```csharp
 // Katalogi robocze
@@ -64,7 +66,7 @@ Teraz załadujemy plik Excela, w którym znajduje się Power Query.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Ten`Workbook` class jest punktem wejścia do pliku Excel. Przekazując ścieżkę do naszego pliku źródłowego, tworzymy instancję, która pozwala nam nim manipulować. Możesz to sobie wyobrazić jak otwieranie książki — przygotowujesz się do przeczytania (lub edycji) jej zawartości.
+Ten `Workbook` class jest punktem wejścia do pliku Excel. Przekazując ścieżkę do naszego pliku źródłowego, tworzymy instancję, która pozwala nam nim manipulować. Możesz to sobie wyobrazić jak otwieranie książki — przygotowujesz się do przeczytania (lub edycji) jej zawartości.
 
 ## Krok 3: Uzyskaj dostęp do Data Mashup
 
@@ -73,7 +75,7 @@ Następnie uzyskamy dostęp do formuł Power Query zapisanych w Data Mashup skor
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- Ten`DataMashup` Klasa zawiera wszystkie formuły Power Query powiązane z Twoim skoroszytem. To tutaj wykonamy ciężką pracę, podobnie jak otwierasz skrzynkę z narzędziami do naprawy.
+Ten `DataMashup` Klasa zawiera wszystkie formuły Power Query powiązane z Twoim skoroszytem. To tutaj wykonamy ciężką pracę, podobnie jak otwierasz skrzynkę z narzędziami do naprawy.
 
 ## Krok 4: Przejrzyj formuły Power Query
 
@@ -92,8 +94,8 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
 }
 ```
 
--  Przechodzimy przez każdy`PowerQueryFormula` W`mashupData`.
--  ramach tej pętli zagłębiamy się w każdy`PowerQueryFormulaItem`.
+- Przechodzimy przez każdy `PowerQueryFormula` W `mashupData`.
+- W ramach tej pętli zagłębiamy się w każdy `PowerQueryFormulaItem`.
 - Sprawdzamy, czy nazwa elementu pasuje do „Źródła”. Jeśli tak, aktualizujemy jej wartość, aby połączyć ją z naszym nowym plikiem źródłowym.
 
 Można to porównać do znalezienia właściwej strony w podręczniku, a następnie wprowadzenia niezbędnych aktualizacji — to prosty i skrupulatny proces.
@@ -107,7 +109,7 @@ Po wprowadzeniu aktualizacji nadszedł czas na zapisanie zmian.
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 Console.WriteLine("UpdatePowerQueryFormulaItem executed successfully.");
 ```
- Ten`Save` Metoda zapisuje zaktualizowany skoroszyt do określonego katalogu wyjściowego. To tak, jakby zapieczętować swoje edycje w nowej wersji podręcznika, gotowej do użycia przez innych!
+Ten `Save` Metoda zapisuje zaktualizowany skoroszyt do określonego katalogu wyjściowego. To tak, jakby zapieczętować swoje edycje w nowej wersji podręcznika, gotowej do użycia przez innych!
 
 ## Wniosek
 
@@ -125,13 +127,15 @@ Nie, Aspose.Cells umożliwia programowe tworzenie i edycję plików Excela, bez 
 Za pomocą Aspose.Cells można pracować z plikami .xlsx, .xls, .xlsm i wieloma innymi formatami programu Excel.
 
 ### Czy jest dostępna wersja próbna Aspose.Cells?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona wydania Aspose Cells](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona wydania Aspose Cells](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadać pytania i znaleźć odpowiedzi od społeczności i zespołu Aspose.
+Dostęp do pomocy technicznej można uzyskać za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadać pytania i znaleźć odpowiedzi od społeczności i zespołu Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

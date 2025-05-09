@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ Questa guida ha illustrato come sfruttare Aspose.Cells per Java per creare carte
 ### Prossimi passi
 Si consiglia di esplorare funzionalità aggiuntive, come la formattazione delle celle o la gestione delle formule con Aspose.Cells. 
 
-Pronti a mettere a frutto le vostre competenze? Approfondite [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/) e prova a implementare queste tecniche nei tuoi progetti oggi stesso!
+Pronti a migliorare le vostre competenze? Approfondite [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/) e prova a implementare queste tecniche nei tuoi progetti oggi stesso!
 
 ## Sezione FAQ
 1. **A cosa serve Aspose.Cells per Java?**
@@ -151,6 +153,9 @@ Pronti a mettere a frutto le vostre competenze? Approfondite [Documentazione di 
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

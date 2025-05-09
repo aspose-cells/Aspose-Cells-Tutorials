@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Por último, guarde su libro de trabajo para conservar los cambios.
 ```java
 workbook.save("YOUR_OUTPUT_DIRECTORY/AddingTextBoxControl_out1.xls");
 ```
-### Configuración de la apariencia del cuadro de texto y el hipervínculo
+### Configuración de la apariencia del cuadro de texto y del hipervínculo
 #### Descripción general
 Mejore el atractivo visual de su cuadro de texto configurando fuentes, colores y agregando hipervínculos.
 #### Pasos:
@@ -189,6 +191,9 @@ Explore funcionalidades adicionales de Aspose.Cells profundizando en la document
 - [Descargar Aspose.Cells para Java](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

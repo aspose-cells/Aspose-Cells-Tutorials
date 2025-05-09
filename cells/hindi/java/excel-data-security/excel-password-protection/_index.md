@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल पासवर्ड सुरक्षा
@@ -72,7 +74,7 @@ Excel फ़ाइल में पासवर्ड सुरक्षा ज�
 
 1. एक्सेल फ़ाइल लोड करें.
 2. पासवर्ड सुरक्षा लागू करें.
-3. संशोधित फ़ाइल को सहेजें.
+3. संशोधित फ़ाइल सहेजें.
 
 ```java
 import com.aspose.cells.*;
@@ -133,6 +135,7 @@ public class ExcelPasswordProtection {
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

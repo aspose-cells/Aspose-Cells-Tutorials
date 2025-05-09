@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ Genom den här handledningen har du lärt dig hur du konfigurerar och implemente
 
 Överväg att utforska ytterligare funktioner i Aspose.Cells, såsom datamanipulation eller avancerade formateringsalternativ, för att fullt utnyttja dess möjligheter i dina projekt.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 **F1: Hur hanterar jag stora Excel-filer under konvertering?**
 A1: Öka Java-heapstorleken med JVM-parametrar som `-Xmx1024m` och selektivt rendera specifika sidor om fullständig arbetsboksutdata inte är nödvändig.
@@ -181,6 +183,9 @@ A5: Absolut! Den är kompatibel med de flesta Java-baserade system och kan integ
 - **Supportforum**: [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

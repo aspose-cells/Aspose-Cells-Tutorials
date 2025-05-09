@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Vamos simplificar seu processo de gerenciamento de dados!
 Antes de começar, certifique-se de ter os seguintes pré-requisitos atendidos:
 
 - **Bibliotecas e Dependências**: Instale o Aspose.Cells para Java. Recomendamos usar a versão 25.3.
-- **Configuração do ambiente**Configure seu ambiente de desenvolvimento com Java JDK e um IDE como IntelliJ IDEA ou Eclipse.
+- **Configuração do ambiente**: Configure seu ambiente de desenvolvimento com Java JDK e um IDE como IntelliJ IDEA ou Eclipse.
 - **Pré-requisitos de conhecimento**: Será benéfico ter uma compreensão básica dos conceitos de programação Java.
 
 ### Configurando Aspose.Cells para Java
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells é uma biblioteca comercial, mas você pode explorar seus recursos por meio de:
 - **Teste grátis**: Baixe a versão de teste para testar os recursos.
-- **Licença Temporária**: Solicite uma licença temporária para testes estendidos.
+- **Licença Temporária**Solicite uma licença temporária para testes estendidos.
 - **Comprar**: Compre uma licença para acesso e suporte completos.
 
 Após obter seu arquivo de licença, inicialize o Aspose.Cells da seguinte maneira:
@@ -104,7 +106,7 @@ worksheet.autoFitColumn(4, 4, 6);
 
 #### Salvando uma pasta de trabalho do Excel
 
-**Visão geral**: Após fazer as alterações, salve a pasta de trabalho novamente no disco no formato de sua preferência.
+**Visão geral**Após fazer as alterações, salve a pasta de trabalho novamente no disco no formato de sua preferência.
 
 **Etapa 4: Salve a pasta de trabalho modificada**
 ```java
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **Relatórios de dados**: Ajuste automaticamente as larguras das colunas para uma apresentação de dados mais limpa em relatórios comerciais.
 - **Gestão de Estoque**: Garanta que as listas de produtos estejam formatadas de forma organizada, sem ajustes manuais.
-- **Análise Financeira**Alinhe os números financeiros nas planilhas para análises e apresentações mais precisas.
+- **Análise Financeira**: Alinhe os números financeiros nas planilhas para análises e apresentações mais precisas.
 
 Integrar o Aspose.Cells com bancos de dados ou sistemas de CRM pode otimizar ainda mais seu fluxo de trabalho, permitindo atualizações automáticas de arquivos do Excel a partir dessas fontes.
 
@@ -160,6 +162,9 @@ Ao dominar o recurso de ajuste automático do Aspose.Cells para Java, você se e
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

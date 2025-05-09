@@ -1,14 +1,16 @@
 ---
-title: Đóng băng các ô của bảng tính
-linktitle: Đóng băng các ô của bảng tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách đóng băng các ô trong Excel bằng Aspose.Cells cho .NET với hướng dẫn toàn diện này, bao gồm hướng dẫn từng bước và các mẹo cần thiết.
-weight: 70
-url: /vi/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
+"description": "Tìm hiểu cách đóng băng các ô trong Excel bằng Aspose.Cells cho .NET với hướng dẫn toàn diện này, bao gồm hướng dẫn từng bước và các mẹo cần thiết."
+"linktitle": "Đóng băng các ô của bảng tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Đóng băng các ô của bảng tính"
+"url": "/vi/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đóng băng các ô của bảng tính
@@ -25,13 +27,13 @@ Trước khi đi sâu vào phần mã hóa thực tế, hãy đảm bảo rằng
 - Sự quen thuộc với lập trình C# là điều cần thiết vì chúng ta sẽ sử dụng nó để viết code.
 
 ### Aspose.Cells đã được cài đặt
--  Hãy đảm bảo bạn đã cài đặt Aspose.Cells cho .NET trong môi trường phát triển của mình. Nếu bạn chưa cài đặt, hãy truy cập[Liên kết tải xuống](https://releases.aspose.com/cells/net/) để bắt đầu.
+- Hãy đảm bảo bạn đã cài đặt Aspose.Cells cho .NET trong môi trường phát triển của mình. Nếu bạn chưa cài đặt, hãy truy cập [Liên kết tải xuống](https://releases.aspose.com/cells/net/) để bắt đầu.
 
 ### Studio trực quan
 - Bạn sẽ cần một IDE như Visual Studio để tạo và chạy các ứng dụng C# của mình.
 
 ### Một tệp Excel mẫu
-- Để trình diễn, bạn sẽ cần một tệp Excel, chúng tôi sẽ gọi là`book1.xls`. Bạn có thể tạo một tệp Excel đơn giản bằng Microsoft Excel hoặc bất kỳ ứng dụng tương thích nào.
+- Để trình diễn, bạn sẽ cần một tệp Excel, chúng tôi sẽ gọi là `book1.xls`. Bạn có thể tạo một tệp Excel đơn giản bằng Microsoft Excel hoặc bất kỳ ứng dụng tương thích nào.
 
 Khi bạn đã có đủ những điều kiện tiên quyết này, chúng ta có thể bắt đầu viết mã!
 
@@ -62,7 +64,7 @@ Chỉ định thư mục chứa tệp Excel của bạn. Sau đây là ví dụ:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Dòng này thiết lập đường dẫn đến thư mục của bạn. Thay thế`"YOUR DOCUMENT DIRECTORY"` với con đường thực tế đến nơi bạn`book1.xls` tệp được lưu. Giống như việc cung cấp cho mã địa chỉ nhà của bạn nơi lưu trữ tệp Excel—mã cần biết tìm tệp ở đâu!
+Dòng này thiết lập đường dẫn đến thư mục của bạn. Thay thế `"YOUR DOCUMENT DIRECTORY"` với con đường thực tế đến nơi bạn `book1.xls` tệp được lưu. Giống như việc cung cấp cho mã địa chỉ nhà của bạn nơi lưu trữ tệp Excel—mã cần biết tìm tệp ở đâu!
 
 ## Bước 3: Tạo luồng tệp
 
@@ -72,17 +74,17 @@ Sử dụng FileStream để mở tệp Excel hiện có. Cách thực hiện nh
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Các`FileStream` cho phép bạn đọc và ghi tệp bằng cách cung cấp luồng byte. Nói một cách đơn giản, nó mở cửa cho tệp Excel của bạn để bạn có thể bắt đầu làm việc với nó.
+Các `FileStream` cho phép bạn đọc và ghi tệp bằng cách cung cấp luồng byte. Nói một cách đơn giản, nó mở ra cánh cửa đến tệp Excel của bạn để bạn có thể bắt đầu làm việc với nó.
 
 ## Bước 4: Khởi tạo một đối tượng Workbook
 
- Tạo một cái mới`Workbook` đối tượng để làm việc với tập tin đã mở:
+Tạo một cái mới `Workbook` đối tượng để làm việc với tập tin đã mở:
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
 
- Các`Workbook` đối tượng đại diện cho toàn bộ tệp Excel của bạn trong bộ nhớ. Hãy nghĩ về nó như việc đưa toàn bộ tệp vào không gian làm việc của bạn để bạn có thể bắt đầu thực hiện các sửa đổi.
+Các `Workbook` đối tượng đại diện cho toàn bộ tệp Excel của bạn trong bộ nhớ. Hãy nghĩ về nó như việc đưa toàn bộ tệp vào không gian làm việc của bạn để bạn có thể bắt đầu thực hiện các sửa đổi.
 
 ## Bước 5: Truy cập vào Bảng tính
 
@@ -112,7 +114,7 @@ Sau khi thực hiện thay đổi, hãy đảm bảo bạn lưu sổ làm việc
 workbook.Save(dataDir + "output.xls");
 ```
 
- Việc lưu tệp của bạn là rất quan trọng! Dòng này đảm bảo rằng tất cả các thay đổi bạn đã thực hiện, bao gồm cả các ngăn đóng băng, đều được ghi lại vào tệp Excel mới có tên là`output.xls`. Hãy nghĩ đến việc dán phong bì sau khi viết xong bức thư quan trọng của bạn.
+Việc lưu tệp của bạn là rất quan trọng! Dòng này đảm bảo rằng tất cả các thay đổi bạn đã thực hiện, bao gồm cả các ngăn đóng băng, được ghi lại vào tệp Excel mới có tên `output.xls`. Hãy nghĩ đến việc dán phong bì sau khi viết xong bức thư quan trọng của bạn.
 
 ## Bước 8: Đóng luồng tập tin
 
@@ -134,19 +136,21 @@ Xin chúc mừng! Bạn đã thành thạo quy trình đóng băng các ô trong
 Ngăn đóng băng cho phép bạn giữ nguyên các hàng hoặc cột cụ thể khi cuộn qua các tập dữ liệu lớn.
 
 ### Tôi có thể đóng băng nhiều hàng và cột cùng một lúc không?
- Có, bạn có thể đóng băng bất kỳ số lượng hàng và cột nào bằng cách chỉ định vị trí của chúng bằng cách sử dụng`FreezePanes` phương pháp.
+Có, bạn có thể đóng băng bất kỳ số lượng hàng và cột nào bằng cách chỉ định vị trí của chúng bằng cách sử dụng `FreezePanes` phương pháp.
 
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để sử dụng lâu dài. Kiểm tra[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần mua giấy phép để sử dụng lâu dài. Kiểm tra [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi bạn có thể đặt câu hỏi và tìm giải pháp từ cộng đồng.
+Bạn có thể nhận được hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), nơi bạn có thể đặt câu hỏi và tìm giải pháp từ cộng đồng.
 
 ### Tôi có thể sử dụng Aspose.Cells trên các nền tảng khác nhau không?
 Aspose.Cells for .NET được thiết kế để hoạt động với .NET Framework, .NET Core và .NET Standard, giúp nó trở nên linh hoạt cho nhiều ứng dụng khác nhau.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

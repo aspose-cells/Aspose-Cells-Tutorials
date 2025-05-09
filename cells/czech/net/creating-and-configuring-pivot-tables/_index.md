@@ -1,97 +1,101 @@
 ---
-title: Vytváření a konfigurace kontingenčních tabulek
-linktitle: Vytváření a konfigurace kontingenčních tabulek
-second_title: Aspose.Cells .NET Excel Processing API
-description: Objevte komplexní výukové programy pro Aspose.Cells pro .NET. Ovládněte kontingenční tabulky v Excelu programově s podrobnými návody krok za krokem pro každou funkci.
-weight: 37
-url: /cs/net/creating-and-configuring-pivot-tables/
+"description": "Objevte komplexní tutoriály pro Aspose.Cells pro .NET. Zvládněte programově pivotní tabulky v Excelu s podrobnými návody krok za krokem pro každou funkci."
+"linktitle": "Vytváření a konfigurace kontingenčních tabulek"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Vytváření a konfigurace kontingenčních tabulek"
+"url": "/cs/net/creating-and-configuring-pivot-tables/"
+"weight": 37
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vytváření a konfigurace kontingenčních tabulek
 
 ## Zavedení
 
-Při práci s kontingenčními tabulkami Excelu v .NET nabízí Aspose.Cells výkonné nástroje pro zefektivnění procesu. Ať už nastavujete svou první kontingenční tabulku nebo upravujete data pro pokročilé sestavy, tyto výukové programy poskytují podrobné pokyny, od vytváření a formátování tabulek až po použití vlastních možností řazení a aktualizace. Níže naleznete podrobné pokyny, které vám pomohou zvládnout správu kontingenčních tabulek v .NET.
+Při práci s kontingenčními tabulkami Excelu v .NET nabízí Aspose.Cells výkonné nástroje pro zefektivnění celého procesu. Ať už nastavujete svou první kontingenční tabulku nebo upravujete data pro pokročilé reporty, tyto tutoriály poskytují podrobné pokyny, od vytváření a formátování tabulek až po použití vlastních možností řazení a obnovování. Níže naleznete podrobné návody, které vám pomohou zvládnout správu kontingenčních tabulek v .NET.
 
-## Kurzy přizpůsobení klíčových kontingenčních tabulek
+## Výukové programy pro přizpůsobení klíčových kontingenčních tabulek
 
-Aspose.Cells for .NET umožňuje řadu přizpůsobení kontingenční tabulky, která jsou nezbytná pro efektivní manipulaci s daty. Některé z nejlepších tutoriálů zahrnují:
+Aspose.Cells pro .NET umožňuje řadu úprav kontingenčních tabulek, které jsou nezbytné pro efektivní zpracování dat. Mezi nejlepší tutoriály patří:
 
-- [Změna zdrojových dat kontingenční tabulky](./changing-source-data/): Naučte se programově upravovat zdroje dat kontingenční tabulky, což je ideální pro dynamické aktualizace dat v aplikacích .NET.
-- [Formátování a vzhled kontingenčních tabulek](./formatting-and-look/): Prozkoumejte, jak vylepšit vzhled kontingenční tabulky pomocí Aspose.Cells, což usnadní prezentaci dobře uspořádaných sestav.
-- [Nastavení formátu datového pole](./setting-data-field-format/): Přizpůsobte datová pole pro lepší přehlednost použitím změn formátu, které zlepšují čitelnost a splňují potřeby hlášení.
+- [Změna zdrojových dat kontingenční tabulky](./changing-source-data/)Naučte se programově upravovat zdroje dat kontingenčních tabulek, což je ideální pro dynamické aktualizace dat v aplikacích .NET.
+- [Formátování a vzhled kontingenčních tabulek](./formatting-and-look/)Prozkoumejte, jak vylepšit vzhled kontingenčních tabulek pomocí Aspose.Cells a usnadnit tak prezentaci přehledných sestav.
+- [Nastavení formátu datových polí](./setting-data-field-format/)Upravte datová pole pro lepší přehlednost použitím změn formátu, které zlepšují čitelnost a splňují potřeby reportingu.
 
-U každého výukového programu najdete specifickou oblast zaměření s jasnými pokyny, což usnadňuje použití těchto technik v reálných projektech. 
+U každého tutoriálu najdete specifickou oblast zaměření s jasnými pokyny, které usnadní aplikaci těchto technik v reálných projektech. 
 
-## Automatizujte Excel pomocí Aspose.Cells pro .NET
+## Automatizujte Excel s Aspose.Cells pro .NET
 
-Aspose.Cells také podporuje automatizaci komplexních funkcí kontingenčních tabulek, jako je obnovování vnořených tabulek, nastavení polí stránek a ukládání do vlastních formátů, jako je ODS. Například:
+Aspose.Cells také podporuje automatizaci složitých funkcí kontingenčních tabulek, jako je aktualizace vnořených tabulek, nastavení polí stránek a ukládání do vlastních formátů, jako je ODS. Například:
 
-- [Obnovit a vypočítat položky v kontingenční tabulce](./refreshing-and-calculating-items/): Udržujte svá data aktuální programovým obnovováním kontingenčních tabulek, což je ideální pro vytváření přehledů v reálném čase.
-- [Ukládání kontingenční tabulky ve formátu ODS](./saving-in-ods-format/): Převeďte kontingenční tabulky Excelu do formátu ODS, abyste zajistili kompatibilitu napříč platformami.
+- [Obnovit a vypočítat položky v kontingenční tabulce](./refreshing-and-calculating-items/)Udržujte svá data aktuální programově aktualizací pivotních tabulek, což je ideální pro vytváření reportů v reálném čase.
+- [Uložení kontingenční tabulky ve formátu ODS](./saving-in-ods-format/)Převod kontingenčních tabulek aplikace Excel do formátu ODS a zajištění kompatibility napříč platformami.
 
-Každý výukový program obsahuje ukázky kódu a praktické postřehy, aby byl vývoj plynulejší a efektivnější. Jste připraveni posunout své dovednosti manipulace s daty na další úroveň? Podívejte se na tyto průvodce a hlavní kontingenční tabulky s Aspose.Cells pro .NET. 
+Každý tutoriál obsahuje ukázky kódu a praktické postřehy, které vám pomohou s plynulejším a efektivnějším vývojem. Jste připraveni posunout své dovednosti v manipulaci s daty na další úroveň? Podívejte se na tyto průvodce a osvojte si pivotové tabulky s Aspose.Cells pro .NET. 
 
 ## Odemknutí pokročilých funkcí
 
-Kromě základních operací vám Aspose.Cells umožňuje implementovat pokročilé funkce, které uspokojí specifické datové potřeby:
+Kromě základních operací vám Aspose.Cells umožňuje implementovat pokročilé funkce, které uspokojí specifické potřeby v oblasti dat:
 
-- [Konsolidace funguje programově](./consolidation-functions/): Pokud zpracováváte data z více zdrojů, zjistěte, jak použít konsolidační funkce, abyste vše uvedli do soudržného formátu. Tento tutoriál vás provede bezproblémovým kombinováním dat.
+- [Konsolidační funkce programově](./consolidation-functions/)Pokud pracujete s daty z více zdrojů, naučte se, jak používat konsolidační funkce, abyste vše uvedli do soudržného formátu. Tento tutoriál vás provede bezproblémovým kombinováním dat.
 
-- [Zobrazit možnost stránky filtru sestav](./show-report-filter-pages-option/): Tato funkce zlepšuje interakci uživatele s vašimi kontingenčními tabulkami tím, že uživatelům umožňuje efektivně filtrovat data. Pro bezproblémovou implementaci této funkce postupujte podle podrobného průvodce.
+- [Možnost Zobrazit stránky filtru sestavy](./show-report-filter-pages-option/)Tato funkce vylepšuje interakci uživatelů s vašimi kontingenčními tabulkami tím, že jim umožňuje efektivně filtrovat data. Pro hladkou implementaci této funkce postupujte podle podrobného návodu.
 
-- [Ukládání kontingenčních tabulek pomocí vlastního řazení a skrytí](./saving-with-custom-sort-and-hide/): Přizpůsobte si způsob zobrazení dat seřazením a skrytím konkrétních řádků. Tato funkce pomáhá zaměřit pozornost na nejdůležitější datové body.
+- [Ukládání kontingenčních tabulek s vlastním řazením a skrytím](./saving-with-custom-sort-and-hide/)Přizpůsobte si způsob zobrazení dat seřazením a skrytím konkrétních řádků. Tato funkce pomáhá zaměřit pozornost na nejrelevantnější datové body.
 
-Tyto výukové programy poskytují nejen technické know-how, ale také vám umožňují přizpůsobit soubory aplikace Excel tak, aby splňovaly specifické požadavky projektu. Každá příručka je strukturována tak, aby byla srozumitelná, což usnadňuje implementaci vývojářům všech úrovní dovedností.
+Tyto návody nejen poskytují technické znalosti, ale také vám umožňují přizpůsobit soubory Excelu tak, aby splňovaly specifické požadavky projektu. Každý průvodce je strukturován tak, aby byla zajištěna srozumitelnost, a usnadnila tak implementaci vývojářům všech úrovní dovedností.
 
-## Výukové programy vytváření a konfigurace kontingenčních tabulek
-### [Změňte zdrojová data kontingenční tabulky programově v .NET](./changing-source-data/)
-Naučte se, jak změnit zdrojová data kontingenční tabulky programově pomocí Aspose.Cells for .NET s naším komplexním výukovým programem krok za krokem.
-### [Vymazání kontingenčních polí programově v .NET](./clearing-pivot-fields/)
-Odemkněte sílu Aspose.Cells pro .NET. Vymažte kontingenční pole v Excelu bez námahy pomocí našeho kompletního výukového programu krok za krokem.
-### [Konsolidační funkce Programově v .NET](./consolidation-functions/)
-Naučte se používat Aspose.Cells pro .NET k programovému použití konsolidačních funkcí. Efektivně automatizujte své úlohy analýzy dat.
-### [Vytvořte novou kontingenční tabulku programově v .NET](./creating-new-pivot-table/)
-Naučte se vytvářet kontingenční tabulku programově v .NET pomocí Aspose.Cells s naším průvodcem krok za krokem. Efektivně analyzujte svá data.
-### [Zakázat programově v .NET pás karet kontingenční tabulky](./disabling-pivot-table-ribbon/)
-Přečtěte si, jak deaktivovat pás karet kontingenční tabulky v .NET pomocí Aspose.Cells. Tento podrobný průvodce usnadňuje přizpůsobení interakcí s Excelem.
-### [Formátování a vzhled kontingenčních tabulek Programově v .NET](./formatting-and-look/)
-Vylepšete své kontingenční tabulky Excel pomocí Aspose.Cells pro .NET. Naučte se formátovat, přizpůsobovat a automatizovat prezentaci dat bez námahy.
-### [Aktualizace a výpočet položek v kontingenční tabulce v .NET](./refreshing-and-calculating-items/)
-Zjistěte, jak obnovit a vypočítat položky v kontingenční tabulce pomocí Aspose.Cells for .NET s tímto komplexním, podrobným návodem.
+## Výukové programy pro vytváření a konfiguraci kontingenčních tabulek
+### [Programová změna zdrojových dat kontingenční tabulky v .NET](./changing-source-data/)
+Naučte se, jak programově změnit zdrojová data kontingenční tabulky pomocí Aspose.Cells pro .NET s naším komplexním podrobným tutoriálem.
+### [Programové vymazání pivotních polí v .NET](./clearing-pivot-fields/)
+Odemkněte sílu Aspose.Cells pro .NET. S naším kompletním podrobným tutoriálem snadno vymažte pivotní pole v Excelu.
+### [Konsolidační funkce programově v .NET](./consolidation-functions/)
+Naučte se, jak používat Aspose.Cells pro .NET k programovému použití konsolidačních funkcí. Automatizujte své úlohy analýzy dat efektivně.
+### [Programové vytvoření nové kontingenční tabulky v .NET](./creating-new-pivot-table/)
+Naučte se programově vytvářet kontingenční tabulku v .NET pomocí Aspose.Cells s naším podrobným návodem. Efektivně analyzujte svá data.
+### [Programové zakázání pásu karet kontingenční tabulky v .NET](./disabling-pivot-table-ribbon/)
+Naučte se, jak zakázat pás karet s kontingenční tabulkou v .NET pomocí Aspose.Cells. Tento podrobný návod vám usnadní přizpůsobení interakcí v Excelu.
+### [Programové formátování a vzhled kontingenčních tabulek v .NET](./formatting-and-look/)
+Vylepšete si pivotové tabulky v Excelu pomocí Aspose.Cells pro .NET. Naučte se bez námahy formátovat, upravovat a automatizovat prezentaci dat.
+### [Obnovení a výpočet položek v kontingenční tabulce v .NET](./refreshing-and-calculating-items/)
+Zjistěte, jak aktualizovat a vypočítat položky v kontingenční tabulce pomocí Aspose.Cells pro .NET v tomto komplexním návodu krok za krokem.
 ### [Nastavení automatického formátu kontingenční tabulky programově v .NET](./setting-auto-format/)
-tomto podrobném podrobném kurzu se dozvíte, jak programově nastavit automatický formát pro kontingenční tabulky Excel pomocí Aspose.Cells for .NET.
-### [Nastavení formátu datového pole programově v .NET](./setting-data-field-format/)
-Hlavní nastavení formátů datových polí v kontingenčních tabulkách pomocí Aspose.Cells for .NET s tímto podrobným výukovým programem. Vylepšete formátování dat v Excelu.
-### [Nastavení možností formátu kontingenční tabulky v .NET](./setting-format-options/)
-Naučte se používat Aspose.Cells pro .NET k snadnému formátování kontingenčních tabulek. Prozkoumejte techniky krok za krokem ke zlepšení prezentace dat.
-### [Nastavení formátu pole stránky programově v .NET](./setting-page-field-format/)
-Naučte se, jak nastavit formáty polí stránky v kontingenčních tabulkách programově pomocí Aspose.Cells for .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou správu dat.
-### [Zobrazit možnost stránky filtru sestav v .NET](./show-report-filter-pages-option/)
-Naučte se efektivně používat Aspose.Cells for .NET k zobrazení stránek filtru sestav v kontingenčních tabulkách. Podrobný průvodce s kompletními příklady kódu.
-### [Určete kompatibilitu souboru aplikace Excel programově v .NET](./specifying-compatibility/)
-Naučte se manipulovat s kontingenčními tabulkami Excelu pomocí Aspose.Cells pro .NET, včetně aktualizací dat, nastavení kompatibility a formátování buněk.
+Naučte se v tomto podrobném návodu krok za krokem, jak programově nastavit automatické formátování kontingenčních tabulek v Excelu pomocí Aspose.Cells pro .NET.
+### [Programové nastavení formátu datových polí v .NET](./setting-data-field-format/)
+Zvládněte nastavení formátů datových polí v kontingenčních tabulkách pomocí Aspose.Cells pro .NET s tímto podrobným návodem. Vylepšete formátování dat v Excelu.
+### [Nastavení možností formátování kontingenční tabulky v .NET](./setting-format-options/)
+Naučte se používat Aspose.Cells pro .NET k snadnému formátování kontingenčních tabulek. Prozkoumejte podrobné techniky pro vylepšení prezentace dat.
+### [Nastavení formátu polí stránky programově v .NET](./setting-page-field-format/)
+Naučte se, jak programově nastavit formáty polí stránek v kontingenčních tabulkách pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou správu dat.
+### [Zobrazit možnost filtru stránek sestavy v .NET](./show-report-filter-pages-option/)
+Naučte se, jak efektivně používat Aspose.Cells pro .NET k zobrazení stránek filtrů sestav v kontingenčních tabulkách. Podrobný návod s kompletními příklady kódu.
+### [Programové určení kompatibility souboru Excel v .NET](./specifying-compatibility/)
+Naučte se manipulovat s kontingenčními tabulkami v Excelu pomocí Aspose.Cells pro .NET, včetně aktualizací dat, nastavení kompatibility a formátování buněk.
 ### [Určení zdroje dat externího připojení v .NET](./specifying-external-connection-data-source/)
-V tomto podrobném průvodci se dozvíte, jak určit externí zdroje dat připojení v kontingenčních tabulkách aplikace Excel pomocí Aspose.Cells for .NET. Ideální pro .NET vývojáře.
-### [Uložení kontingenční tabulky ve formátu ODS Programově v .NET](./saving-in-ods-format/)
-V tomto podrobném průvodci se dozvíte, jak uložit kontingenční tabulky ve formátu ODS pomocí Aspose.Cells for .NET.
-### [Ukládání kontingenčních tabulek pomocí vlastního řazení a skrytí v .NET](./saving-with-custom-sort-and-hide/)
-Naučte se ukládat kontingenční tabulky pomocí vlastního řazení a skrývání řádků pomocí Aspose.Cells for .NET. Návod krok za krokem včetně praktických příkladů.
-### [Hledání a obnovování vnořených nebo podřízených kontingenčních tabulek v .NET](./finding-and-refreshing-nested-or-children-pivot-tables/)
-Naučte se, jak najít a obnovit vnořené kontingenční tabulky v souborech aplikace Excel pomocí Aspose.Cells for .NET. Součástí jsou jasné kroky a užitečné tipy.
-### [Analýza kontingenčních záznamů v mezipaměti při načítání souboru Excel v .NET](./parsing-pivot-cached-records/)
-Naučte se analyzovat pivotní záznamy uložené v mezipaměti v .NET pomocí Aspose.Cells. Jednoduchý průvodce pro efektivní správu souborů Excel a kontingenčních tabulek.
-### [Vlastní řazení kontingenční tabulky Programově v .NET](./pivot-table-custom-sort/)
-Naučte se programově třídit kontingenční tabulky v .NET pomocí Aspose.Cells. Podrobný průvodce nastavením, konfigurací, řazením a ukládáním výsledků jako soubory Excel a PDF.
-### [Pořadí formátu zobrazení dat kontingenční tabulky v .NET](./pivot-table-data-display-format-ranking/)
-Naučte se vytvářet a spravovat hodnocení formátu zobrazení dat kontingenční tabulky v .NET pomocí Aspose.Cells pomocí tohoto podrobného průvodce.
+Naučte se, jak v kontingenčních tabulkách Excelu pomocí Aspose.Cells pro .NET zadat externí zdroje dat připojení v tomto podrobném návodu. Ideální pro vývojáře .NET.
+### [Programové uložení kontingenční tabulky ve formátu ODS v .NET](./saving-in-ods-format/)
+Naučte se, jak ukládat kontingenční tabulky ve formátu ODS pomocí Aspose.Cells pro .NET s tímto podrobným návodem.
+### [Ukládání kontingenčních tabulek s vlastním řazením a skrytím v .NET](./saving-with-custom-sort-and-hide/)
+Naučte se, jak ukládat kontingenční tabulky s vlastním řazením a skrytím řádků pomocí Aspose.Cells pro .NET. Podrobný návod s praktickými příklady.
+### [Hledání a aktualizace vnořených nebo podřízených pivotních tabulek v .NET](./finding-and-refreshing-nested-or-children-pivot-tables/)
+Naučte se, jak najít a aktualizovat vnořené kontingenční tabulky v souborech Excelu pomocí Aspose.Cells pro .NET. Součástí jsou srozumitelné kroky a užitečné tipy.
+### [Analýza záznamů z mezipaměti Pivot při načítání souboru Excelu v .NET](./parsing-pivot-cached-records/)
+Naučte se, jak analyzovat záznamy z mezipaměti pivot tabulek v .NET pomocí Aspose.Cells. Jednoduchý návod pro efektivní správu souborů Excelu a pivot tabulek.
+### [Vlastní řazení kontingenčních tabulek programově v .NET](./pivot-table-custom-sort/)
+Naučte se, jak programově třídit kontingenční tabulky v .NET pomocí Aspose.Cells. Podrobný návod, který zahrnuje nastavení, konfiguraci, třídění a ukládání výsledků do souborů Excel a PDF.
+### [Hodnocení formátu zobrazení dat kontingenční tabulky v .NET](./pivot-table-data-display-format-ranking/)
+Naučte se, jak v tomto podrobném návodu vytvářet a spravovat pořadí formátů zobrazení dat kontingenčních tabulek v .NET pomocí Aspose.Cells.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

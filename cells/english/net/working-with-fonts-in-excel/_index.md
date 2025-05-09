@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Fonts in Excel
@@ -66,9 +68,11 @@ Learn how to apply a strikeout effect on text in Excel with Aspose.Cells for .NE
 Learn how to apply subscript effects in Excel using Aspose.Cells for .NET with this comprehensive guide. Step-by-step instructions included.
 ### [Customizing Super Script Effect on Text in Excel](./customizing-super-script-effect/)
 Learn how to customize superscript text in Excel using Aspose.Cells for .NET. Enhance your spreadsheets with easy steps.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

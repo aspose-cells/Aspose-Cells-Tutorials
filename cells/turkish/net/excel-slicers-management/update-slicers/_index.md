@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells .NET'te Dilimleyicileri Güncelleyin
-linktitle: Aspose.Cells .NET'te Dilimleyicileri Güncelleyin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de dilimleyicileri nasıl güncelleyeceğinizi öğrenin ve veri analizi becerilerinizi geliştirin.
-weight: 17
-url: /tr/net/excel-slicers-management/update-slicers/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de dilimleyicileri nasıl güncelleyeceğinizi öğrenin ve veri analizi becerilerinizi geliştirin."
+"linktitle": "Aspose.Cells .NET'te Dilimleyicileri Güncelleyin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells .NET'te Dilimleyicileri Güncelleyin"
+"url": "/tr/net/excel-slicers-management/update-slicers/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells .NET'te Dilimleyicileri Güncelleyin
@@ -22,7 +24,7 @@ C# konusunda sağlam bir anlayışa sahip olmalısınız. Bu, örnek kodu takip 
 ### Visual Studio Yüklendi
 Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET uygulamalarınızı geliştirmek ve çalıştırmak için buna ihtiyacınız olacak. 
 ### Aspose.Cells Kütüphanesi
- Aspose.Cells kütüphanesinin kurulu olması gerekir. Bunu web sitesinden indirebilirsiniz:[.NET için Aspose.Cells'i indirin](https://releases.aspose.com/cells/net/) . Satın almadan önce denemek isterseniz, ayrıca şuraya da göz atabilirsiniz:[Ücretsiz Deneme](https://releases.aspose.com/).
+Aspose.Cells kütüphanesinin kurulu olması gerekir. Bunu web sitesinden indirebilirsiniz: [.NET için Aspose.Cells'i indirin](https://releases.aspose.com/cells/net/). Satın almadan önce denemek isterseniz, ayrıca şuraya da göz atabilirsiniz: [Ücretsiz Deneme](https://releases.aspose.com/).
 ### Excel'in Temel Bilgileri
 Excel ve dilimleyiciler hakkında temel bir anlayış faydalı olacaktır. Excel'in dilimleyicileriyle deneyiminiz varsa, doğru yoldasınız!
 ## Paketleri İçe Aktar
@@ -44,16 +46,16 @@ string sourceDir = "Your Document Directory";
 // Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
- Yukarıdaki kodda şunu değiştirin:`"Your Document Directory"` dizinlerinizin gerçek yolu ile. 
-## Adım 2: Excel Çalışma Kitabını yükleyin
- Sonra, güncellemek istediğiniz dilimleyiciyi içeren Excel çalışma kitabını yüklemek isteyeceksiniz. Bu,`Workbook` sınıf.
+Yukarıdaki kodda şunu değiştirin: `"Your Document Directory"` dizinlerinizin gerçek yolu ile. 
+## Adım 2: Excel Çalışma Kitabını Yükleyin
+Sonra, güncellemek istediğiniz dilimleyiciyi içeren Excel çalışma kitabını yüklemek isteyeceksiniz. Bu, `Workbook` sınıf.
 ```csharp
 // Dilimleyiciyi içeren örnek Excel dosyasını yükleyin.
 Workbook wb = new Workbook(sourceDir + "sampleUpdatingSlicer.xlsx");
 ```
 Bu kod parçacığı belirtilen Excel dosyasını bir çalışma kitabı nesnesine yükler. Dosyanızın belirtilen dizinde bulunduğundan emin olun!
 ## Adım 3: Çalışma Sayfasına Erişim
- Çalışma kitabını yükledikten sonra dilimleyiciyi içeren çalışma sayfasına erişmeniz gerekir.`Worksheets` koleksiyon ilk çalışma kağıdına kolayca ulaşmamızı sağlar.
+Çalışma kitabını yükledikten sonra dilimleyiciyi içeren çalışma sayfasına erişmeniz gerekecektir. `Worksheets` koleksiyon ilk çalışma kağıdına kolayca ulaşmamızı sağlar.
 ```csharp
 // İlk çalışma sayfasına erişin.
 Worksheet ws = wb.Worksheets[0];
@@ -102,16 +104,18 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir Excel çalışma kitabındaki di
 ### Excel'deki dilimleyiciler nelerdir?
 Dilimleyiciler, kullanıcıların Excel tablolarında ve pivot tablolarında verileri filtrelemesine olanak tanıyan grafiksel araçlardır. Veri etkileşimini kullanıcı dostu hale getirirler.
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Cells ücretli bir kütüphanedir, ancak özelliklerini değerlendirmek için ücretsiz denemeyle başlayabilirsiniz. Bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Evet, Aspose.Cells ücretli bir kütüphanedir, ancak özelliklerini değerlendirmek için ücretsiz denemeyle başlayabilirsiniz. Bir lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Birden fazla dilimleyiciyi aynı anda güncelleyebilir miyim?
- Kesinlikle! Döngüye girebilirsin`Slicers` tek bir çalışma kitabındaki birden fazla dilimleyiciye değişiklikleri toplama ve uygulama.
+Kesinlikle! Döngüye girebilirsin `Slicers` birden fazla dilimleyicide yapılan değişiklikleri tek bir çalışma kitabında toplayın ve uygulayın.
 ### Aspose.Cells için destek mevcut mu?
- Evet, topluluk aracılığıyla destek bulabilir ve toplulukla bağlantı kurabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Evet, topluluk aracılığıyla destek bulabilir ve toplulukla bağlantı kurabilirsiniz. [Aspose forumu](https://forum.aspose.com/c/cells/9).
 ### Çalışma kitabımı hangi formatlarda kaydedebilirim?
 Aspose.Cells XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Uygulamaya geçmeden önce ön koşulları ele alalım.
 
 ### Gerekli Kitaplıklar, Sürümler ve Bağımlılıklar
 Bu eğitimi takip edebilmek için şunlara sahip olduğunuzdan emin olun:
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
 - Java için Aspose.Cells kütüphanesi. 25.3 sürümünü kullanacağız.
 
@@ -177,6 +179,9 @@ C5: Kesinlikle. Aspose.Cells, karmaşık formül hesaplamaları içeren sayfalar
 - **Satın almak**: Tam erişim için, şu adresten bir lisans satın almayı düşünün: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

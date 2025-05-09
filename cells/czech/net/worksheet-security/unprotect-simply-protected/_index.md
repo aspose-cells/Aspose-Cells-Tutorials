@@ -1,89 +1,93 @@
 ---
-title: Odemkněte jednoduše chráněný pracovní list pomocí Aspose.Cells
-linktitle: Odemkněte jednoduše chráněný pracovní list pomocí Aspose.Cells
-second_title: Aspose.Cells .NET Excel Processing API
-description: Pomocí Aspose.Cells for .NET můžete snadno zrušit ochranu listů aplikace Excel bez hesel. Naučte se nastavení, kroky kódu a bezproblémově ukládejte výstup.
-weight: 20
-url: /cs/net/worksheet-security/unprotect-simply-protected/
+"description": "Snadno odemkněte listy aplikace Excel bez hesla pomocí Aspose.Cells pro .NET. Naučte se nastavení, kroky kódu a bezproblémově ukládejte výstup."
+"linktitle": "Odemknout jednoduše chráněný pracovní list pomocí Aspose.Cells"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Odemknout jednoduše chráněný pracovní list pomocí Aspose.Cells"
+"url": "/cs/net/worksheet-security/unprotect-simply-protected/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Odemkněte jednoduše chráněný pracovní list pomocí Aspose.Cells
+# Odemknout jednoduše chráněný pracovní list pomocí Aspose.Cells
 
 ## Zavedení
-Odebrání ochrany z listu aplikace Excel může být záchranou, když potřebujete provést změny v uzamčených buňkách nebo aktualizovat data. S Aspose.Cells for .NET to můžete udělat hladce pomocí kódu, což vám umožní automatizovat nechráněné listy bez potřeby hesla, pokud jsou jednoduše chráněny. Tento tutoriál vás provede každým krokem, od nastavení předpokladů až po napsání potřebného kódu, a to vše přímočarým způsobem, díky kterému jsou věci jednoduché a přitom efektivní.
+Odebrání ochrany z listu aplikace Excel může být záchranou, když potřebujete provést změny v uzamčených buňkách nebo aktualizovat data. S Aspose.Cells pro .NET to můžete provést bezproblémově pomocí kódu, což vám umožní automatizovat odemčení listů bez nutnosti hesla, pokud jsou jednoduše chráněny. Tento tutoriál vás provede každým krokem, od nastavení předpokladů až po napsání potřebného kódu, a to vše přímočarým způsobem, který vše udrží jednoduché, ale efektivní.
 ## Předpoklady
-Než se do toho pustíme, ujistěte se, že máte vše nastaveno, abyste mohli začít odemykat pracovní listy pomocí Aspose.Cells pro .NET:
--  Aspose.Cells for .NET: Tuto knihovnu budete potřebovat k programové práci se soubory Excelu. Můžete si jej stáhnout z[Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) nebo přístup k jeho rozsáhlé[dokumentace](https://reference.aspose.com/cells/net/).
-- Vývojové prostředí: Vhodné prostředí pro aplikace .NET, jako je Visual Studio.
-- Základní porozumění C#: Některé základní znalosti programování C# budou užitečné, pokud se budete řídit příklady kódu.
-## Importujte balíčky
-Chcete-li použít Aspose.Cells ve svém projektu .NET, musíte nejprve importovat knihovnu Aspose.Cells. To lze provést přidáním balíčku Aspose.Cells NuGet do vašeho projektu. Zde je rychlý průvodce:
-1. Otevřete projekt v sadě Visual Studio.
-2. V Průzkumníku řešení klikněte pravým tlačítkem na svůj projekt a vyberte „Spravovat balíčky NuGet“.
+Než se do toho pustíme, ujistěte se, že máte vše připravené k odemykání listů pomocí Aspose.Cells pro .NET:
+- Aspose.Cells pro .NET: Tuto knihovnu budete potřebovat pro programovou práci s excelovými soubory. Můžete si ji stáhnout z [Stránka pro stažení Aspose.Cells](https://releases.aspose.com/cells/net/) nebo přístup k jeho rozsáhlému [dokumentace](https://reference.aspose.com/cells/net/).
+- Vývojové prostředí: Vhodné prostředí pro .NET aplikace, například Visual Studio.
+- Základní znalost C#: Bude užitečné sledovat základní znalosti programování v C# spolu s příklady kódu.
+## Importovat balíčky
+Chcete-li ve svém projektu .NET použít knihovnu Aspose.Cells, musíte nejprve importovat knihovnu Aspose.Cells. Toho lze dosáhnout přidáním balíčku NuGet Aspose.Cells do projektu. Zde je stručný návod:
+1. Otevřete svůj projekt ve Visual Studiu.
+2. V Průzkumníku řešení klikněte pravým tlačítkem myši na projekt a vyberte možnost „Spravovat balíčky NuGet“.
 3. Vyhledejte „Aspose.Cells“ a nainstalujte nejnovější verzi.
-4. Po instalaci přidejte na začátek souboru kódu následující import:
+4. Po instalaci přidejte následující import na začátek souboru s kódem:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Nyní se pojďme ponořit do skutečného procesu odblokování listu aplikace Excel!
-Pojďme si tento proces rozdělit do snadno pochopitelných kroků. Tento příklad předpokládá, že list, se kterým pracujete, nemá zámek chráněný heslem.
-## Krok 1: Nastavte adresář souborů
-V tomto kroku určíme adresář, kde jsou uloženy naše excelové soubory. To usnadní přístup ke vstupnímu souboru a uložení výstupního souboru na požadované místo.
+A teď se pojďme ponořit do samotného procesu odemčení listu aplikace Excel!
+Rozdělme si proces na snadno sledovatelné kroky. Tento příklad předpokládá, že pracovní list, se kterým pracujete, nemá zámek chráněný heslem.
+## Krok 1: Nastavení adresáře souborů
+V tomto kroku určíme adresář, kde jsou uloženy naše soubory Excelu. To usnadní přístup ke vstupnímu souboru a uložení výstupního souboru na požadované místo.
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "Your Document Directory";
 ```
- Nastavením cesty k adresáři`dataDir`vytvoříte pohodlnou zkratku pro přístup k souborům a jejich ukládání, aniž byste museli opakovaně zadávat celou cestu.
-## Krok 2: Načtěte sešit aplikace Excel
- Nyní načteme soubor Excel, se kterým chceme pracovat. Zde vytváříme a`Workbook` objekt, který představuje celý soubor Excel.
+Nastavením cesty k adresáři v `dataDir`, vytvoříte si pohodlnou zkratku pro přístup k souborům a jejich ukládání, aniž byste museli opakovaně zadávat celou cestu.
+## Krok 2: Načtení sešitu aplikace Excel
+Nyní si načtěme soubor aplikace Excel, se kterým chceme pracovat. Zde vytváříme `Workbook` objekt, který představuje celý soubor aplikace Excel.
 ```csharp
-// Vytvoření instance objektu sešitu
+// Vytvoření instance objektu Workbook
 Workbook workbook = new Workbook(dataDir + "book1.xls");
    ```
- The`Workbook` objekt je základní součástí Aspose.Cells a umožňuje provádět různé akce se souborem Excel. Projetím cesty`"book1.xls"`, tento řádek načte náš cílový soubor do programu.
-## Krok 3: Otevřete sešit, který chcete zrušit ochranu
-Jakmile je sešit načten, dalším krokem je určit, který list chcete zrušit. V tomto příkladu přistoupíme k prvnímu listu v sešitu.
+Ten/Ta/To `Workbook` Objekt je klíčovou součástí Aspose.Cells a umožňuje provádět různé akce s excelovým souborem. Předáním cesty k `"book1.xls"`, tento řádek načte náš cílový soubor do programu.
+## Krok 3: Přístup k listu, který chcete odemknout
+Jakmile je sešit načten, dalším krokem je určení, který list chcete odemknout. V tomto příkladu budeme mít přístup k prvnímu listu v sešitu.
 ```csharp
 // Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- The`Worksheets` vlastnost nám umožňuje přístup ke všem listům v sešitu. Upřesněním`[0]`, přistupujeme k prvnímu pracovnímu listu. Tento index můžete upravit, pokud je váš cílový list na jiné pozici.
-## Krok 4: Zrušte ochranu listu
-Nyní přichází základní část: odblokování listu. Vzhledem k tomu, že tento tutoriál je zaměřen na jednoduše chráněné listy (ty bez hesla), je zrušení ochrany jednoduché.
+Ten/Ta/To `Worksheets` Vlastnost nám poskytuje přístup ke všem listům v sešitu. Zadáním `[0]`, přistupujeme k prvnímu listu. Tento index můžete upravit, pokud se váš cílový list nachází na jiné pozici.
+## Krok 4: Odemknutí pracovního listu
+Nyní přichází ta nejdůležitější část: odemčení listu. Protože se tento tutoriál zaměřuje na jednoduše chráněné listy (ty bez hesla), je odemčení jednoduché.
 ```csharp
-// Zrušení ochrany listu bez hesla
+// Odemčení listu bez hesla
 worksheet.Unprotect();
 ```
- Zde,`Unprotect()` je volán na`worksheet` objekt. Protože máme co do činění s listem, který není chráněn heslem, nejsou potřeba žádné další parametry. List by nyní měl být nechráněný a upravitelný.
-## Krok 5: Uložte aktualizovaný sešit
-Po zrušení ochrany listu musíme sešit uložit. Můžete se rozhodnout přepsat původní soubor nebo jej uložit jako nový soubor.
+Zde, `Unprotect()` se nazývá na `worksheet` objekt. Protože se jedná o list, který není chráněn heslem, nejsou potřeba žádné další parametry. List by nyní měl být nechráněný a upravitelný.
+## Krok 5: Uložení aktualizovaného sešitu
+Po odemčení listu je třeba sešit uložit. Můžete si vybrat, zda přepsat původní soubor, nebo jej uložit jako nový soubor.
 ```csharp
 // Uložení sešitu
 workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
- V tomto řádku uložíme sešit pomocí`Save` metoda. The`SaveFormat.Excel97To2003` zajišťuje, že sešit je uložen ve starším formátu aplikace Excel, což může být užitečné, pokud jde o kompatibilitu. Pokud používáte novější verze Excelu, změňte formát.
+V tomto řádku uložíme sešit pomocí `Save` Metoda. Ta `SaveFormat.Excel97To2003` zajišťuje, že sešit je uložen ve starším formátu aplikace Excel, což může být užitečné, pokud máte obavy z kompatibility. Pokud používáte novější verze aplikace Excel, formát změňte.
 ## Závěr
-je to! Pomocí několika řádků kódu jste úspěšně odblokovali jednoduše chráněný list v souboru aplikace Excel pomocí Aspose.Cells for .NET. Tento přístup je skvělý pro automatizaci úloh v souborech aplikace Excel a šetří vám čas a námahu. Navíc, s Aspose.Cells, jste vybaveni výkonnými nástroji pro správu a manipulaci se soubory Excelu programově, což otevírá svět možností pro automatizaci vašich tabulkových pracovních postupů.
-## FAQ
+A to je vše! Pomocí několika řádků kódu jste úspěšně ochránili jednoduše chráněný list v souboru Excelu pomocí Aspose.Cells pro .NET. Tento přístup je skvělý pro automatizaci úloh v souborech Excelu, což vám ušetří čas a úsilí. Navíc s Aspose.Cells jste vybaveni výkonnými nástroji pro programovou správu a manipulaci s soubory Excelu, což otevírá svět možností pro automatizaci vašich pracovních postupů s tabulkami.
+## Často kladené otázky
 ### Co je Aspose.Cells pro .NET?
-Aspose.Cells for .NET je výkonná knihovna pro práci se soubory aplikace Excel v aplikacích .NET. Umožňuje vytvářet, upravovat, převádět a manipulovat se soubory aplikace Excel, aniž byste museli mít nainstalovaný Microsoft Excel.
-### Mohu touto metodou zrušit ochranu listu chráněného heslem?
- Ne, tato metoda funguje pouze pro jednoduše chráněné listy. U listů chráněných heslem budete muset zadat heslo v`Unprotect()` metoda.
-### Potřebuji k použití Aspose.Cells nainstalovaný Microsoft Excel?
-Ne, Aspose.Cells funguje nezávisle na aplikaci Microsoft Excel, takže ji nemusíte mít nainstalovanou ve svém systému.
+Aspose.Cells pro .NET je výkonná knihovna pro práci s Excelovými soubory v .NET aplikacích. Umožňuje vytvářet, upravovat, převádět a manipulovat s Excelovými soubory bez nutnosti instalace Microsoft Excelu.
+### Mohu touto metodou odemknout list chráněný heslem?
+Ne, tato metoda funguje pouze pro jednoduše chráněné listy. U listů chráněných heslem budete muset heslo zadat v `Unprotect()` metoda.
+### Potřebuji pro použití Aspose.Cells nainstalovaný Microsoft Excel?
+Ne, Aspose.Cells funguje nezávisle na Microsoft Excelu, takže jej nemusíte mít na svém systému nainstalovaný.
 ### Mohu uložit nechráněný list v novějších formátech aplikace Excel?
- Ano, můžete. Aspose.Cells podporuje více formátů, včetně`XLSX` . Stačí odpovídajícím způsobem změnit formát uložení v`Save` metoda.
-### Je Aspose.Cells k dispozici pro jiné platformy než .NET?
-Ano, Aspose.Cells má verze pro Javu a další platformy, které umožňují podobné funkce v různých programovacích prostředích.
+Ano, můžete. Aspose.Cells podporuje více formátů, včetně `XLSX`Stačí odpovídajícím způsobem změnit formát ukládání v `Save` metoda.
+### Je Aspose.Cells dostupný pro jiné platformy než .NET?
+Ano, Aspose.Cells má verze pro Javu a další platformy, což umožňuje podobné funkce v různých programovacích prostředích.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

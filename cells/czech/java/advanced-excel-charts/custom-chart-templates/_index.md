@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Šablony vlastních grafů
@@ -16,7 +18,7 @@
 
 ## Šablona vlastního grafu
 
-V neustále se vyvíjejícím světě vizualizace dat je vytváření vlastních šablon grafů nezbytné pro efektivní vyjádření příběhu vašich dat. Aspose.Cells pro Javu poskytuje výkonnou sadu nástrojů pro generování dynamických a přizpůsobených grafů v aplikacích Java. V tomto podrobném průvodci prozkoumáme, jak využít možnosti Aspose.Cells pro Javu k vytváření úžasných vlastních šablon grafů. Pojďme se do toho pustit!
+neustále se vyvíjejícím světě vizualizace dat je vytváření vlastních šablon grafů nezbytné pro efektivní vyjádření příběhu vašich dat. Aspose.Cells pro Javu poskytuje výkonnou sadu nástrojů pro generování dynamických a přizpůsobených grafů v aplikacích Java. V tomto podrobném průvodci prozkoumáme, jak využít možnosti Aspose.Cells pro Javu k vytváření úžasných vlastních šablon grafů. Pojďme se do toho pustit!
 
 ## Principy Aspose.Cells pro Javu
 
@@ -127,6 +129,7 @@ Rozhodně! Aspose.Cells pro Javu je všestranný a zvládne jak jednoduché, tak
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

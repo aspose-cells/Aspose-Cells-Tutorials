@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ public class AsposeInit {
 
        @Override
        public void writeData(byte[] buffer, int offset, int length) throws Exception {
-           // นำวิธีการจัดการสตรีมเอาท์พุตมาปฏิบัติที่นี่
+           // นำวิธีการจัดการสตรีมเอาท์พุตมาใช้งานที่นี่
            // ตัวอย่างเช่น การเขียนข้อมูลลงในไฟล์:
            java.nio.file.Files.write(java.nio.file.Paths.get(dataDir + "exported.html"), buffer);
        }
@@ -201,6 +203,9 @@ public class AsposeInit {
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

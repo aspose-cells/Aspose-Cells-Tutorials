@@ -1,38 +1,42 @@
 ---
-title: Operace XPS a PDF
-linktitle: Operace XPS a PDF
-second_title: Aspose.Cells .NET Excel Processing API
-description: Objevte komplexní výukové programy Aspose.Cells for .NET o operacích XPS a PDF pro zefektivnění převodů souborů.
-weight: 36
-url: /cs/net/xps-and-pdf-operations/
+"description": "Objevte komplexní tutoriály k Aspose.Cells pro .NET o operacích s XPS a PDF, které vám pomohou zefektivnit konverze souborů."
+"linktitle": "Operace s XPS a PDF"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Operace s XPS a PDF"
+"url": "/cs/net/xps-and-pdf-operations/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Operace XPS a PDF
+# Operace s XPS a PDF
 
 ## Zavedení
 
-Pokud jde o práci se soubory aplikace Excel, Aspose.Cells for .NET je velmoc. Věděli jste ale, že vám také umožňuje bezproblémově převádět soubory mimo formáty Excel? V tomto článku zdůrazníme dva základní výukové programy, které mohou změnit způsob práce s dokumenty aplikace Excel: Převod do XPS v .NET a Nastavení doby vytváření PDF v .NET. Pojďme se ponořit a prozkoumat tyto výkonné funkce. 
+Pokud jde o práci s excelovými soubory, Aspose.Cells pro .NET je skvělý nástroj. Věděli jste ale, že umožňuje bezproblémově převádět soubory nejen z excelových formátů? V tomto článku se zaměříme na dva základní tutoriály, které mohou změnit způsob, jakým pracujete s excelovými dokumenty: Převod do XPS v .NET a Nastavení času vytvoření PDF v .NET. Pojďme se do toho pustit a prozkoumat tyto výkonné funkce. 
 
-## Převod souborů Excel do XPS
+## Převod souborů Excelu do formátu XPS
 
- Nejprve si promluvme o převodu souborů aplikace Excel do formátu XPS. Možná se ptáte: "Proč bych měl chtít převést na XPS?" XPS (XML Paper Specification) je formát s pevným dokumentem, který zachovává vzhled a dojem z vašich excelových tabulek a usnadňuje jejich sdílení bez ztráty formátování. Chcete to zkusit? Podívejte se na náš tutoriál na[Převod na XPS v .NET](./converting-to-xps/)Provede vás procesem krok za krokem a je vybaven praktickými příklady kódu. Zjistíte, že je to nejen jednoduché, ale také neuvěřitelně efektivní pro zachování věrnosti dokumentu.
+Nejprve si povíme o převodu souborů aplikace Excel do formátu XPS. Možná vás napadá: „Proč bych je měl převádět do XPS?“ XPS (XML Paper Specification) je formát dokumentů s pevným rozhraním, který zachovává vzhled a dojem z tabulek aplikace Excel, takže je lze snadněji sdílet bez ztráty formátování. Chcete to vyzkoušet? Podívejte se na náš tutoriál na… [Převod do XPS v .NET](./converting-to-xps/)Provede vás celým procesem krok za krokem a doplní vás o praktické příklady kódu. Zjistíte, že je to nejen přímočaré, ale také neuvěřitelně efektivní pro zachování věrnosti dokumentu.
 
 ## Nastavení času vytvoření PDF pro lepší správu
 
- Dále se pojďme vypořádat se složitostí správy PDF. Soubory PDF jsou široce používány a mít kontrolu nad vlastnostmi dokumentu je prvořadé, zejména pro dokumenty. Potřebujete při převodu excelových listů do PDF nastavit konkrétní čas vytvoření? Znalost přesného časového razítka může být zásadní v mnoha profesních kontextech. Náš průvodce dál[Nastavení času vytvoření PDF v .NET](./setting-pdf-creation-time/) poskytuje jednoduché kroky k implementaci této funkce. S trochou kódu můžete zajistit, aby vaše soubory PDF nejen přesně odrážely obsah, ale také obsahovaly správná metadata. Proč to nezkusit? Je to jednodušší, než si myslíte!
+Dále se pojďme ponořit do složitostí správy PDF. PDF soubory jsou široce používané a mít kontrolu nad vlastnostmi dokumentu je zásadní, zejména pro dokumenty. Potřebujete nastavit konkrétní čas vytvoření při převodu excelových listů do PDF? Znalost přesného časového razítka může být v mnoha profesionálních kontextech klíčová. Náš průvodce [Nastavení času vytvoření PDF v .NET](./setting-pdf-creation-time/) poskytuje jednoduché kroky k implementaci této funkce. S trochou kódu můžete zajistit, aby vaše PDF soubory nejen přesně odrážely obsah, ale také obsahovaly správná metadata. Proč to nezkusit? Je to jednodušší, než si myslíte!
 
-## Návody k operacím XPS a PDF
-### [Převod na XPS v .NET](./converting-to-xps/)
-Naučte se převádět soubory aplikace Excel do formátu XPS pomocí Aspose.Cells for .NET v několika jednoduchých krocích s praktickými příklady kódu.
+## Výukové programy pro operace s XPS a PDF
+### [Převod do XPS v .NET](./converting-to-xps/)
+Naučte se, jak převést soubory Excelu do formátu XPS pomocí Aspose.Cells pro .NET v několika snadných krocích s praktickými příklady kódu.
 ### [Nastavení času vytvoření PDF v .NET](./setting-pdf-creation-time/)
-Naučte se, jak nastavit čas vytváření PDF v .NET pomocí Aspose.Cells. Postupujte podle našeho podrobného průvodce pro bezproblémový převod Excelu do PDF.
+Naučte se, jak nastavit čas vytvoření PDF v .NET pomocí Aspose.Cells. Postupujte podle našeho podrobného návodu pro bezproblémovou konverzi z Excelu do PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

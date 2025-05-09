@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ public class CreateAndModifyWorkbook {
 
 ### Característica 3: Definición y uso de una clase de datos personalizada
 
-Para gestionar nuestros datos de imagen, necesitamos una clase personalizada. Puedes definirla así:
+Para gestionar los datos de nuestras imágenes, necesitamos una clase personalizada. Puedes definirla así:
 
 ```java
 class Person {
@@ -208,6 +210,9 @@ Siguiendo esta guía, ha aprendido a integrar imágenes en libros de Excel media
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

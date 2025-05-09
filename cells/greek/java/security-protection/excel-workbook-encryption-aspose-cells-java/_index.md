@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ workbook.save(outDir + "EncryptingFiles_out.xls"); // Αποθήκευση κρ�
    - Ναι, υποστηρίζει λειτουργίες παρτίδας, οι οποίες μπορούν να βελτιώσουν σημαντικά την παραγωγικότητα κατά τον χειρισμό πολλαπλών αρχείων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

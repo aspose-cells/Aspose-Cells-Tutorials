@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animación de gráficos
@@ -38,7 +40,7 @@ import com.aspose.cells.*;
 
 ## Paso 2: Cargar o crear un libro de Excel
 
-Puede cargar un libro de Excel existente que contenga datos y gráficos o crear uno nuevo desde cero. A continuación, se explica cómo cargar un libro existente:
+Puede cargar un libro de Excel existente que contenga datos y gráficos o crear uno nuevo desde cero. A continuación, le explicamos cómo cargar un libro existente:
 
 ```java
 // Cargar un libro de trabajo existente
@@ -101,6 +103,7 @@ El retardo de la animación determina el intervalo de tiempo antes de que comien
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

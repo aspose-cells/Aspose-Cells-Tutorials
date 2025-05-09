@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,11 +17,11 @@
 
 Manfaatkan sepenuhnya potensi buku kerja Excel Anda dengan menguasai fitur perlindungan kolom dengan Aspose.Cells untuk Java. Panduan lengkap ini akan memandu Anda membuka dan mengunci kolom, serta melindungi seluruh lembar kerja.
 
-## Perkenalan
+## Bevezetés
 
 Mengelola keamanan data dalam buku kerja Excel sangat penting saat berkolaborasi pada informasi sensitif. Baik itu memastikan bahwa kolom penting tetap tidak berubah atau mencegah penyuntingan yang tidak diinginkan pada seluruh lembar kerja Anda, mengendalikan akses dapat menjaga integritas data Anda. Dengan Aspose.Cells untuk Java, pengembang dapat mengotomatiskan tugas-tugas ini secara efisien dan efektif. Dalam tutorial ini, Anda akan mempelajari cara membuka kunci semua kolom Excel, mengunci kolom tertentu, dan melindungi lembar kerja.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membuka kunci semua kolom di lembar Excel menggunakan Aspose.Cells.
 - Proses mengunci kolom pertama pada lembar kerja.
 - Langkah-langkah untuk melindungi seluruh lembar kerja dengan berbagai jenis perlindungan.
@@ -27,19 +29,19 @@ Mengelola keamanan data dalam buku kerja Excel sangat penting saat berkolaborasi
 
 Mari kita mulai dengan menyiapkan lingkungan pengembangan Anda dan menginstal pustaka yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kode, pastikan Anda memiliki hal berikut:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru.
 - **Kit Pengembangan Java (JDK)**Pastikan JDK terinstal pada sistem Anda.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - IDE Java yang berfungsi (misalnya, IntelliJ IDEA, Eclipse).
 - Alat pembangun Maven atau Gradle untuk manajemen ketergantungan.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java dan struktur XML.
 - Kemampuan menggunakan format file Excel dan kebutuhan perlindungan data.
 
@@ -59,18 +61,18 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Pengaturan Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Unduh paket uji coba untuk menguji fitur-fiturnya.
-- **Lisensi Sementara**:Dapatkan untuk penggunaan jangka panjang tanpa batasan.
-- **Pembelian**: Beli lisensi untuk penggunaan komersial dengan dukungan penuh.
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**: Unduh paket uji coba untuk menguji fitur-fiturnya.
+- **Ideiglenes engedély**:Dapatkan untuk penggunaan jangka panjang tanpa batasan.
+- **Vásárlás**: Beli lisensi untuk penggunaan komersial dengan dukungan penuh.
 
-**Inisialisasi dan Pengaturan Dasar**
+**Alapvető inicializálás és beállítás**
 Setelah dependensi ditetapkan, inisialisasi Aspose.Cells di aplikasi Java Anda:
 
 ```java
@@ -78,11 +80,11 @@ import com.aspose.cells.*;
 
 String dataDir = "YOUR_DATA_DIRECTORY";
 
-// Buat objek Buku Kerja baru
+// Új munkafüzet-objektum létrehozása
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Panduan ini membagi implementasi menjadi beberapa bagian berdasarkan fitur: membuka kunci kolom, mengunci kolom tertentu, dan melindungi lembar kerja.
 
@@ -90,11 +92,11 @@ Panduan ini membagi implementasi menjadi beberapa bagian berdasarkan fitur: memb
 
 Membuka kunci kolom memungkinkan pengguna untuk mengedit data secara bebas di seluruh lembar kerja.
 
-#### Ringkasan
+#### Áttekintés
 Kode berikut mengulangi semua kolom (hingga 255) dan membukanya:
 
 ```java
-// Buat buku kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook wb = new Workbook();
 // Ambil lembar pertama dari buku kerja.
 Worksheet sheet = wb.getWorksheets().get(0);
@@ -119,7 +121,7 @@ for (int i = 0; i <= 255; i++) {
 wb.save(dataDir + "TempUnlockColumns_out.xls");
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - **Gaya dan StyleFlag**: Objek yang menentukan properti visual dan perilaku kolom.
 - **Perulangan**: Mengulangi setiap kolom untuk menyesuaikan status terkunci.
 
@@ -127,11 +129,11 @@ wb.save(dataDir + "TempUnlockColumns_out.xls");
 
 Mengunci kolom tertentu dapat melindungi data penting agar tidak diubah oleh pengguna.
 
-#### Ringkasan
+#### Áttekintés
 Potongan kode ini hanya mengunci kolom pertama di lembar kerja Anda:
 
 ```java
-// Buat buku kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook wb = new Workbook();
 // Ambil lembar pertama dari buku kerja.
 Worksheet sheet = wb.getWorksheets().get(0);
@@ -149,18 +151,18 @@ sheet.getCells().getColumns().get(0).applyStyle(style, flag);
 wb.save(dataDir + "TempLockFirstColumn_out.xls");
 ```
 
-**Penjelasan:**
-- **Properti Terkunci**: Diatur ke `true` untuk mencegah adanya penyuntingan.
+**Magyarázat:**
+- **Properti Terkunci**: Beállítva erre: `true` untuk mencegah adanya penyuntingan.
 
 ### Lembar Kerja Perlindungan
 
 Melindungi seluruh lembar kerja mencegah pengguna membuat modifikasi kecuali mereka memiliki izin.
 
-#### Ringkasan
+#### Áttekintés
 Untuk melindungi seluruh lembar kerja, gunakan:
 
 ```java
-// Buat buku kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook wb = new Workbook();
 // Ambil lembar pertama dari buku kerja.
 Worksheet sheet = wb.getWorksheets().get(0);
@@ -172,34 +174,34 @@ sheet.protect(ProtectionType.ALL);
 wb.save(dataDir + "PColumnWorksheet_out.xls");
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - **TipePerlindungan.SEMUA**: Memastikan keamanan maksimum dengan menonaktifkan semua opsi pengeditan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut ini adalah beberapa aplikasi dunia nyata di mana fitur-fitur ini bisa sangat berharga:
-1. **Laporan Keuangan**: Kunci kolom sensitif dengan data penting seperti perkiraan anggaran sambil mengizinkan orang lain mengedit informasi umum.
+1. **Pénzügyi jelentések**: Kunci kolom sensitif dengan data penting seperti perkiraan anggaran sambil mengizinkan orang lain mengedit informasi umum.
 2. **Catatan Karyawan**: Lindungi catatan individual, tetapi izinkan personel SDM memperbarui entri tertentu sesuai kebutuhan.
 3. **Dasbor Manajemen Proyek**Menjaga tonggak pencapaian proyek tetap terkunci sembari mengizinkan anggota tim memperbarui status tugas.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan Aspose.Cells, pertimbangkan kiat-kiat berikut untuk kinerja yang optimal:
+Az Aspose.Cells használatakor az optimális teljesítmény érdekében vegye figyelembe a következő tippeket:
 - **Optimalkan Pemuatan Buku Kerja**: Gunakan metode hemat memori saat memuat file besar.
 - **Batasi Modifikasi Gaya**: Minimalkan jumlah perubahan gaya selama pemrosesan untuk mengurangi overhead.
 - **Manajemen Pengumpulan Sampah**Pastikan pembuangan objek yang tidak digunakan dilakukan dengan benar untuk mengosongkan memori.
 
-## Kesimpulan
+## Következtetés
 
 Dengan menguasai Aspose.Cells untuk Java, Anda telah mempelajari cara membuka dan mengunci kolom secara efektif dan melindungi lembar kerja. Keterampilan ini meningkatkan keamanan dan kontrol data dalam lingkungan kolaboratif. Untuk mempelajari Aspose.Cells lebih lanjut, pertimbangkan untuk mempelajari dokumentasinya yang komprehensif atau bereksperimen dengan fitur yang lebih canggih seperti manipulasi data dan pembuatan bagan.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan jenis perlindungan lainnya.
 - Integrasikan fungsionalitas Aspose.Cells dalam aplikasi Java yang lebih besar.
 
 **Ajakan Bertindak:** Cobalah menerapkan solusi ini dalam proyek berbasis Excel Anda berikutnya!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Berapa jumlah maksimum kolom yang dapat saya buka?**
    - Anda dapat membuka hingga 256 kolom menggunakan loop dari 0 hingga 255.
@@ -216,13 +218,16 @@ Dengan menguasai Aspose.Cells untuk Java, Anda telah mempelajari cara membuka da
 5. **Bagaimana Aspose.Cells menangani file Excel besar dalam aplikasi Java?**
    - Ia mengelola memori secara efisien, tetapi pertimbangkan untuk mengoptimalkan kode Anda untuk mengurangi waktu pemrosesan pada kumpulan data yang sangat besar.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Versi Terbaru](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Legújabb verzió letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Paket Uji Coba Gratis](#)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

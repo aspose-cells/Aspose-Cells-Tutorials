@@ -8,7 +8,9 @@ url: /net/row-and-column-management/insert-column-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert a Column in Aspose.Cells .NET
@@ -101,6 +103,7 @@ Yes, Aspose.Cells supports .NET Core, making it versatile for different .NET app
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

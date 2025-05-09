@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Innan vi börjar, se till att du har följande:
 
 - **Obligatoriska bibliotek:** Du behöver Aspose.Cells för Java-biblioteket (version 25.3).
 - **Miljöinställningar:** Se till att din utvecklingsmiljö stöder Java och kan bygga projekt med Maven eller Gradle.
-- **Kunskapsförkunskaper:** Grundläggande kunskaper i Java-programmering, inklusive objektorienterade principer.
+- **Kunskapsförkunskapskrav:** Grundläggande kunskaper i Java-programmering, inklusive objektorienterade principer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -186,6 +188,9 @@ Försök att implementera dessa lösningar i dina projekt och utforska de kraftf
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

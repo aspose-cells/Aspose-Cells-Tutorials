@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Optimalizace výkonu při použití Aspose.Cells:
 V tomto tutoriálu jste se naučili, jak vytvářet a upravovat styly dokumentů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Zvládnutím těchto technik můžete výrazně zlepšit schopnost vaší aplikace efektivně zpracovávat složité tabulkové úlohy.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

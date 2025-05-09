@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,6 +158,9 @@ w.save(dataDir + "ModifiedSample_out.xlsx");
 Ξεκινήστε το ταξίδι σας με το Aspose.Cells σήμερα και βελτιώστε τις εφαρμογές Java σας χειριζόμενοι απρόσκοπτα δεδομένα Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

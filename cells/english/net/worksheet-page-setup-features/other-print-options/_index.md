@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/other-print-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Other Print Options in Worksheet
@@ -114,6 +116,7 @@ You can get help from the Aspose community on their [Support Forum](https://foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

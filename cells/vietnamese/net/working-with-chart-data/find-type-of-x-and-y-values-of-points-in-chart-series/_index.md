@@ -1,14 +1,16 @@
 ---
-title: Tìm Loại Giá Trị X và Y của Điểm trong Biểu Đồ Chuỗi
-linktitle: Tìm Loại Giá Trị X và Y của Điểm trong Biểu Đồ Chuỗi
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách tìm kiểu giá trị X và Y trong chuỗi biểu đồ bằng Aspose.Cells cho .NET với hướng dẫn chi tiết, dễ làm theo này.
-weight: 11
-url: /vi/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Học cách tìm kiểu giá trị X và Y trong chuỗi biểu đồ bằng Aspose.Cells cho .NET với hướng dẫn chi tiết, dễ làm theo này."
+"linktitle": "Tìm Loại Giá Trị X và Y của Điểm trong Biểu Đồ Chuỗi"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tìm Loại Giá Trị X và Y của Điểm trong Biểu Đồ Chuỗi"
+"url": "/vi/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tìm Loại Giá Trị X và Y của Điểm trong Biểu Đồ Chuỗi
@@ -23,15 +25,15 @@ Trước khi thực hiện các bước, hãy đảm bảo bạn đã chuẩn b�
 
 1. Môi trường .NET: Bạn nên thiết lập môi trường phát triển .NET. Có thể là Visual Studio, Visual Studio Code hoặc bất kỳ IDE tương thích nào khác.
    
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 
-3.  Tệp Excel mẫu: Nhận tệp Excel mẫu có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Đảm bảo nó nằm trong thư mục dự án của bạn.
+3. Tệp Excel mẫu: Nhận tệp Excel mẫu có chứa biểu đồ. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên `sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Đảm bảo nó nằm trong thư mục dự án của bạn.
 
 4. Kiến thức lập trình cơ bản: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 
 ## Nhập gói
 
-Để tương tác với dữ liệu và biểu đồ Excel, bạn cần nhập các gói liên quan từ Aspose.Cells. Sau đây là cách thực hiện:
+Để tương tác với dữ liệu và biểu đồ Excel, bạn cần nhập các gói có liên quan từ Aspose.Cells. Sau đây là cách thực hiện:
 
 ### Thiết lập dự án của bạn
 
@@ -62,11 +64,11 @@ Trước tiên, bạn cần xác định thư mục chứa tệp Excel của b�
 string sourceDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` bằng đường dẫn lưu tệp Excel của bạn.
+Thay thế `"Your Document Directory"` bằng đường dẫn lưu tệp Excel của bạn.
 
 ## Bước 2: Tải Workbook
 
- Tiếp theo, tải tệp Excel vào`Workbook` đối tượng. Điều này cho phép bạn truy cập vào toàn bộ nội dung của tệp.
+Tiếp theo, tải tệp Excel vào `Workbook` đối tượng. Điều này cho phép bạn truy cập toàn bộ nội dung của tệp.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -134,16 +136,18 @@ Aspose.Cells là thư viện .NET cho phép các nhà phát triển quản lý v
 Có, Aspose cung cấp bản dùng thử miễn phí để bạn có thể khám phá các tính năng của Aspose.Cells.
 
 ### Tôi có thể tạo loại biểu đồ nào bằng Aspose.Cells?
-Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau bao gồm biểu đồ cột, biểu đồ thanh, biểu đồ đường, biểu đồ tròn, v.v.
+Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ cột, biểu đồ thanh, biểu đồ đường, biểu đồ tròn, v.v.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Có giấy phép tạm thời nào cho Aspose.Cells không?
- Có, bạn có thể yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm một cách tự do.
+Có, bạn có thể yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm một cách tự do.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

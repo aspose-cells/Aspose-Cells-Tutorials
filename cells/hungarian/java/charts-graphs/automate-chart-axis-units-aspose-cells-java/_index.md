@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Az Excel diagram tengelyegységeinek automatizálása az Aspose.Cells for Java segítségével
+# Az Excel diagram tengelyegységeinek automatizálása az Aspose.Cells segítségével Java-ban
 
 ## Bevezetés
 
@@ -36,7 +38,7 @@ Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelke
 
 ## Az Aspose.Cells beállítása Java-hoz
 
-Az Aspose.Cells Java-beli használatának megkezdéséhez integrálnia kell a projektjébe. Így teheti ezt meg Maven vagy Gradle használatával:
+Az Aspose.Cells Java-beli használatának elkezdéséhez integrálni kell a projektedbe. Így teheted ezt meg Maven vagy Gradle használatával:
 
 **Szakértő:**
 ```xml
@@ -59,7 +61,7 @@ Az Aspose.Cells Java-beli használatához ideiglenes licencet szerezhet be, vagy
 - **Ideiglenes engedély:** Ideiglenes engedélyt kell kérni a [Aspose ideiglenes engedély oldal](https://purchase.aspose.com/temporary-license/).
 - **Licenc vásárlása:** Vásároljon teljes licencet a következő címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
-Inicializáld az Aspose.Cells fájlt az Excel fájl betöltésével:
+Inicializáld az Aspose.Cells fájlt az Excel fájlod betöltésével:
 ```java
 Workbook wb = new Workbook("your-file-path.xlsx");
 ```
@@ -150,6 +152,9 @@ Készen állsz arra, hogy a következő szintre emeld a képességeidet? Próbá
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,146 +1,150 @@
 ---
-title: Membuat Objek Daftar di Excel menggunakan Aspose.Cells
-linktitle: Membuat Objek Daftar di Excel menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Buat objek daftar di Excel menggunakan Aspose.Cells for .NET dengan panduan terperinci ini. Kuasai manajemen data dan perhitungan yang mudah.
-weight: 10
-url: /id/net/tables-and-lists/creating-list-object/
+"description": "Hozz létre egy lista objektumot Excelben az Aspose.Cells for .NET használatával ezzel a részletes útmutatóval. Sajátítsd el az egyszerű adatkezelést és számításokat."
+"linktitle": "Lista objektum létrehozása Excelben az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Lista objektum létrehozása Excelben az Aspose.Cells használatával"
+"url": "/id/net/tables-and-lists/creating-list-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Objek Daftar di Excel menggunakan Aspose.Cells
+# Lista objektum létrehozása Excelben az Aspose.Cells használatával
 
-## Perkenalan
+## Bevezetés
 
-Dalam panduan ini, kami akan memandu Anda untuk membuat objek daftar di Excel dengan Aspose.Cells, dan menunjukkan kepada Anda langkah demi langkah cara memulainya. Dari menyiapkan lingkungan hingga menulis kode dan akhirnya menyimpan perubahan, tutorial ini akan mencakup semua hal yang perlu Anda ketahui!
+Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan hozhatsz létre lista objektumot Excelben az Aspose.Cells segítségével. A környezet beállításától a kód megírásán át a módosítások mentéséig ez az útmutató mindent lefed, amit tudnod kell!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum mulai mengerjakan kode, pastikan Anda sudah menyiapkan semuanya. Berikut ini yang Anda perlukan:
+Mielőtt belekezdenénk a kódba, győződjünk meg róla, hogy minden a helyén van. Íme, amire szükséged van:
 
-### Pemahaman Dasar tentang C#
-Memiliki pengetahuan tentang bahasa pemrograman C# akan sangat membantu Anda dalam memahaminya. Jika Anda baru mengenal C#, jangan khawatir! Anda selalu dapat mempelajari dasar-dasarnya secara online.
+### A C# alapjainak ismerete
+A C# programozási nyelvvel való némi ismeret jelentősen segíteni fog a haladásban. Ha még csak most ismerkedsz a C#-kal, ne aggódj! Az alapokat mindig elsajátíthatod online.
 
-### Visual Studio atau IDE C# apa pun
-Anda memerlukan Integrated Development Environment (IDE) untuk menjalankan kode C# Anda. Visual Studio sangat populer dan mendukung proyek .NET secara langsung. Jika Anda lebih suka alternatif, Anda dapat menggunakan JetBrains Rider atau bahkan Visual Studio Code.
+### Visual Studio vagy bármilyen C# IDE
+Szükséged lesz egy integrált fejlesztői környezetre (IDE) a C# kód futtatásához. A Visual Studio nagyon népszerű, és alapból támogatja a .NET projekteket. Ha alternatívákat szeretnél, használhatod a JetBrains Ridert vagy akár a Visual Studio Code-ot is.
 
-### Aspose.Cells untuk .NET
- Anda harus memiliki pustaka Aspose.Cells. Jika Anda belum memilikinya, unduh pustaka tersebut[Di Sini](https://releases.aspose.com/cells/net/) Anda juga dapat mencobanya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+### Aspose.Cells .NET-hez
+Rendelkezned kell az Aspose.Cells könyvtárral. Ha még nem tetted meg, töltsd le. [itt](https://releases.aspose.com/cells/net/)Kipróbálhatod egy ingyenes próbaverzióval is [itt](https://releases.aspose.com/).
 
-### Buat proyek dan referensi Aspose.Cells
-Pastikan proyek Anda merujuk pada pustaka Aspose.Cells dengan menambahkan DLL yang relevan.
+### Hozz létre egy projektet és hivatkozz az Aspose.Cells-re
+Győződj meg róla, hogy a projekted az Aspose.Cells könyvtárra hivatkozik a vonatkozó DLL-ek hozzáadásával.
 
-Setelah semuanya siap, kita bisa masuk ke kodenya!
+Miután mindent beállítottunk, belevághatunk a kódba!
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan di awal berkas C# Anda. Paket ini mencakup namespace Aspose.Cells, yang menampung semua fungsi yang kita butuhkan:
+Kezdésként importálnod kell a szükséges csomagokat a C# fájlod elejére. Ezek a csomagok tartalmazzák az Aspose.Cells névteret, amely az összes szükséges funkciót tartalmazza:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Langkah sederhana ini meletakkan dasar untuk kode Anda dan membuka dunia peluang untuk memanipulasi file Excel.
+Ez az egyszerű lépés lefekteti a kód alapjait, és új lehetőségeket nyit meg az Excel-fájlok kezelésében.
 
-Sekarang, mari kita uraikan setiap langkah menjadi bagian-bagian yang mudah dipahami. Dengan mengikuti langkah-langkah ini, Anda akan membuat objek daftar di Excel secara efektif.
+Most bontsuk le az egyes lépéseket rövid, könnyen érthető részekre. Ezeket a lépéseket követve hatékonyan hozhatsz létre listaobjektumot az Excelben.
 
-## Langkah 1: Siapkan Direktori Dokumen Anda
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-Hal pertama yang harus dilakukan! Anda perlu menentukan jalur penyimpanan dokumen Anda. Ini penting karena Anda akan memuat dan menyimpan file di sini. 
+Először is a legfontosabb! Meg kell adnod a dokumentumok tárolási útvonalát. Ez azért fontos, mert ide fogod betölteni és menteni a fájlokat. 
 
 ```csharp
-string dataDir = "Your Document Directory"; // Perbarui jalur ini!
+string dataDir = "Your Document Directory"; // Frissítsd ezt az útvonalat!
 ```
 
-Anda dapat menganggap ini sebagai pengaturan ruang kerja Anda. Sama seperti pelukis yang membutuhkan kanvas bersih, Anda perlu memberi tahu kode Anda di mana menemukan file yang ingin Anda kerjakan.
+Gondolj erre úgy, mint a munkaterületed beállítására. Ahogy egy festőnek is tiszta vászonra van szüksége, neked is meg kell mondanod a kódodnak, hogy hol találja a dolgozni kívánt fájlokat.
 
-## Langkah 2: Buat Objek Buku Kerja
+## 2. lépés: Munkafüzet-objektum létrehozása
 
-Selanjutnya, Anda perlu membuat objek Workbook. Objek ini akan mewakili berkas Excel Anda dalam kode Anda. 
+Ezután létre kell hoznod egy Workbook objektumot. Ez az objektum fogja az Excel fájlodat képviselni a kódodban. 
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-Saat Anda membuka buku kerja ini, seperti membuka sampul buku. Semua data di dalamnya kini siap dibaca dan dimanipulasi!
+Amikor kinyitod ezt a munkafüzetet, olyan, mintha egy könyv borítóját lapoznád ki. Az összes benne lévő adat készen áll az olvasásra és a szerkesztésre!
 
-## Langkah 3: Mengakses Koleksi Objek Daftar
+## 3. lépés: Hozzáférés a List Objects gyűjteményhez
 
-Sekarang, mari kita bahas lebih dalam! Anda perlu mengakses objek daftar di dalam lembar kerja pertama. Berikut cara melakukannya:
+Most pedig merüljünk el mélyebben! Hozzá kell férned az első munkalapon található listaobjektumokhoz. Így csináld:
 
 ```csharp
 Aspose.Cells.Tables.ListObjectCollection listObjects = workbook.Worksheets[0].ListObjects;
 ```
 
-Perintah ini menarik keluar objek dalam daftar, mirip dengan meraih kotak peralatan untuk mengambil alat tertentu. 
+Ez a parancs a listaobjektumokat húzza ki, hasonlóan ahhoz, mintha egy eszköztárba nyúlnánk egy adott eszköz megragadásához. 
 
-## Langkah 4: Tambahkan Objek Daftar
+## 4. lépés: Lista objektum hozzáadása
 
-Sekarang tibalah bagian yang menyenangkan, yaitu menambahkan daftar! Gunakan baris kode berikut untuk membuat daftar berdasarkan rentang sumber data:
+Most jön a lista hozzáadásának igazi mókája! Használd a következő kódsort egy lista létrehozásához az adatforrás tartománya alapján:
 
 ```csharp
 listObjects.Add(1, 1, 7, 5, true);
 ```
 
- Dalam hal ini, parameter (1, 1, 7, 5) menentukan koordinat awal dan akhir rentang data daftar Anda, sedangkan`true` di bagian akhir menandakan bahwa rentang Anda mencakup tajuk. Anggap ini sebagai dasar untuk daftar Anda—data dasar harus benar!
+Ebben a paraméterek (1, 1, 7, 5) határozzák meg a lista adattartományának kezdő és végkoordinátáit, míg a `true` a végén azt jelzi, hogy a tartomány fejléceket tartalmaz. Gondolj erre úgy, mint a lista alapjának lerakására – az alapadatoknak helyesnek kell lenniük!
 
-## Langkah 5: Tampilkan Total dalam Daftar Anda
+## 5. lépés: Összesítések megjelenítése a listában
 
-Jika Anda ingin ringkasan daftar Anda, Anda dapat mengaktifkan baris total untuk memudahkan perhitungan. Gunakan baris ini:
+Ha a listádról összefoglalót szeretnél, engedélyezheted az összegző sort az egyszerű számítások érdekében. Használd ezt a sort:
 
 ```csharp
 listObjects[0].ShowTotals = true;
 ```
 
-Fitur ini seperti memiliki kalkulator otomatis di bagian bawah lembar Excel Anda. Fitur ini menghemat kesulitan Anda dalam menghitung total secara manual—hore untuk kemudahan!
+Ez a funkció olyan, mintha egy automatikus számológép lenne az Excel-táblázat alján. Megspórolja az összegek manuális kiszámításának fáradságát – hurrá, a kényelem!
 
-## Langkah 6: Hitung Total untuk Kolom Tertentu
+## 6. lépés: Adott oszlop összegeinek kiszámítása
 
-Selanjutnya, mari tentukan bagaimana Anda ingin menghitung total untuk kolom daftar ke-5. Cukup tambahkan kode ini:
+Következő lépésként adjuk meg, hogyan szeretnénk kiszámítani az 5. listaoszlop összegét. Ehhez csak adjuk hozzá ezt a kódot:
 
 ```csharp
 listObjects[0].ListColumns[4].TotalsCalculation = Aspose.Cells.Tables.TotalsCalculation.Sum; 
 ```
 
-Dengan ini, Anda telah memerintahkan Excel untuk menjumlahkan nilai kolom yang ditentukan. Ini seperti memberi tahu kalkulator Anda, "Hei, berikan saja saya total angka-angka ini."
+Ezzel utasítottad az Excelt, hogy összegezze a megadott oszlop értékeit. Ez olyan, mintha azt mondanád a számológépednek: „Hé, csak add meg ezeknek a számoknak az összegét.”
 
-## Langkah 7: Simpan Buku Kerja
+## 7. lépés: A munkafüzet mentése
 
-Akhirnya, saatnya menyimpan buku kerja dan melihat perubahan Anda berlaku! Gunakan baris kode ini:
+Végre itt az ideje menteni a munkafüzetet, és megnézni, ahogy a módosítások életbe lépnek! Használd ezt a kódsort:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-Saat Anda menjalankan kode ini, semua kerja keras Anda akan tersimpan dalam file Excel baru! Anggap saja ini sebagai sentuhan akhir pada mahakarya Anda dan simpan untuk dinikmati orang lain.
+Abban a pillanatban, hogy lefuttatod ezt a kódot, az összes kemény munkád egy új Excel-fájlba mentésre kerül! Gondolj erre úgy, mint egy remekműved befejező simítására, és lezárásra, hogy mások is élvezhessék.
 
-## Kesimpulan
+## Következtetés
 
-Nah, itu dia! Anda baru saja membuat objek daftar di Excel menggunakan Aspose.Cells for .NET. Dari menyiapkan lingkungan hingga menyimpan buku kerja baru, setiap langkah telah membawa Anda lebih dekat untuk menguasai pemrograman Excel. Metode ini tidak hanya membantu dalam mengatur data secara efektif, tetapi juga menambahkan lapisan fungsionalitas yang signifikan ke lembar kerja Anda.
+És tessék! Most hoztál létre egy listaobjektumot az Excelben az Aspose.Cells for .NET használatával. A környezet beállításától az új munkafüzet mentéséig minden lépés közelebb vitt az Excel programozás elsajátításához. Ez a módszer nemcsak az adatok hatékony rendszerezésében segít, hanem jelentős funkcionalitási réteggel is bővíti a táblázataidat.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?  
-Aspose.Cells adalah API yang canggih untuk membuat dan mengelola dokumen Excel secara terprogram dalam berbagai bahasa pemrograman, termasuk C#.
+### Mi az Aspose.Cells?  
+Az Aspose.Cells egy hatékony API Excel dokumentumok programozott létrehozásához és kezeléséhez különböző programozási nyelveken, beleértve a C#-ot is.
 
-### Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?  
-Ya! Meskipun tutorial ini berfokus pada .NET, Aspose.Cells juga tersedia untuk Java, Android, dan Python.
+### Használhatom az Aspose.Cells-t más programozási nyelvekkel?  
+Igen! Bár ez az oktatóanyag a .NET-re összpontosít, az Aspose.Cells elérhető Java, Android és Python rendszerekhez is.
 
-### Apakah saya memerlukan lisensi untuk Aspose.Cells?  
- Ya, Anda memerlukan lisensi untuk fungsionalitas penuh, tetapi Anda dapat memulai dengan uji coba gratis untuk menguji berbagai hal. Lihat selengkapnya[Di Sini](https://releases.aspose.com/).
+### Szükségem van licencre az Aspose.Cells-hez?  
+Igen, a teljes funkcionalitáshoz licencre van szükséged, de kipróbálhatod egy ingyenes próbaverzióval. Nézd meg [itt](https://releases.aspose.com/).
 
-### Apakah Excel perlu diinstal di komputer saya?  
-Tidak, Aspose.Cells tidak mengharuskan Excel diinstal pada mesin untuk membuat atau memanipulasi file Excel.
+### Szükséges, hogy az Excel telepítve legyen a gépemen?  
+Nem, az Aspose.Cells nem igényli az Excel telepítését a gépre az Excel-fájlok létrehozásához vagy kezeléséhez.
 
-### Di mana saya dapat menemukan dokumentasi lebih lanjut?  
- Untuk informasi lebih lanjut dan dokumentasi mendalam, kunjungi situs web[Di Sini](https://reference.aspose.com/cells/net/).
+### Hol találok további dokumentációt?  
+További információkért és részletes dokumentációért látogassa meg a weboldalt [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: แปลงตารางเป็น ODS โดยใช้ Aspose.Cells
-linktitle: แปลงตารางเป็น ODS โดยใช้ Aspose.Cells
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้การแปลงตาราง Excel เป็น ODS โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ ของเรา
-weight: 12
-url: /th/net/tables-and-lists/converting-table-to-ods/
+"description": "เรียนรู้การแปลงตาราง Excel เป็น ODS โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ ของเรา"
+"linktitle": "แปลงตารางเป็น ODS โดยใช้ Aspose.Cells"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "แปลงตารางเป็น ODS โดยใช้ Aspose.Cells"
+"url": "/th/net/tables-and-lists/converting-table-to-ods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงตารางเป็น ODS โดยใช้ Aspose.Cells
@@ -27,7 +29,7 @@ url: /th/net/tables-and-lists/converting-table-to-ods/
 
 ### ดาวน์โหลดไลบรารี Aspose.Cells
 
- คุณจะต้องติดตั้งไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้[ที่นี่](https://releases.aspose.com/cells/net/)หรือหากคุณต้องการ คุณสามารถเพิ่มได้ผ่าน NuGet:
+คุณจะต้องติดตั้งไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้ [ที่นี่](https://releases.aspose.com/cells/net/)หรือหากคุณต้องการ คุณสามารถเพิ่มได้ผ่าน NuGet:
 
 ```bash
 Install-Package Aspose.Cells
@@ -67,7 +69,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณที่เก็บเอกสารของคุณ การตรวจสอบเส้นทางที่ถูกต้องเป็นสิ่งสำคัญเพื่อหลีกเลี่ยงข้อผิดพลาดระหว่างการดำเนินการไฟล์
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงบนคอมพิวเตอร์ของคุณที่เก็บเอกสารของคุณ การตรวจสอบเส้นทางที่ถูกต้องเป็นสิ่งสำคัญเพื่อหลีกเลี่ยงข้อผิดพลาดระหว่างการดำเนินการไฟล์
 
 ## ขั้นตอนที่ 2: เปิดไฟล์ Excel
 
@@ -78,7 +80,7 @@ string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 ```
 
- ที่นี่ คุณกำลังเริ่มต้นสิ่งใหม่`Workbook` วัตถุที่มีเส้นทางของไฟล์ Excel ของคุณ ตรวจสอบให้แน่ใจว่า "SampleTable.xlsx" เป็นชื่อไฟล์ของคุณ หากชื่อแตกต่างกัน ให้ปรับให้เหมาะสม
+ที่นี่ คุณกำลังเริ่มต้นสิ่งใหม่ `Workbook` วัตถุที่มีเส้นทางของไฟล์ Excel ของคุณ ตรวจสอบให้แน่ใจว่า "SampleTable.xlsx" เป็นชื่อไฟล์ของคุณ หากชื่อแตกต่างกัน ให้ปรับให้เหมาะสม
 
 ## ขั้นตอนที่ 3: บันทึกเป็นไฟล์ ODS
 
@@ -89,7 +91,7 @@ Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 wb.Save(outputDir + "ConvertTableToOds_out.ods");
 ```
 
-บรรทัดนี้จะบันทึกเวิร์กบุ๊กไปยังไดเรกทอรีเอาต์พุตที่ระบุโดยใช้ชื่อ "ConvertTableToOds_out.ods" คุณสามารถตั้งชื่ออะไรก็ได้ตามต้องการ ตราบใดที่ลงท้ายด้วย`.ods`.
+บรรทัดนี้จะบันทึกเวิร์กบุ๊กไปยังไดเรกทอรีเอาต์พุตที่ระบุโดยใช้ชื่อ "ConvertTableToOds_out.ods" คุณสามารถตั้งชื่ออะไรก็ได้ตามต้องการ ตราบใดที่ลงท้ายด้วย `-ods`.
 
 ## ขั้นตอนที่ 4: ตรวจสอบความสำเร็จของการแปลง
 
@@ -112,19 +114,21 @@ Console.WriteLine("ConvertTableToOds executed successfully.");
 Aspose.Cells เป็นไลบรารีอันทรงพลังสำหรับการจัดการและปรับเปลี่ยนไฟล์ Excel ในแอปพลิเคชัน .NET 
 
 ### ฉันสามารถทดลองใช้ Aspose.Cells ฟรีได้หรือไม่?
- ใช่! คุณสามารถดาวน์โหลด Aspose.Cells รุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถดาวน์โหลด Aspose.Cells รุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 
 ### มีการสนับสนุนสำหรับผู้ใช้ Aspose.Cells หรือไม่
- แน่นอน! คุณสามารถรับการสนับสนุนได้ผ่าน[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+แน่นอน! คุณสามารถรับการสนับสนุนได้ผ่าน [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
 
 ### ฉันสามารถซื้อใบอนุญาตถาวรสำหรับ Aspose.Cells ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตถาวรได้โดยตรงจากหน้าการซื้อ Aspose ซึ่งคุณจะพบได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถซื้อใบอนุญาตถาวรได้โดยตรงจากหน้าการซื้อ Aspose ซึ่งคุณจะพบได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### ฉันสามารถแปลงรูปแบบไฟล์ประเภทใดได้บ้างโดยใช้ Aspose.Cells?
 ด้วย Aspose.Cells คุณสามารถแปลงระหว่างรูปแบบต่างๆ รวมถึง XLSX, XLS, ODS, CSV และอื่นๆ อีกมากมาย!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

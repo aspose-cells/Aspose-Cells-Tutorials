@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/auto-populate-data-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto-Populate Data Across Sheets in Aspose.Cells
@@ -127,6 +129,7 @@ Yes, you can create a reusable component or method that encapsulates the steps w
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

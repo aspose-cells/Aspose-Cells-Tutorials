@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ public class Main {
 Ora implementiamo passo dopo passo le funzionalità chiave.
 
 ### 1. Crea una nuova cartella di lavoro
-Per iniziare, creiamo una nuova cartella di lavoro Excel in formato XLSX.
+Per iniziare, crea una nuova cartella di lavoro Excel in formato XLSX.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.FileFormatType;
@@ -220,6 +222,9 @@ Ora hai imparato a creare e rappresentare graficamente una cartella di lavoro ut
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

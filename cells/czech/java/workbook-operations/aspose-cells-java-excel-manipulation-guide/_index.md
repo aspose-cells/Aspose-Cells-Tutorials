@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ Dodržováním této příručky jste se naučili základní techniky pro manipu
 Chcete-li pokračovat v prozkoumávání možností Aspose.Cells, zvažte ponoření se do pokročilých funkcí, jako je vytváření grafů, ověřování dat a další.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

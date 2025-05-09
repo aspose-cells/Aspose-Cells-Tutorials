@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### ขั้นตอนการรับใบอนุญาต
 
 หากต้องการใช้ Aspose.Cells สำหรับ Java คุณจะต้องมีไฟล์ลิขสิทธิ์ ต่อไปนี้คือขั้นตอนในการขอรับไฟล์ลิขสิทธิ์:
-- **ทดลองใช้งานฟรี**:ดาวน์โหลดรุ่นทดลองใช้งานชั่วคราวได้จาก [เว็บไซต์ของ Aspose](https://releases.aspose.com/cells/java/). สิ่งนี้จะช่วยให้คุณสามารถประเมินห้องสมุดได้โดยปราศจากข้อจำกัด
+- **ทดลองใช้งานฟรี**:ดาวน์โหลดรุ่นทดลองใช้งานชั่วคราวได้จาก [เว็บไซต์ของ Aspose](https://releases.aspose.com/cells/java/). นี้จะทำให้คุณสามารถประเมินห้องสมุดได้โดยไม่จำกัด
 - **ใบอนุญาตชั่วคราว**:ขอใบอนุญาตชั่วคราวผ่าน [ลิงค์นี้](https://purchase.aspose.com/temporary-license/) หากคุณต้องการใช้เพื่อการทดสอบหรือการพัฒนาเพิ่มเติม
 - **ซื้อ**:หากต้องการใช้ในระยะยาว ควรพิจารณาซื้อใบอนุญาตจาก [หน้าการซื้อของ Aspose](https://purchase-aspose.com/buy).
 
@@ -144,6 +146,9 @@ workbook.save("QEToXPSConversion_out.xps", SaveFormat.XPS);
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

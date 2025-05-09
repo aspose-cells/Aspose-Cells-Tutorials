@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ Añadir hipervínculos es sencillo con Aspose.Cells. Solo tienes que especificar
    String url = "http://www.aspose.com";
    ```
 2. **Agregar hipervínculo a la celda 'A1':**
-   - Utilice el `add` método para insertar un hipervínculo:
+   - Utilice el `add` Método para insertar un hipervínculo:
      ```java
      hyperlinks.add("A1", totalColumns, row, column, url);
      ```
@@ -183,7 +185,7 @@ En esta guía, hemos explorado cómo agregar hipervínculos a archivos de Excel 
 
 Para mejorar tus habilidades, explora las funciones adicionales de Aspose.Cells, como la creación de gráficos o el análisis de datos. Experimenta con los diferentes formatos de archivo compatibles con la biblioteca.
 
-¿Listo para automatizar tus flujos de trabajo de Excel? ¡Sumérgete en el proceso! [Documentación de Aspose](https://reference.aspose.com/cells/java/) para técnicas y ejemplos más avanzados.
+¿Listo para automatizar tus flujos de trabajo de Excel? ¡Sumérgete en...! [Documentación de Aspose](https://reference.aspose.com/cells/java/) para técnicas y ejemplos más avanzados.
 
 ## Sección de preguntas frecuentes
 
@@ -208,6 +210,9 @@ A5: Verifique las referencias de celda y los formatos de URL. [Foro de soporte d
 - **Licencia de compra:** [Comprar Aspose.Cells para Java](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ public class WorkbookFormulaLocalization {
         // Egyéni globalizációs beállítások beállítása a munkafüzetre
         wb.getSettings().setGlobalizationSettings(new GS());
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
         
         // Hozzáférés egy adott cellához, ahol a képletek beállításra kerülnek
@@ -147,6 +149,9 @@ Mostanra már alaposan ismernie kell az Excel-képletek testreszabásának módj
 Használd ki ezeket az anyagokat, hogy tovább bővítsd az Aspose.Cells for Java megértését és megvalósítási készségeidet. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

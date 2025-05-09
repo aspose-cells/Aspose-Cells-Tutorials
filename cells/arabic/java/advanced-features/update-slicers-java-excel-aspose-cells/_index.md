@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ System.out.println("Workbook saved successfully.");
 في هذا الدليل، استكشفنا كيفية تحديث شرائح البيانات في ملفات جافا إكسل باستخدام Aspose.Cells. تعلمت كيفية تحميل وعرض إصدار المكتبة، ومعالجة شرائح البيانات برمجيًا، وحفظ التغييرات في ملف إكسل. بفضل هذه المهارات، يمكنك أتمتة عمليات تصفية البيانات، مما يعزز الإنتاجية والدقة في مهام تحليل البيانات.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

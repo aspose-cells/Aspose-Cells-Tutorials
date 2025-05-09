@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells .NET में Excel तालिका के लिए स्लाइसर बनाएँ
-linktitle: Aspose.Cells .NET में Excel तालिका के लिए स्लाइसर बनाएँ
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel तालिकाओं में स्लाइसर बनाने का तरीका जानें। कुशल डेटा फ़िल्टरिंग के लिए चरण-दर-चरण मार्गदर्शिका।
-weight: 11
-url: /hi/net/excel-slicers-management/create-slicer-excel-table/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel तालिकाओं में स्लाइसर बनाने का तरीका जानें। कुशल डेटा फ़िल्टरिंग के लिए चरण-दर-चरण मार्गदर्शिका।"
+"linktitle": "Aspose.Cells .NET में Excel तालिका के लिए स्लाइसर बनाएँ"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Aspose.Cells .NET में Excel तालिका के लिए स्लाइसर बनाएँ"
+"url": "/hi/net/excel-slicers-management/create-slicer-excel-table/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells .NET में Excel तालिका के लिए स्लाइसर बनाएँ
@@ -23,7 +25,7 @@ Aspose.Cells for .NET की दुनिया में आपका स्व
 ### विजुअल स्टूडियो
 अपने .NET कोड को आराम से लिखने और चलाने के लिए Visual Studio (अधिमानतः नवीनतम संस्करण) स्थापित करें। हम इस वातावरण का उपयोग Aspose.Cells को एकीकृत करने के लिए करेंगे।
 ### .NET के लिए Aspose.Cells
- इस पर जाकर .NET के लिए Aspose.Cells डाउनलोड और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/)यह लाइब्रेरी एक्सेल फाइलों को प्रोग्रामेटिक रूप से हेरफेर करने का आपका प्रवेश द्वार है।
+इस पर जाकर .NET के लिए Aspose.Cells डाउनलोड और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/)यह लाइब्रेरी एक्सेल फाइलों को प्रोग्रामेटिक रूप से हेरफेर करने का आपका प्रवेश द्वार है।
 ### नमूना एक्सेल फ़ाइल
 आपके पास एक टेबल वाली सैंपल एक्सेल फ़ाइल होनी चाहिए, क्योंकि आप पूरे ट्यूटोरियल में इस फ़ाइल में हेरफेर करेंगे। आप एक्सेल में ही एक सरल एक्सेल स्प्रेडशीट बना सकते हैं या परीक्षण के लिए दिए गए सैंपल का उपयोग कर सकते हैं।
 ## पैकेज आयात करें
@@ -48,9 +50,9 @@ string sourceDir = "Your Document Directory";
 // आउटपुट निर्देशिका
 string outputDir = "Your Document Directory";
 ```
- प्रतिस्थापित करना सुनिश्चित करें`"Your Document Directory"` वास्तविक निर्देशिका के साथ जहां आपकी एक्सेल फ़ाइल स्थित है।
+प्रतिस्थापित करना सुनिश्चित करें `"Your Document Directory"` वास्तविक निर्देशिका के साथ जहां आपकी एक्सेल फ़ाइल स्थित है।
 ## चरण 2: एक्सेल वर्कबुक लोड करें
-इसके बाद, हम एक्सेल वर्कबुक को लोड करना चाहते हैं जिसमें वह टेबल है जिसके साथ हम काम करेंगे। यह महत्वपूर्ण है क्योंकि बाद की सभी क्रियाएँ इस फ़ाइल के भीतर मौजूद डेटा पर निर्भर करती हैं।
+इसके बाद, हम एक्सेल वर्कबुक को लोड करना चाहते हैं जिसमें वह टेबल है जिसके साथ हम काम करेंगे। यह महत्वपूर्ण है क्योंकि सभी बाद की क्रियाएं इस फ़ाइल के भीतर मौजूद डेटा पर निर्भर करती हैं।
 ```csharp
 // तालिका युक्त नमूना एक्सेल फ़ाइल लोड करें.
 Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xlsx");
@@ -97,16 +99,18 @@ Console.WriteLine("CreateSlicerToExcelTable executed successfully.");
 हां, आप Aspose.Cells में उपलब्ध कार्यात्मकताओं का उपयोग करके स्लाइसर्स को शैली और आयाम के संदर्भ में अनुकूलित कर सकते हैं।
   
 ### क्या Aspose.Cells मैक सिस्टम के साथ संगत है?
-Aspose.Cells for .NET को Windows के लिए डिज़ाइन किया गया है। हालाँकि, आप इसे उचित सेटअप के साथ Mac पर चलाने के लिए .NET Core का उपयोग कर सकते हैं।
+Aspose.Cells for .NET को विंडोज के लिए डिज़ाइन किया गया है। हालाँकि, आप इसे उचित सेटअप के साथ मैक पर चलाने के लिए .NET Core का उपयोग कर सकते हैं।
   
 ### क्या मुझे Aspose.Cells का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
- Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है, लेकिन आपको पूर्ण-उपयोग के लिए लाइसेंस खरीदना होगा। विवरण के लिए, यहाँ जाएँ[खरीदना](https://purchase.aspose.com/buy).
+Aspose.Cells एक निःशुल्क परीक्षण प्रदान करता है, लेकिन आपको पूर्ण-उपयोग के लिए लाइसेंस खरीदना होगा। विवरण के लिए, यहाँ जाएँ [खरीदना](https://purchase.aspose.com/buy).
   
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप उनके समर्पित सहायता मंच के माध्यम से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/cells/9).
+आप उनके समर्पित सहायता मंच के माध्यम से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

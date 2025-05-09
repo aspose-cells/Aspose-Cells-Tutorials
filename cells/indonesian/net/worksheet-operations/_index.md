@@ -1,78 +1,82 @@
 ---
-title: Operasi Lembar Kerja
-linktitle: Operasi Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Buka potensi penuh Aspose.Cells untuk .NET dengan tutorial praktis ini yang mencakup operasi lembar kerja dan menyempurnakan file Excel Anda.
-weight: 33
-url: /id/net/worksheet-operations/
+"description": "Engedd szabadjára az Aspose.Cells for .NET teljes potenciálját ezekkel a gyakorlati oktatóanyagokkal, amelyek a munkalapműveleteket és az Excel-fájlok fejlesztését ismertetik."
+"linktitle": "Munkalap műveletek"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Munkalap műveletek"
+"url": "/id/net/worksheet-operations/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Operasi Lembar Kerja
+# Munkalap műveletek
 
-## Perkenalan
+## Bevezetés
 
-Apakah Anda siap untuk menyelami dunia Aspose.Cells untuk .NET? Jika Anda mencari cara yang kuat untuk memanipulasi file Excel secara terprogram, Anda beruntung! Artikel ini menyediakan daftar tutorial yang dikurasi yang informatif sekaligus praktis—cocok bagi siapa saja yang ingin menyederhanakan operasi lembar kerja mereka.
+Készen állsz belevetni magad az Aspose.Cells for .NET világába? Ha egy robusztus módszert keresel az Excel-fájlok programozott kezelésére, szerencséd van! Ez a cikk egy válogatott oktatóanyag-listát tartalmaz, amelyek informatívak és praktikusak – tökéletesek mindazok számára, akik szeretnék egyszerűsíteni a munkalapjaik kezelését.
 
-## Mendapatkan Hyperlink dalam Rentang di .NET
+## Hiperhivatkozások beolvasása egy tartományban .NET-ben
 
- Salah satu fitur Excel yang sering diabaikan adalah kemampuan untuk bekerja dengan hyperlink. Tahukah Anda bahwa dengan Aspose.Cells untuk .NET, Anda dapat dengan mudah mengekstrak dan mengelola hyperlink dari spreadsheet Anda? Itu benar! Tutorial ini memandu Anda melalui proses langkah demi langkah, lengkap dengan potongan kode dan contoh. Bayangkan Anda sedang mengerjakan laporan besar dan perlu menarik semua tautan yang tersebar di seluruh bagian. Alih-alih menggali setiap sel, Anda dapat mengotomatiskan tugas ini.[Baca selengkapnya](./get-hyperlinks-in-a-range/).
+Az Excel egyik gyakran figyelmen kívül hagyott funkciója a hiperhivatkozások kezelése. Tudtad, hogy az Aspose.Cells for .NET segítségével könnyedén kinyerheted és kezelheted a hiperhivatkozásokat a táblázataidból? Ez igaz! Ez az oktatóanyag lépésről lépésre végigvezet a folyamaton, kódrészletekkel és példákkal kiegészítve. Képzeld el, hogy egy hatalmas jelentésen dolgozol, és ki kell húznod az összes szétszórt hivatkozást. Ahelyett, hogy minden egyes cellán átkutatnád, automatizálhatod ezt a feladatot. [További információ](./get-hyperlinks-in-a-range/).
 
-Tutorial ini tidak hanya berhenti pada ekstraksi; tutorial ini juga mengajarkan Anda cara memanipulasi hyperlink tersebut, membuat perubahan dengan cepat. Bayangkan ini: Anda telah mengekstrak berbagai hyperlink, dan sekarang, berkat beberapa baris kode, Anda dapat memperbarui semuanya sekaligus! Ini akan menghemat banyak waktu dan potensi masalah.
+Ez az oktatóanyag nem csak a kinyerésnél áll meg; azt is megtanítja, hogyan manipuláld ezeket a hiperhivatkozásokat, menet közben módosítsd őket. Képzeld el: kinyertél egy egész sor hiperhivatkozást, és most néhány sornyi kódnak köszönhetően egyszerre frissítheted őket! Ez rengeteg időt és potenciális fejfájást takarít meg.
 
-## Mengatur Preferensi Gambar untuk HTML di .NET
+## Képbeállítások megadása HTML-hez .NET-ben
 
-Sekarang, mari kita beralih sedikit. Pernahkah Anda mengonversi file Excel ke HTML dan kecewa dengan tampilannya? Nah, jangan khawatir lagi! Tutorial kami tentang pengaturan preferensi gambar untuk konversi HTML adalah apa yang Anda butuhkan. Saat memamerkan data Excel secara daring, presentasi adalah kuncinya. Kita semua tahu bahwa kesan pertama itu penting, bukan?
+Most pedig váltsunk egy kicsit másra. Előfordult már, hogy konvertáltál egy Excel-fájlt HTML-be, és csalódtál a kinézetében? Nos, ne aggódj tovább! A HTML-konverzió képbeállításainak megadásával foglalkozó oktatóanyagunk pontosan erre van szükséged. Amikor Excel-adatokat mutatsz be online, a megjelenítés kulcsfontosságú. Mindannyian tudjuk, hogy az első benyomás számít, igaz?
 
-Dalam panduan ini, Anda akan mempelajari cara meningkatkan daya tarik visual data Excel Anda saat dikonversi ke HTML. Baik itu mengatur ukuran gambar atau memastikan gambar ditampilkan dengan benar di berbagai perangkat, tutorial ini mencakup semuanya. Dengan menguasai pengaturan ini, Anda dapat memastikan bahwa data Anda tampil memukau secara daring. Siapa yang tidak ingin audiens mereka terpesona dengan data yang disajikan dengan indah?[Baca selengkapnya](./setting-image-preferences-for-html/).
+Ebben az útmutatóban megtudhatod, hogyan javíthatod az Excel-adataid vizuális megjelenését HTML-be konvertálva. Akár a képek méretének beállításáról van szó, akár a különböző eszközökön való helyes megjelenítésük biztosításáról, ez az oktatóanyag mindent lefed. Ezen beállítások elsajátításával biztosíthatod, hogy adataid online ragyogjanak. Ki ne szeretné, ha közönségét lenyűgöznék a szépen bemutatott adatok? [További információ](./setting-image-preferences-for-html/).
 
-## Tutorial Operasi Lembar Kerja
-### [Mendapatkan Hyperlink dalam Rentang di .NET](./get-hyperlinks-in-a-range/)
-Ekstrak dan kelola hyperlink dari file Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dan contoh kode disertakan.
-### [Mengatur Preferensi Gambar untuk HTML di .NET](./setting-image-preferences-for-html/)
-Manfaatkan kekuatan Aspose.Cells untuk .NET. Pelajari cara mengatur preferensi gambar untuk konversi HTML guna menyajikan data Excel Anda dengan indah di web.
-### [Tambahkan Komentar Berulir di Lembar Kerja](./add-threaded-comments/)
-Pelajari cara menambahkan komentar berulir di lembar kerja Excel menggunakan Aspose.Cells for .NET dengan tutorial langkah demi langkah ini. Tingkatkan kolaborasi dengan mudah.
-### [Hitung Jumlah Sel di Lembar Kerja](./count-cells/)
-Manfaatkan kekuatan Aspose.Cells untuk .NET. Pelajari cara menghitung sel dalam lembar kerja Excel dengan panduan langkah demi langkah ini.
-### [Potong dan Tempel Sel dalam Lembar Kerja](./cut-and-paste-cells/)
-Pelajari cara memotong dan menempel sel di Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang sederhana ini.
-### [Deteksi Lembar Makro Internasional di Buku Kerja](./detect-international-macro-sheet/)
-Temukan cara mendeteksi lembar makro internasional di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang terperinci ini. Sempurna untuk pengembang.
-### [Edit Komentar Berulir di Lembar Kerja](./edit-threaded-comments/)
-Buka keajaiban mengedit komentar berulir di Excel menggunakan Aspose.Cells untuk .NET! Ikuti panduan langkah demi langkah kami dan kuasai dokumen Anda dengan mudah.
-### [Periksa apakah Lembar Kerja adalah Lembar Dialog](./check-dialog-sheet/)
-Pelajari cara memeriksa apakah lembar kerja adalah lembar dialog menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
-### [Dapatkan Validasi Sel dalam File ODS](./get-cell-validation-ods/)
-Pelajari cara mengambil validasi sel dalam file ODS menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk pengembang.
-### [Dapatkan Jangkauan dengan Tautan Eksternal di Lembar Kerja](./get-range-with-external-links/)
-Pelajari cara mendapatkan rentang dengan tautan eksternal secara efisien di lembar kerja Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-### [Dapatkan ID Unik Lembar Kerja](./get-worksheet-id/)
-Pelajari cara mendapatkan ID unik lembar kerja menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. Kelola lembar kerja Anda dengan lebih efisien.
-### [Cetak Lembar dengan Pengaturan Tambahan](./print-sheet-with-settings/)
-Pelajari cara mencetak lembar Excel dengan mudah dengan Aspose.Cells untuk .NET dalam panduan langkah demi langkah terperinci ini.
-### [Baca Gambar Latar Belakang ODS](./read-ods-background/)
-Pelajari cara membaca gambar latar ODS menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang komprehensif ini. Sempurna untuk pengembang dan penggemar.
-### [Baca Waktu Pembuatan Komentar Berulir di Lembar Kerja](./read-threaded-comment-created-time/)
-Pelajari cara membaca waktu pembuatan komentar berulir di Excel menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
-### [Baca Komentar Berulir di Lembar Kerja](./read-threaded-comments/)
-Manfaatkan kekuatan membaca komentar berulir di Excel dengan Aspose.Cells untuk .NET. Pelajari panduan langkah demi langkah ini untuk penanganan dokumen yang mudah.
-### [Hapus Komentar Berulir dari Lembar Kerja](./remove-threaded-comments/)
-Hapus komentar berulir dari lembar kerja Excel dengan mudah menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sederhanakan pengelolaan Excel Anda.
-### [Mengatur Latar Belakang Berwarna di File ODS](./set-ods-colored-background/)
-Pelajari cara mengatur latar belakang berwarna dalam file ODS menggunakan Aspose.Cells untuk .NET, dengan tutorial dan kiat langkah demi langkah.
-### [Mengatur Latar Belakang Grafis di File ODS](./set-ods-graphic-background/)
-Pelajari cara mengatur latar belakang grafis dalam file ODS menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang komprehensif ini.
-### [Perbarui Riwayat Log Revisi di Buku Kerja Bersama](./update-revision-log-history/)
-Pelajari cara memperbarui riwayat log revisi dalam buku kerja bersama menggunakan Aspose.Cells untuk .NET. Sederhanakan kolaborasi dan pertahankan catatan dokumen yang jelas.
-### [Memanfaatkan Properti Sheet_SheetId dari OpenXml di Lembar Kerja](./utilize-sheet-sheetid-property/)
-Manfaatkan kekuatan Excel dengan Aspose.Cells untuk .NET. Pelajari cara memanipulasi ID Sheet secara efektif dengan panduan langkah demi langkah kami.
+## Munkalap műveletek oktatóanyagok
+### [Hiperhivatkozások beolvasása egy tartományban .NET-ben](./get-hyperlinks-in-a-range/)
+Könnyedén kinyerhet és kezelhet hiperhivatkozásokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató és kódpéldák is találhatók benne.
+### [Képbeállítások megadása HTML-hez .NET-ben](./setting-image-preferences-for-html/)
+Engedd szabadjára az Aspose.Cells for .NET erejét. Ismerd meg, hogyan állíthatod be a HTML-konvertálás képbeállításait, hogy Excel-adataid gyönyörűen jelenjenek meg a weben.
+### [Hozzáfűzött megjegyzések hozzáadása a munkalaphoz](./add-threaded-comments/)
+Tanuld meg, hogyan adhatsz hozzá menetes megjegyzéseket Excel-munkafüzetekhez az Aspose.Cells for .NET használatával ezzel a lépésről lépésre haladó oktatóanyaggal. Erőfeszítéseiddel fokozhatod az együttműködést.
+### [A munkalap celláinak száma](./count-cells/)
+Engedd szabadjára az Aspose.Cells for .NET erejét. Tanuld meg, hogyan számolhatod a cellákat egy Excel-munkafüzetben ezzel a lépésről lépésre szóló útmutatóval.
+### [Cellák kivágása és beillesztése a munkalapon belül](./cut-and-paste-cells/)
+Tanuld meg, hogyan vághatsz ki és illeszthetsz be cellákat Excelben az Aspose.Cells for .NET használatával ezzel az egyszerű, lépésről lépésre haladó oktatóanyaggal.
+### [Nemzetközi makrólap észlelése a munkafüzetben](./detect-international-macro-sheet/)
+Fedezze fel, hogyan észlelheti a nemzetközi makrólapokat Excelben az Aspose.Cells for .NET használatával ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők számára.
+### [Hozzászólások menetének szerkesztése a munkalapon](./edit-threaded-comments/)
+Engedd szabadjára a hozzászólásláncok szerkesztésének varázsát az Excelben az Aspose.Cells for .NET segítségével! Kövesd lépésről lépésre szóló útmutatónkat, és sajátítsd el könnyedén a dokumentumaid szerkesztését.
+### [Ellenőrizze, hogy a Munkalap párbeszédlap-e](./check-dialog-sheet/)
+Tanuld meg, hogyan ellenőrizheted, hogy egy munkalap párbeszédpanel-e az Aspose.Cells for .NET használatával ezzel a lépésről lépésre bemutató útmutatóval.
+### [Cellaérvényesítés lekérése ODS-fájlban](./get-cell-validation-ods/)
+Ismerje meg, hogyan kérhet le cellaérvényesítést ODS fájlokban az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató fejlesztőknek.
+### [Tartomány lekérése külső hivatkozásokkal a munkalapon](./get-range-with-external-links/)
+Ebben az átfogó, lépésről lépésre haladó oktatóanyagban megtudhatja, hogyan lehet hatékonyan külső hivatkozásokkal rendelkező tartományokat lekérni Excel-munkafüzetekben az Aspose.Cells for .NET használatával.
+### [Munkalap egyedi azonosítójának lekérése](./get-worksheet-id/)
+Tanuld meg, hogyan szerezheted meg egy munkalap egyedi azonosítóját az Aspose.Cells for .NET használatával ebből a lépésről lépésre haladó útmutatóból. Kezeld hatékonyabban a táblázataidat.
+### [Lap nyomtatása további beállításokkal](./print-sheet-with-settings/)
+Tanuld meg, hogyan nyomtathatsz könnyedén Excel-táblázatokat az Aspose.Cells for .NET segítségével ebből a részletes, lépésről lépésre haladó útmutatóból.
+### [ODS háttérkép olvasása](./read-ods-background/)
+Tanuld meg, hogyan olvashatsz ODS háttérképeket az Aspose.Cells for .NET segítségével ezzel az átfogó, lépésről lépésre haladó oktatóanyaggal. Tökéletes fejlesztők és rajongók számára.
+### [A témaként kapcsolódó megjegyzések létrehozási idejének olvasása a munkalapon](./read-threaded-comment-created-time/)
+Tanuld meg az Aspose.Cells for .NET használatával Excelben a hozzászólásláncok létrehozási idejének olvasását. Lépésről lépésre útmutató kódpéldákkal.
+### [Hozzászólások olvasása a munkalapban](./read-threaded-comments/)
+Engedd szabadjára a hozzászólásláncokba rendezett megjegyzések olvasásának erejét az Excelben az Aspose.Cells for .NET segítségével. Merülj el ebben a lépésről lépésre szóló útmutatóban az egyszerű dokumentumkezelés érdekében.
+### [Hozzászólások menetének eltávolítása a munkalapról](./remove-threaded-comments/)
+Ezzel a lépésről lépésre haladó útmutatóval könnyedén eltávolíthatja a hozzászólásláncokba rendezett megjegyzéseket az Excel-munkafüzetekből az Aspose.Cells for .NET segítségével. Egyszerűsítse az Excel-kezelést.
+### [Színes háttér beállítása az ODS fájlban](./set-ods-colored-background/)
+Tanuld meg, hogyan állíthatsz be színes hátteret ODS fájlokban az Aspose.Cells for .NET használatával, lépésről lépésre bemutatott oktatóanyagokkal és tippekkel.
+### [Grafikus háttér beállítása ODS fájlban](./set-ods-graphic-background/)
+Tanuld meg, hogyan állíthatsz be grafikus hátteret ODS fájlokban az Aspose.Cells for .NET használatával ezzel az átfogó, lépésről lépésre haladó útmutatóval.
+### [Verziós napló előzményeinek frissítése a megosztott munkafüzetben](./update-revision-log-history/)
+Tanulja meg, hogyan frissítheti a megosztott munkafüzetek módosítási naplójának előzményeit az Aspose.Cells for .NET használatával. Egyszerűsítse az együttműködést és tartsa karban az átlátható dokumentumnyilvántartást.
+### [Használja az OpenXml Sheet_SheetId tulajdonságát a munkalapon](./utilize-sheet-sheetid-property/)
+Engedd szabadjára az Excel erejét az Aspose.Cells for .NET segítségével. Tanuld meg a munkalap-azonosítók hatékony kezelését lépésről lépésre bemutató útmutatónkkal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Excelワークシートのズームレベルをプログラムで調整してカ
 
 ### インストール情報
 
-次のようにして、Aspose.Cells をプロジェクトに含めます。
+次のように、Aspose.Cells をプロジェクトに含めます。
 
 **メイヴン:**
 ```xml
@@ -147,6 +149,9 @@ Aspose.Cells for Java の強力な機能を活用して、今すぐ Excel ファ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

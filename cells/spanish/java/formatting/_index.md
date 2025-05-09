@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ Aprenda a extraer y analizar colores con efectos de brillo de formas en archivos
 Aprenda a configurar el ancho de columna en píxeles con Aspose.Cells para Java. Esta guía abarca la instalación, ejemplos de código y aplicaciones prácticas.
 
 ### [Establecer el tamaño de fuente en Excel con Aspose.Cells Java - Guía completa](./aspose-cells-java-set-font-size-excel/)
-Aprende a configurar el tamaño de fuente en archivos de Excel con Aspose.Cells para Java con este tutorial paso a paso. ¡Mejora tus habilidades de formato de documentos hoy mismo!
+Aprenda a configurar el tamaño de fuente en archivos de Excel con Aspose.Cells para Java con este tutorial paso a paso. ¡Mejore sus habilidades de formato de documentos hoy mismo!
 
 ### [Dominando Aspose.Cells para Java: Guía avanzada de gestión de estilos y fuentes en Excel](./aspose-cells-java-style-font-management/)
 Aprenda a administrar estilos y fuentes en archivos de Excel con Aspose.Cells para Java. Esta guía abarca la configuración de libros, la creación de estilos y la personalización de fuentes.
@@ -243,6 +245,9 @@ Domine la aplicación de estilos a celdas de Excel y la adición de hipervíncul
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

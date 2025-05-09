@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ In questo tutorial, abbiamo esplorato come automatizzare la convalida dei dati d
 
 ### Prossimi passi
 - Esplora le funzionalità più avanzate di Aspose.Cells.
-- Prova ad integrare Aspose.Cells in progetti o sistemi più ampi.
+- Prova ad integrare Aspose.Cells in progetti o sistemi più grandi.
 
 Pronti a provare a implementare queste soluzioni? Immergetevi nel codice, esplorate la documentazione e iniziate a migliorare i vostri flussi di lavoro Excel oggi stesso!
 
@@ -195,6 +197,9 @@ A5: Usa distinti `Validation` oggetti con messaggi personalizzati adattati a reg
 Sentiti libero di esplorare queste risorse e di iniziare subito a usare Aspose.Cells per Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

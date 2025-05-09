@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ Bằng cách thực hiện các bước này, bạn có thể tạo đồ họa 
 
 #### Mẹo khắc phục sự cố
 - Đảm bảo đường dẫn trong `dataDir` Và `outDir` là chính xác và dễ hiểu.
-- Xác minh rằng sổ làm việc chứa biểu đồ; nếu không, hãy xử lý các ngoại lệ tiềm ẩn khi truy cập biểu đồ theo chỉ mục.
+- Xác minh rằng sổ làm việc có chứa biểu đồ; nếu không, hãy xử lý các trường hợp ngoại lệ tiềm ẩn khi truy cập biểu đồ theo chỉ mục.
 
 ## Ứng dụng thực tế
 Việc xuất biểu đồ dưới dạng SVG mang lại nhiều lợi ích cho nhiều ứng dụng thực tế:
@@ -153,6 +155,9 @@ Hãy thử triển khai tính năng này ngay hôm nay và nâng cao khả năng
 - **Diễn đàn hỗ trợ:** [Hỗ trợ cộng đồng Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

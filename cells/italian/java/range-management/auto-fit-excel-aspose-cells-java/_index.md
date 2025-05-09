@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ Come passaggi successivi, valuta la possibilità di esplorare altre funzionalit�
 - Sì, Aspose.Cells supporta tutte le versioni recenti di JDK, inclusa la 11 e successive.
 
 **D2: Cosa succede se il mio HTML contiene immagini?**
-- Aspose.Cells gestisce principalmente dati testuali. Per codice HTML complesso, si consiglia di pre-elaborare il codice per estrarre solo il contenuto testuale.
+- Aspose.Cells gestisce principalmente dati testuali. Per codice HTML complesso, si consiglia di pre-elaborare il contenuto per estrarne solo il testo.
 
 **D3: Come posso gestire file Excel di grandi dimensioni con Aspose.Cells?**
 - Utilizzare le impostazioni di ottimizzazione della memoria disponibili nella libreria per gestire in modo efficace l'utilizzo delle risorse.
@@ -181,6 +183,9 @@ Per supporto, visita il [Forum Aspose](https://forum.aspose.com/c/cells/9)Buona 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

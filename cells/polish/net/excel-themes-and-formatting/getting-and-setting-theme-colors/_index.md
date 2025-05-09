@@ -1,14 +1,16 @@
 ---
-title: Pobieranie i ustawianie kolorów motywu w programie Excel
-linktitle: Pobieranie i ustawianie kolorów motywu w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak uzyskać i ustawić kolory motywu w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu łatwemu do naśladowania samouczkowi. Zawiera kompletny przewodnik krok po kroku i przykłady kodu.
-weight: 11
-url: /pl/net/excel-themes-and-formatting/getting-and-setting-theme-colors/
+"description": "Dowiedz się, jak uzyskać i ustawić kolory motywu w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu łatwemu do naśladowania samouczkowi. Zawiera kompletny przewodnik krok po kroku i przykłady kodu."
+"linktitle": "Pobieranie i ustawianie kolorów motywu w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobieranie i ustawianie kolorów motywu w programie Excel"
+"url": "/pl/net/excel-themes-and-formatting/getting-and-setting-theme-colors/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobieranie i ustawianie kolorów motywu w programie Excel
@@ -18,20 +20,20 @@ Dostosowanie wyglądu skoroszytu programu Excel może mieć ogromne znaczenie po
 Czy to brzmi skomplikowanie? Nie martw się, mam dla Ciebie rozwiązanie! Rozłożymy to na czynniki pierwsze, dzięki czemu pod koniec tego przewodnika będziesz w stanie z łatwością modyfikować te kolory. Zaczynajmy!
 ## Wymagania wstępne
 Zanim zagłębimy się w kod, przyjrzyjmy się temu, co będzie potrzebne, aby wszystko działało sprawnie:
-1. Aspose.Cells dla .NET – Upewnij się, że masz zainstalowaną najnowszą wersję. Jeśli jej jeszcze nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET – Upewnij się, że masz zainstalowaną najnowszą wersję. Jeśli jej jeszcze nie masz, możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 2. Środowisko programistyczne .NET – możesz użyć programu Visual Studio lub dowolnego innego wybranego środowiska IDE.
 3. Podstawowa znajomość języka C# – pomoże Ci zrozumieć przykłady kodowania.
 4. Plik Excela – przykładowy plik Excela, którym chcesz manipulować.
- Możesz również otrzymać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby bezpłatnie zapoznać się z pełną funkcjonalnością Aspose.Cells przed podjęciem decyzji.
+Możesz również otrzymać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby bezpłatnie zapoznać się z pełną funkcjonalnością Aspose.Cells przed podjęciem decyzji.
 ## Importowanie przestrzeni nazw
-Na początek upewnijmy się, że importujesz niezbędne przestrzenie nazw do swojego projektu. Dzięki temu będziesz mieć dostęp do wszystkich klas i metod, których będziesz potrzebować do manipulowania kolorami motywu programu Excel.
+Na początek upewnijmy się, że importujesz niezbędne przestrzenie nazw do swojego projektu. Dzięki temu będziesz mieć dostęp do wszystkich klas i metod, których będziesz potrzebować do manipulowania kolorami motywu Excela.
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 using System;
 ```
-Teraz zagłębmy się w rzeczywisty proces pobierania i ustawiania kolorów motywu w skoroszycie programu Excel. Podzielę kod na proste kroki, aby lepiej go zrozumieć.
+Teraz zagłębmy się w rzeczywisty proces pobierania i ustawiania kolorów motywu w skoroszycie programu Excel. Podzielę kod na proste kroki, aby lepiej zrozumieć.
 ## Krok 1: Załaduj plik Excel
 Po pierwsze, musisz załadować plik Excela, który zamierzasz zmodyfikować. Użyjemy klasy Workbook, aby otworzyć istniejący plik Excela.
 Inicjujesz nowy obiekt skoroszytu i ładujesz do niego plik Excela. Umożliwi ci to wprowadzanie zmian w skoroszycie.
@@ -67,7 +69,7 @@ workbook.SetThemeColor(ThemeColorType.Accent2, Color.Blue);
 ```
 Widzisz, co zrobiliśmy? Po prostu przekazaliśmy kolor, którego chcieliśmy, i bum! Kolory motywu się zmieniły. Ale czekaj, skąd wiemy, czy zadziałało? To jest następne.
 ## Krok 4: Zweryfikuj zmiany
-Nie chcemy po prostu zakładać, że zmiany zostały wprowadzone. Sprawdźmy nowe kolory, pobierając je ponownie i drukując.
+Nie chcemy po prostu zakładać, że zmiany zostały wprowadzone. Zweryfikujmy nowe kolory, pobierając je ponownie i drukując.
 Ponownie za pomocą metody GetThemeColor pobierasz zaktualizowane kolory motywu, aby potwierdzić, że zmiany zostały zastosowane.
 ```csharp
 // Pobierz zaktualizowany kolor motywu Background1.
@@ -94,16 +96,18 @@ Zmiana kolorów motywu w pliku Excel przy użyciu Aspose.Cells dla .NET jest pro
 ### Czy mogę ustawić inne kolory niż predefiniowane kolory motywu?
 Tak, dzięki Aspose.Cells możesz ustawić niestandardowe kolory dla dowolnej części skoroszytu programu Excel, a nie tylko predefiniowane kolory motywu.
 ### Czy potrzebuję płatnej licencji, aby korzystać z Aspose.Cells?
- Możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/)lub zdobądź[licencja tymczasowa](https://purchase.aspose.com/temporary-license/)Aby odblokować pełną funkcjonalność, zaleca się wykupienie płatnej licencji.
+Możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) lub zdobądź [licencja tymczasowa](https://purchase.aspose.com/temporary-license/)Aby odblokować pełną funkcjonalność, zaleca się wykupienie płatnej licencji.
 ### Czy mogę zastosować różne kolory motywu do poszczególnych arkuszy?
 Tak, możesz manipulować kolorami motywu poszczególnych arkuszy w skoroszycie, ładując je oddzielnie i stosując wybrane kolory.
 ### Czy można przywrócić oryginalne kolory motywu?
 Tak, jeśli chcesz powrócić do domyślnych kolorów motywu, możesz je pobrać i zresetować za pomocą tych samych metod GetThemeColor i SetThemeColor.
 ### Czy mogę zautomatyzować ten proces dla wielu skoroszytów?
 Oczywiście! Aspose.Cells pozwala programowo stosować zmiany motywu w wielu skoroszytach w procesie wsadowym.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

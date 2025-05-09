@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Elege van abból, hogy manuálisan kell keresnie és cserélnie a szöveget nagy
 **Amit tanulni fogsz:**
 - Az Aspose.Cells beállítása Java-hoz
 - Célzott keresés és csere funkció megvalósítása egy adott tartományon belül
-- teljesítmény optimalizálásának legjobb gyakorlatai
+- A teljesítmény optimalizálásának legjobb gyakorlatai
 - A funkció gyakorlati alkalmazásai
 A végére fejleszteni fogja Excel adatkezelési munkafolyamatait a következők használatával: `Aspose.Cells for Java`Kezdjük az előfeltételekkel!
 
@@ -124,6 +126,9 @@ További kutatáshoz:
 Bármilyen kérdés esetén látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

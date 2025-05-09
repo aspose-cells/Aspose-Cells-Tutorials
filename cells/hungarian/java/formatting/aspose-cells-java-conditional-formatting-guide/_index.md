@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ public class InstantiateWorkbookWorksheet {
         // Új munkafüzet-objektum létrehozása
         Workbook workbook = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         System.out.println("Worksheet accessed successfully.");
@@ -216,6 +218,9 @@ public class SetBorderStyle {
 Az Aspose.Cells más rendszerekkel, például adatbázisokkal vagy felhőszolgáltatásokkal való integrálása tovább javíthatja a funkcionalitását, lehetővé téve átfogóbb és automatizáltabb adatmegoldások létrehozását.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

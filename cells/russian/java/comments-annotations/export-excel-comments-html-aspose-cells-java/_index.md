@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ import java.io.IOException;
 String outDir = "/path/to/your/output/";
 
 try {
-    // Сохраните файл Excel в формате HTML с включенными комментариями.
+    // Сохраните файл Excel в формате HTML с комментариями.
     wb.save(outDir + "outputExportCommentsHTML.html", opts);
 } catch (IOException e) {
     System.out.println("Error occurred while saving the file.");
@@ -186,7 +188,7 @@ try {
 
    Используйте потоковые методы и оптимизируйте методы управления памятью, как описано в разделе «Производительность».
 
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
 
    Посетите [официальная документация](https://reference.aspose.com/cells/java/) или посетите форумы сообщества для получения поддержки.
 
@@ -202,6 +204,9 @@ try {
 Это подробное руководство призвано помочь вам эффективно реализовать функцию экспорта комментариев, гарантируя, что ваши приложения будут предоставлять улучшенный пользовательский опыт.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

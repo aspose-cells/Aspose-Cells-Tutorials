@@ -1,14 +1,16 @@
 ---
-title: Excel'de Çalışma Sayfasına Yay Ekleme
-linktitle: Excel'de Çalışma Sayfasına Yay Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına yay eklemeyi öğrenin. Elektronik tablo tasarımlarınızı geliştirmek için adım adım kılavuzumuzu izleyin.
-weight: 16
-url: /tr/net/excel-shapes-controls/add-arc-to-worksheet-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına yay eklemeyi öğrenin. Elektronik tablo tasarımlarınızı geliştirmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Excel'de Çalışma Sayfasına Yay Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Çalışma Sayfasına Yay Ekleme"
+"url": "/tr/net/excel-shapes-controls/add-arc-to-worksheet-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Çalışma Sayfasına Yay Ekleme
@@ -19,7 +21,7 @@ Görsel olarak çekici Excel elektronik tabloları oluşturmak veri sunumu için
 Çalışma sayfanıza yay eklemenin inceliklerine dalmadan önce, birkaç şeyin yerli yerinde olduğundan emin olmanız önemlidir. Başlamak için ihtiyaç duyacağınız ön koşullar şunlardır:
 1. Visual Studio: Programlama dilimiz olarak C# kullanacağımız için bilgisayarınızda Visual Studio'nun yüklü olması gerekiyor.
 2. .NET Framework: .NET Framework veya .NET Core'un yüklü olduğundan emin olun. Aspose.Cells her ikisini de destekler.
-3. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose.Cells İndirmeleri](https://releases.aspose.com/cells/net/) sayfa.
+3. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [Aspose.Cells İndirmeleri](https://releases.aspose.com/cells/net/) sayfa.
 4. C# Temel Anlayışı: C#'a aşina olmak, kod parçacıklarını fazla uğraşmadan takip etmenize yardımcı olacaktır.
 ## Paketleri İçe Aktar
 Projenizde Aspose.Cells ile çalışmaya başlamak için gerekli paketleri içe aktarmanız gerekir. İşte nasıl yapacağınız:
@@ -39,7 +41,7 @@ using Aspose.Cells;
 using Aspose.Cells.Drawing;
 using System.Drawing;
 ```
-Excel'de bir çalışma sayfasına yayların nasıl ekleneceğini gösteren kodun adım adım dökümü aşağıdadır.
+İşte Excel'de bir çalışma sayfasına yayların nasıl ekleneceğini gösteren kodun adım adım dökümü.
 ## Adım 1: Dizini Ayarlama
 İlk adım Excel dosyanızı kaydedeceğiniz bir dizin oluşturmaktır. Bu, çıktı dosyalarınızı kolayca yönetmenize yardımcı olur.
 ```csharp
@@ -63,7 +65,7 @@ Bu satır yeni bir Excel çalışma kitabı oluşturur. Bunu şekiller, veriler 
 // Bir yay şekli ekleyin.
 Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0, 2, 0, 130, 130);
 ```
- Burada, ilk çalışma sayfasına bir yay ekliyoruz. Parametreler, yayın konumunu ve boyutunu tanımlar:`(left, top, width, height, startAngle, endAngle)`. Bir dairenin parçasını çizmek gibi!
+Burada, ilk çalışma sayfasına bir yay ekliyoruz. Parametreler, yayın konumunu ve boyutunu tanımlar: `(left, top, width, height, startAngle, endAngle)`. Bir dairenin parçasını çizmek gibi!
 ## Adım 4: İlk Arkı Özelleştirin
 Yayı ekledikten sonra görünümünü özelleştirmek isteyebilirsiniz.
 ```csharp
@@ -86,7 +88,7 @@ Aspose.Cells.Drawing.ArcShape arc2 = excelbook.Worksheets[0].Shapes.AddArc(9, 0,
 ```
 İlk yaya benzer şekilde, aynı çalışma sayfasına ikinci bir yay ekliyoruz. Buradaki koordinatlar, farklı şekilde konumlandırılması için biraz kaydırıldı.
 ## Adım 6: İkinci Yayı Özelleştirin
-İlk yayda yaptığımız gibi ikinci yayda da özelleştirmeler yapacağız.
+İlk yayda yaptığımız gibi ikinci yayda da özelleştirme yapacağız.
 ```csharp
 // Çizgi rengini ayarlayın
 arc2.Line.FillType = FillType.Solid;
@@ -114,14 +116,16 @@ Aspose.Cells, geliştiricilerin Microsoft Excel'e ihtiyaç duymadan Excel dosyal
 ### Aspose.Cells'i kullanmak için Microsoft Excel'i yüklemem gerekiyor mu?
 Hayır, Aspose.Cells tamamen bağımsızdır ve Microsoft Excel'in kurulu olmasını gerektirmez.
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet, Aspose.Cells'i kullanarak deneyebilirsiniz[Ücretsiz Deneme](https://releases.aspose.com/).
+Evet, Aspose.Cells'i kullanarak deneyebilirsiniz [Ücretsiz Deneme](https://releases.aspose.com/).
 ### Aspose.Cells hangi programlama dillerini destekliyor?
 Aspose.Cells, C#, VB.NET ve daha fazlası dahil olmak üzere birden fazla dili destekler.
 ### Aspose.Cells için desteği nereden alabilirim?
- Destek almak için:[Aspose Forum](https://forum.aspose.com/c/cells/9).
+Destek almak için: [Aspose Forum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

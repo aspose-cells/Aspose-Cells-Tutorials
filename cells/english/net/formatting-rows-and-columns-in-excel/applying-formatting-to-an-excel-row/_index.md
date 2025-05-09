@@ -8,7 +8,9 @@ url: /net/formatting-rows-and-columns-in-excel/applying-formatting-to-an-excel-r
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Formatting to an Excel Row Programmatically
@@ -126,6 +128,7 @@ Yes, Aspose.Cells is fully compatible with .NET Core, allowing you to use it acr
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

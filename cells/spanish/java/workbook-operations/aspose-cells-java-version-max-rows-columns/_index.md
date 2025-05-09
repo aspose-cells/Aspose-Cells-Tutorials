@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Aprenda a verificar Aspose.Cells para la versión de Java y a determinar el número máximo de filas/columnas en formatos XLS/XLSX. Domine las operaciones de libros de trabajo con la configuración de Maven/Gradle."
+"description": "Aprenda a verificar la versión de Aspose.Cells para Java y a determinar el número máximo de filas/columnas en formatos XLS/XLSX. Domine las operaciones de libros de trabajo con la configuración de Maven/Gradle."
 "title": "Aspose.Cells para Java&#58; Comprobar versión y límites de Excel (XLS/XLSX)"
 "url": "/es/java/workbook-operations/aspose-cells-java-version-max-rows-columns/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Visita la página oficial [Documentación de Aspose](https://reference.aspose.co
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

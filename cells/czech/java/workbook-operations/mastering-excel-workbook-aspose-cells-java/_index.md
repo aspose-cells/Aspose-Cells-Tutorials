@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ Chcete-li začít používat Aspose.Cells ve svých aplikacích Java, postupujte
 1. **Nainstalujte knihovnu:** Přidejte do projektu závislost Maven nebo Gradle, jak je znázorněno výše.
 2. **Získejte licenci:**
    - Stáhněte si bezplatnou zkušební verzi z [Stránka ke stažení od Aspose](https://releases.aspose.com/cells/java/).
-   - Požádejte o dočasnou licenci prostřednictvím jejich [stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/) případě potřeby.
+   - Požádejte o dočasnou licenci prostřednictvím jejich [stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/) v případě potřeby.
 
 Zde je návod, jak inicializovat a nastavit Aspose.Cells:
 
@@ -255,6 +257,9 @@ Pro další zkoumání zvažte ponoření se do pokročilejších funkcí, jako 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

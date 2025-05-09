@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ public class InitializeAspose {
 
 ### 통합 문서 만들기 및 셀 액세스
 **개요:**
-인스턴스화로 시작하세요 `Workbook` 개체입니다. 그런 다음 글꼴 크기를 수정하려는 워크시트에 액세스하세요.
+인스턴스화로 시작하세요 `Workbook` 개체를 클릭합니다. 그런 다음 글꼴 크기를 수정하려는 워크시트에 액세스합니다.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -179,7 +181,7 @@ Aspose.Cells를 더 자세히 알아보려면 광범위한 설명서를 살펴�
 4. **Java를 사용하여 Excel에서 글꼴 크기를 설정할 때 일반적으로 발생하는 문제는 무엇입니까?**
    - 일반적인 문제로는 잘못된 라이브러리 버전이나 경로가 있습니다. 모든 종속성이 최신 상태이고 올바르게 구성되어 있는지 확인하세요.
 
-5. **Aspose.Cells for Java에 대한 더 고급 튜토리얼은 어디에서 찾을 수 있나요?**
+5. **Aspose.Cells for Java에 대한 고급 튜토리얼은 어디에서 찾을 수 있나요?**
    - 공식 문서 사이트에서는 포괄적인 가이드와 예시를 제공합니다. [Aspose 문서](https://reference.aspose.com/cells/java/).
 
 ## 자원
@@ -190,6 +192,9 @@ Aspose.Cells를 더 자세히 알아보려면 광범위한 설명서를 살펴�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

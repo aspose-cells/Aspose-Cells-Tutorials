@@ -1,36 +1,38 @@
 ---
-title: Podpora podpisů Xades
-linktitle: Podpora podpisů Xades
-second_title: Aspose.Cells for .NET API Reference
-description: Naučte se, jak přidat podpisy Xades do souborů aplikace Excel pomocí Aspose.Cells for .NET, pomocí tohoto podrobného průvodce. Zabezpečte své dokumenty.
-weight: 190
-url: /cs/net/excel-workbook/xades-signature-support/
+"description": "Naučte se, jak přidat podpisy Xades do souborů Excelu pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Zabezpečte své dokumenty."
+"linktitle": "Podpora podpisů Xades"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Podpora podpisů Xades"
+"url": "/cs/net/excel-workbook/xades-signature-support/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podpora podpisů Xades
 
 ## Zavedení
 
-V dnešním digitálním světě je zabezpečení dokumentů důležitější než kdy jindy. Ať už pracujete s citlivými obchodními informacemi nebo osobními údaji, zajištění integrity a pravosti vašich souborů je prvořadé. Jedním ze způsobů, jak toho dosáhnout, jsou digitální podpisy a konkrétně podpisy Xades. Pokud jste vývojář .NET a chcete implementovat podporu podpisů Xades ve svých aplikacích, jste na správném místě! V této příručce vás provedeme procesem přidávání podpisů Xades do souborů aplikace Excel pomocí Aspose.Cells for .NET. Takže, pojďme se rovnou ponořit!
+dnešním digitálním světě je zabezpečení dokumentů důležitější než kdy dříve. Ať už pracujete s citlivými obchodními informacemi nebo osobními údaji, zajištění integrity a autenticity vašich souborů je prvořadé. Jedním ze způsobů, jak toho dosáhnout, jsou digitální podpisy, a konkrétně podpisy Xades. Pokud jste vývojář .NET a chcete implementovat podporu podpisů Xades do svých aplikací, jste na správném místě! V této příručce vás provedeme procesem přidávání podpisů Xades do souborů Excelu pomocí Aspose.Cells pro .NET. Tak se do toho pusťme!
 
 ## Předpoklady
 
-Než začneme, je potřeba mít připraveno několik věcí:
+Než začneme, je několik věcí, které budete potřebovat:
 
-1.  Aspose.Cells for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si jej snadno stáhnout z[Aspose webové stránky](https://releases.aspose.com/cells/net/).
-2. Vývojové prostředí: Funkční vývojové prostředí .NET (jako Visual Studio), kde můžete psát a spouštět svůj kód.
-3. Digitální certifikát: Potřebujete platný digitální certifikát (soubor PFX) s jeho heslem. Tento certifikát je nezbytný pro vytvoření digitálního podpisu.
+1. Aspose.Cells pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Cells. Můžete si ji snadno stáhnout z [Webové stránky Aspose](https://releases.aspose.com/cells/net/).
+2. Vývojové prostředí: Funkční vývojové prostředí .NET (například Visual Studio), kde můžete psát a spouštět svůj kód.
+3. Digitální certifikát: Potřebujete platný digitální certifikát (soubor PFX) s heslem. Tento certifikát je nezbytný pro vytvoření digitálního podpisu.
 4. Základní znalost C#: Znalost programování v C# vám pomůže lépe porozumět příkladům.
 
-Jakmile máte tyto předpoklady seřazené, jste připraveni začít implementovat podpisy Xades do vašich souborů Excel!
+Jakmile splníte tyto předpoklady, můžete začít implementovat podpisy Xades do souborů aplikace Excel!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li pracovat s Aspose.Cells pro .NET, musíte importovat potřebné jmenné prostory. Můžete to udělat takto:
+Pro práci s Aspose.Cells pro .NET je nutné importovat potřebné jmenné prostory. Zde je návod, jak to udělat:
 
 ```csharp
 using Aspose.Cells.DigitalSignatures;
@@ -38,13 +40,13 @@ using System;
 using System.IO;
 ```
 
-Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro práci se soubory aplikace Excel a správu digitálních podpisů.
+Tyto jmenné prostory poskytují přístup ke třídám a metodám potřebným pro práci s excelovými soubory a správu digitálních podpisů.
 
-Nyní, když máme vše nastaveno, pojďme si rozdělit proces přidávání podpisu Xades do souboru aplikace Excel na jasné, zvládnutelné kroky.
+Nyní, když máme vše nastavené, pojďme si rozebrat proces přidání podpisu Xades do souboru Excelu na jasné a snadno zvládnutelné kroky.
 
-## Krok 1: Nastavte zdrojové a výstupní adresáře
+## Krok 1: Nastavení zdrojového a výstupního adresáře
 
-Nejprve musíme definovat, kde se nachází náš zdrojový soubor Excel a kam chceme uložit podepsaný výstupní soubor. Toto je zásadní krok, protože pomáhá efektivně organizovat vaše soubory.
+Nejprve musíme definovat, kde se nachází náš zdrojový soubor Excel a kam chceme uložit podepsaný výstupní soubor. To je klíčový krok, protože pomáhá efektivně uspořádat soubory.
 
 ```csharp
 // Zdrojový adresář
@@ -53,39 +55,39 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-## Krok 2: Načtěte sešit
+## Krok 2: Načtení sešitu
 
-Dále načteme sešit Excel, který chceme podepsat. Zde načtete svůj stávající soubor Excel.
+Dále načtěme sešit aplikace Excel, který chceme podepsat. Zde načtete svůj existující soubor aplikace Excel.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
- Zde vytvoříme novou instanci`Workbook` třídy, předáním cesty ke zdrojovému souboru Excel. Ujistěte se, že název souboru odpovídá názvu, který máte ve zdrojovém adresáři.
+Zde vytvoříme novou instanci třídy `Workbook` třída s předáním cesty ke zdrojovému souboru aplikace Excel. Ujistěte se, že název souboru odpovídá názvu souboru ve zdrojovém adresáři.
 
-## Krok 3: Připravte si digitální certifikát
+## Krok 3: Příprava digitálního certifikátu
 
-Chcete-li vytvořit digitální podpis, musíte načíst digitální certifikát. To zahrnuje načtení souboru PFX a poskytnutí hesla k němu.
+Pro vytvoření digitálního podpisu je nutné načíst digitální certifikát. To zahrnuje načtení souboru PFX a zadání hesla k němu.
 
 ```csharp
 string password = "pfxPassword"; // Nahraďte svým heslem PFX
-string pfx = "pfxFile"; // Nahraďte cestu k vašemu souboru PFX
+string pfx = "pfxFile"; // Nahraďte cestou k vašemu PFX souboru
 ```
 
- V tomto kroku vyměňte`pfxPassword` se svým skutečným heslem a`pfxFile` s cestou k vašemu souboru PFX. Toto je klíč k podpisu vašeho dokumentu!
+V tomto kroku nahraďte `pfxPassword` vaším skutečným heslem a `pfxFile` s cestou k vašemu PFX souboru. Toto je klíč k podepsání vašeho dokumentu!
 
 ## Krok 4: Vytvořte digitální podpis
 
- Nyní vytvoříme digitální podpis pomocí`DigitalSignature` třída. Tady se děje kouzlo!
+Nyní si vytvořme digitální podpis pomocí `DigitalSignature` třída. Tady se děje magie!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
 
- V tomto úryvku načteme soubor PFX do bajtového pole a vytvoříme nový`DigitalSignature` objekt. Nastavili jsme také`XAdESType` na`XAdES`, což je zásadní pro náš podpis.
+V tomto úryvku kódu načteme soubor PFX do bajtového pole a vytvoříme nové `DigitalSignature` objekt. Také jsme nastavili `XAdESType` na `XAdES`, což je pro náš podpis nezbytné.
 
-## Krok 5: Přidejte podpis do sešitu
+## Krok 5: Přidání podpisu do sešitu
 
 Po vytvoření digitálního podpisu je dalším krokem jeho přidání do sešitu.
 
@@ -95,43 +97,45 @@ dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
 ```
 
- Zde vytvoříme a`DigitalSignatureCollection`, přidejte k němu náš podpis a poté nastavte tuto kolekci do sešitu. Takto připojíme podpis k souboru Excel.
+Zde vytváříme `DigitalSignatureCollection`, přidáme k němu náš podpis a poté tuto kolekci nastavíme do sešitu. Takto připojíme podpis k souboru aplikace Excel.
 
-## Krok 6: Uložte podepsaný sešit
+## Krok 6: Uložení podepsaného sešitu
 
-Konečně je čas uložit podepsaný sešit do výstupního adresáře. Tento krok dokončí proces.
+Nakonec je čas uložit podepsaný sešit do výstupního adresáře. Tímto krokem je proces dokončen.
 
 ```csharp
 workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
- V tomto kódu uložíme sešit s novým názvem,`XAdESSignatureSupport_out.xlsx`, ve výstupním adresáři. Po dokončení tohoto kroku se v konzole zobrazí zpráva o úspěchu.
+V tomto kódu uložíme sešit s novým názvem, `XAdESSignatureSupport_out.xlsx`, ve výstupním adresáři. Po dokončení tohoto kroku se v konzoli zobrazí zpráva o úspěchu.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste přidali podpis Xades do souboru Excel pomocí Aspose.Cells for .NET. Tento proces nejen zvyšuje zabezpečení vašich dokumentů, ale také buduje důvěru vašich uživatelů zajištěním pravosti vašich souborů. 
-Digitální podpisy jsou nezbytnou součástí moderní správy dokumentů a se silou Aspose.Cells je můžete snadno implementovat do svých aplikací.
+tady to máte! Úspěšně jste přidali podpis Xades do svého souboru Excel pomocí Aspose.Cells pro .NET. Tento proces nejen zvyšuje zabezpečení vašich dokumentů, ale také buduje důvěru s vašimi uživateli tím, že zajišťuje pravost vašich souborů. 
+Digitální podpisy jsou nezbytnou součástí moderní správy dokumentů a díky síle Aspose.Cells je můžete snadno implementovat do svých aplikací.
 
-## FAQ
+## Často kladené otázky
 
-### Co je podpis Xades?
-Xades (XML Advanced Electronic Signatures) je standard pro digitální podpisy, který poskytuje další funkce pro zajištění integrity a pravosti elektronických dokumentů.
+### Co je Xadesův podpis?
+Xades (XML Advanced Electronic Signatures) je standard pro digitální podpisy, který poskytuje další funkce pro zajištění integrity a autenticity elektronických dokumentů.
 
 ### Potřebuji digitální certifikát k vytvoření podpisu Xades?
 Ano, k vytvoření podpisu Xades potřebujete platný digitální certifikát (soubor PFX).
 
-### Mohu otestovat Aspose.Cells pro .NET před nákupem?
- Absolutně! Můžete získat bezplatnou zkušební verzi od[Aspose webové stránky](https://releases.aspose.com/).
+### Mohu si Aspose.Cells pro .NET před zakoupením vyzkoušet?
+Rozhodně! Můžete získat bezplatnou zkušební verzi od [Webové stránky Aspose](https://releases.aspose.com/).
 
 ### Je Aspose.Cells kompatibilní se všemi verzemi .NET?
- Aspose.Cells podporuje různé verze .NET frameworku. Zkontrolujte[dokumentace](https://reference.aspose.com/cells/net/) pro podrobnosti o kompatibilitě.
+Aspose.Cells podporuje různé verze frameworku .NET. Zkontrolujte [dokumentace](https://reference.aspose.com/cells/net/) podrobnosti o kompatibilitě.
 
 ### Kde mohu získat podporu, pokud narazím na problémy?
- Můžete navštívit[Aspose fórum](https://forum.aspose.com/c/cells/9) za podporu a pomoc komunity.
+Můžete navštívit [Fórum Aspose](https://forum.aspose.com/c/cells/9) za podporu a pomoc komunity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 ### 載入 Excel 文件
 
-**概述：** 首先將現有的 Excel 檔案載入到 `Workbook` 對象，初始化渲染操作的資料來源。
+**概述：** 首先將現有的 Excel 檔案載入到 `Workbook` 對象，初始化資料來源以進行渲染操作。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -156,7 +158,7 @@ Aspose.Cells for Java 可用於各種場景：
 
 ## 結論
 
-現在您已經了解如何使用 Aspose.Cells Java 將 Excel 表格呈現為 XPS 格式。這個強大的庫簡化了轉換過程，使您可以專注於專案的其他方面。為了進一步探索，請考慮深入了解 Aspose.Cells 中的圖表渲染或資料處理等進階功能。
+現在您已經了解如何使用 Aspose.Cells Java 將 Excel 表格呈現為 XPS 格式。這個強大的庫簡化了轉換過程，使您可以專注於專案的其他方面。為了進一步探索，請考慮深入了解 Aspose.Cells 中的進階功能，例如圖表渲染或資料處理。
 
 ### 後續步驟
 - 嘗試不同的 `ImageOrPrintOptions` 設定.
@@ -190,6 +192,9 @@ A5：參觀 [Aspose 的臨時許可證頁面](https://purchase.aspose.com/tempor
 - **支持：** 加入討論並尋求協助 [Aspose 支援論壇](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Usuwanie określonego podziału strony z arkusza kalkulacyjnego za pomocą Aspose.Cells
-linktitle: Usuwanie określonego podziału strony z arkusza kalkulacyjnego za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak usuwać określone podziały stron w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
-weight: 16
-url: /pl/net/worksheet-value-operations/remove-specific-page-break/
+"description": "Dowiedz się, jak usuwać określone podziały stron w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku."
+"linktitle": "Usuwanie określonego podziału strony z arkusza kalkulacyjnego za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Usuwanie określonego podziału strony z arkusza kalkulacyjnego za pomocą Aspose.Cells"
+"url": "/pl/net/worksheet-value-operations/remove-specific-page-break/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuwanie określonego podziału strony z arkusza kalkulacyjnego za pomocą Aspose.Cells
@@ -46,20 +48,20 @@ Po pierwsze, musisz ustawić ścieżkę pliku Excel, który zawiera podziały st
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do plików Excel. Upewnij się, że ścieżka pliku jest poprawna; w przeciwnym razie aplikacja jej nie znajdzie.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do plików Excel. Upewnij się, że ścieżka pliku jest poprawna; w przeciwnym razie aplikacja jej nie znajdzie.
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
- Następnie utworzysz`Workbook` obiekt. Ten obiekt reprezentuje plik Excel i pozwala na manipulowanie nim programowo.
+Następnie utworzysz `Workbook` obiekt. Ten obiekt reprezentuje plik Excel i pozwala na manipulowanie nim programowo.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
- Tutaj tworzymy nową instancję`Workbook` obiekt i załaduj plik Excel. Upewnij się, że nazwa pliku odpowiada rzeczywistemu plikowi.
+Tutaj tworzymy nową instancję `Workbook` obiekt i załaduj plik Excel. Upewnij się, że nazwa pliku odpowiada rzeczywistemu plikowi.
 ## Krok 3: Dostęp do podziałów stron
 Teraz musimy uzyskać dostęp do konkretnego arkusza kalkulacyjnego, który zawiera podziały stron. Uzyskamy również dostęp do poziomych i pionowych podziałów stron.
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.RemoveAt(0);
 workbook.Worksheets[0].VerticalPageBreaks.RemoveAt(0);
 ```
- Uzyskujemy dostęp do pierwszego arkusza roboczego oznaczonego przez`[0]` . Ten`RemoveAt(0)` Metoda usuwa pierwszy znaleziony podział strony. Jeśli chcesz usunąć różne podziały strony, zmień indeks zgodnie ze swoimi potrzebami.
+Uzyskujemy dostęp do pierwszego arkusza roboczego oznaczonego przez `[0]`. Ten `RemoveAt(0)` Metoda usuwa pierwszy znaleziony podział strony. Jeśli chcesz usunąć różne podziały strony, zmień indeks zgodnie ze swoimi potrzebami.
 ## Krok 4: Zapisywanie pliku Excel
 Po wprowadzeniu modyfikacji ostatnim krokiem jest zapisanie zmienionego pliku Excel. Nie chcesz przecież stracić swojej ciężkiej pracy, prawda?
 ```csharp
@@ -70,18 +72,20 @@ Ten wiersz zapisuje zmodyfikowany skoroszyt pod nową nazwą. Możesz nadpisać 
 Gratulacje! Udało Ci się nauczyć, jak usuwać określone podziały stron z arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu przekształciłeś skoroszyt i uczyniłeś go bardziej zarządzalnym. Ta funkcjonalność jest niezbędna dla każdego, kto ma do czynienia z dużymi zestawami danych lub złożonymi raportami.
 ## Najczęściej zadawane pytania
 ### Czy mogę usunąć wiele podziałów stron jednocześnie?
- Tak! Po prostu przejdź przez`HorizontalPageBreaks` Lub`VerticalPageBreaks` kolekcje i usuń żądane podziały na podstawie indeksów.
+Tak! Po prostu przejdź przez `HLubizontalPageBreaks` or `VerticalPageBreaks` kolekcje i usuń żądane podziały na podstawie indeksów.
 ### Co się stanie, jeśli usunę niewłaściwy podział strony?
 Zawsze możesz powrócić do oryginalnego pliku, pod warunkiem, że zapisałeś go pod inną nazwą!
 ### Czy mogę używać Aspose.Cells w innych językach programowania?
-Obecnie Aspose.Cells jest dostępny dla platform .NET, Java i kilku innych języków, dzięki czemu możesz go używać w swoim preferowanym środowisku.
+Obecnie Aspose.Cells jest dostępny dla .NET, Java i kilku innych języków, dzięki czemu możesz z niego korzystać w swoim preferowanym środowisku.
 ### Czy jest dostępna bezpłatna wersja próbna?
- Tak! Możesz pobrać bezpłatną wersję próbną z[Strona wydania Aspose.Cells](https://releases.aspose.com/cells/net/).
+Tak! Możesz pobrać bezpłatną wersję próbną z [Strona wydania Aspose.Cells](https://releases.aspose.com/cells/net/).
 ### Jak uzyskać pomoc, jeśli napotkam problem?
- Możesz skontaktować się z[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w razie jakichkolwiek pytań lub problemów.
+Możesz skontaktować się z [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc w przypadku jakichkolwiek pytań lub problemów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

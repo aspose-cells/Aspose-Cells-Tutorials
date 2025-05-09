@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Vyzkoušejte implementovat tato řešení ve svých projektech a uvidíte, jak z
 - **Nákup a licencování:** S dotazy ohledně nákupu nebo licencování navštivte [stránka nákupu](https://purchase.aspose.com/buy) a [stránka s dočasnou licencí](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

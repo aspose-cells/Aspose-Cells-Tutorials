@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Vill du automatisera Excel-uppgifter eller integrera kalkylbladsfunktioner i din
 - Lägga till och hämta former från kalkylblad
 - Hämta kopplingspunkter för former
 
-Låt oss dyka ner i Excel-automatisering med Aspose.Cells!
+Låt oss dyka in i Excel-automatisering med Aspose.Cells!
 
 ## Förkunskapskrav
 
@@ -203,6 +205,9 @@ Redo att ta dina Java-baserade Excel-automatiseringskunskaper till nästa nivå?
 - [Köp en licens](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

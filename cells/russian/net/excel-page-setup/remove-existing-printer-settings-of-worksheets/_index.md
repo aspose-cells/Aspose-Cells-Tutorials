@@ -1,14 +1,16 @@
 ---
-title: Удалить существующие настройки принтера рабочих листов
-linktitle: Удалить существующие настройки принтера рабочих листов
-second_title: Справочник API Aspose.Cells для .NET
-description: Ознакомьтесь с пошаговым руководством по удалению настроек принтера из рабочих листов Excel с помощью Aspose.Cells для .NET, что позволит без труда повысить качество печати вашего документа.
-weight: 80
-url: /ru/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
+"description": "Ознакомьтесь с пошаговым руководством по удалению настроек принтера из рабочих листов Excel с помощью Aspose.Cells для .NET, что позволит без труда повысить качество печати вашего документа."
+"linktitle": "Удалить существующие настройки принтера рабочих листов"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Удалить существующие настройки принтера рабочих листов"
+"url": "/ru/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Удалить существующие настройки принтера рабочих листов
@@ -22,7 +24,7 @@ url: /ru/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 Прежде чем мы начнем удалять эти надоедливые настройки принтера, вам понадобится несколько вещей. Вот краткий контрольный список, чтобы убедиться, что вы готовы:
 
 1. Visual Studio установлена: Для написания и выполнения кода .NET необходима среда разработки. Если у вас ее еще нет, перейдите на сайт Visual Studio и загрузите последнюю версию.
-2.  Aspose.Cells для .NET: Эта библиотека вам понадобится в вашем проекте. Вы можете загрузить ее с[Страница релизов Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Эта библиотека вам понадобится в вашем проекте. Вы можете загрузить ее с [Страница релизов Aspose](https://releases.aspose.com/cells/net/).
 3. Образец файла Excel: Для этого пошагового руководства вам понадобится образец файла Excel, содержащий настройки принтера. Вы можете создать его или использовать демонстрационный файл, предоставленный Aspose.
 
 Теперь, когда у нас есть все необходимое, давайте перейдем к коду!
@@ -37,7 +39,7 @@ url: /ru/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 
 ### Добавить ссылки
 
- В вашем проекте перейдите в`References` , щелкните правой кнопкой мыши и выберите`Add Reference...`Найдите библиотеку Aspose.Cells и добавьте ее в свой проект.
+В вашем проекте перейдите в `References`, щелкните правой кнопкой мыши и выберите `Add Reference...`. Найдите библиотеку Aspose.Cells и добавьте ее в свой проект.
 
 ### Импорт требуемых пространств имен
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Здесь вы бы заменили`"Your Document Directory"` и`"Your Document Directory"` с реальными путями хранения ваших файлов.
+Здесь вы бы заменили `"Your Document Directory"` и `"Your Document Directory"` с реальными путями хранения ваших файлов.
 
 ## Шаг 2: Загрузите файл Excel
 
@@ -113,12 +115,12 @@ if (ps.PrinterSettings != null)
 {
     //Распечатать следующее сообщение
     Console.WriteLine("PrinterSettings of this worksheet exist.");
-    //Название листа печати и размер бумаги
+    //Имя листа печати и размер бумаги
     Console.WriteLine("Sheet Name: " + ws.Name);
     Console.WriteLine("Paper Size: " + ps.PaperSize);
 ```
 
- Здесь, если`PrinterSettings` Если лист найден, мы предоставляем обратную связь через консоль с указанием имени листа и его размера.
+Здесь, если `PrinterSettings` Если лист найден, мы предоставляем обратную связь через консоль с указанием имени листа и его размера.
 
 ## Шаг 6: Удалите настройки принтера
 
@@ -134,7 +136,7 @@ if (ps.PrinterSettings != null)
 
 В этом фрагменте мы эффективно очищаем настройки принтера, делая все аккуратным и опрятным.
 
-## Шаг 7: Сохраните рабочую книгу
+## Шаг 7: Сохраните рабочую книгу.
 
 После обработки всех рабочих листов важно сохранить рабочую книгу, чтобы сохранить внесенные вами изменения.
 
@@ -155,19 +157,21 @@ wb.Save(outputDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 Aspose.Cells — мощная библиотека, которая позволяет разработчикам создавать, обрабатывать и конвертировать файлы Excel в приложениях .NET.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?  
-Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения ее функций. Ознакомьтесь с[ссылка на бесплатную пробную версию](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете использовать для изучения ее функций. Ознакомьтесь с [ссылка на бесплатную пробную версию](https://releases.aspose.com/).
 
 ### Нужно ли мне устанавливать Microsoft Excel для использования Aspose.Cells?  
 Нет, Aspose.Cells работает независимо от Microsoft Excel. Вам не нужно устанавливать Excel на вашем компьютере.
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?  
- Вы можете посетить[Форум Aspose](https://forum.aspose.com/c/cells/9) для поддержки сообщества и ресурсов.
+Вы можете посетить [Форум Aspose](https://forum.aspose.com/c/cells/9) для поддержки сообщества и ресурсов.
 
 ### Есть ли временная лицензия?  
- Конечно! Вы можете подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/) для доступа ко всем функциям без ограничений в течение ограниченного времени.
+Конечно! Вы можете подать заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/) для доступа ко всем функциям без ограничений в течение ограниченного времени.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

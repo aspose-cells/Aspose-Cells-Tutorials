@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,6 +162,9 @@ A: Đảm bảo hệ thống của bạn có đủ bộ nhớ và cân nhắc t�
 Hãy thoải mái liên hệ qua diễn đàn hỗ trợ nếu bạn gặp bất kỳ vấn đề nào hoặc có thêm câu hỏi. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

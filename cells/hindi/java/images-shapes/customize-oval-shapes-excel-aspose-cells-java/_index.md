@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ excelbook.save("YOUR_OUTPUT_DIRECTORY/AddingAnOvalShape_out.xls");
 इस गाइड का पालन करके, अब आप Java के लिए Aspose.Cells का उपयोग करके कस्टम आकृतियों के साथ अपनी एक्सेल स्प्रेडशीट को बेहतर बनाने के लिए तैयार हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

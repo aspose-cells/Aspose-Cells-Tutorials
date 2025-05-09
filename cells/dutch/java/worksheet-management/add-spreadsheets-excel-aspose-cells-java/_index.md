@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Leer hoe u programmatisch werkbladen aan een Excel-bestand toevoegt met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen."
+"description": "Leer hoe u programmatisch werkbladen aan een Excel-bestand kunt toevoegen met Aspose.Cells voor Java. Deze handleiding behandelt de installatie, implementatie en praktische toepassingen."
 "title": "Werkbladen toevoegen in Excel met Aspose.Cells voor Java&#58; een complete handleiding"
 "url": "/nl/java/worksheet-management/add-spreadsheets-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,6 +193,9 @@ A5: Bekijk de [Aspose-documentatie](https://reference.aspose.com/cells/java/) en
 - **Ondersteuningsforum**: Doe mee aan discussies en krijg hulp op de [ondersteuningsforum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

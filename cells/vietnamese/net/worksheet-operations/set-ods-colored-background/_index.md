@@ -1,14 +1,16 @@
 ---
-title: Đặt màu nền trong tệp ODS
-linktitle: Đặt màu nền trong tệp ODS
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập nền màu trong tệp ODS bằng Aspose.Cells cho .NET, với hướng dẫn và mẹo từng bước.
-weight: 24
-url: /vi/net/worksheet-operations/set-ods-colored-background/
+"description": "Tìm hiểu cách thiết lập nền màu trong tệp ODS bằng Aspose.Cells cho .NET, với hướng dẫn và mẹo từng bước."
+"linktitle": "Đặt màu nền trong tệp ODS"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đặt màu nền trong tệp ODS"
+"url": "/vi/net/worksheet-operations/set-ods-colored-background/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt màu nền trong tệp ODS
@@ -22,7 +24,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 3. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình.
 - [Tải xuống gói Aspose.Cells](https://releases.aspose.com/cells/net/)
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn hiểu rõ hơn các ví dụ và mã mà chúng ta sẽ thảo luận.
-Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng để tạo các tệp ODS đầy màu sắc!
+Sau khi hoàn thành các điều kiện tiên quyết này, bạn đã sẵn sàng để tạo các tệp ODS đầy màu sắc!
 ## Nhập gói
 Để làm việc với Aspose.Cells trong ứng dụng C# của bạn, bạn cần nhập không gian tên thích hợp vào đầu tệp mã của mình. Sau đây là cách thực hiện:
 ```csharp
@@ -30,7 +32,7 @@ using Aspose.Cells.Ods;
 using System;
 using System.Drawing;
 ```
-Những lần nhập này sẽ cho phép bạn truy cập tất cả các chức năng được cung cấp bởi thư viện Aspose.Cells. Bây giờ, chúng ta hãy chuyển sang phần thú vị: tạo nền màu cho tệp ODS của bạn!
+Những lần nhập này sẽ cho phép bạn truy cập vào tất cả các chức năng được cung cấp bởi thư viện Aspose.Cells. Bây giờ, chúng ta hãy chuyển sang phần thú vị: tạo nền màu cho tệp ODS của bạn!
 ## Hướng dẫn từng bước để thiết lập nền màu trong tệp ODS
 ## Bước 1: Thiết lập thư mục đầu ra của bạn
 Trước khi tạo tệp ODS, chúng ta cần chỉ định nơi lưu tệp. Đây là thư mục sẽ lưu trữ các đầu ra của bạn:
@@ -38,9 +40,9 @@ Trước khi tạo tệp ODS, chúng ta cần chỉ định nơi lưu tệp. Đ�
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp ODS của mình. Hãy nghĩ về điều này như bức tranh nơi bạn sẽ vẽ kiệt tác của mình.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp ODS của mình. Hãy coi đây như bức tranh mà bạn sẽ vẽ kiệt tác của mình.
 ## Bước 2: Tạo một đối tượng Workbook
- Tiếp theo, chúng ta sẽ khởi tạo một`Workbook` đối tượng. Đối tượng này đóng vai trò là xương sống cho các hoạt động trong sổ làm việc của chúng tôi và rất cần thiết để xây dựng tệp ODS của chúng tôi:
+Tiếp theo, chúng ta sẽ khởi tạo một `Workbook` đối tượng. Đối tượng này đóng vai trò là xương sống cho các hoạt động trong sổ làm việc của chúng tôi và rất cần thiết để xây dựng tệp ODS của chúng tôi:
 ```csharp
 // Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
@@ -96,16 +98,18 @@ Xin chúc mừng! Bạn đã thiết lập thành công nền nhiều màu trong
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET được thiết kế để tạo, thao tác và chuyển đổi bảng tính Excel một cách dễ dàng.
 ### Tôi có thể sử dụng Aspose.Cells với .NET Core không?
-Có! Aspose.Cells hỗ trợ .NET Core và .NET Framework, giúp nó linh hoạt cho nhiều dự án khác nhau.
+Có! Aspose.Cells hỗ trợ .NET Core và .NET Framework, giúp nó trở nên linh hoạt cho nhiều dự án khác nhau.
 ### Tôi có thể tải xuống Aspose.Cells cho .NET ở đâu?
- Bạn có thể tải nó xuống từ[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+Bạn có thể tải nó xuống từ [Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 ### Có bản dùng thử miễn phí không?
- Chắc chắn rồi! Bạn có thể dùng thử Aspose.Cells miễn phí từ[Trang dùng thử Aspose.Cells](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể dùng thử Aspose.Cells miễn phí từ [Trang dùng thử Aspose.Cells](https://releases.aspose.com/).
 ### Tôi có thể tạo những loại tệp nào bằng Aspose.Cells?
 Bạn có thể tạo nhiều định dạng bảng tính khác nhau, bao gồm XLSX, XLS, ODS và nhiều định dạng khác nữa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

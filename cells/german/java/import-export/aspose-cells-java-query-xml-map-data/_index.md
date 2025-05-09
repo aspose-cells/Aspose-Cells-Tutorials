@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Durch die Beherrschung der Aspose.Cells-Bibliothek zur Abfrage von XML-Kartendat
 Mit diesem Tutorial sind Sie bestens gerüstet, um die Leistungsfähigkeit von Aspose.Cells für Java beim Abfragen von XML-Kartendaten in Excel-Dateien zu nutzen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

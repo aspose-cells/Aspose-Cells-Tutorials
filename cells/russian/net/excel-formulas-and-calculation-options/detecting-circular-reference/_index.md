@@ -1,14 +1,16 @@
 ---
-title: Программное обнаружение циклических ссылок в Excel
-linktitle: Программное обнаружение циклических ссылок в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Легко обнаруживайте циклические ссылки в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы обеспечить точность расчетов в ваших электронных таблицах.
-weight: 13
-url: /ru/net/excel-formulas-and-calculation-options/detecting-circular-reference/
+"description": "Легко обнаруживайте циклические ссылки в Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству, чтобы обеспечить точность расчетов в ваших электронных таблицах."
+"linktitle": "Программное обнаружение циклических ссылок в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Программное обнаружение циклических ссылок в Excel"
+"url": "/ru/net/excel-formulas-and-calculation-options/detecting-circular-reference/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Программное обнаружение циклических ссылок в Excel
@@ -19,7 +21,7 @@ url: /ru/net/excel-formulas-and-calculation-options/detecting-circular-reference
 Прежде чем мы углубимся в детали обнаружения циклических ссылок, давайте убедимся, что у вас есть все необходимое для начала работы:
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это будет ваша среда разработки.
 2. .NET Framework: убедитесь, что вы используете совместимую версию .NET Framework (как минимум .NET Framework 4.0).
-3.  Библиотека Aspose.Cells: Вам нужна библиотека Aspose.Cells. Вы можете загрузить ее с[Сайт Aspose](https://releases.aspose.com/cells/net/).
+3. Библиотека Aspose.Cells: Вам нужна библиотека Aspose.Cells. Вы можете загрузить ее с [Сайт Aspose](https://releases.aspose.com/cells/net/).
 4. Базовые знания C#: знакомство с программированием на C# будет преимуществом, поскольку мы будем писать код на этом языке.
 5. Файл Excel: Подготовьте файл Excel, содержащий циклические ссылки для тестирования. Вы можете создать простой файл или загрузить образец.
 Теперь, когда у нас есть все необходимые условия, давайте перейдем к самой интересной части!
@@ -32,7 +34,7 @@ url: /ru/net/excel-formulas-and-calculation-options/detecting-circular-reference
 - Выберите «Управление пакетами NuGet».
 - Найдите «Aspose.Cells» и установите последнюю версию.
 ### Импорт требуемых пространств имен
- В верхней части вашего`Program.cs` файл, импортируйте необходимые пространства имен:
+В верхней части вашего `Program.cs` файл, импортируйте необходимые пространства имен:
 ```csharp
 using System;
 using System.Collections;
@@ -48,14 +50,14 @@ using System.Text;
 // Входной каталог
 string sourceDir = "Your Document Directory";
 ```
- Заменять`"Your Document Directory"` с фактическим путем к вашему файлу Excel.
+Заменять `"Your Document Directory"` с фактическим путем к вашему файлу Excel.
 ## Шаг 2: Загрузите рабочую книгу с помощью LoadOptions
 Далее вы загрузите свою книгу Excel. Вот тут-то и начинается волшебство!
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 var objWB = new Aspose.Cells.Workbook(sourceDir + "Circular Formulas.xls", loadOptions);
 ```
- Здесь мы создаем новый экземпляр`LoadOptions` и загрузка рабочей книги из указанного пути. Убедитесь, что имя вашего файла Excel совпадает!
+Здесь мы создаем новый экземпляр `LoadOptions` и загрузка рабочей книги из указанного пути. Убедитесь, что имя вашего файла Excel совпадает!
 ## Шаг 3: Включите параметры итерации
 Чтобы разрешить циклические ссылки, необходимо включить параметры итерации в рабочей книге.
 ```csharp
@@ -69,9 +71,9 @@ CalculationOptions copts = new CalculationOptions();
 CircularMonitor cm = new CircularMonitor();
 copts.CalculationMonitor = cm;
 ```
- Здесь мы создаем экземпляр`CalculationOptions` и обычай`CircularMonitor`Этот монитор поможет отслеживать любые циклические ссылки, обнаруженные во время вычислений.
+Здесь мы создаем экземпляр `CalculationOptions` и обычай `CircularMonitor`. Этот монитор поможет отслеживать любые циклические ссылки, обнаруженные во время вычислений.
 ## Шаг 5: Рассчитайте формулы
-Теперь пришло время вычислить формулы в вашей рабочей тетради.
+Теперь пришло время посчитать формулы в вашей рабочей тетради.
 ```csharp
 objWB.CalculateFormula(copts);
 ```
@@ -89,7 +91,7 @@ Console.WriteLine("Circular References found - " + lngCircularRef);
 Console.WriteLine("DetectCircularReference executed successfully.\r\n");
 ```
 ## Шаг 8: Реализация класса CircularMonitor
- Для завершения процесса вам необходимо реализовать`CircularMonitor` класс. Этот класс будет наследовать от`AbstractCalculationMonitor` и обрабатывать обнаружение циклических ссылок.
+Для завершения процесса вам необходимо реализовать `CircularMonitor` класс. Этот класс будет наследовать от `AbstractCalculationMonitor` и обрабатывать обнаружение циклических ссылок.
 ```csharp
 public class CircularMonitor : AbstractCalculationMonitor
 {
@@ -122,10 +124,12 @@ public class CircularMonitor : AbstractCalculationMonitor
 ### Могу ли я использовать Aspose.Cells бесплатно?
 Да, Aspose.Cells предлагает бесплатную пробную версию, которую вы можете использовать для изучения ее возможностей.
 ### Где я могу найти более подробную информацию об Aspose.Cells?
- Вы можете посетить[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для получения подробной информации и примеров.
+Вы можете посетить [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для получения подробной информации и примеров.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

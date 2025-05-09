@@ -6,10 +6,12 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells vizuális oktatóanyagok
-Merülj el Aspose.Cells vizuális oktatóanyagainkban, amelyeket fejlesztők és a táblázatkezelés elsajátítását elsajátítani vágyó lelkes rajongók számára terveztünk. Minden oktatóanyag az Aspose.Cells könyvtár alapvető funkcióit ismerteti, az olyan alapvető műveletektől, mint a táblázatok létrehozása és formázása, egészen a haladó funkciókig, mint az adatvizualizáció és a képletek kezelése. Akár kezdő, akár tapasztalt fejlesztő vagy, vizuális útmutatóink átfogó, könnyen követhető utasításokat és gyakorlati példákat kínálnak.
+Merülj el Aspose.Cells vizuális oktatóanyagainkban, amelyeket fejlesztők és a táblázatkezelés elsajátítását elsajátítani vágyó lelkes felhasználók számára terveztünk. Minden oktatóanyag az Aspose.Cells könyvtár alapvető funkcióit ismerteti, az olyan alapvető műveletektől, mint a táblázatok létrehozása és formázása, egészen a haladó funkciókig, mint az adatvizualizáció és a képletek kezelése. Akár kezdő, akár tapasztalt fejlesztő vagy, vizuális útmutatóink átfogó, könnyen követhető utasításokat és gyakorlati példákat kínálnak.
 
 Oktatóanyagaink beágyazott oldalakra vannak szervezve, strukturált megközelítést kínálva a tanuláshoz. A felhasználók számos témában eligazodhatnak, beleértve a diagramokkal való munkát, a munkalapok kezelését és a fájlkonvertálások zökkenőmentes végrehajtását. Minden egyes rész úgy van kialakítva, hogy fokozatosan fejlessze készségeit, biztosítva, hogy újonnan megszerzett tudását hatékonyan alkalmazhassa projektjeiben. Csatlakozzon hozzánk ezen az oktatási úton, és tárja fel az Aspose.Cells teljes potenciálját!
 
@@ -24,46 +26,75 @@ Az Aspose.Cells for .NET vizuális oktatóanyagok átfogó, lépésről lépésr
 Ismerje meg, hogyan hozhat létre, szabhat testre és kezelhet diagramokat .NET alkalmazásokban az Aspose.Cells segítségével. Fedezze fel a különböző diagramtípusokat egyszerű, hatékony példákkal.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="3D-s diagramok létrehozása és formázása Excelben" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Diagram átméretezése és áthelyezése az Excelben" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Diagramjel-felirat irányának módosítása Excelben" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="PDF létrehozása Excel táblázatból megadott oldalmérettel" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Vonaldiagram létrehozása adatjelölőkkel az Aspose.Cells-ben" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
-{{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="és Y értékek típusának keresése diagrampontokban" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="X és Y értékek típusának keresése diagrampontokban" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Diagram alcímének lekérése ODS fájlból az Aspose.Cells használatával" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Diagram adatcímkéjének alakjának módosítása Excelben" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Excel-diagram létrehozása az Aspose.Cells for .NET segítségével" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Objektumok rajzolása az Aspose.Cells for .NET segítségével](./net/drawing-objects/)
 Ismerje meg, hogyan hozhat létre, szabhat testre és kezelhet diagramokat .NET alkalmazásokban az Aspose.Cells segítségével. Fedezze fel a különböző diagramtípusokat egyszerű, hatékony példákkal.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Ole objektumcímkék módosítása Excelben az Aspose.Cells használatával" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Excel fájlok létrehozása és mentése az Aspose.Cells segítségével" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Alakzatszöveg igazításának módosítása Excelben az Aspose.Cells használatával" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Alakzatok Z-sorrendjének manipulálása Excelben az Aspose.Cells használatával" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Excel munkafüzet létrehozása távol-keleti és latin betűtípusokkal" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Textúra csempézése Excelben az Aspose.Cells segítségével" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Formázás az Aspose.Cells for .NET-ben – Stílusok, színek és egyebek](./net/formatting/)
 Ismerd meg, hogyan alkalmazhatsz formázást az Aspose.Cells for .NET-ben, beleértve a stílusokat, színeket, betűtípusokat, szegélyeket és egyebeket a professzionális Excel-jelentésekhez.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Szegélyek hozzáadása egy tartományhoz Excelben az Aspose.Cells használatával" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Színek és hátterek alkalmazása Excelben az Aspose.Cells használatával" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Cellák egyesítése Excelben az Aspose.Cells for .NET használatával" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Betűszín beállítása Excel cellákban az Aspose.Cells használatával" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Betűtípus nevének beállítása Excelben az Aspose.Cells használatával" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Betűméret beállítása Excelben az Aspose.Cells használatával" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Vízszintes szövegigazítás Excelben az Aspose.Cells segítségével" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Szöveg tördelése Excel cellákban az Aspose.Cells használatával" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pivot táblák az Aspose.Cells for .NET-ben](./net/pivot-tables/)
 Tanuld meg, hogyan hozhatsz létre, formázhatsz és kezelhetsz pivot táblákat az Aspose.Cells for .NET programban. Generálj dinamikus jelentéseket és elemezz adatokat könnyedén C#-ban.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Pivot tábla létrehozása Excelben az Aspose.Cells használatával" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Pivot tábla mentése ODS-ként az Aspose.Cells fájlban" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Ezek néhány hasznos forráshoz vezető linkek:
@@ -110,7 +141,7 @@ Ezek néhány hasznos forráshoz vezető linkek:
 - [Elnevezett tartományok használata Excelben](./net/excel-working-with-named-ranges/)
 - [Cellák egyesítése és szétválasztása Excelben](./net/excel-merging-unmerging-cells/)
 - [Elnevezett tartományok létrehozása és formázása Excelben](./net/excel-creating-formatting-named-ranges/)
-- [Speciális műveletek elnevezett tartományokkal az Excelben](./net/excel-advanced-named-ranges/)
+- [Speciális műveletek névvel ellátott tartományokkal az Excelben](./net/excel-advanced-named-ranges/)
 - [Elnevezett tartományok kezelése Excelben](./net/excel-managing-named-ranges/)
 - [Excel adatexportálás és -lekérés](./net/excel-data-export-retrieval/)
 - [Excel automatikus szűrő és érvényesítés](./net/excel-autofilter-validation/)
@@ -181,8 +212,10 @@ Ezek néhány hasznos forráshoz vezető linkek:
 
 
 ## Aspose.Cells Java-hoz oktatóanyagok
+
 {{% alert color="primary" %}}
 Fedezd fel az Aspose.Cells Java-hoz készült oktatóanyagokat. Sajátítsd el az Excel fájlok kezelését kódpéldákkal. Fejleszd Java-tudásodat még ma!
+
 {{% /alert %}}
 
 Ezek néhány hasznos forráshoz vezető linkek:
@@ -219,6 +252,7 @@ Ezek néhány hasznos forráshoz vezető linkek:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pravidla pro ověření dat
@@ -42,9 +44,11 @@ Naučte se validaci dat v Excelu pomocí Aspose.Cells pro Javu. Implementujte pr
 Naučte se, jak implementovat podmíněné ověřování dat pomocí Aspose.Cells pro Javu. Podrobný návod se zdrojovým kódem pro přesné zpracování dat v tabulkách Excelu.
 ### [Vstupní zpráva při ověření dat](./input-message-in-data-validation/)
 Naučte se, jak vylepšit ověřování dat v Excelu pomocí Aspose.Cells pro Javu. Podrobný návod s příklady kódu pro zlepšení přesnosti dat a pokyny pro uživatele.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

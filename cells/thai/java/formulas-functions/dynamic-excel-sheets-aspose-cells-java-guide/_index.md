@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 2. **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:**
    - ติดตั้ง Java Development Kit (JDK) บนระบบของคุณ
    - IDE เช่น IntelliJ IDEA หรือ Eclipse
-3. **ข้อกำหนดเบื้องต้นของความรู้:**
+3. **ข้อกำหนดความรู้เบื้องต้น:**
    - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
@@ -133,7 +135,7 @@ cell.setStyle(style1); // นำรูปแบบใหม่มาใช้ก
 เขียนการเปลี่ยนแปลงไปยังไฟล์บนดิสก์
 
 ```java
-// กำหนดไดเรกทอรีเอาท์พุตและบันทึกเวิร์กบุ๊กในรูปแบบ Excel
+// กำหนดไดเรกทอรีเอาท์พุตและบันทึกสมุดงานในรูปแบบ Excel
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/TAVertical_out.xls");
 ```
@@ -189,6 +191,9 @@ Aspose.Cells สำหรับ Java มีความหลากหลาย 
 ใช้พลังของ Aspose.Cells สำหรับ Java ในโครงการถัดไปของคุณและยกระดับความสามารถในการทำงานอัตโนมัติของ Excel ของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

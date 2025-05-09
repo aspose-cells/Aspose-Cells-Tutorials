@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ W tym kompleksowym przewodniku przyjrzymy się sposobowi ładowania pliku Excel 
 - Techniki efektywnego ładowania skoroszytów
 - Metody wyszukiwania komórek na podstawie kryteriów wyszukiwania
 
-Przyjrzyjmy się bliżej warunkom wstępnym i zacznijmy!
+Przyjrzyjmy się bliżej wymaganiom wstępnym i zacznijmy!
 
 ## Wymagania wstępne (H2)
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
@@ -163,6 +165,9 @@ Rozpocznij już dziś efektywną automatyzację programu Excel dzięki Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

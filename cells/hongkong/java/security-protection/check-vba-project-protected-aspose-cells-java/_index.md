@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ A3：是的，但是使用會受到限制。考慮獲取臨時或完整許可證
 A4：是的，Aspose 為 .NET、C++ 等提供了類似的函式庫。查看他們的文檔以了解詳細資訊。
 
 **Q5：使用 Aspose.Cells 時，如果我的應用程式記憶體不足，該怎麼辦？**
-A5：密切監控資源使用情況，並優化程式碼，以便及時釋放未使用的資源，從而有效處理大型檔案。
+A5：密切監控資源使用情況，並優化程式碼，透過及時釋放未使用的資源來有效處理大型檔案。
 
 ## 資源
 - **文件**：提供全面的指南和 API 參考 [這裡](https://reference。aspose.com/cells/java/).
@@ -150,6 +152,9 @@ A5：密切監控資源使用情況，並優化程式碼，以便及時釋放未
 - **支援**：需要幫助嗎？透過 [Aspose 支援論壇](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

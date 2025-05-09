@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Etiquetado de datos
@@ -65,7 +67,7 @@ column.setCaption("Expenses");
 Aspose.Cells para Java permite personalizar etiquetas cambiando fuentes, colores y otras opciones de formato. Esto garantiza que sus etiquetas no solo sean informativas, sino también visualmente atractivas.
 
 ```java
-// Personalizar el formato de las etiquetas
+// Personalizar el formato de la etiqueta
 Style style = cell.getStyle();
 style.getFont().setBold(true);
 style.getFont().setColor(Color.getRed());
@@ -145,6 +147,7 @@ Puede gestionar errores con elegancia mediante el uso de bloques try-catch para 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

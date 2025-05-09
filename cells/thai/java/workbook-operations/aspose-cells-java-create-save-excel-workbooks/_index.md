@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ workbook.save(outDir + "/SettingPageSetupProperties_out.xls");
    - ใช่ คุณสามารถดาวน์โหลดและเพิ่มไฟล์ JAR ลงในคลาสพาธของโปรเจ็กต์ของคุณได้ด้วยตนเอง
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

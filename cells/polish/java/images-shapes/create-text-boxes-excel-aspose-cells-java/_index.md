@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Pracując z dużymi plikami programu Excel, należy wziąć pod uwagę następuj
 - Wdrażanie efektywnych technik ładowania danych w przypadku rozległych zbiorów danych.
 
 ## Wniosek
-Dzięki temu samouczkowi nauczyłeś się, jak tworzyć i konfigurować pola tekstowe w programie Excel przy użyciu Aspose.Cells for Java. Ta możliwość ulepsza prezentację informacji w arkuszach kalkulacyjnych, umożliwiając lepszą czytelność i podkreślenie kluczowych punktów.
+Dzięki temu samouczkowi nauczyłeś się, jak tworzyć i konfigurować pola tekstowe w programie Excel przy użyciu Aspose.Cells for Java. Ta możliwość ulepsza prezentację informacji w arkuszach kalkulacyjnych, umożliwiając lepszą czytelność i podkreślanie kluczowych punktów.
 Aby lepiej poznać możliwości Aspose.Cells, warto poeksperymentować z innymi kształtami, wykresami lub zautomatyzować procesy importu/eksportu danych.
 
 ## Sekcja FAQ
@@ -147,6 +149,9 @@ W celu dalszej lektury i eksploracji:
 Postępując zgodnie z tym przewodnikiem, będziesz teraz dobrze przygotowany do rozpoczęcia integrowania Aspose.Cells Java ze swoimi projektami w celu zwiększenia automatyzacji i możliwości formatowania w programie Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

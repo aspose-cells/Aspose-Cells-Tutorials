@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ public class SaveExcelFile {
 }
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 以下に、図形の余白を設定すると便利な実際のシナリオをいくつか示します。
 1. **プレゼンテーションの準備**ダッシュボードまたはプレゼンテーション上の図形内のテキストの配置と間隔を調整して、読みやすさを向上させます。
    
@@ -210,6 +212,9 @@ Aspose.Cells を使用する際に最適なパフォーマンスを確保する�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

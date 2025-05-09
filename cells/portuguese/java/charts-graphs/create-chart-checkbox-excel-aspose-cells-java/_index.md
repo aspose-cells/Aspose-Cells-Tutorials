@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Aqui estão alguns cenários do mundo real onde você pode aplicar o conheciment
 3. **Ferramentas educacionais:** Crie materiais de aprendizagem dinâmicos onde os alunos possam interagir com o conteúdo selecionando diferentes opções nos gráficos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

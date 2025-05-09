@@ -1,85 +1,89 @@
 ---
-title: Tambahkan Komentar Berulir di Lembar Kerja
-linktitle: Tambahkan Komentar Berulir di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan komentar berulir di lembar kerja Excel menggunakan Aspose.Cells for .NET dengan tutorial langkah demi langkah ini. Tingkatkan kolaborasi dengan mudah.
-weight: 10
-url: /id/net/worksheet-operations/add-threaded-comments/
+"description": "Tanuld meg, hogyan adhatsz hozzá menetes megjegyzéseket Excel-munkafüzetekhez az Aspose.Cells for .NET használatával ezzel a lépésről lépésre haladó oktatóanyaggal. Erőfeszítéseiddel fokozhatod az együttműködést."
+"linktitle": "Hozzáfűzött megjegyzések hozzáadása a munkalaphoz"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Hozzáfűzött megjegyzések hozzáadása a munkalaphoz"
+"url": "/id/net/worksheet-operations/add-threaded-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Komentar Berulir di Lembar Kerja
+# Hozzáfűzött megjegyzések hozzáadása a munkalaphoz
 
-## Perkenalan
-Apakah Anda ingin menyempurnakan lembar kerja Excel Anda dengan komentar berulir? Jika Anda seorang pengembang yang menggunakan Aspose.Cells untuk .NET, Anda beruntung! Komentar berulir memungkinkan diskusi yang lebih terorganisasi dalam lembar Excel Anda, sehingga pengguna dapat berkolaborasi secara efektif. Baik Anda sedang mengerjakan proyek yang memerlukan umpan balik atau hanya ingin memberi anotasi pada data, tutorial ini akan memandu Anda melalui proses penambahan komentar berulir di lembar kerja Excel Anda menggunakan Aspose.Cells. 
-## Prasyarat
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda, karena ini adalah IDE paling umum untuk pengembangan .NET.
-2.  Aspose.Cells untuk .NET: Anda perlu menginstal pustaka Aspose.Cells untuk .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari situs tersebut[Di Sini](https://releases.aspose.com/cells/net/).
-3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangat penting, karena tutorial ini akan ditulis dalam C#.
-4. .NET Framework: Pastikan proyek Anda disiapkan dengan versi .NET Framework yang kompatibel.
-## Paket Impor
-Untuk bekerja dengan Aspose.Cells, Anda perlu mengimpor namespace yang diperlukan dalam proyek Anda. Berikut cara melakukannya:
+## Bevezetés
+Szeretnéd Excel-munkafüzeteidet menetes megjegyzésekkel kiegészíteni? Ha fejlesztőként az Aspose.Cells for .NET-et használod, szerencséd van! A menetes megjegyzések lehetővé teszik a szervezettebb beszélgetéseket az Excel-munkafüzetekben, így a felhasználók hatékonyan együttműködhetnek. Akár egy visszajelzést igénylő projekten dolgozol, akár egyszerűen csak adatokat szeretnél jegyzetekkel ellátni, ez az oktatóanyag végigvezet a menetes megjegyzések Excel-munkafüzeteidben való hozzáadásának folyamatán az Aspose.Cells segítségével. 
+## Előfeltételek
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén, mivel ez a leggyakoribb IDE a .NET fejlesztéshez.
+2. Aspose.Cells for .NET: Telepítenie kell az Aspose.Cells for .NET könyvtárat. Ha még nem telepítette, letöltheti a webhelyről. [itt](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozással való ismeret elengedhetetlen, mivel ez az oktatóanyag C#-ban fog megíródni.
+4. .NET-keretrendszer: Győződjön meg arról, hogy a projekt kompatibilis .NET-keretrendszer-verzióval van beállítva.
+## Csomagok importálása
+Az Aspose.Cells használatához importálnia kell a szükséges névtereket a projektjébe. Így teheti meg ezt:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Ruang nama ini akan memberi Anda akses ke kelas dan metode yang diperlukan untuk memanipulasi berkas Excel dan mengelola komentar berulir.
-Sekarang setelah prasyarat kita ditetapkan dan paket-paket yang diperlukan diimpor, mari kita uraikan proses penambahan komentar berulir ke dalam beberapa langkah demi kejelasan.
-## Langkah 1: Buat Buku Kerja Baru
-Hal pertama yang harus dilakukan, kita perlu membuat buku kerja baru di mana kita akan menambahkan komentar berulir.
+Ezek a névterek hozzáférést biztosítanak az Excel-fájlok kezeléséhez és a hozzászólásláncok kezeléséhez szükséges osztályokhoz és metódusokhoz.
+Most, hogy beállítottuk az előfeltételeket és importáltuk a szükséges csomagokat, bontsuk a hozzászólásláncokban szereplő megjegyzések hozzáadásának folyamatát több lépésre az áttekinthetőség kedvéért.
+## 1. lépés: Új munkafüzet létrehozása
+Először is létre kell hoznunk egy új munkafüzetet, ahová a hozzászólásláncokban szereplő megjegyzéseket fogjuk felvenni.
 ```csharp
-string outDir = "Your Document Directory"; // Atur direktori keluaran Anda
-Workbook workbook = new Workbook(); // Buat buku kerja baru
+string outDir = "Your Document Directory"; // Állítsa be a kimeneti könyvtárat
+Workbook workbook = new Workbook(); // Új munkafüzet létrehozása
 ```
- Pada langkah ini, Anda mengatur direktori keluaran tempat file Excel Anda akan disimpan.`Workbook` kelas adalah titik masuk untuk membuat dan memanipulasi file Excel di Aspose.Cells.
-## Langkah 2: Tambahkan Penulis untuk Komentar
-Sebelum kita dapat menambahkan komentar, kita perlu menentukan penulis. Penulis ini akan dikaitkan dengan komentar yang Anda buat. Sekarang mari tambahkan penulis.
+Ebben a lépésben beállíthatja azt a kimeneti könyvtárat, ahová az Excel-fájl mentésre kerül. `Workbook` Az osztály az Excel fájlok Aspose.Cells-ben történő létrehozásának és kezelésének belépési pontja.
+## 2. lépés: Szerző hozzáadása a megjegyzésekhez
+Mielőtt megjegyzéseket adhatnánk hozzá, meg kell adnunk egy szerzőt. Ez a szerző lesz társítva az általad létrehozott megjegyzésekkel. Most adjunk hozzá egy szerzőt.
 ```csharp
-int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Aspose Test", "", ""); // Tambahkan penulis
-ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex]; // Dapatkan penulisnya
+int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Aspose Test", "", ""); // Szerző hozzáadása
+ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex]; // Szerezd meg a szerzőt
 ```
- Di sini, kami menggunakan`Add` metode untuk membuat penulis baru. Anda dapat menentukan nama penulis dan detail opsional lainnya (seperti email) dalam parameter. Penulis ini akan dirujuk nanti saat menambahkan komentar.
-## Langkah 3: Tambahkan Komentar Berulir
-Setelah kita mengatur penulisnya, saatnya menambahkan komentar berulir ke sel tertentu di lembar kerja. 
+Itt használjuk a `Add` metódus új szerző létrehozásához. A paraméterekben megadhatja a szerző nevét és egyéb opcionális adatokat (például e-mail címét). Erre a szerzőre később hivatkozni fogunk a megjegyzések hozzáadásakor.
+## 3. lépés: Hozzáfűzött megjegyzés hozzáadása
+Most, hogy beállítottuk a szerzőt, itt az ideje, hogy egy szálas megjegyzést fűzzünk hozzá a munkalap egy adott cellájához. 
 ```csharp
-workbook.Worksheets[0].Comments.AddThreadedComment("A1", "Test Threaded Comment", author); // Tambahkan komentar berulir
+workbook.Worksheets[0].Comments.AddThreadedComment("A1", "Test Threaded Comment", author); // Hozzászólás hozzáadása
 ```
- Pada langkah ini, kami menambahkan komentar ke sel A1 pada lembar kerja pertama. Anda dapat mengganti`"A1"` dengan referensi sel mana pun tempat Anda ingin menambahkan komentar. Pesan dalam tanda kutip adalah isi komentar.
-## Langkah 4: Simpan Buku Kerja
-Setelah menambahkan komentar berulir, Anda sebaiknya menyimpan buku kerja Anda sehingga perubahannya tetap ada.
+Ebben a lépésben egy megjegyzést adunk az első munkalap A1 cellájához. Lecserélheti `"A1"` bármely cellahivatkozással, ahová a megjegyzést hozzá szeretné adni. Az idézőjelek között lévő üzenet a megjegyzés tartalma.
+## 4. lépés: A munkafüzet mentése
+A hozzászólásláncba rendezett megjegyzés hozzáadása után érdemes menteni a munkafüzetet, hogy a módosítások megmaradjanak.
 ```csharp
-workbook.Save(outDir + "AddThreadedComments_out.xlsx"); // Simpan buku kerja
+workbook.Save(outDir + "AddThreadedComments_out.xlsx"); // A munkafüzet mentése
 ```
- Di sini, buku kerja disimpan di direktori keluaran yang ditentukan dengan nama`AddThreadedComments_out.xlsx`Pastikan direktori tersebut ada, atau Anda akan mengalami kesalahan file tidak ditemukan.
-## Langkah 5: Konfirmasikan Keberhasilan
-Terakhir, mari kita keluarkan pesan ke konsol yang menunjukkan bahwa operasi kita berhasil.
+Itt a munkafüzet a megadott kimeneti könyvtárba kerül mentésre a következő névvel: `AddThreadedComments_out.xlsx`Győződjön meg arról, hogy a könyvtár létezik, különben „a fájl nem található” hibát kap.
+## 5. lépés: Siker megerősítése
+Végül írjunk ki egy üzenetet a konzolra, amely jelzi, hogy a művelet sikeres volt.
 ```csharp
-Console.WriteLine("AddThreadedComments executed successfully."); // Pesan konfirmasi
+Console.WriteLine("AddThreadedComments executed successfully."); // Megerősítő üzenet
 ```
-Langkah ini bersifat opsional tetapi berguna untuk debugging. Langkah ini memberi tahu Anda bahwa kode tersebut dijalankan tanpa kesalahan.
-## Kesimpulan
-Nah, itu dia! Anda telah berhasil menambahkan komentar berulir ke lembar kerja Excel Anda menggunakan Aspose.Cells for .NET. Fitur ini dapat meningkatkan kolaborasi secara signifikan dan memberikan kejelasan dalam komunikasi saat beberapa pengguna mengerjakan dokumen yang sama.
-Komentar berulir tidak hanya memungkinkan diskusi yang lebih kaya dalam dokumen, tetapi juga menjaga anotasi Anda tetap teratur. Jangan ragu untuk bereksperimen dengan sel, penulis, dan komentar yang berbeda untuk melihat bagaimana semuanya muncul di buku kerja Anda.
-## Pertanyaan yang Sering Diajukan
-### Apa itu komentar berulir di Excel?  
-Komentar berulir adalah komentar yang memungkinkan adanya balasan dan diskusi dalam komentar itu sendiri, sehingga memudahkan kolaborasi.
-### Bisakah saya menambahkan beberapa komentar ke satu sel?  
-Ya, Anda dapat menambahkan beberapa komentar berulir ke satu sel, yang memungkinkan diskusi yang luas.
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?  
- Meskipun Anda dapat mencoba Aspose.Cells dengan uji coba gratis, lisensi diperlukan untuk penggunaan produksi. Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/buy).
-### Bagaimana cara melihat komentar di Excel?  
-Setelah menambahkan komentar, Anda dapat melihatnya dengan mengarahkan kursor ke sel tempat komentar ditempatkan atau melalui panel komentar.
-### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?  
- Anda dapat merujuk ke[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/) untuk informasi lebih lanjut dan contoh terperinci.
+Ez a lépés opcionális, de hasznos a hibakereséshez. Megmutatja, hogy a kód hibák nélkül lefutott.
+## Következtetés
+És íme! Sikeresen hozzáadtad a hozzászólásláncokhoz kapcsolódó megjegyzéseket az Excel-munkafüzetedhez az Aspose.Cells for .NET használatával. Ez a funkció jelentősen javíthatja az együttműködést és tisztábbá teheti a kommunikációt, amikor több felhasználó dolgozik ugyanazon a dokumentumon.
+A témaszerű megjegyzések nemcsak gazdagabb beszélgetést tesznek lehetővé a dokumentumon belül, hanem a jegyzetek rendszerezettek is maradnak. Kísérletezz különböző cellákkal, szerzőkkel és megjegyzésekkel, hogy lásd, hogyan jelennek meg a munkafüzetedben.
+## GYIK
+### Mi az a hozzászólásláncként használt megjegyzés az Excelben?  
+hozzászólásláncok olyan hozzászólások, amelyek lehetővé teszik a válaszadást és a beszélgetést magán a hozzászóláson belül, megkönnyítve az együttműködést.
+### Több megjegyzést is hozzáadhatok egyetlen cellához?  
+Igen, több hozzászólásláncba rendezett megjegyzést is hozzáadhat egyetlen cellához, ami lehetővé teszi a részletes megbeszéléseket.
+### Szükségem van licencre az Aspose.Cells használatához?  
+Bár az Aspose.Cells ingyenes próbaverzióval is kipróbálható, éles használathoz licenc szükséges. Megszerezheti [itt](https://purchase.aspose.com/buy).
+### Hogyan tudom megtekinteni a megjegyzéseket az Excelben?  
+A megjegyzések hozzáadása után megtekintheti őket, ha az egérmutatót a megjegyzést tartalmazó cella fölé viszi, vagy a megjegyzések ablaktáblán keresztül.
+### Hol találok több információt az Aspose.Cells-ről?  
+Hivatkozhat a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) további információkért és részletes példákért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thanh Tab Điều Khiển Chiều Rộng Của Bảng Tính
-linktitle: Thanh Tab Điều Khiển Chiều Rộng Của Bảng Tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách kiểm soát độ rộng thanh tab trang tính trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Tùy chỉnh tệp Excel của bạn một cách hiệu quả.
-weight: 10
-url: /vi/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-spreadsheet/
+"description": "Tìm hiểu cách kiểm soát độ rộng thanh tab trang tính trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Tùy chỉnh tệp Excel của bạn một cách hiệu quả."
+"linktitle": "Thanh Tab Điều Khiển Chiều Rộng Của Bảng Tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thanh Tab Điều Khiển Chiều Rộng Của Bảng Tính"
+"url": "/vi/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-spreadsheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thanh Tab Điều Khiển Chiều Rộng Của Bảng Tính
@@ -23,11 +25,11 @@ Trong hướng dẫn này, chúng tôi sẽ đề cập đến mọi thứ bạn
 
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
-1.  Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/).
+1. Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất từ [Trang tải xuống Aspose](https://releases.aspose.com/cells/net/).
 2. Môi trường phát triển .NET: Tốt nhất là Visual Studio hoặc bất kỳ IDE .NET tương thích nào khác.
 3. Kiến thức cơ bản về C#: Nếu bạn đã quen thuộc với C#, bạn đã sẵn sàng để theo dõi.
 
- Ngoài ra, nếu bạn không có giấy phép, bạn có thể xin cấp[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc thử[dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
+Ngoài ra, nếu bạn không có giấy phép, bạn có thể xin cấp [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) hoặc thử [dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
 
 ## Nhập gói
 
@@ -40,9 +42,9 @@ using Aspose.Cells;
 
 Bây giờ chúng ta hãy chuyển sang phần cốt lõi của nhiệm vụ. Tôi sẽ chia nhỏ từng bước để bạn có thể dễ dàng theo dõi ngay cả khi bạn không phải là nhà phát triển dày dạn kinh nghiệm.
 
-## Bước 1: Thiết lập Dự án và Sổ làm việc của bạn
+## Bước 1: Thiết lập dự án và sổ làm việc của bạn
 
-Đầu tiên chúng ta cần một đối tượng Workbook sẽ chứa tệp Excel của chúng ta. Hãy tưởng tượng đây là biểu diễn kỹ thuật số của một tệp Excel thực tế. Chúng ta sẽ tải một tệp Excel hiện có hoặc bạn có thể tạo một tệp mới nếu cần.
+Đầu tiên chúng ta cần một đối tượng Workbook sẽ lưu trữ tệp Excel của chúng ta. Hãy tưởng tượng đây là biểu diễn kỹ thuật số của một tệp Excel thực tế. Chúng ta sẽ tải một tệp Excel hiện có hoặc bạn có thể tạo một tệp mới nếu cần.
 
 ### Thiết lập dự án
 
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Thay thế bằng đường dẫn
 Workbook workbook = new Workbook(dataDir + "book1.xls"); 
 ```
 
- Đây,`book1.xls` là tệp Excel mà chúng ta sẽ sửa đổi. Nếu bạn không có tệp hiện có, bạn có thể tạo một tệp trong Excel rồi lưu vào thư mục dự án của bạn.
+Đây, `book1.xls` là tệp Excel mà chúng ta sẽ sửa đổi. Nếu bạn không có tệp hiện có, bạn có thể tạo một tệp trong Excel rồi lưu vào thư mục dự án của bạn.
 
 ## Bước 2: Điều chỉnh khả năng hiển thị của Tab
 
@@ -91,7 +93,7 @@ Sau khi thực hiện tất cả các thay đổi, bước cuối cùng là lưu
 workbook.Save(dataDir + "output.xls");
 ```
 
- Trong trường hợp này, chúng tôi đang lưu tệp đã sửa đổi dưới dạng`output.xls`. Nếu bạn muốn giữ nguyên tệp gốc, bạn có thể lưu tệp mới với tên khác, như hiển thị ở đây.
+Trong trường hợp này, chúng tôi đang lưu tệp đã sửa đổi dưới dạng `output.xls`. Nếu bạn muốn giữ nguyên tệp gốc, bạn có thể lưu tệp mới với tên khác, như hiển thị ở đây.
 
 ## Phần kết luận
 
@@ -100,7 +102,7 @@ Và thế là xong! Bây giờ bạn đã học thành công cách kiểm soát 
 ## Câu hỏi thường gặp
 
 ### Tôi có thể ẩn hoàn toàn thanh tab bằng Aspose.Cells không?
- Có! Bằng cách thiết lập`workbook.Settings.ShowTabs` ĐẾN`false`, bạn có thể ẩn thanh tab hoàn toàn.
+Có! Bằng cách thiết lập `workbook.Settings.ShowTabs` ĐẾN `false`, bạn có thể ẩn thanh tab hoàn toàn.
 
 ### Điều gì xảy ra nếu tôi đặt chiều rộng tab quá lớn?
 Nếu chiều rộng được đặt quá lớn, các tab có thể kéo dài ra ngoài cửa sổ hiển thị, đòi hỏi phải cuộn theo chiều ngang.
@@ -109,13 +111,15 @@ Nếu chiều rộng được đặt quá lớn, các tab có thể kéo dài ra
 Không, Aspose.Cells không cho phép điều chỉnh độ rộng của từng tab riêng lẻ, chỉ cho phép điều chỉnh độ rộng của toàn bộ thanh tab.
 
 ### Làm thế nào để tôi có thể hoàn tác những thay đổi về chiều rộng tab?
- Chỉ cần thiết lập lại`workbook.Settings.SheetTabBarWidth` theo giá trị mặc định (thường là khoảng 300).
+Chỉ cần thiết lập lại `workbook.Settings.SheetTabBarWidth` theo giá trị mặc định (thường là khoảng 300).
 
 ### Aspose.Cells có hỗ trợ các tùy chọn tùy chỉnh khác cho các tab không?
 Có, bạn cũng có thể kiểm soát màu tab, khả năng hiển thị và các tùy chọn hiển thị khác bằng Aspose.Cells cho .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

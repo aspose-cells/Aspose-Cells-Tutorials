@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Oui, vous pouvez référencer des cellules sur différentes feuilles à l'aide d
 Spécifiez le format d'enregistrement souhaité (par exemple, XLS ou XLSX) pour assurer la compatibilité avec les différentes versions d'Excel. Aspose.Cells prend en charge plusieurs formats.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ Tải sổ làm việc với kích thước giấy cụ thể là rất quan tr�
     workbookA5.save(outDir + "/output-a5.pdf");
     ```
 3. **Tải với khổ giấy A3:**
-   Tương tự như vậy, đặt kích thước giấy thành A3 và lưu:
+   Tương tự như vậy, đặt kích thước giấy là A3 và lưu:
     ```java
     LoadOptions optsA3 = new LoadOptions(LoadFormat.XLSX);
     optsA3.setPaperSize(PaperSizeType.PAPER_A_3);
@@ -188,6 +190,9 @@ Chúng tôi khuyến khích bạn khám phá thêm và triển khai các giải 
 - [Mua giấy phép](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

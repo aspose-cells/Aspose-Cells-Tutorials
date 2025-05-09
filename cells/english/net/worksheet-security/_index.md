@@ -8,7 +8,9 @@ url: /net/worksheet-security/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Worksheet Security
@@ -71,9 +73,11 @@ Learn how to implement advanced protection settings in Excel using Aspose.Cells 
 Learn how to lock cells in Excel using Aspose.Cells for .NET with this step-by-step guide. Protect your data with detailed code examples and easy instructions.
 ### [Specify Author while Write Protecting Workbook using Aspose.Cells](./specify-author-write-protect-workbook/)
 Learn how to specify an author while write protecting an Excel workbook using Aspose.Cells for .NET in this step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

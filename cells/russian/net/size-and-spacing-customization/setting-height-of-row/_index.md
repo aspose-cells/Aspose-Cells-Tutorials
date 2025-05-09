@@ -1,14 +1,16 @@
 ---
-title: Установка высоты строки в Excel с помощью Aspose.Cells
-linktitle: Установка высоты строки в Excel с помощью Aspose.Cells
-second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь легко задавать высоту строки в Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства.
-weight: 14
-url: /ru/net/size-and-spacing-customization/setting-height-of-row/
+"description": "Научитесь легко задавать высоту строки в Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства."
+"linktitle": "Установка высоты строки в Excel с помощью Aspose.Cells"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Установка высоты строки в Excel с помощью Aspose.Cells"
+"url": "/ru/net/size-and-spacing-customization/setting-height-of-row/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установка высоты строки в Excel с помощью Aspose.Cells
@@ -19,18 +21,18 @@ url: /ru/net/size-and-spacing-customization/setting-height-of-row/
 ## Предпосылки
 Прежде чем перейти к программированию, важно убедиться, что у вас все готово. 
 1. Установите .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework. Если вы используете Visual Studio, это должно быть пустяком.
-2.  Aspose.Cells для .NET: Вам нужно скачать и установить Aspose.Cells для .NET. Вы можете найти пакет[здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Вам нужно будет скачать и установить Aspose.Cells для .NET. Вы можете найти пакет [здесь](https://releases.aspose.com/cells/net/).
 3. IDE: Вам понадобится интегрированная среда разработки (IDE) для написания кода. Visual Studio — отличный вариант, если вы работаете в среде Windows.
 4. Базовые знания C#: Я проведу вас по каждому шагу, но наличие базовых знаний C# сделает все более понятным.
-Теперь, когда вы выполнили все необходимые условия, давайте начнем писать код!
+Теперь, когда вы выполнили все необходимые предварительные условия, давайте начнем писать код!
 ## Импортные пакеты
 Прежде чем что-либо делать, нам нужно импортировать пакеты, которые заставляют Aspose.Cells работать. Вот как это сделать:
 ### Создать новый проект
 Откройте Visual Studio и создайте новый проект C#. Выберите Console Application для простоты. 
 ### Установить Aspose.Cells через NuGet
- В вашем проекте перейдите в`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution`. Найдите Aspose.Cells и нажмите «Установить». Это позволит вам получить доступ ко всей магии, которую предлагает Aspose.Cells.
+В вашем проекте перейдите в `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`Найдите Aspose.Cells и нажмите «Установить». Это позволит вам получить доступ ко всей магии, которую предлагает Aspose.Cells.
 ### Добавить директивы использования
- В верхней части вашего`Program.cs`файл, вам необходимо включить следующие директивы using:
+В верхней части вашего `Program.cs` файл, вам необходимо включить следующие директивы using:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -42,15 +44,15 @@ using Aspose.Cells;
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Заменять`"Your Document Directory"` с фактическим путем в вашей системе, где находится файл Excel. Это то место, где наша программа будет искать файл. Убедитесь, что он разработан идеально, как карта, ведущая нас к сокровищам!
+Заменять `"Your Document Directory"` с фактическим путем в вашей системе, где находится файл Excel. Это то место, где наша программа будет искать файл. Убедитесь, что он разработан идеально, как карта, ведущая нас к сокровищам!
 ## Шаг 2: Создание потока файлов
 Теперь откроем файл Excel с помощью FileStream. 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- С использованием`FileMode.Open` сообщает приложению, что мы хотим открыть существующий файл. Это как сказать: «Эй, я хочу посмотреть на что-то, что уже есть здесь!»
+С использованием `FileMode.Open` сообщает приложению, что мы хотим открыть существующий файл. Это как сказать: «Эй, я хочу посмотреть на что-то, что уже есть здесь!»
 ## Шаг 3: Создание экземпляра объекта Workbook
- Далее мы создаем экземпляр`Workbook` объект. Этот объект представляет собой весь файл Excel. 
+Далее мы создаем экземпляр `Workbook` объект. Этот объект представляет собой весь файл Excel. 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -60,7 +62,7 @@ Workbook workbook = new Workbook(fstream);
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Здесь,`Worksheets[0]` ссылается на первый лист в рабочей книге. 
+Здесь, `Worksheets[0]` ссылается на первый лист в рабочей книге. 
 ## Шаг 5: Установите высоту строки
 Теперь самое интересное: настройка высоты строки! 
 ```csharp
@@ -86,16 +88,18 @@ fstream.Close();
 ### Какие версии .NET поддерживает Aspose.Cells?
 Aspose.Cells для .NET совместим с несколькими версиями .NET Framework, включая .NET Core.
 ### Могу ли я попробовать Aspose.Cells бесплатно?
- Да! Вы можете загрузить бесплатную пробную версию Aspose.Cells[здесь](https://releases.aspose.com/).
+Да! Вы можете загрузить бесплатную пробную версию Aspose.Cells [здесь](https://releases.aspose.com/).
 ### Какие форматы Excel поддерживает Aspose.Cells?
 Aspose.Cells поддерживает множество форматов, таких как XLSX, XLS, CSV и другие.
 ### Подходит ли Aspose.Cells для серверных приложений?
 Конечно! Aspose.Cells предназначен для обработки различных приложений, включая обработку на стороне сервера.
 ### Где я могу найти дополнительную документацию?
- Вы можете ознакомиться с подробной документацией по Aspose.Cells[здесь](https://reference.aspose.com/cells/net/).
+Вы можете ознакомиться с подробной документацией по Aspose.Cells [здесь](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

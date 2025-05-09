@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## ข้อกำหนดเบื้องต้น
 
 เพื่อติดตามต่อไป ให้แน่ใจว่าคุณมี:
-- **Aspose.Cells สำหรับ Java** ห้องสมุด (เวอร์ชัน 25.3 หรือใหม่กว่า)
+- **Aspose.Cells สำหรับ Java** ห้องสมุด (เวอร์ชัน 25.3 ขึ้นไป)
 - IDE เช่น IntelliJ IDEA หรือ Eclipse เพื่อเขียนและรันโค้ด Java ของคุณ
 - ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรม Java รวมถึงหลักการเชิงวัตถุ
 
@@ -37,7 +39,7 @@
 หากต้องการใช้ Aspose.Cells ในโปรเจ็กต์ของคุณ ต้องตั้งค่าไลบรารีก่อนผ่าน Maven หรือ Gradle
 
 **การติดตั้ง Maven:**
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml`-
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml`-
 
 ```xml
 <dependency>
@@ -183,6 +185,9 @@ workbook.save("Output.xlsx");
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

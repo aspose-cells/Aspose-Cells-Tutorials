@@ -1,14 +1,16 @@
 ---
-title: .NET में प्रोग्रामेटिक रूप से पेज फ़ील्ड प्रारूप सेट करना
-linktitle: .NET में प्रोग्रामेटिक रूप से पेज फ़ील्ड प्रारूप सेट करना
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके प्रोग्रामेटिक रूप से PivotTables में पेज फ़ील्ड फ़ॉर्मेट सेट करना सीखें। निर्बाध डेटा प्रबंधन के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-weight: 21
-url: /hi/net/creating-and-configuring-pivot-tables/setting-page-field-format/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके PivotTables में प्रोग्रामेटिक रूप से पेज फ़ील्ड फ़ॉर्मेट सेट करना सीखें। निर्बाध डेटा प्रबंधन के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।"
+"linktitle": ".NET में प्रोग्रामेटिक रूप से पेज फ़ील्ड प्रारूप सेट करना"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": ".NET में प्रोग्रामेटिक रूप से पेज फ़ील्ड प्रारूप सेट करना"
+"url": "/hi/net/creating-and-configuring-pivot-tables/setting-page-field-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET में प्रोग्रामेटिक रूप से पेज फ़ील्ड प्रारूप सेट करना
@@ -18,10 +20,10 @@ url: /hi/net/creating-and-configuring-pivot-tables/setting-page-field-format/
 ## आवश्यक शर्तें
 इससे पहले कि हम कोडिंग में उतरें, आइए सुनिश्चित करें कि आपने सब कुछ सही तरीके से सेट किया है। आपको निम्नलिखित की आवश्यकता होगी:
 - विजुअल स्टूडियो: एक कार्यशील वातावरण जहां आप अपना .NET कोड लिख और निष्पादित कर सकते हैं।
--  Aspose.Cells: आप लाइब्रेरी डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+- Aspose.Cells: आप लाइब्रेरी डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होने से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद मिलेगी।
--  एक्सेल फ़ाइल: एक एक्सेल फ़ाइल तैयार रखें (जैसे`Book1.xls`) जिसमें पिवटटेबल निर्माण के लिए उपयुक्त डेटा शामिल है। 
- यदि आपने अभी तक ऐसा नहीं किया है, तो Aspose.Cells का निःशुल्क परीक्षण प्राप्त करें[यहाँ](https://releases.aspose.com/).
+- एक्सेल फ़ाइल: एक एक्सेल फ़ाइल तैयार रखें (जैसे `Book1.xls`) जिसमें पिवटटेबल निर्माण के लिए उपयुक्त डेटा शामिल है। 
+यदि आपने अभी तक ऐसा नहीं किया है, तो Aspose.Cells का निःशुल्क परीक्षण प्राप्त करें [यहाँ](https://releases.aspose.com/).
 ## पैकेज आयात करें
 काम शुरू करने के लिए, आपको अपने प्रोजेक्ट में सही पैकेज आयात करने होंगे। अपने C# प्रोजेक्ट में Aspose.Cells लाइब्रेरी में संदर्भ जोड़कर शुरुआत करें। इसे करने का तरीका यहां बताया गया है:
 ```csharp
@@ -49,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 यह लोड की गई वर्कबुक की पहली वर्कशीट को पकड़ लेता है। यदि आप कई शीट के साथ काम कर रहे हैं तो आप इंडेक्स को आसानी से संशोधित कर सकते हैं।
 ## चरण 3: पिवटटेबल तक पहुँचना
- आगे बढ़ते हुए, आइए अपनी चुनी हुई वर्कशीट में पिवटटेबल तक पहुँचें। यदि आप एक ही पिवटटेबल का उपयोग कर रहे हैं, तो आप इसका इंडेक्स सेट कर सकते हैं`0`:
+आगे बढ़ते हुए, आइए अपनी चुनी हुई वर्कशीट में पिवटटेबल तक पहुँचें। यदि आप एक ही पिवटटेबल का उपयोग कर रहे हैं, तो आप इसका इंडेक्स सेट कर सकते हैं `0`:
 ```csharp
 int pivotindex = 0;
 // पिवटटेबल तक पहुँचना
@@ -76,7 +78,7 @@ Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0];
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Sum, true);
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Count, true);
 ```
- सक्षम करके`Sum` और`Count` उप-योगों की सहायता से, हम अपनी रिपोर्ट में डेटा को शीघ्रता से सारांशित कर सकते हैं।
+सक्षम करके `Sum` और `Count` उप-योगों की सहायता से, हम अपनी रिपोर्ट में डेटा को शीघ्रता से सारांशित कर सकते हैं।
 ## चरण 6: ऑटोसॉर्ट विकल्प सेट करना
 इसके बाद, आइए कुछ स्मार्ट सॉर्टिंग का इस्तेमाल करें। इस तरह, आपकी पिवटटेबल डेटा को सार्थक क्रम में व्यवस्थित करेगी:
 ```csharp
@@ -107,16 +109,18 @@ workbook.Save(dataDir + "output.xls");
 ### Aspose.Cells क्या है?
 Aspose.Cells एक .NET लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिक रूप से Excel फ़ाइलों को बनाने, उनमें हेरफेर करने और उन्हें परिवर्तित करने की अनुमति देती है।
 ### मैं Aspose.Cells कैसे स्थापित करूँ?
- आप इसे सीधे यहां से डाउनलोड कर सकते हैं[Aspose वेबसाइट](https://releases.aspose.com/cells/net/).
-### क्या मैं Excel इंस्टॉलेशन के बिना Aspose.Cells का उपयोग कर सकता हूँ?
+आप इसे सीधे यहां से डाउनलोड कर सकते हैं [Aspose वेबसाइट](https://releases.aspose.com/cells/net/).
+### क्या मैं Excel इंस्टॉलेशन के बिना Aspose.Cells का उपयोग कर सकता हूं?
 हां, Aspose.Cells एक स्टैंडअलोन लाइब्रेरी है जिसके लिए Microsoft Excel को इंस्टॉल करने की आवश्यकता नहीं होती है।
 ### मुझे विस्तृत सहायता कहां मिल सकती है?
- आप विस्तृत सहायता और फ़ोरम तक यहां पहुंच सकते हैं[Aspose समर्थन](https://forum.aspose.com/c/cells/9).
+आप विस्तृत सहायता और फ़ोरम तक यहां पहुंच सकते हैं [Aspose समर्थन](https://forum.aspose.com/c/cells/9).
 ### मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

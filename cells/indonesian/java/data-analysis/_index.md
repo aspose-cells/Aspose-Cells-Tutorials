@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial analisis data kami menunjukkan kepada Anda cara mengimplementasikan fitur analitis Excel yang canggih menggunakan Aspose.Cells di Java. Panduan komprehensif ini mencakup pembuatan PivotTable, penerapan filter tingkat lanjut, penerapan operasi pengurutan dan pengelompokan, dan pemanfaatan alat analisis bawaan Excel secara terprogram. Setiap tutorial mencakup contoh kode Java yang berfungsi untuk tugas analitis umum, membantu Anda membangun aplikasi yang dapat mengubah data spreadsheet mentah menjadi wawasan yang bermakna melalui teknik analitis yang kompatibel dengan Excel.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi analisis data
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -179,10 +181,13 @@ Pelajari cara memperbarui data sumber tabel pivot di Excel menggunakan Aspose.Ce
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

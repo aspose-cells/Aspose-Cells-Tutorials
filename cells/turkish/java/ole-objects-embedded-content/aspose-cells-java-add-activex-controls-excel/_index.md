@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ A: Performans için optimize edilmiş olsa da, çok sayıda karmaşık şekil ve
 - **İndirmek**: Aspose.Cells Java'nın en son sürümüne şuradan erişin: [bu sayfa](https://releases.aspose.com/cells/java/).
 - **Satın almak**: Lisans satın al [Aspose'un satın alma sitesi](https://purchase.aspose.com/buy).
 - **Ücretsiz Deneme ve Geçici Lisans**Sağlanan bağlantılar aracılığıyla ücretsiz veya geçici erişimle başlayın.
-- **Destek**: Tartışmalara katılın veya sorular sorun [Aspose Forum](https://forum.aspose.com/c/cells/9).
+- **Destek**Tartışmalara katılın veya sorular sorun [Aspose Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

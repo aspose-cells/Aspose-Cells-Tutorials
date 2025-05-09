@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@ Innan vi går in i handledningen, se till att du har följande:
    - Se till att ditt system har Maven eller Gradle installerat för att hantera beroenden.
    - Ladda ner och konfigurera den nödvändiga JDK-versionen som är kompatibel med Aspose.Cells.
 
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Bekantskap med Java-programmeringskoncept
    - Grundläggande förståelse för Excel-arbetsböcker och villkorsstyrd formatering
 
@@ -206,6 +208,9 @@ I den här handledningen har vi utforskat hur man använder Aspose.Cells för Ja
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

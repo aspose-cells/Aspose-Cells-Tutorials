@@ -8,7 +8,9 @@ url: /net/excel-data-validation-filter/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Validation and Filter
@@ -30,9 +32,11 @@ Now, let’s dive into data validation. If you’ve ever faced the headache of i
 Learn how to apply advanced filters in Excel using C# and Aspose.Cells. Step-by-step guide included for easy implementation.
 ### [Add Validation Area to Cells in Excel](./add-validation-area-to-cells-in-excel/)
 Learn to add validation areas in Excel using Aspose.Cells for .NET with our step-by-step guide. Enhance your data integrity.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/set-values-format-code-of-chart-series/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Values Format Code of Chart Series
@@ -159,6 +161,7 @@ Aspose.Cells supports a wide range of formats, including XLSX, XLS, CSV, PDF, an
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

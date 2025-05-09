@@ -1,14 +1,16 @@
 ---
-title: Xuất Thuộc Tính Workbook và Worksheet trong HTML
-linktitle: Xuất Thuộc Tính Workbook và Worksheet trong HTML
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách xuất các thuộc tính tài liệu Excel, sổ làm việc và bảng tính sang HTML bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước dễ dàng.
-weight: 11
-url: /vi/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/
+"description": "Tìm hiểu cách xuất các thuộc tính tài liệu Excel, sổ làm việc và bảng tính sang HTML bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước dễ dàng."
+"linktitle": "Xuất Thuộc Tính Workbook và Worksheet trong HTML"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xuất Thuộc Tính Workbook và Worksheet trong HTML"
+"url": "/vi/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xuất Thuộc Tính Workbook và Worksheet trong HTML
@@ -23,11 +25,11 @@ Trước khi đi sâu vào mã, hãy đảm bảo rằng bạn có mọi thứ c
 
 1. .NET Framework: Đảm bảo môi trường phát triển của bạn được thiết lập với .NET Framework. Aspose.Cells tương thích với các phiên bản .NET Framework lên đến 4.8.
    
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể tải xuống thư viện từ[trang tải xuống](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells cho .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể tải xuống thư viện từ [trang tải xuống](https://releases.aspose.com/cells/net/). 
 
 3. IDE: Một Môi trường phát triển tích hợp (IDE) phù hợp như Visual Studio sẽ đơn giản hóa trải nghiệm lập trình của bạn.
 
-4.  Tệp Excel mẫu: Để thử nghiệm, hãy đảm bảo bạn có tệp Excel có tên`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` trong thư mục làm việc của bạn.
+4. Tệp Excel mẫu: Để thử nghiệm, hãy đảm bảo bạn có tệp Excel có tên `sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` trong thư mục làm việc của bạn.
 
 ## Nhập gói
 
@@ -56,7 +58,7 @@ using System.Linq;
 using System.Text;
 ```
 
- Điều này sẽ cho chúng ta quyền truy cập vào`Workbook` Và`HtmlSaveOptions` các lớp mà chúng ta sẽ sử dụng trong ví dụ của mình.
+Điều này sẽ cho chúng ta quyền truy cập vào `Workbook` Và `HtmlSaveOptions` các lớp mà chúng ta sẽ sử dụng trong ví dụ của mình.
 
 Bây giờ bạn đã thiết lập xong, chúng ta hãy chia nhỏ quy trình thành các bước đơn giản.
 
@@ -77,14 +79,14 @@ string outputDir = "Your Document Directory/";  // Cập nhật với đường 
 
 ## Bước 2: Tải tệp Excel của bạn
 
- Bây giờ chúng ta cần tải tệp Excel bằng cách sử dụng`Workbook` lớp học:
+Bây giờ chúng ta cần tải tệp Excel bằng cách sử dụng `Workbook` lớp học:
 
 ```csharp
 // Tải tệp Excel mẫu
 Workbook workbook = new Workbook(sourceDir + "sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx");
 ```
 
--  Ví dụ về sổ làm việc:`Workbook` hàm tạo sẽ lấy đường dẫn tệp đến tệp Excel của bạn và tạo một phiên bản mới mà bạn có thể thao tác.
+- Ví dụ về sổ làm việc: `Workbook` hàm tạo sẽ lấy đường dẫn tệp đến tệp Excel của bạn và tạo một phiên bản mới mà bạn có thể thao tác.
 
 ## Bước 3: Thiết lập tùy chọn lưu HTML
 
@@ -101,7 +103,7 @@ options.ExportWorksheetProperties = false;
 ```
 
 - HtmlSaveOptions: Lớp này giúp quản lý cách chuyển đổi tệp Excel sang HTML.
--  Chúng tôi thiết lập một số tùy chọn để`false`vì chúng tôi không muốn đưa các thuộc tính của sổ làm việc và trang tính vào đầu ra HTML của mình.
+- Chúng tôi thiết lập một số tùy chọn để `false` vì chúng ta không muốn đưa các thuộc tính của bảng tính và trang tính vào đầu ra HTML của mình.
 
 ## Bước 4: Xuất mọi thứ sang HTML
 
@@ -112,7 +114,7 @@ Bây giờ chúng ta đã sẵn sàng lưu bảng tính của mình sang định
 workbook.Save(outputDir + "outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```
 
--  Các`Save` phương pháp này có hai tham số: đường dẫn tệp cho tệp HTML đầu ra và các tùy chọn chúng tôi đã thiết lập. Chạy phương pháp này sẽ tạo tệp HTML của bạn trong thư mục đầu ra được chỉ định.
+- Các `Save` phương pháp này có hai tham số: đường dẫn tệp cho tệp HTML đầu ra và các tùy chọn chúng tôi đã thiết lập. Chạy phương pháp này sẽ tạo tệp HTML của bạn trong thư mục đầu ra được chỉ định.
 
 ## Bước 5: Phản hồi của bảng điều khiển
 
@@ -132,19 +134,21 @@ Và cứ như vậy, bạn đã xuất thành công các thuộc tính sổ làm
 Bạn có thể cài đặt thư viện Aspose.Cells qua NuGet trong dự án Visual Studio của mình thông qua Trình quản lý gói NuGet.
 
 ### Tôi có thể tùy chỉnh đầu ra HTML không?  
- Có, Aspose.Cells cung cấp nhiều tùy chọn khác nhau trong`HtmlSaveOptions` để tùy chỉnh cách chuyển đổi tệp Excel của bạn sang HTML.
+Có, Aspose.Cells cung cấp nhiều tùy chọn khác nhau trong `HtmlSaveOptions` để tùy chỉnh cách chuyển đổi tệp Excel của bạn sang HTML.
 
 ### Có cách nào để đưa thuộc tính tài liệu vào bản xuất HTML không?  
- Bạn có thể thiết lập`ExportDocumentProperties`, `ExportWorkbookProperties` , Và`ExportWorksheetProperties` ĐẾN`true` TRONG`HtmlSaveOptions` nếu bạn muốn đưa chúng vào.
+Bạn có thể thiết lập `ExportDocumentProperties`, `ExportWorkbookProperties`, Và `ExportWorksheetProperties` ĐẾN `true` TRONG `HtmlSaveOptions` nếu bạn muốn đưa chúng vào.
 
 ### Ngoài HTML, tôi có thể xuất tệp Excel sang những định dạng nào?  
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau bao gồm PDF, CSV, XML và nhiều định dạng khác.
 
 ### Có phiên bản dùng thử không?  
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells từ[trang web](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells từ [trang web](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

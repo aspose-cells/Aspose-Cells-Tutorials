@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@
 ### [การกำหนดช่วงที่ตั้งชื่อใน Excel ด้วย Aspose.Cells สำหรับ Java](./excel-named-ranges-aspose-cells-java/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
-### [การใช้ Aspose.Cells สำหรับ Java เพื่อควบคุมพื้นที่การพิมพ์ใน Excel โดยอัตโนมัติ: คำแนะนำทีละขั้นตอน](./excel-print-areas-automation-aspose-cells-java-guide/)
+### [การสร้างพื้นที่การพิมพ์ Excel อัตโนมัติโดยใช้ Aspose.Cells สำหรับ Java: คำแนะนำทีละขั้นตอน](./excel-print-areas-automation-aspose-cells-java-guide/)
 เรียนรู้วิธีการสร้างระบบอัตโนมัติให้กับพื้นที่การพิมพ์ใน Excel ด้วย Aspose.Cells สำหรับ Java จัดการเวิร์กบุ๊กอย่างเชี่ยวชาญและปรับปรุงงานรายงานของคุณให้มีประสิทธิภาพ
 
 ### [คัดลอกคอลัมน์เดียวใน Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells Java](./excel-single-column-copying-aspose-cells-java/)
@@ -93,6 +95,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

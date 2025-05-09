@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Selamat datang di tutorial komprehensif ini tentang memanfaatkan pustaka Aspose.Cells di Java untuk menerapkan validasi panjang teks dalam buku kerja Excel. Panduan ini akan membantu Anda mengelola entri data secara efektif dengan memastikan input pengguna sesuai dengan batasan panjang teks yang ditentukan, sehingga meningkatkan integritas data dan mengurangi kesalahan.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Siapkan lingkungan Anda dengan Aspose.Cells untuk Java
 - Buat buku kerja baru dan akses selnya
 - Menambahkan dan memberi gaya teks di sel Excel
@@ -23,12 +25,12 @@ Selamat datang di tutorial komprehensif ini tentang memanfaatkan pustaka Aspose.
 - Menerapkan validasi data panjang teks menggunakan Aspose.Cells
 - Simpan buku kerja Anda sambil mempertahankan validasi
 
-Mari kita mulai dengan membahas prasyaratnya.
+Kezdjük az előfeltételek áttekintésével.
 
-## Prasyarat
+## Előfeltételek
 Sebelum memulai, pastikan Anda memiliki:
-- **Perpustakaan dan Ketergantungan**: Integrasikan Aspose.Cells untuk Java ke dalam proyek Anda melalui Maven atau Gradle.
-- **Pengaturan Lingkungan**: Siapkan lingkungan pengembangan dengan JDK yang terinstal.
+- **Könyvtárak és függőségek**: Integrasikan Aspose.Cells untuk Java ke dalam proyek Anda melalui Maven atau Gradle.
+- **Környezet beállítása**: Siapkan lingkungan pengembangan dengan JDK yang terinstal.
 - **Pengetahuan Dasar Java**: Diperlukan keakraban dengan konsep pemrograman Java.
 
 ### Menyiapkan Aspose.Cells untuk Java
@@ -43,16 +45,16 @@ Untuk memasukkan Aspose.Cells ke dalam proyek Maven Anda, tambahkan dependensi b
 </dependency>
 ```
 #### Bahasa Inggris Gradle
-Untuk proyek Gradle, sertakan dalam `build.gradle` mengajukan:
+Untuk proyek Gradle, sertakan dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Akuisisi Lisensi
+### Licencszerzés
 Anda dapat memperoleh Aspose.Cells untuk Java melalui berbagai cara:
-- **Uji Coba Gratis**Unduh lisensi uji coba untuk mengevaluasi fitur-fiturnya.
-- **Lisensi Sementara**: Minta lisensi sementara jika Anda membutuhkan lebih banyak waktu.
-- **Pembelian**: Beli lisensi penuh untuk penggunaan komersial.
+- **Ingyenes próbaverzió**Unduh lisensi uji coba untuk mengevaluasi fitur-fiturnya.
+- **Ideiglenes engedély**: Minta lisensi sementara jika Anda membutuhkan lebih banyak waktu.
+- **Vásárlás**: Beli lisensi penuh untuk penggunaan komersial.
 Setelah menyiapkan lingkungan Anda dan memperoleh lisensi, inisialisasikan sebagai berikut:
 
 ```java
@@ -61,10 +63,10 @@ import com.aspose.cells.License;
 License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Buat Buku Kerja Baru dan Akses Sel
 Pertama, mari membuat buku kerja dan mengakses sel lembar kerja pertamanya.
-#### Ringkasan
+#### Áttekintés
 Membuat buku kerja adalah titik awal untuk manipulasi apa pun dengan Aspose.Cells. Fitur ini memungkinkan Anda menyiapkan file Excel secara terprogram dari awal.
 
 ```java
@@ -73,7 +75,7 @@ import com.aspose.cells.Cells;
 
 String dataDir = "YOUR_DATA_DIRECTORY";
 
-// Buat buku kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook workbook = new Workbook();
 
 // Dapatkan sel dari lembar kerja pertama.
@@ -81,7 +83,7 @@ Cells cells = workbook.getWorksheets().get(0).getCells();
 ```
 ### Menambahkan dan Menata Teks dalam Sel
 Sekarang, kita akan memasukkan teks ke dalam sel dan menerapkan beberapa gaya padanya.
-#### Ringkasan
+#### Áttekintés
 Penataan gaya dapat meningkatkan keterbacaan dan menekankan masukan data tertentu. Berikut cara mengatur gaya untuk masukan teks Anda:
 
 ```java
@@ -101,7 +103,7 @@ cells.setColumnWidth(0, 35);
 ```
 ### Tentukan Area Validasi Data
 Berikutnya, kami tentukan rentang sel di mana validasi data akan diterapkan.
-#### Ringkasan
+#### Áttekintés
 Area validasi data sangat penting untuk memastikan bahwa aturan Anda berlaku tepat di tempat yang dibutuhkan. Langkah ini adalah tentang menentukan sel mana yang harus mematuhi aturan panjang teks kita.
 
 ```java
@@ -115,7 +117,7 @@ area.EndColumn = 1;  // Berakhir pada indeks kolom 1.
 ```
 ### Tambahkan Validasi Data Panjang Teks
 Langkah ini melibatkan pengaturan aturan validasi yang membatasi panjang teks dalam sel tertentu.
-#### Ringkasan
+#### Áttekintés
 Validasi data memastikan pengguna memasukkan data dalam batasan yang ditentukan, mengurangi kesalahan dan menjaga konsistensi.
 
 ```java
@@ -161,25 +163,25 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 // Simpan buku kerja ke file Excel di direktori keluaran yang ditentukan.
 workbook.save(outDir + "/TLDValidation_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Menerapkan validasi panjang teks dapat berguna dalam berbagai skenario:
 1. **Formulir Pendaftaran Pengguna**Pastikan nama pengguna atau kata sandi mematuhi batasan karakter tertentu.
 2. **Entri Data untuk Survei**: Batasi jumlah informasi yang dimasukkan oleh peserta.
-3. **Sistem Manajemen Inventaris**: Batasi kode produk pada panjang yang tetap.
-4. **Pelaporan Keuangan**: Menjaga keseragaman dalam pengenal dan deskripsi keuangan.
+3. **Készletgazdálkodási rendszerek**: Batasi kode produk pada panjang yang tetap.
+4. **Pénzügyi jelentéstétel**: Menjaga keseragaman dalam pengenal dan deskripsi keuangan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Mengoptimalkan kinerja saat menggunakan Aspose.Cells melibatkan:
 - Meminimalkan penggunaan memori dengan melepaskan sumber daya saat tidak lagi diperlukan.
 - Menggunakan struktur data dan algoritma yang efisien dalam logika validasi Anda.
 - Pembuatan profil aplikasi untuk mengidentifikasi hambatan terkait pemrosesan berkas Excel.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah mempelajari cara menyiapkan dan menggunakan Aspose.Cells untuk Java guna menerapkan validasi panjang teks dalam buku kerja Excel. Keterampilan ini tidak hanya meningkatkan integritas data tetapi juga meningkatkan pengalaman pengguna dengan memberikan umpan balik langsung atas kesalahan input.
 
 Jangan ragu untuk menjelajahi lebih banyak fitur Aspose.Cells, seperti pembuatan bagan, tabel pivot, atau bahkan integrasi dengan sistem berbasis Java lainnya. Selamat membuat kode!
 
-## Bagian FAQ
+## GYIK szekció
 **Q1: Apa itu Aspose.Cells untuk Java?**
 - Aspose.Cells untuk Java adalah pustaka hebat yang memungkinkan pengembang untuk membuat, memodifikasi, dan memanipulasi file Excel secara terprogram.
 
@@ -193,6 +195,9 @@ Jangan ragu untuk menjelajahi lebih banyak fitur Aspose.Cells, seperti pembuatan
 - Ya, Aspose.Cells mendukung berbagai jenis validasi data, yang memungkinkan Anda menerapkan aturan yang berbeda di seluruh buku kerja Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Lembar kerja Excel sangat penting untuk analisis data, tetapi berbagi wawasan sering kali memerlukan konversi ke dalam format yang lebih mudah diakses seperti HTML. Panduan ini akan menunjukkan kepada Anda cara menggunakan Aspose.Cells untuk Java untuk mengonversi file Excel ke HTML sambil mempertahankan kualitas presentasinya.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Muat berkas Excel yang ada menggunakan Aspose.Cells.
 - Konfigurasikan opsi penyimpanan HTML untuk presentasi yang lebih baik.
 - Simpan berkas Excel Anda sebagai HTML dengan pengaturan tertentu.
@@ -23,7 +25,7 @@ Lembar kerja Excel sangat penting untuk analisis data, tetapi berbagi wawasan se
 
 Sebelum memulai, pastikan Anda memiliki pengaturan yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 Untuk mengikuti panduan ini secara efektif:
 - **Aspose.Cells untuk Java** pustaka (versi 25.3 atau yang lebih baru).
 - Lingkungan pengembangan Java yang kompatibel (seperti IntelliJ IDEA atau Eclipse).
@@ -46,10 +48,10 @@ Sertakan Aspose.Cells dalam proyek Anda sebagai dependensi:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
-Anda dapat mengevaluasi Aspose.Cells dengan uji coba gratis dengan mengunduh pustaka dari mereka [halaman rilis](https://releases.aspose.com/cells/java/)Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi atau mendapatkan lisensi sementara melalui [portal pembelian](https://purchase.aspose.com/temporary-license/).
+### Licencszerzés
+Anda dapat mengevaluasi Aspose.Cells dengan uji coba gratis dengan mengunduh pustaka dari mereka [kiadási oldal](https://releases.aspose.com/cells/java/)Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi atau mendapatkan lisensi sementara melalui [vásárlási portál](https://purchase.aspose.com/temporary-license/).
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Langkah 1: Muat File Excel
 Mulailah dengan memuat berkas Excel yang ada untuk menginisialisasi objek buku kerja Anda.
@@ -75,7 +77,7 @@ HtmlSaveOptions options = new HtmlSaveOptions();
 options.setPresentationPreference(true);
 ```
 
-Pengaturan `setPresentationPreference(true)` memastikan keluaran HTML mempertahankan struktur yang menarik secara visual.
+Beállítás `setPresentationPreference(true)` memastikan keluaran HTML mempertahankan struktur yang menarik secara visual.
 
 ### Langkah 3: Simpan File Excel sebagai HTML dengan Opsi Tertentu
 Terakhir, simpan file Excel yang Anda muat ke dalam format HTML menggunakan opsi yang dikonfigurasi:
@@ -96,47 +98,50 @@ workbook.save(outDir + "EToHPPOption_out.html", options);
 
 Kode ini memuat berkas Excel, menerapkan pengaturan penyimpanan HTML, dan menulisnya ke direktori keluaran yang ditentukan sebagai berkas HTML.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 - **Dasbor Web**: Ubah lembar kerja analisis data menjadi dasbor web untuk akses pemangku kepentingan.
-- **Pelaporan Data**: Bagikan laporan kompleks dalam format HTML dengan keterbacaan yang ditingkatkan.
+- **Adatjelentés**: Bagikan laporan kompleks dalam format HTML dengan keterbacaan yang ditingkatkan.
 - **Pendidikan Online**: Menyediakan siswa materi pembelajaran interaktif berbasis Excel yang dikonversi ke HTML untuk platform daring.
 
 Mengintegrasikan Aspose.Cells memungkinkan konversi mulus yang meningkatkan pembagian dan penyajian data di seluruh media digital.
 
-## Pertimbangan Kinerja
-Untuk memastikan kinerja yang optimal:
+## Teljesítménybeli szempontok
+Az optimális teljesítmény biztosítása érdekében:
 - Kelola memori Java secara efektif dengan menyesuaikan opsi JVM berdasarkan kebutuhan aplikasi Anda.
 - Gunakan API streaming jika berurusan dengan file Excel berukuran besar untuk mengurangi jejak memori.
 - Perbarui secara berkala ke versi Aspose.Cells terbaru untuk peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 Dengan memanfaatkan Aspose.Cells untuk Java, Anda dapat dengan mudah mengonversi lembar kerja Excel ke HTML sambil mempertahankan kualitas presentasinya. Panduan ini membekali Anda dengan langkah-langkah praktis untuk menerapkan konversi ini dalam proyek Anda.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi fitur Aspose.Cells lainnya seperti membuat atau memodifikasi file Excel.
-- Bereksperimen dengan berbeda `HtmlSaveOptions` pengaturan untuk menyesuaikan keluaran lebih lanjut.
+- Kísérletezzen különböző `HtmlSaveOptions` pengaturan untuk menyesuaikan keluaran lebih lanjut.
 
 Siap mengonversi lembar kerja Anda sendiri? Mulailah dengan mengintegrasikan langkah-langkah yang diuraikan di atas ke dalam proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Untuk apa Aspose.Cells for Java digunakan?**
    - Ini adalah pustaka yang memfasilitasi pembuatan, manipulasi, dan konversi file Excel dalam aplikasi Java.
 2. **Bagaimana cara memastikan keluaran HTML saya mempertahankan formatnya?**
-   - Menggunakan `HtmlSaveOptions` dengan `setPresentationPreference(true)` untuk meningkatkan tampilan visual berkas HTML Anda.
-3. **Bisakah Aspose.Cells menangani file Excel berukuran besar secara efisien?**
+   - Használat `HtmlSaveOptions` -vel `setPresentationPreference(true)` untuk meningkatkan tampilan visual berkas HTML Anda.
+3. **Az Aspose.Cells hatékonyan tudja kezelni a nagy Excel fájlokat?**
    - Ya, dengan menggunakan API streaming dan mengoptimalkan manajemen memori di Java.
 4. **Apakah mungkin untuk mengubah beberapa lembar menjadi halaman HTML terpisah?**
    - Meskipun tidak dibahas secara langsung di sini, Anda dapat mengulangi setiap lembar kerja dan menyimpannya secara individual dengan opsi spesifiknya.
 5. **Bagaimana cara memecahkan masalah umum dengan Aspose.Cells?**
-   - Periksa [Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk mendapatkan solusi atau menghubungi tim dukungan mereka.
+   - Ellenőrizze a [Aspose támogatói fórum](https://forum.aspose.com/c/cells/9) untuk mendapatkan solusi atau menghubungi tim dukungan mereka.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian dan Lisensi**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Aspose.Cells Rilis Gratis](https://releases.aspose.com/cells/java/)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás és licencelés**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Aspose.Cells Rilis Gratis](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

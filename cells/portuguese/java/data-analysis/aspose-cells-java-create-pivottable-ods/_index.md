@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -44,7 +46,7 @@ Para integrar o Aspose.Cells ao seu projeto, siga estas etapas de instalação:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Depois de configurar seu projeto, você pode obter uma licença para o Aspose.Cells através de:
+Após configurar seu projeto, você pode obter uma licença para o Aspose.Cells através de:
 - **Teste grátis**: Acesse funcionalidades limitadas sem se comprometer com a compra.
 - **Licença Temporária**: Teste todos os recursos durante o período de avaliação.
 - **Comprar**: Para acesso e suporte completos.
@@ -155,6 +157,9 @@ Agora você domina a criação e o salvamento de uma Tabela Dinâmica usando o A
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

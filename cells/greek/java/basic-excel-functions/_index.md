@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Βασικές συναρτήσεις του Excel
@@ -48,9 +50,11 @@
 Ξεκλειδώστε τα μυστικά των συναρτήσεων κειμένου του Excel με το Aspose.Cells για Java. Μάθετε να χειρίζεστε, να εξάγετε και να μετασχηματίζετε κείμενο στο Excel χωρίς κόπο.
 ### [Εκμάθηση συναρτήσεων ημερομηνίας στο Excel](./excel-date-functions-tutorial/)
 Μάθετε συναρτήσεις ημερομηνίας στο Excel χρησιμοποιώντας το Aspose.Cells για Java. Εξερευνήστε αναλυτικά εκπαιδευτικά βίντεο με πηγαίο κώδικα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

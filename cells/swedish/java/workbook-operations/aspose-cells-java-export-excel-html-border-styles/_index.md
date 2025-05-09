@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Lär dig hur du exporterar Excel-filer med konsekventa kantlinjer till HTML med Aspose.Cells för Java. Följ den här guiden för att konfigurera och implementera avancerade sparalternativ."
+"description": "Lär dig hur du exporterar Excel-filer med konsekventa kantlinjer till HTML med hjälp av Aspose.Cells för Java. Följ den här guiden för att konfigurera och implementera avancerade sparalternativ."
 "title": "Exportera Excel till HTML Bevara kantstilar med Aspose.Cells för Java"
 "url": "/sv/java/workbook-operations/aspose-cells-java-export-excel-html-border-styles/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Redo att dyka djupare? Försök att implementera dessa lösningar i dina projekt
 - **Köpa**Köp en licens på [Aspose köpsida](https://purchase.aspose.com/temporary-license/) för långvarig användning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Le animamos a probar estas soluciones y a ver cómo pueden optimizar sus flujos 
 
 ## Sección de preguntas frecuentes
 1. **¿Cómo configuro una licencia temporal para realizar pruebas?**
-   - Visita [Licencia temporal de Aspose](https://purchase.aspose.com/temporary-license/) siga las instrucciones proporcionadas.
+   - Visita [Licencia temporal de Aspose](https://purchase.aspose.com/temporary-license/) y siga las instrucciones proporcionadas.
 2. **¿Puedo agregar varias líneas de firma a una imagen?**
    - Actualmente, Aspose.Cells admite agregar una sola línea de firma por cada objeto de imagen.
 3. **¿Qué formatos de archivos admite Aspose.Cells?**
@@ -176,6 +178,9 @@ Le animamos a probar estas soluciones y a ver cómo pueden optimizar sus flujos 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

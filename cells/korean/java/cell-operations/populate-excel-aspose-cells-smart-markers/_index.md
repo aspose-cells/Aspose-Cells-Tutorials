@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 라이센스 취득
 
-Aspose.Cells for Java는 무료 평가판 라이선스로 사용할 수 있으며, 제한 없이 모든 기능을 평가해 볼 수 있습니다. 임시 라이선스 또는 구매 라이선스는 다음 링크를 통해 구매하실 수 있습니다. [구매 페이지](https://purchase.aspose.com/buy). 방문하다 [여기](https://releases.aspose.com/cells/java/) 다운로드하고 환경을 설정하세요.
+Aspose.Cells for Java는 무료 평가판 라이선스로 사용할 수 있으므로 제한 없이 모든 기능을 평가해 볼 수 있습니다. 임시 라이선스 또는 구매 라이선스는 다음 링크를 통해 구매할 수 있습니다. [구매 페이지](https://purchase.aspose.com/buy). 방문하다 [여기](https://releases.aspose.com/cells/java/) 다운로드하고 환경을 설정하세요.
 
 ### 기본 초기화
 
@@ -202,6 +204,9 @@ wb.save(outDir + "/outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx");
 이 종합 가이드는 Aspose.Cells for Java를 활용하여 자동화를 통해 데이터 관리 작업을 간소화하는 데 필요한 지식을 제공합니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

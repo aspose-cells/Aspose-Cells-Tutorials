@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ A bemutató követéséhez a következőkre lesz szükséged:
 ## Az Aspose.Cells beállítása Java-hoz
 
 ### Maven beállítás
-Az Aspose.Cells Maven használatával történő integrálásához add hozzá a következő függőséget a `pom.xml` fájl:
+Az Aspose.Cells Mavennel történő integrálásához a projektedbe, add hozzá a következő függőséget a `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -177,6 +179,9 @@ Kezdj bele az adatprezentáció egyszerűsítésébe az Aspose.Cells for Java ki
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

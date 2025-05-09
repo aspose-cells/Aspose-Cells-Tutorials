@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells kullanarak VBAMacro Kullanıcı Formu Tasarımcısı Depolamasını Çalışma Kitabına Kopyalayın
-linktitle: Aspose.Cells kullanarak VBAMacro Kullanıcı Formu Tasarımcısı Depolamasını Çalışma Kitabına Kopyalayın
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Kapsamlı adım adım eğitimimiz ile Aspose.Cells for .NET'te VBA Makro Kullanıcı Formu Tasarımcısını nasıl etkili bir şekilde kopyalayacağınızı öğrenin! Excel'in potansiyelini açığa çıkarın.
-weight: 11
-url: /tr/net/workbook-vba-project/copy-vbamacro-user-form-designer/
+"description": "Kapsamlı adım adım eğitimimiz ile Aspose.Cells for .NET'te VBA Makro Kullanıcı Formu Tasarımcısını nasıl etkili bir şekilde kopyalayacağınızı öğrenin! Excel'in potansiyelini açığa çıkarın."
+"linktitle": "Aspose.Cells kullanarak VBAMacro Kullanıcı Formu Tasarımcısı Depolamasını Çalışma Kitabına Kopyalayın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells kullanarak VBAMacro Kullanıcı Formu Tasarımcısı Depolamasını Çalışma Kitabına Kopyalayın"
+"url": "/tr/net/workbook-vba-project/copy-vbamacro-user-form-designer/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells kullanarak VBAMacro Kullanıcı Formu Tasarımcısı Depolamasını Çalışma Kitabına Kopyalayın
@@ -17,10 +19,10 @@ url: /tr/net/workbook-vba-project/copy-vbamacro-user-form-designer/
 Hoş geldiniz! Excel deneyiminizi VBA makroları ve kullanıcı formlarıyla geliştirmek istiyorsanız, doğru yerdesiniz! Bu kılavuzda, Aspose.Cells for .NET kullanarak bir VBA Makro Kullanıcı Formu Tasarımcısını bir çalışma kitabından diğerine nasıl sorunsuz bir şekilde kopyalayabileceğinizi ele alacağız. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, her önemli adımda size yol göstereceğiz. Bunu Excel dosyalarını programatik olarak işleme sanatında ustalaşmanız için bir oyun kitabı olarak düşünün. Başlamaya hazır mısınız? Hadi başlayalım!
 ## Ön koşullar
 Kodlamanın inceliklerine dalmadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1. C# Geliştirme Ortamı: C# geliştirme için hazır bir çalışma ortamınız olmalıdır. Visual Studio şiddetle tavsiye edilir.
-2.  Aspose.Cells for .NET Kütüphanesi: Projenize Aspose.Cells kütüphanesinin entegre olduğundan emin olun. Kolayca[buradan indirin](https://releases.aspose.com/cells/net/).
+1. C# Geliştirme Ortamı: C# geliştirmeye hazır bir çalışma ortamınız olmalıdır. Visual Studio şiddetle tavsiye edilir.
+2. Aspose.Cells for .NET Kütüphanesi: Projenize Aspose.Cells kütüphanesinin entegre olduğundan emin olun. Kolayca [buradan indirin](https://releases.aspose.com/cells/net/).
 3. VBA ve Excel Makrolarının Temel Bilgileri: VBA ve Excel makrolarının nasıl çalıştığı hakkında iyi bir anlayışa sahip olmak, bu eğitimde kolaylıkla gezinmenize yardımcı olacaktır.
-4. Kullanıcı Formu İçeren Bir Excel Dosyası: Kullanıcı Formu içeren bir Excel çalışma kitabını denemek, oluşturmak veya edinmek için, tercihen makrolar etkinleştirilmiş olarak (örneğin`.xlsm` dosyalar).
+4. Kullanıcı Formu İçeren Bir Excel Dosyası: Kullanıcı Formu içeren bir Excel çalışma kitabını denemek, oluşturmak veya edinmek için, tercihen makrolar etkinleştirilmiş olarak (örneğin `.xlsm` dosyalar).
 ## Paketleri İçe Aktar
 C# projenizde, Aspose.Cells işlevselliklerini kullanmak için dosyanızın en üstüne belirli ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 ```csharp
@@ -40,9 +42,9 @@ string sourceDir = "Your Document Directory";
 // Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
- Burada, değiştirin`"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile. Kaynak çalışma kitabımızın (UserForm ile) alınacağı ve yeni çalışma kitabının kaydedileceği yer burasıdır.
+Burada, değiştirin `"Your Document Directory"` dosyalarınızın saklandığı gerçek yol ile. Kaynak çalışma kitabımızın (UserForm ile) alınacağı ve yeni çalışma kitabının kaydedileceği yer burasıdır.
 ## Adım 2: Boş bir Hedef Çalışma Kitabı Oluşturun
-Şimdi kullanıcı formumuzu ve makrolarımızı kopyalayacağımız hedef çalışma kitabımızı oluşturalım:
+Şimdi, kullanıcı formumuzu ve makrolarımızı kopyalayacağımız hedef çalışma kitabımızı oluşturalım:
 ```csharp
 // Boş hedef çalışma kitabı oluştur
 Workbook target = new Workbook();
@@ -54,7 +56,7 @@ Kullanıcı formunuzu ve makrolarınızı içeren çalışma kitabını yükleme
 // VBA-Macro Designer Kullanıcı Formunu içeren Excel dosyasını yükleyin
 Workbook templateFile = new Workbook(sourceDir + "sampleDesignerForm.xlsm");
 ```
- Değiştirdiğinizden emin olun`"sampleDesignerForm.xlsm"` gerçek dosyanızın adına. Bu çalışma kitabı sizin tarif kitabınız gibidir—malzemelerimizi ondan çıkaracağız!
+Değiştirdiğinizden emin olun `"sampleDesignerForm.xlsm"` gerçek dosyanızın adına. Bu çalışma kitabı sizin tarif kitabınız gibidir—malzemelerimizi ondan çıkaracağız!
 ## Adım 4: Çalışma Sayfalarını Hedef Çalışma Kitabına Kopyalayın
 Şimdi şablonumuzdaki çalışma sayfalarını hedef çalışma kitabına kopyalamaya başlayalım:
 ```csharp
@@ -99,7 +101,7 @@ foreach (VbaModule vbaItem in templateFile.VbaProject.Modules)
         target.VbaProject.Modules[vbaMod].Codes = vbaItem.Codes;
         if ((vbaItem.Type == VbaModuleType.Designer))
         {
-            // Kullanıcı formunun yani tasarımcı depolamasının verilerini alın
+            // Kullanıcı formunun verilerini al, yani tasarımcı depolaması
             byte[] designerStorage = templateFile.VbaProject.Modules.GetDesignerStorage(vbaItem.Name);
             // Hedef Vba Projesine tasarımcı depolama alanını ekleyin
             target.VbaProject.Modules.AddDesignerStorage(vbaItem.Name, designerStorage);
@@ -127,16 +129,18 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir VBA Makro Kullanıcı Formu Tasa
 ### Aspose.Cells hangi Excel sürümlerini destekliyor?
 Aspose.Cells, XLSX, XLSM, CSV ve daha fazlası dahil olmak üzere çok çeşitli Excel formatlarını destekler.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Kütüphaneyi değerlendirmenize olanak tanıyan ücretsiz denemeyle başlayabilirsiniz:[Ücretsiz Deneme](https://releases.aspose.com/).
+Evet! Kütüphaneyi değerlendirmenize olanak tanıyan ücretsiz denemeyle başlayabilirsiniz: [Ücretsiz Deneme](https://releases.aspose.com/).
 ### Bu kodu çalıştırmak için Visual Studio'ya ihtiyacım var mı?
 Kullanıcı dostu özellikleri nedeniyle şiddetle tavsiye edilse de, .NET geliştirmeyi desteklediği sürece herhangi bir C# IDE işinizi görecektir.
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Keşfedebilirsiniz[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/) Daha fazla örnek ve detaylı açıklamalar için.
+Keşfedebilirsiniz [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/) Daha fazla örnek ve detaylı açıklamalar için.
 ### Aspose.Cells kullanırken sorunları nasıl çözebilirim?
- Ziyaret etmelisiniz[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9) Topluluktan ve Aspose destek ekibinden yardım isteyin.
+Ziyaret etmelisiniz [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9) Topluluktan ve Aspose destek ekibinden yardım isteyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

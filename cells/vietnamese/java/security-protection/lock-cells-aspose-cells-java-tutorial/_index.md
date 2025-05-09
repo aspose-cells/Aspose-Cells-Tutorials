@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Sẵn sàng nâng cao bảo mật dữ liệu của bạn? Hãy bắt đầu b�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java** (phiên bản 25.3 trở lên)
 
 ### Yêu cầu thiết lập môi trường:
@@ -56,7 +58,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 1. **Dùng thử miễn phí**: Tải xuống bản dùng thử miễn phí để kiểm tra các chức năng.
 2. **Giấy phép tạm thời**: Xin giấy phép tạm thời để sử dụng lâu dài mà không bị hạn chế trong quá trình đánh giá.
 3. **Mua**:Để có quyền truy cập đầy đủ, hãy cân nhắc việc mua gói đăng ký.
@@ -162,6 +164,9 @@ Hãy thực hiện bước tiếp theo trong hành trình quản lý dữ liệu
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

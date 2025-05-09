@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Criar um intervalo nomeado com escopo de pasta de trabalho é útil em vários c
 ### Considerações de desempenho
 
 Ao trabalhar com Aspose.Cells, especialmente em pastas de trabalho maiores, considere estas dicas:
-- **Otimize o uso da memória**:Use o `dispose()` método após a conclusão das operações para liberar recursos.
+- **Otimizar o uso da memória**:Use o `dispose()` método após a conclusão das operações para liberar recursos.
 - **Simplifique o processamento de dados**: Limite as operações de leitura/gravação e o processamento em lote de dados sempre que possível.
 
 ## Conclusão
@@ -149,6 +151,9 @@ A5: Certifique-se de que os nomes de intervalo sejam exclusivos e válidos em to
 Para obter mais informações, explore os recursos disponíveis em [Downloads do Aspose](https://releases.aspose.com/cells/java/) e considere obter uma licença temporária para acesso completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelAutomation {
     public static void main(String[] args) throws Exception {
-        // Aspose.Cells for Java を初期化する
+        // Java 用 Aspose.Cells を初期化する
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells initialized successfully!");
@@ -226,6 +228,9 @@ Aspose.Cells を CRM や ERP などのシステムと統合すると、これら
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells .NET में स्लाइसर गुण बदलें
-linktitle: Aspose.Cells .NET में स्लाइसर गुण बदलें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel में स्लाइसर गुण कैसे बदलें। इस आसान, चरण-दर-चरण ट्यूटोरियल के साथ अपने डेटा प्रस्तुति को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/excel-slicers-management/change-slicer-properties/
+"description": "जानें कि .NET के लिए Aspose.Cells का उपयोग करके Excel में स्लाइसर गुण कैसे बदलें। इस आसान, चरण-दर-चरण ट्यूटोरियल के साथ अपने डेटा प्रस्तुति को बेहतर बनाएँ।"
+"linktitle": "Aspose.Cells .NET में स्लाइसर गुण बदलें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Aspose.Cells .NET में स्लाइसर गुण बदलें"
+"url": "/hi/net/excel-slicers-management/change-slicer-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells .NET में स्लाइसर गुण बदलें
@@ -25,7 +27,7 @@ url: /hi/net/excel-slicers-management/change-slicer-properties/
 सुनिश्चित करें कि आपके मशीन पर Visual Studio स्थापित है। यह एकीकृत विकास वातावरण (IDE) आपको अपने C# कोड को सहजता से लिखने, डीबग करने और चलाने में मदद करेगा।
   
 ### 2. .NET के लिए Aspose.Cells: 
-आपको Aspose.Cells को डाउनलोड और इंस्टॉल करना होगा। आप इसे यहाँ से प्राप्त कर सकते हैं[पृष्ठ डाउनलोड करें](https://releases.aspose.com/cells/net/).
+आपको Aspose.Cells को डाउनलोड और इंस्टॉल करना होगा। आप इसे यहाँ से प्राप्त कर सकते हैं [पृष्ठ डाउनलोड करें](https://releases.aspose.com/cells/net/).
   
 ### 3. बुनियादी C# ज्ञान: 
 C# प्रोग्रामिंग से परिचित होने से आपको हमारे द्वारा उपयोग किए जाने वाले कोड स्निपेट को समझने में काफी मदद मिलेगी।
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 // आउटपुट निर्देशिका
 string outputDir = "Your Document Directory";
 ```
- बस प्रतिस्थापित करें`"Your Document Directory"`वास्तविक पथों के साथ जहाँ आपकी फ़ाइलें स्थित हैं। इस तरह, कोड को ठीक से पता होता है कि फ़ाइलों को कहाँ ढूँढ़ना और सहेजना है, जिससे एक सुचारू निष्पादन सुनिश्चित होता है!
+बस प्रतिस्थापित करें `"Your Document Directory"` वास्तविक पथों के साथ जहाँ आपकी फ़ाइलें स्थित हैं। इस तरह, कोड को ठीक से पता होता है कि फ़ाइलों को कहाँ ढूँढ़ना और सहेजना है, जिससे एक सुचारू निष्पादन सुनिश्चित होता है!
 
 ## चरण 2: नमूना एक्सेल फ़ाइल लोड करें
 
@@ -72,7 +74,7 @@ string outputDir = "Your Document Directory";
 // तालिका युक्त नमूना एक्सेल फ़ाइल लोड करें.
 Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xlsx");
 ```
- यहाँ, हम इसका उपयोग कर रहे हैं`Workbook` क्लास का उपयोग करके अपनी एक्सेल फ़ाइल लोड करें। सुनिश्चित करें कि यह फ़ाइल मौजूद है, अन्यथा आपको रास्ते में कोई बाधा आएगी!
+यहाँ, हम इसका उपयोग कर रहे हैं `Workbook` क्लास का उपयोग करके अपनी एक्सेल फ़ाइल लोड करें। सुनिश्चित करें कि यह फ़ाइल मौजूद है, अन्यथा आपको रास्ते में कोई बाधा आएगी!
 
 ## चरण 3: पहली वर्कशीट तक पहुँचें
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xls
 // प्रथम कार्यपत्रक तक पहुंचें.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- इस लाइन में, हम वर्कबुक से पहली वर्कशीट ले रहे हैं। अगर आपके पास और वर्कशीट हैं, तो आप उन्हें बदल सकते हैं`[0]` वांछित शीट के सूचकांक के साथ।
+इस लाइन में, हम वर्कबुक से पहली वर्कशीट ले रहे हैं। अगर आपके पास और वर्कशीट हैं, तो आप उन्हें बदल सकते हैं `[0]` वांछित शीट के सूचकांक के साथ।
 
 ## चरण 4: वर्कशीट के अंदर पहली तालिका तक पहुँचें
 
@@ -118,7 +120,7 @@ slicer.IsPrintable = false;
 slicer.IsLocked = false;
 ```
 
--  प्लेसमेंट: यह निर्धारित करता है कि स्लाइसर कोशिकाओं के साथ किस प्रकार इंटरैक्ट करता है।`FreeFloating`इसका मतलब यह है कि यह स्वतंत्र रूप से घूम सकता है।
+- प्लेसमेंट: यह निर्धारित करता है कि स्लाइसर कोशिकाओं के साथ किस प्रकार इंटरैक्ट करता है। `FreeFloating` इसका मतलब यह है कि यह स्वतंत्र रूप से घूम सकता है।
 - RowHeightPixel और WidthPixel: बेहतर दृश्यता के लिए स्लाइसर का आकार समायोजित करें।
 - शीर्षक: स्लाइसर के लिए एक अनुकूल लेबल सेट करता है।
 - वैकल्पिक पाठ्य: पहुँच-योग्यता के लिए विवरण प्रदान करता है।
@@ -158,16 +160,18 @@ workbook.Save(outputDir + "outputChangeSlicerProperties.xlsx", SaveFormat.Xlsx);
 Aspose.Cells विभिन्न प्रारूपों में एक्सेल फाइलों के प्रबंधन के लिए एक शक्तिशाली लाइब्रेरी है और डेटा हेरफेर के लिए व्यापक क्षमताएं प्रदान करती है।
 
 ### क्या मुझे इसका उपयोग करने के लिए Aspose.Cells खरीदने की आवश्यकता है?
- आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं, लेकिन विस्तारित उपयोग के लिए, आप लाइसेंस खरीदने पर विचार कर सकते हैं।[विकल्प खरीदें](https://purchase.aspose.com/buy).
+आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं, लेकिन विस्तारित उपयोग के लिए, आप लाइसेंस खरीदने पर विचार कर सकते हैं। [विकल्प खरीदें](https://purchase.aspose.com/buy).
 
 ### यदि मुझे कोई समस्या आए तो क्या सहायता उपलब्ध है?
- बिल्कुल! आप हमसे संपर्क कर सकते हैं[सहयता मंच](https://forum.aspose.com/c/cells/9) सहायता के लिए.
+बिल्कुल! आप हमसे संपर्क कर सकते हैं [सहयता मंच](https://forum.aspose.com/c/cells/9) सहायता के लिए.
 
 ### क्या मैं चार्ट बनाने के लिए Aspose.Cells का भी उपयोग कर सकता हूँ?
 हाँ! Aspose.Cells में स्लाइसर और डेटा टेबल के अलावा चार्ट बनाने और उनमें हेरफेर करने के लिए व्यापक सुविधाएँ हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

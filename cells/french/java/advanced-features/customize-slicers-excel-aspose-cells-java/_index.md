@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Vous devriez maintenant maîtriser la personnalisation des propriétés des slic
 Lancez-vous dans votre voyage vers la maîtrise de la personnalisation du slicer Excel avec Aspose.Cells pour Java et faites passer vos présentations de données au niveau supérieur !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

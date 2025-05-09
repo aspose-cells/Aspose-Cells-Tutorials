@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Aspose.Cells for Java kullanarak A4, A3, A2 ve Letter gibi kağıt boyutlarını nasıl ayarlayacağınızı ve alacağınızı öğrenin. Bu kılavuz kurulumdan gelişmiş yapılandırmalara kadar her şeyi kapsar."
+"description": "Java için Aspose.Cells'i kullanarak A4, A3, A2 ve Letter gibi kağıt boyutlarını nasıl ayarlayacağınızı ve alacağınızı öğrenin. Bu kılavuz kurulumdan gelişmiş yapılandırmalara kadar her şeyi kapsar."
 "title": "Aspose.Cells Java&#58;da Ana Kağıt Boyutu Ayarı&#58; Başlıkları ve Altbilgileri Kolayca Yapılandırın"
 "url": "/tr/java/headers-footers/set-paper-size-aspose-cells-java-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,6 +224,9 @@ Daha sonra Aspose.Cells'in diğer özelliklerini keşfedin veya gelişmiş yapı
 - [Java Programlama Temelleri](https://docs.oracle.com/javase/tutorial/index.html)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

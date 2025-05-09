@@ -8,7 +8,9 @@ url: /java/data-validation-rules/creating-custom-data-validation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Custom Data Validation
@@ -116,6 +118,7 @@ Yes, Aspose.Cells for Java supports a wide range of Excel file formats, includin
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

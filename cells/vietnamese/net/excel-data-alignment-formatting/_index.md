@@ -1,14 +1,16 @@
 ---
-title: Căn chỉnh và định dạng dữ liệu Excel
-linktitle: Căn chỉnh và định dạng dữ liệu Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng trong Aspose.Cells cho .NET. Tìm hiểu hướng dẫn từng bước để định dạng dữ liệu Excel liền mạch.
-weight: 36
-url: /vi/net/excel-data-alignment-formatting/
+"description": "Khám phá cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng trong Aspose.Cells cho .NET. Tìm hiểu hướng dẫn từng bước để định dạng dữ liệu Excel liền mạch."
+"linktitle": "Căn chỉnh và định dạng dữ liệu Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Căn chỉnh và định dạng dữ liệu Excel"
+"url": "/vi/net/excel-data-alignment-formatting/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Căn chỉnh và định dạng dữ liệu Excel
@@ -24,20 +26,22 @@ Bây giờ, chúng ta hãy cùng tìm hiểu từng bước. Aspose.Cells for .N
 1. Chọn ô hoặc phạm vi:
    Bắt đầu bằng cách chỉ định các ô hoặc phạm vi bạn muốn điều chỉnh. Đây có thể là một ô riêng lẻ hoặc toàn bộ bảng tùy thuộc vào nhu cầu của bạn.
 
-2. Áp dụng căn chỉnh mong muốn:
-    Sử dụng`.Style` thuộc tính để áp dụng các thiết lập căn chỉnh theo chiều ngang hoặc chiều dọc. Aspose.Cells cung cấp cho bạn các tùy chọn như`TextAlignmentType.Center`, `TextAlignmentType.Left` , hoặc`TextAlignmentType.Right` để căn chỉnh theo chiều ngang và các tùy chọn tương tự để căn chỉnh theo chiều dọc.
+2. Áp dụng Căn chỉnh mong muốn:
+   Sử dụng `.Style` thuộc tính để áp dụng các thiết lập căn chỉnh theo chiều ngang hoặc chiều dọc. Aspose.Cells cung cấp cho bạn các tùy chọn như `TextAlignmentType.Center`, `TextAlignmentType.Left`, hoặc `TextAlignmentType.Right` để căn chỉnh theo chiều ngang và các tùy chọn tương tự để căn chỉnh theo chiều dọc.
 
 3. Giữ nguyên định dạng:
-    Điều tuyệt vời về Aspose.Cells là khi bạn sửa đổi căn chỉnh bằng cách sử dụng`.Style` đối tượng, các thành phần định dạng khác như đường viền, phông chữ và màu sắc vẫn được giữ nguyên. Không cần phải lo lắng về việc mất kiểu tùy chỉnh đó!
+   Điều tuyệt vời về Aspose.Cells là khi bạn sửa đổi căn chỉnh bằng cách sử dụng `.Style` đối tượng, các thành phần định dạng khác như đường viền, phông chữ và màu sắc vẫn được giữ nguyên. Không cần phải lo lắng về việc mất kiểu tùy chỉnh đó!
 
- Đọc thêm về cách[Thay đổi căn chỉnh ô Excel mà không làm mất định dạng](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
+Đọc thêm về cách [Thay đổi căn chỉnh ô Excel mà không làm mất định dạng](./change-cells-alignment-in-excel-without-losing-existing-formatting/).
 
 ## Hướng dẫn căn chỉnh và định dạng dữ liệu Excel
 ### [Thay đổi căn chỉnh ô Excel mà không làm mất định dạng](./change-cells-alignment-in-excel-without-losing-existing-formatting/)
 Tìm hiểu cách thay đổi căn chỉnh ô Excel mà không làm mất định dạng bằng Aspose.Cells for .NET. Làm theo hướng dẫn từng bước toàn diện của chúng tôi để kiểm soát liền mạch.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

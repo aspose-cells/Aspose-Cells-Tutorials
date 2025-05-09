@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/wrapping-long-text-within-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wrapping Long Text within Cells in Excel
@@ -111,6 +113,7 @@ Check out the [documentation](https://reference.aspose.com/cells/net/) for more 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

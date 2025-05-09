@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial mesin kalkulasi kami menyediakan panduan mendalam untuk bekerja dengan kemampuan pemrosesan rumus Aspose.Cells di Java. Panduan komprehensif ini menunjukkan cara mengonfigurasi opsi kalkulasi, mengimplementasikan fungsi kustom, mengontrol perilaku kalkulasi ulang, dan mengoptimalkan evaluasi rumus. Setiap tutorial menyertakan contoh kode Java praktis untuk skenario kalkulasi umum, membantu Anda membangun aplikasi yang dapat memproses jaringan rumus kompleks secara efisien sambil mempertahankan akurasi dan kinerja kalkulasi.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi mesin kalkulasi
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -53,10 +55,13 @@ Pelajari cara meningkatkan kinerja Excel dengan Aspose.Cells untuk Java dengan m
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

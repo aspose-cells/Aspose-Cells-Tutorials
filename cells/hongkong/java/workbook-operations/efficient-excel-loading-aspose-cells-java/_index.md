@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 介紹
 
-處理複雜的 Excel 文件可能令人望而生畏，尤其是當您需要專注於數據而忽略圖表等非必要元素時。本指南全面示範如何使用 **Aspose.Cells for Java** 載入 Excel 檔案並有效地篩選圖表。在本教學結束時，您將學習如何使用 Aspose.Cells 自訂載入選項以提高效能和管理大檔案或特定資料處理任務。
+處理複雜的 Excel 文件可能令人望而生畏，尤其是當您需要專注於數據而忽略圖表等非必要元素時。本指南全面示範如何使用 **Aspose.Cells for Java** 載入 Excel 檔案並有效地篩選圖表。在本教程結束時，您將學習如何使用 Aspose.Cells 自訂載入選項以提高效能和管理大檔案或特定資料處理任務。
 
 ### 您將學到什麼
 - 使用 Aspose.Cells for Java 設定您的環境。
@@ -93,7 +95,7 @@ LoadOptions options = new LoadOptions();
 ```
 
 **步驟 2：使用過濾器排除圖表**
-使用 `setLoadDataFilterOptions` 排除圖表的方法。位元與運算符 (`&`) 和 NOT 運算子 (`~`) 在這裡用於有效地過濾圖表數據：
+使用 `setLoadDataFilterOptions` 排除圖表的方法。位元與運算子 (`&`) 和 NOT 運算子 (`~`) 在這裡用於有效地過濾圖表數據：
 ```java
 options.getLoadFilter().setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.CHART);
 ```
@@ -156,6 +158,9 @@ workbook.save(outDir + "LoadSourceExcelFile_out.pdf");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

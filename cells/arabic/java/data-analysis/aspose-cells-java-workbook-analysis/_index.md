@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
 فكر في استخدام واجهات برمجة التطبيقات المتدفقة وتقسيم المعالجة إلى مهام أصغر لإدارة استخدام الذاكرة بشكل فعال.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

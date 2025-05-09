@@ -1,14 +1,16 @@
 ---
-title: Использование спарклайнов
-linktitle: Использование спарклайнов
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как эффективно использовать спарклайны в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство включено для удобства использования.
-weight: 18
-url: /ru/net/advanced-chart-operations/using-sparklines/
+"description": "Узнайте, как эффективно использовать спарклайны в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство включено для удобства использования."
+"linktitle": "Использование спарклайнов"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Использование спарклайнов"
+"url": "/ru/net/advanced-chart-operations/using-sparklines/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Использование спарклайнов
@@ -23,8 +25,8 @@ url: /ru/net/advanced-chart-operations/using-sparklines/
 
 1. Знакомство с C#: базовые знания программирования на C# помогут вам лучше понять часть кодирования.
 2. Установленный .NET Framework: Убедитесь, что в вашей системе установлен .NET Framework.
-3. Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells, доступная в вашем проекте. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/net/).
-4.  Шаблон Excel: мы будем использовать файл Excel под названием`sampleUsingSparklines.xlsx`. Сохраните его в рабочем каталоге.
+3. Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells, доступная в вашем проекте. Вы можете загрузить ее с [здесь](https://releases.aspose.com/cells/net/).
+4. Шаблон Excel: мы будем использовать файл Excel под названием `sampleUsingSparklines.xlsx`. Сохраните его в рабочем каталоге.
 
 Теперь, когда у нас есть необходимая настройка, давайте разберем шаги по внедрению спарклайнов!
 
@@ -54,19 +56,19 @@ string outputDir = "Your Output Directory"; // укажите путь
 string sourceDir = "Your Document Directory"; // укажите путь
 ```
 
- Здесь замените`Your Output Directory` и`Your Document Directory` с реальными путями в вашей системе.
+Здесь замените `Your Output Directory` и `Your Document Directory` с реальными путями в вашей системе.
 
 ## Шаг 2: Создайте и откройте рабочую книгу
 
 Теперь давайте создадим рабочую книгу и откроем наш файл шаблона Excel.
 
 ```csharp
-//Создать экземпляр рабочей книги
+// Создать экземпляр рабочей книги
 // Открыть файл шаблона
 Workbook book = new Workbook(sourceDir + "sampleUsingSparklines.xlsx");
 ```
 
- Этот код создает экземпляр`Workbook` класс и загружает указанный файл шаблона из исходного каталога.
+Этот код создает экземпляр `Workbook` класс и загружает указанный файл шаблона из исходного каталога.
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -108,7 +110,7 @@ foreach (SparklineGroup g in sheet.SparklineGroupCollection)
 // Определить CellArea D2:D10
 CellArea ca = new CellArea();
 ca.StartColumn = 4; // Э
-ca.EndColumn = 4;   // Э
+ca.ЭndColumn = 4;   // E
 ca.StartRow = 1;    // 2
 ca.EndRow = 7;      // 8
 ```
@@ -125,7 +127,7 @@ int idx = sheet.SparklineGroupCollection.Add(SparklineType.Column, "Sheet1!B2:D8
 SparklineGroup group = sheet.SparklineGroupCollection[idx];
 ```
 
- Здесь мы добавляем столбчатую спарклайн-диаграмму для данных, которые охватывают`Sheet1!B2:D8` в ранее определенную область ячеек. Не забудьте изменить диапазон данных в соответствии с вашими требованиями.
+Здесь мы добавляем столбчатую спарклайн-диаграмму для данных, которые охватывают `Sheet1!B2:D8` в ранее определенную область ячеек. Не забудьте изменить диапазон данных в соответствии с вашими требованиями.
 
 ## Шаг 7: Настройте цвета спарклайна
 
@@ -138,7 +140,7 @@ clr.Color = Color.Orange; // Выберите желаемый цвет
 group.SeriesColor = clr;
 ```
 
- В этом коде мы создаем новый`CellsColor` например, установив его на оранжевый цвет и применив к только что созданному нами ряду спарклайнов.
+В этом коде мы создаем новый `CellsColor` например, установив его на оранжевый цвет и применив к только что созданному нами ряду спарклайнов.
 
 ## Шаг 8: Сохраните измененную рабочую книгу.
 
@@ -163,19 +165,21 @@ Console.WriteLine("UsingSparklines executed successfully.");
 Спарклайны — это миниатюрные графики, которые помещаются в одну ячейку и обеспечивают компактную и простую визуализацию тенденций данных.
 
 ### Нужна ли мне лицензия для использования Aspose.Cells?
- Да, вам понадобится действующая лицензия для использования всех функций Aspose.Cells. Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) если вы только начинаете.
+Да, вам понадобится действующая лицензия для использования всех функций Aspose.Cells. Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) если вы только начинаете.
 
 ### Могу ли я создавать разные типы спарклайнов?
 Конечно! Aspose.Cells поддерживает различные типы спарклайнов, включая линейные, столбчатые и спарклайны выигрышей/проигрышей.
 
 ### Где я могу найти дополнительную документацию?
- Вы можете получить доступ к подробной документации и примерам для Aspose.Cells для .NET[здесь](https://reference.aspose.com/cells/net/).
+Вы можете получить доступ к подробной документации и примерам для Aspose.Cells для .NET [здесь](https://reference.aspose.com/cells/net/).
 
 ### Есть ли бесплатная пробная версия?
- Да, вы можете загрузить бесплатную пробную версию Aspose.Cells[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию Aspose.Cells [здесь](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,27 +1,29 @@
 ---
-title: Encontre o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX
-linktitle: Encontre o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Descubra o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX usando o Aspose.Cells para .NET. Maximize seu gerenciamento de dados do Excel com este tutorial abrangente.
-weight: 11
-url: /pt/net/workbook-settings/find-maximum-supported-rows-columns/
+"description": "Descubra o número máximo de linhas e colunas suportado pelos formatos XLS e XLSX usando o Aspose.Cells para .NET. Maximize seu gerenciamento de dados do Excel com este tutorial completo."
+"linktitle": "Encontre o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Encontre o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX"
+"url": "/pt/net/workbook-settings/find-maximum-supported-rows-columns/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Encontre o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX
 
 ## Introdução
-No mundo do Excel, gerenciar grandes conjuntos de dados pode ser uma tarefa assustadora, especialmente quando se trata de lidar com o número máximo de linhas e colunas suportadas por diferentes formatos de arquivo. Este tutorial o guiará pelo processo de encontrar o máximo de linhas e colunas suportadas pelos formatos XLS e XLSX usando a biblioteca Aspose.Cells for .NET. Ao final deste artigo, você terá uma compreensão abrangente de como utilizar esta ferramenta poderosa para lidar com suas tarefas relacionadas ao Excel de forma eficiente.
+No mundo do Excel, gerenciar grandes conjuntos de dados pode ser uma tarefa desafiadora, especialmente quando se trata de lidar com o número máximo de linhas e colunas suportado por diferentes formatos de arquivo. Este tutorial guiará você pelo processo de encontrar o máximo de linhas e colunas suportado pelos formatos XLS e XLSX usando a biblioteca Aspose.Cells para .NET. Ao final deste artigo, você terá uma compreensão abrangente de como utilizar esta poderosa ferramenta para lidar com suas tarefas relacionadas ao Excel com eficiência.
 ## Pré-requisitos
 Antes de começarmos o tutorial, certifique-se de ter os seguintes pré-requisitos:
-1. [Estrutura .NET](https://dotnet.microsoft.com/en-us/download) ou[.NET Núcleo](https://dotnet.microsoft.com/en-us/download) instalado no seu sistema.
+1. [Estrutura .NET](https://dotnet.microsoft.com/en-us/download) ou [.NET Core](https://dotnet.microsoft.com/en-us/download) instalado no seu sistema.
 2. [Aspose.Cells para .NET](https://releases.aspose.com/cells/net/) biblioteca baixada e referenciada em seu projeto.
- Se ainda não o fez, você pode baixar a biblioteca Aspose.Cells for .NET do[site](https://releases.aspose.com/cells/net/) ou instale-o via[NuGet](https://www.nuget.org/packages/Aspose.Cells/).
+Se ainda não o fez, você pode baixar a biblioteca Aspose.Cells para .NET do [site](https://releases.aspose.com/cells/net/) ou instalá-lo via [NuGet](https://www.nuget.org/packages/Aspose.Cells/).
 ## Pacotes de importação
-Para começar, você precisará importar os pacotes necessários da biblioteca Aspose.Cells for .NET. Adicione as seguintes instruções using no topo do seu arquivo C#:
+Para começar, você precisará importar os pacotes necessários da biblioteca Aspose.Cells para .NET. Adicione as seguintes instruções "usando" no início do seu arquivo C#:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -44,10 +46,10 @@ Console.WriteLine();
 ```
 Nesta etapa, nós:
 1. Imprima uma mensagem para indicar que estamos trabalhando com o formato XLS.
-2.  Criar um novo`Workbook` instância usando o`FileFormatType.Excel97To2003` enum, que representa o formato XLS.
-3.  Recupere o máximo de linhas e colunas suportadas pelo formato XLS usando o`Workbook.Settings.MaxRow` e`Workbook.Settings.MaxColumn`properties, respectivamente. Adicionamos 1 a esses valores para obter os números máximos reais de linhas e colunas (já que são baseados em zero).
+2. Criar um novo `Workbook` instância usando o `FileFormatType.Excel97To2003` enum, que representa o formato XLS.
+3. Recupere o máximo de linhas e colunas suportadas pelo formato XLS usando o `Workbook.Settings.MaxRow` e `Workbook.Settings.MaxColumn` propriedades, respectivamente. Adicionamos 1 a esses valores para obter os números máximos reais de linhas e colunas (já que são baseados em zero).
 4. Imprima o máximo de linhas e colunas no console.
-## Etapa 2: Encontre o Máximo de Linhas e Colunas Suportadas pelo Formato XLSX
+## Etapa 2: Encontre o máximo de linhas e colunas suportadas pelo formato XLSX
 A seguir, vamos explorar o número máximo de linhas e colunas suportadas pelo formato XLSX (Excel 2007 e posterior).
 ```csharp
 // Imprimir mensagem sobre o formato XLSX.
@@ -62,8 +64,8 @@ Console.WriteLine("Maximum Columns: " + maxCols);
 ```
 Nesta etapa, nós:
 1. Imprima uma mensagem para indicar que estamos trabalhando com o formato XLSX.
-2.  Criar um novo`Workbook` instância usando o`FileFormatType.Xlsx` enum, que representa o formato XLSX.
-3.  Recupere o máximo de linhas e colunas suportadas pelo formato XLSX usando o`Workbook.Settings.MaxRow` e`Workbook.Settings.MaxColumn`properties, respectivamente. Adicionamos 1 a esses valores para obter os números máximos reais de linhas e colunas (já que são baseados em zero).
+2. Criar um novo `Workbook` instância usando o `FileFormatType.Xlsx` enum, que representa o formato XLSX.
+3. Recupere o máximo de linhas e colunas suportadas pelo formato XLSX usando o `Workbook.Settings.MaxRow` e `Workbook.Settings.MaxColumn` propriedades, respectivamente. Adicionamos 1 a esses valores para obter os números máximos reais de linhas e colunas (já que são baseados em zero).
 4. Imprima o máximo de linhas e colunas no console.
 ## Etapa 3: Exibir uma mensagem de sucesso
 Por fim, vamos exibir uma mensagem de sucesso para indicar que o exemplo "FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats" foi executado com sucesso.
@@ -72,7 +74,7 @@ Console.WriteLine("FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats execute
 ```
 Esta etapa simplesmente imprime uma mensagem de sucesso no console.
 ## Conclusão
-Neste tutorial, você aprendeu como usar a biblioteca Aspose.Cells for .NET para encontrar o máximo de linhas e colunas suportadas pelos formatos de arquivo XLS e XLSX. Ao entender as limitações desses formatos, você pode planejar e gerenciar melhor seus projetos baseados no Excel, garantindo que seus dados se encaixem nos intervalos suportados.
+Neste tutorial, você aprendeu a usar a biblioteca Aspose.Cells para .NET para encontrar o número máximo de linhas e colunas suportadas pelos formatos de arquivo XLS e XLSX. Ao compreender as limitações desses formatos, você poderá planejar e gerenciar melhor seus projetos baseados no Excel, garantindo que seus dados se encaixem nos intervalos suportados.
 ## Perguntas frequentes
 ### Qual é o número máximo de linhas suportadas pelo formato XLS?
 O número máximo de linhas suportadas pelo formato XLS (Excel 97-2003) é 65.536.
@@ -83,11 +85,13 @@ O número máximo de linhas suportadas pelo formato XLSX (Excel 2007 e posterior
 ### Qual é o número máximo de colunas suportadas pelo formato XLSX?
 O número máximo de colunas suportadas pelo formato XLSX (Excel 2007 e posterior) é 16.384.
 ### Posso usar a biblioteca Aspose.Cells for .NET para trabalhar com outros formatos de arquivo do Excel?
- Sim, a biblioteca Aspose.Cells for .NET suporta uma ampla variedade de formatos de arquivo Excel, incluindo XLS, XLSX, ODS e muito mais. Você pode explorar o[documentação](https://reference.aspose.com/cells/net/) para saber mais sobre os recursos e funcionalidades disponíveis.
+Sim, a biblioteca Aspose.Cells para .NET suporta uma ampla variedade de formatos de arquivo do Excel, incluindo XLS, XLSX, ODS e outros. Você pode explorar o [documentação](https://reference.aspose.com/cells/net/) para saber mais sobre os recursos e funcionalidades disponíveis.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

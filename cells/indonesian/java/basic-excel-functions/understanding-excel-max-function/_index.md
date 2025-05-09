@@ -8,17 +8,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Memahami Fungsi MAX Excel
 
 
-## Perkenalan
+## Bevezetés
 
 Fungsi MAX di Excel merupakan alat yang berguna untuk analisis data. Fungsi ini memungkinkan Anda menemukan nilai terbesar dalam rentang sel tertentu dengan cepat. Baik Anda bekerja dengan data keuangan, angka penjualan, atau jenis data numerik lainnya, fungsi MAX dapat membantu Anda mengidentifikasi nilai tertinggi dengan mudah.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai menggunakan fungsi MAX dengan Aspose.Cells untuk Java, Anda harus memiliki prasyarat berikut:
 
@@ -30,12 +32,12 @@ Sebelum kita mulai menggunakan fungsi MAX dengan Aspose.Cells untuk Java, Anda h
 
 Untuk memulai, Anda perlu menambahkan pustaka Aspose.Cells for Java ke proyek Anda. Anda dapat mengunduhnya dari situs web Aspose dan menyertakannya dalam dependensi proyek Anda.
 
-## Memuat File Excel
+## Excel fájl betöltése
 
 Sebelum kita dapat menggunakan fungsi MAX, kita perlu memuat berkas Excel ke dalam aplikasi Java kita. Anda dapat melakukannya dengan menggunakan kelas Workbook Aspose.Cells, yang menyediakan berbagai metode untuk bekerja dengan berkas Excel.
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("example.xlsx");
 ```
 
@@ -63,7 +65,7 @@ double maxValue = Cells.getMaxData(worksheet, cellArea);
 Mari kita ilustrasikan penggunaan fungsi MAX dengan contoh praktis. Misalkan kita memiliki lembar Excel berisi daftar angka penjualan bulanan, dan kita ingin menemukan nilai penjualan tertinggi di antara angka-angka tersebut.
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("sales.xlsx");
 
 // Dapatkan lembar kerjanya
@@ -86,11 +88,11 @@ System.out.println("The maximum sales value is: " + maxSales);
 
 Sangat penting untuk menangani potensi kesalahan saat bekerja dengan file Excel. Jika rentang yang ditentukan tidak berisi nilai numerik, fungsi MAX akan mengembalikan kesalahan. Anda dapat menggunakan mekanisme penanganan kesalahan di Java untuk mengatasi situasi seperti itu dengan baik.
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami mempelajari cara menggunakan fungsi Excel MAX menggunakan Aspose.Cells untuk Java. Kami mempelajari cara memuat file Excel, menentukan rentang sel, dan menemukan nilai maksimum dalam rentang tersebut. Pengetahuan ini berharga bagi siapa pun yang menangani analisis dan manipulasi data dalam aplikasi Java.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa perbedaan antara fungsi MAX dan MAXA di Excel?
 
@@ -110,11 +112,12 @@ Ya, Aspose.Cells untuk Java dirancang untuk menangani file Excel berukuran besar
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan contoh untuk Aspose.Cells untuk Java?
 
-Anda dapat merujuk ke dokumentasi Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang lengkap.
+Anda dapat merujuk ke dokumentasi Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

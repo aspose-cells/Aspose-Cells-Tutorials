@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ public void Run() throws Exception {
 इस व्यापक गाइड का पालन करके, अब आप Aspose.Cells for Java के सूत्र गणना व्यवधान सुविधाओं को प्रभावी ढंग से लागू करने और उनका लाभ उठाने के लिए सुसज्जित हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

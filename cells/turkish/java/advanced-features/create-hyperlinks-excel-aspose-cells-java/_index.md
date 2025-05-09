@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ Yeni bir Excel dosyası oluşturmak, bir örnek oluşturmayı içerir `Workbook`
      String dataDir = "YOUR_DATA_DIRECTORY"; // Dizin yolunuzu burada tanımlayın
      Workbook workbook = new Workbook();
      ```
-   - Bu adım özelleştirmeye hazır boş bir Excel dosyası başlatır.
+   - Bu adım özelleştirmeye hazır, boş bir Excel dosyası başlatır.
 
 ### Çalışma Sayfası ve Köprü Bağlantısı Koleksiyonlarının Elde Edilmesi
 
@@ -103,7 +105,7 @@ Yeni bir Excel dosyası oluşturmak, bir örnek oluşturmayı içerir `Workbook`
 Köprü eklemek için çalışma sayfasına ve köprü koleksiyonuna erişin. Hücre özelliklerini değiştirmek için bu nesnelerle etkileşime girmeniz gerekecektir.
 
 **Adımlar:**
-1. **Gerekli Sınıfları İthal Edin:**
+1. **Gerekli Sınıfları İçeri Aktarın:**
    ```java
    import com.aspose.cells.Workbook;
    import com.aspose.cells.WorksheetCollection;
@@ -205,9 +207,12 @@ A5: Hücre referanslarını ve URL biçimlerini doğrulayın. Kontrol edin [Aspo
 ## Kaynaklar
 - **Belgeler:** [Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
 - **İndirmek:** [Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)
-- **Lisans Satın Al:** [Java için Aspose.Cells'i satın alın](https://purchase.aspose.com/aspose-cells-for-java)
+- **Lisans Satın Al:** [Java için Aspose.Cells satın alın](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

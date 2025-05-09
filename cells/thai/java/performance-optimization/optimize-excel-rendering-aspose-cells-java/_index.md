@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ public class DisplayVersion {
 ```
 
 ### โหลดไฟล์ Excel
-หากต้องการจัดการไฟล์ Excel ให้โหลดไฟล์เข้าในไฟล์ก่อน `Workbook` วัตถุ ระบุเส้นทางไปยังของคุณ `.xlsx` ไฟล์.
+หากต้องการจัดการไฟล์ Excel ให้โหลดเข้าในไฟล์ก่อน `Workbook` วัตถุ ระบุเส้นทางไปยังของคุณ `.xlsx` ไฟล์.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -203,7 +205,7 @@ public class RenderToImage {
    - ใช้แนวทางการจัดการหน่วยความจำที่มีประสิทธิภาพ และพิจารณาแบ่งไฟล์ขนาดใหญ่เป็นส่วนย่อยเพื่อการประมวลผล
 
 3. **การใช้ Aspose.Cells ฟรีหรือไม่?**
-   - มีเวอร์ชันทดลองใช้งานอยู่ แต่ต้องมีใบอนุญาตจึงจะใช้ฟังก์ชันครบถ้วนโดยไม่มีข้อจำกัด
+   - มีเวอร์ชันทดลองใช้งาน แต่ต้องมีใบอนุญาตจึงจะใช้ฟังก์ชันครบถ้วนโดยไม่มีข้อจำกัด
 
 4. **รูปแบบภาพที่รองรับคืออะไร?**
    - Aspose.Cells รองรับรูปแบบต่างๆ เช่น PNG, JPEG และ BMP
@@ -221,6 +223,9 @@ public class RenderToImage {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

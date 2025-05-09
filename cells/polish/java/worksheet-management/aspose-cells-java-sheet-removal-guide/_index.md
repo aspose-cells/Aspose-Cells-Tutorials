@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ public class WorkbookSetup {
 
 Teraz przeanalizujemy proces usuwania arkusza kalkulacyjnego według jego nazwy, korzystając z Aspose.Cells w Javie.
 
-### Usuwanie arkuszy roboczych za pomocą nazwy arkusza
+### Usuwanie arkuszy kalkulacyjnych za pomocą nazwy arkusza
 
 **Przegląd:**
 W tej sekcji pokazano, jak programowo usunąć konkretny arkusz kalkulacyjny z pliku Excela na podstawie jego nazwy.
@@ -195,6 +197,9 @@ Teraz wiesz, jak usunąć arkusz kalkulacyjny według jego nazwy, używając Asp
 Dzięki temu przewodnikowi będziesz dobrze wyposażony do efektywnego zarządzania arkuszami Excela za pomocą Aspose.Cells w Javie. Zacznij wdrażać już dziś i zobacz, jak może to ulepszyć Twoje projekty!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

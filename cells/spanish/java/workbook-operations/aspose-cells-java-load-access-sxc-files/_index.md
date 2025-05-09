@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells puede leer archivos habilitados para macros, pero la ejecución de 
 Siguiendo esta guía completa, ya está listo para trabajar eficientemente con archivos SXC con Aspose.Cells para Java. Tanto si es un desarrollador que busca optimizar sus aplicaciones como si es una organización que busca optimizar las tareas de procesamiento de datos, Aspose.Cells le ofrece las herramientas necesarias para lograr estos objetivos sin problemas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

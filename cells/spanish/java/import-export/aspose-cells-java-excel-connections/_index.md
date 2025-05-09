@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Guía de implementación
 
-#### Función 1: Cargar libro de trabajo desde archivo
+#### Característica 1: Cargar libro de trabajo desde archivo
 
 Cargar un libro de Excel es el primer paso para analizar su contenido y conexiones. Así es como se hace:
 
@@ -205,6 +207,9 @@ Al trabajar con libros de trabajo grandes o numerosas conexiones, tenga en cuent
 - Actualice periódicamente Aspose.Cells para Java para beneficiarse de las mejoras de rendimiento y las correcciones de errores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

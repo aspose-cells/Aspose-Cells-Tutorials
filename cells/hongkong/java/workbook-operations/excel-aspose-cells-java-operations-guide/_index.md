@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 基本初始化和設定
 
-首先，初始化一個實例 `Workbook` 開始處理 Excel 文件的類別：
+首先，初始化一個實例 `Workbook` 類別開始處理 Excel 文件：
 ```java
 import com.aspose.cells.Workbook;
 
@@ -218,6 +220,9 @@ excelWorkbook.save(outDir + "CopyingRows_out.xls");
 透過遵循本指南，您應該能夠在與 Excel 相關的專案中充分利用 Aspose.Cells for Java 的功能。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Temukan cara memanipulasi rentang sel di Excel secara efisien dengan tutorial Java Aspose.Cells kami yang komprehensif. Panduan langkah demi langkah ini mengajarkan Anda cara memilih, menyalin, memindahkan, dan memformat beberapa sel secara bersamaan, menerapkan kalkulasi berbasis rentang, dan mengotomatiskan operasi di seluruh blok sel. Setiap tutorial menyediakan contoh kode Java praktis untuk tugas manipulasi rentang umum, membantu Anda membangun aplikasi yang lebih efisien yang dapat memproses data spreadsheet secara massal daripada sel per sel.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi manajemen rentang
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -89,10 +91,13 @@ Pelajari cara memisahkan sel dalam file Excel secara efisien menggunakan Aspose.
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

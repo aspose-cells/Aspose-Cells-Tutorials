@@ -1,54 +1,59 @@
 ---
-title: Слияние ячеек в Excel с использованием Aspose.Cells для .NET
-weight: 7700
-limit: 
-description: Узнайте, как объединить клетки в файле Excel с помощью Aspose.Cells для .NET.
-keywords: [Aspose.Cells for .NET, merge cells in Excel, Excel cell merging, C# Excel merge, workbook manipulation, Aspose.Cells example, merge rows and columns, C# Excel library]
-url: /ru/net/formatting/merging-cells/
+"description": "Узнайте, как объединить ячейки в файле Excel с помощью Aspose.Cells for .NET. В этом руководстве рассматривается создание рабочих книг, манипуляция ячейками и сохранение файлов в различных форматах."
+"title": "Объединение ячеек в Excel с помощью Aspose.Cells для .NET"
+"url": "/ru/net/formatting/merging-cells/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Слияние ячеек в Excel с использованием Aspose.Cells для .NET
+# Объединение ячеек в Excel с помощью Aspose.Cells для .NET
   
-Aspose.Cells для .NET - мощная библиотека для программирования файлов Excel. В этом учебном пособии вы узнаете, как объединять клетки в рабочем листе Excel с помощью C#. Мы начинаем с создания новой рабочей книги, доступа к рабочему листу и объединения конкретных клеток для эффективного форматирования документа.  
+Aspose.Cells for .NET — это мощная библиотека для программной работы с файлами Excel. В этом руководстве вы узнаете, как объединять ячейки на листе Excel с помощью C#. Мы начнем с создания новой книги, доступа к листу и объединения определенных ячеек для эффективного форматирования документа. Это пошаговое руководство поможет вам оптимизировать работу с электронными таблицами с помощью Aspose.Cells for .NET.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке  
-Чтобы использовать Aspose.Cells для .NET в вашем проекте, следуйте этим шагам:  
 
-1. Установка через NuGet  
-   Откройте консоль для управления пакетами в Visual Studio и запустите:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Инструкция по установке  
+Чтобы использовать Aspose.Cells для .NET в своем проекте, выполните следующие действия:  
+
+1. Установить через NuGet  
+   Откройте консоль диспетчера пакетов в Visual Studio и выполните:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
 2. Загрузить DLL  
-   В качестве альтернативы скачать последнюю версию из [Aspose.Cells для скачивания .NET](https://releases.aspose.com/cells/net/)и ссылаться на DLL в вашем проекте.  
+   Либо загрузите последнюю версию с сайта [Aspose.Cells для .NET Загрузки](https://releases.aspose.com/cells/net/) и укажите ссылку на DLL в вашем проекте.  
 
-3. Добавьте ссылку к своему проекту  
-   * В Visual Studio, нажмите правый клик на проект в Explorer.  
-   * Нажмите Добавить ссылки > Просматривать > Выберите загруженный DLL.  
-   * Нажмите на OK, чтобы добавить ссылку.  
+3. Добавьте ссылку в свой проект  
+   - В Visual Studio щелкните правой кнопкой мыши свой проект в обозревателе решений.  
+   - Нажмите Добавить ссылку > Обзор > Выберите загруженную DLL.  
+   - Нажмите «ОК», чтобы добавить ссылку.  
 
-4. Начните использовать "Аспози.Сел"  
-   Добавьте следующее пространство имен в начале файла C#:  
+4. Начните использовать Aspose.Cells  
+   Добавьте следующее пространство имен в начало файла C#:  
    ```csharp
    using Aspose.Cells;
    ```
 
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

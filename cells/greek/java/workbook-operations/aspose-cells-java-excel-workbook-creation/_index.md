@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ public class FeatureSaveWorkbook {
 5. **Διαχείριση Αποθεμάτων**Χρησιμοποιήστε βιβλία εργασίας για τη δυναμική διατήρηση και ενημέρωση των εγγραφών απογραφής, ενσωματώνοντάς τες με υπάρχουσες βάσεις δεδομένων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

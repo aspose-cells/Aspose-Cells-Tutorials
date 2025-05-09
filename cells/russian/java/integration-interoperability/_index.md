@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 ### [Освойте работу с Excel с помощью Java и Aspose.Cells: создание таблиц и диаграмм](./excel-manipulation-java-aspose-cells/)
 Узнайте, как автоматизировать задачи Excel, такие как создание таблиц и диаграмм, с помощью Aspose.Cells для Java. Это руководство охватывает настройку, реализацию и практическое применение.
 
-### [Расширение классов Java с помощью Aspose.Cells: руководство по ООП и интеграции электронных таблиц](./extending-java-classes-aspose-cells-oop/)
+### [Мастер расширения классов Java с Aspose.Cells: руководство по ООП и интеграции электронных таблиц](./extending-java-classes-aspose-cells-oop/)
 Узнайте, как расширять классы в Java, используя принципы объектно-ориентированного программирования (ООП), а также интегрировать мощные функции электронных таблиц с Aspose.Cells для Java.
 
 ### [Реализация инкапсулированных объектов данных в Java с помощью Aspose.Cells: подробное руководство](./java-encapsulation-aspose-cells-guide/)
@@ -63,6 +65,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

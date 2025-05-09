@@ -7,7 +7,9 @@ description: Aspose.Cells C# tutorials offer step-by-step instructions for manip
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Worksheet C# Tutorials
@@ -40,6 +42,7 @@ Accessing specific worksheets by name or index can sometimes feel like searching
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

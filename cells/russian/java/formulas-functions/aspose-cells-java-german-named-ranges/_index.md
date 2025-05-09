@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ wbSource.save("sampleOutputNamedRangeTest.xlsm");
 
 ## Соображения производительности
 Чтобы обеспечить оптимальную производительность при работе с Aspose.Cells, примите во внимание следующие советы:
-- **Оптимизируйте использование ресурсов**: Ограничьте использование памяти, обрабатывая большие рабочие книги по частям, если это возможно.
+- **Оптимизация использования ресурсов**: Ограничьте использование памяти, обрабатывая большие рабочие книги по частям, если это возможно.
   
 - **Управление памятью**: эффективно используйте сборку мусора Java для управления выделением памяти во время манипуляций с рабочими книгами.
 
@@ -163,6 +165,9 @@ wbSource.save("sampleOutputNamedRangeTest.xlsm");
 - **Поддерживать**: Присоединяйтесь к сообществу и получите поддержку на [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

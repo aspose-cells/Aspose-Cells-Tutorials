@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ Aspose.Cells for Java 簡化了各種實際任務：
 本綜合指南使您能夠充分利用 Aspose.Cells for Java 的潛力，增強 Java 應用程式中的 Excel 檔案管理。立即開始並解鎖新的生產力水平！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

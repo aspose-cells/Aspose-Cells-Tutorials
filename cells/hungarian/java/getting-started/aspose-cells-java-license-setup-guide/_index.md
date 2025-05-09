@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Az Aspose.Cells licencét többféleképpen is beszerezheti:
 - **Ingyenes próbaverzió**: Töltsön le egy ideiglenes licencet a könyvtár funkcióinak korlátozás nélküli felfedezéséhez.
-- **Ideiglenes engedély**: Szerezzen rövid távú engedélyt a [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
+- **Ideiglenes engedély**: Szerezzen rövid távú jogosítványt a [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás**Vásároljon teljes licencet, ha az Aspose.Cells-t kereskedelmi alkalmazásaiban kell használnia.
 
 Miután megszerezte a licencfájlt (`Aspose.Total.lic`) egy könnyen hozzáférhető könyvtárban.
@@ -157,13 +159,13 @@ Az Aspose.Cells for Java számos valós forgatókönyvbe integrálható:
 
 ## Teljesítménybeli szempontok
 
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - Hatékonyan kezelje az erőforrásokat azáltal, hogy megszabadul a `Workbook` tárgyakat használat után azonnal.
 - Használja a Java memóriakezelési technikáit, például a megfelelő JVM-beállítások megadását (`-Xms`, `-Xmx`) nagy fájlok kezeléséhez.
 
 ## Következtetés
 
-Sikeresen megtanultad, hogyan ellenőrizd és állítsd be az Aspose.Cells licencét Java-ban. Ez a tudás felhatalmazza majd arra, hogy feltárd ennek a hatékony könyvtárnak az összes funkcióját. További felfedezéshez érdemes lehet elmélyülni a haladóbb funkciókban, mint például az adatkezelés vagy a diagramgenerálás az Aspose.Cells segítségével.
+Sikeresen megtanultad, hogyan ellenőrizd és állítsd be az Aspose.Cells licencét Java-ban. Ez a tudás felhatalmazza majd arra, hogy feltárd ennek a hatékony könyvtárnak az összes funkcióját. További felfedezéshez érdemes lehet elmélyülni a haladóbb funkciókban, mint például az adatkezelésben vagy a diagramgenerálásban az Aspose.Cells segítségével.
 
 ### Következő lépések
 - Fedezze fel az Aspose.Cells által biztosított további funkciókat.
@@ -196,6 +198,9 @@ Készen állsz arra, hogy ezeket a megoldásokat megvalósítsd a projektjeidben
 - **Támogatás**Segítségre van szüksége? A [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) a te elsődleges forrásod.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

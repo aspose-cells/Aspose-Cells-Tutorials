@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εισαγωγή δεδομένων από το Excel
@@ -96,9 +98,11 @@ public class ExcelDataImport {
    Επισκεφθείτε την τεκμηρίωση του Aspose.Cells [εδώ](https://reference.aspose.com/cells/java/) για αναλυτικούς πόρους και παραδείγματα.
 
 Μη διστάσετε να εξερευνήσετε περαιτέρω και να προσαρμόσετε αυτόν τον κώδικα στις συγκεκριμένες απαιτήσεις εισαγωγής δεδομένων σας. Καλή κωδικοποίηση!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

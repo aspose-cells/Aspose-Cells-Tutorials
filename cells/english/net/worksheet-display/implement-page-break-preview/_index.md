@@ -8,7 +8,9 @@ url: /net/worksheet-display/implement-page-break-preview/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Page Break Preview in Worksheet
@@ -99,6 +101,7 @@ Aspose provides [support forums](https://forum.aspose.com/c/cells/9) where you c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

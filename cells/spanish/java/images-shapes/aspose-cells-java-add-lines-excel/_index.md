@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Ya aprendió a agregar y personalizar formas de línea en hojas de cálculo de E
 Esta guía completa te proporciona los conocimientos y las herramientas necesarias para usar Aspose.Cells Java eficazmente y optimizar tus documentos de Excel. ¡Empieza a implementar estas técnicas hoy mismo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

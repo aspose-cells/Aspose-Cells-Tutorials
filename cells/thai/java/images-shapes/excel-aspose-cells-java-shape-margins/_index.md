@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-07"
 "description": "เรียนรู้วิธีการใช้ Aspose.Cells สำหรับ Java เพื่อปรับระยะขอบรูปร่างและการจัดแนวข้อความใน Excel เพื่อปรับปรุงการนำเสนอเอกสารอย่างมีประสิทธิภาพ"
-"title": "วิธีการปรับระยะขอบรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ Java"
+"title": "วิธีปรับระยะขอบรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ Java"
 "url": "/th/java/images-shapes/excel-aspose-cells-java-shape-margins/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# วิธีการปรับระยะขอบรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ Java
+# วิธีปรับระยะขอบรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ Java
 
 ## การแนะนำ
 
@@ -210,6 +212,9 @@ public class SaveExcelFile {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

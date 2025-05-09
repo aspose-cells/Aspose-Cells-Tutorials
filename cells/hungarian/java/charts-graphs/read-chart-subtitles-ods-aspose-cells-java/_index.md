@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Bevezetés
 
-A részletes információk, például a diagramok feliratainak kinyerése ODS-fájlokból kihívást jelenthet. Azonban a **Aspose.Cells Java-hoz**, ez egyszerű feladattá válik. Ez az útmutató végigvezeti Önt a diagramok feliratainak hatékony kinyerésén és megjelenítésén.
+A részletes információk, például a diagramok feliratainak kinyerése ODS-fájlokból kihívást jelenthet. Azonban a **Aspose.Cells Java-hoz**, ez egyszerű feladattá válik. Ez az útmutató végigvezet a diagramok feliratainak hatékony kinyerésén és megjelenítésén.
 
 A bemutató végére a következőket fogod megtanulni:
 - ODS fájlok betöltése az Aspose.Cells segítségével
@@ -120,7 +122,7 @@ A diagramok feliratainak kinyerése értékes lehet az alábbi esetekben:
 Az optimális teljesítmény érdekében:
 - A memória hatékony kezelése a nem használt memória megszabadulásával `Workbook` tárgyak.
 - Az Aspose.Cells kötegelt feldolgozási funkcióival hatékonyan kezelheti a nagy adathalmazokat.
-- Kövesse a Java memóriakezelés legjobb gyakorlatait, amikor terjedelmes táblázatfájlokkal dolgozik.
+- Kövesse a Java memóriakezelés legjobb gyakorlatait, amikor terjedelmes táblázatkezelő fájlokkal dolgozik.
 
 ## Következtetés
 Ebben az oktatóanyagban megtanultad, hogyan lehet kinyerni és megjeleníteni a diagram feliratait egy ODS fájlból a következő használatával: **Aspose.Cells Java-hoz**A vázolt lépéseket követve hatékonyan integrálhatja ezt a funkciót az alkalmazásaiba.
@@ -148,6 +150,9 @@ Az Aspose.Cells képességeinek további felfedezéséhez érdemes lehet belemer
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

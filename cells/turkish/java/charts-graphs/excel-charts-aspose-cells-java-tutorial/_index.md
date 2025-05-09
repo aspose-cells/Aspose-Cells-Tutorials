@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ C4: Çalışma kitabınız genelinde tutarlı görsel tasarım için önceden ta
 C5: Veri aralıklarını optimize edin, grafik karmaşıklığını en aza indirin ve ihtiyaç duyulmadığında nesneleri elden çıkararak belleği etkili bir şekilde yönetin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

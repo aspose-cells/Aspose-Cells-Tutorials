@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल चार्ट को स्वचालित करना
@@ -117,9 +119,11 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    API दस्तावेज़न का अन्वेषण करें [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) गहन जानकारी और उदाहरण के लिए.
 
 Java के लिए Aspose.Cells का उपयोग करके आसानी से अपने Excel चार्टिंग कार्यों को स्वचालित करें और अपनी डेटा विज़ुअलाइज़ेशन क्षमताओं को बढ़ाएं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

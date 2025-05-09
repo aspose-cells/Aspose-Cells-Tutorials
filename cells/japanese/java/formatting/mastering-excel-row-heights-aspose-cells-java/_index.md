@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Aspose.Cellsの他の機能を試して、スプレッドシートのタスク�
 1. **個々の行の高さを設定するにはどうすればよいでしょうか?**
    - 使用 `getCells().setRowHeight(row, height)` 方法 `row` はインデックスであり、 `height` ポイントで。
 2. **同様に列幅も調整できますか?**
-   - はい、使用します `setColumnWidth(columnIndex, widthInPoints)` 列用。
+   - はい、使います `setColumnWidth(columnIndex, widthInPoints)` 列用。
 3. **Aspose.Cells のバージョンが古い場合はどうなりますか?**
    - 新しい機能やバグ修正にアクセスするには、依存関係を最新の安定リリースに更新してください。
 4. **ファイル操作中に例外を処理するにはどうすればよいですか?**
@@ -160,6 +162,9 @@ Aspose.Cellsの他の機能を試して、スプレッドシートのタスク�
 - **サポート**： [Asposeフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ import com.aspose.cells.SaveFormat;
 Állítsa be a kimeneti útvonalat:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // Győződjön meg arról, hogy ez az útvonal helyes.
-workbook.save(outDir + "/Book1.md", SaveFormat.MARKDOWN); // Markdownként menti el.
+workbook.save(outDir + "/Book1.md", SaveFormat.MARKDOWN); // Markdownként menti.
 ```
 Az Excel-fájl most Markdown-dokumentumként lett mentve a megadott helyre.
 
@@ -111,7 +113,7 @@ Ezen funkciók megvalósításának számos valós alkalmazása lehet:
 - **Integráció statikus webhelygenerátorokkal:** Markdown fájlok használata bemenetként webtartalom létrehozásához.
 
 ## Teljesítménybeli szempontok
-teljesítmény optimalizálása az Aspose.Cells használatakor:
+A teljesítmény optimalizálása az Aspose.Cells használatakor:
 - **Memóriakezelés:** Ügyeljen az Excel-munkafüzetek méretére. A nagy fájlok jelentős memóriát foglalhatnak el; ha lehetséges, fontolja meg a felosztásukat.
 - **Hatékony feldolgozás:** Nagy adathalmazokkal végzett munka során csak a szükséges lapokat vagy tartományokat töltse be és dolgozza fel.
 
@@ -136,6 +138,9 @@ V: Igen, számos formátumot támogat, például PDF-et, CSV-t és HTML-t. Ellen
 - **Vásárlás és támogatás:** Vásárlási és támogatási kérdésekkel kapcsolatban látogasson el a következő oldalra: [Aspose vásárlás](https://purchase.aspose.com/buy) és [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

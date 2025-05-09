@@ -8,7 +8,9 @@ url: /net/manipulating-chart-types/create-custom-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Custom Chart
@@ -175,6 +177,7 @@ You can explore the full documentation [here](https://reference.aspose.com/cells
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ Il recupero delle aree di riferimento può essere fondamentale per comprendere l
        for (ReferredArea referredArea : referredAreas) {
            System.out.println("IsExternalLink: " + referredArea.isExternalLink());
            System.out.println("SheetName: " + referredArea.getSheetName());
-           // Ulteriori proprietà in base alle necessità...
+           // Ulteriori proprietà a seconda delle necessità...
        }
    }
    ```
@@ -193,6 +195,9 @@ In questo tutorial, hai imparato come caricare una cartella di lavoro di Excel u
 - [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

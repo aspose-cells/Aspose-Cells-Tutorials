@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ Kullanmak `addShape` yöntem, türünü belirterek `TEXT_BOX`, boyutları ve kon
 ```java
 Shape shape = ws.getShapes().addShape(MsoDrawingType.TEXT_BOX, 2, 0, 2, 0, 80, 400);
 ```
-##### Adım 3: Metin Kutusu için Metin Ayarlayın
+##### Adım 3: Metin Kutusu için Metni Ayarlayın
 Metin kutunuza metin atayın. Her satır ayrı bir paragraf olur:
 ```java
 shape.setText(
@@ -147,6 +149,9 @@ Daha fazla okuma ve keşif için:
 Bu kılavuzu takip ederek, artık Aspose.Cells Java'yı projelerinize entegre ederek gelişmiş Excel otomasyonu ve biçimlendirme yetenekleri için iyi bir donanıma sahip olacaksınız.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

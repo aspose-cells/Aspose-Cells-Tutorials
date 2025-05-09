@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 이 가이드를 따라 하면 Aspose.Cells를 사용하여 Java 애플리케이션에서 차트를 쉽게 만들고 사용자 정의할 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ public class ChangeSourceData {
 Με αυτούς τους πόρους και αυτόν τον ολοκληρωμένο οδηγό, είστε πλέον εξοπλισμένοι για να χειρίζεστε αποτελεσματικά τις αλλαγές δεδομένων πηγής σε συγκεντρωτικούς πίνακες χρησιμοποιώντας το Aspose.Cells σε Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

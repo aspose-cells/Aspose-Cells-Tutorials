@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Licencbeszerzés lépései
 
-Az Aspose.Cells for Java programot a következő módon szerezheted be:
+Az Aspose.Cells for Java-t a következő módon szerezheted be:
 - **Ingyenes próbaverzió:** A teljes funkció megismeréséhez letölthet egy ingyenes próbaverziót.
 - **Ideiglenes engedély:** A kiértékelés során korlátozások nélküli hosszabb távú használathoz szerezzen be ideiglenes licencet.
 - **Vásárlás:** Ha hosszú távú hozzáférésre és támogatásra van szüksége, érdemes megfontolni a vásárlást.
@@ -175,6 +177,9 @@ V: Látogassa meg a [Aspose fórum](https://forum.aspose.com/c/cells/9) közöss
 Az útmutató követésével most már képes leszel hatékonyan integrálni és használni az Aspose.Cells for Java-t a projektjeidben. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

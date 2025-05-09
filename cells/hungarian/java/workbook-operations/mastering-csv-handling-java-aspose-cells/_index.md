@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ Workbook workbook = new Workbook("path/to/sample.csv", opts);
 Egy teljes munkafüzet betöltése mellett előfordulhat, hogy CSV-adatokat kell importálnia adott munkalapcellákból kiindulva. Ez hasznos lehet adathalmazok egyesítéséhez vagy információk hozzáfűzéséhez a meglévő tartalom felülírása nélkül.
 
 #### Áttekintés
-Adatok adott helyekre történő importálásához meg kell adni a munkalapon azt a célcellát, ahol az adatoknak kezdődniük kell.
+Adatok adott helyekre történő importálásához meg kell adni a munkalapon azt a célcellát, ahol az adatoknak kezdődniük kell a feltöltődésben.
 
 **1. lépés: Hozzáférés a célmunkalaphoz**
 ```java
@@ -130,7 +132,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**2. lépés: CSV-adatok importálása a megadott cellahelyre**
+**2. lépés: CSV-adatok importálása a megadott cellába**
 ```java
 worksheet.getCells().importCSV("path/to/sample.csv", opts, 3, 3);
 ```
@@ -154,7 +156,7 @@ Az Aspose.Cells for Java számos valós forgatókönyvbe integrálható:
 
 ## Teljesítménybeli szempontok
 
-Nagy CSV-fájlok kezelésekor vegye figyelembe a következő tippeket:
+Nagy CSV-fájlok kezelésekor vegye figyelembe az alábbi tippeket:
 - **Memóriakezelés:** A memóriahiány miatti hibák elkerülése érdekében ügyeljen elegendő memóriaterület lefoglalására a JVM beállításaiban.
 - **Kötegelt feldolgozás:** Rendkívül nagy adathalmazok esetén az adatokat darabokban kell betölteni és feldolgozni a teljesítmény optimalizálása érdekében.
 - **Hatékony adatszerkezetek használata:** Használja ki az Aspose.Cells optimalizált adatszerkezeteit a gyorsabb adatkezelés érdekében.
@@ -184,6 +186,9 @@ V5: Teljes mértékben. Integrálja ezt a folyamatot egy ütemezett feladatba va
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

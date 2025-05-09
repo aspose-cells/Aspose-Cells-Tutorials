@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ ArrayList<String> lstLabels = ch.getCategoryAxis().getAxisLabels();
    - พิจารณาการแบ่งการประมวลผลออกเป็นงานย่อยๆ เพื่อเพิ่มประสิทธิภาพการใช้หน่วยความจำ
 2. **ฉันสามารถใช้ Aspose.Cells กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่**
    - ใช่ Aspose เสนอไลบรารีคล้ายๆ กันสำหรับ .NET, C++ และอื่นๆ อีกมากมาย
-3. **จะเกิดอะไรขึ้นหากแผนภูมิของฉันมีหลายแกน?**
+3. **จะเกิดอะไรขึ้นหากแผนภูมิของฉันมีแกนหลายแกน?**
    - เข้าถึงแต่ละแกนโดยใช้วิธีการเฉพาะเช่น `getSecondaryCategoryAxis()`-
 4. **ฉันจะจัดรูปแบบฉลากที่เรียกค้นได้อย่างไร**
    - ใช้ตัวเลือกการจัดรูปแบบที่มีใน Aspose.Cells เมื่อแยกป้ายชื่อออกมาแล้ว
@@ -153,6 +155,9 @@ ArrayList<String> lstLabels = ch.getCategoryAxis().getAxisLabels();
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

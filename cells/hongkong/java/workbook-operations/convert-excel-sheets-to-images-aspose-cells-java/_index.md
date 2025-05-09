@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 在繼續操作之前請確保您已具備以下條件：
 - **Java 開發工具包 (JDK)** 安裝在您的機器上。
 - 用於編寫和執行 Java 程式碼的 IDE（例如 IntelliJ IDEA 或 Eclipse）。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 ### 所需庫
 
@@ -220,6 +222,9 @@ sr.toImage(0, outDir + "/CTransparentImage_out.png");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

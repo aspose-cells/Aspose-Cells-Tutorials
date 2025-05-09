@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Jak ustawić tekst legendy wykresu w Aspose.Cells Java
 ## Wykresy i grafy
 
-**Ulepsz wizualizacje danych dzięki Aspose.Cells for Java: przewodnik krok po kroku po dostosowywaniu legend wykresów.**
+**Ulepsz swoje wizualizacje danych dzięki Aspose.Cells for Java: przewodnik krok po kroku po dostosowywaniu legend wykresów.**
 
 ### Wstęp
 W nowoczesnym krajobrazie opartym na danych tworzenie przejrzystych i skutecznych wykresów jest niezbędne do przekazywania spostrzeżeń. Jednak dostosowywanie legend wykresów może być trudne. Ten przewodnik pokaże, jak ustawić określone wpisy tekstowe legendy na wykresie za pomocą Aspose.Cells Java, zwiększając zarówno informacyjność, jak i atrakcyjność wizualną.
@@ -150,6 +152,9 @@ Teraz powinieneś czuć się komfortowo, dostosowując legendy wykresów za pomo
 - **Wsparcie**:Aby uzyskać pomoc, odwiedź stronę [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

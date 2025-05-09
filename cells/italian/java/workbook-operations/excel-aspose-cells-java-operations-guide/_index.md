@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ Quando si gestiscono file Excel composti da più fogli, è essenziale accedere a
 #### Panoramica
 È possibile recuperare facilmente qualsiasi foglio di lavoro tramite il suo indice o nome ed eseguire operazioni su di esso.
 
-**Passaggio 1: recupera il primo foglio di lavoro**
+**Passaggio 1: recuperare il primo foglio di lavoro**
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -218,6 +220,9 @@ Hai imparato a creare, caricare, manipolare e salvare cartelle di lavoro di Exce
 Seguendo questa guida, sarai pronto a sfruttare al meglio le potenzialità di Aspose.Cells per Java nei tuoi progetti Excel. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

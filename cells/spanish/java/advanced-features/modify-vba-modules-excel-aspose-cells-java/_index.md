@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ Después de realizar los ajustes necesarios, es crucial guardar el libro de trab
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/MVBAorMacroCode_out.xlsm");
 ```
-- **Parámetros**:La ruta del archivo donde desea guardar el libro modificado.
+- **Parámetros**:La ruta del archivo donde desea guardar el libro de trabajo modificado.
 - **Valores de retorno**:Ninguno. Guarda el libro directamente.
 
 ## Aplicaciones prácticas (H2)
@@ -186,6 +188,9 @@ Hemos explorado cómo se puede usar Aspose.Cells para Java para cargar, acceder 
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

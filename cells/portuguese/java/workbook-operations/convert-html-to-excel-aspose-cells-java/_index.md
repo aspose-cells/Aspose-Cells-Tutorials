@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No mundo atual, movido a dados, converter dados da web em formatos estruturados como o Excel é uma necessidade comum. Seja extraindo relatórios financeiros de páginas da web ou transformando conteúdo HTML em planilhas para análise, o processo pode ser simplificado com o uso de ferramentas poderosas. Neste tutorial, exploraremos como converter uma string HTML em uma pasta de trabalho do Excel com o Aspose.Cells Java, facilitando a manipulação e a análise de dados em um formato familiar.
 
-### que você aprenderá
+### O que você aprenderá
 - Como usar o Aspose.Cells Java para transformar strings HTML em pastas de trabalho do Excel.
 - Técnicas para ajuste automático de linhas e colunas em suas planilhas do Excel recém-criadas.
 - Métodos para salvar a pasta de trabalho final no formato XLSX.
@@ -184,6 +186,9 @@ R: Sim, o Aspose.Cells suporta vários formatos de saída, incluindo CSV e PDF.
 - **Apoiar**: [Fórum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

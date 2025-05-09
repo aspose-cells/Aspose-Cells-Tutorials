@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ public class AccessCellByName {
 現在您已經了解如何使用 Aspose.Cells for Java 透過名稱存取儲存格，從而增強程式碼的可讀性和可維護性。這項技能可以應用於各個領域，從財務分析到動態報告解決方案。
 
 ### 後續步驟
-探索 Aspose.Cells 的其他功能，例如在 Java 應用程式中建立圖表或自動執行 Excel 檔案更新。
+探索 Aspose.Cells 的其他功能，例如在 Java 應用程式中建立圖表或自動更新 Excel 檔案。
 
 ## 常見問題部分
 1. **透過名稱存取單元格有什麼好處？**
@@ -149,6 +151,9 @@ public class AccessCellByName {
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

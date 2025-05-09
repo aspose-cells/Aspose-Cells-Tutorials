@@ -1,14 +1,16 @@
 ---
-title: Excel'de Çalışma Sayfasına Liste Kutusu Ekleme
-linktitle: Excel'de Çalışma Sayfasına Liste Kutusu Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasına liste kutusu eklemeyi öğrenin. Kolay, adım adım kılavuzumuzu izleyin ve Excel sayfalarınızı etkileşimli hale getirin.
-weight: 20
-url: /tr/net/excel-shapes-controls/add-list-box-to-worksheet-excel/
+"description": "Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasına liste kutusu eklemeyi öğrenin. Kolay, adım adım kılavuzumuzu izleyin ve Excel sayfalarınızı etkileşimli hale getirin."
+"linktitle": "Excel'de Çalışma Sayfasına Liste Kutusu Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Çalışma Sayfasına Liste Kutusu Ekleme"
+"url": "/tr/net/excel-shapes-controls/add-list-box-to-worksheet-excel/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Çalışma Sayfasına Liste Kutusu Ekleme
@@ -17,10 +19,10 @@ url: /tr/net/excel-shapes-controls/add-list-box-to-worksheet-excel/
 Excel çalışma sayfalarınıza liste kutusu gibi etkileşimli öğeler eklemek, veri yönetimini ve sunumunu önemli ölçüde iyileştirebilir. İster etkileşimli bir form ister özel bir veri girişi aracı oluşturuyor olun, bir liste kutusuyla kullanıcı girdisini kontrol etme yeteneği paha biçilemezdir. Aspose.Cells for .NET, Excel dosyalarınıza bu kontrolleri eklemek ve yönetmek için etkili bir yol sağlar. Bu kılavuzda, Aspose.Cells for .NET kullanarak bir çalışma sayfasına liste kutusu ekleme sürecini adım adım anlatacağız.
 ## Ön koşullar
 Kodlamaya başlamadan önce aşağıdaki araç ve kaynaklara sahip olduğunuzdan emin olun:
--  Aspose.Cells for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz:[Aspose.Cells for .NET indirme sayfası](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET Kütüphanesi: Bunu şu adresten indirebilirsiniz: [Aspose.Cells for .NET indirme sayfası](https://releases.aspose.com/cells/net/).
 - Geliştirme Ortamı: Visual Studio gibi .NET geliştirmeyi destekleyen herhangi bir IDE.
 - .NET Framework: Projenizin desteklenen bir .NET framework sürümünü hedeflediğinden emin olun.
- Ayrıca, bir tane edinmeyi düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/) Eğer tüm özellikleri sınırsızca keşfetmek istiyorsanız.
+Ayrıca, bir tane edinmeyi düşünün [geçici lisans](https://purchase.aspose.com/temporary-license/) Eğer tüm özellikleri sınırsızca keşfetmek istiyorsanız.
 ## Paketleri İçe Aktar
 Başlamadan önce, gerekli Aspose.Cells ad alanlarını içe aktardığınızdan emin olun. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 ```csharp
@@ -104,18 +106,20 @@ Bu kod satırı çalışma kitabını daha önce kurduğumuz dizine kaydeder. Do
 İşte karşınızda! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasına başarıyla bir liste kutusu eklediniz. Sadece birkaç satır kodla, çalışma sayfasını daha etkileşimli ve dinamik hale getiren tam işlevli bir liste kutusu oluşturduk. Bu eğitim, Aspose.Cells for .NET'teki diğer denetimleri ve özellikleri keşfetmeniz için size sağlam bir temel sağlamalıdır. Denemeye devam edin ve yakında, kütüphanenin geniş işlevselliğinde ustalaşacaksınız!
 ## SSS
 ### Liste kutusunda birden fazla seçim yapılmasına izin verebilir miyim?  
- Evet, değiştirebilirsiniz`SelectionType` ile`SelectionType.Multi` çoklu seçime izin vermek için.
+Evet, değiştirebilirsiniz `SelectionType` ile `SelectionType.Multi` çoklu seçime izin vermek için.
 ### Liste kutusunun görünümünü değiştirebilir miyim?  
 Kesinlikle! Aspose.Cells, liste kutusunun boyutunu, yazı tipini ve hatta rengini bile özelleştirmenize olanak tanır.
 ### Daha sonra liste kutusunu kaldırmam gerekirse ne olur?  
- Liste kutusuna erişebilir ve onu kaldırabilirsiniz.`Shapes` koleksiyon kullanarak`sheet.Shapes.RemoveAt(index)`.
+Liste kutusuna erişebilir ve onu kaldırabilirsiniz. `Shapes` koleksiyon kullanarak `sheet.Shapes.RemoveAt(index)`.
 ### Liste kutusunu başka bir hücreye bağlayabilir miyim?  
- Evet, sadece şunu değiştirin:`LinkedCell` Seçili değeri görüntülemek istediğiniz herhangi bir hücreye özelliği ekleyin.
+Evet, sadece şunu değiştirin: `LinkedCell` Seçili değeri görüntülemek istediğiniz herhangi bir hücreye özelliği ekleyin.
 ### Liste kutusuna nasıl daha fazla öğe ekleyebilirim?  
 Belirtilen hücrelere daha fazla değer girerek giriş aralığını güncelleyin, liste kutusu otomatik olarak güncellenecektir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

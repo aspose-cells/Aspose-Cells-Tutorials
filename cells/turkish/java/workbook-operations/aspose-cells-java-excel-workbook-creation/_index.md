@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Aspose.Cells Java çeşitli alanlarda çok yönlülük sunar. İşte bazı gerç
 5. **Stok Yönetimi**: Mevcut veritabanlarıyla bütünleşerek envanter kayıtlarını dinamik olarak tutmak ve güncellemek için çalışma kitaplarını kullanın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

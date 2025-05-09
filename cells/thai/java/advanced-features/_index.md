@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.Words Java
 
 ### [เรียนรู้การเชื่อมต่อข้อมูล Excel ขั้นสูงโดยใช้ Aspose.Cells Java: คู่มือฉบับสมบูรณ์](./master-excel-data-connections-aspose-cells-java/)
-เรียนรู้การจัดการและแก้ไขการเชื่อมต่อข้อมูล Excel ด้วยโปรแกรม Aspose.Cells สำหรับ Java พัฒนาทักษะการทำงานอัตโนมัติของเวิร์กโฟลว์ของคุณ
+เรียนรู้การจัดการและปรับเปลี่ยนการเชื่อมต่อข้อมูล Excel ด้วยโปรแกรม Aspose.Cells สำหรับ Java พัฒนาทักษะการทำงานอัตโนมัติของเวิร์กโฟลว์ของคุณ
 
 ### [วิธีใช้ Aspose.Cells Java เพื่อตรึงแผงใน Excel: คำแนะนำทีละขั้นตอน](./mastering-aspose-cells-java-freeze-panes-excel/)
 เรียนรู้วิธีใช้ Aspose.Cells กับ Java เพื่อตรึงบานหน้าต่างใน Excel คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกสิ่งที่คุณต้องการตั้งแต่การโหลดเวิร์กบุ๊กไปจนถึงการบันทึกเวิร์กบุ๊ก
@@ -93,6 +95,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

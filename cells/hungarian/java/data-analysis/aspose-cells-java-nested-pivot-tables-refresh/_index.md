@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ Worksheet ws = wb.getWorksheets().get(0);
 
 **Áttekintés:** Kezeljen összetett adatszerkezeteket a pivottáblák és azok beágyazott kapcsolatainak elérésével.
 
-#### 5.1 Munkafüzet betöltése és munkalap elérése
+#### 5.1 Munkafüzet és hozzáférési munkalap betöltése
 ```java
 Workbook wb = new Workbook(dataDir + "/sampleFindAndRefreshNestedOrChildrenPivotTables.xlsx");
 Worksheet ws = wb.getWorksheets().get(0);
@@ -201,6 +203,9 @@ Ebben az útmutatóban megtanultad, hogyan kezelheted hatékonyan a beágyazott 
 Ezt az átfogó útmutatót követve felkészült leszel az összetett Excel adatkezelési feladatok elvégzésére az Aspose.Cells for Java használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

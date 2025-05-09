@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Nyní jste zvládli základy nastavování a manipulace s kontingenčními tabul
 Dodržováním tohoto komplexního průvodce byste měli být na dobré cestě k využití výkonných funkcí Aspose.Cells pro Javu ve vašich datově orientovaných projektech. Přejeme vám šťastné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

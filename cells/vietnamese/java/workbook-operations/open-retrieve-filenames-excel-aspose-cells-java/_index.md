@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Xử lý các tệp Microsoft Excel trong các ứng dụng Java có thể là m
 Bạn đã sẵn sàng để sắp xếp hợp lý các tác vụ xử lý Excel của mình chưa? Hãy bắt đầu bằng cách thiết lập môi trường của chúng tôi.
 
 ## Điều kiện tiên quyết
-Trước khi tìm hiểu mã, hãy đảm bảo bạn có:
+Trước khi tìm hiểu về mã, hãy đảm bảo bạn có:
 ### Thư viện và phụ thuộc bắt buộc
 - **Aspose.Cells cho Java** phiên bản 25.3 trở lên.
 ### Yêu cầu thiết lập môi trường
@@ -133,6 +135,9 @@ Sẵn sàng để tiến xa hơn? Hãy thử nghiệm các khả năng khác nha
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

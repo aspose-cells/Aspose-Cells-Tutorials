@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ license.setLicense("path_to_your_license.lic");
 **Översikt:** Att ladda en Excel-fil är det första steget i att manipulera dess data med Aspose.Cells.
 
 #### Steg 1: Skapa ett arbetsboksobjekt
-Skapa en `Workbook` objekt för att representera hela din Excel-arbetsbok:
+Skapa en `Workbook` objekt som representerar hela din Excel-arbetsbok:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -99,7 +101,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 // System.out.println("Arknamn: " + arbetsblad.getName());
 ```
 
-### Access-diagram i kalkylblad
+### Åtkomstschema i kalkylblad
 **Översikt:** Genom att komma åt diagram kan du utföra visuell dataanalys.
 
 #### Steg 3: Hämta ett diagram från arbetsbladet
@@ -161,6 +163,9 @@ A5: Besök [officiell dokumentation](https://reference.aspose.com/cells/java/) f
 - **Stöd:** Delta i diskussioner och få hjälp med [Aspose-forumet](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

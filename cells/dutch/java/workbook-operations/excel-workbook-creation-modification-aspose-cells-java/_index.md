@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licentieverwerving
 Voor volledige functionaliteit heeft Aspose.Cells een licentie nodig:
 - **Gratis proefperiode**: Downloaden van [Aspose-releases](https://releases.aspose.com/cells/java/) om te testen met beperkingen.
-- **Tijdelijke licentie**Verkrijg een tijdelijke licentie via [Aspose Aankooppagina](https://purchase.aspose.com/temporary-license/).
+- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie via [Aspose Aankooppagina](https://purchase.aspose.com/temporary-license/).
 - **Aankoop**: Voor ononderbroken toegang, koop een volledige licentie bij [Aspose Aankoop](https://purchase.aspose.com/buy).
 
 ## Aspose.Cells instellen voor Java
@@ -206,6 +208,9 @@ In deze tutorial hebben we onderzocht hoe je Excel-werkmappen kunt maken en wijz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

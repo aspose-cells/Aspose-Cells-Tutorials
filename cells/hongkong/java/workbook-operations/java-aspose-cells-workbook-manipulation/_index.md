@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ Workbook workbook = new Workbook(dataDir + "/BookStyles.xls");
    ```java
    import com.aspose.cells.Cells;
    ```
-2. **取消工作表中行的分組**
+2. **取消工作表中的行分組**
    - 使用 `ungroupRows(int firstRow, int totalRows)` 取消組合。
    ```java
    Cells cells = workbook.getWorksheets().get(0).getCells();
@@ -190,6 +192,9 @@ Aspose.Cells 功能多樣，可整合到各種場景：
 踏上 Aspose.Cells 之旅，探索 Java 中 Excel 自動化的全部潛力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

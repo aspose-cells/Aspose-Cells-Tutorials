@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Chúng tôi khuyến khích bạn thử nghiệm giải pháp này trong các d�
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị tốt để tận dụng Aspose.Cells for Java trong việc xuất bảng tính Excel dưới dạng HTML. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

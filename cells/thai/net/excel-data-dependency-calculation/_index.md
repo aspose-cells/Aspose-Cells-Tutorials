@@ -1,14 +1,16 @@
 ---
-title: การคำนวณและความสัมพันธ์ของข้อมูล Excel
-linktitle: การคำนวณและความสัมพันธ์ของข้อมูล Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ค้นพบบทช่วยสอน Aspose.Cells สำหรับ .NET ที่ครอบคลุมการอ้างอิงและการคำนวณข้อมูลใน Excel รวมถึงการติดตามเซลล์ที่อ้างอิงกัน เพื่อเสริมทักษะการทำงานอัตโนมัติใน Excel ของคุณ
-weight: 34
-url: /th/net/excel-data-dependency-calculation/
+"description": "ค้นพบบทช่วยสอน Aspose.Cells สำหรับ .NET ที่ครอบคลุมการอ้างอิงและการคำนวณข้อมูลใน Excel รวมถึงการติดตามเซลล์ที่อ้างอิงกัน เพื่อเสริมทักษะการทำงานอัตโนมัติใน Excel ของคุณ"
+"linktitle": "การคำนวณและความสัมพันธ์ของข้อมูล Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การคำนวณและความสัมพันธ์ของข้อมูล Excel"
+"url": "/th/net/excel-data-dependency-calculation/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การคำนวณและความสัมพันธ์ของข้อมูล Excel
@@ -24,9 +26,11 @@ url: /th/net/excel-data-dependency-calculation/
 ## บทช่วยสอนเกี่ยวกับการอ้างอิงข้อมูลและการคำนวณของ Excel
 ### [การติดตามเซลล์ที่ขึ้นต่อกันใน Excel](./tracing-dependent-cells-in-excel/)
 เรียนรู้วิธีการติดตามเซลล์ที่ขึ้นอยู่กับเซลล์อื่นใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนที่ทำตามได้ง่ายนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Um Aspose.Cells auszuprobieren, können Sie eine kostenlose temporäre Lizenz erwerben oder die volle Funktionalität nutzen. Folgen Sie diesen Schritten:
 
 1. **Kostenlose Testversion**: Laden Sie die Bibliothek herunter von [Aspose Downloads](https://releases.aspose.com/cells/java/).
-2. **Temporäre Lizenz**Fordern Sie eine temporäre Lizenz an unter [Aspose Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
-3. **Kaufen**: Für die langfristige Nutzung erwerben Sie eine Lizenz über [Aspose Kauf](https://purchase.aspose.com/buy).
+2. **Temporäre Lizenz**: Fordern Sie eine temporäre Lizenz an unter [Aspose Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+3. **Kaufen**Für die langfristige Nutzung erwerben Sie eine Lizenz über [Aspose Kauf](https://purchase.aspose.com/buy).
 
 ### Grundlegende Initialisierung und Einrichtung
 
@@ -199,6 +201,9 @@ In diesem Tutorial haben wir untersucht, wie Sie Text in Formen in Excel mit Asp
 Experimentieren Sie mit diesen Techniken und bringen Sie Ihre Excel-Dokumentmanipulationen mit Aspose.Cells für Java auf die nächste Ebene!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

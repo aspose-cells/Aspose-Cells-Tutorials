@@ -8,7 +8,9 @@ url: /net/number-and-display-formats-in-excel/customizing-display-formats-with-u
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing Display Formats with User-Defined Numbers
@@ -129,6 +131,7 @@ Aspose.Cells offers a free trial, but for full functionality, you will need a va
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

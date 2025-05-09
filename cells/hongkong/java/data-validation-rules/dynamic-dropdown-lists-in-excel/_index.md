@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 中的動態下拉列表
@@ -40,7 +42,7 @@ Microsoft Excel 是一種多功能工具，它不僅可以進行簡單的資料�
 import com.aspose.cells.*;
 ```
 
-## 步驟3：建立Excel工作簿
+## 步驟 3：建立 Excel 工作簿
 
 接下來，建立一個要新增動態下拉清單的 Excel 工作簿。您可以按照如下方式進行操作：
 
@@ -115,6 +117,7 @@ workbook.save("DynamicDropdownExample.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

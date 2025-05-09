@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Egyéni diagram sablonok
@@ -76,7 +78,7 @@ Most hozzunk létre egy diagramot, és szabjuk testre az igényeinknek megfelel�
 int chartIndex = worksheet.getCharts().add(ChartType.BAR, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
-// A diagram testreszabási kódja itt található
+// diagram testreszabási kódja itt található
 ```
 
 ### 5. lépés: Egyéni sablonok alkalmazása
@@ -118,7 +120,7 @@ Igen, egyéni témákat és sablonokat alkalmazhatsz a diagramjaidra az Aspose.C
 
 ### Az Aspose.Cells for Java alkalmas mind egyszerű, mind összetett adatokhoz?
 
-Abszolút! Az Aspose.Cells Java-ban sokoldalú, és egyszerű, valamint összetett adatforgatókönyveket is képes kezelni. Akár alapvető adathalmazokkal, akár bonyolult pénzügyi modellekkel dolgozik, az Aspose.Cells megoldást kínál.
+Abszolút! Az Aspose.Cells Java-ban sokoldalú, és mind az egyszerű, mind az összetett adatforgatókönyveket képes kezelni. Akár alapvető adathalmazokkal, akár bonyolult pénzügyi modellekkel dolgozik, az Aspose.Cells mindent megold.
 
 ### Hol találok további forrásokat és dokumentációt?
 
@@ -127,6 +129,7 @@ Abszolút! Az Aspose.Cells Java-ban sokoldalú, és egyszerű, valamint összete
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

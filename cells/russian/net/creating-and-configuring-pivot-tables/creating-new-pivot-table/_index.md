@@ -1,14 +1,16 @@
 ---
-title: Создание новой сводной таблицы программным способом в .NET
-linktitle: Создание новой сводной таблицы программным способом в .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь программно создавать сводную таблицу в .NET с помощью Aspose.Cells с помощью нашего пошагового руководства. Эффективно анализируйте свои данные.
-weight: 13
-url: /ru/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
+"description": "Научитесь программно создавать сводную таблицу в .NET с помощью Aspose.Cells с помощью нашего пошагового руководства. Эффективно анализируйте свои данные."
+"linktitle": "Создание новой сводной таблицы программным способом в .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Создание новой сводной таблицы программным способом в .NET"
+"url": "/ru/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание новой сводной таблицы программным способом в .NET
@@ -20,7 +22,7 @@ url: /ru/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
 Прежде чем приступить к делу, давайте убедимся, что у вас все готово. Вот что вам нужно сделать:
 
 1. Установите .NET Framework: Убедитесь, что на вашем компьютере установлен .NET Framework. Aspose.Cells поддерживает различные версии, но лучше придерживаться последней.
-2.  Библиотека Aspose.Cells: Вам нужна библиотека Aspose.Cells. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/)или получить[временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
+2. Библиотека Aspose.Cells: Вам нужна библиотека Aspose.Cells. Вы можете [скачать здесь](https://releases.aspose.com/cells/net/) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/) для оценки.
 3. Настройка IDE: подготовьте совместимую с C# IDE, например Visual Studio, в которой вы сможете начать новый проект.
 4. Базовые знания C#: знакомство с программированием на C# поможет вам следовать курсу, не увязнув слишком глубоко.
 
@@ -50,7 +52,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- На этом этапе мы создаем`Workbook`экземпляр, представляющий наш файл Excel, и берем самый первый рабочий лист, который станет нашей площадкой для сводной таблицы.
+На этом этапе мы создаем `Workbook` экземпляр, представляющий наш файл Excel, и берем самый первый рабочий лист, который станет нашей площадкой для сводной таблицы.
 
 ## Шаг 2: Вставьте данные в ячейки
 Далее давайте заполним наш рабочий лист некоторыми образцами данных. Мы собираемся ввести строки для разных видов спорта, кварталов и показателей продаж, чтобы дать нашей сводной таблице что-то для обобщения.
@@ -92,7 +94,7 @@ int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 // Доступ к экземпляру недавно добавленной сводной таблицы
 Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
 
-// Отключение отображения общих итогов по строкам.
+// Скрытие общих итогов по строкам.
 pivotTable.RowGrand = false;
 
 // Перетаскиваем первое поле в область строки.
@@ -125,19 +127,21 @@ workbook.Save(dataDir + "pivotTable_test_out.xls");
 Aspose.Cells — мощная библиотека .NET для программного создания и управления электронными таблицами Excel.
 
 ### Существует ли бесплатная пробная версия Aspose.Cells?
- Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете получить бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 
 ### Могу ли я настроить внешний вид сводной таблицы?
 Конечно! Вы можете настроить форматирование, макет и даже стили сводной таблицы в соответствии с вашими потребностями.
 
 ### Где я могу найти больше примеров и документации по Aspose.Cells?
- Вы можете проверить[документация](https://reference.aspose.com/cells/net/) для получения подробных руководств и примеров.
+Вы можете проверить [документация](https://reference.aspose.com/cells/net/) для получения подробных руководств и примеров.
 
 ### Как получить поддержку по Aspose.Cells?
- Вы можете получить поддержку через[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете получить поддержку через [Форум Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

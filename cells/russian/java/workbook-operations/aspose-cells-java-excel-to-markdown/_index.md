@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ license.setLicense("path_to_your_license.lic");
 
 ### Функция 1: Загрузка файла Excel
 **Обзор:**
-Загрузка файла Excel в приложение Java — это первый шаг в обработке данных. Aspose.Cells для Java упрощает это с помощью `Workbook` сорт.
+Загрузка файла Excel в приложение Java — это первый шаг в обработке данных. Aspose.Cells for Java упрощает это с помощью `Workbook` сорт.
 
 #### Пошаговая реализация:
 **Импорт требуемых классов**
@@ -136,6 +138,9 @@ A: Да, он поддерживает широкий спектр формат�
 - **Покупка и поддержка:** По вопросам приобретения и поддержки посетите сайт [Покупка Aspose](https://purchase.aspose.com/buy) и [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

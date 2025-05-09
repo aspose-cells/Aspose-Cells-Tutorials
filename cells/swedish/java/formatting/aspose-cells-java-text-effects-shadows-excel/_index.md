@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ import com.aspose.cells.PresetShadowType;
 int idx = ws.getTextBoxes().add(2, 2, 100, 400);
 TextBox tb = ws.getTextBoxes().get(idx);
 
-// Ställ in textrutans text
+// Ställ in texten i textrutan
 tb.setText("This text has the following settings.\n\nText Effects > Shadow > Offset Bottom");
 
 // Använd skuggeffekt på varje text som körs i textrutan
@@ -201,6 +203,9 @@ A5: Ja, att hantera minnet effektivt och bara tillämpa effekter där det är n�
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

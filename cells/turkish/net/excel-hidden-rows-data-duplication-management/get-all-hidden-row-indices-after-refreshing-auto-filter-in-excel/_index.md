@@ -1,14 +1,16 @@
 ---
-title: Excel'de Otomatik Filtreyi Yeniledikten Sonra Gizli Satır Endekslerini Alın
-linktitle: Excel'de Otomatik Filtreyi Yeniledikten Sonra Gizli Satır Endekslerini Alın
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de Otomatik Filtrelemeyi yeniledikten sonra gizli satır dizinlerinin nasıl alınacağını keşfedin. Veri yönetiminizi basitleştirin.
-weight: 10
-url: /tr/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel'de Otomatik Filtrelemeyi yeniledikten sonra gizli satır dizinlerinin nasıl alınacağını keşfedin. Veri yönetiminizi basitleştirin."
+"linktitle": "Excel'de Otomatik Filtreyi Yeniledikten Sonra Gizli Satır Endekslerini Alın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Otomatik Filtreyi Yeniledikten Sonra Gizli Satır Endekslerini Alın"
+"url": "/tr/net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Otomatik Filtreyi Yeniledikten Sonra Gizli Satır Endekslerini Alın
@@ -27,16 +29,16 @@ Bu öğreticiyi takip etmek için Aspose.Cells'in ne olduğuna dair sağlam bir 
 
 ### Geliştirme Ortamınızı Kurma
 
-1.  Visual Studio'yu yükleyin: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
+1. Visual Studio'yu yükleyin: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Bunu şu adresten indirebilirsiniz: [Visual Studio web sitesi](https://visualstudio.microsoft.com/).
 
 2. .NET Framework: .NET Framework veya .NET Core'un uyumlu bir sürümüne ihtiyacınız olacak. Bu kütüphane her iki framework ile de iyi çalışır.
 
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini şu adresten indirin ve yükleyin:[bu bağlantı](https://releases.aspose.com/cells/net/). Alternatif olarak, NuGet üzerinden kurabilirsiniz. Sadece Paket Yöneticisi Konsolunuzu açın ve çalıştırın:
+3. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini şu adresten indirin ve yükleyin: [bu bağlantı](https://releases.aspose.com/cells/net/). Alternatif olarak, NuGet üzerinden kurabilirsiniz. Sadece Paket Yöneticisi Konsolunuzu açın ve çalıştırın:
 ```
 Install-Package Aspose.Cells
 ```
 
-4.  Örnek Excel Dosyası: Aşağıdaki adlı bir örnek Excel dosyası hazırlayın:`sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` test için. Filtrelenebilecek bazı verileri eklediğinizden emin olun.
+4. Örnek Excel Dosyası: Aşağıdaki adlı bir örnek Excel dosyası hazırlayın: `sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx` test için. Filtrelenebilecek bazı verileri eklediğinizden emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -72,7 +74,7 @@ Sonra, Excel dosyanızı bir çalışma kitabı nesnesine yüklememiz gerekir. B
 Workbook wb = new Workbook(sourceDir + "sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx");
 ```
 
- Burada yeni bir şey yaratıyoruz`Workbook` Belirtilen Excel dosyasını yükleyen nesne.
+Burada yeni bir şey yaratıyoruz `Workbook` Belirtilen Excel dosyasını yükleyen nesne.
 
 ## Adım 3: İstenilen Çalışma Sayfasına Erişim
 
@@ -118,7 +120,7 @@ Console.WriteLine("GetAllHiddenRowsIndicesAfterRefreshingAutoFilter executed suc
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Cells for .NET kullanarak Excel'de bir Otomatik Filtreyi yeniledikten sonra gizli satırların dizinlerini başarıyla aldınız. Oldukça hoş, değil mi? Bu yetenek veri analizi projelerinizi önemli ölçüde geliştirebilir, iş akışınızı daha akıcı ve daha verimli hale getirebilir.
+Ve işte oldu! Aspose.Cells for .NET kullanarak Excel'de bir Otomatik Filtreyi yeniledikten sonra gizli satırların dizinlerini başarıyla aldınız. Oldukça şık, değil mi? Bu yetenek veri analizi projelerinizi önemli ölçüde geliştirebilir, iş akışınızı daha akıcı ve daha verimli hale getirebilir.
 
 ## SSS
 
@@ -129,16 +131,18 @@ Aspose.Cells, geliştiricilerin Microsoft Excel'e ihtiyaç duymadan Excel dosyal
 Evet! Aspose.Cells, filtreler uygulamak ve Excel verileriyle etkili bir şekilde çalışmak için yerleşik işlevlere sahiptir.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım için bir lisans satın almanız gerekecek.[satın alma sayfası](https://purchase.aspose.com/buy) Ayrıntılar için.
+Aspose.Cells ücretsiz deneme sunuyor ancak devam eden kullanım için bir lisans satın almanız gerekecek. [satın alma sayfası](https://purchase.aspose.com/buy) Ayrıntılar için.
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Aspose topluluğundan destek almak için şu yolu kullanabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Aspose topluluğundan destek almak için şu yolu kullanabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells'in dokümanlarını nerede bulabilirim?
- Tam dokümantasyon mevcuttur[Burada](https://reference.aspose.com/cells/net/).
+Tam dokümantasyon mevcuttur [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

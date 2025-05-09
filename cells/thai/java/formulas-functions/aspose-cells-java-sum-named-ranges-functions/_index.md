@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ book.save(dataDir + "NamedRangeToSumValues_out.xlsx");
 บทช่วยสอนนี้จะช่วยให้คุณเข้าใจการใช้งานช่วงที่มีชื่อและฟังก์ชันผลรวมอย่างครอบคลุมโดยใช้ Aspose.Cells สำหรับ Java ลองใช้เพื่อใช้ประโยชน์จากระบบอัตโนมัติของ Excel ในแอปพลิเคชันของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

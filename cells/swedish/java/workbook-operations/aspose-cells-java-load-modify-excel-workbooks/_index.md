@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ De `Cells` objektet representerar all celldata i ett kalkylblad, vilket gör att
 
 ### Definiera och flytta cellområde
 
-Att flytta specifika cellområden kan vara viktigt för att organisera data. Den här funktionen visar hur man definierar och flyttar ett område inom samma kalkylblad.
+Att flytta specifika cellområden kan vara viktigt för att organisera data. Den här funktionen demonstrerar hur man definierar och flyttar ett område inom samma kalkylblad.
 
 #### Skifta cellintervall
 
@@ -203,6 +205,9 @@ För ytterligare utforskning, överväg att fördjupa dig i avancerade funktione
 Den här omfattande guiden ger dig möjlighet att utnyttja Aspose.Cells fulla potential för Java och förbättra din Excel-filhantering i Java-applikationer. Kom igång idag och lås upp nya produktivitetsnivåer!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

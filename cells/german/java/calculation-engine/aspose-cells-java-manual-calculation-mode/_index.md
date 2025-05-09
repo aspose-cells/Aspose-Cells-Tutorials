@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Entdecken Sie weitere Funktionen von Aspose.Cells, wie die automatische Berichte
 Dieses Tutorial vermittelt Ihnen das Wissen und die Werkzeuge, um Formelberechnungen in Aspose.Cells für Java effektiv zu verwalten. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

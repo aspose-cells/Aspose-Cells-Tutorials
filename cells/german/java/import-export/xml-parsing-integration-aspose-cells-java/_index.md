@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Lizenzerwerb
 - **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testversion, um Aspose.Cells zu erkunden.
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
+- **Temporäre Lizenz**Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
 - **Kaufen**: Für die langfristige Nutzung erwerben Sie eine kommerzielle Lizenz.
 
 #### Grundlegende Initialisierung
@@ -203,6 +205,9 @@ Experimentieren Sie mit komplexeren XML-Strukturen oder anderen von Aspose.Cells
 - [Aspose Support Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

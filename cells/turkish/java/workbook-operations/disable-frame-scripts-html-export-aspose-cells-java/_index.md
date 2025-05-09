@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,6 +158,9 @@ Aspose.Cells'in daha fazla özelliğini keşfetmek için şu adımları izleyin:
 Aspose.Cells ile yolculuğunuza bugün başlayın ve Excel verilerini kusursuz bir şekilde işleyerek Java uygulamalarınızı geliştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

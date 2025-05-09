@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ A: Có, việc sử dụng API phát trực tuyến giúp quản lý hiệu qu�
 Bằng cách làm theo các bước và tài nguyên này, bạn sẽ được trang bị đầy đủ để triển khai Aspose.Cells for Java vào các dự án của mình một cách hiệu quả. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

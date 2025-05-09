@@ -1,14 +1,16 @@
 ---
-title: Добавить управление дугой с точками соединения
-linktitle: Добавить управление дугой с точками соединения
-second_title: API обработки Excel Aspose.Cells .NET
-description: В этом подробном руководстве вы узнаете, как добавлять элементы управления дугами с точками соединения с помощью Aspose.Cells для .NET.
-weight: 27
-url: /ru/net/excel-shapes-controls/add-arc-control-with-connection-points/
+"description": "В этом подробном руководстве вы узнаете, как добавлять элементы управления дугами с точками соединения с помощью Aspose.Cells для .NET."
+"linktitle": "Добавить управление дугой с точками соединения"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавить управление дугой с точками соединения"
+"url": "/ru/net/excel-shapes-controls/add-arc-control-with-connection-points/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить управление дугой с точками соединения
@@ -18,7 +20,7 @@ url: /ru/net/excel-shapes-controls/add-arc-control-with-connection-points/
 ## Предпосылки
 Прежде чем мы погрузимся в волнение кодирования, давайте убедимся, что вы все подготовили. Вот что вам нужно:
 1. .NET Framework: Убедитесь, что у вас установлена совместимая версия. Aspose.Cells работает с несколькими версиями, включая .NET Core.
-2.  Aspose.Cells для .NET: Вам нужно будет скачать и установить библиотеку Aspose.Cells. Вы можете легко получить ее из[ссылка для скачивания](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Вам нужно будет скачать и установить библиотеку Aspose.Cells. Вы можете легко получить ее из [ссылка для скачивания](https://releases.aspose.com/cells/net/).
 3. Хорошая IDE: Visual Studio, верный спутник любого разработчика .NET, поможет оптимизировать процесс кодирования.
 4. Базовые знания C#: Если вы знакомы с C#, то этот урок покажется вам простым.
 5. Доступ к каталогу документов: знайте, где вы будете сохранять файлы Excel. Это необходимо для эффективной организации вывода.
@@ -46,7 +48,7 @@ if (!IsExists)
 ```csharp
 Workbook excelbook = new Workbook();
 ```
- Позвонив по номеру`Workbook` конструктор, вы по сути говорите: «Эй, давайте создадим новый файл Excel!» Это будет холст для всех ваших фигур и данных.
+Позвонив по номеру `Workbook` конструктор, вы по сути говорите: «Эй, давайте создадим новый файл Excel!» Это будет холст для всех ваших фигур и данных.
 ## Шаг 3: Добавление первой дуговой формы
 Вот тут-то и начинается самое интересное! Давайте добавим нашу первую дугообразную форму.
 ```csharp
@@ -60,7 +62,7 @@ Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0,
 arc1.Fill.FillType = FillType.Solid;
 arc1.Fill.SolidFill.Color = Color.Blue;
 ```
-Это делает дугу сплошной синей. Вы можете изменить цвет на любой понравившийся вам оттенок, заменив`Color.Blue` для другого цвета.
+Это делает дугу сплошной синей. Вы можете изменить цвет на любой понравившийся вам оттенок, заменив `Color.Blue` для другого цвета.
 ### Установить размещение дуги
 ```csharp
 arc1.Placement = PlacementType.FreeFloating;
@@ -106,16 +108,18 @@ excelbook.Save(dataDir + "book1.out.xls");
 ### Что такое Aspose.Cells?
 Aspose.Cells — это мощная библиотека .NET, которая позволяет разработчикам создавать и обрабатывать файлы Excel программным способом.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да! Вы можете попробовать бесплатную пробную версию. Посетить[эта ссылка](https://releases.aspose.com/) для начала.
+Да! Вы можете попробовать бесплатную пробную версию. Посетить [эта ссылка](https://releases.aspose.com/) для начала.
 ### Как добавить другие фигуры, помимо дуг?
 Вы можете использовать различные классы, доступные в пространстве имен Aspose.Cells.Drawing, для добавления различных фигур, таких как прямоугольники, круги и многое другое.
 ### Какие типы файлов можно создавать с помощью Aspose.Cells?
 Вы можете создавать и обрабатывать различные форматы Excel, включая XLS, XLSX, CSV и другие.
 ### Доступна ли техническая поддержка для Aspose.Cells?
- Конечно! Вы можете получить доступ к[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) за помощь.
+Конечно! Вы можете получить доступ к [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9) за помощь.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

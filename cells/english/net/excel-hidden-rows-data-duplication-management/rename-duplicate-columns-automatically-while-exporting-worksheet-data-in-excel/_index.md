@@ -8,7 +8,9 @@ url: /net/excel-hidden-rows-data-duplication-management/rename-duplicate-columns
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatically Rename Duplicate Columns When Exporting Excel Data
@@ -107,6 +109,7 @@ Yes! You can apply for a temporary license [here](https://purchase.aspose.com/te
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

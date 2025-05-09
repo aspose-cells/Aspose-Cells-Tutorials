@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Dostosowywanie wykresów programu Excel za pomocą kolorów motywu jest korzystn
 ## Rozważania dotyczące wydajności
 Aby zapewnić optymalną wydajność podczas korzystania z Aspose.Cells:
 - **Zarządzanie zasobami**:Zamknij skoroszyty po wykonaniu operacji, aby zwolnić pamięć.
-- **Efektywne przetwarzanie danych**: W przypadku dużych zbiorów danych należy używać strumieni i plików tymczasowych.
+- **Efektywne przetwarzanie danych**: W przypadku dużych zbiorów danych należy używać strumieni lub plików tymczasowych.
 - **Zarządzanie pamięcią Java**: Przydziel wystarczającą ilość miejsca na stercie do obsługi obszernych plików Excela, szczególnie w środowiskach korporacyjnych.
 
 ## Wniosek
@@ -181,6 +183,9 @@ A5: Zapisz skoroszyty w formatach zgodnych ze starszymi wersjami programu Excel,
 Jeśli napotkasz jakiekolwiek problemy lub będziesz potrzebować dalszej pomocy, możesz skontaktować się z nami na forum wsparcia.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

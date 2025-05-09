@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Az Aspose.Cells beállítása egyszerű. Így kezdheted el:
 1. **Függőség hozzáadása:**
    - Használj Mavent vagy Gradle-t az Aspose.Cells beillesztéséhez a projektedbe a fent látható módon.
 
-2. **Licencbeszerzés lépései:**
+2. **Licenc megszerzésének lépései:**
    - Szerezzen be egy ingyenes próbalicencet az Aspose.Cells összes funkciójának felfedezéséhez.
    - Hosszabb távú használat esetén érdemes lehet ideiglenes licencet vagy előfizetést vásárolni. Látogasson el ide. [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) további információkért.
 
@@ -103,7 +105,7 @@ String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a tényleges adatkönyvt
 // Az első alakzat elérése az első munkalapon
 Shape sourceTextBox = sourceWb.getWorksheets().get(0).getShapes().get(0);
 ```
-- **Miért:** A programozottan elérhető alakzatok dinamikus frissítéseket tesznek lehetővé, így ideálisak az automatizált jelentéskészítéshez.
+- **Miért:** A programozott alakzatokhoz való hozzáférés dinamikus frissítéseket tesz lehetővé, így ideális az automatizált jelentéskészítéshez.
 
 #### 3. lépés: Új szövegdoboz létrehozása és módosítása
 ```java
@@ -183,6 +185,9 @@ Javasoljuk, hogy próbálja ki ezeket a technikákat a projektjeiben, és első 
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

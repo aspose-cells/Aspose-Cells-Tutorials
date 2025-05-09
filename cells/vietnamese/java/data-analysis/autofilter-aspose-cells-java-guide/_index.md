@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ Bằng cách làm theo hướng dẫn này, bạn đã học được cách khai
    Bộ lọc tự động giúp quản lý các tập dữ liệu Excel lớn bằng cách ẩn động các hàng không liên quan dựa trên các tiêu chí đã chỉ định.
 
 2. **Tôi phải xử lý lỗi như thế nào khi áp dụng bộ lọc?**  
-   Đảm bảo sử dụng chỉ mục cột chính xác và kiểu dữ liệu khớp với tiêu chí lọc để tránh các ngoại lệ thời gian chạy.
+   Đảm bảo sử dụng đúng chỉ mục cột và kiểu dữ liệu khớp với tiêu chí lọc để tránh ngoại lệ thời gian chạy.
 
 3. **Có thể áp dụng bộ lọc tự động cho nhiều cột cùng lúc không?**  
    Có, bạn có thể thiết lập các bộ lọc phức tạp trải dài trên nhiều cột bằng cách sử dụng `addFilter` phương pháp với các tham số thích hợp.
@@ -201,6 +203,9 @@ Với những tài nguyên này, bạn đã được trang bị đầy đủ đ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

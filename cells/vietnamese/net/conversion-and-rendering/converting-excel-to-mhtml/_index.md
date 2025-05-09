@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Excel sang MHTML trong .NET
-linktitle: Chuyển đổi Excel sang MHTML trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn.
-weight: 12
-url: /vi/net/conversion-and-rendering/converting-excel-to-mhtml/
+"description": "Tìm hiểu cách chuyển đổi hiệu quả các tệp Excel sang định dạng MHTML trong .NET bằng Aspose.Cells, giúp tăng cường khả năng báo cáo và chia sẻ dữ liệu của bạn."
+"linktitle": "Chuyển đổi Excel sang MHTML trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi Excel sang MHTML trong .NET"
+"url": "/vi/net/conversion-and-rendering/converting-excel-to-mhtml/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Excel sang MHTML trong .NET
@@ -22,7 +24,7 @@ Khi nói đến việc chuyển đổi các tệp Excel sang các định dạng
 Trước khi đi sâu vào việc chuyển đổi các tệp Excel sang MHTML, có một số điều cần thiết bạn cần phải có. Sau đây là danh sách kiểm tra để đảm bảo trải nghiệm diễn ra suôn sẻ:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET trên máy của mình. Có thể là .NET Framework hoặc .NET Core, tùy thuộc vào yêu cầu của dự án.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. IDE: Môi trường phát triển tích hợp (IDE) như Visual Studio sẽ giúp trải nghiệm viết mã của bạn dễ dàng hơn.
 4. Kiến thức lập trình cơ bản: Việc quen thuộc với các khái niệm lập trình C# và .NET sẽ giúp bạn dễ dàng theo dõi.
 
@@ -32,8 +34,8 @@ Sau khi bạn đã chuẩn bị xong tất cả các điều kiện tiên quyế
 
 1. Mở dự án của bạn: Khởi chạy Visual Studio và mở dự án hiện có hoặc tạo dự án mới.
 2. Quản lý các gói NuGet: Nhấp chuột phải vào dự án của bạn trong Solution Explorer, sau đó chọn "Quản lý các gói NuGet".
-3.  Tìm kiếm và cài đặt Aspose.Cells: Trong hộp Tìm kiếm, nhập`Aspose.Cells`và cài đặt gói. Điều này đảm bảo bạn có phiên bản mới nhất được tích hợp vào dự án của mình.
-4. Thêm Chỉ thị sử dụng: Trong tệp mã của bạn, thêm chỉ thị sau để sử dụng không gian tên Aspose.Cells:
+3. Tìm kiếm và cài đặt Aspose.Cells: Trong hộp Tìm kiếm, nhập `Aspose.Cells` và cài đặt gói. Điều này đảm bảo bạn có phiên bản mới nhất được tích hợp vào dự án của mình.
+4. Thêm Sử dụng Chỉ thị: Trong tệp mã của bạn, thêm chỉ thị sau để sử dụng không gian tên Aspose.Cells:
 
 ```csharp
 using System.IO;
@@ -51,7 +53,7 @@ Trước hết, điều quan trọng là phải thiết lập đường dẫn n�
 string dataDir = "Your Document Directory"; // Cập nhật dòng này cho phù hợp
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục chứa các tệp Excel của bạn.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế đến thư mục chứa các tệp Excel của bạn.
 
 ## Bước 2: Chỉ định đường dẫn tệp
 
@@ -64,12 +66,12 @@ string filePath = dataDir + "Book1.xlsx";
 
 Đảm bảo rằng “Book1.xlsx” là tên tệp của bạn hoặc thay thế nó bằng tên tệp chính xác có trong thư mục tài liệu của bạn.
 
-## Bước 3: Cấu hình tùy chọn lưu HTML
+## Bước 3: Cấu hình Tùy chọn Lưu HTML
 
 Bây giờ chúng ta đang hướng đến phần quan trọng! Bạn cần chỉ định cách lưu tệp MHTML. Đây là dòng lệnh ma thuật:
 
 ```csharp
-// Chỉ định Tùy chọn lưu HTML
+// Chỉ định các tùy chọn lưu HTML
 HtmlSaveOptions sv = new HtmlSaveOptions(SaveFormat.MHtml);
 ```
 
@@ -84,7 +86,7 @@ Dòng này thiết lập tùy chọn lưu để định dạng MHTML. Nó cho As
 Workbook wb = new Workbook(filePath);
 ```
 
- Với điều này, bạn đang tải`Book1.xlsx` vào`wb` đối tượng. Từ đây, bạn có thể thao tác hoặc lưu nó khi cần.
+Với điều này, bạn đang tải `Book1.xlsx` vào `wb` đối tượng. Từ đây, bạn có thể thao tác hoặc lưu nó khi cần.
 
 ## Bước 5: Lưu tệp MHT
 
@@ -95,7 +97,7 @@ Cuối cùng, đã đến lúc lưu sổ làm việc của bạn dưới dạng 
 wb.Save(filePath + ".out.mht", sv);
 ```
 
- Dòng này lưu tệp Excel của bạn được chuyển đổi sang định dạng MHTML, với tên tệp đầu ra là`Book1.xlsx.out.mht` trong cùng một thư mục. Quá dễ phải không?
+Dòng này lưu tệp Excel của bạn được chuyển đổi sang định dạng MHTML, với tên tệp đầu ra là `Book1.xlsx.out.mht` trong cùng một thư mục. Quá dễ phải không?
 
 ## Phần kết luận
 
@@ -113,13 +115,15 @@ Có! Bạn có thể lặp qua một mảng các tệp và áp dụng cùng mộ
 Aspose.Cells rất mạnh mẽ, nhưng một số tính năng nhất định có thể yêu cầu phiên bản có giấy phép sau thời gian dùng thử miễn phí.
 
 ### Tôi có thể truy cập hỗ trợ cho Aspose.Cells bằng cách nào?
- Bạn có thể tìm thấy các chủ đề hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), đây là nguồn tài nguyên tuyệt vời để khắc phục sự cố.
+Bạn có thể tìm thấy các chủ đề hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9), đây là nguồn tài nguyên tuyệt vời để khắc phục sự cố.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể xin giấy phép tạm thời bằng cách truy cập[liên kết này](https://purchase.aspose.com/temporary-license/).
+Bạn có thể xin giấy phép tạm thời bằng cách truy cập [liên kết này](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

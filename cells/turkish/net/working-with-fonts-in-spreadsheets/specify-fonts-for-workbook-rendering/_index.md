@@ -1,14 +1,16 @@
 ---
-title: Çalışma Kitabı Oluşturma için Yazı Tiplerini Belirleyin
-linktitle: Çalışma Kitabı Oluşturma için Yazı Tiplerini Belirleyin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak çalışma kitabı oluşturma için özel yazı tiplerini nasıl belirleyeceğinizi öğrenin. Mükemmel PDF çıktısını garantilemek için adım adım bir kılavuz.
-weight: 12
-url: /tr/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-rendering/
+"description": "Aspose.Cells for .NET kullanarak çalışma kitabı oluşturma için özel yazı tiplerini nasıl belirleyeceğinizi öğrenin. Mükemmel PDF çıktısını garantilemek için adım adım bir kılavuz."
+"linktitle": "Çalışma Kitabı Oluşturma için Yazı Tiplerini Belirleyin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Kitabı Oluşturma için Yazı Tiplerini Belirleyin"
+"url": "/tr/net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-rendering/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Kitabı Oluşturma için Yazı Tiplerini Belirleyin
@@ -18,7 +20,7 @@ Excel dosyalarını programatik olarak yönetme ve işleme söz konusu olduğund
 ## Ön koşullar
 Aspose.Cells'in heyecan verici dünyasına dalmadan ve yazı tiplerini özelleştirmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 1. Temel .NET Bilgisi: .NET ortamında çalışacağımız için .NET programlamaya aşinalık çok önemlidir.
-2. Aspose.Cells for .NET: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Bu kılavuz, IDE'niz olarak Visual Studio kullandığınızı varsayar. Yüklediğinizden ve ayarladığınızdan emin olun.
 4. Örnek Excel Dosyası: Bu eğitim için hazır bir örnek Excel dosyası bulundurun. Bu, özel yazı tiplerinin işleme çıktısını nasıl etkilediğini anlamanızı kolaylaştıracaktır.
 5. Özel Yazı Tipleri: Kullanmak istediğiniz özel yazı tiplerinin bir dizinini hazırlayın. Bu, işleme sürecimizi test etmek için hayati önem taşır.
@@ -47,7 +49,7 @@ string outputDir = "Your Document Directory";
 string customFontsDir = sourceDir + "CustomFonts";
 ```
 
- Önemli belgelerle dolu bir dosya dolabınız olduğunu düşünün (bu durumda Excel dosyaları). Dizinlerinizi ayarlamak, o dolabı düzenlemek gibidir; dosyalarınızın tam olarak nerede saklandığını bilmenizi sağlar.`sourceDir`, `outputDir` , Ve`customFontsDir`, kodunuzu daha temiz ve yönetilebilir hale getirecek bir çalışma alanı hazırlıyorsunuz.
+Önemli belgelerle dolu bir dosya dolabınız olduğunu düşünün (bu durumda Excel dosyaları). Dizinlerinizi ayarlamak, o dolabı düzenlemek gibidir; dosyalarınızın tam olarak nerede saklandığını bilmenizi sağlar. `sourceDir`, `outputDir`, Ve `customFontsDir`, kodunuzu daha temiz ve yönetilebilir hale getirecek bir çalışma alanı hazırlıyorsunuz.
 ## Adım 2: Bireysel Yazı Tipi Yapılandırmalarını Belirleyin
 Sonra, bireysel font yapılandırmaları oluşturmamız gerekiyor. Bu adım, Aspose.Cells'e özel fontlarınızı nerede bulacağını söylemek için çok önemlidir.
 ```csharp
@@ -55,22 +57,22 @@ Sonra, bireysel font yapılandırmaları oluşturmamız gerekiyor. Bu adım, Asp
 IndividualFontConfigs fontConfigs = new IndividualFontConfigs();
 fontConfigs.SetFontFolder(customFontsDir, false);
 ```
- Bu adımı, belirli bir kahve dükkanını bulmaya çalışan bir arkadaşınıza yol tarifi vermek olarak düşünün.`customFontsDir`Aspose.Cells'i fontlarınızın tam konumuna yönlendiriyorsunuz. Yön yanlışsa (veya fontlar orada değilse), tatmin edici olmayan bir PDF çıktısı alabilirsiniz. Bu nedenle, font dizininizin doğru olduğundan emin olun!
+Bu adımı, belirli bir kahve dükkanını bulmaya çalışan bir arkadaşınıza yol tarifi vermek olarak düşünün. `customFontsDir`, Aspose.Cells'i fontlarınızın tam konumuna yönlendiriyorsunuz. Yön yanlışsa (veya fontlar orada değilse), tatmin edici olmayan bir PDF çıktısı alabilirsiniz. Bu nedenle, font dizininizin doğru olduğundan emin olun!
 ## Adım 3: Yükleme Seçeneklerini Ayarlayın
-Şimdi, yazı tipi ayarlarımızı çalışma kitabına entegre eden yükleme seçeneklerini tanımlamanın zamanı geldi.
+Şimdi, font ayarlarımızı çalışma kitabına entegre eden yükleme seçeneklerini tanımlamanın zamanı geldi.
 ```csharp
 // Yükleme seçeneklerini yazı tipi yapılandırmalarıyla belirtin.
 LoadOptions opts = new LoadOptions(LoadFormat.Xlsx);
 opts.FontConfigs = fontConfigs;
 ```
- Bu, bir gezi için çantalarınızı toplamaya benzer.`LoadOptions` seyahat temel ihtiyaçlarınız olarak hizmet ederler – yaklaşan yolculuğu için çalışma kitabını hazırlarlar (işleme süreci). Bağlantı kurarak`fontConfigs` ile`opts`, çalışma kitabı yüklendiğinde özel yazı tiplerinizi aramasını sağlarsınız.
+Bu, bir gezi için çantalarınızı toplamaya benzer. `LoadOptions` seyahat temel ihtiyaçlarınız olarak hizmet ederler – yaklaşan yolculuğu için çalışma kitabını hazırlarlar (işleme süreci). Bağlantı kurarak `fontConfigs` ile `opts`çalışma kitabı yüklendiğinde özel yazı tiplerinizi aramasını sağlarsınız.
 ## Adım 4: Excel Dosyasını Yükleyin
 Yükleme seçeneklerimizi ayarladıktan sonra, işlemek istediğimiz Excel dosyasını yükleyelim.
 ```csharp
 // Bireysel yazı tipi yapılandırmalarını içeren örnek Excel dosyasını yükleyin.
 Workbook wb = new Workbook(sourceDir + "sampleSpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.xlsx", opts);
 ```
- Bu adım, en sevdiğiniz kitabı açmaya benzer. Burada, Aspose.Cells'e hangi Excel dosyasıyla çalışacağını söylüyorsunuz.`Workbook`sınıf ve belirtilen yükleme seçenekleriyle, aslında kapağı açıp içeriğe dalıyorsunuz ve değişiklik yapmaya hazırsınız.
+Bu adım, en sevdiğiniz kitabı açmaya benzer. Burada, Aspose.Cells'e hangi Excel dosyasıyla çalışacağını söylüyorsunuz. `Workbook` sınıf ve belirtilen yükleme seçenekleriyle, aslında kapağı açıp içeriğe dalıyorsunuz ve değişiklik yapmaya hazırsınız.
 ## Adım 5: Çalışma Kitabını İstenilen Biçimde Kaydedin
 Son olarak, değiştirilen çalışma kitabını istediğiniz formatta (bu durumda PDF) kaydetmenin zamanı geldi.
 ```csharp
@@ -90,16 +92,18 @@ Console.WriteLine("SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering exec
 ### Aspose.Cells for .NET nedir?  
 Aspose.Cells for .NET, geliştiricilerin Excel dosya formatlarıyla çalışmasını, Excel belgelerini programlı olarak oluşturmasını, değiştirmesini ve dönüştürmesini sağlayan güçlü bir kütüphanedir.
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, ticari kullanım için bir lisansa ihtiyacınız olacak. Ancak, mevcut ücretsiz denemeyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ticari kullanım için bir lisansa ihtiyacınız olacak. Ancak, mevcut ücretsiz denemeyle başlayabilirsiniz [Burada](https://releases.aspose.com/).
 ### Aspose.Cells ile herhangi bir fontu kullanabilir miyim?  
 Genel olarak evet! Sisteminizde yüklü olan veya özel font klasörünüzde bulunan herhangi bir fontu kullanabilirsiniz.
 ### Font klasörünü belirtmezsem ne olur?  
 Yazı tipi klasörünü belirtmezseniz veya klasör yanlışsa, çıktı PDF'i istenen yazı tiplerini düzgün bir şekilde gösteremeyebilir.
 ### Aspose.Cells için nasıl destek alabilirim?  
- Desteğe erişebilir veya soru sorabilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+Desteğe erişebilir veya soru sorabilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

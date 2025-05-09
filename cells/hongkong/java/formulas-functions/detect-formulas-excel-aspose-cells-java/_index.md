@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 許可證取得步驟
 
 您可以從 Aspose 的官方網站下載資料庫並開始免費試用。如需延長使用時間，請考慮取得臨時許可證或購買完整許可證：
-1. **免費試用**：出於測試目的，下載並使用時不受任何功能限制。
+1. **免費試用**：為測試目的下載並使用，不受任何功能限制。
 2. **臨時執照**：申請臨時許可證以全面評估所有功能。
 3. **購買**：如果對試用感到滿意，請購買永久許可證以繼續在生產環境中使用它。
 
@@ -178,6 +180,9 @@ System.out.println("Name of the cell containing formula: " + cell.getName());
 - [Aspose.Cells 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

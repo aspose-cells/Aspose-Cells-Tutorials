@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 #### Förklaring:
 - **`workbook.getWorksheets()`:** Hämtar alla kalkylblad i arbetsboken.
-- **`.get(0)`:** Åtkomst till det första kalkylbladet via index (med början från 0).
+- **`.get(0)`:** Åtkommer det första kalkylbladet via index (börjar från 0).
 
 ### Åtkomst till pivottabellen
 
@@ -210,6 +212,9 @@ Genom att följa den här guiden har du nu de verktyg som behövs för att effek
 Börja utforska funktionerna i Aspose.Cells för Java idag och höj dina datahanteringsprocesser!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

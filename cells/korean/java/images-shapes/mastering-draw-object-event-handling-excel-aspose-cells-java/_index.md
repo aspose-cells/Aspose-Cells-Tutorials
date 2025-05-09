@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### 라이센스 취득
 
 Aspose.Cells를 완전히 활용하려면 라이선스가 필요합니다. 라이선스를 구매하시면 다음과 같은 작업을 하실 수 있습니다.
-- **무료 체험판으로 시작하세요:** 평가판을 사용해 기능을 살펴보세요.
+- **무료 체험판으로 시작하세요:** 평가판을 사용하여 기능을 살펴보세요.
 - **임시 면허증을 받으세요:** 제한 없이 장기간 접속할 수 있는 임시 라이선스를 요청하세요.
 - **라이센스 구매:** 장기적으로 사용하려면 정식 라이선스를 구매하는 것을 고려하세요.
 
@@ -191,6 +193,9 @@ A: 임시 라이선스를 사용하면 평가판 제한 없이 Aspose.Cells 기�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

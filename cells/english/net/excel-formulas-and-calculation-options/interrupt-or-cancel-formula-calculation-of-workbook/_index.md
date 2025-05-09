@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/interrupt-or-cancel-formula-cal
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interrupt or Cancel Formula Calculation of Workbook
@@ -92,6 +94,7 @@ You can get support through the Aspose forum [here](https://forum.aspose.com/c/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ Aby rozpocząć pracę z Aspose.Cells dla Java:
 
 ## Przewodnik wdrażania
 
-### Ładowanie skoroszytu i dostęp do kształtów
+### Ładowanie skoroszytu i uzyskiwanie dostępu do kształtów
 
 #### Przegląd
 Aby wykryć kształty SmartArt, należy najpierw załadować skoroszyt programu Excel i uzyskać dostęp do jego zawartości.
@@ -179,6 +181,9 @@ W tym samouczku nauczyłeś się, jak wykrywać kształty SmartArt w plikach Exc
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

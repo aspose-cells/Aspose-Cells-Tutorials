@@ -1,17 +1,19 @@
 ---
 "description": "Aspose.Cells for Java で Excel SUM 式のパワーを解き放ちましょう - Excel 自動化の包括的なガイド。"
-"linktitle": "Excel SUM 関数ガイド"
+"linktitle": "Excel SUM 式ガイド"
 "second_title": "Aspose.Cells Java Excel 処理 API"
-"title": "Excel SUM 関数ガイド"
+"title": "Excel SUM 式ガイド"
 "url": "/ja/java/basic-excel-functions/excel-sum-formula-guide/"
 "weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel SUM 関数ガイド
+# Excel SUM 式ガイド
 
 
 ## 導入
@@ -150,6 +152,7 @@ Aspose.Cells for Javaの包括的なドキュメントと追加リソースは�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

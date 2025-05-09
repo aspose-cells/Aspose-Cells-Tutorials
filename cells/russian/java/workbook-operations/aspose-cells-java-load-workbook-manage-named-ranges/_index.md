@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 
 ## Настройка Aspose.Cells для Java
 
-Во-первых, включите зависимость Aspose.Cells в свой проект. Вот как:
+Во-первых, включите зависимость Aspose.Cells в свой проект. Вот как это сделать:
 
 **Знаток**
 ```xml
@@ -107,7 +109,7 @@ Range namedRange = worksheets.getRangeByName("TestRange");
 
 **Пошаговое руководство**
 
-##### Шаг 1: Получите справочную строку именованного диапазона
+##### Шаг 1: Получите ссылочную строку именованного диапазона
 ```java
 String refersTo = namedRange.getRefersTo();
 ```
@@ -162,6 +164,9 @@ String refersTo = namedRange.getRefersTo();
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

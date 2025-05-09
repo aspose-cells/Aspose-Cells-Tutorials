@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ public class HtmlSaveOptionsConfig {
 
 - **Propósito:** Esta configuração impede a exportação de propriedades de documentos, pastas de trabalho e planilhas para HTML.
 
-### Recurso 4: Salvando pasta de trabalho como HTML
+### Recurso 4: Salvando a pasta de trabalho como HTML
 
 **Visão geral:**
 Por fim, salve sua pasta de trabalho do Excel como um arquivo HTML usando as opções configuradas.
@@ -216,6 +218,9 @@ Aproveite estes recursos para aprofundar seu conhecimento e aprimorar o uso do A
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

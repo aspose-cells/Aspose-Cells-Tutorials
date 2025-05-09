@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Workbook workbook = new Workbook(dataDir + "/Book1.xls"); // Carga el archivo Ex
 ```
 Su archivo Excel ahora está cargado y listo para ser manipulado o convertido.
 
-### Característica 2: Guardar como Markdown
+### Función 2: Guardar como Markdown
 **Descripción general:**
 Guardar sus datos en formato Markdown hace que compartir y documentar sea más eficiente.
 
@@ -118,7 +120,7 @@ Para optimizar el rendimiento al utilizar Aspose.Cells:
 ## Conclusión
 Ahora debería saber cómo cargar un archivo de Excel en su aplicación Java usando Aspose.Cells y guardarlo como Markdown. Estas habilidades mejoran los flujos de trabajo de procesamiento de datos al simplificar los procesos de conversión y compartición.
 
-Para explorar más a fondo, considere profundizar en la extensa API de Aspose.Cells para obtener funciones avanzadas como cálculos de fórmulas o generación de gráficos.
+Para una mayor exploración, considere profundizar en la extensa API de Aspose.Cells para obtener funciones avanzadas como cálculos de fórmulas o generación de gráficos.
 
 ## Sección de preguntas frecuentes
 **P: ¿Qué pasa si mi archivo de Excel no se carga?**
@@ -136,6 +138,9 @@ R: Sí, admite una amplia gama de formatos, como PDF, CSV y HTML. Consulta la [D
 - **Compra y soporte:** Para consultas sobre compras y soporte, visite [Compra de Aspose](https://purchase.aspose.com/buy) y [Foro de Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,63 +1,68 @@
 ---
-title: 在圖表點中找到X和Y值的類型使用Aspose.Cells
-weight: 7700
-limit: 
-description: 學習如何使用Aspose.Cells在圖表點中找到 X 和 Y 值類型.
-keywords: [Aspose.Cells for .NET, Excel chart, chart points, X value type, Y value type, calculate chart data, retrieve chart values, C# Excel API]
-url: /zh-hant/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "了解如何使用 Aspose.Cells for .NET 尋找圖表點中 X 和 Y 值的類型。載入 Excel 檔案、存取圖表並檢索值類型。"
+"title": "使用 Aspose.Cells for .NET 尋找圖表點中 X 和 Y 值的類型"
+"url": "/zh-hant/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.Cells找到圖表點中的X和Y值類型  
+# 使用 Aspose.Cells 找出圖表點中 X 和 Y 值的類型  
 
-在本教程中,您將學習如何使用Aspose.Cells來決定Excel文件中的圖表點的X和Y值類型. 這在 .NET應用程式內動態分析圖表數據時很有用.我們將從載入包含圖表的Excel文件開始,進入工作表和圖表,計算圖表數據,並從特定的數據點中提取值類型. 最後,我們將這些值打印到控制台進行驗證.  
+在本教學中，您將學習如何使用 Aspose.Cells for .NET 來確定 Excel 檔案中圖表點的 X 和 Y 值的類型。這在 .NET 應用程式內動態分析圖表資料時很有用。我們將首先載入包含圖表的 Excel 文件，存取工作表和圖表，計算圖表數據，並從特定數據點提取值類型。最後，我們將這些值列印到控制台進行驗證。  
 
-軟體的使用者可以自動化複雜的平面表操作,  
+Aspose.Cells for .NET 可以輕鬆地以程式設計方式處理 Excel 圖表，讓開發人員無需 Microsoft Excel 即可自動執行複雜的電子表格操作。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置說明  
+## 安裝說明  
 
-請使用以下步:  
+若要在您的專案中使用 Aspose.Cells for .NET，請依照下列步驟操作：  
 
-1. 透過NuGet包管理器安裝  
-* 打開視覺工作室,然後移動到工具 → NuGet包管理器 → 管理 NuGet包的解決方案.  
-* 搜尋Aspose.Cells並按一下安裝.  
+1. 透過 NuGet 套件管理器安裝  
+- 開啟 Visual Studio 並導覽至工具 → NuGet 套件管理器 → 管理解決方案的 NuGet 套件。  
+- 搜尋 Aspose.Cells 並點擊安裝。  
 
-或使用NuGet包管理器控制台安裝:  
+或者，使用 NuGet 套件管理器控制台安裝：  
 
 ```powershell
 Install-Package Aspose.Cells
 ```  
 
-2. 透過.NET CLI 進行安裝  
-如果您使用.NET CLI,  
+2. 透過 .NET CLI 安裝  
+如果您使用 .NET CLI，請執行：  
 
 ```powershell
 dotnet add package Aspose.Cells
 ```  
 
-3. 在您的項目中添加參考資料  
-請將以下命名空間加入您的C#檔案:  
+3. 在您的專案中新增引用  
+安裝後，在 C# 檔案中包含以下命名空間：  
 
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```  
 
-## 更多 閱讀
-免費試用,請訪問[提供免費試用](https://releases.aspose.com/)我們都在等.  
-購買駕照的方法:[購買頁面](https://purchase.aspose.com/buy)我們都在等.  
-查看更多關於此事的資料.[網頁文檔的Aspose.Cells](https://docs.aspose.com/cells/net/)我們都在等.  
-查看這個網站的全文.[應用程式使用者應使用Aspose.Cells](https://reference.aspose.com/cells/net/)我們都在等. 
+## 另請參閱
+如需免費試用，請訪問 [Aspose 免費試用](https://releases。aspose.com/).  
+要購買許可證，請訪問 [Aspose 購買頁面](https://purchase。aspose.com/buy).  
+如需完整文檔，請訪問 [Aspose.Cells for .NET文檔](https://docs。aspose.com/cells/net/).  
+若要探索完整的 API 參考，請查看 [Aspose.Cells for .NET API參考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

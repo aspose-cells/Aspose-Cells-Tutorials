@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
         // (Önceki kod...)
         
-        // Çalışma kitabını yeni bir dosyaya kaydet
+        // Çalışma kitabını yeni bir dosyaya kaydedin
         book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
     }
 }
@@ -204,6 +206,9 @@ Sonraki adımlar arasında Aspose.Cells içindeki diğer grafik özelleştirme s
 Aspose.Cells Java ile ilgili anlayışınızı ve yeteneklerinizi daha da geliştirmek için bu kaynakları inceleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

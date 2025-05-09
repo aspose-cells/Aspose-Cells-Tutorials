@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảng Pivot động
@@ -107,9 +109,11 @@ Có, bạn có thể áp dụng bộ lọc cho bảng trục để hiển thị 
 ### Câu hỏi 5: Aspose.Cells có hỗ trợ các tính năng bảng trục nâng cao của Excel không?
 
 Có, Aspose.Cells cung cấp hỗ trợ toàn diện cho các tính năng bảng trục nâng cao của Excel, cho phép bạn tạo các bảng trục phức tạp.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

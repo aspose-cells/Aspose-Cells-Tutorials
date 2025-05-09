@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # गतिशील एक्सेल रिपोर्ट
@@ -20,7 +22,7 @@
 
 डायनेमिक रिपोर्ट उन व्यवसायों और संगठनों के लिए आवश्यक हैं जो लगातार बदलते डेटा से निपटते हैं। हर बार नया डेटा आने पर एक्सेल शीट को मैन्युअल रूप से अपडेट करने के बजाय, डायनेमिक रिपोर्ट स्वचालित रूप से डेटा प्राप्त कर सकती है, उसे प्रोसेस कर सकती है और अपडेट कर सकती है, जिससे समय की बचत होती है और त्रुटियों का जोखिम कम होता है। इस ट्यूटोरियल में, हम डायनेमिक एक्सेल रिपोर्ट बनाने के लिए निम्नलिखित चरणों को कवर करेंगे:
 
-## चरण 1: विकास परिवेश की स्थापना
+## चरण 1: विकास वातावरण की स्थापना
 
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास Aspose.Cells for Java इंस्टॉल है। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [Aspose.Cells for Java डाउनलोड पृष्ठ](https://releases.aspose.com/cells/java/)अपना विकास वातावरण स्थापित करने के लिए स्थापना निर्देशों का पालन करें।
 
@@ -113,6 +115,7 @@ worksheet.calculateFormula(true);
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

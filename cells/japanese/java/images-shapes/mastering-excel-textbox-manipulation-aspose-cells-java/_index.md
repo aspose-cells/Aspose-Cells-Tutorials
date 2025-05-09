@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ workbook.save("path/to/your/output/file.xls");
 Aspose.Cells for Java を使用して Excel のテキスト ボックスを操作する実際のアプリケーションについて説明します。
 1. **動的レポート生成**レポート生成中にテキスト ボックスの内容を新しいデータで自動的に更新します。
 2. **自動データ入力**手動による介入なしに、データ ソースの変更を反映するようにテキスト ボックスの内容を変更します。
-3. **インタラクティブなダッシュボード**ユーザーの操作やライブ データ フィードに基づいてテキスト ボックスの内容が変化するダッシュボードを作成します。
+3. **インタラクティブダッシュボード**ユーザーの操作やライブ データ フィードに基づいてテキスト ボックスの内容が変化するダッシュボードを作成します。
 
 ### 統合の可能性
 Aspose.Cells はさまざまなシステムに統合できます。
@@ -191,6 +193,9 @@ Excel自動化プロジェクトを強化するために、グラフ操作やピ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

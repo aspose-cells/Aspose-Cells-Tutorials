@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "เรียนรู้วิธีเพิ่มส่วนหัวของรูปภาพลงในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่าสภาพแวดล้อม การแทรกภาพลงในส่วนหัว และการเพิ่มประสิทธิภาพการทำงาน"
+"description": "เรียนรู้วิธีเพิ่มส่วนหัวของรูปภาพลงในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่าสภาพแวดล้อม การแทรกรูปภาพลงในส่วนหัว และการเพิ่มประสิทธิภาพการทำงาน"
 "title": "วิธีการเพิ่มส่วนหัวของรูปภาพใน Excel โดยใช้ Aspose.Cells สำหรับ Java (ส่วนหัวและส่วนท้าย)"
 "url": "/th/java/headers-footers/aspose-cells-java-image-header-excel/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 #### ขั้นตอนการรับใบอนุญาต
 - **ทดลองใช้งานฟรี**: ดาวน์โหลดจาก [เว็บไซต์ของ Aspose](https://releases-aspose.com/cells/java/).
-- **ใบอนุญาตชั่วคราว**: รับผ่านทาง [หน้าการซื้อ](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผลแบบขยาย
+- **ใบอนุญาตชั่วคราว**: รับได้ทาง [หน้าการซื้อ](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผลแบบขยาย
 - **ซื้อ**: สำหรับการใช้งานเชิงพาณิชย์ ให้ซื้อผ่าน [พอร์ทัลการซื้อ](https://purchase-aspose.com/buy).
 
 ## คู่มือการใช้งาน
@@ -110,7 +112,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
    byte[] picData = new byte[inFile.available()];
    inFile.read(picData);
 
-   // แทรกภาพไว้ในส่วนหัวหน้าแรกเท่านั้น
+   // แทรกภาพเฉพาะส่วนหัวหน้าแรกเท่านั้น
    pageSetup.setPicture(true, false, true, 2, picData);
    inFile.close();
    ```
@@ -163,6 +165,9 @@ workbook.save(outDir + "IGInFirstPageHeaderOnly_out.xlsx");
 - ฟอรั่มการสนับสนุน: [ชุมชนเซลล์ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Excel에서 대용량 데이터 세트를 다루는 것은 열 너비를 수동�
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
 - **라이브러리 및 종속성**: Aspose.Cells for Java를 설치하세요. 25.3 버전을 사용하는 것이 좋습니다.
-- **환경 설정**Java JDK와 IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하여 개발 환경을 설정합니다.
+- **환경 설정**: Java JDK와 IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하여 개발 환경을 설정합니다.
 - **지식 전제 조건**: Java 프로그래밍 개념에 대한 기본적인 이해가 유익합니다.
 
 ### Java용 Aspose.Cells 설정
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells는 상업용 라이브러리이지만, 다음을 통해 기능을 살펴볼 수 있습니다.
 - **무료 체험**: 평가판을 다운로드하여 기능을 테스트해 보세요.
-- **임시 면허**: 장기 테스트를 위해 임시 라이센스를 요청하세요.
+- **임시 면허**장기 테스트를 위해 임시 라이센스를 요청하세요.
 - **구입**: 전체 액세스 및 지원을 받으려면 라이선스를 구매하세요.
 
 라이선스 파일을 얻은 후 다음과 같이 Aspose.Cells를 초기화합니다.
@@ -104,7 +106,7 @@ worksheet.autoFitColumn(4, 4, 6);
 
 #### Excel 통합 문서 저장
 
-**개요**: 변경 사항을 적용한 후에는 원하는 형식으로 통합 문서를 디스크에 다시 저장합니다.
+**개요**변경 사항을 적용한 후에는 원하는 형식으로 통합 문서를 디스크에 다시 저장합니다.
 
 **4단계: 수정된 통합 문서 저장**
 ```java
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **데이터 보고**: 비즈니스 보고서에서 데이터를 더 깔끔하게 표현하기 위해 열 너비를 자동으로 조정합니다.
 - **재고 관리**: 제품 목록이 수동 조정 없이 깔끔하게 형식화되었는지 확인하세요.
-- **재무 분석**더욱 정확한 분석과 프레젠테이션을 위해 재무 수치를 여러 시트에 맞춰 정렬합니다.
+- **재무 분석**: 더욱 정확한 분석과 프레젠테이션을 위해 재무 수치를 여러 시트에 맞춰 정렬합니다.
 
 Aspose.Cells를 데이터베이스나 CRM 시스템과 통합하면 작업 흐름을 더욱 간소화하고, 이러한 소스에서 Excel 파일을 자동으로 업데이트할 수 있습니다.
 
@@ -160,6 +162,9 @@ Aspose.Cells for Java의 자동 맞춤 기능을 완벽하게 활용하면 Excel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

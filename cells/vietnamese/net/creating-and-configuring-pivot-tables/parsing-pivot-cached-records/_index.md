@@ -1,14 +1,16 @@
 ---
-title: Phân tích bản ghi đệm Pivot trong khi tải tệp Excel trong .NET
-linktitle: Phân tích bản ghi đệm Pivot trong khi tải tệp Excel trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách phân tích cú pháp bản ghi bộ nhớ đệm trục xoay trong .NET bằng Aspose.Cells. Hướng dẫn đơn giản để quản lý tệp Excel và bảng trục xoay hiệu quả.
-weight: 28
-url: /vi/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/
+"description": "Tìm hiểu cách phân tích cú pháp bản ghi bộ nhớ đệm trục trong .NET bằng Aspose.Cells. Hướng dẫn đơn giản để quản lý tệp Excel và bảng trục hiệu quả."
+"linktitle": "Phân tích bản ghi đệm Pivot trong khi tải tệp Excel trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Phân tích bản ghi đệm Pivot trong khi tải tệp Excel trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phân tích bản ghi đệm Pivot trong khi tải tệp Excel trong .NET
@@ -20,7 +22,7 @@ Trước khi lặn vào biển mã hóa với Aspose.Cells, có một vài đi�
 ### Studio trực quan
 - Hãy đảm bảo bạn đã cài đặt bản sao của Visual Studio. Đây là công cụ đáng tin cậy cho phép bạn điều hướng mã của mình một cách trơn tru.
 ### Aspose.Cells cho .NET
--  Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể mua nó thông qua[trang web](https://purchase.aspose.com/buy) hoặc bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/).
+- Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể mua nó thông qua [trang web](https://purchase.aspose.com/buy) hoặc bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/).
 ### Kiến thức cơ bản về C#
 - Hướng dẫn này giả định rằng bạn có kiến thức cơ bản về C#. Giống như việc bạn phải biết mọi thứ trước khi bắt đầu.
 ### Tệp Excel có Bảng Pivot
@@ -46,9 +48,9 @@ string sourceDir = "Your Document Directory";
 //Thư mục nguồn
 string outputDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tệp Excel của bạn. Bước này rất quan trọng vì nếu các thư mục không được thiết lập đúng, chúng ta không thể tìm thấy các tệp của mình, giống như bị lạc trên biển vậy!
+Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tệp Excel của bạn. Bước này rất quan trọng vì nếu các thư mục không được thiết lập đúng, chúng ta không thể tìm thấy các tệp của mình, giống như bị lạc trên biển vậy!
 ## Bước 2: Tạo tùy chọn tải
-Tiếp theo, chúng ta cần tạo một thể hiện của`LoadOptions`. Đây là nơi chúng ta có thể thiết lập một số tham số về cách chúng ta muốn tải tệp Excel của mình.
+Tiếp theo, chúng ta cần tạo một thể hiện của `LoadOptions`. Đây là nơi chúng ta có thể thiết lập một số tham số về cách chúng ta muốn tải tệp Excel của mình.
 ```csharp
 //Tạo tùy chọn tải
 LoadOptions options = new LoadOptions();
@@ -109,7 +111,7 @@ Cuối cùng, hãy lưu tệp Excel mới cập nhật của chúng ta.
 //Lưu tệp Excel đầu ra
 wb.Save(outputDir + "outputParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx");
 ```
-Dòng này lưu sổ làm việc của chúng ta vào thư mục đầu ra được chỉ định. Giống như chúng ta đang lưu trữ kho báu của mình một cách an toàn sau một chuyến thám hiểm thành công!
+Dòng này lưu sổ làm việc của chúng ta vào thư mục đầu ra được chỉ định. Giống như chúng ta đang cất giữ kho báu của mình một cách an toàn sau một chuyến thám hiểm thành công!
 ## Bước 11: In thông báo hoàn thành
 Cuối cùng nhưng không kém phần quan trọng, hãy tự thông báo rằng nhiệm vụ đã hoàn thành.
 ```csharp
@@ -122,16 +124,18 @@ Và chúng ta đã có nó! Bạn đã phân tích thành công các bản ghi �
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ được sử dụng để quản lý và thao tác các tệp Excel theo chương trình.
 ### Làm thế nào để bắt đầu sử dụng Aspose.Cells?
- Bạn có thể bắt đầu sử dụng Aspose.Cells bằng cách tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/) và làm theo hướng dẫn cài đặt.
+Bạn có thể bắt đầu sử dụng Aspose.Cells bằng cách tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/) và làm theo hướng dẫn cài đặt.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Aspose cung cấp một[dùng thử miễn phí](https://releases.aspose.com/)vì vậy bạn có thể khám phá các tính năng của nó trước khi mua hàng.
+Có! Aspose cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) vì vậy bạn có thể khám phá các tính năng của nó trước khi mua.
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/cells/net/).
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose để được trợ giúp[đây](https://forum.aspose.com/c/cells/9).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose để được trợ giúp [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

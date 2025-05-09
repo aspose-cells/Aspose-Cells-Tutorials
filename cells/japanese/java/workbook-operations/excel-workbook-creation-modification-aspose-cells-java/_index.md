@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 始める前に、次のものを用意してください。
 1. **Java開発キット（JDK）**: マシンにバージョン 8 以上がインストールされていること。
 2. **統合開発環境（IDE）**: IntelliJ IDEA、Eclipse、NetBeans など。
-3. **Java 用 Aspose.Cells**: このライブラリを使用すると、Excel ファイルとプログラムでやり取りすることができます。
+3. **Java 用 Aspose.Cells**このライブラリを使用すると、Excel ファイルとプログラムでやり取りすることができます。
 
 ### 必要なライブラリ
 Maven または Gradle を使用して、Aspose.Cells をプロジェクトに含めることができます。
@@ -206,6 +208,9 @@ public class CalculateWorkbookFormulas {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

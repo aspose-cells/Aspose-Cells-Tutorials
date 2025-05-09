@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ Próbáld meg alkalmazni a tanultakat egy, az igényeidre szabott, stílusos mun
 ## Erőforrás
 További olvasmányokért és forrásokért tekintse meg:
 - **Dokumentáció:** https://reference.aspose.com/cells/java/
-- **Letöltési könyvtár:** https://releases.aspose.com/cells/java/
+- **Könyvtár letöltése:** https://releases.aspose.com/cells/java/
 - **Licenc vásárlása:** https://purchase.aspose.com/buy
 - **Ingyenes próbaverzió:** https://releases.aspose.com/cells/java/
 - **Ideiglenes engedély:** https://purchase.aspose.com/temporary-license/
@@ -171,6 +173,9 @@ Ez az oktatóanyag segít elkezdeni az Excel cellastílusok használatát Java n
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

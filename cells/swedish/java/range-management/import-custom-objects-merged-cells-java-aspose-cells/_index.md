@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
 "description": "Lär dig hur du effektivt importerar anpassade objekt till sammanslagna celler i Excel med hjälp av Aspose.Cells för Java. Hantering av masterdata med den här omfattande guiden."
-"title": "Importera anpassade objekt till sammanfogade Excel-celler med hjälp av Aspose.Cells för Java – en omfattande guide"
+"title": "Importera anpassade objekt till sammanslagna Excel-celler med hjälp av Aspose.Cells för Java – en omfattande guide"
 "url": "/sv/java/range-management/import-custom-objects-merged-cells-java-aspose-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Har du någonsin mött utmaningen att importera data effektivt till Excel-filer,
 - Tekniker för att importera anpassade objekt till sammanslagna celler.
 - Optimera prestanda vid arbete med stora datamängder.
 - Praktiska tillämpningar av den här funktionen i verkligheten.
-Redo att dyka i? Låt oss först se till att du har allt du behöver för att komma igång.
+Redo att börja? Låt oss först se till att du har allt du behöver för att komma igång.
 
 ## Förkunskapskrav
 Innan vi börjar, se till att du har följande:
@@ -165,6 +167,9 @@ Nu när du är utrustad med kunskapen och verktygen kan du dyka in i dina projek
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

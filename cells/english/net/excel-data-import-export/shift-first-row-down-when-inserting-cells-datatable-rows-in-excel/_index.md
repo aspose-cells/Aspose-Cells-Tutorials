@@ -8,7 +8,9 @@ url: /net/excel-data-import-export/shift-first-row-down-when-inserting-cells-dat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Shift First Row Down When Inserting DataTable Rows in Excel
@@ -184,6 +186,7 @@ You can ask questions or find help in the [Aspose forums](https://forum.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

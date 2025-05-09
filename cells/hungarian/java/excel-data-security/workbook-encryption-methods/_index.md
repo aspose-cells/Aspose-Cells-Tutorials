@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Munkafüzet titkosítási módszerei
@@ -16,7 +18,7 @@
 
 ## Bevezetés a munkafüzet titkosítási módszereibe
 
-A mai digitális korban az adatbiztonság kiemelkedő fontosságú. Az Excel-munkafüzetekben található bizalmas információk kezelésekor a titkosítás kritikus fontosságú elemmé válik. Az Aspose.Cells for Java, egy hatékony Java API az Excel-fájlokkal való munkához, számos módszert kínál a munkafüzetek titkosítással történő biztonságossá tételére. Ebben az átfogó útmutatóban megvizsgáljuk az Aspose.Cells for Java által kínált különböző munkafüzet-titkosítási módszereket, és bemutatjuk, hogyan implementálhatja azokat a Java-alkalmazásokban.
+mai digitális korban az adatbiztonság kiemelkedő fontosságú. Az Excel-munkafüzetekben található bizalmas információk kezelésekor a titkosítás kritikus fontosságú elemmé válik. Az Aspose.Cells for Java, egy hatékony Java API az Excel-fájlokkal való munkához, számos módszert kínál a munkafüzetek titkosítással történő biztonságossá tételére. Ebben az átfogó útmutatóban megvizsgáljuk az Aspose.Cells for Java által kínált különböző munkafüzet-titkosítási módszereket, és bemutatjuk, hogyan implementálhatja azokat a Java-alkalmazásokban.
 
 ## A munkafüzet titkosításának ismertetése
 
@@ -106,6 +108,7 @@ Az Aspose.Cells for Java elsősorban Excel munkafüzetekre összpontosít, de m�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

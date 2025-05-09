@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ class Individual extends Person {
     // Bireysel sınıf için oluşturucu
     public Individual(String name, int age, Person wife) {
         super(name, age); // Üst sınıf oluşturucusunu çağır
-        this.m_Wife = wife; // m_Wife'ı sağlanan değerle başlat
+        this.m_Wife = wife; // m_Wife'ı verilen değerle başlat
     }
 
     // m_Wife için Getter yöntemi
@@ -143,6 +145,9 @@ C5: Ücretsiz denemeyle başlayabilirsiniz ancak ticari kullanım için uygun bi
 - **Destek**: [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

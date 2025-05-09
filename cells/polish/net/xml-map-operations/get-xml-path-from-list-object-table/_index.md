@@ -1,23 +1,25 @@
 ---
-title: Pobierz ścieżkę XML z tabeli obiektów listy za pomocą Aspose.Cells
-linktitle: Pobierz ścieżkę XML z tabeli obiektów listy za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak uzyskać ścieżkę XML z tabeli obiektów listy w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dla programistów .NET.
-weight: 11
-url: /pl/net/xml-map-operations/get-xml-path-from-list-object-table/
+"description": "Dowiedz się, jak uzyskać ścieżkę XML z tabeli obiektów listy w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dla programistów .NET."
+"linktitle": "Pobierz ścieżkę XML z tabeli obiektów listy za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobierz ścieżkę XML z tabeli obiektów listy za pomocą Aspose.Cells"
+"url": "/pl/net/xml-map-operations/get-xml-path-from-list-object-table/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz ścieżkę XML z tabeli obiektów listy za pomocą Aspose.Cells
 
 ## Wstęp
-tym szczegółowym samouczku zagłębimy się w sposób pobierania ścieżki XML z List Object Table w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Aspose.Cells to potężna biblioteka, która umożliwia łatwe manipulowanie i zarządzanie plikami Excel programowo. Niezależnie od tego, czy masz do czynienia ze złożonymi strukturami danych, czy podstawowymi tabelami, ten samouczek pokaże Ci, jak uzyskać ścieżkę XML z List Object, który ma mapowanie XML, co jest szczególnie przydatne w zarządzaniu aplikacjami opartymi na danych.
+tym szczegółowym samouczku zagłębimy się w sposób pobierania ścieżki XML z List Object Table w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET. Aspose.Cells to potężna biblioteka, która umożliwia łatwe manipulowanie plikami Excel i zarządzanie nimi programowo. Niezależnie od tego, czy masz do czynienia ze złożonymi strukturami danych, czy podstawowymi tabelami, ten samouczek pokaże Ci, jak uzyskać ścieżkę XML z List Object, który ma mapowanie XML, co jest szczególnie przydatne w zarządzaniu aplikacjami opartymi na danych.
 ## Wymagania wstępne
 Zanim zaczniemy, upewnij się, że masz następujące ustawienia:
-1.  Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z[link do pobrania](https://releases.aspose.com/cells/net/) Alternatywnie możesz zainstalować go za pomocą Menedżera pakietów NuGet w programie Visual Studio, uruchamiając`Install-Package Aspose.Cells`.
+1. Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z [link do pobrania](https://releases.aspose.com/cells/net/)Alternatywnie możesz zainstalować go za pomocą Menedżera pakietów NuGet w programie Visual Studio, uruchamiając `Install-Package Aspose.Cells`.
 2. Środowisko programistyczne: W tym samouczku będziemy używać programu Visual Studio, ale sprawdzi się każde środowisko IDE zgodne z platformą .NET.
 3. Podstawowa znajomość języka C#: W tym samouczku zakładamy, że znasz język C# i posiadasz podstawową wiedzę na temat pracy z plikami i pakietami w środowisku .NET.
 ## Importuj pakiety
@@ -39,7 +41,7 @@ Pierwszym krokiem jest skonfigurowanie katalogu źródłowego, w którym przecho
 string sourceDir = "Your Document Directory";
 ```
 ## Krok 2: Załaduj plik Excel
- Następnie musisz załadować plik Excel zawierający dane mapowane na XML. Tutaj użyjemy`Workbook` klasa do załadowania pliku z określonego katalogu. Upewnij się, że plik Excel zawiera docelowe dane XML.
+Następnie musisz załadować plik Excel zawierający dane mapowane na XML. Tutaj użyjemy `Workbook` klasa do załadowania pliku z określonego katalogu. Upewnij się, że plik Excel zawiera docelowe dane XML.
 ```csharp
 // Załaduj plik XLSX zawierający dane z pliku XML
 Workbook workbook = new Workbook(sourceDir + "XML Data.xlsx");
@@ -57,7 +59,7 @@ Mając arkusz roboczy w ręku, następnym krokiem jest dostęp do tabeli obiekt�
 Aspose.Cells.Tables.ListObject listObject = ws.ListObjects[0];
 ```
 ## Krok 5: Pobierz adres URL powiązania danych mapy XML
- Na koniec pobierzemy adres URL powiązania danych mapy XML. To tutaj plik XML jest mapowany na obiekt listy.`DataBinding.Url` Właściwość mapy XML podaje ścieżkę XML lub adres URL, z którego pochodzą dane. Ścieżka ta może być następnie wykorzystana do celów zarządzania danymi.
+Na koniec pobierzemy adres URL powiązania danych mapy XML. To tutaj plik XML jest mapowany na obiekt listy. `DataBinding.Url` Właściwość mapy XML podaje ścieżkę XML lub adres URL, z którego pochodzą dane. Ścieżka ta może być następnie wykorzystana do celów zarządzania danymi.
 ```csharp
 // Pobierz adres URL powiązania danych mapy XML obiektu listy
 string url = listObject.XmlMap.DataBinding.Url;
@@ -68,7 +70,7 @@ Aby potwierdzić, że ścieżka XML została pomyślnie pobrana, wyświetlmy wyn
 // Wyświetl nazwę pliku XML
 Console.WriteLine(url);
 ```
-to wszystko! Udało Ci się pobrać ścieżkę XML z List Object Table w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET.
+I to wszystko! Udało Ci się pobrać ścieżkę XML z List Object Table w arkuszu kalkulacyjnym Excel przy użyciu Aspose.Cells dla .NET.
 ## Wniosek
 Pobieranie ścieżki XML z List Object Table przy użyciu Aspose.Cells dla .NET to prosty proces. Ta funkcja pozwala deweloperom programowo zarządzać danymi XML w plikach Excel, co jest szczególnie przydatne w przypadku aplikacji, które opierają się na źródłach danych opartych na XML. Dzięki Aspose.Cells możesz usprawnić zadania zarządzania danymi w Excelu, wprowadzając potężne możliwości przetwarzania danych do swoich aplikacji .NET.
 ## Najczęściej zadawane pytania
@@ -81,10 +83,12 @@ Tak, Aspose.Cells umożliwia zarządzanie danymi XML w plikach Excel oraz ich mo
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?
 Tak, Aspose.Cells jest w pełni kompatybilny z .NET Core, .NET Framework i wieloma innymi platformami, co czyni go uniwersalnym rozwiązaniem dla różnych projektów.
 ### Czy potrzebuję licencji, aby używać Aspose.Cells dla .NET?
- Tak, Aspose.Cells wymaga licencji do użytku produkcyjnego. Możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zakup pełną licencję od[Strona zakupu Aspose](https://purchase.aspose.com/buy).
+Tak, Aspose.Cells wymaga licencji do użytku produkcyjnego. Możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub zakup pełną licencję od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 **สิ่งที่คุณจะได้เรียนรู้:**
 - การโหลดไฟล์ Excel ด้วย Aspose.Cells
 - การแปลงและบันทึกสมุดงานเป็นมาร์กดาวน์
-- การตั้งค่าสภาพแวดล้อมของคุณด้วยการอ้างอิงที่จำเป็น
+- การตั้งค่าสภาพแวดล้อมของคุณด้วยสิ่งที่ต้องมี
 
 เริ่มต้นด้วยการตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นทั้งหมด
 
@@ -136,6 +138,9 @@ A: ใช่ รองรับรูปแบบต่างๆ มากมา
 - **การซื้อและการสนับสนุน:** สำหรับการสอบถามเกี่ยวกับการซื้อและการสนับสนุน โปรดไปที่ [การซื้อ Aspose](https://purchase.aspose.com/buy) และ [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

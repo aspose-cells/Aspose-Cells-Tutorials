@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Workbook wb = new Workbook();
 ```
 The `Workbook` sınıfı bir Excel dosyasını temsil eder ve bunu başlatarak kullanıma hazır boş bir çalışma kitabı oluşturursunuz.
 
-### Özellik 2: Çalışma Sayfalarına Erişim ve Değişiklik Yapma
+### Özellik 2: Çalışma Sayfalarına Erişim ve Değişiklik
 Şimdi yeni oluşturduğumuz çalışma kitabımızdaki ilk çalışma sayfasına erişelim ve onu verilerle dolduralım.
 
 #### Erişim Çalışma Sayfası
@@ -172,6 +174,9 @@ Bu eğitimde, Excel çalışma kitaplarını HTML dosyaları olarak oluşturmak 
 - **Lisans Satın Al:** Lisanslama seçeneklerini keşfedin [Aspose'un satın alma sayfası](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

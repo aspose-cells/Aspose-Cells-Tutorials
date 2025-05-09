@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ A: Ja, het ondersteunt een breed scala aan Excel-formaten, waaronder XLS en XLSX
 Door deze handleiding te volgen, bent u nu goed toegerust om subtotaalfunctionaliteiten in uw Java-applicaties te integreren met Aspose.Cells. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

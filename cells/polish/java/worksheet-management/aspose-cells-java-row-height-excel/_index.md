@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,11 +186,14 @@ Gotowy, aby to wypróbować? Wdrażaj to, czego nauczyłeś się dzisiaj, w swoi
 
 - **Dokumentacja**:Przeglądaj kompleksowe przewodniki na [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/).
 - **Pobierać**:Uzyskaj dostęp do najnowszej wersji na [Pobieranie Aspose](https://releases.aspose.com/cells/java/).
-- **Opcje zakupu**Szczegóły dotyczące licencji znajdziesz na stronie [Zakup Aspose](https://purchase.aspose.com/buy).
+- **Opcje zakupu**Szczegóły dotyczące licencji można znaleźć na stronie [Zakup Aspose](https://purchase.aspose.com/buy).
 - **Bezpłatna wersja próbna**:Wypróbuj Aspose.Cells dzięki dostępnej bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/cells/java/).
 - **Fora wsparcia**:Dołącz do dyskusji i zadawaj pytania w [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

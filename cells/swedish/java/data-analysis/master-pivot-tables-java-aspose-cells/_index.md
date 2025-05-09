@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ public class ConfigurePivotTable {
 
         PivotField pivotField = pvtTable.getRowFields().get("Vendor");
         
-        // Konfigurera inställningar för delsumma
+        // Konfigurera inställningar för delsummor
         pivotField.setSubtotals(PivotFieldSubtotalType.NONE, true);
         
         // Dölj kolumnens totalsummor
@@ -230,7 +232,7 @@ Du har nu bemästrat grunderna i att konfigurera och manipulera pivottabeller i 
    - Ja, men det kommer att finnas begränsningar i funktionaliteten och en utvärderingsvattenstämpel i dina dokument.
    
 4. **Hur uppdaterar jag data i en pivottabell?**
-   - Använda `pvtTable.refreshData()` följt av `pvtTable.calculateData()` för att uppdatera uppgifterna.
+   - Använda `pvtTable.refreshData()` följt av `pvtTable.calculateData()` för att uppdatera informationen.
 
 5. **Vilka är några vanliga problem med Aspose.Cells?**
    - Prestandan kan försämras med stora filer; säkerställ effektiv minneshantering och optimera din arbetsboks struktur.
@@ -247,6 +249,9 @@ Du har nu bemästrat grunderna i att konfigurera och manipulera pivottabeller i 
 Genom att följa den här omfattande guiden bör du vara på god väg att utnyttja de kraftfulla funktionerna i Aspose.Cells för Java i dina datadrivna projekt. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

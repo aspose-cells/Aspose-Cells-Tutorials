@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Gestire la sicurezza dei file Excel a livello di codice è fondamentale per pres
 Questa guida spiega come:
 - Sblocca tutte le righe in un foglio di lavoro.
 - Blocca righe specifiche a livello di programmazione.
-- Proteggi interi fogli di lavoro utilizzando vari metodi.
+- Proteggere interi fogli di lavoro utilizzando vari metodi.
 
 Al termine di questo tutorial sarai in grado di sfruttare Aspose.Cells per Java per migliorare la sicurezza e l'usabilità dei tuoi file Excel.
 
@@ -180,6 +182,9 @@ A5: La prova gratuita consente l'accesso completo, ma aggiunge una filigrana. Ri
 - **Supporto**: Visita il [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9) per qualsiasi domanda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

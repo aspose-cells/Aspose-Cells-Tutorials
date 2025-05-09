@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 
 - **Библиотеки и зависимости**: Убедитесь, что в вашем проекте установлен Aspose.Cells для Java.
 - **Настройка среды**: Совместимая IDE (например, IntelliJ IDEA или Eclipse) и JDK, установленные в вашей системе. Мы рекомендуем использовать JDK 8 или более позднюю версию.
-- **Необходимые знания**: Базовые знания концепций программирования на Java, включая принципы объектно-ориентированного подхода.
+- **Необходимые знания**: Базовые знания концепций программирования Java, включая принципы объектно-ориентированного подхода.
 
 ## Настройка Aspose.Cells для Java
 
@@ -241,6 +243,9 @@ Aspose.Cells Java универсален и может применяться в
    - Помимо Excel, он поддерживает CSV, PDF, HTML и другие форматы.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

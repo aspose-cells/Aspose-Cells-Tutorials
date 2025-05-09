@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แผนภูมิแอนิเมชั่น
@@ -69,7 +71,7 @@ Chart chart = worksheet.getCharts().get(0); // เปลี่ยนดัชน
 ```java
 chart.getChartObject().setAnimationType(AnimationType.SLIDE);
 chart.getChartObject().setAnimationDuration(1000); // ระยะเวลาของแอนิเมชั่นเป็นมิลลิวินาที
-chart.getChartObject().setAnimationDelay(500);    // ความล่าช้าก่อนที่แอนิเมชั่นจะเริ่มต้น (มิลลิวินาที)
+chart.getChartObject().setAnimationDelay(500);    // ความล่าช้าก่อนเริ่มแอนิเมชั่น (มิลลิวินาที)
 ```
 
 ## ขั้นตอนที่ 5: บันทึกสมุดงาน Excel
@@ -101,6 +103,7 @@ workbook.save("output.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

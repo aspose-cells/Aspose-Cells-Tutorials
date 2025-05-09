@@ -1,14 +1,16 @@
 ---
-title: Utwórz wykres piramidalny
-linktitle: Utwórz wykres piramidalny
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo utworzyć wykres piramidalny w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Idealny do wizualizacji danych.
-weight: 13
-url: /pl/net/manipulating-chart-types/create-pyramid-chart/
+"description": "Dowiedz się, jak łatwo utworzyć wykres piramidalny w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Idealny do wizualizacji danych."
+"linktitle": "Utwórz wykres piramidalny"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz wykres piramidalny"
+"url": "/pl/net/manipulating-chart-types/create-pyramid-chart/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz wykres piramidalny
@@ -22,16 +24,16 @@ Tworzenie wizualnych reprezentacji danych jest kluczowe w wielu dziedzinach, od 
 Zanim zanurzymy się w fascynującym świecie wykresów piramidalnych, przedstawimy Ci kilka podstawowych wymagań wstępnych, które zapewnią Ci bezproblemową żeglugę.
 
 ### Podstawowa wiedza z zakresu C# i .NET
-Powinieneś mieć podstawową wiedzę na temat programowania w C# i .NET. Znajomość środowiska Visual Studio również będzie pomocna.
+Powinieneś mieć podstawową wiedzę na temat programowania w C# i .NET. Znajomość środowiska Visual Studio również będzie przydatna.
 
 ### Biblioteka Aspose.Cells dla .NET
- Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać bezpośrednio z[Strona wydania Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)Postępuj zgodnie z instrukcjami instalacji lub użyj Menedżera pakietów NuGet, aby łatwo włączyć go do swojego projektu.
+Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać bezpośrednio z [Strona wydania Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/). Postępuj zgodnie z instrukcjami instalacji lub użyj Menedżera pakietów NuGet, aby łatwo włączyć go do swojego projektu.
 
 ### Studio wizualne
-Do kodowania naszego przykładowego programu zalecamy użycie działającej instalacji programu Visual Studio. 
+Do kodowania naszego przykładowego programu zalecana jest działająca instalacja programu Visual Studio. 
 
 ### Licencjonowanie (opcjonalne)
- Możesz poeksperymentować z bezpłatną wersją próbną dostępną za pośrednictwem[Link do bezpłatnej wersji próbnej](https://releases.aspose.com/) , w celu wykorzystania produkcyjnego, rozważ odwiedzenie[Kup link](https://purchase.aspose.com/buy) lub wybierz tymczasową licencję od[Link do licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+Możesz poeksperymentować z bezpłatną wersją próbną dostępną za pośrednictwem [Link do bezpłatnej wersji próbnej](https://releases.aspose.com/), w celu wykorzystania produkcyjnego, rozważ odwiedzenie [Kup link](https://purchase.aspose.com/buy) lub wybierz tymczasową licencję od [Link do licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
 
 Teraz, gdy wszystko mamy gotowe, możemy zabrać się do pracy!
 
@@ -51,7 +53,7 @@ using Aspose.Cells.Charts;
 
 Te przestrzenie nazw obejmują podstawowe funkcjonalności, z których będziemy korzystać w tym samouczku, takie jak tworzenie skoroszytów, edytowanie arkuszy i dodawanie wykresów.
 
-Dobrze, rozłóżmy proces tworzenia wykresu piramidy na proste kroki. Pod koniec tego przewodnika będziesz mieć kompletny przykład działania.
+Dobrze, rozłóżmy proces tworzenia wykresu piramidy na proste kroki. Pod koniec tego przewodnika będziesz mieć kompletny działający przykład.
 
 ## Krok 1: Zdefiniuj katalog wyjściowy
 
@@ -62,7 +64,7 @@ Najpierw musimy zdefiniować, gdzie nasz plik wyjściowy (plik Excel z wykresem 
 string outputDir = "Your Output Directory";
 ```
 
- Pamiętaj o wymianie`"Your Output Directory"` z prawidłową ścieżką na Twoim komputerze. Ta ścieżka to miejsce, w którym zostanie zapisany wygenerowany plik Excel.
+Pamiętaj o wymianie `"Your Output Directory"` z prawidłową ścieżką na Twoim komputerze. Ta ścieżka to miejsce, w którym zostanie zapisany wygenerowany plik Excel.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
@@ -84,7 +86,7 @@ Każdy skoroszyt zawiera co najmniej jeden arkusz. Tutaj odniesiemy się do pier
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Odwołując się`Worksheets[0]`, bezpośrednio wchodzimy w interakcję z pierwszym arkuszem, w którym dodamy nasze dane i wykres.
+Odwołując się `Worksheets[0]`, bezpośrednio wchodzimy w interakcję z pierwszym arkuszem, w którym dodamy nasze dane i wykres.
 
 ## Krok 4: Dodaj przykładowe dane do komórek
 
@@ -111,7 +113,7 @@ Teraz dodajmy nasz wykres piramidalny. To tutaj dzieje się magia!
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pyramid, 5, 0, 25, 10);
 ```
 
- W tym wierszu określamy typ wykresu jako`Pyramid` i określ jego pozycję w arkuszu kalkulacyjnym za pomocą indeksów wierszy i kolumn. To jest podobne do oprawiania obrazu na ścianie – musisz wybrać miejsce, w którym będzie wyglądał najlepiej!
+W tym wierszu określamy typ wykresu jako `Pyramid` i określ jego pozycję w arkuszu kalkulacyjnym za pomocą indeksów wierszy i kolumn. To jest podobne do oprawiania obrazu na ścianie – musisz wybrać miejsce, w którym będzie wyglądał najlepiej!
 
 ## Krok 6: Uzyskaj dostęp do nowo dodanego wykresu
 
@@ -133,7 +135,7 @@ Aby wykres wyświetlał dane, musimy ustawić jego źródło danych na podstawie
 chart.NSeries.Add("A1:B3", true);
 ```
 
-W tej części łączymy dane z komórek A1 i B3, co pozwala na wizualizację tych informacji na wykresie piramidalnym.
+W tej części łączymy dane z komórek A1–B3, co pozwala na wizualizację tych informacji na wykresie piramidalnym.
 
 ## Krok 8: Zapisz plik Excel
 
@@ -144,7 +146,7 @@ Na koniec pora zapisać nasze arcydzieło. Zapiszmy skoroszyt programu Excel do 
 workbook.Save(outputDir + "outputHowToCreatePyramidChart.xlsx");
 ```
 
- Ta akcja utworzy plik Excel o nazwie`outputHowToCreatePyramidChart.xlsx` w podanym katalogu wyjściowym.
+Ta akcja utworzy plik Excel o nazwie `outputHowToCreatePyramidChart.xlsx` w podanym katalogu wyjściowym.
 
 ## Krok 9: Potwierdzenie konsoli
 
@@ -175,10 +177,12 @@ Można tworzyć różne typy wykresów, m.in. wykresy słupkowe, liniowe, kołow
 Upewnij się, że na swoim komputerze zainstalowałeś narzędzia programistyczne .NET, takie jak Visual Studio, aby móc bezproblemowo współpracować z Aspose.Cells.
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

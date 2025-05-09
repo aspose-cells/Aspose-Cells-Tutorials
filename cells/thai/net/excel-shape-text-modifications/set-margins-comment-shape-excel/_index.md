@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าระยะขอบสำหรับความคิดเห็นหรือรูปร่างใน Excel
-linktitle: ตั้งค่าระยะขอบสำหรับความคิดเห็นหรือรูปร่างใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีตั้งค่าระยะขอบสำหรับความคิดเห็นและรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ .NET มีคู่มือทีละขั้นตอนเพื่อการใช้งานที่ง่ายดาย
-weight: 18
-url: /th/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
+"description": "เรียนรู้วิธีตั้งค่าระยะขอบสำหรับความคิดเห็นและรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ .NET มีคู่มือทีละขั้นตอนเพื่อการใช้งานที่ง่ายดาย"
+"linktitle": "ตั้งค่าระยะขอบสำหรับความคิดเห็นหรือรูปร่างใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ตั้งค่าระยะขอบสำหรับความคิดเห็นหรือรูปร่างใน Excel"
+"url": "/th/net/excel-shape-text-modifications/set-margins-comment-shape-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าระยะขอบสำหรับความคิดเห็นหรือรูปร่างใน Excel
@@ -16,13 +18,13 @@ url: /th/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 ## การแนะนำ
 เมื่อต้องจัดการไฟล์ Excel ในแอปพลิเคชัน .NET Aspose.Cells นำเสนอโซลูชันอันทรงพลัง ไม่ว่าคุณจะเป็นนักพัฒนาที่ต้องการจัดการเอกสาร Excel หรือผู้ที่ชื่นชอบที่ต้องการปรับปรุงเวิร์กโฟลว์ของคุณ การทราบวิธีตั้งค่าระยะขอบสำหรับความคิดเห็นหรือรูปร่างใน Excel จะช่วยยกระดับโครงการของคุณได้ บทช่วยสอนนี้จะแนะนำคุณทีละขั้นตอน เพื่อให้คุณเข้าใจทั้ง "วิธีการ" และ "เหตุผล" ที่อยู่เบื้องหลังฟังก์ชันนี้
 ## ข้อกำหนดเบื้องต้น
-ก่อนจะดำดิ่งสู่การผจญภัยการเขียนโค้ด ตรวจสอบให้แน่ใจก่อนว่าคุณได้เตรียมพร้อมทุกสิ่งที่จำเป็นสำหรับการดำเนินการตามบทช่วยสอนนี้ให้สำเร็จ
+ก่อนจะดำดิ่งสู่การผจญภัยการเขียนโค้ด ตรวจสอบให้แน่ใจก่อนว่าคุณได้เตรียมพร้อมทุกสิ่งที่จำเป็นสำหรับการดำเนินการตามบทช่วยสอนนี้ให้ประสบความสำเร็จ
 ### ความรู้พื้นฐาน
 คุณควรมีความเข้าใจพื้นฐานเกี่ยวกับ C# และ .NET บทช่วยสอนนี้เหมาะสำหรับผู้ที่มีความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรม
 ### การตั้งค่าสภาพแวดล้อม
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว ซึ่งเป็นสภาพแวดล้อมการพัฒนาที่ทำให้การเขียนโค้ดง่ายขึ้น
-2.  ไลบรารี Aspose.Cells: คุณต้องมีไลบรารี Aspose.Cells หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/cells/net/).
-3. ไฟล์ตัวอย่าง Excel: สร้างหรือดาวน์โหลดไฟล์ตัวอย่าง Excel สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ชื่อ`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+2. ไลบรารี Aspose.Cells: คุณต้องมีไลบรารี Aspose.Cells หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/cells/net/).
+3. ไฟล์ตัวอย่าง Excel: สร้างหรือดาวน์โหลดไฟล์ตัวอย่าง Excel สำหรับบทช่วยสอนนี้ เราจะใช้ไฟล์ชื่อ `sampleSetMarginsOfCommentOrShapeInsideTheWorksheet-xlsx`.
 ## การนำเข้าแพ็คเกจ
 ขั้นตอนแรกในการเดินทางของเราเกี่ยวข้องกับการนำเข้าแพ็คเกจที่จำเป็น คุณจะต้องรวมเนมสเปซ Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ ซึ่งจะทำให้คุณสามารถเข้าถึงฟังก์ชันต่างๆ ทั้งหมดที่ Aspose.Cells มีให้
 ### เปิดโครงการของคุณ
@@ -53,9 +55,9 @@ string sourceDir = "Your Document Directory";
 //ไดเรกทอรีผลลัพธ์
 string outputDir = "Your Document Directory";
 ```
-ตรวจสอบให้แน่ใจว่าคุณเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางจริงที่คุณเก็บไฟล์ไว้
+ตรวจสอบให้แน่ใจว่าคุณเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงที่คุณเก็บไฟล์ไว้
 ## ขั้นตอนที่ 2: โหลดไฟล์ Excel
- ในขั้นตอนนี้ เราจะเปิดไฟล์ Excel ที่เราตั้งใจจะใช้งาน มาใช้ประโยชน์จากพลังของ`Workbook` ระดับ.
+ในขั้นตอนนี้ เราจะเปิดไฟล์ Excel ที่เราตั้งใจจะใช้งาน มาใช้ประโยชน์จากพลังของ `Workbook` ระดับ.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx");
 ```
@@ -78,7 +80,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- โดยการตั้งค่า`IsAutoMargin`เป็นเท็จ ตอนนี้เราสามารถควบคุมระยะขอบได้แล้ว
+โดยการตั้งค่า `IsAutoMargin` เป็นเท็จ ตอนนี้เราสามารถควบคุมระยะขอบได้แล้ว
 ## ขั้นตอนที่ 6: ตั้งค่าระยะขอบ
 นี่เป็นขั้นตอนสำคัญที่เราต้องกำหนดระยะขอบ คุณสามารถกำหนดค่าเหล่านี้ได้ตามความต้องการของคุณ
 ```csharp
@@ -105,16 +107,18 @@ Console.WriteLine("SetMarginsOfCommentOrShapeInsideTheWorksheet executed success
 ### Aspose.Cells คืออะไร?
 Aspose.Cells คือไลบรารี .NET ที่ออกแบบมาเพื่อสร้าง จัดการ และแปลงไฟล์ Excel โดยไม่ต้องติดตั้ง Microsoft Excel
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่แล้ว! Aspose.Cells เสนอให้ทดลองใช้งานฟรี คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
-### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Cells ได้อย่างไร
- คุณสามารถซื้อใบอนุญาต Aspose.Cells ได้โดยเข้าไปที่นี่[ลิงค์ซื้อ](https://purchase.aspose.com/buy).
-### สามารถรวมห้องสมุดเข้ากับโครงการที่มีอยู่ได้ง่ายหรือไม่
+ใช่แล้ว! Aspose.Cells เสนอให้ทดลองใช้งานฟรี คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
+### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Cells ได้อย่างไร?
+คุณสามารถซื้อใบอนุญาต Aspose.Cells ได้โดยเข้าไปที่นี่ [ลิงค์ซื้อ](https://purchase-aspose.com/buy).
+### ห้องสมุดสามารถรวมเข้ากับโครงการที่มีอยู่ได้ง่ายหรือไม่
 แน่นอน! Aspose.Cells สามารถรวมเข้ากับโครงการ .NET ได้อย่างง่ายดาย และ API ก็ตรงไปตรงมา
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Cells ได้ที่ไหน
- คุณสามารถรับการสนับสนุนผ่าน Aspose[ฟอรั่ม](https://forum.aspose.com/c/cells/9).
+คุณสามารถรับการสนับสนุนผ่าน Aspose [ฟอรั่ม](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

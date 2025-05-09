@@ -1,14 +1,16 @@
 ---
-title: Định dạng hiển thị dữ liệu bảng Pivot trong .NET
-linktitle: Định dạng hiển thị dữ liệu bảng Pivot trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo và quản lý thứ hạng định dạng hiển thị dữ liệu Bảng Pivot trong .NET bằng Aspose.Cells với hướng dẫn từng bước này.
-weight: 30
-url: /vi/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/
+"description": "Tìm hiểu cách tạo và quản lý thứ hạng định dạng hiển thị dữ liệu Bảng Pivot trong .NET bằng Aspose.Cells với hướng dẫn từng bước này."
+"linktitle": "Định dạng hiển thị dữ liệu bảng Pivot trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Định dạng hiển thị dữ liệu bảng Pivot trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng hiển thị dữ liệu bảng Pivot trong .NET
@@ -18,8 +20,8 @@ Khi nói đến phân tích dữ liệu, đặc biệt là trong Excel, Pivot Ta
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã thiết lập mọi thứ để theo dõi. Sau đây là những gì bạn cần:
 1. Môi trường phát triển: Đảm bảo bạn có môi trường phát triển .NET đang hoạt động. Có thể là Visual Studio hoặc bất kỳ IDE tương thích nào khác.
-2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/). Bạn cũng có thể dùng thử miễn phí mà không phải trả bất kỳ chi phí nào ngay lập tức.
-3.  Dữ liệu mẫu: Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp Excel có tên`PivotTableSample.xlsx`. Đảm bảo dữ liệu của bạn được cấu trúc đúng trong tệp này để tạo Bảng Pivot.
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/). Bạn cũng có thể dùng thử miễn phí mà không phải trả bất kỳ chi phí nào ngay lập tức.
+3. Dữ liệu mẫu: Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp Excel có tên `PivotTableSample.xlsx`. Đảm bảo dữ liệu của bạn được cấu trúc đúng trong tệp này để tạo Bảng Pivot.
 Bây giờ chúng ta đã nắm được những điều cần thiết, hãy cùng tìm hiểu về mã nhé!
 ## Nhập gói
 Để bắt đầu, bạn cần nhập các không gian tên cần thiết vào dự án .NET của mình. Đây là bước quan trọng để đảm bảo ứng dụng của bạn có thể truy cập chức năng Aspose.Cells. Sau đây là cách thực hiện:
@@ -36,14 +38,14 @@ Trước khi tải tài liệu Excel, bạn cần chỉ định vị trí dữ l
 string sourceDir = "Your Document Directory"; // Cập nhật với thư mục thực tế của bạn
 string outputDir = "Your Document Directory"; // Cập nhật với thư mục thực tế của bạn
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
 ## Bước 2: Tải Workbook
 Tiếp theo, bạn sẽ muốn tải tệp Excel có chứa Bảng Pivot của mình. Thực hiện như sau:
 ```csharp
 // Tải một tập tin mẫu
 Workbook workbook = new Workbook(sourceDir + "PivotTableSample.xlsx");
 ```
- Các`Workbook` class là cổng vào để bạn làm việc với các tệp Excel. Bằng cách truyền đường dẫn đến tệp đầu vào, bạn đang yêu cầu Aspose.Cells tải tệp đó vào bộ nhớ.
+Các `Workbook` class là cổng vào để bạn làm việc với các tệp Excel. Bằng cách truyền đường dẫn đến tệp đầu vào, bạn đang yêu cầu Aspose.Cells tải tệp đó vào bộ nhớ.
 ## Bước 3: Truy cập vào Bảng tính
 Sau khi tải bảng tính, bạn cần truy cập vào bảng tính cụ thể có chứa Bảng Pivot của bạn:
 ```csharp
@@ -57,7 +59,7 @@ Bây giờ là lúc đi vào trọng tâm của vấn đề—Bảng Pivot. Hãy
 int pivotIndex = 0; // Mục lục của Bảng Pivot
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 ```
-Trong trường hợp này, chúng ta truy cập vào Bảng Pivot đầu tiên. Nếu bạn có nhiều Bảng Pivot, hãy điều chỉnh`pivotIndex`.
+Trong trường hợp này, chúng ta truy cập vào Bảng Pivot đầu tiên. Nếu bạn có nhiều Bảng Pivot, hãy điều chỉnh `pivotIndex`.
 ## Bước 5: Truy cập các trường dữ liệu
 Sau khi truy cập Bảng Pivot, bước tiếp theo là tìm hiểu sâu hơn về các trường dữ liệu của Bảng. Thực hiện như sau:
 ```csharp
@@ -75,7 +77,7 @@ pivotField.DataDisplayFormat = PivotFieldDataDisplayFormat.RankLargestToSmallest
 ```
 Bằng cách này, bạn đang hướng dẫn Pivot Table hiển thị trường dữ liệu đầu tiên theo thứ tự giảm dần. Nếu bạn muốn tăng dần, bạn có thể thay đổi định dạng hiển thị cho phù hợp.
 ## Bước 7: Tính toán dữ liệu
-Những thay đổi được thực hiện đối với Bảng Pivot sẽ không có hiệu lực cho đến khi bạn tính toán lại dữ liệu. Sau đây là cách thực hiện:
+Những thay đổi được thực hiện trên Bảng Pivot sẽ không có hiệu lực cho đến khi bạn tính toán lại dữ liệu. Sau đây là cách thực hiện:
 ```csharp
 pivotTable.CalculateData();
 ```
@@ -98,16 +100,18 @@ Xin chúc mừng! Bạn vừa học được cách thiết lập định dạng 
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET cho phép các nhà phát triển làm việc với các tệp Excel mà không cần Microsoft Excel. Nó cho phép đọc, viết và thao tác các tài liệu Excel một cách liền mạch.
 ### Tôi có cần phải trả tiền cho Aspose.Cells không?
-Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, nó yêu cầu phải mua để có đầy đủ tính năng. Bạn có thể kiểm tra[trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, nó yêu cầu mua để có đầy đủ tính năng. Bạn có thể kiểm tra [trang mua hàng](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 ### Tôi có thể tạo Bảng Pivot bằng Aspose.Cells không?
 Có, Aspose.Cells cung cấp các tính năng mạnh mẽ để tạo và quản lý Bảng Pivot theo chương trình.
 ### Tôi có thể tìm thêm thông tin về cách sử dụng Aspose.Cells ở đâu?
- Bạn có thể tham khảo toàn diện[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
+Bạn có thể tham khảo toàn diện [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
 ### Tôi phải làm sao nếu gặp vấn đề?
- Nếu bạn gặp bất kỳ vấn đề nào, hãy thoải mái liên hệ với cộng đồng và hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Nếu bạn gặp bất kỳ vấn đề nào, hãy thoải mái liên hệ với cộng đồng và hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

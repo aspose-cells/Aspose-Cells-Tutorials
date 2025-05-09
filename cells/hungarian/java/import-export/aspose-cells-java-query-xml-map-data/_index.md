@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Az XML-térképadatok Excelben történő lekérdezésére szolgáló Aspose.Cel
 Ennek az oktatóanyagnak a követésével felkészült leszel arra, hogy kihasználd az Aspose.Cells for Java erejét XML térképadatok lekérdezésében Excel fájlokban. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

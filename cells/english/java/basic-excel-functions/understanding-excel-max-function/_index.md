@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/understanding-excel-max-function/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Understanding Excel MAX Function
@@ -115,6 +117,7 @@ You can refer to the Aspose.Cells for Java documentation at [here](https://refer
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

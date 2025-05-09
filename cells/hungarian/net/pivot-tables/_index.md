@@ -1,26 +1,30 @@
 ---
-title: A .NET-ben található Aspose.Cells vezérlő táblázatok 
-weight: 10
-limit:
-description: Tanuljon meg, hogyan lehet létrehozni, formátálni és kezelni a pivot táblázatokat az Aspose.Cells .NET-ben. Dynamikus jelentéseket generáljon és C#-ban fáradsággal elemelje az adatokat.
-keywords:
-url: /hu/net/pivot-tables/
+"description": "Tanuld meg, hogyan hozhatsz létre, formázhatsz és kezelhetsz pivot táblákat az Aspose.Cells for .NET programban. Generálj dinamikus jelentéseket és elemezz adatokat könnyedén C#-ban."
+"title": "Pivot táblák az Aspose.Cells for .NET-ben"
+"url": "/hu/net/pivot-tables/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Bevezető 
+## Bevezetés 
  
-Pivot tables are a powerful feature in Aspose.Cells for .NET, allowing developers to create dynamic, interactive data summaries within Excel files programmatically. With just a few lines of C# code, you can generate pivot tables, define data sources, set row and column fields, apply filters, and even format the output for better readability. Whether you're working with large datasets or need quick insights, pivot tables streamline the data analysis process, making them an essential tool for reporting and business intelligence.  
+pivot táblák az Aspose.Cells for .NET hatékony funkciói, amelyek lehetővé teszik a fejlesztők számára, hogy dinamikus, interaktív adatösszefoglalókat hozzanak létre Excel-fájlokban programozott módon. Mindössze néhány sor C# kóddal pivot táblákat generálhat, adatforrásokat definiálhat, sor- és oszlopmezőket állíthat be, szűrőket alkalmazhat, sőt a kimenetet is formázhatja a jobb olvashatóság érdekében. Akár nagy adathalmazokkal dolgozik, akár gyors betekintésre van szüksége, a pivot táblák leegyszerűsítik az adatelemzési folyamatot, így nélkülözhetetlen eszközzé válnak a jelentéskészítéshez és az üzleti intelligenciához.  
 
-Az Aspose.Cells alkalmazásával a .NET-hez teljes mértékben személyre szabhatod a pivot táblázatokat, ha számítási mezőket adsz hozzá, adatösszeállítás típusát változtatod, és professzionális megjelenéshez stílusokat alkalmazod. Az API támogatja a fejlett funkciókat, mint például az adatcsoportosítás, a pivot táblázatok dinamikus frissítése és a több adatforrás hatékony kezelése. Ez lehetővé teszi a fejlesztők számára, hogy automatizálják az Excel jelentésgyártást, biztosítva, hogy a felhasználók minimális erőfeszítéssel pontos, naprakésszé vált összefoglalásokat kapjanak.
+Az Aspose.Cells for .NET használatával teljes mértékben testreszabhatja a pivot táblákat számított mezők hozzáadásával, az adataggregációs típusok módosításával és stílusok alkalmazásával a professzionális megjelenés érdekében. Az API olyan fejlett funkciókat támogat, mint az adatok csoportosítása, a pivot táblák dinamikus frissítése és a több adatforrás hatékony kezelése. Ez lehetővé teszi a fejlesztők számára az Excel-jelentések generálásának automatizálását, biztosítva, hogy a felhasználók minimális erőfeszítéssel pontos, naprakész összefoglalókat kapjanak.
 
-{{< tutorial-card link="./create-pivot-table/" title="Készíts egy forgó táblázatot az Excelben Aspose.Cells segítségével" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-table-save-in-ods/" title="Takarítsa meg a Pivot Tabelt az ODS-ként az Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./create-pivot-table/" title="Pivot tábla létrehozása Excelben az Aspose.Cells használatával" imgSrc="./create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-table-save-in-ods/" title="Pivot tábla mentése ODS-ként az Aspose.Cells fájlban" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

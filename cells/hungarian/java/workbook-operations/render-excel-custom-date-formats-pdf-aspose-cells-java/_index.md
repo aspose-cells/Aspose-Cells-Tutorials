@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,6 +141,9 @@ A4: Teljes mértékben. Integrálja ezt a Java kódot nagyobb kötegelt feldolgo
 Az útmutató követésével most már felkészülhetsz arra, hogy egyszerűsítsd a dokumentumkonvertálási folyamatokat az Aspose.Cells for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

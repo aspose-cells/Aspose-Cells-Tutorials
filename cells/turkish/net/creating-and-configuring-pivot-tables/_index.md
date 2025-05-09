@@ -1,14 +1,16 @@
 ---
-title: Pivot Tabloları Oluşturma ve Yapılandırma
-linktitle: Pivot Tabloları Oluşturma ve Yapılandırma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET için kapsamlı eğitimleri keşfedin. Her işlevsellik için ayrıntılı adım adım kılavuzlarla Excel'de pivot tabloları programatik olarak yönetin.
-weight: 37
-url: /tr/net/creating-and-configuring-pivot-tables/
+"description": "Aspose.Cells for .NET için kapsamlı eğitimleri keşfedin. Her işlevsellik için ayrıntılı adım adım kılavuzlarla Excel'de pivot tablolarında programatik olarak ustalaşın."
+"linktitle": "Pivot Tabloları Oluşturma ve Yapılandırma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Pivot Tabloları Oluşturma ve Yapılandırma"
+"url": "/tr/net/creating-and-configuring-pivot-tables/"
+"weight": 37
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tabloları Oluşturma ve Yapılandırma
@@ -44,26 +46,26 @@ Aspose.Cells, temel işlemlerin ötesinde, belirli veri ihtiyaçlarını karşı
 
 - [Rapor Filtre Sayfaları Seçeneğini Göster](./show-report-filter-pages-option/): Bu özellik, kullanıcıların verileri etkili bir şekilde filtrelemesine izin vererek pivot tablolarınızla kullanıcı etkileşimini artırır. Bu işlevi sorunsuz bir şekilde uygulamak için adım adım kılavuzu izleyin.
 
-- [Pivot Tabloları Özel Sıralama ve Gizleme ile Kaydetme](./saving-with-custom-sort-and-hide/): Belirli satırları sıralayarak ve gizleyerek verilerinizin nasıl görüntüleneceğini özelleştirin. Bu işlevsellik, dikkatin en alakalı veri noktalarına odaklanmasına yardımcı olur.
+- [Pivot Tabloları Özel Sıralama ve Gizleme ile Kaydetme](./saving-with-custom-sort-and-hide/)Belirli satırları sıralayarak ve gizleyerek verilerinizin nasıl görüntüleneceğini özelleştirin. Bu işlevsellik, dikkatin en alakalı veri noktalarına odaklanmasına yardımcı olur.
 
 Bu eğitimler yalnızca teknik bilgi sağlamakla kalmaz, aynı zamanda Excel dosyalarınızı belirli proje gereksinimlerini karşılayacak şekilde uyarlamanıza da olanak tanır. Her kılavuz, netlik sağlamak için yapılandırılmıştır ve bu da tüm beceri seviyelerindeki geliştiricilerin uygulamasını kolaylaştırır.
 
 ## Pivot Tabloları Oluşturma ve Yapılandırma Eğitimleri
-### [.NET'te Pivot Tablosunun Kaynak Verilerini Programatik Olarak Değiştirme](./changing-source-data/)
+### [Pivot Tablosunun Kaynak Verilerini .NET'te Programatik Olarak Değiştirme](./changing-source-data/)
 Kapsamlı adım adım eğitimimiz ile Aspose.Cells for .NET kullanarak pivot tablo kaynak verilerini programatik olarak nasıl değiştireceğinizi öğrenin.
 ### [.NET'te Pivot Alanlarını Programatik Olarak Temizleme](./clearing-pivot-fields/)
-Aspose.Cells for .NET'in gücünü açığa çıkarın. Adım adım kapsamlı eğitimimiz ile Excel'deki Pivot Alanlarını zahmetsizce temizleyin.
+Aspose.Cells for .NET'in gücünü açığa çıkarın. Excel'deki Pivot Alanlarını adım adım kapsamlı eğitimimiz ile zahmetsizce temizleyin.
 ### [.NET'te Programlı Olarak Konsolidasyon Fonksiyonları](./consolidation-functions/)
 .NET için Aspose.Cells'i kullanarak konsolidasyon fonksiyonlarını programlı olarak nasıl uygulayacağınızı öğrenin. Veri analizi görevlerinizi verimli bir şekilde otomatikleştirin.
 ### [.NET'te Programatik Olarak Yeni Bir Pivot Tablo Oluşturma](./creating-new-pivot-table/)
 Aspose.Cells'i kullanarak .NET'te programatik olarak pivot tablo oluşturmayı adım adım kılavuzumuzla öğrenin. Verilerinizi verimli bir şekilde analiz edin.
 ### [.NET'te Pivot Tablo Şeridini Programatik Olarak Devre Dışı Bırakma](./disabling-pivot-table-ribbon/)
 .NET'te Aspose.Cells kullanarak pivot tablo şeridini nasıl devre dışı bırakacağınızı öğrenin. Bu adım adım kılavuz Excel etkileşimlerinizi özelleştirmenizi kolaylaştırır.
-### [.NET'te Pivot Tabloların Programatik Biçimlendirmesi ve Görünümü](./formatting-and-look/)
+### [.NET'te Pivot Tabloların Programatik Biçimlendirilmesi ve Görünümü](./formatting-and-look/)
 Excel pivot tablolarınızı Aspose.Cells for .NET ile geliştirin. Veri sunumunuzu zahmetsizce biçimlendirmeyi, özelleştirmeyi ve otomatikleştirmeyi öğrenin.
 ### [.NET'te Pivot Tablodaki Öğeleri Yenileme ve Hesaplama](./refreshing-and-calculating-items/)
-Bu kapsamlı, adım adım eğitimle Aspose.Cells for .NET'i kullanarak Pivot Tablo'daki öğeleri nasıl yenileyeceğinizi ve hesaplayacağınızı öğrenin.
-### [.NET'te Pivot Tablosunun Otomatik Biçimini Programlama Yoluyla Ayarlama](./setting-auto-format/)
+Bu kapsamlı, adım adım eğitimle Aspose.Cells for .NET kullanarak Pivot Tablo'daki öğeleri nasıl yenileyeceğinizi ve hesaplayacağınızı öğrenin.
+### [.NET'te Pivot Tablosunun Otomatik Biçimini Programlamayla Ayarlama](./setting-auto-format/)
 Bu ayrıntılı adım adım eğitimde, Aspose.Cells for .NET kullanarak Excel pivot tabloları için otomatik biçimlendirmenin nasıl programlı olarak ayarlanacağını öğrenin.
 ### [.NET'te Veri Alanı Biçimini Programatik Olarak Ayarlama](./setting-data-field-format/)
 Bu adım adım eğitimle Aspose.Cells for .NET kullanarak pivot tablolarındaki veri alanı formatlarını nasıl ayarlayacağınızı öğrenin. Excel veri biçimlendirmenizi geliştirin.
@@ -74,7 +76,7 @@ Aspose.Cells for .NET kullanarak PivotTable'larda sayfa alanı biçimlerini prog
 ### [.NET'te Rapor Filtre Sayfaları Seçeneğini Göster](./show-report-filter-pages-option/)
 Pivot Tablolarda rapor filtre sayfalarını göstermek için Aspose.Cells for .NET'i etkili bir şekilde nasıl kullanacağınızı öğrenin. Tam kod örnekleriyle adım adım kılavuz.
 ### [Excel Dosyasının .NET'te Programatik Olarak Uyumluluğunu Belirleyin](./specifying-compatibility/)
-Aspose.Cells for .NET ile veri güncellemeleri, uyumluluk ayarları ve hücre biçimlendirmesi dahil olmak üzere Excel pivot tablolarını yönetmeyi öğrenin.
+Aspose.Cells for .NET ile Excel pivot tablolarını yönetmeyi öğrenin; veri güncellemeleri, uyumluluk ayarları ve hücre biçimlendirmesi dahil.
 ### [.NET'te Harici Bağlantı Veri Kaynağını Belirleme](./specifying-external-connection-data-source/)
 Bu adım adım kılavuzla .NET için Aspose.Cells'i kullanarak Excel pivot tablolarında harici bağlantı veri kaynaklarının nasıl belirleneceğini öğrenin. .NET geliştiricileri için mükemmeldir.
 ### [Pivot Tablosunu .NET'te Programatik Olarak ODS Formatında Kaydetme](./saving-in-ods-format/)
@@ -88,10 +90,12 @@ Aspose.Cells kullanarak .NET'te pivot önbellekli kayıtların nasıl ayrıştı
 ### [.NET'te Pivot Tablo Özel Sıralama Programlama](./pivot-table-custom-sort/)
 Aspose.Cells kullanarak .NET'te Pivot Tablolarını programatik olarak nasıl sıralayacağınızı öğrenin. Kurulum, yapılandırma, sıralama ve sonuçları Excel ve PDF dosyaları olarak kaydetmeyi kapsayan adım adım bir kılavuz.
 ### [Pivot Tablo Veri Görüntüleme Biçimi .NET'te Sıralama](./pivot-table-data-display-format-ranking/)
-Bu adım adım kılavuzla Aspose.Cells'i kullanarak .NET'te Pivot Table veri görüntüleme biçimi sıralamalarının nasıl oluşturulacağını ve yönetileceğini öğrenin.
+Bu adım adım kılavuzla Aspose.Cells kullanarak .NET'te Pivot Table veri görüntüleme biçimi sıralamalarının nasıl oluşturulacağını ve yönetileceğini öğrenin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Dinamik raporlar veya panolar için şekillerin kopyalanması genellikle gerekli
 **Genel Bakış:**
 Çalışma kitaplarını kaydetmek, gelecekteki kullanımlar için tüm değişiklikleri korur.
 
-#### Bir Çalışma Kitabını Kaydetme Adımları (H3):
+#### Çalışma Kitabını Kaydetme Adımları (H3):
 1. **İthalat Zorunlu Sınıflar:**
    ```java
    import com.aspose.cells.Workbook;
@@ -183,6 +185,9 @@ Büyük çalışma kitapları veya karmaşık şekillerle çalışırken:
 - Mümkün olduğunca şekil işlemlerini gruplayarak işlem sayısını en aza indirin, böylece işlem süresi ve kaynak tüketimini azaltın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

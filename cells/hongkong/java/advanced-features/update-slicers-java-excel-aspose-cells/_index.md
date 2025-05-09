@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ## 設定 Aspose.Cells for Java
 
-在我們開始處理 Excel 檔案之前，您需要設定 Aspose.Cells for Java。方法如下：
+在我們開始操作 Excel 檔案之前，您需要設定 Aspose.Cells for Java。方法如下：
 
 1. **安裝**：使用 Maven 或 Gradle（如上所示）將庫包含在您的專案中。
 2. **許可證獲取**：
@@ -214,6 +216,9 @@ Aspose.Cells for Java 功能多樣，可用於各種實際應用：
 在本指南中，我們探討如何使用 Aspose.Cells 更新 Java Excel 檔案中的切片器。您學習如何載入和顯示庫版本、以程式設計方式操作切片器以及將變更儲存回 Excel 檔案。有了這些技能，您可以自動化資料過濾流程，提高資料分析任務的生產力和準確性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

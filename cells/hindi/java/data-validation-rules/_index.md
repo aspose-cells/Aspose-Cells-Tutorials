@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # डेटा सत्यापन नियम
@@ -26,7 +28,7 @@ Aspose.Cells for Java का उपयोग करके डेटा वैल
 ## डेटा सत्यापन नियम ट्यूटोरियल
 ### [कस्टम डेटा सत्यापन बनाना](./creating-custom-data-validation/)
 जावा के लिए Aspose.Cells का उपयोग करके कस्टम डेटा सत्यापन बनाना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-### [एक्सेल में डायनामिक ड्रॉपडाउन सूचियाँ](./dynamic-dropdown-lists-in-excel/)
+### [एक्सेल में गतिशील ड्रॉपडाउन सूचियाँ](./dynamic-dropdown-lists-in-excel/)
 Excel में डायनामिक ड्रॉपडाउन सूचियों की शक्ति का पता लगाएँ। Java के लिए Aspose.Cells का उपयोग करने के लिए चरण-दर-चरण मार्गदर्शिका। इंटरैक्टिव डेटा चयन के साथ अपनी स्प्रेडशीट को बेहतर बनाएँ।
 ### [डेटा सत्यापन त्रुटि संदेश](./data-validation-error-messages/)
 Aspose.Cells for Java के साथ अपने डेटा सत्यापन त्रुटि संदेशों को अनुकूलित करें। उपयोगकर्ता अनुभव बनाना, अनुकूलित करना और सुधारना सीखें।
@@ -42,9 +44,11 @@ Aspose.Cells for Java के साथ अपने डेटा सत्या
 जावा के लिए Aspose.Cells का उपयोग करके सशर्त डेटा सत्यापन को लागू करना सीखें। एक्सेल स्प्रेडशीट में सटीक डेटा हैंडलिंग के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [डेटा सत्यापन में संदेश इनपुट करें](./input-message-in-data-validation/)
 जावा के लिए Aspose.Cells का उपयोग करके Excel में डेटा सत्यापन को बेहतर बनाने का तरीका जानें। डेटा सटीकता और उपयोगकर्ता मार्गदर्शन को बेहतर बनाने के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

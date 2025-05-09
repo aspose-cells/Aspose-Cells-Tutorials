@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -44,7 +46,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licencszerzés
 - **Ingyenes próbaverzió**Kezdje egy próbaverzió letöltésével, hogy felfedezhesse az Aspose.Cells képességeit.
 - **Ideiglenes engedély**Kérjen ideiglenes engedélyt korlátozás nélküli, szélesebb körű teszteléshez.
-- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását.
+- **Vásárlás**Hosszú távú használat esetén érdemes megfontolni a licenc megvásárlását.
 Inicializálja a Java alkalmazás könyvtárát az alábbiak szerint:
 ```java
 // Szükséges csomagok importálása
@@ -72,7 +74,7 @@ public class VersionInfo {
             // Szerezd meg az Aspose.Cells Java-verzióját.
             String versionInfo = CellsHelper.getVersion();
             
-            // Szükség szerint jelenítse meg vagy használja a verzióinformációkat
+            // Jelenítse meg vagy használja a verzióinformációkat szükség szerint
             System.out.println("Aspose.Cells Version: " + versionInfo);
         } catch (Exception e) {
             e.printStackTrace();
@@ -173,6 +175,9 @@ A5: Látogassa meg a hivatalos dokumentációt a következő címen: [Aspose dok
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

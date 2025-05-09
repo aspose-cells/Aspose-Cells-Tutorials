@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatellenőrzés a biztonság érdekében
@@ -99,7 +101,7 @@ Az adatellenőrzés kifinomultabbá válhat. Létrehozhat például kaszkádos l
 
 ```java
 DataValidationList validationList = worksheet.getDataValidations().addListValidation("A2", "A2:A10");
-validationList.setFormula1("List1"); // A lista forrásának meghatározása
+validationList.setFormula1("List1"); // lista forrásának meghatározása
 validationList.setShowDropDown(true);
 ```
 
@@ -156,6 +158,7 @@ A fejlett technikák közé tartozik a legördülő listák kaszkádolása és a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

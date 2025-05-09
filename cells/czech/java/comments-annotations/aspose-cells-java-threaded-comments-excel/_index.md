@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Zavedení
 Správa komentářů s vlákny v Excelu může být náročná, zejména při používání Javy. Tato příručka ukazuje, jak efektivně přidávat a spravovat komentáře s vlákny v sešitech Excelu pomocí Aspose.Cells pro Javu – robustní knihovny určené pro bezproblémovou interakci se soubory Excelu.
 
-tomto tutoriálu se naučíte:
+V tomto tutoriálu se naučíte:
 - Nastavení prostředí s Aspose.Cells pro Javu
 - Vytvoření nového sešitu
 - Přidávání autorů pro vláknové komentáře
@@ -165,6 +167,9 @@ A2: Použijte závislosti Maven nebo Gradle, jak je ukázáno dříve, a ujistě
 A3: Ano, můžete přidat více autorů pro správu různých komentátorů v sešitu aplikace Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

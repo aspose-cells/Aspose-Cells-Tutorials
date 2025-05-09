@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ Bu eğitimde, Excel dosya düzenlemesini otomatikleştirmek için Java için Asp
 - Otomasyon betiklerinizi her zaman kapsamlı bir şekilde test edin ve istisnaları zarif bir şekilde ele alın. Veri kaynaklarınızın güvenilir ve güncel olduğundan emin olun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,12 +175,15 @@ Aspose.Cells를 사용할 때 최적의 성능을 얻으려면:
 - [Java용 Aspose.Cells 다운로드](https://releases.aspose.com/cells/java/)
 - [라이센스 구매](https://purchase.aspose.com/buy)
 - [무료 체험으로 시작하세요](https://releases.aspose.com/cells/java/)
-- [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 이 튜토리얼은 Aspose.Cells for Java를 사용하여 명명된 범위 및 합계 함수를 구현하는 방법을 포괄적으로 설명합니다. 애플리케이션에서 Excel 자동화의 잠재력을 최대한 활용하려면 이 튜토리얼을 직접 사용해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

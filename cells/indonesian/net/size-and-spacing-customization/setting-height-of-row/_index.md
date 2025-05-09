@@ -1,101 +1,105 @@
 ---
-title: Mengatur Tinggi Baris di Excel dengan Aspose.Cells
-linktitle: Mengatur Tinggi Baris di Excel dengan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur tinggi baris di Excel dengan mudah menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini.
-weight: 14
-url: /id/net/size-and-spacing-customization/setting-height-of-row/
+"description": "Tanuld meg, hogyan állíthatod be könnyedén a sormagasságot Excelben az Aspose.Cells for .NET használatával ezzel a lépésről lépésre szóló útmutatóval."
+"linktitle": "Sormagasság beállítása Excelben az Aspose.Cells segítségével"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Sormagasság beállítása Excelben az Aspose.Cells segítségével"
+"url": "/id/net/size-and-spacing-customization/setting-height-of-row/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Tinggi Baris di Excel dengan Aspose.Cells
+# Sormagasság beállítása Excelben az Aspose.Cells segítségével
 
-## Perkenalan
-Jika Anda pernah mencoba-coba spreadsheet Excel, Anda akan tahu betapa pentingnya presentasi. Baik Anda sedang mempersiapkan laporan untuk pekerjaan, membuat lembar anggaran, atau menata data untuk analisis, tinggi baris dapat membuat perbedaan yang signifikan dalam cara informasi Anda dipersepsikan. Nah, bagaimana jika saya memberi tahu Anda bahwa Anda dapat mengendalikan aspek tersebut secara terprogram? Gunakan Aspose.Cells untuk .NET—pustaka canggih yang memungkinkan Anda memanipulasi file Excel dengan mudah. Dalam tutorial ini, kita akan mempelajari cara mengatur tinggi baris dalam lembar Excel menggunakan Aspose.Cells.
-Baiklah, mari kita mulai, ya?
-## Prasyarat
-Sebelum kita masuk ke bagian pemrograman, penting untuk memastikan Anda telah menyiapkan semuanya. 
-1. Instal .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Jika Anda menggunakan Visual Studio, ini akan mudah dilakukan.
-2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Cells untuk .NET. Anda dapat menemukan paketnya[Di Sini](https://releases.aspose.com/cells/net/).
-3. IDE: Anda memerlukan Integrated Development Environment (IDE) untuk menulis kode. Visual Studio adalah pilihan yang tepat jika Anda bekerja di lingkungan Windows.
-4. Pengetahuan Dasar C#: Meskipun saya akan memandu Anda melalui setiap langkah, memiliki pemahaman dasar tentang C# akan membuat segalanya lebih jelas.
-Sekarang setelah prasyarat Anda terpenuhi, mari mulai membuat kode!
-## Paket Impor
-Sebelum kita dapat melakukan apa pun, kita perlu mengimpor paket yang membuat Aspose.Cells berfungsi. Berikut cara melakukannya:
-### Buat Proyek Baru
-Buka Visual Studio dan buat proyek C# baru. Pilih Aplikasi Konsol untuk mempermudah. 
-### Instal Aspose.Cells melalui NuGet
- Di proyek Anda, buka`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution`Cari Aspose.Cells dan tekan install. Ini akan memungkinkan Anda mengakses semua keajaiban yang ditawarkan Aspose.Cells.
-### Tambahkan Menggunakan Arahan
- Di bagian atas Anda`Program.cs`file, Anda perlu menyertakan arahan penggunaan berikut:
+## Bevezetés
+Ha valaha is bütykölsz már Excel táblázatokkal, akkor tudod, mennyire fontos lehet a prezentáció. Akár munkához készítesz jelentéseket, akár költségvetési táblázatokat hozol létre, akár adatokat rendezel el elemzésre, a sorok magassága jelentős hatással lehet arra, hogyan érzékelik az információkat. Nos, mi lenne, ha azt mondanám, hogy ezt a szempontot programozottan is szabályozhatod? Íme az Aspose.Cells for .NET – egy hatékony függvénykönyvtár, amellyel könnyedén kezelheted az Excel fájlokat. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan állíthatod be a sormagasságot egy Excel táblázatban az Aspose.Cells segítségével.
+Akkor vágjunk bele, jó?
+## Előfeltételek
+Mielőtt belevágnánk a programozásba, fontos, hogy minden elő legyen készítve. 
+1. .NET-keretrendszer telepítése: Győződjön meg róla, hogy a .NET-keretrendszer telepítve van a gépén. Ha Visual Studio-t használ, ennek gyerekjátéknak kell lennie.
+2. Aspose.Cells .NET-hez: Le kell töltened és telepítened az Aspose.Cells .NET-hez csomagot. A csomagot itt találod: [itt](https://releases.aspose.com/cells/net/).
+3. IDE: Integrált fejlesztői környezetre (IDE) lesz szükséged a kód írásához. A Visual Studio nagyszerű választás, ha Windows környezetben dolgozol.
+4. C# alapismeretek: Bár végigvezetlek minden lépésen, a C# alapismeretei tisztábbá teszik a dolgokat.
+Most, hogy rendezted az előfeltételeidet, kezdjünk el kódolni!
+## Csomagok importálása
+Mielőtt bármit is tennénk, importálnunk kell az Aspose.Cells működését biztosító csomagokat. Íme, hogyan csinálhatjuk:
+### Új projekt létrehozása
+Nyisd meg a Visual Studiot, és hozz létre egy új C# projektet. Az egyszerűség kedvéért válassz egy konzolalkalmazást. 
+### Az Aspose.Cells telepítése NuGet segítségével
+A projektedben menj ide: `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`Keresd meg az Aspose.Cells fájlt, és kattints a telepítés gombra. Ezzel hozzáférhetsz az Aspose.Cells összes varázslatához.
+### Hozzáadás direktívák használatával
+A te tetején `Program.cs` fájlban a következőket kell megadni direktívák használatával:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Setelah pengaturan itu, mari kita uraikan kode tersebut menjadi langkah-langkah yang jelas dan mudah dipahami.
+Ezzel a beállítással bontsuk le a kódot világos és érthető lépésekre.
 
-## Langkah 1: Tentukan Jalur Direktori Anda
-Hal pertama yang kita perlukan adalah jalur untuk berkas Excel kita. 
+## 1. lépés: A könyvtár elérési útjának meghatározása
+Az első dolog, amire szükségünk van, az az Excel-fájlunk elérési útja. 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya di sistem Anda tempat file Excel berada. Di sinilah program kami akan mencari file tersebut. Pastikan itu dirancang dengan sempurna seperti peta yang menuntun kita ke harta karun!
-## Langkah 2: Buat Aliran File
-Sekarang, kita buka berkas Excel menggunakan FileStream. 
+Csere `"Your Document Directory"` a rendszereden található tényleges elérési úttal, ahol az Excel-fájl található. Itt fogja a programunk keresni a fájlt. Győződj meg róla, hogy tökéletesen van megtervezve, mint egy térkép, amely a kincshez vezet minket!
+## 2. lépés: Fájlfolyam létrehozása
+Most megnyitjuk az Excel fájlt egy FileStream segítségével. 
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Menggunakan`FileMode.Open` memberitahu aplikasi bahwa kita ingin membuka berkas yang sudah ada. Ini seperti mengatakan, “Hei, saya ingin melihat sesuatu yang sudah ada di sini!”
-## Langkah 3: Membuat Instansi Objek Buku Kerja
- Selanjutnya, kita membuat instance dari`Workbook` objek. Objek ini mewakili keseluruhan berkas Excel. 
+Használat `FileMode.Open` jelzi az alkalmazásnak, hogy egy meglévő fájlt szeretnénk megnyitni. Olyan, mintha azt mondanánk: „Hé, szeretnék megnézni valamit, ami már itt van!”
+## 3. lépés: Munkafüzet-objektum példányosítása
+Ezután példányosítjuk a `Workbook` objektum. Ez az objektum a teljes Excel fájlt jelöli. 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
-Baris ini pada dasarnya menciptakan jembatan antara kode Anda dan berkas Excel. 
-## Langkah 4: Akses Lembar Kerja
-Setelah Anda memiliki buku kerja, Anda dapat mengakses lembar kerja individual. Sebagian besar file Excel dimulai dengan lembar default (mirip kanvas kosong!). 
+Ez a sor lényegében hidat hoz létre a kódod és az Excel fájl között. 
+## 4. lépés: A munkalap elérése
+Miután elkészült a munkafüzet, hozzáférhet az egyes munkalapokhoz. A legtöbb Excel-fájl egy alapértelmezett munkalappal kezdődik (kissé olyan, mint egy üres vászon!). 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Di Sini,`Worksheets[0]` merujuk ke lembar pertama dalam buku kerja. 
-## Langkah 5: Mengatur Tinggi Baris
-Sekarang tibalah pada bagian yang menyenangkan: mengatur tinggi baris! 
+Itt, `Worksheets[0]` a munkafüzet első munkalapjára hivatkozik. 
+## 5. lépés: Állítsa be a sor magasságát
+Most jön a mókás rész: a sor magasságának beállítása! 
 ```csharp
 worksheet.Cells.SetRowHeight(1, 13);
 ```
-Baris ini memberi tahu Oracle untuk menyetel tinggi baris kedua menjadi 13 piksel. Mengapa 13? Ya, itu sepenuhnya tergantung pada preferensi desain Anda! Ini seperti memilih ukuran font yang sempurna untuk presentasi Anda.
-## Langkah 6: Simpan File Excel yang Telah Dimodifikasi
-Setelah melakukan perubahan, kita perlu menyimpan berkasnya. Anda tentu tidak ingin kehilangan semua hasil kerja keras itu!
+Ez a sor arra utasítja az Oracle-t, hogy a második sor magasságát 13 képpontra állítsa. Miért pont 13? Nos, ez teljes mértékben a tervezési preferenciáidtól függ! Olyan ez, mintha a tökéletes betűméretet választanád ki a prezentációdhoz.
+## 6. lépés: Mentse el a módosított Excel-fájlt
+A módosítások elvégzése után mentenünk kell a fájlt. Nem akarod elveszíteni az összes kemény munkádat!
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
-Baris ini menyimpan berkas Anda yang telah dimodifikasi dalam direktori yang sama dengan nama yang berbeda, sehingga berkas asli tetap tidak tersentuh—seperti rencana cadangan!
-## Langkah 7: Tutup Aliran File
-Terakhir, penting untuk menutup aliran file untuk membebaskan sumber daya sistem. 
+Ez a sor a módosított fájlt ugyanabba a könyvtárba, de más néven menti, így az eredeti változatlan marad – mint egy biztonsági mentési terv!
+## 7. lépés: Zárja be a fájlfolyamot
+Végül elengedhetetlen a fájlfolyam bezárása a rendszer erőforrásainak felszabadítása érdekében. 
 ```csharp
 fstream.Close();
 ```
-Ini memastikan semuanya berjalan dengan baik, dan tidak ada proses yang tertunda di latar belakang.
-## Kesimpulan
-Nah, itu dia! Anda baru saja memprogram cara Anda untuk mengatur tinggi baris di Excel menggunakan Aspose.Cells for .NET. Ini adalah proses mudah yang membuka pintu untuk interaksi yang lebih kompleks dengan file Excel.
-Siapa yang tahu sedikit coding dapat mengubah cara Anda menangani spreadsheet? Sekarang, Anda dapat membuat dokumen yang tertata rapi dan terstruktur dengan baik dalam waktu singkat. Dengan memanfaatkan Aspose.Cells, Anda tidak hanya dapat memanipulasi tinggi baris tetapi juga banyak fitur lain yang dapat membuat data Anda lebih menonjol.
-## Pertanyaan yang Sering Diajukan
-### Versi .NET apa yang didukung Aspose.Cells?
-Aspose.Cells untuk .NET kompatibel dengan beberapa versi .NET Framework, termasuk .NET Core.
-### Dapatkah saya mencoba Aspose.Cells secara gratis?
- Ya! Anda dapat mengunduh uji coba Aspose.Cells secara gratis[Di Sini](https://releases.aspose.com/).
-### Format Excel jenis apa yang dapat ditangani Aspose.Cells?
-Aspose.Cells mendukung banyak format seperti XLSX, XLS, CSV, dan banyak lagi.
-### Apakah Aspose.Cells cocok untuk aplikasi sisi server?
-Tentu saja! Aspose.Cells dirancang untuk menangani berbagai aplikasi, termasuk pemrosesan sisi server.
-### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat memeriksa dokumentasi terperinci untuk Aspose.Cells[Di Sini](https://reference.aspose.com/cells/net/).
+Ez biztosítja, hogy minden szépen lezajljon, és ne legyenek a háttérben elhúzódó folyamatok.
+## Következtetés
+És íme! Ezzel beprogramoztad a sormagasságok beállítását az Excelben az Aspose.Cells for .NET segítségével. Ez egy egyszerű folyamat, amely megnyitja az utat az Excel-fájlokkal való összetettebb interakciók előtt.
+Ki gondolta volna, hogy egy kis kódolás megváltoztathatja a táblázatkezelés módját? Mostantól pillanatok alatt létrehozhatsz kifinomult és jól strukturált dokumentumokat. Az Aspose.Cells használatával nemcsak a sormagasságokat manipulálhatod, hanem számos más funkciót is, amelyekkel kiemelheted az adataid.
+## GYIK
+### A .NET mely verzióit támogatja az Aspose.Cells?
+Az Aspose.Cells for .NET kompatibilis a .NET-keretrendszer több verziójával is, beleértve a .NET Core-t is.
+### Kipróbálhatom ingyen az Aspose.Cells-t?
+Igen! Letöltheted az Aspose.Cells ingyenes próbaverzióját. [itt](https://releases.aspose.com/).
+### Milyen Excel formátumokat tud kezelni az Aspose.Cells?
+Az Aspose.Cells számos formátumot támogat, például az XLSX-et, XLS-t, CSV-t és egyebeket.
+### Alkalmas az Aspose.Cells szerveroldali alkalmazásokhoz?
+Abszolút! Az Aspose.Cells-t úgy tervezték, hogy különféle alkalmazásokat kezeljen, beleértve a szerveroldali feldolgozást is.
+### Hol találok további dokumentációt?
+Az Aspose.Cells részletes dokumentációját itt tekintheti meg. [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **Mua:** Nếu bạn thấy hữu ích, hãy mua phiên bản đầy đủ từ [Trang web chính thức của Aspose](https://purchase.aspose.com/buy).
 
 #### Khởi tạo cơ bản
-Đảm bảo dự án của bạn được thiết lập với các phụ thuộc trên và khởi tạo Aspose.Cells trong ứng dụng Java của bạn để bắt đầu làm việc với các tệp Excel.
+Đảm bảo dự án của bạn được thiết lập với các phụ thuộc ở trên và khởi tạo Aspose.Cells trong ứng dụng Java của bạn để bắt đầu làm việc với các tệp Excel.
 
 ## Hướng dẫn thực hiện
 
@@ -179,6 +181,9 @@ A5: Ghé thăm [Diễn đàn hỗ trợ của Aspose](https://forum.aspose.com/c
 - **Ủng hộ:** Truy cập cộng đồng và hỗ trợ chuyên nghiệp thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

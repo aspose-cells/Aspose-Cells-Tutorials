@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0); // 첫 번째 워크시�
 
 ```java
 ImageOrPrintOptions opts = new ImageOrPrintOptions();
-opts.setOnePagePerSheet(true); // 한 장당 한 페이지 보장
+opts.setOnePagePerSheet(true); // 한 장당 한 페이지씩 보장합니다
 opts.setImageType(ImageType.PNG); // PNG로 출력 형식
 opts.setDesiredSize(400, 400); // 원하는 크기(너비 및 높이)를 설정하세요
 ```
@@ -169,6 +171,9 @@ PDF 변환이나 스프레드시트 조작 등 Aspose.Cells의 추가 기능을 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

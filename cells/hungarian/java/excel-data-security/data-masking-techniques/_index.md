@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatmaszkolási technikák
@@ -74,7 +76,7 @@ Most pedig vizsgáljunk meg néhány gyakori adatmaszkolási technikát az Aspos
 
 ### 1. Kihagyás
 
-kitakarás során az érzékeny adatokat helyőrzőkkel vagy véletlenszerű értékekkel helyettesítik. Ez biztosítja, hogy az eredeti információkat ne lehessen kikövetkeztetni.
+A kitakarás során az érzékeny adatokat helyőrzőkkel vagy véletlenszerű értékekkel helyettesítik. Ez biztosítja, hogy az eredeti információkat ne lehessen kikövetkeztetni.
 
 ```java
 // Cella értékének kitakarása
@@ -133,6 +135,7 @@ Az adatmaszkolás és az adatbiztonság legjobb gyakorlatainak megismeréséhez 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,6 +141,9 @@ Um die Funktionen von Aspose.Cells weiter zu erkunden, experimentieren Sie mit a
 Beginnen Sie noch heute mit dem Experimentieren mit Aspose.Cells für Java und erschließen Sie neue Potenziale für Ihre Datenverarbeitungsaufgaben!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

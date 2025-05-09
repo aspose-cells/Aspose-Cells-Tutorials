@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Trước tiên, hãy đảm bảo bạn có đủ các điều kiện tiên quy�
 
 Để làm theo hướng dẫn này, hãy đảm bảo rằng bạn có:
 
-- **Thư viện bắt buộc:** Thư viện Aspose.Cells cho Java. Đảm bảo nó tương thích với thiết lập dự án của bạn.
+- **Thư viện cần thiết:** Thư viện Aspose.Cells cho Java. Đảm bảo nó tương thích với thiết lập dự án của bạn.
 - **Thiết lập môi trường:** Cài đặt JDK trên máy của bạn và IDE phù hợp (như IntelliJ IDEA hoặc Eclipse).
 - **Yêu cầu về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với các thao tác trong Excel.
 
@@ -179,6 +181,9 @@ Sẵn sàng triển khai những gì bạn đã học? Hãy bắt đầu xây d�
 Khám phá thế giới báo cáo Excel động với Aspose.Cells for Java và mở khóa tiềm năng mới trong quản lý dữ liệu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

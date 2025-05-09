@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Học cách quản lý và sửa đổi kết nối dữ liệu Excel theo chương trình với Aspose.Cells for Java. Nâng cao kỹ năng tự động hóa quy trình làm việc của bạn."
-"title": "Làm chủ kết nối dữ liệu Excel bằng Aspose.Cells Java&#58; Hướng dẫn toàn diện"
+"title": "Kết nối dữ liệu Excel thành thạo bằng Aspose.Cells Java&#58; Hướng dẫn toàn diện"
 "url": "/vi/java/advanced-features/master-excel-data-connections-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ Sẵn sàng nâng cao kỹ năng tự động hóa của bạn lên một tầm 
 A1: Sử dụng `workbook.getDataConnections().get(index)` để truy cập từng kết nối riêng lẻ theo chỉ mục của nó.
 
 **Câu hỏi 2: Tôi có thể sửa đổi các thuộc tính khác của tệp Excel bằng Aspose.Cells Java không?**
-A2: Hoàn toàn đúng! Aspose.Cells hỗ trợ nhiều loại sửa đổi, từ định dạng ô đến các thao tác trên bảng tính.
+A2: Hoàn toàn đúng! Aspose.Cells hỗ trợ nhiều loại sửa đổi, từ định dạng ô đến thao tác bảng tính.
 
 **Câu hỏi 3: Nếu lệnh SQL của tôi không thực thi đúng thì sao?**
 A3: Đảm bảo chuỗi kết nối của bạn chính xác và quyền cơ sở dữ liệu của bạn được thiết lập đúng. Kiểm tra nhật ký để biết thông báo lỗi chi tiết.
@@ -191,6 +193,9 @@ A5: Phiên bản đánh giá bao gồm hình mờ trong tài liệu và có th�
 - **Tải xuống:** [Bản phát hành Aspose.Cells cho Java](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

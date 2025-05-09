@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan du börjar, se till att du har följande:
 
 - **Bibliotek och versioner:** Aspose.Cells för Java version 25.3.
 - **Miljöinställningar:** En fungerande Java-utvecklingsmiljö (JDK 8 eller senare) och en IDE som IntelliJ IDEA eller Eclipse.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering, inklusive objektorienterade koncept.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering, inklusive objektorienterade koncept.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -181,6 +183,9 @@ Ge dig ut på din resa med Aspose.Cells för Java och lås upp den fulla potenti
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

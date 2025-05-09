@@ -1,14 +1,16 @@
 ---
-title: Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना
-linktitle: Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: इस आसान चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में समान बॉर्डर शैलियों को प्रोग्रामेटिक रूप से निर्यात करना सीखें।
-weight: 13
-url: /hi/net/exporting-excel-to-html-with-advanced-options/exporting-similar-border-style/
+"description": "इस आसान चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में समान बॉर्डर शैलियों को प्रोग्रामेटिक रूप से निर्यात करना सीखें।"
+"linktitle": "Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना"
+"url": "/hi/net/exporting-excel-to-html-with-advanced-options/exporting-similar-border-style/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel में प्रोग्रामेटिक रूप से समान बॉर्डर शैली निर्यात करना
@@ -18,9 +20,9 @@ url: /hi/net/exporting-excel-to-html-with-advanced-options/exporting-similar-bor
 ## आवश्यक शर्तें
 इससे पहले कि हम कोडिंग की प्रक्रिया में आगे बढ़ें, आइए सुनिश्चित करें कि आपके पास आरंभ करने के लिए सभी आवश्यक तैयारी है:
 1. विज़ुअल स्टूडियो: आपको अपनी मशीन पर विज़ुअल स्टूडियो इंस्टॉल करना होगा। यहीं पर हम अपना कोड लिखेंगे।
-2.  .NET के लिए Aspose.Cells: आप इस लाइब्रेरी को यहाँ से प्राप्त कर सकते हैं[Aspose.Cells डाउनलोड पृष्ठ](https://releases.aspose.com/cells/net/). इसे अपने प्रोजेक्ट में शामिल करना सुनिश्चित करें।
+2. .NET के लिए Aspose.Cells: आप इस लाइब्रेरी को यहाँ से प्राप्त कर सकते हैं [Aspose.Cells डाउनलोड पृष्ठ](https://releases.aspose.com/cells/net/). इसे अपने प्रोजेक्ट में शामिल करना सुनिश्चित करें।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना बहुत ज़रूरी है। अगर आप पहले से ही C# को समझने में सहज हैं, तो आप तैयार हैं!
-4. नमूना एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल लें (जैसे`sampleExportSimilarBorderStyle.xlsx`) जिन्हें आप ट्यूटोरियल के दौरान संशोधित कर सकते हैं और उनके साथ खेल सकते हैं।
+4. नमूना एक्सेल फ़ाइल: एक नमूना एक्सेल फ़ाइल लें (जैसे `sampleExportSimilarBorderStyle.xlsx`) जिन्हें आप ट्यूटोरियल के दौरान संशोधित कर सकते हैं और उनके साथ खेल सकते हैं।
 अब जब हमने यह काम पूरा कर लिया है, तो अब कार्रवाई का समय है!
 ## पैकेज आयात करें
 काम शुरू करने के लिए, अपने C# प्रोजेक्ट में ज़रूरी पैकेज आयात करना ज़रूरी है। यह कदम किसी बड़ी यात्रा से पहले अपना सामान पैक करने जैसा है। इसे इस तरह करें:
@@ -51,7 +53,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 ## चरण 2: नमूना एक्सेल फ़ाइल लोड करें
- अब जबकि हमने अपनी निर्देशिकाएं परिभाषित कर ली हैं, अगला चरण हमारी नमूना एक्सेल फ़ाइल को एक निर्देशिका में लोड करना है।`Workbook` इसे ऐसे समझिए जैसे आप अपना सूटकेस खोलकर देख रहे हैं कि आपके पास क्या-क्या खजाना है!
+अब जबकि हमने अपनी निर्देशिकाएं परिभाषित कर ली हैं, अगला चरण हमारी नमूना एक्सेल फ़ाइल को एक निर्देशिका में लोड करना है। `Workbook` इसे ऐसे समझिए जैसे आप अपना सूटकेस खोलकर देख रहे हैं कि आपके पास क्या-क्या खजाना है!
 ```csharp
 //नमूना एक्सेल फ़ाइल लोड करें
 Workbook wb = new Workbook(sourceDir + "sampleExportSimilarBorderStyle.xlsx");
@@ -81,16 +83,18 @@ Console.WriteLine("ExportSimilarBorderStyle executed successfully.");
 ### Aspose.Cells क्या है?
 Aspose.Cells एक्सेल फाइलों के प्रबंधन के लिए एक शक्तिशाली .NET लाइब्रेरी है, जो डेवलपर्स को प्रोग्रामेटिक रूप से स्प्रेडशीट बनाने, हेरफेर करने और परिवर्तित करने की अनुमति देती है।
 ### क्या मुझे Aspose.Cells का उपयोग करने के लिए लाइसेंस की आवश्यकता है?
-आपको उत्पादन उपयोग के लिए लाइसेंस की आवश्यकता होगी।[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
+आपको उत्पादन उपयोग के लिए लाइसेंस की आवश्यकता होगी। [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) मूल्यांकन हेतु.
 ### क्या मैं Aspose का उपयोग करके विभिन्न प्रारूपों को निर्यात कर सकता हूँ?
 हाँ! Aspose.Cells XLSX, CSV, PDF, आदि जैसे कई प्रारूपों का समर्थन करता है।
 ### मैं Aspose.Cells के लिए समर्थन कहां पा सकता हूं?
- सहायता निम्नलिखित माध्यम से उपलब्ध है[एस्पोज फोरम](https://forum.aspose.com/c/cells/9) सामुदायिक सहायता के लिए.
+सहायता निम्नलिखित माध्यम से उपलब्ध है [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) सामुदायिक सहायता के लिए.
 ### मैं Aspose.Cells कैसे डाउनलोड करूं?
- आप इसे सीधे यहां से डाउनलोड कर सकते हैं[Aspose.Cells रिलीज़ पृष्ठ](https://releases.aspose.com/cells/net/).
+आप इसे सीधे यहां से डाउनलोड कर सकते हैं [Aspose.Cells रिलीज़ पृष्ठ](https://releases.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

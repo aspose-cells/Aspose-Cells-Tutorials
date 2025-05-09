@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ Poznaj inne funkcje pakietu Aspose.Cells, takie jak manipulacja danymi i zaawans
    - Korzystaj z interfejsów API przesyłania strumieniowego i optymalizuj wykorzystanie pamięci, szybko zwalniając zasoby.
 2. **Czy mogę używać Aspose.Cells bez licencji w środowisku produkcyjnym?**
    - Do produkcji wymagana jest licencja komercyjna; zacznij od wersji próbnej, aby poznać możliwości oprogramowania.
-3. **Jak obsługiwać różne ograniczniki pliku CSV?**
+3. **Jak radzić sobie z różnymi ogranicznikami pliku CSV?**
    - Konfiguruj `TxtSaveOptions` stosując metody takie jak `setSeparator(';')`.
 4. **Co zrobić, jeśli mój skoroszyt zawiera formuły?**
    - Aspose.Cells obliczy i wyeksportuje wyniki formuły podczas zapisywania ich w formatach tekstowych.
@@ -124,6 +126,9 @@ Poznaj inne funkcje pakietu Aspose.Cells, takie jak manipulacja danymi i zaawans
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

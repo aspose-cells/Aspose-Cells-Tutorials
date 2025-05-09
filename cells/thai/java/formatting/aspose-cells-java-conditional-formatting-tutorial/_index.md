@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ book.save(outDir + "ASToARAC_out.xlsx");
 
 เมื่อทำงานกับชุดข้อมูลขนาดใหญ่ ควรพิจารณาเคล็ดลับเหล่านี้เพื่อเพิ่มประสิทธิภาพการทำงาน:
 
-- ลดจำนวนกฎการจัดรูปแบบตามเงื่อนไขที่ใช้พร้อมๆ กันเพื่อลดเวลาในการประมวลผล
+- ลดจำนวนกฎการจัดรูปแบบตามเงื่อนไขที่ใช้พร้อมกันให้เหลือน้อยที่สุดเพื่อลดเวลาในการประมวลผล
 - ใช้สูตรที่มีประสิทธิภาพซึ่งไม่จำเป็นต้องคำนวณทั้งแถวหรือคอลัมน์ใหม่โดยไม่จำเป็น
 - จัดการการใช้หน่วยความจำโดยบันทึกการเปลี่ยนแปลงเป็นระยะๆ และปลดปล่อยทรัพยากรหากต้องจัดการกับสมุดงานขนาดใหญ่มาก
 
@@ -182,6 +184,9 @@ book.save(outDir + "ASToARAC_out.xlsx");
 ระบุรูปแบบการบันทึกที่ต้องการ (เช่น XLS หรือ XLSX) เพื่อรักษาความเข้ากันได้กับ Excel เวอร์ชันต่างๆ Aspose.Cells รองรับรูปแบบต่างๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

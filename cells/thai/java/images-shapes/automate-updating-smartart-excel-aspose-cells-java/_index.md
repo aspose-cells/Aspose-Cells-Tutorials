@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 
 ในบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java เพื่ออัปเดตกราฟิก SmartArt ในเวิร์กบุ๊ก Excel โดยใช้ Java เมื่ออ่านคู่มือนี้จบ คุณจะทราบวิธีการดังต่อไปนี้:
 - โหลดสมุดงานที่มีอยู่
-- ทำซ้ำผ่านแผ่นงานและรูปร่าง
+- ทำซ้ำผ่านเวิร์กชีตและรูปร่าง
 - อัปเดตกราฟิก SmartArt อย่างมีประสิทธิภาพ
 - บันทึกการเปลี่ยนแปลงของคุณด้วยการกำหนดค่าที่อัปเดต
 
@@ -175,6 +177,9 @@ A5: เยี่ยมชม [เอกสารประกอบของ Aspo
 - **ฟอรั่มสนับสนุน**:เข้าร่วมการสนทนาและขอความช่วยเหลือได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

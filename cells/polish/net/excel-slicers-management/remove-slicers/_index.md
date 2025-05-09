@@ -1,14 +1,16 @@
 ---
-title: Usuwanie Slicerów w Aspose.Cells .NET
-linktitle: Usuwanie Slicerów w Aspose.Cells .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo usuwać fragmentatory z plików Excela za pomocą Aspose.Cells dla .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 15
-url: /pl/net/excel-slicers-management/remove-slicers/
+"description": "Dowiedz się, jak łatwo usuwać fragmentatory z plików Excela za pomocą Aspose.Cells dla .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Usuwanie Slicerów w Aspose.Cells .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Usuwanie Slicerów w Aspose.Cells .NET"
+"url": "/pl/net/excel-slicers-management/remove-slicers/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Usuwanie Slicerów w Aspose.Cells .NET
@@ -19,10 +21,10 @@ Jeśli kiedykolwiek pracowałeś z plikami Excela, wiesz, jak przydatne mogą by
 Zanim przejdziemy do właściwego kodowania, jest kilka rzeczy, które musisz skonfigurować:
 1. Visual Studio: Upewnij się, że masz je zainstalowane na swoim komputerze. To właśnie tam uruchomimy nasz kod.
 2. .NET Framework: Upewnij się, że Twój projekt obsługuje .NET Framework.
-3.  Aspose.Cells dla .NET: Musisz mieć dostępną tę bibliotekę. Jeśli jeszcze jej nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells dla .NET: Musisz mieć dostępną tę bibliotekę. Jeśli jeszcze jej nie masz, możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Przykładowy plik Excela: W naszym przykładzie powinieneś mieć przykładowy plik Excela zawierający slicer. Możesz go utworzyć lub pobrać z różnych zasobów online.
 ### Potrzebujesz więcej pomocy?
- Jeśli masz jakieś pytania lub potrzebujesz wsparcia, możesz zapoznać się z[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Jeśli masz jakieś pytania lub potrzebujesz wsparcia, możesz zapoznać się z [Forum Aspose](https://forum.aspose.com/c/cells/9).
 ## Importuj pakiety
 Następnie musimy zaimportować odpowiednie pakiety do naszego kodu. Oto, co musisz zrobić:
 ### Dodaj niezbędne przestrzenie nazw
@@ -35,23 +37,23 @@ using System.Text;
 ```
 Po zaimportowaniu tych przestrzeni nazw można korzystać ze wszystkich przydatnych funkcji udostępnianych przez Aspose.Cells.
 
-Teraz, gdy wszystko mamy już na swoim miejscu, podzielmy proces usuwania fragmentatorów na łatwiejsze do wykonania kroki.
+Teraz, gdy wszystko mamy już na swoim miejscu, możemy podzielić proces usuwania fragmentatorów na łatwiejsze do wykonania kroki.
 ## Krok 1: Konfigurowanie katalogów
-Musimy zdefiniować ścieżki do pliku źródłowego i pliku wyjściowego, w którym zapiszemy zmodyfikowany plik programu Excel.
+Musimy zdefiniować ścieżki do pliku źródłowego i pliku wyjściowego, w którym zapiszemy zmodyfikowany plik Excela.
 ```csharp
 // Katalog źródłowy
 string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Po prostu zamień`"Your Document Directory"` rzeczywistą ścieżką na Twoim komputerze, gdzie znajduje się plik Excel.
+Po prostu zamień `"Your Document Directory"` z rzeczywistą ścieżką na Twoim komputerze, gdzie znajduje się plik Excel.
 ## Krok 2: Ładowanie pliku Excel
-Następnym krokiem jest załadowanie pliku Excel zawierającego fragmentator, który chcemy usunąć.
+Następnym krokiem będzie załadowanie pliku Excel zawierającego fragmentator, który chcemy usunąć.
 ```csharp
 // Załaduj przykładowy plik Excel zawierający slicer.
 Workbook wb = new Workbook(sourceDir + "sampleRemovingSlicer.xlsx");
 ```
- W tej linii tworzymy nowy`Workbook` instancji do przechowywania naszego pliku. Możesz chcieć utworzyć metodę do obsługi ścieżek plików bardziej dynamicznie w przyszłych projektach.
+W tej linii tworzymy nowy `Workbook` instancji do przechowywania naszego pliku. Możesz chcieć utworzyć metodę do obsługi ścieżek plików bardziej dynamicznie w przyszłych projektach.
 ## Krok 3: Dostęp do arkusza kalkulacyjnego
 Po załadowaniu skoroszytu, następnym logicznym krokiem jest dostęp do arkusza, w którym znajduje się Twój slicer. W tym przypadku uzyskamy dostęp do pierwszego arkusza.
 ```csharp
@@ -67,7 +69,7 @@ Aspose.Cells.Slicers.Slicer slicer = ws.Slicers[0];
 ```
 Przed uruchomieniem tego wiersza upewnij się, że w kolekcji znajduje się co najmniej jeden slicer; w przeciwnym razie mogą wystąpić błędy.
 ## Krok 5: Wyjmowanie krajalnicy
- Teraz nadchodzi wielki moment — usunięcie krajalnicy! To tak proste, jak wywołanie`Remove` metodę na slicerach arkusza kalkulacyjnego.
+Teraz nadchodzi wielki moment — usunięcie krajalnicy! To tak proste, jak wywołanie `Remove` metodę na slicerach arkusza kalkulacyjnego.
 ```csharp
 // Usuń krajalnicę.
 ws.Slicers.Remove(slicer);
@@ -90,18 +92,20 @@ Po uruchomieniu programu zobaczysz ten komunikat, co oznacza, że wszystko przeb
 Usuwanie fragmentatorów w pliku Excel przy użyciu Aspose.Cells dla .NET to pestka, prawda? Rozbijając proces na te proste kroki, nauczyłeś się, jak załadować plik Excel, uzyskać dostęp do arkusza kalkulacyjnego, identyfikować i usuwać fragmentatory, zapisywać zmiany i weryfikować sukces za pomocą komunikatu. Całkiem zgrabne jak na tak proste zadanie!
 ## Najczęściej zadawane pytania
 ### Czy mogę usunąć wszystkie slicery w arkuszu kalkulacyjnym?
- Tak, możesz przejść przez pętlę`ws.Slicers` kolekcję i usuń każdą z nich.
+Tak, możesz przejść przez pętlę `ws.Slicers` kolekcję i usuń każdą z nich.
 ### Co zrobić, jeśli chcę zachować narzędzie do krojenia, ale je ukryć?
- Zamiast usuwać, możesz po prostu ustawić właściwość widoczności krajalnicy na`false`.
+Zamiast usuwać, możesz po prostu ustawić właściwość widoczności krajalnicy na `false`.
 ### Czy Aspose.Cells obsługuje inne formaty plików?
 Oczywiście! Aspose.Cells pozwala na pracę z różnymi formatami Excela, w tym XLSX, XLS i CSV.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells oferuje[bezpłatny okres próbny](https://releases.aspose.com/) wersja, ale do korzystania z pełnej funkcjonalności potrzebna jest płatna licencja.
+Aspose.Cells oferuje [bezpłatny okres próbny](https://releases.aspose.com/) wersja, ale do korzystania z pełnej funkcjonalności potrzebna jest płatna licencja.
 ### Czy mogę używać Aspose.Cells z aplikacjami .NET Core?
 Tak, Aspose.Cells obsługuje platformę .NET Core, dzięki czemu możesz go używać w projektach .NET Core.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

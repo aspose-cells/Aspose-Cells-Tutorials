@@ -8,7 +8,9 @@ url: /net/excel-character-and-cell-formatting/formatting-selected-characters/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Selected Characters in Excel
@@ -98,6 +100,7 @@ You can obtain a temporary license through this [Temporary license link](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

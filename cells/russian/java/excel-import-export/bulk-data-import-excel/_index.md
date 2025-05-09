@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Массовый импорт данных Excel
@@ -99,9 +101,11 @@ Aspose.Cells for Java предоставляет обширные возможн
 Да, пожалуйста, ознакомьтесь с информацией о лицензировании на веб-сайте Aspose для получения подробной информации о лицензировании и ценах.
 
 Не стесняйтесь изучать дальше и адаптировать примеры кода под свои конкретные требования. Удачного кодирования!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

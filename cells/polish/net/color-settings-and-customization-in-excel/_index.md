@@ -1,14 +1,16 @@
 ---
-title: Ustawienia i dostosowywanie kolorów w programie Excel
-linktitle: Ustawienia i dostosowywanie kolorów w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Opanuj ustawienia kolorów i dostosowywanie w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo obliczyć wybrany kolor programu Excel w tym samouczku krok po kroku.
-weight: 27
-url: /pl/net/color-settings-and-customization-in-excel/
+"description": "Opanuj ustawienia kolorów i dostosowywanie w programie Excel za pomocą Aspose.Cells dla .NET. Dowiedz się, jak programowo obliczyć wybrany kolor programu Excel w tym samouczku krok po kroku."
+"linktitle": "Ustawienia i dostosowywanie kolorów w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawienia i dostosowywanie kolorów w programie Excel"
+"url": "/pl/net/color-settings-and-customization-in-excel/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawienia i dostosowywanie kolorów w programie Excel
@@ -26,9 +28,11 @@ Jedną z fascynujących cech programu Excel jest formatowanie warunkowe. Excel a
 ## Ustawienia kolorów i dostosowywanie w samouczkach programu Excel
 ### [Oblicz kolor wybrany przez program MS Excel programowo](./compute-color-chosen-by-ms-excel/)
 Dowiedz się, jak obliczyć kolor wybrany przez MS Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać programowy dostęp do warunkowego formatowania koloru programu Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

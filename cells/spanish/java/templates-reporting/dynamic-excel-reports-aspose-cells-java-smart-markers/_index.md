@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-### Característica 2: Configuración del marcador inteligente
+### Función 2: Configuración de marcador inteligente
 
 **Descripción general:** Los marcadores inteligentes son marcadores de posición dentro de una plantilla que Aspose.Cells utiliza para vincular datos dinámicamente.
 
@@ -235,6 +237,9 @@ A: Los marcadores inteligentes permiten propiedades anidadas, lo que le permite 
 R: Las opciones incluyen una prueba gratuita, una licencia temporal y la compra completa. Visita [El sitio web de Aspose](https://purchase.aspose.com/buy) Para más información.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

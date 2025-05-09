@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Caricare e manipolare file CSV può essere complicato, soprattutto quando si ha 
 
 **Cosa imparerai:**
 - Impostazione di Aspose.Cells per Java
-- Caricare un file CSV senza sforzo
+- Caricamento di un file CSV senza sforzo
 - Configurazione delle opzioni di carico per prestazioni ottimali
 
 Analizziamo nel dettaglio i prerequisiti per iniziare a implementare questa potente funzionalità fin da oggi!
@@ -176,6 +178,9 @@ Pronto a provarlo? Implementa questa soluzione nel tuo prossimo progetto e scopr
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

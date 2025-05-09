@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,7 +151,7 @@ Ajustar a altura das linhas tem inúmeras aplicações no mundo real:
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**: Feche as pastas de trabalho e libere recursos imediatamente.
+- **Otimizar o uso da memória**: Feche as pastas de trabalho e libere recursos imediatamente.
 - **Linhas de processamento em lote**: Ao ajustar várias linhas, as operações em lote podem melhorar o desempenho.
 - **Gerencie arquivos grandes com eficiência**: Use técnicas de streaming para conjuntos de dados muito grandes, se aplicável.
 
@@ -189,6 +191,9 @@ Pronto para experimentar? Aplique o que aprendeu hoje no seu próximo projeto!
 - **Fóruns de suporte**: Participe de discussões e faça perguntas no [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

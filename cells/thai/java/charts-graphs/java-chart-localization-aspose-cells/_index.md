@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@
 
 #### ไลบรารีและการอ้างอิงที่จำเป็น
 
-ในการใช้ Aspose.Cells สำหรับ Java คุณจะต้องรวมไว้ในการกำหนดค่าการสร้างโปรเจ็กต์ของคุณ:
+ในการใช้ Aspose.Cells สำหรับ Java คุณจะต้องรวมไว้ในการกำหนดค่าการสร้างของโครงการของคุณ:
 
 **สำหรับ Maven:**
 ```xml
@@ -196,6 +198,9 @@ public void localizeChart(Chart chart) {
 เริ่มต้นการเดินทางของคุณเพื่อระบุตำแหน่งของแผนภูมิได้อย่างมีประสิทธิผลด้วย Aspose.Cells ช่วยเพิ่มขอบเขตและผลกระทบของแอปพลิเคชัน Java ของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

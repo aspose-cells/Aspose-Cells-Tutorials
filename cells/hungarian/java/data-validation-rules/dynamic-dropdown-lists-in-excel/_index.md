@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dinamikus legördülő listák Excelben
@@ -51,7 +53,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ## 4. lépés: A legördülő lista forrásának meghatározása
 
-Dinamikus legördülő lista létrehozásához szükséged van egy forrásra, amelyből a lista kiolvassa az értékeit. Tegyük fel, hogy gyümölcsökből szeretnél egy legördülő listát létrehozni. Így definiálhatsz egy gyümölcsnevekből álló tömböt:
+Dinamikus legördülő lista létrehozásához szükséged van egy forrásra, amelyből a lista kiolvassa az értékeit. Tegyük fel, hogy gyümölcsökből szeretnél egy legördülő listát létrehozni. A következőképpen definiálhatsz egy gyümölcsnevekből álló tömböt:
 
 ```java
 String[] fruits = {"Apple", "Banana", "Cherry", "Grapes", "Orange"};
@@ -115,6 +117,7 @@ legördülő listában szereplő elemek számát az Excel maximális munkalapmé
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

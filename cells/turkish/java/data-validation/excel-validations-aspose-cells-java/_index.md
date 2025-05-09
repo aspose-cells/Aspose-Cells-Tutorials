@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ workbook.save(outDir + "/ValidationsSample_out.xlsx");
 Değiştirilen çalışma kitabı artık kaydedildi.
 ## Pratik Uygulamalar
 Aspose.Cells çeşitli senaryolarda kullanılabilir, bunlar arasında şunlar yer alır:
-1. **İş Raporları için Veri Doğrulaması:** Raporlar arasında veri bütünlüğü kurallarını otomatik olarak uygulayın.
+1. **İşletme Raporları için Veri Doğrulaması:** Raporlar arasında veri bütünlüğü kurallarını otomatik olarak uygulayın.
 2. **Finansal Veri Yönetimi:** Finansal girişleri doğrulayarak doğruluğu ve uyumluluğu sağlayın.
 3. **Anket Veri Analizi:** Tutarlı anket yanıtlarını garantilemek için doğrulama kurallarını uygulayın.
 ## Performans Hususları
@@ -148,6 +150,9 @@ Bu kılavuz, Java uygulamalarında Aspose.Cells kullanarak Excel doğrulamaları
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

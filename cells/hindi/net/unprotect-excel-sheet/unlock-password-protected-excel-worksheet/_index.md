@@ -1,14 +1,16 @@
 ---
-title: पासवर्ड संरक्षित एक्सेल वर्कशीट अनलॉक करें
-linktitle: पासवर्ड संरक्षित एक्सेल वर्कशीट अनलॉक करें
-second_title: .NET API संदर्भ के लिए Aspose.Cells
-description: .NET के लिए Aspose.Cells का उपयोग करके पासवर्ड से सुरक्षित Excel स्प्रेडशीट को अनलॉक करना सीखें। C# में चरण-दर-चरण ट्यूटोरियल।
-weight: 10
-url: /hi/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके पासवर्ड से सुरक्षित Excel स्प्रेडशीट को अनलॉक करना सीखें। C# में चरण-दर-चरण ट्यूटोरियल।"
+"linktitle": "पासवर्ड संरक्षित एक्सेल वर्कशीट अनलॉक करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.Cells"
+"title": "पासवर्ड संरक्षित एक्सेल वर्कशीट अनलॉक करें"
+"url": "/hi/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पासवर्ड संरक्षित एक्सेल वर्कशीट अनलॉक करें
@@ -27,7 +29,7 @@ url: /hi/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 
 ### .NET के लिए Aspose.Cells
 
- आपके पास .NET के लिए Aspose.Cells होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/) . सुनिश्चित करें कि आप दस्तावेज़ों से परिचित हों, जो यहां मिल सकते हैं[यहाँ](https://reference.aspose.com/cells/net/).
+आपके पास .NET के लिए Aspose.Cells होना चाहिए। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/). सुनिश्चित करें कि आप दस्तावेज़ों से परिचित हैं, जो यहां मिल सकते हैं [यहाँ](https://reference.aspose.com/cells/net/).
 
 ### बुनियादी कोडिंग ज्ञान
 
@@ -76,7 +78,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- सुझाव: प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी एक्सेल फ़ाइल (चलिए इसे कहते हैं)`book1.xls`) स्थित है। 
+सुझाव: प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` वास्तविक पथ के साथ जहाँ आपकी एक्सेल फ़ाइल (चलिए इसे कहते हैं) `book1.xls`) स्थित है। 
 
 ## चरण 2: वर्कबुक ऑब्जेक्ट को इंस्टैंसिएट करें
 
@@ -106,7 +108,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Unprotect("");
 ```
 
- यदि आपकी वर्कशीट पासवर्ड से सुरक्षित है और आपको पासवर्ड पता है, तो आप खाली स्ट्रिंग को प्रतिस्थापित करेंगे`""` वास्तविक पासवर्ड के साथ। यदि आप इसे नहीं जानते हैं, तो बस इसे खाली छोड़ दें और यह देखने के लिए इसे चलाएँ कि यह काम करता है या नहीं।
+यदि आपकी वर्कशीट पासवर्ड से सुरक्षित है और आपको पासवर्ड पता है, तो आप खाली स्ट्रिंग को प्रतिस्थापित करेंगे `""` वास्तविक पासवर्ड के साथ। यदि आप इसे नहीं जानते हैं, तो बस इसे खाली छोड़ दें और यह देखने के लिए इसे चलाएँ कि यह काम करता है या नहीं।
 
 ## चरण 5: कार्यपुस्तिका सहेजें
 
@@ -120,7 +122,7 @@ workbook.Save(dataDir + "output.out.xls");
 
 ## चरण 6: अपवाद प्रबंधन
 
-अंत में, आइए हम उन संभावित समस्याओं से निपटें जो उत्पन्न हो सकती हैं। 
+अंत में, आइए हम किसी भी संभावित समस्या से निपटें जो उत्पन्न हो सकती है। 
 
 ```csharp
 catch (Exception ex)
@@ -139,22 +141,24 @@ catch (Exception ex)
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं बिना पासवर्ड के एक्सेल वर्कशीट अनलॉक कर सकता हूँ?  
-हां, आप पासवर्ड फ़ील्ड को खाली छोड़कर पासवर्ड जाने बिना संरक्षित शीट को अनलॉक करने का प्रयास कर सकते हैं।
+हां, आप पासवर्ड जाने बिना पासवर्ड फ़ील्ड को खाली छोड़कर संरक्षित शीट को अनलॉक करने का प्रयास कर सकते हैं।
 
 ### क्या Aspose.Cells का उपयोग निःशुल्क है?  
- Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन विस्तारित उपयोग के लिए, आपको लाइसेंस खरीदना होगा। उनकी जाँच करें[खरीदें पेज](https://purchase.aspose.com/buy).
+Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन विस्तारित उपयोग के लिए, आपको लाइसेंस खरीदना होगा। उनकी जाँच करें [खरीदें पेज](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells किन प्रारूपों का समर्थन करता है?  
 Aspose.Cells विभिन्न एक्सेल प्रारूपों का समर्थन करता है, जिसमें XLS, XLSX, CSV, आदि शामिल हैं।
 
 ### मैं Aspose.Cells कैसे स्थापित करूँ?  
- आप इसे NuGet के माध्यम से इंस्टॉल कर सकते हैं या सीधे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+आप इसे NuGet के माध्यम से इंस्टॉल कर सकते हैं या सीधे डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 
-### मुझे Aspose.Cells के लिए समर्थन कहां मिल सकता है?  
- आप समुदाय-संचालित समर्थन यहाँ पा सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+### मैं Aspose.Cells के लिए समर्थन कहां से प्राप्त कर सकता हूं?  
+आप समुदाय-संचालित समर्थन यहाँ पा सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

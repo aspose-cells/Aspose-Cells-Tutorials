@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelOpener {
     public static void main(String[] args) throws Exception {
-        // ระบุเส้นทางไดเร็กทอรีต้นทาง
+        // ระบุเส้นทางไดเร็กทอรีแหล่งที่มา
         String srcDir = "path/to/your/source/directory/";
 
         // สร้างวัตถุเวิร์กบุ๊กด้วยเส้นทางไฟล์ Excel
@@ -172,6 +174,9 @@ public class OpeningExcel95_5_0XLSFiles {
 - **สนับสนุน**:เข้าร่วมฟอรัมชุมชนเพื่อถามคำถามและแบ่งปันข้อมูลเชิงลึก [ที่นี่](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

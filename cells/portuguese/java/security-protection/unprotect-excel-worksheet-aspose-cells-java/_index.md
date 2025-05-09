@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Cansado de lidar com arquivos protegidos do Excel que bloqueiam modificações? Seja para atualizar um arquivo compartilhado ou para ajustar alguns dados, gerenciar as configurações de proteção pode ser complicado. **Aspose.Cells para Java** oferece uma solução perfeita para desproteger planilhas do Excel, integrando-se eficientemente aos seus aplicativos.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar o Aspose.Cells para Java para manipular arquivos do Excel.
 - O processo passo a passo para remover a proteção da planilha.
@@ -186,6 +188,9 @@ R: Embora o Aspose.Cells seja otimizado para eficiência, considere otimizar o u
 Comece a implementar esta solução hoje mesmo para otimizar o gerenciamento de arquivos do Excel com o Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

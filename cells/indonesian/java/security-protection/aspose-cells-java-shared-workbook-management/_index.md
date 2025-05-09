@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Buku Kerja Bersama di Java dengan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 Mengelola buku kerja bersama bisa jadi menantang, terutama jika melibatkan pemeliharaan log revisi dan memastikan kolaborasi tim yang lancar. Aspose.Cells untuk Java menawarkan fitur-fitur canggih untuk membuat, berbagi, dan mengelola file Excel secara terprogram, sehingga memudahkan Anda untuk menyederhanakan proses pengelolaan buku kerja.
 
 Dalam panduan ini, kami akan membahas:
@@ -23,11 +25,11 @@ Dalam panduan ini, kami akan membahas:
 
 Pada akhirnya, Anda akan memiliki wawasan praktis tentang penerapan fitur-fitur ini secara efektif. Mari kita mulai dengan prasyaratnya.
 
-### Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki:
-1. **Perpustakaan dan Versi**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-2. **Pengaturan Lingkungan**: Java Development Kit (JDK) terinstal pada sistem Anda.
-3. **Persyaratan Pengetahuan**: Keakraban dengan dasar-dasar pemrograman Java.
+### Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
+1. **Könyvtárak és verziók**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+2. **Környezet beállítása**: Java Development Kit (JDK) terinstal pada sistem Anda.
+3. **Tudáskövetelmények**: Keakraban dengan dasar-dasar pemrograman Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
 Untuk memulai, integrasikan Aspose.Cells ke dalam proyek Anda menggunakan manajer paket seperti Maven atau Gradle.
@@ -46,27 +48,27 @@ Untuk memulai, integrasikan Aspose.Cells ke dalam proyek Anda menggunakan manaje
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 Aspose.Cells untuk Java menawarkan uji coba gratis untuk mengevaluasi fitur-fiturnya:
-- **Uji Coba Gratis**: Unduh dari [Sel Aspose Rilis](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Daftar melalui [Halaman Pembelian Aspose](https://purchase.aspose.com/temporary-license/) untuk pengujian fitur tingkat lanjut.
-- **Pembelian**:Untuk akses penuh, kunjungi [Aspose Pembelian](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**Letöltés innen: [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Daftar melalui [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/) untuk pengujian fitur tingkat lanjut.
+- **Vásárlás**Teljes hozzáférésért látogasson el ide: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-**Inisialisasi dan Pengaturan Dasar:**
+**Alapvető inicializálás és beállítás:**
 Setelah pustaka ditambahkan ke proyek Anda, inisialisasi Aspose.Cells di aplikasi Java Anda:
 ```java
 import com.aspose.cells.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Kode Anda di sini
+        // A kódod itt
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Tampilkan Versi Aspose.Cells
-**Ringkasan**Periksa versi Aspose.Cells untuk Java yang Anda gunakan.
+**Áttekintés**Periksa versi Aspose.Cells untuk Java yang Anda gunakan.
 
 #### Langkah 1: Impor paket yang diperlukan
 ```java
@@ -79,7 +81,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 ```
 ### Membuat dan Membagikan Buku Kerja
-**Ringkasan**: Hasilkan buku kerja kosong dan konfigurasikan untuk dibagikan.
+**Áttekintés**: Hasilkan buku kerja kosong dan konfigurasikan untuk dibagikan.
 
 #### Langkah 1: Inisialisasi Aspose.Cells dan buat buku kerja baru
 ```java
@@ -93,7 +95,7 @@ writableCellSettings.setShared(true);
 wb.save("YOUR_OUTPUT_DIRECTORY/outputShared_Workbook.xlsx");
 ```
 ### Memperbarui Hari Menyimpan Riwayat Log Revisi di Buku Kerja Bersama
-**Ringkasan**: Sesuaikan jumlah hari di mana buku kerja bersama menyimpan riwayat revisinya.
+**Áttekintés**: Sesuaikan jumlah hari di mana buku kerja bersama menyimpan riwayat revisinya.
 
 #### Langkah 1: Inisialisasi Aspose.Cells dan buat buku kerja baru
 ```java
@@ -107,23 +109,23 @@ writableCellSettings.setShared(true);
 writableCellSettings.getWorksheets().getRevisionLogs().setDaysPreservingHistory(7); // Ditetapkan ke 7 hari
 wb.save("YOUR_OUTPUT_DIRECTORY/outputShared_DaysPreservingHistory.xlsx");
 ```
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Kolaborasi Tim**: Gunakan buku kerja bersama untuk proyek kolaboratif di mana banyak pengguna memerlukan akses secara bersamaan.
-2. **Pelaporan Keuangan**: Terapkan log revisi dalam dokumen keuangan untuk melacak perubahan dari waktu ke waktu, memastikan kepatuhan audit.
-3. **Manajemen Proyek**: Kelola jadwal dan sumber daya proyek dalam lingkungan bersama, yang memungkinkan pembaruan secara waktu nyata.
+2. **Pénzügyi jelentéstétel**: Terapkan log revisi dalam dokumen keuangan untuk melacak perubahan dari waktu ke waktu, memastikan kepatuhan audit.
+3. **Projektmenedzsment**: Kelola jadwal dan sumber daya proyek dalam lingkungan bersama, yang memungkinkan pembaruan secara waktu nyata.
 
-## Pertimbangan Kinerja
-- **Optimalkan Penggunaan Memori**: Pantau penggunaan memori aplikasi Anda secara teratur saat menangani buku kerja besar.
-- **Praktik Terbaik**: Manfaatkan pengaturan Aspose.Cells untuk mengelola ukuran dan kinerja buku kerja secara efisien.
+## Teljesítménybeli szempontok
+- **Memóriahasználat optimalizálása**: Pantau penggunaan memori aplikasi Anda secara teratur saat menangani buku kerja besar.
+- **Bevált gyakorlatok**: Manfaatkan pengaturan Aspose.Cells untuk mengelola ukuran dan kinerja buku kerja secara efisien.
 
-## Kesimpulan
+## Következtetés
 Panduan ini membahas langkah-langkah penting untuk membuat dan mengelola buku kerja bersama menggunakan Aspose.Cells untuk Java. Kemampuan ini dapat meningkatkan produktivitas secara signifikan dalam lingkungan kolaboratif. Untuk lebih mengeksplorasi potensi Aspose.Cells, pertimbangkan untuk mempelajari dokumentasinya yang lengkap atau bereksperimen dengan fitur tambahan seperti manipulasi bagan dan kalkulasi rumus.
 
-### Langkah Berikutnya
-- Jelajahi fitur yang lebih canggih di [Dokumentasi Sel Aspose](https://reference.aspose.com/cells/java/).
+### Következő lépések
+- Fedezze fel a további fejlett funkciókat itt: [Aspose Cells dokumentáció](https://reference.aspose.com/cells/java/).
 - Cobalah menerapkan solusi ini dalam proyek Anda untuk melihat manfaat nyata.
 
-## Bagian FAQ
+## GYIK szekció
 **Q1: Bagaimana cara menginstal Aspose.Cells untuk Java?**
 A1: Gunakan Maven atau Gradle untuk menyertakan dependensi dalam proyek Anda. Lihat bagian pengaturan di atas untuk petunjuk terperinci.
 
@@ -139,15 +141,18 @@ A4: Manfaatkan metode hemat memori yang disediakan oleh Aspose.Cells untuk menan
 **Q5: Apakah Aspose.Cells kompatibel dengan kerangka kerja Java lainnya?**
 A5: Ya, ini terintegrasi dengan baik dengan kerangka kerja populer seperti Spring dan Hibernate.
 
-## Sumber daya
-- **Dokumentasi**: [Dokumentasi Sel Aspose](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Sel Aspose Rilis](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Halaman Pembelian Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Uji Coba Gratis Aspose Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Aspose Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Aspose Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Etapas de aquisição de licença
 
 - **Teste grátis**: Baixe uma versão de avaliação gratuita para testar os recursos do Aspose.Cells.
-- **Licença Temporária**: Obtenha uma licença temporária para avaliação estendida.
+- **Licença Temporária**Obtenha uma licença temporária para avaliação estendida.
 - **Comprar**: Adquira uma licença completa se decidir integrar isso aos seus projetos permanentemente.
 
 Após a instalação, inicialize e configure o Aspose.Cells no seu aplicativo Java:
@@ -226,6 +228,9 @@ Experimente implementar essas personalizações em seus projetos e veja como ela
 Embarque em sua jornada com o Aspose.Cells hoje mesmo e transforme a maneira como você lida com dados de planilhas!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

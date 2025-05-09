@@ -8,7 +8,9 @@ url: /net/worksheet-value-operations/add-page-breaks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Page Breaks in Worksheet using Aspose.Cells
@@ -83,6 +85,7 @@ Yes, you can specify page breaks for any cell or range by providing the correspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

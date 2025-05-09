@@ -1,14 +1,16 @@
 ---
-title: Excel'de Metin Yönünü Döndürme ve Değiştirme
-linktitle: Excel'de Metin Yönünü Döndürme ve Değiştirme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET ile Excel'de metin yönünü dönüştürün. Metni kolayca döndürmek ve ayarlamak için adım adım kılavuzumuzu izleyin.
-weight: 22
-url: /tr/net/excel-formatting-and-styling/rotating-and-changing-text-direction/
+"description": "Excel'de Aspose.Cells for .NET ile metin yönünü dönüştürün. Metni kolayca döndürmek ve ayarlamak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Excel'de Metin Yönünü Döndürme ve Değiştirme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Metin Yönünü Döndürme ve Değiştirme"
+"url": "/tr/net/excel-formatting-and-styling/rotating-and-changing-text-direction/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Metin Yönünü Döndürme ve Değiştirme
@@ -18,7 +20,7 @@ Excel dosyalarıyla programatik olarak çalışmaya gelince, genellikle verileri
 ## Ön koşullar
 Kodlama kısmına geçmeden önce birkaç şeyin hazır olduğundan emin olun:
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Aspose.Cells kütüphanesi onunla iyi çalışır.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells for .NET kütüphanesine ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmanız, eğitimi takip etmenizi kolaylaştıracaktır.
 4. .NET Framework: Projenizin .NET Framework'ü hedeflediğinden emin olun; çünkü Aspose.Cells bu ortamda çalışmak üzere tasarlanmıştır.
 Tüm ön koşullar hazır olduğunda, başlamaya hazırsınız!
@@ -31,7 +33,7 @@ Tüm ön koşullar hazır olduğunda, başlamaya hazırsınız!
 - Çözüm Gezgini'nde projeye sağ tıklayın ve NuGet Paketlerini Yönet'i seçin.
 - Aspose.Cells'i arayın ve yükleyin.
 ### Gerekli Ad Alanlarını İçe Aktar
- Şimdi gerekli ad alanlarını getirmenin zamanı geldi. En üstte`Program.cs` dosya, aşağıdakileri içerir:
+Şimdi gerekli ad alanlarını getirmenin zamanı geldi. En üstte `Program.cs` dosya, aşağıdakileri içerir:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -48,7 +50,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Bu kod Excel dosyasını kaydetmek için bir dizin ayarlar. Dizinin var olup olmadığını kontrol eder ve yoksa oluşturur. Değiştirdiğinizden emin olun`"Your Document Directory"` geçerli bir yol ile.
+Bu kod Excel dosyasını kaydetmek için bir dizin ayarlar. Dizinin var olup olmadığını kontrol eder ve yoksa oluşturur. Değiştirdiğinizden emin olun `"Your Document Directory"` geçerli bir yol ile.
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturma
 Şimdi yeni bir Excel çalışma kitabı oluşturalım. Hücrelerimizi burada düzenleyeceğiz.
 ```csharp
@@ -56,7 +58,7 @@ Bu kod Excel dosyasını kaydetmek için bir dizin ayarlar. Dizinin var olup olm
 Workbook workbook = new Workbook();
 ```
 
- Bir tane oluşturarak`Workbook` nesne, esasen değiştirebileceğiniz yeni, boş bir Excel dosyasıyla başlıyorsunuz.
+Bir tane oluşturarak `Workbook` nesne, esasen değiştirebileceğiniz yeni, boş bir Excel dosyasıyla başlıyorsunuz.
 ## Adım 3: Çalışma Sayfasının Referansını Elde Etme
 Şimdi değişiklik yapmak istediğiniz çalışma sayfasına ulaşın.
 ```csharp
@@ -64,7 +66,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- The`Worksheet` nesne çalışma kitabınızdaki ilk çalışma sayfasını ifade eder. Dizini değiştirerek diğer sayfalara erişebilirsiniz.
+The `Worksheet` nesne çalışma kitabınızdaki ilk çalışma sayfasını ifade eder. Dizini değiştirerek diğer sayfalara erişebilirsiniz.
 ## Adım 4: Belirli Bir Hücreye Erişim
 Belirli bir hücreye, bu durumda "A1" hücresine odaklanalım. 
 ```csharp
@@ -118,16 +120,18 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel hücresindeki metin y�
 ### Birden fazla hücre için metin yönünü değiştirebilir miyim?  
 Evet, bir dizi hücre arasında dolaşıp aynı değişiklikleri uygulayabilirsiniz.
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
-Aspose.Cells ücretsiz deneme imkanı sunuyor ancak sürekli kullanım için lisans gerekiyor.
+Aspose.Cells ücretsiz deneme sunuyor, ancak sürekli kullanım için lisans gerekiyor.
 ### Başka hangi formatlarda kaydedebilirim?  
 Aspose.Cells, XLSX, CSV ve PDF gibi çeşitli formatları destekler.
 ### Visual Studio dışında başka bir şey yüklemem gerekiyor mu?  
 Projenize yalnızca Aspose.Cells kütüphanesinin eklenmesi gerekiyor.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?  
- Kontrol edebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve API referansları için.
+Kontrol edebilirsiniz [belgeleme](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve API referansları için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

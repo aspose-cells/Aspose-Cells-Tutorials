@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Como próximos passos, considere explorar outros recursos do Aspose.Cells ou int
    - Verifique novamente a configuração de compilação do seu projeto (Maven/Gradle) para garantir que todas as dependências necessárias do Aspose.Cells estejam incluídas corretamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

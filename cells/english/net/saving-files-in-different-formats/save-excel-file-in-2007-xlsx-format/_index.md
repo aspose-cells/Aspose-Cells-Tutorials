@@ -8,7 +8,9 @@ url: /net/saving-files-in-different-formats/save-excel-file-in-2007-xlsx-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save Excel File in 2007 xlsx Format
@@ -69,6 +71,7 @@ You can access community support through the [Aspose Forum](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

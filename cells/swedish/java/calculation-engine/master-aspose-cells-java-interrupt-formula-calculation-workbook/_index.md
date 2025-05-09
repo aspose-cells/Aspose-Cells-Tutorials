@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Innan vi börjar, se till att du har följande:
 - Ett Java Development Kit (JDK) installerat på ditt system.
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Bekantskap med Excels arbetsboksstruktur och formler.
 
@@ -164,6 +166,9 @@ Som nästa steg, överväg att utforska ytterligare funktioner i Aspose.Cells, s
 Genom att följa den här omfattande guiden är du nu rustad att effektivt implementera och utnyttja Aspose.Cells för Javas avbrottsfunktioner för formelberäkning. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

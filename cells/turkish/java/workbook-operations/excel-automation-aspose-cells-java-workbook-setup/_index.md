@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ int sheetIndex = worksheets.add(); // Yeni bir çalışma sayfası ekleyin ve di
 ```
 - **Açıklama**: Burada, `workbook.getWorksheets()` çalışma sayfaları koleksiyonunu getirir. Daha sonra kullanarak yeni bir çalışma sayfası ekleriz `worksheets.add()`Ayrıca yeni eklenen sayfanın indeksini de döndüren .
 
-### Özellik 2: Çalışma Sayfası için Sayfa Düzenini Yapılandırma
+### Özellik 2: Çalışma Sayfası için Sayfa Ayarını Yapılandırma
 
 Sayfa düzenlerini yapılandırmak, Excel'de içeriği birden fazla sayfaya sığdırmanızı sağlayarak okunabilirliği ve sunumu iyileştirir.
 
@@ -177,6 +179,9 @@ A5: Kapsamlı olanı keşfedin [belgeleme](https://reference.aspose.com/cells/ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

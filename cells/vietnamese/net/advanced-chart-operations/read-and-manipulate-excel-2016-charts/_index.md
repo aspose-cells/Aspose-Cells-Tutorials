@@ -1,14 +1,16 @@
 ---
-title: Đọc và thao tác biểu đồ Excel 2016
-linktitle: Đọc và thao tác biểu đồ Excel 2016
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách đọc và thao tác biểu đồ Excel 2016 bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 13
-url: /vi/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
+"description": "Tìm hiểu cách đọc và thao tác biểu đồ Excel 2016 bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Đọc và thao tác biểu đồ Excel 2016"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đọc và thao tác biểu đồ Excel 2016"
+"url": "/vi/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc và thao tác biểu đồ Excel 2016
@@ -19,9 +21,9 @@ Excel là một công cụ mạnh mẽ để trực quan hóa và trình bày d�
 
 ## Điều kiện tiên quyết
 
-Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã thiết lập xong. Sau đây là các điều kiện tiên quyết bạn cần:
+Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã thiết lập xong mọi thứ. Sau đây là các điều kiện tiên quyết bạn cần:
 
-1.  Aspose.Cells cho .NET: Bạn phải cài đặt thư viện này. Nếu bạn chưa cài đặt, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET: Bạn phải cài đặt thư viện này. Nếu bạn chưa cài đặt, bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trong môi trường phát triển của mình. Aspose.Cells hỗ trợ nhiều framework, vì vậy hãy kiểm tra khả năng tương thích.
 3. IDE: Sử dụng IDE như Visual Studio để viết và thực thi mã của bạn. 
 4. Kiến thức cơ bản về C#: Hiểu được những nguyên tắc cơ bản của lập trình C# sẽ giúp bạn thực hiện hướng dẫn này dễ dàng hơn nhiều.
@@ -54,11 +56,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Thay thế`"Your Document Directory"` Và`"Your Output Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
+Thay thế `"Your Document Directory"` Và `"Your Output Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
 
 ## Bước 2: Tải Workbook
 
-Trong bước này, bạn sẽ tải tệp Excel có chứa biểu đồ. Aspose.Cells giúp bạn thực hiện việc này dễ dàng với`Workbook` lớp học.
+Trong bước này, bạn sẽ tải tệp Excel có chứa biểu đồ. Aspose.Cells giúp bạn thực hiện việc này dễ dàng với `Workbook` lớp học.
 
 ```csharp
 // Tải tệp excel nguồn chứa biểu đồ excel 2016
@@ -78,7 +80,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Bước 4: Lặp qua các biểu đồ
 
- Bây giờ, bạn sẽ cần lặp lại tất cả các biểu đồ có trong bảng tính. Aspose.Cells cho phép bạn truy cập biểu đồ dễ dàng bằng cách sử dụng`Charts` tài sản của`Worksheet` lớp học.
+Bây giờ, bạn sẽ cần lặp lại tất cả các biểu đồ có trong bảng tính. Aspose.Cells cho phép bạn truy cập biểu đồ dễ dàng bằng cách sử dụng `Charts` tài sản của `Worksheet` lớp học.
 
 ```csharp
 // Truy cập từng biểu đồ một và đọc loại biểu đồ đó
@@ -99,7 +101,7 @@ Bên trong vòng lặp, hãy in ra loại của từng biểu đồ. Điều nà
 
 ## Bước 6: Sửa đổi tiêu đề biểu đồ
 
-Đây chính là nơi niềm vui bắt đầu! Bạn có thể thay đổi tiêu đề của từng biểu đồ một cách linh hoạt dựa trên loại biểu đồ.
+Đây chính là nơi thú vị bắt đầu! Bạn có thể thay đổi tiêu đề của từng biểu đồ một cách linh hoạt dựa trên loại biểu đồ.
 
 ```csharp
     // Thay đổi tiêu đề của biểu đồ theo loại của chúng
@@ -118,7 +120,7 @@ Sau khi thực hiện thay đổi, bạn cần lưu sổ làm việc đã sửa 
 wb.Save(outputDir + "outputReadManipulateExcel2016Charts.xlsx");
 ```
 
-Nhớ cung cấp tên hợp lệ cho tệp đầu ra!
+Hãy nhớ cung cấp tên hợp lệ cho tệp đầu ra!
 
 ## Bước 8: Tin nhắn xác nhận
 
@@ -138,19 +140,21 @@ Xin chúc mừng! Bạn đã học thành công cách đọc và thao tác biể
 Aspose.Cells for .NET là một thư viện để làm việc với các tệp Excel theo cách lập trình, cho phép các nhà phát triển tạo, đọc, thao tác và chuyển đổi các tệp Excel trong các ứng dụng .NET.
 
 ### Tôi có thể tải Aspose.Cells như thế nào?
- Bạn có thể tải xuống Aspose.Cells từ trang web[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống Aspose.Cells từ trang web [đây](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells có hỗ trợ các định dạng tệp Excel khác ngoài .xlsx không?
 Có! Aspose.Cells hỗ trợ nhiều định dạng tệp khác nhau, bao gồm .xls, .csv, .pdf, v.v.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?
- Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể truy cập[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể truy cập [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng trong diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ và thảo luận của cộng đồng trong diễn đàn Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

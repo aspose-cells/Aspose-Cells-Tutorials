@@ -1,14 +1,16 @@
 ---
-title: Dostosowywanie ustawień orientacji tekstu w programie Excel
-linktitle: Dostosowywanie ustawień orientacji tekstu w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się dostosowywać orientację tekstu w programie Excel za pomocą Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku.
-weight: 18
-url: /pl/net/excel-formatting-and-styling/customizing-orientation-settings-for-text/
+"description": "Naucz się dostosowywać orientację tekstu w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Dostosowywanie ustawień orientacji tekstu w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dostosowywanie ustawień orientacji tekstu w programie Excel"
+"url": "/pl/net/excel-formatting-and-styling/customizing-orientation-settings-for-text/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostosowywanie ustawień orientacji tekstu w programie Excel
@@ -21,10 +23,10 @@ Podczas pracy z arkuszami kalkulacyjnymi prezentacja jest kluczowa. Być może s
 Zanim wyruszymy w podróż do świata manipulacji Excelem, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Oto, czego potrzebujesz, aby zacząć:
 
 - Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To najpopularniejsze IDE do tworzenia aplikacji .NET.
-- Biblioteka Aspose.Cells dla .NET: Pobierz najnowszą wersję Aspose.Cells ze strony[strona](https://releases.aspose.com/cells/net/). Ta biblioteka jest niezbędna do naszych zadań czytania, pisania i modyfikowania plików Excel.
+- Biblioteka Aspose.Cells dla .NET: Pobierz najnowszą wersję Aspose.Cells ze strony [strona](https://releases.aspose.com/cells/net/). Ta biblioteka jest niezbędna do naszych zadań czytania, pisania i modyfikowania plików Excel.
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework, ponieważ Aspose.Cells działa głównie w tym środowisku.
   
-Gdy już zbierzesz te narzędzia, będziesz gotowy uwolnić swojego wewnętrznego artystę arkusza kalkulacyjnego!
+Gdy już zbierzesz wszystkie te narzędzia, będziesz gotowy uwolnić swojego wewnętrznego artystę arkusza kalkulacyjnego!
 
 ## Importuj pakiety
 
@@ -32,7 +34,7 @@ Aby rozpocząć kodowanie, musisz zaimportować niezbędne przestrzenie nazw z b
 
 ### Utwórz nowy projekt
 
-Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli. Będzie on naszym placem zabaw do eksperymentowania z funkcjonalnościami Aspose.Cells.
+Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli. Będzie on służył jako nasz plac zabaw do eksperymentowania z funkcjonalnościami Aspose.Cells.
 
 ### Zainstaluj pakiet NuGet Aspose.Cells
 
@@ -40,7 +42,7 @@ Aby szybko umieścić bibliotekę Aspose.Cells w swoim projekcie, użyj NuGet Pa
 
 ### Dodaj dyrektywę Using
 
- Teraz, gdy pakiet jest już zainstalowany, pamiętaj o dołączeniu na początku następującej dyrektywy using`Program.cs` plik:
+Teraz, gdy pakiet jest już zainstalowany, pamiętaj o dołączeniu na początku następującej dyrektywy using `Program.cs` plik:
 
 ```csharp
 using System.IO;
@@ -64,7 +66,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Tutaj definiujesz zmienną łańcuchową`dataDir` aby określić ścieżkę do dokumentów. Kod sprawdza, czy katalog istnieje; jeśli nie, tworzy go. To tak, jakbyś upewniał się, że masz czyste miejsce pracy przed rozpoczęciem projektu!
+Tutaj definiujesz zmienną łańcuchową `dataDir` aby określić ścieżkę do dokumentów. Kod sprawdza, czy katalog istnieje; jeśli nie, tworzy go. To tak, jakbyś upewniał się, że masz czyste miejsce pracy przed rozpoczęciem projektu!
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -75,7 +77,7 @@ Następnie utworzymy nowy skoroszyt, który będzie reprezentował nasz plik Exc
 Workbook workbook = new Workbook();
 ```
 
- Poprzez instancjonowanie`Workbook` klasa, tworzysz nowy skoroszyt programu Excel. Pomyśl o tym jak o otwarciu pustego płótna, na którym możesz zacząć malować swoje dane!
+Poprzez instancjonowanie `Workbook` klasa, tworzysz nowy skoroszyt programu Excel. Pomyśl o tym jak o otwarciu pustego płótna, na którym możesz zacząć malować swoje dane!
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -86,7 +88,7 @@ Teraz, gdy mamy już skoroszyt, musimy uzyskać dostęp do konkretnego arkusza, 
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Każdy skoroszyt może zawierać wiele arkuszy. Tutaj uzyskujemy dostęp do pierwszego za pomocą`Worksheets[0]`To tak, jakbyś wybierał stronę w notatniku, nad którą chcesz pracować!
+Każdy skoroszyt może zawierać wiele arkuszy. Tutaj uzyskujemy dostęp do pierwszego za pomocą `Worksheets[0]`To tak, jakbyś wybierał stronę w swoim notatniku, nad którą chcesz pracować!
 
 ## Krok 4: Pobierz odniesienie do komórki
 
@@ -97,7 +99,7 @@ Przejdźmy do pobrania komórki, w której chcemy dostosować tekst.
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
 
- Otrzymujemy odniesienie do komórki`A1`. To będzie komórka, którą manipulujemy. Wyobraź sobie, że dokładnie wskazuje, gdzie zacząć na swoim płótnie!
+Otrzymujemy odniesienie do komórki `A1`. To będzie komórka, którą manipulujemy. Wyobraź sobie, że dokładnie wskazuje, gdzie zacząć na płótnie!
 
 ## Krok 5: Dodaj wartość do komórki
 
@@ -124,7 +126,7 @@ style.RotationAngle = 25;
 cell.SetStyle(style);
 ```
 
-Pobieramy styl komórki, a następnie dostosowujemy`RotationAngle` do 25 stopni. To lekko obraca tekst, dodając odrobinę polotu. Tak jak przechylanie płótna, aby uzyskać inną perspektywę!
+Pobieramy styl komórki, a następnie dostosowujemy `RotationAngle` do 25 stopni. To lekko obraca tekst, dodając odrobinę polotu. Tak jak przechylanie płótna, aby uzyskać inną perspektywę!
 
 ## Krok 7: Zapisz plik Excel
 
@@ -150,16 +152,18 @@ Aspose.Cells for .NET to rozbudowana biblioteka umożliwiająca programistom two
 Możesz zainstalować go za pomocą Menedżera pakietów NuGet w programie Visual Studio, wyszukując „Aspose.Cells” i klikając opcję Zainstaluj.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak, możesz znaleźć bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
+Tak, możesz znaleźć bezpłatną wersję próbną Aspose.Cells [Tutaj](https://releases.aspose.com/).
 
 ### Czy jest dostępne wsparcie dla Aspose.Cells?
- Oczywiście! Możesz uzyskać wsparcie na forum Aspose, które jest poświęcone Aspose.Cells[Tutaj](https://forum.aspose.com/c/cells/9).
+Oczywiście! Możesz uzyskać wsparcie na forum Aspose, które jest poświęcone Aspose.Cells [Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
- Możesz poprosić o tymczasową licencję na stronie zakupu Aspose[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz poprosić o tymczasową licencję na stronie zakupu Aspose [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

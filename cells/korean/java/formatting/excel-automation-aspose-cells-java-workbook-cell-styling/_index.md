@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,7 +184,7 @@ public class CellStyling {
         style.getFont().setBold(true);
         cell.setStyle(style);
         
-        // 스타일이 지정된 셀로 통합 문서 저장
+        // 스타일이 지정된 셀과 함께 통합 문서 저장
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         workbook.save(outDir + "/styledCell.xlsx", com.aspose.cells.SaveFormat.XLSX);
     }
@@ -228,6 +230,9 @@ Java에서 Aspose.Cells를 사용하는 경우:
    - XLSX, CSV 등 다양한 Excel 형식을 지원합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

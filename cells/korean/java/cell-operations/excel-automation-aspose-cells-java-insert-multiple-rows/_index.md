@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 
 ### Java용 Aspose.Cells를 사용하여 여러 행 삽입
 
-이제 Aspose.Cells를 사용하여 여러 행을 삽입하는 방법을 살펴보겠습니다.
+이제 Aspose.Cells를 사용하여 여러 행을 삽입하는 방법을 알아보겠습니다.
 
 #### 1단계: Excel 파일에 액세스
 수정하려는 Excel 파일을 로드하여 시작하세요.
@@ -115,7 +117,7 @@ cells.insertRows(2, 10);
 #### 3단계: 변경 사항 저장
 마지막으로, 변경 사항을 유지하려면 통합 문서를 저장하세요.
 ```java
-// 수정된 통합 문서를 파일에 저장
+// 수정된 통합 문서를 파일에 저장합니다.
 workbook.save("path/to/your/output/file.xlsx");
 ```
 
@@ -178,6 +180,9 @@ workbook.save("path/to/your/output/file.xlsx");
 Aspose.Cells for Java를 활용하여 데이터 조작 작업을 더욱 쉽고 효율적으로 개선해 보세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

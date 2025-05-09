@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Abordaremos tudo, desde a configuração das bibliotecas necessárias até a con
 - Configurando opções de salvamento de PDF para padrões de conformidade como PDF/A
 - Salvando uma pasta de trabalho do Excel como um arquivo PDF compatível
 
-Com esses insights, você estará preparado para lidar com tarefas de conversão de dados com eficiência e precisão. Vamos analisar os pré-requisitos antes de começar.
+Com esses insights, você estará preparado para lidar com tarefas de conversão de dados com eficiência e precisão. Vamos analisar os pré-requisitos necessários antes de começar.
 
 ## Pré-requisitos
 
@@ -197,6 +199,9 @@ Pronto para colocar o que aprendeu em prática? Experimente implementar esta sol
    - Você pode explorar o [Organização Internacional para Padronização (ISO)](https://www.iso.org/standards.html) site para documentação detalhada sobre vários níveis de conformidade com PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

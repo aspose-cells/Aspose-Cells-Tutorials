@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ Aqui está um guia passo a passo sobre como implementar a solução.
 ### Carregamento eficiente de arquivos grandes do Excel
 Para lidar com arquivos grandes de forma eficaz, defina as preferências de memória apropriadas usando Aspose.Cells' `MemorySetting` opção.
 
-#### Etapa 1: especificar opções de carga
+#### Etapa 1: especifique as opções de carga
 Comece criando `LoadOptions` e definindo a preferência de memória:
 ```java
 import com.aspose.cells.LoadOptions;
@@ -96,7 +98,7 @@ Use estas opções ao carregar seu arquivo Excel:
 ```java
 import com.aspose.cells.Workbook;
 
-// Especifique o caminho para o seu arquivo grande do Excel
+// Especifique o caminho para seu arquivo grande do Excel
 String filePath = "path/to/your/large/excel/file.xlsx";
 Workbook workbook = new Workbook(filePath, loadOptions);
 ```
@@ -117,7 +119,7 @@ Essas aplicações ilustram a versatilidade e robustez do Aspose.Cells em vário
 
 ## Considerações de desempenho
 Ao trabalhar com arquivos grandes, o desempenho é crucial. Aqui estão algumas dicas de otimização:
-- **Otimize o uso da memória**: Sempre definido `MemorySetting.MEMORY_PREFERENCE` ao lidar com grandes conjuntos de dados.
+- **Otimizar o uso da memória**: Sempre definido `MemorySetting.MEMORY_PREFERENCE` ao lidar com grandes conjuntos de dados.
 - **Acesso eficiente a dados**: Minimize o intervalo de dados que você acessa de uma só vez; processe os dados em pedaços menores, se possível.
 - **Gestão de Recursos**: Garanta que os recursos sejam liberados fechando pastas de trabalho e fluxos após o uso.
 
@@ -152,6 +154,9 @@ Pronto para aplicar essas habilidades no seu próximo projeto? Experimente imple
 Com este guia abrangente, você agora está equipado para lidar com grandes arquivos do Excel como um profissional usando o Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

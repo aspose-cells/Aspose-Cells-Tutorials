@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java-kalkylbladsbearbetningshandledningar
@@ -84,7 +86,7 @@ Lär dig skapa och hantera Excel-tabeller, namngivna områden och strukturerade 
 Kompletta handledningar för att lägga till och manipulera bilder, former, diagram och visuella element i Excel med hjälp av Aspose.Cells för Java.
 
 ### [Säkerhet och skydd](./security-protection/)
-Steg-för-steg-handledningar för att implementera arbetsboksskydd, lösenordsskydd och åtkomstkontroller i Excel med Aspose.Cells för Java.
+Steg-för-steg-handledningar för att implementera arbetsboksskydd, lösenordssäkerhet och åtkomstkontroller i Excel med Aspose.Cells för Java.
 
 ### [Kommentarer och anteckningar](./comments-annotations/)
 Lär dig lägga till, redigera och hantera cellkommentarer, anteckningar och granskningsfunktioner i Excel-kalkylblad med Aspose.Cells Java-handledningar.
@@ -118,9 +120,11 @@ Kompletta handledningar för att skapa rapportmallar, generera dokument och impl
 
 ### [Automatisering och batchbearbetning](./automation-batch-processing/)
 Steg-för-steg-handledningar för att automatisera Excel-uppgifter, batchbearbeta flera filer och schemalägga operationer med Aspose.Cells för Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/insert-ole-object-into-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert OLE Object into Excel
@@ -134,6 +136,7 @@ You can access support through the [Aspose forum](https://forum.aspose.com/c/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

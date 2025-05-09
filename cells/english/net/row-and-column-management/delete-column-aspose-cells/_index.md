@@ -8,7 +8,9 @@ url: /net/row-and-column-management/delete-column-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete a Column in Aspose.Cells .NET
@@ -93,6 +95,7 @@ Absolutely! Use `DeleteRow()` to remove rows in a similar way.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

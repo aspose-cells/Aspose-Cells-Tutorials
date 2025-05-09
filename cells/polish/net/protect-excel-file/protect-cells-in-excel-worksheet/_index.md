@@ -1,14 +1,16 @@
 ---
-title: Chroń komórki w arkuszu kalkulacyjnym programu Excel
-linktitle: Chroń komórki w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak chronić określone komórki w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells for .NET, korzystając z tego szczegółowego przewodnika z przykładami kodu.
-weight: 30
-url: /pl/net/protect-excel-file/protect-cells-in-excel-worksheet/
+"description": "Dowiedz się, jak chronić określone komórki w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells for .NET, korzystając z tego szczegółowego przewodnika z przykładami kodu."
+"linktitle": "Chroń komórki w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Chroń komórki w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/protect-excel-file/protect-cells-in-excel-worksheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chroń komórki w arkuszu kalkulacyjnym programu Excel
@@ -22,7 +24,7 @@ dzisiejszym cyfrowym świecie bezpieczne zarządzanie danymi w arkuszach kalkula
 Zanim zagłębisz się w szczegóły ochrony komórek, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. To podstawowe IDE do tworzenia oprogramowania .NET.
-2.  Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją łatwo zainstalować za pomocą NuGet Package Manager lub pobrać bezpośrednio z[Strona Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells dostępną w swoim projekcie. Możesz ją łatwo zainstalować za pomocą NuGet Package Manager lub pobrać bezpośrednio z [Strona Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Niewielka znajomość programowania w języku C# pomoże Ci płynnie uczyć się języka.
 
 ## Importowanie pakietów
@@ -131,7 +133,7 @@ Aby wymusić blokowanie, musisz zabezpieczyć cały arkusz. Można to zrobić za
 sheet.Protect(ProtectionType.All);
 ```
 
- Dzwoniąc do`Protect` metodą, informujesz program Excel, aby uniemożliwił wszelkie modyfikacje, dopóki ochrona nie zostanie usunięta.
+Dzwoniąc do `Protect` metodą, informujesz program Excel, aby uniemożliwił wszelkie modyfikacje, dopóki ochrona nie zostanie usunięta.
 
 ## Krok 7: Zapisywanie skoroszytu
 
@@ -141,11 +143,11 @@ Na koniec, będziesz chciał zapisać swoją pracę! Oto jak to zrobić:
 wb.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ```
 
-Ten wiersz zapisuje twój skoroszyt jako plik Excela. Upewnij się, że określiłeś właściwy format!
+Ten wiersz zapisuje skoroszyt jako plik Excela. Upewnij się, że określiłeś właściwy format!
 
 ## Wniosek
 
-masz to! Nauczyłeś się skutecznie chronić określone komórki w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz zabezpieczyć swoje dane, upewniając się, że tylko właściwe osoby mają dostęp do edycji krytycznych informacji. Pamiętaj, że ochrona komórek to tylko jedna z wielu funkcji oferowanych przez Aspose.Cells, które pomagają wydajnie zarządzać plikami Excela i manipulować nimi.
+I masz to! Nauczyłeś się skutecznie chronić określone komórki w arkuszu kalkulacyjnym Excela za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz zabezpieczyć swoje dane, upewniając się, że tylko właściwe osoby mają dostęp do edycji krytycznych informacji. Pamiętaj, że ochrona komórek to tylko jedna z wielu funkcji oferowanych przez Aspose.Cells, które pomagają wydajnie zarządzać plikami Excela i manipulować nimi.
 
 ## Najczęściej zadawane pytania
 
@@ -156,16 +158,18 @@ Aspose.Cells to potężna biblioteka umożliwiająca przetwarzanie plików Excel
 Oczywiście! Możesz zablokować tyle komórek, ile chcesz, powtarzając kroki blokowania komórek dla każdej wybranej komórki.
 
 ### Czy Aspose.Cells jest darmowy?
- Aspose.Cells oferuje bezpłatny okres próbny, ale dalsze korzystanie wymaga licencji. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells oferuje bezpłatny okres próbny, ale dalsze korzystanie wymaga licencji. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć dokumentację?
- Dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Dokumentację można znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### W jakich formatach plików mogę zapisywać pliki Excela?
 Aspose.Cells obsługuje wiele formatów, w tym XLSX, XLS, CSV i inne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

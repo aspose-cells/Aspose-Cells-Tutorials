@@ -1,14 +1,16 @@
 ---
-title: ตรวจสอบว่ารูปร่างเป็น Smart Art ใน Excel หรือไม่
-linktitle: ตรวจสอบว่ารูปร่างเป็น Smart Art ใน Excel หรือไม่
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีตรวจสอบว่ารูปร่างใน Excel เป็น Smart Art หรือไม่ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการทำงานอัตโนมัติใน Excel
-weight: 11
-url: /th/net/excel-shape-label-access/determine-smart-art-shape-excel/
+"description": "เรียนรู้วิธีตรวจสอบว่ารูปร่างใน Excel เป็น Smart Art หรือไม่ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับการทำงานอัตโนมัติใน Excel"
+"linktitle": "ตรวจสอบว่ารูปร่างเป็น Smart Art ใน Excel หรือไม่"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ตรวจสอบว่ารูปร่างเป็น Smart Art ใน Excel หรือไม่"
+"url": "/th/net/excel-shape-label-access/determine-smart-art-shape-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตรวจสอบว่ารูปร่างเป็น Smart Art ใน Excel หรือไม่
@@ -19,7 +21,7 @@ url: /th/net/excel-shape-label-access/determine-smart-art-shape-excel/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเจาะลึกรายละเอียดทางเทคนิค มาดูสิ่งที่คุณควรมีเพื่อปฏิบัติตามบทช่วยสอนนี้กันก่อน:
 1. Visual Studio: เราจะเขียนโค้ดในส่วนนี้ โปรดตรวจสอบว่าคุณมีเวอร์ชันที่เข้ากันได้กับ .NET Framework หรือ .NET Core
-2.  Aspose.Cells สำหรับ .NET: คุณต้องติดตั้งไลบรารีนี้ คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณต้องติดตั้งไลบรารีนี้ คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานด้านการเขียนโปรแกรม: ความคุ้นเคยกับ C# และความเข้าใจในแนวคิดต่างๆ เช่น คลาสและวิธีการจะทำให้กระบวนการนี้ราบรื่นยิ่งขึ้น
 4. ตัวอย่างไฟล์ Excel: คุณยังต้องมีไฟล์ Excel ตัวอย่างที่ประกอบด้วยรูปร่างและ Smart Art สำหรับการทดสอบ
 เมื่อตรวจสอบข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะเริ่มเขียนโค้ดได้เลย!
@@ -34,7 +36,7 @@ url: /th/net/excel-shape-label-access/determine-smart-art-shape-excel/
 หากต้องการใช้ Aspose.Cells คุณต้องเพิ่ม Aspose.Cells ลงในโปรเจ็กต์ของคุณ ดังต่อไปนี้:
 1. ตัวจัดการแพ็กเกจ NuGet:
    - คลิกขวาที่โครงการใน Solution Explorer
-   -  เลือก`Manage NuGet Packages`.
+   - เลือก `Manage NuGet Packages`-
    - ค้นหา "Aspose.Cells" และติดตั้งแพ็กเกจ
 2. ตรวจสอบการติดตั้ง:
    ไปที่การอ้างอิงโครงการเพื่อให้แน่ใจว่า Aspose.Cells ปรากฏในรายการ 
@@ -52,21 +54,21 @@ using Aspose.Cells.Drawing;
 // ไดเรกทอรีแหล่งที่มา
 string sourceDir = "Your Document Directory";
 ```
- แทนที่`"Your Document Directory"` ด้วยเส้นทางที่คุณ`sampleSmartArtShape.xlsx`ไฟล์นี้ตั้งอยู่ที่นี่ ซึ่งเป็นตำแหน่งที่แอปพลิเคชันจะค้นหาไฟล์ Excel ที่มีรูปร่างที่คุณต้องการตรวจสอบ
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางที่คุณ `sampleSmartArtShape.xlsx` ไฟล์นี้ตั้งอยู่ที่นี่ ซึ่งเป็นตำแหน่งที่แอปพลิเคชันจะค้นหาไฟล์ Excel ที่มีรูปร่างที่คุณต้องการตรวจสอบ
 ## ขั้นตอนที่ 2: โหลดสมุดงาน Excel
- ต่อไปเราจะโหลดไฟล์ Excel ลงใน Aspose.Cells`Workbook` ระดับ.
+ต่อไปเราจะโหลดไฟล์ Excel ลงใน Aspose.Cells `Workbook` ระดับ.
 ```csharp
 // โหลดไฟล์ Excel ตัวอย่างรูปทรงสมาร์ทอาร์ต
 Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape.xlsx");
 ```
- การ`Workbook` คลาสเป็นตัวแทนของไฟล์ Excel ของคุณในโค้ด ในที่นี้ เรากำลังสร้างอินสแตนซ์ของ`Workbook` และส่งเส้นทางไปยังไฟล์ Excel ของเราเพื่อให้สามารถประมวลผลได้
+การ `Workbook` คลาสเป็นตัวแทนของไฟล์ Excel ของคุณในโค้ด ในที่นี้ เรากำลังสร้างอินสแตนซ์ของ `Workbook` และส่งเส้นทางไปยังไฟล์ Excel ของเราเพื่อให้สามารถประมวลผลได้
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงาน
 หลังจากโหลดเวิร์กบุ๊กแล้ว เราจะต้องเข้าถึงเวิร์กชีตเฉพาะที่มีรูปร่างนั้น
 ```csharp
 // เข้าถึงแผ่นงานแรก
 Worksheet ws = wb.Worksheets[0];
 ```
- ไฟล์ Excel สามารถมีเวิร์กชีตได้หลายแผ่น โดยการสร้างดัชนีด้วย`[0]`เรากำลังเข้าถึงเวิร์กชีตแรกในเวิร์กบุ๊กของเรา 
+ไฟล์ Excel สามารถมีเวิร์กชีตได้หลายแผ่น โดยการสร้างดัชนีด้วย `[0]`เรากำลังเข้าถึงเวิร์กชีตแรกในเวิร์กบุ๊กของเรา 
 ## ขั้นตอนที่ 4: เข้าถึงรูปร่าง
 ต่อไปเราจะดึงรูปร่างเฉพาะที่เราต้องการตรวจสอบ
 ```csharp
@@ -80,23 +82,25 @@ Shape sh = ws.Shapes[0];
 // พิจารณาว่ารูปร่างเป็นศิลปะอัจฉริยะหรือไม่
 Console.WriteLine("Is Smart Art Shape: " + sh.IsSmartArt);
 ```
- การ`IsSmartArt` ทรัพย์สินของ`Shape` คลาสส่งคืนค่าบูลีนที่ระบุว่ารูปร่างได้รับการจัดประเภทเป็น Smart Art หรือไม่ เราใช้`Console.WriteLine` เพื่อนำข้อมูลดังกล่าวออกมา 
+การ `IsSmartArt` ทรัพย์สินของ `Shape` คลาสส่งคืนค่าบูลีนที่ระบุว่ารูปร่างได้รับการจัดประเภทเป็น Smart Art หรือไม่ เราใช้ `Console.WriteLine` เพื่อนำข้อมูลดังกล่าวออกมา 
 ## บทสรุป
 ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการพิจารณาว่ารูปร่างในเวิร์กชีต Excel เป็นกราฟิก Smart Art หรือไม่ โดยใช้ Aspose.Cells สำหรับ .NET ด้วยความรู้ดังกล่าว คุณสามารถปรับปรุงการนำเสนอข้อมูลและปรับปรุงเวิร์กโฟลว์ของคุณได้ ไม่ว่าคุณจะเป็นผู้ใช้ Excel ที่มีประสบการณ์หรือเป็นมือใหม่ การรวมฟีเจอร์อัจฉริยะเช่นนี้เข้าด้วยกันสามารถสร้างความแตกต่างอย่างมาก 
 ## คำถามที่พบบ่อย
 ### Smart Art ใน Excel คืออะไร?
 Smart Art เป็นฟีเจอร์ใน Excel ที่ช่วยให้ผู้ใช้สร้างกราฟิกที่น่าสนใจเพื่อแสดงข้อมูล
 ### ฉันสามารถปรับเปลี่ยนรูปร่าง Smart Art โดยใช้ Aspose.Cells ได้หรือไม่
-ใช่ คุณสามารถจัดการรูปทรง Smart Art ผ่านโปรแกรมได้ รวมถึงการเปลี่ยนสไตล์และรายละเอียด
+ใช่ คุณสามารถจัดการรูปทรง Smart Art ผ่านโปรแกรมได้ รวมถึงการเปลี่ยนแปลงสไตล์และรายละเอียด
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
-แม้ว่าจะมีเวอร์ชันทดลองใช้งาน แต่ Aspose.Cells เป็นไลบรารีที่ต้องชำระเงิน คุณสามารถซื้อเวอร์ชันเต็มได้[ที่นี่](https://purchase.aspose.com/buy).
+แม้ว่าจะมีเวอร์ชันทดลองใช้งาน แต่ Aspose.Cells เป็นไลบรารีที่ต้องชำระเงิน คุณสามารถซื้อเวอร์ชันเต็มได้ [ที่นี่](https://purchase-aspose.com/buy).
 ### ฉันจะได้รับการสนับสนุนได้อย่างไรหากประสบปัญหา?
- คุณสามารถติดต่อขอความช่วยเหลือได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถติดต่อขอความช่วยเหลือได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 ### ฉันสามารถหาเอกสารเพิ่มเติมสำหรับ Aspose.Cells ได้จากที่ใด
- มีเอกสารประกอบที่ครอบคลุม[ที่นี่](https://reference.aspose.com/cells/net/).
+มีเอกสารประกอบที่ครอบคลุม [ที่นี่](https://reference-aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

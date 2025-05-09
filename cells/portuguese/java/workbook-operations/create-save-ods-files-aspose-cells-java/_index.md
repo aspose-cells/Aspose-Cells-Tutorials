@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,7 +175,7 @@ O Aspose.Cells para Java pode ser usado em uma variedade de cenários do mundo r
 ### Considerações de desempenho
 
 Para garantir o desempenho ideal ao usar Aspose.Cells:
-- **Otimize o uso da memória**: Descarte objetos adequadamente e gerencie recursos com eficiência, especialmente no processamento de dados em larga escala.
+- **Otimizar o uso da memória**: Descarte objetos adequadamente e gerencie recursos com eficiência, especialmente no processamento de dados em larga escala.
 - **Processamento de Dados Eficiente**: Processe dados em lotes sempre que possível para reduzir a sobrecarga.
 - **Melhores práticas para gerenciamento de memória Java**: Utilize ferramentas de criação de perfil para monitorar o uso de memória e ajustar as configurações da JVM conforme necessário.
 
@@ -210,6 +212,9 @@ R5: Sim, o Aspose.Cells pode ser integrado perfeitamente com várias estruturas 
 Embarque em sua jornada com o Aspose.Cells para Java hoje mesmo e simplifique suas tarefas de gerenciamento de planilhas!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

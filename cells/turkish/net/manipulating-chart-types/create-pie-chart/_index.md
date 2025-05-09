@@ -1,14 +1,16 @@
 ---
-title: Pasta Grafiği Oluştur
-linktitle: Pasta Grafiği Oluştur
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de pasta grafiği oluşturmayı öğrenin. Verilerinizi zahmetsizce görselleştirin.
-weight: 12
-url: /tr/net/manipulating-chart-types/create-pie-chart/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'de pasta grafiği oluşturmayı öğrenin. Verilerinizi zahmetsizce görselleştirin."
+"linktitle": "Pasta Grafiği Oluştur"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Pasta Grafiği Oluştur"
+"url": "/tr/net/manipulating-chart-types/create-pie-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pasta Grafiği Oluştur
@@ -21,11 +23,11 @@ Grafikler oluşturmak, verileri görsel olarak temsil etmek için olmazsa olmazd
 
 Koda dalmadan önce aşağıdaki ayarların yapıldığından emin olun:
 
-1.  Aspose.Cells for .NET Library: Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library: Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 2. .NET Geliştirme Ortamı: Projenizin .NET Framework veya .NET Core kullanacak şekilde ayarlandığından emin olun.
 3. Temel C# Bilgisi: C# programlamada, özellikle nesne yönelimli programlamada (OOP) rahat olmalısınız.
 
- Gelişmiş kullanıcılar için, Aspose.Cells'in tüm özelliklerinin kilidini açmak için geçici bir lisans uygulanabilir. Bir tane talep edebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Gelişmiş kullanıcılar için, Aspose.Cells'in tüm özelliklerinin kilidini açmak için geçici bir lisans uygulanabilir. Bir tane talep edebilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ## Paketleri İçe Aktar
 
@@ -43,13 +45,13 @@ using Aspose.Cells.Charts;
 
 ## Adım 1: Yeni bir Çalışma Kitabı Oluşturun
 
- İlk olarak, bir örnek oluşturmamız gerekiyor`Workbook` Excel dosyasını temsil eden sınıf. Bir çalışma kitabı birden fazla sayfa içerir ve örneğimiz için iki sayfayla çalışacağız—biri veriler için, diğeri pasta grafiği için.
+İlk olarak, bir örnek oluşturmamız gerekiyor `Workbook` Excel dosyasını temsil eden sınıf. Bir çalışma kitabı birden fazla sayfa içerir ve örneğimiz için iki sayfayla çalışacağız—biri veriler için, diğeri pasta grafiği için.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Bu yeni bir Excel çalışma kitabını başlatır. Peki veriler nereye gider? Bunu bir sonraki adımda halledelim.
+Bu yeni bir Excel çalışma kitabını başlatır. Peki veriler nereye gider? Bunu bir sonraki adımda ele alalım.
 
 ## Adım 2: Çalışma Sayfasına Veri Ekleyin
 
@@ -95,7 +97,7 @@ Worksheet chartSheet = workbook.Worksheets[sheetIndex];
 chartSheet.Name = "Chart";
 ```
 
-Bu yeni sayfa pasta grafiğini barındıracaktır. Buna "Grafik" gibi bir ad vermek, kullanıcıların dosyayı açtıklarında ne beklemeleri gerektiğini bilmelerini sağlar.
+Bu yeni sayfa pasta grafiğini barındıracaktır. Buna "Grafik" gibi bir ad vermek kullanıcıların dosyayı açtıklarında ne beklemeleri gerektiğini bilmelerini sağlar.
 
 ## Adım 4: Pasta Grafiğini Oluşturun
 
@@ -106,7 +108,7 @@ int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- Yöntem`Add()`grafik türü için parametreleri kabul eder (bu durumda,`ChartType.Pie`), ve çalışma sayfasındaki konumu. Sayılar satır ve sütun konumlarını temsil eder.
+Yöntem `Add()` grafik türü için parametreleri kabul eder (bu durumda, `ChartType.Pie`), ve çalışma sayfasındaki konumu. Sayılar satır ve sütun konumlarını temsil eder.
 
 ## Adım 5: Grafik Görünümünü Özelleştirin
 
@@ -131,7 +133,7 @@ Arsa alanının degrade dolgusunu ayarlıyoruz ve daha temiz bir görünüm içi
 
 ## Adım 6: Grafik Verilerini Tanımlayın
 
- Grafiği verilerimize bağlamanın zamanı geldi.`NSeries` Grafik özelliği satış rakamlarını ve bölgeleri pasta grafiğine bağlar.
+Grafiği verilerimize bağlamanın zamanı geldi. `NSeries` Grafik özelliği satış rakamlarını ve bölgeleri pasta grafiğine bağlar.
 
 ```csharp
 chart.NSeries.Add("Data!B2:B8", true);
@@ -139,7 +141,7 @@ chart.NSeries.CategoryData = "Data!A2:A8";
 chart.NSeries.IsColorVaried = true;
 ```
 
- İlk satır, hücrelerdeki satış verilerini kullandığımızı belirtir`B2:B8` Ayrıca grafiğe bölge adlarını kullanmasını da söylüyoruz.`A2:A8` kategori etiketleri olarak.
+İlk satır, hücrelerdeki satış verilerini kullandığımızı belirtir `B2:B8`Ayrıca grafiğe bölge adlarını kullanmasını da söylüyoruz. `A2:A8` kategori etiketleri olarak.
 
 ## Adım 7: Veri Etiketleri Ekleyin
 
@@ -193,19 +195,21 @@ Aspose.Cells for .NET ile pasta grafiği oluşturmak basit ve özelleştirilebil
 Evet! Aspose.Cells çubuk grafikler, çizgi grafikler ve dağılım grafikleri dahil olmak üzere çeşitli grafik türlerini destekler.
 
 ### Aspose.Cells for .NET'i kullanmak için ücretli bir lisansa ihtiyacım var mı?
-Ücretsiz sürümü bazı sınırlamalarla kullanabilirsiniz. Tam özellikler için satın alabileceğiniz bir lisansa ihtiyacınız olacak[Burada](https://purchase.aspose.com/buy).
+Ücretsiz sürümü bazı sınırlamalarla kullanabilirsiniz. Tam özellikler için satın alabileceğiniz bir lisansa ihtiyacınız olacak [Burada](https://purchase.aspose.com/buy).
 
 ### Tabloyu PDF veya resim gibi formatlara aktarabilir miyim?
 Kesinlikle! Aspose.Cells, grafikleri PDF ve PNG dahil olmak üzere çeşitli formatlara aktarmanıza olanak tanır.
 
 ### Her pasta dilimini farklı renklerle şekillendirmek mümkün mü?
- Evet, her dilime farklı renkler uygulayabilirsiniz.`IsColorVaried` mülk`true`, eğitimde gösterildiği gibi.
+Evet, her dilime farklı renkler uygulayabilirsiniz. `IsColorVaried` mülk `true`, eğitimde gösterildiği gibi.
 
 ### Tek bir çalışma kitabında birden fazla grafiğin oluşturulmasını otomatikleştirebilir miyim?
 Evet, tek bir Excel dosyası içerisinde ihtiyacınız kadar çok grafik oluşturabilir ve özelleştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

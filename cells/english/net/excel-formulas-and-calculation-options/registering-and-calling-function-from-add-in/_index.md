@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/registering-and-calling-functio
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Registering and Calling Function from Add-In in Excel
@@ -115,6 +117,7 @@ You can explore their comprehensive documentation on the site [here](https://ref
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

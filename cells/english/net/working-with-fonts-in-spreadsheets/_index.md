@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-spreadsheets/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Fonts in Spreadsheets
@@ -36,9 +38,11 @@ Learn how to fetch and list fonts from Excel spreadsheets using Aspose.Cells for
 Learn how to set default fonts for PDF save options using Aspose.Cells for .NET, ensuring your documents look perfect every time.
 ### [Specify Fonts for Workbook Rendering](./specify-fonts-for-workbook-rendering/)
 Learn how to specify custom fonts for workbook rendering using Aspose.Cells for .NET. A step-by-step guide to ensure perfect PDF output.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

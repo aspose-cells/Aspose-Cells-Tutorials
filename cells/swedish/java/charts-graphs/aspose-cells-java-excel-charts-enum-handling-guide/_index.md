@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 Genom att följa den här guiden har du fått de kunskaper som behövs för att utnyttja Aspose.Cells för att hantera Excel-diagram och enumhantering. Dessa funktioner kan avsevärt förbättra dina Java-applikationer genom att tillhandahålla kraftfulla funktioner för databehandling. Fortsätt utforska bibliotekets dokumentation för mer avancerade funktioner och lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

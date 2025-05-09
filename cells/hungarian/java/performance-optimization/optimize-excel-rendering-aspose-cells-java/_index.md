@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,7 +186,7 @@ Ezek az alkalmazások az Aspose.Cells sokoldalúságát és erejét demonstrálj
 Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
 - Figyelje a memóriahasználatot, különösen nagy Excel-fájlok esetén.
 - Optimalizálja a képminőségi beállításokat a tisztaság és a fájlméret közötti egyensúly érdekében.
-- Hatékony adatszerkezeteket használjon Java-n belül a munkafüzet tartalmának kezeléséhez.
+- Hatékony adatszerkezeteket használhat Java-n belül a munkafüzet tartalmának kezelésére.
 
 Ezen ajánlott gyakorlatok betartásával növelheti Excel-renderelési folyamatainak hatékonyságát.
 
@@ -200,7 +202,7 @@ Készen állsz arra, hogy továbbfejleszd a képességeidet? Próbáld ki ezeket
    - Igen, beállíthatja a `SheetRender` objektum több munkalap összevonásához, ha szükséges.
 
 2. **Hogyan kezeljem a nagy Excel fájlokat?**
-   - Használjon hatékony memóriakezelési gyakorlatokat, és fontolja meg a nagy fájlok kisebb részekre bontását a feldolgozáshoz.
+   - Használjon hatékony memóriakezelési gyakorlatokat, és fontolja meg a nagy fájlok kisebb részekre bontását feldolgozás céljából.
 
 3. **Ingyenesen használható az Aspose.Cells?**
    - Létezik próbaverzió, de a korlátozások nélküli teljes funkcionalitás eléréséhez licenc szükséges.
@@ -221,6 +223,9 @@ Készen állsz arra, hogy továbbfejleszd a képességeidet? Próbáld ki ezeket
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

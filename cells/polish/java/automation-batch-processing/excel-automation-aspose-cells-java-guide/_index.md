@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ W tym samouczku dowiedziałeś się, jak wykorzystać moc Aspose.Cells for Java 
 - Zawsze dokładnie testuj swoje skrypty automatyzacji i traktuj wyjątki z wdziękiem. Upewnij się, że Twoje źródła danych są niezawodne i aktualne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

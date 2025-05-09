@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-### Требуемые библиотеки:
+### Необходимые библиотеки:
 - **Aspose.Cells для Java** версия 25.3 или более поздняя.
 
 ### Настройка среды:
@@ -211,6 +213,9 @@ workbook.save("output.xlsx");
 - [Страница покупки Aspose](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

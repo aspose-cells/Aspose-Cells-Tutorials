@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pemrosesan Excel Batch
@@ -29,7 +31,7 @@ Mengotomatiskan pemrosesan Excel secara batch menawarkan beberapa keuntungan:
 
 ### 1. Menyiapkan Lingkungan
 
-Untuk memulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+Untuk memulai, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ### 2. Inisialisasi Aspose.Cells
 
@@ -40,7 +42,7 @@ import com.aspose.cells.Workbook;
 
 public class BatchExcelProcessing {
     public static void main(String[] args) {
-        // Inisialisasi Aspose.Cells
+        // Aspose.Cells inicializálása
         Workbook workbook = new Workbook();
     }
 }
@@ -56,7 +58,7 @@ List<String> excelFiles = Arrays.asList("file1.xlsx", "file2.xlsx", "file3.xlsx"
 
 // Ulangi daftar dan proses setiap file
 for (String filePath : excelFiles) {
-    // Memuat file Excel
+    // Töltsd be az Excel fájlt
     Workbook fileWorkbook = new Workbook(filePath);
     
     // Melakukan tugas pemrosesan pada fileWorkbook
@@ -90,7 +92,7 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
 
 Anda dapat menentukan tugas pemrosesan batch khusus sesuai dengan kebutuhan spesifik Anda. Tugas ini dapat mencakup pembuatan bagan, penyesuaian format, atau validasi data.
 
-## Kesimpulan
+## Következtetés
 
 Mengotomatiskan pemrosesan batch Excel dengan Aspose.Cells untuk Java menyederhanakan pengelolaan beberapa file Excel, meningkatkan efisiensi, dan mengurangi kesalahan. Dengan contoh kode sumber yang disediakan, Anda dapat mengoptimalkan tugas pemrosesan batch dalam aplikasi Java.
 
@@ -109,9 +111,11 @@ Mengotomatiskan pemrosesan batch Excel dengan Aspose.Cells untuk Java menyederha
    Jelajahi dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang mendalam.
 
 Optimalkan tugas pemrosesan Excel batch Anda dan tingkatkan produktivitas menggunakan Aspose.Cells untuk Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

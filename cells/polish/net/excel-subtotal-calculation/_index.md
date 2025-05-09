@@ -1,14 +1,16 @@
 ---
-title: Suma częściowa i obliczenia w programie Excel
-linktitle: Suma częściowa i obliczenia w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak tworzyć sumy częściowe w programie Excel i śledzić precedensy za pomocą Aspose.Cells dla .NET. Skorzystaj z tych samouczków, aby bez wysiłku udoskonalić swoje umiejętności arkusza kalkulacyjnego.
-weight: 33
-url: /pl/net/excel-subtotal-calculation/
+"description": "Dowiedz się, jak tworzyć sumy częściowe w programie Excel i śledzić precedensy za pomocą Aspose.Cells dla .NET. Skorzystaj z tych samouczków, aby bez wysiłku udoskonalić swoje umiejętności arkusza kalkulacyjnego."
+"linktitle": "Suma częściowa i obliczenia w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Suma częściowa i obliczenia w programie Excel"
+"url": "/pl/net/excel-subtotal-calculation/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Suma częściowa i obliczenia w programie Excel
@@ -32,9 +34,11 @@ Czy zastanawiałeś się kiedyś, skąd ta irytująca formuła pobiera swoje dan
 Dowiedz się, jak tworzyć sumy częściowe w programie Excel za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
 ### [Śledzenie precedensów w programie Excel](./tracing-precedents-in-excel/)
 Dowiedz się, jak śledzić precedensy w programie Excel za pomocą Aspose.Cells dla .NET! Odkryj samouczki kodowania krok po kroku, które udoskonalą Twoje umiejętności arkusza kalkulacyjnego.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

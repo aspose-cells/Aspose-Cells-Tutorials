@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ workbook.save(dataDir + "DeleteARow_out.xls");
 
 ## 性能考慮
 
-處理大型 Excel 檔案時，請考慮以下優化效能的提示：
+處理大型 Excel 檔案時，請考慮以下優化效能的技巧：
 - **記憶體管理**：使用高效的記憶體處理技術並在不再需要時處置物件。
 - **批次處理**：批量處理行而不是逐行處理，以便更好地利用資源。
 - **最佳化演算法**：確保您的邏輯經過最佳化，可以有效地處理資料。
@@ -161,6 +163,9 @@ workbook.save(dataDir + "DeleteARow_out.xls");
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ A3: استخدم ممارسات إدارة الذاكرة الفعالة وقم 
 يوفر لك هذا الدليل الأدوات والمعرفة اللازمة للاستفادة من Aspose.Cells for Java بشكل فعال، مما يعزز قدرات معالجة المستندات لديك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

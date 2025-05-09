@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ Um eine optimale Leistung bei der Verwendung von Aspose.Cells für Java sicherzu
 In dieser Anleitung haben Sie gelernt, wie Sie OLE-Objektbeschriftungen mit Aspose.Cells für Java ändern und überprüfen. Diese Kenntnisse helfen Ihnen, Excel-Dateien in verschiedenen professionellen Szenarien effizienter zu verwalten. Für weitere Informationen können Sie sich mit den weiteren Funktionen von Aspose.Cells befassen, um noch mehr Potenzial für Ihre Datenverwaltungsaufgaben zu erschließen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

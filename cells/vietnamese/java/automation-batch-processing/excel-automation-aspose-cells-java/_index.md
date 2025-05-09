@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -266,6 +268,9 @@ Hãy cân nhắc việc mua giấy phép hoặc đăng ký giấy phép tạm th
 Hãy bắt đầu hành trình cùng Aspose.Cells ngay hôm nay và cách mạng hóa cách bạn làm việc với Excel trong Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

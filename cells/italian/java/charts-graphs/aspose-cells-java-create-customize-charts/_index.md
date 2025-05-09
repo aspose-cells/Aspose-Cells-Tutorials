@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,7 +224,7 @@ legend.setPosition(LegendPositionType.TOP);
 ### 7. Salvataggio della cartella di lavoro
 
 #### Panoramica
-Assicurati che tutto il tuo duro lavoro venga salvato esportando la cartella di lavoro.
+Assicurati di salvare tutto il tuo duro lavoro esportando la cartella di lavoro.
 
 #### Passaggi:
 
@@ -277,6 +279,9 @@ Ora hai imparato a creare e personalizzare grafici utilizzando Aspose.Cells in J
 Seguendo questa guida, sarai in grado di creare e personalizzare grafici nelle applicazioni Java utilizzando Aspose.Cells con facilità. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 
 ## 필수 조건
 
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 1. **라이브러리 및 종속성**: Java 버전 25.3 이상용 Aspose.Cells.
 2. **환경 설정**: JDK(Java Development Kit)의 작동 환경이 필수적입니다. 이 가이드는 Maven 또는 Gradle 빌드 도구 사용에 익숙하다는 것을 전제로 합니다.
 3. **지식 전제 조건**: Java 프로그래밍, 파일 I/O 작업, 종속성 관리를 위한 XML 구성에 대한 기본적인 이해.
@@ -165,6 +167,9 @@ Aspose.Cells를 더 자세히 알아보려면 방대한 문서를 살펴보거�
 - [Aspose 지원 포럼](https://forum.aspose.com/categories/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Поворот текста с помощью фигуры в Excel
-linktitle: Поворот текста с помощью фигуры в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как вращать текст с фигурами в Excel с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству для идеальной презентации Excel.
-weight: 12
-url: /ru/net/excel-shape-text-modifications/rotate-text-shape-excel/
+"description": "Узнайте, как вращать текст с фигурами в Excel с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству для идеальной презентации Excel."
+"linktitle": "Поворот текста с помощью фигуры в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Поворот текста с помощью фигуры в Excel"
+"url": "/ru/net/excel-shape-text-modifications/rotate-text-shape-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Поворот текста с помощью фигуры в Excel
@@ -18,9 +20,9 @@ url: /ru/net/excel-shape-text-modifications/rotate-text-shape-excel/
 ## Предпосылки
 Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio, так как именно там мы будем писать код.
-2.  Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Вы можете[скачать последнюю версию здесь](https://releases.aspose.com/cells/net/) или попробуйте бесплатно с[бесплатная пробная версия](https://releases.aspose.com/).
+2. Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Вы можете [скачать последнюю версию здесь](https://releases.aspose.com/cells/net/) или попробуйте бесплатно с [бесплатная пробная версия](https://releases.aspose.com/).
 3. Базовые знания C#: знакомство с C# и средой .NET будет полезным, хотя мы будем сопровождать вас на каждом этапе пути.
-4.  Файл Excel: пример файла Excel, назовем его`sampleRotateTextWithShapeInsideWorksheet.xlsx`, необходим для тестирования нашего кода. Вам следует поместить этот файл в каталог, к которому вы сможете легко получить доступ.
+4. Файл Excel: пример файла Excel, назовем его `sampleRotateTextWithShapeInsideWorksheet.xlsx`, необходим для тестирования нашего кода. Вам следует поместить этот файл в каталог, к которому вы сможете легко получить доступ.
 Все готово? Фантастика! Давайте перейдем к самому интересному.
 ## Импортные пакеты
 Чтобы начать, нам нужно импортировать необходимые пакеты в наш проект. Вот как это сделать:
@@ -46,14 +48,14 @@ using Aspose.Cells.Drawing;
 Теперь мы готовы приступить к кодированию!
 Давайте разобьем процесс на легко усваиваемые шаги. Вот как повернуть текст с помощью фигур в файле Excel:
 ## Шаг 1: Настройте пути к каталогам
-Сначала вам нужно настроить исходные и выходные каталоги, где будут храниться ваши файлы Excel. Вот как:
+Сначала вам нужно настроить исходные и выходные каталоги, в которых будут храниться ваши файлы Excel. Вот как это сделать:
 ```csharp
 //Исходный каталог
 string sourceDir = "Your Document Directory"; // Установите каталог документов
 //Выходной каталог
 string outputDir = "Your Document Directory"; // Установите выходной каталог
 ```
- Заменять`"Your Document Directory"` с фактическим путем, где ваш`sampleRotateTextWithShapeInsideWorksheet.xlsx` файл находится .
+Заменять `"Your Document Directory"` с фактическим путем, где ваш `sampleRotateTextWithShapeInsideWorksheet.xlsx` файл находится .
 ## Шаг 2: Загрузите образец файла Excel
 Теперь давайте загрузим образец файла Excel. Это важно, так как мы хотим манипулировать существующими данными.
 ```csharp
@@ -88,7 +90,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //Не вращайте текст вместе с фигурой, установив RotateTextWithShape как false.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- Установив`RotateTextWithShape` при значении false мы гарантируем, что текст останется вертикальным и не будет вращаться вместе с формой, тем самым сохраняя аккуратность и организованность.
+Установив `RotateTextWithShape` при значении false мы гарантируем, что текст останется вертикальным и не будет вращаться вместе с формой, тем самым сохраняя аккуратность и организованность.
 ## Шаг 7: Сохраните выходной файл Excel
 Наконец, давайте сохраним наши изменения в новом файле Excel. Это гарантирует, что мы не потеряем наши правки и получим аккуратный вывод.
 ```csharp
@@ -97,7 +99,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Вот и все! Ваш выходной файл теперь сохранен, включая текст в ячейке B4 и изменения, внесенные в форму.
 ## Шаг 8: Выполните код
- В вашем`Main` метод, оберните все вышеприведенные фрагменты кода и запустите свой проект. Посмотрите, как изменения отразятся в вашем выходном файле!
+В вашем `Main` метод, оберните все вышеприведенные фрагменты кода и запустите свой проект. Посмотрите, как изменения отразятся в вашем выходном файле!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,18 +107,20 @@ Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 Поворот текста с фигурами в Excel с помощью Aspose.Cells для .NET может показаться сложным процессом на первый взгляд, но это довольно просто, если разобраться. Выполнив эти простые шаги, вы сможете настроить свои электронные таблицы так, чтобы они выглядели более профессионально и визуально привлекательно. Теперь, делаете ли вы это для клиента или для своих личных проектов, все будут в восторге от качества вашей работы!
 ## Часто задаваемые вопросы
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да! Вы можете использовать[бесплатная пробная версия](https://releases.aspose.com/) чтобы опробовать библиотеку.
+Да! Вы можете использовать [бесплатная пробная версия](https://releases.aspose.com/) чтобы опробовать библиотеку.
 ### Какие версии Excel поддерживает Aspose.Cells?
 Aspose.Cells поддерживает множество форматов Excel, включая XLS, XLSX, CSV и другие.
 ### Можно ли вращать текст с фигурами в старых версиях Excel?
 Да, эту функциональность можно применить к старым форматам, поддерживаемым Aspose.Cells.
 ### Где я могу найти более подробную документацию по Aspose.Cells?
- Вы можете изучить всеобъемлющую[документация](https://reference.aspose.com/cells/net/) для более подробной информации.
+Вы можете изучить всеобъемлющую [документация](https://reference.aspose.com/cells/net/) для более подробной информации.
 ### Как получить поддержку по Aspose.Cells?
- Вы можете обратиться за поддержкой, посетив[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете обратиться за поддержкой, посетив [Форум Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

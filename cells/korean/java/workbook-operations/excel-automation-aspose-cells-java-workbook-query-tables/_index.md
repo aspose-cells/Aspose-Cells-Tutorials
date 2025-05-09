@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Aspose.Cells for Java를 사용하여 통합 문서를 로드하고 쿼리 테이블 결과를 가져오는 등 Excel 자동화를 완벽하게 구현하세요. 데이터 처리, 보고 및 통합 작업의 생산성을 높여 보세요."
+"description": "Aspose.Cells for Java를 사용하여 통합 문서를 로드하고 쿼리 테이블 결과를 가져오는 방식으로 Excel 자동화를 마스터하세요. 데이터 처리, 보고 및 통합 작업의 생산성을 높여 보세요."
 "title": "Aspose.Cells Java를 사용하여 Excel 자동화로 통합 문서 및 쿼리 테이블 로드 - 효율적인 데이터 관리"
 "url": "/ko/java/workbook-operations/excel-automation-aspose-cells-java-workbook-query-tables/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,6 +189,9 @@ Aspose.Cells Java로 자동화의 힘을 활용하고 애플리케이션에서 E
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

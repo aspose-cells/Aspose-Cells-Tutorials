@@ -1,36 +1,38 @@
 ---
-title: Compatibiliteit van Excel-bestand programmatisch specificeren in .NET
-linktitle: Compatibiliteit van Excel-bestand programmatisch specificeren in .NET
-second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u draaitabellen in Excel bewerkt met Aspose.Cells voor .NET, inclusief gegevensupdates, compatibiliteitsinstellingen en celopmaak.
-weight: 23
-url: /nl/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Leer hoe u draaitabellen in Excel bewerkt met Aspose.Cells voor .NET, inclusief gegevensupdates, compatibiliteitsinstellingen en celopmaak."
+"linktitle": "Compatibiliteit van Excel-bestand programmatisch specificeren in .NET"
+"second_title": "Aspose.Cells .NET Excel-verwerkings-API"
+"title": "Compatibiliteit van Excel-bestand programmatisch specificeren in .NET"
+"url": "/nl/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Compatibiliteit van Excel-bestand programmatisch specificeren in .NET
 
 ## Invoering
 
-In de huidige datagedreven wereld is het beheren en manipuleren van Excel-bestanden via programma's essentieel geworden voor veel ontwikkelaars. Als u met Excel in .NET werkt, is Aspose.Cells een krachtige bibliotheek waarmee u eenvoudig Excel-bestanden kunt maken, lezen, wijzigen en opslaan. Een belangrijke functie van deze bibliotheek stelt u in staat om de compatibiliteit van Excel-bestanden via programma's te specificeren. In deze tutorial gaan we onderzoeken hoe u Excel-bestanden kunt manipuleren, met name gericht op het beheren van compatibiliteit met Aspose.Cells voor .NET. Aan het einde begrijpt u hoe u de compatibiliteit voor Excel-bestanden kunt instellen, met name voor draaitabellen, terwijl u gegevens vernieuwt en beheert.
+In de huidige datagedreven wereld is het programmatisch beheren en manipuleren van Excel-bestanden essentieel geworden voor veel ontwikkelaars. Als u met Excel in .NET werkt, is Aspose.Cells een krachtige bibliotheek waarmee u eenvoudig Excel-bestanden kunt maken, lezen, wijzigen en opslaan. Een belangrijke functie van deze bibliotheek is dat u de compatibiliteit van Excel-bestanden programmatisch kunt specificeren. In deze tutorial onderzoeken we hoe u Excel-bestanden kunt bewerken, met name gericht op het beheren van compatibiliteit met Aspose.Cells voor .NET. Aan het einde begrijpt u hoe u de compatibiliteit voor Excel-bestanden, met name draaitabellen, kunt instellen en tegelijkertijd gegevens kunt vernieuwen en beheren.
 
 ## Vereisten
 
 Voordat u met de coderingsfase begint, moet u ervoor zorgen dat u over het volgende beschikt:
 
 1. Basiskennis van C#: Omdat we code in C# gaan schrijven, is het beter om de tutorial te begrijpen als je bekend bent met de taal.
-2.  Aspose.Cells voor .NET-bibliotheek: U kunt deze downloaden van de[Aspose Cells-releasepagina](https://releases.aspose.com/cells/net/)Als u dat nog niet gedaan hebt, overweeg dan om eerst een gratis proefversie te downloaden om de functies te verkennen.
+2. Aspose.Cells voor .NET-bibliotheek: u kunt deze downloaden van de [Aspose Cells-releasepagina](https://releases.aspose.com/cells/net/)Als u dat nog niet heeft gedaan, overweeg dan om eerst een gratis proefperiode te proberen om de functies te ontdekken.
 3. Visual Studio: een IDE waarmee u effectief uw C#-code kunt schrijven en testen.
-4.  Voorbeeld Excel-bestand: Zorg ervoor dat u een voorbeeld Excel-bestand hebt, bij voorkeur een bestand met een draaitabel voor de demo. Voor ons voorbeeld gebruiken we`sample-pivot-table.xlsx`.
+4. Voorbeeld Excel-bestand: Zorg ervoor dat u een voorbeeld Excel-bestand hebt, bij voorkeur een bestand met een draaitabel voor de demo. Voor ons voorbeeld gebruiken we `sample-pivot-table.xlsx`.
 
 Nu deze voorwaarden vervuld zijn, kunnen we beginnen met het codeerproces.
 
 ## Pakketten importeren
 
-Voordat u begint met het schrijven van uw applicatie, moet u de benodigde namespaces in uw code opnemen om de Aspose.Cells-bibliotheek effectief te gebruiken. Hier leest u hoe u dat doet.
+Voordat u begint met het schrijven van uw applicatie, moet u de benodigde naamruimten in uw code opnemen om de Aspose.Cells-bibliotheek effectief te gebruiken. Hier leest u hoe u dat doet.
 
 ### Importeer Aspose.Cells-naamruimte
 
@@ -44,18 +46,18 @@ using System.Drawing;
 
 Met deze coderegel krijgt u toegang tot alle klassen en methoden in de Aspose.Cells-bibliotheek.
 
-Laten we het proces nu gedetailleerd uitleggen, zodat alles duidelijk en begrijpelijk is.
+Laten we het proces nu gedetailleerd uitleggen om ervoor te zorgen dat alles duidelijk en begrijpelijk is.
 
 ## Stap 1: Stel uw directory in
 
-Allereerst, stel de directory in waar uw Excel-bestanden zich bevinden. Het is belangrijk om het juiste bestandspad op te geven.
+Allereerst moet u de map instellen waar uw Excel-bestanden zich bevinden. Het is belangrijk dat u het juiste bestandspad opgeeft.
 
 ```csharp
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
 ```
 
- Hier, vervang`"Your Document Directory"`met het daadwerkelijke pad naar uw Excel-bestanden. Dit is waar uw voorbeeld draaitabelbestand zich zou moeten bevinden.
+Hier vervangen `"Your Document Directory"` met het daadwerkelijke pad naar uw Excel-bestanden. Dit is de plek waar uw voorbeelddraaitabelbestand zou moeten staan.
 
 ## Stap 2: Laad het bron-Excelbestand
 
@@ -66,7 +68,7 @@ Vervolgens moeten we het Excel-bestand laden dat de voorbeelddraaitabel bevat.
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- In deze stap maken we een instantie van de`Workbook` klasse, die het opgegeven Excel-bestand laadt. 
+In deze stap maken we een exemplaar van de `Workbook` klasse, die het opgegeven Excel-bestand laadt. 
 
 ## Stap 3: Toegang tot de werkbladen
 
@@ -77,11 +79,11 @@ Nu de werkmap is geladen, moet u het werkblad openen dat de draaitabelgegevens b
 Worksheet dataSheet = wb.Worksheets[0];
 ```
 
-Hier hebben we toegang tot het eerste werkblad waar de draaitabel zich bevindt. U kunt ook door andere werkbladen heen lopen of deze specificeren op basis van uw Excel-structuur.
+Hier openen we het eerste werkblad met de draaitabel. Je kunt ook andere werkbladen doorlopen of specificeren op basis van je Excel-structuur.
 
 ## Stap 4: Celgegevens manipuleren
 
-Vervolgens gaat u enkele celwaarden in het werkblad wijzigen. 
+Vervolgens gaat u een aantal celwaarden in het werkblad wijzigen. 
 
 ### Stap 4.1: Cel A3 wijzigen
 
@@ -94,20 +96,20 @@ Cell cell = cells["A3"];
 cell.PutValue("FooBar");
 ```
 
-Dit codefragment werkt cel A3 bij met de waarde “FooBar”.
+Met dit codefragment wordt cel A3 bijgewerkt met de waarde “FooBar”.
 
-### Stap 4.2: Cel B3 wijzigen met lange tekenreeks
+### Stap 4.2: Cel B3 wijzigen met een lange tekenreeks
 
-Laten we nu een lange tekenreeks in cel B3 plaatsen die de standaardtekenlimiet van Excel overschrijdt.
+Laten we nu een lange tekenreeks in cel B3 plaatsen die de standaard tekenlimiet van Excel overschrijdt.
 
 ```csharp
-// Toegang tot cel B3, stelt de gegevens in
+// Toegang tot cel B3, gegevens instellen
 string longStr = "Very long text 1. very long text 2.... [continue your long string]";
 cell = cells["B3"];
 cell.PutValue(longStr);
 ```
 
-Deze code is belangrijk omdat deze uw verwachtingen met betrekking tot gegevenslimieten aangeeft, vooral wanneer u met compatibiliteitsinstellingen in Excel werkt.
+Deze code is belangrijk omdat deze uw verwachtingen met betrekking tot gegevenslimieten aangeeft, vooral wanneer u werkt met compatibiliteitsinstellingen in Excel.
 
 ## Stap 5: Controleer de lengte van cel B3
 
@@ -141,7 +143,7 @@ Elk van deze fragmenten werkt meerdere extra cellen in het werkblad bij.
 Vervolgens krijgt u toegang tot het tweede werkblad, dat bestaat uit de draaitabelgegevens.
 
 ```csharp
-//Toegang tot het tweede werkblad dat een draaitabel bevat
+// Toegang tot het tweede werkblad dat een draaitabel bevat
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Toegang tot de draaitabel
@@ -155,13 +157,13 @@ Met dit fragment kunt u de draaitabel bewerken voor compatibiliteitsinstellingen
 Het is belangrijk om in te stellen of uw draaitabel compatibel is met Excel 2003. 
 
 ```csharp
-// De eigenschap IsExcel2003Compatible geeft aan of de draaitabel compatibel is met Excel2003 tijdens het vernieuwen van de draaitabel
+// De eigenschap IsExcel2003Compatible geeft aan of de draaitabel compatibel is met Excel 2003 tijdens het vernieuwen van de draaitabel.
 pivotTable.IsExcel2003Compatible = true;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Dit is waar de echte transformatie begint. Door het instellen`IsExcel2003Compatible` naar`true`, beperk je de tekenlengte tot 255 bij het vernieuwen.
+Dit is waar de echte transformatie begint. Door het instellen `IsExcel2003Compatible` naar `true`beperk je de tekenlengte tot 255 bij het vernieuwen.
 
 ## Stap 9: Controleer de lengte na het instellen van de compatibiliteit
 
@@ -175,12 +177,12 @@ Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible propert
 
 Als de oorspronkelijke gegevens langer zijn dan 255 tekens, ziet u waarschijnlijk een uitvoer die het afkappingseffect bevestigt.
 
-## Stap 10: Wijzig de compatibiliteitsinstelling
+## Stap 10: Compatibiliteitsinstelling wijzigen
 
 Laten we nu de compatibiliteitsinstelling wijzigen en opnieuw controleren.
 
 ```csharp
-//Stel nu de eigenschap IsExcel2003Compatible in op false en vernieuw de database opnieuw.
+// Stel nu de eigenschap IsExcel2003Compatible in op false en vernieuw de database opnieuw.
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -190,10 +192,10 @@ Hierdoor behouden uw gegevens hun oorspronkelijke lengte, zonder de voorgaande b
 
 ## Stap 11: Controleer de lengte opnieuw 
 
-Laten we controleren of de gegevens nu de werkelijke lengte correct weergeven.
+Laten we controleren of de gegevens nu correct de werkelijke lengte weergeven.
 
 ```csharp
-// Nu zal het de originele lengte van celdata afdrukken. De data is nu niet afgekapt.
+// Nu wordt de oorspronkelijke lengte van de celgegevens afgedrukt. De gegevens zijn nu niet afgekapt.
 b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to False: " + b5.StringValue.Length);
 ```
@@ -205,7 +207,7 @@ U zou moeten zien dat de uitvoer de verwijdering van de afkapping bevestigt.
 Om de visuele ervaring te verbeteren, kunt u de cellen opmaken. 
 
 ```csharp
-// Stel de rijhoogte en kolombreedte van cel B5 in en laat de tekst ervan omlopen
+// Stel de rijhoogte en kolombreedte van cel B5 in en laat de tekst ervan doorlopen
 pivotSheet.Cells.SetRowHeight(b5.Row, 100);
 pivotSheet.Cells.SetColumnWidth(b5.Column, 65);
 Style st = b5.GetStyle();
@@ -213,7 +215,7 @@ st.IsTextWrapped = true;
 b5.SetStyle(st);
 ```
 
-Deze coderegels maken de gegevens gemakkelijker leesbaar door de celafmetingen aan te passen en tekstomloop mogelijk te maken.
+Deze coderegels zorgen ervoor dat de gegevens gemakkelijker te lezen zijn door de celafmetingen aan te passen en tekstomloop mogelijk te maken.
 
 ## Stap 13: Sla de werkmap op
 
@@ -224,11 +226,11 @@ Sla ten slotte uw werkmap op met de wijzigingen die u hebt aangebracht.
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- Het kiezen van een geschikt bestandsformaat is cruciaal bij het opslaan van Excel-bestanden.`Xlsx`Het formaat wordt veel gebruikt en is compatibel met veel Excel-versies.
+Het kiezen van een geschikt bestandsformaat is cruciaal bij het opslaan van Excel-bestanden. `Xlsx` Het formaat wordt veel gebruikt en is compatibel met veel Excel-versies.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt nu de compatibiliteitsinstellingen voor Excel-bestanden geprogrammeerd met Aspose.Cells voor .NET. Deze tutorial heeft elke stap beschreven, van het instellen van uw omgeving tot het wijzigen van compatibiliteitsinstellingen voor draaitabellen. Als u ooit hebt gewerkt met gegevens waarvoor specifieke beperkingen of compatibiliteit nodig waren, is dit een vaardigheid die u niet wilt negeren.
+Gefeliciteerd! Je hebt nu de compatibiliteitsinstellingen voor Excel-bestanden geprogrammeerd met Aspose.Cells voor .NET. In deze tutorial hebben we elke stap beschreven, van het instellen van je omgeving tot het aanpassen van de compatibiliteitsinstellingen voor draaitabellen. Als je ooit hebt gewerkt met gegevens die specifieke beperkingen of compatibiliteit vereisten, is dit een vaardigheid die je niet wilt vergeten.
 
 ## Veelgestelde vragen
 
@@ -236,19 +238,21 @@ Gefeliciteerd! U hebt nu de compatibiliteitsinstellingen voor Excel-bestanden ge
 Aspose.Cells is een .NET-bibliotheek waarmee ontwikkelaars naadloos Excel-bestanden kunnen maken, bewerken en converteren.
 
 ### Waarom is Excel-compatibiliteit belangrijk?  
-Compatibiliteit met Excel is van cruciaal belang om ervoor te zorgen dat bestanden kunnen worden geopend en gebruikt in de beoogde versies van Excel, vooral als ze functies of indelingen bevatten die niet in eerdere versies werden ondersteund.
+Compatibiliteit met Excel is van cruciaal belang om ervoor te zorgen dat bestanden kunnen worden geopend en gebruikt in de beoogde versies van Excel, vooral als ze functies of indelingen bevatten die in eerdere versies niet werden ondersteund.
 
 ### Kan ik programmatisch draaitabellen maken met Aspose.Cells?  
-Ja, u kunt draaitabellen programmatisch maken en manipuleren met Aspose.Cells. De bibliotheek biedt verschillende methoden om gegevensbronnen, velden en functies toe te voegen die zijn gekoppeld aan draaitabellen.
+Ja, u kunt draaitabellen programmatisch maken en bewerken met Aspose.Cells. De bibliotheek biedt verschillende methoden om gegevensbronnen, velden en functies toe te voegen die aan draaitabellen zijn gekoppeld.
 
 ### Hoe controleer ik de lengte van een tekenreeks in een Excel-cel?  
- kunt de`StringValue` eigendom van een`Cell` object om de inhoud van de cel te verkrijgen en vervolgens de`.Length` eigenschap om de lengte van de string te achterhalen.
+Je kunt de `StringValue` eigendom van een `Cell` object om de inhoud van de cel te verkrijgen en vervolgens de `.Length` eigenschap om de lengte van de tekenreeks te achterhalen.
 
 ### Kan ik de celopmaak aanpassen aan meer dan alleen de rijhoogte en -breedte?  
- Absoluut! Aspose.Cells biedt uitgebreide celopmaak. U kunt lettertypes, kleuren, randen, getalnotaties en nog veel meer wijzigen via de`Style` klas.
+Absoluut! Aspose.Cells biedt uitgebreide celopmaak. Je kunt lettertypen, kleuren, randen, getalnotaties en nog veel meer wijzigen via de `Style` klas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

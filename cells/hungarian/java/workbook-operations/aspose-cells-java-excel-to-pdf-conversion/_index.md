@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Kísérletezz az Aspose.Cells további funkcióival, például a diagramkonvert�
 Ez az útmutató átfogó áttekintést nyújt az Aspose.Cells for Java használatáról Excel-fájlok PDF-be konvertálásához, biztosítva, hogy rendelkezzen a megoldás hatékony megvalósításához szükséges eszközökkel és ismeretekkel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

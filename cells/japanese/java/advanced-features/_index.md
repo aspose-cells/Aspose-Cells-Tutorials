@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -42,7 +44,7 @@ Aspose.Cells for Java を使用して Excel データベース接続を効率的
 ### [JavaでAspose.Cellsを使用してExcelデータ接続を管理する](./aspose-cells-java-excel-external-data-connections/)
 Aspose.Words Javaのコードチュートリアル
 
-### [Aspose.Cells for Java をマスターする: Excel の高度なハイパーリンク管理テクニック](./aspose-cells-java-excel-hyperlinks-processing/)
+### [Aspose.Cells for Java をマスターする: 高度な Excel ハイパーリンク管理テクニック](./aspose-cells-java-excel-hyperlinks-processing/)
 Aspose.Cells for Java を使用して、Excel ファイル内のハイパーリンクを効率的に管理および処理する方法を学びます。このガイドでは、セットアップ、ワークブックの読み込み、ワークシートへのアクセス、ハイパーリンクの処理について説明します。
 
 ### [Aspose.Cells for Java を使用して Excel でハイパーリンクを作成する方法: ステップバイステップガイド](./create-hyperlinks-excel-aspose-cells-java/)
@@ -93,6 +95,9 @@ Aspose.Cells for Javaを使ってExcelファイルのスライサー更新を自
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

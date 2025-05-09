@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ I dagens datadrivna värld är det avgörande att skapa visuellt tilltalande och
 
 ### Vad du kommer att lära dig:
 - Hur man lägger till linjeformer med Aspose.Cells för Java.
-- Anpassa linjestreckstilar och placering.
+- Anpassa linjestrecksstilar och placering.
 - Spara modifierade Excel-filer med tillagda rader.
 - Optimera prestandan när du arbetar med stora datamängder i Excel.
 
@@ -190,6 +192,9 @@ Redo att omsätta dessa kunskaper i praktiken? Börja med att experimentera med 
 Den här omfattande guiden syftar till att utrusta dig med den kunskap och de verktyg som krävs för att effektivt använda Aspose.Cells Java för att förbättra dina Excel-dokument. Börja implementera dessa tekniker idag!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

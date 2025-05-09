@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ In deze tutorial heb je geleerd hoe je de kracht van Aspose.Cells voor Java kunt
 - Test uw automatiseringsscripts altijd grondig en ga zorgvuldig om met uitzonderingen. Zorg ervoor dat uw gegevensbronnen betrouwbaar en up-to-date zijn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/APToExcelComment_out.xlsx");
 Az Aspose.Cells optimális teljesítményének biztosítása érdekében:
 - A memóriahasználat hatékony kezelése az erőforrások használat utáni felszabadításával, különösen nagyméretű munkafüzetek esetén.
 - Minimalizálja a felesleges objektumok létrehozását a szemétgyűjtés terhelésének csökkentése érdekében.
-- Profilkészítés és erőforrás-felhasználás monitorozása a fejlesztés során a jobb skálázhatósági információk érdekében.
+- Profil készítése és az erőforrás-felhasználás monitorozása a fejlesztés során a jobb skálázhatósági információk érdekében.
 
 ## Következtetés
 Megtanultad, hogyan javíthatod az Excel-táblázatokat az Aspose.Cells for Java segítségével szöveg és képek hozzáadásával a megjegyzésekhez. Ez a képesség új utakat nyit az adatok megjelenítésében, informatívabbá és lebilincselőbbé téve a táblázataidat.
@@ -161,7 +163,7 @@ Az olyan elterjedt képformátumok, mint a JPEG és a PNG, általában támogato
 **4. Lehetséges dinamikusan képeket betölteni egy URL-ből?**
 Míg ez a kódrészlet helyi fájlokat tölt be, a Java hálózati képességeit használhatod távoli képek lekéréséhez és beágyazásához.
 
-**5. Hogyan háríthatom el a fájlelérési utakkal kapcsolatos hibákat?**
+**5. Hogyan háríthatom el a fájlelérési útvonalakkal kapcsolatos hibákat?**
 Győződjön meg arról, hogy az összes könyvtár elérési út helyes és elérhető az alkalmazás futási környezete számára.
 
 ## Erőforrás
@@ -173,6 +175,9 @@ Részletesebb információkért és további funkciókért:
 - [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

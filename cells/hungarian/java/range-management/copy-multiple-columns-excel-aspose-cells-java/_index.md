@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ Ez az útmutató bemutatta, hogyan másolhat több oszlopot egy munkalapon belü
 5. **Hogyan integrálhatom ezt a funkciót egy meglévő Java alkalmazásba?**
    - Importáld az Aspose.Cells osztályokat, inicializálj egy `Workbook` objektumot a fájl elérési útjával, és alkalmazza a metódusokat a bemutatott módon.
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Legújabb kiadás letöltése](https://releases.aspose.com/cells/java/)
 - [Vásárolja meg az Aspose.Cells-t](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverziók letöltése](https://releases.aspose.com/cells/java/)
@@ -126,6 +128,9 @@ Ez az útmutató bemutatta, hogyan másolhat több oszlopot egy munkalapon belü
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

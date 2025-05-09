@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Podzielmy naszą implementację na łatwiejsze do opanowania części:
 
 ### Krok 1: Zdefiniuj `Teacher` Klasa
 
-**Przegląd**:Ten `Teacher` Klasa rozszerza `Person` klasa, zarządzanie danymi uczniów za pomocą ArrayList. Ten projekt umożliwia enkapsulację i łatwe zarządzanie relacjami nauczyciel-uczeń.
+**Przegląd**:Ten `Teacher` klasa rozszerza `Person` klasa, zarządzanie danymi uczniów za pomocą ArrayList. Ten projekt umożliwia enkapsulację i łatwe zarządzanie relacjami nauczyciel-uczeń.
 
 ```java
 import java.util.ArrayList;
@@ -149,6 +151,9 @@ Opanowując te koncepcje i wykorzystując Aspose.Cells, jesteś dobrze wyposażo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

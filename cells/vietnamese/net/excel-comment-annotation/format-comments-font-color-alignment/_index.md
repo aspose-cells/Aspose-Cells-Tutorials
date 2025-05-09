@@ -1,14 +1,16 @@
 ---
-title: Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh
-linktitle: Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách định dạng chú thích Excel dễ dàng bằng Aspose.Cells cho .NET. Tùy chỉnh phông chữ, kích thước và căn chỉnh để cải thiện bảng tính của bạn.
-weight: 12
-url: /vi/net/excel-comment-annotation/format-comments-font-color-alignment/
+"description": "Khám phá cách định dạng chú thích Excel dễ dàng bằng Aspose.Cells cho .NET. Tùy chỉnh phông chữ, kích thước và căn chỉnh để cải thiện bảng tính của bạn."
+"linktitle": "Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh"
+"url": "/vi/net/excel-comment-annotation/format-comments-font-color-alignment/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng bình luận - Phông chữ, Màu sắc, Căn chỉnh
@@ -18,18 +20,18 @@ Nếu bạn từng cảm thấy rằng các bảng tính Excel của mình cần
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào việc định dạng bình luận, bạn sẽ cần một số thứ sau:
 1. Thiết lập môi trường: Đảm bảo bạn đã cài đặt môi trường phát triển .NET, tốt nhất là Visual Studio.
-2.  Aspose.Cells: Tải xuống và cài đặt Aspose.Cells từ[đây](https://releases.aspose.com/cells/net/). Thư viện này sẽ cho phép bạn tương tác với các tệp Excel một cách dễ dàng.
+2. Aspose.Cells: Tải xuống và cài đặt Aspose.Cells từ [đây](https://releases.aspose.com/cells/net/). Thư viện này sẽ cho phép bạn tương tác với các tệp Excel một cách dễ dàng.
 3. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ hướng dẫn bạn viết mã, nhưng hiểu biết cơ bản về C# sẽ giúp bạn điều chỉnh mọi thứ khi cần thiết.
-4.  Giấy phép Aspose: Nếu bạn dự định sử dụng Aspose.Cells cho các phiên mở rộng hoặc trong quá trình sản xuất, hãy cân nhắc mua giấy phép[đây](https://purchase.aspose.com/buy) hoặc sử dụng giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép Aspose: Nếu bạn dự định sử dụng Aspose.Cells cho các phiên mở rộng hoặc trong quá trình sản xuất, hãy cân nhắc mua giấy phép [đây](https://purchase.aspose.com/buy) hoặc sử dụng giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 ## Nhập gói
 Để bắt đầu sử dụng Aspose.Cells, bạn cần nhập các không gian tên cần thiết vào dự án của mình. Sau đây là cách bạn có thể thực hiện:
 ### Tạo một dự án mới
 - Mở Visual Studio và tạo một dự án mới.
--  Chọn Console App làm loại dự án của bạn và đặt tên bất kỳ cho nó—như`ExcelCommentsDemo`.
+- Chọn Console App làm loại dự án của bạn và đặt tên bất kỳ cho nó—như `ExcelCommentsDemo`.
 ### Thêm thư viện Aspose.Cells
 - Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 - Chọn Quản lý gói NuGet.
--  Tìm kiếm`Aspose.Cells`và cài đặt phiên bản mới nhất.
+- Tìm kiếm `Aspose.Cells`và cài đặt phiên bản mới nhất.
 ### Nhập không gian tên bắt buộc
 Mở tệp C# chính của bạn và thêm các dòng sau vào đầu:
 ```csharp
@@ -128,16 +130,18 @@ Hãy thoải mái khám phá thêm các khả năng mở rộng của Aspose.Cel
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nhà phát triển làm việc với các tệp Excel một cách liền mạch, cho phép họ tạo, sửa đổi và thao tác các bảng tính Excel theo chương trình.
 ### Làm thế nào tôi có thể nhận được bản dùng thử miễn phí Aspose.Cells?
- Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells từ[đây](https://releases.aspose.com/).
+Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells từ [đây](https://releases.aspose.com/).
 ### Aspose.Cells có hỗ trợ các định dạng tệp Excel khác ngoài XLS không?
 Có, Aspose.Cells hỗ trợ nhiều định dạng khác nhau như XLSX, XLSM, CSV, ODS, v.v.!
 ### Tôi có thể thêm chú thích vào nhiều ô cùng lúc không?
 Có, bạn có thể lặp qua một loạt ô và thêm chú thích theo cách lập trình bằng cách sử dụng phương pháp tương tự được nêu trong hướng dẫn này.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).
+Để được hỗ trợ, bạn có thể truy cập diễn đàn Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

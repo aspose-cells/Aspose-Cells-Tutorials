@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ public class Main {
     }
 }
 ```
-**2. Bir Değer Ekle ve Biçimlendir**
+**2. Bir Değeri Ekle ve Biçimlendir**
 A1 hücresine bir değer ekleyin ve özel Ondalık Sayı biçimlendirmesini uygulayın:
 ```java
 import com.aspose.cells.Cell;
@@ -114,7 +116,7 @@ public class Main {
     }
 }
 ```
-**3. Çalışma kitabını PDF olarak kaydedin**
+**3. Çalışma Kitabını PDF Olarak Kaydet**
 Son olarak çalışma kitabınızı PDF formatında kaydedin:
 ```java
 import com.aspose.cells.SaveFormat;
@@ -179,6 +181,9 @@ Bir sonraki adımı atmaya hazır mısınız? Bu özellikleri projelerinize uygu
 Aspose.Cells ile yolculuğunuza bugün başlayın ve Java'da Excel verilerini işleme şeklinizi geliştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

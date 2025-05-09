@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
    - Вы можете получить бесплатную пробную версию [Загрузки Aspose](https://releases.aspose.com/cells/java/).
    - Для длительного использования рассмотрите возможность приобретения лицензии или получения временной лицензии через [Временная лицензия](https://purchase.aspose.com/temporary-license/).
 
-3. **Базовая инициализация**: После установки создайте экземпляр `Workbook` чтобы начать создавать и обрабатывать файлы Excel.
+3. **Базовая инициализация**После установки создайте экземпляр `Workbook` чтобы начать создавать и обрабатывать файлы Excel.
 
 ## Руководство по внедрению
 
@@ -205,6 +207,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

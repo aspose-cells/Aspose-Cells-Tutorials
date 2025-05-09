@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Για να δοκιμάσετε το Aspose.Cells, μπορείτε να αποκτήσετε μια δωρεάν προσωρινή άδεια χρήσης ή να την αγοράσετε για πλήρη λειτουργικότητα. Ακολουθήστε τα παρακάτω βήματα:
 
 1. **Δωρεάν δοκιμή**: Λήψη της βιβλιοθήκης από [Λήψεις Aspose](https://releases.aspose.com/cells/java/).
-2. **Προσωρινή Άδεια**Υποβάλετε αίτηση για προσωρινή άδεια στο [Προσωρινή Άδεια Aspose](https://purchase.aspose.com/temporary-license/).
+2. **Προσωρινή Άδεια**: Υποβάλετε αίτηση για προσωρινή άδεια στο [Προσωρινή Άδεια Aspose](https://purchase.aspose.com/temporary-license/).
 3. **Αγορά**Για μακροχρόνια χρήση, αγοράστε μια άδεια χρήσης μέσω [Αγορά Aspose](https://purchase.aspose.com/buy).
 
 ### Βασική Αρχικοποίηση και Ρύθμιση
@@ -199,6 +201,9 @@ wb.save(outDir + "/outputRotateTextWithShapeInsideWorksheet.xlsx");
 Πειραματιστείτε με αυτές τις τεχνικές και ανεβάστε τους χειρισμούς εγγράφων Excel στο επόμενο επίπεδο χρησιμοποιώντας το Aspose.Cells για Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Aspose.Cellsを使用したJavaメモリ管理に関するヒントについて�
 - はい、別々にインスタンス化します `Workbook` 管理するファイルごとにオブジェクトを作成します。
 
 **Q2: Aspose.Cells を使用して Excel にインポートできる形式は何ですか?**
-- Aspose は XML に加えて、JSON、CSV、その他のさまざまな形式からのデータのインポートをサポートしています。
+- Aspose は XML 以外にも、JSON、CSV、その他さまざまな形式からのデータのインポートをサポートしています。
 
 **Q3: インポートできる XML ファイルのサイズに制限はありますか?**
 - 主な制限はシステムのメモリです。パフォーマンスの問題を回避するため、大きなファイルは慎重に扱う必要があります。
@@ -172,6 +174,9 @@ Aspose.Cellsを使用したJavaメモリ管理に関するヒントについて�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

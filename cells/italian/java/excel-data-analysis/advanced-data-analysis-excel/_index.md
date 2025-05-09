@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Analisi dati avanzata Excel
@@ -164,7 +166,7 @@ workbook.save("data.csv", SaveFormat.CSV);
 
 Mettiamo in pratica tutto ciò che abbiamo imparato con uno studio di caso reale: analizzare i dati di vendita mensili per individuare le tendenze e prendere decisioni aziendali informate.
 
-In questo studio di caso, tratteremo i seguenti argomenti:
+In questo caso di studio tratteremo:
 
 - Importazione e pulizia dei dati.
 - Calcolo delle vendite totali e delle percentuali di crescita.
@@ -210,6 +212,7 @@ Aspose.Cells per Java supporta l'esportazione dei risultati delle analisi in var
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

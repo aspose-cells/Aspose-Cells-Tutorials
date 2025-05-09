@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 Αυτό το σεμινάριο θα σας εξοπλίσει με τις γνώσεις και τα εργαλεία για να διαχειρίζεστε αποτελεσματικά τους υπολογισμούς τύπων στο Aspose.Cells για Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

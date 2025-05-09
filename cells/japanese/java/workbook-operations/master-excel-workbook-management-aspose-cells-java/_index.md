@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ Excel ブックの作成は簡単です。
 このガイドに従うことで、Aspose.Cells for Java を使用してExcelブックをプログラムで管理するスキルを習得できます。この強力なツールは、複雑なタスクを効率化し、Excelファイル処理の生産性を向上させます。データ管理ワークフローをさらに改善するために、引き続きAspose.Cells for Javaの機能をご確認ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

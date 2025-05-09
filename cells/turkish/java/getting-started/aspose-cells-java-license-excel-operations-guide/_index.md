@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -217,6 +219,9 @@ Artık Java'da Aspose.Cells'i nasıl kuracağınızı, Excel dosyalarını nası
 Bu kılavuzu takip ederek, Java uygulamalarınızda güçlü Excel otomasyonu için Aspose.Cells'i kullanmak için gereken donanıma sahip olacaksınız.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

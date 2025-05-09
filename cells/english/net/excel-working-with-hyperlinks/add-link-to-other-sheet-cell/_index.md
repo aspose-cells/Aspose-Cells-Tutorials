@@ -8,7 +8,9 @@ url: /net/excel-working-with-hyperlinks/add-link-to-other-sheet-cell/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Link to Other Sheet Cell in Excel
@@ -111,6 +113,7 @@ You can reach out to the Aspose community for support [here](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

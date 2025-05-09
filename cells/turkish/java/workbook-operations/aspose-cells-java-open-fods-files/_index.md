@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ Başlamaya hazır mısınız? Bu adımları projenize uygulayın ve Aspose.Cells
 1. **FODS dosyası nedir ve onu açmak için neden Java için Aspose.Cells kullanmalıyız?**
    - FODS dosyası, yapılandırılmış verileri depolamak için kullanılan bir biçimdir. Aspose.Cells, bu dosyaları Java'da açmak için sağlam destek sağlar.
 2. **Aspose.Cells ile büyük FODS dosyalarını verimli bir şekilde işleyebilir miyim?**
-   - Evet, bellek yönetimi ve verimli yükleme seçenekleri için en iyi uygulamaları izleyerek.
+   - Evet, bellek yönetimi ve verimli yükleme seçenekleri için en iyi uygulamaları takip ederek.
 3. **Aspose.Cells'i deneme süresi boyunca kullanmak için satın almam gerekiyor mu?**
    - Hayır, Aspose web sitesinden ücretsiz deneme sürümünü indirebilirsiniz.
 4. **FODS dosyalarını açarken oluşan hataları nasıl çözebilirim?**
@@ -167,6 +169,9 @@ Başlamaya hazır mısınız? Bu adımları projenize uygulayın ve Aspose.Cells
 - [Destek](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-JavaアプリケーションでFODSファイルを扱うのに苦労していませんか？あなただけではありません。多くの開発者は、FODSのような特殊なファイル形式を扱う際に、特に適切なツールがない場合に困難に直面しています。Aspose.Cells for Javaを使えば、これらのファイルのオープンと操作が簡単になります。この包括的なガイドでは、Aspose.Cellsを使ってFODSファイルを効率的に開く方法を詳しく説明します。
+JavaアプリケーションでFODSファイルの操作に苦労していませんか？あなただけではありません。多くの開発者は、FODSのような特殊なファイル形式を扱う際に、特に適切なツールがない場合に困難に直面しています。Aspose.Cells for Javaを使えば、これらのファイルのオープンと操作が簡単になります。この包括的なガイドでは、Aspose.Cellsを使ってFODSファイルを効率的に開く方法を詳しく説明します。
 
 **学習内容:**
 - プロジェクトにAspose.Cells for Javaを設定する
@@ -167,6 +169,9 @@ Aspose.Cells for Java を設定して使用し、FODS ファイルを開く方�
 - [サポート](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

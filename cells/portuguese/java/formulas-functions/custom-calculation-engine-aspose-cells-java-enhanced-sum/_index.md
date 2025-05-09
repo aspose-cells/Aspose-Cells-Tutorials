@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ O Aspose.Cells é um produto comercial, mas você pode começar com um teste gra
 
 - **Teste grátis**: Baixe a biblioteca de [lançamentos](https://releases.aspose.com/cells/java/).
 - **Licença Temporária**: Obtenha um via [este link](https://purchase.aspose.com/temporary-license/) para remover quaisquer limitações durante sua avaliação.
-- **Comprar**:Para uso de longo prazo, considere adquirir uma licença através [Página de compras da Aspose](https://purchase.aspose.com/buy).
+- **Comprar**:Para uso a longo prazo, considere adquirir uma licença através [Página de compras da Aspose](https://purchase.aspose.com/buy).
 
 ### Inicialização e configuração básicas
 
@@ -219,6 +221,9 @@ Como próximos passos, considere explorar recursos mais avançados do Aspose.Cel
 Agora que você domina a implementação de um mecanismo de cálculo personalizado no Aspose.Cells Java, coloque suas habilidades à prova e comece a otimizar suas planilhas como nunca antes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

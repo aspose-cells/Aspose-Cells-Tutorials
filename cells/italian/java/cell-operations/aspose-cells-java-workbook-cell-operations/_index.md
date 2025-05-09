@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ public class InitializeWorkbook {
 
 ### Funzionalità 2: Accesso alle celle del foglio di lavoro
 **Panoramica:**
-L'accesso alle celle del foglio di lavoro è fondamentale per leggere o aggiornare i valori delle celle nei fogli di lavoro Excel.
+L'accesso alle celle del foglio di lavoro è fondamentale per leggere o aggiornare i valori delle celle nei fogli Excel.
 
 #### Implementazione passo dopo passo:
 ##### Accedi alle celle del primo foglio di lavoro
@@ -174,6 +176,9 @@ Pronto a migliorare l'automazione di Excel? Approfondisci Aspose.Cells esplorand
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

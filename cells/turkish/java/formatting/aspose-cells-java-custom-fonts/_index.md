@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ Aspose.Cells ile çalışırken optimum performans için aşağıdakileri göz �
 
 - **Bellek Yönetimi**: Kullanmak `MemoryFontSource` Aşırı bellek kullanımından kaçınmak için dikkatli olun.
 - **Verimli Yol Yapılandırması**Arama sürelerini azaltmak için yazı tipi yollarının verimli bir şekilde yapılandırıldığından emin olun.
-- **Toplu İşleme**: Büyük veri kümeleriyle uğraşırken belgeleri toplu olarak işleyin.
+- **Toplu İşleme**: Büyük veri kümeleriyle çalışırken belgeleri toplu olarak işleyin.
 
 ## Çözüm
 
@@ -196,6 +198,9 @@ Bu kapsamlı kılavuzla artık Aspose.Cells for Java'da özel yazı tipi ayarlar
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

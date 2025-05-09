@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ Esta etapa grava o arquivo PDF otimizado no diretório especificado.
 3. **Integração com Bancos de Dados**: Use o Aspose.Cells para converter arquivos Excel exportados de banco de dados diretamente em PDFs.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Gerencie a memória Java de forma eficaz processando uma pasta de trabalho por vez em ambientes com recursos limitados.
+- **Otimizar o uso da memória**: Gerencie a memória Java de forma eficaz processando uma pasta de trabalho por vez em ambientes com recursos limitados.
 - **Processamento em lote**: Para vários arquivos, use técnicas de processamento em lote para melhorar o rendimento e reduzir o tempo de execução.
 
 ## Conclusão
@@ -154,6 +156,9 @@ Seguindo este guia, você aprendeu como carregar um arquivo Excel em um `Workboo
 Dê o próximo passo na sua jornada de desenvolvimento experimentando o Aspose.Cells para Java e eleve seus processos de conversão de Excel para PDF hoje mesmo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

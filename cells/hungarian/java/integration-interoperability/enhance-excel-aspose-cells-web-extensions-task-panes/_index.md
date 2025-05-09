@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,7 +197,7 @@ Használjon streamelési API-kat és hatékony adatszerkezeteket a nagy adathalm
 Igen, a dokkolási állapotot a következővel állíthatja be: `setDockState("left", "right", "top", "bottom")`.
 
 **5. Hogyan oldhatom meg az Aspose.Cells feladatokkal kapcsolatos gyakori problémákat?**
-Nézd meg az Aspose-t [támogatási fórum](https://forum.aspose.com/c/cells/9) megoldásokért és tippekért tapasztalt felhasználóktól.
+Nézd meg az Aspose-t [támogató fórum](https://forum.aspose.com/c/cells/9) megoldásokért és tippekért tapasztalt felhasználóktól.
 
 ## Erőforrás
 - **Dokumentáció**Átfogó útmutatók és API-referenciák érhetők el a következő címen: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
@@ -207,6 +209,9 @@ Ez az útmutató lehetővé teszi, hogy hatékony webbővítményeket és felada
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

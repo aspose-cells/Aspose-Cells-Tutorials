@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### การขอใบอนุญาต
 ก่อนใช้ Aspose.Cells ควรพิจารณารับใบอนุญาตเพื่อการเข้าถึงแบบเต็มรูปแบบโดยไม่มีข้อจำกัด:
 - **ทดลองใช้งานฟรี**:ทดสอบคุณสมบัติด้วยการทดลองใช้ฟรีจาก [อาโปเซ่](https://releases-aspose.com/cells/java/).
-- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวผ่านทาง [หน้าการซื้อของ Aspose](https://purchase-aspose.com/temporary-license/).
+- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวผ่านทาง [หน้าการซื้อของ Aspose](https://purchase-aspose.com/temporary-license/).
 - **ซื้อ**:หากต้องการใช้ในระยะยาว ควรพิจารณาซื้อใบอนุญาตเต็มรูปแบบผ่าน [อาโปเซ่](https://purchase-aspose.com/buy).
 
 ### การเริ่มต้นขั้นพื้นฐาน
@@ -62,7 +64,7 @@ public class InitializeAspose {
     public static void main(String[] args) throws Exception {
         // โหลดใบอนุญาตถ้ามี
         // ใบอนุญาต license = ใบอนุญาตใหม่();
-        // ใบอนุญาต.setLicense("เส้นทาง_สู่_ใบอนุญาต.lic");
+        // ใบอนุญาต.setLicense("เส้นทางสู่ใบอนุญาต.lic");
 
         System.out.println("Aspose.Cells for Java is ready to use.");
     }
@@ -121,7 +123,7 @@ chart.getChartObject().setY(150);
 ```
 - `setX(int x)`: ตั้งค่าตำแหน่งแนวนอนของแผนภูมิ
 - `setY(int y)`: ปรับตำแหน่งแนวตั้ง
-**คำอธิบาย**:วิธีการเหล่านี้ช่วยให้ควบคุมตำแหน่งที่แผนภูมิปรากฏบนเวิร์กชีตได้อย่างแม่นยำ ทำให้มั่นใจได้ว่าแผนภูมิจะตรงตามความต้องการด้านเค้าโครงของคุณ
+**คำอธิบาย**:วิธีการเหล่านี้ช่วยให้ควบคุมตำแหน่งที่แผนภูมิจะปรากฏบนเวิร์กชีตได้อย่างแม่นยำ ทำให้มั่นใจได้ว่าแผนภูมิจะตรงตามความต้องการด้านเค้าโครงของคุณ
 
 ### บันทึกสมุดงาน
 #### ภาพรวม
@@ -174,6 +176,9 @@ workbook.save(outDir + "/CCPosition_out.xls");
 - **สั่งซื้อและทดลองใช้ฟรี**:เริ่มต้นด้วยการทดลองใช้หรือซื้อผ่าน [เว็บไซต์ของ Aspose](https://purchase-aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

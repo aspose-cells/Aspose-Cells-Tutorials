@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 Aspose.Cells for Javaは商用ライブラリですが、無料トライアルから始めることも、一時ライセンスを申請することもできます。 [購入ページ](https://purchase.aspose.com/buy) ライセンス オプションを検討します。
 
 ## Aspose.Cells for Java のセットアップ
-まず、上記のようにMavenまたはGradleを使って必要なライブラリを追加し、プロジェクト環境に必要なライブラリが含まれていることを確認します。ライブラリが追加されたら、Aspose.Cellsを初期化します。
+まず、上記のようにMavenまたはGradleを使って必要なライブラリを追加し、プロジェクト環境に必要なライブラリが含まれていることを確認します。ライブラリが追加されたら、Aspose.Cellsを初期化できます。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -204,6 +206,9 @@ Aspose.Cells を使用する際のパフォーマンスを最適化するには:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

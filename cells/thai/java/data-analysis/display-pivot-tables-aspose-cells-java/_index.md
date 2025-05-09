@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 
 - **ห้องสมุดที่จำเป็น:** คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ Java (เวอร์ชัน 25.3)
 - **การตั้งค่าสภาพแวดล้อม:** ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณรองรับ Java และสามารถสร้างโปรเจ็กต์โดยใช้ Maven หรือ Gradle ได้
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยเบื้องต้นกับการเขียนโปรแกรมภาษา Java รวมถึงหลักการเชิงวัตถุ
+- **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยเบื้องต้นกับการเขียนโปรแกรมภาษา Java รวมถึงหลักการเชิงวัตถุ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -186,6 +188,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/TabularForm.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

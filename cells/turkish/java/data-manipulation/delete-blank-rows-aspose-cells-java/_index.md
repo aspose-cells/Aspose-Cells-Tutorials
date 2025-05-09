@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@ Temel bilgileri anlayın:
 
 ## Java için Aspose.Cells Kurulumu
 
-Kütüphane bağımlılığını projenize ekleyin. İşte Maven veya Gradle'ı kullanmanın yolu:
+Kütüphane bağımlılığını projenize ekleyin. İşte Maven veya Gradle kullanarak nasıl yapılacağı:
 
 ### Maven Bağımlılığı
 Bunu da ekleyin `pom.xml` dosya:
@@ -172,6 +174,9 @@ Hücreleri biçimlendirme veya sayfaları birleştirme gibi diğer yetenekleri d
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

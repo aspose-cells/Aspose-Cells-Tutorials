@@ -1,14 +1,16 @@
 ---
-title: Szerokość paska karty kontrolnej arkusza kalkulacyjnego
-linktitle: Szerokość paska karty kontrolnej arkusza kalkulacyjnego
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak kontrolować szerokość paska kart arkusza w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Dostosuj swoje pliki programu Excel wydajnie.
-weight: 10
-url: /pl/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-spreadsheet/
+"description": "Dowiedz się, jak kontrolować szerokość paska kart arkusza w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Dostosuj swoje pliki programu Excel wydajnie."
+"linktitle": "Szerokość paska karty kontrolnej arkusza kalkulacyjnego"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Szerokość paska karty kontrolnej arkusza kalkulacyjnego"
+"url": "/pl/net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-spreadsheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Szerokość paska karty kontrolnej arkusza kalkulacyjnego
@@ -23,15 +25,15 @@ W tym samouczku omówimy wszystko, co musisz wiedzieć o kontrolowaniu szerokoś
 
 Zanim zaczniesz, musisz zadbać o kilka rzeczy:
 
-1.  Biblioteka Aspose.Cells dla .NET: Najnowszą wersję można pobrać ze strony[Strona pobierania Aspose](https://releases.aspose.com/cells/net/).
+1. Biblioteka Aspose.Cells dla .NET: Najnowszą wersję można pobrać ze strony [Strona pobierania Aspose](https://releases.aspose.com/cells/net/).
 2. Środowisko programistyczne .NET: Najlepiej Visual Studio lub inne zgodne środowisko IDE .NET.
 3. Podstawowa wiedza o języku C#: Jeśli znasz język C#, możesz śmiało kontynuować naukę.
 
- Ponadto, jeśli nie masz licencji, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub wypróbuj[bezpłatny okres próbny](https://releases.aspose.com/) aby zacząć.
+Ponadto, jeśli nie masz licencji, możesz uzyskać [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) lub wypróbuj [bezpłatny okres próbny](https://releases.aspose.com/) aby zacząć.
 
 ## Importuj pakiety
 
-Przed napisaniem jakiegokolwiek kodu musisz się upewnić, że wszystkie właściwe przestrzenie nazw i biblioteki zostały zaimportowane do projektu. Ten krok jest kluczowy, aby wszystko działało płynnie.
+Przed napisaniem jakiegokolwiek kodu musisz się upewnić, że wszystkie właściwe przestrzenie nazw i biblioteki zostały zaimportowane do projektu. Ten krok jest kluczowy, aby zapewnić, że wszystko będzie działać płynnie.
 
 ```csharp
 using System.IO;
@@ -61,7 +63,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp ścieżką do pliku
 Workbook workbook = new Workbook(dataDir + "book1.xls"); 
 ```
 
- Tutaj,`book1.xls` to plik Excel, który będziemy modyfikować. Jeśli nie masz istniejącego pliku, możesz go utworzyć w Excelu, a następnie zapisać w katalogu projektu.
+Tutaj, `book1.xls` to plik Excel, który będziemy modyfikować. Jeśli nie masz istniejącego pliku, możesz go utworzyć w Excelu, a następnie zapisać w katalogu projektu.
 
 ## Krok 2: Dostosuj widoczność karty
 
@@ -91,7 +93,7 @@ Po wprowadzeniu wszystkich zmian ostatnim krokiem jest zapisanie zmodyfikowanego
 workbook.Save(dataDir + "output.xls");
 ```
 
- W tym przypadku zapisujemy zmodyfikowany plik jako`output.xls`. Jeśli wolisz zachować oryginał w stanie nienaruszonym, możesz zapisać nowy plik pod inną nazwą, jak pokazano tutaj.
+W tym przypadku zapisujemy zmodyfikowany plik jako `output.xls`. Jeśli wolisz zachować oryginał w stanie nienaruszonym, możesz zapisać nowy plik pod inną nazwą, jak pokazano tutaj.
 
 ## Wniosek
 
@@ -100,7 +102,7 @@ to wszystko! Teraz udało Ci się opanować kontrolowanie szerokości paska kart
 ## Najczęściej zadawane pytania
 
 ### Czy mogę całkowicie ukryć pasek kart używając Aspose.Cells?
- Tak! Poprzez ustawienie`workbook.Settings.ShowTabs` Do`false`, możesz całkowicie ukryć pasek kart.
+Tak! Poprzez ustawienie `workbook.Settings.ShowTabs` Do `false`, możesz całkowicie ukryć pasek kart.
 
 ### Co się stanie, jeśli ustawię zbyt dużą szerokość zakładki?
 Jeśli szerokość jest zbyt duża, zakładki mogą wykraczać poza widoczne okno, co wymaga przewijania w poziomie.
@@ -109,13 +111,15 @@ Jeśli szerokość jest zbyt duża, zakładki mogą wykraczać poza widoczne okn
 Nie, Aspose.Cells nie pozwala na zmianę szerokości poszczególnych kart, a jedynie na zmianę ogólnej szerokości paska kart.
 
 ### Jak mogę cofnąć zmiany szerokości zakładki?
- Po prostu zresetuj`workbook.Settings.SheetTabBarWidth` do wartości domyślnej (która zwykle wynosi około 300).
+Po prostu zresetuj `workbook.Settings.SheetTabBarWidth` do wartości domyślnej (która zwykle wynosi około 300).
 
 ### Czy Aspose.Cells obsługuje inne opcje dostosowywania kart?
-Tak, kolorem karty, widocznością i innymi opcjami wyświetlania można sterować również za pomocą Aspose.Cells dla .NET.
+Tak, kolorem karty, widocznością i innymi opcjami wyświetlania można sterować również za pomocą Aspose.Cells for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

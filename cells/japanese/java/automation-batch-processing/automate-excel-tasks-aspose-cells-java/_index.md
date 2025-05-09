@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### ライセンス取得
 
-Aspose.Cellsは無料トライアルを提供していますが、制限なくすべての機能をご利用いただくにはライセンスの取得が必要です。Asposeのウェブサイトから一時ライセンスまたは永続ライセンスを取得できます。
+Aspose.Cellsは無料トライアルを提供していますが、制限なくすべての機能をご利用いただくにはライセンスのご購入が必要です。Asposeのウェブサイトから一時ライセンスまたは永続ライセンスを取得できます。
 
 ## 実装ガイド
 
@@ -185,6 +187,9 @@ Aspose.Cells for Java を活用して Excel 操作を効果的に自動化する
 この包括的なガイドを読めば、Aspose.Cells for Java を効果的に使い始めるための知識が身に付くはずです。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

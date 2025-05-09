@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ public class ExcelConverter {
 String export_html = "<html><body>...</body></html>";  // 您的 HTML 在此處
 ```
 
-**2. 將 HTML 字串轉換為工作簿**
+**2.將 HTML 字串轉換為工作簿**
 將您的 HTML 載入到 Aspose.Cells `Workbook` 目的：
 ```java
 import com.aspose.cells.HtmlLoadOptions;
@@ -126,7 +128,7 @@ public class AutoFitRowsAndColumns {
 - **`autoFitColumns()`**：調整列寬以容納資料。
 
 ### 將工作簿儲存為 XLSX
-最後，以 Excel 格式儲存您的工作簿：
+最後，將您的工作簿儲存為 Excel 格式：
 ```java
 public class SaveWorkbookAsXlsx {
     public static void main(String[] args) throws Exception {
@@ -184,6 +186,9 @@ public class SaveWorkbookAsXlsx {
 - **支援**： [Aspose 論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

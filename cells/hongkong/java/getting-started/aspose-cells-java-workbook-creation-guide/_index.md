@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 在深入研究程式碼之前，請確保您已具備以下條件：
 - **Java 開發工具包 (JDK)**：版本 8 或更高版本。
 - **Maven** 或者 **Gradle**：輕鬆管理依賴關係。 
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 此外，您還需要在專案的依賴管理系統中包含 Aspose.Cells for Java。讓我們繼續設定 Aspose.Cells！
 
@@ -188,6 +190,9 @@ Aspose.Cells for Java 開啟了許多可能性，包括：
 踏上 Aspose.Cells for Java 之旅，在您的應用程式中釋放 Excel 自動化的全部潛力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

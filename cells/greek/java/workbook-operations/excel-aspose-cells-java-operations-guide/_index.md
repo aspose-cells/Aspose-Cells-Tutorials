@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ excelWorkbook.save(outDir + "CopyingRows_out.xls");
 Ακολουθώντας αυτόν τον οδηγό, θα πρέπει να είστε άρτια εξοπλισμένοι για να αξιοποιήσετε τις δυνατότητες του Aspose.Cells για Java στα έργα σας που σχετίζονται με το Excel. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

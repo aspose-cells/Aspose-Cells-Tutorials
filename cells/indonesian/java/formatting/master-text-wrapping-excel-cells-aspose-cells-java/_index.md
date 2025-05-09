@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membungkus Teks dalam Sel Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda kesulitan memasukkan teks panjang dengan rapi ke dalam sel Excel Anda? Tantangan umum ini menjadi lebih mudah dengan **Aspose.Cells untuk Java**Pustaka serbaguna ini menyederhanakan pembungkusan teks dan meningkatkan penyajian data, cocok untuk menangani deskripsi terperinci atau rangkaian panjang.
 
 Dalam panduan ini, Anda akan mempelajari cara membungkus teks secara efisien di Excel menggunakan Aspose.Cells untuk Java, meningkatkan kejelasan dan profesionalisme dalam lembar kerja Anda.
 
-**Pembelajaran Utama:**
+**Főbb tanulságok:**
 - Menyiapkan Aspose.Cells untuk Java
 - Menerapkan pembungkusan teks di sel Excel
 - Mengelola gaya sel dengan Aspose.Cells
@@ -27,11 +29,11 @@ Dalam panduan ini, Anda akan mempelajari cara membungkus teks secara efisien di 
 
 Mari kita mulai dengan memastikan Anda memiliki alat yang diperlukan!
 
-### Prasyarat
+### Előfeltételek
 
 Sebelum menyelami kodenya, pastikan Anda memenuhi persyaratan berikut:
 
-- **Perpustakaan dan Ketergantungan**: Tambahkan Aspose.Cells untuk Java ke proyek Anda melalui Maven atau Gradle.
+- **Könyvtárak és függőségek**: Tambahkan Aspose.Cells untuk Java ke proyek Anda melalui Maven atau Gradle.
   
   - Untuk Maven:
     ```xml
@@ -47,9 +49,9 @@ Sebelum menyelami kodenya, pastikan Anda memenuhi persyaratan berikut:
     compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
     ```
 
-- **Pengaturan Lingkungan**Pastikan Java Development Kit (JDK) terinstal dan dikonfigurasi pada komputer Anda.
+- **Környezet beállítása**Pastikan Java Development Kit (JDK) terinstal dan dikonfigurasi pada komputer Anda.
 
-- **Prasyarat Pengetahuan**:Keakraban dengan pemrograman Java direkomendasikan untuk pemahaman yang lebih baik, meskipun tidak sepenuhnya diperlukan.
+- **Ismereti előfeltételek**:Keakraban dengan pemrograman Java direkomendasikan untuk pemahaman yang lebih baik, meskipun tidak sepenuhnya diperlukan.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -58,24 +60,24 @@ Menyiapkan Aspose.Cells di lingkungan Java Anda sangatlah mudah:
 1. **Instalasi melalui Maven atau Gradle**:
    - Tambahkan ketergantungan seperti yang ditunjukkan di atas ke berkas konfigurasi proyek Anda.
 
-2. **Akuisisi Lisensi**: 
-   - Mulailah dengan [uji coba gratis](https://releases.aspose.com/cells/java/) untuk menjelajahi fitur.
-   - Untuk penggunaan jangka panjang, pertimbangkan untuk memperoleh lisensi sementara atau membelinya melalui [halaman pembelian](https://purchase.aspose.com/buy).
+2. **Licencszerzés**: 
+   - Kezdj egy [ingyenes próba](https://releases.aspose.com/cells/java/) a funkciók felfedezéséhez.
+   - Untuk penggunaan jangka panjang, pertimbangkan untuk memperoleh lisensi sementara atau membelinya melalui [vásárlási oldal](https://purchase.aspose.com/buy).
 
-3. **Inisialisasi dan Pengaturan**:
+3. **Inicializálás és beállítás**:
    - Buat proyek Java baru di IDE Anda (seperti IntelliJ IDEA atau Eclipse).
    - Sertakan pustaka Aspose.Cells dengan menambahkannya ke jalur pembuatan Anda.
 
 Setelah semuanya disiapkan, Anda siap menerapkan pembungkusan teks!
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat Buku Kerja dan Mengakses Sel
 
 Pertama, buat contoh buku kerja dan akses selnya:
 
 ```java
-// Buat objek Buku Kerja baru
+// Új munkafüzet-objektum létrehozása
 document = new Workbook();
 
 // Buka lembar kerja pertama di buku kerja
@@ -120,42 +122,42 @@ cells.get(0, 0).setStyle(style);
 Simpan buku kerja Anda dengan teks yang dibungkus:
 
 ```java
-// Simpan file Excel
+// Mentse el az Excel-fájlt
 document.save("WrapTextinCell_out.xls");
 ```
 
 Dengan langkah-langkah ini, Anda telah berhasil menerapkan pembungkusan teks dalam sel Excel menggunakan Aspose.Cells untuk Java!
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Memahami cara membungkus teks dapat bermanfaat dalam berbagai skenario:
 
-1. **Laporan Keuangan**: Deskripsi panjang atau catatan yang menyertai angka keuangan.
-2. **Manajemen Inventaris**: Deskripsi item terperinci dalam katalog.
-3. **Sistem SDM**: Profil karyawan yang diperluas dengan bidang data yang komprehensif.
+1. **Pénzügyi jelentések**: Deskripsi panjang atau catatan yang menyertai angka keuangan.
+2. **Készletgazdálkodás**: Deskripsi item terperinci dalam katalog.
+3. **HR rendszerek**: Profil karyawan yang diperluas dengan bidang data yang komprehensif.
 
 Mengintegrasikan Aspose.Cells dengan sistem lain, seperti basis data atau aplikasi web, dapat meningkatkan kemampuan manajemen data Anda.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan kumpulan data besar:
+Nagy adathalmazokkal való munka során:
 - Optimalkan penggunaan memori dengan mengelola ukuran buku kerja dan konten sel secara efisien.
 - Perbarui Aspose.Cells secara berkala untuk mendapatkan manfaat peningkatan kinerja di versi yang lebih baru.
 
 Mematuhi praktik terbaik Java untuk manajemen memori memastikan operasi aplikasi berjalan lancar.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara membungkus teks secara efektif dalam sel Excel menggunakan Aspose.Cells untuk Java. Kemampuan ini sangat penting untuk menjaga lembar kerja tetap bersih dan mudah dibaca, terutama saat menangani entri data yang ekstensif.
 
-**Langkah Berikutnya**Pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya, seperti kalkulasi rumus atau pembuatan bagan, untuk lebih menyempurnakan aplikasi Anda.
+**Következő lépések**Pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya, seperti kalkulasi rumus atau pembuatan bagan, untuk lebih menyempurnakan aplikasi Anda.
 
 Siap untuk mempraktikkan pengetahuan ini? Lakukan eksperimen dengan membuat contoh buku kerja yang menunjukkan berbagai skenario pembungkusan teks!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa cara terbaik untuk menyesuaikan ukuran sel secara dinamis dengan teks yang dibungkus di Java menggunakan Aspose.Cells?**
-   - Menggunakan `autoFitRow` Dan `autoFitColumn` metode untuk menyesuaikan ukuran secara otomatis berdasarkan konten.
+   - Használat `autoFitRow` és `autoFitColumn` metode untuk menyesuaikan ukuran secara otomatis berdasarkan konten.
 
 2. **Dapatkah saya menerapkan gaya yang berbeda pada teks yang dibungkus di beberapa sel?**
    - Ya, buat berbagai objek Gaya dan terapkan secara individual sesuai kebutuhan.
@@ -169,15 +171,18 @@ Siap untuk mempraktikkan pengetahuan ini? Lakukan eksperimen dengan membuat cont
 5. **Bisakah pembungkusan teks diterapkan secara kondisional berdasarkan panjang konten di Java menggunakan Aspose.Cells?**
    - Ya, terapkan logika yang memeriksa panjang konten dan terapkan pembungkusan teks sebagaimana mestinya.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis dan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió és ideiglenes licenc](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

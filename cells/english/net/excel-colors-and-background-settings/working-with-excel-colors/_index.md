@@ -8,7 +8,9 @@ url: /net/excel-colors-and-background-settings/working-with-excel-colors/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Excel Colors Programmatically
@@ -160,6 +162,7 @@ Yes, Aspose allows you to get a temporary license for evaluation purposes. You c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

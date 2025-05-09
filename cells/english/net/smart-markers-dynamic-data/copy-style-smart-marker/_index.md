@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/copy-style-smart-marker/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Style with Smart Marker in Aspose.Cells .NET
@@ -104,6 +106,7 @@ Yes, Aspose.Cells for .NET is a commercial product that is widely used in produc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

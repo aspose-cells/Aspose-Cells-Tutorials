@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ Ecco alcuni casi pratici di utilizzo per l'esportazione di fogli di lavoro Excel
 
 1. **Segnalazione dei dati:** Genera report interattivi da set di dati complessi archiviati su più fogli.
 2. **Integrazione Web:** Integra perfettamente i dati dei fogli di calcolo nelle applicazioni web, assicurando che tutti i riferimenti rimangano intatti.
-3. **Generazione automatizzata di documenti:** Da utilizzare come parte di un processo automatizzato per generare documenti per flussi di lavoro aziendali.
+3. **Generazione automatica di documenti:** Da utilizzare come parte di un processo automatizzato per generare documenti per flussi di lavoro aziendali.
 
 ## Considerazioni sulle prestazioni
 
@@ -178,6 +180,9 @@ Vi invitiamo a provare questa soluzione nei vostri progetti e a condividere le v
 Seguendo questa guida, sarai pronto a sfruttare Aspose.Cells per Java per esportare fogli di lavoro Excel in HTML. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

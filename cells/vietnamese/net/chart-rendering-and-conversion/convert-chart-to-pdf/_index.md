@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi biểu đồ sang PDF
-linktitle: Chuyển đổi biểu đồ sang PDF
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách chuyển đổi biểu đồ Excel sang PDF bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này. Khám phá các mẹo thiết yếu và ví dụ về mã hóa.
-weight: 11
-url: /vi/net/chart-rendering-and-conversion/convert-chart-to-pdf/
+"description": "Học cách chuyển đổi biểu đồ Excel sang PDF bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này. Khám phá các mẹo thiết yếu và ví dụ về mã hóa."
+"linktitle": "Chuyển đổi biểu đồ sang PDF"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi biểu đồ sang PDF"
+"url": "/vi/net/chart-rendering-and-conversion/convert-chart-to-pdf/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi biểu đồ sang PDF
@@ -25,7 +27,7 @@ Trước khi bắt đầu hướng dẫn, bạn cần đảm bảo rằng bạn 
 Đảm bảo bạn đã cài đặt .NET framework trên máy của mình. Aspose.Cells tương thích với nhiều phiên bản khác nhau nhưng có xu hướng hoạt động tốt nhất với phiên bản mới nhất.
 
 ### Thư viện Aspose.Cells
- Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/)Thư viện đi kèm với một API phong phú bao gồm tất cả các hàm bạn cần để thao tác trên Excel.
+Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/). Thư viện đi kèm với API phong phú, bao gồm tất cả các hàm bạn cần để thao tác trên Excel.
 
 ### Studio trực quan
 Việc cài đặt Visual Studio là điều cần thiết vì đây là IDE tuyệt vời để viết mã .NET một cách liền mạch.
@@ -58,7 +60,7 @@ Khi đã đưa thư viện vào dự án của bạn, bạn đã sẵn sàng chu
 
 ### Nhập các không gian tên bắt buộc
 
- Ở đầu trang của bạn`Program.cs` tệp, thêm các không gian tên sau:
+Ở đầu trang của bạn `Program.cs` tệp, thêm các không gian tên sau:
 
 ```csharp
 using System;
@@ -73,7 +75,7 @@ Sau đây là cách chuyển đổi biểu đồ Excel sang PDF theo cách có h
 
 ## Bước 1: Thiết lập thư mục đầu ra và nguồn
 
-Để bắt đầu viết mã, trước tiên bạn cần chỉ định nơi lưu đầu ra và nơi lưu tài liệu nguồn.
+Để bắt đầu viết mã, trước tiên bạn cần chỉ định nơi bạn sẽ lưu đầu ra và nơi lưu tài liệu nguồn.
 
 ```csharp
 // Thư mục đầu ra
@@ -83,7 +85,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- Hãy chắc chắn thay thế`"Your Output Directory"` Và`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tập tin của bạn.
+Hãy chắc chắn thay thế `"Your Output Directory"` Và `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tập tin của bạn.
 
 ## Bước 2: Tải sổ làm việc Excel
 
@@ -135,7 +137,7 @@ Chỉ cần đảm bảo rằng thư mục đầu ra thực sự tồn tại đ�
 
 ### Tùy chọn 2: Lưu biểu đồ vào Memory Stream
 
-Nếu bạn muốn chỉnh sửa PDF sâu hơn hoặc cần sử dụng ngay trong ứng dụng của mình, lưu tệp vào luồng bộ nhớ có thể là lựa chọn tốt hơn:
+Nếu bạn muốn thao tác PDF sâu hơn hoặc cần sử dụng ngay trong ứng dụng của mình, lưu tệp vào luồng bộ nhớ có thể là lựa chọn tốt hơn:
 
 ```csharp
 // Lưu biểu đồ vào định dạng pdf trong luồng
@@ -147,7 +149,7 @@ Tại đây, bạn lưu tệp PDF vào luồng bộ nhớ, có thể sử dụng
 
 ## Bước 6: Hiển thị thông báo thành công
 
-Cuối cùng, luôn tốt khi chỉ ra rằng thao tác của bạn đã thành công. Bạn có thể chỉ cần in thông báo thành công vào bảng điều khiển:
+Cuối cùng, luôn tốt khi chỉ ra rằng thao tác của bạn đã thành công. Bạn chỉ cần in thông báo thành công vào bảng điều khiển:
 
 ```csharp
 Console.WriteLine("ChartToPdf executed successfully.");
@@ -160,7 +162,7 @@ Và bạn đã có nó! Bằng cách tận dụng Aspose.Cells cho .NET, việc 
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells có thể chuyển đổi nhiều biểu đồ cùng lúc không?
- Vâng, bạn có thể lặp qua`worksheet.Charts` bộ sưu tập để chuyển đổi từng biểu đồ riêng lẻ.
+Vâng, bạn có thể lặp qua `worksheet.Charts` bộ sưu tập để chuyển đổi từng biểu đồ riêng lẻ.
 
 ### Aspose.Cells có phù hợp với các tệp Excel lớn không?
 Chắc chắn rồi! Aspose.Cells được tối ưu hóa về hiệu suất và có thể xử lý hiệu quả các tệp Excel lớn.
@@ -169,13 +171,15 @@ Chắc chắn rồi! Aspose.Cells được tối ưu hóa về hiệu suất và
 Aspose.Cells hỗ trợ nhiều phiên bản .NET khác nhau, bao gồm .NET Framework và .NET Core.
 
 ### Tôi có thể tìm tài liệu chi tiết ở đâu?
- Ghé thăm[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết và ví dụ.
+Ghé thăm [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thông tin chi tiết và ví dụ.
 
 ### Có phiên bản dùng thử miễn phí không?
- Có! Bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

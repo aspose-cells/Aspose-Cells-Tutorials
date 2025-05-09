@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/formatting-with-get-style-or-set-style/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting with Get Style or Set Style in Excel
@@ -138,6 +140,7 @@ Additional resources and documentation can be found [here](https://reference.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

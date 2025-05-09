@@ -1,12 +1,14 @@
 ---
-"description": "Aprenda a trabajar con rangos de celdas, selecciones y realizar operaciones masivas en hojas de cálculo de Excel con estos tutoriales de Java de Aspose.Cells."
+"description": "Aprenda a trabajar con rangos de celdas, selecciones y realizar operaciones masivas en hojas de cálculo de Excel con estos tutoriales de Java Aspose.Cells."
 "title": "Tutoriales de gestión de rangos de Excel con Aspose.Cells para Java"
 "url": "/es/java/range-management/"
 "weight": 5
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,6 +95,9 @@ Aprenda a separar celdas de Excel de forma eficiente con Aspose.Cells para Java.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

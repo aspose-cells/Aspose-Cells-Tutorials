@@ -1,119 +1,123 @@
 ---
-title: Mendapatkan Hyperlink dalam Rentang di .NET
-linktitle: Mendapatkan Hyperlink dalam Rentang di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Ekstrak dan kelola hyperlink dari file Excel dengan mudah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah dan contoh kode disertakan.
-weight: 10
-url: /id/net/worksheet-operations/get-hyperlinks-in-a-range/
+"description": "Könnyedén kinyerhet és kezelhet hiperhivatkozásokat Excel-fájlokból az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató és kódpéldák is találhatók benne."
+"linktitle": "Hiperhivatkozások beolvasása egy tartományban .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Hiperhivatkozások beolvasása egy tartományban .NET-ben"
+"url": "/id/net/worksheet-operations/get-hyperlinks-in-a-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mendapatkan Hyperlink dalam Rentang di .NET
+# Hiperhivatkozások beolvasása egy tartományban .NET-ben
 
-## Perkenalan
-Pernahkah Anda kewalahan dengan lembar kerja, bertanya-tanya bagaimana cara mengekstrak hyperlink secara efisien? Jika demikian, Anda berada di tempat yang tepat! Dalam panduan ini, kami akan memandu Anda melalui proses mendapatkan hyperlink dalam rentang tertentu menggunakan Aspose.Cells untuk .NET. Pustaka canggih ini menghilangkan tugas membosankan dalam bekerja dengan file Excel, sehingga memudahkan Anda untuk mengambil dan bahkan menghapus hyperlink. Jadi, ambil secangkir kopi, dan mari selami dunia Aspose.Cells!
-## Prasyarat
-Sebelum kita masuk ke inti coding, ada beberapa prasyarat yang perlu Anda penuhi. Jangan khawatir; ini bukan daftar yang panjang!
-### Siapkan Lingkungan Pengembangan Anda
-1. .NET Framework: Pastikan Anda memiliki lingkungan .NET yang kompatibel di komputer Anda. Bisa berupa .NET Core atau .NET Framework lengkap. Pastikan versi Anda mendukung pustaka Aspose.Cells.
-2.  Pustaka Aspose.Cells: Anda harus memiliki pustaka Aspose.Cells. Anda dapat mengunduh versi terbaru dari[Di Sini](https://releases.aspose.com/cells/net/) Jika Anda baru memulai, pertimbangkan untuk menggunakan[uji coba gratis](https://releases.aspose.com/) untuk menguji air.
-3. IDE: Lingkungan Pengembangan Terpadu (IDE) yang baik seperti Visual Studio akan mempermudah hidup Anda. IDE memungkinkan Anda menulis, men-debug, dan menjalankan kode dengan lancar.
-4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# sangat membantu, tetapi jika Anda bersedia belajar, Anda siap melakukannya!
-Dengan prasyarat ini, kita siap untuk memulai. Mari beralih ke beberapa pengodean dasar—mengimpor paket yang diperlukan dan menguraikan contoh kita langkah demi langkah.
-## Paket Impor
-Salah satu langkah pertama dalam pengodean adalah mengimpor paket yang diperlukan. Anda perlu menambahkan referensi ke pustaka Aspose.Cells dalam proyek Anda. Ini biasanya dapat dilakukan melalui NuGet Package Manager. Berikut cara melakukannya:
-1. Buka Visual Studio.
-2. Klik Proyek Anda di Solution Explorer.
-3. Klik kanan dan pilih Kelola Paket NuGet.
-4. Cari “Aspose.Cells” dan instal.
+## Bevezetés
+Előfordult már veled, hogy táblázatokban fuldokolsz, és azon tűnődsz, hogyan lehet hatékonyan kinyerni a hiperhivatkozásokat? Ha igen, akkor jó helyen jársz! Ebben az útmutatóban végigvezetünk azon, hogyan kinyerhetsz hiperhivatkozásokat egy adott tartományban az Aspose.Cells for .NET segítségével. Ez a hatékony könyvtár leveszi a válladról az Excel-fájlokkal való munka fáradságos feladatát, megkönnyítve a hiperhivatkozások visszakeresését és akár törlését is. Szóval, ragadj egy csésze kávét, és merüljünk el az Aspose.Cells világában!
+## Előfeltételek
+Mielőtt belevágnánk a kódolás részleteibe, van néhány előfeltétel, aminek teljesülnie kell. Ne aggódj, ez nem egy hosszú lista!
+### Készítse elő fejlesztői környezetét
+1. .NET-keretrendszer: Győződjön meg arról, hogy kompatibilis .NET-környezet van beállítva a gépén. Ez lehet a .NET Core vagy a teljes .NET-keretrendszer. Győződjön meg arról, hogy a verziója támogatja az Aspose.Cells könyvtárat.
+2. Aspose.Cells könyvtár: Szükséged lesz az Aspose.Cells könyvtárra. A legújabb verziót innen töltheted le: [itt](https://releases.aspose.com/cells/net/)Ha most kezded, érdemes lehet a következőt használni: [ingyenes próba](https://releases.aspose.com/) hogy próbára tegye a vizeket.
+3. IDE: Egy jó integrált fejlesztői környezet (IDE), mint például a Visual Studio, megkönnyíti az életedet. Lehetővé teszi a kód zökkenőmentes írását, hibakeresését és futtatását.
+4. C# alapismeretek: A C# programozásban való jártasság hasznos, de ha hajlandó vagy megtanulni, akkor nyugodtan vágj bele!
+Miután ezek az előfeltételek teljesültek, készen állunk a kezdésre. Térjünk át az alapvető kódolásra – importáljuk a szükséges csomagokat, és lépésről lépésre lebontjuk a példánkat.
+## Csomagok importálása
+A kódolás egyik első lépése a szükséges csomagok importálása. Ehhez hozzá kell adni egy hivatkozást az Aspose.Cells könyvtárra a projektedben. Ez jellemzően a NuGet csomagkezelőn keresztül tehető meg. Így teheted meg:
+1. Nyisd meg a Visual Studio-t.
+2. Kattintson a projektjére a Megoldáskezelőben.
+3. Kattintson a jobb gombbal, és válassza a NuGet-csomagok kezelése lehetőséget.
+4. Keresd meg az „Aspose.Cells” fájlt, és telepítsd.
 ```csharp
 using System.IO;
 using System;
 using Aspose.Cells;
 ```
-Setelah pustaka tersedia, mari masuk ke kode untuk mengekstrak hyperlink!
-## Langkah 1: Siapkan Jalur Direktori Anda
-Mari kita mulai dengan menentukan jalur dokumen Anda. Anda ingin mengatur direktori sumber tempat file Excel Anda berada dan direktori keluaran tempat file yang diproses akan disimpan.
+Miután a könyvtár a helyén van, nézzük meg a hiperhivatkozások kinyerésének kódját!
+## 1. lépés: Állítsa be a könyvtár elérési útjait
+Kezdjük a dokumentumok elérési útjának meghatározásával. Be kell állítania a forráskönyvtárat, ahol az Excel-fájl található, és a kimeneti könyvtárat, ahová a feldolgozott fájl mentésre kerül.
 ```csharp
-// Jalur ke direktori dokumen.
-string sourceDir = "Your Document Directory"; // Ubah ini ke jalur file Excel Anda
-// Direktori keluaran
-string outputDir = "Your Document Directory"; // Pastikan metode ini menyediakan jalur keluaran yang valid
+// A dokumentumok könyvtárának elérési útja.
+string sourceDir = "Your Document Directory"; // Módosítsa ezt az Excel-fájl elérési útjára
+// Kimeneti könyvtár
+string outputDir = "Your Document Directory"; // Győződjön meg arról, hogy ez a metódus érvényes kimeneti útvonalat biztosít
 ```
- Dalam cuplikan ini, ganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori Anda yang berisi berkas Excel. Ini seperti menyiapkan panggung sebelum pertunjukan—sangat penting untuk mengetahui di mana materi Anda berada.
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
- Selanjutnya, kita akan membuat`Workbook` objek untuk membuka berkas Excel yang sedang kita kerjakan.
+Ebben a kódrészletben cserélje ki a következőt: `"Your Document Directory"` az Excel-fájlt tartalmazó könyvtár tényleges elérési útjával. Ez olyan, mintha a színpadot készítenénk elő az előadás előtt – létfontosságú tudni, hol vannak az anyagaink.
+## 2. lépés: A munkafüzet objektum példányosítása
+Ezután létrehozunk egy `Workbook` objektum az éppen használt Excel-fájl megnyitásához.
 ```csharp
-// Membuat instance objek Buku Kerja
-// Buka file Excel
+// Workbook objektum példányosítása
+// Excel-fájl megnyitása
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Di sini, kita membuat yang baru`Workbook` contoh.`Workbook`Kelas pada dasarnya adalah gerbang Anda ke semua operasi yang terkait dengan berkas Excel. Anda dapat menganggapnya sebagai pembuka buku yang berisi semua konten Anda.
-## Langkah 3: Akses Lembar Kerja
-Sekarang setelah buku kerja kita siap, mari kita buat lembar kerja pertama dari buku tersebut. Di Excel, lembar kerja seperti halaman dalam buku, dan kita perlu menentukan halaman mana yang sedang kita kerjakan.
+Itt egy újat hozunk létre, `Workbook` például. A `Workbook` Az osztály lényegében az Excel-fájlokkal kapcsolatos összes művelethez való hozzáférést biztosítja. Úgy is elképzelheted, mintha megnyitnád azt a könyvet, amely az összes tartalmadat tartalmazza.
+## 3. lépés: A munkalap elérése
+Most, hogy elkészült a munkafüzet, vegyük elő belőle az első munkalapot. Az Excelben a munkalapok olyanok, mint a könyv oldalai, és meg kell adnunk, hogy melyik oldalon dolgozunk.
 ```csharp
-// Dapatkan lembar kerja pertama (default)
+// Az első (alapértelmezett) munkalap beolvasása
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Dengan mengakses`Worksheets[0]`, kami memilih lembar kerja pertama. Lembar kerja diindeks mulai dari nol, jadi pastikan Anda memilih yang benar.
-## Langkah 4: Buat Rentang
-Sekarang saatnya menentukan rentang tempat kita ingin mencari hyperlink. Dalam kasus kita, katakanlah kita ingin mencari di sel A2 hingga B3.
+Hozzáféréssel `Worksheets[0]`az első munkalapot választjuk. A munkalapok nullától kezdődően vannak indexelve, ezért győződjön meg róla, hogy a megfelelőt választja ki.
+## 4. lépés: Tartomány létrehozása
+Most itt az ideje, hogy meghatározzunk egy tartományt, amelyben hiperhivatkozásokat szeretnénk keresni. Tegyük fel, hogy az A2-től B3-ig terjedő cellákban szeretnénk keresni.
 ```csharp
-// Buat rentang A2:B3
+// Hozz létre egy A2:B3 tartományt
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Dengan menyebut`CreateRange`, kami tentukan sel awal dan akhir. Di sinilah keajaiban terjadi—nanti kami akan memeriksa hyperlink yang terletak dalam rentang yang ditentukan ini.
-## Langkah 5: Ambil Hyperlink dari Rentang
-Pada langkah ini, kita benar-benar mengakses hyperlink dalam rentang yang sudah kita tentukan.
+Hívással `CreateRange`, megadjuk a kezdő és a záró cellákat. Itt történik a varázslat – később ellenőrizni fogjuk a megadott tartományban található hiperhivatkozásokat.
+## 5. lépés: Hiperhivatkozások lekérése a tartományból
+Ebben a lépésben férünk hozzá a megadott tartományunkban található hiperhivatkozásokhoz.
 ```csharp
-//Dapatkan Hyperlink dalam jangkauan
+// Hiperhivatkozások beolvasása a tartományon belül
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Itu`Hyperlinks` milik suatu`Range` objek mengembalikan array`Hyperlink`objek yang ditemukan dalam rentang tersebut. Seperti mengambil semua catatan penting dari halaman Anda sekaligus!
-## Langkah 6: Ulangi dan Tampilkan Tautan
-Sekarang, mari kita telusuri hyperlink yang diambil. Untuk saat ini, kita akan mencetak alamat dan area hyperlink tersebut di konsol.
+A `Hyperlinks` egy tulajdona `Range` az objektum egy tömböt ad vissza `Hyperlink` az adott tartományban található objektumok. Olyan, mintha egy menetben kigyűjtenéd az összes fontos jegyzetet az oldaladról!
+## 6. lépés: Ciklusok megjelenítése és linkek megjelenítése
+Most pedig menjünk végig a lekért hiperhivatkozásokon. Egyelőre kinyomtatjuk a címüket és a területet a konzolban.
 ```csharp
 foreach (Hyperlink link in hyperlinks)
 {
     Console.WriteLine(link.Area + " : " + link.Address);
 }
 ```
-Di sini, kami menelusuri setiap hyperlink dan menampilkan area dan alamatnya. Ini sama seperti membacakan rincian penting dari setiap hyperlink yang Anda temukan. 
-## Langkah 7: Opsional - Menghapus Hyperlink
-Jika perlu, Anda dapat dengan mudah menghapus hyperlink dari rentang Anda! Ini dapat sangat berguna jika Anda ingin membersihkan spreadsheet Anda.
+Itt végigmegyünk az egyes hiperhivatkozásokon, és megjelenítjük azok területét és címét. Ez olyan, mintha hangosan felolvasnánk az egyes megtalált hiperhivatkozások fontos részleteit. 
+## 7. lépés: Opcionális - Hivatkozások törlése
+Szükség esetén könnyedén törölhetsz hiperhivatkozásokat a tartományodból! Ez nagyon hasznos lehet, ha rendbe szeretnéd tenni a táblázatodat.
 ```csharp
 foreach (Hyperlink link in hyperlinks)
 {
-    // Untuk menghapus tautan, gunakan metode Hyperlink.Delete().
+    // A hivatkozás törléséhez használd a Hyperlink.Delete() metódust.
     link.Delete();
 }
 ```
- Menggunakan`Delete()` Metode pada setiap hyperlink memungkinkan Anda menghapus hyperlink yang mungkin tidak lagi Anda perlukan. Ini seperti menghapus coretan yang tidak lagi diperlukan dari halaman Anda.
-## Langkah 8: Simpan Perubahan Anda
-Terakhir, mari simpan buku kerja dengan semua penyesuaian yang telah kita buat.
+A `Delete()` metódus minden hiperhivatkozáson lehetővé teszi a már nem szükséges hiperhivatkozások eltávolítását. Ez olyan, mintha egy már nem szükséges firkát törölnél az oldaladról.
+## 8. lépés: Mentse el a módosításokat
+Végül mentsük el a munkafüzetet az összes elvégzett módosítással.
 ```csharp
 workbook.Save(outputDir + "HyperlinksSample_out.xlsx");
 ```
-Baris kode ini akan menyimpan buku kerja Anda yang telah dimodifikasi ke direktori keluaran yang ditentukan. Ini adalah cara Anda menerbitkan perubahan yang Anda buat, seperti menutup buku setelah penyuntingan akhir.
-## Kesimpulan
-Nah, itu dia—panduan langkah demi langkah yang komprehensif untuk mengekstrak hyperlink dari rentang tertentu dalam lembar Excel menggunakan Aspose.Cells untuk .NET! Anda telah mempelajari cara menyiapkan lingkungan, menulis kode, dan menjalankan operasi pada hyperlink dalam buku kerja Excel. Baik Anda mengelola data untuk proyek bisnis maupun pribadi, alat ini dapat menghemat banyak waktu Anda dalam jangka panjang.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka .NET untuk memanipulasi file Excel tanpa perlu menginstal Microsoft Excel di komputer Anda.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
-Ya, uji coba gratis tersedia, memungkinkan Anda menjelajahi fitur-fiturnya sebelum membeli.
-### Apakah ada batasan pada versi uji coba?
-Uji coba ini mungkin memiliki beberapa batasan fungsionalitas, seperti tanda air pada file yang disimpan.
-### Apakah saya perlu tahu pemrograman untuk menggunakan Aspose.Cells?
-Pengetahuan pemrograman dasar dalam C# atau .NET direkomendasikan untuk memanfaatkan pustaka ini secara efektif.
-### Bagaimana saya bisa mendapatkan dukungan jika saya memiliki masalah dengan Aspose.Cells?
- Anda dapat mengakses forum dukungan[Di Sini](https://forum.aspose.com/c/cells/9).
+Ez a kódsor a megadott kimeneti könyvtárba menti a módosított munkafüzetet. Így teheted közzé a módosításokat, például bezárhatod a könyvet az utolsó szerkesztés után.
+## Következtetés
+És íme, itt van – egy átfogó, lépésről lépésre bemutatott útmutató a hiperhivatkozások kinyeréséhez egy Excel-tábla adott tartományából az Aspose.Cells for .NET használatával! Megtanultad, hogyan állítsd be a környezetedet, írd meg a kódot és futtasd a műveleteket a hiperhivatkozásokon egy Excel-munkafüzetben. Akár üzleti, akár személyes projektekhez kezelsz adatokat, ez az eszköz hosszú távon rengeteg időt takaríthat meg.
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy .NET könyvtár, amely Excel fájlok kezeléséhez használható anélkül, hogy a gépünkön telepítve lenne a Microsoft Excel.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, ingyenes próbaverzió áll rendelkezésre, amely lehetővé teszi a funkciók felfedezését a vásárlás előtt.
+### Vannak-e korlátozások a próbaverzióban?
+A próbaverziónak lehetnek bizonyos funkcionális korlátozásai, például vízjelek a mentett fájlokon.
+### Szükségem van programozási ismeretekre az Aspose.Cells használatához?
+A könyvtár hatékony használatához C# vagy .NET alapvető programozási ismeretek ajánlottak.
+### Hogyan kaphatok támogatást, ha problémáim vannak az Aspose.Cells-szel?
+Hozzáférhetsz a támogatási fórumhoz [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ public class AccessCellByName {
    com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
    ```
 3. **नाम से सेल तक पहुँचें**
-   उपयोग `get` विधि पर `Cells` सेल को उसके नाम से लाने के लिए ऑब्जेक्ट:
+   उपयोग `get` विधि पर `Cells` किसी सेल को उसके नाम से लाने के लिए ऑब्जेक्ट:
    ```java
    com.aspose.cells.Cell cell = worksheet.getCells().get("A1");
    ```
@@ -149,6 +151,9 @@ Aspose.Cells की अतिरिक्त कार्यक्षमता�
 - [सहयता मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

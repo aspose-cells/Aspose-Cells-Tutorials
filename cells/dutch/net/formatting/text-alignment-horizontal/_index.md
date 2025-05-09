@@ -1,43 +1,48 @@
 ---
-title: Horizontale tekstalinitie in Excel met Aspose.Cells
-weight: 7700
-limit: 
-description: Leer hoe je tekst horizontaal in Excel-cellen kunt afstemmen met behulp van Aspose.Cells voor .NET met een eenvoudig voorbeeld.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /nl/net/formatting/text-alignment-horizontal/
+"description": "Leer hoe u tekst horizontaal uitlijnt in Excel-cellen met Aspose.Cells voor .NET aan de hand van een eenvoudig voorbeeld."
+"title": "Horizontale tekstuitlijning in Excel met Aspose.Cells"
+"url": "/nl/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Horizontale tekstalinitie in Excel met Aspose.Cells
+# Horizontale tekstuitlijning in Excel met Aspose.Cells
 
-Dit voorbeeld toont aan hoe u Aspose.Cells voor .NET kunt gebruiken om een Excel-bestand te maken en horizontale tekstalinitie in een specifieke cel in te stellen. De handleiding begeleidt u door een werkboek in te zetten, de eigenschappen van een cel te wijzigen en het bestand in Excel 97-2003-formaat te slaan. Ideaal voor ontwikkelaars die hun Excel- bestandmanipulatievaardigheden willen verbeteren met behulp van Aspose.Cells.
+Dit voorbeeld laat zien hoe u Aspose.Cells voor .NET gebruikt om een Excel-bestand te maken en de horizontale tekstuitlijning in een specifieke cel in te stellen. De tutorial begeleidt u bij het initialiseren van een werkmap, het wijzigen van de eigenschappen van een cel en het opslaan van het bestand in Excel 97-2003-indeling. Perfect voor ontwikkelaars die hun vaardigheden in Excel-bestandsbewerking met Aspose.Cells willen verbeteren.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies
-1. Download en installeer Aspose.Cells voor .NET vanaf de [Aspose releases pagina](https://releases.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
+1. Download en installeer Aspose.Cells voor .NET van de [Aspose releases pagina](https://releases.aspose.com/cells/net/).  
+2. Voeg een verwijzing naar Aspose.Cells.dll toe in uw C#-project.  
 3. Gebruik NuGet Package Manager om Aspose.Cells te installeren:  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. Importeer de vereiste naamruimten in uw C#-bestand:  
    ```csharp
    using Aspose.Cells;
    ```
 
 ## Zie ook  
-Om een vergunning te kopen, ga naar [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-Voor volledige documentatie, bezoek [Aspose.Cells voor .NET Documentatie](https://docs.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-Voor de volledige API-referentie, bekijk [Aspose.Cells voor .NET API Reference](https://reference.aspose.com/cells/net/)\- Ik heb het niet gedaan . 
+Om een licentie te kopen, ga naar [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+Voor volledige documentatie, bezoek [Aspose.Cells voor .NET-documentatie](https://docs.aspose.com/cells/net/).  
+Voor de volledige API-referentie kunt u terecht op [Aspose.Cells voor .NET API-referentie](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

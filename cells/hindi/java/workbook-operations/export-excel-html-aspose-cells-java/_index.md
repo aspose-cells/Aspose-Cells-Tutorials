@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ workbook.save(outDir + "/out.html", options);
 **प्रश्न 4**: यदि मुझे फ़ाइलें लोड करने या सहेजने के दौरान त्रुटियाँ आती हैं तो क्या होगा?
 - फ़ाइल पथ की जाँच करें और सुनिश्चित करें कि सभी निर्भरताएँ सही तरीके से स्थापित हैं। समस्या निवारण युक्तियों के लिए Aspose.Cells दस्तावेज़ की समीक्षा करें।
 
-**प्रश्न 5**मैं जटिल मुद्दों के लिए सहायता कैसे प्राप्त कर सकता हूं?
+**प्रश्न 5**: मैं जटिल मुद्दों के लिए सहायता कैसे प्राप्त कर सकता हूं?
 - सामुदायिक और व्यावसायिक सहायता के लिए Aspose फ़ोरम पर जाएँ: [एस्पोज फोरम](https://forum.aspose.com/c/cells/9)
 
 ## संसाधन
@@ -169,6 +171,9 @@ workbook.save(outDir + "/out.html", options);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasının Kaydırma Çubuklarını Göster ve Gizle
-linktitle: Çalışma Sayfasının Kaydırma Çubuklarını Göster ve Gizle
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu ayrıntılı ve kolay takip edilebilen eğitimle Aspose.Cells for .NET'i kullanarak Excel çalışma sayfalarında kaydırma çubuklarının nasıl gösterileceğini ve gizleneceğini öğrenin.
-weight: 50
-url: /tr/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
+"description": "Bu ayrıntılı ve kolay takip edilebilen eğitimle Aspose.Cells for .NET'i kullanarak Excel çalışma sayfalarında kaydırma çubuklarının nasıl gösterileceğini ve gizleneceğini öğrenin."
+"linktitle": "Çalışma Sayfasının Kaydırma Çubuklarını Göster ve Gizle"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Kaydırma Çubuklarını Göster ve Gizle"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Kaydırma Çubuklarını Göster ve Gizle
@@ -22,13 +24,13 @@ Excel dosyalarını programatik olarak yönetmek çoğu zaman sihir gibi görün
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. C# Temel Bilgisi: Bu dilde kod parçacıkları yazacağımız için C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak.[buradan indirin](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. [buradan indirin](https://releases.aspose.com/cells/net/).
 3. IDE Kurulumu: C# kodu yazmak ve çalıştırmak için Visual Studio gibi bir entegre geliştirme ortamı (IDE) veya bir kod düzenleyici kurulumu.
-4.  Excel Dosyası: Örnek bir Excel dosyası (örneğin,`book1.xls`) düzenleyip test edebilirsiniz.
+4. Excel Dosyası: Örnek bir Excel dosyası (örneğin, `book1.xls`) düzenleyip test edebilirsiniz.
 
 Bu ön koşulları sağladıktan sonra koda dalabiliriz.
 
-## Gerekli Paketleri İçe Aktarma
+## Gerekli Paketleri İçeri Aktarma
 
 Aspose.Cells ile çalışmak için öncelikle C# kodunuza gerekli ad alanlarını içe aktarmanız gerekir. Bunu şu şekilde yaparsınız:
 
@@ -51,7 +53,7 @@ Burada çalışmak istediğiniz Excel dosyasının yolunu belirtiyorsunuz.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Yer değiştirmek`YOUR DOCUMENT DIRECTORY` Excel dosyanızın saklandığı gerçek yol ile. Bu, programınızın işleyebileceği gerekli dosyaları bulmasını sağlar.
+Yer değiştirmek `YOUR DOCUMENT DIRECTORY` Excel dosyanızın saklandığı gerçek yol ile. Bu, programınızın işleyebileceği gerekli dosyaları bulmasını sağlar.
 
 ## Adım 2: Bir Dosya Akışı Oluşturun
 
@@ -62,18 +64,18 @@ Burada Excel dosyasını okumak için bir dosya akışı oluşturuyorsunuz.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream`sınıfı, dosyalardan okumanızı ve dosyalara yazmanızı sağlar. Bu durumda, Excel dosyamızı okuma modunda açıyoruz.
+The `FileStream` sınıfı, dosyalardan okumanızı ve dosyalara yazmanızı sağlar. Bu durumda, Excel dosyamızı okuma modunda açıyoruz.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Daha sonra, bir tane oluşturmanız gerekiyor`Workbook` Kodda Excel dosyanızı temsil eden nesne.
+Daha sonra, bir tane oluşturmanız gerekiyor `Workbook` Kodda Excel dosyanızı temsil eden nesne.
 
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
   
- Bu`Workbook` nesne artık Excel dosyanızdaki tüm verileri ve ayarları tutar ve bu sayede işlem sırasında daha sonra düzenleme yapmanıza olanak sağlar.
+Bu `Workbook` nesne artık Excel dosyanızdaki tüm verileri ve ayarları tutar ve bu sayede işlem sırasında daha sonra düzenleme yapmanıza olanak sağlar.
 
 ## Adım 4: Dikey Kaydırma Çubuğunu Gizle
 
@@ -84,7 +86,7 @@ Workbook workbook = new Workbook(fstream);
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Ayarlayarak`IsVScrollBarVisible` ile`false`, dikey kaydırma çubuğu görünümden gizlenir. Bu, özellikle kaydırmayı kullanıcı dostu bir şekilde sınırlamak istediğinizde yararlı olabilir.
+Ayarlayarak `IsVScrollBarVisible` ile `false`, dikey kaydırma çubuğu görünümden gizlenir. Bu, özellikle kaydırmayı kullanıcı dostu bir şekilde sınırlamak istediğinizde yararlı olabilir.
 
 ## Adım 5: Yatay Kaydırma Çubuğunu Gizle
 
@@ -126,22 +128,24 @@ Bu basit adımları izleyerek, Aspose.Cells for .NET kullanarak bir çalışma s
 ## SSS
 
 ### Kaydırma çubuklarını gizledikten sonra tekrar görüntüleyebilir miyim?  
- Evet! Sadece ayarlamanız gerekiyor`IsVScrollBarVisible` Ve`IsHScrollBarVisible` geri dönmek`true`.
+Evet! Sadece ayarlamanız gerekiyor `IsVScrollBarVisible` Ve `IsHScrollBarVisible` geri dönmek `true`.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?  
- Aspose.Cells tamamen ücretsiz değildir, ancak sınırlı bir süre için ücretsiz olarak deneyebilir veya satın almayı düşünebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells tamamen ücretsiz değildir, ancak sınırlı bir süre için ücretsiz olarak deneyebilir veya satın almayı düşünebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells ile hangi tür Excel dosyalarını işleyebilirim?  
 .xls, .xlsx, .xlsm, .xlsb gibi çeşitli Excel formatlarıyla çalışabilirsiniz.
 
 ### Daha fazla örneği nerede bulabilirim?  
- Kontrol et[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ek örnekler ve eğitimler için.
+Kontrol et [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ek örnekler ve eğitimler için.
 
 ### Aspose.Cells kullanırken sorunlarla karşılaşırsam ne olur?  
-Aspose destek forumunda yardım arayabilir veya sorunları bildirebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose destek forumunda yardım arayabilir veya sorunları bildirebilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

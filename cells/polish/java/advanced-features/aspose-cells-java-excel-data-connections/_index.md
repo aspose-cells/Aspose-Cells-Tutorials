@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Konfiguracja środowiska
-Upewnij się, że masz zainstalowany pakiet Java Development Kit (JDK), najlepiej JDK 8 lub nowszy.
+Upewnij się, że masz zainstalowany Java Development Kit (JDK), najlepiej JDK 8 lub nowszy.
 
 ### Wymagania wstępne dotyczące wiedzy
 Przydatna będzie podstawowa znajomość programowania w Javie i obsługa zależności w Maven lub Gradle.
@@ -155,7 +157,7 @@ Gotowy, aby wykorzystać swoje nowe umiejętności? Zacznij wdrażać te technik
 A1: Jest to biblioteka umożliwiająca programowe zarządzanie plikami Excela, zapewniająca takie funkcje, jak odczytywanie, zapisywanie i przetwarzanie danych arkusza kalkulacyjnego.
 
 **P2: Jak mogę uzyskać bezpłatną wersję próbną Aspose.Cells?**
-A2: Odwiedź [strona z bezpłatną wersją próbną](https://releases.aspose.com/cells/java/) aby pobrać tymczasową licencję i zacząć korzystać z jej możliwości.
+A2: Odwiedź [strona z bezpłatną wersją próbną](https://releases.aspose.com/cells/java/) aby pobrać tymczasową licencję i rozpocząć korzystanie z jej możliwości.
 
 **P3: Czy mogę używać Aspose.Cells z innymi frameworkami Java?**
 A3: Tak, płynnie integruje się z Maven, Gradle i innymi narzędziami do budowania w Java.
@@ -175,6 +177,9 @@ A5: Rozważ użycie metod przesyłania strumieniowego i zapewnij odpowiednie zar
 - **Wsparcie**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

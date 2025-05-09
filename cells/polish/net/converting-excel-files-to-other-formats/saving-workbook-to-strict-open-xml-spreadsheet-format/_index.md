@@ -1,14 +1,16 @@
 ---
-title: Zapisywanie skoroszytu w ścisłym formacie arkusza kalkulacyjnego Open XML w środowisku .NET
-linktitle: Zapisywanie skoroszytu w ścisłym formacie arkusza kalkulacyjnego Open XML w środowisku .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym szczegółowym samouczku dowiesz się, jak zapisać skoroszyt w formacie Strict Open XML Spreadsheet przy użyciu Aspose.Cells dla platformy .NET.
-weight: 19
-url: /pl/net/converting-excel-files-to-other-formats/saving-workbook-to-strict-open-xml-spreadsheet-format/
+"description": "W tym szczegółowym samouczku dowiesz się, jak zapisać skoroszyt w formacie Strict Open XML Spreadsheet przy użyciu Aspose.Cells dla platformy .NET."
+"linktitle": "Zapisywanie skoroszytu w ścisłym formacie arkusza kalkulacyjnego Open XML w środowisku .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zapisywanie skoroszytu w ścisłym formacie arkusza kalkulacyjnego Open XML w środowisku .NET"
+"url": "/pl/net/converting-excel-files-to-other-formats/saving-workbook-to-strict-open-xml-spreadsheet-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zapisywanie skoroszytu w ścisłym formacie arkusza kalkulacyjnego Open XML w środowisku .NET
@@ -18,8 +20,8 @@ Cześć! Jeśli zanurzasz się w świecie manipulacji plikami Excela przy użyci
 Więc co z tego dla Ciebie? Cóż, pod koniec tego przewodnika nie tylko będziesz wiedział, jak zapisać skoroszyt w tym formacie, ale także będziesz miał solidne zrozumienie, jak manipulować plikami Excela za pomocą Aspose.Cells. Gotowy do działania? Zaczynajmy!
 ## Wymagania wstępne
 Zanim przejdziemy do kodu, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, czego będziesz potrzebować:
-1.  Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli jeszcze go nie masz, możesz go pobrać[Tutaj](https://visualstudio.microsoft.com/).
-2.  Aspose.Cells dla .NET: Musisz dodać Aspose.Cells do swojego projektu. Możesz pobrać go ze strony lub użyć NuGet Package Manager w Visual Studio. Możesz znaleźć pakiet[Tutaj](https://releases.aspose.com/cells/net/).
+1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Jeśli jeszcze go nie masz, możesz go pobrać [Tutaj](https://visualstudio.microsoft.com/).
+2. Aspose.Cells dla .NET: Musisz dodać Aspose.Cells do swojego projektu. Możesz pobrać go ze strony lub użyć NuGet Package Manager w Visual Studio. Możesz znaleźć pakiet [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza C#: Powinieneś być zaznajomiony z podstawowymi koncepcjami programowania C#. Jeśli wcześniej bawiłeś się kodowaniem, jesteś gotowy!
 4. Katalog wyjściowy: Zdecyduj, gdzie chcesz zapisać plik Excel. Utwórz folder na swoim komputerze, aby zachować porządek.
 Teraz, gdy zadbałeś już o swoje wymagania wstępne, możemy przejść do części poświęconej kodowaniu!
@@ -39,7 +41,7 @@ Zanim cokolwiek zrobisz, musisz skonfigurować katalog wyjściowy. To tutaj zost
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać plik. Na przykład, jeśli chcesz zapisać go w folderze o nazwie „ExcelFiles” na pulpicie, powinieneś napisać:
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać plik. Na przykład, jeśli chcesz zapisać go w folderze o nazwie „ExcelFiles” na pulpicie, powinieneś napisać:
 ```csharp
 string outputDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
 ```
@@ -49,14 +51,14 @@ Teraz, gdy ustawiłeś katalog wyjściowy, czas utworzyć nowy skoroszyt. Skoros
 // Utwórz skoroszyt.
 Workbook wb = new Workbook();
 ```
- Ta linia kodu inicjuje nową instancję`Workbook` klasa. Możesz to sobie wyobrazić jako otwarcie nowego, pustego pliku Excel, gotowego do wypełnienia danymi!
+Ta linia kodu inicjuje nową instancję `Workbook` klasa. Możesz to sobie wyobrazić jako otwarcie nowego, pustego pliku Excel, gotowego do wypełnienia danymi!
 ## Krok 3: Określ ustawienia zgodności
 Następnie musimy określić, że chcemy zapisać nasz skoroszyt w formacie Strict Open XML Spreadsheet. Jest to kluczowy krok w celu zapewnienia zgodności z innymi programami Excel. Oto, jak to zrobić:
 ```csharp
 // Określ - Format ścisłego, otwartego arkusza kalkulacyjnego XML.
 wb.Settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
 ```
- Ustawiając zgodność na`OoxmlCompliance.Iso29500_2008_Strict`, informujesz Aspose.Cells, że chcesz, aby skoroszyt ściśle przestrzegał standardów Open XML.
+Ustawiając zgodność na `OoxmlCompliance.Iso29500_2008_Strict`, informujesz Aspose.Cells, że chcesz, aby skoroszyt ściśle przestrzegał standardów Open XML.
 ## Krok 4: Dodaj dane do arkusza kalkulacyjnego
 Teraz zaczyna się zabawa! Dodajmy trochę danych do naszego arkusza kalkulacyjnego. Napiszemy wiadomość w komórce B4, aby wskazać, że nasz plik jest w formacie Strict Open XML. Oto jak to zrobić:
 ```csharp
@@ -71,7 +73,7 @@ Już prawie skończyliśmy! Ostatnim krokiem jest zapisanie skoroszytu do katalo
 // Zapisz do pliku wyjściowego Excel.
 wb.Save(outputDir + "outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx", SaveFormat.Xlsx);
 ```
- Ta linia kodu bierze skoroszyt i zapisuje go jako`.xlsx` plik w określonym katalogu. Możesz nazwać swój plik jak chcesz; pamiętaj tylko, aby zachować`.xlsx` rozszerzenie.
+Ta linia kodu bierze skoroszyt i zapisuje go jako `.xlsx` plik w określonym katalogu. Możesz nazwać swój plik jak chcesz; pamiętaj tylko, aby zachować `.xlsx` rozszerzenie.
 ## Krok 6: Potwierdź sukces
 Na zakończenie dodajmy krótki komunikat potwierdzający, który poinformuje nas, że wszystko zostało pomyślnie wykonane:
 ```csharp
@@ -85,16 +87,18 @@ Niezależnie od tego, czy zarządzasz danymi dla swojej firmy, czy tworzysz rapo
 ### Czym jest format arkusza kalkulacyjnego Strict Open XML?
 Format arkusza kalkulacyjnego Strict Open XML jest ściśle zgodny ze standardami Open XML, co zapewnia kompatybilność z różnymi aplikacjami.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak! Możesz zacząć od bezpłatnej wersji próbnej Aspose.Cells, aby poznać jej funkcje. Pobierz ją[Tutaj](https://releases.aspose.com/).
+Tak! Możesz zacząć od bezpłatnej wersji próbnej Aspose.Cells, aby poznać jej funkcje. Pobierz ją [Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?
- Aby uzyskać szczegółowe instrukcje i odniesienia do interfejsu API, zapoznaj się z dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+Aby uzyskać szczegółowe instrukcje i odniesienia do interfejsu API, zapoznaj się z dokumentacją [Tutaj](https://reference.aspose.com/cells/net/).
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Jeśli masz pytania lub potrzebujesz pomocy, możesz odwiedzić forum wsparcia[Tutaj](https://forum.aspose.com/c/cells/9).
+Jeśli masz pytania lub potrzebujesz pomocy, możesz odwiedzić forum wsparcia [Tutaj](https://forum.aspose.com/c/cells/9).
 ### Czy mogę zapisać skoroszyt w różnych formatach?
 Oczywiście! Aspose.Cells pozwala zapisać skoroszyt w różnych formatach, takich jak PDF, CSV i innych, w zależności od potrzeb.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

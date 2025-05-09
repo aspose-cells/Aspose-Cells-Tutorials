@@ -1,14 +1,16 @@
 ---
-title: Excel Dosyasının .NET'te Programatik Olarak Uyumluluğunu Belirleyin
-linktitle: Excel Dosyasının .NET'te Programatik Olarak Uyumluluğunu Belirleyin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET ile veri güncellemeleri, uyumluluk ayarları ve hücre biçimlendirmesi dahil olmak üzere Excel pivot tablolarını yönetmeyi öğrenin.
-weight: 23
-url: /tr/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Aspose.Cells for .NET ile Excel pivot tablolarını yönetmeyi öğrenin; veri güncellemeleri, uyumluluk ayarları ve hücre biçimlendirmesi dahil."
+"linktitle": "Excel Dosyasının .NET'te Programatik Olarak Uyumluluğunu Belirleyin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel Dosyasının .NET'te Programatik Olarak Uyumluluğunu Belirleyin"
+"url": "/tr/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Dosyasının .NET'te Programatik Olarak Uyumluluğunu Belirleyin
@@ -22,9 +24,9 @@ Günümüzün veri odaklı dünyasında, Excel dosyalarını programatik olarak 
 Kodlama aşamasına geçmeden önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. Temel C# bilgisi: C# dilinde kod yazacağımız için, dile aşina olmanız eğitimi daha iyi anlamanıza yardımcı olacaktır.
-2.  Aspose.Cells for .NET kütüphanesi: Bunu şu adresten indirebilirsiniz:[Aspose Cells sürüm sayfası](https://releases.aspose.com/cells/net/)Eğer henüz yapmadıysanız, özelliklerini keşfetmek için ücretsiz deneme sürümünü almayı düşünebilirsiniz.
+2. Aspose.Cells for .NET kütüphanesi: Bunu şu adresten indirebilirsiniz: [Aspose Cells sürüm sayfası](https://releases.aspose.com/cells/net/). Eğer henüz yapmadıysanız, özelliklerini keşfetmek için ücretsiz deneme sürümünü almayı düşünebilirsiniz.
 3. Visual Studio: C# kodlarınızı etkili bir şekilde yazıp test edebileceğiniz bir IDE.
-4.  Örnek Excel Dosyası: Bir örnek Excel dosyanız olduğundan emin olun, tercihen demo için bir pivot tablo içeren bir dosya. Örneğimiz için şunu kullanacağız:`sample-pivot-table.xlsx`.
+4. Örnek Excel Dosyası: Bir örnek Excel dosyanız olduğundan emin olun, tercihen demo için bir pivot tablo içeren bir dosya. Örneğimiz için şunu kullanacağız: `sample-pivot-table.xlsx`.
 
 Bu ön koşulları sağladıktan sonra kodlama sürecine başlayalım.
 
@@ -42,7 +44,7 @@ using Aspose.Cells.Pivot;
 using System.Drawing;
 ```
 
-Bu kod satırı, Aspose.Cells kütüphanesindeki tüm sınıflara ve metotlara erişebilmenizi sağlar.
+Bu kod satırı, Aspose.Cells kütüphanesindeki tüm sınıflara ve yöntemlere erişebilmenizi sağlar.
 
 Şimdi, her şeyin açık ve anlaşılır olduğundan emin olmak için süreci ayrıntılı olarak ele alalım.
 
@@ -55,7 +57,7 @@ Bu kod satırı, Aspose.Cells kütüphanesindeki tüm sınıflara ve metotlara e
 string dataDir = "Your Document Directory";
 ```
 
- Burada, değiştirin`"Your Document Directory"`Excel dosyalarınızın gerçek yolu ile. Örnek pivot tablo dosyanızın bulunması gereken yer burasıdır.
+Burada, değiştirin `"Your Document Directory"` Excel dosyalarınızın gerçek yolu ile. Örnek pivot tablo dosyanızın bulunması gereken yer burasıdır.
 
 ## Adım 2: Kaynak Excel Dosyasını Yükleyin
 
@@ -66,7 +68,7 @@ Daha sonra örnek pivot tabloyu içeren Excel dosyasını yüklememiz gerekiyor.
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- Bu adımda, bir örnek oluşturuyoruz`Workbook` Belirtilen Excel dosyasını yükleyen sınıf. 
+Bu adımda, bir örnek oluşturuyoruz `Workbook` Belirtilen Excel dosyasını yükleyen sınıf. 
 
 ## Adım 3: Çalışma Sayfalarına Erişim
 
@@ -118,7 +120,7 @@ Girdiğimiz dizenin uzunluğunu teyit etmemiz de önemlidir.
 Console.WriteLine("Length of original data string: " + cell.StringValue.Length);
 ```
 
-Bu sadece hücrenizin kaç karakter tuttuğunu göstermek için bir doğrulamadır.
+Bu sadece hücrenizin kaç karakter tuttuğunu doğrulamak içindir.
 
 ## Adım 6: Diğer Hücre Değerlerini Ayarlayın
 
@@ -141,7 +143,7 @@ Bu kod parçacıklarının her biri çalışma sayfasındaki birkaç ek hücreyi
 Daha sonra pivot tablo verilerinden oluşan ikinci çalışma sayfasına erişeceksiniz.
 
 ```csharp
-//Pivot tabloyu içeren ikinci çalışma sayfasına erişin
+// Pivot tabloyu içeren ikinci çalışma sayfasına erişin
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Pivot tabloya erişin
@@ -161,7 +163,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Gerçek dönüşüm burada başlıyor.`IsExcel2003Compatible` ile`true`, yenileme sırasında karakter uzunluklarını 255 ile sınırlandırırsınız.
+Gerçek dönüşüm burada başlıyor. `IsExcel2003Compatible` ile `true`yenileme sırasında karakter uzunluklarını 255 ile sınırlandırırsınız.
 
 ## Adım 9: Uyumluluk Ayarından Sonra Uzunluğu Kontrol Edin
 
@@ -180,7 +182,7 @@ Başlangıç verileri 255 karakteri aşarsa, muhtemelen kesme etkisini doğrulay
 Şimdi uyumluluk ayarını değiştirip tekrar kontrol edelim.
 
 ```csharp
-//Şimdi IsExcel2003Compatible özelliğini false olarak ayarlayın ve tekrar yenileyin
+// Şimdi IsExcel2003Compatible özelliğini false olarak ayarlayın ve tekrar yenileyin
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -220,11 +222,11 @@ Bu kod satırları, hücre boyutlarını ayarlayarak ve metin kaydırmayı etkin
 Son olarak çalışma kitabınızı yaptığınız değişikliklerle kaydedin.
 
 ```csharp
-// Çalışma kitabını xlsx formatında kaydet
+// Çalışma kitabını xlsx biçiminde kaydet
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- Excel dosyalarını kaydederken uygun bir dosya biçimi seçmek çok önemlidir.`Xlsx`formatı yaygın olarak kullanılır ve birçok Excel sürümüyle uyumludur.
+Excel dosyalarını kaydederken uygun bir dosya biçimi seçmek çok önemlidir. `Xlsx` formatı yaygın olarak kullanılır ve birçok Excel sürümüyle uyumludur.
 
 ## Çözüm
 
@@ -242,13 +244,15 @@ Excel uyumluluğu, özellikle önceki sürümlerde desteklenmeyen özellikler ve
 Evet, Aspose.Cells kullanarak Pivot Tabloları programatik olarak oluşturabilir ve düzenleyebilirsiniz. Kütüphane, Pivot Tablolarla ilişkili veri kaynakları, alanlar ve özellikler eklemek için çeşitli yöntemler sunar.
 
 ### Excel hücresindeki bir dizenin uzunluğunu nasıl kontrol edebilirim?  
-Kullanabilirsiniz`StringValue` birinin mülkü`Cell` hücrenin içeriğini almak ve ardından çağırmak için nesne`.Length` Dizenin uzunluğunu bulmak için özellik.
+Kullanabilirsiniz `StringValue` birinin mülkü `Cell` hücrenin içeriğini almak ve ardından çağırmak için nesne `.Length` Dizenin uzunluğunu bulmak için özellik.
 
 ### Satır yüksekliği ve genişliğinin ötesinde hücre biçimlendirmesini özelleştirebilir miyim?  
- Kesinlikle! Aspose.Cells kapsamlı hücre biçimlendirmesine izin verir. Yazı tipi stillerini, renkleri, kenarlıkları, sayı biçimlerini ve çok daha fazlasını şu şekilde değiştirebilirsiniz:`Style` sınıf.
+Kesinlikle! Aspose.Cells kapsamlı hücre biçimlendirmesine izin verir. Yazı tipi stillerini, renkleri, kenarlıkları, sayı biçimlerini ve çok daha fazlasını şu şekilde değiştirebilirsiniz: `Style` sınıf.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

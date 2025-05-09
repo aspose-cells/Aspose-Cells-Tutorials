@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@ Antes de sumergirse en el código, asegúrese de tener lo siguiente:
 
 ### Requisitos previos de conocimiento
 - Comprensión básica de programación Java y estructuras XML.
-- Familiaridad con los formatos de archivos de Excel y las necesidades de protección de datos.
+- Familiaridad con formatos de archivos Excel y necesidades de protección de datos.
 
 ## Configuración de Aspose.Cells para Java
 
@@ -88,7 +90,7 @@ Esta guía divide la implementación en secciones por función: desbloqueo de co
 
 ### Desbloquear todas las columnas en Excel
 
-Al desbloquear columnas se permite a los usuarios editar datos libremente en toda la hoja de cálculo.
+Al desbloquear columnas, los usuarios pueden editar datos libremente en toda la hoja de cálculo.
 
 #### Descripción general
 El siguiente código itera a través de todas las columnas (hasta 255) y las desbloquea:
@@ -185,9 +187,9 @@ A continuación se presentan algunas aplicaciones del mundo real en las que esta
 ## Consideraciones de rendimiento
 
 Al trabajar con Aspose.Cells, tenga en cuenta estos consejos para un rendimiento óptimo:
-- **Optimizar la carga del libro de trabajo**: Utilice métodos que aprovechen la memoria eficientemente al cargar archivos grandes.
+- **Optimizar la carga del libro de trabajo**: Utilice métodos que ahorren memoria al cargar archivos grandes.
 - **Modificaciones de estilo de límite**:Minimice la cantidad de cambios de estilo durante el procesamiento para reducir la sobrecarga.
-- **Gestión de la recolección de basura**:Asegure la eliminación adecuada de los objetos no utilizados para liberar memoria.
+- **Gestión de la Recolección de Basura**:Asegure la eliminación adecuada de los objetos no utilizados para liberar memoria.
 
 ## Conclusión
 
@@ -223,6 +225,9 @@ Al dominar Aspose.Cells para Java, ha aprendido a desbloquear y bloquear columna
 - [Paquete de prueba gratuito](#)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

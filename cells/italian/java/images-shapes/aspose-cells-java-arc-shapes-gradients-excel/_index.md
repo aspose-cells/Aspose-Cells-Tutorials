@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ excelbook.save("path/to/your/output/file.xls");
 
 ## Applicazioni pratiche
 Aspose.Cells può essere utilizzato in vari scenari, ad esempio:
-1. **Relazioni finanziarie:** Migliora i grafici con forme personalizzate per renderli più chiari.
+1. **Relazioni finanziarie:** Arricchisci i grafici con forme personalizzate per renderli più chiari.
 2. **Materiale didattico:** Crea presentazioni accattivanti con grafiche variegate.
 3. **Brochure di marketing:** Utilizzare i gradienti per evidenziare i punti dati chiave.
 
@@ -195,6 +197,9 @@ Ora hai imparato come aggiungere forme ad arco con riempimenti sfumati in Excel 
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

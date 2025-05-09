@@ -8,7 +8,9 @@ url: /net/row-column-autofit-conversion/autofit-rows-merged-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto-fit Rows for Merged Cells Aspose.Cells .NET
@@ -148,6 +150,7 @@ You can find help and resources on the Aspose forum [here](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

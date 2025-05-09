@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencszerzés
-Szerezzen be licencet az Aspose vásárlási lehetőségein keresztül, vagy kezdje egy ingyenes próbaverzióval az ideiglenes licenc letöltésével a weboldalukról. Inicializálja a beállításokat a következőképpen:
+Szerezzen be licencet az Aspose vásárlási lehetőségein keresztül, vagy kezdje egy ingyenes próbaverzióval az ideiglenes licenc letöltésével a weboldalukról. Inicializálja a beállításokat az alábbiak szerint:
 ```java
 // Töltsön be egy meglévő munkafüzetet, és alkalmazzon rá licencet, ha van ilyen.
 Workbook workbook = new Workbook("path_to_license_file");
@@ -142,6 +144,9 @@ Most már funkcionálisan is megértetted, hogyan adhatsz hozzá WordArt vízjel
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

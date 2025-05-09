@@ -7,33 +7,35 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Memperbarui Sumber Tabel Pivot Excel dengan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 Mengelola tabel pivot secara efisien sangat penting saat menganalisis data di Excel. Baik Anda seorang analis atau pengembang, memperbarui data sumber tabel pivot tanpa kehilangan konfigurasi dan formatnya dapat menjadi tantangan. Panduan ini memandu Anda dalam menggunakan **Aspose.Cells untuk Java** untuk mengubah data sumber tabel pivot secara mulus sambil mempertahankan semua pengaturan.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara mengubah data sumber tabel pivot Excel menggunakan Aspose.Cells untuk Java.
 - Langkah-langkah untuk menyiapkan dan menggunakan Aspose.Cells dalam proyek Java.
 - Praktik terbaik untuk mengelola tabel pivot secara terprogram.
 
 Mari kita mulai dengan menyiapkan lingkungan Anda sebelum masuk ke solusinya.
 
-## Prasyarat
+## Előfeltételek
 Sebelum memulai, pastikan Anda memiliki:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**: Pustaka inti untuk memanipulasi berkas Excel. Instal menggunakan Maven atau Gradle.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) versi 8 atau lebih tinggi.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menangani file Excel secara terprogram memang membantu, namun bukan hal yang diwajibkan.
 
@@ -54,10 +56,10 @@ Untuk menggunakan **Aspose.Cells untuk Java**sertakan ini sebagai dependensi dal
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-1. **Uji Coba Gratis**: Unduh lisensi sementara dari situs web Aspose untuk tujuan pengujian.
-2. **Lisensi Sementara**: Ajukan permohonan lisensi sementara untuk mengevaluasi fitur lengkap Aspose.Cells.
-3. **Pembelian**Beli lisensi jika Anda puas dengan uji coba Anda.
+### Licencbeszerzés lépései
+1. **Ingyenes próbaverzió**: Unduh lisensi sementara dari situs web Aspose untuk tujuan pengujian.
+2. **Ideiglenes engedély**: Ajukan permohonan lisensi sementara untuk mengevaluasi fitur lengkap Aspose.Cells.
+3. **Vásárlás**Beli lisensi jika Anda puas dengan uji coba Anda.
 
 Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda:
 ```java
@@ -75,7 +77,7 @@ public class InitializeAspose {
     }
 }
 ```
-## Panduan Implementasi
+## Megvalósítási útmutató
 Di bagian ini, kita akan membahas cara mengubah data sumber tabel pivot menggunakan Aspose.Cells untuk Java.
 
 ### Langkah 1: Muat File Excel yang Ada
@@ -96,7 +98,7 @@ public class ChangeSourceData {
     }
 }
 ```
-- **`Workbook workbook = new Workbook(...)`**:Membuat instance sebuah `Workbook` objek, yang mewakili berkas Excel Anda.
+- **`Workbook workbook = new Workbook(...)`**:Membuat contoh sebuah `Workbook` objek, yang mewakili berkas Excel Anda.
 
 ### Langkah 2: Mengakses dan Memodifikasi Data Lembar Kerja
 Akses lembar kerja yang berisi tabel pivot Anda dan perbarui datanya.
@@ -159,27 +161,27 @@ public class ChangeSourceData {
 ```
 - **`workbook.save(...)`**: Menulis perubahan Anda ke file Excel baru.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - Pastikan jalur direktori data Anda benar.
 - Verifikasi apakah rentang nama tabel pivot cocok dengan pembaruan Anda.
 - Periksa pengecualian apa pun dan rujuk dokumentasi Aspose.Cells untuk solusinya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Mengubah data sumber tabel pivot dengan Aspose.Cells dapat digunakan dalam berbagai skenario dunia nyata, seperti:
-1. **Pelaporan Keuangan**: Perbarui data penjualan triwulanan tanpa kehilangan konfigurasi laporan.
-2. **Manajemen Inventaris**: Memperbarui catatan inventaris sambil mempertahankan laporan analisis.
+1. **Pénzügyi jelentéstétel**: Perbarui data penjualan triwulanan tanpa kehilangan konfigurasi laporan.
+2. **Készletgazdálkodás**: Memperbarui catatan inventaris sambil mempertahankan laporan analisis.
 3. **Pelacakan Proyek**: Ubah tingkat penyelesaian tugas secara dinamis dan perbarui metrik proyek.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - Gunakan aliran untuk file Excel besar untuk mengoptimalkan penggunaan memori.
 - Pantau konsumsi sumber daya secara berkala untuk mencegah kemacetan dalam aplikasi Anda.
 - Terapkan praktik terbaik seperti membuang objek yang tidak diperlukan untuk meningkatkan kinerja.
 
-## Kesimpulan
+## Következtetés
 Dalam panduan ini, Anda telah mempelajari cara mengubah data sumber tabel pivot menggunakan **Aspose.Cells untuk Java**Pendekatan ini memastikan semua konfigurasi tetap utuh saat memperbarui kumpulan data yang mendasarinya. Untuk eksplorasi lebih lanjut, pertimbangkan untuk bereksperimen dengan fitur lain yang ditawarkan oleh Aspose.Cells untuk memanfaatkan sepenuhnya kemampuannya dalam proyek Anda.
 
-## Bagian FAQ
-1. **Apa itu Aspose.Cells?**
+## GYIK szekció
+1. **Mi az Aspose.Cells?**
    - Aspose.Cells untuk Java adalah pustaka untuk mengelola file Excel secara terprogram tanpa perlu menginstal Microsoft Office.
 2. **Bisakah saya memperbarui beberapa tabel pivot sekaligus?**
    - Ya, ulangi lembar kerja dan terapkan perubahan pada setiap tabel pivot sesuai kebutuhan.
@@ -187,20 +189,23 @@ Dalam panduan ini, Anda telah mempelajari cara mengubah data sumber tabel pivot 
    - Gunakan blok try-catch untuk mengelola pengecualian terkait IO atau format selama operasi penyimpanan.
 4. **Apa itu rentang bernama di Excel?**
    - Rentang bernama memungkinkan Anda menentukan label untuk sel atau rentang sel tertentu, membuat rumus dan fungsi Anda lebih mudah dibaca.
-5. **Apakah Aspose.Cells gratis untuk digunakan?**
+5. **Ingyenesen használható az Aspose.Cells?**
    - Meskipun tersedia uji coba gratis, fitur lengkapnya memerlukan pembelian lisensi.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan sumber daya ini dan panduan lengkap ini, Anda kini siap menangani perubahan data sumber tabel pivot secara efektif menggunakan Aspose.Cells di Java. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

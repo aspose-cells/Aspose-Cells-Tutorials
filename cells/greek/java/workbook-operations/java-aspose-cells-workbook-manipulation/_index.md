@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Workbook workbook = new Workbook(dataDir + "/BookStyles.xls");
 Ξεκινήστε το ταξίδι σας με το Aspose.Cells και εξερευνήστε πλήρως τις δυνατότητες του αυτοματισμού του Excel σε Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

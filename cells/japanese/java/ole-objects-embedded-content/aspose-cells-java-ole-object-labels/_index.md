@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-ダイナミックなデータ管理の世界において、Excelファイルは企業にとっても個人にとっても不可欠なツールです。OLE（Object Linking and Embedding）などの埋め込みオブジェクトの管理は、特にプログラムから変更する場合、困難な場合があります。Aspose.Cells for Javaは、開発者にExcelファイルをシームレスに操作するための強力な機能を提供します。
+変化の激しいデータ管理の世界において、Excelファイルは企業にとっても個人にとっても不可欠なツールです。OLE（Object Linking and Embedding）などの埋め込みオブジェクトの管理は、特にプログラムから変更する場合、困難な場合があります。Aspose.Cells for Javaは、開発者にExcelファイルをシームレスに操作するための強力な機能を提供します。
 
 この包括的なガイドでは、Aspose.Cells for Java を使用してExcelファイル内のOLEオブジェクトのラベルを変更および検証する方法を学習します。このチュートリアルに従うことで、データを効率的に管理する能力が向上します。
 
@@ -69,7 +71,7 @@ Aspose.Cells for Java のセットアップは簡単な手順で行えます。
 
 Aspose.Cells は、さまざまなニーズに合わせてさまざまなライセンス オプションを提供します。
 
-- **無料トライアル:** 期間限定で全機能をダウンロードしてテストできます。
+- **無料トライアル:** 期間限定でフル機能をダウンロードしてテストしてください。
 - **一時ライセンス:** 開発中に制限なく評価するための一時ライセンスを取得します。
 - **購入：** 継続して使用する場合は、商用ライセンスの購入を検討してください。
 
@@ -239,6 +241,9 @@ Aspose.Cells for Java を使用する際に最適なパフォーマンスを確�
 このガイドでは、Aspose.Cells for Java を使用して OLE オブジェクトのラベルを変更および検証する方法を学習しました。これらのスキルは、様々な業務シナリオにおいて Excel ファイルをより効率的に管理するのに役立ちます。さらに詳しく知りたい場合は、Aspose.Cells の他の機能もぜひご活用ください。データ管理タスクの可能性をさらに広げるお手伝いをいたします。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

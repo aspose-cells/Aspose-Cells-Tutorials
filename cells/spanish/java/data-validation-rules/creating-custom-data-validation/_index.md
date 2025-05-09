@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creación de una validación de datos personalizada
@@ -99,7 +101,7 @@ Puede descargar Aspose.Cells para Java desde el sitio web en [aquí](https://rel
 
 ### ¿Puedo aplicar una validación de datos personalizada a varios rangos en la misma hoja de cálculo?
 
-Sí, puede aplicar la validación de datos personalizada a múltiples rangos dentro de la misma hoja de cálculo repitiendo el Paso 5 para cada rango deseado.
+Sí, puede aplicar la validación de datos personalizada a múltiples rangos dentro de la misma hoja de trabajo repitiendo el Paso 5 para cada rango deseado.
 
 ### ¿Existen otros tipos de validación de datos compatibles con Aspose.Cells para Java?
 
@@ -116,6 +118,7 @@ Sí, Aspose.Cells para Java admite una amplia gama de formatos de archivos Excel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Som nästa steg, överväg att utforska mer avancerade funktioner i Aspose.Cells
 Nu när du har bemästrat implementeringen av en anpassad beräkningsmotor i Aspose.Cells Java, sätt dina färdigheter på prov och börja optimera dina kalkylblad som aldrig förr!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

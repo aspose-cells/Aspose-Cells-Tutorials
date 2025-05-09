@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: Χρησιμοποιήστε προκαθορισμένα αναγνωρισ
 A5: Βελτιστοποιήστε τα εύρη δεδομένων, ελαχιστοποιήστε την πολυπλοκότητα των γραφημάτων και διαχειριστείτε αποτελεσματικά τη μνήμη, απορρίπτοντας αντικείμενα όταν δεν χρειάζονται.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

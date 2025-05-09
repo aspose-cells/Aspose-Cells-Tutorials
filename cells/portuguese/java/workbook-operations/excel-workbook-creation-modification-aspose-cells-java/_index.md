@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No mundo atual, orientado por dados, a capacidade de gerenciar dados de planilhas programaticamente é crucial para desenvolvedores. Seja automatizando a geração de relatórios ou processando grandes conjuntos de dados, criar e modificar pastas de trabalho do Excel com eficiência pode economizar tempo e reduzir erros. Este tutorial abrangente orienta você no uso **Aspose.Cells para Java** para essas tarefas.
 
-## que você aprenderá
+## O que você aprenderá
 - Configurando Aspose.Cells no seu projeto Java.
 - Criando uma nova pasta de trabalho do zero.
 - Acessando e modificando células da planilha.
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Aquisição de Licença
 O Aspose.Cells requer uma licença para funcionalidade completa:
 - **Teste grátis**: Baixar de [Lançamentos Aspose](https://releases.aspose.com/cells/java/) para testar com limitações.
-- **Licença Temporária**Obtenha uma licença temporária através de [Página de compra da Aspose](https://purchase.aspose.com/temporary-license/).
+- **Licença Temporária**: Obtenha uma licença temporária através de [Página de compra da Aspose](https://purchase.aspose.com/temporary-license/).
 - **Comprar**:Para acesso ininterrupto, adquira uma licença completa em [Aspose Compra](https://purchase.aspose.com/buy).
 
 ## Configurando Aspose.Cells para Java
@@ -206,6 +208,9 @@ Neste tutorial, exploramos como criar e modificar pastas de trabalho do Excel us
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

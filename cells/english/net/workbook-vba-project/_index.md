@@ -8,7 +8,9 @@ url: /net/workbook-vba-project/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Workbook VBA Project
@@ -42,9 +44,11 @@ Learn how to efficiently copy VBA Macro User Form Designer in Aspose.Cells for .
 Learn how to check VBA project protection status in Excel using Aspose.Cells for .NET, from creation to verification. Easy guide with code examples.
 ### [Password Protect the VBA Project of Excel Workbook using Aspose.Cells](./password-protect-vba-project/)
 Easily password protect your VBA project in Excel using Aspose.Cells for .NET. Follow this step-by-step guide for enhanced security.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

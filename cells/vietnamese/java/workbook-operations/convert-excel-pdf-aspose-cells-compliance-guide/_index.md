@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Chuyển đổi sổ làm việc Excel sang định dạng PDF tuân thủ PDFA-
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện bắt buộc:** Tải xuống Aspose.Cells cho Java để xử lý các tài liệu Excel và chuyển đổi chúng sang nhiều định dạng khác nhau, bao gồm cả PDF.
+- **Thư viện cần thiết:** Tải xuống Aspose.Cells cho Java để xử lý các tài liệu Excel và chuyển đổi chúng sang nhiều định dạng khác nhau, bao gồm cả PDF.
 - **Yêu cầu thiết lập môi trường:** Môi trường phát triển với JDK 8 trở lên. Sử dụng công cụ xây dựng như Maven hoặc Gradle để quản lý các phụ thuộc.
 - **Điều kiện tiên quyết về kiến thức:** Sự hiểu biết cơ bản về các khái niệm lập trình Java và tệp cấu hình XML sẽ giúp bạn thực hiện hướng dẫn này một cách hiệu quả.
 
@@ -146,6 +148,9 @@ A5: Có, với việc mua giấy phép hoặc dùng thử phù hợp. Đảm b�
 Hướng dẫn này cung cấp cho bạn các công cụ và kiến thức để tận dụng Aspose.Cells for Java một cách hiệu quả, nâng cao khả năng xử lý tài liệu của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

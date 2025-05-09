@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Impostazione **Aspose.Cells** è semplice. Segui questi passaggi:
 1. **Installazione tramite Maven/Gradle:** Utilizzare le configurazioni delle dipendenze fornite sopra.
 2. **Acquisizione della licenza:**
    - Scarica una prova gratuita da [Il sito web di Aspose](https://releases.aspose.com/cells/java/).
-   - Valutare l'acquisto o l'ottenimento di una licenza temporanea per un utilizzo prolungato [Qui](https://purchase.aspose.com/temporary-license/).
+   - Valutare l'acquisto o l'ottenimento di una licenza temporanea per un uso prolungato [Qui](https://purchase.aspose.com/temporary-license/).
 3. **Inizializzazione di base:**
    Inizia inizializzando la libreria nel tuo progetto Java:
    ```java
@@ -176,7 +178,7 @@ Pronti per l'implementazione? Iniziate scaricando una versione di prova gratuita
 **D1: Posso utilizzare Aspose.Cells per Java su più piattaforme?**
 R1: Sì, è indipendente dalla piattaforma e funziona su vari sistemi operativi.
 
-**D2: Come posso gestire in modo efficiente file Excel di grandi dimensioni?**
+**D2: Come posso gestire in modo efficiente i file Excel di grandi dimensioni?**
 A2: Utilizzare le tecniche di gestione della memoria fornite da Aspose.Cells per gestire in modo efficace set di dati di grandi dimensioni.
 
 **D3: È possibile stampare i commenti in modo condizionale?**
@@ -199,6 +201,9 @@ A5: Supporta un'ampia gamma di formati, tra cui XLS e XLSX, garantendo versatili
 Inizia subito a padroneggiare la stampa dei commenti di Excel con Aspose.Cells Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

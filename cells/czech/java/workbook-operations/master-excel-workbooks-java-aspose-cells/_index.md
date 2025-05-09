@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Jako další kroky zvažte hlouběji se ponořit do pokročilejších funkcí ne
 Jste připraveni implementovat své řešení? Postupujte podle těchto kroků, prozkoumejte dostupné zdroje a začněte vylepšovat své Java aplikace s Aspose.Cells ještě dnes!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ Dans ce tutoriel, vous avez appris à sécuriser vos classeurs Excel avec Aspose
    - Oui, Aspose.Cells prend en charge une large gamme de formats de fichiers Excel, y compris les anciennes versions telles que `.xls` et des plus récents comme `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

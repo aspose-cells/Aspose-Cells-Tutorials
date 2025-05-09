@@ -8,7 +8,9 @@ url: /net/worksheet-operations/remove-threaded-comments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Threaded Comments from Worksheet
@@ -95,6 +97,7 @@ Aspose.Cells is largely designed for single-thread usage; however, you can imple
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

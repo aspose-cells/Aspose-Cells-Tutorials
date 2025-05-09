@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Att hantera CSV-filer kan vara utmanande, särskilt när det gäller ogiltiga te
 - Ersätta ogiltiga tecken i din datauppsättning
 - Förstå viktiga konfigurationsalternativ
 
-Låt oss dyka in i förutsättningarna innan vi börjar.
+Låt oss gå in på förutsättningarna innan vi börjar.
 
 ### Förkunskapskrav
 För att följa med behöver du:
@@ -166,6 +168,9 @@ Redo att dyka djupare? Försök att implementera dessa lösningar i ditt nästa 
 Genom att följa den här guiden kommer du att vara väl rustad att hantera CSV-filer med tillförsikt med Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

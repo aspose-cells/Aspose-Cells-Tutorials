@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Các bước xin cấp giấy phép
 - **Dùng thử miễn phí**: Tải xuống bản dùng thử từ [Trang phát hành của Aspose](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời**Xin giấy phép tạm thời qua [liên kết này](https://purchase.aspose.com/temporary-license/) để thử nghiệm không có giới hạn.
+- **Giấy phép tạm thời**: Xin giấy phép tạm thời qua [liên kết này](https://purchase.aspose.com/temporary-license/) để thử nghiệm không có giới hạn.
 - **Mua**: Để có quyền truy cập và hỗ trợ đầy đủ, hãy cân nhắc mua thư viện từ [Trang mua hàng của Aspose](https://purchase.aspose.com/buy).
 
 #### Khởi tạo cơ bản
@@ -157,6 +159,9 @@ Bây giờ bạn đã thành thạo việc nhập dữ liệu từ một mảng 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

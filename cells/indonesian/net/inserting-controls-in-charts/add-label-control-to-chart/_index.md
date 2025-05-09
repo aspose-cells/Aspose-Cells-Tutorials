@@ -1,31 +1,33 @@
 ---
-title: Tambahkan Kontrol Label ke Bagan
-linktitle: Tambahkan Kontrol Label ke Bagan
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan kontrol label ke bagan Anda di Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan visualisasi data Anda.
-weight: 10
-url: /id/net/inserting-controls-in-charts/add-label-control-to-chart/
+"description": "Pelajari cara menambahkan kontrol label ke bagan Anda di Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Tingkatkan visualisasi data Anda."
+"linktitle": "Tambahkan Kontrol Label ke Bagan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tambahkan Kontrol Label ke Bagan"
+"url": "/id/net/inserting-controls-in-charts/add-label-control-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Kontrol Label ke Bagan
 
-## Perkenalan
+## Bevezetés
 
 Bagan merupakan cara yang ampuh untuk memvisualisasikan data, dan terkadang, menambahkan label dapat lebih meningkatkan kejelasan. Jika Anda bekerja dengan Aspose.Cells for .NET, Anda dapat dengan mudah menambahkan label ke bagan untuk memberikan konteks tambahan. Dalam tutorial ini, kami akan memandu Anda untuk melakukannya langkah demi langkah, memastikan Anda siap untuk menerapkannya dalam proyek Anda sendiri.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita menyelami hal-hal yang lebih mendalam, mari kita bahas apa saja yang Anda perlukan untuk memulai:
 
 - Pengetahuan Dasar tentang C#: Sangat penting untuk memahami dasar-dasar pemrograman C#. Jika Anda seorang pemula, jangan khawatir – langkah-langkahnya akan jelas dan ringkas.
-- Pustaka Aspose.Cells: Pastikan Anda telah memasang pustaka Aspose.Cells. Anda dapat melakukannya melalui Pengelola Paket NuGet di Visual Studio. Jika Anda belum melakukannya, lihat[tautan unduhan](https://releases.aspose.com/cells/net/) untuk perpustakaan.
+- Pustaka Aspose.Cells: Pastikan Anda telah memasang pustaka Aspose.Cells. Anda dapat melakukannya melalui Pengelola Paket NuGet di Visual Studio. Jika Anda belum melakukannya, lihat [letöltési link](https://releases.aspose.com/cells/net/) untuk perpustakaan.
 - Visual Studio: Anda memerlukan lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio untuk menulis dan mengeksekusi kode Anda.
 
-## Paket Impor
+## Csomagok importálása
 
 Setelah semuanya siap, langkah selanjutnya adalah mengimpor paket yang diperlukan. Berikut cara melakukannya.
 
@@ -45,15 +47,15 @@ Ini seperti membuka kotak peralatan sebelum Anda mulai memperbaiki keran – And
 
 Sekarang setelah Anda siap, mari kita mulai dan mulai. Kita akan membahas setiap langkah yang diperlukan untuk menambahkan label ke diagram Anda.
 
-## Langkah 1: Tentukan Direktori
+## 1. lépés: Könyvtárak definiálása
 
 Pertama, kita akan menentukan jalur untuk direktori sumber dan keluaran. Di sinilah kita akan mengambil berkas Excel yang sudah ada dan tempat berkas yang dimodifikasi akan disimpan.
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
 
@@ -68,9 +70,9 @@ Berikutnya, kita akan memuat berkas Excel berisi bagan yang ingin kita beri labe
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Di sini, kami menggunakan`Workbook` kelas dari Aspose.Cells untuk membuka berkas Excel kita. Ini seperti membuka pintu agar kreativitas mengalir!
+Di sini, kami menggunakan `Workbook` kelas dari Aspose.Cells untuk membuka berkas Excel kita. Ini seperti membuka pintu agar kreativitas mengalir!
 
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: A munkalap elérése
 
 Sekarang setelah kita memiliki buku kerja, mari kita akses lembar kerja yang berisi bagan. Kita akan berasumsi bahwa bagan kita ada di lembar kerja pertama.
 
@@ -81,7 +83,7 @@ Worksheet sheet = workbook.Worksheets[0];
 
 Langkah ini adalah tentang menjelajahi gedung. Anda sudah mendapatkan kunci (buku kerja), tetapi sekarang Anda perlu menemukan ruangan Anda (lembar kerja).
 
-## Langkah 4: Dapatkan Bagannya
+## 4. lépés: Szerezd meg a diagramot
 
 Setelah mengakses lembar kerja, saatnya untuk mengambil bagan kita. Kita akan mengambil bagan pertama yang tersedia.
 
@@ -100,7 +102,7 @@ Sekarang tibalah bagian yang menarik – menambahkan label ke grafik. Kita akan 
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Di Sini,`AddLabelInChart` menangani pembuatan label berdasarkan koordinat dan dimensi yang Anda tentukan. Mirip seperti memasang bingkai cantik di sekeliling karya seni Anda!
+Itt, `AddLabelInChart` menangani pembuatan label berdasarkan koordinat dan dimensi yang Anda tentukan. Mirip seperti memasang bingkai cantik di sekeliling karya seni Anda!
 
 ## Langkah 6: Mengatur Teks Label
 
@@ -124,12 +126,12 @@ label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating;
 
 Anggap langkah ini sebagai pemberian sedikit kebebasan pada label Anda untuk bergerak di kanvas. Label memiliki karakternya sendiri!
 
-## Langkah 8: Simpan Buku Kerja
+## 8. lépés: A munkafüzet mentése
 
 Terakhir, simpan buku kerja Anda yang telah dimodifikasi ke direktori keluaran. 
 
 ```csharp
-// Simpan berkas excel.
+// Mentse el az excel fájlt.
 workbook.Save(outputDir + "outputAddingLabelControlInChart.xls");
 ```
 
@@ -137,25 +139,25 @@ Di sinilah Anda menyegel kesepakatan. Anda menyelesaikan mahakarya Anda dan meny
 
 ## Langkah 9: Konfirmasi Eksekusi
 
-Terakhir, yakinkan diri Anda bahwa semuanya berjalan lancar dengan mencetak konfirmasi pada konsol.
+Terakhir, yakinkan diri Anda bahwa semuanya berjalan lancar dengan mencetak konfirmasi ke konsol.
 
 ```csharp
 Console.WriteLine("AddingLabelControlInChart executed successfully.");
 ```
 
-Itu seperti memperlihatkan produk jadi Anda ke dunia, siap untuk mendapat tepuk tangan!
+Itu seperti memperlihatkan produk jadi Anda ke seluruh dunia, siap untuk mendapat tepuk tangan!
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda telah berhasil menambahkan kontrol label ke bagan menggunakan Aspose.Cells for .NET. Hanya dengan beberapa baris kode, Anda telah meningkatkan kejelasan representasi data visual Anda, menjadikannya jauh lebih informatif. Ingat, baik saat Anda menyusun presentasi atau mendalami analisis data, label ini dapat menjadi alat yang sangat berharga.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bisakah saya menyesuaikan tampilan label?
 Ya! Anda dapat mengubah jenis huruf, warna, ukuran, dan properti label lainnya sesuai dengan kebutuhan Anda.
 
-### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells adalah produk berbayar; namun, Anda dapat memulai dengan[uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur-fiturnya.
+### Ingyenesen használható az Aspose.Cells?
+Aspose.Cells adalah produk berbayar; namun, Anda dapat memulai dengan [ingyenes próba](https://releases.aspose.com/) hogy felfedezzük a tulajdonságait.
 
 ### Bagaimana jika saya ingin menambahkan beberapa label?
 Anda dapat mengulangi langkah penambahan label sebanyak yang diperlukan, masing-masing dengan posisi dan teks yang berbeda.
@@ -164,10 +166,12 @@ Anda dapat mengulangi langkah penambahan label sebanyak yang diperlukan, masing-
 Jika Anda menyetel jenis penempatan ke tetap, maka akan bergerak mengikuti data grafik. Jika mengambang bebas, maka akan tetap berada pada posisi yang ditentukan.
 
 ### Di mana saya dapat menemukan dokumentasi Aspose.Cells yang lebih rinci?
- Lihat di sini[dokumentasi](https://reference.aspose.com/cells/net/) untuk panduan lengkap dan referensi API.
+Nézd meg a [dokumentáció](https://reference.aspose.com/cells/net/) átfogó útmutatókért és API-referenciákért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

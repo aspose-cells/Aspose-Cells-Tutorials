@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ boolean a2HasQuotePrefix = s2.getQuotePrefix();
 باستخدام إمكانيات Aspose.Cells لجافا، يمكنك تحسين قدرتك على إنشاء ملفات Excel ومعالجتها برمجيًا بشكل ملحوظ. ابدأ باستكشاف ميزاته اليوم!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide And Unhide Worksheet
@@ -152,6 +154,7 @@ You can access support through the [Aspose forum](https://forum.aspose.com/c/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

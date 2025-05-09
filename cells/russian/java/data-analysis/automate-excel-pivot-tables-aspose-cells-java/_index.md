@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ cell.getStyle().getFont().setColor(Color.getBlack()); // Установите ч
 ```
 #### Объяснение
 - Изменить `ForegroundColor` и `FontColor` свойства для применения стилей, улучшающие представление данных.
-### Применение стиля ячеек в сводной таблице (H3)
+### Применение стиля ячейки в сводной таблице (H3)
 Примените предопределенный стиль к определенным ячейкам сводной таблицы:
 ```java
 pivotTable.format(cell.getRow(), cell.getColumn(), style); // Применить определенный стиль к ячейке в ее строке и столбце.
@@ -177,6 +179,9 @@ Aspose.Cells может произвести революцию в управл�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

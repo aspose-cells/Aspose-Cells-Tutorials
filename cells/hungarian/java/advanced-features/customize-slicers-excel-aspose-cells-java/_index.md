@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Mostanra már alaposan ismernie kell a szeletelő tulajdonságait az Excelben az
 Kezdje el az Excel szeletelők testreszabásának elsajátítását az Aspose.Cells for Java segítségével, és emelje a következő szintre az adatprezentációit!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

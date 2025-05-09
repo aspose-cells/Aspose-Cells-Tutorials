@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ public class ExcelCreator {
 ```java
 import com.aspose.cells.Workbook;
 
-// TÍNH NĂNG: Tạo và Cấu hình Sổ làm việc
+// TÍNH NĂNG: Tạo và Cấu hình một Sổ làm việc
 public class ExcelCreator {
     public static void main(String[] args) {
         // Tạo một đối tượng sổ làm việc mới.
@@ -208,6 +210,9 @@ Chúng tôi đã khám phá cách tạo sổ làm việc Excel động bằng As
    Công thức lan truyền tự động cập nhật khi có hàng dữ liệu mới được thêm vào, đảm bảo độ chính xác liên tục mà không cần can thiệp thủ công.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

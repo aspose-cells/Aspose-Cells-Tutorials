@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatisieren Sie Excel mit Java – Erstellen Sie Tabellen und interaktive Diagramme mit Aspose.Cells
@@ -287,6 +289,9 @@ Durch die Beherrschung dieser Techniken können Sie Ihre Excel-basierten Arbeits
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

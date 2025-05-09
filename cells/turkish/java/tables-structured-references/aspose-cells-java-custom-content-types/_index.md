@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Bu eğitimde Java için Aspose.Cells'in 25.3 sürümünü kullanın.
 
 ### Çevre Kurulum Gereksinimleri
 
-- Geliştirme ortamınızın JDK'yı (Java Geliştirme Kiti) desteklediğinden emin olun, tercihen sürüm 8 veya üzeri.
+- Geliştirme ortamınızın JDK'yı (Java Geliştirme Kiti) desteklediğinden emin olun, tercihen sürüm 8 veya üzeri olmalıdır.
 - Java programları yazmak ve çalıştırmak için IntelliJ IDEA, Eclipse veya NetBeans gibi uygun bir IDE kurun.
 
 ### Bilgi Önkoşulları
@@ -146,7 +148,7 @@ workbook.save(outDir + "/WorkingWithContentTypeProperties_out.xlsx");
 
 Özel içerik türü özellikleri çeşitli senaryolarda kullanılabilir:
 
-1. **Veri Yönetimi**Aranabilirliği ve organizasyonu iyileştirmek için verileri otomatik olarak meta verilerle etiketleme.
+1. **Veri Yönetimi**Aranabilirliği ve organizasyonu iyileştirmek için verileri meta verilerle otomatik olarak etiketleme.
 2. **Raporlama Sistemleri**:Oluşturulma tarihleri, yazarlar vb. gibi temel meta verileri yerleştirerek raporların geliştirilmesi.
 3. **Veritabanlarıyla Entegrasyon**: İçerik türü kimliklerini kullanarak Excel sayfalarını veritabanı girişlerine eşleme.
 
@@ -192,6 +194,9 @@ Onları ziyaret edin [belgeleme](https://reference.aspose.com/cells/java/) kapsa
 - **Destek**: https://forum.aspose.com/c/hücreler/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Sẵn sàng thử chưa? Hãy triển khai giải pháp này ngay hôm nay!
 Hướng dẫn toàn diện này được thiết kế để giúp bạn triển khai chức năng xuất bình luận một cách hiệu quả, đảm bảo ứng dụng của bạn mang lại trải nghiệm tốt hơn cho người dùng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

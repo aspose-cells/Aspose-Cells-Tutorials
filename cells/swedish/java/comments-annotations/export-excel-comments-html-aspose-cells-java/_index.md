@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Licensförvärv
 
-Aspose.Cells för Java erbjuder en gratis testlicens som låter dig utvärdera bibliotekets funktioner. För full funktionalitet utan begränsningar:
+Aspose.Cells för Java erbjuder en gratis testlicens, som låter dig utvärdera bibliotekets funktioner. För full funktionalitet utan begränsningar:
 - Skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 - Köp en prenumeration från [officiell webbplats](https://purchase.aspose.com/buy).
 
@@ -202,6 +204,9 @@ Redo att testa det? Implementera den här lösningen idag!
 Den här omfattande guiden är utformad för att hjälpa dig att implementera kommentarsexportfunktionen effektivt, så att dina applikationer levererar förbättrade användarupplevelser.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

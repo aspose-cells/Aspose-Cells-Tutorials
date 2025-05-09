@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ Việc tích hợp Aspose.Cells Java vào các công cụ báo cáo hoặc ứng
 ## Cân nhắc về hiệu suất
 
 Khi làm việc với các tệp Excel lớn:
-- Xử lý dữ liệu thành từng phần nếu có thể để tối ưu hóa việc sử dụng tài nguyên.
+- Nếu có thể, hãy xử lý dữ liệu thành từng phần để tối ưu hóa việc sử dụng tài nguyên.
 - Theo dõi mức sử dụng bộ nhớ để tránh rò rỉ.
 - Sử dụng các API hiệu quả của Aspose cho các hoạt động phức tạp một cách nhanh chóng.
 
@@ -171,6 +173,9 @@ Với những công cụ và kiến thức này, bạn đã được trang bị 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

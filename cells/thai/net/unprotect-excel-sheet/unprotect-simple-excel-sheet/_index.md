@@ -1,14 +1,16 @@
 ---
-title: ยกเลิกการป้องกันแผ่นงาน Excel ง่าย ๆ
-linktitle: ยกเลิกการป้องกันแผ่นงาน Excel ง่าย ๆ
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีการยกเลิกการป้องกันแผ่นงาน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ เข้าถึงข้อมูลของคุณได้อีกครั้งในเวลาไม่นาน
-weight: 30
-url: /th/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
+"description": "เรียนรู้วิธีการยกเลิกการป้องกันแผ่นงาน Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ เข้าถึงข้อมูลของคุณได้อีกครั้งในเวลาไม่นาน"
+"linktitle": "ยกเลิกการป้องกันแผ่นงาน Excel ง่าย ๆ"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "ยกเลิกการป้องกันแผ่นงาน Excel ง่าย ๆ"
+"url": "/th/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ยกเลิกการป้องกันแผ่นงาน Excel ง่าย ๆ
@@ -19,10 +21,10 @@ url: /th/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเจาะลึกลงไปในกระบวนการยกเลิกการป้องกันจริง มีบางสิ่งบางอย่างที่คุณต้องมี:
+ก่อนที่เราจะเจาะลึกลงไปในขั้นตอนการยกเลิกการปกป้องจริง มีบางสิ่งบางอย่างที่คุณจะต้องดำเนินการ:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio สำหรับการพัฒนา .NET แล้ว สภาพแวดล้อมนี้ทำให้ทำงานกับไลบรารี Aspose.Cells ได้อย่างราบรื่นยิ่งขึ้น
-2.  ไลบรารี Aspose.Cells: คุณจะต้องติดตั้งไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
+2. ไลบรารี Aspose.Cells: คุณจะต้องติดตั้งไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจว่าโค้ดโต้ตอบกับไลบรารี Aspose.Cells อย่างไร
 4. ตัวอย่างไฟล์ Excel: มีไฟล์ Excel ง่ายๆ ที่ได้รับการป้องกันด้วยหรือไม่มีรหัสผ่านเพื่อทดสอบกระบวนการยกเลิกการป้องกัน
 5. Microsoft Excel (ตัวเลือก): การมี Excel ไว้ใช้อยู่เสมอเพื่อตรวจสอบว่าการเปลี่ยนแปลงที่ทำโดย Aspose.Cells ถูกต้อง
@@ -33,7 +35,7 @@ url: /th/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
 
 ### การตั้งค่าโครงการของคุณ
 
- เปิด Visual Studio ของคุณและสร้างโปรเจ็กต์ C# ใหม่ ใน`Solution Explorer` คลิกขวาที่โครงการของคุณและเลือกเพิ่มรายการใหม่... เลือกคลาส C# และตั้งชื่อให้เหมาะสม (ตัวอย่างเช่น`ExcelUnprotector.cs`-
+เปิด Visual Studio ของคุณและสร้างโปรเจ็กต์ C# ใหม่ ใน `Solution Explorer`คลิกขวาที่โครงการของคุณและเลือกเพิ่มรายการใหม่... เลือกคลาส C# และตั้งชื่อให้เหมาะสม (ตัวอย่างเช่น `ExcelUnprotector.cs`-
 
 ### การติดตั้ง Aspose.Cells
 
@@ -64,11 +66,11 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // เปลี่ยนสิ่งนี้ให้เป็นเส้นทางที่แท้จริงของคุณ
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางจริงที่นำไปสู่ไฟล์ Excel ของคุณ
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` โดยมีเส้นทางจริงที่นำไปสู่ไฟล์ Excel ของคุณ
 
 ## ขั้นตอนที่ 2: การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
- ต่อไปคุณต้องสร้างอินสแตนซ์ของ`Workbook`ชั้นเรียนเพื่อเปิดไฟล์ Excel ของคุณ
+ต่อไปคุณต้องสร้างอินสแตนซ์ของ `Workbook` ชั้นเรียนเพื่อเปิดไฟล์ Excel ของคุณ
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -104,7 +106,7 @@ worksheet.Unprotect();
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- ที่นี่ เรากำลังบันทึกสมุดงานที่ไม่ได้รับการป้องกันลงในไฟล์ใหม่ที่ชื่อ`output.out.xls` ในไดเร็กทอรีเดียวกัน`SaveFormat.Excel97To2003` พารามิเตอร์ระบุรูปแบบที่คุณต้องการบันทึก
+ที่นี่ เรากำลังบันทึกสมุดงานที่ไม่ได้รับการป้องกันลงในไฟล์ใหม่ที่ชื่อ `output.out.xls` ในไดเร็กทอรีเดียวกัน `SaveFormat.Excel97To2003` พารามิเตอร์ระบุรูปแบบที่คุณต้องการบันทึก
 
 ## บทสรุป
 
@@ -122,13 +124,15 @@ workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 แน่นอน! ไลบรารีนี้รองรับรูปแบบ Excel ทั้งเวอร์ชันเก่าและใหม่ (.xls และ .xlsx)
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่ คุณสามารถดาวน์โหลด Aspose.Cells รุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถดาวน์โหลด Aspose.Cells รุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถหาข้อมูลเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells ได้จากที่ใด
- คุณสามารถอ้างอิงได้จาก[เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำโดยละเอียดและเอกสารอ้างอิง API
+คุณสามารถอ้างอิงได้ที่ [เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำโดยละเอียดและเอกสารอ้างอิง API
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

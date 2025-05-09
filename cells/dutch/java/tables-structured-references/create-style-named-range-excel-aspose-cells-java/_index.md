@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ A5: Maak gebruik van efficiënte geheugenbeheerpraktijken en overweeg om gegeven
 Door Aspose.Cells voor Java te gebruiken, kunt u uw Excel-automatiseringstaken naar een nieuw niveau van efficiëntie en duidelijkheid tillen. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

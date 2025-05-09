@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,6 +224,9 @@ Khi làm việc với các tệp Excel lớn hoặc nhiều chuyển đổi:
 Bằng cách làm theo hướng dẫn này, bạn có thể quản lý và chuyển đổi đồ họa SmartArt trong Excel một cách hiệu quả bằng Java với Aspose.Cells. Kỹ năng này sẽ nâng cao đáng kể khả năng tự động hóa các tác vụ phức tạp trong tài liệu Excel của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatok importálása Excelből
@@ -96,9 +98,11 @@ Most már megtanultad, hogyan importálhatsz adatokat Excelből az Aspose.Cells 
    Látogassa meg az Aspose.Cells dokumentációját [itt](https://reference.aspose.com/cells/java/) részletes forrásokért és példákért.
 
 Nyugodtan fedezd fel tovább, és igazítsd ezt a kódot az adatimportálási igényeidhez. Jó kódolást!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-creating-formatting-named-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating and Formatting Named Ranges in Excel
@@ -42,9 +44,11 @@ In wrapping it all up, Aspose.Cells for .NET provides powerful tools to create a
 Learn how to easily create a named range of cells in Excel using Aspose.Cells for .NET with this step-by-step guide. Streamline your data management.
 ### [Format Ranges in Excel](./format-ranges/)
 Master the art of formatting ranges in Excel using Aspose.Cells for .NET with our comprehensive step-by-step guide. Elevate your data presentation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,93 +1,97 @@
 ---
-title: Az alsó szintű feltárt megjegyzések letiltása HTML-be mentés közben
-linktitle: Az alsó szintű feltárt megjegyzések letiltása HTML-be mentés közben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan tilthatja le az alsó szinten megjelenő megjegyzéseket, amikor Excel-munkafüzetet HTML-formátumba ment az Aspose.Cells for .NET használatával.
-weight: 11
-url: /hu/net/loading-and-saving-excel-files-with-options/disabling-downlevel-revealed-comments/
+"description": "Ebből a részletes, lépésről lépésre szóló útmutatóból megtudhatja, hogyan tilthatja le az alacsonyabb szintű felfedett megjegyzéseket egy Excel-munkafüzet HTML-formátumban történő mentésekor az Aspose.Cells for .NET használatával."
+"linktitle": "Régebbi szintű felfedett megjegyzések letiltása HTML-be mentéskor"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Régebbi szintű felfedett megjegyzések letiltása HTML-be mentéskor"
+"url": "/hu/net/loading-and-saving-excel-files-with-options/disabling-downlevel-revealed-comments/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az alsó szintű feltárt megjegyzések letiltása HTML-be mentés közben
+# Régebbi szintű felfedett megjegyzések letiltása HTML-be mentéskor
 
 ## Bevezetés
-Szüksége volt már arra, hogy egy Excel-munkafüzetet HTML formátumba konvertáljon, és szerette volna megbizonyosodni arról, hogy a felesleges megjegyzések vagy rejtett tartalom ne kerüljön napvilágra a folyamat során? Ilyenkor jól jön az alsó szintű felfedett megjegyzések letiltása. Ha az Aspose.Cells for .NET-et használja, teljes mértékben szabályozhatja az Excel-munkafüzetek HTML-fájlként való megjelenítését. Ebben az oktatóanyagban egy egyszerű, lépésről-lépésre szóló útmutatót mutatunk be, amely segít letiltani az alacsonyabb szintű felfedett megjegyzéseket, miközben a munkafüzetet HTML-be menti. 
-A cikk végére világosan megérti, hogyan kell használni ezt a funkciót, és gondoskodnia kell arról, hogy a HTML-kimenet tiszta és megjegyzésektől mentes legyen.
+Előfordult már, hogy HTML-be kellett konvertálnod egy Excel-munkafüzetet, és biztos akartál lenni abban, hogy a folyamat során semmilyen felesleges megjegyzés vagy rejtett tartalom nem kerül nyilvánosságra? Itt jön jól az alsóbb szintű felfedett megjegyzések letiltása. Ha az Aspose.Cells for .NET-et használod, teljes mértékben szabályozhatod, hogy az Excel-munkafüzeteid hogyan jelenjenek meg HTML-fájlként. Ebben az oktatóanyagban egy egyszerű, lépésről lépésre bemutatott útmutatóban bemutatjuk, hogyan tilthatod le az alsóbb szintű felfedett megjegyzéseket egy munkafüzet HTML-be mentése közben. 
+A cikk végére világosan megérted majd, hogyan használd ezt a funkciót, és hogyan biztosíthatod, hogy a HTML-kimeneted tiszta és megjegyzésmentes legyen.
 ## Előfeltételek
-Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, térjünk ki néhány dologra, amelyeknek a zökkenőmentes követéséhez a helyükön kell lenniük:
-1. Aspose.Cells for .NET: telepítenie kell az Aspose.Cells könyvtárat. Ha még nem telepítette, letöltheti[itt](https://releases.aspose.com/cells/net/).
-2. IDE: Egy fejlesztői környezet, például a Visual Studio a C# kód írásához és végrehajtásához.
-3. Alapvető C# ismerete: A C# szintaxis és az objektumorientált programozás ismerete segít a kód követésében.
-4.  Ideiglenes vagy licencelt verzió: Használhatja az ingyenes próbaverziót, vagy kérhet ideiglenes licencet a következőtől[itt](https://purchase.aspose.com/temporary-license/). Ez biztosítja a könyvtár korlátok nélküli működését.
-Most, hogy készen állsz, ugorjunk bele!
+Mielőtt belemerülnénk a lépésről lépésre szóló útmutatóba, nézzük meg néhány dolgot, amire szükséged lesz a zökkenőmentes végrehajtáshoz:
+1. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells könyvtárat. Ha még nem telepítette, letöltheti. [itt](https://releases.aspose.com/cells/net/).
+2. IDE: Egy fejlesztői környezet, mint például a Visual Studio, C# kód írásához és végrehajtásához.
+3. C# alapismeretek: A C# szintaxisának és az objektumorientált programozásnak az ismerete segít a kód követésében.
+4. Ideiglenes vagy licencelt verzió: Használhatja az ingyenes próbaverziót, vagy ideiglenes licencet kérhet a következő címen: [itt](https://purchase.aspose.com/temporary-license/)Ez biztosítja, hogy a könyvtár korlátozások nélkül működjön.
+Most, hogy készen állsz, vágjunk bele!
 ## Névterek importálása
-Mielőtt belemennénk a kódpéldákba, elengedhetetlen az Aspose.Cells szükséges névtereinek megadása. Ezek nélkül a kód nem tud hozzáférni az Excel-fájlok kezeléséhez szükséges módszerekhez és tulajdonságokhoz.
+Mielőtt belemennénk a kódpéldákba, elengedhetetlen az Aspose.Cells szükséges névtereinek megadása. Ezek nélkül a kód nem lesz képes elérni az Excel-fájlok kezeléséhez szükséges metódusokat és tulajdonságokat.
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Ügyeljen arra, hogy ezt a sort a C# fájl tetejére helyezze az Aspose.Cells névtér importálásához.
-## 1. lépés: Állítsa be a címtár elérési útjait
-Mindenekelőtt be kell állítanunk a forráskönyvtárat (ahol az Excel fájlja tárolja) és a kimeneti könyvtárat (ahová a HTML fájl mentésre kerül). Ez döntő fontosságú, mert az Aspose.Cells a fájlok eléréséhez és mentéséhez pontos fájlútvonalat igényel.
+Ügyelj arra, hogy ezt a sort a C# fájlod elejére helyezd az Aspose.Cells névtér importálásához.
+## 1. lépés: A könyvtár elérési útjának beállítása
+Mindenekelőtt be kell állítanunk a forráskönyvtárat (ahol az Excel-fájl tárolva lesz) és a kimeneti könyvtárat (ahol a HTML-fájl mentésre kerül). Ez azért kulcsfontosságú, mert az Aspose.Cells a fájlok eléréséhez és mentéséhez pontos fájlútvonalakra van szüksége.
 ```csharp
-// Forráskönyvtár, ahol az Excel-fájl található
+// A forráskönyvtár, ahol az Excel-fájl található
 string sourceDir = "Your Document Directory";
-// Kimeneti könyvtár, ahová az eredményül kapott HTML fájl mentésre kerül
+// Kimeneti könyvtár, ahová a létrejövő HTML fájl mentésre kerül
 string outputDir = "Your Document Directory";
 ```
- Ebben a lépésben cserélje ki`"Your Document Directory"` a rendszer tényleges fájlútvonalaival. Egyéni könyvtárakat is létrehozhat a bemeneti és kimeneti fájlok jobb rendezéséhez.
+Ebben a lépésben cserélje ki `"Your Document Directory"` a rendszeren található tényleges fájlelérési utakkal. Egyéni könyvtárakat is létrehozhat a bemeneti és kimeneti fájlok jobb rendszerezése érdekében.
 ## 2. lépés: Töltse be az Excel-munkafüzetet
- Ebben a lépésben betöltjük az Excel-munkafüzetet a memóriába, hogy kezelni tudjuk. Demonstrációs célból egy mintafájlt fogunk használni`"sampleDisableDownlevelRevealedComments.xlsx"`. Bármilyen munkafüzetet használhat.
+Ebben a lépésben betöltjük az Excel-munkafüzetet a memóriába, hogy manipulálhassuk. Bemutatási célokból egy nevű mintafájlt fogunk használni. `"sampleDisableDownlevelRevealedComments.xlsx"`Bármelyik munkafüzetet használhatod.
 ```csharp
-// Töltse be a minta munkafüzetet a forráskönyvtárból
+// A minta munkafüzet betöltése a forráskönyvtárból
 Workbook wb = new Workbook(sourceDir + "sampleDisableDownlevelRevealedComments.xlsx");
 ```
-Ezzel létrehoz egy munkafüzet objektumot, amely tartalmazza az Excel-fájl összes adatát és szerkezetét. Innen módosíthatja, alkalmazhatja a beállításokat, és végül elmentheti más formátumban.
-## 3. lépés: Állítsa be a HTML mentési beállításokat
-Most konfigurálnunk kell a HtmlSaveOptions objektumot, hogy letiltsuk az alacsonyabb szintű megjegyzéseket. Ez a beállítás biztosítja, hogy a megjegyzések vagy rejtett tartalom ne jelenjen meg az eredményül kapott HTML-fájlban.
+Ez létrehoz egy Workbook objektumot, amely az Excel-fájl összes adatát és szerkezetét tartalmazza. Innen módosíthatja, beállításokat alkalmazhat, és végül más formátumban mentheti.
+## 3. lépés: HTML mentési beállítások megadása
+Most úgy kell konfigurálnunk a HtmlSaveOptions objektumot, hogy letiltsa az alacsonyabb szintű felfedett megjegyzéseket. Ez a beállítás biztosítja, hogy a megjegyzések vagy rejtett tartalom ne jelenjen meg a létrejövő HTML fájlban.
 ```csharp
-// Hozzon létre egy új HtmlSaveOptions objektumot a mentési beállítások konfigurálásához
+// Hozz létre egy új HtmlSaveOptions objektumot a mentési beállítások konfigurálásához.
 HtmlSaveOptions opts = new HtmlSaveOptions();
-// Az alacsonyabb szintű felfedett megjegyzések letiltása
+// Letiltja az alacsonyabb szintű felfedett hozzászólásokat
 opts.DisableDownlevelRevealedComments = true;
 ```
- Beállítás által`DisableDownlevelRevealedComments` hogy`true`, biztosítja, hogy amikor a munkafüzetet HTML-fájlként menti, az alsó szintű megjegyzések letiltásra kerülnek.
-## 4. lépés: Mentse el a munkafüzetet HTML-ként
-A HtmlSaveOptions objektum konfigurálása után a következő lépés a munkafüzet mentése HTML formátumba a megadott beállításokkal. Itt történik a tényleges fájlkonverzió.
+Beállítással `DisableDownlevelRevealedComments` hogy `true`, biztosíthatja, hogy amikor HTML-fájlként menti a munkafüzetet, az alacsonyabb szintű megjegyzések le legyenek tiltva.
+## 4. lépés: A munkafüzet mentése HTML formátumban
+Miután a HtmlSaveOptions objektum konfigurálva van, a következő lépés a munkafüzet HTML formátumba mentése a megadott beállításokkal. Itt történik a tényleges fájlkonvertálás.
 ```csharp
-// Mentse a munkafüzetet HTML-fájlként a megadott mentési beállításokkal
+// Mentse el a munkafüzetet HTML-fájlként a megadott mentési beállításokkal
 wb.Save(outputDir + "outputDisableDownlevelRevealedComments_true.html", opts);
 ```
 Ebben a kódsorban a munkafüzetet a korábban megadott kimeneti könyvtárba mentjük, és alkalmazzuk a DisableDownlevelRevealedComments beállítást. Az eredmény egy tiszta HTML-fájl lesz, nem kívánt megjegyzések nélkül.
-## 5. lépés: Ellenőrizze és hajtsa végre
-Végül, hogy minden a várt módon működjön, sikeres üzenetet küldhet a konzolra.
+## 5. lépés: Ellenőrzés és végrehajtás
+Végül, hogy megbizonyosodjon arról, hogy minden a várt módon működik, sikeres üzenetet küldhet a konzolnak.
 ```csharp
-// Sikerüzenet megjelenítése a konzolon
+// Sikeres üzenet kiírása a konzolra
 Console.WriteLine("DisableDownlevelRevealedCommentsWhileSavingToHTML executed successfully.");
 ```
-Ez azt jelenti, hogy a művelet hiba nélkül fejeződött be.
+Ez jelzi, hogy a művelet hiba nélkül befejeződött.
 ## Következtetés
-És megvan! Sikeresen megtanulta, hogyan tilthatja le az alacsonyabb szintű felfedett megjegyzéseket, miközben Excel-munkafüzetet ment HTML-be az Aspose.Cells for .NET segítségével. Ezzel a funkcióval most szabályozhatja, hogy a munkafüzetek hogyan jelenjenek meg HTML-ként, és elkerülheti a szükségtelen tartalom felfedését. Akár webalkalmazást fejleszt, akár egyszerűen csak tiszta HTML-kimenetre van szüksége, ez a módszer biztosítja, hogy a munkafüzet-konverziók pontosak és biztonságosak legyenek.
-Ha hasznosnak találta ezt az oktatóanyagot, fontolja meg az Aspose.Cells egyéb funkcióinak felfedezését az Excel-feldolgozási képességek további fejlesztése érdekében.
+És tessék! Sikeresen megtanultad, hogyan tilthatod le az alacsonyabb szintű felfedett megjegyzéseket egy Excel-munkafüzet HTML-ként történő mentésekor az Aspose.Cells for .NET használatával. Ezzel a funkcióval mostantól szabályozhatod, hogy a munkafüzeteid hogyan jelenjenek meg HTML-ként, és elkerülheted a felesleges tartalom felfedését. Akár webes alkalmazást fejlesztesz, akár egyszerűen tiszta HTML-kimenetre van szükséged, ez a módszer biztosítja, hogy a munkafüzet-konverzióid pontosak és biztonságosak legyenek.
+Ha hasznosnak találtad ezt az oktatóanyagot, érdemes lehet az Aspose.Cells további funkcióit is felfedezni az Excelben végzett feldolgozási képességeid fejlesztése érdekében.
 ## GYIK
-### Mik azok az alacsonyabb szintű felfedett megjegyzések?
-Az alsó szintű felfedett megjegyzéseket általában a webfejlesztésben használják, hogy további információkat nyújtsanak a régebbi böngészők számára, amelyek nem támogatnak bizonyos HTML-szolgáltatásokat. Az Excel-HTML-konverziók során néha rejtett tartalmakat vagy megjegyzéseket fedhetnek fel, ezért ezek letiltása hasznos lehet.
+### Mik azok az alacsonyabb szintű felfedett hozzászólások?
+Az alacsonyabb szintű felfedett megjegyzéseket jellemzően webfejlesztésben használják, hogy extra információkat nyújtsanak a régebbi böngészők számára, amelyek nem támogatják bizonyos HTML-funkciókat. Az Excel-HTML konverziók során néha rejtett tartalmat vagy megjegyzéseket jeleníthetnek meg, ezért hasznos lehet letiltásuk.
 ### Engedélyezhetem az alacsonyabb szintű megjegyzéseket, ha szükségem van rájuk?
- Igen, egyszerűen állítsa be a`DisableDownlevelRevealedComments` tulajdonát`false` ha engedélyezni szeretné az alsó szintű megjegyzéseket a munkafüzet HTML formátumban történő mentésekor.
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
- Könnyedén igényelhet ideiglenes engedélyt, ha felkeresi a[Aspose honlapja](https://purchase.aspose.com/temporary-license/).
-### Az alsó szintű megjegyzések letiltása befolyásolja a HTML megjelenését?
-Nem, az alsó szinten megjelenő megjegyzések letiltása nincs hatással a HTML-kimenet vizuális megjelenésére. Csak a régebbi böngészőknek szánt extra információk felfedését akadályozza meg.
-### Elmenthetem a munkafüzetet a HTML-en kívül más formátumban is?
- Igen, az Aspose.Cells számos kimeneti formátumot támogat, például PDF, CSV és TXT. További lehetőségeket fedezhet fel a[dokumentáció](https://reference.aspose.com/cells/net/).
+Igen, egyszerűen állítsa be a `DisableDownlevelRevealedComments` ingatlan `false` ha engedélyezni szeretné az alacsonyabb szintű megjegyzéseket a munkafüzet HTML formátumban történő mentésekor.
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?
+Ideiglenes jogosítványért egyszerűen folyamodhat, ha ellátogat a következő oldalra: [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
+### Az alacsonyabb szintű megjegyzések letiltása befolyásolja a HTML megjelenését?
+Nem, az alacsonyabb szintű felfedett megjegyzések letiltása nem befolyásolja a HTML-kimenet vizuális megjelenését. Csak a régebbi böngészők számára szánt extra információk megjelenítését akadályozza meg.
+### Menthetem a munkafüzetet HTML-en kívül más formátumban is?
+Igen, az Aspose.Cells számos kimeneti formátumot támogat, például PDF-et, CSV-t és TXT-t. További lehetőségeket a következő helyen talál: [dokumentáció](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

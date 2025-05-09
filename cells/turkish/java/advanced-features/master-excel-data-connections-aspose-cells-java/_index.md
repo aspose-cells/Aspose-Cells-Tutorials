@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Aspose.Cells Java ile Excel Veri Bağlantısı Değişikliklerinde Ustalaşma
 
 ## giriiş
-Excel dosyalarındaki veri bağlantılarını programatik olarak yönetmek ve değiştirmekte zorluk mu çekiyorsunuz? Bu kapsamlı kılavuz, güçlü Excel'i kullanarak iş akışlarını kolaylaştırmak isteyen geliştiriciler için tasarlanmıştır. **Aspose.Hücreler Java** kütüphane. Mevcut bir çalışma kitabını nasıl yükleyebileceğinizi, veri bağlantılarını nasıl değiştirebileceğinizi ve geri nasıl kaydedebileceğinizi öğrenin; tüm bunları Java koduyla yapın.
+Excel dosyalarındaki veri bağlantılarını programatik olarak yönetmek ve değiştirmekte zorluk mu çekiyorsunuz? Bu kapsamlı kılavuz, güçlü Excel'i kullanarak iş akışlarını kolaylaştırmak isteyen geliştiriciler için tasarlanmıştır. **Aspose.Hücreler Java** Kütüphane. Mevcut bir çalışma kitabını nasıl yükleyebileceğinizi, veri bağlantılarını nasıl değiştirebileceğinizi ve geri nasıl kaydedebileceğinizi öğrenin; tüm bunları Java koduyla yapın.
 
 ### Ne Öğreneceksiniz:
 - Aspose.Cells Java kullanarak ortamınızı nasıl kurabilirsiniz.
@@ -90,7 +92,7 @@ Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
 *Bu, bir örneğini başlatır `Workbook`Excel dosyanızı temsil eden .*
 
-### Özellik 2: Çalışma Kitabında Veri Bağlantısını Değiştirin
+### Özellik 2: Çalışma Kitabında Veri Bağlantısını Değiştir
 **Genel Bakış:** Yüklenen bir çalışma kitabındaki veri bağlantılarına nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin.
 
 #### Adım Adım Talimatlar
@@ -191,6 +193,9 @@ A5: Değerlendirme sürümü belgelerde filigranlar içerir ve işleme yetenekle
 - **İndirmek:** [Java için Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

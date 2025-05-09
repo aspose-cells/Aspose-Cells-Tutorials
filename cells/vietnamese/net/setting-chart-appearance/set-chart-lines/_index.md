@@ -1,14 +1,16 @@
 ---
-title: Thiết lập biểu đồ dòng
-linktitle: Thiết lập biểu đồ dòng
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tùy chỉnh đường biểu đồ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 14
-url: /vi/net/setting-chart-appearance/set-chart-lines/
+"description": "Tìm hiểu cách tùy chỉnh đường biểu đồ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Thiết lập biểu đồ dòng"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập biểu đồ dòng"
+"url": "/vi/net/setting-chart-appearance/set-chart-lines/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập biểu đồ dòng
@@ -23,7 +25,7 @@ Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã trang bị nh
 
 - Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Chúng tôi khuyên bạn nên sử dụng phiên bản mới nhất để tận dụng tất cả các tính năng.
 - .NET Framework: Dự án của bạn phải dựa trên .NET Framework (hoặc .NET Core), nơi bạn sẽ triển khai Aspose.Cells.
--  Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 - Hiểu biết cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ hữu ích khi viết mã.
 
 ## Nhập gói
@@ -36,7 +38,7 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Hãy chia nhỏ quy trình thành các bước dễ quản lý để bạn có thể dễ dàng theo dõi.
+Hãy chia nhỏ quy trình thành các bước dễ quản lý để bạn có thể dễ dàng thực hiện.
 
 ## Bước 1: Xác định thư mục đầu ra của bạn
 
@@ -47,7 +49,7 @@ Trước tiên, bạn cần một nơi để lưu tệp Excel mới tạo của 
 string outputDir = "Your Output Directory";
 ```
 
- Giải thích: Thay thế "Thư mục đầu ra của bạn" bằng đường dẫn mà bạn muốn Aspose.Cells lưu tệp, chẳng hạn như`C:\\MyExcelFiles\\`.
+Giải thích: Thay thế "Thư mục đầu ra của bạn" bằng đường dẫn mà bạn muốn Aspose.Cells lưu tệp, chẳng hạn như `C:\\MyExcelFiles\\`.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -58,7 +60,7 @@ Bây giờ, chúng ta sẽ tạo một đối tượng sổ làm việc, đóng 
 Workbook workbook = new Workbook();
 ```
 
- Giải thích: Dòng này tạo ra một phiên bản của`Workbook`lớp từ thư viện Aspose.Cells. Giống như mở một tệp Excel mới trống, nơi bạn có thể bắt đầu thêm các trang tính và dữ liệu của mình.
+Giải thích: Dòng này tạo ra một phiên bản của `Workbook` lớp từ thư viện Aspose.Cells. Giống như mở một tệp Excel mới trống, nơi bạn có thể bắt đầu thêm các trang tính và dữ liệu của mình.
 
 ## Bước 3: Tham khảo một bảng tính
 
@@ -69,7 +71,7 @@ Tiếp theo, bạn sẽ cần làm việc với một trang tính cụ thể tro
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Giải thích: Các bảng tính được lập chỉ mục bắt đầu từ 0, vì vậy`worksheets[0]` đề cập đến bảng tính đầu tiên.
+Giải thích: Các bảng tính được lập chỉ mục bắt đầu từ 0, vì vậy `worksheets[0]` đề cập đến bảng tính đầu tiên.
 
 ## Bước 4: Thêm giá trị mẫu vào ô
 
@@ -191,19 +193,21 @@ Xin chúc mừng! Bây giờ bạn đã nắm vững những điều cơ bản v
 Aspose.Cells for .NET là một thư viện mạnh mẽ để thao tác bảng tính Excel trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có, Aspose cung cấp bản dùng thử miễn phí để kiểm tra chức năng của nó. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí để kiểm tra chức năng của nó. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Có hỗ trợ cho Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể tạo các loại biểu đồ khác bằng Aspose.Cells không?  
 Có, Aspose hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ đường, biểu đồ tròn và biểu đồ diện tích.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?  
- Bạn có thể nộp đơn xin một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) thông qua trang web Aspose.
+Bạn có thể nộp đơn xin một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) thông qua trang web Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

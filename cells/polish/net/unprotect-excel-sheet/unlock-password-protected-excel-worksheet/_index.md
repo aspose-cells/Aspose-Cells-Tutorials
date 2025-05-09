@@ -1,14 +1,16 @@
 ---
-title: Odblokuj chroniony hasłem arkusz kalkulacyjny programu Excel
-linktitle: Odblokuj chroniony hasłem arkusz kalkulacyjny programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak odblokować zabezpieczony hasłem arkusz kalkulacyjny programu Excel za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w języku C#.
-weight: 10
-url: /pl/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
+"description": "Dowiedz się, jak odblokować zabezpieczony hasłem arkusz kalkulacyjny programu Excel za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w języku C#."
+"linktitle": "Odblokuj chroniony hasłem arkusz kalkulacyjny programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Odblokuj chroniony hasłem arkusz kalkulacyjny programu Excel"
+"url": "/pl/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odblokuj chroniony hasłem arkusz kalkulacyjny programu Excel
@@ -27,7 +29,7 @@ Potrzebujesz działającego środowiska .NET. Jeśli jeszcze nie jesteś gotowy,
 
 ### Aspose.Cells dla .NET
 
- Musisz mieć Aspose.Cells dla .NET. Możesz go pobrać z[Tutaj](https://releases.aspose.com/cells/net/) . Upewnij się, że zapoznałeś się z dokumentacją, którą można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Musisz mieć Aspose.Cells dla .NET. Możesz go pobrać z [Tutaj](https://releases.aspose.com/cells/net/). Upewnij się, że zapoznałeś się z dokumentacją, którą można znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Podstawowa wiedza o kodowaniu
 
@@ -76,11 +78,11 @@ Najpierw musimy ustawić ścieżkę naszego dokumentu Excel. Tutaj określisz, g
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Wskazówka: Zastąp`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, w której znajduje się Twój plik Excel (nazwijmy go`book1.xls`) znajduje się. 
+Wskazówka: Zastąp `"YOUR DOCUMENT DIRECTORY"` rzeczywistą ścieżką, w której znajduje się Twój plik Excel (nazwijmy go `book1.xls`) znajduje się. 
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
-Następnie musimy utworzyć wystąpienie klasy Workbook. Ten obiekt reprezentuje plik Excela w kodzie.
+Następnie musimy utworzyć wystąpienie klasy Workbook. Ten obiekt reprezentuje plik Excel w kodzie.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -106,7 +108,7 @@ To jest ta magiczna część!
 worksheet.Unprotect("");
 ```
 
- Jeśli arkusz jest zabezpieczony hasłem i znasz to hasło, należy zastąpić pusty ciąg`""` z rzeczywistym hasłem. Jeśli go nie znasz, po prostu zostaw je puste i uruchom, aby sprawdzić, czy działa.
+Jeśli arkusz jest zabezpieczony hasłem i znasz to hasło, należy zastąpić pusty ciąg `""` z rzeczywistym hasłem. Jeśli go nie znasz, po prostu zostaw je puste i uruchom, aby sprawdzić, czy działa.
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -134,7 +136,7 @@ Ten blok catch wyświetli wszystkie błędy, na które możesz natrafić, dzięk
 
 ## Wniosek
 
-masz! Udało Ci się odblokować chroniony hasłem arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz odzyskać dostęp do swoich ważnych danych. Dzięki tej wspaniałej bibliotece masz moc i elastyczność na wyciągnięcie ręki. Aspose.Cells to nie tylko wydajne narzędzie dla programistów, którzy chcą usprawnić interakcję z programem Microsoft Excel — to narzędzie niezbędne.
+I masz! Udało Ci się odblokować chroniony hasłem arkusz kalkulacyjny programu Excel przy użyciu Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu możesz odzyskać dostęp do swoich ważnych danych. Dzięki tej wspaniałej bibliotece masz moc i elastyczność na wyciągnięcie ręki. Aspose.Cells to nie tylko wydajne narzędzie dla programistów, którzy chcą usprawnić interakcję z programem Microsoft Excel — to narzędzie niezbędne.
 
 ## Najczęściej zadawane pytania
 
@@ -142,19 +144,21 @@ masz! Udało Ci się odblokować chroniony hasłem arkusz kalkulacyjny programu 
 Tak, możesz spróbować odblokować zabezpieczony arkusz, nie znając hasła, pozostawiając pole hasła puste.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania musisz kupić licencję. Sprawdź ich[Kup stronę](https://purchase.aspose.com/buy).
+Aspose.Cells oferuje bezpłatną wersję próbną, ale do dłuższego użytkowania musisz kupić licencję. Sprawdź ich [Kup stronę](https://purchase.aspose.com/buy).
 
 ### Jakie formaty obsługuje Aspose.Cells?  
 Aspose.Cells obsługuje różne formaty plików Excel, w tym XLS, XLSX, CSV i inne.
 
 ### Jak zainstalować Aspose.Cells?  
- Możesz zainstalować go za pomocą NuGet lub pobrać bezpośrednio z[Tutaj](https://releases.aspose.com/cells/net/).
+Możesz zainstalować go za pomocą NuGet lub pobrać bezpośrednio ze strony [Tutaj](https://releases.aspose.com/cells/net/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?  
- Wsparcie społecznościowe można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Wsparcie społecznościowe można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

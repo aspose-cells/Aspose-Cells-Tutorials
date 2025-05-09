@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,14 +32,14 @@
 
 ก่อนที่จะเจาะลึกโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสิ่งต่อไปนี้แล้ว:
 
-### ไลบรารีและสิ่งที่ต้องพึ่งพา:
+### ไลบรารีและการอ้างอิงที่จำเป็น:
 - **Aspose.Cells สำหรับ Java** เวอร์ชัน 25.3 ขึ้นไป
 - Java Development Kit (JDK) ติดตั้งอยู่บนเครื่องของคุณ
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม:
 - IDE เช่น IntelliJ IDEA หรือ Eclipse สำหรับเขียนและรันโค้ด Java
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ความคุ้นเคยกับโครงสร้างไฟล์ Excel เป็นประโยชน์แต่ไม่จำเป็น
 
@@ -190,6 +192,9 @@ public class SetFontSize {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### 매개변수 및 메서드
 - **학습장**: 전체 Excel 파일을 나타냅니다.
-- **워크시트**: 통합 문서 내의 단일 시트를 의미합니다.
+- **워크시트**통합 문서 내의 단일 시트를 의미합니다.
 - **스레드 댓글 컬렉션**셀과 관련된 주석의 모음입니다.
 
 ## 실제 응용 프로그램
@@ -148,6 +150,9 @@ Aspose.Cells의 다른 기능(예: 주석 생성 또는 수정)을 살펴보고,
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

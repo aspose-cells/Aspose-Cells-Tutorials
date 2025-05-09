@@ -1,14 +1,16 @@
 ---
-title: Wyodrębnij obiekt OLE z programu Excel
-linktitle: Wyodrębnij obiekt OLE z programu Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wyodrębnić obiekty OLE z plików Excela za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku ułatwiający wyodrębnianie.
-weight: 10
-url: /pl/net/excel-ole-picture-objects/extract-ole-object-from-excel/
+"description": "Dowiedz się, jak wyodrębnić obiekty OLE z plików Excela za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku ułatwiający wyodrębnianie."
+"linktitle": "Wyodrębnij obiekt OLE z programu Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wyodrębnij obiekt OLE z programu Excel"
+"url": "/pl/net/excel-ole-picture-objects/extract-ole-object-from-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnij obiekt OLE z programu Excel
@@ -18,7 +20,7 @@ dzisiejszym świecie technologii praca z plikami Excela jest powszechnym zadanie
 ## Wymagania wstępne
 Zanim zagłębimy się w szczegóły wyodrębniania obiektów OLE, musisz zadbać o kilka rzeczy:
 1. Podstawowa wiedza o C#: Jeśli znasz C#, jesteś już na dobrej drodze. Jeśli nie, nie martw się! Będziemy trzymać się prostoty.
-2. Aspose.Cells Zainstalowane: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Zainstalowane: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać ze strony [Tutaj](https://releases.aspose.com/cells/net/).
 3. Kompatybilne środowisko programistyczne: upewnij się, że masz przygotowane środowisko programistyczne .NET, np. Visual Studio.
 4. Przykładowy plik programu Excel: Do testów potrzebny będzie plik programu Excel z osadzonymi w nim obiektami OLE. 
 Gdy już spełnisz te wymagania wstępne, możemy rozpocząć podróż do świata wyodrębniania obiektów OLE.
@@ -33,7 +35,7 @@ W tym kroku zdefiniujemy ścieżkę, w której znajduje się nasz plik Excel. Mo
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik Excel (`book1.xls`) jest przechowywany.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik Excel (`book1.xls`) jest przechowywany.
 ## Krok 2: Otwórz plik Excel
 Teraz, gdy mamy już skonfigurowany katalog dokumentów, następnym krokiem jest otwarcie pliku Excel. Wyobraź sobie to jako otwieranie książki przed rozpoczęciem czytania — ważne jest, aby zobaczyć, co jest w środku.
 ```csharp
@@ -84,7 +86,7 @@ switch (ole.FileFormatType)
 }
 ```
 ## Krok 7: Zapisz obiekt OLE
- Teraz przejdźmy do zapisania obiektu OLE. Jeśli obiekt jest plikiem Excela, zapiszemy go za pomocą`MemoryStream` co pozwala nam obsługiwać dane w pamięci przed ich zapisaniem. Ten krok jest podobny do pakowania skarbu przed wysłaniem go do przyjaciela.
+Teraz przejdźmy do zapisania obiektu OLE. Jeśli obiekt jest plikiem Excela, zapiszemy go za pomocą `MemoryStream` co pozwala nam obsługiwać dane w pamięci przed ich zapisaniem. Ten krok jest podobny do pakowania skarbu przed wysłaniem go do przyjaciela.
 ```csharp
 if (ole.FileFormatType == FileFormatType.Xlsx)
 {
@@ -95,7 +97,7 @@ if (ole.FileFormatType == FileFormatType.Xlsx)
     oleBook.Save(dataDir + "Excel_File" + i + ".out.xlsx");
 }
 ```
- W przypadku innych typów plików użyjemy`FileStream` aby utworzyć plik na dysku.
+W przypadku innych typów plików użyjemy `FileStream` aby utworzyć plik na dysku.
 ```csharp
 else
 {
@@ -115,12 +117,14 @@ Wyodrębnianie obiektów OLE umożliwia dostęp do osadzonych dokumentów lub ob
 ### Czy Aspose.Cells obsługuje wszystkie typy osadzonych plików?
 Tak, Aspose.Cells może zarządzać różnymi obiektami OLE, w tym dokumentami Word, arkuszami Excel, prezentacjami PowerPoint i obrazami.
 ### Jak zainstalować Aspose.Cells dla .NET?
- Możesz zainstalować Aspose.Cells, pobierając go ze strony[strona wydania](https://releases.aspose.com/cells/net/).
+Możesz zainstalować Aspose.Cells, pobierając go ze strony [strona wydania](https://releases.aspose.com/cells/net/).
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
-Wsparcie dla Aspose.Cells można uzyskać na ich stronie[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Wsparcie dla Aspose.Cells można uzyskać na ich stronie [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

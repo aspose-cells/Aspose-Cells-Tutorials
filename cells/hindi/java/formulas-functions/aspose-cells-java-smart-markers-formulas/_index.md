@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Aspose.Cells के साथ काम करते समय प्रदर�
 - **निःशुल्क परीक्षण और अस्थायी लाइसेंस:** निःशुल्क परीक्षण के साथ आरंभ करें या अस्थायी लाइसेंस प्राप्त करें [Aspose निःशुल्क परीक्षण](https://releases.aspose.com/cells/java/) और [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

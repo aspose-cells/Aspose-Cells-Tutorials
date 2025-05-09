@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ public class InitializeAspose {
     public static void main(String[] args) throws Exception {
         String dataDir = "YOUR_DATA_DIRECTORY";
         Workbook workbook = new Workbook(dataDir + "/ODataSample.xlsx");
-        // 추가 처리는 여기서 이루어질 수 있습니다.
+        // 추가 처리가 여기서 이루어질 수 있습니다.
     }
 }
 ```
@@ -170,6 +172,9 @@ Aspose.Cells는 광범위한 기능을 제공하지만 항상 다음을 참조�
 - **구입**: 라이센스를 구매하거나 평가판을 요청하세요 [구매.aspose.com](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

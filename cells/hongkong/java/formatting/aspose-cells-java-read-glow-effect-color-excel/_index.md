@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 提取 Excel 檔案中形狀的發光效果顏色屬性等視覺效果對於增強資料視覺化或自訂報表等任務至關重要。本教程將指導您使用 **Aspose.Cells for Java** 從而高效地實現這一目標。
 
-在本綜合指南中，我們將示範如何使用 Aspose.Cells Java（一個為 Excel 自動化提供廣泛功能的強大函式庫）來讀取和操作 Excel 檔案中的發光效果色彩。
+在本綜合指南中，我們將示範如何使用 Aspose.Cells Java（一個為 Excel 自動化提供廣泛功能的強大函式庫）讀取和操作 Excel 檔案中的發光效果色彩。
 
 ### 您將學到什麼
 - 為 Aspose.Cells for Java 設定環境。
@@ -158,6 +160,9 @@ system.out.println("Glow Color: " + color);
 立即開始使用 Aspose.Cells Java 掌握 Excel 自動化的旅程！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

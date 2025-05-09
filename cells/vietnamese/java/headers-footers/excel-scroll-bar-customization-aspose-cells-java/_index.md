@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Các bước xin cấp giấy phép
 Aspose.Cells cung cấp bản dùng thử miễn phí để khám phá khả năng của nó. Để sử dụng lâu dài, bạn có thể mua giấy phép tạm thời hoặc mua phiên bản đầy đủ.
 
-1. **Dùng thử miễn phí**Tải xuống phiên bản mới nhất từ [Bản phát hành Java của Aspose.Cells](https://releases.aspose.com/cells/java/).
+1. **Dùng thử miễn phí**: Tải xuống phiên bản mới nhất từ [Bản phát hành Java của Aspose.Cells](https://releases.aspose.com/cells/java/).
 2. **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời qua [Mua giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 3. **Mua**: Để truy cập đầy đủ, hãy truy cập [Mua Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ Bằng cách tận dụng Aspose.Cells for Java, bạn có thể dễ dàng tùy
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

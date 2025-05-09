@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animasi Bagan
@@ -18,11 +20,11 @@
 
 Dalam tutorial ini, kita akan menjelajahi cara membuat animasi grafik dinamis menggunakan Aspose.Cells untuk API Java. Animasi grafik dapat menjadi cara yang ampuh untuk memvisualisasikan tren dan perubahan data dari waktu ke waktu, membuat laporan dan presentasi Anda lebih menarik dan informatif. Kami akan memberi Anda panduan langkah demi langkah dan menyertakan contoh kode sumber lengkap demi kenyamanan Anda.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat animasi grafik, pastikan Anda memiliki prasyarat berikut:
 
-1. Aspose.Cells untuk Java: Pastikan Anda telah menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+1. Aspose.Cells untuk Java: Pastikan Anda telah menginstal pustaka Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 2. Lingkungan Pengembangan Java: Anda harus menyiapkan lingkungan pengembangan Java di sistem Anda.
 
@@ -41,14 +43,14 @@ import com.aspose.cells.*;
 Anda dapat memuat buku kerja Excel yang sudah ada yang berisi data dan grafik atau membuat yang baru dari awal. Berikut cara memuat buku kerja yang sudah ada:
 
 ```java
-// Memuat buku kerja yang ada
+// Meglévő munkafüzet betöltése
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
 Dan berikut cara membuat buku kerja baru:
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -80,15 +82,15 @@ Jangan lupa untuk menyimpan buku kerja yang dimodifikasi dengan pengaturan anima
 workbook.save("output.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kita mempelajari cara membuat animasi bagan menggunakan Aspose.Cells untuk API Java. Kita membahas langkah-langkah penting, termasuk mengimpor pustaka, memuat atau membuat buku kerja Excel, mengakses bagan, mengonfigurasi pengaturan animasi, dan menyimpan buku kerja. Dengan memasukkan animasi bagan ke dalam laporan dan presentasi, Anda dapat membuat data Anda tampak hidup dan menyampaikan pesan Anda secara efektif.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengubah jenis animasi?
 
-Untuk mengubah jenis animasi, gunakan `setAnimationType` metode pada objek grafik. Anda dapat memilih dari berbagai jenis seperti `SLIDE`Bahasa Indonesia: `FADE`, Dan `GROW_SHRINK`.
+Untuk mengubah jenis animasi, gunakan `setAnimationType` metode pada objek grafik. Anda dapat memilih dari berbagai jenis seperti `SLIDE`, `FADE`, és `GROW_SHRINK`.
 
 ### Bisakah saya menyesuaikan durasi animasi?
 
@@ -101,6 +103,7 @@ Penundaan animasi menentukan jeda waktu sebelum animasi grafik dimulai. Gunakan 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

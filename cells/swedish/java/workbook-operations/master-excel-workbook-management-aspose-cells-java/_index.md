@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ De `save` Metoden skriver din arbetsbok till en fil och bevarar alla ändringar.
 Genom att följa den här guiden har du nu kunskaperna att hantera Excel-arbetsböcker programmatiskt med hjälp av Aspose.Cells för Java. Detta kraftfulla verktyg effektiviserar komplexa uppgifter och ökar produktiviteten vid hantering av Excel-filer. Fortsätt utforska dess funktioner för att ytterligare förbättra dina arbetsflöden för datahantering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

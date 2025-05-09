@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@ För att följa den här handledningen effektivt bör du ha:
 - Java Development Kit (JDK) installerat på din dator.
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Bekantskap med Java-programmeringskoncept som klasser och metoder.
 
 ## Konfigurera Aspose.Cells för Java
@@ -193,6 +195,9 @@ Som nästa steg, överväg att utforska andra funktioner i Aspose.Cells eller in
    - Dubbelkolla projektets byggkonfiguration (Maven/Gradle) för att säkerställa att alla nödvändiga Aspose.Cells-beroenden är korrekt inkluderade.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

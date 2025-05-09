@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,7 +222,7 @@ Ya aprendió a usar Aspose.Cells para Java para gestionar archivos de Excel efic
 
 ## Recursos
 
-- **Documentación:** Explore guías detalladas y referencias API en [Documentación de Aspose](https://reference.aspose.com/cells/java/)
+- **Documentación:** Explore guías detalladas y referencias de API en [Documentación de Aspose](https://reference.aspose.com/cells/java/)
 - **Descargar:** Obtenga la última versión de Aspose.Cells para Java desde [Página de descargas](https://releases.aspose.com/cells/java/)
 - **Compra:** Compre una licencia o comience con una prueba gratuita en su [Sitio de compra](https://purchase.aspose.com/buy)
 - **Prueba gratuita:** Acceda a licencias de prueba para probar funciones en [Pruebas gratuitas de Aspose](https://releases.aspose.com/cells/java/)
@@ -228,6 +230,9 @@ Ya aprendió a usar Aspose.Cells para Java para gestionar archivos de Excel efic
 - **Apoyo:** Obtenga ayuda de la comunidad o del equipo de soporte de Aspose en su [Foro](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

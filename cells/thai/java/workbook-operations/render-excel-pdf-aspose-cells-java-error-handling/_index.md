@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@
 หากต้องการใช้ Aspose.Cells ในโปรเจ็กต์ Java ของคุณ ให้รวมไว้เป็นส่วนที่ต้องพึ่งพา ขั้นตอนการตั้งค่ามีดังนี้ **เมเวน** หรือ **แกรเดิล**- 
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -73,7 +75,7 @@ public class InitializeAspose {
 เพื่อจัดการข้อผิดพลาดในไฟล์ต้นฉบับอย่างเหมาะสม โปรดกำหนดค่า Aspose.Cells เพื่อละเว้นข้อผิดพลาดเหล่านี้ในระหว่างการแปลง 
 
 #### ขั้นตอนที่ 1: โหลดเวิร์กบุ๊ก
-โหลดเวิร์กบุ๊ก Excel ของคุณด้วย `Workbook` ระดับ:
+โหลดสมุดงาน Excel ของคุณด้วย `Workbook` ระดับ:
 ```java
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
@@ -82,7 +84,7 @@ String srcDir = Utils.Get_SourceDirectory();
 Workbook wb = new Workbook(srcDir + "sampleErrorExcel2Pdf.xlsx");
 ```
 #### ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก PDF
-สร้าง `PdfSaveOptions` และตั้งค่าให้ละเว้นข้อผิดพลาด:
+สร้าง `PdfSaveOptions` อินสแตนซ์และตั้งค่าให้ละเว้นข้อผิดพลาด:
 ```java
 import com.aspose.cells.PdfSaveOptions;
 
@@ -125,7 +127,7 @@ try {
 
 ## ส่วนคำถามที่พบบ่อย
 1. **จะเกิดอะไรขึ้นหากฉันประสบปัญหาเกี่ยวกับการอนุญาตสิทธิ์กับ Aspose.Cells?**
-   - ตรวจสอบให้แน่ใจว่าคุณได้ใช้ใบอนุญาตของคุณอย่างถูกต้อง เยี่ยมชม [หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy) เพื่อดูรายละเอียดเพิ่มเติมในการขอรับใบอนุญาต
+   - ตรวจสอบให้แน่ใจว่าคุณได้ใช้ใบอนุญาตของคุณอย่างถูกต้อง เยี่ยมชม [หน้าการซื้อของ Aspose](https://purchase.aspose.com/buy) เพื่อดูรายละเอียดเพิ่มเติมเกี่ยวกับการขอรับใบอนุญาต
 2. **ฉันจะเพิ่มประสิทธิภาพการใช้หน่วยความจำเมื่อแปลงไฟล์ Excel ขนาดใหญ่ได้อย่างไร**
    - แบ่งเวิร์กบุ๊กออกเป็นส่วนย่อยๆ หรือเพิ่มประสิทธิภาพข้อมูลก่อนการแปลง
 3. **ฉันสามารถแปลงเฉพาะแผ่นงานที่ระบุเป็น PDF ได้หรือไม่**
@@ -144,6 +146,9 @@ try {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

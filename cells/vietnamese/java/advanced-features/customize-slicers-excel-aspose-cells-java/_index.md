@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Bây giờ, bạn đã hiểu rõ cách tùy chỉnh thuộc tính slicer trong 
 Bắt đầu hành trình làm chủ khả năng tùy chỉnh slicer của Excel với Aspose.Cells for Java và đưa bài thuyết trình dữ liệu của bạn lên một tầm cao mới!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

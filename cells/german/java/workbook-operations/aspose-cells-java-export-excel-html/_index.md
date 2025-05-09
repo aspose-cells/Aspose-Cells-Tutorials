@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Wir ermutigen Sie, diese Lösung in Ihren Projekten auszuprobieren und Ihre Erfa
 Mit dieser Anleitung sind Sie bestens gerüstet, um Aspose.Cells für Java beim Exportieren von Excel-Arbeitsblättern als HTML zu nutzen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

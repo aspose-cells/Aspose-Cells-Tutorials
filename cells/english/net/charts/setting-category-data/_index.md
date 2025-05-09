@@ -6,17 +6,22 @@ description: Learn how to create an Excel workbook, add sample data, and generat
 keywords: [Aspose.Cells for .NET, create Excel chart, generate column chart, Excel automation, C# Excel library, .NET spreadsheet API]
 url: /net/charts/setting-category-data/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Excel Chart with Aspose.Cells for .NET
 This example demonstrates how to create an Excel workbook, populate it with sample data, and generate a column chart using Aspose.Cells for .NET. The step-by-step guide covers creating a workbook, adding data, setting category labels, and configuring the chart. Aspose.Cells provides a powerful API for automating Excel file creation and manipulation in .NET applications, making it easy to generate dynamic charts programmatically.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/setting-category-data" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions  
 
@@ -45,7 +50,9 @@ To use Aspose.Cells for .NET, follow these steps:
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

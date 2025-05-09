@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,6 +176,9 @@ Sẵn sàng bắt đầu lưu sổ làm việc của bạn ở nhiều định d
 Hãy bắt đầu hành trình của bạn với Aspose.Cells Java và thay đổi cách bạn quản lý các tệp Excel ở nhiều định dạng khác nhau!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

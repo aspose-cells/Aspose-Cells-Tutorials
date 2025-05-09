@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstraksi Data Otomatis
@@ -32,7 +34,7 @@ Mengotomatiskan ekstraksi data menawarkan beberapa keuntungan:
 
 ### 1. Menyiapkan Lingkungan
 
-Pertama, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+Pertama, pastikan Anda telah menginstal Aspose.Cells untuk Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ### 2. Inisialisasi Aspose.Cells
 
@@ -43,7 +45,7 @@ import com.aspose.cells.Workbook;
 
 public class DataExtraction {
     public static void main(String[] args) {
-        // Inisialisasi Aspose.Cells
+        // Aspose.Cells inicializálása
         Workbook workbook = new Workbook();
     }
 }
@@ -54,7 +56,7 @@ public class DataExtraction {
 Untuk mengekstrak data, Anda perlu memuat file Excel. Berikut cara melakukannya:
 
 ```java
-// Memuat file Excel
+// Excel fájl betöltése
 workbook.open("sample.xlsx");
 
 // Mengakses lembar kerja
@@ -89,7 +91,7 @@ cellArea.EndColumn = 1;
 String[][] extractedData = worksheet.getCells().exportArray(cellArea);
 ```
 
-## Kesimpulan
+## Következtetés
 
 Mengotomatiskan ekstraksi data dengan Aspose.Cells untuk Java menyederhanakan proses pengambilan informasi dari file Excel. Dengan contoh kode sumber yang disediakan, Anda dapat dengan mudah menerapkan ekstraksi data dalam aplikasi Java Anda.
 
@@ -111,9 +113,11 @@ Mengotomatiskan ekstraksi data dengan Aspose.Cells untuk Java menyederhanakan pr
    Jelajahi dokumentasi API di [https://reference.aspose.com/sel/java/](https://reference.aspose.com/cells/java/) untuk informasi dan contoh yang mendalam.
 
 Mulailah mengotomatiskan tugas ekstraksi data Anda hari ini dengan Aspose.Cells untuk Java dan sederhanakan proses pengambilan data Anda.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

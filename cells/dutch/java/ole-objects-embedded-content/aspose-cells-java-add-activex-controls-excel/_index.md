@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ A: Hoewel geoptimaliseerd voor prestaties, kunnen talloze complexe vormen en bes
 - **Download**: Krijg toegang tot de nieuwste versie van Aspose.Cells Java vanaf [deze pagina](https://releases.aspose.com/cells/java/).
 - **Aankoop**: Koop een licentie via [De aankoopsite van Aspose](https://purchase.aspose.com/buy).
 - **Gratis proefversie en tijdelijke licentie**Start met gratis of tijdelijke toegang via de aangeboden links.
-- **Steun**: Neem deel aan discussies of stel vragen op de [Aspose Forum](https://forum.aspose.com/c/cells/9).
+- **Steun**Neem deel aan discussies of stel vragen op de [Aspose Forum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ La navigazione e la manipolazione a livello di programmazione delle tabelle di E
 - Modifica dei dati della tabella a livello di programmazione
 - Salvataggio delle modifiche nel file Excel
 
-Pronti a migliorare le vostre capacità di manipolazione dei dati? Assicuriamoci che abbiate tutto ciò di cui avete bisogno.
+Pronti a potenziare le vostre capacità di manipolazione dei dati? Assicuriamoci che abbiate tutto ciò di cui avete bisogno.
 
 ## Prerequisiti
 
@@ -77,7 +79,7 @@ license.setLicense("path/to/Aspose.Total.Java.lic");
 
 ## Guida all'implementazione
 
-Ora che l'ambiente è configurato, possiamo accedere e manipolare una tabella di Excel tramite una cella.
+Ora che l'ambiente è configurato, accediamo a una tabella di Excel e la modifichiamo tramite una cella.
 
 ### Accesso a una tabella di Excel da una cella
 
@@ -110,7 +112,7 @@ cell.putValue("D5 Data");
 // Accedi alla tabella da questa cella
 ListObject table = cell.getTable();
 
-// Aggiungere un valore alla posizione di offset specificata
+// Aggiungi un valore alla posizione di offset specificata
 table.putCellValue(1, 1, "Offset [2,2]");
 ```
 
@@ -174,6 +176,9 @@ Seguendo questa guida, sarai sulla buona strada per sfruttare appieno il potenzi
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

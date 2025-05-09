@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Burada tartışılan çözümü projelerinizde uygulamaya çalışmanızı öner
 Bu kapsamlı kılavuzu takip ederek, Aspose.Cells'i kullanarak Excel veri sıralama özelliğini Java uygulamalarınızda güvenle uygulayabilir ve optimize edebilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display Tab Of Spreadsheet
@@ -103,6 +105,7 @@ Yes, you can download a [free trial here](https://releases.aspose.com/) to explo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

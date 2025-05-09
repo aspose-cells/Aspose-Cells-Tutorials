@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Naučte se zabezpečit dokumenty Excelu s našimi komplexními bezpečnostními 
 ## Dostupné tutoriály
 
 ### [Přidání digitálních podpisů do souborů Excelu pomocí Aspose.Cells pro Javu: Komplexní průvodce](./add-digital-signatures-excel-aspose-cells-java/)
-Naučte se, jak přidávat digitální podpisy do souborů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka popisuje nastavení, načítání sešitů a vytváření zabezpečených digitálních podpisů.
+Naučte se, jak přidávat digitální podpisy do souborů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, načítáním sešitů a vytvářením zabezpečených digitálních podpisů.
 
 ### [Jak přidat řádek podpisu k obrázku v Excelu pomocí Javy a Aspose.Cells](./add-signature-line-image-excel-java-aspose-cells/)
 Naučte se, jak integrovat řádky podpisu do obrázků v souborech Excelu pomocí Aspose.Cells pro Javu. Zjednodušte si pracovní postupy s dokumenty s tímto komplexním průvodcem.
@@ -126,6 +128,9 @@ Naučte se, jak zabezpečit dokumenty Excelu digitálními podpisy XAdES pomocí
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

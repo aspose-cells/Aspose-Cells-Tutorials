@@ -1,99 +1,103 @@
 ---
-title: Baca Komentar Berulir di Lembar Kerja
-linktitle: Baca Komentar Berulir di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Manfaatkan kekuatan membaca komentar berulir di Excel dengan Aspose.Cells untuk .NET. Pelajari panduan langkah demi langkah ini untuk penanganan dokumen yang mudah.
-weight: 22
-url: /id/net/worksheet-operations/read-threaded-comments/
+"description": "Engedd szabadjára a hozzászólásláncokba rendezett megjegyzések olvasásának erejét az Excelben az Aspose.Cells for .NET segítségével. Merülj el ebben a lépésről lépésre szóló útmutatóban az egyszerű dokumentumkezelés érdekében."
+"linktitle": "Hozzászólások olvasása a munkalapban"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Hozzászólások olvasása a munkalapban"
+"url": "/id/net/worksheet-operations/read-threaded-comments/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Baca Komentar Berulir di Lembar Kerja
+# Hozzászólások olvasása a munkalapban
 
-## Perkenalan
-Di era digital saat ini, mengelola dan berkolaborasi pada dokumen telah menjadi bagian integral dari alur kerja kita. Dokumen Excel, yang sering kali berisi data dan wawasan, sering kali menyertakan komentar untuk memberikan konteks atau saran. Untungnya, dengan kekuatan Aspose.Cells untuk .NET, membaca dan menangani komentar berulir dapat menjadi sangat mudah. Dalam tutorial ini, mari selami lebih dalam cara kita dapat dengan mudah mengekstrak komentar berulir dari lembar kerja Excel menggunakan pustaka Aspose.Cells. Baik Anda seorang programmer berpengalaman atau pemula, panduan ini bertujuan untuk menyederhanakan seluruh proses untuk Anda!
-## Prasyarat
-Sebelum kita menyelami kode dan langkah-langkah yang diperlukan untuk membaca komentar berulir di Excel menggunakan Aspose.Cells, Anda harus memastikan bahwa Anda memiliki beberapa hal mendasar:
-1. Pengetahuan Dasar C#: Keakraban dengan C# dan .NET Framework sangat penting karena contoh kode yang diberikan akan menggunakan bahasa C#.
-2. Visual Studio: Anda harus menginstal Visual Studio di komputer Anda untuk menjalankan kode C#.
-3.  Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells ke proyek Anda. Anda dapat menemukannya di[Situs web Aspose](https://releases.aspose.com/cells/net/).
-4.  Contoh File Excel: Miliki contoh file Excel (seperti`ThreadedCommentsSample.xlsx`) disimpan di direktori Anda yang berisi komentar berulir untuk tujuan pengujian.
-## Mengimpor Paket
-Untuk memulai, Anda perlu menyertakan namespace yang diperlukan dalam proyek C# Anda. Ini memungkinkan Anda memanfaatkan fitur-fitur canggih yang disediakan oleh pustaka Aspose.Cells.
+## Bevezetés
+A mai digitális korban a dokumentumok kezelése és közös szerkesztése a munkafolyamataink szerves részévé vált. Az Excel dokumentumok, amelyek gyakran tele vannak adatokkal és elemzésekkel, gyakran tartalmaznak megjegyzéseket, amelyek kontextust vagy javaslatokat nyújtanak. Szerencsére az Aspose.Cells for .NET erejével a hozzászólásláncok olvasása és kezelése gyerekjáték lehet. Ebben az oktatóanyagban mélyebben beleássuk magunkat abba, hogyan tudunk egyszerűen kinyerni hozzászólásláncokat egy Excel munkalapból az Aspose.Cells könyvtár segítségével. Akár tapasztalt programozó, akár kezdő, ez az útmutató célja, hogy leegyszerűsítse a teljes folyamatot az Ön számára!
+## Előfeltételek
+Mielőtt belemerülnénk a kódba és az Excelben az Aspose.Cells használatával történő hozzászólásláncok olvasásához szükséges lépésekbe, győződjünk meg arról, hogy van néhány alapvető dolog:
+1. C# alapismeretek: A C# és a .NET keretrendszer ismerete elengedhetetlen, mivel a bemutatott kódpéldák C#-ban lesznek.
+2. Visual Studio: A C# kód futtatásához telepíteni kell a Visual Studio-t a gépedre.
+3. Aspose.Cells .NET-hez: Töltse le és telepítse az Aspose.Cells könyvtárat a projektjébe. Megtalálja a következő címen: [Aspose weboldal](https://releases.aspose.com/cells/net/).
+4. Minta Excel fájl: Készítsen egy minta Excel fájlt (például `ThreadedCommentsSample.xlsx`) elmentve a könyvtárába, amely tesztelési célokra menetes megjegyzéseket tartalmaz.
+## Csomagok importálása
+A kezdéshez bele kell foglalnod a szükséges névtereket a C# projektedbe. Ez lehetővé teszi az Aspose.Cells könyvtár által biztosított hatékony funkciók kihasználását.
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Cukup tambahkan deklarasi ini di awal file C# Anda, dan Anda siap memanfaatkan fungsionalitas Aspose.Cells!
+Egyszerűen add hozzá ezeket a deklarációkat a C# fájlod elejéhez, és máris használhatod az Aspose.Cells funkcióit!
 
-Sekarang setelah Anda menyiapkan proyek dan mengimpor paket yang diperlukan, mari kita bahas proses membaca komentar berulir dalam lembar kerja Excel. Kita akan membahasnya langkah demi langkah untuk memastikan semuanya jelas dan Anda dapat mengikutinya dengan mudah.
-## Langkah 1: Siapkan Direktori Sumber
-Langkah pertama adalah menentukan direktori tempat file Excel Anda berada. Pastikan jalur yang Anda tetapkan sesuai dengan lokasi file di sistem Anda.
+Most, hogy beállítottad a projektedet és importáltad a szükséges csomagokat, nézzük meg a hozzászólásláncokba rendezett megjegyzések olvasásának folyamatát egy Excel-munkafüzetben. Lépésről lépésre végigmegyünk rajta, hogy minden világos és könnyen követhető legyen.
+## 1. lépés: A forráskönyvtár beállítása
+Az első lépés az Excel-fájl könyvtárának megadása. Győződjön meg arról, hogy a megadott elérési út megegyezik a fájl helyével a rendszeren.
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya dari direktori yang berisi berkas Excel Anda.
-## Langkah 2: Buat Objek Buku Kerja
- Setelah Anda menyiapkan direktori, tugas berikutnya adalah membuat`Workbook` objek. Objek ini memungkinkan Anda memuat dan memanipulasi berkas Excel. 
+Csere `"Your Document Directory"` az Excel-fájlt tartalmazó könyvtár tényleges elérési útjával.
+## 2. lépés: Munkafüzet-objektum létrehozása
+Miután beállítottad a könyvtárat, a következő feladat egy `Workbook` objektum. Ez az objektum lehetővé teszi az Excel-fájl betöltését és kezelését. 
 ```csharp
-// Memuat buku kerja
+// A munkafüzet betöltése
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
-Pada baris ini, kita tidak hanya memuat buku kerja; kita juga membuka berkas Excel tertentu yang ingin Anda kerjakan.
-## Langkah 3: Akses Lembar Kerja
-Setelah memuat buku kerja, saatnya mengakses lembar kerja tertentu tempat Anda ingin membaca komentar berulir. File Excel dapat memiliki beberapa lembar, jadi mari kita akses yang pertama.
+Ebben a sorban nem csak a munkafüzetet töltjük be, hanem azt az Excel fájlt is megnyitjuk, amellyel dolgozni szeretnénk.
+## 3. lépés: A munkalap elérése
+A munkafüzet betöltése után itt az ideje, hogy elérje azt a munkalapot, amelyen a hozzászólásláncokban lévő megjegyzéseket el szeretné olvasni. Az Excel-fájlok több munkalapot is tartalmazhatnak, ezért nézzük meg az elsőt.
 ```csharp
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Di Sini,`Worksheets[0]`merujuk pada lembar kerja pertama dalam buku kerja, yang memungkinkan Anda fokus pada bagian file yang berisi komentar.
-## Langkah 4: Dapatkan Komentar Berulir
-Sekarang setelah Anda memiliki akses ke lembar kerja, langkah berikutnya adalah mengambil komentar berulir dari sel tertentu. Untuk contoh ini, mari kita targetkan sel “A1”.
+Itt, `Worksheets[0]` a munkafüzet első munkalapjára utal, lehetővé téve, hogy a fájlnak arra a részére koncentráljon, amely a megjegyzéseket tartalmazza.
+## 4. lépés: Hozzászólások témakörbe rendezése
+Most, hogy hozzáfér a munkalaphoz, a következő lépés a hozzászólásláncokban lévő megjegyzések lekérése egy adott cellából. Ebben a példában vegyük célba az „A1” cellát.
 ```csharp
-// Dapatkan Komentar Berulir
+// Hozzászólások témakörben
 ThreadedCommentCollection threadedComments = worksheet.Comments.GetThreadedComments("A1");
 ```
-Baris ini mengambil semua komentar berulir yang ditautkan ke sel “A1”. Jika tidak ada komentar, Anda tidak akan menerima output apa pun.
-## Langkah 5: Ulangi Komentar
-Setelah kumpulan komentar berulir berada dalam genggaman Anda, saatnya untuk menelusuri setiap komentar dan mengekstrak informasi relevan seperti teks komentar dan nama penulis. 
+Ez a sor az „A1” cellához kapcsolódó összes hozzászóláslánchoz kapcsolódó megjegyzést kéri le. Ha nincsenek megjegyzések, akkor nem kap kimenetet.
+## 5. lépés: Ismételd át a megjegyzéseket
+Miután a témaszálakba rendezett megjegyzések gyűjteménye biztonságosan a kezében van, itt az ideje, hogy végigmenjen az egyes megjegyzéseken, és kinyerje a releváns információkat, például a megjegyzés szövegét és a szerző nevét. 
 ```csharp
-// Ulangi setiap komentar berulir
+// Végigmegy az egyes hozzászólásláncokon
 foreach (ThreadedComment comment in threadedComments)
 {
     Console.WriteLine("Comment: " + comment.Notes);
     Console.WriteLine("Author: " + comment.Author.Name);
 }
 ```
-Siklus ini menelusuri setiap komentar dalam koleksi kami, mencetak komentar dan nama penulisnya. Anggap saja ini seperti mengobrol dengan kolega Anda tentang wawasan dalam sebuah dokumen, di mana Anda dapat melihat siapa yang mengatakan apa!
-## Langkah 6: Mengakui Eksekusi yang Berhasil
-Akhirnya, setelah Anda membaca komentarnya, mari kita konfirmasikan bahwa program kita telah menjalankan tugas ini dengan sukses. 
+Ez a ciklus végigmegy a gyűjteményünkben található összes megjegyzésen, kinyomtatva a megjegyzéseket és a szerzők nevét. Gondolj erre úgy, mintha beszélgetnél a kollégáiddal egy dokumentumban található információkról, ahol láthatod, hogy ki mit mondott!
+## 6. lépés: A sikeres végrehajtás visszaigazolása
+Végül, miután elolvastad a megjegyzéseket, erősítsük meg, hogy a programunk sikeresen végrehajtotta a feladatot. 
 ```csharp
 Console.WriteLine("ReadThreadedComments executed successfully.");
 ```
-Kalimat ini berfungsi sebagai pengingat ramah, memberi Anda umpan balik bahwa semuanya berjalan lancar.
-## Kesimpulan
-Anda telah berhasil membaca komentar berulir dari lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, Anda dapat dengan mudah mengakses wawasan yang bermakna dari dokumen Excel Anda, membantu Anda menyederhanakan komunikasi dan kolaborasi. 
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka yang hebat untuk membuat, memanipulasi, dan mengonversi dokumen Excel dalam aplikasi .NET.
-### Bagaimana cara mengunduh Aspose.Cells?
- Anda dapat mengunduh Aspose.Cells dari mereka[halaman rilis di sini](https://releases.aspose.com/cells/net/).
-### Apakah ada uji coba gratis yang tersedia?
- Ya! Anda dapat mencoba Aspose.Cells secara gratis. Temukan uji cobanya[Di Sini](https://releases.aspose.com/).
-### Bisakah saya mendapatkan dukungan untuk Aspose.Cells?
- Tentu saja! Anda dapat mengajukan pertanyaan dan mendapatkan bantuan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
-### Di mana saya dapat membeli Aspose.Cells?
- Jika Anda memutuskan untuk membeli Aspose.Cells, Anda dapat melakukannya[Di Sini](https://purchase.aspose.com/buy).
+Ez a sor barátságos emlékeztetőként szolgál, visszajelzést adva arról, hogy minden simán ment.
+## Következtetés
+Sikeresen beolvastad a hozzászólásláncokba rendezett megjegyzéseket egy Excel-munkafüzetből az Aspose.Cells for .NET segítségével. Mindössze néhány sornyi kóddal könnyedén hozzáférhetsz az Excel-dokumentumaidban található hasznos információkhoz, ami segít a kommunikáció és az együttműködés egyszerűsítésében. 
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony függvénykönyvtár Excel dokumentumok létrehozásához, kezeléséhez és konvertálásához .NET alkalmazásokban.
+### Hogyan tudom letölteni az Aspose.Cells fájlt?
+Az Aspose.Cells programot letöltheted innen: [kiadási oldal itt](https://releases.aspose.com/cells/net/).
+### Van ingyenes próbaverzió?
+Igen! Ingyenesen kipróbálhatod az Aspose.Cells-t. Keresd meg a próbaverziót. [itt](https://releases.aspose.com/).
+### Kaphatok támogatást az Aspose.Cells-hez?
+Természetesen! Kérdéseket tehet fel és segítséget kérhet a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
+### Hol lehet Aspose.Cells-t vásárolni?
+Ha úgy dönt, hogy megvásárolja az Aspose.Cells-t, megteheti [itt](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

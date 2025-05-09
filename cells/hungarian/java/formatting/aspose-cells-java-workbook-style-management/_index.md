@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ V5: A HtmlSaveOptions objektum konfigurálja az Excel-fájlok HTML-ként való m
 Ennek az oktatóanyagnak a követésével felkészült leszel arra, hogy az Aspose.Cells for Java-t kihasználd a projektjeidben, növelve a termelékenységet és a hatékonyságot. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

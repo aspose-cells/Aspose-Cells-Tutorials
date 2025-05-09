@@ -1,14 +1,16 @@
 ---
-title: Excel'de Ondalık Veri Doğrulaması
-linktitle: Excel'de Ondalık Veri Doğrulaması
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Kolay takip edilebilir kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de ondalık veri doğrulamasını nasıl uygulayacağınızı keşfedin. Veri bütünlüğünü zahmetsizce geliştirin.
-weight: 11
-url: /tr/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Kolay takip edilebilir kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de ondalık veri doğrulamasını nasıl uygulayacağınızı keşfedin. Veri bütünlüğünü zahmetsizce geliştirin."
+"linktitle": "Excel'de Ondalık Veri Doğrulaması"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Ondalık Veri Doğrulaması"
+"url": "/tr/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Ondalık Veri Doğrulaması
@@ -19,10 +21,10 @@ Herhangi bir işte net iletişim için doğru verilerle elektronik tablolar olu�
 
 ## Ön koşullar
 
-Koda dalmadan önce, sorunsuz bir seyir deneyimi için her şeyin ayarlandığından emin olun:
+Koda dalmadan önce, sorunsuz bir yolculuk deneyimi için her şeyin ayarlandığından emin olun:
 
 1. Visual Studio: Henüz yapmadıysanız Visual Studio'yu indirin ve kurun. .NET uygulamaları geliştirmek için mükemmel bir ortamdır.
-2.  .NET için Aspose.Cells: Projenize Aspose.Cells kütüphanesinin eklenmesi gerekir. Bunu şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Projenize Aspose.Cells kütüphanesinin eklenmesi gerekir. Bunu şuradan indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Her ne kadar her şeyi adım adım açıklasak da, C# programlamanın temellerine dair bir anlayışa sahip olmak, kavramları daha iyi kavramanızı sağlayacaktır.
 4. .NET Framework: Aspose.Cells ile uyumlu gerekli .NET Framework'ün yüklü olduğundan emin olun.
 5. Kütüphaneler: Derleme hatalarından kaçınmak için projenizde Aspose.Cells kütüphanesine başvurun.
@@ -51,9 +53,9 @@ Herhangi bir dosyayı kaydedebilmeniz için, belge dizininizin doğru şekilde a
 string dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` Excel dosyalarınızı kaydetmek istediğiniz yolu yazın.
+Yer değiştirmek `"Your Document Directory"` Excel dosyalarınızı kaydetmek istediğiniz yolu yazın.
 
-## Adım 2: Dizin Varlığını Kontrol Etme
+## Adım 2: Dizin Varlığını Kontrol Edin
 
 Bu kod parçası dizinin var olup olmadığını kontrol eder ve yoksa oluşturur:
 
@@ -67,7 +69,7 @@ Bu adım, yeni bir projeye başlamadan önce çalışma alanınızın hazır old
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
-Şimdi, esasen bir Excel dosyası olan yeni bir çalışma kitabı nesnesi oluşturalım:
+Şimdi, özünde bir Excel dosyası olan yeni bir çalışma kitabı nesnesi oluşturalım:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -209,16 +211,18 @@ Excel'de veri doğrulama, belirli bir hücreye veya aralığa girilebilecek veri
 Evet! Yanlış veri girişleri yapıldığında kullanıcıları yönlendirmek için özel hata mesajları sağlayabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. Geçici bir lisans edinme hakkında daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisansa ihtiyacınız olacak. Geçici bir lisans edinme hakkında daha fazla bilgi bulabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 
 ### Excel'de hangi veri türlerini doğrulayabilirim?
 Aspose.Cells ile tam sayılar, ondalıklar, tarihler, listeler ve özel formüller dahil olmak üzere çeşitli veri türlerini doğrulayabilirsiniz.
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeleri inceleyebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

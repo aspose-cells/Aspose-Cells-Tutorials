@@ -8,7 +8,9 @@ url: /net/excel-page-breaks/excel-add-page-breaks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Add Page Breaks
@@ -129,6 +131,7 @@ Definitely! You can access the Aspose community forum for support and discussion
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ẩn và hiện bảng tính
-linktitle: Ẩn và hiện bảng tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Làm chủ thao tác bảng tính Excel với hướng dẫn đầy đủ về cách ẩn và bỏ ẩn bảng tính bằng Aspose.Cells cho .NET. Tối ưu hóa việc quản lý dữ liệu của bạn.
-weight: 90
-url: /vi/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
+"description": "Làm chủ thao tác bảng tính Excel với hướng dẫn đầy đủ về cách ẩn và bỏ ẩn bảng tính bằng Aspose.Cells cho .NET. Tối ưu hóa việc quản lý dữ liệu của bạn."
+"linktitle": "Ẩn và hiện bảng tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Ẩn và hiện bảng tính"
+"url": "/vi/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ẩn và hiện bảng tính
@@ -22,9 +24,9 @@ Khi nói đến quản lý dữ liệu, Microsoft Excel là một công cụ m�
 Trước khi bắt đầu hành trình kiểm soát bảng tính Excel, bạn cần lưu ý một số điều kiện tiên quyết để đảm bảo chuyến đi diễn ra suôn sẻ:
 
 1. Kiến thức cơ bản về C#: Sự quen thuộc với C# là điều cần thiết vì chúng ta sẽ viết mã bằng ngôn ngữ này.
-2.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt Aspose.Cells. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển: Một IDE như Visual Studio 2022, nơi bạn có thể biên dịch và chạy mã C# của mình.
-4.  Tệp Excel: Chuẩn bị một tệp Excel để thao tác. Đối với hướng dẫn này, chúng ta hãy tạo một tệp mẫu có tên`book1.xls`.
+4. Tệp Excel: Chuẩn bị một tệp Excel để thao tác. Đối với hướng dẫn này, chúng ta hãy tạo một tệp mẫu có tên `book1.xls`.
 5. .NET Framework: Ít nhất .NET Framework 4.5 trở lên.
 
 Sau khi đáp ứng được những yêu cầu này, bạn đã sẵn sàng rồi!
@@ -42,7 +44,7 @@ Bây giờ chúng ta đã thiết lập xong và sẵn sàng để viết mã, h
 
 ## Bước 1: Thiết lập môi trường của bạn
 
-Trong bước này, bạn sẽ thiết lập đường dẫn tệp nơi tệp Excel của bạn được lưu trữ. Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tập tin của bạn.
+Trong bước này, bạn sẽ thiết lập đường dẫn tệp nơi tệp Excel của bạn được lưu trữ. Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn đến tập tin của bạn.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
@@ -82,11 +84,11 @@ Với sổ làm việc trong tay, đã đến lúc truy cập vào trang tính c
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ở đây, bạn đang trỏ đến một trang tính cụ thể, giống như việc chọn một cuốn sách từ trên giá sách. "Đây là cuốn tôi muốn làm!"
+Ở đây, bạn đang trỏ đến một trang cụ thể, giống như việc chọn một cuốn sách từ trên giá sách. "Đây là cuốn tôi muốn làm!"
 
 ## Bước 5: Ẩn bảng tính
 
- Bây giờ đến phần thú vị—ẩn bảng tính! Bằng cách chuyển đổi`IsVisible` thuộc tính, bạn có thể làm cho bảng tính của mình biến mất khỏi chế độ xem.
+Bây giờ đến phần thú vị—ẩn bảng tính! Bằng cách chuyển đổi `IsVisible` thuộc tính, bạn có thể làm cho bảng tính của mình biến mất khỏi chế độ xem.
 
 ```csharp
 // Ẩn trang tính đầu tiên của tệp Excel
@@ -104,7 +106,7 @@ Sau khi ẩn bảng tính, bạn sẽ muốn lưu các thay đổi bạn đã th
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Ở đây, chúng tôi lưu sổ làm việc dưới dạng`output.out.xls`. Giống như niêm phong công việc của bạn trong một phong bì. Nếu bạn không lưu nó, tất cả công sức của bạn sẽ bị mất!
+Ở đây, chúng tôi lưu sổ làm việc dưới dạng `output.out.xls`. Giống như niêm phong công việc của bạn trong một phong bì. Nếu bạn không lưu nó, tất cả công sức của bạn sẽ bị mất!
 
 ## Bước 7: Đóng luồng tập tin
 
@@ -119,7 +121,7 @@ Hãy coi đây như việc đóng cửa sau khi bạn rời đi. Luôn luôn là
 
 ## Bước 8: Hiển thị trang tính
 
- Để bỏ ẩn bảng tính, bạn sẽ cần phải thiết lập`IsVisible` thuộc tính trở lại đúng. Sau đây là cách thực hiện:
+Để bỏ ẩn bảng tính, bạn sẽ cần phải thiết lập `IsVisible` thuộc tính trở lại đúng. Sau đây là cách thực hiện:
 
 ```csharp
 // Hiển thị trang tính đầu tiên của tệp Excel
@@ -135,22 +137,24 @@ Thao tác các bảng tính Excel bằng Aspose.Cells cho .NET không phải là
 ## Câu hỏi thường gặp
 
 ### Tôi có thể ẩn nhiều trang tính cùng lúc không?
- Vâng, bạn có thể lặp qua`Worksheets` bộ sưu tập và thiết lập`IsVisible` thuộc tính thành false cho mỗi trang tính bạn muốn ẩn.
+Vâng, bạn có thể lặp qua `Worksheets` bộ sưu tập và thiết lập `IsVisible` thuộc tính thành false cho mỗi trang tính bạn muốn ẩn.
 
 ### Aspose.Cells hỗ trợ những định dạng tệp nào?
-Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLS, XLSX, CSV và nhiều định dạng khác. Bạn có thể kiểm tra danh sách đầy đủ[đây](https://reference.aspose.com/cells/net/).
+Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLS, XLSX, CSV và nhiều định dạng khác. Bạn có thể kiểm tra danh sách đầy đủ [đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Bạn có thể bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng của nó. Cần có giấy phép đầy đủ cho các ứng dụng sản xuất. Tìm hiểu thêm về nó[đây](https://purchase.aspose.com/buy).
+Bạn có thể bắt đầu bằng bản dùng thử miễn phí để khám phá các tính năng của nó. Cần có giấy phép đầy đủ cho các ứng dụng sản xuất. Tìm hiểu thêm về nó [đây](https://purchase.aspose.com/buy).
 
 ### Có thể ẩn bảng tính dựa trên các điều kiện nhất định không?
 Chắc chắn rồi! Bạn có thể triển khai logic có điều kiện trong mã của mình để xác định xem một bảng tính nên được ẩn hay hiển thị dựa trên tiêu chí của bạn.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) cho bất kỳ câu hỏi hoặc vấn đề nào.
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) cho bất kỳ câu hỏi hoặc vấn đề nào.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

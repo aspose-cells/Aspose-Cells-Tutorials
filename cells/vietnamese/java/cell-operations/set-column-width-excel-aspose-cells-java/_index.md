@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Ghé thăm [Tài liệu Aspose](https://reference.aspose.com/cells/java/) và kh
 Hướng dẫn này sẽ hướng dẫn bạn cách thiết lập và chạy chiều rộng cột trong Excel bằng Aspose.Cells for Java. Chúc bạn viết code vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

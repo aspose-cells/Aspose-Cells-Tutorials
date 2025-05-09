@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Cell cell = worksheet.getCells().get(0, 0); // Πρόσβαση στο πρώτ�
 Μη διστάσετε να εξερευνήσετε αυτούς τους πόρους καθώς συνεχίζετε το ταξίδι σας με το Aspose.Cells και την Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

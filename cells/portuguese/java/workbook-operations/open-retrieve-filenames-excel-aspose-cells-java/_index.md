@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Como abrir e recuperar nomes de arquivos XLSX usando Aspose.Cells em Java
 ## Introdução
 Manipular arquivos do Microsoft Excel em aplicativos Java pode ser desafiador, especialmente ao lidar com formatos complexos como XLSX. Este tutorial apresenta a poderosa biblioteca Aspose.Cells para Java, guiando você na abertura de um arquivo do Excel 2007 (XLSX) e na recuperação do seu nome.
-### que você aprenderá
+### O que você aprenderá
 - Configurando Aspose.Cells para Java com Maven ou Gradle.
 - Abrindo um arquivo XLSX usando Aspose.Cells.
 - Recuperando o nome do arquivo de uma pasta de trabalho do Excel carregada.
@@ -122,7 +124,7 @@ Pronto para ir mais longe? Experimente diferentes recursos do Aspose.Cells e vej
 4. **Existe um limite no tamanho dos arquivos do Excel que posso processar com o Aspose.Cells?**
    - A biblioteca foi projetada para lidar com grandes conjuntos de dados, mas o desempenho pode variar dependendo dos recursos do sistema.
 5. **Posso modificar um arquivo do Excel depois de abri-lo com o Aspose.Cells?**
-   - Com certeza! Você pode editar e salvar alterações na pasta de trabalho usando o amplo conjunto de recursos do Aspose.Cells.
+   - Com certeza! Você pode editar e salvar alterações na pasta de trabalho usando o rico conjunto de recursos do Aspose.Cells.
 
 ## Recursos
 - [Documentação Java do Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -133,6 +135,9 @@ Pronto para ir mais longe? Experimente diferentes recursos do Aspose.Cells e vej
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

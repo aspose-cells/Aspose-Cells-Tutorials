@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ wb.save(outDir + "outputSheetId.xlsx");
 
 ## Соображения производительности
 ### Советы по оптимизации производительности
-- Всегда закрывайте рабочие тетради и выбрасывайте предметы после работы.
+- Всегда закрывайте рабочие тетради и выбрасывайте ненужные предметы после работы.
 - Используйте потоки для эффективной обработки больших файлов.
 
 ### Правила использования ресурсов
@@ -212,6 +214,9 @@ wb.save(outDir + "outputSheetId.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

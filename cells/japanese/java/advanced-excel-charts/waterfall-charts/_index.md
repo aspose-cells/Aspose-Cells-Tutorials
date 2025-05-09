@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ウォーターフォールチャート
@@ -22,7 +24,7 @@
 
 詳細に入る前に、次の前提条件が満たされていることを確認してください。
 
-- Aspose.Cells for Java: Aspose.Cells for Javaがインストールされている必要があります。こちらからダウンロードできます。 [ここ](https://releases。aspose.com/cells/java/).
+- Aspose.Cells for Java: Aspose.Cells for Java がインストールされている必要があります。こちらからダウンロードできます。 [ここ](https://releases。aspose.com/cells/java/).
 
 - Java 開発環境: システムに Java がインストールされていることを確認します。
 
@@ -118,6 +120,7 @@ Aspose.Cells for Javaのドキュメントは以下から参照できます。 [
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

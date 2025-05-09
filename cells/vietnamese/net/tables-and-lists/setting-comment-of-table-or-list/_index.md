@@ -1,14 +1,16 @@
 ---
-title: Đặt chú thích cho bảng hoặc danh sách trong Excel
-linktitle: Đặt chú thích cho bảng hoặc danh sách trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách đặt chú thích cho bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
-weight: 16
-url: /vi/net/tables-and-lists/setting-comment-of-table-or-list/
+"description": "Tìm hiểu cách đặt chú thích cho bảng trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi."
+"linktitle": "Đặt chú thích cho bảng hoặc danh sách trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đặt chú thích cho bảng hoặc danh sách trong Excel"
+"url": "/vi/net/tables-and-lists/setting-comment-of-table-or-list/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt chú thích cho bảng hoặc danh sách trong Excel
@@ -20,11 +22,11 @@ Trước khi đi sâu vào các chi tiết hấp dẫn, chúng ta hãy cùng s�
 ### Hiểu biết cơ bản về C# và .NET
 Bạn nên nắm vững cơ bản về C# và cách hoạt động của các ứng dụng .NET. Nếu bạn đã mã hóa theo cách của mình thông qua .NET, bạn sẽ cảm thấy như ở nhà.
 ### Thư viện Aspose.Cells
- Bạn sẽ cần thư viện Aspose.Cells. Nếu bạn chưa có, đừng lo lắng! Bạn có thể dễ dàng tải xuống từ[trang phát hành](https://releases.aspose.com/cells/net/).
+Bạn sẽ cần thư viện Aspose.Cells. Nếu bạn chưa có, đừng lo lắng! Bạn có thể dễ dàng tải xuống từ [trang phát hành](https://releases.aspose.com/cells/net/).
 ### Visual Studio hoặc IDE tương đương
 Bạn sẽ muốn có một nơi thân thiện để viết code. Visual Studio là lựa chọn phổ biến cho các nhà phát triển .NET.
 ### Một tệp Excel mẫu
- Bạn sẽ cần một tệp Excel mẫu để làm việc. Lấy bất kỳ`.xlsx` tệp bạn có hoặc tạo một tệp nhanh chóng trong Excel.
+Bạn sẽ cần một tệp Excel mẫu để làm việc. Lấy bất kỳ `.xlsx` tệp bạn có hoặc tạo một tệp nhanh chóng trong Excel.
 Sau khi thiết lập xong, chúng ta có thể bắt đầu nhập gói và viết mã!
 ## Nhập gói
 Trước khi thực hiện bất kỳ mã hóa nghiêm túc nào, hãy nhập các gói cần thiết. Sau đây là cách thực hiện trong C#:
@@ -41,12 +43,12 @@ Trước tiên, bạn cần thiết lập đường dẫn đến thư mục tài
 string dataDir = "Your Document Directory";
 ```
 Trong bước này, bạn chỉ cần khai báo một biến chuỗi trỏ đến thư mục chứa tệp Excel của bạn. Hãy nhớ rằng đường dẫn chính xác là chìa khóa!
-## Bước 2: Mở Tệp Mẫu
-Bây giờ, chúng ta hãy mở tệp Excel có chứa đối tượng bảng hoặc danh sách.
+## Bước 2: Mở tệp mẫu
+Bây giờ, hãy mở tệp Excel có chứa đối tượng bảng hoặc danh sách.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
- Ở đây, bạn đang tạo một phiên bản của`Workbook` class. Điều này cho phép bạn thao tác nội dung của tệp Excel. Đảm bảo tên tệp khớp với tên bạn có!
+Ở đây, bạn đang tạo một phiên bản của `Workbook` class. Điều này cho phép bạn thao tác nội dung của tệp Excel. Đảm bảo tên tệp khớp với tên bạn có!
 ## Bước 3: Truy cập trang tính đầu tiên
 Tiếp theo trong danh sách, chúng ta cần lấy tờ giấy làm việc ở nơi đặt bàn.
 ```csharp
@@ -72,22 +74,24 @@ workbook.Save(dataDir + "SetCommentOfTableOrListObject_out.xlsx", SaveFormat.Xls
 ```
 Ở bước cuối cùng này, bạn sẽ lưu sổ làm việc với tên mới. Bằng cách này, bạn giữ nguyên các thay đổi mà không ghi đè lên tệp gốc. Luôn là một động thái thông minh!
 ## Phần kết luận
-Và thế là xong! Bạn đã thêm thành công chú thích vào đối tượng bảng hoặc danh sách trong Excel bằng Aspose.Cells cho .NET. Có thể bạn đang sử dụng nó để cộng tác hoặc có thể bạn chỉ đang theo dõi suy nghĩ của mình - dù thế nào đi nữa, đây là cách đơn giản nhưng hiệu quả để cải thiện các tệp Excel của bạn. Nếu bạn đã làm theo, xin chúc mừng vì đã nâng cao kỹ năng Excel của mình.
+Và thế là xong! Bạn đã thêm thành công chú thích vào đối tượng bảng hoặc danh sách trong Excel bằng Aspose.Cells cho .NET. Có thể bạn đang sử dụng nó để cộng tác hoặc có thể bạn chỉ đang theo dõi suy nghĩ của mình - dù thế nào đi nữa, đây là cách đơn giản nhưng hiệu quả để nâng cao các tệp Excel của bạn. Nếu bạn đã làm theo, xin chúc mừng vì đã nâng cao kỹ năng Excel của mình.
 ## Câu hỏi thường gặp
 ### Aspose.Cells dành cho .NET là gì?  
 Aspose.Cells for .NET là một thư viện mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel từ các ứng dụng .NET.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp phiên bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/).
 ### Tôi có cần mua giấy phép sử dụng Aspose.Cells không?  
- Nếu bạn muốn sử dụng Aspose.Cells ngoài giới hạn dùng thử, bạn sẽ cần phải mua giấy phép. Kiểm tra các tùy chọn giá[đây](https://purchase.aspose.com/buy).
+Nếu bạn muốn sử dụng Aspose.Cells ngoài giới hạn dùng thử, bạn sẽ cần phải mua giấy phép. Kiểm tra các tùy chọn giá [đây](https://purchase.aspose.com/buy).
 ### Có cách nào để nhận được hỗ trợ cho Aspose.Cells không?  
-Chắc chắn rồi! Bạn có thể tìm kiếm sự trợ giúp trên diễn đàn hỗ trợ của họ[đây](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể tìm kiếm sự trợ giúp trên diễn đàn hỗ trợ của họ [đây](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể tìm thêm thông tin chi tiết về các tính năng của Aspose.Cells ở đâu?  
- Để có tài liệu toàn diện, hãy truy cập[Trang tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Để có tài liệu toàn diện, hãy truy cập [Trang tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

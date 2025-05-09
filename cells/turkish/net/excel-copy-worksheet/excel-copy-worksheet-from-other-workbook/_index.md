@@ -1,14 +1,16 @@
 ---
-title: Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala
-linktitle: Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak bir çalışma sayfasını bir Excel çalışma kitabından diğerine nasıl kopyalayacağınızı öğrenin.
-weight: 10
-url: /tr/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak bir çalışma sayfasını bir Excel çalışma kitabından diğerine nasıl kopyalayacağınızı öğrenin."
+"linktitle": "Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala"
+"url": "/tr/net/excel-copy-worksheet/excel-copy-worksheet-from-other-workbook/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Çalışma Sayfasını Diğer Çalışma Kitabından Kopyala
@@ -22,10 +24,10 @@ Hiç kendinizi birden fazla Excel çalışma kitabıyla boğuşurken, verilerini
 Kodlama kısmına dalmadan önce, ihtiyacınız olan her şeyi sıralayalım. Endişelenmeyin; bu roket bilimi değil! İhtiyacınız olacak şeyler şunlar:
 
 1. Visual Studio (veya herhangi bir .NET IDE): Makinenizde bir .NET geliştirme ortamı kurulu olmalıdır.
-2.  .NET için Aspose.Cells: Aspose.Cells'i indirip yüklemeniz gerekecek. Eğer henüz yoksa, edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells'i indirip yüklemeniz gerekecek. Eğer henüz yoksa, edinebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. C# Temel Anlayışı: C# programlamaya dair biraz bilgi sahibi olmak bu yolculuğu daha kolay hale getirecektir, ancak yeni başlıyorsanız strese girmeyin!
 4. .NET Framework: Projenizin .NET Framework'ün uyumlu bir sürümünü hedeflediğinden emin olun.
-5. Sistem Kurulumu: Uygulamalarınızı herhangi bir kısıtlama olmadan çalıştırabildiğinizden ve test edebildiğinizden emin olun.
+5. Sistem Kurulumu: Uygulamalarınızı herhangi bir kısıtlama olmaksızın çalıştırabildiğinizden ve test edebildiğinizden emin olun.
 
 Artık her şey yerli yerinde olduğuna göre kodlamaya başlayabiliriz!
 
@@ -54,7 +56,7 @@ Artık her şey hazır olduğuna göre, heyecan verici kısma geçelim: Çalış
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";  // Bunu gerçek dizininize güncelleyin
 ```
- The`dataDir` değişkeni, son Excel dosyasını kaydedeceğiniz yolu depolayacaktır. "BELGE DİZİNİNİZ"i sisteminizdeki gerçek yolla değiştirdiğinizden emin olun.
+The `dataDir` değişkeni, son Excel dosyasını kaydedeceğiniz yolu depolayacaktır. "BELGE DİZİNİNİZ"i sisteminizdeki gerçek yolla değiştirdiğinizden emin olun.
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun ve Verilerle Doldurun
 
@@ -78,7 +80,7 @@ for (int i = 5; i < 1000; i++)
     ws0.Cells[i, 0].PutValue(string.Format("Detail Row {0}", i));
 }
 ```
-Burada ilk çalışma kitabını oluşturuyoruz ve ilk çalışma sayfasını dolduruyoruz (`ws0`) başlıklar ve ayrıntı satırlarıyla. Bu simüle edilmiş veriler, daha sonra kopyalama sürecini görselleştirmenize yardımcı olacaktır.
+Burada ilk çalışma kitabını oluşturuyoruz ve ilk çalışma sayfasını dolduruyoruz (`ws0`başlıklar ve ayrıntı satırlarıyla. Bu simüle edilmiş veriler, daha sonra kopyalama sürecini görselleştirmenize yardımcı olacaktır.
 
 ## Adım 3: Yazdırma için Sayfa Kurulumunu Ayarlayın
 
@@ -87,10 +89,10 @@ Yazdırma sırasında başlık satırlarını tekrarlayacak şekilde sayfa düze
 ```csharp
 // İlk çalışma sayfasına dayalı bir sayfa ayarı nesnesi tanımlayın
 PageSetup pagesetup = ws0.PageSetup;
-//İlk beş satır her sayfada tekrarlanıyor
+// İlk beş satır her sayfada tekrarlanıyor
 pagesetup.PrintTitleRows = "$1:$5";
 ```
- Bu bölüm belgenizin nasıl yazdırılacağını tanımlar. Ayarlayarak`PrintTitleRows`, her basılı sayfada ilk beş satırın görünmesini sağlıyoruz, bu da okunabilirlik açısından oldukça faydalıdır.
+Bu bölüm belgenizin nasıl yazdırılacağını tanımlar. Ayarlayarak `PrintTitleRows`, her basılı sayfada ilk beş satırın görünmesini sağlıyoruz, bu da okunabilirlik açısından oldukça faydalıdır.
 
 ## Adım 4: İkinci Çalışma Kitabını Oluşturun
 
@@ -115,7 +117,7 @@ Yeni bir çalışma kitabı oluşturduk (`excelWorkbook1`) ve ilk çalışma say
 // ikinci çalışma kitabının ilk çalışma sayfası
 ws1.Copy(ws0);
 ```
- The`Copy` yöntem kaynak çalışma sayfasından tüm içeriği alır (`ws0`) ve bunu hedef çalışma sayfasına kopyalar (`ws1`). Çok basit, değil mi?
+The `Copy` yöntem kaynak çalışma sayfasından tüm içeriği alır (`ws0`) ve bunu hedef çalışma sayfasına kopyalar (`ws1`). Çok basit, değil mi?
 
 ## Adım 6: Yeni Çalışma Kitabını Kaydedin
 
@@ -137,19 +139,21 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak bir çalışma kitabını bir ç
 Aspose.Cells, geliştiricilerin Excel dosyalarını çeşitli formatlarda oluşturmalarına, düzenlemelerine, dönüştürmelerine ve işlemelerine olanak tanıyan bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose.Cells ücretsiz deneme sunuyor, buna erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.Cells ücretsiz deneme sürümü sunuyor ve buna erişebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?  
- Geçici lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunmak için şu adresi ziyaret edebilirsiniz: [bu bağlantı](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?  
- Ayrıntılı dokümanları bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Ayrıntılı dokümanları bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells kullanıcıları için herhangi bir destek mevcut mu?  
- Kesinlikle! Destek alabilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Destek alabilirsiniz [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ range.setName("MyRange");
 
 Namngivningsområden förbättrar kodens läsbarhet och underhåll, särskilt i komplexa kalkylblad.
 
-### 5. Ställa in konturgränser
+### 5. Ställa in konturkanter
 #### Översikt
 Använd visuell stil som ramar för bättre datapresentation.
 
@@ -202,6 +204,9 @@ För ytterligare hjälp, se dessa resurser:
 Försök att implementera dessa funktioner i dina Java-projekt och se hur Aspose.Cells kan effektivisera dina Excel-filhanteringsuppgifter.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

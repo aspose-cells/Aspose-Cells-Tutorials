@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Zdefiniuj zawartość komentarza:
 comment.setNote("This is my Comment Text. This is test");
 ```
 
-### Zapisywanie pracy
+### Zapisywanie Twojej pracy
 Po wprowadzeniu zmian zapisz skoroszyt z zaktualizowanymi komentarzami:
 ```java
 // Zdefiniuj katalog wyjściowy i nazwę pliku
@@ -155,6 +157,9 @@ Zacznij eksperymentować z Aspose.Cells for Java już dziś i zmień sposób obs
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ wb.save(outDir + "outputTableCssId.html", opts);
 
 ### Mẹo khắc phục sự cố
 - **Vấn đề thường gặp:** Nếu gặp lỗi liên quan đến thư viện bị thiếu, hãy đảm bảo các phụ thuộc của Maven hoặc Gradle được cấu hình đúng.
-- **Kiểu CSS không được áp dụng:** Xác minh rằng ID CSS được chỉ định trong `setTableCssId` phù hợp với các tập tin HTML/CSS của bạn.
+- **Kiểu CSS không được áp dụng:** Xác minh rằng ID CSS được chỉ định trong `setTableCssId` phù hợp với các tệp HTML/CSS của bạn.
 
 ## Ứng dụng thực tế
 
@@ -181,6 +183,9 @@ Hướng dẫn này trình bày cách sử dụng Aspose.Cells for Java để đ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

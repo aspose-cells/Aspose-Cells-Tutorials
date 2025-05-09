@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -206,7 +208,7 @@ workbook.save(dataDir + "/ChangeTextDirection_out.xls");
    แน่นอน ออกแบบมาเพื่อจัดการข้อมูลจำนวนมากอย่างมีประสิทธิภาพด้วยอัลกอริทึมที่ปรับให้เหมาะสม
 
 5. **ฉันสามารถหาตัวอย่างเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells ได้ที่ไหน**  
-   เยี่ยมชม [เอกสารประกอบ Aspose](https://reference.aspose.com/cells/java/) และสำรวจตัวอย่างโค้ดที่หลากหลาย
+   เยี่ยมชม [เอกสารประกอบ Aspose](https://reference.aspose.com/cells/java/) และสำรวจตัวอย่างโค้ดต่างๆ
 
 ## ทรัพยากร
 
@@ -219,6 +221,9 @@ workbook.save(dataDir + "/ChangeTextDirection_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

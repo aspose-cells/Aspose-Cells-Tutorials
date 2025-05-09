@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Gestionar hojas de cálculo complejas de forma eficiente es un reto al que se en
 
 **Lo que aprenderás:**
 - Cómo habilitar una cadena de cálculo en Aspose.Cells
-- Calcular eficientemente todas las fórmulas en un libro de trabajo
+- Calcule de manera eficiente todas las fórmulas en un libro de trabajo
 - Recuperar valores de celda después de los cálculos de fórmulas
 - Actualizar los valores de las celdas y recalcular las fórmulas dependientes
 
@@ -207,6 +209,9 @@ Al aprovechar Aspose.Cells para Java, puede optimizar el procesamiento de libros
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การจัดรูปแบบตามเงื่อนไขของ Excel
-linktitle: การจัดรูปแบบตามเงื่อนไขของ Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการรันไทม์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะช่วยให้นักพัฒนาสามารถจัดรูปแบบ Excel โดยอัตโนมัติ
-weight: 28
-url: /th/net/excel-conditional-formatting/
+"description": "เรียนรู้วิธีใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการรันไทม์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะช่วยให้นักพัฒนาสามารถจัดรูปแบบ Excel โดยอัตโนมัติ"
+"linktitle": "การจัดรูปแบบตามเงื่อนไขของ Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การจัดรูปแบบตามเงื่อนไขของ Excel"
+"url": "/th/net/excel-conditional-formatting/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดรูปแบบตามเงื่อนไขของ Excel
@@ -21,16 +23,18 @@ url: /th/net/excel-conditional-formatting/
 
 การใช้ Aspose.Cells สำหรับ .NET การจัดรูปแบบตามเงื่อนไขนั้นง่ายมาก คุณสามารถสร้างกฎเกณฑ์โดยอิงตามค่าเซลล์ วันที่ หรือแม้แต่สูตรที่กำหนดเองได้ ไม่ว่าคุณจะทำเครื่องหมายงานที่เลยกำหนดส่งหรือเน้นเป้าหมายการขาย คุณลักษณะนี้สามารถทำให้ข้อมูลของคุณมีชีวิตชีวาขึ้นมาได้
 
- ต้องการสำรวจตัวอย่างเพิ่มเติมหรือไม่? เจาะลึก[การใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการทำงานใน Excel](./applying-conditional-formatting-at-runtime/) คำแนะนำในการฝึกฝนการใช้งานฟีเจอร์นี้
+ต้องการสำรวจตัวอย่างเพิ่มเติมหรือไม่? เจาะลึก [การใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการทำงานใน Excel](./applying-conditional-formatting-at-runtime/) คำแนะนำในการฝึกฝนการใช้งานฟีเจอร์นี้
 
 
 
 ## บทช่วยสอนการจัดรูปแบบตามเงื่อนไขของ Excel
 ### [การใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการทำงานจริงใน Excel](./applying-conditional-formatting-at-runtime/)
 เรียนรู้วิธีการใช้การจัดรูปแบบตามเงื่อนไขในระหว่างการรันไทม์ใน Excel ด้วย Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

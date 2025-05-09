@@ -1,57 +1,62 @@
 ---
-title: Tegyél létre egy pívottabulát az Excelben az Aspose.Cells segítségével .NET- ben
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan lehet egy Pivot Tabelt létrehozni egy Excel fájlokban az .NET-hez használt Aspose.Cells segítségével. Ez az lépésről lépésre mutató útmutató az adatok hozzáadását és a Pivot Tabell generálását.
-keywords: [Aspose.Cells for .NET, create Pivot Table, Excel Pivot Table, .NET Excel library, generate Pivot Table, Excel automation, C# Pivot Table, data summarization, Aspose.Cells example]
-url: /hu/net/pivot-tables/create-pivot-table/
+"description": "Ismerje meg, hogyan hozhat létre kimutatástáblázatot egy Excel-fájlban az Aspose.Cells for .NET használatával. Ez a lépésről lépésre bemutatja az adatok hozzáadását és a kimutatástábla létrehozását."
+"title": "Pivot tábla létrehozása Excelben az Aspose.Cells for .NET használatával"
+"url": "/hu/net/pivot-tables/create-pivot-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Készíts egy forgó táblázatot az Excelben Aspose.Cells segítségével
+# Pivot tábla létrehozása Excelben az Aspose.Cells használatával
 
-A programmatizálva az Excel-ben mozgatott táblázatok létrehozása soha nem volt egyszerűbb! Az Aspose.Cells alkalmazásával az Excel munkalapot generálhatja, strukturált adatokat hozzáadhat, és mozgatott táblázatot készíthet dinamikus adatelemzéshez. Ez a tanármutató átvezet egy munkalap kezdeményezésével, adatkiöltésével, mozgatott táblázat behelyezésével és a szerkezetének C#-ban történő konfigurálásával. Függetlenül attól, hogy automatikus jelentéseket vagy értékesítési adatokat elemzi, ez a példa segít hatékonyan egyszerűsíteni a folyamatot.  
+A kimutatástáblák programozott létrehozása Excelben még soha nem volt ilyen egyszerű! Az Aspose.Cells for .NET segítségével Excel-munkafüzeteket generálhatsz, strukturált adatokat adhatsz hozzá, és kimutatástáblákat hozhatsz létre dinamikus adatelemzéshez. Ez az oktatóanyag végigvezet egy munkafüzet inicializálásán, adatok feltöltésén, kimutatástábla beszúrásán és szerkezetének konfigurálásán – mindezt C#-ban. Akár jelentéseket automatizálsz, akár értékesítési adatokat elemzel, ez a példa segít hatékonyan leegyszerűsíteni a folyamatot.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások
-A .NET-hez használt Aspose.Cells projekthez kövesse ezeket a lépéseket:  
+## Telepítési utasítások
+Az Aspose.Cells for .NET használatához a projektben kövesse az alábbi lépéseket:  
 
-1. A NuGet segítségével telepítse:  
-   * Nyissa ki a Visual Studio-t.  
-   * Menjen az eszközök > NuGet csomagkezelő > A megoldáshoz szükséges NuGet csomagok kezelése.  
-   * Keresd meg az Aspose.Cells és telepítsd.  
+1. Telepítés NuGet-en keresztül:  
+   - Nyisd meg a Visual Studio-t.  
+   - Lépjen az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra.  
+   - Keresd meg az Aspose.Cells fájlt és telepítsd.  
 
-   Alternatív módon telepítse a NuGet csomagkezelő konzolt:  
+   Alternatív megoldásként telepítse a NuGet csomagkezelő konzolján keresztül:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Letöltsük az Aspose weboldalról:  
-   * Látogasson el a[Aspose.Cells a .NET letöltőoldal](https://releases.aspose.com/cells/net/)\- Nem.  
-   * Letöltsd és kivonj a könyvtár fájlokat.  
-   * Adja be az Aspose.Cells.dll hivatkozást a .NET projekthez.  
+2. Letöltés az Aspose weboldaláról:  
+   - Látogassa meg a [Aspose.Cells .NET letöltési oldalhoz](https://releases.aspose.com/cells/net/).  
+   - Töltsd le és csomagold ki a könyvtárfájlokat.  
+   - Adja hozzá az Aspose.Cells.dll hivatkozást a .NET projekthez.  
 
-3. A licenc alkalmazása (Felhetős):  
-   * Vegyél engedélyt a [A célpont](https://purchase.aspose.com/buy)vagy kap egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/)\- Nem.  
-   * A licenc kódját használd:  
+3. Licenc igénylése (opcionális):  
+   - Vásároljon licencet innen: [Aspose](https://purchase.aspose.com/buy) vagy szerezz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/).  
+   - Alkalmazd a licencet a kódodban:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## Lásd:  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

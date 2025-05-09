@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,9 +149,12 @@ public class Feature_SetTextOfChartLegend {
 - **ดาวน์โหลด**: รับเวอร์ชันล่าสุดได้จาก [การเปิดตัว](https://releases-aspose.com/cells/java/).
 - **ซื้อ**:ซื้อลิขสิทธิ์ใช้งานการผลิตได้ที่ [การซื้อ Aspose](https://purchase-aspose.com/buy).
 - **ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว**:ประเมินคุณสมบัติด้วยการทดลองใช้ฟรีหรือใบอนุญาตชั่วคราว
-- **สนับสนุน**หากต้องการความช่วยเหลือ โปรดไปที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+- **สนับสนุน**:หากต้องการความช่วยเหลือ โปรดไปที่ [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

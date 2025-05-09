@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 資料透視表中的計算字段
@@ -19,12 +21,12 @@
 ### 先決條件
 在開始之前，請確保您具備以下條件：
 - 已安裝 Aspose.Cells for Java 函式庫。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 ## 步驟 1：設定 Java 項目
 首先，在您最喜歡的 IDE 中建立一個新的 Java 專案並包含 Aspose.Cells for Java 函式庫。您可以從 [這裡](https://releases。aspose.com/cells/java/).
 
-## 第二步：導入必要的類別
+## 第 2 步：導入必要的類
 在您的 Java 程式碼中，從 Aspose.Cells 匯入必要的類別。這些課程將幫助您使用資料透視表和計算欄位。
 
 ```java
@@ -87,6 +89,7 @@ pivotTable.calculateData();
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

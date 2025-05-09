@@ -1,14 +1,16 @@
 ---
-title: Excel'de DataTable Satırları Eklendiğinde İlk Satırı Aşağı Kaydır
-linktitle: Excel'de DataTable Satırları Eklendiğinde İlk Satırı Aşağı Kaydır
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak ilk satırı aşağı kaydırmadan Excel'de DataTable satırları eklemeyi öğrenin. Zahmetsiz otomasyon için adım adım kılavuz.
-weight: 11
-url: /tr/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/
+"description": "Aspose.Cells for .NET kullanarak ilk satırı aşağı kaydırmadan Excel'de DataTable satırları eklemeyi öğrenin. Zahmetsiz otomasyon için adım adım kılavuz."
+"linktitle": "Excel'de DataTable Satırları Eklendiğinde İlk Satırı Aşağı Kaydır"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de DataTable Satırları Eklendiğinde İlk Satırı Aşağı Kaydır"
+"url": "/tr/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de DataTable Satırları Eklendiğinde İlk Satırı Aşağı Kaydır
@@ -22,10 +24,10 @@ Excel elektronik tablolarınıza yeni veriler eklerken satırları manuel olarak
 Kodlamaya başlamadan önce her şeyin ayarlandığından emin olalım:
 
 1. Visual Studio: Visual Studio'nun yüklü olduğundan emin olun (2017 veya üzeri sorunsuz çalışmalıdır).
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu henüz yapmadıysanız, indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu henüz yapmadıysanız, indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. C# ve Excel'in Temel Anlayışı: C# programlamanın ve Excel'in nasıl çalıştığına dair temel bir anlayışa sahip olmak, kesinlikle daha etkili bir şekilde takip etmenize yardımcı olacaktır.
 
- Ayrıca elinizin altında bir örnek Excel dosyası bulundurmak isteyeceksiniz. Bu kılavuzda, şu şekilde adlandırılan bir örnek kullanacağız:`sampleImportTableOptionsShiftFirstRowDown.xlsx`Bu dosyayı kendiniz oluşturabilir veya ihtiyaçlarınıza uygun bir şablon bulabilirsiniz.
+Ayrıca elinizin altında bir örnek Excel dosyası bulundurmak isteyeceksiniz. Bu kılavuzda, şu şekilde adlandırılan bir örnek kullanacağız: `sampleImportTableOptionsShiftFirstRowDown.xlsx`Bu dosyayı kendiniz oluşturabilir veya ihtiyaçlarınıza uygun bir şablon bulabilirsiniz.
 
 ## Paketleri İçe Aktar
 
@@ -52,7 +54,7 @@ Aspose.Cells paketini eklemek için Çözüm Gezgini'nde projenize sağ tıklay�
 
 ## Adım 2: Veri Tablosunu Tanımlayın
 
- Daha sonra, şunu uygulayacağız:`ICellsDataTable` İçeri aktarılacak verileri sağlayan bir sınıf oluşturmak için arayüz. İşte nasıl yapılandırabileceğiniz`CellsDataTable` sınıf:
+Daha sonra, şunu uygulayacağız: `ICellsDataTable` İçeri aktarılacak verileri sağlayan bir sınıf oluşturmak için arayüz. İşte nasıl yapılandırabileceğiniz `CellsDataTable` sınıf:
 
 ```csharp
 class CellsDataTable : ICellsDataTable
@@ -73,7 +75,7 @@ Burada, içe aktardığımız tablonun yapısını kolaylaştıracak olan sütun
 
 ## Adım 3: ICellsDataTable Arayüz Üyelerini Uygulayın
 
- İçinde`CellsDataTable` sınıfın üyelerini uygulamanız gerekir`ICellsDataTable` arayüz. Gerekli uygulama şu şekildedir:
+İçinde `CellsDataTable` sınıfın üyelerini uygulamanız gerekir `ICellsDataTable` arayüz. Gerekli uygulama şu şekildedir:
 
 ```csharp
 public object this[string columnName]
@@ -118,7 +120,7 @@ Sınıfın bu kısmı veri alma, kaç satır ve sütun olduğunu tanımlama ve g
 
 ## Adım 4: Ana Fonksiyonu Yazın
 
- Şimdi, şunu yaratalım:`Run`tüm tablo içe aktarma sürecini düzenleme yöntemi:
+Şimdi, şunu yaratalım: `Run` tüm tablo içe aktarma sürecini düzenleme yöntemi:
 
 ```csharp
 public static void Run()
@@ -133,7 +135,7 @@ public static void Run()
 
 ## Adım 5: İçe Aktarma Seçeneklerini Ayarlayın
 
- İçe aktarma davranışını kontrol etmek için bir örnek oluşturmalısınız`ImportTableOptions` ve özellikleri buna göre ayarlayın. Özellikle, ayarlamak istiyoruz`ShiftFirstRowDown` ile`false`.
+İçe aktarma davranışını kontrol etmek için bir örnek oluşturmalısınız `ImportTableOptions` ve özellikleri buna göre ayarlayın. Özellikle, ayarlamak istiyoruz `ShiftFirstRowDown` ile `false`.
 
 ```csharp
     ImportTableOptions opts = new ImportTableOptions();
@@ -142,7 +144,7 @@ public static void Run()
 
 ## Adım 6: DataTable'ı içe aktarın
 
- Artık verileri kendi sistemimizden içe aktarabiliriz.`CellsDataTable` çalışma kağıdına.
+Artık verileri kendi sistemimizden içe aktarabiliriz. `CellsDataTable` çalışma kağıdına.
 
 ```csharp
     ws.Cells.ImportData(cellsDataTable, 2, 2, opts);
@@ -179,10 +181,12 @@ Kesinlikle! Aspose.Cells, .NET'te geliştirilen masaüstü, web ve bulut tabanl�
 XLSX, XLS, CSV ve daha fazlası dahil olmak üzere çeşitli Excel dosya biçimleri oluşturabilirsiniz.
 
 ### Aspose.Cells için desteği nereden alabilirim?
- Sorularınızı sorabilir veya yardım alabilirsiniz.[Aspose forumları](https://forum.aspose.com/c/cells/9).
+Sorularınızı sorabilir veya yardım alabilirsiniz. [Aspose forumları](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

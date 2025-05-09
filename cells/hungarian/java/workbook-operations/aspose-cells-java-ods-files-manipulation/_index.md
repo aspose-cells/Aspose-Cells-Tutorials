@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Mielőtt belekezdenénk, győződjünk meg róla, hogy a következőkkel rendelk
 
 ### Telepítési utasítások
 
-Az Aspose.Cells Java projektbe való integrálásához használhatja a Mavent vagy a Gradle-t az alábbiak szerint:
+Az Aspose.Cells Java projektbe való integrálásához használhatja a Maven vagy a Gradle kódot az alábbiak szerint:
 
 **Szakértő:**
 Adja hozzá a következő függőséget a `pom.xml` fájl:
@@ -153,7 +155,7 @@ Ez a metódus egy switch utasítást használ a háttérben található típusk�
 ### Háttérpozíció konvertálása karakterlánccá
 
 **Áttekintés:**
-Alakítsa át a numerikus pozícióértékeket leíró karakterláncokká az áttekinthetőség kedvéért.
+numerikus pozícióértékeket leíró karakterláncokká kell konvertálni az áttekinthetőség kedvéért.
 
 #### 1. lépés: Konverziós módszer meghatározása
 
@@ -234,6 +236,9 @@ Amikor az Aspose.Cells-szel dolgozol Java-ban, vedd figyelembe a következő tip
 Most már elsajátítottad az ODS fájlok betöltését és kezelését az Aspose.Cells for Java segítségével. A munkalapok elérésétől a háttéradatok kinyeréséig felkészült vagy arra, hogy kifinomult táblázatkezelő képességekkel fejleszd alkalmazásaidat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

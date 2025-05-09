@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,12 +201,15 @@ Keşfetmeye devam etmek için Aspose.Cells'in sunduğu kapsamlı özellikleri da
 - **Belgeleme**: Kapsamlı kılavuzlar ve API referansları [Aspose Hücreleri Java Referansı](https://reference.aspose.com/cells/java/)
 - **Kütüphaneyi İndir**: En son sürümler şu adreste mevcuttur: [Aspose Sürümleri](https://releases.aspose.com/cells/java/)
 - **Lisans Satın Al**: Satın alma işleminizi şu şekilde güvence altına alın: [Aspose Satın Alma Portalı](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: Ücretsiz denemeyle özellikleri test edin [Aspose Sürümleri](https://releases.aspose.com/cells/java/)
+- **Ücretsiz Deneme**Ücretsiz denemeyle özellikleri test edin [Aspose Sürümleri](https://releases.aspose.com/cells/java/)
 - **Geçici Lisans**: Geçici lisans için başvuruda bulunun [Aspose Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/)
 - **Destek Forumu**: Destek forumunda diğer kullanıcılardan ve Aspose uzmanlarından yardım alın
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

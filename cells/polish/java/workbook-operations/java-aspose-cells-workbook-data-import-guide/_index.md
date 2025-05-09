@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Eksperymentuj z różnymi strukturami danych lub integruj Aspose.Cells z większ
 Dzięki wyposażeniu się w wiedzę i narzędzia opisane w tym przewodniku jesteś na dobrej drodze do opanowania zadań importu i zarządzania danymi przy użyciu Aspose.Cells for Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

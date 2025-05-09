@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ Gotowy na kolejny krok? Wdróż te techniki w swoich projektach i zobacz, jaką 
    - Upewnij się, że wersja biblioteki jest zgodna z prawdą i sprawdź, czy wszystkie zależności zostały poprawnie uwzględnione w konfiguracji projektu.
 
 5. **Gdzie mogę znaleźć więcej materiałów na temat korzystania z Aspose.Cells w Javie?**
-   - Odwiedzać [Dokumentacja Aspose'a](https://reference.aspose.com/cells/java/) aby uzyskać kompleksowe przewodniki lub przejrzeć ich [fora](https://forum.aspose.com/c/cells/9) o wsparcie społeczności.
+   - Odwiedzać [Dokumentacja Aspose'a](https://reference.aspose.com/cells/java/) aby uzyskać kompleksowe przewodniki lub zapoznać się z ich treścią [fora](https://forum.aspose.com/c/cells/9) o wsparcie społeczności.
 
 ## Zasoby
 - **Dokumentacja:** [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -167,6 +169,9 @@ Gotowy na kolejny krok? Wdróż te techniki w swoich projektach i zobacz, jaką 
 - **Wsparcie:** [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

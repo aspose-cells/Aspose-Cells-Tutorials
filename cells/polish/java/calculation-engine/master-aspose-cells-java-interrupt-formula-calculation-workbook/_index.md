@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ W kolejnym kroku rozważ zapoznanie się z dodatkowymi funkcjami Aspose.Cells, t
 Dzięki temu kompleksowemu przewodnikowi jesteś teraz wyposażony, aby skutecznie wdrożyć i wykorzystać funkcje przerwania obliczeń formuł Aspose.Cells for Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

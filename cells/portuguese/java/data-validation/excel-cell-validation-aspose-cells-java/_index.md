@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ public class LoadWorkbook {
     }
 }
 ```
-- **Parâmetros**: O `Workbook` O construtor recebe um caminho de arquivo como argumento.
+- **Parâmetros**: O `Workbook` construtor recebe um caminho de arquivo como argumento.
 - **Propósito**: Esta etapa inicializa seu objeto de pasta de trabalho, deixando-o pronto para manipulação.
 
 ### Planilha de Acesso (H2)
@@ -211,6 +213,9 @@ Ao trabalhar com arquivos grandes do Excel ou regras de validação complexas, o
 - Crie um perfil do seu aplicativo para identificar gargalos e otimizá-lo adequadamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

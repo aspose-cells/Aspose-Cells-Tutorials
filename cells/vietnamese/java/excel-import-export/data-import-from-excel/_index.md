@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhập dữ liệu từ Excel
@@ -96,9 +98,11 @@ Bây giờ bạn đã biết cách nhập dữ liệu từ Excel bằng Aspose.C
    Truy cập tài liệu Aspose.Cells [đây](https://reference.aspose.com/cells/java/) để biết thêm tài nguyên và ví dụ chuyên sâu.
 
 Hãy thoải mái khám phá thêm và điều chỉnh mã này cho phù hợp với yêu cầu nhập dữ liệu cụ thể của bạn. Chúc bạn viết mã vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

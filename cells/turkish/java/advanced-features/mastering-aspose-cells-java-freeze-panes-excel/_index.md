@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Worksheet worksheet = worksheets.get(0);
 ```
 **Açıklama**: : `getWorksheets()` yöntem tüm sayfaları getirir ve dizine erişir `0` bize ilkini veriyor.
 
-### Bir Çalışma Sayfasına Dondurma Bölmeleri Uygula
+### Bir Çalışma Sayfasına Dondurulmuş Bölmeler Uygula
 **Genel bakış**Çalışma sayfanızda gezinirken belirli satır ve sütunların görünür kalmasını sağlamak için dondurma bölmeleri ayarlarını nasıl uygulayacağınızı öğrenin.
 
 #### Adım 4: Dondurulmuş Panelleri Ayarla
@@ -143,6 +145,9 @@ Aspose.Cells'in yeteneklerini veya grafik oluşturma ve veri doğrulama gibi di�
 Daha fazla soru veya destek için şu adresi ziyaret edin: [Aspose Forum](https://forum.aspose.com/c/cells/9). Keyifli kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

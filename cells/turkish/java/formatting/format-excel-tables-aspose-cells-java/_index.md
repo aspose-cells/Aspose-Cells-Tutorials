@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Excel'de ListObjects oluşturmak, biçimlendirmek ve geliştirmek için Java iç
 Bu teknikleri projelerinize uygulamaya başlayın ve Aspose.Cells'in Excel veri yönetimi görevlerinizi nasıl dönüştürebileceğini görün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

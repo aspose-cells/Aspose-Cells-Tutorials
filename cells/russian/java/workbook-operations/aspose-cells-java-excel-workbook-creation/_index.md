@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ import com.aspose.cells.WorksheetCollection;
 
 public class FeatureAccessWorksheets {
     public static void main(String[] args) throws Exception {
-        // Создайте объект Workbook.
+        // Создайте экземпляр объекта Workbook.
         Workbook workbook = new Workbook();
         
         // Доступ к коллекции рабочих листов в рабочей книге.
@@ -199,6 +201,9 @@ Aspose.Cells Java предлагает универсальность в раз�
 5. **Управление запасами**: Используйте рабочие книги для динамического ведения и обновления записей инвентаризации, интегрируя их с существующими базами данных.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

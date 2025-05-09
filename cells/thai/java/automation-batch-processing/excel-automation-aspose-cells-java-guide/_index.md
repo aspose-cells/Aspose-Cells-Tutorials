@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ class ExcelAutomation {
     public static void main(String[] args) {
         String dataDir = "YOUR_DATA_DIRECTORY"; // แทนที่ด้วยเส้นทางไดเร็กทอรีจริงของคุณ
         
-        // สร้างวัตถุเวิร์กบุ๊กเริ่มต้น
+        // เริ่มต้นวัตถุเวิร์กบุ๊ก
         Workbook workbook = new Workbook(dataDir + "book1.xls");
         System.out.println("Workbook created successfully!");
     }
@@ -211,6 +213,9 @@ Aspose.Cells สำหรับ Java นำเสนอแอปพลิเค�
 - ทดสอบสคริปต์อัตโนมัติของคุณอย่างละเอียดถี่ถ้วนและจัดการข้อยกเว้นอย่างเหมาะสม ตรวจสอบให้แน่ใจว่าแหล่งข้อมูลของคุณเชื่อถือได้และเป็นปัจจุบัน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

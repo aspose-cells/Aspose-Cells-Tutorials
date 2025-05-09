@@ -1,14 +1,16 @@
 ---
-title: Xoay và thay đổi hướng văn bản trong Excel
-linktitle: Xoay và thay đổi hướng văn bản trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Chuyển đổi hướng văn bản trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để xoay và điều chỉnh văn bản dễ dàng.
-weight: 22
-url: /vi/net/excel-formatting-and-styling/rotating-and-changing-text-direction/
+"description": "Chuyển đổi hướng văn bản trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để xoay và điều chỉnh văn bản dễ dàng."
+"linktitle": "Xoay và thay đổi hướng văn bản trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xoay và thay đổi hướng văn bản trong Excel"
+"url": "/vi/net/excel-formatting-and-styling/rotating-and-changing-text-direction/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xoay và thay đổi hướng văn bản trong Excel
@@ -18,7 +20,7 @@ Khi làm việc với các tệp Excel theo chương trình, chúng ta thường
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào phần mã hóa, hãy đảm bảo bạn đã chuẩn bị một số thứ:
 1. Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy tính của mình. Thư viện Aspose.Cells hoạt động tốt với nó.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi hướng dẫn hơn.
 4. .NET Framework: Đảm bảo dự án của bạn nhắm mục tiêu đến .NET Framework vì Aspose.Cells được thiết kế để hoạt động trong môi trường đó.
 Khi bạn đã chuẩn bị đầy đủ mọi điều kiện tiên quyết, bạn đã sẵn sàng để bắt đầu!
@@ -31,7 +33,7 @@ Bây giờ, hãy chuẩn bị dự án của chúng ta bằng cách nhập các 
 - Nhấp chuột phải vào dự án trong Solution Explorer và chọn Manage NuGet Packages.
 - Tìm Aspose.Cells và cài đặt nó.
 ### Nhập các không gian tên cần thiết
- Bây giờ là lúc đưa vào các không gian tên cần thiết. Ở đầu trang của bạn`Program.cs` tập tin, bao gồm những nội dung sau:
+Bây giờ là lúc đưa vào các không gian tên cần thiết. Ở đầu trang của bạn `Program.cs` tập tin, bao gồm những nội dung sau:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -48,7 +50,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Mã này thiết lập một thư mục để lưu tệp Excel. Nó kiểm tra xem thư mục có tồn tại không và tạo thư mục nếu không. Đảm bảo thay thế`"Your Document Directory"` với một đường dẫn hợp lệ.
+Mã này thiết lập một thư mục để lưu tệp Excel. Nó kiểm tra xem thư mục có tồn tại không và tạo thư mục nếu không. Đảm bảo thay thế `"Your Document Directory"` với một đường dẫn hợp lệ.
 ## Bước 2: Khởi tạo một đối tượng Workbook
 Tiếp theo, chúng ta hãy tạo một bảng tính Excel mới. Đây là nơi chúng ta sẽ thao tác với các ô của mình.
 ```csharp
@@ -56,7 +58,7 @@ Tiếp theo, chúng ta hãy tạo một bảng tính Excel mới. Đây là nơi
 Workbook workbook = new Workbook();
 ```
 
- Bằng cách tạo ra một`Workbook` đối tượng, về cơ bản bạn đang bắt đầu với một tệp Excel mới, trống mà bạn có thể sửa đổi.
+Bằng cách tạo ra một `Workbook` đối tượng, về cơ bản bạn đang bắt đầu với một tệp Excel mới, trống mà bạn có thể sửa đổi.
 ## Bước 3: Lấy tham chiếu của bảng tính
 Bây giờ, hãy truy cập vào bảng tính mà bạn muốn thực hiện thay đổi.
 ```csharp
@@ -64,9 +66,9 @@ Bây giờ, hãy truy cập vào bảng tính mà bạn muốn thực hiện tha
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Các`Worksheet` đối tượng tham chiếu đến trang tính đầu tiên trong sổ làm việc của bạn. Bạn có thể truy cập các trang tính khác bằng cách thay đổi chỉ mục.
+Các `Worksheet` đối tượng tham chiếu đến trang tính đầu tiên trong sổ làm việc của bạn. Bạn có thể truy cập các trang tính khác bằng cách thay đổi chỉ mục.
 ## Bước 4: Truy cập vào một ô cụ thể
-Chúng ta hãy tập trung vào một ô cụ thể, trong trường hợp này là "A1". 
+Hãy tập trung vào một ô cụ thể, trong trường hợp này là "A1". 
 ```csharp
 // Truy cập ô "A1" từ bảng tính
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
@@ -124,10 +126,12 @@ Aspose.Cells hỗ trợ nhiều định dạng như XLSX, CSV và PDF.
 ### Tôi có cần cài đặt gì khác ngoài Visual Studio không?  
 Chỉ cần thêm thư viện Aspose.Cells vào dự án của bạn.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?  
- Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+Bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn toàn diện và tài liệu tham khảo API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

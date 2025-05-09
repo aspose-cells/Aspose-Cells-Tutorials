@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποιήστε το Excel με Java - Δημιουργήστε πίνακες και διαδραστικά γραφήματα χρησιμοποιώντας το Aspose.Cells
@@ -287,6 +289,9 @@ public class CreatingExcelTables {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

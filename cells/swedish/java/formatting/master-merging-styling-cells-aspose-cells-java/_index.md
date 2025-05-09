@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ workbook.save(outDir + "MergedCells.xlsx");
 
 ### Tillämpa stilar på celler
 
-**Översikt:** Förbättra cellpresentationen genom att använda stilar som textbrytning, vilket säkerställer att innehållet passar snyggt i sammanfogade celler.
+**Översikt:** Förbättra cellpresentationen genom att använda stilar som textbrytning, vilket säkerställer att innehållet passar snyggt i de sammanslagna cellerna.
 
 #### Steg för steg:
 
@@ -172,6 +174,9 @@ Omfamna kraften i Aspose.Cells för Java i ditt nästa Excel-projekt och förän
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

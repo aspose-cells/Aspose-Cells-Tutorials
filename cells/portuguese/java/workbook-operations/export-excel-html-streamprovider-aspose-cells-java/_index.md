@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ O `IStreamProvider` A interface permite gerenciar fluxos durante o processo de e
 
 1. **Relatórios automatizados**: Exportando dados do Excel para HTML para relatórios baseados na web.
 2. **Compartilhamento de dados**: Envio de dados formatados por e-mail ou compartilhamento em um site.
-3. **Integração com Web Apps**: Fornecendo conteúdo dinâmico de planilhas em aplicativos da web.
+3. **Integração com aplicativos da Web**: Fornecendo conteúdo dinâmico de planilhas em aplicativos da web.
 4. **Geração de modelo**: Criação de modelos HTML preenchidos com dados de planilhas.
 
 ### Possibilidades de Integração
@@ -201,6 +203,9 @@ Para explorar mais os recursos do Aspose.Cells, considere mergulhar em funcional
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

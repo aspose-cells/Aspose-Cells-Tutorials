@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No mundo atual, impulsionado por dados, gerenciar e transformar dados com eficiência é crucial para empresas de todos os portes. Seja você uma empresa que busca otimizar suas operações ou um desenvolvedor trabalhando em projetos sofisticados de integração de dados, dominar a arte de manipular arquivos do Excel programaticamente pode aumentar significativamente a produtividade. Este tutorial guiará você pelo uso do Aspose.Cells Java para adicionar mapas XML a pastas de trabalho e salvá-los como arquivos XLSX, liberando recursos poderosos de processamento de dados.
 
-## que você aprenderá
+## O que você aprenderá
 - Como criar e inicializar uma pasta de trabalho com Aspose.Cells
 - Etapas para adicionar um mapa XML de um arquivo em sua pasta de trabalho
 - Instruções sobre como salvar a pasta de trabalho modificada no formato XLSX
@@ -107,7 +109,7 @@ Esta etapa garante que sua pasta de trabalho, agora enriquecida com mapeamentos 
 Ao integrar o Aspose.Cells Java, você pode criar aplicativos robustos que lidam com fluxos de trabalho de dados complexos de forma eficiente.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Gerencie grandes conjuntos de dados processando-os em blocos e usando streaming sempre que possível.
+- **Otimizar o uso da memória**: Gerencie grandes conjuntos de dados processando-os em blocos e usando streaming sempre que possível.
 - **Aproveite o multithreading**: Melhore o desempenho de processadores multi-core paralelizando tarefas independentes.
 - **Gestão Eficiente de Recursos**: Feche arquivos e libere recursos imediatamente para manter o desempenho ideal do aplicativo.
 
@@ -139,6 +141,9 @@ Agora você domina as principais funcionalidades do Aspose.Cells Java, desde a i
 - [Informações sobre licença temporária](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

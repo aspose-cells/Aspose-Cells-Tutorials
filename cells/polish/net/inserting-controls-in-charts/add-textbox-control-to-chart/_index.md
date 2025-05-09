@@ -1,14 +1,16 @@
 ---
-title: Dodaj kontrolkę TextBox do wykresu
-linktitle: Dodaj kontrolkę TextBox do wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Ulepsz wizualizację danych bez wysiłku.
-weight: 12
-url: /pl/net/inserting-controls-in-charts/add-textbox-control-to-chart/
+"description": "Dowiedz się, jak dodać pole tekstowe do wykresów w programie Excel za pomocą Aspose.Cells dla platformy .NET. Ulepsz wizualizację danych bez wysiłku."
+"linktitle": "Dodaj kontrolkę TextBox do wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj kontrolkę TextBox do wykresu"
+"url": "/pl/net/inserting-controls-in-charts/add-textbox-control-to-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj kontrolkę TextBox do wykresu
@@ -22,9 +24,9 @@ Tworzenie dynamicznych i wizualnie atrakcyjnych wykresów w programie Excel to f
 Zanim przejdziemy do kodowania, jest kilka rzeczy, które powinieneś mieć na miejscu:
 
 - Podstawowa znajomość języka C#: podstawowa znajomość programowania w języku C# będzie pomocna. Nie martw się; nie musisz być ekspertem, wystarczy, że będziesz swobodnie poruszać się po składni.
--  Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
-- Visual Studio: Znajomość programu Visual Studio lub dowolnego środowiska IDE preferowanego do obsługi platformy .NET jest niezbędna.
-- Istniejący plik Excela: W tym przykładzie będziemy pracować z istniejącym plikiem Excela o nazwie „sampleAddingTextBoxControlInChart.xls”. Możesz utworzyć plik lub pobrać próbkę.
+- Zainstalowana biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+- Visual Studio: Znajomość programu Visual Studio lub dowolnego środowiska IDE, którego preferujesz używać w środowisku .NET Framework, jest niezbędna.
+- Istniejący plik Excela: W tym przykładzie będziemy pracować z istniejącym plikiem Excela o nazwie „sampleAddingTextBoxControlInChart.xls”. Możesz utworzyć plik lub pobrać przykład.
 
 Teraz, gdy wszystko mamy już gotowe, możemy zająć się kodowaniem!
 
@@ -51,7 +53,7 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Output Directory";
 ```
- Zastępować`"Your Document Directory"` I`"Your Output Directory"` z rzeczywistymi ścieżkami w Twoim systemie.
+Zastępować `"Your Document Directory"` I `"Your Output Directory"` z rzeczywistymi ścieżkami w Twoim systemie.
 
 ## Krok 2: Otwórz istniejący plik Excel
 
@@ -82,11 +84,11 @@ Teraz jesteśmy gotowi, aby dodać nasz TextBox. Określimy jego pozycję i rozm
 // Dodaj nowe pole tekstowe do wykresu.
 Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100, 350, 2550);
 ```
-tym poleceniu parametry definiują lokalizację (x, y) i rozmiar (szerokość, wysokość) pola tekstowego na wykresie. Dostosuj te wartości w oparciu o swoje konkretne potrzeby układu.
+W tym poleceniu parametry definiują lokalizację (x, y) i rozmiar (szerokość, wysokość) pola tekstowego na wykresie. Dostosuj te wartości w oparciu o swoje konkretne potrzeby układu.
 
 ## Krok 5: Ustaw tekst dla pola tekstowego
 
-Gdy TextBox jest już na swoim miejscu, czas wypełnić go treścią. Możesz dodać dowolny tekst, który uznasz za niezbędny dla swojego wykresu.
+Gdy TextBox jest już na swoim miejscu, czas wypełnić go treścią. Możesz dodać dowolny tekst, który uważasz za niezbędny dla swojego wykresu.
 
 ```csharp
 // Wypełnij tekst.
@@ -116,7 +118,7 @@ Każdy z tych wierszy modyfikuje wygląd tekstu wewnątrz pola tekstowego, zwię
 
 ## Krok 7: Formatowanie wyglądu pola tekstowego
 
-Ważne jest również sformatowanie tła i obramowania pola tekstowego. Dzięki temu wyróżnia się ono na wykresie.
+Ważne jest również sformatowanie tła i obramowania TextBox. Dzięki temu będzie się wyróżniać na wykresie.
 
 ```csharp
 // Pobierz format wypełnienia pola tekstowego.
@@ -142,7 +144,7 @@ Ostatnim krokiem jest zapisanie zmian, które wprowadziłeś do nowego pliku Exc
 // Zapisz plik Excela.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Zastępować`"outputAddingTextBoxControlInChart.xls"` z dowolną nazwą pliku.
+Zastępować `"outputAddingTextBoxControlInChart.xls"` z dowolną nazwą pliku.
 
 ## Wniosek
 
@@ -157,16 +159,18 @@ Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca tworzenie, edyt
 Tak! Możesz dodać tyle TextBoxów, ile potrzebujesz, powtarzając kroki tworzenia TextBoxów z różnymi pozycjami.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Aspose.Cells to płatna biblioteka, ale możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+Aspose.Cells to płatna biblioteka, ale możesz pobrać bezpłatną wersję próbną ze strony [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?
- Możesz uzyskać dostęp do kompleksowej dokumentacji[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz uzyskać dostęp do kompleksowej dokumentacji [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Możesz szukać pomocy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تصدير كود جافا بصيغة CSV
@@ -94,9 +96,11 @@ public class CsvExportExample {
    قم بزيارة وثائق Aspose.Cells [هنا](https://reference.aspose.com/cells/java/) للحصول على الموارد الشاملة والأمثلة.
 
 لا تتردد في استكشاف المزيد وتعديل هذا الكود ليناسب احتياجاتك الخاصة. برمجة ممتعة!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

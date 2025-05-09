@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Lassen Sie uns Ihren Datenverwaltungsprozess optimieren!
 Stellen Sie vor dem Start sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
 - **Bibliotheken und Abhängigkeiten**: Installieren Sie Aspose.Cells für Java. Wir empfehlen die Verwendung von Version 25.3.
-- **Umgebungs-Setup**Richten Sie Ihre Entwicklungsumgebung mit Java JDK und einer IDE wie IntelliJ IDEA oder Eclipse ein.
+- **Umgebungs-Setup**: Richten Sie Ihre Entwicklungsumgebung mit Java JDK und einer IDE wie IntelliJ IDEA oder Eclipse ein.
 - **Voraussetzungen**: Grundlegende Kenntnisse der Java-Programmierkonzepte sind von Vorteil.
 
 ### Einrichten von Aspose.Cells für Java
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells ist eine kommerzielle Bibliothek, aber Sie können ihre Funktionen wie folgt erkunden:
 - **Kostenlose Testversion**: Laden Sie die Testversion herunter, um die Funktionen zu testen.
-- **Temporäre Lizenz**: Fordern Sie eine temporäre Lizenz für erweiterte Tests an.
+- **Temporäre Lizenz**Fordern Sie eine temporäre Lizenz für erweiterte Tests an.
 - **Kaufen**: Kaufen Sie eine Lizenz für vollständigen Zugriff und Support.
 
 Nachdem Sie Ihre Lizenzdatei erhalten haben, initialisieren Sie Aspose.Cells wie folgt:
@@ -104,7 +106,7 @@ worksheet.autoFitColumn(4, 4, 6);
 
 #### Speichern einer Excel-Arbeitsmappe
 
-**Überblick**: Speichern Sie die Arbeitsmappe nach dem Vornehmen von Änderungen in Ihrem bevorzugten Format wieder auf der Festplatte.
+**Überblick**Speichern Sie die Arbeitsmappe nach dem Vornehmen von Änderungen in Ihrem bevorzugten Format wieder auf der Festplatte.
 
 **Schritt 4: Speichern der geänderten Arbeitsmappe**
 ```java
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **Datenberichterstattung**: Passen Sie die Spaltenbreiten automatisch an, um eine übersichtlichere Datendarstellung in Geschäftsberichten zu gewährleisten.
 - **Bestandsverwaltung**: Stellen Sie sicher, dass Produktlisten ohne manuelle Anpassungen sauber formatiert sind.
-- **Finanzanalyse**Richten Sie Finanzzahlen blattübergreifend aus, um genauere Analysen und Präsentationen zu ermöglichen.
+- **Finanzanalyse**: Richten Sie Finanzzahlen blattübergreifend aus, um genauere Analysen und Präsentationen zu ermöglichen.
 
 Durch die Integration von Aspose.Cells in Datenbanken oder CRM-Systeme können Sie Ihren Arbeitsablauf weiter optimieren und automatische Updates von Excel-Dateien aus diesen Quellen ermöglichen.
 
@@ -160,6 +162,9 @@ Mit der Auto-Fit-Funktion in Aspose.Cells für Java verfügen Sie über ein leis
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

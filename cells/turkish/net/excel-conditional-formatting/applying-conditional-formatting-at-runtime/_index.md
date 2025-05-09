@@ -1,14 +1,16 @@
 ---
-title: Excel'de Çalışma Zamanında Koşullu Biçimlendirme Uygulama
-linktitle: Excel'de Çalışma Zamanında Koşullu Biçimlendirme Uygulama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı, adım adım kılavuzda, Aspose.Cells for .NET ile Excel'de çalışma zamanında koşullu biçimlendirmenin nasıl uygulanacağını öğrenin.
-weight: 11
-url: /tr/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/
+"description": "Bu kapsamlı, adım adım kılavuzda, Aspose.Cells for .NET ile Excel'de çalışma zamanında koşullu biçimlendirmenin nasıl uygulanacağını öğrenin."
+"linktitle": "Excel'de Çalışma Zamanında Koşullu Biçimlendirme Uygulama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Çalışma Zamanında Koşullu Biçimlendirme Uygulama"
+"url": "/tr/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Çalışma Zamanında Koşullu Biçimlendirme Uygulama
@@ -21,7 +23,7 @@ veri analizi ve görselleştirme için güçlü araçlardır. Excel'in öne çı
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. .NET geliştirmeyi destekleyen herhangi bir sürümü kullanabilirsiniz.
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cells for .NET'in yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya aşina olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework: Projenizin .NET Framework'ün uyumlu bir sürümünü hedeflediğinden emin olun.
 
@@ -102,7 +104,7 @@ ca.EndColumn =1;
 fcs.AddArea(ca);
 ```
 
-Bu kodda, koşullu biçimlendirme için iki alan tanımlıyoruz. İlk alan (0,0) hücresinde, ikincisi ise (1,1) hücresindedir. Bu aralıkları kendi özel ihtiyaçlarınıza göre ayarlamakta özgürsünüz!
+Bu kodda, koşullu biçimlendirme için iki alan tanımlıyoruz. İlk alan (0,0) hücresinde, ikinci alan ise (1,1) hücresindedir. Bu aralıkları kendi özel ihtiyaçlarınıza göre ayarlamakta özgürsünüz!
 
 ## Adım 6: Koşullu Biçimlendirme Koşullarını Ekleyin
 Şimdi biçimlendirmemiz için koşulları tanımlamanın zamanı geldi. Hücreleri değerlerine göre vurgulamak istediğimizi varsayalım:
@@ -115,7 +117,7 @@ int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorTyp
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 ```
 
- Bu adımda iki koşul ekliyoruz: biri arasındaki değerler için`A2` Ve`100` ve bir diğeri ise arasındaki değerler için`50` Ve`100`. Bu, hücreleri değerlerine göre dinamik olarak vurgulamanıza olanak tanır.
+Bu adımda iki koşul ekliyoruz: biri arasındaki değerler için `A2` Ve `100`ve bir diğeri ise arasındaki değerler için `50` Ve `100`. Bu, hücreleri değerlerine göre dinamik olarak vurgulamanıza olanak tanır.
 
 ## Adım 7: Biçimlendirme Stillerini Ayarlayın
 Koşullarımız yerinde olduğuna göre artık biçimlendirme stillerini ayarlayabiliriz. Koşullarımız için arka plan rengini değiştirelim:
@@ -126,7 +128,7 @@ FormatCondition fc = fcs[conditionIndex];
 fc.Style.BackgroundColor = Color.Red;
 ```
 
-Burada, ilk koşulun arka plan rengini kırmızıya ayarlıyoruz. Bunu, yazı tipi rengini, kenarlıkları ve diğer stilleri gerektiği gibi değiştirerek daha da özelleştirebilirsiniz!
+Burada, ilk koşulun arka plan rengini kırmızı olarak ayarlıyoruz. Bunu, yazı tipi rengini, kenarlıkları ve diğer stilleri gerektiği gibi değiştirerek daha da özelleştirebilirsiniz!
 
 ## Adım 8: Excel Dosyasını Kaydedin
 Son olarak çalışmamızı kaydetme zamanı geldi! Çalışma kitabını belirtilen dizine kaydedeceğiz:
@@ -150,17 +152,19 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla olu
 Evet, Aspose.Cells Java, Python ve daha fazlası dahil olmak üzere birden fazla programlama dili için kullanılabilir.
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümünü şu adresten indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Evet, ticari kullanım için lisans gereklidir, ancak geçici bir lisans talep edebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, ticari kullanım için lisans gereklidir, ancak geçici bir lisans talep edebilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

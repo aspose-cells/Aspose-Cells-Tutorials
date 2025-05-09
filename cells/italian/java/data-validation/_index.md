@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ nostri tutorial sulla convalida dei dati illustrano come garantire l'integrità 
 Scopri come automatizzare l'aggiunta di caselle di controllo in Excel con Aspose.Cells per Java. Segui questa guida passo passo per aumentare la produttività e semplificare le attività di convalida dei dati.
 
 ### [Padroneggiare Aspose.Cells Java: definizione dello stile delle celle e aggiunta di controlli ComboBox per l'automazione di Excel](./aspose-cells-java-styling-combo-box-controls/)
-Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Questa guida illustra come personalizzare lo stile delle celle e aggiungere controlli casella combinata, migliorando i tuoi fogli di calcolo.
+Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Questa guida illustra come definire lo stile delle celle e aggiungere controlli casella combinata, migliorando i tuoi fogli di calcolo.
 
 ### [Convalida delle celle di Excel con Aspose.Cells Java: una guida completa](./excel-cell-validation-aspose-cells-java/)
 Scopri come implementare la convalida delle celle di Excel con Aspose.Cells in Java. Questa guida illustra come caricare cartelle di lavoro, applicare regole sui dati e garantire l'accuratezza.
@@ -66,6 +68,9 @@ Scopri come convalidare gli elenchi a discesa nelle celle di Excel utilizzando A
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

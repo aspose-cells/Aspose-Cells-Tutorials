@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -251,6 +253,9 @@ workbook.save(outDir + "/DataValidationWorkbook.xls");
 الآن وقد أصبحت جميع الأدوات والمعرفة في متناول يديك، ابدأ بتجربة Aspose.Cells لجافا لتبسيط مهام Excel في تطبيقات جافا. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

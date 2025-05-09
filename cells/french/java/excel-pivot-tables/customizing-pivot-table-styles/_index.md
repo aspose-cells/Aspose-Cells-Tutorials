@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Personnalisation des styles de tableau croisé dynamique
@@ -87,9 +89,11 @@ La personnalisation des styles de tableaux croisés dynamiques dans l'API Aspose
    Vous pouvez vous référer à la documentation de l'API à l'adresse [Références de l'API Aspose.Cells pour Java](https://reference.aspose.com/cells/java/) pour des informations détaillées.
 
 Vous savez désormais comment créer et personnaliser des styles de tableaux croisés dynamiques dans Aspose.Cells pour Java. Explorez davantage et créez des présentations de données exceptionnelles !
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

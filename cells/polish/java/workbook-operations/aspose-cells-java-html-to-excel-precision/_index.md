@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Konwersja złożonych plików HTML do dokumentów Excel przy zachowaniu precyzji
 **Czego się nauczysz:**
 - Konfigurowanie Aspose.Cells dla Java za pomocą Maven lub Gradle.
 - Techniki precyzyjnego ładowania plików HTML przy użyciu HtmlLoadOptions.
-- Kroki zapisywania załadowanych danych w pliku Excel.
+- Instrukcje zapisywania załadowanych danych w pliku Excel.
 - Porady dotyczące rozwiązywania problemów i kwestii wydajności dla optymalnego wykorzystania.
 
 Zacznijmy od przejrzenia warunków wstępnych!
@@ -162,6 +164,9 @@ Dzięki temu przewodnikowi nauczyłeś się, jak efektywnie ładować pliki HTML
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

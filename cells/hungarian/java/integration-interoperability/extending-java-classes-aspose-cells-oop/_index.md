@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,14 +43,14 @@ A táblázatkezelő adatok hatékony kezeléséhez szükséged lesz az Aspose.Ce
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió**Szerezzen be egy ingyenes próbalicencet az Aspose.Cells képességeinek felfedezéséhez.
 2. **Ideiglenes engedély**Szükség esetén igényeljen ideiglenes engedélyt a weboldalukon.
 3. **Vásárlás**: Fontolja meg az előfizetés megvásárlását, miután kiértékelte annak működését.
 ## Az Aspose.Cells beállítása Java-hoz
 Az Aspose.Cells projektben való használatához győződjön meg arról, hogy a fenti függőségek hozzá vannak adva a build konfigurációjához. A beállítás után:
 1. **Aspose.Cells inicializálása**:
-   Hozz létre egy példányt a következőből: `Workbook` és elkezdheti kezelni az Excel fájlokat.
+   Hozz létre egy példányt a következőből: `Workbook` és elkezdheti az Excel fájlok kezelését.
    ```java
    Workbook workbook = new Workbook();
    ```
@@ -121,14 +123,14 @@ Ezzel az oktatóanyaggal megtanultad, hogyan bővítheted az osztályokat Java-b
 ### Következő lépések:
 - Fedezze fel az Aspose.Cells további funkcióit.
 - Hozz létre összetett hierarchiákat több osztály kiterjesztésével.
-- Kísérletezz különböző Java IDE-kkel a munkafolyamat optimalizálása érdekében.
+- Kísérletezz különböző Java IDE-kkel a munkafolyamatod optimalizálása érdekében.
 Próbáld meg megvalósítani ezeket a koncepciókat a mai projektjeidben, és fedezd fel őket tovább a rendelkezésre álló források segítségével!
 ## GYIK szekció
 **1. kérdés: Mi az OOP Javában?**
 A1: A Java objektumorientált programozása (OOP) lehetővé teszi moduláris programok létrehozását újrafelhasználható komponensekkel, például osztályokkal és objektumokkal.
 **2. kérdés: Hogyan kezelhetek több függőséget Mavenben/Gradle-ben?**
 A2: Győződjön meg arról, hogy minden szükséges függőség helyesen szerepel a listában. `pom.xml` vagy `build.gradle`.
-**3. kérdés: Mi az a szuperosztály konstruktorhívás?**
+**3. kérdés: Mi az a szuperosztály konstruktorhívása?**
 A3: Ez a szülő osztály inicializálása (`Person`) az alosztályán belülről (`Individual`).
 **4. kérdés: Hogyan optimalizálhatom a Java memóriakezelést az Aspose.Cells segítségével?**
 A4: Használjon hatékony adatszerkezeteket és kezelje bölcsen a nagy adathalmazokat a memóriahasználat minimalizálása érdekében.
@@ -143,6 +145,9 @@ A5: Ingyenes próbaverzióval kezdheti, de kereskedelmi célú felhasználáshoz
 - **Támogatás**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

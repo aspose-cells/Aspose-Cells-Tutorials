@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatisierung von Excel-Arbeitsmappen
@@ -110,9 +112,11 @@ Hier sind einige häufig gestellte Fragen zur Automatisierung von Excel-Arbeitsm
    Die API-Dokumentation finden Sie unter [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) für ausführliche Informationen und Codebeispiele.
 
 Entdecken Sie die erweiterten Funktionen und Möglichkeiten von Aspose.Cells für Java, um Ihre Excel-Automatisierungsanforderungen anzupassen. Bei Fragen oder für weitere Unterstützung stehen wir Ihnen gerne zur Verfügung.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

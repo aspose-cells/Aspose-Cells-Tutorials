@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/reference-picture-cell-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reference Picture Cell in Excel
@@ -114,6 +116,7 @@ You can get support through the [Aspose Support Forum](https://forum.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

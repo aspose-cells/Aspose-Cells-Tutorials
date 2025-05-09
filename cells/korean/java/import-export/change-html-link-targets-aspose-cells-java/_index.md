@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,10 +176,10 @@ Aspose.Cells의 다른 기능을 살펴보거나, 더 큰 시스템에 통합하
 ## FAQ 섹션
 
 **질문 1:** Aspose.Cells에 대한 임시 라이선스를 얻으려면 어떻게 해야 하나요? 
-**A1:** Aspose 웹사이트를 방문하여 평가판 제한을 해제하기 위한 임시 라이선스를 신청하세요.
+**A1:** Aspose 웹사이트를 방문하여 평가판 제한을 제거하기 위한 임시 라이선스를 신청하세요.
 
 **질문 2:** Aspose.Cells를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
-**답변2:** 네, Aspose는 .NET, C++, Python 등 다양한 라이브러리를 제공합니다. 자세한 내용은 공식 문서를 확인하세요.
+**답변2:** 네, Aspose는 .NET, C++, Python 등 다양한 라이브러리를 제공합니다. 자세한 내용은 공식 문서를 참조하세요.
 
 **질문 3:** HTML 내보내기에 Aspose.Cells를 사용하면 어떤 이점이 있나요?
 **A3:** 이 기능을 사용하면 내보내기 설정에 대한 세부적인 제어가 가능해져 SEO와 사용자 경험이 모두 향상됩니다.
@@ -194,11 +196,14 @@ Aspose.Cells의 다른 기능을 살펴보거나, 더 큰 시스템에 통합하
 - **라이브러리 다운로드:** [Aspose Cells 출시](https://releases.aspose.com/cells/java/)
 - **라이센스 구매:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼:** [Aspose 지원 커뮤니티](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

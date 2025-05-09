@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ Le `save` La méthode écrit votre classeur dans un fichier, en préservant tout
 En suivant ce guide, vous maîtrisez désormais la gestion programmatique de vos classeurs Excel grâce à Aspose.Cells pour Java. Cet outil puissant simplifie les tâches complexes et améliore la productivité lors de la gestion des fichiers Excel. Explorez ses fonctionnalités pour optimiser vos workflows de gestion de données.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

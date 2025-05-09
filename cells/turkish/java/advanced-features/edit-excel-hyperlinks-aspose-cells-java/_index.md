@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@ Başlamadan önce gerekli kütüphanelerin ve ortamın kurulu olduğundan emin o
 - Excel dosya işlemleri ve köprü metinleri konusunda bilgi sahibi olmak.
 
 ## Java için Aspose.Cells Kurulumu
-Aspose.Cells'i kullanmaya başlamak için onu projenize eklemeniz gerekir. İşte nasıl:
+Aspose.Cells'i kullanmaya başlamak için onu projenize dahil etmeniz gerekir. İşte nasıl:
 
 **Usta:**
 ```xml
@@ -167,7 +169,7 @@ A1: Evet, yineleyin `workbook.getWorksheets()` ve köprü metni değişiklikleri
 A2: Köprü metinlerine erişirken veya bunları değiştirirken istisnaları yönetmek için try-catch blokları gibi hata işleme tekniklerini kullanın.
 
 **S3: Aspose.Cells Java kullanarak yeni köprüler eklemek mümkün müdür?**
-A3: Kesinlikle. Kullan `worksheet.getHyperlinks().add()` çalışma sayfanıza yeni bağlantılar eklemek için.
+A3: Kesinlikle. Kullanın `worksheet.getHyperlinks().add()` çalışma sayfanıza yeni bağlantılar eklemek için.
 
 **S4: Aspose.Cells'i Java dışında başka programlama dilleriyle de kullanabilir miyim?**
 A4: Evet, Aspose.Cells .NET, C++ ve daha fazlası için kullanılabilir. Şuraya göz atın: [resmi web sitesi](https://www.aspose.com/) dil özelinde kılavuzlar için.
@@ -186,6 +188,9 @@ Başka sorularınız varsa veya desteğe ihtiyacınız varsa, şu adresi ziyaret
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ workbook.save(outDir + "/ClearPivotFields_out.xlsx");
 - [Δωρεάν δοκιμαστική έκδοση](https://releases.aspose.com/cells/java/) (σύνδεσμος για την τελευταία δοκιμαστική έκδοση)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

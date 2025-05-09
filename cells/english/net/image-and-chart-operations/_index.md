@@ -8,7 +8,9 @@ url: /net/image-and-chart-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image and Chart Operations
@@ -34,9 +36,11 @@ Converting an entire worksheet into an image makes your data shareable and it ca
 Learn how to convert charts to images in .NET using Aspose.Cells with this step-by-step guide. Easily convert Excel charts into high-quality images.
 ### [Worksheet to Image Conversion in .NET](./worksheet-to-image-conversion/)
 Learn how to convert Excel worksheets to images in .NET using Aspose.Cells with our step-by-step guide. Streamline your data visualization.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

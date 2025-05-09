@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **ใบอนุญาตชั่วคราว**:รับอันหนึ่งไว้สำหรับการทดสอบแบบขยายเวลา
 - **ซื้อ**:ควรพิจารณาซื้อใบอนุญาตเพื่อการเข้าถึงแบบเต็มรูปแบบ
 
-ในการเริ่มต้น Aspose.Cells ในโครงการ Java ของคุณ:
+ในการเริ่มต้น Aspose.Cells ในโปรเจ็กต์ Java ของคุณ:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -185,6 +187,9 @@ public class SetDocumentProperties {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

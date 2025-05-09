@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,7 +187,7 @@ A: Győződjön meg arról, hogy a környezet beállításai megfelelőek, és e
 V: Igen, az Aspose.Cells támogatja az exportálást különféle formátumokba, például PDF, CSV és egyebek.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Próbáld ki az Aspose.Cells-t](https://releases.aspose.com/cells/java/)
@@ -195,6 +197,9 @@ V: Igen, az Aspose.Cells támogatja az exportálást különféle formátumokba,
 Az Aspose.Cells for Java képességeinek kihasználásával jelentősen javíthatod az Excel fájlok programozott létrehozásának és kezelésének képességét. Kezdd el felfedezni a funkcióit még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: การปรับแต่งการตั้งค่ารูปแบบของคอลัมน์
-linktitle: การปรับแต่งการตั้งค่ารูปแบบของคอลัมน์
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีปรับแต่งรูปแบบคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการทำงานอัตโนมัติใน Excel
-weight: 10
-url: /th/net/formatting-rows-and-columns-in-excel/customizing-a-column/
+"description": "เรียนรู้วิธีปรับแต่งรูปแบบคอลัมน์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาที่ต้องการทำงานอัตโนมัติใน Excel"
+"linktitle": "การปรับแต่งการตั้งค่ารูปแบบของคอลัมน์"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การปรับแต่งการตั้งค่ารูปแบบของคอลัมน์"
+"url": "/th/net/formatting-rows-and-columns-in-excel/customizing-a-column/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การปรับแต่งการตั้งค่ารูปแบบของคอลัมน์
@@ -17,10 +19,10 @@ url: /th/net/formatting-rows-and-columns-in-excel/customizing-a-column/
 เมื่อทำงานกับสเปรดชีต Excel การจัดรูปแบบเป็นสิ่งสำคัญในการทำให้ข้อมูลของคุณอ่านและนำเสนอได้ง่ายขึ้น หนึ่งในเครื่องมืออันทรงพลังที่คุณสามารถใช้เพื่อสร้างระบบอัตโนมัติและปรับแต่งเอกสาร Excel ด้วยโปรแกรมคือ Aspose.Cells สำหรับ .NET ไม่ว่าคุณจะกำลังจัดการกับชุดข้อมูลขนาดใหญ่หรือต้องการเพียงแค่เพิ่มความน่าสนใจให้กับชีตของคุณ การจัดรูปแบบคอลัมน์สามารถปรับปรุงการใช้งานเอกสารได้อย่างมาก ในคู่มือนี้ เราจะแนะนำคุณเกี่ยวกับวิธีปรับแต่งการตั้งค่ารูปแบบของคอลัมน์โดยใช้ Aspose.Cells สำหรับ .NET ทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเจาะลึกโค้ด ให้แน่ใจว่าคุณมีทุกสิ่งที่จำเป็นสำหรับการเริ่มต้น นี่คือสิ่งที่คุณจะต้องมี:
--  Aspose.Cells สำหรับ .NET: คุณสามารถทำได้[ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases.aspose.com/cells/net/).
+- Aspose.Cells สำหรับ .NET: คุณสามารถทำได้ [ดาวน์โหลดเวอร์ชันล่าสุดได้ที่นี่](https://releases-aspose.com/cells/net/).
 - .NET Framework หรือ .NET Core SDK: ขึ้นอยู่กับสภาพแวดล้อมของคุณ
 - IDE: Visual Studio หรือ IDE อื่น ๆ ที่เข้ากันได้กับ C#
--  ใบอนุญาต Aspose: หากคุณไม่มี คุณสามารถขอรับได้[ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/).
+- ใบอนุญาต Aspose: หากคุณไม่มี คุณสามารถขอรับได้ [ใบอนุญาตชั่วคราวที่นี่](https://purchase-aspose.com/temporary-license/).
 - ความรู้พื้นฐานเกี่ยวกับ C#: จะช่วยให้คุณเข้าใจโค้ดได้ง่ายขึ้น
 ## แพ็คเกจนำเข้า
 ในโค้ด C# ของคุณ โปรดตรวจสอบให้แน่ใจว่าคุณมีเนมสเปซที่ถูกต้องที่นำเข้ามาเพื่อใช้งานกับ Aspose.Cells สำหรับ .NET นี่คือสิ่งที่คุณต้องการ:
@@ -118,16 +120,18 @@ workbook.Save(dataDir + "book1.out.xls");
 ### Aspose.Cells สำหรับ .NET คืออะไร?  
 Aspose.Cells สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ได้โดยการใช้โปรแกรม
 ### ฉันสามารถใช้สไตล์กับเซลล์แต่ละเซลล์แทนคอลัมน์ทั้งหมดได้หรือไม่  
- ใช่ คุณสามารถใช้รูปแบบกับเซลล์แต่ละเซลล์ได้โดยการเข้าถึงเซลล์ที่ต้องการโดยใช้`worksheet.Cells[row, column]`.
+ใช่ คุณสามารถใช้รูปแบบกับเซลล์แต่ละเซลล์ได้โดยการเข้าถึงเซลล์ที่ต้องการโดยใช้ `worksheet-Cells[row, column]`.
 ### ฉันจะดาวน์โหลด Aspose.Cells สำหรับ .NET ได้อย่างไร?  
- คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
+คุณสามารถดาวน์โหลดเวอร์ชันล่าสุดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
 ### Aspose.Cells สำหรับ .NET เข้ากันได้กับ .NET Core หรือไม่  
 ใช่ Aspose.Cells สำหรับ .NET รองรับทั้ง .NET Framework และ .NET Core
 ### ฉันสามารถทดลองใช้ Aspose.Cells ก่อนซื้อได้หรือไม่?  
- ใช่ คุณสามารถรับได้[ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือร้องขอ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+ใช่ คุณสามารถรับได้ [ทดลองใช้งานฟรี](https://releases.aspose.com/) หรือร้องขอ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

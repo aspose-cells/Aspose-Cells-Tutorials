@@ -1,141 +1,145 @@
 ---
-title: Náhled Zalomení Listu
-linktitle: Náhled Zalomení Listu
-second_title: Aspose.Cells for .NET API Reference
-description: Naučte se používat Aspose.Cells for .NET k aktivaci náhledů zalomení stránek v excelových listech pomocí jednoduchého výukového programu krok za krokem.
-weight: 110
-url: /cs/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/
+"description": "Naučte se používat Aspose.Cells pro .NET k povolení náhledů zalomení stránek v listech aplikace Excel pomocí jednoduchého podrobného tutoriálu."
+"linktitle": "Náhled zalomení stránky v pracovním listu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Náhled zalomení stránky v pracovním listu"
+"url": "/cs/net/excel-display-settings-csharp-tutorials/page-break-preview-of-worksheet/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Náhled Zalomení Listu
+# Náhled zalomení stránky v pracovním listu
 
 ## Zavedení
 
-Vytváření a správa souborů aplikace Excel programově může být docela problém, pokud nemáte správné nástroje. Jedním z takových nástrojů, který si mezi vývojáři získal velkou popularitu, je Aspose.Cells for .NET. Toto výkonné rozhraní API vám umožňuje bezproblémově manipulovat se soubory aplikace Excel a zároveň nabízí nepřeberné množství funkcí, které vám mohou pomoci optimalizovat vaše pracovní postupy – jako je úprava zalomení stránek pro lepší rozvržení tisku. V tomto tutoriálu se ponoříme do toho, jak povolit náhledy zalomení stránek v listu pomocí Aspose.Cells for .NET.
+Vytváření a správa souborů Excelu programově může být docela otravné, pokud nemáte správné nástroje. Jedním z takových nástrojů, který si mezi vývojáři získal velkou oblibu, je Aspose.Cells pro .NET. Toto výkonné API umožňuje bezproblémovou manipulaci s soubory Excelu a zároveň nabízí nepřeberné množství funkcí, které vám pomohou optimalizovat vaše pracovní postupy – například úpravu zalomení stránek pro lepší rozvržení tisku. V tomto tutoriálu se ponoříme do toho, jak povolit náhledy zalomení stránek v listu pomocí Aspose.Cells pro .NET.
 
 ## Předpoklady
 
-Než začneme, měli byste mít splněno několik předpokladů:
+Než začneme, je třeba splnit několik předpokladů:
 
-1. Základní znalost C#: Základní znalost C# a .NET frameworku vám jistě pomůže procházet tutoriálem.
-2.  Instalováno Aspose.Cells for .NET: Musíte mít knihovnu Aspose.Cells for .NET. Můžete[stáhněte si to odtud](https://releases.aspose.com/cells/net/).
-3. Visual Studio nebo podobné IDE: K psaní a spouštění kódu budete potřebovat integrované vývojové prostředí (IDE), jako je Visual Studio.
-4. Soubor Excel: Měli byste mít soubor Excel (např`book1.xls`) dostupné v adresáři dokumentů pro manipulaci.
-5. Jmenné prostory: Ujistěte se, že máte ve svém kódu zahrnuty potřebné jmenné prostory – zejména pro práci se soubory a knihovnou Aspose.Cells.
+1. Základní znalost C#: Základní znalost C# a .NET frameworku vám jistě pomůže s orientací v tomto tutoriálu.
+2. Nainstalovaná knihovna Aspose.Cells pro .NET: Musíte mít knihovnu Aspose.Cells pro .NET. Můžete [stáhněte si to odtud](https://releases.aspose.com/cells/net/).
+3. Visual Studio nebo podobné IDE: K napsání a spuštění kódu budete potřebovat integrované vývojové prostředí (IDE), jako je Visual Studio.
+4. Soubor Excel: Měli byste mít soubor Excel (například `book1.xls`) k dispozici ve vašem adresáři dokumentů pro manipulaci.
+5. Jmenné prostory: Ujistěte se, že máte v kódu zahrnuty potřebné jmenné prostory – zejména pro práci se soubory a knihovnou Aspose.Cells.
 
-Nyní, když jsme pokryli předpoklady, pojďme se pustit do skutečného kódování.
+Nyní, když jsme si probrali předpoklady, pojďme se pustit do samotného kódování.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít s Aspose.Cells ve svém projektu C#, musíte importovat potřebné balíčky. To lze provést přidáním odkazů na váš projekt.
+Abyste mohli začít používat Aspose.Cells ve svém projektu v C#, musíte importovat potřebné balíčky. Toho lze dosáhnout přidáním odkazů do vašeho projektu.
 
 ### Zahrnout požadované jmenné prostory
 
-Nejprve se ujistěte, že jste v horní části souboru C# zahrnuli následující jmenné prostory:
+Nejprve se ujistěte, že jste na začátek souboru C# zahrnuli následující jmenné prostory:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-### Vytvořte nový soubor C#
+### Vytvoření nového souboru C#
 
-Otevřete Visual Studio nebo IDE a vytvořte nový soubor C#, pokud jste tak ještě neudělali. Zde napíšeme náš implementační kód.
+Otevřete si Visual Studio nebo IDE a vytvořte nový soubor C#, pokud jste tak ještě neučinili. Zde napíšeme náš implementační kód.
 
 
-Nyní pojďme rozebrat kód pro povolení náhledu konce stránky v souborech Excel krok za krokem.
+Nyní si krok za krokem rozeberme kód pro povolení náhledu zalomení stránky v souborech aplikace Excel.
 
-## Krok 1: Nastavte cestu k adresáři
+## Krok 1: Nastavení cesty k adresáři
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- V tomto kroku je potřeba vyměnit`"YOUR DOCUMENT DIRECTORY"`se skutečnou cestou ke složce vašeho projektu, kde je uložen váš soubor Excel. To je důležité, protože to programu říká, kde má hledat soubor, se kterým chcete manipulovat.
+V tomto kroku je třeba vyměnit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou ke složce projektu, kde je uložen soubor Excel. To je důležité, protože to programu říká, kde má hledat soubor, se kterým chcete manipulovat.
 
-## Krok 2: Vytvořte stream souborů
+## Krok 2: Vytvoření souborového streamu
 
 ```csharp
-// Vytvoření datového proudu souboru obsahujícího soubor Excel, který se má otevřít
+// Vytvoření proudu souborů obsahujícího soubor Excel, který se má otevřít
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Zde vytvoříme a`FileStream` objekt, který ukazuje na zadaný soubor Excel (`book1.xls`). To umožňuje vaší aplikaci soubor otevřít a manipulovat s ním.
+Zde vytváříme `FileStream` objekt, který odkazuje na zadaný soubor aplikace Excel (`book1.xls`). To umožňuje vaší aplikaci soubor otevřít a manipulovat s ním.
 
-## Krok 3: Vytvořte sešit
+## Krok 3: Vytvoření instance sešitu
 
 ```csharp
-// Vytvoření instance objektu sešitu
-// Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
+// Vytvoření instance objektu Workbook
+// Otevření souboru Excelu prostřednictvím souborového proudu
 Workbook workbook = new Workbook(fstream);
 ```
 
- V tomto kroku vytváříte instanci a`Workbook` objekt, který představuje soubor Excel. Tento objekt je v podstatě srdcem vašich operací, umožňuje vám přístup ke všem listům a provádění různých manipulací.
+V tomto kroku vytváříte instanci `Workbook` objekt, který představuje soubor aplikace Excel. Tento objekt je v podstatě srdcem vašich operací a umožňuje vám přístup ke všem listům a provádění různých manipulací.
 
-## Krok 4: Otevřete sešit
+## Krok 4: Přístup k pracovnímu listu
 
 ```csharp
 // Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Zde přistupujeme k prvnímu listu ve vašem sešitu pomocí jeho indexu (od nuly). Pokud máte více listů, můžete přistupovat k ostatním změnou indexu.
+Zde přistupujeme k prvnímu listu ve vašem sešitu pomocí jeho indexu (založeného na nule). Pokud máte více listů, můžete k dalším přistupovat změnou indexu.
 
-## Krok 5: Povolte náhled konce stránky
+## Krok 5: Povolení náhledu zalomení stránky
 
 ```csharp
-// Zobrazení listu v náhledu konce stránky
+// Zobrazení listu v náhledu zalomení stránky
 worksheet.IsPageBreakPreview = true;
 ```
 
-Tento zásadní krok aktivuje režim náhledu konce stránky pro list. Uvidíte, jak to ovlivní rozvržení a formátování tisku, když soubor otevřete později.
+Tento klíčový krok povolí režim náhledu zalomení stránky pro pracovní list. Uvidíte, jaký to má vliv na rozvržení a formátování tisku, až soubor později otevřete.
 
-## Krok 6: Uložte sešit
+## Krok 6: Uložení sešitu
 
 ```csharp
-// Uložení upraveného souboru Excel
+// Uložení upraveného souboru aplikace Excel
 workbook.Save(dataDir + "output.xls");
 ```
 
-Po provedení změn je nezbytné sešit uložit. Tady to ukládáme jako`output.xls`, ale klidně změňte název souboru podle potřeby.
+Po provedení změn je nezbytné sešit uložit. Zde jej ukládáme jako `output.xls`, ale klidně změňte název souboru dle potřeby.
 
-## Krok 7: Vyčistěte zdroje
+## Krok 7: Vyčištění zdrojů
 
 ```csharp
-// Zavřením datového proudu souborů uvolníte všechny zdroje
+// Uzavření souborového proudu pro uvolnění všech zdrojů
 fstream.Close();
 ```
 
-Nakonec je dobrým zvykem čistit zdroje. Zavřením datového proudu souborů uvolníte všechny prostředky, které jsou s ním spojené, a zabráníte tak úniku paměti.
+Nakonec je dobrým zvykem čistit zdroje. Uzavřením souborového proudu se uvolní všechny zdroje, které jsou s ním spojeny, a zabrání se tak únikům paměti.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste povolili náhled konce stránky pro list pomocí Aspose.Cells for .NET. Tato funkce může výrazně zlepšit vaši schopnost spravovat rozvržení tisku a usnadnit prezentaci vašich dat strukturovaným způsobem. Ať už vytváříte zprávy nebo připravujete data pro tisk, Aspose.Cells vám nabízí nástroje nezbytné k uvolnění vaší kreativity a produktivity. Tak na co čekáš? Ponořte se do svého dalšího excelového projektu s Aspose.Cells a uvidíte, jak změní váš pracovní postup!
+A tady to máte! Úspěšně jste povolili náhled zalomení stránky pro list pomocí Aspose.Cells pro .NET. Tato funkce může výrazně vylepšit vaši schopnost spravovat rozvržení tisku a usnadnit vám strukturovanou prezentaci dat. Ať už generujete sestavy nebo připravujete data k tisku, Aspose.Cells vám nabízí nástroje potřebné k uvolnění vaší kreativity a produktivity. Tak na co čekáte? Ponořte se do svého dalšího excelového projektu s Aspose.Cells a uvidíte, jak promění váš pracovní postup!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells?
-Aspose.Cells je rozhraní .NET API, které umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
+Aspose.Cells je .NET API, které umožňuje vývojářům vytvářet, manipulovat a převádět soubory aplikace Excel bez nutnosti instalace aplikace Microsoft Excel.
 
 ### Mohu používat Aspose.Cells zdarma?
- Ano, Aspose nabízí bezplatnou zkušební verzi pro testovací účely. Můžete[získejte bezplatnou zkušební verzi zde](https://releases.aspose.com/).
+Ano, Aspose nabízí bezplatnou zkušební verzi pro testovací účely. Můžete [získejte bezplatnou zkušební verzi zde](https://releases.aspose.com/).
 
-### Jak mohu koupit Aspose.Cells?
- Můžete[Nákup Aspose.Cells zde](https://purchase.aspose.com/buy).
+### Jak si mohu koupit Aspose.Cells?
+Můžeš [zakupte si Aspose.Cells zde](https://purchase.aspose.com/buy).
 
 ### Je pro Aspose.Cells k dispozici technická podpora?
- Absolutně! Pomoc můžete získat prostřednictvím[Aspose fórum podpory](https://forum.aspose.com/c/cells/9).
+Rozhodně! Pomoc můžete získat prostřednictvím [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9).
 
-### Mohu použít náhled konce stránky na více listech?
-Ano, můžete procházet listy sešitu a použít stejnou vlastnost pro každý jednotlivě.
+### Mohu použít náhledy zalomení stránek na více pracovních listech?
+Ano, můžete procházet listy sešitu a pro každý z nich jednotlivě použít stejnou vlastnost.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

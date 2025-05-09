@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Aspose.Cells for Java बहुमुखी है, जो विभिन्न
 इस गाइड में, हमने Aspose.Cells का उपयोग करके Java Excel फ़ाइलों में स्लाइसर को अपडेट करने का तरीका खोजा। आपने सीखा कि लाइब्रेरी संस्करण को कैसे लोड और प्रदर्शित किया जाए, स्लाइसर को प्रोग्रामेटिक रूप से कैसे मैनिपुलेट किया जाए, और परिवर्तनों को अपनी Excel फ़ाइल में वापस कैसे सेव किया जाए। इन कौशलों के साथ, आप डेटा फ़िल्टरिंग प्रक्रियाओं को स्वचालित कर सकते हैं, डेटा विश्लेषण कार्यों में उत्पादकता और सटीकता बढ़ा सकते हैं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

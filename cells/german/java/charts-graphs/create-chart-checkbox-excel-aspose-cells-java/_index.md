@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Hier sind einige Szenarien aus der Praxis, in denen Sie das Wissen aus diesem Tu
 3. **Lehrmittel:** Erstellen Sie dynamische Lernmaterialien, bei denen die Schüler mit den Inhalten interagieren können, indem sie in Diagrammen verschiedene Optionen auswählen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

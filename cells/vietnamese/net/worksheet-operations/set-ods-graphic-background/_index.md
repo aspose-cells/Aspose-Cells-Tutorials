@@ -1,14 +1,16 @@
 ---
-title: Đặt nền đồ họa trong tệp ODS
-linktitle: Đặt nền đồ họa trong tệp ODS
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập nền đồ họa trong tệp ODS bằng Aspose.Cells cho .NET với hướng dẫn toàn diện, từng bước này.
-weight: 25
-url: /vi/net/worksheet-operations/set-ods-graphic-background/
+"description": "Tìm hiểu cách thiết lập nền đồ họa trong tệp ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Đặt nền đồ họa trong tệp ODS"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đặt nền đồ họa trong tệp ODS"
+"url": "/vi/net/worksheet-operations/set-ods-graphic-background/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt nền đồ họa trong tệp ODS
@@ -25,7 +27,7 @@ Trước khi bắt đầu hành trình thiết lập nền đồ họa trong t�
 - Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn điều hướng mã hiệu quả.
 
 ### 2. Aspose.Cells cho thư viện .NET
--  Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án của mình. Nếu bạn chưa thực hiện việc này, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/). 
+- Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong dự án của mình. Nếu bạn chưa thực hiện việc này, bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/). 
 
 ### 3. Một hình ảnh cho nền của bạn
 - Bạn sẽ cần một hình ảnh đồ họa (ví dụ: JPG hoặc PNG) để đặt làm hình nền. Chuẩn bị hình ảnh này và ghi chú đường dẫn thư mục của nó.
@@ -60,11 +62,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Trong đoạn trích này, hãy thay thế`"Your Document Directory"` với đường dẫn thực tế của thư mục nơi hình ảnh đầu vào của bạn được lưu trữ và nơi bạn muốn lưu tệp đầu ra.
+Trong đoạn trích này, hãy thay thế `"Your Document Directory"` với đường dẫn thực tế của thư mục nơi hình ảnh đầu vào của bạn được lưu trữ và nơi bạn muốn lưu tệp đầu ra.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, bạn cần tạo một phiên bản của`Workbook`lớp đại diện cho tài liệu của bạn.
+Tiếp theo, bạn cần tạo một phiên bản của `Workbook` lớp đại diện cho tài liệu của bạn.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -105,7 +107,7 @@ worksheet.Cells[5, 1].Value = 12;
 
 ## Bước 5: Thiết lập nền trang
 
- Đây là phần thú vị—thiết lập nền đồ họa của bạn. Chúng tôi sẽ sử dụng`ODSPageBackground` lớp học để đạt được điều này.
+Đây là phần thú vị—thiết lập nền đồ họa của bạn. Chúng tôi sẽ sử dụng `ODSPageBackground` lớp học để đạt được điều này.
 
 ```csharp
 OdsPageBackground background = worksheet.PageSetup.ODSPageBackground;
@@ -116,9 +118,9 @@ background.GraphicType = OdsPageBackgroundGraphicType.Area;
 
 Chúng ta hãy phân tích nó nhé:
 - Truy cập PageSetup: Chúng ta muốn thao tác cài đặt trang của bảng tính.
--  Đặt Loại Nền: Thay đổi`Type` ĐẾN`Graphic` cho phép chúng ta sử dụng hình ảnh.
--  Tải hình ảnh:`GraphicData`thuộc tính này lấy mảng byte của hình ảnh của bạn—đây là nơi bạn tham chiếu đến hình ảnh nền của mình.
--  Chỉ định Loại đồ họa: Thiết lập loại thành`Area` có nghĩa là hình ảnh của bạn sẽ bao phủ toàn bộ diện tích của trang tính.
+- Đặt Loại Nền: Thay đổi `Type` ĐẾN `Graphic` cho phép chúng ta sử dụng hình ảnh.
+- Tải hình ảnh: `GraphicData` thuộc tính này lấy mảng byte của hình ảnh của bạn—đây là nơi bạn tham chiếu đến hình ảnh nền của mình.
+- Chỉ định Loại đồ họa: Thiết lập loại thành `Area` có nghĩa là hình ảnh của bạn sẽ bao phủ toàn bộ diện tích của trang tính.
 
 ## Bước 6: Lưu sổ làm việc
 
@@ -128,7 +130,7 @@ Sau khi mọi thứ đã được thiết lập, bạn sẽ muốn lưu tệp OD
 workbook.Save(outputDir + "GraphicBackground.ods");
 ```
 
- Dòng mã này lưu sổ làm việc của bạn vào thư mục đầu ra được chỉ định dưới dạng`GraphicBackground.ods`. Voila! Bảng tính của bạn đã sẵn sàng với hình nền đồ họa tuyệt đẹp.
+Dòng mã này lưu sổ làm việc của bạn vào thư mục đầu ra được chỉ định dưới dạng `GraphicBackground.ods`. Voilà! Bảng tính của bạn đã sẵn sàng với nền đồ họa tuyệt đẹp.
 
 ## Bước 7: Xác nhận thành công
 
@@ -150,20 +152,22 @@ Thiết lập nền đồ họa trong tệp ODS bằng Aspose.Cells cho .NET có
 Hầu hết các định dạng JPG và PNG đều hoạt động trơn tru với Aspose.Cells.
 
 ### Tôi có cần phần mềm bổ sung nào để chạy Aspose.Cells không?
-Không cần phần mềm bổ sung nào cả; chỉ cần đảm bảo bạn có môi trường chạy .NET cần thiết.
+Không cần phần mềm bổ sung nào; chỉ cần đảm bảo bạn có môi trường chạy .NET cần thiết.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để tiếp tục sử dụng. Kiểm tra[ở đây để lấy giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để tiếp tục sử dụng. Kiểm tra [ở đây để lấy giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể áp dụng các hình nền khác nhau cho các bảng tính khác nhau không?
 Hoàn toàn được! Bạn có thể lặp lại các bước cho từng bài tập trong sổ làm việc của mình.
 
 ### Có hỗ trợ nào cho Aspose.Cells không?
-Có, bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Có, bạn có thể tìm thấy sự hỗ trợ trên [Diễn đàn Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

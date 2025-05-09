@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ wb.save(outDir + "/ExcelToHTML_out.html", opts);
 **ขั้นตอนต่อไป:**
 - สำรวจคุณสมบัติเพิ่มเติมใน [เอกสารประกอบ Aspose.Cells](https://reference-aspose.com/cells/java/).
 - ทดลองใช้ประเภทข้อมูลและการกำหนดค่าเวิร์กชีตที่แตกต่างกัน
-- ลองรวมโซลูชันนี้กับระบบอื่นๆ ที่ใช้ Java เพื่อเพิ่มความสามารถ
+- ลองรวมโซลูชันนี้กับระบบอื่นๆ ที่ใช้ Java เพื่อเพิ่มประสิทธิภาพความสามารถ
 
 ## ส่วนคำถามที่พบบ่อย
 **คำถามที่ 1: ฉันจะอัปเดตเวอร์ชัน Aspose.Cells ใน Maven ได้อย่างไร**
@@ -172,6 +174,9 @@ wb.save(outDir + "/ExcelToHTML_out.html", opts);
 - **ซื้อใบอนุญาต:** สำรวจตัวเลือกการออกใบอนุญาตได้ที่ [หน้าการซื้อของ Aspose](https://purchase-aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

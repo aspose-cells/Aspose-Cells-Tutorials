@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introduktion
 
-dagens datadrivna värld kan automatisering av Excel-uppgifter spara tid och öka effektiviteten. Oavsett om du är utvecklare eller affärsproffs är det revolutionerande att förstå hur man skapar och manipulerar Excel-arbetsböcker programmatiskt. Den här handledningen guidar dig genom hur du använder... **Aspose.Cells för Java** för att automatisera skapandet av arbetsböcker, fylla dem med data, lägga till diagram och spara filen – allt i bara några få enkla steg.
+dagens datadrivna värld kan automatisering av Excel-uppgifter spara tid och öka effektiviteten. Oavsett om du är utvecklare eller affärsproffs är det revolutionerande att förstå hur man skapar och manipulerar Excel-arbetsböcker programmatiskt. Den här handledningen guidar dig genom hur du använder... **Aspose.Cells för Java** för att automatisera skapandet av arbetsböcker, fylla i dem med data, lägga till diagram och spara filen – allt i bara några få enkla steg.
 
 ### Vad du kommer att lära dig:
 - Hur man konfigurerar Aspose.Cells för Java
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Se först till att din miljö är redo:
 
 1. Lägg till ovanstående Maven- eller Gradle-beroende i ditt projekts konfigurationsfil.
-2. Skaffa en tillfällig eller fullständig licens från [Aspose](https://purchase.aspose.com/temporary-license/).
+2. Skaffa ett tillfälligt eller fullständigt körkort från [Aspose](https://purchase.aspose.com/temporary-license/).
 3. Initiera och konfigurera din licens i din kod (vanligtvis vid programstart):
 
 ```java
@@ -210,7 +212,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "CreateChart_out.xls");
 ```
 
-**Förklaring**: Den `save` Metoden sparar arbetsbokens aktuella tillstånd till en angiven sökväg, vilket gör att du kan komma åt den i vanliga Excel-format.
+**Förklaring**: Den `save` Metoden bevarar arbetsbokens aktuella tillstånd till en angiven sökväg, vilket gör att du kan komma åt den i vanliga Excel-format.
 
 ## Praktiska tillämpningar
 
@@ -266,6 +268,9 @@ Ett brett utbud av diagram finns tillgängliga, inklusive kolumndiagram, linjedi
 Ge dig ut på din resa med Aspose.Cells idag och revolutionera hur du arbetar med Excel i Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

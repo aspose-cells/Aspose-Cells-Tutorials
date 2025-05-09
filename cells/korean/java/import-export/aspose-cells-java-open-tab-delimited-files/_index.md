@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ Aspose.Cells를 사용하여 탭으로 구분된 파일을 여는 것이 특히 
    - 네, 하지만 제약이 있습니다. 모든 기능을 사용하려면 임시 라이선스를 신청하는 것을 고려해 보세요.
 2. **Aspose.Cells는 모든 Excel 형식을 지원합니까?**
    - 올바르게 구성하면 XLSX 및 CSV와 같은 대부분의 인기 형식을 지원합니다.
-3. **파일을 로딩하는 동안 오류를 어떻게 처리하나요?**
+3. **파일을 로딩하는 동안 오류를 어떻게 처리합니까?**
    - try-catch 블록을 사용하여 다음과 같은 예외를 관리합니다. `FileNotFoundException`.
 4. **Aspose.Cells를 클라우드 환경에서 사용할 수 있나요?**
    - 네, AWS나 Azure 등 다양한 환경에 통합할 수 있습니다.
@@ -130,10 +132,13 @@ Aspose.Cells를 사용하여 탭으로 구분된 파일을 여는 것이 특히 
 - **다운로드:** 최신 버전을 받으세요 [Aspose Cells Java 출시](https://releases.aspose.com/cells/java/).
 - **구입:** 구매 옵션을 살펴보세요 [Aspose 구매](https://purchase.aspose.com/buy).
 - **무료 체험:** 무료 체험판을 통해 기능을 시험해보세요. [출시 페이지](https://releases.aspose.com/cells/java/).
-- **임시 면허:** 임시면허 신청은 다음을 통해 신청하세요. [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/).
+- **임시 면허:** 임시 면허 신청은 다음을 통해 신청하세요. [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/).
 - **지원하다:** 문의사항은 다음 사이트를 방문하세요. [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

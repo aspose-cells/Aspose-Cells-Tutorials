@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: 미리 정의된 스타일 식별자를 사용하거나 API의 스타일링 
 A5: 필요하지 않은 객체를 삭제하여 데이터 범위를 최적화하고, 차트 복잡성을 최소화하고, 메모리를 효과적으로 관리합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

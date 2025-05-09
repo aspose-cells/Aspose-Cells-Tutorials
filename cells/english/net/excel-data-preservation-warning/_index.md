@@ -8,7 +8,9 @@ url: /net/excel-data-preservation-warning/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Preservation and Warning
@@ -38,9 +40,11 @@ This tutorial walks you through the process of specifying sort warnings using As
 Learn how to preserve single quote prefixes in Excel cells using Aspose.Cells for .NET with this easy step-by-step tutorial.
 ### [Specify Sort Warning While Sorting Data in Excel](./specify-sort-warning-while-sorting-data-in-excel/)
 Effortlessly sort Excel data using Aspose.Cells for .NET. Learn step-by-step strategies to manage Excel data effectively in this comprehensive tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

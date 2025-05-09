@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,7 +204,7 @@ public class UnhideRowsColumns {
 ## การพิจารณาประสิทธิภาพ
 
 เมื่อทำงานกับไฟล์ Excel ขนาดใหญ่ ควรพิจารณาเคล็ดลับการเพิ่มประสิทธิภาพเหล่านี้:
-- ลดการใช้หน่วยความจำโดยการปิดเวิร์กบุ๊กเมื่อไม่ได้ใช้งาน
+- ลดการใช้หน่วยความจำโดยการปิดสมุดงานเมื่อไม่ได้ใช้งาน
 - ใช้ API สตรีมมิ่งหากต้องจัดการกับชุดข้อมูลขนาดใหญ่มาก
 - เพิ่มประสิทธิภาพการตั้งค่าการรวบรวมขยะของ Java เพื่อประสิทธิภาพที่ดีขึ้น
 
@@ -231,6 +233,9 @@ public class UnhideRowsColumns {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

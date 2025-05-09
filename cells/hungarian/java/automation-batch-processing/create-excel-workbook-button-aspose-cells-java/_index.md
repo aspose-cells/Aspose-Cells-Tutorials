@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ workbook.save(dataDir + "/AddingButtonControl_out.xls", SaveFormat.AUTO);
 - **Interaktív műszerfalak:** Interaktív irányítópultok létrehozása, ahol a felhasználók gombvezérlők segítségével szűrhetik vagy navigálhatnak az adathalmazok között.
 
 ## Teljesítménybeli szempontok
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - **Memóriakezelés:** Ügyeljen a Java memóriakezelésére. Szabadítson fel erőforrásokat nagy objektumok beállításával `null` használat után.
 - **Kötegelt feldolgozás:** Több fájl feldolgozásakor érdemes kötegelt műveleteket végezni a terhelés minimalizálása érdekében.
 - **A funkciók hatékony kihasználása:** Használja ki az Aspose.Cells funkcióit, amelyek lehetővé teszik a munkalapok és alakzatok közvetlen manipulálását felesleges konverziók nélkül.
@@ -171,6 +173,9 @@ Most már megtanultad, hogyan hozhatsz létre gombbal ellátott munkafüzetet az
 További támogatásért és információkért az Aspose.Cells hatékony használatához Java projektekben nyugodtan böngészd át ezeket az erőforrásokat!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

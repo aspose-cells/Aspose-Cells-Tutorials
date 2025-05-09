@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -250,6 +252,9 @@ Bằng cách thành thạo Aspose.Cells for Java, bạn đã mở khóa các kh�
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để tận dụng Aspose.Cells for Java trong các dự án của mình, nâng cao năng suất và độ chính xác khi làm việc với các tệp Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

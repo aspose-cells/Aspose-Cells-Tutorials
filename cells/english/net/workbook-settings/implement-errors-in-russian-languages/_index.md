@@ -8,7 +8,9 @@ url: /net/workbook-settings/implement-errors-in-russian-languages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Errors and Boolean Value in Russian or Other Languages
@@ -113,6 +115,7 @@ You can find more information and resources on Aspose.Cells for .NET on the [Asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

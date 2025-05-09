@@ -1,53 +1,55 @@
 ---
-title: Zvládejte automatické jednotky osy grafu jako Microsoft Excel
-linktitle: Zvládejte automatické jednotky osy grafu jako Microsoft Excel
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se zacházet s automatickými jednotkami osy grafu v Excelu jako profesionál pomocí Aspose.Cells for .NET! Včetně návodu krok za krokem.
-weight: 10
-url: /cs/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+"description": "Naučte se, jak v Excelu jako profesionál pracovat s automatickými jednotkami os grafu pomocí Aspose.Cells pro .NET! Součástí je podrobný návod."
+"linktitle": "Zvládání automatických jednotek osy grafu, jako je tomu v Microsoft Excelu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Zvládání automatických jednotek osy grafu, jako je tomu v Microsoft Excelu"
+"url": "/cs/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zvládejte automatické jednotky osy grafu jako Microsoft Excel
+# Zvládání automatických jednotek osy grafu, jako je tomu v Microsoft Excelu
 
 ## Zavedení
 
-Pokud jde o manipulaci se soubory Excel, Aspose.Cells for .NET vyniká jako robustní knihovna, která zjednodušuje proces automatizace úloh souvisejících s Excelem. Ať už generujete sestavy, vytváříte grafy nebo spravujete složité tabulky, tato knihovna je vaším oblíbeným nástrojem. V tomto tutoriálu prozkoumáme, jak zacházet s automatickými jednotkami osy grafu, stejně jako v aplikaci Microsoft Excel. Takže popadněte své kódovací vybavení, protože se chystáme ponořit hluboko do světa Aspose.Cells!
+Pokud jde o manipulaci s excelovými soubory, Aspose.Cells pro .NET vyniká jako robustní knihovna, která zjednodušuje proces automatizace úkolů souvisejících s Excelem. Ať už generujete sestavy, vytváříte grafy nebo spravujete složité tabulky, tato knihovna je vaším nástrojem. V tomto tutoriálu se podíváme na to, jak pracovat s automatickými jednotkami osy grafu, stejně jako v Microsoft Excelu. Takže si popadněte programátorské vybavení, protože se chystáme ponořit hlouběji do světa Aspose.Cells!
 
 ## Předpoklady
 
-Než se pustíme do výukového programu, ujistěte se, že máte vše, co je potřeba k následování:
+Než se pustíme do tutoriálu, ujistěte se, že máte vše potřebné k jeho dodržování:
 
-1. Nainstalované Visual Studio: K psaní a spouštění kódu .NET budete potřebovat IDE, jako je Visual Studio.
-2. .NET Framework: Tento kurz předpokládá, že používáte rozhraní .NET Framework 4.0 nebo novější. Aspose.Cells je však kompatibilní také s .NET Core.
-3.  Knihovna Aspose.Cells: Pokud jste to ještě neudělali, stáhněte si knihovnu z webu Aspose[zde](https://releases.aspose.com/cells/net/) . Můžete také začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
-4. Vzorový soubor Excel: Budeme používat vzorový soubor Excel s názvem`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Ujistěte se, že máte tento soubor připravený ve svém pracovním adresáři.
+1. Nainstalované Visual Studio: K napsání a spuštění kódu .NET budete potřebovat IDE, jako je Visual Studio.
+2. .NET Framework: Tento tutoriál předpokládá, že používáte .NET Framework 4.0 nebo novější. Aspose.Cells je však kompatibilní i s .NET Core.
+3. Knihovna Aspose.Cells: Pokud jste tak ještě neučinili, stáhněte si knihovnu z webových stránek Aspose. [zde](https://releases.aspose.com/cells/net/)Můžete také začít s bezplatnou zkušební verzí. [zde](https://releases.aspose.com/).
+4. Ukázkový soubor Excel: Použijeme ukázkový soubor Excel s názvem `sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`Ujistěte se, že máte tento soubor připravený ve svém pracovním adresáři.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nejprve se ujistěte, že máte pro svůj projekt importované vhodné jmenné prostory. Jak začít:
+Nejdříve se ujistěte, že máte pro váš projekt importovány příslušné jmenné prostory. Zde je návod, jak začít:
 
 ### Vytvořit nový projekt
 
 1. Otevřete Visual Studio.
 2. Klikněte na „Vytvořit nový projekt“.
-3. Vyberte „Console App (.NET Framework)“ a klikněte na „Další“.
-4. Pojmenujte svůj projekt a klikněte na „Vytvořit“.
+3. Vyberte „Konzolová aplikace (.NET Framework)“ a klikněte na „Další“.
+4. Pojmenujte svůj projekt a klikněte na tlačítko „Vytvořit“.
 
-### Přidejte odkaz Aspose.Cells
+### Přidejte referenci Aspose.Cells
 
 Chcete-li použít Aspose.Cells, musíte přidat odkaz na knihovnu.
 
-1. V Průzkumníku řešení klikněte pravým tlačítkem na „Odkazy“.
-2. Zvolte „Přidat referenci“.
-3.  Přejděte do složky, kam jste stáhli Aspose.Cells, a vyberte`Aspose.Cells.dll`.
+1. V Průzkumníku řešení klikněte pravým tlačítkem myši na „Odkazy“.
+2. Vyberte „Přidat referenci“.
+3. Přejděte do složky, kam jste si stáhli soubor Aspose.Cells, a vyberte `Aspose.Cells.dll`.
 
 ### Importujte požadované jmenné prostory
 
- V horní části vašeho`Program.cs` soubor, přidejte následující jmenné prostory:
+Na vrcholu tvého `Program.cs` soubor, přidejte následující jmenné prostory:
 
 ```csharp
 using System;
@@ -59,80 +61,80 @@ using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```
 
-Nyní jste připraveni začít manipulovat s naším souborem Excel!
+Nyní jste připraveni začít s manipulací s naším excelovým souborem!
 
-## Načtěte ukázkový soubor Excel
+## Načíst ukázkový soubor Excel
 
-### Krok 1: Inicializujte své adresáře
+### Krok 1: Inicializace adresářů
 
-Než načteme soubor Excel, nastavíme výstupní a zdrojový adresář. To nám umožní určit, kde jsou naše soubory uloženy.
+Než načteme soubor Excel, nastavme výstupní a zdrojový adresář. To nám umožní určit, kam budou naše soubory uloženy.
 
 ```csharp
-//Výstupní adresář – kam se uloží PDF
-string outputDir = "Your Output Directory"; // zde zadejte svůj výstupní adresář
+// Výstupní adresář - kam bude PDF uložen
+string outputDir = "Your Output Directory"; // zde zadejte výstupní adresář
 
-// Zdrojový adresář – kde se nachází vzorový soubor Excel
-string sourceDir = "Your Document Directory"; // zde zadejte svůj zdrojový adresář
+// Zdrojový adresář – kde se nachází ukázkový soubor Excelu
+string sourceDir = "Your Document Directory"; // zde zadejte zdrojový adresář
 ```
 
 ### Krok 2: Načtěte soubor Excel
 
-Pomocí Aspose.Cells je načítání souboru aplikace Excel jednoduché. Postup je následující:
+Načítání souboru Excelu je pomocí Aspose.Cells jednoduché. Postupujte takto:
 
 ```csharp
-// Načtěte ukázkový soubor Excel
+// Načíst ukázkový soubor Excel
 Workbook wb = new Workbook(sourceDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 ```
 
-Nyní jste svůj sešit načetli snadno!
+Nyní máte svůj sešit snadno načtený!
 
-## Přístup a manipulace s grafem
+## Přístup k grafu a manipulace s ním
 
-### Krok 3: Otevřete první pracovní list
+### Krok 3: Přístup k prvnímu pracovnímu listu
 
-Dále přistoupíme k prvnímu listu, kde se nachází náš graf. 
+Dále se dostaneme k prvnímu listu, kde se nachází náš graf. 
 
 ```csharp
-// Otevřete první pracovní list
+// Přístup k prvnímu pracovnímu listu
 Worksheet ws = wb.Worksheets[0];
 ```
 
 ### Krok 4: Přístup k grafu
 
-Nyní je čas získat přístup k prvnímu grafu ve vašem listu pomocí tohoto jednoduchého řádku kódu:
+Nyní je čas přistupovat k prvnímu grafu ve vašem listu pomocí tohoto jednoduchého řádku kódu:
 
 ```csharp
 // Přístup k prvnímu grafu
 Chart ch = ws.Charts[0];
 ```
 
-### Krok 5: Zacházení s automatickými jednotkami
+### Krok 5: Ovládání automatických jednotek
 
-V Excelu je jednou z klíčových funkcí grafů zpracování automatických jednotek pro osy grafu, což pomáhá udržovat vizuály čisté a srozumitelné. Naštěstí vám Aspose.Cells umožňuje tyto vlastnosti snadno upravit.
+V Excelu je jednou z klíčových funkcí grafů automatická manipulace s jednotkami pro osy grafu, což pomáhá udržovat vizuální prvky čisté a srozumitelné. Naštěstí Aspose.Cells umožňuje tyto vlastnosti snadno upravovat.
 
- Abyste mohli s osou manipulovat, možná budete potřebovat přístup k`Axis` vašeho grafu a nastavte`MajorUnit`:
+Pro manipulaci s osou může být nutné přistupovat k `Axis` vašeho grafu a nastavte `MajorUnit`:
 
 ```csharp
-// Nastavte hlavní jednotku pro osu Y
-ch.AxisY.MajorUnit = 10; // Můžete nastavit podle vašeho požadavku
+// Nastavení hlavní jednotky pro osu Y
+ch.AxisY.MajorUnit = 10; // Můžete si nastavit dle vašich požadavků
 ```
 
-Pojďme nyní aktualizovat automatické jednotky!
+Pojďme aktualizovat automatické jednotky hned teď!
 
-## Vykreslete graf do PDF
+## Vykreslení grafu do PDF
 
-### Krok 6: Exportujte graf do PDF
+### Krok 6: Export grafu do PDF
 
-Posledním a vzrušujícím krokem je nyní vykreslení grafu do souboru PDF. To je místo, kde Aspose.Cells září, protože můžete bez námahy exportovat své grafy v různých formátech.
+Posledním a vzrušujícím krokem je nyní vykreslení grafu do souboru PDF. A právě zde vyniká Aspose.Cells, protože můžete grafy bez námahy exportovat do různých formátů.
 
 ```csharp
-// Vykreslit graf do pdf
+// Vykreslení grafu do PDF
 ch.ToPdf(outputDir + "outputHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.pdf");
 ```
 
 ### Krok 7: Spusťte program
 
-Ujistěte se, že je vše správně nastaveno, a poté spusťte aplikaci. Měli byste vidět zprávu, která říká:
+Ujistěte se, že je vše správně nastaveno, a poté spusťte aplikaci. Měla by se zobrazit zpráva, která zní:
 
 ```csharp
 Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed successfully.");
@@ -140,27 +142,29 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 
 ## Závěr
 
-Práce s Aspose.Cells pro .NET je nejen efektivní, ale také neuvěřitelně obohacující. Se soubory Excelu můžete manipulovat, jako byste je formátovali v samotném Excelu! V tomto tutoriálu jsme úspěšně načetli soubor aplikace Excel, zpřístupnili a upravili graf a vykreslili jej do PDF, to vše při práci s automatickými jednotkami osy grafu. Doufám, že se vám tato cesta do světa automatizace Excelu líbila.
+Práce s Aspose.Cells pro .NET je nejen efektivní, ale také neuvěřitelně obohacující. S excelovými soubory můžete manipulovat, jako byste je formátovali přímo v Excelu! V tomto tutoriálu jsme úspěšně načetli excelový soubor, zpřístupnili a upravili graf a vykreslili ho do PDF, a to vše při práci s automatickými jednotkami osy grafu. Doufám, že se vám tato cesta do světa automatizace v Excelu líbila.
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells pro .NET?
-Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a konverzi souborů aplikace Excel.
+Aspose.Cells je výkonná knihovna .NET pro vytváření, manipulaci a převod souborů aplikace Excel.
 
 ### Mohu používat Aspose.Cells zdarma?
-Ano! Můžete začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/).
+Ano! Můžete začít s bezplatnou zkušební verzí [zde](https://releases.aspose.com/).
 
-### Musím něco nainstalovat, abych mohl začít?
-Jen knihovna Aspose.Cells a .NET Framework nainstalované na vašem počítači.
+### Musím si něco nainstalovat, abych mohl začít?
+Pouze knihovna Aspose.Cells a .NET Framework nainstalované na vašem počítači.
 
 ### Mohu vykreslovat grafy v jiných formátech než PDF?
-Absolutně! Aspose.Cells podporuje různé formáty, jako je XLSX, HTML a obrázky.
+Rozhodně! Aspose.Cells podporuje různé formáty, jako XLSX, HTML a obrázky.
 
-### Kde najdu podporu, pokud narazím na problémy?
- Můžete požádat o pomoc komunitu Aspose[zde](https://forum.aspose.com/c/cells/9).
+### Kde mohu najít podporu, pokud narazím na problémy?
+Můžete požádat o pomoc komunitu Aspose [zde](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

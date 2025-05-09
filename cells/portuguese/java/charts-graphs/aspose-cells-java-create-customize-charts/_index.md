@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No mundo atual, orientado por dados, visualizar conjuntos de dados complexos é crucial para tomar decisões informadas. Seja você um desenvolvedor experiente ou iniciante, criar gráficos atraentes em seus aplicativos pode aprimorar significativamente a experiência do usuário. Este tutorial guiará você pelo processo de uso do Aspose.Cells para Java para criar e personalizar gráficos sem esforço.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como configurar o Aspose.Cells para Java
 - Criação e nomeação de planilhas
@@ -277,6 +279,9 @@ Agora você domina a criação e a personalização de gráficos usando Aspose.C
 Seguindo este guia, você estará apto a criar e personalizar gráficos em aplicativos Java usando Aspose.Cells com facilidade. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

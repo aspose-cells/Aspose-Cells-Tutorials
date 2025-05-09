@@ -1,14 +1,16 @@
 ---
-title: รับขอบเขตของวัตถุที่วาดด้วย Aspose.Cells
-linktitle: รับขอบเขตของวัตถุที่วาดด้วย Aspose.Cells
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ค้นพบวิธีการแยกขอบเขตของวัตถุที่วาดใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมของเรา
-weight: 15
-url: /th/net/rendering-and-export/get-draw-object-and-bound/
+"description": "ค้นพบวิธีการแยกขอบเขตของวัตถุที่วาดใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมของเรา"
+"linktitle": "รับขอบเขตของวัตถุที่วาดด้วย Aspose.Cells"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "รับขอบเขตของวัตถุที่วาดด้วย Aspose.Cells"
+"url": "/th/net/rendering-and-export/get-draw-object-and-bound/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # รับขอบเขตของวัตถุที่วาดด้วย Aspose.Cells
@@ -23,14 +25,14 @@ url: /th/net/rendering-and-export/get-draw-object-and-bound/
 ก่อนที่เราจะเริ่มเขียนโค้ด มีข้อกำหนดเบื้องต้นบางประการที่คุณต้องทราบ:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนคอมพิวเตอร์ของคุณแล้ว คุณสามารถใช้เวอร์ชันใดก็ได้ที่คุณต้องการ
-2.  Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Cells จาก[ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/net/) . ยังมีรุ่นทดลองใช้งานฟรีอีกด้วย[ที่นี่](https://releases.aspose.com/).
+2. Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Cells จาก [ลิงค์ดาวน์โหลด](https://releases.aspose.com/cells/net/). ยังมีรุ่นทดลองใช้ฟรีอีกด้วย [ที่นี่](https://releases-aspose.com/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์ หากคุณเป็นมือใหม่ ไม่ต้องกังวล เราจะแนะนำคุณในแต่ละขั้นตอน
 
 เมื่อคุณตั้งค่าสภาพแวดล้อมของคุณเสร็จแล้ว เราจะดำเนินการกับแพ็คเกจที่จำเป็น
 
 ## แพ็คเกจนำเข้า
 
-ก่อนที่จะใช้คลาสที่ Aspose.Cells จัดเตรียมไว้ คุณต้องนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ C# ของคุณก่อน โดยทำได้ดังนี้:
+ก่อนที่จะใช้คลาสที่ Aspose.Cells จัดเตรียมไว้ คุณต้องนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ C# ของคุณก่อน โดยทำดังนี้:
 
 1. เปิดโครงการ Visual Studio ของคุณ
 2. ที่ด้านบนของไฟล์ C# ของคุณ เพิ่ม using directives ดังต่อไปนี้:
@@ -49,7 +51,7 @@ using Aspose.Cells.Rendering;
 
 ## ขั้นตอนที่ 1: สร้างคลาสตัวจัดการเหตุการณ์วัตถุวาด
 
- ขั้นแรกคุณต้องสร้างคลาสที่ขยาย`DrawObjectEventHandler`คลาสนี้จะจัดการเหตุการณ์การวาดและช่วยให้คุณแยกพิกัดของวัตถุได้
+ขั้นแรกคุณต้องสร้างคลาสที่ขยาย `DrawObjectEventHandler`คลาสนี้จะจัดการเหตุการณ์การวาดและช่วยให้คุณแยกพิกัดของวัตถุได้
 
 ```csharp
 class clsDrawObjectEventHandler : DrawObjectEventHandler
@@ -75,8 +77,8 @@ class clsDrawObjectEventHandler : DrawObjectEventHandler
 }
 ```
 
--  ในคลาสนี้เราจะแทนที่`Draw` วิธีการซึ่งจะถูกเรียกทุกครั้งที่พบวัตถุรูปวาด 
--  เราตรวจสอบประเภทของ`DrawObject` . ถ้ามันเป็น`Cell` เราบันทึกตำแหน่งและค่าของมัน หากมันเป็น`Image`เราบันทึกตำแหน่งและชื่อของมัน
+- ในคลาสนี้เราจะแทนที่ `Draw` วิธีการซึ่งจะถูกเรียกทุกครั้งที่พบวัตถุรูปวาด 
+- เราตรวจสอบประเภทของ `DrawObject`. ถ้ามันเป็น `Cell`เราบันทึกตำแหน่งและค่าของมัน หากมันเป็น `Image`เราบันทึกตำแหน่งและชื่อของมัน
 
 ## ขั้นตอนที่ 2: ตั้งค่าไดเร็กทอรีอินพุตและเอาต์พุต
 
@@ -90,11 +92,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
--  แทนที่`"Your Document Directory"` ด้วยเส้นทางไปยังเอกสารจริงของคุณ ให้แน่ใจว่าคุณมีไฟล์ Excel ตัวอย่างชื่อ`"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` เก็บไว้ในไดเร็กทอรีนี้
+- แทนที่ `"Your Document Directory"` ด้วยเส้นทางไปยังเอกสารจริงของคุณ ให้แน่ใจว่าคุณมีไฟล์ Excel ตัวอย่างชื่อ `"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` เก็บไว้ในไดเร็กทอรีนี้
 
 ## ขั้นตอนที่ 3: โหลดไฟล์ตัวอย่าง Excel
 
- เมื่อตั้งค่าไดเร็กทอรีแล้ว เราสามารถโหลดไฟล์ Excel ลงในอินสแตนซ์ของ`Workbook` ระดับ.
+เมื่อตั้งค่าไดเร็กทอรีแล้ว เราสามารถโหลดไฟล์ Excel ลงในอินสแตนซ์ของ `Workbook` ระดับ.
 
 ```csharp
 // โหลดไฟล์ตัวอย่าง Excel
@@ -105,7 +107,7 @@ Workbook wb = new Workbook(sourceDir + "sampleGetDrawObjectAndBoundUsingDrawObje
 
 ## ขั้นตอนที่ 4: ระบุตัวเลือกการบันทึก PDF
 
-ตอนนี้เราได้โหลดเวิร์กบุ๊กแล้ว เราจะต้องกำหนดว่าเราต้องการบันทึกเอาต์พุตเป็นไฟล์ PDF อย่างไร
+ตอนนี้เราได้โหลดเวิร์กบุ๊กแล้ว เราจะต้องกำหนดวิธีที่เราต้องการบันทึกเอาต์พุตเป็นไฟล์ PDF
 
 ```csharp
 // ระบุตัวเลือกการบันทึก PDF
@@ -114,7 +116,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## ขั้นตอนที่ 5: กำหนดตัวจัดการเหตุการณ์
 
- มันเป็นสิ่งสำคัญในการมอบหมาย`DrawObjectEventHandler` อินสแตนซ์ของตัวเลือกการบันทึก PDF ของเรา ขั้นตอนนี้จะช่วยให้มั่นใจว่าตัวจัดการเหตุการณ์แบบกำหนดเองของเราประมวลผลวัตถุการวาดภาพแต่ละรายการ
+สิ่งสำคัญคือการมอบหมาย `DrawObjectEventHandler` อินสแตนซ์ของตัวเลือกการบันทึก PDF ของเรา ขั้นตอนนี้จะช่วยให้มั่นใจว่าตัวจัดการเหตุการณ์แบบกำหนดเองของเราประมวลผลวัตถุการวาดภาพแต่ละรายการ
 
 ```csharp
 // กำหนดอินสแตนซ์ของคลาส DrawObjectEventHandler
@@ -150,19 +152,21 @@ Console.WriteLine("GetDrawObjectAndBoundUsingDrawObjectEventHandler executed suc
 Aspose.Cells เป็นไลบรารีอันทรงพลังที่ออกแบบมาเพื่อทำงานกับไฟล์ Excel ในแอปพลิเคชัน .NET ช่วยให้สามารถสร้าง แก้ไข และแปลงสเปรดชีตได้
 
 ### ฉันสามารถทดลองใช้ Aspose.Cells ฟรีได้หรือไม่?
- ใช่! คุณสามารถดาวน์โหลด Aspose.Cells รุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถดาวน์โหลด Aspose.Cells รุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### Aspose.Cells รองรับรูปแบบไฟล์อะไรบ้าง?
 Aspose.Cells รองรับรูปแบบต่างๆ รวมถึง XLSX, XLS, CSV, PDF และอื่นๆ อีกมากมาย
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells ได้ที่ไหน
- คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารรายละเอียดบนเว็บไซต์ได้ที่[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/).
+คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารรายละเอียดบนเว็บไซต์ของพวกเขาได้ที่ [เอกสารประกอบ Aspose.Cells](https://reference-aspose.com/cells/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร?
- หากต้องการความช่วยเหลือ โปรดไปที่[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)โดยคุณสามารถสอบถามและขอความช่วยเหลือจากชุมชนได้
+หากต้องการความช่วยเหลือ โปรดไปที่ [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) โดยคุณสามารถสอบถามและขอความช่วยเหลือจากชุมชนได้
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

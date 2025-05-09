@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gráficos 3D
@@ -24,7 +26,7 @@ Gráficos 3D são um tipo de visualização de dados que adiciona profundidade a
 
 ## Por que usar o Aspose.Cells para Java para criar gráficos 3D?
 
-Aspose.Cells para Java oferece um conjunto abrangente de recursos e ferramentas para trabalhar com arquivos e gráficos do Excel. Ele oferece uma interface amigável para criar, personalizar e manipular gráficos, incluindo gráficos 3D. Além disso, o Aspose.Cells para Java garante que os gráficos gerados sejam compatíveis com uma ampla variedade de versões do Excel, tornando-o uma escolha confiável para a criação de gráficos.
+O Aspose.Cells para Java oferece um conjunto abrangente de recursos e ferramentas para trabalhar com arquivos e gráficos do Excel. Ele oferece uma interface amigável para criar, personalizar e manipular gráficos, incluindo gráficos 3D. Além disso, o Aspose.Cells para Java garante que os gráficos gerados sejam compatíveis com uma ampla variedade de versões do Excel, tornando-o uma escolha confiável para a criação de gráficos.
 
 ## Configurando Aspose.Cells para Java
 
@@ -158,7 +160,7 @@ Sim, você pode exportar gráficos 3D criados com o Aspose.Cells para Java para 
 
 ### É possível criar gráficos 3D interativos com o Aspose.Cells para Java?
 
-Aspose.Cells para Java concentra-se principalmente na criação de gráficos 3D estáticos para arquivos do Excel. Para gráficos interativos com interatividade avançada, você pode considerar o uso de outras bibliotecas ou ferramentas de visualização em combinação com seus arquivos do Excel.
+O Aspose.Cells para Java concentra-se principalmente na criação de gráficos 3D estáticos para arquivos do Excel. Para gráficos interativos com interatividade avançada, você pode considerar o uso de outras bibliotecas ou ferramentas de visualização em combinação com seus arquivos do Excel.
 
 ### Posso automatizar o processo de atualização de dados nos meus gráficos 3D?
 
@@ -171,6 +173,7 @@ Você pode encontrar documentação e recursos abrangentes para Aspose.Cells par
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

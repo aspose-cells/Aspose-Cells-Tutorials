@@ -8,7 +8,9 @@ url: /net/xml-map-operations/get-xml-path-from-list-object-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get XML Path from List Object Table using Aspose.Cells
@@ -82,9 +84,11 @@ Yes, Aspose.Cells allows you to manage and modify XML data in Excel files, inclu
 Yes, Aspose.Cells is fully compatible with .NET Core, .NET Framework, and various other platforms, making it versatile for different projects.
 ### Do I need a license to use Aspose.Cells for .NET?
 Yes, Aspose.Cells requires a license for production use. You can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) or purchase a full license from the [Aspose purchase page](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

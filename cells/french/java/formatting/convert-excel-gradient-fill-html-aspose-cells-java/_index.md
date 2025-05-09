@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ A5 : Oui, parcourez un répertoire de fichiers Excel et appliquez la logique de
 Passez à l’étape suivante dans la maîtrise d’Aspose.Cells pour Java et exploitez tout son potentiel pour améliorer vos projets de présentation de données !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

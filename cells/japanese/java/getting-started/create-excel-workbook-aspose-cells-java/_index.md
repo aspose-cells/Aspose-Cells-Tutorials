@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### 知識の前提条件
 以下の基本的な知識が必要です:
-- Javaプログラミング。
+- Java プログラミング。
 - クラスやオブジェクトなどのオブジェクト指向の概念。
 
 ### Aspose.Cells for Java のセットアップ
@@ -198,6 +200,9 @@ Aspose.Cells は他のシステムとスムーズに統合され、Java アプ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

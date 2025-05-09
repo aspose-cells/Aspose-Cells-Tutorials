@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ A: Använd strömningstekniker och hantera minnesresurser noggrant när du hante
 **F: Är det möjligt att anpassa stilar under konverteringen?**
 A: Absolut. Du kan använda specifika stilar med hjälp av Aspose.Cells stylingalternativ för ett elegant utseende.
 
-**F: Vilka systemkrav finns för att använda Aspose.Cells Java?**
+**F: Vilka är systemkraven för att använda Aspose.Cells Java?**
 A: En kompatibel JDK och lämpliga byggverktyg (Maven/Gradle) krävs, tillsammans med tillräckligt med minne för att hantera dataoperationer.
 
 **F: Kan jag konvertera HTML till andra kalkylbladsformat som CSV eller PDF?**
@@ -184,6 +186,9 @@ A: Ja, Aspose.Cells stöder flera utdataformat, inklusive CSV och PDF.
 - **Stöd**: [Aspose-forumet](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

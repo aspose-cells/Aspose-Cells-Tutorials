@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Az Excel-fájlok programozott kezelése kihívást jelenthet a táblázatkezelési műveletek és az adatkezelés összetettsége miatt. Az Aspose.Cells Java-ban való használata jelentősen leegyszerűsíti ezt a folyamatot. Ez az útmutató segít elsajátítani az olyan alapvető funkciókat, mint a munkafüzet inicializálása, a munkalap hozzáadása, a képek beágyazása és a dokumentumok mentése, mindezt a robusztus Aspose.Cells könyvtár segítségével.
 
 **Amit tanulni fogsz:**
-- Hogyan inicializáljunk egy új Excel munkafüzetet Java-ban
+- Hogyan inicializáljunk egy új Excel munkafüzetet Java-ban?
 - Munkalapok és képek cellákba való beillesztésének technikái
 - A képek pontos elhelyezésének beállítása a táblázatban
 - Munkájának mentése Excel fájlként lemezre
@@ -225,6 +227,9 @@ Az útmutató követésével elsajátítottad az Excel fájlok Aspose.Cells hasz
 Az Aspose.Cells képességeinek további felfedezéséhez érdemes lehet belemerülni a haladó funkciókba, mint például a diagramkészítés, az adatellenőrzés és egyebek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

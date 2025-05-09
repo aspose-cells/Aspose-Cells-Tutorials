@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -206,7 +208,7 @@ Aspose.Cells for Javaを使ってExcelシートを画像に変換する方法を
    - はい、設定します `ImageOrPrintOptions` 必要に応じて特定のセル範囲をターゲットにします。
 
 5. **レンダリングされた画像の鮮明さが欠けている場合はどうすればよいでしょうか?**
-   - 解像度設定を上げるか、Java 環境との互換性の問題がないか確認してください。
+   - 解像度設定を上げるか、Java 環境との互換性の問題を確認してください。
 
 ## リソース
 - [ドキュメント](https://reference.aspose.com/cells/java/)
@@ -220,6 +222,9 @@ Aspose.Cells for Javaを使ってExcelシートを画像に変換する方法を
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

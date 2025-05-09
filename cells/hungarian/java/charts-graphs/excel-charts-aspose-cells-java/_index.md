@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,14 +237,17 @@ Készen állsz arra, hogy Excel-készségeidet a következő szintre emeld? Pró
    - Használd a `setValuesFormatCode` módszer bizonyos formátumok alkalmazására.
 
 5. **Hol találok további forrásokat az Aspose.Cells for Java-ról?**
-   - Látogassa meg a [hivatalos dokumentáció](https://reference.aspose.com/cells/java/) és [támogatási fórum](https://forum.aspose.com/c/cells/9).
+   - Látogassa meg a [hivatalos dokumentáció](https://reference.aspose.com/cells/java/) és [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ## Erőforrás
 
-- **Dokumentáció**: [Aspose.Cells Java-referencia](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-referenciához](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells Java letöltési oldalhoz](https://downloads.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

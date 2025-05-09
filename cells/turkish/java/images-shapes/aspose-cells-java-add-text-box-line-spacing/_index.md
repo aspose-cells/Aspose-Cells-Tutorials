@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelDemo {
     public static void main(String[] args) {
-        // Çalışma Kitabı örneğini başlat (bir Excel dosyasını temsil eder)
+        // Çalışma Kitabı örneğini başlatın (bir Excel dosyasını temsil eder)
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java initialized successfully.");
@@ -281,6 +283,9 @@ Aspose.Cells for Java kullanarak bir Excel çalışma kitabına metin kutusu ekl
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

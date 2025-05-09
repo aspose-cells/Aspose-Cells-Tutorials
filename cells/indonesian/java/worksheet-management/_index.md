@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Kuasai manipulasi lembar kerja dengan tutorial Java Aspose.Cells kami yang terperinci. Panduan langkah demi langkah ini menunjukkan cara membuat lembar kerja baru, mengganti nama lembar kerja yang ada, menyalin konten antarlembar kerja, mengelola visibilitas, dan mengatur buku kerja Excel Anda secara terprogram. Setiap tutorial mencakup contoh kode Java yang berfungsi, catatan implementasi, dan praktik terbaik untuk membantu Anda membangun aplikasi yang mengelola buku kerja multilembar secara efisien dengan kode yang bersih dan mudah dikelola.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi manajemen lembar kerja
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -104,10 +106,13 @@ Pelajari cara mudah untuk menampilkan kembali baris dan kolom dalam file Excel m
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

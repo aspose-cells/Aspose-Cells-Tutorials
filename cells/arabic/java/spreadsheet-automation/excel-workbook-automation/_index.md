@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # أتمتة مصنفات Excel
@@ -110,9 +112,11 @@ public class UpdateExcelData {
    يمكنك الرجوع إلى وثائق API على [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) للحصول على معلومات متعمقة وعينات التعليمات البرمجية.
 
 لا تتردد في استكشاف المزيد من الميزات والقدرات المتقدمة لـ Aspose.Cells لـ Java لتلبية احتياجاتك من أتمتة Excel. إذا كانت لديك أي أسئلة محددة أو كنت بحاجة إلى مزيد من المساعدة، فلا تتردد في السؤال.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

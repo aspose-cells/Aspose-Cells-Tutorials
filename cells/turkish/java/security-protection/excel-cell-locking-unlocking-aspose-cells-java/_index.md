@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ public class FeatureCreateWorkbook {
 ### Özellik: Bir Çalışma Sayfasındaki Tüm Sütunların Kilidini Aç
 
 #### Genel bakış
-Tüm sütunların kilidini açmak, kullanıcıların çalışma sayfasının tamamındaki verileri kısıtlama olmaksızın özgürce düzenleyebilmesini sağlar.
+Tüm sütunların kilidini açmak, kullanıcıların çalışma sayfasının tamamında kısıtlama olmaksızın verileri özgürce düzenleyebilmesini sağlar.
 
 ##### Adım 2: Çalışma Kitabını Yükleyin ve Erişim Sağlayın
 ```java
@@ -195,6 +197,9 @@ Java'da veri işleme yeteneklerinizi geliştirmek için Aspose.Cells kütüphane
 - **Destek Forumu**: [Aspose Destek Forumu](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

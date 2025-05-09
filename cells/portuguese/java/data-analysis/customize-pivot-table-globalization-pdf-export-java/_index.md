@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ Após configurar sua tabela dinâmica, você pode exportá-la como PDF. Esta se�
    ```
 
 2. **Atualizar e calcular tabela dinâmica**
-   Garanta que a tabela dinâmica reflita os dados mais recentes:
+   Certifique-se de que a tabela dinâmica reflita os dados mais recentes:
 
    ```java
    Worksheet ws = wb.getWorksheets().get(1);
@@ -189,6 +191,9 @@ Dê o próximo passo na sua jornada de gerenciamento de dados com o Aspose.Cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

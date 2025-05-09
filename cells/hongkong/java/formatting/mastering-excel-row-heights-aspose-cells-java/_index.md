@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ workbook.save(outDir + "SettingHeightAllRows_out.xls");
 ## 常見問題部分
 1. **如何設定單獨的行高？**
    - 使用 `getCells().setRowHeight(row, height)` 方法在哪裡 `row` 是指數， `height` 以點為單位。
-2. **我可以同樣調整列寬嗎？**
+2. **我可以類似地調整列寬嗎？**
    - 是的，使用 `setColumnWidth(columnIndex, widthInPoints)` 用於列。
 3. **如果我的 Aspose.Cells 版本過時了怎麼辦？**
    - 將您的依賴項更新到最新的穩定版本以存取新功能和錯誤修復。
@@ -160,6 +162,9 @@ workbook.save(outDir + "SettingHeightAllRows_out.xls");
 - **支援**： [Aspose 論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

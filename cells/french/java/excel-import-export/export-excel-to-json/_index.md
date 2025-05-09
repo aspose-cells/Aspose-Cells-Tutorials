@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exporter Excel vers JSON
@@ -76,9 +78,11 @@ Félicitations ! Vous avez réussi à exporter des données Excel au format JSO
    Oui, vous pouvez télécharger une version d'essai d'Aspose.Cells pour Java depuis leur site Web pour évaluer ses fonctionnalités.
 
 N'hésitez pas à explorer d'autres possibilités avec Aspose.Cells pour Java pour améliorer vos capacités de traitement de données.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

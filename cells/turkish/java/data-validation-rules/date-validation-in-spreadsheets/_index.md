@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # E-Tablolarda Tarih Doğrulaması
@@ -112,11 +114,12 @@ Evet, Java için Aspose.Cells, Excel dosyalarıyla çalışmak için okuma, yazm
 
 ### Java için Aspose.Cells hakkında daha fazla kaynak ve örneği nerede bulabilirim?
 
-Şuraya başvurabilirsiniz: [Java API Referansı için Aspose.Cells](https://reference.aspose.com/cells/java/) kapsamlı dokümantasyon ve örnekler için.
+Şuna başvurabilirsiniz: [Java API Referansı için Aspose.Cells](https://reference.aspose.com/cells/java/) kapsamlı dokümantasyon ve örnekler için.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Bắt đầu bằng cách tải tệp bảng tính của bạn từ thư mục �
 Workbook wb = new Workbook("YOUR_DATA_DIRECTORY/sample.xlsx");
 ```
 
-**2. Truy cập vào trang tính**
+**2. Truy cập vào các trang tính**
 Truy cập vào bảng tính bạn muốn làm việc, thường bắt đầu bằng bảng tính đầu tiên:
 ```java
 Worksheet ws = wb.getWorksheets().get(0);
@@ -152,6 +154,9 @@ Bạn đã sẵn sàng triển khai giải pháp này chưa? Hãy khám phá th�
 Bằng cách thành thạo các kỹ thuật này, bạn sẽ được trang bị tốt để xử lý các tác vụ Excel phức tạp một cách dễ dàng bằng Aspose.Cells cho Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

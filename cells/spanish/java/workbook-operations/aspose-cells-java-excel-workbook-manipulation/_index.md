@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 ### Adquisición de licencias
 1. **Prueba gratuita**:Descarga la biblioteca desde [Sitio oficial de Aspose](https://releases.aspose.com/cells/java/) y probar con una licencia temporal.
-2. **Licencia temporal**: Obtenga uno para una evaluación extendida visitando el [página de licencia temporal](https://purchase.aspose.com/temporary-license/).
+2. **Licencia temporal**:Obtenga uno para una evaluación extendida visitando el [página de licencia temporal](https://purchase.aspose.com/temporary-license/).
 3. **Compra**:Para tener acceso completo, puedes comprar una licencia a través de [página de compra](https://purchase.aspose.com/buy).
 
 ### Inicialización básica
@@ -161,6 +163,9 @@ En este tutorial, exploramos cómo aprovechar Aspose.Cells para Java para realiz
 ¡Ahora, siga adelante y ponga a prueba sus nuevas habilidades creando o modificando libros de Excel usando Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

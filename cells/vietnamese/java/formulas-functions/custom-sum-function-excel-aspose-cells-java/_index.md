@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,6 +141,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách mở rộng c
 Hãy bắt đầu thử nghiệm Aspose.Cells for Java ngay hôm nay và khám phá tiềm năng mới trong các tác vụ xử lý dữ liệu của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

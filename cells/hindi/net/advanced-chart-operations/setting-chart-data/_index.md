@@ -1,14 +1,16 @@
 ---
-title: चार्ट डेटा सेट करना
-linktitle: चार्ट डेटा सेट करना
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: डेटा विज़ुअलाइज़ेशन को बढ़ाने के लिए एक विस्तृत, चरण-दर-चरण गाइड के माध्यम से .NET के लिए Aspose.Cells का उपयोग करके चार्ट डेटा सेट करना सीखें।
-weight: 16
-url: /hi/net/advanced-chart-operations/setting-chart-data/
+"description": "डेटा विज़ुअलाइज़ेशन को बढ़ाने के लिए एक विस्तृत, चरण-दर-चरण गाइड के माध्यम से .NET के लिए Aspose.Cells का उपयोग करके चार्ट डेटा सेट करना सीखें।"
+"linktitle": "चार्ट डेटा सेट करना"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट डेटा सेट करना"
+"url": "/hi/net/advanced-chart-operations/setting-chart-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट डेटा सेट करना
@@ -24,7 +26,7 @@ url: /hi/net/advanced-chart-operations/setting-chart-data/
 ### .NET के लिए Aspose.Cells स्थापित करें
 
 1. विजुअल स्टूडियो: .NET कोड लिखने और निष्पादित करने के लिए आपके कंप्यूटर पर Microsoft Visual Studio स्थापित होना चाहिए।
-2.  Aspose.Cells: Aspose.Cells लाइब्रेरी को डाउनलोड और इंस्टॉल करना सुनिश्चित करें। आप नवीनतम संस्करण पा सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells: Aspose.Cells लाइब्रेरी को डाउनलोड और इंस्टॉल करना सुनिश्चित करें। आप नवीनतम संस्करण पा सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 3. C# का मूलभूत ज्ञान: C# और .NET फ्रेमवर्क से परिचित होना इस ट्यूटोरियल में उपयोग किए जाने वाले कोड स्निपेट को समझने के लिए उपयोगी होगा।
 
 ## पैकेज आयात करें
@@ -48,7 +50,7 @@ using Aspose.Cells;
 string outputDir = "Your Output Directory";
 ```
 
- इस चरण में, आप निर्दिष्ट करते हैं कि आप अपनी एक्सेल फ़ाइल को कहाँ सहेजना चाहते हैं।`"Your Output Directory"` उस वास्तविक पथ के साथ जहाँ आप फ़ाइल को रखना चाहते हैं। यह पेंटिंग शुरू करने से पहले कार्यक्षेत्र को सेट करने जैसा है - आप हर जगह पेंट नहीं करना चाहेंगे!
+इस चरण में, आप निर्दिष्ट करते हैं कि आप अपनी एक्सेल फ़ाइल को कहाँ सहेजना चाहते हैं। `"Your Output Directory"` उस वास्तविक पथ के साथ जहाँ आप फ़ाइल को रखना चाहते हैं। यह पेंटिंग शुरू करने से पहले कार्यक्षेत्र को सेट करने जैसा है - आप हर जगह पेंट नहीं करना चाहेंगे!
 
 ## चरण 2: कार्यपुस्तिका बनाएँ
 
@@ -56,7 +58,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- यहाँ, आप एक उदाहरण बनाते हैं`Workbook` क्लास, जो कि मूलतः आपकी एक्सेल फ़ाइल है। इसे एक खाली कैनवास की तरह समझें जो डेटा और चार्ट से भरने के लिए आपका इंतज़ार कर रहा है। 
+यहाँ, आप एक उदाहरण बनाते हैं `Workbook` क्लास, जो कि मूलतः आपकी एक्सेल फ़ाइल है। इसे एक खाली कैनवास की तरह समझें जो डेटा और चार्ट से भरने के लिए आपका इंतज़ार कर रहा है। 
 
 ## चरण 3: पहली वर्कशीट तक पहुँचें
 
@@ -154,19 +156,21 @@ Console.WriteLine("SettingChartsData executed successfully.");
 Aspose.Cells एक .NET लाइब्रेरी है जो उपयोगकर्ताओं को Excel फ़ाइलें बनाने, उनमें हेरफेर करने, उन्हें परिवर्तित करने और रेंडर करने की अनुमति देती है।
 
 ### मैं .NET के लिए Aspose.Cells कैसे स्थापित करूं?  
- आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/) और इसे NuGet पैकेज मैनेजर के माध्यम से अपने प्रोजेक्ट में जोड़ें।
+आप इसे यहां से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/) और इसे NuGet पैकेज मैनेजर के माध्यम से अपने प्रोजेक्ट में जोड़ें।
 
 ### क्या मैं Aspose.Cells के साथ विभिन्न प्रकार के चार्ट बना सकता हूँ?  
 हाँ! Aspose.Cells विभिन्न चार्ट प्रकारों का समर्थन करता है, जिसमें लाइन, बार, पाई और बहुत कुछ शामिल है।
 
 ### क्या Aspose.Cells के लिए कोई निःशुल्क परीक्षण उपलब्ध है?  
- बिलकुल! आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप निःशुल्क परीक्षण का लाभ उठा सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.Cells के लिए तकनीकी सहायता कैसे प्राप्त करूं?  
- सहायता के लिए आप यहां जा सकते हैं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+सहायता के लिए आप यहां जा सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

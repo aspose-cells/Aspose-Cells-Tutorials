@@ -8,7 +8,9 @@ url: /net/excel-page-breaks/excel-remove-specific-page-break/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Remove Specific Page Break
@@ -128,6 +130,7 @@ Aspose.Cells offers a free trial, but for full functionality, you will need to p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

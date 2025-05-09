@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ Ebben a cikkben azt vizsgáljuk meg, hogyan olvashatók be az Excel-munkafüzete
    ```
 
 3. **Képleteken keresztüli iteráció**
-   Végezzük el az egyes képleteket, és nyomtassuk ki a részleteiket:
+   Végigmegyünk az egyes képleteken, és kiírjuk a részleteiket:
 
    ```java
    for (Object obj : PQFcoll) {
@@ -170,6 +172,9 @@ Látogassa meg a [Aspose fórum](https://forum.aspose.com/c/cells/9) közösség
 - **Vásárlás**: Vásároljon licencet vagy kérjen próbaverziót a következő címen: [purchase.aspose.com](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

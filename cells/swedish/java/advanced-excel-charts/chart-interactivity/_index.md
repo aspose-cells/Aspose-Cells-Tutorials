@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Diagraminteraktivitet
@@ -73,7 +75,7 @@ chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(
 För att implementera detaljgranskningsfunktioner kan du använda hyperlänkar eller skapa anpassade åtgärder. Här är ett exempel på hur du lägger till en hyperlänk till en datapunkt:
 
 ```java
-// Lägg till en hyperlänk till en datapunkt
+// Lägga till en hyperlänk till en datapunkt
 String url = "https://exempel.com/data-detaljer";
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
@@ -88,7 +90,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ## Slutsats
 
-I den här handledningen har vi visat dig hur du skapar interaktiva diagram med Aspose.Cells för Java. Du har lärt dig hur du lägger till verktygstips, dataetiketter och till och med implementerar detaljgranskningsfunktioner. Dessa funktioner förbättrar interaktiviteten i dina diagram och förbättrar dataförståelsen för dina användare.
+den här handledningen har vi visat dig hur du skapar interaktiva diagram med Aspose.Cells för Java. Du har lärt dig hur du lägger till verktygstips, dataetiketter och till och med implementerar detaljgranskningsfunktioner. Dessa funktioner förbättrar interaktiviteten i dina diagram och förbättrar dataförståelsen för dina användare.
 
 ## Vanliga frågor
 
@@ -111,6 +113,7 @@ Du kan utforska fler exempel och detaljerad dokumentation om hur du använder As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

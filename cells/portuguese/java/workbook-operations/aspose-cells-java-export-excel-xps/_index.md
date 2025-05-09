@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Depois que seu ambiente estiver configurado, inicialize a biblioteca criando uma
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Defina aqui o caminho real do seu diretório de dados
+String dataDir = "YOUR_DATA_DIRECTORY"; // Defina aqui o caminho atual do seu diretório de dados
 Workbook workbook = new Workbook(dataDir + "/Book1.xlsx");
 ```
 
@@ -186,6 +188,9 @@ Com este guia, você estará bem equipado para começar a converter arquivos do 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

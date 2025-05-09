@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengimpor Data MS Access ke Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin menyederhanakan proses pengimporan data dari database Microsoft Access langsung ke buku kerja Excel menggunakan Java? Banyak pengembang menghadapi tantangan saat mengotomatiskan tugas ini, sering kali karena tidak terbiasa dengan pustaka canggih seperti Aspose.Cells untuk Java. Tutorial ini memandu Anda melalui pengintegrasian data MS Access ke dalam buku kerja Excel menggunakan Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan koneksi basis data di Java.
 - Menjalankan kueri SQL dan menangani kumpulan hasil.
 - Menggunakan Aspose.Cells untuk Java untuk mengimpor data ke dalam buku kerja Excel.
@@ -25,19 +27,19 @@ Apakah Anda ingin menyederhanakan proses pengimporan data dari database Microsof
 
 Mari kita tinjau prasyaratnya sebelum kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Pastikan Anda memiliki hal berikut ini:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru.
 - Driver JDBC untuk UCanAccess untuk terhubung dengan basis data MS Access.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Lingkungan pengembangan yang mampu menjalankan aplikasi Java (misalnya, IntelliJ IDEA, Eclipse).
 - Berkas basis data Microsoft Access (.accdb) yang ada berisi tabel "Siswa".
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java dan query SQL.
 - Kemampuan menggunakan Maven atau Gradle untuk mengelola dependensi.
 
@@ -46,7 +48,7 @@ Pastikan Anda memiliki hal berikut ini:
 Integrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven atau Gradle. 
 
 **Pakar:**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,16 +58,16 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 **Gradasi:**
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
-- **Uji Coba Gratis:** Unduh lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk menjelajahi kemampuan Aspose.Cells sepenuhnya.
-- **Pembelian:** Dapatkan lisensi komersial untuk penggunaan berkelanjutan di [tautan ini](https://purchase.aspose.com/buy).
+### Licencszerzés
+- **Ingyenes próbaverzió:** Ideiglenes licenc letöltése innen [Aspose weboldala](https://purchase.aspose.com/temporary-license/) untuk menjelajahi kemampuan Aspose.Cells sepenuhnya.
+- **Vásárlás:** Dapatkan lisensi komersial untuk penggunaan berkelanjutan di [ezt a linket](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Inisialisasi Aspose.Cells di aplikasi Java Anda sebagai berikut:
 ```java
 import com.aspose.cells.Workbook;
@@ -73,12 +75,12 @@ import com.aspose.cells.Workbook;
 Workbook wb = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini memandu Anda dalam penerapan solusi, dibagi berdasarkan fitur.
 
 ### Menghubungkan ke Basis Data MS Access
-**Ringkasan:** Buat koneksi ke basis data MS Access menggunakan JDBC dan driver UCanAccess.
+**Áttekintés:** Buat koneksi ke basis data MS Access menggunakan JDBC dan driver UCanAccess.
 
 #### Langkah 1: Impor Paket yang Diperlukan
 ```java
@@ -88,7 +90,7 @@ import java.sql.Statement;
 ```
 
 #### Langkah 2: Siapkan Koneksi
-Mengganti `YOUR_DATA_DIRECTORY` dengan jalur ke direktori Anda yang berisi `.accdb` mengajukan.
+Csere `YOUR_DATA_DIRECTORY` dengan jalur ke direktori Anda yang berisi `.accdb` fájl.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Connection conn = DriverManager.getConnection("jdbc:ucanaccess://" + dataDir + "/Students.accdb");
@@ -96,7 +98,7 @@ Statement st = conn.createStatement();
 ```
 
 ### Menjalankan Query SQL dan Mendapatkan ResultSet
-**Ringkasan:** Jalankan kueri untuk mengambil semua data dari tabel 'Siswa'.
+**Áttekintés:** Jalankan kueri untuk mengambil semua data dari tabel 'Siswa'.
 
 #### Langkah 3: Jalankan Query
 ```java
@@ -105,7 +107,7 @@ ResultSet rs = st.executeQuery("SELECT * FROM Student");
 ```
 
 ### Mengimpor Data ke Excel
-**Ringkasan:** Manfaatkan Aspose.Cells untuk Java untuk mengimpor data yang diambil dari MS Access ke dalam buku kerja Excel.
+**Áttekintés:** Manfaatkan Aspose.Cells untuk Java untuk mengimpor data yang diambil dari MS Access ke dalam buku kerja Excel.
 
 #### Langkah 4: Membuat dan Mengonfigurasi Buku Kerja
 ```java
@@ -119,7 +121,7 @@ Cells cells = ws.getCells();
 ```
 
 #### Langkah 5: Impor ResultSet ke Excel
-Inisialisasi `ImportTableOptions` untuk konfigurasi tambahan.
+Inicializálás `ImportTableOptions` untuk konfigurasi tambahan.
 ```java
 import com.aspose.cells.ImportTableOptions;
 ImportTableOptions options = new ImportTableOptions();
@@ -134,43 +136,43 @@ cells.importResultSet(rs, "G10", options); // Impor ke sel G10
 ```
 
 ### Kolom yang Sesuai Otomatis
-**Ringkasan:** Sesuaikan lebar kolom secara otomatis agar lebih mudah dibaca.
+**Áttekintés:** Sesuaikan lebar kolom secara otomatis agar lebih mudah dibaca.
 
 #### Langkah 7: Sesuaikan Kolom Secara Otomatis di Lembar Kerja
 ```java
 ws.autoFitColumns();
 ```
 
-### Simpan Buku Kerja
-**Ringkasan:** Simpan buku kerja yang telah diisi ke direktori yang ditentukan.
+### A munkafüzet mentése
+**Áttekintés:** Simpan buku kerja yang telah diisi ke direktori yang ditentukan.
 
 #### Langkah 8: Tentukan Direktori Output dan Simpan File
-Mengganti `YOUR_OUTPUT_DIRECTORY` dengan lokasi keluaran yang Anda inginkan.
+Csere `YOUR_OUTPUT_DIRECTORY` dengan lokasi keluaran yang Anda inginkan.
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "/outputImportResultSet.xlsx");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Manajemen Data Siswa:** Otomatisasi pengimporan catatan siswa untuk analisis atau pelaporan di Excel.
-2. **Pelacakan Inventaris:** Memperlancar impor data dari basis data Access ke lembar kerja Excel untuk manajemen inventaris.
+2. **Készletkövetés:** Memperlancar impor data dari basis data Access ke lembar kerja Excel untuk manajemen inventaris.
 3. **Pelaporan Penjualan:** Memfasilitasi pembuatan laporan secara cepat dengan mengimpor data penjualan langsung ke buku kerja Excel.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - **Mengoptimalkan Kueri SQL**Pastikan kueri Anda efisien untuk meminimalkan waktu eksekusi dan penggunaan sumber daya.
 - **Kelola Penggunaan Memori**: Gunakan pengumpulan sampah Java secara efektif saat menangani kumpulan data besar.
 - **Pemrosesan Data Batch**: Memecah impor data ke dalam kelompok yang lebih kecil jika bekerja dengan basis data yang luas.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, Anda mempelajari cara menghubungkan database Microsoft Access menggunakan UCanAccess di Java, menjalankan kueri SQL, dan mengimpor hasilnya ke dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Metode ini efisien, dapat diskalakan, dan dapat disesuaikan dengan berbagai kebutuhan manajemen data.
 
-**Langkah Berikutnya:**
-- Jelajahi fitur tambahan Aspose.Cells.
+**Következő lépések:**
+- Fedezze fel az Aspose.Cells további funkcióit.
 - Integrasikan solusi ini dengan sistem lain seperti aplikasi web atau alat pelaporan.
 
 Siap untuk meningkatkan kemampuan penanganan data Anda? Terapkan langkah-langkah yang diuraikan di atas hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara menangani kumpulan data besar saat mengimpor dari Access ke Excel menggunakan Java?**
    - Optimalkan kueri SQL dan pertimbangkan pemrosesan secara batch untuk kinerja yang lebih baik.
 2. **Bisakah Aspose.Cells bekerja dengan tipe database lain selain MS Access?**
@@ -182,14 +184,17 @@ Siap untuk meningkatkan kemampuan penanganan data Anda? Terapkan langkah-langkah
 5. **Bagaimana saya dapat memecahkan masalah koneksi dengan UCanAccess?**
    - Pastikan driver JDBC dikonfigurasikan dengan benar dan jalur basis data akurat.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Lisensi Uji Coba Gratis](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

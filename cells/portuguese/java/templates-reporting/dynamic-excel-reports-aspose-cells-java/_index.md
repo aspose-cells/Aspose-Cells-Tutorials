@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ range.setRefersTo(
 ## Aplicações práticas
 
 1. **Análise de dados:** Use intervalos nomeados para gerenciar grandes conjuntos de dados com eficiência, facilitando uma melhor análise de dados.
-2. **Relatórios financeiros:** Implemente modelos financeiros dinâmicos usando fórmulas complexas vinculadas por intervalos nomeados.
+2. **Relatórios financeiros:** Implemente modelos financeiros dinâmicos usando fórmulas complexas vinculadas por meio de intervalos nomeados.
 3. **Gestão de estoque:** Automatize cálculos de estoque com fórmulas baseadas em intervalos nomeados para rastrear níveis de estoque dinamicamente.
 
 Essas técnicas também podem se integrar perfeitamente a outros sistemas, como bancos de dados e serviços da web, para melhorar a funcionalidade.
@@ -179,6 +181,9 @@ Pronto para implementar o que aprendeu? Comece a criar relatórios dinâmicos ho
 Mergulhe no mundo dos relatórios dinâmicos do Excel com o Aspose.Cells para Java e libere novos potenciais no gerenciamento de dados!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

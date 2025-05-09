@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ workbook.save(outDir + "/databar.xlsx", SaveFormat.XLSX);
 ## 實際應用
 
 1. **報告**：透過嵌入資料條影像來增強公司報告，以便更清晰地呈現資料。
-2. **儀表板**：整合到儀表板以一目了然地提供視覺洞察。
+2. **儀表板**：整合到儀表板，一目了然地提供視覺洞察。
 3. **數據共享**：輕鬆與可能未安裝 Excel 的利害關係人共用格式化資料。
 4. **文件**：嵌入技術文件中，以便更好地了解資料趨勢。
 
@@ -211,6 +213,9 @@ workbook.save(outDir + "/databar.xlsx", SaveFormat.XLSX);
 - [社區支持](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

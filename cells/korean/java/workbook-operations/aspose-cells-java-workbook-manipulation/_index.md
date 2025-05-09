@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Excel에서 대용량 데이터 세트를 작업할 때 다음 팁을 고려하�
 - **구매 및 무료 체험**: 라이선스 취득 또는 무료 평가판 시작에 대해 자세히 알아보세요. [Aspose 구매](https://purchase.aspose.com/buy) 그리고 [무료 체험](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

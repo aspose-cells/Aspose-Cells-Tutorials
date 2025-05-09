@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Dzięki temu przewodnikowi nauczyłeś się, jak skutecznie zarządzać i wypeł
 Jeśli chcesz dowiedzieć się więcej, rozważ zapoznanie się z bardziej zaawansowanymi funkcjami Aspose.Cells lub eksperymentowanie z różnymi typami struktur danych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

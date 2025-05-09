@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,7 +194,7 @@ A3: Considere utilizar API de transmisión y procesar datos de forma incremental
 **P4: ¿Es posible personalizar el formato de archivo Excel generado?**
 A4: ¡Claro! Puedes configurar varias opciones de formato, como fuentes, colores y estilos, mediante programación.
 
-**P5: ¿Dónde puedo encontrar más ejemplos de uso de Aspose.Cells?**
+**P5: ¿Dónde puedo encontrar más ejemplos del uso de Aspose.Cells?**
 A5: Visita el [Documentación de Aspose](https://reference.aspose.com/cells/java/) para guías completas y ejemplos de código.
 
 ## Recursos
@@ -204,6 +206,9 @@ A5: Visita el [Documentación de Aspose](https://reference.aspose.com/cells/java
 - **Foro de soporte**: [Soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

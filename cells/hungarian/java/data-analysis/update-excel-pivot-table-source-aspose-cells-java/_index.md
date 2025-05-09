@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencbeszerzés lépései
-1. **Ingyenes próbaverzió**Töltsön le egy ideiglenes licencet az Aspose weboldaláról tesztelési célokra.
+1. **Ingyenes próbaverzió**Tesztelési célból töltsön le egy ideiglenes licencet az Aspose weboldaláról.
 2. **Ideiglenes engedély**Igényeljen ideiglenes licencet az Aspose.Cells összes funkciójának kipróbálásához.
 3. **Vásárlás**: Vásároljon licencet, ha elégedett a próbaverzióval.
 
@@ -152,7 +154,7 @@ Végül mentse el a módosításokat egy Excel fájlba.
 ```java
 public class ChangeSourceData {
     public static void main(String[] args) throws Exception {
-        // Mentse el a munkafüzetet a módosításokkal.
+        // Mentse el a munkafüzetet a módosításokkal együtt.
         workbook.save(dataDir + "ChangeSourceData_out.xls");
     }
 }
@@ -166,7 +168,7 @@ public class ChangeSourceData {
 
 ## Gyakorlati alkalmazások
 A pivot tábla forrásadatainak Aspose.Cells segítségével történő módosítása különféle valós helyzetekben használható, például:
-1. **Pénzügyi jelentéstétel**: Negyedéves értékesítési adatok frissítése a jelentéskonfigurációk elvesztése nélkül.
+1. **Pénzügyi jelentéstétel**Negyedéves értékesítési adatok frissítése a jelentéskonfigurációk elvesztése nélkül.
 2. **Készletgazdálkodás**: Készletnyilvántartás frissítése az elemzési jelentések karbantartása mellett.
 3. **Projektkövetés**: A feladatok elvégzésének arányának dinamikus módosítása és a projekt mutatóinak frissítése.
 
@@ -201,6 +203,9 @@ Ebben az útmutatóban megtanultad, hogyan módosíthatod egy pivottábla forrá
 Ezekkel az anyagokkal és ezzel az átfogó útmutatóval most már képes leszel hatékonyan kezelni a pivot tábla forrásadatainak változásait az Aspose.Cells használatával Java nyelven. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

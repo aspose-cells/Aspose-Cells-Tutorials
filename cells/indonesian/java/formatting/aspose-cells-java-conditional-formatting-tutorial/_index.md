@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Pemformatan Bersyarat di Aspose.Cells Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Menavigasi kumpulan data yang kompleks dapat menjadi tantangan, terutama saat menyajikannya dengan jelas. **Aspose.Cells untuk Java** menawarkan solusi yang hebat dengan mengaktifkan spreadsheet yang dinamis dan menarik secara visual langsung dari aplikasi Java Anda. Baik Anda sedang membuat laporan keuangan, dasbor, atau aplikasi apa pun yang memerlukan manipulasi spreadsheet, Aspose.Cells menyederhanakan prosesnya.
 
 Tutorial ini berfokus pada penerapan format bersyarat untuk meningkatkan visualisasi data. Dirancang untuk pengembang, tutorial ini memandu Anda menggunakan Aspose.Cells Java untuk membuat laporan Excel yang dinamis dan bergaya profesional.
 
-### Apa yang Akan Anda Pelajari
+### Amit tanulni fogsz
 
 - Menyiapkan lingkungan Anda dengan Aspose.Cells untuk Java.
 - Membuat buku kerja dan mengakses lembar kerja secara terprogram.
@@ -28,11 +30,11 @@ Tutorial ini berfokus pada penerapan format bersyarat untuk meningkatkan visuali
 
 Mari kita bahas prasyaratnya sebelum kita terjun ke implementasi.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Anda memerlukan Aspose.Cells untuk Java. Berikut adalah petunjuk untuk mengintegrasikannya menggunakan Maven atau Gradle:
 
@@ -50,12 +52,12 @@ Anda memerlukan Aspose.Cells untuk Java. Berikut adalah petunjuk untuk menginteg
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - IDE seperti IntelliJ IDEA, Eclipse, atau editor teks apa pun yang mendukung Java.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 
 Pemahaman dasar tentang pemrograman Java dan keakraban dengan lembar kerja Excel akan bermanfaat untuk tutorial ini.
 
@@ -63,32 +65,32 @@ Pemahaman dasar tentang pemrograman Java dan keakraban dengan lembar kerja Excel
 
 Untuk menggunakan Aspose.Cells untuk Java secara efektif:
 
-1. **Instal Perpustakaan**: Tambahkan dependensi Maven atau Gradle di atas untuk menyertakan Aspose.Cells dalam proyek Anda.
-2. **Akuisisi Lisensi**:
-   - Dapatkan lisensi sementara dari [Halaman Lisensi Sementara Aspose](https://purchase.aspose.com/temporary-license/) untuk akses fitur lengkap selama pengembangan.
-   - Atau, gunakan versi uji coba gratis dengan mengunduhnya dari [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-3. **Inisialisasi Dasar**Buat proyek Java baru dan pastikan lingkungan Anda siap untuk membangun dan menjalankan aplikasi Java.
+1. **Telepítse a könyvtárat**: Tambahkan dependensi Maven atau Gradle di atas untuk menyertakan Aspose.Cells dalam proyek Anda.
+2. **Licencszerzés**:
+   - Szerezzen be ideiglenes engedélyt [Az Aspose ideiglenes engedély oldala](https://purchase.aspose.com/temporary-license/) untuk akses fitur lengkap selama pengembangan.
+   - Atau, gunakan versi uji coba gratis dengan mengunduhnya dari [Aspose letöltések](https://releases.aspose.com/cells/java/).
+3. **Alapvető inicializálás**Buat proyek Java baru dan pastikan lingkungan Anda siap untuk membangun dan menjalankan aplikasi Java.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini menguraikan proses menjadi langkah-langkah yang dapat dikelola untuk menerapkan pemformatan bersyarat menggunakan Aspose.Cells.
 
-### Membuat dan Mengakses Buku Kerja
+### Munkafüzet létrehozása és elérése
 
-#### Ringkasan
+#### Áttekintés
 Mulailah dengan membuat contoh `Workbook`, yang berfungsi sebagai wadah untuk lembar kerja Anda. Anda kemudian dapat mengakses lembar kerja dalam buku kerja ini untuk menerapkan modifikasi.
 
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Inisialisasi buku kerja baru
+// Új munkafüzet inicializálása
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook book = new Workbook();
 
-// Akses lembar kerja pertama di buku kerja
+// A munkafüzet első munkalapjának elérése
 Worksheet sheet = book.getWorksheets().get(0);
 ```
 
@@ -97,7 +99,7 @@ Worksheet sheet = book.getWorksheets().get(0);
 
 ### Menerapkan Pemformatan Bersyarat
 
-#### Ringkasan
+#### Áttekintés
 Pemformatan bersyarat memungkinkan Anda menerapkan gaya berdasarkan kondisi atau ekspresi. Dalam contoh ini, kita akan memformat sel dalam baris genap dengan latar belakang biru menggunakan ekspresi yang mirip dengan Excel `MOD` fungsi.
 
 ```java
@@ -133,7 +135,7 @@ formatCondition.getStyle().setPattern(BackgroundType.SOLID);
 
 ### Menyimpan Buku Kerja ke Disk
 
-#### Ringkasan
+#### Áttekintés
 Setelah menerapkan format bersyarat yang diinginkan, simpan buku kerja ke direktori keluaran Anda. Langkah ini menyelesaikan semua perubahan dan memungkinkan Anda untuk melihat atau berbagi berkas Excel.
 
 ```java
@@ -143,31 +145,31 @@ book.save(outDir + "ASToARAC_out.xlsx");
 
 - **`save()`**: Menulis buku kerja ke disk pada jalur yang ditentukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah skenario dunia nyata di mana penerapan pemformatan bersyarat dapat bermanfaat:
 
-1. **Laporan Keuangan**: Sorot keuntungan dan kerugian dengan memberi warna pada sel berdasarkan ambang batas nilai.
-2. **Manajemen Inventaris**Gunakan kode warna untuk menunjukkan tingkat stok (misalnya, merah untuk rendah, hijau untuk cukup).
+1. **Pénzügyi jelentések**: Sorot keuntungan dan kerugian dengan memberi warna pada sel berdasarkan ambang batas nilai.
+2. **Készletgazdálkodás**Gunakan kode warna untuk menunjukkan tingkat stok (misalnya, merah untuk rendah, hijau untuk cukup).
 3. **Dasbor Kinerja**: Tingkatkan keterbacaan dengan membedakan antara orang yang berkinerja tinggi dan rendah dalam tim penjualan.
-4. **Analisis Data**: Secara otomatis menandai anomali atau outlier dalam kumpulan data.
+4. **Adatelemzés**: Secara otomatis menandai anomali atau outlier dalam kumpulan data.
 5. **Penjadwalan Proyek**: Kode warna tugas berdasarkan statusnya (belum dimulai, sedang berlangsung, selesai).
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan kumpulan data besar, pertimbangkan kiat-kiat berikut untuk mengoptimalkan kinerja:
+Nagy adathalmazokkal való munka során a teljesítmény optimalizálása érdekében vegye figyelembe az alábbi tippeket:
 
 - Minimalkan jumlah aturan pemformatan bersyarat yang diterapkan secara bersamaan untuk mengurangi waktu pemrosesan.
 - Gunakan rumus efisien yang tidak memerlukan perhitungan ulang seluruh baris atau kolom yang tidak diperlukan.
 - Kelola penggunaan memori dengan menyimpan perubahan secara berkala dan membebaskan sumber daya jika menangani buku kerja yang sangat besar.
 
-## Kesimpulan
+## Következtetés
 
 Selamat atas penerapan Java Aspose.Cells untuk menerapkan pemformatan bersyarat! Fitur ini dapat meningkatkan tampilan visual data dalam aplikasi Anda secara signifikan, membuatnya lebih intuitif dan dapat ditindaklanjuti. 
 
 Sebagai langkah berikutnya, jelajahi fitur-fitur lain yang ditawarkan oleh Aspose.Cells untuk lebih memperkaya solusi spreadsheet Anda. Pertimbangkan untuk mengintegrasikan fungsionalitas ini ke dalam proyek yang lebih besar atau bereksperimen dengan berbagai jenis format bersyarat.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Dapatkah saya menggunakan Aspose.Cells Java untuk memproses beberapa file Excel secara batch?**
 Ya, Anda dapat mengotomatiskan proses penerapan pemformatan bersyarat di beberapa buku kerja menggunakan struktur loop dalam aplikasi Java Anda.
@@ -182,6 +184,9 @@ Ya, Anda dapat mereferensikan sel di berbagai lembar menggunakan referensi Excel
 Tentukan format penyimpanan yang diinginkan (misalnya, XLS atau XLSX) untuk menjaga kompatibilitas dengan berbagai versi Excel. Aspose.Cells mendukung berbagai format.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

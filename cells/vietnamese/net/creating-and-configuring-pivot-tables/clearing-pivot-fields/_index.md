@@ -1,14 +1,16 @@
 ---
-title: Xóa các trường Pivot theo chương trình trong .NET
-linktitle: Xóa các trường Pivot theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Aspose.Cells cho .NET. Xóa các trường Pivot trong Excel một cách dễ dàng với hướng dẫn từng bước đầy đủ của chúng tôi.
-weight: 11
-url: /vi/net/creating-and-configuring-pivot-tables/clearing-pivot-fields/
+"description": "Mở khóa sức mạnh của Aspose.Cells cho .NET. Xóa các trường Pivot trong Excel một cách dễ dàng với hướng dẫn từng bước đầy đủ của chúng tôi."
+"linktitle": "Xóa các trường Pivot theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xóa các trường Pivot theo chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/clearing-pivot-fields/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa các trường Pivot theo chương trình trong .NET
@@ -20,7 +22,7 @@ Bạn đã bao giờ lang thang qua vô số bảng tính Excel, cố gắng tì
 Trước khi bắt đầu hành trình này, bạn cần chuẩn bị một số thứ sau trong bộ công cụ của mình:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Chúng tôi sẽ sử dụng IDE này để viết mã .NET.
-2.  Aspose.Cells for .NET: Đây là gói chính mà chúng ta sẽ sử dụng để thao tác với các tệp Excel. Nếu bạn chưa thực hiện, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Đây là gói chính mà chúng ta sẽ sử dụng để thao tác với các tệp Excel. Nếu bạn chưa thực hiện, bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Bạn không cần phải là chuyên gia, nhưng việc hiểu biết cơ bản về C# sẽ giúp bạn điều hướng đoạn mã mà chúng ta sẽ cùng khám phá.
 
 ## Nhập gói
@@ -62,7 +64,7 @@ Tiếp theo, hãy tải tệp Excel mà chúng ta muốn làm việc. Hãy nghĩ
 // Tải một tập tin mẫu
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Ở đây, chúng ta đang tạo ra một cái mới`Workbook` đối tượng và tải tệp Excel có tên "Book1.xls". Điều này cho phép chúng ta tương tác với dữ liệu hiện có.
+Ở đây, chúng ta đang tạo ra một cái mới `Workbook` đối tượng và tải tệp Excel có tên "Book1.xls". Điều này cho phép chúng ta tương tác với dữ liệu hiện có.
 
 ## Bước 3: Truy cập vào Bảng tính
 Bây giờ chúng ta đã mở sổ làm việc, chúng ta cần truy cập vào trang tính cụ thể chứa các bảng trục. Giống như lật qua các trang để tìm trang bạn cần.
@@ -71,7 +73,7 @@ Bây giờ chúng ta đã mở sổ làm việc, chúng ta cần truy cập vào
 // Nhận bảng tính đầu tiên
 Worksheet sheet = workbook.Worksheets[0];
 ```
- Các`Worksheets`collection cho phép chúng ta lấy bất kỳ trang tính nào theo chỉ mục của nó (bắt đầu từ 0). Ở đây, chúng ta chỉ lấy trang tính đầu tiên.
+Các `Worksheets` collection cho phép chúng ta lấy bất kỳ trang tính nào theo chỉ mục của nó (bắt đầu từ 0). Ở đây, chúng ta chỉ lấy trang tính đầu tiên.
 
 ## Bước 4: Lấy Bảng Pivot
 Bước tiếp theo là thu thập tất cả các bảng trục từ bảng tính đã chọn của chúng ta. Đã đến lúc xem chúng ta đang làm việc với cái gì!
@@ -80,7 +82,7 @@ Bước tiếp theo là thu thập tất cả các bảng trục từ bảng tí
 // Lấy các bảng trục trong trang tính
 PivotTableCollection pivotTables = sheet.PivotTables;
 ```
- Chúng tôi tạo ra một`PivotTableCollection` trường hợp chứa tất cả các bảng trục được tìm thấy trên trang tính. Đây là hộp công cụ của chúng tôi để quản lý các bảng trục.
+Chúng tôi tạo ra một `PivotTableCollection` trường hợp chứa tất cả các bảng trục được tìm thấy trên trang tính. Đây là hộp công cụ của chúng tôi để quản lý các bảng trục.
 
 ## Bước 5: Truy cập Bảng Pivot đầu tiên
 Hãy tập trung vào bảng trục đầu tiên cho ví dụ này. Nó giống như quyết định làm việc trên một dự án duy nhất thay vì làm quá nhiều dự án cùng một lúc!
@@ -94,10 +96,10 @@ Giống như trước, chúng ta đang truy cập bảng trục đầu tiên. H�
 ## Bước 6: Xóa trường dữ liệu
 Bây giờ chúng ta sẽ đến phần hấp dẫn: xóa các trường dữ liệu của bảng trục. Điều này giúp thiết lập lại bất kỳ phép tính hoặc tóm tắt nào.
 ```csharp
-//Xóa tất cả các trường dữ liệu
+// Xóa tất cả các trường dữ liệu
 pivotTable.DataFields.Clear();
 ```
- Các`Clear()` phương pháp này giống như nhấn nút thiết lập lại, cho phép chúng ta bắt đầu lại với các trường dữ liệu của mình.
+Các `Clear()` phương pháp này giống như nhấn nút thiết lập lại, cho phép chúng ta bắt đầu lại với các trường dữ liệu của mình.
 
 ## Bước 7: Thêm trường dữ liệu mới
 Sau khi xóa các trường dữ liệu cũ, chúng ta có thể thêm các trường dữ liệu mới. Bước này cũng giống như việc thay đổi nguyên liệu trong công thức nấu ăn cho một món ăn mới!
@@ -114,7 +116,7 @@ Tiếp theo, hãy đảm bảo dữ liệu của chúng ta được làm mới �
 // Đặt cờ làm mới dữ liệu trên
 pivotTable.RefreshDataFlag = false;
 ```
- Thiết lập`RefreshDataFlag` để false tránh việc lấy dữ liệu không cần thiết. Giống như bảo trợ lý của bạn đừng đi tìm đồ tạp hóa ngay bây giờ vậy!
+Thiết lập `RefreshDataFlag` để false tránh việc lấy dữ liệu không cần thiết. Giống như bảo trợ lý của bạn đừng đi tìm đồ tạp hóa ngay bây giờ vậy!
 
 ## Bước 9: Làm mới và tính toán dữ liệu
 Hãy nhấn nút làm mới và thực hiện một số phép tính để đảm bảo bảng trục của chúng ta được cập nhật dữ liệu mới.
@@ -124,7 +126,7 @@ Hãy nhấn nút làm mới và thực hiện một số phép tính để đả
 pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
- Các`RefreshData()`phương pháp này lấy dữ liệu hiện tại và cập nhật bảng trục. Trong khi đó,`CalculateData()` xử lý mọi phép tính cần thực hiện.
+Các `RefreshData()` phương pháp này lấy dữ liệu hiện tại và cập nhật bảng trục. Trong khi đó, `CalculateData()` xử lý mọi phép tính cần thực hiện.
 
 ## Bước 10: Lưu sổ làm việc
 Cuối cùng, hãy lưu những thay đổi chúng ta đã thực hiện vào tệp Excel. Giống như việc dán phong bì sau khi viết thư vậy!
@@ -144,7 +146,7 @@ Bạn vừa học cách xóa các trường trục theo chương trình trong .N
 Aspose.Cells for .NET là thư viện để thao tác với tệp Excel, cho phép người dùng tạo, chỉnh sửa, chuyển đổi và in các tệp Excel.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?
- Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu bằng bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể xóa nhiều trường trục bằng phương pháp này không?
 Có! Bạn có thể sử dụng vòng lặp để lặp qua nhiều bảng trục và xóa các trường của chúng khi cần.
@@ -153,10 +155,12 @@ Có! Bạn có thể sử dụng vòng lặp để lặp qua nhiều bảng tr�
 Bạn có thể làm việc với nhiều định dạng Excel khác nhau như XLS, XLSX, CSV và nhiều định dạng khác nữa.
 
 ### Có cộng đồng nào giúp đỡ sử dụng Aspose.Cells không?
- Chắc chắn rồi! Có thể tìm thấy sự hỗ trợ của cộng đồng Aspose[đây](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Có thể tìm thấy sự hỗ trợ của cộng đồng Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

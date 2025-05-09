@@ -1,27 +1,29 @@
 ---
-title: Mengisi Data Secara Otomatis di Seluruh Lembar di Aspose.Cells
-linktitle: Mengisi Data Secara Otomatis di Seluruh Lembar di Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara mengisi data secara otomatis di beberapa lembar kerja di Excel menggunakan pustaka Aspose.Cells for .NET. Pelajari proses langkah demi langkah untuk menyederhanakan tugas pengelolaan data Anda.
-weight: 11
-url: /id/net/smart-markers-dynamic-data/auto-populate-data-smart-markers/
+"description": "Ismerje meg, hogyan töltheti ki automatikusan az adatokat több munkalapon Excelben az Aspose.Cells for .NET könyvtár segítségével. Ismerje meg a lépésről lépésre haladó folyamatot az adatkezelési feladatok egyszerűsítéséhez."
+"linktitle": "Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben"
+"url": "/id/net/smart-markers-dynamic-data/auto-populate-data-smart-markers/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengisi Data Secara Otomatis di Seluruh Lembar di Aspose.Cells
+# Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben
 
-## Perkenalan
-Dalam dunia manajemen dan otomatisasi data, kemampuan untuk mengisi data secara efisien di beberapa lembar kerja merupakan tugas yang krusial. Aspose.Cells untuk .NET menyediakan solusi yang ampuh untuk masalah ini, yang memungkinkan Anda mentransfer data dari sumber data ke beberapa lembar dalam buku kerja Excel dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses pengisian data otomatis di seluruh lembar kerja langkah demi langkah menggunakan pustaka Aspose.Cells.
-## Prasyarat
-Sebelum kita masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-1. [Bahasa Indonesia: Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) - Ini adalah lingkungan pengembangan utama untuk bekerja dengan Aspose.Cells untuk .NET.
-2. [Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/) - Anda dapat mengunduh versi terbaru pustaka dari situs web Aspose.
- Untuk memulai, Anda dapat menggunakan[uji coba gratis**](https://releases.aspose.com/) atau[**purchase a license](https://purchase.aspose.com/buy) dari Aspose.Cells untuk .NET.
-## Paket Impor
-Mulailah dengan mengimpor paket yang diperlukan dalam proyek C# Anda:
+## Bevezetés
+Az adatkezelés és az automatizálás világában kulcsfontosságú feladat az adatok hatékony feltöltése több munkalapon. Az Aspose.Cells for .NET hatékony megoldást kínál erre a problémára, lehetővé téve az adatok zökkenőmentes átvitelét egy adatforrásból egy Excel-munkafüzet több munkalapjára. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az adatok automatikus feltöltésének folyamatán a munkalapok között az Aspose.Cells könyvtár használatával.
+## Előfeltételek
+Mielőtt belemerülnénk az oktatóanyagba, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. [Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/) - Ez az elsődleges fejlesztői környezet az Aspose.Cells for .NET használatához.
+2. [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/) - A könyvtár legújabb verzióját letöltheti az Aspose weboldaláról.
+Kezdéshez használhatja a [ingyenes próba**](https://releases.aspose.com/) vagy [**licenc vásárlása**](https://purchase.aspose.com/buy) az Aspose.Cells .NET-hez készült verziójáról.
+## Csomagok importálása
+Kezdjük a szükséges csomagok importálásával a C# projektünkbe:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -29,15 +31,15 @@ using System.Linq;
 using System.Text;
 using System.Data;
 ```
-## Langkah 1: Buat Tabel Data
-Langkah pertama adalah membuat tabel data yang akan berfungsi sebagai sumber data untuk lembar kerja Anda. Dalam contoh ini, kita akan membuat tabel data sederhana bernama "Karyawan" dengan satu kolom "IDKaryawan":
+## 1. lépés: Adattábla létrehozása
+Az első lépés egy adattábla létrehozása, amely adatforrásként szolgál majd a munkalapokhoz. Ebben a példában egy egyszerű adattáblát hozunk létre "Alkalmazottak" néven, egyetlen "Alkalmazottazonosító" oszloppal:
 ```csharp
-//Direktori keluaran
+//Kimeneti könyvtár
 string outputDir = "Your Document Directory";
-//Buat tabel data karyawan
+//Alkalmazottak adattáblájának létrehozása
 DataTable dt = new DataTable("Employees");
 dt.Columns.Add("EmployeeID", typeof(int));
-//Tambahkan baris di dalam tabel data
+//Sorok hozzáadása az adattáblázaton belül
 dt.Rows.Add(1230);
 dt.Rows.Add(1231);
 dt.Rows.Add(1232);
@@ -60,72 +62,74 @@ dt.Rows.Add(1248);
 dt.Rows.Add(1249);
 dt.Rows.Add(1250);
 ```
-## Langkah 2: Buat Pembaca Data dari Tabel Data
- Selanjutnya, kita akan membuat`DataTableReader` dari tabel data yang baru saja kita buat. Ini akan memungkinkan kita untuk menggunakan tabel data sebagai sumber data untuk pustaka Aspose.Cells:
+## 2. lépés: Adatolvasó létrehozása az adattáblából
+Ezután létrehozunk egy `DataTableReader` az imént létrehozott adattáblából. Ez lehetővé teszi számunkra, hogy az adattáblát adatforrásként használjuk az Aspose.Cells könyvtárhoz:
 ```csharp
-//Buat pembaca data dari tabel data
+//Adatolvasó létrehozása adattáblából
 DataTableReader dtReader = dt.CreateDataReader();
 ```
-## Langkah 3: Buat Buku Kerja Baru
- Sekarang, kita akan membuat buku kerja baru menggunakan`Workbook` kelas yang disediakan oleh Aspose.Cells:
+## 3. lépés: Új munkafüzet létrehozása
+Most létrehozunk egy új munkafüzetet a következő használatával: `Workbook` az Aspose.Cells által biztosított osztály:
 ```csharp
-//Buat buku kerja kosong
+//Üres munkafüzet létrehozása
 Workbook wb = new Workbook();
 ```
-## Langkah 4: Tambahkan Penanda Cerdas ke Lembar Kerja
-Pada langkah ini, kita akan menambahkan penanda pintar ke sel-sel di lembar kerja pertama dan kedua buku kerja. Penanda pintar ini akan digunakan untuk mengisi data dari tabel data:
+## 4. lépés: Intelligens jelölők hozzáadása a munkalapokhoz
+Ebben a lépésben intelligens jelölőket adunk hozzá a munkafüzet első és második munkalapjának celláihoz. Ezekkel az intelligens jelölőkkel fogjuk feltölteni az adatokat az adattáblából:
 ```csharp
-//Akses lembar kerja pertama dan tambahkan penanda pintar di sel A1
+//Nyisd meg az első munkalapot, és adj hozzá intelligens jelölőt az A1 cellához
 Worksheet ws = wb.Worksheets[0];
 ws.Cells["A1"].PutValue("&=Employees.EmployeeID");
-//Tambahkan lembar kerja kedua dan tambahkan penanda pintar di sel A1
+//Második munkalap hozzáadása és intelligens jelölő hozzáadása az A1 cellában
 wb.Worksheets.Add();
 ws = wb.Worksheets[1];
 ws.Cells["A1"].PutValue("&=Employees.EmployeeID");
 ```
-## Langkah 5: Buat Desainer Buku Kerja
- Sekarang kita akan membuat`WorkbookDesigner` objek, yang akan membantu kita mengatur sumber data dan memproses penanda pintar:
+## 5. lépés: Munkafüzet-tervező létrehozása
+Most létrehozunk egy `WorkbookDesigner` objektum, amely segít nekünk beállítani az adatforrást és feldolgozni az intelligens jelölőket:
 ```csharp
-//Buat desainer buku kerja
+//Munkafüzet-tervező létrehozása
 WorkbookDesigner wd = new WorkbookDesigner(wb);
 ```
-## Langkah 6: Tetapkan Sumber Data
- Selanjutnya, kita akan mengatur sumber data untuk perancang buku kerja. Kita akan menggunakan`DataTableReader` kita buat sebelumnya dan tentukan jumlah baris yang akan diproses:
+## 6. lépés: Az adatforrás beállítása
+Ezután beállítjuk a munkafüzet-tervező adatforrását. A következőt fogjuk használni: `DataTableReader` korábban létrehoztunk, és megadjuk a feldolgozandó sorok számát:
 ```csharp
-//Tetapkan sumber data dengan pembaca data
+//Adatforrás beállítása adatolvasóval
 wd.SetDataSource("Employees", dtReader, 15);
 ```
-## Langkah 7: Memproses Penanda Cerdas
-Terakhir, kita akan memproses penanda pintar di lembar kerja pertama dan kedua:
+## 7. lépés: Az intelligens jelölők feldolgozása
+Végül feldolgozzuk az első és a második munkalapon található intelligens jelölőket:
 ```csharp
-//Proses tag penanda pintar di lembar kerja pertama dan kedua
+//Intelligens jelölőcímkék feldolgozása az első és a második munkalapon
 wd.Process(0, false);
 wd.Process(1, false);
 ```
-## Langkah 8: Simpan Buku Kerja
-Langkah terakhir adalah menyimpan buku kerja ke direktori keluaran yang ditentukan:
+## 8. lépés: A munkafüzet mentése
+Az utolsó lépés a munkafüzet mentése a megadott kimeneti könyvtárba:
 ```csharp
-//Simpan buku kerja
+//A munkafüzet mentése
 wb.Save(outputDir + "outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx");
 Console.WriteLine("AutoPopulateSmartMarkerDataToOtherWorksheets executed successfully.");
 ```
-Selesai! Anda telah berhasil menggunakan Aspose.Cells for .NET untuk mengisi data secara otomatis di beberapa lembar kerja dalam buku kerja Excel.
-## Kesimpulan
-Dalam tutorial ini, Anda telah mempelajari cara menggunakan pustaka Aspose.Cells for .NET untuk mengisi data secara otomatis di beberapa lembar kerja dalam buku kerja Excel. Dengan memanfaatkan kekuatan penanda pintar dan`WorkbookDesigner` kelas, Anda dapat secara efisien mentransfer data dari sumber data ke berbagai lembar dalam buku kerja Anda.
-## Pertanyaan yang Sering Diajukan
-### Dapatkah saya menggunakan Aspose.Cells untuk .NET untuk mengisi data secara otomatis di beberapa buku kerja, bukan hanya lembar kerja?
- Ya, Anda juga dapat menggunakan Aspose.Cells untuk mengisi data secara otomatis di beberapa buku kerja. Prosesnya mirip dengan apa yang telah kita bahas dalam tutorial ini, tetapi Anda harus bekerja dengan beberapa`Workbook` objek, bukan hanya satu.
-### Bagaimana saya dapat menyesuaikan tampilan dan format data yang terisi otomatis?
-Aspose.Cells menyediakan berbagai macam opsi pemformatan yang dapat Anda terapkan pada data yang terisi otomatis. Anda dapat mengatur font, ukuran, warna, batas, dan lainnya menggunakan berbagai properti dan metode yang tersedia di pustaka.
-### Apakah ada cara untuk menangani kumpulan data besar secara efisien saat mengisi data secara otomatis?
- Ya, Aspose.Cells menawarkan fitur seperti lazy loading dan chunking yang dapat membantu Anda bekerja dengan kumpulan data besar secara lebih efisien. Anda dapat menjelajahi opsi ini di[dokumentasi](https://reference.aspose.com/cells/net/).
-### Dapatkah saya menggunakan Aspose.Cells untuk mengisi data secara otomatis dari database, bukan dari tabel data?
- Tentu saja! Aspose.Cells dapat bekerja dengan berbagai sumber data, termasuk database. Anda dapat menggunakan`DataTableReader` atau`DataReader` kelas untuk terhubung ke basis data Anda dan menggunakan data untuk pengisian otomatis.
-### Apakah ada cara untuk mengotomatiskan seluruh proses pengisian data otomatis di seluruh lembar?
-Ya, Anda dapat membuat komponen atau metode yang dapat digunakan kembali yang merangkum langkah-langkah yang telah kita bahas dalam tutorial ini. Dengan cara ini, Anda dapat dengan mudah mengintegrasikan logika pengisian otomatis ke dalam aplikasi atau skrip Anda, menjadikannya proses yang lancar dan otomatis.
+És kész is! Sikeresen használtad az Aspose.Cells for .NET programot az Excel-munkafüzet több munkalapjának automatikus adatkitöltéséhez.
+## Következtetés
+Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for .NET könyvtárat az Excel-munkafüzet több munkalapjának automatikus adatfeltöltéséhez. Az intelligens jelölők és a `WorkbookDesigner` osztályban hatékonyan vihet át adatokat egy adatforrásból a munkafüzet különböző lapjaira.
+## GYIK
+### Használhatom az Aspose.Cells for .NET-et több munkafüzet automatikus adatfeltöltésére, nem csak a munkalapokra?
+Igen, az Aspose.Cells segítségével automatikusan feltöltheted az adatokat több munkafüzetben is. A folyamat hasonló ahhoz, amit ebben az oktatóanyagban tárgyaltunk, de több elemmel kell dolgoznod. `Workbook` tárgyak egy helyett.
+### Hogyan szabhatom testre az automatikusan kitöltött adatok megjelenését és formázását?
+Az Aspose.Cells számos formázási lehetőséget kínál, amelyeket az automatikusan kitöltött adatokra alkalmazhatsz. A betűtípust, méretet, színt, szegélyeket és egyebeket a könyvtárban elérhető különféle tulajdonságok és metódusok segítségével állíthatod be.
+### Van mód a nagy adathalmazok hatékony kezelésére az adatok automatikus feltöltésekor?
+Igen, az Aspose.Cells olyan funkciókat kínál, mint a lusta betöltés és a darabolás, amelyek segíthetnek a nagy adathalmazokkal való hatékonyabb munkában. Ezeket a lehetőségeket a következő helyen tekintheti meg: [dokumentáció](https://reference.aspose.com/cells/net/).
+### Használhatom az Aspose.Cells-t az adatok automatikus feltöltésére egy adatbázisból egy adattábla helyett?
+Abszolút! Az Aspose.Cells számos adatforrással, beleértve az adatbázisokat is, képes együttműködni. Használhatod a `DataTableReader` vagy a `DataReader` osztályt az adatbázishoz való csatlakozáshoz és az adatok automatikus feltöltés céljából történő használatához.
+### Van mód arra, hogy automatizáljam az adatok automatikus kitöltésének teljes folyamatát a munkalapok között?
+Igen, létrehozhatsz egy újrafelhasználható komponenst vagy metódust, amely magában foglalja az ebben az oktatóanyagban tárgyalt lépéseket. Így könnyedén integrálhatod az automatikus kitöltés logikáját az alkalmazásodba vagy szkriptedbe, így zökkenőmentes és automatizált folyamattá válhat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Как настроить Aspose.Cells для Java
 - Регистрация функции надстройки с поддержкой макросов
 - Использование дополнительных функций в формулах Excel
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Давайте начнем с рассмотрения необходимых предварительных условий, прежде чем углубляться в детали реализации!
 
@@ -210,6 +212,9 @@ workbook.save(outDir + "/test_udf.xlsx", com.aspose.cells.SaveFormat.XLSX);
 Отправьтесь в путешествие, чтобы использовать всю мощь функций Excel в Java с Aspose.Cells. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

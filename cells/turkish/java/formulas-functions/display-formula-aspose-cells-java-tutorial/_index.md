@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Lisans Edinimi
 Java için Aspose.Cells ticari bir kütüphanedir, ancak yeteneklerini değerlendirmek için ücretsiz bir denemeyle başlayabilirsiniz. İşte nasıl edineceğiniz:
-- **Ücretsiz Deneme**En son sürümü şu adresten indirin: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/).
+- **Ücretsiz Deneme**: En son sürümü şu adresten indirin: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/).
 - **Geçici Lisans**: Geçici lisans talebinde bulunun [bu bağlantı](https://purchase.aspose.com/temporary-license/) eğer deneme süresinin izin verdiğinden daha fazla zamana ihtiyacınız varsa.
 - **Satın almak**: Tam erişim için, şu adresten bir lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
@@ -141,6 +143,9 @@ C: Aspose.Cells son derece uyumludur ve Spring, Hibernate veya herhangi bir Java
 - **Destek Forumu**: [Aspose Topluluk Desteği](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Mielőtt belekezdenénk, nézzük át, milyen előfeltételekre lesz szükséged
 
 ## Előfeltételek
 
-A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
+bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 
 - **Könyvtárak és verziók**Szükséged lesz az Aspose.Cells Java 25.3-as vagy újabb verziójára.
 - **Környezet beállítása**: A gépedre telepített Java fejlesztői készlet (JDK).
@@ -130,7 +132,7 @@ opts.setSeparator('\t');
 
 ### 3. funkció: Munkalapadatok másolása szöveges formátumba
 
-**Áttekintés**: Járjon végig minden munkalapon, alakítsa át szöveges formátumba, és egyesítse az összes adatot egyetlen bájtos tömbbe.
+**Áttekintés**: Járjon végig minden egyes munkalapon, alakítsa át szöveges formátumba, és egyesítse az összes adatot egyetlen bájtos tömbbe.
 
 #### Lépésről lépésre történő megvalósítás
 
@@ -143,11 +145,11 @@ import com.aspose.cells.Workbook;
 
 **2. Munkalapadatok egyesítése**
 
-Járja végig a munkalapokat, mentse el mindegyiket szöveges formátumban, és egyesítse az adatokat:
+Menj végig a munkalapokon, mentsd el mindegyiket szöveges formátumban, és egyesítsd az adatokat:
 
 ```java
 ByteArrayOutputStream bout = new ByteArrayOutputStream();
-byte[] workbookData = new byte[0]; // Tömb inicializálása az egyesített adatok tárolására
+byte[] workbookData = new byte[0]; // Tömb inicializálása az egyesített adatok tárolásához
 for (int idx = 0; idx < workbook.getWorksheets().getCount(); idx++) {
     workbook.getWorksheets().setActiveSheetIndex(idx);
     workbook.save(bout, opts);
@@ -163,7 +165,7 @@ for (int idx = 0; idx < workbook.getWorksheets().getCount(); idx++) {
 
 ### 4. funkció: Munkafüzet-adatok mentése fájlba
 
-**Áttekintés**: Az összes munkalap egyesített szöveges ábrázolásának mentése egyetlen kimeneti fájlba.
+**Áttekintés**: Az összes munkalap kombinált szöveges ábrázolásának mentése egyetlen kimeneti fájlba.
 
 #### Lépésről lépésre történő megvalósítás
 
@@ -241,6 +243,9 @@ A3: Az Aspose.Cells számos formátumot támogat, beleértve a PDF-et, CSV-t, HT
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

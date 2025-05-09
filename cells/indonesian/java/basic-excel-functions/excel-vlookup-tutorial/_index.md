@@ -8,22 +8,24 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Panduan VLOOKUP Excel
 
 
-## Perkenalan
+## Bevezetés
 
 Dalam tutorial komprehensif ini, kita akan mendalami dunia Excel VLOOKUP menggunakan Aspose.Cells for Java API yang canggih. Baik Anda seorang pemula atau pengembang berpengalaman, panduan ini akan memandu Anda melalui langkah-langkah untuk memanfaatkan potensi Aspose.Cells for Java guna menjalankan operasi VLOOKUP dengan mudah.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita masuk ke inti pembahasan, pastikan Anda telah memenuhi prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Pastikan Anda telah menginstal Java JDK pada sistem Anda.
-- Aspose.Cells untuk Java: Unduh dan instal Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal Aspose.Cells untuk Java dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Memulai
 
@@ -35,12 +37,12 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 ```
 
-## Memuat File Excel
+## Excel fájl betöltése
 
 Untuk melakukan operasi VLOOKUP, kita memerlukan file Excel untuk bekerja. Mari kita muat file Excel yang sudah ada.
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("example.xlsx");
 ```
 
@@ -81,17 +83,17 @@ if (cell != null) {
 }
 ```
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda telah berhasil mempelajari cara melakukan operasi VLOOKUP menggunakan Aspose.Cells untuk Java. API canggih ini menyederhanakan tugas Excel yang rumit, membuat perjalanan pengembangan Anda lebih lancar.
 
 Sekarang, lanjutkan dan jelajahi kemungkinan tak terbatas Aspose.Cells untuk Java dalam proyek Excel Anda!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Untuk menginstal Aspose.Cells untuk Java, cukup unduh pustaka dari [tautan ini](https://releases.aspose.com/cells/java/) dan ikuti petunjuk instalasi yang disediakan di situs web Aspose.
+Untuk menginstal Aspose.Cells untuk Java, cukup unduh pustaka dari [ezt a linket](https://releases.aspose.com/cells/java/) dan ikuti petunjuk instalasi yang disediakan di situs web Aspose.
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk Java dengan bahasa pemrograman lain?
 
@@ -107,11 +109,12 @@ Ya, Excel menawarkan berbagai fungsi seperti HLOOKUP, INDEX MATCH, dan lainnya s
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi Aspose?
 
-Untuk dokumentasi lengkap tentang Aspose.Cells untuk Java, kunjungi halaman dokumentasi mereka di [Di Sini](https://reference.aspose.com/cells/java/).
+Untuk dokumentasi lengkap tentang Aspose.Cells untuk Java, kunjungi halaman dokumentasi mereka di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

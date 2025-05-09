@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: Stellen Sie sicher, dass die Bereichsnamen in der gesamten Arbeitsmappe eind
 Weitere Informationen finden Sie in den verfügbaren Ressourcen unter [Aspose Downloads](https://releases.aspose.com/cells/java/) und erwägen Sie den Erwerb einer temporären Lizenz für den Zugriff auf alle Funktionen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

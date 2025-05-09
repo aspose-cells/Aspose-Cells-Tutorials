@@ -1,14 +1,16 @@
 ---
-title: Giữ nguyên tiền tố dấu nháy đơn của giá trị ô hoặc phạm vi trong Excel
-linktitle: Giữ nguyên tiền tố dấu nháy đơn của giá trị ô hoặc phạm vi trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách giữ nguyên tiền tố dấu nháy đơn trong ô Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
-weight: 10
-url: /vi/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cell-value-or-range-in-excel/
+"description": "Tìm hiểu cách giữ nguyên tiền tố dấu nháy đơn trong ô Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này."
+"linktitle": "Giữ nguyên tiền tố dấu nháy đơn của giá trị ô hoặc phạm vi trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Giữ nguyên tiền tố dấu nháy đơn của giá trị ô hoặc phạm vi trong Excel"
+"url": "/vi/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cell-value-or-range-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Giữ nguyên tiền tố dấu nháy đơn của giá trị ô hoặc phạm vi trong Excel
@@ -22,7 +24,7 @@ Khi làm việc trên các tệp Excel, bạn có thể thấy mình trong nhữ
 Trước khi bắt đầu hành trình viết mã này, hãy đảm bảo rằng bạn có mọi thứ cần thiết:
 
 1. Visual Studio: Bạn sẽ cần một môi trường phát triển để chạy mã .NET của mình.
-2.  Aspose.Cells cho .NET: Đảm bảo bạn đã tải xuống và tham chiếu thư viện này trong dự án của mình. Bạn có thể lấy phiên bản mới nhất từ[Liên kết tải xuống](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo bạn đã tải xuống và tham chiếu thư viện này trong dự án của mình. Bạn có thể lấy phiên bản mới nhất từ [Liên kết tải xuống](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về lập trình C#: Biết cách sử dụng C# sẽ rất hữu ích, đặc biệt là khi bạn đang có ý định chỉnh sửa mã.
 4. Hệ điều hành Windows: Vì Aspose.Cells chủ yếu tập trung vào Windows nên việc cài đặt hệ điều hành này sẽ giúp mọi việc mượt mà hơn.
 
@@ -58,7 +60,7 @@ string outputDir = "Your Document Directory/";
 Workbook wb = new Workbook();
 ```
 
- Trong bước này, chúng ta đang khởi tạo sổ làm việc của mình, nơi các tệp Excel sẽ được quản lý. Thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu trữ các tập tin của mình.
+Trong bước này, chúng ta đang khởi tạo sổ làm việc của mình, nơi các tệp Excel sẽ được quản lý. Thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu trữ các tập tin của mình.
 
 ## Bước 2: Truy cập vào Bảng tính
 
@@ -118,7 +120,7 @@ Sau bước này, bạn sẽ thấy tiền tố dấu ngoặc kép chuyển thà
 
 ## Bước 6: Hiểu về StyleFlags
 
- Bây giờ, chúng ta hãy khám phá cách`StyleFlag` có thể tác động đến tiền tố trích dẫn của chúng tôi.
+Bây giờ, chúng ta hãy khám phá cách `StyleFlag` có thể tác động đến tiền tố trích dẫn của chúng tôi.
 
 ```csharp
 // Tạo một kiểu trống
@@ -135,7 +137,7 @@ Range rng = ws.Cells.CreateRange("A1");
 rng.ApplyStyle(st, flag);
 ```
 
- Đây là điều đáng lưu ý! Bằng cách chỉ định`flag.QuotePrefix = false`, chúng tôi đang nói với chương trình, "Này, đừng chạm vào tiền tố hiện có." Vậy điều gì xảy ra?
+Đây là điều đáng lưu ý! Bằng cách chỉ định `flag.QuotePrefix = false`, chúng tôi đang nói với chương trình, "Này, đừng chạm vào tiền tố hiện có." Vậy điều gì xảy ra?
 
 ## Bước 7: Kiểm tra lại Tiền tố trích dẫn
 
@@ -167,7 +169,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
-Trong vòng này, chúng tôi đang thiết lập`flag.QuotePrefix = true`, nghĩa là chúng ta muốn cập nhật tiền tố dấu ngoặc kép của ô.
+Trong vòng này, chúng tôi đang thiết lập `flag.QuotePrefix = true`, nghĩa là chúng ta muốn cập nhật tiền tố dấu ngoặc kép của ô.
 
 ## Bước 9: Kiểm tra cuối cùng của tiền tố báo giá
 
@@ -199,13 +201,15 @@ Có! Aspose.Cells cho .NET hoạt động tốt với cả ứng dụng trên m�
 Nhìn chung, Aspose.Cells được tối ưu hóa về hiệu suất, nhưng đối với các tập dữ liệu rất lớn, bạn nên kiểm tra bộ nhớ và tốc độ.
 
 ### Tôi có thể nhận được trợ giúp như thế nào nếu gặp vấn đề?  
- Bạn có thể ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được cộng đồng và nhân viên Aspose hỗ trợ.
+Bạn có thể ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được cộng đồng và nhân viên Aspose hỗ trợ.
 
 ### Tôi có thể dùng thử Aspose.Cells mà không cần mua không?  
- Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí [đây](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

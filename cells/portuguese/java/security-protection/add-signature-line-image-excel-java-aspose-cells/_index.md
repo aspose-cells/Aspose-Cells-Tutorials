@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Recomendamos que você experimente implementar essas soluções e veja como elas
 
 ## Seção de perguntas frequentes
 1. **Como configuro uma licença temporária para testes?**
-   - Visita [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/) siga as instruções fornecidas.
+   - Visita [Licença Temporária Aspose](https://purchase.aspose.com/temporary-license/) e siga as instruções fornecidas.
 2. **Posso adicionar várias linhas de assinatura a uma imagem?**
    - Atualmente, o Aspose.Cells suporta a adição de uma única linha de assinatura por objeto de imagem.
 3. **Quais formatos de arquivo o Aspose.Cells suporta?**
@@ -176,6 +178,9 @@ Recomendamos que você experimente implementar essas soluções e veja como elas
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: .NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi
-linktitle: .NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'i kullanarak adım adım kılavuzumuzla TIFF dönüştürme ilerlemesini programatik olarak izlemeyi öğrenin. Belge yönetimi becerilerinizi geliştirin.
-weight: 21
-url: /tr/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress-for-tiff/
+"description": "Aspose.Cells for .NET'i kullanarak adım adım kılavuzumuzla TIFF dönüştürme ilerlemesini programatik olarak izlemeyi öğrenin. Belge yönetimi becerilerinizi geliştirin."
+"linktitle": ".NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi"
+"url": "/tr/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress-for-tiff/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te TIFF için Belge Dönüştürme İlerlemesinin Programatik Olarak İzlenmesi
@@ -19,7 +21,7 @@ Bu makalede, her bir öğeyi tam olarak kavramanızı sağlayarak süreci adım 
 ## Ön koşullar
 Kodlama eğlencesine dalmadan önce, her şeyin yerli yerinde olduğundan emin olalım. Başlamak için ihtiyacınız olanlar şunlardır:
 1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Kodunuzu burada yazacak ve test edeceksiniz.
-2.  Aspose.Cells for .NET: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. En son sürümü edinebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. En son sürümü edinebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamaya dair temel bir anlayış, kodda sorunsuz bir şekilde gezinmenize yardımcı olacaktır.
 Bu ön koşulları yerine getirdiğinizde, belge dönüştürme dünyasına dalmaya hazırsınız!
 ## Paketleri İçe Aktar
@@ -44,13 +46,13 @@ string sourceDir = "Your Document Directory";
 // Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` Excel dosyanızın saklandığı gerçek yol ve TIFF dosyalarını kaydetmek istediğiniz yer.
+Değiştirdiğinizden emin olun `"Your Document Directory"` Excel dosyanızın saklandığı ve TIFF dosyalarını kaydetmek istediğiniz gerçek yol.
 ## Adım 2: Çalışma Kitabını Yükleyin
 Şimdi dönüştürmek istediğimiz Excel çalışma kitabını yükleyelim. Aspose.Cells bunu çok kolay hale getiriyor! İşte bunu nasıl yapabileceğiniz:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleUseWorkbookRenderForImageConversion.xlsx");
 ```
- Bu satırda şunu değiştirin:`"sampleUseWorkbookRenderForImageConversion.xlsx"` Excel dosyanızın adıyla. Bu satır,`Workbook`Hafızanızdaki elektronik tablonuzu temsil eden nesne.
+Bu satırda şunu değiştirin: `"sampleUseWorkbookRenderForImageConversion.xlsx"` Excel dosyanızın adıyla. Bu satır, `Workbook` Hafızanızdaki elektronik tablonuzu temsil eden nesne.
 ## Adım 3: Görüntü veya Baskı Seçenekleri Oluşturun
 Sırada, çalışma kitabımızı TIFF formatına dönüştürmek için seçenekleri ayarlamamız gerekiyor. Burada, özel sayfa kaydetme geri aramamız dahil olmak üzere çeşitli ayarları belirleyebiliriz:
 ```csharp
@@ -58,9 +60,9 @@ ImageOrPrintOptions opts = new ImageOrPrintOptions();
 opts.PageSavingCallback = new TestTiffPageSavingCallback();
 opts.ImageType = ImageType.Tiff;
 ```
- Burada, bir örnek oluşturuyoruz`ImageOrPrintOptions` ve ona özel geri arama sınıfımızı kullanmak istediğimizi söyleyerek,`TestTiffPageSavingCallback`, ilerlemeyi izlemek için. Ayrıca çıktı görüntü türünün TIFF olmasını istediğimizi de belirtiyoruz.
+Burada, bir örnek oluşturuyoruz `ImageOrPrintOptions` ve ona özel geri arama sınıfımızı kullanmak istediğimizi söyleyerek, `TestTiffPageSavingCallback`, ilerlemeyi izlemek için. Ayrıca çıktı görüntü türünün TIFF olmasını istediğimizi de belirtiyoruz.
 ## Adım 4: Sayfa Kaydetme Geri Aramasını Uygulayın
- Dönüşüm ilerlemesini izlemenin özü, aşağıdakilerin uygulanmasında yatar:`IPageSavingCallback` arayüz. Burada her sayfanın kaydedilmeye başladığında ve kaydedildiğinde ne olacağını tanımlayabilirsiniz. Bunu nasıl ayarlayacağınız aşağıda açıklanmıştır:
+Dönüşüm ilerlemesini izlemenin özü, aşağıdakilerin uygulanmasında yatar: `IPageSavingCallback` arayüz. Burada her sayfanın kaydedilmeye başladığında ve kaydedildiğinde ne olacağını tanımlayabilirsiniz. Bunu nasıl ayarlayacağınız aşağıda açıklanmıştır:
 ```csharp
 public class TestTiffPageSavingCallback : IPageSavingCallback
 {
@@ -84,14 +86,14 @@ public class TestTiffPageSavingCallback : IPageSavingCallback
     }
 }
 ```
- İçinde`PageStartSaving` yöntem, kaydetmeye başlamadan önce sayfa dizinini ve toplam sayfaları günlüğe kaydederiz. Ek olarak, hangi sayfaların çıktı olarak alınacağını kontrol edebilirsiniz. Bu durumda, dizin 2'den önceki sayfaları atlıyoruz. Benzer şekilde,`PageEndSaving`Bu yöntemle, bir sayfanın kaydedilmesi tamamlandığında kayıt tutuyoruz ve ayrıca 8. indeksten sonra daha fazla sayfanın kaydedilmesini engelleyebiliyoruz.
+İçinde `PageStartSaving` yöntem, kaydetmeye başlamadan önce sayfa dizinini ve toplam sayfaları günlüğe kaydederiz. Ek olarak, hangi sayfaların çıktı olarak alınacağını kontrol edebilirsiniz. Bu durumda, dizin 2'den önceki sayfaları atlıyoruz. Benzer şekilde, `PageEndSaving` Bu yöntemle, bir sayfanın kaydedilmesi tamamlandığında kayıt tutuyoruz ve ayrıca 8. indeksten sonra daha fazla sayfanın kaydedilmesini engelleyebiliyoruz.
 ## Adım 5: Çalışma Kitabını Görüntülere Dönüştürün
-Artık seçeneklerimizi ayarladığımıza ve geri aramamızı uyguladığımıza göre, çalışma kitabını işlemeye hazırız! İşte nasıl yapılacağı:
+Artık seçeneklerimiz ayarlandı ve geri aramamız uygulandı, çalışma kitabını işlemeye hazırız! İşte nasıl yapılacağı:
 ```csharp
 WorkbookRender wr = new WorkbookRender(workbook, opts);
 wr.ToImage(outputDir + "DocumentConversionProgressForTiff_out.tiff");
 ```
- Bu satır bir örnek oluşturur`WorkbookRender` , bizim aramızdan geçerken`workbook` ve daha önce belirlediğimiz seçenekler. Daha sonra şunu çağırırız`ToImage`TIFF dosyamızın çıktı yolunu belirterek.
+Bu satır bir örnek oluşturur `WorkbookRender`, bizim aramızdan geçerken `workbook` ve daha önce belirlediğimiz seçenekler. Daha sonra şunu çağırırız `ToImage`TIFF dosyamızın çıktı yolunu belirterek.
 ## Adım 6: Başarı Mesajı
 Son olarak, dönüşümümüzün başarılı olduğuna dair geri bildirim sağlayalım. Bir onay almak her zaman güzeldir, değil mi?
 ```csharp
@@ -107,14 +109,16 @@ Aspose.Cells, Excel dosyalarını programlı bir şekilde düzenlemenize olanak 
 ### Diğer formatlar için dönüşüm ilerlemesini takip edebilir miyim?  
 Evet! Geri çağırma mekanizması PDF veya JPEG gibi diğer formatlara da uyarlanabilir.
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- Ücretsiz olarak deneyebilmenize rağmen, üretimde tam işlevsellik için bir lisans gereklidir. Daha fazla bilgi bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Ücretsiz olarak deneyebilmenize rağmen, üretimde tam işlevsellik için bir lisans gereklidir. Daha fazla bilgi bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Sorun yaşarsam nereden yardım alabilirim?  
- Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9)Topluluktan ve Aspose ekibinden yardım için.
-### Aspose.Cells'i kullanmaya nasıl başlayabilirim?  
- Kütüphaneyi indirebilir ve kontrol edebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/) öğreticiler ve örnekler için.
+Ziyaret edebilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/cells/9) Topluluktan ve Aspose ekibinden yardım için.
+### Aspose.Cells'i kullanmaya nasıl başlarım?  
+Kütüphaneyi indirebilir ve kontrol edebilirsiniz [belgeleme](https://reference.aspose.com/cells/net/) öğreticiler ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

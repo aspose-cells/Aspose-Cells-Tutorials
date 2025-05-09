@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ import com.aspose.cells.FileFormatType;
 wb.save(outDir + "/UseExplicitLineBreaks_out.xls", FileFormatType.EXCEL_97_TO_2003);
 ```
 
-**Dlaczego**:Zapisanie w zgodnym formacie gwarantuje, że użytkownicy będą mogli otwierać i przeglądać skoroszyty na różnych platformach.
+**Dlaczego**:Zapisanie w zgodnym formacie zapewnia użytkownikom możliwość otwierania i przeglądania skoroszytów na różnych platformach.
 
 ## Zastosowania praktyczne
 
@@ -218,6 +220,9 @@ W celu dalszych eksploracji:
 Postępując zgodnie z tym przewodnikiem, powinieneś być dobrze przygotowany do implementacji potężnych funkcjonalności Excela przy użyciu Aspose.Cells for Java w swoich projektach. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

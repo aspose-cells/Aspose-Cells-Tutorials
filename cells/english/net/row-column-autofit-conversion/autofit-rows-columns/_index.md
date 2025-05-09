@@ -8,7 +8,9 @@ url: /net/row-column-autofit-conversion/autofit-rows-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Auto-fit Rows and Columns in Aspose.Cells .NET
@@ -89,6 +91,7 @@ For any queries or issues, you can get support from the Aspose forum [here](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

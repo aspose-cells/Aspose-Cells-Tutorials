@@ -1,14 +1,16 @@
 ---
-title: Защитить ячейки на листе Excel
-linktitle: Защитить ячейки на листе Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как защитить определенные ячейки на листе Excel с помощью Aspose.Cells для .NET, в этом подробном руководстве с примерами кода.
-weight: 30
-url: /ru/net/protect-excel-file/protect-cells-in-excel-worksheet/
+"description": "Узнайте, как защитить определенные ячейки на листе Excel с помощью Aspose.Cells для .NET, в этом подробном руководстве с примерами кода."
+"linktitle": "Защитить ячейки на листе Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Защитить ячейки на листе Excel"
+"url": "/ru/net/protect-excel-file/protect-cells-in-excel-worksheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Защитить ячейки на листе Excel
@@ -22,7 +24,7 @@ url: /ru/net/protect-excel-file/protect-cells-in-excel-worksheet/
 Прежде чем углубляться в детали защиты клеток, необходимо выполнить несколько предварительных условий:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это основная IDE для разработки .NET.
-2.  Библиотека Aspose.Cells: Вам необходимо иметь библиотеку Aspose.Cells, доступную в вашем проекте. Вы можете легко установить ее через NuGet Package Manager или загрузить ее напрямую с[Сайт Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Библиотека Aspose.Cells: Вам необходимо иметь библиотеку Aspose.Cells, доступную в вашем проекте. Вы можете легко установить ее через NuGet Package Manager или загрузить ее напрямую с [Сайт Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: небольшое знакомство с программированием на C# поможет вам без труда освоить материал.
 
 ## Импорт пакетов
@@ -37,7 +39,7 @@ url: /ru/net/protect-excel-file/protect-cells-in-excel-worksheet/
 ### Добавить ссылку Aspose.Cells
 
 - В обозревателе решений щелкните правой кнопкой мыши свой проект и выберите «Управление пакетами NuGet».
-- Найдите «Aspose.Cells» и нажмите «установить». Эта библиотека предоставит вам доступ ко всем методам, которые вам понадобятся для защиты ваших ячеек.
+- Найдите «Aspose.Cells» и нажмите «Установить». Эта библиотека предоставит вам доступ ко всем методам, которые вам понадобятся для защиты ваших ячеек.
 
 ### Использование пространств имен
 
@@ -131,7 +133,7 @@ sheet.Cells["C1"].SetStyle(style);
 sheet.Protect(ProtectionType.All);
 ```
 
- Позвонив по номеру`Protect` При использовании этого метода вы указываете Excel запретить любые изменения, пока не будет снята защита.
+Позвонив по номеру `Protect` При использовании этого метода вы указываете Excel запретить любые изменения, пока не будет снята защита.
 
 ## Шаг 7: Сохранение рабочей книги
 
@@ -156,16 +158,18 @@ Aspose.Cells — мощная библиотека для работы с фай
 Конечно! Вы можете заблокировать столько ячеек, сколько захотите, повторяя шаги блокировки ячеек для каждой нужной ячейки.
 
 ### Является ли Aspose.Cells бесплатным?
- Aspose.Cells предлагает бесплатную пробную версию, но для дальнейшего использования требуется лицензия. Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells предлагает бесплатную пробную версию, но для дальнейшего использования требуется лицензия. Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти документацию?
- Документацию можно найти[здесь](https://reference.aspose.com/cells/net/).
+Документацию можно найти [здесь](https://reference.aspose.com/cells/net/).
 
 ### В каких форматах файлов можно сохранять файлы Excel?
 Aspose.Cells поддерживает множество форматов, включая XLSX, XLS, CSV и другие.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

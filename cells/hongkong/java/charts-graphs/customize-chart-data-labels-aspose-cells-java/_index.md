@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Aspose.Cells 提供免費試用許可證，您可以從 [這裡](https://purchas
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **基本初始化**：創建一個 `Workbook` 實例開始處理 Excel 檔案。
+3. **基本初始化**：創建 `Workbook` 實例開始處理 Excel 檔案。
 
 ## 實施指南
 
@@ -166,6 +168,9 @@ wb.save("YOUR_OUTPUT_DIRECTORY/outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 本綜合指南將協助您使用 Aspose.Cells 在 Java 應用程式中有效地自訂圖表資料標籤。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

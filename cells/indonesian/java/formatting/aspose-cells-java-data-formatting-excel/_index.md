@@ -7,30 +7,32 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Presentasi Data di Excel: Menerapkan Format Angka dan Tanggal Kustom dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Dalam bidang analisis data, menyajikan informasi dengan jelas sama pentingnya dengan mengumpulkannya. Bayangkan Anda telah menyusun lembar kerja yang penuh dengan angka dan tanggal, tetapi semuanya disajikan dalam bentuk teks biasa. Untuk berkomunikasi secara efektif dengan para pemangku kepentingan atau memperoleh wawasan yang bermakna, format yang konsisten sangatlah penting. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk Java guna menerapkan format angka dan gaya tanggal kustom ke lembar Excel Anda dengan lancar.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara memformat angka dan tanggal menggunakan Aspose.Cells untuk Java
 - Implementasi fitur penataan sel langkah demi langkah
 - Praktik terbaik untuk mengoptimalkan kinerja dalam presentasi data
 
 Mari kita mulai mengubah data mentah menjadi laporan yang lebih baik. Sebelum memulai, pastikan lingkungan pengembangan Anda sudah siap.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai dengan Aspose.Cells untuk Java, pastikan Anda memiliki yang berikut ini:
 
 - **Kit Pengembangan Java (JDK):** Pastikan JDK 8 atau yang lebih baru telah terinstal.
 - **Lingkungan Pengembangan Terpadu (IDE):** Gunakan IDE seperti IntelliJ IDEA atau Eclipse.
-- **Maven/Gradle:** Kemampuan menggunakan alat-alat pembangunan akan menyederhanakan pengelolaan dependensi.
+- **Maven/Gradle:** Kemampuan menggunakan alat bantu pembangunan akan menyederhanakan pengelolaan dependensi.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
@@ -50,29 +52,29 @@ Aspose.Cells untuk Java adalah pustaka tangguh yang memungkinkan Anda memanipula
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk menggunakan Aspose.Cells untuk Java, Anda dapat memulai dengan uji coba gratis atau membeli lisensi:
 
-- **Uji Coba Gratis:** Unduh perpustakaan dan jelajahi fitur-fiturnya.
-- **Lisensi Sementara:** Ajukan permohonan lisensi sementara untuk mengakses kemampuan penuh tanpa batasan.
-- **Pembelian:** Untuk proyek jangka panjang, pertimbangkan untuk membeli langganan.
+- **Ingyenes próbaverzió:** Unduh perpustakaan dan jelajahi fitur-fiturnya.
+- **Ideiglenes engedély:** Ajukan permohonan lisensi sementara untuk mengakses kemampuan penuh tanpa batasan.
+- **Vásárlás:** Untuk proyek jangka panjang, pertimbangkan untuk membeli langganan.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Menerapkan Format Angka ke Baris
 
-#### Ringkasan
+#### Áttekintés
 
 Bagian ini menunjukkan cara menerapkan format angka ke seluruh baris di lembar Excel Anda menggunakan Aspose.Cells. Contoh di bawah ini memformat angka dengan koma dan dua tempat desimal (misalnya, 1.234,56).
 
-**Implementasi Langkah demi Langkah**
+**Lépésről lépésre történő megvalósítás**
 
 **1. Membuat Instansi Objek Buku Kerja**
 ```java
 Workbook workbook = new Workbook();
 ```
-Buat yang baru `Workbook` contoh untuk mulai bekerja pada berkas Excel.
+Hozz létre egy újat `Workbook` contoh untuk mulai bekerja pada berkas Excel.
 
 **2. Akses Lembar Kerja**
 ```java
@@ -88,7 +90,7 @@ style.setNumber(4); // Mengatur format angka sebagai #,##0.00
 StyleFlag flag = new StyleFlag();
 flag.setNumberFormat(true);
 ```
-Inisialisasi a `Style` objek dan mengatur properti format angkanya.
+Inicializáljon egy `Style` objek dan mengatur properti format angkanya.
 
 **4. Terapkan Gaya ke Baris**
 ```java
@@ -105,14 +107,14 @@ Simpan buku kerja dengan gaya yang diterapkan.
 
 ### Menerapkan Format Tanggal Kustom ke Kolom
 
-#### Ringkasan
+#### Áttekintés
 
 Bagian ini mengilustrasikan cara menerapkan format tanggal khusus (misalnya, 12-Jan-23) ke seluruh kolom, meningkatkan keterbacaan untuk data terkait tanggal.
 
-**Implementasi Langkah demi Langkah**
+**Lépésről lépésre történő megvalósítás**
 
 **1. Gunakan kembali contoh buku kerja dan lembar kerja**
-Pastikan `Workbook` Dan `Worksheet` instance sudah disiapkan dari bagian sebelumnya.
+Biztosítsa a `Workbook` és `Worksheet` instance sudah disiapkan dari bagian sebelumnya.
 
 **2. Membuat dan Mengonfigurasi Gaya**
 ```java
@@ -130,50 +132,53 @@ worksheet.getCells().getColumns().get(0).applyStyle(style, flag);
 ```
 Terapkan gaya ke kolom pertama lembar kerja Anda.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
-1. **Laporan Keuangan:** Format nilai mata uang dan persentase untuk kejelasan.
-2. **Manajemen Proyek:** Menampilkan tenggat waktu dalam format tanggal yang konsisten di semua lembar proyek.
-3. **Pelacakan Inventaris:** Gunakan format angka untuk menunjukkan jumlah stok secara akurat.
+1. **Pénzügyi jelentések:** Format nilai mata uang dan persentase untuk kejelasan.
+2. **Projektmenedzsment:** Menampilkan tenggat waktu dalam format tanggal yang konsisten di semua lembar proyek.
+3. **Készletkövetés:** Gunakan format angka untuk menunjukkan jumlah stok secara akurat.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
-- **Optimalkan Penggunaan Memori:** Menggunakan kembali `Style` objek jika memungkinkan alih-alih membuat objek baru untuk setiap sel atau baris.
-- **Pemrosesan Batch:** Terapkan gaya secara massal (misalnya, baris, kolom) daripada secara individual untuk meningkatkan kinerja.
+- **Memóriahasználat optimalizálása:** Menggunakan kembali `Style` objek jika memungkinkan alih-alih membuat objek baru untuk setiap sel atau baris.
+- **Kötegelt feldolgozás:** Terapkan gaya secara massal (misalnya, baris, kolom) daripada secara individual untuk meningkatkan kinerja.
 - **Struktur Data yang Efisien:** Gunakan struktur data yang tepat untuk menangani kumpulan data besar secara efisien.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara menerapkan format angka dan tanggal kustom menggunakan Aspose.Cells untuk Java. Teknik-teknik ini akan membantu Anda menyajikan data secara lebih efektif dalam laporan Excel Anda. Jelajahi lebih jauh fungsi-fungsi pustaka untuk membuka lebih banyak potensi dalam tugas-tugas manipulasi data Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 - Bereksperimenlah dengan berbagai pilihan pemformatan yang disediakan oleh Aspose.Cells.
 - Integrasikan metode ini ke dalam proyek atau aplikasi yang lebih besar.
 - Jelajahi fitur tambahan seperti pembuatan bagan dan perhitungan rumus.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu Aspose.Cells untuk Java?**
    - Pustaka untuk mengelola berkas Excel secara terprogram dalam Java.
 2. **Bagaimana cara memformat beberapa baris dengan gaya yang sama?**
-   - Ulangi setiap baris dan terapkan gaya menggunakan `applyStyle` metode.
+   - Ulangi setiap baris dan terapkan gaya menggunakan `applyStyle` módszer.
 3. **Bisakah saya menggunakan perpustakaan ini tanpa membeli lisensi?**
    - Ya, Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya.
 4. **Apakah mungkin untuk memformat seluruh lembar sekaligus?**
    - Meskipun tidak secara langsung didukung untuk seluruh lembar, terapkan gaya ke baris atau kolom secara efisien.
-5. **Apa persyaratan sistem untuk menggunakan Aspose.Cells?**
+5. **Milyen rendszerkövetelmények szükségesek az Aspose.Cells használatához?**
    - Lingkungan Java yang kompatibel (JDK 8+) dan IDE seperti IntelliJ IDEA atau Eclipse.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Akses Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

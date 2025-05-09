@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells cung cấp bản dùng thử miễn phí, cho phép bạn khám phá các tính năng của nó. Để mở khóa đầy đủ các tính năng:
 1. **Dùng thử miễn phí**: Tải xuống từ trang web Aspose và đăng ký giấy phép tạm thời.
 2. **Giấy phép tạm thời**: Thăm nom [Trang cấp phép của Aspose](https://purchase.aspose.com/temporary-license/) để có được một cái.
-3. **Mua**: Để sử dụng lâu dài, hãy mua giấy phép qua [Mua Aspose](https://purchase.aspose.com/buy).
+3. **Mua**Để sử dụng lâu dài, hãy mua giấy phép qua [Mua Aspose](https://purchase.aspose.com/buy).
 
 ### Khởi tạo và thiết lập cơ bản
 Để bắt đầu sử dụng Aspose.Cells:
@@ -171,6 +173,9 @@ Khám phá các tính năng nâng cao hơn của Aspose.Cells như tạo biểu 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

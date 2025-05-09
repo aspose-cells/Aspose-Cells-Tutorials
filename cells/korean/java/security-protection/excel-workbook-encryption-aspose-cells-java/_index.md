@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 이 포괄적인 가이드에서는 다음 내용을 살펴보겠습니다.
 - **Excel 통합 문서 로드** 으로 `Workbook` 물체.
 - **비밀번호 보호 적용** 파일에 대한 액세스를 보호합니다.
-- **XOR 암호화를 사용하세요** 기본 보안 계층용.
+- **XOR 암호화를 사용하세요** 기본 보안 계층을 위해.
 - **강력한 암호화 보호 구현** Aspose.Cells를 사용하여.
 - **암호화된 통합 문서를 저장하세요** 데이터의 기밀성을 유지합니다.
 
@@ -95,7 +97,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ### Excel 파일 암호 보호
 
 #### 개요
-암호 보호를 통해 권한이 있는 사용자만 통합 문서 콘텐츠에 액세스할 수 있습니다.
+암호 보호는 권한이 있는 사용자만 통합 문서 콘텐츠에 액세스할 수 있도록 보장합니다.
 ```java
 import com.aspose.cells.Workbook;
 
@@ -117,7 +119,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 workbook.setEncryptionOptions(EncryptionType.XOR, 40); // 암호화 수준을 40비트로 설정
 ```
-**설명**: 그 `setEncryptionOptions` 이 방법은 암호화 유형과 강도를 지정합니다. 여기서는 40비트 값을 갖는 XOR 연산을 사용합니다.
+**설명**: 그 `setEncryptionOptions` 이 방법은 암호화 유형과 암호화 강도를 지정합니다. 여기서는 40비트 값을 갖는 XOR 연산을 사용합니다.
 
 ### Excel 파일에 강력한 암호화 적용
 
@@ -179,6 +181,9 @@ Java용 Aspose.Cells를 사용할 때 성능을 최적화하기 위해 다음 �
    - 네, 여러 파일을 처리할 때 생산성을 크게 향상시킬 수 있는 일괄 작업을 지원합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

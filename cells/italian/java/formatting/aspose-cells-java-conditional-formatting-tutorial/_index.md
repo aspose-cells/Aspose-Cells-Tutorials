@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Sì, puoi fare riferimento a celle su fogli diversi utilizzando riferimenti Exce
 Specifica il formato di salvataggio desiderato (ad esempio, XLS o XLSX) per mantenere la compatibilità con diverse versioni di Excel. Aspose.Cells supporta diversi formati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

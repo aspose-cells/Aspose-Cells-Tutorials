@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ As possibilidades de integração incluem conectar arquivos do Excel com aplicat
 ## Considerações de desempenho
 
 Ao trabalhar com grandes conjuntos de dados, considere estas dicas:
-- **Otimize o uso da memória**: Limpe regularmente objetos não utilizados da memória para evitar vazamentos.
+- **Otimizar o uso da memória**: Limpe regularmente objetos não utilizados da memória para evitar vazamentos.
 - **Processamento em lote**Processe dados em pedaços em vez de carregar tudo na memória de uma vez.
 - **Aplicação de estilo eficiente**: Aplique estilos somente onde necessário para reduzir a sobrecarga de processamento.
 
@@ -165,6 +167,9 @@ Pronto para aprimorar seus arquivos do Excel com estilos integrados? Implemente 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

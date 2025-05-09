@@ -8,7 +8,9 @@ url: /net/row-and-column-management/copying-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Columns using Aspose.Cells for .NET
@@ -88,6 +90,7 @@ You can visit the [Aspose.Cells support forum](https://forum.aspose.com/c/cells/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

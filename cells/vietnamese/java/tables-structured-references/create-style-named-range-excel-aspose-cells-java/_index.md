@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ A5: Sử dụng các biện pháp quản lý bộ nhớ hiệu quả và cân nh
 Bằng cách tận dụng Aspose.Cells for Java, bạn có thể nâng cao các tác vụ tự động hóa Excel của mình lên một tầm cao mới về hiệu quả và sự rõ ràng. Chúc bạn viết code vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

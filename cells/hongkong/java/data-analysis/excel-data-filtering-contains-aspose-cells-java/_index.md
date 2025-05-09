@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,7 +66,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 1. **免費試用**：從下載庫 [Aspose 下載](https://releases.aspose.com/cells/java/) 從免費試用開始。
 2. **臨時執照**：存取以下網址以取得完全存取權限的臨時許可證 [臨時許可證頁面](https://purchase。aspose.com/temporary-license/).
-3. **購買**：為了持續使用，請考慮從 [Aspose 購買頁面](https://purchase。aspose.com/buy).
+3. **購買**：如需繼續使用，請考慮從 [Aspose 購買頁面](https://purchase。aspose.com/buy).
 
 ### 基本初始化和設定
 
@@ -197,6 +199,9 @@ A5：訪問 [Aspose 臨時許可證頁面](https://purchase.aspose.com/temporary
 透過這份全面的指南，您可以在專案中有效地實作 Aspose.Cells for Java。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

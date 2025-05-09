@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ V5: Teljesen egyetértek. Robusztus funkciókat kínál, amelyek ideálisak a v�
 Ezen eszközök és technikák elsajátításával fejlesztheted Excellel kapcsolatos projektjeidet Java nyelven, maximálisan kihasználva az Aspose.Cells erejét. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

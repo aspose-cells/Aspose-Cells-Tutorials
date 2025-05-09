@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ ActiveX नियंत्रण जोड़ने से निम्नलि
 - **डाउनलोड करना**: Aspose.Cells Java के नवीनतम संस्करण तक पहुँचें [यह पृष्ठ](https://releases.aspose.com/cells/java/).
 - **खरीदना**: के माध्यम से लाइसेंस खरीदें [Aspose की खरीद साइट](https://purchase.aspose.com/buy).
 - **निःशुल्क परीक्षण और अस्थायी लाइसेंस**दिए गए लिंक के माध्यम से निःशुल्क या अस्थायी पहुंच से शुरुआत करें।
-- **सहायता**: चर्चा में शामिल हों या प्रश्न पूछें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+- **सहायता**चर्चा में शामिल हों या प्रश्न पूछें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

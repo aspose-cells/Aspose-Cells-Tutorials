@@ -1,85 +1,89 @@
 ---
-title: Szálas megjegyzések hozzáadása a munkalaphoz
-linktitle: Szálas megjegyzések hozzáadása a munkalaphoz
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a lépésről lépésre mutató oktatóanyagból megtudhatja, hogyan adhat hozzáfűzött megjegyzéseket Excel-munkalapokhoz az Aspose.Cells for .NET használatával. Fokozza az együttműködést erőfeszítés nélkül.
-weight: 10
-url: /hu/net/worksheet-operations/add-threaded-comments/
+"description": "Tanuld meg, hogyan adhatsz hozzá menetes megjegyzéseket Excel-munkafüzetekhez az Aspose.Cells for .NET használatával ezzel a lépésről lépésre haladó oktatóanyaggal. Erőfeszítéseiddel fokozhatod az együttműködést."
+"linktitle": "Hozzáfűzött megjegyzések hozzáadása a munkalaphoz"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Hozzáfűzött megjegyzések hozzáadása a munkalaphoz"
+"url": "/hu/net/worksheet-operations/add-threaded-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szálas megjegyzések hozzáadása a munkalaphoz
+# Hozzáfűzött megjegyzések hozzáadása a munkalaphoz
 
 ## Bevezetés
-Tovább szeretné bővíteni Excel-munkalapjait menetes megjegyzésekkel? Ha Ön fejlesztő az Aspose.Cells for.NET-hez, akkor szerencséje van! A szálas megjegyzések szervezettebb vitát tesznek lehetővé az Excel-lapokon, lehetővé téve a felhasználók számára a hatékony együttműködést. Függetlenül attól, hogy egy visszajelzést igénylő projekten dolgozik, vagy egyszerűen csak adatokat szeretne megjegyzésekkel ellátni, ez az oktatóanyag végigvezeti Önt a menetes megjegyzések hozzáadásának folyamatán az Excel-munkalapokon az Aspose.Cells segítségével. 
+Szeretnéd Excel-munkafüzeteidet menetes megjegyzésekkel kiegészíteni? Ha fejlesztőként az Aspose.Cells for .NET-et használod, szerencséd van! A menetes megjegyzések lehetővé teszik a szervezettebb beszélgetéseket az Excel-munkafüzetekben, így a felhasználók hatékonyan együttműködhetnek. Akár egy visszajelzést igénylő projekten dolgozol, akár egyszerűen csak adatokat szeretnél jegyzetekkel ellátni, ez az oktatóanyag végigvezet a menetes megjegyzések Excel-munkafüzeteidben való hozzáadásának folyamatán az Aspose.Cells segítségével. 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén, mivel ez a leggyakoribb IDE a .NET fejlesztéshez.
-2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET könyvtárnak telepítve kell lennie. Ha még nem telepítette, letöltheti az oldalról[itt](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismerete: A C# programozás ismerete elengedhetetlen, mivel ez az oktatóanyag C# nyelven fog megírni.
-4. .NET-keretrendszer: Győződjön meg arról, hogy projektje kompatibilis .NET-keretrendszer-verzióval van beállítva.
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén, mivel ez a leggyakoribb IDE a .NET fejlesztéshez.
+2. Aspose.Cells for .NET: Telepítenie kell az Aspose.Cells for .NET könyvtárat. Ha még nem telepítette, letöltheti a webhelyről. [itt](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozással való ismeret elengedhetetlen, mivel ez az oktatóanyag C#-ban fog megíródni.
+4. .NET-keretrendszer: Győződjön meg arról, hogy a projekt kompatibilis .NET-keretrendszer-verzióval van beállítva.
 ## Csomagok importálása
-Az Aspose.Cells használatához importálnia kell a szükséges névtereket a projektbe. A következőképpen teheti meg:
+Az Aspose.Cells használatához importálnia kell a szükséges névtereket a projektjébe. Így teheti meg ezt:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Ezek a névterek hozzáférést biztosítanak az Excel-fájlok kezeléséhez és a szálas megjegyzések kezeléséhez szükséges osztályokhoz és metódusokhoz.
-Most, hogy beállítottuk az előfeltételeinket, és importáltuk a szükséges csomagokat, az egyértelműség kedvéért bontsuk több lépésre a szálas megjegyzések hozzáadásának folyamatát.
-## 1. lépés: Hozzon létre egy új munkafüzetet
-Először is létre kell hoznunk egy új munkafüzetet, amelyhez hozzáadjuk a szálas megjegyzéseinket.
+Ezek a névterek hozzáférést biztosítanak az Excel-fájlok kezeléséhez és a hozzászólásláncok kezeléséhez szükséges osztályokhoz és metódusokhoz.
+Most, hogy beállítottuk az előfeltételeket és importáltuk a szükséges csomagokat, bontsuk a hozzászólásláncokban szereplő megjegyzések hozzáadásának folyamatát több lépésre az áttekinthetőség kedvéért.
+## 1. lépés: Új munkafüzet létrehozása
+Először is létre kell hoznunk egy új munkafüzetet, ahová a hozzászólásláncokban szereplő megjegyzéseket fogjuk felvenni.
 ```csharp
 string outDir = "Your Document Directory"; // Állítsa be a kimeneti könyvtárat
-Workbook workbook = new Workbook(); // Hozzon létre egy új munkafüzetet
+Workbook workbook = new Workbook(); // Új munkafüzet létrehozása
 ```
- Ebben a lépésben beállíthatja azt a kimeneti könyvtárat, ahová az Excel-fájl mentésre kerül. A`Workbook` osztály a belépési pont az Aspose.Cellsben található Excel-fájlok létrehozásához és kezeléséhez.
-## 2. lépés: Adjon hozzá egy szerzőt a megjegyzésekhez
-Mielőtt megjegyzéseket fűzhetnénk hozzá, meg kell határoznunk egy szerzőt. Ez a szerző hozzá lesz rendelve az Ön által létrehozott megjegyzésekhez. Most adjunk hozzá egy szerzőt.
+Ebben a lépésben beállíthatja azt a kimeneti könyvtárat, ahová az Excel-fájl mentésre kerül. `Workbook` Az osztály az Excel fájlok Aspose.Cells-ben történő létrehozásának és kezelésének belépési pontja.
+## 2. lépés: Szerző hozzáadása a megjegyzésekhez
+Mielőtt megjegyzéseket adhatnánk hozzá, meg kell adnunk egy szerzőt. Ez a szerző lesz társítva az általad létrehozott megjegyzésekkel. Most adjunk hozzá egy szerzőt.
 ```csharp
 int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Aspose Test", "", ""); // Szerző hozzáadása
 ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex]; // Szerezd meg a szerzőt
 ```
- Itt használjuk a`Add` módszer új szerző létrehozására. A paraméterekben megadhatja a szerző nevét és egyéb opcionális adatokat (például e-mail címet). Erre a szerzőre később a megjegyzések hozzáadásakor hivatkozunk.
-## 3. lépés: Szálas megjegyzés hozzáadása
-Most, hogy beállítottuk a szerzőt, ideje hozzáfűzni egy szálas megjegyzést a munkalap egy adott cellájához. 
+Itt használjuk a `Add` metódus új szerző létrehozásához. A paraméterekben megadhatja a szerző nevét és egyéb opcionális adatokat (például e-mail címét). Erre a szerzőre később hivatkozni fogunk a megjegyzések hozzáadásakor.
+## 3. lépés: Hozzáfűzött megjegyzés hozzáadása
+Most, hogy beállítottuk a szerzőt, itt az ideje, hogy egy szálas megjegyzést fűzzünk hozzá a munkalap egy adott cellájához. 
 ```csharp
-workbook.Worksheets[0].Comments.AddThreadedComment("A1", "Test Threaded Comment", author); // Hozzáfűzött megjegyzés hozzáadása
+workbook.Worksheets[0].Comments.AddThreadedComment("A1", "Test Threaded Comment", author); // Hozzászólás hozzáadása
 ```
- Ebben a lépésben megjegyzést adunk az első munkalap A1 cellájához. Cserélheted`"A1"` tetszőleges cellahivatkozással, amelyhez hozzá szeretné fűzni megjegyzését. Az idézőjelben lévő üzenet a megjegyzés tartalma.
-## 4. lépés: Mentse el a munkafüzetet
-A szálas megjegyzés hozzáadása után érdemes mentenie a munkafüzetet, hogy a változtatások fennmaradjanak.
+Ebben a lépésben egy megjegyzést adunk az első munkalap A1 cellájához. Lecserélheti `"A1"` bármely cellahivatkozással, ahová a megjegyzést hozzá szeretné adni. Az idézőjelek között lévő üzenet a megjegyzés tartalma.
+## 4. lépés: A munkafüzet mentése
+A hozzászólásláncba rendezett megjegyzés hozzáadása után érdemes menteni a munkafüzetet, hogy a módosítások megmaradjanak.
 ```csharp
-workbook.Save(outDir + "AddThreadedComments_out.xlsx"); // Mentse el a munkafüzetet
+workbook.Save(outDir + "AddThreadedComments_out.xlsx"); // A munkafüzet mentése
 ```
- Itt a munkafüzet a névvel a megadott kimeneti könyvtárba kerül mentésre`AddThreadedComments_out.xlsx`Győződjön meg arról, hogy a könyvtár létezik, különben a fájl nem található hibaüzenetet kap.
-## 5. lépés: Erősítse meg a sikert
-Végül adjunk ki egy üzenetet a konzolra, jelezve, hogy a műveletünk sikeres volt.
+Itt a munkafüzet a megadott kimeneti könyvtárba kerül mentésre a következő névvel: `AddThreadedComments_out.xlsx`Győződjön meg arról, hogy a könyvtár létezik, különben „a fájl nem található” hibát kap.
+## 5. lépés: Siker megerősítése
+Végül írjunk ki egy üzenetet a konzolra, amely jelzi, hogy a művelet sikeres volt.
 ```csharp
 Console.WriteLine("AddThreadedComments executed successfully."); // Megerősítő üzenet
 ```
-Ez a lépés nem kötelező, de hasznos a hibakereséshez. Tudja, hogy a kód hiba nélkül futott le.
+Ez a lépés opcionális, de hasznos a hibakereséshez. Megmutatja, hogy a kód hibák nélkül lefutott.
 ## Következtetés
-És megvan! Sikeresen fűzött megjegyzéseket az Excel-munkalaphoz az Aspose.Cells for .NET segítségével. Ez a funkció jelentősen javíthatja az együttműködést és egyértelművé teheti a kommunikációt, ha több felhasználó dolgozik ugyanazon a dokumentumon.
-A szálas megjegyzések nemcsak gazdagabb vitát tesznek lehetővé a dokumentumon belül, hanem rendszerezetten is tartják a megjegyzéseket. Nyugodtan kísérletezzen különböző cellákkal, szerzőkkel és megjegyzésekkel, hogy megtudja, hogyan jelennek meg a munkafüzetében.
+És íme! Sikeresen hozzáadtad a hozzászólásláncokhoz kapcsolódó megjegyzéseket az Excel-munkafüzetedhez az Aspose.Cells for .NET használatával. Ez a funkció jelentősen javíthatja az együttműködést és tisztábbá teheti a kommunikációt, amikor több felhasználó dolgozik ugyanazon a dokumentumon.
+A témaszerű megjegyzések nemcsak gazdagabb beszélgetést tesznek lehetővé a dokumentumon belül, hanem a jegyzetek rendszerezettek is maradnak. Kísérletezz különböző cellákkal, szerzőkkel és megjegyzésekkel, hogy lásd, hogyan jelennek meg a munkafüzetedben.
 ## GYIK
-### Mi az a szálas megjegyzés az Excelben?  
-A szálas megjegyzés olyan megjegyzés, amely lehetővé teszi a válaszokat és a vitákat magában a megjegyzésben, megkönnyítve az együttműködést.
-### Hozzáadhatok több megjegyzést egyetlen cellához?  
-Igen, egyetlen cellához több szálba fűzött megjegyzést is hozzáadhat, ami kiterjedt vitákat tesz lehetővé.
-### Szükségem van engedélyre az Aspose.Cells használatához?  
- Bár az Aspose.Cells ingyenes próbaverzióval kipróbálható, az éles használathoz licenc szükséges. Megkaphatod[itt](https://purchase.aspose.com/buy).
-### Hogyan nézhetem meg a megjegyzéseket Excelben?  
-Megjegyzések hozzáadása után megtekintheti azokat úgy, hogy az egérmutatót arra a cellára viszi, ahol a megjegyzés található, vagy a megjegyzések ablaktábláján keresztül.
-### Hol találhatok több információt az Aspose.Cells-ről?  
- Hivatkozhat a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) további információkért és részletes példákért.
+### Mi az a hozzászólásláncként használt megjegyzés az Excelben?  
+hozzászólásláncok olyan hozzászólások, amelyek lehetővé teszik a válaszadást és a beszélgetést magán a hozzászóláson belül, megkönnyítve az együttműködést.
+### Több megjegyzést is hozzáadhatok egyetlen cellához?  
+Igen, több hozzászólásláncba rendezett megjegyzést is hozzáadhat egyetlen cellához, ami lehetővé teszi a részletes megbeszéléseket.
+### Szükségem van licencre az Aspose.Cells használatához?  
+Bár az Aspose.Cells ingyenes próbaverzióval is kipróbálható, éles használathoz licenc szükséges. Megszerezheti [itt](https://purchase.aspose.com/buy).
+### Hogyan tudom megtekinteni a megjegyzéseket az Excelben?  
+A megjegyzések hozzáadása után megtekintheti őket, ha az egérmutatót a megjegyzést tartalmazó cella fölé viszi, vagy a megjegyzések ablaktáblán keresztül.
+### Hol találok több információt az Aspose.Cells-ről?  
+Hivatkozhat a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) további információkért és részletes példákért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

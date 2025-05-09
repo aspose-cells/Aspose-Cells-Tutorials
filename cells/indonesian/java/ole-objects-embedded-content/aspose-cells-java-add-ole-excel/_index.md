@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menambahkan Objek OLE ke Excel Menggunakan Aspose.Cells Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Tingkatkan aplikasi Java Anda dengan mengintegrasikan file ke dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Tutorial ini akan memandu Anda melalui proses membaca file dari disk dan menanamkannya sebagai objek OLE dalam lembar kerja Excel, yang akan menyederhanakan tugas manipulasi data Anda.
 
@@ -24,14 +26,14 @@ Dalam artikel ini, kita akan membahas cara:
 
 Dengan mengikuti panduan ini, Anda akan memperoleh keterampilan praktis yang dapat diterapkan pada berbagai skenario dunia nyata. Mari kita mulai!
 
-### Prasyarat (H2)
+### Előfeltételek (H2)
 
 Sebelum kita mulai, pastikan lingkungan pengembangan Anda telah disiapkan dengan alat yang diperlukan:
 1. **Kit Pengembangan Java (JDK):** Pastikan JDK 8 atau yang lebih baru terinstal pada sistem Anda.
 2. **Aspose.Cells untuk Java:** Gunakan Aspose.Cells versi 25.3 untuk Java, terintegrasi melalui Maven atau Gradle.
 3. **IDE:** Lingkungan Pengembangan Terpadu seperti IntelliJ IDEA atau Eclipse akan memfasilitasi penulisan dan debugging kode.
 
-#### Perpustakaan yang Diperlukan
+#### Kötelező könyvtárak
 
 Untuk menyertakan Aspose.Cells dalam proyek Anda, gunakan salah satu alat manajemen ketergantungan berikut:
 
@@ -49,7 +51,7 @@ Untuk menyertakan Aspose.Cells dalam proyek Anda, gunakan salah satu alat manaje
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Aspose menawarkan lisensi uji coba gratis untuk menjelajahi fitur-fitur lengkap pustaka mereka tanpa batasan. Dapatkan lisensi sementara atau pertimbangkan untuk membeli lisensi untuk penggunaan jangka panjang.
 
@@ -62,15 +64,15 @@ Untuk memulai, Anda perlu menginisialisasi Aspose.Cells di proyek Anda:
    License license = new License();
    license.setLicense("path/to/your/license/file.lic");
    ```
-3. **Inisialisasi Dasar:** Mulailah menggunakan Aspose.Cells dengan membuat instance dari `Workbook` dan kelas lain sesuai kebutuhan.
+3. **Alapvető inicializálás:** Mulailah menggunakan Aspose.Cells dengan membuat instance dari `Workbook` dan kelas lain sesuai kebutuhan.
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 Mari kita uraikan implementasi ini ke dalam beberapa fitur berbeda, dan berikan langkah-langkah terperinci untuk masing-masing fitur.
 
 #### Membaca File ke dalam Array Byte (H2)
 
-**Ringkasan**
+**Áttekintés**
 Fitur ini menunjukkan cara membaca berkas citra dari disk dan memuat isinya ke dalam array byte menggunakan operasi I/O Java standar. Fitur ini sangat berguna saat Anda perlu memanipulasi atau mentransfer data dalam bentuk biner.
 
 ##### Langkah 1: Siapkan Kelas
@@ -95,16 +97,16 @@ public class ReadFileToByteArray {
 }
 ```
 
-**Penjelasan:**
-- **Pembuatan Berkas:** A `File` Objek dibuat dengan jalur ke file target Anda.
+**Magyarázat:**
+- **Pembuatan Berkas:** Egy `File` Objek dibuat dengan jalur ke file target Anda.
 - **Membaca Data:** Isi file dibaca ke dalam array byte menggunakan `FileInputStream`.
 
 #### Membuat dan Menambahkan Objek OLE ke Lembar Kerja Excel (H2)
 
-**Ringkasan**
+**Áttekintés**
 Bagian ini berfokus pada penyematan berkas sebagai objek OLE dalam lembar kerja Excel, guna meningkatkan interaktivitas dokumen.
 
-##### Langkah 1: Buat Instansiasi Buku Kerja
+##### 1. lépés: Munkafüzet példányosítása
 Buat kelas bernama `AddOLEObjectToWorksheet`:
 ```java
 import com.aspose.cells.OleObject;
@@ -125,13 +127,13 @@ public class AddOLEObjectToWorksheet {
 }
 ```
 
-**Penjelasan:**
-- **Inisialisasi Buku Kerja:** Sebuah baru `Workbook` objek dibuat.
+**Magyarázat:**
+- **Munkafüzet inicializálása:** Egy új `Workbook` objek dibuat.
 - **Pembuatan Objek OLE:** Objek OLE ditambahkan ke lembar kerja pertama menggunakan dimensi dan data gambar yang ditentukan.
 
 #### Menyimpan Buku Kerja ke Disk (H2)
 
-**Ringkasan**
+**Áttekintés**
 Terakhir, mari simpan buku kerja dengan objek OLE yang tertanam ke lokasi yang Anda inginkan pada disk.
 
 ##### Langkah 1: Terapkan Fungsi Simpan
@@ -149,30 +151,30 @@ public class SaveWorkbook {
 }
 ```
 
-**Penjelasan:**
-- **Penyimpanan Berkas:** Itu `save` metode dari `Workbook` Kelas ini digunakan untuk menulis berkas ke dalam disk.
+**Magyarázat:**
+- **Penyimpanan Berkas:** A `save` a módszer `Workbook` Kelas ini digunakan untuk menulis berkas ke dalam disk.
 
-### Aplikasi Praktis (H2)
+### Gyakorlati alkalmazások (H2)
 
 Berikut adalah beberapa kasus penggunaan nyata untuk fungsi ini:
 1. **Sistem Manajemen Dokumen:** Sematkan gambar atau PDF sebagai objek OLE dalam laporan Excel.
 2. **Alat Pelaporan Otomatis:** Integrasikan representasi data grafis langsung ke dalam lembar kerja.
 3. **Solusi Pengarsipan Data:** Menyimpan dan mengambil dokumen kompleks secara efisien dalam satu buku kerja.
 
-### Pertimbangan Kinerja (H2)
+### Teljesítményszempontok (H2)
 
 Saat bekerja dengan file besar, pertimbangkan kiat berikut untuk mengoptimalkan kinerja:
-- **Manajemen Memori:** Gunakan aliran buffer untuk menangani berkas besar secara efisien.
-- **Pemrosesan Batch:** Memproses data dalam potongan-potongan jika berlaku untuk mengurangi jejak memori.
+- **Memóriakezelés:** Gunakan aliran buffer untuk menangani berkas besar secara efisien.
+- **Kötegelt feldolgozás:** Memproses data dalam potongan-potongan jika berlaku untuk mengurangi jejak memori.
 - **Optimasi Aspose.Cells:** Memanfaatkan fitur bawaan Aspose untuk menangani kumpulan data besar.
 
-### Kesimpulan
+### Következtetés
 
 Dalam tutorial ini, kami membahas cara membaca file ke dalam array byte, menanamkannya sebagai objek OLE dalam lembar kerja Excel, dan menyimpan buku kerja menggunakan Aspose.Cells untuk Java. Keterampilan ini dapat meningkatkan kemampuan manipulasi data Anda secara signifikan dalam aplikasi Java.
 
 Untuk menjelajahi lebih lanjut apa yang ditawarkan Aspose.Cells, pertimbangkan untuk membaca dokumentasinya atau mencoba fitur tambahan yang tersedia dengan uji coba gratis.
 
-### Bagian FAQ (H2)
+### GYIK szekció (H2)
 
 1. **T: Apa itu objek OLE?**  
    A: Objek Penghubungan dan Penanaman (OLE) memungkinkan Anda menanamkan berkas seperti gambar atau dokumen dalam berkas lain, misalnya lembar kerja Excel.
@@ -189,15 +191,18 @@ Untuk menjelajahi lebih lanjut apa yang ditawarkan Aspose.Cells, pertimbangkan u
 5. **T: Bagaimana saya dapat mengintegrasikan solusi ini ke dalam aplikasi Java saya yang sudah ada?**  
    A: Gabungkan potongan kode yang ditunjukkan ke dalam alur kerja aplikasi Java Anda jika penanganan file dan manipulasi Excel memerlukan.
 
-### Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+### Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Lisensi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

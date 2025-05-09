@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Stanco di determinare manualmente i formati dei file o di verificarne lo stato di crittografia? Con Aspose.Cells per Java, queste attività diventano semplici e automatizzate, risparmiando tempo e risorse. Questo tutorial ti guiderà nel rilevamento dei formati dei file e nella verifica della crittografia di un file Excel utilizzando Aspose.Cells in Java.
 
 ### Cosa imparerai
-- **Rileva formati file:** Identificare in modo efficiente il formato dei file dei fogli di calcolo.
+- **Rileva formati di file:** Identificare in modo efficiente il formato dei file dei fogli di calcolo.
 - **Controlla lo stato della crittografia:** Determina se un dato file è crittografato.
 - **Implementazione semplice:** Implementazione del codice passo dopo passo per entrambe le attività.
 
@@ -187,6 +189,9 @@ Pronti a mettere in pratica queste competenze? Provate a implementarle nel vostr
 Porta la tua programmazione Java a un livello superiore sfruttando la potenza di Aspose.Cells. Buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

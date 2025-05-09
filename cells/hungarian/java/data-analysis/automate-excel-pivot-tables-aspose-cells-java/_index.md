@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Munkafüzet betö
 ```java
 import com.aspose.cells.Worksheet;
 
-Worksheet worksheet = workbook.getWorksheets().get(0); // munkafüzet első munkalapjának elérése
+Worksheet worksheet = workbook.getWorksheets().get(0); // A munkafüzet első munkalapjának elérése
 ```
 #### Magyarázat
 - Az első munkalap lekérése a következővel: `getWorksheets().get(0)`, amely egy `Worksheet` objektum.
@@ -122,7 +124,7 @@ cell.getStyle().getFont().setColor(Color.getBlack()); // Állítsd a betűszínt
 ```
 #### Magyarázat
 - Módosítás `ForegroundColor` és `FontColor` tulajdonságok a stílusok alkalmazásához, javítva az adatok megjelenítését.
-### Cellastílus alkalmazása kimutatástáblázatban (H3)
+### Cellastílus alkalmazása pivottáblázatban (H3)
 Előre meghatározott stílus alkalmazása egy kimutatástáblázat adott celláira:
 ```java
 pivotTable.format(cell.getRow(), cell.getColumn(), style); // A definiált stílus alkalmazása a cellára a sor és oszlop pozíciójában
@@ -177,6 +179,9 @@ Készen állsz kipróbálni? Merülj el a [Aspose.Cells dokumentáció](https://
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

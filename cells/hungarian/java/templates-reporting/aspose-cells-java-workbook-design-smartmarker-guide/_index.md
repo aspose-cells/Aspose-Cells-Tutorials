@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ public class SetupAspose {
 }
 ```
 
-Most, hogy a beállításokkal megvagyunk, térjünk át az intelligens jelölőfeldolgozás megvalósítására.
+Most, hogy a beállításokkal végeztünk, térjünk át az intelligens jelölőfeldolgozás megvalósítására.
 
 ## Megvalósítási útmutató
 
@@ -172,7 +174,7 @@ Ezek az alkalmazások bemutatják, hogyan integrálható zökkenőmentesen az As
 
 ### Teljesítménybeli szempontok
 - **Munkafüzet méretének optimalizálása**Használat `Workbook.calculateFormula(false)` a felesleges újraszámítások elkerülése érdekében.
-- **Memóriakezelés**A Java szemétgyűjtési funkciójának hatékony kihasználása a munkafüzetek bezárásával `.dispose()` feldolgozás után.
+- **Memóriakezelés**A Java szemétgyűjtésének hatékony kihasználása a munkafüzetek bezárásával `.dispose()` feldolgozás után.
 - **Hatékony adatkezelés**Csak a szükséges lapokat vagy cellákat dolgozza fel az erőforrás-felhasználás minimalizálása érdekében.
 
 ## Következtetés
@@ -202,6 +204,9 @@ A következő lépések közé tartozik a bonyolultabb sablonokkal való kísér
 Használja ki az Aspose.Cells for Java erejét, és alakítsa át adatfeldolgozási feladatait könnyedén!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj pole grupy do arkusza kalkulacyjnego w programie Excel
-linktitle: Dodaj pole grupy do arkusza kalkulacyjnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodać pole grupy i przyciski radiowe w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dla programistów na każdym poziomie.
-weight: 24
-url: /pl/net/excel-shapes-controls/add-group-box-to-worksheet-excel/
+"description": "Dowiedz się, jak dodać pole grupy i przyciski radiowe w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku dla programistów na każdym poziomie."
+"linktitle": "Dodaj pole grupy do arkusza kalkulacyjnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj pole grupy do arkusza kalkulacyjnego w programie Excel"
+"url": "/pl/net/excel-shapes-controls/add-group-box-to-worksheet-excel/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj pole grupy do arkusza kalkulacyjnego w programie Excel
@@ -18,10 +20,10 @@ Jeśli chodzi o prezentację danych, Excel jest królem. Dodanie interaktywnych 
 ## Wymagania wstępne
 Zanim przejdziemy do kodu, jest kilka rzeczy, których będziesz potrzebować:
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio. To właśnie w tym środowisku będziesz pisał kod .NET.
-2.  Aspose.Cells dla .NET: Musisz pobrać tę bibliotekę. Możesz ją znaleźć[Tutaj](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells dla .NET: Musisz pobrać tę bibliotekę. Możesz ją znaleźć [Tutaj](https://releases.aspose.com/cells/net/). 
 3. Podstawowa znajomość języka C#: Chociaż wszystko wyjaśnię krok po kroku, podstawowa znajomość języka C# pomoże Ci zrozumieć tekst.
 ## Importuj pakiety
-W przypadku każdego projektu najpierw musisz zaimportować niezbędne pakiety. Tutaj głównym celem będzie Aspose.Cells. Oto, jak to zrobić:
+przypadku każdego projektu najpierw musisz zaimportować niezbędne pakiety. Tutaj głównym celem będzie Aspose.Cells. Oto, jak to zrobić:
 ## Krok 1: Otwórz swój projekt w programie Visual Studio
 Uruchom program Visual Studio i otwórz istniejący projekt lub utwórz nowy. 
 ## Krok 2: Dodaj odwołanie do Aspose.Cells
@@ -70,7 +72,7 @@ Teraz nadajmy tytuł Twojemu polu grupowemu!
 box.Text = "Age Groups";
 box.Placement = PlacementType.FreeFloating;
 ```
- Ciąg „Grupy wiekowe” ustawia etykietę, która pojawia się w polu grupy. Ustawianie`Placement` Jak`FreeFloating` umożliwia przesuwanie pudełka — elastyczność jest kluczowa!
+Ciąg „Grupy wiekowe” ustawia etykietę, która pojawia się w polu grupy. Ustawianie `Placement` Jak `FreeFloating` umożliwia przesuwanie pudełka — elastyczność jest kluczowa!
 ## Krok 5: Utwórz pole grupy 2-D
 Mimo że 3D może brzmieć elegancko, tutaj stawiamy na klasyczny wygląd.
 ```csharp
@@ -146,12 +148,14 @@ Choć pewna wiedza na temat kodowania może być pomocna, ten samouczek przeprow
 ### Czy mogę dostosować wygląd pól grupowych i przycisków?
 Oczywiście! Aspose.Cells oferuje rozbudowane opcje stylizowania kształtów, w tym kolory, rozmiary i efekty 3D.
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?
- Tak! Możesz wypróbować za darmo odwiedzając[Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).
+Tak! Możesz wypróbować za darmo odwiedzając [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej materiałów lub pomoc dotyczącą Aspose.Cells?
- Ten[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) jest doskonałym miejscem, w którym można szukać pomocy i dzielić się wiedzą ze społecznością.
+Ten [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) jest doskonałym miejscem, w którym można szukać pomocy i dzielić się wiedzą ze społecznością.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

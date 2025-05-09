@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### लाइसेंस प्राप्ति चरण
 
-- **मुफ्त परीक्षण**: यहां से निःशुल्क परीक्षण डाउनलोड करें [आधिकारिक डाउनलोड पृष्ठ](https://releases.aspose.com/cells/java/).
+- **मुफ्त परीक्षण**: यहाँ से निःशुल्क परीक्षण डाउनलोड करें [आधिकारिक डाउनलोड पृष्ठ](https://releases.aspose.com/cells/java/).
 - **अस्थायी लाइसेंस**: पूर्ण कार्यक्षमता के लिए अस्थायी लाइसेंस प्राप्त करने के लिए यहां जाएं [अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
 - **खरीदना**: दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदने पर विचार करें [खरीदें पेज](https://purchase.aspose.com/buy).
 
@@ -199,6 +201,9 @@ Column Index of Cell C6: 2
 - [सहयता मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

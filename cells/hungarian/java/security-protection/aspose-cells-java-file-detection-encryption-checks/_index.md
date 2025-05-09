@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ Készen állsz arra, hogy ezeket a készségeket a gyakorlatban is alkalmazd? Pr
 ## GYIK szekció
 
 1. **Mi az Aspose.Cells Java-hoz?**
-   - Egy hatékony könyvtár táblázatkezelő fájlok használatához Java nyelven.
+   - Egy hatékony könyvtár táblázatkezelő fájlok Java nyelven történő kezeléséhez.
    
 2. **Hogyan ellenőrizhetem az Aspose.Cells segítségével, hogy egy fájl titkosítva van-e?**
    - Használd a `isEncrypted` módszer a `FileFormatInfo` objektum.
@@ -179,14 +181,17 @@ Készen állsz arra, hogy ezeket a készségeket a gyakorlatban is alkalmazd? Pr
 ## Erőforrás
 
 - **Dokumentáció:** [Aspose.Cells Java referencia](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells kiadások Java-ra](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells kiadások Java-ra](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ideiglenes licenc letöltése](https://releases.aspose.com/cells/java/)
 - **Támogatási fórum:** [Aspose.Cells támogatás](https://forum.aspose.com/c/cells/9)
 
-Emeld a Java programozást a következő szintre az Aspose.Cells erejének kihasználásával. Jó programozást!
+Emeld a Java programozást a következő szintre az Aspose.Cells erejének kihasználásával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

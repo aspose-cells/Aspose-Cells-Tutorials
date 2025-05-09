@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Domine técnicas avançadas de processamento de dados com nossos tutoriais abrangentes de manipulação de dados do Aspose.Cells para Java. Estes guias passo a passo mostram como transformar, limpar e processar dados de planilhas programaticamente, abrangendo operações de texto, funcionalidade de busca e substituição, mesclagem de dados e transformações em lote. Cada tutorial inclui exemplos práticos de código Java para tarefas comuns de preparação de dados, ajudando você a construir pipelines de processamento de dados eficientes que convertem dados brutos de planilhas em informações limpas e consistentes.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de manipulação de dados
 - Implementação passo a passo com exemplos de código completos
@@ -72,6 +74,9 @@ Aprenda a automatizar substituições de texto em arquivos do Excel usando regex
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

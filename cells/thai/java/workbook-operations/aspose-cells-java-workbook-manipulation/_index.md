@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ excelWorkbook1.save(outDir + "/CWBetweenWorkbooks_out.xls");
    - เพิ่มประสิทธิภาพการตั้งค่าหน่วยความจำและใช้วิธีการประมวลข้อมูลที่มีประสิทธิภาพที่ห้องสมุดจัดให้
 3. **ฉันสามารถจัดรูปแบบเซลล์โดยใช้ Aspose.Cells ได้หรือไม่**
    - ใช่ คุณสามารถใช้ตัวเลือกการจัดรูปแบบต่างๆ เพื่อปรับปรุงรูปลักษณ์ของเวิร์กบุ๊กของคุณได้
-4. **สามารถเพิ่มสูตรลงในเซลล์ได้หรือไม่?**
+4. **สามารถเพิ่มสูตรลงในเซลล์ได้หรือไม่**
    - แน่นอน! Aspose.Cells รองรับการเพิ่มและคำนวณสูตร Excel ภายในเวิร์กบุ๊ก
 5. **ฉันควรทำอย่างไรหากเวอร์ชันไลบรารีของฉันล้าสมัย?**
    - ตรวจสอบ [หน้าดาวน์โหลด Aspose](https://releases.aspose.com/cells/java/) สำหรับการอัปเดตและอัปเกรดสิ่งที่ต้องพึ่งพาของคุณให้เหมาะสม
@@ -180,6 +182,9 @@ excelWorkbook1.save(outDir + "/CWBetweenWorkbooks_out.xls");
 - **สั่งซื้อและทดลองใช้งานฟรี**:เรียนรู้เพิ่มเติมเกี่ยวกับการขอรับใบอนุญาตหรือเริ่มต้นด้วยการทดลองใช้ฟรีได้ที่ [การซื้อ Aspose](https://purchase.aspose.com/buy) และ [ทดลองใช้งานฟรี](https://releases-aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

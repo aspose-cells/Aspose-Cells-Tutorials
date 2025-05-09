@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aspose.Cells for Java를 사용하여 Excel 파일에서 차트를 정확하게 배치하는 방법을 알아보세요. 이 가이드에서는 설정, 차트 조작, 그리고 변경 사항을 효과적으로 저장하는 방법을 다룹니다."
+"description": "Aspose.Cells for Java를 사용하여 Excel 파일에서 차트를 정확하게 배치하는 방법을 알아보세요. 이 가이드에서는 설정, 차트 조작 및 변경 사항을 효과적으로 저장하는 방법을 다룹니다."
 "title": "Aspose.Cells Java를 사용하여 Excel 차트 위치 변경하기 - 포괄적인 가이드"
 "url": "/ko/java/charts-graphs/reposition-excel-charts-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,8 +52,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 라이센스 취득
 Aspose.Cells를 사용하기 전에 제한 없이 전체 액세스를 위한 라이선스를 취득하는 것을 고려하세요.
 - **무료 체험**: 무료 체험판을 통해 기능을 테스트해보세요 [아스포제](https://releases.aspose.com/cells/java/).
-- **임시 면허**임시 면허를 취득하세요 [Aspose 구매 페이지](https://purchase.aspose.com/temporary-license/).
-- **구입**장기 사용을 위해서는 정식 라이선스 구매를 고려해 보세요. [아스포제](https://purchase.aspose.com/buy).
+- **임시 면허**: 임시 면허를 취득하세요 [Aspose 구매 페이지](https://purchase.aspose.com/temporary-license/).
+- **구입**장기 사용을 위해서는 정식 라이센스 구매를 고려해 보세요. [아스포제](https://purchase.aspose.com/buy).
 
 ### 기본 초기화
 프로젝트에 라이브러리를 설정한 후 기본 구성으로 초기화할 수 있습니다.
@@ -121,7 +123,7 @@ chart.getChartObject().setY(150);
 ```
 - `setX(int x)`: 차트의 수평 위치를 설정합니다.
 - `setY(int y)`: 수직 위치를 조정합니다.
-**설명**: 이러한 방법을 사용하면 워크시트에서 차트가 나타나는 위치를 정밀하게 제어하여 레이아웃 요구 사항에 맞는지 확인할 수 있습니다.
+**설명**: 이러한 방법을 사용하면 워크시트에서 차트가 나타나는 위치를 정확하게 제어하여 레이아웃 요구 사항에 맞는지 확인할 수 있습니다.
 
 ### 통합 문서 저장
 #### 개요
@@ -174,6 +176,9 @@ CRM 시스템이나 데이터 분석 도구 등 자동화된 Excel 파일 조작
 - **구매 및 무료 체험**: 체험판을 시작하거나 구매하세요 [Aspose 웹사이트](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

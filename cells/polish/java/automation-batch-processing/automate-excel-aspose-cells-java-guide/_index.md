@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Ten przewodnik przeprowadzi Cię przez podstawowe funkcje Aspose.Cells dla Java,
 Postępując zgodnie z tym przewodnikiem, będziesz dobrze wyposażony do automatyzacji zadań Excela przy użyciu Aspose.Cells for Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

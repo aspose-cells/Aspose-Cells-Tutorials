@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kimutatási táblázat stílusainak testreszabása
@@ -87,9 +89,11 @@ Az Aspose.Cells for Java API-ban a pivot tábla stílusok testreszabása egyszer
    Az API dokumentációját itt tekintheti meg: [Aspose.Cells Java API-hivatkozásokhoz](https://reference.aspose.com/cells/java/) részletes információkért.
 
 Most már rendelkezik a szükséges tudással ahhoz, hogy pivot táblastílusokat hozzon létre és testreszabjon az Aspose.Cells for Java programban. Fedezze fel a további lehetőségeket, és tegye adatprezentációit valóban kivételessé!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

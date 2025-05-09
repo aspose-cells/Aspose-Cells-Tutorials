@@ -1,75 +1,77 @@
 ---
-title: Egylapos lap nevének beállítása a HTML-exportálásban
-linktitle: Egylapos lap nevének beállítása a HTML-exportálásban
-second_title: Aspose.Cells .NET Excel Processing API
-description: Könnyen beállíthat egyetlen lapfül nevét a HTML-exportálás során az Aspose.Cells for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal.
-weight: 21
-url: /hu/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/
+"description": "Egyszerűen beállíthat egyetlen lapfül nevét HTML exportálás során az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kódpéldákkal."
+"linktitle": "Egyetlen lapfül nevének beállítása HTML exportáláskor"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Egyetlen lapfül nevének beállítása HTML exportáláskor"
+"url": "/hu/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Egylapos lap nevének beállítása a HTML-exportálásban
+# Egyetlen lapfül nevének beállítása HTML exportáláskor
 
 ## Bevezetés
-A mai digitális világban az adatok különféle formátumokban történő kezelése és exportálása kulcsfontosságú készség. Előfordult már, hogy szüksége volt arra, hogy adatokat exportáljon egy Excel-lapról HTML formátumba, miközben bizonyos beállításokat, például a lapfül nevét megőrzi? Ha ezt szeretné elérni, akkor jó helyen jár! Ebben a cikkben megvizsgáljuk, hogyan állíthat be egyetlen lapfül nevét a HTML-exportálás során az Aspose.Cells for .NET használatával. Az oktatóanyag végére magabiztosan navigálhat ebben a folyamatban, és fejlesztheti adatkezelési készségeit. Kezdjük is!
+mai digitális világban az adatok különböző formátumokban történő kezelése és exportálása kulcsfontosságú készség. Előfordult már, hogy Excel-táblázatból kellett adatokat exportálnia HTML formátumba, miközben meg kellett őriznie bizonyos beállításokat, például a munkalap fülének nevét? Ha ezt szeretné elérni, jó helyen jár! Ebben a cikkben részletesen megvizsgáljuk, hogyan állíthat be egyetlen munkalap fülének nevet HTML exportálás során az Aspose.Cells for .NET használatával. A bemutató végére magabiztosan fogja eligazodni ebben a folyamatban, és fejleszteni fogja adatkezelési készségeit. Kezdjük is!
 ## Előfeltételek
-Mielőtt belemerülnénk ennek az oktatóanyagnak a lényegébe, vázoljuk fel, mire van szüksége a zökkenőmentes működéshez:
-### Alapvető szoftver
-- Microsoft Visual Studio: Győződjön meg arról, hogy telepítve van a Visual Studio, mivel ez biztosítja azt a környezetet, ahol a kódunkat írjuk és végrehajtjuk.
-- Aspose.Cells for .NET: Erre a könyvtárra hivatkozni kell a projektben. Letöltheti a[Aspose letöltések](https://releases.aspose.com/cells/net/).
-### Alapvető megértés
-- Az alapvető C# programozás ismerete kulcsfontosságú. Ha korábban is foglalkozott a kódolással, otthon érezheti magát. 
+Mielőtt belemerülnénk az oktatóanyag lényegébe, vázoljuk fel, mire van szükséged a zökkenőmentes működéshez:
+### Alapvető szoftverek
+- Microsoft Visual Studio: Győződjön meg róla, hogy telepítve van a Visual Studio, mivel ez biztosítja azt a környezetet, ahol a kódot fogjuk írni és végrehajtani.
+- Aspose.Cells .NET-hez: Erre a könyvtárra hivatkozni kell a projektben. Letöltheti innen: [Aspose letöltések](https://releases.aspose.com/cells/net/).
+### Alapvető ismeretek
+- A C# programozás alapjainak ismerete elengedhetetlen. Ha korábban már próbálkoztál kódolással, akkor otthonosan kell érezned magad. 
 ### Projekt beállítása
-- Hozzon létre egy új projektet a Visual Studióban, és állítsa be a könyvtárstruktúrát az Excel-fájlok tárolására, mivel szükségünk lesz egy forráskönyvtárra a bemenethez és egy kimeneti könyvtárra az eredményekhez.
+- Hozz létre egy új projektet a Visual Studioban, és állítsd be a könyvtárstruktúrát az Excel-fájlok tárolásához, mivel szükségünk lesz egy forráskönyvtárra a bemenethez és egy kimeneti könyvtárra az eredményekhez.
 ## Csomagok importálása
-Mielőtt belevágnánk a kódolásba, importálni kell a szükséges csomagokat. Íme, hogyan kell csinálni.
-### Nyissa meg projektjét
+Mielőtt belevágnánk a kódolásba, importálnunk kell a szükséges csomagokat. Íme, hogyan csináld.
+### Nyisd meg a projektedet
 Nyissa meg az előző lépésben létrehozott Visual Studio projektet.
-### Adja hozzá az Aspose.Cells hivatkozást
-1. Kattintson a jobb gombbal a projektre a Solution Explorerben.
+### Hivatkozás hozzáadása az Aspose.Cells fájlhoz
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
 2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
-3.  Keressen rá`Aspose.Cells` és telepítse a csomagot.
-4. Ez a lépés biztosítja, hogy rendelkezzen az Excel-fájlok kezeléséhez szükséges összes könyvtárral.
-### Adja hozzá a szükséges névtereket
-A kódfájl tetején adja hozzá a következő névtereket:
+3. Keresés `Aspose.Cells` és telepítsd a csomagot.
+4. Ez a lépés biztosítja, hogy minden szükséges könyvtárral rendelkezzen az Excel-fájlok kezeléséhez.
+### Kötelező névterek hozzáadása
+A kódfájl tetejére add hozzá a következő névtereket:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Ezek a névterek biztosítják az alapvető osztályokat és módszereket, amelyeket az Excel-fájlok kezeléséhez használunk.
+Ezek a névterek biztosítják azokat az alapvető osztályokat és metódusokat, amelyeket az Excel-fájlok kezeléséhez fogunk használni.
 
-Most, hogy beállítottuk a környezetünket és importáltuk a csomagokat, lépésről lépésre járjuk végig a folyamatot, hogy elérjük célunkat.
+Most, hogy beállítottuk a környezetünket és importáltuk a csomagokat, nézzük meg lépésről lépésre a célunk elérésének folyamatát.
 ## 1. lépés: Forrás- és kimeneti könyvtárak meghatározása
-Először is meg kell határoznunk, hogy az Excel-fájljaink hol találhatók, és hova szeretnénk menteni az exportált HTML-fájlt.
+Először is meg kell határoznunk, hogy hol találhatók az Excel fájljaink, és hová szeretnénk menteni az exportált HTML fájlt.
 ```csharp
-// Forrás könyvtár
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Itt cserélni fogod`"Your Document Directory"` a könyvtárak tényleges elérési útjával. Tekintse ezt a lépést úgy, mint egy színdarab színterét – mindennek a megfelelő helyen kell lennie!
-## 2. lépés: Töltse be a munkafüzetet
+Itt fogod kicserélni `"Your Document Directory"` a könyvtáraid tényleges elérési útjával. Gondolj erre a lépésre úgy, mint egy színdarab előkészítésére – mindennek a helyén kell lennie!
+## 2. lépés: A munkafüzet betöltése
 Ezután töltsük be az exportálni kívánt munkafüzetet.
 ```csharp
-// Töltse be a csak egyetlen lapot tartalmazó Excel mintafájlt
+// Töltse be a csak egyetlen munkalapot tartalmazó Excel-mintafájlt
 Workbook wb = new Workbook(sourceDir + "sampleSingleSheet.xlsx");
 ```
-Győződjön meg arról, hogy az Excel fájl (`sampleSingleSheet.xlsx`) létezik a megadott forráskönyvtárban. Ez hasonló egy könyv kinyitásához – megfelelő címet kell adni.
-## 3. lépés: Állítsa be a HTML mentési beállításokat
-Most konfiguráljuk a munkafüzetünk HTML formátumba történő exportálásának lehetőségeit.
+Győződjön meg arról, hogy az Excel-fájl (`sampleSingleSheet.xlsx`) létezik a megadott forráskönyvtárban. Ez hasonló egy könyv megnyitásához – a megfelelő címre van szükség.
+## 3. lépés: HTML mentési beállítások megadása
+Most a munkafüzet HTML formátumba exportálásának beállításait fogjuk konfigurálni.
 ```csharp
-// Adja meg a HTML mentési beállításokat
+// HTML mentési beállítások megadása
 Aspose.Cells.HtmlSaveOptions options = new Aspose.Cells.HtmlSaveOptions();
 ```
-## 4. lépés: A mentési beállítások testreszabása
-Itt tudunk kreatívkodni! Különféle opcionális paramétereket állíthat be a HTML-fájl megjelenésének módosításához.
+## 4. lépés: Mentési beállítások testreszabása
+Itt engedhetjük szabadjára a kreativitásunkat! Különböző opcionális paramétereket állíthatunk be, hogy testreszabhassuk a HTML-fájl kinézetét.
 ```csharp
-// Adja meg az opcionális beállításokat, ha szükséges
+// Szükség esetén opcionális beállítások megadása
 options.Encoding = System.Text.Encoding.UTF8;
 options.ExportImagesAsBase64 = true;
 options.ExportGridLines = true;
@@ -78,44 +80,46 @@ options.ExportBogusRowData = true;
 options.ExcludeUnusedStyles = true;
 options.ExportHiddenWorksheet = true;
 ```
-Íme az egyes paraméterek feladata:
-- Kódolás: Meghatározza a szöveg kódolási módját; Az UTF-8 széles körben elfogadott.
-- ExportImagesAsBase64: A képeket közvetlenül a HTML-be ágyazza be Base64 karakterláncok formájában, így az önellátó.
-- ExportGridLines: Rácsvonalakat tartalmaz a HTML-ben a jobb láthatóság érdekében.
-- ExportSimilarBorderStyle: Biztosítja, hogy a szegélyek következetesen jelenjenek meg.
-- ExportBogusRowData: Lehetővé teszi, hogy üres sorokat tartson az exportált fájlban.
-- ExcludeUnusedStyles: Kivágja a nem használt stílusokat, így a fájl rendben marad.
+Íme, mit csinálnak az egyes paraméterek:
+- Kódolás: Meghatározza a szöveg kódolásának módját; az UTF-8 széles körben elfogadott.
+- ExportImagesAsBase64: A képeket közvetlenül a HTML-be ágyazza Base64 karakterláncokként, így önellátóvá teszi.
+- ExportGridLines: Rácsvonalakat illeszt be a HTML-be a jobb láthatóság érdekében.
+- ExportSimilarBorderStyle: Biztosítja a szegélyek egységes megjelenését.
+- ExportBogusRowData: Lehetővé teszi az üres sorok megtartását az exportált fájlban.
+- ExcludeUnusedStyles: Kivágja a nem használt stílusokat, így a fájl rendezett marad.
 - ExportHiddenWorksheet: Ha rejtett munkalapjai vannak, ez a beállítás azokat is exportálja.
-## 5. lépés: Mentse el a munkafüzetet
-Most itt az ideje a nagy pillanatnak, amikor elmentjük a változtatásainkat.
+## 5. lépés: A munkafüzet mentése
+Most pedig eljött a nagy pillanat, amikor mentjük a változtatásokat.
 ```csharp
-// Mentse el a munkafüzetet HTML formátumban meghatározott HTML mentési beállításokkal
+// Munkafüzet mentése HTML formátumban a megadott HTML mentési beállításokkal
 wb.Save(outputDir + "outputSampleSingleSheet.htm", options);
 ```
-Ez a vonal olyan, mint egy csomag lezárása – miután elmentette, bárhová elküldheti!
+Ez a sor olyan, mint egy csomag lezárása – ha egyszer elmentetted, elküldheted oda, ahová kell!
 ## 6. lépés: A siker megerősítése
-Végül nyomtassunk ki egy üzenetet, hogy megbizonyosodjunk arról, hogy minden rendben ment.
+Végül nyomtassunk ki egy üzenetet, amely megerősíti, hogy minden simán ment.
 ```csharp
 Console.WriteLine("SetSingleSheetTabNameInHtml executed successfully.");
 ```
-Ez azt jelzi, hogy a kódja gond nélkül lefutott, hasonlóan egy jól végrehajtott bemutatóhoz!
+Ez a jelzés arra, hogy a kódod gond nélkül lefutott, hasonlóan egy jól kivitelezett prezentációhoz!
 ## Következtetés
-És megvan! Sikeresen exportált egy Excel-lapot HTML formátumba, miközben meghatározott paramétereket állított be az Aspose.Cells for .NET használatával. Csak néhány sornyi kóddal hatékonyan kezelheti adatexportálási igényeit. Az olyan eszközök alkalmazása, mint az Aspose.Cells, nagyban növelheti a termelékenységet, és sokkal könnyebbé teheti a feladatait.
-Ne feledje, a képességek hatalmasak. Ez az oktatóanyag csak megkarcolja a felszínt. Ne féljen felfedezni az Aspose.Cells által kínált összes lehetőséget!
+És íme! Sikeresen exportáltál egy Excel-táblázatot HTML formátumba, miközben az Aspose.Cells for .NET segítségével beállítottál bizonyos paramétereket. Mindössze néhány sornyi kóddal hatékonyan kezelheted az adatexportálási igényeidet. Az olyan eszközök, mint az Aspose.Cells, nagymértékben növelhetik a termelékenységet és megkönnyíthetik a feladataidat.
+Ne feledd, a lehetőségek hatalmasak. Ez az oktatóanyag csak a felszínt kapargatja. Ne félj felfedezni az Aspose.Cells által kínált összes lehetőséget!
 ## GYIK
-### Mi az Aspose.Cells a .NET számára?  
-Az Aspose.Cells for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok létrehozását, kezelését és konvertálását .NET-alkalmazásokban anélkül, hogy telepíteni kellene a Microsoft Excelt.
-### Kipróbálhatom az Aspose.Cells-t ingyen?  
-Igen! Vásárlás előtt letölthet egy ingyenes próbaverziót, amellyel minden funkciót felfedezhet. Nézze meg a[ingyenes próbaverzió itt](https://releases.aspose.com/).
+### Mi az Aspose.Cells .NET-hez?  
+Az Aspose.Cells for .NET egy hatékony függvénykönyvtár, amely lehetővé teszi a fejlesztők számára, hogy Excel-fájlokat hozzanak létre, szerkeszszenek és konvertáljanak .NET-alkalmazásokban anélkül, hogy telepíteni kellene a Microsoft Excelt.
+### Kipróbálhatom ingyen az Aspose.Cells-t?  
+Igen! Letölthet egy ingyenes próbaverziót, hogy felfedezhesse az összes funkciót a vásárlás előtt. Nézze meg a [ingyenes próba itt](https://releases.aspose.com/).
 ### Hol találok részletesebb dokumentációt?  
- A részletes dokumentációért látogassa meg a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/).
+A részletes dokumentációért látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/).
 ### Mit tegyek, ha problémákba ütközöm?  
- A[Aspose fórumok](https://forum.aspose.com/c/cells/9) nyújtson közösségi támogatást, ahol kérdéseket tehet fel és megoldásokat találhat.
-### Lehetséges a rejtett lapok kezelése HTML-exportban?  
- Teljesen! Beállítás által`options.ExportHiddenWorksheet = true;`, a rejtett lapok szerepelnek az exportálásban.
+A [Aspose fórumok](https://forum.aspose.com/c/cells/9) közösségi támogatást nyújtson, ahol kérdéseket tehet fel és megoldásokat találhat.
+### Lehetséges a rejtett munkalapok kezelése HTML exportáláskor?  
+Abszolút! A beállítással `options.ExportHiddenWorksheet = true;`, a rejtett munkalapok is szerepelnek az exportban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

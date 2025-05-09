@@ -1,14 +1,16 @@
 ---
-title: Bao quanh văn bản dài trong ô trong Excel
-linktitle: Bao quanh văn bản dài trong ô trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách ngắt dòng văn bản dài trong ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này. Biến đổi bảng tính của bạn một cách dễ dàng.
-weight: 23
-url: /vi/net/excel-formatting-and-styling/wrapping-long-text-within-cells/
+"description": "Tìm hiểu cách ngắt dòng văn bản dài trong ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này. Biến đổi bảng tính của bạn một cách dễ dàng."
+"linktitle": "Bao quanh văn bản dài trong ô trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Bao quanh văn bản dài trong ô trong Excel"
+"url": "/vi/net/excel-formatting-and-styling/wrapping-long-text-within-cells/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bao quanh văn bản dài trong ô trong Excel
@@ -39,7 +41,7 @@ Chúng ta hãy chia nhỏ vấn đề này thành các bước dễ quản lý �
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn tệp thực tế mà bạn muốn sử dụng.
+Thay thế `"Your Document Directory"` với đường dẫn tệp thực tế mà bạn muốn sử dụng.
 ## Bước 2: Tạo thư mục nếu nó không tồn tại
 Bây giờ bạn đã xác định được đường dẫn, hãy đảm bảo rằng thư mục tồn tại. Sau đây là cách bạn có thể kiểm tra và tạo thư mục nếu cần:
 ```csharp
@@ -49,7 +51,7 @@ if (!IsExists)
 ```
 Bước này rất quan trọng vì nếu thư mục bạn chỉ định không tồn tại, bạn sẽ gặp lỗi khi cố gắng lưu sổ làm việc của mình.
 ## Bước 3: Khởi tạo một đối tượng Workbook
- Tạo một`Workbook` Đối tượng là bước tiếp theo của bạn. Đối tượng này đại diện cho toàn bộ tệp Excel và cho phép bạn thao tác nội dung của tệp.
+Tạo một `Workbook` Đối tượng là bước tiếp theo của bạn. Đối tượng này đại diện cho toàn bộ tệp Excel và cho phép bạn thao tác nội dung của tệp.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -93,23 +95,25 @@ Cuối cùng, đừng quên lưu bảng tính của bạn để áp dụng tất
 ```csharp
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- Hãy chắc chắn thay thế`"book1.out.xls"` với tên tệp đầu ra mong muốn của bạn. Tệp của bạn hiện được lưu trong thư mục đã chỉ định và tất cả các thay đổi của bạn—bao gồm cả việc ngắt dòng văn bản—đều còn nguyên vẹn.
+Hãy chắc chắn thay thế `"book1.out.xls"` với tên tệp đầu ra mong muốn của bạn. Tệp của bạn hiện được lưu trong thư mục đã chỉ định và tất cả các thay đổi của bạn—bao gồm cả việc ngắt dòng văn bản—đều còn nguyên vẹn.
 ## Phần kết luận
 Chỉ với vài bước đơn giản, bạn đã có thể ngắt dòng văn bản trong các ô Excel bằng Aspose.Cells for .NET. Cho dù bạn đang tạo báo cáo, làm việc trên phân tích dữ liệu hay chỉ cố gắng làm cho bảng tính rõ ràng hơn, biết cách ngắt dòng văn bản có thể tạo ra sự khác biệt lớn. Với sự tiện lợi của mã, bạn có thể tự động hóa các tác vụ này một cách nhanh chóng và hiệu quả.
 ## Câu hỏi thường gặp
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
 Có, Aspose.Cells cung cấp bản dùng thử miễn phí, cho phép bạn kiểm tra khả năng của phần mềm trước khi mua.
 ### Tôi phải làm sao nếu gặp vấn đề trong quá trình phát triển?  
- Bạn có thể tìm kiếm sự giúp đỡ từ[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+Bạn có thể tìm kiếm sự giúp đỡ từ [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
 ### Tôi có thể ngắt dòng văn bản trong nhiều ô cùng một lúc không?  
 Hoàn toàn được! Bạn có thể lặp qua phạm vi ô mong muốn và áp dụng kiểu ngắt dòng văn bản tương tự.
 ### Tôi có thể lưu tệp Excel ở định dạng nào?  
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLSX, CSV và PDF, cùng nhiều định dạng khác.
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.Cells ở đâu?  
- Kiểm tra các[tài liệu](https://reference.aspose.com/cells/net/) để biết thêm thông tin.
+Kiểm tra các [tài liệu](https://reference.aspose.com/cells/net/) để biết thêm thông tin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

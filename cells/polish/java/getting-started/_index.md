@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ Dowiedz się, jak tworzyć i wypełniać skoroszyty programu Excel niestandardow
 ### [Tworzenie skoroszytów programu Excel za pomocą Aspose.Cells dla języka Java: kompleksowy przewodnik](./create-excel-workbooks-aspose-cells-java/)
 Dowiedz się, jak tworzyć i stylizować skoroszyty programu Excel przy użyciu Aspose.Cells for Java. Automatyzuj zadania programu Excel, stosuj style i zapisuj raporty wydajnie.
 
-### [Tworzenie plików XLSX za pomocą Aspose.Cells Java: kompletny przewodnik dla programistów](./create-xlsx-files-aspose-cells-java-guide/)
+### [Tworzenie plików XLSX za pomocą Aspose.Cells Java: Kompletny przewodnik dla programistów](./create-xlsx-files-aspose-cells-java-guide/)
 Dowiedz się, jak tworzyć i zarządzać plikami XLSX w Javie za pomocą Aspose.Cells. Ten kompleksowy przewodnik obejmuje konfigurację, implementację i rozwiązywanie problemów.
 
 ### [Opanowanie zarządzania programem Excel za pomocą Aspose.Cells dla języka Java: kompleksowy przewodnik](./excel-management-aspose-cells-java/)
@@ -74,13 +76,16 @@ Dowiedz się, jak sprawdzić wersję Aspose.Cells w swoich projektach Java dzię
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells dla API Java Odniesienie](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/)
 - [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

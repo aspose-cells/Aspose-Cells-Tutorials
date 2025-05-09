@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Aby pogłębić swoją wiedzę na temat Aspose.Cells, zapoznaj się z [oficjalna
 Rozpocznij przygodę z Aspose.Cells for Java i odkryj pełny potencjał automatyzacji programu Excel w swoich aplikacjach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

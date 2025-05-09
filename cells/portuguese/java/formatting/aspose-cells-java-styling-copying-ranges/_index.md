@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,13 +146,13 @@ Explore estes casos de uso do mundo real para estilizar e copiar intervalos:
 3. **Gestão de Estoque**: Folhas de estilo para identificar níveis de estoque rapidamente.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Use APIs de streaming para grandes conjuntos de dados.
+- **Otimizar o uso da memória**: Use APIs de streaming para grandes conjuntos de dados.
 - **Estilo Eficiente**: Aplique estilos somente onde necessário para reduzir a sobrecarga.
 - **Melhores Práticas**: Atualize regularmente a biblioteca Aspose.Cells para melhorias de desempenho.
 
 ## Conclusão
 
-Você aprendeu a criar e estilizar intervalos, copiar dados e salvar pastas de trabalho usando Aspose.Cells Java. Implemente essas técnicas para aprimorar suas habilidades de apresentação e manipulação de dados no Excel hoje mesmo!
+Você aprendeu a criar e estilizar intervalos, copiar dados e salvar pastas de trabalho usando o Aspose.Cells Java. Implemente essas técnicas para aprimorar suas habilidades de apresentação e manipulação de dados no Excel hoje mesmo!
 
 ## Seção de perguntas frequentes
 
@@ -178,6 +180,9 @@ Você aprendeu a criar e estilizar intervalos, copiar dados e salvar pastas de t
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

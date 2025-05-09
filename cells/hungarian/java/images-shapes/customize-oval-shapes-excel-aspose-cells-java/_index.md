@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ V: Mindig gondosan ellenőrizze a bemeneti adatokat és kezelje a fájlengedély
 A: Tekintse át a memóriahasználati mintákat, és optimalizálja a kódját a nagy adathalmazok hatékony kezelése érdekében. Az Aspose.Cells számos metódust kínál ennek a folyamatnak a segítésére.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Próbáld ki az Aspose.Cells-t](https://releases.aspose.com/cells/java/)
@@ -179,6 +181,9 @@ A: Tekintse át a memóriahasználati mintákat, és optimalizálja a kódját a
 Az útmutató követésével most már felkészült vagy arra, hogy az Aspose.Cells for Java segítségével egyéni alakzatokkal bővítsd Excel-táblázataidat. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

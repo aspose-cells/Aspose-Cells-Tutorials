@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Mielőtt elkezdenénk a kódolást, győződjünk meg arról, hogy a következő
 
 - **Kötelező könyvtárak**Az Aspose.Cells Java 25.3-as vagy újabb verziójára van szükség.
 - **Környezet beállítása**Alapfokú Java ismeretek és egy integrált fejlesztői környezet (IDE), például IntelliJ IDEA vagy Eclipse ismerete.
-- **Ismereti előfeltételek**Jártasság az Excel műveletekben és a Java programozásban.
+- **Ismereti előfeltételek**Ismeri az Excel műveleteket és a Java programozást.
 
 ## Az Aspose.Cells beállítása Java-hoz
 
@@ -167,6 +169,9 @@ Bátran forduljon hozzánk a [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

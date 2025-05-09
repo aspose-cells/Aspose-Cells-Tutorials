@@ -1,14 +1,16 @@
 ---
-title: Thiết lập Định dạng Trường Dữ liệu theo Chương trình trong .NET
-linktitle: Thiết lập Định dạng Trường Dữ liệu theo Chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Làm chủ việc thiết lập định dạng trường dữ liệu trong bảng trục bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Cải thiện định dạng dữ liệu Excel của bạn.
-weight: 19
-url: /vi/net/creating-and-configuring-pivot-tables/setting-data-field-format/
+"description": "Làm chủ việc thiết lập định dạng trường dữ liệu trong bảng trục bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Cải thiện định dạng dữ liệu Excel của bạn."
+"linktitle": "Thiết lập Định dạng Trường Dữ liệu theo Chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập Định dạng Trường Dữ liệu theo Chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/setting-data-field-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập Định dạng Trường Dữ liệu theo Chương trình trong .NET
@@ -18,7 +20,7 @@ Nếu bạn đang tìm hiểu về thao tác tệp Excel bằng .NET, có lẽ b
 ## Điều kiện tiên quyết
 Trước khi bắt đầu hành trình này, hãy đảm bảo bạn đã sắp xếp mọi thứ. Sau đây là danh sách kiểm tra nhanh những gì bạn cần:
 1. Visual Studio: Bởi vì ai lại không thích một môi trường phát triển tích hợp (IDE) tốt chứ?
-2.  Aspose.Cells cho Thư viện .NET: Bạn có thể dễ dàng tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Bạn có thể dễ dàng tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Nếu bạn hiểu những kiến thức cơ bản về ngôn ngữ lập trình thì bạn đã sẵn sàng rồi!
 ### Tại sao lại là Aspose.Cells?
 Aspose.Cells for .NET là một thư viện mạnh mẽ được thiết kế riêng để quản lý các hoạt động của tệp Excel. Nó cho phép bạn đọc, viết, thao tác và chuyển đổi các tệp Excel một cách dễ dàng. Hãy tưởng tượng bạn có thể lập trình để tạo báo cáo, bảng trục hoặc thậm chí là biểu đồ mà không cần phải đào sâu vào Giao diện người dùng Excel - nghe có vẻ kỳ diệu phải không?
@@ -86,7 +88,7 @@ pivotField.DataDisplayFormat = Aspose.Cells.Pivot.PivotFieldDataDisplayFormat.Pe
 ## Bước 8: Thiết lập trường cơ sở và mục cơ sở
 Mỗi trường trục có thể được liên kết với một trường khác làm tham chiếu cơ sở. Hãy thiết lập nó:
 ```csharp
-//Thiết lập trường cơ sở
+// Thiết lập trường cơ sở
 pivotField.BaseFieldIndex = 1; // Sử dụng chỉ mục thích hợp cho trường cơ sở
 // Thiết lập mục cơ sở
 pivotField.BaseItemPosition = Aspose.Cells.Pivot.PivotItemPosition.Next; // Chọn mục tiếp theo
@@ -110,16 +112,18 @@ Xin chúc mừng! Bạn vừa hoàn thành hướng dẫn về cách thiết l�
 ### Tôi có thể sử dụng Aspose.Cells để tạo tệp Excel từ đầu không?
 Hoàn toàn có thể! Bạn có thể tạo và thao tác các tệp Excel bằng Aspose.Cells ngay từ đầu.
 ### Có bản dùng thử miễn phí không?
- Vâng! Bạn có thể kiểm tra[Dùng thử miễn phí](https://releases.aspose.com/).
+Vâng! Bạn có thể kiểm tra [Dùng thử miễn phí](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ những định dạng nào cho tệp Excel?
 Nó hỗ trợ nhiều định dạng khác nhau bao gồm XLS, XLSX, CSV, v.v.
 ### Tôi có cần phải trả tiền để được cấp phép không?
- Bạn có một vài lựa chọn! Bạn có thể mua giấy phép trên[Mua trang](https://purchase.aspose.com/buy) . Ngoài ra, một[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cũng có sẵn.
+Bạn có một vài lựa chọn! Bạn có thể mua giấy phép trên [Mua trang](https://purchase.aspose.com/buy). Ngoài ra, một [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cũng có sẵn.
 ### Tôi có thể tìm sự hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ trên [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

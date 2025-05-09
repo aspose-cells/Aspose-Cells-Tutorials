@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ import com.aspose.cells.*;
 
 public class ExcelHandler {
     public static void main(String[] args) throws Exception {
-        // यदि आपके पास लाइसेंस है तो आवेदन करें
+        // यदि आपके पास लाइसेंस है तो उसका आवेदन करें
         License license = new License();
         license.setLicense("Aspose.Total.Java.lic");
 
@@ -144,7 +146,7 @@ public class UnhideRowsColumns {
 - `height`पंक्ति के लिए नई ऊंचाई.
 
 ### कॉलम को अनहाइड करना
-इसी प्रकार, किसी कॉलम को छिपाने के लिए:
+इसी प्रकार, किसी कॉलम को छिपाना बंद करने के लिए:
 ```java
 public class UnhideRowsColumns {
     public static void main(String[] args) throws Exception {
@@ -231,6 +233,9 @@ public class UnhideRowsColumns {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

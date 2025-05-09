@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การปรับแต่งสไตล์ตารางสรุปข้อมูล
@@ -87,9 +89,11 @@ workbook.save("output.xlsx");
    คุณสามารถดูเอกสาร API ได้ที่ [การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) เพื่อดูข้อมูลโดยละเอียด
 
 ตอนนี้คุณมีความรู้ในการสร้างและปรับแต่งรูปแบบตารางสรุปข้อมูลใน Aspose.Cells สำหรับ Java แล้ว สำรวจเพิ่มเติมและทำให้การนำเสนอข้อมูลของคุณโดดเด่นอย่างแท้จริง!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

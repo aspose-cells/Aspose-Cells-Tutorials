@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan vi börjar, se till att du har:
 - **Miljöinställningar**Grundläggande kunskaper i Java-utveckling och förtrogenhet med byggverktygen Maven eller Gradle.
 - **Kunskapskrav**Förståelse för Java-programmeringskoncept som klasser, metoder och loopar.
 
-Med alla förkunskapskrav täckta, låt oss fortsätta med att konfigurera Aspose.Cells för Java i ditt projekt.
+Med alla förkunskaper täckta, låt oss fortsätta med att konfigurera Aspose.Cells för Java i ditt projekt.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -170,6 +172,9 @@ A5: Stora filer och komplexa operationer kan öka minnesanvändningen. Optimera 
 Utforska dessa resurser för att fördjupa din förståelse av Aspose.Cells för Java och frigöra den fulla potentialen av Excel-manipulation i dina applikationer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

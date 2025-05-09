@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Antes de mergulhar na implementação, certifique-se de ter o seguinte:
 - Maven ou Gradle para gerenciamento de dependências
 ### Pré-requisitos de conhecimento:
 - Noções básicas de programação Java
-- Familiaridade com planilhas e pastas de trabalho do Excel
+- Familiaridade com pastas de trabalho e planilhas do Excel
 ## Configurando Aspose.Cells para Java
 Para começar, integre o Aspose.Cells ao seu projeto Java da seguinte maneira:
 **Especialista:**
@@ -148,6 +150,9 @@ Este guia ajuda você a implementar validações do Excel usando Aspose.Cells em
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

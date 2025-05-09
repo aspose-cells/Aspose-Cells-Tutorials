@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Hãy nâng cao năng suất của bạn bằng cách bắt đầu với các đi
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những điều sau:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java**: Phiên bản 25.3 trở lên.
 
 ### Yêu cầu thiết lập môi trường:
@@ -174,6 +176,9 @@ Sẵn sàng để thử thách nhiều hơn? Hãy triển khai giải pháp này
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,6 +191,9 @@ Teraz wiesz, jak dodawać podpisy cyfrowe do skoroszytów programu Excel za pomo
 - Poznaj dodatkowe funkcje udostępniane przez Aspose.Cells, umożliwiające bardziej zaawansowaną manipulację arkuszami kalkulacyjnymi
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

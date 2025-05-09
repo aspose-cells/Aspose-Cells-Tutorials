@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,7 +206,7 @@ En este tutorial, explicamos cómo cargar un libro de Excel, acceder y proteger 
 4. **¿Cuáles son los beneficios de utilizar una licencia temporal para Aspose.Cells?**
    - Una licencia temporal le permite explorar todas las funciones sin limitaciones durante la evaluación.
 
-5. **¿Dónde puedo encontrar ayuda adicional si la necesito?**
+5. **¿Dónde puedo encontrar apoyo adicional si lo necesito?**
    - Visita el [Foro de Aspose.Cells](https://forum.aspose.com/c/cells/9) para apoyo comunitario y oficial.
 
 ## Recursos
@@ -212,6 +214,9 @@ En este tutorial, explicamos cómo cargar un libro de Excel, acceder y proteger 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

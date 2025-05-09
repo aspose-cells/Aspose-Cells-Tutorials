@@ -8,7 +8,9 @@ url: /net/excel-colors-and-background-settings/using-palette-of-available-colors
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Palette of Available Colors in Excel
@@ -150,6 +152,7 @@ Visit the Aspose.Cells for .NET documentation ([https://reference.aspose.com/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

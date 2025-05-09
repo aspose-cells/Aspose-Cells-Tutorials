@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@
 ### 環境設定要求
 - 使用JDK（Java開發工具包）設定的開發環境。
 - IDE，例如 IntelliJ IDEA 或 Eclipse。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 ### 知識前提
 熟悉 Excel 資料透視表和基本 Java 概念將會很有幫助，但並非絕對必要，因為我們將逐步介紹所有內容。
@@ -167,6 +169,9 @@ wb.save("SettingPivotTableOption_out.xlsx");
 本指南將協助您充分利用 Aspose.Cells for Java 的潛力，有效配置資料透視表。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

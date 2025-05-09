@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Sobald Ihre Umgebung bereit ist, richten wir Aspose.Cells ein. So starten Sie:
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Grundlegende Initialisierung**: Erstellen Sie ein `Workbook` Instanz, um mit der Arbeit mit Excel-Dateien zu beginnen.
+3. **Grundlegende Initialisierung**Erstellen Sie ein `Workbook` Instanz, um mit der Arbeit mit Excel-Dateien zu beginnen.
 
 ## Implementierungshandbuch
 
@@ -166,6 +168,9 @@ Um die Möglichkeiten von Aspose.Cells weiter zu erkunden, experimentieren Sie m
 Diese umfassende Anleitung soll Ihnen helfen, Diagrammdatenbeschriftungen in Ihren Java-Anwendungen mithilfe von Aspose.Cells effektiv anzupassen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

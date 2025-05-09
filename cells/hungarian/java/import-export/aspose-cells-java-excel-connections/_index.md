@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Nagy munkafüzetek vagy számos kapcsolat kezelésekor vegye figyelembe az aláb
 - Rendszeresen frissítse az Aspose.Cells for Java fájlt, hogy kihasználhassa a teljesítménybeli fejlesztéseket és a hibajavításokat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

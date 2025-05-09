@@ -1,28 +1,30 @@
 ---
-title: Tambahkan Kotak Kombo ke Lembar Kerja di Excel
-linktitle: Tambahkan Kotak Kombo ke Lembar Kerja di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan kotak kombo ke lembar kerja Excel secara terprogram menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah ini memandu Anda melalui setiap detail.
-weight: 21
-url: /id/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/
+"description": "Pelajari cara menambahkan kotak kombo ke lembar kerja Excel secara terprogram menggunakan Aspose.Cells for .NET. Panduan langkah demi langkah ini memandu Anda melalui setiap detail."
+"linktitle": "Tambahkan Kotak Kombo ke Lembar Kerja di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tambahkan Kotak Kombo ke Lembar Kerja di Excel"
+"url": "/id/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Kotak Kombo ke Lembar Kerja di Excel
 
-## Perkenalan
+## Bevezetés
 Membuat lembar kerja Excel yang interaktif dapat meningkatkan pengalaman pengguna secara signifikan, terutama saat Anda menambahkan elemen formulir seperti kotak kombo. Kotak kombo memungkinkan pengguna untuk memilih opsi dari daftar yang telah ditetapkan, sehingga memudahkan dan mengefisienkan input data. Dengan Aspose.Cells for .NET, Anda dapat membuat kotak kombo secara terprogram di lembar Excel tanpa menggunakan Excel secara langsung. Pustaka yang canggih ini memungkinkan pengembang untuk memanipulasi file Excel dengan berbagai cara, termasuk kemampuan untuk mengotomatiskan kontrol formulir.
 Dalam tutorial ini, kami akan memandu Anda melalui proses penambahan kotak kombo ke lembar kerja di Excel menggunakan Aspose.Cells for .NET. Jika Anda ingin membuat lembar kerja yang dinamis dan mudah digunakan, panduan ini akan membantu Anda memulai.
-## Prasyarat
+## Előfeltételek
 Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang Anda butuhkan:
-- Aspose.Cells untuk .NET: Unduh dan instal pustaka Aspose.Cells untuk .NET dari[halaman unduhan](https://releases.aspose.com/cells/net/).
+- Aspose.Cells .NET-hez: Töltse le és telepítse az Aspose.Cells .NET-hez könyvtárat a következő helyről: [letöltési oldal](https://releases.aspose.com/cells/net/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di komputer Anda. Versi apa pun yang didukung oleh Aspose.Cells dapat digunakan.
 - Lingkungan Pengembangan: Gunakan IDE seperti Visual Studio untuk mengelola proyek Anda dan menulis kode.
--  Lisensi Aspose: Anda dapat bekerja tanpa lisensi dalam mode evaluasi, tetapi untuk versi lengkap, Anda perlu menerapkan lisensi. Dapatkan lisensi[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika diperlukan.
-## Paket Impor
+- Lisensi Aspose: Anda dapat bekerja tanpa lisensi dalam mode evaluasi, tetapi untuk versi lengkap, Anda perlu menerapkan lisensi. Dapatkan lisensi [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha szükséges.
+## Csomagok importálása
 Untuk memulai, Anda perlu mengimpor namespace yang diperlukan ke dalam proyek Anda. Berikut ini yang Anda perlukan:
 ```csharp
 using System.IO;
@@ -30,12 +32,12 @@ using Aspose.Cells;
 ```
 Ini penting untuk berinteraksi dengan file Excel dan memanipulasi elemen formulir seperti kotak kombo dalam buku kerja.
 Mari kita uraikan proses penambahan kotak kombo menjadi beberapa langkah sederhana agar mudah dipahami.
-## Langkah 1: Siapkan Direktori Dokumen
-Langkah pertama adalah membuat direktori tempat file Excel Anda akan disimpan. Anda dapat membuat folder baru jika belum ada.
+## 1. lépés: A dokumentumkönyvtár beállítása
+Langkah pertama adalah membuat direktori tempat file Excel akan disimpan. Anda dapat membuat folder baru jika belum ada.
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Buat direktori jika belum ada.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -43,11 +45,11 @@ if (!IsExists)
 - dataDir: Menentukan lokasi penyimpanan berkas keluaran.
 - System.IO.Directory.Exists: Memeriksa apakah direktori sudah ada.
 - System.IO.Directory.CreateDirectory: Membuat direktori jika hilang.
-## Langkah 2: Buat Buku Kerja Baru
+## 2. lépés: Új munkafüzet létrehozása
 Sekarang, buat buku kerja Excel baru tempat Anda akan menambahkan kotak kombo.
 
 ```csharp
-// Buat Buku Kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook workbook = new Workbook();
 ```
 
@@ -56,7 +58,7 @@ Workbook workbook = new Workbook();
 Berikutnya, akses lembar kerja pertama dari buku kerja dan ambil kumpulan sel tempat Anda akan memasukkan data.
 
 ```csharp
-// Dapatkan lembar kerja pertama.
+// Szerezd meg az első munkalapot.
 Worksheet sheet = workbook.Worksheets[0];
 // Dapatkan koleksi sel lembar kerja.
 Cells cells = sheet.Cells;
@@ -130,23 +132,25 @@ workbook.Save(dataDir + "book1.out.xls");
 - AutoFitColumns: Secara otomatis menyesuaikan lebar kolom agar sesuai dengan konten.
 - Simpan: Menyimpan buku kerja sebagai file Excel di direktori yang ditentukan.
 
-## Kesimpulan
+## Következtetés
 Menambahkan kotak kombo ke lembar kerja Excel Anda menggunakan Aspose.Cells untuk .NET merupakan proses mudah yang sangat meningkatkan fleksibilitas input data. Dengan membuat kontrol formulir secara terprogram, Anda dapat membuat lembar kerja interaktif dengan mudah. Tutorial ini menunjukkan kepada Anda cara menambahkan kotak kombo, menautkannya ke sel, dan mengonfigurasi rentang inputnya, semuanya menggunakan Aspose.Cells.
- Aspose.Cells menyediakan berbagai fitur untuk manipulasi file Excel, menjadikannya pilihan ideal bagi pengembang yang ingin mengotomatiskan tugas spreadsheet. Cobalah dengan[uji coba gratis](https://releases.aspose.com/).
-## Pertanyaan yang Sering Diajukan
+Aspose.Cells menyediakan berbagai fitur untuk manipulasi file Excel, menjadikannya pilihan ideal bagi pengembang yang ingin mengotomatiskan tugas spreadsheet. Cobalah dengan [ingyenes próba](https://releases.aspose.com/).
+## GYIK
 ### Bisakah saya menggunakan Aspose.Cells tanpa menginstal Excel?
 Ya, Aspose.Cells bekerja secara independen dari Excel dan tidak memerlukan Excel untuk diinstal.
-### Bagaimana cara menerapkan lisensi di Aspose.Cells?
- Anda dapat mengajukan lisensi dengan mendapatkannya dari[Di Sini](https://purchase.aspose.com/buy) dan memanggil`License.SetLicense()` dalam kode Anda.
+### Hogyan igényelhetek licencet az Aspose.Cells-ben?
+Anda dapat mengajukan lisensi dengan mendapatkannya dari [itt](https://purchase.aspose.com/buy) dan memanggil `License.SetLicense()` a kódodban.
 ### Format apa yang didukung Aspose.Cells untuk menyimpan file?
 Aspose.Cells mendukung penyimpanan file dalam berbagai format seperti XLSX, XLS, CSV, PDF, dan banyak lagi.
 ### Apakah ada batasan jumlah kotak kombo yang dapat saya tambahkan?
 Tidak, tidak ada batasan yang ketat; Anda dapat menambahkan kotak kombo sebanyak yang dibutuhkan proyek Anda.
-### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan dari[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Anda bisa mendapatkan dukungan dari [Aspose fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

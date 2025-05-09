@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ Funkcja ta umożliwia utworzenie nowego skoroszytu i skonfigurowanie jego począ
 
 #### Zainicjuj nowy skoroszyt (H3)
 
-Zacznij od utworzenia instancji `Workbook`Ten obiekt reprezentuje plik Excel.
+Zacznij od utworzenia instancji `Workbook`Ten obiekt reprezentuje Twój plik Excel.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -251,6 +253,9 @@ Aby jeszcze bardziej rozwinąć swoje umiejętności, zapoznaj się z dodatkowym
 Teraz, gdy masz już wszystkie narzędzia i wiedzę do dyspozycji, zacznij eksperymentować z Aspose.Cells dla Java, aby usprawnić zadania związane z Excelem w aplikacjach Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

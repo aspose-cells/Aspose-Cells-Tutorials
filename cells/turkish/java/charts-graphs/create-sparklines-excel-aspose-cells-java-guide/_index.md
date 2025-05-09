@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,10 +194,13 @@ Aspose.Cells for Java kullanarak Excel'de kıvılcım çizgileri oluşturmayı v
 - **Belgeler:** Ayrıntılı kılavuzları ve API referanslarını şu adreste keşfedin: [Aspose Belgeleri](https://reference.aspose.com/cells/java/).
 - **İndirmek:** Aspose.Cells'in en son sürümlerine şuradan erişin: [Sürümler](https://releases.aspose.com/cells/java/).
 - **Satın almak:** Tüm özelliklerin kilidini açmak için bir lisans satın alın [Aspose Satın Alma](https://purchase.aspose.com/buy).
-- **Ücretsiz Deneme:** Deneme sürümüyle başlayın [Ücretsiz Deneme](https://releases.aspose.com/cells/java/).
+- **Ücretsiz Deneme:** Deneme sürümünü kullanmaya başlayın [Ücretsiz Deneme](https://releases.aspose.com/cells/java/).
 - **Geçici Lisans:** Geçici lisans için başvuruda bulunun [Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

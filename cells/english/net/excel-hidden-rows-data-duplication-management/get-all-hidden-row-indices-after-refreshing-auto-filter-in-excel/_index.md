@@ -8,7 +8,9 @@ url: /net/excel-hidden-rows-data-duplication-management/get-all-hidden-row-indic
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Hidden Row Indices After Refreshing Auto Filter in Excel
@@ -140,6 +142,7 @@ The complete documentation is available [here](https://reference.aspose.com/cell
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

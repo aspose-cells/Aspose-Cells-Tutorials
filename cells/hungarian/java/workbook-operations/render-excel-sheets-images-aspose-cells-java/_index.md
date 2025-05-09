@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ Megtanultad, hogyan jeleníthetsz meg Excel-táblázatokat képként az Aspose.C
 **4. Mi van, ha a renderelt képeim elmosódottak?**
    - DPI-beállítások módosítása itt: `ImageOrPrintOptions` nagyobb felbontású kimenetekhez.
 **5. Hogyan tudom elhárítani a renderelési problémákat az Aspose.Cells használatával?**
-   - Ellenőrizze a naplókat, biztosítsa a megfelelő verziókompatibilitást, és konzultáljon a következővel: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
+   - Ellenőrizze a naplókat, biztosítsa a megfelelő verziókompatibilitást, és konzultáljon a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 ## Erőforrás
 - **Dokumentáció:** [Aspose.Cells Java referencia](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Kiadások oldala](https://releases.aspose.com/cells/java/)
@@ -145,6 +147,9 @@ Megtanultad, hogyan jeleníthetsz meg Excel-táblázatokat képként az Aspose.C
 Ezekkel az eszközökkel és tippekkel jó úton haladsz afelé, hogy elsajátítsd az Excel-táblázatok renderelését Java-ban az Aspose.Cells segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

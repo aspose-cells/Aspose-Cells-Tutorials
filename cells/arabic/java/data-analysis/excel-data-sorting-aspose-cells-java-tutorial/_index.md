@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ workbook.save(outDir + "outputSortAsNumber.xlsx");
 من خلال اتباع هذا الدليل الشامل، يمكنك تنفيذ وتحسين فرز بيانات Excel بثقة داخل تطبيقات Java الخاصة بك باستخدام Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

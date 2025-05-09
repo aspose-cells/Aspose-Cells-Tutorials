@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,9 +153,12 @@ A: 네, XLS, XLSX 등 다양한 Excel 형식을 지원합니다.
 - **임시 면허 요청**: [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼**: [Aspose 지원 커뮤니티](https://forum.aspose.com/c/cells/9)
 
-이 가이드를 따라 하면 이제 Aspose.Cells를 사용하여 Java 애플리케이션에 소계 기능을 통합할 수 있게 될 것입니다. 즐거운 코딩 되세요!
+이 가이드를 따라 하면 이제 Aspose.Cells를 사용하여 Java 애플리케이션에 소계 기능을 통합할 수 있는 준비가 되었을 것입니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

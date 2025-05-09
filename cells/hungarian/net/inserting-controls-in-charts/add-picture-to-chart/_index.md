@@ -1,42 +1,44 @@
 ---
-title: Kép hozzáadása a diagramhoz
-linktitle: Kép hozzáadása a diagramhoz
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan adhat hozzá egyszerűen képeket Excel-diagramokhoz az Aspose.Cells for .NET segítségével. Növelje diagramjait és prezentációit néhány egyszerű lépésben.
-weight: 11
-url: /hu/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "Tanuld meg, hogyan adhatsz hozzá egyszerűen képeket Excel-diagramokhoz az Aspose.Cells for .NET segítségével. Javítsd diagramjaidat és prezentációidat néhány egyszerű lépésben."
+"linktitle": "Kép hozzáadása a diagramhoz"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Kép hozzáadása a diagramhoz"
+"url": "/hu/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kép hozzáadása a diagramhoz
 
 ## Bevezetés
 
-Eleged van az unalmas grafikonokból, amelyekből hiányzik a személyes érintés? Szeretné megtanulni, hogyan fűszerezheti Excel vizualitását képek hozzáadásával? Nos, szerencséd van! Ebben az oktatóanyagban belemerülünk az Aspose.Cells for .NET világába, és megtanuljuk, hogyan lehet képeket hozzáadni az Excel diagramjaihoz. Szóval, fogd meg kedvenc kávédat, és kezdjük is!
+Elege van az unalmas, személyeskedés nélküli diagramokból? Szeretné megtanulni, hogyan dobhatja fel Excel-vizualizációit képek hozzáadásával? Nos, szerencséje van! Ebben az oktatóanyagban elmerülünk az Aspose.Cells for .NET világában, és megtanuljuk, hogyan adhat hozzá képeket diagramokhoz Excelben. Szóval, fogja meg kedvenc csésze kávéját, és kezdjük is!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódolás finomságába, van néhány előfeltétel, amelyeket simán be kell tartania:
+Mielőtt belevágnánk a kódolás részleteibe, van néhány előfeltétel, aminek teljesülnie kell a zökkenőmentes végrehajtáshoz:
 
-- Visual Studio: Itt írhatja és futtathatja a .NET kódot. Győződjön meg arról, hogy telepítve van.
--  Aspose.Cells for .NET: Erre a könyvtárra lesz szüksége az Excel fájlokkal való munkavégzéshez. Tudod[töltse le itt](https://releases.aspose.com/cells/net/).
-- A C# alapismeretei: Miközben végigvezetem a kódon, a C# alapjaival kapcsolatos fogantyú tisztább lesz a dolgokon.
+- Visual Studio: Itt fogod megírni és futtatni a .NET kódodat. Győződj meg róla, hogy telepítve van.
+- Aspose.Cells .NET-hez: Erre a könyvtárra szükséged lesz az Excel-fájlok kezeléséhez. [töltsd le itt](https://releases.aspose.com/cells/net/).
+- C# alapismeretek: Bár végigvezetlek a kódon, a C# alapjainak ismerete segít tisztábban látni a dolgokat.
 
 ### Telepítési lépések
 
-1. Az Aspose.Cells telepítése: Az Aspose.Cells elemet a NuGet Package Manager segítségével adhatja hozzá Visual Studio projektjéhez. Ehhez nyissa meg az Eszközök > NuGet Csomagkezelő > NuGet Packages for Solution menüpontot, és keresse meg az „Aspose.Cells” kifejezést. Kattintson a Telepítés gombra.
-2. A projekt beállítása: Hozzon létre egy új C#-konzolalkalmazás-projektet a Visual Studióban.
+1. Az Aspose.Cells telepítése: Az Aspose.Cells fájlt a NuGet csomagkezelőn keresztül adhatod hozzá a Visual Studio projektedhez. Ehhez lépj az Eszközök > NuGet csomagkezelő > Megoldáshoz tartozó NuGet csomagok kezelése menüpontra, és keresd meg az „Aspose.Cells” fájlt. Kattints a Telepítés gombra.
+2. Projekt beállítása: Hozz létre egy új C# konzolos alkalmazásprojektet a Visual Studióban.
 
 ## Csomagok importálása
 
-Miután mindent beállított, a következő lépés a szükséges csomagok importálása a projektbe. Íme, hogyan kell csinálni:
+Miután mindent beállítottál, a következő lépés a szükséges csomagok importálása a projektedbe. Így csináld:
 
 ### Importálja a szükséges névtereket
 
-A C# kódfájl tetején a következő névtereket kell importálnia:
+A C# kódfájl tetején a következő névtereket kell importálnod:
 
 ```csharp
 using Aspose.Cells;
@@ -45,100 +47,100 @@ using Aspose.Cells.Drawing;
 using System.IO;
 ```
 
-Ez azt mondja a programodnak: „Hé! Használni fogom az Aspose.Cells nagyszerű szolgáltatásait.”
+Ez azt mondja a programodnak: „Hé! Használni fogom ezeket a klassz funkciókat az Aspose.Cells-ből.”
 
-Most, hogy megvannak az előfeltételeink, bontsuk le a folyamatot falatnyi lépésekre. 
+Most, hogy megvannak az előfeltételeink, bontsuk le a folyamatot apró lépésekre. 
 
-## 1. lépés: Határozza meg a könyvtárait
+## 1. lépés: A könyvtárak meghatározása
 
-Először is be kell állítanunk a bemeneti és kimeneti fájljaink elérési útját. Ez a lépés döntő fontosságú, mert tudnunk kell, hol találjuk a meglévő Excel fájlunkat, és hova mentsük a módosított fájlt.
+Először is be kell állítanunk a bemeneti és kimeneti fájlok elérési útját. Ez a lépés azért kulcsfontosságú, mert tudnunk kell, hol találjuk a meglévő Excel-fájlt, és hová mentsük a módosított fájlt.
 
 ```csharp
-//Forrás könyvtár
+//Forráskönyvtár
 string sourceDir = "Your Document Directory/";
 
 //Kimeneti könyvtár
 string outputDir = "Your Output Directory/";
 ```
 
- Cserélje ki`Your Document Directory` és`Your Output Directory` tényleges elérési utakkal a számítógépén. 
+Csere `Your Document Directory` és `Your Output Directory` a számítógépeden található tényleges elérési utakkal. 
 
-## 2. lépés: Töltse be a meglévő munkafüzetet
+## 2. lépés: A meglévő munkafüzet betöltése
 
-Most töltsük be a meglévő Excel fájlt, ahová a képünket hozzá szeretnénk adni a diagramhoz.
+Most töltsük be a meglévő Excel fájlt, ahová a képet hozzá szeretnénk adni a diagramhoz.
 
 ```csharp
 // Nyissa meg a meglévő fájlt.
 Workbook workbook = new Workbook(sourceDir + "sampleAddingPictureInChart.xls");
 ```
 
-Ez a kód megnyitja a munkafüzetet, és készen áll a szerkesztésre.
+Ez a kód megnyitja a munkafüzetet, így az szerkesztésre kész.
 
-## 3. lépés: Készítse elő az Image Stream-et
+## 3. lépés: A képfolyam előkészítése
 
-A kép hozzáadása előtt el kell olvasnunk a diagramba beszúrni kívánt képet. 
+Mielőtt hozzáadnánk a képet, el kell olvasnunk a diagramba beszúrni kívánt képet. 
 
 ```csharp
-// Szerezzen be egy képfájlt az adatfolyamba.
+// Szerezz be egy képfájlt a streambe.
 FileStream stream = new FileStream(sourceDir + "sampleAddingPictureInChart.png", FileMode.Open, FileAccess.Read);
 ```
 
-Győződjön meg arról, hogy a képet a megadott könyvtárba mentette.
+Győződjön meg róla, hogy a kép a megadott könyvtárba van mentve.
 
-## 4. lépés: Célozza meg a diagramot
+## 4. lépés: Célozd meg a diagramot
 
-Most pedig határozzuk meg, hogy melyik diagramhoz adjuk hozzá a képünket. Ebben a példában az első munkalap első diagramját célozzuk meg.
+Most adjuk meg, hogy melyik diagramhoz adjuk hozzá a képet. Ebben a példában az első munkalap első diagramját fogjuk célba venni.
 
 ```csharp
-// Szerezze be a tervezői diagramot a második lapon.
+// A tervezői táblázatot a második lapon találod.
 Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-Bármely munkalapot elérheti az index megfelelő módosításával.
+Bármelyik munkalapot elérheti az index megfelelő módosításával.
 
-## 5. lépés: Adja hozzá a képet a diagramhoz
+## 5. lépés: Kép hozzáadása a diagramhoz
 
-Miután kiválasztotta a diagramot, ideje hozzáadni a képet! 
+Miután kiválasztottad a diagramot, itt az ideje hozzáadni a képet! 
 
 ```csharp
 // Adjon hozzá egy új képet a diagramhoz.
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Itt,`50` és`50` azok az X és Y koordináták, ahová a kép kerül, és`200` a kép szélessége és magassága.
+Itt, `50` és `50` azok az X és Y koordináták, ahová a kép kerül, és `200` a kép szélessége és magassága.
 
 ## 6. lépés: A kép vonalformátumának testreszabása
 
-Szeretnél némi hangulatot adni a képednek? A szegélyét személyre szabhatja! Íme, hogyan kell csinálni:
+Szeretnél egy kis csillogást adni a képednek? Testreszabhatod a szegélyét! Így teheted meg:
 
 ```csharp
-// Szerezze be a kép vonalformátumának típusát.
+// Szerezd meg a kép vonalformátum típusát.
 Aspose.Cells.Drawing.LineFormat lineformat = pic0.Line; 
 
-// Állítsa be a vonal stílusát.
+// Állítsa be a kötőjel stílusát.
 lineformat.DashStyle = MsoLineDashStyle.Solid;
 
 // Állítsa be a vonalvastagságot.
 lineformat.Weight = 4;    
 ```
 
-Ez a részlet lehetővé teszi a szegély megjelenésének és vastagságának kiválasztását. Válasszon bármilyen stílust, amely összecseng az előadásával!
+Ebben a kódrészletben kiválaszthatod a szegély kinézetét és vastagságát. Válassz bármilyen stílust, amely illik a prezentációdhoz!
 
-## 7. lépés: Mentse el a módosított munkafüzetet
+## 7. lépés: A módosított munkafüzet mentése
 
-Ennyi kemény munka után mentsük el a módosításokat a következő kódsor végrehajtásával:
+Mindezen kemény munka után mentsük el a módosításokat a következő kódsor végrehajtásával:
 
 ```csharp
 // Mentse el az excel fájlt.
 workbook.Save(outputDir + "outputAddingPictureInChart.xls");
 ```
 
-Most a kép sikeresen beépült a diagramba, és a kimeneti fájl készen áll a megtekintésre!
+A képed sikeresen integrálva lett a diagramba, és a kimeneti fájlod készen áll a megtekintésre!
 
-## 8. lépés: Jelezze a sikert
+## 8. lépés: Siker jelzése
 
-Végül hozzáadhat egy egyszerű üzenetet, amely megerősíti, hogy a művelet sikeres volt:
+Végül hozzáadhat egy egyszerű üzenetet a művelet sikerességének megerősítéséhez:
 
 ```csharp
 Console.WriteLine("AddingPictureInChart executed successfully.");
@@ -146,27 +148,29 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan lehet egy kis egyéniséget adni Excel-diagramjainak képek hozzáadásával az Aspose.Cells for .NET segítségével. Néhány egyszerű lépéssel prezentációit hétköznapiból emlékezetessé emelheti. Szóval, mire vársz? Próbálja ki, és hagyja, hogy a diagramok ragyogjanak!
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan adhatsz egy kis személyiséget Excel-diagramjaidhoz képek hozzáadásával az Aspose.Cells for .NET segítségével. Néhány egyszerű lépéssel a hétköznapi prezentációidat emlékezetessé teheted. Szóval, mire vársz? Próbáld ki, és hagyd, hogy a diagramjaid ragyogjanak!
 
 ## GYIK
 
-### Hozzáadhatok több képet egyetlen diagramhoz?
- Igen! Felhívhatja a`AddPictureInChart` módszerrel többször is hozzáadhat annyi képet, amennyit csak szeretne.
+### Több képet is hozzáadhatok egyetlen diagramhoz?
+Igen! Felhívhatod a `AddPictureInChart` módszert többször, hogy annyi képet adj hozzá, amennyit csak szeretnél.
 
 ### Milyen képformátumokat támogat az Aspose.Cells?
-Az Aspose.Cells számos képformátumot támogat, beleértve a PNG, JPEG, BMP és GIF formátumokat.
+Az Aspose.Cells számos képformátumot támogat, beleértve a PNG, JPEG, BMP és GIF fájlokat.
 
-### Testreszabhatom a kép helyzetét?
- Biztosan! Az X és Y koordináták a`AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
+### Testreszabhatom a kép pozícióját?
+Természetesen! Az X és Y koordináták a `AddPictureInChart` módszer lehetővé teszi a pontos pozicionálást.
 
-### Az Aspose.Cells ingyenesen használható?
-Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes szolgáltatáshoz licenc szükséges. Az árat megtalálod[itt](https://purchase.aspose.com/buy).
+### Ingyenesen használható az Aspose.Cells?
+Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkciók használatához licenc szükséges. Az árakat itt találja. [itt](https://purchase.aspose.com/buy).
 
-### Hol találok több példát?
- Nézze meg a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) részletesebb példákért és funkciókért.
+### Hol találok további példákat?
+Nézd meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) részletesebb példákért és funkciókért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

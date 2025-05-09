@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,9 +132,12 @@ Java에서 Aspose.Cells를 사용할 때 최적의 성능을 위해 다음 사�
 - Aspose.Cells 다운로드: [출시 페이지](https://releases.aspose.com/cells/java/)
 - 라이센스 구매: [구매 페이지](https://purchase.aspose.com/buy)
 - 무료 체험: [Aspose를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- 임시 면허: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- 임시 면허: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ Je hebt nu geleerd hoe je Excel-bestanden kunt converteren naar PNG-, TIFF- en P
 Met deze handleiding bent u nu in staat om Excel-bestanden te converteren naar PNG-, TIFF- en PDF-formaten met Aspose.Cells voor Java. Verbeter uw mogelijkheden voor gegevensdeling met deze veelzijdige conversietechnieken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

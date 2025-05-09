@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ομαδοποίηση δεδομένων σε συγκεντρωτικούς πίνακες
@@ -108,9 +110,11 @@ workbook.save("output_custom_grouping.xlsx");
 ### 3. Μπορώ να αυτοματοποιήσω τη δημιουργία συγκεντρωτικών πινάκων χρησιμοποιώντας το Aspose.Cells για Java;
 
 Ναι, μπορείτε να αυτοματοποιήσετε τη δημιουργία συγκεντρωτικών πινάκων στο Excel χρησιμοποιώντας το Aspose.Cells για Java, όπως φαίνεται στα παραδείγματα πηγαίου κώδικα που παρέχονται.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

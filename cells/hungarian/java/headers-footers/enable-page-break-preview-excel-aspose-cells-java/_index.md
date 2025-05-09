@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Ezzel az oktatóanyaggal megtanultad, hogyan engedélyezheted az oldaltörés el
 Ezzel az átfogó útmutatóval felkészülhetsz arra, hogy az Aspose.Cells for Java segítségével hatékonyan engedélyezd az oldaltörések előnézetét. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

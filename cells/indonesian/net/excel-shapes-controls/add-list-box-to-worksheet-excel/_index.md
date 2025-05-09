@@ -1,27 +1,29 @@
 ---
-title: Tambahkan Kotak Daftar ke Lembar Kerja di Excel
-linktitle: Tambahkan Kotak Daftar ke Lembar Kerja di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan kotak daftar ke lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah dan buat lembar Excel Anda interaktif.
-weight: 20
-url: /id/net/excel-shapes-controls/add-list-box-to-worksheet-excel/
+"description": "Pelajari cara menambahkan kotak daftar ke lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah kami yang mudah dan buat lembar Excel Anda interaktif."
+"linktitle": "Tambahkan Kotak Daftar ke Lembar Kerja di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tambahkan Kotak Daftar ke Lembar Kerja di Excel"
+"url": "/id/net/excel-shapes-controls/add-list-box-to-worksheet-excel/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Kotak Daftar ke Lembar Kerja di Excel
 
-## Perkenalan
+## Bevezetés
 Menambahkan elemen interaktif ke lembar kerja Excel Anda, seperti kotak daftar, dapat meningkatkan manajemen dan presentasi data secara signifikan. Baik Anda membuat formulir interaktif atau alat entri data kustom, kemampuan untuk mengontrol input pengguna dengan kotak daftar sangatlah berharga. Aspose.Cells untuk .NET menyediakan cara yang efisien untuk menambahkan dan mengelola kontrol ini di file Excel Anda. Dalam panduan ini, kami akan memandu Anda melalui proses menambahkan kotak daftar ke lembar kerja menggunakan Aspose.Cells untuk .NET.
-## Prasyarat
+## Előfeltételek
 Sebelum menyelami pengkodean, pastikan Anda memiliki alat dan sumber daya berikut:
--  Pustaka Aspose.Cells untuk .NET: Anda dapat mengunduhnya dari[Halaman unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/).
+- Pustaka Aspose.Cells untuk .NET: Anda dapat mengunduhnya dari [Aspose.Cells .NET letöltési oldal](https://releases.aspose.com/cells/net/).
 - Lingkungan Pengembangan: Setiap IDE yang mendukung pengembangan .NET, seperti Visual Studio.
 - .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang didukung.
- Pertimbangkan juga untuk mendapatkan[lisensi sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menjelajahi semua fitur tanpa batasan.
-## Paket Impor
+Pertimbangkan juga untuk mendapatkan [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) jika Anda ingin menjelajahi semua fitur tanpa batasan.
+## Csomagok importálása
 Sebelum memulai, pastikan Anda telah mengimpor namespace Aspose.Cells yang diperlukan. Berikut cara melakukannya:
 ```csharp
 using System.IO;
@@ -29,10 +31,10 @@ using Aspose.Cells;
 using Aspose.Cells.Drawing;
 ```
 Dalam tutorial ini, kami akan menguraikan proses penambahan kotak daftar menjadi beberapa langkah sederhana. Ikuti setiap langkah dengan saksama untuk memastikan semuanya berjalan sesuai harapan.
-## Langkah 1: Menyiapkan Direktori Dokumen Anda
+## 1. lépés: A dokumentumkönyvtár beállítása
 Sebelum Anda membuat file Excel, Anda memerlukan lokasi untuk menyimpannya. Berikut cara mengatur direktori:
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 // Buat direktori jika belum ada.
 bool IsExists = System.IO.Directory.Exists(dataDir);
@@ -40,12 +42,12 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 Pada langkah ini, Anda menentukan di mana berkas Anda akan disimpan. Kode tersebut memeriksa apakah direktori tersebut ada, dan jika tidak ada, kode tersebut akan membuatkannya untuk Anda. Ini memastikan bahwa Anda tidak akan mengalami kesalahan "berkas tidak ditemukan" di kemudian hari.
-## Langkah 2: Buat Buku Kerja Baru dan Akses Lembar Kerja Pertama
-Berikutnya, kita akan membuat buku kerja baru dan mengakses lembar kerja pertama tempat kita akan menambahkan kotak daftar kita.
+## 2. lépés: Új munkafüzet létrehozása és az első munkalap elérése
+Berikutnya, kita akan membuat buku kerja baru dan mengakses lembar kerja pertama tempat kita akan menambahkan kotak daftar.
 ```csharp
-// Buat Buku Kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook workbook = new Workbook();
-// Dapatkan lembar kerja pertama.
+// Szerezd meg az első munkalapot.
 Worksheet sheet = workbook.Worksheets[0];
 ```
 Buku kerja pada dasarnya adalah berkas Excel Anda. Di sini, kita membuat buku kerja baru dan mengakses lembar kerja pertama, yang merupakan tempat kita akan meletakkan kotak daftar. Anggap ini sebagai pembuatan kanvas kosong tempat Anda akan melukis kontrol.
@@ -93,29 +95,31 @@ listBox.Shadow = true;
 - InputRange: Ini memberi tahu kotak daftar tempat mencari daftar opsinya (A2 hingga A7, yang telah kita atur sebelumnya).
 - SelectionType.Single: Ini membatasi pengguna untuk memilih hanya satu item dari kotak daftar.
 - Bayangan: Efek bayangan memberi kotak daftar tampilan yang lebih tiga dimensi, sehingga menarik secara visual.
-## Langkah 6: Simpan File Excel
+## 6. lépés: Mentse el az Excel-fájlt
 Terakhir, mari simpan buku kerja kita dengan kotak daftar yang disertakan.
 ```csharp
 // Simpan buku kerja.
 workbook.Save(dataDir + "book1.out.xls");
 ```
 Baris kode ini menyimpan buku kerja ke direktori yang telah kita buat sebelumnya. File tersebut diberi nama "book1.out.xls", tetapi Anda dapat memilih nama apa pun yang sesuai dengan proyek Anda.
-## Kesimpulan
+## Következtetés
 Nah, itu dia! Anda telah berhasil menambahkan kotak daftar ke lembar kerja Excel menggunakan Aspose.Cells for .NET. Hanya dengan beberapa baris kode, kami telah membuat kotak daftar yang berfungsi penuh, yang membuat lembar kerja lebih interaktif dan dinamis. Tutorial ini akan memberi Anda dasar yang kuat untuk menjelajahi kontrol dan fitur lain di Aspose.Cells for .NET. Teruslah bereksperimen, dan Anda akan segera menguasai fungsionalitas pustaka yang luas!
-## Pertanyaan yang Sering Diajukan
+## GYIK
 ### Bisakah saya mengizinkan beberapa pilihan dalam kotak daftar?  
- Ya, Anda dapat mengubahnya`SelectionType` ke`SelectionType.Multi` untuk memperbolehkan beberapa pilihan.
+Ya, Anda dapat mengubahnya `SelectionType` hogy `SelectionType.Multi` untuk memperbolehkan beberapa pilihan.
 ### Bisakah saya mengubah tampilan kotak daftar?  
 Tentu saja! Aspose.Cells memungkinkan Anda untuk menyesuaikan tampilan kotak daftar, termasuk ukuran, font, dan bahkan warnanya.
 ### Bagaimana jika saya perlu menghapus kotak daftar tersebut nanti?  
- Anda dapat mengakses dan menghapus kotak daftar dari`Shapes` koleksi menggunakan`sheet.Shapes.RemoveAt(index)`.
+Anda dapat mengakses dan menghapus kotak daftar dari `Shapes` koleksi menggunakan `sheet.Shapes.RemoveAt(index)`.
 ### Bisakah saya menautkan kotak daftar ke sel yang berbeda?  
- Ya, cukup ubah`LinkedCell` properti ke sel lain tempat Anda ingin menampilkan nilai yang dipilih.
+Ya, cukup ubah `LinkedCell` properti ke sel lain tempat Anda ingin menampilkan nilai yang dipilih.
 ### Bagaimana cara menambahkan lebih banyak item ke kotak daftar?  
 Cukup perbarui rentang input dengan memasukkan lebih banyak nilai ke dalam sel yang ditentukan, dan kotak daftar akan otomatis diperbarui.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

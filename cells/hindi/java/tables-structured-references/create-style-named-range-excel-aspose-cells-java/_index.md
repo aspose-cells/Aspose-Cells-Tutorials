@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ A4: हाँ, Aspose.Cells for Java वेब अनुप्रयोगों
 Java के लिए Aspose.Cells का लाभ उठाकर, आप अपने Excel स्वचालन कार्यों को दक्षता और स्पष्टता के एक नए स्तर तक बढ़ा सकते हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: .NET'te Programlı Olarak Konsolidasyon Fonksiyonları
-linktitle: .NET'te Programlı Olarak Konsolidasyon Fonksiyonları
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: .NET için Aspose.Cells'i kullanarak konsolidasyon fonksiyonlarını programlı olarak nasıl uygulayacağınızı öğrenin. Veri analizi görevlerinizi verimli bir şekilde otomatikleştirin.
-weight: 12
-url: /tr/net/creating-and-configuring-pivot-tables/consolidation-functions/
+"description": ".NET için Aspose.Cells'i kullanarak konsolidasyon fonksiyonlarını programlı olarak nasıl uygulayacağınızı öğrenin. Veri analizi görevlerinizi verimli bir şekilde otomatikleştirin."
+"linktitle": ".NET'te Programlı Olarak Konsolidasyon Fonksiyonları"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Programlı Olarak Konsolidasyon Fonksiyonları"
+"url": "/tr/net/creating-and-configuring-pivot-tables/consolidation-functions/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Programlı Olarak Konsolidasyon Fonksiyonları
@@ -18,12 +20,12 @@ Veri analizi için Excel'in gücünden yararlanmak istiyor ancak bununla ilgili 
 ## Ön koşullar
 Veri analizi yolculuğumuza başlamadan önce, her şeyin yerli yerinde olduğundan emin olalım. İhtiyacınız olanlar şunlar:
 1. .NET Ortamı: Çalışan bir .NET ortamınız olmalı. .NET Core veya .NET Framework kullanıyor olmanız fark etmeksizin, adımlar büyük ölçüde aynı kalacaktır.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu şuradan kolayca indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu şuradan kolayca indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
 3. C#'ın Temel Anlayışı: C# programlamaya biraz aşinalık faydalı olacaktır. Zaten C#'da kod yazıyorsanız, hazırsınız!
-4. Örnek Excel Dosyası: Örneğimiz için, adında bir Excel dosyanız olduğundan emin olun.`Book.xlsx` Belgeler dizininizde hazır.
+4. Örnek Excel Dosyası: Örneğimiz için, adında bir Excel dosyanız olduğundan emin olun. `Book.xlsx` Belgeler dizininizde hazır.
 ## Paketleri İçe Aktar
 Kodlamaya başlamak için öncelikle gerekli paketleri içe aktarmanız gerekir. Projenizde Aspose.Cells kütüphanesine başvurulması gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
-1.  NuGet Paketini Yükleyin: Projenizi Visual Studio'da açın, Çözüm'e sağ tıklayın ve "NuGet Paketlerini Yönet"i seçin.`Aspose.Cells` ve kuruluma basın.
+1. NuGet Paketini Yükleyin: Projenizi Visual Studio'da açın, Çözüm'e sağ tıklayın ve "NuGet Paketlerini Yönet"i seçin. `Aspose.Cells` ve kuruluma basın.
 2. Yönergeyi Kullanma: C# dosyanızın en üstüne, ihtiyaç duyduğumuz sınıflara erişmek için aşağıdaki ad alanlarını eklemeniz gerekir:
 ```csharp
 using System.IO;
@@ -34,14 +36,14 @@ using Aspose.Cells.Pivot;
 Şimdi konsolidasyon fonksiyonlarımızı uygulamaya geçelim!
 Şimdi, ana programımızı net, sindirilebilir adımlara böleceğiz. Hazır mısınız? Hadi başlayalım!
 ## Adım 1: Belge Dizininizi Ayarlayın
-Öncelikle belgelerimiz için bir yol belirlememiz gerekiyor. Bu, Excel dosyalarınızın saklandığı klasörü ifade eder.
+Öncelikle belgelerimiz için bir yol belirlememiz gerekiyor. Bu, Excel dosyalarınızın depolandığı klasörü ifade eder.
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` gerçek yolunuzla`Book.xlsx` dosya bulunur.
+Değiştirdiğinizden emin olun `"Your Document Directory"` gerçek yolunuzla `Book.xlsx` dosya bulunur.
 ## Adım 2: Bir Çalışma Kitabı Örneği Oluşturun
-Sonra, kaynak Excel dosyamızdan bir çalışma kitabı örneği oluşturalım. Bu nesne, içindeki verilerle etkileşime girmemizi sağlayacaktır.`Book.xlsx`.
+Sonra, kaynak Excel dosyamızdan bir çalışma kitabı örneği oluşturalım. Bu nesne, içindeki verilerle etkileşime girmemizi sağlayacaktır. `Book.xlsx`.
 ```csharp
 // Kaynak excel dosyasından çalışma kitabı oluştur
 Workbook workbook = new Workbook(dataDir + "Book.xlsx");
@@ -73,12 +75,12 @@ Sonuçların nasıl değiştiğini görmek için bu fonksiyonları farklı alanl
 ## Adım 6: Değişiklikleri Hesaplayın
 Fonksiyonlarınızı ayarladıktan sonra, yaptığımız değişiklikleri yansıtacak şekilde verileri hesaplamak çok önemlidir. Bu, Excel çalışma sayfanızdaki 'yenile' düğmesine basmak gibidir.
 ```csharp
-// Değişikliklerin etki etmesini sağlamak için verileri hesaplayın
+// Değişikliklerin etkisini hesaplamak için verileri hesaplayın
 pivotTable.CalculateData();
 ```
 Bu adımı, yudum almadan önce kahvenizin demlendiğinden emin olmak olarak düşünün. Sonuçları kaçırmak istemezsiniz!
 ## Adım7: Değişikliklerinizi Kaydedin
- Son olarak, çalışmamızı kaydetme zamanı geldi. Değiştirilen çalışma kitabını yeni bir Excel dosyasına kaydedeceğiz.`output.xlsx`.
+Son olarak, çalışmamızı kaydetme zamanı geldi. Değiştirilen çalışma kitabını yeni bir Excel dosyasına kaydedeceğiz. `output.xlsx`.
 ```csharp
 // Excel dosyasını kaydetme
 workbook.Save(dataDir + "output.xlsx");
@@ -90,16 +92,18 @@ Aspose.Cells for .NET kullanarak fonksiyonları birleştirmeye ilişkin eğitimi
 ### Aspose.Cells Nedir?
 Aspose.Cells, geliştiricilerin uygulamalarında Excel dosyalarını programlı bir şekilde oluşturmalarına, düzenlemelerine ve yönetmelerine olanak tanıyan bir .NET kütüphanesidir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose bulabileceğiniz ücretsiz bir deneme sunuyor[Burada](https://releases.aspose.com).
+Evet, Aspose bulabileceğiniz ücretsiz bir deneme sunuyor [Burada](https://releases.aspose.com).
 ### Aspose.Cells belgelerine nasıl erişebilirim?
- Kapsamlı belgelere erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı belgelere erişebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için destek mevcut mu?
- Kesinlikle! Onların yardımına başvurabilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Onların yardımına başvurabilirsiniz [destek forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells için lisansı nereden satın alabilirim?
- Lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Lisans satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

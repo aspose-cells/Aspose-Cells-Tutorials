@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ Aspose.Cells สำหรับ Java ใช้งานภายใต้รู�
 
 ## คู่มือการใช้งาน
 
-### สร้างและเริ่มต้นสมุดงาน
+### การสร้างและเริ่มต้นสมุดงาน
 
 การสร้างเวิร์กบุ๊ก Excel ใหม่เป็นเรื่องง่ายด้วย Aspose.Cells
 
@@ -172,6 +174,9 @@ workbook.save(dataDir + "/ImportedXMLData.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

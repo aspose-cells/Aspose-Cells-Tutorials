@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ Ten samouczek zawiera szczegółowy przewodnik dotyczący używania Aspose.Cells
 
 ### Następne kroki:
 - Eksperymentuj z różnymi `HtmlSaveOptions` konfiguracje.
-- Zintegruj tę funkcjonalność w większych aplikacjach, aby umożliwić dynamiczne generowanie raportów.
+- Zintegruj tę funkcjonalność w większych aplikacjach w celu dynamicznego generowania raportów.
 
 Rozważ wypróbowanie tego rozwiązania i zobacz, jak może ono usprawnić Twoje procesy związane z konwersją plików Excel do formatu HTML!
 
@@ -158,7 +160,7 @@ Rozważ wypróbowanie tego rozwiązania i zobacz, jak może ono usprawnić Twoje
 2. **Czy podczas eksportowania do formatu HTML mogę dostosować coś więcej niż tylko nazwę zakładki?**
    - Tak, `HtmlSaveOptions` oferuje liczne opcje dostosowywania, takie jak kodowanie, formaty eksportu obrazów i elementy sterujące stylami CSS.
 
-3. **Co zrobić, jeśli mój plik Excel zawiera wiele arkuszy?**
+3. **Co zrobić, gdy mój plik Excel zawiera wiele arkuszy?**
    - Obecna konfiguracja skupia się na plikach jednoarkuszowych, jednak w skoroszycie wieloarkuszowym można wykonywać podobne operacje, iterując po każdym arkuszu.
 
 4. **Czy istnieje ograniczenie rozmiaru pliku Excel, który mogę wyeksportować?**
@@ -176,6 +178,9 @@ Rozważ wypróbowanie tego rozwiązania i zobacz, jak może ono usprawnić Twoje
 - **Forum wsparcia:** Dołącz do dyskusji i uzyskaj pomoc na temat [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ workbook.save(dataDir + "CSignatureLine_out.xlsx");
 ## Раздел часто задаваемых вопросов
 1. **Как мне оформить временную лицензию для тестирования?**
    - Посещать [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/) и следуйте предоставленным инструкциям.
-2. **Можно ли добавить к изображению несколько строк подписи?**
+2. **Могу ли я добавить к изображению несколько строк подписи?**
    - В настоящее время Aspose.Cells поддерживает добавление одной строки подписи для каждого объекта изображения.
 3. **Какие форматы файлов поддерживает Aspose.Cells?**
    - Поддерживает различные форматы Excel, включая XLSX, XLSM и CSV.
@@ -176,6 +178,9 @@ workbook.save(dataDir + "CSignatureLine_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

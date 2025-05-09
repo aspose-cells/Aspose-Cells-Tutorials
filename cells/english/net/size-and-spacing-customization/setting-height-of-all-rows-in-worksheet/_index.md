@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-height-of-all-rows-in-worksheet
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Row Height in Worksheet with Aspose.Cells for .NET
@@ -87,6 +89,7 @@ You can find extensive documentation [here](https://reference.aspose.com/cells/n
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

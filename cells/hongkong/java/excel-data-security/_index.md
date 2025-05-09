@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 資料安全
@@ -40,9 +42,11 @@
 了解如何使用 Aspose.Cells for Java API 審核文件存取。包含原始碼和常見問題解答的逐步指南。
 ### [安全資料驗證](./data-validation-for-security/)
 使用 Aspose.Cells for Java 增強資料安全性。探索全面的資料驗證技術。了解如何實施強大的驗證和保護。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

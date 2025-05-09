@@ -8,7 +8,9 @@ url: /net/workbook-operations/use-icells-datatable-data-source/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use ICellsDataTableDataSource for Workbook Designer
@@ -143,6 +145,7 @@ Aspose has a [support forum](https://forum.aspose.com/c/cells/9) where users can
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

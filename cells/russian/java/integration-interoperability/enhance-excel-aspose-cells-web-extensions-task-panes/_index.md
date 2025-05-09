@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ workbook.save(outDir + "AddWebExtension_Out.xlsx");
 
 **Следующие шаги:**
 - Изучите обширную документацию по адресу [Документация Aspose](https://reference.aspose.com/cells/java/).
-- Экспериментируйте с различными конфигурациями, чтобы адаптировать решения под ваши конкретные потребности.
+- Экспериментируйте с различными конфигурациями, чтобы адаптировать решения к вашим конкретным потребностям.
 - Взаимодействуйте с сообществом на форуме поддержки Aspose для получения советов и устранения неполадок.
 
 Готовы расширить свои возможности Excel? Начните внедрять эти функции уже сегодня!
@@ -207,6 +209,9 @@ workbook.save(outDir + "AddWebExtension_Out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

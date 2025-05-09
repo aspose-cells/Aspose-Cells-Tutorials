@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,7 +192,7 @@ public class ValidateCellD1 {
     }
 }
 ```
-- **Parámetros**: El `putValue` El método actualiza el contenido de una celda, mientras que `getValidationValue()` comprueba su validez.
+- **Parámetros**: El `putValue` El método actualiza el contenido de una celda, mientras que `getValidationValue()` Comprueba su validez.
 - **Objetivo**: Asegúrese de que los valores ingresados en 'D1' estén dentro del rango permitido.
 
 ## Aplicaciones prácticas
@@ -211,6 +213,9 @@ Al trabajar con archivos de Excel grandes o reglas de validación complejas, el 
 - Perfile su aplicación para identificar cuellos de botella y optimizarla en consecuencia.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

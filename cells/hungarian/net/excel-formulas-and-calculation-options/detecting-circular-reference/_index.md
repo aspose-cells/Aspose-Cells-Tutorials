@@ -1,38 +1,40 @@
 ---
-title: Körhivatkozás észlelése programozottan az Excelben
-linktitle: Körhivatkozás észlelése programozottan az Excelben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Könnyen észlelheti a körkörös hivatkozásokat az Excelben az Aspose.Cells for .NET segítségével. Kövesse lépésenkénti útmutatónkat a pontos számítások biztosításához a táblázatokban.
-weight: 13
-url: /hu/net/excel-formulas-and-calculation-options/detecting-circular-reference/
+"description": "Könnyedén felismerheti a körkörös hivatkozásokat az Excelben az Aspose.Cells for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a táblázataiban szereplő pontos számítások biztosítása érdekében."
+"linktitle": "Körhivatkozások észlelése Excelben programozottan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Körhivatkozások észlelése Excelben programozottan"
+"url": "/hu/net/excel-formulas-and-calculation-options/detecting-circular-reference/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Körhivatkozás észlelése programozottan az Excelben
+# Körhivatkozások észlelése Excelben programozottan
 
 ## Bevezetés
-Az Excel-fájlokkal való munka során az egyik leginkább frusztráló probléma, amellyel találkozhat, a körkörös hivatkozás. Ez akkor fordul elő, ha egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik, és olyan ciklust hoz létre, amely megzavarhatja az Excel számítási motorját. De ne félj! Az Aspose.Cells for .NET segítségével programozottan észlelheti ezeket a kellemetlen körkörös hivatkozásokat, így biztosítva, hogy táblázatai működőképesek és pontosak maradjanak. Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, és ez olyan egyszerű, mint a pite.
+Az Excel-fájlokkal való munka során az egyik legbosszantóbb probléma, amivel találkozhatsz, a körkörös hivatkozás. Ez akkor fordul elő, amikor egy képlet közvetlenül vagy közvetve a saját cellájára hivatkozik vissza, ami egy ciklust hoz létre, ami megzavarhatja az Excel számítási motorját. De ne aggódj! Az Aspose.Cells for .NET segítségével programozottan észlelheted ezeket a bosszantó körkörös hivatkozásokat, biztosítva, hogy a táblázataid működőképesek és pontosak maradjanak. Ebben az útmutatóban lépésről lépésre végigvezetünk a folyamaton, így az gyerekjáték.
 ## Előfeltételek
-Mielőtt belemerülnénk a körkörös hivatkozások felderítésének aprólékos dolgaiba, győződjön meg arról, hogy rendelkezik mindennel, ami az induláshoz szükséges:
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen. Ez lesz az Ön fejlesztési környezete.
-2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer kompatibilis verzióját használja (legalább .NET-keretrendszer 4.0).
-3.  Aspose.Cells Library: rendelkeznie kell az Aspose.Cells könyvtárral. Letöltheti a[Aspose honlapja](https://releases.aspose.com/cells/net/).
-4. Alapvető C# ismerete: A C# programozás ismerete előnyt jelent, mivel ezen a nyelven fogunk kódot írni.
-5. Excel-fájl: Készítsen egy Excel-fájlt, amely körkörös hivatkozásokat tartalmaz teszteléshez. Létrehozhat egy egyszerűt, vagy letölthet egy mintát.
-Most, hogy megvannak az előfeltételeink, térjünk át a szórakoztató részre!
+Mielőtt belemerülnénk a körkörös hivatkozások észlelésének részleteibe, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szükségünk van:
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Ez lesz a fejlesztői környezete.
+2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer kompatibilis verzióját használja (legalább a .NET-keretrendszer 4.0-s verzióját).
+3. Aspose.Cells könyvtár: Szükséged lesz az Aspose.Cells könyvtárra. Letöltheted innen: [Aspose weboldal](https://releases.aspose.com/cells/net/).
+4. C# alapismeretek: A C# programozásban való jártasság előnyös, mivel ebben a nyelvben fogunk kódot írni.
+5. Excel fájl: Készítsen elő egy Excel fájlt, amely körhivatkozásokat tartalmaz teszteléshez. Létrehozhat egy egyszerűt, vagy letölthet egy mintát.
+Most, hogy megvannak az előfeltételeink, térjünk át a mókás részre!
 ## Csomagok importálása
-A kódolás megkezdése előtt importálnia kell a szükséges csomagokat. Íme, hogyan kell csinálni:
-### Hozzon létre egy új projektet
-- Nyissa meg a Visual Studio-t, és hozzon létre egy új C# Console Application projektet.
-### Adja hozzá az Aspose.Cells Reference hivatkozást
-- Kattintson a jobb gombbal a projektre a Solution Explorerben.
-- Válassza a "NuGet-csomagok kezelése" lehetőséget.
-- Keresse meg az „Aspose.Cells” kifejezést, és telepítse a legújabb verziót.
-### Importálja a szükséges névtereket
- A te tetején`Program.cs` fájlt, importálja a szükséges névtereket:
+Mielőtt elkezdhetnéd a kódolást, importálnod kell a szükséges csomagokat. Így teheted meg:
+### Új projekt létrehozása
+- Nyisd meg a Visual Studiot, és hozz létre egy új C# konzolalkalmazás-projektet.
+### Aspose.Cells hivatkozás hozzáadása
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+- Válassza a „NuGet-csomagok kezelése” lehetőséget.
+- Keresd meg az „Aspose.Cells” fájlt, és telepítsd a legújabb verziót.
+### Szükséges névterek importálása
+A te tetején `Program.cs` fájlban importálja a szükséges névtereket:
 ```csharp
 using System;
 using System.Collections;
@@ -41,55 +43,55 @@ using System.Linq;
 using System.Text;
 ```
 
-Most, hogy mindent beállítottunk, merüljünk el a kódban, hogy felfedezzük a körkörös hivatkozásokat egy Excel-fájlban.
-## 1. lépés: Határozza meg a beviteli könyvtárat
-Először is meg kell adnia azt a könyvtárat, ahol az Excel fájl található. Itt töltheti be az Excel fájlt.
+Most, hogy mindent beállítottunk, nézzük meg a kódot, amely körkörös hivatkozásokat észlel egy Excel-fájlban.
+## 1. lépés: A bemeneti könyvtár meghatározása
+Először meg kell adnod azt a könyvtárat, ahol az Excel fájlod található. Ide fogod betölteni az Excel fájlt.
 ```csharp
-// Bemeneti könyvtár
+// Beviteli könyvtár
 string sourceDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
-## 2. lépés: Töltse be a munkafüzetet a LoadOptions segítségével
-Ezután töltse be az Excel-munkafüzetet. Itt kezdődik a varázslat!
+Csere `"Your Document Directory"` az Excel-fájl tényleges elérési útjával.
+## 2. lépés: A munkafüzet betöltése a LoadOptions paranccsal
+Ezután betöltöd az Excel munkafüzetedet. Itt kezdődik a varázslat!
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 var objWB = new Aspose.Cells.Workbook(sourceDir + "Circular Formulas.xls", loadOptions);
 ```
- Itt egy új példányt hozunk létre`LoadOptions` és a munkafüzet betöltése a megadott elérési útról. Győződjön meg róla, hogy az Excel fájl neve megegyezik!
-## 3. lépés: Engedélyezze az iterációs beállításokat
-A körkörös hivatkozások engedélyezéséhez engedélyeznie kell az iterációs beállításokat a munkafüzetben.
+Itt létrehozunk egy új példányt a következőből: `LoadOptions` és a munkafüzet betöltése a megadott elérési útról. Győződjön meg róla, hogy az Excel fájlneve megegyezik!
+## 3. lépés: Iterációs beállítások engedélyezése
+körkörös hivatkozások engedélyezéséhez engedélyeznie kell az iterációs beállításokat a munkafüzetben.
 ```csharp
 objWB.Settings.Iteration = true;
 ```
 Ez arra utasítja az Aspose.Cells-t, hogy engedélyezze a körkörös hivatkozásokat a számítás során.
 ## 4. lépés: Számítási beállítások és kör alakú monitor létrehozása
-Most hozzuk létre a számítási lehetőségeket és az egyéni kör alakú monitorunkat.
+Most hozzuk létre a számítási beállításokat és az egyéni kör alakú monitorunkat.
 ```csharp
 CalculationOptions copts = new CalculationOptions();
 CircularMonitor cm = new CircularMonitor();
 copts.CalculationMonitor = cm;
 ```
- Itt egy példányt hozunk létre`CalculationOptions` és egy szokás`CircularMonitor`Ez a monitor segít nyomon követni a számítások során talált körkörös hivatkozásokat.
+Itt létrehozunk egy példányt a következőből: `CalculationOptions` és egy szokás `CircularMonitor`Ez a monitor segít nyomon követni a számítások során talált körhivatkozásokat.
 ## 5. lépés: Számítsa ki a képleteket
-Most itt az ideje, hogy kiszámítsa a képleteket a munkafüzetében.
+Most itt az ideje, hogy kiszámítsd a képleteket a munkafüzetedben.
 ```csharp
 objWB.CalculateFormula(copts);
 ```
-Ez a sor hajtja végre a számítást és ellenőrzi a körkörös hivatkozásokat.
-## 6. lépés: Számolja össze a körleveleket
-A számítás után megszámolhatja, hogy hány körhivatkozást találtak.
+Ez a sor végrehajtja a számítást és ellenőrzi a körhivatkozásokat.
+## 6. lépés: Kör alakú hivatkozások számlálása
+A számítás után megszámolhatod, hogy hány körhivatkozást találtál.
 ```csharp
 long lngCircularRef = cm.circulars.Count;
 Console.WriteLine("Circular References found - " + lngCircularRef);
 ```
-Ez kiírja az Excel-fájlban észlelt körkörös hivatkozások számát.
+Ez kimenetileg megjeleníti az Excel-fájlban észlelt körhivatkozások számát.
 ## 7. lépés: Eredmények megjelenítése
-Végül jelenítsük meg az eredményeket, és erősítsük meg, hogy a módszerünk sikeresen végrehajtódott.
+Végül jelenítsük meg az eredményeket, és ellenőrizzük, hogy a metódusunk sikeresen végrehajtódott-e.
 ```csharp
 Console.WriteLine("DetectCircularReference executed successfully.\r\n");
 ```
-## 8. lépés: Valósítsa meg a CircularMonitor osztályt
- A folyamat befejezéséhez végre kell hajtania a`CircularMonitor` osztály. Ez az osztály örökölni fog`AbstractCalculationMonitor` és kezeli a körkörös hivatkozások észlelését.
+## 8. lépés: A CircularMonitor osztály megvalósítása
+A folyamat befejezéséhez végre kell hajtania a következőt: `CircularMonitor` osztály. Ez az osztály örökölni fog ettől `AbstractCalculationMonitor` és kezeli a körkörös referenciák észlelését.
 ```csharp
 public class CircularMonitor : AbstractCalculationMonitor
 {
@@ -109,23 +111,25 @@ public class CircularMonitor : AbstractCalculationMonitor
     }
 }
 ```
-Ez az osztály rögzíti az egyes talált körkörös hivatkozások részleteit, beleértve a munkalap nevét és a cella indexét.
+Ez az osztály rögzíti az egyes talált körhivatkozások részleteit, beleértve a munkalap nevét és a cellaindexet.
 ## Következtetés
-körkörös hivatkozások észlelése az Excelben az Aspose.Cells for .NET használatával egyszerű folyamat, miután kezelhető lépésekre bontja. Az útmutató követésével könnyedén azonosíthatja és kezelheti a körkörös hivatkozásokat a táblázatokban, így biztosítva, hogy számításai pontosak és megbízhatóak maradjanak. Akár tapasztalt fejlesztő, akár csak kezdő, az Aspose.Cells hatékony eszközöket kínál az Excel manipulációs képességeinek javításához. 
+A körkörös hivatkozások észlelése Excelben az Aspose.Cells for .NET segítségével egy egyszerű folyamat, ha könnyen kezelhető lépésekre bontjuk. Ezt az útmutatót követve könnyedén azonosíthatja és kezelheti a körkörös hivatkozásokat a táblázataiban, biztosítva, hogy a számításai pontosak és megbízhatóak maradjanak. Akár tapasztalt fejlesztő, akár most kezd, az Aspose.Cells hatékony eszközöket kínál az Excel-manipulációs képességek fejlesztéséhez. 
 ## GYIK
-### Mi az a körkörös hivatkozás az Excelben?
-A körkörös hivatkozás akkor fordul elő, amikor egy képlet a saját cellájára hivatkozik, ami végtelen ciklust okoz a számításokban.
-### Hogyan ismerhetem fel programozottan a körkörös hivatkozásokat?
-A .NET Aspose.Cells könyvtárát használhatja a körkörös hivatkozások programozott észlelésére egy egyéni számításfigyelő megvalósításával.
-### Mik az Aspose.Cells használatának előfeltételei?
-Telepíteni kell a Visual Studio-t, a .NET-keretrendszert és az Aspose.Cells könyvtárat.
-### Használhatom ingyenesen az Aspose.Cells-t?
-Igen, az Aspose.Cells ingyenes próbaverziót kínál, amellyel felfedezheti funkcióit.
-### Hol találhatok több információt az Aspose.Cells-ről?
- Meglátogathatja a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) részletes információkért és példákért.
+### Mi az a körhivatkozás az Excelben?
+Körhivatkozásról akkor beszélünk, amikor egy képlet a saját cellájára hivatkozik vissza, ami végtelen ciklust eredményez a számításokban.
+### Hogyan tudom programozottan felismerni a körkörös hivatkozásokat?
+A .NET Aspose.Cells könyvtárával programozottan észlelheti a körkörös hivatkozásokat egy egyéni számítási monitor megvalósításával.
+### Milyen előfeltételei vannak az Aspose.Cells használatának?
+Telepítenie kell a Visual Studio-t, a .NET-keretrendszert és az Aspose.Cells könyvtárat.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, az Aspose.Cells ingyenes próbaverziót kínál, amellyel felfedezheti a funkcióit.
+### Hol találok több információt az Aspose.Cells-ről?
+Meglátogathatod a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) részletes információkért és példákért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

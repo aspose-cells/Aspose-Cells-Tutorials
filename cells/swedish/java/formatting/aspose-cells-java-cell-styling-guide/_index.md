@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -105,7 +107,7 @@ Det här avsnittet visar hur man formaterar en cell med hjälp av olika formater
                   com.aspose.cells.Color.getRed());
    ```
 3. **Använd stil på cell**
-   Tilldela den konfigurerade stilen tillbaka till cellen:
+   Tilldela tillbaka den konfigurerade stilen till cellen:
    ```java
    cell.setStyle(style);
    ```
@@ -142,6 +144,9 @@ Redo att börja utforma dina Excel-ark? Testa det och utforska möjligheterna!
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

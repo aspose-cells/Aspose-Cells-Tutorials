@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Sajátítsd el a munkafüzetek kezelését Java nyelven az Aspose.Cells segítségével. Tanuld meg az Excel-fájlok zökkenőmentes elérését, módosítását és mentését."
+"description": "Sajátítsd el a munkafüzetek kezelését Java nyelven az Aspose.Cells segítségével. Tanuld meg az Excel fájlok zökkenőmentes elérését, módosítását és mentését."
 "title": "Java Excel munkafüzet-manipuláció Aspose.Cells használatával – Átfogó útmutató"
 "url": "/hu/java/workbook-operations/java-aspose-cells-workbook-manipulation/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Készen állsz a mélyebb elmélyülésre? Próbáld meg ezeket a funkciókat be
 Indulj el az Aspose.Cells utadra, és fedezd fel az Excel automatizálásában rejlő teljes lehetőségeket Java nyelven!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

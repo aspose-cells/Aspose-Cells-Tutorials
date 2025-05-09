@@ -1,51 +1,55 @@
 ---
-title: Cambiare la direzione di etichetta di tabella in Excel utilizzando Aspose.Cells 
-weight: 7700
-limit: 
-description: Impara come cambiare la direzione delle etichette di cartone di marchio in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET con un semplice esempio di codice.
-keywords: [Aspose.Cells for .NET, change tick label direction, Excel chart labels, .NET Excel library, chart text direction]
-url: /it/net/charts/change-tick-label-direction/
+"description": "Scopri come modificare la direzione delle etichette di graduazione di un grafico in un foglio di lavoro di Excel utilizzando Aspose.Cells per .NET con un semplice esempio di codice."
+"title": "Modificare la direzione delle etichette dei segni di spunta del grafico in Excel utilizzando Aspose.Cells"
+"url": "/it/net/charts/change-tick-label-direction/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cambiare la direzione di etichetta di tabella in Excel utilizzando Aspose.Cells 
+# Modificare la direzione delle etichette dei segni di spunta del grafico in Excel utilizzando Aspose.Cells 
 
-Questo esempio dimostra come modificare la direzione delle etichette di tag di grafico in un foglio di lavoro Excel utilizzando Aspose.Cells per .NET. Aggiustando la direzione del testo delle etichette di tag di asse di categoria, è possibile migliorare la leggibilità dei dati del grafico. Il codice carica un libro di lavoro esistente di Excel, accede alla prima foglia di lavoro, riprende il grafico, imposta la direzione dell'etichetta di tag in orizzontale, e quindi salva il libro di lavoro modificato. Questo approccio garantisce un controllo preciso sull'orientamento delle etichette di grafico nelle applicazioni .NET. 
+Questo esempio illustra come modificare la direzione delle etichette di graduazione dei grafici in un foglio di lavoro di Excel utilizzando Aspose.Cells per .NET. Modificando la direzione del testo delle etichette di graduazione degli assi delle categorie, è possibile migliorare la leggibilità dei dati del grafico. Il codice carica una cartella di lavoro di Excel esistente, accede al primo foglio di lavoro, recupera il grafico, imposta la direzione delle etichette di graduazione su orizzontale e quindi salva la cartella di lavoro modificata. Questo approccio garantisce un controllo preciso sull'orientamento delle etichette dei grafici nelle applicazioni .NET. 
  
 ---
 
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Instruzioni di installazione  
-Per eseguire questo esempio, seguite questi passaggi:  
 
-1. Installare Aspose.Cells per .NET  
-   * Scarica da [Aspose.Cells per .NET](https://releases.aspose.com/cells/net/)  
-   * O installare tramite NuGet:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Istruzioni per l'installazione  
+Per eseguire questo esempio, segui questi passaggi:  
+
+1. Installa Aspose.Cells per .NET  
+   - Scarica da [Aspose.Cells per .NET](https://releases.aspose.com/cells/net/)  
+   - Oppure installa tramite NuGet:  
      ```shell
      Install-Package Aspose.Cells
      ```  
 
 2. Imposta il tuo progetto  
-   * Creare un nuovo progetto .NET.  
-   * Aggiungere un riferimento a Aspose.Cells.dll.  
+   - Crea un nuovo progetto .NET.  
+   - Aggiungere un riferimento a Aspose.Cells.dll.  
 
-3. Eseguire il codice  
-   * Rimpiazzare`"La tua directory di documenti"`con il percorso del file.  
-   * Eseguire il programma per aggiornare la direzione di etichetta di tic nella tabella.  
+3. Esegui il codice  
+   - Sostituire `"Your Document Directory"` con il percorso effettivo del file.  
+   - Eseguire il programma per aggiornare la direzione dell'etichetta di spunta nel grafico.  
 
 ## Vedi anche
-Per una prova gratuita, visita [Assicuratevi di una prova gratuita](https://releases.aspose.com/)\- Non è vero .  
-Per acquistare una licenza, vai a [Pagina di acquisto](https://purchase.aspose.com/buy)\- Non è vero .  
-Per la documentazione completa, visitate [Aspose.Cells per la documentazione .NET](https://docs.aspose.com/cells/net/)\- Non è vero .  
-Per esplorare l'intero riferimento API, controlla [Aspose.Cells per il riferimento .NET API](https://reference.aspose.com/cells/net/)\- Non è vero .
+Per una prova gratuita, visita [Prova gratuita di Aspose](https://releases.aspose.com/).  
+Per acquistare una licenza, vai a [Pagina di acquisto Aspose](https://purchase.aspose.com/buy).  
+Per la documentazione completa, visitare [Documentazione di Aspose.Cells per .NET](https://docs.aspose.com/cells/net/).  
+Per esplorare il riferimento API completo, consulta [Riferimento API Aspose.Cells per .NET](https://reference.aspose.com/cells/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

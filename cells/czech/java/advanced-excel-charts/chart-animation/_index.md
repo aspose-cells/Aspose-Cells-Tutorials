@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animace grafu
@@ -16,7 +18,7 @@
 
 ## Úvod do tvorby animace grafu
 
-V tomto tutoriálu se podíváme na to, jak vytvářet dynamické animace grafů pomocí rozhraní Aspose.Cells pro Java API. Animace grafů mohou být účinným způsobem vizualizace trendů a změn dat v čase, díky čemuž budou vaše zprávy a prezentace poutavější a informativnější. Pro vaše pohodlí vám poskytneme podrobný návod a kompletní příklady zdrojového kódu.
+tomto tutoriálu se podíváme na to, jak vytvářet dynamické animace grafů pomocí rozhraní Aspose.Cells pro Java API. Animace grafů mohou být účinným způsobem vizualizace trendů a změn dat v čase, díky čemuž budou vaše zprávy a prezentace poutavější a informativnější. Pro vaše pohodlí vám poskytneme podrobný návod a kompletní příklady zdrojového kódu.
 
 ## Předpoklady
 
@@ -82,7 +84,7 @@ workbook.save("output.xlsx");
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili, jak vytvářet animace grafů pomocí rozhraní Aspose.Cells pro Java API. Probrali jsme základní kroky, včetně importu knihovny, načtení nebo vytvoření sešitu aplikace Excel, přístupu k grafu, konfigurace nastavení animací a uložení sešitu. Začleněním animací grafů do vašich sestav a prezentací můžete vdechnout život svým datům a efektivně sdělit své sdělení.
+tomto tutoriálu jsme se naučili, jak vytvářet animace grafů pomocí rozhraní Aspose.Cells pro Java API. Probrali jsme základní kroky, včetně importu knihovny, načtení nebo vytvoření sešitu aplikace Excel, přístupu k grafu, konfigurace nastavení animací a uložení sešitu. Začleněním animací grafů do vašich sestav a prezentací můžete vdechnout život svým datům a efektivně sdělit své sdělení.
 
 ## Často kladené otázky
 
@@ -101,6 +103,7 @@ Zpoždění animace určuje časový interval před spuštěním animace grafu. 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

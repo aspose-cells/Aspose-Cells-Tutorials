@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ A5: Ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để �
 - **Giấy phép tạm thời**: Bảo mật quyền truy cập tạm thời để thử nghiệm toàn diện tại [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

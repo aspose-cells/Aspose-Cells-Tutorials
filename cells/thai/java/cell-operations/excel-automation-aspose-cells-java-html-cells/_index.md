@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ public class ExcelAutomation {
 ```java
 import com.aspose.cells.Workbook;
 
-// เริ่มต้นสมุดงาน
+// การเริ่มต้นสมุดงาน
 Workbook workbook = new Workbook();
 ```
 
@@ -194,6 +196,9 @@ workbook.save(outDir + "/DisplayBullets_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

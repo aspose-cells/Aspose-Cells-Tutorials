@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dosya Erişimini Denetleme
@@ -93,7 +95,7 @@ public class ExcelFileManager {
 
 ## Adım 4: Uygulamanızda Denetim Kaydedicisini Kullanma
 
-Artık bizim `FileAccessLogger` Ve `ExcelFileManager` sınıfları, uygulamanızda aşağıdaki şekilde kullanabilirsiniz:
+Artık bizim de `FileAccessLogger` Ve `ExcelFileManager` sınıfları, uygulamanızda aşağıdaki şekilde kullanabilirsiniz:
 
 ```java
 public class Main {
@@ -137,6 +139,7 @@ Uzatabilirsiniz `ExcelFileManager` Uygulamanızın gereksinimlerine bağlı olar
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

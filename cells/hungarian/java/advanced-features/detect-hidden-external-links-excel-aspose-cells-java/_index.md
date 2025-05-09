@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ Gyakori problémák lehetnek a helytelen fájlelérési utak vagy a hiányzó f�
 ## Gyakorlati alkalmazások
 
 A rejtett külső linkek észlelése számos esetben értékes lehet:
-1. **Adatellenőrzés:** Biztosítani kell, hogy minden adatforrás átláthatóan összekapcsolódjon a pénzügyi jelentéseken belül.
+1. **Adatellenőrzés:** Annak biztosítása, hogy minden adatforrás átláthatóan összekapcsolódjon a pénzügyi jelentéseken belül.
 2. **Megfelelőségi ellenőrzések:** Annak ellenőrzése, hogy a szabályozási dokumentumokban nincsenek-e jogosulatlan vagy rejtett adatforrások.
 3. **Integráció:** Az Excel-munkafüzetek zökkenőmentes integrálása más rendszerekkel a külső hivatkozások integritásának ellenőrzésével.
 
@@ -193,6 +195,9 @@ Igen, a folyamatot Java ciklusok vagy kötegelt szkriptek segítségével szkrip
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

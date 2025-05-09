@@ -1,14 +1,16 @@
 ---
-title: Excel Kağıt Boyutunu Yönet
-linktitle: Excel Kağıt Boyutunu Yönet
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel kağıt boyutlarını yönetmeyi öğrenin. Bu kılavuz, sorunsuz entegrasyon için adım adım talimatlar ve örnekler sunar.
-weight: 70
-url: /tr/net/excel-page-setup/manage-excel-paper-size/
+"description": "Aspose.Cells for .NET kullanarak Excel kağıt boyutlarını yönetmeyi öğrenin. Bu kılavuz, sorunsuz entegrasyon için adım adım talimatlar ve örnekler sunar."
+"linktitle": "Excel Kağıt Boyutunu Yönet"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Kağıt Boyutunu Yönet"
+"url": "/tr/net/excel-page-setup/manage-excel-paper-size/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Kağıt Boyutunu Yönet
@@ -23,7 +25,7 @@ Excel kağıt boyutlarını yönetmenin teknik ayrıntılarına dalmadan önce, 
 
 1. C# Temel Anlayışı: C# programlamaya aşinalık, Aspose.Cells'i projelerinize entegre etme sürecini önemli ölçüde kolaylaştıracaktır.
 2. Visual Studio Kurulu Olmalıdır: C# kodlarını yazmak ve çalıştırmak için makinenizde Visual Studio'nun kurulu olduğundan emin olun.
-3. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells'i edinmeniz gerekecek.[buradan indirin](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells for .NET Library: Aspose.Cells'i edinmeniz gerekecek. [buradan indirin](https://releases.aspose.com/cells/net/).
 4. NuGet Paket Yöneticisi: Aspose.Cells'i kolayca kurabileceğiniz için NuGet Paket Yöneticisine erişiminiz olduğundan emin olun.
 
 Bu ön koşulları aklımızda tutarak başlayalım!
@@ -64,17 +66,17 @@ Bu adımda, değiştirilmiş Excel dosyasını depolamak istediğiniz dizini aya
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` dosyayı kaydetmek istediğiniz sisteminizdeki gerçek yol ile. Örneğin, şöyle bir şey olabilir`C:\Documents\`.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` dosyayı kaydetmek istediğiniz sisteminizdeki gerçek yol ile. Örneğin, şöyle bir şey olabilir `C:\Documents\`.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Sonra, bir örnek oluşturacaksınız`Workbook` Excel dosyanızı temsil eden nesne. İşte nasıl:
+Sonra, bir örnek oluşturacaksınız `Workbook` Excel dosyanızı temsil eden nesne. İşte nasıl:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Bu satır bellekte yeni bir çalışma kitabı oluşturur. Mevcut bir dosyayla çalışıyorsanız, dosya yolunu şuraya geçirebilirsiniz:`Workbook` inşaatçı.
+Bu satır bellekte yeni bir çalışma kitabı oluşturur. Mevcut bir dosyayla çalışıyorsanız, dosya yolunu şuraya geçirebilirsiniz: `Workbook` inşaatçı.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -94,7 +96,7 @@ Burada, değişiklik yapmak için ilk çalışma kağıdını (indeks 0) alıyor
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 ```
 
- Bu satır belirtilen çalışma sayfası için kağıt boyutunu A4 olarak ayarlar. Kolayca değiştirebilirsiniz`PaperA4` diğer kağıt boyutları da mevcuttur`PaperSizeType` sayım, örneğin`PaperLetter` veya`PaperA3`.
+Bu satır belirtilen çalışma sayfası için kağıt boyutunu A4 olarak ayarlar. Kolayca değiştirebilirsiniz `PaperA4` diğer kağıt boyutları da mevcuttur `PaperSizeType` sayım, örneğin `PaperLetter` veya `PaperA3`.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
@@ -104,7 +106,7 @@ Kağıt boyutunu belirledikten sonra, değişikliklerin bir dosyaya yazılması 
 workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ```
 
- Bu satır, değiştirilen çalışma kitabınızı belirtilen dizine kaydeder. Buradaki çıktı dosyasının adı`ManagePaperSize_out.xls`, ancak ihtiyaçlarınıza göre özelleştirmekten çekinmeyin.
+Bu satır, değiştirilen çalışma kitabınızı belirtilen dizine kaydeder. Buradaki çıktı dosyasının adı `ManagePaperSize_out.xls`ancak ihtiyaçlarınıza göre özelleştirmekten çekinmeyin.
 
 ## Çözüm
 
@@ -113,22 +115,24 @@ Excel sayfalarındaki kağıt boyutlarını yönetmek, Aspose.Cells for .NET ile
 ## SSS
 
 ### Aspose.Cells'i kullanarak hangi farklı kağıt boyutlarını ayarlayabilirim?
- Aspose.Cells, A3, A4, A5, Letter ve daha fazlası dahil olmak üzere çeşitli kağıt boyutlarını destekler.`PaperSizeType` belgelerde numaralandırma.
+Aspose.Cells, A3, A4, A5, Letter ve daha fazlası dahil olmak üzere çeşitli kağıt boyutlarını destekler. `PaperSizeType` belgelerde numaralandırma.
 
 ### Birden fazla çalışma sayfasının kağıt boyutunu aynı anda ayarlayabilir miyim?
 Evet, bir döngü içerisinde birden fazla çalışma sayfasına erişebilir ve her birine aynı kağıt boyutu ayarlarını uygulayabilirsiniz.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ticari bir kütüphanedir; ancak ücretsiz deneme sunar. Bir talepte bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini değerlendirmek için.
+Aspose.Cells ticari bir kütüphanedir; ancak ücretsiz deneme sunar. Bir talepte bulunabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm özelliklerini değerlendirmek için.
 
 ### Aspose.Cells ile çalışırken istisnaları nasıl ele alırım?
 Çalışma kitabı düzenlemesi sırasında oluşabilecek herhangi bir istisnayı ele almak için kodunuzu bir try-catch bloğuna sarabilirsiniz.
 
 ### Aspose.Cells için ek kaynakları ve desteği nerede bulabilirim?
- Daha fazla bilgiyi şurada bulabilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/) veya ziyaret edin[destek forumu](https://forum.aspose.com/c/cells/9).
+Daha fazla bilgiyi şurada bulabilirsiniz: [belgeleme](https://reference.aspose.com/cells/net/) veya ziyaret edin [destek forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

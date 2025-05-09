@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ LoadOptions loadOptions = new LoadOptions(LoadFormat.TSV);
 // Создайте объект Workbook и откройте файл по указанному пути.
 Workbook workbook = new Workbook(sourceDir + "SampleTSVFile.tsv", loadOptions);
 ```
-**Объяснение:** Этот шаг инициализирует `Workbook` с вашими данными TSV, подготавливая их к манипуляциям.
+**Объяснение:** Этот шаг инициализирует `Workbook` с вашими данными TSV, делая их готовыми к манипуляциям.
 
 #### Шаг 3: Доступ к данным рабочего листа и ячейки
 
@@ -158,6 +160,9 @@ System.out.println("Cell Name: " + cell.getName() + " Value: " + cell.getStringV
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

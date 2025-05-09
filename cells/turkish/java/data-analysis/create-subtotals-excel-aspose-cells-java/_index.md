@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ C: Evet, XLS ve XLSX dahil olmak üzere geniş bir Excel formatını destekler.
 Bu kılavuzu takip ederek, artık Aspose.Cells kullanarak Java uygulamalarınıza alt toplam işlevlerini dahil etmek için iyi bir donanıma sahip olmalısınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

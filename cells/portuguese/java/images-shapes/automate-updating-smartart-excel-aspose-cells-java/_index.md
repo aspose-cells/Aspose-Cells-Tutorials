@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,9 +174,12 @@ A5: Visita [Documentação do Aspose](https://reference.aspose.com/cells/java/) 
 - **Baixar Aspose.Cells**: Acesse os últimos lançamentos de [aqui](https://releases.aspose.com/cells/java/).
 - **Licença de compra**: Considere comprar uma licença para acesso total aos recursos.
 - **Teste grátis**: Teste o Aspose.Cells com uma avaliação gratuita disponível no site deles.
-- **Fóruns de suporte**: Participe de discussões e busque ajuda em [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9).
+- **Fóruns de suporte**: Participe de discussões e procure ajuda em [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

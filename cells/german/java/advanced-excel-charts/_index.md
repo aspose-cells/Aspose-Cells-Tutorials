@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erweiterte Excel-Diagramme
@@ -47,9 +49,11 @@ Erfahren Sie, wie Sie mit Aspose.Cells für Java beeindruckende Diagrammanimatio
 Erfahren Sie, wie Sie mit Aspose.Cells für Java beeindruckende Wasserfalldiagramme erstellen. Schritt-für-Schritt-Anleitung mit Quellcode für effektive Datenvisualisierung.
 ### [Diagramm-Interaktivität](./chart-interactivity/)
 Erfahren Sie, wie Sie mit Aspose.Cells für Java interaktive Diagramme erstellen. Verbessern Sie Ihre Datenvisualisierung mit Interaktivität.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

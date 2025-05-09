@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Dowiedz się, jak bezproblemowo otwierać starsze pliki Microsoft Excel przy użyciu potężnej biblioteki Aspose.Cells w Javie. Poznaj konfigurację, użytkowanie i rzeczywiste zastosowania."
+"description": "Dowiedz się, jak bezproblemowo otwierać starsze pliki Microsoft Excel przy użyciu potężnej biblioteki Aspose.Cells w Javie. Poznaj konfigurację, użytkowanie i rzeczywiste aplikacje."
 "title": "Otwieranie plików Excel 97/2003 w Javie za pomocą Aspose.Cells&#58; Kompleksowy przewodnik"
 "url": "/pl/java/workbook-operations/open-excel-97-2003-files-java-aspose-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Na koniec będziesz w stanie skutecznie zintegrować to rozwiązanie ze swoimi p
 
 Przed rozpoczęciem upewnij się, że masz:
 - **Biblioteki i zależności:** Zainstaluj Aspose.Cells dla Javy. Do zarządzania zależnościami zaleca się Maven lub Gradle.
-- **Konfiguracja środowiska:** Środowisko programistyczne z zainstalowanym pakietem JDK.
+- **Konfiguracja środowiska:** Środowisko programistyczne z zainstalowanym JDK.
 - **Baza wiedzy:** Podstawowa znajomość programowania w języku Java oraz plików konfiguracyjnych, takich jak `pom.xml` (Maven) lub `build.gradle` (Gradle).
 
 ## Konfigurowanie Aspose.Cells dla Java
@@ -113,7 +115,7 @@ Aspose.Cells można zintegrować z różnymi aplikacjami:
 
 ## Rozważania dotyczące wydajności
 Podczas pracy z dużymi plikami programu Excel należy wziąć pod uwagę następujące wskazówki:
-- **Zarządzanie pamięcią:** Pozbywaj się przedmiotów w odpowiedni sposób po ich użyciu, aby efektywnie zarządzać pamięcią.
+- **Zarządzanie pamięcią:** Pozbywaj się przedmiotów w odpowiedni sposób po ich użyciu, aby skutecznie zarządzać pamięcią.
 - **Obsługa plików:** Zamknij strumienie plików natychmiast po zakończeniu operacji.
 - **Techniki optymalizacji:** Użyj ustawień Aspose.Cells do efektywnej obsługi dużych zbiorów danych.
 
@@ -146,6 +148,9 @@ A: Odwiedź oficjalną stronę [Dokumentacja Aspose](https://reference.aspose.co
 Zacznij zarządzać plikami Excel w Javie za pomocą Aspose.Cells już dziś!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

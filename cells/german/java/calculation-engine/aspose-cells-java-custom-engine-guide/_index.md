@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -233,6 +235,9 @@ Bereit, tiefer einzutauchen? Versuchen Sie noch heute, diese Lösungen in Ihren 
 Mit dieser Anleitung können Sie Aspose.Cells für Java nutzen, um leistungsstarke, benutzerdefinierte Berechnungs-Engines zu erstellen, die Ihren individuellen Geschäftsanforderungen entsprechen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

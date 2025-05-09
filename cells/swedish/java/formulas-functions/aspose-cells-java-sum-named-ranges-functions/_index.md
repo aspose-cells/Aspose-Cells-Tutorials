@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Den här handledningen visade hur man använder namngivna områden med SUM-funkt
 Den här handledningen ger dig en omfattande förståelse för hur du implementerar namngivna områden och summafunktioner med Aspose.Cells för Java. Testa den för att utnyttja den fulla potentialen hos Excel-automation i dina applikationer!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

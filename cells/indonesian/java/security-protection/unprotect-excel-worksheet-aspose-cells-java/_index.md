@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Bosan berurusan dengan file Excel yang dilindungi dan menghalangi modifikasi? Baik Anda memperbarui file bersama atau perlu mengubah beberapa data, mengelola pengaturan perlindungan bisa jadi merepotkan. **Aspose.Cells untuk Java** menawarkan solusi yang mudah untuk membuka proteksi lembar kerja Excel dan terintegrasi secara efisien ke dalam aplikasi Anda.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk memanipulasi file Excel.
 - Proses langkah demi langkah untuk menghapus proteksi lembar kerja.
@@ -24,18 +26,18 @@ Bosan berurusan dengan file Excel yang dilindungi dan menghalangi modifikasi? Ba
 
 Mari mulai menyiapkan lingkungan Anda dan memulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 Anda memerlukan Aspose.Cells untuk Java. Versi terbaru saat artikel ini ditulis adalah 25.3. Pastikan kompatibilitas dengan pengaturan proyek Anda.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi.
 - **IDE:** Gunakan IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Kemampuan dalam pemrograman Java dan pemahaman dasar tentang manipulasi file Excel akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -62,13 +64,13 @@ Sertakan ini di dalam `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis:** Unduh lisensi sementara untuk menjelajahi fitur Aspose.Cells tanpa batasan.
-2. **Lisensi Sementara:** Gunakan ini untuk jangka waktu terbatas untuk mengevaluasi kemampuan penuhnya.
-3. **Pembelian:** Untuk penggunaan jangka panjang, beli langganan dari [Situs web Aspose](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió:** Unduh lisensi sementara untuk menjelajahi fitur Aspose.Cells tanpa batasan.
+2. **Ideiglenes engedély:** Gunakan ini untuk jangka waktu terbatas untuk mengevaluasi kemampuan penuhnya.
+3. **Vásárlás:** Untuk penggunaan jangka panjang, beli langganan dari [Aspose weboldal](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Mulailah dengan menyiapkan lingkungan Anda:
 
@@ -81,7 +83,7 @@ Inisialisasi perpustakaan di aplikasi Anda:
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang, mari terapkan fungsi untuk membuka proteksi lembar kerja Excel.
 
@@ -91,7 +93,7 @@ Fitur ini memungkinkan Anda menghapus proteksi dari lembar kerja yang sebelumnya
 
 #### Langkah 1: Buat Instansiasi Objek Buku Kerja
 
-Pertama, buatlah `Workbook` objek dan memuat file Excel yang dilindungi:
+Először is, hozz létre egy `Workbook` objek dan memuat file Excel yang dilindungi:
 
 ```java
 String dataDir = Utils.getSharedDataDir(UnprotectingSimplyProtectedWorksheet.class) + "Worksheets/";
@@ -118,7 +120,7 @@ protection.setAllowEditingObject(false);
 protection.setAllowEditingScenario(false);
 ```
 
-#### Langkah 4: Buka Proteksi Lembar Kerja
+#### 4. lépés: A munkalap védelmének feloldása
 
 Hapus perlindungan menggunakan `unprotect()` metode. Langkah ini tidak memerlukan parameter jika tidak ada kata sandi yang ditetapkan:
 
@@ -134,37 +136,37 @@ Terakhir, simpan perubahan Anda ke file baru:
 workbook.save(dataDir + "USPWorksheet_out.xls");
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - **Pastikan Kompatibilitas:** Verifikasi bahwa versi Aspose.Cells mendukung format Excel yang Anda gunakan.
 - **Periksa Kata Sandi:** Jika lembar kerja dilindungi kata sandi, pastikan Anda memiliki kata sandi yang benar untuk membuka proteksinya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pelaporan Data:** Perbarui data secara otomatis dalam laporan bersama tanpa campur tangan manual.
-2. **Proyek Kolaboratif:** Memungkinkan anggota tim mengedit dan berkontribusi pada lembar kerja proyek dengan mudah.
+1. **Adatszolgáltatás:** Perbarui data secara otomatis dalam laporan bersama tanpa campur tangan manual.
+2. **Együttműködési projektek:** Memungkinkan anggota tim mengedit dan berkontribusi pada lembar kerja proyek dengan mudah.
 3. **Pemrosesan Data Otomatis:** Integrasikan dengan sistem lain untuk ekstraksi dan pemrosesan data otomatis.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Mengoptimalkan Penggunaan Sumber Daya:** Muat hanya lembar atau bagian file besar yang diperlukan, jika berlaku.
-- **Manajemen Memori:** Gunakan praktik manajemen memori Java, seperti membersihkan objek yang tidak digunakan untuk mengosongkan sumber daya.
+- **Erőforrás-felhasználás optimalizálása:** Muat hanya lembar atau bagian file besar yang diperlukan, jika berlaku.
+- **Memóriakezelés:** Gunakan praktik manajemen memori Java, seperti membersihkan objek yang tidak digunakan untuk mengosongkan sumber daya.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, Anda telah mempelajari cara membuka proteksi lembar kerja Excel menggunakan Aspose.Cells untuk Java. Alat canggih ini menyederhanakan proses pengelolaan proteksi lembar kerja, menjadikan penanganan data Anda lebih efisien dan fleksibel.
 
-### Langkah Berikutnya
+### Következő lépések
 
 Jelajahi fitur tambahan Aspose.Cells, seperti membuat dan memanipulasi lembar baru atau mengintegrasikan dengan aplikasi Java lainnya.
 
-## Bagian FAQ
+## GYIK szekció
 
 **T: Dapatkah saya menggunakan Aspose.Cells secara gratis?**
 A: Ya, Anda dapat memulai dengan lisensi sementara untuk mengevaluasi kemampuannya tanpa batasan.
 
 **T: Bagaimana cara menangani lembar kerja yang dilindungi kata sandi?**
-A: Gunakan `unprotect(String password)` metode jika lembar kerja Anda diamankan oleh kata sandi.
+V: Használja a `unprotect(String password)` metode jika lembar kerja Anda diamankan oleh kata sandi.
 
 **T: Format Excel apa yang didukung?**
 J: Aspose.Cells mendukung berbagai format, termasuk XLS, XLSX, dan CSV.
@@ -175,17 +177,20 @@ A: Tentu saja! Aspose.Cells untuk Java terintegrasi dengan lancar ke dalam aplik
 **T: Apakah ada batasan kinerja saat memproses file besar?**
 A: Meskipun Aspose.Cells dioptimalkan untuk efisiensi, pertimbangkan untuk mengoptimalkan penggunaan sumber daya untuk file yang sangat besar dengan memuat lembar atau rentang data tertentu.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Dapatkan Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Lisensi](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Lisensi Sementara](https://releases.aspose.com/cells/java/)
-- **Mendukung:** [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció:** [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Dapatkan Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Licenc vásárlása](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Ideiglenes engedély](https://releases.aspose.com/cells/java/)
+- **Támogatás:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah menerapkan solusi ini hari ini untuk menyederhanakan manajemen berkas Excel Anda dengan Aspose.Cells untuk Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

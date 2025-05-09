@@ -1,110 +1,114 @@
 ---
-title: Upravte podprocesové komentáře v listu
-linktitle: Upravte podprocesové komentáře v listu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Odemkněte kouzlo úprav vláknových komentářů v Excelu pomocí Aspose.Cells pro .NET! Postupujte podle našeho podrobného průvodce a snadno si osvojte své dokumenty.
-weight: 14
-url: /cs/net/worksheet-operations/edit-threaded-comments/
+"description": "Odhalte kouzlo úpravy komentářů ve vláknech v Excelu pomocí Aspose.Cells pro .NET! Postupujte podle našeho podrobného návodu a snadno zvládněte své dokumenty."
+"linktitle": "Úprava komentářů ve vláknech v pracovním listu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Úprava komentářů ve vláknech v pracovním listu"
+"url": "/cs/net/worksheet-operations/edit-threaded-comments/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upravte podprocesové komentáře v listu
+# Úprava komentářů ve vláknech v pracovním listu
 
 ## Zavedení
-Úpravy vláknových komentářů v excelových listech mohou zlepšit spolupráci, zefektivnit zpětnou vazbu a usnadnit komunikaci v jakémkoli dokumentu. Pokud pracujete se soubory Microsoft Excel programově, Aspose.Cells for .NET poskytuje robustní způsob, jak takové úkoly snadno zvládnout. V tomto článku vás provedeme vzrušující cestou úpravy komentářů s vlákny v pracovním listu pomocí Aspose.Cells for .NET. Takže se připoutejte a ponoříme se do poutavého průvodce krok za krokem, který vám nejen zjednoduší práci s kódováním, ale také vás vybaví praktickými dovednostmi.
+Úprava vláknových komentářů v listech aplikace Excel může zlepšit spolupráci, zefektivnit zpětnou vazbu a usnadnit komunikaci v jakémkoli dokumentu. Pokud pracujete se soubory Microsoft Excel programově, Aspose.Cells pro .NET nabízí robustní způsob, jak tyto úkoly snadno zvládnout. V tomto článku vás provedeme vzrušující cestou úpravy vláknových komentářů v listu pomocí Aspose.Cells pro .NET. Připravte se tedy a ponořte se do poutavého, podrobného návodu, který vám nejen zjednoduší programování, ale také vás vybaví praktickými dovednostmi.
 ## Předpoklady
-Než se pustíme do hrubších úprav komentářů s vlákny, ujistěte se, že máte vše na svém místě. Zde je to, co budete potřebovat:
-1. Visual Studio: Pro tento výukový program budeme používat Visual Studio, takže se ujistěte, že je máte nainstalované v systému.
-2.  Aspose.Cells for .NET: Musíte mít knihovnu Aspose.Cells. Můžete si jej snadno stáhnout[zde](https://releases.aspose.com/cells/net/).
-3. Základní znalost C#: Základní porozumění programovacímu jazyku C# bude znamenat dlouhou cestu k pochopení diskutovaných pojmů.
-4.  Soubor Excel: Pro náš příklad použijeme vzorový soubor Excel s názvem`ThreadedCommentsSample.xlsx` který obsahuje nějaké komentáře.
-Po zaškrtnutí těchto předpokladů jste připraveni začít svou cestu do světa Aspose.Cells.
-## Importujte balíčky
-Nyní, když máme naše předpoklady vyřešené, pojďme na věc. Nejprve budeme muset importovat potřebné balíčky do našeho projektu C#, abychom mohli využít výkonné funkce nabízené Aspose.Cells.
-Chcete-li importovat knihovnu Aspose.Cells, vložte do horní části souboru C# následující jmenný prostor:
+Než se pustíme do detailů úpravy komentářů ve vláknech, ujistěte se, že máte vše připravené. Zde je to, co budete potřebovat:
+1. Visual Studio: V tomto tutoriálu budeme používat Visual Studio, proto se ujistěte, že ho máte ve svém systému nainstalované.
+2. Aspose.Cells pro .NET: Potřebujete knihovnu Aspose.Cells. Můžete si ji snadno stáhnout. [zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost jazyka C#: Základní znalost programovacího jazyka C# bude mít velký význam pro pochopení probíraných konceptů.
+4. Soubor aplikace Excel: V našem příkladu použijeme vzorový soubor aplikace Excel s názvem `ThreadedCommentsSample.xlsx` který obsahuje nějaké komentáře.
+Jakmile splníte tyto předpoklady, můžete se vydat na cestu do světa Aspose.Cells.
+## Importovat balíčky
+Nyní, když máme vyřešené předpoklady, pojďme se pustit do práce. Nejprve budeme muset importovat potřebné balíčky do našeho projektu v C#, abychom mohli využívat výkonné funkce nabízené Aspose.Cells.
+Chcete-li importovat knihovnu Aspose.Cells, uveďte na začátek souboru C# následující jmenný prostor:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Tento krok otevírá dveře k přístupu k různým třídám a metodám, které budeme používat v našem tutoriálu. 
-Jste připraveni? Pojďme si to rozebrat, krok za krokem.
-## Krok 1: Nastavte své prostředí
-Než budeme moci s komentáři manipulovat, musíme správně nastavit pracovní prostředí.
-1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte nový projekt C# Console Application. To bude sloužit jako základ pro náš kód.
-2. Přidat odkazy: Klepněte pravým tlačítkem myši na projekt v Průzkumníku řešení, vyberte „Přidat“ a poté „Odkaz…“ a vyhledejte soubor Aspose.Cells.dll. Importujte jej do svého projektu. 
-Nyní jste připraveni začít kódovat!
-## Krok 2: Definujte zdrojový a výstupní adresář
-Proč na tom záleží: Je důležité definovat, kde najít náš soubor Excel a kam uložit upravenou verzi.
-Ve své hlavní metodě deklarujte proměnné pro uložení zdrojových a výstupních adresářů:
+Tento krok otevírá dveře k přístupu k různým třídám a metodám, které budeme v našem tutoriálu používat. 
+Připraveni vyrazit? Pojďme si to rozebrat krok za krokem.
+## Krok 1: Nastavení prostředí
+Než budeme moci manipulovat s komentáři, musíme si správně nastavit pracovní prostředí.
+1. Vytvoření nového projektu: Otevřete Visual Studio a vytvořte nový projekt konzolové aplikace v C#. Ten bude sloužit jako základ pro náš kód.
+2. Přidání referencí: Klikněte pravým tlačítkem myši na projekt v Průzkumníku řešení, vyberte „Přidat“ a poté „Reference…“ a vyhledejte soubor Aspose.Cells.dll. Importujte jej do svého projektu. 
+Nyní jste připraveni začít s kódováním!
+## Krok 2: Definování zdrojového a výstupního adresáře
+Proč je to důležité: Je zásadní definovat, kde najít náš soubor Excel a kam uložit upravenou verzi.
+V metodě main deklarujte proměnné pro uložení zdrojového a výstupního adresáře:
 ```csharp
-string sourceDir = "Your Document Directory"; // Nahraďte skutečným adresářem
-string outDir = "Your Document Directory"; // Nahraďte skutečným adresářem
+string sourceDir = "Your Document Directory"; // Nahradit skutečným adresářem
+string outDir = "Your Document Directory"; // Nahradit skutečným adresářem
 ```
-Zde jen malá úprava – ujistěte se, že jste nahradili „Your Document Directory“ skutečnou cestou na vašem počítači. 
-## Krok 3: Načtěte sešit
-Pojďme k zábavnější části: Načtení sešitu znamená, že dostáváme náš soubor Excel do aplikace ke zpracování.
+Jen malá úprava – nezapomeňte nahradit „Adresář dokumentů“ skutečnou cestou na vašem počítači. 
+## Krok 3: Načtení sešitu
+Pojďme k té zábavné části: Načtení sešitu znamená, že do aplikace dostáváme náš excelový soubor ke zpracování.
 Přidejte následující kód:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
- Tento řádek vytvoří novou instanci souboru`Workbook` třídy načtením zadaného souboru Excel. Jste na cestě!
-## Krok 4: Otevřete první pracovní list
-Proč tento krok? Každý sešit může mít více listů a my musíme vybrat, který z nich upravit.
+Tento řádek vytvoří novou instanci třídy `Workbook` třídu načtením zadaného souboru Excelu. Jste na cestě!
+## Krok 4: Přístup k prvnímu pracovnímu listu
+Proč tento krok? Každý sešit může mít více listů a my si musíme vybrat, který z nich chceme upravovat.
 Použijte následující kód:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Zde přistupujeme k prvnímu listu v sešitu (nezapomeňte, že indexování začíná na 0!). Pokud jsou vaše komentáře umístěny jinde, můžete index odpovídajícím způsobem změnit.
-## Krok 5: Získejte komentář se závitem
-Proč je to důležité? Toto je sekce, kde načteme konkrétní komentář, který chceme upravit.
- Pro naši ukázku zpřístupníme komentář v buňce`A1`. Postup je následující:
+Zde přistupujeme k prvnímu listu v sešitu (nezapomeňte, že indexování začíná od 0!). Pokud se vaše komentáře nacházejí jinde, můžete index odpovídajícím způsobem změnit.
+## Krok 5: Získejte komentář ve vlákně
+Proč je to důležité? V této sekci načteme konkrétní komentář, který chceme upravit.
+V našem příkladu budeme mít přístup ke komentáři v buňce `A1`Zde je návod, jak to udělat:
 ```csharp
 ThreadedComment comment = worksheet.Comments.GetThreadedComments("A1")[0];
 ```
-Tento úryvek stáhne první vláknovou poznámku připojenou k buňce A1. V souladu se svým názvem může tento komentář obsahovat řadu interakcí a my chceme změnit poznámky!
+Tento úryvek načte první komentář z vlákna připojený k buňce A1. V souladu se svým názvem může tento komentář obsahovat řadu interakcí a my chceme změnit poznámky!
 ## Krok 6: Upravte komentář
-Zde se odehrává kouzlo: Konečně můžeme změnit komentář na cokoliv, co se nám líbí, čímž je komunikace jasnější.
+tady se děje ta magie: Konečně si můžeme komentář změnit na cokoli, co se nám líbí, a komunikace tak bude jasnější.
 Jednoduše aktualizujte vlastnost notes takto:
 ```csharp
 comment.Notes = "Updated Comment";
 ```
-Neváhejte změnit "Aktualizovaný komentář" na vámi preferovaný text. Zde uplatníte svou kreativní kontrolu!
-## Krok 7: Uložte sešit
-Proč by nás to mělo zajímat? Žádné změny nejsou trvalé, dokud sešit neuložíme. To vypovídá o důležitosti dokončení naší práce.
-Chcete-li uložit změny, přidejte následující řádek:
+Nebojte se změnit text „Aktualizovaný komentář“ na vámi preferovaný. Zde uplatníte svou kreativní kontrolu!
+## Krok 7: Uložení sešitu
+Proč by nám na tom mělo záležet? Žádné změny nejsou trvalé, dokud si neuložíme sešit. To hodně vypovídá o důležitosti dokončení naší práce.
+Pro uložení změn přidejte následující řádek:
 ```csharp
 workbook.Save(outDir + "EditThreadedComments.xlsx");
 ```
-Právě tak ukládáte svůj nově upravený sešit. Nezapomeňte zkontrolovat zadaný výstupní adresář pro nový soubor!
+Takhle ukládáte nově upravený sešit. Nezapomeňte zkontrolovat zadaný výstupní adresář, kde se nachází váš nový soubor!
 ## Krok 8: Zpráva o dokončení
-Proč je to nutné? Vždy je dobré zajistit, aby uživatel věděl, že proces byl dokončen.
+Proč je to nutné? Vždy je dobrým zvykem zajistit, aby uživatel věděl, že proces byl dokončen.
 Nakonec přidejte tento řádek:
 ```csharp
 Console.WriteLine("EditThreadedComments executed successfully.");
 ```
-Tento řádek jen potvrzuje, že váš proces proběhl hladce. Kdo by si neužil malé vítězné kolo, že?
+Tato věta jednoduše potvrzuje, že váš proces proběhl hladce. Kdo by si neužil malé vítězné kolo, že?
 ## Závěr
-A tady to máte! Úspěšně jste upravili zřetězené komentáře v listu aplikace Excel pomocí Aspose.Cells for .NET. Kroky, které jsme prozkoumali, nejsou jen fragmenty kódu; harmonicky spolupracují, aby usnadnili lepší spolupráci a zefektivnili procesy zpětné vazby. Ať už chcete vylepšit komentáře svého týmu nebo se ujistit, že odrážejí správné poselství, tento průvodce vás vyzbrojil znalostmi, jak to udělat rychle a efektivně.
-## FAQ
-### Co jsou vláknové komentáře v Excelu?
-Vláknité komentáře umožňují diskuse a odpovědi v rámci jedné bubliny komentářů, což usnadňuje spolupráci.
-### Mohu upravit více komentářů pomocí Aspose.Cells?
-Absolutně! Můžete procházet všechny komentáře v listu a upravovat je podle potřeby.
-### Musím si koupit Aspose.Cells, abych je mohl používat?
- Můžete začít s bezplatnou zkušební verzí[zde](https://releases.aspose.com/), ale pro rozšířené použití se doporučuje zakoupit licenci.
-### Kde najdu další dokumentaci na Aspose.Cells?
- Máte přístup ke kompletní dokumentaci[zde](https://reference.aspose.com/cells/net/).
-### Co když při používání Aspose.Cells narazím na problémy?
-Máte-li jakékoli dotazy nebo pomoc, neváhejte navštívit fórum podpory[zde](https://forum.aspose.com/c/cells/9).
+tady to máte! Úspěšně jste upravili vláknové komentáře v listu aplikace Excel pomocí Aspose.Cells pro .NET. Kroky, které jsme prozkoumali, nejsou jen fragmenty kódu; harmonicky spolupracují a usnadňují lepší spolupráci a zefektivňují procesy zpětné vazby. Ať už chcete vylepšit komentáře svého týmu, nebo se ujistit, že odrážejí správné sdělení, tato příručka vás vybavila znalostmi, které vám pomohou to udělat rychle a efektivně.
+## Často kladené otázky
+### Co jsou to vláknové komentáře v Excelu?
+Vlákna komentářů umožňují diskuze a odpovědi v rámci jedné bubliny komentářů, což usnadňuje spolupráci.
+### Mohu upravovat více komentářů pomocí Aspose.Cells?
+Rozhodně! Můžete procházet všechny komentáře v tabulce a podle potřeby je upravovat.
+### Musím si pro použití Aspose.Cells zakoupit?
+Můžete začít s bezplatnou zkušební verzí [zde](https://releases.aspose.com/), ale pro delší používání se doporučuje zakoupení licence.
+### Kde najdu další dokumentaci k Aspose.Cells?
+K kompletní dokumentaci máte přístup [zde](https://reference.aspose.com/cells/net/).
+### Co když narazím na problémy při používání Aspose.Cells?
+V případě jakýchkoli dotazů nebo potřeby pomoci neváhejte navštívit fórum podpory. [zde](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/formatting-rows-and-columns-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Rows and Columns in Excel
@@ -31,9 +33,11 @@ Now that your columns are looking sharp, let’s not forget about the rows! Form
 Learn how to customize a column's format in Excel using Aspose.Cells for .NET with this step-by-step guide. Perfect for developers automating Excel tasks.
 ### [Applying Formatting to an Excel Row Programmatically](./applying-formatting-to-an-excel-row/)
 Learn how to apply formatting to an Excel row programmatically using Aspose.Cells for .NET. This detailed, step-by-step guide covers everything from alignment to borders.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -250,6 +252,9 @@ Az Aspose.Cells Java-beli elsajátításával hatékony Excel-automatizálási k
 Az útmutató követésével felkészült leszel arra, hogy az Aspose.Cells for Java-t kihasználd a projektjeidben, növelve a termelékenységet és a pontosságot az Excel-fájlokkal való munka során.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,14 +30,14 @@
 
 ก่อนที่คุณจะเริ่มต้น ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-### ไลบรารีและสิ่งที่ต้องพึ่งพา:
+### ไลบรารีและการอ้างอิงที่จำเป็น:
 - Aspose.Cells สำหรับไลบรารี Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม:
 - สภาพแวดล้อมการพัฒนาที่เข้ากันได้กับ Maven หรือ Gradle
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 - ความคุ้นเคยกับสมุดงาน Excel และตารางแบบสอบถาม
 - ความเข้าใจเกี่ยวกับการจัดการไฟล์ Java
 
@@ -187,6 +189,9 @@ system.out.println("Result Range Address: " + resultRangeAddress);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

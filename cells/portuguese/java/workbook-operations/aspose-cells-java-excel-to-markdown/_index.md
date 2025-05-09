@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,9 +135,12 @@ R: Sim, ele suporta uma ampla variedade de formatos, como PDF, CSV e HTML. Verif
 ## Recursos
 - **Documentação:** Explore guias abrangentes em [Documentação do Aspose Cells](https://reference.aspose.com/cells/java/).
 - **Download:** Obtenha a versão mais recente em [Lançamentos Aspose](https://releases.aspose.com/cells/java/).
-- **Compra e Suporte:** Para consultas sobre compras e suporte, visite [Aspose Compra](https://purchase.aspose.com/buy) e [Fórum Aspose](https://forum.aspose.com/c/cells/9).
+- **Compra e Suporte:** Para consultas de compra e suporte, visite [Aspose Compra](https://purchase.aspose.com/buy) e [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

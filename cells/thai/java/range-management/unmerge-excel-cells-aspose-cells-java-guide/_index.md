@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,9 +57,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการจัดการไฟล์ Excel จะเป็นประโยชน์
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
-การตั้งค่า Aspose.Cells นั้นง่ายมาก โดยเริ่มต้นได้จากวิธีต่อไปนี้:
+การตั้งค่า Aspose.Cells นั้นง่ายมาก โดยเริ่มต้นได้ดังนี้:
 
-1. **การติดตั้ง:** ใช้การอ้างอิง Maven หรือ Gradle ดังกล่าวไว้ข้างต้นเพื่อรวม Aspose.Cells ในโครงการของคุณ
+1. **การติดตั้ง:** ใช้การอ้างอิง Maven หรือ Gradle ดังที่ระบุไว้ข้างต้นเพื่อรวม Aspose.Cells ในโครงการของคุณ
    
 2. **การได้มาซึ่งใบอนุญาต:**
    - **ทดลองใช้งานฟรี:** เริ่มต้นด้วยการดาวน์โหลดรุ่นทดลองใช้งานฟรีจาก [หน้าการเปิดตัวของ Aspose](https://releases-aspose.com/cells/java/).
@@ -166,12 +168,15 @@ workbook.save("path/to/your/output/file.xlsx");
 ## ทรัพยากร
 - **เอกสารประกอบ:** สำรวจคำแนะนำโดยละเอียดได้ที่ [เอกสารประกอบ Aspose](https://reference-aspose.com/cells/java/).
 - **ดาวน์โหลด:** รับข่าวสารล่าสุดจาก [การเปิดตัว Aspose](https://releases-aspose.com/cells/java/).
-- **ซื้อ:** รับประกันใบอนุญาตใช้งานระยะยาวได้ที่ [การซื้อ Aspose](https://purchase-aspose.com/buy).
+- **ซื้อ:** รับใบอนุญาตใช้งานระยะยาวได้ที่ [การซื้อ Aspose](https://purchase-aspose.com/buy).
 - **ทดลองใช้งานฟรี:** เริ่มทดลองใช้งานเวอร์ชันทดลองได้จาก [ทดลองใช้ Aspose ฟรี](https://releases-aspose.com/cells/java/).
 - **ใบอนุญาตชั่วคราว:** สมัครขอขยายเวลาทดสอบได้ทาง [หน้าใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 - **สนับสนุน:** มีส่วนร่วมกับชุมชนและรับความช่วยเหลือได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

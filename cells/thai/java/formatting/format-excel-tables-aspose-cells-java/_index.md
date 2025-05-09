@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ ListObjects ที่ได้รับการจัดรูปแบบน�
 เริ่มนำเทคนิคเหล่านี้ไปใช้ในโครงการของคุณและดูว่า Aspose.Cells สามารถเปลี่ยนแปลงงานการจัดการข้อมูล Excel ของคุณได้อย่างไร
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Har du svårt att gruppera data i dina Excel-ark vilket komplicerar analys eller presentation? Att gruppera rader och kolumner är en vanlig funktion i Excel för att förenkla vyer, men ibland behöver det vändas. Den här handledningen guidar dig genom att enkelt dela upp grupperingen av dessa rader och kolumner med hjälp av Aspose.Cells för Java.
 
-I slutet av den här guiden kommer du att lära dig:
+slutet av den här guiden kommer du att lära dig:
 - Hur man konfigurerar sin miljö med Aspose.Cells.
 - Steg-för-steg-instruktioner för att dela upp rader och kolumner i Excel-filer.
 - Praktiska tillämpningar av dessa funktioner.
@@ -167,6 +169,9 @@ Hör gärna av dig på [Aspose-forumet](https://forum.aspose.com/c/cells/9) Om d
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

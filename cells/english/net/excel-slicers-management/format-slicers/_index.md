@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/format-slicers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Slicers in Aspose.Cells .NET
@@ -116,6 +118,7 @@ Aspose.Cells supports various formats such as XLSX, XLS, and CSV, among others.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

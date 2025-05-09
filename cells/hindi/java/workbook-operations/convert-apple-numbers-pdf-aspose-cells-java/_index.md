@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### नंबर स्प्रेडशीट लोड करें
 
-हमारी रूपांतरण प्रक्रिया में पहला कदम जावा के लिए Aspose.Cells का उपयोग करके एक Apple Numbers फ़ाइल लोड करना है। यह सुविधा आपको स्प्रेडशीट डेटा को प्रभावी ढंग से संभालने की अनुमति देती है।
+हमारी रूपांतरण प्रक्रिया में पहला कदम जावा के लिए Aspose.Cells का उपयोग करके Apple Numbers फ़ाइल लोड करना है। यह सुविधा आपको स्प्रेडशीट डेटा को प्रभावी ढंग से संभालने की अनुमति देती है।
 
 #### अवलोकन
 Numbers फ़ाइल को लोड करने में सही लोड विकल्प निर्दिष्ट करना और उपयोग करना शामिल है `Workbook` कक्षा।
@@ -182,6 +184,9 @@ wb.save(outDir + "/outputNumbersByAppleInc.pdf", com.aspose.cells.SaveFormat.PDF
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

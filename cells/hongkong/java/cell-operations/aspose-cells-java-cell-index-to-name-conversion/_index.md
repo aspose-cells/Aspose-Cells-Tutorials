@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,11 +143,14 @@ public class IndexToName {
 - [下載 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [購買許可證](https://purchase.aspose.com/buy)
 - [免費試用版下載](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 
 請隨意探索這些資源並嘗試您新獲得的 Aspose.Cells for Java 的知識！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

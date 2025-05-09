@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 
 1. **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** คุณจะต้องใช้ Aspose.Cells สำหรับ Java เวอร์ชันล่าสุดที่ใช้ที่นี่คือ 25.3
 2. **การตั้งค่าสภาพแวดล้อม:** ตรวจสอบให้แน่ใจว่าระบบของคุณได้ติดตั้ง JDK แล้ว (ควรเป็น JDK 8 ขึ้นไป)
-3. **ข้อกำหนดเบื้องต้นของความรู้:** มีความคุ้นเคยกับการเขียนโปรแกรม Java และมีความเข้าใจพื้นฐานเกี่ยวกับเครื่องมือสร้าง Maven/Gradle
+3. **ข้อกำหนดความรู้เบื้องต้น:** มีความคุ้นเคยกับการเขียนโปรแกรม Java และมีความเข้าใจพื้นฐานเกี่ยวกับเครื่องมือสร้าง Maven/Gradle
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -151,6 +153,9 @@ system.out.println("VBA Project is Signed: " + isSigned);
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

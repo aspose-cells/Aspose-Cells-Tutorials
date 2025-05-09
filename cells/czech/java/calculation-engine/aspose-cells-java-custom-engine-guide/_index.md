@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -233,6 +235,9 @@ Jste připraveni ponořit se hlouběji? Zkuste tato řešení implementovat ve s
 Dodržováním tohoto návodu můžete využít Aspose.Cells pro Javu k vytvoření výkonných vlastních výpočetních nástrojů, které budou vyhovovat vašim jedinečným obchodním požadavkům. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

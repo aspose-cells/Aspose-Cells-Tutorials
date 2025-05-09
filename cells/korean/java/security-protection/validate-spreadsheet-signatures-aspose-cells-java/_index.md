@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Aspose.Cells를 사용하려면 프로젝트 환경에서 설정해야 합니다
 
 **그래들**
 
-그것을 당신의에 포함 `build.gradle` 다음과 같은 파일:
+그것을 당신의에 포함시키세요 `build.gradle` 다음과 같은 파일:
 ```gradle
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -205,6 +207,9 @@ Aspose.Cells를 사용하는 동안 성능을 최적화하려면:
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

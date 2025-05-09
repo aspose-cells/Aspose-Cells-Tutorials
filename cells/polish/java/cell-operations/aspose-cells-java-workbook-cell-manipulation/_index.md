@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ O: Tak, Aspose.Cells obsługuje eksportowanie do różnych formatów, takich jak
 Wykorzystując możliwości Aspose.Cells for Java, możesz znacznie zwiększyć swoją zdolność do tworzenia i manipulowania plikami Excel programowo. Zacznij odkrywać jego funkcje już dziś!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

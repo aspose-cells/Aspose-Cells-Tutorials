@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,7 +66,7 @@ CSVファイルをJavaアプリケーションに読み込むのは、特に日�
 2. **ライセンス取得**：
    - 評価目的で一時ライセンスを取得するには、 [Aspose の一時ライセンスページ](https://purchase。aspose.com/temporary-license/).
    - ライブラリがニーズを満たしている場合は、フルライセンスを購入してください。
-3. **基本的な初期化**インスタンスを作成する `Workbook` CSV ファイルを操作するには:
+3. **基本的な初期化**: インスタンスを作成する `Workbook` CSV ファイルを操作するには:
 
    ```java
    Workbook workbook = new Workbook("path/to/your/csvfile.csv");
@@ -243,6 +245,9 @@ Aspose.Cells の機能をさらに詳しく調べるには、データ操作、�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

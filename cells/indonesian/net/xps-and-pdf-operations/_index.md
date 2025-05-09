@@ -1,38 +1,42 @@
 ---
-title: Operasi XPS dan PDF
-linktitle: Operasi XPS dan PDF
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan tutorial Aspose.Cells for .NET yang komprehensif mengenai operasi XPS dan PDF untuk menyederhanakan konversi file Anda.
-weight: 36
-url: /id/net/xps-and-pdf-operations/
+"description": "Fedezze fel az Aspose.Cells for .NET átfogó XPS és PDF műveletekkel kapcsolatos oktatóanyagait, amelyekkel egyszerűsítheti a fájlkonvertálást."
+"linktitle": "XPS és PDF műveletek"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "XPS és PDF műveletek"
+"url": "/id/net/xps-and-pdf-operations/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Operasi XPS dan PDF
+# XPS és PDF műveletek
 
-## Perkenalan
+## Bevezetés
 
-Jika berbicara tentang bekerja dengan file Excel, Aspose.Cells untuk .NET adalah yang terbaik. Namun, tahukah Anda bahwa Aspose.Cells juga memungkinkan Anda mengonversi file dengan mudah, tidak hanya dalam format Excel? Dalam artikel ini, kami akan menyoroti dua tutorial penting yang dapat mengubah cara Anda menangani dokumen Excel: Mengonversi ke XPS dalam .NET dan Mengatur Waktu Pembuatan PDF dalam .NET. Mari selami dan jelajahi fungsi-fungsi hebat ini. 
+Az Excel-fájlok kezelésében az Aspose.Cells for .NET egy erőmű. De tudtad, hogy az Excel-formátumokon túl is lehetővé teszi a fájlok zökkenőmentes konvertálását? Ebben a cikkben két lényeges oktatóanyagot emelünk ki, amelyek átalakíthatják az Excel-dokumentumok kezelését: XPS-be konvertálás .NET-ben és PDF-létrehozási idő beállítása .NET-ben. Merüljünk el és fedezzük fel ezeket a hatékony funkciókat. 
 
-## Mengonversi File Excel ke XPS
+## Excel fájlok konvertálása XPS-re
 
- Pertama, mari kita bahas tentang mengonversi file Excel ke format XPS. Anda mungkin bertanya-tanya, "Mengapa saya ingin mengonversi ke XPS?" Nah, XPS (XML Paper Specification) adalah format dokumen tetap yang mempertahankan tampilan dan nuansa lembar kerja Excel Anda, sehingga lebih mudah dibagikan tanpa kehilangan format. Ingin mencobanya? Lihat tutorial kami di[Mengonversi ke XPS dalam .NET](./converting-to-xps/)Panduan ini memandu Anda melalui proses langkah demi langkah, dilengkapi dengan contoh kode praktis. Anda akan mendapati bahwa panduan ini tidak hanya mudah tetapi juga sangat efektif untuk menjaga keakuratan dokumen.
+Először is, beszéljünk az Excel-fájlok XPS formátumba konvertálásával kapcsolatban. Talán azon tűnődsz, hogy „Miért akarnám XPS-be konvertálni?” Nos, az XPS (XML Paper Specification) egy fix dokumentumformátum, amely megőrzi az Excel-táblázatok megjelenését és érzetét, így könnyebben megoszthatók a formázás elvesztése nélkül. Szeretnéd kipróbálni? Nézd meg az oktatóanyagunkat a következőről: [XPS-re konvertálás .NET-ben](./converting-to-xps/)Lépésről lépésre végigvezet a folyamaton, gyakorlati kódpéldákkal felszerelve. Azt fogja tapasztalni, hogy nemcsak egyszerű, de hihetetlenül hatékony is a dokumentumok hűségének megőrzésében.
 
-## Mengatur Waktu Pembuatan PDF untuk Manajemen yang Lebih Baik
+## PDF létrehozási idejének beállítása a jobb kezelés érdekében
 
- Selanjutnya, mari kita bahas seluk-beluk manajemen PDF. PDF digunakan secara luas, dan memiliki kendali atas properti dokumen adalah yang terpenting, terutama untuk dokumen. Apakah Anda perlu mengatur waktu pembuatan tertentu saat mengonversi lembar Excel Anda ke PDF? Mengetahui stempel waktu yang tepat dapat menjadi hal yang penting dalam banyak konteks profesional. Panduan kami tentang[Mengatur Waktu Pembuatan PDF di .NET](./setting-pdf-creation-time/) menyediakan langkah-langkah sederhana untuk menerapkan fitur ini. Hanya dengan sedikit kode, Anda dapat memastikan PDF Anda tidak hanya mencerminkan konten secara akurat tetapi juga memuat metadata yang tepat. Mengapa tidak mencobanya? Lebih mudah dari yang Anda kira!
+Következőként foglalkozzunk a PDF-kezelés bonyolultságaival. A PDF-eket széles körben használják, és a dokumentumok tulajdonságainak ellenőrzése kiemelkedő fontosságú, különösen a dokumentumok esetében. Szükséges beállítani egy adott létrehozási időt az Excel-táblázatok PDF-be konvertálásakor? A pontos időbélyeg ismerete számos szakmai környezetben kulcsfontosságú lehet. Útmutatónk a következőhöz: [PDF létrehozási idejének beállítása .NET-ben](./setting-pdf-creation-time/) egyszerű lépéseket kínál a funkció megvalósításához. Egy kis kóddal biztosíthatod, hogy PDF-jeid ne csak pontosan tükrözzék a tartalmat, hanem a megfelelő metaadatokat is tartalmazzák. Miért ne próbálnád ki? Könnyebb, mint gondolnád!
 
-## Tutorial Pengoperasian XPS dan PDF
-### [Mengonversi ke XPS dalam .NET](./converting-to-xps/)
-Pelajari cara mengonversi file Excel ke format XPS menggunakan Aspose.Cells for .NET hanya dalam beberapa langkah mudah, dipandu dengan contoh kode praktis.
-### [Mengatur Waktu Pembuatan PDF di .NET](./setting-pdf-creation-time/)
-Pelajari cara mengatur waktu pembuatan PDF di .NET menggunakan Aspose.Cells. Ikuti panduan langkah demi langkah kami untuk konversi Excel ke PDF yang lancar.
+## XPS és PDF műveletek oktatóanyagok
+### [XPS-re konvertálás .NET-ben](./converting-to-xps/)
+Tanuld meg, hogyan konvertálhatsz Excel fájlokat XPS formátumba az Aspose.Cells for .NET segítségével mindössze néhány egyszerű lépésben, gyakorlati kódpéldákkal kísérve.
+### [PDF létrehozási idejének beállítása .NET-ben](./setting-pdf-creation-time/)
+Tanuld meg, hogyan állíthatod be a PDF létrehozási idejét .NET-ben az Aspose.Cells használatával. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes Excel-ből PDF-be konvertáláshoz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

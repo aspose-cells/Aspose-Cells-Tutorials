@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ Trong phần này, chúng ta sẽ tùy chỉnh tên tổng phụ và tổng cộ
            return "Chinese Total - 可能的用法";
        }
 
-       // Trả về tên tổng số tùy chỉnh
+       // Trả về tên tổng số tiền tùy chỉnh
        @Override
        public String getGrandTotalName(int functionType) {
            return "Chinese Grand Total - 可能的用法";
@@ -156,6 +158,9 @@ Hãy thử triển khai các giải pháp này vào dự án tiếp theo của b
 - **Ủng hộ**: https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

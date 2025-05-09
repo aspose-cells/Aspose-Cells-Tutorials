@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ dependencies {
 ### Licencbeszerzés lépései
 - **Ingyenes próbaverzió:** Töltsön le egy ingyenes próbaverziót innen: [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély:** Értékelési korlátozások nélküli teszteléshez kérjen ideiglenes licencet a következő címen: [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
-- **Vásárlás:** Vásároljon teljes licencet a folyamatos használathoz a következő címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
+- **Vásárlás:** Vásároljon teljes licencet folyamatos használatra a következő címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
 ### Alapvető inicializálás és beállítás
 Az Aspose.Cells inicializálásához a Java projektben kövesse az alábbi lépéseket:
@@ -90,7 +92,7 @@ Az Aspose.Cells beállításával implementáljuk a Java-t `Product` osztály.
 
 ## Megvalósítási útmutató
 
-Ez a rész végigvezeti Önt egy `Product` osztály az Aspose.Cells funkcionalitás mellett.
+Ez a rész végigvezet a létrehozásán és használatán `Product` osztály az Aspose.Cells funkcionalitás mellett.
 
 ### A termékosztály meghatározása
 Kezd azzal, hogy meghatározod a `Product` osztály:
@@ -126,7 +128,7 @@ class Product implements Serializable {
 ```
 
 **Magyarázat:**
-- **Sorosítható interfész:** Lehetővé teszi a következő példányokat: `Product` szerializálható, ami megkönnyíti a mentést és betöltést.
+- **Sorosítható interfész:** Lehetővé teszi a következő példányokat: `Product` szerializálható, ami megkönnyíti a mentést és a betöltést.
 - **Mezők és módszerek:** Az osztály magában foglalja a termékinformációkat (`name`, `quantity`) megfelelő getter és setter metódusokkal.
 
 ### Aspose.Cells integrálása
@@ -152,7 +154,7 @@ Most integráld a Product adatokat az Aspose.Cells-szel:
    worksheet.getCells().importTwoDimensionArray(productsArray, 0, 0);
    ```
 
-3. **A munkafüzet mentése:**
+3. **Munkafüzet mentése:**
    Mentse el a munkafüzetet egy fájlba:
    ```java
    workbook.save("Products.xlsx");
@@ -206,9 +208,12 @@ Készen állsz fejleszteni Java és Excel integrációs készségeidet? Próbál
 - **A3:** Gyakori problémák a helytelen függőségi verziók és a helytelenül konfigurált licencek. Győződjön meg róla, hogy a `pom.xml` vagy `build.gradle` fájlok megfelelően vannak beállítva.
 
 **4. negyedév:** Hogyan szabhatom testre az adatkimenetet az Excelben az Aspose.Cells használatával?
-- **A4:** Az Aspose.Cells által biztosított cellastílus-beállítások segítségével formázhatja a számokat, szöveget és egyebeket.
+- **A4:** Az Aspose.Cells által biztosított cellastílus-beállítások segítségével formázhatja a számokat, a szöveget és egyebeket.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

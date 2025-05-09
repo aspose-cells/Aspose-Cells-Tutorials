@@ -1,87 +1,91 @@
 ---
-title: Menambahkan Hentian Halaman di Lembar Kerja menggunakan Aspose.Cells
-linktitle: Menambahkan Hentian Halaman di Lembar Kerja menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan pemisah halaman horizontal dan vertikal di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini. Jadikan berkas Excel Anda mudah dicetak.
-weight: 10
-url: /id/net/worksheet-value-operations/add-page-breaks/
+"description": "Tanuld meg, hogyan adhatsz hozzá vízszintes és függőleges oldaltöréseket Excelben az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Tedd Excel-fájljaidat nyomtathatóvá."
+"linktitle": "Oldaltörések hozzáadása a munkalaphoz az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Oldaltörések hozzáadása a munkalaphoz az Aspose.Cells használatával"
+"url": "/id/net/worksheet-value-operations/add-page-breaks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Hentian Halaman di Lembar Kerja menggunakan Aspose.Cells
+# Oldaltörések hozzáadása a munkalaphoz az Aspose.Cells használatával
 
-## Perkenalan
-Dalam tutorial ini, kami akan memandu Anda melalui proses penambahan pemisah halaman horizontal dan vertikal ke lembar kerja Excel Anda. Anda juga akan melihat panduan langkah demi langkah tentang cara menggunakan Aspose.Cells for .NET untuk memanipulasi pemisah halaman dengan mudah, dan di akhir panduan ini, Anda akan merasa nyaman menggunakan teknik ini dalam proyek Anda sendiri. Mari kita mulai!
-## Prasyarat
-Sebelum kita menyelami kodenya, mari pastikan Anda siap mengikuti tutorial ini. Berikut ini beberapa prasyaratnya:
-- Visual Studio: Anda perlu menginstal Visual Studio di sistem Anda.
--  Aspose.Cells untuk .NET: Anda harus menginstal pustaka Aspose.Cells. Jika Anda belum melakukannya, jangan khawatir! Anda dapat mengunduh versi uji coba gratis untuk memulai. (Anda bisa mendapatkannya[Di Sini](https://releases.aspose.com/cells/net/)).
-- .NET Framework: Tutorial ini mengasumsikan Anda menggunakan .NET Framework atau .NET Core. Jika Anda menggunakan lingkungan yang berbeda, prosesnya mungkin sedikit berbeda.
-Selain itu, Anda harus memiliki pengetahuan dasar tentang pemrograman C# dan konsep jeda halaman di Excel.
-## Paket Impor
-Untuk mulai bekerja dengan Aspose.Cells, kita perlu mengimpor namespace yang relevan ke dalam proyek kita. Ini memungkinkan kita untuk mengakses fungsionalitas yang disediakan oleh Aspose.Cells untuk memanipulasi file Excel.
+## Bevezetés
+Ebben az oktatóanyagban végigvezetünk azon, hogyan adhatsz hozzá vízszintes és függőleges oldaltöréseket az Excel-munkalapodhoz. Lépésről lépésre bemutatjuk, hogyan használhatod az Aspose.Cells for .NET-et az oldaltörések egyszerű kezeléséhez, és az útmutató végére már magabiztosan fogod használni ezeket a technikákat a saját projektjeidben. Kezdjük is!
+## Előfeltételek
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy készen állsz a bemutató követésére. Íme néhány előfeltétel:
+- Visual Studio: A Visual Studio alkalmazásnak telepítve kell lennie a rendszerén.
+- Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells könyvtárat. Ha még nem tette meg, ne aggódjon! Letölthet egy ingyenes próbaverziót a kezdéshez. (Megszerezheti [itt](https://releases.aspose.com/cells/net/)).
+- .NET Framework: Ez az oktatóanyag feltételezi, hogy .NET Framework vagy .NET Core rendszert használsz. Ha más környezetet használsz, a folyamat kissé eltérhet.
+Ezenkívül rendelkeznie kell némi alapvető C# programozási ismerettel és az oldaltörések fogalmával az Excelben.
+## Csomagok importálása
+Az Aspose.Cells használatának megkezdéséhez importálnunk kell a releváns névtereket a projektünkbe. Ez lehetővé teszi számunkra, hogy hozzáférjünk az Aspose.Cells által biztosított funkciókhoz az Excel-fájlok kezeléséhez.
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System;
 ```
-Setelah Anda mengimpor namespace ini, Anda dapat mulai berinteraksi dengan file Excel dan menerapkan berbagai modifikasi, termasuk menambahkan jeda halaman.
-Sekarang setelah Anda siap, mari kita bahas langkah-langkah untuk menambahkan pemisah halaman ke lembar kerja Anda. Kami akan menguraikan setiap bagian dari proses tersebut, menjelaskan setiap baris kode secara terperinci.
-## Langkah 1: Siapkan Buku Kerja Anda
- Pertama, Anda perlu membuat buku kerja baru.`Workbook` kelas di Aspose.Cells mewakili buku kerja Excel dan merupakan titik awal untuk memanipulasi file Excel.
+Miután importálta ezeket a névtereket, elkezdheti az Excel-fájlokkal való interakciót, és különféle módosításokat alkalmazhat, beleértve az oldaltörések hozzáadását is.
+Most, hogy készen állsz, nézzük meg a lépéseket, hogyan adhatsz oldaltöréseket a munkalapodhoz. Részletesen ismertetjük a folyamat minden egyes részét, és részletesen ismertetjük az egyes kódsorokat.
+## 1. lépés: A munkafüzet beállítása
+Először is létre kell hoznod egy új munkafüzetet. `Workbook` Az Aspose.Cells osztálya egy Excel munkafüzetet jelöl, és az Excel fájlok kezelésének kiindulópontja.
 ```csharp
-// Tentukan jalur ke direktori tempat file Anda akan disimpan
+// Adja meg annak a könyvtárnak az elérési útját, ahová a fájl mentésre kerül
 string dataDir = "Your Document Directory";
-// Buat objek Buku Kerja baru
+// Új munkafüzet-objektum létrehozása
 Workbook workbook = new Workbook();
 ```
-Dalam kode ini:
-- `dataDir` menentukan di mana berkas Anda akan disimpan.
--  Itu`Workbook` objek dibuat, yang akan digunakan untuk menyimpan dan memanipulasi berkas Excel Anda.
-## Langkah 2: Tambahkan Hentian Halaman Horizontal
-Selanjutnya, kita akan menambahkan pemisah halaman horizontal ke lembar kerja. Pemisah halaman horizontal akan membagi lembar kerja menjadi dua bagian secara horizontal, artinya pemisah halaman horizontal menentukan di mana konten akan dipisah ke halaman baru secara vertikal saat dicetak.
+Ebben a kódban:
+- `dataDir` meghatározza, hogy hová kerüljön mentésre a fájl.
+- A `Workbook` Létrejön egy objektum, amely az Excel-fájl tárolására és kezelésére szolgál.
+## 2. lépés: Vízszintes oldaltörés hozzáadása
+Ezután egy vízszintes oldaltörést adunk a munkalaphoz. A vízszintes oldaltörés vízszintesen két részre osztja a munkalapot, ami azt jelenti, hogy meghatározza, hogy a tartalom hol törjön függőlegesen új oldalra nyomtatáskor.
 ```csharp
-//Tambahkan pemisah halaman horizontal di baris ke-30
+// Vízszintes oldaltörés hozzáadása a 30. sornál
 workbook.Worksheets[0].HorizontalPageBreaks.Add("Y30");
 ```
-Dalam contoh ini:
-- `Worksheets[0]` merujuk pada lembar pertama dalam buku kerja (ingat, lembar kerja memiliki indeks nol).
-- `HorizontalPageBreaks.Add("Y30")` menambahkan jeda halaman pada baris ke-30. Ini berarti konten sebelum baris ke-30 akan muncul pada satu halaman, dan semua yang ada di bawahnya akan dimulai pada halaman baru.
-## Langkah 3: Tambahkan Hentian Halaman Vertikal
-Demikian pula, Anda dapat menambahkan pemisah halaman vertikal. Ini akan memisahkan lembar kerja pada kolom tertentu, memastikan bahwa konten di sebelah kiri pemisah muncul pada satu halaman, dan konten di sebelah kanan muncul pada halaman berikutnya.
+Ebben a példában:
+- `Worksheets[0]` a munkafüzet első munkalapjára utal (ne feledje, a munkalapok indexszáma nulla).
+- `HorizontalPageBreaks.Add("Y30")` oldaltörést ad hozzá a 30. sorban. Ez azt jelenti, hogy a 30. sor előtti tartalom egy oldalon jelenik meg, és az alatta lévő összes tartalom új oldalon kezdődik.
+## 3. lépés: Függőleges oldaltörés hozzáadása
+Hasonlóképpen hozzáadhat egy függőleges oldaltörést. Ez egy adott oszlopnál töri meg a munkalapot, biztosítva, hogy a töréstől balra lévő tartalom az egyik oldalon, a jobb oldalon pedig a következőn jelenjen meg.
 ```csharp
-// Tambahkan pemisah halaman vertikal di kolom Y
+// Függőleges oldaltörés hozzáadása az Y oszlopban
 workbook.Worksheets[0].VerticalPageBreaks.Add("Y30");
 ```
-Di Sini:
--  Itu`VerticalPageBreaks.Add("Y30")` metode menambahkan pemisah halaman vertikal di kolom Y (yaitu, setelah kolom ke-25). Ini akan membuat pemisah halaman antara kolom X dan Y.
-## Langkah 4: Simpan Buku Kerja
-Setelah menambahkan pemisah halaman, langkah terakhir adalah menyimpan buku kerja ke dalam sebuah berkas. Anda dapat menentukan jalur penyimpanan berkas Excel.
+Itt:
+- A `VerticalPageBreaks.Add("Y30")` A metódus egy függőleges oldaltörést ad hozzá az Y oszlophoz (azaz a 25. oszlop után). Ez oldaltörést hoz létre az X és Y oszlopok között.
+## 4. lépés: A munkafüzet mentése
+Az oldaltörések hozzáadása után az utolsó lépés a munkafüzet mentése egy fájlba. Megadhatja az Excel-fájl mentési útvonalát.
 ```csharp
-// Simpan file Excel
+// Mentse el az Excel-fájlt
 workbook.Save(dataDir + "AddingPageBreaks_out.xls");
 ```
-Ini akan menyimpan buku kerja dengan jeda halaman yang ditambahkan ke jalur file yang ditentukan (`AddingPageBreaks_out.xls`).
-## Kesimpulan
-Menambahkan pemisah halaman di Excel merupakan fitur penting saat Anda bekerja dengan kumpulan data besar atau menyiapkan dokumen untuk dicetak. Dengan Aspose.Cells for .NET, Anda dapat dengan mudah mengotomatiskan proses penyisipan pemisah halaman horizontal dan vertikal di lembar kerja Excel, memastikan bahwa dokumen Anda terorganisasi dengan baik dan mudah dibaca.
-## Pertanyaan yang Sering Diajukan
-### Bagaimana cara menambahkan beberapa jeda halaman di Aspose.Cells untuk .NET?
- Anda dapat menambahkan beberapa jeda halaman hanya dengan memanggil`HorizontalPageBreaks.Add()` atau`VerticalPageBreaks.Add()` metode beberapa kali dengan referensi sel yang berbeda.
-### Bisakah saya menambahkan jeda halaman di lembar kerja tertentu dalam buku kerja?
- Ya, Anda dapat menentukan lembar kerja dengan menggunakan`Worksheets[index]` properti dimana`index` adalah indeks berbasis nol pada lembar kerja.
-### Bagaimana cara menghapus hentian halaman di Aspose.Cells untuk .NET?
- Anda dapat menghapus jeda halaman menggunakan`HorizontalPageBreaks.RemoveAt()` atau`VerticalPageBreaks.RemoveAt()` metode dengan menentukan indeks hentian halaman yang ingin dihapus.
-### Bagaimana jika saya ingin menambahkan jeda halaman secara otomatis berdasarkan ukuran konten?
-Aspose.Cells tidak menyediakan fitur otomatis untuk menambahkan jeda halaman berdasarkan ukuran konten, tetapi Anda dapat secara terprogram menghitung di mana jeda harus terjadi berdasarkan jumlah baris/kolom.
-### Dapatkah saya mengatur jeda halaman berdasarkan rentang sel tertentu?
-Ya, Anda dapat menentukan jeda halaman untuk sel atau rentang mana pun dengan memberikan referensi sel yang sesuai, seperti "A1" atau "B15".
+Ez a hozzáadott oldaltörésekkel ellátott munkafüzetet a megadott fájlelérési útba menti (`AddingPageBreaks_out.xls`).
+## Következtetés
+Az oldaltörések hozzáadása az Excelben kulcsfontosságú funkció, ha nagy adathalmazokkal dolgozik, vagy dokumentumokat készít elő nyomtatásra. Az Aspose.Cells for .NET segítségével könnyedén automatizálhatja mind a vízszintes, mind a függőleges oldaltörések beszúrását az Excel-munkafüzetekbe, biztosítva, hogy a dokumentumok jól szervezettek és könnyen olvashatók legyenek.
+## GYIK
+### Hogyan adhatok hozzá több oldaltörést az Aspose.Cells for .NET-ben?
+Több oldaltörést is hozzáadhatsz egyszerűen a `HvagyizontalPageBreaks.Add()` or `VerticalPageBreaks.Add()` metódusokat többször is, különböző cellahivatkozásokkal.
+### Hozzáadhatok oldaltöréseket egy munkafüzet egy adott munkalapjához?
+Igen, megadhatja a munkalapot a használatával. `Worksheets[index]` ingatlan, ahol `index` munkalap nulla alapú indexe.
+### Hogyan távolíthatok el egy oldaltörést az Aspose.Cells for .NET-ben?
+Oldaltörést a következővel távolíthat el: `HvagyizontalPageBreaks.RemoveAt()` or `VerticalPageBreaks.RemoveAt()` metódusokat az eltávolítani kívánt oldaltörés indexének megadásával.
+### Mi van, ha a tartalom mérete alapján automatikusan szeretnék oldaltöréseket hozzáadni?
+Az Aspose.Cells nem biztosít automatikus oldaltörések hozzáadására szolgáló funkciót a tartalom mérete alapján, de programozottan kiszámítható, hogy hol legyenek oldaltörések a sorok/oszlopok száma alapján.
+### Beállíthatok oldaltöréseket egy adott cellatartomány alapján?
+Igen, bármely cellához vagy tartományhoz megadhat oldaltöréseket a megfelelő cellahivatkozás, például „A1” vagy „B15” megadásával.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

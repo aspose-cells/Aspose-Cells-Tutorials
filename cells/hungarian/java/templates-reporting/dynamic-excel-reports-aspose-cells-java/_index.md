@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ Megtanultad, hogyan használhatod az Aspose.Cells for Java-t összetett képlete
 
 ### Következő lépések:
 - Kísérletezzen különböző képlettípusokkal.
-- Fedezze fel az Aspose.Cells további funkcióit, például a diagramokat és a pivot táblázatokat.
+- Fedezzen fel további funkciókat, például diagramokat és pivot táblázatokat az Aspose.Cells-ben.
 
 Készen állsz a tanultak alkalmazására? Kezdj el dinamikus jelentéseket készíteni még ma!
 
@@ -179,6 +181,9 @@ Készen állsz a tanultak alkalmazására? Kezdj el dinamikus jelentéseket kés
 Merülj el a dinamikus Excel-jelentések világában az Aspose.Cells for Java segítségével, és tárd fel az adatkezelés új lehetőségeit!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

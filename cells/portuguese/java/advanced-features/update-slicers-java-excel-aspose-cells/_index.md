@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introdução
 
-No mundo da análise de dados, os segmentadores do Excel são uma ferramenta poderosa que permite aos usuários filtrar e refinar seus dados sem perder de vista o conjunto geral. No entanto, ao trabalhar com grandes conjuntos de dados ou automatizar processos, atualizar os segmentadores manualmente pode se tornar tedioso. É aí que entra o Aspose.Cells para Java, oferecendo integração e manipulação perfeitas de arquivos do Excel diretamente de seus aplicativos Java.
+No mundo da análise de dados, os segmentadores do Excel são uma ferramenta poderosa que permite aos usuários filtrar e refinar seus dados sem perder de vista o conjunto geral. No entanto, ao trabalhar com grandes conjuntos de dados ou automatizar processos, atualizar os segmentadores manualmente pode se tornar tedioso. É aí que entra o Aspose.Cells para Java, que oferece integração e manipulação perfeitas de arquivos do Excel diretamente de seus aplicativos Java.
 
 Neste tutorial, exploraremos como utilizar o Aspose.Cells para Java para atualizar segmentadores programaticamente. Ao final deste guia, você estará equipado com o conhecimento necessário para:
 - Carregue e exiba a versão do Aspose.Cells para Java.
@@ -214,6 +216,9 @@ Otimizar o desempenho é fundamental ao lidar com arquivos grandes ou operaçõe
 Neste guia, exploramos como atualizar segmentadores em arquivos Java Excel usando Aspose.Cells. Você aprendeu a carregar e exibir a versão da biblioteca, manipular segmentadores programaticamente e salvar as alterações no seu arquivo Excel. Com essas habilidades, você pode automatizar os processos de filtragem de dados, aumentando a produtividade e a precisão nas tarefas de análise de dados.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

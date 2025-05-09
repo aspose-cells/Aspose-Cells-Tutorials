@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Denemeye hazır mısınız? Bu çözümü bugün uygulayın!
 Bu kapsamlı kılavuz, yorum dışa aktarma işlevini etkili bir şekilde uygulamanıza yardımcı olmak ve uygulamalarınızın gelişmiş kullanıcı deneyimleri sunmasını sağlamak için tasarlanmıştır.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

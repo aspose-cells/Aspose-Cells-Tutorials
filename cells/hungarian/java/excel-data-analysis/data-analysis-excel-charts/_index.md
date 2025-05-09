@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatelemzés Excel-diagramok
@@ -16,7 +18,7 @@
 
 ## Bevezetés
 
-Az adatelemzés világában az Excel továbbra is hatékony eszköz. Lehetővé teszi a felhasználók számára az adatok egyszerű feldolgozását és vizualizációját. Az Aspose.Cells for Java, egy Excel-fájlokkal való munkára szánt API, a következő szintre emeli az adatelemzést. Ebben a cikkben megvizsgáljuk, hogyan használható az Aspose.Cells for Java adatelemzéshez és hogyan hozhat létre meggyőző Excel-diagramokat lépésről lépésre.
+Az adatelemzés világában az Excel továbbra is hatékony eszköz. Lehetővé teszi a felhasználók számára az adatok egyszerű feldolgozását és vizualizációját. Az Aspose.Cells for Java, egy Excel-fájlokkal való munkára szánt API, a következő szintre emeli az adatelemzést. Ebben a cikkben lépésről lépésre megvizsgáljuk, hogyan használható az Aspose.Cells for Java adatelemzéshez és lenyűgöző Excel-diagramok létrehozásához.
 
 ## Előfeltételek
 
@@ -123,6 +125,7 @@ További forrásokért és oktatóanyagokért az Aspose.Cells for Java-val kapcs
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

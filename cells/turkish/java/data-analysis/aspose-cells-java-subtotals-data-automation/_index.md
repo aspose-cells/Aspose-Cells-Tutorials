@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ workbook.save(outputDir + "ASubtotal_out.xlsx");
 4. **Proje Takibi**: Projenin çeşitli aşamalarındaki görev tamamlanma yüzdelerini özetleyin.
 ## Performans Hususları
 - **Kaynak Kullanımını Optimize Edin**: Büyük dosyalarla çalışırken yalnızca gerekli çalışma sayfalarını yükleyin.
-- **Bellek Yönetimi**: Hafızayı boşaltmak için gereksiz nesnelerden hemen kurtulun.
+- **Bellek Yönetimi**: Belleği boşaltmak için gereksiz nesnelerden hemen kurtulun.
 - **Verimli Veri İşleme**: Uygulanabilirse çok büyük veri kümeleri için akış işlemlerini kullanın.
 ## Çözüm
 Bu eğitimde, Aspose.Cells for Java kullanarak Excel'de alt toplamları uygulama sürecini nasıl otomatikleştireceğinizi öğrendiniz. Belirtilen adımları izleyerek ve her parametrenin rolünü anlayarak, veri özetleme yeteneklerinizi önemli ölçüde geliştirebilirsiniz.
@@ -150,6 +152,9 @@ Hücre alanınızın doğru tanımlandığından ve çalışma kitabını yazıl
 - **Destek**: [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

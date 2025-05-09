@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ public class AddHorizontalPageBreak {
         // ワークシート内の水平ページ区切りのコレクションを取得します
         HorizontalPageBreakCollection hPageBreaks = worksheet.getHorizontalPageBreaks();
         
-        // セル「Y30」に水平改ページを追加します。
+        // セル「Y30」に水平方向のページ区切りを追加します。
         hPageBreaks.add("Y30");
     }
 }
@@ -182,6 +184,9 @@ Aspose.Cells for Java の改ページ機能をマスターすることで、Exce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

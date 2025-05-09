@@ -1,14 +1,16 @@
 ---
-title: Lấy siêu liên kết trong một phạm vi trong .NET
-linktitle: Lấy siêu liên kết trong một phạm vi trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Dễ dàng trích xuất và quản lý siêu liên kết từ các tệp Excel bằng Aspose.Cells cho .NET. Có hướng dẫn từng bước và ví dụ mã.
-weight: 10
-url: /vi/net/worksheet-operations/get-hyperlinks-in-a-range/
+"description": "Dễ dàng trích xuất và quản lý siêu liên kết từ các tệp Excel bằng Aspose.Cells cho .NET. Có hướng dẫn từng bước và ví dụ mã."
+"linktitle": "Lấy siêu liên kết trong một phạm vi trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lấy siêu liên kết trong một phạm vi trong .NET"
+"url": "/vi/net/worksheet-operations/get-hyperlinks-in-a-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy siêu liên kết trong một phạm vi trong .NET
@@ -19,7 +21,7 @@ Bạn đã bao giờ thấy mình chìm đắm trong các bảng tính, tự h�
 Trước khi đi sâu vào chi tiết về mã hóa, có một số điều kiện tiên quyết bạn cần phải có. Đừng lo lắng; đây không phải là một danh sách dài!
 ### Chuẩn bị môi trường phát triển của bạn
 1. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET tương thích trên máy của mình. Có thể là .NET Core hoặc .NET Framework đầy đủ. Đảm bảo phiên bản của bạn hỗ trợ thư viện Aspose.Cells.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần phải có thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/cells/net/) . Nếu bạn mới bắt đầu, hãy cân nhắc sử dụng[dùng thử miễn phí](https://releases.aspose.com/) để thử nghiệm.
+2. Thư viện Aspose.Cells: Bạn sẽ cần phải có thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất từ [đây](https://releases.aspose.com/cells/net/). Nếu bạn mới bắt đầu, hãy cân nhắc sử dụng [dùng thử miễn phí](https://releases.aspose.com/) để thử nghiệm.
 3. IDE: Một môi trường phát triển tích hợp (IDE) tốt như Visual Studio sẽ giúp cuộc sống của bạn dễ dàng hơn. Nó cho phép bạn viết, gỡ lỗi và chạy mã của mình một cách trơn tru.
 4. Kiến thức cơ bản về C#: Có kiến thức về lập trình C# sẽ rất hữu ích, nhưng nếu bạn sẵn sàng học thì cứ bắt đầu thôi!
 Với những điều kiện tiên quyết này, chúng ta đã sẵn sàng. Hãy chuyển sang một số mã hóa cơ bản—nhập các gói cần thiết và phân tích từng bước ví dụ của chúng ta.
@@ -43,36 +45,36 @@ string sourceDir = "Your Document Directory"; // Thay đổi đường dẫn nà
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Đảm bảo phương pháp này cung cấp đường dẫn đầu ra hợp lệ
 ```
- Trong đoạn trích này, hãy thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục chứa tệp Excel của bạn. Điều này giống như việc thiết lập sân khấu trước buổi biểu diễn của bạn—điều quan trọng là phải biết tài liệu của bạn ở đâu.
+Trong đoạn trích này, hãy thay thế `"Your Document Directory"` với đường dẫn thực tế đến thư mục chứa tệp Excel của bạn. Điều này giống như việc thiết lập sân khấu trước buổi biểu diễn của bạn—điều quan trọng là phải biết tài liệu của bạn ở đâu.
 ## Bước 2: Khởi tạo đối tượng Workbook
- Tiếp theo, chúng ta sẽ tạo một`Workbook` để mở tệp Excel mà chúng ta đang làm việc.
+Tiếp theo, chúng ta sẽ tạo một `Workbook` để mở tệp Excel mà chúng ta đang làm việc.
 ```csharp
 // Khởi tạo một đối tượng Workbook
 // Mở một tập tin Excel
 Workbook workbook = new Workbook(sourceDir + "HyperlinksSample.xlsx");
 ```
- Ở đây, chúng tôi đang tạo ra một cái mới`Workbook` Ví dụ. Các`Workbook`class về cơ bản là cổng vào tất cả các hoạt động liên quan đến tệp Excel. Bạn có thể coi nó như việc mở cuốn sách chứa tất cả nội dung của bạn.
+Ở đây, chúng tôi đang tạo ra một cái mới `Workbook` Ví dụ. Các `Workbook` class về cơ bản là cổng vào tất cả các hoạt động liên quan đến tệp Excel. Bạn có thể coi nó như việc mở cuốn sách chứa tất cả nội dung của bạn.
 ## Bước 3: Truy cập vào Bảng tính
 Bây giờ chúng ta đã có sổ làm việc, hãy lấy trang tính đầu tiên từ đó. Trong Excel, trang tính giống như các trang trong cuốn sách của bạn và chúng ta cần chỉ định trang nào chúng ta đang làm việc.
 ```csharp
 // Nhận bảng tính đầu tiên (mặc định)
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Bằng cách truy cập`Worksheets[0]`, chúng ta sẽ chọn bảng tính đầu tiên. Các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy hãy đảm bảo bạn chọn đúng.
+Bằng cách truy cập `Worksheets[0]`chúng ta sẽ chọn bảng tính đầu tiên. Các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy hãy đảm bảo bạn chọn đúng.
 ## Bước 4: Tạo một phạm vi
 Bây giờ là lúc xác định phạm vi mà chúng ta muốn tìm kiếm siêu liên kết. Trong trường hợp của chúng ta, giả sử chúng ta muốn tìm kiếm trong các ô từ A2 đến B3.
 ```csharp
 // Tạo một phạm vi A2:B3
 Range range = worksheet.Cells.CreateRange("A2", "B3");
 ```
- Bằng cách gọi`CreateRange`, chúng ta chỉ định ô bắt đầu và kết thúc. Đây là nơi phép thuật xảy ra—sau đó chúng ta sẽ kiểm tra các siêu liên kết nằm trong phạm vi được chỉ định này.
+Bằng cách gọi `CreateRange`, chúng ta chỉ định ô bắt đầu và kết thúc. Đây là nơi phép thuật xảy ra—sau đó chúng ta sẽ kiểm tra các siêu liên kết nằm trong phạm vi được chỉ định này.
 ## Bước 5: Lấy siêu liên kết từ phạm vi
 Bước này là nơi chúng ta thực sự truy cập vào các siêu liên kết trong phạm vi đã xác định.
 ```csharp
-//Nhận siêu liên kết trong phạm vi
+// Nhận siêu liên kết trong phạm vi
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
- Các`Hyperlinks` tài sản của một`Range` đối tượng trả về một mảng`Hyperlink`các đối tượng tìm thấy trong phạm vi đó. Giống như việc lấy tất cả các ghi chú quan trọng từ trang của bạn cùng một lúc!
+Các `Hyperlinks` tài sản của một `Range` đối tượng trả về một mảng `Hyperlink` các đối tượng tìm thấy trong phạm vi đó. Giống như việc ghi lại tất cả các ghi chú quan trọng từ trang của bạn cùng một lúc!
 ## Bước 6: Lặp lại và Hiển thị Liên kết
 Bây giờ, hãy lặp lại các siêu liên kết đã lấy được. Chúng ta sẽ in địa chỉ và khu vực của chúng trong bảng điều khiển ngay bây giờ.
 ```csharp
@@ -91,7 +93,7 @@ foreach (Hyperlink link in hyperlinks)
     link.Delete();
 }
 ```
- Sử dụng`Delete()` phương pháp trên mỗi siêu liên kết cho phép bạn xóa các siêu liên kết mà bạn có thể không cần nữa. Giống như xóa một nét vẽ nguệch ngoạc không còn cần thiết trên trang của bạn.
+Sử dụng `Delete()` phương pháp trên mỗi siêu liên kết cho phép bạn xóa các siêu liên kết mà bạn có thể không cần nữa. Giống như xóa một nét vẽ nguệch ngoạc không còn cần thiết trên trang của bạn.
 ## Bước 8: Lưu thay đổi của bạn
 Cuối cùng, hãy lưu bảng tính với tất cả những điều chỉnh đã thực hiện.
 ```csharp
@@ -110,10 +112,12 @@ Bản dùng thử có thể có một số hạn chế về chức năng, chẳn
 ### Tôi có cần biết lập trình để sử dụng Aspose.Cells không?
 Nên có kiến thức lập trình cơ bản về C# hoặc .NET để sử dụng thư viện hiệu quả.
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp sự cố với Aspose.Cells?
- Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập diễn đàn hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

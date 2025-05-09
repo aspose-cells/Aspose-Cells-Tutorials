@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/direct-calculation-formula/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Direct Calculation Formula in Excel Programmatically
@@ -95,6 +97,7 @@ For support, feel free to reach out on their [support forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

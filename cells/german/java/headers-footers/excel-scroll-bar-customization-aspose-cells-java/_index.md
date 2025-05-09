@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Schritte zum Lizenzerwerb
 Aspose.Cells bietet eine kostenlose Testversion an, um die Funktionen zu erkunden. Für eine erweiterte Nutzung können Sie eine temporäre Lizenz erwerben oder die Vollversion kaufen.
 
-1. **Kostenlose Testversion**Laden Sie die neueste Version herunter von [Aspose.Cells Java-Versionen](https://releases.aspose.com/cells/java/).
+1. **Kostenlose Testversion**: Laden Sie die neueste Version herunter von [Aspose.Cells Java-Versionen](https://releases.aspose.com/cells/java/).
 2. **Temporäre Lizenz**: Fordern Sie eine temporäre Lizenz an über [Kaufen Sie eine temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
 3. **Kaufen**: Für vollständigen Zugriff besuchen Sie [Aspose.Cells kaufen](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ Mit Aspose.Cells für Java können Sie die Einstellungen der Bildlaufleiste in E
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

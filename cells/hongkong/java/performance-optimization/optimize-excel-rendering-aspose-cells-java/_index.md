@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ public class ConfigureWorksheet {
 }
 ```
 
-### 設定影像或列印選項
+### 設定圖像或列印選項
 自訂渲染選項（如解析度和影像類型）以獲得更好的輸出品質。
 
 ```java
@@ -190,7 +192,7 @@ public class RenderToImage {
 
 ## 結論
 
-在本教學中，我們探討如何使用 Aspose.Cells for Java 有效率地呈現 Excel 工作表。透過正確設定環境並配置各種選項，您可以從 Excel 資料產生高品質的影像。繼續探索 Aspose.Cells 提供的更多功能，以在您的應用程式中充分發揮其潛力。
+在本教學中，我們探討如何使用 Aspose.Cells for Java 有效地呈現 Excel 工作表。透過正確設定環境並配置各種選項，您可以從 Excel 資料產生高品質的影像。繼續探索 Aspose.Cells 提供的更多功能，以在您的應用程式中充分發揮其潛力。
 
 準備好進一步提升你的技能了嗎？嘗試在實際專案中實施這些技術！
 
@@ -221,6 +223,9 @@ public class RenderToImage {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

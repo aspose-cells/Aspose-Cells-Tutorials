@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Ten kompleksowy przewodnik nauczy Cię, jak używać Aspose.Cells for Java do mo
 
 **Najważniejsze wnioski:**
 - Konfiguracja Aspose.Cells dla Java
-- Ładowanie i dostęp do plików i arkuszy kalkulacyjnych programu Excel
+- Ładuj i uzyskuj dostęp do plików i arkuszy kalkulacyjnych programu Excel
 - Modyfikuj i zapisuj etykiety obiektów OLE
 - Sprawdź zmiany, ponownie ładując skoroszyty z tablic bajtów
 
@@ -239,6 +241,9 @@ Aby zapewnić optymalną wydajność podczas korzystania z Aspose.Cells dla Java
 Dzięki temu przewodnikowi nauczyłeś się, jak modyfikować i weryfikować etykiety obiektów OLE za pomocą Aspose.Cells for Java. Te umiejętności pomogą Ci zarządzać plikami Excela wydajniej w różnych scenariuszach zawodowych. Aby uzyskać dalsze informacje, rozważ zanurzenie się w innych funkcjach Aspose.Cells, aby odblokować jeszcze większy potencjał w zadaniach zarządzania danymi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

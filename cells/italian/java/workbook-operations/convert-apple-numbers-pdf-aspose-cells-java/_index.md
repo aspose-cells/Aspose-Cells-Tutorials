@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,7 +66,7 @@ Dopo aver aggiunto le dipendenze necessarie, inizializza e configura Aspose.Cell
    
    License license = new License();
    try {
-       // Imposta il percorso per il tuo file di licenza
+       // Imposta il percorso per il file di licenza
        license.setLicense("path/to/your/license/file.lic");
    } catch (Exception e) {
        System.out.println("Error setting license: " + e.getMessage());
@@ -182,6 +184,9 @@ Esplora queste risorse per ulteriore apprendimento e supporto. Buona programmazi
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

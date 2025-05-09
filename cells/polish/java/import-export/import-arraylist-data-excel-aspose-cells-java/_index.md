@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,6 +177,9 @@ celu dalszego zgłębiania tematu, rozważ eksperymentowanie z bardziej zaawanso
 Ten przewodnik powinien pomóc Ci skutecznie używać Aspose.Cells for Java w Twoich projektach, zwiększając przetwarzanie danych i produktywność. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

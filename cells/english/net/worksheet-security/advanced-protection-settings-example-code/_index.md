@@ -8,7 +8,9 @@ url: /net/worksheet-security/advanced-protection-settings-example-code/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Advanced Protection Settings with Example Code using Aspose.Cells
@@ -140,6 +142,7 @@ You can access community support through the [Aspose Forum](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

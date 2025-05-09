@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Az Aspose.Cells Java-beli használatához ingyenes próbaverzióval ismerkedhet meg a funkcióival. Hosszabb távú használathoz érdemes lehet ideiglenes vagy teljes licencet vásárolni:
 
-- **Ingyenes próbaverzió**Töltse le a legújabb verziót innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
+- **Ingyenes próbaverzió**: Töltse le a legújabb verziót innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély**Ideiglenes engedély igénylése itt: [Aspose vásárlás](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás**Kereskedelmi felhasználás esetén vásároljon licencet közvetlenül a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
@@ -218,6 +220,9 @@ A: Hozzáférés hozzájuk a következővel: `getWorksheets().get(index)` a kív
 V: Igen, optimalizálja a kódot az objektumok létrehozásának minimalizálásával a ciklusokon belül, és figyelje a memóriahasználatot a szivárgások megelőzése érdekében. Használja az Aspose.Cells által biztosított hatékony adatszerkezeteket a jobb teljesítmény érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

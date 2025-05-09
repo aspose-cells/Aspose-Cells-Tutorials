@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ Az Aspose.Cells használatakor a teljesítmény optimalizálása a következőke
 ## Következtetés
 Most már megtanultad, hogyan kell megvalósítani a `IWarningCallback` interfész az Aspose.Cells Java-val. Ez a hatékony funkció lehetővé teszi a figyelmeztetések hatékony kezelését, biztosítva az Excel-munkafüzetek pontos és eredményes feldolgozását.
 ### Következő lépések
-Érdemes lehet megfontolni az Aspose.Cells további funkcióit a haladó munkafüzet-manipulációhoz, vagy integrálni nagyobb adatfeldolgozási folyamatokba.
+Fontolja meg az Aspose.Cells további funkcióinak felfedezését a haladó munkafüzet-manipulációhoz, vagy integrálja nagyobb adatfeldolgozási folyamatokba.
 **Cselekvésre ösztönzés**Próbáld meg megvalósítani ezt a megoldást a következő projektedben, hogy fokozd az Excel fájlkezelésed robusztusságát!
 ## GYIK szekció
 1. **Mit csinál az IWarningCallback interfész?**
@@ -143,6 +145,9 @@ Most már megtanultad, hogyan kell megvalósítani a `IWarningCallback` interfé
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

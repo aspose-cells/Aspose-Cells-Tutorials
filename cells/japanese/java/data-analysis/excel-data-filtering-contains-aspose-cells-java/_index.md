@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
 ```
 
 **説明**： 
-- 最初のパラメータ（`0`) は列インデックスを指定します。
+- 最初のパラメータ（`0`) は列のインデックスを指定します。
 - `FilterOperatorType.CONTAINS` 適用されるフィルタリングロジックです。
 - `"Ba"` 指定された範囲内で検索する文字列です。
 
@@ -197,6 +199,9 @@ A5: 訪問 [Aspose 一時ライセンスページ](https://purchase.aspose.com/t
 この包括的なガイドを活用すれば、Aspose.Cells for Java をプロジェクトに効果的に実装できるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

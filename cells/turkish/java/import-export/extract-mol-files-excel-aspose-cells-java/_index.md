@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,6 +170,9 @@ Bu çıkarma özelliğini bugün uygulamaya çalışın ve veri yönetimi beceri
 Projelerinizde Aspose.Cells for Java'nın potansiyelini en üst düzeye çıkarmak ve anlayışınızı derinleştirmek için bu kaynakları inceleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

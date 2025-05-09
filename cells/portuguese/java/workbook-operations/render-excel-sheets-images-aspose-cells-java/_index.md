@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ### Recurso 1: Criar e preencher uma BufferedImage
 #### Visão geral
 Criando um `BufferedImage` permite desenhar gráficos programaticamente. Aqui, criaremos uma imagem preenchida com a cor azul.
-**Etapa 1: Importar os pacotes necessários**
+**Etapa 1: Importar pacotes necessários**
 ```java
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -145,6 +147,9 @@ Você aprendeu a renderizar planilhas do Excel como imagens usando Aspose.Cells 
 Com essas ferramentas e dicas, você está no caminho certo para dominar a renderização de planilhas do Excel em Java com o Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

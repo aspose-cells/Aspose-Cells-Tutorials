@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Các bước xin cấp giấy phép
 - **Dùng thử miễn phí**: Bắt đầu với giấy phép dùng thử miễn phí để kiểm tra Aspose.Cells.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để đánh giá mở rộng.
+- **Giấy phép tạm thời**Xin giấy phép tạm thời để đánh giá mở rộng.
 - **Mua**: Để sử dụng cho mục đích sản xuất, hãy mua gói đăng ký.
 
 ### Khởi tạo và thiết lập cơ bản
@@ -181,6 +183,9 @@ Bằng cách làm theo hướng dẫn này, bạn đang trên đường thành t
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

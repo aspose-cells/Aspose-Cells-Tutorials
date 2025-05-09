@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Hãy cùng hợp lý hóa quy trình quản lý dữ liệu của bạn!
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng các điều kiện tiên quyết sau:
 
 - **Thư viện & Phụ thuộc**: Cài đặt Aspose.Cells cho Java. Chúng tôi khuyên bạn nên sử dụng phiên bản 25.3.
-- **Thiết lập môi trường**Thiết lập môi trường phát triển của bạn với Java JDK và IDE như IntelliJ IDEA hoặc Eclipse.
+- **Thiết lập môi trường**: Thiết lập môi trường phát triển của bạn với Java JDK và IDE như IntelliJ IDEA hoặc Eclipse.
 - **Điều kiện tiên quyết về kiến thức**:Hiểu biết cơ bản về các khái niệm lập trình Java sẽ rất có lợi.
 
 ### Thiết lập Aspose.Cells cho Java
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells là một thư viện thương mại, nhưng bạn có thể khám phá các khả năng của nó thông qua:
 - **Dùng thử miễn phí**: Tải xuống phiên bản dùng thử để kiểm tra tính năng.
-- **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời để thử nghiệm kéo dài.
+- **Giấy phép tạm thời**Yêu cầu cấp giấy phép tạm thời để thử nghiệm kéo dài.
 - **Mua**: Mua giấy phép để được truy cập và hỗ trợ đầy đủ.
 
 Sau khi có được tệp giấy phép, hãy khởi tạo Aspose.Cells như sau:
@@ -104,7 +106,7 @@ worksheet.autoFitColumn(4, 4, 6);
 
 #### Lưu một bảng tính Excel
 
-**Tổng quan**: Sau khi thực hiện thay đổi, hãy lưu bảng tính trở lại đĩa theo định dạng bạn muốn.
+**Tổng quan**Sau khi thực hiện thay đổi, hãy lưu bảng tính trở lại đĩa theo định dạng bạn muốn.
 
 **Bước 4: Lưu sổ làm việc đã sửa đổi**
 ```java
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **Báo cáo dữ liệu**: Tự động điều chỉnh độ rộng cột để trình bày dữ liệu rõ ràng hơn trong báo cáo kinh doanh.
 - **Quản lý hàng tồn kho**: Đảm bảo danh sách sản phẩm được định dạng gọn gàng mà không cần điều chỉnh thủ công.
-- **Phân tích tài chính**Căn chỉnh các số liệu tài chính trên các bảng tính để phân tích và trình bày chính xác hơn.
+- **Phân tích tài chính**: Căn chỉnh các số liệu tài chính trên các bảng tính để phân tích và trình bày chính xác hơn.
 
 Việc tích hợp Aspose.Cells với cơ sở dữ liệu hoặc hệ thống CRM có thể hợp lý hóa quy trình làm việc của bạn, cho phép tự động cập nhật các tệp Excel từ các nguồn này.
 
@@ -160,6 +162,9 @@ Bằng cách thành thạo tính năng tự động điều chỉnh trong Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

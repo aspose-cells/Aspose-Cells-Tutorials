@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,14 +32,14 @@
 
 ก่อนที่เราจะเริ่มนำโซลูชั่นของเราไปใช้ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- **ไลบรารีและสิ่งที่ต้องพึ่งพา:**
+- **ไลบรารีและการอ้างอิงที่จำเป็น:**
   - Aspose.Cells สำหรับ Java เวอร์ชัน 25.3
 
 - **การตั้งค่าสภาพแวดล้อม:**
   - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
   - สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 
-- **ข้อกำหนดเบื้องต้นของความรู้:**
+- **ข้อกำหนดความรู้เบื้องต้น:**
   - ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และแนวคิดการจัดการไฟล์
   
 ## การตั้งค่า Aspose.Cells สำหรับ Java (H2)
@@ -201,6 +203,9 @@ public class Main {
 เมื่อทำตามคำแนะนำนี้แล้ว คุณจะพร้อมแล้วที่จะตรวจจับรูปแบบไฟล์สำหรับไฟล์ที่เข้ารหัสโดยใช้ Aspose.Cells ใน Java ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

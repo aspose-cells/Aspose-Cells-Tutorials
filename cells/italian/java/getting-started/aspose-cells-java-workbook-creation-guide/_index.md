@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Questo frammento di codice inizializza una cartella di lavoro vuota, che funge d
 ### Foglio di lavoro di Access
 **Panoramica:** Scopri come accedere e interagire con i fogli di lavoro all'interno della tua cartella di lavoro.
 
-#### Passaggio 1: recupera il primo foglio di lavoro
+#### Passaggio 1: recuperare il primo foglio di lavoro
 ```java
 import com.aspose.cells.Worksheet;
 
@@ -90,7 +92,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 IL `get` Il metodo recupera un riferimento al foglio di lavoro specificato, consentendo di manipolarne il contenuto.
 
-### Accesso e modifica del valore della cella
+### Accedi e modifica il valore della cella
 **Panoramica:** Ecco come accedere a celle specifiche e modificarne i valori.
 
 #### Passaggio 1: imposta il valore della cella
@@ -188,6 +190,9 @@ Per approfondire la tua comprensione di Aspose.Cells, esplora il [documentazione
 Intraprendi il tuo viaggio con Aspose.Cells per Java e sfrutta appieno il potenziale dell'automazione di Excel nelle tue applicazioni!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Innan vi börjar, se till att du har följande förutsättningar uppfyllda:
 
 - **Bibliotek och beroenden:** Du behöver Aspose.Cells för Java. Versionen som används i den här handledningen är 25.3.
 - **Miljöinställningar:** En kompatibel JDK installerad (version 8 eller senare) och en IDE som IntelliJ IDEA eller Eclipse.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering, inklusive klasser, objekt och import av bibliotek.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering, inklusive klasser, objekt och import av bibliotek.
 
 ## Konfigurera Aspose.Cells för Java
 ### Maven-installation
@@ -176,6 +178,9 @@ Som nästa steg, utforska ytterligare funktioner i Aspose.Cells, såsom att skap
 - **Nedladdningar:** Hämta den senaste versionen av Aspose.Cells för Java från deras officiella webbplats.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

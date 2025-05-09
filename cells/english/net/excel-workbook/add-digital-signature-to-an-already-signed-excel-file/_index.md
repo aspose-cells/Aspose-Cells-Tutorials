@@ -8,7 +8,9 @@ url: /net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Digital Signature To An Already Signed Excel File
@@ -160,6 +162,7 @@ You can request a temporary license from [Aspose's purchase page](https://purcha
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

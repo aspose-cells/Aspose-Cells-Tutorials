@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Hãy chuyển đổi dữ liệu thô thành các báo cáo sâu sắc bằng As
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java** phiên bản 25.3 trở lên.
 
 ### Thiết lập môi trường:
@@ -59,7 +61,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 1. **Dùng thử miễn phí:** Tải xuống bản dùng thử miễn phí từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
 2. **Giấy phép tạm thời:** Nhận giấy phép tạm thời cho các tính năng mở rộng tại [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
 3. **Mua:** Để có quyền truy cập đầy đủ, hãy mua giấy phép tại [Mua Aspose](https://purchase.aspose.com/buy).
@@ -211,6 +213,9 @@ Các bước tiếp theo bao gồm thử nghiệm với các tập dữ liệu k
 - [Trang mua hàng Aspose](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,90 +1,94 @@
 ---
-title: Penanda Cerdas di Aspose.Cells untuk Data Dinamis
-linktitle: Penanda Cerdas di Aspose.Cells untuk Data Dinamis
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Jelajahi Tutorial Penanda Cerdas Aspose.Cells for .NET untuk membuat laporan Excel yang dinamis. Pelajari cara menambahkan label, mengisi data secara otomatis, menggunakan rumus, dan banyak lagi.
-weight: 26
-url: /id/net/smart-markers-dynamic-data/
+"description": "Fedezd fel az Aspose.Cells for .NET intelligens jelölőit bemutató oktatóanyagokat dinamikus Excel-jelentések létrehozásához. Tanuld meg, hogyan adhatsz hozzá címkéket, hogyan töltsd ki automatikusan az adatokat, hogyan használj képleteket és sok mást."
+"linktitle": "Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz"
+"url": "/id/net/smart-markers-dynamic-data/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Penanda Cerdas di Aspose.Cells untuk Data Dinamis
+# Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz
 
-## Perkenalan
+## Bevezetés
 
-Apakah Anda ingin meningkatkan pelaporan Excel Anda ke tingkat berikutnya? Aspose.Cells untuk .NET menyediakan fitur fantastis—Smart Markers—yang memungkinkan Anda membuat laporan Excel yang dinamis dan berbasis data dengan mudah. Rangkaian tutorial ini mencakup semua yang perlu Anda ketahui tentang Smart Markers, mulai dari menambahkan label khusus dan mengisi data secara otomatis di seluruh lembar hingga menerapkan rumus tingkat lanjut dan menyisipkan gambar. Berikut ini sekilas beberapa tutorial utama dalam rangkaian ini:
+Szeretnéd a következő szintre emelni az Excel-jelentéskészítésedet? Az Aspose.Cells for .NET egy fantasztikus funkciót kínál – az Intelligens Jelölőket –, amely lehetővé teszi dinamikus, adatvezérelt Excel-jelentések egyszerű létrehozását. Ez az oktatóanyag-sorozat mindent lefed, amit az Intelligens Jelölőkről tudni kell, az egyéni címkék hozzáadásától és az adatok automatikus kitöltésétől a munkalapokon át a speciális képletek alkalmazásáig és a képek beszúrásáig. Íme egy gyors áttekintés a sorozat néhány kulcsfontosságú oktatóanyagáról:
 
-## Tambahkan Label Kustom dengan Penanda Cerdas
- Bayangkan menginginkan label unik untuk setiap sel dalam laporan. Dengan Smart Markers di Aspose.Cells, menambahkan label kustom menjadi mudah. Anda akan mempelajari cara menggunakan Smart Markers untuk mempersonalisasi label data Anda, menciptakan laporan yang menarik secara visual dan terorganisir.[Baca selengkapnya](./add-custom-labels-smart-markers/)
+## Egyéni címkék hozzáadása intelligens jelölőkkel
+Képzeld el, hogy minden egyes cellához egyedi címkét szeretnél egy jelentésben. Az Aspose.Cells intelligens jelölőivel az egyéni címkék hozzáadása gyerekjáték. Megtanulod, hogyan használhatod az intelligens jelölőket az adatcímkék személyre szabásához, vizuálisan vonzó és rendezett jelentések létrehozásához. [További információ](./add-custom-labels-smart-markers/)
 
-## Mengisi Data Secara Otomatis di Seluruh Lembar
- Jika Anda menangani sejumlah besar data yang tersebar di beberapa lembar, fitur ini akan mengubah segalanya. Aspose.Cells memungkinkan Anda untuk mengisi data secara otomatis di beberapa lembar kerja secara efisien, sehingga pengelolaan data menjadi lebih lancar dan cepat. Anda dapat menyederhanakan alur kerja dengan mentransfer data secara otomatis ke sel yang tepat.[Baca selengkapnya](./auto-populate-data-smart-markers/)
+## Adatok automatikus kitöltése a táblázatokban
+Ha nagy mennyiségű, több munkalapon szétszórt adatot kezel, ez a funkció forradalmi változást hozhat. Az Aspose.Cells lehetővé teszi az adatok hatékony automatikus feltöltését több munkalapon, így az adatkezelés gördülékenyebb és gyorsabb. A munkafolyamatokat egyszerűsítheti azáltal, hogy az adatokat automatikusan a megfelelő cellákba viszi át. [További információ](./auto-populate-data-smart-markers/)
 
-## Sisipkan Gambar dengan Penanda Gambar
- Visual membuat laporan lebih hidup! Dengan Aspose.Cells, Anda dapat menyisipkan gambar ke dalam berkas Excel menggunakan Image Markers. Pelajari cara mengintegrasikan visual secara langsung ke dalam sel Excel, sehingga menghasilkan laporan yang lebih informatif dan menarik secara visual yang akan mengesankan audiens Anda.[Baca selengkapnya](./insert-images-smart-markers/)
+## Képek beszúrása képjelölőkkel
+A vizuális elemek életet adnak a jelentéseknek! Az Aspose.Cells segítségével képeket illeszthetsz be Excel-fájljaidba képjelölők segítségével. Ismerd meg, hogyan integrálhatsz vizuális elemeket közvetlenül az Excel-celláidba, így informatívabb, vizuálisan vonzóbb jelentést hozhatsz létre, amely lenyűgözi a közönségedet. [További információ](./insert-images-smart-markers/)
 
-## Gunakan Rumus Dinamis di Penanda Cerdas
-Rumus dapat mengotomatiskan perhitungan, sehingga penanganan data menjadi mudah. Dengan Aspose.Cells, Anda dapat menggunakan rumus dinamis di Smart Markers, yang memungkinkan perhitungan diperbarui secara otomatis saat data baru ditambahkan. Fitur ini membantu membuat laporan yang beradaptasi dengan perubahan data, menghemat waktu, dan meningkatkan akurasi.[Baca selengkapnya](./dynamic-formulas-smart-markers/)
+## Dinamikus képletek használata az intelligens jelölőkben
+képletek automatizálhatják a számításokat, így az adatkezelés egyszerű. Az Aspose.Cells segítségével dinamikus képleteket használhat a Smart Markersben, lehetővé téve a számítások automatikus frissítését új adatok hozzáadásakor. Ez a funkció segít olyan jelentések létrehozásában, amelyek zökkenőmentesen alkalmazkodnak a változó adatokhoz, időt takarítva meg és javítva a pontosságot. [További információ](./dynamic-formulas-smart-markers/)
 
-## Kelompokkan Data dengan Penanda Cerdas
- Untuk data yang kompleks, mengelompokkannya ke dalam kelompok dapat menyederhanakan analisis. Aspose.Cells memungkinkan Anda mengelompokkan data menggunakan Smart Markers, yang secara otomatis menyusun informasi terkait dalam spreadsheet Anda. Tutorial ini memandu Anda dalam menyiapkan penanda pengelompokan, sehingga laporan Anda rapi dan mudah ditafsirkan.[Baca selengkapnya](./group-data-smart-markers/)
+## Adatok csoportosítása intelligens jelölőkkel
+Összetett adatok esetén a csoportokba rendezése leegyszerűsítheti az elemzést. Az Aspose.Cells lehetővé teszi az adatok intelligens jelölők segítségével történő csoportosítását, automatikusan strukturálva a kapcsolódó információkat a táblázatokban. Ez az oktatóanyag végigvezet a csoportosítási jelölők beállításán, hogy jelentései rendezettek és könnyen értelmezhetők legyenek. [További információ](./group-data-smart-markers/)
 
-## Menangani Objek Bersarang di Penanda Cerdas
- Menangani data hierarkis di Excel bisa jadi rumit. Namun, dengan Aspose.Cells, Smart Markers dapat mengelola objek bersarang untuk menangani struktur data yang kompleks tanpa kehilangan kejelasan. Panduan ini menunjukkan cara menerapkan Smart Markers untuk objek bersarang, membantu Anda menyajikan data terperinci secara akurat dalam laporan Anda.[Baca selengkapnya](./nested-objects-smart-markers/)
+## Beágyazott objektumok kezelése intelligens jelölőkben
+hierarchikus adatok kezelése Excelben bonyolult lehet. Az Aspose.Cells segítségével azonban az intelligens jelölők képesek kezelni a beágyazott objektumokat, hogy összetett adatszerkezeteket kezeljenek az áttekinthetőség feláldozása nélkül. Ez az útmutató bemutatja, hogyan valósítható meg az intelligens jelölők beágyazott objektumokhoz, segítve a részletes adatok pontos bemutatását a jelentésekben. [További információ](./nested-objects-smart-markers/)
 
-## Terapkan Atribut Gaya Salinan di Penanda Cerdas
- Membuat laporan yang tampak profesional sering kali melibatkan gaya khusus. Atribut Copy Style di Aspose.Cells Smart Markers memudahkan untuk mereplikasi gaya yang konsisten dari templat langsung ke lembar Excel yang Anda buat. Tutorial ini menyediakan pendekatan langkah demi langkah untuk menggunakan fitur ini, memastikan laporan Anda terlihat rapi dan seragam.[Baca selengkapnya](./copy-style-attribute-smart-markers/)
+## Másolási stílus attribútum alkalmazása intelligens jelölőkben
+A professzionális megjelenésű jelentések létrehozása gyakran speciális stílusokat igényel. Az Aspose.Cells Smart Markers Copy Style attribútuma megkönnyíti a sablonokból származó egységes stílusok másolását közvetlenül a létrehozott Excel-táblázatokba. Ez az oktatóanyag lépésről lépésre bemutatja a funkció használatát, biztosítva, hogy jelentései letisztultak és egységesek legyenek. [További információ](./copy-style-attribute-smart-markers/)
 
-## Gunakan Jenis Anonim dengan Penanda Cerdas
- Penanda Cerdas Aspose.Cells juga mendukung tipe anonim, yang memungkinkan entri data fleksibel tanpa struktur yang telah ditetapkan sebelumnya. Fitur ini sangat cocok untuk skenario di mana struktur data dapat berubah atau saat menangani data tidak terstruktur, sehingga memudahkan pengembang untuk beradaptasi dengan berbagai persyaratan.[Baca selengkapnya](./use-anonymous-types-smart-markers/)
+## Névtelen típusok használata intelligens jelölőkkel
+Az Aspose.Cells intelligens jelölői a névtelen típusokat is támogatják, lehetővé téve a rugalmas adatbevitelt előre definiált struktúrák nélkül. Ez a funkció tökéletes olyan helyzetekben, amikor az adatstruktúrák változhatnak, vagy strukturálatlan adatok kezelésekor, így a fejlesztők könnyebben alkalmazkodnak a változó követelményekhez. [További információ](./use-anonymous-types-smart-markers/)
 
-## Gunakan Properti HTML di Penanda Cerdas
-Tahukah Anda bahwa Anda dapat memasukkan konten HTML langsung ke lembar Excel Anda? Dengan Aspose.Cells, properti HTML memungkinkan Anda untuk menyematkan teks, tautan, dan gambar yang diformat langsung di dalam Smart Marker Anda. Fungsionalitas ini sangat cocok untuk membuat laporan yang tidak hanya berisi data tetapi juga menarik secara visual. Apakah Anda ingin menambahkan hyperlink ke sumber daya atau memberi gaya pada teks dengan warna dan font, tutorial ini akan memandu Anda melalui prosesnya.[Baca selengkapnya](./html-property-smart-markers/)
+## HTML tulajdonság használata intelligens jelölőkben
+Tudtad, hogy HTML tartalmat közvetlenül beilleszthetsz az Excel-táblázataidba? Az Aspose.Cells HTML tulajdonsága lehetővé teszi formázott szöveg, linkek és képek beágyazását közvetlenül az intelligens jelölőkbe. Ez a funkció tökéletes olyan jelentések létrehozásához, amelyek nemcsak adatokat tartalmaznak, hanem vizuálisan is vonzóak. Akár forrásokra mutató hiperhivatkozásokat szeretnél hozzáadni, akár színekkel és betűtípusokkal szeretnéd formázni a szöveget, ez az oktatóanyag végigvezet a folyamaton. [További információ](./html-property-smart-markers/)
 
-## Mengevaluasi IsBlank dengan Penanda Cerdas
- Mengelola nilai kosong dalam kumpulan data bisa merepotkan, tetapi Aspose.Cells menyederhanakannya dengan kemampuannya untuk mengevaluasi nilai kosong menggunakan Smart Markers. Fitur ini memungkinkan Anda untuk memeriksa sel kosong dengan mudah dan menyesuaikan logika pelaporan Anda. Dengan kemampuan ini, laporan Anda dapat secara otomatis menangani situasi ketika data mungkin hilang, memastikan audiens Anda menerima informasi yang jelas dan akurat. Temukan cara menerapkan fitur ini secara efektif dalam laporan Anda.[Baca selengkapnya](./evaluate-isblank-smart-markers/)
+## Az IsBlank kiértékelése intelligens jelölőkkel
+Az adathalmazokban lévő üres értékek kezelése macerás lehet, de az Aspose.Cells leegyszerűsíti ezt azáltal, hogy intelligens jelölők segítségével képes kiértékelni az üres értékeket. Ez a funkció lehetővé teszi az üres cellák egyszerű ellenőrzését, és ennek megfelelően módosíthatja a jelentéskészítési logikát. Ezzel a képességgel a jelentései automatikusan kezelik azokat a helyzeteket, ahol hiányozhatnak az adatok, biztosítva, hogy a közönség egyértelmű és pontos információkat kapjon. Fedezze fel, hogyan valósíthatja meg hatékonyan ezt a funkciót a jelentéseiben. [További információ](./evaluate-isblank-smart-markers/)
 
-## Menerapkan Array Variabel dengan Penanda Cerdas
- Apakah Anda sering menangani berbagai jumlah data? Fitur array variabel di Smart Markers memungkinkan Anda mengelola daftar data secara fleksibel. Ini berarti Anda dapat membuat laporan yang beradaptasi dengan berbagai ukuran kumpulan data tanpa harus mendesain ulang templat setiap saat. Dengan mempelajari cara menerapkan array variabel, Anda dapat menyederhanakan proses pelaporan dan meningkatkan penyajian data. Tutorial ini menguraikan langkah-langkah untuk membantu Anda memulai dengan array variabel dalam laporan Anda.[Baca selengkapnya](./variable-array-smart-markers/)
+## Változó tömb megvalósítása intelligens jelölőkkel
+Gyakran dolgozik változó mennyiségű adattal? A Smart Markers változó tömb funkciója lehetővé teszi az adatlisták rugalmas kezelését. Ez azt jelenti, hogy olyan jelentéseket készíthet, amelyek alkalmazkodnak a különböző méretű adathalmazokhoz anélkül, hogy minden alkalommal újra kellene terveznie a sablonokat. A változó tömbök megvalósításának elsajátításával egyszerűsítheti jelentéskészítési folyamatait és javíthatja az adatok megjelenítését. Ez az oktatóanyag lebontja a lépéseket, amelyek segítenek elkezdeni a változó tömbök használatát a jelentéseiben. [További információ](./variable-array-smart-markers/)
 
-## Gunakan Daftar Umum di Penanda Cerdas
-Fleksibilitas Daftar Umum memungkinkan pengembang untuk menangani data secara terstruktur tanpa kehilangan kinerja. Dalam tutorial ini, Anda akan mempelajari cara memanfaatkan Daftar Umum dengan Penanda Cerdas untuk membuat laporan Excel yang tangguh dan dinamis. Pendekatan ini memastikan bahwa Anda dapat dengan mudah memanipulasi kumpulan data sambil mempertahankan keamanan dan kinerja tipe yang kuat dalam aplikasi Anda. Ikuti terus untuk melihat bagaimana hal ini dapat menguntungkan pembuatan laporan Anda.[Baca selengkapnya](./generic-list-smart-markers/)
+## Általános lista használata az intelligens jelölőkben
+Az általános listák rugalmassága lehetővé teszi a fejlesztők számára, hogy strukturált módon kezeljék az adatokat a teljesítmény feláldozása nélkül. Ebben az oktatóanyagban megtanulod, hogyan használhatod ki az általános listákat intelligens jelölőkkel robusztus, dinamikus Excel-jelentések létrehozásához. Ez a megközelítés biztosítja, hogy könnyedén kezelhesd az adatgyűjteményeket, miközben megőrzöd az erős típusbiztonságot és teljesítményt az alkalmazásaidban. Kövesd a cikket, hogy megtudd, hogyan segíthet ez a jelentéskészítésben. [További információ](./generic-list-smart-markers/)
 
-## Penanda Cerdas di Aspose.Cells untuk Tutorial Data Dinamis
-### [Tambahkan Label Kustom dengan Penanda Cerdas di Aspose.Cells](./add-custom-labels-smart-markers/)
-Manfaatkan kekuatan Aspose.Cells untuk .NET untuk menambahkan label kustom dan penanda cerdas ke dokumen Excel Anda. Ikuti tutorial langkah demi langkah ini dan buat laporan yang dinamis dan menarik secara visual.
-### [Mengisi Data Secara Otomatis di Seluruh Lembar di Aspose.Cells](./auto-populate-data-smart-markers/)
-Temukan cara mengisi data secara otomatis di beberapa lembar kerja di Excel menggunakan pustaka Aspose.Cells for .NET. Pelajari proses langkah demi langkah untuk menyederhanakan tugas pengelolaan data Anda.
-### [Salin Gaya dengan Penanda Cerdas di Aspose.Cells .NET](./copy-style-smart-marker/)
-Salin gaya dan format dari berkas templat ke keluaran Excel yang Anda buat dengan mudah. Tutorial lengkap ini memandu Anda melalui proses langkah demi langkah.
-### [Gunakan Rumus Dinamis di Penanda Cerdas Aspose.Cells](./dynamic-formulas-smart-markers/)
-Pelajari cara menggunakan rumus dinamis di Smart Markers dengan Aspose.Cells untuk .NET, yang menyempurnakan proses pembuatan laporan Excel Anda.
-### [Mengevaluasi IsBlank dengan Penanda Cerdas di Aspose.Cells](./evaluate-isblank-smart-markers/)
-Sempurnakan berkas Excel Anda dengan penanda cerdas untuk mengevaluasi nilai kosong secara efisien menggunakan Aspose.Cells untuk .NET. Pelajari caranya dalam panduan langkah demi langkah ini.
-### [Kelompokkan Data dengan Penanda Cerdas di Aspose.Cells .NET](./group-data-smart-markers/)
-Kelompokkan data dengan mudah menggunakan smart marker di Aspose.Cells for .NET. Ikuti panduan lengkap kami untuk petunjuk langkah demi langkah.
-### [Menyisipkan Gambar dengan Penanda Gambar di Aspose.Cells](./insert-images-smart-markers/)
-Temukan cara menyisipkan gambar menggunakan penanda gambar di Aspose.Cells untuk .NET dengan panduan langkah demi langkah kami! Sempurnakan laporan Excel Anda dengan visual secara efektif.
-### [Gunakan Tipe Anonim dengan Penanda Cerdas Aspose.Cells](./use-anonymous-types-smart-markers/)
-Pelajari cara menggunakan tipe anonim dengan penanda cerdas di Aspose.Cells untuk pembuatan laporan Excel yang dinamis di .NET. Ikuti panduan mudah kami.
-### [Terapkan Atribut Gaya Salin di Penanda Cerdas Aspose.Cells](./copy-style-attribute-smart-markers/)
-Temukan kekuatan Aspose.Cells untuk .NET dan pelajari cara menerapkan atribut gaya salin dengan mudah di Excel Smart Markers. Tutorial komprehensif ini mencakup petunjuk langkah demi langkah.
-### [Gunakan Parameter Rumus di Bidang Penanda Cerdas Aspose.Cells](./formula-parameter-smart-marker/)
-Pelajari cara menggunakan parameter rumus dalam penanda cerdas dengan Aspose.Cells untuk .NET. Buat lembar kerja dinamis dengan mudah.
-### [Gunakan Daftar Umum di Penanda Cerdas Aspose.Cells](./generic-list-smart-markers/)
-Kuasai Aspose.Cells untuk .NET dengan Daftar Umum dan Penanda Cerdas untuk membuat laporan Excel yang dinamis dengan mudah. Panduan mudah bagi pengembang.
-### [Menggunakan Properti HTML di Penanda Cerdas Aspose.Cells .NET](./html-property-smart-markers/)
-Buka kekuatan Aspose.Cells dengan tutorial langkah demi langkah tentang penggunaan properti HTML dalam penanda pintar untuk aplikasi .NET.
-### [Menangani Objek Bersarang dengan Penanda Cerdas Aspose.Cells](./nested-objects-smart-markers/)
-Buka potensi pelaporan Excel dengan Aspose.Cells dengan menangani objek bersarang dengan mudah menggunakan Penanda Cerdas dalam panduan langkah demi langkah.
-### [Menerapkan Array Variabel dengan Penanda Cerdas Aspose.Cells](./variable-array-smart-markers/)
-Manfaatkan kekuatan Aspose.Cells. Pelajari cara mengimplementasikan array variabel dengan Smart Markers langkah demi langkah untuk pembuatan laporan Excel yang lancar.
+## Intelligens jelölők az Aspose.Cells-ben dinamikus adatokhoz - Oktatóanyagok
+### [Egyéni címkék hozzáadása intelligens jelölőkkel az Aspose.Cells-ben](./add-custom-labels-smart-markers/)
+Használd ki az Aspose.Cells for .NET erejét, hogy egyéni címkéket és intelligens jelölőket adhass Excel-dokumentumaidhoz. Kövesd ezt a lépésről lépésre szóló útmutatót, és készíts dinamikus, vizuálisan vonzó jelentéseket.
+### [Adatok automatikus kitöltése a munkalapok között az Aspose.Cells-ben](./auto-populate-data-smart-markers/)
+Ismerje meg, hogyan töltheti ki automatikusan az adatokat több munkalapon Excelben az Aspose.Cells for .NET könyvtár segítségével. Ismerje meg a lépésről lépésre haladó folyamatot az adatkezelési feladatok egyszerűsítéséhez.
+### [Stílus másolása Smart Markerrel az Aspose.Cells .NET-ben](./copy-style-smart-marker/)
+Könnyedén másolhat stílusokat és formátumokat egy sablonfájlból a létrehozott Excel-kimenetbe. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti Önt a folyamaton.
+### [Dinamikus képletek használata az intelligens jelölőkben (Aspose.Cells)](./dynamic-formulas-smart-markers/)
+Tanulja meg, hogyan használhat dinamikus képleteket a Smart Markersben az Aspose.Cells for .NET segítségével, és hogyan javíthatja Excel-jelentéskészítési folyamatát.
+### [Az IsBlank kiértékelése intelligens jelölőkkel az Aspose.Cells fájlban](./evaluate-isblank-smart-markers/)
+Javítsa Excel-fájljait intelligens jelölőkkel, hogy hatékonyan kiértékelhesse az üres értékeket az Aspose.Cells for .NET használatával. Ismerje meg, hogyan kell ezt megtenni ebben a lépésről lépésre szóló útmutatóban.
+### [Adatok csoportosítása intelligens jelölőkkel az Aspose.Cells .NET-ben](./group-data-smart-markers/)
+Csoportosítsd könnyedén az adatokat intelligens jelölőkkel az Aspose.Cells for .NET-ben. Kövesd átfogó útmutatónkat a lépésenkénti utasításokért.
+### [Képek beszúrása képjelölőkkel az Aspose.Cells fájlba](./insert-images-smart-markers/)
+Fedezd fel, hogyan szúrhatsz be képeket képjelölők segítségével az Aspose.Cells for .NET programban lépésről lépésre bemutató útmutatónkkal! Dobd fel hatékonyan Excel-jelentéseidet vizuális elemekkel.
+### [Névtelen típusok használata intelligens jelölőkkel Aspose.Cells](./use-anonymous-types-smart-markers/)
+Tanuld meg, hogyan használhatsz anonim típusokat intelligens jelölőkkel az Aspose.Cells-ben dinamikus Excel-jelentéskészítéshez .NET-ben. Kövesd az egyszerű útmutatónkat.
+### [Másolási stílus attribútum alkalmazása az Aspose.Cells intelligens jelölőkben](./copy-style-attribute-smart-markers/)
+Fedezd fel az Aspose.Cells for .NET erejét, és tudd meg, hogyan alkalmazhatsz könnyedén másolási stílus attribútumokat az Excel Smart Markersben. Ez az átfogó oktatóanyag lépésről lépésre bemutatja a teendőket.
+### [Képletparaméter használata az Aspose.Cells intelligens jelölőmezőben](./formula-parameter-smart-marker/)
+Tanuld meg a képletparaméterek használatát az intelligens jelölőkben az Aspose.Cells for .NET segítségével. Hozz létre dinamikus táblázatokat könnyedén.
+### [Általános lista használata az intelligens markerekben az Aspose.Cells függvényben](./generic-list-smart-markers/)
+Sajátítsa el az Aspose.Cells for .NET-et általános listákkal és intelligens jelölőkkel, hogy könnyedén készíthessen dinamikus Excel-jelentéseket. Könnyen használható útmutató fejlesztőknek.
+### [HTML tulajdonságok használata intelligens jelölőkben Aspose.Cells .NET](./html-property-smart-markers/)
+Engedd szabadjára az Aspose.Cells erejét ezzel a lépésről lépésre haladó oktatóanyaggal, amely bemutatja a HTML tulajdonság használatát az intelligens jelölőkben .NET alkalmazásokhoz.
+### [Beágyazott objektumok kezelése intelligens jelölőkkel Aspose.Cells](./nested-objects-smart-markers/)
+Az Aspose.Cells segítségével lépésről lépésre haladva könnyedén kezelheted a beágyazott objektumokat intelligens jelölők segítségével, így az Excel-jelentéskészítésben rejlő lehetőségeket is kihasználhatod.
+### [Változó tömb implementálása intelligens jelölőkkel Aspose.Cells](./variable-array-smart-markers/)
+Engedd szabadjára az Aspose.Cells erejét. Tanuld meg, hogyan valósíthatsz meg változó tömböket intelligens jelölőkkel lépésről lépésre a zökkenőmentes Excel-jelentéskészítéshez.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ I den här artikeln ska vi utforska hur man:
 - Få åtkomst till specifika arbetsblad och former i arbetsboken.
 - Extrahera text från SmartArt-former effektivt.
 
-När du har läst igenom den här guiden kommer du att vara skicklig på att manipulera Excel-filer programmatiskt. Nu börjar vi med att konfigurera din miljö!
+När den här guiden är klar kommer du att vara skicklig på att manipulera Excel-filer programmatiskt. Nu börjar vi med att konfigurera din miljö!
 
 ## Förkunskapskrav
 
@@ -198,6 +200,9 @@ Nästa steg inkluderar att utforska ytterligare funktioner i Aspose.Cells, som a
 Ge dig ut på din resa med Aspose.Cells för Java idag och lås upp den fulla potentialen hos Excel-filbehandling!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

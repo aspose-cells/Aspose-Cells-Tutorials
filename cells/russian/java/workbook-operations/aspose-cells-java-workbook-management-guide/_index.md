@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 **Что вы узнаете:**
 - Извлечь и отобразить версию Aspose.Cells для Java.
 - Создавайте рабочие книги, соответствующие формату электронных таблиц ISO 29500-2008 Strict Open XML.
-- Добавьте данные в ячейки и сохраните книгу в желаемых форматах.
+- Добавьте данные в ячейки и сохраните книгу в нужных форматах.
 - Оптимизируйте производительность при работе с большими файлами Excel.
 
 Давайте рассмотрим необходимые условия, которые вам понадобятся для начала этого захватывающего путешествия!
@@ -173,6 +175,9 @@ A5: Посетите официальную документацию по адр
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

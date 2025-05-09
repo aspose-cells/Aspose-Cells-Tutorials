@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aspose.Cells for Java rất linh hoạt và có thể được sử dụng trong
 Trong suốt hướng dẫn này, bạn đã học cách tạo và định dạng tài liệu Excel bằng Aspose.Cells for Java. Bằng cách thành thạo các kỹ thuật này, bạn có thể cải thiện đáng kể khả năng xử lý các tác vụ bảng tính phức tạp của ứng dụng một cách hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

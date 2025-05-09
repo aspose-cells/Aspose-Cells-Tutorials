@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ A5: Có, lặp qua thư mục các tệp Excel và áp dụng logic chuyển đ�
 Hãy thực hiện bước tiếp theo để thành thạo Aspose.Cells for Java và tận dụng toàn bộ tiềm năng của nó để nâng cao các dự án trình bày dữ liệu của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Mengelola nilai sel dalam file Excel secara terprogram merupakan tugas umum yang dihadapi pengembang, terutama saat menangani penyimpanan dan pemformatan data. Tantangan dalam menyimpan awalan tanda kutip tunggal dalam nilai sel dapat menjadi hal yang menakutkan, tetapi sangat penting untuk menjaga integritas data. Panduan lengkap ini akan memandu Anda menggunakan Aspose.Cells untuk Java untuk menangani fitur khusus ini secara efektif.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Cara mengelola awalan tanda kutip tunggal dalam sel Excel.
 - Menerapkan StyleFlag untuk mengontrol properti gaya sel.
 - Menyiapkan dan mengonfigurasi pustaka Aspose.Cells.
@@ -26,11 +28,11 @@ Mengelola nilai sel dalam file Excel secara terprogram merupakan tugas umum yang
 
 Mari jelajahi bagaimana Anda dapat memanfaatkan Aspose.Cells Java untuk tugas-tugas ini, memastikan data Anda tetap utuh dan diformat secara akurat.
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következők a helyén vannak:
 
-- **Perpustakaan dan Ketergantungan**: Anda akan memerlukan Aspose.Cells untuk Java. Sertakan dalam proyek Anda menggunakan Maven atau Gradle.
+- **Könyvtárak és függőségek**: Anda akan memerlukan Aspose.Cells untuk Java. Sertakan dalam proyek Anda menggunakan Maven atau Gradle.
   
   **Pakar**:
   ```xml
@@ -46,33 +48,33 @@ Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
   compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
   ```
 
-- **Pengaturan Lingkungan**Pastikan Java terinstal pada sistem Anda dan dikonfigurasi dengan benar untuk menjalankan Aspose.Cells.
+- **Környezet beállítása**Pastikan Java terinstal pada sistem Anda dan dikonfigurasi dengan benar untuk menjalankan Aspose.Cells.
 
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan manipulasi data Excel direkomendasikan.
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan manipulasi data Excel direkomendasikan.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
 Untuk mulai bekerja dengan Aspose.Cells, Anda perlu menyiapkan pustaka di proyek Anda. Berikut caranya:
 
-1. **Instalasi**: Tambahkan ketergantungan ke Maven Anda `pom.xml` atau berkas build Gradle seperti ditunjukkan di atas.
-2. **Akuisisi Lisensi**:
-   - Dapatkan lisensi uji coba gratis dari [Asumsikan](https://purchase.aspose.com/buy) untuk menguji kemampuan penuh Aspose.Cells.
+1. **Telepítés**: Tambahkan ketergantungan ke Maven Anda `pom.xml` atau berkas build Gradle seperti ditunjukkan di atas.
+2. **Licencszerzés**:
+   - Dapatkan lisensi uji coba gratis dari [Aspose](https://purchase.aspose.com/buy) az Aspose.Cells teljes képességeinek tesztelésére.
    - Untuk penggunaan produksi, Anda dapat membeli lisensi atau meminta lisensi sementara untuk tujuan evaluasi.
 
-3. **Inisialisasi Dasar**: 
-   Mulailah dengan membuat contoh `Workbook` kelas dan mengakses lembar kerjanya:
+3. **Alapvető inicializálás**: 
+   Kezdje egy példány létrehozásával a `Workbook` kelas dan mengakses lembar kerjanya:
    ```java
    Workbook workbook = new Workbook();
    Worksheet worksheet = workbook.getWorksheets().get(0);
    ```
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 #### Pertahankan Awalan Kutipan Tunggal dari Nilai Sel
 
 Fitur ini memungkinkan Anda mengelola apakah teks sel di Excel diawali dengan tanda kutip tunggal, penting untuk mempertahankan apostrof di depan.
 
-**Ringkasan**: 
+**Áttekintés**: 
 Kami akan menjelajahi cara memeriksa dan mengatur `QuotePrefix` properti menggunakan Aspose.Cells. 
 
 ##### Langkah 1: Mengakses Sel dan Gaya
@@ -95,10 +97,10 @@ boolean updatedQuotePrefix = style.getQuotePrefix(); // Diharapkan: benar
 
 #### Penggunaan StyleFlag untuk Mengontrol Properti Gaya Sel
 
-Fitur ini menunjukkan bagaimana Anda dapat menerapkan properti gaya secara selektif menggunakan `StyleFlag` kelas.
+Fitur ini menunjukkan bagaimana Anda dapat menerapkan properti gaya secara selektif menggunakan `StyleFlag` osztály.
 
-**Ringkasan**: 
-Menggunakan `StyleFlag` untuk mengontrol apakah atribut gaya tertentu, seperti `QuotePrefix`, diterapkan.
+**Áttekintés**: 
+Használat `StyleFlag` untuk mengontrol apakah atribut gaya tertentu, seperti `QuotePrefix`, diterapkan.
 
 ##### Langkah 1: Membuat Gaya dan StyleFlag
 
@@ -133,31 +135,31 @@ style = worksheet.getCells().get("A1").getStyle();
 boolean quotePrefixTrue = style.getQuotePrefix(); // Diharapkan: salah (diperbarui)
 ```
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 Mengelola pemformatan sel Excel menggunakan Aspose.Cells memiliki banyak aplikasi praktis:
 
-1. **Impor/Ekspor Data**Pastikan integritas data saat mengimpor atau mengekspor kumpulan data ke dan dari Excel.
-2. **Laporan Keuangan**Pertahankan format mata uang dengan mengendalikan awalan kutipan untuk nilai.
-3. **Manajemen Inventaris**: Pertahankan kode dan deskripsi produk yang akurat dengan format yang sesuai.
+1. **Adatok importálása/exportálása**Pastikan integritas data saat mengimpor atau mengekspor kumpulan data ke dan dari Excel.
+2. **Pénzügyi jelentések**Pertahankan format mata uang dengan mengendalikan awalan kutipan untuk nilai.
+3. **Készletgazdálkodás**: Pertahankan kode dan deskripsi produk yang akurat dengan format yang sesuai.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar, mengoptimalkan kinerja sangatlah penting:
 
-- **Manajemen Memori**: Kelola penggunaan memori Java secara efisien saat menangani file Excel yang luas dengan Aspose.Cells.
-- **Pemrosesan Batch**: Memproses sel secara batch untuk mengurangi overhead memori.
-- **Operasi Asinkron**: Gunakan metode asinkron jika memungkinkan untuk meningkatkan respons aplikasi.
+- **Memóriakezelés**: Kelola penggunaan memori Java secara efisien saat menangani file Excel yang luas dengan Aspose.Cells.
+- **Kötegelt feldolgozás**: Memproses sel secara batch untuk mengurangi overhead memori.
+- **Aszinkron műveletek**: Gunakan metode asinkron jika memungkinkan untuk meningkatkan respons aplikasi.
 
-### Kesimpulan
+### Következtetés
 
 Anda sekarang telah mempelajari cara menggunakan Aspose.Cells secara efektif untuk Java untuk mengelola awalan kutipan nilai sel dan memanfaatkan `StyleFlag` untuk kontrol gaya yang presisi. Teknik-teknik ini memastikan data disimpan secara akurat dan efisien dalam berkas Excel Anda, sehingga Anda memiliki fleksibilitas lebih besar dalam menangani berbagai tugas manipulasi data.
 
-#### Langkah Berikutnya:
+#### Következő lépések:
 - Jelajahi fitur tambahan yang ditawarkan oleh Aspose.Cells seperti perhitungan rumus dan pembuatan bagan.
 - Integrasikan kemampuan ini ke dalam aplikasi Java yang lebih besar untuk solusi manajemen data yang komprehensif.
 
-### Bagian FAQ
+### GYIK szekció
 
 **1. Bagaimana saya dapat menangani kumpulan data besar secara efisien menggunakan Aspose.Cells?**
    - Optimalkan penggunaan memori dengan memproses data dalam potongan-potongan dan memanfaatkan operasi asinkron jika memungkinkan.
@@ -169,23 +171,26 @@ Anda sekarang telah mempelajari cara menggunakan Aspose.Cells secara efektif unt
    - Ya, Anda dapat menerapkan aturan pemformatan bersyarat untuk menyesuaikan gaya sel secara dinamis.
 
 **4. Bagaimana cara mendapatkan lisensi sementara untuk menguji Aspose.Cells?**
-   - Kunjungi [Situs web Aspose](https://purchase.aspose.com/temporary-license/) dan meminta lisensi sementara untuk tujuan evaluasi.
+   - Látogassa meg a [Aspose weboldal](https://purchase.aspose.com/temporary-license/) dan meminta lisensi sementara untuk tujuan evaluasi.
 
 **5. Apakah mungkin untuk mengotomatisasi tugas Excel menggunakan Aspose.Cells di Java?**
    - Tentu saja, Aspose.Cells menyediakan fungsionalitas yang luas untuk mengotomatiskan manipulasi data, pemformatan, dan pembuatan laporan dalam file Excel.
 
-### Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Produk Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
+### Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Beli Produk Aspose](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Aspose ingyenes próbaverziók](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan ini, Anda kini siap mengelola awalan kutipan sel Excel dengan Aspose.Cells untuk Java secara efisien. Mulailah menerapkan teknik ini dalam proyek Anda hari ini!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

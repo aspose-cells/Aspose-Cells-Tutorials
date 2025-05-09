@@ -8,7 +8,9 @@ url: /net/error-handling-and-customization-in-aspose-cells/ignore-errors-while-r
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ignore Errors in Excel to PDF Rendering with Aspose.Cells
@@ -86,6 +88,7 @@ Yes! You can try out Aspose.Cells for free by downloading it [here](https://rele
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

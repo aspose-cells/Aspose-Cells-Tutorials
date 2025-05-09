@@ -8,7 +8,9 @@ url: /net/security-and-encryption/detect-file-format-of-encrypted-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detect File Format of Encrypted Files in .NET
@@ -86,6 +88,7 @@ You can explore comprehensive documentation on Aspose.Cells [here](https://refer
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

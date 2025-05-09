@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,6 +171,9 @@ Die Beherrschung der Spalteniteration mit Aspose.Cells eröffnet Ihnen vielfält
 Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells und revolutionieren Sie die Art und Weise, wie Sie Excel-Daten in Java verarbeiten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

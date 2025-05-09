@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ license.setLicense("path_to_your_license.lic");
 **कार्यान्वयन चरण:**
 1. **स्वतः पुनर्प्राप्ति को असत्य पर सेट करें:**
    ```java
-   workbook.getSettings().setAutoRecover(false); // स्वतः पुनर्प्राप्ति सुविधा को अक्षम करना
+   workbook.getSettings().setAutoRecover(false); // ऑटोरिकवरी सुविधा को अक्षम करना
    ```
 
 ### कार्यपुस्तिका सहेजें
@@ -180,6 +182,9 @@ license.setLicense("path_to_your_license.lic");
 - **सहायता**: चर्चा में शामिल हों और मदद लें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

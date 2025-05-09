@@ -8,7 +8,9 @@ url: /net/row-and-column-management/summary-row-below/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Summary Row Below with Aspose.Cells for .NET
@@ -83,6 +85,7 @@ You can visit the [documentation](https://reference.aspose.com/cells/net/) for d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,64 +1,66 @@
 ---
-title: Membuka Kunci Lembar Kerja Excel yang Dilindungi Kata Sandi
-linktitle: Membuka Kunci Lembar Kerja Excel yang Dilindungi Kata Sandi
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara membuka kunci lembar kerja Excel yang dilindungi kata sandi menggunakan Aspose.Cells untuk .NET. Tutorial langkah demi langkah dalam C#.
-weight: 10
-url: /id/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
+"description": "Tanuld meg, hogyan oldhatsz fel jelszóval védett Excel-táblázatot az Aspose.Cells for .NET használatával. Lépésről lépésre C# nyelven."
+"linktitle": "Jelszóval védett Excel-munkalap feloldása"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Jelszóval védett Excel-munkalap feloldása"
+"url": "/id/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuka Kunci Lembar Kerja Excel yang Dilindungi Kata Sandi
+# Jelszóval védett Excel-munkalap feloldása
 
-## Perkenalan
+## Bevezetés
 
-Pernahkah Anda merasa terkunci di luar lembar kerja Excel, menatap data yang tidak dapat diedit, dan berharap ada jalan masuk? Kita semua pernah mengalaminya! Proteksi kata sandi bisa menjadi pedang bermata dua: ia memberikan keamanan tetapi terkadang terasa lebih seperti penjara. Untungnya, jika Anda seorang pengembang atau seseorang yang nyaman dengan pemrograman .NET, Aspose.Cells siap membantu Anda, memungkinkan Anda membuka lembar kerja yang dilindungi tersebut dengan mudah. Dalam panduan ini, kami akan memandu Anda melalui langkah-langkah untuk membuka lembar kerja Excel yang dilindungi kata sandi menggunakan Aspose.Cells untuk .NET. 
+Előfordult már veled, hogy kizáródtál egy Excel-munkalapból, a szerkeszthetetlen adatokra meredve, és visszavágásra vágyva vártál? Mindannyian jártunk már így! A jelszóvédelem kétélű fegyver lehet: biztonságot nyújt, de néha inkább börtönnek érződik. Szerencsére, ha fejlesztő vagy, vagy jártas vagy a .NET programozásban, az Aspose.Cells a segítségedre lesz, lehetővé téve a védett munkalapok könnyedén feloldását. Ebben az útmutatóban végigvezetünk a jelszóval védett Excel-munkalap Aspose.Cells for .NET használatával történő feloldásának lépésein. 
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita masuk ke inti cara membuka lembar kerja tersebut, ada beberapa hal yang perlu Anda siapkan:
+Mielőtt belemennénk a munkalap feloldásának részleteibe, van néhány dolog, amire szükséged lesz:
 
-### Lingkungan .NET
+### .NET környezet
 
-Anda memerlukan lingkungan .NET yang berfungsi. Jika Anda belum siap, pertimbangkan untuk memasang Visual Studio atau IDE .NET lain yang Anda sukai. 
+Szükséged van egy működő .NET környezetre. Ha még nem állsz készen, érdemes lehet telepíteni a Visual Studio-t vagy bármely más általad preferált .NET IDE-t. 
 
-### Aspose.Cells untuk .NET
+### Aspose.Cells .NET-hez
 
- Anda perlu memiliki Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) Pastikan Anda membiasakan diri dengan dokumentasi, yang dapat ditemukan[Di Sini](https://reference.aspose.com/cells/net/).
+Szükséged lesz az Aspose.Cells for .NET-re. Letöltheted innen: [itt](https://releases.aspose.com/cells/net/). Mindenképpen ismerkedjen meg a dokumentációval, amely megtalálható [itt](https://reference.aspose.com/cells/net/).
 
-### Pengetahuan Dasar Coding
+### Alapvető kódolási ismeretek
 
-Sedikit pengetahuan dasar pemrograman dalam C# atau VB.NET akan sangat membantu. Jika Anda sudah menguasainya, Anda sudah siap!
+Egy kis alapvető C# vagy VB.NET programozási ismeret sokat segíthet. Ha ezekkel tisztában vagy, akkor minden készen állsz!
 
-## Paket Impor
+## Csomagok importálása
 
-Pertama-tama, kita perlu membawa paket-paket yang diperlukan untuk proyek kita. Mari kita uraikan ini langkah demi langkah.
+Először is, be kell hoznunk a szükséges csomagokat a projektünkbe. Nézzük meg lépésről lépésre.
 
-### Buat Proyek Baru
+### Új projekt létrehozása
 
-Untuk memulai, buka Visual Studio Anda dan buat proyek baru. 
+Kezdéshez nyisd meg a Visual Studio-t, és hozz létre egy új projektet. 
 
-1. Buka Visual Studio. 
-2. Pilih "Buat Proyek Baru."
-3. Pilih "Perpustakaan Kelas" atau "Aplikasi Konsol" berdasarkan preferensi Anda.
-4. Tetapkan rincian proyek yang diperlukan dan klik "Buat."
+1. Nyisd meg a Visual Studio-t. 
+2. Válassza az „Új projekt létrehozása” lehetőséget.
+3. Válassza az „Osztálytár” vagy a „Konzolalkalmazás” lehetőséget az Ön preferenciái alapján.
+4. Állítsa be a szükséges projektadatokat, majd kattintson a „Létrehozás” gombra.
 
-### Tambahkan Referensi Aspose.Cells
+### Aspose.Cells hivatkozás hozzáadása
 
-Sekarang, kita perlu merujuk Aspose.Cells dalam proyek kita.
+Most az Aspose.Cells-re kell hivatkoznunk a projektünkben.
 
-1. Klik kanan pada "Referensi" di Solution Explorer.
-2. Pilih "Kelola Paket NuGet."
-3. Cari "Aspose.Cells" dan instal paketnya.
+1. Kattintson a jobb gombbal a „Referenciák” elemre a Megoldáskezelőben.
+2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Keresd meg az „Aspose.Cells” csomagot, és telepítsd.
 
-Nah, itu dia! Anda sudah siap untuk mulai membuat kode!
+És tessék! Készen is vagy a kódolásra!
 
-### Tambahkan Pernyataan Penggunaan
+### Hozzáadás utasítások használatával
 
-Buka berkas C# Anda dan tambahkan perintah berikut di bagian atas:
+Nyisd meg a C# fájlodat, és add hozzá a következőket a tetején található direktívák használatával:
 
 ```csharp
 using System.IO;
@@ -66,61 +68,61 @@ using System;
 using Aspose.Cells;
 ```
 
-Sekarang, mari kita masuk ke inti tutorial ini. Kita akan menggunakan sepotong kode sederhana untuk membuka lembar kerja yang mengganggu itu. Kita akan menguraikannya lebih lanjut menjadi beberapa langkah mudah.
+Most pedig térjünk rá a bemutató lényegére. Egy egyszerű kódrészletet fogunk használni a bosszantó munkalap feloldásához. Ezután további egyszerű lépésekre bontjuk.
 
-## Langkah 1: Tentukan Jalur Dokumen
+## 1. lépés: A dokumentum elérési útjának meghatározása
 
-Pertama-tama, kita perlu mengatur jalur dokumen Excel kita. Di sinilah Anda akan menentukan lokasi file Excel Anda. 
+Először is be kell állítanunk az Excel-dokumentum elérési útját. Itt adhatjuk meg, hogy hol található az Excel-fájl. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Tip: Ganti`"YOUR DOCUMENT DIRECTORY"` dengan jalur sebenarnya tempat file Excel Anda (sebut saja`book1.xls`) berada. 
+Tipp: Cserélje ki `"YOUR DOCUMENT DIRECTORY"` az Excel-fájl tényleges elérési útjával (nevezzük úgy, hogy `book1.xls`) található. 
 
-## Langkah 2: Membuat Instansi Objek Buku Kerja
+## 2. lépés: Munkafüzet-objektum példányosítása
 
-Selanjutnya, kita perlu membuat contoh kelas Workbook. Objek ini mewakili berkas Excel dalam kode Anda.
+Következő lépésként létre kell hoznunk a Workbook osztály egy példányát. Ez az objektum az Excel fájlt képviseli a kódodban.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
-Baris ini membaca berkas Excel yang ditentukan dan memuatnya ke dalam memori sehingga kita dapat berinteraksi dengannya.
+Ez a sor beolvassa a megadott Excel fájlt, és betölti azt a memóriába, hogy interakcióba léphessünk vele.
 
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: A munkalap elérése
 
-Setiap buku kerja Excel berisi lembar kerja, dan kita ingin mengakses lembar kerja yang ingin kita buka kuncinya. 
+Minden Excel munkafüzet tartalmaz munkalapokat, és mi ahhoz szeretnénk hozzáférni, amelyiket fel akarjuk oldani. 
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Di sini, kita mengakses lembar kerja pertama di buku kerja kita. Jika lembar kerja Anda terletak di tempat lain (misalnya, indeks lembar 1), Anda dapat menyesuaikan indeksnya.
+Itt a munkafüzetünk első munkalapját érjük el. Ha a munkalap máshol található (például az 1-es munkalapindexnél), akkor ennek megfelelően módosíthatja az indexet.
 
-## Langkah 4: Buka Proteksi Lembar Kerja
+## 4. lépés: A munkalap védelmének feloldása
 
-Inilah bagian ajaibnya! 
+Ez a varázslatos rész! 
 
 ```csharp
 worksheet.Unprotect("");
 ```
 
- Jika lembar kerja Anda dilindungi dengan kata sandi dan Anda mengetahui kata sandinya, Anda akan mengganti string kosong`""` dengan kata sandi yang sebenarnya. Jika Anda tidak mengetahuinya, biarkan saja kosong dan jalankan untuk melihat apakah berhasil.
+Ha a munkalap jelszóval védett, és ismeri a jelszót, akkor az üres karakterláncot kell helyettesítenie `""` a tényleges jelszóval. Ha nem tudod, hagyd üresen, és futtasd le, hogy működik-e.
 
-## Langkah 5: Simpan Buku Kerja
+## 5. lépés: A munkafüzet mentése
 
-Sekarang setelah kita membuka proteksi pada lembar kerja, waktunya untuk menyimpan perubahan. 
+Most, hogy feloldottuk a munkalap védelmét, itt az ideje menteni a módosításokat. 
 
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Baris ini menyimpan buku kerja dengan nama baru untuk memastikan kita tidak menimpa file asli. 
+Ez a sor új néven menti a munkafüzetet, hogy biztosan ne írjuk felül az eredeti fájlt. 
 
-## Langkah 6: Penanganan Pengecualian
+## 6. lépés: Kivételkezelés
 
-Terakhir, mari kita tangani masalah potensial apa pun yang mungkin timbul. 
+Végül pedig foglalkozzunk az esetlegesen felmerülő problémákkal. 
 
 ```csharp
 catch (Exception ex)
@@ -130,31 +132,33 @@ catch (Exception ex)
 }
 ```
 
-Blok tangkapan ini akan menampilkan kesalahan apa pun yang mungkin Anda temui, sehingga Anda dapat men-debugnya dengan mudah. 
+Ez a catch blokk megjeleníti az esetleges hibákat, így könnyen kijavíthatod őket. 
 
-## Kesimpulan
+## Következtetés
 
-Dan itu dia! Anda telah berhasil membuka lembar kerja Excel yang dilindungi kata sandi menggunakan Aspose.Cells untuk .NET. Hanya dengan beberapa baris kode, Anda dapat memperoleh kembali akses ke data penting Anda. Kekuatan dan fleksibilitas ada di ujung jari Anda dengan pustaka hebat ini. Sempurna bagi pengembang yang ingin menyederhanakan interaksi Microsoft Excel mereka, Aspose.Cells bukan hanya alat yang efisien — tetapi juga alat yang penting.
+És íme! Sikeresen feloldott egy jelszóval védett Excel-munkalapot az Aspose.Cells for .NET segítségével. Mindössze néhány sornyi kóddal visszanyerheti a hozzáférést létfontosságú adataihoz. A hatékonyság és a rugalmasság egy kéznél van ezzel a nagyszerű könyvtárral. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a Microsoft Excellel való interakciójukat, az Aspose.Cells nem csupán egy hatékony eszköz – hanem egy nélkülözhetetlen.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah saya membuka kunci lembar kerja Excel tanpa kata sandi?  
-Ya, Anda dapat mencoba membuka kunci lembar yang dilindungi tanpa mengetahui kata sandinya dengan membiarkan kolom kata sandi kosong.
+### Feloldhatok egy Excel munkalapot jelszó nélkül?  
+Igen, megpróbálhatja feloldani a védett munkalapot a jelszó ismerete nélkül, ha üresen hagyja a jelszó mezőt.
 
-### Apakah Aspose.Cells gratis untuk digunakan?  
- Aspose.Cells menawarkan uji coba gratis, tetapi untuk penggunaan jangka panjang, Anda perlu membeli lisensi. Periksa[Halaman pembelian](https://purchase.aspose.com/buy).
+### Ingyenesen használható az Aspose.Cells?  
+Az Aspose.Cells ingyenes próbaverziót kínál, de hosszabb távú használathoz licencet kell vásárolnia. Ellenőrizze a következőt: [Vásárlási oldal](https://purchase.aspose.com/buy).
 
-### Format apa yang didukung Aspose.Cells?  
-Aspose.Cells mendukung berbagai format Excel, termasuk XLS, XLSX, CSV, dan banyak lagi.
+### Milyen formátumokat támogat az Aspose.Cells?  
+Az Aspose.Cells számos Excel formátumot támogat, beleértve az XLS, XLSX, CSV és egyebeket.
 
-### Bagaimana cara menginstal Aspose.Cells?  
- Anda dapat menginstalnya melalui NuGet atau mengunduhnya langsung dari[Di Sini](https://releases.aspose.com/cells/net/).
+### Hogyan telepítsem az Aspose.Cells-t?  
+Telepítheted a NuGet segítségével, vagy letöltheted közvetlenül innen: [itt](https://releases.aspose.com/cells/net/).
 
-### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?  
- Anda dapat menemukan dukungan yang digerakkan oleh komunitas di[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hol kaphatok támogatást az Aspose.Cells-hez?  
+Közösségi támogatást találhatsz a következő oldalon: [Aspose fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

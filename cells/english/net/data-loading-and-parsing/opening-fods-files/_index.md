@@ -8,7 +8,9 @@ url: /net/data-loading-and-parsing/opening-fods-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening FODS Files
@@ -82,6 +84,7 @@ Check the file path, ensure it exists, and verify that it's not corrupted. You c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

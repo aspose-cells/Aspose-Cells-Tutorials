@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ Klaar om te beginnen? Probeer deze stappen eens in je volgende Java-project!
 Voor meer gedetailleerde informatie, zie [Aspose-documentatie](https://reference.aspose.com/cells/java/) en verken aanvullende bronnen om uw begrip van deze krachtige bibliotheek te vergroten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

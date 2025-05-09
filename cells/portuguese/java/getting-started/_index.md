@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Comece sua jornada com estes tutoriais essenciais do Aspose.Cells, que o guiam pela instalação, configuração de licenciamento e criação dos seus primeiros documentos do Excel em Java. Nossos guias para iniciantes demonstram como configurar seu ambiente de desenvolvimento, inicializar a biblioteca Aspose.Cells e executar operações fundamentais em planilhas. Siga estes tutoriais para dominar rapidamente o básico e se preparar para tarefas de automação mais avançadas do Excel em seus aplicativos Java.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações iniciais
 - Implementação passo a passo com exemplos de código completos
@@ -81,6 +83,9 @@ Aprenda a verificar a versão do Aspose.Cells em seus projetos Java com este gui
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

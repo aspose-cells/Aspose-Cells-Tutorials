@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -217,6 +219,9 @@ workbook.save(outDir + "OpeningExistingFile_out.ods", SaveFormat.ODS);
 من خلال اتباع هذا الدليل، ستكون مجهزًا بشكل جيد للاستفادة من Aspose.Cells في تطبيقات Java الخاصة بك لأتمتة Excel القوية.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

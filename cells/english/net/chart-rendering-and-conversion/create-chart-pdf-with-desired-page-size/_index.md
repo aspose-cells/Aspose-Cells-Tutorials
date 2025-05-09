@@ -8,7 +8,9 @@ url: /net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Chart PDF with Desired Page Size
@@ -149,6 +151,7 @@ You can buy Aspose.Cells from the [purchase page](https://purchase.aspose.com/bu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

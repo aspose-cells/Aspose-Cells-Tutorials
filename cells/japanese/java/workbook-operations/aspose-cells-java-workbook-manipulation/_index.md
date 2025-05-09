@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Excel で大規模なデータセットを操作する場合は、次のヒン�
 - **購入と無料トライアル**ライセンスの取得や無料トライアルの開始について詳しくは、 [Aspose 購入](https://purchase.aspose.com/buy) そして [無料トライアル](https://releases。aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

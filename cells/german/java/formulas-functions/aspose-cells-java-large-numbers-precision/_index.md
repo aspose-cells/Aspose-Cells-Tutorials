@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Lizenzerwerb
 Um Aspose.Cells zu verwenden, können Sie:
 - **Kostenlose Testversion**: Laden Sie die Bibliothek herunter, um mit einer kostenlosen Testversion zu beginnen.
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
+- **Temporäre Lizenz**Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
 - **Kaufen**: Erwägen Sie den Kauf, wenn es Ihren Anforderungen entspricht.
 
 ### Grundlegende Initialisierung und Einrichtung
@@ -151,6 +153,9 @@ Um weiter zu erkunden, was Aspose.Cells zu bieten hat, sollten Sie mit verschied
 Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells und sorgen Sie für numerische Präzision in all Ihren Projekten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

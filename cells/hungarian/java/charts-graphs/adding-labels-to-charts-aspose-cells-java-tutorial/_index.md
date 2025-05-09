@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Javítsa Excel-diagramjait programozottan Java használatával az Aspose.Cells s
 Mielőtt címkevezérlőket adnál diagramokhoz az Aspose.Cells for Java segítségével, győződj meg róla, hogy:
 1. **Aspose.Cells könyvtár:** 25.3-as vagy újabb verzió.
 2. **Java fejlesztői környezet:** JDK telepítve és konfigurálva.
-3. **IDE:** Kód írásához és teszteléséhez IntelliJ IDEA vagy Eclipse ajánlott.
+3. **IDE:** Kód írásához és teszteléséhez az IntelliJ IDEA vagy az Eclipse ajánlott.
 
 ## Az Aspose.Cells beállítása Java-hoz
 
@@ -48,7 +50,7 @@ Integráld az Aspose.Cells-t a projektedbe Maven vagy Gradle használatával:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Licencbeszerzés lépései:**
+**Licenc megszerzésének lépései:**
 - **Ingyenes próbaverzió:** Töltse le a könyvtárat korlátozott funkcionalitású próbaverzióért.
 - **Ideiglenes engedély:** Szerezzen be ideiglenes engedélyt hosszabbított tesztelésre.
 - **Vásárlás:** Vásárold meg a teljes funkciók feloldásához és a korlátozások eltávolításához.
@@ -154,6 +156,9 @@ Indulj el az Aspose.Cells Java segítségével, hogy felszabadítsd az Excel hat
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

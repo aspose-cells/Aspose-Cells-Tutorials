@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ Ten krok inicjuje nową instancję `Workbook` klasa reprezentująca plik Excel w
 
 **Przegląd:** Gdy już utworzysz skoroszyt, dostęp do jego arkuszy będzie kluczowy dla wszelkich późniejszych operacji lub wprowadzania danych.
 
-#### Krok 1: Pobierz zbiór arkuszy roboczych
+#### Krok 1: Pobierz kolekcję arkuszy roboczych
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -173,6 +175,9 @@ Ten przewodnik wyposażył Cię w wiedzę, aby programowo skonfigurować margine
    - Upewnij się, że konfiguracja kompilacji (Maven lub Gradle) zawiera prawidłowy wpis zależności dla Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

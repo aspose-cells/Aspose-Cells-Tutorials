@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إنشاء جداول محورية
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    بإمكانك أتمتة إنشاء جدول محوري في Java باستخدام واجهة برمجة التطبيقات Aspose.Cells for Java، كما هو موضح في هذا البرنامج التعليمي.
 
 الآن لديك المعرفة والبرمجة اللازمة لإنشاء جداول محورية فعّالة في جافا باستخدام Aspose.Cells. جرّب مصادر بيانات وتكوينات مختلفة لتخصيص جداولك المحورية بما يتناسب مع احتياجاتك. تحليل بيانات موفق!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

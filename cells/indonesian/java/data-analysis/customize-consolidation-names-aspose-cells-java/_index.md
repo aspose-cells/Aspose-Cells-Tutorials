@@ -7,18 +7,20 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menyesuaikan Nama Konsolidasi di Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan data keuangan atau kumpulan data besar, menggabungkan dan meringkas informasi sangatlah penting. Namun, nama konsolidasi default mungkin tidak selalu sesuai dengan persyaratan pelaporan Anda. Tutorial ini akan memandu Anda dalam menyesuaikan nama fungsi konsolidasi menggunakan Aspose.Cells untuk Java, sehingga memungkinkan laporan yang lebih bermakna dan disesuaikan dengan kebutuhan Anda.
 
-**Apa yang Akan Anda Pelajari:**
-- Bagaimana cara memperpanjang `GlobalizationSettings` kelas.
+**Amit tanulni fogsz:**
+- Bagaimana cara memperpanjang `GlobalizationSettings` osztály.
 - Menyesuaikan label fungsi rata-rata menjadi "AVG" dan "GRAND AVG."
 - Menerapkan perubahan serupa untuk fungsi lainnya.
 - Menyiapkan Aspose.Cells dalam proyek Java.
@@ -26,16 +28,16 @@ Saat bekerja dengan data keuangan atau kumpulan data besar, menggabungkan dan me
 
 Mari kita bahas bagaimana Anda dapat mencapainya, dimulai dengan prasyarat yang diperlukan untuk pengaturan Anda.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum melanjutkan, pastikan Anda memiliki hal berikut:
-- **Perpustakaan dan Ketergantungan:** Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Persyaratan Pengaturan Lingkungan:** JDK (Java Development Kit) yang kompatibel terpasang pada sistem Anda.
-- **Prasyarat Pengetahuan:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
+- **Könyvtárak és függőségek:** Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezeti beállítási követelmények:** JDK (Java Development Kit) yang kompatibel terpasang pada sistem Anda.
+- **Előfeltételek a tudáshoz:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Instalasi
+### Telepítés
 
 Tambahkan ketergantungan berikut ke berkas konfigurasi proyek Anda:
 
@@ -53,14 +55,14 @@ Tambahkan ketergantungan berikut ke berkas konfigurasi proyek Anda:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk memanfaatkan Aspose.Cells sepenuhnya, Anda memerlukan lisensi:
-- **Uji Coba Gratis:** Mulailah dengan uji coba untuk menjelajahi fitur-fiturnya.
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk pengujian di lingkungan seperti produksi.
-- **Pembelian:** Untuk penggunaan jangka panjang, belilah langganan.
+- **Ingyenes próbaverzió:** Mulailah dengan uji coba untuk menjelajahi fitur-fiturnya.
+- **Ideiglenes engedély:** Dapatkan lisensi sementara untuk pengujian di lingkungan seperti produksi.
+- **Vásárlás:** Untuk penggunaan jangka panjang, belilah langganan.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Mulailah dengan menginisialisasi proyek Anda dan memastikan Aspose.Cells terintegrasi dengan benar:
 
@@ -69,7 +71,7 @@ import com.aspose.cells.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Tetapkan lisensi jika tersedia
+        // Licenc beállítása, ha elérhető
         License license = new License();
         try {
             license.setLicense("path/to/your/license.lic");
@@ -82,12 +84,12 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Menyesuaikan Nama Konsolidasi
 
-**Ringkasan**
-Menyesuaikan nama konsolidasi memungkinkan Anda menentukan label tertentu yang lebih mencerminkan konteks data Anda. Penyesuaian ini dicapai dengan memperluas `GlobalizationSettings` kelas.
+**Áttekintés**
+Menyesuaikan nama konsolidasi memungkinkan Anda menentukan label tertentu yang lebih mencerminkan konteks data Anda. Penyesuaian ini dicapai dengan memperluas `GlobalizationSettings` osztály.
 
 #### Langkah 1: Perluas Pengaturan Globalisasi
 Buat kelas baru, `CustomSettings`, yang akan menimpa nama fungsi default.
@@ -120,7 +122,7 @@ public class CustomSettings extends GlobalizationSettings {
 }
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - `getTotalName()`: Mengembalikan "AVG" untuk fungsi rata-rata.
 - `getGrandTotalName()`: Mengembalikan "GRAND AVG" untuk total rata-rata.
 
@@ -133,35 +135,35 @@ Workbook workbook = new Workbook();
 GlobalizationSettings.setInstance(new CustomSettings());
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - Pastikan Aspose.Cells ditambahkan dengan benar ke dependensi proyek Anda.
-- Verifikasi bahwa `CustomSettings` ditetapkan sebelum operasi konsolidasi dilakukan.
+- Ellenőrizze, hogy `CustomSettings` ditetapkan sebelum operasi konsolidasi dilakukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pelaporan Keuangan:** Sesuaikan laporan dengan nama fungsi spesifik seperti "AVG" dan "GRAND AVG" untuk kejelasan.
-2. **Analisis Data:** Sesuaikan nama di dasbor untuk meningkatkan keterbacaan bagi pemangku kepentingan.
-3. **Integrasi:** Gunakan pengaturan khusus saat mengintegrasikan Aspose.Cells dengan alat atau sistem pelaporan lainnya.
+1. **Pénzügyi jelentéstétel:** Sesuaikan laporan dengan nama fungsi spesifik seperti "AVG" dan "GRAND AVG" untuk kejelasan.
+2. **Adatelemzés:** Sesuaikan nama di dasbor untuk meningkatkan keterbacaan bagi pemangku kepentingan.
+3. **Integráció:** Gunakan pengaturan khusus saat mengintegrasikan Aspose.Cells dengan alat atau sistem pelaporan lainnya.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Mengoptimalkan Kinerja:** Selalu pastikan Anda menggunakan Aspose.Cells versi terbaru untuk meningkatkan kinerja dan mendapatkan fitur-fitur baru.
-- **Pedoman Penggunaan Sumber Daya:** Pantau penggunaan memori, terutama saat bekerja dengan kumpulan data besar.
+- **Teljesítmény optimalizálása:** Selalu pastikan Anda menggunakan Aspose.Cells versi terbaru untuk meningkatkan kinerja dan mendapatkan fitur-fitur baru.
+- **Erőforrás-felhasználási irányelvek:** Pantau penggunaan memori, terutama saat bekerja dengan kumpulan data besar.
 - **Manajemen Memori Java:** Gunakan pengaturan JVM yang tepat untuk menangani file Excel berukuran besar secara efisien.
 
-## Kesimpulan
+## Következtetés
 
 Menyesuaikan nama fungsi konsolidasi di Aspose.Cells untuk Java meningkatkan kejelasan dan relevansi laporan. Dengan memperluas `GlobalizationSettings` kelas, Anda dapat menyesuaikan presentasi data untuk memenuhi kebutuhan tertentu. Untuk terus mengeksplorasi, pertimbangkan untuk bereksperimen dengan fitur kustomisasi lain yang ditawarkan oleh Aspose.Cells.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi kustomisasi lebih lanjut yang tersedia dalam Aspose.Cells.
 - Integrasikan pengaturan ini ke dalam proyek yang lebih besar untuk aplikasi dunia nyata.
 
 Cobalah dan lihat bagaimana nama konsolidasi yang disesuaikan dapat meningkatkan alur kerja pemrosesan data Anda!
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Apa itu Aspose.Cells?**  
+1. **Mi az Aspose.Cells?**  
    Aspose.Cells adalah pustaka hebat yang memungkinkan pengembang bekerja dengan file Excel secara terprogram tanpa perlu menginstal Microsoft Office.
 
 2. **Bisakah saya menyesuaikan nama fungsi lainnya?**  
@@ -176,18 +178,21 @@ Cobalah dan lihat bagaimana nama konsolidasi yang disesuaikan dapat meningkatkan
 5. **Bagaimana jika lisensi saya tidak berlaku segera?**  
    Pastikan berkas lisensi Anda berada di lokasi yang benar dan dapat diakses oleh lingkungan runtime aplikasi Anda.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 Jelajahi sumber daya ini untuk panduan dan dukungan tambahan tentang penggunaan Aspose.Cells Java. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

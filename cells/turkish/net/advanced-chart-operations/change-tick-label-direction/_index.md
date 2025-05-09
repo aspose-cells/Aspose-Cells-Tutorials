@@ -1,14 +1,16 @@
 ---
-title: Kene Etiketi Yönünü Değiştir
-linktitle: Kene Etiketi Yönünü Değiştir
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Excel grafiklerindeki işaret etiketlerinin yönünü Aspose.Cells for .NET ile hızla değiştirin. Sorunsuz uygulama için bu kılavuzu izleyin.
-weight: 12
-url: /tr/net/advanced-chart-operations/change-tick-label-direction/
+"description": "Excel grafiklerindeki işaret etiketlerinin yönünü Aspose.Cells for .NET ile hızla değiştirin. Sorunsuz uygulama için bu kılavuzu izleyin."
+"linktitle": "Kene Etiketi Yönünü Değiştir"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Kene Etiketi Yönünü Değiştir"
+"url": "/tr/net/advanced-chart-operations/change-tick-label-direction/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kene Etiketi Yönünü Değiştir
@@ -27,7 +29,7 @@ Makinenizde .NET framework'ünün yüklü olduğundan emin olun. Aspose.Cells ç
 
 ### .NET için Aspose.Cells
 
-Sonra, Aspose.Cells kütüphanesinin kendisine ihtiyacınız olacak. Bunu şuradan kolayca indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/)Kurulumu oldukça basit ve sadece birkaç tıklamayla çalışmaya başlayabilirsiniz!
+Sonra, Aspose.Cells kütüphanesinin kendisine ihtiyacınız olacak. Bunu şuradan kolayca indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/)Kurulumu oldukça basit ve sadece birkaç tıklamayla çalışmaya başlayabilirsiniz!
 
 ### C#'ın Temel Anlayışı
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Değiştirmeniz gerekiyor`"Your Document Directory"` Ve`"Your Output Directory"` sisteminizdeki gerçek yollarla. 
+Değiştirmeniz gerekiyor `"Your Document Directory"` Ve `"Your Output Directory"` sisteminizdeki gerçek yollarla. 
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -139,16 +141,18 @@ Evet, Aspose.Cells tarafından desteklenen tüm grafiklere benzer yöntemleri uy
 Aspose.Cells XLSX, XLS, CSV ve daha fazlası gibi çeşitli formatları destekler!
 
 ### Deneme sürümü mevcut mu?  
- Kesinlikle! Ücretsiz denemeyi bulabilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi bulabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells kullanırken sorunlarla karşılaşırsam ne olur?  
- Yardım istemekten çekinmeyin[Aspose forumu](https://forum.aspose.com/c/cells/9)topluluk ve destek personeli oldukça duyarlı!
+Yardım istemekten çekinmeyin [Aspose forumu](https://forum.aspose.com/c/cells/9); topluluk ve destek personeli oldukça duyarlı!
 
 ### Geçici ehliyet alabilir miyim?  
- Evet, geçici lisans talebinde bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, geçici lisans talebinde bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

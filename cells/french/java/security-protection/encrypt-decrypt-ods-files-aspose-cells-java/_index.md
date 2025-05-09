@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Vous savez maintenant comment chiffrer et déchiffrer des fichiers ODS avec Aspo
 En suivant ce guide, vous serez parfaitement équipé pour implémenter le chiffrement et le déchiffrement de fichiers dans vos applications Java avec Aspose.Cells. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

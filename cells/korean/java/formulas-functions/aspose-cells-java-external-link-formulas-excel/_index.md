@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ public class InitializeAspose {
 ```
 
 ## 구현 가이드
-Aspose.Cells for Java를 사용하여 수식에 외부 링크를 설정하는 방법을 알아보겠습니다.
+Java용 Aspose.Cells를 사용하여 수식에 외부 링크를 설정하는 방법을 알아보겠습니다.
 
 ### 외부 링크 생성 및 관리
 **개요**통합 문서를 설정하고 외부 Excel 파일의 셀을 참조하는 수식을 추가하여 여러 통합 문서 간의 종속성을 처리하는 방법을 보여드리겠습니다.
@@ -139,7 +141,7 @@ public class SetExternalLinksInFormulas {
 ```
 
 ### 문제 해결 팁
-- **파일 경로 오류**수식의 파일 경로가 올바르게 지정되었는지 확인하세요.
+- **파일 경로 오류**수식에서 파일 경로가 올바르게 지정되었는지 확인하세요.
 - **외부 파일 누락**: 코드를 실행하기 전에 지정된 위치에 외부 파일이 있는지 확인하세요.
 
 ## 실제 응용 프로그램
@@ -185,6 +187,9 @@ A5: 제한은 Excel 버전과 시스템 리소스에 따라 다릅니다. 대용
 - [무료 평가판 및 임시 라이센스 정보](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 ## ข้อกำหนดเบื้องต้น
 
 ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้ก่อนที่จะเริ่มต้น:
-- **Aspose.Cells สำหรับ Java** ห้องสมุด (เวอร์ชัน 25.3 หรือใหม่กว่า)
+- **Aspose.Cells สำหรับ Java** ห้องสมุด (เวอร์ชัน 25.3 ขึ้นไป)
 - IDE เช่น IntelliJ IDEA หรือ Eclipse
 - ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java
 - ไฟล์ ODS สำหรับการทดสอบ
@@ -148,6 +150,9 @@ System.out.println("Chart Subtitle: " + chartSubtitle);
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

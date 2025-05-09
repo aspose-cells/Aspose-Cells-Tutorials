@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 3D grafy
@@ -144,7 +146,7 @@ Aspose.Cells pro Javu vám umožňuje integrovat data z různých zdrojů do va�
 
 ## Závěr
 
-tomto článku jsme se zabývali tím, jak vytvářet 3D grafy pomocí Aspose.Cells pro Javu. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells pro Javu poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně atraktivních a informativních 3D grafů v Excelu.
+V tomto článku jsme se zabývali tím, jak vytvářet 3D grafy pomocí Aspose.Cells pro Javu. Probrali jsme nastavení, základní tvorbu grafů, přizpůsobení a pokročilé funkce práce s 3D grafy. Aspose.Cells pro Javu poskytuje robustní a uživatelsky přívětivou platformu pro generování vizuálně atraktivních a informativních 3D grafů v Excelu.
 
 ## Často kladené otázky
 
@@ -171,6 +173,7 @@ Komplexní dokumentaci a zdroje pro Aspose.Cells pro Javu naleznete na webových
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

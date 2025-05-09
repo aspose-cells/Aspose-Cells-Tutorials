@@ -1,14 +1,16 @@
 ---
-title: Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel
-linktitle: Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak eksportować wartości ciągu HTML z komórek programu Excel do tabeli DataTable przy użyciu Aspose.Cells dla .NET, korzystając z prostego samouczka krok po kroku.
-weight: 11
-url: /pl/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
+"description": "Dowiedz się, jak eksportować wartości ciągu HTML z komórek programu Excel do tabeli DataTable przy użyciu Aspose.Cells dla .NET, korzystając z prostego samouczka krok po kroku."
+"linktitle": "Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel"
+"url": "/pl/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportuj wartość ciągu HTML komórek do tabeli danych w programie Excel
@@ -22,12 +24,12 @@ Podczas pracy z plikami Excela w środowisku .NET możesz potrzebować wyodrębn
 Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna:
 
 1. Podstawowa wiedza na temat języka C# i .NET: Zanim zaczniesz kodować, upewnij się, że znasz programowanie w języku C# i podstawy platformy .NET.
-2.  Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz zainstalować Aspose.Cells dla .NET. Możesz pobrać bezpłatną wersję próbną z[Tutaj](https://releases.aspose.com/).
-3. Visual Studio lub IDE według własnego wyboru: Skonfiguruj swoje środowisko do pisania kodu C#. Visual Studio jest polecane ze względu na szeroki zakres funkcji i łatwość użytkowania.
+2. Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, musisz zainstalować Aspose.Cells dla .NET. Możesz pobrać bezpłatną wersję próbną z [Tutaj](https://releases.aspose.com/).
+3. Visual Studio lub IDE Twojego wyboru: Skonfiguruj swoje środowisko do pisania kodu C#. Visual Studio jest polecane ze względu na szeroki zakres funkcji i łatwość użytkowania.
 4. Przykładowy plik Excela: Będziesz potrzebować przykładowego pliku Excela (`sampleExportTableAsHtmlString.xlsx`) do pracy. Upewnij się, że znajduje się w katalogu, do którego jest dostęp.
 5. Menedżer pakietów NuGet: Upewnij się, że masz dostęp do Menedżera pakietów NuGet w swoim projekcie, aby móc łatwo dodać bibliotekę Aspose.Cells.
 
-Mając te warunki za sobą, możemy zabrać się za kodowanie!
+Mając te warunki wstępne za sobą, możemy zabrać się za kodowanie!
 
 ## Importuj pakiety
 
@@ -39,7 +41,7 @@ W programie Visual Studio kliknij prawym przyciskiem myszy projekt w Eksplorator
 
 ### Wyszukaj Aspose.Cells
 
- W Menedżerze pakietów NuGet wpisz`Aspose.Cells` w pasku wyszukiwania.
+W Menedżerze pakietów NuGet wpisz `Aspose.Cells` w pasku wyszukiwania.
 
 ### Zainstaluj pakiet
 
@@ -66,11 +68,11 @@ Zacznij od zdefiniowania katalogu, w którym przechowywany jest przykładowy pli
 string sourceDir = "Your Document Directory";
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do pliku Excel.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką do pliku Excel.
 
 ## Krok 2: Załaduj przykładowy plik Excel
 
- Następnym krokiem jest załadowanie skoroszytu programu Excel. Użyjesz`Workbook` klasa z Aspose.Cells, aby to zrobić. Oto jak możesz załadować plik:
+Następnym krokiem jest załadowanie skoroszytu programu Excel. Użyjesz `Workbook` klasa z Aspose.Cells, aby to zrobić. Oto jak możesz załadować plik:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
@@ -90,7 +92,7 @@ Tutaj pracujemy z pierwszym arkuszem kalkulacyjnym (indeks 0). Upewnij się, że
 
 ## Krok 4: Określ opcje eksportu tabeli
 
-Aby kontrolować sposób eksportowania danych, należy skonfigurować`ExportTableOptions`W tym przypadku należy upewnić się, że nazwy kolumn nie zostaną wyeksportowane, a dane komórek zostaną wyeksportowane jako ciągi HTML:
+Aby kontrolować sposób eksportowania danych, należy skonfigurować `ExportTableOptions`tym przypadku należy upewnić się, że nazwy kolumn nie zostaną wyeksportowane, a dane komórek zostaną wyeksportowane jako ciągi HTML:
 
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();
@@ -102,7 +104,7 @@ Taka konfiguracja umożliwia zachowanie bogatego formatowania danych komórki po
 
 ## Krok 5: Eksportuj komórki do tabeli danych
 
- Teraz nadchodzi kluczowa część, w której faktycznie eksportujesz dane. Używając`ExportDataTable` metodą, możesz wyciągnąć dane z arkusza kalkulacyjnego do`DataTable`Oto jak to zrobić:
+Teraz nadchodzi kluczowa część, w której faktycznie eksportujesz dane. Używając `ExportDataTable` metodą, możesz wyciągnąć dane z arkusza kalkulacyjnego do `DataTable`Oto jak to zrobić:
 
 ```csharp
 DataTable dt = ws.Cells.ExportDataTable(0, 0, 3, 3, opts);
@@ -122,7 +124,7 @@ Ten wiersz drukuje żądany ciąg HTML z DataTable do konsoli.
 
 ## Wniosek 
 
-I masz! Udało Ci się wyeksportować wartości ciągu HTML z komórek w pliku Excel do DataTable przy użyciu Aspose.Cells dla .NET. Ta możliwość nie tylko wzbogaca Twoje umiejętności manipulowania danymi, ale także rozszerza Twoje opcje w przypadku sformatowanej zawartości bezpośrednio z plików Excel. 
+masz! Udało Ci się wyeksportować wartości ciągu HTML z komórek w pliku Excel do DataTable przy użyciu Aspose.Cells dla .NET. Ta możliwość nie tylko wzbogaca Twoje umiejętności manipulowania danymi, ale także rozszerza Twoje opcje w przypadku sformatowanej zawartości bezpośrednio z plików Excel. 
 
 ## Najczęściej zadawane pytania
 
@@ -130,19 +132,21 @@ I masz! Udało Ci się wyeksportować wartości ciągu HTML z komórek w pliku E
 Tak, Aspose.Cells jest przeznaczony głównie dla programu Excel, ale Aspose oferuje również inne biblioteki dla innych formatów.
 
 ### Czy potrzebuję licencji na Aspose.Cells?  
- Tak, do użytku produkcyjnego wymagana jest ważna licencja. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, do użytku produkcyjnego wymagana jest ważna licencja. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Co jeśli mój plik Excel zawiera formuły? Czy zostaną one poprawnie wyeksportowane?  
 Tak, Aspose.Cells obsługuje formuły, a podczas eksportowania zostaną one obliczone na podstawie ich wartości wynikowych.
 
 ### Czy można zmienić opcje eksportu?  
- Oczywiście! Możesz dostosować`ExportTableOptions` aby dopasować je do Twoich konkretnych potrzeb.
+Oczywiście! Możesz dostosować `ExportTableOptions` aby dopasować je do Twoich konkretnych potrzeb.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację Aspose.Cells?  
- Można znaleźć obszerną dokumentację[Tutaj](https://reference.aspose.com/cells/net/).
+Można znaleźć obszerną dokumentację [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

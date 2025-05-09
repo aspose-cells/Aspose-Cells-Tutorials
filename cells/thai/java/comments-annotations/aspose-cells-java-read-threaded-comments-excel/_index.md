@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@
 รวม Aspose.Cells เข้ากับโปรเจ็กต์ของคุณโดยใช้ Maven หรือ Gradle ดังต่อไปนี้:
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### พารามิเตอร์และวิธีการ
 - **สมุดแบบฝึกหัด**: หมายถึงไฟล์ Excel ทั้งหมด
-- **ใบงาน**: หมายถึงแผ่นงานเดียวภายในสมุดงาน
+- **ใบงาน**หมายถึงแผ่นงานเดียวภายในสมุดงาน
 - **การรวบรวมความคิดเห็นแบบเธรด**:คอลเลกชันความคิดเห็นที่เกี่ยวข้องกับเซลล์
 
 ## การประยุกต์ใช้งานจริง
@@ -148,6 +150,9 @@ for (Object obj : threadedComments) {
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

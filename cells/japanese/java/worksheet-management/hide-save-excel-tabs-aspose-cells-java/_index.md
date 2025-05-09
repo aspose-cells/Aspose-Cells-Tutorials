@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ workbook.getSettings().setShowTabs(false);
 ##### ステップ1: 出力ディレクトリを指定する
 変更したファイルを保存する場所を定義します。
 ```java
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // 希望のパスに置き換えます
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // 希望するパスに置き換えます
 ```
 
 ##### ステップ2: ワークブックを保存する
@@ -166,6 +168,9 @@ Aspose.Cells のパフォーマンスを最適化するには:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

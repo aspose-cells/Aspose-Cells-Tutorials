@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,6 +211,9 @@ Sẵn sàng nâng cao kỹ năng tích hợp Java và Excel của bạn? Hãy th
 - **A4:** Sử dụng các tùy chọn định dạng ô do Aspose.Cells cung cấp để định dạng số, văn bản, v.v.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

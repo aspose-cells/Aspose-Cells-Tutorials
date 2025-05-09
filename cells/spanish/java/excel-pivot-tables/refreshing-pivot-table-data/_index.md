@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Actualización de datos de la tabla dinámica
@@ -31,7 +33,7 @@ import com.aspose.cells.Worksheet;
 
 ## Paso 2: Cargue su libro de trabajo
 
-continuación, cargue el libro de Excel que contiene la tabla dinámica que desea actualizar.
+A continuación, cargue el libro de Excel que contiene la tabla dinámica que desea actualizar.
 
 ```java
 String filePath = "path_to_your_workbook.xlsx";
@@ -90,9 +92,11 @@ Actualizar los datos de una tabla dinámica en Aspose.Cells para Java es un proc
    - Sí, puede programar actualizaciones automáticas de datos mediante Aspose.Cells y las bibliotecas de programación de Java. Esto le permite mantener sus tablas dinámicas actualizadas sin intervención manual.
 
 Ahora sabe cómo actualizar los datos de tablas dinámicas en Aspose.Cells para Java. Mantenga la precisión de sus análisis y tome la delantera en sus decisiones basadas en datos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

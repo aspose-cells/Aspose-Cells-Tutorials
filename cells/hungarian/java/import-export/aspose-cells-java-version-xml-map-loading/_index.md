@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ public class AsposeCellsVersionCheck {
     }
 }
 ```
-**Magyarázat:** Ez a kódrészlet a következőt használja: `CellsHelper.getVersion()` könyvtár verziójának lekéréséhez, ami elengedhetetlen a projekttel való kompatibilitás biztosításához.
+**Magyarázat:** Ez a részlet a következőt használja: `CellsHelper.getVersion()` könyvtár verziójának lekéréséhez, ami elengedhetetlen a projekttel való kompatibilitás biztosításához.
 
 ### Excel fájl betöltése XML-megfeleltetéssel
 
@@ -215,6 +217,9 @@ V1: Mindig ellenőrizze az aktuális verziót a következővel: `CellsHelper.get
 3. válasz: Az éles környezetben a kiértékelési korlátok megszüntetéséhez elengedhetetlen egy ideiglenes vagy megvásárolt licenc.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

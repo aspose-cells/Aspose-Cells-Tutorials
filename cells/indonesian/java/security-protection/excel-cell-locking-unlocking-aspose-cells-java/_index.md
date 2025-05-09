@@ -7,24 +7,26 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Membuka dan Mengunci Sel Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 Tingkatkan keamanan buku kerja Excel Anda dengan mempelajari cara mengunci dan membuka kunci sel tertentu menggunakan Aspose.Cells untuk Java. Baik Anda sedang mengembangkan aplikasi keuangan yang kompleks atau memerlukan kontrol lebih besar atas input pengguna dalam spreadsheet, panduan komprehensif ini akan membantu Anda menguasai teknik-teknik ini.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara membuat buku kerja Excel baru dengan Aspose.Cells.
 - Teknik untuk membuka kunci semua kolom dalam lembar kerja Excel.
 - Metode untuk mengunci sel individual secara selektif dalam satu lembar.
-- Aplikasi praktis dari fitur-fitur ini dalam skenario dunia nyata.
+- Ezen funkciók gyakorlati alkalmazásai valós helyzetekben.
 
 Mari kita mulai dengan menyiapkan lingkungan pengembangan Anda dan memahami prasyaratnya!
 
-## Prasyarat
+## Előfeltételek
 Sebelum memulai, pastikan pengaturan Anda mencakup:
 - **Aspose.Cells untuk Java**: Pustaka yang hebat untuk bekerja dengan berkas Excel di Java.
 - **Kit Pengembangan Java (JDK)**: Instal JDK 8 atau yang lebih baru di komputer Anda.
@@ -33,7 +35,7 @@ Sebelum memulai, pastikan pengaturan Anda mencakup:
 ## Menyiapkan Aspose.Cells untuk Java
 
 ### Instalasi Maven
-Tambahkan Aspose.Cells ke proyek Anda dengan dependensi berikut di `pom.xml`:
+Tambahkan Aspose.Cells ke proyek Anda dengan ketergantungan berikut di `pom.xml`:
 
 ```xml
 <dependency>
@@ -50,16 +52,16 @@ Untuk proyek yang menggunakan Gradle, tambahkan yang berikut ke `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Mulailah dengan uji coba gratis atau ajukan lisensi sementara jika Anda memerlukan lebih banyak waktu untuk mengevaluasi kemampuan Aspose.Cells tanpa batasan.
-- **Uji Coba Gratis**: Unduh dari [Rilis Java Aspose Cells](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**:Lamar di [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+- **Ingyenes próbaverzió**Letöltés innen: [Rilis Java Aspose Cells](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**Jelentkezés: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur: Buat Buku Kerja Baru
 
-#### Ringkasan
+#### Áttekintés
 Membuat buku kerja Excel baru adalah langkah pertama dalam memanfaatkan Aspose.Cells. Fitur ini memungkinkan Anda untuk menginisialisasi dan menyesuaikan buku kerja dari awal.
 
 ##### Langkah 1: Inisialisasi Kelas Buku Kerja
@@ -77,13 +79,13 @@ public class FeatureCreateWorkbook {
     }
 }
 ```
-##### Penjelasan
+##### Magyarázat
 - **`Workbook` Kelas**: Mewakili berkas Excel. Dengan menginstansiasinya, akan tercipta buku kerja kosong.
-- **Metode Penyimpanan**: Menyimpan buku kerja ke direktori yang Anda tentukan, mengonfirmasi pembuatannya.
+- **Mentési módszer**: Menyimpan buku kerja ke direktori yang Anda tentukan, mengonfirmasi pembuatannya.
 
 ### Fitur: Buka Kunci Semua Kolom di Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Membuka kunci semua kolom memastikan pengguna dapat mengedit data secara bebas di seluruh lembar kerja tanpa batasan.
 
 ##### Langkah 2: Memuat dan Mengakses Buku Kerja
@@ -94,11 +96,11 @@ import com.aspose.cells.StyleFlag;
 
 public class FeatureUnlockAllColumns {
     public static void main(String[] args) throws Exception {
-        // Muat buku kerja yang ada.
+        // Töltsön be egy meglévő munkafüzetet.
         String dataDir = "/path/to/your/data/directory" + "ExistingWorkbook.xlsx";
         Workbook wb = new Workbook(dataDir);
         
-        // Akses lembar kerja pertama dalam buku kerja.
+        // Nyissa meg a munkafüzet első munkalapját.
         Worksheet sheet = wb.getWorksheets().get(0);
 ```
 
@@ -118,13 +120,13 @@ public class FeatureUnlockAllColumns {
     }
 }
 ```
-##### Penjelasan
+##### Magyarázat
 - **`StyleFlag`**Menentukan properti gaya mana yang harus diterapkan saat memperbarui sel.
-- **Loop Melalui Kolom**: Mengulangi setiap kolom, membukanya dengan menyetel `style.setLocked(false)`.
+- **Oszlopok hurkolása**: Mengulangi setiap kolom, membukanya dengan menyetel `style.setLocked(false)`.
 
 ### Fitur: Mengunci Sel Tertentu dalam Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Mengunci sel tertentu membantu melindungi data krusial agar tidak diubah sekaligus memperbolehkan area lain tetap dapat diedit.
 
 ##### Langkah 4: Muat Buku Kerja dan Akses Lembar Kerja
@@ -134,15 +136,15 @@ import com.aspose.cells.Style;
 
 public class FeatureLockSpecificCells {
     public static void main(String[] args) throws Exception {
-        // Muat buku kerja yang ada.
+        // Töltsön be egy meglévő munkafüzetet.
         String dataDir = "/path/to/your/data/directory" + "ExistingWorkbook.xlsx";
         Workbook wb = new Workbook(dataDir);
         
-        // Akses lembar kerja pertama dalam buku kerja.
+        // Nyissa meg a munkafüzet első munkalapját.
         Worksheet sheet = wb.getWorksheets().get(0);
 ```
 
-##### Langkah 5: Kunci Sel Tertentu
+##### 5. lépés: Meghatározott cellák zárolása
 ```java
         String[] cellsToLock = {"A1", "B1", "C1"};
         for (String cellName : cellsToLock) {
@@ -156,25 +158,25 @@ public class FeatureLockSpecificCells {
     }
 }
 ```
-##### Penjelasan
-- **Penguncian Sel**:Dengan pengaturan `style.setLocked(true)`, sel tertentu dilindungi dari pengeditan.
+##### Magyarázat
+- **Penguncian Sel**Beállítással `style.setLocked(true)`, sel tertentu dilindungi dari pengeditan.
 
-## Aplikasi Praktis
-1. **Pelaporan Keuangan**: Kunci perhitungan kritis sembari mengizinkan entri data di area lain.
-2. **Formulir Entri Data**: Lindungi baris tajuk dan rumus sembari membiarkan pengguna mengisi rincian di bawahnya.
-3. **Pembuatan Template**:Kembangkan templat yang dapat digunakan kembali dengan bagian terkunci untuk mencegah perubahan yang tidak disengaja.
+## Gyakorlati alkalmazások
+1. **Pénzügyi jelentéstétel**: Kunci perhitungan kritis sembari mengizinkan entri data di area lain.
+2. **Adatbeviteli űrlapok**: Lindungi baris tajuk dan rumus sembari membiarkan pengguna mengisi rincian di bawahnya.
+3. **Sablon létrehozása**:Kembangkan templat yang dapat digunakan kembali dengan bagian terkunci untuk mencegah perubahan yang tidak disengaja.
 
-## Pertimbangan Kinerja
-- **Manajemen Memori yang Efisien**: Menggunakan `Workbook.dispose()` setelah selesai bekerja dengan file besar untuk mengosongkan sumber daya.
-- **Tips Optimasi**Minimalkan aplikasi gaya sel yang tidak diperlukan dan operasi proses batch jika memungkinkan.
+## Teljesítménybeli szempontok
+- **Hatékony memóriakezelés**Használat `Workbook.dispose()` setelah selesai bekerja dengan file besar untuk mengosongkan sumber daya.
+- **Optimalizálási tippek**Minimalkan aplikasi gaya sel yang tidak diperlukan dan operasi proses batch jika memungkinkan.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah menguasai cara membuat, membuka kunci, dan mengunci sel dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Keterampilan ini penting untuk mengembangkan aplikasi spreadsheet yang tangguh dan aman.
 
-### Langkah Berikutnya
+### Következő lépések
 Jelajahi lebih jauh fungsionalitas pustaka Aspose.Cells untuk meningkatkan kemampuan penanganan data Anda di Java.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?**
    - Pustaka yang canggih untuk membuat dan memanipulasi file Excel secara terprogram menggunakan Java.
 2. **Bagaimana cara membuka kunci semua sel dalam satu lembar?**
@@ -182,19 +184,22 @@ Jelajahi lebih jauh fungsionalitas pustaka Aspose.Cells untuk meningkatkan kemam
 3. **Bisakah saya mengunci rentang sel tertentu, bukan rentang sel individual?**
    - Ya, dengan mengakses rentang dan mengatur gaya yang sama seperti mengunci sel tunggal.
 4. **Di mana saya dapat menemukan dokumentasi untuk pustaka Java Aspose.Cells?**
-   - Mengunjungi [Dokumentasi Sel Aspose](https://reference.aspose.com/cells/java/).
-5. **Bagaimana cara menangani file Excel besar secara efisien dengan Aspose.Cells?**
+   - Látogatás [Aspose Cells dokumentáció](https://reference.aspose.com/cells/java/).
+5. **Hogyan kezelhetek nagyméretű Excel fájlokat hatékonyan az Aspose.Cells segítségével?**
    - Gunakan teknik manajemen memori seperti membuang objek buku kerja saat tidak lagi diperlukan.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose Sel](https://reference.aspose.com/cells/java/)
-- **Unduh Perpustakaan**: [Rilis Java Aspose Cells](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi**: [Beli Produk Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulailah dengan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Ajukan Permohonan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Forum Dukungan Aspose](https://forum.aspose.com/)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose Sel](https://reference.aspose.com/cells/java/)
+- **Letöltési könyvtár**: [Rilis Java Aspose Cells](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása**: [Beli Produk Aspose](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose Támogatási Fórum](https://forum.aspose.com/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

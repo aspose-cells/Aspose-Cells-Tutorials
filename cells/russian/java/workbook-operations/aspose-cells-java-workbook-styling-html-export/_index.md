@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Начните с настройки среды разработки:
 1. **Установить библиотеку**: Добавьте зависимость Maven или Gradle в свой проект.
 2. **Получить лицензию**: Посещать [Страница покупки Aspose](https://purchase.aspose.com/buy) для получения временной или полной лицензии.
-3. **Инициализировать Aspose.Cells**В вашем приложении Java инициализируйте Aspose.Cells, добавив код лицензирования, если у вас есть файл лицензии.
+3. **Инициализировать Aspose.Cells**В вашем приложении Java инициализируйте Aspose.Cells, добавив код лицензии, если у вас есть файл лицензии.
 
 Вот как можно настроить базовую среду:
 ```java
@@ -189,6 +191,9 @@ Aspose.Cells для Java — это не просто средство для б
 - Изучите практические варианты внедрения в ваши проекты.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

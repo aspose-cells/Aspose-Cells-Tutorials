@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ Picture pic = sheet1.getPictures().get(0);
 ### 步驟 5：將圖片複製到另一個工作表
 
 #### 概述
-最後，我們將這張圖片複製到另一個工作表中，並設定特定的定位和縮放選項。
+最後，我們將這張圖片複製到另一個工作表中，並具有特定的定位和縮放選項。
 
 **程式碼片段**
 ```java
@@ -203,6 +205,9 @@ workbook.save(outDir + "CPfOneWToAnother_out.xls");
 透過探索這些資源，您可以更深入地了解 Aspose.Cells for Java 並增強您的 Excel 自動化功能。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

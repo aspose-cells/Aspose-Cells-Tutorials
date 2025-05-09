@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: अपनी कार्यपुस्तिका में सुसं�
 A5: डेटा रेंज को अनुकूलित करें, चार्ट जटिलता को न्यूनतम करें, तथा आवश्यकता न होने पर ऑब्जेक्ट्स को हटाकर मेमोरी का प्रभावी प्रबंधन करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

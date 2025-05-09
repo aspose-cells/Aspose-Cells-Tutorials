@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 介紹
 
-您是否曾經需要將 Excel 工作簿轉換為適合 Web 的格式，但卻發現在瀏覽器中查看時列會收縮或擴展得很奇怪？本教學透過示範如何使用 **Aspose.Cells for Java** 將 Excel 檔案匯出為具有可縮放列寬的 HTML。這種方法可確保您的資料在任何裝置上看起來都完美無缺。
+您是否曾經需要將 Excel 工作簿轉換為適合 Web 的格式，卻發現在瀏覽器中查看時列會收縮或擴展得很奇怪？本教學透過示範如何使用 **Aspose.Cells for Java** 將 Excel 檔案匯出為具有可縮放列寬的 HTML。這種方法可確保您的資料在任何裝置上看起來都完美無缺。
 
 使用 Aspose.Cells，您可以自動化 Excel 操作並實現與 Java 應用程式的無縫整合。在本指南中，我們將介紹配置 HtmlSaveOptions 的過程，以確保列動態調整，同時將圖像作為 Base64 編碼字串直接嵌入到輸出檔案中。 
 
@@ -209,6 +211,9 @@ public class ExcelToHtmlConverter {
 立即開始使用 Aspose.Cells for Java 掌握 Excel 檔案操作並增強資料呈現！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

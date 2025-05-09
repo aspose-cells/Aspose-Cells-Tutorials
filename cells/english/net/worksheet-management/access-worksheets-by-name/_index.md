@@ -8,7 +8,9 @@ url: /net/worksheet-management/access-worksheets-by-name/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Worksheets by Name using Aspose.Cells
@@ -85,6 +87,7 @@ Yes, Aspose.Cells provides extensive options for formatting cells, including fon
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

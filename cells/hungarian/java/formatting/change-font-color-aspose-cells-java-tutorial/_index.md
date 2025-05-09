@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ Cell cell = cells.get("A1");
 cell.setValue("Hello Aspose!");
 ```
 
-#### Betűszín módosítása
+#### Betűszín megváltoztatása
 
 Állítsa be a cella betűszínét:
 
@@ -174,7 +176,7 @@ Az Aspose.Cells különféle Excel formátumokat támogat (pl. XLS, XLSX). Haszn
 Java Color osztálya által biztosított színek széles skáláját használhatod, beleértve az egyéni RGB értékeket is.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Szerezd meg az Aspose.Cells-t Java-hoz](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Aspose.Cells előfizetés vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
@@ -185,6 +187,9 @@ Próbáld ki ezeket a technikákat a Java alkalmazásaidba még ma, és nézd me
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Extrair efeitos visuais, como as propriedades de cor do efeito de brilho das for
 
 Neste guia abrangente, demonstraremos como ler e manipular a cor do efeito de brilho em arquivos do Excel usando o Aspose.Cells Java, uma biblioteca poderosa que oferece recursos abrangentes para automação do Excel.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando seu ambiente para Aspose.Cells para Java.
 - Lendo propriedades do efeito de brilho de formas em um arquivo do Excel.
 - Aplicações de acesso programático a efeitos visuais.
@@ -158,6 +160,9 @@ Para uma exploração mais aprofundada, considere integrar essa funcionalidade e
 Embarque hoje mesmo em sua jornada para dominar a automação do Excel com o Aspose.Cells Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

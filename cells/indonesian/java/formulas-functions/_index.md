@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Kuasai kemampuan kalkulasi Excel dengan tutorial rumus Aspose.Cells yang komprehensif untuk pengembang Java. Panduan praktis ini menunjukkan kepada Anda cara membuat dan mengelola ekspresi kalkulasi, menerapkan fungsi Excel bawaan, menangani referensi rumus, dan mengendalikan perilaku kalkulasi ulang. Setiap tutorial menyediakan contoh kode Java terperinci untuk bekerja dengan berbagai jenis rumus, mulai dari aritmatika sederhana hingga fungsi finansial, statistik, dan logika yang kompleks, membantu Anda membangun fitur pemrosesan data yang canggih dalam aplikasi Anda.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi rumus & fungsi
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -89,10 +91,13 @@ Pelajari cara mengekstrak teks rumus dari sel Excel menggunakan Aspose.Cells den
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

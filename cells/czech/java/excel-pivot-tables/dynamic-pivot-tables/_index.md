@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamické pivotní tabulky
@@ -107,9 +109,11 @@ Ano, na kontingenční tabulky můžete použít filtry pro zobrazení konkrétn
 ### Q5: Podporuje Aspose.Cells pokročilé funkce kontingenčních tabulek v Excelu?
 
 Ano, Aspose.Cells poskytuje rozsáhlou podporu pro pokročilé funkce kontingenčních tabulek v Excelu, což vám umožňuje vytvářet složité kontingenční tabulky.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

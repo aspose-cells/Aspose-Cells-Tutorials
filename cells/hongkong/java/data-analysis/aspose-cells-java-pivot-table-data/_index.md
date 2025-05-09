@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ license.setLicense("path/to/your/license/file.lic");
 
 ## 實施指南
 
-### 載入工作簿和 Access 工作表
+### 載入工作簿和存取工作表
 
 #### 概述
 
@@ -180,6 +182,9 @@ String type = pivotTable.getExternalConnectionDataSource().getType();
 深入了解 Aspose.Cells，擴展您的 Java 技能，並徹底改變您與 Excel 資料的互動方式！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

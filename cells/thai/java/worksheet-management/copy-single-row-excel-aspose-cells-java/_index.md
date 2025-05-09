@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5: ไฟล์ขนาดใหญ่และการดำเนินก�
 สำรวจทรัพยากรเหล่านี้เพื่อให้คุณเข้าใจ Aspose.Cells สำหรับ Java ได้อย่างลึกซึ้งยิ่งขึ้น และปลดล็อกศักยภาพทั้งหมดของการจัดการ Excel ในแอปพลิเคชันของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

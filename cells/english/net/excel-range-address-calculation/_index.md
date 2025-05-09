@@ -8,7 +8,9 @@ url: /net/excel-range-address-calculation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Range and Address Calculation
@@ -31,9 +33,11 @@ Next up, let's talk about the essentials of range manipulation! Have you ever fo
 Learn how to create a union range of cells in Excel using Aspose.Cells for .NET in easy steps. Enhance your Excel skills programmatically.
 ### [Get Address, Cell Count, and Offset for Entire Excel Range](./get-address-cell-count-and-offset-for-entire-excel-range/)
 Learn how to manipulate Excel ranges using Aspose.Cells for .NET. Get insights on addresses, offsets, and more with our easy tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Aspose.Cells for Java を使用して、Excel のセルにプログラムでア�
 Aspose.Cells for Java を使用して、セルのインデックスを Excel スタイルの名前に変換する方法を学びます。この包括的なガイドで、スプレッドシートにおける動的なデータ参照をマスターしましょう。
 
 ### [Aspose.Cells for Java で Excel の列反復処理をマスターする: 総合ガイド](./aspose-cells-java-column-iteration-guide/)
-Aspose.Cells for Java を使用して、Excel スプレッドシートの列を効率的に反復処理する方法を学びます。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
+Aspose.Cells for Javaを使用して、Excelスプレッドシートの列を効率的に反復処理する方法を学びます。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
 ### [Aspose.Cells Java を使用して Excel の 1904 年日付システムをマスターし、効果的なセル操作を実現](./aspose-cells-java-configure-1904-date-system-excel/)
 Aspose.Cells Java を使用して Excel ファイル内の日付を管理および操作する方法を学びます。このガイドでは、ワークブックの初期化、1904 日付システムの有効化、設定の保存について説明します。
@@ -96,6 +98,9 @@ Aspose.Words Javaのコードチュートリアル
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

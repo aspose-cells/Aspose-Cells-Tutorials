@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tipi di grafici combinati
@@ -120,7 +122,7 @@ Per installare Aspose.Cells per Java, visitare il sito Web di Aspose e scaricare
 
 ### Posso creare altri tipi di grafici con Aspose.Cells per Java?
 
-Sì, Aspose.Cells per Java supporta un'ampia gamma di tipi di grafici, inclusi grafici a barre, grafici a torta, grafici a dispersione e altro ancora. Puoi fare riferimento alla documentazione per esempi e modalità di utilizzo.
+Sì, Aspose.Cells per Java supporta un'ampia gamma di tipi di grafici, inclusi grafici a barre, grafici a torta, grafici a dispersione e altro ancora. Puoi fare riferimento alla documentazione per esempi e istruzioni d'uso.
 
 ### Aspose.Cells per Java è adatto sia ai principianti che agli sviluppatori Java esperti?
 
@@ -137,6 +139,7 @@ Assolutamente sì! Aspose.Cells per Java offre ampie opzioni di personalizzazion
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 ```java
 Cells cells = workbook.getWorksheets().get("Columns").getCells();
 ```
-- **Spiegazione**: Accede al foglio di lavoro denominato "Colonne" e recupera la raccolta di celle in esso contenuta per la manipolazione.
+- **Spiegazione**: Accede al foglio di lavoro denominato "Colonne" e recupera la raccolta di celle per la manipolazione.
 ### Copia di più colonne
 **Panoramica**: Dimostra come copiare più colonne all'interno dello stesso foglio di lavoro utilizzando Aspose.Cells Java.
 #### Passaggio 3: eseguire la copia della colonna
@@ -126,6 +128,9 @@ Questa guida illustra come copiare più colonne all'interno di un foglio di lavo
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

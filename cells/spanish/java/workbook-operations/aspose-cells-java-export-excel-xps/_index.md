@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Exportar Excel a XPS con Aspose.Cells para Java: Guía paso a paso
+# Exportar Excel a XPS con Aspose.Cells para Java: guía paso a paso
 
 ## Introducción
 
@@ -186,6 +188,9 @@ Con esta guía, estarás bien preparado para empezar a convertir archivos de Exc
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ ImageIO.write(image, "png", new File(outDir + "/background.png"));
 現在，您已經掌握了使用 Aspose.Cells for Java 載入和操作 ODS 檔案。從訪問工作表到提取背景詳細信息，您可以使用複雜的電子表格處理功能來增強您的應用程式。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

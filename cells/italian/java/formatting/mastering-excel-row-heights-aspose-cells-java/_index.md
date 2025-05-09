@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ In questo tutorial, hai imparato come impostare l'altezza delle righe in un fogl
 Sperimenta altre funzionalità di Aspose.Cells per automatizzare e ottimizzare ulteriormente le attività del tuo foglio di calcolo. Consulta la documentazione per scoprire funzionalità più avanzate!
 
 ## Sezione FAQ
-1. **Come posso impostare l'altezza delle singole righe?**
+1. **Come posso impostare le altezze delle singole righe?**
    - Utilizzo `getCells().setRowHeight(row, height)` metodo dove `row` è l'indice e `height` in punti.
 2. **Posso regolare la larghezza delle colonne in modo simile?**
    - Sì, usa `setColumnWidth(columnIndex, widthInPoints)` per colonne.
@@ -160,6 +162,9 @@ Sperimenta altre funzionalità di Aspose.Cells per automatizzare e ottimizzare u
 - **Supporto**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

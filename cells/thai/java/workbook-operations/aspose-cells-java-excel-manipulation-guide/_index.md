@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ public class FeatureWorkbookInitialization {
         // สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊กใหม่
         Workbook workbook = new Workbook();
         
-        // ตอนนี้คุณสามารถดำเนินการกับสมุดงานนี้ได้
+        // คุณสามารถดำเนินการกับสมุดงานนี้ได้แล้ว
     }
 }
 ```
@@ -225,6 +227,9 @@ public class FeatureSaveWorkbook {
 หากต้องการสำรวจความสามารถของ Aspose.Cells ต่อไป โปรดพิจารณาเจาะลึกฟีเจอร์ขั้นสูง เช่น การสร้างแผนภูมิ การตรวจสอบข้อมูล และอื่นๆ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

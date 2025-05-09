@@ -1,14 +1,16 @@
 ---
-title: Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML
-linktitle: Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как скрыть наложенный контент в Excel при сохранении в HTML с помощью Aspose.Cells для .NET, в этом подробном руководстве.
-weight: 16
-url: /ru/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/
+"description": "Узнайте, как скрыть наложенный контент в Excel при сохранении в HTML с помощью Aspose.Cells для .NET, в этом подробном руководстве."
+"linktitle": "Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML"
+"url": "/ru/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Скрытие наложенного содержимого с помощью Cross Hide Right при сохранении в HTML
@@ -18,19 +20,19 @@ url: /ru/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-conte
 ## Предпосылки
 Прежде чем мы погрузимся в тонкости, давайте убедимся, что вы все правильно настроили! Вот предварительные условия, которые вам понадобятся для выполнения:
 1. Базовые знания C#: Если вы знакомы с C#, это здорово! Мы будем работать на этом языке, поэтому понимание основ поможет.
-2.  Aspose.Cells for .NET Installed: Вам нужно установить Aspose.Cells for .NET. Если вы еще этого не сделали, перейдите на страницу[Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/net/) для начала.
-3. Visual Studio установлен: IDE, такая как Visual Studio, облегчит вам жизнь. Если у вас ее нет, возьмите ее с[веб-сайт](https://visualstudio.microsoft.com/).
-4.  Образец файла Excel: Подготовьте образец файла Excel, который мы будем использовать в наших примерах. Создайте образец файла с именем`sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx`.
+2. Aspose.Cells for .NET Installed: Вам нужно установить Aspose.Cells for .NET. Если вы еще этого не сделали, перейдите на страницу [Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/net/) для начала.
+3. Visual Studio установлен: IDE, такая как Visual Studio, облегчит вам жизнь. Если у вас ее нет, возьмите ее с [веб-сайт](https://visualstudio.microsoft.com/).
+4. Образец файла Excel: Подготовьте образец файла Excel, который мы будем использовать в наших примерах. Создайте образец файла с именем `sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx`.
 5. .NET Framework или .NET Core: убедитесь, что в вашей системе установлены .NET Framework или .NET Core.
 Давайте запачкаем руки и начнем кодировать! 
 ## Импортные пакеты
 Для начала нам нужно импортировать пару необходимых библиотек в наш проект C#. Не волнуйтесь, это простой процесс!
 ### Создать новый проект C#
-Откройте Visual Studio и создайте новый проект C#. Для этого руководства вы можете выбрать тип проекта Console Application.
+Откройте Visual Studio и создайте новый проект C#. Вы можете выбрать тип проекта Console Application для этого руководства.
 ### Добавить ссылку Aspose.Cells
 1. Щелкните правой кнопкой мыши по вашему проекту в обозревателе решений.
 2. Нажмите «Управление пакетами NuGet».
-3.  Искать`Aspose.Cells` и установите пакет.
+3. Искать `Aspose.Cells` и установите пакет.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -46,10 +48,10 @@ using System.Text;
 string sourceDir = "Your Document Directory";
 //Выходной каталог
 string outputDir = "Your Document Directory";
-//Загрузить образец файла Excel
+// Загрузить образец файла Excel 
 Workbook wb = new Workbook(sourceDir + "sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx");
 ```
- Здесь мы создаем экземпляр`Workbook` класс, который загрузит наш файл Excel. Просто убедитесь, что вы обновили`sourceDir` с правильным путем к каталогу, где находится ваш файл Excel. 
+Здесь мы создаем экземпляр `Workbook` класс, который загрузит наш файл Excel. Просто убедитесь, что вы обновили `sourceDir` с правильным путем к каталогу, где находится ваш файл Excel. 
 ## Шаг 2: Укажите параметры сохранения HTML
 Далее нам нужно настроить параметры сохранения HTML, чтобы скрыть наложенный контент.
 ```csharp
@@ -57,14 +59,14 @@ Workbook wb = new Workbook(sourceDir + "sampleHidingOverlaidContentWithCrossHide
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
 ```
- На этом этапе мы создаем экземпляр`HtmlSaveOptions` .`HtmlCrossStringType` свойство установлено на`CrossHideRight` который сообщает библиотеке Aspose.Cells, как обрабатывать наложенный контент при экспорте в HTML. Думайте об этом как о поиске идеального фильтра для вашей фотографии; вы хотите выделить только нужные части.
+На этом этапе мы создаем экземпляр `HtmlSaveOptions`. `HtmlCrossStringType` свойство установлено на `CrossHideRight` который сообщает библиотеке Aspose.Cells, как обрабатывать наложенный контент при экспорте в HTML. Думайте об этом как о поиске идеального фильтра для вашей фотографии; вы хотите выделить только нужные части.
 ## Шаг 3: Сохраните книгу как HTML
 После того, как мы все настроили, пришло время сохранить нашу рабочую книгу в HTML-файл.
 ```csharp
 // Сохранить в HTML с помощью HtmlSaveOptions
 wb.Save(outputDir + "outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html", opts);
 ```
-Эта строка берет нашу рабочую книгу (`wb` ) и сохраняет его в указанном выходном каталоге с именем`outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`Он также применяет наши ранее определенные параметры, чтобы гарантировать, что наложенный контент обрабатывается в соответствии с нашими потребностями.
+Эта строка берет нашу рабочую книгу (`wb`) и сохраняет его в указанном выходном каталоге с именем `outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`. Он также применяет наши ранее определенные параметры, чтобы гарантировать, что наложенный контент обрабатывается в соответствии с нашими потребностями.
 ## Шаг 4: Вывод сообщения об успешном завершении
 Наконец, давайте добавим сообщение об успешном завершении, чтобы мы знали, что все прошло гладко.
 ```csharp
@@ -79,16 +81,18 @@ Console.WriteLine("HidingOverlaidContentWithCrossHideRightWhileSavingToHtml exec
 ### Что такое Aspose.Cells?
 Aspose.Cells — это мощная библиотека .NET, разработанная для работы с файлами Excel. Она позволяет вам легко создавать, изменять, преобразовывать и манипулировать документами Excel в ваших приложениях.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, Aspose.Cells предлагает[бесплатная пробная версия](https://releases.aspose.com/) чтобы вы могли протестировать его возможности перед покупкой.
+Да, Aspose.Cells предлагает [бесплатная пробная версия](https://releases.aspose.com/) чтобы вы могли протестировать его возможности перед покупкой.
 ### Поддерживает ли Aspose.Cells все форматы Excel?
 Конечно! Aspose.Cells поддерживает ряд форматов Excel, включая XLS, XLSX и CSV среди прочих.
 ### Где я могу получить поддержку по Aspose.Cells?
- Вы можете найти поддержку на[Форум Aspose](https://forum.aspose.com/c/cells/9) где вы можете задать вопросы и поделиться опытом.
+Вы можете найти поддержку на [Форум Aspose](https://forum.aspose.com/c/cells/9) где вы можете задать вопросы и поделиться опытом.
 ### Как купить Aspose.Cells?
- Вы можете приобрести Aspose.Cells, посетив[страница покупки](https://purchase.aspose.com/buy).
+Вы можете приобрести Aspose.Cells, посетив [страница покупки](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

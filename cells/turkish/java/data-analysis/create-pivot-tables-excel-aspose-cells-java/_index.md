@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ import com.aspose.cells.*;
 
 public class PivotTableExample {
     public static void main(String[] args) throws Exception {
-        // Lisansı Başlat (eğer varsa)
+        // Lisansı Başlatın (eğer varsa)
         License license = new License();
         license.setLicense("path_to_your_license.lic");
 
@@ -211,6 +213,9 @@ Sonraki adımlar arasında farklı veri kümeleriyle denemeler yapmak ve raporla
 - [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

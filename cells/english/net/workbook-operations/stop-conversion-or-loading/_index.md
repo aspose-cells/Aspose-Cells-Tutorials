@@ -8,7 +8,9 @@ url: /net/workbook-operations/stop-conversion-or-loading/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stop Conversion or Loading using Interrupt Monitor
@@ -128,6 +130,7 @@ For more information, refer to the [Aspose.Cells for .NET Documentation](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

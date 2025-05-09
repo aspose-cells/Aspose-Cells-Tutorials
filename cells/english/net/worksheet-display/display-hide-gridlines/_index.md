@@ -8,7 +8,9 @@ url: /net/worksheet-display/display-hide-gridlines/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display or Hide Gridlines in Worksheet
@@ -89,6 +91,7 @@ For support and questions regarding Aspose.Cells, you can visit the [Aspose Foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

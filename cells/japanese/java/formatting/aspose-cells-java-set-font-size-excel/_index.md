@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ public class SetFontSize {
         // Workbook オブジェクトをインスタンス化する
         Workbook workbook = new Workbook();
         
-        // Excelファイルで追加されたワークシートにアクセスする
+        // Excelファイルに追加されたワークシートにアクセスする
         int sheetIndex = workbook.getWorksheets().add();
         Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
     }
@@ -190,6 +192,9 @@ Aspose.Cells をさらに詳しく調べるには、広範なドキュメント�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

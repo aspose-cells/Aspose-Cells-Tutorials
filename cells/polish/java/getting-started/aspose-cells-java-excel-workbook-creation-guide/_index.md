@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Podzielmy implementację na dwie główne funkcje: tworzenie skoroszytu i zarzą
 
 ### Funkcja 1: Utwórz instancję i użyj skoroszytu Aspose.Cells (H2)
 #### Przegląd
-W tym artykule pokazano, jak utworzyć skoroszyt programu Excel od podstaw za pomocą biblioteki Aspose.Cells w języku Java, co pozwala na natychmiastowe rozpoczęcie pracy z danymi.
+W tym artykule pokazano, jak utworzyć skoroszyt programu Excel od podstaw za pomocą Aspose.Cells w języku Java, co pozwala na natychmiastowe rozpoczęcie pracy z danymi.
 ##### Krok 1: Importuj wymagane klasy
 ```java
 import com.aspose.cells.Workbook;
@@ -157,6 +159,9 @@ Przeglądaj te zasoby, aby pogłębić swoje zrozumienie i zastosowanie Aspose.C
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

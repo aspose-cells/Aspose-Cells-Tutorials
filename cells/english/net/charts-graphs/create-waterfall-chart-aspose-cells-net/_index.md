@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A: Use `chart.NSeries[0].UpBars.Area.ForegroundColor` and `chart.NSeries[0].Down
 A: Yes, Aspose.Cells for .NET can be integrated into various types of applications, including web apps. Ensure you have the necessary permissions and configurations set up.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

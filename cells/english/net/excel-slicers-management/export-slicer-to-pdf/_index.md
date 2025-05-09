@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/export-slicer-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Slicer to PDF using Aspose.Cells .NET
@@ -75,6 +77,7 @@ You can get support through the Aspose forums available [here](https://forum.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

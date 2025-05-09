@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Шаг 1: Загрузка файла Excel
 
-Загрузите книгу Excel, которую вы хотите преобразовать, инициализировав ее. `Workbook` объект с путем к исходному файлу Excel.
+Загрузите книгу Excel, которую вы хотите преобразовать, инициализировав `Workbook` объект с путем к исходному файлу Excel.
 
 ```java
 // Определить каталоги
@@ -160,6 +162,9 @@ A5: Оптимизируйте настройки памяти Java и обра�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

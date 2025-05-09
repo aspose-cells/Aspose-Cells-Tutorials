@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ workbook.save(outDir + "/NewWorkbook_out.xls");
 System.out.println("Workbook saved successfully!");
 ```
 
-### Bir Çalışma Sayfasına Erişim ve Değişiklik Yapma
+### Bir Çalışma Sayfasına Erişim ve Çalışma Sayfasını Değiştirme
 #### Genel bakış
 Çalışma sayfası içeriğini değiştirmek, çalışma kitabınızdaki belirli çalışma sayfalarına erişmeyi içerir. Bu özellik, verilerin doğru şekilde düzenlenmesini sağlayarak tek tek sayfalarla etkileşim kurma olanağı sağlar.
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Bu öğreticiyi takip ederek, Java için Aspose.Cells kullanarak Excel çalışma kitaplarını nasıl etkili bir şekilde yöneteceğinizi öğrendiniz. Bu güçlü araç, Excel dosyalarınızı oluşturma, değiştirme ve geliştirme sürecini basitleştirerek yüksek kaliteli veri çözümleri sunmaya odaklanmanızı sağlar. Projelerinizde yeteneklerini tam olarak kullanmak için özelliklerini keşfetmeye devam edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

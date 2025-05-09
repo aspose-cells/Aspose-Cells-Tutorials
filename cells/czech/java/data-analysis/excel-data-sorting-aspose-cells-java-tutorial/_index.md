@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Doporučujeme vám, abyste si vyzkoušeli implementovat zde popsané řešení v
 Dodržováním tohoto komplexního průvodce můžete s jistotou implementovat a optimalizovat třídění dat v Excelu ve vašich aplikacích Java pomocí Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

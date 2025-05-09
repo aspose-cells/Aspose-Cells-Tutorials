@@ -8,7 +8,9 @@ url: /net/workbook-operations/detect-link-types/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Detect Link Types in Workbook
@@ -92,6 +94,7 @@ The [documentation](https://reference.aspose.com/cells/net/) is a fantastic reso
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

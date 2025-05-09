@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Überblick**: Erstellen Sie schnell eine leere Excel-Arbeitsmappe, um mit der Datenmanipulation zu beginnen.
 
 **Schritt für Schritt:**
-1. **Arbeitsmappe instanziieren**: Erstellen Sie ein `Workbook` Objekt.
+1. **Arbeitsmappe instanziieren**Erstellen Sie ein `Workbook` Objekt.
 2. **Ausgabeverzeichnis**: Legen Sie fest, wo Sie die Datei speichern möchten.
 
 ```java
@@ -195,6 +197,9 @@ Begeben Sie sich noch heute auf Ihre Reise mit Aspose.Cells für Java und schöp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

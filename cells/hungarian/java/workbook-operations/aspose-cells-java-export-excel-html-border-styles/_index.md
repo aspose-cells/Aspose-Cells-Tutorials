@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ public class SaveWorkbookAsHtml {
     }
 }
 ```
-*Ez a kódrészlet a következőt használja: `wb.save()` a munkafüzet exportálásához stílusos HTML formátumba.*
+*Ez a részlet a következőt használja: `wb.save()` a munkafüzet exportálásához stílusos HTML formátumba.*
 
 ## Gyakorlati alkalmazások
 
@@ -208,6 +210,9 @@ Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a
 - **Vásárlás**: Vásároljon licencet itt: [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/) hosszú távú használatra.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Técnicas Avançadas de Validação de Dados
@@ -20,7 +22,7 @@ Validação de dados é o processo de definir regras e restrições para evitar 
 
 ## Configurando Aspose.Cells para Java
 
-Antes de nos aprofundarmos nas técnicas avançadas, vamos começar com Aspose.Cells para Java. Você pode baixar a biblioteca em [Link para download do Aspose.Cells para Java](https://releases.aspose.com/cells/java/). Certifique-se de seguir as instruções de instalação fornecidas na documentação em [Referências da API Aspose.Cells para Java](https://reference.aspose.com/cells/java/).
+Antes de nos aprofundarmos nas técnicas avançadas, vamos começar com Aspose.Cells para Java. Você pode baixar a biblioteca em [Link para download do Aspose.Cells para Java](https://releases.aspose.com/cells/java/)Certifique-se de seguir as instruções de instalação fornecidas na documentação em [Referências da API Aspose.Cells para Java](https://reference.aspose.com/cells/java/).
 
 ## Validação de Dados Básicos
 
@@ -113,6 +115,7 @@ Você pode encontrar documentação detalhada e referências em [Referências da
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

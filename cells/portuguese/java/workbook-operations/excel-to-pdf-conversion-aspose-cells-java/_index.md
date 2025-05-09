@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ void Run() throws Exception {
 }
 ```
 - **PdfSaveOptions**: Configura como o arquivo Excel é salvo em PDF, como definir `onePagePerSheet` para saídas mais limpas.
-- **Método setResourceProvider**:Links nosso costume `IStreamProvider`, garantindo que os recursos sejam gerenciados corretamente durante a conversão.
+- **Método setResourceProvider**: Links nosso costume `IStreamProvider`, garantindo que os recursos sejam gerenciados corretamente durante a conversão.
 ## Aplicações práticas
 ### Casos de uso:
 1. **Relatórios de negócios:** Incorporação de logotipos ou imagens específicas da marca em relatórios gerados a partir de dados do Excel.
@@ -153,6 +155,9 @@ Pronto para começar a implementar? Explore nossos recursos abaixo para obter ma
 - **Apoiar:** [Fórum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

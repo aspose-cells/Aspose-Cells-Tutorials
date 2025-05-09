@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ Właściwości niestandardowego typu treści można wykorzystać w różnych sce
 
 Aby uzyskać optymalną wydajność podczas korzystania z Aspose.Cells:
 
-- Zarządzaj pamięcią efektywnie, pozbywając się obiektów, z których nie korzystasz.
+- Zarządzaj pamięcią efektywnie, pozbywając się obiektów, z których nie korzystasz już dłużej.
 - W miarę możliwości korzystaj z przetwarzania wsadowego, aby zminimalizować obciążenie wynikające z powtarzających się operacji.
 - Stwórz profil swojej aplikacji, aby zidentyfikować wąskie gardła i odpowiednio ją zoptymalizować.
 
@@ -192,6 +194,9 @@ Odwiedź ich [dokumentacja](https://reference.aspose.com/cells/java/) aby uzyska
 - **Wsparcie**: https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

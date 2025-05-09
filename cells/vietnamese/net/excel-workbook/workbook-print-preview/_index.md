@@ -1,14 +1,16 @@
 ---
-title: Bản xem trước khi in của sổ làm việc
-linktitle: Bản xem trước khi in của sổ làm việc
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách tạo bản xem trước khi in cho các tệp Excel bằng Aspose.Cells cho .NET. Tìm hiểu các bước lập trình trong hướng dẫn chi tiết, dễ làm theo.
-weight: 170
-url: /vi/net/excel-workbook/workbook-print-preview/
+"description": "Tìm hiểu cách tạo bản xem trước khi in cho các tệp Excel bằng Aspose.Cells cho .NET. Tìm hiểu các bước lập trình trong hướng dẫn chi tiết, dễ làm theo."
+"linktitle": "Bản xem trước khi in của sổ làm việc"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bản xem trước khi in của sổ làm việc"
+"url": "/vi/net/excel-workbook/workbook-print-preview/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bản xem trước khi in của sổ làm việc
@@ -22,10 +24,10 @@ Khi nói đến việc quản lý và thao tác các tệp Excel, Aspose.Cells c
 Trước khi bắt đầu hành động mã hóa, hãy đảm bảo bạn có mọi thứ cần thiết để bắt đầu. Sau đây là danh sách kiểm tra các điều kiện tiên quyết:
 
 1. Visual Studio: Bạn sẽ cần một IDE và Visual Studio là lựa chọn tuyệt vời cho các dự án .NET.
-2. Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện hoặc nếu thích, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để làm quen. Chỉ cần truy cập[liên kết này](https://releases.aspose.com).
+2. Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện hoặc nếu thích, bạn có thể bắt đầu với phiên bản dùng thử miễn phí để làm quen. Chỉ cần truy cập [liên kết này](https://releases.aspose.com).
 3. Kiến thức cơ bản về C#: Hiểu được những nguyên tắc cơ bản của C# sẽ giúp bạn theo dõi mà không gặp bất kỳ trở ngại nào.
 4. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích trên máy của mình.
-5.  Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel để làm việc. Bạn có thể sử dụng tệp mẫu có tên`Book1.xlsx`.
+5. Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel để làm việc. Bạn có thể sử dụng tệp mẫu có tên `Book1.xlsx`.
 
 Bây giờ chúng ta đã khởi động xong động cơ, hãy nhập các gói cần thiết và bắt đầu thực hiện thôi!
 
@@ -64,7 +66,7 @@ Bây giờ chúng ta đã có mọi thứ cần thiết, hãy cùng tìm hiểu 
 string sourceDir = "Your Document Directory";
 ```
 
- Mã này đang giúp chúng ta tìm đường dẫn đến nơi`Book1.xlsx` cư trú, giúp cho việc tham khảo sau này dễ dàng hơn nhiều.
+Mã này đang giúp chúng ta tìm đường dẫn đến nơi `Book1.xlsx` cư trú, giúp cho việc tham khảo sau này dễ dàng hơn nhiều.
 
 ## Bước 2: Tải Workbook
 
@@ -74,7 +76,7 @@ Bây giờ chúng ta đã có thư mục, hãy tải sổ làm việc vào ứng
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
- Ở đây, chúng ta đang tạo một phiên bản của`Workbook` class trong khi cung cấp đường dẫn đến tệp Excel của chúng ta. Điều này tương tự như việc mở một cuốn sách để đọc nội dung của nó; với bước này, chúng ta đã mở sổ làm việc của mình.
+Ở đây, chúng ta đang tạo một phiên bản của `Workbook` class trong khi cung cấp đường dẫn đến tệp Excel của chúng ta. Điều này tương tự như việc mở một cuốn sách để đọc nội dung của nó; với bước này, chúng ta đã mở sổ làm việc của mình.
 
 ## Bước 3: Thiết lập tùy chọn in
 
@@ -84,7 +86,7 @@ Trước khi tạo bản xem trước khi in, chúng ta cần thiết lập các
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
- Trong trường hợp này, chúng ta đang tạo một thể hiện của`ImageOrPrintOptions`, giúp chúng ta có thể linh hoạt hơn trong cách xem bản xem trước khi in.
+Trong trường hợp này, chúng ta đang tạo một thể hiện của `ImageOrPrintOptions`, giúp chúng ta có thể linh hoạt hơn trong cách xem bản xem trước khi in.
 
 ## Bước 4: Tạo bản xem trước khi in của sổ làm việc
 
@@ -98,7 +100,7 @@ Vào lúc này, chúng tôi đang tạo bản xem trước cho toàn bộ sổ l
 
 ## Bước 5: Đánh giá số lượng trang
 
-Sổ làm việc của bạn sẽ chiếm bao nhiêu trang khi được in? Hãy tìm hiểu điều đó bằng mã sau:
+Sổ làm việc của bạn sẽ chiếm bao nhiêu trang khi được in? Hãy cùng tìm hiểu bằng đoạn mã sau:
 
 ```csharp
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
@@ -137,19 +139,21 @@ Và thế là xong! Bạn đã thiết lập thành công bản xem trước khi
 Aspose.Cells là một thư viện mạnh mẽ để xử lý các định dạng tệp Excel và cung cấp các tính năng như thao tác dữ liệu, định dạng và hiển thị bản xem trước khi in.
 
 ### Tôi có cần phải mua Aspose.Cells để sử dụng không?
- Bạn có thể bắt đầu với phiên bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com) trước khi quyết định mua giấy phép.
+Bạn có thể bắt đầu với phiên bản dùng thử miễn phí có sẵn tại [liên kết này](https://releases.aspose.com) trước khi quyết định mua giấy phép.
 
 ### Tôi có thể sử dụng Aspose.Cells trong bất kỳ ứng dụng .NET nào không?
 Có, Aspose.Cells được thiết kế để hoạt động với bất kỳ ứng dụng .NET nào, bao gồm ASP.NET, WinForms, v.v.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Bạn có thể khám phá tài liệu mở rộng tại[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu mở rộng tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.Cells?
- Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, bạn có thể tìm kiếm sự hỗ trợ thông qua diễn đàn Aspose:[Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Nếu bạn gặp bất kỳ vấn đề hoặc có thắc mắc nào, bạn có thể tìm kiếm sự hỗ trợ thông qua diễn đàn Aspose: [Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

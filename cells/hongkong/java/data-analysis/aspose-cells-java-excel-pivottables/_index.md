@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ cell = cells.get("C2"); cell.setValue(1500);
 ```
 ### 新增資料透視表
 #### 概述
-資料透視表對於有效地匯總和分析資料至關重要。 Aspose.Cells 讓您可以輕鬆新增和設定這些表。
+資料透視表對於有效地匯總和分析資料至關重要。 Aspose.Cells 讓您可以輕鬆新增和設定這些表格。
 ##### 步驟 5：新增資料透視表
 在工作表中建立資料透視表來分析資料集：
 
@@ -176,6 +178,9 @@ Aspose.Cells for Java可以整合到各種實際場景中，例如：
 - **下載：** 從其官方網站取得最新版本的 Aspose.Cells for Java。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

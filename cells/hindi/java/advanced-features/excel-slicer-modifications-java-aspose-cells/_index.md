@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ public class SaveWorkbook {
    - केवल आवश्यक डेटा को संसाधित करें, फ़ाइल हैंडलिंग के लिए स्ट्रीम का उपयोग करें, और पुनर्गणना को कम करने के लिए स्लाइसर कॉन्फ़िगरेशन को अनुकूलित करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

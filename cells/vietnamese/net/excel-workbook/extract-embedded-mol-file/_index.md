@@ -1,14 +1,16 @@
 ---
-title: Trích xuất tệp Mol nhúng
-linktitle: Trích xuất tệp Mol nhúng
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách dễ dàng trích xuất các tệp MOL nhúng từ sổ làm việc Excel bằng Aspose.Cells cho .NET.
-weight: 90
-url: /vi/net/excel-workbook/extract-embedded-mol-file/
+"description": "Tìm hiểu cách dễ dàng trích xuất các tệp MOL nhúng từ sổ làm việc Excel bằng Aspose.Cells cho .NET."
+"linktitle": "Trích xuất tệp Mol nhúng"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Trích xuất tệp Mol nhúng"
+"url": "/vi/net/excel-workbook/extract-embedded-mol-file/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất tệp Mol nhúng
@@ -23,9 +25,9 @@ Trước khi đi sâu vào quá trình trích xuất, hãy đảm bảo rằng b
 
 - Kiến thức cơ bản về C#: Một chút quen thuộc với C# sẽ giúp ích rất nhiều. Ngay cả khi bạn mới bắt đầu, bạn vẫn có thể theo kịp.
 - Visual Studio: Cài đặt Visual Studio trên hệ thống của bạn. Nó cần thiết để viết và thực thi mã C# của bạn.
-- Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy truy cập[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
+- Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy truy cập [Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
 - .NET Framework: Đảm bảo rằng bạn đã cài đặt phiên bản .NET Framework tương thích.
--  Một tệp Excel có các đối tượng MOL nhúng: Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng`EmbeddedMolSample.xlsx`. Hãy đảm bảo bạn đã chuẩn bị sẵn tệp này để giải nén.
+- Một tệp Excel có các đối tượng MOL nhúng: Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng `EmbeddedMolSample.xlsx`. Hãy đảm bảo bạn đã chuẩn bị sẵn tệp này để giải nén.
 
 ## Nhập gói
 
@@ -72,13 +74,13 @@ Chúng ta hãy chia nhỏ quá trình trích xuất thành các bước dễ th�
 
 ## Bước 2: Tải Workbook
 
- Một khi bạn đã có`workbook` thiết lập với tệp Excel mẫu của chúng tôi, bước tiếp theo là tải sổ làm việc và chuẩn bị cho việc trích xuất:
+Một khi bạn đã có `workbook` thiết lập với tệp Excel mẫu của chúng tôi, bước tiếp theo là tải sổ làm việc và chuẩn bị cho việc trích xuất:
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Trong bước này, chúng ta tạo một phiên bản mới của`Workbook` lớp, đóng vai trò như cầu nối đến nội dung tệp Excel của bạn. Tệp được tải ở đây để sau này chúng ta có thể lặp lại qua các trang tính và tìm các đối tượng MOL được nhúng.
+Trong bước này, chúng ta tạo một phiên bản mới của `Workbook` lớp, đóng vai trò như cầu nối đến nội dung tệp Excel của bạn. Tệp được tải ở đây để sau này chúng ta có thể lặp lại qua các trang tính và tìm các đối tượng MOL được nhúng.
 
 ## Bước 3: Lặp lại qua các trang tính
 
@@ -92,7 +94,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Với đoạn trích này, chúng tôi đang sử dụng một`foreach` vòng lặp để duyệt qua mọi trang tính trong sổ làm việc của chúng tôi. Bằng cách truy cập`OleObjects` bộ sưu tập, chúng ta có thể truy cập vào tất cả các đối tượng nhúng trên trang tính cụ thể đó. 
+Với đoạn trích này, chúng tôi đang sử dụng một `foreach` vòng lặp để duyệt qua mọi trang tính trong sổ làm việc của chúng tôi. Bằng cách truy cập `OleObjects` bộ sưu tập, chúng ta có thể truy cập vào tất cả các đối tượng nhúng trên trang tính cụ thể đó. 
 
 ## Bước 4: Trích xuất các đối tượng OLE
 
@@ -138,16 +140,18 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ được thiết kế đ
 Chắc chắn rồi! Aspose.Cells cho phép bạn trích xuất nhiều định dạng tệp nhúng khác nhau như PDF, hình ảnh, v.v., không chỉ các tệp MOL.
 
 ### Tôi có cần mua Aspose.Cells để sử dụng không?  
- Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép để có đầy đủ tính năng. Bạn có thể[mua nó ở đây](https://purchase.aspose.com/buy).
+Mặc dù có bản dùng thử miễn phí, nhưng cần có giấy phép để có đầy đủ tính năng. Bạn có thể [mua nó ở đây](https://purchase.aspose.com/buy).
 
 ### Có cần thiết phải sử dụng Visual Studio cho quá trình này không?  
 Trong khi chúng tôi trình bày bằng Visual Studio, bạn có thể sử dụng bất kỳ IDE nào tương thích với C# để chạy dự án của mình.
 
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hướng dẫn và khắc phục sự cố.
+Bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hướng dẫn và khắc phục sự cố.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

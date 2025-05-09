@@ -1,14 +1,16 @@
 ---
-title: Чтение и запись внешнего соединения файла XLSB
-linktitle: Чтение и запись внешнего соединения файла XLSB
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как читать и записывать внешние соединения в файлах XLSB с помощью Aspose.Cells для .NET, с помощью этого пошагового руководства.
-weight: 24
-url: /ru/net/workbook-operations/read-and-write-external-connection/
+"description": "Узнайте, как читать и записывать внешние соединения в файлах XLSB с помощью Aspose.Cells для .NET, с помощью этого пошагового руководства."
+"linktitle": "Чтение и запись внешнего соединения файла XLSB"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Чтение и запись внешнего соединения файла XLSB"
+"url": "/ru/net/workbook-operations/read-and-write-external-connection/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Чтение и запись внешнего соединения файла XLSB
@@ -23,7 +25,7 @@ url: /ru/net/workbook-operations/read-and-write-external-connection/
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена работающая версия Visual Studio. Вы будете писать код на C#, поскольку мы работаем с Aspose.Cells.
    
-2.  Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Если у вас ее еще нет, вы можете легко[скачать здесь](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Если у вас ее еще нет, вы можете легко [скачать здесь](https://releases.aspose.com/cells/net/). 
 
 3. Файл XLSB: Имейте готовый образец файла XLSB для тестирования. Вы можете создать его в Excel, если у вас нет существующего под рукой.
 
@@ -119,19 +121,21 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 Файл XLSB — это двоичный файл Excel, в котором данные электронной таблицы хранятся в двоичном формате, что делает его более компактным и быстрым для открытия по сравнению с традиционными файлами XLSX.
 
 ### Нужна ли мне специальная лицензия для Aspose.Cells?  
- Да, Aspose.Cells требует лицензию для полной функциональности. Вы можете оценить ее с помощью бесплатной пробной версии[здесь](https://releases.aspose.com/).
+Да, Aspose.Cells требует лицензию для полной функциональности. Вы можете оценить ее с помощью бесплатной пробной версии [здесь](https://releases.aspose.com/).
 
 ### Могу ли я получить доступ к внешним источникам данных, отличным от баз данных, с помощью Aspose.Cells?  
 Конечно! Aspose.Cells поддерживает различные внешние подключения к данным, включая OLEDB и ODBC. 
 
 ### Существует ли форум сообщества для пользователей Aspose.Cells?  
- Да! Вы можете присоединиться[Форум поддержки Aspose.Cells](https://forum.aspose.com/c/cells/9) для взаимодействия с другими пользователями и поиска помощи.
+Да! Вы можете присоединиться [Форум поддержки Aspose.Cells](https://forum.aspose.com/c/cells/9) для взаимодействия с другими пользователями и поиска помощи.
 
 ### Могу ли я получить временную лицензию для Aspose.Cells?  
- Да, Aspose предоставляет[временная лицензия](https://purchase.aspose.com/temporary-license/) для пользователей, желающих оценить программное обеспечение перед покупкой.
+Да, Aspose предоставляет [временная лицензия](https://purchase.aspose.com/temporary-license/) для пользователей, желающих оценить программное обеспечение перед покупкой.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

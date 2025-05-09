@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ A `Workbook` Az osztály a belépési pont az Aspose.Cells műveleteihez, amely 
 #### Munkafüzetek használata
 A műveletek végrehajtásához nyissa meg az első munkalapot.
 
-**2. lépés: Szerezd meg az első munkalapot**
+**2. lépés: Az első munkalap beszerzése**
 ```java
 // Nyissa meg a munkafüzet első munkalapját.
 Worksheet worksheet1 = workbook.getWorksheets().get(0);
@@ -160,6 +162,9 @@ A: Győződjön meg arról, hogy a rendszer elegendő memóriával rendelkezik, 
 Ha bármilyen problémába ütközöl, vagy további kérdéseid vannak, nyugodtan keress minket a támogatói fórumon keresztül. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

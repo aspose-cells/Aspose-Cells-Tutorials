@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 #### Шаг 1: Определите диапазон ячеек
 Определите конкретный диапазон, в котором вы хотите выполнить операцию:
 ```java
-CellArea area = CellArea.createCellArea("E3", "H6"); // Например, от ячейки E3 до H6
+CellArea area = CellArea.createCellArea("E3", "H6"); // Например, из ячейки E3 в H6
 ```
 #### Шаг 2: Настройте параметры поиска
 Настройте свой `FindOptions` как должен проводиться поиск:
@@ -124,6 +126,9 @@ workbook.save("SRDataInRange_out.xlsx");
 По любым вопросам посетите [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9). Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

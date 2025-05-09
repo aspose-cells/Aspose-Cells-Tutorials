@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Fasi di acquisizione della licenza
-Aspose.Cells è una libreria commerciale, ma è possibile provarla con una licenza di prova gratuita o richiederne una temporanea a scopo di valutazione. Per acquistare una licenza completa, visitare [Acquisto Aspose](https://purchase.aspose.com/buy).
+Aspose.Cells è una libreria commerciale, ma è possibile provarla con una licenza di prova gratuita o richiedere una licenza temporanea a scopo di valutazione. Per acquistare una licenza completa, visitare [Acquisto Aspose](https://purchase.aspose.com/buy).
 
 ## Impostazione di Aspose.Cells per Java
 Dopo aver aggiunto la dipendenza al progetto, segui questi passaggi:
@@ -145,6 +147,9 @@ Ora hai imparato come nascondere i fogli di lavoro nei file Excel utilizzando As
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,33 +1,35 @@
 ---
-title: Zellen in benannten Bereichen in Excel zusammenführen
-linktitle: Zellen in benannten Bereichen in Excel zusammenführen
-second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: In diesem Schritt-für-Schritt-Tutorial erfahren Sie, wie Sie mit Aspose.Cells für .NET Zellen in einem benannten Bereich zusammenführen. Entdecken Sie, wie Sie Excel-Berichte formatieren, gestalten und automatisieren.
-weight: 11
-url: /de/net/excel-advanced-named-ranges/merge-cells-in-named-range/
+"description": "Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Cells für .NET Zellen in einem benannten Bereich zusammenführen. Erfahren Sie, wie Sie Excel-Berichte formatieren, gestalten und automatisieren."
+"linktitle": "Zellen in benannten Bereichen in Excel zusammenführen"
+"second_title": "Aspose.Cells .NET Excel-Verarbeitungs-API"
+"title": "Zellen in benannten Bereichen in Excel zusammenführen"
+"url": "/de/net/excel-advanced-named-ranges/merge-cells-in-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zellen in benannten Bereichen in Excel zusammenführen
 
 ## Einführung
 
-Wenn Sie programmgesteuert mit Excel-Dateien arbeiten, besteht eine der häufigsten Aufgaben darin, Zellen innerhalb eines benannten Bereichs zusammenzuführen. Egal, ob Sie die Berichterstellung automatisieren, Dashboards erstellen oder einfach große Datensätze verwalten, das Zusammenführen von Zellen ist eine wichtige Technik. In diesem Tutorial erfahren Sie, wie Sie Zellen in einem benannten Bereich mit Aspose.Cells für .NET zusammenführen – einer leistungsstarken Bibliothek, mit der Entwickler Excel-Dateien bearbeiten können, ohne Microsoft Excel installieren zu müssen.
+Beim programmgesteuerten Arbeiten mit Excel-Dateien ist das Zusammenführen von Zellen innerhalb eines benannten Bereichs eine der häufigsten Aufgaben. Ob Sie die Berichterstellung automatisieren, Dashboards erstellen oder einfach große Datensätze verwalten – das Zusammenführen von Zellen ist eine wichtige Technik. In diesem Tutorial erfahren Sie, wie Sie Zellen in einem benannten Bereich mit Aspose.Cells für .NET zusammenführen – einer leistungsstarken Bibliothek, die es Entwicklern ermöglicht, Excel-Dateien zu bearbeiten, ohne Microsoft Excel installieren zu müssen.
 
 ## Voraussetzungen
 
 Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes bereit haben:
 
--  Aspose.Cells für .NET: Sie können es herunterladen von der[Aspose.Cells-Veröffentlichungsseite](https://releases.aspose.com/cells/net/).
-- .NET Framework muss auf Ihrem Computer installiert sein.
+- Aspose.Cells für .NET: Sie können es herunterladen von der [Aspose.Cells-Releaseseite](https://releases.aspose.com/cells/net/).
+- .NET Framework auf Ihrem Computer installiert.
 - Grundlegende Kenntnisse in C#: Vertrautheit mit Konzepten wie Klassen, Methoden und Objekten ist hilfreich.
 
 ## Pakete importieren
 
-Bevor wir mit dem Codieren beginnen, müssen Sie die erforderlichen Namespaces importieren. Diese Namespaces ermöglichen Ihnen den Zugriff auf die Funktionalität der Aspose.Cells-Bibliothek.
+Bevor wir mit dem Programmieren beginnen, müssen Sie die erforderlichen Namespaces importieren. Diese Namespaces ermöglichen Ihnen den Zugriff auf die Funktionalität der Aspose.Cells-Bibliothek.
 
 ```csharp
 using System;
@@ -41,21 +43,21 @@ Hier finden Sie eine Aufschlüsselung, wie Sie mit Aspose.Cells für .NET Zellen
 
 ## Schritt 1: Erstellen Sie eine neue Arbeitsmappe
 
-Als Erstes benötigen wir eine Arbeitsmappe. In Excel entspricht eine Arbeitsmappe einer Excel-Datei. Lassen Sie uns eine erstellen.
+Als Erstes benötigen wir eine Arbeitsmappe. Eine Arbeitsmappe entspricht in Excel einer Excel-Datei. Erstellen wir eine.
 
 ```csharp
 // Instanziieren Sie eine neue Arbeitsmappe.
 Workbook wb1 = new Workbook();
 ```
 
-Durch das Initialisieren einer neuen Arbeitsmappe haben wir nun eine leere Excel-Datei, die bearbeitet werden kann. Es ist, als würden Sie mit einer leeren Leinwand beginnen!
+Durch die Initialisierung einer neuen Arbeitsmappe verfügen wir nun über eine leere Excel-Datei, die bearbeitet werden kann. Es ist, als würden Sie mit einer leeren Leinwand beginnen!
 
 ## Schritt 2: Zugriff auf das erste Arbeitsblatt
 
-Jede Arbeitsmappe enthält Arbeitsblätter, und in diesem Fall möchten wir mit dem ersten arbeiten. Schnappen wir es uns!
+Jede Arbeitsmappe enthält Arbeitsblätter. In diesem Fall möchten wir mit dem ersten arbeiten. Schnappen wir es uns!
 
 ```csharp
-// Holen Sie sich das erste Arbeitsblatt aus der Arbeitsmappe.
+// Holen Sie sich das erste Arbeitsblatt in der Arbeitsmappe.
 Worksheet worksheet1 = wb1.Worksheets[0];
 ```
 
@@ -63,14 +65,14 @@ Stellen Sie sich das Arbeitsblatt als die einzelnen Registerkarten in einer Exce
 
 ## Schritt 3: Erstellen Sie einen Zellbereich
 
-Jetzt, da wir unser Arbeitsblatt haben, ist es an der Zeit, einen Bereich zu erstellen. Ein Bereich bezieht sich auf einen Zellblock, der sich über mehrere Zeilen und Spalten erstrecken kann.
+Nachdem wir nun unser Arbeitsblatt erstellt haben, ist es an der Zeit, einen Bereich zu erstellen. Ein Bereich bezeichnet einen Zellblock, der sich über mehrere Zeilen und Spalten erstrecken kann.
 
 ```csharp
-//Erstellen Sie einen Bereich.
+// Erstellen Sie einen Bereich.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
-Hier wählen wir Zellen von D6 bis I12 aus – ein Block, der mehrere Zeilen und Spalten umfasst. Wir werden diesen Bereich bald zusammenführen!
+Hier wählen wir die Zellen von D6 bis I12 aus – einen Block, der mehrere Zeilen und Spalten umfasst. Wir werden diesen Bereich bald zusammenführen!
 
 ## Schritt 4: Benennen Sie den Bereich
 
@@ -85,7 +87,7 @@ Indem wir diesen Bereich „TestRange“ nennen, können wir ihn später im Code
 
 ## Schritt 5: Den Zellbereich zusammenführen
 
-Und jetzt geschieht der Zauber: das Zusammenführen der Zellen innerhalb des Bereichs, den wir gerade erstellt haben!
+Und jetzt kommt die Magie: das Zusammenführen der Zellen innerhalb des Bereichs, den wir gerade erstellt haben!
 
 ```csharp
 // Fügt die Zellen des Bereichs zusammen.
@@ -96,7 +98,7 @@ Dieser Schritt führt alle Zellen von D6 bis I12 zu einer einzigen Zelle zusamme
 
 ## Schritt 6: Abrufen des benannten Bereichs
 
-Nachdem die Zellen zusammengeführt wurden, möchten wir möglicherweise eine Formatierung anwenden. Lassen Sie uns zunächst unseren benannten Bereich abrufen.
+Sobald die Zellen zusammengeführt sind, können wir sie formatieren. Rufen wir zunächst unseren benannten Bereich ab.
 
 ```csharp
 // Holen Sie sich die Reichweite.
@@ -107,7 +109,7 @@ Durch das Abrufen des Bereichs nach Namen können wir weitere Vorgänge ausführ
 
 ## Schritt 7: Definieren Sie einen Stil für die verbundenen Zellen
 
-Was nützt eine verbundene Zelle, wenn sie nicht gut aussieht? Lassen Sie uns ein Stilobjekt erstellen, um den Text auszurichten und eine Hintergrundfarbe anzuwenden.
+Was nützt eine verbundene Zelle, wenn sie nicht ansprechend aussieht? Erstellen wir ein Stilobjekt, um den Text auszurichten und eine Hintergrundfarbe anzuwenden.
 
 ```csharp
 // Definieren Sie ein Stilobjekt.
@@ -139,7 +141,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Der`StyleFlag` teilt Aspose.Cells mit, welche Stileigenschaften angewendet werden sollen – Ausrichtung, Schattierung usw. Dies gibt Ihnen eine genaue Kontrolle darüber, wie der Stil angewendet wird.
+Der `StyleFlag` teilt Aspose.Cells mit, welche Stileigenschaften angewendet werden sollen – Ausrichtung, Schattierung usw. Dadurch haben Sie eine detaillierte Kontrolle darüber, wie der Stil angewendet wird.
 
 ## Schritt 9: Daten in den zusammengeführten Bereich eingeben
 
@@ -161,11 +163,11 @@ Abschließend speichern wir die Arbeitsmappe als Excel-Datei.
 wb1.Save(dataDir + "outputMergeCellsInNamedRange.xlsx");
 ```
 
-Dabei wird die Arbeitsmappe unter dem Namen "outputMergeCellsInNamedRange.xlsx" in Ihrem angegebenen Verzeichnis gespeichert.
+Dabei wird die Arbeitsmappe unter dem Namen „outputMergeCellsInNamedRange.xlsx“ in Ihrem angegebenen Verzeichnis gespeichert.
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zusammengeführt, einige schöne Formatierungen angewendet und sogar einige Daten eingegeben – alles mit Aspose.Cells für .NET. Egal, ob Sie an der Automatisierung von Berichten arbeiten, Excel-Dateien bearbeiten oder einfach nur neue Techniken erlernen, diese Schritt-für-Schritt-Anleitung sollte Ihnen die nötigen Grundlagen vermitteln.
+Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zusammengeführt, ansprechend formatiert und sogar Daten eingegeben – alles mit Aspose.Cells für .NET. Egal, ob Sie Berichte automatisieren, Excel-Dateien bearbeiten oder einfach neue Techniken erlernen möchten – diese Schritt-für-Schritt-Anleitung bietet Ihnen die nötigen Grundlagen.
 
 ## Häufig gestellte Fragen
 
@@ -173,19 +175,21 @@ Und da haben Sie es! Sie haben erfolgreich Zellen in einem benannten Bereich zus
 Nein, Sie können in Aspose.Cells nur zusammenhängende Zellen zusammenführen.
 
 ### Kann ich einen Zusammenführungsvorgang programmgesteuert rückgängig machen?  
- Sobald Zellen verbunden sind, können Sie die Verbindung mit dem`UnMerge()` Methode in Aspose.Cells.
+Sobald Zellen zusammengeführt sind, können Sie die Zusammenführung mit dem `UnMerge()` Methode in Aspose.Cells.
 
 ### Werden durch das Zusammenführen von Zellen die darin enthaltenen Daten entfernt?  
-Wenn sich vor dem Zusammenführen Daten in den Zellen befanden, bleiben die Daten aus der ersten Zelle des Bereichs erhalten.
+Wenn sich vor dem Zusammenführen Daten in den Zellen befinden, bleiben die Daten aus der ersten Zelle des Bereichs erhalten.
 
 ### Kann ich auf einzelne Zellen innerhalb eines zusammengeführten Bereichs unterschiedliche Stile anwenden?  
-Nein, ein zusammengeführter Bereich verhält sich wie eine einzelne Zelle. Daher können Sie den einzelnen Zellen darin nicht unterschiedliche Stile zuweisen.
+Nein, ein zusammengeführter Bereich verhält sich wie eine einzelne Zelle. Sie können den einzelnen Zellen darin also keine unterschiedlichen Stile zuweisen.
 
 ### Wie greife ich nach dem Zusammenführen auf eine zusammengeführte Zelle zu?  
-Nach dem Zusammenführen können Sie weiterhin über die Koordinaten ihrer oberen linken Ecke auf die zusammengeführte Zelle zugreifen.
+Nach dem Zusammenführen können Sie weiterhin über die Koordinaten der oberen linken Ecke auf die zusammengeführte Zelle zugreifen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

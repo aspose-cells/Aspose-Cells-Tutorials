@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # セルロック戦略
@@ -24,7 +26,7 @@
 
 ## Aspose.Cells for Java 入門
 
-セルのロックについて詳しく説明する前に、必要なツールが揃っていることを確認しましょう。まず、Aspose.Cells for Javaをダウンロードしてセットアップする必要があります。ダウンロードリンクはこちらです。 [ここ](https://releases.aspose.com/cells/java/)ライブラリをインストールしたら、基本的な作業に進みます。
+セルのロックについて詳しく説明する前に、必要なツールが揃っていることを確認しましょう。まず、Aspose.Cells for Javaをダウンロードしてセットアップする必要があります。ダウンロードリンクは [ここ](https://releases.aspose.com/cells/java/)ライブラリをインストールしたら、基本的な作業に進みます。
 
 ## 基本的なセルロック
 
@@ -125,7 +127,7 @@ worksheet.protect(ProtectionType.ALL);
 
 ### Excel ワークシート全体を保護するにはどうすればよいですか?
 
-Aspose.Cells for Javaを使用してExcelワークシート全体を保護することができます。 `protect` ワークシートオブジェクトにメソッドを適用し、 `ProtectionType.ALL` パラメータ。
+Aspose.Cells for Javaを使用してExcelワークシート全体を保護することができます。 `protect` ワークシートオブジェクトのメソッドを `ProtectionType.ALL` パラメータ。
 
 ### カスタムセルロックルールを定義できますか?
 
@@ -142,6 +144,7 @@ Aspose.Cells for Javaを使用してExcelワークシート全体を保護する
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,7 +198,7 @@ Uzyskaj szczegóły wersji pliku Excel 2013 w formacie .xlsx.
 Oto kilka praktycznych zastosowań odzyskiwania wersji plików Excel:
 1. **Integracja danych:** Zapewnij kompatybilność podczas integrowania danych z różnych źródeł w ramach jednego systemu.
 2. **Projekty migracyjne:** Śledź i zarządzaj kontrolą wersji podczas migracji plików Excela pomiędzy różnymi platformami.
-3. **Skrypty automatyzacji:** Użyj w skryptach automatyzujących do obsługi plików na podstawie ich konkretnych wersji programu Excel.
+3. **Skrypty automatyzacji:** Stosować w skryptach automatyzujących obsługę plików na podstawie ich konkretnych wersji programu Excel.
 
 ## Rozważania dotyczące wydajności
 
@@ -225,6 +227,9 @@ Gotowy, aby zacząć wdrażać to rozwiązanie w swoich projektach? Wypróbuj je
    - Należy pamiętać o różnicach w specyfikacjach formatów plików pomiędzy wersjami, np. w obsłudze projektów VBA lub makr.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

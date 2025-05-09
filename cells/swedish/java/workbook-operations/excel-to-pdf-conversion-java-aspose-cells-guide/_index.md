@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Innan du börjar, se till att du har:
 
 1. **Obligatoriska bibliotek:** Installera Aspose.Cells för Java, som erbjuder en robust uppsättning verktyg för att hantera Excel-filer.
 2. **Miljöinställningar:** Se till att din utvecklingsmiljö stöder Java och är konfigurerad för att använda Maven eller Gradle för beroendehantering.
-3. **Kunskapsförkunskaper:** Har grundläggande kunskaper i Java-programmering och erfarenhet av att arbeta med bibliotek.
+3. **Kunskapsförkunskapskrav:** Har grundläggande kunskaper i Java-programmering och erfarenhet av att arbeta med bibliotek.
 
 ## Konfigurera Aspose.Cells för Java
 För att inkludera Aspose.Cells-biblioteket i ditt projekt, använd antingen Maven eller Gradle:
@@ -136,6 +138,9 @@ A5: Kontrollera sökvägarna för filer, se till att du har rätt behörigheter 
 Nu när du har verktygen och kunskapen kan du börja effektivt konvertera Excel-filer till PDF-filer med Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

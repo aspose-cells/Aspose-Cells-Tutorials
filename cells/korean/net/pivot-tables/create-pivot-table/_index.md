@@ -1,57 +1,62 @@
 ---
-title: .NET에 대한 Aspose.Cells을 사용하여 Excel에서 중추 테이블을 생성합니다
-weight: 7700
-limit: 
-description: .NET에 대한 Aspose.Cells를 사용하여 Excel 파일에서 Pivot Table를 만드는 방법을 알아보십시오. 이 단계별 가이드는 데이터를 추가하고 Pivot Table를 생성하는 것을 보여줍니다.
-keywords: [Aspose.Cells for .NET, create Pivot Table, Excel Pivot Table, .NET Excel library, generate Pivot Table, Excel automation, C# Pivot Table, data summarization, Aspose.Cells example]
-url: /ko/net/pivot-tables/create-pivot-table/
+"description": "Aspose.Cells for .NET을 사용하여 Excel 파일에 피벗 테이블을 만드는 방법을 알아보세요. 이 단계별 가이드는 데이터를 추가하고 피벗 테이블을 생성하는 방법을 보여줍니다."
+"title": "Aspose.Cells for .NET을 사용하여 Excel에서 피벗 테이블 만들기"
+"url": "/ko/net/pivot-tables/create-pivot-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cells을 사용하여 Excel에서 중추 테이블을 생성합니다
+# Aspose.Cells를 사용하여 Excel에서 피벗 테이블 만들기
 
-.NET에 대한 Aspose.Cells을 사용하면 Excel 작업簿을 생성하고 구조화된 데이터를 추가하고 동적 데이터 분석을 위한 Pivot Table를 만들 수 있습니다. 이 튜토리얼은 작업簿을 초기화하고 데이터를 채우고, Pivot Table를 삽입하고, C#에서 구조를 구성하는 과정을 안내합니다. 보고서를 자동화하거나 판매 데이터를 분석하는 경우도 있지만, 이 예제는 프로세스를 효율적으로 효율적으로 조정하는 데 도움이 될 것입니다.  
+Excel에서 프로그래밍 방식으로 피벗 테이블을 만드는 것이 그 어느 때보다 쉬워졌습니다! Aspose.Cells for .NET을 사용하면 Excel 통합 문서를 생성하고, 구조화된 데이터를 추가하고, 동적 데이터 분석을 위한 피벗 테이블을 만들 수 있습니다. 이 튜토리얼에서는 통합 문서 초기화, 데이터 채우기, 피벗 테이블 삽입, 그리고 구조 구성까지 C#으로 모두 안내합니다. 보고서 자동화든 판매 데이터 분석이든, 이 예제를 통해 프로세스를 효율적으로 간소화할 수 있습니다.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 설치 지침
-프로젝트에서 .NET에 대한 Aspose.Cells를 사용하려면 다음 단계를 수행하십시오.  
+프로젝트에서 Aspose.Cells for .NET을 사용하려면 다음 단계를 따르세요.  
 
-1. NuGet를 통해 설치:  
-   * 비주얼 스튜디오를 열고  
-   * 도구 > NuGet 패키지 관리자 > 솔루션에 대한 NuGet 패키지를 관리하십시오.  
-   * Aspose.Cells를 검색하고 설치하세요.  
+1. NuGet을 통해 설치:  
+   - Visual Studio를 엽니다.  
+   - 도구 > NuGet 패키지 관리자 > 솔루션용 NuGet 패키지 관리로 이동합니다.  
+   - Aspose.Cells를 검색하여 설치하세요.  
 
-   이 경우 NuGet 패키지 관리자 콘솔을 통해 설치합니다.  
+   또는 NuGet 패키지 관리자 콘솔을 통해 설치하세요.  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
 2. Aspose 웹사이트에서 다운로드:  
-   * 방문[.NET 다운로드 페이지에 대한 Aspose.Cells](https://releases.aspose.com/cells/net/)\- 그래  
-   * 도서관 파일들을 다운로드하고 추출해 보세요.  
-   * .NET 프로젝트에 Aspose.Cells.dll 참조를 추가하십시오.  
+   - 방문하세요 [Aspose.Cells for .NET 다운로드 페이지](https://releases.aspose.com/cells/net/).  
+   - 라이브러리 파일을 다운로드하고 압축을 풉니다.  
+   - .NET 프로젝트에 Aspose.Cells.dll 참조를 추가합니다.  
 
-3. 라이센스를 신청 (선택):  
-   * 라이선스를 구매하세요[](https://purchase.aspose.com/buy)또는[임시 면허](https://purchase.aspose.com/temporary-license/)\- 그래  
-   * 라이선스를 코드로 적용하세요:  
+3. 라이센스 적용(선택 사항):  
+   - 라이센스를 구매하세요 [아스포제](https://purchase.aspose.com/buy) 또는 얻을 [임시 면허](https://purchase.aspose.com/temporary-license/).  
+   - 코드에 라이센스를 적용하세요:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## 또한 참조  
-라이선스를 구매하려면[구매 페이지를 설정](https://purchase.aspose.com/buy)\- 그래  
-전체 문서 를 보기 위해 방문 하십시오 [.NET 문서에 대한 Aspose.Cells](https://docs.aspose.com/cells/net/)\- 그래  
-전체 API 참조를 확인하려면 확인합니다 [.NET API 참조의 Aspose.Cells](https://reference.aspose.com/cells/net/)\- 그래 
+## 또한 참조하세요  
+라이센스를 구매하려면 다음으로 이동하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).  
+전체 문서는 다음을 방문하세요. [.NET용 Aspose.Cells 문서](https://docs.aspose.com/cells/net/).  
+전체 API 참조를 살펴보려면 다음을 확인하세요. [.NET API 참조용 Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

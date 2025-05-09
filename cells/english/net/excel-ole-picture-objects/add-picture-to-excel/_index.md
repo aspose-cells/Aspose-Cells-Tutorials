@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/add-picture-to-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Picture to Excel Worksheet
@@ -96,6 +98,7 @@ Yes! You can position images to cover multiple cells by specifying the desired r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

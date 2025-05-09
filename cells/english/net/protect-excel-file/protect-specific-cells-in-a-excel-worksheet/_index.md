@@ -8,7 +8,9 @@ url: /net/protect-excel-file/protect-specific-cells-in-a-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Specific Cells In A Excel Worksheet
@@ -160,6 +162,7 @@ You can explore more about Aspose.Cells for .NET in the documentation [here](htt
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

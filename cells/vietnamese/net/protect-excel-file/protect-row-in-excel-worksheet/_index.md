@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ hàng trong bảng tính Excel
-linktitle: Bảo vệ hàng trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Khám phá trong hướng dẫn này cách bảo vệ các hàng của bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước bằng C#.
-weight: 60
-url: /vi/net/protect-excel-file/protect-row-in-excel-worksheet/
+"description": "Khám phá trong hướng dẫn này cách bảo vệ các hàng của bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước bằng C#."
+"linktitle": "Bảo vệ hàng trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ hàng trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/protect-row-in-excel-worksheet/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ hàng trong bảng tính Excel
@@ -21,11 +23,11 @@ Khi làm việc với các trang tính Excel, thường cần phải bảo vệ 
 
 Trước khi bắt đầu phần thực hành, hãy đảm bảo bạn đã thiết lập mọi thứ. Sau đây là một số điều kiện tiên quyết:
 
-1.  Aspose.Cells cho .NET: Tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/cells/net/). Đảm bảo bạn có phiên bản mới nhất cho tất cả các tính năng mới và sửa lỗi.
+1. Aspose.Cells cho .NET: Tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/cells/net/). Đảm bảo bạn có phiên bản mới nhất cho tất cả các tính năng mới và sửa lỗi.
 2. Visual Studio: Môi trường phát triển tích hợp (IDE) như Visual Studio (Community, Professional hoặc Enterprise) sẽ giúp bạn biên dịch và chạy mã C# hiệu quả.
 3. .NET Framework: Bạn sẽ cần phiên bản .NET Framework tương thích. Aspose.Cells hỗ trợ nhiều phiên bản, vì vậy hãy đảm bảo phiên bản của bạn được cập nhật. 
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ có lợi khi chúng ta viết mã trong hướng dẫn này.
-5.  Tài liệu tham khảo: Làm quen với[Aspose.Cells cho tài liệu .NET](https://reference.aspose.com/cells/net/) để biết thêm chi tiết về các phương pháp và lớp được sử dụng.
+5. Tài liệu tham khảo: Làm quen với [Aspose.Cells cho tài liệu .NET](https://reference.aspose.com/cells/net/) để biết thêm chi tiết về các phương pháp và lớp được sử dụng.
 
 ## Nhập gói
 
@@ -50,7 +52,7 @@ if (!IsExists)
     Directory.CreateDirectory(dataDir);
 }
 ```
- Trong mã này, thay thế`YOUR DOCUMENT DIRECTORY` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
+Trong mã này, thay thế `YOUR DOCUMENT DIRECTORY` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -59,7 +61,7 @@ Tiếp theo, chúng ta sẽ tạo một sổ làm việc mới, nơi diễn ra m
 ```csharp
 Workbook wb = new Workbook();
 ```
- Dòng này khởi tạo một phiên bản mới của`Workbook` lớp, tạo ra một bài tập mới để chúng ta thực hiện.
+Dòng này khởi tạo một phiên bản mới của `Workbook` lớp, tạo ra một bài tập mới để chúng ta thực hiện.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -104,7 +106,7 @@ sheet.Cells.ApplyRowStyle(0, style, flag); // Áp dụng kiểu cho hàng đầu
 
 ## Bước 6: Bảo vệ tờ giấy
 
- Với hàng của chúng ta bị khóa, hãy thực hiện thêm bước đó và bảo vệ hoàn toàn bảng tính. Điều này sẽ thực thi khóa trên tất cả các chức năng được xác định trong`ProtectionType`.
+Với hàng của chúng ta bị khóa, hãy thực hiện thêm bước đó và bảo vệ hoàn toàn bảng tính. Điều này sẽ thực thi khóa trên tất cả các chức năng được xác định trong `ProtectionType`.
 
 ```csharp
 sheet.Protect(ProtectionType.All); // Bảo vệ tờ giấy với tất cả các tính năng
@@ -113,7 +115,7 @@ Bằng cách áp dụng biện pháp bảo vệ này, người dùng không th�
 
 ## Bước 7: Lưu sổ làm việc
 
-Bước cuối cùng là lưu sổ làm việc. Đây là nơi mọi công sức của chúng ta được đền đáp và chúng ta có thể thấy bảng tính được bảo vệ tuyệt đẹp của mình trở nên sống động!
+Bước cuối cùng là lưu sổ làm việc. Đây là nơi mọi công sức của chúng ta được đền đáp, và chúng ta có thể thấy bảng tính được bảo vệ tuyệt đẹp của mình trở nên sống động!
 
 ```csharp
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
@@ -133,16 +135,18 @@ Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép người
 Có, bạn có thể mở rộng kỹ thuật khóa bằng cách lặp qua nhiều hàng và áp dụng các thay đổi kiểu tương tự cho từng hàng.
 
 ### Có cách nào để mở khóa các hàng sau khi bảo vệ không?
- Có, trước tiên bạn có thể bỏ bảo vệ trang tính rồi sau đó điều chỉnh`IsLocked` thuộc tính của các hàng mong muốn, sau đó áp dụng lại biện pháp bảo vệ.
+Có, trước tiên bạn có thể bỏ bảo vệ trang tính rồi sau đó điều chỉnh `IsLocked` thuộc tính của các hàng mong muốn, sau đó áp dụng lại biện pháp bảo vệ.
 
 ### Aspose.Cells có hỗ trợ các định dạng khác ngoài Excel không?
 Chắc chắn rồi! Aspose.Cells có thể chuyển đổi và lưu sổ làm việc thành nhiều định dạng khác nhau, bao gồm CSV, PDF và HTML.
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và hướng dẫn cộng đồng.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và hướng dẫn cộng đồng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

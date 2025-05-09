@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ Aqui estão alguns cenários do mundo real onde essa funcionalidade pode ser inc
 
 ## Considerações de desempenho
 Ao trabalhar com grandes conjuntos de dados ou operações complexas, considere estas dicas:
-- **Otimize o uso da memória**: Certifique-se de que seu ambiente tenha memória adequada alocada para lidar com arquivos grandes de forma eficiente.
+- **Otimizar o uso da memória**: Certifique-se de que seu ambiente tenha memória adequada alocada para lidar com arquivos grandes de forma eficiente.
 - **Processamento em lote**: Se estiver lidando com várias pastas de trabalho, considere processá-las em lotes para gerenciar melhor o consumo de recursos.
 
 ## Conclusão
@@ -153,6 +155,9 @@ Considere explorar funcionalidades adicionais, como ler, modificar ou salvar arq
 - **Licença Temporária**: Obtenha uma licença temporária de [Licenças Temporárias Aspose](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

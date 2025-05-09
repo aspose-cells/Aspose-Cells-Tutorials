@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ cells.get("B1").setValue(60); // Dodaj wartość do B1, itd.
 
 ### Wstawianie wykresu
 
-Następnie dodaj wykres do arkusza:
+Następnie dodaj wykres do arkusza kalkulacyjnego:
 
 ```java
 // Uzyskaj dostęp do zbioru wykresów arkusza kalkulacyjnego
@@ -170,6 +172,9 @@ A: Ten [Forum Aspose](https://forum.aspose.com/c/cells/9) jest doskonałym źró
 - **Wsparcie i fora:** Dołącz do społeczności lub poszukaj pomocy pod adresem [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

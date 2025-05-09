@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Naučte se, jak přidávat digitální podpisy do souborů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka popisuje nastavení, načítání sešitů a vytváření zabezpečených digitálních podpisů."
+"description": "Naučte se, jak přidávat digitální podpisy do souborů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá nastavením, načítáním sešitů a vytvářením zabezpečených digitálních podpisů."
 "title": "Přidání digitálních podpisů do souborů aplikace Excel pomocí Aspose.Cells pro Javu – Komplexní průvodce"
 "url": "/cs/java/security-protection/add-digital-signatures-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,6 +191,9 @@ Nyní jste se naučili, jak přidávat digitální podpisy do sešitů aplikace 
 - Prozkoumejte další funkce, které nabízí Aspose.Cells pro pokročilejší manipulaci s tabulkami
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

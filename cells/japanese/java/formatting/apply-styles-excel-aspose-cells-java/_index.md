@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Aspose.Cells を使い始めるには、プロジェクトに統合する必要�
    - 無料トライアルは以下から入手できます。 [Aspose ダウンロード](https://releases。aspose.com/cells/java/).
    - 長期間の使用には、ライセンスを購入するか、一時的なライセンスを取得することを検討してください。 [一時ライセンス](https://purchase。aspose.com/temporary-license/).
 
-3. **基本的な初期化**インストールしたら、 `Workbook` Excel ファイルの作成と操作を開始します。
+3. **基本的な初期化**インストールしたら、インスタンスを作成します `Workbook` Excel ファイルの作成と操作を開始します。
 
 ## 実装ガイド
 
@@ -205,6 +207,9 @@ Aspose.Cells for Java を使用して、Excel ファイルのスタイルをプ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

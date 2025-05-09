@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ cell.getStyle().getFont().setColor(Color.getBlack()); // Establezca el color de 
 ```
 #### Explicación
 - Modificar `ForegroundColor` y `FontColor` Propiedades para aplicar estilos, mejorando la presentación de datos.
-### Cómo aplicar estilos de celda en una tabla dinámica (H3)
+### Cómo aplicar estilo de celda en una tabla dinámica (H3)
 Aplicar un estilo predefinido a celdas específicas dentro de una tabla dinámica:
 ```java
 pivotTable.format(cell.getRow(), cell.getColumn(), style); // Aplicar el estilo definido a la celda en su posición de fila y columna
@@ -177,6 +179,9 @@ En este tutorial, exploramos cómo Aspose.Cells para Java puede mejorar signific
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

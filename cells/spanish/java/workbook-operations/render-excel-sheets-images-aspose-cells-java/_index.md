@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ int height = 800;
 BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 Graphics2D g = image.createGraphics();
 g.setColor(Color.blue); // Establezca el color del dibujo en azul
-g.fillRect(0, 0, width, height); // Rellena toda el área con azul.
+g.fillRect(0, 0, width, height); // Llene toda el área con azul
 ```
 **Parámetros explicados:**
 - `BufferedImage.TYPE_INT_ARGB`:Define el tipo de imagen con transparencia alfa.
@@ -145,6 +147,9 @@ Aprendiste a representar hojas de Excel como imágenes usando Aspose.Cells en Ja
 ¡Con estas herramientas y consejos, estará bien encaminado para dominar la representación de hojas de Excel en Java con Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ public class SetDocumentProperties {
         props.setScaleCrop(true);
 ```
 
-**Krok 4: Aktualizuj status łączy**
+**Krok 4: Aktualizacja statusu łączy**
 ```java
         // Upewnij się, że wszystkie linki są aktualne
         props.setLinksUpToDate(true);
@@ -185,6 +187,9 @@ Gotowy do rozpoczęcia wdrażania? Zdobądź bezpłatną wersję próbną lub ty
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

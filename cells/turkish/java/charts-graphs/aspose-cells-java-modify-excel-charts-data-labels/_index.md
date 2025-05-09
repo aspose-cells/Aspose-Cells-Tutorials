@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ C5: Evet, Aspose.Cells çeşitli Java tabanlı çerçeveler ve uygulamalarla sor
 Projelerinizde Aspose.Cells for Java'nın tüm avantajlarından yararlanmak ve anlayışınızı derinleştirmek için bu kaynakları inceleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

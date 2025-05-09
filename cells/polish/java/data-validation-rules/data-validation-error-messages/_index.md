@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komunikaty o błędach walidacji danych
@@ -26,7 +28,7 @@ Komunikaty o błędach walidacji danych to powiadomienia wyświetlane użytkowni
 - Porady: Udzielają wskazówek, co poszło nie tak i jak to naprawić.
 - Zapobieganie błędom: Pomagają zapobiegać przetwarzaniu nieprawidłowych danych, co poprawia jakość danych.
 
-Teraz zajmiemy się tworzeniem komunikatów o błędach walidacji danych krok po kroku, korzystając z Aspose.Cells dla Java.
+Teraz zajmiemy się tworzeniem komunikatów o błędach walidacji danych krok po kroku za pomocą Aspose.Cells dla Java.
 
 ## Wymagania wstępne
 
@@ -76,9 +78,9 @@ Komunikaty o błędach można formatować za pomocą znaczników HTML, dodawać 
 
 ### Czy mogę używać ikon i obrazów w komunikatach o błędach?
 
-Tak, możesz osadzać obrazy i ikony w komunikatach o błędach, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
+Tak, w komunikatach o błędach można osadzać obrazy i ikony, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
 
-### Czy możliwe jest jednoczesne sprawdzenie danych w wielu komórkach?
+### Czy możliwe jest jednoczesne sprawdzenie poprawności danych w wielu komórkach?
 
 Tak, Aspose.Cells for Java pozwala na walidację danych w wielu komórkach i definiowanie komunikatów o błędach dla każdej reguły walidacji.
 
@@ -94,9 +96,9 @@ Komunikaty o błędach można formatować za pomocą znaczników HTML, dodawać 
 
 ### Czy mogę używać ikon i obrazów w komunikatach o błędach?
 
-Tak, możesz osadzać obrazy i ikony w komunikatach o błędach, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
+Tak, w komunikatach o błędach można osadzać obrazy i ikony, aby uczynić je bardziej atrakcyjnymi wizualnie i informacyjnymi.
 
-### Czy możliwe jest jednoczesne sprawdzenie danych w wielu komórkach?
+### Czy możliwe jest jednoczesne sprawdzenie poprawności danych w wielu komórkach?
 
 Tak, Aspose.Cells for Java pozwala na walidację danych w wielu komórkach i definiowanie komunikatów o błędach dla każdej reguły walidacji.
 
@@ -111,6 +113,7 @@ Możesz wychwytywać błędy walidacji i wyświetlać użytkownikom dostosowane 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,14 +83,14 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Győződjön meg róla, hogy `"DataConnection.xlsx"` létezik ebben a könyvtárban.
 
 ##### A munkafüzet betöltése
-Most töltsd be a munkafüzetet a memóriába egyetlen kódsorral:
+Most töltse be a munkafüzetet a memóriába egyetlen kódsorral:
 
 ```java
 import com.aspose.cells.Workbook;
 
 Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 ```
-*Ez inicializálja a következő egy példányát: `Workbook`, amely az Excel-fájlodat jelöli.*
+*Ez inicializálja a következő példányát: `Workbook`, amely az Excel-fájlodat jelöli.*
 
 ### 2. funkció: Adatkapcsolat módosítása a munkafüzetben
 **Áttekintés:** Ismerje meg, hogyan férhet hozzá és módosíthatja az adatkapcsolatokat egy betöltött munkafüzetben.
@@ -191,6 +193,9 @@ A4: Látogassa meg a [Aspose fórum](https://forum.aspose.com/c/cells/9) hogy se
 - **Letöltés:** [Aspose.Cells Java kiadásokhoz](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

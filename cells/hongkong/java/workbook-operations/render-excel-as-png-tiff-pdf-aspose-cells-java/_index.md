@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 ## 常見問題部分
 1. **如何處理大型 Excel 文件？**
    - 考慮將大型工作簿分解為較小的工作簿以提高處理效率。
-2. **渲染時我可以自訂影像解析度嗎？**
+2. **我可以在渲染時自訂影像解析度嗎？**
    - 是的，調整 DPI 設定 `ImageOrPrintOptions`。
 3. **如果我的預設字體並非在所有系統上都可用，該怎麼辦？**
    - 確保所選的預設字型安裝在所有目標系統中。
@@ -185,6 +187,9 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 透過本指南，您現在可以使用 Aspose.Cells for Java 將 Excel 檔案轉換為 PNG、TIFF 和 PDF 格式。利用這些多功能的轉換技術增強您的資料共享能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

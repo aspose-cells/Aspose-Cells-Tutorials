@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Gratulálunk! Megtanultad, hogyan illessz be megjegyzéseket az Excel listaobjek
 Fedezd fel ezeket az erőforrásokat, miközben folytatod az Aspose.Cells for Java fejlesztésével kapcsolatos utadon!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

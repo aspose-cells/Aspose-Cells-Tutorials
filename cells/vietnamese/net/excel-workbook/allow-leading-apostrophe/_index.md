@@ -1,14 +1,16 @@
 ---
-title: Cho phép dấu nháy đơn đứng đầu
-linktitle: Cho phép dấu nháy đơn đứng đầu
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Quản lý dấu nháy đơn đầu tiên trong Excel một cách dễ dàng với Aspose.Cells cho .NET. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước trong suốt quá trình.
-weight: 60
-url: /vi/net/excel-workbook/allow-leading-apostrophe/
+"description": "Quản lý dễ dàng các dấu nháy đơn đầu trong Excel với Aspose.Cells cho .NET. Hướng dẫn toàn diện này hướng dẫn bạn từng bước trong suốt quá trình."
+"linktitle": "Cho phép dấu nháy đơn đứng đầu"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Cho phép dấu nháy đơn đứng đầu"
+"url": "/vi/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cho phép dấu nháy đơn đứng đầu
@@ -22,8 +24,8 @@ Chào mừng bạn đến với hướng dẫn từng bước này về cách s�
 Trước khi tìm hiểu sâu hơn về mã, đây là một số điều kiện tiên quyết bạn cần đáp ứng:
 
 1. Kiến thức cơ bản về .NET: Sự quen thuộc với .NET framework là điều cần thiết. Nếu bạn đã từng làm việc với C# hoặc VB.NET, hãy coi như bạn đã sẵn sàng.
-2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể dễ dàng thực hiện việc này thông qua trình quản lý gói NuGet hoặc tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
-3. Thiết lập IDE: Đảm bảo bạn có Môi trường phát triển tích hợp (IDE) như Visual Studio để sẵn sàng cho việc viết mã.
+2. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải cài đặt Aspose.Cells. Bạn có thể dễ dàng thực hiện việc này thông qua trình quản lý gói NuGet hoặc tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
+3. Thiết lập IDE: Đảm bảo bạn có Môi trường phát triển tích hợp (IDE) như Visual Studio để sẵn sàng cho việc mã hóa.
 4. Tệp Excel mẫu: Bạn có thể sử dụng tệp mẫu ("AllowLeadingApostropheSample.xlsx") mà chúng ta sẽ làm việc trong mã.
 
 Bây giờ bạn đã kiểm tra các điều kiện tiên quyết, hãy nhập các gói cần thiết và thiết lập dự án của mình.
@@ -62,7 +64,7 @@ Bây giờ, chúng ta sẽ khởi tạo WorkbookDesigner, thành phần rất qu
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Các`WorkbookDesigner`quản lý thiết kế và liên kết dữ liệu của bảng tính, giúp chúng ta dễ dàng hơn khi chuyển đổi dữ liệu sang định dạng trực quan.
+Các `WorkbookDesigner` quản lý thiết kế và liên kết dữ liệu của bảng tính, giúp chúng ta dễ dàng hơn khi chuyển đổi dữ liệu sang định dạng trực quan.
 
 ## Bước 3: Tải Workbook hiện có
 
@@ -76,13 +78,13 @@ Tệp Excel mẫu ở đây cần chứa các điểm đánh dấu thông minh �
 
 ## Bước 4: Cấu hình Cài đặt Sổ làm việc
 
-Bây giờ, bạn sẽ muốn đảm bảo rằng cài đặt sổ làm việc được cấu hình để xử lý dấu nháy đơn ở đầu một cách thích hợp.
+Bây giờ, bạn sẽ muốn đảm bảo rằng cài đặt sổ làm việc được cấu hình để xử lý dấu nháy đơn đứng đầu một cách thích hợp.
 
 ```csharp
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Bằng cách thiết lập`QuotePrefixToStyle` thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn ở đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
+Bằng cách thiết lập `QuotePrefixToStyle` thành sai, chúng ta đang hướng dẫn Aspose.Cells xử lý các dấu nháy đơn đứng đầu như các ký tự thông thường, cho phép chúng ta xử lý chúng một cách chính xác trong đầu ra.
 
 ## Bước 5: Tải dữ liệu cho Smart Markers
 
@@ -96,7 +98,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Chúng tôi đang tạo một danh sách`DataObject`trong đó một trong các tên cố ý bao gồm dấu nháy đơn ở đầu. Điều này sẽ giúp minh họa cách Aspose.Cells xử lý các tình huống như vậy.
+Chúng tôi đang tạo một danh sách `DataObject`, trong đó một trong các tên cố ý bao gồm dấu nháy đơn ở đầu. Điều này sẽ giúp minh họa cách Aspose.Cells xử lý các tình huống như vậy.
 
 ## Bước 6: Liên kết Nguồn dữ liệu với Nhà thiết kế
 
@@ -140,7 +142,7 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng tôi đã điều hướng qua những phức tạp của việc xử lý dấu nháy đơn đầu tiên trong Excel bằng Aspose.Cells cho .NET. Từ việc thiết lập môi trường của bạn đến việc thao tác các tệp Excel một cách hiệu quả, bạn đã học cách loại bỏ những cạm bẫy tiềm ẩn thường gặp khi làm việc với chuỗi số và định dạng tự động.
+Trong hướng dẫn này, chúng tôi đã điều hướng qua những phức tạp của việc xử lý dấu nháy đơn đầu trong Excel bằng Aspose.Cells cho .NET. Từ việc thiết lập môi trường của bạn đến việc thao tác các tệp Excel một cách hiệu quả, bạn đã học cách loại bỏ những cạm bẫy tiềm ẩn thường gặp khi làm việc với chuỗi số và định dạng tự động.
 
 Bây giờ, cho dù bạn đang tạo báo cáo, tạo chức năng phân tích dữ liệu hay quản lý nhập và xuất dữ liệu, bạn đều có các công cụ để xử lý các tình huống đó một cách tự tin!
 
@@ -150,19 +152,21 @@ Bây giờ, cho dù bạn đang tạo báo cáo, tạo chức năng phân tích 
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel theo nhiều định dạng theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể sử dụng Aspose.Cells bằng cách đăng ký dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ và đặt câu hỏi trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells hỗ trợ những loại tệp nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau, chẳng hạn như XLS, XLSX, CSV và nhiều định dạng khác.
 
 ### Làm thế nào để mua giấy phép sử dụng Aspose.Cells?
- Bạn có thể mua giấy phép cho Aspose.Cells trực tiếp từ trang mua hàng của họ[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.Cells trực tiếp từ trang mua hàng của họ [đây](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi Bảng sang ODS bằng Aspose.Cells
-linktitle: Chuyển đổi Bảng sang ODS bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách chuyển đổi bảng Excel sang ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi.
-weight: 12
-url: /vi/net/tables-and-lists/converting-table-to-ods/
+"description": "Học cách chuyển đổi bảng Excel sang ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng của chúng tôi."
+"linktitle": "Chuyển đổi Bảng sang ODS bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi Bảng sang ODS bằng Aspose.Cells"
+"url": "/vi/net/tables-and-lists/converting-table-to-ods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi Bảng sang ODS bằng Aspose.Cells
@@ -27,7 +29,7 @@ Trước khi đi sâu vào mã, điều quan trọng là phải có một số �
 
 ### Tải xuống thư viện Aspose.Cells
 
- Bạn sẽ cần phải cài đặt thư viện Aspose.Cells trong dự án của bạn. Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/). Ngoài ra, nếu muốn, bạn có thể thêm nó thông qua NuGet:
+Bạn sẽ cần phải cài đặt thư viện Aspose.Cells trong dự án của bạn. Bạn có thể tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/). Ngoài ra, nếu muốn, bạn có thể thêm nó thông qua NuGet:
 
 ```bash
 Install-Package Aspose.Cells
@@ -67,7 +69,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn thực tế trên máy tính nơi lưu trữ tài liệu của bạn. Đảm bảo đường dẫn chính xác là điều cần thiết để tránh lỗi trong quá trình xử lý tệp.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế trên máy tính nơi lưu trữ tài liệu của bạn. Đảm bảo đường dẫn chính xác là điều cần thiết để tránh lỗi trong quá trình xử lý tệp.
 
 ## Bước 2: Mở tệp Excel
 
@@ -78,7 +80,7 @@ Bạn cần mở tệp Excel có chứa bảng bạn muốn chuyển đổi.
 Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 ```
 
- Ở đây, bạn đang khởi tạo một cái mới`Workbook` đối tượng với đường dẫn tệp Excel của bạn. Đảm bảo "SampleTable.xlsx" là tên tệp của bạn; nếu khác, hãy điều chỉnh cho phù hợp.
+Ở đây, bạn đang khởi tạo một cái mới `Workbook` đối tượng với đường dẫn tệp Excel của bạn. Đảm bảo "SampleTable.xlsx" là tên tệp của bạn; nếu khác, hãy điều chỉnh cho phù hợp.
 
 ## Bước 3: Lưu dưới dạng tệp ODS
 
@@ -89,7 +91,7 @@ Sau khi mở tệp, bước tiếp theo là lưu tệp theo định dạng ODS.
 wb.Save(outputDir + "ConvertTableToOds_out.ods");
 ```
 
-Dòng này lưu sổ làm việc vào thư mục đầu ra được chỉ định với tên "ConvertTableToOds_out.ods". Bạn có thể đặt tên bất kỳ cho nó, miễn là nó kết thúc bằng`.ods`.
+Dòng này lưu sổ làm việc vào thư mục đầu ra được chỉ định với tên "ConvertTableToOds_out.ods". Bạn có thể đặt tên bất kỳ cho nó, miễn là nó kết thúc bằng `.ods`.
 
 ## Bước 4: Xác minh thành công chuyển đổi
 
@@ -112,19 +114,21 @@ Và bạn đã có nó! Chuyển đổi bảng từ tệp Excel sang tệp ODS b
 Aspose.Cells là một thư viện mạnh mẽ để quản lý và thao tác các tệp Excel trong các ứng dụng .NET. 
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells từ[đây](https://releases.aspose.com/).
+Có! Bạn có thể tải xuống bản dùng thử miễn phí của Aspose.Cells từ [đây](https://releases.aspose.com/).
 
 ### Người dùng Aspose.Cells có được hỗ trợ không?
- Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Làm thế nào tôi có thể mua giấy phép vĩnh viễn cho Aspose.Cells?
- Bạn có thể mua giấy phép vĩnh viễn trực tiếp từ trang mua hàng Aspose, bạn có thể tìm thấy[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép vĩnh viễn trực tiếp từ trang mua hàng Aspose, bạn có thể tìm thấy [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể chuyển đổi những định dạng tệp nào bằng Aspose.Cells?
 Với Aspose.Cells, bạn có thể chuyển đổi giữa nhiều định dạng khác nhau bao gồm XLSX, XLS, ODS, CSV và nhiều định dạng khác nữa!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

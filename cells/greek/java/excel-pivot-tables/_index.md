@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Συγκεντρωτικοί Πίνακες Excel
@@ -40,9 +42,11 @@
 Μάθετε πώς να ανανεώνετε δεδομένα Συγκεντρωτικού Πίνακα στο Aspose.Cells για Java. Διατηρήστε τα δεδομένα σας ενημερωμένα χωρίς κόπο.
 ### [Προσαρμογή στυλ Συγκεντρωτικού Πίνακα](./customizing-pivot-table-styles/)
 Μάθετε πώς να προσαρμόζετε στυλ συγκεντρωτικών πινάκων στο Aspose.Cells για Java API. Δημιουργήστε οπτικά ελκυστικούς συγκεντρωτικούς πίνακες με ευκολία.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

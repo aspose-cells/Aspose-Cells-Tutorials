@@ -1,113 +1,117 @@
 ---
-title: Pořadí formátu zobrazení dat kontingenční tabulky v .NET
-linktitle: Pořadí formátu zobrazení dat kontingenční tabulky v .NET
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se vytvářet a spravovat hodnocení formátu zobrazení dat kontingenční tabulky v .NET pomocí Aspose.Cells pomocí tohoto podrobného průvodce.
-weight: 30
-url: /cs/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/
+"description": "Naučte se, jak v tomto podrobném návodu vytvářet a spravovat pořadí formátů zobrazení dat kontingenčních tabulek v .NET pomocí Aspose.Cells."
+"linktitle": "Hodnocení formátu zobrazení dat kontingenční tabulky v .NET"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Hodnocení formátu zobrazení dat kontingenční tabulky v .NET"
+"url": "/cs/net/creating-and-configuring-pivot-tables/pivot-table-data-display-format-ranking/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pořadí formátu zobrazení dat kontingenční tabulky v .NET
+# Hodnocení formátu zobrazení dat kontingenční tabulky v .NET
 
 ## Zavedení
-Pokud jde o analýzu dat, zejména v aplikaci Excel, kontingenční tabulky jsou vašimi nejlepšími přáteli. Pomohou vám shrnout, prozkoumat a vizualizovat data způsobem, který obyčejné tabulky prostě nedokážou. Pokud pracujete v prostředí .NET a chcete využít sílu kontingenčních tabulek, Aspose.Cells je ideální knihovna. Díky uživatelsky přívětivému rozhraní API a rozsáhlým funkcím vám umožňuje manipulovat se soubory aplikace Excel jako profesionál. V tomto tutoriálu prozkoumáme, jak nastavit hodnocení formátu zobrazení dat kontingenční tabulky v .NET pomocí Aspose.Cells, a rozebrat to krok za krokem pro jasné pochopení.
+Pokud jde o analýzu dat, zejména v Excelu, jsou kontingenční tabulky vašimi nejlepšími přáteli. Pomáhají vám shrnout, prozkoumat a vizualizovat data způsoby, jakými to obyčejné tabulky jednoduše nedokážou. Pokud pracujete v prostředí .NET a chcete využít sílu kontingenčních tabulek, Aspose.Cells je ideální knihovna. Díky uživatelsky přívětivému API a rozsáhlým funkcím vám umožňuje manipulovat s excelovými soubory jako profesionál. V tomto tutoriálu prozkoumáme, jak nastavit formát zobrazení dat kontingenční tabulky v .NET pomocí Aspose.Cells, a pro jasné pochopení si to krok za krokem rozebereme.
 ## Předpoklady
-Než skočíme do podrobností, ujistěte se, že máte vše nastaveno, abyste mohli pokračovat. Zde je to, co budete potřebovat:
+Než se pustíme do detailů, ujistěte se, že máte vše připravené. Zde je to, co budete potřebovat:
 1. Vývojové prostředí: Ujistěte se, že máte funkční vývojové prostředí .NET. Může to být Visual Studio nebo jakékoli jiné kompatibilní IDE.
-2. Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete si jej stáhnout z[místo](https://releases.aspose.com/cells/net/). K dispozici je také bezplatná zkušební verze, abyste mohli začít bez jakýchkoli okamžitých nákladů.
-3.  Ukázková data: V tomto tutoriálu použijeme soubor aplikace Excel s názvem`PivotTableSample.xlsx`. Ujistěte se, že máte v tomto souboru správně strukturovaná data, abyste mohli vytvořit kontingenční tabulku.
-Nyní, když máme vše podstatné, pojďme se ponořit do kódu!
-## Importujte balíčky
-Chcete-li začít, musíte do svého projektu .NET importovat potřebné jmenné prostory. Toto je zásadní krok, který zajistí, že vaše aplikace bude mít přístup k funkcím Aspose.Cells. Postup je následující:
+2. Knihovna Aspose.Cells: Budete potřebovat knihovnu Aspose.Cells. Můžete si ji stáhnout z [místo](https://releases.aspose.com/cells/net/)K dispozici je také bezplatná zkušební verze, abyste mohli začít bez jakýchkoli okamžitých nákladů.
+3. Ukázková data: V tomto tutoriálu použijeme soubor aplikace Excel s názvem `PivotTableSample.xlsx`Pro vytvoření kontingenční tabulky se ujistěte, že máte v tomto souboru správně strukturovaná data.
+Teď, když máme základní informace, pojďme se ponořit do kódu!
+## Importovat balíčky
+Chcete-li začít, musíte do svého projektu .NET importovat potřebné jmenné prostory. Toto je klíčový krok k zajištění toho, aby vaše aplikace měla přístup k funkcím Aspose.Cells. Postupujte takto:
 ### Importujte jmenný prostor Aspose.Cells
 ```csharp
 using System;
 using Aspose.Cells.Pivot;
 ```
-S tímto řádkem v horní části souboru C# budete mít přístup ke všem funkcím, které potřebujete pro práci se soubory Excel.
+S tímto řádkem v horní části souboru C# budete mít přístup ke všem funkcím, které potřebujete pro práci se soubory Excelu.
 ## Krok 1: Nastavení adresářů
-Před načtením dokumentu aplikace Excel musíte určit, kde se nacházejí zdrojová data a kam chcete výstup uložit. Zde je návod, jak tyto adresáře nastavit:
+Před načtením dokumentu aplikace Excel je třeba určit, kde se nacházejí zdrojová data a kam chcete uložit výstup. Zde je návod, jak tyto adresáře nastavit:
 ```csharp
 // adresáře
-string sourceDir = "Your Document Directory"; // Aktualizujte svůj aktuální adresář
-string outputDir = "Your Document Directory"; // Aktualizujte svůj aktuální adresář
+string sourceDir = "Your Document Directory"; // Aktualizujte pomocí svého aktuálního adresáře
+string outputDir = "Your Document Directory"; // Aktualizujte pomocí svého aktuálního adresáře
 ```
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou, kde jsou soubory uloženy.
-## Krok 2: Načtěte sešit
-Dále budete chtít načíst soubor aplikace Excel, který obsahuje vaši kontingenční tabulku. Zde je postup:
+Nezapomeňte vyměnit `"Your Document Directory"` se skutečnou cestou, kde jsou vaše soubory uloženy.
+## Krok 2: Načtení sešitu
+Dále budete chtít načíst soubor aplikace Excel, který obsahuje vaši kontingenční tabulku. Postupujte takto:
 ```csharp
-// Načtěte soubor šablony
+// Načíst soubor šablony
 Workbook workbook = new Workbook(sourceDir + "PivotTableSample.xlsx");
 ```
- The`Workbook` class je vaší bránou k práci se soubory Excel. Předáním cesty k vašemu vstupnímu souboru říkáte Aspose.Cells, aby načetl tento soubor do paměti.
-## Krok 3: Otevřete sešit
-Po načtení sešitu musíte získat přístup ke konkrétnímu listu, který obsahuje vaši kontingenční tabulku:
+Ten/Ta/To `Workbook` Třída je vaší branou k práci se soubory aplikace Excel. Předáním cesty ke vstupnímu souboru sdělíte třídě Aspose.Cells, aby tento soubor načetla do paměti.
+## Krok 3: Přístup k pracovnímu listu
+Po načtení sešitu potřebujete přistupovat ke konkrétnímu listu, který obsahuje vaši kontingenční tabulku:
 ```csharp
 // Získejte první pracovní list
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Tento fragment kódu načte první list z vašeho sešitu. Pokud je vaše kontingenční tabulka umístěna na jiném listu, upravte podle toho index.
-## Krok 4: Otevřete kontingenční tabulku
-Nyní je čas přejít k jádru věci – kontingenční tabulce. Pojďme k tomu přistupovat:
+Tento úryvek kódu načte první list z vašeho sešitu. Pokud se vaše kontingenční tabulka nachází na jiném listu, stačí odpovídajícím způsobem upravit index.
+## Krok 4: Přístup k kontingenční tabulce
+Nyní je čas přejít k jádru věci – k pivotní tabulce. Pojďme si ji zobrazit:
 ```csharp
 int pivotIndex = 0; // Index kontingenční tabulky
 PivotTable pivotTable = worksheet.PivotTables[pivotIndex];
 ```
- tomto scénáři přistupujeme k první kontingenční tabulce. Pokud máte více kontingenčních tabulek, upravte`pivotIndex`.
+V tomto scénáři přistupujeme k první kontingenční tabulce. Pokud máte více kontingenčních tabulek, upravte `pivotIndex`.
 ## Krok 5: Přístup k datovým polím
-Po zpřístupnění kontingenční tabulky je dalším krokem prozkoumání jejích datových polí. Zde je postup:
+Po přístupu k kontingenční tabulce je dalším krokem prozkoumat její datová pole. Postupujte takto:
 ```csharp
 // Přístup k datovým polím.
 PivotFieldCollection pivotFields = pivotTable.DataFields;
 ```
 Tato kolekce obsahuje všechna datová pole spojená s kontingenční tabulkou.
-## Krok 6: Nakonfigurujte formát zobrazení dat
-Nyní přichází ta zábavná část – nastavení formátu zobrazení dat pro hodnocení. Zde sdělíte kontingenční tabulce, jak chcete data vizualizovat:
+## Krok 6: Konfigurace formátu zobrazení dat
+Nyní přichází ta zábavná část – nastavení formátu zobrazení dat pro hodnocení. Zde v kontingenční tabulce sdělíte, jak chcete data vizualizovat:
 ```csharp
 // Přístup k prvnímu datovému poli v datových polích.
 PivotField pivotField = pivotFields[0];
 // Nastavení formátu zobrazení dat
 pivotField.DataDisplayFormat = PivotFieldDataDisplayFormat.RankLargestToSmallest;
 ```
-Tím dáváte kontingenční tabulce pokyn, aby zobrazila první datové pole v sestupném pořadí. Pokud chcete jít vzestupně, můžete odpovídajícím způsobem změnit formát zobrazení.
-## Krok 7: Vypočítejte data
-Změny provedené v kontingenční tabulce se neprojeví, dokud data nepřepočítáte. Zde je postup:
+Tímto způsobem dáváte kontingenční tabulce pokyn zobrazit první datové pole v sestupném pořadí. Pokud chcete jít vzestupně, můžete formát zobrazení odpovídajícím způsobem změnit.
+## Krok 7: Výpočet dat
+Změny provedené v kontingenční tabulce se projeví až po přepočítání dat. Postupujte takto:
 ```csharp
 pivotTable.CalculateData();
 ```
-Tento řádek aktualizuje kontingenční tabulku s použitím všech provedených změn.
-## Krok 8: Uložte výstup
-Nakonec uložte upravený sešit do určeného výstupního adresáře:
+Tento řádek obnoví kontingenční tabulku a použije všechny provedené změny.
+## Krok 8: Uložení výstupu
+Nakonec uložte upravený sešit do zadaného výstupního adresáře:
 ```csharp
-// Uložení souboru Excel
+// Uložení souboru aplikace Excel
 workbook.Save(outputDir + "PivotTableDataDisplayFormatRanking_out.xlsx");
 ```
-Tím se vytvoří nový soubor Excel s použitým formátem zobrazení. 
-## Krok 9: Potvrzující zpráva
-Je vždy příjemné potvrdit, že vše fungovalo podle očekávání. Můžete přidat jednoduchý výstup konzoly, abyste věděli:
+Tím se vytvoří nový soubor aplikace Excel s použitým formátem zobrazení. 
+## Krok 9: Potvrzovací zpráva
+Vždy je dobré si ověřit, že vše fungovalo podle očekávání. Můžete přidat jednoduchý výstup do konzole, který vás o tom informuje:
 ```csharp
 Console.WriteLine("PivotTableDataDisplayFormatRanking executed successfully.");
 ```
 ## Závěr
-Gratuluji! Právě jste se naučili, jak nastavit hodnocení formátu zobrazení dat kontingenční tabulky pomocí Aspose.Cells pro .NET. Využitím výkonu této knihovny se vaše správa tabulek stane mnohem efektivnější a bude schopna produkovat srozumitelné analýzy. Nezapomeňte experimentovat s různými datovými formáty, abyste viděli, jak vám mohou pomoci lépe vizualizovat data. 
-## FAQ
+Gratulujeme! Právě jste se naučili, jak nastavit formát zobrazení dat v kontingenční tabulce pomocí knihovny Aspose.Cells pro .NET. Využitím této knihovny se správa tabulek stane mnohem efektivnější a schopnější vytvářet užitečné analýzy. Nezapomeňte experimentovat s různými datovými formáty, abyste zjistili, jak vám mohou pomoci lépe vizualizovat data. 
+## Často kladené otázky
 ### Co je Aspose.Cells?
-Aspose.Cells je knihovna .NET, která umožňuje vývojářům pracovat se soubory aplikace Excel bez nutnosti aplikace Microsoft Excel. Umožňuje bezproblémové čtení, psaní a manipulaci s dokumenty Excel.
+Aspose.Cells je knihovna .NET, která umožňuje vývojářům pracovat s excelovými soubory bez nutnosti používat Microsoft Excel. Umožňuje bezproblémové čtení, psaní a manipulaci s excelovými dokumenty.
 ### Musím za Aspose.Cells platit?
-Zatímco Aspose.Cells nabízí bezplatnou zkušební verzi, pro plné funkce vyžaduje nákup. Můžete zkontrolovat[nákupní stránku](https://purchase.aspose.com/buy) pro více podrobností.
-### Mohu vytvořit kontingenční tabulky pomocí Aspose.Cells?
-Ano, Aspose.Cells poskytuje robustní funkce pro vytváření a správu kontingenčních tabulek programově.
-### Kde najdu další informace o používání Aspose.Cells?
- Můžete odkazovat na komplexní[Dokumentace Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobné pokyny a odkazy na API.
+Ačkoli Aspose.Cells nabízí bezplatnou zkušební verzi, pro přístup k plným funkcím je nutné si ji zakoupit. Můžete se podívat na [stránka nákupu](https://purchase.aspose.com/buy) pro více informací.
+### Mohu vytvářet kontingenční tabulky pomocí Aspose.Cells?
+Ano, Aspose.Cells poskytuje robustní funkce pro programově vytvářet a spravovat kontingenční tabulky.
+### Kde najdu více informací o používání Aspose.Cells?
+Můžete se odvolat na komplexní [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/net/) pro podrobné pokyny a reference API.
 ### Co když narazím na problémy?
- Pokud narazíte na nějaké problémy, neváhejte se obrátit na komunitu a podporu na webu[Aspose fórum](https://forum.aspose.com/c/cells/9).
+Pokud narazíte na jakékoli problémy, neváhejte se obrátit na komunitu a podporu na [Fórum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

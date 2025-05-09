@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Add hozzá ezt a sort a `build.gradle` fájl:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Licencbeszerzés lépései:**
+**Licenc megszerzésének lépései:**
 - **Ingyenes próbaverzió:** Töltsön le egy ingyenes próbaverziót innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély:** Szerezzen be ideiglenes licencet a teljes funkciók korlátozás nélküli felfedezéséhez a következő címen: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás:** Hosszú távú használathoz vásároljon előfizetést a [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
@@ -115,7 +117,7 @@ Végül mentse el a módosításokat:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";  // Frissítse a kimeneti könyvtár elérési útját
 
-// A módosított munkafüzet mentése új fájlba
+// módosított munkafüzet mentése új fájlba
 workbook.save(outDir + "/RegexReplace_out.xlsx");
 ```
 **Miért?** A mentés biztosítja, hogy minden módosítás mentésre kerüljön, és áttekinthető vagy megosztható legyen.
@@ -171,6 +173,9 @@ Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for J
 - Támogatás: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

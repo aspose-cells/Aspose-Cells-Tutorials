@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@
 - ตรวจสอบให้แน่ใจว่า IDE ของคุณรองรับ Maven หรือ Gradle
 - ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม Java ขั้นพื้นฐานเป็นประโยชน์
 
-### ข้อกำหนดเบื้องต้นของความรู้:
+### ข้อกำหนดความรู้เบื้องต้น:
 ความเข้าใจพื้นฐานเกี่ยวกับการจัดการไฟล์ใน Java และความคุ้นเคยกับ XML สำหรับการกำหนดค่าจะเป็นประโยชน์
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
@@ -122,7 +124,7 @@ System.out.println("Cell A1 Value: " + cellValue);
 
 **ขั้นตอนต่อไป:**
 - ทดลองใช้รูปแบบไฟล์ Excel ที่แตกต่างกัน
-- สำรวจ API ที่ครอบคลุมของ Aspose.Cells สำหรับงานที่ซับซ้อนมากขึ้น
+- สำรวจ API ที่ครอบคลุมของ Aspose.Cells สำหรับงานที่ซับซ้อนยิ่งขึ้น
 
 พร้อมที่จะเริ่มต้นหรือยัง ลองนำขั้นตอนเหล่านี้ไปใช้ในโครงการ Java ถัดไปของคุณ!
 
@@ -146,6 +148,9 @@ System.out.println("Cell A1 Value: " + cellValue);
 สำหรับข้อมูลโดยละเอียดเพิ่มเติมโปรดดูที่ [เอกสารประกอบ Aspose](https://reference.aspose.com/cells/java/) และสำรวจแหล่งข้อมูลเพิ่มเติมเพื่อขยายความเข้าใจของคุณเกี่ยวกับไลบรารีอันทรงพลังนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

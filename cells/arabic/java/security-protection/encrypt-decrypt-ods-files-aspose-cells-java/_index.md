@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ encrypted.save(outDir + "/outputDecryptedODSFile.ods");
 باتباع هذا الدليل، ستكون جاهزًا تمامًا لتطبيق تشفير وفك تشفير الملفات في تطبيقات جافا باستخدام Aspose.Cells. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

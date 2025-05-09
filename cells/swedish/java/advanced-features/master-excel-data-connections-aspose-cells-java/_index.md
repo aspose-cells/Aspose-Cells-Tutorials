@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ conn.setName("MyConnectionName");
 conn.setOdcFile(dataDir + "MyDefaulConnection.odc");
 ```
 
-Kasta den till `DBConnection` för mer specifika modifieringar:
+Kasta det till `DBConnection` för mer specifika modifieringar:
 
 ```java
 DBConnection dbConn = (DBConnection) conn;
@@ -148,7 +150,7 @@ workbook.save(outDir + "MESQLDataConnection_out.xlsx");
 ## Praktiska tillämpningar
 Att förstå hur man ändrar datakopplingar i Excel kan vara oerhört fördelaktigt. Här är några praktiska användningsfall:
 1. **Automatiserad rapportering:** Effektivisera genereringen av rapporter som är beroende av externa databaser.
-2. **Datasynkronisering:** Håll dina Excel-arbetsböcker synkroniserade med ändringar i livedatabasen.
+2. **Datasynkronisering:** Håll dina Excel-arbetsböcker synkroniserade med ändringar i databasen i realtid.
 3. **Anpassade instrumentpaneler:** Skapa dynamiska dashboards som återspeglar realtidsdata.
 
 Att integrera Aspose.Cells Java i system som CRM eller ERP kan ytterligare förbättra automatiserings- och datahanteringsprocesser.
@@ -191,6 +193,9 @@ A5: Utvärderingsversionen innehåller vattenstämplar i dokument och kan ha en 
 - **Ladda ner:** [Aspose.Cells för Java-versioner](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

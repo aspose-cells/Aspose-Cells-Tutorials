@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ workbook.save(dataDir + "SROfCInWorksheet_out.xlsx");
 أتقن التعامل مع Excel باستخدام Aspose.Cells for Java واطلق العنان للإمكانات الكاملة لتطبيقاتك المعتمدة على البيانات!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

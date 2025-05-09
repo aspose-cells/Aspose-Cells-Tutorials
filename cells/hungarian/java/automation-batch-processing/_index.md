@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ Sajátítsd el az Excel automatizálását az Aspose.Cells for Java segítségé
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for Java használatával. Ez az oktatóanyag a sablonok betöltését, az alakzatok kezelését és a munkafüzetek hatékony mentését ismerteti.
 
 ### [Excel automatizálás elsajátítása az Aspose.Cells segítségével Java-ban: Teljes körű útmutató](./excel-automation-aspose-cells-java-tutorial/)
-Ismerd meg, hogyan automatizálhatod az Excel-feladatokat az Aspose.Cells for Java segítségével. Tanuld meg, hogyan kérhetsz le verziókat, hogyan olvashatsz táblázatokat, és hogyan menthetsz el adatokat ODS formátumban.
+Ismerd meg, hogyan automatizálhatod az Excel-feladatokat az Aspose.Cells for Java használatával. Tanuld meg, hogyan kérhetsz le verziókat, hogyan olvashatsz táblázatokat, és hogyan menthetsz el adatokat ODS formátumban.
 
 ### [Excel automatizálás Java-ban Aspose.Cells használatával: Átfogó útmutató](./excel-automation-java-aspose-cells-guide/)
 Ismerje meg, hogyan automatizálhatja az Excel-feladatokat Java nyelven az Aspose.Cells használatával. Ez az útmutató a munkafüzetek inicializálását, a munkalapokhoz való hozzáférést, az automatikus szűrőket és a fájlok hatékony mentését tárgyalja.
@@ -94,7 +96,7 @@ Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for J
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -102,6 +104,9 @@ Ismerje meg, hogyan automatizálhatja az Excel-feladatokat az Aspose.Cells for J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

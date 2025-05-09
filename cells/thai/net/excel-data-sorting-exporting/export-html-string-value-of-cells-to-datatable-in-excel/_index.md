@@ -1,14 +1,16 @@
 ---
-title: การส่งออกค่าสตริง HTML ของเซลล์ไปยัง DataTable ใน Excel
-linktitle: การส่งออกค่าสตริง HTML ของเซลล์ไปยัง DataTable ใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการส่งออกค่าสตริง HTML จากเซลล์ Excel ไปยัง DataTable โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนง่ายๆ
-weight: 11
-url: /th/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
+"description": "เรียนรู้วิธีการส่งออกค่าสตริง HTML จากเซลล์ Excel ไปยัง DataTable โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนง่ายๆ"
+"linktitle": "การส่งออกค่าสตริง HTML ของเซลล์ไปยัง DataTable ใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การส่งออกค่าสตริง HTML ของเซลล์ไปยัง DataTable ใน Excel"
+"url": "/th/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การส่งออกค่าสตริง HTML ของเซลล์ไปยัง DataTable ใน Excel
@@ -22,7 +24,7 @@ url: /th/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 ก่อนจะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกอย่างที่จำเป็นแล้ว นี่คือรายการตรวจสอบด่วน:
 
 1. ความรู้พื้นฐานเกี่ยวกับ C# และ .NET: ก่อนที่จะเริ่มเขียนโค้ด ให้แน่ใจว่าคุณมีความคุ้นเคยกับการเขียนโปรแกรม C# และพื้นฐานของกรอบงาน .NET
-2.  Aspose.Cells สำหรับ .NET: หากคุณยังไม่ได้ติดตั้ง Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+2. Aspose.Cells สำหรับ .NET: หากคุณยังไม่ได้ติดตั้ง Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
 3. Visual Studio หรือ IDE ที่คุณเลือก: ตั้งค่าสภาพแวดล้อมของคุณเพื่อเขียนโค้ด C# Visual Studio ได้รับการแนะนำเนื่องจากมีคุณสมบัติมากมายและใช้งานง่าย
 4. ไฟล์ตัวอย่าง Excel: คุณจะต้องมีไฟล์ตัวอย่าง Excel (`sampleExportTableAsHtmlString.xlsx`) เพื่อใช้งาน ให้แน่ใจว่าอยู่ในไดเร็กทอรีที่สามารถเข้าถึงได้
 5. ตัวจัดการแพ็กเกจ NuGet: ตรวจสอบให้แน่ใจว่าคุณสามารถเข้าถึงตัวจัดการแพ็กเกจ NuGet ในโปรเจ็กต์ของคุณได้เพื่อเพิ่มไลบรารี Aspose.Cells ได้อย่างง่ายดาย
@@ -39,7 +41,7 @@ url: /th/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 
 ### ค้นหา Aspose.Cells
 
- ในตัวจัดการแพ็กเกจ NuGet พิมพ์`Aspose.Cells` ในแถบค้นหา
+ในตัวจัดการแพ็กเกจ NuGet พิมพ์ `Aspose.Cells` ในแถบค้นหา
 
 ### ติดตั้งแพ็คเกจ
 
@@ -66,11 +68,11 @@ using System.Data;
 string sourceDir = "Your Document Directory";
 ```
 
- อย่าลืมเปลี่ยน`"Your Document Directory"` พร้อมเส้นทางจริงไปยังไฟล์ Excel ของคุณ
+อย่าลืมเปลี่ยน `"Your Document Directory"` พร้อมเส้นทางจริงไปยังไฟล์ Excel ของคุณ
 
 ## ขั้นตอนที่ 2: โหลดไฟล์ตัวอย่าง Excel
 
- ขั้นตอนต่อไปคือการโหลดเวิร์กบุ๊ก Excel คุณจะใช้`Workbook` คลาสจาก Aspose.Cells เพื่อทำสิ่งนี้ คุณสามารถโหลดไฟล์ได้ดังนี้:
+ขั้นตอนต่อไปคือการโหลดเวิร์กบุ๊ก Excel คุณจะใช้ `Workbook` คลาสจาก Aspose.Cells เพื่อทำสิ่งนี้ คุณสามารถโหลดไฟล์ได้ดังนี้:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
@@ -90,7 +92,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## ขั้นตอนที่ 4: ระบุตัวเลือกตารางการส่งออก
 
-เพื่อควบคุมวิธีการส่งออกข้อมูล คุณต้องตั้งค่า`ExportTableOptions`ในกรณีนี้ คุณต้องการให้แน่ใจว่าชื่อคอลัมน์จะไม่ถูกส่งออก และคุณต้องการให้ข้อมูลเซลล์ถูกส่งออกเป็นสตริง HTML:
+เพื่อควบคุมวิธีการส่งออกข้อมูล คุณต้องตั้งค่า `ExportTableOptions`ในกรณีนี้ คุณต้องการให้แน่ใจว่าชื่อคอลัมน์จะไม่ถูกส่งออก และคุณต้องการให้ข้อมูลเซลล์ถูกส่งออกเป็นสตริง HTML:
 
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();
@@ -102,7 +104,7 @@ opts.ExportAsHtmlString = true;
 
 ## ขั้นตอนที่ 5: ส่งออกเซลล์ไปยัง DataTable
 
- ตอนนี้มาถึงส่วนสำคัญที่คุณต้องส่งออกข้อมูล โดยใช้`ExportDataTable` วิธีการนี้คุณสามารถดึงข้อมูลจากเวิร์กชีตลงใน`DataTable`วิธีการทำมีดังต่อไปนี้:
+ตอนนี้มาถึงส่วนสำคัญที่คุณต้องส่งออกข้อมูล โดยใช้ `ExportDataTable` วิธีการนี้คุณสามารถดึงข้อมูลจากเวิร์กชีตลงใน `DataTable`วิธีการทำมีดังต่อไปนี้:
 
 ```csharp
 DataTable dt = ws.Cells.ExportDataTable(0, 0, 3, 3, opts);
@@ -130,19 +132,21 @@ Console.WriteLine(dt.Rows[2][1].ToString());
 ใช่ Aspose.Cells นั้นออกแบบมาสำหรับ Excel เป็นหลัก แต่ Aspose ยังมีไลบรารีอื่นๆ สำหรับรูปแบบอื่นๆ อีกด้วย
 
 ### ฉันต้องมีใบอนุญาตสำหรับ Aspose.Cells หรือไม่?  
- ใช่ ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้ในการผลิต คุณสามารถขอใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ใช่ ต้องมีใบอนุญาตที่ถูกต้องสำหรับการใช้ในการผลิต คุณสามารถขอใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 
 ### จะเกิดอะไรขึ้นหากไฟล์ Excel ของฉันมีสูตรอยู่ สูตรเหล่านั้นจะส่งออกอย่างถูกต้องหรือไม่  
 ใช่ Aspose.Cells สามารถจัดการสูตรได้ และเมื่อทำการส่งออก สูตรจะได้รับการประเมินเป็นค่าผลลัพธ์
 
 ### สามารถเปลี่ยนตัวเลือกการส่งออกได้หรือไม่  
- แน่นอน! คุณสามารถปรับแต่งได้`ExportTableOptions` เพื่อให้เหมาะกับความต้องการเฉพาะของคุณ
+แน่นอน! คุณสามารถปรับแต่งได้ `ExportTableOptions` เพื่อให้เหมาะกับความต้องการเฉพาะของคุณ
 
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมเกี่ยวกับ Aspose.Cells ได้จากที่ใด  
- คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้[ที่นี่](https://reference.aspose.com/cells/net/).
+คุณสามารถค้นหาเอกสารประกอบที่ครอบคลุมได้ [ที่นี่](https://reference-aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

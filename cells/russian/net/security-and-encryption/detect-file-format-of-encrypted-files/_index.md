@@ -1,14 +1,16 @@
 ---
-title: Определить формат зашифрованных файлов в .NET
-linktitle: Определить формат зашифрованных файлов в .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как эффективно определять формат зашифрованных файлов в .NET с помощью Aspose.Cells. Простое руководство для разработчиков.
-weight: 10
-url: /ru/net/security-and-encryption/detect-file-format-of-encrypted-files/
+"description": "Узнайте, как эффективно определять формат зашифрованных файлов в .NET с помощью Aspose.Cells. Простое руководство для разработчиков."
+"linktitle": "Определить формат зашифрованных файлов в .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Определить формат зашифрованных файлов в .NET"
+"url": "/ru/net/security-and-encryption/detect-file-format-of-encrypted-files/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Определить формат зашифрованных файлов в .NET
@@ -19,7 +21,7 @@ url: /ru/net/security-and-encryption/detect-file-format-of-encrypted-files/
 Прежде чем начать, вам необходимо выполнить несколько предварительных условий:
 1. Установленная Visual Studio: убедитесь, что у вас настроена Visual Studio или другая среда разработки .NET.
 2. .NET Framework: убедитесь, что вы используете совместимую платформу .NET (как минимум .NET Core или .NET Framework).
-3. Aspose.Cells для .NET: Загрузите и установите библиотеку Aspose.Cells. Ссылку на скачивание можно найти[здесь](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells для .NET: Загрузите и установите библиотеку Aspose.Cells. Ссылку на скачивание можно найти [здесь](https://releases.aspose.com/cells/net/).
 4. Базовые знания C#: фундаментальное понимание программирования на C# упростит этот процесс.
 Теперь, когда у нас есть основа, давайте импортируем необходимые пакеты, чтобы начать работу с кодом.
 ## Импортные пакеты
@@ -39,10 +41,10 @@ using System;
 // Исходный каталог
 string sourceDir = "Your Document Directory";
 ```
- Заменять`"Your Document Directory"`с фактическим путем к каталогу на вашем компьютере, где находится ваш зашифрованный файл.
+Заменять `"Your Document Directory"` с фактическим путем к каталогу на вашем компьютере, где находится ваш зашифрованный файл.
 ## Шаг 2: Подготовьте зашифрованный файл
 
- На этом этапе убедитесь, что у вас есть зашифрованный файл Excel, доступный в указанном вами каталоге. Здесь мы предположим, что файл называется`encryptedBook1.out.tmp`.
+На этом этапе убедитесь, что у вас есть зашифрованный файл Excel, доступный в указанном вами каталоге. Здесь мы предположим, что файл называется `encryptedBook1.out.tmp`.
 
 ```csharp
 var filename = sourceDir + "encryptedBook1.out.tmp";
@@ -56,7 +58,7 @@ Stream stream = File.Open(filename, FileMode.Open);
 ```
 ## Шаг 4: Определите формат файла
 
- А теперь начинается самое волшебное! Используя`FileFormatUtil.DetectFileFormat` Метод позволяет проверить формат файла. Метод также требует пароль, если файл зашифрован, поэтому убедитесь, что вы ввели его правильно.
+А теперь начинается самое волшебное! Используя `FileFormatUtil.DetectFileFormat` Метод позволяет проверить формат файла. Метод также требует пароль, если файл зашифрован, поэтому убедитесь, что вы ввели его правильно.
 
 ```csharp
 FileFormatInfo fileFormatInfo = FileFormatUtil.DetectFileFormat(stream, "1234"); // Пароль 1234
@@ -79,12 +81,14 @@ Console.WriteLine("File Format: " + fileFormatInfo.FileFormatType);
 ### Что делать, если я забуду свой пароль?
 К сожалению, без пароля вы не сможете получить доступ к формату файла.
 ### Могу ли я загрузить бесплатную пробную версию Aspose.Cells?
- Да, вы можете загрузить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию. [здесь](https://releases.aspose.com/).
 ### Где я могу найти более подробную документацию?
- Вы можете изучить подробную документацию по Aspose.Cells[здесь](https://reference.aspose.com/cells/net/).
+Вы можете изучить подробную документацию по Aspose.Cells [здесь](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

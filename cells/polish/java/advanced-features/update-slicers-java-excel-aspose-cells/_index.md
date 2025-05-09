@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Optymalizacja wydajności jest kluczowa w przypadku pracy z dużymi plikami lub 
 W tym przewodniku przyjrzeliśmy się sposobowi aktualizowania fragmentatorów w plikach Java Excel przy użyciu Aspose.Cells. Nauczyłeś się, jak ładować i wyświetlać wersję biblioteki, programowo manipulować fragmentatorami i zapisywać zmiany z powrotem do pliku Excel. Dzięki tym umiejętnościom możesz zautomatyzować procesy filtrowania danych, zwiększając produktywność i dokładność zadań analizy danych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

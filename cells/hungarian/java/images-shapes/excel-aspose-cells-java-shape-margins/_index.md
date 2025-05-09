@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ Ebben az oktatóanyagban bemutatjuk, hogyan lehet az alakzatmargókat Excel fáj
 - Módosított munkafüzet mentése
 
 ## Előfeltételek (H2)
-Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy rendelkezünk a következőkkel:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy:
 - **Aspose.Cells Java-hoz** könyvtár telepítve. 25.3-as vagy újabb verzióra lesz szükséged.
 - Maven vagy Gradle segítségével beállított fejlesztői környezet a függőségek kezelésére.
 - Alapvető Java ismeretek és jártasság az Excel fájlok kezelésében.
@@ -201,7 +203,7 @@ Következő lépésként érdemes lehet megfontolni az Aspose.Cells fejlettebb f
    - Feltétlenül használd a Java fájl I/O képességeit az Excel fájlok könyvtárainak végigböngészéséhez.
 
 5. **Hogyan járulhatok hozzá az Aspose.Cells fejlesztéséhez vagy hogyan kérhetek segítséget?**
-   - Lépjen kapcsolatba a közösséggel a saját oldalukon [támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért és hozzájárulásért.
+   - Lépjen kapcsolatba a közösséggel a saját oldalukon [támogató fórum](https://forum.aspose.com/c/cells/9) segítségért és hozzájárulásért.
 
 ## Erőforrás
 - **Dokumentáció**Részletes útmutatók itt: [Aspose.Cells Java dokumentáció](https://reference.aspose.com/cells/java/)
@@ -210,6 +212,9 @@ Következő lépésként érdemes lehet megfontolni az Aspose.Cells fejlettebb f
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

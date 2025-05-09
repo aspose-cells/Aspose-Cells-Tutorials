@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ Excel dosyamızı yüklediğimize göre şimdi onu MHTML'e dönüştürelim:
    ```java
    HtmlSaveOptions sv = new HtmlSaveOptions(SaveFormat.M_HTML); // MHTML bir web arşiv formatıdır
    ```
-3. **Dönüştürmeyi Gerçekleştir**: Çalışma kitabınızı istediğiniz formatta kaydedin.
+3. **Dönüştürmeyi Gerçekleştirin**: Çalışma kitabınızı istediğiniz formatta kaydedin.
    ```java
    wb.save(outDir + "/CToMHTMLFiles_out.mht", sv);
    ```
@@ -116,6 +118,9 @@ Artık Aspose.Cells for Java kullanarak Excel dosyalarını MHTML'ye dönüştü
 Aspose.Cells'i kullanarak Excel dönüştürme dünyasına kolayca dalın ve verilerinizi paylaşma ve yönetme biçiminizi değiştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

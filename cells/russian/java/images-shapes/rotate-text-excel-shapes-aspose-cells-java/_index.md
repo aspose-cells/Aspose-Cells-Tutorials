@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Чтобы попробовать Aspose.Cells, вы можете получить бесплатную временную лицензию или купить ее для полной функциональности. Выполните следующие шаги:
 
 1. **Бесплатная пробная версия**: Загрузите библиотеку с [Загрузки Aspose](https://releases.aspose.com/cells/java/).
-2. **Временная лицензия**Запросите временную лицензию по адресу [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Покупка**: Для долгосрочного использования приобретите лицензию через [Покупка Aspose](https://purchase.aspose.com/buy).
+2. **Временная лицензия**: Запросите временную лицензию по адресу [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/).
+3. **Покупка**Для долгосрочного использования приобретите лицензию через [Покупка Aspose](https://purchase.aspose.com/buy).
 
 ### Базовая инициализация и настройка
 
@@ -199,6 +201,9 @@ wb.save(outDir + "/outputRotateTextWithShapeInsideWorksheet.xlsx");
 Поэкспериментируйте с этими приемами и выведите работу с документами Excel на новый уровень с помощью Aspose.Cells для Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

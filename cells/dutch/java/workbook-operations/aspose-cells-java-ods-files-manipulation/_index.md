@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Wanneer u met Aspose.Cells in Java werkt, kunt u de volgende tips in acht nemen 
 Je beheerst nu het laden en bewerken van ODS-bestanden met Aspose.Cells voor Java. Van het openen van werkbladen tot het extraheren van achtergrondinformatie: je bent klaar om je applicaties uit te breiden met geavanceerde spreadsheetverwerkingsmogelijkheden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

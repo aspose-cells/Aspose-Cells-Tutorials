@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Stile del libro di lavoro principale in Java con Aspose.Cells: una guida completa
+# Stile del Master Workbook in Java con Aspose.Cells: una guida completa
 
 ## Introduzione
 Creare fogli di calcolo Excel visivamente accattivanti a livello di programmazione può essere impegnativo, soprattutto quando si garantisce una formattazione coerente su più fogli o cartelle di lavoro. Con **Aspose.Cells per Java**puoi creare, formattare e personalizzare i tuoi documenti Excel con facilità, precisione e semplicità.
@@ -220,6 +222,9 @@ Per ottimizzare le prestazioni quando si utilizza Aspose.Cells:
 In questo tutorial, hai imparato a creare e formattare documenti Excel con Aspose.Cells per Java. Padroneggiando queste tecniche, puoi migliorare significativamente la capacità della tua applicazione di gestire in modo efficiente attività complesse con i fogli di calcolo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

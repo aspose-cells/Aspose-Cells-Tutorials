@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Cuối cùng, hãy lưu bảng tính của bạn với tất cả những thay �
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Bước 8: Lưu Workbook
+#### Bước 8: Lưu sổ làm việc
 ```java
 workbook.save(outDir + "/databar.xlsx", SaveFormat.XLSX);
 ```
@@ -211,6 +213,9 @@ Trong hướng dẫn này, bạn đã học cách tận dụng Aspose.Cells for 
 - [Hỗ trợ cộng đồng](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

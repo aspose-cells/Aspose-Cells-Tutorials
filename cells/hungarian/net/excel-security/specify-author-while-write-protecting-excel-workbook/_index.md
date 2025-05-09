@@ -1,34 +1,36 @@
 ---
-title: Írás közben adja meg a szerzőt Az Excel munkafüzet védelme
-linktitle: Írás közben adja meg a szerzőt Az Excel munkafüzet védelme
-second_title: Aspose.Cells for .NET API Reference
-description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan védheti meg Excel-munkafüzetét, miközben megadja a szerzőt az Aspose.Cells for .NET használatával.
-weight: 30
-url: /hu/net/excel-security/specify-author-while-write-protecting-excel-workbook/
+"description": "Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan teheti írásvédelmet Excel-munkafüzetéhez, miközben megad egy szerzőt az Aspose.Cells for .NET használatával."
+"linktitle": "Szerző megadása írásvédett Excel-munkafüzet esetén"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Szerző megadása írásvédett Excel-munkafüzet esetén"
+"url": "/hu/net/excel-security/specify-author-while-write-protecting-excel-workbook/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Írás közben adja meg a szerzőt Az Excel munkafüzet védelme
+# Szerző megadása írásvédett Excel-munkafüzet esetén
 
 ## Bevezetés
 
-Ha Excel-fájlokkal kell dolgozni .NET-alkalmazásokban, az Aspose.Cells sok fejlesztő számára ideális megoldás. Funkcióinak gazdag készlete lehetővé teszi az Excel-fájlok egyszerű létrehozását, kezelését és biztonságossá tételét. Az egyik gyakori követelmény, amellyel a fejlesztők szembesülnek, hogy Excel-munkafüzetbe írjanak, miközben védik az illetéktelen szerkesztésekkel szemben. Ezenkívül a szerző megadása hihetetlenül hasznos lehet nyomkövetési célokra a dokumentum megosztása során. Ebben az útmutatóban részletesen megvizsgáljuk, hogyan adhatja meg a szerzőt, miközben írásvédelmet nyújt egy Excel-munkafüzethez az Aspose.Cells for .NET használatával.
+Amikor Excel-fájlokkal kell dolgozni .NET alkalmazásokban, az Aspose.Cells számos fejlesztő számára a legjobb megoldás. Gazdag funkciókészletének köszönhetően könnyedén generálhat, manipulálhat és védhet Excel-fájlokat. A fejlesztők egyik gyakori követelménye az Excel-munkafüzetbe való írás, miközben biztosítják annak jogosulatlan szerkesztés elleni védelmét. Továbbá a szerző megadása hihetetlenül hasznos lehet a dokumentum megosztásakor a nyomon követés szempontjából. Ebben az útmutatóban részletesen bemutatjuk, hogyan adhatja meg a szerzőt írásvédelemmel ellátott Excel-munkafüzetben az Aspose.Cells for .NET használatával.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a megvalósítás aprólékos részleteibe, elengedhetetlen, hogy szilárd alapokkal rendelkezzünk. Íme az induláshoz szükséges előfeltételek:
+Mielőtt belemerülnénk a megvalósítás részleteibe, elengedhetetlen a szilárd alap. Íme az előfeltételek, amelyekre szükséged lesz a kezdéshez:
 
-1. Visual Studio: A Visual Studio működőképes telepítésére van szüksége. Itt kell írni és lefordítani a .NET kódot.
-2. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van. Az Aspose.Cells különféle verziókat támogat, ezért válassza ki az alkalmazásának megfelelőt.
-3.  Aspose.Cells Library: rendelkeznie kell az Aspose.Cells könyvtárral. Ezt beszerezheti a[hivatalos letöltési oldal](https://releases.aspose.com/cells/net/).
-4. A C# alapjai: A C# ismerete segít a kódolási folyamatban való könnyed navigálásban.
+1. Visual Studio: Szükséged lesz egy működő Visual Studio telepítésre. Itt fogod megírni és lefordítani a .NET kódodat.
+2. .NET-keretrendszer: Győződjön meg róla, hogy telepítve van a .NET-keretrendszer. Az Aspose.Cells számos verziót támogat, ezért válasszon az alkalmazásának megfelelőt.
+3. Aspose.Cells könyvtár: Szükséged lesz az Aspose.Cells könyvtárra. Ezt a következő helyről szerezheted be: [hivatalos letöltési oldal](https://releases.aspose.com/cells/net/).
+4. C# alapismeretek: A C# ismerete segít abban, hogy könnyedén eligazodj a kódolási folyamatban.
 
 ## Csomagok importálása
 
-Az Aspose.Cells által nyújtott funkciók maximális kihasználása érdekében kezdjük a szükséges csomagok importálásával. Indítsa el a C# fájlt a következő direktíva használatával:
+Az Aspose.Cells által biztosított funkciók maximális kihasználása érdekében kezdjük a szükséges csomagok importálásával. Kezdjük a C# fájlt a következő using direktíva hozzáadásával:
 
 ```csharp
 using System;
@@ -37,89 +39,91 @@ using System.Linq;
 using System.Text;
 ```
 
-Ez az utasítás lehetővé teszi az Aspose.Cells könyvtárban található osztályok és metódusok elérését. Most, hogy a csomagjainkat importáltuk, térjünk át a szórakoztató részre – a kód megírására!
+Ez az utasítás lehetővé teszi az Aspose.Cells könyvtárban található osztályok és metódusok elérését. Most, hogy importáltuk a csomagjainkat, térjünk át a mókás részre – a kód megírására!
 
-## 1. lépés: Állítsa be a címtárakat
+## 1. lépés: Állítsa be a könyvtárait
 
-A munkafüzet elindítása előtt célszerű beállítani azokat az elérési útvonalakat, ahol a forrásfájlok találhatók, és ahová menteni szeretné a kimenetet. Ezt a következőképpen teheti meg:
+munkafüzet elindítása előtt érdemes beállítani a forrásfájlok elérési útját, és azt, hogy hová szeretné menteni a kimenetet. Ezt a következőképpen teheti meg:
 
 ```csharp
-// Forrás könyvtár
+// Forráskönyvtár
 string sourceDir = "YOUR SOURCE DIRECTORY";
 
 // Kimeneti könyvtár
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Mindenképpen cserélje ki`"YOUR SOURCE DIRECTORY"` és`"YOUR OUTPUT DIRECTORY"` tényleges elérési utakkal a gépén. Gondoljon erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt hozzáfogna a remekmű elkészítéséhez!
+Mindenképpen cserélje ki `"YOUR SOURCE DIRECTORY"` és `"YOUR OUTPUT DIRECTORY"` a gépeden lévő tényleges elérési utakkal. Gondolj erre úgy, mint egy rendezett munkaterület létrehozására, mielőtt elkezded a remekműved elkészítését!
 
-## 2. lépés: Hozzon létre egy üres munkafüzetet
+## 2. lépés: Üres munkafüzet létrehozása
 
-Most, hogy beállítottuk a könyvtárainkat, a következő lépés egy üres munkafüzet létrehozása. Lényegében ez az a vászon, ahová az adatokat írja.
+Most, hogy beállítottuk a könyvtárainkat, a következő lépés egy üres munkafüzet létrehozása. Ez lényegében az a vászon, ahová az adatait fogjuk írni.
 
 ```csharp
-// Üres munkafüzet létrehozása.
+// Hozz létre egy üres munkafüzetet.
 Workbook wb = new Workbook();
 ```
 
-Ahogy egy művész egy üres vászonnal kezdi, te is egy üres munkafüzettel kezded, amelybe később adatokat vagy formázást is beilleszthetsz.
+Ahogy egy művész egy üres vászonnal kezdi a munkát, te is egy üres munkafüzettel kezded, amelybe később adatokat vagy formázásokat illeszthetsz be.
 
-## 3. lépés: A munkafüzet írásvédelme
+## 3. lépés: Írásvédelem a munkafüzetben
 
-Az írásvédelem kulcsfontosságú szempont, különösen akkor, ha biztosítani szeretné, hogy adatai sértetlenek maradjanak. Ezt megteheti jelszóval.
+Az írásvédelem kulcsfontosságú szempont, különösen akkor, ha biztosítani szeretné adatainak integritását. Ezt jelszóval teheti meg.
 
 ```csharp
-//Írásvédelmi munkafüzet jelszóval.
+// Írásvédett munkafüzet jelszóval.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
- Ebben a sorban cserélje ki`"YOUR_PASSWORD"` Ön által választott erős jelszóval. Ez a jelszó zárt ajtóként működik – csak a kulccsal (jelszóval) rendelkezők léphetnek be.
+Ebben a sorban cserélje ki `"YOUR_PASSWORD"` egy Ön által választott erős jelszóval. Ez a jelszó úgy működik, mint egy bezárt ajtó – csak az léphet be, aki rendelkezik a kulccsal (jelszóval).
 
 ## 4. lépés: Adja meg a szerzőt
 
-Most megadjuk a munkafüzet szerzőjét. Ez különösen hasznos az elszámoltathatóság szempontjából, és lehetővé teszi mások számára, hogy láthassák, ki hozta létre vagy módosította a fájlt.
+Most megadjuk a munkafüzet szerzőjét. Ez különösen hasznos az elszámoltathatóság szempontjából, és lehetővé teszi mások számára, hogy lássák, ki hozta létre vagy módosította a fájlt.
 
 ```csharp
-// Írásvédelmi munkafüzet közben adja meg a szerzőt.
+// Írásvédelemmel ellátott munkafüzet esetén adja meg a szerzőt.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- Mindenképpen cserélje ki`"YOUR_AUTHOR"` a dokumentumhoz társítani kívánt névvel. Tekintsd ezt úgy, mint az alkotásod aláírását – ez tudatja az emberekkel, hogy kinek köszönhetik ezt a darabot!
+Mindenképpen cserélje ki `"YOUR_AUTHOR"` azzal a névvel, amelyet a dokumentumhoz szeretnél társítani. Gondolj erre úgy, mintha aláírnád a műalkotásodat – így az emberek tudják, kinek kell megköszönni ezt a darabot!
 
-## 5. lépés: Mentse el a munkafüzetet
+## 5. lépés: A munkafüzet mentése
 
-Az utolsó lépés a munkafüzet elmentése a kívánt formátumban. Ebben az esetben XLSX fájlként mentjük el. 
+Az utolsó lépés a munkafüzet mentése a kívánt formátumban. Ebben az esetben XLSX fájlként fogjuk menteni. 
 
 ```csharp
 // Mentse el a munkafüzetet XLSX formátumban.
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül a névvel`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Itt a kemény munkája végre meghozza gyümölcsét, és megoszthatja munkafüzetét másokkal, tudva, hogy jól védett!
+Itt a kimeneti fájl a megadott kimeneti könyvtárba kerül mentésre a következő néven: `outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`Itt végre megtérül a kemény munkád, és megoszthatod a munkafüzetedet másokkal, tudván, hogy jól védett!
 
 ## Következtetés
 
-És megvan! Megtanulta, hogyan lehet Excel-munkafüzetet létrehozni, beállítani az írásvédelmet jelszóval, megadni a szerzőt, és zökkenőmentesen menteni az Aspose.Cells for .NET segítségével. A funkcióknak ez a kombinációja nem csak védi adatait, hanem megőrzi azok integritását és megfelelő hozzárendelést is biztosít.
+És íme! Megtanultad, hogyan hozhatsz létre Excel-munkafüzetet, állíthatsz be írásvédelmet jelszóval, adhatsz meg szerzőt, és mentheted el zökkenőmentesen az Aspose.Cells for .NET segítségével. Ez a funkciók kombinációja nemcsak az adataidat védi, hanem megőrzi azok integritását és megfelelő attribúciót biztosít.
 
 ## GYIK
 
-### Testreszabhatom a jelszót az írásvédelemhez?  
- Igen, testreszabhatja a jelszót igényei szerint. Csak cseréld ki`YOUR_PASSWORD` a kívánt jelszóval.
+### Testreszabhatom az írásvédelem jelszavát?  
+Igen, testreszabhatja a jelszót az igényei szerint. Csak cserélje ki `YOUR_PASSWORD` a kívánt jelszóval.
 
-### Az Aspose.Cells ingyenesen használható?  
- Az Aspose.Cells egy fizetős könyvtár, de korlátozott ideig ingyenesen kipróbálhatja. Látogassa meg a[Ingyenes próba link](https://releases.aspose.com/) kezdeni.
+### Ingyenesen használható az Aspose.Cells?  
+Az Aspose.Cells egy fizetős könyvtár, de korlátozott ideig ingyenesen kipróbálható. Látogassa meg a [Ingyenes próbaverzió linkje](https://releases.aspose.com/) hogy elkezdhessük.
 
 ### Hogyan vásárolhatom meg az Aspose.Cells könyvtárat?  
- Megvásárolhatja az Aspose.Cells-t náluk[oldal vásárlása](https://purchase.aspose.com/buy).
+Az Aspose.Cells-t a következő címen vásárolhatod meg: [vásárlási oldal](https://purchase.aspose.com/buy).
 
 ### Használhatom ezt a megközelítést webes alkalmazásokban?  
-Teljesen! Az Aspose.Cells zökkenőmentesen működik mind az asztali, mind a webes alkalmazásokban .NET használatával.
+Abszolút! Az Aspose.Cells zökkenőmentesen működik mind asztali, mind webes alkalmazásokban .NET használatával.
 
 ### Mit tegyek, ha támogatásra van szükségem?  
- Kérdések és hibaelhárítás esetén az Aspose közösség nagyon segítőkész. Meglátogathatod őket[támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért.
+Kérdések és hibaelhárítás esetén az Aspose közösség nagyon hasznos. Látogass el a weboldalukra. [támogató fórum](https://forum.aspose.com/c/cells/9) segítségért.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

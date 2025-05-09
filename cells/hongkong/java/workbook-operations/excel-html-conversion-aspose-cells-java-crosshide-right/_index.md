@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ license.setLicense("path/to/your/license/file");
 
 ## 實施指南
 
-本節介紹如何將 Excel 檔案載入並儲存為 HTML，以及如何設定 HtmlSaveOptions 來處理疊加內容。
+本節介紹如何將 Excel 檔案載入並儲存為 HTML，以及如何設定 HtmlSaveOptions 來處理覆蓋內容。
 
 ### 功能 1：載入並儲存 Excel 檔案為 HTML
 
@@ -138,7 +140,7 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 4. **Aspose.Cells 是否與所有版本的 Excel 檔案相容？**
    - 是的，它支援各種格式，包括 XLS 和 XLSX。
 5. **我該如何進一步自訂 HTML 輸出？**
-   - 探索更多飯店 `HtmlSaveOptions` 根據需要自訂您的輸出。
+   - 探索其他飯店 `HtmlSaveOptions` 根據需要自訂您的輸出。
 
 ## 資源
 - [Aspose.Cells Java文檔](https://reference.aspose.com/cells/java/)
@@ -151,6 +153,9 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 本教學是使用 Aspose.Cells for Java 將 Excel 檔案轉換為 HTML 的綜合指南，確保您的 Web 簡報的清晰度和功能性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

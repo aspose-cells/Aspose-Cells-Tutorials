@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ Bu çözümleri uygulamaya hazır mısınız? Kodlara dalın, belgeleri inceleyi
 
 ## SSS Bölümü
 
-**S1: Java for Excel'de Aspose.Cells doğrulamasını nasıl kullanmaya başlarım?**
+**S1: Excel için Java'da Aspose.Cells doğrulamasını nasıl kullanmaya başlarım?**
 C1: Daha önce gösterildiği gibi Maven veya Gradle bağımlılıklarıyla proje ortamınızı kurarak başlayın.
 
 **S2: Tek sütunların ötesinde veri aralıklarını doğrulayabilir miyim?**
@@ -195,6 +197,9 @@ A5: Ayrık kullanın `Validation` Belirli kurallara ve aralıklara göre uyarlan
 Bu kaynakları keşfetmekten çekinmeyin ve bugün Aspose.Cells for Java'yı kullanmaya başlayın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

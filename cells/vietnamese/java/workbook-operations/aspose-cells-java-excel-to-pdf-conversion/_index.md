@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Thử nghiệm các tính năng bổ sung của Aspose.Cells như chuyển đổ
 Hướng dẫn này cung cấp tổng quan toàn diện về cách sử dụng Aspose.Cells for Java để chuyển đổi tệp Excel sang PDF, đảm bảo bạn có các công cụ và kiến thức cần thiết để triển khai giải pháp này một cách hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

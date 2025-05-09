@@ -1,14 +1,16 @@
 ---
-title: Chỉnh sửa các bình luận có chủ đề trong bảng tính
-linktitle: Chỉnh sửa các bình luận có chủ đề trong bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sự kỳ diệu của việc chỉnh sửa chú thích theo luồng trong Excel bằng Aspose.Cells cho .NET! Hãy làm theo hướng dẫn từng bước của chúng tôi và làm chủ tài liệu của bạn một cách dễ dàng.
-weight: 14
-url: /vi/net/worksheet-operations/edit-threaded-comments/
+"description": "Mở khóa sự kỳ diệu của việc chỉnh sửa chú thích theo luồng trong Excel bằng Aspose.Cells cho .NET! Hãy làm theo hướng dẫn từng bước của chúng tôi và làm chủ tài liệu của bạn một cách dễ dàng."
+"linktitle": "Chỉnh sửa các bình luận có chủ đề trong bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉnh sửa các bình luận có chủ đề trong bảng tính"
+"url": "/vi/net/worksheet-operations/edit-threaded-comments/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉnh sửa các bình luận có chủ đề trong bảng tính
@@ -18,9 +20,9 @@ Chỉnh sửa chú thích theo luồng trong bảng tính Excel có thể tăng 
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào việc chỉnh sửa các bình luận theo chủ đề, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 1. Visual Studio: Chúng tôi sẽ sử dụng Visual Studio cho hướng dẫn này, vì vậy hãy đảm bảo bạn đã cài đặt chương trình này trên hệ thống của mình.
-2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về ngôn ngữ lập trình C# sẽ giúp bạn nắm bắt được các khái niệm được thảo luận.
-4.  Tệp Excel: Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng tệp Excel mẫu có tên`ThreadedCommentsSample.xlsx` có chứa một số bình luận.
+4. Tệp Excel: Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng tệp Excel mẫu có tên `ThreadedCommentsSample.xlsx` có chứa một số bình luận.
 Sau khi đáp ứng được các điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu hành trình khám phá thế giới Aspose.Cells.
 ## Nhập gói
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy bắt tay vào công việc. Trước tiên, chúng ta sẽ cần nhập các gói cần thiết vào dự án C# của mình để khai thác các tính năng mạnh mẽ do Aspose.Cells cung cấp.
@@ -34,7 +36,7 @@ using System.Text;
 Bước này mở ra cánh cửa để truy cập vào nhiều lớp và phương thức khác nhau mà chúng ta sẽ sử dụng trong suốt hướng dẫn này. 
 Bạn đã sẵn sàng chưa? Chúng ta hãy cùng tìm hiểu từng bước một nhé.
 ## Bước 1: Thiết lập môi trường của bạn
-Trước khi có thể thao tác các bình luận, chúng ta cần thiết lập môi trường làm việc một cách chính xác.
+Trước khi có thể thao tác với các bình luận, chúng ta cần thiết lập môi trường làm việc một cách chính xác.
 1. Tạo một dự án mới: Mở Visual Studio và tạo một dự án C# Console Application mới. Đây sẽ là cơ sở cho mã của chúng ta.
 2. Thêm tham chiếu: Nhấp chuột phải vào dự án trong Solution Explorer, chọn “Add”, sau đó chọn “Reference…”, và tìm kiếm Aspose.Cells.dll. Nhập nó vào dự án của bạn. 
 Bây giờ, bạn đã sẵn sàng để bắt đầu viết mã!
@@ -52,7 +54,7 @@ Thêm đoạn mã sau:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
- Dòng này tạo ra một phiên bản mới của`Workbook` lớp bằng cách tải tệp Excel bạn chỉ định. Bạn đang trên đường!
+Dòng này tạo ra một phiên bản mới của `Workbook` lớp bằng cách tải tệp Excel bạn chỉ định. Bạn đang trên đường!
 ## Bước 4: Truy cập vào trang tính đầu tiên
 Tại sao lại thực hiện bước này? Mỗi sổ làm việc có thể có nhiều trang tính và chúng ta cần chọn trang tính nào để chỉnh sửa.
 Sử dụng mã sau:
@@ -62,13 +64,13 @@ Worksheet worksheet = workbook.Worksheets[0];
 Ở đây, chúng ta đang truy cập vào trang tính đầu tiên trong sổ làm việc (hãy nhớ rằng, việc lập chỉ mục bắt đầu từ 0!). Nếu bình luận của bạn nằm ở nơi khác, bạn có thể thay đổi chỉ mục cho phù hợp.
 ## Bước 5: Nhận bình luận theo chủ đề
 Điều này quan trọng ở điểm nào? Đây là phần chúng ta lấy lại bình luận cụ thể mà chúng ta muốn chỉnh sửa.
- Đối với mẫu của chúng tôi, chúng tôi sẽ truy cập vào một bình luận trong ô`A1`. Sau đây là cách thực hiện:
+Đối với mẫu của chúng tôi, chúng tôi sẽ truy cập vào một bình luận trong ô `A1`. Sau đây là cách thực hiện:
 ```csharp
 ThreadedComment comment = worksheet.Comments.GetThreadedComments("A1")[0];
 ```
 Đoạn mã này sẽ kéo bình luận có luồng đầu tiên được đính kèm vào ô A1. Đúng như tên gọi, bình luận này có thể chứa một loạt tương tác và chúng tôi muốn thay đổi các ghi chú!
 ## Bước 6: Chỉnh sửa bình luận
-Đây chính là lúc phép thuật xảy ra: Cuối cùng, chúng ta có thể thay đổi bình luận thành bất cứ nội dung nào mình thích, giúp việc giao tiếp trở nên rõ ràng hơn.
+Đây chính là lúc điều kỳ diệu xảy ra: Cuối cùng, chúng ta có thể thay đổi bình luận thành bất kỳ nội dung nào mình thích, giúp việc giao tiếp trở nên rõ ràng hơn.
 Chỉ cần cập nhật thuộc tính ghi chú như thế này:
 ```csharp
 comment.Notes = "Updated Comment";
@@ -96,15 +98,17 @@ Bình luận theo chủ đề cho phép thảo luận và trả lời trong mộ
 ### Tôi có thể chỉnh sửa nhiều bình luận bằng Aspose.Cells không?
 Hoàn toàn có thể! Bạn có thể lặp qua tất cả các bình luận trong trang tính và chỉnh sửa chúng khi cần.
 ### Tôi có cần phải mua Aspose.Cells để sử dụng không?
- Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/), nhưng nếu muốn sử dụng lâu dài, bạn nên mua giấy phép.
+Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn [đây](https://releases.aspose.com/), nhưng nếu muốn sử dụng lâu dài, bạn nên mua giấy phép.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể truy cập vào tài liệu đầy đủ[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể truy cập vào tài liệu đầy đủ [đây](https://reference.aspose.com/cells/net/).
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.Cells?
-Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, vui lòng truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Nếu có bất kỳ thắc mắc hoặc hỗ trợ nào, vui lòng truy cập diễn đàn hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

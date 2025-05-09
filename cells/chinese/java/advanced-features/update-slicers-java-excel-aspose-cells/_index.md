@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Aspose.Cells for Java 功能多样，可用于各种实际应用：
 在本指南中，我们探索了如何使用 Aspose.Cells 更新 Java Excel 文件中的切片器。您学习了如何加载和显示切片器库版本、如何以编程方式操作切片器以及如何将更改保存回 Excel 文件。掌握这些技能后，您可以自动化数据筛选流程，从而提高数据分析任务的效率和准确性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

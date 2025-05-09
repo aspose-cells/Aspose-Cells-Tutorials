@@ -1,14 +1,16 @@
 ---
-title: Tạo Slicer cho Pivot Table trong Aspose.Cells .NET
-linktitle: Tạo Slicer cho Pivot Table trong Aspose.Cells .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo slicer cho bảng trục trong Aspose.Cells .NET với hướng dẫn từng bước của chúng tôi. Cải thiện báo cáo Excel của bạn.
-weight: 12
-url: /vi/net/excel-slicers-management/create-slicer-pivot-table/
+"description": "Tìm hiểu cách tạo slicer cho bảng trục trong Aspose.Cells .NET với hướng dẫn từng bước của chúng tôi. Cải thiện báo cáo Excel của bạn."
+"linktitle": "Tạo Slicer cho Pivot Table trong Aspose.Cells .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo Slicer cho Pivot Table trong Aspose.Cells .NET"
+"url": "/vi/net/excel-slicers-management/create-slicer-pivot-table/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Slicer cho Pivot Table trong Aspose.Cells .NET
@@ -17,10 +19,10 @@ url: /vi/net/excel-slicers-management/create-slicer-pivot-table/
 Trong thế giới dữ liệu ngày nay, bảng trục vô cùng hữu ích cho việc phân tích và tóm tắt các tập dữ liệu lớn. Nhưng tại sao lại dừng lại ở việc tóm tắt đơn thuần khi bạn có thể làm cho bảng trục của mình mang tính tương tác hơn? Hãy bước vào thế giới của các slicer! Chúng giống như điều khiển từ xa cho các báo cáo Excel của bạn, giúp bạn có khả năng lọc dữ liệu nhanh chóng và dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách tạo một slicer cho bảng trục bằng Aspose.Cells cho .NET. Vậy thì, hãy cầm tách cà phê, ngồi xuống và bắt đầu thôi!
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, bạn cần lưu ý một số điều kiện tiên quyết sau:
-1.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[trang tải xuống](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ [trang tải xuống](https://releases.aspose.com/cells/net/).
 2. Visual Studio hoặc IDE khác: Bạn sẽ cần một IDE nơi bạn có thể tạo và chạy các dự án .NET của mình. Visual Studio là một lựa chọn phổ biến.
 3. Kiến thức cơ bản về C#: Biết một chút về C# sẽ giúp bạn xử lý phần mã hóa một cách dễ dàng.
-4. Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel mẫu có chứa bảng trục. Chúng tôi sẽ sử dụng tệp có tên`sampleCreateSlicerToPivotTable.xlsx`.
+4. Tệp Excel mẫu: Đối với hướng dẫn này, bạn sẽ cần một tệp Excel mẫu có chứa bảng trục. Chúng tôi sẽ sử dụng tệp có tên `sampleCreateSlicerToPivotTable.xlsx`.
 Bây giờ bạn đã kiểm tra tất cả các mục này, hãy nhập các gói cần thiết!
 ## Nhập gói
 Để sử dụng Aspose.Cells hiệu quả, bạn cần nhập các gói sau vào dự án của mình:
@@ -40,14 +42,14 @@ string sourceDir = "Your Document Directory"; // Cung cấp đường dẫn thư
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Cung cấp đường dẫn thư mục đầu ra của bạn
 ```
- Giải thích: Trong bước này, bạn chỉ cần khai báo các biến cho thư mục nguồn và thư mục đầu ra. Thay thế`"Your Document Directory"`với thư mục thực tế chứa các tập tin của bạn.
+Giải thích: Trong bước này, bạn chỉ cần khai báo các biến cho thư mục nguồn và thư mục đầu ra. Thay thế `"Your Document Directory"` với thư mục thực tế chứa các tập tin của bạn.
 ## Bước 2: Tải Workbook
 Tiếp theo, chúng ta sẽ tải bảng tính Excel có chứa bảng tổng hợp. 
 ```csharp
 // Tải tệp Excel mẫu có chứa bảng tổng hợp.
 Workbook wb = new Workbook(sourceDir + "sampleCreateSlicerToPivotTable.xlsx");
 ```
- Giải thích: Ở đây, chúng ta tạo một thể hiện của`Workbook` lớp, truyền vào đường dẫn đến tệp Excel. Dòng mã này cho phép chúng ta truy cập và thao tác trên sổ làm việc.
+Giải thích: Ở đây, chúng ta tạo một thể hiện của `Workbook` lớp, truyền vào đường dẫn đến tệp Excel. Dòng mã này cho phép chúng ta truy cập và thao tác trên sổ làm việc.
 ## Bước 3: Truy cập vào trang tính đầu tiên
 Bây giờ chúng ta đã tải xong bảng tính, chúng ta cần truy cập vào bảng tính chứa bảng trục của mình.
 ```csharp
@@ -68,7 +70,7 @@ Bây giờ đến phần thú vị—thêm slicer! Bước này liên kết slic
 // Thêm bộ lọc liên quan đến bảng trục với trường cơ sở đầu tiên tại ô B22.
 int idx = ws.Slicers.Add(pt, "B22", pt.BaseFields[0]);
 ```
- Giải thích: Ở đây, chúng ta thêm slicer, chỉ định vị trí (ô B22) và trường cơ sở từ bảng trục (ô đầu tiên). Phương pháp trả về một chỉ mục, mà chúng ta lưu trữ trong`idx` để tham khảo sau này.
+Giải thích: Ở đây, chúng ta thêm slicer, chỉ định vị trí (ô B22) và trường cơ sở từ bảng trục (ô đầu tiên). Phương pháp trả về một chỉ mục, mà chúng ta lưu trữ trong `idx` để tham khảo sau này.
 ## Bước 6: Truy cập Slicer mới được thêm vào
 Sau khi tạo xong slicer, bạn nên tham chiếu đến nó, đặc biệt là khi bạn muốn thực hiện thêm những sửa đổi sau này.
 ```csharp
@@ -102,12 +104,14 @@ Có, bạn có thể thêm bao nhiêu bộ lọc tùy ý vào bảng tổng hợ
 ### Aspose.Cells có miễn phí sử dụng không?
 Aspose.Cells là một thư viện trả phí, nhưng bạn có thể dùng thử miễn phí trong thời gian dùng thử.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm chi tiết.
+Bạn có thể kiểm tra [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm chi tiết.
 ### Có cách nào để nhận được hỗ trợ cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể liên hệ để được hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể liên hệ để được hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

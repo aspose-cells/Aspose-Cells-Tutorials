@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Cara Memuat, Menyimpan, dan Memodifikasi Tabel Pivot di Excel Menggunakan Aspose.Cells untuk Java
 
-### Perkenalan
+### Bevezetés
 Bekerja dengan file Excel secara terprogram sering kali bisa menjadi tugas yang berat—terutama saat menangani fitur yang rumit seperti tabel pivot. Di sinilah Aspose.Cells for Java berperan, menyederhanakan proses pemuatan, penyimpanan, dan modifikasi buku kerja Excel beserta komponennya. Baik Anda membuat laporan keuangan, dasbor analisis data, atau proses bisnis otomatis, menguasai tugas-tugas ini dapat menghemat waktu Anda yang tak terhitung banyaknya.
 
 Dalam tutorial ini, kita akan menjelajahi cara menggunakan Aspose.Cells untuk Java guna memuat buku kerja Excel dari direktori tertentu, mengubah pengaturan tabel pivot, lalu menyimpan kembali perubahan tersebut. Dengan mengikuti tutorial ini, Anda akan memperoleh pengalaman langsung dengan fungsi-fungsi utama seperti:
@@ -23,9 +25,9 @@ Dalam tutorial ini, kita akan menjelajahi cara menggunakan Aspose.Cells untuk Ja
 - Mengakses dan memodifikasi tabel pivot
 - Mengonfigurasi format tampilan untuk bidang data
 
-Ayo mulai!
+Merüljünk el!
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda
 - Memuat buku kerja Excel dari direktori
 - Menyimpan buku kerja yang dimodifikasi ke lokasi lain
@@ -34,17 +36,17 @@ Ayo mulai!
 
 Sebelum kita mulai, mari kita bahas prasyaratnya.
 
-## Prasyarat
-Untuk mengikuti tutorial ini secara efektif, Anda memerlukan:
-- **Pustaka yang dibutuhkan:** Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan:** Pastikan Anda telah menginstal dan mengonfigurasi Java Development Kit (JDK) yang kompatibel pada sistem Anda.
-- **Prasyarat Pengetahuan:** Kemampuan dalam konsep pemrograman Java akan bermanfaat namun tidak sepenuhnya diperlukan.
+## Előfeltételek
+A bemutató hatékony követéséhez a következőkre lesz szükséged:
+- **Szükséges könyvtárak:** Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezet beállítása:** Pastikan Anda telah menginstal dan mengonfigurasi Java Development Kit (JDK) yang kompatibel pada sistem Anda.
+- **Előfeltételek a tudáshoz:** Kemampuan dalam konsep pemrograman Java akan bermanfaat namun tidak sepenuhnya diperlukan.
 
 ## Menyiapkan Aspose.Cells untuk Java
 Untuk mulai menggunakan Aspose.Cells untuk Java, Anda perlu menambahkannya sebagai dependensi dalam proyek Anda. Berikut caranya:
 
 ### Pakar
-Tambahkan cuplikan berikut ke `pom.xml` mengajukan:
+Tambahkan cuplikan berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,22 +56,22 @@ Tambahkan cuplikan berikut ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
-Aspose.Cells untuk Java beroperasi di bawah model lisensi. Anda dapat memulai dengan uji coba gratis dengan mengunduh pustaka dari mereka [halaman rilis](https://releases.aspose.com/cells/java/)Untuk penggunaan yang lebih lama, pertimbangkan untuk mendapatkan lisensi sementara atau penuh melalui [halaman pembelian](https://purchase.aspose.com/buy).
+#### Licencszerzés
+Aspose.Cells untuk Java beroperasi di bawah model lisensi. Anda dapat memulai dengan uji coba gratis dengan mengunduh pustaka dari mereka [kiadási oldal](https://releases.aspose.com/cells/java/)Untuk penggunaan yang lebih lama, pertimbangkan untuk mendapatkan lisensi sementara atau penuh melalui [vásárlási oldal](https://purchase.aspose.com/buy).
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 Setelah Anda menambahkan Aspose.Cells ke proyek Anda, inisialisasikan sebagai berikut:
 ```java
 import com.aspose.cells.Workbook;
 
 class ExcelDemo {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi objek Buku Kerja baru
+        // Új munkafüzet-objektum inicializálása
         Workbook workbook = new Workbook();
         
         // Kode Anda ada di sini
@@ -78,15 +80,15 @@ class ExcelDemo {
 ```
 Setelah lingkungan Anda siap, mari selami panduan implementasinya.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Fitur 1: Memuat dan Menyimpan Buku Kerja
+### 1. funkció: Munkafüzet betöltése és mentése
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini menunjukkan cara memuat buku kerja Excel yang sudah ada dari direktori, membuat perubahan, lalu menyimpannya kembali. Fitur ini penting untuk mengotomatiskan tugas pemrosesan data yang memerlukan pembaruan pada file Excel.
 
-#### Petunjuk Langkah demi Langkah
-##### Langkah 1: Tentukan Jalur Direktori
+#### Lépésről lépésre útmutató
+##### 1. lépés: Könyvtárútvonalak definiálása
 Anda akan memerlukan jalur untuk direktori sumber (data) dan direktori keluaran.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -98,7 +100,7 @@ Muat berkas Excel menggunakan Aspose.Cells.
 Workbook workbook = new Workbook(dataDir + "/PivotTableSample.xlsx");
 ```
 Potongan kode ini menginisialisasi `Workbook` objek dengan memuat berkas yang ada dari direktori yang Anda tentukan.
-##### Langkah 3: Simpan Buku Kerja
+##### 3. lépés: Munkafüzet mentése
 Setelah membuat perubahan, simpan buku kerja ke lokasi lain.
 ```java
 workbook.save(outDir + "/PivotTableDataDisplayFormatRanking_out.xlsx");
@@ -107,11 +109,11 @@ Pastikan jalur keluaran diatur dengan benar sehingga file yang dimodifikasi dapa
 
 ### Fitur 2: Akses dan Modifikasi Tabel Pivot
 
-#### Ringkasan
+#### Áttekintés
 Pelajari cara mengakses tabel pivot dalam lembar Excel, mengubah format tampilan bidang datanya, dan menghitung ulang data sebagaimana mestinya.
 
-#### Petunjuk Langkah demi Langkah
-##### Langkah 1: Muat Buku Kerja
+#### Lépésről lépésre útmutató
+##### 1. lépés: Munkafüzet betöltése
 Muat buku kerja Anda dengan tabel pivot target.
 ```java
 Workbook workbook = new Workbook("YOUR_DATA_DIRECTORY/PivotTableSample.xlsx");
@@ -142,40 +144,43 @@ Pastikan perubahan tercermin dalam tabel pivot.
 pivotTable.calculateData();
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Aspose.Cells untuk Java dapat menjadi sekutu yang kuat dalam berbagai skenario:
-1. **Pelaporan Otomatis:** Sederhanakan pembuatan laporan keuangan atau penjualan dengan memperbarui dan memformat data Excel secara otomatis.
+1. **Automatizált jelentéskészítés:** Sederhanakan pembuatan laporan keuangan atau penjualan dengan memperbarui dan memformat data Excel secara otomatis.
 2. **Alur Analisis Data:** Integrasikan ke dalam proses ETL (Ekstrak, Transformasi, Muat) untuk menyiapkan kumpulan data langsung dalam format Excel.
 3. **Dasbor Intelijen Bisnis:** Tingkatkan dasbor dengan tabel pivot yang diperbarui secara dinamis untuk wawasan waktu nyata.
 
-## Pertimbangan Kinerja
-Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells:
+## Teljesítménybeli szempontok
+Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
 - Minimalkan jumlah objek buku kerja dan lembar kerja dalam memori dengan segera menutupnya setelah digunakan.
 - Gunakan aliran secara efisien untuk menangani file besar tanpa konsumsi sumber daya yang berlebihan.
 - Pantau pengaturan pengumpul sampah Java jika menangani kumpulan data yang sangat besar.
 Praktik ini dapat membantu menjaga kelancaran operasi dan mengurangi latensi dalam aplikasi Anda.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, Anda telah mempelajari cara menggunakan Aspose.Cells for Java secara efektif untuk memuat, menyimpan, dan memodifikasi buku kerja Excel dan tabel pivot. Keterampilan ini dapat meningkatkan kemampuan Anda secara signifikan untuk mengelola data secara terprogram dan mengotomatiskan tugas rutin yang melibatkan file Excel.
 Sebagai langkah berikutnya, pertimbangkan untuk menjelajahi fitur-fitur tambahan Aspose.Cells seperti pembuatan bagan atau evaluasi rumus, yang selanjutnya memperluas kegunaannya dalam aplikasi pemrosesan data.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu Aspose.Cells untuk Java?**
    - Ini adalah pustaka yang memungkinkan Anda membuat, memanipulasi, dan menyimpan file Excel secara terprogram dalam aplikasi Java.
 2. **Bagaimana cara memulai menggunakan Aspose.Cells untuk Java?**
-   - Tambahkan dependensi Aspose.Cells ke proyek Anda melalui Maven atau Gradle dan unduh pustaka yang diperlukan dari mereka [halaman unduhan](https://releases.aspose.com/cells/java/).
-3. **Bisakah saya menggunakan Aspose.Cells tanpa lisensi?**
+   - Tambahkan dependensi Aspose.Cells ke proyek Anda melalui Maven atau Gradle dan unduh pustaka yang diperlukan dari mereka [letöltési oldal](https://releases.aspose.com/cells/java/).
+3. **Használhatom az Aspose.Cells-t licenc nélkül?**
    - Ya, Anda dapat memulai dengan uji coba gratis tetapi akan menghadapi batasan seperti tanda air pada berkas keluaran.
 4. **Bagaimana cara mengubah properti lain dari tabel pivot menggunakan Aspose.Cells?**
-   - Jelajahi `PivotTable` kelas di dalam [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk metode menyesuaikan berbagai aspek seperti bidang baris, bidang kolom, dan banyak lagi.
+   - Fedezze fel a `PivotTable` kelas di [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk metode menyesuaikan berbagai aspek seperti bidang baris, bidang kolom, dan banyak lagi.
 5. **Apa saja masalah umum saat bekerja dengan file Excel secara terprogram?**
    - Tantangan umum meliputi penanganan pengecualian I/O file, pengelolaan kumpulan data besar tanpa kehabisan memori, dan memastikan kompatibilitas di berbagai versi format Excel.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

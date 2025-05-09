@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ En suivant ce guide, vous avez appris les techniques essentielles de manipulatio
 Pour continuer à explorer les fonctionnalités d'Aspose.Cells, envisagez de vous plonger dans des fonctionnalités avancées telles que la création de graphiques, la validation des données, etc.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

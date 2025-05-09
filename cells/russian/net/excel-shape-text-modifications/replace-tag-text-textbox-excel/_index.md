@@ -1,14 +1,16 @@
 ---
-title: Заменить тег текстом в текстовом поле в Excel
-linktitle: Заменить тег текстом в текстовом поле в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Легко заменяйте текст в текстовых полях на листах Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по автоматизации Excel.
-weight: 11
-url: /ru/net/excel-shape-text-modifications/replace-tag-text-textbox-excel/
+"description": "Легко заменяйте текст в текстовых полях на листах Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по автоматизации Excel."
+"linktitle": "Заменить тег текстом в текстовом поле в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Заменить тег текстом в текстовом поле в Excel"
+"url": "/ru/net/excel-shape-text-modifications/replace-tag-text-textbox-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Заменить тег текстом в текстовом поле в Excel
@@ -18,7 +20,7 @@ url: /ru/net/excel-shape-text-modifications/replace-tag-text-textbox-excel/
 ## Предпосылки
 Прежде чем начать, вам нужно подготовить несколько вещей:
 1. Visual Studio: Убедитесь, что у вас установлена Visual Studio. Это гибкая IDE, которая делает кодирование на C# легким.
-2.  Библиотека Aspose.Cells: если вы еще этого не сделали, загрузите библиотеку Aspose.Cells для .NET с сайта[страница](https://releases.aspose.com/cells/net/)Вы также можете получить бесплатную пробную версию, чтобы ознакомиться с ее возможностями.
+2. Библиотека Aspose.Cells: если вы еще этого не сделали, загрузите библиотеку Aspose.Cells для .NET с сайта [страница](https://releases.aspose.com/cells/net/). Вы также можете получить бесплатную пробную версию, чтобы ознакомиться с ее возможностями.
 3. Базовые знания C#: Базовые знания программирования на C# помогут вам легко следовать этому руководству.
 Теперь, когда все готово, давайте перейдем к самой интересной части — написанию кода!
 ## Импортные пакеты
@@ -30,7 +32,7 @@ url: /ru/net/excel-shape-text-modifications/replace-tag-text-textbox-excel/
 - Выберите «Добавить» > «Ссылка».
 - Перейдите в папку, куда вы скачали библиотеку Aspose.Cells, и включите ее в свой проект.
 ## Импортируйте необходимые пространства имен
- После добавления ссылки добавьте следующее`using` директива в верхней части вашего основного файла:
+После добавления ссылки добавьте следующее `using` директива в верхней части вашего основного файла:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -52,14 +54,14 @@ string outputDir = "Your Document Directory"; // Перейдите в свой 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReplaceTagWithText.xlsx");
 ```
- Здесь мы загружаем существующий файл Excel под названием`sampleReplaceTagWithText.xlsx`.
+Здесь мы загружаем существующий файл Excel под названием `sampleReplaceTagWithText.xlsx`.
 ## Шаг 3: Определите теги и текст замены
 Далее нам нужно определить теги, которые мы ищем, и то, чем мы хотим их заменить.
 ```csharp
 string tag = "TAG_2$TAG_1";
 string replace = "1$ys";
 ```
- В этом примере теги разделены с помощью`$`. Вы можете заменить его любым разделителем по своему усмотрению.
+В этом примере теги разделены с помощью `$`Вы можете заменить его любым разделителем по своему усмотрению.
 ## Шаг 4: Перебор тегов и замена
 Мы создадим цикл, чтобы пройти по каждому тегу, который мы хотим заменить. Вот где происходит волшебство!
 ```csharp
@@ -76,7 +78,7 @@ wb.Save(outputDir + "outputReplaceTagWithText.pdf", opts);
 ```
 Вы также можете сохранить его в различных других форматах, включая XLSX.
 ## Шаг 6: Реализуйте логику замены
- Именно здесь находится сердце нашей функциональности.`sheetReplace` метод будет выполнять фактическую замену в рабочих листах Excel.
+Именно здесь находится сердце нашей функциональности. `sheetReplace` метод будет выполнять фактическую замену в рабочих листах Excel.
 ```csharp
 public static void sheetReplace(Workbook workbook, string sFind, string sReplace)
 {
@@ -119,16 +121,18 @@ public static void sheetReplace(Workbook workbook, string sFind, string sReplace
 ### Можно ли заменить теги в нескольких файлах Excel одновременно?
 Да, просматривая список файлов, вы можете применить одну и ту же логику к нескольким файлам Excel.
 ### Нужна ли мне платная лицензия для использования Aspose.Cells?
- Вы можете начать с бесплатной пробной версии, но для полной функциональности вам необходимо будет приобрести лицензию. Ознакомиться[Варианты покупки Aspose](https://purchase.aspose.com/buy).
+Вы можете начать с бесплатной пробной версии, но для полной функциональности вам необходимо будет приобрести лицензию. Ознакомиться [Варианты покупки Aspose](https://purchase.aspose.com/buy).
 ### Можно ли заменить изображения в текстовых полях с помощью Aspose.Cells?
 Aspose.Cells в первую очередь работает с текстом. Однако при необходимости можно манипулировать изображениями отдельно.
 ### В каких форматах я могу сохранить измененный файл Excel?
 Вы можете сохранить его в различных форматах, включая XLSX, PDF, CSV и т. д.
 ### Где я могу найти поддержку Aspose.Cells?
- Вы можете найти поддержку и задать вопросы на[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете найти поддержку и задать вопросы на [Форум Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

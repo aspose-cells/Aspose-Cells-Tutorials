@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ public class AddVBAModuleAndCode {
 ## 実用的なアプリケーション
 1. **自動レポート**VBA を使用して、Excel 内でのデータ集計およびレポート生成タスクを自動化します。
 2. **カスタムデータ検証**標準の Excel 検証機能を超えて複雑なビジネス ルールを検証するためのカスタム スクリプトを実装します。
-3. **インタラクティブなダッシュボード**埋め込まれた VBA コードを使用して、インタラクティブな要素でダッシュボードを強化します。
+3. **インタラクティブダッシュボード**埋め込まれた VBA コードを使用して、インタラクティブな要素でダッシュボードを強化します。
 
 ## パフォーマンスに関する考慮事項
 ### パフォーマンスを最適化するためのヒント
@@ -181,6 +183,9 @@ Aspose.Cells for Javaを使用してExcelファイルにVBAモジュールを追
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Szyfrowanie plików ODS w .NET
-linktitle: Szyfrowanie plików ODS w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak szyfrować i deszyfrować pliki ODS za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący zabezpieczania danych.
-weight: 12
-url: /pl/net/security-and-encryption/encrypting-ods-files/
+"description": "Dowiedz się, jak szyfrować i deszyfrować pliki ODS za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dotyczący zabezpieczania danych."
+"linktitle": "Szyfrowanie plików ODS w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Szyfrowanie plików ODS w .NET"
+"url": "/pl/net/security-and-encryption/encrypting-ods-files/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Szyfrowanie plików ODS w .NET
@@ -19,8 +21,8 @@ Aspose.Cells zapewnia solidny zestaw funkcji do obsługi arkuszy kalkulacyjnych 
 ## Wymagania wstępne
 Zanim zaczniesz kodować, upewnij się, że spełniasz następujące wymagania wstępne:
 1. Visual Studio: środowisko programistyczne do pisania i testowania kodu .NET.
-2. Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz najnowszą wersję ze strony[Tutaj](https://releases.aspose.com/cells/net/) i zainstaluj go. Alternatywnie możesz wypróbować go bez żadnych kosztów, korzystając z[bezpłatny okres próbny](https://releases.aspose.com/).
-3. Podstawowa znajomość języka C#: Zrozumienie podstaw języka C# i środowiska .NET Framework znacznie ułatwi naukę.
+2. Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz najnowszą wersję ze strony [Tutaj](https://releases.aspose.com/cells/net/) i zainstaluj go. Alternatywnie możesz wypróbować go bez żadnych kosztów, korzystając z [bezpłatny okres próbny](https://releases.aspose.com/).
+3. Podstawowa znajomość języka C#: Zrozumienie podstaw języka C# i środowiska .NET znacznie ułatwi naukę.
 4. Przykładowy plik ODS: Przygotuj przykładowy plik ODS do testowania. Możesz go utworzyć przy użyciu dowolnego oprogramowania arkusza kalkulacyjnego obsługującego format ODS.
 Teraz, gdy mamy już gotowe podstawy, możemy zaimportować niezbędne pakiety!
 ## Importuj pakiety
@@ -42,7 +44,7 @@ Install-Package Aspose.Cells
 
 ## Krok 2: Szyfrowanie pliku ODS
 ### Utwórz obiekt skoroszytu
- Aby rozpocząć proces szyfrowania, musimy najpierw otworzyć plik ODS za pomocą`Workbook` obiekt. Oto jak to zrobić:
+Aby rozpocząć proces szyfrowania, musimy najpierw otworzyć plik ODS za pomocą `Workbook` obiekt. Oto jak to zrobić:
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
@@ -50,7 +52,7 @@ string dataDir = "Your Document Directory";
 // Otwórz plik ods.
 Workbook workbook = new Workbook(dataDir + "Book1.ods");
 ```
- W tym fragmencie kodu zamień`"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik ODS (np.`@"C:\Documents\"`).
+W tym fragmencie kodu zamień `"Your Document Directory"` z rzeczywistą ścieżką, w której znajduje się plik ODS (np. `@"C:\Documents\"`).
 ### Zabezpiecz plik hasłem
 Następnie ustawimy hasło dla skoroszytu. Oto jak zabezpieczyć hasłem plik ODS:
 ```csharp
@@ -59,15 +61,15 @@ workbook.Settings.Password = "1234";
 ```
 Ustawia hasło na „1234”. Możesz użyć bardziej złożonego hasła dla większego bezpieczeństwa!
 ### Zapisz zaszyfrowany plik
- Na koniec zapisz zaszyfrowany plik.`Save` Metoda ta poradzi sobie z tym bezproblemowo:
+Na koniec zapisz zaszyfrowany plik. `Save` Metoda ta poradzi sobie z tym bezproblemowo:
 ```csharp
 // Zapisz zaszyfrowany plik ODS.
 workbook.Save(dataDir + "encryptedBook1.out.ods");
 ```
- Teraz będziesz mieć zaszyfrowany plik ODS o nazwie`encryptedBook1.out.ods` bezpiecznie zapisane w Twoim katalogu.
+Teraz będziesz mieć zaszyfrowany plik ODS o nazwie `encryptedBook1.out.ods` bezpiecznie zapisane w Twoim katalogu.
 ## Krok 3: Odszyfrowanie pliku ODS
 ### Ustaw oryginalne hasło
-Teraz przejdźmy do odszyfrowania pliku ODS, który właśnie zaszyfrowaliśmy. Pierwszą rzeczą, którą musimy zrobić, jest ustawienie hasła, które zostało użyte podczas szyfrowania:
+Przejdźmy teraz do odszyfrowania pliku ODS, który właśnie zaszyfrowaliśmy. Pierwszą rzeczą, którą musimy zrobić, jest ustawienie hasła, które zostało użyte podczas szyfrowania:
 ```csharp
 // Ustaw oryginalne hasło
 OdsLoadOptions loadOptions = new OdsLoadOptions();
@@ -99,7 +101,7 @@ encryptedWorkbook.Save(dataDir + "DencryptedBook1.out.ods");
 ```
 Wykonując te kroki, udało Ci się pomyślnie odszyfrować plik ODS!
 ## Wniosek
-W tym samouczku sprawdziliśmy, jak używać Aspose.Cells dla .NET do skutecznego szyfrowania i odszyfrowywania plików ODS. Za pomocą zaledwie kilku linijek kodu możesz zapewnić ochronę swoich poufnych informacji. Pamiętaj, że bezpieczeństwo danych to nie tylko pole wyboru – to konieczność w naszym świecie opartym na danych.
+W tym samouczku sprawdziliśmy, jak używać Aspose.Cells dla .NET do efektywnego szyfrowania i odszyfrowywania plików ODS. Za pomocą zaledwie kilku linijek kodu możesz zapewnić ochronę swoich poufnych informacji. Pamiętaj, że bezpieczeństwo danych to nie tylko pole wyboru – to konieczność w naszym świecie opartym na danych.
 Postępując zgodnie z tymi krokami, masz możliwość przejęcia kontroli nad swoimi danymi i zabezpieczenia ich przed nieautoryzowanym dostępem. Szczęśliwego kodowania!
 ## Najczęściej zadawane pytania
 ### Czy mogę używać Aspose.Cells do innych formatów plików?
@@ -111,10 +113,12 @@ Oczywiście! Możesz skonfigurować skrypt, który automatycznie szyfruje pliki 
 ### Czy potrzebuję licencji na Aspose.Cells?
 Tak, do użytku komercyjnego wymagana jest licencja, ale możesz zapoznać się z dostępnymi opcjami bezpłatnego okresu próbnego.
 ### Gdzie mogę znaleźć więcej informacji o funkcjach Aspose.Cells?
- Możesz sprawdzić obszerne[dokumentacja](https://reference.aspose.com/cells/net/) Aby uzyskać więcej informacji na temat funkcji i funkcjonalności.
+Możesz sprawdzić obszerne [dokumentacja](https://reference.aspose.com/cells/net/) Aby uzyskać więcej informacji na temat funkcji i funkcjonalności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

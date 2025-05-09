@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 
 - **Zestaw narzędzi programistycznych Java (JDK):** Wersja 8 lub nowsza.
 - **Maven czy Gradle:** Do zarządzania zależnościami.
-- **Biblioteka Aspose.Cells dla Java:** Będziesz potrzebować wersji 25.3.
+- **Biblioteka Aspose.Cells dla Java:** Potrzebna będzie wersja 25.3.
 
 Przydatna będzie również podstawowa znajomość języka Java oraz, jeśli to możliwe, doświadczenie w pracy z plikami Excela.
 
@@ -172,6 +174,9 @@ Zanurz się w tworzeniu solidnych aplikacji Excel z **Aspose.Cells dla Javy** Dz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

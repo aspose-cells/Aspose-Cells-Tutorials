@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ cells.setRowHeight(0, 31);
 cells.setColumnWidth(0, 35);
 ```
 
-### 3. funkció: Adatellenőrzés beállítása (H2)
+### 3. funkció: Adatérvényesítés beállítása (H2)
 
 Adatérvényesítési szabályok használatával biztosítsa, hogy a felhasználók a megadott paramétereken belül adják meg az adatokat.
 
@@ -251,6 +253,9 @@ Készségeid további fejlesztéséhez fedezd fel az Aspose.Cells által kínál
 Most, hogy minden eszköz és tudás a rendelkezésedre áll, kezdj el kísérletezni az Aspose.Cells for Java-val, hogy egyszerűsítsd az Excellel kapcsolatos feladataidat Java alkalmazásokban. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

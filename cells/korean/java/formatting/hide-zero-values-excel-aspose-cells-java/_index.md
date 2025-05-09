@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@
 ### 환경 설정 요구 사항
 환경이 다음으로 구성되어 있는지 확인하세요.
 - 컴퓨터에 JDK가 설치되어 있어야 합니다(Java Development Kit, 버전 8 이상).
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 
 ## Java용 Aspose.Cells 설정
 
@@ -171,6 +173,9 @@ workbook.save(dataDir + "HDOfZeroValues_out.xls");
 - **지원하다**: 도움이 필요하면 Aspose 커뮤니티 포럼에 문의하세요. [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

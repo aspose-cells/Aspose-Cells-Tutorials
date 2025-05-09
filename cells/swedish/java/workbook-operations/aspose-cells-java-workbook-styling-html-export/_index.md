@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ För att kunna utnyttja Aspose.Cells fullt ut behöver du en licens. Du kan bör
 ## Konfigurera Aspose.Cells för Java
 Börja med att konfigurera din utvecklingsmiljö:
 1. **Installera biblioteket**Lägg till Maven- eller Gradle-beroendet i ditt projekt.
-2. **Skaffa en licens**Besök [Asposes köpsida](https://purchase.aspose.com/buy) för att få ett tillfälligt eller fullständigt körkort.
+2. **Skaffa en licens**Besök [Asposes köpsida](https://purchase.aspose.com/buy) för att få en tillfällig eller fullständig licens.
 3. **Initiera Aspose.Cells**Initiera Aspose.Cells i ditt Java-program genom att lägga till licenskod om du har en licensfil.
 
 Så här kan du konfigurera grundmiljön:
@@ -189,6 +191,9 @@ I den här handledningen har du lärt dig hur du utnyttjar kraften i Aspose.Cell
 - Utforska praktiska implementeringar i dina projekt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

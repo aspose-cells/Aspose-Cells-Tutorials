@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ A estas alturas, ya deberías tener una sólida comprensión de cómo personaliz
 ¡Embárquese en su viaje para dominar la personalización de la segmentación de datos de Excel con Aspose.Cells para Java y lleve sus presentaciones de datos al siguiente nivel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

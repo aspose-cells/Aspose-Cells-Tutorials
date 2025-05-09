@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Ismerje meg, hogyan konvertálhat hatékonyan Excel-munkafüzeteket PDF-be az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a képletszámításokat és az átalakítás lépéseit ismerteti."
+"description": "Ismerje meg, hogyan konvertálhat hatékonyan Excel-munkafüzeteket PDF-be az Aspose.Cells for Java használatával. Ez az útmutató a beállítást, a képletszámításokat és a konvertálás lépéseit ismerteti."
 "title": "Aspose.Cells Java átfogó útmutató Excel-munkafüzetek PDF-be konvertálásához"
 "url": "/hu/java/workbook-operations/aspose-cells-java-excel-to-pdf-conversion-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ Egy meglévő Excel-munkafüzet betöltése egyszerűen elvégezhető az Aspose.
    ```
 2. **Paraméterek megértése:**
    - A `dataDir` egy karakterlánc, amely azt a könyvtárat jelöli, ahol az Excel-fájl található.
-   - A kivitelező `Workbook` Az osztály automatikusan beolvassa és tárolja az összes munkalapot és adatot a megadott Excel fájlból.
+   - kivitelező `Workbook` Az osztály automatikusan beolvassa és tárolja az összes munkalapot és adatot a megadott Excel fájlból.
 
 ### Képletek kiszámítása egy Excel munkafüzetben
 
@@ -172,6 +174,9 @@ V: Természetesen! Könnyedén végigmehetsz Excel-fájlok egy gyűjteményén, 
 A: Az Aspose.Cells különféle területi beállításokat támogat, amelyeket a mentési művelet során konfigurálhat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

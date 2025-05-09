@@ -1,41 +1,43 @@
 ---
-title: Forgassa el a szöveget az alakzattal az Excelben
-linktitle: Forgassa el a szöveget az alakzattal az Excelben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan forgathat el szöveget alakzatokkal az Excelben az Aspose.Cells for .NET segítségével. Kövesse ezt a lépésről lépésre útmutatót a tökéletes Excel-prezentáció érdekében.
-weight: 12
-url: /hu/net/excel-shape-text-modifications/rotate-text-shape-excel/
+"description": "Tanuld meg, hogyan forgathatsz szöveget alakzatokkal Excelben az Aspose.Cells for .NET használatával. Kövesd ezt a lépésről lépésre szóló útmutatót a tökéletes Excel-bemutatóhoz."
+"linktitle": "Szöveg elforgatása alakzattal az Excelben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Szöveg elforgatása alakzattal az Excelben"
+"url": "/hu/net/excel-shape-text-modifications/rotate-text-shape-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Forgassa el a szöveget az alakzattal az Excelben
+# Szöveg elforgatása alakzattal az Excelben
 
 ## Bevezetés
-Az Excel világában a vizuális megjelenítés ugyanolyan fontos, mint maga az adat. Akár jelentést készít, akár dinamikus irányítópultot tervez, az információk elrendezésének módja drámai hatással lehet az olvashatóságra és az általános megjelenésre. Szóval, szeretted volna elforgatni a szöveget, hogy stílusosan igazítsa az alakzatokhoz? szerencséd van! Ebben az oktatóanyagban belemerülünk abba, hogyan lehet szöveget alakzatokkal forgatni az Aspose.Cells for .NET segítségével, így biztosítva, hogy a táblázatok ne csak tájékozódjanak, hanem lenyűgözőek is.
+Az Excel világában a vizuális ábrázolás ugyanolyan fontos, mint maga az adat. Akár egy jelentést készítesz, akár egy dinamikus irányítópultot tervezel, az információk elrendezése drámaian befolyásolhatja az olvashatóságot és az általános megjelenést. Szóval, szerettél volna már elforgatni a szöveget, hogy stílusosan illeszkedjen az alakzatokhoz? Szerencséd van! Ebben az oktatóanyagban belemerülünk abba, hogyan forgathatod el a szöveget az alakzatokkal az Aspose.Cells for .NET használatával, biztosítva, hogy a táblázataid ne csak informatívak, hanem lenyűgözőek is legyenek.
 ## Előfeltételek
-Mielőtt elkezdenénk, győződjünk meg arról, hogy mindennel megvan, amire szüksége van:
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépén, mert ott írjuk majd a kódunkat.
-2.  Aspose.Cells for .NET: Szüksége lesz az Aspose.Cells könyvtárra. Tudod[töltse le a legújabb verziót innen](https://releases.aspose.com/cells/net/) vagy próbálja ki ingyen a[ingyenes próbaverzió](https://releases.aspose.com/).
-3. Alapvető C# ismerete: Hasznos lesz a C# és a .NET környezet ismerete, bár mi minden lépésnél eligazodunk.
-4.  Excel fájl: egy példa Excel fájl, nevezzük`sampleRotateTextWithShapeInsideWorksheet.xlsx`, kódunk teszteléséhez szükséges. Ezt a fájlt egy könnyen elérhető könyvtárba kell helyeznie.
-Minden készen van? Fantasztikus! Ugorjunk a szórakoztató részre.
+Mielőtt belekezdenénk, győződjünk meg róla, hogy minden megvan, amire szükséged van:
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén, mivel ott fogjuk írni a kódot.
+2. Aspose.Cells .NET-hez: Szükséged lesz az Aspose.Cells könyvtárra. [töltsd le a legújabb verziót itt](https://releases.aspose.com/cells/net/) vagy próbáld ki ingyen egy [ingyenes próba](https://releases.aspose.com/).
+3. C# alapismeretek: A C# és a .NET környezet ismerete előnyös, bár minden lépésben végigvezetünk.
+4. Excel-fájl: Egy minta Excel-fájl, nevezzük el `sampleRotateTextWithShapeInsideWorksheet.xlsx`, szükséges a kódunk teszteléséhez. Ezt a fájlt egy könnyen elérhető könyvtárba kell helyezni.
+Minden készen áll? Fantasztikus! Akkor jöjjön a mókás rész!
 ## Csomagok importálása
-Az induláshoz importálnunk kell a szükséges csomagokat a projektünkbe. Íme, hogyan kell ezt megtenni:
-### Hozzon létre egy új projektet
-1. Nyissa meg a Visual Studio-t.
-2. Válassza az "Új projekt létrehozása" lehetőséget.
-3. Válassza a "Konzolalkalmazás" lehetőséget, és válassza ki a C#-t preferált programozási nyelvként.
-### Telepítse az Aspose.Cells programot
-Most adjuk hozzá az Aspose.Cells elemet a projekthez. Ezt a NuGet Package Manager segítségével teheti meg:
-1. Nyissa meg az "Eszközök" elemet a felső menüben.
-2. Válassza a „NuGet Package Manager”, majd a „Manage NuGet Packages for Solution” lehetőséget.
-3. Keresse meg az "Aspose.Cells" kifejezést.
-4. Kattintson a "Telepítés" gombra, hogy hozzáadja a projekthez.
-### Használati irányelv hozzáadása
-fő C# fájl tetején hozzá kell adnia a következő direktívát:
+A kezdéshez importálnunk kell a szükséges csomagokat a projektünkbe. Ezt így teheted meg:
+### Új projekt létrehozása
+1. Nyisd meg a Visual Studio-t.
+2. Válassza az „Új projekt létrehozása” lehetőséget.
+3. Válaszd a „Konzolalkalmazás” lehetőséget, és a C#-t válaszd ki a kívánt programozási nyelvként.
+### Az Aspose.Cells telepítése
+Most adjuk hozzá az Aspose.Cells-t a projektedhez. Ezt a NuGet csomagkezelővel teheted meg:
+1. Nyissa meg az "Eszközök" menüpontot a felső menüben.
+2. Válassza a „NuGet csomagkezelő”, majd a „Megoldáshoz tartozó NuGet csomagok kezelése” lehetőséget.
+3. Keresd meg az „Aspose.Cells” kifejezést.
+4. Kattintson a „Telepítés” gombra a projekthez való hozzáadáshoz.
+### User Directive hozzáadása
+A fő C# fájl tetején a következő direktívát kell hozzáadni:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -43,80 +45,82 @@ using System.Linq;
 using System.Text;
 using Aspose.Cells.Drawing;
 ```
-Most már készen állunk a kódolás megkezdésére!
-Bontsuk a folyamatot könnyen emészthető lépésekre. Így forgathatja el a szöveget alakzatokkal egy Excel-fájlban:
-## 1. lépés: Állítsa be a címtár elérési útjait
-Először is be kell állítania a forrás- és kimeneti könyvtárakat, ahol az Excel-fájlokat tárolni fogja. Íme, hogyan:
+Most már készen állunk a kódolás elkezdésére!
+Bontsuk le a folyamatot könnyen emészthető lépésekre. Így forgathatja el a szöveget alakzatokkal egy Excel-fájlban:
+## 1. lépés: Állítsa be a könyvtár elérési útjait
+Először is be kell állítania a forrás- és kimeneti könyvtárakat, ahová az Excel-fájljait tárolni fogja. Így teheti meg:
 ```csharp
-//Forrás könyvtár
-string sourceDir = "Your Document Directory"; // Állítsa be a dokumentumkönyvtárat
+//Forráskönyvtár
+string sourceDir = "Your Document Directory"; // Állítsa be a dokumentum könyvtárát
 //Kimeneti könyvtár
 string outputDir = "Your Document Directory"; // Állítsa be a kimeneti könyvtárat
 ```
- Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`sampleRotateTextWithShapeInsideWorksheet.xlsx` fájl található.
-## 2. lépés: Töltse be az Excel mintafájlt
-Most töltsük be az Excel mintafájlt. Ez döntő fontosságú, mivel a meglévő adatokat szeretnénk manipulálni.
+Csere `"Your Document Directory"` a tényleges útvonallal, ahol a `sampleRotateTextWithShapeInsideWorksheet.xlsx` a fájl található.
+## 2. lépés: Töltse be a minta Excel-fájlt
+Most töltsük be a minta Excel fájlt. Ez kulcsfontosságú, mivel a meglévő adatokat szeretnénk manipulálni.
 ```csharp
-//Töltsön be minta Excel fájlt.
+//Minta Excel fájl betöltése.
 Workbook wb = new Workbook(sourceDir + "sampleRotateTextWithShapeInsideWorksheet.xlsx");
 ```
-## 3. lépés: Nyissa meg a munkalapot
-A fájl betöltése után el kell érnünk azt a konkrét munkalapot, amelyet módosítani szeretnénk. Esetünkben ez az első munkalap.
+## 3. lépés: A munkalap elérése
+Miután a fájl betöltődött, hozzá kell férnünk ahhoz a munkalaphoz, amelyet módosítani szeretnénk. Esetünkben ez az első munkalap.
 ```csharp
-//Az első munkalap elérése.
+//Első munkalap elérése.
 Worksheet ws = wb.Worksheets[0];
 ```
-## 4. lépés: Módosítson egy cellát
-Ezután egy adott cellát módosítunk, hogy üzenet jelenjen meg. Példánkban a B4 cellát fogjuk használni.
+## 4. lépés: Cella módosítása
+Következőként módosítunk egy adott cellát, hogy üzenetet jelenítsen meg. Példánkban a B4 cellát fogjuk használni.
 ```csharp
-//Nyissa meg a B4 cellát, és adjon hozzá egy üzenetet.
+//Nyisd meg a B4 cellát, és írj bele egy üzenetet.
 Cell b4 = ws.Cells["B4"];
 b4.PutValue("Text is not rotating with shape because RotateTextWithShape is false.");
 ```
-Ez a lépés a kommunikációról szól – annak biztosítása, hogy aki megnyitja ezt a lapot, megértse, mit módosítunk.
-## 5. lépés: Nyissa meg az első alakzatot
-A szöveg elforgatásához szükségünk van egy alakzatra, amellyel dolgozhatunk. Itt elérjük a munkalap első alakját.
+Ez a lépés a kommunikációról szól – annak biztosítására, hogy aki megnyitja ezt a lapot, megértse, mit módosítunk.
+## 5. lépés: Az első alakzat elérése
+A szöveg elforgatásához szükségünk van egy alakzatra, amellyel dolgozhatunk. Itt a munkalap első alakzatát fogjuk elérni.
 ```csharp
-//Hozzáférés az első alakzathoz.
+//Első alakzat elérése.
 Shape sh = ws.Shapes[0];
 ```
-## 6. lépés: Állítsa be az alakzat szövegigazítását
-Itt történik a varázslat. Beállítjuk az alakzat szövegigazítási tulajdonságait.
+## 6. lépés: Alakzat szövegének igazításának beállítása
+Itt történik a varázslat. Módosítjuk az alakzat szövegigazítási tulajdonságait.
 ```csharp
-//Az alakzat szövegigazításának elérése.
+//Hozzáférés az alakzat szövegének igazításához.
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.TextAlignment;
-//Ne forgassa el a szöveget alakzattal a RotateTextWithShape beállításával hamis.
+//Ne forgasd el a szöveget az alakzattal együtt a RotateTextWithShape beállítás hamis értékre állításával.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- Beállítás által`RotateTextWithShape` hamisra, biztosítjuk, hogy a szöveg függőleges maradjon, és ne forogjon az alakzattal együtt, így minden rendben és rendezett marad.
+Beállítással `RotateTextWithShape` A „hamis” beállításnál biztosítjuk, hogy a szöveg függőleges maradjon, és ne forogjon az alakzattal együtt, így minden rendezett és szervezett marad.
 ## 7. lépés: Mentse el a kimeneti Excel fájlt
-Végül mentsük el a változtatásainkat egy új Excel fájlba. Ez biztosítja, hogy ne vesszenek el a szerkesztéseink, és a kimenet rendezett legyen.
+Végül mentsük el a módosításokat egy új Excel-fájlba. Így biztosítjuk, hogy ne veszítsük el a szerkesztéseket, és rendezett eredményt kapjunk.
 ```csharp
 //Mentse el a kimeneti Excel fájlt.
 wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
-És ennyi! A kimeneti fájl most mentésre került, beleértve a B4 cellában lévő szöveget és az alakzaton végzett módosításokat.
-## 8. lépés: Hajtsa végre a kódot
- A tiédben`Main` módszert, csomagolja be az összes fenti kódrészletet, és futtassa a projektet. Lásd a változásokat a kimeneti fájlban!
+És ennyi! A kimeneti fájl mentésre került, beleértve a B4 cellában lévő szöveget és az alakzaton végrehajtott módosításokat is.
+## 8. lépés: A kód végrehajtása
+A te `Main` metódust, csomagold be az összes fenti kódrészletet, és futtasd a projektedet. Figyeld, ahogy a változások megjelennek a kimeneti fájlban!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
 ## Következtetés
-Szöveg alakzatokkal történő forgatása az Excelben az Aspose.Cells for .NET használatával elsőre bonyolultnak tűnhet, de ha felbontja, ez meglehetősen egyszerű. Ezeket az egyszerű lépéseket követve személyre szabhatja táblázatait, hogy professzionálisabbak és látványosabbak legyenek. Mostantól függetlenül attól, hogy ezt ügyfeleiért vagy személyes projektjeiért csinálja, mindenki áradozni fog a munkája minőségéről!
+Az Aspose.Cells for .NET használatával az Excelben a szöveg alakzatokkal való forgatása elsőre bonyolult folyamatnak tűnhet, de ha részletesen lebontjuk, meglehetősen egyszerűvé válik. Ezeket az egyszerű lépéseket követve testreszabhatod a táblázataidat, hogy professzionálisabbak és vizuálisan vonzóbbak legyenek. Mostantól, akár egy ügyfélnek, akár személyes projektekhez csinálod ezt, mindenki áradozni fog a munkád minőségéről!
 ## GYIK
-### Használhatom ingyenesen az Aspose.Cells-t?
- Igen! Használhatja a[ingyenes próbaverzió](https://releases.aspose.com/) kipróbálni a könyvtárat.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen! Használhatod a [ingyenes próba](https://releases.aspose.com/) kipróbálni a könyvtárat.
 ### Az Excel mely verzióit támogatja az Aspose.Cells?
-Az Aspose.Cells számos Excel-formátumot támogat, beleértve az XLS-t, az XLSX-et, a CSV-t és még sok mást.
-### Lehetséges a szöveg alakzatokkal való elforgatása a régebbi Excel verziókban?
-Igen, a funkció alkalmazható az Aspose.Cells által támogatott régebbi formátumokra.
-### Hol találok további dokumentációt az Aspose.Cellsről?
- Megtekintheti az átfogó[dokumentáció](https://reference.aspose.com/cells/net/) további betekintésekért.
+Az Aspose.Cells számos Excel formátumot támogat, beleértve az XLS, XLSX, CSV és egyebeket.
+### Lehetséges a szöveg elforgatása alakzatokkal régebbi Excel verziókban?
+Igen, a funkció alkalmazható az Aspose.Cells által támogatott régebbi formátumokra is.
+### Hol találok további dokumentációt az Aspose.Cells-ről?
+Átfogó áttekintést nyújthat [dokumentáció](https://reference.aspose.com/cells/net/) további információkért.
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- Támogatást kérhet az alábbi címen[Aspose fórum](https://forum.aspose.com/c/cells/9).
+Támogatást kérhetsz a következő címen: [Aspose fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

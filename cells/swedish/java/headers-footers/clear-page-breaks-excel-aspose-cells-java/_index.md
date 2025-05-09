@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ public class ClearHorizontalPageBreaks {
 Gå till kalkylbladet där du vill rensa horisontella sidbrytningar. Använd `clear()` metod på `HorizontalPageBreaks` samling.
 
 ```java
-// Rensa alla horisontella sidbrytningar i kalkylbladet
+// Rensa alla vågräta sidbrytningar i kalkylbladet
 sheet.getHorizontalPageBreaks().clear();
 ```
 
@@ -194,6 +196,9 @@ I den här guiden har vi utforskat hur man tar bort horisontella och vertikala s
 - Utforska ytterligare funktioner i Aspose.Cells för Java för att ytterligare förbättra dina hanteringsmöjligheter i Excel-dokument.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

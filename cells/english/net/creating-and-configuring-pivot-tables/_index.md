@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating and Configuring Pivot Tables
@@ -89,9 +91,11 @@ Learn how to parse pivot cached records in .NET using Aspose.Cells. A simple gui
 Learn how to programmatically sort Pivot Tables in .NET using Aspose.Cells. A step-by-step guide covering setup, configuration, sorting, and saving results as Excel and PDF files.
 ### [Pivot Table Data Display Format Ranking in .NET](./pivot-table-data-display-format-ranking/)
 Learn how to create and manage Pivot Table data display format rankings in .NET using Aspose.Cells with this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

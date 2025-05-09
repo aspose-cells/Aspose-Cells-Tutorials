@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ In questa sezione analizzeremo il processo di esportazione dei dati da un foglio
 Questa funzionalità consente di estrarre intervalli di dati specifici direttamente in un array Java.
 
 #### Panoramica
-L'esportazione dei dati consente di lavorare con i contenuti di Excel a livello di programmazione. Questo è particolarmente utile per le applicazioni che devono manipolare o analizzare i dati dei fogli di calcolo senza l'intervento dell'utente.
+L'esportazione dei dati consente di lavorare con i contenuti di Excel a livello di programmazione. Questo è particolarmente utile per le applicazioni che necessitano di manipolare o analizzare i dati dei fogli di calcolo senza l'intervento dell'utente.
 
 #### Fasi di implementazione
 **Passaggio 1: caricare la cartella di lavoro**
@@ -169,6 +171,9 @@ Per ulteriori informazioni, esplora queste preziose risorse:
 - **Licenza temporanea:** [Ottieni una licenza temporanea](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

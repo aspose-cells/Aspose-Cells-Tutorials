@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ public class Initialization {
 ## Implementeringsguide
 ### Implementering av anpassade globaliseringsinställningar
 Den här funktionen låter dig anpassa funktionsnamn i formler baserat på lokaliseringsinställningar.
-#### Steg 1: Definiera en anpassad klassutvidgning `GlobalizationSettings`
+#### Steg 1: Definiera en anpassad klassutökning `GlobalizationSettings`
 ```java
 import com.aspose.cells.*;
 
@@ -147,6 +149,9 @@ Vid det här laget borde du ha en god förståelse för hur man anpassar Excel-f
 Dra nytta av dessa resurser för att ytterligare förbättra din förståelse och implementeringsfärdigheter med Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

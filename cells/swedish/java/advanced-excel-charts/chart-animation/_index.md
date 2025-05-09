@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Diagramanimering
@@ -16,7 +18,7 @@
 
 ## Introduktion till att skapa diagramanimering
 
-I den här handledningen utforskar vi hur man skapar dynamiska diagramanimationer med hjälp av Aspose.Cells för Java API. Diagramanimationer kan vara ett kraftfullt sätt att visualisera datatrender och förändringar över tid, vilket gör dina rapporter och presentationer mer engagerande och informativa. Vi kommer att förse dig med en steg-för-steg-guide och inkludera kompletta källkodsexempel för din bekvämlighet.
+den här handledningen utforskar vi hur man skapar dynamiska diagramanimationer med hjälp av Aspose.Cells för Java API. Diagramanimationer kan vara ett kraftfullt sätt att visualisera datatrender och förändringar över tid, vilket gör dina rapporter och presentationer mer engagerande och informativa. Vi kommer att förse dig med en steg-för-steg-guide och inkludera kompletta källkodsexempel för din bekvämlighet.
 
 ## Förkunskapskrav
 
@@ -82,7 +84,7 @@ workbook.save("output.xlsx");
 
 ## Slutsats
 
-I den här handledningen lärde vi oss hur man skapar diagramanimationer med hjälp av Aspose.Cells för Java API. Vi gick igenom de viktigaste stegen, inklusive att importera biblioteket, läsa in eller skapa en Excel-arbetsbok, komma åt diagrammet, konfigurera animeringsinställningar och spara arbetsboken. Genom att integrera diagramanimationer i dina rapporter och presentationer kan du ge dina data liv och förmedla ditt budskap effektivt.
+den här handledningen lärde vi oss hur man skapar diagramanimationer med hjälp av Aspose.Cells för Java API. Vi gick igenom de viktigaste stegen, inklusive att importera biblioteket, läsa in eller skapa en Excel-arbetsbok, komma åt diagrammet, konfigurera animeringsinställningar och spara arbetsboken. Genom att integrera diagramanimationer i dina rapporter och presentationer kan du ge dina data liv och förmedla ditt budskap effektivt.
 
 ## Vanliga frågor
 
@@ -101,6 +103,7 @@ Animationsfördröjningen avgör tidsgapet innan diagramanimationen startar. Anv
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Om du tyckte att den här handledningen var hjälpsam kan du prova att implement
 1. **Vad är Aspose.Cells?**
    - Ett bibliotek för att hantera Excel-filer programmatiskt.
 2. **Hur hanterar jag fel när jag redigerar kommentarer?**
-   - Se till att dina sökvägar är korrekta och att kalkylbladet/indexen finns.
+   - Se till att dina filsökvägar är korrekta och att kalkylbladet/indexen finns.
 3. **Kan jag använda Aspose.Cells utan licens?**
    - Ja, med begränsningar. Överväg att skaffa en tillfällig eller fullständig licens för utökade funktioner.
 4. **Är det möjligt att redigera andra Excel-element med hjälp av Aspose.Cells?**
@@ -162,6 +164,9 @@ Om du tyckte att den här handledningen var hjälpsam kan du prova att implement
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

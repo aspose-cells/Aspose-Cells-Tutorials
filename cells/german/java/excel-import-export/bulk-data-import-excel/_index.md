@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Massendatenimport Excel
@@ -99,9 +101,11 @@ Absolut! Aspose.Cells für Java unterstützt sowohl den Import als auch den Expo
 Ja, bitte lesen Sie die Lizenzinformationen auf der Aspose-Website, um Einzelheiten zu Lizenzierung und Preisen zu erfahren.
 
 Erkunden Sie die Codebeispiele gerne weiter und passen Sie sie an Ihre spezifischen Anforderungen an. Viel Spaß beim Programmieren!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

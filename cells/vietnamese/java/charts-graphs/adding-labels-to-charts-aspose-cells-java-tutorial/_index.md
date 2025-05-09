@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ Tích hợp Aspose.Cells vào dự án của bạn bằng Maven hoặc Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Các bước xin cấp giấy phép:**
+**Các bước xin cấp phép:**
 - **Dùng thử miễn phí:** Tải xuống thư viện để dùng thử một số chức năng có giới hạn.
 - **Giấy phép tạm thời:** Xin giấy phép tạm thời để thử nghiệm kéo dài.
 - **Mua:** Mua để mở khóa đầy đủ tính năng và xóa bỏ giới hạn.
@@ -154,6 +156,9 @@ Hãy bắt đầu hành trình của bạn với Aspose.Cells Java để mở kh
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

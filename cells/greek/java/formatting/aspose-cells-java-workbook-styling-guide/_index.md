@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ public class Main {
 Σε αυτό το σεμινάριο, μάθατε πώς να δημιουργείτε και να διαμορφώνετε έγγραφα Excel με το Aspose.Cells για Java. Κατακτώντας αυτές τις τεχνικές, μπορείτε να βελτιώσετε σημαντικά την ικανότητα της εφαρμογής σας να χειρίζεται αποτελεσματικά σύνθετες εργασίες υπολογιστικών φύλλων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

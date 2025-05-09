@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Interaktivita grafu
@@ -88,7 +90,7 @@ workbook.save("interactive_chart_output.xlsx");
 
 ## Závěr
 
-V tomto tutoriálu jsme vám ukázali, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Naučili jste se, jak přidávat popisky, popisky dat a dokonce implementovat funkci procházení detailů. Tyto funkce vylepšují interaktivitu vašich grafů a zlepšují pochopení dat pro vaše uživatele.
+tomto tutoriálu jsme vám ukázali, jak vytvářet interaktivní grafy pomocí Aspose.Cells pro Javu. Naučili jste se, jak přidávat popisky, popisky dat a dokonce implementovat funkci procházení detailů. Tyto funkce vylepšují interaktivitu vašich grafů a zlepšují pochopení dat pro vaše uživatele.
 
 ## Často kladené otázky
 
@@ -111,6 +113,7 @@ Další příklady a podrobnou dokumentaci k používání Aspose.Cells pro Javu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

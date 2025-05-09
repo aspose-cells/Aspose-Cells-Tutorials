@@ -7,28 +7,30 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengelola Bagian XML Buku Kerja dengan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Menangani hubungan data yang kompleks dalam buku kerja Excel secara terprogram dapat menjadi tantangan, terutama saat memastikan konsistensi dan efisiensi. **Aspose.Cells untuk Java** menyediakan fungsionalitas yang kuat untuk mengelola bagian XML khusus dengan lancar.
 
 Dalam tutorial ini, kita akan menjelajahi cara membuat dan memanipulasi komponen XML kustom di buku kerja Excel menggunakan Aspose.Cells untuk Java. Baik Anda pengembang berpengalaman atau baru mengenal otomatisasi Excel, Anda akan menemukan wawasan praktis di sini.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara menambahkan bagian XML khusus ke buku kerja Anda.
 - Menetapkan pengenal unik (ID) ke bagian XML ini.
 - Mencari dan mengambil bagian XML tertentu berdasarkan ID.
 
 Siap untuk membuka kemampuan manajemen data yang canggih di Java? Mari kita mulai dengan prasyaratnya!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum terjun ke implementasi, pastikan Anda memiliki hal berikut:
+Mielőtt belevágna a megvalósításba, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 - **Kit Pengembangan Java (JDK)**Pastikan JDK 8 atau lebih tinggi terinstal pada sistem Anda.
 - **Aspose.Cells untuk Java**: Pustaka ini akan menjadi alat utama kita. Anda dapat menyertakannya dalam proyek Anda melalui Maven atau Gradle seperti yang ditunjukkan di bawah ini.
@@ -39,7 +41,7 @@ Sebelum terjun ke implementasi, pastikan Anda memiliki hal berikut:
 Untuk mulai menggunakan Aspose.Cells, Anda perlu mengintegrasikannya ke dalam proyek Anda. Berikut caranya:
 
 ### Menggunakan Maven
-Tambahkan dependensi berikut di `pom.xml` mengajukan:
+Tambahkan dependensi berikut di `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -50,20 +52,20 @@ Tambahkan dependensi berikut di `pom.xml` mengajukan:
 ```
 
 ### Menggunakan Gradle
-Bagi mereka yang menggunakan Gradle, sertakan ini di `build.gradle` mengajukan:
+Bagi mereka yang menggunakan Gradle, sertakan ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Untuk memanfaatkan kemampuan Aspose.Cells secara penuh tanpa batasan evaluasi:
-- **Uji Coba Gratis**: Unduh uji coba dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Dapatkan satu untuk akses tambahan selama pengujian.
-- **Pembelian**: Pertimbangkan untuk membeli jika Anda merasa ini bermanfaat untuk proyek Anda.
+- **Ingyenes próbaverzió**: Unduh uji coba dari [Aspose weboldala](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Dapatkan satu untuk akses tambahan selama pengujian.
+- **Vásárlás**: Pertimbangkan untuk membeli jika Anda merasa ini bermanfaat untuk proyek Anda.
 
-### Inisialisasi Dasar
-Mulailah dengan membuat contoh `Workbook` kelas:
+### Alapvető inicializálás
+Kezdje egy példány létrehozásával a `Workbook` osztály:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -71,21 +73,21 @@ import com.aspose.cells.Workbook;
 public class InitializeWorkbook {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook();
-        // Kode Anda di sini
+        // A kódod itt
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan menguraikan setiap fitur menjadi langkah-langkah yang dapat dikelola, memandu Anda melalui pembuatan dan pengelolaan bagian XML khusus.
 
 ### Membuat dan Menambahkan Bagian XML Kustom ke Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 Fungsionalitas ini memungkinkan Anda untuk menambahkan data XML kustom ke buku kerja Excel Anda. Ini dapat sangat berguna untuk menyimpan metadata tambahan atau mengintegrasikan kumpulan data eksternal.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 
 1. **Buat Buku Kerja Kosong**
 
@@ -111,7 +113,7 @@ Fungsionalitas ini memungkinkan Anda untuk menambahkan data XML kustom ke buku k
 
 3. **Tambahkan Bagian XML Kustom**
 
-   Gunakan `getCustomXmlParts().add()` metode untuk memasukkan data Anda:
+   Használd a `getCustomXmlParts().add()` metode untuk memasukkan data Anda:
 
    ```java
    workbook.getCustomXmlParts().add(btsData, btsSchema);
@@ -120,10 +122,10 @@ Fungsionalitas ini memungkinkan Anda untuk menambahkan data XML kustom ke buku k
 
 ### Tetapkan ID ke Bagian XML Kustom
 
-#### Ringkasan
+#### Áttekintés
 Menetapkan pengenal unik membantu mengelola dan mereferensikan bagian XML tertentu dengan mudah.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 
 1. **Mengakses Bagian XML yang Ada**
 
@@ -144,10 +146,10 @@ Menetapkan pengenal unik membantu mengelola dan mereferensikan bagian XML terten
 
 ### Cari Bagian XML Kustom berdasarkan ID
 
-#### Ringkasan
+#### Áttekintés
 Menemukan bagian XML tertentu dengan cepat sangatlah penting, terutama pada kumpulan data besar.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 
 1. **Tentukan ID Pencarian**
 
@@ -157,31 +159,31 @@ Menemukan bagian XML tertentu dengan cepat sangatlah penting, terutama pada kump
 
 2. **Ambil Bagian XML**
 
-   Menggunakan `selectByID()` untuk menemukan dan bekerja dengan bagian yang diinginkan:
+   Használat `selectByID()` untuk menemukan dan bekerja dengan bagian yang diinginkan:
 
    ```java
    com.aspose.cells.CustomXmlPart xmlPart = workbook.getCustomXmlParts().selectByID(searchID);
    ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Pengayaan Data**: Tambahkan metadata yang ditautkan langsung ke data Excel Anda untuk wawasan yang lebih kaya.
-2. **Integrasi**:Integrasikan kumpulan data eksternal secara mulus ke dalam buku kerja Anda.
+2. **Integráció**:Integrasikan kumpulan data eksternal secara mulus ke dalam buku kerja Anda.
 3. **Manajemen Konfigurasi**: Gunakan bagian XML untuk mengelola konfigurasi spesifik aplikasi yang disimpan di Excel.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 - **Penggunaan Memori**: Memantau konsumsi sumber daya, khususnya saat menangani kumpulan data berukuran besar.
 - **Tips Efisiensi**: Optimalkan dengan meminimalkan jumlah bagian XML dan menggunakan struktur data yang efisien.
 
-## Kesimpulan
+## Következtetés
 
 Menguasai pengelolaan komponen XML buku kerja dengan Aspose.Cells untuk Java memberdayakan Anda untuk menangani skenario data yang kompleks secara efisien. Dengan mengikuti panduan ini, Anda telah mempelajari cara menambahkan, mengelola, dan mencari komponen XML khusus dalam buku kerja Excel Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 Jelajahi lebih jauh dengan mengintegrasikan teknik ini ke dalam aplikasi yang lebih besar atau bereksperimen dengan berbagai jenis skema XML.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Untuk apa Aspose.Cells for Java digunakan?**
    - Ini adalah pustaka yang hebat untuk mengelola berkas Excel, termasuk membuat, memodifikasi, dan mengekstrak data secara terprogram.
@@ -192,16 +194,19 @@ Jelajahi lebih jauh dengan mengintegrasikan teknik ini ke dalam aplikasi yang le
 4. **Apa saja masalah umum dengan Aspose.Cells Java?**
    - Pembatasan lisensi selama masa uji coba, manajemen memori untuk kumpulan data besar, dan kompatibilitas versi.
 5. **Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?**
-   - Kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dari pakar Aspose dan anggota komunitas.
+   - Látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) untuk bantuan dari pakar Aspose dan anggota komunitas.
 
-## Sumber daya
-- **Dokumentasi**: Panduan lengkap dan referensi API di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**:Akses versi terbaru di [Unduhan Aspose](https://releases.aspose.com/cells/java/)
-- **Pembelian & Lisensi**:Jelajahi opsi untuk membeli atau mendapatkan lisensi sementara di [Aspose Pembelian](https://purchase.aspose.com/buy) Dan [Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
+## Erőforrás
+- **Dokumentáció**: Panduan lengkap dan referensi API di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**:Akses versi terbaru di [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Vásárlás és licencelés**:Jelajahi opsi untuk membeli atau mendapatkan lisensi sementara di [Aspose vásárlás](https://purchase.aspose.com/buy) és [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 
 Mulailah perjalanan Anda dengan Aspose.Cells untuk Java hari ini, dan ubah cara Anda menangani buku kerja Excel di aplikasi Anda!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

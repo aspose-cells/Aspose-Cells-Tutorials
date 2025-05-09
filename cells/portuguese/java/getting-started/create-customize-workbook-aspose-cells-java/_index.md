@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introdução
 Criar e personalizar pastas de trabalho do Excel programaticamente pode ser um divisor de águas para tarefas de apresentação e automação de dados. Este tutorial guia você pelo uso do Aspose.Cells para Java para criar e personalizar uma pasta de trabalho do Excel com facilidade. Você aprenderá a adicionar caixas de texto, personalizar suas propriedades e salvar sua pasta de trabalho em vários formatos, tudo com um código conciso e eficaz.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando Aspose.Cells para Java com Maven ou Gradle.
 - Criando uma nova pasta de trabalho e acessando sua planilha.
 - Adicionar e personalizar caixas de texto na planilha.
@@ -167,6 +169,9 @@ Com este guia completo, você estará bem equipado para criar e personalizar pas
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

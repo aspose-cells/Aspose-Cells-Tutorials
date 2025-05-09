@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5: Große Dateien und komplexe Vorgänge können den Speicherbedarf erhöhen. O
 Erkunden Sie diese Ressourcen, um Ihr Verständnis von Aspose.Cells für Java zu vertiefen und das volle Potenzial der Excel-Manipulation in Ihren Anwendungen auszuschöpfen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

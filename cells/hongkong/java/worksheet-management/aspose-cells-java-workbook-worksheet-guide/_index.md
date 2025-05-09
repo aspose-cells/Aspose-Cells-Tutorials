@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,7 +187,7 @@ public class SaveWorkbookToFile {
 ```
 
 ## 實際應用
-1. **財務報告：** 透過設定頁首和頁尾的列印標題來自動產生每月財務報告。
+1. **財務報告：** 透過設定頁首和頁尾的列印標題來自動產生每月的財務報告。
 2. **數據導出：** 使用 Aspose.Cells 將資料庫中的資料直接匯出為 Excel 格式，以進行分析。
 3. **動態模板產生：** 建立動態模板，其中根據使用者輸入將特定行/列標記為列印標題。
 
@@ -214,6 +216,9 @@ public class SaveWorkbookToFile {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

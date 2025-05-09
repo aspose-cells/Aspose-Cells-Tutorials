@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Licencbeszerzés lépései
 
 - **Ingyenes próbaverzió**Töltsön le egy ingyenes próbaverziót az Aspose.Cells funkcióinak teszteléséhez.
-- **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
+- **Ideiglenes engedély**Szerezzen be egy ideiglenes engedélyt meghosszabbított értékeléshez.
 - **Vásárlás**: Szerezzen be teljes licencet, ha úgy dönt, hogy véglegesen integrálja ezt a projektjeibe.
 
 A telepítés után inicializáld és állítsd be az Aspose.Cells-t a Java alkalmazásodban:
@@ -171,11 +173,11 @@ workbook.save("ColorsAndPalette_out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 munkafüzet színeinek testreszabása javítja az adatok megjelenítését és megkönnyíti az elemzést. Íme néhány gyakorlati alkalmazás:
 
-1. **Pénzügyi jelentések**Használjon egyéni palettákat a pénzügyi mutatók megkülönböztetéséhez.
+1. **Pénzügyi jelentések**: Használjon egyéni palettákat a pénzügyi mutatók megkülönböztetéséhez.
 2. **Készletgazdálkodás**: Jelölje ki a kritikus készletszinteket adott színekkel.
 3. **Projektkövetés**: Projekt ütemtervének vizualizálása színkódolt diagramok segítségével.
 
-Az integrációs lehetőségek közé tartozik a beállítás adatbázisokkal való összekapcsolása az automatikus jelentéskészítés érdekében, vagy felhőalapú környezetben történő telepítés az együttműködésen alapuló adatelemzés érdekében.
+Az integrációs lehetőségek közé tartozik a beállítás adatbázisokkal való összekapcsolása az automatikus jelentéskészítés érdekében, vagy felhőalapú környezetekben történő telepítése az együttműködésen alapuló adatelemzés érdekében.
 
 ## Teljesítményszempontok (H2)
 
@@ -226,6 +228,9 @@ Próbáld meg ezeket a testreszabásokat megvalósítani a projektjeidben, és f
 Indulj el az Aspose.Cells segítségével még ma, és alakítsd át a táblázatkezelő adatok kezelésének módját!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ workbook.save(outDir + "SBPforWorksheet.xlsx");
 
 ## การประยุกต์ใช้งานจริง
 1. **การรายงานที่ได้รับการปรับปรุง**:ใช้รูปภาพพื้นหลังเพื่อทำให้รายงานทางการเงินดูน่าสนใจมากขึ้น
-2. **เอกสารการสร้างแบรนด์**:เพิ่มโลโก้บริษัทลงในเวิร์กชีตเพื่อวัตถุประสงค์ด้านการสร้างแบรนด์
+2. **เอกสารการสร้างแบรนด์**:เพิ่มโลโก้บริษัทลงในแผ่นงานเพื่อวัตถุประสงค์ด้านการสร้างแบรนด์
 3. **สไลด์การนำเสนอ**:แปลงแผ่นงาน Excel ให้เป็นภาพสไลด์โชว์ที่มีลักษณะเป็นมืออาชีพโดยใช้ภาพพื้นหลัง
 4. **การแสดงภาพข้อมูล**:ปรับปรุงการแสดงภาพข้อมูลโดยการตั้งพื้นหลังตามธีม
 5. **การบูรณาการกับแดชบอร์ด**:บูรณาการกับแดชบอร์ดธุรกิจเพื่อจัดทำรายงานที่สอดคล้องกันทางภาพ
@@ -164,6 +166,9 @@ workbook.save(outDir + "SBPforWorksheet.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

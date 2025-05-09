@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 資料驗證中的輸入訊息
@@ -24,7 +26,7 @@ Aspose.Cells for Java 是一個基於 Java 的 API，它使開發人員無需 Mi
 
 ## 設定您的開發環境
 
-在開始之前，請確保您的系統上已設定了 Java 開發環境。您可以使用您最喜歡的 IDE，例如 Eclipse 或 IntelliJ IDEA，來建立一個新的 Java 專案。
+在開始之前，請確保您的系統上已經設定了 Java 開發環境。您可以使用您最喜歡的 IDE，例如 Eclipse 或 IntelliJ IDEA，來建立一個新的 Java 專案。
 
 ## 建立新的 Java 項目
 
@@ -153,6 +155,7 @@ Aspose.Cells for Java 提供了先進的資料驗證技術，例如自訂公式�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

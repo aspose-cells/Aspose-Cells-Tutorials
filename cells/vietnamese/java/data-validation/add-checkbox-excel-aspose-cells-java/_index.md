@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Chúng tôi khuyến khích bạn triển khai các giải pháp này vào dự 
 - Đảm bảo quyền thích hợp và cân nhắc khóa các ô cụ thể để ngăn ngừa những thay đổi không mong muốn khi sử dụng hộp kiểm trong môi trường dùng chung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

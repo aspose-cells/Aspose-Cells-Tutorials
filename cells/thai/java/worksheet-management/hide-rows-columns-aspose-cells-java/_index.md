@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook(dataDir + "/book1.xls");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Cells cells = worksheet.getCells();
 ```
-ที่นี่เราเรียกค้นเวิร์กชีตแรก (ดัชนี 0) และรับมัน `Cells` คัดค้านให้ดำเนินการต่อไป
+ที่นี่เราเรียกค้นเวิร์กชีตแรก (ดัชนี 0) และรับ `Cells` คัดค้านให้ดำเนินการต่อไป
 
 ### การซ่อนแถว
 
@@ -107,7 +109,7 @@ cells.hideColumn(1); // ซ่อนคอลัมน์ที่สอง
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/HidingRowsandColumns_out.xls");
 ```
-แทนที่ `"YOUR_OUTPUT_DIRECTORY"` ด้วยเส้นทางเอาต์พุตที่คุณต้องการเพื่อสรุปการเปลี่ยนแปลงในเอกสาร Excel
+แทนที่ `"YOUR_OUTPUT_DIRECTORY"` พร้อมเส้นทางเอาต์พุตที่คุณต้องการเพื่อสรุปการเปลี่ยนแปลงในเอกสาร Excel
 
 ## การประยุกต์ใช้งานจริง
 
@@ -147,6 +149,9 @@ workbook.save(outDir + "/HidingRowsandColumns_out.xls");
 พร้อมที่จะปรับปรุงการจัดการไฟล์ Excel ของคุณหรือยัง นำโซลูชันเหล่านี้ไปใช้ในโครงการของคุณวันนี้!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Aspose.Cells द्वारा प्रदान की जाने वाल
    जैसे ही नई डेटा पंक्तियां जोड़ी जाती हैं, प्रसारित सूत्र स्वचालित रूप से अपडेट हो जाता है, जिससे बिना किसी मैन्युअल हस्तक्षेप के निरंतर सटीकता सुनिश्चित होती है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

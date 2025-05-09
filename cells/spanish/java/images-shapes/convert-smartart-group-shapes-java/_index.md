@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,6 +224,9 @@ Al trabajar con archivos grandes de Excel o conversiones múltiples:
 Siguiendo esta guía, podrá administrar y convertir eficazmente gráficos SmartArt en Excel usando Java con Aspose.Cells. Esta habilidad mejorará significativamente su capacidad para automatizar tareas complejas en documentos de Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

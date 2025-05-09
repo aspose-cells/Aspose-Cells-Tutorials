@@ -1,14 +1,16 @@
 ---
-title: Hoạt động liên kết và cấu hình
-linktitle: Hoạt động liên kết và cấu hình
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET, bao gồm cấu hình liên kết và nhiều hơn nữa. Hoàn hảo cho các nhà phát triển muốn cải thiện ứng dụng Excel của họ.
-weight: 37
-url: /vi/net/link-and-configuration-operations/
+"description": "Khám phá hướng dẫn toàn diện về Aspose.Cells cho .NET, bao gồm cấu hình liên kết và nhiều hơn nữa. Hoàn hảo cho các nhà phát triển muốn cải thiện ứng dụng Excel của họ."
+"linktitle": "Hoạt động liên kết và cấu hình"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Hoạt động liên kết và cấu hình"
+"url": "/vi/net/link-and-configuration-operations/"
+"weight": 37
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hoạt động liên kết và cấu hình
@@ -21,14 +23,16 @@ Aspose.Cells for .NET cung cấp rất nhiều chức năng có thể biến đ�
 
 Với những tiến bộ trong công nghệ, nhu cầu quản lý tài liệu hiệu quả đang ở mức cao nhất mọi thời đại. Khi bạn khám phá các hướng dẫn của chúng tôi, hãy nhớ rằng bạn đang tham gia vào một cộng đồng những cá nhân có cùng chí hướng, háo hức học hỏi và chia sẻ kinh nghiệm của mình. 
 
-Sẵn sàng để nhảy vào? Ghé thăm[Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET](./configuring-link-to-content-document-property/) hướng dẫn và chúng ta hãy biến những nhiệm vụ phức tạp đó thành một cơn gió nhẹ! Hành trình làm chủ Aspose.Cells của bạn bắt đầu tại đây và chúng tôi rất vui khi được đồng hành cùng bạn. Hãy cùng bắt đầu viết mã!
+Sẵn sàng để nhảy vào? Ghé thăm [Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET](./configuring-link-to-content-document-property/) hướng dẫn và chúng ta hãy biến những nhiệm vụ phức tạp đó thành một cơn gió nhẹ! Hành trình làm chủ Aspose.Cells của bạn bắt đầu tại đây và chúng tôi rất vui khi được đồng hành cùng bạn. Hãy cùng bắt đầu viết mã!
 
 ## Hướng dẫn về Liên kết và Cấu hình Hoạt động
 ### [Cấu hình liên kết đến thuộc tính tài liệu nội dung trong .NET](./configuring-link-to-content-document-property/)
 Tìm hiểu cách liên kết thuộc tính tài liệu với nội dung trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho nhà phát triển.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

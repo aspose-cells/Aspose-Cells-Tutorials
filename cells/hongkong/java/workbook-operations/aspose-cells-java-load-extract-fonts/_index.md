@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 介紹
 
-您是否需要分析複雜的 Excel 工作簿中的字型？無論是確保設計一致性、品牌合規性，還是理解文件樣式，提取字體資訊都至關重要。本指南將向您展示如何使用 **Aspose.Cells for Java** 載入 Excel 工作簿並提取其中使用的所有字體。透過掌握這些功能，您可以更精確、更輕鬆地完成資料處理任務。
+您是否曾經需要分析複雜的 Excel 工作簿中的字型？無論是確保設計一致性、品牌合規性，還是理解文件樣式，提取字體資訊都至關重要。本指南將向您展示如何使用 **Aspose.Cells for Java** 載入 Excel 工作簿並提取其中使用的所有字體。透過掌握這些功能，您可以更精確、更輕鬆地完成資料處理任務。
 
 **您將學到什麼：**
 - 在您的開發環境中設定 Aspose.Cells for Java。
@@ -165,6 +167,9 @@ for (int i = 0; i < fnts.length; i++) {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

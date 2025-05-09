@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyczne wprowadzanie danych
@@ -115,9 +117,11 @@ Automatyzacja wprowadzania danych za pomocą Aspose.Cells for Java usprawnia pro
    Dokumentację można przejrzeć pod adresem [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Teraz masz wiedzę i narzędzia, aby skutecznie automatyzować wprowadzanie danych za pomocą Aspose.Cells for Java. Zacznij ulepszać procesy obsługi danych i zwiększ wydajność swojego biznesu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

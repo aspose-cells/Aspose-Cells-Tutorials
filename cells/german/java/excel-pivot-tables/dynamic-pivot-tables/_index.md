@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamische Pivot-Tabellen
@@ -107,9 +109,11 @@ Ja, Sie können Filter auf Pivot-Tabellen anwenden, um bestimmte Datenteilmengen
 ### F5: Unterstützt Aspose.Cells die erweiterten PivotTable-Funktionen von Excel?
 
 Ja, Aspose.Cells bietet umfassende Unterstützung für die erweiterten PivotTable-Funktionen von Excel, sodass Sie komplexe PivotTables erstellen können.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-working-with-hyperlinks/add-link-to-url/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Link to URL in Excel
@@ -109,6 +111,7 @@ Yes! Check out their [support forum](https://forum.aspose.com/c/cells/9) for hel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

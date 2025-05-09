@@ -7,18 +7,20 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Operasi Baris di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 Pernahkah Anda kesulitan mengelola kumpulan data besar di Excel karena penyisipan atau penghapusan baris yang merepotkan? Baik Anda seorang analis data, pengembang, atau penggemar spreadsheet, memanipulasi baris secara efisien sangatlah penting. Gunakan Aspose.Cells untuk Java: alat canggih Anda untuk menangani file Excel secara terprogram.
 
 Dalam tutorial ini, kita akan menjelajahi cara memasukkan dan menghapus baris dengan mudah menggunakan pustaka Aspose.Cells di Java. Dengan menguasai operasi ini, Anda akan menyederhanakan tugas pengelolaan data dan membuka kemungkinan baru untuk otomatisasi dalam spreadsheet Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur Aspose.Cells untuk Java
 - Memasukkan beberapa baris ke dalam lembar kerja Excel
 - Menghapus rentang baris dari spreadsheet
@@ -26,9 +28,9 @@ Dalam tutorial ini, kita akan menjelajahi cara memasukkan dan menghapus baris de
 
 Sekarang, mari kita bahas prasyarat yang Anda perlukan sebelum kita mulai.
 
-## Prasyarat
+## Előfeltételek
 Sebelum menerapkan penyisipan dan penghapusan baris menggunakan Aspose.Cells untuk Java, pastikan Anda memiliki:
-1. **Pustaka Aspose.Cells**Sertakan pustaka ini dalam proyek Anda.
+1. **Aspose.Cells könyvtár**Sertakan pustaka ini dalam proyek Anda.
 2. **Lingkungan Pengembangan Java**: Siapkan lingkungan Java dengan JDK 8 atau lebih tinggi.
 3. **Pengetahuan Dasar Java**:Keakraban dengan konsep pemrograman Java akan bermanfaat.
 
@@ -47,16 +49,16 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Pengaturan Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 Aspose.Cells menawarkan uji coba gratis, yang memungkinkan Anda menguji kemampuannya tanpa batasan selama 30 hari. Anda dapat mengajukan lisensi sementara di situs web mereka jika Anda memerlukan lebih banyak waktu atau berencana untuk membeli langganan untuk penggunaan komersial.
 
-**Inisialisasi dan Pengaturan Dasar:**
+**Alapvető inicializálás és beállítás:**
 
 ```java
 import com.aspose.cells.Workbook;
@@ -65,16 +67,16 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook(); // Membuat berkas Excel baru.
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita uraikan proses ini menjadi beberapa langkah yang dapat dikelola, dengan fokus pada penyisipan dan penghapusan baris pada lembar kerja Excel.
 
 ### Menyisipkan Baris
-#### Ringkasan
+#### Áttekintés
 Menyisipkan baris mudah dilakukan. Kita akan menambahkan beberapa baris pada indeks tertentu untuk mengakomodasi data tambahan atau memberi ruang bagi entri mendatang.
 
-#### Implementasi Langkah demi Langkah:
+#### Lépésről lépésre történő megvalósítás:
 
-##### 1. Muat Buku Kerja Anda
+##### 1. Töltse be a munkafüzetét
 
 ```java
 import com.aspose.cells.Workbook;
@@ -86,12 +88,12 @@ public class InsertDeleteRows {
         Workbook workbook = new Workbook(dataDir + "MyBook.xls");
 ```
 
-##### 2. Akses Lembar Kerja
+##### 2. Nyissa meg a munkalapot
 
 ```java
 import com.aspose.cells.Worksheet;
 
-Worksheet sheet = workbook.getWorksheets().get(0); // Dapatkan lembar kerja pertama.
+Worksheet sheet = workbook.getWorksheets().get(0); // Szerezd meg az első munkalapot.
 ```
 
 ##### 3. Sisipkan Baris
@@ -102,10 +104,10 @@ sheet.getCells().insertRows(2, 10); // Menyisipkan 10 baris dimulai dari baris k
 ```
 
 ### Menghapus Baris
-#### Ringkasan
+#### Áttekintés
 Menghapus baris membantu membersihkan data Anda atau menghapus entri yang tidak diperlukan secara efisien.
 
-#### Implementasi Langkah demi Langkah:
+#### Lépésről lépésre történő megvalósítás:
 
 ##### 1. Hapus Baris
 Gunakan metode ini untuk menghapus sejumlah baris tertentu yang dimulai pada indeks tertentu:
@@ -123,28 +125,28 @@ workbook.save(dataDir + "InsertDeleteRows_out.xls");
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut adalah beberapa skenario dunia nyata di mana penyisipan dan penghapusan baris bisa sangat berguna:
 1. **Otomatisasi Entri Data**: Mengotomatiskan penyisipan data templat untuk entri baru dalam laporan keuangan.
-2. **Pembuatan Laporan Dinamis**: Sesuaikan laporan secara dinamis dengan menambahkan atau menghapus bagian ringkasan sesuai kebutuhan.
-3. **Sistem Manajemen Inventaris**: Kelola tingkat stok dengan memperbarui daftar inventaris secara terprogram.
+2. **Dinamikus jelentésgenerálás**: Sesuaikan laporan secara dinamis dengan menambahkan atau menghapus bagian ringkasan sesuai kebutuhan.
+3. **Készletgazdálkodási rendszerek**: Kelola tingkat stok dengan memperbarui daftar inventaris secara terprogram.
 4. **Analisis Data Log**: Masukkan header atau ringkasan ke dalam berkas log tanpa intervensi manual.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells untuk Java:
-- **Optimalkan Penggunaan Memori**: Menangani kumpulan data besar secara efisien dengan melepaskan sumber daya yang tidak terpakai dan mengelola alokasi memori secara tepat.
-- **Pemrosesan Batch**:Saat menangani beberapa operasi, cobalah untuk mengelompokkannya menjadi satu guna mengurangi beban pemrosesan.
+- **Memóriahasználat optimalizálása**: Menangani kumpulan data besar secara efisien dengan melepaskan sumber daya yang tidak terpakai dan mengelola alokasi memori secara tepat.
+- **Kötegelt feldolgozás**:Saat menangani beberapa operasi, cobalah untuk mengelompokkannya menjadi satu guna mengurangi beban pemrosesan.
 - **Eksekusi Asinkron**: Jika berlaku, jalankan tugas non-pemblokiran secara asinkron untuk meningkatkan respons aplikasi.
 
-## Kesimpulan
+## Következtetés
 Dengan mengikuti panduan ini, Anda telah mempelajari cara mengelola baris di Excel secara efektif menggunakan Aspose.Cells untuk Java. Teknik ini meningkatkan kemampuan manipulasi data Anda dan membuka jalan bagi otomatisasi spreadsheet yang lebih canggih dalam aplikasi Anda.
 
 Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya seperti pemformatan sel atau pembuatan bagan untuk lebih memperluas perangkat manajemen Excel Anda.
 
-## Bagian FAQ
-1. **Apa itu Aspose.Cells?** 
+## GYIK szekció
+1. **Mi az Aspose.Cells?** 
    Aspose.Cells adalah pustaka yang hebat untuk mengelola file Excel secara terprogram dalam berbagai bahasa pemrograman, termasuk Java.
-2. **Dapatkah saya menggunakan Aspose.Cells dengan format spreadsheet lain?**
+2. **Használhatom az Aspose.Cells-t más táblázatkezelő formátumokkal?**
    Ya, Aspose.Cells mendukung berbagai format seperti XLSX, CSV, dan PDF antara lain.
 3. **Bagaimana cara menangani pengecualian saat menyisipkan atau menghapus baris?**
    Selalu bungkus operasi Anda dalam blok try-catch untuk mengelola potensi kesalahan dengan baik.
@@ -153,15 +155,18 @@ Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells 
 5. **Bisakah saya mengotomatiskan proses ini untuk beberapa file sekaligus?**
    Ya, Anda dapat melakukan pengulangan melalui beberapa file dalam aplikasi Anda untuk menerapkan operasi baris secara terprogram.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Akses Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Ajukan Permohonan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

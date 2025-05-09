@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelke
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 - **Ingyenes próbaverzió**Korlátozott funkciókkal rendelkező Aspose.Cells tesztelése.
 - **Ideiglenes engedély**Szerezzen be egy ideiglenes licencet a teljes funkcióhozzáféréshez a próbaidőszak alatt.
 - **Vásárlás**Folyamatos használathoz vásároljon előfizetést.
@@ -136,7 +138,7 @@ import com.aspose.cells.SeriesCollection;
 SeriesCollection nSeries = chart.getNSeries();
 nSeries.add("A1:B4", true);
 
-// Állítsa be a kategóriaadatokat a "C1:C4" tartománnyal.
+// Kategóriaadatok beállítása a "C1:C4" tartománnyal.
 nSeries.setCategoryData("C1:C4");
 ```
 
@@ -187,6 +189,9 @@ Az útmutató követésével megtanultad, hogyan hozhatsz létre munkafüzeteket
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

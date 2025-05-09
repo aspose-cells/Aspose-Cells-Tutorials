@@ -8,7 +8,9 @@ url: /net/protect-excel-file/protect-row-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Row In Excel Worksheet
@@ -144,6 +146,7 @@ You can visit the [Aspose support forum](https://forum.aspose.com/c/cells/9) for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

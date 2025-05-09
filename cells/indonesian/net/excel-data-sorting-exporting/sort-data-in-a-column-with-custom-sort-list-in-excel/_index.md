@@ -1,31 +1,33 @@
 ---
-title: Mengurutkan Data dalam Kolom dengan Daftar Urutan Kustom di Excel
-linktitle: Mengurutkan Data dalam Kolom dengan Daftar Urutan Kustom di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengurutkan data di Excel menggunakan daftar pengurutan kustom dengan Aspose.Cells untuk .NET dalam tutorial komprehensif ini.
-weight: 10
-url: /id/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
+"description": "Pelajari cara mengurutkan data di Excel menggunakan daftar pengurutan kustom dengan Aspose.Cells untuk .NET dalam tutorial komprehensif ini."
+"linktitle": "Mengurutkan Data dalam Kolom dengan Daftar Urutan Kustom di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Mengurutkan Data dalam Kolom dengan Daftar Urutan Kustom di Excel"
+"url": "/id/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengurutkan Data dalam Kolom dengan Daftar Urutan Kustom di Excel
 
-## Perkenalan
+## Bevezetés
 
 Tutorial ini akan memandu Anda melalui proses menyiapkan proyek, memuat file Excel, dan mengurutkan data dalam rentang tertentu menggunakan tata urutan khusus. Dengan mengikuti panduan ini, Anda akan memperoleh pengalaman langsung yang dapat meningkatkan keterampilan pengelolaan data dan kegunaan pustaka Aspose.Cells.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum masuk ke tutorial, mari kita uraikan beberapa prasyarat untuk memastikan pengalaman belajar yang lancar.
 
-### Pengetahuan Dasar C#
+### C# alapismeretek
 
 Meskipun tutorial ini dirancang untuk memandu Anda melalui setiap langkah, memiliki pemahaman dasar tentang C# akan memudahkan Anda memahami konsep yang disajikan.
 
-### Lingkungan Pengembangan .NET
+### .NET fejlesztői környezet
 
 Pastikan Anda memiliki lingkungan pengembangan .NET yang berfungsi. Anda dapat menggunakan Visual Studio atau IDE lain yang mendukung pengembangan .NET.
 
@@ -35,15 +37,15 @@ Anda perlu memasang pustaka Aspose.Cells untuk .NET di proyek Anda. Anda dapat m
 
 Berikut cara melakukannya:
 
-1. Buka proyek Anda di Visual Studio.
+1. Nyisd meg a projektedet a Visual Studioban.
 2. Buka "Alat" > "Manajer Paket NuGet" > "Kelola Paket NuGet untuk Solusi".
-3.  Pencarian untuk`Aspose.Cells` dan instal versi terbaru.
+3. Keresés `Aspose.Cells` és telepítsd a legújabb verziót.
 
 ### File Excel Dasar untuk Pengujian
 
 Anda memerlukan contoh berkas Excel untuk digunakan. Anda dapat membuat berkas Excel sederhana dengan nama negara acak dan kodenya.
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai, mari impor paket yang diperlukan ke dalam proyek Anda. Berikut cuplikan cara menyiapkan kode Anda:
 
@@ -65,15 +67,15 @@ string sourceDir = "Your Document Directory\\";
 string outputDir = "Your Document Directory\\";
 ```
 
-## Langkah 2: Muat File Excel Sumber
+## 2. lépés: Töltse be a forrás Excel fájlt
 
-Selanjutnya, kita akan memuat berkas Excel yang berisi data yang ingin Anda urutkan. Hal ini dilakukan dengan membuat contoh`Workbook` kelas dan meneruskan jalur berkas sumber Anda.
+Selanjutnya, kita akan memuat berkas Excel yang berisi data yang ingin Anda urutkan. Hal ini dilakukan dengan membuat contoh `Workbook` kelas dan meneruskan jalur berkas sumber Anda.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
 ```
 
-## Langkah 3: Akses Lembar Kerja Pertama 
+## 3. lépés: Az első munkalap elérése 
 
 Setelah berkas dimuat, kita perlu mengakses lembar kerja tertentu yang berisi data yang ingin kita urutkan. Dalam kasus ini, kita menargetkan lembar kerja pertama.
 
@@ -83,7 +85,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Langkah 4: Tentukan Area Sel yang Akan Diurutkan
 
- Kita perlu menentukan rentang sel yang akan kita urutkan. Dalam contoh ini, kita akan mengurutkan sel dari A1 hingga A40. Gunakan`CellArea.CreateCellArea` metode untuk menentukan area sel.
+Kita perlu menentukan rentang sel yang akan kita urutkan. Dalam contoh ini, kita akan mengurutkan sel dari A1 hingga A40. Gunakan `CellArea.CreateCellArea` metode untuk menentukan area sel.
 
 ```csharp
 CellArea ca = CellArea.CreateCellArea("A1", "A40");
@@ -106,7 +108,7 @@ wb.DataSorter.AddKey(0, SortOrder.Ascending, customSortList);
 wb.DataSorter.Sort(ws.Cells, ca);
 ```
 
-## Langkah 7: Simpan File Excel Output
+## 7. lépés: Mentse el a kimeneti Excel fájlt
 
 Setelah pengurutan selesai, langkah terakhir adalah menyimpan perubahan ke file Excel baru. Tentukan nama file output dan simpan buku kerja.
 
@@ -114,7 +116,7 @@ Setelah pengurutan selesai, langkah terakhir adalah menyimpan perubahan ke file 
 wb.Save(outputDir + "outputSortData_CustomSortList.xlsx");
 ```
 
-## Langkah 8: Konfirmasikan Eksekusi yang Berhasil
+## 8. lépés: A sikeres végrehajtás megerősítése
 
 Untuk memastikan semuanya berjalan lancar, Anda dapat mencetak pesan konfirmasi ke konsol. Ini membantu dalam debugging dan memberi Anda kepuasan bahwa operasi berhasil.
 
@@ -122,13 +124,13 @@ Untuk memastikan semuanya berjalan lancar, Anda dapat mencetak pesan konfirmasi 
 Console.WriteLine("SortDataInColumnWithCustomSortList executed successfully.\r\n");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda telah berhasil mengurutkan data dalam kolom Excel menggunakan daftar pengurutan kustom dengan Aspose.Cells untuk .NET. Pengurutan membantu memberikan struktur dan kejelasan pada data Anda, sehingga lebih mudah untuk dianalisis dan diinterpretasikan. Saya harap panduan ini akan meningkatkan keterampilan Anda ke tingkat berikutnya dan membantu Anda menyadari betapa hebatnya Aspose.Cells untuk tugas-tugas terkait Excel Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells untuk .NET?
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells untuk .NET adalah pustaka komprehensif yang memungkinkan Anda memanipulasi file Excel dalam aplikasi .NET, termasuk membuat, mengedit, dan mengonversinya.
 
 ### Bisakah saya mengurutkan lebih dari satu kolom menggunakan daftar pengurutan khusus?
@@ -141,10 +143,12 @@ Meskipun bermanfaat, Anda dapat mengikuti tutorial ini dan belajar sambil jalan!
 Tentu saja! Anda dapat memperoleh lisensi sementara jika Anda ingin menguji fitur-fitur lengkap pustaka tanpa batasan.
 
 ### Dapatkah saya mengunduh contoh atau dokumentasi untuk Aspose.Cells?
- Ya! Aspose menyediakan dokumentasi dan contoh proyek yang lengkap yang dapat sangat membantu Anda. Lihat[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).
+Ya! Aspose menyediakan dokumentasi dan contoh proyek yang lengkap yang dapat sangat membantu Anda. Lihat [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

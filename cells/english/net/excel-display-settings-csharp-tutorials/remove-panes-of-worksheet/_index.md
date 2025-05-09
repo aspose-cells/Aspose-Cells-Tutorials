@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/remove-panes-of-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Panes Of Worksheet
@@ -130,6 +132,7 @@ For support, you can visit the Aspose forum at this [link](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

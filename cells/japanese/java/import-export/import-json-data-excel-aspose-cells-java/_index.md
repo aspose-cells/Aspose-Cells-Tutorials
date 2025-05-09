@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ Aspose.Cells がワークフロー内のこれらのシナリオにどのよう�
 ## FAQセクション
 **質問1**: インポート中にネストされた JSON オブジェクトをどのように処理しますか?
 - **A1**Aspose.Cellsは基本的なネスト構造に対応しています。複雑な構造の場合は、インポート前にJSONをフラット化することを検討してください。
-**質問2**: Excel ファイルの行数制限を超えたらどうなりますか?
+**質問2**: Excel ファイルの行数制限を超えた場合はどうなりますか?
 - **A2**: Excel の行制約を回避するには、データを複数のシートまたはファイルに分割します。
 **第3問**複数の JSON ファイルのバッチ処理に Aspose.Cells を使用できますか?
 - **A3**: もちろんです! ディレクトリを反復処理し、各ファイルに同じインポート ロジックを適用します。
@@ -165,6 +167,9 @@ Aspose.Cells がワークフロー内のこれらのシナリオにどのよう�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

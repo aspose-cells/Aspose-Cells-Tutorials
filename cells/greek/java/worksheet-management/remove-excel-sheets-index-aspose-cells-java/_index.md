@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,6 +137,9 @@ fstream.close();
 Ελπίζουμε ότι αυτό το σεμινάριο θα σας δώσει τη δυνατότητα να αξιοποιήσετε πλήρως τις δυνατότητες του Aspose.Cells για Java στις εργασίες διαχείρισης δεδομένων σας. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

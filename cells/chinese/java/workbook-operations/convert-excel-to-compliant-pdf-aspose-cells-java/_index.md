@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
    - 您可以探索 [国际标准化组织（ISO）](https://www.iso.org/standards.html) 网站，提供有关各种 PDF/A 合规级别的详细文档。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

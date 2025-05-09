@@ -1,14 +1,16 @@
 ---
-title: Thêm Arc vào trang tính trong Excel
-linktitle: Thêm Arc vào trang tính trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách thêm vòng cung vào bảng tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện thiết kế bảng tính của bạn.
-weight: 16
-url: /vi/net/excel-shapes-controls/add-arc-to-worksheet-excel/
+"description": "Học cách thêm vòng cung vào bảng tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để cải thiện thiết kế bảng tính của bạn."
+"linktitle": "Thêm Arc vào trang tính trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm Arc vào trang tính trong Excel"
+"url": "/vi/net/excel-shapes-controls/add-arc-to-worksheet-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Arc vào trang tính trong Excel
@@ -19,7 +21,7 @@ Tạo bảng tính Excel hấp dẫn về mặt hình ảnh là rất quan trọ
 Trước khi đi sâu vào những phức tạp của việc thêm cung tròn vào bảng tính của bạn, điều quan trọng là phải đảm bảo bạn có một vài thứ tại chỗ. Sau đây là các điều kiện tiên quyết bạn cần để bắt đầu:
 1. Visual Studio: Bạn cần cài đặt Visual Studio trên máy tính vì chúng ta sẽ sử dụng C# làm ngôn ngữ lập trình.
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework hoặc .NET Core. Aspose.Cells hỗ trợ cả hai.
-3. Aspose.Cells cho .NET: Bạn phải có thư viện Aspose.Cells. Bạn có thể tải xuống từ[Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) trang.
+3. Aspose.Cells cho .NET: Bạn phải có thư viện Aspose.Cells. Bạn có thể tải xuống từ [Tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/) trang.
 4. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn theo dõi các đoạn mã mà không gặp nhiều khó khăn.
 ## Nhập gói
 Để bắt đầu làm việc với Aspose.Cells trong dự án của bạn, bạn cần nhập các gói cần thiết. Sau đây là cách thực hiện:
@@ -63,7 +65,7 @@ Bây giờ, chúng ta hãy thêm hình cung đầu tiên vào bảng tính.
 // Thêm hình vòng cung.
 Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0, 2, 0, 130, 130);
 ```
- Ở đây, chúng ta đang thêm một cung tròn vào bảng tính đầu tiên. Các tham số xác định vị trí và kích thước của cung tròn:`(left, top, width, height, startAngle, endAngle)`. Giống như việc vẽ một cung tròn vậy!
+Ở đây, chúng ta đang thêm một cung tròn vào bảng tính đầu tiên. Các tham số xác định vị trí và kích thước của cung tròn: `(left, top, width, height, startAngle, endAngle)`. Giống như việc vẽ một cung tròn vậy!
 ## Bước 4: Tùy chỉnh Arc đầu tiên
 Sau khi thêm vòng cung, bạn có thể muốn tùy chỉnh giao diện của vòng cung đó.
 ```csharp
@@ -114,14 +116,16 @@ Aspose.Cells là một thư viện mạnh mẽ cho phép các nhà phát triển
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?
 Không, Aspose.Cells hoàn toàn độc lập và không yêu cầu phải cài đặt Microsoft Excel.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có, bạn có thể dùng thử Aspose.Cells bằng cách sử dụng[Dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells bằng cách sử dụng [Dùng thử miễn phí](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells hỗ trợ nhiều ngôn ngữ, bao gồm C#, VB.NET, v.v.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

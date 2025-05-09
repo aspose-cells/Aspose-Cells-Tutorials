@@ -1,14 +1,16 @@
 ---
-title: Odczyt i zapis połączenia zewnętrznego pliku XLSB
-linktitle: Odczyt i zapis połączenia zewnętrznego pliku XLSB
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak odczytywać i zapisywać połączenia zewnętrzne w plikach XLSB za pomocą Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku.
-weight: 24
-url: /pl/net/workbook-operations/read-and-write-external-connection/
+"description": "Dowiedz się, jak odczytywać i zapisywać połączenia zewnętrzne w plikach XLSB za pomocą Aspose.Cells dla .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Odczyt i zapis połączenia zewnętrznego pliku XLSB"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Odczyt i zapis połączenia zewnętrznego pliku XLSB"
+"url": "/pl/net/workbook-operations/read-and-write-external-connection/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odczyt i zapis połączenia zewnętrznego pliku XLSB
@@ -23,13 +25,13 @@ Zanim wyruszymy w tę podróż, upewnijmy się, że masz wszystko, czego potrzeb
 
 1. Visual Studio: Upewnij się, że masz działającą wersję Visual Studio zainstalowaną na swoim komputerze. Będziesz kodować w C#, ponieważ pracujemy z Aspose.Cells.
    
-2.  Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Jeśli jeszcze jej nie masz, możesz ją łatwo[pobierz tutaj](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Jeśli jeszcze jej nie masz, możesz ją łatwo [pobierz tutaj](https://releases.aspose.com/cells/net/). 
 
 3. Plik XLSB: Przygotuj przykładowy plik XLSB do testowania. Możesz utworzyć go z Excela, jeśli nie masz go pod ręką.
 
 4. Podstawowa wiedza programistyczna: Pewna znajomość języka C# pomoże Ci zrozumieć fragmenty kodu, które będziemy omawiać.
 
-Gdy już odhaczysz te pozycje na liście, będziesz gotowy zagłębić się w odczytywanie i modyfikowanie połączeń zewnętrznych w plikach XLSB!
+Gdy już odhaczysz te pozycje na liście, będziesz gotowy zagłębić się w czytanie i modyfikowanie połączeń zewnętrznych w plikach XLSB!
 
 ## Importuj pakiety
 
@@ -119,19 +121,21 @@ W tym przewodniku przeprowadziliśmy przez skomplikowany proces odczytywania i z
 Plik XLSB to binarny plik programu Excel, który przechowuje dane arkusza kalkulacyjnego w formacie binarnym, dzięki czemu jest bardziej kompaktowy i otwiera się go szybciej niż tradycyjne pliki XLSX.
 
 ### Czy potrzebuję specjalnej licencji na Aspose.Cells?  
- Tak, Aspose.Cells wymaga licencji dla pełnej funkcjonalności. Możesz ją ocenić za pomocą bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Tak, Aspose.Cells wymaga licencji dla pełnej funkcjonalności. Możesz ją ocenić za pomocą bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
 ### Czy za pomocą Aspose.Cells mogę uzyskać dostęp do zewnętrznych źródeł danych innych niż bazy danych?  
 Oczywiście! Aspose.Cells obsługuje różne zewnętrzne połączenia danych, w tym OLEDB i ODBC. 
 
 ### Czy istnieje forum społecznościowe dla użytkowników Aspose.Cells?  
- Tak! Możesz dołączyć[Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9) aby nawiązać kontakt z innymi użytkownikami i szukać pomocy.
+Tak! Możesz dołączyć [Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9) aby nawiązać kontakt z innymi użytkownikami i szukać pomocy.
 
 ### Czy mogę otrzymać tymczasową licencję na Aspose.Cells?  
- Tak, Aspose zapewnia[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla użytkowników chcących ocenić oprogramowanie przed zakupem.
+Tak, Aspose zapewnia [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) dla użytkowników chcących ocenić oprogramowanie przed zakupem.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

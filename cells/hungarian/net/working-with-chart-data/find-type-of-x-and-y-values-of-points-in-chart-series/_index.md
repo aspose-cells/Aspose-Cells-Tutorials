@@ -1,45 +1,47 @@
 ---
-title: Keresse meg a Chart Series pontok X és Y értékeinek típusát
-linktitle: Keresse meg a Chart Series pontok X és Y értékeinek típusát
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ebből a részletes, könnyen követhető útmutatóból megtudhatja, hogyan találhatja meg az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET segítségével.
-weight: 11
-url: /hu/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Tanuld meg megkeresni az X és Y értékek típusait diagramsorozatokban az Aspose.Cells for .NET használatával ezzel a részletes, könnyen követhető útmutatóval."
+"linktitle": "Pontok X és Y értékeinek típusának meghatározása diagramsorozatokban"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pontok X és Y értékeinek típusának meghatározása diagramsorozatokban"
+"url": "/hu/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Keresse meg a Chart Series pontok X és Y értékeinek típusát
+# Pontok X és Y értékeinek típusának meghatározása diagramsorozatokban
 
 ## Bevezetés
 
-Jelentős diagramok és vizuális adatábrázolások létrehozása elengedhetetlen az adatelemzésben. Az olyan könyvtárakban elérhető szolgáltatásokkal, mint az Aspose.Cells for .NET, elmélyülhet a diagramsorozatok tulajdonságaiban, különösen az adatpontok X és Y értékeiben. Ebben az oktatóanyagban megvizsgáljuk, hogyan határozható meg ezen értékek típusai, amelyek lehetővé teszik az adatvizualizációk jobb megértését és kezelését.
+Az adatelemzésben elengedhetetlen a hasznos diagramok és vizuális adatreprezentációk létrehozása. Az olyan könyvtárakban elérhető funkciókkal, mint az Aspose.Cells for .NET, elmélyülhetsz a diagramsorozatok tulajdonságaiban, különösen az adatpontok X és Y értékeibe. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan határozhatod meg ezen értékek típusait, lehetővé téve az adatvizualizációk jobb megértését és kezelését.
 
 ## Előfeltételek
 
-Mielőtt belevágna a lépésekbe, győződjön meg róla, hogy néhány dolog készen áll:
+Mielőtt belevágna a lépésekbe, győződjön meg arról, hogy van néhány dolog, ami készen áll:
 
-1. .NET-környezet: Be kell állítania egy .NET-fejlesztői környezetet. Ez lehet Visual Studio, Visual Studio Code vagy bármely más kompatibilis IDE.
+1. .NET környezet: Rendelkeznie kell egy beállított .NET fejlesztői környezettel. Ez lehet Visual Studio, Visual Studio Code vagy bármilyen más kompatibilis IDE.
    
-2.  Aspose.Cells for .NET: Az Aspose.Cells for .NET-re telepítve kell lennie. Letöltheti innen[itt](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells .NET-hez készült verzióját. Letöltheti innen: [itt](https://releases.aspose.com/cells/net/).
 
-3.  Minta Excel-fájl: Szerezzen be egy minta Excel-fájlt, amely diagramokat tartalmaz. Ehhez az oktatóanyaghoz egy nevű fájlt fogunk használni`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Győződjön meg róla, hogy a projektkönyvtárban van.
+3. Minta Excel-fájl: Szerezzen be egy diagramokat tartalmazó minta Excel-fájlt. Ebben az oktatóanyagban egy nevű fájlt fogunk használni. `sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Győződjön meg róla, hogy a projektkönyvtárában van.
 
-4. Alapvető programozási ismeretek: A C# programozás ismerete megkönnyíti a követést.
+4. Alapvető programozási ismeretek: A C# programozásban való jártasság segít abban, hogy könnyen követni tudd a feladatot.
 
 ## Csomagok importálása
 
-Az Excel adatokkal és diagramokkal való interakcióhoz importálnia kell a megfelelő csomagokat az Aspose.Cellsből. Íme, hogyan kell csinálni:
+Az Excel-adatokkal és -diagramokkal való interakcióhoz importálnia kell a vonatkozó csomagokat az Aspose.Cells-ből. Így teheti meg:
 
-### Állítsa be projektjét
+### Projekt beállítása
 
-Nyissa meg az IDE-jét, és hozzon létre egy új .NET-projektet. Győződjön meg arról, hogy telepítette az Aspose.Cells csomagot a NuGet segítségével, vagy a .DLL fájl hivatkozásával.
+Nyisd meg az IDE-t, és hozz létre egy új .NET projektet. Győződj meg róla, hogy telepítetted az Aspose.Cells csomagot NuGet segítségével, vagy a .DLL fájlra mutató hivatkozás hozzáadásával.
 
-### Importálja a szükséges névtereket
+### Szükséges névterek importálása
 
-A C# fájl tetején direktívák használatával írja be a következőket:
+A C# fájl tetején a következőket kell megadni direktívák használatával:
 
 ```csharp
 using System;
@@ -52,61 +54,61 @@ using Aspose.Cells.Charts;
 
 Ezek a névterek hozzáférést biztosítanak az Aspose.Cells munkafüzetéhez, munkalapjaihoz és diagramfunkcióihoz.
 
-Most bontsuk le az X és Y értékek típusának meghatározását a diagramsorozatban. Lépésről lépésre ezt megteheti.
+Most pedig bontsuk le az X és Y értékek típusainak meghatározásának folyamatát a diagramsorozatban. Íme, hogyan teheti meg lépésről lépésre.
 
-## 1. lépés: Határozza meg a forráskönyvtárat
+## 1. lépés: A forráskönyvtár meghatározása
 
-Először is meg kell határoznia azt a könyvtárat, amelyben az Excel-fájl található. Állítsa be az elérési utat, hogy helyesen mutasson a fájlra.
+Először is meg kell határoznod azt a könyvtárat, ahol az Excel fájlod található. Állítsd be az elérési utat úgy, hogy helyesen mutasson a fájlodra.
 
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
 
- Cserélje ki`"Your Document Directory"` az Excel-fájl mentési elérési útjával.
+Csere `"Your Document Directory"` az Excel-fájl mentési útvonalával.
 
-## 2. lépés: Töltse be a munkafüzetet
+## 2. lépés: A munkafüzet betöltése
 
- Ezután töltse be az Excel fájlt a`Workbook` objektum. Ez lehetővé teszi a fájl teljes tartalmához való hozzáférést.
+Ezután töltsd be az Excel fájlt egy `Workbook` objektum. Ez lehetővé teszi a fájl teljes tartalmának elérését.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
 ```
 
-## 3. lépés: Nyissa meg a munkalapot
+## 3. lépés: A munkalap elérése
 
-A munkafüzet betöltése után meg kell adni, hogy melyik munkalap tartalmazza az elemezni kívánt diagramot. Az első munkalapot fogjuk használni:
+A munkafüzet betöltése után meg kell adnia, hogy melyik munkalap tartalmazza az elemezni kívánt diagramot. Az első munkalapot fogjuk használni:
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
 
-## 4. lépés: Nyissa meg a diagramot
+## 4. lépés: Hozzáférés a diagramhoz
 
-Ebben a lépésben el kell érnie a munkalapon található első diagramot. A diagramobjektumok a sorozatokra és adatpontokra vonatkozó összes információt tartalmazzák.
+Ebben a lépésben a munkalapon található első diagramhoz kell hozzáférnie. A diagramobjektumok tartalmazzák az összes információt a sorozatokról és az adatpontokról.
 
 ```csharp
 Chart ch = ws.Charts[0];
 ```
 
-## 5. lépés: Számítsa ki a diagram adatait
+## 5. lépés: Diagramadatok kiszámítása
 
-Az egyes adatpontokhoz való hozzáférés előtt fontos kiszámítani a diagram adatait, hogy minden érték naprakész legyen.
+Az egyes adatpontok elérése előtt fontos kiszámítani a diagram adatait, hogy minden érték naprakész legyen.
 
 ```csharp
 ch.Calculate();
 ```
 
-## 6. lépés: Adott térképpont elérése
+## 6. lépés: Hozzáférés egy adott diagramponthoz
 
-Most pedig vegyük le az első diagrampontot az első sorozatból. Módosíthatja az indexet, ha különböző pontokhoz vagy sorozatokhoz kell hozzáférnie.
+Most keressük meg az első diagrampontot az első sorozatból. Módosíthatjuk az indexet, ha különböző pontokhoz vagy sorozatokhoz kell hozzáférnünk.
 
 ```csharp
 ChartPoint pnt = ch.NSeries[0].Points[0];
 ```
 
-## 7. lépés: Határozza meg az X és Y értéktípusokat
+## 7. lépés: Az X és Y értéktípusok meghatározása
 
-Végül megvizsgálhatja a diagrampont X és Y értékének típusát. Ez az információ elengedhetetlen az adatábrázolás megértéséhez.
+Végül megvizsgálhatod a diagrampont X és Y értékeinek típusait. Ez az információ elengedhetetlen az adatreprezentáció megértéséhez.
 
 ```csharp
 Console.WriteLine("X Value Type: " + pnt.XValueType);
@@ -123,27 +125,29 @@ Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfu
 
 ## Következtetés
 
-Ezzel az útmutatóval sikeresen lekérheti és azonosíthatja az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET használatával. Akár adatok alapján hoz döntéseket, akár csak vizuálisan kell bemutatnia, ezeknek az értékeknek a megértése kritikus. Tehát folytassa, fedezze fel tovább, és tegye tartalmasabbá adatbemutatóit!
+Ezzel az útmutatóval sikeresen lekérheted és azonosíthatod az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET használatával. Akár adatok alapján hozol döntéseket, akár csak vizuálisan kell bemutatnod azokat, ezeknek az értékeknek a megértése kritikus fontosságú. Tehát vágj bele, fedezd fel a témát, és tedd értelmesebbé az adatprezentációidat!
 
 ## GYIK
 
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára az Excel-fájlok kezelését és kezelését a Microsoft Excel telepítése nélkül.
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi a fejlesztők számára az Excel fájlok kezelését és manipulálását anélkül, hogy telepíteni kellene a Microsoft Excelt.
 
-### Használhatom ingyenesen az Aspose.Cells-t?
-Igen, az Aspose ingyenes próbaverziót biztosít, amelynek során felfedezheti az Aspose.Cells szolgáltatásait.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, az Aspose ingyenes próbaverziót biztosít, amely alatt felfedezheti az Aspose.Cells funkcióit.
 
 ### Milyen típusú diagramokat hozhatok létre az Aspose.Cells segítségével?
-Az Aspose.Cells különféle típusú diagramokat támogat, beleértve az oszlopot, oszlopot, vonalat, kört és egyebeket.
+Az Aspose.Cells különféle típusú diagramokat támogat, beleértve az oszlop-, sáv-, vonal-, kördiagramokat és egyebeket.
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- A támogatást a következőn keresztül érheti el[Aspose fórum](https://forum.aspose.com/c/cells/9).
+A támogatást a következőn keresztül veheti igénybe: [Aspose fórum](https://forum.aspose.com/c/cells/9).
 
-### Van ideiglenes licenc az Aspose.Cells számára?
- Igen, kérheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy szabadon értékelje a terméket.
+### Van ideiglenes licenc az Aspose.Cells-hez?
+Igen, kérhet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) szabadon értékelni a terméket.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

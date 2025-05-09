@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@
 
 ### Предпосылки
 Перед началом убедитесь, что у вас есть:
-- **Требуемые библиотеки:** Версия 25.3 Aspose.Cells для Java.
+- **Необходимые библиотеки:** Версия 25.3 Aspose.Cells для Java.
 - **Среда разработки:** Настройка Java с установленными инструментами сборки Maven или Gradle.
 - **База знаний:** Базовые знания Java и знакомство с операциями Excel.
 
@@ -165,6 +167,9 @@ The `save` Метод преобразует и сохраняет ваш фай
 Возьмите под контроль свои данные Excel сегодня с помощью Aspose.Cells Java и насладитесь мощью автоматизации!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

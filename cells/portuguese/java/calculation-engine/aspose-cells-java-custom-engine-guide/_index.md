@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -233,6 +235,9 @@ Pronto para se aprofundar? Experimente implementar essas soluções em seus proj
 Seguindo este guia, você pode aproveitar o Aspose.Cells para Java para criar poderosos mecanismos de cálculo personalizados que atendem às suas necessidades comerciais específicas. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introdução
 No mundo atual, movido a dados, renderizar com eficiência seções específicas de arquivos do Excel em imagens ou PDFs é crucial. Este guia o orientará no uso **Aspose.Cells para Java** para renderizar páginas sequenciais limitadas a partir de um arquivo Excel. Seja criando documentos prontos para impressão ou preparando saídas de imagem para apresentações, dominar esse recurso pode economizar tempo e aumentar a produtividade.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando o Aspose.Cells para Java no seu projeto.
 - Configurando opções para renderizar intervalos de páginas específicos como imagens.
 - Entendendo parâmetros e métodos para renderizar páginas.
@@ -106,7 +108,7 @@ opts.setImageType(ImageType.PNG);
 ```
 - `setPageIndex`: Defina a página inicial.
 - `setPageCount`Especifique quantas páginas renderizar.
-- `setImageType`: Escolha o formato para as imagens de saída.
+- `setImageType`: Escolha o formato das imagens de saída.
 
 ### Etapa 4: Renderização de páginas
 Criar um `SheetRender` objeto e usá-lo para converter páginas em imagens.
@@ -128,7 +130,7 @@ Aqui, percorremos o intervalo de páginas especificado e convertemos cada uma em
 ## Aplicações práticas
 1. **Relatórios Seletivos**: Gere automaticamente relatórios baseados em imagens a partir de intervalos de dados específicos sem abrir a pasta de trabalho completa.
 2. **Apresentações dinâmicas**: Prepare slides com gráficos ou tabelas incorporados, renderizando apenas as páginas necessárias como imagens.
-3. **Integração com Web Apps**: Use imagens renderizadas para exibir instantâneos de dados em plataformas web, melhorando os tempos de carregamento e a experiência do usuário.
+3. **Integração com aplicativos da Web**: Use imagens renderizadas para exibir instantâneos de dados em plataformas web, melhorando os tempos de carregamento e a experiência do usuário.
 
 ## Considerações de desempenho
 ### Otimizando o desempenho
@@ -170,6 +172,9 @@ Você aprendeu com sucesso como renderizar páginas sequenciais limitadas de um 
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

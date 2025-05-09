@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Você tem dificuldades para gerenciar e classificar grandes conjuntos de dados em arquivos do Excel? Com o poder do Aspose.Cells para Java, simplifique esse processo sem esforço! Este guia completo o guiará pelo carregamento de um arquivo do Excel, classificando-o por cor de célula usando um objeto DataSorter e salvando os resultados com eficiência.
 
-### que você aprenderá
+### O que você aprenderá
 - Carregando arquivos Excel existentes com Aspose.Cells.
 - Configurando um objeto DataSorter para opções de classificação avançadas.
 - Aplicando critérios de classificação com base nas cores de fundo das células.
@@ -180,6 +182,9 @@ Explore recursos adicionais do Aspose.Cells, como filtragem de dados e geração
 Embarque em sua jornada com o Aspose.Cells hoje mesmo e transforme a maneira como você lida com arquivos do Excel em Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

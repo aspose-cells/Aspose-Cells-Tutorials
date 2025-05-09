@@ -1,14 +1,16 @@
 ---
-title: Установить линии диаграммы
-linktitle: Установить линии диаграммы
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как настраивать линии диаграммы в Excel с помощью Aspose.Cells для .NET, воспользовавшись нашим подробным пошаговым руководством.
-weight: 14
-url: /ru/net/setting-chart-appearance/set-chart-lines/
+"description": "Узнайте, как настраивать линии диаграммы в Excel с помощью Aspose.Cells для .NET, воспользовавшись нашим подробным пошаговым руководством."
+"linktitle": "Установить линии диаграммы"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Установить линии диаграммы"
+"url": "/ru/net/setting-chart-appearance/set-chart-lines/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить линии диаграммы
@@ -23,7 +25,7 @@ url: /ru/net/setting-chart-appearance/set-chart-lines/
 
 - Visual Studio: Убедитесь, что у вас установлена Visual Studio. Настоятельно рекомендуется использовать последнюю версию, чтобы использовать все функции.
 - .NET Framework: Ваш проект должен быть основан на .NET Framework (или .NET Core), где вы будете реализовывать Aspose.Cells.
--  Aspose.Cells для .NET: Загрузите и установите Aspose.Cells с сайта[Сайт Aspose](https://releases.aspose.com/cells/net/).
+- Aspose.Cells для .NET: Загрузите и установите Aspose.Cells с сайта [Сайт Aspose](https://releases.aspose.com/cells/net/).
 - Базовые знания C#: знакомство с языком программирования C# будет полезно при написании кода.
 
 ## Импортные пакеты
@@ -47,7 +49,7 @@ using System.Drawing;
 string outputDir = "Your Output Directory";
 ```
 
- Объяснение: замените «Ваш выходной каталог» на путь, по которому Aspose.Cells должен сохранить файл, например:`C:\\MyExcelFiles\\`.
+Объяснение: замените «Ваш выходной каталог» на путь, по которому Aspose.Cells должен сохранить файл, например: `C:\\MyExcelFiles\\`.
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
@@ -58,7 +60,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- Пояснение: Эта строка создает экземпляр`Workbook`класс из библиотеки Aspose.Cells. Это похоже на открытие нового пустого файла Excel, в который вы можете начать добавлять свои листы и данные.
+Пояснение: Эта строка создает экземпляр `Workbook` класс из библиотеки Aspose.Cells. Это похоже на открытие нового пустого файла Excel, в который вы можете начать добавлять свои листы и данные.
 
 ## Шаг 3: Ссылка на рабочий лист
 
@@ -69,7 +71,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Пояснение: Рабочие листы индексируются, начиная с 0, поэтому`worksheets[0]` относится к первому рабочему листу.
+Пояснение: Рабочие листы индексируются, начиная с 0, поэтому `worksheets[0]` относится к первому рабочему листу.
 
 ## Шаг 4: Добавьте выборочные значения в ячейки
 
@@ -191,19 +193,21 @@ Console.WriteLine("SettingChartLines executed successfully.");
 Aspose.Cells для .NET — мощная библиотека для работы с электронными таблицами Excel в приложениях .NET.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?  
- Да, Aspose предоставляет бесплатную пробную версию для проверки функциональности. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да, Aspose предоставляет бесплатную пробную версию для проверки функциональности. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 
 ### Доступна ли поддержка Aspose.Cells?  
- Конечно! Вы можете получить поддержку через[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Конечно! Вы можете получить поддержку через [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Могу ли я создавать другие типы диаграмм с помощью Aspose.Cells?  
 Да, Aspose поддерживает различные типы диаграмм, включая линейные, круговые и площадные диаграммы.
 
 ### Как получить временную лицензию для Aspose.Cells?  
- Вы можете подать заявку на[временная лицензия](https://purchase.aspose.com/temporary-license/) через веб-сайт Aspose.
+Вы можете подать заявку на [временная лицензия](https://purchase.aspose.com/temporary-license/) через веб-сайт Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

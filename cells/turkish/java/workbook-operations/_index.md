@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -429,7 +431,7 @@ Aspose.Cells for Java kullanarak CSV dosyalarını Excel çalışma kitaplarına
 ### [Aspose.Cells ile Java'da Excel Çalışma Kitapları Oluşturma ve Şekillendirme](./mastering-excel-workbook-aspose-cells-java/)
 Excel çalışma kitaplarını etkili bir şekilde oluşturmak, erişmek ve biçimlendirmek için Aspose.Cells for Java'yı nasıl kullanacağınızı öğrenin. Java geliştiricileri için mükemmel bir rehber.
 
-### [Aspose.Cells kullanarak Java'da Excel 95/5.0 Dosyalarını Açın: Eksiksiz Bir Kılavuz](./open-excel-95-xls-files-aspose-cells-java/)
+### [Aspose.Cells kullanarak Java'da Excel 95/5.0 Dosyalarını Açma: Eksiksiz Bir Kılavuz](./open-excel-95-xls-files-aspose-cells-java/)
 Aspose.Cells for Java ile Excel 95/5.0 XLS dosyalarını zahmetsizce nasıl açıp yöneteceğinizi öğrenin; böylece sorunsuz veri entegrasyonu ve geçişi sağlayın.
 
 ### [Aspose.Cells ile Java'da Excel 97/2003 Dosyalarını Açın: Kapsamlı Bir Kılavuz](./open-excel-97-2003-files-java-aspose-cells/)
@@ -486,6 +488,9 @@ Aspose.Cells for Java kullanarak Excel dosyalarında sürümleme gibi belge öze
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

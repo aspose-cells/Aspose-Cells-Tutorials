@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-rectangle-control-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Rectangle Control to Worksheet in Excel
@@ -110,6 +112,7 @@ Yes, you can get a [free trial](https://releases.aspose.com/) from the website t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

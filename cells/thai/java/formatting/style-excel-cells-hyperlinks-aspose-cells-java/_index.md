@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Workbook workbook = new Workbook();
 
 ในส่วนนี้เราจะแบ่งการใช้งานออกเป็นขั้นตอนที่จัดการได้เพื่อกำหนดรูปแบบเซลล์และเพิ่มไฮเปอร์ลิงก์โดยใช้ `Aspose-Cells for Java`.
 
-### สร้างและกำหนดรูปแบบเซลล์
+### สร้างและปรับแต่งเซลล์
 
 #### ภาพรวม
 
@@ -192,6 +194,9 @@ A: ใช่ Aspose.Cells พร้อมใช้งานสำหรับ .N
 ตอนนี้คุณมีข้อมูลและทรัพยากรทั้งหมดแล้ว โปรดเริ่มสร้างไฟล์ Excel แบบไดนามิกด้วย Aspose.Cells ใน Java ได้เลย!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

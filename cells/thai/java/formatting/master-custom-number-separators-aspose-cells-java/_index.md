@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ก่อนจะเริ่มใช้งาน ให้แน่ใจว่าคุณปฏิบัติตามข้อกำหนดเบื้องต้นเหล่านี้:
 1. **ห้องสมุดที่จำเป็น:** คุณจะต้องมี Aspose.Cells สำหรับ Java เวอร์ชัน 25.3
 2. **การตั้งค่าสภาพแวดล้อม:** ตรวจสอบให้แน่ใจว่าสภาพแวดล้อมการพัฒนาของคุณถูกตั้งค่าด้วย JDK และ IDE เช่น IntelliJ IDEA หรือ Eclipse
-3. **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม Java ขั้นพื้นฐานและการทำงานกับไลบรารีภายนอกจะเป็นประโยชน์
+3. **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยกับแนวคิดการเขียนโปรแกรม Java ขั้นพื้นฐานและการทำงานกับไลบรารีภายนอกจะเป็นประโยชน์
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 หากต้องการใช้ Aspose.Cells สำหรับ Java คุณจะต้องเพิ่ม Aspose.Cells เป็นส่วนที่ต้องพึ่งพาในโปรเจ็กต์ของคุณ โดยคุณสามารถทำได้โดยใช้เครื่องมือสร้างยอดนิยมดังต่อไปนี้:
 **เมเวน**
@@ -126,6 +128,9 @@ workbook.save("SpecifyingCustomSeparators_out.pdf");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

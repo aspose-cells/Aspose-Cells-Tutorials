@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Chúng ta hãy bắt đầu bằng cách tìm hiểu các điều kiện tiên q
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
-- **Thư viện bắt buộc:** Aspose.Cells cho Java (phiên bản 25.3).
+- **Thư viện cần thiết:** Aspose.Cells cho Java (phiên bản 25.3).
 - **Thiết lập môi trường:** Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với các công cụ xây dựng Maven hoặc Gradle.
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Để sử dụng Aspose.Cells cho Java, bạn có thể xin giấy phép tạm thời hoặc mua một giấy phép:
 - **Dùng thử miễn phí:** Tải xuống phiên bản dùng thử từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời:** Nộp đơn xin cấp giấy phép tạm thời trên [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
+- **Giấy phép tạm thời:** Nộp đơn xin cấp giấy phép tạm thời trên [Trang Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
 - **Mua giấy phép:** Mua giấy phép đầy đủ thông qua [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
 
 Khởi tạo Aspose.Cells bằng cách tải tệp Excel của bạn:
@@ -150,6 +152,9 @@ Sẵn sàng nâng cao kỹ năng của bạn lên một tầm cao mới? Hãy th
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

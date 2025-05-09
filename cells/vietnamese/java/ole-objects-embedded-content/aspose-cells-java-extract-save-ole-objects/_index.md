@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Quản lý các đối tượng OLE (Liên kết và Nhúng đối tượng) nh�
 
 Trước khi tiếp tục, hãy đảm bảo bạn có:
 
-**Thư viện bắt buộc:**
+**Thư viện cần thiết:**
 - Aspose.Cells cho Java (phiên bản 25.3 trở lên)
 - Khả năng tương thích với các phiên bản JDK phù hợp để chạy Aspose.Cells
 
@@ -196,6 +198,9 @@ Hãy cân nhắc khám phá các tính năng bổ sung của Aspose.Cells như t
 - [Diễn đàn hỗ trợ cộng đồng](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

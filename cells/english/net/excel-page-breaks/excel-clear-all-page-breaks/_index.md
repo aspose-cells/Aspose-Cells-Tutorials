@@ -8,7 +8,9 @@ url: /net/excel-page-breaks/excel-clear-all-page-breaks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Clear All Page Breaks
@@ -115,6 +117,7 @@ Aspose.Cells supports various spreadsheet formats, including XLS, XLSX, CSV, and
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

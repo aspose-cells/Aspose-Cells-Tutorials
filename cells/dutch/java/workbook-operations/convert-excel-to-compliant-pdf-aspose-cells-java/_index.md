@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ Klaar om wat je hebt geleerd in de praktijk te brengen? Probeer deze oplossing v
    - Je kunt de [Internationale Organisatie voor Standaardisatie (ISO)](https://www.iso.org/standards.html) website voor gedetailleerde documentatie over verschillende PDF/A-nalevingsniveaus.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

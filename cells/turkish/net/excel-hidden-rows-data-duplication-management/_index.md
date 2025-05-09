@@ -1,14 +1,16 @@
 ---
-title: Excel Gizli Satırlar ve Veri Çoğaltma Yönetimi
-linktitle: Excel Gizli Satırlar ve Veri Çoğaltma Yönetimi
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Gizli satırları yönetme ve verileri zahmetsizce kopyalama konusunda bilgi sağlayan Aspose.Cells for .NET eğitimleriyle Excel'in potansiyelini açığa çıkarın.
-weight: 42
-url: /tr/net/excel-hidden-rows-data-duplication-management/
+"description": "Gizli satırları yönetme ve verileri zahmetsizce kopyalama konusunda bilgi sağlayan Aspose.Cells for .NET eğitimleriyle Excel'in potansiyelini açığa çıkarın."
+"linktitle": "Excel Gizli Satırlar ve Veri Çoğaltma Yönetimi"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel Gizli Satırlar ve Veri Çoğaltma Yönetimi"
+"url": "/tr/net/excel-hidden-rows-data-duplication-management/"
+"weight": 42
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Gizli Satırlar ve Veri Çoğaltma Yönetimi
@@ -34,9 +36,11 @@ Hiç kendinizi bir veri denizinde boğulurken buldunuz mu, sadece iyi organize e
 Aspose.Cells for .NET kullanarak Excel'de Otomatik Filtrelemeyi yeniledikten sonra gizli satır dizinlerinin nasıl alınacağını keşfedin. Veri yönetiminizi basitleştirin.
 ### [Excel Verilerini Dışa Aktarırken Yinelenen Sütunları Otomatik Olarak Yeniden Adlandır](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
 Aspose.Cells for .NET ile Excel'deki yinelenen sütunları otomatik olarak yeniden adlandırın! Veri dışa aktarımlarınızı zahmetsizce kolaylaştırmak için adım adım kılavuzumuzu izleyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

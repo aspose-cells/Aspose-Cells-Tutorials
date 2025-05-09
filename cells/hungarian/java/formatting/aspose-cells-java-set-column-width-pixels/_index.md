@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ Ez az összes módosítást visszaírja egy új fájlba a kimeneti könyvtárban
 1. **Testreszabott jelentések:** jelentések prezentációkhoz szabhatók, biztosítva az optimális olvashatóságot és megjelenést.
 2. **Műszerfal létrehozása:** Tervezzen olyan műszerfalakat, ahol a pontos oszlopszélességek fokozzák a vizuális tisztaságot.
 3. **Adatösszehasonlítás:** Használjon egységes oszlopméreteket, amikor több munkalapon egymás melletti adathalmazokat hasonlít össze.
-4. **Sablonbeállítások:** A sablonokat a tervezés feláldozása nélkül igazíthatja a változó adathosszakhoz.
+4. **Sablonbeállítások:** A sablonok adaptálása a változó adathosszúságokhoz a tervezés feláldozása nélkül.
 5. **Integráció az üzleti eszközökkel:** Integrálja ezt a funkciót az Excel-jelentéseket generáló üzleti eszközökbe.
 
 ## Teljesítménybeli szempontok
@@ -178,6 +180,9 @@ Ragadd magadhoz az Aspose.Cells for Java erejét, és alakítsd át Excel dokume
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

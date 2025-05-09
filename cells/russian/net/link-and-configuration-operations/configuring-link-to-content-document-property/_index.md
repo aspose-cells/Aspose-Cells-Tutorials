@@ -1,17 +1,19 @@
 ---
-title: Настройка свойства документа «Ссылка на содержимое» в .NET
-linktitle: Настройка свойства документа «Ссылка на содержимое» в .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как связать свойства документа с содержимым в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для разработчиков.
-weight: 10
-url: /ru/net/link-and-configuration-operations/configuring-link-to-content-document-property/
+"description": "Узнайте, как связать свойства документа с содержимым в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство для разработчиков."
+"linktitle": "Настройка свойства «Ссылка на содержимое документа» в .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Настройка свойства «Ссылка на содержимое документа» в .NET"
+"url": "/ru/net/link-and-configuration-operations/configuring-link-to-content-document-property/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Настройка свойства документа «Ссылка на содержимое» в .NET
+# Настройка свойства «Ссылка на содержимое документа» в .NET
 
 ## Введение
 
@@ -21,11 +23,11 @@ url: /ru/net/link-and-configuration-operations/configuring-link-to-content-docum
 
 Прежде чем мы начнем, убедитесь, что у вас есть все необходимое. Без следующих предварительных условий процесс не пройдет гладко:
 
-1.  Библиотека Aspose.Cells for .NET: Вам необходимо установить Aspose.Cells for .NET на вашем компьютере. Если вы еще не загрузили ее, возьмите ее с[Страница загрузки Aspose.Cells для .NET](https://releases.aspose.com/cells/net/).
+1. Библиотека Aspose.Cells for .NET: Вам необходимо установить Aspose.Cells for .NET на вашем компьютере. Если вы еще не загрузили ее, возьмите ее с [Страница загрузки Aspose.Cells для .NET](https://releases.aspose.com/cells/net/).
 2. Среда разработки: используйте любую среду разработки, поддерживаемую .NET, например Visual Studio.
 3. Базовые знания C#: это руководство предполагает, что у вас есть некоторые знания C# и .NET.
 4. Файл Excel: Имейте существующий файл Excel для работы. В нашем примере мы будем использовать файл с именем "sample-document-properties.xlsx".
-5. Временная лицензия: Если у вас нет полной лицензии, вы можете получить[временная лицензия здесь](https://purchase.aspose.com/temporary-license/) чтобы избежать ограничений на манипуляции с файлами.
+5. Временная лицензия: Если у вас нет полной лицензии, вы можете получить [временная лицензия здесь](https://purchase.aspose.com/temporary-license/) чтобы избежать ограничений на манипуляции с файлами.
 
 ## Импортные пакеты
 
@@ -55,7 +57,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
 
--  Workbook workbook = new Workbook(): Эта строка создает новую`Workbook`объект, который является основным классом, используемым для работы с файлами Excel в Aspose.Cells.
+- Workbook workbook = new Workbook(): Эта строка создает новую `Workbook` объект, который является основным классом, используемым для работы с файлами Excel в Aspose.Cells.
 - dataDir: Здесь вы указываете путь к файлу Excel. Замените «Ваш каталог документов» на фактический путь на вашем компьютере.
 
 Думайте об этом шаге как об открытии двери — вы получаете доступ к файлу, чтобы внести необходимые изменения!
@@ -98,12 +100,12 @@ Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["Own
 bool islinkedtocontent = customProperty1.IsLinkedToContent;
 ```
 
-- customProperties[«Владелец»]: Мы извлекаем свойство «Владелец» по имени, чтобы проверить его данные.
-- IsLinkedToContent: это логическое значение возвращает`true` если свойство успешно связано с контентом.
+- customProperties["Owner"]: мы извлекаем свойство "Owner" по имени, чтобы проверить его данные.
+- IsLinkedToContent: это логическое значение возвращает `true` если свойство успешно связано с контентом.
 
 На этом этапе это похоже на проверку того, правильно ли прикреплена метка (свойство) к контенту. Вы гарантируете, что ваш код сделал то, что вы ожидали.
 
-## Шаг 5: Получите источник собственности
+## Шаг 5: Найдите источник собственности
 
 Если вам необходимо узнать точное содержание или диапазон, с которым связан ваш ресурс, вы можете получить источник с помощью следующего кода.
 
@@ -143,16 +145,18 @@ workbook.Save(dataDir + "out_sample-document-properties.xlsx");
 Связанное свойство автоматически обновится, чтобы отразить новое содержимое в указанном диапазоне.
 
 ### Могу ли я удалить связь между свойством и контентом?
- Да, вы можете отменить привязку объекта, удалив его из`CustomDocumentPropertyCollection`.
+Да, вы можете отменить привязку объекта, удалив его из `CustomDocumentPropertyCollection`.
 
 ### Доступна ли эта функция в бесплатной версии Aspose.Cells?
- Да, но бесплатная версия имеет ограничения. Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы изучить все возможности.
+Да, но бесплатная версия имеет ограничения. Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) чтобы изучить все возможности.
 
 ### Могу ли я использовать эту функцию с другими форматами документов, например CSV?
 Нет, эта функция предназначена специально для файлов Excel, поскольку файлы CSV не поддерживают пользовательские свойства документа.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ public class RenameWorksheet {
         // 'worksheet'가 통합 문서 컬렉션에서 얻은 대상 워크시트라고 가정합니다.
         Worksheet worksheet = null; // 실제 워크시트 개체에 대한 자리 표시자
         
-        // 1단계: 워크시트에 대한 새 이름 설정
+        // 1단계: 워크시트의 새 이름 설정
         worksheet.setName("My Worksheet");
         
         System.out.println("Worksheet renamed successfully!");
@@ -237,6 +239,9 @@ Aspose.Cells for Java는 다양한 실제 시나리오에서 활용될 수 있�
    - Maven이나 Gradle을 사용해 저장소에서 바로 프로젝트에 포함합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

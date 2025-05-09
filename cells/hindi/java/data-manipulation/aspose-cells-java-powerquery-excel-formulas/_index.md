@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ Aspose.Cells बड़ी फ़ाइलों के लिए मेमोर
 जबकि Aspose.Cells व्यापक सुविधाएँ प्रदान करता है, हमेशा देखें [प्रलेखन](https://reference.aspose.com/cells/java/) विशिष्ट क्षमताओं और प्रतिबंधों के लिए।
 
 **5. यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?**
-दौरा करना [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) सामुदायिक सहायता के लिए या सीधे उनके माध्यम से Aspose से संपर्क करें [सहायता पृष्ठ](https://purchase.aspose.com/buy).
+दौरा करना [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) सामुदायिक सहायता के लिए या सीधे उनके माध्यम से Aspose से संपर्क करें [सहायता पृष्ठ](https://purchase.aspose.com/buy).
 
 ## संसाधन
 - **प्रलेखन**: Aspose.Cells सुविधाओं के बारे में अधिक जानें [संदर्भ.aspose.com](https://reference.aspose.com/cells/java/).
@@ -170,6 +172,9 @@ Aspose.Cells बड़ी फ़ाइलों के लिए मेमोर
 - **खरीदना**: लाइसेंस खरीदें या ट्रायल का अनुरोध करें [खरीद.aspose.com](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaawansowane techniki walidacji danych
@@ -20,7 +22,7 @@ Walidacja danych to proces definiowania reguł i ograniczeń, aby zapobiec wprow
 
 ## Konfigurowanie Aspose.Cells dla Java
 
-Zanim przejdziemy do zaawansowanych technik, zacznijmy od Aspose.Cells dla Javy. Możesz pobrać bibliotekę ze strony [Link do pobrania Aspose.Cells dla Java](https://releases.aspose.com/cells/java/). Upewnij się, że postępujesz zgodnie z instrukcjami instalacji podanymi w dokumentacji na stronie [Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/).
+Zanim przejdziemy do zaawansowanych technik, zacznijmy od Aspose.Cells dla Javy. Możesz pobrać bibliotekę ze strony [Link do pobrania Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)Upewnij się, że postępujesz zgodnie z instrukcjami instalacji podanymi w dokumentacji na stronie [Aspose.Cells dla API Java Odwołania](https://reference.aspose.com/cells/java/).
 
 ## Podstawowa walidacja danych
 
@@ -113,6 +115,7 @@ Szczegółową dokumentację i odniesienia można znaleźć na stronie [Aspose.C
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

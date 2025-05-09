@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ implementation group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 Per la piena funzionalità di Aspose.Cells è necessaria una licenza:
 - **Prova gratuita**: Scarica la versione di prova dal sito Web ufficiale per testare Aspose.Cells.
 - **Licenza temporanea**: Richiedine uno se hai bisogno di valutarne le capacità senza restrizioni.
-- **Acquistare**: Dopo aver effettuato la valutazione, valuta l'acquisto di un piano di abbonamento adatto alle tue esigenze.
+- **Acquistare**: Dopo aver effettuato la valutazione, prendi in considerazione l'acquisto di un piano di abbonamento adatto alle tue esigenze.
 
 #### Inizializzazione e configurazione di base
 ```java
@@ -186,6 +188,9 @@ Abbiamo esplorato come Aspose.Cells per Java possa essere utilizzato per caricar
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

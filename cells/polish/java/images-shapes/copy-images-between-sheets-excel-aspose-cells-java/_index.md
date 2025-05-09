@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Workbook workbook = new Workbook(dataDir + "Shapes.xls");
 ```
 Ten kod ładuje `Shapes.xls` plik do `workbook` obiekt. Upewnij się, że ścieżka jest poprawnie ustawiona do miejsca przechowywania plików Excel.
 
-### Krok 2: Dostęp do kolekcji arkuszy roboczych
+### Krok 2: Uzyskaj dostęp do kolekcji arkuszy roboczych
 
 #### Przegląd
 Następnie uzyskujemy dostęp do wszystkich arkuszy w skoroszycie za pomocą `WorksheetCollection`.
@@ -203,6 +205,9 @@ Aby lepiej zrozumieć istotę Aspose.Cells, zapoznaj się z innymi funkcjami teg
 Eksplorując te zasoby, możesz zagłębić się w Aspose.Cells dla Java i zwiększyć możliwości automatyzacji Excela. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

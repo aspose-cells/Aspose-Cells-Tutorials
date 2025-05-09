@@ -8,7 +8,9 @@ url: /net/xml-map-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xml Map Operations
@@ -36,9 +38,11 @@ Easily find and display the root element name of an XML map in Excel using Aspos
 Learn how to get the XML path from a List Object Table in Excel using Aspose.Cells for .NET. Step-by-step guide for .NET developers.
 ### [Query Cell Areas Mapped to Xml Map Path using Aspose.Cells](./query-cell-areas-mapped-to-xml-map-path/)
 Learn how to query XML-mapped cell areas in Excel using Aspose.Cells for .NET. This step-by-step guide helps you extract structured XML data seamlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

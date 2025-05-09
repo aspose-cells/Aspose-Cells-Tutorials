@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan férhetsz hozzá az Excel-munkaf
 **Amit tanulni fogsz:**
 - Excel-munkafüzetek elérése és módosítása
 - Munkalapok közötti navigálás
-- Diagramelemek és adatfeliratok módosítása
+- Diagramelemek és adatcímkék módosítása
 - Betűtípus-beállítások testreszabása a vizuális megjelenés fokozása érdekében
 
 Mielőtt belekezdenénk a megvalósításba, nézzük át az előfeltételeket!
@@ -196,6 +198,9 @@ V5: Igen, az Aspose.Cells zökkenőmentesen integrálható különféle Java-ala
 Fedezd fel ezeket az erőforrásokat, hogy elmélyítsd a tudásodat, és teljes mértékben kihasználhasd az Aspose.Cells for Java előnyeit a projektjeidben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

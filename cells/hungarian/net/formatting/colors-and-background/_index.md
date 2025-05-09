@@ -1,53 +1,58 @@
 ---
-title: A színek és háttérek alkalmazása Excelben az Aspose.Cells segítségével .NET- hez
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan kell alkalmazni a színeket és a háttérstílusokat az Excelben az .NET-hez használt Aspose.Cells segítségével. Személyesítsen a sejt formátumot és mentse meg a munkafüzeteket az Excel 97-2003 formátumban.
-keywords: [Aspose.Cells for .NET, Excel colors, Excel background, format Excel cells, set cell style, .NET Excel library, apply colors in Excel, Excel customization]
-url: /hu/net/formatting/colors-and-background/
+"description": "Tanulja meg, hogyan alkalmazhat színeket és háttérstílusokat Excelben az Aspose.Cells for .NET használatával. Testreszabhatja a cellaformázást és mentheti a munkafüzeteket Excel 97-2003 formátumban."
+"title": "Színek és hátterek alkalmazása Excelben az Aspose.Cells for .NET használatával"
+"url": "/hu/net/formatting/colors-and-background/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# A színek és háttérek alkalmazása az Excelben az Aspose.Cells segítségével
+# Színek és hátterek alkalmazása Excelben az Aspose.Cells használatával
   
-Az Aspose.Cells a .NET-hez lehetővé teszi a fejlesztők számára, hogy programszerűen formátálják az Excel munkalapokat a sejtekre a színeket és a háttérstílusokat alkalmazva. Ez a példa bemutatja, hogyan lehet létrehozni egy Excel munkalapot, hozzáadni egy munkalapot, személyre szabni a különböző előtér és háttér színekkel rendelkező sejtstílusokat, és megőrizni a fájlt az Excel 97-2003 formátumban.  
+Az Aspose.Cells for .NET lehetővé teszi a fejlesztők számára, hogy programozottan formázzák az Excel-munkalapokat a cellákra alkalmazott színek és háttérstílusok segítségével. Ez a példa bemutatja, hogyan hozhat létre Excel-munkafüzetet, hogyan adhat hozzá munkalapot, hogyan szabhatja testre a cellastílusokat különböző előtér- és háttérszínekkel, és hogyan mentheti a fájlt Excel 97-2003 formátumban. Az Aspose.Cells kihasználásával a fejlesztők könnyedén javíthatják a táblázatok esztétikáját és az adatok olvashatóságát.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/colors-and-background" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások  
-A .NET-hez Aspose.Cells használatával kezdeni, kövesse ezeket a lépéseket:  
 
-1. Letöltsük és telepítsük az Aspose.Cells .NET-re  
-   * Letöltsd le a legújabb verziót a [Aspose.Cells letöltés](https://releases.aspose.com/cells/net/)\- Nem.  
-   * A NuGet segítségével telepítse a Visual Studio-ban:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások  
+Az Aspose.Cells for .NET használatának megkezdéséhez kövesse az alábbi lépéseket:  
+
+1. Aspose.Cells .NET-hez letöltése és telepítése  
+   - Töltsd le a legújabb verziót innen: [Aspose.Cells letöltés](https://releases.aspose.com/cells/net/).  
+   - Telepítse a NuGet segítségével a Visual Studio-ban:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-2. Adatközpontok hivatkozásai  
-   In your C# project, include:  
+2. Névtér-hivatkozások hozzáadása  
+   A C# projektedben szerepeljen a következők:  
    ```csharp
    using Aspose.Cells;
    using System.Drawing;
    ```  
 
-3. A színek és a háttérek alkalmazása az Excel sejtekre  
-   * Készíts egy új `Munkakönyv`tárgy.  
-   * Visszaveszi a `A munkalap`és egyedi stílusokat alkalmaz bizonyos sejtekre.  
-   * A módosított munkafüzetet tárolja a `.xls`formátum.  
+3. Színek és hátterek alkalmazása Excel cellákra  
+   - Hozz létre egy újat `Workbook` objektum.  
+   - Szerezd meg a `Worksheet` és egyéni stílusokat alkalmazhat adott cellákra.  
+   - Mentse el a módosított munkafüzetet a `.xls` formátum.  
 
-## Lásd:  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

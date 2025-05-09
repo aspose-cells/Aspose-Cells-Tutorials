@@ -1,14 +1,16 @@
 ---
-title: माइक्रोसॉफ्ट एक्सेल की तरह चार्ट अक्ष की स्वचालित इकाइयों को संभालें
-linktitle: माइक्रोसॉफ्ट एक्सेल की तरह चार्ट अक्ष की स्वचालित इकाइयों को संभालें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel में चार्ट अक्ष की स्वचालित इकाइयों को एक पेशेवर की तरह संभालना सीखें! चरण-दर-चरण ट्यूटोरियल शामिल है।
-weight: 10
-url: /hi/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel में चार्ट अक्ष की स्वचालित इकाइयों को एक पेशेवर की तरह संभालना सीखें! चरण-दर-चरण ट्यूटोरियल शामिल है।"
+"linktitle": "माइक्रोसॉफ्ट एक्सेल की तरह चार्ट अक्ष की स्वचालित इकाइयों को संभालें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "माइक्रोसॉफ्ट एक्सेल की तरह चार्ट अक्ष की स्वचालित इकाइयों को संभालें"
+"url": "/hi/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # माइक्रोसॉफ्ट एक्सेल की तरह चार्ट अक्ष की स्वचालित इकाइयों को संभालें
@@ -23,8 +25,8 @@ url: /hi/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-ax
 
 1. विजुअल स्टूडियो स्थापित: आपको अपना .NET कोड लिखने और निष्पादित करने के लिए विजुअल स्टूडियो जैसे IDE की आवश्यकता होगी।
 2. .NET Framework: यह ट्यूटोरियल मानता है कि आप .NET Framework 4.0 या बाद के संस्करण का उपयोग कर रहे हैं। हालाँकि, Aspose.Cells .NET Core के साथ भी संगत है।
-3.  Aspose.Cells लाइब्रेरी: यदि आपने यह पहले से नहीं किया है, तो Aspose वेबसाइट से लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/cells/net/) . आप एक निःशुल्क परीक्षण के साथ भी शुरुआत कर सकते हैं[यहाँ](https://releases.aspose.com/).
-4. नमूना एक्सेल फ़ाइल: हम एक नमूना एक्सेल फ़ाइल का उपयोग करेंगे जिसका नाम है`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`सुनिश्चित करें कि यह फ़ाइल आपकी कार्यशील निर्देशिका में तैयार है।
+3. Aspose.Cells लाइब्रेरी: यदि आपने यह पहले से नहीं किया है, तो Aspose वेबसाइट से लाइब्रेरी डाउनलोड करें [यहाँ](https://releases.aspose.com/cells/net/). आप एक निःशुल्क परीक्षण के साथ भी शुरुआत कर सकते हैं [यहाँ](https://releases.aspose.com/).
+4. नमूना एक्सेल फ़ाइल: हम एक नमूना एक्सेल फ़ाइल का उपयोग करेंगे जिसका नाम है `sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`सुनिश्चित करें कि यह फ़ाइल आपकी कार्यशील निर्देशिका में तैयार है।
 
 ## पैकेज आयात करें
 
@@ -43,11 +45,11 @@ Aspose.Cells का उपयोग करने के लिए, आपको 
 
 1. समाधान एक्सप्लोरर में, “संदर्भ” पर राइट-क्लिक करें।
 2. “संदर्भ जोड़ें” चुनें।
-3.  उस फ़ोल्डर को ब्राउज़ करें जहाँ आपने Aspose.Cells डाउनलोड किया था और चुनें`Aspose.Cells.dll`.
+3. उस फ़ोल्डर को ब्राउज़ करें जहाँ आपने Aspose.Cells डाउनलोड किया था और चुनें `Aspose.Cells.dll`.
 
 ### आवश्यक नामस्थान आयात करें
 
- आपके शीर्ष पर`Program.cs` फ़ाइल में, निम्नलिखित नामस्थान जोड़ें:
+आपके शीर्ष पर `Program.cs` फ़ाइल में, निम्नलिखित नामस्थान जोड़ें:
 
 ```csharp
 using System;
@@ -68,7 +70,7 @@ using Aspose.Cells.Charts;
 एक्सेल फ़ाइल लोड करने से पहले, आइए आउटपुट और सोर्स डायरेक्टरी सेट अप करें। इससे हम यह निर्दिष्ट कर सकेंगे कि हमारी फ़ाइलें कहाँ संग्रहीत हैं।
 
 ```csharp
-//आउटपुट निर्देशिका - जहां पीडीएफ सहेजा जाएगा
+// आउटपुट निर्देशिका - जहां पीडीएफ सहेजा जाएगा
 string outputDir = "Your Output Directory"; // अपनी आउटपुट निर्देशिका यहाँ निर्दिष्ट करें
 
 // स्रोत निर्देशिका - जहां नमूना एक्सेल फ़ाइल स्थित है
@@ -110,10 +112,10 @@ Chart ch = ws.Charts[0];
 
 एक्सेल में, चार्ट में मुख्य विशेषताओं में से एक चार्ट अक्षों के लिए स्वचालित इकाइयों को संभालना है, जो दृश्यों को साफ और समझने योग्य रखने में मदद करता है। सौभाग्य से, Aspose.Cells आपको इन गुणों को आसानी से संशोधित करने देता है।
 
- अक्ष में हेरफेर करने के लिए, आपको एक्सेस करने की आवश्यकता हो सकती है`Axis` अपने चार्ट का चयन करें और सेट करें`MajorUnit`:
+अक्ष में हेरफेर करने के लिए, आपको एक्सेस करने की आवश्यकता हो सकती है `Axis` अपने चार्ट का चयन करें और सेट करें `MajorUnit`:
 
 ```csharp
-// Y-अक्ष के लिए मुख्य इकाई सेट करें
+// Y-अक्ष के लिए प्रमुख इकाई सेट करें
 ch.AxisY.MajorUnit = 10; // आप अपनी आवश्यकता के अनुसार सेट कर सकते हैं
 ```
 
@@ -148,7 +150,7 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 Aspose.Cells Excel फ़ाइलों को बनाने, हेरफेर करने और परिवर्तित करने के लिए एक शक्तिशाली .NET लाइब्रेरी है।
 
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
-हाँ! आप एक निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हाँ! आप एक निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### क्या मुझे शुरू करने के लिए कुछ भी इंस्टॉल करने की आवश्यकता है?
 बस Aspose.Cells लाइब्रेरी और एक .NET फ्रेमवर्क आपकी मशीन पर स्थापित है।
@@ -157,10 +159,12 @@ Aspose.Cells Excel फ़ाइलों को बनाने, हेरफे
 बिल्कुल! Aspose.Cells XLSX, HTML, और छवियों जैसे विभिन्न स्वरूपों का समर्थन करता है।
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कहां से प्राप्त कर सकता हूं?
- आप Aspose समुदाय से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/cells/9).
+आप Aspose समुदाय से सहायता ले सकते हैं [यहाँ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,11 +191,14 @@ Készen állsz arra, hogy Excel automatizálási készségeidet a következő sz
 2. **Használhatom az Aspose.Cells-t nagy adathalmazokhoz?**
    - Igen, optimalizált memóriakezelési technikákkal támogatja a méretes táblázatok hatékony kezelését.
 3. **Hogyan oldhatom meg az Aspose.Cells gyakori problémáit Java-ban?**
-   - Ellenőrizze a licencbeállításokat, és győződjön meg arról, hogy minden függőség megfelelően szerepel. Lásd a [Aspose fórum](https://forum.aspose.com/c/cells/9) közösségi támogatásért.
+   - Ellenőrizze a licenc beállításait, és győződjön meg arról, hogy minden függőség megfelelően szerepel. Lásd a [Aspose fórum](https://forum.aspose.com/c/cells/9) közösségi támogatásért.
 4. **Lehetséges Excel fájlokat más formátumokba konvertálni az Aspose.Cells segítségével?**
    - Természetesen! A munkafüzeteket különféle formátumokba exportálhatja, beleértve a PDF-et és a HTML-t is.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

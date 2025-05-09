@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
    - يمكنك استكشاف [المنظمة الدولية للمعايير (ISO)](https://www.iso.org/standards.html) موقع ويب للحصول على توثيق مفصل حول مستويات الامتثال المختلفة لـ PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

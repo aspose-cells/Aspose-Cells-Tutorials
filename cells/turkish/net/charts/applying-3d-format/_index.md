@@ -1,42 +1,45 @@
 ---
-title: Excel'de .NET için Aspose.Cells kullanarak 3D haritalar oluşturun ve biçimlendirin 
-weight: 7700
-limit: 
-description: .NET için Aspose.Cells, Excel tablo 3D biçimlendirme, Excel çalışma kitabı C# oluşturun, Excel C#'de tablo ekleyin, Excel tablo C# biçimi, Aspose.Cells öğretmeni, .NET Excel kütüphanesi  
-keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
-url: /tr/net/charts/applying-3d-format/
+"description": "Aspose.Cells for .NET, Excel grafik 3D biçimlendirme, Excel çalışma kitabı oluşturma C#, Excel'e grafik ekleme C#, Excel grafiğini biçimlendirme C#, Aspose.Cells öğretici, .NET Excel kitaplığı"
+"title": "Aspose.Cells for .NET Kullanarak Excel'de 3B Grafikler Oluşturun ve Biçimlendirin"
+"url": "/tr/net/charts/applying-3d-format/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel'de Aspose.Cells kullanarak 3D haritalar oluşturun ve biçimlendirin 
+# Aspose.Cells Kullanarak Excel'de 3B Grafikler Oluşturun ve Biçimlendirin 
 
-.NET için Aspose.Cells geliştiricilerin Excel dosyalarını programsal olarak oluşturma, manipüle etme ve biçimlendirme imkanı veren güçlü bir kütüphane. Bu örnek yeni bir Excel çalışma defteri nasıl oluşturulacağını, bir çalışma sayfasına verileri nasıl ekleneceğini, bir tablo ekleneceğini ve grafik serisine 3D biçimlendirmeyi nasıl uygulayacağını gösterir. Bu rehberliği izleyerek kategorileri nasıl ayarlayacağınızı, grafik özelliklerini nasıl yapılandıracağınızı ve C # kullanarak 3D efektlerle görselliği nasıl artıracağınızı öğreneceksiniz.  
+Aspose.Cells for .NET, geliştiricilerin Excel dosyalarını programatik olarak oluşturmasına, düzenlemesine ve biçimlendirmesine olanak tanıyan güçlü bir kütüphanedir. Bu örnek, yeni bir Excel çalışma kitabı oluşturmayı, bir çalışma sayfasına veri eklemeyi, bir grafik eklemeyi ve grafik serisine 3B biçimlendirme uygulamayı gösterir. Bu kılavuzu izleyerek, kategori verilerini nasıl ayarlayacağınızı, grafik özelliklerini nasıl yapılandıracağınızı ve C# kullanarak 3B efektlerle görselleştirmeyi nasıl geliştireceğinizi öğreneceksiniz.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/applying-3d-format" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları  
-.NET için Aspose.Cells kullanmak için, bu adımları izleyin:  
+## Kurulum Talimatları  
+Aspose.Cells for .NET'i kullanmak için şu adımları izleyin:  
 
-1. NuGet Paket Yöneticisi üzerinden yükle:  
-   * Visual Studio'yu açın ve Araçlara > NuGet Paket Yöneticisi > Çözüm için NuGet Paketleri Yönetin'e gidin.  
-   * Aspose.Cellsi arayın ve yükleyin.  
+1. NuGet Paket Yöneticisi aracılığıyla kurulum:  
+   - Visual Studio'yu açın ve Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet'e gidin.  
+   - Aspose.Cells'i arayın ve yükleyin.  
 
-   Ya da NuGet Paket Yöneticisi Konsolu üzerinden yükleyin:  
+   Veya NuGet Paket Yöneticisi Konsolu üzerinden kurulum yapın:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. En Son Sürümü indirelim:  
-   * Aspose web sitesinden en son versiyonu alın:  
-     [.NET için Aspose.Cells indir](https://releases.aspose.com/cells/net/)  
+2. En Son Sürümü İndirin:  
+   - En son sürümü Aspose web sitesinden edinin:  
+     [.NET için Aspose.Cells'i indirin](https://releases.aspose.com/cells/net/)  
 
-3. Projeye İpucu Ekle:  
-   * Kurulumdan sonra, C # kodunuza aşağıdaki isim boşluğu ekleyin:  
+3. Projenize Referans Ekleyin:  
+   - Kurulumdan sonra C# kodunuza aşağıdaki ad alanını ekleyin:  
      ```csharp
      using Aspose.Cells;
      using Aspose.Cells.Charts;
@@ -44,8 +47,11 @@ url: /tr/net/charts/applying-3d-format/
      using System;
      using System.Drawing;
      ```  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

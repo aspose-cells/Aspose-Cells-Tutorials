@@ -1,14 +1,16 @@
 ---
-title: อนุญาตให้ใช้เครื่องหมายอะพอสทรอฟีนำหน้า
-linktitle: อนุญาตให้ใช้เครื่องหมายอะพอสทรอฟีนำหน้า
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: จัดการเครื่องหมายอะพอสทรอฟีนำหน้าใน Excel ได้อย่างง่ายดายด้วย Aspose.Cells สำหรับ .NET บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณทีละขั้นตอนตลอดกระบวนการ
-weight: 60
-url: /th/net/excel-workbook/allow-leading-apostrophe/
+"description": "จัดการเครื่องหมายอะพอสทรอฟีนำหน้าใน Excel ได้อย่างง่ายดายด้วย Aspose.Cells สำหรับ .NET บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณทีละขั้นตอนตลอดกระบวนการ"
+"linktitle": "อนุญาตให้ใช้เครื่องหมายอะพอสทรอฟีนำหน้า"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "อนุญาตให้ใช้เครื่องหมายอะพอสทรอฟีนำหน้า"
+"url": "/th/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อนุญาตให้ใช้เครื่องหมายอะพอสทรอฟีนำหน้า
@@ -22,7 +24,7 @@ url: /th/net/excel-workbook/allow-leading-apostrophe/
 ก่อนที่จะเจาะลึกโค้ด นี่คือข้อกำหนดเบื้องต้นบางประการที่คุณต้องปฏิบัติตาม:
 
 1. ความรู้พื้นฐานเกี่ยวกับ .NET: ความคุ้นเคยกับกรอบงาน .NET ถือเป็นสิ่งสำคัญ หากคุณเคยใช้ C# หรือ VB.NET มาก่อนแล้ว ถือว่าคุณพร้อมแล้ว
-2.  Aspose.Cells สำหรับไลบรารี .NET: คุณจะต้องติดตั้ง Aspose.Cells คุณสามารถทำสิ่งนี้ได้ง่ายๆ ผ่านตัวจัดการแพ็คเกจ NuGet หรือดาวน์โหลดจาก[ไซต์แอสโพเซ่](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับไลบรารี .NET: คุณจะต้องติดตั้ง Aspose.Cells คุณสามารถทำสิ่งนี้ได้ง่ายๆ ผ่านตัวจัดการแพ็คเกจ NuGet หรือดาวน์โหลดจาก [ไซต์แอสโพเซ่](https://releases-aspose.com/cells/net/).
 3. การตั้งค่า IDE: ให้แน่ใจว่าคุณมีสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio ที่พร้อมสำหรับการเขียนโค้ด
 4. ไฟล์ตัวอย่าง Excel: คุณสามารถใช้ไฟล์ตัวอย่าง ("AllowLeadingApostropheSample.xlsx") ที่เราจะนำมาใช้ในโค้ดได้
 
@@ -62,7 +64,7 @@ string outputDir = "Your Output Directory";
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- การ`WorkbookDesigner`จัดการการออกแบบและการเชื่อมโยงข้อมูลของสมุดงานของเรา ทำให้ชีวิตของเราสะดวกยิ่งขึ้นเมื่อแปลงข้อมูลเป็นรูปแบบภาพ
+การ `WorkbookDesigner` จัดการการออกแบบและการเชื่อมโยงข้อมูลของสมุดงานของเรา ทำให้ชีวิตของเราสะดวกยิ่งขึ้นเมื่อแปลงข้อมูลเป็นรูปแบบภาพ
 
 ## ขั้นตอนที่ 3: โหลดสมุดงานที่มีอยู่
 
@@ -82,11 +84,11 @@ Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx"
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- โดยการตั้งค่า`QuotePrefixToStyle` หากเป็นเท็จ เรากำลังสั่ง Aspose.Cells ให้ปฏิบัติต่อเครื่องหมายอะพอสทรอฟีนำหน้าเป็นอักขระปกติ ซึ่งจะช่วยให้เราจัดการได้อย่างถูกต้องในผลลัพธ์ของเรา
+โดยการตั้งค่า `QuotePrefixToStyle` หากเป็นเท็จ เรากำลังสั่งให้ Aspose.Cells ปฏิบัติต่อเครื่องหมายอะพอสทรอฟีนำหน้าเป็นอักขระปกติ ซึ่งจะช่วยให้เราจัดการได้อย่างถูกต้องในผลลัพธ์ของเรา
 
 ## ขั้นตอนที่ 5: โหลดข้อมูลสำหรับสมาร์ทมาร์กเกอร์
 
-ถึงเวลาสร้างแหล่งข้อมูลของเราซึ่งจะมาแทนที่มาร์กเกอร์อัจฉริยะในเทมเพลต Excel
+ถึงเวลาสร้างแหล่งข้อมูลของเราซึ่งจะมาแทนที่มาร์กเกอร์อัจฉริยะในเทมเพลต Excel แล้ว
 
 ```csharp
 List<DataObject> list = new List<DataObject>
@@ -96,7 +98,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- เรากำลังสร้างรายการของ`DataObject`โดยที่ชื่อหนึ่งมีเครื่องหมายอะพอสทรอฟีนำหน้าโดยตั้งใจ ซึ่งจะช่วยแสดงให้เห็นว่า Aspose.Cells จัดการกับสถานการณ์ดังกล่าวอย่างไร
+เรากำลังสร้างรายการของ `DataObject`โดยที่ชื่อหนึ่งมีเครื่องหมายอะพอสทรอฟีนำหน้าโดยตั้งใจ ซึ่งจะช่วยแสดงให้เห็นว่า Aspose.Cells จัดการกับสถานการณ์ดังกล่าวอย่างไร
 
 ## ขั้นตอนที่ 6: ผูกแหล่งข้อมูลกับตัวออกแบบ
 
@@ -150,19 +152,21 @@ Console.WriteLine("AllowLeadingApostrophe executed successfully.");
 Aspose.Cells เป็นไลบรารี .NET อันทรงพลังสำหรับการสร้าง จัดการ และแปลงไฟล์ Excel ในรูปแบบต่าง ๆ ด้วยโปรแกรม
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่ คุณสามารถใช้ Aspose.Cells ได้โดยสมัครทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถใช้ Aspose.Cells ได้โดยสมัครทดลองใช้งานฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร?
- คุณสามารถค้นหาความช่วยเหลือและสอบถามได้ที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถค้นหาความช่วยเหลือและสอบถามได้ที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 
 ### Aspose.Cells รองรับไฟล์ประเภทใดบ้าง
 Aspose.Cells รองรับรูปแบบต่างๆ เช่น XLS, XLSX, CSV และอื่นๆ อีกมากมาย
 
-### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Cells ได้อย่างไร
- คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Cells ได้โดยตรงจากหน้าการซื้อ[ที่นี่](https://purchase.aspose.com/buy).
+### ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Cells ได้อย่างไร?
+คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Cells ได้โดยตรงจากหน้าการซื้อ [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

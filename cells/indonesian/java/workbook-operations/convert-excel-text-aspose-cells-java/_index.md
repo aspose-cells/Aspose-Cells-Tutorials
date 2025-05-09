@@ -7,36 +7,38 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Ubah Lembar Excel menjadi Teks dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan mengonversi buku kerja Excel Anda ke dalam format teks? Baik untuk migrasi data, pelaporan, atau tugas pemrosesan, mengonversi lembar Excel ke teks dapat menjadi pengubah permainan. Dengan kekuatan Aspose.Cells untuk Java, tugas ini menjadi lancar dan efisien. Dalam tutorial ini, kami akan memandu Anda melalui cara menggunakan Aspose.Cells di Java untuk memuat buku kerja Excel, mengonfigurasi opsi penyimpanan teks, menyalin data lembar kerja ke dalam format teks, dan akhirnya menyimpannya sebagai file.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur dan menginstal Aspose.Cells untuk Java
-- Memuat buku kerja Excel menggunakan Aspose.Cells
+- Excel munkafüzet betöltése az Aspose.Cells használatával
 - Mengonfigurasi opsi penyimpanan teks dengan pemisah tab
 - Menggabungkan beberapa data lembar kerja menjadi satu array teks
 - Menyimpan data teks gabungan ke dalam file
 
 Mari kita bahas prasyarat yang Anda perlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki hal berikut:
+bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 
-- **Perpustakaan dan Versi**Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: Java Development Kit (JDK) terinstal di komputer Anda.
-- **Prasyarat Pengetahuan**Pengetahuan dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
+- **Könyvtárak és verziók**Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**: Java Development Kit (JDK) terinstal di komputer Anda.
+- **Ismereti előfeltételek**Pengetahuan dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Instalasi
+### Telepítés
 
 Anda dapat dengan mudah mengintegrasikan Aspose.Cells ke dalam proyek Anda menggunakan Maven atau Gradle. Berikut ini cuplikan konfigurasi yang Anda perlukan:
 
@@ -54,15 +56,15 @@ Anda dapat dengan mudah mengintegrasikan Aspose.Cells ke dalam proyek Anda mengg
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk menggunakan Aspose.Cells, Anda dapat memulai dengan uji coba gratis atau memperoleh lisensi sementara untuk pengujian yang lebih ekstensif. Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi penuh.
 
-1. **Uji Coba Gratis**: Akses fitur dan fungsi terbaru dengan mengunduh versi evaluasi.
-2. **Lisensi Sementara**: Ajukan permohonan lisensi sementara untuk mengevaluasi produk tanpa batasan.
-3. **Pembelian**Untuk penggunaan jangka panjang, beli lisensi yang sesuai dari situs resmi Aspose.
+1. **Ingyenes próbaverzió**: Akses fitur dan fungsi terbaru dengan mengunduh versi evaluasi.
+2. **Ideiglenes engedély**: Ajukan permohonan lisensi sementara untuk mengevaluasi produk tanpa batasan.
+3. **Vásárlás**Untuk penggunaan jangka panjang, beli lisensi yang sesuai dari situs resmi Aspose.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Setelah lingkungan Anda disiapkan, inisialisasi Aspose.Cells sebagai berikut:
 
@@ -74,7 +76,7 @@ public class ExcelToText {
         // Tetapkan jalur direktori data Anda di sini
         String dataDir = "YOUR_DATA_DIRECTORY";
         
-        // Memuat buku kerja
+        // A munkafüzet betöltése
         Workbook workbook = new Workbook(dataDir + "book1.xls");
         
         System.out.println("Workbook loaded successfully!");
@@ -82,13 +84,13 @@ public class ExcelToText {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Fitur 1: Muat Buku Kerja
+### 1. funkció: Munkafüzet betöltése
 
-**Ringkasan**: Fitur ini menunjukkan cara memuat buku kerja Excel dari direktori tertentu.
+**Áttekintés**: Fitur ini menunjukkan cara memuat buku kerja Excel dari direktori tertentu.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Impor Kelas yang Diperlukan**
 
@@ -109,9 +111,9 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 ### Fitur 2: Konfigurasikan Opsi Penyimpanan Teks
 
-**Ringkasan**: Siapkan opsi untuk menyimpan buku kerja Excel dalam format teks dengan pemisah tab.
+**Áttekintés**: Siapkan opsi untuk menyimpan buku kerja Excel dalam format teks dengan pemisah tab.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Impor Kelas yang Diperlukan**
 
@@ -130,9 +132,9 @@ opts.setSeparator('\t');
 
 ### Fitur 3: Salin Data Lembar Kerja ke Format Teks
 
-**Ringkasan**: Ulangi setiap lembar kerja, konversikan ke format teks, dan gabungkan semua data ke dalam array byte tunggal.
+**Áttekintés**: Ulangi setiap lembar kerja, konversikan ke format teks, dan gabungkan semua data ke dalam array byte tunggal.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Impor Kelas yang Diperlukan**
 
@@ -163,9 +165,9 @@ for (int idx = 0; idx < workbook.getWorksheets().getCount(); idx++) {
 
 ### Fitur 4: Menyimpan Data Buku Kerja ke File
 
-**Ringkasan**: Menyimpan representasi teks gabungan semua lembar kerja ke dalam satu berkas keluaran.
+**Áttekintés**: Menyimpan representasi teks gabungan semua lembar kerja ke dalam satu berkas keluaran.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Impor Kelas yang Diperlukan**
 
@@ -184,31 +186,31 @@ try (FileOutputStream fout = new FileOutputStream(outDir + "SWTTextCSVFormat-out
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa aplikasi praktis untuk mengubah lembar Excel menjadi teks menggunakan Aspose.Cells Java:
 
-1. **Migrasi Data**: Mentransfer data dari lembar kerja Excel ke basis data atau sistem perangkat lunak lain yang memerlukan input teks.
-2. **Pelaporan**Hasilkan file laporan dalam format teks sederhana dan datar yang dapat diproses atau dibagikan dengan mudah.
-3. **Integrasi dengan Sistem Lain**: Memfasilitasi integrasi dengan aplikasi pihak ketiga dengan menyediakan data berbasis teks.
-4. **Pemrosesan Batch**: Mengotomatiskan konversi beberapa file Excel ke dalam format teks untuk tugas pemrosesan batch.
+1. **Adatmigráció**: Mentransfer data dari lembar kerja Excel ke basis data atau sistem perangkat lunak lain yang memerlukan input teks.
+2. **Jelentéstétel**Hasilkan file laporan dalam format teks sederhana dan datar yang dapat diproses atau dibagikan dengan mudah.
+3. **Integráció más rendszerekkel**: Memfasilitasi integrasi dengan aplikasi pihak ketiga dengan menyediakan data berbasis teks.
+4. **Kötegelt feldolgozás**: Mengotomatiskan konversi beberapa file Excel ke dalam format teks untuk tugas pemrosesan batch.
 5. **Format Data Kustom**: Buat format data khusus yang sesuai dengan kebutuhan organisasi tertentu.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan buku kerja besar, pertimbangkan kiat berikut:
 
-- **Mengoptimalkan Penggunaan Sumber Daya**: Memantau dan mengelola penggunaan memori untuk mencegah kesalahan kehabisan memori.
-- **Penanganan Data yang Efisien**: Gunakan aliran buffer untuk kinerja yang lebih baik saat membaca/menulis berkas besar.
+- **Erőforrás-felhasználás optimalizálása**: Memantau dan mengelola penggunaan memori untuk mencegah kesalahan kehabisan memori.
+- **Hatékony adatkezelés**: Gunakan aliran buffer untuk kinerja yang lebih baik saat membaca/menulis berkas besar.
 - **Manajemen Memori Java**: Sesuaikan pengaturan JVM seperti ukuran tumpukan untuk menangani kumpulan data yang lebih besar secara efektif.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah membahas langkah-langkah yang diperlukan untuk mengubah lembar Excel menjadi teks menggunakan Aspose.Cells di Java. Dengan mengikuti panduan ini, Anda dapat mengintegrasikan fungsionalitas ini dengan lancar ke dalam aplikasi Anda untuk berbagai penggunaan praktis. 
 
 Berikutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells yang lebih canggih atau mengintegrasikannya dengan alur kerja pemrosesan data lainnya.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara menangani file Excel yang besar?**
 
@@ -230,17 +232,20 @@ A4: Ya, Anda dapat melakukan pengulangan melalui direktori yang berisi file Exce
 
 A5: Periksa masalah umum seperti kesalahan jalur file, izin tidak mencukupi, atau format yang tidak didukung.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**: [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Sel Aspose Rilis](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Lisensi Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Evaluasi Fitur](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Ajukan Permohonan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Beli Lisensi Aspose](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Evaluasi Fitur](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

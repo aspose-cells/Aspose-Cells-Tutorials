@@ -1,14 +1,16 @@
 ---
-title: Excel ลบตัวแบ่งหน้าเฉพาะ
-linktitle: Excel ลบตัวแบ่งหน้าเฉพาะ
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีการลบตัวแบ่งหน้าที่เฉพาะเจาะจงออกจากไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้
-weight: 30
-url: /th/net/excel-page-breaks/excel-remove-specific-page-break/
+"description": "เรียนรู้วิธีการลบตัวแบ่งหน้าที่เฉพาะเจาะจงออกจากไฟล์ Excel ได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้"
+"linktitle": "Excel ลบตัวแบ่งหน้าเฉพาะ"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "Excel ลบตัวแบ่งหน้าเฉพาะ"
+"url": "/th/net/excel-page-breaks/excel-remove-specific-page-break/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel ลบตัวแบ่งหน้าเฉพาะ
@@ -22,7 +24,7 @@ url: /th/net/excel-page-breaks/excel-remove-specific-page-break/
 ก่อนที่เราจะเจาะลึกถึงรายละเอียดของโค้ด เรามาตรวจสอบก่อนว่าคุณได้เตรียมทุกอย่างที่จำเป็นเพื่อเริ่มต้นใช้งานแล้ว นี่คือรายการตรวจสอบข้อกำหนดเบื้องต้นโดยย่อ:
 
 1. Visual Studio: คุณจะต้องมีการติดตั้ง Visual Studio ที่ใช้งานได้เพื่อสร้างและรันแอปพลิเคชัน .NET ของคุณ
-2.  Aspose.Cells สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells แล้ว หากคุณยังไม่ได้ติดตั้ง คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดได้ดีขึ้น
 4. ไฟล์ Excel: เตรียมไฟล์ Excel ที่มีตัวแบ่งหน้าไว้ให้เราทดลองใช้
 
@@ -38,7 +40,7 @@ url: /th/net/excel-page-breaks/excel-remove-specific-page-break/
 - ค้นหา "Aspose.Cells" และติดตั้ง
 
 ### นำเข้าเนมสเปซที่จำเป็น
-หลังจากติดตั้งแล้วให้เพิ่มบรรทัดต่อไปนี้ที่ด้านบนของไฟล์ C# ของคุณ:
+หลังจากการติดตั้ง เพิ่มบรรทัดต่อไปนี้ที่ด้านบนของไฟล์ C# ของคุณ:
 
 ```csharp
 using System.IO;
@@ -59,7 +61,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- คำอธิบาย : แทนที่`YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงไปยังไฟล์ของคุณ นี่คือที่ที่คุณจะโหลดไฟล์ Excel จากและบันทึกไฟล์ Excel ที่แก้ไขแล้วในภายหลัง
+คำอธิบาย : แทนที่ `YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงไปยังไฟล์ของคุณ นี่คือที่ที่คุณจะโหลดไฟล์ Excel จากและบันทึกไฟล์ Excel ที่แก้ไขแล้วในภายหลัง
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
@@ -70,7 +72,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "PageBreaks.xls");
 ```
 
- คำอธิบาย: บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ`Workbook` ซึ่งโหลดไฟล์ Excel ที่คุณระบุ (ในตัวอย่างนี้ มีชื่อว่า`PageBreaks.xls`- 
+คำอธิบาย: บรรทัดนี้จะสร้างอินสแตนซ์ใหม่ของ `Workbook`ซึ่งโหลดไฟล์ Excel ที่คุณระบุ (ในตัวอย่างนี้ มีชื่อว่า `PageBreaks.xls`- 
 
 ## ขั้นตอนที่ 3: ลบตัวแบ่งหน้าแนวนอน
 
@@ -111,22 +113,24 @@ workbook.Save(dataDir + "RemoveSpecificPageBreak_out.xls");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถลบตัวแบ่งหน้าหลายตัวในครั้งเดียวได้ไหม  
- ใช่ คุณสามารถทำได้ เพียงวนซ้ำผ่าน`HorizontalPageBreaks` และ`VerticalPageBreaks` การรวบรวมและการใช้งาน`RemoveAt` วิธี.
+ใช่ คุณสามารถทำได้ เพียงวนซ้ำผ่าน `HorizontalPageBreaks` และ `VerticalPageBreaks` การรวบรวมและการใช้งาน `RemoveAt` วิธี.
 
 ### ฉันจะรู้ได้อย่างไรว่าควรใช้ดัชนีใดสำหรับแบ่งหน้า  
 คุณสามารถทำซ้ำผ่านการแบ่งหน้าโดยใช้การวนซ้ำเพื่อพิมพ์ดัชนีหรือตรวจสอบดัชนีเหล่านั้นผ่านดีบักเกอร์
 
 ### มีวิธีเพิ่มตัวแบ่งหน้าที่ถูกลบออกไปอีกครั้งหรือไม่  
- น่าเสียดายที่เมื่อลบตัวแบ่งหน้าโดยใช้`RemoveAt` วิธีการนี้ไม่สามารถคืนค่าได้ภายในเซสชันนั้น คุณจะต้องสร้างใหม่ด้วยตนเอง
+น่าเสียดายที่เมื่อลบตัวแบ่งหน้าโดยใช้ `RemoveAt` วิธีการนี้ไม่สามารถคืนค่าได้ภายในเซสชันนั้น คุณจะต้องสร้างใหม่ด้วยตนเอง
 
 ### ฉันสามารถนำวิธีนี้ไปใช้กับเวิร์คชีตอื่น ๆ ในเวิร์คบุ๊กได้หรือไม่  
- แน่นอนครับ เพียงเปลี่ยนเลขดัชนีเป็น`workbook.Worksheets[index]` เพื่อกำหนดเป้าหมายแผ่นงานที่ต้องการ
+แน่นอนครับ เพียงเปลี่ยนเลขดัชนีเป็น `workbook.Worksheets[index]` เพื่อกำหนดเป้าหมายแผ่นงานที่ต้องการ
 
 ### Aspose.Cells เป็นเครื่องมือฟรีหรือไม่?  
-Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถตรวจสอบได้[ที่นี่](https://purchase.aspose.com/buy).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการฟังก์ชันการทำงานเต็มรูปแบบ คุณจะต้องซื้อใบอนุญาต คุณสามารถตรวจสอบได้ [ที่นี่](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,135 +1,139 @@
 ---
-title: Menyembunyikan atau Menampilkan Tab di Lembar Kerja menggunakan Aspose.Cells
-linktitle: Menyembunyikan atau Menampilkan Tab di Lembar Kerja menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyembunyikan atau memperlihatkan tab di lembar Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 17
-url: /id/net/worksheet-display/hide-or-show-tabs/
+"description": "Ebben az átfogó, lépésről lépésre haladó oktatóanyagban megtudhatja, hogyan rejtheti el vagy jelenítheti meg a tabulátorokat az Excel-táblázatokban az Aspose.Cells for .NET használatával."
+"linktitle": "Tabulátorok elrejtése vagy megjelenítése a munkalapon az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tabulátorok elrejtése vagy megjelenítése a munkalapon az Aspose.Cells használatával"
+"url": "/id/net/worksheet-display/hide-or-show-tabs/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menyembunyikan atau Menampilkan Tab di Lembar Kerja menggunakan Aspose.Cells
+# Tabulátorok elrejtése vagy megjelenítése a munkalapon az Aspose.Cells használatával
 
-## Perkenalan
+## Bevezetés
 
-Jika Anda pernah bekerja dengan dokumen Excel, Anda mungkin familier dengan tab-tab kecil di bagian bawah buku kerja. Tab-tab itu seperti panduan ramah lingkungan, yang memperlihatkan semua lembar di buku kerja Anda. Namun, bagaimana jika Anda menginginkan tampilan yang lebih rapi? Atau mungkin Anda sedang mempersiapkan presentasi dan ingin merahasiakan beberapa hal. Di sinilah Aspose.Cells berperan! Dalam panduan ini, saya akan memandu Anda melalui proses menyembunyikan atau menampilkan tab-tab ini menggunakan Aspose.Cells untuk .NET. Jadi, mari kita langsung mulai!
+Ha valaha is dolgoztál Excel dokumentumokkal, akkor valószínűleg ismerősek azok a kis fülek a munkafüzet alján. Olyanok, mint a barátságos környékbeli kalauzok, amelyek megmutatják a munkafüzet összes munkalapját. De mi van, ha letisztultabb megjelenésre vágysz? Vagy talán egy prezentációt készítesz, és szeretnél néhány dolgot titokban tartani? Itt jön képbe az Aspose.Cells! Ebben az útmutatóban végigvezetlek azon, hogyan rejtheted el vagy jelenítheted meg ezeket a füleket az Aspose.Cells for .NET segítségével. Akkor vágjunk bele!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai mengubah tab-tab tersebut di lembar kerja Excel Anda, pastikan Anda telah menyiapkan semuanya. Berikut ini yang Anda perlukan:
+Mielőtt elkezdenénk a fülek finomhangolását az Excel-munkafüzetben, győződjünk meg róla, hogy mindent beállítottunk. Íme, amire szükséged van:
 
-1. .NET Framework: Pastikan Anda telah menginstal .NET Framework (versi 4.0 atau lebih tinggi) di komputer Anda.
-2.  Pustaka Aspose.Cells: Anda harus memiliki pustaka Aspose.Cells. Anda dapat[unduh disini](https://releases.aspose.com/cells/net/)Semudah mengklik tombol!
-3. Lingkungan Pengembangan: Editor kode atau IDE (seperti Visual Studio) tempat Anda dapat menulis dan menguji kode C# Anda.
-4. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu tetapi tidak sepenuhnya diperlukan jika Anda mengikutinya dengan saksama.
+1. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer (4.0-s vagy újabb verzió) telepítve van a gépén.
+2. Aspose.Cells könyvtár: Szükséged lesz az Aspose.Cells könyvtárra. [töltsd le itt](https://releases.aspose.com/cells/net/)Olyan egyszerű, mint egy gombra kattintani!
+3. Fejlesztői környezet: Egy kódszerkesztő vagy IDE (mint például a Visual Studio), ahol C# kódot írhatsz és tesztelhetsz.
+4. C# alapismeretek: A C# programozásban való jártasság hasznos lesz, de nem feltétlenül szükséges, ha szorosan követed az utasításokat.
 
-## Paket Impor
+## Csomagok importálása
 
-Sebelum kita dapat bermain dengan tab tersebut, kita harus memastikan bahwa kita telah mengimpor paket Aspose.Cells yang diperlukan ke dalam proyek kita. Berikut cara mengaturnya:
+Mielőtt elkezdhetnénk játszani ezekkel a fülekkel, meg kell győződnünk arról, hogy a szükséges Aspose.Cells csomag importálva van a projektünkbe. Így állíthatjuk be ezt:
 
-### Buat Proyek Baru
+### Új projekt létrehozása
 
-Buka IDE Anda (seperti Visual Studio), dan buat proyek C# baru:
+Nyisd meg az IDE-det (például a Visual Studio-t), és hozz létre egy új C# projektet:
 
-- Pilih "Proyek Baru."
-- Pilih "Aplikasi Konsol (.NET Framework)." 
-- Beri nama sesuatu yang menyenangkan, seperti “ExcelTabManipulator!”
+- Válassza az „Új projekt” lehetőséget.
+- Válassza a „Konzolalkalmazás (.NET-keretrendszer)” lehetőséget. 
+- Nevezd el valami szórakoztatónak, például „ExcelTabManipulator!”
 
-### Tambahkan Referensi Aspose.Cells
+### Aspose.Cells hivatkozás hozzáadása
 
-Selanjutnya, kita harus menyertakan pustaka Aspose.Cells dalam proyek kita:
+Ezután be kell illesztenünk az Aspose.Cells könyvtárat a projektünkbe:
 
-- Klik kanan pada proyek Anda di Solution Explorer dan klik "Kelola Paket NuGet."
-- Cari "Aspose.Cells" dan klik "Instal." 
-- Ini akan memungkinkan Anda mengakses fitur-fiturnya langsung dari kode Anda.
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
+- Keresd meg az „Aspose.Cells” fájlt, és kattints a „Telepítés” gombra. 
+- Ez lehetővé teszi, hogy közvetlenül a kódodból elérd a funkcióit.
 
-### Sertakan Pernyataan Penggunaan yang Diperlukan
+### Tartalmazza a szükséges használati utasítást
 
-Di bagian atas file Program.cs Anda, tambahkan baris berikut untuk mengimpor namespace Aspose.Cells:
+A Program.cs fájl tetején add hozzá a következő sort az Aspose.Cells névtér importálásához:
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Dan voilà! Anda sudah siap untuk memanipulasi lembar Excel tersebut.
+És voilá! Készen is állsz az Excel-táblázatok kezelésére.
 
-Setelah semuanya siap, saatnya memulai pengkodean. Kita akan membaginya menjadi beberapa langkah yang mudah dipahami.
+Most, hogy mindent előkészítettünk, itt az ideje elkezdeni a kódolást. Ezt több könnyen emészthető lépésre bontjuk.
 
-## Langkah 1: Tentukan Direktori Dokumen Anda
+## 1. lépés: Dokumentumkönyvtár meghatározása
 
-Pertama, kita perlu mengarahkan aplikasi kita ke tempat file Excel kita berada. Mari buat variabel string yang menyimpan jalur ke dokumen Anda:
+Először is, az alkalmazásunknak oda kell mutatnia, ahol az Excel fájlunk található. Hozzunk létre egy karakterlánc változót, amely a dokumentumok elérési útját tartalmazza:
 
 ```csharp
-string dataDir = "Your Document Directory";  // Perbarui ini ke jalur direktori Anda
+string dataDir = "Your Document Directory";  // Frissítse ezt a könyvtár elérési útjára
 ```
 
-## Langkah 2: Buka File Excel
+## 2. lépés: Nyissa meg az Excel-fájlt
 
- Selanjutnya, kita perlu memuat file Excel yang ingin kita mainkan. Kita akan membuat`Workbook` objek, dan meneruskan jalur berkas kita ke sana.
+Ezután be kell töltenünk az Excel fájlt, amellyel játszani szeretnénk. Létrehozunk egy `Workbook` objektumot, átadva neki a fájl elérési útját.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- Pikirkanlah tentang`Workbook` kelas sebagai kunci ajaib Anda — ini membuka pintu ke semua konten di dalam file Excel Anda!
+Gondolj a `Workbook` osztály, mint a varázskulcsod — megnyitja az ajtót az Excel-fájlodban található összes tartalomhoz!
 
-## Langkah 3: Menyembunyikan Tab
+## 3. lépés: A fülek elrejtése
 
- Nah, di sinilah kesenangan dimulai! Untuk menyembunyikan tab, Anda cukup mengubah properti yang disebut`ShowTabs` Atur ke`false`, seperti ini:
+És most kezdődik a móka! A fülek elrejtéséhez egyszerűen módosítsd a következő tulajdonságot: `ShowTabs`. Állítsa be erre: `false`, például így:
 
 ```csharp
 workbook.Settings.ShowTabs = false;
 ```
 
-Dengan melakukan ini, Anda memberi tahu Excel, “Hei, rahasiakan tab-tab itu!”
+Ezzel azt mondod az Excelnek: „Hé, tartsd titokban ezeket a füleket!”
 
-## Langkah 4: Menyimpan Perubahan Anda
+## 4. lépés: A módosítások mentése
 
- Setelah melakukan perubahan, kita perlu menyimpan buku kerja yang dimodifikasi. Gunakan`Save` metode untuk membuat file baru:
+A módosítások elvégzése után mentenünk kell a módosított munkafüzetet. Használjuk a `Save` új fájl létrehozásának módja:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
-Nah, sekarang Anda sudah berhasil! File Excel Anda akan tersimpan tanpa tab-tab tersebut muncul.
+Most már kész is vagy! Az Excel-fájlod mentésre kerül a fülek nélkül.
 
-## Langkah 5: Tampilkan Tab Lagi (opsional)
+## 5. lépés: A fülek újbóli megjelenítése (opcionális)
 
-Jika Anda menginginkan tab tersebut kembali (karena siapa yang tidak menyukai balasan yang bagus?), Anda dapat menghapus komentar pada baris kode yang menampilkan tab lagi:
+Ha valaha is vissza szeretnéd kapni a füleket (mert ki ne szeretne egy jó visszatérést?), akkor eltávolíthatod a megjegyzésből azt a kódsort, amely újra megjeleníti a füleket:
 
 ```csharp
-// workbook.Settings.ShowTabs = benar;
+// workbook.Settings.ShowTabs = true;
 ```
 
-Ingatlah untuk menyimpan lagi!
+Csak ne felejtsd el újra menteni!
 
-## Kesimpulan
+## Következtetés
 
-Nah, itu dia! Hanya dengan beberapa baris kode, Anda telah mengendalikan cara lembar Excel Anda menampilkan tab-tab yang mengganggu tersebut menggunakan Aspose.Cells for .NET. Apakah Anda ingin buku kerja Anda terlihat rapi dan halus atau merahasiakan beberapa hal dari audiens Anda, alat ini menyediakan fleksibilitas yang Anda butuhkan. 
+És íme! Néhány sornyi kóddal átveheted az irányítást, hogy az Excel-táblázataid hogyan jelenítsék meg a bosszantó füleket az Aspose.Cells for .NET segítségével. Akár azt szeretnéd, hogy a munkafüzeted letisztult és elegáns legyen, akár bizonyos dolgokat privátként szeretnél megjeleníteni a közönséged számára, ez az eszköz biztosítja a szükséges rugalmasságot. 
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah saya menyembunyikan tab pada versi Excel apa pun?
-Ya! Aspose.Cells mendukung berbagai format Excel, sehingga Anda dapat menyembunyikan tab apa pun versinya.
+### Elrejthetek füleket bármelyik Excel verzióban?
+Igen! Az Aspose.Cells számos Excel formátumot támogat, így a tabulátorokat a verziótól függetlenül elrejtheted.
 
-### Apakah menyembunyikan tab akan memengaruhi data saya?
-Tidak, menyembunyikan tab hanya mengubah aspek visual buku kerja Anda; data Anda tetap utuh.
+### Befolyásolja-e a fülek elrejtése az adataimat?
+Nem, a tabulátorok elrejtése csak a munkafüzet vizuális megjelenését módosítja; az adatok érintetlenek maradnak.
 
-### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?
-Anda dapat menjelajahi lebih banyak fitur di[dokumentasi](https://reference.aspose.com/cells/net/).
+### Hol találok többet az Aspose.Cells-ről?
+További funkciókat fedezhet fel a [dokumentáció](https://reference.aspose.com/cells/net/).
 
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?
- Tentu saja! Anda dapat mengakses[uji coba gratis](https://releases.aspose.com/) untuk mengeksplorasi kemampuannya.
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Abszolút! Hozzáférhet egy [ingyenes próba](https://releases.aspose.com/) hogy felfedezze a képességeit.
 
-### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
- Anda dapat mencari bantuan dari forum dukungan khusus yang ditemukan[Di Sini](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást, ha problémákba ütközöm?
+Segítséget kérhetsz a dedikált támogatási fórumon, amely megtalálható [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

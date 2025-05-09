@@ -1,14 +1,16 @@
 ---
-title: Dostęp do etykiety obiektu OLE w programie Excel
-linktitle: Dostęp do etykiety obiektu OLE w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak uzyskać dostęp i modyfikować etykiety obiektów OLE w programie Excel przy użyciu Aspose.Cells dla .NET. Prosty przewodnik z dołączonymi przykładami kodu.
-weight: 10
-url: /pl/net/excel-shape-label-access/access-ole-object-label-excel/
+"description": "Dowiedz się, jak uzyskać dostęp i modyfikować etykiety obiektów OLE w programie Excel przy użyciu Aspose.Cells dla .NET. Prosty przewodnik z dołączonymi przykładami kodu."
+"linktitle": "Dostęp do etykiety obiektu OLE w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dostęp do etykiety obiektu OLE w programie Excel"
+"url": "/pl/net/excel-shape-label-access/access-ole-object-label-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostęp do etykiety obiektu OLE w programie Excel
@@ -20,7 +22,7 @@ Jeśli kiedykolwiek bawiłeś się Excelem, wiesz, jak potężny i skomplikowany
 Zanim przejdziemy do pełnego akcji świata Aspose.Cells dla platformy .NET, oto, co musisz mieć w swoim zestawie narzędzi:
 1. Zainstalowany program Visual Studio: To będzie Twój plac zabaw, w którym będziesz kodował i testował swoją aplikację w języku C#.
 2. .NET Framework: Upewnij się, że pracujesz przynajmniej z .NET Framework 4.0 lub nowszym. To da naszemu programowi niezbędną podstawę do płynnej pracy.
-3.  Biblioteka Aspose.Cells: Będziesz potrzebować kopii biblioteki Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/) . Jeśli chcesz wypróbować przed zakupem, sprawdź[bezpłatny okres próbny](https://releases.aspose.com/).
+3. Biblioteka Aspose.Cells: Będziesz potrzebować kopii biblioteki Aspose.Cells. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/). Jeśli chcesz wypróbować przed zakupem, sprawdź [bezpłatny okres próbny](https://releases.aspose.com/).
 4. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci szybko poruszać się po kodzie.
 Mając to już za sobą, przyjrzyjmy się bliżej kwestii dostępu do etykiet obiektów OLE i ich modyfikacji!
 ## Importuj pakiety 
@@ -33,7 +35,7 @@ Na początek musimy zaimportować niezbędne pakiety do naszego projektu. Ułatw
 - Wybierz „Zarządzaj pakietami NuGet”.
 - Wyszukaj „Aspose.Cells” i zainstaluj bibliotekę.
 ### Importuj przestrzenie nazw
- Na górze pliku programu (np.`Program.cs`), należy zaimportować niezbędne przestrzenie nazw:
+Na górze pliku programu (np. `Program.cs`), należy zaimportować niezbędne przestrzenie nazw:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -44,7 +46,7 @@ using System.IO;
 Te przestrzenie nazw ułatwią nam dostęp do klas i metod potrzebnych do wykonywania operacji w programie Excel.
 Teraz, gdy wszystko jest na swoim miejscu, uzyskajmy dostęp i zmodyfikujmy etykietę obiektu OLE osadzonego w pliku Excel. Postępuj zgodnie z poniższym przewodnikiem krok po kroku:
 ## Krok 1: Ustaw katalog źródłowy
- Najpierw zdefiniujmy katalog, w którym znajduje się Twój dokument Excel. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką dokumentu.
+Najpierw zdefiniujmy katalog, w którym znajduje się Twój dokument Excel. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką dokumentu.
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
@@ -53,13 +55,13 @@ Następnie załadujemy plik Excela .xlsx zawierający nasz obiekt OLE:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
 ```
- Ta linia inicjuje`Workbook` obiekt dający nam dostęp do wszystkich arkuszy kalkulacyjnych i komponentów pliku Excel.
+Ta linia inicjuje `Workbook` obiekt dający nam dostęp do wszystkich arkuszy i komponentów pliku Excel.
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Teraz przejdźmy do pierwszego arkusza w naszym skoroszycie:
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
- Tutaj,`Worksheets[0]` jest pierwszym arkuszem w kolekcji.
+Tutaj, `Worksheets[0]` jest pierwszym arkuszem w kolekcji.
 ## Krok 4: Dostęp do pierwszego obiektu OLE 
 Następnie pobierzemy pierwszy obiekt OLE:
 ```csharp
@@ -73,7 +75,7 @@ Console.WriteLine("Ole Object Label - Before: " + oleObject.Label);
 ```
 Dzięki temu możemy zapoznać się z etykietą przed wprowadzeniem jakichkolwiek zmian.
 ## Krok 6: Modyfikuj etykietę 
-teraz czas na zabawę — zmieńmy etykietę obiektu OLE:
+A teraz czas na zabawę — zmieńmy etykietę obiektu OLE:
 ```csharp
 oleObject.Label = "Aspose APIs";
 ```
@@ -116,7 +118,7 @@ Na koniec wyślij komunikat o powodzeniu, abyśmy wiedzieli, że wszystko poszł
 Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ```
 ## Wniosek 
-I masz! Udało Ci się uzyskać dostęp i zmodyfikować etykietę obiektu OLE w programie Excel przy użyciu Aspose.Cells dla .NET. To świetny sposób na dodanie osobistego akcentu do osadzonych dokumentów, zwiększając przejrzystość i komunikację w arkuszach kalkulacyjnych. 
+masz! Udało Ci się uzyskać dostęp i zmodyfikować etykietę obiektu OLE w programie Excel przy użyciu Aspose.Cells dla .NET. To świetny sposób na dodanie osobistego akcentu do osadzonych dokumentów, zwiększając przejrzystość i komunikację w arkuszach kalkulacyjnych. 
 Niezależnie od tego, czy rozwijasz fajną aplikację, czy po prostu odświeżasz swoje raporty, manipulowanie obiektami OLE może być przełomem. Kontynuuj odkrywanie tego, co oferuje Aspose.Cells, a odkryjesz cały świat możliwości.
 ## Najczęściej zadawane pytania
 ### Czym jest obiekt OLE w programie Excel?  
@@ -124,14 +126,16 @@ Obiekty OLE to osadzone pliki umożliwiające integrację dokumentów z innych a
 ### Czy Aspose.Cells współpracuje z innymi formatami plików?  
 Tak! Aspose.Cells obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne.
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?  
- Tak! Możesz spróbować[Tutaj](https://releases.aspose.com/).
+Tak! Możesz spróbować [Tutaj](https://releases.aspose.com/).
 ### Czy mogę uzyskać dostęp do wielu obiektów OLE w arkuszu kalkulacyjnym?  
-Oczywiście! Możesz przejść przez`ws.OleObjects` aby uzyskać dostęp do wszystkich osadzonych obiektów OLE w arkuszu kalkulacyjnym.
+Oczywiście! Możesz przejść przez `ws.OleObjects` aby uzyskać dostęp do wszystkich osadzonych obiektów OLE w arkuszu kalkulacyjnym.
 ### Jak kupić licencję na Aspose.Cells?  
- Licencję można kupić bezpośrednio od[Tutaj](https://purchase.aspose.com/buy).
+Licencję można kupić bezpośrednio od [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

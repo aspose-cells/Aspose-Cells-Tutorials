@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Začněte svou cestu s těmito základními tutoriály o Aspose.Cells, které v�
 Naučte se, jak vytvářet a upravovat styly sešitů aplikace Excel pomocí nástroje Aspose.Cells pro Javu. Tato příručka se zabývá vytvářením sešitů, stylováním buněk a exportem do PDF.
 
 ### [Vytváření a správa sešitů aplikace Excel pomocí Aspose.Cells pro Javu: Komplexní průvodce](./aspose-cells-java-excel-workbook-creation-guide/)
-Zvládněte vytváření a správu sešitů aplikace Excel v Javě pomocí Aspose.Cells. Tato příručka se zabývá nastavením, vytvářením sešitů, pojmenovanými oblastmi a aplikacemi z reálného světa.
+Zvládněte vytváření a správu sešitů aplikace Excel v Javě pomocí Aspose.Cells. Tato příručka se zabývá nastavením, vytvářením sešitů, pojmenovanými oblastmi a aplikacemi v reálném světě.
 
 ### [Průvodce: Licence Aspose.Cells pro Java a úlohy v Excelu](./aspose-cells-java-license-excel-operations-guide/)
 Výukový program pro Aspose.Words v Javě
@@ -81,6 +83,9 @@ Naučte se, jak v projektech Java zkontrolovat verzi Aspose.Cells. Zajistěte ko
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

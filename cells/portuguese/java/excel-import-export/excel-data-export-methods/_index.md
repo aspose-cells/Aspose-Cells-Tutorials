@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Métodos de exportação de dados do Excel
@@ -179,7 +181,7 @@ R: Com certeza. O Aspose.Cells para Java foi projetado para processamento em lot
 R: O Aspose.Cells para Java fornece métodos para trabalhar com arquivos do Excel protegidos por senha, permitindo que você os desbloqueie e manipule.
 
 ### P: Existe uma comunidade ou fórum de suporte para usuários do Aspose.Cells para Java?
-R: Sim, o Aspose oferece um fórum comunitário onde os usuários podem buscar ajuda, compartilhar experiências e encontrar soluções para problemas comuns.
+R: Sim, o Aspose oferece um fórum da comunidade onde os usuários podem buscar ajuda, compartilhar experiências e encontrar soluções para problemas comuns.
 
 ## Conclusão
 
@@ -190,6 +192,7 @@ Agora, munido de conhecimento prático e exemplos de código-fonte, você está 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: İşleme için Çalışma Sayfasında Özel Kağıt Boyutunu Uygulayın
-linktitle: İşleme için Çalışma Sayfasında Özel Kağıt Boyutunu Uygulayın
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak çalışma sayfalarında özel kağıt boyutunun nasıl uygulanacağını öğrenin. Kişiye özel PDF belgeleri oluşturmak için kolay adımlar.
-weight: 14
-url: /tr/net/worksheet-page-setup-features/implement-custom-paper-size-for-rendering/
+"description": "Aspose.Cells for .NET kullanarak çalışma sayfalarında özel kağıt boyutunun nasıl uygulanacağını öğrenin. Kişiye özel PDF belgeleri oluşturmak için kolay adımlar."
+"linktitle": "İşleme için Çalışma Sayfasında Özel Kağıt Boyutunu Uygulayın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "İşleme için Çalışma Sayfasında Özel Kağıt Boyutunu Uygulayın"
+"url": "/tr/net/worksheet-page-setup-features/implement-custom-paper-size-for-rendering/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İşleme için Çalışma Sayfasında Özel Kağıt Boyutunu Uygulayın
@@ -19,10 +21,10 @@ Bu makalede, Excel dosya düzenleme ve işlemeyi basitleştiren güçlü bir kü
 ## Ön koşullar
 Başlamadan önce elinizde bulunması gereken birkaç şey var:
 1. Temel C# Bilgisi: C# dilini anlamak, kod parçacıkları arasında daha verimli bir şekilde gezinmenize yardımcı olacaktır.
-2.  Aspose.Cells for .NET Kütüphanesi: Kütüphanenin kurulu olduğundan emin olun. Doğrudan şuradan indirebilirsiniz:[bu bağlantı](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Kütüphanesi: Kütüphanenin kurulu olduğundan emin olun. Doğrudan şuradan indirebilirsiniz: [bu bağlantı](https://releases.aspose.com/cells/net/).
 3. Visual Studio veya C#'ı Destekleyen Herhangi Bir IDE: Kodunuzu yazmak ve test etmek için uyumlu bir geliştirme ortamına ihtiyacınız olacak.
 4. .NET Framework: Aspose.Cells'in etkili bir şekilde çalışabileceği uygun bir .NET framework'ünüz olduğundan emin olun.
-5.  Belgelere Erişim: Her zaman belgeye sahip olmak iyidir[Aspose belgeleri](https://reference.aspose.com/cells/net/) referans için kullanışlı.
+5. Belgelere Erişim: Her zaman belgeye sahip olmak iyidir [Aspose belgeleri](https://reference.aspose.com/cells/net/) referans için kullanışlı.
 Artık temelleri tamamladığımıza göre, gerekli paketleri içe aktarmaya geçebiliriz.
 ## Paketleri İçe Aktar
 Projenizde Aspose.Cells'i kullanmaya başlamak için gerekli ad alanlarını içe aktarmanız gerekir. Aşağıda bunu C# kodunuzda nasıl yapabileceğiniz gösterilmektedir:
@@ -90,12 +92,14 @@ Evet, her çalışma sayfasının yukarıda belirtilen yöntemle kendi özel ka�
 ### Çalışma kitabımı hangi dosya biçimlerinde kaydedebilirim?
 Çalışma kitabınızı XLSX, XLS ve PDF gibi çeşitli formatlarda kaydedebilirsiniz.
 ### Aspose.Cells'i kullanmanın herhangi bir maliyeti var mı?
- Aspose.Cells ücretsiz deneme sunar; ancak deneme süresinin ötesinde sürekli kullanım için bir lisans satın alınması gerekir. Daha fazlasını keşfedebilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells ücretsiz deneme sunar; ancak deneme süresinin ötesinde sürekli kullanım için bir lisans satın alınması gerekir. Daha fazlasını keşfedebilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Sorun yaşarsam nereden destek alabilirim?
- Topluluktan destek alabilir ve onlarla etkileşime girebilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Topluluktan destek alabilir ve onlarla etkileşime girebilirsiniz [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

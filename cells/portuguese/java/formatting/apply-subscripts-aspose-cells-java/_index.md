@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Aquisição de Licença
 
-O Aspose.Cells oferece um teste gratuito, licenças temporárias e versões pagas. Comece baixando um [teste gratuito](https://releases.aspose.com/cells/java/) para explorar seus recursos sem limitações. Para testes prolongados ou uso em produção, considere obter um [licença temporária](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells oferece um teste gratuito, licenças temporárias e versões pagas. Comece baixando um [teste gratuito](https://releases.aspose.com/cells/java/) para explorar seus recursos sem limitações. Para testes prolongados ou uso em produção, considere obter um [licença temporária](https://purchase.aspose.com/temporary-license/).
 
 #### Inicialização básica
 
@@ -148,6 +150,9 @@ Os próximos passos incluem explorar outras opções de formatação de texto, c
 Experimente o Aspose.Cells para Java para desbloquear poderosos recursos de automação do Excel e não hesite em explorar sua documentação abrangente para obter mais informações.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

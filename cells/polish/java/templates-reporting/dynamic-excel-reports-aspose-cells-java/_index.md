@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Gotowy wdrożyć to, czego się nauczyłeś? Zacznij budować dynamiczne raporty
 Zanurz się w świecie dynamicznych raportów programu Excel dzięki Aspose.Cells for Java i odkryj nowe możliwości zarządzania danymi!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

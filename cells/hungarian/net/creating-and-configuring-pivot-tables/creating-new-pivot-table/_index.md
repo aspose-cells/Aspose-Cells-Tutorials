@@ -1,33 +1,35 @@
 ---
-title: Új kimutatástábla létrehozása programozottan a .NET-ben
-linktitle: Új kimutatástábla létrehozása programozottan a .NET-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan lehet programozottan pivot táblát létrehozni .NET-ben az Aspose.Cells használatával lépésről lépésre. Hatékonyan elemezze adatait.
-weight: 13
-url: /hu/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
+"description": "Tanuld meg, hogyan hozhatsz létre pivot táblát programozottan .NET-ben az Aspose.Cells segítségével lépésről lépésre bemutató útmutatónkkal. Elemezd hatékonyan az adataidat."
+"linktitle": "Új pivot tábla létrehozása programozottan .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Új pivot tábla létrehozása programozottan .NET-ben"
+"url": "/hu/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Új kimutatástábla létrehozása programozottan a .NET-ben
+# Új pivot tábla létrehozása programozottan .NET-ben
 
 ## Bevezetés
-A pivot tábla létrehozása megfélemlítő feladatnak tűnhet, különösen, ha programozottan csinálja. De ne félj! Az Aspose.Cells for .NET segítségével a pivot tábla összeállítása nem csak egyszerű, hanem az adatelemzés szempontjából is meglehetősen hatékony. Ebben az oktatóanyagban lépésről lépésre bemutatjuk, hogyan hozhat létre új pivot táblát egy .NET-alkalmazásban. Akár értékesítési, sport- vagy bármilyen más üzleti mutató adatait ad hozzá, ez az útmutató segít abban, hogy pillanatok alatt üzembe helyezze a kimutatási táblázatokat.
+Egy pivot tábla létrehozása ijesztő feladatnak tűnhet, különösen, ha programozottan csinálod. De ne félj! Az Aspose.Cells for .NET segítségével egy pivot tábla összeállítása nemcsak egyszerű, de meglehetősen hatékony is az adatelemzés szempontjából. Ebben az oktatóanyagban lépésről lépésre végigvezetünk azon, hogyan hozhatsz létre egy új pivot táblát egy .NET alkalmazásban. Akár értékesítési, sport- vagy bármilyen más üzleti mutatóhoz adsz hozzá adatokat, ez az útmutató segít abban, hogy a pivot tábláid pillanatok alatt működőképesek legyenek.
 
 ## Előfeltételek
-Mielőtt belemerülne, győződjön meg róla, hogy minden készen áll az útra. A következőket kell tennie:
+Mielőtt belevágnánk, győződjünk meg róla, hogy minden elő van készítve. Íme, mit kell tenned:
 
-1. A .NET-keretrendszer telepítése: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a számítógépen. Az Aspose.Cells különféle verziókat támogat, de a legjobb, ha ragaszkodunk a legújabbhoz.
-2.  Aspose.Cells Library: rendelkeznie kell az Aspose.Cells könyvtárral. Tudod[töltse le itt](https://releases.aspose.com/cells/net/)vagy kap a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékeléshez.
-3. IDE beállítása: Készítsen egy C#-kompatibilis IDE-t, például a Visual Studio-t, ahol új projektet indíthat.
-4. Alapvető C# ismeretek: A C# programozás ismerete segít abban, hogy haladjon anélkül, hogy túlságosan elakadna.
+1. Telepítse a .NET keretrendszert: Győződjön meg róla, hogy a .NET keretrendszer telepítve van a gépén. Az Aspose.Cells számos verziót támogat, de a legjobb, ha a legújabbat használja.
+2. Aspose.Cells könyvtár: Szükséged lesz az Aspose.Cells könyvtárra. [töltsd le itt](https://releases.aspose.com/cells/net/) vagy szerezz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) értékeléshez.
+3. IDE beállítás: Készíts elő egy C#-kompatibilis IDE-t, például a Visual Studio-t, ahol új projektet indíthatsz.
+4. C# alapismeretek: A C# programozásban való jártasság segít abban, hogy ne kalandozz el túlságosan.
 
-Minden készen áll? Nagy! Térjünk át a szükséges csomagok importálására.
+Készen állsz? Remek! Most pedig ugorjunk bele a szükséges csomagok importálásába.
 
 ## Csomagok importálása
-Először is importálnia kell a szükséges névtereket a C# projektbe. Nyissa meg a C# fájlt, és direktívák segítségével adja hozzá a következőket:
+Először is importálnod kell a szükséges névtereket a C# projektedbe. Nyisd meg a C# fájlt, és add hozzá a következőket direktívák használatával:
 
 ```csharp
 using System.IO;
@@ -35,25 +37,25 @@ using Aspose.Cells;
 using System.Drawing;
 ```
 
-Ezek a névterek hozzáférést biztosítanak az oktatóanyagban használt munkafüzetek, munkalapok és kimutatástábla funkciókhoz.
+Ezek a névterek hozzáférést biztosítanak a munkafüzet, a munkalap és a kimutatástábla funkcióihoz, amelyeket ebben az oktatóanyagban fogunk használni.
 
-## 1. lépés: Hozzon létre egy munkafüzet-objektumot
-A munkafüzet készítése az utazás kezdete. Kezdjük egy új munkafüzet példányosításával, és nyissa meg az első munkalapot.
+## 1. lépés: Munkafüzet-objektum létrehozása
+Egy munkafüzet létrehozása az utazásod kezdete. Kezdjük egy új munkafüzet létrehozásával és az első munkalap elérésével.
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Munkafüzet objektum példányosítása
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 
 // Az újonnan hozzáadott munkalap hivatkozásának beszerzése
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- Ebben a lépésben létrehozzuk a`Workbook`példányt, amely az Excel fájlunkat képviseli, és megragadja a legelső munkalapot, amely a pivot tábla játszóterévé válik.
+Ebben a lépésben létrehozunk egy `Workbook` példányt, amely az Excel-fájlunkat képviseli, és vedd elő az első munkalapot, amely a pivot tábla játszótere lesz.
 
-## 2. lépés: Szúrjon be adatokat a cellákba
-Ezután töltsük fel a munkalapunkat néhány mintaadattal. Sorokat fogunk bevinni a különböző sportágak, negyedévek és értékesítési adatokhoz, hogy összefoglaljuk a pivot táblázatunkat.
+## 2. lépés: Adatok beszúrása cellákba
+Következő lépésként töltsük fel a munkalapunkat néhány mintaadattal. Különböző sportágak, negyedévek és értékesítési adatok sorait fogjuk megadni, hogy legyen mit összefoglalnunk a pivot táblázatunkban.
 
 ```csharp
 Cells cells = sheet.Cells;
@@ -66,78 +68,80 @@ cell.PutValue("Quarter");
 cell = cells["C1"];
 cell.PutValue("Sales");
 
-// Adatcella kitöltése = cellák["A2"];
+// Kitöltés adatcella = cells["A2"];
 cell.PutValue("Golf");
 // ... További adatbevitelek
 ```
 
-Itt meghatározzuk az oszlopfejléceinket, és az egyes fejlécek alá értékeket szúrunk be. Ezek az adatok szolgálnak majd a kimutatástáblánk forrásaként, ezért ügyeljen a rendszerezettségre! Kövesse ezt a blokkot, és létrehoz egy átfogó adatkészletet.
+Itt az oszlopfejléceket definiáljuk, és értékeket szúrunk be az egyes fejlécek alá. Ezek az adatok szolgálnak majd a pivot tábla forrásaként, ezért ügyeljünk a rendszerezésre! Kövessük ezt a blokkot, és egy átfogó adathalmazt fogunk létrehozni.
 
 ## 3. lépés: Pivot tábla hozzáadása
-Ha készen állnak az adataink, ideje elkészíteni a kimutatástáblát. Az új pivot tábla hozzáadásához a munkalap pivot table gyűjteményét fogjuk használni.
+Miután az adataink készen állnak, itt az ideje létrehozni a pivot táblát. A munkalapon található pivot táblagyűjteményt fogjuk használni az új pivot tábla hozzáadásához.
 
 ```csharp
 Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
 
-// PivotTable hozzáadása a munkalaphoz
+// Kimutatás hozzáadása a munkalaphoz
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
 
-Ebben a részletben hozzáadunk egy pivot táblát a munkalaphoz, amely hivatkozik az adattartományunkra (ebben az esetben az A1-C8 cellákra). Elhelyezzük a pivot táblát az E3 cellától kezdve, és elnevezzük "PivotTable2"-nek. Elég egyszerű, igaz?
+Ebben a kódrészletben egy kimutatástáblát adunk a munkalaphoz, amely az adattartományunkra hivatkozik (ebben az esetben az A1-től C8-ig terjedő cellák). A kimutatástáblát az E3 cellától kezdődően helyezzük el, és „Kimutatás2. táblázat”-nak nevezzük el. Elég egyszerű, ugye?
 
-## 4. lépés: A Pivot Table testreszabása
-Most, hogy megvan a kimutatástáblázatunk, szabjuk személyre, hogy értelmes összefoglalókat jelenítsen meg. Szabályozhatjuk, hogy mi jelenjen meg a pivot tábla soraiban, oszlopaiban és adatterületein.
+## 4. lépés: A kimutatástábla testreszabása
+Most, hogy elkészült a pivot táblánk, szabjuk testre, hogy értelmes összefoglalásokat jelenítsen meg. Beállíthatjuk, hogy mi jelenjen meg a pivot tábla soraiban, oszlopaiban és adatterületein.
 
 ```csharp
-// Az újonnan hozzáadott kimutatáspéldány elérése
+// Az újonnan hozzáadott PivotTable példányának elérése
 Aspose.Cells.Pivot.PivotTable pivotTable = pivotTables[index];
 
-// A sorok végösszegei nem jelennek meg.
+// Sorok végösszegeinek megjelenítésének kikapcsolása.
 pivotTable.RowGrand = false;
 
-// Az első mező húzása a sorterületre.
+// Az első mező áthúzása a sorterületre.
 pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Row, 0);
 
-// A második mező húzása az oszlopterületre.
+// A második mező áthúzása az oszlopterületre.
 pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
 
-// A harmadik mező húzása az adatterületre.
+// A harmadik mező áthúzása az adatterületre.
 pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
 ```
 
-Ebben a lépésben azt mondjuk a pivot táblának, hogy rejtse el a sorok végösszegét, majd adja meg, hogy mely mezők kerüljenek a sorba, oszlopba és adatterületre. A sportágak nevei töltik ki a sorokat, a negyedévek az oszlopokat, az eladási adatok pedig az összefoglalókat.
+Ebben a lépésben azt utasítjuk a pivot táblának, hogy rejtse el a sorok végösszegeit, majd megadjuk, hogy mely mezők kerüljenek a sor-, oszlop- és adatmezőkbe. A sportágak nevei töltik ki a sorokat, a negyedévek az oszlopokat, az értékesítési adatok pedig az összesítéseket.
 
-## 5. lépés: Mentse el a munkafüzetet
-Végül el akarjuk menteni az újonnan készített munkafüzetünket, hogy lássuk munkánk gyümölcsét.
+## 5. lépés: A munkafüzet mentése
+Végül szeretnénk elmenteni az újonnan létrehozott munkafüzetünket, hogy lássuk munkánk gyümölcsét.
 
 ```csharp
 // Az Excel fájl mentése
 workbook.Save(dataDir + "pivotTable_test_out.xls");
 ```
 
-Csak adja meg a megfelelő elérési utat, és a kimutatástáblázat kimenetét egy Excel-fájlba menti, amelyet megnyithat és áttekinthet.
+Csak adjon meg egy megfelelő elérési utat, és a pivot tábla kimenete egy Excel-fájlba lesz mentve, amelyet megnyithat és áttekinthet.
 
 ## Következtetés
-A pivot táblák programozott létrehozása az Aspose.Cells for .NET használatával jelentősen időt takaríthat meg, különösen nagy adatkészletek kezelésekor. Megtanulta a projekt beállítását, a szükséges csomagok importálását, az adatok feltöltését és a testreszabható pivot tábla létrehozását a semmiből. Tehát, amikor legközelebb belefullad a számokba, emlékezzen erre az oktatóanyagra, és hagyja, hogy az Aspose.Cells elvégezze helyette a nehézségeket.
+Az Aspose.Cells for .NET segítségével programozottan létrehozott pivot táblák jelentős időt takaríthatnak meg, különösen nagy adathalmazok kezelésekor. Megtanultad, hogyan állítsd be a projektedet, hogyan importáld a szükséges csomagokat, hogyan töltsd fel az adatokat, és hogyan hozz létre egy testreszabható pivot táblát a nulláról. Tehát, amikor legközelebb számokban fuldoklodsz, ne feledd ezt az oktatóanyagot, és hagyd, hogy az Aspose.Cells elvégezze a nehéz munkát helyetted.
 
 ## GYIK
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy hatékony .NET-könyvtár Excel-táblázatok programozott létrehozásához és kezeléséhez.
+Az Aspose.Cells egy hatékony .NET könyvtár Excel-táblázatok programozott létrehozásához és kezeléséhez.
 
-### Létezik ingyenes próbaverzió az Aspose.Cells számára?
- Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Igen, kérhetsz ingyenes próbaverziót [itt](https://releases.aspose.com/).
 
 ### Testreszabhatom a pivot tábla megjelenését?
-Teljesen! Igényei szerint testreszabhatja a pivot tábla formázását, elrendezését és akár stílusait is.
+Természetesen! A pivot tábla formázását, elrendezését és még a stílusait is testreszabhatja az igényei szerint.
 
-### Hol találok további példákat és dokumentációt az Aspose.Cells webhelyen?
- Ellenőrizheti a[dokumentáció](https://reference.aspose.com/cells/net/) átfogó útmutatókért és példákért.
+### Hol találok további példákat és dokumentációt az Aspose.Cells-ről?
+Ellenőrizheti a [dokumentáció](https://reference.aspose.com/cells/net/) átfogó útmutatókért és példákért.
 
 ### Hogyan kaphatok támogatást az Aspose.Cells-hez?
- A támogatást a[Aspose fórum](https://forum.aspose.com/c/cells/9).
+Támogatást kaphatsz a következőn keresztül: [Aspose fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

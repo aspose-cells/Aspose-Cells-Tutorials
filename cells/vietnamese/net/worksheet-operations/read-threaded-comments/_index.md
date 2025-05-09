@@ -1,14 +1,16 @@
 ---
-title: Đọc các bình luận có chủ đề trong bảng tính
-linktitle: Đọc các bình luận có chủ đề trong bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh đọc chú thích theo luồng trong Excel với Aspose.Cells cho .NET. Khám phá hướng dẫn từng bước này để xử lý tài liệu dễ dàng.
-weight: 22
-url: /vi/net/worksheet-operations/read-threaded-comments/
+"description": "Mở khóa sức mạnh đọc chú thích theo luồng trong Excel với Aspose.Cells cho .NET. Khám phá hướng dẫn từng bước này để xử lý tài liệu dễ dàng."
+"linktitle": "Đọc các bình luận có chủ đề trong bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đọc các bình luận có chủ đề trong bảng tính"
+"url": "/vi/net/worksheet-operations/read-threaded-comments/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đọc các bình luận có chủ đề trong bảng tính
@@ -19,8 +21,8 @@ Trong thời đại kỹ thuật số ngày nay, việc quản lý và cộng t�
 Trước khi tìm hiểu mã và các bước cần thiết để đọc chú thích theo luồng trong Excel bằng Aspose.Cells, bạn cần đảm bảo rằng mình đã có một số điều cơ bản sau:
 1. Kiến thức cơ bản về C#: Cần phải quen thuộc với C# và .NET Framework vì các ví dụ mã được cung cấp sẽ bằng C#.
 2. Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình để chạy mã C#.
-3.  Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells vào dự án của bạn. Bạn có thể tìm thấy nó trên[Trang web Aspose](https://releases.aspose.com/cells/net/).
-4.  Tệp Excel mẫu: Có một tệp Excel mẫu (chẳng hạn như`ThreadedCommentsSample.xlsx`) được lưu trong thư mục chứa các bình luận có chủ đề nhằm mục đích thử nghiệm.
+3. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells vào dự án của bạn. Bạn có thể tìm thấy nó trên [Trang web Aspose](https://releases.aspose.com/cells/net/).
+4. Tệp Excel mẫu: Có một tệp Excel mẫu (chẳng hạn như `ThreadedCommentsSample.xlsx`) được lưu trong thư mục chứa các bình luận có chủ đề nhằm mục đích thử nghiệm.
 ## Nhập gói
 Để bắt đầu, bạn sẽ cần đưa các không gian tên cần thiết vào dự án C# của mình. Điều này cho phép bạn tận dụng các tính năng mạnh mẽ do thư viện Aspose.Cells cung cấp.
 ```csharp
@@ -38,9 +40,9 @@ Bước đầu tiên là chỉ định thư mục chứa tệp Excel của bạn
 // Thư mục nguồn
 string sourceDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế của thư mục chứa tệp Excel của bạn.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế của thư mục chứa tệp Excel của bạn.
 ## Bước 2: Tạo một đối tượng Workbook
- Sau khi bạn đã thiết lập xong thư mục, nhiệm vụ tiếp theo là tạo một`Workbook` đối tượng. Đối tượng này cho phép bạn tải và thao tác với tệp Excel. 
+Sau khi bạn đã thiết lập xong thư mục, nhiệm vụ tiếp theo là tạo một `Workbook` đối tượng. Đối tượng này cho phép bạn tải và thao tác với tệp Excel. 
 ```csharp
 // Tải sổ làm việc
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
@@ -52,7 +54,7 @@ Sau khi tải sổ làm việc, đã đến lúc truy cập vào trang tính c�
 // Truy cập bảng tính đầu tiên
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Đây,`Worksheets[0]`đề cập đến trang tính đầu tiên trong sổ làm việc, cho phép bạn tập trung vào phần chính xác của tệp có chứa bình luận.
+Đây, `Worksheets[0]` đề cập đến trang tính đầu tiên trong sổ làm việc, cho phép bạn tập trung vào phần chính xác của tệp có chứa bình luận.
 ## Bước 4: Nhận bình luận theo chủ đề
 Bây giờ bạn đã có quyền truy cập vào bảng tính, bước tiếp theo là lấy các bình luận theo luồng từ một ô cụ thể. Đối với ví dụ này, hãy nhắm mục tiêu vào ô “A1”.
 ```csharp
@@ -83,17 +85,19 @@ Bạn đã đọc thành công các bình luận theo luồng từ một bảng 
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ để tạo, xử lý và chuyển đổi các tài liệu Excel trong các ứng dụng .NET.
 ### Tôi có thể tải Aspose.Cells như thế nào?
- Bạn có thể tải xuống Aspose.Cells từ[trang phát hành ở đây](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống Aspose.Cells từ [trang phát hành ở đây](https://releases.aspose.com/cells/net/).
 ### Có bản dùng thử miễn phí không?
- Có! Bạn có thể dùng thử Aspose.Cells miễn phí. Tìm bản dùng thử[đây](https://releases.aspose.com/).
+Có! Bạn có thể dùng thử Aspose.Cells miễn phí. Tìm bản dùng thử [đây](https://releases.aspose.com/).
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể đặt câu hỏi và tìm kiếm sự trợ giúp trong[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể đặt câu hỏi và tìm kiếm sự trợ giúp trong [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể mua Aspose.Cells ở đâu?
- Nếu bạn quyết định mua Aspose.Cells, bạn có thể làm như vậy[đây](https://purchase.aspose.com/buy).
+Nếu bạn quyết định mua Aspose.Cells, bạn có thể làm như vậy [đây](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

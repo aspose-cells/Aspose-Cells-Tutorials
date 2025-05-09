@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,6 +163,9 @@ Dans ce tutoriel, nous avons découvert comment exploiter Aspose.Cells pour Java
 Maintenant, allez-y et mettez vos nouvelles compétences à l’épreuve en créant ou en modifiant des classeurs Excel à l’aide d’Aspose.Cells pour Java !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ A4: تقليل استخدام الحلقات لعمليات الخلية وال�
 بإتقان هذه الأدوات والتقنيات، يمكنك تحسين مشاريعك المتعلقة بـ Excel باستخدام Java، مستفيدًا من قوة Aspose.Cells إلى أقصى حد. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

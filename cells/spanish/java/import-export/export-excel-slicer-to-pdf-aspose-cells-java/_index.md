@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ En el entorno actual, basado en datos, exportar y compartir visualizaciones de d
 - Instrucciones paso a paso para exportar segmentaciones de Excel a PDF
 - Aplicaciones prácticas de esta función en escenarios del mundo real
 
-Comencemos analizando los requisitos previos que necesitarás antes de profundizar.
+Comencemos analizando los requisitos previos que necesitarás antes de comenzar.
 
 ### Prerrequisitos
 Antes de implementar la solución, asegúrese de tener lo siguiente:
@@ -137,6 +139,9 @@ Siguiendo estas pautas y utilizando Aspose.Cells para Java, estará perfectament
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

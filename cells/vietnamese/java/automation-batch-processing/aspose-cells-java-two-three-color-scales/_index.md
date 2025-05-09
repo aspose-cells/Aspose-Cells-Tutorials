@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Các bước tiếp theo bao gồm khám phá các tính năng khác của Aspos
 ## Phần Câu hỏi thường gặp
 1. **Làm thế nào để tôi có được giấy phép dùng thử miễn phí cho Aspose.Cells?**
    - Thăm nom [Trang dùng thử miễn phí của Aspose](https://releases.aspose.com/cells/java/).
-2. **Tôi có thể áp dụng định dạng có điều kiện cho nhiều trang tính cùng lúc không?**
+2. **Tôi có thể áp dụng định dạng có điều kiện cho nhiều trang tính cùng một lúc không?**
    - Hiện tại, bạn cần phải cấu hình từng trang tính riêng lẻ.
 3. **Nếu tệp Excel của tôi rất lớn thì sao? Aspose.Cells có xử lý hiệu quả không?**
    - Có, Aspose.Cells được tối ưu hóa để xử lý hiệu suất với các tập dữ liệu lớn.
@@ -176,6 +178,9 @@ Hãy thử thực hiện các bước này trong dự án tiếp theo của bạ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

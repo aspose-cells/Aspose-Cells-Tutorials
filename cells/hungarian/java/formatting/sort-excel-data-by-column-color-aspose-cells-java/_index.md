@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ public class ExcelOperations {
 Nézzük meg az Excel-adatok oszlopszín szerinti rendezésének lépéseit az Aspose.Cells for Java használatával.
 
 ### Töltse be a forrás Excel fájlt
-**Áttekintés:** Kezdje azzal, hogy betölti a forrás Excel fájlt egy `Workbook` objektum, amely kiindulópontként szolgál az adatokon végrehajtandó műveletekhez.
+**Áttekintés:** Kezd azzal, hogy betöltöd a forrás Excel fájlt egy `Workbook` objektum, amely kiindulópontként szolgál az adatokon végrehajtandó műveletekhez.
 
 ```java
 // ExStart:1
@@ -176,6 +178,9 @@ Készen állsz arra, hogy fejleszd Excel feldolgozási képességeidet? Próbál
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

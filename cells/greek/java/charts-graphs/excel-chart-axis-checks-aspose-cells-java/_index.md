@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A5: Βελτιστοποιήστε τον κώδικα φορτώνοντας τ
 - **Λήψη**Αποκτήστε πρόσβαση στην πιο πρόσφατη έκδοση του Aspose.Cells για Java για να ξεκινήσετε την εφαρμογή αυτών των λύσεων σήμερα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

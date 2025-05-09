@@ -1,14 +1,16 @@
 ---
-title: ปัจจัยการควบคุมการซูมของแผ่นงาน
-linktitle: ปัจจัยการควบคุมการซูมของแผ่นงาน
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีการควบคุมปัจจัยการซูมของเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ เพิ่มความสามารถในการอ่านในสเปรดชีตของคุณ
-weight: 20
-url: /th/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksheet/
+"description": "เรียนรู้วิธีการควบคุมปัจจัยการซูมของเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ในขั้นตอนง่ายๆ เพิ่มความสามารถในการอ่านในสเปรดชีตของคุณ"
+"linktitle": "ปัจจัยการควบคุมการซูมของแผ่นงาน"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "ปัจจัยการควบคุมการซูมของแผ่นงาน"
+"url": "/th/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ปัจจัยการควบคุมการซูมของแผ่นงาน
@@ -22,7 +24,7 @@ url: /th/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 ก่อนที่เราจะเริ่มต้นควบคุมปัจจัยการซูมของเวิร์กชีต เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการแล้ว นี่คือสิ่งสำคัญ:
 
 1. สภาพแวดล้อมการพัฒนา .NET: คุณควรมีการตั้งค่าสภาพแวดล้อม .NET เช่น Visual Studio
-2.  ไลบรารี Aspose.Cells: คุณต้องติดตั้งไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
+2. ไลบรารี Aspose.Cells: คุณต้องติดตั้งไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยคุณในการเรียนรู้บทช่วยสอนนี้ได้เป็นอย่างดี
 4. Microsoft Excel: แม้ว่าเราจะไม่ได้ใช้ Excel โดยตรงในโค้ดของเรา แต่การติดตั้งไว้ก็อาจเป็นประโยชน์สำหรับการทดสอบเอาต์พุตของคุณได้
 
@@ -38,7 +40,7 @@ url: /th/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-wor
 
 ตอนนี้ถึงเวลาเพิ่มการอ้างอิงไลบรารี Aspose.Cells แล้ว คุณสามารถทำได้ดังนี้:
 
--  ดาวน์โหลด DLL จาก[ที่นี่](https://releases.aspose.com/cells/net/)และเพิ่มลงในโครงการของคุณด้วยตนเอง
+- ดาวน์โหลด DLL จาก [ที่นี่](https://releases.aspose.com/cells/net/) และเพิ่มลงในโครงการของคุณด้วยตนเอง
 - หรือใช้ตัวจัดการแพ็กเกจ NuGet และรันคำสั่งต่อไปนี้ในคอนโซลตัวจัดการแพ็กเกจ:
 
 ```bash
@@ -47,7 +49,7 @@ Install-Package Aspose.Cells
 
 ### นำเข้าเนมสเปซ
 
- ในของคุณ`Program.cs` ไฟล์ โปรดแน่ใจว่าได้นำเข้าเนมสเปซ Aspose.Cells ที่ด้านบน:
+ในของคุณ `Program.cs` ไฟล์ โปรดแน่ใจว่าได้นำเข้าเนมสเปซ Aspose.Cells ที่ด้านบน:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ using Aspose.Cells;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารของคุณ
 
- โครงการที่ดีทุกโครงการต้องมีโครงสร้างที่จัดระบบอย่างดี คุณต้องกำหนดไดเรกทอรีที่เก็บไฟล์ Excel ของคุณ ในกรณีนี้ เราจะทำงานร่วมกับ`book1.xls` เป็นไฟล์อินพุตของเรา
+โครงการที่ดีทุกโครงการต้องมีโครงสร้างที่จัดระบบอย่างดี คุณต้องกำหนดไดเรกทอรีที่เก็บไฟล์ Excel ของคุณ ในกรณีนี้ เราจะทำงานร่วมกับ `book1.xls` เป็นไฟล์อินพุตของเรา
 
 นี่คือวิธีที่คุณกำหนดไว้ในโค้ดของคุณ:
 
@@ -69,11 +71,11 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- อย่าลืมเปลี่ยน`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนเครื่องของคุณ อาจเป็นบางอย่างเช่น`"C:\\ExcelFiles\\"`.
+อย่าลืมเปลี่ยน `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนเครื่องของคุณ อาจเป็นบางอย่างเช่น `"C:\\ExcelFiles\\"`-
 
 ## ขั้นตอนที่ 2: สร้างสตรีมไฟล์สำหรับไฟล์ Excel
 
- ก่อนที่เราจะทำการเปลี่ยนแปลงใด ๆ เราต้องเปิดไฟล์ Excel ก่อน เราทำได้สำเร็จโดยสร้าง`FileStream` สตรีมนี้จะให้เราอ่านเนื้อหาของ`book1.xls`.
+ก่อนที่เราจะทำการเปลี่ยนแปลงใด ๆ เราต้องเปิดไฟล์ Excel ก่อน เราทำได้สำเร็จโดยสร้าง `FileStream`สตรีมนี้จะให้เราอ่านเนื้อหาของ `book1-xls`.
 
 ```csharp
 // การสร้างสตรีมไฟล์ที่มีไฟล์ Excel ที่จะเปิด
@@ -84,7 +86,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 
 ## ขั้นตอนที่ 3: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
- การ`Workbook` วัตถุเป็นหัวใจของฟังก์ชัน Aspose.Cells ของคุณ โดยจะแสดงไฟล์ Excel ของคุณในรูปแบบที่จัดการได้
+การ `Workbook` วัตถุเป็นหัวใจของฟังก์ชัน Aspose.Cells ของคุณ โดยจะแสดงไฟล์ Excel ของคุณในรูปแบบที่จัดการได้
 
 ```csharp
 // การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
@@ -92,7 +94,7 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- ที่นี่เราใช้`FileStream` สร้างขึ้นในขั้นตอนก่อนหน้าเพื่อโหลดไฟล์ Excel ลงใน`Workbook` วัตถุ.
+ที่นี่เราใช้ `FileStream` สร้างขึ้นในขั้นตอนก่อนหน้าเพื่อโหลดไฟล์ Excel ลงใน `Workbook` วัตถุ.
 
 ## ขั้นตอนที่ 4: เข้าถึงแผ่นงานที่ต้องการ
 
@@ -125,7 +127,7 @@ worksheet.Zoom = 75;
 workbook.Save(dataDir + "output.xls");
 ```
 
- โค้ดนี้จะบันทึกเวิร์กชีตที่อัปเดตของคุณไปยังไฟล์ใหม่ชื่อ`output.xls`. 
+โค้ดนี้จะบันทึกเวิร์กชีตที่อัปเดตของคุณไปยังไฟล์ใหม่ชื่อ `output-xls`. 
 
 ## ขั้นตอนที่ 7: ทำความสะอาด – ปิดสตรีมไฟล์
 
@@ -148,19 +150,21 @@ fstream.Close();
 เป็นไลบรารีอันทรงพลังสำหรับการจัดการไฟล์ Excel ด้วยโปรแกรมในแอปพลิเคชัน .NET
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอการทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose เสนอให้ทดลองใช้งานฟรี [ที่นี่](https://releases-aspose.com/).
 
 ### มีข้อจำกัดใด ๆ ในเวอร์ชันฟรีหรือไม่?
 ใช่ เวอร์ชันทดลองใช้มีข้อจำกัดบางประการเกี่ยวกับฟังก์ชันการทำงานและเอกสารผลลัพธ์
 
 ### ฉันสามารถดาวน์โหลด Aspose.Cells ได้ที่ไหน
- คุณสามารถดาวน์โหลดได้จาก[ลิงค์นี้](https://releases.aspose.com/cells/net/).
+คุณสามารถดาวน์โหลดได้จาก [ลิงค์นี้](https://releases-aspose.com/cells/net/).
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร
- สามารถขอรับการสนับสนุนได้จากฟอรั่มชุมชน[ที่นี่](https://forum.aspose.com/c/cells/9).
+สามารถขอรับการสนับสนุนได้จากฟอรั่มชุมชน [ที่นี่](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

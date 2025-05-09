@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ license.setLicense("path/to/your/license/file");
 ## 常見問題部分
 1. **如何將自訂計算引擎與現有系統整合？**
    - 透過測試整合點並根據需要調整資料流來確保相容性。
-2. **除了 SUM 之外，我可以使用 Aspose.Cells 修改其他 Excel 函數嗎？**
+2. **我可以使用 Aspose.Cells 修改 SUM 以外的其他 Excel 函數嗎？**
    - 是的，您可以擴展引擎來改變任何 Excel 函數的行為。
 3. **如果我的計算需要比添加常數值更複雜的邏輯怎麼辦？**
    - 您可以在 `calculate` 方法。
@@ -133,12 +135,15 @@ license.setLicense("path/to/your/license/file");
 - [下載 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [購買許可證](https://purchase.aspose.com/buy)
 - [免費試用版](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 立即開始嘗試使用 Aspose.Cells for Java 並釋放資料處理任務的新潛力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

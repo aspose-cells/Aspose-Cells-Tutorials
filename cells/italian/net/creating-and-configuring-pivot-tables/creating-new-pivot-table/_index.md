@@ -1,33 +1,35 @@
 ---
-title: Creare una nuova tabella pivot a livello di programmazione in .NET
-linktitle: Creare una nuova tabella pivot a livello di programmazione in .NET
-second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Impara a creare una tabella pivot a livello di programmazione in .NET usando Aspose.Cells con la nostra guida passo-passo. Analizza in modo efficiente i tuoi dati.
-weight: 13
-url: /it/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
+"description": "Impara a creare una tabella pivot in .NET tramite Aspose.Cells con la nostra guida passo passo. Analizza i tuoi dati in modo efficiente."
+"linktitle": "Creare una nuova tabella pivot a livello di programmazione in .NET"
+"second_title": "API di elaborazione Excel .NET Aspose.Cells"
+"title": "Creare una nuova tabella pivot a livello di programmazione in .NET"
+"url": "/it/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creare una nuova tabella pivot a livello di programmazione in .NET
 
 ## Introduzione
-Creare una tabella pivot può sembrare un compito intimidatorio, soprattutto quando lo si fa a livello di programmazione. Ma non temere! Con Aspose.Cells per .NET, mettere insieme una tabella pivot non è solo semplice, ma anche piuttosto potente per l'analisi dei dati. In questo tutorial, ti guideremo passo dopo passo su come creare una nuova tabella pivot in un'applicazione .NET. Che tu stia aggiungendo dati per vendite, sport o qualsiasi altra metrica aziendale, questa guida ti aiuterà a far funzionare le tue tabelle pivot in pochissimo tempo.
+Creare una tabella pivot può sembrare un compito arduo, soprattutto se lo si fa a livello di codice. Ma niente paura! Con Aspose.Cells per .NET, creare una tabella pivot non è solo semplice, ma anche molto potente per l'analisi dei dati. In questo tutorial, vi guideremo passo dopo passo nella creazione di una nuova tabella pivot in un'applicazione .NET. Che stiate aggiungendo dati per le vendite, gli eventi sportivi o qualsiasi altra metrica aziendale, questa guida vi aiuterà a rendere operative le vostre tabelle pivot in pochissimo tempo.
 
 ## Prerequisiti
-Prima di tuffarcisi, assicuriamoci che tutto sia pronto per partire. Ecco cosa devi fare:
+Prima di iniziare, assicuriamoci che tutto sia pronto. Ecco cosa devi fare:
 
-1. Installa .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Aspose.Cells supporta varie versioni, ma è meglio attenersi all'ultima.
-2.  Libreria Aspose.Cells: è necessario disporre della libreria Aspose.Cells. È possibile[scaricalo qui](https://releases.aspose.com/cells/net/) ottenere un[licenza temporanea](https://purchase.aspose.com/temporary-license/) per la valutazione.
-3. Configurazione IDE: avere a disposizione un IDE compatibile con C#, come Visual Studio, in cui poter avviare un nuovo progetto.
-4. Conoscenza di base di C#: la familiarità con la programmazione in C# ti aiuterà a seguire il programma senza impantanarti troppo.
+1. Installa .NET Framework: assicurati di aver installato .NET Framework sul tuo computer. Aspose.Cells supporta diverse versioni, ma è meglio utilizzare la versione più recente.
+2. Libreria Aspose.Cells: è necessaria la libreria Aspose.Cells. Puoi [scaricalo qui](https://releases.aspose.com/cells/net/) o ottenere un [licenza temporanea](https://purchase.aspose.com/temporary-license/) per la valutazione.
+3. Configurazione IDE: avere a disposizione un IDE compatibile con C#, come Visual Studio, da cui poter avviare un nuovo progetto.
+4. Conoscenza di base di C#: la familiarità con la programmazione C# ti aiuterà a seguire il tutorial senza impantanarti troppo.
 
-Tutto pronto? Ottimo! Passiamo all'importazione dei pacchetti necessari.
+Tutto pronto? Ottimo! Iniziamo a importare i pacchetti necessari.
 
 ## Importa pacchetti
-Per prima cosa, devi importare i namespace richiesti nel tuo progetto C#. Apri il tuo file C# e aggiungi le seguenti direttive using:
+Per prima cosa, devi importare gli spazi dei nomi richiesti nel tuo progetto C#. Apri il file C# e aggiungi le seguenti direttive using:
 
 ```csharp
 using System.IO;
@@ -38,7 +40,7 @@ using System.Drawing;
 Questi namespace forniscono l'accesso alle funzionalità di cartella di lavoro, foglio di lavoro e tabella pivot che utilizzeremo in questo tutorial.
 
 ## Passaggio 1: creare un oggetto cartella di lavoro
-Creare una cartella di lavoro è l'inizio del tuo viaggio. Iniziamo con l'istanziare una nuova cartella di lavoro e accedere al primo foglio di lavoro.
+Creare una cartella di lavoro è l'inizio del tuo viaggio. Iniziamo creando una nuova cartella di lavoro e accedendo al primo foglio di lavoro.
 
 ```csharp
 // Percorso verso la directory dei documenti.
@@ -50,10 +52,10 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- In questo passaggio creiamo un`Workbook`istanza che rappresenta il nostro file Excel e prendiamo il primo foglio di lavoro, che sarà il nostro campo di gioco per la tabella pivot.
+In questo passaggio creiamo un `Workbook` istanza che rappresenta il nostro file Excel e prendiamo il primo foglio di lavoro, che sarà il nostro campo di gioco per la tabella pivot.
 
 ## Passaggio 2: inserire i dati nelle celle
-Ora, popoliamo il nostro foglio di lavoro con alcuni dati campione. Inseriremo righe per diversi sport, trimestri e cifre di vendita per dare alla nostra tabella pivot qualcosa da riassumere.
+Ora, riempiamo il nostro foglio di lavoro con alcuni dati di esempio. Inseriremo righe per diversi sport, trimestri e dati di vendita per fornire alla nostra tabella pivot un riepilogo.
 
 ```csharp
 Cells cells = sheet.Cells;
@@ -66,15 +68,15 @@ cell.PutValue("Quarter");
 cell = cells["C1"];
 cell.PutValue("Sales");
 
-// Riempimento cella dati = cells["A2"];
+// Riempimento datacell = cells["A2"];
 cell.PutValue("Golf");
-// ... Ulteriori voci di dati
+// ... Ulteriori inserimenti di dati
 ```
 
-Qui, stiamo definendo le intestazioni delle nostre colonne e inserendo valori sotto ogni intestazione. Questi dati fungeranno da origine per la nostra tabella pivot, quindi assicurati che siano organizzati! Segui questo blocco e creerai un set di dati completo.
+Qui definiamo le intestazioni di colonna e inseriamo valori sotto ogni intestazione. Questi dati fungeranno da fonte per la nostra tabella pivot, quindi assicuratevi che siano organizzati! Seguite questo passaggio e creerete un set di dati completo.
 
 ## Passaggio 3: aggiunta di una tabella pivot
-Con i nostri dati pronti, è il momento di creare la tabella pivot. Utilizzeremo la raccolta di tabelle pivot dal foglio di lavoro per aggiungere la nostra nuova tabella pivot.
+Con i dati pronti, è il momento di creare la tabella pivot. Useremo la raccolta di tabelle pivot dal foglio di lavoro per aggiungere la nostra nuova tabella pivot.
 
 ```csharp
 Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
@@ -83,10 +85,10 @@ Aspose.Cells.Pivot.PivotTableCollection pivotTables = sheet.PivotTables;
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
 
-In questo frammento, aggiungiamo una tabella pivot al foglio di lavoro che fa riferimento al nostro intervallo di dati (in questo caso, celle da A1 a C8). Posizioniamo la tabella pivot a partire dalla cella E3 e la chiamiamo "PivotTable2". Semplice, vero?
+In questo frammento, aggiungiamo una tabella pivot al foglio di lavoro che fa riferimento al nostro intervallo di dati (in questo caso, le celle da A1 a C8). Posizioniamo la tabella pivot a partire dalla cella E3 e la chiamiamo "TabellaPivot2". Semplice, vero?
 
 ## Passaggio 4: personalizzare la tabella pivot
-Ora che abbiamo la nostra tabella pivot, personalizziamola per mostrare riepiloghi significativi. Possiamo controllare cosa appare nelle righe, colonne e aree dati della tabella pivot.
+Ora che abbiamo la nostra tabella pivot, personalizziamola per visualizzare riepiloghi significativi. Possiamo controllare cosa appare nelle righe, nelle colonne e nelle aree dati della tabella pivot.
 
 ```csharp
 // Accesso all'istanza della tabella pivot appena aggiunta
@@ -105,39 +107,41 @@ pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Column, 1);
 pivotTable.AddFieldToArea(Aspose.Cells.Pivot.PivotFieldType.Data, 2);
 ```
 
-In questo passaggio, diciamo alla tabella pivot di nascondere i totali generali per le righe e poi specifichiamo quali campi vanno nelle aree riga, colonna e dati. I nomi degli sport riempiranno le righe, i trimestri riempiranno le colonne e le cifre delle vendite forniranno i riepiloghi.
+In questa fase, indichiamo alla tabella pivot di nascondere i totali complessivi per riga e poi specifichiamo quali campi vanno inseriti nelle aree riga, colonna e dati. I nomi degli sport riempiranno le righe, i trimestri riempiranno le colonne e i dati di vendita forniranno i riepiloghi.
 
 ## Passaggio 5: salvare la cartella di lavoro
-Infine, vogliamo salvare la nostra cartella di lavoro appena creata per vedere i frutti del nostro lavoro.
+Infine, vogliamo salvare la cartella di lavoro appena creata per vedere i frutti del nostro lavoro.
 
 ```csharp
 // Salvataggio del file Excel
 workbook.Save(dataDir + "pivotTable_test_out.xls");
 ```
 
-Basta specificare un percorso corretto e l'output della tabella pivot verrà salvato in un file Excel che potrai aprire e rivedere.
+Basta specificare il percorso corretto e l'output della tabella pivot verrà salvato in un file Excel che potrai aprire e rivedere.
 
 ## Conclusione
-Creare tabelle pivot a livello di programmazione usando Aspose.Cells per .NET può farti risparmiare molto tempo, specialmente quando hai a che fare con grandi set di dati. Hai imparato come impostare il tuo progetto, importare i pacchetti necessari, popolare i dati e creare una tabella pivot personalizzabile da zero. Quindi, la prossima volta che ti ritrovi sommerso dai numeri, ricorda questo tutorial e lascia che Aspose.Cells faccia il grosso del lavoro per te.
+Creare tabelle pivot a livello di codice utilizzando Aspose.Cells per .NET può farti risparmiare notevolmente tempo, soprattutto quando gestisci dataset di grandi dimensioni. Hai imparato come configurare il tuo progetto, importare i pacchetti necessari, popolare i dati e creare da zero una tabella pivot personalizzabile. Quindi, la prossima volta che ti ritrovi immerso nei numeri, ricorda questo tutorial e lascia che Aspose.Cells faccia il grosso del lavoro per te.
 
 ## Domande frequenti
-### Che cos'è Aspose.Cells?
-Aspose.Cells è una potente libreria .NET per creare e gestire fogli di calcolo Excel a livello di programmazione.
+### Che cosa è Aspose.Cells?
+Aspose.Cells è una potente libreria .NET per la creazione e la gestione di fogli di calcolo Excel a livello di programmazione.
 
 ### Esiste una prova gratuita per Aspose.Cells?
- Sì, puoi ottenere una prova gratuita[Qui](https://releases.aspose.com/).
+Sì, puoi ottenere una prova gratuita [Qui](https://releases.aspose.com/).
 
 ### Posso personalizzare l'aspetto della tabella pivot?
 Assolutamente! Puoi personalizzare la formattazione, il layout e persino gli stili della tabella pivot in base alle tue esigenze.
 
 ### Dove posso trovare altri esempi e documentazione su Aspose.Cells?
- Puoi controllare il[documentazione](https://reference.aspose.com/cells/net/) per guide ed esempi completi.
+Puoi controllare il [documentazione](https://reference.aspose.com/cells/net/) per guide ed esempi completi.
 
 ### Come posso ottenere supporto per Aspose.Cells?
- Puoi ottenere supporto tramite[Forum di Aspose](https://forum.aspose.com/c/cells/9).
+Puoi ottenere supporto tramite [Forum di Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

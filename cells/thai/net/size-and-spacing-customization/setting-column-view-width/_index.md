@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET
-linktitle: ตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนแบบครอบคลุมทีละขั้นตอนนี้ซึ่งจะทำให้การจัดการ Excel ง่ายขึ้น
-weight: 10
-url: /th/net/size-and-spacing-customization/setting-column-view-width/
+"description": "เรียนรู้วิธีการตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET ในบทช่วยสอนแบบครอบคลุมทีละขั้นตอนนี้ซึ่งจะทำให้การจัดการ Excel ง่ายขึ้น"
+"linktitle": "ตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET"
+"url": "/th/net/size-and-spacing-customization/setting-column-view-width/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าความกว้างของมุมมองคอลัมน์เป็นพิกเซลด้วย Aspose.Cells สำหรับ .NET
@@ -18,7 +20,7 @@ url: /th/net/size-and-spacing-customization/setting-column-view-width/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่มต้น เรามาตรวจสอบกันก่อนว่าคุณได้จัดเตรียมทุกอย่างเรียบร้อยแล้ว นี่คือสิ่งที่คุณต้องการ:
 1. Visual Studio: เตรียม IDE ที่คุณชื่นชอบไว้ให้พร้อม สำหรับตัวอย่างนี้ ขอแนะนำ Visual Studio
-2.  ไลบรารี Aspose.Cells: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/cells/net/).
+2. ไลบรารี Aspose.Cells: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะเป็นประโยชน์
 4. การเข้าถึงไฟล์ Excel: ตัวอย่างไฟล์ Excel สำหรับการใช้งาน คุณสามารถสร้างไฟล์โดยใช้ Excel หรือดาวน์โหลดตัวอย่างจากอินเทอร์เน็ต
 รู้สึกดีแล้วใช่ไหม เยี่ยมเลย ไปต่อกันเลย
@@ -36,21 +38,21 @@ string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
 string outDir = "Your Document Directory";
 ```
- สไนปเป็ตนี้จะบอกให้โปรแกรมของคุณทราบว่าควรค้นหาไฟล์ Excel ที่คุณต้องการแก้ไขที่ใด และจะบันทึกไฟล์ที่แก้ไขแล้วไว้ที่ไหนในภายหลัง อย่าลืมแทนที่`"Your Document Directory"` กับเส้นทางที่แท้จริง!
+สไนปเป็ตนี้จะบอกให้โปรแกรมของคุณทราบว่าควรค้นหาไฟล์ Excel ที่คุณต้องการแก้ไขที่ใด และจะบันทึกไฟล์ที่แก้ไขแล้วไว้ที่ไหนในภายหลัง อย่าลืมแทนที่ `"Your Document Directory"` กับเส้นทางที่แท้จริง!
 ## ขั้นตอนที่ 2: โหลดไฟล์ Excel
- ต่อไปให้โหลดไฟล์ Excel ที่คุณต้องการใช้งาน ซึ่งทำได้ผ่าน`Workbook` คลาสที่จัดทำโดย Aspose.Cells
+ต่อไปให้โหลดไฟล์ Excel ที่คุณต้องการใช้งาน ซึ่งทำได้ผ่าน `Workbook` คลาสที่จัดทำโดย Aspose.Cells
 ```csharp
 // โหลดไฟล์ Excel ต้นฉบับ
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
- บรรทัดนี้จะเริ่มต้น`Workbook` วัตถุที่มีไฟล์ Excel ที่ระบุ หากพบไฟล์ดังกล่าว แสดงว่าคุณมาถูกทางแล้ว!
+บรรทัดนี้จะเริ่มต้น `Workbook` วัตถุที่มีไฟล์ Excel ที่ระบุ หากพบไฟล์ดังกล่าว แสดงว่าคุณมาถูกทางแล้ว!
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงาน
 ตอนนี้เรามีเวิร์กบุ๊กแล้ว มาดูเวิร์กชีตที่คุณต้องการจัดการกัน โดยทั่วไป คุณจะต้องการทำงานกับเวิร์กชีตแรก
 ```csharp
 // เข้าถึงแผ่นงานแรก
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- ที่นี่ คุณกำลังระบุแผ่นงานที่จะทำงานโดยอ้างอิงตามดัชนี ในกรณีนี้`0` หมายถึงแผ่นงานแรก
+ที่นี่ คุณกำลังระบุแผ่นงานที่จะทำงานโดยอ้างอิงตามดัชนี ในกรณีนี้ `0` หมายถึงแผ่นงานแรก
 ## ขั้นตอนที่ 4: ตั้งค่าความกว้างของคอลัมน์
 ตอนนี้มาถึงส่วนที่น่าตื่นเต้น—การตั้งค่าความกว้างของคอลัมน์! บรรทัดโค้ดต่อไปนี้ช่วยให้คุณตั้งค่าความกว้างของคอลัมน์เฉพาะเป็นพิกเซลได้
 ```csharp
@@ -76,16 +78,18 @@ Console.WriteLine("SetColumnViewWidthInPixels executed successfully.");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells คือไลบรารี .NET ที่ช่วยให้นักพัฒนาสามารถสร้างและจัดการสเปรดชีต Excel ได้โดยไม่ต้องติดตั้ง Microsoft Excel
 ### ฉันจะติดตั้ง Aspose.Cells ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Cells ได้จาก[ที่นี่](https://releases.aspose.com/cells/net/) และอ้างอิงในโครงการของคุณ
+คุณสามารถดาวน์โหลด Aspose.Cells ได้จาก [ที่นี่](https://releases.aspose.com/cells/net/) และอ้างอิงในโครงการของคุณ
 ### Aspose.Cells จัดการไฟล์ Excel ขนาดใหญ่ได้หรือไม่
 ใช่! Aspose.Cells ได้รับการออกแบบมาเพื่อจัดการไฟล์ Excel ขนาดใหญ่ได้อย่างมีประสิทธิภาพพร้อมทั้งยังรักษาประสิทธิภาพการทำงานไว้ด้วย
 ### มีการทดลองใช้ฟรีหรือไม่?
- แน่นอน! คุณสามารถรับ Aspose.Cells รุ่นทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+แน่นอน! คุณสามารถรับ Aspose.Cells รุ่นทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 ### ฉันสามารถขอความช่วยเหลือหรือการสนับสนุนได้ที่ไหน
- หากต้องการความช่วยเหลือ โปรดดูฟอรัม Aspose[ที่นี่](https://forum.aspose.com/c/cells/9).
+หากต้องการความช่วยเหลือ โปรดดูฟอรัม Aspose [ที่นี่](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ public class WorkbookFormulaLocalization {
 ```
 **คำอธิบาย**:รหัสนี้จะเริ่มต้นเวิร์กบุ๊ก ตั้งค่าแบบกำหนดเอง `GlobalizationSettings`และใช้สูตรเพื่อแสดงการแปลภาษาท้องถิ่น
 ## การประยุกต์ใช้งานจริง
-ต่อไปนี้คือสถานการณ์จริงบางกรณีที่ฟีเจอร์นี้มีคุณค่าอย่างยิ่ง:
+ต่อไปนี้คือสถานการณ์จริงบางสถานการณ์ที่คุณสมบัติเหล่านี้มีคุณค่าอย่างยิ่ง:
 1. **บริษัทข้ามชาติ**:ปรับแต่งชื่อสูตรสำหรับทีมทั่วโลกเพื่อให้ชัดเจน
 2. **เครื่องมือทางการศึกษา**:ปรับซอฟต์แวร์ด้านการศึกษาให้เข้ากับภูมิภาคต่างๆ โดยการแปลชื่อฟังก์ชันเป็นภาษาท้องถิ่น
 3. **ซอฟต์แวร์ทางการเงิน**:ปรับแต่งเครื่องมือวิเคราะห์ทางการเงินสำหรับตลาดต่างประเทศ
@@ -147,6 +149,9 @@ public class WorkbookFormulaLocalization {
 ใช้ประโยชน์จากทรัพยากรเหล่านี้เพื่อเพิ่มความเข้าใจและทักษะการใช้งาน Aspose.Cells สำหรับ Java ของคุณ เขียนโค้ดอย่างมีความสุข!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

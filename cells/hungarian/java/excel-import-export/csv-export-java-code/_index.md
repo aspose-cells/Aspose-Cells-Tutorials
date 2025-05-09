@@ -1,17 +1,19 @@
 ---
 "description": "Tanuld meg, hogyan exportálhatsz adatokat CSV formátumba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes CSV exportáláshoz."
-"linktitle": "CSV exportálás Java kódban"
+"linktitle": "CSV exportálás Java kódhoz"
 "second_title": "Aspose.Cells Java Excel feldolgozási API"
-"title": "CSV exportálás Java kódban"
+"title": "CSV exportálás Java kódhoz"
 "url": "/hu/java/excel-import-export/csv-export-java-code/"
 "weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# CSV exportálás Java kódban
+# CSV exportálás Java kódhoz
 
 
 
@@ -94,9 +96,11 @@ Gratulálunk! Megtanultad, hogyan exportálhatsz adatokat CSV formátumba az Asp
    Látogassa meg az Aspose.Cells dokumentációját [itt](https://reference.aspose.com/cells/java/) átfogó forrásokért és példákért.
 
 Nyugodtan fedezd fel tovább, és igazítsd ezt a kódot a saját igényeidhez. Jó kódolást!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

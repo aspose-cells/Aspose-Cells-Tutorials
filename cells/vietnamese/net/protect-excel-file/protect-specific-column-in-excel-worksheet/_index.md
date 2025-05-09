@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ cột cụ thể trong bảng tính Excel
-linktitle: Bảo vệ cột cụ thể trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách bảo vệ các cột cụ thể trong Excel bằng Aspose.Cells for .NET hiệu quả, đảm bảo dữ liệu của bạn luôn an toàn và không thể thay đổi.
-weight: 80
-url: /vi/net/protect-excel-file/protect-specific-column-in-excel-worksheet/
+"description": "Tìm hiểu cách bảo vệ các cột cụ thể trong Excel bằng Aspose.Cells for .NET hiệu quả, đảm bảo dữ liệu của bạn luôn an toàn và không thể thay đổi."
+"linktitle": "Bảo vệ cột cụ thể trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ cột cụ thể trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/protect-specific-column-in-excel-worksheet/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ cột cụ thể trong bảng tính Excel
@@ -21,8 +23,8 @@ Trong thế giới mà việc quản lý dữ liệu ngày càng trở nên ph�
 
 Trước khi bắt đầu viết mã, bạn cần lưu ý một số điều kiện tiên quyết sau:
 
-1. Visual Studio: Đảm bảo bạn đã cài đặt Microsoft Visual Studio (tốt nhất là 2017 trở lên). Đây sẽ là môi trường phát triển của bạn. 
-2.  Thư viện Aspose.Cells: Bạn phải tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể[tải xuống thư viện ở đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+1. Visual Studio: Đảm bảo bạn đã cài đặt Microsoft Visual Studio (tốt nhất là phiên bản 2017 trở lên). Đây sẽ là môi trường phát triển của bạn. 
+2. Thư viện Aspose.Cells: Bạn phải tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể [tải xuống thư viện ở đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 3. Hiểu biết cơ bản về C#: Mặc dù các ví dụ mã khá đơn giản, nhưng việc có kiến thức cơ bản về C# sẽ giúp bạn thực hiện các điều chỉnh khi cần thiết.
 4. .NET Framework: Đảm bảo dự án của bạn nhắm mục tiêu đến .NET Framework nơi Aspose.Cells được hỗ trợ.
 
@@ -65,7 +67,7 @@ Tiếp theo, chúng ta cần tạo một sổ làm việc mới. Aspose.Cells ch
 Workbook wb = new Workbook();
 ```
 
- Bằng cách tạo ra một cái mới`Workbook`đối tượng, bạn đang bắt đầu với một trang trống, sẵn sàng tùy chỉnh bảng tính của mình.
+Bằng cách tạo ra một cái mới `Workbook` đối tượng, bạn đang bắt đầu với một trang trống, sẵn sàng tùy chỉnh bảng tính của mình.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -76,7 +78,7 @@ Sau khi tạo xong bảng tính, bạn sẽ muốn truy cập vào bảng tính 
 Worksheet sheet = wb.Worksheets[0];
 ```
 
- Các`Worksheet` đối tượng cho phép bạn thao tác trang tính cụ thể trong sổ làm việc. Trong trường hợp này, chúng tôi đang sử dụng trang tính đầu tiên.
+Các `Worksheet` đối tượng cho phép bạn thao tác trang tính cụ thể trong sổ làm việc. Trong trường hợp này, chúng tôi đang sử dụng trang tính đầu tiên.
 
 ## Bước 4: Mở khóa tất cả các cột
 
@@ -98,18 +100,18 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
- Mã này lặp lại qua từng cột đầu tiên trong số 256 cột. Nó mở khóa từng cột bằng cách sửa đổi cài đặt kiểu.`StyleFlag` đảm bảo rằng thuộc tính bị khóa có thể được áp dụng sau đó.
+Mã này lặp lại qua từng cột đầu tiên trong số 256 cột. Nó mở khóa từng cột bằng cách sửa đổi cài đặt kiểu. `StyleFlag` đảm bảo rằng thuộc tính bị khóa có thể được áp dụng sau đó.
 
 ## Bước 5: Khóa cột mong muốn
 
-Bây giờ, bạn sẽ muốn khóa cột đầu tiên cụ thể, trong khi vẫn để tất cả các cột khác có thể chỉnh sửa. Sau đây là cách bạn có thể thực hiện:
+Bây giờ, bạn sẽ muốn khóa cụ thể cột đầu tiên, trong khi vẫn để tất cả các cột khác có thể chỉnh sửa. Sau đây là cách bạn có thể thực hiện:
 
 ```csharp
 // Lấy kiểu cột đầu tiên.
 style = sheet.Cells.Columns[0].Style;
 // Khóa nó lại.
 style.IsLocked = true;
-//Tạo cờ.
+// Tạo cờ.
 flag = new StyleFlag();
 // Thiết lập cài đặt khóa.
 flag.Locked = true;
@@ -128,7 +130,7 @@ Bước tiếp theo bao gồm việc bật bảo vệ cho toàn bộ bảng tín
 sheet.Protect(ProtectionType.All);
 ```
 
- Các`Protect` phương pháp này đảm bảo rằng tất cả các thành phần có thể thực hiện trên trang tính đều được bảo mật, ngoại trừ các khu vực bạn đã cho phép cụ thể (như các cột đã mở khóa).
+Các `Protect` phương pháp này đảm bảo rằng tất cả các thành phần có thể thực hiện trên trang tính đều được bảo mật, ngoại trừ các khu vực bạn đã cho phép cụ thể (như các cột đã mở khóa).
 
 ## Bước 7: Lưu sổ làm việc
 
@@ -139,7 +141,7 @@ Khi bạn đã cấu hình và sẵn sàng mọi thứ, đã đến lúc lưu s�
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Mã này lưu sổ làm việc của bạn theo định dạng Excel 97-2003 tại đường dẫn đã chỉ định. Hãy đảm bảo thay thế`dataDir` với đường dẫn thư mục thực tế của bạn.
+Mã này lưu sổ làm việc của bạn theo định dạng Excel 97-2003 tại đường dẫn đã chỉ định. Hãy đảm bảo thay thế `dataDir` với đường dẫn thư mục thực tế của bạn.
 
 ## Phần kết luận
 
@@ -154,16 +156,18 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ được thiết kế đ
 Có! Để bảo vệ nhiều cột, chỉ cần lặp lại mã khóa cột cho mỗi cột bạn muốn bảo vệ.
 
 ### Có phiên bản dùng thử không?
- Có! Bạn có thể khám phá các tính năng của Aspose.Cells bằng cách sử dụng[phiên bản dùng thử miễn phí tại đây](https://releases.aspose.com/).
+Có! Bạn có thể khám phá các tính năng của Aspose.Cells bằng cách sử dụng [phiên bản dùng thử miễn phí tại đây](https://releases.aspose.com/).
 
 ### Aspose.Cells hỗ trợ những định dạng tệp nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau bao gồm XLSX, XLS, CSV, v.v.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể tìm thấy sự hỗ trợ và hỗ trợ cộng đồng tại[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ và hỗ trợ cộng đồng tại [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

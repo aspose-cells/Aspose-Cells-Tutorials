@@ -1,14 +1,16 @@
 ---
-title: Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego
-linktitle: Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się kopiować ustawienia konfiguracji strony między arkuszami kalkulacyjnymi za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku, który idealnie nadaje się do usprawnienia zarządzania arkuszami kalkulacyjnymi.
-weight: 10
-url: /pl/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
+"description": "Naucz się kopiować ustawienia konfiguracji strony między arkuszami kalkulacyjnymi za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku, który idealnie nadaje się do usprawnienia zarządzania arkuszami kalkulacyjnymi."
+"linktitle": "Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego"
+"url": "/pl/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kopiuj ustawienia ustawień strony z innego arkusza kalkulacyjnego
@@ -19,12 +21,12 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której musisz powielić ustawie
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do kodu, musisz zadbać o kilka niezbędnych rzeczy:
+Zanim przejdziemy do kodu, jest kilka niezbędnych elementów, które musisz mieć na miejscu:
 
 1. Środowisko programistyczne .NET: Upewnij się, że masz skonfigurowane środowisko zgodne z technologią .NET, np. Visual Studio lub inne wybrane przez Ciebie środowisko programistyczne.
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość podstaw języka C# z pewnością pomoże Ci lepiej zrozumieć jego koncepcje.
-4.  Dokumentacja Aspose.Cells: Zapoznaj się z[dokumentacja](https://reference.aspose.com/cells/net/) jeśli chcesz skorzystać z zaawansowanych konfiguracji lub dodatkowych funkcji, które mogą okazać się przydatne w przyszłości.
+4. Dokumentacja Aspose.Cells: Zapoznaj się z [dokumentacja](https://reference.aspose.com/cells/net/) jeśli interesują Cię zaawansowane konfiguracje lub dodatkowe funkcje, które mogą Ci się później przydać.
 
 Teraz, gdy spełniliśmy już wszystkie wymagania wstępne, możemy zaimportować wymagane pakiety!
 
@@ -45,7 +47,7 @@ Podzielmy cały proces na łatwe do opanowania kroki, aby upewnić się, że w p
 ## Krok 1: Utwórz skoroszyt
 
 Utwórz swój skoroszyt:
- Najpierw musisz utworzyć instancję`Workbook` klasa. To jest zasadniczo twój punkt wyjścia. 
+Najpierw musisz utworzyć instancję `Workbook` klasa. To jest zasadniczo twój punkt wyjścia. 
 
 ```csharp
 Workbook wb = new Workbook();
@@ -80,7 +82,7 @@ Teraz masz odwołania do obu arkuszy, dzięki czemu możesz łatwo dostosować i
 ## Krok 4: Ustaw rozmiar papieru dla arkusza testowego 1
 
 Modyfikuj ustawienia strony:
- Ustawmy rozmiar papieru „TestSheet1” na`PaperA3ExtraTransverse`.
+Ustawmy rozmiar papieru „TestSheet1” na `PaperA3ExtraTransverse`.
 
 ```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
@@ -146,19 +148,21 @@ Używanie Aspose.Cells dla .NET sprawia, że zarządzanie arkuszami kalkulacyjny
 Aspose.Cells to zaawansowana biblioteka do pracy z arkuszami kalkulacyjnymi w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells z innymi językami programowania?  
-Aspose.Cells obsługuje przede wszystkim języki .NET, ale istnieją również biblioteki Aspose przeznaczone dla innych języków.
+Aspose.Cells obsługuje przede wszystkim języki .NET, ale istnieją również inne biblioteki Aspose przeznaczone dla innych języków.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?  
- Tak, możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/) z Aspose.Cells.
+Tak, możesz pobrać [bezpłatny okres próbny](https://releases.aspose.com/) z Aspose.Cells.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Dostęp do pomocy technicznej można uzyskać za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Czy mogę otrzymać tymczasową licencję na Aspose.Cells?  
-Oczywiście! Możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić produkt.
+Oczywiście! Możesz poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby ocenić produkt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

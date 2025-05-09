@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().setCellsColor
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "MicrosoftTheme_out.xlsx");
 ```
-- **Guardar archivo**: El `save()` El método escribe el libro de trabajo actualizado en una ruta especificada.
+- **Guardar archivo**: El `save()` El método escribe el libro actualizado en una ruta especificada.
 
 ## Aplicaciones prácticas
 Personalizar los gráficos de Excel con colores de tema es beneficioso en varios escenarios:
@@ -181,6 +183,9 @@ A5: Guarde sus libros de trabajo en formatos compatibles con versiones anteriore
 No dudes en comunicarte con el foro de soporte si tienes algún problema o necesitas más ayuda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

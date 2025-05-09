@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parameters en methoden
 - **Werkboek**: Vertegenwoordigt het volledige Excel-bestand.
-- **Werkblad**: Verwijst naar één enkel blad binnen de werkmap.
+- **Werkblad**Verwijst naar één enkel blad binnen de werkmap.
 - **ThreadedCommentCollection**Een verzameling opmerkingen die aan een cel zijn gekoppeld.
 
 ## Praktische toepassingen
@@ -148,6 +150,9 @@ Klaar om er dieper in te duiken? Probeer deze oplossing eens in je eigen project
 - [Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

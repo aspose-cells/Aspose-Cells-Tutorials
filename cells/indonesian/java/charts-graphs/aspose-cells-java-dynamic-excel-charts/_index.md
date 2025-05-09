@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Dalam dunia yang digerakkan oleh data saat ini, mengelola dan memvisualisasikan data secara efisien sangatlah penting. Baik Anda seorang analis atau pengembang, membuat bagan dinamis di Excel menggunakan Java dapat memperlancar alur kerja Anda. Panduan lengkap ini membahas cara memanfaatkan Aspose.Cells untuk Java guna membuat bagan Excel interaktif dengan mudah.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Membuat dan memberi nama rentang dalam lembar Excel.
 - Menambahkan kotak kombo dan menautkannya ke rentang data.
 - Menerapkan rumus dinamis seperti INDEX dan VLOOKUP.
@@ -24,9 +26,9 @@ Dalam dunia yang digerakkan oleh data saat ini, mengelola dan memvisualisasikan 
 
 Mari mulai menyiapkan lingkungan Anda dan menerapkan fitur-fitur ini secara efektif.
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
 
 - **Aspose.Cells untuk Pustaka Java**: Ini penting untuk bekerja dengan file Excel secara terprogram. Kami akan membahas instalasi di bagian berikutnya.
 - **Kit Pengembangan Java (JDK)**Pastikan Anda telah menginstal JDK 8 atau yang lebih tinggi pada sistem Anda.
@@ -38,7 +40,7 @@ Untuk mengintegrasikan Aspose.Cells ke dalam proyek Java Anda, ikuti langkah-lan
 
 **Pakar**
 
-Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
+Tambahkan ketergantungan ini ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -54,11 +56,11 @@ Sertakan hal berikut dalam formulir Anda `build.gradle`:
 compile group: 'com.aspose', name: 'aspose-cells', version: '25.3'
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
-Untuk memanfaatkan Aspose.Cells secara penuh, Anda dapat memulai dengan uji coba gratis atau memperoleh lisensi sementara untuk fungsionalitas penuh. Kunjungi [Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara Anda.
+Untuk memanfaatkan Aspose.Cells secara penuh, Anda dapat memulai dengan uji coba gratis atau memperoleh lisensi sementara untuk fungsionalitas penuh. Kunjungi [Aspose weboldal](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara Anda.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Berikut cara menyiapkan dan menginisialisasi Aspose.Cells di proyek Anda:
 ```java
@@ -68,7 +70,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan membagi implementasi menjadi beberapa bagian yang logis untuk membantu Anda memahami setiap fitur secara efektif.
 
@@ -107,7 +109,7 @@ Menggabungkan elemen UI dengan data dapat meningkatkan interaktivitas dalam lemb
 
 2. **Tambahkan ComboBox dan Tautkan**
 
-   Gunakan `ComboBox` kelas untuk menambahkan fungsionalitas dropdown:
+   Használd a `ComboBox` kelas untuk menambahkan fungsionalitas dropdown:
 ```java
 import com.aspose.cells.Cell;
 import com.aspose.cells.Color;
@@ -201,33 +203,36 @@ chart.getNSeries().get(0).setName("=C16");
 chart.getNSeries().setCategoryData("=$D$15:$I$15");
 ```
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java dapat diterapkan dalam berbagai skenario, termasuk:
 
-- **Pelaporan Bisnis**: Buat dasbor dinamis dengan pembaruan data waktu nyata.
-- **Analisis Keuangan**: Visualisasikan tren dan prakiraan keuangan secara interaktif.
+- **Üzleti jelentések**: Buat dasbor dinamis dengan pembaruan data waktu nyata.
+- **Pénzügyi elemzés**: Visualisasikan tren dan prakiraan keuangan secara interaktif.
 - **Alat Pendidikan**Mengembangkan materi pembelajaran interaktif yang disesuaikan dengan masukan pengguna.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
 Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells untuk Java:
 
-- **Minimalkan Penggunaan Memori**: Gunakan aliran alih-alih memuat seluruh berkas ke dalam memori jika memungkinkan.
-- **Penanganan Data yang Efisien**: Memproses data dalam potongan-potongan kecil, jangan sekaligus.
+- **Memóriahasználat minimalizálása**: Gunakan aliran alih-alih memuat seluruh berkas ke dalam memori jika memungkinkan.
+- **Hatékony adatkezelés**: Memproses data dalam potongan-potongan kecil, jangan sekaligus.
 - **Pengumpulan Sampah**: Memantau dan mengelola pengumpulan sampah Java untuk mencegah kebocoran memori.
 
-## Kesimpulan
+## Következtetés
 
 Panduan ini menyediakan panduan terperinci untuk membuat bagan Excel dinamis menggunakan Aspose.Cells dengan Java. Dengan mengikuti langkah-langkah ini, pengembang dapat secara efektif menerapkan fitur interaktif ke dalam proyek visualisasi data mereka. Untuk eksplorasi lebih lanjut, pertimbangkan untuk bereksperimen dengan jenis bagan lain dan aplikasi rumus tingkat lanjut.
 
-### Langkah Berikutnya
+### Következő lépések
 
 - Bereksperimenlah dengan berbagai gaya dan konfigurasi bagan untuk memenuhi kebutuhan spesifik Anda.
 - Jelajahi fungsionalitas tambahan Aspose.Cells untuk tugas manipulasi data yang lebih kompleks.
 - Bagikan temuan atau pertanyaan Anda di forum pengembang untuk terlibat dengan komunitas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

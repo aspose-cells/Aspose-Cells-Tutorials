@@ -1,14 +1,16 @@
 ---
-title: Konwersja Excela do MHTML w .NET
-linktitle: Konwersja Excela do MHTML w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych.
-weight: 12
-url: /pl/net/conversion-and-rendering/converting-excel-to-mhtml/
+"description": "Dowiedz się, jak efektywnie konwertować pliki Excel do formatu MHTML w środowisku .NET za pomocą Aspose.Cells, zwiększając w ten sposób możliwości raportowania i udostępniania danych."
+"linktitle": "Konwersja Excela do MHTML w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konwersja Excela do MHTML w .NET"
+"url": "/pl/net/conversion-and-rendering/converting-excel-to-mhtml/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja Excela do MHTML w .NET
@@ -22,7 +24,7 @@ Jeśli chodzi o konwersję plików Excela do różnych formatów, zachowanie ory
 Zanim przejdziemy do szczegółów konwersji plików Excel do MHTML, musisz mieć kilka niezbędnych rzeczy. Oto lista kontrolna, która zapewni płynne działanie:
 
 1. .NET Framework: Upewnij się, że masz zainstalowany .NET na swoim komputerze. Może to być .NET Framework lub .NET Core, w zależności od wymagań projektu.
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją łatwo pobrać z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją łatwo pobrać z [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. IDE: Zintegrowane środowisko programistyczne (IDE), np. Visual Studio, ułatwi Ci pisanie kodu.
 4. Podstawowa wiedza programistyczna: Znajomość koncepcji programowania w językach C# i .NET będzie pomocna, co pozwoli na bezproblemowe śledzenie postępów.
 
@@ -32,7 +34,7 @@ Gdy masz już wszystkie wymagania wstępne, następnym krokiem jest zaimportowan
 
 1. Otwórz swój projekt: Uruchom program Visual Studio i otwórz istniejący projekt lub utwórz nowy.
 2. Zarządzanie pakietami NuGet: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, a następnie wybierz opcję „Zarządzaj pakietami NuGet”.
-3.  Wyszukaj i zainstaluj Aspose.Cells: W polu wyszukiwania wpisz`Aspose.Cells` zainstaluj pakiet. Dzięki temu masz pewność, że w projekcie jest zintegrowana najnowsza wersja.
+3. Wyszukaj i zainstaluj Aspose.Cells: W polu wyszukiwania wpisz `Aspose.Cells` i zainstaluj pakiet. Dzięki temu masz pewność, że w projekcie jest zintegrowana najnowsza wersja.
 4. Dodaj dyrektywę Using: W pliku kodu dodaj następującą dyrektywę, aby wykorzystać przestrzeń nazw Aspose.Cells:
 
 ```csharp
@@ -51,7 +53,7 @@ Po pierwsze, kluczowe jest ustalenie ścieżki, w której przechowywane są Twoj
 string dataDir = "Your Document Directory"; // Zaktualizuj ten wiersz odpowiednio
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do folderu zawierającego pliki Excela.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do folderu zawierającego pliki Excela.
 
 ## Krok 2: Określ ścieżkę pliku
 
@@ -84,7 +86,7 @@ Na tym etapie musisz utworzyć obiekt Skoroszyt, który załaduje plik Excela do
 Workbook wb = new Workbook(filePath);
 ```
 
- Dzięki temu ładujesz`Book1.xlsx` do`wb` obiekt. Od tego momentu możesz nim manipulować lub zapisywać według potrzeb.
+Dzięki temu ładujesz `Book1.xlsx` do `wb` obiekt. Od tego momentu możesz nim manipulować lub zapisywać według potrzeb.
 
 ## Krok 5: Zapisz plik MHT
 
@@ -95,11 +97,11 @@ Na koniec pora zapisać skoroszyt jako plik MHTML. To tutaj dzieje się magia:
 wb.Save(filePath + ".out.mht", sv);
 ```
 
- Ten wiersz zapisuje plik Excela przekonwertowany do formatu MHTML, a nazwa pliku wyjściowego to`Book1.xlsx.out.mht` w tym samym katalogu. Bułka z masłem, prawda?
+Ten wiersz zapisuje plik Excela przekonwertowany do formatu MHTML, a nazwa pliku wyjściowego to `Book1.xlsx.out.mht` w tym samym katalogu. Bułka z masłem, prawda?
 
 ## Wniosek
 
-masz! Właśnie przekonwertowałeś plik Excela do formatu MHTML za pomocą Aspose.Cells dla .NET w zaledwie kilku prostych krokach. Ten elegancki proces nie tylko oszczędza czas, ale także zachowuje układ i formatowanie oryginalnego dokumentu, zapewniając, że żadna z Twoich ciężkich prac nie pozostanie niezauważona podczas udostępniania go online.
+I masz! Właśnie przekonwertowałeś plik Excela do formatu MHTML za pomocą Aspose.Cells dla .NET w zaledwie kilku prostych krokach. Ten elegancki proces nie tylko oszczędza czas, ale także zachowuje układ i formatowanie oryginalnego dokumentu, zapewniając, że żadna z Twoich ciężkich prac nie pozostanie niezauważona podczas udostępniania go online.
 
 ## Najczęściej zadawane pytania
 
@@ -113,13 +115,15 @@ Tak! Możesz przejść przez tablicę plików i zastosować tę samą logikę ko
 Aspose.Cells jest bardzo wydajny, ale niektóre funkcje mogą wymagać licencjonowanej wersji wykraczającej poza bezpłatną wersję próbną.
 
 ### Jak mogę uzyskać dostęp do pomocy technicznej dla Aspose.Cells?
- Wątki wsparcia można znaleźć na[Forum Aspose](https://forum.aspose.com/c/cells/9), które jest świetnym źródłem pomocy przy rozwiązywaniu problemów.
+Wątki wsparcia można znaleźć na [Forum Aspose](https://forum.aspose.com/c/cells/9), które jest świetnym źródłem pomocy przy rozwiązywaniu problemów.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
- Możesz uzyskać tymczasową licencję, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję, odwiedzając stronę [ten link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,7 +191,7 @@ Jeśli chcesz dowiedzieć się więcej, rozważ dokładniejsze zapoznanie się z
    - Aspose.Cells automatycznie dostosuje się i zastosuje tylko do określonej liczby wierszy.
 
 **4. Jak rozwiązywać problemy z wyświetlaniem wersji?**
-   - Sprawdź poprawność inicjalizacji biblioteki i czy nie występują problemy z siecią podczas pobierania zależności.
+   - Sprawdź poprawność inicjalizacji bibliotek i czy nie występują problemy z siecią podczas pobierania zależności.
 
 **5. Gdzie mogę znaleźć bardziej złożone przykłady?**
    - Odwiedzać [Dokumentacja Aspose](https://reference.aspose.com/cells/java/) aby zapoznać się z zaawansowanymi samouczkami i przypadkami użycia.
@@ -205,6 +207,9 @@ Jeśli chcesz dowiedzieć się więcej, rozważ dokładniejsze zapoznanie się z
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

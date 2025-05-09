@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,7 +66,7 @@ Kurulumunuz hazır olduğunda, özel akış sağlayıcısını uygulamaya geçel
 ### Özel Bir Akış Sağlayıcısı Uygulama
 
 **Genel Bakış:**
-Özel bir akış sağlayıcısı, bir Excel çalışma kitabındaki resimler gibi harici kaynakları yönetmenizi sağlar. Bu bölüm, Java için Aspose.Cells kullanılarak bir tane nasıl uygulanacağını gösterir.
+Özel bir akış sağlayıcısı, Excel çalışma kitabındaki resimler gibi harici kaynakları yönetmenizi sağlar. Bu bölüm, Java için Aspose.Cells kullanarak bir tane nasıl uygulayacağınızı gösterir.
 
 #### Adım 1: StreamProvider Sınıfını Tanımlayın
 
@@ -137,7 +139,7 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 ```
 
 **Açıklama:**
-- Harici kaynakları içeren bir Excel dosyasını yükler.
+- Harici kaynakları içeren bir Excel dosyası yükler.
 - Çalışma kitabı ayarlarında bağlantılı görüntüleri işlemek için özel akış sağlayıcısını ayarlar.
 - Görüntü seçeneklerini yapılandırır ve çalışma sayfasını bir görüntüye dönüştürür.
 
@@ -190,6 +192,9 @@ Veri doğrulama, grafik oluşturma ve pivot tablolar gibi özellikleri keşfedin
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

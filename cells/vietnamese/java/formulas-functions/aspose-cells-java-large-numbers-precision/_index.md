@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Mua lại giấy phép
 Để sử dụng Aspose.Cells, bạn có thể:
 - **Dùng thử miễn phí**: Tải xuống thư viện để bắt đầu dùng thử miễn phí.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để đánh giá mở rộng.
+- **Giấy phép tạm thời**Xin giấy phép tạm thời để đánh giá mở rộng.
 - **Mua**: Hãy cân nhắc mua nếu nó phù hợp với nhu cầu của bạn.
 
 ### Khởi tạo và thiết lập cơ bản
@@ -110,7 +112,7 @@ workbook.save(outputPath, SaveFormat.XLSX);
 ```
 **Giải thích:**
 - **`autoFitColumns()`**: Điều chỉnh độ rộng cột dựa trên nội dung.
-- **Tiết kiệm**: Các `save()` phương pháp ghi sổ làm việc vào tệp Excel.
+- **Tiết kiệm**: Các `save()` phương pháp này ghi sổ làm việc vào tệp Excel.
 
 ## Ứng dụng thực tế
 Sau đây là một số tình huống mà việc duy trì độ chính xác của số lớn là điều cần thiết:
@@ -151,6 +153,9 @@ Trong hướng dẫn này, bạn đã học cách sử dụng Aspose.Cells for J
 Hãy bắt đầu hành trình cùng Aspose.Cells ngay hôm nay và đảm bảo độ chính xác về mặt số liệu trong mọi dự án của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
 "description": "Узнайте, как создавать и управлять рабочими книгами Excel и сводными таблицами с помощью Aspose.Cells для Java. Оптимизируйте свои задачи по анализу данных без усилий."
-"title": "Освоение Aspose.Cells для Java&#58; эффективное создание рабочих книг Excel и сводных таблиц"
+"title": "Освоение Aspose.Cells для Java&#58; эффективное создание рабочих книг и сводных таблиц Excel"
 "url": "/ru/java/data-analysis/aspose-cells-java-excel-pivottables/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,6 +178,9 @@ Aspose.Cells для Java можно интегрировать в различн
 - **Загрузки:** Загрузите последнюю версию Aspose.Cells для Java с официального сайта.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,7 +182,7 @@ public class WorkbookDataImport {
    Да, настроить `ImportTableOptions` с `setShiftFirstRowDown(false)` для предотвращения смещения строк во время импорта.
 4. **Есть ли какие-либо расходы, связанные с использованием Aspose.Cells?**  
    Несмотря на коммерческий аспект, вы можете начать с бесплатной пробной версии, чтобы оценить его возможности.
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**  
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**  
    Посетите официальный сайт [Документация Aspose](https://reference.aspose.com/cells/java/) и форумы сообщества для поддержки и примеров.
 
 ## Ресурсы
@@ -194,6 +196,9 @@ public class WorkbookDataImport {
 Вооружившись знаниями и инструментами, описанными в этом руководстве, вы будете на пути к освоению задач импорта и управления данными с помощью Aspose.Cells для Java. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

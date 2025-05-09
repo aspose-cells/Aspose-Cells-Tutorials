@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 基本的なExcel関数
@@ -28,7 +30,7 @@ Excel関数の詳細に入る前に、まずはAspose.Cells for Javaを使った
 これらの見出しと段落は、Aspose.Cells for Java を使用した基本的な Excel 関数のトピックを明確かつ魅力的に紹介し、読者がチュートリアルを調べてスプレッドシートの操作スキルを向上させるよう促します。
 
 ## 基本的なExcel関数のチュートリアル
-### [Excel SUM 関数ガイド](./excel-sum-formula-guide/)
+### [Excel SUM 式ガイド](./excel-sum-formula-guide/)
 Aspose.Cells for Java で Excel SUM 式のパワーを解き放ちましょう - Excel 自動化の包括的なガイド。
 ### [ExcelのIF関数の使い方](./how-to-use-excel-if-function/)
 Aspose.Cells for JavaでExcelのIF関数のパワーを解き放ちましょう。条件付きロジックをシームレスに実装する方法を学びましょう。
@@ -48,9 +50,11 @@ Aspose.Cells for Java を使って、Excel の MIN 関数の威力を学びま�
 Aspose.Cells for JavaでExcelのテキスト関数の秘密を解き明かしましょう。Excelでテキストを簡単に操作、抽出、変換する方法を学びましょう。
 ### [Excelの日付関数チュートリアル](./excel-date-functions-tutorial/)
 Aspose.Cells for Javaを使ってExcelの日付関数を学習しましょう。ソースコード付きのステップバイステップのチュートリアルをご覧ください。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

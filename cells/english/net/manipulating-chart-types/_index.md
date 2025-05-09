@@ -8,7 +8,9 @@ url: /net/manipulating-chart-types/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulating Chart Types
@@ -53,9 +55,11 @@ Learn to apply Microsoft theme colors in chart series using Aspose.Cells for .NE
 Learn how to modify line charts in Excel using Aspose.Cells for .NET with this detailed, step-by-step guide.
 ### [Modify Pie Chart](./modify-pie-chart/)
 Unlock the power of Aspose.Cells for .NET to modify your Excel pie charts effortlessly. Follow this tutorial for step-by-step guidance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

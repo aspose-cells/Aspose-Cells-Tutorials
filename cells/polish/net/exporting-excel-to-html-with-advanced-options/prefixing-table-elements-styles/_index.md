@@ -1,14 +1,16 @@
 ---
-title: Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML
-linktitle: Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak używać Aspose.Cells for .NET do dodawania prefiksów do stylów tabel w formacie HTML, wzbogacając eksportowane dane w programie Excel o przykłady krok po kroku.
-weight: 17
-url: /pl/net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements-styles/
+"description": "Dowiedz się, jak używać Aspose.Cells for .NET do dodawania prefiksów do stylów tabel w formacie HTML, wzbogacając eksportowane dane w programie Excel o przykłady krok po kroku."
+"linktitle": "Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML"
+"url": "/pl/net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements-styles/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie prefiksu do stylów elementów tabeli za pomocą opcji zapisu HTML
@@ -19,7 +21,7 @@ ciągle ewoluującym świecie prezentacji danych, atrakcyjne wizualnie formaty t
 Zanim zaczniemy, upewnij się, że masz niezbędne narzędzia:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. To preferowane środowisko do tworzenia oprogramowania .NET.
 2. .NET Framework: Zapoznaj się z podstawami platformy .NET, ponieważ w naszych przykładach będziemy używać języka C#.
-3.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Podstawowa znajomość języka C#: Choć szczegółowo omawiamy każdy krok, podstawowa znajomość języka C# znacznie ułatwi proces nauki.
 Mając te wymagania wstępne, możesz tworzyć piękne tabele HTML bezpośrednio z danych w programie Excel!
 ## Importuj pakiety
@@ -45,7 +47,7 @@ Następnie musimy utworzyć obiekt skoroszytu. Jest to jak otwarcie nowego pliku
 //Utwórz obiekt skoroszytu
 Workbook wb = new Workbook(); // Właśnie utworzyłeś nowy skoroszyt w pamięci
 ```
- Tutaj,`Workbook` Klasa ta jest podstawą wszelkich operacji wykonywanych na plikach Excel. 
+Tutaj, `Workbook` Klasa ta jest podstawą wszelkich operacji wykonywanych na plikach Excel. 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Każdy skoroszyt zawiera co najmniej jeden arkusz. Uzyskamy dostęp do pierwszego, aby rozpocząć manipulowanie danymi komórki.
 ```csharp
@@ -80,7 +82,7 @@ To ID może być przydatnym narzędziem, gdy zechcesz dodatkowo nadać styl tabe
 ## Krok 7: Zapisz skoroszyt
 A teraz wielki finał: zapisanie skoroszytu jako pliku HTML. 
 ```csharp
-// Zapisz skoroszyt w formacie html
+//Zapisz skoroszyt w formacie html 
 wb.Save(outputDir + "outputTableCssId.html", opts); // Zapisz z zastosowanymi opcjami
 ```
 Masz teraz reprezentację HTML swoich danych w programie Excel, uzupełnioną o skonfigurowane style.
@@ -96,16 +98,18 @@ Gratulacje! Udało Ci się nauczyć, jak dodawać prefiksy do stylów elementów
 ### Czym jest Aspose.Cells dla .NET?  
 Aspose.Cells for .NET to zaawansowana biblioteka do tworzenia i modyfikowania plików Excel w aplikacjach .NET.
 ### Jak mogę zainstalować Aspose.Cells?  
- Możesz łatwo pobrać Aspose.Cells z ich strony[strona internetowa](https://releases.aspose.com/cells/net/) i dodaj do projektu Visual Studio.
+Możesz łatwo pobrać Aspose.Cells z ich strony [strona internetowa](https://releases.aspose.com/cells/net/) i dodaj do projektu Visual Studio.
 ### Czy mogę zmienić styl wielu komórek jednocześnie?  
 Tak! Możesz przejść przez zakres komórek i zastosować style podobnie jak zrobiliśmy to dla komórki B5.
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?  
- Oczywiście! Możesz złapać[bezpłatna wersja próbna tutaj](https://releases.aspose.com/) aby przetestować bibliotekę.
+Oczywiście! Możesz złapać [bezpłatna wersja próbna tutaj](https://releases.aspose.com/) aby przetestować bibliotekę.
 ### Czy mogę zadawać pytania dotyczące Aspose.Cells?  
-Tak, możesz uzyskać wsparcie społeczności, publikując swoje pytania na[Fora Aspose](https://forum.aspose.com/c/cells/9).
+Tak, możesz uzyskać wsparcie społeczności, publikując swoje pytania na [Fora Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

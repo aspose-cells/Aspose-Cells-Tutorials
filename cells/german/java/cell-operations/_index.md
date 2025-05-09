@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Ein Code-Tutorial für Aspose.Words Java
 Erfahren Sie, wie Sie mit Aspose.Cells für Java mühelos Excel-Dateien erstellen, aufrufen und bearbeiten. Dieser umfassende Leitfaden behandelt Zellmanipulation, Formatvorlagen und mehr.
 
 ### [Aspose.Cells für Java meistern: Arbeitsmappe und Handbuch zu Zelloperationen](./aspose-cells-java-workbook-cell-operations/)
-Erfahren Sie, wie Sie mit Aspose.Cells effizient Excel-Arbeitsmappen in Java erstellen, bearbeiten und verwalten. Diese Anleitung behandelt die Initialisierung von Arbeitsmappen, den Zellenzugriff und die Datenbearbeitung.
+Erfahren Sie, wie Sie mit Aspose.Cells Excel-Arbeitsmappen in Java effizient erstellen, bearbeiten und verwalten. Diese Anleitung behandelt die Initialisierung von Arbeitsmappen, den Zellenzugriff und die Datenbearbeitung.
 
 ### [So konvertieren Sie Excel-Zellennamen mit Aspose.Cells für Java in Indizes: Eine Schritt-für-Schritt-Anleitung](./convert-excel-cell-names-to-indices-aspose-cells-java/)
 Erfahren Sie, wie Sie Excel-Zellennamen wie „C6“ mit Aspose.Cells für Java effizient in Zeilen- und Spaltenindizes konvertieren. Diese Schritt-für-Schritt-Anleitung umfasst Einrichtung, Implementierung und praktische Anwendungen.
@@ -96,6 +98,9 @@ Ein Code-Tutorial für Aspose.Words Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

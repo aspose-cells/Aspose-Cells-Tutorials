@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengimpor Data dari ArrayList ke Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Mengelola data secara efisien merupakan tantangan umum yang dihadapi oleh banyak pengembang, terutama saat melibatkan pemindahan informasi antara berbagai format dan platform. Baik Anda menangani daftar pelanggan, basis data inventaris, atau lembar kerja manajemen proyek, mengonversi koleksi Java dalam memori seperti `ArrayList` ke file Excel yang terstruktur dapat memperlancar alur kerja dan meningkatkan produktivitas.
 
 Tutorial ini akan memandu Anda melalui proses mengimpor data dari `ArrayList` ke dalam lembar kerja Excel menggunakan Aspose.Cells untuk Java—pustaka tangguh yang dirancang untuk memanipulasi file Excel secara terprogram dengan mudah. Dengan mengikuti panduan komprehensif ini, Anda akan mempelajari cara mengotomatiskan transfer data dengan lancar tanpa intervensi manual.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 
 - Cara mengatur Aspose.Cells untuk Java di proyek Anda
 - Langkah-langkah untuk mengimpor `ArrayList` ke Excel menggunakan Aspose.Cells
@@ -28,7 +30,7 @@ Tutorial ini akan memandu Anda melalui proses mengimpor data dari `ArrayList` ke
 
 Sebelum memulai implementasi, mari pastikan Anda telah menyiapkan semuanya.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk memulai mengimpor data dari `ArrayList` untuk Excel menggunakan Aspose.Cells untuk Java, Anda memerlukan:
 
@@ -54,21 +56,21 @@ Untuk menggunakan Aspose.Cells, Anda harus mengintegrasikannya terlebih dahulu k
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-- **Uji Coba Gratis:** Unduh perpustakaan dan mulai dengan uji coba gratis untuk menjelajahi kemampuannya.
-- **Lisensi Sementara:** Jika Anda memerlukan lebih banyak waktu, ajukan permohonan lisensi sementara di situs web Aspose.
-- **Pembelian:** Untuk proyek jangka panjang, pertimbangkan untuk membeli lisensi penuh.
+- **Ingyenes próbaverzió:** Unduh perpustakaan dan mulai dengan uji coba gratis untuk menjelajahi kemampuannya.
+- **Ideiglenes engedély:** Jika Anda memerlukan lebih banyak waktu, ajukan permohonan lisensi sementara di situs web Aspose.
+- **Vásárlás:** Untuk proyek jangka panjang, pertimbangkan untuk membeli lisensi penuh.
 
 Mulailah dengan menginisialisasi proyek Anda dan pastikan Aspose.Cells dikonfigurasi dengan benar di jalur pembuatan Anda.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur Impor ArrayList ke Excel
 
 Fitur ini memungkinkan Anda untuk mengonversi data yang disimpan dalam `ArrayList` ke dalam format terstruktur dalam lembar kerja Excel. Berikut cara melakukannya:
 
-#### Inisialisasi Buku Kerja dan Lembar Kerja
+#### Munkafüzet és munkalap inicializálása
 
 ```java
 // Membuat objek Buku Kerja baru, yang mewakili file Excel
@@ -78,7 +80,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**Penjelasan:** Ini menyiapkan lingkungan Anda dengan membuat buku kerja Excel kosong dan mengakses lembar kerja default-nya.
+**Magyarázat:** Ini menyiapkan lingkungan Anda dengan membuat buku kerja Excel kosong dan mengakses lembar kerja default-nya.
 
 #### Siapkan Data dalam ArrayList
 
@@ -93,7 +95,7 @@ list.add("Kyle Huang");
 list.add("Tommy Wang");
 ```
 
-**Penjelasan:** Di sini, kami sedang mempersiapkan yang sederhana `ArrayList` berisi string. Data ini nantinya akan ditransfer ke Excel.
+**Magyarázat:** Di sini, kami sedang mempersiapkan yang sederhana `ArrayList` berisi string. Data ini nantinya akan ditransfer ke Excel.
 
 #### Mengimpor Data ke Lembar Kerja
 
@@ -102,7 +104,7 @@ list.add("Tommy Wang");
 worksheet.getCells().importArrayList(list, 0, 0, true);
 ```
 
-**Penjelasan:** Itu `importArrayList` metode mentransfer data secara vertikal dimulai dari sel yang ditentukan. Parameter boolean memastikan bahwa setiap elemen ditempatkan di baris baru.
+**Magyarázat:** A `importArrayList` metode mentransfer data secara vertikal dimulai dari sel yang ditentukan. Parameter boolean memastikan bahwa setiap elemen ditempatkan di baris baru.
 
 #### Simpan ke File Excel
 
@@ -111,45 +113,45 @@ worksheet.getCells().importArrayList(list, 0, 0, true);
 workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 ```
 
-**Penjelasan:** Akhirnya, `save` metode menulis semua perubahan ke dalam file Excel yang sebenarnya. Pastikan Anda mengganti `"YOUR_OUTPUT_DIRECTORY"` dengan jalur yang valid.
+**Magyarázat:** Akhirnya, `save` metode menulis semua perubahan ke dalam file Excel yang sebenarnya. Pastikan Anda mengganti `"YOUR_OUTPUT_DIRECTORY"` dengan jalur yang valid.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - **Perpustakaan Tidak Ditemukan:** Periksa kembali konfigurasi Maven atau Gradle Anda.
-- **Kesalahan Jalur File:** Verifikasi bahwa jalur direktori Anda benar dan dapat diakses.
+- **Fájlútvonal-hibák:** Verifikasi bahwa jalur direktori Anda benar dan dapat diakses.
 - **Masalah Kinerja:** Untuk kumpulan data besar, pertimbangkan untuk mengoptimalkan penggunaan memori (lihat bagian Pertimbangan Kinerja).
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Sistem CRM:** Ekspor data pelanggan secara otomatis dari aplikasi ke Excel untuk pelaporan.
-2. **Manajemen Inventaris:** Pindahkan daftar produk ke dalam lembar kerja untuk dianalisis atau dibagikan kepada pemangku kepentingan.
+1. **CRM rendszerek:** Ekspor data pelanggan secara otomatis dari aplikasi ke Excel untuk pelaporan.
+2. **Készletgazdálkodás:** Pindahkan daftar produk ke dalam lembar kerja untuk dianalisis atau dibagikan kepada pemangku kepentingan.
 3. **Daftar Karyawan:** Hasilkan jadwal staf terkini langsung dari basis data internal.
 
 Kemungkinan integrasi termasuk menghubungkan fungsi ini ke aplikasi web, yang memungkinkan pengguna mengunduh laporan dalam format Excel dengan mudah.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk memastikan kinerja optimal saat bekerja dengan Aspose.Cells:
+Az Aspose.Cells optimális teljesítményének biztosítása érdekében:
 
-- **Manajemen Memori:** Untuk kumpulan data besar, kelola sumber daya dengan mengoptimalkan pengaturan JVM.
-- **Pemrosesan Batch:** Memproses data dalam kelompok yang lebih kecil jika Anda menghadapi keterbatasan memori.
+- **Memóriakezelés:** Untuk kumpulan data besar, kelola sumber daya dengan mengoptimalkan pengaturan JVM.
+- **Kötegelt feldolgozás:** Memproses data dalam kelompok yang lebih kecil jika Anda menghadapi keterbatasan memori.
 - **Optimasi Sumber Daya:** Jauhkan objek yang tidak diperlukan untuk mengosongkan memori.
 
 Dengan mematuhi praktik terbaik ini, Anda dapat meningkatkan efisiensi aplikasi Java Anda menggunakan Aspose.Cells.
 
-## Kesimpulan
+## Következtetés
 
 Anda sekarang telah mempelajari cara mengimpor `ArrayList` ke Excel menggunakan Aspose.Cells untuk Java. Fitur canggih ini memungkinkan integrasi data yang lancar antara koleksi dalam memori dan lembar kerja terstruktur, menghemat waktu dan mengurangi kesalahan manual.
 
 Untuk eksplorasi lebih lanjut, pertimbangkan untuk bereksperimen dengan fitur Aspose.Cells yang lebih canggih atau mengintegrasikan fungsi ini ke dalam proyek yang lebih besar.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Cobalah menerapkan fungsi impor/ekspor tambahan.
-- Jelajahi yang komprehensif [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk kasus penggunaan tingkat lanjut.
+- Jelajahi yang komprehensif [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk kasus penggunaan tingkat lanjut.
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Apa itu Aspose.Cells?**
+1. **Mi az Aspose.Cells?**
    - Aspose.Cells adalah pustaka yang memungkinkan aplikasi Java untuk membaca, menulis, dan memanipulasi file Excel secara terprogram.
 
 2. **Bisakah saya mengimpor data ke beberapa lembar kerja?**
@@ -158,23 +160,26 @@ Untuk eksplorasi lebih lanjut, pertimbangkan untuk bereksperimen dengan fitur As
 3. **Apakah ada dukungan untuk koleksi lain selain ArrayList?**
    - Aspose.Cells mendukung impor dari berbagai koleksi Java seperti Daftar, Vektor, dll.
 
-4. **Bagaimana cara menangani kumpulan data besar dengan Aspose.Cells?**
+4. **Hogyan kezelhetek nagy adathalmazokat az Aspose.Cells segítségével?**
    - Optimalkan pengaturan JVM dan proses data secara batch untuk mengelola memori secara efisien.
 
 5. **Di mana saya bisa mendapatkan bantuan jika saya mengalami masalah?**
-   - Kunjungi [Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan dari anggota masyarakat dan para ahli.
+   - Látogassa meg a [Aspose támogatói fórum](https://forum.aspose.com/c/cells/9) untuk bantuan dari anggota masyarakat dan para ahli.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** Jelajahi panduan terperinci di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh Perpustakaan:** Memulai dengan [Unduhan Aspose](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** Beli lisensi di [Halaman Pembelian Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** Uji fitur dengan [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** Ajukan evaluasi lanjutan melalui [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- **Dokumentáció:** Jelajahi panduan terperinci di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Könyvtár letöltése:** Memulai dengan [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** Beli lisensi di [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** Uji fitur dengan [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** Ajukan evaluasi lanjutan melalui [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
 
 Panduan ini akan membantu Anda menggunakan Aspose.Cells for Java secara efektif dalam proyek Anda, meningkatkan penanganan data dan produktivitas. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

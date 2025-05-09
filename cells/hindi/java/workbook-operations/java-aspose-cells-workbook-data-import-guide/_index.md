@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
 "description": "Java के लिए Aspose.Cells का उपयोग करके मास्टर वर्कबुक डेटा आयात करें। जानें कि कैसे सेट अप करें, प्रदर्शन को अनुकूलित करें और जटिल डेटा संरचनाओं को कुशलतापूर्वक संभालें।"
-"title": "Aspose.Cells की सर्वोत्तम प्रथाओं और तकनीकों के साथ जावा में वर्कबुक डेटा आयात करने के लिए मार्गदर्शिका"
+"title": "Aspose.Cells की सर्वोत्तम प्रथाओं और तकनीकों के साथ जावा में कार्यपुस्तिका डेटा आयात करने के लिए मार्गदर्शिका"
 "url": "/hi/java/workbook-operations/java-aspose-cells-workbook-data-import-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ public class WorkbookDataImport {
         Worksheet ws = wb.getWorksheets().get(0);
 ```
 ##### 2. आयात विकल्प कॉन्फ़िगर करें
-सेट अप करें `ImportTableOptions` डेटा आयात कैसे किया जाए इसे नियंत्रित करने के लिए:
+सेट अप करें `ImportTableOptions` डेटा आयात करने के तरीके को नियंत्रित करने के लिए:
 ```java
         ImportTableOptions opts = new ImportTableOptions();
         opts.setShiftFirstRowDown(false);
@@ -194,6 +196,9 @@ public class WorkbookDataImport {
 इस गाइड में बताए गए ज्ञान और उपकरणों से खुद को लैस करके, आप Aspose.Cells for Java का उपयोग करके डेटा आयात और प्रबंधन कार्यों में महारत हासिल करने की दिशा में आगे बढ़ रहे हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

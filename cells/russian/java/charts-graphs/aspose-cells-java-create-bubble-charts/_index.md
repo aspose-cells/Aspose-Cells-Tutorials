@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 2. **Как настроить цвета пузырьковой диаграммы?**
    - Настроить с помощью `chart.getNSeries().get(0).setPlotOnSecondAxis(true)` и другие методы стилизации, предоставляемые Aspose.Cells.
 3. **Могу ли я использовать Aspose.Cells в средах Windows и Linux?**
-   - Да, Aspose.Cells полностью кроссплатформенен и совместим с приложениями Java.
+   - Да, Aspose.Cells полностью кроссплатформенно совместим с приложениями Java.
 4. **Какие типичные проблемы возникают при настройке размеров пузырьков?**
    - Во избежание ошибок убедитесь, что диапазоны данных для размеров пузырьков соответствуют размеру набора данных.
 5. **Как получить временную лицензию для Aspose.Cells?**
@@ -179,6 +181,9 @@ workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - **Форум поддержки**: По любым вопросам обращайтесь [форум поддержки](https://forum.aspose.com/c/cells/9) доступно.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Ladda ner och konfigurera en licens för full funktionalitet, tillgänglig som gratis provperiod eller tillfällig licens på [Asposes webbplats](https://purchase.aspose.com/temporary-license/).
 
 ### Grundläggande initialisering
-Börja med att initiera din `Workbook` objekt:
+Börja med att initialisera din `Workbook` objekt:
 ```java
 import com.aspose.cells.*;
 
@@ -180,6 +182,9 @@ A5: Den kostnadsfria provperioden ger fullständig åtkomst men lägger till en 
 - **Stöd**Besök [Aspose Supportforum](https://forum.aspose.com/c/cells/9) för eventuella frågor.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

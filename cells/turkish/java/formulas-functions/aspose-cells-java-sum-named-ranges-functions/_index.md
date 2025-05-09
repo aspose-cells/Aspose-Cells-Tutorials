@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Bu eğitim, Java için Aspose.Cells'de SUM işlevleriyle adlandırılmış aral�
 Bu eğitim size Java için Aspose.Cells kullanarak adlandırılmış aralıkları ve toplam işlevlerini uygulama konusunda kapsamlı bir anlayış sunar. Uygulamalarınızda Excel otomasyonunun tüm potansiyelinden yararlanmak için deneyin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

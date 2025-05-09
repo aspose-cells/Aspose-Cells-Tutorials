@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/rotate-text-shape-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotate Text with Shape in Excel
@@ -118,6 +120,7 @@ You can ask for support by visiting the [Aspose forum](https://forum.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

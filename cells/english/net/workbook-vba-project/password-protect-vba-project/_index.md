@@ -8,7 +8,9 @@ url: /net/workbook-vba-project/password-protect-vba-project/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Password Protect the VBA Project of Excel Workbook using Aspose.Cells
@@ -79,6 +81,7 @@ Yes, as long as the Excel file is in a suitable format (.xlsm), the password pro
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

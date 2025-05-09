@@ -1,14 +1,16 @@
 ---
-title: Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất
-linktitle: Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thiết lập kích thước giấy tùy chỉnh trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để hiển thị bảng tính liền mạch.
-weight: 50
-url: /vi/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
+"description": "Tìm hiểu cách thiết lập kích thước giấy tùy chỉnh trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để hiển thị bảng tính liền mạch."
+"linktitle": "Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất"
+"url": "/vi/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Triển khai tùy chỉnh kích thước giấy của bảng tính để kết xuất
@@ -22,7 +24,7 @@ Việc tạo và tùy chỉnh các tài liệu Excel theo chương trình có th
 Trước khi đi sâu vào mã, hãy đảm bảo bạn đã thiết lập đúng cách. Sau đây là những gì bạn cần để bắt đầu:
 
 1. Visual Studio hoặc bất kỳ .NET IDE nào: Đảm bảo bạn có một IDE đang hoạt động như Visual Studio. Đây sẽ là sân chơi nơi mọi phép thuật mã hóa diễn ra.
-2. Gói Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất trên[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Gói Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất trên [Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Trong khi chúng tôi sẽ hướng dẫn bạn về mã, việc quen thuộc với C# sẽ giúp bạn hiểu rõ hơn về các sắc thái.
 4. Truy cập vào .NET Framework: Đảm bảo dự án của bạn được thiết lập để hướng tới phiên bản tương thích của .NET Framework.
 
@@ -63,11 +65,11 @@ Trước khi bắt đầu viết mã, hãy quyết định nơi bạn muốn lư
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR_OUTPUT_DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu PDF của mình. Hãy nghĩ về điều này như việc dọn bàn trước khi bạn bắt đầu nấu ăn; bạn cần một không gian sạch sẽ để làm việc.
+Hãy chắc chắn thay thế `"YOUR_OUTPUT_DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tài liệu PDF của mình. Hãy nghĩ về điều này như việc dọn bàn trước khi bạn bắt đầu nấu ăn; bạn cần một không gian sạch sẽ để làm việc.
 
 ## Bước 2: Tạo một đối tượng Workbook
 
-Bây giờ, hãy tạo một phiên bản của sổ làm việc. Điều này tương tự như việc tạo một trang giấy trắng để vẽ.
+Bây giờ, hãy tạo một phiên bản của sổ làm việc. Điều này tương tự như việc tạo một trang vải trắng để vẽ.
 
 ```csharp
 Workbook wb = new Workbook();
@@ -130,22 +132,24 @@ Việc triển khai kích thước giấy tùy chỉnh cho các bảng tính Exc
 ## Câu hỏi thường gặp
 
 ### Tôi có thể sử dụng Aspose.Cells mà không cần mua giấy phép không?
- Có, bạn có thể dùng thử phiên bản dùng thử miễn phí của Aspose.Cells cho .NET, có sẵn[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử phiên bản dùng thử miễn phí của Aspose.Cells cho .NET, có sẵn [đây](https://releases.aspose.com/).
 
 ### Điều gì xảy ra nếu tôi vượt quá giới hạn của giấy phép tạm thời?
- Vượt quá giới hạn sẽ dẫn đến đầu ra có hình mờ. Tốt nhất là chọn giấy phép vĩnh viễn để có dịch vụ không bị gián đoạn. Bạn có thể tìm thấy các tùy chọn[đây](https://purchase.aspose.com/buy).
+Vượt quá giới hạn sẽ dẫn đến đầu ra có hình mờ. Tốt nhất là chọn giấy phép vĩnh viễn để có dịch vụ không bị gián đoạn. Bạn có thể tìm thấy các tùy chọn [đây](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells có tương thích với .NET Core không?
 Có, Aspose.Cells for .NET hỗ trợ .NET Core. Bạn có thể tích hợp nó vào các ứng dụng hiện đại của mình một cách liền mạch.
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể liên hệ qua diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9) để được hỗ trợ về bất kỳ sự cố kỹ thuật nào.
+Bạn có thể liên hệ qua diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/cells/9) để được hỗ trợ về bất kỳ sự cố kỹ thuật nào.
 
 ### Tôi có thể tùy chỉnh các khía cạnh khác của bảng tính bằng Aspose.Cells không?
 Chắc chắn rồi! Aspose.Cells cung cấp một bộ tính năng mạnh mẽ để tùy chỉnh bảng tính, bao gồm kiểu, công thức và nhiều tính năng khác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

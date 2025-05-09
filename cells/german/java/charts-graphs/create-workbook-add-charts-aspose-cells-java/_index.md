@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ Erkunden Sie die Möglichkeiten weiter, indem Sie Aspose.Cells in andere Systeme
 Beginnen Sie noch heute mit der Verwendung von Aspose.Cells für Java, um Ihre Datenvisualisierungsfunktionen zu verbessern!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

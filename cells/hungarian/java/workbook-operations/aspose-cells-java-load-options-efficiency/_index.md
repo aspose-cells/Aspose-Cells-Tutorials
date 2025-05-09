@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Az Aspose.Cells más rendszerekbe, például adatbázisokba vagy webes alkalmaz�
 
 ## Teljesítménybeli szempontok
 Nagy Excel fájlok kezelésekor:
-- **Memóriahasználat optimalizálása**Használat `LightCellsDataHandler` a memóriaterhelés minimalizálása érdekében.
+- **Memóriahasználat optimalizálása**Használat `LightCellsDataHandler` a memóriahasználat minimalizálása érdekében.
 - **Erőforrás-gazdálkodás**: A munkafüzetek és erőforrások azonnali bezárása memória felszabadítása érdekében.
 - **Bevált gyakorlatok**Kövesd a Java legjobb gyakorlatait a szemétgyűjtés és az erőforrás-kezelés terén.
 
@@ -135,6 +137,9 @@ Fedezze fel az Aspose.Cells fejlettebb funkcióit, vagy integrálja projektjeibe
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

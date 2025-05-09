@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: Đảm bảo rằng tên phạm vi là duy nhất và hợp lệ trong toàn
 Để biết thêm thông tin, hãy khám phá các nguồn tài nguyên có sẵn tại [Tải xuống Aspose](https://releases.aspose.com/cells/java/) và cân nhắc việc xin giấy phép tạm thời để có quyền truy cập đầy đủ tính năng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

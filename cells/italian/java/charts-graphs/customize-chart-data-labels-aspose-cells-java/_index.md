@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Una volta che l'ambiente è pronto, configuriamo Aspose.Cells. Ecco come iniziar
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Inizializzazione di base**: Crea un `Workbook` istanza per iniziare a lavorare con i file Excel.
+3. **Inizializzazione di base**Crea un `Workbook` istanza per iniziare a lavorare con i file Excel.
 
 ## Guida all'implementazione
 
@@ -166,6 +168,9 @@ Per esplorare ulteriormente le funzionalità di Aspose.Cells, si consiglia di sp
 Questa guida completa ti aiuterà a personalizzare efficacemente le etichette dei dati dei grafici nelle tue applicazioni Java utilizzando Aspose.Cells. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

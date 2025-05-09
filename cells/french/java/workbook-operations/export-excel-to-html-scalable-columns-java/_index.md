@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Pour utiliser Aspose.Cells sans limitations d'évaluation, vous pouvez :
 - **Essai gratuit**: Téléchargez une licence d'essai à partir de [Site Web d'Aspose](https://releases.aspose.com/cells/java/).
-- **Permis temporaire**Demandez un permis temporaire à [Page de licence temporaire Aspose](https://purchase.aspose.com/temporary-license/).
+- **Permis temporaire**: Demandez un permis temporaire à [Page de licence temporaire Aspose](https://purchase.aspose.com/temporary-license/).
 - **Achat**: Obtenez une licence complète pour une utilisation commerciale auprès du [Page d'achat](https://purchase.aspose.com/buy).
 
 ### Initialisation de base
@@ -209,6 +211,9 @@ Pour une exploration et une documentation plus approfondies, visitez le [Documen
 Lancez-vous dans votre voyage vers la maîtrise des manipulations de fichiers Excel avec Aspose.Cells pour Java et améliorez la présentation de vos données dès aujourd'hui !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

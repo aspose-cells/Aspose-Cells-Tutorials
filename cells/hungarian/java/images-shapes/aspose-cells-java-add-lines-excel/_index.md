@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Készen állsz arra, hogy ezt a tudást a gyakorlatban is alkalmazd? Kezdd azzal
 Ez az átfogó útmutató célja, hogy felvértezze Önt az Aspose.Cells Java hatékony használatához szükséges ismeretekkel és eszközökkel az Excel-dokumentumok fejlesztése érdekében. Kezdje el alkalmazni ezeket a technikákat még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Az Excelben az adatvizualizáció és az interaktivitás javítása dinamikus el
 - Az Aspose.Cells beállítása és használata Java-ban
 - Excel-munkafüzet létrehozásának és diagramok beszúrásának lépései
 - Jelölőnégyzetek hozzáadásának módszerei a diagramterületen belül
-- Technikák a módosítások Excel-fájlba mentéséhez
+- A módosítások Excel-fájlba mentésének módjai
 
 Mielőtt belekezdenénk, győződjünk meg arról, hogy rendelkezünk a szükséges eszközökkel és ismeretekkel.
 
@@ -243,6 +245,9 @@ public class ChartWithCheckbox {
 3. **Oktatási eszközök:** Dinamikus tanulási anyagokat hozhat létre, ahol a diákok a diagramokon található különböző lehetőségek kiválasztásával interakcióba léphetnek a tartalommal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

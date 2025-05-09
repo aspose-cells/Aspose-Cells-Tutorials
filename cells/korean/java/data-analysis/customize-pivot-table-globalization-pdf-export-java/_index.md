@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ Workbook workbook = new Workbook("path/to/excel/file.xlsx");
 
 - **재무 보고**피벗 테이블을 사용자 지정하여 재무 데이터를 현지화된 형식으로 표시합니다.
 - **판매 데이터 분석**: 판매 보고서를 PDF로 내보내 쉽게 배포하고 보관할 수 있습니다.
-- **재고 관리**: 피벗 테이블 사용자 정의를 사용하여 재고를 더 효과적으로 추적하세요.
+- **재고 관리**: 피벗 테이블 사용자 지정을 사용하여 재고를 더 효과적으로 추적하세요.
 
 이러한 애플리케이션이 어떻게 비즈니스 프로세스를 간소화할 수 있는지 알아보세요!
 
@@ -189,6 +191,9 @@ Aspose.Cells for Java로 데이터 관리 여정의 다음 단계를 밟아보�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

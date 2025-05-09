@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells के साथ ऑब्जेक्ट की सीमाएं बनाएं
-linktitle: Aspose.Cells के साथ ऑब्जेक्ट की सीमाएं बनाएं
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: हमारे व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में ड्रा ऑब्जेक्ट सीमाओं को निकालने का तरीका जानें।
-weight: 15
-url: /hi/net/rendering-and-export/get-draw-object-and-bound/
+"description": "हमारे व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel में ड्रा ऑब्जेक्ट सीमाओं को निकालने का तरीका जानें।"
+"linktitle": "Aspose.Cells के साथ ऑब्जेक्ट की सीमाएं बनाएं"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "Aspose.Cells के साथ ऑब्जेक्ट की सीमाएं बनाएं"
+"url": "/hi/net/rendering-and-export/get-draw-object-and-bound/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells के साथ ऑब्जेक्ट की सीमाएं बनाएं
@@ -23,7 +25,7 @@ url: /hi/net/rendering-and-export/get-draw-object-and-bound/
 इससे पहले कि हम कोडिंग शुरू करें, कुछ पूर्व-आवश्यकताएं हैं जिन्हें आपको पूरा करना होगा:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके कंप्यूटर पर विज़ुअल स्टूडियो स्थापित है। आप अपनी पसंद का कोई भी संस्करण उपयोग कर सकते हैं।
-2.  .NET के लिए Aspose.Cells: Aspose.Cells को डाउनलोड करें और इंस्टॉल करें[लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/) . एक निःशुल्क परीक्षण भी उपलब्ध है[यहाँ](https://releases.aspose.com/).
+2. .NET के लिए Aspose.Cells: Aspose.Cells को डाउनलोड करें और इंस्टॉल करें [लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/). एक निःशुल्क परीक्षण भी उपलब्ध है [यहाँ](https://releases.aspose.com/).
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग से परिचित होना लाभदायक होगा। यदि आप नए हैं, तो चिंता न करें! हम आपको प्रत्येक चरण में मार्गदर्शन करेंगे।
 
 एक बार जब आप अपना वातावरण तैयार कर लेंगे, तो हम आवश्यक पैकेजों पर आगे बढ़ेंगे।
@@ -43,13 +45,13 @@ using System.Text;
 using Aspose.Cells.Rendering;
 ```
 
-पैकेज आयातित होने के बाद, अब आप एक्सेल फाइलों के साथ काम करने के लिए पूरी तरह तैयार हैं।
+पैकेज आयात करने के बाद, अब आप एक्सेल फाइलों के साथ काम करने के लिए पूरी तरह तैयार हैं।
 
 आइए इसे प्रबंधनीय चरणों में विभाजित करें। हम एक ऐसा क्लास बनाएंगे जो ड्रॉ ऑब्जेक्ट सीमाओं को कैप्चर करेगा और उन्हें कंसोल एप्लिकेशन में प्रिंट करेगा।
 
 ## चरण 1: ड्रा ऑब्जेक्ट इवेंट हैंडलर क्लास बनाएँ
 
- सबसे पहले, आपको एक क्लास बनाने की ज़रूरत है जो विस्तारित हो`DrawObjectEventHandler`यह क्लास ड्राइंग इवेंट को संभालेगा और आपको ऑब्जेक्ट के निर्देशांक निकालने की अनुमति देगा।
+सबसे पहले, आपको एक क्लास बनाने की ज़रूरत है जो विस्तारित हो `DrawObjectEventHandler`यह क्लास ड्राइंग इवेंट को संभालेगा और आपको ऑब्जेक्ट के निर्देशांक निकालने की अनुमति देगा।
 
 ```csharp
 class clsDrawObjectEventHandler : DrawObjectEventHandler
@@ -75,8 +77,8 @@ class clsDrawObjectEventHandler : DrawObjectEventHandler
 }
 ```
 
--  इस वर्ग में, हम ओवरराइड करते हैं`Draw` विधि, जो किसी ड्राइंग ऑब्जेक्ट के सामने आने पर कॉल की जाती है। 
--  हम प्रकार की जांच करते हैं`DrawObject` . अगर यह एक`Cell` , हम इसकी स्थिति और मूल्य लॉग करते हैं। अगर यह एक है`Image`, हम इसकी स्थिति और नाम लॉग करते हैं।
+- इस वर्ग में, हम ओवरराइड करते हैं `Draw` विधि, जो किसी ड्राइंग ऑब्जेक्ट के सामने आने पर कॉल हो जाती है। 
+- हम प्रकार की जांच करते हैं `DrawObject`. अगर यह एक `Cell`, हम इसकी स्थिति और मूल्य लॉग करते हैं। अगर यह एक है `Image`, हम इसकी स्थिति और नाम लॉग करते हैं।
 
 ## चरण 2: इनपुट और आउटपुट निर्देशिकाएँ सेट करें
 
@@ -90,11 +92,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
--  प्रतिस्थापित करें`"Your Document Directory"` अपने वास्तविक दस्तावेज़ के पथ के साथ। सुनिश्चित करें कि आपके पास नाम की एक नमूना एक्सेल फ़ाइल है`"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` इस निर्देशिका में संग्रहीत.
+- प्रतिस्थापित करें `"Your Document Directory"` अपने वास्तविक दस्तावेज़ के पथ के साथ। सुनिश्चित करें कि आपके पास नाम की एक नमूना एक्सेल फ़ाइल है `"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` इस निर्देशिका में संग्रहीत.
 
 ## चरण 3: नमूना एक्सेल फ़ाइल लोड करें
 
- निर्देशिकाएँ सेट होने के बाद, अब हम एक्सेल फ़ाइल को एक उदाहरण में लोड कर सकते हैं`Workbook` कक्षा।
+निर्देशिकाएँ सेट होने के बाद, अब हम एक्सेल फ़ाइल को एक उदाहरण में लोड कर सकते हैं `Workbook` कक्षा।
 
 ```csharp
 // नमूना एक्सेल फ़ाइल लोड करें
@@ -114,7 +116,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## चरण 5: इवेंट हैंडलर असाइन करें
 
- यह असाइन करना महत्वपूर्ण है`DrawObjectEventHandler` हमारे पीडीएफ सेव विकल्पों में इंस्टेंस जोड़ें। यह कदम सुनिश्चित करेगा कि हमारा कस्टम इवेंट हैंडलर प्रत्येक ड्राइंग ऑब्जेक्ट को प्रोसेस करता है।
+यह असाइन करना महत्वपूर्ण है `DrawObjectEventHandler` हमारे पीडीएफ सेव विकल्पों में इंस्टेंस जोड़ें। यह कदम सुनिश्चित करेगा कि हमारा कस्टम इवेंट हैंडलर प्रत्येक ड्राइंग ऑब्जेक्ट को प्रोसेस करता है।
 
 ```csharp
 // DrawObjectEventHandler वर्ग का उदाहरण निर्दिष्ट करें
@@ -150,19 +152,21 @@ Console.WriteLine("GetDrawObjectAndBoundUsingDrawObjectEventHandler executed suc
 Aspose.Cells एक शक्तिशाली लाइब्रेरी है जिसे .NET अनुप्रयोगों में Excel फ़ाइलों के साथ काम करने के लिए डिज़ाइन किया गया है, जो स्प्रेडशीट बनाने, संपादित करने और परिवर्तित करने की अनुमति देता है।
 
 ### क्या मैं Aspose.Cells को निःशुल्क आज़मा सकता हूँ?
- हाँ! आप Aspose.Cells का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+हाँ! आप Aspose.Cells का निःशुल्क परीक्षण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### Aspose.Cells किस फ़ाइल स्वरूपों का समर्थन करता है?
 Aspose.Cells विभिन्न प्रारूपों का समर्थन करता है, जिसमें XLSX, XLS, CSV, PDF, आदि शामिल हैं।
 
 ### मैं Aspose.Cells के उपयोग के और अधिक उदाहरण कहां पा सकता हूं?
- आप उनकी साइट पर अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/).
+आप उनकी साइट पर अधिक उदाहरण और विस्तृत दस्तावेज़ देख सकते हैं [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/).
 
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- सहायता के लिए, यहां जाएं[एस्पोज फोरम](https://forum.aspose.com/c/cells/9)जहां आप प्रश्न पूछ सकते हैं और समुदाय से सहायता प्राप्त कर सकते हैं।
+सहायता के लिए, यहां जाएं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) जहां आप प्रश्न पूछ सकते हैं और समुदाय से सहायता प्राप्त कर सकते हैं।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

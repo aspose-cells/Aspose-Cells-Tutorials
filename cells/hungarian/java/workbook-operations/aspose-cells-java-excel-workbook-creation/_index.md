@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ Miután elkészült a munkafüzeted, a benne lévő munkalapok elérése elenged
 A munkalapok gyűjteményének lekérése és kezelése lehetővé teszi a meglévő munkalapok módosítását vagy újak hozzáadását.
 
 #### Lépésről lépésre történő megvalósítás
-##### Munkalap-gyűjtemény lekérése (H3)
+##### Munkalap-gyűjtemény visszakeresése (H3)
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -144,7 +146,7 @@ Nyomtatásra kész munkafüzetek esetén elengedhetetlen az oldalbeállítás ko
 Ez a funkció bemutatja, hogyan lehet a tartalmat vízszintesen és függőlegesen középre igazítani a nyomtatott oldalon az Aspose.Cells használatával.
 
 #### Lépésről lépésre történő megvalósítás
-##### Oldal középre igazítási beállítások megadása (H3)
+##### Oldalközépre igazítási beállítások megadása (H3)
 ```java
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.Worksheet;
@@ -199,6 +201,9 @@ Az Aspose.Cells Java sokoldalúságot kínál számos területen. Íme néhány 
 5. **Készletgazdálkodás**: Munkafüzetek használata a készletnyilvántartások dinamikus karbantartásához és frissítéséhez, integrálva a meglévő adatbázisokkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,40 +1,45 @@
 ---
-title: 创建和保存 Excel 文件,使用 .NET 的 Aspose.Cells
-weight: 7700
-limit: 
-description: 在此步骤的例子中,学习如何创建一个新的Excel文件,添加一个工作表,并使用 .NET的Aspose.Cells插入图像.
-keywords: [Aspose.Cells, .NET, Excel file, create Excel, add worksheet, insert image, save Excel]
-url: /zh/net/drawing-objects/adding-pictures/
+"description": "通过此分步示例学习如何使用 Aspose.Cells for .NET 创建新的 Excel 文件、添加工作表和插入图像。"
+"title": "使用 Aspose.Cells for .NET 创建和保存 Excel 文件"
+"url": "/zh/net/drawing-objects/adding-pictures/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用Aspose.Cells创建和保存Excel文件
-本教程展示了如何使用 .NET 应用程序的Aspose.Cells来编程创建新的Excel文件.您将学习检查是否存在目录,实时化 Workbook 对象,添加工作表,插入图像到特定的细胞中,并将文件保存到您想要的路径.
+# 使用 Aspose.Cells 创建和保存 Excel 文件
+本教程演示如何利用 Aspose.Cells for .NET 以编程方式创建新的 Excel 文件。您将学习如何检查目录是否存在、实例化 Workbook 对象、添加工作表、在特定单元格中插入图像以及将文件保存到所需路径。按照提供的简单代码片段，即可开始增强您的 Excel 自动化任务。
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/adding-pictures" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明
-1. 安装Aspose.Cells:请确保您安装了Aspose.Cells库.
+## 安装说明
+1. 安装 Aspose.Cells：请确保已安装 Aspose.Cells 库。您可以使用 NuGet 包管理器执行以下步骤：
    ```
    Install-Package Aspose.Cells
    ```
-2. 设置环境:在机器上创建一个目录,您希望存储生成的Excel文件.`"你的文件目录"`在实际目录路径的例子中.
-3. 实现代码:将提供的示例代码复制到您的 .NET应用程序中.`数据Dir + "logo.jpg"`) 指向您想要插入Excel文件的现有图像.
-4. 运行应用程序:执行应用程序.该代码将创建一个新的Excel文件,名为 `输出.xls`在指定目录中,将图像放入"F6"单元中.
+2. 设置您的环境：在您的机器上创建一个目录，用于存储生成的 Excel 文件。替换 `"Your Document Directory"` 在示例中使用您的实际目录路径。
+3. 实现代码：将提供的示例代码复制到您的 .NET 应用程序中。确保更新图像路径 (`dataDir + "logo.jpg"`) 指向您想要插入到 Excel 文件中的现有图像。
+4. 运行应用程序：执行您的应用程序。代码将创建一个名为 `output.xls` 在指定的目录中，将图像放置在单元格“F6”中。
 
-## 查看
-免费试用,请访问[设法免费试验](https://releases.aspose.com/)现在,我们要去.  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+## 另请参阅
+如需免费试用，请访问 [Aspose 免费试用](https://releases。aspose.com/).  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

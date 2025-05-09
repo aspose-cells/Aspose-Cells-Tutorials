@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ try {
 ```
 Ở đây, chúng tôi khởi tạo `Workbook` đối tượng. Bước này rất quan trọng để truy cập và thao tác nội dung tệp Excel của bạn theo chương trình.
 
-### Lưu Workbook dưới dạng PDF với Tùy chọn Tối ưu hóa
+### Lưu sổ làm việc dưới dạng PDF với Tùy chọn tối ưu hóa
 
 #### Tổng quan
 Tính năng này cho phép bạn lưu bảng tính Excel đã tải thành tệp PDF được tối ưu hóa bằng cách sử dụng các thiết lập cụ thể do Aspose.Cells cung cấp.
@@ -154,6 +156,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tải tệp E
 Hãy thực hiện bước tiếp theo trong hành trình phát triển của bạn bằng cách thử nghiệm Aspose.Cells cho Java và nâng cao quy trình chuyển đổi Excel sang PDF của bạn ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

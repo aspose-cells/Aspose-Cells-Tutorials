@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 - 컴퓨터에 Java Development Kit(JDK)가 설치되어 있습니다.
 
 ### 환경 설정
-- IntelliJ IDEA나 Eclipse와 같은 Java IDE를 설정하세요.
+- IntelliJ IDEA나 Eclipse와 같은 Java IDE를 설정합니다.
 - XML과 Java 프로그래밍에 대한 기본적인 이해가 도움이 됩니다.
 
 ## Java용 Aspose.Cells 설정
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 라이센스 취득
 - **무료 체험**: Aspose.Cells를 무료 체험판으로 시작해 보세요.
-- **임시 면허**: 장기 평가를 위해 임시 라이센스를 얻으세요.
+- **임시 면허**장기 평가를 위해 임시 라이센스를 얻으세요.
 - **구입**: 장기간 사용하려면 상용 라이센스를 구매하세요.
 
 #### 기본 초기화
@@ -203,6 +205,9 @@ Aspose.Cells에서 지원하는 더 복잡한 XML 구조나 다른 형식을 실
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

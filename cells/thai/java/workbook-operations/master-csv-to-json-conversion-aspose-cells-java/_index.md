@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@
 Aspose.Cells สำหรับ Java ช่วยลดความซับซ้อนในการจัดการไฟล์ Excel และมีคุณสมบัติการแปลงข้อมูลอันทรงพลัง รวมถึงการแปลง CSV เป็น JSON วิธีตั้งค่าโดยใช้ Maven หรือ Gradle มีดังนี้
 
 ### เมเวน
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml`-
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml`-
 
 ```xml
 <dependency>
@@ -166,7 +168,7 @@ system.out.println(data);
 4. **ฉันจะจัดการไฟล์ CSV ที่มีตัวคั่นต่างกันได้อย่างไร**
    - ปรับแต่ง `LoadOptions` เพื่อระบุตัวแบ่งแบบกำหนดเองตามต้องการในระหว่างการโหลดไฟล์
 5. **จะเกิดอะไรขึ้นถ้าสภาพแวดล้อม Java ของฉันไม่รองรับเวอร์ชันไลบรารีบางเวอร์ชัน?**
-   - โปรดตรวจสอบความเข้ากันได้โดยศึกษาเอกสารของ Aspose และพิจารณาอัปเดต JDK หรือใช้เวอร์ชันไลบรารีที่เข้ากันได้
+   - โปรดตรวจสอบความเข้ากันได้โดยศึกษาเอกสารของ Aspose และพิจารณาอัปเดต JDK ของคุณหรือใช้เวอร์ชันไลบรารีที่เข้ากันได้
 
 ## ทรัพยากร
 - [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -177,6 +179,9 @@ system.out.println(data);
 - [ฟอรั่มการสนับสนุนชุมชน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

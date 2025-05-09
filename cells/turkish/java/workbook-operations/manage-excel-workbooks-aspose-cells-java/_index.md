@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,6 +187,9 @@ Sonraki Adımlar: Anlayışınızı derinleştirmek için bu işlevleri kullanar
    - Evet, ancak sınırlamalarla. Tam özellikler için geçici veya kalıcı bir lisans başvurusunda bulunmayı düşünün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

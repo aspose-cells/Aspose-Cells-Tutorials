@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Nyní jste se naučili, jak vytvářet a konfigurovat bublinové grafy pomocí A
 - **Fórum podpory**V případě jakýchkoli dotazů se obraťte na [fórum podpory](https://forum.aspose.com/c/cells/9) je k dispozici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

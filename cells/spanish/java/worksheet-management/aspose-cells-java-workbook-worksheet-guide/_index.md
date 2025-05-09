@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 Asegúrese de tener instalado y configurado el Kit de Desarrollo de Java (JDK) en su sistema. Cualquier IDE, como IntelliJ IDEA o Eclipse, puede utilizarse para el desarrollo.
 
 ### Requisitos previos de conocimiento
-Es necesario tener conocimientos básicos de programación Java, junto con familiaridad con Maven/Gradle para la gestión de dependencias.
+Es necesario un conocimiento básico de programación Java, junto con familiaridad con Maven/Gradle para la gestión de dependencias.
 
 ## Configuración de Aspose.Cells para Java
 Una vez que hayas añadido las dependencias a tu proyecto, adquiere una licencia. Puedes empezar con una prueba gratuita o solicitar una licencia temporal. [aquí](https://purchase.aspose.com/temporary-license/).
@@ -91,7 +93,7 @@ public class InstantiateWorkbook {
 
 ### Cómo acceder a las hojas de trabajo de un libro
 #### Descripción general
-Una vez que hayas creado tu instancia `Workbook`El acceso a sus hojas de trabajo es crucial para la manipulación de datos.
+Una vez que hayas creado tu instancia `Workbook`, acceder a sus hojas de trabajo es crucial para la manipulación de datos.
 
 **Implementación del código:**
 ```java
@@ -187,7 +189,7 @@ public class SaveWorkbookToFile {
 ## Aplicaciones prácticas
 1. **Informes financieros:** Automatice los informes financieros mensuales configurando títulos de impresión para encabezados y pies de página.
 2. **Exportación de datos:** Utilice Aspose.Cells para exportar datos de bases de datos directamente al formato Excel, listos para su análisis.
-3. **Generación de plantillas dinámicas:** Cree plantillas dinámicas donde filas/columnas específicas se marquen como títulos de impresión según la entrada del usuario.
+3. **Generación dinámica de plantillas:** Cree plantillas dinámicas donde filas/columnas específicas se marquen como títulos de impresión según la entrada del usuario.
 
 ## Consideraciones de rendimiento
 - **Optimizar el uso de recursos:** Cierre los objetos del libro de trabajo inmediatamente después de su uso para liberar memoria.
@@ -214,6 +216,9 @@ Explore más a fondo sumergiéndose en el extenso catálogo de Aspose.Cells. [do
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

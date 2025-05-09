@@ -7,28 +7,30 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menyalin Pengaturan Pengaturan Halaman Antar Lembar Kerja di Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 Pernahkah Anda kesulitan mempertahankan tata letak halaman yang konsisten di berbagai lembar kerja di Excel? Tutorial ini akan menunjukkan kepada Anda cara menyalin pengaturan pengaturan halaman dengan mudah menggunakan pustaka Aspose.Cells yang canggih di Java. Baik Anda membuat laporan atau menyiapkan dokumen untuk dicetak, mempertahankan format yang seragam dapat menjadi tantangan. Dengan panduan ini, kita akan mempelajari cara menggunakan Aspose.Cells Java untuk menyederhanakan alur kerja Anda dengan menyalin pengaturan halaman dari satu lembar kerja ke lembar kerja lainnya.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur dan menginisialisasi Aspose.Cells dalam proyek Java
 - Petunjuk langkah demi langkah untuk menyalin pengaturan pengaturan halaman antar lembar kerja
-- Aplikasi praktis fitur ini dalam skenario dunia nyata
+- A funkció gyakorlati alkalmazásai valós helyzetekben
 Mari kita bahas prasyarat yang Anda perlukan sebelum memulai!
 
-## Prasyarat (H2)
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+## Előfeltételek (H2)
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih baru.
 - **Lingkungan Pengembangan Terpadu (IDE):** Seperti IntelliJ IDEA atau Eclipse.
 - **Maven atau Gradle:** Untuk manajemen ketergantungan.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 Untuk menggunakan Aspose.Cells untuk Java, tambahkan ke proyek Anda menggunakan Maven atau Gradle:
 
 **Pakar**
@@ -45,20 +47,20 @@ Untuk menggunakan Aspose.Cells untuk Java, tambahkan ke proyek Anda menggunakan 
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 Pastikan proyek Java Anda disiapkan dengan Maven atau Gradle untuk manajemen dependensi. Ini akan menyederhanakan proses penyertaan Aspose.Cells dalam lingkungan pengembangan Anda.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Kemampuan memahami konsep dasar pemrograman Java dan sedikit pengalaman dalam manipulasi file Excel dapat bermanfaat, namun tidak diperlukan untuk mengikuti panduan ini.
 
 ## Menyiapkan Aspose.Cells untuk Java (H2)
 Setelah Anda menyertakan Aspose.Cells sebagai dependensi, langkah berikutnya adalah menginisialisasinya dalam proyek Anda. Berikut caranya:
 
-1. **Akuisisi Lisensi:**
-   - Anda dapat memulai dengan uji coba gratis dengan mengunduh lisensi sementara dari [Asumsikan](https://purchase.aspose.com/temporary-license/).
+1. **Licenc beszerzése:**
+   - Anda dapat memulai dengan uji coba gratis dengan mengunduh lisensi sementara dari [Aspose](https://purchase.aspose.com/temporary-license/).
    - Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi penuh atau menjelajahi opsi berlangganan.
 
-2. **Inisialisasi Dasar:**
+2. **Alapvető inicializálás:**
 
 ```java
 import com.aspose.cells.Workbook;
@@ -79,10 +81,10 @@ public class InitializeAspose {
 
 Pengaturan sederhana ini akan membantu Anda memulai mengintegrasikan Aspose.Cells ke dalam aplikasi Java Anda.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Sekarang, mari kita selami fitur inti pengaturan penyalinan halaman antar lembar kerja.
 
-### Ringkasan
+### Áttekintés
 Pengaturan penyalinan halaman melibatkan duplikasi pengaturan seperti ukuran kertas dan orientasi dari satu lembar kerja ke lembar kerja lainnya. Hal ini memastikan keseragaman di beberapa lembar dalam buku kerja.
 
 #### Membuat Buku Kerja dan Lembar Kerja (H3)
@@ -93,7 +95,7 @@ import com.aspose.cells.*;
 
 public class CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi Buku Kerja
+        // Munkafüzet inicializálása
         Workbook wb = new Workbook();
 
         // Tambahkan lembar kerja
@@ -119,7 +121,7 @@ System.out.println("Paper size set for TestSheet1.");
 ```
 
 #### Salin Pengaturan Halaman (H3)
-Sekarang, salin pengaturan pengaturan halaman dari `TestSheet1` ke `TestSheet2`:
+Sekarang, salin pengaturan pengaturan halaman dari `TestSheet1` hogy `TestSheet2`:
 
 ```java
 // Akses TestSheet2
@@ -131,31 +133,31 @@ TestSheet2.getPageSetup().copy(TestSheet1.getPageSetup(), new CopyOptions());
 System.out.println("Page setup copied successfully.");
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - Pastikan semua lembar kerja direferensikan dengan benar berdasarkan nama atau indeks.
 - Verifikasi bahwa Aspose.Cells ditambahkan dengan benar ke dependensi proyek Anda.
 
-## Aplikasi Praktis (H2)
+## Gyakorlati alkalmazások (H2)
 Fitur ini sangat berguna dalam skenario seperti:
 1. **Pelaporan Standar:** Memastikan tata letak yang konsisten di beberapa lembar dalam laporan keuangan.
-2. **Pembuatan Template:** Menerapkan pengaturan halaman yang seragam untuk templat dokumen yang dibagikan di antara tim.
-3. **Pemrosesan Batch:** Mengotomatiskan pengaturan sejumlah file Excel dengan persyaratan pemformatan yang identik.
+2. **Sablon létrehozása:** Menerapkan pengaturan halaman yang seragam untuk templat dokumen yang dibagikan di antara tim.
+3. **Kötegelt feldolgozás:** Mengotomatiskan pengaturan sejumlah file Excel dengan persyaratan pemformatan yang identik.
 
-## Pertimbangan Kinerja (H2)
+## Teljesítményszempontok (H2)
 Saat bekerja dengan buku kerja besar, ingatlah kiat-kiat berikut:
 - Batasi jumlah lembar kerja untuk mengelola penggunaan memori secara efektif.
 - Gunakan metode Aspose.Cells yang efisien untuk operasi batch guna mengoptimalkan kinerja.
 - Pantau ruang tumpukan Java dan pengumpulan sampah secara teratur jika menangani kumpulan data yang besar.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami telah mempelajari cara menggunakan Aspose.Cells untuk Java guna menyalin pengaturan pengaturan halaman antar lembar kerja. Dengan menerapkan langkah-langkah ini, Anda dapat memastikan pemformatan yang konsisten di seluruh berkas Excel, sehingga berkas tersebut menjadi lebih profesional dan mudah dikelola.
 
 Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells lainnya, seperti manipulasi data atau pembuatan bagan, untuk lebih menyempurnakan aplikasi Anda.
 
 **Cobalah:** Terapkan solusi ini dalam proyek Anda berikutnya dan rasakan manfaatnya secara langsung!
 
-## Bagian FAQ (H2)
-1. **Apa itu Aspose.Cells?**
+## GYIK szekció (H2)
+1. **Mi az Aspose.Cells?**
    - Aspose.Cells untuk Java adalah pustaka untuk mengelola file Excel secara terprogram tanpa perlu menginstal Microsoft Office.
 
 2. **Bisakah saya menyalin pengaturan halaman antar buku kerja?**
@@ -170,15 +172,18 @@ Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi fitur Aspose.Cells 
 5. **Bagaimana cara menangani kesalahan selama penyalinan pengaturan halaman?**
    - Terapkan penanganan pengecualian di sekitar operasi utama untuk mengelola potensi masalah dengan baik.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- **Pembelian dan Lisensi:** [Beli Sekarang](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Mulailah dengan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Permintaan Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan:** [Dukungan Komunitas Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Legújabb kiadások](https://releases.aspose.com/cells/java/)
+- **Pembelian dan Lisensi:** [Vásároljon most](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Permintaan Sementara](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum:** [Aspose közösségi támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

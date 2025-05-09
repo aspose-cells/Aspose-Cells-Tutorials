@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Workbook workbook = new Workbook();
 
 ### Özellik: Çalışma Sayfası Ekle ve Erişim
 
-Bir çalışma sayfası eklemek ve ona erişmek için:
+Bir çalışma sayfası eklemek ve erişmek için:
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -219,6 +221,9 @@ Java için Aspose.Cells'i kullanarak, uygulamalarınızı sağlam Excel dosya i�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

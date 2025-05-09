@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,7 +214,7 @@ Następnie rozważ zapoznanie się z bardziej zaawansowanymi funkcjami pakietu A
 
 **P1: Jak radzić sobie z dużymi plikami Excela?**
 
-A1: W przypadku większych plików należy dostosować ustawienia pamięci JVM i użyć strumieni buforowanych w celu zoptymalizowania wydajności.
+A1: W przypadku większych plików należy dostosować ustawienia pamięci JVM i korzystać z buforowanych strumieni w celu optymalizacji wydajności.
 
 **P2: Czy mogę dostosować separator tekstu?**
 
@@ -241,6 +243,9 @@ A5: Sprawdź, czy nie występują typowe problemy, takie jak błędy ścieżki p
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

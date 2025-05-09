@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Bằng cách làm theo hướng dẫn này, bạn đã học được cách xu�
 ### Phần Câu hỏi thường gặp
 1. **Tôi có thể sử dụng tính năng này với bất kỳ phiên bản tệp Excel nào không?**
    Có, Aspose.Cells hỗ trợ nhiều phiên bản tệp Excel khác nhau.
-2. **Tôi có thể xử lý các tệp Excel lớn như thế nào khi xuất sang PDF?**
+2. **Làm thế nào để xử lý các tệp Excel lớn khi xuất sang PDF?**
    Hãy cân nhắc việc tối ưu hóa tệp bằng cách loại bỏ các trang tính không cần thiết hoặc giảm khối lượng dữ liệu trước khi chuyển đổi.
 3. **Có thể tùy chỉnh định dạng PDF đầu ra không?**
    Mặc dù tùy chỉnh cơ bản được hỗ trợ, nhưng các cài đặt nâng cao có thể cần được khám phá thêm trong tài liệu Aspose.Cells.
@@ -137,6 +139,9 @@ Bằng cách làm theo các hướng dẫn này và sử dụng Aspose.Cells for
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

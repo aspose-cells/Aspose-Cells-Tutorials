@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ Aspose.Cells for Java를 사용하여 Excel 차트 조작을 자동화하는 방
 Aspose.Cells for Java를 사용하여 Excel에서 원형 차트를 만들고 사용자 지정하는 방법을 알아보세요. 이 단계별 가이드를 따라 데이터 시각화 기술을 향상시켜 보세요.
 
 ### [Java용 Aspose.Cells: 차트 만들기 및 서식 지정에 대한 포괄적인 가이드](./mastering-aspose-cells-java-chart-creation-guide/)
-Aspose.Cells for Java를 사용하여 Excel에서 마스터 차트를 만드는 방법을 알아보세요. 통합 문서를 설정하고, 생성하고, 데이터를 입력하고, 차트를 추가하고, 서식을 지정하고, 통합 문서를 효과적으로 저장하는 방법을 알아보세요.
+Aspose.Cells for Java를 사용하여 Excel에서 마스터 차트를 만드는 방법을 알아보세요. 통합 문서를 설정하고, 만들고, 데이터를 입력하고, 차트를 추가하고, 서식을 지정하고, 통합 문서를 효과적으로 저장하는 방법을 알아보세요.
 
 ### [Aspose.Cells Java를 사용하여 Excel 차트 데이터 레이블 수정](./modify-excel-chart-data-labels-aspose-cells-java/)
 Aspose.Words Java에 대한 코드 튜토리얼
@@ -175,7 +177,7 @@ Aspose.Cells for Java를 사용하여 동적 제목, 사용자 지정 축 레이
 Aspose.Cells for Java를 사용하여 ODS 파일에서 차트 자막을 효율적으로 추출하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.Cells Java를 사용하여 Excel 차트 위치 변경: 포괄적인 가이드](./reposition-excel-charts-aspose-cells-java/)
-Aspose.Cells for Java를 사용하여 Excel 파일에서 차트를 정확하게 배치하는 방법을 알아보세요. 이 가이드에서는 설정, 차트 조작, 그리고 변경 사항을 효과적으로 저장하는 방법을 다룹니다.
+Aspose.Cells for Java를 사용하여 Excel 파일에서 차트를 정확하게 배치하는 방법을 알아보세요. 이 가이드에서는 설정, 차트 조작 및 변경 사항을 효과적으로 저장하는 방법을 다룹니다.
 
 ### [Aspose.Cells for Java를 사용하여 Excel 차트 크기 조정 및 위치 변경 - 포괄적인 가이드](./resize-reposition-excel-charts-aspose-cells-java/)
 Aspose.Cells for Java를 사용하여 Excel 차트의 크기와 위치를 효율적으로 조정하는 방법을 알아보세요. 이 종합 가이드에서는 Excel 파일에서 차트 크기를 로드하고, 크기를 조정하고, 최적화하는 방법을 다룹니다.
@@ -195,6 +197,9 @@ Aspose.Cells for Java를 사용하여 차트 범례를 사용자 지정하는 �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

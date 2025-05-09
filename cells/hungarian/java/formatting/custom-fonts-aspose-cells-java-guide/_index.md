@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Kihívásokkal néz szembe annak biztosítása során, hogy Excel-munkafüzetei konzisztens módon jelenjenek meg különböző környezetekben, különösen egyéni betűtípusok esetén? Nem Ön az egyetlen. Sok fejlesztő problémákba ütközik a betűtípus-megjelenítéssel, amikor az Aspose.Cells for Java programot használja, amely egy hatékony táblázatkezelő könyvtár. Ez az átfogó útmutató végigvezeti Önt az egyéni betűtípusok projektekben való megvalósításán és kezelésén, hogy biztosítsa az egységes vizuális megjelenítést.
 
 **Amit tanulni fogsz:**
-- Az Aspose.Cells Java verziójának ellenőrzése.
+- Az Aspose.Cells for Java verziójának ellenőrzése.
 - Egyéni betűtípus-könyvtár beállítása a munkafüzet megjelenítéséhez.
 - Betöltési beállítások konfigurálása egyéni betűtípusokkal.
 - Excel fájlok betöltése megadott betűtípus-konfigurációkkal.
@@ -196,10 +198,13 @@ Javasoljuk, hogy próbálja meg megvalósítani ezeket a megoldásokat a projekt
 3. **Mi van, ha az egyéni betűtípusok könyvtára helytelen?**
    - Győződjön meg arról, hogy az elérési út pontos; ellenkező esetben az alapértelmezett betűtípusok kerülhetnek felhasználásra, ami inkonzisztenciákhoz vezethet.
 
-4. **Hogyan frissíthetem az Aspose.Cells-t Mavenben?**
+4. **Hogyan frissíthetem az Aspose.Cells fájlt Mavenben?**
    - Változtassa meg a verziószámot a `pom.xml` fájlt a legújabb kiadásra és a függőségek frissítésére.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

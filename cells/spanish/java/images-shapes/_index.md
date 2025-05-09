@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Aprenda a mejorar sus informes de Excel con formas 3D visualmente atractivas usa
 ### [Agregar líneas en Excel con Aspose.Cells Java: una guía completa](./aspose-cells-java-add-lines-excel/)
 Aprenda a agregar y personalizar líneas en hojas de Excel con Aspose.Cells para Java. Mejore sus informes con estilos de línea profesionales y guarde los archivos modificados de forma eficiente.
 
-### [Tutorial de Aspose.Cells en Java: Agregar y aplicar estilo a cuadros de texto en Excel](./aspose-cells-java-add-style-text-boxes-excel/)
+### [Tutorial de Java de Aspose.Cells: Agregar y aplicar estilo a cuadros de texto en Excel](./aspose-cells-java-add-style-text-boxes-excel/)
 Aprenda a agregar y aplicar estilo a cuadros de texto en Excel con Aspose.Cells para Java. Mejore sus informes con anotaciones personalizadas, hipervínculos y más.
 
 ### [Cómo agregar y aplicar estilo a formas en Excel usando Aspose.Cells Java](./aspose-cells-java-add-styling-shapes-excel/)
@@ -141,6 +143,9 @@ Aprenda a mejorar sus informes de Excel añadiendo imágenes de fondo con Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

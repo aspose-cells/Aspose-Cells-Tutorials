@@ -1,14 +1,16 @@
 ---
-title: Thêm trang tính mới vào Excel C# Hướng dẫn
-linktitle: Thêm trang tính mới vào Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thêm trang tính mới trong Excel bằng C# với Aspose.Cells. Hướng dẫn này chia nhỏ quy trình thành các bước đơn giản, dễ thực hiện.
-weight: 20
-url: /vi/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutorial/
+"description": "Tìm hiểu cách thêm trang tính mới trong Excel bằng C# với Aspose.Cells. Hướng dẫn này chia nhỏ quy trình thành các bước đơn giản, dễ thực hiện."
+"linktitle": "Thêm trang tính mới vào Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thêm trang tính mới vào Excel C# Hướng dẫn"
+"url": "/vi/net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutorial/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm trang tính mới vào Excel C# Hướng dẫn
@@ -21,8 +23,8 @@ Bạn đã bao giờ thấy mình cần thêm một trang tính mới vào tệp
 
 Trước khi thực hiện bất kỳ mã hóa nào, hãy đảm bảo bạn có mọi thứ cần thiết cho dự án này:
 
-1.  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Nếu bạn chưa có, bạn có thể tải xuống từ [Trang web của Microsoft](https://visualstudio.microsoft.com/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Đảm bảo rằng dự án của bạn được thiết lập cho phiên bản tương thích của .NET Framework (thường thì .NET Framework 4.0 trở lên sẽ hoạt động tốt).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với C# và lập trình hướng đối tượng sẽ giúp bạn hiểu mã tốt hơn.
 5. Trình soạn thảo văn bản hoặc IDE: Bạn sẽ cần những thứ này để viết mã C#—Visual Studio là một lựa chọn tuyệt vời.
@@ -40,9 +42,9 @@ using Aspose.Cells;
 
 1. Mở Visual Studio và tạo một dự án mới.
 
-2.  Điều hướng đến`Tools` >`NuGet Package Manager` >`Manage NuGet Packages for Solution`.
+2. Điều hướng đến `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`.
 
-3.  Tìm kiếm`Aspose.Cells` và nhấp vào Cài đặt để thêm vào dự án của bạn.
+3. Tìm kiếm `Aspose.Cells` và nhấp vào Cài đặt để thêm vào dự án của bạn.
 
 Gói này chứa tất cả các chức năng bạn cần để thao tác với các tệp Excel, bao gồm cả việc thêm trang tính mới!
 
@@ -72,7 +74,7 @@ Tiếp theo, chúng ta sẽ tạo một phiên bản của lớp Workbook. Lớp
 Workbook workbook = new Workbook();
 ```
 
- Khi bạn tạo một phiên bản mới của`Workbook` lớp học, về cơ bản bạn đang bắt đầu một trang giấy trắng—sẵn sàng hành động. Hãy nghĩ về điều đó như việc mở một cuốn sổ tay trống, nơi bạn có thể ghi lại mọi thứ bạn cần.
+Khi bạn tạo một phiên bản mới của `Workbook` lớp học, về cơ bản bạn đang bắt đầu một trang giấy trắng—sẵn sàng hành động. Hãy nghĩ về điều đó như việc mở một cuốn sổ tay trống, nơi bạn có thể ghi lại mọi thứ bạn cần.
 
 ## Bước 3: Thêm một bảng tính mới
 
@@ -83,7 +85,7 @@ Bây giờ bảng tính của chúng ta đã sẵn sàng, hãy thêm trang tính
 int i = workbook.Worksheets.Add();
 ```
 
- Ở đây, chúng tôi đang sử dụng`Add()` phương pháp của`Worksheets` bộ sưu tập hiện diện trong`Workbook` lớp. Phương pháp trả về một chỉ mục (`i`) của trang tính mới được thêm vào. Giống như việc thêm một trang vào sổ tay của bạn - đơn giản và hiệu quả!
+Ở đây, chúng tôi đang sử dụng `Add()` phương pháp của `Worksheets` bộ sưu tập hiện diện trong `Workbook` lớp. Phương pháp trả về một chỉ mục (`i`) của trang tính mới được thêm vào. Giống như việc thêm một trang vào sổ tay của bạn - đơn giản và hiệu quả!
 
 ## Bước 4: Đặt tên cho trang tính mới của bạn
 
@@ -97,7 +99,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 worksheet.Name = "My Worksheet";
 ```
 
- Bạn có thể tham chiếu đến trang tính mới được tạo bằng cách sử dụng chỉ mục của nó`i`Sau đó, chúng ta chỉ cần đặt tên cho nó là "My Worksheet". Đặt tên cho các trang tính của bạn như thế này là một cách làm tốt, đặc biệt là khi làm việc với các tệp Excel lớn hơn, trong đó ngữ cảnh là chìa khóa.
+Bạn có thể tham chiếu đến trang tính mới được tạo bằng cách sử dụng chỉ mục của nó `i`. Sau đó, chúng ta chỉ cần đặt tên cho nó là "My Worksheet". Đặt tên cho các trang tính của bạn như thế này là một cách làm tốt, đặc biệt là khi làm việc với các tệp Excel lớn hơn, trong đó ngữ cảnh là chìa khóa.
 
 ## Bước 5: Lưu tệp Excel
 
@@ -122,19 +124,21 @@ Với Aspose.Cells, khả năng là vô tận. Bạn có thể thao tác dữ li
 Aspose.Cells for .NET là một thư viện mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có thể thêm nhiều trang tính cùng một lúc không?  
- Vâng, chỉ cần gọi`Add()` phương pháp này nhiều lần và tham chiếu đến từng trang theo mục lục!
+Vâng, chỉ cần gọi `Add()` phương pháp này nhiều lần và tham chiếu đến từng trang theo mục lục!
 
 ### Có phiên bản dùng thử miễn phí của Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể định dạng trang tính mới sau khi thêm nó không?  
 Hoàn toàn được! Bạn có thể áp dụng các kiểu, định dạng và thậm chí cả công thức vào bảng tính của mình bằng các tính năng của thư viện.
 
 ### Tôi có thể tìm thêm thông tin và hỗ trợ ở đâu?  
- Bạn có thể khám phá[tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn chi tiết và tham gia hỗ trợ cộng đồng[diễn đàn](https://forum.aspose.com/c/cells/9). 
+Bạn có thể khám phá [tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn chi tiết và tham gia hỗ trợ cộng đồng [diễn đàn](https://forum.aspose.com/c/cells/9). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

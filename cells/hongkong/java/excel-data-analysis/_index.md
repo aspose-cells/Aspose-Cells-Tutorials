@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel資料分析
@@ -31,7 +33,7 @@
 使用 Aspose.Cells for Java 釋放 Excel 中的資料分析能力。學習排序、過濾、計算和資料透視表。
 ### [進階資料分析 Excel](./advanced-data-analysis-excel/)
 使用 Aspose.Cells for Java 掌握 Excel 中的進階資料分析。借助原始碼範例，逐步學習。
-### [資料分析 Excel 資料透視表](./data-analysis-excel-pivot/)
+### [Excel 資料透視表資料分析](./data-analysis-excel-pivot/)
 使用 Aspose.Cells for Java 學習在 Excel 中進行資料分析：有效使用資料透視表的逐步指南。
 ### [數據分析Excel圖表](./data-analysis-excel-charts/)
 使用 Aspose.Cells for Java 實現卓越的資料分析。建立令人驚嘆的 Excel 圖表和報告。
@@ -41,6 +43,7 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

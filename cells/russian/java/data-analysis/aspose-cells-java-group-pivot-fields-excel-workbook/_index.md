@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Доступ к сводной таблице на рабочем листе
 **Обзор**: Перейдите к сводной таблице на выбранном листе для дальнейших операций.
 
-- **Извлечь сводную таблицу**
+- **Получить сводную таблицу**
   ```java
   import com.aspose.cells.PivotTable;
 
@@ -183,6 +185,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 #### Adım 2: İlk Çizgi Şeklini Ekleyin
-Burada çalışma sayfasına düz bir çizgi ekliyoruz:
+Burada çalışma kağıdına düz bir çizgi ekliyoruz:
 ```java
 // İlk satır şekli ekleniyor
 LineShape line1 = (LineShape)worksheet.getShapes().addShape(MsoDrawingType.LINE, 5, 1, 0, 0, 0, 250);
@@ -182,7 +184,7 @@ Bu bilgiyi pratiğe dökmeye hazır mısınız? Projelerinizde çizgi şekilleri
 ## Kaynaklar
 - **Belgeler:** [Aspose.Cells Java Referansı](https://reference.aspose.com/cells/java/)
 - **İndirmek:** [Java için Aspose.Cells Sürümleri](https://releases.aspose.com/cells/java/)
-- **Satın almak:** [Java için Aspose.Cells'i satın alın](https://purchase.aspose.com/buy)
+- **Satın almak:** [Java için Aspose.Cells satın alın](https://purchase.aspose.com/buy)
 - **Ücretsiz Deneme:** [Aspose.Cells'in Ücretsiz Deneme Sürümünü Edinin](https://releases.aspose.com/cells/java/)
 - **Geçici Lisans:** [Geçici Lisans Talebinde Bulunun](https://purchase.aspose.com/temporary-license/)
 - **Destek:** [Aspose.Cells Forum](https://forum.aspose.com/c/cells/9)
@@ -190,6 +192,9 @@ Bu bilgiyi pratiğe dökmeye hazır mısınız? Projelerinizde çizgi şekilleri
 Bu kapsamlı rehber, Excel belgelerinizi geliştirmek için Aspose.Cells Java'yı etkili bir şekilde kullanmanız için gereken bilgi ve araçları size sağlamayı amaçlamaktadır. Bu teknikleri bugün uygulamaya başlayın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

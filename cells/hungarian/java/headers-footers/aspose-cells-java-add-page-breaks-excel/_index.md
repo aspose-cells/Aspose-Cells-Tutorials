@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ public class AddHorizontalPageBreak {
         // Új munkafüzet-példány létrehozása
         Workbook workbook = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         WorksheetCollection worksheets = workbook.getWorksheets();
         Worksheet worksheet = worksheets.get(0);
         
@@ -167,7 +169,7 @@ Az Aspose.Cells for Java oldaltörési funkcióinak elsajátításával jelentő
    - Használjon olyan módszereket, mint `removeAt(int index)` adott szünetek törléséhez a gyűjteményekből.
 4. **Alkalmas az Aspose.Cells Java valós idejű adatkezelésre?**
    - Bár képes rá, vegye figyelembe a teljesítményre gyakorolt hatásokat nagy adathalmazok valós idejű feldolgozásakor.
-5. **Ez a beállítás más nyelvekkel is működhet?**
+5. **Ez a beállítás működhet más nyelvekkel is?**
    - Igen, az Aspose hasonló funkciókat kínál C#-ban, Pythonban és más nyelveken, ezért a konkrét megvalósításokkal kapcsolatban tekintse meg a dokumentációjukat.
 
 ## Erőforrás
@@ -182,6 +184,9 @@ Ha követed ezt az átfogó útmutatót, jó úton haladsz afelé, hogy kihaszn�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

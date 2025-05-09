@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ Aspose.Cells는 Java 애플리케이션과 통합되어 기업 환경에서 Exce
 ## 성능 고려 사항
 
 ### 성능 최적화
-1. **효율적인 분류**정렬 범위를 필요한 셀로 제한합니다.
+1. **효율적인 정렬**정렬 범위를 필요한 셀로 제한합니다.
 2. **메모리 관리**: 효율적인 데이터 구조를 사용하고 리소스를 신속하게 닫습니다.
 3. **모범 사례**: 성능 향상을 위해 Aspose.Cells를 정기적으로 업데이트합니다.
 
@@ -180,6 +182,9 @@ Aspose.Cells는 Java 애플리케이션과 통합되어 기업 환경에서 Exce
 지금 Aspose.Cells로 여정을 시작하고 Java에서 Excel 파일을 처리하는 방식을 혁신해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

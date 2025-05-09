@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ Aspose.Cells for Java 簡化了 Excel 文件的轉換，這對於以通用可讀
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 ```
-確保這些路徑指向包含您的 Excel 檔案的目錄 (`SampleInput.xlsx`）以及您想要儲存 PDF 的位置。
+確保這些路徑指向包含您的 Excel 檔案的目錄 (`SampleInput.xlsx`) 以及您想要儲存 PDF 的位置。
 
 #### 步驟2：載入Excel文件
 將您的 Excel 文件載入到 `Workbook` 目的：
@@ -136,6 +138,9 @@ A5：檢查檔案路徑，確保您擁有正確的權限，並參考 Aspose 文�
 現在您已經掌握了工具和知識，可以開始使用 Aspose.Cells 有效地將 Excel 檔案轉換為 PDF！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

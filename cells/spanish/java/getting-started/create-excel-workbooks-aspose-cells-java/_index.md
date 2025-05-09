@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,10 +198,13 @@ Explora más funciones de Aspose.Cells sumergiéndote en el [documentación](htt
 - **Licencia temporal:** [Adquirir Licencia Temporal](https://purchase.aspose.com/temporary-license/)
 - **Foro de soporte:** [Soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
-Con esta guía completa, ya estás listo para aprovechar al máximo el potencial de Aspose.Cells para Java en tus proyectos. ¡Que disfrutes programando!
+Con esta guía completa, ya estás listo para aprovechar todo el potencial de Aspose.Cells para Java en tus proyectos. ¡Que disfrutes programando!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

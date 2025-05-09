@@ -1,14 +1,16 @@
 ---
-title: Wyświetl i ukryj paski przewijania arkusza kalkulacyjnego
-linktitle: Wyświetl i ukryj paski przewijania arkusza kalkulacyjnego
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak wyświetlać i ukrywać paski przewijania w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego, łatwego w użyciu samouczka.
-weight: 50
-url: /pl/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
+"description": "Dowiedz się, jak wyświetlać i ukrywać paski przewijania w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego, łatwego w użyciu samouczka."
+"linktitle": "Wyświetl i ukryj paski przewijania arkusza kalkulacyjnego"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Wyświetl i ukryj paski przewijania arkusza kalkulacyjnego"
+"url": "/pl/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyświetl i ukryj paski przewijania arkusza kalkulacyjnego
@@ -22,9 +24,9 @@ Zarządzanie plikami Excela programowo może często wydawać się magiczne! Nie
 Zanim zaczniesz, upewnij się, że masz wszystko, czego potrzebujesz:
 
 1. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# będzie pomocna, ponieważ będziemy pisać fragmenty kodu w tym języku.
-2.  Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Konfiguracja IDE: Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio lub edytor kodu, służące do pisania i wykonywania kodu C#.
-4.  Plik Excel: przykładowy plik Excel (np.`book1.xls`) które możesz edytować i testować.
+4. Plik Excel: przykładowy plik Excel (np. `book1.xls`) które możesz edytować i testować.
 
 Gdy spełnisz te wymagania wstępne, możemy przejść do kodu.
 
@@ -44,14 +46,14 @@ Teraz podzielmy zadanie na łatwiejsze do zrozumienia kroki.
 
 ## Krok 1: Określ ścieżkę pliku
 
-W tym miejscu należy określić ścieżkę do pliku Excel, z którym chcesz pracować.
+tym miejscu należy określić ścieżkę do pliku Excel, z którym chcesz pracować.
 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Zastępować`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik Excel. Pozwala to Twojemu programowi znaleźć niezbędne pliki, którymi będzie manipulował.
+Zastępować `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, gdzie przechowywany jest Twój plik Excel. Pozwala to Twojemu programowi znaleźć niezbędne pliki, którymi będzie manipulował.
 
 ## Krok 2: Utwórz strumień plików
 
@@ -62,18 +64,18 @@ Tutaj tworzysz strumień plików w celu odczytania pliku Excel.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- Ten`FileStream`Klasa umożliwia odczytywanie i zapisywanie plików. W tym przypadku otwieramy nasz plik Excel w trybie odczytu.
+Ten `FileStream` Klasa umożliwia odczytywanie i zapisywanie plików. W tym przypadku otwieramy nasz plik Excel w trybie odczytu.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
- Następnie musisz utworzyć`Workbook` obiekt, który reprezentuje plik Excel w kodzie.
+Następnie musisz utworzyć `Workbook` obiekt, który reprezentuje plik Excel w kodzie.
 
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
   
- Ten`Workbook` Obiekt przechowuje teraz wszystkie dane i ustawienia pliku Excel, umożliwiając późniejszą modyfikację.
+Ten `Workbook` Obiekt przechowuje teraz wszystkie dane i ustawienia pliku Excel, umożliwiając późniejszą modyfikację.
 
 ## Krok 4: Ukryj pionowy pasek przewijania
 
@@ -84,7 +86,7 @@ Teraz nadchodzi zabawna część! Możesz ukryć pionowy pasek przewijania, aby 
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Poprzez ustawienie`IsVScrollBarVisible` Do`false`, pionowy pasek przewijania jest ukryty. Może to być szczególnie przydatne, gdy chcesz ograniczyć przewijanie w sposób przyjazny dla użytkownika.
+Poprzez ustawienie `IsVScrollBarVisible` Do `false`, pionowy pasek przewijania jest ukryty. Może to być szczególnie przydatne, gdy chcesz ograniczyć przewijanie w sposób przyjazny dla użytkownika.
 
 ## Krok 5: Ukryj poziomy pasek przewijania
 
@@ -126,22 +128,24 @@ Postępując zgodnie z tymi prostymi krokami, nauczyłeś się, jak wyświetlać
 ## Najczęściej zadawane pytania
 
 ### Czy mogę ponownie wyświetlić paski przewijania po ich ukryciu?  
- Tak! Wystarczy ustawić`IsVScrollBarVisible` I`IsHScrollBarVisible` powrót do`true`.
+Tak! Wystarczy ustawić `IsVScrollBarVisible` I `IsHScrollBarVisible` powrót do `true`.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells nie jest w pełni darmowy, ale możesz wypróbować go bezpłatnie przez ograniczony czas lub rozważyć zakup[tymczasowa licencja](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells nie jest w pełni darmowy, ale możesz wypróbować go bezpłatnie przez ograniczony czas lub rozważyć zakup [tymczasowa licencja](https://purchase.aspose.com/temporary-license/).
 
 ### Jakimi typami plików Excel mogę manipulować za pomocą Aspose.Cells?  
 Możesz pracować z różnymi formatami plików Excel, w tym .xls, .xlsx, .xlsm, .xlsb itp.
 
 ### Gdzie mogę znaleźć więcej przykładów?  
- Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby zobaczyć dodatkowe przykłady i samouczki.
+Sprawdź [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby zobaczyć dodatkowe przykłady i samouczki.
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.Cells?  
-Możesz szukać pomocy lub zgłaszać problemy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy lub zgłaszać problemy na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Biểu đồ kết xuất và chuyển đổi
-linktitle: Biểu đồ kết xuất và chuyển đổi
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá Aspose.Cells để biết hướng dẫn .NET về cách dựng biểu đồ, chuyển đổi và tạo PDF với kích thước trang mong muốn. Hướng dẫn từng bước để xử lý biểu đồ Excel liền mạch.
-weight: 24
-url: /vi/net/chart-rendering-and-conversion/
+"description": "Khám phá Aspose.Cells để biết hướng dẫn .NET về cách dựng biểu đồ, chuyển đổi và tạo PDF với kích thước trang mong muốn. Hướng dẫn từng bước để xử lý biểu đồ Excel liền mạch."
+"linktitle": "Biểu đồ kết xuất và chuyển đổi"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Biểu đồ kết xuất và chuyển đổi"
+"url": "/vi/net/chart-rendering-and-conversion/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biểu đồ kết xuất và chuyển đổi
@@ -36,9 +38,11 @@ Khám phá cách tạo biểu đồ trong .NET bằng Aspose.Cells. Làm theo h�
 Học cách chuyển đổi biểu đồ Excel sang PDF bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này. Khám phá các mẹo thiết yếu và ví dụ về mã hóa.
 ### [Tạo biểu đồ PDF với kích thước trang mong muốn](./create-chart-pdf-with-desired-page-size/)
 Tạo PDF bằng biểu đồ Excel của bạn bằng Aspose.Cells cho .NET. Tìm hiểu cách thực hiện với hướng dẫn từng bước này.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

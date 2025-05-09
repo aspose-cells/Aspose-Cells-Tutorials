@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ workbook.save(outDir + "PrintingGridlinesAndHeadings_out.xls");
 - **Объяснение**: Такая настройка гарантирует, что на каждой отпечатанной странице будут видны линии сетки и заголовки для ясности.
 
 ### Печать в черно-белом режиме с комментариями и черновым качеством (оптимизация ресурсов)
-Оптимизируйте ресурсы печати, используя черно-белый режим, включая комментарии непосредственно на рабочем листе и выбирая качество черновика для более быстрого вывода.
+Оптимизируйте ресурсы печати, используя черно-белый режим, включая комментарии непосредственно на рабочем листе и выбирая черновое качество для более быстрого вывода.
 
 #### Настройка параметров печати
 ```java
@@ -183,6 +185,9 @@ workbook.save(outDir + "HandlingPrintErrors_andPageOrder_out.xls");
    - Конечно! Он разработан для эффективной обработки больших наборов данных.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

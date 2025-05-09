@@ -1,14 +1,16 @@
 ---
-title: Chia ô của bảng tính
-linktitle: Chia ô của bảng tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách chia ngăn bảng tính trong Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện khả năng điều hướng tệp Excel với hướng dẫn dễ dàng này.
-weight: 130
-url: /vi/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/
+"description": "Tìm hiểu cách chia ngăn bảng tính trong Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Cải thiện khả năng điều hướng tệp Excel với hướng dẫn dễ dàng này."
+"linktitle": "Chia ô của bảng tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Chia ô của bảng tính"
+"url": "/vi/net/excel-display-settings-csharp-tutorials/split-panes-of-worksheet/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chia ô của bảng tính
@@ -21,10 +23,10 @@ Bạn đã sẵn sàng chia các ngăn của một bảng tính Excel bằng Asp
 
 Trước khi chúng ta bắt đầu chia các ngăn như trình hướng dẫn bảng tính, hãy thiết lập đúng. Sau đây là những gì bạn cần:
 
--  Aspose.Cells cho .NET: Hãy đảm bảo bạn đã tải xuống và cài đặt nó. Nếu bạn chưa tải xuống, hãy tải xuống[đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Hãy đảm bảo bạn đã tải xuống và cài đặt nó. Nếu bạn chưa tải xuống, hãy tải xuống [đây](https://releases.aspose.com/cells/net/).
 - .NET Framework: Hướng dẫn này giả định rằng bạn đang làm việc trong môi trường .NET.
 - Sổ làm việc Excel: Chúng tôi sẽ sử dụng một tệp Excel mẫu để hiển thị cách tính năng này hoạt động.
--  Giấy phép tạm thời hoặc đầy đủ: Aspose.Cells yêu cầu giấy phép. Nếu bạn chỉ đang dùng thử, hãy lấy[giấy phép tạm thời miễn phí](https://purchase.aspose.com/temporary-license/) để tránh những hạn chế khi đánh giá.
+- Giấy phép tạm thời hoặc đầy đủ: Aspose.Cells yêu cầu giấy phép. Nếu bạn chỉ đang dùng thử, hãy lấy [giấy phép tạm thời miễn phí](https://purchase.aspose.com/temporary-license/) để tránh những hạn chế khi đánh giá.
 
 ## Nhập gói
 
@@ -39,7 +41,7 @@ Bây giờ chúng ta đã nắm được những điều cần thiết, hãy chu
 
 ## Bước 1: Khởi tạo một Workbook
 
- Bước đầu tiên trong quá trình này là tạo ra một`Workbook` đối tượng, sẽ đại diện cho tệp Excel mà bạn muốn sửa đổi. Trong trường hợp này, chúng ta sẽ tải tệp từ một thư mục. Đây là canvas của bạn, trang tính Excel mà bạn sẽ thực hiện phép thuật của mình.
+Bước đầu tiên trong quá trình này là tạo ra một `Workbook` đối tượng, sẽ đại diện cho tệp Excel mà bạn muốn sửa đổi. Trong trường hợp này, chúng ta sẽ tải tệp từ một thư mục. Đây là canvas của bạn, trang tính Excel mà bạn sẽ thực hiện phép thuật của mình.
 
 Trước khi chúng ta có thể chia khung, chúng ta cần một sổ làm việc để làm việc! Bước này cũng quan trọng như việc mở một cuốn sách trước khi bạn bắt đầu đọc nó.
 
@@ -51,11 +53,11 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook book = new Workbook(dataDir + "Book1.xls");
 ```
 
- Trong đoạn mã trên, hãy thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ.`Workbook`lớp tải tệp Excel vào bộ nhớ.
+Trong đoạn mã trên, hãy thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn được đặt. `Workbook` lớp tải tệp Excel vào bộ nhớ.
 
 ## Bước 2: Thiết lập ô đang hoạt động
 
- Sau khi tải sổ làm việc, đã đến lúc thiết lập ô đang hoạt động. Theo thuật ngữ của Excel, ô đang hoạt động là ô hiện đang được chọn hoặc đang được lấy nét. Trong hướng dẫn này, chúng ta sẽ chọn ô`A20` trong bài tập đầu tiên.
+Sau khi tải sổ làm việc, đã đến lúc thiết lập ô đang hoạt động. Theo thuật ngữ của Excel, ô đang hoạt động là ô hiện đang được chọn hoặc đang được lấy nét. Trong hướng dẫn này, chúng ta sẽ chọn ô `A20` trong bài tập đầu tiên.
 
 Việc thiết lập ô hoạt động rất quan trọng vì việc chia khung bắt đầu từ ô hoạt động này. Giống như việc chọn vị trí cắt đầu tiên trên một chiếc bánh pizza—hãy chọn miếng của bạn!
 
@@ -64,11 +66,11 @@ Việc thiết lập ô hoạt động rất quan trọng vì việc chia khung 
 book.Worksheets[0].ActiveCell = "A20";
 ```
 
- Đoạn mã này làm cho`A20` ô đang hoạt động. Điều này quan trọng vì quá trình phân tách diễn ra xung quanh điểm này, giống như cách điều hướng trong Excel thường tập trung vào một ô cụ thể.
+Đoạn mã này làm cho `A20` ô đang hoạt động. Điều này quan trọng vì quá trình phân tách diễn ra xung quanh điểm này, giống như cách điều hướng trong Excel thường tập trung vào một ô cụ thể.
 
 ## Bước 3: Chia nhỏ bảng tính
 
-Bây giờ ô đang hoạt động đã được thiết lập, hãy chuyển sang phần thú vị—chia trang tính! Đây là bước mà phép thuật xảy ra. Bạn sẽ có thể chia trang tính thành nhiều ngăn để xem và điều hướng dễ dàng hơn.
+Bây giờ ô đang hoạt động đã được thiết lập, hãy chuyển sang phần thú vị—chia trang tính! Đây là bước mà phép thuật xảy ra. Bạn sẽ có thể chia trang tính thành nhiều ngăn để dễ xem và điều hướng hơn.
 
 Đây là cốt lõi của toàn bộ hướng dẫn. Bằng cách chia nhỏ bảng tính, bạn tạo các ngăn riêng biệt cho phép bạn cuộn qua các phần khác nhau của bảng tính Excel mà không mất dấu tiêu đề hoặc các khu vực quan trọng khác.
 
@@ -77,7 +79,7 @@ Bây giờ ô đang hoạt động đã được thiết lập, hãy chuyển sa
 book.Worksheets[0].Split();
 ```
 
- Với`Split()` phương pháp, bạn đang yêu cầu Aspose.Cells chia trang tính tại ô đang hoạt động (`A20` trong trường hợp này). Từ thời điểm này, Excel sẽ tạo một phân vùng trong trang tính để phân tách các ngăn để bạn có thể điều hướng độc lập.
+Với `Split()` phương pháp, bạn đang yêu cầu Aspose.Cells chia trang tính tại ô đang hoạt động (`A20` trong trường hợp này). Từ thời điểm này, Excel sẽ tạo một phân vùng trong trang tính để phân tách các ngăn để bạn có thể điều hướng độc lập.
 
 ## Bước 4: Lưu sổ làm việc
 
@@ -90,7 +92,7 @@ Mọi công sức của bạn có ích gì nếu bạn không lưu lại? Việc
 book.Save(dataDir + "output.xls");
 ```
 
- Ở đây,`Save()` phương pháp lưu sổ làm việc với các ngăn mới tách của bạn vào tệp Excel đầu ra. Những thay đổi bạn thực hiện giờ đã sẵn sàng để bạn—hoặc bất kỳ ai khác—sử dụng.
+Ở đây, `Save()` phương pháp lưu sổ làm việc với các ngăn mới tách của bạn vào một tệp Excel đầu ra. Những thay đổi bạn đã thực hiện giờ đã sẵn sàng để bạn—hoặc bất kỳ ai khác—sử dụng.
 
 ## Phần kết luận
 
@@ -99,7 +101,7 @@ Và bạn đã có nó! Bạn vừa học cách chia ngăn trong bảng tính Ex
 ## Câu hỏi thường gặp
 
 ### Tôi có thể chia nhiều hơn hai khung không?  
- Có, bạn có thể chia bảng tính thành nhiều ngăn bằng cách chỉ định các ô đang hoạt động khác nhau và gọi`Split()` phương pháp.
+Có, bạn có thể chia bảng tính thành nhiều ngăn bằng cách chỉ định các ô đang hoạt động khác nhau và gọi `Split()` phương pháp.
 
 ### Sự khác biệt giữa tách cửa kính và đóng băng cửa kính là gì?  
 Tách ngăn cho phép bạn cuộn trong cả hai ngăn một cách độc lập. Đóng băng ngăn sẽ khóa tiêu đề hoặc các hàng/cột cụ thể để chúng vẫn hiển thị khi cuộn.
@@ -108,13 +110,15 @@ Tách ngăn cho phép bạn cuộn trong cả hai ngăn một cách độc lập
 Có, bạn có thể xóa phần chia tách bằng cách đóng và mở lại sổ làm việc hoặc thiết lập lại sổ làm việc theo chương trình.
 
 ### Tính năng chia khung có hoạt động giống nhau đối với các định dạng tệp Excel khác nhau (XLS, XLSX) không?  
- Vâng,`Split()` Phương pháp này áp dụng được cho cả định dạng XLS và XLSX.
+Vâng, `Split()` Phương pháp này áp dụng cho cả định dạng XLS và XLSX.
 
 ### Tôi có thể sử dụng Aspose.Cells mà không cần giấy phép không?  
- Có, nhưng nó đi kèm với những hạn chế. Để có trải nghiệm đầy đủ, tốt nhất là sử dụng[tạm thời](https://purchase.aspose.com/temporary-license/) hoặc[giấy phép trả phí](https://purchase.aspose.com/buy).
+Có, nhưng nó đi kèm với những hạn chế. Để có trải nghiệm đầy đủ, tốt nhất là sử dụng [tạm thời](https://purchase.aspose.com/temphoặcary-license/) or [giấy phép trả phí](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

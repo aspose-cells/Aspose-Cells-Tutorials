@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Visuelle Tutorials zu Aspose.Cells
 Tauchen Sie ein in unsere visuellen Aspose.Cells-Tutorials – konzipiert für Entwickler und Enthusiasten, die die Tabellenkalkulation beherrschen möchten. Jedes Tutorial behandelt die wichtigsten Funktionen der Aspose.Cells-Bibliothek, von grundlegenden Vorgängen wie dem Erstellen und Formatieren von Tabellen bis hin zu erweiterten Funktionen wie Datenvisualisierung und Formelbearbeitung. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, unsere visuellen Anleitungen bieten umfassende, leicht verständliche Anweisungen und praktische Beispiele.
@@ -24,46 +26,75 @@ Die visuellen Tutorials von Aspose.Cells für .NET bieten Entwicklern, die die E
 Erfahren Sie, wie Sie mit Aspose.Cells Diagramme in .NET-Anwendungen erstellen, anpassen und verwalten. Entdecken Sie verschiedene Diagrammtypen anhand einfacher und effizienter Beispiele.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Erstellen und Formatieren von 3D-Diagrammen in Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Ändern der Größe und Neupositionierung von Diagrammen in Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Richtung der Diagramm-Tick-Beschriftung in Excel ändern" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="Erstellen Sie PDF aus einem Excel-Diagramm mit angegebener Seitengröße" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Erstellen Sie ein Liniendiagramm mit Datenmarkierungen in Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Suchen Sie nach dem Typ der X- und Y-Werte in Diagrammpunkten" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Holen Sie sich mit Aspose.Cells den Diagrammuntertitel aus der ODS-Datei" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Ändern der Form der Diagrammdatenbeschriftung in Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Erstellen Sie Excel-Diagramme mit Aspose.Cells für .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Zeichnen von Objekten mit Aspose.Cells für .NET](./net/drawing-objects/)
 Erfahren Sie, wie Sie mit Aspose.Cells Diagramme in .NET-Anwendungen erstellen, anpassen und verwalten. Entdecken Sie verschiedene Diagrammtypen anhand einfacher und effizienter Beispiele.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Ändern Sie OLE-Objektbeschriftungen in Excel mit Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Erstellen und Speichern von Excel-Dateien mit Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Ändern Sie die Textausrichtung von Formen in Excel mit Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Bearbeiten der Z-Reihenfolge von Formen in Excel mit Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Erstellen Sie eine Excel-Arbeitsmappe mit fernöstlichen und lateinischen Schriftarten" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Kacheltexturfüllung in Excel mit Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Formatierung in Aspose.Cells für .NET – Stile, Farben und mehr](./net/formatting/)
 Erfahren Sie, wie Sie in Aspose.Cells für .NET Formatierungen anwenden, einschließlich Stile, Farben, Schriftarten, Rahmen und mehr für professionelle Excel-Berichte.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Hinzufügen von Rahmen zu einem Bereich in Excel mit Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Wenden Sie Farben und Hintergründe in Excel mit Aspose.Cells an" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Zusammenführen von Zellen in Excel mit Aspose.Cells für .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Legen Sie die Schriftfarbe in Excel-Zellen mit Aspose.Cells fest" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Festlegen des Schriftnamens in Excel mit Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Legen Sie die Schriftgröße in Excel mit Aspose.Cells fest" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Horizontale Textausrichtung in Excel mit Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Umbrechen von Text in Excel-Zellen mit Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pivot-Tabellen in Aspose.Cells für .NET](./net/pivot-tables/)
 Erfahren Sie, wie Sie Pivot-Tabellen in Aspose.Cells für .NET erstellen, formatieren und verwalten. Generieren Sie dynamische Berichte und analysieren Sie Daten mühelos in C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Erstellen Sie eine Pivot-Tabelle in Excel mit Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Pivot-Tabelle als ODS in Aspose.Cells speichern" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Dies sind Links zu einigen nützlichen Ressourcen:
@@ -181,8 +212,10 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 
 
 ## Aspose.Cells für Java-Tutorials
+
 {{% alert color="primary" %}}
 Entdecken Sie Aspose.Cells für Java-Tutorials. Meistern Sie die Bearbeitung von Excel-Dateien mit Codebeispielen. Verbessern Sie noch heute Ihre Java-Kenntnisse!
+
 {{% /alert %}}
 
 Dies sind Links zu einigen nützlichen Ressourcen:
@@ -219,6 +252,7 @@ Dies sind Links zu einigen nützlichen Ressourcen:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

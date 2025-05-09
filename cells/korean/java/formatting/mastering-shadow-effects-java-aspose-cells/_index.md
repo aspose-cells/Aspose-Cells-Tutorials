@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Aspose.Cells for Java를 사용하여 전문적인 그림자 효과를 적용하
 
 - Java 환경에서 Aspose.Cells 설정
 - Excel 문서 내 도형에 그림자 효과 적용 및 사용자 지정
-- 그림자 효과의 실제 적용
+- 그림자 효과의 실제 세계 응용
 
 시작하기 전에 모든 것을 준비했는지 확인하세요!
 
@@ -164,6 +166,9 @@ workbook.save(dataDir + "WorkingWithShadowEffect_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

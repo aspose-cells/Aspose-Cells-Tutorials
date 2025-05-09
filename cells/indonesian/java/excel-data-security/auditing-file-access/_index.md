@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Audit Akses File
@@ -18,11 +20,11 @@
 
 Dalam tutorial ini, kita akan menjelajahi cara mengaudit akses berkas menggunakan API Aspose.Cells for Java. Aspose.Cells adalah pustaka Java canggih yang memungkinkan Anda membuat, memanipulasi, dan mengelola lembar kerja Excel. Kami akan menunjukkan cara melacak dan mencatat aktivitas akses berkas di aplikasi Java Anda menggunakan API ini.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 
-- [Kit Pengembangan Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) terinstal pada sistem Anda.
+- [Kit Pengembangan Java (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) telepítve a rendszerére.
 - Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Situs web Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
@@ -93,7 +95,7 @@ public class ExcelFileManager {
 
 ## Langkah 4: Menggunakan Audit Logger di Aplikasi Anda
 
-Sekarang setelah kita memiliki `FileAccessLogger` Dan `ExcelFileManager` kelas, Anda dapat menggunakannya dalam aplikasi Anda sebagai berikut:
+Sekarang setelah kita memiliki `FileAccessLogger` és `ExcelFileManager` kelas, Anda dapat menggunakannya dalam aplikasi Anda sebagai berikut:
 
 ```java
 public class Main {
@@ -101,22 +103,22 @@ public class Main {
         String username = "john_doe"; // Ganti dengan nama pengguna sebenarnya
         String filename = "example.xlsx"; // Ganti dengan jalur file sebenarnya
 
-        // Buka file Excel
+        // Nyissa meg az Excel-fájlt
         ExcelFileManager.openExcelFile(filename, username);
 
         // Melakukan operasi pada file Excel
 
-        // Simpan file Excel
+        // Mentse el az Excel-fájlt
         ExcelFileManager.saveExcelFile(filename, username);
     }
 }
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan lengkap ini, kami telah mendalami dunia Aspose.Cells untuk API Java dan menunjukkan cara mengaudit akses file dalam aplikasi Java Anda. Dengan mengikuti petunjuk langkah demi langkah dan memanfaatkan contoh kode sumber, Anda telah memperoleh wawasan berharga untuk memanfaatkan kemampuan pustaka yang hebat ini.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengambil log audit?
 
@@ -137,6 +139,7 @@ Anda dapat memperpanjang `ExcelFileManager` kelas untuk mencatat tindakan lain s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

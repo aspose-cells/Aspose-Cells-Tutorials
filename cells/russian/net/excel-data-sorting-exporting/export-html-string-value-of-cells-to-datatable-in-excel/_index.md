@@ -1,14 +1,16 @@
 ---
-title: Экспорт строковых значений ячеек HTML в DataTable в Excel
-linktitle: Экспорт строковых значений ячеек HTML в DataTable в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как экспортировать строковые значения HTML из ячеек Excel в DataTable с помощью Aspose.Cells для .NET в простом пошаговом руководстве.
-weight: 11
-url: /ru/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/
+"description": "Узнайте, как экспортировать строковые значения HTML из ячеек Excel в DataTable с помощью Aspose.Cells для .NET в простом пошаговом руководстве."
+"linktitle": "Экспорт строковых значений ячеек HTML в DataTable в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Экспорт строковых значений ячеек HTML в DataTable в Excel"
+"url": "/ru/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-datatable-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт строковых значений ячеек HTML в DataTable в Excel
@@ -22,7 +24,7 @@ url: /ru/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое. Вот краткий контрольный список:
 
 1. Базовые знания C# и .NET: прежде чем приступить к написанию кода, убедитесь, что вы знакомы с программированием на C# и основами фреймворка .NET.
-2.  Aspose.Cells for .NET: Если вы еще этого не сделали, вам нужно установить Aspose.Cells for .NET. Вы можете загрузить бесплатную пробную версию с[здесь](https://releases.aspose.com/).
+2. Aspose.Cells for .NET: Если вы еще этого не сделали, вам нужно установить Aspose.Cells for .NET. Вы можете загрузить бесплатную пробную версию с [здесь](https://releases.aspose.com/).
 3. Visual Studio или IDE по вашему выбору: настройте свою среду для написания кода C#. Visual Studio рекомендуется из-за широкого спектра функций и простоты использования.
 4. Образец файла Excel: Вам понадобится образец файла Excel (`sampleExportTableAsHtmlString.xlsx`) для работы. Убедитесь, что он находится в доступном каталоге.
 5. Менеджер пакетов NuGet: убедитесь, что у вас есть доступ к менеджеру пакетов NuGet в вашем проекте, чтобы легко добавить библиотеку Aspose.Cells.
@@ -33,13 +35,13 @@ url: /ru/net/excel-data-sorting-exporting/export-html-string-value-of-cells-to-d
 
 Прежде чем начать работать с Aspose.Cells, нам нужно импортировать необходимые пакеты. Обычно это включает добавление пакета Aspose.Cells NuGet в ваш проект. Вот как это сделать:
 
-### Откройте менеджер пакетов NuGet
+### Открыть менеджер пакетов NuGet
 
 В Visual Studio щелкните правой кнопкой мыши свой проект в обозревателе решений и выберите «Управление пакетами NuGet».
 
 ### Поиск Aspose.Cells
 
- В диспетчере пакетов NuGet введите`Aspose.Cells` в строке поиска.
+В диспетчере пакетов NuGet введите `Aspose.Cells` в строке поиска.
 
 ### Установить пакет
 
@@ -66,11 +68,11 @@ using System.Data;
 string sourceDir = "Your Document Directory";
 ```
 
- Обязательно замените`"Your Document Directory"` с фактическим путем к вашему файлу Excel.
+Обязательно замените `"Your Document Directory"` с фактическим путем к вашему файлу Excel.
 
 ## Шаг 2: Загрузите образец файла Excel
 
- Следующий шаг — загрузить книгу Excel. Вы будете использовать`Workbook` класс из Aspose.Cells для этого. Вот как можно загрузить файл:
+Следующий шаг — загрузить книгу Excel. Вы будете использовать `Workbook` класс из Aspose.Cells для этого. Вот как можно загрузить файл:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
@@ -80,7 +82,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExportTableAsHtmlString.xlsx");
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
-После загрузки рабочей книги вам потребуется получить доступ к конкретному рабочему листу, содержащему интересующие вас данные. Обычно вы начинаете с первого рабочего листа:
+После загрузки рабочей книги вам потребуется получить доступ к конкретному рабочему листу, содержащему интересующие вас данные. Как правило, вы начинаете с первого рабочего листа:
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
@@ -90,7 +92,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Шаг 4: Укажите параметры экспорта таблицы
 
-Чтобы контролировать экспорт данных, вам необходимо настроить`ExportTableOptions`. В этом случае вы хотите убедиться, что имена столбцов не экспортируются, и хотите, чтобы данные ячеек экспортировались как строки HTML:
+Чтобы контролировать экспорт данных, вам необходимо настроить `ExportTableOptions`В этом случае вы хотите убедиться, что имена столбцов не экспортируются, и хотите, чтобы данные ячеек экспортировались как строки HTML:
 
 ```csharp
 ExportTableOptions opts = new ExportTableOptions();
@@ -102,7 +104,7 @@ opts.ExportAsHtmlString = true;
 
 ## Шаг 5: Экспорт ячеек в DataTable
 
- Теперь наступает решающая часть, где вы фактически экспортируете данные. Используя`ExportDataTable` Метод позволяет извлечь данные из рабочего листа в`DataTable`. Вот как это сделать:
+Теперь наступает решающая часть, где вы фактически экспортируете данные. Используя `ExportDataTable` Метод позволяет извлечь данные из рабочего листа в `DataTable`. Вот как это сделать:
 
 ```csharp
 DataTable dt = ws.Cells.ExportDataTable(0, 0, 3, 3, opts);
@@ -130,19 +132,21 @@ Console.WriteLine(dt.Rows[2][1].ToString());
 Да, Aspose.Cells в первую очередь предназначен для Excel, но Aspose предлагает и другие библиотеки для различных форматов.
 
 ### Нужна ли мне лицензия для Aspose.Cells?  
- Да, для использования в производстве требуется действующая лицензия. Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+Да, для использования в производстве требуется действующая лицензия. Вы можете получить временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
 ### А если мой файл Excel содержит формулы? Будут ли они экспортироваться правильно?  
 Да, Aspose.Cells может обрабатывать формулы, и при экспорте они будут оцениваться по полученным значениям.
 
 ### Можно ли изменить параметры экспорта?  
- Конечно! Вы можете настроить`ExportTableOptions` в соответствии с вашими конкретными потребностями.
+Конечно! Вы можете настроить `ExportTableOptions` в соответствии с вашими конкретными потребностями.
 
 ### Где я могу найти более подробную документацию по Aspose.Cells?  
- Вы можете найти подробную документацию[здесь](https://reference.aspose.com/cells/net/).
+Вы можете найти подробную документацию [здесь](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

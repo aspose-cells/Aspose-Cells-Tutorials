@@ -8,7 +8,9 @@ url: /net/excel-copy-worksheet/excel-copy-worksheets-between-workbooks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Copy Worksheets Between Workbooks
@@ -129,6 +131,7 @@ You can specify the index where the copied worksheet should be placed using the 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

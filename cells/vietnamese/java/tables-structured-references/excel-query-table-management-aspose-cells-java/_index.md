@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,7 +180,7 @@ Bây giờ bạn đã khám phá cách đọc, sửa đổi và viết Bảng tr
    - Một thư viện cho phép bạn làm việc với các tệp Excel trong Java, cho phép tạo, sửa đổi và chuyển đổi mà không cần cài đặt Microsoft Office.
 
 2. **Làm thế nào để cài đặt Aspose.Cells cho Java bằng Maven?**
-   - Thêm sự phụ thuộc vào bạn `pom.xml` như được hiển thị trong phần thiết lập ở trên.
+   - Thêm sự phụ thuộc vào `pom.xml` như được hiển thị trong phần thiết lập ở trên.
 
 3. **Tôi có thể sửa đổi nhiều bảng truy vấn cùng một lúc không?**
    - Có, bạn có thể lặp lại tất cả các Bảng truy vấn trong một bảng tính và áp dụng các thay đổi theo cách lập trình.
@@ -199,6 +201,9 @@ Bây giờ bạn đã khám phá cách đọc, sửa đổi và viết Bảng tr
 Chúc bạn viết mã vui vẻ và tận hưởng việc quản lý dữ liệu Excel như một chuyên gia với Aspose.Cells for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

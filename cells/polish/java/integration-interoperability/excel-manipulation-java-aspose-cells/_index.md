@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyzacja programu Excel za pomocą języka Java — tworzenie tabel i interaktywnych wykresów przy użyciu Aspose.Cells
@@ -244,7 +246,7 @@ W przypadku przetwarzania dużych ilości danych w programie Excel lub generowan
 1.  **`OutOfMemoryError`:** Napotykane podczas przetwarzania bardzo dużych plików Excela.
     * **Rozwiązanie:** Wprowadź podział danych na fragmenty lub zwiększ rozmiar sterty JVM.
 
-2.  **Nieprawidłowe obliczenia wzoru:** Problemy ze złożonymi formułami, których ocena nie jest zgodna z oczekiwaniami.
+2.  **Nieprawidłowe obliczenia formuły:** Problemy ze złożonymi formułami, których ocena nie jest zgodna z oczekiwaniami.
     * **Rozwiązanie:** Sprawdź dokładnie składnię formuły i upewnij się, że `calculateFormula()` Metoda jest wywoływana w razie konieczności.
 
 3.  **Problemy z renderowaniem wykresów:** Wykresy nie wyświetlają się prawidłowo lub zawierają brakujące dane.
@@ -287,6 +289,9 @@ Dzięki opanowaniu tych technik możesz znacznie usprawnić swoje przepływy pra
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

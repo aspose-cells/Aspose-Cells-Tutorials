@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ public class ReadImageFiles {
 }
 ```
 
-- **Tham số và giá trị trả về:** Các `Paths.get()` phương pháp xây dựng một đường dẫn và `Files.readAllBytes()` đọc tệp vào một mảng byte.
+- **Tham số và giá trị trả về:** Các `Paths.get()` phương pháp xây dựng một đường dẫn, và `Files.readAllBytes()` đọc tệp vào một mảng byte.
 - **Tại sao lại áp dụng cách tiếp cận này?** Sử dụng NIO giúp xử lý các tệp lớn dễ dàng hơn và hỗ trợ nhiều định dạng hình ảnh khác nhau.
 
 ### Tính năng 2: Tạo và sửa đổi sổ làm việc với Aspose.Cells
@@ -158,7 +160,7 @@ public class CreateAndModifyWorkbook {
 
 ### Tính năng 3: Định nghĩa và sử dụng lớp dữ liệu tùy chỉnh
 
-Để xử lý dữ liệu hình ảnh của chúng ta, chúng ta cần một lớp tùy chỉnh. Sau đây là cách bạn có thể định nghĩa nó:
+Để xử lý dữ liệu hình ảnh, chúng ta cần một lớp tùy chỉnh. Sau đây là cách bạn có thể định nghĩa nó:
 
 ```java
 class Person {
@@ -208,6 +210,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tích hợp h
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

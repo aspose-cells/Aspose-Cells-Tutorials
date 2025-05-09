@@ -1,54 +1,59 @@
 ---
-title: การรวมเซลล์ใน Excel โดยใช้ Aspose.Cells สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีรวมเซลล์ในไฟล์ Excel โดยใช้ Aspose.Cells สําหรับ .NET คู่มือนี้ครอบคลุมการสร้างหนังสือทํางาน การ thao tácเซลล์ และบันทึกไฟล์ในรูปแบบต่าง ๆ
-keywords: [Aspose.Cells for .NET, merge cells in Excel, Excel cell merging, C# Excel merge, workbook manipulation, Aspose.Cells example, merge rows and columns, C# Excel library]
-url: /th/net/formatting/merging-cells/
+"description": "เรียนรู้วิธีการผสานเซลล์ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ครอบคลุมถึงการสร้างเวิร์กบุ๊ก การจัดการเซลล์ และการบันทึกไฟล์ในรูปแบบต่างๆ"
+"title": "การผสานเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET"
+"url": "/th/net/formatting/merging-cells/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การรวมเซลล์ใน Excel โดยใช้ Aspose.Cells สําหรับ .NET
+# การผสานเซลล์ใน Excel โดยใช้ Aspose.Cells สำหรับ .NET
   
-Aspose.Cells สําหรับ .NET เป็นห้องสมุดที่แข็งแรงสําหรับการทํางานกับไฟล์ Excel โดยวิธีโปรแกรม. ในบทเรียนนี้ คุณจะได้เรียนรู้วิธีการรวมเซลล์ในใบงาน Excel โดยใช้ C# เราเริ่มด้วยการสร้างหนังสืองานใหม่, เข้าสู่ใบงาน และรวมเซลล์เฉพาะเจาะจงเพื่อฟอร์เมทเอกสารได้อย่างมีประสิทธิภาพ. คู่มือขั้นตอนนี้จะช่วยให้คุณกระบวนการการควบคุมกระบวนการใช้ Aspose.Cells สําหรับ .NET  
+Aspose.Cells สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพสำหรับการทำงานกับไฟล์ Excel ด้วยโปรแกรม ในบทช่วยสอนนี้ คุณจะได้เรียนรู้วิธีการผสานเซลล์ในเวิร์กชีต Excel โดยใช้ C# เราจะเริ่มต้นด้วยการสร้างเวิร์กบุ๊กใหม่ เข้าถึงเวิร์กชีต และผสานเซลล์เฉพาะเพื่อจัดรูปแบบเอกสารอย่างมีประสิทธิภาพ คำแนะนำทีละขั้นตอนนี้จะช่วยให้คุณจัดการสเปรดชีตของคุณได้อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ .NET  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/merging-cells" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
-เพื่อใช้ Aspose.Cells สําหรับ .NET ในโครงการของคุณ ติดตามขั้นตอนนี้  
 
-1. โครงการผ่าน NuGet  
-   เปิด คอนโซลผู้จัดการแพ็คเกจใน Visual Studio แล้วเปิด:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## คำแนะนำในการติดตั้ง  
+หากต้องการใช้ Aspose.Cells สำหรับ .NET ในโปรเจ็กต์ของคุณ ให้ทำตามขั้นตอนเหล่านี้:  
+
+1. ติดตั้งผ่าน NuGet  
+   เปิดคอนโซลตัวจัดการแพ็คเกจใน Visual Studio และเรียกใช้:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
 2. ดาวน์โหลด DLL  
-   แทนเช่นนั้น ดาวน์โหลดฉบับล่าสุดจาก [Aspose.Cells สําหรับการดาวน์โหลด .NET](https://releases.aspose.com/cells/net/)และอ้างอิง DLL ในโครงการของคุณ  
+   หรือดาวน์โหลดเวอร์ชันล่าสุดได้จาก [ดาวน์โหลด Aspose.Cells สำหรับ .NET](https://releases.aspose.com/cells/net/) และอ้างอิง DLL ในโครงการของคุณ  
 
-3. เพิ่ม หมายเหตุ ใน โครงการ ของ คุณ  
-   * ใน Visual Studio คลิกขวาโครงการของคุณใน Solution Explorer  
-   * คลิกเพิ่มความหมาย > คลิก > เลือก DLL ที่ดาวน์โหลด  
-   * คลิก OK เพื่อเพิ่มอ้างอิง  
+3. เพิ่มการอ้างอิงในโครงการของคุณ  
+   - ใน Visual Studio ให้คลิกขวาที่โปรเจ็กต์ของคุณใน Solution Explorer  
+   - คลิกเพิ่มการอ้างอิง > เรียกดู > เลือก DLL ที่ดาวน์โหลดมา  
+   - คลิกตกลงเพื่อเพิ่มการอ้างอิง  
 
-4. เริ่มใช้ Aspose.Cells  
-   เพิ่มพื้นที่ชื่อต่อไปนี้ในตอนต้นของไฟล์ C#  
+4. เริ่มต้นใช้งาน Aspose.Cells  
+   เพิ่มเนมสเปซต่อไปนี้ที่จุดเริ่มต้นของไฟล์ C# ของคุณ:  
    ```csharp
    using Aspose.Cells;
    ```
 
-## ดูอีกด้วย  
-เพื่อซื้อใบอนุญาต ไปที่ [เป้าหมายซื้อหน้า](https://purchase.aspose.com/buy). .  
-สําหรับเอกสารครบถ้วน ลงที่ [Aspose.Cells สําหรับเอกสาร .NET](https://docs.aspose.com/cells/net/). .  
-เพื่อสํารวจข้อมูล API ทั้งหมด ตรวจสอบ [Aspose.Cells สําหรับ .NET API Reference](https://reference.aspose.com/cells/net/). . 
+## ดูเพิ่มเติม  
+หากต้องการซื้อใบอนุญาต ให้ไปที่ [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).  
+สำหรับเอกสารประกอบทั้งหมด กรุณาเยี่ยมชม [เอกสาร Aspose.Cells สำหรับ .NET](https://docs-aspose.com/cells/net/).  
+หากต้องการสำรวจข้อมูลอ้างอิง API แบบเต็ม โปรดดู [เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET](https://reference-aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

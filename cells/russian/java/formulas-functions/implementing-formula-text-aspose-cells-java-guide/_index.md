@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ The `FormulaText` Функция позволяет извлекать текс�
 Используя Aspose.Cells с Java, вы можете эффективно управлять и манипулировать файлами Excel в своих приложениях. Изучите дополнительные функции, чтобы максимизировать его потенциал в своих проектах!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

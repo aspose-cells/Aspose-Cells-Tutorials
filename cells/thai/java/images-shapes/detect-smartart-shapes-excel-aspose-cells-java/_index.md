@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@
    public class AsposeSetup {
        public static void main(String[] args) throws Exception {
            System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-           // โค้ดติดตั้งเพิ่มเติมที่นี่...
+           // โค้ดตั้งค่าเพิ่มเติมที่นี่...
        }
    }
    ```
@@ -179,6 +181,9 @@ System.out.println("Is Smart Art Shape: " + sh.isSmartArt());
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

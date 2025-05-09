@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Krypteringsmetoder för arbetsböcker
@@ -16,7 +18,7 @@
 
 ## Introduktion till arbetsbokskrypteringsmetoder
 
-I dagens digitala tidsålder är datasäkerhet av största vikt. När det gäller hantering av känslig information i Excel-arbetsböcker blir kryptering en kritisk komponent. Aspose.Cells för Java, ett kraftfullt Java API för att arbeta med Excel-filer, erbjuder olika metoder för att säkra dina arbetsböcker genom kryptering. I den här omfattande guiden kommer vi att utforska de olika arbetsbokskrypteringsmetoderna som erbjuds av Aspose.Cells för Java och demonstrera hur du implementerar dem i dina Java-applikationer.
+dagens digitala tidsålder är datasäkerhet av största vikt. När det gäller hantering av känslig information i Excel-arbetsböcker blir kryptering en kritisk komponent. Aspose.Cells för Java, ett kraftfullt Java API för att arbeta med Excel-filer, erbjuder olika metoder för att säkra dina arbetsböcker genom kryptering. I den här omfattande guiden kommer vi att utforska de olika arbetsbokskrypteringsmetoderna som erbjuds av Aspose.Cells för Java och demonstrera hur du implementerar dem i dina Java-applikationer.
 
 ## Förstå arbetsbokskryptering
 
@@ -106,6 +108,7 @@ Aspose.Cells för Java fokuserar främst på Excel-arbetsböcker, men det kan ä
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

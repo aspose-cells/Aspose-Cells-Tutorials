@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 
 ### 환경 설정 요구 사항
 - IntelliJ IDEA, Eclipse 또는 NetBeans와 같은 IDE.
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 
 ### 지식 전제 조건
 Java 프로그래밍과 Excel 파일 조작에 대한 기본적인 지식이 있으면 도움이 되지만 필수는 아닙니다.
@@ -95,7 +97,7 @@ worksheet.getCells().setColumnWidth(2, 21); // C열의 열 너비 조정
 ```
 
 #### 3단계: 이미지 추가
-이미지를 로드하고 추가하세요:
+이미지를 로드하고 추가합니다.
 ```java
 int index = worksheet.getPictures().add(3, 2, "path/to/aspose-logo.jpg");
 ```
@@ -161,7 +163,7 @@ A3: 우아한 오류 관리를 위해 try-catch 블록을 사용하세요.
 A4: 네, 사용하세요 `remove` 방법에 대한 `Pictures` 수집.
 
 **질문 5: 하이퍼링크가 예상대로 작동하지 않는 일반적인 이유는 무엇입니까?**
-A5: 일반적인 문제로는 잘못된 파일 경로나 라이선스 설정 누락 등이 있습니다.
+대답 5: 일반적인 문제로는 잘못된 파일 경로나 라이선스 설정 누락 등이 있습니다.
 
 ## 자원
 - **선적 서류 비치**: [Aspose.Cells Java 참조](https://reference.aspose.com/cells/java/)
@@ -171,6 +173,9 @@ A5: 일반적인 문제로는 잘못된 파일 경로나 라이선스 설정 누
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

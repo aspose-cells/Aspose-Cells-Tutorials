@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### การขอใบอนุญาต
 - **ทดลองใช้งานฟรี**:เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจ Aspose.Cells
-- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
+- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
 - **ซื้อ**:หากต้องการใช้ในระยะยาวควรซื้อใบอนุญาตเชิงพาณิชย์
 
 #### การเริ่มต้นขั้นพื้นฐาน
@@ -203,6 +205,9 @@ try {
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

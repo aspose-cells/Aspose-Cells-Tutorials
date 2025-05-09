@@ -1,45 +1,50 @@
 ---
-title: ODS ファイルからチャート字幕を取得する.NET のAspose.Cellsを使用する
-weight: 7700
-limit: 
-description: ODS ファイルを読み込み,チャートにアクセスし,NET のAspose.Cellsを使用して字幕を回収する方法について学びます. ステップバイ・ステップガイド付きのシンプルで効率的な例.
-keywords: [Aspose.Cells for .NET, Load ODS File, Get Chart Subtitle, Access Chart in Excel, Retrieve Chart Data, Read ODS File, C# Excel Charts, .NET Spreadsheet API]
-url: /ja/net/charts/get-chart-sub-title-for-ods-file/
+"description": "Aspose.Cells for .NET を使用して、ODS ファイルを読み込み、グラフにアクセスし、サブタイトルを取得する方法を学びます。ステップバイステップのガイダンス付きのシンプルで効率的な例です。"
+"title": "Aspose.Cells for .NET を使用して ODS ファイルからチャートのサブタイトルを取得する"
+"url": "/ja/net/charts/get-chart-sub-title-for-ods-file/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ODS ファイルからチャート字幕をAspose.Cellsで取得する  
-この例では,ODSファイルをロードし,ワークシート内の特定のチャートにアクセスし,サブタイトルの取得をするために.このガイドに従って,開発者はC#を使用してODS スプレッドシートからチャート情報を効率的に読み取り,抽出することができます.例は,Excelファイル内のチャートと作業するための明確なステップバイステップアプローチを提供し, .NETアプリケーションでスムーズな実装を保証します.  
+# Aspose.Cells を使用して ODS ファイルからチャートのサブタイトルを取得する  
+この例では、Aspose.Cells for .NET を使用して ODS ファイルを読み込み、ワークシート内の特定のグラフにアクセスし、そのサブタイトルを取得する方法を示します。このガイドに従うことで、開発者は C# を使用して ODS スプレッドシートからグラフ情報を効率的に読み取り、抽出できるようになります。この例では、Excel ファイル内のグラフを操作するための明確な手順が示されており、.NET アプリケーションへのスムーズな実装を実現します。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示:  
-この例を用い,次の手順に従ってください.  
 
-1. NuGet を介して .NET に Aspose.Cells をインストールする:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## インストール手順:  
+この例を使用するには、次の手順に従います。  
+
+1. NuGet 経由で Aspose.Cells for .NET をインストールします。  
    ```shell
    Install-Package Aspose.Cells
    ```  
-2. C# プロジェクトに必要な名前空を追加します:  
+2. C# プロジェクトに必要な名前空間を追加します。  
    ```csharp
    using Aspose.Cells;
    using Aspose.Cells.Charts;
    ```  
-3. ODS ファイルをロードするために提供されたコードを実行し,チャートにアクセスし,その字幕をコンソールにプリントします.  
+3. 提供されたコードを実行して、ODS ファイルを読み込み、チャートにアクセスし、そのサブタイトルをコンソールに出力します。  
 
-## また見てください
-試用無料は 訪問してください[無料 な 試行 を 目指す](https://releases.aspose.com/)やってくれ  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください
+無料トライアルについては、 [Aspose 無料トライアル](https://releases。aspose.com/).  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

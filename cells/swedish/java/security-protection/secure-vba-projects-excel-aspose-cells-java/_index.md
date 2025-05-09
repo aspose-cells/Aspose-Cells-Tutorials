@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Använd `Workbook` klassen för att läsa in arbetsboken genom att ange dess sö
 Workbook wb = new Workbook(dataDir + "/samplePasswordProtectVBAProject.xlsm");
 ```
 
-**Förklaring**: Den `Workbook` Konstruktorn läser filen och initierar den för vidare operationer.
+**Förklaring**: Den `Workbook` konstruktorn läser filen och initierar den för vidare operationer.
 
 ### Funktion 2: Åtkomst till och skydd av VBA-projekt i Excel-arbetsboken
 
@@ -212,6 +214,9 @@ I den här handledningen går vi igenom hur man laddar en Excel-arbetsbok, öppn
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

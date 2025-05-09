@@ -1,14 +1,16 @@
 ---
-title: Автоматическое подгонка строк для объединенных ячеек Aspose.Cells .NET
-linktitle: Автоматическое подгонка строк для объединенных ячеек Aspose.Cells .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как эффективно автоматически подгонять строки для объединенных ячеек с помощью Aspose.Cells for .NET и улучшить свои навыки автоматизации Excel.
-weight: 14
-url: /ru/net/row-column-autofit-conversion/autofit-rows-merged-cells/
+"description": "Узнайте, как эффективно автоматически подгонять строки для объединенных ячеек с помощью Aspose.Cells for .NET, и улучшите свои навыки автоматизации Excel."
+"linktitle": "Автоматическое подгонка строк для объединенных ячеек Aspose.Cells .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Автоматическое подгонка строк для объединенных ячеек Aspose.Cells .NET"
+"url": "/ru/net/row-column-autofit-conversion/autofit-rows-merged-cells/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Автоматическое подгонка строк для объединенных ячеек Aspose.Cells .NET
@@ -18,7 +20,7 @@ url: /ru/net/row-column-autofit-conversion/autofit-rows-merged-cells/
 ## Предпосылки
 Прежде чем мы приступим к написанию кода, вам необходимо выполнить несколько действий:
 1. .NET Framework: Убедитесь, что на вашем компьютере установлена совместимая версия .NET Framework.
-2.  Aspose.Cells для .NET: Это сияющий рыцарь в нашем замке Excel. Вы можете скачать его[здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Это сияющий рыцарь в нашем замке Excel. Вы можете скачать его [здесь](https://releases.aspose.com/cells/net/).
 3. Настройка IDE: для этого руководства вы можете использовать Visual Studio или любую совместимую с .NET IDE. Убедитесь, что вы хорошо разбираетесь в том, как создавать, запускать и отлаживать проект. 
 4. Базовое понимание C#: Знание основ C# поможет вам следовать дальше, не спотыкаясь о концепции. Если вы знакомы с программным созданием и управлением файлами Excel, вы уже стоите на твердой почве!
 Давайте сразу перейдем к кодированию!
@@ -113,7 +115,7 @@ options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
 ## Шаг 11: Автоматический подбор строк на рабочем листе
 Теперь мы наконец можем призвать на помощь магию Excel, чтобы автоматически подогнать наши строки:
 ```csharp
-//Автоматический подбор строк на листе (включая объединенные ячейки)
+// Автоматический подбор строк на листе (включая объединенные ячейки)
 _worksheet.AutoFitRows(options);
 ```
 На этом этапе строки на нашем листе должны растягиваться и сжиматься, чтобы наглядно продемонстрировать содержимое. 
@@ -137,16 +139,18 @@ Console.WriteLine("AutofitRowsforMergedCells executed successfully.\r\n");
 ### Что такое Aspose.Cells?
 Aspose.Cells — это мощная библиотека .NET, которая позволяет программно создавать, изменять и конвертировать файлы Excel.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да! Aspose.Cells предоставляет бесплатную пробную версию, которую вы можете использовать для изучения ее функциональности. Просто зайдите[здесь](https://releases.aspose.com/) для начала.
+Да! Aspose.Cells предоставляет бесплатную пробную версию, которую вы можете использовать для изучения ее функциональности. Просто зайдите [здесь](https://releases.aspose.com/) для начала.
 ### Как установить Aspose.Cells?
- Вы можете легко установить его с помощью NuGet в Visual Studio с помощью команды:`Install-Package Aspose.Cells`.
+Вы можете легко установить его с помощью NuGet в Visual Studio с помощью команды: `Install-Package Aspose.Cells`.
 ### Какие языки программирования можно использовать с Aspose.Cells?
 Aspose.Cells, разработанный в основном для .NET, также может использоваться с другими языками, совместимыми с .NET, такими как C# и VB.NET.
 ### Где я могу найти поддержку Aspose.Cells?
- Помощь и ресурсы можно найти на форуме Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Помощь и ресурсы можно найти на форуме Aspose. [здесь](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

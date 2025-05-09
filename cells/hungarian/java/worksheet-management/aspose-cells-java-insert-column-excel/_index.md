@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ public class InsertingAColumn {
 ```java
 import com.aspose.cells.Worksheet;
 
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -132,7 +134,7 @@ workbook.save(dataDir + "InsertingAColumn_out.xls");
 - Ellenőrizze a megfelelő jogosultságokat fájlok olvasása/írása közben a környezetében.
 
 ## Gyakorlati alkalmazások (H2)
-Az Aspose.Cells Java-ban különféle valós helyzetekben használható, például:
+Az Aspose.Cells for Java különféle valós helyzetekben használható, például:
 1. **Automatizált jelentéskészítés**: Oszlopok automatikus beszúrása új adatmezőkhöz.
 2. **Adatmigráció**Zökkenőmentesen igazítsa a meglévő adatkészleteket a változásokhoz.
 3. **Sablongenerálás**Dinamikus sablonok létrehozása programozható oszlopszerkezetekkel.
@@ -176,6 +178,9 @@ Kísérletezz tovább az Aspose.Cells egyéb funkcióinak, például a sorok bes
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

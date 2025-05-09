@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introducción
 
-¿Cansado de verificar manualmente la consistencia de los datos en sus archivos de Excel? Automatizar este proceso con soluciones robustas como **Aspose.Cells** Puede ahorrar tiempo y reducir significativamente los errores. En este completo tutorial, profundizaremos en cómo aprovechar... **Biblioteca Java Aspose.Cells** para crear un nuevo libro de Excel, especificar áreas de celdas, configurar la validación de datos y guardarlo, todo con facilidad.
+¿Cansado de comprobar manualmente la consistencia de los datos en sus archivos de Excel? Automatizar este proceso con soluciones robustas como **Aspose.Cells** Puede ahorrar tiempo y reducir significativamente los errores. En este completo tutorial, profundizaremos en cómo aprovechar... **Biblioteca Java Aspose.Cells** para crear un nuevo libro de Excel, especificar áreas de celdas, configurar la validación de datos y guardarlo, todo con facilidad.
 
 ### Lo que aprenderás:
 - Cómo crear un libro de Excel usando Aspose.Cells en Java.
@@ -195,6 +197,9 @@ A5: Utilizar distintos `Validation` objetos con mensajes personalizados adaptado
 ¡Siéntete libre de explorar estos recursos y comenzar a utilizar Aspose.Cells para Java hoy mismo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

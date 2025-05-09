@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ A5: تحقق من مسارات الملفات، وتأكد من حصولك عل�
 الآن بعد أن أصبحت لديك الأدوات والمعرفة، ابدأ بتحويل ملفات Excel إلى ملفات PDF بكفاءة باستخدام Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

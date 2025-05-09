@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 
 Quer proteger suas pastas de trabalho do Excel e, ao mesmo tempo, manter a clareza sobre a autoria? Este guia ajuda você a resolver esse problema usando a poderosa biblioteca Aspose.Cells em Java. Você aprenderá a aplicar proteção contra gravação, definir um autor facilmente e salvar suas alterações com segurança com o "Aspose.Cells para Java". 
 
-#### que você aprenderá
+#### O que você aprenderá
 - Como criar uma nova pasta de trabalho do Excel
 - Aplicar proteção contra gravação com uma senha
 - Especifique um autor para a pasta de trabalho protegida
@@ -134,6 +136,9 @@ Seguindo este guia, você aprendeu a proteger uma pasta de trabalho do Excel usa
 - [Licença Temporária](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

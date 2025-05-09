@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ Excel-dataanalys kan vara komplex, särskilt när man hanterar stora datamängde
 - Ändra datafält i pivottabeller med konsolideringsfunktioner som genomsnitt och distinkt antal
 - Spara din modifierade arbetsbok effektivt
 
-Låt oss dyka in i förutsättningarna innan vi börjar.
+Låt oss gå in på förutsättningarna innan vi börjar.
 
 ## Förkunskapskrav
 
@@ -172,6 +174,9 @@ Utforska andra funktioner i Aspose.Cells, som att skapa diagram, formelberäknin
 - **Tillfällig licens:** [Skaffa en tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

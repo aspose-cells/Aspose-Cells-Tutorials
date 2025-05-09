@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Pelajari cara membuat solusi pelaporan yang canggih dengan tutorial templat Aspose.Cells kami untuk Java. Panduan langkah demi langkah ini menunjukkan cara membuat dan menggunakan templat Excel, menerapkan pengikatan data, membuat laporan dinamis, dan menjalankan operasi gabungan surat secara terprogram. Setiap tutorial menyertakan contoh kode Java terperinci untuk skenario pelaporan umum, yang membantu Anda membuat sistem pembuatan dokumen fleksibel yang menghasilkan laporan Excel yang konsisten dan tampak profesional dari data aplikasi Anda.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi templat & pelaporan
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -50,10 +52,13 @@ Pelajari cara mengotomatiskan pembuatan laporan Excel yang dinamis dengan Aspose
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: Se till att områdesnamnen är unika och giltiga i hela arbetsboken för att
 För mer information, utforska tillgängliga resurser på [Aspose-nedladdningar](https://releases.aspose.com/cells/java/) och överväg att skaffa en tillfällig licens för fullständig åtkomst.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

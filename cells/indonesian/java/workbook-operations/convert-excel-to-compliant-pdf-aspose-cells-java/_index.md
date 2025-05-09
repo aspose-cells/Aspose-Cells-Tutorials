@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konversi Excel ke PDF yang Sesuai Menggunakan Aspose.Cells di Java
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia yang digerakkan oleh data saat ini, mengonversi buku kerja Excel ke dalam format portabel seperti PDF sangat penting untuk berbagi dan menyimpan informasi di berbagai platform. Memastikan kepatuhan terhadap standar tertentu selama proses ini sangat penting. Panduan ini akan menunjukkan kepada Anda cara menggunakan **Aspose.Cells untuk Java** untuk membuat buku kerja Excel, memodifikasinya, dan menyimpannya sebagai berkas PDF yang sesuai.
 
 Kami akan membahas semuanya mulai dari menyiapkan pustaka yang diperlukan hingga mengonfigurasi keluaran dengan berbagai tingkat kepatuhan PDF/A.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur Aspose.Cells di lingkungan Java Anda
 - Membuat buku kerja Excel baru dan mengubah nilai sel
 - Mengonfigurasi opsi penyimpanan PDF untuk standar kepatuhan seperti PDF/A
@@ -27,7 +29,7 @@ Kami akan membahas semuanya mulai dari menyiapkan pustaka yang diperlukan hingga
 
 Dengan wawasan ini, Anda akan siap menangani tugas konversi data secara efisien dan presisi. Mari kita bahas prasyarat yang diperlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai tutorial ini, pastikan Anda telah:
 
@@ -35,7 +37,7 @@ Sebelum memulai tutorial ini, pastikan Anda telah:
 2. **Lingkungan Pengembangan Terpadu (IDE):** IDE Java apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans cocok.
 3. **Aspose.Cells untuk Pustaka Java:** Anda perlu menyertakan pustaka ini dalam proyek Anda.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Untuk menambahkan Aspose.Cells ke proyek Anda, Anda dapat menggunakan Maven atau Gradle:
 
@@ -53,15 +55,15 @@ Untuk menambahkan Aspose.Cells ke proyek Anda, Anda dapat menggunakan Maven atau
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells beroperasi di bawah model lisensi yang menawarkan uji coba gratis, lisensi sementara untuk tujuan evaluasi, dan opsi pembelian lisensi penuh.
 
-1. **Uji Coba Gratis:** Unduh perpustakaan dari [rilis.aspose.com](https://releases.aspose.com/cells/java/) untuk mencobanya dengan fitur terbatas.
-2. **Lisensi Sementara:** Dapatkan lisensi sementara untuk akses fitur lengkap selama fase pengujian Anda dengan mengunjungi [beli.aspose.com/lisensi-sementara/](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian:** Jika Anda puas dengan uji coba, beli lisensi di [beli.aspose.com/beli](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió:** Unduh perpustakaan dari [rilis.aspose.com](https://releases.aspose.com/cells/java/) untuk mencobanya dengan fitur terbatas.
+2. **Ideiglenes engedély:** Dapatkan lisensi sementara untuk akses fitur lengkap selama fase pengujian Anda dengan mengunjungi [beli.aspose.com/lisensi-sementara/](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás:** Jika Anda puas dengan uji coba, beli lisensi di [beli.aspose.com/beli](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Berikut cara menginisialisasi dan menyiapkan Aspose.Cells di aplikasi Java Anda:
 
@@ -70,7 +72,7 @@ import com.aspose.cells.*;
 
 public class InitializeAspose {
     public static void main(String[] args) {
-        // Tetapkan lisensi jika tersedia
+        // Licenc beállítása, ha elérhető
         License license = new License();
         try {
             license.setLicense("path_to_your_license_file.lic");
@@ -87,16 +89,16 @@ Setelah Anda mengonfigurasi lingkungan dan menambahkan dependensi yang diperluka
 
 ### Membuat dan Menyimpan Buku Kerja sebagai PDF
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini menunjukkan cara membuat buku kerja Excel, mengatur nilai sel, mengonfigurasi opsi penyimpanan PDF dengan tingkat kepatuhan, dan akhirnya menyimpannya sebagai berkas PDF. 
 
 ##### Langkah 1: Buat Contoh Buku Kerja Baru
 
-Mulailah dengan membuat contoh baru dari `Workbook` kelas:
+Kezdje egy új példány létrehozásával a `Workbook` osztály:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
-// Buat contoh Buku Kerja baru
+// Új munkafüzet-példány létrehozása
 Workbook workbook = new Workbook();
 Cells cells = workbook.getWorksheets().get(0).getCells();
 
@@ -104,9 +106,9 @@ Cells cells = workbook.getWorksheets().get(0).getCells();
 cells.get("A12").setValue("Test PDF");
 ```
 
-**Penjelasan:** Kami menginisialisasikan `Workbook` objek, yang mewakili file Excel. `Cells` Koleksi ini memungkinkan kita mengakses dan memodifikasi sel individual.
+**Magyarázat:** Kami menginisialisasikan `Workbook` objek, yang mewakili file Excel. `Cells` Koleksi ini memungkinkan kita mengakses dan memodifikasi sel individual.
 
-##### Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
+##### 2. lépés: PDF mentési beállítások konfigurálása
 
 Berikutnya, konfigurasikan opsi penyimpanan untuk menentukan kepatuhan dengan standar PDF/A tertentu:
 
@@ -116,24 +118,24 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
 ```
 
-**Penjelasan:** `PdfSaveOptions` memungkinkan Anda menentukan cara buku kerja disimpan sebagai PDF. Menetapkan kepatuhan memastikan bahwa keluaran Anda mematuhi standar seperti PDF/A, meningkatkan keawetan dan kompatibilitas dokumen.
+**Magyarázat:** `PdfSaveOptions` memungkinkan Anda menentukan cara buku kerja disimpan sebagai PDF. Menetapkan kepatuhan memastikan bahwa keluaran Anda mematuhi standar seperti PDF/A, meningkatkan keawetan dan kompatibilitas dokumen.
 
 ##### Langkah 3: Simpan Buku Kerja sebagai PDF
 
 Terakhir, simpan buku kerja menggunakan opsi yang dikonfigurasi:
 
 ```java
-// Simpan buku kerja sebagai file PDF
+// A munkafüzet mentése PDF fájlként
 workbook.save(dataDir + "ACToPdf_out.pdf", pdfOptions);
 ```
 
-**Penjelasan:** Itu `save` metode menulis buku kerja Anda ke disk dalam format yang ditentukan. Di sini, ia menggunakan format yang telah kami definisikan sebelumnya `pdfOptions`.
+**Magyarázat:** A `save` metode menulis buku kerja Anda ke disk dalam format yang ditentukan. Di sini, ia menggunakan format yang telah kami definisikan sebelumnya `pdfOptions`.
 
 ### Menetapkan Kepatuhan Buku Kerja untuk Konversi PDF
 
 Fitur ini berfokus pada pengaturan tingkat kepatuhan dalam `PdfSaveOptions`, penting untuk memastikan integritas dokumen.
 
-#### Ringkasan
+#### Áttekintés
 Menetapkan tingkat kepatuhan tertentu memastikan bahwa PDF Anda memenuhi standar industri seperti PDF/A-1b, yang banyak digunakan untuk penyimpanan dokumen elektronik jangka panjang.
 
 ##### Langkah 1: Konfigurasikan Tingkat Kepatuhan
@@ -145,19 +147,19 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
 ```
 
-**Penjelasan:** Itu `setCompliance` metode dalam `PdfSaveOptions` menentukan standar PDF/A yang harus dipatuhi. Pilihannya meliputi PDF/A-1a, PDF/A-1b, dan lainnya.
+**Magyarázat:** A `setCompliance` metode dalam `PdfSaveOptions` menentukan standar PDF/A yang harus dipatuhi. Pilihannya meliputi PDF/A-1a, PDF/A-1b, dan lainnya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario dunia nyata di mana mengonversi buku kerja Excel ke PDF yang sesuai akan bermanfaat:
 
 1. **Pengarsipan Laporan Keuangan:** Pastikan kepatuhan terhadap standar industri untuk penyimpanan jangka panjang.
 2. **Dokumentasi Hukum:** Buat dokumen yang memenuhi persyaratan hukum khusus untuk pelestarian format.
-3. **Penerbitan Akademis:** Mengubah data penelitian menjadi format standar yang diterima secara luas.
+3. **Akadémiai publikációk:** Mengubah data penelitian menjadi format standar yang diterima secara luas.
 
 Kemungkinan integrasi mencakup mengekspor berkas-berkas ini ke solusi penyimpanan cloud atau mengintegrasikannya dalam sistem manajemen dokumen perusahaan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan Aspose.Cells dan file Excel besar:
 
@@ -165,21 +167,21 @@ Saat bekerja dengan Aspose.Cells dan file Excel besar:
 - Gunakan API streaming jika menangani kumpulan data yang sangat besar untuk meminimalkan penggunaan memori.
 - Perbarui Aspose.Cells secara berkala untuk memanfaatkan peningkatan kinerja pada versi yang lebih baru.
 
-**Praktik Terbaik:**
+**Bevált gyakorlatok:**
 - Selalu gunakan versi pustaka terbaru untuk patch dan peningkatan keamanan.
 - Uji konfigurasi kepatuhan pada file contoh sebelum menerapkannya di lingkungan produksi.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara menyiapkan dan menggunakan Aspose.Cells untuk Java guna mengonversi buku kerja Excel menjadi PDF yang sesuai. Dengan mengikuti tutorial ini, Anda telah membekali diri dengan keterampilan yang diperlukan untuk memastikan bahwa dokumen Anda memenuhi standar industri.
 
-**Langkah Berikutnya:**
-- Bereksperimen dengan berbeda `PdfCompliance` tingkat untuk melihat dampaknya pada output.
+**Következő lépések:**
+- Kísérletezzen különböző `PdfCompliance` tingkat untuk melihat dampaknya pada output.
 - Jelajahi fitur Aspose.Cells lainnya seperti manipulasi bagan dan gambar.
 
 Siap untuk mempraktikkan apa yang telah Anda pelajari? Cobalah menerapkan solusi ini dalam proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu kepatuhan PDF/A?**
    - Kepatuhan PDF/A memastikan bahwa dokumen memenuhi standar untuk penyimpanan jangka panjang, membuatnya cocok untuk diarsipkan.
@@ -194,9 +196,12 @@ Siap untuk mempraktikkan apa yang telah Anda pelajari? Cobalah menerapkan solusi
    - Memanfaatkan API streaming dan mengoptimalkan pengaturan memori untuk kinerja yang lebih baik.
 
 5. **Di mana saya dapat menemukan informasi lebih lanjut tentang berbagai standar PDF/A?**
-   - Anda dapat menjelajahi [Organisasi Internasional untuk Standardisasi (ISO)](https://www.iso.org/standards.html) situs web untuk dokumentasi terperinci tentang berbagai tingkat kepatuhan PDF/A.
+   - Felfedezheted a [Organisasi Internasional untuk Standardisasi (ISO)](https://www.iso.org/standards.html) situs web untuk dokumentasi terperinci tentang berbagai tingkat kepatuhan PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

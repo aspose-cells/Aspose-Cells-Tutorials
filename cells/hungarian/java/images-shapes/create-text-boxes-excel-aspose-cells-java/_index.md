@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ V: Bár az Aspose.Cells rugalmasan hozható létre alakzatokat, ügyeljen arra, 
 
 ## Erőforrás
 További olvasmányokért és kutatásért:
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Az Aspose.Cells legújabb kiadásai](https://releases.aspose.com/cells/java/)
 - **Vásárlási lehetőségek:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbalicenc:** [Ingyenes próbaverzió beszerzése](https://releases.aspose.com/cells/java/)
@@ -147,6 +149,9 @@ További olvasmányokért és kutatásért:
 Az útmutató követésével most már felkészült leszel arra, hogy elkezdhesd az Aspose.Cells Java integrálását a projektjeidbe a továbbfejlesztett Excel automatizálási és formázási képességek érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

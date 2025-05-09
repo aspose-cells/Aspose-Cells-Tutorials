@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ ChartPoint point = chartPoints.get(0);
 point.getArea().setForegroundColor(Color.getCyan());
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 1. **財務報告**明確なタイトルと色を使用して四半期収益チャートを強化します。
 2. **セールスダッシュボード**動的な軸ラベルを使用して、さまざまな製品カテゴリや地域を反映します。
@@ -212,6 +214,9 @@ point.getArea().setForegroundColor(Color.getCyan());
 - **サポート**： [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

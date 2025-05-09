@@ -1,14 +1,16 @@
 ---
-title: การจัดการไฟล์ CSV
-linktitle: การจัดการไฟล์ CSV
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: สำรวจบทช่วยสอน Aspose.Cells สำหรับ .NET ที่ครอบคลุมเกี่ยวกับการจัดการไฟล์ CSV รวมถึงการเปิด การแยกวิเคราะห์ และการจัดการข้อมูลด้วยความง่ายดายและมีประสิทธิภาพ
-weight: 26
-url: /th/net/csv-file-handling/
+"description": "สำรวจบทช่วยสอน Aspose.Cells สำหรับ .NET ที่ครอบคลุมเกี่ยวกับการจัดการไฟล์ CSV รวมถึงการเปิด การแยกวิเคราะห์ และการจัดการข้อมูลด้วยความง่ายดายและมีประสิทธิภาพ"
+"linktitle": "การจัดการไฟล์ CSV"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การจัดการไฟล์ CSV"
+"url": "/th/net/csv-file-handling/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการไฟล์ CSV
@@ -25,17 +27,19 @@ url: /th/net/csv-file-handling/
 
 ลองนึกภาพว่าคุณกำลังจัดงานปาร์ตี้ คุณต้องรู้ว่าจะมีแขกมากี่คน ต้องเตรียมของว่างอะไร และต้องจัดที่นั่งอย่างไร ด้วย Aspose.Cells คุณจะเป็นเจ้าบ้านที่จัดการทุกอย่างอย่างมีประสิทธิภาพ รับรองว่า "งานปาร์ตี้ข้อมูล" ของคุณจะดำเนินไปอย่างราบรื่น! 
 
- หากต้องการข้อมูลเชิงลึกเพิ่มเติม โปรดดูบทช่วยสอนโดยละเอียดของเราได้ที่[การเปิดไฟล์ CSV](./csv-file-opening-csv-files/) และ[ใช้ตัววิเคราะห์ที่ต้องการ](./csv-file-opening-csv-files-with-preferred-parser/)สนุกกับการเขียนโค้ด และหวังว่าการจัดการ CSV ของคุณจะมีประสิทธิผลยิ่งขึ้น!
+หากต้องการข้อมูลเชิงลึกเพิ่มเติม โปรดดูบทช่วยสอนโดยละเอียดของเราได้ที่ [การเปิดไฟล์ CSV](./csv-file-opening-csv-files/) และ [ใช้ตัววิเคราะห์ที่ต้องการ](./csv-file-opening-csv-files-with-preferred-parser/)สนุกกับการเขียนโค้ด และหวังว่าการจัดการ CSV ของคุณจะมีประสิทธิผลยิ่งขึ้น!
 
 
 ## บทช่วยสอนการจัดการไฟล์ CSV
 ### [การเปิดไฟล์ CSV](./csv-file-opening-csv-files/)
 เรียนรู้วิธีเปิดไฟล์ CSV โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนแบบครอบคลุมของเรา การจัดการข้อมูลอย่างเชี่ยวชาญ
-### [การเปิดไฟล์ CSV ด้วย Preferred Parser](./csv-file-opening-csv-files-with-preferred-parser/)
+### [การเปิดไฟล์ CSV ด้วยโปรแกรมแยกวิเคราะห์ที่ต้องการ](./csv-file-opening-csv-files-with-preferred-parser/)
 เรียนรู้วิธีเปิดและแยกไฟล์ CSV ด้วยตัวแยกวิเคราะห์แบบกำหนดเองใน Aspose.Cells สำหรับ .NET จัดการข้อความและวันที่ได้อย่างง่ายดาย เหมาะสำหรับนักพัฒนา
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

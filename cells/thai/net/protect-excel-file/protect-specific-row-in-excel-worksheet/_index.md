@@ -1,14 +1,16 @@
 ---
-title: การป้องกันแถวเฉพาะในเวิร์กชีต Excel
-linktitle: การป้องกันแถวเฉพาะในเวิร์กชีต Excel
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีการป้องกันแถวเฉพาะในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนที่ออกแบบมาสำหรับนักพัฒนาโดยเฉพาะ
-weight: 90
-url: /th/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
+"description": "เรียนรู้วิธีการป้องกันแถวเฉพาะในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนที่ออกแบบมาสำหรับนักพัฒนาโดยเฉพาะ"
+"linktitle": "การป้องกันแถวเฉพาะในเวิร์กชีต Excel"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "การป้องกันแถวเฉพาะในเวิร์กชีต Excel"
+"url": "/th/net/protect-excel-file/protect-specific-row-in-excel-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การป้องกันแถวเฉพาะในเวิร์กชีต Excel
@@ -22,8 +24,8 @@ url: /th/net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ก่อนที่เราจะเริ่มต้น มีบางสิ่งที่คุณจะต้องมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว คุณสามารถใช้เวอร์ชันใดก็ได้ที่รองรับการพัฒนา .NET
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องติดตั้งไลบรารี Aspose.Cells เข้าไปที่[ลิงค์นี้เพื่อดาวน์โหลด](https://releases.aspose.com/cells/net/) การเปิดตัวครั้งล่าสุด
-3. ความรู้พื้นฐานของ .NET: ความคุ้นเคยกับ C# และแนวคิดการเขียนโปรแกรมขั้นพื้นฐานจะเป็นประโยชน์เนื่องจากเราจะได้ทำงานกับตัวอย่างโค้ด
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องติดตั้งไลบรารี Aspose.Cells เข้าไปที่ [ลิงค์นี้เพื่อดาวน์โหลด](https://releases.aspose.com/cells/net/) การเปิดตัวครั้งล่าสุด
+3. ความรู้พื้นฐานของ .NET: ความคุ้นเคยกับ C# และแนวคิดการเขียนโปรแกรมขั้นพื้นฐานจะเป็นประโยชน์เนื่องจากเราจะทำงานกับชิ้นส่วนโค้ด
 
 เมื่อคุณเตรียมทุกอย่างลงตัวแล้ว มาเริ่มลงมือทำงานกันเลย!
 
@@ -61,7 +63,7 @@ if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ใหม่ของคุณ
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกไฟล์ Excel ใหม่ของคุณ
 
 ## ขั้นตอนที่ 2: สร้างสมุดงานใหม่
 
@@ -83,7 +85,7 @@ Worksheet sheet = wb.Worksheets[0];
 
 ## ขั้นตอนที่ 4: ปลดล็อคคอลัมน์ทั้งหมด
 
-ก่อนที่เราจะล็อกแถวใดๆ เราต้องแน่ใจว่าได้ปลดล็อกคอลัมน์ทั้งหมดแล้ว วิธีนี้ทำให้เรามีความยืดหยุ่นในการปกป้องเฉพาะแถวที่เราต้องการ
+ก่อนที่เราจะล็อกแถวใดๆ เราต้องตรวจสอบให้แน่ใจว่าได้ปลดล็อกคอลัมน์ทั้งหมดแล้ว วิธีนี้ทำให้เรามีความยืดหยุ่นในการปกป้องเฉพาะแถวที่เราต้องการ
 
 ```csharp
 // กำหนดวัตถุสไตล์
@@ -106,11 +108,11 @@ for (int i = 0; i <= 255; i++)
 ตอนนี้ถึงเวลาที่จะล็อคแถวที่คุณต้องการปกป้อง ในกรณีนี้ เราจะล็อคแถวแรก
 
 ```csharp
-//รับสไตล์แถวแรก
+// รับสไตล์แถวแรก
 style = sheet.Cells.Rows[0].Style;
 // ล็อคมันไว้
 style.IsLocked = true;
-//สร้างอินสแตนซ์ของธง
+// สร้างอินสแตนซ์ของธง
 flag = new StyleFlag();
 // ตั้งค่าการล็อค
 flag.Locked = true;
@@ -149,16 +151,18 @@ wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 คุณสามารถเลือกเซลล์ทีละเซลล์และใช้รูปแบบการล็อกได้ เช่นเดียวกับการล็อกแถว
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?  
- Aspose.Cells เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถลองใช้ได้โดยใช้รุ่นทดลองใช้ฟรี[ที่นี่](https://releases.aspose.com/).
+Aspose.Cells เป็นผลิตภัณฑ์เชิงพาณิชย์ แต่คุณสามารถทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจำเป็นต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อใช้ Aspose.Cells หรือไม่?  
 ไม่ Aspose.Cells เป็นไลบรารี .NET และสามารถทำงานแบบออฟไลน์ได้เมื่อคุณติดตั้งแล้ว
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้จากที่ไหน  
- หากต้องการสอบถามหรือขอรับการสนับสนุน สามารถเข้าไปที่[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).
+หากต้องการสอบถามหรือขอรับการสนับสนุน สามารถเข้าไปที่ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

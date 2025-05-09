@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Dalam dunia bisnis yang dinamis, manajemen spreadsheet yang efisien sangatlah penting. Baik Anda membuat laporan atau mengatur data, menyembunyikan baris atau kolom tertentu dapat meningkatkan keterbacaan dan menyederhanakan proses secara signifikan. Panduan lengkap ini memandu Anda menggunakan pustaka Aspose.Cells dengan Java untuk menyembunyikan baris dan kolom dalam file Excel dengan mudah.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Menyiapkan Aspose.Cells untuk Java
 - Membuat Buku Kerja dari file yang sudah ada
 - Mengakses lembar kerja dan sel
@@ -24,10 +26,10 @@ Dalam dunia bisnis yang dinamis, manajemen spreadsheet yang efisien sangatlah pe
 
 Mari kita mulai dengan memastikan Anda telah memenuhi prasyaratnya!
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
-- **Kit Pengembangan Java (JDK)** terinstal di komputer Anda.
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+- **Kit Pengembangan Java (JDK)** telepítve a gépedre.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse.
 - Pemahaman dasar tentang konsep pemrograman Java.
 
@@ -49,11 +51,11 @@ Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven atau Gradle:
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Aspose.Cells adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya. Untuk mendapatkan lisensi sementara atau membeli versi lengkap, kunjungi [Halaman Lisensi Aspose](https://purchase.aspose.com/buy) dan mengikuti instruksi mereka.
+Aspose.Cells adalah produk komersial, tetapi Anda dapat memulai dengan uji coba gratis untuk menjelajahi fitur-fiturnya. Untuk mendapatkan lisensi sementara atau membeli versi lengkap, kunjungi [Aspose licencelési oldala](https://purchase.aspose.com/buy) dan mengikuti instruksi mereka.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Untuk menggunakan Aspose.Cells, impor kelas yang diperlukan:
 ```java
@@ -62,7 +64,7 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.Cells;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan prosesnya menjadi beberapa langkah yang dapat dikelola, dengan memberikan penjelasan terperinci dan potongan kode.
 
@@ -73,7 +75,7 @@ Untuk bekerja dengan file Excel yang ada:
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/book1.xls");
 ```
-Mengganti `"YOUR_DATA_DIRECTORY"` dengan jalur berkas Excel Anda yang sebenarnya. Ini memuat berkas ke dalam memori untuk dimanipulasi.
+Csere `"YOUR_DATA_DIRECTORY"` dengan jalur berkas Excel Anda yang sebenarnya. Ini memuat berkas ke dalam memori untuk dimanipulasi.
 
 ### Mengakses Lembar Kerja dan Sel
 
@@ -90,7 +92,7 @@ Untuk menyembunyikan baris di lembar Excel Anda:
 ```java
 cells.hideRow(2); // Menyembunyikan baris ketiga (berdasarkan indeks)
 ```
-Itu `hideRow()` metode menggunakan indeks mulai dari 0, jadi `hideRow(2)` menyembunyikan baris ketiga.
+A `hideRow()` metode menggunakan indeks mulai dari 0, jadi `hideRow(2)` menyembunyikan baris ketiga.
 
 ### Menyembunyikan Kolom
 
@@ -107,39 +109,39 @@ Setelah membuat perubahan, simpan buku kerja Anda:
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/HidingRowsandColumns_out.xls");
 ```
-Mengganti `"YOUR_OUTPUT_DIRECTORY"` dengan jalur keluaran yang Anda inginkan untuk menyelesaikan perubahan dalam dokumen Excel.
+Csere `"YOUR_OUTPUT_DIRECTORY"` dengan jalur keluaran yang Anda inginkan untuk menyelesaikan perubahan dalam dokumen Excel.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Pelaporan Data**: Sederhanakan laporan dengan menyembunyikan baris/kolom yang tidak diperlukan untuk presentasi yang lebih rapi.
-- **Pemodelan Keuangan**: Fokus pada data yang relevan dengan mengelola kumpulan data besar secara efisien.
-- **Manajemen Inventaris**: Sederhanakan lembar inventaris dengan menyembunyikan bagian yang sudah selesai atau tidak relevan.
+- **Adatjelentés**: Sederhanakan laporan dengan menyembunyikan baris/kolom yang tidak diperlukan untuk presentasi yang lebih rapi.
+- **Pénzügyi modellezés**: Fokus pada data yang relevan dengan mengelola kumpulan data besar secara efisien.
+- **Készletgazdálkodás**: Sederhanakan lembar inventaris dengan menyembunyikan bagian yang sudah selesai atau tidak relevan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat menggunakan Aspose.Cells di Java, pertimbangkan tips berikut:
 - Gunakan metode yang hemat memori untuk menangani berkas Excel berukuran besar.
 - Optimalkan kode untuk meminimalkan penggunaan sumber daya dan meningkatkan kecepatan eksekusi.
 - Biasakan diri Anda dengan pengumpulan sampah Java untuk mengelola memori secara efektif selama pemrosesan data ekstensif.
 
-## Kesimpulan
+## Következtetés
 
-Anda telah mempelajari cara menggunakan Aspose.Cells dengan Java untuk menyembunyikan baris dan kolom tertentu dalam file Excel, sehingga pengelolaan kumpulan data besar menjadi lebih efisien. Keterampilan ini sangat berharga di berbagai aplikasi yang mana pengelolaan spreadsheet memegang peranan penting. Untuk eksplorasi lebih lanjut, pelajari [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+Anda telah mempelajari cara menggunakan Aspose.Cells dengan Java untuk menyembunyikan baris dan kolom tertentu dalam file Excel, sehingga pengelolaan kumpulan data besar menjadi lebih efisien. Keterampilan ini sangat berharga di berbagai aplikasi yang mana pengelolaan spreadsheet memegang peranan penting. Untuk eksplorasi lebih lanjut, pelajari [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bisakah saya menyembunyikan beberapa baris atau kolom sekaligus?**
-   - Ya, Anda dapat melakukan pengulangan melalui indeks dan panggilan `hideRow()` atau `hideColumn()` untuk masing-masing.
+   - Ya, Anda dapat melakukan pengulangan melalui indeks dan panggilan `hideRow()` vagy `hideColumn()` untuk masing-masing.
 2. **Apa yang terjadi pada data di baris/kolom tersembunyi?**
    - Datanya tetap utuh tetapi tidak terlihat sampai tidak disembunyikan lagi.
 3. **Bagaimana cara menampilkan kembali baris atau kolom yang disembunyikan?**
-   - Gunakan `unHideRow(index)` Dan `unHideColumn(index)` metode, masing-masing.
+   - Használd a `unHideRow(index)` és `unHideColumn(index)` metode, masing-masing.
 4. **Apakah ada batasan saat menggunakan Aspose.Cells dengan file besar?**
    - Meskipun efisien, kinerjanya dapat bervariasi berdasarkan sumber daya sistem dan ukuran file.
 5. **Bisakah saya menerapkan metode ini dalam aplikasi web?**
    - Tentu saja! Aspose.Cells dapat diintegrasikan ke dalam aplikasi sisi server berbasis Java dengan mudah.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Beli Lisensi atau Dapatkan Uji Coba Gratis](https://purchase.aspose.com/buy)
@@ -147,6 +149,9 @@ Anda telah mempelajari cara menggunakan Aspose.Cells dengan Java untuk menyembun
 Siap untuk meningkatkan pengelolaan berkas Excel Anda? Terapkan solusi ini dalam proyek Anda hari ini!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ public class DisplayVersion {
 Att ladda en befintlig arbetsbok är vårt första steg för att manipulera dess innehåll.
 
 ##### Steg-för-steg-implementering
-###### Huvudmetod för att läsa in arbetsboken
+###### Huvudmetod för att ladda arbetsboken
 ```java
 public class LoadExcelFile {
     public static void main(String[] args) throws Exception {
@@ -187,7 +189,7 @@ Som nästa steg, överväg att utforska mer avancerade funktioner i Aspose.Cells
 
 **Agera**Försök att implementera dessa tekniker i dina projekt idag!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 1. **Hur kontrollerar jag vilken version av Aspose.Cells som är installerad?**
    - Använda `CellsHelper.getVersion()` för att visa den aktuella biblioteksversionen.
 
@@ -210,6 +212,9 @@ Som nästa steg, överväg att utforska mer avancerade funktioner i Aspose.Cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

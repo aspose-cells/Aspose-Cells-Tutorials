@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ Các bước tiếp theo có thể bao gồm khám phá các chức năng bổ s
    - Tăng cường phân bổ bộ nhớ và sử dụng tính năng phát trực tuyến để nâng cao hiệu suất.
 
 3. **Tôi có thể tùy chỉnh phương pháp tính tổng không?**
-   - Có, bạn có thể thiết lập nhiều phép tính khác nhau như SUM, AVERAGE, v.v. cho các cột khác nhau.
+   - Có, bạn có thể thiết lập nhiều phép tính khác nhau như TỔNG, TRUNG BÌNH, v.v. cho các cột khác nhau.
 
 4. **Một số vấn đề thường gặp khi thiết lập Aspose.Cells trong dự án của tôi là gì?**
    - Đảm bảo phiên bản và đường dẫn thư viện chính xác; kiểm tra xem có xung đột phụ thuộc nào không.
@@ -178,6 +180,9 @@ Các bước tiếp theo có thể bao gồm khám phá các chức năng bổ s
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

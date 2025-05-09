@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Buku Kerja Excel dengan Aspose.Cells dan Gambar di Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda kesulitan mengintegrasikan gambar ke dalam laporan Excel Anda menggunakan Java? Panduan lengkap ini akan menunjukkan kepada Anda cara memanfaatkan kekuatan Aspose.Cells untuk Java untuk membuat buku kerja Excel dinamis yang penuh dengan gambar. Baik Anda pengembang berpengalaman atau baru mengenal Aspose.Cells, tutorial ini akan membekali Anda dengan keterampilan yang dibutuhkan untuk menyempurnakan presentasi data Anda secara efektif.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membaca berkas gambar di Java.
 - Membuat dan memodifikasi buku kerja Excel menggunakan Aspose.Cells.
 - Menggunakan penanda pintar untuk penyisipan data dinamis.
@@ -25,9 +27,9 @@ Apakah Anda kesulitan mengintegrasikan gambar ke dalam laporan Excel Anda menggu
 
 Siap mengubah laporan Excel Anda? Mari kita bahas prasyaratnya terlebih dahulu!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
 - **Kit Pengembangan Java (JDK):** Direkomendasikan versi 8 atau lebih tinggi.
 - **Aspose.Cells untuk Java:** Kami akan menggunakan versi 25.3 dalam tutorial ini.
@@ -55,13 +57,13 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Setelah menyiapkan dependensi, Anda dapat memperoleh lisensi untuk Aspose.Cells:
 
-- **Uji Coba Gratis:** Unduh dan coba perpustakaan dengan beberapa batasan.
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk menjelajahi fitur lengkap tanpa batasan.
-- **Pembelian:** Pertimbangkan untuk membeli jika Anda membutuhkan akses jangka panjang.
+- **Ingyenes próbaverzió:** Unduh dan coba perpustakaan dengan beberapa batasan.
+- **Ideiglenes engedély:** Dapatkan lisensi sementara untuk menjelajahi fitur lengkap tanpa batasan.
+- **Vásárlás:** Pertimbangkan untuk membeli jika Anda membutuhkan akses jangka panjang.
 
 Inisialisasi proyek Anda dengan menyiapkan impor yang diperlukan dalam berkas kelas Java Anda, seperti yang ditunjukkan di bawah ini. Pengaturan ini akan sangat penting untuk membaca gambar dan membuat buku kerja Excel dengan Aspose.Cells.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kami akan membahas setiap fitur langkah demi langkah untuk membantu Anda membuat buku kerja Excel yang berisi gambar menggunakan Aspose.Cells.
 
@@ -69,7 +71,7 @@ Di bagian ini, kami akan membahas setiap fitur langkah demi langkah untuk memban
 
 Pertama, mari kita pahami cara membaca berkas gambar dari sebuah direktori. Ini penting untuk menambahkan gambar ke buku kerja kita nanti.
 
-#### Ringkasan
+#### Áttekintés
 Kita akan menggunakan paket NIO Java untuk membaca berkas gambar ke dalam array byte. Pendekatan ini memungkinkan kita untuk menangani berbagai format gambar dengan lancar.
 
 ```java
@@ -89,14 +91,14 @@ public class ReadImageFiles {
 }
 ```
 
-- **Parameter & Nilai Pengembalian:** Itu `Paths.get()` metode membangun jalur, dan `Files.readAllBytes()` membaca berkas ke dalam array byte.
+- **Parameter & Nilai Pengembalian:** A `Paths.get()` metode membangun jalur, dan `Files.readAllBytes()` membaca berkas ke dalam array byte.
 - **Mengapa Pendekatan Ini?** Penggunaan NIO menyederhanakan penanganan file besar dan mendukung berbagai format gambar.
 
 ### Fitur 2: Membuat dan Memodifikasi Buku Kerja dengan Aspose.Cells
 
 Sekarang setelah gambar kita siap, mari buat buku kerja Excel dan gabungkan gambar tersebut menggunakan penanda pintar.
 
-#### Ringkasan
+#### Áttekintés
 Kami akan menggunakan Aspose.Cells untuk menghasilkan buku kerja, menyesuaikan tampilannya, dan menyisipkan gambar secara dinamis berdasarkan data.
 
 ```java
@@ -185,16 +187,16 @@ class Person {
 
 - **Mengapa Menggunakan Kelas Kustom?** Mengorganisasikan data secara efisien, membuatnya lebih mudah untuk dikelola dan diperluas ke aplikasi yang lebih besar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario dunia nyata di mana Anda dapat menerapkan teknik ini:
 
-1. **Laporan Bisnis:** Secara otomatis membuat laporan yang dipersonalisasi dengan foto karyawan.
+1. **Üzleti jelentések:** Secara otomatis membuat laporan yang dipersonalisasi dengan foto karyawan.
 2. **Katalog E-dagang:** Buat katalog produk dengan gambar untuk toko daring.
 3. **Perencanaan Acara:** Menyusun daftar peserta dengan gambar profil untuk acara.
-4. **Materi Pendidikan:** Mengembangkan panduan belajar dengan alat bantu visual yang terintegrasi ke dalam lembar Excel.
+4. **Oktatási anyag:** Mengembangkan panduan belajar dengan alat bantu visual yang terintegrasi ke dalam lembar Excel.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan Aspose.Cells dan menangani kumpulan data besar atau banyak gambar, pertimbangkan kiat berikut:
 
@@ -202,12 +204,15 @@ Saat bekerja dengan Aspose.Cells dan menangani kumpulan data besar atau banyak g
 - Gunakan fitur bawaan Aspose untuk mengompres gambar jika perlu.
 - Uji kinerja dengan berbagai ukuran kumpulan data untuk memastikan skalabilitas.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara mengintegrasikan gambar ke dalam buku kerja Excel menggunakan Java dan Aspose.Cells. Teknik ini sangat berguna untuk menyempurnakan laporan dan presentasi dengan konten visual.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

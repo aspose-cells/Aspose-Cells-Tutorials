@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ public class Main {
   - ファイル パスまたはパスワードが正しくない場合、エラーが発生する可能性があります。
   - Aspose.Cells ライブラリが適切に含まれ、更新されていることを確認します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 暗号化されたファイルのファイル形式の検出には、いくつかの実用的な用途があります。
 
@@ -201,6 +203,9 @@ Aspose.Cells for Java で暗号化されたファイルのファイル形式を�
 このガイドに従うことで、JavaでAspose.Cellsを使用して暗号化されたファイルのファイル形式検出を実装できるようになります。コーディングを楽しんでください！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

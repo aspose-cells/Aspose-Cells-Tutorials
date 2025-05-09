@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-07"
 "description": "Dowiedz się, jak programowo tworzyć i stylizować skoroszyty programu Excel za pomocą Aspose.Cells for Java. Z łatwością automatyzuj prezentację danych."
-"title": "Tworzenie i stylizowanie skoroszytu głównego w Javie przy użyciu Aspose.Cells"
+"title": "Tworzenie i stylizowanie skoroszytów w Javie przy użyciu Aspose.Cells"
 "url": "/pl/java/formatting/mastering-aspose-cells-java-workbook-creation-styling/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Tworzenie i stylizowanie skoroszytu głównego w Javie przy użyciu Aspose.Cells
+# Tworzenie i stylizowanie skoroszytów w Javie przy użyciu Aspose.Cells
 
 ## Wstęp
 
@@ -222,6 +224,9 @@ A5: Upewnij się, że używasz prawidłowej ścieżki do pliku i że Twoja aplik
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

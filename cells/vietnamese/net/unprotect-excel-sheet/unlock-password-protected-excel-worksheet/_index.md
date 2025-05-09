@@ -1,14 +1,16 @@
 ---
-title: Mở khóa bảng tính Excel được bảo vệ bằng mật khẩu
-linktitle: Mở khóa bảng tính Excel được bảo vệ bằng mật khẩu
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách mở khóa bảng tính Excel được bảo vệ bằng mật khẩu bằng Aspose.Cells cho .NET. Hướng dẫn từng bước bằng C#.
-weight: 10
-url: /vi/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
+"description": "Tìm hiểu cách mở khóa bảng tính Excel được bảo vệ bằng mật khẩu bằng Aspose.Cells cho .NET. Hướng dẫn từng bước bằng C#."
+"linktitle": "Mở khóa bảng tính Excel được bảo vệ bằng mật khẩu"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Mở khóa bảng tính Excel được bảo vệ bằng mật khẩu"
+"url": "/vi/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mở khóa bảng tính Excel được bảo vệ bằng mật khẩu
@@ -19,7 +21,7 @@ Bạn đã bao giờ thấy mình bị khóa ngoài một bảng tính Excel, nh
 
 ## Điều kiện tiên quyết
 
-Trước khi đi sâu vào chi tiết để mở khóa bảng tính này, bạn cần chuẩn bị một số thứ sau:
+Trước khi đi sâu vào chi tiết để mở khóa bảng tính đó, bạn cần chuẩn bị một số thứ sau:
 
 ### Môi trường .NET
 
@@ -27,7 +29,7 @@ Bạn cần một môi trường .NET đang hoạt động. Nếu bạn chưa s�
 
 ### Aspose.Cells cho .NET
 
- Bạn cần có Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) . Hãy đảm bảo rằng bạn đã làm quen với tài liệu, có thể tìm thấy[đây](https://reference.aspose.com/cells/net/).
+Bạn cần có Aspose.Cells cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/). Hãy đảm bảo rằng bạn đã làm quen với tài liệu, có thể tìm thấy [đây](https://reference.aspose.com/cells/net/).
 
 ### Kiến thức lập trình cơ bản
 
@@ -70,13 +72,13 @@ Bây giờ, chúng ta hãy đi sâu vào trọng tâm của hướng dẫn này.
 
 ## Bước 1: Xác định Đường dẫn Tài liệu
 
-Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu Excel. Đây là nơi bạn sẽ chỉ định vị trí tệp Excel của mình. 
+Trước tiên, chúng ta cần thiết lập đường dẫn đến tài liệu Excel của mình. Đây là nơi bạn sẽ chỉ định vị trí tệp Excel của mình. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Mẹo: Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn (hãy gọi nó là`book1.xls`) nằm ở đâu. 
+Mẹo: Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế nơi tệp Excel của bạn (hãy gọi nó là `book1.xls`) nằm ở đâu. 
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -106,7 +108,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Unprotect("");
 ```
 
- Nếu bảng tính của bạn được bảo vệ bằng mật khẩu và bạn biết mật khẩu, bạn sẽ thay thế chuỗi rỗng`""` bằng mật khẩu thực tế. Nếu bạn không biết, hãy để trống và chạy để xem nó có hoạt động không.
+Nếu bảng tính của bạn được bảo vệ bằng mật khẩu và bạn biết mật khẩu, bạn sẽ thay thế chuỗi rỗng `""` bằng mật khẩu thực tế. Nếu bạn không biết, hãy để trống và chạy để xem nó có hoạt động không.
 
 ## Bước 5: Lưu sổ làm việc
 
@@ -142,19 +144,21 @@ Và bạn đã có nó! Bạn đã mở khóa thành công một bảng tính Ex
 Có, bạn có thể thử mở khóa trang tính được bảo vệ mà không cần biết mật khẩu bằng cách để trống trường mật khẩu.
 
 ### Aspose.Cells có miễn phí sử dụng không?  
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần mua giấy phép. Kiểm tra[Mua trang](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần mua giấy phép. Kiểm tra [Mua trang](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells hỗ trợ những định dạng nào?  
 Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm XLS, XLSX, CSV, v.v.
 
 ### Làm thế nào để cài đặt Aspose.Cells?  
- Bạn có thể cài đặt nó thông qua NuGet hoặc tải xuống trực tiếp từ[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể cài đặt nó thông qua NuGet hoặc tải xuống trực tiếp từ [đây](https://releases.aspose.com/cells/net/).
 
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể tìm thấy sự hỗ trợ từ cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ từ cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

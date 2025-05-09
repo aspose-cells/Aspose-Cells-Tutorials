@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Aprenda a criar documentos Excel com estilo profissional com nossos tutoriais de formatação Java do Aspose.Cells. Estes guias detalhados demonstram como aplicar e gerenciar estilos de células, implementar regras de formatação condicional, trabalhar com cores e temas e controlar formatos numéricos para diferentes tipos de dados. Cada tutorial inclui exemplos práticos de código Java que mostram como criar planilhas visualmente atraentes com formatação consistente que aprimora a legibilidade e a apresentação dos dados.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de formatação
 - Implementação passo a passo com exemplos de código completos
@@ -243,6 +245,9 @@ Domine a estilização de células do Excel e a adição de hiperlinks em seus a
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

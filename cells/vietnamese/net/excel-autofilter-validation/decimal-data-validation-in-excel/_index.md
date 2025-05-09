@@ -1,14 +1,16 @@
 ---
-title: Xác thực dữ liệu thập phân trong Excel
-linktitle: Xác thực dữ liệu thập phân trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách triển khai xác thực dữ liệu thập phân trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo của chúng tôi. Nâng cao tính toàn vẹn của dữ liệu một cách dễ dàng.
-weight: 11
-url: /vi/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Khám phá cách triển khai xác thực dữ liệu thập phân trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo của chúng tôi. Nâng cao tính toàn vẹn của dữ liệu một cách dễ dàng."
+"linktitle": "Xác thực dữ liệu thập phân trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xác thực dữ liệu thập phân trong Excel"
+"url": "/vi/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác thực dữ liệu thập phân trong Excel
@@ -22,7 +24,7 @@ Việc tạo bảng tính với dữ liệu chính xác là điều cần thiế
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập mọi thứ để có trải nghiệm suôn sẻ:
 
 1. Visual Studio: Tải xuống và cài đặt Visual Studio nếu bạn chưa cài đặt. Đây là môi trường hoàn hảo để phát triển các ứng dụng .NET.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần phải thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể tải xuống qua[liên kết này](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần phải thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể tải xuống qua [liên kết này](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Mặc dù chúng tôi sẽ giải thích mọi thứ theo từng bước, nhưng việc hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt tốt hơn các khái niệm.
 4. .NET Framework: Đảm bảo rằng bạn đã cài đặt .NET Framework cần thiết tương thích với Aspose.Cells.
 5. Thư viện: Tham chiếu thư viện Aspose.Cells trong dự án của bạn để tránh lỗi biên dịch.
@@ -41,7 +43,7 @@ using System;
 
 Bằng cách thêm dòng này vào đầu tệp, bạn đang yêu cầu C# tìm chức năng Aspose.Cells cho phép bạn thao tác với các tệp Excel.
 
-Bây giờ chúng ta đã thiết lập xong bối cảnh, hãy cùng thực hiện các bước cần thiết để tạo xác thực dữ liệu thập phân trong bảng tính Excel.
+Bây giờ chúng ta đã thiết lập xong, hãy cùng thực hiện các bước cần thiết để tạo xác thực dữ liệu thập phân trong bảng tính Excel.
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
@@ -51,7 +53,7 @@ Trước khi bạn có thể lưu bất kỳ tệp nào, bạn cần đảm bả
 string dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` bằng đường dẫn mà bạn muốn lưu các tệp Excel của mình.
+Thay thế `"Your Document Directory"` bằng đường dẫn mà bạn muốn lưu các tệp Excel của mình.
 
 ## Bước 2: Kiểm tra sự tồn tại của thư mục
 
@@ -63,7 +65,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Bước này giống như việc đảm bảo không gian làm việc của bạn đã sẵn sàng trước khi bắt đầu một dự án mới. Không lộn xộn, không căng thẳng!
+Bước này giống như đảm bảo không gian làm việc của bạn đã sẵn sàng trước khi bắt đầu một dự án mới. Không lộn xộn, không căng thẳng!
 
 ## Bước 3: Tạo một đối tượng Workbook
 
@@ -209,16 +211,18 @@ Xác thực dữ liệu trong Excel là tính năng hạn chế loại dữ li�
 Có! Bạn có thể cung cấp thông báo lỗi tùy chỉnh để hướng dẫn người dùng khi nhập dữ liệu không chính xác.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để sử dụng lâu dài. Bạn có thể tìm thêm thông tin về việc mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để sử dụng lâu dài. Bạn có thể tìm thêm thông tin về việc mua giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể xác thực những kiểu dữ liệu nào trong Excel?
 Với Aspose.Cells, bạn có thể xác thực nhiều kiểu dữ liệu khác nhau bao gồm số nguyên, số thập phân, ngày tháng, danh sách và công thức tùy chỉnh.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể khám phá tài liệu mở rộng[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu mở rộng [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

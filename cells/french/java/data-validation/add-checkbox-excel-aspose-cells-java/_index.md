@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Nous vous encourageons à implémenter ces solutions dans vos projets. Bon codag
 - Assurez-vous de disposer des autorisations appropriées et envisagez de verrouiller des cellules spécifiques pour éviter les modifications involontaires lors de l'utilisation de cases à cocher dans des environnements partagés.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

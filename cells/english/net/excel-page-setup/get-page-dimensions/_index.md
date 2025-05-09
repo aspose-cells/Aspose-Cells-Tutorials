@@ -8,7 +8,9 @@ url: /net/excel-page-setup/get-page-dimensions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Page Dimensions
@@ -151,6 +153,7 @@ You can get help by visiting the Aspose support forum: [Aspose.Cells Support](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

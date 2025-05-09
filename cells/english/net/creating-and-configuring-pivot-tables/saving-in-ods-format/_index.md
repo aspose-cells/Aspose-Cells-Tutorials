@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/saving-in-ods-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Pivot Table in ODS Format Programmatically in .NET
@@ -135,6 +137,7 @@ Yes, you can apply for a temporary license through the Aspose site [here](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells를 사용해 보려면 무료 임시 라이선스를 받거나 모든 기능을 사용하려면 라이선스를 구매하세요. 다음 단계를 따르세요.
 
 1. **무료 체험**: 라이브러리를 다운로드하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/).
-2. **임시 면허**임시 면허를 요청하세요 [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/).
-3. **구입**: 장기 사용을 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
+2. **임시 면허**: 임시 면허를 요청하세요 [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/).
+3. **구입**장기 사용을 위해서는 라이선스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 ### 기본 초기화 및 설정
 
@@ -199,6 +201,9 @@ wb.save(outDir + "/outputRotateTextWithShapeInsideWorksheet.xlsx");
 이러한 기술을 실험하고 Aspose.Cells for Java를 사용하여 Excel 문서 조작을 한 단계 업그레이드해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ opts.setLightCellsDataHandler((LightCellsDataHandler) v);
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/LargeBook1.xlsx", opts);
 
-// 시트 수를 확인하여 성공적인 로딩을 확인하세요.
+// 시트 개수를 확인하여 성공적인 로딩을 확인하세요.
 int sheetCount = wb.getWorksheets().getCount();
 ```
 
@@ -135,6 +137,9 @@ Aspose.Cells의 더욱 고급 기능을 살펴보거나 프로젝트에 통합�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

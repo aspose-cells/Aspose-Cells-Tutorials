@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Kezdésként építsd be az Aspose.Cells-t a projektedbe. Így teheted meg Maven
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió**Töltsön le egy ingyenes próbaverziót a funkciók teszteléséhez.
 2. **Ideiglenes engedély**: Szerezzen be egy ideiglenes licencet a kiértékelés idejére korlátozás nélküli, meghosszabbított használatra.
 3. **Vásárlás**A teljes hozzáférés érdekében érdemes előfizetést vásárolni.
@@ -125,7 +127,7 @@ excel.save(outDir + "LockCell_out.xls");
 3. **Adatintegritás**Az adatok integritásának megőrzése együttműködésen alapuló környezetekben a jogosulatlan változtatások megakadályozásával.
 
 ## Teljesítménybeli szempontok
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - A memóriahasználat minimalizálása a nagy munkafüzetek csak szükséges részeinek feldolgozásával.
 - Használjon streamelési funkciókat a nagyon nagy adathalmazok hatékony kezeléséhez.
 
@@ -151,7 +153,7 @@ A3: Különböző formátumokat támogat, többek között az XLSX, CSV és PDF 
 A5: Használja a streamelési funkciókat és dolgozza fel az adatokat darabokban a memóriahasználat hatékony kezelése érdekében.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells Java kiadásokhoz](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Aspose.Cells ingyenes próbaverziók](https://releases.aspose.com/cells/java/)
@@ -162,6 +164,9 @@ Tegye meg a következő lépést az adatkezelési útján az Aspose.Cells for Ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

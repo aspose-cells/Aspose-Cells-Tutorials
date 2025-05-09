@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Metin Fonksiyonları Açıklandı
@@ -24,7 +26,7 @@ Başlamadan önce, Java için Aspose.Cells'in yüklü olduğundan emin olun. İn
 
 ## CONCATENATE - Metni Birleştirme
 
-The `CONCATENATE` fonksiyonu farklı hücrelerden metinleri birleştirmenize olanak tanır. Bunu Java için Aspose.Cells ile nasıl yapacağınızı görelim:
+The `CONCATENATE` fonksiyonu farklı hücrelerden metinleri birleştirmenize olanak tanır. Java için Aspose.Cells ile bunu nasıl yapacağınızı görelim:
 
 ```java
 // Aspose.Cells kullanarak metni birleştirmek için Java kodu
@@ -174,9 +176,11 @@ Bir dize içindeki metni bulmak ve değiştirmek için şunu kullanın: `FIND` V
 Cell cell = worksheet.getCells().get("A5");
 cell.setFormula("=FIND(\"for\", A5)");
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

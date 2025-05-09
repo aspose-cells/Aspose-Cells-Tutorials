@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Personalização de gráficos do Excel em Java usando Aspose.Cells
 Os gráficos do Excel são essenciais para uma visualização eficaz dos dados. Este tutorial irá guiá-lo na personalização de gráficos do Excel usando **Aspose.Cells para Java**, com foco na desativação do ajuste de texto para melhorar a clareza dos rótulos de dados.
 
-## que você aprenderá
+## O que você aprenderá
 - Carregando uma pasta de trabalho do Excel em um aplicativo Java.
-- Acessando planilhas e gráficos específicos dentro da pasta de trabalho.
+- Acessar planilhas e gráficos específicos dentro da pasta de trabalho.
 - Personalização de rótulos de dados desabilitando a quebra de texto em séries de gráficos.
 - Salvando suas modificações em um arquivo Excel.
 
@@ -152,6 +154,9 @@ O teste gratuito inclui marcas d'água nos arquivos de saída e um limite no nú
 Embarque em sua jornada para dominar a personalização de gráficos do Excel com o Aspose.Cells para Java e aprimore sua forma de apresentar dados. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

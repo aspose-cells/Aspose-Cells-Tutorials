@@ -1,49 +1,54 @@
 ---
-title: Συμπλέξτε κείμενο σε κελιά Excel Χρησιμοποιώντας Aspose.Cells για .NET
-weight: 7700
-limit: 
-description: Μάθετε πώς να τυλίξετε κείμενο σε κελιά Excel χρησιμοποιώντας το Aspose.Cells για το .NET. Αυτό το οδηγό καλύπτει τη δημιουργία ενός βιβλίου εργασίας, την προσθήκη ενός φύλλου εργασίας και την εφαρμογή τυλίξεως κειμένου.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /el/net/formatting/wrapping-text/
----  
+"description": "Μάθετε πώς να αναδιπλώνετε κείμενο σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells για .NET. Αυτός ο οδηγός καλύπτει τη δημιουργία ενός βιβλίου εργασίας, την προσθήκη ενός φύλλου εργασίας και την εφαρμογή αναδίπλωσης κειμένου."
+"title": "Αναδίπλωση κειμένου σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells για .NET"
+"url": "/el/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# Αναδίπλωση κειμένου σε κελιά του Excel χρησιμοποιώντας το Aspose.Cells 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+Η αναδίπλωση κειμένου σε κελιά του Excel διασφαλίζει ότι οι καταχωρίσεις μεγάλου κειμένου είναι πλήρως ορατές χωρίς να επεκτείνεται το πλάτος της στήλης. Χρησιμοποιώντας το Aspose.Cells για .NET, μπορείτε να εφαρμόσετε αναδίπλωση κειμένου μέσω προγραμματισμού σε οποιοδήποτε κελί σε ένα φύλλο εργασίας του Excel. Αυτό το σεμινάριο σας καθοδηγεί στη δημιουργία ενός νέου βιβλίου εργασίας του Excel, στην προσθήκη ενός φύλλου εργασίας, στην εισαγωγή κειμένου σε ένα κελί και στην ενεργοποίηση της αναδίπλωσης κειμένου. Ακολουθώντας αυτά τα βήματα, μπορείτε να μορφοποιήσετε αποτελεσματικά έγγραφα Excel στις εφαρμογές C# που χρησιμοποιείτε.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Διδασκαλίες εγκατάστασης:  
-Για να χρησιμοποιήσετε το Aspose.Cells για το .NET, ακολουθήστε τα παρακάτω βήματα:  
+## Οδηγίες εγκατάστασης:  
+Για να χρησιμοποιήσετε το Aspose.Cells για .NET, ακολουθήστε τα εξής βήματα:  
 
 1. Εγκατάσταση μέσω NuGet:  
-   * Ανοίξτε το Visual Studio.  
-   * Επιστρέψτε στα εργαλεία → Διαχειριστής πακέτων NuGet → Διαχειρίστε τα πακέτα NuGet για Λύση.  
-   * Ψάξτε για "Αποθέστε.Πυρήνα" και κάντε κλικ στην εγκατάσταση.  
+   - Ανοίξτε το Visual Studio.  
+   - Μεταβείτε στα Εργαλεία → Διαχειριστής πακέτων NuGet → Διαχείριση πακέτων NuGet για λύση.  
+   - Αναζητήστε το Aspose.Cells και κάντε κλικ στην επιλογή Εγκατάσταση.  
 
-2. Εγκατάσταση μέσω της κονσόλας διαχειριστής πακέτων:  
-   * Ανοίξτε εργαλεία → NuGet Package Manager → Console Manager Package.  
-   * Δράσε την εντολή:  
+2. Εγκατάσταση μέσω της Κονσόλας Διαχείρισης Πακέτων:  
+   - Άνοιγμα Εργαλείων → Διαχειριστής πακέτων NuGet → Κονσόλα διαχειριστή πακέτων.  
+   - Εκτελέστε την εντολή:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Ενημέρωση προστεθεί χειροκίνητα:  
-   * Κατεβάστε το Aspose.Cells για .NET DLL από [Απελευθερώσεις](https://releases.aspose.com/)\- Δεν ξέρω .  
-   * Προσθέστε το κατεβαμένο Aspose.Cells.dll στις αναφορές του έργου σας.  
+3. Μη αυτόματη προσθήκη αναφοράς:  
+   - Κατεβάστε το Aspose.Cells για .NET DLL από [Aspose Releases](https://releases.aspose.com/).  
+   - Προσθέστε το ληφθέν Aspose.Cells.dll στις αναφορές του έργου σας.  
 ## Δείτε επίσης  
-Για να αγοράσετε άδεια, πηγαίνετε στο [Στόχος της σελίδας αγοράς](https://purchase.aspose.com/buy)\- Δεν ξέρω .  
-Για πλήρη τεκμηρίωση, επισκεφθείτε [Aspose.Cells για το .NET Documentation](https://docs.aspose.com/cells/net/)\- Δεν ξέρω .  
-Για να εξερευνήσετε την πλήρη αναφορά API, ελέγξτε [Aspose.Cells για το .NET API Reference](https://reference.aspose.com/cells/net/)\- Δεν ξέρω . 
+Για να αγοράσετε μια άδεια χρήσης, μεταβείτε στη διεύθυνση [Σελίδα Αγοράς Aspose](https://purchase.aspose.com/buy).  
+Για πλήρη τεκμηρίωση, επισκεφθείτε την ιστοσελίδα [Τεκμηρίωση Aspose.Cells για .NET](https://docs.aspose.com/cells/net/).  
+Για να εξερευνήσετε την πλήρη αναφορά API, ανατρέξτε στο [Aspose.Cells για αναφορά API .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/spreadsheet-automation/automating-excel-charts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automating Excel Charts
@@ -117,9 +119,11 @@ Automating Excel charts with Aspose.Cells for Java simplifies the process of cre
    Explore the API documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in-depth information and examples.
 
 Automate your Excel charting tasks with ease using Aspose.Cells for Java and elevate your data visualization capabilities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

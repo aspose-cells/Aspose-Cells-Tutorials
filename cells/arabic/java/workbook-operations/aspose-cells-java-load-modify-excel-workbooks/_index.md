@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ workbook.save(outDir + "MROfCellsInWorksheet_out.xls", SaveFormat.EXCEL_97_TO_20
 يُمكّنك هذا الدليل الشامل من الاستفادة القصوى من إمكانات Aspose.Cells لجافا، مما يُحسّن إدارة ملفات Excel في تطبيقات جافا. ابدأ اليوم واكتشف مستويات إنتاجية جديدة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

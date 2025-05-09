@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 ExcelワークブックをHTMLに変換しながら、コメントの表示/非表示を管理する作業は、Aspose.Cells for Javaを使えば効率化できます。このチュートリアルでは、Excelワークブックの読み込み、コメントを非表示にするHTML保存オプションの設定、そしてカスタマイズされたHTMLファイルとして保存する手順を説明します。
 
-このガイドでは、以下の内容を取り上げます。
+このガイドでは、次の内容を取り上げます。
 - Aspose.Cells を使用してワークブックを読み込む
 - コメントの表示を管理するための HTML 保存オプションの設定
 - カスタム設定でワークブックを保存する
@@ -160,6 +162,9 @@ Excelブックの読み込み、HTML保存オプションの設定、そして�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

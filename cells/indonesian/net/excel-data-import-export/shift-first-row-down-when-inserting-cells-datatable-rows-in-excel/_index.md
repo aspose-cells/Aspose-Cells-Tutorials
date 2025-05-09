@@ -1,33 +1,35 @@
 ---
-title: Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel
-linktitle: Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama ke bawah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk otomatisasi yang mudah.
-weight: 11
-url: /id/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/
+"description": "Pelajari cara menyisipkan baris DataTable di Excel tanpa menggeser baris pertama ke bawah menggunakan Aspose.Cells untuk .NET. Panduan langkah demi langkah untuk otomatisasi yang mudah."
+"linktitle": "Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel"
+"url": "/id/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Geser Baris Pertama ke Bawah Saat Memasukkan Baris DataTable di Excel
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda lelah menggeser baris secara manual saat memasukkan data baru ke dalam lembar kerja Excel Anda? Nah, Anda beruntung! Dalam artikel ini, kita akan membahas cara mengotomatiskan proses ini menggunakan Aspose.Cells untuk .NET. Di akhir tutorial ini, Anda tidak hanya akan mempelajari cara bekerja dengan tabel data di Excel, tetapi juga cara menyesuaikan opsi impor agar lebih sesuai dengan kebutuhan Anda. Percayalah; ini dapat menghemat banyak waktu dan kerepotan! Jadi, ambil secangkir kopi, dan mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita masuk ke pengkodean, mari pastikan Anda sudah menyiapkan semuanya:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio (2017 atau yang lebih baru seharusnya berfungsi dengan baik).
-2.  Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Jika Anda belum melakukannya, Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Anda perlu memiliki pustaka Aspose.Cells. Jika Anda belum melakukannya, Anda dapat mengunduhnya [itt](https://releases.aspose.com/cells/net/).
 3. Pemahaman Dasar tentang C# dan Excel: Pemahaman dasar tentang pemrograman C# dan cara kerja Excel tentu akan membantu Anda mengikutinya dengan lebih efektif.
 
- Anda juga perlu menyiapkan contoh file Excel. Dalam panduan ini, kami akan menggunakan contoh yang disebut`sampleImportTableOptionsShiftFirstRowDown.xlsx`Anda dapat membuat berkas ini atau menemukan templat yang sesuai dengan kebutuhan Anda.
+Anda juga perlu menyiapkan contoh file Excel. Dalam panduan ini, kami akan menggunakan contoh yang disebut `sampleImportTableOptionsShiftFirstRowDown.xlsx`Anda dapat membuat berkas ini atau menemukan templat yang sesuai dengan kebutuhan Anda.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum kita mulai membuat kode, kita perlu memastikan bahwa kita mengimpor paket-paket yang diperlukan. Dalam proyek C# Anda, sertakan namespace berikut:
 
@@ -40,9 +42,9 @@ using System.Drawing;
 
 Paket-paket ini penting untuk bekerja dengan buku kerja, lembar kerja, dan tabel.
 
-## Langkah 1: Siapkan Proyek Anda
+## 1. lépés: A projekt beállítása
 
-### Buat Proyek C# Baru
+### Új C# projekt létrehozása
 
 Mulailah dengan membuat Aplikasi Konsol C# baru di Visual Studio. Berikan nama yang sesuai untuk proyek Anda, seperti “ExcelDataImport”.
 
@@ -52,7 +54,7 @@ Untuk menambahkan paket Aspose.Cells, klik kanan pada proyek Anda di Solution Ex
 
 ## Langkah 2: Tentukan Tabel Data
 
- Selanjutnya, kita akan mengimplementasikan`ICellsDataTable` antarmuka untuk membuat kelas yang menyediakan data yang akan diimpor. Berikut cara Anda dapat menyusun`CellsDataTable` kelas:
+Selanjutnya, kita akan mengimplementasikan `ICellsDataTable` antarmuka untuk membuat kelas yang menyediakan data yang akan diimpor. Berikut cara Anda dapat menyusun `CellsDataTable` osztály:
 
 ```csharp
 class CellsDataTable : ICellsDataTable
@@ -73,7 +75,7 @@ Di sini, kami mendefinisikan nama kolom dan data untuk setiap kolom, yang akan m
 
 ## Langkah 3: Menerapkan Anggota Antarmuka ICellsDataTable
 
- Dalam`CellsDataTable` kelas, Anda perlu mengimplementasikan anggota`ICellsDataTable` antarmuka. Berikut implementasi yang dibutuhkan:
+Dalam `CellsDataTable` kelas, Anda perlu mengimplementasikan anggota `ICellsDataTable` antarmuka. Berikut implementasi yang dibutuhkan:
 
 ```csharp
 public object this[string columnName]
@@ -118,7 +120,7 @@ Bagian kelas ini menangani pengambilan data, menentukan berapa banyak baris dan 
 
 ## Langkah 4: Tulis Fungsi Utama
 
- Sekarang, mari kita buat`Run`metode untuk mengatur seluruh proses impor tabel:
+Sekarang, mari kita buat `Run` metode untuk mengatur seluruh proses impor tabel:
 
 ```csharp
 public static void Run()
@@ -133,7 +135,7 @@ public static void Run()
 
 ## Langkah 5: Tetapkan Opsi Impor
 
- Untuk mengontrol perilaku impor, Anda harus membuat contoh`ImportTableOptions` dan mengatur propertinya sesuai dengan itu. Secara khusus, kami ingin mengatur`ShiftFirstRowDown` ke`false`.
+Untuk mengontrol perilaku impor, Anda harus membuat contoh `ImportTableOptions` dan mengatur propertinya sesuai dengan itu. Secara khusus, kami ingin mengatur `ShiftFirstRowDown` hogy `false`.
 
 ```csharp
     ImportTableOptions opts = new ImportTableOptions();
@@ -142,7 +144,7 @@ public static void Run()
 
 ## Langkah 6: Impor DataTable
 
- Sekarang kita dapat mengimpor data dari`CellsDataTable` ke dalam lembar kerja.
+Sekarang kita dapat mengimpor data dari `CellsDataTable` ke dalam lembar kerja.
 
 ```csharp
     ws.Cells.ImportData(cellsDataTable, 2, 2, opts);
@@ -151,7 +153,7 @@ public static void Run()
 
 Perintah ini akan langsung memasukkan tabel data Anda mulai dari baris dan kolom yang ditentukan.
 
-## Langkah 7: Simpan Buku Kerja
+## 7. lépés: A munkafüzet mentése
 
 Terakhir, kita akan menyimpan buku kerja yang dimodifikasi kembali ke sebuah file:
 
@@ -160,16 +162,16 @@ Terakhir, kita akan menyimpan buku kerja yang dimodifikasi kembali ke sebuah fil
 }
 ```
 
-## Kesimpulan
+## Következtetés
 
-Nah, itu dia! Anda telah mempelajari cara menyisipkan baris DataTable ke dalam lembar Excel tanpa memindahkan baris pertama menggunakan Aspose.Cells for .NET. Proses ini tidak hanya menyederhanakan manipulasi data dalam Excel, tetapi juga meningkatkan kinerja aplikasi Anda dengan mengotomatiskan tugas yang biasanya merepotkan. Dengan pengetahuan ini di perangkat Anda, Anda lebih siap untuk menangani tugas otomatisasi Excel, sehingga menghemat waktu dan tenaga Anda.
+Nah, itu dia! Anda telah mempelajari cara menyisipkan baris DataTable ke dalam lembar Excel tanpa memindahkan baris pertama menggunakan Aspose.Cells for .NET. Proses ini tidak hanya menyederhanakan manipulasi data dalam Excel, tetapi juga meningkatkan kinerja aplikasi Anda dengan mengotomatiskan tugas yang biasanya merepotkan. Dengan pengetahuan ini di perangkat Anda, Anda akan lebih siap untuk menangani tugas otomatisasi Excel, sehingga menghemat waktu dan tenaga Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells untuk .NET?
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells untuk .NET adalah pustaka pemrograman yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel dalam aplikasi .NET.
 
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
+### Szükségem van licencre az Aspose.Cells használatához?
 Ya, Anda memerlukan lisensi yang valid untuk mendapatkan fitur lengkap. Namun, uji coba gratis tersedia untuk pengujian awal.
 
 ### Dapatkah saya menggunakan Aspose.Cells di aplikasi web?
@@ -178,11 +180,13 @@ Tentu saja! Aspose.Cells sangat cocok untuk aplikasi berbasis desktop, web, dan 
 ### Jenis file Excel apa yang dapat saya buat dengan Aspose.Cells?
 Anda dapat membuat berbagai format file Excel, termasuk XLSX, XLS, CSV, dan banyak lagi.
 
-### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat mengajukan pertanyaan atau mencari bantuan di[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hol kaphatok támogatást az Aspose.Cells-hez?
+Anda dapat mengajukan pertanyaan atau mencari bantuan di [Aspose fórumok](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

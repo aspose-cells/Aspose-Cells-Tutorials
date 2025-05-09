@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/set-chart-lines/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Chart Lines
@@ -205,6 +207,7 @@ You can apply for a [temporary license](https://purchase.aspose.com/temporary-li
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

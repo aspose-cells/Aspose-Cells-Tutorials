@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ Bu eğitimde, Java için Aspose.Cells kullanarak hücre dizinlerini adlara nası
    - Verilerinizin Excel'in maksimum sınırlarını aşmadığından emin olun veya bu gibi durumları yönetmek için özel mantık kullanın.
 3. **Aspose.Cells'i diğer Java kütüphaneleriyle nasıl entegre edebilirim?**
    - Birden fazla kütüphaneyi sorunsuz bir şekilde dahil etmek için Maven veya Gradle gibi standart Java bağımlılık yönetimi araçlarını kullanın.
-4. **Aspose.Cells büyük dosyaları etkin bir şekilde işleyebilir mi?**
+4. **Aspose.Cells büyük dosyaları verimli bir şekilde işleyebilir mi?**
    - Evet, özellikle büyük veri kümelerini işlemek için tasarlanmış akış API'lerini kullanırken.
 5. **Sorunla karşılaşırsam destek alabileceğim bir yer var mı?**
    - Aspose bir teklif sunuyor [destek forumu](https://forum.aspose.com/c/cells/9) Sorularınızı sorabileceğiniz ve topluluktan yardım alabileceğiniz bir yer.
@@ -146,6 +148,9 @@ Bu eğitimde, Java için Aspose.Cells kullanarak hücre dizinlerini adlara nası
 Bu kaynakları keşfetmekten ve Aspose.Cells for Java hakkındaki yeni bilginizi denemekten çekinmeyin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

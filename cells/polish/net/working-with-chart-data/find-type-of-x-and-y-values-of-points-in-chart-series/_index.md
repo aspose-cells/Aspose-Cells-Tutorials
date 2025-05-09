@@ -1,14 +1,16 @@
 ---
-title: Znajdź typ wartości X i Y punktów w serii wykresów
-linktitle: Znajdź typ wartości X i Y punktów w serii wykresów
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się znajdować typy wartości X i Y w seriach wykresów za pomocą Aspose.Cells dla platformy .NET dzięki temu szczegółowemu, łatwemu w użyciu przewodnikowi.
-weight: 11
-url: /pl/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Naucz się znajdować typy wartości X i Y w seriach wykresów za pomocą Aspose.Cells dla platformy .NET dzięki temu szczegółowemu, łatwemu w użyciu przewodnikowi."
+"linktitle": "Znajdź typ wartości X i Y punktów w serii wykresów"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Znajdź typ wartości X i Y punktów w serii wykresów"
+"url": "/pl/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znajdź typ wartości X i Y punktów w serii wykresów
@@ -23,9 +25,9 @@ Zanim przejdziesz do dalszych kroków, upewnij się, że masz przygotowane kilka
 
 1. Środowisko .NET: Powinieneś mieć skonfigurowane środowisko programistyczne .NET. Może to być Visual Studio, Visual Studio Code lub inne zgodne IDE.
    
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony [Tutaj](https://releases.aspose.com/cells/net/).
 
-3.  Przykładowy plik Excela: Pobierz przykładowy plik Excela zawierający wykresy. W tym samouczku użyjemy pliku o nazwie`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Upewnij się, że znajduje się on w katalogu Twojego projektu.
+3. Przykładowy plik Excela: Pobierz przykładowy plik Excela zawierający wykresy. W tym samouczku użyjemy pliku o nazwie `sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`. Upewnij się, że znajduje się on w katalogu Twojego projektu.
 
 4. Podstawowa wiedza programistyczna: Znajomość programowania w języku C# pomoże Ci z łatwością nadążać za nauką.
 
@@ -50,7 +52,7 @@ using System.Text;
 using Aspose.Cells.Charts;
 ```
 
-Te przestrzenie nazw zapewniają dostęp do skoroszytu, arkuszy kalkulacyjnych i funkcji wykresów Aspose.Cells.
+Te przestrzenie nazw zapewniają dostęp do skoroszytu, arkuszy i funkcji wykresów Aspose.Cells.
 
 Teraz rozłóżmy proces określania typów wartości X i Y w serii wykresów. Oto jak możesz to zrobić krok po kroku.
 
@@ -62,11 +64,11 @@ Najpierw musisz zdefiniować katalog, w którym znajduje się plik Excel. Ustaw 
 string sourceDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` ze ścieżką, pod którą zapisany jest plik Excel.
+Zastępować `"Your Document Directory"` ze ścieżką, pod którą zapisany jest plik Excel.
 
 ## Krok 2: Załaduj skoroszyt
 
- Następnie załaduj plik Excel do`Workbook` obiekt. Pozwala to na dostęp do całej zawartości pliku.
+Następnie załaduj plik Excel do `Workbook` obiekt. Pozwala to na dostęp do całej zawartości pliku.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
@@ -131,19 +133,21 @@ Dzięki temu przewodnikowi powinieneś być w stanie pomyślnie pobrać i zident
 Aspose.Cells to biblioteka .NET umożliwiająca programistom zarządzanie i manipulowanie plikami programu Excel bez konieczności instalowania programu Microsoft Excel.
 
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, Aspose oferuje bezpłatny okres próbny, podczas którego możesz zapoznać się z funkcjami Aspose.Cells.
+Tak, Aspose oferuje bezpłatny okres próbny, podczas którego można zapoznać się z funkcjami Aspose.Cells.
 
 ### Jakie typy wykresów mogę tworzyć za pomocą Aspose.Cells?
 Aspose.Cells obsługuje różne typy wykresów, w tym kolumnowe, słupkowe, liniowe, kołowe i inne.
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Dostęp do pomocy technicznej można uzyskać za pośrednictwem[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Dostęp do pomocy technicznej można uzyskać za pośrednictwem [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Czy jest dostępna tymczasowa licencja na Aspose.Cells?
- Tak, możesz poprosić o[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby móc swobodnie ocenić produkt.
+Tak, możesz poprosić o [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) aby swobodnie ocenić produkt.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

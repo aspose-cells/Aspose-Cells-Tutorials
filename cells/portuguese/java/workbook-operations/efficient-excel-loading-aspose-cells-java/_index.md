@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Processar arquivos complexos do Excel pode ser desafiador, especialmente quando você precisa se concentrar nos dados e ignorar elementos não essenciais, como gráficos. Este guia completo demonstra como usar **Aspose.Cells para Java** para carregar um arquivo do Excel e filtrar gráficos com eficiência. Ao final deste tutorial, você aprenderá a personalizar as opções de carregamento com o Aspose.Cells para melhorar o desempenho e gerenciar arquivos grandes ou tarefas específicas de processamento de dados.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando seu ambiente com Aspose.Cells para Java.
 - Técnicas para excluir elementos não relacionados a dados, como gráficos, ao carregar arquivos do Excel.
 - Melhores práticas para otimizar o desempenho e gerenciar a memória de forma eficaz.
@@ -156,6 +158,9 @@ Aproveite o poder do Aspose.Cells para Java para agilizar suas tarefas de proces
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-themes-and-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Themes and Formatting
@@ -36,9 +38,11 @@ Learn how to customize Excel themes programmatically using Aspose.Cells for .NET
 Learn how to get and set theme colors in Excel using Aspose.Cells for .NET with this easy-to-follow tutorial. Complete step-by-step guide and code examples included.
 ### [Utilizing Theme Colors in Excel Programmatically](./utilizing-theme-colors/)
 Learn how to apply theme colors in Excel programmatically using Aspose.Cells for .NET. Follow our detailed guide with code examples and step-by-step instructions.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

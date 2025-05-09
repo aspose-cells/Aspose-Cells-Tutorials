@@ -1,14 +1,16 @@
 ---
-title: การกำหนดรูปแบบตามโปรแกรมใน Excel
-linktitle: การกำหนดรูปแบบตามโปรแกรมใน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการตั้งค่ารูปแบบโดยโปรแกรมใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
-weight: 12
-url: /th/net/excel-borders-and-formatting-options/setting-pattern/
+"description": "เรียนรู้วิธีการตั้งค่ารูปแบบโดยโปรแกรมใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้"
+"linktitle": "การกำหนดรูปแบบตามโปรแกรมใน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การกำหนดรูปแบบตามโปรแกรมใน Excel"
+"url": "/th/net/excel-borders-and-formatting-options/setting-pattern/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การกำหนดรูปแบบตามโปรแกรมใน Excel
@@ -18,12 +20,12 @@ url: /th/net/excel-borders-and-formatting-options/setting-pattern/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่มออกเดินทาง เรามาแน่ใจก่อนว่าคุณมีทุกสิ่งที่จำเป็นต่อความสำเร็จ:
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว เพราะนี่คือจุดที่ความมหัศจรรย์จะเกิดขึ้น!
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องตั้งค่าไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องตั้งค่าไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะช่วยให้คุณนำทางผ่านโค้ดได้อย่างราบรื่น
 4. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณกำลังใช้ .NET Framework เวอร์ชันที่เข้ากันได้ซึ่งรองรับ Aspose.Cells
 เมื่อคุณได้ตรวจสอบข้อกำหนดเบื้องต้นเหล่านี้แล้ว คุณก็พร้อมที่จะก้าวไปข้างหน้า!
 ## แพ็คเกจนำเข้า
-ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซ Aspose.Cells ที่จำเป็นลงในโปรเจ็กต์ของคุณ โดยดำเนินการได้ดังนี้:
+ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซ Aspose.Cells ที่จำเป็นลงในโปรเจ็กต์ของคุณ โดยดำเนินการดังนี้:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -36,7 +38,7 @@ using System.Drawing;
 2. เพิ่มการอ้างอิง Aspose.Cells: คลิกขวาที่โปรเจ็กต์ของคุณใน Solution Explorer เลือก “จัดการแพ็คเกจ NuGet” และค้นหา Aspose.Cells ติดตั้งเวอร์ชันล่าสุด
 ตอนนี้คุณก็พร้อมที่จะเขียนโค้ดแล้ว!
 ## ขั้นตอนที่ 2: เริ่มต้นเวิร์กบุ๊ก
- ขั้นตอนแรกในการสร้างไฟล์ Excel ของเราคือการเริ่มต้น`Workbook` วัตถุ วัตถุนี้จะแสดงถึงเวิร์กบุ๊ก Excel ของคุณ
+ขั้นตอนแรกในการสร้างไฟล์ Excel ของเราคือการเริ่มต้น `Workbook` วัตถุ วัตถุนี้จะแสดงถึงเวิร์กบุ๊ก Excel ของคุณ
 ```csharp
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory";
@@ -44,7 +46,7 @@ string dataDir = "Your Document Directory";
 Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
- ในสคริปท์นี้ ให้แทนที่`"Your Document Directory"` ด้วยเส้นทางที่คุณต้องการบันทึกไฟล์ Excel ของคุณ`Workbook` วัตถุถูกสร้างขึ้นแล้ว และเราอ้างอิงเวิร์กชีตแรกซึ่งจะเป็นสนามเด็กเล่นของเรา
+ในสคริปท์นี้ ให้แทนที่ `"Your Document Directory"` ด้วยเส้นทางที่คุณต้องการบันทึกไฟล์ Excel ของคุณ `Workbook` วัตถุถูกสร้างขึ้นแล้ว และเราอ้างอิงเวิร์กชีตแรกซึ่งจะเป็นสนามเด็กเล่นของเรา
 ## ขั้นตอนที่ 3: เพิ่มการจัดรูปแบบตามเงื่อนไข
 ตอนนี้ มาเพิ่มความเก๋ไก๋ให้กับเวิร์กชีตของเราด้วยการใช้การจัดรูปแบบตามเงื่อนไข วิธีนี้ช่วยให้เราเปลี่ยนรูปลักษณ์ของเซลล์ตามค่าต่างๆ ได้
 ```csharp
@@ -93,16 +95,18 @@ workbook.Save(dataDir + "output.xlsx");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารีอันทรงพลังสำหรับ .NET ที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ได้โดยไม่ต้องติดตั้ง Microsoft Excel
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่ Aspose.Cells เสนอการทดลองใช้ฟรี ช่วยให้คุณสำรวจฟีเจอร์ต่างๆ ของมันได้ ลองดูสิ[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose.Cells เสนอการทดลองใช้ฟรี ช่วยให้คุณสำรวจฟีเจอร์ต่างๆ ของมันได้ ลองดูสิ [ที่นี่](https://releases-aspose.com/).
 ### ฉันสามารถสร้างไฟล์ Excel ประเภทใดได้บ้าง?
 คุณสามารถสร้างและจัดการรูปแบบ Excel ต่างๆ รวมถึง XLS, XLSX, CSV และอื่นๆ โดยใช้ Aspose.Cells
 ### มีวิธีรับการสนับสนุนสำหรับ Aspose.Cells หรือไม่
- แน่นอน! หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้[ที่นี่](https://forum.aspose.com/c/cells/9).
+แน่นอน! หากคุณประสบปัญหาใดๆ คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/cells/9).
 ### ฉันจะนำรูปแบบที่แตกต่างกันไปใช้กับช่วงเซลล์ต่างๆ ได้อย่างไร
- คุณสามารถกำหนดได้หลาย`CellArea` วัตถุและใช้กฎการจัดรูปแบบตามเงื่อนไขและรูปแบบที่แตกต่างกันไปในแต่ละพื้นที่ตามความจำเป็น
+คุณสามารถกำหนดได้หลาย `CellArea` วัตถุและใช้กฎการจัดรูปแบบตามเงื่อนไขและรูปแบบที่แตกต่างกันไปในแต่ละพื้นที่ตามความจำเป็น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

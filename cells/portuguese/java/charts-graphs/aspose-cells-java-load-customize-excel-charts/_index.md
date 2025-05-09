@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ A integração com outros sistemas, como bancos de dados ou software de CRM, pod
 ## Considerações de desempenho
 
 Para garantir o desempenho ideal ao trabalhar com Aspose.Cells:
-- **Otimize o uso da memória**: Esteja atento ao consumo de memória, especialmente ao processar arquivos grandes do Excel.
+- **Otimizar o uso da memória**: Esteja atento ao consumo de memória, especialmente ao processar arquivos grandes do Excel.
 - **Tratamento eficiente de dados**: Atualize apenas os gráficos necessários para minimizar o tempo de processamento.
 - **Melhores práticas do Java**: Siga as práticas padrão do Java para gerenciamento de recursos e coleta de lixo.
 
@@ -196,6 +198,9 @@ Ao seguir este tutorial, você deu um passo significativo rumo ao uso do Aspose.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

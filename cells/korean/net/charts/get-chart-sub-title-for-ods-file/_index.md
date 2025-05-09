@@ -1,27 +1,30 @@
 ---
-title: ODS 파일에서 Chart Subtitle를 .NET에 Aspose.Cells를 사용하여 얻으십시오
-weight: 7700
-limit: 
-description: ODS 파일을 로드하고 차트에 액세스하고 .NET에 대한 Aspose.Cells를 사용하여 자막을 검색하는 방법을 배우십시오. 단계별 지침으로 간단하고 효율적인 예제.
-keywords: [Aspose.Cells for .NET, Load ODS File, Get Chart Subtitle, Access Chart in Excel, Retrieve Chart Data, Read ODS File, C# Excel Charts, .NET Spreadsheet API]
-url: /ko/net/charts/get-chart-sub-title-for-ods-file/
+"description": "Aspose.Cells for .NET을 사용하여 ODS 파일을 로드하고, 차트에 접근하고, 자막을 가져오는 방법을 알아보세요. 단계별 안내가 포함된 간단하고 효율적인 예제입니다."
+"title": "Aspose.Cells for .NET을 사용하여 ODS 파일에서 차트 자막 가져오기"
+"url": "/ko/net/charts/get-chart-sub-title-for-ods-file/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ODS 파일에서 Aspose.Cells을 사용하여 차트 자막을 얻으십시오  
-이 예제에서는 .NET에 대한 Aspose.Cells를 사용하여 ODS 파일을 로드하고, 워크시트 내 특정 차트에 액세스하고 자막을 검색하는 방법을 보여줍니다. 이 지침을 따라 개발자는 C#를 사용하여 ODS 스프레드시트에서 효율적으로 차트 정보를 읽고 추출 할 수 있습니다. 예제는 Excel 파일의 차트와 작업하는 명확하고 단계별 접근 방식을 제공합니다.  
+# Aspose.Cells를 사용하여 ODS 파일에서 차트 자막 가져오기  
+이 예제는 Aspose.Cells for .NET을 사용하여 ODS 파일을 로드하고, 워크시트 내의 특정 차트에 접근하고, 해당 차트의 부제를 가져오는 방법을 보여줍니다. 이 가이드를 따라 하면 개발자는 C#을 사용하여 ODS 스프레드시트에서 차트 정보를 효율적으로 읽고 추출할 수 있습니다. 이 예제는 Excel 파일에서 차트를 작업하는 명확한 단계별 접근 방식을 제공하여 .NET 애플리케이션에서 원활하게 구현할 수 있도록 보장합니다.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/get-chart-sub-title-for-ods-file" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 설치 지침:  
-이 예 를 사용 하기 위해 다음 단계 를 따르십시오.  
+이 예를 사용하려면 다음 단계를 따르세요.  
 
-1. NuGet를 통해 .NET에 Aspose.Cells를 설치합니다.  
+1. NuGet을 통해 Aspose.Cells for .NET을 설치하세요:  
    ```shell
    Install-Package Aspose.Cells
    ```  
@@ -32,14 +35,16 @@ url: /ko/net/charts/get-chart-sub-title-for-ods-file/
    ```  
 3. 제공된 코드를 실행하여 ODS 파일을 로드하고, 차트에 액세스하고, 콘솔에 자막을 인쇄합니다.  
 
-## 또한 참조
-무료 체험을 받으려면 방문하세요[자유 로 시험 을 목표로 하라](https://releases.aspose.com/)\- 그래  
-라이선스를 구매하려면[구매 페이지를 설정](https://purchase.aspose.com/buy)\- 그래  
-전체 문서 를 보기 위해 방문 하십시오 [.NET 문서에 대한 Aspose.Cells](https://docs.aspose.com/cells/net/)\- 그래  
-전체 API 참조를 확인하려면 확인합니다 [.NET API 참조의 Aspose.Cells](https://reference.aspose.com/cells/net/)\- 그래 
+## 또한 참조하세요
+무료 체험판을 원하시면 방문하세요 [Aspose 무료 체험판](https://releases.aspose.com/).  
+라이센스를 구매하려면 다음으로 이동하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).  
+전체 문서는 다음을 방문하세요. [.NET용 Aspose.Cells 문서](https://docs.aspose.com/cells/net/).  
+전체 API 참조를 살펴보려면 다음을 확인하세요. [.NET API 참조용 Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

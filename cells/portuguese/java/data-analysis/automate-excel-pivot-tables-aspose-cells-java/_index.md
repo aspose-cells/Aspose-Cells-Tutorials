@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get(0); // Acesse a primeira 
 ```
 #### Explicação
 - `getPivotTables().get(0)` busca a primeira tabela dinâmica da coleção de tabelas dinâmicas na planilha.
-##### Etapa 2: recuperar o nome de exibição
+##### Etapa 2: recuperar nome de exibição
 ```java
 String displayName = pivotTable.getDataFields().get(1).getDisplayName();
 ```
@@ -177,6 +179,9 @@ Pronto para experimentar? Mergulhe no [Documentação do Aspose.Cells](https://r
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

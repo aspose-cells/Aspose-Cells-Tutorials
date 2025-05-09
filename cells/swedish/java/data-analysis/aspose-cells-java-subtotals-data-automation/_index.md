@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ worksheet.getCells().subtotal(ca, 0, ConsolidationFunction.SUM, new int[]{1}, tr
   - **Konsolideringsfunktion.SUMMA**Använd summa som konsolideringsfunktion.
   - **nytt int[]{1}**Anger vilka kolumner som ska delsummeras, här är det den andra kolumnen (B).
   - **sant, falskt, sant**Alternativ för dispositionsnivåer och synlighet.
-#### Steg 5: Ange riktning för översiktssammanfattning
+#### Steg 5: Ange riktning för översiktssammanfattningen
 Bestäm var sammanfattningsraderna ska visas:
 ```java
 worksheet.getOutline().setSummaryRowBelow(true);
@@ -150,6 +152,9 @@ Se till att cellområdet är korrekt definierat och att du har sparat arbetsboke
 - **Stöd**: [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

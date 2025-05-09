@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Các bước tiếp theo bao gồm thử nghiệm với các loại tệp khác 
 Bằng cách làm theo hướng dẫn này, giờ đây bạn đã có thể triển khai tính năng phát hiện định dạng tệp cho các tệp được mã hóa bằng Aspose.Cells trong Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

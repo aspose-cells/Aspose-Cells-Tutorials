@@ -8,7 +8,9 @@ url: /net/saving-files-in-different-formats/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Files in Different Formats
@@ -60,9 +62,11 @@ Learn how to effortlessly convert Excel workbooks to CSV format with Aspose.Cell
 Learn how to save XLS files easily using Aspose.Cells for .NET. Step-by-step guide with practical examples and FAQs included.
 ### [Save XLSX File](./save-xlsx-file/)
 Discover how to save XLSX files using Aspose.Cells for .NET with this step-by-step guide. Streamline your Excel management effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menambahkan Kotak Centang di Excel menggunakan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Mengotomatiskan proses penambahan kotak centang ke dalam lembar kerja Excel dapat menghemat waktu dan meningkatkan produktivitas. Dengan Aspose.Cells untuk Java, mengintegrasikan fungsi ini ke dalam aplikasi Anda menjadi mudah. Tutorial ini memandu Anda membuat buku kerja Excel, memasukkan kontrol kotak centang, menautkannya ke sel, dan menyimpan file—semuanya menggunakan Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java
 - Membuat buku kerja dan lembar kerja Excel baru
 - Menambahkan kotak centang ke lokasi tertentu di lembar kerja Anda
@@ -26,18 +28,18 @@ Mengotomatiskan proses penambahan kotak centang ke dalam lembar kerja Excel dapa
 
 Siap mengotomatiskan tugas Excel Anda? Mari kita mulai dengan memastikan Anda memiliki semua yang dibutuhkan.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java**Pastikan versi 25.3 dari pustaka ini terinstal.
 - **Kit Pengembangan Java (JDK)**: JDK harus diinstal pada sistem Anda untuk menjalankan aplikasi Java.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Siapkan IDE seperti IntelliJ IDEA atau Eclipse yang mendukung Maven atau Gradle untuk manajemen ketergantungan.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan skrip build XML dan Gradle akan memberikan manfaat.
 
@@ -46,7 +48,7 @@ Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
 Untuk mulai menggunakan Aspose.Cells untuk Java, tambahkan pustaka ke proyek Anda. Anda dapat melakukannya menggunakan Maven atau Gradle:
 
 ### Pakar
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -56,24 +58,24 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Unduh uji coba gratis dari [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Minta lisensi sementara melalui [Halaman Pembelian](https://purchase.aspose.com/temporary-license/) untuk evaluasi lebih lanjut.
-- **Pembelian**:Untuk fitur lengkap, pertimbangkan untuk membeli lisensi melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**Töltsön le egy ingyenes próbaverziót innen: [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Ideiglenes engedély igénylése a következőn keresztül: [Vásárlási oldal](https://purchase.aspose.com/temporary-license/) hosszabb értékeléshez.
+- **Vásárlás**:Untuk fitur lengkap, pertimbangkan untuk membeli lisensi melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 Pastikan proyek Anda dikonfigurasi dengan benar dengan Aspose.Cells. Berikut contoh pengaturan cepatnya:
 ```java
 import com.aspose.cells.Workbook;
 
 public class Main {
     public static void main(String[] args) {
-        // Inisialisasi contoh Buku Kerja baru.
+        // Új munkafüzet-példány inicializálása.
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java is set up and ready to use!");
@@ -81,21 +83,21 @@ public class Main {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Pembuatan Buku Kerja dan Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini menunjukkan cara membuat buku kerja Excel baru dan mengakses lembar kerja pertamanya, menyiapkan tahapan sebelum menambahkan kontrol apa pun.
 
-##### Langkah 1: Buat Buku Kerja Baru
+##### 1. lépés: Új munkafüzet létrehozása
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Buat buku kerja baru.
+        // Hozz létre egy új munkafüzetet.
         Workbook workbook = new Workbook();
         
         // Akses lembar kerja pertama.
@@ -108,7 +110,7 @@ public class Main {
 
 ### Fitur 2: Menambahkan Kontrol Kotak Centang
 
-#### Ringkasan
+#### Áttekintés
 Pelajari cara menambahkan kontrol kotak centang interaktif ke lembar Excel Anda, yang memungkinkan pengguna untuk dengan mudah memilih atau membatalkan pilihan opsi.
 
 ##### Langkah 1: Tambahkan Kotak Centang ke Lembar Kerja
@@ -135,7 +137,7 @@ public class Main {
 
 ### Fitur 3: Menghubungkan Sel ke Kotak Centang
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini menggambarkan penautan sel Excel ke kotak centang, yang memungkinkan status kotak centang mengendalikan atau mencerminkan nilai sel tersebut.
 
 ##### Langkah 1: Hubungkan Kotak Centang ke Sel Tertentu
@@ -162,10 +164,10 @@ public class Main {
 
 ### Fitur 4: Menyimpan Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 Pelajari cara menyimpan buku kerja Anda dengan semua modifikasi, termasuk kotak centang yang baru ditambahkan dan tautannya.
 
-##### Langkah 1: Simpan Buku Kerja
+##### 1. lépés: A munkafüzet mentése
 ```java
 import com.aspose.cells.SaveFormat;
 
@@ -184,31 +186,31 @@ public class Main {
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Formulir Survei**: Buat formulir survei interaktif tempat responden dapat memilih opsi menggunakan kotak centang.
 2. **Daftar Tugas**: Otomatisasi pembuatan daftar tugas dengan kotak centang untuk melacak status penyelesaian.
 3. **Pengumpulan Data**:Integrasikan ke dalam sistem pengumpulan data untuk memudahkan input jawaban ya/tidak.
-4. **Manajemen Inventaris**: Hubungkan item inventaris ke status kotak centang untuk pembaruan cepat tentang ketersediaan.
+4. **Készletgazdálkodás**: Hubungkan item inventaris ke status kotak centang untuk pembaruan cepat tentang ketersediaan.
 5. **Proses Persetujuan**: Gunakan kotak centang tertaut dalam alur kerja persetujuan, di mana nilai sel dapat mengontrol langkah selanjutnya.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 - **Mengoptimalkan Ukuran Buku Kerja**: Minimalkan kontrol dan gaya untuk menjaga buku kerja Anda tetap ringan.
-- **Manajemen Memori**: Buang objek saat tidak lagi diperlukan untuk mengosongkan sumber daya memori.
-- **Penanganan Data yang Efisien**: Gunakan operasi massal alih-alih menangani data sel per sel jika memungkinkan.
+- **Memóriakezelés**: Buang objek saat tidak lagi diperlukan untuk mengosongkan sumber daya memori.
+- **Hatékony adatkezelés**: Gunakan operasi massal alih-alih menangani data sel per sel jika memungkinkan.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara menggunakan Aspose.Cells untuk Java untuk menambahkan dan menautkan kotak centang di lembar kerja Excel secara efektif. Ini membuka kemungkinan untuk mengotomatiskan tugas-tugas yang jika tidak demikian akan membosankan atau rentan terhadap kesalahan manusia.
 
-### Langkah Berikutnya
+### Következő lépések
 - Jelajahi fitur Aspose.Cells lainnya, seperti pembuatan bagan dan analisis data.
 - Integrasikan fungsi ini ke dalam aplikasi atau alur kerja yang lebih besar yang Anda kelola.
 
 Kami mendorong Anda untuk menerapkan solusi ini dalam proyek Anda. Selamat membuat kode!
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara menangani beberapa kotak centang?**
 - Tambahkan beberapa kotak centang dengan memanggil `add` metode dengan posisi berbeda untuk setiap kotak centang, lalu mengelolanya melalui indeksnya.
@@ -223,6 +225,9 @@ Kami mendorong Anda untuk menerapkan solusi ini dalam proyek Anda. Selamat membu
 - Pastikan izin yang tepat dan pertimbangkan untuk mengunci sel tertentu untuk mencegah perubahan yang tidak diinginkan saat menggunakan kotak centang di lingkungan bersama.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

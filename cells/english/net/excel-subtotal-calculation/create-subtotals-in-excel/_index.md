@@ -8,7 +8,9 @@ url: /net/excel-subtotal-calculation/create-subtotals-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Subtotals in Excel
@@ -92,6 +94,7 @@ For any issues, you can visit the [Aspose support forum](https://forum.aspose.co
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

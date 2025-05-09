@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Comece carregando uma pasta de trabalho do Excel para acessar e manipular seus d
 
 **Passos:**
 
-#### Etapa 1: instanciar um objeto de pasta de trabalho
+#### Etapa 1: Instanciar um objeto de pasta de trabalho
 Inicializar o `Workbook` classe com o caminho do seu arquivo Excel:
 
 ```java
@@ -208,6 +210,9 @@ R: Sim, ele suporta várias versões do JDK; garanta a compatibilidade verifican
 Comece a aproveitar o poder do Aspose.Cells para Java para aprimorar suas tarefas de manipulação de dados do Excel hoje mesmo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

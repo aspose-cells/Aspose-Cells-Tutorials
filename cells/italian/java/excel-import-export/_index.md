@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importazione ed esportazione Excel
@@ -20,7 +22,7 @@ Nel mondo della manipolazione dei dati, la capacità di importare ed esportare f
 
 ## Tutorial passo passo per sviluppatori Java:
 
-I nostri tutorial completi ti guideranno attraverso il complesso processo di importazione ed esportazione in Excel utilizzando Aspose.Cells per Java. Che tu sia un principiante o uno sviluppatore Java esperto, le nostre guide passo passo sono progettate per garantirti l'acquisizione delle competenze essenziali. Imparerai come importare dati in modo efficiente in file Excel ed esportarli dalle cartelle di lavoro Excel con precisione e facilità.
+nostri tutorial completi ti guideranno attraverso il complesso processo di importazione ed esportazione in Excel utilizzando Aspose.Cells per Java. Che tu sia un principiante o uno sviluppatore Java esperto, le nostre guide passo passo sono progettate per garantirti l'acquisizione delle competenze essenziali. Imparerai come importare dati in modo efficiente in file Excel ed esportarli dalle cartelle di lavoro Excel con precisione e facilità.
 
 ## Padroneggiare la gestione di Excel oggi:
 
@@ -45,9 +47,11 @@ Scopri come esportare dati Excel in JSON utilizzando Aspose.Cells per Java. Segu
 Scopri come implementare la convalida dei dati di importazione Excel utilizzando Aspose.Cells per Java con questa guida completa passo passo. Garantisci l'accuratezza dei dati e migliora l'esperienza utente. 
 ### [Esporta Excel in HTML Java](./export-excel-to-html-java/)
 Scopri come esportare Excel in HTML in Java utilizzando Aspose.Cells per Java. Segui questa guida passo passo con codice sorgente per convertire i tuoi file Excel in HTML senza problemi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

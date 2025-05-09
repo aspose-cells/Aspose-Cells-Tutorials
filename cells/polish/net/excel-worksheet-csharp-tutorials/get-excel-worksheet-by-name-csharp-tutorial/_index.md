@@ -1,14 +1,16 @@
 ---
-title: Pobierz arkusz kalkulacyjny Excel według nazwy Samouczek C#
-linktitle: Pobierz arkusz kalkulacyjny Excel według nazwy
-second_title: Aspose.Cells dla .NET API Reference
-description: Uzyskaj dostęp do arkuszy kalkulacyjnych programu Excel według nazwy w języku C#, korzystając z instrukcji krok po kroku i korzystając z pakietu Aspose.Cells dla platformy .NET w celu zwiększenia wydajności kodu.
-weight: 50
-url: /pl/net/excel-worksheet-csharp-tutorials/get-excel-worksheet-by-name-csharp-tutorial/
+"description": "Uzyskaj dostęp do arkuszy kalkulacyjnych programu Excel według nazwy w języku C#, korzystając z instrukcji krok po kroku i korzystając z pakietu Aspose.Cells dla platformy .NET w celu zwiększenia wydajności kodu."
+"linktitle": "Pobierz arkusz kalkulacyjny Excel według nazwy"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Pobierz arkusz kalkulacyjny Excel według nazwy Samouczek C#"
+"url": "/pl/net/excel-worksheet-csharp-tutorials/get-excel-worksheet-by-name-csharp-tutorial/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz arkusz kalkulacyjny Excel według nazwy Samouczek C#
@@ -22,9 +24,9 @@ Praca z plikami Excela programowo może zaoszczędzić mnóstwo czasu i wysiłku
 Zanim przejdziemy do soczystych rzeczy, upewnijmy się, że jesteś przygotowany na sukces. Oto, czego potrzebujesz:
 
 1. Środowisko programistyczne .NET: Upewnij się, że masz gotowe środowisko programistyczne .NET. Możesz użyć Visual Studio lub dowolnego innego wybranego przez siebie środowiska IDE.
-2.  Biblioteka Aspose.Cells: Powinieneś mieć również zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, nie martw się! Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Powinieneś mieć również zainstalowaną bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, nie martw się! Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość podstaw programowania w języku C# pomoże Ci płynnie uczyć się języka.
-4. Plik Excela: Przygotuj plik Excela, z którym chcesz pracować. W naszym przykładzie użyjemy prostego pliku o nazwie`book1.xlsx` z co najmniej jednym arkuszem o nazwie „Arkusz1”.
+4. Plik Excela: Przygotuj plik Excela, z którym chcesz pracować. W naszym przykładzie użyjemy prostego pliku o nazwie `book1.xlsx` z co najmniej jednym arkuszem o nazwie „Arkusz1”.
 
 Teraz, gdy już wszystko jest gotowe, możemy przystąpić do działania!
 
@@ -38,7 +40,7 @@ using System.IO;
 using Aspose.Cells;
 ```
 
- Ten`Aspose.Cells` biblioteka zapewni wszystkie niezbędne funkcjonalności do obsługi plików Excel,`System.IO` umożliwi Ci obsługę strumieni plików.
+Ten `Aspose.Cells` biblioteka zapewni wszystkie niezbędne funkcjonalności do manipulowania plikami Excel, podczas gdy `System.IO` umożliwi Ci obsługę strumieni plików.
 
 Przejdźmy teraz do sedna tego samouczka. Podzielimy proces uzyskiwania dostępu do arkusza kalkulacyjnego według jego nazwy na jasne, łatwe do opanowania kroki.
 
@@ -51,7 +53,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY"; // Określ katalog dokumentów
 string InputPath = Path.Combine(dataDir, "book1.xlsx"); // Połącz, aby utworzyć pełną ścieżkę
 ```
 
- Tutaj zamień`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie, gdzie`book1.xlsx` jest przechowywany. Wykorzystując`Path.Combine`jest przydatny, ponieważ zapewnia, że ścieżka zostanie poprawnie skonstruowana w różnych systemach operacyjnych.
+Tutaj zamień `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką w Twoim systemie, gdzie `book1.xlsx` jest przechowywany. Wykorzystując `Path.Combine` jest przydatny, ponieważ zapewnia, że ścieżka zostanie poprawnie skonstruowana w różnych systemach operacyjnych.
 
 ## Krok 2: Utwórz strumień plików
 
@@ -61,11 +63,11 @@ Następnie musimy utworzyć strumień pliku. Ten strumień pozwoli nam odczytać
 FileStream fstream = new FileStream(InputPath, FileMode.Open);
 ```
 
- Ta linia kodu otwiera strumień do pliku w trybie odczytu. Jeśli`book1.xlsx` nie znajduje się w określonym katalogu, pojawi się błąd, więc upewnij się, że ścieżka do pliku jest prawidłowa.
+Ta linia kodu otwiera strumień do pliku w trybie odczytu. Jeśli `book1.xlsx` nie znajduje się w określonym katalogu, pojawi się błąd, więc upewnij się, że ścieżka do pliku jest prawidłowa.
 
 ## Krok 3: Utwórz obiekt skoroszytu
 
- Gdy mamy strumień pliku, musimy utworzyć`Workbook` obiekt. Ten obiekt reprezentuje cały plik Excel i pozwoli nam uzyskać dostęp do jego arkuszy.
+Gdy mamy strumień pliku, musimy utworzyć `Workbook` obiekt. Ten obiekt reprezentuje cały plik Excel i pozwoli nam uzyskać dostęp do jego arkuszy.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -107,7 +109,7 @@ To prosty, ale kluczowy krok. Nieoczyszczenie zasobów może prowadzić do wycie
 ## Wniosek
 
 Udało Ci się! Dzięki temu prostemu samouczkowi nauczyłeś się, jak uzyskać dostęp do arkusza kalkulacyjnego Excel według jego nazwy, używając Aspose.Cells dla .NET. Niezależnie od tego, czy automatyzujesz generowanie raportów, czy po prostu pobierasz dane, te podstawy stanowią podstawę programowej pracy z plikami Excel.
- Pamiętaj, że praktyka czyni mistrza! Spróbuj zmodyfikować wartości w arkuszu kalkulacyjnym lub uzyskać dostęp do różnych arkuszy, aby rozwinąć swoje umiejętności. Nie wahaj się zagłębić w temat[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
+Pamiętaj, praktyka czyni mistrza! Spróbuj zmodyfikować wartości w arkuszu kalkulacyjnym lub uzyskać dostęp do różnych arkuszy, aby rozwinąć swoje umiejętności. Nie wahaj się zagłębić w temat [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
 
 ## Najczęściej zadawane pytania
 
@@ -115,19 +117,21 @@ Udało Ci się! Dzięki temu prostemu samouczkowi nauczyłeś się, jak uzyskać
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom programowe tworzenie, modyfikowanie i manipulowanie arkuszami kalkulacyjnymi programu Excel.
 
 ### Czy mogę uzyskać dostęp do wielu arkuszy w pliku Excel?
- Tak! Możesz uzyskać dostęp do wielu arkuszy, używając ich nazw za pomocą`workbook.Worksheets["SheetName"]` metoda.
+Tak! Możesz uzyskać dostęp do wielu arkuszy, używając ich nazw za pomocą `workbook.Worksheets["SheetName"]` metoda.
 
 ### Jakie formaty plików Excel obsługuje Aspose.Cells?
 Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i inne.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Chociaż jest[bezpłatny okres próbny](https://releases.aspose.com/) Jeśli jest dostępny, będziesz musiał kupić licencję, aby móc z niego korzystać bez ograniczeń.
+Chociaż jest [bezpłatny okres próbny](https://releases.aspose.com/) Jeśli jest dostępny, będziesz musiał kupić licencję, aby móc z niego korzystać bez ograniczeń.
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
-Możesz uzyskać wsparcie za ich pośrednictwem[forum wsparcia](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie za ich pośrednictwem [forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ cells.setRowHeight(1, 13);
 ```
 *Tại sao*: Điều chỉnh chiều cao hàng đảm bảo nội dung vừa vặn hoặc hấp dẫn về mặt thị giác.
 
-**4. Lưu Workbook đã sửa đổi**
+**4. Lưu sổ làm việc đã sửa đổi**
 
 Sau khi thực hiện thay đổi, hãy lưu sổ làm việc vào một tệp mới:
 
@@ -189,6 +191,9 @@ Bạn đã sẵn sàng thử chưa? Hãy áp dụng những gì bạn đã học
 - **Diễn đàn hỗ trợ**:Tham gia thảo luận và đặt câu hỏi trong [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

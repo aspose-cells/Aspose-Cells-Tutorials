@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Domine o layout da página e as configurações de impressão com nossos tutoriais detalhados do Aspose.Cells para cabeçalhos e rodapés em Java. Estes guias práticos demonstram como criar documentos profissionais do Excel prontos para impressão, configurando a orientação da página, margens, opções de escala e cabeçalhos e rodapés personalizados. Cada tutorial inclui exemplos práticos de código Java que mostram como implementar paginação e layout consistentes em várias planilhas, garantindo que suas planilhas tenham uma aparência perfeita tanto na tela quanto na impressão.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de cabeçalhos e rodapés
 - Implementação passo a passo com exemplos de código completos
@@ -102,6 +104,9 @@ Aprenda a definir e recuperar tamanhos de papel como A4, A3, A2 e Carta usando o
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

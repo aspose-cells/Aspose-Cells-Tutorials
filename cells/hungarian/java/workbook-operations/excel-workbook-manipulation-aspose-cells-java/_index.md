@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ try {
     e.printStackTrace();
 }
 ```
-- **`save`:** Visszaírja a változtatásokat egy fájlba.
+- **`save`:** Visszaírja a módosításokat egy fájlba.
 
 ## Gyakorlati alkalmazások
 
@@ -172,6 +174,9 @@ Ez az átfogó útmutató felvértezi Önt az Excel-fájlok hatékony kezelésé
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -45,7 +47,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Çevre Kurulum Gereksinimleri
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Kodunuzu yazmak ve test etmek için IntelliJ IDEA veya Eclipse gibi bir IDE.
 
 ### Bilgi Önkoşulları
@@ -96,7 +98,7 @@ Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 - **workbook.getWorksheets().add()**: Yeni bir çalışma sayfası ekler ve dizinini döndürür.
 - **çalışma sayfası**: Yeni eklenen çalışma sayfasıyla etkileşime girmenizi sağlar.
 
-### Hücrelerle Çalışma
+### Hücrelerle Çalışmak
 **Genel bakış**
 Excel dosyalarıyla uğraşırken hücre değerlerini düzenlemek temeldir. Burada, belirli bir hücreye veri ekleyeceğiz.
 ```java
@@ -166,6 +168,9 @@ Projelerinizde Aspose.Cells'in faydasını en üst düzeye çıkarmak ve anlayı
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

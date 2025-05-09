@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-08"
 "description": "Aspose.Cells for Java를 사용하여 Excel 주석의 텍스트 방향을 변경하는 방법을 알아보세요. 아랍어나 히브리어처럼 오른쪽에서 왼쪽으로 쓰는 언어를 통합하는 데 적합합니다."
-"title": "Java용 Aspose.Cells를 사용하여 Excel 주석 텍스트 방향 마스터하기"
+"title": "Aspose.Cells for Java를 사용하여 Excel 주석 텍스트 방향 마스터하기"
 "url": "/ko/java/comments-annotations/excel-comment-text-direction-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Java용 Aspose.Cells를 사용하여 Excel 주석 텍스트 방향 마스터하기
+# Aspose.Cells for Java를 사용하여 Excel 주석 텍스트 방향 마스터하기
 
 데이터 관리에서는 표현이 중요합니다. Excel 주석의 텍스트 방향을 변경하면 가독성을 높이고 다양한 언어적 배경에서 명확성을 확보할 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 주석 텍스트 방향을 조정하는 방법을 안내합니다. 아랍어나 히브리어처럼 오른쪽에서 왼쪽으로 쓰는 언어를 지원합니다.
 
@@ -155,6 +157,9 @@ Aspose.Cells와 Java를 사용할 때 다음 팁을 고려하세요.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

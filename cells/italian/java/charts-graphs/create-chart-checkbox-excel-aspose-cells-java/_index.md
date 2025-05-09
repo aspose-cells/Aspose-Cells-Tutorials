@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Ecco alcuni scenari reali in cui puoi applicare le conoscenze acquisite in quest
 3. **Strumenti didattici:** Crea materiali didattici dinamici in cui gli studenti possano interagire con i contenuti selezionando diverse opzioni nei grafici.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chroń wiersz w arkuszu kalkulacyjnym programu Excel
-linktitle: Chroń wiersz w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Odkryj w tym samouczku, jak chronić wiersze arkusza kalkulacyjnego Excela za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w C#.
-weight: 60
-url: /pl/net/protect-excel-file/protect-row-in-excel-worksheet/
+"description": "Odkryj w tym samouczku, jak chronić wiersze arkusza kalkulacyjnego Excela za pomocą Aspose.Cells dla .NET. Samouczek krok po kroku w C#."
+"linktitle": "Chroń wiersz w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Chroń wiersz w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/protect-excel-file/protect-row-in-excel-worksheet/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chroń wiersz w arkuszu kalkulacyjnym programu Excel
@@ -21,11 +23,11 @@ Podczas pracy z arkuszami Excela często konieczne jest zabezpieczenie określon
 
 Zanim przejdziemy do części praktycznej, upewnijmy się, że wszystko jest skonfigurowane. Oto kilka wymagań wstępnych:
 
-1.  Aspose.Cells dla .NET: Pobierz bibliotekę ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Upewnij się, że masz najnowszą wersję, aby korzystać ze wszystkich nowych funkcji i poprawek błędów.
+1. Aspose.Cells dla .NET: Pobierz bibliotekę ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Upewnij się, że masz najnowszą wersję, aby korzystać ze wszystkich nowych funkcji i poprawek błędów.
 2. Visual Studio: Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio (Community, Professional lub Enterprise), pomoże Ci efektywnie kompilować i uruchamiać kod w języku C#.
 3. .NET Framework: Będziesz potrzebować zgodnej wersji .NET Framework. Aspose.Cells obsługuje wiele wersji, więc upewnij się, że Twoja jest aktualna. 
 4. Podstawowa znajomość języka C#: Podstawowa znajomość języka C# będzie pomocna podczas pisania kodu w tym przewodniku.
-5.  Dokumentacja referencyjna: Zapoznaj się z[Dokumentacja Aspose.Cells dla .NET](https://reference.aspose.com/cells/net/) aby uzyskać dodatkowe informacje na temat zastosowanych metod i klas.
+5. Dokumentacja referencyjna: Zapoznaj się z [Dokumentacja Aspose.Cells dla .NET](https://reference.aspose.com/cells/net/) aby uzyskać dodatkowe informacje na temat zastosowanych metod i klas.
 
 ## Importuj pakiety
 
@@ -40,7 +42,7 @@ Teraz, gdy zaimportowaliśmy wymagane pakiety, przeanalizujmy kroki tworzenia sk
 
 ## Krok 1: Zdefiniuj katalog
 
-tym kroku określimy lokalizację, w której zostanie zapisany nasz plik Excel. Ważne jest, aby upewnić się, że ten katalog istnieje, w przeciwnym razie utworzymy go programowo, jeśli będzie to konieczne.
+W tym kroku określimy lokalizację, w której zostanie zapisany nasz plik Excel. Ważne jest, aby upewnić się, że ten katalog istnieje, w przeciwnym razie utworzymy go programowo, jeśli będzie to konieczne.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Zastąp ścieżką swojego dokumentu
@@ -50,7 +52,7 @@ if (!IsExists)
     Directory.CreateDirectory(dataDir);
 }
 ```
- W tym kodzie zamień`YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela.
+W tym kodzie zamień `YOUR DOCUMENT DIRECTORY` z rzeczywistą ścieżką, pod którą chcesz zapisać plik Excela.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -59,7 +61,7 @@ Następnie utworzymy nowy skoroszyt, w którym będą wykonywane wszelkie manipu
 ```csharp
 Workbook wb = new Workbook();
 ```
- Ta linia inicjuje nową instancję`Workbook` klasie, tworząc dla nas nowy arkusz ćwiczeń.
+Ta linia inicjuje nową instancję `Workbook` klasie, tworząc dla nas nowy arkusz ćwiczeń.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -104,7 +106,7 @@ Tutaj pobieramy styl dla pierwszego wiersza, oznaczamy go jako zablokowany i sto
 
 ## Krok 6: Ochrona arkusza
 
- Mając nasz wiersz zablokowany, zróbmy ten dodatkowy krok i w pełni zabezpieczmy arkusz kalkulacyjny. Wymusi to blokadę we wszystkich funkcjonalnościach zdefiniowanych w`ProtectionType`.
+Mając nasz wiersz zablokowany, zróbmy ten dodatkowy krok i w pełni zabezpieczmy arkusz kalkulacyjny. Wymusi to blokadę we wszystkich funkcjonalnościach zdefiniowanych w `ProtectionType`.
 
 ```csharp
 sheet.Protect(ProtectionType.All); // Chroń arkusz za pomocą wszystkich funkcji
@@ -133,16 +135,18 @@ Aspose.Cells to zaawansowana biblioteka dla platformy .NET umożliwiająca użyt
 Tak, możesz rozszerzyć technikę blokowania, powtarzając wiele wierszy i stosując podobne zmiany stylu w każdym z nich.
 
 ### Czy istnieje sposób na odblokowanie rzędów po zabezpieczeniu?
- Tak, możesz najpierw usunąć ochronę arkusza, a następnie dostosować`IsLocked` właściwość żądanych wierszy, a następnie ponowne zastosowanie ochrony.
+Tak, możesz najpierw usunąć ochronę arkusza, a następnie dostosować `IsLocked` właściwość żądanych wierszy, a następnie ponowne zastosowanie ochrony.
 
 ### Czy Aspose.Cells obsługuje inne formaty oprócz Excela?
 Oczywiście! Aspose.Cells może konwertować i zapisywać skoroszyty do różnych formatów, w tym CSV, PDF i HTML.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy i wskazówek od społeczności.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy i wskazówek od społeczności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

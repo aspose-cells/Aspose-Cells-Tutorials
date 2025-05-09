@@ -1,14 +1,16 @@
 ---
-title: Kiểm soát hệ số thu phóng của bảng tính
-linktitle: Kiểm soát hệ số thu phóng của bảng tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách kiểm soát hệ số thu phóng của bảng tính Excel bằng Aspose.Cells cho .NET theo các bước đơn giản. Tăng khả năng đọc trong bảng tính của bạn.
-weight: 20
-url: /vi/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksheet/
+"description": "Tìm hiểu cách kiểm soát hệ số thu phóng của bảng tính Excel bằng Aspose.Cells cho .NET theo các bước đơn giản. Tăng khả năng đọc trong bảng tính của bạn."
+"linktitle": "Kiểm soát hệ số thu phóng của bảng tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Kiểm soát hệ số thu phóng của bảng tính"
+"url": "/vi/net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm soát hệ số thu phóng của bảng tính
@@ -22,7 +24,7 @@ Khi nói đến việc tạo và quản lý bảng tính Excel theo chương tr�
 Trước khi chúng ta bắt đầu kiểm soát hệ số thu phóng của bảng tính, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là những điều cần thiết:
 
 1. Môi trường phát triển .NET: Bạn nên thiết lập môi trường .NET, chẳng hạn như Visual Studio.
-2.  Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# chắc chắn sẽ giúp bạn hiểu rõ hơn về hướng dẫn này.
 4. Microsoft Excel: Mặc dù chúng ta sẽ không sử dụng Excel trực tiếp trong mã của mình, nhưng việc cài đặt nó có thể hữu ích cho việc kiểm tra đầu ra của bạn.
 
@@ -38,7 +40,7 @@ Mở Visual Studio và tạo một dự án Console Application mới. Bạn có
 
 Bây giờ, đã đến lúc thêm tham chiếu thư viện Aspose.Cells. Bạn có thể:
 
--  Tải xuống DLL từ[đây](https://releases.aspose.com/cells/net/)và thêm nó vào dự án của bạn theo cách thủ công.
+- Tải xuống DLL từ [đây](https://releases.aspose.com/cells/net/) và thêm nó vào dự án của bạn theo cách thủ công.
 - Hoặc sử dụng NuGet Package Manager và chạy lệnh sau trong Package Manager Console:
 
 ```bash
@@ -47,7 +49,7 @@ Install-Package Aspose.Cells
 
 ### Nhập không gian tên
 
- Trong của bạn`Program.cs` tệp, hãy đảm bảo nhập không gian tên Aspose.Cells ở trên cùng:
+Trong của bạn `Program.cs` tệp, hãy đảm bảo nhập không gian tên Aspose.Cells ở trên cùng:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Hãy chia nhỏ quá trình này thành các bước rõ ràng và dễ thực h
 
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 
- Mỗi dự án lớn đều cần một cấu trúc được tổ chức tốt. Bạn cần thiết lập thư mục nơi lưu trữ các tệp Excel của mình. Trong trường hợp này, chúng tôi sẽ làm việc với`book1.xls` làm tập tin đầu vào của chúng tôi.
+Mỗi dự án lớn đều cần một cấu trúc được tổ chức tốt. Bạn cần thiết lập thư mục nơi lưu trữ các tệp Excel của mình. Trong trường hợp này, chúng tôi sẽ làm việc với `book1.xls` làm tập tin đầu vào của chúng tôi.
 
 Sau đây là cách bạn định nghĩa điều đó trong mã của mình:
 
@@ -69,11 +71,11 @@ Sau đây là cách bạn định nghĩa điều đó trong mã của mình:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Nó có thể là thứ gì đó giống như`"C:\\ExcelFiles\\"`.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên máy của bạn. Nó có thể là thứ gì đó như `"C:\\ExcelFiles\\"`.
 
 ## Bước 2: Tạo luồng tệp cho tệp Excel
 
- Trước khi chúng ta có thể thực hiện bất kỳ thay đổi nào, chúng ta cần mở tệp Excel. Chúng ta thực hiện điều này bằng cách tạo một`FileStream` . Luồng này sẽ cho phép chúng ta đọc nội dung của`book1.xls`.
+Trước khi chúng ta có thể thực hiện bất kỳ thay đổi nào, chúng ta cần mở tệp Excel. Chúng ta thực hiện điều này bằng cách tạo một `FileStream`. Luồng này sẽ cho phép chúng ta đọc nội dung của `book1.xls`.
 
 ```csharp
 // Tạo luồng tệp chứa tệp Excel cần mở
@@ -84,7 +86,7 @@ Dòng mã này sẽ chuẩn bị tệp Excel của bạn để chỉnh sửa.
 
 ## Bước 3: Khởi tạo đối tượng Workbook
 
- Các`Workbook` Đối tượng là cốt lõi của chức năng Aspose.Cells của bạn. Nó thể hiện tệp Excel của bạn theo cách dễ quản lý.
+Các `Workbook` Đối tượng là cốt lõi của chức năng Aspose.Cells của bạn. Nó thể hiện tệp Excel của bạn theo cách dễ quản lý.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
@@ -92,7 +94,7 @@ Dòng mã này sẽ chuẩn bị tệp Excel của bạn để chỉnh sửa.
 Workbook workbook = new Workbook(fstream);
 ```
 
- Ở đây, chúng tôi đang sử dụng`FileStream` được tạo ở bước trước để tải tệp Excel vào`Workbook` sự vật.
+Ở đây, chúng tôi đang sử dụng `FileStream` được tạo ở bước trước để tải tệp Excel vào `Workbook` sự vật.
 
 ## Bước 4: Truy cập vào bảng tính mong muốn
 
@@ -103,7 +105,7 @@ Với sổ làm việc hiện đang trong bộ nhớ, đã đến lúc truy cậ
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Giống như việc mở một cuốn sách tới một trang cụ thể để ghi chú vậy!
+Giống như việc mở một cuốn sách đến một trang cụ thể để ghi chú vậy!
 
 ## Bước 5: Điều chỉnh Hệ số Thu phóng
 
@@ -125,7 +127,7 @@ Sau khi bạn đã thực hiện thay đổi, đừng quên lưu công việc c�
 workbook.Save(dataDir + "output.xls");
 ```
 
- Mã này lưu bảng tính đã cập nhật của bạn vào một tệp mới có tên là`output.xls`. 
+Mã này lưu bảng tính đã cập nhật của bạn vào một tệp mới có tên là `output.xls`. 
 
 ## Bước 7: Dọn dẹp – Đóng luồng tệp
 
@@ -148,19 +150,21 @@ Kiểm soát hệ số thu phóng trong bảng tính Excel có vẻ như là m�
 Đây là thư viện mạnh mẽ để quản lý các tệp Excel theo chương trình trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Phiên bản miễn phí có hạn chế nào không?
 Có, phiên bản dùng thử có một số hạn chế về chức năng và tài liệu đầu ra.
 
 ### Tôi có thể tải Aspose.Cells ở đâu?
- Bạn có thể tải xuống từ[liên kết này](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống từ [liên kết này](https://releases.aspose.com/cells/net/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Có thể nhận được hỗ trợ từ diễn đàn cộng đồng[đây](https://forum.aspose.com/c/cells/9).
+Có thể nhận được hỗ trợ từ diễn đàn cộng đồng [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

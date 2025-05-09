@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class ExcelDemo {
 ### Inizializzazione della cartella di lavoro e aggiunta del foglio di lavoro
 
 #### Panoramica
-Creare una cartella di lavoro Excel è il primo passo per gestire i dati a livello di programmazione. Aspose.Cells semplifica questo processo offrendo metodi intuitivi per creare cartelle di lavoro e aggiungere fogli di lavoro.
+Creare una cartella di lavoro Excel è il primo passo per gestire i dati a livello di programmazione. Aspose.Cells semplifica questo processo fornendo metodi intuitivi per creare cartelle di lavoro e aggiungere fogli di lavoro.
 
 ##### Passaggio 1: creare una nuova cartella di lavoro
 ```java
@@ -235,6 +237,9 @@ Per garantire prestazioni ottimali durante l'utilizzo di Aspose.Cells, tieni pre
 - "Integrare grafici in Java"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

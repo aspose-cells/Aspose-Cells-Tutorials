@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ Lär dig hur du effektivt filtrerar bort tomma celler från dina Excel-dataupps�
 Lär dig hur du filtrerar data effektivt när du laddar Excel-arbetsböcker med Aspose.Cells för Java. Förbättra programprestanda genom att fokusera på specifika datakomponenter.
 
 ### [Implementera AutoFilter 'Börjar med' i Excel med hjälp av Aspose.Cells Java](./implement-autofilter-begins-with-aspose-cells-java/)
-Lär dig hur du använder autofiltret 'Begins With' i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar installation, konfiguration och praktiska exempel.
+Lär dig hur du använder autofiltret "Börjar med" i Excel-filer med Aspose.Cells för Java. Den här guiden behandlar installation, konfiguration och praktiska exempel.
 
 ### [Hur man implementerar utsnitt i pivottabeller med Aspose.Cells för Java: En omfattande guide](./implement-slicers-pivot-tables-aspose-cells-java/)
 Lär dig hur du programmatiskt lägger till utsnitt i pivottabeller med Aspose.Cells för Java. Den här guiden behandlar installation, laddning av arbetsböcker och förbättring av datainteraktivitet med detaljerade kodexempel.
@@ -183,6 +185,9 @@ Lär dig hur du uppdaterar källdata för pivottabeller i Excel med Aspose.Cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

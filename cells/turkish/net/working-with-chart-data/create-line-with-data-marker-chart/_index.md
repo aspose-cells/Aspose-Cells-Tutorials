@@ -1,14 +1,16 @@
 ---
-title: Veri İşaretleyici Grafiği ile Çizgi Oluştur
-linktitle: Veri İşaretleyici Grafiği ile Çizgi Oluştur
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de Veri İşaretleyicileri ile Çizgi grafiğinin nasıl oluşturulacağını öğrenin. Grafikleri kolayca oluşturmak ve özelleştirmek için bu adım adım kılavuzu izleyin.
-weight: 10
-url: /tr/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Aspose.Cells for .NET kullanarak Excel'de Veri İşaretleyicileri ile Çizgi grafiğinin nasıl oluşturulacağını öğrenin. Grafikleri kolayca oluşturmak ve özelleştirmek için bu adım adım kılavuzu izleyin."
+"linktitle": "Veri İşaretleyici Grafiği ile Çizgi Oluştur"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Veri İşaretleyici Grafiği ile Çizgi Oluştur"
+"url": "/tr/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Veri İşaretleyici Grafiği ile Çizgi Oluştur
@@ -21,14 +23,14 @@ Excel'de programatik olarak çarpıcı grafikler oluşturmayı hiç merak ettini
 
 Başlamadan önce, sorunsuz bir şekilde ilerleyebilmeniz için her şeyin yerli yerinde olduğundan emin olun.
 
-1. Aspose.Cells for .NET Library – Bunu yüklemeniz gerekecek. Bunu alabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET Library – Bunu yüklemeniz gerekecek. Bunu alabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Geliştirme ortamınızın en son .NET sürümüyle kurulduğundan emin olun.
 3. IDE (Bütünleşik Geliştirme Ortamı) – Visual Studio önerilir.
-4.  Geçerli bir Aspose.Cells lisansı – Eğer yoksa, bir tane talep edebilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) veya onlarınkine göz atın[ücretsiz deneme](https://releases.aspose.com/).
+4. Geçerli bir Aspose.Cells lisansı – Eğer yoksa, bir tane talep edebilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) veya onlarınkine göz atın [ücretsiz deneme](https://releases.aspose.com/).
 
 Hazır mısınız? Hadi parçalayalım!
 
-## Gerekli Paketleri İçe Aktarma
+## Gerekli Paketleri İçeri Aktarma
 
 Başlamak için, aşağıdaki ad alanlarını projenize aktardığınızdan emin olun. Bunlar, grafiğinizi oluşturmak için gerekli sınıfları ve yöntemleri sağlayacaktır.
 
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // Ön plan rengini beyaz olarak ayarla
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Grafik başlığı özelliklerini ayarla
+// Grafik başlığı özelliklerini ayarla
 chart.Title.Text = "Sample Chart";
 
 // Grafik türünü ayarla
@@ -157,7 +159,7 @@ Renkleri özelleştirerek, tabloyu yalnızca işlevsel değil, aynı zamanda gö
 
 ## Adım 7: Her Seri için X ve Y Değerlerini Ayarlayın
 
-Son olarak her bir serimize X ve Y değerlerini atayalım.
+Son olarak serilerimizin her biri için X ve Y değerlerini atayalım.
 
 ```csharp
 // İlk serinin X ve Y değerlerini ayarlayın
@@ -192,19 +194,21 @@ Excel'de programatik olarak grafik oluşturmak göz korkutucu görünebilir, anc
 Kesinlikle! Aspose.Cells, yazı tiplerinden kılavuz çizgilerine ve daha fazlasına kadar bir ton özelleştirme seçeneği sunuyor.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- Evet, tam işlevsellik için bir lisans gereklidir. Bir lisans alabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir ile başla[ücretsiz deneme](https://releases.aspose.com/).
+Evet, tam işlevsellik için bir lisans gereklidir. Bir lisans alabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) veya bir ile başla [ücretsiz deneme](https://releases.aspose.com/).
 
 ### Daha fazla veri serisi nasıl ekleyebilirim?  
- Sadece kullanarak ek seriler ekleyin`NSeries.Add` Yeni veriler için hücre aralıklarını belirten yöntem.
+Sadece kullanarak ek seriler ekleyin `NSeries.Add` Yeni veriler için hücre aralıklarını belirten yöntem.
 
 ### Tabloyu resim olarak dışarı aktarabilir miyim?  
- Evet, grafikleri doğrudan resim olarak dışa aktarabilirsiniz.`Chart.ToImage` yöntem.
+Evet, grafikleri doğrudan resim olarak dışa aktarabilirsiniz. `Chart.ToImage` yöntem.
 
 ### Aspose.Cells 3D grafikleri destekliyor mu?  
 Evet, Aspose.Cells 3D grafikler de dahil olmak üzere çok çeşitli grafik türlerini destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### ขั้นตอนการรับใบอนุญาต
 - **ทดลองใช้งานฟรี**:ดาวน์โหลดรุ่นทดลองใช้ได้จาก [หน้าการเปิดตัวของ Aspose](https://releases-aspose.com/cells/java/).
-- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวผ่านทาง [ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบโดยไม่มีข้อจำกัด
+- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวผ่านทาง [ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบโดยไม่มีข้อจำกัด
 - **ซื้อ**:หากต้องการเข้าถึงและสนับสนุนอย่างเต็มรูปแบบ โปรดพิจารณาซื้อห้องสมุดจาก [หน้าการซื้อของ Aspose](https://purchase-aspose.com/buy).
 
 #### การเริ่มต้นขั้นพื้นฐาน
@@ -157,6 +159,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFMDA_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

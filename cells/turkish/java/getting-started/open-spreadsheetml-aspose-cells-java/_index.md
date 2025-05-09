@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ String dataDir = "YOUR_DATA_DIRECTORY"; // Gerçek dizin yolunuzla değiştirin
 // Belirtilen dosya yolunu ve LoadOptions'ı kullanarak Çalışma Kitabını açın
 Workbook workbook = new Workbook(dataDir + "Book3.xml", loadOptions3);
 ```
-**Açıklama**: : `Workbook` oluşturucu bir dosya yolu ve isteğe bağlı bir `LoadOptions` nesne. Bu kurulum, SpreadsheetML gibi standart dışı formatlardaki dosyaları yüklemek için çok önemlidir.
+**Açıklama**: : `Workbook` oluşturucu bir dosya yolu ve isteğe bağlı bir `LoadOptions` nesne. Bu kurulum, SpreadsheetML gibi standart olmayan formatlardaki dosyaları yüklemek için çok önemlidir.
 
 ### Sorun Giderme İpuçları
 - **Dosya Bulunamadı İstisnası**: Veri dizini yolunuzun doğru olduğundan emin olun.
@@ -147,6 +149,9 @@ A5: Kontrol edin [Aspose Belgeleri](https://reference.aspose.com/cells/java/) ve
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

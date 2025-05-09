@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Aprimorar a interação do usuário em pastas de trabalho do Excel pode melhorar significativamente a experiência geral. Este guia abrangente demonstrará como personalizar as configurações da barra de rolagem usando **Aspose.Cells para Java**Seja você um desenvolvedor refinando interfaces de usuário ou criando documentos refinados, dominar esse recurso é essencial.
 
-### que você aprenderá
+### O que você aprenderá
 - Carregando e modificando as configurações da pasta de trabalho do Excel com Aspose.Cells
 - Técnicas para ocultar barras de rolagem verticais e horizontais em arquivos do Excel
 - Implementação passo a passo usando Java
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Etapas de aquisição de licença
 O Aspose.Cells oferece um teste gratuito para explorar seus recursos. Para uso prolongado, você pode adquirir uma licença temporária ou comprar a versão completa.
 
-1. **Teste grátis**Baixe a versão mais recente em [Versões Java do Aspose.Cells](https://releases.aspose.com/cells/java/).
+1. **Teste grátis**: Baixe a versão mais recente em [Versões Java do Aspose.Cells](https://releases.aspose.com/cells/java/).
 2. **Licença Temporária**: Solicite uma licença temporária através de [Comprar Licença Temporária](https://purchase.aspose.com/temporary-license/).
 3. **Comprar**: Para acesso total, visite [Compre Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -95,7 +97,7 @@ Vamos detalhar o processo de ocultar barras de rolagem em pastas de trabalho do 
 #### Visão geral
 Este recurso permite que você carregue uma pasta de trabalho existente do Excel e modifique a visibilidade da barra de rolagem, melhorando a legibilidade ao controlar os elementos de navegação.
 
-#### Etapa 1: instanciar um objeto de pasta de trabalho
+#### Etapa 1: Instanciar um objeto de pasta de trabalho
 Em primeiro lugar, crie um `Workbook` objeto do caminho de arquivo especificado:
 
 ```java
@@ -169,6 +171,9 @@ Ao utilizar o Aspose.Cells para Java, você pode personalizar facilmente as conf
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Excel에서 대용량 데이터 세트를 작업할 때는 여러 기준에 따�
 ## 필수 조건
 
 계속하기 전에 다음 사항을 확인하세요.
-- **자바 개발 키트(JDK):** 시스템에 8버전 이상이 설치되어 있어야 합니다.
+- **자바 개발 키트(JDK):** 시스템에 8 이상 버전이 설치되어 있어야 합니다.
 - **Java 라이브러리용 Aspose.Cells:** Java에서 Excel 작업을 수행하는 데 필요합니다.
 - **IDE 지원:** IntelliJ IDEA, Eclipse, NetBeans 등 모든 IDE가 작동합니다.
 
@@ -193,6 +195,9 @@ Aspose.Cells의 기능을 더 자세히 알아보려면, 광범위한 문서를 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

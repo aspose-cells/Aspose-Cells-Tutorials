@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ Süreci yönetilebilir bölümlere ayıracağız.
 
 #### Eksen Varlığını Kontrol Et
 **Genel bakış**: Bir grafikte belirli eksenlerin mevcut olup olmadığını doğrulayın.
-1. **Eksen Türünü İçe Aktar**
+1. **AxisType'ı içe aktar**
    ```java
    import com.aspose.cells.AxisType;
    ```
@@ -165,6 +167,9 @@ C5: Gerekli verileri yükleyerek, sonuçları önbelleğe alarak veya Java çokl
 - **İndirmek**:Bu çözümleri uygulamaya hemen başlamak için Aspose.Cells for Java'nın en son sürümüne erişin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

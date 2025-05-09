@@ -1,14 +1,16 @@
 ---
-title: Excel'de Şeklin Akıllı Sanat olup olmadığını belirleme
-linktitle: Excel'de Şeklin Akıllı Sanat olup olmadığını belirleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'deki bir şeklin Akıllı Sanat olup olmadığını kolayca kontrol etmeyi öğrenin. Excel görevlerini otomatikleştirmek için mükemmeldir.
-weight: 11
-url: /tr/net/excel-shape-label-access/determine-smart-art-shape-excel/
+"description": "Bu adım adım kılavuzla .NET için Aspose.Cells'i kullanarak Excel'deki bir şeklin Akıllı Sanat olup olmadığını kolayca kontrol etmeyi öğrenin. Excel görevlerini otomatikleştirmek için mükemmeldir."
+"linktitle": "Excel'de Şeklin Akıllı Sanat olup olmadığını belirleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Şeklin Akıllı Sanat olup olmadığını belirleme"
+"url": "/tr/net/excel-shape-label-access/determine-smart-art-shape-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Şeklin Akıllı Sanat olup olmadığını belirleme
@@ -19,7 +21,7 @@ Bu eğitimde, .NET için Aspose.Cells'i kullanarak bir Excel dosyasında bir şe
 ## Ön koşullar
 Teknik detaylara dalmadan önce, bu eğitimi takip etmek için neler yapmanız gerektiğinden bahsedelim:
 1. Visual Studio: Kodumuzu burada yazacağız. .NET Framework veya .NET Core ile uyumlu bir sürümünüz olduğundan emin olun.
-2.  Aspose.Cells for .NET: Bu kütüphanenin kurulu olması gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Bu kütüphanenin kurulu olması gerekir. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 3. Temel Programlama Bilgisi: C#'a aşinalık ve sınıflar, metotlar gibi kavramları anlamak bu süreci daha sorunsuz hale getirecektir.
 4. Örnek Excel Dosyası: Test için şekilleri ve Akıllı Sanatı içeren bir örnek Excel dosyasına da ihtiyacınız olacak.
 Bu ön koşullar sağlandıktan sonra kod yazmaya başlamaya hazırsınız!
@@ -34,7 +36,7 @@ Kod yazmaya başlamadan önce gerekli paketleri içe aktarmamız gerekir. Bu, As
 Aspose.Cells'i kullanmak için onu projenize eklemeniz gerekir. İşte nasıl:
 1. NuGet Paket Yöneticisi:
    - Çözüm Gezgini’nde projeye sağ tıklayın.
-   -  Seçme`Manage NuGet Packages`.
+   - Seçme `Manage NuGet Packages`.
    - "Aspose.Cells" ifadesini arayın ve paketi yükleyin.
 2. Kurulumu Doğrulayın:
    Aspose.Cells'in listede göründüğünden emin olmak için Proje Referanslarına gidin. 
@@ -52,21 +54,21 @@ Artık ortamımızı kurduğumuza ve bağımlılıkları eklediğimize göre, ko
 // Kaynak dizini
 string sourceDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` yolunuzla`sampleSmartArtShape.xlsx`dosya bulunur. Uygulamanın incelemek istediğiniz şekilleri içeren Excel dosyasını arayacağı yer burasıdır.
-## Adım 2: Excel Çalışma Kitabını yükleyin
- Sonra Excel dosyasını Aspose.Cells'e yükleyeceğiz`Workbook` sınıf.
+Yer değiştirmek `"Your Document Directory"` yolunuzla `sampleSmartArtShape.xlsx` dosya bulunur. Uygulamanın incelemek istediğiniz şekilleri içeren Excel dosyasını arayacağı yer burasıdır.
+## Adım 2: Excel Çalışma Kitabını Yükleyin
+Daha sonra Excel dosyasını Aspose.Cells'e yükleyeceğiz `Workbook` sınıf.
 ```csharp
 // Örnek akıllı sanat şeklini yükleyin - Excel dosyası
 Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape.xlsx");
 ```
- The`Workbook` sınıf, esasen Excel dosyanızın koddaki bir temsilidir. Burada, bir örneğini oluşturuyoruz`Workbook` ve işlenebilmesi için Excel dosyamızın yolunu aktarıyoruz.
+The `Workbook` sınıf, esasen Excel dosyanızın koddaki bir temsilidir. Burada, bir örneğini oluşturuyoruz `Workbook` ve işlenebilmesi için Excel dosyamızın yolunu aktarıyoruz.
 ## Adım 3: Çalışma Sayfasına Erişim
 Çalışma kitabını yükledikten sonra, şekli içeren belirli çalışma sayfasına erişmemiz gerekecek.
 ```csharp
 // İlk çalışma sayfasına erişin
 Worksheet ws = wb.Worksheets[0];
 ```
- Excel dosyaları birden fazla çalışma sayfası içerebilir.`[0]`, çalışma kitabımızdaki ilk çalışma sayfasına erişiyoruz. 
+Excel dosyaları birden fazla çalışma sayfası içerebilir. `[0]`, çalışma kitabımızdaki ilk çalışma sayfasına erişiyoruz. 
 ## Adım 4: Şekle Erişim
 Şimdi kontrol etmek istediğimiz belirli şekli alacağız.
 ```csharp
@@ -80,7 +82,7 @@ Son olarak, şeklin Akıllı Sanat grafiği olup olmadığını kontrol etme gib
 // Şeklin akıllı sanat olup olmadığını belirleyin
 Console.WriteLine("Is Smart Art Shape: " + sh.IsSmartArt);
 ```
- The`IsSmartArt` mülkiyeti`Shape` class, şeklin Akıllı Sanat olarak sınıflandırılıp sınıflandırılmadığını belirten bir Boole değeri döndürür.`Console.WriteLine` Bu bilgiyi çıktı olarak almak için. 
+The `IsSmartArt` mülkiyeti `Shape` class, şeklin Akıllı Sanat olarak sınıflandırılıp sınıflandırılmadığını belirten bir Boole değeri döndürür. `Console.WriteLine` Bu bilgiyi çıktı olarak almak için. 
 ## Çözüm
 Bu eğitimde, .NET için Aspose.Cells kullanarak bir Excel çalışma sayfasındaki bir şeklin Akıllı Sanat grafiği olup olmadığını nasıl belirleyeceğinizi öğrendiniz. Bu bilgiyle, veri sunumunuzu geliştirebilir ve iş akışınızı düzene sokabilirsiniz. İster deneyimli bir Excel kullanıcısı olun ister acemi, bunun gibi akıllı özellikleri entegre etmek büyük fark yaratabilir. 
 ## SSS
@@ -89,14 +91,16 @@ Akıllı Sanat, kullanıcıların bilgileri göstermek için görsel olarak çek
 ### Aspose.Cells kullanarak Akıllı Sanat şekillerini değiştirebilir miyim?
 Evet, Akıllı Sanat şekillerini programlı olarak düzenleyebilir, stilleri ve ayrıntıları değiştirebilirsiniz.
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Deneme sürümü mevcut olsa da Aspose.Cells ücretli bir kütüphanedir. Tam sürümü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Deneme sürümü mevcut olsa da Aspose.Cells ücretli bir kütüphanedir. Tam sürümü satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Sorun yaşarsam nasıl destek alabilirim?
- Yardım için bize ulaşabilirsiniz[Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
+Yardım için bize ulaşabilirsiniz [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı dokümantasyon mevcuttur[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümantasyon mevcuttur [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

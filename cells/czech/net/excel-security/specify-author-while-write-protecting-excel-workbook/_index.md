@@ -1,34 +1,36 @@
 ---
-title: Určete autora při ochraně sešitu aplikace Excel proti zápisu
-linktitle: Určete autora při ochraně sešitu aplikace Excel proti zápisu
-second_title: Aspose.Cells for .NET API Reference
-description: V tomto podrobném průvodci se dozvíte, jak chránit svůj excelový sešit proti zápisu a zároveň zadat autora pomocí Aspose.Cells for .NET.
-weight: 30
-url: /cs/net/excel-security/specify-author-while-write-protecting-excel-workbook/
+"description": "V tomto podrobném návodu se dozvíte, jak chránit sešit aplikace Excel proti zápisu a zároveň zadávat autora pomocí Aspose.Cells pro .NET."
+"linktitle": "Zadání autora při ochraně sešitu aplikace Excel proti zápisu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Zadání autora při ochraně sešitu aplikace Excel proti zápisu"
+"url": "/cs/net/excel-security/specify-author-while-write-protecting-excel-workbook/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Určete autora při ochraně sešitu aplikace Excel proti zápisu
+# Zadání autora při ochraně sešitu aplikace Excel proti zápisu
 
 ## Zavedení
 
-Pokud jde o práci se soubory aplikace Excel v aplikacích .NET, Aspose.Cells je řešením pro mnoho vývojářů. Jeho bohatá sada funkcí vám umožňuje snadno generovat, manipulovat a zabezpečit soubory Excel. Jedním z běžných požadavků, se kterými se vývojáři potýkají, je zápis do sešitu aplikace Excel a zároveň zajištění jeho ochrany proti neoprávněným úpravám. Dále, určení autora může být neuvěřitelně užitečné pro účely sledování při sdílení dokumentu. V této příručce se hluboce ponoříme do toho, jak můžete určit autora při ochraně sešitu aplikace Excel při zápisu pomocí Aspose.Cells for .NET.
+Pokud jde o práci se soubory Excelu v aplikacích .NET, Aspose.Cells je pro mnoho vývojářů oblíbeným řešením. Jeho bohatá sada funkcí umožňuje snadno generovat, manipulovat a zabezpečovat soubory Excelu. Jedním z běžných požadavků, kterým vývojáři čelí, je zápis do sešitu Excelu a zároveň jeho ochrana před neoprávněnými úpravami. Dále může být zadání autora neuvěřitelně užitečné pro účely sledování při sdílení dokumentu. V této příručce se podrobně ponoříme do toho, jak můžete zadat autora a zároveň chránit sešit Excelu proti zápisu pomocí Aspose.Cells pro .NET.
 
 ## Předpoklady
 
-Než se pustíme do hrubší implementace, je nezbytné mít pevný základ. Zde jsou předpoklady, které budete potřebovat, abyste mohli začít:
+Než se ponoříme do detailů implementace, je nezbytné mít pevný základ. Zde jsou předpoklady, které budete potřebovat k zahájení:
 
-1. Visual Studio: Potřebujete funkční instalaci sady Visual Studio. Zde budete psát a kompilovat svůj kód .NET.
-2. .NET Framework: Ujistěte se, že máte nainstalované rozhraní .NET Framework. Aspose.Cells podporuje různé verze, takže si vyberte tu, která vyhovuje vaší aplikaci.
-3.  Knihovna Aspose.Cells: Musíte mít knihovnu Aspose.Cells. Můžete to získat z[oficiální stránka ke stažení](https://releases.aspose.com/cells/net/).
-4. Základní porozumění C#: Znalost C# vám pomůže bez námahy procházet procesem kódování.
+1. Visual Studio: Potřebujete funkční instalaci Visual Studia. Zde budete psát a kompilovat kód .NET.
+2. .NET Framework: Ujistěte se, že máte nainstalovaný .NET Framework. Aspose.Cells podporuje různé verze, proto si vyberte tu, která nejlépe vyhovuje vaší aplikaci.
+3. Knihovna Aspose.Cells: Potřebujete knihovnu Aspose.Cells. Můžete ji získat z [oficiální stránka pro stahování](https://releases.aspose.com/cells/net/).
+4. Základní znalost C#: Znalost C# vám pomůže bez námahy zorientovat se v procesu kódování.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li co nejlépe využít funkcionalitu poskytovanou Aspose.Cells, začněme importem potřebných balíčků. Začněte svůj soubor C# přidáním následujícího příkazu using:
+Abychom co nejlépe využili funkcionalitu poskytovanou Aspose.Cells, začněme importem potřebných balíčků. Začněte svůj C# soubor přidáním následující direktivy using:
 
 ```csharp
 using System;
@@ -37,11 +39,11 @@ using System.Linq;
 using System.Text;
 ```
 
-Tato direktiva vám umožní přístup ke třídám a metodám obsaženým v knihovně Aspose.Cells. Nyní, když jsme importovali naše balíčky, přejděme k zábavnější části – psaní kódu!
+Tato direktiva vám umožní přístup ke třídám a metodám obsaženým v knihovně Aspose.Cells. Nyní, když máme importované balíčky, pojďme se přesunout k zábavnější části – psaní kódu!
 
-## Krok 1: Nastavte své adresáře
+## Krok 1: Nastavení adresářů
 
-Před spuštěním sešitu je vhodné nastavit cesty, kde jsou umístěny zdrojové soubory a kam chcete uložit výstup. Postup:
+Než začnete pracovat se sešitem, je vhodné nastavit cesty, kde se nacházejí zdrojové soubory a kam chcete ukládat výstup. Postupujte takto:
 
 ```csharp
 // Zdrojový adresář
@@ -51,42 +53,42 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Nezapomeňte vyměnit`"YOUR SOURCE DIRECTORY"` a`"YOUR OUTPUT DIRECTORY"` se skutečnými cestami na vašem počítači. Berte to jako vytvoření uklizeného pracovního prostoru, než začnete vytvářet své mistrovské dílo!
+Nezapomeňte vyměnit `"YOUR SOURCE DIRECTORY"` a `"YOUR OUTPUT DIRECTORY"` se skutečnými cestami na vašem počítači. Představte si to jako vytvoření uklizeného pracovního prostoru, než začnete tvořit své mistrovské dílo!
 
 ## Krok 2: Vytvořte prázdný sešit
 
-Nyní, když máme nastavené adresáře, je dalším krokem vytvoření prázdného sešitu. Toto je v podstatě plátno, kam budete zapisovat svá data.
+Nyní, když máme nastavené adresáře, dalším krokem je vytvoření prázdného sešitu. To je v podstatě plátno, kam budete zapisovat svá data.
 
 ```csharp
 // Vytvořte prázdný sešit.
 Workbook wb = new Workbook();
 ```
 
-Stejně jako umělec začíná s prázdným plátnem, vy začínáte s prázdným sešitem, do kterého můžete později zahrnout data nebo formátování.
+Stejně jako umělec začíná s prázdným plátnem, i vy začínáte s prázdným sešitem, do kterého můžete později vkládat data nebo formátovat.
 
-## Krok 3: Napište Protect the Workbook
+## Krok 3: Ochrana sešitu proti zápisu
 
-Ochrana proti zápisu je zásadním aspektem, zejména pokud chcete zajistit, aby integrita vašich dat zůstala nedotčena. Můžete to udělat pomocí hesla.
+Ochrana proti zápisu je klíčový aspekt, zejména pokud chcete zajistit, aby integrita vašich dat zůstala zachována. Toho lze dosáhnout pomocí hesla.
 
 ```csharp
-//Zápis chránit sešit s heslem.
+// Ochrana sešitu proti zápisu heslem.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
- V tomto řádku vyměňte`"YOUR_PASSWORD"` se silným heslem dle vašeho výběru. Toto heslo funguje jako zamčené dveře – vstoupit mohou pouze ti, kdo mají klíč (heslo).
+V tomto řádku nahraďte `"YOUR_PASSWORD"` se silným heslem dle vlastního výběru. Toto heslo funguje jako zamčené dveře – vstoupit mohou pouze ti, kteří mají klíč (heslo).
 
 ## Krok 4: Zadejte autora
 
-Nyní upřesníme autora sešitu. To je zvláště užitečné pro odpovědnost a umožňuje ostatním vidět, kdo vytvořil nebo upravil soubor.
+Nyní určíme autora sešitu. To je obzvláště užitečné pro kontrolu a umožňuje ostatním vidět, kdo soubor vytvořil nebo upravil.
 
 ```csharp
-// Určete autora při ochraně sešitu proti zápisu.
+// Při ochraně sešitu proti zápisu zadejte autora.
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- Nezapomeňte vyměnit`"YOUR_AUTHOR"` se jménem, které chcete k dokumentu přidružit. Berte to jako podepsání vašeho uměleckého díla – dává lidem vědět, komu za tento kousek poděkovat!
+Nezapomeňte vyměnit `"YOUR_AUTHOR"` se jménem, které chcete s dokumentem spojit. Představte si to jako podpis svého uměleckého díla – dá to lidem vědět, komu za toto dílo poděkovat!
 
-## Krok 5: Uložte sešit
+## Krok 5: Uložení sešitu
 
 Posledním krokem je uložení sešitu v požadovaném formátu. V tomto případě jej uložíme jako soubor XLSX. 
 
@@ -95,31 +97,33 @@ Posledním krokem je uložení sešitu v požadovaném formátu. V tomto přípa
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Zde se výstupní soubor uloží do vámi zadaného výstupního adresáře s názvem`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Tady se vaše tvrdá práce konečně vyplatí a svůj sešit můžete sdílet s ostatními s vědomím, že je dobře chráněn!
+Zde bude výstupní soubor uložen do vámi zadaného výstupního adresáře s názvem `outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`A tady se vaše tvrdá práce konečně vyplatí a vy můžete svůj sešit sdílet s ostatními s vědomím, že je dobře chráněn!
 
 ## Závěr
 
-tady to máte! Naučili jste se vytvořit excelový sešit, nastavit ochranu proti zápisu heslem, určit autora a bezproblémově jej uložit pomocí Aspose.Cells for .NET. Tato kombinace funkcí nejen zabezpečí vaše data, ale také zachová jejich integritu a zajistí správné přiřazení.
+tady to máte! Naučili jste se, jak vytvořit sešit aplikace Excel, nastavit ochranu proti zápisu heslem, určit autora a bez problémů jej uložit pomocí Aspose.Cells pro .NET. Tato kombinace funkcí nejen zabezpečí vaše data, ale také zachová jejich integritu a zajistí správné uvedení zdroje.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu upravit heslo pro ochranu proti zápisu?  
- Ano, heslo si můžete upravit podle svých potřeb. Stačí vyměnit`YOUR_PASSWORD` s požadovaným heslem.
+### Mohu si přizpůsobit heslo pro ochranu proti zápisu?  
+Ano, heslo si můžete přizpůsobit podle svých potřeb. Stačí ho nahradit `YOUR_PASSWORD` s požadovaným heslem.
 
 ### Je Aspose.Cells zdarma k použití?  
- Aspose.Cells je placená knihovna, ale můžete si ji vyzkoušet zdarma s omezenou časovou zkouškou. Navštivte[Odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/) začít.
+Aspose.Cells je placená knihovna, ale můžete si ji vyzkoušet zdarma s časově omezenou zkušební dobou. Navštivte [Odkaz na bezplatnou zkušební verzi](https://releases.aspose.com/) začít.
 
-### Jak si koupím knihovnu Aspose.Cells?  
- Aspose.Cells můžete zakoupit prostřednictvím jejich[koupit stránku](https://purchase.aspose.com/buy).
+### Jak si mohu koupit knihovnu Aspose.Cells?  
+Aspose.Cells si můžete zakoupit prostřednictvím jejich [koupit stránku](https://purchase.aspose.com/buy).
 
 ### Mohu tento přístup použít ve webových aplikacích?  
-Absolutně! Aspose.Cells bezproblémově funguje v desktopových i webových aplikacích využívajících .NET.
+Rozhodně! Aspose.Cells funguje bez problémů jak v desktopových, tak i webových aplikacích s využitím .NET.
 
 ### Co mám dělat, když potřebuji podporu?  
- V případě dotazů a řešení problémů je komunita Aspose velmi užitečná. Můžete navštívit jejich[fórum podpory](https://forum.aspose.com/c/cells/9) o pomoc.
+případě dotazů a řešení problémů je velmi nápomocná komunita Aspose. Můžete navštívit jejich [fórum podpory](https://forum.aspose.com/c/cells/9) o pomoc.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

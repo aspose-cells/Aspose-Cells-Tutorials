@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 環境が準備され、依存関係が追加されたら、Aspose.Cells をセットアップします。
 **ライセンス取得手順:**
 Aspose.Cellsを最大限に活用するには、ライセンスの取得をご検討ください。まずは無料トライアルをご利用いただくか、一時的なライセンスを購入して機能を評価してください。
-- **無料トライアル:** 訪問 [Aspose ダウンロードページ](https://releases.aspose.com/cells/java/) すぐに始めましょう。
+- **無料トライアル:** 訪問 [Aspose ダウンロード ページ](https://releases.aspose.com/cells/java/) すぐに始めましょう。
 - **一時ライセンス:** 取得する [一時ライセンス](https://purchase.aspose.com/temporary-license/) 拡張評価用。
 **基本的な初期化とセットアップ:**
 ライブラリを設定したら、Java アプリケーションで Aspose.Cells を次のように初期化します。
@@ -161,6 +163,9 @@ Aspose.Cells for Java を使用して Excel シートを TIFF 画像として読
 - **サポートフォーラム**： [Aspose サポートコミュニティ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

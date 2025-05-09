@@ -1,34 +1,36 @@
 ---
-title: Mengatur Jenis Bentuk Label Data Bagan
-linktitle: Mengatur Jenis Bentuk Label Data Bagan
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Sempurnakan bagan Excel Anda dengan bentuk label data yang disesuaikan menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk menyempurnakan presentasi data Anda.
-weight: 14
-url: /id/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
+"description": "Sempurnakan bagan Excel Anda dengan bentuk label data yang disesuaikan menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini untuk menyempurnakan presentasi data Anda."
+"linktitle": "Mengatur Jenis Bentuk Label Data Bagan"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Mengatur Jenis Bentuk Label Data Bagan"
+"url": "/id/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengatur Jenis Bentuk Label Data Bagan
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia visualisasi data, bagan merupakan metode yang tepat untuk menyajikan informasi yang kompleks dengan cara yang mudah diakses. Namun, tidak semua label data dibuat sama! Terkadang, Anda perlu membuat label tersebut menonjol, dan menggunakan bentuk yang berbeda dapat membuat perbedaan yang signifikan. Jika Anda ingin menyempurnakan label data dalam bagan Excel dengan bentuk khusus, Anda telah menemukan tempat yang tepat. Panduan ini akan memandu Anda untuk mengatur jenis bentuk label data dalam bagan menggunakan Aspose.Cells for .NET. Mari kita bahas!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat kode, pastikan Anda telah menyiapkan semuanya dengan benar. Berikut ini yang Anda perlukan:
 
-1.  Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh dari[Situs web Aspose](https://releases.aspose.com/cells/net/)Pustaka ini memungkinkan segala macam manipulasi terhadap dokumen Excel.
+1. Aspose.Cells untuk .NET: Jika Anda belum melakukannya, unduh dari [Aspose weboldal](https://releases.aspose.com/cells/net/)Pustaka ini memungkinkan segala macam manipulasi terhadap dokumen Excel.
 2. Visual Studio: Anda harus menginstalnya di sistem Anda untuk menulis dan menjalankan aplikasi .NET. Pastikan versi yang didukung adalah .NET Framework atau .NET Core sesuai dengan kebutuhan proyek Anda.
 3. Pemahaman Dasar tentang C#: Keakraban dengan konsep pemrograman dasar dan sintaksis C# pasti akan membantu Anda memahami cuplikan kode dengan lebih baik.
 4. Berkas Excel: Anda juga memerlukan contoh buku kerja Excel untuk digunakan. Anda dapat membuatnya sendiri atau menggunakan buku kerja yang sudah ada.
 
 Sekarang setelah kita punya prasyaratnya, mari kita langsung ke intinya!
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum Anda dapat mulai membuat kode, Anda perlu mengimpor namespace Aspose.Cells yang relevan. Ini akan memberi Anda akses ke fungsionalitas lengkap yang ditawarkan pustaka. Berikut cara melakukannya:
 
@@ -50,41 +52,41 @@ Ruang nama ini akan memungkinkan Anda membuat dan memanipulasi Buku Kerja, Lemba
 
 Sekarang setelah semuanya siap, mari kita mulai bagian pengkodean! Kita akan uraikan langkah demi langkah agar lebih jelas.
 
-## Langkah 1: Tentukan Direktori Anda
+## 1. lépés: A könyvtárak meghatározása
 
 Hal pertama yang terpenting, mari tentukan di mana file Anda berada—baik file sumber maupun folder tujuan tempat Anda ingin menyimpan file yang dimodifikasi.
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
 
- Mengganti`"Your Document Directory"` Dan`"Your Output Directory"` dengan jalur sebenarnya di mesin Anda.
+Csere `"Your Document Directory"` és `"Your Output Directory"` dengan jalur sebenarnya di mesin Anda.
 
-## Langkah 2: Muat File Excel Sumber
+## 2. lépés: Töltse be a forrás Excel fájlt
 
 Selanjutnya, Anda perlu memuat berkas Excel yang ingin Anda gunakan. Di sinilah keajaiban dimulai!
 
 ```csharp
-// Muat file Excel sumber
+// Forrás Excel fájl betöltése
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Baris ini membuat yang baru`Workbook` objek dan mengarahkannya ke berkas yang sudah ada. Pastikan jalur berkas sudah benar!
+Baris ini membuat yang baru `Workbook` objek dan mengarahkannya ke berkas yang sudah ada. Pastikan jalur berkas sudah benar!
 
-## Langkah 3: Akses Lembar Kerja Pertama
+## 3. lépés: Az első munkalap elérése
 
 Sekarang setelah kita memiliki buku kerja, kita perlu mengakses lembar kerja yang berisi bagan yang ingin Anda sesuaikan.
 
 ```csharp
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Di sini, kita mengakses lembar kerja pertama (indeks`0`). Sesuaikan indeks jika bagan Anda terletak pada lembar yang berbeda.
+Di sini, kita mengakses lembar kerja pertama (indeks `0`). Sesuaikan indeks jika bagan Anda terletak pada lembar yang berbeda.
 
 ## Langkah 4: Akses Bagan Pertama
 
@@ -117,14 +119,14 @@ Sekarang untuk bagian yang penting! Mari kita atur jenis bentuk label data. Aspo
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- Jangan ragu untuk bereksperimen dengan berbagai jenis bentuk dengan mengubahnya`DataLabelShapeType.WedgeEllipseCallout` ke pilihan lain yang tersedia!
+Jangan ragu untuk bereksperimen dengan berbagai jenis bentuk dengan mengubahnya `DataLabelShapeType.WedgeEllipseCallout` ke pilihan lain yang tersedia!
 
-## Langkah 7: Simpan File Excel Output
+## 7. lépés: Mentse el a kimeneti Excel fájlt
 
 Anda telah melakukan pekerjaan berat, dan sekarang saatnya menyimpan pekerjaan Anda. Mari kita masukkan kembali bentuk label data yang dimodifikasi itu ke dalam berkas Excel.
 
 ```csharp
-// Simpan file Excel keluaran
+// Mentse el a kimeneti Excel fájlt
 wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
@@ -140,13 +142,13 @@ Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
 
 Setelah Anda melihat pesan tersebut, buka direktori output untuk memeriksa berkas Excel yang baru. Buka berkas tersebut dan bebaskan kreativitas Anda dengan label data yang baru dibentuk!
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia—panduan mudah untuk menyempurnakan label data dalam bagan Excel menggunakan Aspose.Cells untuk .NET! Menyesuaikan jenis bentuk tidak hanya membuat bagan Anda lebih menarik secara visual, tetapi juga membantu menyampaikan cerita data Anda dengan lebih efektif. Ingat, visualisasi data adalah tentang kejelasan dan keterlibatan. Jadi, jangan ragu untuk bereksperimen dengan berbagai bentuk dan gaya—bagaimanapun juga, data Anda layak mendapatkan presentasi terbaik.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?  
+### Mi az Aspose.Cells?  
 Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang untuk memanipulasi file Excel secara terprogram.
 
 ### Bisakah saya mengubah aspek berbeda pada bagan Excel menggunakan Aspose?  
@@ -156,13 +158,15 @@ Tentu saja! Aspose.Cells menawarkan fungsionalitas yang luas untuk memodifikasi 
 Meskipun artikel ini berfokus pada .NET, Aspose.Cells juga mendukung Java, PHP, Python, dan lainnya melalui REST API.
 
 ### Apakah saya perlu membayar untuk Aspose.Cells?  
-Aspose.Cells adalah produk komersial, tetapi mereka menawarkan uji coba gratis, yang dapat Anda temukan[Di Sini](https://releases.aspose.com/).
+Aspose.Cells adalah produk komersial, tetapi mereka menawarkan uji coba gratis, yang dapat Anda temukan [itt](https://releases.aspose.com/).
 
 ### Di mana saya bisa mendapatkan bantuan jika saya menghadapi masalah dengan Aspose.Cells?  
- Jika Anda mengalami masalah apa pun,[forum dukungan](https://forum.aspose.com/c/cells/9) adalah sumber yang bagus untuk mendapatkan bantuan dari para ahli.
+Jika Anda mengalami masalah apa pun, [támogató fórum](https://forum.aspose.com/c/cells/9) adalah sumber yang bagus untuk mendapatkan bantuan dari para ahli.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

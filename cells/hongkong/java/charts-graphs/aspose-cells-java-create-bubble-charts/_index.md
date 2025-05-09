@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,13 +148,13 @@ workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 ## 實際應用
 - **財務報告**：使用氣泡圖可視化財務指標。
-- **銷售數據分析**：使用不同大小的氣泡突顯不同地區的銷售趨勢。
+- **銷售數據分析**：使用不同大小的氣泡突顯各地區的銷售趨勢。
 - **科學研究**：顯示實驗結果，氣泡大小表示資料重要性。
 
 ## 性能考慮
 - 透過及時處理未使用的物件來最大限度地減少工作簿記憶體使用量。
 - 優化圖表資料來源，減少渲染過程中的處理時間。
-- 使用 Aspose.Cells 處理大型資料集時，使用高效的 Java 記憶體管理實務。
+- 使用 Aspose.Cells 處理大型資料集時，採用高效率的 Java 記憶體管理實務。
 
 ## 結論
 現在您已經了解如何使用 Aspose.Cells for Java 建立和設定氣泡圖。這個強大的工具可以顯著增強您的 Excel 報表功能。考慮探索其他圖表類型或將此解決方案整合到更大的資料處理管道中。
@@ -179,6 +181,9 @@ workbook.save(dataDir + "/HToCrBChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - **支援論壇**如有任何疑問， [支援論壇](https://forum.aspose.com/c/cells/9) 可用。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

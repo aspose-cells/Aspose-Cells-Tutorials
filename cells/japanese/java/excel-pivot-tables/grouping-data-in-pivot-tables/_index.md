@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ピボットテーブルでのデータのグループ化
@@ -108,9 +110,11 @@ Excelのピボットテーブルは、大規模なデータセットを要約・
 ### 3. Aspose.Cells for Java を使用してピボット テーブルの作成を自動化できますか?
 
 はい、提供されているソース コードの例に示されているように、Aspose.Cells for Java を使用して Excel でのピボット テーブルの作成を自動化できます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

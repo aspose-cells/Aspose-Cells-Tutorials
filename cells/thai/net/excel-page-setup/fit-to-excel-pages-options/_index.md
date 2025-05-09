@@ -1,14 +1,16 @@
 ---
-title: ตัวเลือกให้พอดีกับหน้า Excel
-linktitle: ตัวเลือกให้พอดีกับหน้า Excel
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีใช้ตัวเลือก Fit to Excel Pages ด้วย Aspose.Cells สำหรับ .NET และนำเสนอข้อมูลของคุณอย่างสวยงามด้วยคำแนะนำทีละขั้นตอนที่ง่ายดาย
-weight: 30
-url: /th/net/excel-page-setup/fit-to-excel-pages-options/
+"description": "เรียนรู้วิธีใช้ตัวเลือก Fit to Excel Pages ด้วย Aspose.Cells สำหรับ .NET และนำเสนอข้อมูลของคุณอย่างสวยงามด้วยคำแนะนำทีละขั้นตอนที่ง่ายดาย"
+"linktitle": "ตัวเลือกให้พอดีกับหน้า Excel"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "ตัวเลือกให้พอดีกับหน้า Excel"
+"url": "/th/net/excel-page-setup/fit-to-excel-pages-options/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตัวเลือกให้พอดีกับหน้า Excel
@@ -22,7 +24,7 @@ url: /th/net/excel-page-setup/fit-to-excel-pages-options/
 ก่อนจะเริ่มเขียนโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกอย่างที่จำเป็นในการเริ่มต้นแล้ว นี่คือสิ่งที่คุณควรมี:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้ในเครื่องของคุณแล้ว นี่คือศูนย์กลางหลักสำหรับงานพัฒนาทั้งหมด
-2.  Aspose.Cells สำหรับ .NET: คุณต้องดาวน์โหลดไลบรารี Aspose.Cells และเพิ่มลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดไลบรารีนี้ได้อย่างง่ายดายจาก[เว็บไซต์อาโพส](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณต้องดาวน์โหลดไลบรารี Aspose.Cells และเพิ่มลงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดไลบรารีนี้ได้อย่างง่ายดายจาก [เว็บไซต์อาโพส](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยได้มาก หากคุณสามารถจัดการตัวแปร ลูป และ I/O ไฟล์พื้นฐานได้ คุณก็จะทำได้
 4. .NET Framework: ตรวจสอบให้แน่ใจว่าโครงการของคุณได้รับการตั้งค่าด้วย .NET Framework เวอร์ชันที่เหมาะสม เนื่องจากไลบรารีได้รับการออกแบบมาเพื่อให้เข้ากันได้ภายในระบบนิเวศนี้
 
@@ -66,7 +68,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
  
--  ที่นี่คุณเพียงแค่สร้าง`Workbook` อินสแตนซ์ที่แสดงไฟล์ Excel ของคุณ`Worksheet` วัตถุช่วยให้คุณสามารถโต้ตอบกับแผ่นงานเฉพาะที่คุณต้องการปรับเปลี่ยน
+- ที่นี่คุณเพียงแค่สร้าง `Workbook` อินสแตนซ์ที่แสดงไฟล์ Excel ของคุณ `Worksheet` วัตถุช่วยให้คุณสามารถโต้ตอบกับแผ่นงานเฉพาะที่คุณต้องการปรับเปลี่ยน
 
 ## ขั้นตอนที่ 2: ระบุตัวเลือกการตั้งค่าหน้า
 
@@ -75,12 +77,12 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```csharp
 // การกำหนดจำนวนหน้าที่จะขยายความยาวของเวิร์กชีต
 worksheet.PageSetup.FitToPagesTall = 1;
-//การกำหนดจำนวนหน้าที่จะขยายความกว้างของเวิร์กชีต
+// การกำหนดจำนวนหน้าที่จะขยายความกว้างของเวิร์กชีต
 worksheet.PageSetup.FitToPagesWide = 1;
 ```
 
 - `FitToPagesTall` กำหนดว่าแผ่นงานของคุณจะขยายตามแนวตั้งกี่หน้า
-- `FitToPagesWide` กำหนดการตั้งค่าหน้าแนวนอน โดยตั้งค่าทั้งสองอย่างเป็น`1` หมายความว่าเนื้อหาของคุณจะพอดีกับหน้าเดียว ทำให้เอกสารของคุณกลายเป็นผลงานชิ้นเอกที่มีประสิทธิภาพ
+- `FitToPagesWide` กำหนดการตั้งค่าหน้าแนวนอน โดยตั้งค่าทั้งสองอย่างเป็น `1` หมายความว่าเนื้อหาของคุณจะพอดีกับหน้าเดียว ทำให้เอกสารของคุณกลายเป็นผลงานชิ้นเอกที่มีประสิทธิภาพ
 
 ## ขั้นตอนที่ 3: บันทึกสมุดงานของคุณ
 
@@ -103,19 +105,21 @@ workbook.Save(dataDir + "FitToPagesOptions_out.xls");
 Aspose.Cells เป็นไลบรารี .NET ที่แข็งแกร่งสำหรับการจัดการไฟล์ Excel ด้วยโปรแกรม ช่วยให้นักพัฒนาสามารถสร้างและจัดการสเปรดชีตได้อย่างง่ายดาย
 
 ### ฉันสามารถทดลองใช้ Aspose.Cells ฟรีได้หรือไม่?
- ใช่! คุณสามารถลงทะเบียนเพื่อทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถลงทะเบียนเพื่อทดลองใช้งานฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันจะซื้อ Aspose.Cells ได้อย่างไร?
- คุณสามารถทำการซื้อของคุณได้[ที่นี่](https://purchase.aspose.com/buy).
+คุณสามารถทำการซื้อของคุณได้ [ที่นี่](https://purchase-aspose.com/buy).
 
 ### มีตัวเลือกการสนับสนุนอะไรบ้าง?
- Aspose เป็นฟอรัมที่คุณสามารถรับการสนับสนุนและพูดคุยเกี่ยวกับปัญหาต่างๆ กับผู้ใช้คนอื่นๆ ลองดูสิ[ที่นี่](https://forum.aspose.com/c/cells/9).
+Aspose เป็นฟอรัมที่คุณสามารถรับการสนับสนุนและพูดคุยเกี่ยวกับปัญหาต่างๆ กับผู้ใช้คนอื่นๆ ลองดูสิ [ที่นี่](https://forum-aspose.com/c/cells/9).
 
-### ฉันสามารถขอใบอนุญาตชั่วคราวสำหรับ Aspose.Cells ได้หรือไม่
- ใช่ Aspose ให้ตัวเลือกสำหรับใบอนุญาตชั่วคราวซึ่งคุณสามารถร้องขอได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+### ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Cells ได้หรือไม่
+ใช่ Aspose ให้ตัวเลือกสำหรับใบอนุญาตชั่วคราวซึ่งคุณสามารถร้องขอได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

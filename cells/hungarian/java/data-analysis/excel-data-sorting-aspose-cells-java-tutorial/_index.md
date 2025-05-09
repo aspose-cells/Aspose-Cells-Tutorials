@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Javasoljuk, hogy próbáld meg megvalósítani az itt tárgyalt megoldást a pro
 Ezt az átfogó útmutatót követve magabiztosan megvalósíthatja és optimalizálhatja az Excel adatrendezést Java alkalmazásaiban az Aspose.Cells használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

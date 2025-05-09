@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Расширенные методы проверки данных
@@ -20,7 +22,7 @@
 
 ## Настройка Aspose.Cells для Java
 
-Прежде чем погрузиться в продвинутые методы, давайте начнем с Aspose.Cells для Java. Вы можете загрузить библиотеку с [Ссылка для скачивания Aspose.Cells для Java](https://releases.aspose.com/cells/java/). Обязательно следуйте инструкциям по установке, приведенным в документации по адресу [Ссылки на API Aspose.Cells для Java](https://reference.aspose.com/cells/java/).
+Прежде чем погрузиться в продвинутые методы, давайте начнем с Aspose.Cells для Java. Вы можете загрузить библиотеку с [Ссылка для скачивания Aspose.Cells для Java](https://releases.aspose.com/cells/java/)Обязательно следуйте инструкциям по установке, приведенным в документации по адресу [Ссылки на API Aspose.Cells для Java](https://reference.aspose.com/cells/java/).
 
 ## Базовая проверка данных
 
@@ -113,6 +115,7 @@ dataValidation.setFormula2("12/31/2023");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

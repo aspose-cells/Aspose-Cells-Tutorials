@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ GlobalizationSettings.setInstance(globalizationSettings);
 4. **Apache POI पर Aspose.Cells का उपयोग करने के क्या लाभ हैं?**
    - Aspose.Cells बेहतर प्रदर्शन और जटिल Excel कार्यों के लिए अधिक व्यापक कार्यक्षमताओं जैसी उन्नत सुविधाएँ प्रदान करता है।
 5. **मैं Aspose.Cells से संबंधित समस्याओं का निवारण कैसे करूँ?**
-   - अपने लाइसेंस सेटअप की जांच करें, सुनिश्चित करें कि आप सही संस्करण का उपयोग कर रहे हैं, और परामर्श करें [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) समर्थन के लिए।
+   - अपने लाइसेंस सेटअप की जांच करें, सुनिश्चित करें कि आप सही संस्करण का उपयोग कर रहे हैं, और परामर्श करें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) समर्थन के लिए।
 
 ## संसाधन
 - **प्रलेखन**: https://reference.aspose.com/cells/java/
@@ -156,6 +158,9 @@ GlobalizationSettings.setInstance(globalizationSettings);
 - **सहायता**: https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

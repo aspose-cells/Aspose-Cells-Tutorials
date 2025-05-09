@@ -8,7 +8,9 @@ url: /net/worksheet-security/unprotect-simple-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unprotect Simple Sheet using Aspose.Cells
@@ -78,6 +80,7 @@ You can find support on the [Aspose forum](https://forum.aspose.com/c/cells/9).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

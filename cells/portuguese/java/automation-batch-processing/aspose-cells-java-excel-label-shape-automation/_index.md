@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ import com.aspose.cells.MsoDrawingType;
 Label label = (Label) sheet.getShapes().addShape(MsoDrawingType.LABEL, 2, 2, 2, 0, 60, 120);
 ```
 
-### Definindo o texto do rótulo
+### Configurando o texto do rótulo
 
 Personalize seu rótulo definindo seu texto. Esta etapa permite que você especifique o que o rótulo exibirá.
 
@@ -205,6 +207,9 @@ Visita [Fórum de Suporte da Aspose](https://forum.aspose.com/c/cells/9) para ob
 Ao seguir este guia, você deu um passo essencial para dominar a automação do Excel com o Aspose.Cells para Java. Continue explorando e integrando esses recursos poderosos aos seus aplicativos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

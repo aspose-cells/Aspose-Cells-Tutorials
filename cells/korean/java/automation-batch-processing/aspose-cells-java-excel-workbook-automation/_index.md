@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@ Excel 통합 문서 생성 자동화를 간소화하거나, 위첨자 같은 사
 
 2. **환경 설정 요구 사항:**
    - Java 개발 환경이 설정되었습니다.
-   - IntelliJ IDEA, Eclipse 또는 이와 유사한 IDE.
+   - IntelliJ IDEA, Eclipse 등과 같은 IDE.
 
 3. **지식 전제 조건:**
    - Java 프로그래밍에 대한 기본적인 이해.
@@ -141,7 +143,7 @@ cell.setStyle(style);
 ### 통합 문서 저장
 
 **개요:**
-마지막으로 수정된 통합 문서를 저장합니다. 이 단계에서는 변경 사항을 완료하고 공유하거나 추가 분석할 수 있는 Excel 파일이 생성됩니다.
+마지막으로 수정된 통합 문서를 저장합니다. 이 단계에서는 변경 사항을 최종적으로 확정하고 공유하거나 추가 분석할 수 있는 Excel 파일을 생성합니다.
 
 ```java
 // 통합 문서가 저장될 출력 디렉토리를 정의합니다.
@@ -197,6 +199,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 얻으려면:
 Aspose.Cells for Java에 대한 이해와 숙련도를 높이기 위해 다음 자료를 활용하세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

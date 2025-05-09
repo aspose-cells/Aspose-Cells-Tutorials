@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Navegar em conjuntos de dados complexos pode ser desafiador, especialmente quand
 
 Este tutorial se concentra na aplicação de formatação condicional para aprimorar a visualização de dados. Desenvolvido para desenvolvedores, ele orienta você no uso do Aspose.Cells Java para criar relatórios dinâmicos e profissionais do Excel.
 
-### que você aprenderá
+### O que você aprenderá
 
 - Configurando seu ambiente com Aspose.Cells para Java.
 - Criar uma pasta de trabalho e acessar planilhas programaticamente.
@@ -182,6 +184,9 @@ Sim, você pode referenciar células em diferentes planilhas usando referências
 Especifique o formato de salvamento desejado (por exemplo, XLS ou XLSX) para manter a compatibilidade com várias versões do Excel. O Aspose.Cells suporta vários formatos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ Aspose.Cells for Javaを使って数値やカスタム日付書式を適用す�
 3. **ライセンスを購入せずにこのライブラリを使用できますか?**
    - はい、まずは無料トライアルで機能を試すことができます。
 4. **シート全体を一度にフォーマットすることは可能ですか?**
-   - シート全体に対して直接サポートされているわけではありませんが、行または列にスタイルを効率的に適用します。
+   - シート全体に対して直接サポートされていませんが、行または列にスタイルを効率的に適用します。
 5. **Aspose.Cells を使用するためのシステム要件は何ですか?**
    - 互換性のある Java 環境 (JDK 8+) と IntelliJ IDEA や Eclipse などの IDE。
 
@@ -174,6 +176,9 @@ Aspose.Cells for Javaを使って数値やカスタム日付書式を適用す�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

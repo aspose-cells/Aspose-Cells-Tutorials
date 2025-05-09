@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@
 ### [Манипулирование сводными таблицами Excel с помощью Aspose.Cells Java: подробное руководство](./excel-pivot-table-manipulation-aspose-cells-java/)
 Узнайте, как управлять сводными таблицами Excel с помощью Aspose.Cells для Java. Это руководство охватывает настройку, загрузку рабочей книги и расширенные настройки, такие как промежуточные итоги и сортировка.
 
-### [Автоматизация стилизации и сохранения сводных таблиц Excel с помощью Aspose.Cells для Java: подробное руководство](./excel-pivot-table-styling-saving-aspose-cells-java/)
+### [Автоматизируйте стилизацию и сохранение сводных таблиц Excel с помощью Aspose.Cells для Java: подробное руководство](./excel-pivot-table-styling-saving-aspose-cells-java/)
 Освойте искусство автоматизации стилизации и сохранения сводных таблиц Excel с помощью Aspose.Cells для Java. В этом руководстве рассматривается создание рабочей книги, применение стилей и многое другое.
 
 ### [Освоение сводных таблиц в Excel с использованием Aspose.Cells для Java: полное руководство по анализу данных](./excel-pivot-tables-aspose-cells-java-tutorial/)
@@ -183,6 +185,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ public class FontSubstitutionHandler {
 - **การซื้อและการออกใบอนุญาต:** รับใบอนุญาตของคุณหรือลองทดลองใช้ฟรีผ่าน [การซื้อ Aspose](https://purchase.aspose.com/buy) หรือ [ทดลองใช้ Aspose ฟรี](https://releases-aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

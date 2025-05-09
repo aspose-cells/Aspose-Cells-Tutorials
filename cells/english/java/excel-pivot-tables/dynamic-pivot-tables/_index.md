@@ -8,7 +8,9 @@ url: /java/excel-pivot-tables/dynamic-pivot-tables/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamic Pivot Tables
@@ -107,9 +109,11 @@ Yes, you can apply filters to pivot tables to display specific data subsets.
 ### Q5: Does Aspose.Cells support Excel's advanced pivot table features?
 
 Yes, Aspose.Cells provides extensive support for Excel's advanced pivot table features, allowing you to create complex pivot tables.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

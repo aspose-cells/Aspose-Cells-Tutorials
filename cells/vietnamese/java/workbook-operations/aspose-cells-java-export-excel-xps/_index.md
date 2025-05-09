@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Hãy đảm bảo bạn đã sẵn sàng mọi thứ để triển khai chức n
 
 Trước khi bắt đầu triển khai, hãy đảm bảo môi trường của bạn được thiết lập đúng cách. Bạn sẽ cần:
 
-- **Thư viện bắt buộc:** Aspose.Cells cho Java phiên bản 25.3
+- **Thư viện cần thiết:** Aspose.Cells cho Java phiên bản 25.3
 - **Yêu cầu thiết lập môi trường:** Một Bộ phát triển Java (JDK) được cài đặt trên máy của bạn và một IDE như IntelliJ IDEA hoặc Eclipse.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với hệ thống xây dựng Maven hoặc Gradle.
 
@@ -162,7 +164,7 @@ Sẵn sàng để thử nó? Hãy lặn vào [Tài liệu Aspose.Cells](https://
 **1. Làm thế nào để xử lý các tệp Excel lớn trong Aspose.Cells?**
    - Sử dụng API phát trực tuyến do Aspose cung cấp để xử lý các tệp lớn một cách hiệu quả.
 
-**2. Tôi chỉ có thể xuất một số trang tính cụ thể sang XPS được không?**
+**2. Tôi có thể chỉ xuất một số trang tính cụ thể sang XPS không?**
    - Vâng, điều chỉnh của bạn `WorkbookRender` cấu hình để nhắm mục tiêu vào các bảng tính cụ thể.
 
 **3. Yêu cầu hệ thống để sử dụng Aspose.Cells là gì?**
@@ -186,6 +188,9 @@ Với hướng dẫn này, bạn sẽ được trang bị đầy đủ để b�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: 3D Formatını Tabloya Uygula
-linktitle: 3D Formatını Tabloya Uygula
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de çarpıcı 3D grafiklerin nasıl oluşturulacağını keşfedin. Basit adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/advanced-chart-operations/apply-3d-format-to-chart/
+"description": "Aspose.Cells for .NET kullanarak Excel'de çarpıcı 3D grafiklerin nasıl oluşturulacağını keşfedin. Basit adım adım kılavuzumuzu izleyin."
+"linktitle": "3D Formatını Tabloya Uygula"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "3D Formatını Tabloya Uygula"
+"url": "/tr/net/advanced-chart-operations/apply-3d-format-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 3D Formatını Tabloya Uygula
@@ -24,7 +26,7 @@ Bir grafiğe 3D formatının uygulanmasının inceliklerine dalmadan önce, ihti
 ### Yazılım Gereksinimleri
 
 - Visual Studio: .NET uygulamalarıyla çalışmak için Visual Studio'nun yüklü olduğundan emin olun.
--  .NET için Aspose.Cells: Eğer henüz yapmadıysanız, Aspose.Cells'i şu adresten indirin ve kurun:[Burada](https://releases.aspose.com/cells/net/).
+- .NET için Aspose.Cells: Eğer henüz yapmadıysanız, Aspose.Cells'i şu adresten indirin ve kurun: [Burada](https://releases.aspose.com/cells/net/).
 
 ### Kodlama Ortamı Kurulumu
 
@@ -56,14 +58,14 @@ Bu bölüm, süreci yönetilebilir adımlara bölerek her aşama hakkında net b
 
 ## Adım 1: Çalışma Kitabınızı Başlatın
 
- İlk olarak, bir örnek oluşturmanız gerekir`Workbook` sınıf. Bu nesne Excel belgenizin temelini oluşturacaktır.
+İlk olarak, bir örnek oluşturmanız gerekir `Workbook` sınıf. Bu nesne Excel belgenizin temelini oluşturacaktır.
 
 ```csharp
 //Çıktı dizini
 string outputDir = "Your Document Directory";
 Workbook book = new Workbook();
 ```
- Bunu düşünün`Workbook` Boş bir tuval olarak—renkli veriler ve etkili görselleştirmelerle doldurmanız için hazır.
+Bunu düşünün `Workbook` Boş bir tuval olarak—renkli veriler ve etkili görselleştirmelerle doldurmanız için hazır.
 
 ## Adım 2: İlk Çalışma Sayfasını Yeniden Adlandırın
 
@@ -161,11 +163,11 @@ bevel.Height = 2;
 bevel.Width = 5;
 ```
 
-Bir heykeltıraşın taşa şekil vermesi gibi, biz de grafiğimizin canlanmasını sağlayacak derinlik yaratıyoruz!
+Bir heykeltıraşın taşa şekil vermesi gibi, biz de grafiğimizin canlanmasını sağlayan derinlik yaratıyoruz!
 
 ## Adım 10: Yüzey Malzemesini ve Aydınlatmayı Özelleştirin
 
-Tablomuzu parlak hale getirelim! Yüzey malzemesini ve ışık ayarlarını ayarlayacağız.
+Tablomuzu parlatalım! Yüzey malzemesini ve ışık ayarlarını ayarlayalım.
 
 ```csharp
 fmt3d.SurfaceMaterialType = PresetMaterialType.WarmMatte;
@@ -211,16 +213,18 @@ Aspose.Cells for .NET, geliştiricilerin Excel belgelerini programlı bir şekil
 Evet! Aspose.Cells, Sütun, Çizgi, Pasta ve daha birçok farklı grafik türünü destekler ve bunlar kolayca özelleştirilebilir.
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/).
 
 ### Grafiklere 3D formatların dışında başka efektler uygulayabilir miyim?
 Evet, grafiklerinizi 3B'nin ötesine taşımak için gölgeler, degradeler ve farklı stiller gibi çeşitli efektler uygulayabilirsiniz.
 
-### Aspose.Cells için desteği nerede bulabilirim?
- Destek için şu adresi ziyaret edebilirsiniz:[Aspose Forum](https://forum.aspose.com/c/cells/9) Toplum desteği ve yardımı için.
+### Aspose.Cells için desteği nereden bulabilirim?
+Destek için şu adresi ziyaret edebilirsiniz: [Aspose Forum](https://forum.aspose.com/c/cells/9) Toplum desteği ve yardımı için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

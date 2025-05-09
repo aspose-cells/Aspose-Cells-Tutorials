@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ import com.aspose.cells.*;
 
 public class ExportWorksheetCSSSeparatelyInHTML {
     public static void main(String[] args) throws Exception {
-        // สร้างวัตถุสมุดงาน
+        // สร้างวัตถุเวิร์กบุ๊ก
         Workbook wb = new Workbook();
         
         // เข้าถึงเวิร์กชีตแรกในเวิร์กบุ๊ก
@@ -189,6 +191,9 @@ Aspose.Cells สำหรับ Java ไม่เพียงแต่เป็�
 - สำรวจการนำไปใช้จริงในโครงการของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

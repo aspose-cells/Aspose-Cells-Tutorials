@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizza Excel con Java: crea tabelle e grafici interattivi utilizzando Aspose.Cells
@@ -229,7 +231,7 @@ Quando si gestiscono notevoli quantità di dati Excel o si generano numerosi rep
 
 ### Gestione efficiente della memoria
 
-* **Elaborazione dei flussi:** Utilizzare le API basate su flussi di Aspose.Cells per elaborare file di grandi dimensioni e ridurre al minimo il consumo di memoria.
+* **Elaborazione di flussi:** Utilizzare le API basate su flussi di Aspose.Cells per elaborare file di grandi dimensioni e ridurre al minimo il consumo di memoria.
 * **Pulizia delle risorse:** Assicurarsi sempre di chiudere `Workbook` oggetti e altre risorse dopo l'uso per liberare memoria.
 * **Dimensione heap JVM:** Regola le impostazioni heap della Java Virtual Machine (JVM) (ad esempio, utilizzando `-Xmx` parametro) per allocare memoria sufficiente per operazioni di grandi dimensioni.
 
@@ -287,6 +289,9 @@ Padroneggiando queste tecniche, puoi semplificare notevolmente i flussi di lavor
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

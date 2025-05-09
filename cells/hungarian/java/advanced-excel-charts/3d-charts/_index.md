@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 3D-s diagramok
@@ -113,7 +115,7 @@ Az Aspose.Cells for Java különféle típusú 3D-s diagramokat támogat, beleé
 
 - Oszlopdiagramok: Kategóriák közötti adatok összehasonlítására szolgálnak.
 - Kördiagramok: Az egyes kategóriák arányát mutatják az egészben.
-- Vonaldiagramok: Trendeket jelenítenek meg egy adott időszakra vonatkozóan.
+- Vonaldiagramok: Trendeket jelenítenek meg egy adott időszakon belül.
 - Területdiagramok: Jelölje ki az adatok és a tengely közötti területet.
 
 Ezeket a diagramokat hasonló lépésekkel hozhatja létre a megfelelő diagramtípusokkal.
@@ -166,11 +168,12 @@ Igen, automatizálhatja a 3D-s diagramok adatainak frissítését adatforrások 
 
 ### Hol találok további forrásokat és dokumentációt az Aspose.Cells for Java-hoz?
 
-Az Aspose.Cells for Java átfogó dokumentációját és forrásait a következő weboldalon találja: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/).
+Az Aspose.Cells for Java átfogó dokumentációját és forrásait a következő weboldalon találja: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

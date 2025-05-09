@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kombinované typy grafů
@@ -110,7 +112,7 @@ chart.toImage("CombinedChart.png", ImageFormat.getPng());
 
 ## Závěr
 
-V tomto článku jsme prozkoumali, jak vytvářet kombinované typy grafů pomocí Aspose.Cells pro Javu. Začali jsme pochopením toho, co Aspose.Cells pro Javu je, a poté jsme pokračovali podrobnými pokyny pro vytvoření kombinovaného grafu, přidání dat do něj, přizpůsobení jeho vzhledu a jeho uložení/export. S Aspose.Cells pro Javu můžete uvolnit sílu vizualizace dat ve vašich Java aplikacích.
+tomto článku jsme prozkoumali, jak vytvářet kombinované typy grafů pomocí Aspose.Cells pro Javu. Začali jsme pochopením toho, co Aspose.Cells pro Javu je, a poté jsme pokračovali podrobnými pokyny pro vytvoření kombinovaného grafu, přidání dat do něj, přizpůsobení jeho vzhledu a jeho uložení/export. S Aspose.Cells pro Javu můžete uvolnit sílu vizualizace dat ve vašich Java aplikacích.
 
 ## Často kladené otázky
 
@@ -137,6 +139,7 @@ Komplexní dokumentaci a množství příkladů kódu naleznete na webových str
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

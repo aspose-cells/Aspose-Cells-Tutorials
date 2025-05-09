@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Tham số và phương pháp
 - **Sổ làm việc**: Thể hiện toàn bộ tệp Excel.
-- **Phiếu bài tập**: Chỉ một trang tính riêng lẻ trong bảng tính.
+- **Phiếu bài tập**Chỉ một trang tính riêng lẻ trong bảng tính.
 - **Bộ sưu tập bình luận Threaded**Một tập hợp các bình luận liên quan đến một ô.
 
 ## Ứng dụng thực tế
@@ -148,6 +150,9 @@ Sẵn sàng để tìm hiểu sâu hơn? Hãy thử triển khai giải pháp n�
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

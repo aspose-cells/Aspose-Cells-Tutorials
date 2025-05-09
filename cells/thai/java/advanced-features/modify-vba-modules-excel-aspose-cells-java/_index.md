@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 
 **สิ่งที่คุณจะได้เรียนรู้:**
 - การโหลดเวิร์กบุ๊ก Excel ด้วย Aspose.Cells สำหรับ Java
-- การเข้าถึงและปรับเปลี่ยนโมดูล VBA ภายในเวิร์กบุ๊ก
+- การเข้าถึงและแก้ไขโมดูล VBA ภายในเวิร์กบุ๊ก
 - บันทึกการปรับเปลี่ยนกลับไปยังระบบไฟล์
 
 มาเริ่มต้นด้วยการตั้งค่าสภาพแวดล้อมของคุณกันเลย!
@@ -186,6 +188,9 @@ workbook.save(outDir + "/MVBAorMacroCode_out.xlsm");
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

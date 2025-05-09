@@ -1,35 +1,37 @@
 ---
-title: Labelbesturingselement toevoegen aan grafiek
-linktitle: Labelbesturingselement toevoegen aan grafiek
-second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Leer hoe u een labelbesturingselement toevoegt aan uw diagrammen in Aspose.Cells voor .NET met deze stapsgewijze handleiding. Verbeter uw datavisualisatie.
-weight: 10
-url: /nl/net/inserting-controls-in-charts/add-label-control-to-chart/
+"description": "Leer hoe u een labelbesturingselement toevoegt aan uw diagrammen in Aspose.Cells voor .NET met deze stapsgewijze handleiding. Verbeter uw datavisualisatie."
+"linktitle": "Labelcontrole toevoegen aan grafiek"
+"second_title": "Aspose.Cells .NET Excel-verwerkings-API"
+"title": "Labelcontrole toevoegen aan grafiek"
+"url": "/nl/net/inserting-controls-in-charts/add-label-control-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Labelbesturingselement toevoegen aan grafiek
+# Labelcontrole toevoegen aan grafiek
 
 ## Invoering
 
-Grafieken zijn een krachtige manier om gegevens te visualiseren en soms kan het toevoegen van een label de duidelijkheid nog verder vergroten. Als u met Aspose.Cells voor .NET werkt, kunt u eenvoudig een label aan uw grafieken toevoegen om extra context te bieden. In deze tutorial laten we u stap voor stap zien hoe u dat doet, zodat u goed bent toegerust om het in uw eigen projecten te implementeren.
+Grafieken zijn een krachtige manier om gegevens te visualiseren, en soms kan het toevoegen van een label de duidelijkheid nog verder vergroten. Als je met Aspose.Cells voor .NET werkt, kun je eenvoudig een label aan je grafieken toevoegen om extra context te bieden. In deze tutorial leggen we stap voor stap uit hoe je dat doet, zodat je goed voorbereid bent om het in je eigen projecten te implementeren.
 
 ## Vereisten
 
 Voordat we in de details duiken, leggen we eerst uit wat je nodig hebt om te beginnen:
 
-- Basiskennis van C#: Het is cruciaal om de basis van C#-programmering te begrijpen. Als u een beginner bent, maak u dan geen zorgen – de stappen zullen duidelijk en beknopt zijn.
-- Aspose.Cells-bibliotheek: zorg ervoor dat u de Aspose.Cells-bibliotheek hebt geïnstalleerd. U kunt dit doen via NuGet Package Manager in Visual Studio. Als u dat nog niet hebt gedaan, bekijk dan de[downloadlink](https://releases.aspose.com/cells/net/) voor de bibliotheek.
-- Visual Studio: U hebt een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio nodig om uw code te schrijven en uit te voeren.
+- Basiskennis van C#: Het is cruciaal om de basisprincipes van C#-programmeren te begrijpen. Ben je een beginner? Geen zorgen, de stappen zullen duidelijk en beknopt zijn.
+- Aspose.Cells-bibliotheek: Zorg ervoor dat de Aspose.Cells-bibliotheek is geïnstalleerd. U kunt dit doen via NuGet Package Manager in Visual Studio. Als u dit nog niet hebt gedaan, bekijk dan de [downloadlink](https://releases.aspose.com/cells/net/) voor de bibliotheek.
+- Visual Studio: U hebt een Integrated Development Environment (IDE) zoals Visual Studio nodig om uw code te schrijven en uit te voeren.
 
 ## Pakketten importeren
 
-Zodra je alles op zijn plek hebt, is de volgende stap het importeren van de benodigde pakketten. Hier is hoe je dat kunt doen.
+Zodra je alles op zijn plek hebt staan, is de volgende stap het importeren van de benodigde pakketten. Zo doe je dat.
 
-### Inclusief Aspose.Cellen
+### Inclusief Aspose.Cells
 
 Zorg ervoor dat u in uw C#-project de Aspose.Cells-naamruimte bovenaan uw bestand opneemt:
 
@@ -43,21 +45,21 @@ using System.Drawing;
 
 Dit is alsof je de gereedschapskist opent voordat je de kraan gaat repareren: je moet je gereedschap bij de hand hebben!
 
-Nu u bent voorbereid, laten we de mouwen opstropen en aan de slag gaan. We doorlopen alle stappen die nodig zijn om een label aan uw grafiek toe te voegen.
+Nu je klaar bent, kunnen we de handen uit de mouwen steken en aan de slag gaan. We doorlopen alle stappen die nodig zijn om een label aan je grafiek toe te voegen.
 
-## Stap 1: Definieer mappen
+## Stap 1: Mappen definiëren
 
-Eerst definiëren we de paden voor onze bron- en uitvoermappen. Dit is waar we ons bestaande Excel-bestand ophalen en waar het gewijzigde bestand wordt opgeslagen.
+Eerst definiëren we de paden voor onze bron- en uitvoermappen. Hier halen we ons bestaande Excel-bestand op en wordt het gewijzigde bestand opgeslagen.
 
 ```csharp
-// Bron directory
+// Bronmap
 string sourceDir = "Your Document Directory";
 
 // Uitvoermap
 string outputDir = "Your Output Directory";
 ```
 
-Zie dit als het opzetten van een toneel voor een toneelstuk. Je moet weten waar je acteurs (bestanden) zijn!
+Zie dit als het voorbereiden van een toneelstuk. Je moet weten waar je acteurs (dossiers) zijn!
 
 ## Stap 2: Open het bestaande bestand
 
@@ -68,7 +70,7 @@ Vervolgens laden we het Excel-bestand met de grafiek waaraan we een label willen
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Hier gebruiken we de`Workbook` klasse van Aspose.Cells om ons Excel-bestand te openen. Het is alsof je de deur ontgrendelt om de creativiteit te laten stromen!
+Hier gebruiken we de `Workbook` klasse van Aspose.Cells om ons Excel-bestand te openen. Het is alsof je de deur opent en je creativiteit de vrije loop laat!
 
 ## Stap 3: Toegang tot het werkblad
 
@@ -79,32 +81,32 @@ Nu we onze werkmap hebben, gaan we naar het werkblad met de grafiek. We gaan erv
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
-Deze stap gaat over het navigeren door het gebouw. Je hebt de sleutel (het werkboek), maar nu moet je je kamer vinden (het werkblad).
+In deze stap draait het allemaal om navigeren door het gebouw. Je hebt de sleutel (het werkboek), maar nu moet je je kamer vinden (het werkblad).
 
 ## Stap 4: Haal de grafiek op
 
-Nu we toegang hebben tot het werkblad, is het tijd om onze grafiek te pakken. We pakken de eerste beschikbare grafiek.
+Nu we het werkblad hebben geopend, is het tijd om onze grafiek te pakken. We pakken de eerste beschikbare grafiek.
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-Deze regel is vergelijkbaar met het vinden van het juiste kunstwerk in een galerie. Uw grafiek wacht, en nu bent u klaar om hem nog helderder te laten schitteren!
+Deze zin is vergelijkbaar met het vinden van het juiste kunstwerk in een galerie. Je kaart wacht, en nu ben je klaar om hem nog meer te laten schitteren!
 
 ## Stap 5: Voeg het label toe aan de grafiek
 
-Nu komt het spannende gedeelte: het label toevoegen aan de grafiek. We definiëren de positie en grootte van ons label.
+Nu komt het spannende gedeelte: het label aan de grafiek toevoegen. We bepalen de positie en grootte van het label.
 
 ```csharp
 // Voeg een nieuw label toe aan de grafiek.
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Hier,`AddLabelInChart` zorgt ervoor dat er een label wordt gemaakt op basis van de coördinaten en afmetingen die u opgeeft. Het is alsof u een mooi kader om uw kunstwerk plakt!
+Hier, `AddLabelInChart` zorgt voor het maken van een label op basis van de door jou opgegeven coördinaten en afmetingen. Het is alsof je een mooie lijst om je kunstwerk plakt!
 
 ## Stap 6: Stel de labeltekst in
 
-Vervolgens moet u de tekst van het nieuwe label instellen. 
+Vervolgens moet u de tekst voor het nieuwe label instellen. 
 
 ```csharp
 // Stel het bijschrift van het label in.
@@ -115,29 +117,29 @@ Dit is waar je je kunstwerk een titel geeft. Het helpt kijkers te begrijpen waar
 
 ## Stap 7: Stel het plaatsingstype in
 
-Laten we nu bepalen hoe het label wordt gepositioneerd ten opzichte van de grafiek. Hier stellen we het in op free-floating, wat betekent dat het onafhankelijk van de grafiekelementen kan worden verplaatst.
+Laten we nu bepalen hoe het label ten opzichte van de grafiek wordt gepositioneerd. Hier maken we het vrij zwevend, wat betekent dat het onafhankelijk van de grafiekelementen kan worden verplaatst.
 
 ```csharp
 // Stel het plaatsingstype in, de manier waarop het label aan de cellen wordt bevestigd.
 label.Placement = Aspose.Cells.Drawing.PlacementType.FreeFloating; 
 ```
 
-Beschouw deze stap als het geven van wat vrijheid aan je label om over het canvas te bewegen. Het heeft zijn eigen persoonlijkheid!
+Zie deze stap als het geven van wat bewegingsvrijheid aan je label op het canvas. Het heeft een eigen persoonlijkheid!
 
 ## Stap 8: Sla de werkmap op
 
-Sla ten slotte uw aangepaste werkmap op in de uitvoermap. 
+Sla ten slotte uw gewijzigde werkmap op in de uitvoermap. 
 
 ```csharp
 // Sla het Excel-bestand op.
 workbook.Save(outputDir + "outputAddingLabelControlInChart.xls");
 ```
 
-Dit is waar je de deal sluit. Je finaliseert je meesterwerk en bewaart het voor iedereen om te zien!
+Dit is waar je de deal bezegelt. Je rondt je meesterwerk af en bewaart het voor iedereen om te zien!
 
 ## Stap 9: Bevestig de uitvoering
 
-Ten slotte kunt u uzelf ervan verzekeren dat alles soepel is verlopen door een bevestiging naar de console te sturen.
+Ten slotte kunt u uzelf ervan verzekeren dat alles goed is verlopen door een bevestiging naar de console te sturen.
 
 ```csharp
 Console.WriteLine("AddingLabelControlInChart executed successfully.");
@@ -147,27 +149,29 @@ Het is alsof je je eindproduct aan de wereld laat zien, klaar voor applaus!
 
 ## Conclusie
 
-En daar heb je het! Je hebt succesvol een labelbesturingselement toegevoegd aan een grafiek met Aspose.Cells voor .NET. Met slechts een paar regels code heb je de helderheid van je visuele datarepresentatie verbeterd, waardoor deze veel informatiever is geworden. Vergeet niet dat deze labels onschatbare hulpmiddelen kunnen zijn, of je nu een presentatie samenstelt of je verdiept in data-analyse.
+En voilà! Je hebt met succes een labelbesturingselement aan een grafiek toegevoegd met Aspose.Cells voor .NET. Met slechts een paar regels code heb je de visuele weergave van je gegevens duidelijker gemaakt, waardoor deze veel informatiever is. Onthoud: of je nu een presentatie samenstelt of je in de data-analyse stort, deze labels kunnen van onschatbare waarde zijn.
 
 ## Veelgestelde vragen
 
 ### Kan ik het uiterlijk van het label aanpassen?
-Ja! U kunt het lettertype, de kleur, de grootte en andere eigenschappen van het label naar wens aanpassen.
+Jazeker! U kunt het lettertype, de kleur, de grootte en andere eigenschappen van het label naar wens aanpassen.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells is een betaald product, maar u kunt beginnen met een[gratis proefperiode](https://releases.aspose.com/) om de kenmerken ervan te verkennen.
+Aspose.Cells is een betaald product; u kunt echter beginnen met een [gratis proefperiode](https://releases.aspose.com/) om de functies ervan te verkennen.
 
 ### Wat als ik meerdere labels wil toevoegen?
-kunt de stappen voor het toevoegen van labels zo vaak herhalen als nodig is, telkens met een andere positie en tekst.
+U kunt de stappen voor het toevoegen van labels zo vaak herhalen als nodig is, telkens met een andere positie en tekst.
 
 ### Wordt het label verplaatst als de grafiekgegevens veranderen?
-Als u het plaatsingstype instelt op vast, beweegt het met de grafiekgegevens mee. Als het vrij zwevend is, blijft het op de opgegeven positie.
+Als u het plaatsingstype instelt op vast, beweegt het mee met de grafiekgegevens. Als het vrij zwevend is, blijft het op de opgegeven positie.
 
 ### Waar kan ik meer gedetailleerde Aspose.Cells-documentatie vinden?
- Bekijk de[documentatie](https://reference.aspose.com/cells/net/) voor uitgebreide handleidingen en API-referenties.
+Bekijk de [documentatie](https://reference.aspose.com/cells/net/) voor uitgebreide handleidingen en API-referenties.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

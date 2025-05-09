@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ public class ExcelVersionDemo {
    - Λάβετε υπόψη τις διαφορές στις προδιαγραφές μορφής αρχείων μεταξύ των εκδόσεων, όπως ο χειρισμός έργων VBA ή μακροεντολών.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

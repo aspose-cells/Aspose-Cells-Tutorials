@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ochrana heslem v Excelu
@@ -102,7 +104,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
-V tomto kódu načteme dříve vytvořený soubor aplikace Excel, nastavíme heslo a ochráníme sešit. Můžete nahradit `"MySecretPassword"` s požadovaným heslem.
+tomto kódu načteme dříve vytvořený soubor aplikace Excel, nastavíme heslo a ochráníme sešit. Můžete nahradit `"MySecretPassword"` s požadovaným heslem.
 
 ## Závěr
 
@@ -133,6 +135,7 @@ Ochrana heslem v souborech aplikace Excel je silným bezpečnostním opatřením
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

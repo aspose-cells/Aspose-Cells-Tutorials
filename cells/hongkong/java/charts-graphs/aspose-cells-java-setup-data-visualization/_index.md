@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_20
 - **最佳實踐**：定期更新至最新的 Aspose.Cells 版本以取得改進和新功能。
 
 ## 結論
-透過遵循本指南，您將學習如何建立工作簿、用資料填入工作簿、新增圖表以及儲存工作 - 所有這些都使用 Java 中的 Aspose.Cells 完成。這些知識可以應用於資料視覺化至關重要的眾多領域。下一步是什麼？透過整合不同類型的資料來源或探索 Aspose.Cells 提供的其他圖表樣式進行實驗。
+透過遵循本指南，您將學習如何建立工作簿、用資料填充工作簿、新增圖表以及儲存工作 - 所有這些都使用 Java 中的 Aspose.Cells 完成。這些知識可以應用於資料視覺化至關重要的眾多領域。下一步是什麼？透過整合不同類型的資料來源或探索 Aspose.Cells 提供的其他圖表樣式進行實驗。
 
 ## 常見問題部分
 1. **如何為非 Maven 專案安裝 Aspose.Cells？**  
@@ -187,6 +189,9 @@ workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_20
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Sind Sie bereit, Ihre Excel-Automatisierungskenntnisse auf die nächste Stufe zu
    - Ja, mit `FindOptions` Wenn die Funktion zum Anzeigen der Originalwerte konfiguriert ist, können Sie solche Suchvorgänge durchführen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

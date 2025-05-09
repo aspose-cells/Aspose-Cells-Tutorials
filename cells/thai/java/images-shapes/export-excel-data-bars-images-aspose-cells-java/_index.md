@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 - การส่งออกแถบข้อมูลที่จัดรูปแบบเป็นภาพ PNG เพื่อการแบ่งปันหรือฝังได้อย่างง่ายดาย
 - บันทึกการเปลี่ยนแปลงของคุณกลับไปยังเวิร์กบุ๊ก Excel
 
-ก่อนที่จะเริ่มดำเนินการ โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าทุกอย่างอย่างถูกต้อง เพื่อประสบการณ์การเรียนรู้ที่ราบรื่น
+ก่อนจะเริ่มดำเนินการ โปรดตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าทุกอย่างอย่างถูกต้อง เพื่อประสบการณ์การเรียนรู้ที่ราบรื่น
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -211,6 +213,9 @@ workbook.save(outDir + "/databar.xlsx", SaveFormat.XLSX);
 - [การสนับสนุนชุมชน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

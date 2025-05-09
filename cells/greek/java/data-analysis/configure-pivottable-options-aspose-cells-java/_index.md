@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ wb.save("SettingPivotTableOption_out.xlsx");
 Αυτός ο οδηγός θα σας δώσει τη δυνατότητα να αξιοποιήσετε πλήρως τις δυνατότητες του Aspose.Cells για Java στην αποτελεσματική διαμόρφωση Συγκεντρωτικών Πινάκων. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

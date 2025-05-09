@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -244,12 +246,15 @@ public class ReplaceTagsWithText {
 - [下載 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [購買許可證](https://purchase.aspose.com/buy)
 - [免費試用版下載](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 透過遵循本指南，您將能夠在專案中充分利用 Aspose.Cells for Java，從而提高處理 Excel 檔案時的生產力和準確性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

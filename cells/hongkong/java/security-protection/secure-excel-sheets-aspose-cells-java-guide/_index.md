@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 許可證取得步驟
 - **免費試用：** 從 30 天免費試用開始探索功能。
-- **臨時執照：** 取得臨時許可證以進行擴展評估。
+- **臨時執照：** 取得臨時許可證以進行延長評估。
 - **購買：** 購買完整許可證以供商業使用。
 
 確保您已正確配置項目並新增庫。設定基本工作簿的方法如下：
@@ -174,6 +176,9 @@ excel.save(outDir + "/AdvancedProtection_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

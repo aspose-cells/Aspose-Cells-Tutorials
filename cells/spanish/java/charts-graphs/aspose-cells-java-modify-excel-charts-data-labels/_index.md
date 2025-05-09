@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,7 +183,7 @@ A3: Sí, iterar sobre todos los objetos del gráfico dentro de una hoja de cálc
 **P4: ¿Cuáles son algunos errores comunes al utilizar Aspose.Cells?**
 A4: Los problemas comunes incluyen olvidar liberar recursos o no manejar excepciones correctamente durante las operaciones de archivos.
 
-**Q5: ¿Es posible integrar Aspose.Cells con otros frameworks Java?**
+**Q5: ¿Es posible integrar Aspose.Cells con otros frameworks de Java?**
 A5: Sí, Aspose.Cells se puede integrar perfectamente con varios marcos y aplicaciones basados en Java.
 
 ## Recursos
@@ -196,6 +198,9 @@ A5: Sí, Aspose.Cells se puede integrar perfectamente con varios marcos y aplica
 Explore estos recursos para profundizar su comprensión y aprovechar al máximo Aspose.Cells para Java en sus proyectos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

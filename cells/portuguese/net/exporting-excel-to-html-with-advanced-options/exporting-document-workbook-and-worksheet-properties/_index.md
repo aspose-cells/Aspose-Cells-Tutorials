@@ -1,41 +1,43 @@
 ---
-title: Exportando propriedades de planilhas e pastas de trabalho de documentos em HTML
-linktitle: Exportando propriedades de planilhas e pastas de trabalho de documentos em HTML
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Aprenda como exportar propriedades de documentos, pastas de trabalho e planilhas do Excel para HTML usando Aspose.Cells para .NET. Guia passo a passo fácil incluído.
-weight: 11
-url: /pt/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/
+"description": "Aprenda a exportar propriedades de documentos, pastas de trabalho e planilhas do Excel para HTML usando o Aspose.Cells para .NET. Guia passo a passo fácil incluído."
+"linktitle": "Exportando propriedades de planilhas e pastas de trabalho de documentos em HTML"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Exportando propriedades de planilhas e pastas de trabalho de documentos em HTML"
+"url": "/pt/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportando propriedades de planilhas e pastas de trabalho de documentos em HTML
 
 ## Introdução
 
-Quando se trata de lidar com planilhas, muitas vezes nos vemos precisando converter arquivos do Excel em diferentes formatos para compartilhamento, preservação ou apresentação. Uma tarefa comum é exportar propriedades de pastas de trabalho e planilhas para o formato HTML. Neste artigo, mostraremos como fazer isso usando o Aspose.Cells para .NET. Não se preocupe se você é novo em codificação ou na biblioteca Aspose; vamos detalhar passo a passo para facilitar o acompanhamento!
+Ao lidar com planilhas, frequentemente precisamos converter arquivos do Excel em diferentes formatos para compartilhamento, preservação ou apresentação. Uma tarefa comum é exportar propriedades de pastas de trabalho e planilhas para o formato HTML. Neste artigo, mostraremos como fazer isso usando o Aspose.Cells para .NET. Não se preocupe se você é novo em programação ou na biblioteca Aspose; explicaremos passo a passo para facilitar o acompanhamento!
 
 ## Pré-requisitos
 
 Antes de mergulharmos no código, vamos garantir que você tenha tudo o que precisa para começar:
 
-1. .NET Framework: Certifique-se de que seu ambiente de desenvolvimento esteja configurado com .NET Framework. Aspose.Cells é compatível com versões do .NET Framework até 4.8.
+1. .NET Framework: Certifique-se de que seu ambiente de desenvolvimento esteja configurado com o .NET Framework. O Aspose.Cells é compatível com versões do .NET Framework até a 4.8.
    
-2.  Aspose.Cells para .NET: Você precisará ter o Aspose.Cells instalado. Você pode baixar a biblioteca do[página de downloads](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells para .NET: Você precisará ter o Aspose.Cells instalado. Você pode baixar a biblioteca do [página de downloads](https://releases.aspose.com/cells/net/). 
 
 3. IDE: Um Ambiente de Desenvolvimento Integrado (IDE) adequado, como o Visual Studio, simplificará sua experiência de codificação.
 
-4.  Arquivo Excel de exemplo: para fins de teste, certifique-se de ter um arquivo Excel chamado`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` no seu diretório de trabalho.
+4. Arquivo Excel de exemplo: para fins de teste, certifique-se de ter um arquivo Excel chamado `sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` no seu diretório de trabalho.
 
 ## Pacotes de importação
 
-Agora que cobrimos os pré-requisitos, vamos começar importando os pacotes necessários em nosso projeto C#. Veja como você pode fazer isso:
+Agora que cobrimos os pré-requisitos, vamos começar importando os pacotes necessários para o nosso projeto C#. Veja como fazer isso:
 
 ### Criar um novo projeto
 
-- Abra seu IDE e crie um novo projeto C#. Você pode escolher um aplicativo de console, que é perfeito para executar esse tipo de tarefa.
+- Abra seu IDE e crie um novo projeto em C#. Você pode escolher um aplicativo de console, que é perfeito para executar esse tipo de tarefa.
 
 ### Adicione o pacote NuGet Aspose.Cells
 
@@ -56,9 +58,9 @@ using System.Linq;
 using System.Text;
 ```
 
- Isso nos dará acesso ao`Workbook` e`HtmlSaveOptions` classes, que usaremos em nosso exemplo.
+Isso nos dará acesso ao `Workbook` e `HtmlSaveOptions` classes, que usaremos em nosso exemplo.
 
-Agora que você está tudo pronto, vamos dividir o processo em etapas simples.
+Agora que você está com tudo pronto, vamos dividir o processo em etapas simples.
 
 ## Etapa 1: configure seus diretórios de arquivos
 
@@ -75,16 +77,16 @@ string outputDir = "Your Document Directory/";  // Atualize com seu caminho atua
 - Diretório de origem: é aqui que seu arquivo Excel de entrada (`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx`) é armazenado.
 - Diretório de saída: este é o caminho onde você deseja que o arquivo HTML de saída seja salvo.
 
-## Etapa 2: Carregue seu arquivo Excel
+## Etapa 2: carregue seu arquivo Excel
 
- Agora precisamos carregar o arquivo Excel usando o`Workbook` aula:
+Agora precisamos carregar o arquivo Excel usando o `Workbook` aula:
 
 ```csharp
 // Carregue o arquivo Excel de exemplo
 Workbook workbook = new Workbook(sourceDir + "sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx");
 ```
 
--  Instância da pasta de trabalho: A`Workbook` O construtor pega o caminho do arquivo para o seu arquivo Excel e cria uma nova instância que você pode manipular.
+- Instância da pasta de trabalho: A `Workbook` O construtor pega o caminho do arquivo para o seu arquivo Excel e cria uma nova instância que você pode manipular.
 
 ## Etapa 3: Configurar opções de salvamento de HTML
 
@@ -101,9 +103,9 @@ options.ExportWorksheetProperties = false;
 ```
 
 - HtmlSaveOptions: Esta classe ajuda a gerenciar como o arquivo Excel será convertido em HTML.
--  Definimos várias opções para`false`porque não queremos incluir propriedades de pasta de trabalho e planilha em nossa saída HTML.
+- Definimos várias opções para `false` porque não queremos incluir propriedades de pasta de trabalho e planilha em nossa saída HTML.
 
-## Etapa 4: Exportar tudo para HTML
+## Etapa 4: Exporte tudo para HTML
 
 Agora estamos prontos para salvar nossa pasta de trabalho no formato HTML:
 
@@ -112,7 +114,7 @@ Agora estamos prontos para salvar nossa pasta de trabalho no formato HTML:
 workbook.Save(outputDir + "outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```
 
--  O`Save` O método recebe dois parâmetros: o caminho do arquivo para o arquivo HTML de saída e as opções que configuramos. Executar isso criará seu arquivo HTML no diretório de saída designado.
+- O `Save` O método recebe dois parâmetros: o caminho do arquivo HTML de saída e as opções que configuramos. Executá-lo criará seu arquivo HTML no diretório de saída designado.
 
 ## Etapa 5: Feedback do console
 
@@ -124,7 +126,7 @@ Console.WriteLine("ExportDocumentWorkbookAndWorksheetPropertiesInHTML executed s
 
 ## Conclusão
 
-assim, você exportou com sucesso as propriedades da pasta de trabalho e da planilha para HTML usando o Aspose.Cells para .NET! Você seguiu um processo direto, desde a configuração do seu ambiente até a exportação dos seus dados do Excel. A beleza de usar bibliotecas como o Aspose.Cells é que ele simplifica tarefas complexas, facilitando a vida dos desenvolvedores. Agora, você pode compartilhar suas planilhas de forma mais ampla com HTML, assim como deixar o mundo espiar suas pastas de trabalho sem dar a eles o livro inteiro.
+assim, você exportou com sucesso as propriedades de suas planilhas e pastas de trabalho para HTML usando o Aspose.Cells para .NET! Você seguiu um processo simples, desde a configuração do seu ambiente até a exportação dos seus dados do Excel. A vantagem de usar bibliotecas como o Aspose.Cells é que elas simplificam tarefas complexas, facilitando a vida dos desenvolvedores. Agora, você pode compartilhar suas planilhas de forma mais ampla com HTML, como se estivesse permitindo que todos vissem suas pastas de trabalho sem precisar fornecer o livro inteiro.
 
 ## Perguntas frequentes
 
@@ -132,19 +134,21 @@ assim, você exportou com sucesso as propriedades da pasta de trabalho e da plan
 Você pode instalar a biblioteca Aspose.Cells via NuGet no seu projeto do Visual Studio por meio do Gerenciador de Pacotes NuGet.
 
 ### Posso personalizar a saída HTML?  
- Sim, o Aspose.Cells oferece várias opções em`HtmlSaveOptions` para personalizar como seu arquivo Excel é convertido em HTML.
+Sim, o Aspose.Cells oferece várias opções em `HtmlSaveOptions` para personalizar como seu arquivo Excel é convertido em HTML.
 
 ### Existe uma maneira de incluir propriedades do documento na exportação HTML?  
- Você pode definir`ExportDocumentProperties`, `ExportWorkbookProperties` , e`ExportWorksheetProperties` para`true` em`HtmlSaveOptions` se você deseja incluí-los.
+Você pode definir `ExportDocumentProperties`, `ExportWorkbookProperties`, e `ExportWorksheetProperties` para `true` em `HtmlSaveOptions` se você deseja incluí-los.
 
 ### Para quais formatos posso exportar meu arquivo Excel além de HTML?  
-Aspose.Cells suporta vários formatos, incluindo PDF, CSV, XML e outros.
+O Aspose.Cells suporta vários formatos, incluindo PDF, CSV, XML e outros.
 
 ### Existe uma versão de teste disponível?  
- Sim, você pode obter uma versão de teste gratuita do Aspose.Cells no[site](https://releases.aspose.com/).
+Sim, você pode obter uma versão de teste gratuita do Aspose.Cells no [site](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ import com.aspose.cells.Workbook;
 #### Adım 2: Çalışma Kitabı Nesnesini Başlat
 Bir tane oluştur `Workbook` dosyanıza giden yolu sağlayarak örnek. Bu eylem Excel belgesini düzenleme için belleğe yükler.
 
-### Çalışma Sayfasındaki (H2) Şekillere Erişim ve Düzenleme
+### Çalışma Sayfasındaki (H2) Şekillere Erişim ve Şekilleri Düzenleme
 
 **Genel Bakış:** Yüklendikten sonra, çalışma sayfasında ActiveX denetimleri içeren şekilleri tanımlayın ve bunlara erişin.
 
@@ -190,6 +192,9 @@ Neden bekliyorsunuz? Bu teknikleri bugünden itibaren projelerinize uygulamaya b
 Aspose.Cells Java ile yolculuğunuza bugün başlayın ve Excel dosya düzenlemenin tüm potansiyelini ortaya çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ Crear un libro de trabajo es el primer paso para gestionar archivos de Excel med
    String dataDir = "YOUR_DATA_DIRECTORY";
    Workbook wb = new Workbook();
    ```
-2. **Acceda a la primera hoja de trabajo:**
+2. **Accede a la primera hoja de trabajo:**
    ```java
    com.aspose.cells.Worksheet ws = wb.getWorksheets().get(0);
    ```
@@ -174,6 +176,9 @@ Para explorar más a fondo las características de Aspose.Cells, profundice en [
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

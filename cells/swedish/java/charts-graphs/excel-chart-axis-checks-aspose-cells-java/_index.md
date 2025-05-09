@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ Vi kommer att dela upp processen i hanterbara avsnitt.
    Hämta det första arbetsbladet:
    ```java
    Worksheet worksheet = workbook.getWorksheets().get(0);
-   // Åtkomst till det första kalkylbladet i arbetsboken.
+   // Åtkommer det första kalkylbladet i arbetsboken.
    ```
 
 #### Åtkomsttabell
@@ -109,7 +111,7 @@ Vi kommer att dela upp processen i hanterbara avsnitt.
    - **Sekundär kategoriaxel (höger)**
      ```java
      boolean hasSecondaryCategoryAxis = chart.hasAxis(AxisType.CATEGORY, false);
-     // Avgör om en sekundär kategoriaxel finns.
+     // Avgör om det finns en sekundär kategoriaxel.
      ```
    - **Primär värdeaxel**
      ```java
@@ -165,6 +167,9 @@ A5: Optimera kod genom att läsa in nödvändig data, cacha resultat eller utnyt
 - **Ladda ner**Få tillgång till den senaste versionen av Aspose.Cells för Java för att börja implementera dessa lösningar idag.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ system.out.println("VBA Project is Signed: " + isSigned);
 
 ## 실제 응용 프로그램
 
-VBA 프로젝트가 서명되었는지 이해하는 것은 다음과 같은 여러 시나리오에서 매우 중요할 수 있습니다.
+VBA 프로젝트가 서명되었는지 이해하는 것은 여러 시나리오에서 매우 중요할 수 있습니다.
 
 1. **보안 감사:** 매크로가 활성화된 통합 문서를 공유하거나 배포하기 전에 무결성 검사를 정기적으로 실시합니다.
 2. **자동 문서 처리:** 대량의 Excel 파일을 처리하는 워크플로에 서명 검증을 통합합니다.
@@ -151,6 +153,9 @@ Excel 통합 문서를 보호할 준비가 되셨나요? 지금 바로 이 기�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatización de gráficos de Excel
@@ -117,9 +119,11 @@ Automatizar gráficos de Excel con Aspose.Cells para Java simplifica la creació
    Explora la documentación de la API en [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para obtener información detallada y ejemplos.
 
 Automatice sus tareas de gráficos de Excel con facilidad utilizando Aspose.Cells para Java y mejore sus capacidades de visualización de datos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

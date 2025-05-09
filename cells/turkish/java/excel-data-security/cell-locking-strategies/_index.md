@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hücre Kilitleme Stratejileri
@@ -22,7 +24,7 @@ Bu dijital çağda, Excel elektronik tabloları sayısız iş operasyonunun omur
 
 Veri doğruluğu ve gizliliği çoğu sektörde pazarlık konusu olamaz. Hücre kilitleme, elektronik tablolarınıza ek bir koruma katmanı sağlar, yetkisiz değişiklikleri önlerken meşru kullanıcıların gerektiği gibi verilerle etkileşime girmesine olanak tanır. Bu makale, özel gereksinimlerinize göre uyarlanmış hücre kilitleme stratejilerini uygulama sürecinde size rehberlik edecektir.
 
-## Java için Aspose.Cells'e Başlarken
+## Java için Aspose.Cells ile Başlarken
 
 Hücre kilitlemeye dalmadan önce, araç setinizde gerekli araçların olduğundan emin olalım. İlk olarak, Java için Aspose.Cells'i indirmeniz ve kurmanız gerekir. İndirme bağlantısını bulabilirsiniz [Burada](https://releases.aspose.com/cells/java/)Kütüphaneyi kurduktan sonra temel işlemlere geçebiliriz.
 
@@ -142,6 +144,7 @@ Hücre kilitleme stratejilerinizin etkinliğini sağlamak için bunları çeşit
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

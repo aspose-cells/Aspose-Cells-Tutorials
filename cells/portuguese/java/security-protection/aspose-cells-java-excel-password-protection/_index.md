@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Carregar arquivos do Excel protegidos por senha é essencial ao lidar com informações confidenciais. O Aspose.Cells oferece uma maneira simples de abrir esses arquivos especificando a senha necessária.
 
 #### Implementação passo a passo
-1. **Configurar LoadOptions**: Criar um `LoadOptions` objeto e defina a senha necessária.
+1. **Configurar LoadOptions**Criar um `LoadOptions` objeto e defina a senha necessária.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ R5: Certifique-se de que o caminho para o seu arquivo de licença esteja correto
 - **Apoiar**: [Suporte do Fórum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

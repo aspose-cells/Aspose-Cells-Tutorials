@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ license.setLicense("path_to_your_license.lic");
 Tải các tệp Excel được bảo vệ bằng mật khẩu là điều cần thiết khi xử lý thông tin nhạy cảm. Aspose.Cells cung cấp một cách đơn giản để mở các tệp này bằng cách chỉ định mật khẩu cần thiết.
 
 #### Thực hiện từng bước
-1. **Thiết lập LoadOptions**: Tạo một `LoadOptions` đối tượng và đặt mật khẩu cần thiết.
+1. **Thiết lập LoadOptions**Tạo một `LoadOptions` đối tượng và đặt mật khẩu cần thiết.
    ```java
    import com.aspose.cells.LoadOptions;
    import com.aspose.cells.Workbook;
@@ -138,6 +140,9 @@ A5: Đảm bảo đường dẫn đến tệp giấy phép của bạn là chín
 - **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

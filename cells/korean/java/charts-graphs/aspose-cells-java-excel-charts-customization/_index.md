@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ Aspose.Cells를 사용하려면 다음과 같은 인기 있는 빌드 도구를 
 ```
 
 ### 그래들
-그것을 당신의에 포함 `build.gradle` 파일:
+그것을 당신의에 포함시키세요 `build.gradle` 파일:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -136,7 +138,7 @@ Chart chart = charts.get(0); // 또는 charts.add(...)를 사용하여 새 차�
 **개요**: 시리즈 데이터 소스를 설정하고 선 스타일을 수정하여 차트를 사용자 지정하여 시각적 매력을 향상시킵니다.
 
 #### 7단계: 필요한 클래스 가져오기
-사용자 정의에 필요한 가져오기 클래스:
+사용자 정의에 필요한 클래스 가져오기:
 
 ```java
 import com.aspose.cells.SeriesCollection;
@@ -220,6 +222,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

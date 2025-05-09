@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ A teljesítmény optimalizálása az Aspose.Cells használatakor a következőkk
 
 Az Aspose.Cells integrálása a következővel: `InterruptMonitor` biztosítja a hosszú ideig futó műveletek feletti felügyeletet, növelve a Java-alkalmazások megbízhatóságát és válaszidejét. Fedezze fel a további lehetőségeket konzultáció keretében [Az Aspose dokumentációja](https://reference.aspose.com/cells/java/).
 
-Bármilyen kérdés vagy speciális támogatás esetén látogassa meg a következőt: [támogatási fórum](https://forum.aspose.com/c/cells/9).
+Bármilyen kérdés vagy speciális támogatás esetén látogassa meg a következőt: [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ## GYIK szekció
 
@@ -170,6 +172,9 @@ Ezzel az útmutatóval felkészülhetsz arra, hogy hatékonyan kezelj hosszú Ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

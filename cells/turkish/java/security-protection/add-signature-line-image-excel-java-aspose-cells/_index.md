@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ workbook.save(dataDir + "CSignatureLine_out.xlsx");
 
 ### Sorun Giderme İpuçları
 - Tüm yolların (örneğin, `dataDir`) doğru şekilde ayarlanmıştır.
-- Resim yollarının uygulamanız tarafından erişilebilir olduğunu doğrulayın.
+- Uygulamanızın görüntü yollarına erişebildiğini doğrulayın.
 - Sağlam hata yönetimi için dosya işlemleri sırasında istisnaları işleyin.
 
 ## Pratik Uygulamalar
@@ -176,6 +178,9 @@ Bu çözümleri uygulamaya çalışmanızı ve iş akışlarınızı nasıl kola
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

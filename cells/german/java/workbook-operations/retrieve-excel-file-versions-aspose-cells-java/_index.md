@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ Sind Sie bereit, diese Lösung in Ihren Projekten zu implementieren? Probieren S
    - Beachten Sie, dass es zwischen den Versionen Unterschiede in den Dateiformatspezifikationen gibt, beispielsweise bei der Handhabung von VBA-Projekten oder Makros.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

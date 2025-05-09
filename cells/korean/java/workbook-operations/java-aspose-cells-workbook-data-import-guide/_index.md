@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,12 +190,15 @@ public class WorkbookDataImport {
 - **라이브러리 다운로드:** [출시 페이지](https://releases.aspose.com/cells/java/)
 - **구매 옵션:** [지금 구매하세요](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼:** [Aspose 커뮤니티 지원](https://forum.aspose.com/c/cells/9)
 
 이 가이드에 설명된 지식과 도구를 갖추면 Aspose.Cells for Java를 사용하여 데이터 가져오기 및 관리 작업을 완벽하게 익힐 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

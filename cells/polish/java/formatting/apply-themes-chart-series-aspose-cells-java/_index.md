@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class ExcelThemeApplication {
 
 ## Przewodnik wdrażania
 
-W tej sekcji przedstawimy proces stosowania motywów do serii wykresów w programie Excel.
+tej sekcji przedstawimy proces stosowania motywów do serii wykresów w programie Excel.
 
 ### Krok 1: Załaduj plik Excel
 
@@ -185,6 +187,9 @@ Nauczyłeś się, jak stosować motywy do serii wykresów za pomocą Aspose.Cell
 - **Wsparcie:** [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

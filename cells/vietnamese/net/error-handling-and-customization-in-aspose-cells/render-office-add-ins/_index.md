@@ -1,14 +1,16 @@
 ---
-title: Kết xuất Office Add-in trong Excel thành PDF với Aspose.Cells
-linktitle: Kết xuất Office Add-in trong Excel thành PDF với Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chuyển đổi tiện ích bổ sung Office trong Excel sang PDF bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu hiệu quả.
-weight: 10
-url: /vi/net/error-handling-and-customization-in-aspose-cells/render-office-add-ins/
+"description": "Tìm hiểu cách chuyển đổi tiện ích bổ sung Office trong Excel sang PDF bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu hiệu quả."
+"linktitle": "Kết xuất Office Add-in trong Excel thành PDF với Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Kết xuất Office Add-in trong Excel thành PDF với Aspose.Cells"
+"url": "/vi/net/error-handling-and-customization-in-aspose-cells/render-office-add-ins/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kết xuất Office Add-in trong Excel thành PDF với Aspose.Cells
@@ -20,9 +22,9 @@ Trước khi bắt đầu hướng dẫn, bạn cần phải có một số đi�
 ### Quen thuộc với C# và .NET
 Có hiểu biết vững chắc về C# và .NET framework sẽ rất có lợi. Đừng lo lắng nếu bạn mới bắt đầu; có rất nhiều tài nguyên có sẵn để giúp bạn học.
 ### Aspose.Cells cho .NET đã được cài đặt
- Bạn cần cài đặt Aspose.Cells cho .NET. Bạn có thể dễ dàng tải xuống từ[trang phát hành](https://releases.aspose.com/cells/net/). 
+Bạn cần cài đặt Aspose.Cells cho .NET. Bạn có thể dễ dàng tải xuống từ [trang phát hành](https://releases.aspose.com/cells/net/). 
 ### Studio trực quan
-Đảm bảo bạn đã cài đặt Visual Studio nơi bạn sẽ thực thi mã của mình. IDE này thân thiện với người dùng và sẽ giúp bạn quản lý các dự án của mình một cách hiệu quả.
+Đảm bảo bạn đã cài đặt Visual Studio để thực thi mã của mình. IDE này thân thiện với người dùng và sẽ giúp bạn quản lý các dự án của mình một cách hiệu quả.
 ### Mẫu tệp Excel có tiện ích bổ sung Office
 Nhận tệp Excel mẫu có chứa các tiện ích bổ sung của Office để kiểm tra chức năng. Ví dụ này sẽ hướng dẫn bạn cách hiển thị các tiện ích bổ sung thành định dạng PDF.
 Sau khi đáp ứng được các điều kiện tiên quyết này, bạn đã sẵn sàng để bắt đầu chuyển đổi tệp Excel sang PDF!
@@ -43,14 +45,14 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế của các tệp của bạn. Điều này đảm bảo rằng ứng dụng của bạn biết nơi để lấy dữ liệu đầu vào và gửi dữ liệu đầu ra đến.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế của các tệp của bạn. Điều này đảm bảo rằng ứng dụng của bạn biết nơi để lấy dữ liệu đầu vào và gửi dữ liệu đầu ra đến.
 ## Bước 2: Tải sổ làm việc Excel
- Bây giờ, hãy tải tệp Excel mẫu có chứa các tiện ích bổ sung của Office. Điều này được thực hiện bằng cách tạo một phiên bản mới của`Workbook` lớp từ Aspose.Cells:
+Bây giờ, hãy tải tệp Excel mẫu có chứa các tiện ích bổ sung của Office. Điều này được thực hiện bằng cách tạo một phiên bản mới của `Workbook` lớp từ Aspose.Cells:
 ```csharp
 // Tải tệp Excel mẫu có chứa Office Add-Ins
 Workbook wb = new Workbook(sourceDir + "sampleRenderOfficeAdd-Ins.xlsx");
 ```
- Hãy đảm bảo tệp Excel của bạn được đặt tên`sampleRenderOfficeAdd-Ins.xlsx` và được đặt trong thư mục nguồn bạn đã xác định. Tải sổ làm việc giống như mở một cuốn sách thực; giờ bạn có thể xem toàn bộ nội dung của nó!
+Hãy đảm bảo tệp Excel của bạn được đặt tên `sampleRenderOfficeAdd-Ins.xlsx` và được đặt trong thư mục nguồn bạn đã xác định. Tải sổ làm việc giống như mở một cuốn sách thực; giờ bạn có thể xem toàn bộ nội dung của nó!
 ## Bước 3: Lưu Workbook dưới dạng PDF
 Sau khi tải xong bảng tính, đã đến lúc lưu dưới dạng tệp PDF. Sau đây là cách bạn có thể thực hiện:
 ```csharp
@@ -73,14 +75,16 @@ Tiện ích bổ sung của Office nâng cao các tính năng của Excel bằng
 ### Aspose.Cells có thể chuyển đổi các định dạng tệp khác không?
 Chắc chắn rồi! Aspose.Cells hỗ trợ nhiều định dạng bao gồm XLSX, XLS, CSV và nhiều định dạng khác nữa.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
-Trong khi bạn có thể sử dụng phiên bản dùng thử, bạn cũng có thể xin giấy phép tạm thời để sử dụng lâu dài. Có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/temporary-license/).
+Trong khi bạn có thể sử dụng phiên bản dùng thử, bạn cũng có thể xin giấy phép tạm thời để sử dụng lâu dài. Bạn có thể tìm thấy thêm thông tin chi tiết [đây](https://purchase.aspose.com/temporary-license/).
 ### Làm thế nào để kiểm tra xem Aspose.Cells đã được cài đặt đúng chưa?
- Kiểm tra xem bạn có thể nhập không gian tên Aspose.Cells mà không có lỗi không. Bạn cũng có thể tham khảo[tài liệu](https://reference.aspose.com/cells/net/) để biết thêm chi tiết.
+Kiểm tra xem bạn có thể nhập không gian tên Aspose.Cells mà không có lỗi không. Bạn cũng có thể tham khảo [tài liệu](https://reference.aspose.com/cells/net/) để biết thêm chi tiết.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và diễn đàn hỗ trợ tại[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ từ cộng đồng Aspose và diễn đàn hỗ trợ tại [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

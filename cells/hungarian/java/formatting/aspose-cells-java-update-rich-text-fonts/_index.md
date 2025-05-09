@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ public class UpdateRichTextCells {
         // Munkafüzet betöltése lemezről
         Workbook workbook = new Workbook(inputPath);
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         System.out.println("Workbook loaded and worksheet accessed.");
@@ -202,6 +204,9 @@ Próbáld ki ezt a megoldást a következő Java projektedben, és tapasztald me
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

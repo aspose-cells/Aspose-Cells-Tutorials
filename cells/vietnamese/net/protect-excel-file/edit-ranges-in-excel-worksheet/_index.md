@@ -1,14 +1,16 @@
 ---
-title: Chỉnh sửa phạm vi trong bảng tính Excel
-linktitle: Chỉnh sửa phạm vi trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Học cách chỉnh sửa phạm vi trong bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn toàn diện có hướng dẫn từng bước này.
-weight: 20
-url: /vi/net/protect-excel-file/edit-ranges-in-excel-worksheet/
+"description": "Học cách chỉnh sửa phạm vi trong bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn toàn diện có hướng dẫn từng bước này."
+"linktitle": "Chỉnh sửa phạm vi trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Chỉnh sửa phạm vi trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/edit-ranges-in-excel-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉnh sửa phạm vi trong bảng tính Excel
@@ -22,7 +24,7 @@ Khi nói đến việc chỉnh sửa bảng tính Excel, một trong những tí
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã thiết lập xong mọi thứ. Sau đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Phiên bản cộng đồng hoạt động hoàn hảo.
-2.  Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp ích rất nhiều.
 4. Thiết lập dự án: Tạo ứng dụng bảng điều khiển C# mới trong Visual Studio.
 
@@ -53,7 +55,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi bạn muốn lưu trữ các tập tin của mình. Điều này có thể giống như`@"C:\ExcelFiles\"`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn nơi bạn muốn lưu trữ các tập tin của mình. Điều này có thể giống như `@"C:\ExcelFiles\"`.
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -112,7 +114,7 @@ Thiết lập mật khẩu cho phạm vi được bảo vệ đảm bảo rằng
 proteced_range.Password = "YOUR_PASSWORD";
 ```
 
- Thay thế`"YOUR_PASSWORD"` với mật khẩu bạn chọn. Chỉ cần nhớ, đừng làm quá đơn giản—hãy nghĩ đến việc khóa rương kho báu của bạn!
+Thay thế `"YOUR_PASSWORD"` với mật khẩu bạn chọn. Chỉ cần nhớ, đừng làm quá đơn giản—hãy nghĩ đến việc khóa rương kho báu của bạn!
 
 ## Bước 7: Bảo vệ tờ giấy
 
@@ -123,7 +125,7 @@ Bây giờ chúng ta đã xác định được phạm vi có thể chỉnh sử
 sheet.Protect(ProtectionType.All);
 ```
 
-Bằng cách sử dụng phương pháp này, về cơ bản bạn đang khóa toàn bộ bảng tính. Chỉ có thể thay đổi các phạm vi được xác định để chỉnh sửa.
+Bằng cách gọi phương pháp này, về cơ bản bạn đang khóa toàn bộ bảng tính. Chỉ có thể thay đổi các phạm vi được xác định để chỉnh sửa.
 
 ## Bước 8: Lưu tệp Excel
 
@@ -134,7 +136,7 @@ Cuối cùng chúng ta đã đến bước cuối cùng trong hướng dẫn nà
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
-Điều này sẽ lưu sổ làm việc được bảo vệ của bạn dưới dạng`protectedrange.out.xls` trong thư mục bạn chỉ định.
+Điều này sẽ lưu sổ làm việc được bảo vệ của bạn dưới dạng `protectedrange.out.xls` trong thư mục bạn chỉ định.
 
 ## Phần kết luận
 
@@ -149,16 +151,18 @@ Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát tr
 Có, khi sử dụng Aspose.Cells, bạn có thể xác định các phạm vi có thể chỉnh sửa cụ thể và bảo vệ phần còn lại của bảng tính.
 
 ### Có phiên bản dùng thử nào cho Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?  
 Mặc dù hướng dẫn này tập trung vào .NET, Aspose.Cells vẫn có sẵn cho nhiều ngôn ngữ lập trình, bao gồm Java và Cloud API.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?  
- Bạn có thể khám phá tài liệu đầy đủ[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu đầy đủ [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

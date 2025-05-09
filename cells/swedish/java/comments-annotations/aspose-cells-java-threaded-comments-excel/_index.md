@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introduktion
 Att hantera trådade kommentarer i Excel kan vara utmanande, särskilt när man använder Java. Den här guiden visar hur man lägger till och hanterar trådade kommentarer effektivt i Excel-arbetsböcker med hjälp av Aspose.Cells för Java – ett robust bibliotek utformat för sömlös interaktion med Excel-filer.
 
-den här handledningen kommer du att lära dig:
+I den här handledningen kommer du att lära dig:
 - Konfigurera din miljö med Aspose.Cells för Java
 - Skapa en ny arbetsbok
 - Lägger till författare för trådade kommentarer
@@ -165,6 +167,9 @@ A2: Använd Maven- eller Gradle-beroenden som visats tidigare och se till att du
 A3: Ja, du kan lägga till flera författare för att hantera olika kommentatorer i din Excel-arbetsbok.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

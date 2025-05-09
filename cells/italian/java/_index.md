@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tutorial sull'elaborazione di fogli di calcolo Java Aspose.Cells
@@ -99,7 +101,7 @@ Tutorial passo passo per importare ed esportare dati tra Excel e vari formati ut
 Scopri come pulire i dati, trasformarli, unirli e fare operazioni di testo nei fogli di calcolo Excel con questi tutorial Java di Aspose.Cells.
 
 ### [Funzionalità avanzate](./advanced-features/)
-Tutorial completi per l'implementazione di filtri automatici, slicer, collegamenti ipertestuali, connessioni esterne e funzionalità avanzate di Excel con Aspose.Cells per Java.
+Tutorial completi per l'implementazione di filtri automatici, filtri, collegamenti ipertestuali, connessioni esterne e funzionalità avanzate di Excel con Aspose.Cells per Java.
 
 ### [Ottimizzazione delle prestazioni](./performance-optimization/)
 Tutorial passo passo per ottimizzare l'utilizzo della memoria, migliorare la velocità di esecuzione e gestire file Excel di grandi dimensioni con Aspose.Cells per Java.
@@ -118,9 +120,11 @@ Tutorial completi per la creazione di modelli di report, la generazione di docum
 
 ### [Automazione ed elaborazione batch](./automation-batch-processing/)
 Tutorial passo passo per l'automazione delle attività di Excel, l'elaborazione in batch di più file e la pianificazione delle operazioni con Aspose.Cells per Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,7 +184,7 @@ Mire várnál? Kezdd el alkalmazni ezeket a technikákat a projektjeidben még m
 ## Erőforrás
 
 - **Dokumentáció:** [Aspose Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Aspose licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió és ideiglenes licenc:** [Ismerkedés az Aspose-szal](https://releases.aspose.com/cells/java/), [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 - **Támogatási fórum:** [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
@@ -190,6 +192,9 @@ Mire várnál? Kezdd el alkalmazni ezeket a technikákat a projektjeidben még m
 Kezdje el utazását még ma az Aspose.Cells Java segítségével, és aknázza ki az Excel fájlkezelésben rejlő összes lehetőséget!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

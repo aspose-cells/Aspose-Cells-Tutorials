@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Sẵn sàng nâng cao kỹ năng tự động hóa bảng tính của bạn lên
 Bằng cách tận dụng Aspose.Cells với Java, bạn có thể quản lý và thao tác hiệu quả các tệp Excel trong ứng dụng của mình. Khám phá thêm các chức năng để tối đa hóa tiềm năng của nó trong các dự án của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

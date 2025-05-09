@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ För att komma igång med Aspose.Cells för Java, se till att du har:
 
 - **Bibliotek och versioner:** Du behöver Aspose.Cells för Java version 25.3 eller senare.
 - **Miljöinställningar:** En Java-utvecklingsmiljö (JDK 1.8+ rekommenderas) är nödvändig.
-- **Kunskapsförkunskaper:** Bekantskap med Java-programmering och grundläggande Excel-operationer.
+- **Kunskapsförkunskapskrav:** Bekantskap med Java-programmering och grundläggande Excel-operationer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -201,6 +203,9 @@ I den här guiden har du lärt dig hur du effektivt hanterar kapslade pivottabel
 Genom att följa den här omfattande guiden kommer du att vara väl rustad för att ta itu med komplexa Excel-datahanteringsuppgifter med Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

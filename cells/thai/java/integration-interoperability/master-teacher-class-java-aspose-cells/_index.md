@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ public void exportStudentData() {
 - [เอกสารประกอบ Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/)
 - [ดาวน์โหลด Aspose.Cells](https://releases.aspose.com/cells/java/)
 - [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
-- [ข้อมูลทดลองใช้ฟรี](https://releases.aspose.com/cells/java/)
+- [ข้อมูลทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
 - [รายละเอียดใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
@@ -149,6 +151,9 @@ public void exportStudentData() {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

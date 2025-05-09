@@ -1,14 +1,16 @@
 ---
-title: Thêm trang tính vào tệp Excel hiện có bằng Aspose.Cells
-linktitle: Thêm trang tính vào tệp Excel hiện có bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm bảng tính vào tệp Excel hiện có trong Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc quản lý dữ liệu động.
-weight: 13
-url: /vi/net/worksheet-management/add-worksheets-to-existing-excel-file/
+"description": "Tìm hiểu cách thêm bảng tính vào tệp Excel hiện có trong Aspose.Cells cho .NET với hướng dẫn từng bước này. Hoàn hảo cho việc quản lý dữ liệu động."
+"linktitle": "Thêm trang tính vào tệp Excel hiện có bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm trang tính vào tệp Excel hiện có bằng Aspose.Cells"
+"url": "/vi/net/worksheet-management/add-worksheets-to-existing-excel-file/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm trang tính vào tệp Excel hiện có bằng Aspose.Cells
@@ -21,7 +23,7 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào những điều cơ bả
 
 Để bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 
-1.  Thư viện Aspose.Cells cho .NET:[Tải xuống tại đây](https://releases.aspose.com/cells/net/) hoặc cài đặt thông qua NuGet bằng cách sử dụng:
+1. Thư viện Aspose.Cells cho .NET: [Tải xuống tại đây](https://releases.aspose.com/cells/net/) hoặc cài đặt thông qua NuGet bằng cách sử dụng:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -31,7 +33,7 @@ Install-Package Aspose.Cells
 
 ## Thiết lập giấy phép của bạn (Tùy chọn)
 
- Nếu bạn đang làm việc trên phiên bản được cấp phép, hãy áp dụng giấy phép của bạn để mở khóa toàn bộ tiềm năng của thư viện. Đối với giấy phép tạm thời, hãy kiểm tra[liên kết này](https://purchase.aspose.com/temporary-license/).
+Nếu bạn đang làm việc trên phiên bản được cấp phép, hãy áp dụng giấy phép của bạn để mở khóa toàn bộ tiềm năng của thư viện. Đối với giấy phép tạm thời, hãy kiểm tra [liên kết này](https://purchase.aspose.com/temporary-license/).
 
 
 ## Nhập gói
@@ -55,24 +57,24 @@ Trong bước đầu tiên này, bạn sẽ chỉ định thư mục chứa các
 string dataDir = "Your Document Directory";
 ```
 
- Thư mục này sẽ trỏ đến nơi bạn`book1.xls` tập tin được lưu. Nếu bạn không chắc chắn về đường dẫn, hãy sử dụng đường dẫn tuyệt đối (ví dụ:`C:\\Users\\YourName\\Documents\\`).
+Thư mục này sẽ trỏ đến nơi bạn `book1.xls` tập tin được lưu. Nếu bạn không chắc chắn về đường dẫn, hãy sử dụng đường dẫn tuyệt đối (ví dụ: `C:\\Users\\YourName\\Documents\\`).
 
 
 ## Bước 2: Mở tệp Excel dưới dạng FileStream
 
- Để làm việc với một tệp Excel hiện có, hãy mở nó dưới dạng`FileStream`. Điều này cho phép Aspose.Cells đọc và xử lý dữ liệu tệp.
+Để làm việc với một tệp Excel hiện có, hãy mở nó dưới dạng `FileStream`. Điều này cho phép Aspose.Cells đọc và xử lý dữ liệu tệp.
 
 ```csharp
 // Tạo luồng tệp chứa tệp Excel cần mở
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Đây,`FileMode.Open` yêu cầu chương trình mở tệp nếu nó tồn tại. Đảm bảo`book1.xls`được đặt tên chính xác và đặt trong thư mục của bạn để tránh lỗi.
+Đây, `FileMode.Open` yêu cầu chương trình mở tệp nếu nó tồn tại. Đảm bảo `book1.xls` được đặt tên chính xác và đặt trong thư mục của bạn để tránh lỗi.
 
 
 ## Bước 3: Khởi tạo đối tượng Workbook
 
- Tiếp theo, tạo một`Workbook` đối tượng sử dụng FileStream. Đối tượng này biểu diễn tệp Excel và cho phép bạn truy cập vào tất cả các thuộc tính và phương thức của tệp.
+Tiếp theo, tạo một `Workbook` đối tượng sử dụng FileStream. Đối tượng này biểu diễn tệp Excel và cho phép bạn truy cập vào tất cả các thuộc tính và phương thức của tệp.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
@@ -80,19 +82,19 @@ FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 Workbook workbook = new Workbook(fstream);
 ```
 
- Hiện nay,`workbook` lưu trữ tệp Excel của bạn, sẵn sàng để chỉnh sửa.
+Hiện nay, `workbook` lưu trữ tệp Excel của bạn, sẵn sàng để chỉnh sửa.
 
 
 ## Bước 4: Thêm một trang tính mới vào sổ làm việc
 
- Với phiên bản sổ làm việc được tạo, bước tiếp theo là thêm một bảng tính mới. Tại đây, Aspose.Cells cung cấp một`Add()` phương pháp để xử lý việc này.
+Với phiên bản sổ làm việc được tạo, bước tiếp theo là thêm một bảng tính mới. Ở đây, Aspose.Cells cung cấp một `Add()` phương pháp để xử lý việc này.
 
 ```csharp
 // Thêm một trang tính mới vào đối tượng Workbook
 int i = workbook.Worksheets.Add();
 ```
 
- Các`Add()` phương pháp này trả về chỉ mục của bảng tính mới được thêm vào, bạn có thể sử dụng chỉ mục này để truy cập và sửa đổi bảng tính đó.
+Các `Add()` phương pháp này trả về chỉ mục của bảng tính mới được thêm vào, bạn có thể sử dụng chỉ mục này để truy cập và sửa đổi nó.
 
 
 ## Bước 5: Truy cập Bảng tính mới được thêm vào theo Chỉ mục
@@ -104,12 +106,12 @@ Sau khi thêm bảng tính, hãy truy xuất theo chỉ mục. Điều này cho 
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
- Đây,`worksheet` đại diện cho trang tính trống mới của bạn trong bảng tính.
+Đây, `worksheet` đại diện cho trang tính trống mới của bạn trong bảng tính.
 
 
 ## Bước 6: Đổi tên trang tính mới
 
- Đặt tên cho bảng tính có thể giúp tổ chức, đặc biệt là khi xử lý nhiều bảng tính. Đặt tên bằng`Name` tài sản.
+Đặt tên cho bảng tính có thể giúp tổ chức, đặc biệt là khi xử lý nhiều bảng tính. Đặt tên bằng `Name` tài sản.
 
 ```csharp
 // Đặt tên cho worksheet mới được thêm vào
@@ -128,7 +130,7 @@ Bây giờ bạn đã thực hiện thay đổi, đã đến lúc lưu tệp đ�
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Lưu nó dưới dạng`output.out.xls` giữ nguyên tệp gốc. Nếu bạn muốn ghi đè lên tệp hiện có, chỉ cần sử dụng cùng tên tệp với tệp đầu vào.
+Lưu nó dưới dạng `output.out.xls` giữ nguyên tệp gốc. Nếu bạn muốn ghi đè lên tệp hiện có, chỉ cần sử dụng cùng tên tệp với tệp đầu vào.
 
 
 ## Bước 8: Đóng FileStream
@@ -150,22 +152,24 @@ Với Aspose.Cells for .NET, việc thêm một bảng tính vào một tệp Ex
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thêm nhiều bảng tính cùng một lúc không?
- Vâng! Bạn có thể gọi`workbook.Worksheets.Add()` nhiều lần để thêm nhiều bảng tính tùy theo nhu cầu của bạn.
+Vâng! Bạn có thể gọi `workbook.Worksheets.Add()` nhiều lần để thêm nhiều bảng tính tùy theo nhu cầu của bạn.
 
 ### Làm thế nào để xóa một bảng tính trong Aspose.Cells?
- Sử dụng`workbook.Worksheets.RemoveAt(sheetIndex)` để xóa một bảng tính theo chỉ mục của nó.
+Sử dụng `workbook.Worksheets.RemoveAt(sheetIndex)` để xóa một bảng tính theo chỉ mục của nó.
 
 ### Aspose.Cells cho .NET có tương thích với .NET Core không?
 Hoàn toàn đúng, Aspose.Cells cho .NET hỗ trợ .NET Core, khiến nó trở thành nền tảng chéo.
 
 ### Tôi có thể đặt mật khẩu cho bảng tính không?
- Có, bạn có thể đặt mật khẩu bằng cách sử dụng`workbook.Settings.Password = "yourPassword";` để bảo vệ sổ làm việc.
+Có, bạn có thể đặt mật khẩu bằng cách sử dụng `workbook.Settings.Password = "yourPassword";` để bảo vệ sổ làm việc.
 
 ### Aspose.Cells có hỗ trợ các định dạng tệp khác như CSV hoặc PDF không?
 Có, Aspose.Cells hỗ trợ nhiều định dạng tệp, bao gồm CSV, PDF, HTML, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

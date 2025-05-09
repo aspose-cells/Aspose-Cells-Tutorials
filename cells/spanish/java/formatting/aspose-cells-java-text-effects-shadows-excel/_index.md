@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Transforme sus informes de Excel añadiendo sombras con efectos de texto visualm
 Antes de continuar, asegúrese de tener:
 
 - **Biblioteca Aspose.Cells**:Versión 25.3 o posterior.
-- **Entorno de desarrollo de Java**:Java SDK y un IDE como IntelliJ IDEA o Eclipse.
+- **Entorno de desarrollo de Java**:SDK de Java y un IDE como IntelliJ IDEA o Eclipse.
 - **Configuración de Maven/Gradle**:Su proyecto debe utilizar Maven o Gradle para la gestión de dependencias.
 
 ### Bibliotecas, versiones y dependencias necesarias
@@ -201,6 +203,9 @@ A5: Sí, administrar la memoria de manera eficiente y aplicar efectos solo cuand
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

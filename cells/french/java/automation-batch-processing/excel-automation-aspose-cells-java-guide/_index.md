@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ Dans ce tutoriel, vous avez appris à exploiter la puissance d'Aspose.Cells pour
 - Testez toujours minutieusement vos scripts d'automatisation et gérez les exceptions avec élégance. Assurez-vous que vos sources de données sont fiables et à jour.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

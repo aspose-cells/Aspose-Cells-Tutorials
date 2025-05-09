@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Aspose.Cells for Java を使って Excel ファイル内のデータを並べ替
 この包括的なガイドに従うことで、Aspose.Cells を使用して Java アプリケーション内で Excel データの並べ替えを自信を持って実装し、最適化できるようになります。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ public class InitializeAsposeCells {
 テキスト ボックスを動的に管理すると、Excel レポートやドキュメントを強化するさまざまな機会が生まれます。
 1. **自動レポート:** 動的なデータの概要やメモを財務レポート内に直接埋め込みます。
 2. **教育資料:** 必要に応じて追加情報が提示されるインタラクティブな学習ガイドを作成します。
-3. **データ分析ダッシュボード:** テキスト ボックスを使用して、複雑なデータセットを概要形式で説明し、分析をより直感的にします。
+3. **データ分析ダッシュボード:** テキスト ボックスを使用して複雑なデータセットを概要形式で説明し、分析をより直感的にします。
 
 ### 統合の可能性
 Aspose.Cells を他のシステムと統合して、より広範な自動化機能を実現します。
@@ -193,6 +195,9 @@ Aspose.Cells を使用して大規模なブック内のテキスト ボックス
    - プロジェクトのビルド構成 (Maven/Gradle) を再確認し、必要な Aspose.Cells 依存関係がすべて正しく含まれていることを確認します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

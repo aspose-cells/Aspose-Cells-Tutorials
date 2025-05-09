@@ -8,14 +8,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekspor Excel ke HTML Java
 
 Dalam tutorial hari ini, kita akan membahas proses mengekspor file Excel ke format HTML menggunakan Aspose.Cells for Java API. Panduan langkah demi langkah ini akan memandu Anda melalui seluruh proses, mulai dari menyiapkan lingkungan pengembangan hingga menulis kode dan membuat file HTML dari lembar kerja Excel. Jadi, mari kita langsung mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
@@ -33,14 +35,14 @@ Mulailah dengan membuat proyek Java baru di Lingkungan Pengembangan Terpadu (IDE
 
 ## Langkah 2: Tambahkan Pustaka Aspose.Cells
 
-Tambahkan pustaka Aspose.Cells for Java ke classpath proyek Anda. Jika Anda menggunakan Maven, sertakan pustaka tersebut di classpath Anda. `pom.xml` mengajukan.
+Tambahkan pustaka Aspose.Cells for Java ke classpath proyek Anda. Jika Anda menggunakan Maven, sertakan pustaka tersebut di classpath Anda. `pom.xml` fájl.
 
 ## Langkah 3: Muat File Excel
 
 Pada langkah ini, Anda akan memuat file Excel yang ingin Anda ekspor ke HTML. Anda dapat melakukannya dengan membuat `Workbook` objek dan memuat file Excel menggunakan jalurnya.
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
@@ -55,9 +57,9 @@ workbook.save("output.html", SaveFormat.HTML);
 
 ## Langkah 5: Jalankan Aplikasi Anda
 
-Kompilasi dan jalankan aplikasi Java Anda. Setelah kode berhasil dijalankan, Anda akan menemukan file HTML bernama "output.html" di direktori proyek Anda.
+Kompilasi dan jalankan aplikasi Java Anda. Setelah kode berhasil dijalankan, Anda akan menemukan berkas HTML bernama "output.html" di direktori proyek Anda.
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda telah berhasil mengekspor file Excel ke HTML menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini akan membantu Anda memulai proses ini di aplikasi Java Anda.
 
@@ -84,6 +86,7 @@ Untuk fitur lebih lanjut dan opsi penyesuaian, lihat dokumentasi Aspose.Cells un
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

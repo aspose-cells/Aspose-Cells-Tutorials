@@ -8,7 +8,9 @@ url: /net/row-and-column-management/insert-row-formatting-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Row with Formatting in Aspose.Cells .NET
@@ -108,6 +110,7 @@ You can explore more features and functionalities by visiting the [documentation
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

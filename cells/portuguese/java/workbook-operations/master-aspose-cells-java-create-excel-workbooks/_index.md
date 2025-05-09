@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ A integração da biblioteca do Microsoft Office permite que você aproveite sua
 3. **Modelos Financeiros Personalizados**: Desenvolver modelos financeiros no Excel que utilizem VBA para cálculos complexos e automatizar esses processos usando Aspose.Cells Java.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Usar `Workbook.setMemorySetting` para gerenciar o uso de memória de forma eficaz.
+- **Otimizar o uso da memória**: Usar `Workbook.setMemorySetting` para gerenciar o uso de memória de forma eficaz.
 - **Manipule arquivos grandes com eficiência**: Divida pastas de trabalho grandes em partes mais fáceis de gerenciar, se necessário, processando-as em partes.
 - **Melhores Práticas**: Atualize regularmente suas bibliotecas e aproveite os aprimoramentos de desempenho integrados do Aspose.Cells.
 
@@ -172,6 +174,9 @@ Para aprimorar ainda mais suas habilidades, explore recursos adicionais fornecid
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

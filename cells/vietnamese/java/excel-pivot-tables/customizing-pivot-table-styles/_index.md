@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tùy chỉnh kiểu bảng Pivot
@@ -87,9 +89,11 @@ Tùy chỉnh kiểu bảng trục trong Aspose.Cells for Java API rất đơn gi
    Bạn có thể tham khảo tài liệu API tại [Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/) để biết thông tin chi tiết.
 
 Bây giờ bạn đã có kiến thức để tạo và tùy chỉnh các kiểu bảng trục trong Aspose.Cells for Java. Khám phá thêm và làm cho các bài thuyết trình dữ liệu của bạn thực sự đặc biệt!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

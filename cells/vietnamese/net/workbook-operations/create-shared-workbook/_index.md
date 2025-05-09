@@ -1,14 +1,16 @@
 ---
-title: Tạo sổ làm việc được chia sẻ bằng Aspose.Cells
-linktitle: Tạo sổ làm việc được chia sẻ bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa khả năng cộng tác liền mạch bằng cách tạo sổ làm việc chung bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
-weight: 16
-url: /vi/net/workbook-operations/create-shared-workbook/
+"description": "Mở khóa khả năng cộng tác liền mạch bằng cách tạo sổ làm việc chung bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này."
+"linktitle": "Tạo sổ làm việc được chia sẻ bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo sổ làm việc được chia sẻ bằng Aspose.Cells"
+"url": "/vi/net/workbook-operations/create-shared-workbook/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo sổ làm việc được chia sẻ bằng Aspose.Cells
@@ -18,9 +20,9 @@ Chào mừng bạn đến với hướng dẫn toàn diện này về cách tạ
 ## Điều kiện tiên quyết
 Trước khi bắt đầu tạo bảng tính dùng chung, bạn cần phải có một số điều kiện tiên quyết sau:
 1. Kiến thức cơ bản về .NET: Hiểu được những kiến thức cơ bản về lập trình .NET sẽ giúp bạn nắm bắt các khái niệm trong hướng dẫn này dễ dàng hơn.
-2. Thư viện Aspose.Cells: Bạn nên cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Bạn có thể tải xuống từ[địa điểm](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn nên cài đặt thư viện Aspose.Cells trong dự án .NET của mình. Bạn có thể tải xuống từ [địa điểm](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển: Đảm bảo rằng bạn đang làm việc trong môi trường phát triển phù hợp, chẳng hạn như Visual Studio.
-4.  Giấy phép hợp lệ: Mặc dù bạn có thể bắt đầu bằng[dùng thử miễn phí](https://releases.aspose.com/) , hãy lưu ý rằng việc sử dụng nó cho các dự án dài hạn có thể yêu cầu phải mua[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+4. Giấy phép hợp lệ: Mặc dù bạn có thể bắt đầu bằng [dùng thử miễn phí](https://releases.aspose.com/), hãy lưu ý rằng việc sử dụng nó cho các dự án dài hạn có thể yêu cầu phải mua [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 Sau khi đáp ứng được các điều kiện tiên quyết này, bạn đã sẵn sàng để tạo bảng tính chia sẻ của mình!
 ## Nhập gói
 Để bắt đầu với Aspose.Cells, bạn sẽ cần nhập các gói có liên quan vào dự án .NET của mình. Sau đây là cách thực hiện:
@@ -41,16 +43,16 @@ using System.Linq;
 using System.Text;
 using Aspose.Cells;
 ```
-Được rồi, bây giờ chúng ta đã thiết lập xong mọi thứ, hãy chia sẻ sổ làm việc này nhé!
+Được rồi, bây giờ chúng ta đã thiết lập mọi thứ, hãy chia sẻ sổ làm việc này nhé!
 Bây giờ, chúng ta sẽ tạo một sổ làm việc chung theo từng bước. Hãy cùng phân tích nhé!
 ## Bước 1: Xác định thư mục đầu ra
-Đầu tiên, bạn cần chỉ định nơi bạn muốn lưu sổ làm việc được chia sẻ. Bạn có thể thực hiện việc này bằng cách khai báo một biến chuỗi làm thư mục đầu ra của bạn.
+Đầu tiên, bạn cần chỉ định nơi bạn muốn lưu sổ làm việc được chia sẻ. Bạn có thể thực hiện việc này bằng cách khai báo một biến chuỗi làm thư mục đầu ra.
 ```csharp
 //Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
 ## Bước 2: Tạo một đối tượng Workbook
- Trong bước này, chúng ta sẽ tạo một phiên bản của`Workbook` lớp. Đối tượng này sẽ là tệp làm việc của bạn.
+Trong bước này, chúng ta sẽ tạo một phiên bản của `Workbook` lớp. Đối tượng này sẽ là tệp làm việc của bạn.
 ```csharp
 //Tạo đối tượng Workbook
 Workbook wb = new Workbook();
@@ -62,13 +64,13 @@ Tiếp theo, chúng ta cần thiết lập sổ làm việc để chia sẻ. Đi
 wb.Settings.Shared = true;
 ```
 ## Bước 4: Lưu sổ làm việc được chia sẻ
- Bây giờ đến phần thú vị! Bạn sẽ lưu sổ làm việc được chia sẻ của mình bằng cách sử dụng`Save` phương pháp. Đảm bảo cung cấp đường dẫn đầy đủ đến tệp theo thư mục đầu ra của bạn.
+Bây giờ đến phần thú vị! Bạn sẽ lưu sổ làm việc được chia sẻ của mình bằng cách sử dụng `Save` phương pháp. Đảm bảo cung cấp đường dẫn đầy đủ đến tệp theo thư mục đầu ra của bạn.
 ```csharp
 //Lưu sổ làm việc được chia sẻ
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 ```
 ## Bước 5: Xác nhận hành động thành công
-Cuối cùng, hãy xác nhận rằng mọi thứ diễn ra suôn sẻ bằng cách in thông báo thành công ra bảng điều khiển.
+Cuối cùng, hãy xác nhận mọi thứ diễn ra suôn sẻ bằng cách in thông báo thành công ra bảng điều khiển.
 ```csharp
 Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
@@ -86,10 +88,12 @@ Aspose.Cells cung cấp bản dùng thử miễn phí. Tuy nhiên, để tiếp 
 ### Tôi có thể làm việc với các tệp Excel lớn bằng Aspose.Cells không?  
 Chắc chắn rồi! Aspose.Cells được thiết kế để xử lý hiệu quả các tập dữ liệu lớn.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể truy cập diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập diễn đàn hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

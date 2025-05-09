@@ -1,14 +1,16 @@
 ---
-title: Konfigurowanie ustawień wcięć w programie Excel
-linktitle: Konfigurowanie ustawień wcięć w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak skonfigurować ustawienia wcięć w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, który pomoże Ci bez wysiłku ulepszyć dokumenty programu Excel.
-weight: 16
-url: /pl/net/excel-formatting-and-styling/configuring-indentation-settings/
+"description": "Dowiedz się, jak skonfigurować ustawienia wcięć w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, który pomoże Ci bez wysiłku ulepszyć dokumenty programu Excel."
+"linktitle": "Konfigurowanie ustawień wcięć w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konfigurowanie ustawień wcięć w programie Excel"
+"url": "/pl/net/excel-formatting-and-styling/configuring-indentation-settings/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konfigurowanie ustawień wcięć w programie Excel
@@ -18,19 +20,19 @@ Tworzenie i zarządzanie arkuszami kalkulacyjnymi programowo może zaoszczędzi�
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów technicznych, omówmy, co musisz mieć, zanim zaczniemy pisać skrypt:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj będziemy pisać i wykonywać nasz kod.
-2. Aspose.Cells dla .NET: Pobierz bibliotekę Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Pobierz bibliotekę Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# i środowiska .NET pomoże Ci zrozumieć omawiane przez nas przykłady.
 4. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany do pracy z wersją .NET Framework obsługiwaną przez Aspose.Cells.
 Gdy już wszystko załatwisz, będziemy gotowi zacząć!
 ## Importuj pakiety
 Pierwszym krokiem w naszej podróży jest zaimportowanie niezbędnych przestrzeni nazw, aby skorzystać z biblioteki Aspose.Cells. Ten krok jest prosty, a oto, jak możesz to zrobić.
-## Krok 1: Importuj przestrzeń nazw Aspose.Cells
+## Krok 1: Importowanie przestrzeni nazw Aspose.Cells
 Aby rozpocząć korzystanie z Aspose.Cells, musisz dodać jego przestrzenie nazw na początku pliku C#:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
- Umożliwia to dostęp do wszystkich klas i metod udostępnianych przez bibliotekę bez konieczności określania pełnej ścieżki za każdym razem. Jeśli zajdzie taka potrzeba, możesz sprawdzić dalsze informacje w[dokumentacja](https://reference.aspose.com/cells/net/).
+Umożliwia to dostęp do wszystkich klas i metod udostępnianych przez bibliotekę bez konieczności określania pełnej ścieżki za każdym razem. Jeśli zajdzie taka potrzeba, możesz sprawdzić dalsze informacje w [dokumentacja](https://reference.aspose.com/cells/net/).
 Teraz omówmy zadanie tworzenia pliku Excel i dodawania wcięć w komórkach. Przeprowadzę Cię krok po kroku przez cały proces.
 ## Krok 2: Skonfiguruj katalog dokumentów
 Najpierw potrzebujemy miejsca, w którym będzie się znajdował nasz plik Excel. Zdefiniujmy katalog naszego dokumentu.
@@ -71,7 +73,7 @@ cell.PutValue("Visit Aspose!");
 ```
 Tutaj po prostu wstawiamy tekst „Visit Aspose!” do komórki A1. Możesz to zmienić na dowolną treść, jaką chcesz.
 ## Krok 8: Pobierz styl komórki
-Aby zastosować wcięcie, najpierw musimy pobrać aktualny styl komórki. Pozwoli nam to dostosować właściwości bez utraty istniejącego formatowania.
+Aby zastosować wcięcie, najpierw musimy pobrać aktualny styl komórki. Pozwoli nam to na dostosowanie właściwości bez utraty istniejącego formatowania.
 ```csharp
 Style style = cell.GetStyle();
 ```
@@ -102,14 +104,16 @@ Aspose.Cells to biblioteka .NET umożliwiająca programowe tworzenie, modyfikowa
 ### Czy mogę używać Aspose.Cells na Linuksie?
 Tak, Aspose.Cells obsługuje platformę .NET Core, co pozwala na korzystanie z niego również w środowiskach Linux.
 ### Jak mogę otrzymać bezpłatną wersję próbną?
- Darmową wersję próbną można pobrać ze strony[Strona Aspose](https://releases.aspose.com/).
+Darmową wersję próbną można pobrać ze strony [Strona Aspose](https://releases.aspose.com/).
 ### Czy Aspose.Cells jest kompatybilny ze wszystkimi wersjami programu Excel?
 Aspose.Cells obsługuje wiele formatów programu Excel, w tym starsze wersje, takie jak Excel 97-2003.
 ### Gdzie mogę znaleźć więcej dokumentacji?
-Można znaleźć obszerną dokumentację na temat[Strona referencyjna Aspose'a](https://reference.aspose.com/cells/net/).
+Można znaleźć obszerną dokumentację na temat [Strona referencyjna Aspose'a](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

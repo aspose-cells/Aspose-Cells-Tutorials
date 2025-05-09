@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,12 +142,15 @@ Aspose.Cells for Java를 사용하여 Excel 파일을 열고 조작하면 애플
 4. **Aspose.Cells는 모든 Java 버전과 호환됩니까?**
    - JDK 8 이상에서 가장 잘 작동합니다.
 
-5. **Excel 파일이 암호로 보호되어 있는 경우는 어떻게 되나요?**
+5. **Excel 파일에 암호가 설정되어 있는 경우는 어떻게 되나요?**
    - Aspose.Cells는 적절한 메서드 호출을 사용하여 파일의 잠금을 해제할 수 있습니다.
 
-더 자세한 정보는 다음을 참조하세요. [Aspose 문서](https://reference.aspose.com/cells/java/) 이 강력한 라이브러리에 대한 이해를 넓힐 수 있는 추가 리소스를 탐색해 보세요.
+자세한 내용은 다음을 참조하세요. [Aspose 문서](https://reference.aspose.com/cells/java/) 이 강력한 라이브러리에 대한 이해를 넓힐 수 있는 추가 리소스를 탐색해 보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

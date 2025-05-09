@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencbeszerzés lépései
-Az Aspose.Cells egy kereskedelmi forgalomban kapható könyvtár, de kipróbálhatja ingyenes próbalicenccel, vagy kérhet ideiglenes licencet kiértékelési célokra. Teljes licenc vásárlásához látogasson el a következő oldalra: [Aspose vásárlás](https://purchase.aspose.com/buy).
+Az Aspose.Cells egy kereskedelmi forgalomban kapható könyvtár, de kipróbálhatja ingyenes próbalicenccel, vagy kérhet ideiglenes licencet értékelési célokra. Teljes licenc vásárlásához látogasson el a következő oldalra: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
 ## Az Aspose.Cells beállítása Java-hoz
 Miután hozzáadta a függőséget a projekthez, kövesse az alábbi lépéseket:
@@ -145,6 +147,9 @@ Most már megtanultad, hogyan rejthetsz el munkalapokat Excel fájlokban az Aspo
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

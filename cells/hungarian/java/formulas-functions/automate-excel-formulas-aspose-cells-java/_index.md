@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Ne habozz kísérletezni és felfedezni az Aspose.Cells által kínált kiterjed
    Egy propagáló képlet automatikusan frissül az új adatsorok hozzáadásával, így biztosítva a folyamatos pontosságot manuális beavatkozás nélkül.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

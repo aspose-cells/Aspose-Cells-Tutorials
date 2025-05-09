@@ -1,56 +1,61 @@
 ---
-title: Modificar a forma de rótulo de dados do gráfico no Excel usando Aspose.Cells
-weight: 7700
-limit: 
-description: Aprenda como alterar o tipo de forma de rótulos de dados em um gráfico do Excel usando Aspose.Cells para .NET. Guia passo a passo com exemplo de código e instruções.
-keywords: [Aspose.Cells, .NET, Excel Chart, Data Labels, Shape Type, Modify Chart, Speech Bubble Oval, Change Shape, C# Excel Automation]
-url: /pt/net/charts/set-shape-type-of-data-labels-of-chart/
+"description": "Aprenda a alterar o tipo de forma dos rótulos de dados em um gráfico do Excel usando o Aspose.Cells para .NET. Guia passo a passo com exemplo de código e instruções."
+"title": "Modificar a forma do rótulo dos dados do gráfico no Excel usando Aspose.Cells"
+"url": "/pt/net/charts/set-shape-type-of-data-labels-of-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modificar a forma de rótulo de dados do gráfico no Excel usando Aspose.Cells
-Neste tutorial, vamos explorar como modificar o tipo de forma de rótulos de dados em um gráfico do Excel usando Aspose.Cells para .NET. Rótulos de dados em gráficos ajudam a fornecer uma melhor visualização, e alterando sua forma pode melhorar a legibilidade. Este exemplo demonstra como acessar um gráfico do Excel existente, recuperar os rótulos de dados de série e mudar seu tipo de forma para um Orçamento de bolha Oval (Wedge Ellipse Callout). Com algumas linhas de código C #, você pode melhorar o apelo visual de seus gráficos do Excel de forma eficiente.  
+# Modificar a forma do rótulo dos dados do gráfico no Excel usando Aspose.Cells
+Neste tutorial, exploraremos como modificar o tipo de forma dos rótulos de dados em um gráfico do Excel usando o Aspose.Cells para .NET. Os rótulos de dados em gráficos ajudam a proporcionar uma melhor visualização, e alterar sua forma pode melhorar a legibilidade. Este exemplo demonstra como acessar um gráfico do Excel existente, recuperar os rótulos de dados da série e alterar seu tipo de forma para um Balão de Fala Oval (Chamada de Elipse em Cunha). Com algumas linhas de código em C#, você pode aprimorar o apelo visual dos seus gráficos do Excel de forma eficiente.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/set-shape-type-of-data-labels-of-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação:  
 
-Para usar Aspose.Cells para .NET no seu projeto, siga estes passos:  
+Para usar o Aspose.Cells para .NET em seu projeto, siga estas etapas:  
 
-1. Instalação através do NuGet:  
-   * Abre o teu projeto Visual Studio.  
-   * Vá para Ferramentas > Gerente de Pacotes NuGet > Gerencie Pacotes NuGet para Solução.  
-   * Procure Aspose.Cells e instale a versão mais recente.  
+1. Instalar via NuGet:  
+   - Abra seu projeto do Visual Studio.  
+   - Acesse Ferramentas > Gerenciador de Pacotes NuGet > Gerenciar Pacotes NuGet para Solução.  
+   - Procure por Aspose.Cells e instale a versão mais recente.  
 
-   Ou, use o Console do Gestor de Pacotes:  
+   Ou use o Console do Gerenciador de Pacotes:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Descarregar do site Aspose:  
-   * Visita[Aspose.Cells para .NET Download](https://releases.aspose.com/cells/net/)e obter os últimos DLLs.  
-   * Adicione manualmente a referência DLL baixada ao seu projeto.  
+2. Baixe do site da Aspose:  
+   - Visita [Baixar Aspose.Cells para .NET](https://releases.aspose.com/cells/net/) e obtenha as DLLs mais recentes.  
+   - Adicione manualmente a referência DLL baixada ao seu projeto.  
 
-3. Aplicar a Licença (Optional, mas Recomendado):  
-   * Se tiver uma licença, aplica-a utilizando:  
+3. Aplicar a licença (opcional, mas recomendado):  
+   - Se você tiver uma licença, aplique-a usando:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 	 
 ## Veja também
-Para uma prova gratuita, visite [Aplique um julgamento livre](https://releases.aspose.com/)\- Não .  
-Para comprar uma licença, vai para o[Aponta a página de compra](https://purchase.aspose.com/buy)\- Não .  
-Para obter a documentação completa, visite [Aspose.Cells para Documentação .NET](https://docs.aspose.com/cells/net/)\- Não .  
-Para explorar a referência completa da API, verifique [Aspose.Cells para Referência de API .NET](https://reference.aspose.com/cells/net/)\- Não . 
+Para um teste gratuito, visite [Teste gratuito do Aspose](https://releases.aspose.com/).  
+Para adquirir uma licença, acesse [Página de compra da Aspose](https://purchase.aspose.com/buy).  
+Para documentação completa, visite [Documentação do Aspose.Cells para .NET](https://docs.aspose.com/cells/net/).  
+Para explorar a referência completa da API, confira [Referência da API Aspose.Cells para .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

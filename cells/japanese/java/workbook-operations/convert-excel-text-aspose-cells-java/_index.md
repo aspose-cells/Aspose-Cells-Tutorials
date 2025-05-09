@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,7 +222,7 @@ A2: はい、任意の文字を区切り文字として設定できます。 `op
 
 **Q3: Aspose.Cells はテキスト以外のどのような形式にエクスポートできますか?**
 
-A3: Aspose.Cells は、PDF、CSV、HTML など、さまざまな形式をサポートしています。
+A3: Aspose.Cells は、PDF、CSV、HTML などさまざまな形式をサポートしています。
 
 **Q4: 複数のファイルの変換を自動化する方法はありますか?**
 
@@ -241,6 +243,9 @@ A5: ファイル パス エラー、権限不足、サポートされていな�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

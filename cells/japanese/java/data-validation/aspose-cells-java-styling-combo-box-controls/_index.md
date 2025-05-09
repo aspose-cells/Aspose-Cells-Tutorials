@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ cells.get("A3").setValue("Emp002");
 **概要：**
 この機能では、インタラクティブなコンボ ボックス コントロールをワークシートに追加し、Java を使用して作成された Excel ファイル内でのユーザー インタラクションを強化する方法を示します。
 #### ステップ1: ワークブックとワークシートを初期化する
-（前のセクションの手順を再利用）
+(前のセクションの手順を再利用)
 #### ステップ2: コンボボックス図形を挿入する
 ```java
 ShapeCollection shapes = sheet.getShapes();
@@ -136,6 +138,9 @@ Aspose.Cells for Java を使用して動的でインタラクティブな Excel 
 Aspose.Cells for Java で旅に乗り出し、Excel 自動化の可能性を最大限に引き出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

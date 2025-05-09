@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Użyj `TableObject` aby zmodyfikować dane za pomocą przesunięć wierszy i kol
 // Wpisz wartość do komórki D5
 cell.putValue("D5 Data");
 
-// Dostęp do tabeli z tej komórki
+// Uzyskaj dostęp do tabeli z tej komórki
 ListObject table = cell.getTable();
 
 // Dodaj wartość w określonej pozycji przesunięcia
@@ -125,7 +127,7 @@ workbook.save(dataDir + "ATFromCell_out.xlsx");
 ### Porady dotyczące rozwiązywania problemów
 
 - **Problemy ze ścieżką pliku**: Upewnij się, że ścieżki są poprawnie określone i dostępne.
-- **Błędy licencyjne**: W przypadku problemów z autoryzacją należy sprawdzić dokładnie konfigurację licencji.
+- **Błędy licencyjne**: W przypadku problemów z autoryzacją należy dokładnie sprawdzić konfigurację licencji.
 
 ## Zastosowania praktyczne
 
@@ -174,6 +176,9 @@ Postępując zgodnie z tym przewodnikiem, jesteś na dobrej drodze do wykorzysta
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

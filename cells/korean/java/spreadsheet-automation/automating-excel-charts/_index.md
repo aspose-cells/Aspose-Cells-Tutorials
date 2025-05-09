@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Cells for Java를 사용하여 Excel 차트 생성 및 사용자 지정을 자동화하는 방법을 소스 코드 예제와 함께 살펴보세요. 차트 작성 작업을 간소화하세요."
+"description": "Aspose.Cells for Java를 사용하여 Excel 차트 생성 및 사용자 지정을 자동화하는 방법을 소스 코드 예제와 함께 살펴보세요. 차트 작업 효율을 높여 보세요."
 "linktitle": "Excel 차트 자동화"
 "second_title": "Aspose.Cells Java Excel 처리 API"
 "title": "Excel 차트 자동화"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel 차트 자동화
@@ -117,9 +119,11 @@ Aspose.Cells for Java를 사용하여 Excel 차트를 자동화하면 Excel 파�
    API 문서를 탐색하세요 [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 자세한 정보와 예를 보려면 여기를 클릭하세요.
 
 Aspose.Cells for Java를 사용하여 Excel 차트 작업을 손쉽게 자동화하고 데이터 시각화 기능을 향상시키세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

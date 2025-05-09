@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA, Eclipse o NetBeans.
 
 ### Prerequisiti di conoscenza
-Sarà utile una conoscenza di base della programmazione Java e la familiarità con le strutture dei file Excel.
+Sarà utile avere una conoscenza di base della programmazione Java e avere familiarità con le strutture dei file Excel.
 
 ## Impostazione di Aspose.Cells per Java
 Per utilizzare Aspose.Cells nel tuo progetto, segui questi passaggi:
@@ -154,6 +156,9 @@ Per approfondire ulteriormente, si consiglia di approfondire le funzionalità pi
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

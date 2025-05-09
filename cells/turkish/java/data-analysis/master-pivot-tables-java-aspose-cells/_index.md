@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Artık Java'da Aspose.Cells ile pivot tabloları kurma ve düzenleme temellerind
 Bu kapsamlı kılavuzu takip ederek, veri odaklı projelerinizde Aspose.Cells for Java'nın güçlü özelliklerini kullanma yolunda iyi bir mesafe kat etmiş olacaksınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

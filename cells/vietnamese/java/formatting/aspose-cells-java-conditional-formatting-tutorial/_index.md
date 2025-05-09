@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Có, bạn có thể tham chiếu các ô trên các trang tính khác nhau bằ
 Chỉ định định dạng lưu mong muốn (ví dụ: XLS hoặc XLSX) để duy trì khả năng tương thích với nhiều phiên bản Excel khác nhau. Aspose.Cells hỗ trợ nhiều định dạng.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

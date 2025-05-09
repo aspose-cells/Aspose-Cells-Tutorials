@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ ImageIO.write(image, "png", new File(outDir + "/background.png"));
 Теперь вы освоили загрузку и обработку файлов ODS с помощью Aspose.Cells для Java. От доступа к рабочим листам до извлечения фоновых данных вы готовы улучшить свои приложения с помощью сложных возможностей обработки электронных таблиц.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

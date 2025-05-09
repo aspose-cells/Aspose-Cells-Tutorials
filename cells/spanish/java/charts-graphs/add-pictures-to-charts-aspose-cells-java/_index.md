@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -42,7 +44,7 @@ Para seguir este tutorial, asegúrese de tener lo siguiente:
 
 3. **Requisitos de conocimiento:**
    - Comprensión básica del manejo de archivos en Java
-   - Familiaridad con los formatos de archivos y estructuras de gráficos de Excel
+   - Familiaridad con los formatos de archivos de Excel y las estructuras de gráficos.
 
 ## Configuración de Aspose.Cells para Java
 
@@ -186,6 +188,9 @@ Para más lecturas y recursos:
 - **Apoyo:** [Foro de Aspose para preguntas y ayuda](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

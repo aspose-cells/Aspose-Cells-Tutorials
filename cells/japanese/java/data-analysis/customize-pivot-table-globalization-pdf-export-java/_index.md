@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ Workbook workbook = new Workbook("path/to/excel/file.xlsx");
 
 ## 結論
 
-JavaでAspose.Cellsを使用してピボットテーブルのグローバル設定をカスタマイズし、PDFとしてエクスポートする方法を習得しました。これらのスキルにより、さまざまなプラットフォームや形式でデータを効果的に提示する能力が向上します。
+これで、JavaでAspose.Cellsを使用してピボットテーブルのグローバリゼーション設定をカスタマイズし、PDFとしてエクスポートする方法を習得できました。これらのスキルにより、さまざまなプラットフォームや形式でデータを効果的に提示する能力が向上します。
 
 ### 次のステップ:
 - さまざまなラベル構成を試してください。
@@ -167,7 +169,7 @@ JavaでAspose.Cellsを使用してピボットテーブルのグローバル設�
    - いいえ、このガイドは Aspose.Cells for Java を使用した Java 実装に特化しています。
 
 2. **Maven で Aspose.Cells ライブラリのバージョンを更新するにはどうすればよいですか?**
-   - 更新する `<version>` タグを付ける `pom.xml` 希望するバージョン番号のファイル。
+   - 更新する `<version>` タグを付ける `pom.xml` 必要なバージョン番号のファイル。
 
 3. **PDF をエクスポートするときによくある問題は何ですか?**
    - 保存する前にすべてのデータが計算されていることを確認し、すべての設定がエクスポートのニーズに合致していることを確認します。
@@ -176,7 +178,7 @@ JavaでAspose.Cellsを使用してピボットテーブルのグローバル設�
    - 大きな制限はありませんが、最適なパフォーマンスを得るためにリソースを効率的に管理してください。
 
 5. **ラベルのカスタマイズ エラーをトラブルシューティングするにはどうすればよいですか?**
-   - メソッドのオーバーライドを再確認してください `GlobalizationSettings` 拡張子を変更し、Aspose.Cells の想定される形式と一致していることを確認します。
+   - メソッドのオーバーライドを再確認する `GlobalizationSettings` 拡張子を変更し、Aspose.Cells の想定される形式と一致していることを確認します。
 
 ## リソース
 - [Aspose.Cells ドキュメント](https://reference.aspose.com/cells/java/)
@@ -189,6 +191,9 @@ Aspose.Cells for Java を使用して、データ管理の次のステップに�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

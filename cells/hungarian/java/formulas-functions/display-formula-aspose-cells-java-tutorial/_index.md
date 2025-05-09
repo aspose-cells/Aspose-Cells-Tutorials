@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Licencszerzés
 Az Aspose.Cells for Java egy kereskedelmi forgalomban kapható könyvtár, de kipróbálhatod egy ingyenes próbaverzióval, hogy kiértékeld a képességeit. Így szerezheted be:
-- **Ingyenes próbaverzió**Töltse le a legújabb verziót innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
+- **Ingyenes próbaverzió**: Töltse le a legújabb verziót innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély**: Ideiglenes engedély igénylése a következőn keresztül: [ezt a linket](https://purchase.aspose.com/temporary-license/) ha több időre van szüksége, mint amennyit a tárgyalás lehetővé tesz.
 - **Vásárlás**Teljes hozzáféréshez vásároljon licencet a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
 
@@ -76,7 +78,7 @@ public class ShowFormulas {
         // Meglévő munkafüzet betöltése lemezről
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         // Képletek megjelenítése ezen a munkalapon
@@ -118,7 +120,7 @@ Készen állsz mélyebbre merülni? Látogass el a [Aspose dokumentáció](https
 
 ## GYIK szekció
 **K: Hogyan kezelhetem a nagy Excel fájlokat anélkül, hogy elfogyna a memória?**
-V: Fontolja meg a használatát `Workbook.setMemorySetting()` a nagy munkafüzetek teljesítményének optimalizálásához.
+V: Fontolja meg a használatát `Workbook.setMemorySetting()` a nagy munkafüzetek teljesítményének optimalizálása érdekében.
 
 **K: Az Aspose.Cells képes egyszerre több munkalapot is feldolgozni?**
 V: Igen, végigmehetek a munkafüzet munkalapgyűjteményén, és szükség szerint alkalmazzam a műveleteket.
@@ -141,6 +143,9 @@ V: Az Aspose.Cells nagymértékben kompatibilis, és integrálható Spring, Hibe
 - **Támogatási fórum**: [Aspose közösségi támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

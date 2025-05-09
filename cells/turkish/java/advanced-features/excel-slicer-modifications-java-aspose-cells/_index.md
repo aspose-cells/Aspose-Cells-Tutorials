@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Daha derine dalmaya hazır mısınız? Bu teknikleri bugün projelerinizde uygul
    - Yalnızca gerekli verileri işleyin, dosya işleme için akışları kullanın ve yeniden hesaplamaları azaltmak için dilimleyici yapılandırmalarını optimize edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

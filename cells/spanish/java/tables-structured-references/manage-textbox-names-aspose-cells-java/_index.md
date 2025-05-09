@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Como próximos pasos, considere explorar otras características de Aspose.Cells 
    - Verifique nuevamente la configuración de compilación de su proyecto (Maven/Gradle) para asegurarse de que todas las dependencias Aspose.Cells necesarias estén incluidas correctamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

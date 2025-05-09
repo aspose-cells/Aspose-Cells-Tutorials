@@ -1,14 +1,16 @@
 ---
-title: Odświeżanie i obliczanie elementów w tabeli przestawnej w .NET
-linktitle: Odświeżanie i obliczanie elementów w tabeli przestawnej w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak odświeżać i obliczać elementy w tabeli przestawnej za pomocą Aspose.Cells dla .NET, korzystając z tego kompleksowego samouczka krok po kroku.
-weight: 17
-url: /pl/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/
+"description": "Dowiedz się, jak odświeżać i obliczać elementy w tabeli przestawnej za pomocą Aspose.Cells dla .NET, korzystając z tego kompleksowego samouczka krok po kroku."
+"linktitle": "Odświeżanie i obliczanie elementów w tabeli przestawnej w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Odświeżanie i obliczanie elementów w tabeli przestawnej w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odświeżanie i obliczanie elementów w tabeli przestawnej w .NET
@@ -21,10 +23,10 @@ Zanim zagłębimy się w kod, upewnijmy się, że masz niezbędne ustawienia, ab
 - Powinieneś mieć zainstalowany program Visual Studio lub inne środowisko IDE .NET.
 - Upewnij się, że masz zainstalowany .NET Framework zgodny z Aspose.Cells.
 ### 2. Aspose.Cells dla .NET
-- Będziesz potrzebować biblioteki Aspose.Cells dla .NET, którą możesz pobrać ze strony[Strona wydania Aspose](https://releases.aspose.com/cells/net/).
--  Opcjonalnie możesz rozważyć[Bezpłatna wersja próbna](https://releases.aspose.com/) aby ocenić bibliotekę.
+- Będziesz potrzebować biblioteki Aspose.Cells dla .NET, którą możesz pobrać ze strony [Strona wydania Aspose](https://releases.aspose.com/cells/net/).
+- Opcjonalnie możesz rozważyć [Bezpłatna wersja próbna](https://releases.aspose.com/) aby ocenić bibliotekę.
 ### 3. Pliki przykładowe
--  Przygotuj plik Excela (np.`sample.xlsx`) z tabelą przestawną i obliczonymi elementami. Będziesz używać tego pliku w całym samouczku.
+- Przygotuj plik Excela (np. `sample.xlsx`) z tabelą przestawną i obliczonymi elementami. Będziesz używać tego pliku w całym samouczku.
 Teraz, gdy omówiliśmy już wymagania wstępne, możemy przejść do faktycznej realizacji!
 ## Importuj pakiety
 Pierwszym krokiem w Twojej podróży jest zaimportowanie niezbędnych pakietów. Umożliwi Ci to łatwy dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Cells. 
@@ -41,7 +43,7 @@ Mając już podstawy, podzielmy proces na łatwiejsze do opanowania kroki.
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-Zanim załadujemy jakiekolwiek pliki, musimy ustawić katalog, w którym przechowywane są nasze pliki Excel. Zastąp`"Your Document Directory"` z rzeczywistą ścieżką w Twoim systemie, gdzie`sample.xlsx` mieszka. To tak, jakby dać aplikacji mapę do znalezienia skarbu!
+Zanim załadujemy jakiekolwiek pliki, musimy ustawić katalog, w którym przechowywane są nasze pliki Excel. Zastąp `"Your Document Directory"` z rzeczywistą ścieżką w Twoim systemie, gdzie `sample.xlsx` mieszka. To tak, jakby dać aplikacji mapę do znalezienia skarbu!
 ## Krok 2: Załaduj skoroszyt programu Excel
 ```csharp
 Workbook wb = new Workbook(dataDir + "sample.xlsx");
@@ -51,7 +53,7 @@ Tutaj ładujemy nasz plik Excel do obiektu Workbook. Ten obiekt służy jako pom
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 ```
- Ponieważ pliki Excel mogą zawierać wiele arkuszy, określamy pierwszy arkusz w naszym skoroszycie. To tutaj znajduje się nasza tabela przestawna. Odwołując się do`Worksheets[0]`, w zasadzie mówimy: „Hej, zabierz mnie do pierwszej kartki!”
+Ponieważ pliki Excel mogą zawierać wiele arkuszy, określamy pierwszy arkusz w naszym skoroszycie. To tutaj znajduje się nasza tabela przestawna. Odwołując się do `Worksheets[0]`, w zasadzie mówimy: „Hej, zabierz mnie do pierwszej kartki!”
 ## Krok 4: Modyfikowanie wartości komórki
 ```csharp
 sheet.Cells["D2"].PutValue(20);
@@ -65,7 +67,7 @@ foreach (PivotTable pt in sheet.PivotTables)
 	pt.CalculateData();
 }
 ```
- Oto ekscytująca część! Przechodzimy przez wszystkie tabele przestawne obecne w naszym arkuszu kalkulacyjnym. Wywołując`RefreshData()` I`CalculateData()` w każdej tabeli przestawnej upewniamy się, że są one aktualizowane na podstawie nowych wartości komórek. To podobne do dodawania świeżych składników do przepisu, aby zapewnić najlepszy wynik!
+Oto ekscytująca część! Przechodzimy przez wszystkie tabele przestawne obecne w naszym arkuszu kalkulacyjnym. Wywołując `RefreshData()` I `CalculateData()` w każdej tabeli przestawnej upewniamy się, że są one aktualizowane na podstawie nowych wartości komórek. To podobne do dodawania świeżych składników do przepisu, aby zapewnić najlepszy wynik!
 ## Krok 6: Zapisz zaktualizowany skoroszyt jako plik PDF
 ```csharp
 wb.Save(dataDir + "RefreshAndCalculateItems_out.pdf", SaveFormat.Pdf);
@@ -77,16 +79,18 @@ Praca z tabelami przestawnymi i elementami obliczeniowymi w programie Excel przy
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells for .NET to rozbudowana biblioteka umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Możesz pobrać[bezpłatny okres próbny](https://releases.aspose.com/) aby zapoznać się z funkcjami biblioteki przed dokonaniem zakupu.
+Tak! Możesz pobrać [bezpłatny okres próbny](https://releases.aspose.com/) aby zapoznać się z funkcjami biblioteki przed dokonaniem zakupu.
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełną dokumentację można znaleźć na stronie[Podaj witrynę referencyjną](https://reference.aspose.com/cells/net/).
+Pełną dokumentację można znaleźć na stronie [Podaj witrynę referencyjną](https://reference.aspose.com/cells/net/).
 ### Jakie formaty plików obsługuje Aspose.Cells?
 Aspose.Cells obsługuje różne formaty, w tym XLSX, XLS, CSV, PDF i inne.
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz szukać pomocy na forach społecznościowych dostępnych dla Aspose.Cells[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy na forach społecznościowych dostępnych dla Aspose.Cells [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -251,6 +253,9 @@ Per migliorare ulteriormente le tue competenze, esplora le funzionalità aggiunt
 Ora che hai tutti gli strumenti e le conoscenze a disposizione, inizia a sperimentare con Aspose.Cells per Java per semplificare le attività relative a Excel nelle applicazioni Java. Buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

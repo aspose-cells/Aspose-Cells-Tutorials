@@ -8,7 +8,9 @@ url: /java/excel-data-security/cell-locking-strategies/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cell Locking Strategies
@@ -142,6 +144,7 @@ To ensure the effectiveness of your cell locking strategies, thoroughly test the
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

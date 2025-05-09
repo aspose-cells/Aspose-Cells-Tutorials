@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ worksheet.setActiveCell("A1");
 - **`WorksheetCollection`：** すべてのワークシートへのアクセスを許可します。
 - **`setActiveCell`：** 特定の操作に役立つアクティブ セルを設定します。
 
-#### ステップ3: 分割されたペインを削除する
+#### ステップ3: 分割ペインを削除する
 ```java
     worksheet.removeSplit();
 } catch (Exception e) {
@@ -172,6 +174,9 @@ try {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

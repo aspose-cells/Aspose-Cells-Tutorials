@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/combined-chart-types/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Combined Chart Types
@@ -137,6 +139,7 @@ You can find comprehensive documentation and a wealth of code examples on the As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

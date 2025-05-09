@@ -4,8 +4,11 @@ description: Learn powerful data analysis techniques using PivotTables, filterin
 weight: 10
 url: "/net/data-analysis/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Analysis in Excel
@@ -146,6 +149,9 @@ A code tutorial for Aspose.Cells Net
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

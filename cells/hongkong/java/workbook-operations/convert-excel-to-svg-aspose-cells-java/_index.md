@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ for (int i = 0; i < sheetCount; i++) {
 1. **Web 儀表板：** 使用可擴展的圖形顯示數據，在任何解析度下都能保持品質。
 2. **數據視覺化報告：** 將圖表和圖形的高品質向量圖像嵌入到報告中。
 3. **互動演示：** 使用 SVG 進行互動式演示，允許使用者放大而不損失清晰度。
-4. **跨平台相容性：** 確保從行動裝置到桌面平台的跨平台視覺資料一致性。
+4. **跨平台相容性：** 確保從行動裝置到桌面的跨平台視覺資料一致性。
 5. **與設計工具整合：** 輕鬆將向量圖形導入 Adobe Illustrator 等設計軟體。
 
 ## 性能考慮
@@ -167,7 +169,7 @@ for (int i = 0; i < sheetCount; i++) {
 - **垃圾收集：** 定期呼叫垃圾收集（`System.gc()`) 完成繁重的處理任務後。
 
 ## 結論
-本教學探討如何使用 Aspose.Cells for Java 將 Excel 工作表轉換為 SVG 格式。透過遵循結構化的實施指南並考慮實際應用，您可以在各種專案中增強資料視覺化能力。
+本教學探討如何使用 Aspose.Cells for Java 將 Excel 表格轉換為 SVG 格式。透過遵循結構化的實施指南並考慮實際應用，您可以在各種專案中增強資料視覺化能力。
 
 ### 後續步驟
 嘗試使用您自己專案中的範例工作簿來執行這些步驟！透過將 SVG 輸出整合到 Web 應用程式或設計工具中來進一步探索。
@@ -186,6 +188,9 @@ for (int i = 0; i < sheetCount; i++) {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

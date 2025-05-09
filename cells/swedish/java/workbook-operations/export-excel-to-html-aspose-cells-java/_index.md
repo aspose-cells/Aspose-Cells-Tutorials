@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,10 +214,13 @@ A5: Ja, det stöder öppning av krypterade filer om du anger rätt lösenord.
 - **Tillfällig licens:** [Ansök om tillfällig licens](https://purchase.aspose.com/temporary-license/)
 - **Supportforum:** [Aspose.Cells-stöd](https://forum.aspose.com/c/cells/9)
 
-Utnyttja dessa resurser för att fördjupa din förståelse och förbättra din användning av Aspose.Cells för Java. Lycka till med kodningen!
+Använd dessa resurser för att fördjupa din förståelse och förbättra din användning av Aspose.Cells för Java. Lycka till med kodningen!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

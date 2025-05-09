@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ Integracja z innymi systemami, takimi jak bazy danych lub oprogramowanie CRM, mo
 Aby zapewnić optymalną wydajność podczas pracy z Aspose.Cells:
 - **Optymalizacja wykorzystania pamięci**: Należy pamiętać o zużyciu pamięci, zwłaszcza podczas przetwarzania dużych plików Excela.
 - **Efektywne przetwarzanie danych**: Odświeżaj tylko niezbędne wykresy, aby zminimalizować czas przetwarzania.
-- **Najlepsze praktyki w Javie**:Postępuj zgodnie ze standardowymi praktykami języka Java dotyczącymi zarządzania zasobami i zbierania śmieci.
+- **Najlepsze praktyki Java**:Postępuj zgodnie ze standardowymi praktykami języka Java dotyczącymi zarządzania zasobami i zbierania śmieci.
 
 ## Wniosek
 
@@ -196,6 +198,9 @@ Postępując zgodnie z tym samouczkiem, wykonałeś znaczący krok w kierunku wy
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

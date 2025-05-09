@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ public class ChangeSourceData {
 ด้วยทรัพยากรเหล่านี้และคู่มือที่ครอบคลุมนี้ คุณก็พร้อมที่จะจัดการกับการเปลี่ยนแปลงข้อมูลต้นฉบับของตารางสรุปข้อมูลอย่างมีประสิทธิภาพโดยใช้ Aspose.Cells ใน Java แล้ว ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

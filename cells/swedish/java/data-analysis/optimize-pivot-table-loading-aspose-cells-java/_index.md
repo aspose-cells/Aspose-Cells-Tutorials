@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ PivotTable pt = ws.getPivotTables().get(0);
 ##### Steg 4: Uppdatera och beräkna data
 Sätt en flagga för att uppdatera data, anropa sedan metoder för att uppdatera och beräkna resultaten:
 ```java
-// Ange flaggan "Sant" för dynamiska uppdateringar för uppdateringar
+// Ange flaggan "Sant" för uppdateringsdata för dynamiska uppdateringar
 deploy.setRefreshDataFlag(true);
 
 // Uppdatera och beräkna pivottabelldata
@@ -160,6 +162,9 @@ Utforska dessa resurser för att fördjupa din förståelse och förbättra dina
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

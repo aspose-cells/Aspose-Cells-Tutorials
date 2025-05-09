@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ Los datos son la base de cualquier gráfico. Completemos nuestra hoja de cálcul
 
    Complete los puntos de datos necesarios:
 ```java
-// Rellenar meses
+// Poblar meses
 cells.get("D15").putValue("Jan");
 cells.get("E15").putValue("Feb");
 cells.get("F15").putValue("Mar");
@@ -228,6 +230,9 @@ Esta guía ofrece una guía detallada para crear gráficos dinámicos de Excel c
 - Comparta sus hallazgos o preguntas en los foros de desarrolladores para interactuar con la comunidad.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

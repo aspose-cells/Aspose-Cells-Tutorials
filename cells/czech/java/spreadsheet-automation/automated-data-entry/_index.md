@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizované zadávání dat
@@ -115,9 +117,11 @@ Automatizace zadávání dat pomocí Aspose.Cells pro Javu zefektivňuje vaše p
    Dokumentaci si můžete prohlédnout na adrese [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Nyní máte znalosti a nástroje pro efektivní automatizaci zadávání dat pomocí Aspose.Cells pro Javu. Začněte zlepšovat své procesy zpracování dat a zvyšte efektivitu svého podnikání.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

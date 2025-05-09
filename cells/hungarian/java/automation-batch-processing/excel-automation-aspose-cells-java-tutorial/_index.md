@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Ismerd meg, hogyan automatizálhatod az Excel-feladatokat az Aspose.Cells for Java segítségével. Tanuld meg, hogyan kérhetsz le verziókat, hogyan olvashatsz táblázatokat, és hogyan menthetsz el adatokat ODS formátumban."
+"description": "Ismerd meg, hogyan automatizálhatod az Excel-feladatokat az Aspose.Cells for Java használatával. Tanuld meg, hogyan kérhetsz le verziókat, hogyan olvashatsz táblázatokat, és hogyan menthetsz el adatokat ODS formátumban."
 "title": "Excel automatizálás elsajátítása Aspose.Cells segítségével Java-ban – Teljes körű útmutató"
 "url": "/hu/java/automation-batch-processing/excel-automation-aspose-cells-java-tutorial/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,6 +170,9 @@ Kezdje el az Excel automatizálás elsajátításának útját még ma az Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

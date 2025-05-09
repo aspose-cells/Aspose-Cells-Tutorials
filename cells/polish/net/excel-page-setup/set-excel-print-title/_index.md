@@ -1,14 +1,16 @@
 ---
-title: Ustaw tytuł wydruku w programie Excel
-linktitle: Ustaw tytuł wydruku w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się efektywnie ustawiać tytuły wydruków w programie Excel za pomocą Aspose.Cells for .NET. Usprawnij proces drukowania dzięki naszemu przewodnikowi krok po kroku.
-weight: 170
-url: /pl/net/excel-page-setup/set-excel-print-title/
+"description": "Naucz się efektywnie ustawiać tytuły wydruków w programie Excel za pomocą Aspose.Cells for .NET. Usprawnij proces drukowania dzięki naszemu przewodnikowi krok po kroku."
+"linktitle": "Ustaw tytuł wydruku w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw tytuł wydruku w programie Excel"
+"url": "/pl/net/excel-page-setup/set-excel-print-title/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw tytuł wydruku w programie Excel
@@ -22,7 +24,7 @@ Jeśli chodzi o pracę z arkuszami kalkulacyjnymi programu Excel, zapewnienie pr
 Zanim przejdziemy do szczegółów, upewnijmy się, że wszystko jest skonfigurowane, aby można było płynnie kontynuować pracę:
 
 1. Zainstalowany program Visual Studio: Na komputerze musi być zainstalowana działająca wersja programu Visual Studio, na której można uruchamiać aplikacje .NET.
-2.  Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz Aspose.Cells dla .NET ze strony[strona](https://releases.aspose.com/cells/net/). Ta biblioteka jest sercem naszej operacji zarządzania plikami Excel programowo.
+2. Aspose.Cells dla .NET: Jeśli jeszcze tego nie zrobiłeś, pobierz Aspose.Cells dla .NET ze strony [strona](https://releases.aspose.com/cells/net/). Ta biblioteka jest sercem naszej operacji zarządzania plikami Excel programowo.
 3. Podstawowa wiedza programistyczna: Znajomość programowania w języku C# pomoże Ci zrozumieć i modyfikować udostępnione fragmenty kodu.
 4. .NET Framework: Upewnij się, że masz zainstalowaną właściwą wersję .NET w celu zapewnienia zgodności z Aspose.Cells.
 
@@ -30,7 +32,7 @@ Gdy już spełnisz te wymagania wstępne, możemy zakasać rękawy i zacząć dz
 
 ## Importuj pakiety
 
-Aby zacząć korzystać z możliwości Aspose.Cells, upewnij się, że do swojego projektu dodałeś niezbędne pakiety. 
+Aby zacząć korzystać z potencjału Aspose.Cells, upewnij się, że do swojego projektu dodałeś niezbędne pakiety. 
 
 ### Dodaj odniesienie Aspose.Cells
 
@@ -41,7 +43,7 @@ Aby użyć Aspose.Cells w swoim programie, musisz dodać odwołanie do Aspose.Ce
 - Przejdź do lokalizacji pobranego pliku Aspose.Cells.dll.
 - Dodaję do projektu.
 
-Ten krok jest konieczny, ponieważ bez niego Twój kod nie rozpozna funkcji Aspose.Cells!
+Ten krok jest konieczny, ponieważ bez niego kod nie rozpozna funkcji Aspose.Cells!
 
 ### Importuj przestrzeń nazw
 
@@ -65,11 +67,11 @@ Pierwszą rzeczą, którą musimy zrobić, jest określenie, gdzie nasz dokument
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Po prostu zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz zapisać plik Excela. Na przykład możesz użyć`@"C:\Reports\"`.
+Po prostu zamień `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz zapisać plik Excela. Na przykład możesz użyć `@"C:\Reports\"`.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie tworzymy instancję`Workbook` Klasa, która reprezentuje plik Excela.
+Następnie tworzymy instancję `Workbook` Klasa, która reprezentuje plik Excela.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -79,17 +81,17 @@ Ten wiersz inicjuje nowy skoroszyt, przygotowując go do pracy.
 
 ## Krok 3: Uzyskaj odniesienie do PageSetup
 
- Teraz uzyskajmy dostęp do arkusza kalkulacyjnego`PageSetup` property. Tutaj będzie konfigurowana większość naszych ustawień drukowania.
+Teraz uzyskajmy dostęp do arkusza kalkulacyjnego `PageSetup` property. Tutaj będzie konfigurowana większość naszych ustawień drukowania.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Tutaj chwytamy`PageSetup` z pierwszego arkusza kalkulacyjnego. Daje nam to kontrolę nad tym, jak strona jest ustawiona do drukowania.
+Tutaj chwytamy `PageSetup` z pierwszego arkusza kalkulacyjnego. Daje nam to kontrolę nad tym, jak strona jest ustawiona do drukowania.
 
 ## Krok 4: Zdefiniuj kolumny tytułowe
 
- Aby określić, które kolumny będą drukowane jako tytuły, przypisujemy naszym identyfikatory kolumn`PrintTitleColumns` nieruchomość. 
+Aby określić, które kolumny będą drukowane jako tytuły, przypisujemy naszym identyfikatory kolumn `PrintTitleColumns` nieruchomość. 
 
 ```csharp
 pageSetup.PrintTitleColumns = "$A:$B";
@@ -105,7 +107,7 @@ Podobnie możesz ustawić, które wiersze będą wyświetlane jako tytuły.
 pageSetup.PrintTitleRows = "$1:$2";
 ```
 
-W ten sposób wiersze 1 i 2 są oznaczane jako wiersze tytułowe. Jeśli więc masz tam jakieś informacje nagłówkowe, pozostaną widoczne na wielu wydrukowanych stronach.
+ten sposób wiersze 1 i 2 są oznaczone jako wiersze tytułowe. Tak więc jeśli masz tam jakieś informacje nagłówkowe, pozostaną widoczne na wielu wydrukowanych stronach.
 
 ## Krok 6: Zapisz skoroszyt
 
@@ -115,7 +117,7 @@ Ostatnim krokiem naszego procesu jest zapisanie skoroszytu ze wszystkimi zastoso
 workbook.Save(dataDir + "SetPrintTitle_out.xls");
 ```
 
-Upewnij się, czy katalog dokumentów jest poprawnie określony, dzięki czemu będziesz mógł łatwo odnaleźć nowo utworzony plik programu Excel. 
+Upewnij się, czy katalog dokumentów jest poprawnie określony, dzięki czemu będziesz mógł łatwo odnaleźć nowo utworzony plik Excela. 
 
 I tak po prostu, tytuły do wydrukowania są gotowe, a plik Excel jest gotowy do wydrukowania!
 
@@ -138,10 +140,12 @@ Aspose.Cells oferuje bezpłatną wersję próbną z ograniczeniami. Aby korzysta
 Obsługuje wiele formatów, w tym XLS, XLSX, CSV i inne.
 
 ### Gdzie mogę znaleźć więcej informacji?
- Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z dokumentacją [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

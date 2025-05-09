@@ -1,14 +1,16 @@
 ---
-title: Özel DB Num Desen Biçimlendirmesi ile Verileri Excel'e Aktarın
-linktitle: Özel DB Num Desen Biçimlendirmesi ile Verileri Excel'e Aktarın
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kolay takip edilebilir eğitimde, Aspose.Cells for .NET kullanarak özel DB Num biçimlendirmesiyle verileri Excel'e nasıl aktaracağınızı öğrenin.
-weight: 10
-url: /tr/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/
+"description": "Bu kolay takip edilebilir eğitimde, Aspose.Cells for .NET kullanarak özel DB Num biçimlendirmesiyle verileri Excel'e nasıl aktaracağınızı öğrenin."
+"linktitle": "Özel DB Num Desen Biçimlendirmesi ile Verileri Excel'e Aktarın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Özel DB Num Desen Biçimlendirmesi ile Verileri Excel'e Aktarın"
+"url": "/tr/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Özel DB Num Desen Biçimlendirmesi ile Verileri Excel'e Aktarın
@@ -22,7 +24,7 @@ E-tablo düzenleme söz konusu olduğunda, verileri Excel'e aktarmak ve doğru �
 Ayrıntılara girmeden önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte sizi başarıya hazırlayacak ön koşulların hızlı bir kontrol listesi:
 
 1. .NET Framework: Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells çeşitli .NET sürümleriyle sorunsuz bir şekilde çalışır.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz:[indirme bağlantısı](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesini indirip yüklemeniz gerekecek. Bunu şuradan alabilirsiniz: [indirme bağlantısı](https://releases.aspose.com/cells/net/).
 3. Entegre Geliştirme Ortamı (IDE): C# kodunuzu yazıp çalıştırabileceğiniz Visual Studio gibi bir IDE kullanın.
 4. Temel C# Bilgisi: C# hakkında temel bir anlayışa sahip olmak, bu kılavuzda kullanacağımız kodlama uygulamalarını takip etmenize yardımcı olacaktır.
 
@@ -34,7 +36,7 @@ Aspose.Cells ile etkili bir şekilde çalışmak için, C# dosyanızın başına
 
 ### C# Dosyanızı Oluşturun
 
- IDE'nizi açın (Visual Studio önerilir) ve yeni bir C# projesi oluşturun. Buna şu şekilde alakalı bir isim verin:`ExcelDataImport`.
+IDE'nizi açın (Visual Studio önerilir) ve yeni bir C# projesi oluşturun. Buna şu şekilde alakalı bir isim verin: `ExcelDataImport`.
 
 ### Referans Aspose.Cells
 
@@ -63,7 +65,7 @@ Artık tüm ön koşulları karşıladığımıza ve gerekli paketleri içe akta
 string dataDir = "Your Document Directory";
 ```
 
- Bu örnekte şunu değiştirin:`Your Document Directory` gerçek yolunuzla, örneğin`C:\\Users\\YourName\\Documents\\`.
+Bu örnekte şunu değiştirin: `Your Document Directory` gerçek yolunuzla, örneğin `C:\\Users\\YourName\\Documents\\`.
 
 ## Adım 2: Bir Çalışma Kitabı Oluşturun
 
@@ -73,7 +75,7 @@ Daha sonra, esasen Excel dosyanız olan yeni bir çalışma kitabı oluşturacak
 Workbook wb = new Workbook();
 ```
 
- Burada yeni bir örnek oluşturuyoruz`Workbook` nesne. Bu sizin boş tuvaliniz!
+Burada yeni bir örnek oluşturuyoruz `Workbook` nesne. Bu sizin boş tuvaliniz!
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -87,7 +89,7 @@ Tıpkı bir kitabın ilk sayfasını açtığınız gibi, verilerinizi eklemek i
 
 ## Adım 4: Hücreye Veri Girin
 
- Şimdi, bir hücreyi biraz veriyle dolduralım. Bu örnek için, değeri gireceğiz`123` A1 hücresine.
+Şimdi, bir hücreyi biraz veriyle dolduralım. Bu örnek için, değeri gireceğiz `123` A1 hücresine.
 
 ```csharp
 Cell cell = ws.Cells["A1"];
@@ -114,7 +116,7 @@ Hücrenin stilini yakalayarak, ona kendi özgün dokunuşunuzu katmaya hazırlan
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Bu satır Excel'e sayıyı biçimlendirmesini söyler`123`Çince diline karşılık gelen DBNum desenine göre. Oldukça hoş, değil mi?
+Bu satır Excel'e sayıyı biçimlendirmesini söyler `123` Çince diline karşılık gelen DBNum desenine göre. Oldukça hoş, değil mi?
 
 ## Adım 7: Güncellenen Hücre Stilini Ayarlayın
 
@@ -161,16 +163,18 @@ Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla olu
 Evet! Çalışma sayfalarınızdaki herhangi bir hücreye farklı stiller, biçimler ve hatta formüller uygulayabilirsiniz.
 
 ### Ücretsiz deneme imkanı var mı?  
- Kesinlikle! Ücretsiz deneme sürümünü kontrol edebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü kontrol edebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Excel dosyalarını hangi formatlarda kaydedebilirim?  
 Aspose.Cells, XLSX, XLS, CSV, PDF ve daha birçok formatı destekler.
 
 ### Daha fazla desteği nereden bulabilirim?  
- Yardıma ihtiyacınız varsa, onları ziyaret edin[destek forumu](https://forum.aspose.com/c/cells/9) Topluluktan ve uzmanlardan yardım isteyin.
+Yardıma ihtiyacınız varsa, onları ziyaret edin [destek forumu](https://forum.aspose.com/c/cells/9) Topluluktan ve uzmanlardan yardım isteyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

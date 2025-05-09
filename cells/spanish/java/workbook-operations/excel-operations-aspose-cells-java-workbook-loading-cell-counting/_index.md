@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Recuperar el recuento de celdas adecuado para hojas de trabajo muy grandes:
 ```java
 long largeCellCount = worksheet.getCells().getCountLarge();
 ```
-- **Valor de retorno**: `largeCellCount` Proporciona el número total de celdas, acomodando rangos extendidos.
+- **Valor de retorno**: `largeCellCount` Proporciona el número total de celdas, admitiendo rangos ampliados.
 
 ## Aplicaciones prácticas
 1. **Análisis de datos:** Evalúe rápidamente el tamaño y la estructura de la hoja de cálculo.
@@ -154,6 +156,9 @@ Para explorar más, considere profundizar en funciones avanzadas como la manipul
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

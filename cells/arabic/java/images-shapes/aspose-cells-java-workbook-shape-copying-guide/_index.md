@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - قم بتقليل عدد عمليات الشكل عن طريق تجميعها معًا عندما يكون ذلك ممكنًا، مما يقلل من وقت المعالجة واستهلاك الموارد.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

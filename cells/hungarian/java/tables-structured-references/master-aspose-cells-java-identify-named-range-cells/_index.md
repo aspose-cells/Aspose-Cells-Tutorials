@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ public class LoadWorkbook {
         // Adja meg a dokumentumkönyvtár elérési útját.
         String dataDir = "path_to_your_data_directory/";
         
-        // Munkafüzet objektum példányosítása egy meglévő fájl betöltésével
+        // Workbook objektum példányosítása egy meglévő fájl betöltésével
         Workbook workbook = new Workbook(dataDir + "book1.xls");
     }
 }
@@ -198,6 +200,9 @@ További felfedezéshez érdemes lehet az Aspose.Cells fejlettebb funkcióinak m
 Indulj el az utazásodra az Aspose.Cells segítségével, és emeld Java alkalmazásaidat új magasságokba!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

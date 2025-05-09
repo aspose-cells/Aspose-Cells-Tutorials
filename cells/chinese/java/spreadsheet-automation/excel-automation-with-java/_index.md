@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Java 实现 Excel 自动化
@@ -124,9 +126,11 @@ Aspose.Cells for Java 助您高效地自动化 Excel 任务。借助这些源代
 ---
 
 本指南包含源代码示例，循序渐进，将帮助您奠定坚实的基础，使用 Aspose.Cells 在 Java 中实现 Excel 自动化。祝您编程愉快，自动化您的 Excel 任务！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

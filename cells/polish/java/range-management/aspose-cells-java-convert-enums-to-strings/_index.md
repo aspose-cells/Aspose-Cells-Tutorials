@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 // Wyświetla aktualną wersję Aspose.Cells dla Java.
 System.out.println("Aspose.Cells Version: " + CellsHelper.getVersion());
 ```
-### Konwertuj wyliczenia typu HTML na ciągi znaków
+### Konwertuj typy wyliczeniowe HTML na ciągi znaków
 #### Przegląd
 Funkcja ta umożliwia konwersję `HtmlCrossType` wyliczeń do ich reprezentacji łańcuchowych, przydatne przy konfigurowaniu sposobu eksportowania danych z programu Excel do formatu HTML.
 **Krok 1: Importuj wymagane klasy**
@@ -151,6 +153,9 @@ Teraz nauczyłeś się, jak wyświetlić wersję Aspose.Cells dla Java i przekon
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

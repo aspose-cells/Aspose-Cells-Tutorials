@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -209,7 +211,7 @@ Következő lépésként érdemes lehet megfontolni az Aspose.Cells fejlettebb f
 
 ## Erőforrás
 
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Legújabb kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Próbáld ki az Aspose.Cells-t](https://releases.aspose.com/cells/java/)
@@ -219,6 +221,9 @@ Következő lépésként érdemes lehet megfontolni az Aspose.Cells fejlettebb f
 Most, hogy elsajátítottad az egyéni számítási motorok megvalósítását Aspose.Cells Java-ban, tedd próbára a képességeidet, és kezdd el optimalizálni a táblázataidat úgy, mint még soha!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

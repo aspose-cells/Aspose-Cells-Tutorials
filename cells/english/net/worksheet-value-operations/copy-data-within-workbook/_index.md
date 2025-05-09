@@ -8,7 +8,9 @@ url: /net/worksheet-value-operations/copy-data-within-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Data Within Workbook using Aspose.Cells
@@ -82,6 +84,7 @@ You can use the `Copy` method with a reference to another workbook, like `sheets
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,57 +1,62 @@
 ---
-title: Создать вращающую таблицу в Excel с использованием Aspose.Cells для .NET
-weight: 7700
-limit: 
-description: Узнайте, как создать Поворотное таблицу в файле Excel с использованием Aspose.Cells для .NET. Это пошаговое руководство демонстрирует добавление данных и генерацию Поворотной таблицы.
-keywords: [Aspose.Cells for .NET, create Pivot Table, Excel Pivot Table, .NET Excel library, generate Pivot Table, Excel automation, C# Pivot Table, data summarization, Aspose.Cells example]
-url: /ru/net/pivot-tables/create-pivot-table/
+"description": "Узнайте, как создать сводную таблицу в файле Excel с помощью Aspose.Cells для .NET. Это пошаговое руководство демонстрирует добавление данных и создание сводной таблицы."
+"title": "Создание сводной таблицы в Excel с использованием Aspose.Cells для .NET"
+"url": "/ru/net/pivot-tables/create-pivot-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создать поворотную таблицу в Excel с помощью Aspose.Cells
+# Создание сводной таблицы в Excel с помощью Aspose.Cells
 
-Создание пивовых таблиц в Excel программируемо никогда не было проще! С помощью Aspose.Cells для .NET вы можете создать рабочую книгу Excel, добавить структурированные данные и создать пивовую таблицу для динамического анализа данных.  
+Создание сводных таблиц в Excel программным способом никогда не было проще! С Aspose.Cells для .NET вы можете создать книгу Excel, добавить структурированные данные и создать сводную таблицу для динамического анализа данных. Это руководство проведет вас через инициализацию книги, заполнение данными, вставку сводной таблицы и настройку ее структуры — все на C#. Независимо от того, автоматизируете ли вы отчеты или анализируете данные о продажах, этот пример поможет вам эффективно оптимизировать процесс.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке
-Чтобы использовать Aspose.Cells для .NET в вашем проекте, следуйте этим шагам:  
+## Инструкция по установке
+Чтобы использовать Aspose.Cells для .NET в своем проекте, выполните следующие действия:  
 
-1. Установка через NuGet:  
-   * Откройте визуальную студию.  
-   * Перейти к Инструменты > Управляющий пакетами NuGet > Управление пакетами NuGet для решения.  
-   * Поищите Aspose.Cells и установить его.  
+1. Установить через NuGet:  
+   - Откройте Visual Studio.  
+   - Перейдите в Инструменты > Диспетчер пакетов NuGet > Управление пакетами NuGet для решения.  
+   - Найдите Aspose.Cells и установите его.  
 
-   В качестве альтернативы, установить через консоль NuGet Package Manager:  
+   Либо выполните установку через консоль диспетчера пакетов NuGet:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Скачать с сайта Aspose:  
-   * Посетите [Aspose.Cells для .NET Загрузка страницы](https://releases.aspose.com/cells/net/)\- Я не знаю .  
-   * Скачать и извлекать файлы библиотеки.  
-   * Добавьте ссылку Aspose.Cells.dll к проекту .NET.  
+2. Загрузить с веб-сайта Aspose:  
+   - Посетите [Страница загрузки Aspose.Cells для .NET](https://releases.aspose.com/cells/net/).  
+   - Загрузите и извлеките файлы библиотеки.  
+   - Добавьте ссылку Aspose.Cells.dll в ваш проект .NET.  
 
-3. Заявление на лицензию (необязательно):  
-   * Купить лицензию у [Прилагать](https://purchase.aspose.com/buy)или получить [временная лицензия](https://purchase.aspose.com/temporary-license/)\- Я не знаю .  
-   * Заполните лицензию в своем коде:  
+3. Применить лицензию (необязательно):  
+   - Приобрести лицензию у [Aspose](https://purchase.aspose.com/buy) или получить [временная лицензия](https://purchase.aspose.com/temporary-license/).  
+   - Примените лицензию в своем коде:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

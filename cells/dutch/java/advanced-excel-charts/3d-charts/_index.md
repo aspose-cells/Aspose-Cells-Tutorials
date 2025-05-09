@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 3D-grafieken
@@ -116,7 +118,7 @@ Aspose.Cells voor Java ondersteunt verschillende typen 3D-grafieken, waaronder:
 - Lijndiagrammen: Geeft trends over een bepaalde periode weer.
 - Vlakdiagrammen: Markeer het gebied tussen de gegevens en de as.
 
-kunt deze diagrammen maken met behulp van vergelijkbare stappen en met de juiste diagramtypen.
+U kunt deze diagrammen maken met behulp van vergelijkbare stappen en met de juiste diagramtypen.
 
 ## Geavanceerde grafiekaanpassing
 
@@ -171,6 +173,7 @@ Uitgebreide documentatie en bronnen voor Aspose.Cells voor Java vindt u op de we
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

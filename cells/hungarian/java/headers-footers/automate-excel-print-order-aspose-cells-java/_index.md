@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Készülj fel, hogy könnyedén leegyszerűsítsd az Excel-feladataidat!
 ## Előfeltételek
 
 Mielőtt elkezdené, győződjön meg arról, hogy a következők be vannak állítva:
-- **Java fejlesztőkészlet (JDK)**: 8-as vagy újabb verzió telepítve a gépére.
+- **Java fejlesztőkészlet (JDK)**: A gépére telepítve van a 8-as vagy újabb verzió.
 - **IDE**Bármely előnyben részesített Java IDE, például IntelliJ IDEA vagy Eclipse.
 - **Maven vagy Gradle** a függőségkezeléshez.
 
@@ -180,6 +182,9 @@ Ezekkel az anyagokkal felkészült leszel arra, hogy elkezdd az Aspose.Cells imp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

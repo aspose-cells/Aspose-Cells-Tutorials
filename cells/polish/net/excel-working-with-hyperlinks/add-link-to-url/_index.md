@@ -1,14 +1,16 @@
 ---
-title: Dodaj łącze do adresu URL w programie Excel
-linktitle: Dodaj łącze do adresu URL w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo dodać hiperłącze URL w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu szczegółowemu samouczkowi. Uprość swoje arkusze kalkulacyjne.
-weight: 12
-url: /pl/net/excel-working-with-hyperlinks/add-link-to-url/
+"description": "Dowiedz się, jak łatwo dodać hiperłącze URL w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu szczegółowemu samouczkowi. Uprość swoje arkusze kalkulacyjne."
+"linktitle": "Dodaj łącze do adresu URL w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj łącze do adresu URL w programie Excel"
+"url": "/pl/net/excel-working-with-hyperlinks/add-link-to-url/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj łącze do adresu URL w programie Excel
@@ -18,7 +20,7 @@ Czy chcesz ulepszyć swój arkusz kalkulacyjny Excel, dodając hiperłącza? Mo�
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów dodawania hiperłączy w programie Excel za pomocą Aspose.Cells, musisz spełnić kilka warunków wstępnych:
 1. .NET Framework: Upewnij się, że masz skonfigurowane niezbędne środowisko .NET. Aspose.Cells jest kompatybilny z różnymi wersjami .NET, więc wybierz tę, która najlepiej pasuje do Twojego projektu.
-2. Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać ze strony[Strona wydania Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz ją pobrać ze strony [Strona wydania Aspose](https://releases.aspose.com/cells/net/).
 3. Środowisko programistyczne: Użyj środowiska IDE, np. Visual Studio, które ułatwi Ci zarządzanie projektami.
 4. Podstawowa wiedza programistyczna: Znajomość języka C# i zrozumienie koncepcji programowania obiektowego ułatwią cały proces.
 Mając wszystko gotowe, możemy zająć się kodowaniem!
@@ -42,28 +44,28 @@ using Aspose.Cells;
 
 A teraz czas na zabawę – faktyczne dodanie tego hiperłącza do pliku Excel! Rozłóżmy to na czynniki pierwsze krok po kroku:
 ## Krok 1: Zdefiniuj katalog wyjściowy
-Najpierw musimy określić miejsce zapisu pliku Excel po dodaniu hiperłącza. 
+Najpierw musimy określić, gdzie zapiszemy plik Excel po dodaniu hiperłącza. 
 ```csharp
 // Katalog wyjściowy
-string outputDir = "Your Document Directory/"; // Zmień swoją ścieżkę
+string outputDir = "Your Document Directory/"; // Zmień na swoją ścieżkę
 ```
- Pamiętaj o wymianie`"Your Document Directory/"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik wyjściowy. 
+Pamiętaj o wymianie `"Your Document Directory/"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik wyjściowy. 
 ## Krok 2: Utwórz obiekt skoroszytu
- Tutaj utworzymy instancję`Workbook` klasa. Pomyśl o skoroszycie jako o pustym płótnie dla arkusza kalkulacyjnego.
+Tutaj utworzymy instancję `Workbook` klasa. Pomyśl o skoroszycie jako o pustym płótnie dla arkusza kalkulacyjnego.
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
 ```
 Na tym etapie powiedziałeś w zasadzie: „Hej, Aspose, utwórzmy nowy plik Excela!”
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
-W większości przypadków będziesz chciał manipulować pierwszym arkuszem kalkulacyjnym w nowym skoroszycie. Oto jak go zdobyć.
+większości przypadków będziesz chciał manipulować pierwszym arkuszem kalkulacyjnym w nowym skoroszycie. Oto jak go zdobyć.
 ```csharp
 // Uzyskanie odniesienia do pierwszego arkusza roboczego
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 I tak oto masz już swój arkusz ćwiczeń w ręku!
 ## Krok 4: Dodaj hiperłącze
-Teraz nadchodzi kluczowa część – dodanie samego hiperłącza. Oto klucz do dodania klikalnego łącza w komórce`B4` która prowadzi do witryny Aspose.
+Teraz nadchodzi kluczowa część – dodanie samego hiperłącza. Oto klucz do dodania klikalnego łącza w komórce `B4` która prowadzi do witryny Aspose.
 ```csharp
 // Dodawanie hiperłącza do adresu URL w komórce „B4”
 worksheet.Hyperlinks.Add("B4", 1, 1, "https://www.aspose.com");
@@ -73,7 +75,7 @@ Mówiąc w skrócie:
 - `1, 1`:Te liczby całkowite odpowiadają indeksom wiersza i kolumny (należy pamiętać, że indeksy zaczynają się od zera).
 - Adres URL to po prostu miejsce, do którego prowadzi Twój link.
 ## Krok 5: Ustaw tekst wyświetlany
- Następnie należy określić, jaki tekst będzie wyświetlany w komórce`B4`Oto jak wygląda kod:
+Następnie należy określić, jaki tekst będzie wyświetlany w komórce `B4`Oto jak wygląda kod:
 ```csharp
 worksheet.Hyperlinks[0].TextToDisplay = "Aspose - File Format APIs";
 ```
@@ -98,16 +100,18 @@ Dziękuję za dołączenie do mnie w tym samouczku. Jeśli masz pytania lub chce
 ### Czy mogę dodać wiele hiperłączy w jednym arkuszu kalkulacyjnym?  
 Tak! Możesz dodać tyle hiperłączy, ile potrzebujesz, powtarzając kroki dodawania hiperłączy dla różnych komórek.
 ### Czy muszę kupić Aspose.Cells, aby z niego korzystać?  
- Możesz wypróbować ją bezpłatnie, korzystając z wersji próbnej dostępnej na stronie[Strona pobierania Aspose](https://releases.aspose.com/) . Jeśli uznasz to za przydatne, możesz je kupić tutaj[Tutaj](https://purchase.aspose.com/buy).
+Możesz wypróbować ją bezpłatnie, korzystając z wersji próbnej dostępnej na stronie [Strona pobierania Aspose](https://releases.aspose.com/). Jeśli uznasz to za przydatne, możesz je kupić tutaj [Tutaj](https://purchase.aspose.com/buy).
 ### Jakie są korzyści ze stosowania Aspose.Cells?  
 Aspose.Cells oferuje bogaty zestaw funkcji do tworzenia, edytowania i konwertowania plików Excel, co sprawia, że jest chętnie wybierany przez programistów.
 ### Czy mogę dostosować wygląd tekstu hiperłącza?  
 Oczywiście! Możesz ustawić właściwości formatowania komórek, aby zmienić czcionkę, kolor lub style, używając biblioteki Aspose.Cells.
 ### Czy istnieje wsparcie społeczności dla Aspose.Cells?  
- Tak! Sprawdź ich[forum wsparcia](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc i porady od społeczności.
+Tak! Sprawdź ich [forum wsparcia](https://forum.aspose.com/c/cells/9) aby uzyskać pomoc i porady od społeczności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

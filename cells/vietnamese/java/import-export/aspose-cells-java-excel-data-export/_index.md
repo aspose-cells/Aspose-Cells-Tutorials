@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Sẵn sàng để tìm hiểu về quản lý dữ liệu hiệu quả? Hãy b�
 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
-- **Thư viện bắt buộc:** Aspose.Cells cho Java (phiên bản 25.3 trở lên).
+- **Thư viện cần thiết:** Aspose.Cells cho Java (phiên bản 25.3 trở lên).
 - **Thiết lập môi trường:** JDK được cài đặt và cấu hình trên hệ thống của bạn.
 - **Công cụ phát triển:** IDE như IntelliJ IDEA hoặc Eclipse.
 
@@ -169,6 +171,9 @@ Sẵn sàng nâng cao kỹ năng của bạn lên một tầm cao mới? Hãy th
 - **Giấy phép tạm thời:** [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

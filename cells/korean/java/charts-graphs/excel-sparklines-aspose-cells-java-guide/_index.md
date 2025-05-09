@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Aspose.Cells for Java를 사용하여 스파크라인을 손쉽게 만들고 관
 
 **배울 내용:**
 - Excel 통합 문서를 손쉽게 로드하고 생성하세요.
-- 워크시트에 효율적으로 접근하고 수정합니다.
+- 효율적으로 워크시트에 접근하고 수정합니다.
 - 데이터 범위에 스파크라인을 추가하고 구성합니다.
 - 출력 디렉토리에 수정 사항을 저장합니다.
 Excel 파일을 개선할 준비가 되셨나요? Aspose.Cells for Java를 시작하기 전에 필수 구성 요소를 살펴보겠습니다.
@@ -160,10 +162,13 @@ Java용 Aspose.Cells를 시스템에 통합하면 다양한 산업 분야에서 
 - 다운로드: [Aspose 다운로드](https://releases.aspose.com/cells/java/)
 - 구입: [Aspose 제품 구매](https://purchase.aspose.com/buy)
 - 무료 체험: [Aspose Cells를 사용해 보세요](https://releases.aspose.com/cells/java/)
-- 임시 면허: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- 임시 면허: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - 지원하다: [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

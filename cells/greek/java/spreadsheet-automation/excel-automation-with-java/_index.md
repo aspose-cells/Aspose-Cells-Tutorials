@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποίηση Excel με Java
@@ -124,9 +126,11 @@ worksheet.getCells().get("A1").setStyle(style);
 ---
 
 Αυτός ο οδηγός βήμα προς βήμα με παραδείγματα πηγαίου κώδικα θα σας δώσει μια σταθερή βάση για την αυτοματοποίηση του Excel σε Java χρησιμοποιώντας το Aspose.Cells. Καλή κωδικοποίηση και αυτοματοποίηση των εργασιών σας στο Excel!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

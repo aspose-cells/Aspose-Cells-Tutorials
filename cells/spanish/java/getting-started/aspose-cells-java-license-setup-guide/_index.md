@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ En este tutorial aprenderás:
 - Pasos para configurar la licencia correctamente
 - Solución de problemas comunes
 
-Al finalizar esta guía, estará bien preparado para administrar sus licencias de Aspose.Cells eficientemente. Analicemos en profundidad lo que necesita antes de comenzar.
+Al finalizar esta guía, estará bien preparado para administrar sus licencias de Aspose.Cells de forma eficiente. Analicemos en profundidad lo que necesita antes de comenzar.
 
 ### Prerrequisitos
 
@@ -196,6 +198,9 @@ Has aprendido a comprobar y configurar la licencia de Aspose.Cells en Java. Este
 - **Apoyo**¿Necesitas ayuda? El [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9) Es su recurso de referencia.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

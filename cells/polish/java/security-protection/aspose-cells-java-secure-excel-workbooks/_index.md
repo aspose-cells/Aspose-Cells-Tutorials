@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ tym samouczku dowiedziałeś się, jak zabezpieczyć skoroszyty programu Excel z
    - Tak, Aspose.Cells obsługuje szeroką gamę formatów plików Excel, w tym starsze wersje, takie jak `.xls` nowsze takie jak `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

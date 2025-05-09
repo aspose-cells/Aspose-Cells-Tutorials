@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,9 +191,12 @@ Aspose.Cells की अधिक उन्नत सुविधाओं का
 - **खरीदना**: खरीद विकल्पों के बारे में जानें [Aspose का खरीद पृष्ठ](https://purchase.aspose.com/buy).
 - **मुफ्त परीक्षण**आज ही निःशुल्क परीक्षण के साथ प्रयोग शुरू करें।
 - **अस्थायी लाइसेंस**: सुविधाओं तक अस्थायी पूर्ण पहुंच के लिए आवेदन करें।
-- **सहयता मंच**: चर्चा में शामिल हों और मदद लें [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9).
+- **सहयता मंच**: चर्चा में शामिल हों और मदद लें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

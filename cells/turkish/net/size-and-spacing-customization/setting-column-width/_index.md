@@ -1,14 +1,16 @@
 ---
-title: .NET için Aspose.Cells ile Sütun Genişliğini Piksel Olarak Ayarlama
-linktitle: .NET için Aspose.Cells ile Sütun Genişliğini Piksel Olarak Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak sütun genişliğini piksel cinsinden nasıl ayarlayacağınızı öğrenin. Bu kolay adım adım kılavuzla Excel dosyalarınızı geliştirin.
-weight: 11
-url: /tr/net/size-and-spacing-customization/setting-column-width/
+"description": "Aspose.Cells for .NET kullanarak sütun genişliğini piksel cinsinden nasıl ayarlayacağınızı öğrenin. Excel dosyalarınızı bu kolay adım adım kılavuzla geliştirin."
+"linktitle": ".NET için Aspose.Cells ile Sütun Genişliğini Piksel Olarak Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET için Aspose.Cells ile Sütun Genişliğini Piksel Olarak Ayarlama"
+"url": "/tr/net/size-and-spacing-customization/setting-column-width/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET için Aspose.Cells ile Sütun Genişliğini Piksel Olarak Ayarlama
@@ -17,10 +19,10 @@ url: /tr/net/size-and-spacing-customization/setting-column-width/
 Excel dosyalarıyla programatik olarak çalışmaya gelince, çalışma kitabınızın her yönü üzerinde hassas kontrole sahip olmak büyük bir fark yaratabilir. Verilerinizin okunmasının kolay olduğundan emin olmak istiyorsanız veya sunuma değer bir elektronik tablo hazırlıyorsanız, sütun genişliklerini hassas piksel boyutlarına ayarlamak belgenizin okunabilirliğini artırabilir. Bu kılavuzda, .NET için Aspose.Cells kullanarak sütun genişliklerini piksel olarak nasıl ayarlayacağınızı keşfedeceğiz. Başlamaya hazır mısınız? Hadi başlayalım!
 ## Ön koşullar
 Kolları sıvayıp işe koyulmadan önce, elinizde olması gereken birkaç şey var:
-1. Visual Studio: Burası sizin oyun alanınızdır, .NET kodunuzu yazıp çalıştıracağınız yer. En son sürümün yüklü olduğundan emin olun.
-2.  Aspose.Cells for .NET: Lisans satın alabilir veya ücretsiz deneme sürümünü indirebilirsiniz.[Aspose web sitesi](https://releases.aspose.com/cells/net/)Bu kütüphane Excel dosyalarını programlı olarak düzenlememize olanak sağlar.
+1. Visual Studio: Burası sizin oyun alanınızdır, .NET kodunuzu yazıp çalıştıracağınız yerdir. En son sürümün yüklü olduğundan emin olun.
+2. .NET için Aspose.Cells: Lisans satın alabilir veya ücretsiz deneme sürümünü buradan indirebilirsiniz. [Aspose web sitesi](https://releases.aspose.com/cells/net/)Bu kütüphane Excel dosyalarını programlı olarak düzenlememize olanak sağlar.
 3. C# Temel Bilgisi: C# programlamaya aşinaysanız, takip etmeniz daha kolay olacaktır. Eğer aşina değilseniz, endişelenmeyin! Her adımı açıkça açıklayacağız.
-4.  Excel dosyası: Bu eğitim için mevcut bir Excel dosyasına ihtiyacınız olacak. Excel'de bir tane oluşturabilir ve şu şekilde kaydedebilirsiniz:`Book1.xlsx`.
+4. Excel dosyası: Bu eğitim için mevcut bir Excel dosyasına ihtiyacınız olacak. Excel'de bir tane oluşturabilir ve şu şekilde kaydedebilirsiniz: `Book1.xlsx`.
 Artık her şey hazır olduğuna göre gerekli paketleri import edelim.
 ## Paketleri İçe Aktar
 Aspose.Cells ile çalışmaya başlamak için projenize Aspose.Cells kütüphanesine bir referans eklemeniz gerekir. Bunu yapmak için adımlar şunlardır:
@@ -29,7 +31,7 @@ Visual Studio'nuzu başlatın ve sütun genişliklerini ayarlama işlevini eklem
 ### Aspose.Cells'i yükleyin
 Kütüphaneyi NuGet Paket Yöneticisi aracılığıyla yükleyebilirsiniz. Bunu yapmak için:
 - Araçlar > NuGet Paket Yöneticisi > Çözüm için NuGet Paketlerini Yönet… öğesine gidin.
--  Arama`Aspose.Cells` ve Yükle butonuna tıklayın.
+- Arama `Aspose.Cells` ve Yükle butonuna tıklayın.
 ### Yönergeyi Kullanarak Ekle
 Kod dosyanızın en üstüne aşağıdaki using yönergesini ekleyin:
 ```csharp
@@ -44,9 +46,9 @@ string sourceDir = "Your Document Directory";
 // Çıktı dizini
 string outDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` gerçek yolunuzla`Book1.xlsx` dosya saklandı.
+Yer değiştirmek `"Your Document Directory"` gerçek yolunuzla `Book1.xlsx` dosya saklandı.
 ## Adım 2: Excel Dosyasını Yükleyin
- Daha sonra Excel dosyamızı bir`Workbook` nesne. Bu nesne Excel dosyanız için bir kapsayıcı gibidir ve kod aracılığıyla onunla etkileşime girmenize olanak tanır.
+Daha sonra Excel dosyamızı bir `Workbook` nesne. Bu nesne Excel dosyanız için bir kapsayıcı gibidir ve kod aracılığıyla onunla etkileşime girmenize olanak tanır.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
@@ -58,7 +60,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 Bu kod parçacığı ilk çalışma sayfasına erişir. Farklı bir çalışma sayfasıyla çalışmak istiyorsanız, dizini buna göre değiştirebilirsiniz.
 ## Adım 4: Sütun Genişliğini Ayarlayın
-Sütunun genişliğini ayarlama zamanı! Aspose.Cells ile bu çok kolay ve basit. Hem sütun dizinini hem de piksel cinsinden genişliği belirteceksiniz.
+Sütunun genişliğini ayarlama zamanı! Aspose.Cells ile bu çok kolay ve basit. Hem sütun indeksini hem de piksel cinsinden genişliği belirteceksiniz.
 ```csharp
 worksheet.Cells.SetColumnWidthPixel(7, 200);
 ```
@@ -89,9 +91,11 @@ Aspose.Cells öncelikle .NET dilleri için tasarlanmıştır, ancak Java, Androi
 ### Yaptığım değişiklikleri geri almanın bir yolu var mı?
 Değişiklikleri yeni bir dosyaya kaydederseniz, orijinal değişmeden kalır. Değişiklikler yaparken her zaman yedekleri saklayın.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ A szövegként formázott számokat tartalmazó Excel-fájlok kezelése számít
 - Az Aspose.Cells beállítása Java-hoz
 - Szövegalapú numerikus adatok számokká konvertálása Java használatával
 - Mentse vissza a módosításokat egy Excel-fájlba
-- teljesítmény optimalizálásának legjobb gyakorlatai
+- A teljesítmény optimalizálásának legjobb gyakorlatai
 
 Most pedig nézzük át, milyen előfeltételekre van szükséged a kezdés előtt.
 
@@ -168,6 +170,9 @@ Ez az átfogó útmutató segít abban, hogy könnyedén kezelhesd a szöveg-sz�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

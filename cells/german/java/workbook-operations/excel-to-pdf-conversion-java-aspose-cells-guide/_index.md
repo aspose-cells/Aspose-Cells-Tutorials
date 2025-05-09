@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ A5: Überprüfen Sie die Dateipfade, stellen Sie sicher, dass Sie über die rich
 Jetzt, da Sie über die Tools und das Wissen verfügen, können Sie mit Aspose.Cells mit der effizienten Konvertierung von Excel-Dateien in PDFs beginnen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

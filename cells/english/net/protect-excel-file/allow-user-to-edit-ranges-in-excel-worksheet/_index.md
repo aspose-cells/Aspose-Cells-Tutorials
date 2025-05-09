@@ -8,7 +8,9 @@ url: /net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Allow User To Edit Ranges In Excel Worksheet
@@ -152,6 +154,7 @@ You can check the [documentation](https://reference.aspose.com/cells/net/) for d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

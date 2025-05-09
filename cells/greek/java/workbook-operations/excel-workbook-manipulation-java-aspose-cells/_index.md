@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Ακολουθώντας αυτό το σεμινάριο, μάθατε πώς να χειρίζεστε αποτελεσματικά βιβλία εργασίας του Excel χρησιμοποιώντας το Aspose.Cells για Java. Αυτό το ισχυρό εργαλείο απλοποιεί τη διαδικασία δημιουργίας, τροποποίησης και βελτίωσης των αρχείων Excel, επιτρέποντάς σας να επικεντρωθείτε στην παροχή λύσεων δεδομένων υψηλής ποιότητας. Συνεχίστε να εξερευνάτε τις δυνατότητές του για να αξιοποιήσετε πλήρως τις δυνατότητές του στα έργα σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

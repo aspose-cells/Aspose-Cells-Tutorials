@@ -1,14 +1,16 @@
 ---
-title: Lưu tập tin ở định dạng HTML
-linktitle: Lưu tập tin ở định dạng HTML
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách lưu tệp Excel ở định dạng HTML bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này.
-weight: 13
-url: /vi/net/saving-files-in-different-formats/save-file-in-html-format/
+"description": "Tìm hiểu cách lưu tệp Excel ở định dạng HTML bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này."
+"linktitle": "Lưu tập tin ở định dạng HTML"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lưu tập tin ở định dạng HTML"
+"url": "/vi/net/saving-files-in-different-formats/save-file-in-html-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tập tin ở định dạng HTML
@@ -18,10 +20,10 @@ Trong thời đại kỹ thuật số ngày nay, việc chuyển đổi dữ li�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, điều quan trọng là phải chuẩn bị một số thứ để đảm bảo chuyến đi suôn sẻ:
 1. Visual Studio: Để làm việc hiệu quả với Aspose.Cells for .NET, bạn cần cài đặt Visual Studio trên máy tính của mình. Nếu bạn chưa có, bạn có thể tải xuống từ trang web của Microsoft.
-2.  Aspose.Cells cho thư viện .NET: Bạn sẽ cần phải có thư viện này. Tin tốt là nó có thể dễ dàng tải xuống từ[Tải xuống Aspose Cells](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho thư viện .NET: Bạn sẽ cần phải có thư viện này. Tin tốt là nó có thể dễ dàng tải xuống từ [Tải xuống Aspose Cells](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Vì bạn sẽ viết mã bằng C#, nên hiểu biết cơ bản về ngôn ngữ này sẽ giúp bạn theo dõi mà không cảm thấy bối rối.
-4. .NET Framework/CORE: Có kiến thức về .NET Framework hoặc .NET Core là một lợi thế vì thư viện này được thiết kế để hoạt động với các framework này.
-Bạn đã có mọi thứ chưa? Tuyệt vời! Hãy bắt tay ngay vào hành động.
+4. .NET Framework/CORE: Có kiến thức về .NET Framework hoặc .NET Core là một lợi thế, vì thư viện này được thiết kế để hoạt động với các framework này.
+Bạn đã có mọi thứ chưa? Tuyệt vời! Hãy bắt tay vào hành động ngay thôi.
 ## Nhập các gói cần thiết
 Trước tiên, bạn cần nhập các gói cần thiết để sử dụng Aspose.Cells. Sau đây là cách bạn có thể thiết lập:
 ### Tạo một dự án mới
@@ -76,16 +78,18 @@ Sử dụng Aspose.Cells cho .NET để chuyển đổi các tệp Excel sang đ
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là thư viện .NET cho phép người dùng tạo, thao tác và chuyển đổi các tệp Excel.
 ### Tôi có thể dùng thử Aspose.Cells mà không cần mua không?
- Có! Aspose cung cấp bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có! Aspose cung cấp bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### Tôi có thể lưu tệp Excel của mình ở định dạng nào?
 Với Aspose.Cells, bạn có thể lưu tệp ở nhiều định dạng khác nhau, bao gồm PDF, HTML, CSV và nhiều định dạng khác.
 ### Có cộng đồng hoặc hỗ trợ nào cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể tìm thấy sự hỗ trợ trong[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể tìm thấy sự hỗ trợ trong [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Làm thế nào để tôi có thể xin được giấy phép tạm thời?
- Bạn có thể yêu cầu cấp giấy phép tạm thời thông qua liên kết này:[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu cấp giấy phép tạm thời thông qua liên kết này: [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

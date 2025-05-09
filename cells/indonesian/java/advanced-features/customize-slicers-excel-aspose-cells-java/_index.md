@@ -7,29 +7,31 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Kustomisasi Pemotong Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Perlu kontrol lebih atas alat visualisasi data Excel? Jika Anda menangani kumpulan data yang kompleks, pemotong sangat penting untuk memfilter dan mengelola tampilan secara efektif. Tutorial ini memandu Anda dalam menyesuaikan properti pemotong menggunakan Aspose.Cells untuk Java, pustaka canggih yang dirancang untuk memanipulasi file Excel secara terprogram.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java di lingkungan pengembangan Anda
 - Menyesuaikan pemotong dengan mengubah penempatan, ukuran, judul, dan lainnya
 - Menyegarkan pemotong untuk menerapkan perubahan secara dinamis
 
 Siap untuk meningkatkan keterampilan visualisasi data Anda? Mari kita mulai dengan prasyaratnya!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyesuaikan properti slicer, pastikan Anda memiliki:
-1. **Perpustakaan yang Diperlukan**Aspose.Cells untuk Java, terintegrasi melalui Maven atau Gradle.
-2. **Pengaturan Lingkungan**: Java Development Kit (JDK) yang kompatibel, biasanya JDK 8 atau lebih tinggi.
-3. **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan file Excel.
+1. **Kötelező könyvtárak**Aspose.Cells untuk Java, terintegrasi melalui Maven atau Gradle.
+2. **Környezet beállítása**: Java Development Kit (JDK) yang kompatibel, biasanya JDK 8 atau lebih tinggi.
+3. **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan file Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -51,15 +53,15 @@ Untuk memulai, sertakan Aspose.Cells dalam proyek Anda:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Mulailah dengan **uji coba gratis** dari Aspose.Cells untuk menjelajahi fitur-fiturnya:
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
+Kezdj egy **ingyenes próba** dari Aspose.Cells untuk menjelajahi fitur-fiturnya:
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
 Untuk akses penuh, pertimbangkan untuk membeli lisensi atau memperoleh lisensi sementara:
-- [Pembelian](https://purchase.aspose.com/buy)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Vásárlás](https://purchase.aspose.com/buy)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Setelah Aspose.Cells disiapkan, inisialisasi lingkungan Java Anda untuk mulai bekerja dengan file Excel.
 
@@ -67,13 +69,13 @@ Setelah Aspose.Cells disiapkan, inisialisasi lingkungan Java Anda untuk mulai be
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kita akan membahas langkah-langkah yang diperlukan untuk menyesuaikan properti pemotong dalam berkas Excel menggunakan Aspose.Cells untuk Java.
 
 ### Memuat dan Mengakses Buku Kerja Anda
 
-**Ringkasan:** Mulailah dengan memuat buku kerja Excel Anda dan mengakses lembar kerja yang berisi tabel data Anda.
+**Áttekintés:** Mulailah dengan memuat buku kerja Excel Anda dan mengakses lembar kerja yang berisi tabel data Anda.
 
 ```java
 // Muat contoh file Excel yang berisi tabel.
@@ -85,7 +87,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 ### Menambahkan dan Menyesuaikan Pemotong
 
-**Ringkasan:** Tambahkan pemotong ke tabel Anda, lalu sesuaikan propertinya seperti penempatan, ukuran, judul, dan lainnya.
+**Áttekintés:** Tambahkan pemotong ke tabel Anda, lalu sesuaikan propertinya seperti penempatan, ukuran, judul, dan lainnya.
 
 ```java
 // Akses tabel pertama di lembar kerja.
@@ -97,7 +99,7 @@ Slicer slicer = worksheet.getSlicers().get(idx);
 ```
 
 **Menyesuaikan Properti:**
-- **Penempatan:** Menggunakan `setPlacement` untuk menentukan di mana pemotong akan muncul.
+- **Penempatan:** Használat `setPlacement` untuk menentukan di mana pemotong akan muncul.
 
 ```java
 slicer.setPlacement(PlacementType.FREE_FLOATING); // Penempatan mengambang bebas
@@ -134,27 +136,27 @@ Terakhir, simpan buku kerja Anda dengan properti pemotong yang disesuaikan.
 workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Kustomisasi pemotong sangat berguna dalam skenario seperti:
-1. **Analisis Data**: Tingkatkan eksplorasi data dengan membuat pemotong lebih interaktif dan informatif.
-2. **Pelaporan**: Menyesuaikan laporan untuk menekankan titik data tertentu menggunakan pemotong yang berbeda secara visual.
+1. **Adatelemzés**: Tingkatkan eksplorasi data dengan membuat pemotong lebih interaktif dan informatif.
+2. **Jelentéstétel**: Menyesuaikan laporan untuk menekankan titik data tertentu menggunakan pemotong yang berbeda secara visual.
 3. **Integrasi Dasbor**: Gabungkan pemotong ke dalam dasbor untuk interaksi pengguna yang lebih baik.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar atau banyak pemotong, pertimbangkan kiat-kiat berikut:
 - Optimalkan penggunaan memori dengan mengelola siklus hidup objek.
 - Minimalkan operasi yang berlebihan untuk meningkatkan kinerja.
 - Perbarui pemotong secara berkala hanya bila diperlukan untuk mengurangi beban pemrosesan.
 
-## Kesimpulan
+## Következtetés
 
 Sekarang, Anda seharusnya sudah memiliki pemahaman yang kuat tentang cara menyesuaikan properti slicer di Excel menggunakan Aspose.Cells untuk Java. Kemampuan ini dapat meningkatkan interaksi dan visualisasi data secara signifikan dalam aplikasi Anda.
 
-**Langkah Berikutnya:** Jelajahi opsi penyesuaian lebih lanjut dan integrasi dengan sistem lain untuk menyempurnakan solusi berbasis Excel Anda.
+**Következő lépések:** Jelajahi opsi penyesuaian lebih lanjut dan integrasi dengan sistem lain untuk menyempurnakan solusi berbasis Excel Anda.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana jika saya mengalami kesalahan saat menambahkan slicer?**
    - Pastikan lembar kerja berisi tabel yang valid, dan periksa apakah ada kesalahan sintaksis dalam kode Anda.
@@ -169,17 +171,20 @@ Sekarang, Anda seharusnya sudah memiliki pemahaman yang kuat tentang cara menyes
    - Gunakan teknik manajemen memori yang efisien dan optimalkan kode Anda untuk kinerja.
 
 5. **Apakah ada dukungan yang tersedia jika saya memerlukan bantuan?**
-   - Ya, lihat saja [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan.
+   - Ya, lihat saja [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) segítségért.
 
-## Sumber daya
-- **Dokumentasi:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian dan Lisensi:** [Beli Sel Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba & Lisensi:** [Uji Coba Gratis](https://releases.aspose.com/cells/java/) Bahasa Indonesia: [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+## Erőforrás
+- **Dokumentáció:** [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Rilis Java Aspose.Cells](https://releases.aspose.com/cells/java/)
+- **Pembelian dan Lisensi:** [Vásároljon Aspose sejteket](https://purchase.aspose.com/buy)
+- **Uji Coba & Lisensi:** [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/) | [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 Mulailah perjalanan Anda untuk menguasai kustomisasi pemotong Excel dengan Aspose.Cells untuk Java, dan bawa presentasi data Anda ke tingkat berikutnya!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

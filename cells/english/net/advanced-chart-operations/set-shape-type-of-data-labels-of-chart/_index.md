@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Shape Type of Data Labels of Chart
@@ -164,6 +166,7 @@ If you encounter any issues, their [support forum](https://forum.aspose.com/c/ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

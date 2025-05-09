@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-09"
-"description": "Aspose.Cells for Java를 사용하여 효율적으로 통합 문서를 만들고, 워크시트를 추가하고, 페이지 번호를 사용자 지정하는 방법을 알아보세요."
+"description": "Java용 Aspose.Cells를 사용하여 효율적으로 통합 문서를 만들고, 워크시트를 추가하고, 페이지 번호를 사용자 지정하는 방법을 알아보세요."
 "title": "Aspose.Cells Java&#58; 통합 문서 만들기 및 워크시트에 페이지 번호 설정"
 "url": "/ko/java/headers-footers/aspose-cells-java-workbook-page-setup/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Aspose.Cells Java 마스터링: 통합 문서 인스턴스화 및 워크시트 페이지 구성
+# Aspose.Cells Java 마스터하기: 통합 문서 인스턴스화 및 워크시트 페이지 구성
 
 ## 소개
 보고서 생성이나 데이터 관리 등의 작업을 자동화하려는 개발자에게는 Excel 파일을 프로그래밍 방식으로 처리하는 것이 필수적입니다. **자바용 Aspose.Cells** Java 애플리케이션 내에서 Excel 통합 문서를 조작할 수 있도록 하여 이러한 프로세스를 단순화하는 강력한 기능을 제공합니다.
@@ -151,6 +153,9 @@ Aspose.Cells를 사용하여 셀 서식 지정이나 수식 처리와 같은 추
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

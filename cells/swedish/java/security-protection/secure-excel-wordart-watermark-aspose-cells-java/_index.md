@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ För att följa den här handledningen, se till att du har:
 ### Krav för miljöinstallation:
 - JDK (Java Development Kit) installerat (version 8+ rekommenderas)
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering
 - Bekantskap med XML och byggverktyg som Maven/Gradle
 
@@ -186,6 +188,9 @@ Testa att implementera lösningen idag och se hur den förändrar dina dokumenth
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

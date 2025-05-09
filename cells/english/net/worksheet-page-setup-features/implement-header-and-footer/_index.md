@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-header-and-footer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Header and Footer in Worksheet
@@ -176,9 +178,11 @@ Yes, you can use various dynamic codes (like `&D` for date or `&P` for page numb
 
 ### How can I adjust the header or footer height?  
 Aspose.Cells provides options within the `PageSetup` class to adjust header and footer margins, giving you control over spacing.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

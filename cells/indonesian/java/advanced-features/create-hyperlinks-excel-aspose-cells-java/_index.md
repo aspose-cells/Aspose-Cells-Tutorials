@@ -7,33 +7,35 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Hyperlink di Excel Menggunakan Aspose.Cells untuk Java: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengotomatiskan pembuatan hyperlink dalam file Excel menggunakan Java? Baik Anda mengelola laporan, membuat dasbor, atau mengembangkan aplikasi yang berinteraksi dengan spreadsheet, menambahkan hyperlink secara terprogram dapat menghemat waktu dan meningkatkan fungsionalitas. Panduan lengkap ini akan memandu Anda menggunakan **Aspose.Cells untuk Java**—perpustakaan hebat yang dirancang untuk menyederhanakan manipulasi file Excel di Java.
 
-Dalam tutorial ini, Anda akan mempelajari cara:
+Ebben az oktatóanyagban megtanulod, hogyan:
 - Inisialisasi buku kerja Excel
 - Akses lembar kerja dan koleksi hyperlinknya
 - Tambahkan hyperlink ke sel tertentu
-- Simpan buku kerja yang dimodifikasi
+- Mentse el a módosított munkafüzetet
 
 Mari mulai menyiapkan lingkungan Anda dan menerapkan fitur-fitur ini dengan Aspose.Cells untuk Java.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 1. **Kit Pengembangan Java (JDK):** Pastikan JDK 8 atau yang lebih baru terinstal pada sistem Anda.
 2. **Lingkungan Pengembangan Terpadu (IDE):** IDE Java apa pun seperti IntelliJ IDEA atau Eclipse dapat digunakan.
 3. **Aspose.Cells untuk Pustaka Java:** Anda harus menyertakan pustaka ini dalam proyek Anda melalui Maven atau Gradle.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Untuk menggunakan Aspose.Cells untuk Java, tambahkan dependensi berikut ke konfigurasi build Anda:
 
@@ -53,9 +55,9 @@ Untuk menggunakan Aspose.Cells untuk Java, tambahkan dependensi berikut ke konfi
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Aspose.Cells untuk Java menawarkan uji coba gratis, yang dapat Anda unduh dari [Situs web Aspose](https://releases.aspose.com/cells/java/)Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi atau memperoleh lisensi sementara untuk menjelajahi fitur-fitur lengkap.
+Aspose.Cells untuk Java menawarkan uji coba gratis, yang dapat Anda unduh dari [Aspose weboldal](https://releases.aspose.com/cells/java/)Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi atau memperoleh lisensi sementara untuk menjelajahi fitur-fitur lengkap.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -77,14 +79,14 @@ Workbook workbook = new Workbook();
 
 Dengan langkah-langkah ini, Anda siap untuk mempelajari fungsionalitas spesifik yang disediakan oleh Aspose.Cells untuk Java.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Menginisialisasi Buku Kerja
 
-**Ringkasan:**
+**Áttekintés:**
 Membuat file Excel baru melibatkan pembuatan instance `Workbook` objek. Ini berfungsi sebagai titik awal untuk operasi lebih lanjut seperti menambahkan lembar dan data.
 
-**Tangga:**
+**Lépések:**
 1. **Kelas Impor yang Diperlukan:**
    ```java
    import com.aspose.cells.Workbook;
@@ -99,10 +101,10 @@ Membuat file Excel baru melibatkan pembuatan instance `Workbook` objek. Ini berf
 
 ### Memperoleh Koleksi Lembar Kerja dan Hyperlink
 
-**Ringkasan:**
+**Áttekintés:**
 Untuk menambahkan hyperlink, akses lembar kerja dan koleksi hyperlink-nya. Anda perlu berinteraksi dengan objek-objek ini untuk mengubah properti sel.
 
-**Tangga:**
+**Lépések:**
 1. **Impor Kelas yang Diperlukan:**
    ```java
    import com.aspose.cells.Workbook;
@@ -122,10 +124,10 @@ Untuk menambahkan hyperlink, akses lembar kerja dan koleksi hyperlink-nya. Anda 
 
 ### Menambahkan Hyperlink ke URL di Sel Tertentu
 
-**Ringkasan:**
+**Áttekintés:**
 Menambahkan hyperlink mudah dilakukan dengan Aspose.Cells. Anda akan menentukan sel dan menautkannya ke URL eksternal.
 
-**Tangga:**
+**Lépések:**
 1. **Siapkan Pengumpulan Hyperlink:**
    ```java
    // Asumsikan pengumpulan hyperlink diperoleh dari langkah sebelumnya
@@ -135,7 +137,7 @@ Menambahkan hyperlink mudah dilakukan dengan Aspose.Cells. Anda akan menentukan 
    String url = "http://www.aspose.com";
    ```
 2. **Tambahkan Hyperlink ke Sel 'A1':**
-   - Gunakan `add` metode untuk memasukkan hyperlink:
+   - Használd a `add` metode untuk memasukkan hyperlink:
      ```java
      hyperlinks.add("A1", totalColumns, row, column, url);
      ```
@@ -143,10 +145,10 @@ Menambahkan hyperlink mudah dilakukan dengan Aspose.Cells. Anda akan menentukan 
 
 ### Menyimpan Buku Kerja ke File
 
-**Ringkasan:**
+**Áttekintés:**
 Setelah membuat modifikasi, simpan buku kerja Anda untuk mempertahankan perubahan dalam format file Excel.
 
-**Tangga:**
+**Lépések:**
 1. **Tentukan Jalur Keluaran:**
    ```java
    String outDir = "YOUR_OUTPUT_DIRECTORY"; // Tentukan jalur direktori keluaran di sini
@@ -158,43 +160,43 @@ Setelah membuat modifikasi, simpan buku kerja Anda untuk mempertahankan perubaha
      ```
    - Langkah ini menuliskan perubahan Anda ke sebuah berkas dan menyelesaikan prosesnya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java bersifat serbaguna dan dapat diintegrasikan ke dalam berbagai sistem. Berikut ini beberapa aplikasi praktisnya:
 
-1. **Pembuatan Laporan Otomatis:** Tambahkan tautan secara otomatis dalam laporan keuangan atau penjualan.
+1. **Automatizált jelentéskészítés:** Tambahkan tautan secara otomatis dalam laporan keuangan atau penjualan.
 2. **Dasbor Data:** Tingkatkan dasbor dengan titik data yang dapat diklik dan ditautkan ke analisis terperinci.
 3. **Alat Pendidikan:** Buat panduan belajar interaktif yang sel-selnya terhubung ke sumber daya eksternal.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan Aspose.Cells, pertimbangkan kiat-kiat berikut untuk kinerja yang optimal:
+Az Aspose.Cells használatakor az optimális teljesítmény érdekében vegye figyelembe a következő tippeket:
 - Minimalkan penggunaan memori dengan menutup buku kerja saat tidak digunakan.
 - Mengoptimalkan proses pemuatan dan penyimpanan buku kerja untuk file besar.
 - Gunakan struktur data yang efisien untuk menangani operasi massal dalam lembar kerja.
 
 Dengan mengikuti praktik terbaik, Anda dapat mengelola sumber daya secara efektif saat menggunakan Aspose.Cells.
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan ini, kami telah menjajaki cara menambahkan hyperlink ke berkas Excel menggunakan Aspose.Cells untuk Java. Kami membahas cara menginisialisasi buku kerja, mengakses lembar kerja dan koleksi hyperlink, menambahkan tautan, dan menyimpan perubahan. Dengan keterampilan ini, Anda diperlengkapi dengan baik untuk mengotomatiskan tugas yang melibatkan lembar kerja Excel dalam aplikasi Java Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 
 Untuk lebih meningkatkan keterampilan Anda, jelajahi fitur-fitur tambahan Aspose.Cells seperti pembuatan bagan atau fungsi analisis data. Pertimbangkan untuk bereksperimen dengan berbagai format file yang didukung oleh pustaka tersebut.
 
-Siap untuk mulai mengotomatiskan alur kerja Excel Anda? Pelajari lebih lanjut [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk teknik dan contoh yang lebih maju.
+Siap untuk mulai mengotomatiskan alur kerja Excel Anda? Pelajari lebih lanjut [Az Aspose dokumentációja](https://reference.aspose.com/cells/java/) untuk teknik dan contoh yang lebih maju.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?**
-A1: Anda dapat meminta lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/)Ini memungkinkan akses penuh ke berbagai fitur selama periode evaluasi Anda.
+A1: Anda dapat meminta lisensi sementara dari [Aspose weboldal](https://purchase.aspose.com/temporary-license/)Ini memungkinkan akses penuh ke berbagai fitur selama periode evaluasi Anda.
 
 **Q2: Dapatkah Aspose.Cells menangani file Excel berukuran besar secara efisien?**
 A2: Ya, dengan manajemen memori yang tepat dan praktik pengkodean yang efisien, ia dapat memproses file besar secara efektif.
 
 **Q3: Format file apa yang didukung Aspose.Cells?**
-A3: Mendukung berbagai format termasuk XLS, XLSX, CSV, ODS, dan lainnya. Lihat [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk mengetahui secara spesifik.
+A3: Mendukung berbagai format termasuk XLS, XLSX, CSV, ODS, dan lainnya. Lihat [Az Aspose dokumentációja](https://reference.aspose.com/cells/java/) untuk mengetahui secara spesifik.
 
 **Q4: Apakah ada batasan dalam menggunakan Aspose.Cells dengan Java?**
 A4: Meskipun menawarkan fitur yang luas, selalu pastikan lingkungan Java Anda sesuai dengan persyaratan pustaka agar operasinya lancar.
@@ -202,12 +204,15 @@ A4: Meskipun menawarkan fitur yang luas, selalu pastikan lingkungan Java Anda se
 **Q5: Bagaimana saya dapat memecahkan masalah saat menambahkan hyperlink?**
 A5: Verifikasi referensi sel dan format URL. Periksa [Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) jika Anda menemukan kesalahan yang terus-menerus.
 
-## Sumber daya
-- **Dokumentasi:** [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** [Beli Aspose.Cells untuk Java](https://purchase.aspose.com/aspose-cells-for-java)
+## Erőforrás
+- **Dokumentáció:** [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** [Beli Aspose.Cells untuk Java](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

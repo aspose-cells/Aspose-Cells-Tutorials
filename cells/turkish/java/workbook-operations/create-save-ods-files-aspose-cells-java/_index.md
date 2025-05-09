@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ C5: Evet, Aspose.Cells çeşitli Java çerçeveleri ve kütüphaneleriyle soruns
 Aspose.Cells for Java ile yolculuğunuza bugün başlayın ve elektronik tablo yönetimi görevlerinizi basitleştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

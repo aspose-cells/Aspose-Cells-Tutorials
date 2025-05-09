@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fungsi AVERAGE di Excel
@@ -24,7 +26,7 @@ Sebelum kita mulai menggunakan fungsi AVERAGE, kita perlu menyiapkan lingkungan 
 
 1. Unduh Aspose.Cells untuk Java: Kunjungi [Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/) untuk mengunduh pustaka.
 
-2. Instal Aspose.Cells: Ikuti petunjuk instalasi yang disediakan pada dokumentasi Aspose [Di Sini](https://reference.aspose.com/cells/java/).
+2. Instal Aspose.Cells: Ikuti petunjuk instalasi yang disediakan pada dokumentasi Aspose [itt](https://reference.aspose.com/cells/java/).
 
 Setelah Anda menginstal Aspose.Cells untuk Java, Anda siap untuk mulai bekerja dengan file Excel.
 
@@ -92,14 +94,14 @@ workbook.save("output.pdf", SaveFormat.PDF);
 
 Kode ini menyimpan buku kerja sebagai berkas PDF.
 
-## Penanganan Kesalahan
+## Hibakezelés
 
 Saat bekerja dengan file Excel, penting untuk menangani kesalahan dengan baik. Kesalahan umum termasuk referensi sel yang salah atau kesalahan rumus. Berikut ini contoh penanganan kesalahan:
 
 ```java
 // Kode Java untuk penanganan kesalahan
 try {
-    // Kode Anda di sini
+    // A kódod itt
 } catch (Exception e) {
     e.printStackTrace();
 }
@@ -111,15 +113,15 @@ Selalu bungkus kode Anda dalam blok try-catch untuk menangani pengecualian secar
 
 Aspose.Cells untuk Java menawarkan berbagai fitur yang lebih dari sekadar yang telah kami bahas dalam artikel ini. Anda dapat membuat bagan, tabel pivot, melakukan kalkulasi tingkat lanjut, dan banyak lagi. Jelajahi dokumentasi untuk informasi yang lengkap.
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami telah menjajaki cara menggunakan fungsi AVERAGE di Excel menggunakan Aspose.Cells untuk Java. Kami memulai dengan menyiapkan lingkungan pengembangan, membuat buku kerja Excel baru, menambahkan data, menggunakan fungsi AVERAGE, memformat lembar, dan menangani kesalahan. Aspose.Cells untuk Java menyediakan solusi yang tangguh untuk mengotomatiskan tugas Excel secara terprogram, menjadikannya alat yang berharga untuk manipulasi dan analisis data.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web di [Di Sini](https://reference.aspose.com/cells/java/) dan ikuti petunjuk instalasi.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web di [itt](https://reference.aspose.com/cells/java/) dan ikuti petunjuk instalasi.
 
 ### Bisakah saya mengekspor buku kerja Excel ke format lain selain PDF?
 
@@ -140,6 +142,7 @@ Untuk daftar lengkap fitur dan fungsionalitas lanjutan, lihat dokumentasi Aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

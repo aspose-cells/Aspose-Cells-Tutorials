@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportera Excel till PDF
@@ -106,9 +108,11 @@ F4: Finns det några begränsningar när man arbetar med stora Excel-filer?
 F5: Var kan jag hitta mer dokumentation och exempel för Aspose.Cells?
 
 Utforska Aspose.Cells API-dokumentation på [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) för omfattande dokumentation och en mängd exempel för att ytterligare utöka dina kunskaper.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

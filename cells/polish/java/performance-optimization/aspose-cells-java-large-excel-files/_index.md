@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Dowiedz się, jak wydajnie odczytywać i przetwarzać duże pliki Excela za pomocą Aspose.Cells for Java. Zoptymalizuj ustawienia pamięci, bezproblemowo integruj i zwiększ wydajność."
-"title": "Efektywne zarządzanie dużymi plikami Excela w Javie z Aspose.Cells"
+"title": "Efektywne zarządzanie dużymi plikami Excela w Javie za pomocą Aspose.Cells"
 "url": "/pl/java/performance-optimization/aspose-cells-java-large-excel-files/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -103,7 +105,7 @@ Workbook workbook = new Workbook(filePath, loadOptions);
 
 #### Wyjaśnienie parametrów i metod
 - **Opcje ładowania**: Konfiguruje ustawienia ładowania plików Excel.
-- **Ustawienie pamięci.Preferencja_pamięci**: Optymalizuje wykorzystanie pamięci podczas obsługi dużych plików.
+- **Ustawienie pamięci.PREFERENCJA_PAMIĘCI**: Optymalizuje wykorzystanie pamięci podczas obsługi dużych plików.
 
 ### Zastosowania praktyczne
 Takie podejście jest nieocenione w następujących sytuacjach:
@@ -152,6 +154,9 @@ Gotowy, aby zastosować te umiejętności w swoim kolejnym projekcie? Spróbuj j
 Dzięki temu kompleksowemu przewodnikowi będziesz teraz w stanie obsługiwać duże pliki Excela jak profesjonalista, korzystając z Aspose.Cells dla Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

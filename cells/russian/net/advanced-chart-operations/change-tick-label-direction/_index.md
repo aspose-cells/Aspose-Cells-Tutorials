@@ -1,14 +1,16 @@
 ---
-title: Изменить направление метки галочки
-linktitle: Изменить направление метки галочки
-second_title: API обработки Excel Aspose.Cells .NET
-description: Быстро меняйте направление меток делений в диаграммах Excel с помощью Aspose.Cells для .NET. Следуйте этому руководству для беспроблемной реализации.
-weight: 12
-url: /ru/net/advanced-chart-operations/change-tick-label-direction/
+"description": "Быстро меняйте направление меток делений в диаграммах Excel с помощью Aspose.Cells для .NET. Следуйте этому руководству для беспроблемной реализации."
+"linktitle": "Изменить направление метки галочки"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Изменить направление метки галочки"
+"url": "/ru/net/advanced-chart-operations/change-tick-label-direction/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изменить направление метки галочки
@@ -23,11 +25,11 @@ url: /ru/net/advanced-chart-operations/change-tick-label-direction/
 
 ### .NET Framework
 
-Убедитесь, что на вашем компьютере установлен фреймворк .NET. Aspose.Cells без проблем работает с различными версиями .NET, поэтому вы можете быть уверены, что используете поддерживаемую версию.
+Убедитесь, что на вашем компьютере установлен фреймворк .NET. Aspose.Cells без проблем работает с различными версиями .NET, поэтому вы должны быть защищены, если используете поддерживаемую версию.
 
 ### Aspose.Cells для .NET
 
-Далее вам понадобится сама библиотека Aspose.Cells. Вы можете легко скачать ее с[здесь](https://releases.aspose.com/cells/net/). Это простая установка, и вы сможете приступить к работе всего за несколько щелчков мыши!
+Далее вам понадобится сама библиотека Aspose.Cells. Вы можете легко скачать ее с [здесь](https://releases.aspose.com/cells/net/). Это простая установка, и вы сможете приступить к работе всего за несколько щелчков мыши!
 
 ### Базовое понимание C#
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Вам нужно заменить`"Your Document Directory"` и`"Your Output Directory"` с реальными путями в вашей системе. 
+Вам нужно заменить `"Your Document Directory"` и `"Your Output Directory"` с реальными путями в вашей системе. 
 
 ## Шаг 2: Загрузите рабочую книгу
 
@@ -139,16 +141,18 @@ Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 Aspose.Cells поддерживает различные форматы, такие как XLSX, XLS, CSV и другие!
 
 ### Доступна ли пробная версия?  
- Конечно! Вы можете найти бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Конечно! Вы можете найти бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose.Cells?  
- Не стесняйтесь обращаться за помощью по адресу[Форум Aspose](https://forum.aspose.com/c/cells/9)сообщество и сотрудники службы поддержки очень отзывчивы!
+Не стесняйтесь обращаться за помощью по адресу [Форум Aspose](https://forum.aspose.com/c/cells/9); сообщество и сотрудники службы поддержки очень отзывчивы!
 
 ### Могу ли я получить временную лицензию?  
- Да, вы можете запросить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете запросить временную лицензию. [здесь](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

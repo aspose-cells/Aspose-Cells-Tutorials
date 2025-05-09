@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Om de prestaties te optimaliseren bij het gebruik van Aspose.Cells:
 In deze tutorial heb je geleerd hoe je Excel-documenten kunt maken en vormgeven met Aspose.Cells voor Java. Door deze technieken onder de knie te krijgen, kun je de mogelijkheden van je applicatie om complexe spreadsheettaken efficiënt af te handelen aanzienlijk verbeteren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

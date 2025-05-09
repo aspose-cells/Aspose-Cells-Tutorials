@@ -1,14 +1,16 @@
 ---
-title: Sử dụng các kiểu và định dạng được xác định trước của Excel
-linktitle: Sử dụng các kiểu và định dạng được xác định trước của Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách sử dụng các kiểu và định dạng được xác định trước trong Excel với Aspose.Cells cho .NET. Tạo bảng tính tuyệt đẹp một cách dễ dàng.
-weight: 11
-url: /vi/net/excel-formatting-and-styling/using-excel-predefined-styles-and-formatting/
+"description": "Khám phá cách sử dụng các kiểu và định dạng được xác định trước trong Excel với Aspose.Cells cho .NET. Tạo bảng tính tuyệt đẹp một cách dễ dàng."
+"linktitle": "Sử dụng các kiểu và định dạng được xác định trước của Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sử dụng các kiểu và định dạng được xác định trước của Excel"
+"url": "/vi/net/excel-formatting-and-styling/using-excel-predefined-styles-and-formatting/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng các kiểu và định dạng được xác định trước của Excel
@@ -20,9 +22,9 @@ Trước khi bắt đầu tìm hiểu về thuật toán mã hóa, hãy đảm b
 ### Hiểu biết cơ bản về C#
 Bạn không cần phải là một chuyên gia lập trình, nhưng hiểu biết cơ bản về C# sẽ giúp bạn theo dõi dễ dàng hơn. Nếu bạn biết cách định nghĩa biến và tạo phương thức, bạn đã đi được nửa chặng đường rồi!
 ### Khung .NET
-Hãy đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.Cells hoạt động liền mạch với nhiều phiên bản khác nhau, vì vậy hãy kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để tương thích.
+Hãy đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.Cells hoạt động liền mạch với nhiều phiên bản khác nhau, vì vậy hãy kiểm tra [tài liệu](https://reference.aspose.com/cells/net/) để tương thích.
 ### Gói Aspose.Cells cho .NET
- Để sử dụng Aspose.Cells, bạn cần phải cài đặt gói trong dự án của mình. Bạn có thể tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/cells/net/). 
+Để sử dụng Aspose.Cells, bạn cần phải cài đặt gói trong dự án của mình. Bạn có thể tải xuống phiên bản mới nhất từ [đây](https://releases.aspose.com/cells/net/). 
 ### Thiết lập IDE
 Có một Môi trường phát triển tích hợp (IDE) thích hợp như Visual Studio sẽ giúp việc mã hóa dễ dàng hơn. Cài đặt IDE nếu bạn chưa cài đặt và tạo một dự án C# mới.
 ## Nhập gói
@@ -45,7 +47,7 @@ Trước tiên, bạn cần chỉ định nơi lưu sổ làm việc của mình
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Điều này có thể giống như`C:\Documents\ExcelFiles\`.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Điều này có thể giống như `C:\Documents\ExcelFiles\`.
 ## Bước 2: Tạo thư mục nếu nó không tồn tại
 Thực hành tốt là kiểm tra xem thư mục được chỉ định có tồn tại hay không trước khi cố gắng lưu tệp ở đó. Nếu không tồn tại, hãy tạo nó!
 ```csharp
@@ -56,7 +58,7 @@ if (!IsExists)
 ```
 Đoạn mã nhỏ này sẽ kiểm tra thư mục của bạn và tạo thư mục đó nếu không tìm thấy. Đơn giản và hiệu quả!
 ## Bước 3: Tạo một Workbook mới
- Bây giờ chúng ta đã có thư mục sẵn sàng, đã đến lúc tạo một sổ làm việc mới. Chúng tôi đang sử dụng`Workbook`lớp có sẵn trong Aspose.Cells.
+Bây giờ chúng ta đã có thư mục sẵn sàng, đã đến lúc tạo một sổ làm việc mới. Chúng tôi đang sử dụng `Workbook` lớp có sẵn trong Aspose.Cells.
 ```csharp
 // Tạo một Workbook mới.
 Workbook workbook = new Workbook();
@@ -70,7 +72,7 @@ Style style = workbook.CreateStyle();
 ```
 Với đối tượng kiểu này, bạn có thể xác định nhiều thuộc tính khác nhau như phông chữ, màu sắc, đường viền, v.v.!
 ## Bước 5: Nhập giá trị vào ô
- Đã đến lúc thêm một số dữ liệu! Chúng tôi sẽ đưa văn bản`"Test"` vào ô A1 của bảng tính đầu tiên.
+Đã đến lúc thêm một số dữ liệu! Chúng tôi sẽ đưa văn bản `"Test"` vào ô A1 của bảng tính đầu tiên.
 ```csharp
 // Nhập giá trị vào ô A1.
 workbook.Worksheets[0].Cells["A1"].PutValue("Test");
@@ -91,11 +93,11 @@ workbook.Save(dataDir + "book1.out.xlsx");
 ```
 Chỉ cần như vậy, tệp Excel theo phong cách của bạn đã được lưu, sẵn sàng gây ấn tượng với bất kỳ ai nhìn thấy!
 ## Phần kết luận
-Và bạn đã có nó! Với Aspose.Cells for .NET, việc tạo và định dạng các trang tính Excel dễ dàng hơn bao giờ hết. Từ việc kiểm tra sự tồn tại của các thư mục đến việc lưu các tệp của bạn, mỗi bước đều đơn giản. Không còn định dạng lặp đi lặp lại nữa; chỉ với một chút mã, bạn có thể tạo các bảng tính trông chuyên nghiệp trong thời gian ngắn. 
-Việc kết hợp các kiểu và định dạng không chỉ tăng cường sức hấp dẫn về mặt hình ảnh mà còn cải thiện khả năng đọc, giúp dữ liệu của bạn hoạt động hiệu quả. Cho dù bạn đang soạn thảo báo cáo, tóm tắt dữ liệu hay chỉ theo dõi các tác vụ, việc sử dụng các kiểu được xác định trước có thể đơn giản hóa công việc của bạn rất nhiều và giúp bạn có nhiều thời gian hơn để tập trung vào những gì thực sự quan trọng.
+Và bạn đã có nó! Với Aspose.Cells for .NET, việc tạo và định dạng các trang tính Excel dễ dàng hơn bao giờ hết. Từ việc kiểm tra sự tồn tại của các thư mục đến việc lưu các tệp của bạn, mỗi bước đều đơn giản. Không còn định dạng lặp đi lặp lại nữa; chỉ cần một chút mã, bạn có thể tạo các bảng tính trông chuyên nghiệp trong thời gian ngắn. 
+Kết hợp các kiểu và định dạng không chỉ tăng cường sức hấp dẫn về mặt hình ảnh mà còn cải thiện khả năng đọc, giúp dữ liệu của bạn hoạt động hiệu quả. Cho dù bạn đang soạn thảo báo cáo, tóm tắt dữ liệu hay chỉ theo dõi các tác vụ, việc sử dụng các kiểu được xác định trước có thể đơn giản hóa công việc của bạn rất nhiều và giúp bạn có nhiều thời gian hơn để tập trung vào những gì thực sự quan trọng.
 ## Câu hỏi thường gặp
-### Tôi có cần mua Aspose.Cells cho .NET để sử dụng không?
- Bạn có thể bắt đầu với bản dùng thử miễn phí từ[đây](https://releases.aspose.com/). Nếu bạn quyết định tiếp tục sử dụng, bạn có thể mua giấy phép.
+### Tôi có cần phải mua Aspose.Cells cho .NET để sử dụng không?
+Bạn có thể bắt đầu với bản dùng thử miễn phí từ [đây](https://releases.aspose.com/). Nếu bạn quyết định tiếp tục sử dụng, bạn có thể mua giấy phép.
 ### Tôi có thể sử dụng Aspose.Cells trên các nền tảng khác ngoài Windows không?
 Có! Aspose.Cells tương thích với mọi nền tảng hỗ trợ .NET, bao gồm Linux và Mac.
 ### Có hạn chế nào trong bản dùng thử miễn phí không?
@@ -103,10 +105,12 @@ Phiên bản dùng thử có thể giới hạn một số tính năng nhất đ
 ### Aspose.Cells cung cấp những tùy chọn kiểu dáng nào?
 Bạn có thể định dạng phông chữ, màu sắc, đường viền và nhiều thứ khác, cho phép tùy chỉnh rộng rãi bảng tính của mình.
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Kiểm tra toàn diện[tài liệu](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và tính năng.
+Kiểm tra toàn diện [tài liệu](https://reference.aspose.com/cells/net/) để biết thêm ví dụ và tính năng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

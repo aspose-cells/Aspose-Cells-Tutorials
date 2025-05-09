@@ -1,12 +1,14 @@
 ---
-"description": "Lépésről lépésre bemutatott útmutatók az adatok Excel és különböző formátumok közötti importálásához és exportálásához az Aspose.Cells for Java használatával."
+"description": "Lépésről lépésre útmutatók az adatok Excel és különböző formátumok közötti importálásához és exportálásához az Aspose.Cells for Java használatával."
 "title": "Excel adatimportálási és -exportálási oktatóanyagok Aspose.Cells Java-hoz"
 "url": "/hu/java/import-export/"
 "weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ Tanulja meg, hogyan elemezheti hatékonyan az XML-adatokat, és hogyan integrál
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -123,6 +125,9 @@ Tanulja meg, hogyan elemezheti hatékonyan az XML-adatokat, és hogyan integrál
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ V5: Igen, megfelelő licenc megvásárlásával vagy próbaverzióval. Győződj
 Ez az útmutató eszközöket és tudást biztosít az Aspose.Cells for Java hatékony használatához, javítva dokumentumfeldolgozási képességeit.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

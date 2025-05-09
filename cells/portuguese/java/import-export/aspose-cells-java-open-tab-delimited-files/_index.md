@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Lidar com arquivos de texto delimitados por tabulação de forma eficiente é essencial no processamento de dados. Seja com CSVs ou outros formatos de texto estruturados, ter as ferramentas certas pode otimizar significativamente seu fluxo de trabalho. Este tutorial o guiará pelo uso **Aspose.Cells para Java** para abrir e processar arquivos delimitados por tabulações sem esforço.
 
-### que você aprenderá
+### O que você aprenderá
 - Como configurar Aspose.Cells em um projeto Java
 - Etapas para carregar um arquivo delimitado por tabulação em uma pasta de trabalho do Excel
 - Dicas para solucionar problemas comuns ao trabalhar com dados de texto
@@ -134,6 +136,9 @@ Os próximos passos incluem explorar recursos mais avançados do Aspose.Cells ou
 - **Apoiar:** Para dúvidas, visite o [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

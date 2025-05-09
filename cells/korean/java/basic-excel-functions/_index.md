@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 기본 Excel 함수
@@ -48,9 +50,11 @@ Aspose.Cells for Java를 사용하여 Excel에서 MIN 함수의 강력한 기능
 Aspose.Cells for Java를 사용하여 Excel 텍스트 함수의 비밀을 파헤쳐 보세요. Excel에서 텍스트를 손쉽게 조작하고, 추출하고, 변환하는 방법을 배워보세요.
 ### [Excel 날짜 함수 튜토리얼](./excel-date-functions-tutorial/)
 Aspose.Cells for Java를 사용하여 Excel 날짜 함수를 배워보세요. 소스 코드와 함께 단계별 튜토리얼을 살펴보세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

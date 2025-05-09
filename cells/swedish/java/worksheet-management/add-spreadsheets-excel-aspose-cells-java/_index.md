@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ I dagens datadrivna värld kan det vara avgörande för utvecklare att hantera E
 - Steg för att lägga till ett nytt kalkylblad i en Excel-fil
 - Spara och hantera resurser effektivt
 
-Låt oss dyka in i förutsättningarna innan vi börjar.
+Låt oss gå in på förutsättningarna innan vi börjar.
 
 ## Förkunskapskrav
 
@@ -191,6 +193,9 @@ A5: Kolla in [Aspose-dokumentation](https://reference.aspose.com/cells/java/) oc
 - **Supportforum**Delta i diskussioner och få hjälp med [supportforum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

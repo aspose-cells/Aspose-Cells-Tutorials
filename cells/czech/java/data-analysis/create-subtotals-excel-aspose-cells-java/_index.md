@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ A: Ano, podporuje širokou škálu formátů Excelu včetně XLS a XLSX.
 Dodržováním tohoto návodu byste nyní měli být dobře vybaveni k začlenění funkcí mezisoučtů do vašich Java aplikací pomocí Aspose.Cells. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

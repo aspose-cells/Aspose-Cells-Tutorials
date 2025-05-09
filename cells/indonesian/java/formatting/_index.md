@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Pelajari cara membuat dokumen Excel bergaya profesional dengan tutorial format Java Aspose.Cells kami. Panduan terperinci ini menunjukkan cara menerapkan dan mengelola gaya sel, menerapkan aturan format bersyarat, bekerja dengan warna dan tema, serta mengontrol format angka untuk berbagai tipe data. Setiap tutorial menyertakan contoh kode Java yang berfungsi yang menunjukkan cara membuat lembar kerja yang menarik secara visual dengan format konsisten yang meningkatkan keterbacaan dan penyajian data.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi pemformatan
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -239,10 +241,13 @@ Kuasai penataan sel Excel dan tambahkan hyperlink di aplikasi Java Anda dengan A
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

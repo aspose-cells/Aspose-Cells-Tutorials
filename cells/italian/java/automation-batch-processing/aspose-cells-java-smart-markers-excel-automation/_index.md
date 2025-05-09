@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ import com.aspose.cells.WorkbookDesigner;
 ## Guida all'implementazione
 Per maggiore chiarezza, suddivideremo l'implementazione in funzionalità chiave. Analizziamole una per una!
 
-### Inizializza la cartella di lavoro e il progettista
+### Inizializza cartella di lavoro e progettista
 Il primo passaggio consiste nell'impostare una cartella di lavoro e un'istanza di progettazione per lavorare con i file Excel.
 
 #### Panoramica
@@ -186,6 +188,9 @@ Assicuratevi che i nomi delle fonti dati corrispondano esattamente e che i marca
 - **Supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

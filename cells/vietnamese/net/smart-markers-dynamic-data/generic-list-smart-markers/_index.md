@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Danh sách chung trong Smart Markers Aspose.Cells
-linktitle: Sử dụng Danh sách chung trong Smart Markers Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Làm chủ Aspose.Cells cho .NET với Danh sách chung và Đánh dấu thông minh để dễ dàng tạo báo cáo Excel động. Hướng dẫn dễ dàng cho nhà phát triển.
-weight: 20
-url: /vi/net/smart-markers-dynamic-data/generic-list-smart-markers/
+"description": "Làm chủ Aspose.Cells cho .NET với Danh sách chung và Đánh dấu thông minh để dễ dàng tạo báo cáo Excel động. Hướng dẫn dễ dàng cho nhà phát triển."
+"linktitle": "Sử dụng Danh sách chung trong Smart Markers Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sử dụng Danh sách chung trong Smart Markers Aspose.Cells"
+"url": "/vi/net/smart-markers-dynamic-data/generic-list-smart-markers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Danh sách chung trong Smart Markers Aspose.Cells
@@ -20,7 +22,7 @@ Trước khi đi sâu vào mã, chúng ta hãy xem nhanh những gì bạn cần
 ### Kiến thức cơ bản về C#
 Bạn nên có hiểu biết cơ bản về C# và cách làm việc với các lớp và đối tượng. Nếu bạn năng động với lập trình hướng đối tượng, bạn đã đi đúng hướng rồi.
 ### Aspose.Cells cho .NET đã được cài đặt
- Hãy đảm bảo bạn đã cài đặt Aspose.Cells trong dự án .NET của bạn. Bạn có thể tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/cells/net/). 
+Hãy đảm bảo bạn đã cài đặt Aspose.Cells trong dự án .NET của bạn. Bạn có thể tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/cells/net/). 
 ### Môi trường Visual Studio
 Việc thiết lập Visual Studio trên máy của bạn là rất quan trọng. Đây là môi trường phát triển phổ biến nhất mà bạn sẽ viết mã C#.
 ### Một tập tin mẫu
@@ -36,9 +38,9 @@ using System.Collections.Generic;
 ```
 Các không gian tên này sẽ cung cấp các chức năng cần thiết để làm việc với các tệp Excel và định dạng ô.
 ## Bước 1: Xác định các lớp của bạn
-Trước tiên là trước tiên! Chúng ta cần xác định`Person` Và`Teacher` lớp học. Đây là cách thực hiện:
+Trước tiên là trước tiên! Chúng ta cần xác định `Person` Và `Teacher` lớp học. Đây là cách thực hiện:
 ### Định nghĩa lớp người
- Các`Person` lớp sẽ chứa các thuộc tính cơ bản như tên và tuổi.
+Các `Person` lớp sẽ chứa các thuộc tính cơ bản như tên và tuổi.
 ```csharp
 public class Person
 {
@@ -65,7 +67,7 @@ public class Person
 }
 ```
 ### Định nghĩa lớp giáo viên
- Tiếp theo là`Teacher` lớp, kế thừa từ`Person` lớp. Lớp này sẽ tiếp tục đóng gói danh sách học sinh.
+Tiếp theo là `Teacher` lớp, kế thừa từ `Person` lớp. Lớp này sẽ tiếp tục đóng gói danh sách học sinh.
 ```csharp
 public class Teacher : Person
 {
@@ -114,7 +116,7 @@ flag.All = true;
 range.ApplyStyle(style, flag);
 ```
 ## Bước 5: Tạo các trường hợp Giáo viên và Học sinh
- Bây giờ, chúng ta hãy tạo các phiên bản của chúng ta`Teacher` Và`Person` các lớp và điền dữ liệu vào chúng:
+Bây giờ, chúng ta hãy tạo các phiên bản của chúng ta `Teacher` Và `Person` các lớp và điền dữ liệu vào chúng:
 ```csharp
 System.Collections.Generic.List<Teacher> list = new System.Collections.Generic.List<Teacher>();
 // Tạo đối tượng giáo viên đầu tiên
@@ -125,7 +127,7 @@ h1.Students = new List<Person>
     new Person("Jamima Winfrey", 18),
     new Person("Reham Smith", 15)
 };
-//Tạo đối tượng giáo viên thứ hai
+// Tạo đối tượng giáo viên thứ hai
 Teacher h2 = new Teacher("Masood Shankar", 40);
 h2.Students = new List<Person>
 {
@@ -163,15 +165,17 @@ Aspose.Cells là thư viện .NET dùng để tạo và quản lý các tệp Ex
 ### Tôi có thể sử dụng Aspose.Cells cho các định dạng tệp khác không?
 Có! Aspose cung cấp thư viện cho PDF, Word và các định dạng khác, giúp quản lý tài liệu linh hoạt.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Bạn có thể bắt đầu với bản dùng thử miễn phí từ[đây](https://releases.aspose.com/)nhưng cần phải trả phí để sử dụng cho mục đích sản xuất.
+Bạn có thể bắt đầu với bản dùng thử miễn phí từ [đây](https://releases.aspose.com/)nhưng cần phải trả phí để sử dụng cho mục đích sản xuất.
 ### Smart Marker là gì?
 Smart Marker là trình giữ chỗ trong các mẫu Excel được thay thế bằng dữ liệu thực tế khi được Aspose.Cells xử lý.
 ### Aspose.Cells có phù hợp với các tập dữ liệu lớn không?
 Chắc chắn rồi! Aspose.Cells được tối ưu hóa về hiệu suất, giúp nó có khả năng xử lý các tập dữ liệu lớn một cách hiệu quả.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

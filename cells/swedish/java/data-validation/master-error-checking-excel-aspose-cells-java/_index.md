@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Låt oss effektivisera ditt arbetsflöde och förbättra kalkylbladshanteringen 
 Innan du börjar, se till att du har:
 - **Bibliotek och beroenden:** Maven eller Gradle konfigurerade för beroendehantering.
 - **Miljöinställningar:** Java-utvecklingsmiljö konfigurerad (Java 8+ rekommenderas).
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och Excel-operationer är meriterande.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och Excel-operationer är meriterande.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -184,6 +186,9 @@ Utforska dessa resurser för att fördjupa din förståelse och dina förmågor 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

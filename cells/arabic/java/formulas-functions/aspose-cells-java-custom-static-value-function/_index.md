@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "تعرّف على كيفية توسيع AbstractCalculationEngine لإجراء حسابات مخصصة باستخدام Aspose.Cells Java. أتمتة مهام Excel باستخدام قيم محددة مسبقًا."
+"description": "تعرّف على كيفية توسيع AbstractCalculationEngine لإجراء حسابات مخصصة باستخدام Aspose.Cells Java. أتمتة مهام Excel بقيم محددة مسبقًا."
 "title": "كيفية إنشاء دالة قيمة ثابتة مخصصة في Aspose.Cells Java"
 "url": "/ar/java/formulas-functions/aspose-cells-java-custom-static-value-function/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ public class Main {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

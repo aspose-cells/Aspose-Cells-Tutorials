@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,11 +100,11 @@ cells.hideRow(2); // 隱藏第三行（基於索引）
 ```java
 cells.hideColumn(1); // 隱藏第二列
 ```
-列也是零索引，其中 `hideColumn(1)` 瞄準第二列。
+列也是零索引， `hideColumn(1)` 瞄準第二列。
 
 ### 儲存修改後的工作簿
 
-進行變更後，儲存工作簿：
+進行更改後，請儲存您的工作簿：
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/HidingRowsandColumns_out.xls");
@@ -147,6 +149,9 @@ workbook.save(outDir + "/HidingRowsandColumns_out.xls");
 準備好增強您的 Excel 文件管理了嗎？今天就在您的專案中實施這些解決方案！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

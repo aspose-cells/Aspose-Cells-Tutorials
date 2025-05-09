@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Başlamadan önce şunlara sahip olduğunuzdan emin olun:
    - Bağımlılık yönetimi için Maven veya Gradle.
    - Aspose.Cells kütüphanesi (25.3 sürümü önerilir).
 2. **Çevre Kurulumu**:
-   - Makinenize JDK kurulu.
+   - Makinenizde JDK yüklü.
    - IntelliJ IDEA veya Eclipse gibi bir kod editörü.
 3. **Bilgi Önkoşulları**:
    - Java programlamanın temel bilgisi.
@@ -153,7 +155,7 @@ Becerilerinizi daha da ileri götürmeye hazır mısınız? Farklı senaryoları
 - Evet, tekrarla `getListObjects()` her tabloyu ayrı ayrı işlemek için.
 
 **S3: Java için Aspose.Cells'in herhangi bir maliyeti var mı?**
-- Ücretsiz deneme sürümü mevcuttur; tüm özellikleri kullanabilmek için satın alma veya geçici lisans edinme gerekmektedir.
+- Ücretsiz deneme sürümü mevcuttur; tüm özellikleri kullanabilmek için geçici lisans satın almanız veya edinmeniz gerekir.
 
 **S4: Dönüştürme sırasında istisnaları nasıl işleyebilirim?**
 - Olası hataları etkili bir şekilde yönetmek için kodunuzun etrafında try-catch blokları kullanın.
@@ -175,6 +177,9 @@ Java projelerinizde Aspose.Cells'i kullanın ve Excel dosyalarını yönetme şe
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,10 +82,10 @@ Workbook wb = new Workbook();
    // 新しく作成したワークブックを指定されたディレクトリに保存します
    wb.save(outDir + "/CreateAndSaveWorkbook_out.xlsx");
    ```
-**パラメータの説明**：その `save()` このメソッドは、Excelファイルを保存するファイルパスを受け取ります。以下の様々な形式に対応しています。 `。xlsx`.
+**パラメータの説明**：その `save()` このメソッドはExcelファイルを保存するファイルパスを受け取ります。様々な形式に対応しており、例えば `。xlsx`.
 
 ### 機能2: ワークシートにテキストボックスを追加して構成する
-**概要**Excel ワークシートにテキスト ボックスを追加し、そのサイズ、位置、内容をカスタマイズする方法を学習します。
+**概要**Excel ワークシートにテキスト ボックスを追加し、そのサイズ、位置、コンテンツをカスタマイズする方法を学習します。
 
 #### ステップバイステップの実装
 1. **最初のワークシートにアクセスする**
@@ -168,6 +170,9 @@ Aspose.Cells for Java を使用した Excel ワークブックの作成、保存
 - **サポート**： [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

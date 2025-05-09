@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-Excelブックのデータ分析結果を品質を損なうことなくWeb上に表示することは非常に重要です。Aspose.Cells for Javaを使えば、Excelのグラフをスケーラブルベクターグラフィックス（SVG）にシームレスかつ効率的に変換できます。このチュートリアルでは、Aspose.Cells for Javaを使ってExcelのグラフをSVG形式に変換し、様々なプラットフォームで高品質な表示を実現する方法を説明します。
+Excelブックのデータ分析結果を品質を損なうことなくWeb上に表示することは非常に重要です。Aspose.Cells for Javaを使えば、Excelのグラフをスケーラブルベクターグラフィックス（SVG）に変換する作業がシームレスかつ効率的になります。このチュートリアルでは、Aspose.Cells for Javaを使ってExcelのグラフをSVG形式に変換し、様々なプラットフォームで高品質な表示を実現する方法を説明します。
 
 **学習内容:**
 - ファイルからExcelブックを読み込む方法
@@ -161,6 +163,9 @@ Aspose.Cells for Javaを使ってExcelのグラフをSVGに変換する方法を
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

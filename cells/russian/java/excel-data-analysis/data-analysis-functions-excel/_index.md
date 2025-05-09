@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Функции анализа данных Excel
@@ -101,7 +103,7 @@ sorter.sort(worksheet, cellArea, new int[] {0, 1}, new int[] {SortOrder.ASCENDIN
 Да, вы можете применять сложные фильтры, используя логические операторы, такие как AND и OR. Вы можете объединять условия фильтра вместе, чтобы создавать сложные выражения фильтра. Вот пример применения фильтра с оператором AND:
 
 ```java
-// Применить фильтр с помощью оператора И
+// Применить фильтр с помощью оператора AND
 worksheet.getAutoFilter().filter(0, "Filter Condition 1");
 worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 ```
@@ -117,6 +119,7 @@ worksheet.getAutoFilter().filter(1, "Filter Condition 2");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

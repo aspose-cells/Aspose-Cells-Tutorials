@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -134,7 +136,7 @@ public class ExcelLoader {
 
 #### Dicas para solução de problemas
 
-- Certifique-se de que o nome da planilha seja exatamente igual, inclusive diferenciando maiúsculas de minúsculas.
+- Certifique-se de que o nome da planilha seja exatamente igual, inclusive com diferenciação entre maiúsculas e minúsculas.
 - Verifique se o Aspose.Cells está configurado e licenciado corretamente para evitar erros inesperados.
 
 ## Aplicações práticas
@@ -190,6 +192,9 @@ Pronto para levar suas habilidades de processamento em Java e Excel para o próx
 - **Apoiar:** Obtenha ajuda e discuta problemas no [Fórum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

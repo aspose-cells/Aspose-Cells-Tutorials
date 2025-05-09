@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Расширенный анализ данных Excel
@@ -109,7 +111,7 @@ Chart chart = worksheet.getCharts().get(chartIndex);
 // Установить источник данных
 chart.setChartData("A1:B10", true);
 
-// Настройте диаграмму
+// Настроить диаграмму
 chart.getTitle().setText("Sales Analysis");
 chart.getAxes().getHorizontalAxis().setTitle("Months");
 chart.getAxes().getVerticalAxis().setTitle("Sales");
@@ -210,6 +212,7 @@ Aspose.Cells для Java поддерживает экспорт результ�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

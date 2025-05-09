@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Artık Aspose.Cells for Java kullanarak ODS dosyalarını nasıl şifreleyeceği
 Bu kılavuzu takip ederek, Aspose.Cells kullanarak Java uygulamalarınızda dosya şifreleme ve şifre çözmeyi uygulamak için iyi bir donanıma sahip olursunuz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

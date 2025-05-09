@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,9 +195,12 @@ Aspose.Cells for Java를 사용하여 Excel에서 스파크라인을 만들고 �
 - **다운로드:** Aspose.Cells의 최신 버전에 액세스하세요. [출시](https://releases.aspose.com/cells/java/).
 - **구입:** 다음을 통해 전체 기능을 잠금 해제하려면 라이센스를 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 - **무료 체험:** 체험판을 시작해보세요 [무료 체험](https://releases.aspose.com/cells/java/).
-- **임시 면허:** 임시면허 신청은 다음을 통해 신청하세요. [임시 면허 페이지](https://purchase.aspose.com/temporary-license/).
+- **임시 면허:** 임시 면허 신청은 다음을 통해 신청하세요. [임시 면허 페이지](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

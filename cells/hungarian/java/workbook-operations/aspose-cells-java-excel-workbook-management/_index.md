@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ Az elnevezett tartományok az Excel-fájl előre definiált területei, amelyekr
 #### Megvalósítási lépések
 
 **1. lépés: Munkafüzet-objektum példányosítása**
-Győződjön meg róla, hogy van egy `Workbook` objektum, amely egy meglévő Excel-fájllal van betöltve.
+Győződjön meg róla, hogy rendelkezik egy `Workbook` objektum, amely egy meglévő Excel-fájllal van betöltve.
 
 **2. lépés: Hozzáférés a névvel ellátott tartományokhoz**
 Az összes elnevezett tartomány lekérése a `getNamedRanges()` módszer.
@@ -183,8 +185,8 @@ public class GetNamedRanges {
 Sikeresen megtanultad, hogyan kell Workbook objektumot példányosítani, valamint munkalapokat és elnevezett tartományokat elérni az Aspose.Cells for Java használatával. Ezek a képességek szilárd alapot teremtenek kifinomult Excelhez kapcsolódó alkalmazások készítéséhez Java nyelven.
 
 **Következő lépések:**
-- Kísérletezz olyan fejlettebb funkciókkal, mint a diagramkészítés vagy a pivot táblák.
-- További ismeretekért tekintse meg az Aspose által biztosított kiterjedt dokumentációt.
+- Kísérletezz olyan fejlettebb funkciókkal, mint a diagramkészítés vagy a pivot táblázatok.
+- További információkért tekintse meg az Aspose által biztosított kiterjedt dokumentációt.
 
 Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a projektjeidben még ma!
 
@@ -217,6 +219,9 @@ Készen állsz a mélyebb elmélyülésre? Próbáld ki ezeket a megoldásokat a
 Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

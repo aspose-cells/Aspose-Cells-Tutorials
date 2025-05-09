@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 O Aspose.Cells requer uma licença para liberar todo o seu potencial:
 
 - **Teste grátis**: Comece com um teste gratuito para explorar os recursos da biblioteca.
-- **Licença Temporária**Obtenha uma licença temporária para períodos de testes mais extensos.
+- **Licença Temporária**Obtenha uma licença temporária para períodos de testes mais prolongados.
 - **Comprar**: Compre uma licença se decidir incorporar o Aspose.Cells em seus projetos a longo prazo.
 
 ### Inicialização e configuração básicas
@@ -196,6 +198,9 @@ Como próximos passos, considere se aprofundar em funcionalidades mais avançada
 Pronto para implementar sua solução? Siga estes passos, explore os recursos fornecidos e comece a aprimorar seus aplicativos Java com o Aspose.Cells hoje mesmo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

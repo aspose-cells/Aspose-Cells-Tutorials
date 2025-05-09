@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,18 +134,18 @@ Du har nu bemästrat hur du skapar och sparar en pivottabell med Aspose.Cells f�
 **Nästa steg:**
 - Experimentera med olika datamängder.
 - Integrera med databaser eller webbtjänster.
-- Utforska ytterligare Aspose.Cells-funktioner, som att skapa diagram och formatera.
+- Utforska ytterligare Aspose.Cells-funktioner, som diagram och formatering.
 
 ## FAQ-sektion
 1. **Hur installerar jag Aspose.Cells för Java?**
-   - Använd Maven eller Gradle för att lägga till beroenden som visas i installationsavsnittet.
+   - Använd Maven eller Gradle för att lägga till beroenden enligt installationsavsnittet.
 2. **Kan jag använda en gratisversion av Aspose.Cells?**
    - Ja, det finns en testversion tillgänglig med begränsad funktionalitet.
 3. **Vilka filformat stöder Aspose.Cells?**
    - Den stöder olika format, inklusive XLSX, CSV och ODS bland andra.
 4. **Är det möjligt att skapa diagram i Aspose.Cells?**
    - Absolut, Aspose.Cells erbjuder omfattande diagramfunktioner.
-5. **Hur kan jag optimera prestanda med stora datamängder?**
+5. **Hur kan jag optimera prestandan med stora datamängder?**
    - Optimera minnesanvändningen genom att hantera objektlivscykler och använda effektiva datastrukturer.
 
 ## Resurser
@@ -155,6 +157,9 @@ Du har nu bemästrat hur du skapar och sparar en pivottabell med Aspose.Cells f�
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

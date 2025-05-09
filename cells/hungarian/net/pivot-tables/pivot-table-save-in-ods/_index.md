@@ -1,47 +1,52 @@
 ---
-title: Takarítsa meg a Pivot Tabelt az ODS-ként az Aspose.Cells .NET-ben
-weight: 7700
-limit: 
-description: Tanuljon meg, hogyan lehet létrehozni és menteni egy PivotTable-t ODS formátumban az Aspose.Cells segítségével .NET-hez. Kövesse ezt a lépésről lépésre útmutatót kód példákkal.
-keywords: [Aspose.Cells for .NET, PivotTable in ODS, save PivotTable, create PivotTable, .NET spreadsheet, Excel automation, C# PivotTable]
-url: /hu/net/pivot-tables/pivot-table-save-in-ods/
+"description": "Ismerje meg, hogyan hozhat létre és menthet el egy kimutatástáblát ODS formátumban az Aspose.Cells for .NET használatával. Kövesse ezt a lépésről lépésre szóló útmutatót kódpéldákkal."
+"title": "Pivot tábla mentése ODS-ként az Aspose.Cells for .NET programban"
+"url": "/hu/net/pivot-tables/pivot-table-save-in-ods/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Takarítsa meg a Pivot Tabelt az ODS-ként az Aspose.Cells .NET-ben 
+# Pivot tábla mentése ODS-ként az Aspose.Cells for .NET programban 
 
-Az Aspose.Cells a .NET-hez erős funkciókat biztosít a táblázatok automatizálására, beleértve a PivotTables-t. Ez a tanármutató átvezet egy PivotTable-t létrehozáson egy munkafüzetben, adat hozzáadáson, a PivotTable beállításainak konfigurálásában és az ODS fájlokként való mentésen. Egy egyszerű C# végrehajtással könnyedén tudnál dinamikus jelentéseket generálni. Függetlenül attól, hogy pénzügyi adatokat, értékesítési jelentéseket vagy bármilyen táblázatos információt dolgozol, ez a útmutató biztosítja a simán alakuló PivotTable-t létrehozást és exportját az ODS formátumban.  
+Az Aspose.Cells for .NET hatékony funkciókat kínál a táblázatkezelés automatizálásához, beleértve a kimutatástáblákat is. Ez az oktatóanyag végigvezeti Önt egy kimutatástábla munkafüzetben történő létrehozásán, adatok hozzáadásán, a kimutatástábla beállításainak konfigurálásán és ODS-fájlként történő mentésén. Egy egyszerű C# implementációval könnyedén létrehozhat dinamikus jelentéseket. Akár pénzügyi adatokat, értékesítési jelentéseket vagy bármilyen táblázatos információt dolgoz fel, ez az útmutató biztosítja a kimutatástábla zökkenőmentes létrehozását és exportálását ODS formátumban.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/pivot-table-save-in-ods" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## A telepítési utasítások
-A .NET-hez Aspose.Cells használatával kezdeni, kövesse ezeket a lépéseket:  
 
-1. Letöltsd az Aspose.Cells .NET-t a hivatalos adattárból: [Aspose.Cells letöltés](https://releases.aspose.com/cells/net/)  
-2. A NuGet csomagkezelő segítségével telepítse:  
-   * Nyissa meg a Visual Studio-t  
-   * A csomagkezelő konzoltól futtassa ki a következő parancsot:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Telepítési utasítások
+Az Aspose.Cells for .NET használatának megkezdéséhez kövesse az alábbi lépéseket:  
+
+1. Töltsd le az Aspose.Cells for .NET fájlt a hivatalos tárolóból: [Aspose.Cells letöltés](https://releases.aspose.com/cells/net/)  
+2. Telepítés a NuGet csomagkezelőn keresztül:  
+   - Nyissa meg a Visual Studio-t  
+   - Futtassa a következő parancsot a Csomagkezelő konzolban:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-3. Be kell foglalni a Aspose.Cells névterületet a C# projektedbe:  
+3. Illeszd be az Aspose.Cells névteret a C# projektedbe:  
    ```csharp
    using Aspose.Cells;
    ```  
-4. Kezdje a kódolást az adott példa segítségével, hogy létrehozjon és mentse meg egy PivotTable-t az ODS formátumban.  
+4. Kezdje el a kódolást a megadott példa segítségével egy kimutatástábla létrehozásához és mentéséhez ODS formátumban.  
 
-## Lásd:  
-Ha engedélyt akarsz venni, menj a [Célszerű vásárlási oldal](https://purchase.aspose.com/buy)\- Nem.  
-Teljes dokumentációért látogasson el![Aspose.Cells a .NET dokumentációhoz](https://docs.aspose.com/cells/net/)\- Nem.  
-A teljes API hivatkozás felderítése érdekében nézze meg.[Aspose.Cells a .NET API Referenciára](https://reference.aspose.com/cells/net/)\- Nem. 
+## Lásd még  
+Licenc vásárlásához látogasson el a következő oldalra: [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+A teljes dokumentációért látogasson el a következő oldalra: [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+A teljes API-referencia megtekintéséhez tekintse meg a következőt: [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

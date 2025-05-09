@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ Opanowałeś automatyzację zadań filtrowania w programie Excel za pomocą Aspo
 
 ## Sekcja FAQ
 1. **Czym jest Aspose.Cells dla Java?**
-   - Potężna biblioteka do pracy z plikami Excel w Java, umożliwiająca tworzenie, edycję i konwersję plików.
+   - Potężna biblioteka do pracy z plikami Excela w Java, umożliwiająca tworzenie, edycję i konwersję plików.
 2. **Jak efektywnie obsługiwać duże zbiory danych za pomocą Aspose.Cells?**
    - Stosuj praktyki zarządzania pamięcią, takie jak szybkie zamykanie skoroszytów czy przetwarzanie danych w blokach, jeśli to konieczne.
 3. **Czy mogę stosować filtry w wielu kolumnach jednocześnie?**
@@ -154,6 +156,9 @@ Opanowałeś automatyzację zadań filtrowania w programie Excel za pomocą Aspo
 - **Wsparcie**:Dołącz do forum społeczności na [Wsparcie Aspose](https://forum.aspose.com/c/cells/9) po pomoc.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

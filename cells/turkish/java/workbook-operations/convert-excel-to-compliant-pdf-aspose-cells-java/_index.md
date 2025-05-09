@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ Entegrasyon olanakları arasında bu dosyaların bulut depolama çözümlerine a
 Aspose.Cells ve büyük Excel dosyalarıyla çalışırken:
 
 - İşlemler için yeterli belleği ayırmak üzere JVM ayarlarınızı optimize edin.
-- Çok büyük veri kümeleriyle çalışıyorsanız bellek kullanımını en aza indirmek için akış API'lerini kullanın.
+- Çok büyük veri kümeleriyle çalışırken bellek kullanımını en aza indirmek için akış API'lerini kullanın.
 - Yeni sürümlerdeki performans iyileştirmelerinden yararlanmak için Aspose.Cells'i düzenli olarak güncelleyin.
 
 **En İyi Uygulamalar:**
@@ -197,6 +199,9 @@ Artık Excel çalışma kitaplarını uyumlu PDF'lere dönüştürmek için Aspo
    - Keşfedebilirsiniz [Uluslararası Standardizasyon Örgütü (ISO)](https://www.iso.org/standards.html) Çeşitli PDF/A uyumluluk seviyelerine ilişkin ayrıntılı dokümantasyon için web sitesini ziyaret edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

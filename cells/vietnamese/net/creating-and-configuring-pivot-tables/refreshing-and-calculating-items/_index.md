@@ -1,14 +1,16 @@
 ---
-title: Làm mới và tính toán các mục trong Pivot Table trong .NET
-linktitle: Làm mới và tính toán các mục trong Pivot Table trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách làm mới và tính toán các mục trong Bảng Pivot bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 17
-url: /vi/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/
+"description": "Khám phá cách làm mới và tính toán các mục trong Bảng Pivot bằng Aspose.Cells cho .NET với hướng dẫn toàn diện, từng bước này."
+"linktitle": "Làm mới và tính toán các mục trong Pivot Table trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Làm mới và tính toán các mục trong Pivot Table trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm mới và tính toán các mục trong Pivot Table trong .NET
@@ -21,10 +23,10 @@ Trước khi đi sâu vào mã, hãy đảm bảo bạn có thiết lập cần 
 - Bạn nên cài đặt Visual Studio hoặc bất kỳ .NET IDE nào khác.
 - Đảm bảo bạn đã cài đặt .NET framework tương thích với Aspose.Cells.
 ### 2. Aspose.Cells cho .NET
-- Bạn sẽ cần thư viện Aspose.Cells cho .NET, bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
--  Tùy chọn, bạn có thể xem xét[Dùng thử miễn phí](https://releases.aspose.com/) để đánh giá thư viện.
+- Bạn sẽ cần thư viện Aspose.Cells cho .NET, bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
+- Tùy chọn, bạn có thể xem xét [Dùng thử miễn phí](https://releases.aspose.com/) để đánh giá thư viện.
 ### 3. Các tập tin mẫu
--  Chuẩn bị một tệp Excel (ví dụ:`sample.xlsx`) với Bảng Pivot và các mục được tính toán. Bạn sẽ sử dụng tệp này trong suốt hướng dẫn.
+- Chuẩn bị một tệp Excel (ví dụ: `sample.xlsx`) với Bảng Pivot và các mục được tính toán. Bạn sẽ sử dụng tệp này trong suốt hướng dẫn.
 Bây giờ chúng ta đã đề cập đến các điều kiện tiên quyết, hãy cùng đi sâu vào việc triển khai thực tế!
 ## Nhập gói
 Bước đầu tiên trong hành trình của bạn là nhập các gói cần thiết. Điều này sẽ cho phép bạn truy cập các lớp và phương thức do thư viện Aspose.Cells cung cấp một cách dễ dàng. 
@@ -41,7 +43,7 @@ Sau khi đã chuẩn bị xong nền tảng, chúng ta hãy chia nhỏ quy trìn
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-Trước khi tải bất kỳ tệp nào, chúng ta cần thiết lập thư mục lưu trữ tệp Excel của mình. Thay thế`"Your Document Directory"` với đường dẫn thực tế trên hệ thống của bạn nơi`sample.xlsx` cư trú. Giống như việc cung cấp cho ứng dụng của bạn một bản đồ để tìm kho báu vậy!
+Trước khi tải bất kỳ tệp nào, chúng ta cần thiết lập thư mục lưu trữ tệp Excel của mình. Thay thế `"Your Document Directory"` với đường dẫn thực tế trên hệ thống của bạn nơi `sample.xlsx` cư trú. Giống như việc cung cấp cho ứng dụng của bạn một bản đồ để tìm kho báu vậy!
 ## Bước 2: Tải sổ làm việc Excel
 ```csharp
 Workbook wb = new Workbook(dataDir + "sample.xlsx");
@@ -51,7 +53,7 @@ Workbook wb = new Workbook(dataDir + "sample.xlsx");
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 ```
- Vì các tệp Excel có thể chứa nhiều trang tính, chúng tôi chỉ định trang tính đầu tiên trong sổ làm việc của mình. Đây là nơi Bảng Pivot của chúng tôi tồn tại. Bằng cách tham chiếu đến`Worksheets[0]`, về cơ bản chúng ta đang nói, "Này, đưa tôi đến trang đầu tiên!"
+Vì các tệp Excel có thể chứa nhiều trang tính, chúng tôi chỉ định trang tính đầu tiên trong sổ làm việc của mình. Đây là nơi Bảng Pivot của chúng tôi tồn tại. Bằng cách tham chiếu đến `Worksheets[0]`, về cơ bản chúng ta đang nói, "Này, đưa tôi đến trang đầu tiên!"
 ## Bước 4: Sửa đổi giá trị ô
 ```csharp
 sheet.Cells["D2"].PutValue(20);
@@ -65,7 +67,7 @@ foreach (PivotTable pt in sheet.PivotTables)
 	pt.CalculateData();
 }
 ```
- Đây là phần thú vị! Chúng ta lặp lại tất cả các Bảng Pivot có trong bảng tính của mình. Bằng cách gọi`RefreshData()` Và`CalculateData()` trên mỗi Bảng Pivot, chúng tôi đảm bảo rằng chúng được cập nhật dựa trên các giá trị ô mới. Tương tự như việc thêm nguyên liệu tươi vào công thức nấu ăn của bạn để đảm bảo kết quả tốt nhất!
+Đây là phần thú vị! Chúng ta lặp lại tất cả các Bảng Pivot có trong bảng tính của mình. Bằng cách gọi `RefreshData()` Và `CalculateData()` trên mỗi Bảng Pivot, chúng tôi đảm bảo rằng chúng được cập nhật dựa trên các giá trị ô mới. Tương tự như việc thêm nguyên liệu tươi vào công thức nấu ăn của bạn để đảm bảo kết quả tốt nhất!
 ## Bước 6: Lưu Workbook đã cập nhật dưới dạng PDF
 ```csharp
 wb.Save(dataDir + "RefreshAndCalculateItems_out.pdf", SaveFormat.Pdf);
@@ -77,16 +79,18 @@ Làm việc với Pivot Tables và các mục tính toán trong Excel bằng Asp
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Vâng! Bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của thư viện trước khi mua hàng.
+Vâng! Bạn có thể tải xuống [dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của thư viện trước khi mua hàng.
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về[Trang web tham khảo Aspose](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về [Trang web tham khảo Aspose](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells hỗ trợ những định dạng tệp nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLSX, XLS, CSV, PDF, v.v.
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể tìm kiếm sự trợ giúp trong các diễn đàn cộng đồng có sẵn cho Aspose.Cells[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự trợ giúp trong các diễn đàn cộng đồng có sẵn cho Aspose.Cells [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

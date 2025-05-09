@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,12 +210,15 @@ Aspose.Cells for Javaを使ったExcelワークブックの作成と管理をマ
    - このチュートリアルに示されているように、Maven または Gradle を使用して依存関係として追加します。
 
 2. **行の高さとともにセルの書式をコピーできますか?**
-   - はい、使用します `PasteType.FORMATS` コピー中に書式属性を保持します。
+   - はい、使います `PasteType.FORMATS` コピー中に書式属性を保持します。
 
 3. **XLSX 以外の Excel ファイル形式はサポートされていますか?**
    - もちろんです！Aspose.Cells は XLS や CSV などさまざまな形式をサポートしています。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

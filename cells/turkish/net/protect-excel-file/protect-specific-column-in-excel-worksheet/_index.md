@@ -1,14 +1,16 @@
 ---
-title: Excel Çalışma Sayfasında Belirli Sütunu Koru
-linktitle: Excel Çalışma Sayfasında Belirli Sütunu Koru
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET'i kullanarak Excel'deki belirli sütunları etkili bir şekilde nasıl koruyacağınızı öğrenin; böylece verilerinizin güvenli ve değiştirilemez kalmasını sağlayın.
-weight: 80
-url: /tr/net/protect-excel-file/protect-specific-column-in-excel-worksheet/
+"description": "Aspose.Cells for .NET'i kullanarak Excel'deki belirli sütunları etkili bir şekilde nasıl koruyacağınızı öğrenin; böylece verilerinizin güvenli ve değiştirilemez kalmasını sağlayın."
+"linktitle": "Excel Çalışma Sayfasında Belirli Sütunu Koru"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Çalışma Sayfasında Belirli Sütunu Koru"
+"url": "/tr/net/protect-excel-file/protect-specific-column-in-excel-worksheet/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Çalışma Sayfasında Belirli Sütunu Koru
@@ -22,7 +24,7 @@ Veri yönetiminin giderek daha karmaşık hale geldiği bir dünyada, belgelerin
 Koda dalmadan önce, halletmeniz gereken birkaç ön koşul var:
 
 1. Visual Studio: Microsoft Visual Studio'nun yüklü olduğundan emin olun (tercihen 2017 veya üzeri). Bu, geliştirme ortamınız olarak hizmet edecektir. 
-2.  Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesini indirmiş ve referans almış olmanız gerekir.[kütüphaneyi buradan indirin](https://releases.aspose.com/cells/net/) Eğer daha önce yapmadıysanız.
+2. Aspose.Cells Kütüphanesi: Projenizde Aspose.Cells kütüphanesini indirmiş ve referans almış olmanız gerekir. [kütüphaneyi buradan indirin](https://releases.aspose.com/cells/net/) Eğer daha önce yapmadıysanız.
 3. C# Hakkında Temel Bilgi: Kod örnekleri basit olsa da, temel C# bilgisine sahip olmak gerektiğinde ayarlamalar yapmanıza yardımcı olacaktır.
 4. .NET Framework: Projenizin Aspose.Cells'in desteklendiği .NET Framework'ü hedeflediğinden emin olun.
 
@@ -65,22 +67,22 @@ Sırada yeni bir çalışma kitabı oluşturmamız gerekiyor. Aspose.Cells, Exce
 Workbook wb = new Workbook();
 ```
 
- Yeni bir örnek oluşturarak`Workbook`Nesne, boş bir sayfa ile başlıyorsunuz ve elektronik tablonuzu özelleştirmeye hazırsınız.
+Yeni bir örnek oluşturarak `Workbook` nesne, boş bir sayfa ile başlıyorsunuz, elektronik tablonuzu özelleştirmeye hazırsınız.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
-Çalışma kitabı oluşturulduktan sonra, işlemlerinizi gerçekleştireceğiniz ilk çalışma sayfasına erişmek isteyeceksiniz:
+Çalışma kitabı oluşturulduktan sonra, işlemlerinizi yapacağınız ilk çalışma sayfasına erişmek isteyeceksiniz:
 
 ```csharp
 // Bir çalışma sayfası nesnesi oluşturun ve ilk sayfayı elde edin.
 Worksheet sheet = wb.Worksheets[0];
 ```
 
- The`Worksheet` nesnesi, çalışma kitabındaki belirli sayfayı düzenlemenize olanak tanır. Bu durumda, ilk sayfayı kullanıyoruz.
+The `Worksheet` nesnesi, çalışma kitabındaki belirli sayfayı düzenlemenize olanak tanır. Bu durumda, ilk sayfayı kullanıyoruz.
 
 ## Adım 4: Tüm Sütunların Kilidini Açın
 
-Belirli sütunları korumalı olarak ayarlamak için, önce çalışma sayfasındaki tüm sütunların kilidini açmanız gerekir. Bu adım, bunları değişikliklere hazırlar:
+Belirli sütunları korumalı olarak ayarlamak için önce çalışma sayfasındaki tüm sütunların kilidini açmanız gerekir. Bu adım onları değişikliklere hazırlar:
 
 ```csharp
 // Stil nesnesini tanımlayın.
@@ -98,7 +100,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
- Bu kod ilk 256 sütunun her birinde yineleme yapar. Stil ayarlarını değiştirerek her sütunun kilidini açar.`StyleFlag` Kilitli özelliğin daha sonra uygulanabilmesini sağlar.
+Bu kod ilk 256 sütunun her birinde yineleme yapar. Stil ayarlarını değiştirerek her sütunun kilidini açar. `StyleFlag` Kilitli özelliğin daha sonra uygulanabilmesini sağlar.
 
 ## Adım 5: İstenilen Sütunu Kilitleyin
 
@@ -109,7 +111,7 @@ for (int i = 0; i <= 255; i++)
 style = sheet.Cells.Columns[0].Style;
 // Kilitle onu.
 style.IsLocked = true;
-//Bayrağı örneklendir.
+// Bayrağı örneklendir.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;
@@ -128,18 +130,18 @@ Bir sonraki adım, tüm çalışma sayfası için korumayı etkinleştirmeyi iç
 sheet.Protect(ProtectionType.All);
 ```
 
- The`Protect` yöntem, sayfadaki tüm eyleme geçirilebilir öğelerin, özellikle izin verdiğiniz alanlar (kilitsiz sütunlar gibi) hariç, güvence altına alınmasını sağlar.
+The `Protect` Bu yöntem, sayfadaki tüm eyleme geçirilebilir öğelerin, özellikle izin verdiğiniz alanlar (kilitsiz sütunlar gibi) hariç, güvence altına alınmasını sağlar.
 
 ## Adım 7: Çalışma Kitabını Kaydedin
 
-Her şeyi yapılandırdıktan ve hazır hale getirdikten sonra, çalışma kitabınızı kaydederek tüm değişikliklerin kaydedildiğinden emin olmanın zamanı geldi:
+Her şeyi yapılandırdıktan ve hazırladıktan sonra, çalışma kitabınızı kaydederek tüm değişikliklerin kaydedildiğinden emin olmanın zamanı geldi:
 
 ```csharp
 // Excel dosyasını kaydedin.
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Bu kod çalışma kitabınızı belirtilen yolda Excel 97-2003 biçiminde kaydeder. Değiştirdiğinizden emin olun`dataDir` gerçek dizin yolunuzla.
+Bu kod çalışma kitabınızı belirtilen yolda Excel 97-2003 biçiminde kaydeder. Değiştirdiğinizden emin olun `dataDir` gerçek dizin yolunuzla.
 
 ## Çözüm
 
@@ -154,16 +156,18 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyaları oluşturmak, düze
 Evet! Birden fazla sütunu korumak için, korumak istediğiniz her sütun için sütun kilitleme kodunu tekrarlamanız yeterlidir.
 
 ### Deneme sürümü mevcut mu?
- Evet! Aspose.Cells'in özelliklerini kullanarak keşfedebilirsiniz.[ücretsiz deneme sürümü burada](https://releases.aspose.com/).
+Evet! Aspose.Cells'in özelliklerini kullanarak keşfedebilirsiniz. [ücretsiz deneme sürümü burada](https://releases.aspose.com/).
 
 ### Aspose.Cells hangi dosya formatlarını destekler?
 Aspose.Cells, XLSX, XLS, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Yardım ve toplum desteğini şu adreste bulabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Yardım ve toplum desteğini şu adreste bulabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

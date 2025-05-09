@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Innan du börjar implementera, se till att du har följande:
 ### Krav för miljöinstallation:
 - JDK installerat på din maskin (helst JDK 8 eller senare)
 - Maven eller Gradle för beroendehantering
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering
 - Bekantskap med Excel-arbetsböcker och kalkylblad
 ## Konfigurera Aspose.Cells för Java
@@ -148,6 +150,9 @@ Den här guiden hjälper dig att implementera Excel-valideringar med Aspose.Cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

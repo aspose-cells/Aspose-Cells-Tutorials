@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # バッチExcel処理
@@ -109,9 +111,11 @@ Aspose.Cells for Java による Excel バッチ処理の自動化により、複
    APIドキュメントをご覧ください [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) 詳しい情報と例については、こちらをご覧ください。
 
 Aspose.Cells for Java を使用して、バッチ Excel 処理タスクを最適化し、生産性を向上させます。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

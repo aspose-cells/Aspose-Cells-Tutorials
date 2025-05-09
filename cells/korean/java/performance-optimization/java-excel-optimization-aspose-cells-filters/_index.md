@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,10 +188,13 @@ Java 및 Excel 처리 능력을 한 단계 끌어올릴 준비가 되셨나요? 
 - **다운로드:** 최신 버전에 액세스하세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/).
 - **구입:** 라이선스 옵션에 대해 자세히 알아보세요. [Aspose 구매](https://purchase.aspose.com/buy).
 - **무료 체험:** 무료 체험판으로 시작하세요 [Aspose의 릴리스 페이지](https://releases.aspose.com/cells/java/).
-- **임시 면허:** 시험을 위한 임시 면허를 취득하세요 [Aspose의 임시 면허 포털](https://purchase.aspose.com/temporary-license/).
+- **임시 면허:** 테스트를 위한 임시 라이센스를 얻으십시오. [Aspose의 임시 라이센스 포털](https://purchase.aspose.com/temporary-license/).
 - **지원하다:** 도움을 받고 문제를 논의하세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

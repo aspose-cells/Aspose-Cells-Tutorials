@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Szeretnéd hatékonyan automatizálni az adatelemzési feladataidat? A pivot tá
 - Adatok létrehozása és előkészítése Excel-fájlban
 - Pivot tábla létrehozása az adatok hatékony összefoglalásához
 - A pivottábla megjelenésének és formázásának testreszabása
-- A végleges Excel-fájl mentése és exportálása
+- Mentse el és exportálja a végleges Excel-fájlt
 
 Alakítsunk át nyers adatokat hasznos jelentésekké az Aspose.Cells for Java használatával.
 
@@ -59,7 +61,7 @@ Kezdésként integráld az Aspose.Cells könyvtárat a Java projektedbe Maven va
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió:** Töltsön le egy ingyenes próbaverziót innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
 2. **Ideiglenes engedély:** Szerezzen be ideiglenes licencet a kibővített funkciókhoz a következő címen: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
 3. **Vásárlás:** Teljes hozzáféréshez vásároljon licencet a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy).
@@ -77,7 +79,7 @@ public class PivotTableExample {
         Workbook workbook = new Workbook(); // Új munkafüzet létrehozása
         WorksheetCollection sheets = workbook.getWorksheets();
 
-        // kódod ide fog kerülni
+        // A kódod ide fog kerülni
 
         workbook.save("output.xlsx");
     }
@@ -92,7 +94,7 @@ Kezd azzal, hogy beállítod az Excel fájlodat a pivot tábla létrehozásához
 
 **1. lépés: Az adatok előkészítése**
 ```java
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet sheet = sheets.get(0);
 sheet.setName("Data");
 Cells cells = sheet.getCells();
@@ -117,7 +119,7 @@ for (int i = 0; i < data.length; i++) {
 }
 ```
 
-**2. lépés: Új munkalap hozzáadása a pivot táblázathoz**
+**2. lépés: Új munkalap hozzáadása a kimutatástáblázathoz**
 ```java
 // Új munkalap hozzáadása
 Worksheet pivotSheet = sheets.add();
@@ -211,6 +213,9 @@ A következő lépések közé tartozik a különböző adatkészletekkel való 
 - [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

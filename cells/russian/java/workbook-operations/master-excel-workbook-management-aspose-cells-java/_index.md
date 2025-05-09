@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ The `save` метод записывает вашу книгу в файл, со
 Следуя этому руководству, вы теперь обладаете навыками программного управления книгами Excel с помощью Aspose.Cells для Java. Этот мощный инструмент упрощает сложные задачи и повышает производительность при работе с файлами Excel. Продолжайте изучать его функции, чтобы еще больше улучшить рабочие процессы управления данными.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

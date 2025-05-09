@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Nếu bạn đã vật lộn với mã cồng kềnh hoặc hạn chế khi xử
 
 **Những gì bạn sẽ học được:**
 - Cách áp dụng giấy phép Aspose.Cells
-- Tạo bảng tính Excel mới một cách dễ dàng
+- Tạo sổ làm việc Excel mới một cách dễ dàng
 - Truy cập và sửa đổi các ô bảng tính
 - Lưu sổ làm việc của bạn ở các định dạng tệp khác nhau
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Tổng quan**: Tạo nhanh một bảng tính Excel trống để bắt đầu thao tác dữ liệu.
 
 **Hướng dẫn từng bước:**
-1. **Khởi tạo sổ làm việc**: Tạo một `Workbook` sự vật.
+1. **Khởi tạo sổ làm việc**Tạo một `Workbook` sự vật.
 2. **Thư mục đầu ra**: Xác định nơi bạn muốn lưu tệp.
 
 ```java
@@ -195,6 +197,9 @@ Hãy bắt đầu hành trình cùng Aspose.Cells for Java ngay hôm nay và kha
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

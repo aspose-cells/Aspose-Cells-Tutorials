@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Bây giờ bạn đã học cách kết nối ứng dụng Java với cơ sở d
 Hướng dẫn toàn diện này cung cấp cho bạn kiến thức để tận dụng Aspose.Cells cho Java, hợp lý hóa các tác vụ quản lý dữ liệu của bạn thông qua tự động hóa. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

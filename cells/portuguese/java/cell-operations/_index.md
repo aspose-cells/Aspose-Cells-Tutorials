@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de operações com células fornecem orientações detalhadas para manipular células individuais em planilhas do Excel com Java. Siga estes guias práticos para aprender a ler e escrever diferentes tipos de dados, acessar células por referência, gerenciar a formatação de células e implementar padrões eficientes de navegação por células. Estes tutoriais incluem exemplos completos de código Java para operações comuns com células, ajudando você a criar aplicativos que podem controlar com precisão o conteúdo da planilha até o nível de cada célula.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de células
 - Implementação passo a passo com exemplos de código completos
@@ -96,6 +98,9 @@ Um tutorial de código para Aspose.Words Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

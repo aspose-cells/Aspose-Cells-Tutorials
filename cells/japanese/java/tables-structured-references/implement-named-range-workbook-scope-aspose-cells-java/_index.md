@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Aspose.Cells を使用するには、無料トライアルを開始するか、�
 
 まず、 `Workbook` Excel ファイルを表すクラス:
 ```java
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook();
 ```
 これにより、ワークシートとデータを追加できる空のワークブックが初期化されます。
@@ -149,6 +151,9 @@ A5: 競合を避けるために、範囲名がブック全体で一意かつ有�
 詳細については、以下のリソースをご覧ください。 [Aspose ダウンロード](https://releases.aspose.com/cells/java/) フル機能アクセスのための一時ライセンスの取得を検討してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

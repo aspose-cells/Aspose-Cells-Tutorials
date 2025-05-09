@@ -1,45 +1,47 @@
 ---
-title: Menemukan Jenis Nilai X dan Y dari Titik dalam Seri Grafik
-linktitle: Menemukan Jenis Nilai X dan Y dari Titik dalam Seri Grafik
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menemukan jenis nilai X dan Y dalam rangkaian bagan menggunakan Aspose.Cells untuk .NET dengan panduan terperinci dan mudah diikuti ini.
-weight: 11
-url: /id/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Tanuld meg megkeresni az X és Y értékek típusait diagramsorozatokban az Aspose.Cells for .NET használatával ezzel a részletes, könnyen követhető útmutatóval."
+"linktitle": "Pontok X és Y értékeinek típusának meghatározása diagramsorozatokban"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pontok X és Y értékeinek típusának meghatározása diagramsorozatokban"
+"url": "/id/net/working-with-chart-data/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menemukan Jenis Nilai X dan Y dari Titik dalam Seri Grafik
+# Pontok X és Y értékeinek típusának meghatározása diagramsorozatokban
 
-## Perkenalan
+## Bevezetés
 
-Membuat bagan yang bermakna dan representasi data visual sangat penting dalam analisis data. Dengan fitur yang tersedia di pustaka seperti Aspose.Cells for .NET, Anda dapat mempelajari properti rangkaian bagan, khususnya nilai X dan Y dari titik data. Dalam tutorial ini, kita akan menjelajahi cara menentukan jenis nilai ini, yang memungkinkan Anda untuk lebih memahami dan memanipulasi visualisasi data Anda.
+Az adatelemzésben elengedhetetlen a hasznos diagramok és vizuális adatreprezentációk létrehozása. Az olyan könyvtárakban elérhető funkciókkal, mint az Aspose.Cells for .NET, elmélyülhetsz a diagramsorozatok tulajdonságaiban, különösen az adatpontok X és Y értékeibe. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan határozhatod meg ezen értékek típusait, lehetővé téve az adatvizualizációk jobb megértését és kezelését.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai langkah-langkahnya, pastikan Anda telah menyiapkan beberapa hal:
+Mielőtt belevágna a lépésekbe, győződjön meg arról, hogy van néhány dolog, ami készen áll:
 
-1. Lingkungan .NET: Anda harus menyiapkan lingkungan pengembangan .NET. Ini bisa berupa Visual Studio, Visual Studio Code, atau IDE lain yang kompatibel.
+1. .NET környezet: Rendelkeznie kell egy beállított .NET fejlesztői környezettel. Ez lehet Visual Studio, Visual Studio Code vagy bármilyen más kompatibilis IDE.
    
-2.  Aspose.Cells untuk .NET: Anda perlu menginstal Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells .NET-hez készült verzióját. Letöltheti innen: [itt](https://releases.aspose.com/cells/net/).
 
-3.  Contoh Berkas Excel: Dapatkan contoh berkas Excel yang berisi grafik. Untuk tutorial ini, kita akan menggunakan berkas bernama`sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Pastikan ada di direktori proyek Anda.
+3. Minta Excel-fájl: Szerezzen be egy diagramokat tartalmazó minta Excel-fájlt. Ebben az oktatóanyagban egy nevű fájlt fogunk használni. `sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx`Győződjön meg róla, hogy a projektkönyvtárában van.
 
-4. Pengetahuan Pemrograman Dasar: Keakraban dengan pemrograman C# akan membantu Anda mengikutinya dengan mudah.
+4. Alapvető programozási ismeretek: A C# programozásban való jártasság segít abban, hogy könnyen követni tudd a feladatot.
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk berinteraksi dengan data dan grafik Excel, Anda perlu mengimpor paket yang relevan dari Aspose.Cells. Berikut cara melakukannya:
+Az Excel-adatokkal és -diagramokkal való interakcióhoz importálnia kell a vonatkozó csomagokat az Aspose.Cells-ből. Így teheti meg:
 
-### Siapkan Proyek Anda
+### Projekt beállítása
 
-Buka IDE Anda dan buat proyek .NET baru. Pastikan Anda telah menginstal paket Aspose.Cells melalui NuGet atau dengan menambahkan referensi ke file .DLL.
+Nyisd meg az IDE-t, és hozz létre egy új .NET projektet. Győződj meg róla, hogy telepítetted az Aspose.Cells csomagot NuGet segítségével, vagy a .DLL fájlra mutató hivatkozás hozzáadásával.
 
-### Mengimpor Ruang Nama yang Diperlukan
+### Szükséges névterek importálása
 
-Di bagian atas berkas C# Anda, sertakan perintah penggunaan berikut:
+A C# fájl tetején a következőket kell megadni direktívák használatával:
 
 ```csharp
 using System;
@@ -50,100 +52,102 @@ using System.Text;
 using Aspose.Cells.Charts;
 ```
 
-Ruang nama ini menyediakan akses ke fungsi buku kerja, lembar kerja, dan bagan Aspose.Cells.
+Ezek a névterek hozzáférést biztosítanak az Aspose.Cells munkafüzetéhez, munkalapjaihoz és diagramfunkcióihoz.
 
-Sekarang, mari kita bahas proses penentuan jenis nilai X dan Y dalam rangkaian diagram Anda. Berikut ini cara melakukannya langkah demi langkah.
+Most pedig bontsuk le az X és Y értékek típusainak meghatározásának folyamatát a diagramsorozatban. Íme, hogyan teheti meg lépésről lépésre.
 
-## Langkah 1: Tentukan Direktori Sumber
+## 1. lépés: A forráskönyvtár meghatározása
 
-Pertama, Anda perlu menentukan direktori tempat file Excel Anda berada. Atur jalur agar mengarah ke file Anda dengan benar.
+Először is meg kell határoznod azt a könyvtárat, ahol az Excel fájlod található. Állítsd be az elérési utat úgy, hogy helyesen mutasson a fájlodra.
 
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur tempat file Excel Anda disimpan.
+Csere `"Your Document Directory"` az Excel-fájl mentési útvonalával.
 
-## Langkah 2: Muat Buku Kerja
+## 2. lépés: A munkafüzet betöltése
 
- Selanjutnya, muat file Excel ke dalam`Workbook` objek. Ini memungkinkan Anda untuk mengakses semua konten berkas.
+Ezután töltsd be az Excel fájlt egy `Workbook` objektum. Ez lehetővé teszi a fájl teljes tartalmának elérését.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFindTypeOfXandYValuesOfPointsInChartSeries.xlsx");
 ```
 
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: A munkalap elérése
 
-Setelah memuat buku kerja, Anda perlu menentukan lembar kerja mana yang berisi bagan yang ingin Anda analisis. Kita akan menggunakan lembar kerja pertama:
+A munkafüzet betöltése után meg kell adnia, hogy melyik munkalap tartalmazza az elemezni kívánt diagramot. Az első munkalapot fogjuk használni:
 
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
 
-## Langkah 4: Akses Bagan
+## 4. lépés: Hozzáférés a diagramhoz
 
-Pada langkah ini, Anda perlu mengakses bagan pertama yang ada di lembar kerja. Objek bagan berisi semua informasi mengenai seri dan titik data.
+Ebben a lépésben a munkalapon található első diagramhoz kell hozzáférnie. A diagramobjektumok tartalmazzák az összes információt a sorozatokról és az adatpontokról.
 
 ```csharp
 Chart ch = ws.Charts[0];
 ```
 
-## Langkah 5: Hitung Data Grafik
+## 5. lépés: Diagramadatok kiszámítása
 
-Sebelum mengakses titik data individual, penting untuk menghitung data bagan guna memastikan semua nilai sudah terkini.
+Az egyes adatpontok elérése előtt fontos kiszámítani a diagram adatait, hogy minden érték naprakész legyen.
 
 ```csharp
 ch.Calculate();
 ```
 
-## Langkah 6: Akses Titik Bagan Tertentu
+## 6. lépés: Hozzáférés egy adott diagramponthoz
 
-Sekarang, mari kita ambil titik grafik pertama dari seri pertama. Anda dapat mengubah indeks jika Anda perlu mengakses titik atau seri yang berbeda.
+Most keressük meg az első diagrampontot az első sorozatból. Módosíthatjuk az indexet, ha különböző pontokhoz vagy sorozatokhoz kell hozzáférnünk.
 
 ```csharp
 ChartPoint pnt = ch.NSeries[0].Points[0];
 ```
 
-## Langkah 7: Tentukan Jenis Nilai X dan Y
+## 7. lépés: Az X és Y értéktípusok meghatározása
 
-Terakhir, Anda dapat menyelidiki jenis nilai X dan Y untuk titik grafik. Informasi ini penting untuk memahami representasi data.
+Végül megvizsgálhatod a diagrampont X és Y értékeinek típusait. Ez az információ elengedhetetlen az adatreprezentáció megértéséhez.
 
 ```csharp
 Console.WriteLine("X Value Type: " + pnt.XValueType);
 Console.WriteLine("Y Value Type: " + pnt.YValueType);
 ```
 
-## Langkah 8: Kesimpulan Eksekusi
+## 8. lépés: A végrehajtás befejezése
 
-Akan selalu bermanfaat untuk memberi tahu bahwa kode Anda berhasil dijalankan. Untuk melakukannya, tambahkan pernyataan keluaran Konsol lainnya:
+Mindig hasznos értesíteni a kód sikeres végrehajtásáról. Ehhez adjon hozzá egy másik konzol kimeneti utasítást:
 
 ```csharp
 Console.WriteLine("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");
 ```
 
-## Kesimpulan
+## Következtetés
 
-Dengan panduan ini, Anda akan berhasil mengambil dan mengidentifikasi jenis nilai X dan Y dalam rangkaian bagan menggunakan Aspose.Cells untuk .NET. Apakah Anda membuat keputusan berdasarkan data atau hanya perlu menyajikannya secara visual, memahami nilai-nilai ini sangatlah penting. Jadi, lanjutkan, jelajahi lebih jauh dan buat presentasi data Anda lebih bermakna!
+Ezzel az útmutatóval sikeresen lekérheted és azonosíthatod az X és Y értékek típusait a diagramsorozatokban az Aspose.Cells for .NET használatával. Akár adatok alapján hozol döntéseket, akár csak vizuálisan kell bemutatnod azokat, ezeknek az értékeknek a megértése kritikus fontosságú. Tehát vágj bele, fedezd fel a témát, és tedd értelmesebbé az adatprezentációidat!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk mengelola dan memanipulasi file Excel tanpa perlu menginstal Microsoft Excel.
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi a fejlesztők számára az Excel fájlok kezelését és manipulálását anélkül, hogy telepíteni kellene a Microsoft Excelt.
 
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
-Ya, Aspose menyediakan uji coba gratis yang dapat Anda gunakan untuk menjelajahi fitur-fitur Aspose.Cells.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, az Aspose ingyenes próbaverziót biztosít, amely alatt felfedezheti az Aspose.Cells funkcióit.
 
-### Jenis bagan apa yang dapat saya buat dengan Aspose.Cells?
-Aspose.Cells mendukung berbagai jenis bagan termasuk kolom, batang, garis, pai, dan banyak lagi.
+### Milyen típusú diagramokat hozhatok létre az Aspose.Cells segítségével?
+Az Aspose.Cells különféle típusú diagramokat támogat, beleértve az oszlop-, sáv-, vonal-, kördiagramokat és egyebeket.
 
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat mengakses dukungan melalui[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+A támogatást a következőn keresztül veheti igénybe: [Aspose fórum](https://forum.aspose.com/c/cells/9).
 
-### Apakah ada lisensi sementara yang tersedia untuk Aspose.Cells?
- Ya, Anda dapat meminta[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi produk secara bebas.
+### Van ideiglenes licenc az Aspose.Cells-hez?
+Igen, kérhet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) szabadon értékelni a terméket.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

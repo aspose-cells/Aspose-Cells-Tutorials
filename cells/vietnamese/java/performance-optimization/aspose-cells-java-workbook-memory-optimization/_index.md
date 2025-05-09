@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ Bây giờ, chúng ta hãy cùng khám phá cách triển khai tối ưu hóa b�
    ```
    - `MEMORY_PREFERENCE`: Hướng dẫn Aspose.Cells sử dụng càng ít bộ nhớ càng tốt.
 
-### Thiết lập tùy chọn bộ nhớ trên ô bảng tính
+### Thiết lập tùy chọn bộ nhớ trên các ô của trang tính
 **Tổng quan:** Tìm hiểu cách áp dụng tùy chọn bộ nhớ vào các ô hiện có trong bảng tính để tối ưu hóa hiệu suất.
 1. **Truy cập vào Bảng tính đầu tiên:** 
    ```java
@@ -137,6 +139,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo và c�
 - **Diễn đàn hỗ trợ:** Tham gia cộng đồng để được hỗ trợ về [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

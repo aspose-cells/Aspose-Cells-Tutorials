@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@ Java geliştiricileri için kapsamlı Aspose.Cells formül eğitimlerimizle Exce
 
 ## Ne Öğreneceksiniz
 
-- Java için Aspose.Cells'i formüller ve fonksiyon işlemleri gerçekleştirmek için nasıl kullanırsınız
+- Java için Aspose.Cells'i formüller ve fonksiyon işlemleri gerçekleştirmek için nasıl kullanırsınız?
 - Tam kod örnekleriyle adım adım uygulama
 - En iyi uygulamalar ve optimizasyon teknikleri
 - Formüller ve fonksiyonlarda sık karşılaşılan zorluklara çözümler
@@ -93,6 +95,9 @@ Java ile Aspose.Cells kullanarak Excel hücrelerinden formül metninin nasıl ç
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

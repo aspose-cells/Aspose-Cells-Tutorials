@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/exporting-print-area/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exporting Print Area to Html in Excel Programmatically
@@ -106,6 +108,7 @@ Check out the [Aspose.Cells documentation](https://reference.aspose.com/cells/ne
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

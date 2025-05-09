@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 ### Zapisz jako XPS
 
-Po załadowaniu użyj `save` metoda konwersji i zapisania pliku Excel do formatu XPS. Określ ścieżkę wyjściową i format (`SaveFormat.XPS`) w Twoim zapisie wywołania.
+Po załadowaniu użyj `save` metoda konwersji i zapisania pliku Excel do formatu XPS. Określ ścieżkę wyjściową i format (`SaveFormat.XPS`) w Twoim wywołaniu zapisu.
 
 #### Krok 2: Konwertuj i zapisz
 Konwertuj skoroszyt na dokument XPS za pomocą:
@@ -125,12 +127,12 @@ Aby dowiedzieć się więcej, rozważ eksperymentowanie z innymi formatami konwe
 ## Sekcja FAQ
 
 1. **Jaka jest różnica między XPS i PDF?**
-   - Oba formaty mają stały układ, ale XPS został opracowany przez firmę Microsoft, a PDF przez firmę Adobe.
+   - Oba formaty mają stały układ, ale XPS został opracowany przez Microsoft, a PDF przez Adobe.
 2. **Czy mogę przekonwertować wiele arkuszy w pliku Excel na jeden dokument XPS?**
    - Tak, Aspose.Cells obsługuje wszystkie arkusze skoroszytu podczas konwersji.
 3. **Jak mogę mieć pewność, że przekonwertowany plik XPS zachowa formatowanie z programu Excel?**
    - Aspose.Cells został zaprojektowany tak, aby zachować większość cech formatowania podczas konwersji.
-4. **Czy istnieje sposób na zbiorczą konwersję wielu plików jednocześnie?**
+4. **Czy istnieje sposób na zbiorczą konwersję wielu plików na raz?**
    - Zaimplementuj pętlę w swojej aplikacji Java, aby przetwarzać wiele plików sekwencyjnie.
 5. **Czy mogę stosować tę metodę w przypadku dużych zbiorów danych bez problemów z wydajnością?**
    - Tak, optymalizacja wykorzystania pamięci i korzystanie z efektywnych praktyk przetwarzania danych może złagodzić problemy z wydajnością.
@@ -144,6 +146,9 @@ Aby dowiedzieć się więcej, rozważ eksperymentowanie z innymi formatami konwe
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

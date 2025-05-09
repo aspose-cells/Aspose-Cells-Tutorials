@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าเส้นกราฟ
-linktitle: ตั้งค่าเส้นกราฟ
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีปรับแต่งเส้นแผนภูมิใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดของเรา
-weight: 14
-url: /th/net/setting-chart-appearance/set-chart-lines/
+"description": "เรียนรู้วิธีปรับแต่งเส้นแผนภูมิใน Excel โดยใช้ Aspose.Cells สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา"
+"linktitle": "ตั้งค่าเส้นกราฟ"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ตั้งค่าเส้นกราฟ"
+"url": "/th/net/setting-chart-appearance/set-chart-lines/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าเส้นกราฟ
@@ -23,7 +25,7 @@ url: /th/net/setting-chart-appearance/set-chart-lines/
 
 - Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว ขอแนะนำให้ใช้เวอร์ชันล่าสุดเพื่อใช้ประโยชน์จากฟีเจอร์ทั้งหมด
 - .NET Framework: โปรเจ็กต์ของคุณควรอิงตาม .NET Framework (หรือ .NET Core) โดยคุณจะนำ Aspose.Cells มาใช้
--  Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Cells จาก[เว็บไซต์อาโพส](https://releases.aspose.com/cells/net/).
+- Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้ง Aspose.Cells จาก [เว็บไซต์อาโพส](https://releases-aspose.com/cells/net/).
 - ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับภาษาการเขียนโปรแกรม C# จะเป็นประโยชน์ขณะเขียนโค้ด
 
 ## แพ็คเกจนำเข้า
@@ -47,7 +49,7 @@ using System.Drawing;
 string outputDir = "Your Output Directory";
 ```
 
- คำอธิบาย: แทนที่ "ไดเรกทอรีผลลัพธ์ของคุณ" ด้วยเส้นทางที่คุณต้องการให้ Aspose.Cells บันทึกไฟล์ เช่น`C:\\MyExcelFiles\\`.
+คำอธิบาย: แทนที่ "ไดเรกทอรีผลลัพธ์ของคุณ" ด้วยเส้นทางที่คุณต้องการให้ Aspose.Cells บันทึกไฟล์ เช่น `C:\\MyExcelFiles\\`-
 
 ## ขั้นตอนที่ 2: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
@@ -58,18 +60,18 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- คำอธิบาย: บรรทัดนี้จะสร้างอินสแตนซ์ของ`Workbook`คลาสจากไลบรารี Aspose.Cells เหมือนกับการเปิดไฟล์ Excel เปล่าใหม่ซึ่งคุณสามารถเริ่มเพิ่มชีตและข้อมูลของคุณได้
+คำอธิบาย: บรรทัดนี้จะสร้างอินสแตนซ์ของ `Workbook` คลาสจากไลบรารี Aspose.Cells เหมือนกับการเปิดไฟล์ Excel เปล่าใหม่ซึ่งคุณสามารถเริ่มเพิ่มชีตและข้อมูลของคุณได้
 
 ## ขั้นตอนที่ 3: อ้างอิงแผ่นงาน
 
 ขั้นต่อไป คุณจะต้องทำงานกับแผ่นงานเฉพาะในเวิร์กบุ๊กของคุณ เราจะเลือกแผ่นงานแรก
 
 ```csharp
-// การรับการอ้างอิงของเวิร์กชีตที่เพิ่มใหม่โดยส่งดัชนีชีตของมัน
+// การรับข้อมูลอ้างอิงของเวิร์กชีตที่เพิ่มใหม่โดยส่งดัชนีชีตของมัน
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- คำอธิบาย: แผ่นงานมีดัชนีเริ่มต้นที่ 0 ดังนั้น`worksheets[0]` หมายถึงแผ่นงานแรก
+คำอธิบาย: แผ่นงานมีดัชนีเริ่มต้นที่ 0 ดังนั้น `worksheets[0]` หมายถึงแผ่นงานแรก
 
 ## ขั้นตอนที่ 4: เพิ่มค่าตัวอย่างลงในเซลล์
 
@@ -162,7 +164,7 @@ chart.NSeries[1].Border.Weight = Aspose.Cells.Drawing.WeightType.MediumLine;
 
 ## ขั้นตอนที่ 10: บันทึกสมุดงานของคุณ
 
-ตอนนี้มาบันทึกผลงานหนักของคุณลงในไฟล์ Excel กัน
+ตอนนี้เรามาบันทึกผลงานหนักของคุณลงในไฟล์ Excel กัน
 
 ```csharp
 // การบันทึกไฟล์ Excel
@@ -188,22 +190,24 @@ Console.WriteLine("SettingChartLines executed successfully.");
 ## คำถามที่พบบ่อย
 
 ### Aspose.Cells สำหรับ .NET คืออะไร?  
-Aspose.Cells สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับจัดการสเปรดชีต Excel ในแอปพลิเคชัน .NET
+Aspose.Cells สำหรับ .NET เป็นไลบรารีอันทรงพลังสำหรับการจัดการสเปรดชีต Excel ในแอปพลิเคชัน .NET
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?  
- ใช่ Aspose เสนอรุ่นทดลองใช้งานฟรีเพื่อทดสอบฟังก์ชันการใช้งาน คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose เสนอรุ่นทดลองใช้งานฟรีเพื่อทดสอบฟังก์ชันการใช้งาน คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/).
 
-### มีการสนับสนุนสำหรับ Aspose.Cells หรือไม่  
- แน่นอน! คุณสามารถรับการสนับสนุนได้ผ่าน[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+### มีการรองรับ Aspose.Cells หรือไม่  
+แน่นอน! คุณสามารถรับการสนับสนุนได้ผ่าน [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
 
 ### ฉันสามารถสร้างแผนภูมิประเภทอื่นโดยใช้ Aspose.Cells ได้หรือไม่  
 ใช่ Aspose รองรับแผนภูมิหลายประเภท เช่น แผนภูมิเส้น แผนภูมิวงกลม และแผนภูมิพื้นที่
 
 ### ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Cells ได้อย่างไร  
- คุณสามารถสมัครได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) ผ่านทางเว็บไซต์ Aspose
+คุณสามารถสมัครได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) ผ่านทางเว็บไซต์ Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

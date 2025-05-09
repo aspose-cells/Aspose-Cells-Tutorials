@@ -1,14 +1,16 @@
 ---
-title: Прочитайте метки осей после расчета диаграммы
-linktitle: Прочитайте метки осей после расчета диаграммы
-second_title: API обработки Excel Aspose.Cells .NET
-description: Раскройте свой потенциал с Aspose.Cells для .NET. Узнайте, как легко читать метки осей диаграммы в нашем подробном пошаговом руководстве.
-weight: 11
-url: /ru/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-chart/
+"description": "Раскройте свой потенциал с Aspose.Cells для .NET. Узнайте, как легко читать метки осей диаграммы в нашем подробном пошаговом руководстве."
+"linktitle": "Прочитайте метки осей после расчета диаграммы"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Прочитайте метки осей после расчета диаграммы"
+"url": "/ru/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Прочитайте метки осей после расчета диаграммы
@@ -21,10 +23,10 @@ url: /ru/net/customizing-chart-axes-and-units/read-axis-labels-after-calculating
 
 Прежде чем погрузиться в детали кода, давайте убедимся, что у вас есть все необходимое для начала работы:
 
-1.  Visual Studio: Visual Studio должна быть установлена на вашем компьютере. Если у вас ее еще нет, вы можете загрузить ее с[веб-сайт Майкрософт](https://visualstudio.microsoft.com/).
-2.  Библиотека Aspose.Cells: Это руководство предполагает, что у вас есть библиотека Aspose.Cells. Вы можете легко загрузить ее с[Страница релиза Aspose](https://releases.aspose.com/cells/net/) Если вы не знаете, с чего начать,[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) может стать вашим лучшим другом!
+1. Visual Studio: Visual Studio должна быть установлена на вашем компьютере. Если у вас ее еще нет, вы можете загрузить ее с [веб-сайт Майкрософт](https://visualstudio.microsoft.com/).
+2. Библиотека Aspose.Cells: Это руководство предполагает, что у вас есть библиотека Aspose.Cells. Вы можете легко загрузить ее с [Страница релиза Aspose](https://releases.aspose.com/cells/net/)Если вы не знаете, с чего начать, [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) может стать вашим лучшим другом!
 3. Базовые знания C#: знакомство с языком программирования C# поможет вам понять примеры и без труда их освоить.
-4.  Файл Excel: Убедитесь, что у вас есть файл Excel, содержащий диаграммы для этого руководства. Вы можете создать пример файла Excel с именем`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` для целей тестирования.
+4. Файл Excel: Убедитесь, что у вас есть файл Excel, содержащий диаграммы для этого руководства. Вы можете создать пример файла Excel с именем `sampleReadAxisLabelsAfterCalculatingTheChart.xlsx` для целей тестирования.
 5. .NET Environment: Проверьте, что ваша .NET environment настроена правильно. Этот урок нацелен на .NET framework, поэтому убедитесь, что вы готовы к работе!
 
 Теперь, когда у нас есть все необходимое, давайте приступим к настройке и коду!
@@ -46,7 +48,7 @@ using System.Collections;
 Вот чем занимается каждый из них:
 - Aspose.Cells: это пространство имен предоставляет вам доступ ко всем функциям, предоставляемым библиотекой Aspose.Cells.
 - Система: фундаментальное пространство имен для базовых функций C#, таких как консольные операции.
--  System.Collections: Это пространство имен необходимо для использования таких коллекций, как`ArrayList`, который мы будем использовать для хранения меток осей.
+- System.Collections: Это пространство имен необходимо для использования таких коллекций, как `ArrayList`, который мы будем использовать для хранения меток осей.
 
 Как только вы добавите эти импорты, вы будете готовы приступить к написанию сочных частей кода!
 
@@ -57,16 +59,16 @@ using System.Collections;
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
- Заменять`"Your Document Directory"` с фактическим путем, где находится ваш файл Excel (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) сохраняется. Это сообщает программе, где найти файл.
+Заменять `"Your Document Directory"` с фактическим путем, где находится ваш файл Excel (`sampleReadAxisLabelsAfterCalculatingTheChart.xlsx`) сохраняется. Это сообщает программе, где найти файл.
 
 ## Шаг 2: Загрузите рабочую книгу
 
- Теперь давайте загрузим рабочую книгу (ваш файл Excel) с помощью`Workbook` сорт.
+Теперь давайте загрузим рабочую книгу (ваш файл Excel) с помощью `Workbook` сорт.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheChart.xlsx");
 ```
- The`Workbook` class — это ваш шлюз к файлу Excel. Предоставляя полный путь, мы создаем новый экземпляр рабочей книги, который содержит наши данные Excel.
+The `Workbook` class — это ваш шлюз к файлу Excel. Предоставляя полный путь, мы создаем новый экземпляр рабочей книги, который содержит наши данные Excel.
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -75,7 +77,7 @@ Workbook wb = new Workbook(sourceDir + "sampleReadAxisLabelsAfterCalculatingTheC
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
- Рабочие листы имеют нулевую индексацию, поэтому`0` относится к первому листу. Эта строка дает нам доступ ко всем ячейкам и диаграммам на этом конкретном листе.
+Рабочие листы имеют нулевую индексацию, поэтому `0` относится к первому листу. Эта строка дает нам доступ ко всем ячейкам и диаграммам на этом конкретном листе.
 
 ## Шаг 4: Доступ к диаграмме
 
@@ -104,7 +106,7 @@ ch.Calculate();
 ```csharp
 ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 ```
- Здесь мы извлекаем метки из оси категорий и сохраняем их в`ArrayList`. Этот список необходим для итерации и отображения ваших меток.
+Здесь мы извлекаем метки из оси категорий и сохраняем их в `ArrayList`Этот список необходим для итерации и отображения ваших меток.
 
 ## Шаг 7: Распечатайте метки осей на консоли
 
@@ -114,13 +116,13 @@ ArrayList lstLabels = ch.CategoryAxis.AxisLabels;
 Console.WriteLine("Category Axis Labels: ");
 Console.WriteLine("---------------------");
 
-// Повторяйте метки осей и печатайте их одну за другой
+// Повторите метки осей и распечатайте их одну за другой.
 for (int i = 0; i < lstLabels.Count; i++)
 {
     Console.WriteLine(lstLabels[i]);
 }
 ```
- Этот фрагмент сначала выводит заголовок и разделительную линию. Затем мы проходим по каждой метке в цикле`lstLabels`ArrayList и вывести его на консоль. Если меток десять, вы увидите каждую из них прямо здесь!
+Этот фрагмент сначала выводит заголовок и разделительную линию. Затем мы проходим по каждой метке в цикле `lstLabels` ArrayList и вывести его на консоль. Если меток десять, вы увидите каждую из них прямо здесь!
 
 ## Шаг 8: Заключительное сообщение
 
@@ -138,22 +140,24 @@ Console.WriteLine("ReadAxisLabelsAfterCalculatingTheChart executed successfully.
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Cells?
-Aspose.Cells — мощная библиотека для работы с файлами Excel в .NET. Она предоставляет различные функции, такие как чтение, запись и манипуляция диаграммами.
+Aspose.Cells — мощная библиотека для работы с файлами Excel в .NET. Она предоставляет различные функции, такие как чтение, запись и работа с диаграммами.
 
 ### Могу ли я использовать Aspose.Cells в бесплатной пробной версии?
- Да! Вы можете загрузить бесплатную пробную версию с[здесь](https://releases.aspose.com/).
+Да! Вы можете загрузить бесплатную пробную версию с [здесь](https://releases.aspose.com/).
 
 ### Как купить Aspose.Cells?
- Вы можете приобрести лицензию на Aspose.Cells через их[страница покупки](https://purchase.aspose.com/buy).
+Вы можете приобрести лицензию на Aspose.Cells через их [страница покупки](https://purchase.aspose.com/buy).
 
 ### Где я могу найти поддержку Aspose.Cells?
- Вы можете посетить форум Aspose для получения поддержки.[здесь](https://forum.aspose.com/c/cells/9).
+Вы можете посетить форум Aspose для получения поддержки. [здесь](https://forum.aspose.com/c/cells/9).
 
 ### Могу ли я получить временную лицензию?
-Да! Aspose предлагает временную лицензию, которую вы можете запросить у[эта ссылка](https://purchase.aspose.com/temporary-license/).
+Да! Aspose предлагает временную лицензию, которую вы можете запросить у [эта ссылка](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

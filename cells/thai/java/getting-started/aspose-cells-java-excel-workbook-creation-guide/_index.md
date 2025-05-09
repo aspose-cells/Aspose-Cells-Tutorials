@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,9 +30,9 @@
 ## ข้อกำหนดเบื้องต้น (H2)
 ก่อนที่จะดำน้ำ ให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- **ห้องสมุดที่จำเป็น:** Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
+- **ห้องสมุดที่จำเป็น:** Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 - **การตั้งค่าสภาพแวดล้อม:** มีการติดตั้ง Java Development Kit (JDK) ที่ทำงานอยู่บนระบบของคุณ
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และมีความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และมีความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java (H2)
 ในการเริ่มต้น คุณจะต้องรวมไลบรารี Aspose.Cells เข้ากับโปรเจ็กต์ Java ของคุณ โดยทำตามขั้นตอนเหล่านี้ ขึ้นอยู่กับเครื่องมือสร้างที่คุณต้องการ:
@@ -157,6 +159,9 @@ workbook.save(dataDir + "OUT_NamedRanges_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

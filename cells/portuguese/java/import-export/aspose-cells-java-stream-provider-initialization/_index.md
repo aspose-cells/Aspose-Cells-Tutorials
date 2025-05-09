@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Gerenciar com eficiência os caminhos de saída dos arquivos é essencial ao trabalhar com bibliotecas de automação de documentos como o Aspose.Cells para Java. Este tutorial orienta você na inicialização e no gerenciamento de um provedor de fluxo personalizado, garantindo integração perfeita com seus aplicativos Java. Ao utilizar o Aspose.Cells para Java, simplifique as operações de gerenciamento de arquivos, aumentando a produtividade e reduzindo erros.
 
-### que você aprenderá
+### O que você aprenderá
 - Configure e gerencie um provedor de fluxo personalizado com Aspose.Cells para Java.
 - Principais métodos e configurações necessários para inicializar fluxos.
 - Técnicas para garantir o gerenciamento correto dos diretórios de saída.
@@ -60,8 +62,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Etapas de aquisição de licença
 - **Teste grátis**: Comece com uma licença de teste gratuita para testar o Aspose.Cells.
-- **Licença Temporária**: Obtenha uma licença temporária para avaliação estendida.
-- **Comprar**: Para uso em produção, adquira uma assinatura.
+- **Licença Temporária**Obtenha uma licença temporária para avaliação estendida.
+- **Comprar**:Para uso em produção, adquira uma assinatura.
 
 ### Inicialização e configuração básicas
 Para inicializar o Aspose.Cells no seu aplicativo Java, defina a licença corretamente. Veja como:
@@ -181,6 +183,9 @@ Seguindo este guia, você estará no caminho certo para dominar o Aspose.Cells p
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

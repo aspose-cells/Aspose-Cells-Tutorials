@@ -1,45 +1,50 @@
 ---
-title: สร้าง Excel Workbook ด้วย Font ภาคตะวันออกไกล & ภาษาลาติน
-weight: 7700
-limit: 
-description: เรียนรู้วิธีสร้างหนังสือทํางาน Excel ใน .NET โดยใช้ Aspose.Cells โดยเพิ่มกล่องบทที่มีชื่ออักษรตะวันออกไกลและภาษาลาตินที่กําหนด
-keywords: [Aspose.Cells, .NET, Excel, workbook, textbox, Far East font, Latin font, coding example]
-url: /th/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/
+"description": "เรียนรู้การสร้างเวิร์กบุ๊ก Excel ใน .NET โดยใช้ Aspose.Cells โดยการเพิ่มกล่องข้อความด้วยชื่อฟอนต์ตะวันออกไกลและละตินตามที่กำหนด"
+"title": "สร้างสมุดงาน Excel ด้วยแบบอักษรตะวันออกไกลและละติน"
+"url": "/th/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้าง Excel Workbook ด้วย Font ภาคตะวันออกไกล & ภาษาลาติน
+# สร้างสมุดงาน Excel ด้วยแบบอักษรตะวันออกไกลและละติน
 
-ตัวอย่างนี้แสดงให้เห็นวิธีการใช้ Aspose.Cells สําหรับ .NET เพื่อสร้างหนังสือทํางาน Excel, เพิ่มกล่องบทความในใบงาน, และตั้งทั้งตะวันออกไกลและชื่อลายแหล่งภาษาลาตินสําหรับบทความภายในกล่องบทความนั้น. รหัสแสดงให้เห็นการเริ่มต้นพื้นที่ทํางาน, การ thao tácองค์ประกอบใบงาน, และการบันทึกหนังสือทํางานด้วยการฟอร์มเทปลายแหล่งเฉพาะที่ปรับแต่งเพื่อความต้องการภาษาที่แตกต่างกัน.
+ตัวอย่างนี้สาธิตวิธีการใช้ Aspose.Cells สำหรับ .NET เพื่อสร้างเวิร์กบุ๊ก Excel เพิ่มกล่องข้อความลงในเวิร์กชีต และตั้งชื่อฟอนต์ทั้งแบบตะวันออกไกลและละตินสำหรับข้อความภายในกล่องข้อความนั้น โค้ดนี้จะแสดงการเริ่มต้นเวิร์กสเปซ การจัดการองค์ประกอบของเวิร์กชีต และการบันทึกเวิร์กบุ๊กด้วยการจัดรูปแบบฟอนต์เฉพาะที่ปรับแต่งให้เหมาะกับความต้องการด้านภาษาที่หลากหลาย
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง
-1. ติดตั้ง Aspose.Cells สําหรับ .NET: 
-   * ใช้ NuGet Package Manager ในโครงการ Visual Studio ของคุณ
+## คำแนะนำในการติดตั้ง
+1. ติดตั้ง Aspose.Cells สำหรับ .NET: 
+   - ใช้ตัวจัดการแพ็คเกจ NuGet ในโครงการ Visual Studio ของคุณ:
      ```
      Install-Package Aspose.Cells
      ```
-   * หรือดาวน์โหลด DLL จาก [การตั้งเป้าเว็บไซต์](https://www.aspose.com/downloads/cells/net). .
+   - หรือดาวน์โหลด DLL จาก [เว็บไซต์อาโพส](https://www-aspose.com/downloads/cells/net).
 
-2. เพิ่มความหมาย: รับรองว่าโครงการของคุณจะอ้างอิงห้องสมุด Aspose.Cells
+2. เพิ่มการอ้างอิง: ตรวจสอบให้แน่ใจว่าโครงการของคุณอ้างอิงไลบรารี Aspose.Cells
 
-3. ก่อตั้งไดเร็คโตรี่ผลิต: ปรับปรุง `ผลิต`ตัวแปรในรหัสที่มีเส้นทางการออกที่ต้องการที่ไฟล์ Excel จะถูกบันทึก
+3. ตั้งค่าไดเรกทอรีเอาท์พุต: อัพเดต `outputDir` ตัวแปรในโค้ดพร้อมเส้นทางเอาท์พุตที่ต้องการที่จะบันทึกไฟล์ Excel
 
-4. Run the Example: Copy the provided C# code into your project, compile, and run it. You should see the output confirmation, and the Excel file with the configured textbox will be created in the specified directory.
+4. เรียกใช้ตัวอย่าง: คัดลอกโค้ด C# ที่ให้มาลงในโปรเจ็กต์ของคุณ คอมไพล์ และรัน คุณควรจะเห็นผลลัพธ์ยืนยัน และไฟล์ Excel พร้อมกล่องข้อความที่กำหนดค่าไว้จะถูกสร้างขึ้นในไดเร็กทอรีที่ระบุ
 
-## ดูอีกด้วย  
-เพื่อซื้อใบอนุญาต ไปที่ [เป้าหมายซื้อหน้า](https://purchase.aspose.com/buy). .  
-สําหรับเอกสารครบถ้วน ลงที่ [Aspose.Cells สําหรับเอกสาร .NET](https://docs.aspose.com/cells/net/). .  
-เพื่อสํารวจข้อมูล API ทั้งหมด ตรวจสอบ [Aspose.Cells สําหรับ .NET API Reference](https://reference.aspose.com/cells/net/). . 
+## ดูเพิ่มเติม  
+หากต้องการซื้อใบอนุญาต ให้ไปที่ [หน้าสั่งซื้อ Aspose](https://purchase-aspose.com/buy).  
+สำหรับเอกสารประกอบทั้งหมด กรุณาเยี่ยมชม [เอกสาร Aspose.Cells สำหรับ .NET](https://docs-aspose.com/cells/net/).  
+หากต้องการสำรวจข้อมูลอ้างอิง API แบบเต็ม โปรดดู [เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET](https://reference-aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

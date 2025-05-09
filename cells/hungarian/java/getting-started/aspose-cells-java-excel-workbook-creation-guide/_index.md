@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Ezután adjon hozzá egy elnevezett tartományt a nem egymást követő cellákh
 int index = workbook.getWorksheets().getNames().add("NonSequencedRange");
 Name name = workbook.getWorksheets().getNames().get(index);
 
-// A cellák nem szekvenciális tartományának meghatározása
+// A nem szekvenciális cellatartomány meghatározása
 name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6");
 ```
 Ez a konfiguráció lehetővé teszi, hogy egyetlen névvel több cellatartományra hivatkozzunk.
@@ -157,6 +159,9 @@ Böngészd át ezeket az anyagokat, hogy elmélyítsd az Aspose.Cells Java nyelv
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

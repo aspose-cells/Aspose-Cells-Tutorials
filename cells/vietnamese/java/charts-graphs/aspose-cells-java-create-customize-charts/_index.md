@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ Bây giờ bạn đã thành thạo việc tạo và tùy chỉnh biểu đồ b
 Bằng cách làm theo hướng dẫn này, bạn sẽ có thể dễ dàng tạo và tùy chỉnh biểu đồ trong các ứng dụng Java bằng Aspose.Cells. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

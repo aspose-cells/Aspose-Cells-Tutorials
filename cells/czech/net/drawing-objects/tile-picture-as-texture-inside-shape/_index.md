@@ -1,42 +1,47 @@
 ---
-title: Textura na náklaďáku vyplňte v programu Excel Aspose.Cells pro .NET
-weight: 7700
-limit: 
-description: Naučte se, jak aplikovat plnění textury dlaždice na tvary v programu Excel pomocí Aspose.Cells pro .NET.
-keywords: [Aspose.Cells, .NET, Excel, Tiling Texture Fill, Shape Modification, Programming Example, File Handling, Workbook, Worksheet]
-url: /cs/net/drawing-objects/tile-picture-as-texture-inside-shape/
+"description": "Naučte se, jak v Excelu pomocí Aspose.Cells pro .NET aplikovat na tvary výplň s texturou dlaždic. Postupujte podle tohoto příkladu a snadno upravte soubory aplikace Excel."
+"title": "Vyplňování textur dlaždic v Excelu pomocí Aspose.Cells pro .NET"
+"url": "/cs/net/drawing-objects/tile-picture-as-texture-inside-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Textura na náklaďáku vyplňte v programu Excel Aspose.Cells pro .NET
+# Vyplňování textur dlaždic v Excelu pomocí Aspose.Cells pro .NET
   
-Tento příklad ukazuje, jak efektivně používat Aspose.Cells pro .NET k načítání souboru Excel, přístupu k konkrétnímu pracovnímu listu a změnit plnění tvaru, aby zahrnoval texturu dlaždice. S následujícím krokem po kroku průvodcem mohou vývojáři rychle pochopit, jak programaticky manipulovat s obsahem Excel, což zlepší jejich aplikace s pokročilými funkcemi. Konečný výstup je uložen v adresáři podle vašeho výběru, což ukazuje sílu Aspose.Cells při manipulaci s soubory Excel.
+Tento příklad ukazuje, jak efektivně použít Aspose.Cells pro .NET k načtení souboru aplikace Excel, přístupu ke konkrétnímu listu a úpravě výplně tvaru tak, aby zahrnovala texturu dlaždic. Dodržováním tohoto podrobného návodu mohou vývojáři rychle pochopit, jak programově manipulovat s obsahem aplikace Excel a vylepšit své aplikace pokročilými funkcemi. Konečný výstup je uložen do adresáře dle vašeho výběru, což ukazuje sílu Aspose.Cells při práci s excelovými soubory.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/tile-picture-as-texture-inside-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci
+## Pokyny k instalaci
 1. Ujistěte se, že máte na svém počítači nastavené prostředí .NET.
-2. Stáhněte si a instalujte knihovnu Aspose.Cells z oficiálního webu Aspose nebo pomocí programu NuGet Package Manager:
+2. Stáhněte a nainstalujte knihovnu Aspose.Cells z oficiálních webových stránek Aspose nebo pomocí Správce balíčků NuGet:
    ```
    Install-Package Aspose.Cells
    ```
-3. Create a new C# project or open your existing .NET project.
-4. Přidejte odkaz na knihovnu Aspose.Cells do svého projektu.
-5. Kopírovat poskytnutý příkladový kód do projektu a podle potřeby nahrazit vstupní/výstupní adresářové cesty.
-6. Sestavte a spuštějte svůj projekt, abyste viděli plnění textury dlaždice aplikované na tvary v souboru Excel.
+3. Vytvořte nový projekt C# nebo otevřete stávající projekt .NET.
+4. Přidejte do projektu odkaz na knihovnu Aspose.Cells.
+5. Zkopírujte poskytnutý vzorový kód do svého projektu a podle potřeby nahraďte cesty ke vstupním/výstupním adresářům.
+6. Zkompilujte a spusťte projekt, abyste viděli texturovou výplň dlaždic použitou na tvary v souboru aplikace Excel.
 
 ## Viz také  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne . 
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

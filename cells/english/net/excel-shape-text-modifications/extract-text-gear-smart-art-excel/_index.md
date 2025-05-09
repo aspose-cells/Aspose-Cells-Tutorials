@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/extract-text-gear-smart-art-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text from Gear Type Smart Art in Excel
@@ -119,9 +121,11 @@ Aspose.Cells offers a free trial, but for extended use, a purchase is required. 
 Absolutely! You can find community support at the [Aspose.Cells forum](https://forum.aspose.com/c/cells/9).
 ### Can I extract other SmartArt types using this method?
 Yes, with slight modifications, you can extract text from various SmartArt shapes by changing the conditions in your code.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

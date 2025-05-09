@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 在當今全球化的世界中，應用程式必須支援多種語言和區域設定來滿足不同受眾的需求。本教學解決了使用 Aspose.Cells 在 Java 應用程式中本地化圖表的難題。透過利用其強大的圖表全球化功能，您可以確保您的軟體引起全球用戶的共鳴。
 
 **您將學到什麼：**
-- 如何用 Java 自訂圖表本地化
+- 如何在 Java 中自訂圖表本地化
 - 設定 Aspose.Cells for Java
 - 為圖表元素實現特定語言的翻譯
 - 實際用例和整合可能性
@@ -118,7 +120,7 @@ String getOtherName() {
 }
 ```
 
-**步驟 2：在圖表中套用本地化**
+**步驟 2：在 Chart 中套用本地化**
 
 根據檢索到的語言修改圖表元素：
 
@@ -196,6 +198,9 @@ public void localizeChart(Chart chart) {
 使用 Aspose.Cells 開始有效地在地化圖表，增強 Java 應用程式的覆蓋範圍和影響力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

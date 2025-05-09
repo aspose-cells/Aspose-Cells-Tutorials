@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = worksheets.get(0);
 ```
 
-### การตรวจสอบความถูกต้องของเซลล์
+### การตรวจสอบการตรวจสอบเซลล์
 
 #### ภาพรวม
 
@@ -192,6 +194,9 @@ if (cell.getValidation() != null) {
 - **ฟอรั่มการสนับสนุน:** [การสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

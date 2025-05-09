@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ En suivant ce guide, vous avez appris à gérer et à remplir efficacement des c
 Pour une exploration plus approfondie, envisagez de vous plonger dans des fonctionnalités plus avancées d'Aspose.Cells ou d'expérimenter différents types de structures de données.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

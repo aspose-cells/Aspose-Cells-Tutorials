@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Aspose.Cells for Java를 사용하여 Excel 필터링 작업을 자동화하는 
 - **지원하다**: 커뮤니티 포럼에 참여하세요 [Aspose 지원](https://forum.aspose.com/c/cells/9) 도움이 필요하면.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

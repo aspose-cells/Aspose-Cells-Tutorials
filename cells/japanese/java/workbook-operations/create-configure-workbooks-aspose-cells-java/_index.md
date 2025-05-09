@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,7 +202,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/DataValidationWorkbook.xls");
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 Aspose.Cells for Java は、さまざまな実際のシナリオに統合できます。
 
@@ -251,6 +253,9 @@ Aspose.Cells for Java は、さまざまな実際のシナリオに統合でき�
 これで必要なツールと知識がすべて揃いました。Aspose.Cells for Java を試して、Java アプリケーションでの Excel 関連タスクを効率化しましょう。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

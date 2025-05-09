@@ -1,103 +1,107 @@
 ---
-title: Terapkan Pratinjau Hentian Halaman di Lembar Kerja
-linktitle: Terapkan Pratinjau Hentian Halaman di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Terapkan pratinjau pemisah halaman dengan mudah di Excel menggunakan Aspose.Cells untuk .NET. Tutorial ini memandu Anda langkah demi langkah untuk tata letak pencetakan yang optimal.
-weight: 19
-url: /id/net/worksheet-display/implement-page-break-preview/
+"description": "Könnyedén implementálhatsz oldaltörés-előnézeteket Excelben az Aspose.Cells for .NET segítségével. Ez az oktatóanyag lépésről lépésre végigvezet az optimális nyomtatási elrendezésen."
+"linktitle": "Oldaltörés előnézetének megvalósítása a munkalapon"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Oldaltörés előnézetének megvalósítása a munkalapon"
+"url": "/id/net/worksheet-display/implement-page-break-preview/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Terapkan Pratinjau Hentian Halaman di Lembar Kerja
+# Oldaltörés előnézetének megvalósítása a munkalapon
 
-## Perkenalan
-Ingin menyempurnakan tata letak lembar kerja Excel Anda sebelum mencetak? Menerapkan pratinjau pemisah halaman adalah jawabannya! Dengan Aspose.Cells untuk .NET, proses ini mudah dan cepat. Tutorial ini akan memandu Anda melalui pengaturan, menunjukkan struktur kode, dan memandu Anda langkah demi langkah, sehingga memudahkan pengaturan pratinjau pemisah halaman di lembar kerja Anda. Mari kita mulai!
-## Prasyarat
-Sebelum kita masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk mengikuti tutorial ini.
-1. Pustaka Aspose.Cells untuk .NET  
-   Unduh versi terbaru dari[Halaman Unduhan Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/)Anda juga dapat menginstalnya melalui NuGet di Visual Studio.
-2. Lingkungan Pengembangan  
-   Lingkungan pengembangan, seperti Visual Studio, sangat penting untuk menjalankan kode.
-3. Pengetahuan Dasar tentang C# dan .NET  
-   Pemahaman umum tentang C# akan membuatnya lebih mudah untuk diikuti.
-4. Lisensi  
-    Pertimbangkan untuk menggunakan[Lisensi Sementara](https://purchase.aspose.com/temporary-license/) jika Anda menguji fitur.
-## Paket Impor
-Sebelum kita masuk ke langkah-langkahnya, pastikan untuk menyertakan pustaka penting guna memastikan kelancaran pengoperasian Aspose.Cells. Berikut pernyataan impornya:
+## Bevezetés
+Szeretnéd tökéletesíteni az Excel munkalapod elrendezését nyomtatás előtt? Az oldaltörés előnézetének megvalósítása a megoldás! Az Aspose.Cells for .NET segítségével ez a folyamat egyszerű és gyors. Ez az oktatóanyag végigvezet a beállításon, bemutatja a kódszerkezetet, és lépésről lépésre útmutatást ad, így könnyedén beállíthatod az oldaltörés előnézetét a munkalapjaidon. Vágjunk bele!
+## Előfeltételek
+Mielőtt belevágnánk a kódba, győződjünk meg róla, hogy minden a rendelkezésedre áll, amire szükséged van a bemutató követéséhez.
+1. Aspose.Cells .NET könyvtárhoz  
+   Töltsd le a legújabb verziót innen: [Aspose.Cells .NET letöltési oldalhoz](https://releases.aspose.com/cells/net/)A Visual Studio NuGet segítségével is telepíthető.
+2. Fejlesztői környezet  
+   A kód futtatásához elengedhetetlen egy fejlesztői környezet, mint például a Visual Studio.
+3. C# és .NET alapismeretek  
+   A C# általános ismerete megkönnyíti a haladást.
+4. Engedély  
+   Fontolja meg egy [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/) ha funkciókat tesztelsz.
+## Csomagok importálása
+Mielőtt belemennénk a lépésekbe, győződjünk meg róla, hogy a nélkülözhetetlen könyvtárakat belefoglaltuk az Aspose.Cells zökkenőmentes működésének biztosítása érdekében. Íme az import utasítás:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Sekarang setelah kita melakukan pengaturan, mari kita bahas prosesnya secara rinci dalam langkah-langkah berikut.
-## Langkah 1: Siapkan Jalur Direktori
-Pertama, kita perlu menentukan jalur direktori tempat file Excel Anda berada. Anggap saja ini sebagai pengaturan "basis" untuk proyek tersebut. Di sinilah file masukan Anda akan berada, dan di sinilah pula file yang dimodifikasi akan disimpan.
+Most, hogy megvan a beállítás, nézzük meg a folyamatot részletesen lépésről lépésre.
+## 1. lépés: A könyvtár elérési útjának beállítása
+Először is meg kell határoznunk az Excel-fájl könyvtárának elérési útját. Gondolj erre úgy, mint a projekt „alapjára”. Itt fognak tárolni a bemeneti fájlok, és itt lesznek mentve a módosított fájlok is.
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Excel Anda berada.
-## Langkah 2: Buat Aliran File
-Untuk mengakses dan memanipulasi berkas Excel, buatlah FileStream. Anggap FileStream sebagai "jalur" yang membuka saluran ke berkas Anda sehingga Aspose.Cells dapat membaca dan memodifikasinya.
+Csere `"Your Document Directory"` az Excel-fájlok tényleges elérési útjával.
+## 2. lépés: Fájlfolyam létrehozása
+Az Excel fájl eléréséhez és kezeléséhez hozz létre egy FileStream fájlt. Gondolj a FileStreamre úgy, mint egy „folyamatra”, amely megnyit egy csatornát a fájlodhoz, hogy az Aspose.Cells olvasni és módosítani tudja azt.
 ```csharp
-// Membuat aliran file yang berisi file Excel yang akan dibuka
+// Létrehoz egy fájlfolyamot, amely tartalmazza a megnyitni kívánt Excel-fájlt.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Pada baris ini kita buka`book1.xls` di FileMode.Open, yang memungkinkan kita untuk membaca dan mengubahnya. Pastikan bahwa berkas ini ada di direktori yang ditentukan.
-## Langkah 3: Buat Instansiasi Objek Buku Kerja
- Objek Buku Kerja adalah tempat sebagian besar tindakan terjadi. Saat Anda membuat`Workbook` Misalnya, Anda pada dasarnya “membuka” file Excel Anda agar Aspose.Cells dapat melakukan modifikasi.
+Ebben a sorban nyitunk `book1.xls` a FileMode.Open fájlban, amely lehetővé teszi számunkra az olvasását és módosítását. Győződjön meg arról, hogy a fájl létezik a megadott könyvtárban.
+## 3. lépés: A munkafüzet objektum példányosítása
+A Workbook objektum az a hely, ahol a legtöbb művelet történik. Amikor létrehozol egy `Workbook` Például lényegében „feloldod” az Excel-fájlodat, hogy az Aspose.Cells módosításokat hajthasson végre.
 ```csharp
-// Membuat instance objek Buku Kerja
-// Membuka file Excel melalui aliran file
+// Workbook objektum példányosítása
+// Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
- Baris ini menginisialisasi buku kerja dari FileStream, yang memungkinkan Aspose.Cells bekerja langsung di`book1.xls`.
-## Langkah 4: Akses Lembar Kerja Pertama
-Di sebagian besar file Excel, Anda akan bekerja dengan lembar kerja tertentu. Di sini, kita mengakses lembar kerja pertama di buku kerja kita. Lembar kerja ini akan menampilkan pratinjau pemisah halaman.
+Ez a sor inicializálja a munkafüzetet a FileStream alapján, lehetővé téve az Aspose.Cells számára, hogy közvetlenül a következőn dolgozzon: `book1.xls`.
+## 4. lépés: Az első munkalap elérése
+A legtöbb Excel-fájlban egy adott munkalappal fogsz dolgozni. Itt a munkafüzetünk első munkalapját érjük el. Ez a munkalap megjeleníti az oldaltörés előnézetét.
 ```csharp
-// Mengakses lembar kerja pertama dalam file Excel
+// Az Excel fájl első munkalapjának elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Itu`workbook.Worksheets[0]` perintah memilih lembar kerja pertama dalam koleksi. Jika Anda menginginkan lembar kerja yang berbeda, Anda dapat mengubah indeksnya.
-## Langkah 5: Aktifkan Mode Pratinjau Hentian Halaman
-Di sinilah kita mengaktifkan pratinjau jeda halaman. Pengaturan`IsPageBreakPreview` ke true memungkinkan Anda memvisualisasikan bagaimana lembar kerja akan terlihat saat dicetak, dengan indikator yang jelas mengenai bagian mana dari halaman yang akan rusak.
+A `workbook.Worksheets[0]` A parancs kiválasztja az első munkalapot a gyűjteményben. Ha másik munkalapot szeretne, módosíthatja az indexet.
+## 5. lépés: Oldaltörés előnézeti módjának engedélyezése
+Itt engedélyezhetjük az oldaltörés előnézetét. Beállítás `IsPageBreakPreview` Az „igaz” beállítással vizualizálhatod, hogyan fog kinézni a munkalap nyomtatásban, egyértelműen jelezve, hogy hol lesznek az oldalak tördelve.
 ```csharp
-// Menampilkan lembar kerja dalam pratinjau hentian halaman
+// A munkalap megjelenítése oldaltörés előnézetben
 worksheet.IsPageBreakPreview = true;
 ```
-Saat Anda mengaktifkan fitur ini, lembar kerja Anda beralih ke mode pratinjau hentian halaman, yang memudahkan peninjauan dan penyesuaian tata letak untuk hasil cetak optimal.
-## Langkah 6: Simpan Buku Kerja yang Dimodifikasi
-Setelah melakukan penyesuaian, Anda perlu menyimpan berkas Anda. Langkah ini merupakan tempat di mana semua kerja keras Anda disatukan, menyimpan modifikasi Anda ke berkas baru.
+Ha engedélyezi ezt a funkciót, a munkalap oldaltörés-előnézeti módba vált, így könnyen áttekintheti és beállíthatja az elrendezést az optimális nyomtatási eredmény érdekében.
+## 6. lépés: A módosított munkafüzet mentése
+A módosítások elvégzése után mentenie kell a fájlt. Ebben a lépésben összegyűlik az összes kemény munka, és a módosításokat egy új fájlba menti.
 ```csharp
-// Menyimpan file Excel yang dimodifikasi
+// A módosított Excel fájl mentése
 workbook.Save(dataDir + "output.xls");
 ```
- Dalam contoh ini, kami menyimpan buku kerja yang dimodifikasi sebagai`output.xls` di direktori yang sama dengan berkas asli. Jangan ragu untuk mengubah nama berkas jika diperlukan.
-## Langkah 7: Tutup Aliran File
-Terakhir, tutup aliran file untuk melepaskan semua sumber daya. Anggap saja seperti menutup "jalur" ke file, memastikan semuanya tersimpan dan terkunci dengan benar.
+Ebben a példában a módosított munkafüzetet a következő néven mentjük el: `output.xls` ugyanabban a könyvtárban, mint az eredeti fájl. Szükség esetén nyugodtan módosítsa a fájlnevet.
+## 7. lépés: Zárja be a fájlfolyamot
+Végül zárd be a fájlfolyamot az összes erőforrás felszabadításához. Gondolj erre úgy, mintha leállítanád a fájlhoz vezető „folyamatot”, biztosítva, hogy minden megfelelően tárolva és zárolva legyen.
 ```csharp
-// Menutup aliran file untuk membebaskan semua sumber daya
+// A fájlfolyam bezárása az összes erőforrás felszabadításához
 fstream.Close();
 ```
-Setelah langkah ini, modifikasi berkas Anda selesai. Aliran berkas tidak lagi diperlukan, jadi menutupnya akan mencegah penggunaan memori yang tidak diinginkan.
-## Kesimpulan
-Nah, itu dia! Dengan Aspose.Cells untuk .NET, pengaturan pratinjau pemisah halaman di Excel menjadi efisien dan mudah dikelola. Setiap langkah yang kami bahas, mulai dari pengaturan direktori hingga penyimpanan file yang dimodifikasi, memastikan bahwa Anda dapat menyesuaikan tata letak lembar kerja dengan yakin untuk dicetak. Baik Anda mengerjakan laporan terperinci atau lembar data sederhana, menguasai pratinjau pemisah halaman dapat membuat proses pencetakan Anda lancar.
-## Pertanyaan yang Sering Diajukan
-### Apa itu pratinjau hentian halaman?  
-Pratinjau hentian halaman memungkinkan Anda melihat di mana halaman akan terputus saat Anda mencetak, sehingga memudahkan penyesuaian tata letak untuk hasil cetak yang optimal.
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells untuk .NET?  
- Ya, Anda memerlukan lisensi untuk fungsionalitas penuh. Anda bisa mendapatkannya[Lisensi Sementara](https://purchase.aspose.com/temporary-license/) untuk mencoba fitur.
-### Dapatkah saya memilih lembar kerja tertentu untuk menampilkan pratinjau hentian halaman?  
-Ya, Anda bisa! Cukup ubah indeks lembar kerja atau gunakan nama lembar kerja untuk memilih lembar tertentu.
-### Apakah Aspose.Cells kompatibel dengan .NET Core?  
-Ya, Aspose.Cells kompatibel dengan .NET Framework dan .NET Core, membuatnya serbaguna untuk berbagai aplikasi .NET.
-### Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?  
-Aspose menyediakan[forum dukungan](https://forum.aspose.com/c/cells/9) di mana Anda bisa mendapatkan bantuan untuk masalah atau pertanyaan apa pun.
+Ezt a lépést követően a fájlmódosítások befejeződtek. A fájlfolyamra már nincs szükség, így a bezárása megakadályozza a nem kívánt memóriahasználatot.
+## Következtetés
+És íme! Az Aspose.Cells for .NET segítségével az oldaltörés-előnézetek beállítása az Excelben hatékony és könnyen kezelhető. Minden egyes lépés, amelyet áttekintettünk, a könyvtár beállításától a módosított fájl mentéséig, biztosítja, hogy magabiztosan módosíthassa a munkalap elrendezését nyomtatáshoz. Akár egy részletes jelentésen, akár egy egyszerű adatlapon dolgozik, az oldaltörés-előnézetek elsajátítása zökkenőmentessé teheti a nyomtatási folyamatot.
+## GYIK
+### Mi az oldaltörés előnézete?  
+Az oldaltörés előnézete lehetővé teszi, hogy lássa, hol törnek majd az oldalak nyomtatáskor, így könnyebben módosíthatja az elrendezéseket az optimális nyomtatási eredmény érdekében.
+### Szükségem van licencre az Aspose.Cells for .NET használatához?  
+Igen, a teljes funkcionalitáshoz licencre lesz szükséged. Szerezhetsz egyet [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/) funkciók kipróbálásához.
+### Kijelölhetek egy adott munkalapot az oldaltörés előnézetének megjelenítéséhez?  
+Igen, megteheti! Csak módosítsa a munkalap indexét, vagy használja a munkalap nevét egy adott munkalap kiválasztásához.
+### Az Aspose.Cells kompatibilis a .NET Core-ral?  
+Igen, az Aspose.Cells kompatibilis a .NET Framework és a .NET Core rendszerekkel, így sokoldalúan használható különféle .NET alkalmazásokhoz.
+### Hogyan kaphatok támogatást, ha problémákba ütközöm?  
+Az Aspose biztosítja [támogatási fórumok](https://forum.aspose.com/c/cells/9) ahol segítséget kaphatsz bármilyen problémával vagy kérdéssel kapcsolatban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

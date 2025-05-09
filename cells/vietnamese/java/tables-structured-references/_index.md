@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@ Làm chủ bảng Excel và dữ liệu có cấu trúc với hướng dẫn chi
 
 ## Những gì bạn sẽ học được
 
-- Cách sử dụng Aspose.Cells cho Java để thực hiện các hoạt động tham chiếu có cấu trúc và bảng
+- Cách sử dụng Aspose.Cells cho Java để thực hiện các hoạt động bảng và tham chiếu có cấu trúc
 - Triển khai từng bước với các ví dụ mã hoàn chỉnh
 - Thực hành tốt nhất và kỹ thuật tối ưu hóa
 - Giải pháp cho những thách thức phổ biến trong bảng và tham chiếu có cấu trúc
@@ -66,6 +68,9 @@ Tìm hiểu cách sử dụng Aspose.Cells với Java để xác định và tha
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

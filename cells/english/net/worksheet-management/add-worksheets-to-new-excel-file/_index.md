@@ -8,7 +8,9 @@ url: /net/worksheet-management/add-worksheets-to-new-excel-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Worksheets to New Excel File using Aspose.Cells
@@ -111,6 +113,7 @@ For any issues, check out the [Aspose.Cells support forum](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

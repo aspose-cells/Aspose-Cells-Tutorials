@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Egyéni stílusok alkalmazása a jobb vizuális megjelenés érdekében:
 import com.aspose.cells.Style;
 // Egyéni stílus beállítása a D4 cellához
 Style style = cell.getStyle();
-style.setCustom("---"); // Egyéni formátum ----
+style.setCustom("---"); // Egyéni formátum ----ként
 cell.setStyle(style);
 ```
 
@@ -201,9 +203,12 @@ Készen állsz arra, hogy Excel automatizálási készségeidet a következő sz
    - Adja hozzá a fent megadott megfelelő függőségi kódrészletet a `pom.xml` vagy `build.gradle` fájl.
 
 3. **Kereshetek értékeket akkor is, ha a cellaformázás elrejti őket?**
-   - Igen, használom `FindOptions` Az eredeti értékek megtekintésére konfigurált beállítások lehetővé teszik az ilyen keresések végrehajtását.
+   - Igen, használom `FindOptions` Az eredeti értékek megtekintésére konfigurált beállítás lehetővé teszi az ilyen keresések végrehajtását.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

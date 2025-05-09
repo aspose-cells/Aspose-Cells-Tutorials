@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/customizing-orientation-settings-for-text
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing Orientation Settings for Text in Excel
@@ -161,6 +163,7 @@ You can request a temporary license on the Aspose purchase page [here](https://p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

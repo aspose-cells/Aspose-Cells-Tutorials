@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ochrona hasłem programu Excel
@@ -102,7 +104,7 @@ public class ExcelPasswordProtection {
 }
 ```
 
-W tym kodzie ładujemy wcześniej utworzony plik Excela, ustawiamy hasło i chronimy skoroszyt. Możesz zastąpić `"MySecretPassword"` z wybranym przez Ciebie hasłem.
+tym kodzie ładujemy wcześniej utworzony plik Excela, ustawiamy hasło i chronimy skoroszyt. Możesz zastąpić `"MySecretPassword"` z wybranym przez Ciebie hasłem.
 
 ## Wniosek
 
@@ -133,6 +135,7 @@ Ochrona hasłem plików programu Excel to skuteczny sposób zabezpieczenia, jedn
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

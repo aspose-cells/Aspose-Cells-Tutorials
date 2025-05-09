@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Conoscenza di base della programmazione Java, inclusi i concetti orientati agli 
 ## Impostazione di Aspose.Cells per Java
 Prima di manipolare i file Excel utilizzando Aspose.Cells, configura la libreria nel tuo ambiente:
 
-1. **Installazione**: includere la dipendenza Aspose.Cells tramite Maven o Gradle come mostrato sopra.
+1. **Installazione**includere la dipendenza Aspose.Cells tramite Maven o Gradle come mostrato sopra.
 2. **Acquisizione della licenza**: Inizia con una prova gratuita scaricando una licenza temporanea da [Il sito web di Aspose](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -120,9 +122,9 @@ Questo codice salva la cartella di lavoro modificata in una directory di output 
 
 ## Applicazioni pratiche
 Ecco alcuni scenari reali in cui l'adattamento automatico delle righe può rivelarsi incredibilmente utile:
-1. **Rendicontazione finanziaria**: Garantire la leggibilità dei rendiconti finanziari regolando dinamicamente le dimensioni delle righe in base ai dati immessi.
+1. **Rendicontazione finanziaria**Garantire la leggibilità dei rendiconti finanziari regolando dinamicamente le dimensioni delle righe in base ai dati immessi.
 2. **Gestione dell'inventario**: Adattare gli elenchi di inventario per adattarli a descrizioni e quantità diverse, mantenendo una presentazione pulita.
-3. **Pianificazione del progetto**Migliora i grafici di Gantt o le cronologie dei progetti in cui le attività hanno descrizioni che si estendono su più righe.
+3. **Pianificazione del progetto**: Migliora i grafici di Gantt o le cronologie dei progetti in cui le attività hanno descrizioni che si estendono su più righe.
 4. **Analisi dei dati**: Ottimizza i dashboard adattando ordinatamente le righe a commenti o risultati di lunghezza variabile.
 
 ## Considerazioni sulle prestazioni
@@ -163,6 +165,9 @@ Con queste risorse, puoi approfondire le funzionalità di Aspose.Cells per Java 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

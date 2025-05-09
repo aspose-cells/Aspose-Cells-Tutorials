@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ public class SetupWorkbook {
 
 ## Руководство по внедрению
 
-В этом разделе мы рассмотрим, как настроить различные параметры Page Setup с помощью Aspose.Cells for Java. Мы разберем их по функциям.
+В этом разделе мы рассмотрим, как настроить различные параметры Page Setup с помощью Aspose.Cells for Java. Мы разберем это по функциям.
 
 ### Настройка ориентации страницы
 
@@ -191,7 +193,7 @@ public class SetupWorkbook {
   workbook.dispose();
   ```
 
-- **Оптимизируйте использование ресурсов**: Ограничьте количество листов и диапазонов данных, обрабатываемых одновременно.
+- **Оптимизация использования ресурсов**: Ограничьте количество листов и диапазонов данных, обрабатываемых одновременно.
 
 - **Лучшие практики**: Для больших файлов рассмотрите возможность обработки по частям или использования потоков.
 
@@ -234,6 +236,9 @@ public class SetupWorkbook {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

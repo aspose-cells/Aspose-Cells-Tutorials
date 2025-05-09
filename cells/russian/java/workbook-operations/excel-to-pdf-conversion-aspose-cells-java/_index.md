@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ void Run() throws Exception {
     wb.save(outDir + "/outputPdfSaveOptions_StreamProvider.pdf", opts);
 }
 ```
-- **PdfSaveOptions**: Настраивает способ сохранения файла Excel в формате PDF, например, параметр `onePagePerSheet` для более чистых результатов.
+- **PdfSaveOptions**: Настраивает способ сохранения файла Excel в формате PDF, например, настройку `onePagePerSheet` для более чистых результатов.
 - **Метод setResourceProvider**: Ссылки на наши пользовательские `IStreamProvider`, гарантируя правильное управление ресурсами во время преобразования.
 ## Практические применения
 ### Варианты использования:
@@ -153,6 +155,9 @@ void Run() throws Exception {
 - **Поддерживать:** [Форум Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

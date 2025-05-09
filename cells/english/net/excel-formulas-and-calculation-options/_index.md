@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Formulas and Calculation Options
@@ -73,9 +75,11 @@ Explore how to process data with R1C1 formulas in Excel using Aspose.Cells for .
 Discover how to register and call functions from add-ins in Excel using Aspose.Cells for .NET with our easy step-by-step tutorial.
 ### [Specifying Maximum Rows of Shared Formula in Excel](./specifying-maximum-rows-of-shared-formula/)
 Discover how to specify the maximum rows for shared formulas in Excel using Aspose.Cells for .NET with this easy, step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

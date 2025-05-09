@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Seguendo questa guida, ora disponi degli strumenti necessari per importare e ges
 Dotandoti delle conoscenze e degli strumenti descritti in questa guida, sarai sulla buona strada per padroneggiare le attività di importazione e gestione dei dati con Aspose.Cells per Java. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

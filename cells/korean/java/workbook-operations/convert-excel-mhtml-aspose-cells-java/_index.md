@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,11 +113,14 @@ Java에서 Aspose.Cells를 사용할 때 성능을 최적화하려면 다음 사
 - **다운로드**: [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 
 Aspose.Cells를 사용하여 손쉽게 Excel 변환의 세계로 뛰어들어 데이터를 공유하고 관리하는 방식을 혁신해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

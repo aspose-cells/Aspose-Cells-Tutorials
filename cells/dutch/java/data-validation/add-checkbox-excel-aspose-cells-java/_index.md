@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ We moedigen u aan om deze oplossingen in uw projecten te implementeren. Veel ple
 - Zorg voor de juiste machtigingen en overweeg om specifieke cellen te vergrendelen om onbedoelde wijzigingen te voorkomen bij het gebruik van selectievakjes in gedeelde omgevingen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

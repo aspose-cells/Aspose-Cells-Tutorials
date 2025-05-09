@@ -1,14 +1,16 @@
 ---
-title: Ustawianie danych wykresu
-linktitle: Ustawianie danych wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawiać dane wykresu za pomocą Aspose.Cells dla .NET, korzystając ze szczegółowego przewodnika krok po kroku, który doskonale nadaje się do ulepszania wizualizacji danych.
-weight: 16
-url: /pl/net/advanced-chart-operations/setting-chart-data/
+"description": "Dowiedz się, jak ustawiać dane wykresu za pomocą Aspose.Cells dla .NET, korzystając ze szczegółowego przewodnika krok po kroku, który doskonale nadaje się do ulepszania wizualizacji danych."
+"linktitle": "Ustawianie danych wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie danych wykresu"
+"url": "/pl/net/advanced-chart-operations/setting-chart-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie danych wykresu
@@ -24,7 +26,7 @@ Zanim zaczniemy, jest kilka rzeczy, których będziesz potrzebować, aby rozpocz
 ### Zainstaluj Aspose.Cells dla .NET
 
 1. Visual Studio: Aby pisać i wykonywać kod .NET, na swoim komputerze powinieneś mieć zainstalowany program Microsoft Visual Studio.
-2.  Aspose.Cells: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Cells. Możesz znaleźć najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Cells. Możesz znaleźć najnowszą wersję [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość języka C# i platformy .NET będzie przydatna do zrozumienia fragmentów kodu, z których będziemy korzystać w tym samouczku.
 
 ## Importuj pakiety
@@ -48,7 +50,7 @@ Teraz, gdy wszystko jest gotowe, omówmy krok po kroku proces ustawiania danych 
 string outputDir = "Your Output Directory";
 ```
 
- W tym kroku określisz, gdzie chcesz zapisać plik Excel. Zastąp`"Your Output Directory"` z rzeczywistą ścieżką, w której chcesz, aby plik się znajdował. To tak, jakbyś ustawiał przestrzeń roboczą przed rozpoczęciem malowania – nie chciałbyś przecież, aby farba była wszędzie!
+W tym kroku określisz, gdzie chcesz zapisać plik Excel. Zastąp `"Your Output Directory"` z rzeczywistą ścieżką, w której chcesz, aby plik się znajdował. To tak, jakbyś ustawiał przestrzeń roboczą przed rozpoczęciem malowania – nie chciałbyś przecież, aby farba była wszędzie!
 
 ## Krok 2: Utwórz skoroszyt
 
@@ -56,7 +58,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- Tutaj tworzysz instancję`Workbook` class, która jest zasadniczo Twoim plikiem Excel. Pomyśl o tym jak o pustym płótnie czekającym na wypełnienie go danymi i wykresami. 
+Tutaj tworzysz instancję `Workbook` class, która jest zasadniczo Twoim plikiem Excel. Pomyśl o tym jak o pustym płótnie czekającym na wypełnienie go danymi i wykresami. 
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -122,7 +124,7 @@ Tutaj łączymy nasz wykres z przygotowanymi danymi.
 chart.NSeries.Add("A1:B4", true);
 ```
 
-W tym kroku informujemy wykres, skąd pobrać dane. Podobnie jak tworząc playlistę poprzez dodanie ulubionych utworów do listy, zasadniczo informujemy wykres, które dane ma wyróżnić.
+tym kroku informujemy wykres, skąd pobrać dane. Podobnie jak tworząc playlistę poprzez dodanie ulubionych utworów do listy, zasadniczo informujemy wykres, które dane ma wyróżnić.
 
 ## Krok 9: Zapisz plik Excel
 
@@ -132,7 +134,7 @@ Już prawie skończyłeś! Teraz zapiszmy twoją pracę.
 workbook.Save(outputDir + "outputSettingChartsData.xlsx");
 ```
 
-Za pomocą tego wiersza kodu zapisujesz swój skoroszyt jako plik Excela. Uważaj to za ostatni pociągnięcie pędzla na swoim arcydziele – czas pokazać swoją pracę!
+Za pomocą tego wiersza kodu zapisujesz skoroszyt jako plik Excela. Uważaj to za ostatni pociągnięcie pędzla na swoim arcydziele – czas pokazać swoją pracę!
 
 ## Krok 10: Wiadomość potwierdzająca
 
@@ -151,22 +153,24 @@ Ustawianie danych wykresu za pomocą Aspose.Cells dla .NET nie musi być trudnym
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?  
-Aspose.Cells to biblioteka .NET umożliwiająca użytkownikom tworzenie, modyfikowanie, konwertowanie i renderowanie plików Excela.
+Aspose.Cells to biblioteka .NET umożliwiająca użytkownikom tworzenie, modyfikowanie, konwertowanie i renderowanie plików Excel.
 
 ### Jak zainstalować Aspose.Cells dla .NET?  
- Można go pobrać z[Tutaj](https://releases.aspose.com/cells/net/) i dodaj go do swojego projektu za pomocą Menedżera pakietów NuGet.
+Można go pobrać z [Tutaj](https://releases.aspose.com/cells/net/) i dodaj go do projektu za pomocą Menedżera pakietów NuGet.
 
 ### Czy mogę tworzyć różne typy wykresów za pomocą Aspose.Cells?  
 Tak! Aspose.Cells obsługuje różne typy wykresów, w tym liniowy, słupkowy, kołowy i inne.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?  
- Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
- Aby uzyskać pomoc, możesz odwiedzić stronę[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Aby uzyskać pomoc, możesz odwiedzić stronę [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

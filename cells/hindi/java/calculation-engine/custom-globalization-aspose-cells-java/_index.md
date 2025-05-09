@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ A5: हां, Aspose.Cells अपने मजबूत API के माध्
 - **डाउनलोड करना**: नवीनतम रिलीज तक पहुंचें [Aspose डाउनलोड](https://releases.aspose.com/cells/java/)
 - **खरीदना**: व्यावसायिक उपयोग के लिए लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy)
 - **मुफ्त परीक्षण**: निःशुल्क परीक्षण के साथ आरंभ करें [Aspose निःशुल्क परीक्षण](https://releases.aspose.com/cells/java/)
-- **अस्थायी लाइसेंस**के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [Aspose अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+- **अस्थायी लाइसेंस**: के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [Aspose अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 - **सहायता**: समुदाय से सहायता प्राप्त करें [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9)
 
 इस गाइड का पालन करके, आप Aspose.Cells का उपयोग करके जावा अनुप्रयोगों में शक्तिशाली वैश्वीकरण सुविधाओं को लागू करने के अपने रास्ते पर अच्छी तरह से आगे बढ़ रहे हैं। हैप्पी कोडिंग!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

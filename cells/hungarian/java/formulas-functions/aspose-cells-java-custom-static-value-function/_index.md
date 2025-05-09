@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ public class Main {
 
 #### Hibaelhárítási tippek
 - Győződjön meg arról, hogy a megfelelő Aspose.Cells verzióval rendelkezik. Az eltérő verziók API-változásokhoz vagy hiányzó funkciókhoz vezethetnek.
-- Ellenőrizd a projekted építési útvonalát a függőségi problémák szempontjából.
+- Ellenőrizd a projekted építési útvonalát függőségi problémák szempontjából.
 
 ## Gyakorlati alkalmazások
 Íme néhány valós felhasználási eset, ahol az egyéni statikus értékek előnyösek lehetnek:
@@ -176,10 +178,13 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan lehet kiterjeszteni a `Abst
 
 ## GYIK szekció
 1. **Mi az Aspose.Cells Java-hoz?**
-   - Egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és konvertáljanak Excel-fájlokat.
+   - Egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, módosítását és konvertálását.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

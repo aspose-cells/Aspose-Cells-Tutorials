@@ -1,14 +1,16 @@
 ---
-title: Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme
-linktitle: Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu detaylı adım adım kılavuzla Aspose.Cells for .NET kullanarak önceden imzalanmış bir Excel dosyasına dijital imzanın nasıl ekleneceğini öğrenin.
-weight: 30
-url: /tr/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "Bu detaylı adım adım kılavuzla Aspose.Cells for .NET kullanarak önceden imzalanmış bir Excel dosyasına dijital imzanın nasıl ekleneceğini öğrenin."
+"linktitle": "Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme"
+"url": "/tr/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zaten İmzalanmış Bir Excel Dosyasına Dijital İmza Ekleme
@@ -21,8 +23,8 @@ Günümüzün dijital dünyasında, belgeleri güvence altına almak her zamanki
 
 Kodlamanın inceliklerine dalmadan önce, yerinde olması gereken birkaç şey var:
 
-1.  .NET için Aspose.Cells: .NET projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[alan](https://releases.aspose.com/cells/net/).
-2.  Sertifika Dosyası: Geçerli bir sertifika dosyasına (genellikle bir sertifika) ihtiyacınız olacak.`.pfx`Dijital sertifikanızı içeren dosya). Bu dosyanın şifresini bildiğinizden emin olun.
+1. .NET için Aspose.Cells: .NET projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [alan](https://releases.aspose.com/cells/net/).
+2. Sertifika Dosyası: Geçerli bir sertifika dosyasına (genellikle bir `.pfx` Dijital sertifikanızı içeren dosya. Bu dosyanın şifresini bildiğinizden emin olun.
 3. Geliştirme Ortamı: Geliştirme ortamınızı Visual Studio veya .NET'i destekleyen herhangi bir IDE ile kurun.
 4. Temel C# Bilgisi: C# programlamaya aşinalık, akıcı bir şekilde takip etmenize yardımcı olacaktır.
 5. Örnek Dosyalar: Dijital olarak imzalanmış bir örnek Excel dosyanız olsun. Bu, yeni bir imza ekleyeceğiniz dosya olacaktır.
@@ -57,18 +59,18 @@ Bu adımda, kaynak ve çıktı dizinleri için yolları almak için bir yöntem 
 
 ## Adım 2: Zaten İmzalanmış Çalışma Kitabını Yükleyin
 
- Sonra, değiştirmek istediğiniz Excel çalışma kitabını yüklemeniz gerekir. Bu, bir örneğinin oluşturulmasıyla yapılır`Workbook` sınıf ve imzalanmış dosyanın yolunun geçirilmesi.
+Sonra, değiştirmek istediğiniz Excel çalışma kitabını yüklemeniz gerekir. Bu, bir örneğinin oluşturulmasıyla yapılır `Workbook` sınıf ve imzalanmış dosyanın yolunun geçirilmesi.
 
 ```csharp
 // Zaten dijital olarak imzalanmış olan çalışma kitabını yükleyin
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Burada, adlı çalışma kitabını yüklüyoruz`sampleDigitallySignedByCells.xlsx`Bu dosyanın daha önce imzalanmış olduğundan emin olun.
+Burada, adlı çalışma kitabını yüklüyoruz `sampleDigitallySignedByCells.xlsx`Bu dosyanın daha önce imzalanmış olduğundan emin olun.
 
 ## Adım 3: Dijital İmza Koleksiyonu Oluşturun
 
-Şimdi, bir dijital imza koleksiyonu oluşturalım. Bu koleksiyon, çalışma kitabına eklemek istediğiniz tüm dijital imzaları içerecektir.
+Şimdi bir dijital imza koleksiyonu oluşturalım. Bu koleksiyon, çalışma kitabına eklemek istediğiniz tüm dijital imzaları içerecektir.
 
 ```csharp
 // Dijital imza koleksiyonunu oluşturun
@@ -79,7 +81,7 @@ Bu adım, gerektiğinde birden fazla imzayı yönetmenize olanak tanıdığı i�
 
 ## Adım 4: Yeni Bir Sertifika Oluşturun
 
- Yeni bir dijital imza oluşturmak için sertifika dosyanızı yüklemeniz gerekir. Burada sertifikanızın yolunu belirtirsiniz.`.pfx` dosya ve şifresi.
+Yeni bir dijital imza oluşturmak için sertifika dosyanızı yüklemeniz gerekir. Burada sertifikanızın yolunu belirtirsiniz. `.pfx` dosya ve şifresi.
 
 ```csharp
 // Sertifika dosyası ve şifresi
@@ -90,7 +92,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Değiştirdiğinizden emin olun`AsposeDemo.pfx`ve şifrenizi gerçek sertifika dosya adınız ve şifrenizle girin.
+Değiştirdiğinizden emin olun `AsposeDemo.pfx` ve şifrenizi gerçek sertifika dosya adınız ve şifrenizle girin.
 
 ## Adım 5: Dijital İmzayı Oluşturun
 
@@ -119,14 +121,14 @@ Bu satırı çalıştırarak, yeni dijital imzayı halihazırda imzalanmış ça
 Son olarak, değiştirilen çalışma kitabını çıktı dizininize kaydetmek ve kullanılan kaynakları serbest bırakmak isteyeceksiniz.
 
 ```csharp
-//Çalışma kitabını kaydedin ve imha edin.
+// Çalışma kitabını kaydedin ve imha edin.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
 
 Bu adım, değişikliklerinizin kaydedilmesini ve çalışma kitabının uygun şekilde atılarak kaynakların serbest bırakılmasını sağlar.
 
-## Adım 8: Uygulamayı Onaylayın
+## Adım 8: Yürütmeyi Onaylayın
 
 İşleri toparlamak için, kodunuzun başarıyla yürütüldüğünü onaylamak iyi bir fikirdir. Bunu basit bir konsol mesajıyla yapabilirsiniz.
 
@@ -149,16 +151,18 @@ Dijital imza, bir mesajın veya belgenin gerçekliğini ve bütünlüğünü do�
 Evet, dijital imza koleksiyonu oluşturabilir ve aynı çalışma kitabına birden fazla imza ekleyebilirsiniz.
 
 ### Aspose.Cells dijital imzalar için hangi formatları destekliyor?
- Aspose.Cells, aşağıdakiler de dahil olmak üzere çeşitli biçimleri destekler:`.pfx` sertifikalar için.
+Aspose.Cells, aşağıdakiler de dahil olmak üzere çeşitli biçimleri destekler: `.pfx` sertifikalar için.
 
 ### Aspose.Cells'i kullanmak için belirli bir .NET sürümüne mi ihtiyacım var?
- Kontrol et[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) .NET sürümünüzle uyumluluk için.
+Kontrol et [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) .NET sürümünüzle uyumluluk için.
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Geçici lisans talebinde bulunabilirsiniz[Aspose'un satın alma sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici lisans talebinde bulunabilirsiniz [Aspose'un satın alma sayfası](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

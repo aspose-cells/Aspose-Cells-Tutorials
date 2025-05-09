@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Workbook workbook = new Workbook(filePath);
 ```
 
 #### Steg 2: Öppna arbetsbladet
-Gå till arbetsbladet som innehåller diagrammet:
+Få åtkomst till arbetsbladet som innehåller diagrammet:
 ```java
 import com.aspose.cells.Worksheet;
 
@@ -148,6 +150,9 @@ För att utforska Aspose.Cells funktioner ytterligare, överväg att dyka in i m
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

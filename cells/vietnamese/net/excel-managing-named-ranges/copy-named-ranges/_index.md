@@ -1,14 +1,16 @@
 ---
-title: Sao chép các phạm vi được đặt tên trong Excel
-linktitle: Sao chép các phạm vi được đặt tên trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sao chép các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho người mới bắt đầu.
-weight: 10
-url: /vi/net/excel-managing-named-ranges/copy-named-ranges/
+"description": "Tìm hiểu cách sao chép các phạm vi được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết của chúng tôi. Hoàn hảo cho người mới bắt đầu."
+"linktitle": "Sao chép các phạm vi được đặt tên trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sao chép các phạm vi được đặt tên trong Excel"
+"url": "/vi/net/excel-managing-named-ranges/copy-named-ranges/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép các phạm vi được đặt tên trong Excel
@@ -18,10 +20,10 @@ Excel là một công cụ mạnh mẽ được hàng triệu người trên to�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào việc sao chép các phạm vi được đặt tên, bạn sẽ cần đảm bảo rằng bạn đã sắp xếp một vài thứ. Sau đây là những gì bạn cần:
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
-2. Aspose.Cells cho Thư viện .NET: Đây là ngôi sao của chương trình! Tải xuống thư viện từ[Trang web Aspose](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+2. Aspose.Cells cho Thư viện .NET: Đây là ngôi sao của chương trình! Tải xuống thư viện từ [Trang web Aspose](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ có lợi vì chúng ta sẽ mã hóa bằng ngôn ngữ này trong suốt hướng dẫn.
 4. Đã cài đặt Excel: Mặc dù bạn không nhất thiết phải sử dụng Excel để viết mã, nhưng việc cài đặt Excel sẽ hữu ích cho việc kiểm tra các tệp đầu ra của bạn.
-5.  Truy cập vào Tài liệu: Đánh dấu[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để tham khảo. Đây là nguồn tài nguyên tuyệt vời để hiểu các phương pháp và tính năng.
+5. Truy cập vào Tài liệu: Đánh dấu [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để tham khảo. Đây là nguồn tài nguyên tuyệt vời để hiểu các phương pháp và tính năng.
 Bây giờ bạn đã được trang bị những kiến thức cần thiết, chúng ta hãy cùng tìm hiểu mã nhé!
 ## Nhập gói
 Để bắt đầu sử dụng Aspose.Cells, bạn phải nhập các không gian tên cần thiết vào dự án của mình. Điều này sẽ cho phép bạn truy cập các lớp do thư viện Aspose.Cells cung cấp.
@@ -33,7 +35,7 @@ using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 ```
- Mã này sẽ cho bạn quyền truy cập vào các lớp học thiết yếu như`Workbook`, `Worksheet` , Và`Range`, mà bạn sẽ cần để thao tác với các tệp Excel.
+Mã này sẽ cho bạn quyền truy cập vào các lớp học thiết yếu như `Workbook`, `Worksheet`, Và `Range`, mà bạn sẽ cần để thao tác với các tệp Excel.
 
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy chia nhỏ quy trình thành các bước dễ thực hiện.
 ## Bước 1: Thiết lập thư mục đầu ra của bạn
@@ -116,12 +118,14 @@ Không, Aspose.Cells hoạt động độc lập với Excel, mặc dù việc c
 ### Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?
 Aspose.Cells cung cấp nhiều phiên bản khác nhau cho nhiều ngôn ngữ, bao gồm Java và Python.
 ### Làm thế nào để tôi nhận được hỗ trợ kỹ thuật cho Aspose.Cells?
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ hoặc đặt câu hỏi.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ hoặc đặt câu hỏi.
 ### Tôi có thể tìm tài liệu ở đâu?
- Các[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) cung cấp thông tin toàn diện về tất cả các lớp học và phương pháp có sẵn.
+Các [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) cung cấp thông tin toàn diện về tất cả các lớp học và phương pháp có sẵn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

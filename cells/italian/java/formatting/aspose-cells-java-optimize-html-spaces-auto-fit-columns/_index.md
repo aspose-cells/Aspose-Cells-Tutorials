@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 ```
 
-**Access Worksheet e colonne di adattamento automatico**
+**Foglio di lavoro di Access e colonne di adattamento automatico**
 Accedi al primo foglio di lavoro e adatta automaticamente le colonne:
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -203,6 +205,9 @@ Pronti a portare i vostri progetti Java a un livello superiore? Provate a implem
 - [Scarica Aspose.Cells per Java](https://downloads.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

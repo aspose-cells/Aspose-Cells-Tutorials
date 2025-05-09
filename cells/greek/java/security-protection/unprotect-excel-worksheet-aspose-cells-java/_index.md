@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ A: Το Aspose.Cells υποστηρίζει διάφορες μορφές, όπ�
 Ξεκινήστε την εφαρμογή αυτής της λύσης σήμερα για να βελτιστοποιήσετε τη διαχείριση αρχείων Excel με το Aspose.Cells για Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

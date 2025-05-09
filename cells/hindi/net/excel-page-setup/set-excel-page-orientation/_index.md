@@ -1,14 +1,16 @@
 ---
-title: एक्सेल पेज ओरिएंटेशन सेट करें
-linktitle: एक्सेल पेज ओरिएंटेशन सेट करें
-second_title: .NET API संदर्भ के लिए Aspose.Cells
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel पेज ओरिएंटेशन को चरण दर चरण सेट करना सीखें। अनुकूलित परिणाम प्राप्त करें।
-weight: 130
-url: /hi/net/excel-page-setup/set-excel-page-orientation/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel पेज ओरिएंटेशन को चरण दर चरण सेट करना सीखें। अनुकूलित परिणाम प्राप्त करें।"
+"linktitle": "एक्सेल पेज ओरिएंटेशन सेट करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.Cells"
+"title": "एक्सेल पेज ओरिएंटेशन सेट करें"
+"url": "/hi/net/excel-page-setup/set-excel-page-orientation/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल पेज ओरिएंटेशन सेट करें
@@ -22,7 +24,7 @@ url: /hi/net/excel-page-setup/set-excel-page-orientation/
 इसमें शामिल होने से पहले, एक निर्बाध अनुभव सुनिश्चित करने के लिए कुछ बातों का ध्यान रखना आवश्यक है:
 
 1. विज़ुअल स्टूडियो: सुनिश्चित करें कि आपके मशीन पर विज़ुअल स्टूडियो स्थापित है। यहीं पर आप अपना कोड लिखेंगे।
-2.  Aspose.Cells for .NET: आपके पास Aspose.Cells for .NET लाइब्रेरी होनी चाहिए। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/) यदि आपने पहले से ऐसा नहीं किया है।
+2. Aspose.Cells for .NET: आपके पास Aspose.Cells for .NET लाइब्रेरी होनी चाहिए। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/) यदि आपने पहले से ऐसा नहीं किया है।
 3. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा से परिचित होना अत्यधिक लाभदायक है क्योंकि यह ट्यूटोरियल C# में लिखा गया है।
 4. कार्यक्षेत्र: एक कोडिंग वातावरण तैयार रखें, तथा अपने दस्तावेजों को सहेजने के लिए एक निर्देशिका तैयार रखें, क्योंकि आपको इसकी आवश्यकता होगी!
 
@@ -47,7 +49,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- यहाँ, प्रतिस्थापित करें`"YOUR DOCUMENT DIRECTORY"` अपने सिस्टम पर वास्तविक पथ के साथ। इसे अपनी सड़क यात्रा के लिए एक गंतव्य देने के रूप में सोचें।
+यहाँ, प्रतिस्थापित करें `"YOUR DOCUMENT DIRECTORY"` अपने सिस्टम पर वास्तविक पथ के साथ। इसे अपनी सड़क यात्रा के लिए एक गंतव्य देने के रूप में सोचें।
 
 ## चरण 2: वर्कबुक ऑब्जेक्ट को इंस्टैंसिएट करें
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- एक नया निर्माण`Workbook`यह एक नोटबुक में एक नया खाली पृष्ठ खोलने के समान है, जो आपके लिए अपनी इच्छानुसार जानकारी भरने के लिए तैयार है!
+एक नया निर्माण `Workbook` यह एक नोटबुक में एक नया खाली पृष्ठ खोलने के समान है, जो आपके लिए अपनी इच्छानुसार जानकारी भरने के लिए तैयार है!
 
 ## चरण 3: पहली वर्कशीट तक पहुँचें
 
@@ -103,19 +105,21 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 Aspose.Cells for .NET एक्सेल फाइलों को प्रोग्रामेटिक रूप से प्रबंधित करने के लिए एक शक्तिशाली लाइब्रेरी है, जिसमें निर्माण, संपादन, रूपांतरण और अन्य कार्यात्मकताएं शामिल हैं।
 
 ### क्या मैं ओरिएंटेशन को लैंडस्केप में भी बदल सकता हूँ?
- हाँ! आप ओरिएंटेशन को इस प्रकार सेट कर सकते हैं`PageOrientationType.Landscape` इसी तरह।
+हाँ! आप ओरिएंटेशन को इस प्रकार सेट कर सकते हैं `PageOrientationType.Landscape` इसी तरह।
 
 ### क्या Aspose.Cells के लिए समर्थन उपलब्ध है?
- बिल्कुल! आप उनके पास जा सकते हैं[सहयता मंच](https://forum.aspose.com/c/cells/9) किसी भी प्रश्न या सहायता के लिए.
+बिल्कुल! आप उनके पास जा सकते हैं [सहयता मंच](https://forum.aspose.com/c/cells/9) किसी भी प्रश्न या सहायता के लिए.
 
 ### मैं Aspose.Cells के लिए अस्थायी लाइसेंस कैसे प्राप्त करूं?
- आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/)जो आपको बिना किसी सीमा के सुविधाओं को आज़माने की अनुमति देता है।
+आप अस्थायी लाइसेंस का अनुरोध कर सकते हैं [यहाँ](https://purchase.aspose.com/temporary-license/), जो आपको बिना किसी सीमा के सुविधाओं को आज़माने की अनुमति देता है।
 
 ### क्या Aspose.Cells बड़ी Excel फ़ाइलों को संभाल सकता है?
 हां, Aspose.Cells बड़ी फ़ाइलों को संभालने के लिए अनुकूलित है और विभिन्न कार्यों को कुशलतापूर्वक कर सकता है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

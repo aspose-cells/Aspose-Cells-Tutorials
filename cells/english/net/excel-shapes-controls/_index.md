@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Shapes and Controls
@@ -95,9 +97,11 @@ Learn how to add a rectangle control to an Excel worksheet using Aspose.Cells fo
 Learn to add and customize line controls in Excel worksheets using Aspose.Cells for .NET in this comprehensive tutorial.
 ### [Add Arc Control with Connection Points](./add-arc-control-with-connection-points/)
 Discover how to add arc controls with connection points using Aspose.Cells for .NET in this detailed guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Tự động điều chỉnh cột và hàng khi tải HTML trong sổ làm việc
-linktitle: Tự động điều chỉnh cột và hàng khi tải HTML trong sổ làm việc
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tự động điều chỉnh cột và hàng khi tải HTML vào Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước.
-weight: 10
-url: /vi/net/loading-and-saving-excel-files-with-options/auto-fitting-columns-and-rows/
+"description": "Tìm hiểu cách tự động điều chỉnh cột và hàng khi tải HTML vào Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước."
+"linktitle": "Tự động điều chỉnh cột và hàng khi tải HTML trong sổ làm việc"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tự động điều chỉnh cột và hàng khi tải HTML trong sổ làm việc"
+"url": "/vi/net/loading-and-saving-excel-files-with-options/auto-fitting-columns-and-rows/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động điều chỉnh cột và hàng khi tải HTML trong sổ làm việc
@@ -18,7 +20,7 @@ Bạn đã bao giờ tự hỏi làm thế nào để tự động điều chỉ
 ### Điều kiện tiên quyết
 Trước khi bắt đầu viết mã, có một vài thứ bạn cần thiết lập trên hệ thống của mình. Đừng lo lắng, nó rất đơn giản và dễ hiểu!
 1. Đã cài đặt Visual Studio: Bạn sẽ cần Visual Studio hoặc bất kỳ môi trường phát triển .NET nào khác.
-2.  Aspose.Cells cho .NET: Bạn có thể[tải xuống phiên bản mới nhất](https://releases.aspose.com/cells/net/) hoặc sử dụng trình quản lý gói NuGet để cài đặt nó.
+2. Aspose.Cells cho .NET: Bạn có thể [tải xuống phiên bản mới nhất](https://releases.aspose.com/cells/net/) hoặc sử dụng trình quản lý gói NuGet để cài đặt nó.
 3. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework 4.0 trở lên.
 4. Hiểu biết cơ bản về C#: Có một số hiểu biết về C# sẽ giúp bạn hiểu hướng dẫn này dễ dàng hơn.
 5. Dữ liệu bảng HTML: Chuẩn bị một số nội dung HTML (thậm chí là bảng cơ bản) mà bạn muốn tải vào Excel.
@@ -46,27 +48,27 @@ string sampleHtml = "<html><body><table><tr><td>This is sample text.</td><td>Som
 ```
 Chúng tôi đang định nghĩa một chuỗi HTML rất cơ bản ở đây. Nó chứa một bảng với một vài hàng và cột. Bạn có thể thêm nhiều hàng hoặc cột hơn tùy theo yêu cầu của mình. Hãy nghĩ về việc chuẩn bị nguyên liệu trước khi nấu một bữa ăn!
 ## Bước 3: Tải chuỗi HTML vào MemoryStream
- Bây giờ chúng ta đã có nội dung HTML sẵn sàng, bước tiếp theo là tải nó vào bộ nhớ bằng cách sử dụng`MemoryStream`. Điều này cho phép chúng ta thao tác nội dung HTML trong bộ nhớ mà không cần lưu vào đĩa trước.
+Bây giờ chúng ta đã có nội dung HTML sẵn sàng, bước tiếp theo là tải nó vào bộ nhớ bằng cách sử dụng `MemoryStream`Điều này cho phép chúng ta thao tác nội dung HTML trong bộ nhớ mà không cần lưu vào đĩa trước.
 ```csharp
 MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(sampleHtml));
 ```
- Bằng cách chuyển đổi chuỗi HTML thành một mảng byte và đưa nó vào một`MemoryStream`, chúng ta có thể làm việc với dữ liệu HTML trong bộ nhớ. Hãy tưởng tượng bước này giống như việc chuẩn bị món ăn trong nồi trước khi cho vào lò nướng!
+Bằng cách chuyển đổi chuỗi HTML thành một mảng byte và đưa nó vào một `MemoryStream`, chúng ta có thể làm việc với dữ liệu HTML trong bộ nhớ. Hãy tưởng tượng bước này giống như việc chuẩn bị món ăn trong nồi trước khi cho vào lò nướng!
 ## Bước 4: Tải MemoryStream vào một Workbook (Không có Auto-Fitting)
- Khi chúng ta có nội dung HTML trong bộ nhớ, chúng ta tải nó vào Aspose`Workbook`Tại thời điểm này, chúng tôi vẫn chưa tự động điều chỉnh các cột và hàng. Đây là kịch bản "trước" của chúng tôi, để so sánh với phiên bản tự động điều chỉnh sau.
+Khi chúng ta có nội dung HTML trong bộ nhớ, chúng ta tải nó vào Aspose `Workbook`. Tại thời điểm này, chúng tôi vẫn chưa tự động điều chỉnh các cột và hàng. Đây là kịch bản "trước" của chúng tôi, để so sánh với phiên bản tự động điều chỉnh sau.
 ```csharp
 Workbook wb = new Workbook(ms);
 wb.Save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
 ```
 Sổ làm việc được tải nội dung HTML, nhưng các cột và hàng vẫn chưa được tự động điều chỉnh cho phù hợp với văn bản. Hãy nghĩ đến việc nướng bánh nhưng quên kiểm tra nhiệt độ—nó hoạt động, nhưng có thể không hoàn hảo!
 ## Bước 5: Chỉ định Tùy chọn Tải HTML với Tự động Điều chỉnh được Bật
- Bây giờ, đây là phép thuật! Chúng ta tạo ra một trường hợp của`HtmlLoadOptions` và kích hoạt`AutoFitColsAndRows` thuộc tính. Điều này đảm bảo rằng khi nội dung HTML được tải, các cột và hàng sẽ điều chỉnh để phù hợp với nội dung bên trong chúng.
+Bây giờ, đây là phép thuật! Chúng ta tạo ra một trường hợp `HtmlLoadOptions` và kích hoạt `AutoFitColsAndRows` thuộc tính. Điều này đảm bảo rằng khi nội dung HTML được tải, các cột và hàng sẽ điều chỉnh để phù hợp với nội dung bên trong chúng.
 ```csharp
 HtmlLoadOptions opts = new HtmlLoadOptions();
 opts.AutoFitColsAndRows = true;
 ```
 Bằng cách thiết lập tùy chọn này, chúng ta đang yêu cầu Aspose.Cells tự động thay đổi kích thước các hàng và cột. Hãy tưởng tượng điều này giống như việc thiết lập lò nướng ở nhiệt độ hoàn hảo để bánh nở vừa phải!
 ## Bước 6: Tải HTML vào Workbook với tính năng Tự động điều chỉnh được bật
- Bây giờ chúng ta tải lại nội dung HTML, nhưng lần này với`AutoFitColsAndRows`tùy chọn được bật. Điều này sẽ điều chỉnh độ rộng cột và chiều cao hàng dựa trên nội dung bên trong chúng.
+Bây giờ chúng ta tải lại nội dung HTML, nhưng lần này với `AutoFitColsAndRows` tùy chọn được bật. Điều này sẽ điều chỉnh độ rộng cột và chiều cao hàng dựa trên nội dung bên trong chúng.
 ```csharp
 wb = new Workbook(ms, opts);
 wb.Save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");
@@ -86,9 +88,11 @@ Bạn có thể áp dụng kiểu bằng các tùy chọn kiểu mở rộng c�
 Có, Aspose.Cells cho .NET hỗ trợ .NET Framework 4.0 trở lên.
 ### Tôi có thể tải các loại nội dung khác ngoài HTML vào Excel bằng Aspose.Cells không?
 Có, Aspose.Cells hỗ trợ tải nhiều định dạng khác nhau như CSV, JSON và XML vào Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

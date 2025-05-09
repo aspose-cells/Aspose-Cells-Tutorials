@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-width-of-all-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Width of All Columns with Aspose.Cells for .NET
@@ -87,9 +89,11 @@ Yes! Aspose.Cells supports multiple Excel file formats, including .xlsx, .xlsm, 
 Absolutely! You can check out the free trial version from [this link](https://releases.aspose.com/).
 ### How do I get support for Aspose.Cells?
 You can reach out for support on the [Aspose forum](https://forum.aspose.com/c/cells/9), where a helpful community and team are ready to assist.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

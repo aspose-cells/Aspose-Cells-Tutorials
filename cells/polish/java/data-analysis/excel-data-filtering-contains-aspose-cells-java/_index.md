@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,6 +199,9 @@ A5: Odwiedź [Strona tymczasowej licencji Aspose](https://purchase.aspose.com/te
 Dzięki temu kompleksowemu przewodnikowi jesteś przygotowany do skutecznego wdrożenia Aspose.Cells for Java w swoich projektach. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

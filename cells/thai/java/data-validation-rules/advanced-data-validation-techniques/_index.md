@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เทคนิคการตรวจสอบข้อมูลขั้นสูง
@@ -20,7 +22,7 @@
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
-ก่อนที่เราจะเจาะลึกเทคนิคขั้นสูง เรามาเริ่มต้นด้วย Aspose.Cells สำหรับ Java กันก่อน คุณสามารถดาวน์โหลดไลบรารีได้จาก [ลิงค์ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/). ตรวจสอบให้แน่ใจว่าปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบที่ [การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference-aspose.com/cells/java/).
+ก่อนที่เราจะเจาะลึกเทคนิคขั้นสูง เรามาเริ่มต้นด้วย Aspose.Cells สำหรับ Java กันก่อน คุณสามารถดาวน์โหลดไลบรารีได้จาก [ลิงค์ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/)ตรวจสอบให้แน่ใจว่าปฏิบัติตามคำแนะนำในการติดตั้งที่ระบุไว้ในเอกสารประกอบที่ [การอ้างอิง API ของ Aspose.Cells สำหรับ Java](https://reference-aspose.com/cells/java/).
 
 ## การตรวจสอบข้อมูลพื้นฐาน
 
@@ -113,6 +115,7 @@ dataValidation.setFormula2("12/31/2023");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

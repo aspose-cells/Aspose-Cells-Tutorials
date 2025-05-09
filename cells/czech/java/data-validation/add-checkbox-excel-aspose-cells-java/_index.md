@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Doporučujeme vám implementovat tato řešení do vašich projektů. Přejeme v
 - Zajistěte správná oprávnění a zvažte uzamčení konkrétních buněk, abyste zabránili nechtěným změnám při používání zaškrtávacích políček ve sdílených prostředích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

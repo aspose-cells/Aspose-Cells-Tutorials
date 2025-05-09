@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ columns.get(4).setTotalsCalculation(TotalsCalculation.SUM);
 ```java
 import com.aspose.cells.Workbook;
 
-// 変更したワークブックを出力ファイルに保存します
+// 変更したワークブックを出力ファイルに保存する
 String outDir = "/path/to/output/"; // 出力ディレクトリのパスをここで設定します
 dataDir += "CreatingListObject_out.xls";
 workbook.save(outDir + dataDir);
@@ -178,6 +180,9 @@ Aspose.Cells for Javaをマスターすれば、複雑なExcelタスクを簡単
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

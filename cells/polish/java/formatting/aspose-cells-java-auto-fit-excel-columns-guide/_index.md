@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ license.setLicense("path/to/your/license/file.lic");
 
 **Przegląd**:Aby pracować z istniejącym skoroszytem programu Excel, najpierw załaduj go do pamięci.
 
-**Krok 1: Importuj i zainicjuj**
+**Krok 1: Importowanie i inicjalizacja**
 ```java
 import com.aspose.cells.Workbook;
 // Załaduj skoroszyt z określonego katalogu.
@@ -160,6 +162,9 @@ Opanowując funkcję autodopasowania w Aspose.Cells for Java, wyposażyłeś si�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

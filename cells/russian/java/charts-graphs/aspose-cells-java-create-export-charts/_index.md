@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 ## Предпосылки
 
 Для выполнения этого руководства убедитесь, что у вас есть следующее:
-- **Требуемые библиотеки:** Необходим Aspose.Cells для Java версии 25.3 или выше.
+- **Необходимые библиотеки:** Необходим Aspose.Cells для Java версии 25.3 или выше.
 - **Настройка среды:** В вашей системе должна быть установлена подходящая среда разработки (IDE), например IntelliJ IDEA или Eclipse, а также JDK (Java Development Kit).
 - **Необходимые знания:** Базовые знания программирования на Java, знакомство со структурами XML при использовании Maven/Gradle и некоторый опыт работы с файлами Excel будут преимуществом.
 
@@ -190,6 +192,9 @@ chart.toImage(dataDir + "chart.png", options);
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

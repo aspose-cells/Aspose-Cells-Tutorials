@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Fejleszd Java-alkalmazásaidat fájlok Excel-munkafüzetekbe integrálásával a
 
 Ebben a cikkben megvizsgáljuk, hogyan:
 - Fájl beolvasása egy bájttömbbe Java-ban
-- OLE objektum létrehozása és hozzáadása egy Excel-munkalaphoz
+- OLE objektum létrehozása és hozzáadása egy Excel munkalaphoz
 - Mentse a frissített munkafüzetet lemezre
 
 folytatással olyan gyakorlati készségekre tehetsz szert, amelyek különféle valós helyzetekben alkalmazhatók. Kezdjük is!
@@ -51,7 +53,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Licencszerzés
 
-Az Aspose ingyenes próbalicencet kínál, amellyel korlátozások nélkül felfedezheti könyvtárainak összes funkcióját. Szerezzen be ideiglenes licencet, vagy fontolja meg egy hosszú távú használatra szánt licenc megvásárlását.
+Az Aspose ingyenes próbalicencet kínál, amellyel korlátozások nélkül felfedezheted könyvtáraik összes funkcióját. Szerezz be ideiglenes licencet, vagy fontold meg egy hosszú távú használatra szánt licenc megvásárlását.
 
 ### Az Aspose.Cells beállítása Java-hoz (H2)
 
@@ -156,7 +158,7 @@ public class SaveWorkbook {
 
 Íme néhány valós felhasználási eset ehhez a funkcióhoz:
 1. **Dokumentumkezelő rendszerek:** Képek vagy PDF-ek beágyazása OLE-objektumként Excel-jelentésekbe.
-2. **Automatizált jelentéskészítő eszközök:** Grafikus adatábrázolások közvetlenül táblázatokba integrálhatók.
+2. **Automatizált jelentéskészítő eszközök:** Grafikus adatábrázolások integrálása közvetlenül a táblázatokba.
 3. **Adatarchiválási megoldások:** Hatékonyan tárolhat és kérhet le összetett dokumentumokat egyetlen munkafüzetben.
 
 ### Teljesítményszempontok (H2)
@@ -198,6 +200,9 @@ Az Aspose.Cells további szolgáltatásainak megismeréséhez érdemes áttanulm
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

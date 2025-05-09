@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,7 +150,7 @@ Integrar o Aspose.Cells para Java em seus projetos oferece inúmeros benefícios
 ## Considerações de desempenho
 Ao trabalhar com grandes conjuntos de dados, considere estas dicas de desempenho:
 
-- **Otimize o uso da memória**: Gerencie o tamanho e a complexidade da pasta de trabalho para evitar sobrecargas de memória.
+- **Otimizar o uso da memória**: Gerencie o tamanho e a complexidade da pasta de trabalho para evitar sobrecargas de memória.
 - **Uso eficiente de quebras de página**: Coloque intervalos estrategicamente para melhorar a legibilidade sem desorganizar a estrutura do documento.
 
 ## Conclusão
@@ -182,6 +184,9 @@ Seguindo este guia completo, você estará no caminho certo para aproveitar o po
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java táblázatkezelő feldolgozási oktatóanyagok
@@ -19,7 +21,7 @@ Az Aspose.Cells for Java egy robusztus függvénytár, amely lehetővé teszi a 
 
 ## Első lépések az Aspose.Cells használatához Java-ban
 
-Ebben a bevezető részben végigvezetünk az Aspose.Cells for Java használatának megkezdéséhez szükséges alapvető lépéseken. Megtanulod, hogyan állítsd be a fejlesztői környezetedet, beleértve a könyvtár projekthez való hozzáadását is. Emellett egy alapvető példát is mutatunk egy Excel-fájl betöltésére és módosítására, amely szilárd alapot biztosít a tanuláshoz.
+Ebben a bevezető részben végigvezetünk az Aspose.Cells for Java használatának megkezdéséhez szükséges alapvető lépéseken. Megtanulod, hogyan állítsd be a fejlesztői környezetedet, beleértve a könyvtár projektedhez való hozzáadását is. Emellett egy alapvető példát is mutatunk egy Excel-fájl betöltésére és módosítására, amely szilárd alapot biztosít a tanuláshoz.
 
 ## Haladó Excel-manipuláció az Aspose.Cells segítségével
 
@@ -57,7 +59,7 @@ Tanuld meg, hogyan tölthetsz be, menthetsz el és konvertálhatsz Excel fájlok
 Teljes körű oktatóanyagok munkalapok hozzáadásához, módosításához, másolásához, áthelyezéséhez és kezeléséhez Excel fájlokban az Aspose.Cells for Java használatával.
 
 ### [Cellaműveletek](./cell-operations/)
-Lépésről lépésre bemutatjuk az Excel cellákkal, cellatípusokkal, értékekkel, képletekkel és hivatkozásokkal való munkát az Aspose.Cells for Java segítségével.
+Lépésről lépésre bemutatjuk az Excel cellákkal, cellatípusokkal, értékekkel, képletekkel és hivatkozásokkal való munkát az Aspose.Cells for Java használatával.
 
 ### [Tartománykezelés](./range-management/)
 Tanuld meg, hogyan kell cellatartományokkal és kijelölésekkel dolgozni, és tömeges műveleteket végrehajtani Excel-táblázatokban ezekkel az Aspose.Cells Java-oktatóanyagokkal.
@@ -93,7 +95,7 @@ Tanuld meg, hogyan adhatsz hozzá, szerkeszthetsz és kezelhetsz cellákhoz fűz
 Teljes körű oktatóanyagok az oldalbeállítások, fejlécek, láblécek és nyomtatási beállítások Excel dokumentumokban történő megvalósításához az Aspose.Cells for Java segítségével.
 
 ### [Import és export](./import-export/)
-Lépésről lépésre bemutatott útmutatók az adatok Excel és különböző formátumok közötti importálásához és exportálásához az Aspose.Cells for Java használatával.
+Lépésről lépésre útmutatók az adatok Excel és különböző formátumok közötti importálásához és exportálásához az Aspose.Cells for Java használatával.
 
 ### [Adatmanipuláció](./data-manipulation/)
 Tanuld meg az adattisztítást, -átalakítást, -egyesítést és a szövegműveleteket Excel-táblázatokban ezekkel az Aspose.Cells Java-oktatóanyagokkal.
@@ -118,9 +120,11 @@ Teljes körű oktatóanyagok jelentéssablonok létrehozásához, dokumentumok g
 
 ### [Automatizálás és kötegelt feldolgozás](./automation-batch-processing/)
 Lépésről lépésre bemutatott oktatóanyagok Excel-feladatok automatizálásához, több fájl kötegelt feldolgozásához és műveletek ütemezéséhez az Aspose.Cells for Java segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/row-and-column-management/insert-row-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert a Row in Aspose.Cells .NET
@@ -96,6 +98,7 @@ You can get support and ask questions in the [Aspose.Cells forum](https://forum.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

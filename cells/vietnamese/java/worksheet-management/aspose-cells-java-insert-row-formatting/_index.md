@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách chèn một hàng c
 Bạn đã sẵn sàng triển khai giải pháp này trong ứng dụng Java của mình chưa? Hãy thử và xem Aspose.Cells có thể sắp xếp hợp lý các thao tác trên tệp Excel của bạn như thế nào!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

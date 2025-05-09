@@ -8,7 +8,9 @@ url: /net/excel-workbook/password-protect-or-unprotect-shared-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Password Protect Or Unprotect Shared Workbook
@@ -128,6 +130,7 @@ You can reach out for help through their support forum: [Aspose Support](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

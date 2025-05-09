@@ -1,35 +1,37 @@
 ---
-title: Validasi Data Desimal di Excel
-linktitle: Validasi Data Desimal di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET dengan panduan kami yang mudah diikuti. Tingkatkan integritas data dengan mudah.
-weight: 11
-url: /id/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Temukan cara menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET dengan panduan kami yang mudah diikuti. Tingkatkan integritas data dengan mudah."
+"linktitle": "Validasi Data Desimal di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Validasi Data Desimal di Excel"
+"url": "/id/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi Data Desimal di Excel
 
-## Perkenalan
+## Bevezetés
 
 Membuat lembar kerja dengan data yang akurat sangat penting untuk komunikasi yang jelas dalam bisnis apa pun. Salah satu cara untuk memastikan keakuratan data adalah melalui penggunaan validasi data di Excel. Dalam tutorial ini, kita akan memanfaatkan kekuatan Aspose.Cells untuk .NET untuk membuat mekanisme validasi data desimal yang menjaga data Anda tetap andal dan bersih. Jika Anda ingin meningkatkan kemampuan Excel Anda, Anda berada di tempat yang tepat!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kode, pastikan Anda telah menyiapkan semuanya agar pengalaman Anda berjalan lancar:
 
 1. Visual Studio: Unduh dan instal Visual Studio jika Anda belum melakukannya. Ini adalah lingkungan yang sempurna untuk mengembangkan aplikasi .NET.
-2.  Aspose.Cells untuk .NET: Anda perlu menambahkan pustaka Aspose.Cells ke proyek Anda. Anda dapat mengunduhnya melalui[tautan ini](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Anda perlu menambahkan pustaka Aspose.Cells ke proyek Anda. Anda dapat mengunduhnya melalui [ezt a linket](https://releases.aspose.com/cells/net/).
 3. Pengetahuan Dasar C#: Meskipun kami akan menjelaskan semuanya langkah demi langkah, memiliki pemahaman mendasar tentang pemrograman C# akan memberi Anda pemahaman yang lebih baik tentang konsep tersebut.
 4. .NET Framework: Pastikan Anda telah menginstal .NET Framework yang diperlukan yang kompatibel dengan Aspose.Cells.
 5. Pustaka: Rujuk pustaka Aspose.Cells dalam proyek Anda untuk menghindari kesalahan kompilasi.
 
 Sekarang setelah kita membahas dasar-dasarnya, mari masuk ke bagian yang menarik: pengkodean.
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam berkas C# Anda. Ini memungkinkan Anda untuk mengakses fungsi Aspose.Cells.
 
@@ -43,7 +45,7 @@ Dengan menyertakan baris ini di bagian atas berkas Anda, Anda memberi tahu C# un
 
 Sekarang setelah kita menyiapkan bahannya, mari kita bahas langkah-langkah yang diperlukan untuk membuat validasi data desimal dalam lembar kerja Excel.
 
-## Langkah 1: Siapkan Direktori Dokumen Anda
+## 1. lépés: Dokumentumkönyvtár beállítása
 
 Sebelum Anda dapat menyimpan file apa pun, Anda perlu memastikan bahwa direktori dokumen Anda telah disiapkan dengan benar:
 
@@ -51,7 +53,7 @@ Sebelum Anda dapat menyimpan file apa pun, Anda perlu memastikan bahwa direktori
 string dataDir = "Your Document Directory";
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan file Excel Anda.
+Csere `"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan file Excel Anda.
 
 ## Langkah 2: Periksa Keberadaan Direktori
 
@@ -195,12 +197,12 @@ workbook.Save(dataDir + "output.out.xls");
 
 Nah, itu dia! Anda telah berhasil membuat buku kerja dengan validasi data desimal menggunakan Aspose.Cells for .NET.
 
-## Kesimpulan
+## Következtetés
 
 Menerapkan validasi data desimal di Excel menggunakan Aspose.Cells for .NET mudah dilakukan jika Anda mengikuti langkah-langkah mudah berikut. Anda tidak hanya memastikan bahwa data tetap bersih dan terstruktur, tetapi juga meningkatkan integritas data secara keseluruhan di lembar kerja Anda, sehingga lembar kerja tersebut andal dan mudah digunakan.
 Baik Anda berkecimpung di bidang keuangan, manajemen proyek, atau bidang apa pun yang memanfaatkan pelaporan data, menguasai keterampilan ini akan meningkatkan produktivitas Anda secara signifikan. Jadi, cobalah! Lembar kerja Anda akan berterima kasih karenanya.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa itu validasi data di Excel?
 Validasi data di Excel adalah fitur yang membatasi jenis data yang dapat dimasukkan dalam sel atau rentang tertentu, guna memastikan integritas data.
@@ -208,17 +210,19 @@ Validasi data di Excel adalah fitur yang membatasi jenis data yang dapat dimasuk
 ### Dapatkah saya menyesuaikan pesan kesalahan dalam validasi data?
 Ya! Anda dapat memberikan pesan kesalahan khusus untuk memandu pengguna saat entri data yang salah dibuat.
 
-### Apakah Aspose.Cells gratis untuk digunakan?
- Aspose.Cells menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan jangka panjang. Anda dapat menemukan informasi lebih lanjut tentang cara memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Ingyenesen használható az Aspose.Cells?
+Aspose.Cells menawarkan uji coba gratis, tetapi Anda memerlukan lisensi untuk penggunaan jangka panjang. Anda dapat menemukan informasi lebih lanjut tentang cara memperoleh lisensi sementara [itt](https://purchase.aspose.com/temporary-license/).
 
 ### Tipe data apa yang dapat saya validasi di Excel?
 Dengan Aspose.Cells, Anda dapat memvalidasi berbagai tipe data termasuk bilangan bulat, desimal, tanggal, daftar, dan rumus khusus.
 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi Aspose.Cells?
- Anda dapat menjelajahi dokumentasi yang luas[Di Sini](https://reference.aspose.com/cells/net/).
+Anda dapat menjelajahi dokumentasi yang luas [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

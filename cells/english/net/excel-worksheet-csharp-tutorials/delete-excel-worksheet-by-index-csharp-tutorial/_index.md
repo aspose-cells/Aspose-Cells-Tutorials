@@ -8,7 +8,9 @@ url: /net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-index-cshar
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Excel Worksheet By Index C# Tutorial
@@ -137,6 +139,7 @@ You can check the documentation [here](https://reference.aspose.com/cells/net/) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

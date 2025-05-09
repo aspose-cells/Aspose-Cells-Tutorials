@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Innan vi börjar, se till att du har:
 2. **Krav för miljöinstallation:**
    - JDK installerat på ditt system.
    - Maven eller Gradle konfigurerade i ditt projekt för beroendehantering.
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Bekantskap med Java-syntax och objektorienterade programmeringskoncept.
    - Grundläggande förståelse för Excel-filstrukturer (arbetsböcker, ark, celler).
 
@@ -188,6 +190,9 @@ Du har framgångsrikt navigerat processen att initiera en Excel-arbetsbok, lägg
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

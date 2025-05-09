@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Wstęp
 
-Witamy w świecie automatyzacji i ulepszania plików Excela za pomocą Javy! Czy musisz wstrzykiwać niestandardowe skrypty lub automatyzować powtarzające się zadania w Excelu? Ten samouczek nauczy Cię, jak bezproblemowo zintegrować Visual Basic for Applications (VBA) z dokumentami Excela za pomocą Aspose.Cells for Java. Dzięki tej potężnej bibliotece możesz programowo dodawać moduły i kod VBA, zwiększając możliwości swoich arkuszy kalkulacyjnych.
+Witamy w świecie automatyzacji i ulepszania plików Excela za pomocą Javy! Czy potrzebujesz wstrzykiwać niestandardowe skrypty lub automatyzować powtarzające się zadania w Excelu? Ten samouczek nauczy Cię, jak bezproblemowo zintegrować Visual Basic for Applications (VBA) z dokumentami Excela za pomocą Aspose.Cells for Java. Dzięki tej potężnej bibliotece możesz programowo dodawać moduły i kod VBA, zwiększając możliwości swoich arkuszy kalkulacyjnych.
 
 **Czego się nauczysz:**
 - Konfigurowanie i używanie Aspose.Cells dla Java
@@ -181,6 +183,9 @@ Posiadasz teraz wiedzę, aby dodawać moduły VBA do plików Excela za pomocą A
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

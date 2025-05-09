@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 결합된 차트 유형
@@ -36,7 +38,7 @@
 import com.aspose.cells.*;
 ```
 
-### 2단계: Workbook 개체를 초기화합니다.
+### 2단계: Workbook 객체를 초기화합니다.
 
 ```java
 Workbook workbook = new Workbook();
@@ -137,6 +139,7 @@ Aspose 웹사이트에서 포괄적인 문서와 풍부한 코드 예제를 찾�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

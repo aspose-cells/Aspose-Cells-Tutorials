@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ Az útmutató követésével megtanultad, hogyan teheted biztonságossá egy Exc
 4. **Meddig érvényes egy ideiglenes jogosítvány?**
    - Az ideiglenes engedély jellemzően 30 napig érvényes, és ez idő alatt teljes hozzáférést biztosít.
 5. **Van elérhető támogatás, ha problémákba ütközöm az Aspose.Cells használatával?**
-   - Igen, a segítség elérhető rajtuk keresztül [támogatási fórum](https://forum.aspose.com/c/cells/9).
+   - Igen, a segítség elérhető rajtuk keresztül [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ### Erőforrás
 - [Dokumentáció](https://reference.aspose.com/cells/java/)
@@ -134,6 +136,9 @@ Az útmutató követésével megtanultad, hogyan teheted biztonságossá egy Exc
 - [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

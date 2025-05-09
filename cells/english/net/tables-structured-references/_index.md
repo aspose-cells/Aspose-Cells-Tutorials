@@ -4,8 +4,11 @@ description: Master creating, managing, and automating Excel tables and named ra
 weight: 11
 url: "/net/tables-structured-references/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tables & Structured References in Excel
@@ -41,6 +44,9 @@ Learn how to efficiently retrieve query table results from Excel files using Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

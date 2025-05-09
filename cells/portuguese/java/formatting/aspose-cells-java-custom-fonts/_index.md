@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Descubra como integrar fontes personalizadas aos seus documentos do Excel com fa
 
 Deseja aprimorar a aparência dos seus relatórios ou apresentações do Excel incorporando fontes específicas? Com o Aspose.Cells para Java, você pode personalizar as configurações de fonte em seus documentos usando fontes de pastas e arquivos. Este tutorial aborda como implementar pastas e arquivos de fontes personalizados, proporcionando flexibilidade e controle sobre a tipografia.
 
-### que você aprenderá
+### O que você aprenderá
 - Como configurar o Aspose.Cells para Java com Maven ou Gradle.
 - Usando `setFontFolder` e `setFontFolders` métodos.
 - Configurando diferentes tipos de fontes: FolderFontSource, FileFontSource e MemoryFontSource.
@@ -196,6 +198,9 @@ Com este guia completo, você agora está preparado para implementar configuraç
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

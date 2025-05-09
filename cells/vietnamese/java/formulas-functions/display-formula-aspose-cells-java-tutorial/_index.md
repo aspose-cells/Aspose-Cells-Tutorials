@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Mua lại giấy phép
 Aspose.Cells for Java là một thư viện thương mại, nhưng bạn có thể bắt đầu dùng thử miễn phí để đánh giá khả năng của nó. Sau đây là cách để có được nó:
-- **Dùng thử miễn phí**Tải xuống phiên bản mới nhất từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
+- **Dùng thử miễn phí**: Tải xuống phiên bản mới nhất từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
 - **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời qua [liên kết này](https://purchase.aspose.com/temporary-license/) nếu bạn cần nhiều thời gian hơn thời gian dùng thử cho phép.
 - **Mua**: Để có quyền truy cập đầy đủ, hãy mua giấy phép thông qua [Mua Aspose](https://purchase.aspose.com/buy).
 
@@ -141,6 +143,9 @@ A: Aspose.Cells có khả năng tương thích cao và có thể tích hợp và
 - **Diễn đàn hỗ trợ**: [Hỗ trợ cộng đồng Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

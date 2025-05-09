@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ Aspose.Cells for Java を使用する際のパフォーマンスを最適化す�
 2. **Aspose.Cells を他のプログラミング言語で使用できますか?**
    - はい、Aspose は .NET、C++ などにも同様のライブラリを提供しています。
 3. **グラフに複数の軸がある場合はどうなりますか?**
-   - 各軸にアクセスするには、次のような特定のメソッドを使用します。 `getSecondaryCategoryAxis()`。
+   - 各軸にアクセスするには、次のような特定の方法を使用します。 `getSecondaryCategoryAxis()`。
 4. **取得したラベルをフォーマットするにはどうすればいいですか?**
    - ラベルを抽出したら、Aspose.Cells 内で利用可能な書式設定オプションを使用します。
 5. **3D チャートはサポートされていますか?**
@@ -153,6 +155,9 @@ Aspose.Cells for Java を使用する際のパフォーマンスを最適化す�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

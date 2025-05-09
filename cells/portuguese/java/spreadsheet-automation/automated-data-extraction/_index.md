@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extração automatizada de dados
@@ -21,7 +23,7 @@ A extração de dados de arquivos do Excel é uma tarefa comum em diversos aplic
 
 ## Por que automatizar a extração de dados?
 
-automação da extração de dados oferece diversas vantagens:
+A automação da extração de dados oferece diversas vantagens:
 
 1. Eficiência: Elimine a extração manual de dados, economizando tempo e esforço.
 2. Precisão: reduza o risco de erros na recuperação de dados.
@@ -111,9 +113,11 @@ Automatizar a extração de dados com o Aspose.Cells para Java simplifica o proc
    Explore a documentação da API em [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para obter informações e exemplos mais detalhados.
 
 Comece a automatizar suas tarefas de extração de dados hoje mesmo com o Aspose.Cells para Java e simplifique seus processos de recuperação de dados.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

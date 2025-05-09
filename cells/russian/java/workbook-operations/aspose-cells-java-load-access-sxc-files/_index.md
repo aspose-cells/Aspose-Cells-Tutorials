@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells может читать файлы с поддержкой макр
 Следуя этому всеобъемлющему руководству, вы теперь готовы эффективно работать с файлами SXC с помощью Aspose.Cells для Java. Независимо от того, являетесь ли вы разработчиком, желающим улучшить свои приложения, или организацией, стремящейся оптимизировать задачи обработки данных, Aspose.Cells предлагает инструменты, необходимые для беспрепятственного достижения этих целей.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

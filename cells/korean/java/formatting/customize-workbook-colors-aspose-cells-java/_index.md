@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### 라이센스 취득 단계
 
 - **무료 체험**: 무료 평가판을 다운로드하여 Aspose.Cells 기능을 테스트해 보세요.
-- **임시 면허**: 장기 평가를 위해 임시 라이센스를 얻으세요.
+- **임시 면허**장기 평가를 위해 임시 라이센스를 얻으세요.
 - **구입**: 프로젝트에 영구적으로 통합하기로 결정한 경우 전체 라이선스를 취득하세요.
 
 설치가 완료되면 Java 애플리케이션에서 Aspose.Cells를 초기화하고 설정하세요.
@@ -226,6 +228,9 @@ Aspose.Cells를 사용할 때 성능을 최적화하기 위해 다음 팁을 고
 지금 Aspose.Cells로 여정을 시작하고 스프레드시트 데이터를 처리하는 방식을 혁신해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

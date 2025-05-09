@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Экспорт CSV-кода Java
@@ -94,9 +96,11 @@ public class CsvExportExample {
    Посетите документацию Aspose.Cells [здесь](https://reference.aspose.com/cells/java/) для получения исчерпывающих ресурсов и примеров.
 
 Не стесняйтесь исследовать дальше и адаптировать этот код под свои конкретные нужды. Удачного кодирования!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ Pracując z dużymi zbiorami danych lub złożonymi arkuszami kalkulacyjnymi, na
 Dzięki opanowaniu tych technik możesz zwiększyć wydajność i niezawodność zadań automatyzacji w programie Excel, korzystając z biblioteki Aspose.Cells w języku Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

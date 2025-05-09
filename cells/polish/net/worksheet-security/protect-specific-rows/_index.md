@@ -1,14 +1,16 @@
 ---
-title: Chroń określone wiersze w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-linktitle: Chroń określone wiersze w arkuszu kalkulacyjnym za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak chronić określone wiersze w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dane skutecznie.
-weight: 16
-url: /pl/net/worksheet-security/protect-specific-rows/
+"description": "Dowiedz się, jak chronić określone wiersze w arkuszu kalkulacyjnym programu Excel za pomocą Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Zabezpiecz swoje dane skutecznie."
+"linktitle": "Chroń określone wiersze w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Chroń określone wiersze w arkuszu kalkulacyjnym za pomocą Aspose.Cells"
+"url": "/pl/net/worksheet-security/protect-specific-rows/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chroń określone wiersze w arkuszu kalkulacyjnym za pomocą Aspose.Cells
@@ -21,7 +23,7 @@ Zanim przejdziesz do wdrażania, musisz spełnić kilka warunków wstępnych, ab
 2. Podstawowe zrozumienie C# i .NET: Ten samouczek zakłada, że znasz C# i posiadasz podstawową wiedzę na temat programowania .NET. Jeśli nie jesteś z nimi zaznajomiony, możesz najpierw sprawdzić niektóre wprowadzające zasoby.
 3. Visual Studio lub dowolne IDE .NET: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby uruchomić kod. Zapewnia ono wszystkie niezbędne narzędzia i możliwości debugowania.
 4. Licencja Aspose.Cells: Jeśli chcesz uniknąć ograniczeń wersji ewaluacyjnej, upewnij się, że masz ważną licencję Aspose.Cells. Możesz również użyć licencji tymczasowej, jeśli dopiero zaczynasz.
- Aby uzyskać szczegółowe informacje na temat Aspose.Cells i instalacji, możesz sprawdzić ich stronę[dokumentacja](https://reference.aspose.com/cells/net/).
+Aby uzyskać szczegółowe informacje na temat Aspose.Cells i instalacji, możesz sprawdzić ich stronę [dokumentacja](https://reference.aspose.com/cells/net/).
 ## Importuj pakiety
 Aby rozpocząć korzystanie z Aspose.Cells, musisz zaimportować niezbędne przestrzenie nazw w swoim projekcie C#. Te przestrzenie nazw zapewniają dostęp do klas i metod wymaganych do manipulowania plikami Excel.
 Oto jak zaimportować wymagane przestrzenie nazw:
@@ -43,7 +45,7 @@ if (!IsExists)
 ```
 Tutaj definiujesz ścieżkę, w której będą przechowywane Twoje pliki Excela. Jeśli folder nie istnieje, tworzymy go. Ten krok jest kluczowy dla zapewnienia, że Twój skoroszyt ma miejsce do zapisania.
 ## Krok 2: Utwórz nowy skoroszyt
- Następnie tworzymy nowy skoroszyt, używając`Workbook` klasa. Ta klasa zapewnia wszystkie funkcjonalności wymagane do pracy z plikami Excel.
+Następnie tworzymy nowy skoroszyt, używając `Workbook` klasa. Ta klasa zapewnia wszystkie funkcjonalności wymagane do pracy z plikami Excel.
 ```csharp
 // Utwórz nowy skoroszyt.
 Workbook wb = new Workbook();
@@ -55,15 +57,15 @@ Teraz uzyskujemy dostęp do pierwszego arkusza nowo utworzonego skoroszytu. Skor
 // Utwórz obiekt arkusza kalkulacyjnego i uzyskaj pierwszy arkusz.
 Worksheet sheet = wb.Worksheets[0];
 ```
- Tutaj,`Worksheets[0]` odnosi się do pierwszego arkusza w skoroszycie (którego indeksowanie zaczyna się od 0).
+Tutaj, `Worksheets[0]` odnosi się do pierwszego arkusza w skoroszycie (którego indeksowanie zaczyna się od 0).
 ## Krok 4: Odblokuj wszystkie kolumny
-programie Excel komórki są domyślnie blokowane, gdy arkusz jest chroniony. Jeśli chcesz chronić określone wiersze, musisz najpierw odblokować kolumny. W tym kroku przechodzimy przez wszystkie kolumny i odblokowujemy je.
+W programie Excel komórki są domyślnie blokowane, gdy arkusz jest chroniony. Jeśli chcesz chronić określone wiersze, musisz najpierw odblokować kolumny. W tym kroku przechodzimy przez wszystkie kolumny i odblokowujemy je.
 ```csharp
 // Zdefiniuj obiekt stylu.
 Style style;
 // Zdefiniuj obiekt styleflag.
 StyleFlag flag;
-// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -77,11 +79,11 @@ Tutaj przechodzimy przez kolumny od 0 do 255 (całkowita liczba kolumn w arkuszu
 ## Krok 5: Zablokuj pierwszy rząd
 Teraz, gdy wszystkie kolumny są odblokowane, możemy przejść do ochrony wierszy. W tym kroku blokujemy pierwszy wiersz, co sprawi, że będzie on nieedytowalny po zabezpieczeniu arkusza.
 ```csharp
-//Pobierz styl pierwszego rzędu.
+// Pobierz styl pierwszego rzędu.
 style = sheet.Cells.Rows[0].Style;
 // Zamknij to.
 style.IsLocked = true;
-//Utwórz instancję flagi.
+// Utwórz instancję flagi.
 flag = new StyleFlag();
 // Ustaw ustawienie blokady.
 flag.Locked = true;
@@ -95,7 +97,7 @@ W tym momencie jesteśmy gotowi, aby zabezpieczyć arkusz kalkulacyjny. Ten krok
 // Chroń arkusz.
 sheet.Protect(ProtectionType.All);
 ```
- Za pomocą`ProtectionType.All`upewniamy się, że wszystkie komórki, z wyjątkiem tych wyraźnie odblokowanych (jak nasze kolumny), są chronione. To jest krok, który stosuje ochronę do arkusza kalkulacyjnego.
+Za pomocą `ProtectionType.All`, zapewniamy, że wszystkie komórki, z wyjątkiem tych wyraźnie odblokowanych (jak nasze kolumny), są chronione. To jest krok, który stosuje ochronę do arkusza kalkulacyjnego.
 ## Krok 7: Zapisz plik Excel
 Na koniec, po zastosowaniu ochrony, zapisujemy skoroszyt. Możesz określić format, w jakim chcesz zapisać plik. W tym przykładzie zapisujemy skoroszyt jako plik Excel 97-2003.
 ```csharp
@@ -112,14 +114,16 @@ Tak, możesz zastosować te same kroki ochrony do wielu wierszy, modyfikując p�
 ### Co się stanie, jeśli nie odblokuję żadnej kolumny przed włączeniem ochrony arkusza?  
 Jeśli nie odblokujesz kolumn, po włączeniu ochrony arkusza zostaną one zablokowane, a użytkownicy nie będą mogli z nich korzystać.
 ### Jak mogę odblokować konkretne komórki zamiast całych kolumn?  
- Możesz odblokować określone komórki, uzyskując dostęp do ich stylu i ustawiając`IsLocked` nieruchomość do`false`.
+Możesz odblokować określone komórki, uzyskując dostęp do ich stylu i ustawiając `IsLocked` nieruchomość do `false`.
 ### Czy mogę użyć tej metody do ochrony całych arkuszy kalkulacyjnych?  
 Tak, możesz zabezpieczyć cały arkusz kalkulacyjny, stosując ochronę do wszystkich komórek i nie pozostawiając żadnej komórki odblokowanej.
 ### Jak mogę usunąć ochronę arkusza kalkulacyjnego?  
- Możesz usunąć ochronę dzwoniąc pod numer`Unprotect`metodę na arkuszu kalkulacyjnym i podając hasło zabezpieczające (jeśli zostało ustawione).
+Możesz usunąć ochronę dzwoniąc pod numer `Unprotect` metodę na arkuszu kalkulacyjnym i podając hasło zabezpieczające (jeśli zostało ustawione).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

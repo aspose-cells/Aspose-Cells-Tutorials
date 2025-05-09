@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,7 +198,7 @@ R2: Sim, com gerenciamento de memória adequado e práticas de codificação efi
 **P3: Quais formatos de arquivo o Aspose.Cells suporta?**
 R3: Suporta uma variedade de formatos, incluindo XLS, XLSX, CSV, ODS e mais. Consulte [Documentação do Aspose](https://reference.aspose.com/cells/java/) para detalhes.
 
-**T4: Existem limitações no uso do Aspose.Cells com Java?**
+**T4: Há limitações no uso do Aspose.Cells com Java?**
 R4: Embora ofereça recursos abrangentes, sempre certifique-se de que seu ambiente Java atenda aos requisitos da biblioteca para uma operação perfeita.
 
 **P5: Como posso solucionar problemas ao adicionar hiperlinks?**
@@ -208,6 +210,9 @@ A5: Verifique as referências de células e os formatos de URL. [Fórum de supor
 - **Licença de compra:** [Compre Aspose.Cells para Java](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

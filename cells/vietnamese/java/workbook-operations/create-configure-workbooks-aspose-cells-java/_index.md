@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -251,6 +253,9 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến các tính năng 
 Bây giờ bạn đã có đầy đủ các công cụ và kiến thức, hãy bắt đầu thử nghiệm Aspose.Cells for Java để sắp xếp hợp lý các tác vụ liên quan đến Excel trong các ứng dụng Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Daftar Dropdown Dinamis di Excel
@@ -18,13 +20,13 @@
 
 Microsoft Excel adalah alat serbaguna yang tidak hanya sekadar entri data dan kalkulasi sederhana. Salah satu fitur hebatnya adalah kemampuan untuk membuat daftar dropdown dinamis, yang dapat sangat meningkatkan kegunaan dan interaktivitas spreadsheet Anda. Dalam panduan langkah demi langkah ini, kita akan menjelajahi cara membuat daftar dropdown dinamis di Excel menggunakan Aspose.Cells untuk Java. API ini menyediakan fungsionalitas yang tangguh untuk bekerja dengan file Excel secara terprogram, menjadikannya pilihan yang sangat baik untuk mengotomatiskan tugas-tugas seperti ini.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat daftar dropdown dinamis, pastikan Anda memiliki prasyarat berikut:
 
 - Lingkungan Pengembangan Java: Anda harus menginstal Java dan Lingkungan Pengembangan Terpadu (IDE) yang sesuai di sistem Anda.
 
-- Pustaka Aspose.Cells untuk Java: Unduh pustaka Aspose.Cells untuk Java dari [Di Sini](https://releases.aspose.com/cells/java/) dan sertakan dalam proyek Java Anda.
+- Pustaka Aspose.Cells untuk Java: Unduh pustaka Aspose.Cells untuk Java dari [itt](https://releases.aspose.com/cells/java/) dan sertakan dalam proyek Java Anda.
 
 Sekarang, mari kita mulai dengan panduan langkah demi langkah.
 
@@ -86,11 +88,11 @@ Terakhir, simpan buku kerja Excel ke dalam sebuah file. Anda dapat memilih forma
 workbook.save("DynamicDropdownExample.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Membuat daftar dropdown dinamis di Excel menggunakan Aspose.Cells for Java merupakan cara yang ampuh untuk meningkatkan interaktivitas spreadsheet Anda. Hanya dengan beberapa langkah, Anda dapat menyediakan opsi yang dapat dipilih pengguna yang diperbarui secara otomatis. Fitur ini sangat berguna untuk membuat formulir yang mudah digunakan, laporan interaktif, dan banyak lagi.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana saya dapat menyesuaikan sumber daftar dropdown?
 
@@ -115,6 +117,7 @@ Jumlah item dalam daftar dropdown dibatasi oleh ukuran lembar kerja maksimum Exc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

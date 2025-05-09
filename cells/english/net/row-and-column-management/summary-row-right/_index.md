@@ -8,7 +8,9 @@ url: /net/row-and-column-management/summary-row-right/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Summary Row Right with Aspose.Cells for .NET
@@ -96,6 +98,7 @@ Absolutely! Aspose.Cells supports creating a wide range of charts, allowing you 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

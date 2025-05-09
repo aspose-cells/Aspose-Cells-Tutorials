@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasının Satır Sütun Başlıklarını Göster ve Gizle
-linktitle: Çalışma Sayfasının Satır Sütun Başlıklarını Göster ve Gizle
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel'de satır ve sütun başlıklarını nasıl gizleyeceğinizi öğrenin.
-weight: 40
-url: /tr/net/excel-display-settings-csharp-tutorials/display-and-hide-row-column-headers-of-worksheet/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET'i kullanarak Excel'de satır ve sütun başlıklarını nasıl gizleyeceğinizi öğrenin."
+"linktitle": "Çalışma Sayfasının Satır Sütun Başlıklarını Göster ve Gizle"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Satır Sütun Başlıklarını Göster ve Gizle"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/display-and-hide-row-column-headers-of-worksheet/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Satır Sütun Başlıklarını Göster ve Gizle
@@ -21,7 +23,7 @@ Excel elektronik tablolarınızın profesyonel görünmesini sağlamak, özellik
 
 Koda geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  Aspose.Cells for .NET: Aspose.Cells for .NET kütüphanesinin indirildiğinden ve yüklendiğinden emin olun. Bunu şuradan alabilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET: Aspose.Cells for .NET kütüphanesinin indirildiğinden ve yüklendiğinden emin olun. Bunu şuradan alabilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 2. Geliştirme Ortamı: Bir .NET geliştirme ortamı kurmuş olmanız gerekir. Visual Studio bunun için iyi çalışır.
 3. Temel C# Bilgisi: C# programlama ve dosya akışlarıyla çalışma konusunda temel bir anlayışa sahip olmanız işinize yarayacaktır.
 
@@ -36,8 +38,8 @@ using System.IO;
 using Aspose.Cells;
 ```
 
--  The`Aspose.Cells` namespace bize Excel dosyalarını işlemek için gerekli olan Aspose.Cells işlevselliğine ve sınıflarına erişim sağlar.
--  The`System.IO` namespace, dosya okuma ve yazma gibi dosya işleme işlemleri için önemlidir.
+- The `Aspose.Cells` namespace bize Excel dosyalarını işlemek için gerekli olan Aspose.Cells işlevselliğine ve sınıflarına erişim sağlar.
+- The `System.IO` namespace, dosya okuma ve yazma gibi dosya işleme işlemleri için önemlidir.
 
 Şimdi Excel çalışma sayfanızdaki satır ve sütun başlıklarını gizlemek için izlemeniz gereken adımları inceleyelim.
 
@@ -49,7 +51,7 @@ Her şeyden önce, belgeler dizininize giden yolu belirtin. Excel dosyalarınız
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Yer değiştirmek`"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın bulunduğu gerçek yol ile. Bu adım Excel dosyalarınıza sorunsuz bir şekilde erişmek için ortamı hazırlar.
+Yer değiştirmek `"YOUR DOCUMENT DIRECTORY"` Excel dosyanızın bulunduğu gerçek yol ile. Bu adım Excel dosyalarınıza sorunsuz bir şekilde erişmek için ortamı hazırlar.
 
 ## Adım 2: Excel Dosyası için Bir Dosya Akışı Oluşturun
 
@@ -59,17 +61,17 @@ Sonra, Excel dosyanızı açmak için bir dosya akışı oluşturmanız gerekir.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Burada açmak istediğimizi belirtiyoruz`book1.xls` belirtilen dizinde yer almaktadır.`FileMode.Open` parametresi mevcut bir dosyayı açtığımızı gösterir. Dosya adının her zaman sahip olduğunuz dosyayla eşleştiğinden emin olun.
+Burada açmak istediğimizi belirtiyoruz `book1.xls` belirtilen dizinde yer almaktadır. `FileMode.Open` parametresi mevcut bir dosyayı açtığımızı gösterir. Dosya adının her zaman sahip olduğunuz dosyayla eşleştiğinden emin olun.
 
 ## Adım 3: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Şimdi çalışma kitabının kendisiyle çalışmanın zamanı geldi. Bir tane oluşturacağız`Workbook` nesne.
+Şimdi çalışma kitabının kendisiyle çalışma zamanı. Bir tane oluşturacağız `Workbook` nesne.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
 
- Bu satır Excel dosyasını açar ve onu yükler`workbook` nesne, içindeki sayfayı düzenlememize olanak tanır.
+Bu satır Excel dosyasını açar ve onu yükler `workbook` nesne, içindeki sayfayı düzenlememize olanak tanır.
 
 ## Adım 4: Çalışma Sayfasına Erişim
 
@@ -89,17 +91,17 @@ Bu kod parçacığında, çalışma kitabından ilk çalışma sayfasına erişi
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Ayar`IsRowColumnHeadersVisible` ile`false` hem satırlardaki hem de sütunlardaki başlıkları etkili bir şekilde gizleyerek, verilerinizin sunumu için daha temiz bir görünüm oluşturur.
+Ayar `IsRowColumnHeadersVisible` ile `false` hem satırlardaki hem de sütunlardaki başlıkları etkili bir şekilde gizleyerek, verilerinizin sunumu için daha temiz bir görünüm oluşturur.
 
 ## Adım 6: Değiştirilen Excel Dosyasını Kaydedin
 
-Değişikliklerinizi yaptıktan sonra dosyayı kaydetmeniz gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Değişikliklerinizi yaptıktan sonra dosyayı kaydetmeniz gerekir. İşte bunu nasıl yapacağınız:
 
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
 
- Bu satır, değişikliklerinizi yeni bir dosyaya kaydeder.`output.xls` aynı dizinde. Bu, orijinali korumanızı sağlar`book1.xls` Yeni versiyonla çalışırken sağlam kalabilmek.
+Bu satır, değişikliklerinizi yeni bir dosyaya kaydeder. `output.xls` aynı dizinde. Bu, orijinali korumanızı sağlar `book1.xls` Yeni versiyonla çalışırken sağlam kalabilmek.
 
 ## Adım 7: Dosya Akışını Kapatın
 
@@ -109,7 +111,7 @@ Son olarak, tüm kaynakların serbest bırakılması için dosya akışını kap
 fstream.Close();
 ```
 
- Kapatma`fstream` Uygulamanızda bellek sızıntısı veya açık dosya kilidi olmamasını sağladığı için önemlidir.
+Kapatma `fstream` Uygulamanızda bellek sızıntısı veya açık dosya kilidi olmamasını sağladığı için önemlidir.
 
 ## Çözüm
 
@@ -121,19 +123,21 @@ fstream.Close();
 Aspose.Cells, Excel elektronik tablolarını yönetmek için güçlü bir .NET kütüphanesidir ve geliştiricilerin Excel dosyalarını programlı bir şekilde oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanır.
 
 ### Birden fazla çalışma sayfasındaki başlıkları gizleyebilir miyim?  
- Evet, çalışma kitabınızdaki her çalışma sayfasını dolaşabilir ve`IsRowColumnHeadersVisible` ile`false` Her biri için.
+Evet, çalışma kitabınızdaki her çalışma sayfasını dolaşabilir ve `IsRowColumnHeadersVisible` ile `false` Her biri için.
 
 ### Aspose.Cells için lisans satın almam gerekiyor mu?  
- Ücretsiz deneme sürümünü kullanabilirsiniz ancak devam eden ticari kullanım için lisans gereklidir. Satın alma seçeneklerini bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Ücretsiz deneme sürümünü kullanabilirsiniz ancak devam eden ticari kullanım için lisans gereklidir. Satın alma seçeneklerini bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells için destek mevcut mu?  
- Evet, Aspose, erişebileceğiniz forumları aracılığıyla destek sağlar[Burada](https://forum.aspose.com/c/cells/9).
+Evet, Aspose, erişebileceğiniz forumları aracılığıyla destek sağlar [Burada](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?  
- Değerlendirme amaçlı geçici lisans başvurusunu şu adresten yapabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+Değerlendirme amaçlı geçici lisans başvurusunu şu adresten yapabilirsiniz: [bu bağlantı](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # جداول محورية ديناميكية
@@ -107,9 +109,11 @@ pivotTable.calculateData();
 ### س5: هل يدعم Aspose.Cells ميزات الجدول المحوري المتقدمة في Excel؟
 
 نعم، يوفر Aspose.Cells دعمًا واسع النطاق لميزات جدول البيانات المحوري المتقدمة في Excel، مما يسمح لك بإنشاء جداول بيانات محورية معقدة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
 "description": "Aspose.Cells for Java を使ってインタラクティブなダッシュボードを作成する方法を学びましょう。動的なデータ視覚化を構築するためのステップバイステップガイドです。"
-"linktitle": "インタラクティブなダッシュボード"
+"linktitle": "インタラクティブダッシュボード"
 "second_title": "Aspose.Cells Java Excel 処理 API"
-"title": "インタラクティブなダッシュボード"
+"title": "インタラクティブダッシュボード"
 "url": "/ja/java/advanced-excel-charts/interactive-dashboards/"
 "weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# インタラクティブなダッシュボード
+# インタラクティブダッシュボード
 
 
 ## 導入
@@ -129,6 +131,7 @@ Aspose.Cells for Java の API を使用して、タイトル、ラベル、色�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

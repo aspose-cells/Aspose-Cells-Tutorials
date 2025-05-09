@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ for (int row = 0; row <= cells.getMaxDataRow(); row++) { // 循環遍歷每一�
 }
 ```
 **為什麼有效：**
-使用 `getMaxDataRow` 和 `getMaxDataColumn`，您可以有效地僅迭代工作表中的填滿區域。
+使用 `getMaxDataRow` 和 `getMaxDataColumn`，您可以有效地僅迭代工作表的填滿區域。
 
 ## 實際應用
 以下是此功能的一些實際用例：
@@ -174,6 +176,9 @@ for (int row = 0; row <= cells.getMaxDataRow(); row++) { // 循環遍歷每一�
 - **支援論壇：** [Aspose 社區支持](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

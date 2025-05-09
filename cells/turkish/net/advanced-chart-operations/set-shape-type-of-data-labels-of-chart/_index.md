@@ -1,14 +1,16 @@
 ---
-title: Grafik Veri Etiketlerinin Şekil Türünü Ayarla
-linktitle: Grafik Veri Etiketlerinin Şekil Türünü Ayarla
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel grafiklerinizi özelleştirilmiş veri etiketi şekilleriyle geliştirin. Veri sunumunuzu yükseltmek için bu adım adım kılavuzu izleyin.
-weight: 14
-url: /tr/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
+"description": "Aspose.Cells for .NET kullanarak Excel grafiklerinizi özelleştirilmiş veri etiketi şekilleriyle geliştirin. Veri sunumunuzu yükseltmek için bu adım adım kılavuzu izleyin."
+"linktitle": "Grafik Veri Etiketlerinin Şekil Türünü Ayarla"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafik Veri Etiketlerinin Şekil Türünü Ayarla"
+"url": "/tr/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafik Veri Etiketlerinin Şekil Türünü Ayarla
@@ -21,7 +23,7 @@ Veri görselleştirme dünyasında, grafikler karmaşık bilgileri erişilebilir
 
 Kodlamaya başlamadan önce, her şeyin doğru şekilde ayarlandığından emin olalım. İhtiyacınız olanlar şunlardır:
 
-1.  .NET için Aspose.Cells: Henüz indirmediyseniz, şu adresten indirin:[Aspose web sitesi](https://releases.aspose.com/cells/net/)Bu kütüphane Excel dokümanları üzerinde her türlü manipülasyona olanak sağlar.
+1. .NET için Aspose.Cells: Henüz indirmediyseniz, şu adresten indirin: [Aspose web sitesi](https://releases.aspose.com/cells/net/)Bu kütüphane Excel dokümanları üzerinde her türlü manipülasyona olanak sağlar.
 2. Visual Studio: .NET uygulamaları yazmak ve çalıştırmak için sisteminizde yüklü olması gerekir. Projenizin ihtiyaçlarına göre .NET Framework veya .NET Core'u destekleyen sürüm olduğundan emin olun.
 3. C# Hakkında Temel Bilgi: Temel programlama kavramlarına ve C# sözdizimine aşinalık, kod parçacıklarını daha iyi anlamanıza kesinlikle yardımcı olacaktır.
 4. Bir Excel dosyası: Çalışmak için bir örnek Excel çalışma kitabına da ihtiyacınız olacak. Kendi çalışma kitabınızı oluşturabilir veya mevcut olanlardan herhangi birini kullanabilirsiniz.
@@ -52,7 +54,7 @@ Artık her şey hazır olduğuna göre, kodlama kısmına geçelim! Netlik için
 
 ## Adım 1: Dizinlerinizi Tanımlayın
 
-Öncelikle dosyalarınızın nerede bulunduğunu tanımlayalım: hem kaynak dosyayı hem de değiştirilen dosyayı kaydetmek istediğiniz hedef klasörü.
+Öncelikle dosyalarınızın nerede bulunduğunu tanımlayalım; hem kaynak dosyayı hem de değiştirilen dosyayı kaydetmek istediğiniz hedef klasörü.
 
 ```csharp
 // Kaynak dizini
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` Ve`"Your Output Directory"` makinenizdeki gerçek yollarla.
+Yer değiştirmek `"Your Document Directory"` Ve `"Your Output Directory"` makinenizdeki gerçek yollarla.
 
 ## Adım 2: Kaynak Excel Dosyasını Yükleyin
 
@@ -73,7 +75,7 @@ Sonra, çalışmak istediğiniz Excel dosyasını yüklemeniz gerekecek. Sihir b
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Bu satır yeni bir satır oluşturur`Workbook` nesneyi seçin ve onu mevcut dosyanıza yönlendirin. Dosya yolunun doğru olduğundan emin olun!
+Bu satır yeni bir satır oluşturur `Workbook` nesneyi seçin ve onu mevcut dosyanıza yönlendirin. Dosya yolunun doğru olduğundan emin olun!
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -84,7 +86,7 @@ Artık çalışma kitabımız olduğuna göre, özelleştirmek istediğiniz graf
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Burada ilk çalışma sayfasına (indeks) erişiyoruz`0`). Grafiğiniz farklı bir sayfada yer alıyorsa endeksi ayarlayın.
+Burada ilk çalışma sayfasına (indeks) erişiyoruz `0`). Grafiğiniz farklı bir sayfada yer alıyorsa endeksi ayarlayın.
 
 ## Adım 4: İlk Tabloya Erişim
 
@@ -117,7 +119,7 @@ Burada genellikle değiştirmek isteyebileceğiniz etiketleri içeren ilk seriyi
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- Farklı şekil türlerini değiştirerek denemekten çekinmeyin`DataLabelShapeType.WedgeEllipseCallout` Diğer mevcut seçeneklere!
+Farklı şekil türlerini değiştirerek denemekten çekinmeyin `DataLabelShapeType.WedgeEllipseCallout` Diğer mevcut seçeneklere!
 
 ## Adım 7: Çıktı Excel Dosyasını Kaydedin
 
@@ -156,13 +158,15 @@ Kesinlikle! Aspose.Cells, veri serileri, etiketler, stiller ve daha fazlası dah
 Bu makale .NET'e odaklansa da, Aspose.Cells ayrıca REST API'leri aracılığıyla Java, PHP, Python ve daha fazlasını da destekler.
 
 ### Aspose.Cells için ödeme yapmam gerekir mi?  
-Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümü sunarlar; bunu bulabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Cells ticari bir üründür, ancak ücretsiz deneme sürümü sunarlar; bu sürümü bulabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells ile ilgili sorunlar yaşarsam nereden yardım alabilirim?  
- Herhangi bir sorunla karşılaşırsanız,[destek forumu](https://forum.aspose.com/c/cells/9) Uzmanlardan yardım almak için harika bir kaynaktır.
+Herhangi bir sorunla karşılaşırsanız, [destek forumu](https://forum.aspose.com/c/cells/9) Uzmanlardan yardım almak için harika bir kaynaktır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

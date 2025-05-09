@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Bu çözümleri projelerinizde uygulamanızı öneririz. İyi kodlamalar!
 - Paylaşılan ortamlarda onay kutularını kullanırken istenmeyen değişiklikleri önlemek için uygun izinleri sağlayın ve belirli hücreleri kilitlemeyi düşünün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Trong hướng dẫn toàn diện này, bạn sẽ học được:
 - Cấu hình tùy chọn hình ảnh và in để hiển thị bảng tính
 - Kết xuất bảng tính Excel thành tệp XPS
 
-Hãy cùng xem lại các điều kiện tiên quyết trước khi bắt đầu.
+Hãy cùng xem lại các điều kiện tiên quyết trước khi bắt đầu nhé.
 
 ### Điều kiện tiên quyết
 
@@ -190,6 +192,9 @@ A5: Ghé thăm [Trang giấy phép tạm thời của Aspose](https://purchase.a
 - **Ủng hộ:** Tham gia thảo luận và tìm kiếm sự giúp đỡ trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

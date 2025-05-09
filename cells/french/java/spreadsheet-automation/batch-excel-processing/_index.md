@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Traitement par lots Excel
@@ -109,9 +111,11 @@ L'automatisation du traitement par lots d'Excel avec Aspose.Cells pour Java simp
    Explorez la documentation de l'API sur [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pour des informations détaillées et des exemples.
 
 Optimisez vos tâches de traitement par lots Excel et augmentez votre productivité à l'aide d'Aspose.Cells pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: Odczyt i zapis tabeli ze źródłem danych zapytania
-linktitle: Odczyt i zapis tabeli ze źródłem danych zapytania
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odblokuj moc Aspose.Cells dla .NET. Naucz się czytać i zapisywać tabele ze źródłami danych zapytań w tym szczegółowym przewodniku krok po kroku.
-weight: 15
-url: /pl/net/tables-and-lists/reading-and-writing-table-with-query-data-source/
+"description": "Odblokuj moc Aspose.Cells dla .NET. Naucz się czytać i zapisywać tabele ze źródłami danych zapytań w tym szczegółowym przewodniku krok po kroku."
+"linktitle": "Odczyt i zapis tabeli ze źródłem danych zapytania"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Odczyt i zapis tabeli ze źródłem danych zapytania"
+"url": "/pl/net/tables-and-lists/reading-and-writing-table-with-query-data-source/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odczyt i zapis tabeli ze źródłem danych zapytania
 
 ## Wstęp
-W dzisiejszym świecie napędzanym technologią umiejętność efektywnego zarządzania danymi i manipulowania nimi jest kluczową umiejętnością. Niezależnie od tego, czy tworzysz aplikacje, czy zarządzasz bazami danych, posiadanie dobrych narzędzi do dyspozycji może usprawnić Twoją pracę. Jednym z takich wspaniałych narzędzi jest Aspose.Cells dla .NET, które umożliwia programistom bezproblemową pracę z plikami Excel. W tym samouczku przyjrzymy się, jak odczytywać i zapisywać tabele, wykorzystując źródła danych zapytań w Aspose.Cells.
+dzisiejszym świecie napędzanym technologią umiejętność efektywnego zarządzania danymi i manipulowania nimi jest kluczową umiejętnością. Niezależnie od tego, czy tworzysz aplikacje, czy zarządzasz bazami danych, posiadanie dobrych narzędzi do dyspozycji może usprawnić Twoją pracę. Jednym z takich wspaniałych narzędzi jest Aspose.Cells dla .NET, które umożliwia programistom bezproblemową pracę z plikami Excel. W tym samouczku przyjrzymy się, jak odczytywać i zapisywać tabele, wykorzystując źródła danych zapytań w Aspose.Cells.
 ## Wymagania wstępne
 Zanim rozpoczniemy tę podróż związaną z manipulacją danymi, upewnijmy się, że masz wszystko, czego potrzebujesz:
 1. Podstawowa wiedza o .NET  
    Powinieneś czuć się komfortowo w środowisku .NET. Jeśli dopiero zaczynasz, nie przejmuj się! Wystarczy odrobina podstawowej wiedzy, aby zrozumieć koncepcje.
 2. Aspose.Cells dla .NET  
-    Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w Twoim projekcie. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+   Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w Twoim projekcie. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Studio wizualne  
    Zainstalowanie programu Visual Studio będzie pomocne przy pisaniu i testowaniu kodu, ponieważ doskonale integruje się z projektami .NET.
 4. Przykładowy plik Excela  
@@ -48,7 +50,7 @@ Następnie załadujemy skoroszyt programu Excel, z którym będziesz pracować.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleTableWithQueryTable.xls");
 ```
- Ta linia tworzy instancję`Workbook`klasa, która jest zasadniczo twoim plikiem Excel w formie kodu! Zastąp`"SampleTableWithQueryTable.xls"` z rzeczywistą nazwą pliku. Upewnij się, że nazwa pliku jest poprawna i że plik istnieje w określonym katalogu.
+Ta linia tworzy instancję `Workbook` klasa, która jest zasadniczo twoim plikiem Excel w formie kodu! Zastąp `"SampleTableWithQueryTable.xls"` z rzeczywistą nazwą pliku. Upewnij się, że nazwa pliku jest poprawna i że plik istnieje w określonym katalogu.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Po załadowaniu skoroszytu należy uzyskać dostęp do konkretnego arkusza, którym chcesz manipulować.
 ```csharp
@@ -60,7 +62,7 @@ Teraz, gdy masz już arkusz kalkulacyjny, możesz pobrać tabelę zawierającą 
 ```csharp
 ListObject table = worksheet.ListObjects[0];
 ```
- Ten`ListObjects` kolekcja zawiera wszystkie tabele w arkuszu kalkulacyjnym i poprzez określenie`[0]`, wybierasz pierwszą tabelę. Jeśli arkusz ma wiele tabel, wskaż poprawny indeks.
+Ten `ListObjects` kolekcja zawiera wszystkie tabele w arkuszu kalkulacyjnym i poprzez określenie `[0]`, wybierasz pierwszą tabelę. Jeśli arkusz ma wiele tabel, wskaż poprawny indeks.
 ## Krok 5: Sprawdź typ źródła danych
 Zanim wprowadzimy jakiekolwiek modyfikacje, warto sprawdzić, jakiego typu źródła danych używa tabela.
 ```csharp
@@ -90,14 +92,16 @@ Aspose.Cells to zaawansowana biblioteka .NET przeznaczona do tworzenia, odczytyw
 ### Czy mogę używać Aspose.Cells do manipulowania innymi formatami plików?  
 Chociaż Aspose.Cells specjalizuje się w plikach Excel, Aspose oferuje wiele innych bibliotek dla różnych formatów (np. PDF, Word).
 ### Czy potrzebuję licencji na Aspose.Cells?  
- Dostępna jest tymczasowa licencja[Tutaj](https://purchase.aspose.com/temporary-license/) i możesz również wypróbować go bezpłatnie za pośrednictwem[bezpłatny okres próbny](https://releases.aspose.com/).
+Dostępna jest tymczasowa licencja [Tutaj](https://purchase.aspose.com/temporary-license/)i możesz również wypróbować go bezpłatnie za pośrednictwem [bezpłatny okres próbny](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?  
- Pełną dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Pełną dokumentację można znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?  
- W przypadku pytań lub problemów możesz odwiedzić forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+W przypadku pytań lub problemów możesz odwiedzić forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

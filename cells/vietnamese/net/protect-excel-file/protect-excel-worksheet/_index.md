@@ -1,14 +1,16 @@
 ---
-title: Bảo vệ bảng tính Excel
-linktitle: Bảo vệ bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách bảo vệ bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo dữ liệu của bạn vẫn an toàn và dễ quản lý.
-weight: 50
-url: /vi/net/protect-excel-file/protect-excel-worksheet/
+"description": "Tìm hiểu cách bảo vệ bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Đảm bảo dữ liệu của bạn vẫn an toàn và dễ quản lý."
+"linktitle": "Bảo vệ bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Bảo vệ bảng tính Excel"
+"url": "/vi/net/protect-excel-file/protect-excel-worksheet/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo vệ bảng tính Excel
@@ -22,7 +24,7 @@ Trong thời đại kỹ thuật số ngày nay, việc quản lý dữ liệu h
 Trước khi bắt đầu, bạn cần đảm bảo có những điều sau:
 
 1. Đã cài đặt Visual Studio: Bạn sẽ muốn có một môi trường phát triển. Visual Studio là lựa chọn phổ biến cho các nhà phát triển .NET.
-2.  Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn nắm bắt các khái niệm nhanh hơn.
 4. Cài đặt Excel (Tùy chọn): Mặc dù không thực sự cần thiết, nhưng việc cài đặt Excel có thể giúp bạn xác minh kết quả dễ dàng.
 
@@ -63,13 +65,13 @@ Trong dòng này, chúng ta đang mở một tệp có tên "book1.xls" từ th�
 
 ## Bước 3: Khởi tạo một đối tượng Workbook
 
-Bây giờ chúng ta đã có một luồng tệp, đã đến lúc tạo một đối tượng Workbook. Đối tượng này biểu diễn tệp Excel và cho phép bạn dễ dàng thao tác nội dung của tệp.
+Bây giờ chúng ta đã có luồng tệp, đã đến lúc tạo đối tượng Workbook. Đối tượng này biểu diễn tệp Excel và cho phép bạn dễ dàng thao tác nội dung của tệp.
 
 ```csharp
 Workbook excel = new Workbook(fstream);
 ```
 
- Ở đây, chúng tôi đang đọc tệp Excel và lưu trữ nó trong`excel` biến. Đối tượng này sẽ đóng vai trò là cổng thông tin để chúng ta khám phá các trang tính của sổ làm việc.
+Ở đây, chúng tôi đang đọc tệp Excel và lưu trữ nó trong `excel` biến. Đối tượng này sẽ đóng vai trò là cổng thông tin để chúng ta khám phá các trang tính của sổ làm việc.
 
 ## Bước 4: Truy cập vào trang tính đầu tiên
 
@@ -99,7 +101,7 @@ Sau khi áp dụng các biện pháp bảo vệ cần thiết, điều quan tr�
 excel.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
-Lệnh này sẽ lưu sổ làm việc dưới dạng "output.out.xls" theo định dạng đã chỉ định. Hãy chắc chắn chỉnh sửa tên tệp để giữ cho nó được sắp xếp!
+Lệnh này sẽ lưu sổ làm việc dưới dạng "output.out.xls" theo định dạng đã chỉ định. Hãy chắc chắn chỉnh sửa tên tệp để giữ cho nó được sắp xếp hợp lý!
 
 ## Bước 7: Đóng luồng tập tin
 
@@ -121,19 +123,21 @@ Bảo vệ các bảng tính Excel của bạn bằng Aspose.Cells for .NET là 
 Aspose.Cells là một thư viện dành cho .NET cho phép các nhà phát triển đọc, ghi và thao tác các tệp Excel theo cách lập trình.
 
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần một giấy phép trả phí. Bạn có thể tìm hiểu thêm về cách lấy một giấy phép[đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy đủ chức năng, bạn sẽ cần một giấy phép trả phí. Bạn có thể tìm hiểu thêm về cách lấy một giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể bảo vệ nhiều trang tính cùng lúc không?
 Có, bạn có thể lặp lại tất cả các trang tính trong một sổ làm việc và áp dụng chế độ bảo vệ cho từng trang tính tương tự nhau.
 
 ### Tôi có thể áp dụng những loại bảo vệ nào?
- Bạn có thể bảo vệ nhiều thành phần khác nhau, bao gồm tất cả các thay đổi, định dạng và cấu trúc, dựa trên`ProtectionType` liệt kê.
+Bạn có thể bảo vệ nhiều thành phần khác nhau, bao gồm tất cả các thay đổi, định dạng và cấu trúc, dựa trên `ProtectionType` liệt kê.
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
- Bạn có thể khám phá tài liệu chi tiết và ví dụ[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu chi tiết và ví dụ [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: สร้างแผนภูมิ PDF ด้วยขนาดหน้าตามต้องการ
-linktitle: สร้างแผนภูมิ PDF ด้วยขนาดหน้าตามต้องการ
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: สร้าง PDF ด้วยแผนภูมิ Excel ของคุณโดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้วิธีการด้วยคู่มือทีละขั้นตอนนี้
-weight: 12
-url: /th/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": "สร้าง PDF ด้วยแผนภูมิ Excel ของคุณโดยใช้ Aspose.Cells สำหรับ .NET เรียนรู้วิธีการด้วยคู่มือทีละขั้นตอนนี้"
+"linktitle": "สร้างแผนภูมิ PDF ด้วยขนาดหน้าตามต้องการ"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "สร้างแผนภูมิ PDF ด้วยขนาดหน้าตามต้องการ"
+"url": "/th/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างแผนภูมิ PDF ด้วยขนาดหน้าตามต้องการ
@@ -23,23 +25,23 @@ url: /th/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-s
 
 ### ความรู้พื้นฐานเกี่ยวกับ C# และ .NET
 
-คุณต้องมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# และกรอบงาน .NET ซึ่งจะช่วยให้คุณเข้าใจโครงสร้างของโค้ดที่คุณจะพบในคู่มือนี้
+คุณจะต้องมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# และกรอบงาน .NET ซึ่งจะช่วยให้คุณเข้าใจโครงสร้างของโค้ดที่คุณจะพบในคู่มือนี้
 
 ### Aspose.Cells สำหรับ .NET
 
-ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ .NET แล้ว คุณสามารถดูรายละเอียดทั้งหมดได้ที่[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/). 
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells สำหรับ .NET แล้ว คุณสามารถดูรายละเอียดทั้งหมดได้ที่ [เอกสารประกอบ Aspose.Cells](https://reference-aspose.com/cells/net/). 
 
 ### สภาพแวดล้อมการพัฒนา
 
- ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ ซึ่งอาจเป็น Visual Studio หรือ IDE อื่น ๆ ที่รองรับ C# ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells จาก[หน้าดาวน์โหลด](https://releases.aspose.com/cells/net/).
+ตั้งค่าสภาพแวดล้อมการพัฒนาของคุณ ซึ่งอาจเป็น Visual Studio หรือ IDE อื่น ๆ ที่รองรับ C# ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells จาก [หน้าดาวน์โหลด](https://releases-aspose.com/cells/net/).
 
 ### ตัวอย่างไฟล์ Excel
 
-คุณจะต้องมีไฟล์ Excel ตัวอย่างที่มีแผนภูมิอย่างน้อยหนึ่งรายการ คุณสามารถสร้างไฟล์ตัวอย่างหรือดาวน์โหลดไฟล์ตัวอย่างเพื่อใช้ตลอดบทช่วยสอนนี้
+คุณจะต้องมีไฟล์ตัวอย่าง Excel ที่มีแผนภูมิอย่างน้อยหนึ่งแผนภูมิ คุณสามารถสร้างไฟล์ตัวอย่างหรือดาวน์โหลดไฟล์ตัวอย่างเพื่อใช้ตลอดบทช่วยสอนนี้
 
 ## แพ็คเกจนำเข้า
 
-หากต้องการเริ่มทำงานกับ Aspose.Cells คุณต้องนำเข้าเนมสเปซที่จำเป็นลงในแอปพลิเคชัน C# ของคุณ โดยทำได้ดังนี้:
+หากต้องการเริ่มทำงานกับ Aspose.Cells คุณต้องนำเข้าเนมสเปซที่จำเป็นในแอปพลิเคชัน C# ของคุณ โดยทำได้ดังนี้:
 
 ```csharp
 using System;
@@ -56,7 +58,7 @@ using Aspose.Cells.Charts;
 
 ## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอาท์พุตและแหล่งที่มา
 
-ในการเริ่มต้น คุณต้องกำหนดว่าเอาต์พุต PDF จะถูกบันทึกที่ไหน และเอกสาร Excel ต้นทางของคุณอยู่ที่ใด
+ในการเริ่มต้น คุณต้องกำหนดว่าไฟล์ PDF เอาต์พุตจะถูกบันทึกที่ไหน และเอกสาร Excel ต้นทางของคุณอยู่ที่ใด
 
 ```csharp
 //ไดเรกทอรีผลลัพธ์
@@ -77,7 +79,7 @@ string sourceDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
- การ`Workbook` คลาสนี้เป็นศูนย์กลางในการโต้ตอบกับเอกสาร Excel ของคุณ ตรวจสอบให้แน่ใจว่าเส้นทางชี้ไปยังไฟล์ Excel ของคุณอย่างถูกต้อง ข้อผิดพลาดที่นี่จะทำให้โค้ดที่เหลือไม่สามารถดำเนินการได้
+การ `Workbook` คลาสนี้เป็นศูนย์กลางในการโต้ตอบกับเอกสาร Excel ของคุณ ตรวจสอบให้แน่ใจว่าเส้นทางชี้ไปยังไฟล์ Excel ของคุณอย่างถูกต้อง ข้อผิดพลาดที่นี่จะทำให้โค้ดที่เหลือไม่สามารถดำเนินการได้
 
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงานแรก
 
@@ -88,7 +90,7 @@ Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.
 Worksheet ws = wb.Worksheets[0];
 ```
 
- ใน Aspose.Cells เวิร์กชีตจะถูกสร้างดัชนีโดยเริ่มจากศูนย์ ดังนั้น`Worksheets[0]` หมายถึงแผ่นแรก
+ใน Aspose.Cells เวิร์กชีตจะถูกสร้างดัชนีโดยเริ่มจากศูนย์ ดังนั้น `Worksheets[0]` หมายถึงแผ่นแรก
 
 ## ขั้นตอนที่ 4: เข้าถึงแผนภูมิแรก
 
@@ -112,7 +114,7 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 
 ในโค้ดนี้:
 - PDF จะถูกบันทึกไว้ในไดเร็กทอรีเอาท์พุตที่คุณระบุไว้ก่อนหน้านี้
--  ตัวเลข`7, 7` แสดงความกว้างและความสูงของขนาดหน้าที่ต้องการตามลำดับ
+- ตัวเลข `7, 7` แสดงความกว้างและความสูงของขนาดหน้าที่ต้องการตามลำดับ
 - PageLayoutAlignmentType.Center ช่วยให้แน่ใจว่าแผนภูมิจะอยู่ตรงกลางหน้า
 
 ## ขั้นตอนที่ 6: ข้อความยืนยัน
@@ -135,19 +137,21 @@ Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 Aspose.Cells สำหรับ .NET ใช้ในการสร้าง แก้ไข และแปลงเอกสาร Excel โดยโปรแกรมในแอปพลิเคชัน .NET
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?  
- ใช่ Aspose.Cells เสนอ[ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อวัตถุประสงค์ในการประเมินผล
+ใช่ Aspose.Cells เสนอ [ทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อวัตถุประสงค์ในการประเมินผล
 
 ### มีวิธีขยายการทดลองใช้ของฉันเกินระยะเวลาเริ่มต้นหรือไม่  
- คุณสามารถสมัครได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบแบบขยายเวลา
+คุณสามารถสมัครได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการทดสอบแบบขยายเวลา
 
 ### จะเกิดอะไรขึ้นหากฉันประสบปัญหาหรือมีคำถาม?  
- คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ที่[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9).
+คุณสามารถขอความช่วยเหลือจากชุมชน Aspose ได้ที่ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/cells/9).
 
 ### ฉันสามารถซื้อ Aspose.Cells ได้อย่างไร?  
- คุณสามารถซื้อ Aspose.Cells ได้จาก[หน้าการซื้อ](https://purchase.aspose.com/buy).
+คุณสามารถซื้อ Aspose.Cells ได้จาก [หน้าการซื้อ](https://purchase-aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

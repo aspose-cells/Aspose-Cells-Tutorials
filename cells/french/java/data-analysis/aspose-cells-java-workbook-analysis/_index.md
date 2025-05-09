@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ Oui, vous pouvez l’intégrer à des services cloud comme AWS S3 ou Azure Blob 
 Envisagez d’utiliser des API de streaming et de décomposer le traitement en tâches plus petites pour gérer efficacement l’utilisation de la mémoire.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

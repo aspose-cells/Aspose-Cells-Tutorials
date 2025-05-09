@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,12 +175,15 @@ A: 메모리 사용 패턴을 검토하고 대용량 데이터 세트를 효율�
 - **다운로드:** [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose.Cells를 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다:** [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 이 가이드를 따라 하면 이제 Aspose.Cells for Java를 사용하여 사용자 정의 도형으로 Excel 스프레드시트를 더욱 멋지게 만들 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,7 +188,7 @@ Abbiamo illustrato come aggiungere una casella di testo a un grafico Excel utili
    - Il tentativo di accedere a un grafico inesistente genererà un'eccezione. Assicurati che la cartella di lavoro contenga almeno un grafico prima di procedere.
 
 3. **È possibile salvare i file in formati diversi da .xls?**
-   - Sì, puoi usare diversi `SaveFormat` opzioni come `XLSX`, a seconda delle vostre esigenze.
+   - Sì, puoi usarne diversi `SaveFormat` opzioni come `XLSX`, a seconda delle vostre esigenze.
 
 4. **Come gestisco le eccezioni durante le operazioni sui file?**
    - Implementare blocchi try-catch per le operazioni di caricamento e salvataggio dei file per gestire gli errori in modo efficiente.
@@ -204,6 +206,9 @@ Abbiamo illustrato come aggiungere una casella di testo a un grafico Excel utili
 Seguendo questa guida, puoi integrare efficacemente Aspose.Cells nei tuoi progetti Java per migliorare le funzionalità dei grafici Excel con annotazioni di testo personalizzate. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

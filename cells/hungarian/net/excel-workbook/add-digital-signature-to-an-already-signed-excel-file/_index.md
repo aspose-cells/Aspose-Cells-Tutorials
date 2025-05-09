@@ -1,37 +1,39 @@
 ---
-title: Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz
-linktitle: Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz
-second_title: Aspose.Cells for .NET API Reference
-description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával.
-weight: 30
-url: /hu/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "Tanuld meg, hogyan adhatsz digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból."
+"linktitle": "Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz"
+"url": "/hu/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Digitális aláírás hozzáadása egy már aláírt Excel-fájlhoz
 
 ## Bevezetés
 
-A mai digitális világban a dokumentumok védelme fontosabb, mint valaha. A digitális aláírások lehetőséget nyújtanak a fájlok hitelességének és integritásának biztosítására, különösen érzékeny információk kezelésekor. Ha Excel-fájlokkal dolgozik, és új digitális aláírást szeretne hozzáadni egy már aláírt munkafüzethez, akkor jó helyen jár! Ebben az útmutatóban végigvezetjük a digitális aláírás hozzáadásának folyamatán egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET segítségével. Szóval, merüljünk bele!
+A mai digitális világban a dokumentumok védelme minden eddiginél fontosabb. A digitális aláírások lehetőséget biztosítanak a fájlok hitelességének és integritásának biztosítására, különösen bizalmas információk kezelésekor. Ha Excel-fájlokkal dolgozik, és új digitális aláírást szeretne hozzáadni egy már aláírt munkafüzethez, akkor jó helyen jár! Ebben az útmutatóban végigvezetjük Önt azon, hogyan adhat hozzá digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET használatával. Akkor vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódolás finomságaiba, néhány dolognak a helyén kell lennie:
+Mielőtt belevágnánk a kódolás részleteibe, van néhány dolog, amire szükséged van:
 
-1.  Aspose.Cells for .NET: Győződjön meg arról, hogy az Aspose.Cells könyvtár telepítve van a .NET-projektben. Letöltheti a[telek](https://releases.aspose.com/cells/net/).
-2.  Tanúsítványfájl: Szüksége lesz egy érvényes tanúsítványfájlra (általában a`.pfx`fájl), amely az Ön digitális tanúsítványát tartalmazza. Győződjön meg arról, hogy ismeri a fájl jelszavát.
+1. Aspose.Cells .NET-hez: Győződjön meg róla, hogy az Aspose.Cells könyvtár telepítve van a .NET projektjében. Letöltheti innen: [telek](https://releases.aspose.com/cells/net/).
+2. Tanúsítványfájl: Szüksége lesz egy érvényes tanúsítványfájlra (általában egy `.pfx` fájl), amely tartalmazza a digitális tanúsítványát. Győződjön meg róla, hogy ismeri a fájl jelszavát.
 3. Fejlesztői környezet: Állítsa be fejlesztői környezetét a Visual Studio vagy bármely más, .NET-et támogató IDE segítségével.
-4. Alapvető C# ismerete: A C# programozás ismerete segít a zökkenőmentes követésben.
-5. Mintafájlok: rendelkezzen egy minta Excel-fájllal, amely már digitálisan alá van írva. Ez lesz az a fájl, amelyhez új aláírást kell hozzáadni.
+4. C# alapismeretek: A C# programozásban való jártasság segít majd a gördülékeny haladásban.
+5. Mintafájlok: Készítsen elő egy már digitálisan aláírt minta Excel-fájlt. Ehhez a fájlhoz fog új aláírást hozzáadni.
 
-Most, hogy minden a helyén van, kezdjük el a kódolást!
+Most, hogy minden a helyén van, kezdjünk el kódolni!
 
 ## Csomagok importálása
 
-A kezdéshez importálnia kell a szükséges csomagokat a C# fájlba. Íme, hogyan kell csinálni:
+A kezdéshez importálnod kell a szükséges csomagokat a C# fájlodba. Így csináld:
 
 ```csharp
 using System;
@@ -40,125 +42,127 @@ using System.Linq;
 using System.Text;
 ```
 
-Ezek a névterek lehetővé teszik az Excel-fájlokkal való munkavégzést és a digitális aláírások zökkenőmentes kezelését.
+Ezek a névterek lehetővé teszik az Excel-fájlokkal való munkát és a digitális aláírások zökkenőmentes kezelését.
 
-## 1. lépés: Állítsa be a forrás- és kimeneti könyvtárakat
+## 1. lépés: A forrás- és kimeneti könyvtárak beállítása
 
-Az Excel-fájlok kezelése előtt meg kell határoznia, hogy a forrásfájlok hol legyenek, és hova szeretné menteni a kimeneti fájlt. Íme, hogyan kell csinálni:
+Mielőtt módosíthatná az Excel-fájljait, meg kell határoznia, hogy hol találhatók a forrásfájlok, és hová szeretné menteni a kimeneti fájlt. Íme, hogyan teheti meg:
 
 ```csharp
-// Forrás könyvtár
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
 
-Ebben a lépésben egy módszert használunk a forrás- és kimeneti könyvtár elérési útjának lekérésére. Győződjön meg arról, hogy ezek a könyvtárak léteznek, és tartalmazzák a szükséges fájlokat.
+Ebben a lépésben egy metódust használunk a forrás- és kimeneti könyvtárak elérési útjának lekérésére. Győződjön meg arról, hogy ezek a könyvtárak léteznek, és tartalmazzák a szükséges fájlokat.
 
-## 2. lépés: Töltse be a Már aláírt munkafüzetet
+## 2. lépés: Töltse be a már aláírt munkafüzetet
 
- Ezután be kell töltenie a módosítani kívánt Excel-munkafüzetet. Ez úgy történik, hogy létrehoz egy példányt a`Workbook` osztályt, és átadja az aláírt fájl elérési útját.
+Ezután be kell töltenie a módosítani kívánt Excel-munkafüzetet. Ehhez létre kell hoznia a munkafüzet egy példányát. `Workbook` osztály és átadja az aláírt fájl elérési útját.
 
 ```csharp
 // Töltse be a már digitálisan aláírt munkafüzetet
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Itt töltjük be a nevű munkafüzetet`sampleDigitallySignedByCells.xlsx`. Győződjön meg arról, hogy ez a fájl már alá van írva.
+Itt betöltjük a következő munkafüzetet: `sampleDigitallySignedByCells.xlsx`Győződjön meg róla, hogy ez a fájl már alá van írva.
 
-## 3. lépés: Hozzon létre egy digitális aláírásgyűjteményt
+## 3. lépés: Digitális aláírás-gyűjtemény létrehozása
 
-Most pedig hozzunk létre egy digitális aláírásgyűjteményt. Ez a gyűjtemény tartalmazza az összes digitális aláírást, amelyet hozzá szeretne adni a munkafüzethez.
+Most hozzunk létre egy digitális aláírás-gyűjteményt. Ez a gyűjtemény fogja tartalmazni az összes digitális aláírást, amelyet hozzá szeretne adni a munkafüzethez.
 
 ```csharp
-// Hozza létre a digitális aláírásgyűjteményt
+// Digitális aláírásgyűjtemény létrehozása
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
-Ez a lépés kulcsfontosságú, mert szükség esetén lehetővé teszi több aláírás kezelését.
+Ez a lépés kulcsfontosságú, mert lehetővé teszi több aláírás kezelését, ha szükséges.
 
-## 4. lépés: Hozzon létre egy új tanúsítványt
+## 4. lépés: Új tanúsítvány létrehozása
 
- Új digitális aláírás létrehozásához be kell töltenie a tanúsítványfájlt. Itt adja meg a saját elérési utat`.pfx` fájlt és annak jelszavát.
+Új digitális aláírás létrehozásához be kell töltenie a tanúsítványfájlt. Itt adhatja meg az elérési útját. `.pfx` fájlt és annak jelszavát.
 
 ```csharp
-// Tanúsítványfájl és jelszava
+// Tanúsítványfájl és annak jelszava
 string certFileName = sourceDir + "AsposeDemo.pfx";
 string password = "aspose";
 
-// Hozzon létre új tanúsítványt
+// Új tanúsítvány létrehozása
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Mindenképpen cserélje ki`AsposeDemo.pfx`és a jelszót a tényleges tanúsítványfájl nevével és jelszavával.
+Mindenképpen cserélje ki `AsposeDemo.pfx` és a jelszót a tényleges tanúsítványfájl nevével és jelszavával.
 
-## 5. lépés: Hozza létre a digitális aláírást
+## 5. lépés: Digitális aláírás létrehozása
 
-A tanúsítvánnyal a kezében most már létrehozhat digitális aláírást. Ezenkívül meg kell adnia az aláírás okát, valamint az aktuális dátumot és időt.
+A tanúsítvány birtokában létrehozhat egy digitális aláírást. Meg kell adnia az aláírás okát, valamint az aktuális dátumot és időpontot is.
 
 ```csharp
 // Hozzon létre új digitális aláírást, és adja hozzá a digitális aláírásgyűjteményhez
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
-Ez a lépés hozzáadja az új aláírást a gyűjteményhez, amelyet később alkalmazni fog a munkafüzetben.
+Ez a lépés hozzáadja az új aláírást a gyűjteményhez, amelyet később a munkafüzetre fog alkalmazni.
 
-## 6. lépés: Adja hozzá a digitális aláírásgyűjteményt a munkafüzethez
+## 6. lépés: Digitális aláírás-gyűjtemény hozzáadása a munkafüzethez
 
-Itt az ideje, hogy hozzáadja a digitális aláírásgyűjteményt a munkafüzethez. Itt történik a varázslat!
+Most itt az ideje, hogy hozzáadjuk a digitális aláírás-gyűjteményt a munkafüzethez. Itt történik a varázslat!
 
 ```csharp
-// Digitális aláírásgyűjtemény hozzáadása a munkafüzetbe
+// Digitális aláírásgyűjtemény hozzáadása a munkafüzethez
 workbook.AddDigitalSignature(dsCollection);
 ```
 
-Ennek a sornak a végrehajtásával hatékonyan csatolja az új digitális aláírást a már aláírt munkafüzethez.
+A sor végrehajtásával gyakorlatilag csatolja az új digitális aláírást a már aláírt munkafüzethez.
 
-## 7. lépés: Mentse el és dobja ki a munkafüzetet
+## 7. lépés: A munkafüzet mentése és megsemmisítése
 
-Végül el kell mentenie a módosított munkafüzetet a kimeneti könyvtárába, és fel kell szabadítania a használt erőforrásokat.
+Végül mentse a módosított munkafüzetet a kimeneti könyvtárba, és szabadítsa fel az összes használt erőforrást.
 
 ```csharp
-//Mentse el a munkafüzetet és dobja ki.
+// Mentse el a munkafüzetet, és dobja ki.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
 
-Ez a lépés biztosítja a módosítások mentését, és a munkafüzet megfelelő selejtezését, hogy erőforrásokat szabadítson fel.
+Ez a lépés biztosítja a módosítások mentését, és a munkafüzet megfelelő megsemmisítését az erőforrások felszabadítása érdekében.
 
-## 8. lépés: Erősítse meg a végrehajtást
+## 8. lépés: Végrehajtás megerősítése
 
-A dolgok lezárásához jó ötlet ellenőrizni, hogy a kód sikeresen lefutott-e. Ezt megteheti egy egyszerű konzolüzenettel.
+Végezetül érdemes megerősíteni, hogy a kód sikeresen lefutott. Ezt egy egyszerű konzolüzenettel megteheted.
 
 ```csharp
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
-Ez visszajelzést ad arról, hogy a művelet sikeres volt, amit mindig jó látni!
+Ez visszajelzést ad arról, hogy a műtéted sikeres volt, ami mindig jó látni!
 
 ## Következtetés
 
-És megvan! Sikeresen hozzáadott egy új digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET segítségével. A digitális aláírás hatékony módja a dokumentumok hitelességének biztosításának, és most már tudja, hogyan kezelheti őket programozottan. Akár pénzügyi dokumentumokon, szerződéseken vagy bármilyen érzékeny információn dolgozik, a digitális aláírások alkalmazása növelheti a biztonságot és a bizalmat.
+És íme! Sikeresen hozzáadott egy új digitális aláírást egy már aláírt Excel-fájlhoz az Aspose.Cells for .NET segítségével. A digitális aláírások hatékony módjai a dokumentumok hitelességének biztosítására, és most már tudja, hogyan kezelheti őket programozottan. Akár pénzügyi dokumentumokon, szerződéseken vagy bármilyen bizalmas információn dolgozik, a digitális aláírások bevezetése növelheti a biztonságot és a bizalmat.
 
 ## GYIK
 
 ### Mi az a digitális aláírás?
-A digitális aláírás egy kriptográfiai módszer, amelyet egy üzenet vagy dokumentum hitelességének és integritásának ellenőrzésére használnak.
+A digitális aláírás egy titkosítási módszer, amelyet egy üzenet vagy dokumentum hitelességének és integritásának ellenőrzésére használnak.
 
-### Hozzáadhatok több digitális aláírást ugyanahhoz az Excel-fájlhoz?
-Igen, létrehozhat digitális aláírásgyűjteményt, és több aláírást is hozzáadhat ugyanahhoz a munkafüzethez.
+### Hozzáadhatok több digitális aláírást ugyanahhoz az Excel fájlhoz?
+Igen, létrehozhat digitális aláírás-gyűjteményt, és több aláírást is hozzáadhat ugyanahhoz a munkafüzethez.
 
 ### Milyen formátumokat támogat az Aspose.Cells a digitális aláírásokhoz?
- Az Aspose.Cells különféle formátumokat támogat, beleértve`.pfx` bizonyítványokért.
+Az Aspose.Cells számos formátumot támogat, beleértve a következőket: `.pfx` bizonyítványokért.
 
-### Szükségem van a .NET egy adott verziójára az Aspose.Cells használatához?
- Ellenőrizze a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) .NET-verziójával való kompatibilitás érdekében.
+### Szükségem van egy adott .NET verzióra az Aspose.Cells használatához?
+Ellenőrizze a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/) a .NET verziójával való kompatibilitás érdekében.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
- Ideiglenes jogosítványt kérhetsz[Aspose vásárlási oldala](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?
+Ideiglenes engedélyt kérhetsz a [Az Aspose vásárlási oldala](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

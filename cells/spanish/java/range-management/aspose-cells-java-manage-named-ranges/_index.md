@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Para seguir este tutorial, necesitas:
 - **IDE**:Utilice un IDE como IntelliJ IDEA o Eclipse para codificar y depurar.
 - **Biblioteca Aspose.Cells**:Se utilizará la versión 25.3 de la biblioteca.
 
-### Bibliotecas y dependencias necesarias
+### Bibliotecas y dependencias requeridas
 
 **Experto**
 ```xml
@@ -215,6 +217,9 @@ Ya domina la creación, copia y eliminación de rangos con nombre con Aspose.Cel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tworzenie niestandardowej walidacji danych
@@ -39,7 +41,7 @@ Workbook workbook = new Workbook();
 
 ## Krok 3: Dodawanie arkusza kalkulacyjnego
 
-Teraz dodajmy do skoroszytu arkusz kalkulacyjny, w którym zastosujemy niestandardową walidację danych.
+Teraz dodajmy do skoroszytu arkusz kalkulacyjny, w którym zastosujemy naszą niestandardową walidację danych.
 
 ```java
 // Kod Java do dodania arkusza kalkulacyjnego
@@ -116,6 +118,7 @@ Tak, Aspose.Cells for Java obsługuje szeroką gamę formatów plików Excel, w 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ public class ExcelDemo {
 }
 ```
 
-### เพิ่มกล่องข้อความลงในแผ่นงาน
+### เพิ่มกล่องข้อความลงในเวิร์กชีต
 
 ขั้นตอนต่อไป เพิ่มรูปร่างกล่องข้อความลงในเวิร์กชีตที่คุณเลือก รูปร่างนี้สามารถบรรจุเนื้อหาข้อความใดๆ ที่คุณต้องการได้
 
@@ -281,6 +283,9 @@ public class ExcelDemo {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

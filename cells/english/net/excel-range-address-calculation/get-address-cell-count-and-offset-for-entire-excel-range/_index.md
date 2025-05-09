@@ -8,7 +8,9 @@ url: /net/excel-range-address-calculation/get-address-cell-count-and-offset-for-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Address, Cell Count, and Offset for Entire Excel Range
@@ -132,6 +134,7 @@ For support and queries, visit the [Aspose forum](https://forum.aspose.com/c/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Você está procurando otimizar suas tarefas de processamento de dados do Excel usando Java? Muitos desenvolvedores enfrentam desafios ao tentar manipular fórmulas complexas de planilhas programaticamente. Este tutorial irá guiá-lo através do uso **Aspose.Cells para Java** para definir fórmulas de matriz, aplicar estilos numéricos, personalizar cálculos e salvar seu trabalho com eficiência. Seja você um desenvolvedor experiente ou esteja apenas começando com a automação do Excel em Java, este guia completo é perfeito para você.
 
-### que você aprenderá
+### O que você aprenderá
 - Como definir fórmulas de matriz usando Aspose.Cells
 - Aplicando formatos numéricos a células programaticamente
 - Implementando opções de cálculo personalizadas com funções definidas pelo usuário
@@ -233,6 +235,9 @@ Pronto para o próximo passo? Mergulhe em tópicos mais avançados ou integre es
 - [Comprar uma licença](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Bu becerileri bir sonraki projenizde uygulamaya hazır mısınız? Bunları uygu
 Bu kapsamlı kılavuzla artık Aspose.Cells for Java'yı kullanarak büyük Excel dosyalarını bir profesyonel gibi yönetebileceksiniz!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 ## ข้อกำหนดเบื้องต้น
 หากต้องการปฏิบัติตามบทช่วยสอนนี้อย่างมีประสิทธิผล ให้แน่ใจว่าคุณมี:
 - **Aspose.Cells สำหรับไลบรารี Java:** จำเป็นสำหรับฟังก์ชันทั้งหมด เราจะพูดถึงการเพิ่มฟังก์ชันนี้ผ่าน Maven หรือ Gradle
-- **สภาพแวดล้อมการพัฒนา Java:** ตรวจสอบให้แน่ใจว่ามีการติดตั้ง JDK ไว้ในระบบของคุณแล้ว
+- **สภาพแวดล้อมการพัฒนา Java:** ตรวจสอบให้แน่ใจว่ามีการติดตั้ง JDK ไว้ในระบบของคุณ
 - **ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java:** ความคุ้นเคยกับโครงสร้างและแนวคิดของ Java จะเป็นประโยชน์
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
@@ -86,7 +88,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
    totalRowOperations(workbook, destWorkbook, destSheet, outDir);
    ```
 
-2. **กำหนดฟังก์ชันในการจัดการการดำเนินการช่วง:**
+2. **กำหนดฟังก์ชันสำหรับจัดการการดำเนินการช่วง:**
    ```java
    void totalRowOperations(Workbook srcWorkbook, Workbook destWorkbook,
                            Worksheet destSheet, String outputDirectory) {
@@ -167,6 +169,9 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **สนับสนุน:** [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

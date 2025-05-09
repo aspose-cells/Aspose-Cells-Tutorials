@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metode Ekspor Data Excel
@@ -16,7 +18,7 @@
 
 Dalam dunia yang digerakkan oleh data saat ini, menguasai metode ekspor data Excel menggunakan Aspose.Cells untuk Java sangat penting untuk manajemen dan manipulasi data yang efisien. Panduan komprehensif ini tidak hanya akan memandu Anda melalui teori tetapi juga memberi Anda contoh kode sumber praktis untuk setiap metode yang dibahas.
 
-## Perkenalan
+## Bevezetés
 
 Excel adalah alat yang hebat untuk manajemen data, dan Aspose.Cells untuk Java meningkatkan kemampuannya dengan memungkinkan manipulasi terprogram. Panduan ini tidak hanya menjelaskan konsep tetapi juga menyediakan contoh kode sumber langsung.
 
@@ -47,10 +49,10 @@ import com.aspose.cells.SaveFormat;
 
 public class ExcelToCSV {
     public static void main(String[] args) throws Exception {
-        // Memuat file Excel
+        // Töltsd be az Excel fájlt
         Workbook workbook = new Workbook("input.xlsx");
 
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         // Simpan lembar kerja sebagai CSV
@@ -68,7 +70,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelToXLSX {
     public static void main(String[] args) throws Exception {
-        // Memuat file Excel
+        // Töltsd be az Excel fájlt
         Workbook workbook = new Workbook("input.xlsx");
 
         // Simpan buku kerja sebagai XLSX
@@ -87,7 +89,7 @@ import com.aspose.cells.PdfSaveOptions;
 
 public class ExcelToPDF {
     public static void main(String[] args) throws Exception {
-        // Memuat file Excel
+        // Töltsd be az Excel fájlt
         Workbook workbook = new Workbook("input.xlsx");
 
         // Buat opsi penyimpanan PDF
@@ -109,7 +111,7 @@ import com.aspose.cells.HtmlSaveOptions;
 
 public class ExcelToHTML {
     public static void main(String[] args) throws Exception {
-        // Memuat file Excel
+        // Töltsd be az Excel fájlt
         Workbook workbook = new Workbook("input.xlsx");
 
         // Buat opsi penyimpanan HTML
@@ -131,7 +133,7 @@ import com.aspose.cells.SaveFormat;
 
 public class ExcelToXML {
     public static void main(String[] args) throws Exception {
-        // Memuat file Excel
+        // Töltsd be az Excel fájlt
         Workbook workbook = new Workbook("input.xlsx");
 
         // Simpan lembar kerja sebagai XML
@@ -181,7 +183,7 @@ A: Aspose.Cells untuk Java menyediakan metode untuk bekerja dengan file Excel ya
 ### T: Apakah ada komunitas atau forum dukungan untuk Aspose.Cells bagi pengguna Java?
 A: Ya, Aspose menawarkan forum komunitas tempat pengguna dapat mencari bantuan, berbagi pengalaman, dan menemukan solusi untuk masalah umum.
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan lengkap ini, kami telah menjelajahi metode ekspor data Excel menggunakan Aspose.Cells untuk Java dan memberikan contoh kode sumber untuk setiap metode. Baik Anda seorang pengembang atau profesional bisnis, menguasai metode ini akan memberdayakan Anda untuk menangani data Excel dengan baik.
 
@@ -190,6 +192,7 @@ Kini, dengan pengetahuan praktis dan contoh kode sumber, Anda siap untuk unggul 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

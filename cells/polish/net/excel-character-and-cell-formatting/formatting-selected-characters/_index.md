@@ -1,14 +1,16 @@
 ---
-title: Formatowanie wybranych znaków w programie Excel
-linktitle: Formatowanie wybranych znaków w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak formatować wybrane znaki w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego samouczka krok po kroku.
-weight: 10
-url: /pl/net/excel-character-and-cell-formatting/formatting-selected-characters/
+"description": "Dowiedz się, jak formatować wybrane znaki w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego samouczka krok po kroku."
+"linktitle": "Formatowanie wybranych znaków w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Formatowanie wybranych znaków w programie Excel"
+"url": "/pl/net/excel-character-and-cell-formatting/formatting-selected-characters/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatowanie wybranych znaków w programie Excel
@@ -18,8 +20,8 @@ Jeśli chodzi o tworzenie plików Excela, możliwość formatowania określonych
 ## Wymagania wstępne
 Zanim przejdziemy do konkretów, jest kilka rzeczy, które musisz zrobić, aby wszystko poszło zgodnie z planem:
 1. Zainstalowany program Visual Studio: Upewnij się, że program Visual Studio jest zainstalowany na Twoim komputerze. To będzie Twoje środowisko programistyczne.
-2.  Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z[Link do pobrania](https://releases.aspose.com/cells/net/).
-3. Podstawowa wiedza o języku C#: Niewielka znajomość języka C# pomoże Ci zrozumieć fragmenty kodu, z których będziemy korzystać.
+2. Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells dla .NET. Możesz ją pobrać z [Link do pobrania](https://releases.aspose.com/cells/net/).
+3. Podstawowa wiedza o języku C#: Niewielka znajomość języka C# pomoże Ci zrozumieć fragmenty kodu, których będziemy używać.
 4. .NET Framework: Upewnij się, że w systemie jest zainstalowany .NET Framework.
 ## Importuj pakiety
 Aby rozpocząć, musisz zaimportować niezbędne przestrzenie nazw dla Aspose.Cells. Oto, jak możesz to zrobić:
@@ -64,7 +66,7 @@ Cell cell = worksheet.Cells["A1"];
 cell.PutValue("Visit Aspose!");
 ```
 Dzięki temu kodowi nie tylko wpisujesz dane do komórki, ale zaczynasz opowiadać historię!
-## Krok 5: Formatowanie wybranych znaków
+## Krok 5: Sformatuj wybrane znaki
 Tutaj dzieje się magia! Sformatujemy część tekstu w naszej komórce:
 ```csharp
 // Ustawienie czcionki wybranych znaków na pogrubioną
@@ -72,7 +74,7 @@ cell.Characters(6, 7).Font.IsBold = true;
 // Ustawienie koloru czcionki wybranych znaków na niebieski
 cell.Characters(6, 7).Font.Color = Color.Blue;
 ```
- W tym kroku formatujemy słowo „Aspose” na pogrubione i niebieskie.`Characters`Metoda ta pozwala określić, którą część ciągu chcesz sformatować. To tak, jakby wyróżnić najważniejsze części swojej historii!
+tym kroku formatujemy słowo „Aspose” na pogrubione i niebieskie. `Characters` Metoda ta pozwala określić, którą część ciągu chcesz sformatować. To tak, jakby wyróżnić najważniejsze części swojej historii!
 ## Krok 6: Zapisz plik Excel
 Na koniec, zapiszmy naszą ciężką pracę. Oto jak to zrobić:
 ```csharp
@@ -87,16 +89,18 @@ Co dalej? Zanurz się głębiej w Aspose.Cells i odkryj więcej funkcji, aby ule
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca tworzenie, edytowanie i konwertowanie plików Excel bez konieczności używania programu Microsoft Excel.
 ### Czy mogę formatować wiele fragmentów tekstu w jednej komórce?
- Oczywiście! Możesz formatować różne części tekstu, dostosowując parametry w`Characters` odpowiednio zastosować metodę.
+Oczywiście! Możesz formatować różne części tekstu, dostosowując parametry w `Characters` odpowiednio zastosować metodę.
 ### Czy Aspose.Cells jest kompatybilny z .NET Core?
 Tak, Aspose.Cells jest kompatybilny z platformą .NET Core, co czyni go wszechstronnym rozwiązaniem dla różnych środowisk programistycznych.
 ### Gdzie mogę znaleźć więcej przykładów użycia Aspose.Cells?
- Możesz sprawdzić[Dokumentacja](https://reference.aspose.com/cells/net/) aby zapoznać się z bardziej szczegółowymi przykładami i samouczkami.
+Możesz sprawdzić [Dokumentacja](https://reference.aspose.com/cells/net/) aby zapoznać się z bardziej szczegółowymi przykładami i samouczkami.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?
- Możesz uzyskać tymczasową licencję za pośrednictwem tego[Link do licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+Możesz uzyskać tymczasową licencję za pośrednictwem tego [Link do licencji tymczasowej](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

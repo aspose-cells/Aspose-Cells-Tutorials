@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 Чтобы следовать этому руководству, убедитесь, что у вас есть:
 - **Комплект разработчика Java (JDK)** установлен на вашем компьютере.
 - **Aspose.Cells для Java** включены в зависимости вашего проекта.
-- Предпочтительная установленная среда разработки, например IntelliJ IDEA или Eclipse.
+- Предпочтительная установленная среда IDE, например IntelliJ IDEA или Eclipse.
 
 ## Настройка Aspose.Cells для Java
 Добавьте Aspose.Cells как зависимость, чтобы начать использовать его возможности. Ниже приведены конфигурации для Maven и Gradle.
@@ -151,6 +153,9 @@ workbook.save(outDir + "SetFirstPageNumber_out.xls");
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@ En el mundo del desarrollo de software, gestionar archivos de Excel mediante pro
 
 ## Lo que aprenderás
 - Cómo recuperar información de la versión de Aspose.Cells para Java.
-- Técnicas para crear y dar estilo a libros de trabajo en Java.
+- Técnicas para crear y diseñar libros de trabajo en Java.
 - Métodos para exportar hojas de trabajo como HTML con estilos CSS separados.
 ¡Profundicemos en los requisitos previos y comencemos!
 
@@ -189,6 +191,9 @@ En este tutorial, aprendiste a aprovechar la potencia de Aspose.Cells para Java 
 - Explora implementaciones prácticas en tus proyectos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

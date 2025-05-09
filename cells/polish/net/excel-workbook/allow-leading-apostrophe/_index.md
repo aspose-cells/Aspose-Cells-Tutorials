@@ -1,14 +1,16 @@
 ---
-title: Zezwalaj na wiodący apostrof
-linktitle: Zezwalaj na wiodący apostrof
-second_title: Aspose.Cells dla .NET API Reference
-description: Bez wysiłku zarządzaj wiodącymi apostrofami w programie Excel dzięki Aspose.Cells dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ten proces.
-weight: 60
-url: /pl/net/excel-workbook/allow-leading-apostrophe/
+"description": "Bez wysiłku zarządzaj wiodącymi apostrofami w programie Excel dzięki Aspose.Cells dla .NET. Ten kompleksowy samouczek przeprowadzi Cię krok po kroku przez ten proces."
+"linktitle": "Zezwalaj na wiodący apostrof"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Zezwalaj na wiodący apostrof"
+"url": "/pl/net/excel-workbook/allow-leading-apostrophe/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zezwalaj na wiodący apostrof
@@ -22,7 +24,7 @@ Witamy w tym przewodniku krok po kroku, jak używać Aspose.Cells dla .NET do be
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
 1. Podstawowa wiedza o .NET: Znajomość .NET Framework jest niezbędna. Jeśli już bawisz się C# lub VB.NET, możesz uważać się za gotowego.
-2.  Aspose.Cells dla biblioteki .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz to łatwo zrobić za pomocą menedżera pakietów NuGet lub pobrać go z[Strona Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla biblioteki .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz to łatwo zrobić za pomocą menedżera pakietów NuGet lub pobrać go z [Strona Aspose](https://releases.aspose.com/cells/net/).
 3. Konfiguracja IDE: Upewnij się, że masz zintegrowane środowisko programistyczne (IDE), np. Visual Studio, gotowe do kodowania.
 4. Przykładowy plik Excela: Możesz wykorzystać przykładowy plik („AllowLeadingApostropheSample.xlsx”), z którym będziemy pracować w kodzie.
 
@@ -62,7 +64,7 @@ Teraz utworzymy instancję WorkbookDesigner, która jest niezbędna do pracy z i
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 
- Ten`WorkbookDesigner`zarządza projektem i wiązaniem danych w naszym skoroszycie, ułatwiając nam pracę podczas konwersji danych do formatu wizualnego.
+Ten `WorkbookDesigner` zarządza projektem i wiązaniem danych w naszym skoroszycie, ułatwiając nam pracę podczas konwersji danych do formatu wizualnego.
 
 ## Krok 3: Załaduj istniejący skoroszyt
 
@@ -76,17 +78,17 @@ Przykładowy plik Excela tutaj musi zawierać inteligentne znaczniki, aby ta fun
 
 ## Krok 4: Skonfiguruj ustawienia skoroszytu
 
-Teraz należy upewnić się, że ustawienia skoroszytu są skonfigurowane tak, aby prawidłowo obsługiwać wiodące apostrofy.
+Teraz musisz się upewnić, że ustawienia skoroszytu są skonfigurowane tak, aby prawidłowo obsługiwać wiodące apostrofy.
 
 ```csharp
 workbook.Settings.QuotePrefixToStyle = false;
 ```
 
- Poprzez ustawienie`QuotePrefixToStyle` na false, instruujemy Aspose.Cells, aby traktował wiodące apostrofy jako zwykłe znaki, co pozwoli nam na ich prawidłową obsługę w wynikach.
+Poprzez ustawienie `QuotePrefixToStyle` na false, instruujemy Aspose.Cells, aby traktował wiodące apostrofy jako zwykłe znaki, co pozwoli nam na ich prawidłową obsługę w wynikach.
 
 ## Krok 5: Załaduj dane dla inteligentnych znaczników
 
-Czas utworzyć źródło danych, które zastąpi inteligentne znaczniki w szablonie programu Excel.
+Czas utworzyć nasze źródło danych, które zastąpi inteligentne znaczniki w szablonie programu Excel.
 
 ```csharp
 List<DataObject> list = new List<DataObject>
@@ -96,7 +98,7 @@ List<DataObject> list = new List<DataObject>
 };
 ```
 
- Tworzymy listę`DataObject`gdzie jedna z nazw celowo zawiera wiodący apostrof. Pomoże to zilustrować, jak Aspose.Cells radzi sobie z takimi scenariuszami.
+Tworzymy listę `DataObject`, gdzie jedna z nazw celowo zawiera wiodący apostrof. Pomoże to zilustrować, jak Aspose.Cells radzi sobie z takimi scenariuszami.
 
 ## Krok 6: Powiąż źródło danych z projektantem
 
@@ -130,7 +132,7 @@ Dzięki temu nasz zmodyfikowany arkusz programu Excel zostanie zapisany pod now�
 
 ## Krok 9: Potwierdź pomyślne wykonanie
 
-Ostatnim krokiem jest poinformowanie użytkownika, że operacja zakończyła się powodzeniem.
+Ostatnim krokiem jest poinformowanie użytkownika, że operacja się powiodła.
 
 ```csharp
 Console.WriteLine("AllowLeadingApostrophe executed successfully.");
@@ -150,19 +152,21 @@ Teraz, niezależnie od tego, czy generujesz raporty, tworzysz funkcjonalności d
 Aspose.Cells to potężna biblioteka .NET umożliwiająca programowe tworzenie, edytowanie i konwertowanie plików Excel w wielu formatach.
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz używać Aspose.Cells, rejestrując się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+Tak, możesz używać Aspose.Cells, rejestrując się na bezpłatny okres próbny [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Pomoc i pytania można uzyskać na stronie[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Pomoc i pytania można uzyskać na stronie [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Jakie typy plików obsługuje Aspose.Cells?
 Aspose.Cells obsługuje wiele formatów, takich jak XLS, XLSX, CSV i wiele innych.
 
 ### Jak kupić licencję na Aspose.Cells?
- Licencję na Aspose.Cells możesz kupić bezpośrednio na stronie zakupu[Tutaj](https://purchase.aspose.com/buy).
+Licencję na Aspose.Cells możesz kupić bezpośrednio na stronie zakupu [Tutaj](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

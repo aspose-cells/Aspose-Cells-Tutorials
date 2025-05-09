@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ if (shape.getAutoShapeType() == AutoShapeType.NOT_PRIMITIVE) {
 pontos manipulációhoz végig kell haladni azokon a pontokon, amelyek egy nem primitív alakzat útját határozzák meg.
 
 ##### 1. lépés: Alakzatútvonalak gyűjteményének elérése
-Az alakzaton belüli összes útvonalszegmens lekérése és feldolgozása:
+Az alakzaton belüli egyes útvonalszegmensek lekérése és feldolgozása:
 ```java
 import com.aspose.cells.ShapePath;
 import com.aspose.cells.ShapeSegmentPathCollection;
@@ -184,7 +186,7 @@ Fedezze fel a témát az Aspose.Cells haladóbb funkcióinak megismerésével, v
 **A5**Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) részletes útmutatókért és példaprojektekért.
 
 ## Erőforrás
-- **Dokumentáció**Tekintse meg az API részletes leírását itt: [Aspose referenciaoldala](https://reference.aspose.com/cells/java/).
+- **Dokumentáció**Az API részletes leírását itt tekintheti meg: [Aspose referenciaoldala](https://reference.aspose.com/cells/java/).
 - **Aspose.Cells Java letöltése**: Szerezd meg a legújabb verziót innen: [itt](https://releases.aspose.com/cells/java/).
 - **Vásárlás**: Tudjon meg többet a vásárlási lehetőségekről itt: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 - **Ingyenes próbaverzió**: Kezdj el kísérletezni egy ingyenes próbaverzióval még ma.
@@ -192,6 +194,9 @@ Fedezze fel a témát az Aspose.Cells haladóbb funkcióinak megismerésével, v
 - **Támogatási fórum**: Csatlakozz a beszélgetésekhez és kérj segítséget a következő oldalon: [Aspose fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

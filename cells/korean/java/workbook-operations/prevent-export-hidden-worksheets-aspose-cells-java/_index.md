@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ public class PreventExportingHiddenWorksheetContent {
         // 내보내기 옵션 초기화
         IStreamProvider options = new ImplementingIStreamProvider();
         
-        // 숨겨진 워크시트를 내보내지 않도록 옵션 설정
+        // 숨겨진 워크시트를 내보내지 않도록 옵션을 설정합니다.
         options.setExportHiddenWorksheet(false);
     }
 }
@@ -177,6 +179,9 @@ A5: 물론입니다. Aspose.Cells는 복잡한 수식 계산이 포함된 시트
 - **구입**: 전체 액세스를 위해서는 다음을 통해 라이센스 구매를 고려하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

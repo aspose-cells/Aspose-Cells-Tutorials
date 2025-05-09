@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ Pro zajištění optimálního výkonu při používání Aspose.Cells pro Javu 
 Dodržováním tohoto průvodce jste se naučili, jak upravovat a ověřovat popisky objektů OLE pomocí Aspose.Cells pro Javu. Tyto dovednosti vám pomohou efektivněji spravovat soubory Excelu v různých profesionálních situacích. Pro další zkoumání zvažte ponoření se do dalších funkcí Aspose.Cells, které vám odemknou ještě větší potenciál při správě dat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

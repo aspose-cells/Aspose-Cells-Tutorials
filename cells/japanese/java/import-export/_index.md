@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,10 +81,10 @@ Aspose.Cells for Javaを使用してExcelブックを画像に変換する方法
 Aspose.Cells for Java を使用して Excel ファイルから XML データをエクスポートする方法を学びます。このガイドでは、ワークブックの読み込みと XML マップの効率的なエクスポートについて説明します。
 
 ### [Aspose.Cells Java を使用して Excel から .mol ファイルを抽出する: 包括的なガイド](./extract-mol-files-excel-aspose-cells-java/)
-Aspose.Cells for Java を使用して、Excel に埋め込まれた分子ファイル (.mol) を効率的に抽出する方法を学びましょう。この詳細なステップバイステップガイドで、化学データ分析を効率化しましょう。
+Aspose.Cells for Java を使用して、Excel から埋め込まれた分子ファイル (.mol) を効率的に抽出する方法を学びましょう。この詳細なステップバイステップガイドで、化学データ分析を効率化しましょう。
 
 ### [Aspose.Cells Java を使用して Excel から XML パスを抽出する: ステップバイステップ ガイド](./extract-xml-path-excel-aspose-cells-java/)
-Aspose.Cells for Javaを使用してExcelテーブルからXMLパスを抽出する方法を学びましょう。このガイドでは、セットアップ、コード例、そしてシームレスなデータ統合のための実用的なアプリケーションについて説明します。
+Aspose.Cells for Javaを使用してExcelテーブルからXMLパスを抽出する方法を学びましょう。このガイドでは、セットアップ、コード例、そしてシームレスなデータ統合のための実用的なアプリケーションを網羅しています。
 
 ### [Aspose.Cells for Java を使用して ArrayList データを Excel にインポートする](./import-arraylist-data-excel-aspose-cells-java/)
 Aspose.Words Javaのコードチュートリアル
@@ -123,6 +125,9 @@ Aspose.Cells for Javaを使用してXMLデータを効率的に解析し、Excel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

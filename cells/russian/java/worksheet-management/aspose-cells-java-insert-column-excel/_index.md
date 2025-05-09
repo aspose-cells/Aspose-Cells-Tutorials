@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ Aspose.Cells для Java можно использовать в различны
 ## Соображения производительности (H2)
 При работе с большими файлами Excel примите во внимание следующие советы:
 - **Управление памятью**: Используйте потоковые API для эффективной обработки больших рабочих книг.
-- **Оптимизируйте использование ресурсов**: Закрывайте потоки и ресурсы сразу после использования.
+- **Оптимизация использования ресурсов**: Закрывайте потоки и ресурсы сразу после использования.
 - **Управление памятью Java**: Настройте параметры JVM для оптимальной производительности при обработке больших объемов данных.
 
 ## Заключение
@@ -176,6 +178,9 @@ Aspose.Cells для Java можно использовать в различны
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

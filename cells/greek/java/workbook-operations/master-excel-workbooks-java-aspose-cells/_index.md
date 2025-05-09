@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Shape sh = ws.getShapes().get(0);
 Είστε έτοιμοι να εφαρμόσετε τη λύση σας; Ακολουθήστε αυτά τα βήματα, εξερευνήστε τους παρεχόμενους πόρους και ξεκινήστε να βελτιώνετε τις εφαρμογές Java σας με το Aspose.Cells σήμερα!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

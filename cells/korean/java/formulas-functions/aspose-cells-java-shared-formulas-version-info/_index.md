@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,12 +201,15 @@ Java용 Aspose.Cells는 광범위한 가능성을 제공합니다.
 - **선적 서류 비치**: 포괄적인 가이드 및 API 참조 [Aspose Cells Java 참조](https://reference.aspose.com/cells/java/)
 - **라이브러리 다운로드**: 최신 릴리스는 다음에서 사용 가능합니다. [Aspose 릴리스](https://releases.aspose.com/cells/java/)
 - **라이센스 구매**: 다음을 통해 구매를 보호하세요. [Aspose 구매 포털](https://purchase.aspose.com/buy)
-- **무료 체험**: 무료 체험판을 통해 기능을 테스트하세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/)
+- **무료 체험**무료 체험판을 통해 기능을 테스트하세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/)
 - **임시 면허**: 임시면허 신청 [Aspose 임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼**: 지원 포럼에서 다른 사용자와 Aspose 전문가로부터 도움을 받으세요
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial otomatisasi kami menunjukkan kepada Anda cara memproses file Excel secara efisien dalam skala besar menggunakan Aspose.Cells di Java. Panduan praktis ini menunjukkan teknik untuk memproses beberapa lembar kerja secara batch, menerapkan otomatisasi alur kerja, dan membuat operasi terjadwal untuk manipulasi dokumen Excel. Setiap tutorial menyertakan contoh kode Java yang berfungsi untuk skenario otomatisasi umum, membantu Anda membangun sistem tangguh yang dapat menangani pemrosesan lembar kerja bervolume tinggi dengan intervensi manual minimal.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi otomatisasi & pemrosesan batch
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -98,10 +100,13 @@ Pelajari cara mengotomatiskan tugas Excel menggunakan Aspose.Cells untuk Java. P
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

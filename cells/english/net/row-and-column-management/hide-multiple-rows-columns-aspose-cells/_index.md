@@ -8,7 +8,9 @@ url: /net/row-and-column-management/hide-multiple-rows-columns-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Multiple Rows and Columns in Aspose.Cells .NET
@@ -111,6 +113,7 @@ You can download a [free trial](https://releases.aspose.com/) or apply for a [te
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

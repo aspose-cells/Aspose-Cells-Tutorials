@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/create-slicer-pivot-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Slicer for Pivot Table in Aspose.Cells .NET
@@ -109,6 +111,7 @@ Absolutely! You can reach out for support on [Aspose's forum](https://forum.aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

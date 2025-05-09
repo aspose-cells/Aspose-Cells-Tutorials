@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Na gestão de dados, a apresentação é fundamental. Alterar a direção do texto nos comentários do Excel pode melhorar a legibilidade e garantir a clareza em diferentes contextos linguísticos. Este tutorial orienta você no uso do Aspose.Cells para Java para ajustar a direção do texto dos comentários, com suporte para idiomas com leitura da direita para a esquerda, como árabe ou hebraico.
 
-## que você aprenderá
+## O que você aprenderá
 - Configure o Aspose.Cells para Java no seu projeto.
 - Alterar a direção do texto nos comentários do Excel.
 - Explore aplicações práticas e possibilidades de integração com outros sistemas.
@@ -61,7 +63,7 @@ Esta configuração permite a manipulação perfeita de documentos do Excel.
 ## Guia de Implementação
 Siga estas etapas para implementar alterações na direção do texto nos comentários.
 
-### Adicionando e modificando comentários
+### Adicionar e modificar comentários
 #### Visão geral
 Melhore a clareza do documento adicionando comentários às células e personalizando a direção do texto, o que é especialmente útil para documentos multilíngues ou sistemas que exigem formatação específica.
 
@@ -155,6 +157,9 @@ Comece a experimentar o Aspose.Cells para Java hoje mesmo e transforme a maneira
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

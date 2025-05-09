@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,6 +118,9 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 انغمس في عالم تحويلات Excel بكل سهولة باستخدام Aspose.Cells، وقم بتغيير طريقة مشاركة البيانات وإدارتها!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

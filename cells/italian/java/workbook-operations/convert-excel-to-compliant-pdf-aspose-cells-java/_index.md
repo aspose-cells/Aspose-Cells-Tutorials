@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Tratteremo ogni aspetto, dall'impostazione delle librerie necessarie alla config
 - Configurazione delle opzioni di salvataggio PDF per standard di conformità come PDF/A
 - Salvataggio di una cartella di lavoro di Excel come file PDF conforme
 
-Grazie a queste informazioni, sarai in grado di gestire in modo efficiente e preciso le attività di conversione dei dati. Analizziamo i prerequisiti necessari prima di iniziare.
+Grazie a queste informazioni, sarai in grado di gestire le attività di conversione dei dati in modo efficiente e preciso. Analizziamo i prerequisiti necessari prima di iniziare.
 
 ## Prerequisiti
 
@@ -197,6 +199,9 @@ Pronti a mettere in pratica ciò che avete imparato? Provate a implementare ques
    - Puoi esplorare il [Organizzazione internazionale per la normazione (ISO)](https://www.iso.org/standards.html) sito web per la documentazione dettagliata sui vari livelli di conformità PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

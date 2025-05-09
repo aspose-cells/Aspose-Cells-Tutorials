@@ -1,14 +1,16 @@
 ---
-title: Отображение и скрытие полос прокрутки рабочего листа
-linktitle: Отображение и скрытие полос прокрутки рабочего листа
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как отображать и скрывать полосы прокрутки на листах Excel с помощью Aspose.Cells для .NET, из этого подробного и простого в использовании руководства.
-weight: 50
-url: /ru/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
+"description": "Узнайте, как отображать и скрывать полосы прокрутки на листах Excel с помощью Aspose.Cells для .NET, из этого подробного и простого в использовании руководства."
+"linktitle": "Отображение и скрытие полос прокрутки рабочего листа"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Отображение и скрытие полос прокрутки рабочего листа"
+"url": "/ru/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Отображение и скрытие полос прокрутки рабочего листа
@@ -19,12 +21,12 @@ url: /ru/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bar
 
 ## Предпосылки
 
-Прежде чем начать, убедитесь, что у вас есть все необходимое:
+Прежде чем начать, давайте убедимся, что у вас есть все необходимое:
 
 1. Базовые знания C#: базовые знания программирования на C# будут полезны, поскольку мы будем писать фрагменты кода на этом языке.
-2.  Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Вам понадобится библиотека Aspose.Cells. Вы можете [скачать здесь](https://releases.aspose.com/cells/net/).
 3. Настройка IDE: Интегрированная среда разработки (IDE), например Visual Studio или редактор кода, для написания и выполнения кода C#.
-4.  Файл Excel: пример файла Excel (например,`book1.xls`), которые вы можете редактировать и тестировать.
+4. Файл Excel: пример файла Excel (например, `book1.xls`), которые вы можете редактировать и тестировать.
 
 Как только вы выполните эти предварительные условия, мы сможем погрузиться в код.
 
@@ -51,7 +53,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- Заменять`YOUR DOCUMENT DIRECTORY` с фактическим путем, где хранится ваш файл Excel. Это позволяет вашей программе находить необходимые файлы, которыми она будет манипулировать.
+Заменять `YOUR DOCUMENT DIRECTORY` с фактическим путем, где хранится ваш файл Excel. Это позволяет вашей программе находить необходимые файлы, которыми она будет манипулировать.
 
 ## Шаг 2: Создание потока файлов
 
@@ -62,18 +64,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- The`FileStream`класс позволяет вам читать и писать в файлы. В этом случае мы открываем наш файл Excel в режиме чтения.
+The `FileStream` класс позволяет вам читать и писать в файлы. В этом случае мы открываем наш файл Excel в режиме чтения.
 
 ## Шаг 3: Создание экземпляра объекта Workbook
 
- Далее вам необходимо создать`Workbook` объект, представляющий ваш файл Excel в коде.
+Далее вам необходимо создать `Workbook` объект, представляющий ваш файл Excel в коде.
 
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
   
- Этот`Workbook` объект теперь содержит все данные и настройки вашего файла Excel, что позволяет производить манипуляции в дальнейшем.
+Этот `Workbook` объект теперь содержит все данные и настройки вашего файла Excel, что позволяет производить манипуляции в дальнейшем.
 
 ## Шаг 4: Скройте вертикальную полосу прокрутки
 
@@ -84,7 +86,7 @@ Workbook workbook = new Workbook(fstream);
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- Установив`IsVScrollBarVisible` к`false`, вертикальная полоса прокрутки скрыта от просмотра. Это может быть особенно полезно, когда вы хотите ограничить прокрутку удобным для пользователя способом.
+Установив `IsVScrollBarVisible` к `false`, вертикальная полоса прокрутки скрыта от просмотра. Это может быть особенно полезно, когда вы хотите ограничить прокрутку удобным для пользователя способом.
 
 ## Шаг 5: Скройте горизонтальную полосу прокрутки
 
@@ -126,22 +128,24 @@ fstream.Close();
 ## Часто задаваемые вопросы
 
 ### Можно ли снова отобразить полосы прокрутки после их скрытия?  
- Да! Вам просто нужно установить`IsVScrollBarVisible` и`IsHScrollBarVisible` вернуться к`true`.
+Да! Вам просто нужно установить `IsVScrollBarVisible` и `IsHScrollBarVisible` вернуться к `true`.
 
 ### Можно ли использовать Aspose.Cells бесплатно?  
- Aspose.Cells не является полностью бесплатным, но вы можете попробовать его бесплатно в течение ограниченного времени или рассмотреть возможность покупки.[временная лицензия](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells не является полностью бесплатным, но вы можете попробовать его бесплатно в течение ограниченного времени или рассмотреть возможность покупки. [временная лицензия](https://purchase.aspose.com/temporary-license/).
 
 ### С какими типами файлов Excel можно работать с помощью Aspose.Cells?  
 Вы можете работать с различными форматами Excel, включая .xls, .xlsx, .xlsm, .xlsb и т. д.
 
 ### Где я могу найти больше примеров?  
- Проверьте[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для дополнительных примеров и руководств.
+Проверьте [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для дополнительных примеров и руководств.
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose.Cells?  
-Вы можете обратиться за помощью или сообщить о проблемах на форуме поддержки Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Вы можете обратиться за помощью или сообщить о проблемах на форуме поддержки Aspose. [здесь](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

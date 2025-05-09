@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,12 +174,15 @@ Aspose.Cells가 제공하는 스트리밍 기능을 사용하면 대용량 데�
 - **다운로드**: [Java 릴리스용 Aspose 셀](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose 제품 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 이 튜토리얼을 통해 Aspose.Cells for Java를 사용하여 Excel에서 열 너비를 설정하는 방법을 익힐 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

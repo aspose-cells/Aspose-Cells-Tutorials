@@ -1,25 +1,27 @@
 ---
-title: Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML
-linktitle: Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu.
-weight: 21
-url: /pl/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/
+"description": "Łatwe ustawianie nazwy pojedynczej karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu."
+"linktitle": "Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML"
+"url": "/pl/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie nazwy pojedynczej karty arkusza w eksporcie HTML
 
 ## Wstęp
-W dzisiejszym cyfrowym świecie obsługa i eksportowanie danych w różnych formatach to kluczowa umiejętność. Czy kiedykolwiek zdarzyło Ci się eksportować dane z arkusza Excela do formatu HTML, zachowując jednocześnie określone ustawienia, takie jak nazwa karty arkusza? Jeśli chcesz to osiągnąć, trafiłeś we właściwe miejsce! W tym artykule zagłębimy się w to, jak ustawić pojedynczą nazwę karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Pod koniec tego samouczka będziesz czuć się pewnie, poruszając się po tym procesie i rozwijając swoje umiejętności zarządzania danymi. Zaczynajmy!
+dzisiejszym cyfrowym świecie obsługa i eksportowanie danych w różnych formatach to kluczowa umiejętność. Czy kiedykolwiek zdarzyło Ci się eksportować dane z arkusza Excela do formatu HTML, zachowując jednocześnie określone ustawienia, takie jak nazwa karty arkusza? Jeśli chcesz to osiągnąć, trafiłeś we właściwe miejsce! W tym artykule zagłębimy się w to, jak ustawić pojedynczą nazwę karty arkusza podczas eksportu HTML przy użyciu Aspose.Cells dla .NET. Pod koniec tego samouczka będziesz czuć się pewnie, poruszając się po tym procesie i rozwijając swoje umiejętności zarządzania danymi. Zaczynajmy!
 ## Wymagania wstępne
 Zanim przejdziemy do sedna tego poradnika, omówmy, co będzie potrzebne, aby wszystko działało sprawnie:
 ### Niezbędne oprogramowanie
 - Microsoft Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio, ponieważ stanowi on środowisko, w którym będziemy pisać i wykonywać nasz kod.
-- Aspose.Cells dla .NET: Ta biblioteka powinna być przywoływana w Twoim projekcie. Możesz ją pobrać ze strony[Pobieranie Aspose](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Ta biblioteka powinna być przywoływana w Twoim projekcie. Możesz ją pobrać ze strony [Pobieranie Aspose](https://releases.aspose.com/cells/net/).
 ### Podstawowe zrozumienie
 - Znajomość podstaw programowania w C# jest kluczowa. Jeśli wcześniej próbowałeś kodowania, powinieneś czuć się jak w domu. 
 ### Konfiguracja projektu
@@ -31,7 +33,7 @@ Otwórz projekt Visual Studio utworzony w poprzednim kroku.
 ### Dodaj odniesienie do Aspose.Cells
 1. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 2. Wybierz „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.Cells` i zainstaluj pakiet.
+3. Szukaj `Aspose.Cells` i zainstaluj pakiet.
 4. Ten krok gwarantuje, że masz wszystkie niezbędne biblioteki do pracy z plikami Excela.
 ### Dodaj wymagane przestrzenie nazw
 W pliku kodu dodaj na górze następujące przestrzenie nazw:
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Tutaj zastąpisz`"Your Document Directory"` z rzeczywistą ścieżką do Twoich katalogów. Pomyśl o tym kroku jako o przygotowaniu sceny do sztuki — wszystko musi być na swoim miejscu!
+Tutaj zastąpisz `"Your Document Directory"` z rzeczywistą ścieżką do Twoich katalogów. Pomyśl o tym kroku jako o przygotowaniu sceny do sztuki — wszystko musi być na swoim miejscu!
 ## Krok 2: Załaduj swój skoroszyt
 Następnie załadujmy skoroszyt, który chcemy wyeksportować.
 ```csharp
@@ -106,16 +108,18 @@ Pamiętaj, że możliwości są ogromne. Ten samouczek to zaledwie wierzchołek 
 ### Czym jest Aspose.Cells dla .NET?  
 Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excel w aplikacjach .NET bez konieczności instalowania programu Microsoft Excel.
 ### Czy mogę wypróbować Aspose.Cells za darmo?  
-Tak! Możesz pobrać bezpłatną wersję próbną, aby zapoznać się ze wszystkimi jej funkcjami przed dokonaniem zakupu. Sprawdź[bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną, aby zapoznać się ze wszystkimi jej funkcjami przed dokonaniem zakupu. Sprawdź [bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację?  
- Aby uzyskać szczegółową dokumentację, odwiedź stronę[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Aby uzyskać szczegółową dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 ### Co powinienem zrobić, jeśli napotkam problemy?  
- Ten[Fora Aspose](https://forum.aspose.com/c/cells/9) zapewnij wsparcie społeczności, gdzie możesz zadać pytania i znaleźć rozwiązania.
+Ten [Fora Aspose](https://forum.aspose.com/c/cells/9) zapewnij wsparcie społeczności, gdzie możesz zadać pytania i znaleźć rozwiązania.
 ### Czy można zarządzać ukrytymi arkuszami podczas eksportowania do formatu HTML?  
- Absolutnie! Ustawiając`options.ExportHiddenWorksheet = true;`, ukryte arkusze są uwzględniane w eksporcie.
+Absolutnie! Ustawiając `options.ExportHiddenWorksheet = true;`, ukryte arkusze są uwzględniane w eksporcie.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

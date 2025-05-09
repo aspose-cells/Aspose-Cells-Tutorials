@@ -1,14 +1,16 @@
 ---
-title: Применение условного форматирования во время выполнения в Excel
-linktitle: Применение условного форматирования во время выполнения в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как применять условное форматирование во время выполнения в Excel с помощью Aspose.Cells для .NET, в этом подробном пошаговом руководстве.
-weight: 11
-url: /ru/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/
+"description": "Узнайте, как применять условное форматирование во время выполнения в Excel с помощью Aspose.Cells для .NET, в этом подробном пошаговом руководстве."
+"linktitle": "Применение условного форматирования во время выполнения в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Применение условного форматирования во время выполнения в Excel"
+"url": "/ru/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Применение условного форматирования во время выполнения в Excel
@@ -21,7 +23,7 @@ url: /ru/net/excel-conditional-formatting/applying-conditional-formatting-at-run
 Прежде чем погрузиться в код, давайте убедимся, что у вас есть все необходимое для начала работы:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Вы можете использовать любую версию, которая поддерживает разработку .NET.
-2.  Aspose.Cells for .NET: Вам понадобится установленный Aspose.Cells for .NET. Вы можете загрузить его с[Сайт Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Вам понадобится установленный Aspose.Cells for .NET. Вы можете загрузить его с [Сайт Aspose](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понимать фрагменты кода.
 4. .NET Framework: убедитесь, что ваш проект ориентирован на совместимую версию .NET Framework.
 
@@ -115,7 +117,7 @@ int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorTyp
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 ```
 
- На этом этапе мы добавляем два условия: одно для значений между`A2` и`100` , а другой для значений между`50` и`100`. Это позволяет динамически выделять ячейки на основе их значений.
+На этом этапе мы добавляем два условия: одно для значений между `A2` и `100`, а другой для значений между `50` и `100`. Это позволяет динамически выделять ячейки на основе их значений.
 
 ## Шаг 7: Установка стилей форматирования
 С нашими условиями теперь мы можем задать стили форматирования. Давайте изменим цвет фона для наших условий:
@@ -144,23 +146,25 @@ workbook.Save(dataDir + "output.xls");
 ## Часто задаваемые вопросы
 
 ### Что такое Aspose.Cells?
-Aspose.Cells — это библиотека .NET, которая позволяет разработчикам программно создавать, изменять и преобразовывать файлы Excel.
+Aspose.Cells — это библиотека .NET, которая позволяет разработчикам программно создавать, изменять и конвертировать файлы Excel.
 
 ### Могу ли я использовать Aspose.Cells с другими языками программирования?
 Да, Aspose.Cells доступен для нескольких языков программирования, включая Java, Python и другие.
 
 ### Существует ли бесплатная пробная версия Aspose.Cells?
- Да, вы можете загрузить бесплатную пробную версию с сайта[Сайт Aspose](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [Сайт Aspose](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку по Aspose.Cells?
- Вы можете получить поддержку, посетив[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете получить поддержку, посетив [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Нужна ли мне лицензия для использования Aspose.Cells?
- Да, для коммерческого использования требуется лицензия, но вы можете запросить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+Да, для коммерческого использования требуется лицензия, но вы можете запросить временную лицензию. [здесь](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **概述**：快速產生一個空的 Excel 工作簿來開始資料操作。
 
 **步驟：**
-1. **實例化工作簿**：創建一個 `Workbook` 目的。
+1. **實例化工作簿**：創建 `Workbook` 目的。
 2. **輸出目錄**：定義要儲存檔案的位置。
 
 ```java
@@ -195,6 +197,9 @@ Aspose.Cells for Java 功能多樣，可滿足眾多實際場景的需求：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de imagens e formas mostram como aprimorar planilhas do Excel com elementos visuais usando o Aspose.Cells em Java. Estes guias práticos explicam como inserir e formatar imagens, criar formas personalizadas, implementar diagramas e gerenciar objetos de desenho em planilhas. Cada tutorial inclui exemplos detalhados de código Java para cenários comuns de aprimoramento visual, ajudando você a criar aplicativos de planilha mais envolventes que combinam dados com elementos gráficos de forma eficaz.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de imagens e formas
 - Implementação passo a passo com exemplos de código completos
@@ -141,6 +143,9 @@ Aprenda a aprimorar seus relatórios do Excel adicionando imagens de fundo com o
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

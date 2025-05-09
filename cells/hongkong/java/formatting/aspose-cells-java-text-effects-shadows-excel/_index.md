@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 ### 介紹
 
-透過使用 Java 和 Aspose.Cells 添加視覺上吸引人的文字效果陰影來轉換您的 Excel 報表。本指南將向您展示如何增強電子表格的視覺吸引力，使其在簡報或數據報告中更具吸引力。
+使用 Java 和 Aspose.Cells 新增視覺上吸引人的文字效果陰影來轉換您的 Excel 報表。本指南將向您展示如何增強電子表格的視覺吸引力，使其在簡報或數據報告中更具吸引力。
 
 **您將學到什麼：**
 - 使用 Aspose.Cells 在 Excel 中實現文字效果陰影
@@ -201,6 +203,9 @@ A5：是的，有效管理記憶體並僅在必要時應用效果有助於優化
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

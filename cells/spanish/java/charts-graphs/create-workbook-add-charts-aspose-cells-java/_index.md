@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Para comenzar a utilizar Aspose.Cells para Java, puede:
 - Solicitar una **licencia temporal** Si es necesario para pruebas prolongadas.
 - Compre una licencia completa para uso en producción.
 
-Para adquirir licencias, visite el [página de compra](https://purchase.aspose.com/buy).
+Para adquirir licencias, visite el sitio [página de compra](https://purchase.aspose.com/buy).
 
 ### Inicialización básica
 Una vez instalado, inicialice Aspose.Cells de la siguiente manera:
@@ -210,6 +212,9 @@ Explore más integrando Aspose.Cells con otros sistemas o experimentando con dif
 ¡Comience a utilizar Aspose.Cells para Java hoy mismo para mejorar sus capacidades de visualización de datos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,51 +1,56 @@
 ---
-title: تغيير ترتيب النص الشكل في Excel باستخدام Aspose.Cells
-weight: 7700
-limit: 
-description: تعلم كيفية التعامل مع النص داخل الشكل في ورقة عمل Excel باستخدام Aspose.Cells ل .NET. حدد خصائص التصفيق النصي والإنشاء من دفتر العمل المعدل.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /ar/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "تعلّم كيفية التعامل مع النص داخل شكل في ورقة عمل Excel باستخدام Aspose.Cells لـ .NET. عيّن خصائص محاذاة النص واحفظ المصنف المعدّل."
+"title": "تعديل محاذاة نص الشكل في Excel باستخدام Aspose.Cells"
+"url": "/ar/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تغيير ترتيب النص الشكل في Excel باستخدام Aspose.Cells
+# تعديل محاذاة نص الشكل في Excel باستخدام Aspose.Cells
 
-يوضح هذا التعليم كيفية تعديل التنظيم النصي داخل شكل في ورقة عمل Excel باستخدام Aspose.Cells ل .NET. من خلال الاستفادة من الميزات القوية ل Aspose.Cells ، يمكنك منع النص من التناوب مع الشكل وتخصيص خصائص التنظيم النصي. يوفّر لك المثال من خلال تحميل ملف Excel ، والوصول إلى ورقة عمل ، وتعديل النص داخل الشكل ، وتخزين دفتر العمل المحدث. سواء كنت تتلقّم التقارير ، وإنشاء نماذج ، أو تخصيص بصور Excel ، يجعل هذا الدليل خطوة بخطوة بسيطة.  
+يوضح هذا البرنامج التعليمي كيفية تعديل محاذاة النص داخل شكل في ورقة عمل Excel باستخدام Aspose.Cells لـ .NET. بالاستفادة من ميزات Aspose.Cells القوية، يمكنك منع دوران النص مع الشكل وتخصيص خصائص محاذاة النص. يرشدك هذا المثال خلال تحميل ملف Excel، والوصول إلى ورقة العمل، وتعديل النص داخل الشكل، وحفظ المصنف المُحدّث. سواء كنت تُؤتمت التقارير، أو تُنشئ قوالب، أو تُخصص عناصر Excel المرئية، فإن هذا الدليل المُفصّل يُسهّل عليك الأمر.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت:  
 
-لاستخدام Aspose.Cells ل .NET في مشروعك، اتبع هذه الخطوات:  
+لاستخدام Aspose.Cells لـ .NET في مشروعك، اتبع الخطوات التالية:  
 
-1. قم بتثبيتها عبر مدير الحزمات NuGet:  
-   * افتح استوديو "بيزيوال".  
-   * اذهب إلى أدوات → مدير حزم NuGet → إدارة حزم NuGet للحصول على الحل.  
-   * ابحث عن Aspose.Cells واكتتاب النسخة الأخيرة  
+1. التثبيت عبر مدير حزمة NuGet:  
+   - افتح Visual Studio.  
+   - انتقل إلى الأدوات → مدير حزمة NuGet → إدارة حزم NuGet للحل.  
+   - ابحث عن Aspose.Cells وقم بتثبيت الإصدار الأحدث.  
 
-2. إضافة عبر جهاز إدارة الحزم:  
-   * فتح مديري الحزمات في Visual Studio.  
-   * أطلق القيادة:  
+2. التثبيت عبر وحدة تحكم إدارة الحزم:  
+   - افتح وحدة تحكم إدارة الحزم في Visual Studio.  
+   - قم بتشغيل الأمر:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
 3. التنزيل من موقع Aspose:  
-   * قم بتنزيل أحدث الإصدار من [Aspose.Cells ل .NET تنزيل](https://releases.aspose.com/cells/net/). . .  
-   * إضافة DLL إلى إشارات المشروع الخاص بك.  
+   - قم بتنزيل أحدث إصدار من [تنزيل Aspose.Cells لـ .NET](https://releases.aspose.com/cells/net/).  
+   - أضف DLL إلى مراجع مشروعك.  
 
-## انظر أيضاً  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

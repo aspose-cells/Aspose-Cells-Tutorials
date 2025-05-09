@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 - **ห้องสมุดที่จำเป็น:** Aspose.Cells สำหรับ Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
 - **การตั้งค่าสภาพแวดล้อม:** สภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับ Java และมีความคุ้นเคยกับเครื่องมือสร้าง Maven/Gradle
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับ Java และมีความคุ้นเคยกับเครื่องมือสร้าง Maven/Gradle
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -120,7 +122,7 @@ public class ConvertExample {
 **ทำไม:** การระบุ `SaveFormat.XLSM` ช่วยให้แน่ใจว่าไฟล์เอาต์พุตมีฟังก์ชันมาโคร ทำให้เหมาะกับการใช้งานขั้นสูง
 
 ### เคล็ดลับการแก้ไขปัญหา
-- **ไม่พบไฟล์ข้อยกเว้น:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ของคุณถูกต้อง
+- **ข้อยกเว้นไม่พบไฟล์:** ตรวจสอบให้แน่ใจว่าเส้นทางไฟล์ของคุณถูกต้อง
 - **ปัญหาความเข้ากันได้ของเวอร์ชัน:** ตรวจสอบว่าคุณกำลังใช้ Aspose.Cells เวอร์ชันที่เข้ากันได้ (25.3 ขึ้นไป)
 
 ## การประยุกต์ใช้งานจริง
@@ -172,6 +174,9 @@ public class ConvertExample {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

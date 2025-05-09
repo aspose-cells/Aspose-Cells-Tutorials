@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/apply-3d-format-to-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply 3D Format to Chart
@@ -222,6 +224,7 @@ For support, you can visit the [Aspose Forum](https://forum.aspose.com/c/cells/9
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

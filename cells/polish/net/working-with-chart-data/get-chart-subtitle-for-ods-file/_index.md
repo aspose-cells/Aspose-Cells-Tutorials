@@ -1,14 +1,16 @@
 ---
-title: Pobierz podtytuł wykresu dla pliku ODS
-linktitle: Pobierz podtytuł wykresu dla pliku ODS
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wyodrębnić napisy wykresów z plików ODS za pomocą Aspose.Cells dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów.
-weight: 12
-url: /pl/net/working-with-chart-data/get-chart-subtitle-for-ods-file/
+"description": "Dowiedz się, jak wyodrębnić napisy wykresów z plików ODS za pomocą Aspose.Cells dla .NET dzięki temu szczegółowemu przewodnikowi krok po kroku. Idealne dla programistów."
+"linktitle": "Pobierz podtytuł wykresu dla pliku ODS"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobierz podtytuł wykresu dla pliku ODS"
+"url": "/pl/net/working-with-chart-data/get-chart-subtitle-for-ods-file/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz podtytuł wykresu dla pliku ODS
@@ -22,9 +24,9 @@ Pliki Excela są wszechobecne w dzisiejszym świecie zorientowanym na dane, słu
 Zanim przejdziesz do samouczka, upewnij się, że skonfigurowałeś wszystko, co jest potrzebne do efektywnego korzystania z Aspose.Cells dla .NET. Oto lista kontrolna, której należy przestrzegać:
 
 1. .NET Framework: Upewnij się, że na Twoim komputerze jest zainstalowany .NET Framework. 
-2.  Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells. Możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells. Możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 3. IDE: Choć wystarczy dowolny edytor kodu, użycie IDE, np. Visual Studio, zapewnia solidną platformę do tworzenia oprogramowania .NET.
-4. Przykładowy plik ODS: Będziesz potrzebować pliku ODS zawierającego wykresy. W tym samouczku użyjemy`SampleChart.ods`.
+4. Przykładowy plik ODS: Będziesz potrzebować pliku ODS zawierającego wykresy. W tym samouczku użyjemy `SampleChart.ods`.
 5. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci szybko zrozumieć koncepcję i wprowadzić niezbędne modyfikacje.
 
 ## Importuj pakiety
@@ -38,14 +40,14 @@ using Aspose.Cells.Charts;
 
 Te przestrzenie nazw dadzą ci dostęp do klas i metod używanych w Aspose.Cells do pracy z plikami Excela i ich składnikami, takimi jak wykresy.
 
-Teraz przejdźmy do konkretów. Postępuj zgodnie z tymi instrukcjami krok po kroku, aby wyodrębnić podtytuł wykresu z pliku ODS.
+Teraz przejdźmy do konkretów. Postępuj zgodnie z poniższymi instrukcjami krok po kroku, aby wyodrębnić podtytuł wykresu z pliku ODS.
 
 ## Krok 1: Skonfiguruj swój projekt
 
 Utwórz nowy projekt aplikacji konsolowej
 
 - Otwórz program Visual Studio (lub preferowane środowisko IDE).
--  Utwórz nowy projekt aplikacji konsolowej i nadaj mu odpowiednią nazwę, np.`ChartSubtitleExtractor`.
+- Utwórz nowy projekt aplikacji konsolowej i nadaj mu odpowiednią nazwę, np. `ChartSubtitleExtractor`.
 
 ## Krok 2: Dodaj pakiet NuGet Aspose.Cells
 
@@ -53,7 +55,7 @@ Zainstaluj bibliotekę Aspose.Cells za pomocą NuGet
 
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
--  Szukaj`Aspose.Cells` i kliknij „Zainstaluj”.
+- Szukaj `Aspose.Cells` i kliknij „Zainstaluj”.
 
 Spowoduje to włączenie biblioteki Aspose.Cells do Twojego projektu, co umożliwi bezproblemową pracę z dokumentami i wykresami programu Excel.
 
@@ -61,7 +63,7 @@ Spowoduje to włączenie biblioteki Aspose.Cells do Twojego projektu, co umożli
 
 Określ katalog źródłowy dla pliku ODS
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`SampleChart.ods` plik rezyduje. Ważne jest, aby ścieżka pliku była poprawnie ustawiona, aby program mógł ją załadować bez problemów.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś `SampleChart.ods` plik się znajduje. Ważne jest, aby ścieżka do pliku była poprawnie ustawiona, aby program mógł ją załadować bez problemów.
 
 ```csharp
 string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
@@ -71,7 +73,7 @@ string sourceDir = "C:\\Path\\To\\Your\\Document\\Directory\\";
 
 Załaduj skoroszyt programu Excel
 
- Ten krok obejmuje utworzenie instancji`Workbook` klasa, która reprezentuje Twój plik ODS. Skoroszyt będzie zawierał wszystkie arkusze i ich odpowiednie wykresy.
+Ten krok obejmuje utworzenie instancji `Workbook` klasa, która reprezentuje Twój plik ODS. Skoroszyt będzie zawierał wszystkie arkusze i ich odpowiednie wykresy.
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleChart.ods");
@@ -141,9 +143,11 @@ Możesz poprosić o tymczasową licencję do celów ewaluacyjnych na platformie 
 
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
 Pomoc jest dostępna na forum Aspose, gdzie można zadać pytania i znaleźć istniejące rozwiązania.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

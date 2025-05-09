@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ Uygulamanızın sorunsuz çalışmasını sağlamak için şu ipuçlarını göz
 
 ## Çözüm
 
-Artık bir uygulamayı nasıl uygulayacağınızı öğrendiniz `Person` Java'da SmartMarkers'ı kullanarak Aspose.Cells ile sınıf. Bu güçlü araç, Excel otomasyon görevlerinizi önemli ölçüde kolaylaştırabilir ve rapor oluşturmayı hızlı ve verimli hale getirebilir.
+Artık bir şeyi nasıl uygulayacağınızı öğrendiniz `Person` Java'da SmartMarkers'ı kullanarak Aspose.Cells ile sınıf. Bu güçlü araç, Excel otomasyon görevlerinizi önemli ölçüde kolaylaştırabilir ve rapor oluşturmayı hızlı ve verimli hale getirebilir.
 
 Daha fazlasına hazır mısınız? Raporlarınızı daha da geliştirmek için grafik oluşturma ve veri doğrulama gibi gelişmiş özellikleri keşfedin.
 
@@ -201,6 +203,9 @@ Bir sonraki adımı atın ve Aspose.Cells'i projelerinize uygulamaya hemen başl
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

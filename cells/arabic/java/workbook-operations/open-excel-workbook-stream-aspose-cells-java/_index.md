@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 من خلال اتباع هذا الدليل الشامل، ستكون مجهزًا بشكل جيد للاستفادة من Aspose.Cells for Java في مشاريعك، مما يعزز كل من الوظائف والكفاءة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

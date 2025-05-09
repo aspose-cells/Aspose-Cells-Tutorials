@@ -1,45 +1,47 @@
 ---
-title: Hozzon létre PDF diagramot a kívánt oldalmérettel
-linktitle: Hozzon létre PDF diagramot a kívánt oldalmérettel
-second_title: Aspose.Cells .NET Excel Processing API
-description: Hozzon létre egy PDF-fájlt az Excel diagramjával az Aspose.Cells for .NET segítségével. Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan.
-weight: 12
-url: /hu/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": "Hozz létre egy PDF-et az Excel-diagramoddal az Aspose.Cells for .NET használatával. Tanuld meg, hogyan kell ezt tenni ebből a lépésről lépésre szóló útmutatóból."
+"linktitle": "Diagram PDF létrehozása a kívánt oldalmérettel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Diagram PDF létrehozása a kívánt oldalmérettel"
+"url": "/hu/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hozzon létre PDF diagramot a kívánt oldalmérettel
+# Diagram PDF létrehozása a kívánt oldalmérettel
 
 ## Bevezetés
 
-A vizuálisan tetszetős és informatív diagramok készítése elengedhetetlen az adatok megjelenítéséhez különböző területeken. Legyen szó értékesítési adatokról, teljesítménymutatókról vagy bármilyen más információról, a kiváló minőségű diagramok készítésének képessége mélységet és egyértelműséget ad az eredményeknek. Ha .NET-alkalmazásokkal dolgozik, az Aspose.Cells egy olyan hatékony könyvtár, amely az Excel-dokumentumok kezelését és a diagramok létrehozását gyerekjáték. Ebben az oktatóanyagban végigvezetjük Önt a kívánt oldalméretű Excel-fájlból PDF-fájl létrehozásának folyamatán.
+A vizuálisan vonzó és informatív diagramok készítése elengedhetetlen az adatok ábrázolásához számos területen. Akár értékesítési adatokkal, teljesítménymutatókkal vagy bármilyen más típusú információval foglalkozik, a kiváló minőségű diagramok készítésének képessége mélységet és egyértelműséget biztosít az eredményekhez. Ha .NET alkalmazásokkal dolgozik, az Aspose.Cells egy hatékony könyvtár, amely megkönnyíti az Excel dokumentumok kezelését és a diagramok létrehozását. Ebben az oktatóanyagban végigvezetjük Önt egy diagram PDF-fájljának létrehozásának folyamatán egy Excel fájlból a kívánt oldalméretben.
 
 ## Előfeltételek
 
-Mielőtt belemerülne a kódba, meg kell felelnie néhány előfeltételnek a zavartalan élmény érdekében:
+Mielőtt belemerülnénk a kódba, van néhány előfeltétel, amit teljesítened kell a zökkenőmentes élmény érdekében:
 
-### C# és .NET alapszintű ismerete
+### C# és .NET alapismeretek
 
-Szüksége lesz a C# programozás és a .NET keretrendszer alapvető ismereteire. Ez segít megérteni a kód szerkezetét, amellyel ebben az útmutatóban találkozni fog.
+Szükséged lesz a C# programozás és a .NET keretrendszer alapvető ismeretére. Ez segít megérteni a kézikönyvben található kód szerkezetét.
 
-### Aspose.Cells for .NET
+### Aspose.Cells .NET-hez
 
-Győződjön meg arról, hogy az Aspose.Cells for .NET telepítve van. Minden részletet megtalálsz a[Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/). 
+Győződjön meg róla, hogy telepítve van az Aspose.Cells for .NET. Az összes részletet megtalálja a következő címen: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/). 
 
-### Fejlesztési környezet
+### Fejlesztői környezet
 
- Állítsa be a fejlesztői környezetet. Ez lehet a Visual Studio vagy bármely más C#-t támogató IDE. Töltse le és telepítse az Aspose.Cells könyvtárat a[letöltési oldal](https://releases.aspose.com/cells/net/).
+Állítsa be a fejlesztői környezetét. Ez lehet Visual Studio vagy bármilyen más C#-t támogató IDE. Töltse le és telepítse az Aspose.Cells könyvtárat a következő helyről: [letöltési oldal](https://releases.aspose.com/cells/net/).
 
-### Minta Excel fájl
+### Minta Excel-fájl
 
-Szüksége lesz egy minta Excel-fájlra, amely legalább egy diagramot tartalmaz. Létrehozhat egy mintafájlt, vagy letölthet egyet az oktatóanyagban való használatra.
+Szükséged lesz egy minta Excel-fájlra, amely legalább egy diagramot tartalmaz. Létrehozhatsz egy mintafájlt, vagy letölthetsz egyet, hogy használhasd ezt az oktatóanyagot.
 
 ## Csomagok importálása
 
-Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket a C# alkalmazásba. Íme, hogyan kell ezt megtenni:
+Az Aspose.Cells használatának megkezdéséhez importálnia kell a szükséges névtereket a C# alkalmazásába. Ezt a következőképpen teheti meg:
 
 ```csharp
 using System;
@@ -50,104 +52,106 @@ using System.Text;
 using Aspose.Cells.Charts;
 ```
 
-Ezek a névterek hozzáférést biztosítanak az Excel-munkafüzetek és tartalmuk kezeléséhez szükséges osztályokhoz és metódusokhoz.
+Ezek a névterek hozzáférést biztosítanak az Excel-munkafüzetek és azok tartalmának kezeléséhez szükséges osztályokhoz és metódusokhoz.
 
-Most, hogy minden előfeltételt megoldottunk, bontsuk le a folyamatot részletes lépésekre.
+Most, hogy minden előfeltételt tisztáztunk, bontsuk le a folyamatot részletes lépésekre.
 
-## 1. lépés: Állítsa be a kimeneti és forráskönyvtárakat
+## 1. lépés: Kimeneti és forráskönyvtárak beállítása
 
-Kezdésként meg kell határoznia, hogy a kimeneti PDF hova kerüljön mentésre, és hol található a forrás Excel-dokumentum.
+Először is meg kell határoznia, hogy hová kerüljön a kimeneti PDF, és hol legyen a forrás Excel dokumentum.
 
 ```csharp
 //Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 
-//Forrás könyvtár
+//Forráskönyvtár
 string sourceDir = "Your Document Directory";
 ```
 
-Ügyeljen arra, hogy a "Saját kimeneti könyvtár" és a "Dokumentumkönyvtár" helyére cserélje ki a rendszer tényleges elérési útját. Ez határozza meg, hogy az Aspose hova mentse a létrehozott PDF-fájlt, és hol találja meg az Excel-fájlt.
+Ügyelj arra, hogy a „Kimeneti könyvtár” és a „Dokumentumkönyvtár” helyére a rendszereden található tényleges elérési utakat írd be. Ez határozza meg, hogy az Aspose hová menti a létrehozott PDF-et, és hol fogja megtalálni az Excel-fájlt.
 
-## 2. lépés: Töltse be az Excel mintafájlt
+## 2. lépés: Töltse be a minta Excel-fájlt
 
-Ezután be kell töltenie a diagramot tartalmazó Excel-fájlt. Íme, hogyan:
+Ezután be kell töltenie a diagramot tartalmazó Excel-fájlt. Így teheti meg:
 
 ```csharp
-//Töltse be a diagramot tartalmazó Excel mintafájlt.
+//Töltsd be a diagramot tartalmazó minta Excel fájlt.
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
- A`Workbook` osztály központi szerepet játszik az Excel dokumentummal való interakcióban. Győződjön meg arról, hogy az elérési út helyesen mutat az Excel-fájlra – egy hiba megakadályozza a kód többi részének végrehajtását.
+A `Workbook` Az osztály központi szerepet játszik az Excel-dokumentummal való interakcióban. Győződjön meg arról, hogy az elérési út helyesen az Excel-fájlra mutat – egy itt fellépő hiba megakadályozza a kód többi részének végrehajtását.
 
-## 3. lépés: Nyissa meg az első munkalapot
+## 3. lépés: Az első munkalap elérése
 
-A munkafüzet betöltése után a következő lépés a kívánt diagramot tartalmazó munkalap elérése.
+Miután a munkafüzet betöltődött, a következő lépés a kívánt diagramot tartalmazó munkalap elérése.
 
 ```csharp
-//Az első munkalap elérése.
+//Első munkalap elérése.
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Az Aspose.Cells-ben a munkalapok nullától kezdve indexelve vannak, tehát`Worksheets[0]` az első lapra vonatkozik.
+Az Aspose.Cells fájlban a munkalapok nullától kezdődően indexelődnek, tehát `Worksheets[0]` az első lapra utal.
 
-## 4. lépés: Nyissa meg az első diagramot
+## 4. lépés: Az első diagram elérése
 
-Most pedig nyissa meg a PDF-be exportálni kívánt diagramot. Ez a lépés feltételezi, hogy a munkalap legalább egy diagramot tartalmaz.
+Most pedig nézzük meg a PDF-be exportálni kívánt diagramot. Ez a lépés feltételezi, hogy a munkalap legalább egy diagramot tartalmaz.
 
 ```csharp
 //Hozzáférés az első diagramhoz a munkalapon belül.
 Chart ch = ws.Charts[0];
 ```
 
-Ez ismét eléri a munkalap első diagramját; győződjön meg arról, hogy a munkalap szerkezete megfelel ennek a megközelítésnek.
+Ez ismét a munkalap első diagramjához fér hozzá; győződjön meg arról, hogy a munkalap szerkezete megfelel ennek a megközelítésnek.
 
-## 5. lépés: Hozzon létre PDF-et a kívánt oldalmérettel
+## 5. lépés: PDF létrehozása a kívánt oldalmérettel
 
-Végül itt az ideje elkészíteni a PDF-et a diagramból egy megadott oldalmérettel. Íme a varázslatos kódsor, amely mindent megtesz:
+Végül itt az ideje, hogy a diagramból PDF-et készítsünk a megadott oldalmérettel. Íme a varázslatos kódsor, ami mindezt elvégzi:
 
 ```csharp
-//Készítsen pdf grafikont a kívánt oldalmérettel.
+//Hozz létre egy PDF-diagramot a kívánt oldalméretben.
 ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.Center, PageLayoutAlignmentType.Center);
 ```
 
 Ebben a kódban:
-- A PDF a korábban megadott kimeneti könyvtárba kerül mentésre.
--  A számok`7, 7` a kívánt oldalméret szélességét és magasságát jelzik.
-- A PageLayoutAlignmentType.Center biztosítja, hogy a diagram az oldal közepén legyen.
+- A PDF fájl a korábban megadott kimeneti könyvtárba lesz mentve.
+- A számok `7, 7` a kívánt oldalméret szélességét és magasságát jelölik.
+- A PageLayoutAlignmentType.Center biztosítja, hogy a diagram az oldal közepére legyen igazítva.
 
 ## 6. lépés: Megerősítő üzenet
 
-Ha szeretné tudatni magát (és másokkal), hogy minden gördülékenyen ment, írjon egy megerősítő üzenetet a kód végére:
+Hogy tudasd magaddal (és másokkal) a sikert, illessz be egy megerősítő üzenetet a kódod végére:
 
 ```csharp
 Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 ```
 
-Ez az üzenet jelenik meg a konzol ablakában, amint a folyamat befejeződött, jelezve, hogy a PDF-fájl gond nélkül elkészült.
+Ez az üzenet jelenik meg a konzolablakban, amint a folyamat befejeződött, jelezve, hogy a PDF fájl gond nélkül létrejött.
 
 ## Következtetés
 
-Gratulálok! Most tanulta meg, hogyan használhatja az Aspose.Cells for .NET-et PDF-fájl létrehozásához egy Excel-fájlban található diagramból. Ez a nagy teljesítményű könyvtár leegyszerűsíti az Excel-dokumentumok kezelésének és az adatok vizuális megjelenítésének folyamatát, így órákat takarít meg a kézi formázástól. Feltétlenül fedezze fel az Aspose.Cells által a PDF-generáláson túlmenően kínált egyéb funkciók sokaságát – soha nem tudhatja, mi javíthatja tovább projektjeit!
+Gratulálunk! Most megtanultad, hogyan használhatod az Aspose.Cells for .NET-et PDF létrehozásához egy Excel-fájlban található diagramból. Ez a hatékony könyvtár leegyszerűsíti az Excel-dokumentumok kezelésének és az adatok vizuális ábrázolásának folyamatát, így órákig tartó manuális formázást takaríthatsz meg. Feltétlenül fedezd fel az Aspose.Cells számos egyéb funkcióját is, amelyeket a PDF-generáláson túl kínál – soha nem tudhatod, mi javíthatja tovább a projektjeidet!
 
 ## GYIK
 
-### Mire használható az Aspose.Cells for .NET?  
-Az Aspose.Cells for .NET Excel-dokumentumok létrehozására, szerkesztésére és konvertálására szolgál programozottan .NET-alkalmazásokban.
+### Mire használják az Aspose.Cells for .NET-et?  
+Az Aspose.Cells for .NET az Excel dokumentumok programozott létrehozására, szerkesztésére és konvertálására szolgál .NET alkalmazásokban.
 
-### Használhatom ingyenesen az Aspose.Cells-t?  
- Igen, az Aspose.Cells a[ingyenes próbaverzió](https://releases.aspose.com/) értékelési célokra.
+### Ingyenesen használhatom az Aspose.Cells-t?  
+Igen, az Aspose.Cells kínál egy [ingyenes próba](https://releases.aspose.com/) értékelési célokra.
 
-### Van mód a próbaidőszak meghosszabbítására a kezdeti időszakon túl?  
- Jelentkezni lehet a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) kiterjesztett tesztelésre.
+### Van mód arra, hogy a próbaidőszakomat meghosszabbítsam a kezdeti időszakon túl?  
+Pályázatot tehet egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hosszabb teszteléshez.
 
-### Mi a teendő, ha problémákba ütközöm, vagy kérdéseim vannak?  
- Segítséget kérhet az Aspose közösségtől[támogatási fórum](https://forum.aspose.com/c/cells/9).
+### Mi van, ha problémákba ütközöm vagy kérdéseim vannak?  
+Segítséget kérhetsz az Aspose közösségtől a következő címen: [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ### Hogyan vásárolhatom meg az Aspose.Cells-t?  
- Az Aspose.Cells-t megvásárolhatja a[vásárlási oldal](https://purchase.aspose.com/buy).
+Az Aspose.Cells-t a következő helyről vásárolhatod meg: [vásárlási oldal](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ Trong phần này, chúng ta sẽ khám phá cách chuyển đổi các tệp Ex
    saveOptions.setCheckWorkbookDefaultFont(false); // Bỏ qua phông chữ mặc định của sổ làm việc
    ```
 
-2. **Lưu sổ làm việc dưới dạng PDF:**
+2. **Lưu Workbook dưới dạng PDF:**
    Sử dụng `save` phương pháp chuyển đổi tệp Excel của bạn thành PDF.
 
    ```java
@@ -185,6 +187,9 @@ Bây giờ bạn đã học cách chuyển đổi các tệp Excel thành các �
 Với hướng dẫn này, giờ đây bạn đã có thể chuyển đổi các tệp Excel sang định dạng PNG, TIFF và PDF bằng Aspose.Cells for Java. Nâng cao khả năng chia sẻ dữ liệu của bạn bằng các kỹ thuật chuyển đổi linh hoạt này.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,64 +1,66 @@
 ---
-title: Přidat pole seznamu do listu v aplikaci Excel
-linktitle: Přidat pole seznamu do listu v aplikaci Excel
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se, jak přidat seznam do listu aplikace Excel pomocí Aspose.Cells for .NET. Postupujte podle našeho jednoduchého průvodce krok za krokem a udělejte ze svých tabulek Excel interaktivní.
-weight: 20
-url: /cs/net/excel-shapes-controls/add-list-box-to-worksheet-excel/
+"description": "Naučte se, jak přidat seznam do listu aplikace Excel pomocí Aspose.Cells pro .NET. Postupujte podle našeho jednoduchého podrobného návodu a vytvořte interaktivní listy aplikace Excel."
+"linktitle": "Přidat seznam do listu v Excelu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Přidat seznam do listu v Excelu"
+"url": "/cs/net/excel-shapes-controls/add-list-box-to-worksheet-excel/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidat pole seznamu do listu v aplikaci Excel
+# Přidat seznam do listu v Excelu
 
 ## Zavedení
-Přidání interaktivních prvků do listů aplikace Excel, jako je seznam, může výrazně zlepšit správu a prezentaci dat. Ať už vytváříte interaktivní formulář nebo vlastní nástroj pro zadávání dat, schopnost ovládat vstup uživatele pomocí seznamu je neocenitelná. Aspose.Cells for .NET poskytuje efektivní způsob, jak přidat a spravovat tyto ovládací prvky v souborech aplikace Excel. V této příručce vás provedeme procesem přidání seznamu do listu pomocí Aspose.Cells for .NET.
+Přidání interaktivních prvků do excelových listů, jako je seznam, může výrazně zlepšit správu a prezentaci dat. Ať už vytváříte interaktivní formulář nebo vlastní nástroj pro zadávání dat, možnost ovládat vstup uživatele pomocí seznamu je neocenitelná. Aspose.Cells pro .NET poskytuje efektivní způsob, jak tyto ovládací prvky přidávat a spravovat v excelových souborech. V této příručce vás provedeme procesem přidání seznamu do listu pomocí Aspose.Cells pro .NET.
 ## Předpoklady
-Než se ponoříte do kódování, ujistěte se, že máte připraveny následující nástroje a zdroje:
--  Aspose.Cells for .NET Library: Můžete si ji stáhnout z[Stránka ke stažení Aspose.Cells for .NET](https://releases.aspose.com/cells/net/).
-- Vývojové prostředí: Jakékoli IDE, které podporuje vývoj .NET, jako je Visual Studio.
+Než se pustíte do kódování, ujistěte se, že máte k dispozici následující nástroje a zdroje:
+- Knihovna Aspose.Cells pro .NET: Můžete si ji stáhnout z [Stránka ke stažení Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/).
+- Vývojové prostředí: Jakékoli IDE, které podporuje vývoj v .NET, například Visual Studio.
 - .NET Framework: Ujistěte se, že váš projekt cílí na podporovanou verzi rozhraní .NET Framework.
- Zvažte také získání a[dočasná licence](https://purchase.aspose.com/temporary-license/) pokud chcete prozkoumat všechny funkce bez omezení.
-## Importujte balíčky
-Než začnete, ujistěte se, že jste importovali potřebné jmenné prostory Aspose.Cells. Postup:
+Zvažte také pořízení [dočasná licence](https://purchase.aspose.com/temporary-license/) pokud chcete prozkoumat všechny funkce bez omezení.
+## Importovat balíčky
+Než začnete, ujistěte se, že jste importovali potřebné jmenné prostory Aspose.Cells. Postupujte takto:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using Aspose.Cells.Drawing;
 ```
-V tomto tutoriálu rozdělíme proces přidávání seznamu do několika jednoduchých kroků. Dodržujte pečlivě každý krok, abyste zajistili, že vše funguje podle očekávání.
+V tomto tutoriálu si rozdělíme proces přidání seznamu do několika jednoduchých kroků. Pečlivě dodržujte každý krok, abyste se ujistili, že vše funguje podle očekávání.
 ## Krok 1: Nastavení adresáře dokumentů
 Než vytvoříte jakýkoli soubor aplikace Excel, potřebujete umístění pro jeho uložení. Zde je návod, jak nastavit adresář:
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "Your Document Directory";
 // Vytvořte adresář, pokud ještě neexistuje.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-V tomto kroku definujete, kde bude váš soubor uložen. Kód zkontroluje, zda adresář existuje, a pokud ne, vytvoří ho za vás. To zajistí, že později nenarazíte na žádné chyby „soubor nenalezen“.
-## Krok 2: Vytvořte nový sešit a otevřete první sešit
-Dále vytvoříme nový sešit a přistoupíme k prvnímu listu, kam přidáme pole se seznamem.
+tomto kroku definujete, kam bude váš soubor uložen. Kód zkontroluje, zda adresář existuje, a pokud ne, vytvoří ho. Tím se zajistí, že se později nesetkáte s chybami „soubor nebyl nalezen“.
+## Krok 2: Vytvořte nový sešit a získejte přístup k prvnímu listu
+Dále vytvoříme nový sešit a otevřeme první list, kam přidáme náš seznam.
 ```csharp
 // Vytvořte nový sešit.
 Workbook workbook = new Workbook();
-// Získejte první pracovní list.
+// Vezměte si první pracovní list.
 Worksheet sheet = workbook.Worksheets[0];
 ```
-Sešit je v podstatě váš soubor Excel. Zde vytváříme nový sešit a přistupujeme k prvnímu listu, kam umístíme pole se seznamem. Berte to jako vytvoření prázdného plátna, kde budete malovat ovládací prvky.
-## Krok 3: Zadejte data pro pole seznamu
-Než přidáme pole se seznamem, musíme vyplnit některá data, na která bude pole se seznamem odkazovat.
+Sešit je v podstatě váš soubor aplikace Excel. Zde vytváříme nový sešit a přistupujeme k prvnímu listu, kam umístíme náš seznam. Představte si to jako vytvoření prázdného plátna, na které budete malovat ovládací prvky.
+## Krok 3: Zadání dat do seznamu
+Než přidáme seznam, musíme vyplnit některá data, na která bude seznam odkazovat.
 ```csharp
-// Získejte kolekci buněk listu.
+// Získejte kolekci buněk pracovního listu.
 Cells cells = sheet.Cells;
-// Zadejte hodnotu štítku.
+// Zadejte hodnotu pro popisek.
 cells["B3"].PutValue("Choose Dept:");
-// Nastavte štítek na tučné.
+// Nastavte popisek na tučné písmo.
 cells["B3"].GetStyle().Font.IsBold = true;
-// Zadejte hodnoty pro pole se seznamem.
+// Zadejte hodnoty pro seznam.
 cells["A2"].PutValue("Sales");
 cells["A3"].PutValue("Finance");
 cells["A4"].PutValue("MIS");
@@ -66,16 +68,16 @@ cells["A5"].PutValue("R&D");
 cells["A6"].PutValue("Marketing");
 cells["A7"].PutValue("HRA");
 ```
-Zde přidáváme nějaký text do listu. Do buňky B3 je umístěn štítek "Vybrat oddělení:" a jeho písmo je nastaveno na tučné. Do sloupce A vkládáme hodnoty, které budou sloužit jako vstupní rozsah pro pole se seznamem představující různá oddělení. Tento vstupní rozsah je to, z čeho budou uživatelé vybírat při interakci se seznamem.
-## Krok 4: Přidejte pole seznamu do listu
-Nyní, když jsme nastavili data, přidejte samotný ovládací prvek seznamu.
+Zde přidáváme do listu text. Popisek „Vybrat oddělení:“ je umístěn v buňce B3 a jeho písmo je nastaveno na tučné. Do sloupce A vkládáme hodnoty, které budou sloužit jako vstupní rozsah pro náš seznam a budou představovat různá oddělení. Tento vstupní rozsah je to, z čeho budou uživatelé vybírat při interakci se seznamem.
+## Krok 4: Přidání seznamu do pracovního listu
+Nyní, když jsme nastavili data, přidejme samotný ovládací prvek seznamu.
 ```csharp
 // Přidat nový seznam.
 Aspose.Cells.Drawing.ListBox listBox = sheet.Shapes.AddListBox(2, 0, 3, 0, 122, 100);
 ```
-Tento kód přidá seznam do listu. Parametry definují pozici a velikost seznamu. Pole se seznamem je umístěno na řádku 2, sloupci 0 s šířkou 122 a výškou 100. Toto jsou souřadnice a velikost, které určují, kde se bude seznam v listu zobrazovat.
-## Krok 5: Nastavte vlastnosti seznamu
-Dále nastavíme různé vlastnosti pro seznam, aby byl plně funkční.
+Tento kód přidá seznam do listu. Parametry definují polohu a velikost seznamu. Seznam je umístěn na řádku 2, sloupci 0, má šířku 122 a výšku 100. Toto jsou souřadnice a velikost, které určují, kde se seznam v listu zobrazí.
+## Krok 5: Nastavení vlastností seznamu
+Dále nastavíme různé vlastnosti seznamu, aby byl plně funkční.
 ```csharp
 // Nastavte typ umístění.
 listBox.Placement = PlacementType.FreeFloating;
@@ -85,37 +87,39 @@ listBox.LinkedCell = "A1";
 listBox.InputRange = "A2:A7";
 // Nastavte typ výběru.
 listBox.SelectionType = SelectionType.Single;
-// Nastavte pole seznamu s 3D stínováním.
+// Nastavte seznam s 3D stínováním.
 listBox.Shadow = true;
 ```
 - PlacementType.FreeFloating: Tato vlastnost zajišťuje, že seznam zůstane na své pozici bez ohledu na to, jak je list upraven.
-- LinkedCell: Nastaví buňku (v tomto případě A1), kde se zobrazí vybraná hodnota ze seznamu.
-- InputRange: Toto říká seznamu, kde má hledat svůj seznam možností (A2 až A7, které jsme nastavili dříve).
+- Propojená buňka: Nastaví buňku (v tomto případě A1), kde se zobrazí vybraná hodnota ze seznamu.
+- InputRange: Toto určuje seznamu, kde má hledat seznam možností (A2 až A7, které jsme nastavili dříve).
 - SelectionType.Single: Toto omezuje uživatele na výběr pouze jedné položky ze seznamu.
-- Stín: Efekt stínu dává seznamu více trojrozměrný vzhled, takže je vizuálně přitažlivý.
+- Stín: Efekt stínu dodává seznamu trojrozměrnější vzhled, díky čemuž je vizuálně atraktivnější.
 ## Krok 6: Uložte soubor Excel
-Nakonec uložme náš sešit se začleněným seznamem.
+Nakonec si uložme sešit se seznamem.
 ```csharp
-// Uložte sešit.
+// Uložte si sešit.
 workbook.Save(dataDir + "book1.out.xls");
 ```
-Tento řádek kódu uloží sešit do adresáře, který jsme nastavili dříve. Soubor se jmenuje „book1.out.xls“, ale můžete si vybrat jakýkoli název, který vyhovuje vašemu projektu.
+Tento řádek kódu uloží sešit do adresáře, který jsme dříve nastavili. Soubor se jmenuje „book1.out.xls“, ale můžete si zvolit libovolný název, který vyhovuje vašemu projektu.
 ## Závěr
-A tady to máte! Úspěšně jste přidali seznam do listu aplikace Excel pomocí Aspose.Cells for .NET. Pomocí několika řádků kódu jsme vytvořili plně funkční seznam, díky kterému je list interaktivnější a dynamičtější. Tento tutoriál by vám měl poskytnout pevný základ pro prozkoumání dalších ovládacích prvků a funkcí v Aspose.Cells pro .NET. Pokračujte v experimentování a brzy si osvojíte rozsáhlé funkce knihovny!
-## FAQ
-### Mohu povolit více výběrů v seznamu?  
- Ano, můžete změnit`SelectionType` na`SelectionType.Multi` umožňující vícenásobný výběr.
-### Mohu změnit vzhled pole se seznamem?  
-Absolutně! Aspose.Cells umožňuje přizpůsobit vzhled seznamu, včetně jeho velikosti, písma a dokonce i barvy.
-### Co když budu později potřebovat odstranit pole se seznamem?  
- Můžete přistupovat k seznamu a odstranit jej z`Shapes` sběr pomocí`sheet.Shapes.RemoveAt(index)`.
+tady to máte! Úspěšně jste přidali seznam do listu aplikace Excel pomocí knihovny Aspose.Cells pro .NET. S několika řádky kódu jsme vytvořili plně funkční seznam, díky čemuž je list interaktivnější a dynamičtější. Tento tutoriál by vám měl poskytnout solidní základ pro prozkoumání dalších ovládacích prvků a funkcí v knihovně Aspose.Cells pro .NET. Pokračujte v experimentování a brzy zvládnete rozsáhlé funkce knihovny!
+## Často kladené otázky
+### Mohu v seznamu povolit více výběrů?  
+Ano, můžete změnit `SelectionType` na `SelectionType.Multi` aby bylo možné vybrat více možností.
+### Mohu změnit vzhled seznamu?  
+Rozhodně! Aspose.Cells umožňuje přizpůsobit vzhled seznamu, včetně jeho velikosti, písma a dokonce i barvy.
+### Co když budu muset později seznam odstranit?  
+Seznam můžete zobrazit a odebrat z `Shapes` sběr pomocí `sheet.Shapes.RemoveAt(index)`.
 ### Mohu propojit seznam s jinou buňkou?  
- Ano, stačí změnit`LinkedCell` vlastnost do jakékoli jiné buňky, kde chcete zobrazit vybranou hodnotu.
+Ano, stačí změnit `LinkedCell` vlastnost do jakékoli jiné buňky, kde chcete zobrazit vybranou hodnotu.
 ### Jak přidám další položky do seznamu?  
-Stačí aktualizovat vstupní rozsah vložením více hodnot do určených buněk a seznam se automaticky aktualizuje.
+Stačí aktualizovat vstupní rozsah vložením dalších hodnot do zadaných buněk a seznam se automaticky aktualizuje.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

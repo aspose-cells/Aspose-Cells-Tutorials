@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Aspose.Cells for Java を使用して Excel の表をセル範囲に変換する
 - 潜在的なエラーを効果的に管理するには、コードの周囲に try-catch ブロックを使用します。
 
 **Q5: 大きな Excel ファイルを変換する場合、パフォーマンスの制限はありますか?**
-- パフォーマンスは一般的に堅牢ですが、大規模なデータセットではリソースとメモリ使用量を最適に管理することが重要になります。
+- パフォーマンスは一般的に堅牢ですが、大規模なデータセットではリソースとメモリ使用量を最適に管理することが重要です。
 
 ## リソース
 
@@ -175,6 +177,9 @@ Java プロジェクトに Aspose.Cells を活用し、Excel ファイルの管�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

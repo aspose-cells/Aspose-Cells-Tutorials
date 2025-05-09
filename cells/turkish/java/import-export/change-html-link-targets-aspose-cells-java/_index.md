@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Günümüzün dijital ortamında, web sayfaları genellikle kullanıcıları ek kaynaklara yönlendiren köprü metinleri içerir. Verimli köprü metni yönetimi, hem SEO'yu hem de kullanıcı deneyimini optimize etmek için olmazsa olmazdır. Bir Excel dosyasındaki bir köprü metninin hedef davranışını, onu bir HTML belgesi olarak dışa aktarırken değiştirmeniz gerekti mi? Çözümümüz, köprü metinlerinin HTML dışa aktarımlarınızda nasıl davranacağını ayarlamak için sağlam bir yol sağlamak amacıyla Java için Aspose.Cells'i kullanır.
 
 **Birincil Anahtar Sözcükler:** Aspose.Cells Java, HTML bağlantı hedeflerini değiştirme
-**İkincil Anahtar Sözcükler:** Köprü yönetimi, Excel'den HTML dışa aktarımı
+**İkincil Anahtar Sözcükler:** Köprü yönetimi, Excel'den HTML dışa aktarma
 
 Bu eğitim, köprü metni hedef türlerini değiştirmek için Aspose.Cells for Java'yı kullanma sürecinde size rehberlik edecektir. Sonunda şunları nasıl yapacağınızı anlayacaksınız:
 - Java ortamınızı Aspose.Cells ile kurun
@@ -199,6 +201,9 @@ Bu çözümü bugün projelerinize uygulamayı deneyin ve iş akışınızı nas
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

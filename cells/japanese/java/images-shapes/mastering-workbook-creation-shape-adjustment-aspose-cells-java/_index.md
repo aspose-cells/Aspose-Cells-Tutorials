@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d); // シェイ�
 ### ワークブックの保存
 
 **概要：**
-必要な変更を行った後、これらの変更を保持するためにワークブックを保存することが重要です。
+必要な変更を加えた後、これらの変更を保持するためにワークブックを保存することが重要です。
 
 **ステップ5: ワークブックを保存する**
 更新されたワークブックを新しい名前で保存するか、別のディレクトリに保存します。
@@ -178,6 +180,9 @@ Aspose.Cells for Java は、さまざまな実際のシナリオに適用でき�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

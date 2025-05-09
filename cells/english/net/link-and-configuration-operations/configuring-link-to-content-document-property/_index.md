@@ -8,7 +8,9 @@ url: /net/link-and-configuration-operations/configuring-link-to-content-document
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Configuring Link to Content Document Property in .NET
@@ -154,6 +156,7 @@ No, this feature is specifically for Excel files, as CSV files don’t support c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

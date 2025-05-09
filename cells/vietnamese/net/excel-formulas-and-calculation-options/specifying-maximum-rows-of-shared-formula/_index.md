@@ -1,14 +1,16 @@
 ---
-title: Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel
-linktitle: Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách chỉ định số hàng tối đa cho các công thức dùng chung trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này.
-weight: 21
-url: /vi/net/excel-formulas-and-calculation-options/specifying-maximum-rows-of-shared-formula/
+"description": "Khám phá cách chỉ định số hàng tối đa cho các công thức dùng chung trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước dễ dàng này."
+"linktitle": "Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel"
+"url": "/vi/net/excel-formulas-and-calculation-options/specifying-maximum-rows-of-shared-formula/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định số hàng tối đa của công thức được chia sẻ trong Excel
@@ -18,16 +20,16 @@ Khi làm việc với các tệp Excel theo chương trình, việc kiểm soát
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, bạn cần lưu ý một số điều để đảm bảo trải nghiệm liền mạch khi làm theo hướng dẫn này:
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Có thể là Visual Studio, JetBrains Rider hoặc bất kỳ IDE nào khác tương thích với .NET.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Nếu bạn chưa tải xuống, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
-3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp ích, nhưng đừng lo lắng! Chúng tôi sẽ hướng dẫn từng bước trong mã.
-4. Đã cài đặt Excel (Tùy chọn): Mặc dù việc cài đặt Excel không bắt buộc để mã hóa, nhưng nó rất hữu ích để kiểm tra và xem các tệp bạn tạo.
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Nếu bạn chưa tải xuống, bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
+3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp ích, nhưng đừng lo lắng! Chúng tôi sẽ hướng dẫn từng bước mã.
+4. Cài đặt Excel (Tùy chọn): Mặc dù việc cài đặt Excel không bắt buộc để mã hóa, nhưng nó rất hữu ích để kiểm tra và xem các tệp bạn tạo.
 Sau khi bạn đã đáp ứng được những điều kiện tiên quyết này, chúng ta có thể bắt đầu phần hướng dẫn chính!
 ## Nhập gói
 Để bắt đầu làm việc với Aspose.Cells, bạn cần nhập các gói của nó. Sau đây là cách bạn có thể thực hiện:
 1. Mở IDE của bạn.
 2. Tạo một dự án C# mới (hoặc mở một dự án hiện có).
 3. Thêm tham chiếu đến Aspose.Cells. Bạn thường có thể thực hiện việc này thông qua NuGet Package Manager trong Visual Studio.
-Bạn có thể sử dụng lệnh sau trong Bảng điều khiển Trình quản lý gói NuGet:
+Bạn có thể sử dụng lệnh sau trong NuGet Package Manager Console:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -48,7 +50,7 @@ string outputDir = "Your Document Directory"; // Thay đổi đường dẫn nà
 ```
 Hãy đảm bảo cung cấp đường dẫn hợp lệ tại đây; nếu không, chương trình có thể báo lỗi khi cố gắng lưu tệp.
 ## Bước 2: Tạo một phiên bản Workbook
- Tiếp theo, bạn cần tạo một phiên bản của`Workbook` lớp. Lớp này đại diện cho tệp Excel của bạn trong mã.
+Tiếp theo, bạn cần tạo một phiên bản của `Workbook` lớp. Lớp này đại diện cho tệp Excel của bạn trong mã.
 ```csharp
 Workbook wb = new Workbook();
 ```
@@ -61,24 +63,24 @@ wb.Settings.MaxRowsOfSharedFormula = 5;
 ```
 Hãy tưởng tượng cài đặt này như việc đặt ra giới hạn về lượng sơn mà bạn được phép sử dụng - nó giúp tránh việc sử dụng quá mức và giữ cho vải vẽ của bạn sạch sẽ!
 ## Bước 4: Truy cập vào trang tính đầu tiên
- Truy cập vào bảng tính mà bạn định áp dụng công thức chung. Ở đây, chúng ta sẽ làm việc với bảng tính đầu tiên, được lập chỉ mục là`0`.
+Truy cập vào bảng tính mà bạn định áp dụng công thức chung. Ở đây, chúng ta sẽ làm việc với bảng tính đầu tiên, được lập chỉ mục là `0`.
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
 Việc duyệt qua các bảng tính cũng giống như lật từng trang sách – mỗi trang (hoặc bảng tính) có thông tin khác nhau!
 ## Bước 5: Truy cập vào một ô cụ thể
- Bây giờ chúng ta hãy truy cập vào một ô cụ thể mà bạn định đặt công thức chung. Trong trường hợp này, chúng ta đang truy cập vào ô`D1`.
+Bây giờ chúng ta hãy truy cập vào một ô cụ thể mà bạn định đặt công thức chung. Trong trường hợp này, chúng ta đang truy cập vào ô `D1`.
 ```csharp
 Cell cell = ws.Cells["D1"];
 ```
 Hãy hình dung việc này giống như việc xác định vị trí trên bản đồ - bạn đang xác định chính xác dữ liệu của mình sẽ được chuyển đến đâu!
 ## Bước 6: Thiết lập công thức chung
- Đây là nơi phép thuật xảy ra! Bạn có thể thiết lập một công thức chung trong ô được chỉ định của chúng tôi. Trong ví dụ này, chúng tôi đang tính tổng các giá trị từ`A1` ĐẾN`A2`.
+Đây là nơi phép thuật xảy ra! Bạn có thể thiết lập một công thức chung trong ô được chỉ định của chúng tôi. Trong ví dụ này, chúng tôi đang tính tổng các giá trị từ `A1` ĐẾN `A2`.
 ```csharp
-//Đặt công thức chung trong 100 hàng
+// Đặt công thức chung trong 100 hàng
 cell.SetSharedFormula("=Sum(A1:A2)", 100, 1);
 ```
-Thiết lập một công thức chung cũng giống như niệm chú – nó thực hiện cùng một hành động trong một phạm vi mà không cần bạn phải nhập thủ công nhiều lần.
+Thiết lập một công thức chung giống như niệm chú – nó thực hiện cùng một hành động trong một phạm vi mà không cần bạn phải nhập thủ công nhiều lần.
 ## Bước 7: Lưu tệp Excel đầu ra
 Cuối cùng, đã đến lúc lưu công sức của bạn vào một tệp Excel.
 ```csharp
@@ -98,14 +100,16 @@ Công thức chung cho phép nhiều ô tham chiếu đến cùng một công th
 ### Tôi có thể chỉ định các công thức khác nhau cho các ô khác nhau không?
 Có, bạn có thể thiết lập các công thức khác nhau cho các ô khác nhau, nhưng sử dụng các công thức chung có thể tối ưu hóa kích thước tệp và thời gian xử lý.
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để tiếp tục sử dụng, bạn sẽ cần mua giấy phép. Tìm hiểu thêm về[mua ở đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để tiếp tục sử dụng, bạn sẽ cần mua giấy phép. Tìm hiểu thêm về [mua ở đây](https://purchase.aspose.com/buy).
 ### Những lợi ích khi sử dụng Aspose.Cells là gì?
 Aspose.Cells cho phép thao tác liền mạch các tệp Excel, bao gồm tạo, sửa đổi và chuyển đổi tệp mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể khám phá tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu toàn diện [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

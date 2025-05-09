@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 먼저, 공식 웹사이트에서 무료 평가판이나 임시 라이선스를 얻어 프로젝트 환경에 Aspose.Cells를 설정하세요.
 
 ### 라이센스 취득 단계
-1. **무료 체험:** 라이브러리를 다운로드해서 기능을 시험해 보세요.
+1. **무료 체험:** 라이브러리를 다운로드하여 기능을 시험해 보세요.
 2. **임시 면허:** 확장된 테스트를 위해 임시 라이센스를 요청하세요. [Aspose의 임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 3. **라이센스 구매:** 생산용으로 사용하려면 다음에서 전체 라이센스를 구매하는 것을 고려하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
@@ -176,6 +178,9 @@ Aspose.Cells를 다른 시스템과 통합하면 작업 흐름을 더욱 간소�
 - **일괄 처리:** 메모리 사용을 최적화하려면 일괄적으로 데이터를 처리합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

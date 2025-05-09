@@ -1,39 +1,41 @@
 ---
-title: Zamknout buňky v listu pomocí Aspose.Cells
-linktitle: Zamknout buňky v listu pomocí Aspose.Cells
-second_title: Aspose.Cells .NET Excel Processing API
-description: tomto podrobném průvodci se dozvíte, jak zamknout buňky v Excelu pomocí Aspose.Cells for .NET. Chraňte svá data pomocí podrobných příkladů kódu a jednoduchých pokynů.
-weight: 25
-url: /cs/net/worksheet-security/lock-cells/
+"description": "Naučte se, jak uzamknout buňky v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném návodu. Chraňte svá data pomocí podrobných příkladů kódu a snadných pokynů."
+"linktitle": "Uzamknutí buněk v pracovním listu pomocí Aspose.Cells"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Uzamknutí buněk v pracovním listu pomocí Aspose.Cells"
+"url": "/cs/net/worksheet-security/lock-cells/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zamknout buňky v listu pomocí Aspose.Cells
+# Uzamknutí buněk v pracovním listu pomocí Aspose.Cells
 
 ## Zavedení
-Zamykání buněk v listu aplikace Excel je kritickou funkcí, zvláště když sdílíte své dokumenty s ostatními. Uzamčením buněk můžete řídit, které části listu zůstanou upravitelné, čímž se zachová integrita dat a zabrání se nechtěným změnám. V této příručce se ponoříme hluboko do toho, jak můžete uzamknout konkrétní buňky v listu pomocí Aspose.Cells for .NET. Aspose.Cells je výkonná knihovna, která vám umožňuje snadno programově manipulovat se soubory Excelu a zamykání buněk je jednou z mnoha funkcí, které nabízí.
+Uzamčení buněk v listu aplikace Excel je klíčová funkce, zejména pokud sdílíte dokumenty s ostatními. Uzamčením buněk můžete ovládat, které části listu zůstanou upravitelné, čímž se zachová integrita dat a zabrání se nežádoucím změnám. V této příručce se podrobně ponoříme do toho, jak můžete uzamknout konkrétní buňky v listu pomocí knihovny Aspose.Cells pro .NET. Aspose.Cells je výkonná knihovna, která umožňuje snadno programově manipulovat s excelovými soubory, a uzamčení buněk je jednou z mnoha funkcí, které nabízí.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, proberme si základy, které musíte dodržovat.
+Než se pustíme do tutoriálu, pojďme si probrat základní informace, které je třeba dodržovat.
 
-1.  Aspose.Cells for .NET: Nejprve se ujistěte, že máte nainstalovanou knihovnu Aspose.Cells. Můžete[stáhněte si jej zde](https://releases.aspose.com/cells/net/) nebo jej nainstalujte prostřednictvím NuGet ve Visual Studiu spuštěním:
+1. Aspose.Cells pro .NET: Nejprve se ujistěte, že máte nainstalovanou knihovnu Aspose.Cells. Můžete [stáhněte si to zde](https://releases.aspose.com/cells/net/) nebo jej nainstalujte pomocí NuGetu ve Visual Studiu spuštěním:
 
 ```bash
 Install-Package Aspose.Cells
 ```
 
-2. Vývojové prostředí: Tento kurz předpokládá, že používáte vývojové prostředí .NET (jako Visual Studio). Ujistěte se, že je nastaven a připraven ke spuštění kódu C#.
+2. Vývojové prostředí: Tento tutoriál předpokládá, že používáte vývojové prostředí .NET (například Visual Studio). Ujistěte se, že je nastavené a připravené ke spuštění kódu C#.
 
-3.  Nastavení licence (volitelné): Ačkoli lze Aspose.Cells používat s bezplatnou zkušební verzí, budete potřebovat licenci pro plnou funkčnost. Můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/) pokud chcete otestovat kompletní sadu funkcí.
+3. Nastavení licence (volitelné): Ačkoli lze Aspose.Cells používat s bezplatnou zkušební verzí, pro plnou funkčnost budete potřebovat licenci. Můžete získat [dočasná licence zde](https://purchase.aspose.com/temporary-license/) pokud chcete otestovat kompletní sadu funkcí.
 
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít s Aspose.Cells, budete muset importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám, které budete používat k manipulaci se soubory aplikace Excel.
+Abyste mohli začít s Aspose.Cells, budete muset importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám, které budete používat k manipulaci s excelovými soubory.
 
 Přidejte následující řádek na začátek souboru C#:
 
@@ -42,104 +44,106 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-Pojďme si proces zamykání buněk rozebrat do jasných, zvládnutelných kroků.
+Pojďme si rozebrat proces uzamčení buněk do jasných a zvládnutelných kroků.
 
-## Krok 1: Nastavte svůj sešit a načtěte soubor aplikace Excel
+## Krok 1: Nastavení sešitu a načtení souboru aplikace Excel
 
-Nejprve si načteme soubor Excel, kde chceme zamknout konkrétní buňky. Může to být existující soubor nebo nový, který vytvoříte pro účely testování.
+Nejprve si načtěme soubor aplikace Excel, kde chceme uzamknout konkrétní buňky. Může se jednat o existující soubor nebo nový, který si vytvoříte pro testovací účely.
 
 ```csharp
 // Zadejte cestu k souboru aplikace Excel
 string dataDir = "Your Document Directory";
 
-// Načtěte sešit
+// Načíst sešit
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
-Zde je to, co se děje:
+Zde se dozvíte, co se děje:
 - Určíme adresář, kde se nachází váš soubor Excel.
--  The`Workbook`objekt představuje celý soubor Excel a načtením`Book1.xlsx`, přeneseme do paměti.
+- Ten/Ta/To `Workbook` objekt představuje celý soubor aplikace Excel a načtením `Book1.xlsx`, přineseme si to do paměti.
 
-## Krok 2: Otevřete požadovaný pracovní list
+## Krok 2: Přístup k požadovanému pracovnímu listu
 
-Nyní, když je sešit načten, pojďme získat přístup ke konkrétnímu listu, kde chcete zamknout buňky.
+Nyní, když je sešit načten, přejděme ke konkrétnímu listu, kde chcete buňky uzamknout.
 
 ```csharp
-// Otevřete první list v souboru aplikace Excel
+// Přístup k prvnímu listu v souboru aplikace Excel
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 Tento řádek umožňuje interakci s prvním listem v sešitu. Pokud chcete cílit na jiný list, jednoduše upravte index nebo zadejte název listu.
 
-## Krok 3: Uzamkněte konkrétní buňky
+## Krok 3: Uzamčení konkrétních buněk
 
-V tomto kroku uzamkneme konkrétní buňku a zabráníme tak komukoli ji upravovat. Zde je návod, jak to udělat pro buňku „A1“ jako příklad.
+V tomto kroku uzamkneme konkrétní buňku, čímž zabráníme komukoli v její úpravě. Zde je návod, jak to udělat pro buňku „A1“ jako příklad.
 
 ```csharp
-// Otevřete buňku A1 a uzamkněte ji
+// Přístup k buňce A1 a její uzamčení
 Style style = worksheet.Cells["A1"].GetStyle();
 style.IsLocked = true;
 worksheet.Cells["A1"].SetStyle(style);
 ```
 
-Tento fragment kódu:
-- Přistupuje k buňce na „A1“.
+Tento úryvek kódu:
+- Přistupuje k buňce v „A1“.
 - Načte aktuální styl buňky.
--  Nastavuje`IsLocked` majetek do`true`, která celu uzamkne.
+- Nastavuje `IsLocked` majetek `true`, který buňku uzamkne.
 - Použije aktualizovaný styl zpět na buňku.
 
-## Krok 4: Chraňte pracovní list
+## Krok 4: Ochrana pracovního listu
 
-Samotné zamknutí cel nestačí; musíme také chránit list, abychom vynutili zámek. Bez ochrany lze zamčené buňky stále upravovat.
+Pouhé uzamčení buněk nestačí; pro vynucení uzamčení je také nutné chránit list. Bez ochrany lze uzamčené buňky stále upravovat.
 
 ```csharp
-// Chraňte list, abyste povolili uzamčení buněk
+// Zabezpečení listu pro povolení zamykání buněk
 worksheet.Protect(ProtectionType.All);
 ```
 
-Co to dělá:
--  The`Protect` metoda je volána na`worksheet` objekt, aplikující ochranu na celý list.
--  Používáme`ProtectionType.All` pokrývat všechny typy ochran a zajistit, aby naše uzamčené buňky zůstaly v bezpečí.
+Zde je to, co to dělá:
+- Ten/Ta/To `Protect` metoda je volána na `worksheet` objekt a aplikuje ochranu na celý list.
+- Používáme `ProtectionType.All` aby pokryly všechny typy ochrany a zajistily tak, že naše uzamčené cely zůstanou v bezpečí.
 
-## Krok 5: Uložte sešit
+## Krok 5: Uložení sešitu
 
-Po použití zámků buněk a ochrany listu je čas uložit změny. Můžete jej uložit jako nový soubor nebo přepsat stávající.
+Po použití zámků buněk a ochrany listu je čas uložit změny. Můžete je uložit jako nový soubor nebo přepsat stávající.
 
 ```csharp
-// Uložte sešit se zamčenými buňkami
+// Uložení sešitu s uzamčenými buňkami
 workbook.Save(dataDir + "output.xlsx");
 ```
 
 Tento kód:
--  Uloží sešit s uzamčenými buňkami do nového souboru s názvem`output.xlsx` v zadaném adresáři.
-- Pokud chcete přepsat původní soubor, můžete místo něj použít původní název souboru.
+- Uloží sešit s uzamčenými buňkami do nového souboru s názvem `output.xlsx` v zadaném adresáři.
+- Pokud chcete přepsat původní soubor, můžete místo toho použít původní název souboru.
 
 
 ## Závěr
 
-je to! Úspěšně jste uzamkli konkrétní buňky v listu pomocí Aspose.Cells for .NET. Pomocí těchto kroků můžete chránit důležitá data v souborech aplikace Excel a zajistit, aby bylo možné upravovat pouze buňky, které vyberete. Aspose.Cells usnadňuje přidání této funkce s minimálním kódem, díky čemuž jsou vaše dokumenty bezpečnější a profesionálnější.
+to je vše! Úspěšně jste uzamkli konkrétní buňky v listu pomocí Aspose.Cells pro .NET. Dodržováním těchto kroků můžete chránit důležitá data v souborech Excel a zajistit, aby bylo možné upravovat pouze vybrané buňky. Aspose.Cells usnadňuje přidání této funkce s minimálním kódem, takže vaše dokumenty budou bezpečnější a profesionálnější.
 
 
-## FAQ
+## Často kladené otázky
 
 ### Mohu uzamknout více buněk najednou?
-Ano, můžete procházet rozsahem buněk a aplikovat stejný styl na každou buňku, abyste uzamkli více buněk najednou.
+Ano, můžete procházet rozsah buněk a na každou buňku použít stejný styl, abyste uzamkli více buněk najednou.
 
-### Musím chránit celý list, abych zamkl buňky?
-Ano, uzamčení buněk vyžaduje ochranu listu, aby se projevila. Bez něj je uzamčená vlastnost ignorována.
+### Musím pro uzamčení buněk chránit celý list?
+Ano, pro uzamčení buněk je nutná ochrana listu. Bez ní je vlastnost locked ignorována.
 
 ### Mohu používat Aspose.Cells s bezplatnou zkušební verzí?
- Absolutně! Můžete si to vyzkoušet pomocí bezplatné zkušební verze. Pro rozšířené testování zvažte a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+Rozhodně! Můžete si to vyzkoušet s bezplatnou zkušební verzí. Pro delší testování zvažte [dočasná licence](https://purchase.aspose.com/temporary-license/).
 
 ### Jak odemknu buňky po jejich uzamčení?
- Můžete nastavit`IsLocked` na`false` na styl buňky, abyste ji odemkli, a poté odstraňte ochranu z listu.
+Můžete nastavit `IsLocked` na `false` na styl buňky ji odemkněte a poté odeberte ochranu listu.
 
-### Je možné chránit list heslem?
-Ano, Aspose.Cells vám umožňuje přidat heslo, když chráníte list, což přidává další vrstvu zabezpečení.
+### Je možné pracovní list chránit heslem?
+Ano, Aspose.Cells umožňuje přidat heslo při ochraně listu, což přidává další vrstvu zabezpečení.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,6 +175,9 @@ Bu kılavuz, Aspose.Cells Java kullanarak Excel sayfa kenar boşluklarını prog
    - Yapı yapılandırmanızın (Maven veya Gradle) Aspose.Cells için doğru bağımlılık girişini içerdiğinden emin olun.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

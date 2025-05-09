@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,7 +187,7 @@ students1.add(new Person("Jamima Winfrey", 18));
 Teacher teacher1 = new Teacher("Mark John", 30, students1);
 list.add(teacher1);
 
-// 追加の教師についても繰り返します...
+// 追加の教師に対して繰り返します...
 designer.setDataSource("Teacher", list); // データをスマートマーカーにバインドする
 ```
 
@@ -235,6 +237,9 @@ A: スマート マーカーを使用すると、ネストされたプロパテ�
 A: 無料トライアル、一時ライセンス、完全版購入のオプションがあります。 [Asposeのウェブサイト](https://purchase.aspose.com/buy) 詳細についてはこちらをご覧ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

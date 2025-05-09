@@ -1,14 +1,16 @@
 ---
-title: Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele
-linktitle: Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı kılavuzda, .NET için Aspose.Cells ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin.
-weight: 100
-url: /tr/net/excel-workbook/filter-defined-names-while-loading-workbook/
+"description": "Bu kapsamlı kılavuzda, Aspose.Cells for .NET ile bir çalışma kitabını yüklerken tanımlı adları nasıl filtreleyeceğinizi öğrenin."
+"linktitle": "Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele"
+"url": "/tr/net/excel-workbook/filter-defined-names-while-loading-workbook/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Kitabını Yüklerken Tanımlı İsimleri Filtrele
@@ -22,13 +24,13 @@ Aspose.Cells for .NET ile Excel dosyası düzenlemeye giriştiyseniz, doğru say
 Başlamadan önce, gerekli tüm araçların emrinizde olduğundan emin olalım. İhtiyacınız olanlar şunlardır:
 
 - C# programlamanın temel bilgisi: Söz dizimi ve programlama kavramlarına aşina olmalısınız.
--  Aspose.Cells for .NET kütüphanesi: Yüklediğinizden ve kullanıma hazır olduğundan emin olun. Kütüphaneyi buradan indirebilirsiniz[bağlantı](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET kütüphanesi: Yüklediğinizden ve kullanıma hazır olduğundan emin olun. Kütüphaneyi buradan indirebilirsiniz [bağlantı](https://releases.aspose.com/cells/net/).
 - Visual Studio veya herhangi bir C# IDE: Kodunuzu yazmak ve test etmek için bir geliştirme ortamı çok önemlidir.
--  Örnek Excel dosyası: Adlı bir Excel dosyası kullanacağız.`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Bu dosyayı manuel olarak oluşturabilir veya ihtiyacınız olduğunda indirebilirsiniz.
+- Örnek Excel dosyası: Adlı bir Excel dosyası kullanacağız. `sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Bu dosyayı manuel olarak oluşturabilir veya ihtiyacınız olduğunda indirebilirsiniz.
 
 ## Paketleri İçe Aktar
 
-İlk önce ilk şeyler! İlgili Aspose.Cells ad alanlarını içe aktarmanız gerekir. Bunu şu şekilde yapabilirsiniz:
+İlk önce ilk şeyler! İlgili Aspose.Cells ad alanlarını içe aktarmanız gerekir. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 using System;
@@ -43,13 +45,13 @@ Bu ad alanları, Excel dosyalarını etkili bir şekilde düzenlemek için Aspos
 
 ## Adım 1: Yükleme Seçeneklerini Belirleyin
 
- Yapacağımız ilk şey, bir örnek oluşturmaktır`LoadOptions` sınıf. Bu sınıf, Excel dosyamızı nasıl yüklemek istediğimizi belirtmemize yardımcı olacaktır.
+Yapacağımız ilk şey, bir örnek oluşturmaktır `LoadOptions` sınıf. Bu sınıf, Excel dosyamızı nasıl yüklemek istediğimizi belirtmemize yardımcı olacaktır.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
 ```
 
- Burada, yeni bir nesneyi başlatıyoruz`LoadOptions` sınıf. Bu nesne, bir sonraki adımda ayarlayacağımız çeşitli yapılandırmalara izin verir.
+Burada, yeni bir nesneyi başlatıyoruz `LoadOptions` sınıf. Bu nesne, bir sonraki adımda ayarlayacağımız çeşitli yapılandırmalara izin verir.
 
 ## Adım 2: Yük Filtresini Ayarla
 
@@ -59,17 +61,17 @@ Sonra, çalışma kitabını yüklerken hangi verileri filtrelemek istediğimizi
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Tilde (~operatörü, tanımlanmış isimleri yükleme işleminden hariç tutmak istediğimizi belirtir. Bu, iş yükünüzü hafif tutmak ve işleminizi karmaşıklaştırabilecek gereksiz verilerden kaçınmak istiyorsanız önemlidir.
+Tilde (~) operatörü, tanımlanmış isimleri yükleme sürecinden hariç tutmak istediğimizi belirtir. İş yükünüzü hafif tutmak ve işleminizi karmaşıklaştırabilecek gereksiz verilerden kaçınmak istiyorsanız bu önemlidir.
 
 ## Adım 3: Çalışma Kitabını Yükleyin
 
-Artık yükleme seçeneklerimiz belirtildiğine göre, çalışma kitabının kendisini yükleme zamanı geldi. Aşağıdaki kodu kullanın:
+Artık yükleme seçeneklerimiz belirtildiğine göre, çalışma kitabını yükleme zamanı geldi. Aşağıdaki kodu kullanın:
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- Bu satırda, yeni bir örnek oluşturuyorsunuz`Workbook` sınıf, örnek Excel dosyanıza giden yolu ve yükleme seçeneklerini geçirir. Bu, çalışma kitabınızı belirtilen şekilde filtrelenmiş tanımlanmış adlarla yükler.
+Bu satırda, yeni bir örnek oluşturuyorsunuz `Workbook` sınıf, örnek Excel dosyanıza giden yolu ve yükleme seçeneklerini geçirir. Bu, çalışma kitabınızı belirtilen şekilde filtrelenmiş tanımlanmış adlarla yükler.
 
 ## Adım 4: Çıktı Dosyasını Kaydedin
 
@@ -109,13 +111,15 @@ Evet, Aspose.Cells grafikler, resimler ve veri doğrulamaları dahil olmak üzer
 Tanımlı adları filtrelemek, bu adlara atıfta bulunurlarsa bozuk formüllere yol açabilir. Formüllerinizi buna göre ayarlamanız gerekecektir.
 
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Evet, satın almadan önce yeteneklerini test etmek için Aspose.Cells'in ücretsiz deneme sürümünü edinebilirsiniz. Kontrol edin[Burada](https://releases.aspose.com/).
+Evet, satın almadan önce yeteneklerini test etmek için Aspose.Cells'in ücretsiz deneme sürümünü edinebilirsiniz. Kontrol edin [Burada](https://releases.aspose.com/).
 
 ### Daha fazla örnek ve dokümanı nerede bulabilirim?
- Aspose.Cells referans sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Aspose.Cells referans sayfasında kapsamlı dokümantasyon ve daha fazla örnek bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

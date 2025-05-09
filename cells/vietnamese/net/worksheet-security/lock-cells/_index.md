@@ -1,14 +1,16 @@
 ---
-title: Khóa ô trong bảng tính bằng Aspose.Cells
-linktitle: Khóa ô trong bảng tính bằng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách khóa ô trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo vệ dữ liệu của bạn bằng các ví dụ mã chi tiết và hướng dẫn dễ dàng.
-weight: 25
-url: /vi/net/worksheet-security/lock-cells/
+"description": "Tìm hiểu cách khóa ô trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Bảo vệ dữ liệu của bạn bằng các ví dụ mã chi tiết và hướng dẫn dễ dàng."
+"linktitle": "Khóa ô trong bảng tính bằng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Khóa ô trong bảng tính bằng Aspose.Cells"
+"url": "/vi/net/worksheet-security/lock-cells/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Khóa ô trong bảng tính bằng Aspose.Cells
@@ -20,7 +22,7 @@ Khóa các ô trong bảng tính Excel là một tính năng quan trọng, đặ
 
 Trước khi đi vào hướng dẫn, chúng ta hãy cùng tìm hiểu những điều cần thiết mà bạn cần phải tuân theo.
 
-1.  Aspose.Cells cho .NET: Trước tiên, hãy đảm bảo rằng bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/) hoặc cài đặt thông qua NuGet trong Visual Studio bằng cách chạy:
+1. Aspose.Cells cho .NET: Trước tiên, hãy đảm bảo rằng bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/) hoặc cài đặt thông qua NuGet trong Visual Studio bằng cách chạy:
 
 ```bash
 Install-Package Aspose.Cells
@@ -28,7 +30,7 @@ Install-Package Aspose.Cells
 
 2. Môi trường phát triển: Hướng dẫn này giả định rằng bạn đang sử dụng môi trường phát triển .NET (như Visual Studio). Đảm bảo rằng nó được thiết lập và sẵn sàng để chạy mã C#.
 
-3.  Thiết lập giấy phép (Tùy chọn): Mặc dù Aspose.Cells có thể được sử dụng với bản dùng thử miễn phí, nhưng bạn sẽ cần giấy phép để có đầy đủ chức năng. Bạn có thể nhận được[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) nếu bạn muốn kiểm tra toàn bộ tính năng.
+3. Thiết lập giấy phép (Tùy chọn): Mặc dù Aspose.Cells có thể được sử dụng với bản dùng thử miễn phí, bạn sẽ cần giấy phép để có đầy đủ chức năng. Bạn có thể nhận được [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/) nếu bạn muốn kiểm tra toàn bộ tính năng.
 
 
 ## Nhập gói
@@ -58,7 +60,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 Sau đây là những gì đang xảy ra:
 - Chúng tôi chỉ định thư mục chứa tệp Excel của bạn.
--  Các`Workbook`đối tượng đại diện cho toàn bộ tệp Excel và bằng cách tải`Book1.xlsx`, chúng ta đưa nó vào trí nhớ.
+- Các `Workbook` đối tượng đại diện cho toàn bộ tệp Excel và bằng cách tải `Book1.xlsx`, chúng ta đưa nó vào trí nhớ.
 
 ## Bước 2: Truy cập vào bảng tính mong muốn
 
@@ -85,7 +87,7 @@ worksheet.Cells["A1"].SetStyle(style);
 Đoạn mã này:
 - Truy cập vào ô ở “A1”.
 - Lấy lại kiểu hiện tại của ô.
--  Đặt`IsLocked` tài sản để`true`, khóa ô.
+- Đặt `IsLocked` tài sản để `true`, khóa ô.
 - Áp dụng lại kiểu đã cập nhật cho ô.
 
 ## Bước 4: Bảo vệ bảng tính
@@ -98,8 +100,8 @@ worksheet.Protect(ProtectionType.All);
 ```
 
 Sau đây là những gì lệnh này thực hiện:
--  Các`Protect` phương pháp được gọi là`worksheet` đối tượng, áp dụng chế độ bảo vệ cho toàn bộ trang tính.
--  Chúng tôi sử dụng`ProtectionType.All` để bao phủ mọi loại bảo vệ, đảm bảo rằng các phòng giam được khóa của chúng tôi vẫn an toàn.
+- Các `Protect` phương pháp được gọi là `worksheet` đối tượng, áp dụng chế độ bảo vệ cho toàn bộ trang tính.
+- Chúng tôi sử dụng `ProtectionType.All` để bao phủ mọi loại bảo vệ, đảm bảo rằng các phòng giam được khóa của chúng tôi vẫn an toàn.
 
 ## Bước 5: Lưu sổ làm việc
 
@@ -111,7 +113,7 @@ workbook.Save(dataDir + "output.xlsx");
 ```
 
 Mã này:
--  Lưu sổ làm việc, với các ô bị khóa, vào một tệp mới có tên`output.xlsx` trong thư mục được chỉ định.
+- Lưu sổ làm việc, với các ô bị khóa, vào một tệp mới có tên `output.xlsx` trong thư mục được chỉ định.
 - Nếu bạn muốn ghi đè lên tệp gốc, bạn có thể sử dụng tên tệp gốc.
 
 
@@ -126,20 +128,22 @@ Và thế là xong! Bạn đã khóa thành công các ô cụ thể trong bản
 Có, bạn có thể lặp qua một loạt ô và áp dụng cùng một kiểu cho từng ô để khóa nhiều ô cùng một lúc.
 
 ### Tôi có cần bảo vệ toàn bộ trang tính để khóa các ô không?
-Có, khóa ô yêu cầu bảo vệ bảng tính để có hiệu lực. Nếu không có nó, thuộc tính khóa sẽ bị bỏ qua.
+Có, khóa ô yêu cầu bảo vệ bảng tính có hiệu lực. Nếu không có nó, thuộc tính khóa sẽ bị bỏ qua.
 
 ### Tôi có thể sử dụng Aspose.Cells với bản dùng thử miễn phí không?
- Chắc chắn rồi! Bạn có thể dùng thử miễn phí. Để thử nghiệm mở rộng, hãy cân nhắc[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+Chắc chắn rồi! Bạn có thể dùng thử miễn phí. Để thử nghiệm mở rộng, hãy cân nhắc [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
-### Làm thế nào để mở khóa các ô sau khi đã khóa chúng?
- Bạn có thể thiết lập`IsLocked` ĐẾN`false` trên kiểu ô để mở khóa, sau đó xóa bảo vệ khỏi bảng tính.
+### Làm thế nào để mở khóa ô sau khi đã khóa?
+Bạn có thể thiết lập `IsLocked` ĐẾN `false` trên kiểu ô để mở khóa, sau đó xóa bảo vệ khỏi bảng tính.
 
 ### Có thể bảo vệ bảng tính bằng mật khẩu không?
 Có, Aspose.Cells cho phép bạn thêm mật khẩu khi bảo vệ bảng tính, tăng thêm một lớp bảo mật.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

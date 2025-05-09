@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Kuasai seni mengekspor grafik Excel sebagai PDF berkualitas tinggi sambil mempertahankan ukuran halaman khusus dengan Aspose.Cells untuk Java. Tutorial ini akan memandu Anda melalui proses tersebut, memastikan bahwa dokumen Anda menarik secara visual dan diformat secara profesional.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Cara memuat berkas Excel dan mengakses isinya.
 - Langkah-langkah untuk mengambil lembar kerja dan bagan tertentu dari file Excel.
 - Teknik untuk mengubah bagan menjadi PDF dengan dimensi halaman khusus.
@@ -23,10 +25,10 @@ Kuasai seni mengekspor grafik Excel sebagai PDF berkualitas tinggi sambil memper
 
 Mari pastikan lingkungan Anda siap sebelum menyelaminya!
 
-## Prasyarat
+## Előfeltételek
 Sebelum memulai, pastikan pengaturan Anda memenuhi persyaratan berikut. Panduan ini mengasumsikan pengetahuan dasar tentang pemrograman Java dan keakraban dengan alat manajemen proyek seperti Maven atau Gradle.
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 Untuk menggunakan Aspose.Cells untuk Java, tambahkan sebagai dependensi:
 
 **Pakar:**
@@ -43,17 +45,17 @@ Untuk menggunakan Aspose.Cells untuk Java, tambahkan sebagai dependensi:
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Pengaturan Lingkungan
+### Környezet beállítása
 Pastikan Anda telah menginstal dan mengonfigurasi Java Development Kit (JDK) di komputer Anda. Menggunakan Integrated Development Environment (IDE) seperti IntelliJ IDEA atau Eclipse dapat menyederhanakan proses tersebut.
 
-### Akuisisi Lisensi
-Aspose.Cells untuk Java menawarkan uji coba gratis untuk mengevaluasi kemampuannya. Untuk penggunaan berkelanjutan, pertimbangkan untuk memperoleh lisensi sementara atau membeli lisensi penuh. Kunjungi [Halaman pembelian Aspose](https://purchase.aspose.com/buy) dan ikuti petunjuk untuk mendapatkan berkas lisensi Anda.
+### Licencszerzés
+Aspose.Cells untuk Java menawarkan uji coba gratis untuk mengevaluasi kemampuannya. Untuk penggunaan berkelanjutan, pertimbangkan untuk memperoleh lisensi sementara atau membeli lisensi penuh. Kunjungi [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) dan ikuti petunjuk untuk mendapatkan berkas lisensi Anda.
 
 ## Menyiapkan Aspose.Cells untuk Java
-### Instalasi
+### Telepítés
 Tambahkan dependensi pustaka seperti yang ditunjukkan di atas di Maven atau Gradle untuk memulai dengan Aspose.Cells untuk Java. Pastikan Anda telah mengunduh file JAR yang sesuai jika tidak menggunakan alat build yang mengelola dependensi secara otomatis.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Setelah disertakan, inisialisasi Aspose.Cells dalam proyek Anda:
 
 ```java
@@ -65,21 +67,21 @@ license.setLicense("path_to_your_aspose_license.lic");
 
 Langkah ini krusial untuk membuka potensi penuh perpustakaan selama pengembangan.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Kami akan membagi prosesnya menjadi tiga fitur utama: memuat berkas Excel, mengakses bagan tertentu, dan mengekspornya ke PDF dengan ukuran halaman khusus.
 
 ### Muat Contoh File Excel
-#### Ringkasan
+#### Áttekintés
 Memuat berkas Excel adalah langkah pertama dalam mengolah isinya. Kita akan menggunakan Aspose.Cells untuk Java untuk memuat buku kerja yang berisi data bagan.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **1. Impor Kelas yang Diperlukan**
 ```java
 import com.aspose.cells.Workbook;
 ```
 
 **2. Muat Buku Kerja**
-Mengganti `"YOUR_DATA_DIRECTORY"` dengan jalur berkas Anda yang sebenarnya:
+Csere `"YOUR_DATA_DIRECTORY"` dengan jalur berkas Anda yang sebenarnya:
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY"; // Atur ini ke direktori Anda
 Workbook wb = new Workbook(dataDir + "/sampleCreateChartPDFWithDesiredPageSize.xlsx");
@@ -87,10 +89,10 @@ Workbook wb = new Workbook(dataDir + "/sampleCreateChartPDFWithDesiredPageSize.x
 Potongan kode ini memuat buku kerja Excel, membuatnya siap untuk operasi lebih lanjut.
 
 ### Akses Lembar Kerja dan Bagan Pertama
-#### Ringkasan
+#### Áttekintés
 Mengakses lembar kerja dan bagan tertentu dalam buku kerja memungkinkan Anda untuk memanipulasi atau mengekspornya satu per satu.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **1. Ambil Lembar Kerja**
 ```java
 import com.aspose.cells.Worksheet;
@@ -104,16 +106,16 @@ Kode di atas mengambil lembar kerja pertama dari buku kerja Anda.
 ```java
 Chart ch = ws.getCharts().get(0);
 ```
-Sekarang, `ch` berisi referensi ke bagan pertama dalam lembar kerja yang ditentukan.
+Jelenleg, `ch` berisi referensi ke bagan pertama dalam lembar kerja yang ditentukan.
 
 ### Buat Bagan PDF dengan Ukuran Halaman yang Diinginkan
-#### Ringkasan
+#### Áttekintés
 Mengonversi bagan ke PDF dengan ukuran halaman khusus sangat penting untuk presentasi dan laporan yang memerlukan pemformatan khusus.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **1. Tentukan Direktori Output**
 ```java
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Atur ini ke jalur keluaran yang Anda inginkan
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Állítsa be ezt a kívánt kimeneti útvonalra
 ```
 
 **2. Ekspor Bagan sebagai PDF**
@@ -126,30 +128,30 @@ ch.toPdf(outDir + "/outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7,
 ```
 Langkah ini mengubah bagan menjadi berkas PDF dengan ukuran halaman dan perataan yang Anda inginkan.
 
-### Tips Pemecahan Masalah
-- **Masalah Jalur Berkas:** Pastikan jalur ditentukan dengan benar.
-- **Kesalahan Lisensi:** Periksa kembali apakah lisensi telah diatur dengan benar sebelum melakukan operasi.
+### Hibaelhárítási tippek
+- **Fájlútvonal-problémák:** Pastikan jalur ditentukan dengan benar.
+- **Licenc hibák:** Periksa kembali apakah lisensi telah diatur dengan benar sebelum melakukan operasi.
 - **Keterbatasan Memori:** Untuk file Excel yang besar, pertimbangkan untuk mengoptimalkan pengaturan tumpukan Java Anda guna mencegah kesalahan kehabisan memori.
 
-## Aplikasi Praktis
-1. **Pelaporan Bisnis**: Mengekspor bagan sebagai PDF untuk disertakan dalam laporan triwulanan.
+## Gyakorlati alkalmazások
+1. **Üzleti jelentések**: Mengekspor bagan sebagai PDF untuk disertakan dalam laporan triwulanan.
 2. **Presentasi Akademis**: Mempersiapkan slide dengan bagan berukuran khusus yang disematkan dari analisis data.
-3. **Visualisasi Data**: Berbagi wawasan melalui dokumen visual yang tampak profesional di seluruh platform.
+3. **Adatvizualizáció**: Berbagi wawasan melalui dokumen visual yang tampak profesional di seluruh platform.
 
 Integrasikan Aspose.Cells Java dengan sistem lain seperti basis data atau alat pelaporan untuk mengotomatiskan alur kerja lebih lanjut.
 
-## Pertimbangan Kinerja
-- **Mengoptimalkan Penggunaan Sumber Daya:** Gunakan operasi streaming untuk kumpulan data besar.
+## Teljesítménybeli szempontok
+- **Erőforrás-felhasználás optimalizálása:** Gunakan operasi streaming untuk kumpulan data besar.
 - **Manajemen Memori Java:** Tingkatkan ukuran tumpukan jika perlu, terutama saat menangani file Excel yang besar.
 
 Mengikuti praktik terbaik ini akan memastikan penggunaan Aspose.Cells Java yang efisien dalam aplikasi Anda.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami telah menjajaki cara memanfaatkan Aspose.Cells for Java untuk mengekspor grafik Excel sebagai PDF dengan ukuran halaman khusus. Dengan mengikuti langkah-langkah yang diuraikan dan memanfaatkan cuplikan kode yang disediakan, Anda dapat secara efisien menyiapkan dokumen profesional yang disesuaikan dengan kebutuhan presentasi tertentu.
 
 Sebagai langkah selanjutnya, pertimbangkan untuk bereksperimen dengan fitur lain yang ditawarkan oleh Aspose.Cells, seperti manipulasi data atau kustomisasi bagan tingkat lanjut.
 
-## Bagian FAQ
+## GYIK szekció
 **T: Bagaimana cara menangani file Excel berukuran besar di Aspose.Cells?**
 A: Pertimbangkan untuk meningkatkan ukuran tumpukan Java dan gunakan operasi streaming yang disediakan oleh Aspose untuk kinerja yang lebih baik.
 
@@ -165,18 +167,21 @@ A: Tentu saja. Anda dapat membuat skrip operasi batch menggunakan loop atau meng
 **T: Bagaimana cara memastikan keluaran berkualitas tinggi dalam PDF?**
 A: Sesuaikan opsi rendering seperti resolusi dan skala dalam pengaturan Aspose.Cells untuk hasil yang optimal.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Dapatkan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió igénylése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda dengan Aspose.Cells untuk Java hari ini dan ubah cara Anda menangani data Excel dalam proyek profesional atau akademis Anda!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

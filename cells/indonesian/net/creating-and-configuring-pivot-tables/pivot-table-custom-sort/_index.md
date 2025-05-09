@@ -1,28 +1,30 @@
 ---
-title: Urutkan Tabel Pivot Secara Kustom Secara Terprogram di .NET
-linktitle: Urutkan Tabel Pivot Secara Kustom Secara Terprogram di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengurutkan Tabel Pivot secara terprogram di .NET menggunakan Aspose.Cells. Panduan langkah demi langkah yang mencakup penyiapan, konfigurasi, pengurutan, dan penyimpanan hasil sebagai file Excel dan PDF.
-weight: 29
-url: /id/net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/
+"description": "Pelajari cara mengurutkan Tabel Pivot secara terprogram di .NET menggunakan Aspose.Cells. Panduan langkah demi langkah yang mencakup penyiapan, konfigurasi, pengurutan, dan penyimpanan hasil sebagai file Excel dan PDF."
+"linktitle": "Urutkan Kustom Tabel Pivot Secara Terprogram di .NET"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Urutkan Kustom Tabel Pivot Secara Terprogram di .NET"
+"url": "/id/net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Urutkan Tabel Pivot Secara Kustom Secara Terprogram di .NET
+# Urutkan Kustom Tabel Pivot Secara Terprogram di .NET
 
-## Perkenalan
+## Bevezetés
 Jika berbicara tentang bekerja dengan Excel di lingkungan .NET, satu pustaka menonjol di antara yang lain: Aspose.Cells. Nah, bukankah Anda menyukainya saat sebuah alat memungkinkan Anda memanipulasi spreadsheet secara terprogram? Itulah yang dilakukan Aspose.Cells! Dalam tutorial hari ini, kita akan menyelami dunia Tabel Pivot secara mendalam dan menunjukkan kepada Anda cara menerapkan pengurutan kustom secara terprogram menggunakan pustaka serbaguna ini.
-## Prasyarat
+## Előfeltételek
 Sebelum kita mulai dan mulai menulis kode, pastikan Anda sudah menyiapkan beberapa hal:
 1. Visual Studio: Anda memerlukan versi Visual Studio yang berfungsi. Ini adalah tempat bermain di mana semua keajaiban terjadi.
 2. .NET Framework: Keakraban dengan pemrograman .NET sangatlah penting. Baik Anda penggemar .NET Core atau .NET Framework, Anda siap untuk memulai.
-3.  Pustaka Aspose.Cells: Anda perlu menginstal pustaka Aspose.Cells. Anda bisa mendapatkannya dari[Tautan unduhan](https://releases.aspose.com/cells/net/) dan menambahkannya ke proyek Anda.
+3. Pustaka Aspose.Cells: Anda perlu menginstal pustaka Aspose.Cells. Anda bisa mendapatkannya dari [Letöltési link](https://releases.aspose.com/cells/net/) és add hozzá a projektedhez.
 4. Pemahaman Dasar tentang Tabel Pivot: Meskipun Anda tidak perlu menjadi seorang ahli, sedikit pengetahuan tentang cara kerja Tabel Pivot akan bermanfaat saat kita mempelajari tutorial ini.
-5.  Contoh File Excel: Memiliki contoh file Excel bernama`SamplePivotSort.xlsx` siap di direktori kerja Anda untuk pengujian.
-## Paket Impor
+5. Contoh File Excel: Memiliki contoh file Excel bernama `SamplePivotSort.xlsx` siap di direktori kerja Anda untuk pengujian.
+## Csomagok importálása
 Setelah semua prasyarat terpenuhi, langkah pertama adalah mengimpor paket yang diperlukan. Untuk melakukannya, sertakan baris berikut di bagian atas kode Anda:
 ```csharp
 using System;
@@ -42,14 +44,14 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 Workbook wb = new Workbook(sourceDir + "SamplePivotSort.xlsx");
 ```
- Pada langkah ini, kami menginisialisasi yang baru`Workbook` contoh dengan jalur ke berkas Excel kita. Ini berfungsi sebagai kanvas tempat Tabel Pivot kita akan muncul.
-## Langkah 2: Akses Lembar Kerja
+Pada langkah ini, kita menginisialisasi yang baru `Workbook` contoh dengan jalur ke berkas Excel kita. Ini berfungsi sebagai kanvas tempat Tabel Pivot kita akan muncul.
+## 2. lépés: A munkalap elérése
 Berikutnya, kita perlu mengakses lembar kerja tempat kita akan menambahkan Tabel Pivot.
 ```csharp
 Worksheet sheet = wb.Worksheets[0];
 PivotTableCollection pivotTables = sheet.PivotTables;
 ```
- Di sini, kita ambil lembar kerja pertama di buku kerja kita dan panggil`PivotTableCollection`Koleksi ini memungkinkan kita mengelola semua Tabel Pivot pada lembar kerja ini.
+Di sini, kita ambil lembar kerja pertama di buku kerja kita dan panggil `PivotTableCollection`Koleksi ini memungkinkan kita mengelola semua Tabel Pivot pada lembar kerja ini.
 ## Langkah 3: Buat Tabel Pivot Pertama Anda
 Sekarang saatnya membuat Tabel Pivot kita.
 ```csharp
@@ -116,27 +118,29 @@ PdfSaveOptions options = new PdfSaveOptions();
 options.OnePagePerSheet = true;
 wb.Save(outputDir + "out.pdf", options);
 ```
- Di sini, Anda menyimpan buku kerja sebagai file Excel dan PDF.`PdfSaveOptions` memungkinkan pemformatan yang lebih baik, memastikan setiap lembar muncul pada halaman terpisah saat dikonversi.
+Di sini, Anda menyimpan buku kerja sebagai file Excel dan PDF. `PdfSaveOptions` memungkinkan pemformatan yang lebih baik, memastikan setiap lembar muncul pada halaman terpisah saat dikonversi.
 ## Langkah 10: Akhiri dengan memberi tahu pengguna bahwa semuanya baik-baik saja.
 ```csharp
 Console.WriteLine("PivotTableCustomSort executed successfully.");
 ```
-## Kesimpulan
+## Következtetés
 Sekarang, Anda telah mempelajari cara memanfaatkan kekuatan Aspose.Cells untuk membuat dan menyesuaikan Tabel Pivot di aplikasi .NET Anda. Dari pengaturan awal hingga penyortiran khusus, setiap langkah digabungkan untuk memberikan pengalaman yang lancar. Baik Anda perlu menyajikan data penjualan tahunan atau melacak statistik inventaris, keterampilan ini akan sangat membantu Anda!
-## Pertanyaan yang Sering Diajukan
+## GYIK
 ### Apa itu Tabel Pivot?
 Tabel Pivot adalah alat pemrosesan data di Excel yang memungkinkan Anda meringkas dan menganalisis data, menyediakan cara fleksibel untuk mengekstrak wawasan dengan mudah.
-### Bagaimana cara menginstal Aspose.Cells?
- Anda dapat menginstalnya melalui NuGet di Visual Studio atau mengunduhnya langsung dari[Tautan unduhan](https://releases.aspose.com/cells/net/).
+### Hogyan telepítsem az Aspose.Cells-t?
+Anda dapat menginstalnya melalui NuGet di Visual Studio atau mengunduhnya langsung dari [Letöltési link](https://releases.aspose.com/cells/net/).
 ### Apakah ada versi uji coba Aspose.Cells?
- Ya! Anda dapat mencobanya secara gratis dengan mengunjungi[Tautan uji coba gratis](https://releases.aspose.com/).
+Ya! Anda dapat mencobanya secara gratis dengan mengunjungi [Ingyenes próbaverzió linkje](https://releases.aspose.com/).
 ### Bisakah saya mengurutkan beberapa bidang dalam Tabel Pivot?
 Tentu saja! Anda dapat menambahkan dan mengurutkan beberapa kolom berdasarkan kebutuhan Anda.
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
- Komunitasnya cukup aktif, dan Anda dapat mengajukan pertanyaan di forum mereka[Di Sini](https://forum.aspose.com/c/cells/9).
+### Hol találok támogatást az Aspose.Cells-hez?
+Komunitasnya cukup aktif, dan Anda dapat mengajukan pertanyaan di forum mereka [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

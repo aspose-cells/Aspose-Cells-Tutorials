@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Giải thích:
-- **`Workbook`**: Biểu thị một tệp Excel.
+- **`Workbook`**Biểu thị một tệp Excel.
 - **`Worksheet`**: Chỉ một trang tính trong bảng tính.
 - **`Cells`**: Một tập hợp các ô trong bảng tính.
 - **`Style`**: Được sử dụng để định dạng ô.
@@ -200,6 +202,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo và định d
 - **Tài liệu**: Hướng dẫn toàn diện và tài liệu tham khảo API có thể được tìm thấy tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

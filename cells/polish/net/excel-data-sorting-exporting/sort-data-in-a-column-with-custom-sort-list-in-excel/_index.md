@@ -1,14 +1,16 @@
 ---
-title: Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel
-linktitle: Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: tym kompleksowym samouczku dowiesz się, jak sortować dane w programie Excel za pomocą niestandardowej listy sortowania w Aspose.Cells for .NET.
-weight: 10
-url: /pl/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
+"description": "W tym kompleksowym samouczku dowiesz się, jak sortować dane w programie Excel za pomocą niestandardowej listy sortowania w Aspose.Cells for .NET."
+"linktitle": "Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel"
+"url": "/pl/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sortowanie danych w kolumnie za pomocą niestandardowej listy sortowania w programie Excel
@@ -37,7 +39,7 @@ Oto jak to zrobić:
 
 1. Otwórz projekt w programie Visual Studio.
 2. Przejdź do „Narzędzia” > „Menedżer pakietów NuGet” > „Zarządzaj pakietami NuGet dla rozwiązania”.
-3.  Szukaj`Aspose.Cells` i zainstaluj najnowszą wersję.
+3. Szukaj `Aspose.Cells` i zainstaluj najnowszą wersję.
 
 ### Podstawowy plik Excela do testowania
 
@@ -67,7 +69,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Krok 2: Załaduj plik źródłowy Excel
 
-Następnie załadujemy plik Excel zawierający dane, które chcesz posortować. Można to zrobić, tworząc wystąpienie`Workbook` klasę i przekazując ścieżkę do pliku źródłowego.
+Następnie załadujemy plik Excel zawierający dane, które chcesz posortować. Można to zrobić, tworząc wystąpienie `Workbook` klasę i przekazując ścieżkę do pliku źródłowego.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -83,7 +85,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Krok 4: Określ obszar komórek do sortowania
 
- Musimy określić zakres komórek, które będziemy sortować. W tym przykładzie posortujemy komórki od A1 do A40. Użyj`CellArea.CreateCellArea` metoda definiowania obszaru komórki.
+Musimy określić zakres komórek, które będziemy sortować. W tym przykładzie posortujemy komórki od A1 do A40. Użyj `CellArea.CreateCellArea` metoda definiowania obszaru komórki.
 
 ```csharp
 CellArea ca = CellArea.CreateCellArea("A1", "A40");
@@ -116,7 +118,7 @@ wb.Save(outputDir + "outputSortData_CustomSortList.xlsx");
 
 ## Krok 8: Potwierdź pomyślne wykonanie
 
-Aby upewnić się, że wszystko działało sprawnie, możesz wydrukować wiadomość potwierdzającą na konsoli. Pomaga to w debugowaniu i daje satysfakcję, że operacja zakończyła się powodzeniem.
+Aby upewnić się, że wszystko działało sprawnie, możesz wydrukować wiadomość potwierdzającą na konsoli. Pomaga to w debugowaniu i daje satysfakcję, że operacja zakończyła się sukcesem.
 
 ```csharp
 Console.WriteLine("SortDataInColumnWithCustomSortList executed successfully.\r\n");
@@ -141,10 +143,12 @@ Choć jest to pomocne, możesz śledzić ten samouczek i uczyć się w trakcie! 
 Oczywiście! Możesz nabyć tymczasową licencję, jeśli chcesz przetestować pełne funkcje biblioteki bez ograniczeń.
 
 ### Czy mogę pobrać przykłady lub dokumentację dla Aspose.Cells?
- Tak! Aspose udostępnia obszerną dokumentację i przykładowe projekty, które mogą Ci bardzo pomóc. Sprawdź[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Tak! Aspose udostępnia obszerną dokumentację i przykładowe projekty, które mogą Ci bardzo pomóc. Sprawdź [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

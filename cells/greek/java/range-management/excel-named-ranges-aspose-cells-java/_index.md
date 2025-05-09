@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ book.save(outDir + "/SetSimpleFormulaNamedRange_out.xlsx");
 Ακολουθώντας αυτόν τον οδηγό, είστε πλήρως εξοπλισμένοι για να αξιοποιήσετε τη δύναμη των ονομασμένων περιοχών με το Aspose.Cells για Java στα έργα σας. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

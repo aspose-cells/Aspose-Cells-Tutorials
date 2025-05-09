@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A5 : Les fichiers volumineux et les opérations complexes peuvent augmenter l'u
 Explorez ces ressources pour approfondir votre compréhension d'Aspose.Cells pour Java et exploiter tout le potentiel de manipulation d'Excel dans vos applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

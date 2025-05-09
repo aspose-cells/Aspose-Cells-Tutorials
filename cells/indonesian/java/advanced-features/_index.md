@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial fitur lanjutan kami menunjukkan cara memanfaatkan kapabilitas khusus Excel menggunakan Aspose.Cells di Java. Panduan terperinci ini mencakup penerapan pemfilteran data interaktif, pembuatan sistem navigasi dengan hyperlink, pembuatan koneksi data eksternal, dan penggunaan fitur lanjutan Excel yang canggih. Setiap tutorial menyediakan contoh kode Java yang berfungsi untuk fungsionalitas Excel khusus, membantu Anda membangun solusi spreadsheet canggih yang memanfaatkan sepenuhnya kapabilitas Excel yang canggih.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi fitur tingkat lanjut
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -89,10 +91,13 @@ Pelajari cara mengotomatiskan pembaruan slicer dalam file Excel dengan Aspose.Ce
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

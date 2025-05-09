@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,6 +168,9 @@ Bereit, tiefer einzutauchen? Versuchen Sie, diese Lösungen in Ihrem nächsten P
 Mit dieser Anleitung sind Sie bestens gerüstet, um CSV-Dateien mit Aspose.Cells für Java sicher zu bearbeiten. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

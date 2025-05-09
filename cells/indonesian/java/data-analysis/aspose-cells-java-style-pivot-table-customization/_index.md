@@ -7,26 +7,28 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Master Aspose.Cells untuk Java: Gaya dan Kustomisasi Tabel Pivot
-## Perkenalan
+## Bevezetés
 Saat bekerja dengan data dalam lembar kerja Excel menggunakan Java, penataan dan penyesuaian tabel pivot dapat mengubah laporan Anda dari yang biasa-biasa saja menjadi menarik secara visual. Panduan ini akan memandu Anda tentang cara memanfaatkan Aspose.Cells untuk Java untuk membuat gaya khusus dan menerapkannya ke tabel pivot, meningkatkan keterbacaan dan tampilan profesional.
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur dan mengonfigurasi Aspose.Cells untuk Java.
 - Membuat dan menerapkan gaya kustom menggunakan pustaka Aspose.Cells.
 - Menyesuaikan gaya tabel pivot secara efektif.
-- Aplikasi praktis dari fitur-fitur ini dalam skenario dunia nyata.
+- Ezen funkciók gyakorlati alkalmazásai valós helyzetekben.
 - Mengoptimalkan kinerja saat bekerja dengan kumpulan data besar.
 Mari selami bagaimana Anda dapat memecahkan tantangan penataan gaya secara efisien, meningkatkan presentasi data Excel Anda. 
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+## Előfeltételek
+Kezdés előtt győződjön meg arról, hogy a következőkkel rendelkezik:
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - Kemampuan menggunakan Maven atau Gradle untuk manajemen ketergantungan.
 - Pemahaman dasar tentang pemrograman Java dan operasi file Excel.
-### Pustaka dan Versi yang Diperlukan
+### Szükséges könyvtárak és verziók
 Aspose.Cells untuk Java adalah pustaka canggih yang memungkinkan manipulasi file Excel. Anda perlu menyertakannya dalam dependensi proyek Anda:
 **Pakar:**
 ```xml
@@ -40,11 +42,11 @@ Aspose.Cells untuk Java adalah pustaka canggih yang memungkinkan manipulasi file
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 Aspose.Cells untuk Java memerlukan lisensi untuk fungsionalitas penuh, tetapi Anda dapat memulai dengan uji coba gratis:
-1. **Uji Coba Gratis:** Unduh pustaka dari situs resmi Aspose dan mulailah bereksperimen tanpa batasan.
-2. **Lisensi Sementara:** Dapatkan lisensi sementara untuk menguji semua fitur selama fase pengembangan Anda.
-3. **Pembelian:** Untuk penggunaan berkelanjutan, beli langganan.
+1. **Ingyenes próbaverzió:** Unduh pustaka dari situs resmi Aspose dan mulailah bereksperimen tanpa batasan.
+2. **Ideiglenes engedély:** Dapatkan lisensi sementara untuk menguji semua fitur selama fase pengembangan Anda.
+3. **Vásárlás:** Untuk penggunaan berkelanjutan, beli langganan.
 ## Menyiapkan Aspose.Cells untuk Java
 Untuk menginisialisasi Aspose.Cells di proyek Java Anda:
 1. Tambahkan dependensi pustaka seperti yang ditunjukkan di atas menggunakan Maven atau Gradle.
@@ -60,17 +62,17 @@ public class SetupAspose {
         License license = new License();
         license.setLicense("path/to/your/license/file.lic");
 
-        // Inisialisasi objek Buku Kerja untuk bekerja dengan file Excel
+        // Munkafüzet objektum inicializálása Excel-fájlokkal való munkához
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java is ready!");
     }
 }
 ```
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari jelajahi cara membuat dan menerapkan gaya menggunakan Aspose.Cells.
 ### Membuat Gaya
-#### Ringkasan
+#### Áttekintés
 Bagian ini mencakup pembuatan gaya font khusus untuk menerapkan warna tertentu ke sel Excel Anda, meningkatkan keterbacaan dan estetika.
 **Langkah 1: Impor Kelas yang Diperlukan**
 ```java
@@ -97,7 +99,7 @@ void colorFont(Style style, Color color) {
 ```
 *Catatan:* Metode ini memodifikasi `Style` objek dengan mengatur warna fontnya.
 ### Pembuatan dan Manipulasi Gaya Tabel
-#### Ringkasan
+#### Áttekintés
 Sesuaikan gaya tabel pivot untuk presentasi data yang lebih efektif.
 **Langkah 1: Impor Kelas yang Diperlukan**
 ```java
@@ -134,7 +136,7 @@ void assignElementStyle(TableStyle ts, TableStyleElementType elementType, Style 
 }
 ```
 ### Aplikasi Gaya Tabel Pivot dan Penyimpanan File
-#### Ringkasan
+#### Áttekintés
 Terapkan gaya khusus yang dibuat di atas ke tabel pivot di file Excel Anda.
 **Langkah 1: Muat Buku Kerja dan Ambil Tabel Pivot**
 ```java
@@ -148,22 +150,22 @@ pt.setPivotTableStyleName("tt"); // Terapkan gaya khusus
 ```java
 wb.save(outDir + "/ModifyPivotTableQuickStyle_out.xlsx");
 ```
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Laporan Analisis Data:** Tingkatkan kejelasan dengan menggunakan warna berbeda untuk kategori data yang berbeda.
 2. **Dasbor Keuangan:** Terapkan gaya khusus ke tabel pivot yang merangkum metrik keuangan.
-3. **Manajemen Inventaris:** Gunakan gaya berkode warna di tabel pivot untuk peringatan tingkat stok.
+3. **Készletgazdálkodás:** Gunakan gaya berkode warna di tabel pivot untuk peringatan tingkat stok.
 4. **Pelacakan Kinerja Penjualan:** Sorot indikator kinerja utama dengan gaya tertentu.
 5. **Perencanaan Proyek:** Visualisasikan jadwal dan ketergantungan proyek secara efektif.
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - Optimalkan penggunaan memori dengan menangani file Excel berukuran besar secara efisien.
 - Muat hanya lembar atau rentang yang diperlukan saat bekerja dengan data yang luas.
 - Pantau konsumsi sumber daya secara berkala selama tugas pemrosesan batch.
-## Kesimpulan
+## Következtetés
 Dengan mengikuti panduan ini, Anda telah mempelajari cara menyempurnakan laporan Excel Anda menggunakan Aspose.Cells untuk Java. Teknik-teknik ini memberikan kejelasan dan daya tarik visual pada presentasi data Anda, sehingga membuatnya lebih berwawasan dan profesional.
-**Langkah Berikutnya:** Bereksperimenlah dengan mengintegrasikan gaya ini ke dalam proyek Anda sendiri atau memperluas fungsionalitas dengan penyesuaian tambahan yang tersedia di pustaka Aspose.Cells.
-## Bagian FAQ
+**Következő lépések:** Bereksperimenlah dengan mengintegrasikan gaya ini ke dalam proyek Anda sendiri atau memperluas fungsionalitas dengan penyesuaian tambahan yang tersedia di pustaka Aspose.Cells.
+## GYIK szekció
 1. **Bagaimana cara mengubah ukuran font dan warnanya?**
-   - Memanfaatkan `style.getFont().setSize(int size)` untuk menyesuaikan ukuran font dan mengatur warna.
+   - Használd `style.getFont().setSize(int size)` untuk menyesuaikan ukuran font dan mengatur warna.
 2. **Bisakah saya menerapkan gaya ini ke beberapa tabel pivot sekaligus?**
    - Ya, ulangi semua tabel pivot dalam lembar kerja dan terapkan gaya yang diinginkan secara terprogram.
 3. **Apa sajakah praktik terbaik untuk mengelola file Excel besar dengan Aspose.Cells?**
@@ -172,11 +174,14 @@ Dengan mengikuti panduan ini, Anda telah mempelajari cara menyempurnakan laporan
    - Tentu saja, Aspose.Cells mendukung pengeksporan dokumen bergaya langsung ke format seperti PDF dan berkas gambar.
 5. **Bisakah saya mengotomatiskan penataan gaya dalam proses batch?**
    - Ya, pembuatan skrip penerapan gaya di beberapa file efisien dengan Aspose.Cells, sehingga meningkatkan produktivitas.
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ Per garantire prestazioni ottimali durante l'utilizzo di Aspose.Cells per Java, 
 Seguendo questa guida, hai imparato a modificare e verificare le etichette degli oggetti OLE utilizzando Aspose.Cells per Java. Queste competenze ti aiuteranno a gestire i file Excel in modo più efficiente in diversi scenari professionali. Per approfondire ulteriormente, ti consigliamo di approfondire altre funzionalità di Aspose.Cells per sfruttare al meglio il potenziale delle tue attività di gestione dati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

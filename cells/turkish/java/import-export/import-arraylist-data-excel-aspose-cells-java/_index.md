@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 2. **Stok Yönetimi:** Ürün listelerini analiz veya paydaşlarla paylaşım için elektronik tablolara aktarın.
 3. **Çalışan Kadroları:** Güncel personel çizelgelerini doğrudan dahili veritabanlarından oluşturun.
 
-Entegrasyon olanakları arasında bu işlevselliğin web uygulamalarına bağlanması ve kullanıcıların raporları Excel formatında sorunsuz bir şekilde indirmelerine olanak sağlanması yer alıyor.
+Entegrasyon olanakları arasında bu işlevselliğin web uygulamalarına bağlanması ve kullanıcıların raporları Excel formatında sorunsuz bir şekilde indirmelerine olanak sağlanması yer almaktadır.
 
 ## Performans Hususları
 
@@ -175,6 +177,9 @@ Daha fazla keşif için Aspose.Cells'in daha gelişmiş özelliklerini denemeyi 
 Bu kılavuz, projelerinizde Aspose.Cells for Java'yı etkili bir şekilde kullanmanıza, veri işleme ve üretkenliği artırmanıza yardımcı olmalıdır. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

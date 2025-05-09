@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ workbook.save(outDir + "/StyledWorkbook.xls");
 Τώρα που έχετε όλες τις πληροφορίες και τους πόρους, προχωρήστε και ξεκινήστε να δημιουργείτε δυναμικά αρχεία Excel με το Aspose.Cells σε Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

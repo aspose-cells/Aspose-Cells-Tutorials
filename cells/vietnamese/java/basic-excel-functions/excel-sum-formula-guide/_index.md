@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hướng dẫn công thức Excel SUM
@@ -143,13 +145,14 @@ Aspose.Cells cung cấp hỗ trợ mạnh mẽ cho các công thức Excel, bao 
 
 Hoàn toàn đúng! Aspose.Cells for Java hỗ trợ nhiều hàm Excel, khiến nó trở thành công cụ đa năng để tự động hóa nhiều tác vụ khác nhau, bao gồm tính toán, trích xuất dữ liệu và định dạng.
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
+### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
 
 Bạn có thể truy cập tài liệu toàn diện và các tài nguyên bổ sung cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/). Khám phá tài liệu để tìm hiểu các tính năng và ví dụ nâng cao.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Los próximos pasos podrían incluir la exploración de otros tipos de advertenc
 - **Compra y Licencia:** Obtenga su licencia o pruebe la versión de prueba gratuita a través de [Compra de Aspose](https://purchase.aspose.com/buy) o [Prueba gratuita de Aspose](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

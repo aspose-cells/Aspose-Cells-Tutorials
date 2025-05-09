@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-Automatisierung mit Java
@@ -23,7 +25,7 @@ Die Excel-Automatisierung umfasst Aufgaben wie das Lesen, Schreiben und Bearbeit
 
 ## 2. Einrichten Ihres Java-Projekts
 
-Laden Sie zunächst Aspose.Cells für Java herunter von [Hier](https://releases.aspose.com/cells/java/). Binden Sie die Bibliothek in Ihr Java-Projekt ein. Hier ist ein Codeausschnitt zum Hinzufügen von Aspose.Cells zu Ihrem Gradle-Projekt:
+Laden Sie zunächst Aspose.Cells für Java herunter von [Hier](https://releases.aspose.com/cells/java/)Binden Sie die Bibliothek in Ihr Java-Projekt ein. Hier ist ein Codeausschnitt zum Hinzufügen von Aspose.Cells zu Ihrem Gradle-Projekt:
 
 ```gradle
 dependencies {
@@ -124,9 +126,11 @@ Aspose.Cells für Java ermöglicht Ihnen die effiziente Automatisierung von Exce
 ---
 
 Diese Schritt-für-Schritt-Anleitung mit Quellcodebeispielen bietet Ihnen eine solide Grundlage für die Excel-Automatisierung in Java mit Aspose.Cells. Viel Spaß beim Programmieren und Automatisieren Ihrer Excel-Aufgaben!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

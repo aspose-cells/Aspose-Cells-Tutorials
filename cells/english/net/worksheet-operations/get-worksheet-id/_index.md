@@ -8,7 +8,9 @@ url: /net/worksheet-operations/get-worksheet-id/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Unique ID of Worksheet
@@ -87,6 +89,7 @@ Yes! You can try it out for free before purchasing a license. Check out the free
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

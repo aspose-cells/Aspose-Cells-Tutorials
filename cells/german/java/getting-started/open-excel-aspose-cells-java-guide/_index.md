@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ Bereit zum Start? Versuchen Sie, diese Schritte in Ihrem nächsten Java-Projekt 
 Nähere Informationen finden Sie unter [Aspose-Dokumentation](https://reference.aspose.com/cells/java/) und erkunden Sie zusätzliche Ressourcen, um Ihr Verständnis dieser leistungsstarken Bibliothek zu erweitern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

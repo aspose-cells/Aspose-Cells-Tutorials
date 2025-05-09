@@ -1,14 +1,16 @@
 ---
-title: इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएं
-linktitle: इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएं
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके अपने Excel चार्ट के साथ एक PDF बनाएँ। इस चरण-दर-चरण मार्गदर्शिका से जानें कि कैसे।
-weight: 12
-url: /hi/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके अपने Excel चार्ट के साथ एक PDF बनाएँ। इस चरण-दर-चरण मार्गदर्शिका से जानें कि कैसे।"
+"linktitle": "इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएं"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएं"
+"url": "/hi/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # इच्छित पृष्ठ आकार के साथ चार्ट पीडीएफ बनाएं
@@ -27,11 +29,11 @@ url: /hi/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-s
 
 ### .NET के लिए Aspose.Cells
 
-सुनिश्चित करें कि आपके पास Aspose.Cells for .NET इंस्टॉल है। आप सभी विवरण यहाँ पा सकते हैं[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/). 
+सुनिश्चित करें कि आपके पास Aspose.Cells for .NET इंस्टॉल है। आप सभी विवरण यहाँ पा सकते हैं [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/). 
 
 ### विकास पर्यावरण
 
- अपना विकास वातावरण सेट करें। यह Visual Studio या कोई अन्य IDE हो सकता है जो C# का समर्थन करता है। Aspose.Cells लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें[डाउनलोड पृष्ठ](https://releases.aspose.com/cells/net/).
+अपना विकास वातावरण सेट करें। यह Visual Studio या कोई अन्य IDE हो सकता है जो C# का समर्थन करता है। Aspose.Cells लाइब्रेरी को डाउनलोड करें और इंस्टॉल करें [डाउनलोड पृष्ठ](https://releases.aspose.com/cells/net/).
 
 ### नमूना एक्सेल फ़ाइल
 
@@ -70,14 +72,14 @@ string sourceDir = "Your Document Directory";
 
 ## चरण 2: नमूना एक्सेल फ़ाइल लोड करें
 
-इसके बाद, आपको चार्ट वाली एक्सेल फ़ाइल लोड करनी होगी। यह कैसे करें:
+इसके बाद, आपको एक्सेल फ़ाइल लोड करनी होगी जिसमें चार्ट शामिल है। यह कैसे करें:
 
 ```csharp
 //चार्ट युक्त नमूना एक्सेल फ़ाइल लोड करें.
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
-`Workbook` क्लास आपके एक्सेल दस्तावेज़ के साथ इंटरैक्ट करने के लिए केंद्रीय है। सुनिश्चित करें कि पथ आपकी एक्सेल फ़ाइल को सही ढंग से इंगित करता है - यहाँ एक त्रुटि शेष कोड को निष्पादित करने से रोक देगी।
+The `Workbook` क्लास आपके एक्सेल दस्तावेज़ के साथ इंटरैक्ट करने के लिए केंद्रीय है। सुनिश्चित करें कि पथ आपकी एक्सेल फ़ाइल को सही ढंग से इंगित करता है - यहाँ एक त्रुटि शेष कोड को निष्पादित करने से रोक देगी।
 
 ## चरण 3: पहली वर्कशीट तक पहुँचें
 
@@ -88,7 +90,7 @@ Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Aspose.Cells में, कार्यपत्रकों को शून्य से शुरू करके अनुक्रमित किया जाता है, इसलिए`Worksheets[0]` प्रथम शीट को संदर्भित करता है।
+Aspose.Cells में, कार्यपत्रकों को शून्य से शुरू करके अनुक्रमित किया जाता है, इसलिए `Worksheets[0]` प्रथम शीट को संदर्भित करता है।
 
 ## चरण 4: पहले चार्ट तक पहुंचें
 
@@ -112,7 +114,7 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 
 इस कोड में:
 - पीडीएफ आपके द्वारा पहले निर्दिष्ट आउटपुट डायरेक्टरी में सहेजा जाएगा।
--  संख्या`7, 7` क्रमशः वांछित पृष्ठ आकार की चौड़ाई और ऊंचाई का प्रतिनिधित्व करते हैं।
+- संख्या `7, 7` क्रमशः वांछित पृष्ठ आकार की चौड़ाई और ऊंचाई का प्रतिनिधित्व करते हैं।
 - PageLayoutAlignmentType.Center यह सुनिश्चित करता है कि चार्ट पृष्ठ के केन्द्र में हो।
 
 ## चरण 6: पुष्टिकरण संदेश
@@ -135,19 +137,21 @@ Console.WriteLine("CreateChartPDFWithDesiredPageSize executed successfully.");
 Aspose.Cells for .NET का उपयोग .NET अनुप्रयोगों में प्रोग्रामेटिक रूप से Excel दस्तावेज़ों को बनाने, संपादित करने और परिवर्तित करने के लिए किया जाता है।
 
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?  
- हाँ, Aspose.Cells एक प्रदान करता है[मुफ्त परीक्षण](https://releases.aspose.com/) मूल्यांकन प्रयोजनों के लिए।
+हाँ, Aspose.Cells एक प्रदान करता है [मुफ्त परीक्षण](https://releases.aspose.com/) मूल्यांकन प्रयोजनों के लिए।
 
 ### क्या मेरे परीक्षण को प्रारंभिक अवधि से आगे बढ़ाने का कोई तरीका है?  
- आप इसके लिए आवेदन कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) विस्तारित परीक्षण के लिए।
+आप इसके लिए आवेदन कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) विस्तारित परीक्षण के लिए।
 
 ### यदि मुझे कोई समस्या आए या मेरे पास कोई प्रश्न हो तो क्या होगा?  
- आप Aspose समुदाय से उनकी वेबसाइट पर मदद ले सकते हैं[सहयता मंच](https://forum.aspose.com/c/cells/9).
+आप Aspose समुदाय से उनकी वेबसाइट पर मदद ले सकते हैं [सहयता मंच](https://forum.aspose.com/c/cells/9).
 
 ### मैं Aspose.Cells कैसे खरीद सकता हूँ?  
- आप Aspose.Cells को यहाँ से खरीद सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+आप Aspose.Cells को यहाँ से खरीद सकते हैं [खरीद पृष्ठ](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดกลุ่มข้อมูลในตารางสรุปข้อมูล
@@ -108,9 +110,11 @@ workbook.save("output_custom_grouping.xlsx");
 ### 3. ฉันสามารถใช้ Aspose.Cells สำหรับ Java เพื่อสร้างตารางสรุปข้อมูลแบบอัตโนมัติได้หรือไม่
 
 ใช่ คุณสามารถทำให้การสร้างตารางสรุปข้อมูลใน Excel เป็นแบบอัตโนมัติได้โดยใช้ Aspose.Cells สำหรับ Java ตามที่สาธิตในตัวอย่างโค้ดต้นฉบับที่ให้มา
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

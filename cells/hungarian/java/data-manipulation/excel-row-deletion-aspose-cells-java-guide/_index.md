@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ public class DeleteMultipleRows {
 ```
 
 #### 2. lépés: Nyissa meg a kívánt munkalapot
-Nyissa meg azt a munkalapot, amelyből törölni szeretné a sorokat:
+Nyissa meg azt a munkalapot, amelyiken a sorokat törölni szeretné:
 ```java
 import com.aspose.cells.Worksheet;
 // Az Excel fájl első munkalapjának elérése
@@ -116,7 +118,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 #### 3. lépés: Meghatározott sorok törlése
-Adja meg a törlendő kezdő sort és a sorok számát:
+Adja meg a törlendő sor kezdő sorát és a sorok számát:
 ```java
 import com.aspose.cells.Cells;
 // 10 sor törlése a munkalapról, a 3. sortól kezdve (2. index)
@@ -170,7 +172,7 @@ Ez az oktatóanyag bemutatta, hogyan törölhetsz hatékonyan több sort egy Exc
    - A problémák közé tartoznak a helytelen sorindexek, a fájlhozzáférési engedélyek és a memóriakorlátok nagyméretű műveletek során.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
@@ -180,6 +182,9 @@ Ez az oktatóanyag bemutatta, hogyan törölhetsz hatékonyan több sort egy Exc
 Ez az útmutató alapos ismereteket nyújt a sorok törlésének módjáról Excelben az Aspose.Cells for Java használatával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

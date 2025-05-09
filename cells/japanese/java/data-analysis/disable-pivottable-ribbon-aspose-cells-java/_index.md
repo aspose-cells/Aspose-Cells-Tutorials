@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ System.out.println("Disable Pivot Table Ribbon executed successfully.");
 ## 実用的なアプリケーション
 
 ピボットテーブル リボンを無効にすると、さまざまなシナリオでメリットが得られます。
-1. **合理化されたユーザーインターフェース:** ユーザーがプログラムによって Excel ファイルを操作するアプリケーションでは、リボンなどの不要な要素を削除するとパフォーマンスが向上します。
+1. **合理化されたユーザーインターフェイス:** ユーザーがプログラムによって Excel ファイルを操作するアプリケーションでは、リボンなどの不要な要素を削除するとパフォーマンスが向上します。
 2. **自動レポートシステム:** レポートを自動的に生成する場合、インタラクティブ機能を無効にすると、ユーザーによるエラーを防ぐことができます。
 3. **カスタムビジネスソリューション:** 特定のタスクに関連しない詳細オプションを非表示にして、Excel ソリューションをカスタマイズします。
 
@@ -164,6 +166,9 @@ A5: 訪問 [Asposeの公式ドキュメント](https://reference.aspose.com/cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

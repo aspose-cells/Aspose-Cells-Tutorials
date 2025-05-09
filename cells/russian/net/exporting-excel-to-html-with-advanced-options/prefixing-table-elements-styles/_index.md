@@ -1,14 +1,16 @@
 ---
-title: Добавление префиксов к стилям элементов таблицы с параметрами сохранения Html
-linktitle: Добавление префиксов к стилям элементов таблицы с параметрами сохранения Html
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как использовать Aspose.Cells для .NET для добавления префиксов к стилям таблиц в HTML, улучшая экспорт в Excel с помощью пошаговых примеров.
-weight: 17
-url: /ru/net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements-styles/
+"description": "Узнайте, как использовать Aspose.Cells для .NET для добавления префиксов к стилям таблиц в HTML, улучшая экспорт в Excel с помощью пошаговых примеров."
+"linktitle": "Добавление префиксов к стилям элементов таблицы с параметрами сохранения Html"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавление префиксов к стилям элементов таблицы с параметрами сохранения Html"
+"url": "/ru/net/exporting-excel-to-html-with-advanced-options/prefixing-table-elements-styles/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавление префиксов к стилям элементов таблицы с параметрами сохранения Html
@@ -19,7 +21,7 @@ url: /ru/net/exporting-excel-to-html-with-advanced-options/prefixing-table-eleme
 Прежде чем начать, убедитесь, что у вас есть все необходимые инструменты:
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Это предпочтительная среда для разработки .NET.
 2. .NET Framework: ознакомьтесь с основами .NET Framework, поскольку в наших примерах мы будем использовать C#.
-3.  Библиотека Aspose.Cells: Вам понадобится библиотека Aspose.Cells. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/).
+3. Библиотека Aspose.Cells: Вам понадобится библиотека Aspose.Cells. Вы можете [скачать здесь](https://releases.aspose.com/cells/net/).
 4. Базовое понимание C#: хотя мы подробно рассмотрим каждый шаг, наличие базового понимания C# значительно облегчит ваш процесс обучения.
 Выполнив эти предварительные условия, вы готовы создавать красивые HTML-таблицы непосредственно из данных Excel!
 ## Импортные пакеты
@@ -45,7 +47,7 @@ string outputDir = "Your Document Directory"; // Измените это на ж
 //Создать объект рабочей книги
 Workbook wb = new Workbook(); // Вы только что создали новую рабочую книгу в памяти.
 ```
- Здесь,`Workbook` Класс имеет основополагающее значение для любых операций, которые вы хотите выполнять с файлами Excel. 
+Здесь, `Workbook` Класс имеет основополагающее значение для любых операций, которые вы хотите выполнять с файлами Excel. 
 ## Шаг 3: Получите доступ к первому рабочему листу
 Каждая рабочая книга содержит по крайней мере один рабочий лист. Мы перейдем к первому, чтобы начать манипулировать данными ячеек.
 ```csharp
@@ -77,10 +79,10 @@ HtmlSaveOptions opts = new HtmlSaveOptions(); // Создайте парамет
 opts.TableCssId = "MyTest_TableCssId"; // Назначить CSS ID
 ```
 Этот идентификатор может оказаться полезным инструментом, если вы захотите дополнительно стилизовать таблицу с помощью CSS.
-## Шаг 7: Сохраните рабочую книгу
+## Шаг 7: Сохраните рабочую книгу.
 А теперь финал: сохранение рабочей книги в виде HTML-файла. 
 ```csharp
-// Сохранить книгу в формате html
+//Сохранить книгу в формате html 
 wb.Save(outputDir + "outputTableCssId.html", opts); // Сохранить с примененными параметрами
 ```
 Теперь у вас есть HTML-представление ваших данных Excel, дополненное настроенными вами стилями.
@@ -96,16 +98,18 @@ Console.WriteLine("PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProper
 ### Что такое Aspose.Cells для .NET?  
 Aspose.Cells для .NET — мощная библиотека для создания и обработки файлов Excel в приложениях .NET.
 ### Как установить Aspose.Cells?  
- Вы можете легко загрузить Aspose.Cells с их сайта[веб-сайт](https://releases.aspose.com/cells/net/) и добавьте его в свой проект Visual Studio.
+Вы можете легко загрузить Aspose.Cells с их сайта [веб-сайт](https://releases.aspose.com/cells/net/) и добавьте его в свой проект Visual Studio.
 ### Можно ли изменить стиль нескольких ячеек одновременно?  
 Да! Вы можете пройтись по диапазону ячеек и применить стили так же, как мы это сделали для ячейки B5.
 ### Существует ли бесплатная пробная версия Aspose.Cells?  
- Конечно! Вы можете взять[бесплатная пробная версия здесь](https://releases.aspose.com/) для тестирования библиотеки.
+Конечно! Вы можете взять [бесплатная пробная версия здесь](https://releases.aspose.com/) для тестирования библиотеки.
 ### Могу ли я задать вопросы об Aspose.Cells?  
-Да, вы можете получить поддержку сообщества, разместив свои вопросы на[Форумы Aspose](https://forum.aspose.com/c/cells/9).
+Да, вы можете получить поддержку сообщества, разместив свои вопросы на [Форумы Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

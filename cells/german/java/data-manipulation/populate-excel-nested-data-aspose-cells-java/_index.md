@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ In dieser Anleitung haben Sie gelernt, wie Sie Excel-Arbeitsmappen mit Aspose.Ce
 Um die Funktionen von Aspose.Cells noch weiter zu erforschen, können Sie sich auch mit den erweiterten Funktionen von Aspose.Cells befassen oder mit unterschiedlichen Arten von Datenstrukturen experimentieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

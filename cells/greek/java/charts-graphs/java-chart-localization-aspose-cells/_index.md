@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ public void localizeChart(Chart chart) {
 Ξεκινήστε το ταξίδι σας για την αποτελεσματική τοπική προσαρμογή γραφημάτων με το Aspose.Cells, ενισχύοντας την εμβέλεια και τον αντίκτυπο των εφαρμογών Java σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

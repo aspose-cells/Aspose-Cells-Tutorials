@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Bereit, tiefer einzutauchen? Versuchen Sie, diese Funktionen in Ihr nächstes Pr
 Begeben Sie sich mit Aspose.Cells auf Ihre Reise und entdecken Sie das volle Potenzial der Excel-Automatisierung in Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ Workbook workbook = new Workbook();
 WorksheetCollection worksheets = workbook.getWorksheets();
 Worksheet sheet = worksheets.get(0);
 ```
-### 2.向單元格添加範例數據
+### 2. 在單元格中新增範例數據
 **概述**：使用將在餅圖中顯示的範例資料填入您的工作表。
 ```java
 import com.aspose.cells.Cells;
@@ -178,6 +180,9 @@ workbook.save(outDir + "/HTCPChart_out.xls", SaveFormat.EXCEL_97_TO_2003);
    - 使用高效的資料載入技術並考慮對非常大的檔案進行串流傳輸。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Bu eğitimde, Aspose.Cells for Java kullanarak bir Excel çalışma kitabındaki
 
 Bu eğitime başlamadan önce, geliştirme ortamınızın doğru şekilde ayarlandığından emin olun. İhtiyacınız olacak:
 - **Java Geliştirme Kiti (JDK)**: Makinenizde JDK'nın kurulu olduğundan emin olun.
-- **Java için Aspose.Cells kütüphanesi**: Bu kütüphane görüntü düzenleme görevlerimizin temelini oluşturacaktır.
+- **Java için Aspose.Cells kütüphanesi**: Bu kütüphane görüntü düzenleme görevlerimizin temelini oluşturacak.
 
 ### Gerekli Kütüphaneler ve Sürümler
 Başlamak için Aspose.Cells'i Maven veya Gradle kullanarak projenize entegre edin:
@@ -203,6 +205,9 @@ Anlayışınızı daha da geliştirmek için Aspose.Cells'in diğer özellikleri
 Bu kaynakları inceleyerek Aspose.Cells for Java'yı daha derinlemesine inceleyebilir ve Excel otomasyon yeteneklerinizi geliştirebilirsiniz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

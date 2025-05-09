@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ book.save(dataDir + "NamedRangeToSumValues_out.xlsx");
 Αυτό το σεμινάριο σάς προσφέρει μια ολοκληρωμένη κατανόηση της υλοποίησης επώνυμων περιοχών και συναρτήσεων αθροίσματος χρησιμοποιώντας το Aspose.Cells για Java. Δοκιμάστε το για να αξιοποιήσετε πλήρως τις δυνατότητες του αυτοματισμού του Excel στις εφαρμογές σας!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

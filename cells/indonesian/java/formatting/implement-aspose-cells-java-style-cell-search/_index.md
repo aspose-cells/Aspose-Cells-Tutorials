@@ -7,26 +7,28 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menerapkan Aspose.Cells untuk Java: Menguasai Pencarian Sel Berbasis Gaya di Excel
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan menemukan dan memodifikasi sel tertentu berdasarkan gayanya dalam buku kerja Excel yang besar? **Aspose.Cells untuk Java** menawarkan solusi hebat untuk mengotomatiskan tugas ini secara efisien. Tutorial ini memandu Anda tentang cara menggunakan Aspose.Cells untuk memuat buku kerja Excel secara terprogram, mencari sel berdasarkan gaya, memodifikasinya, dan menyimpan perubahan dalam Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan dan menginisialisasi Aspose.Cells untuk Java.
-- Memuat buku kerja Excel ke aplikasi Anda.
+- Excel munkafüzet betöltése az alkalmazásba.
 - Mengakses lembar kerja dan gaya sel tertentu dalam buku kerja.
 - Menemukan dan memodifikasi sel berdasarkan gayanya menggunakan opsi pencarian.
-- Menyimpan buku kerja yang dimodifikasi secara efisien.
+- A módosított munkafüzet hatékony mentése.
 
 Mari kita mulai dengan prasyarat yang diperlukan untuk mengikutinya.
 
-### Prasyarat
+### Előfeltételek
 
 Untuk menggunakan Aspose.Cells untuk Java untuk pencarian sel berbasis gaya, pastikan Anda memiliki:
 1. **Kit Pengembangan Java (JDK):** JDK 8 atau lebih tinggi terinstal di komputer Anda.
@@ -48,26 +50,26 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 #### Bahasa Inggris Gradle
-Untuk Gradle, sertakan ini di `build.gradle` mengajukan:
+Untuk Gradle, sertakan ini di `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Dapatkan lisensi untuk Aspose.Cells untuk membuka kemampuan penuhnya dengan memulai dengan [uji coba gratis](https://releases.aspose.com/cells/java/) atau membeli dari [halaman pembelian](https://purchase.aspose.com/buy).
+Dapatkan lisensi untuk Aspose.Cells untuk membuka kemampuan penuhnya dengan memulai dengan [ingyenes próba](https://releases.aspose.com/cells/java/) atau membeli dari [vásárlási oldal](https://purchase.aspose.com/buy).
 
 Inisialisasi proyek Java Anda dengan mengimpor paket yang diperlukan:
 ```java
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Memuat Buku Kerja
+### Munkafüzet betöltése
 
-**Ringkasan:** Muat buku kerja Excel untuk mengakses datanya secara terprogram.
+**Áttekintés:** Muat buku kerja Excel untuk mengakses datanya secara terprogram.
 
 1. **Siapkan Direktori Data Anda:**
-   Tentukan jalur tempat file Excel Anda berada.
+   Adja meg az Excel-fájl elérési útját.
    ```java
    String dataDir = "YOUR_DATA_DIRECTORY"; // Ganti dengan jalur sebenarnya
    dataDir += "TestBook.xlsx";
@@ -79,12 +81,12 @@ import com.aspose.cells.Workbook;
    Workbook workbook = new Workbook(dataDir);
    ```
 
-### Mengakses Lembar Kerja
+### Munkalap elérése
 
-**Ringkasan:** Ambil lembar kerja tertentu dari buku kerja Anda yang dimuat.
+**Áttekintés:** Ambil lembar kerja tertentu dari buku kerja Anda yang dimuat.
 
 1. **Akses Lembar Kerja Pertama:**
-   Gunakan `getWorksheets()` metode dan indeks ke dalamnya:
+   Használd a `getWorksheets()` metode dan indeks ke dalamnya:
    ```java
    import com.aspose.cells.Worksheet;
 
@@ -93,7 +95,7 @@ import com.aspose.cells.Workbook;
 
 ### Mengakses Gaya Sel
 
-**Ringkasan:** Ambil gaya sel untuk digunakan dalam pencarian.
+**Áttekintés:** Ambil gaya sel untuk digunakan dalam pencarian.
 
 1. **Dapatkan Gaya Sel:**
    Akses dan simpan gaya sel "A1" untuk penggunaan nanti.
@@ -105,7 +107,7 @@ import com.aspose.cells.Workbook;
 
 ### Mengatur Opsi Pencarian untuk Gaya Sel
 
-**Ringkasan:** Konfigurasikan opsi pencarian berdasarkan gaya sel tertentu.
+**Áttekintés:** Konfigurasikan opsi pencarian berdasarkan gaya sel tertentu.
 
 1. **Konfigurasikan Opsi Pencarian:**
    Membuat dan mengatur `FindOptions` dengan gaya yang diinginkan.
@@ -118,7 +120,7 @@ import com.aspose.cells.Workbook;
 
 ### Menemukan Sel dengan Gaya Tertentu
 
-**Ringkasan:** Temukan sel yang cocok dengan gaya tertentu dan ubah kontennya.
+**Áttekintés:** Temukan sel yang cocok dengan gaya tertentu dan ubah kontennya.
 
 1. **Mencari dan Memodifikasi Sel:**
    Ulangi lembar kerja untuk menemukan dan memperbarui sel.
@@ -140,7 +142,7 @@ import com.aspose.cells.Workbook;
 
 ### Menyimpan Buku Kerja
 
-**Ringkasan:** Simpan perubahan Anda kembali ke berkas Excel.
+**Áttekintés:** Simpan perubahan Anda kembali ke berkas Excel.
 
 1. **Tetapkan Direktori Output dan Simpan:**
    Tentukan tempat menyimpan buku kerja yang dimodifikasi dan jalankan operasi penyimpanan.
@@ -151,27 +153,27 @@ import com.aspose.cells.Workbook;
    workbook.save(outDir);
    ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java dapat digunakan dalam berbagai skenario dunia nyata, seperti:
-- **Validasi Data:** Secara otomatis memvalidasi dan mengoreksi format data di seluruh lembar kerja besar.
-- **Pelaporan Otomatis:** Hasilkan laporan dengan mengubah gaya sel secara dinamis berdasarkan kriteria data.
-- **Integrasi dengan Basis Data:** Sinkronkan data Excel dengan rekaman basis data menggunakan pencarian berbasis gaya untuk pemeriksaan konsistensi.
+- **Adatellenőrzés:** Secara otomatis memvalidasi dan mengoreksi format data di seluruh lembar kerja besar.
+- **Automatizált jelentéskészítés:** Hasilkan laporan dengan mengubah gaya sel secara dinamis berdasarkan kriteria data.
+- **Integráció adatbázisokkal:** Sinkronkan data Excel dengan rekaman basis data menggunakan pencarian berbasis gaya untuk pemeriksaan konsistensi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar di Java, pertimbangkan kiat kinerja berikut:
-- **Optimalkan Penggunaan Memori:** Hanya muat lembar kerja atau rentang yang diperlukan untuk menghemat memori.
-- **Pencarian Efisien:** Menggunakan `FindOptions` secara bijak untuk membatasi cakupan pencarian dan meningkatkan kecepatan.
+- **Memóriahasználat optimalizálása:** Hanya muat lembar kerja atau rentang yang diperlukan untuk menghemat memori.
+- **Pencarian Efisien:** Használat `FindOptions` secara bijak untuk membatasi cakupan pencarian dan meningkatkan kecepatan.
 - **Kelola Sumber Daya:** Buang benda-benda dengan benar setelah digunakan untuk mencegah kebocoran memori.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara memanfaatkan Aspose.Cells untuk Java guna melakukan pencarian berbasis gaya dalam buku kerja Excel, yang menyediakan alat yang ampuh untuk mengelola kumpulan data besar secara terprogram. Langkah selanjutnya dapat mencakup penjelajahan fitur lain seperti manipulasi bagan atau evaluasi rumus dengan Aspose.Cells.
 
-Siap untuk menerapkan solusi ini? Pelajari lebih lanjut [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) dan mulai bereksperimen!
+Siap untuk menerapkan solusi ini? Pelajari lebih lanjut [Aspose dokumentáció](https://reference.aspose.com/cells/java/) dan mulai bereksperimen!
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Untuk apa Aspose.Cells for Java digunakan?**
 A1: Aspose.Cells untuk Java adalah pustaka yang tangguh untuk membaca, menulis, dan memanipulasi file Excel secara terprogram.
@@ -188,10 +190,13 @@ A4: Pastikan gaya sel sama persis dan lembar kerja dimuat dengan benar. Periksa 
 **Q5: Bagaimana cara menyimpan perubahan pada file Excel menggunakan Aspose.Cells?**
 A5: Gunakan `save()` metode pada suatu `Workbook` objek, yang menentukan jalur keluaran.
 
-Untuk sumber daya lebih lanjut, Anda dapat mengunjungi [Dokumentasi resmi Aspose](https://reference.aspose.com/cells/java/), atau jika Anda memiliki pertanyaan spesifik, hubungi mereka [forum dukungan](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
+Untuk sumber daya lebih lanjut, Anda dapat mengunjungi [Az Aspose hivatalos dokumentációja](https://reference.aspose.com/cells/java/), atau jika Anda memiliki pertanyaan spesifik, hubungi mereka [támogató fórum](https://forum.aspose.com/c/cells/9)Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Jste připraveni posunout své dovednosti dále? Ponořte se do toho [Dokumentac
 - **Bezplatná zkušební verze a dočasná licence:** Prozkoumejte funkce s bezplatnou zkušební verzí nebo si požádejte o dočasnou licenci.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menambahkan Kotak Teks ke Bagan Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Menjelajahi dunia visualisasi data bisa jadi menantang, terutama saat Anda perlu menambahkan anotasi teks atau label khusus langsung ke bagan dalam lembar kerja Excel Anda. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk Java—pustaka tangguh yang menyederhanakan tugas-tugas ini—untuk mengintegrasikan TextBox ke dalam bagan Excel dengan lancar.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Memuat dan memanipulasi file Excel dengan Aspose.Cells untuk Java.
 - Mengakses dan memodifikasi objek bagan di buku kerja Excel.
 - Tambahkan dan sesuaikan kontrol Kotak Teks pada bagan.
@@ -25,13 +27,13 @@ Menjelajahi dunia visualisasi data bisa jadi menantang, terutama saat Anda perlu
 
 Mari kita bahas prasyaratnya sebelum kita mulai menerapkan fungsi hebat ini.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda memiliki:
 
-- **Pustaka yang dibutuhkan:** Aspose.Cells untuk Java versi 25.3 atau yang lebih baru. Tutorial ini menggunakan pengaturan Maven dan Gradle.
-- **Pengaturan Lingkungan:** Java Development Kit (JDK) yang kompatibel terpasang di komputer Anda.
-- **Prasyarat Pengetahuan:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel.
+- **Szükséges könyvtárak:** Aspose.Cells untuk Java versi 25.3 atau yang lebih baru. Tutorial ini menggunakan pengaturan Maven dan Gradle.
+- **Környezet beállítása:** Java Development Kit (JDK) yang kompatibel terpasang di komputer Anda.
+- **Előfeltételek a tudáshoz:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -51,15 +53,15 @@ Untuk menggunakan Aspose.Cells dalam proyek Anda, Anda perlu menambahkannya seba
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Aspose.Cells menawarkan uji coba gratis, lisensi sementara untuk pengujian lanjutan, dan opsi pembelian komersial:
 
-- **Uji Coba Gratis:** Unduh perpustakaan untuk mulai bereksperimen dengan fitur-fiturnya.
-- **Lisensi Sementara:** Dapatkan satu dari [Di Sini](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi kemampuan penuh tanpa batasan.
-- **Pembelian:** Untuk penggunaan berkelanjutan di lingkungan produksi, beli lisensi di [Aspose Pembelian](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Unduh perpustakaan untuk mulai bereksperimen dengan fitur-fiturnya.
+- **Ideiglenes engedély:** Dapatkan satu dari [itt](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi kemampuan penuh tanpa batasan.
+- **Vásárlás:** Untuk penggunaan berkelanjutan di lingkungan produksi, beli lisensi di [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah Anda menambahkan pustaka, inisialisasikan dengan lisensi Anda jika tersedia:
 
@@ -68,13 +70,13 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang kita akan membahas cara menambahkan TextBox ke bagan Excel menggunakan Aspose.Cells untuk Java. Setiap fitur akan dijelaskan secara terperinci dalam panduan ini.
 
-### Memuat File Excel
+### Excel fájl betöltése
 
-**Ringkasan:** Kita mulai dengan memuat berkas Excel yang ada ke dalam aplikasi kita, yang memungkinkan kita memanipulasi kontennya secara terprogram.
+**Áttekintés:** Kita mulai dengan memuat berkas Excel yang ada ke dalam aplikasi kita, yang memungkinkan kita memanipulasi kontennya secara terprogram.
 
 #### Langkah 1: Impor Kelas yang Diperlukan
 ```java
@@ -82,18 +84,18 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 ```
 
-#### Langkah 2: Muat Buku Kerja
+#### 2. lépés: A munkafüzet betöltése
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String filePath = dataDir + "/chart.xls";
 Workbook workbook = new Workbook(filePath);
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
-**Penjelasan:** Itu `Workbook` class merupakan file Excel. Dengan memuatnya, Anda dapat mengakses semua lembar dan kontennya.
+**Magyarázat:** A `Workbook` class merupakan file Excel. Dengan memuatnya, Anda dapat mengakses semua lembar dan kontennya.
 
 ### Mengakses Objek Bagan
 
-**Ringkasan:** Setelah berkas dimuat, kita perlu mengambil objek bagan dari lembar kerja yang ditentukan.
+**Áttekintés:** Setelah berkas dimuat, kita perlu mengambil objek bagan dari lembar kerja yang ditentukan.
 
 #### Langkah 3: Impor Kelas Bagan
 ```java
@@ -104,11 +106,11 @@ import com.aspose.cells.Chart;
 ```java
 Chart chart = worksheet.getCharts().get(0);
 ```
-**Penjelasan:** Ini mengambil bagan pertama dalam lembar kerja aktif Anda untuk manipulasi lebih lanjut.
+**Magyarázat:** Ini mengambil bagan pertama dalam lembar kerja aktif Anda untuk manipulasi lebih lanjut.
 
 ### Menambahkan Kontrol Kotak Teks ke Bagan
 
-**Ringkasan:** Sekarang, mari tambahkan TextBox yang disesuaikan ke dalam bagan kita untuk menampilkan anotasi teks yang kita inginkan.
+**Áttekintés:** Sekarang, mari tambahkan TextBox yang disesuaikan ke dalam bagan kita untuk menampilkan anotasi teks yang kita inginkan.
 
 #### Langkah 5: Impor Kelas yang Diperlukan
 ```java
@@ -137,25 +139,25 @@ LineFormat lineformat = txt.getLine();
 lineformat.setWeight(2);
 lineformat.setDashStyle(MsoLineDashStyle.SOLID);
 ```
-**Penjelasan:** Ini menambahkan Kotak Teks pada koordinat yang ditentukan, menyesuaikan tampilan teksnya, dan menerapkan gaya isian dan garis.
+**Magyarázat:** Ini menambahkan Kotak Teks pada koordinat yang ditentukan, menyesuaikan tampilan teksnya, dan menerapkan gaya isian dan garis.
 
 ### Menyimpan File Excel
 
-**Ringkasan:** Terakhir, simpan kembali buku kerja yang dimodifikasi ke format file Excel.
+**Áttekintés:** Terakhir, simpan kembali buku kerja yang dimodifikasi ke format file Excel.
 
 #### Langkah 7: Impor Kelas SaveFormat
 ```java
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Langkah 8: Simpan Buku Kerja
+#### 8. lépés: A munkafüzet mentése
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
-**Penjelasan:** Buku kerja disimpan dalam direktori yang ditentukan, mempertahankan perubahan yang dibuat selama eksekusi.
+**Magyarázat:** Buku kerja disimpan dalam direktori yang ditentukan, mempertahankan perubahan yang dibuat selama eksekusi.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario dunia nyata di mana menambahkan Kotak Teks ke bagan Excel dapat bermanfaat:
 
@@ -163,21 +165,21 @@ Berikut adalah beberapa skenario dunia nyata di mana menambahkan Kotak Teks ke b
 2. **Legenda dan Label Kustom:** Tingkatkan pemahaman dengan informasi tambahan atau klarifikasi yang mungkin tidak tercakup dalam legenda standar.
 3. **Merek:** Tambahkan logo perusahaan atau pernyataan merek dalam bagan untuk presentasi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan file Excel berukuran besar, pertimbangkan kiat berikut:
+Nagyméretű Excel-fájlok kezelésekor vegye figyelembe a következő tippeket:
 
-- **Mengoptimalkan Penggunaan Sumber Daya:** Minimalkan jumlah manipulasi bagan dan pembuatan objek untuk mengurangi jejak memori.
+- **Erőforrás-felhasználás optimalizálása:** Minimalkan jumlah manipulasi bagan dan pembuatan objek untuk mengurangi jejak memori.
 - **Manajemen Memori Java:** Pastikan penanganan yang tepat `Workbook` objek dengan menutupnya setelah digunakan untuk segera mengosongkan sumber daya.
-- **Penanganan Data yang Efisien:** Muat hanya bagian-bagian buku kerja yang diperlukan saat menangani kumpulan data yang besar.
+- **Hatékony adatkezelés:** Muat hanya bagian-bagian buku kerja yang diperlukan saat menangani kumpulan data yang besar.
 
-## Kesimpulan
+## Következtetés
 
 Kami telah membahas cara menambahkan TextBox ke bagan Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup semuanya mulai dari menyiapkan lingkungan dan memuat file, mengakses objek bagan, menyesuaikan kotak teks, hingga menyimpan dokumen akhir.
 
-**Langkah Berikutnya:** Lakukan eksperimen lebih lanjut dengan menerapkan gaya yang berbeda atau menjelajahi jenis bagan lain yang tersedia di Aspose.Cells. Lihat dokumentasinya di [Referensi Aspose](https://reference.aspose.com/cells/java/) untuk fungsionalitas yang lebih canggih.
+**Következő lépések:** Lakukan eksperimen lebih lanjut dengan menerapkan gaya yang berbeda atau menjelajahi jenis bagan lain yang tersedia di Aspose.Cells. Lihat dokumentasinya di [Referensi Aspose](https://reference.aspose.com/cells/java/) a fejlettebb funkciókért.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bisakah saya menambahkan beberapa Kotak Teks ke bagan?**
    - Ya, Anda dapat mengulanginya `addTextBoxInChart` metode sesuai kebutuhan dengan koordinat yang berbeda.
@@ -192,18 +194,21 @@ Kami telah membahas cara menambahkan TextBox ke bagan Excel menggunakan Aspose.C
    - Terapkan blok try-catch di sekitar operasi pemuatan dan penyimpanan file untuk mengelola kesalahan dengan baik.
 
 5. **Bisakah Aspose.Cells untuk Java digunakan dengan bahasa pemrograman lain?**
-   - Meskipun panduan ini berfokus pada Java, Aspose.Cells tersedia untuk .NET, C++, dan lainnya. Periksa [dokumentasi](https://reference.aspose.com/cells/java/) untuk panduan bahasa tertentu.
+   - Meskipun panduan ini berfokus pada Java, Aspose.Cells tersedia untuk .NET, C++, dan lainnya. Periksa [dokumentáció](https://reference.aspose.com/cells/java/) untuk panduan bahasa tertentu.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** Jelajahi panduan lengkap di [Referensi Aspose](https://reference.aspose.com/cells/java/).
-- **Unduh:** Akses versi perpustakaan terbaru dari [Rilis](https://releases.aspose.com/cells/java/).
-- **Opsi Pembelian dan Uji Coba:** Dapatkan lisensi Anda atau mulai dengan uji coba gratis melalui [Beli Aspose](https://purchase.aspose.com/buy) Dan [Uji Coba Gratis](https://releases.aspose.com/cells/java/).
-- **Mendukung:** Bergabunglah dengan komunitas di [Forum Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan. 
+- **Dokumentáció:** Fedezze fel az átfogó útmutatókat a következő címen: [Referensi Aspose](https://reference.aspose.com/cells/java/).
+- **Letöltés:** Akses versi perpustakaan terbaru dari [Kiadások](https://releases.aspose.com/cells/java/).
+- **Opsi Pembelian dan Uji Coba:** Dapatkan lisensi Anda atau mulai dengan uji coba gratis melalui [Beli Aspose](https://purchase.aspose.com/buy) és [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
+- **Támogatás:** Bergabunglah dengan komunitas di [Aspose Fórum](https://forum.aspose.com/c/cells/9) segítségért. 
 
 Dengan mengikuti panduan ini, Anda dapat mengintegrasikan Aspose.Cells ke dalam proyek Java Anda secara efisien untuk meningkatkan fungsionalitas bagan Excel dengan anotasi teks khusus. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

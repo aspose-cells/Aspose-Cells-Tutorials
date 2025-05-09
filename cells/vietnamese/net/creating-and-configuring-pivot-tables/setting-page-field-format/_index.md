@@ -1,14 +1,16 @@
 ---
-title: Thiết lập Định dạng Trường Trang theo Chương trình trong .NET
-linktitle: Thiết lập Định dạng Trường Trang theo Chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập định dạng trường trang trong PivotTable theo chương trình bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để quản lý dữ liệu liền mạch.
-weight: 21
-url: /vi/net/creating-and-configuring-pivot-tables/setting-page-field-format/
+"description": "Tìm hiểu cách thiết lập định dạng trường trang trong PivotTable theo chương trình bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để quản lý dữ liệu liền mạch."
+"linktitle": "Thiết lập Định dạng Trường Trang theo Chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập Định dạng Trường Trang theo Chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/setting-page-field-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập Định dạng Trường Trang theo Chương trình trong .NET
@@ -18,10 +20,10 @@ Việc tạo và thao tác các tệp Excel thông qua mã có thể khá hữu 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu viết mã, hãy đảm bảo rằng bạn đã thiết lập mọi thứ đúng cách. Bạn sẽ cần những thứ sau:
 - Visual Studio: Môi trường làm việc nơi bạn có thể viết và thực thi mã .NET của mình.
--  Aspose.Cells: Bạn có thể tải xuống thư viện[đây](https://releases.aspose.com/cells/net/).
+- Aspose.Cells: Bạn có thể tải xuống thư viện [đây](https://releases.aspose.com/cells/net/).
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
--  Tệp Excel: Chuẩn bị sẵn một tệp Excel (như`Book1.xls`) chứa dữ liệu phù hợp để tạo PivotTable. 
- Nếu bạn chưa dùng thử, hãy dùng thử miễn phí Aspose.Cells[đây](https://releases.aspose.com/).
+- Tệp Excel: Chuẩn bị sẵn một tệp Excel (như `Book1.xls`) chứa dữ liệu phù hợp để tạo PivotTable. 
+Nếu bạn chưa dùng thử, hãy dùng thử miễn phí Aspose.Cells [đây](https://releases.aspose.com/).
 ## Nhập gói
 Để bắt đầu, bạn sẽ cần nhập đúng gói vào dự án của mình. Bắt đầu bằng cách thêm tham chiếu đến thư viện Aspose.Cells vào dự án C# của bạn. Sau đây là cách thực hiện:
 ```csharp
@@ -49,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 Thao tác này sẽ lấy trang tính đầu tiên của sổ làm việc đã tải. Bạn có thể dễ dàng sửa đổi mục lục nếu bạn đang làm việc với nhiều trang tính.
 ## Bước 3: Truy cập PivotTable
- Tiếp tục, chúng ta hãy truy cập PivotTable trong bảng tính đã chọn của chúng ta. Nếu bạn đang sử dụng một PivotTable duy nhất, bạn có thể đặt chỉ mục của nó thành`0`:
+Tiếp tục, chúng ta hãy truy cập PivotTable trong bảng tính đã chọn của chúng ta. Nếu bạn đang sử dụng một PivotTable duy nhất, bạn có thể đặt chỉ mục của nó thành `0`:
 ```csharp
 int pivotindex = 0;
 // Truy cập PivotTable
@@ -69,14 +71,14 @@ Aspose.Cells.Pivot.PivotFieldCollection pivotFields = pivotTable.RowFields;
 ```
 Bộ sưu tập này cho phép chúng ta thao tác các trường khi cần thiết.
 ## Cấu hình trường hàng đầu tiên
-Bạn muốn thiết lập các loại tổng phụ cụ thể? Hãy truy cập trường đầu tiên trong bộ sưu tập của chúng ta và cấu hình nó:
+Bạn muốn thiết lập các loại tổng phụ cụ thể? Hãy truy cập vào trường đầu tiên trong bộ sưu tập của chúng ta và cấu hình nó:
 ```csharp
 Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0];
 // Thiết lập Tổng phụ.
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Sum, true);
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Count, true);
 ```
- Bằng cách cho phép`Sum` Và`Count` tổng phụ, chúng ta có thể nhanh chóng tóm tắt dữ liệu trong báo cáo của mình.
+Bằng cách cho phép `Sum` Và `Count` tổng phụ, chúng ta có thể nhanh chóng tóm tắt dữ liệu trong báo cáo của mình.
 ## Bước 6: Thiết lập tùy chọn tự động sắp xếp
 Tiếp theo, hãy đưa một số sắp xếp thông minh vào hoạt động. Theo cách này, PivotTable của bạn sẽ sắp xếp dữ liệu theo thứ tự có ý nghĩa:
 ```csharp
@@ -105,18 +107,20 @@ Bây giờ, bạn có thể tìm thấy tệp Excel mới tạo trong thư mục
 Và bạn đã có nó! Chúng tôi đã hướng dẫn một cách tiếp cận toàn diện và thực tế để thiết lập định dạng trường trang theo chương trình trong PivotTable bằng Aspose.Cells cho .NET. Với các bước đơn giản được cung cấp, bạn sẽ cảm thấy tự tin khi sửa đổi dữ liệu Excel của mình để phù hợp với nhu cầu báo cáo của bạn. Thật đáng kinh ngạc những gì bạn có thể đạt được khi kết hợp sức mạnh của C# với Aspose.Cells.
 ## Câu hỏi thường gặp
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 ### Làm thế nào để cài đặt Aspose.Cells?
- Bạn có thể tải xuống trực tiếp từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống trực tiếp từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 ### Tôi có thể sử dụng Aspose.Cells mà không cần cài đặt Excel không?
 Có, Aspose.Cells là một thư viện độc lập không yêu cầu phải cài đặt Microsoft Excel.
 ### Tôi có thể tìm thấy hỗ trợ chi tiết ở đâu?
- Bạn có thể truy cập hỗ trợ chi tiết và diễn đàn tại[Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập hỗ trợ chi tiết và diễn đàn tại [Hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể xin giấy phép tạm thời bằng cách nào?
- Bạn có thể có được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể có được giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

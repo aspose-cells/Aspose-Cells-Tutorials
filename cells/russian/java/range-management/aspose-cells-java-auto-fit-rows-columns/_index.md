@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Создание нового объекта Workbook
 - Доступ к определенным рабочим листам в рабочей книге
 - Автоматическая подгонка отдельных строк и столбцов для оптимального форматирования
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Давайте углубимся в оптимизацию работы с файлами Excel с помощью Aspose.Cells Java!
 
@@ -71,7 +73,7 @@ public class AsposeSetup {
 
 ## Руководство по внедрению
 
-### Функция: Создание рабочей тетради
+### Функция: Создание рабочей книги
 
 Создать `Workbook` объект для представления вашего файла Excel:
 
@@ -171,6 +173,9 @@ workbook.save(outDir + "AutoFitRowsandColumns_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

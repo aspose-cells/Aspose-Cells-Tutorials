@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 高度なExcelグラフ
@@ -27,12 +29,12 @@
 Aspose.Cells for Java で高度な Excel グラフを深く学ぶことで、洞察を効果的に伝える可能性が広がります。これらのチュートリアルでは、見る人を魅了し、意思決定を支援する、視覚的に魅力的なグラフを作成できます。Aspose.Cells for Java で、データ視覚化の習得に向けて今日から始めましょう。
 
 ## 高度な Excel グラフのチュートリアル
-### [インタラクティブなダッシュボード](./interactive-dashboards/)
+### [インタラクティブダッシュボード](./interactive-dashboards/)
 Aspose.Cells for Java を使ってインタラクティブなダッシュボードを作成する方法を学びましょう。動的なデータ視覚化を構築するためのステップバイステップガイドです。
 ### [カスタムチャートテンプレート](./custom-chart-templates/)
 Aspose.Cellsを使って、Javaで魅力的なカスタムチャートテンプレートを作成する方法を学びましょう。このステップバイステップガイドでは、動的なデータ可視化に必要なすべての手順を網羅しています。
 ### [複合チャートタイプ](./combined-chart-types/)
-Aspose.Cells for Java を使用して、複合チャートを作成する方法を学びましょう。このステップバイステップガイドでは、ソースコードと効果的なデータ視覚化のためのヒントを紹介します。
+Aspose.Cells for Java を使用して、複合チャートを作成する方法を学びましょう。このステップバイステップガイドでは、効果的なデータ視覚化のためのソースコードとヒントを紹介します。
 ### [3Dチャート](./3d-charts/)
 Aspose.Cellsを使ってJavaで魅力的な3Dチャートを作成する方法を学びましょう。Excelデータの視覚化のためのステップバイステップガイドです。
 ### [データのラベル付け](./data-labeling/)
@@ -47,9 +49,11 @@ Aspose.Cells for Javaを使って魅力的なチャートアニメーション�
 Aspose.Cells for Javaを使って、魅力的なウォーターフォールチャートを作成する方法を学びましょう。効果的なデータ可視化のためのソースコード付きのステップバイステップガイドです。
 ### [チャートのインタラクティブ性](./chart-interactivity/)
 Aspose.Cells for Java を使用してインタラクティブなグラフを作成する方法を学びましょう。インタラクティブ機能でデータの視覚化を強化します。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

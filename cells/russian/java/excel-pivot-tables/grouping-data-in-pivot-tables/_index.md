@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Группировка данных в сводных таблицах
@@ -108,9 +110,11 @@ workbook.save("output_custom_grouping.xlsx");
 ### 3. Можно ли автоматизировать создание сводных таблиц с помощью Aspose.Cells для Java?
 
 Да, вы можете автоматизировать создание сводных таблиц в Excel с помощью Aspose.Cells для Java, как показано в предоставленных примерах исходного кода.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

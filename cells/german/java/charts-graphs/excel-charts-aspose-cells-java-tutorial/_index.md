@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: Verwenden Sie vordefinierte Stilkennungen oder erstellen Sie benutzerdefinie
 A5: Optimieren Sie Datenbereiche, minimieren Sie die Diagrammkomplexität und verwalten Sie den Speicher effektiv, indem Sie Objekte entsorgen, wenn sie nicht benötigt werden.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

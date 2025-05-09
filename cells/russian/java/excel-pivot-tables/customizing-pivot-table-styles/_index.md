@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройка стилей сводной таблицы
@@ -87,9 +89,11 @@ workbook.save("output.xlsx");
    Вы можете обратиться к документации API по адресу [Ссылки на API Aspose.Cells для Java](https://reference.aspose.com/cells/java/) для получения подробной информации.
 
 Теперь у вас есть знания для создания и настройки стилей сводных таблиц в Aspose.Cells для Java. Исследуйте дальше и сделайте свои презентации данных действительно исключительными!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

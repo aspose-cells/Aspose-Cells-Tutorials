@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ Beim Arbeiten mit großen Arbeitsmappen oder komplexen Formen:
 - Minimieren Sie die Anzahl der Formoperationen, indem Sie sie nach Möglichkeit gruppieren und so die Verarbeitungszeit und den Ressourcenverbrauch reduzieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

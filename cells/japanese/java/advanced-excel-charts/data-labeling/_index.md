@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # データのラベル付け
@@ -16,7 +18,7 @@
 
 ## データラベリング入門
 
-データラベル付けとは、データに説明情報やメタデータを追加し、ユーザーがより理解しやすいようにすることです。スプレッドシートのセルにタイトル、ヘッダー、説明、その他の情報を追加することも含まれます。
+データラベル付けとは、データに説明情報やメタデータを追加して、ユーザーがより理解しやすいようにすることです。スプレッドシートのセルにタイトル、ヘッダー、説明などの情報を追加することも含まれます。
 
 ## 環境の設定
 
@@ -145,6 +147,7 @@ try-catch ブロックを使用して例外をキャッチし、意味のある�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

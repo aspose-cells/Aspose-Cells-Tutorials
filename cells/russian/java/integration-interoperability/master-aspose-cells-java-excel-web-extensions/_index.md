@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ Workbook workbook = new Workbook(dataDir + "WebExtensionsSample.xlsx");
 ## Соображения производительности
 
 Чтобы обеспечить оптимальную производительность при использовании Aspose.Cells для Java, примите во внимание следующие советы:
-- **Оптимизируйте использование ресурсов**: Ограничьте количество открытых рабочих книг для экономии памяти.
+- **Оптимизация использования ресурсов**: Ограничьте количество открытых рабочих книг для экономии памяти.
 - **Эффективная обработка данных**: Используйте эффективные структуры данных и алгоритмы для обработки больших наборов данных в Excel.
 - **Управление памятью Java**: Контролируйте и корректируйте параметры JVM по мере необходимости для бесперебойной обработки сложных операций.
 
@@ -181,7 +183,7 @@ Workbook workbook = new Workbook(dataDir + "WebExtensionsSample.xlsx");
 4. **Как оптимизировать производительность при использовании Aspose.Cells для Java?**
    - Используйте эффективные методы управления памятью и оптимизируйте настройки JVM для вашего конкретного варианта использования.
 
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    - Посетите [Документация Aspose](https://reference.aspose.com/cells/java/) и изучите дополнительные учебные пособия, руководства и форумы.
 
 ## Ресурсы
@@ -193,6 +195,9 @@ Workbook workbook = new Workbook(dataDir + "WebExtensionsSample.xlsx");
 - **Поддерживать**: [Форум Aspose](https://forum.aspose.co)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

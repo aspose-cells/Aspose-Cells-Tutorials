@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pesan Input dalam Validasi Data
@@ -39,9 +41,9 @@ Untuk menggunakan Aspose.Cells for Java di proyek Anda, Anda perlu menambahkan p
 Sekarang setelah Anda menyiapkan proyek, mari mulai menambahkan validasi data ke lembar kerja. Pertama, buat buku kerja Excel baru dan lembar kerja.
 
 ```java
-// Buat buku kerja baru
+// Új munkafüzet létrehozása
 Workbook workbook = new Workbook();
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -124,15 +126,15 @@ validation.setType(DataValidationType.DATE);
 
 Aspose.Cells untuk Java menawarkan teknik tingkat lanjut untuk validasi data, seperti rumus khusus dan validasi berjenjang.
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami telah menjajaki cara menambahkan pesan input ke aturan validasi data menggunakan Aspose.Cells untuk Java. Validasi data merupakan aspek penting dalam menjaga keakuratan data di Excel, dan Aspose.Cells memudahkan penerapan dan penyesuaian aturan ini di aplikasi Java Anda. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat meningkatkan kegunaan dan kualitas data buku kerja Excel Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menambahkan validasi data ke beberapa sel sekaligus?
 
-Untuk menambahkan validasi data ke beberapa sel, Anda dapat menentukan rentang sel dan menerapkan aturan validasi ke rentang tersebut. Aspose.Cells untuk Java memungkinkan Anda menentukan rentang sel menggunakan `CellArea` kelas.
+Untuk menambahkan validasi data ke beberapa sel, Anda dapat menentukan rentang sel dan menerapkan aturan validasi ke rentang tersebut. Aspose.Cells untuk Java memungkinkan Anda menentukan rentang sel menggunakan `CellArea` osztály.
 
 ### Dapatkah saya menggunakan rumus khusus untuk validasi data?
 
@@ -148,11 +150,12 @@ Ya, Anda dapat mengatur pesan kesalahan yang berbeda untuk aturan validasi yang 
 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells untuk Java?
 
-Untuk informasi lebih lanjut tentang Aspose.Cells untuk Java dan fitur-fiturnya, Anda dapat mengunjungi dokumentasi di [Di Sini](https://reference.aspose.com/cells/java/).
+Untuk informasi lebih lanjut tentang Aspose.Cells untuk Java dan fitur-fiturnya, Anda dapat mengunjungi dokumentasi di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

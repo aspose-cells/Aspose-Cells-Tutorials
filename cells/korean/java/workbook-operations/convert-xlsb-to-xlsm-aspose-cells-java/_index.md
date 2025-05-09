@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Excel 파일 작업 시 바이너리 통합 문서(XLSB)와 매크로 지원 통
 ## Java용 Aspose.Cells 설정
 
 ### 설치 정보:
-Aspose.Cells를 프로젝트에 통합하려면 다음 중 하나를 사용할 수 있습니다. **메이븐** 또는 **그래들**. 두 구성 모두 다음과 같습니다.
+Aspose.Cells를 프로젝트에 통합하려면 다음 중 하나를 사용할 수 있습니다. **메이븐** 또는 **그래들**두 구성은 다음과 같습니다.
 
 **메이븐:**
 ```xml
@@ -172,6 +174,9 @@ XLSB를 XLSM으로 변환하는 것은 여러 가지 실제 상황에서 유용�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

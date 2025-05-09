@@ -1,14 +1,16 @@
 ---
-title: Kiểm tra xem Giá trị ô có ở Định dạng số tùy chỉnh cụ thể không
-linktitle: Kiểm tra xem Giá trị ô có ở Định dạng số tùy chỉnh cụ thể không
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 10
-url: /vi/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/
+"description": "Tìm hiểu cách kiểm tra giá trị ô Excel theo định dạng số tùy chỉnh bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Kiểm tra xem Giá trị ô có ở Định dạng số tùy chỉnh cụ thể không"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Kiểm tra xem Giá trị ô có ở Định dạng số tùy chỉnh cụ thể không"
+"url": "/vi/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kiểm tra xem Giá trị ô có ở Định dạng số tùy chỉnh cụ thể không
@@ -22,7 +24,7 @@ Khi làm việc với bảng tính, đặc biệt là trong môi trường chuy�
 Trước khi đi sâu vào mã, bạn cần thiết lập một số điều kiện tiên quyết sau:
 
 1. Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio (bất kỳ phiên bản nào) trên máy của mình vì chúng ta sẽ làm việc trong môi trường .NET.
-2.  Aspose.Cells cho Thư viện .NET: Bạn sẽ cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể lấy phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần tải xuống và thêm thư viện Aspose.Cells vào dự án của mình. Bạn có thể lấy phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 
 Bây giờ chúng ta đã hoàn tất các điều kiện tiên quyết, hãy bắt tay ngay vào việc nhập các gói cần thiết.
@@ -42,25 +44,25 @@ Bây giờ chúng ta đã chuẩn bị mọi thứ, hãy chia nhỏ quy trình t
 
 ## Bước 1: Tạo một Workbook
 
-Để bắt đầu, bạn cần tạo một phiên bản của sổ làm việc. Đây là nền tảng của tệp Excel của chúng ta, nơi chứa tất cả dữ liệu và kiểu.
+Để bắt đầu, bạn cần tạo một phiên bản của sổ làm việc. Đây là nền tảng của tệp Excel, nơi chứa tất cả dữ liệu và kiểu.
 
 ```csharp
 // Tạo một sổ làm việc
 Workbook wb = new Workbook();
 ```
 
- Bằng cách khởi tạo`Workbook`, chúng tôi thiết lập một tệp Excel mới trong bộ nhớ, sẵn sàng để thao tác.
+Bằng cách khởi tạo `Workbook`, chúng tôi thiết lập một tệp Excel mới trong bộ nhớ, sẵn sàng để thao tác.
 
-## Bước 2: Thiết lập Cài đặt Sổ làm việc
+## Bước 2: Thiết lập cài đặt sổ làm việc
 
 Tiếp theo, chúng ta cần cấu hình cài đặt cho sổ làm việc của mình. Điều này rất quan trọng vì nó giúp phát hiện lỗi liên quan đến định dạng số tùy chỉnh.
 
 ```csharp
 // Cho phép ngoại lệ cho các định dạng số tùy chỉnh không hợp lệ
-wb.Settings.CheckCustomNumberFormat = true;
+wb.Cài đặts.CheckCusĐẾNmNumberFormat = true;
 ```
 
- Cài đặt`CheckCustomNumberFormat` ĐẾN`true` hướng dẫn Aspose.Cells đưa ra ngoại lệ bất cứ khi nào áp dụng định dạng không hợp lệ, cho phép xử lý lỗi tốt hơn.
+Setting `CheckCustomNumberFormat` to `true` hướng dẫn Aspose.Cells đưa ra ngoại lệ bất cứ khi nào áp dụng định dạng không hợp lệ, cho phép xử lý lỗi tốt hơn.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -83,7 +85,7 @@ Cell c = ws.Cells["A1"];
 c.PutValue(2347);
 ```
 
- Bằng cách sử dụng`PutValue` , chúng ta chèn số`2347` vào ô "A1". 
+Bằng cách sử dụng `PutValue`, chúng ta chèn số `2347` vào ô "A1". 
 
 ## Bước 5: Thiết lập Kiểu của Ô
 
@@ -135,19 +137,21 @@ Khám phá khả năng của Aspose.Cells for .NET cung cấp một bộ công c
 Aspose.Cells là thư viện .NET được thiết kế để tạo, xử lý và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Cells [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu bổ sung ở đâu?
- Để biết thêm thông tin, hãy kiểm tra[tài liệu](https://reference.aspose.com/cells/net/).
+Để biết thêm thông tin, hãy kiểm tra [tài liệu](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET như C# và VB.NET.
 
 ### Tôi có thể báo cáo sự cố hoặc nhận hỗ trợ bằng cách nào?
- Bạn có thể đặt câu hỏi hoặc báo cáo các vấn đề trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể đặt câu hỏi hoặc báo cáo các vấn đề trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

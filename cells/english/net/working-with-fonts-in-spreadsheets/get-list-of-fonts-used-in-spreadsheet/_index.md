@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-spreadsheets/get-list-of-fonts-used-in-spreadshe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get List of Fonts Used in Spreadsheet
@@ -78,6 +80,7 @@ Yes, Aspose.Cells is compatible with .NET Core projects as well.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ R: Sim, o Aspose.Cells suporta exportação para vários formatos, como PDF, CSV
 Ao aproveitar os recursos do Aspose.Cells para Java, você pode aprimorar significativamente sua capacidade de criar e manipular arquivos do Excel programaticamente. Comece a explorar seus recursos hoje mesmo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

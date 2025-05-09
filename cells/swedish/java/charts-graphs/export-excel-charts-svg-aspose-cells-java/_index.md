@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Innan du börjar, se till att du har:
 2. **Krav för miljöinstallation:**
    - Ett kompatibelt Java Development Kit (JDK) installerat på ditt system.
    - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA, Eclipse eller liknande.
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmering och hantering av beroenden med hjälp av Maven eller Gradle.
    - Vana vid att arbeta programmatiskt med Excel-filer.
 
@@ -153,6 +155,9 @@ Testa att implementera den här funktionen idag och förbättra dina Java-basera
 - **Supportforum:** [Aspose Community Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

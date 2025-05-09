@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/aligning-text-horizontally/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aligning Text Horizontally in Excel Cells
@@ -98,6 +100,7 @@ You can find help on the [Aspose.Cells support forum](https://forum.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

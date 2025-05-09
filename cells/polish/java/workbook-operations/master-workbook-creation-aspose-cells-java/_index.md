@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ Opanowałeś już tworzenie i stylizowanie skoroszytów programu Excel za pomoc�
 1. **Jak ustawić tekst w indeksie górnym zamiast dolnym?**
    - Używać `font.setSuperscript(true);` zamiast `setSubscript()`.
 2. **Czy Aspose.Cells może wydajnie obsługiwać duże pliki Excela?**
-   - Tak, jest zoptymalizowany do obsługi dużych zbiorów danych, przy minimalnym wykorzystaniu pamięci.
+   - Tak, jest zoptymalizowany do obsługi dużych zbiorów danych, wykorzystując minimalną ilość pamięci.
 3. **Czy istnieje sposób na zastosowanie formatowania warunkowego za pomocą Aspose.Cells Java?**
    - Tak, Aspose.Cells obsługuje formatowanie warunkowe, co pozwala na dynamiczne stylizowanie komórek na podstawie ich wartości.
 4. **Jak mogę zapisać skoroszyt w różnych formatach?**
@@ -166,6 +168,9 @@ Przeglądaj te zasoby, aby pogłębić swoje zrozumienie i zmaksymalizować uży
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

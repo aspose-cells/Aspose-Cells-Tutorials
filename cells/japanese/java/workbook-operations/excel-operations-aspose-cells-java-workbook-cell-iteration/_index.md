@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ while (rangeIterator.hasNext()) {
 ```
 このアプローチは、ワークブックの定義されたセクションを処理するのに最適です。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 Aspose.Cells Java は、いくつかの実用的なアプリケーションを提供します。
 1. **データの抽出と分析**大きな Excel ファイルからデータを抽出して傾向を分析します。
 2. **自動レポート**プログラムによってデータセットを反復処理してレポートを生成します。
@@ -191,6 +193,9 @@ Aspose.Cells を使用する際のパフォーマンスを最適化するには:
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

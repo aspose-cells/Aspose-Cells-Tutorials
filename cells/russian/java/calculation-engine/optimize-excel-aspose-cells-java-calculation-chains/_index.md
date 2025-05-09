@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,7 +196,7 @@ workbook.calculateFormula();
 4. **Какие распространенные проблемы возникают при использовании Aspose.Cells?**
    - Распространенные проблемы включают неверные расчеты формул из-за неправильно настроенных параметров или ограничений памяти.
 
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    - Посетите [официальная документация](https://reference.aspose.com/cells/java/) и изучите дополнительные ресурсы, предоставляемые Aspose.
 
 ## Ресурсы
@@ -207,6 +209,9 @@ workbook.calculateFormula();
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

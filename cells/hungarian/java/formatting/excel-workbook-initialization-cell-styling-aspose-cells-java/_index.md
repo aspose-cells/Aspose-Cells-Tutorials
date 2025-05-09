@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ Excel fájlok kezeléséhez hozzon létre egy `Workbook` egy teljes Excel fájlt
    Workbook workbook = new Workbook();
    ```
 2. **Munkalap hozzáadása**
-   Használd a `getWorksheets().add()` módszer munkalap hozzáadásához a munkafüzethez:
+   Használd a `getWorksheets().add()` Módszer munkalap hozzáadásához a munkafüzethez:
    ```java
    int sheetIndex = workbook.getWorksheets().add();
    ```
@@ -188,6 +190,9 @@ Sikeresen elvégezted egy Excel-munkafüzet inicializálásának, egy munkalap h
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

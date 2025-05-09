@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A5: Optimieren Sie den Code, indem Sie die erforderlichen Daten laden, Ergebniss
 - **Herunterladen**: Greifen Sie auf die neueste Version von Aspose.Cells für Java zu, um noch heute mit der Implementierung dieser Lösungen zu beginnen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

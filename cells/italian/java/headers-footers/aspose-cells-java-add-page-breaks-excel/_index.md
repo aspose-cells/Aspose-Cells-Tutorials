@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Scopriamo insieme come aggiungere interruzioni di pagina con Aspose.Cells Java!
 Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
 - **Librerie e dipendenze**: Avrai bisogno di Aspose.Cells per Java. Parleremo dell'installazione con Maven e Gradle.
-- **Configurazione dell'ambiente**: assicurati che il tuo ambiente di sviluppo sia configurato per gestire le applicazioni Java (ad esempio, con JDK installato).
+- **Configurazione dell'ambiente**: Assicurati che il tuo ambiente di sviluppo sia configurato per gestire le applicazioni Java (ad esempio, con JDK installato).
 - **Prerequisiti di conoscenza**: Conoscenza di base della programmazione Java.
 
 ### Impostazione di Aspose.Cells per Java
@@ -182,6 +184,9 @@ Seguendo questa guida completa, sarai sulla buona strada per sfruttare al meglio
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

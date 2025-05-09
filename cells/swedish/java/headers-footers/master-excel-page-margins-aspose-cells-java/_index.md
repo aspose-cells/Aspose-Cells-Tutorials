@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Innan du arbetar med Aspose.Cells i Java, se till att du har:
 
 - **Obligatoriska bibliotek:** Inkludera Aspose.Cells-biblioteket i ditt projekt. Versionen som används här är 25.3.
 - **Utvecklingsmiljö:** En lämplig IDE (som IntelliJ IDEA eller Eclipse) och JDK installerade på ditt system.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering, särskilt objektorienterade koncept.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering, särskilt objektorienterade koncept.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -173,6 +175,9 @@ Den här guiden har utrustat dig med kunskapen för att ställa in sidmarginaler
    - Se till att din byggkonfiguration (Maven eller Gradle) inkluderar rätt beroendepost för Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

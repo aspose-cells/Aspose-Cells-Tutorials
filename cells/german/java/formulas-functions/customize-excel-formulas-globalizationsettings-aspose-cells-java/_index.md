@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Mittlerweile sollten Sie ein solides Verständnis davon haben, wie Sie Excel-For
 Nutzen Sie diese Ressourcen, um Ihr Verständnis und Ihre Implementierungsfähigkeiten mit Aspose.Cells für Java weiter zu verbessern. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

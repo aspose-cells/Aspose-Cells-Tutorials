@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 소개
 
-복잡한 Excel 통합 문서에서 글꼴을 분석해야 했던 적이 있으신가요? 디자인 일관성 유지, 브랜드 준수, 문서 스타일 이해 등 어떤 목적이든 글꼴 정보 추출은 필수적입니다. 이 가이드에서는 글꼴 정보 추출 방법을 알려드립니다. **자바용 Aspose.Cells** Excel 통합 문서를 불러와서 그 안에 사용된 모든 글꼴을 추출하는 방법입니다. 이러한 기능을 숙달하면 데이터 처리 작업을 정확하고 쉽게 수행할 수 있습니다.
+복잡한 Excel 통합 문서에서 글꼴을 분석해야 했던 적이 있으신가요? 디자인 일관성 유지, 브랜드 준수, 문서 스타일 이해 등 어떤 목적이든 글꼴 정보 추출은 필수적입니다. 이 가이드에서는 글꼴 정보 추출 방법을 알려드립니다. **자바용 Aspose.Cells** Excel 통합 문서를 불러와서 그 안에 사용된 모든 글꼴을 추출하는 방법입니다. 이러한 기능을 숙달하면 데이터 처리 작업을 더욱 정확하고 쉽게 수행할 수 있습니다.
 
 **배울 내용:**
 - 개발 환경에서 Java용 Aspose.Cells 설정하기.
@@ -23,7 +25,7 @@
 - Excel 문서에 사용된 모든 글꼴을 추출하고 나열하는 기술입니다.
 - 실제 상황에서 이러한 기능을 실용적으로 적용하는 방법.
 
-이 여행에 필요한 모든 것을 가지고 있는지 확인하면서 시작해 보겠습니다.
+이 여행에 필요한 모든 것을 가지고 있는지 확인하는 것부터 시작해 보겠습니다.
 
 ## 필수 조건
 
@@ -165,6 +167,9 @@ for (int i = 0; i < fnts.length; i++) {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

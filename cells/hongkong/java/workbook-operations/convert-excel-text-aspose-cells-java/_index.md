@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@
 - 使用 Aspose.Cells 載入 Excel 工作簿
 - 使用製表符分隔符號配置文字儲存選項
 - 將多個工作表的資料合併為一個文字數組
-- 將合併的文字資料儲存到文件
+- 將組合的文字資料儲存到文件
 
 在開始之前，讓我們深入了解您需要的先決條件。
 
@@ -241,6 +243,9 @@ A5：檢查常見問題，例如檔案路徑錯誤、權限不足或不支援的
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

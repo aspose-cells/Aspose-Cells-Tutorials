@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ Használat `WorkbookRender` a munkafüzet TIFF-képpé konvertálásához a konf
 // Oldalmentési visszahívás beállítása a konverziós folyamat monitorozásához
 opts.setPageSavingCallback(new TestTiffPageSavingCallback());
 
-// A munkafüzet renderelése képfájlba a megadott beállításokkal
+// A munkafüzet renderelése képfájlként a megadott beállításokkal
 WorkbookRender wr = new WorkbookRender(wb, opts);
 wr.toImage("path/to/DocumentConversionProgressForTiff_out.tiff");
 ```
@@ -173,7 +175,7 @@ A5: Teljesen egyetértek! Kompatibilis a legtöbb Java alapú rendszerrel, és z
 
 ## Erőforrások (H2)
 
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltési könyvtár**: [Legújabb kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása**: [Vásároljon most](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Indítsa el az ingyenes próbaverziót](https://releases.aspose.com/cells/java/)
@@ -181,6 +183,9 @@ A5: Teljesen egyetértek! Kompatibilis a legtöbb Java alapú rendszerrel, és z
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

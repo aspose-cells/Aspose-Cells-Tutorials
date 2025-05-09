@@ -1,24 +1,26 @@
 ---
-title: Renderuj Slicers w Aspose.Cells .NET
-linktitle: Renderuj Slicers w Aspose.Cells .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Opanuj renderowanie slicerów z Aspose.Cells dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem i bez wysiłku twórz atrakcyjne wizualnie prezentacje w programie Excel.
-weight: 16
-url: /pl/net/excel-slicers-management/render-slicers/
+"description": "Opanuj renderowanie slicerów z Aspose.Cells dla .NET. Postępuj zgodnie z naszym szczegółowym przewodnikiem i bez wysiłku twórz atrakcyjne wizualnie prezentacje w programie Excel."
+"linktitle": "Renderuj Slicers w Aspose.Cells .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Renderuj Slicers w Aspose.Cells .NET"
+"url": "/pl/net/excel-slicers-management/render-slicers/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Renderuj Slicers w Aspose.Cells .NET
 
 ## Wstęp
-W tym kompleksowym przewodniku zagłębimy się w renderowanie fragmentatorów w dokumentach Excela przy użyciu Aspose.Cells dla .NET. Przygotuj się na tworzenie wizualnie oszałamiających prezentacji, które przyciągną uwagę i rzucą światło reflektorów na Twoje dane!
+tym kompleksowym przewodniku zagłębimy się w renderowanie fragmentatorów w dokumentach Excela przy użyciu Aspose.Cells dla .NET. Przygotuj się na tworzenie wizualnie oszałamiających prezentacji, które przyciągną uwagę i rzucą światło reflektorów na Twoje dane!
 ## Wymagania wstępne
 Zanim wyruszysz w tę ekscytującą podróż, musisz poznać kilka warunków wstępnych:
 1. Znajomość podstawowych koncepcji programowania: Znajomość programowania w języku C# będzie nieoceniona, ponieważ wykorzystamy ją w tym samouczku.
-2.  Aspose.Cells dla .NET: Upewnij się, że masz prawidłową instalację. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Upewnij się, że masz prawidłową instalację. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Visual Studio lub dowolne środowisko IDE języka C#: posiadanie środowiska IDE skonfigurowanego do kodowania pomoże Ci skutecznie uruchamiać i testować fragmenty kodu.
 4. Przykładowy plik Excela: Będziesz potrzebować przykładowego pliku Excela zawierającego obiekty slicera do pracy. Jeśli go nie masz, możesz utworzyć prosty plik Excela na potrzeby tego samouczka.
 Teraz, gdy już wiesz, czego potrzebujesz, możemy zabrać się do pracy z bibliotekami!
@@ -43,26 +45,26 @@ string outputDir = "Your Document Directory";
 ```
 Ten krok obejmuje zdefiniowanie ścieżek zarówno dla wejścia (sourceDir), jak i wyjścia (outputDir). Upewnij się, że zamieniasz „Your Document Directory” na rzeczywistą ścieżkę w swoim systemie.
 ## Krok 2: Załaduj przykładowy plik Excel
- Następnie czas załadować plik Excel zawierający slicery, które chcesz renderować. Można to zrobić za pomocą`Workbook` klasa.
+Następnie czas załadować plik Excel zawierający slicery, które chcesz renderować. Można to zrobić za pomocą `Workbook` klasa.
 ```csharp
 // Załaduj przykładowy plik Excela zawierający slicer.
 Workbook wb = new Workbook(sourceDir + "sampleRenderingSlicer.xlsx");
 ```
- Tutaj tworzymy nową instancję`Workbook` class i załaduj nasz plik Excel. Upewnij się, że plik „sampleRenderingSlicer.xlsx” istnieje w podanym katalogu źródłowym. 
+Tutaj tworzymy nową instancję `Workbook` class i załaduj nasz plik Excel. Upewnij się, że plik „sampleRenderingSlicer.xlsx” istnieje w podanym katalogu źródłowym. 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Teraz, gdy twój skoroszyt jest załadowany, będziesz chciał uzyskać dostęp do arkusza, który ma slicery. Zróbmy to:
 ```csharp
 // Otwórz pierwszy arkusz kalkulacyjny.
 Worksheet ws = wb.Worksheets[0];
 ```
- Ten krok pobiera pierwszy arkusz kalkulacyjny skoroszytu i przypisuje go do`ws` zmienna. Jeśli Twój slicer znajduje się na innym arkuszu, po prostu dostosuj indeks odpowiednio.
+Ten krok pobiera pierwszy arkusz kalkulacyjny skoroszytu i przypisuje go do `ws` zmienna. Jeśli Twój slicer znajduje się na innym arkuszu, po prostu dostosuj indeks odpowiednio.
 ## Krok 4: Określ obszar wydruku
 Przed renderowaniem musisz skonfigurować obszar wydruku. Dzięki temu zapewnisz, że renderowany będzie tylko zaznaczony obszar z slicerami.
 ```csharp
-//Ustaw obszar wydruku, ponieważ chcemy renderować tylko fragmentator.
+// Ustaw obszar wydruku, ponieważ chcemy renderować tylko fragmentator.
 ws.PageSetup.PrintArea = "B15:E25";
 ```
-W tym fragmencie kodu definiujemy obszar wydruku dla arkusza kalkulacyjnego. Zmodyfikuj „B15:E25”, aby dopasować go do rzeczywistego zakresu, w którym znajdują się Twoje slicery.
+tym fragmencie kodu definiujemy obszar wydruku dla arkusza kalkulacyjnego. Zmodyfikuj „B15:E25”, aby dopasować go do rzeczywistego zakresu, w którym znajdują się Twoje slicery.
 ## Krok 5: Określ opcje obrazu lub wydruku
 Następnie musisz zdefiniować opcje renderowania obrazu. Opcje te określają, jak będzie wyglądał renderowany wynik.
 ```csharp
@@ -74,14 +76,14 @@ imgOpts.ImageType = Aspose.Cells.Drawing.ImageType.Png;
 imgOpts.OnePagePerSheet = true;
 imgOpts.OnlyArea = true;
 ```
- Tutaj tworzysz instancję`ImageOrPrintOptions` i skonfiguruj go. Ważne parametry obejmują typ obrazu (PNG) i rozdzielczość (200 DPI). Te ustawienia poprawiają jakość obrazu wyjściowego. 
+Tutaj tworzysz instancję `ImageOrPrintOptions` i skonfiguruj go. Ważne parametry obejmują typ obrazu (PNG) i rozdzielczość (200 DPI). Te ustawienia poprawiają jakość obrazu wyjściowego. 
 ## Krok 6: Utwórz obiekt renderowania arkusza
- Po ustawieniu opcji następnym krokiem jest utworzenie`SheetRender` obiekt, który służy do konwersji arkusza kalkulacyjnego na obraz.
+Po ustawieniu opcji następnym krokiem jest utworzenie `SheetRender` obiekt, który służy do konwersji arkusza kalkulacyjnego na obraz.
 ```csharp
 // Utwórz obiekt renderowania arkusza i renderuj arkusz kalkulacyjny do obrazu.
 Aspose.Cells.Rendering.SheetRender sr = new Aspose.Cells.Rendering.SheetRender(ws, imgOpts);
 ```
- Ten kod inicjuje`SheetRender`obiekt, w którym przekazujesz arkusz kalkulacyjny i opcje renderowania. Ten obiekt będzie teraz kontrolował, jak renderowanie się odbywa.
+Ten kod inicjuje `SheetRender` obiekt, w którym przekazujesz arkusz kalkulacyjny i opcje renderowania. Ten obiekt będzie teraz kontrolował, jak odbywa się renderowanie.
 ## Krok 7: Renderowanie arkusza kalkulacyjnego do obrazu
 Na koniec czas wyrenderować obraz i zapisać go w katalogu wyjściowym. Zróbmy to:
 ```csharp
@@ -95,16 +97,18 @@ Właśnie nauczyłeś się, jak renderować slicery z pliku Excela za pomocą As
 ### Czym jest Aspose.Cells?  
 Aspose.Cells to potężna biblioteka umożliwiająca programowe tworzenie, modyfikowanie i renderowanie plików Excela.
 ### Jak pobrać Aspose.Cells dla .NET?  
- Można go pobrać ze strony[strona](https://releases.aspose.com/cells/net/).
+Można go pobrać ze strony [strona](https://releases.aspose.com/cells/net/).
 ### Czy mogę używać Aspose.Cells za darmo?  
-Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego[Tutaj](https://releases.aspose.com/).
+Tak! Możesz zacząć od bezpłatnego okresu próbnego dostępnego [Tutaj](https://releases.aspose.com/).
 ### Czy możliwe jest renderowanie wielu slicerów jednocześnie?  
 Tak, możesz ustawić obszar wydruku na zakres obejmujący wiele fragmentatorów i renderować je razem.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?  
- Możesz uzyskać wsparcie społeczności na[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie społeczności na [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Создать линию с маркером данных диаграммы
-linktitle: Создать линию с маркером данных диаграммы
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как создать диаграмму Line with Data Markers в Excel с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству, чтобы легко создавать и настраивать диаграммы.
-weight: 10
-url: /ru/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Узнайте, как создать диаграмму Line with Data Markers в Excel с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству, чтобы легко создавать и настраивать диаграммы."
+"linktitle": "Создать линию с маркером данных диаграммы"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Создать линию с маркером данных диаграммы"
+"url": "/ru/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать линию с маркером данных диаграммы
@@ -21,10 +23,10 @@ url: /ru/net/working-with-chart-data/create-line-with-data-marker-chart/
 
 Прежде чем начать, убедитесь, что у вас все готово для беспрепятственного продолжения.
 
-1. Библиотека Aspose.Cells for .NET – Вам нужно установить ее. Вы можете взять ее[здесь](https://releases.aspose.com/cells/net/).
+1. Библиотека Aspose.Cells for .NET – Вам нужно установить ее. Вы можете взять ее [здесь](https://releases.aspose.com/cells/net/).
 2. .NET Framework — убедитесь, что ваша среда разработки настроена на использование последней версии .NET.
 3. IDE (интегрированная среда разработки) – рекомендуется Visual Studio.
-4.  Действующая лицензия Aspose.Cells — если у вас ее нет, вы можете запросить[временная лицензия](https://purchase.aspose.com/temporary-license/) или проверьте их[бесплатная пробная версия](https://releases.aspose.com/).
+4. Действующая лицензия Aspose.Cells — если у вас ее нет, вы можете запросить [временная лицензия](https://purchase.aspose.com/temporary-license/) или проверьте их [бесплатная пробная версия](https://releases.aspose.com/).
 
 Готовы? Давайте разберемся!
 
@@ -71,7 +73,7 @@ worksheet.Cells[0, 1].Value = "Y";
 // Случайные данные для построения диаграммы
 Random R = new Random();
 
-// Создайте случайные данные и сохраните в ячейках
+// Создайте случайные данные и сохраните в ячейках.
 for (int i = 1; i < 21; i++)
 {
     worksheet.Cells[i, 0].Value = i;
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // Установить белый цвет переднего плана
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Установить свойства заголовка диаграммы
+// Установить свойства заголовка диаграммы
 chart.Title.Text = "Sample Chart";
 
 // Установить тип диаграммы
@@ -169,7 +171,7 @@ chart.NSeries[s3_idx].XValues = "A22: A41";
 chart.NSeries[s3_idx].Values = "B22: B41";
 ```
 
-Значения основаны на данных, которые мы заполнили на шаге 2.
+Значения основаны на данных, которые мы ввели на шаге 2.
 
 ## Шаг 8: Сохраните рабочую книгу
 
@@ -192,19 +194,21 @@ workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveForm
 Конечно! Aspose.Cells предлагает массу возможностей настройки: от шрифтов до линий сетки и многого другого.
 
 ### Нужна ли мне лицензия для использования Aspose.Cells?  
- Да, для полной функциональности требуется лицензия. Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) или начните с[бесплатная пробная версия](https://releases.aspose.com/).
+Да, для полной функциональности требуется лицензия. Вы можете получить [временная лицензия](https://purchase.aspose.com/temporary-license/) или начните с [бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Как добавить больше рядов данных?  
- Просто добавьте дополнительные серии с помощью`NSeries.Add` метод, указывающий диапазоны ячеек для новых данных.
+Просто добавьте дополнительные серии с помощью `NSeries.Add` метод, указывающий диапазоны ячеек для новых данных.
 
 ### Могу ли я экспортировать диаграмму как изображение?  
- Да, вы можете экспортировать диаграммы напрямую как изображения, используя`Chart.ToImage` метод.
+Да, вы можете экспортировать диаграммы напрямую как изображения, используя `Chart.ToImage` метод.
 
 ### Поддерживает ли Aspose.Cells трехмерные диаграммы?  
 Да, Aspose.Cells поддерживает широкий спектр типов диаграмм, включая трехмерные диаграммы.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Сохранение сводной таблицы в формате ODS программным способом в .NET
-linktitle: Сохранение сводной таблицы в формате ODS программным способом в .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как сохранять сводные таблицы в формате ODS с помощью Aspose.Cells для .NET, следуя этому пошаговому руководству.
-weight: 25
-url: /ru/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Узнайте, как сохранять сводные таблицы в формате ODS с помощью Aspose.Cells для .NET, следуя этому пошаговому руководству."
+"linktitle": "Сохранение сводной таблицы в формате ODS программным способом в .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Сохранение сводной таблицы в формате ODS программным способом в .NET"
+"url": "/ru/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сохранение сводной таблицы в формате ODS программным способом в .NET
@@ -21,7 +23,7 @@ url: /ru/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
 ### 1. Базовые знания .NET
 Базовые знания .NET и концепций программирования помогут вам легко усвоить материал.
 ### 2. Aspose.Cells для .NET
- Вам понадобится установленный Aspose.Cells for .NET. Вы можете скачать его с сайта[Страница релизов Aspose](https://releases.aspose.com/cells/net/) . Также доступна пробная версия.[здесь](https://releases.aspose.com/).
+Вам понадобится установленный Aspose.Cells for .NET. Вы можете скачать его с сайта [Страница релизов Aspose](https://releases.aspose.com/cells/net/). Также доступна пробная версия. [здесь](https://releases.aspose.com/).
 ### 3. Среда разработки
 Убедитесь, что у вас есть IDE, например Visual Studio, в которой вы можете писать и тестировать свой код .NET.
 ### 4. Немного терпения
@@ -39,7 +41,7 @@ using Aspose.Cells.Pivot;
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- В этой строке замените`"Your Document Directory"` на путь, по которому вы хотите сохранить файл.
+В этой строке замените `"Your Document Directory"` на путь, по которому вы хотите сохранить файл.
 ## Шаг 2: Создайте новую рабочую книгу
 Далее вы создадите новый объект Workbook, который будет содержать все ваши данные и структуры, включая сводную таблицу.
 ```csharp
@@ -90,12 +92,12 @@ PivotTableCollection pivotTables = sheet.PivotTables;
 // Добавление сводной таблицы на рабочий лист
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- В этом фрагменте мы указываем диапазон данных для сводной таблицы и место ее размещения на листе. Диапазон данных`=A1:C8` охватывает область, где существуют наши данные.
+В этом фрагменте мы указываем диапазон данных для сводной таблицы и место ее размещения на рабочем листе. Диапазон данных `=A1:C8` охватывает область, где существуют наши данные.
 ## Шаг 6: Настройте сводную таблицу
 Далее вам нужно настроить сводную таблицу в соответствии с вашими потребностями. Это включает в себя контроль того, что отображается, как это категоризируется и как она вычисляет данные.
 ```csharp
 PivotTable pivotTable = pivotTables[index];
-// Отключение отображения общих итогов по строкам.
+// Скрытие общих итогов по строкам.
 pivotTable.RowGrand = false;
 // Перетаскиваем первое поле в область строки.
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
@@ -124,16 +126,18 @@ Console.WriteLine("PivotTableSaveInODS executed successfully.");
 ### Что такое Aspose.Cells?
 Aspose.Cells — это сложная библиотека, позволяющая создавать и обрабатывать файлы Excel в приложениях .NET.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, вы можете загрузить бесплатную пробную версию с сайта[Сайт Aspose](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию с сайта [Сайт Aspose](https://releases.aspose.com/).
 ### Какие форматы поддерживает Aspose.Cells?
 Поддерживает множество форматов, включая XLSX, XLS, ODS, PDF и многие другие.
 ### Как получить поддержку по Aspose.Cells?
- Помощь вы можете найти на[Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
+Помощь вы можете найти на [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
 ### Есть ли временная лицензия?
- Да, вы можете подать заявку на временную лицензию через сайт Aspose.[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете подать заявку на временную лицензию через сайт Aspose. [здесь](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

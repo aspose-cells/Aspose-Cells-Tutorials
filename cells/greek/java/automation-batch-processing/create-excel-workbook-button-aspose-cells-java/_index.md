@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ workbook.save(dataDir + "/AddingButtonControl_out.xls", SaveFormat.AUTO);
 Μη διστάσετε να εξερευνήσετε αυτούς τους πόρους για πρόσθετη υποστήριξη και πληροφορίες σχετικά με την αποτελεσματική χρήση του Aspose.Cells στα έργα Java σας!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

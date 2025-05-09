@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ public class AddVerticalPageBreak {
 
 ### ขั้นตอนต่อไป:
 - ลองใช้กฎการจัดรูปแบบแบบกำหนดเองดู
-- ทดลองใช้วิธีการที่แตกต่างกันเพื่อจัดการชุดข้อมูลขนาดใหญ่อย่างมีประสิทธิภาพ
+- ทดลองใช้วิธีต่างๆ เพื่อจัดการชุดข้อมูลขนาดใหญ่อย่างมีประสิทธิภาพ
 
 ## ส่วนคำถามที่พบบ่อย
 1. **ฉันสามารถเพิ่มตัวแบ่งหน้าหลายตัวในครั้งเดียวได้ไหม**
@@ -182,6 +184,9 @@ public class AddVerticalPageBreak {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

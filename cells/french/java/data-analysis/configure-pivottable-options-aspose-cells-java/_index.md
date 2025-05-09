@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Les prochaines étapes pourraient inclure l'exploration d'autres fonctionnalité
 Ce guide devrait vous permettre d'exploiter pleinement le potentiel d'Aspose.Cells pour Java et de configurer efficacement vos tableaux croisés dynamiques. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

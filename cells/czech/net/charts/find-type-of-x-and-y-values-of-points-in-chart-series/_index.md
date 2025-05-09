@@ -1,49 +1,52 @@
 ---
-title: Najděte typ hodnoty X a Y v bodích grafu pomocí Aspose.Cells pro .NET
-weight: 7700
-limit: 
-description: Naučte se najít typy hodnot X a Y v bodě grafu pomocí Aspose.Cells pro .NET. Nabírejte soubor Excel, navštivte grafu a získáte typy hodnot.
-keywords: [Aspose.Cells for .NET, Excel chart, chart points, X value type, Y value type, calculate chart data, retrieve chart values, C# Excel API]
-url: /cs/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Naučte se, jak najít typy hodnot X a Y v bodech grafu pomocí Aspose.Cells pro .NET. Načtěte soubor aplikace Excel, zpřístupněte graf a načtěte typy hodnot."
+"title": "Nalezení typu hodnot X a Y v bodech grafu pomocí Aspose.Cells pro .NET"
+"url": "/cs/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zjistěte hodnoty typu X a Y v bodě grafu pomocí Aspose.Cells  
+# Nalezení typu hodnot X a Y v bodech grafu pomocí Aspose.Cells  
 
-V tomto tutoriálu se naučíte určit typy hodnot X a Y pro body grafu v souboru Excel pomocí Aspose.Cells pro .NET. Je to užitečné při dynamické analýze dat grafu v rámci aplikace .NET. Začneme načítáním souboru Excel obsahujícího grafu, přístupem k pracovní listě a grafu, výpočtem dat grafu a výběrem typů hodnot z konkrétního data bodu. Nakonec tyto hodnoty vytiskneme na konzolu pro ověření.  
+tomto tutoriálu se naučíte, jak určit typy hodnot X a Y pro body grafu v souboru aplikace Excel pomocí Aspose.Cells pro .NET. To je užitečné při dynamické analýze dat grafu v aplikaci .NET. Začneme načtením souboru aplikace Excel obsahujícího graf, otevřeme list a graf, vypočítáme data grafu a extrahujeme typy hodnot z konkrétního datového bodu. Nakonec tyto hodnoty vypíšeme do konzole pro ověření.  
 
-Aspose.Cells pro .NET usnadňuje programovou práci s Excelovými grafemi, což umožňuje vývojářům automatizovat složité operace v kalkulačních tabulkách bez nutnosti programu Microsoft Excel.  
+Aspose.Cells pro .NET usnadňuje programově práci s grafy v Excelu a umožňuje vývojářům automatizovat složité operace s tabulkami bez nutnosti použití aplikace Microsoft Excel.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci  
+## Pokyny k instalaci  
 
-Chcete-li v projektu používat Aspose.Cells pro .NET, postupujte podle těchto kroků:  
+Chcete-li ve svém projektu použít Aspose.Cells pro .NET, postupujte takto:  
 
-1. Instalace prostřednictvím programu NuGet Package Manager  
-- Otevři Visual Studio a přejděte do nástroje → NuGet Package Manager → Manage NuGet Packages for Solution.  
-- Vyhledat Aspose.Cells a kliknout na Instalit.  
+1. Instalace pomocí Správce balíčků NuGet  
+- Otevřete Visual Studio a přejděte do nabídky Nástroje → Správce balíčků NuGet → Spravovat balíčky NuGet pro řešení.  
+- Vyhledejte Aspose.Cells a klikněte na tlačítko Instalovat.  
 
-Nebo instalovat pomocí konzole NuGet Manager:  
+Nebo nainstalujte pomocí konzole Správce balíčků NuGet:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```  
 
 2. Instalace přes .NET CLI  
-Pokud používáte .NET CLI, spuštějte:  
+Pokud používáte rozhraní .NET CLI, spusťte:  
 
 ```powershell
 dotnet add package Aspose.Cells
 ```  
 
-3. Přidejte do svého projektu odkaz  
-Once installed, include the following namespace in your C# file:  
+3. Přidejte referenci do svého projektu  
+Po instalaci zahrňte do souboru C# následující jmenný prostor:  
 
 ```csharp
 using Aspose.Cells;
@@ -51,13 +54,15 @@ using Aspose.Cells.Charts;
 ```  
 
 ## Viz také
-Pro bezplatnou zkoušku navštivte [Vyzkoušejte se bezplatně](https://releases.aspose.com/)\- Ne , ne .  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne . 
+Pro bezplatnou zkušební verzi navštivte [Bezplatná zkušební verze Aspose](https://releases.aspose.com/).  
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

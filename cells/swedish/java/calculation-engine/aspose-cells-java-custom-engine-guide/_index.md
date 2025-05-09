@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ För att följa den här handledningen effektivt behöver du följande:
    - En IDE som IntelliJ IDEA eller Eclipse.
    - Maven- eller Gradle-byggverktyget som konfigurerats i ditt projekt.
 
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmering och objektorienterade koncept.
    - Bekantskap med bearbetning och manipulation av Excel-formler.
 
@@ -233,6 +235,9 @@ Redo att dyka djupare? Försök att implementera dessa lösningar i dina projekt
 Genom att följa den här guiden kan du använda Aspose.Cells för Java för att skapa kraftfulla anpassade beräkningsmotorer som passar dina unika affärskrav. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

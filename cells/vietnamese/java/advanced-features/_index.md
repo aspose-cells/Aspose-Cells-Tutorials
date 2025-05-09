@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Các hướng dẫn về tính năng nâng cao của chúng tôi trình bày cá
 ## Hướng dẫn có sẵn
 
 ### [Cách thêm siêu liên kết hình ảnh trong Excel bằng Aspose.Cells cho Java](./add-image-hyperlinks-excel-aspose-cells-java/)
-Tìm hiểu cách chuyển đổi hình ảnh tĩnh thành siêu liên kết có thể nhấp trong Excel bằng Aspose.Cells for Java, giúp tăng cường tính tương tác của bảng tính.
+Tìm hiểu cách chuyển đổi hình ảnh tĩnh thành siêu liên kết có thể nhấp vào trong Excel bằng Aspose.Cells for Java, giúp tăng cường tính tương tác của bảng tính.
 
 ### [Thêm Slicer vào Excel bằng Aspose.Cells cho Java: Hướng dẫn dành cho nhà phát triển](./add-slicers-excel-aspose-cells-java-guide/)
 Tìm hiểu cách sử dụng Aspose.Cells for Java để thêm bộ lọc vào bảng tính Excel, cải thiện khả năng lọc và phân tích dữ liệu.
@@ -93,6 +95,9 @@ Tìm hiểu cách tự động cập nhật slicer trong tệp Excel bằng Aspo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

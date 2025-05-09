@@ -1,14 +1,16 @@
 ---
-title: Sử dụng Font Underline Type trong Excel
-linktitle: Sử dụng Font Underline Type trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sử dụng Aspose.Cells cho .NET để gạch chân văn bản trong ô Excel một cách dễ dàng với hướng dẫn từng bước của chúng tôi.
-weight: 14
-url: /vi/net/working-with-fonts-in-excel/using-font-underline-type/
+"description": "Tìm hiểu cách sử dụng Aspose.Cells cho .NET để gạch chân văn bản trong ô Excel một cách dễ dàng với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Sử dụng Font Underline Type trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sử dụng Font Underline Type trong Excel"
+"url": "/vi/net/working-with-fonts-in-excel/using-font-underline-type/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sử dụng Font Underline Type trong Excel
@@ -16,13 +18,13 @@ url: /vi/net/working-with-fonts-in-excel/using-font-underline-type/
 ## Giới thiệu
 Khi nói đến việc tạo bảng tính hoặc thao tác các tệp Excel trong các ứng dụng .NET, hiệu quả và dễ sử dụng là tối quan trọng. Aspose.Cells cho .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp Excel một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng kiểu gạch chân phông chữ trong Excel bằng Aspose.Cells. Chúng tôi sẽ cung cấp các hướng dẫn từng bước dễ làm theo, đảm bảo rằng bạn có thể nắm bắt các khái niệm và áp dụng chúng vào các dự án của riêng mình mà không gặp bất kỳ rắc rối nào!
 ## Điều kiện tiên quyết
-Trước khi tìm hiểu các ví dụ mã của chúng tôi, có một số điều kiện tiên quyết để đảm bảo môi trường phát triển của bạn đã sẵn sàng.
+Trước khi tìm hiểu các ví dụ mã, chúng tôi có một số điều kiện tiên quyết để đảm bảo môi trường phát triển của bạn đã sẵn sàng.
 ### Kiến thức cơ bản về C#
 Bạn nên có hiểu biết cơ bản về lập trình C#. Sự quen thuộc với các nguyên tắc hướng đối tượng cũng sẽ giúp bạn nắm bắt các khái niệm tốt hơn.
 ### Đã cài đặt Visual Studio
- Để chạy và kiểm tra mã của bạn một cách hiệu quả, việc cài đặt Visual Studio là điều cần thiết. Bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/).
+Để chạy và kiểm tra mã của bạn một cách hiệu quả, việc cài đặt Visual Studio là điều cần thiết. Bạn có thể tải xuống từ [Trang web của Microsoft](https://visualstudio.microsoft.com/).
 ### Aspose.Cells cho .NET
- Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/) hoặc sử dụng NuGet Package Manager trong Visual Studio.
+Hãy đảm bảo bạn đã cài đặt thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/) hoặc sử dụng NuGet Package Manager trong Visual Studio.
 ### Khung .NET
 Đảm bảo rằng bạn đã thiết lập .NET framework phù hợp trong dự án của mình. Aspose.Cells hỗ trợ nhiều phiên bản khác nhau; hãy kiểm tra tài liệu hướng dẫn của họ để biết khả năng tương thích.
 Với những điều kiện tiên quyết này, bạn đã sẵn sàng tạo tài liệu Excel đầu tiên có văn bản gạch chân!
@@ -45,7 +47,7 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
- Đoạn mã này kiểm tra xem thư mục được chỉ định có tồn tại không. Nếu không, nó sẽ tạo thư mục đó cho bạn. Thay thế`"Your Document Directory"` với con đường bạn mong muốn.
+Đoạn mã này kiểm tra xem thư mục được chỉ định có tồn tại không. Nếu không, nó sẽ tạo thư mục đó cho bạn. Thay thế `"Your Document Directory"` với con đường bạn mong muốn.
 ## Bước 2: Khởi tạo một đối tượng Workbook
 Tiếp theo, bạn sẽ muốn tạo một phiên bản mới của sổ làm việc, về cơ bản là tệp Excel của bạn. Sau đây là cách thực hiện:
 ```csharp
@@ -59,7 +61,7 @@ Khi bạn đã có sổ làm việc, bạn sẽ cần một bảng tính để l
 // Thêm một bảng tính mới vào đối tượng Excel
 int i = workbook.Worksheets.Add();
 ```
- Thao tác này sẽ thêm một bảng tính mới vào sổ làm việc của bạn và lưu trữ chỉ mục của bảng tính mới được thêm vào trong biến`i`.
+Thao tác này sẽ thêm một bảng tính mới vào sổ làm việc của bạn và lưu trữ chỉ mục của bảng tính mới được thêm vào trong biến `i`.
 ## Bước 4: Tham khảo Bảng tính mới
 Bây giờ, bạn cần tham chiếu đến worksheet bạn vừa thêm. Điều này cho phép bạn thao tác nó:
 ```csharp
@@ -80,7 +82,7 @@ Hãy đưa một số nội dung vào ô đó:
 // Thêm một số giá trị vào ô "A1"
 cell.PutValue("Hello Aspose!");
 ```
-Lúc này, “Hello Aspose!” hiện là nội dung của ô A1 của bạn. Đơn giản phải không?
+Lúc này, “Hello Aspose!” hiện là nội dung của ô A1 của bạn. Đơn giản, phải không?
 ## Bước 7: Lấy kiểu ô
 Để gạch chân văn bản, bạn sẽ cần truy cập vào thuộc tính kiểu của nó. Sau đây là cách bạn có thể lấy kiểu hiện tại của ô:
 ```csharp
@@ -121,10 +123,12 @@ Có! Aspose cung cấp bản dùng thử miễn phí và giấy phép tạm th�
 ### Aspose.Cells hỗ trợ những định dạng Excel nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau bao gồm XLS, XLSX, CSV và nhiều định dạng khác nữa.
 ### Tôi có thể tìm trợ giúp hoặc hỗ trợ cho Aspose.Cells ở đâu?
-Bạn có thể truy cập vào cộng đồng hỗ trợ và diễn đàn trên trang web Aspose.
+Bạn có thể truy cập vào diễn đàn và hỗ trợ cộng đồng trên trang web Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

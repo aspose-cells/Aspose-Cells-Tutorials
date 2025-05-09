@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 ## 您將學到什麼
 
 - 如何使用 Aspose.Cells for Java 執行安全性和保護操作
-- 逐步實現並附帶完整程式碼範例
+- 完整的程式碼範例逐步實現
 - 最佳實踐和優化技術
 - 安全與保護領域常見挑戰的解決方案
 
@@ -126,6 +128,9 @@ Aspose.Words Java 程式碼教程
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

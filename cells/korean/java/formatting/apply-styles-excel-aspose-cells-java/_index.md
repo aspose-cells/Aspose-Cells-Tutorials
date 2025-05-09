@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Aspose.Cells를 사용하려면 프로젝트에 통합해야 합니다. 방법�
    - 무료 체험판을 받으실 수 있습니다. [Aspose 다운로드](https://releases.aspose.com/cells/java/).
    - 장기 사용을 위해서는 라이센스 구매 또는 임시 라이센스 취득을 고려하세요. [임시 면허](https://purchase.aspose.com/temporary-license/).
 
-3. **기본 초기화**: 설치 후 인스턴스를 생성합니다. `Workbook` Excel 파일을 만들고 조작하기 시작합니다.
+3. **기본 초기화**설치 후 인스턴스를 생성합니다. `Workbook` Excel 파일을 만들고 조작하기 시작합니다.
 
 ## 구현 가이드
 
@@ -205,6 +207,9 @@ Aspose.Cells를 사용할 때 다음 팁을 고려하세요.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

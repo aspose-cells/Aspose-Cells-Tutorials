@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ worksheet.getOutline().setSummaryRowBelow(true);
 ```
 Thao tác này sẽ đặt hàng tổng phụ bên dưới mỗi nhóm.
 #### Bước 6: Lưu sổ làm việc của bạn
-Cuối cùng, hãy lưu sổ làm việc của bạn để phản ánh những thay đổi:
+Cuối cùng, hãy lưu bảng tính của bạn để phản ánh những thay đổi:
 ```java
 String outputDir = "path/to/output/directory/";
 workbook.save(outputDir + "ASubtotal_out.xlsx");
@@ -150,6 +152,9 @@ Hãy cân nhắc chia nhỏ các nhiệm vụ thành các hoạt động nhỏ h
 - **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

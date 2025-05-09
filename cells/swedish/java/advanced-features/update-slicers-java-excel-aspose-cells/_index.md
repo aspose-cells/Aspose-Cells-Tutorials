@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Att optimera prestanda är avgörande när man hanterar stora filer eller komple
 I den här guiden utforskade vi hur man uppdaterar utsnitt i Java Excel-filer med hjälp av Aspose.Cells. Du lärde dig hur du laddar och visar biblioteksversionen, manipulerar utsnitt programmatiskt och sparar ändringar tillbaka till din Excel-fil. Med dessa färdigheter kan du automatisera datafiltreringsprocesser, vilket förbättrar produktiviteten och noggrannheten i dataanalysuppgifter.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

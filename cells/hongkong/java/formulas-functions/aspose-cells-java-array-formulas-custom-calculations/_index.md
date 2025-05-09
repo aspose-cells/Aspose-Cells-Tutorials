@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,7 +227,7 @@ workbook.save(outDir + "output.pdf");
 4. **手動計算模式有什麼好處？**
    - 它透過防止不必要的重新計算來提高效能。
 5. **如何使用 Aspose.Cells 將工作簿儲存為 PDF？**
-   - 使用 `save` 方法，並採用適當的檔案副檔名（`.pdf`）。
+   - 使用 `save` 方法，並使用適當的檔案副檔名（`.pdf`）。
 
 ## 資源
 - [Aspose.Cells文檔](https://reference.aspose.com/cells/java/)
@@ -233,6 +235,9 @@ workbook.save(outDir + "output.pdf");
 - [購買許可證](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

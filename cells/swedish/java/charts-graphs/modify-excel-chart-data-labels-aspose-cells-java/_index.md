@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -181,7 +183,7 @@ Utforska ytterligare funktioner som tillhandahålls av Aspose.Cells, till exempe
 2. **Kan jag ändra diagram i Excel-filer utan att öppna dem?**
    - Ja, Aspose.Cells låter dig manipulera Excel-innehåll programmatiskt.
 
-3. **Vad händer om mina dataetiketter överskrider diagrammets storlek?**
+3. **Vad händer om mina dataetiketter överstiger diagrammets storlek?**
    - Justera formateringsalternativen för etiketter eller överväg alternativa visualiseringsmetoder.
 
 4. **Finns det stöd för andra filformat förutom XLS och XLSX?**
@@ -202,6 +204,9 @@ Utforska ytterligare funktioner som tillhandahålls av Aspose.Cells, till exempe
 Genom att använda Aspose.Cells för Java kan du automatisera och förbättra dina Excel-relaterade arbetsflöden med precision och enkelhet. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Acquisizione della licenza
 Per la piena funzionalità di Aspose.Cells è necessaria una licenza:
 - **Prova gratuita**: Scarica da [Rilasci di Aspose](https://releases.aspose.com/cells/java/) per testare con limitazioni.
-- **Licenza temporanea**Ottieni una licenza temporanea tramite [Pagina di acquisto Aspose](https://purchase.aspose.com/temporary-license/).
+- **Licenza temporanea**: Ottieni una licenza temporanea tramite [Pagina di acquisto Aspose](https://purchase.aspose.com/temporary-license/).
 - **Acquistare**: Per un accesso ininterrotto, acquista una licenza completa su [Acquisto Aspose](https://purchase.aspose.com/buy).
 
 ## Impostazione di Aspose.Cells per Java
@@ -198,7 +200,7 @@ public class CalculateWorkbookFormulas {
 
 ## Considerazioni sulle prestazioni
 - Utilizzare strutture dati efficienti durante l'elaborazione di set di dati di grandi dimensioni per ridurre al minimo l'utilizzo di memoria.
-- Ottimizza le assegnazioni delle formule limitando l'intervallo di celle su cui agiscono.
+- Ottimizza le assegnazioni delle formule limitando l'intervallo di celle su cui incidono.
 - Esegui regolarmente il profiling della tua applicazione per identificare e risolvere eventuali colli di bottiglia nelle prestazioni.
 
 ## Conclusione
@@ -206,6 +208,9 @@ In questo tutorial abbiamo illustrato come creare e modificare cartelle di lavor
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

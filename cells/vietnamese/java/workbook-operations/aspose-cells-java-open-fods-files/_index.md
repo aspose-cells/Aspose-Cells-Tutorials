@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ public class OpeningFODSFiles {
 - `LoadOptions` được khởi tạo với `LoadFormat.FODS`, thông báo cho Aspose.Cells rằng bạn đang làm việc với tệp FODS. Điều này đảm bảo xử lý đúng định dạng tệp.
 
 ### Bước 2: Tạo Workbook và Mở File
-Bây giờ, hãy tạo một `Workbook` đối tượng sử dụng các tùy chọn tải được chỉ định để mở tệp FODS của bạn.
+Bây giờ, tạo một `Workbook` đối tượng sử dụng các tùy chọn tải được chỉ định để mở tệp FODS của bạn.
 
 ```java
         // Tạo một đối tượng Workbook và mở tệp từ đường dẫn của nó
@@ -167,6 +169,9 @@ Sẵn sàng bắt đầu chưa? Hãy triển khai các bước này vào dự á
 - [Ủng hộ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

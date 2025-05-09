@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -216,6 +218,9 @@ A: Asposeは包括的な [サポートフォーラム](https://forum.aspose.com/
 - **ドキュメント:** 完全版を見る [Aspose.Cells ドキュメント](https://docs.aspose.com/cells/java/) より高度な機能についてはこちらをご覧ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

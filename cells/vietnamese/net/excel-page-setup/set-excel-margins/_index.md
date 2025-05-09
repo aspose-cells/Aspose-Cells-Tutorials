@@ -1,14 +1,16 @@
 ---
-title: Thiết lập lề Excel
-linktitle: Thiết lập lề Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thiết lập lề Excel dễ dàng bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển muốn cải thiện bố cục bảng tính của họ.
-weight: 110
-url: /vi/net/excel-page-setup/set-excel-margins/
+"description": "Tìm hiểu cách thiết lập lề Excel dễ dàng bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Hoàn hảo cho các nhà phát triển muốn cải thiện bố cục bảng tính của họ."
+"linktitle": "Thiết lập lề Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thiết lập lề Excel"
+"url": "/vi/net/excel-page-setup/set-excel-margins/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập lề Excel
@@ -22,9 +24,9 @@ Khi nói đến việc quản lý tài liệu Excel theo chương trình, Aspose
 Trước khi đi sâu vào cách thiết lập lề trong bảng tính Excel, bạn cần phải đáp ứng một số điều kiện tiên quyết sau:
 
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn hiểu và triển khai các đoạn mã một cách hiệu quả.
-2. Aspose.Cells cho Thư viện .NET: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể tải xuống từ [Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Thiết lập IDE: Đảm bảo bạn đã thiết lập môi trường phát triển. Các IDE như Visual Studio rất phù hợp cho phát triển C#.
-4.  Khóa cấp phép (Tùy chọn): Mặc dù bạn có thể sử dụng phiên bản dùng thử, nhưng có giấy phép tạm thời hoặc đầy đủ có thể giúp mở khóa tất cả các tính năng. Bạn có thể tìm hiểu thêm về cấp phép[đây](https://purchase.aspose.com/temporary-license/).
+4. Khóa cấp phép (Tùy chọn): Mặc dù bạn có thể sử dụng phiên bản dùng thử, nhưng có giấy phép tạm thời hoặc đầy đủ có thể giúp mở khóa tất cả các tính năng. Bạn có thể tìm hiểu thêm về cấp phép [đây](https://purchase.aspose.com/temporary-license/).
 
 Bây giờ chúng ta đã đáp ứng được các điều kiện tiên quyết, hãy cùng bắt tay ngay vào mã và xem cách chúng ta có thể thao tác lề Excel từng bước.
 
@@ -44,19 +46,19 @@ Bây giờ bạn đã có những dữ liệu cần thiết, chúng ta hãy chuy
 
 Bước đầu tiên là thiết lập đường dẫn nơi tài liệu của bạn sẽ được lưu. Điều này rất cần thiết để sắp xếp các tệp đầu ra của bạn. 
 
-Trong mã của bạn, hãy xác định một biến chuỗi biểu thị đường dẫn tệp mà bạn muốn lưu tệp Excel của mình. 
+Trong mã của bạn, hãy xác định một biến chuỗi biểu thị đường dẫn tệp mà bạn muốn lưu tệp Excel. 
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
+Hãy chắc chắn thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn.
 
 ## Bước 2: Tạo một đối tượng Workbook
 
 Tiếp theo, chúng ta cần tạo một đối tượng sổ làm việc mới. Đối tượng này hoạt động như một vùng chứa cho tất cả dữ liệu và bảng tính của bạn.
 
- Khởi tạo một cái mới`Workbook` đối tượng như sau:
+Khởi tạo một cái mới `Workbook` đối tượng như sau:
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -70,7 +72,7 @@ Sau khi thiết lập xong bảng tính, bước tiếp theo là truy cập vào
 
 ### Bước 3.1: Nhận Bộ sưu tập Phiếu bài tập
 
-Bạn có thể lấy lại bộ sưu tập các bảng tính từ sổ làm việc bằng cách sử dụng:
+Bạn có thể lấy lại bộ sưu tập các trang tính từ sổ làm việc bằng cách sử dụng:
 
 ```csharp
 WorksheetCollection worksheets = workbook.Worksheets;
@@ -88,9 +90,9 @@ Bây giờ, bạn đã sẵn sàng để sửa đổi bảng tính này!
 
 ## Bước 4: Truy cập vào Đối tượng Thiết lập Trang
 
- Để thay đổi lề, chúng ta cần làm việc với`PageSetup` đối tượng. Đối tượng này cung cấp các thuộc tính kiểm soát bố cục của trang, bao gồm cả lề.
+Để thay đổi lề, chúng ta cần làm việc với `PageSetup` đối tượng. Đối tượng này cung cấp các thuộc tính kiểm soát bố cục của trang, bao gồm cả lề.
 
-Nhận được`PageSetup` thuộc tính từ bảng tính:
+Nhận được `PageSetup` thuộc tính từ bảng tính:
 
 ```csharp
 PageSetup pageSetup = worksheet.PageSetup;
@@ -123,7 +125,7 @@ Bạn có thể lưu sổ làm việc của mình bằng phương pháp sau:
 workbook.Save(dataDir + "SetMargins_out.xls");
 ```
 
- Thay thế`"SetMargins_out.xls"` với tên tập tin đầu ra mong muốn của bạn. 
+Thay thế `"SetMargins_out.xls"` với tên tập tin đầu ra mong muốn của bạn. 
 
 ## Phần kết luận
 
@@ -138,16 +140,18 @@ Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, sửa
 Bạn có thể sử dụng phiên bản dùng thử miễn phí, nhưng để sử dụng lâu dài hoặc có các tính năng nâng cao, bạn sẽ cần giấy phép.
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể khám phá tài liệu Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu Aspose.Cells [đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể thiết lập lề cho những trang cụ thể không?
 Thật không may, cài đặt lề thường được áp dụng cho toàn bộ bảng tính thay vì từng trang riêng lẻ.
 
 ### Tôi có thể lưu tệp Excel của mình ở định dạng nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLS, XLSX, CSV và PDF.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

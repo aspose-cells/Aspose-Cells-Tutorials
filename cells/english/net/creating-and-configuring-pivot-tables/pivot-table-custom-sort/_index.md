@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/pivot-table-custom-sort/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Table Custom Sort Programmatically in .NET
@@ -138,6 +140,7 @@ The community is quite active, and you can ask questions on their forum [here](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

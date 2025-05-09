@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Worksheet sheet = sheets.get(0);
 ##### 3. Törölje az üres sorokat
 Használd a `deleteBlankRows()` Módszer az üres sorok eltávolítására a munkalapról:
 ```java
-// Az első munkalap összes üres sorának eltávolítása
+// Az összes üres sor eltávolítása az első munkalapról
 sheet.getCells().deleteBlankRows();
 ```
 ##### 4. Változtatások mentése
@@ -164,7 +166,7 @@ Kísérletezz más lehetőségekkel is, például a cellák formázásával vagy
    Az elsődleges korlátozás a teljesítmény; a nagyon nagy fájlok optimalizálási stratégiákat igényelhetnek.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
@@ -172,6 +174,9 @@ Kísérletezz más lehetőségekkel is, például a cellák formázásával vagy
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

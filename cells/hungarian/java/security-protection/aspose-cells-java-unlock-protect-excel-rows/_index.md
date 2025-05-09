@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ Megtanultad, hogyan oldhatod fel és védheted meg az Excel munkalap sorait az A
 1. válasz: Igen, a zárolt tulajdonságot az egyes cellastílusokra is beállíthatja, hasonlóan ahhoz, ahogyan azt a sorok esetében teszi.
 
 **2. kérdés: Milyen gyakori hibák fordulnak elő sorvédelem Aspose.Cells használatával történő alkalmazásakor?**
-A2: Gyakori problémák közé tartozik az érvényes jogosítvány hiánya vagy a jogosítvány helytelen használata. `StyleFlag` tárgyakat. Győződjön meg a helyes beállításokról, és tekintse meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) hibaelhárításhoz.
+A2: Gyakori problémák közé tartozik az érvényes jogosítvány hiánya vagy a jogosítvány helytelen használata. `StyleFlag` tárgyakat. Győződjön meg a helyes beállításokról, és tekintse meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) a hibaelhárításhoz.
 
 **3. kérdés: Hogyan alkalmazhatok különböző védelmi típusokat a munkalapomra?**
 A3: Használat `sheet.protect(ProtectionType.XXX)`, ahol `XXX` olyan opciók lehetnek, mint `CONTENTS`, `OBJECTS`, vagy `ALL`.
@@ -180,6 +182,9 @@ V5: Az ingyenes próbaverzió teljes hozzáférést biztosít, de vízjelet ad h
 - **Támogatás**Látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) bármilyen kérdés esetén.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

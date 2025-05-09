@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells Java: Menerapkan Penanda Cerdas & Rumus untuk Otomatisasi Excel
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin memanfaatkan kekuatan otomatisasi Excel dalam aplikasi Java Anda? Dengan Aspose.Cells untuk Java, Anda dapat dengan mudah mengintegrasikan fungsionalitas spreadsheet yang tangguh seperti smart marker dan formula ke dalam proyek Anda. Tutorial ini akan memandu Anda menampilkan versi Aspose.Cells untuk Java dan mengimplementasikan pembuatan buku kerja beserta pemrosesan smart marker menggunakan formula.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menampilkan versi Aspose.Cells saat ini untuk memastikan kompatibilitas.
 - Membuat buku kerja Excel secara terprogram dalam Java.
 - Memanfaatkan penanda pintar untuk mengotomatiskan penyisipan data dengan rumus.
@@ -25,20 +27,20 @@ Apakah Anda ingin memanfaatkan kekuatan otomatisasi Excel dalam aplikasi Java An
 
 Mari mulai menyiapkan lingkungan Anda dan memulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, pastikan Anda telah memenuhi prasyarat berikut:
 
-- **Perpustakaan dan Ketergantungan:** Anda akan memerlukan Aspose.Cells untuk Java. Pastikan Anda menggunakan versi yang kompatibel (misalnya, 25.3).
-- **Pengaturan Lingkungan:** Instal JDK di komputer Anda untuk menjalankan aplikasi Java.
-- **Prasyarat Pengetahuan:** Disarankan untuk memahami konsep dasar pemrograman Java.
+- **Könyvtárak és függőségek:** Anda akan memerlukan Aspose.Cells untuk Java. Pastikan Anda menggunakan versi yang kompatibel (misalnya, 25.3).
+- **Környezet beállítása:** Instal JDK di komputer Anda untuk menjalankan aplikasi Java.
+- **Előfeltételek a tudáshoz:** Disarankan untuk memahami konsep dasar pemrograman Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk memulai, Anda perlu menyertakan pustaka Aspose.Cells dalam proyek Anda. Berikut cara melakukannya:
 
 ### Pengaturan Maven
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,16 +50,16 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 ### Pengaturan Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
-Anda dapat memulai dengan mendapatkan uji coba gratis atau lisensi sementara dari Aspose untuk menguji fitur lengkap Aspose.Cells tanpa batasan. Kunjungi situs web mereka [pembelian](https://purchase.aspose.com/buy) halaman untuk rincian lebih lanjut.
+Anda dapat memulai dengan mendapatkan uji coba gratis atau lisensi sementara dari Aspose untuk menguji fitur lengkap Aspose.Cells tanpa batasan. Kunjungi situs web mereka [vásárlás](https://purchase.aspose.com/buy) halaman untuk rincian lebih lanjut.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Berikut cara menginisialisasi dan menyiapkan Aspose.Cells di aplikasi Java Anda:
 ```java
@@ -75,7 +77,7 @@ public class InitializeAsposeCells {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan implementasinya menjadi dua fitur utama: menampilkan versi dan bekerja dengan penanda pintar.
 
@@ -83,10 +85,10 @@ Mari kita uraikan implementasinya menjadi dua fitur utama: menampilkan versi dan
 
 Fitur ini membantu Anda memverifikasi instalasi dan kompatibilitas pengaturan Aspose.Cells Anda.
 
-#### Ringkasan
+#### Áttekintés
 Dengan mencetak versi Aspose.Cells, Anda dapat memastikan bahwa lingkungan Anda telah disiapkan dengan benar sebelum melanjutkan tugas yang lebih kompleks.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 
 **Langkah 1: Impor Paket yang Diperlukan**
 ```java
@@ -101,17 +103,17 @@ public class FeatureDisplayVersion {
     }
 }
 ```
-- **Parameternya:** Tidak ada.
+- **Paraméterek:** Tidak ada.
 - **Pengembalian:** Versi Aspose.Cells sebagai string.
 
 ### Fitur 2: Pembuatan Buku Kerja dan Pemrosesan Penanda Cerdas dengan Rumus
 
 Fitur ini memungkinkan Anda membuat buku kerja Excel secara dinamis, menggabungkan penanda pintar untuk mengotomatiskan penyisipan data menggunakan rumus.
 
-#### Ringkasan
+#### Áttekintés
 Penanda pintar dalam Aspose.Cells untuk Java memungkinkan integrasi data eksternal yang lancar ke dalam lembar kerja Anda, sehingga memudahkan penanganan tugas yang berulang.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 
 **Langkah 1: Tentukan Direktori Data**
 ```java
@@ -138,8 +140,8 @@ Cells cells = ws.getCells();
 Cell cell = cells.get("A1");
 cell.putValue("&=$Test(formula)");
 ```
-- **Parameternya:** Bidang penanda pintar `&=$Test(formula)` digunakan untuk menunjukkan di mana data harus dimasukkan.
-- **Konfigurasi Kunci:** Pastikan rumus Anda diformat dengan benar agar dapat diproses oleh Aspose.Cells.
+- **Paraméterek:** Bidang penanda pintar `&=$Test(formula)` digunakan untuk menunjukkan di mana data harus dimasukkan.
+- **Kulcskonfiguráció:** Pastikan rumus Anda diformat dengan benar agar dapat diproses oleh Aspose.Cells.
 
 **Langkah 4: Siapkan WorkbookDesigner dan Process Smart Markers**
 ```java
@@ -148,39 +150,39 @@ wd.setDataSource("Test", TestFormula);
 wd.process();
 ```
 
-**Langkah 5: Simpan Buku Kerja**
+**5. lépés: A munkafüzet mentése**
 ```java
 wb.save(outDir + "outputUsingFormulaParameterInSmartMarkerField.xlsx");
 ```
 - **Pengembalian:** Buku kerja yang diproses disimpan dalam format Excel.
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
 - Pastikan direktori data Anda ditentukan dengan benar.
 - Verifikasi bahwa sintaksis penanda pintar cocok dengan persyaratan Aspose.Cells.
 - Periksa kompatibilitas versi untuk menghindari kesalahan runtime.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java dapat diintegrasikan ke dalam berbagai aplikasi, seperti:
 
-1. **Pelaporan Keuangan:** Otomatisasi pembuatan laporan keuangan dengan penyisipan data dinamis menggunakan penanda dan rumus pintar.
-2. **Sistem Manajemen Inventaris:** Gunakan buku kerja Excel untuk melacak tingkat inventaris dan mengotomatiskan pembaruan.
-3. **Alat Analisis Data:** Tingkatkan peralatan analitis dengan mengintegrasikan fungsionalitas spreadsheet untuk pemrosesan data waktu nyata.
+1. **Pénzügyi jelentéstétel:** Otomatisasi pembuatan laporan keuangan dengan penyisipan data dinamis menggunakan penanda dan rumus pintar.
+2. **Készletgazdálkodási rendszerek:** Gunakan buku kerja Excel untuk melacak tingkat inventaris dan mengotomatiskan pembaruan.
+3. **Adatelemző eszközök:** Tingkatkan peralatan analitis dengan mengintegrasikan fungsionalitas spreadsheet untuk pemrosesan data waktu nyata.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk mengoptimalkan kinerja saat bekerja dengan Aspose.Cells:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 
 - Kelola penggunaan memori secara efisien, terutama saat menangani kumpulan data besar.
 - Memanfaatkan metode bawaan Aspose untuk menyederhanakan operasi buku kerja dan mengurangi waktu pemrosesan.
 - Ikuti praktik terbaik Java untuk manajemen sumber daya, seperti menggunakan coba-dengan-sumber-daya untuk operasi file.
 
-## Kesimpulan
+## Következtetés
 
 Dengan menerapkan fitur-fitur yang dibahas dalam tutorial ini, Anda telah membuka kemampuan Aspose.Cells for Java yang hebat. Kini Anda dapat mengotomatiskan tugas-tugas Excel dengan presisi dan efisiensi, memanfaatkan penanda dan rumus cerdas untuk menyederhanakan alur kerja Anda. Untuk terus menjelajahi, pertimbangkan untuk mempelajari lebih dalam fungsi-fungsi lanjutan seperti manipulasi bagan atau validasi data.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara menangani kumpulan data besar di Aspose.Cells?**
 - Gunakan praktik manajemen memori yang efisien dan optimalkan penggunaan rumus untuk kinerja yang lebih baik.
@@ -197,14 +199,17 @@ Dengan menerapkan fitur-fitur yang dibahas dalam tutorial ini, Anda telah membuk
 **Q5: Apakah ada dukungan untuk format spreadsheet lain selain Excel?**
 - Aspose.Cells mendukung berbagai format seperti CSV dan ODS. Periksa dokumentasi mereka untuk fitur khusus format.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** Jelajahi panduan terperinci di [Dokumentasi Sel Aspose](https://reference.aspose.com/cells/java/).
-- **Unduh:** Dapatkan versi terbaru dari [Rilis Aspose](https://releases.aspose.com/cells/java/).
-- **Pembelian:** Akses berbagai pilihan lisensi melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
-- **Uji Coba Gratis dan Lisensi Sementara:** Mulailah dengan uji coba gratis atau dapatkan lisensi sementara di [Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/) Dan [Lisensi Sementara](https://purchase.aspose.com/temporary-license).
+- **Dokumentáció:** Jelajahi panduan terperinci di [Aspose Cells dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés:** Dapatkan versi terbaru dari [Aspose kiadások](https://releases.aspose.com/cells/java/).
+- **Vásárlás:** Akses berbagai pilihan lisensi melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió és ideiglenes licenc:** Mulailah dengan uji coba gratis atau dapatkan lisensi sementara di [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/) és [Ideiglenes engedély](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

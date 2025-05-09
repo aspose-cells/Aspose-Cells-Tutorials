@@ -1,14 +1,16 @@
 ---
-title: เรนเดอร์ Add-in ของ Office ใน Excel เป็น PDF ด้วย Aspose.Cells
-linktitle: เรนเดอร์ Add-in ของ Office ใน Excel เป็น PDF ด้วย Aspose.Cells
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการแปลงไฟล์ Office add-in ใน Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการแปลงเอกสารอย่างมีประสิทธิภาพ
-weight: 10
-url: /th/net/error-handling-and-customization-in-aspose-cells/render-office-add-ins/
+"description": "เรียนรู้วิธีการแปลงไฟล์ Office add-in ใน Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ปฏิบัติตามบทช่วยสอนทีละขั้นตอนของเราเพื่อการแปลงเอกสารอย่างมีประสิทธิภาพ"
+"linktitle": "เรนเดอร์ Add-in ของ Office ใน Excel เป็น PDF ด้วย Aspose.Cells"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "เรนเดอร์ Add-in ของ Office ใน Excel เป็น PDF ด้วย Aspose.Cells"
+"url": "/th/net/error-handling-and-customization-in-aspose-cells/render-office-add-ins/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # เรนเดอร์ Add-in ของ Office ใน Excel เป็น PDF ด้วย Aspose.Cells
@@ -20,7 +22,7 @@ url: /th/net/error-handling-and-customization-in-aspose-cells/render-office-add-
 ### มีความคุ้นเคยกับ C# และ .NET
 การมีความเข้าใจอย่างถ่องแท้เกี่ยวกับ C# และ .NET framework จะเป็นประโยชน์อย่างยิ่ง ไม่ต้องกังวลหากคุณเพิ่งเริ่มต้น เพราะมีแหล่งข้อมูลมากมายที่จะช่วยให้คุณเรียนรู้ได้
 ### ติดตั้ง Aspose.Cells สำหรับ .NET แล้ว
- คุณต้องติดตั้ง Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก[หน้าวางจำหน่าย](https://releases.aspose.com/cells/net/). 
+คุณต้องติดตั้ง Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้อย่างง่ายดายจาก [หน้าวางจำหน่าย](https://releases-aspose.com/cells/net/). 
 ### วิชวลสตูดิโอ
 ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio ไว้สำหรับรันโค้ดของคุณแล้ว IDE นี้ใช้งานง่ายและจะช่วยให้คุณจัดการโปรเจ็กต์ของคุณได้อย่างมีประสิทธิภาพ
 ### ตัวอย่างไฟล์ Excel พร้อม Add-in ของ Office
@@ -43,14 +45,14 @@ string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
 string outputDir = "Your Document Directory";
 ```
- แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงของไฟล์ของคุณ วิธีนี้ช่วยให้แอปพลิเคชันของคุณทราบว่าจะดึงอินพุตจากที่ใดและส่งเอาต์พุตไปที่ใด
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงของไฟล์ของคุณ วิธีนี้ช่วยให้แอปพลิเคชันของคุณทราบว่าจะดึงอินพุตจากที่ใดและส่งเอาต์พุตไปที่ใด
 ## ขั้นตอนที่ 2: โหลดสมุดงาน Excel
- ตอนนี้เรามาโหลดไฟล์ Excel ตัวอย่างที่มี Add-in ของ Office กัน โดยทำโดยสร้างอินสแตนซ์ใหม่ของไฟล์`Workbook` คลาสจาก Aspose.Cells:
+ตอนนี้เรามาโหลดไฟล์ Excel ตัวอย่างที่มี Add-in ของ Office กัน โดยทำโดยสร้างอินสแตนซ์ใหม่ของไฟล์ `Workbook` คลาสจาก Aspose.Cells:
 ```csharp
 // โหลดไฟล์ตัวอย่าง Excel ที่มี Add-In ของ Office
 Workbook wb = new Workbook(sourceDir + "sampleRenderOfficeAdd-Ins.xlsx");
 ```
- ตรวจสอบให้แน่ใจว่าไฟล์ Excel ของคุณมีชื่อ`sampleRenderOfficeAdd-Ins.xlsx` และวางไว้ในไดเร็กทอรีแหล่งที่มาที่คุณกำหนด การโหลดเวิร์กบุ๊กก็เหมือนกับการเปิดหนังสือจริง ตอนนี้คุณสามารถดูเนื้อหาทั้งหมดได้แล้ว!
+ตรวจสอบให้แน่ใจว่าไฟล์ Excel ของคุณมีชื่อ `sampleRenderOfficeAdd-Ins.xlsx` และวางไว้ในไดเร็กทอรีแหล่งที่มาที่คุณกำหนด การโหลดเวิร์กบุ๊กก็เหมือนกับการเปิดหนังสือจริง ตอนนี้คุณสามารถดูเนื้อหาทั้งหมดได้แล้ว!
 ## ขั้นตอนที่ 3: บันทึกสมุดงานเป็น PDF
 เมื่อโหลดเวิร์กบุ๊กเสร็จแล้ว ก็ถึงเวลาบันทึกเป็นไฟล์ PDF คุณสามารถทำได้ดังนี้:
 ```csharp
@@ -73,14 +75,16 @@ Console.WriteLine("RenderOfficeAdd_InsWhileConvertingExcelToPdf executed success
 ### Aspose.Cells สามารถแปลงรูปแบบไฟล์อื่นได้หรือไม่
 แน่นอน! Aspose.Cells รองรับหลายรูปแบบ รวมถึง XLSX, XLS, CSV และอื่นๆ อีกมากมาย
 ### ฉันต้องมีใบอนุญาตเพื่อใช้ Aspose.Cells หรือไม่?
-แม้ว่าคุณจะใช้เวอร์ชันทดลองใช้ได้ แต่คุณยังสามารถขอรับใบอนุญาตชั่วคราวเพื่อใช้งานต่อได้ ดูรายละเอียดเพิ่มเติมได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+แม้ว่าคุณจะใช้เวอร์ชันทดลองใช้ได้ แต่คุณยังสามารถขอรับใบอนุญาตชั่วคราวเพื่อใช้งานต่อได้ ดูรายละเอียดเพิ่มเติมได้ [ที่นี่](https://purchase-aspose.com/temporary-license/).
 ### ฉันจะตรวจสอบได้อย่างไรว่า Aspose.Cells ได้รับการติดตั้งอย่างถูกต้องหรือไม่?
- ตรวจสอบว่าคุณสามารถนำเข้าเนมสเปซ Aspose.Cells ได้โดยไม่มีข้อผิดพลาดหรือไม่ นอกจากนี้ คุณยังสามารถดู[เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับรายละเอียดเพิ่มเติม
+ตรวจสอบว่าคุณสามารถนำเข้าเนมสเปซ Aspose.Cells ได้โดยไม่มีข้อผิดพลาดหรือไม่ นอกจากนี้ คุณยังสามารถดู [เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับรายละเอียดเพิ่มเติม
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Cells ได้ที่ไหน
- คุณสามารถรับความช่วยเหลือจากชุมชน Aspose และฟอรัมสนับสนุนได้ที่[ที่นี่](https://forum.aspose.com/c/cells/9).
+คุณสามารถรับความช่วยเหลือจากชุมชน Aspose และฟอรัมสนับสนุนที่ตั้งอยู่ [ที่นี่](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

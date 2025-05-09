@@ -1,14 +1,16 @@
 ---
-title: Excel'de OLE Nesne Etiketine Erişim
-linktitle: Excel'de OLE Nesne Etiketine Erişim
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de OLE Nesne etiketlerine nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. Kod örnekleri içeren basit kılavuz.
-weight: 10
-url: /tr/net/excel-shape-label-access/access-ole-object-label-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel'de OLE Nesne etiketlerine nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. Kod örnekleri içeren basit kılavuz."
+"linktitle": "Excel'de OLE Nesne Etiketine Erişim"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de OLE Nesne Etiketine Erişim"
+"url": "/tr/net/excel-shape-label-access/access-ole-object-label-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de OLE Nesne Etiketine Erişim
@@ -20,8 +22,8 @@ Excel'de daha önce hiç denemediyseniz, ne kadar güçlü ve karmaşık olabile
 Aspose.Cells for .NET'in aksiyon dolu dünyasına dalmadan önce, araç setinizde bulunması gerekenler şunlardır:
 1. Visual Studio Kurulu: Bu, C# uygulamanızı kodlayacağınız ve test edeceğiniz oyun alanınız olacak.
 2. .NET Framework: En azından .NET Framework 4.0 veya üzeri ile çalıştığınızdan emin olun. Bu, programımızın sorunsuz çalışması için gerekli temeli sağlayacaktır.
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin bir kopyasına ihtiyacınız olacak. Bunu şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/) . Satın almadan önce denemek istiyorsanız, şuraya göz atın:[ücretsiz deneme](https://releases.aspose.com/).
-4. C# Temel Anlayışı: C#'a aşina olmak, kodu kolayca anlamanıza yardımcı olacaktır.
+3. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin bir kopyasına ihtiyacınız olacak. Bunu şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/). Satın almadan önce denemek istiyorsanız, şuraya göz atın: [ücretsiz deneme](https://releases.aspose.com/).
+4. C# Temel Anlayışı: C#'a aşinalık, kodu kolayca anlamanıza yardımcı olacaktır.
 Bunları aradan çıkardığımıza göre, OLE nesnelerindeki etiketlere erişmenin ve onları değiştirmenin inceliklerine dalalım!
 ## Paketleri İçe Aktar 
 Başlamak için gerekli paketleri projemize aktarmamız gerekiyor. Bu, ihtiyacımız olan tüm fonksiyonlara ve sınıflara erişim sağlayarak hayatımızı kolaylaştıracaktır. İşte nasıl:
@@ -33,7 +35,7 @@ Başlamak için gerekli paketleri projemize aktarmamız gerekiyor. Bu, ihtiyacı
 - "NuGet Paketlerini Yönet" seçeneğini seçin.
 - "Aspose.Cells"i arayın ve kütüphaneyi yükleyin.
 ### Ad Alanlarını İçe Aktar
- Program dosyanızın en üstünde (örneğin,`Program.cs`), gerekli ad alanlarını içe aktarmanız gerekir:
+Program dosyanızın en üstünde (örneğin, `Program.cs`), gerekli ad alanlarını içe aktarmanız gerekir:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -44,7 +46,7 @@ using System.IO;
 Bu ad alanları Excel işlemlerimiz için ihtiyaç duyduğumuz sınıflara ve metotlara erişmemize yardımcı olacak.
 Artık her şey yerli yerinde olduğuna göre, bir Excel dosyasına gömülü bir OLE nesnesinin etiketine erişip onu değiştirelim. Aşağıdaki adım adım kılavuzu izleyin:
 ## Adım 1: Kaynak Dizini Ayarlayın
- Öncelikle Excel belgenizin bulunduğu dizini tanımlıyoruz. Değiştir`"Your Document Directory"` gerçek belge yolunuzla.
+İlk olarak Excel belgenizin bulunduğu dizini tanımlıyoruz. Değiştir `"Your Document Directory"` gerçek belge yolunuzla.
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
@@ -53,13 +55,13 @@ Daha sonra OLE nesnemizi içeren .xlsx Excel dosyasını yükleyeceğiz:
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
 ```
- Bu satır bir`Workbook` Excel dosyasının tüm çalışma sayfalarına ve bileşenlerine erişmemizi sağlayan nesne.
+Bu satır bir `Workbook` Excel dosyasının tüm çalışma sayfalarına ve bileşenlerine erişmemizi sağlayan nesne.
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 Şimdi çalışma kitabımızdaki ilk çalışma sayfasına erişelim:
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
- Burada,`Worksheets[0]` koleksiyonun ilk çalışma sayfasıdır.
+Burada, `Worksheets[0]` koleksiyonun ilk çalışma sayfasıdır.
 ## Adım 4: İlk OLE Nesnesine Erişim 
 Daha sonra ilk OLE nesnesini alacağız:
 ```csharp
@@ -100,7 +102,7 @@ Daha önce olduğu gibi, ilk çalışma sayfasına tekrar erişmemiz gerekiyor:
 ```csharp
 ws = wb.Worksheets[0];
 ```
-## Adım 11: İlk OLE Nesnesine Tekrar Erişim
+## Adım 11: İlk OLE Nesnesine Tekrar Erişin
 Şimdi son kontrol için OLE nesnesini tekrar alalım:
 ```csharp
 oleObject = ws.OleObjects[0];
@@ -124,14 +126,16 @@ OLE Nesneleri, diğer Microsoft Office uygulamalarındaki belgeleri bir Excel el
 ### Aspose.Cells diğer dosya formatlarıyla çalışabilir mi?  
 Evet! Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?  
- Evet! Deneyebilirsin[Burada](https://releases.aspose.com/).
+Evet! Deneyebilirsin [Burada](https://releases.aspose.com/).
 ### Bir çalışma sayfasında birden fazla OLE nesnesine erişebilir miyim?  
-Kesinlikle! Döngüye girebilirsin`ws.OleObjects` Bir çalışma sayfasındaki tüm gömülü OLE nesnelerine erişmek için.
+Kesinlikle! Döngüye girebilirsin `ws.OleObjects` Bir çalışma sayfasındaki tüm gömülü OLE nesnelerine erişmek için.
 ### Aspose.Cells için lisans nasıl satın alabilirim?  
- Lisansı doğrudan şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/buy).
+Lisansı doğrudan şu adresten satın alabilirsiniz: [Burada](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

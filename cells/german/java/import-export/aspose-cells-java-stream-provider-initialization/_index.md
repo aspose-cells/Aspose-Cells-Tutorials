@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Schritte zum Lizenzerwerb
 - **Kostenlose Testversion**: Beginnen Sie mit einer kostenlosen Testlizenz, um Aspose.Cells zu testen.
-- **Temporäre Lizenz**: Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
+- **Temporäre Lizenz**Erhalten Sie eine temporäre Lizenz zur erweiterten Evaluierung.
 - **Kaufen**: Erwerben Sie für die Produktion ein Abonnement.
 
 ### Grundlegende Initialisierung und Einrichtung
@@ -181,6 +183,9 @@ Mit dieser Anleitung sind Sie auf dem besten Weg, Aspose.Cells für Java zu behe
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ Experimente con otras funciones de Aspose.Cells para automatizar y optimizar aú
 ## Sección de preguntas frecuentes
 1. **¿Cómo configuro la altura de cada fila?**
    - Usar `getCells().setRowHeight(row, height)` método donde `row` es el índice y `height` en puntos.
-2. **¿Puedo ajustar el ancho de las columnas de manera similar?**
+2. **¿Puedo ajustar los anchos de las columnas de manera similar?**
    - Sí, usar `setColumnWidth(columnIndex, widthInPoints)` para columnas.
 3. **¿Qué pasa si mi versión de Aspose.Cells no está actualizada?**
    - Actualice sus dependencias a la última versión estable para acceder a nuevas funciones y correcciones de errores.
@@ -160,6 +162,9 @@ Experimente con otras funciones de Aspose.Cells para automatizar y optimizar aú
 - **Apoyo**: [Foro de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

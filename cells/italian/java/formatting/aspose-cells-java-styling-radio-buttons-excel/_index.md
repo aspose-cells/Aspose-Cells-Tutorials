@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Spiegazione:
-- **`Workbook`**: Rappresenta un file Excel.
+- **`Workbook`**Rappresenta un file Excel.
 - **`Worksheet`**: Si riferisce a un foglio nella cartella di lavoro.
 - **`Cells`**: Un insieme di celle nel foglio di lavoro.
 - **`Style`**: Utilizzato per formattare le celle.
@@ -200,6 +202,9 @@ In questo tutorial, abbiamo esplorato come creare e formattare un foglio di lavo
 - **Documentazione**: Guide complete e riferimenti API possono essere trovati su [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

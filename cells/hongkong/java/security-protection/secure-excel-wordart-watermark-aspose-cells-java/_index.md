@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ wordart.setLockedProperty(ShapeLockType.MOVE, true);
 wordart.setLockedProperty(ShapeLockType.RESIZE, true);
 wordart.setLockedProperty(ShapeLockType.TEXT, true);
 ```
-這些線條確保水印不會被輕易更改或刪除。
+這些線條確保水印不會輕易被更改或刪除。
 
 ### 儲存您的安全性 Excel 文件
 最後，使用安全浮水印儲存您的文件：
@@ -186,6 +188,9 @@ workbook.save("LkWordArtWatermark_out.xls");
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

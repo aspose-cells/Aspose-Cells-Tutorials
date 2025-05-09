@@ -1,37 +1,39 @@
 ---
-title: すでに署名された Excel ファイルにデジタル署名を追加する
-linktitle: すでに署名された Excel ファイルにデジタル署名を追加する
-second_title: Aspose.Cells for .NET API リファレンス
-description: この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、既に署名されている Excel ファイルにデジタル署名を追加する方法を学習します。
-weight: 30
-url: /ja/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "この詳細なステップバイステップ ガイドでは、Aspose.Cells for .NET を使用して、既に署名されている Excel ファイルにデジタル署名を追加する方法を学習します。"
+"linktitle": "すでに署名された Excel ファイルにデジタル署名を追加する"
+"second_title": "Aspose.Cells for .NET API リファレンス"
+"title": "すでに署名された Excel ファイルにデジタル署名を追加する"
+"url": "/ja/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # すでに署名された Excel ファイルにデジタル署名を追加する
 
 ## 導入
 
-今日のデジタル世界では、ドキュメントのセキュリティ保護がこれまで以上に重要になっています。デジタル署名は、特に機密情報を扱う場合に、ファイルの信頼性と整合性を保証する手段となります。Excel ファイルで作業していて、既に署名されているワークブックに新しいデジタル署名を追加したい場合は、ここが最適な場所です。このガイドでは、Aspose.Cells for .NET を使用して、既に署名されている Excel ファイルにデジタル署名を追加する手順を説明します。それでは、始めましょう。
+今日のデジタル世界において、ドキュメントのセキュリティ保護はこれまで以上に重要になっています。デジタル署名は、特に機密情報を扱う際に、ファイルの真正性と整合性を保証する手段となります。Excelファイルを扱っていて、既に署名済みのワークブックに新しいデジタル署名を追加したいとお考えなら、まさにうってつけです！このガイドでは、Aspose.Cells for .NETを使用して、既に署名済みのExcelファイルにデジタル署名を追加する手順を詳しく説明します。それでは、早速始めましょう！
 
 ## 前提条件
 
-コーディングの細部に入る前に、準備しておくべきことがいくつかあります。
+コーディングの細部に入る前に、準備しておく必要のあるものがいくつかあります。
 
-1.  Aspose.Cells for .NET: .NETプロジェクトにAspose.Cellsライブラリがインストールされていることを確認してください。[サイト](https://releases.aspose.com/cells/net/).
-2. 証明書ファイル: 有効な証明書ファイル（通常は`.pfx`デジタル証明書を含むファイルです。このファイルのパスワードを必ず確認してください。
-3. 開発環境: Visual Studio または .NET をサポートするその他の IDE を使用して開発環境を設定します。
+1. Aspose.Cells for .NET: .NETプロジェクトにAspose.Cellsライブラリがインストールされていることを確認してください。ダウンロードは以下から行えます。 [サイト](https://releases。aspose.com/cells/net/).
+2. 証明書ファイル: 有効な証明書ファイル（通常は `.pfx` デジタル証明書を含むファイル（.dtc）が作成されます。このファイルのパスワードを必ず確認してください。
+3. 開発環境: Visual Studio または .NET をサポートするその他の IDE を使用して開発環境をセットアップします。
 4. C# の基礎知識: C# プログラミングに精通していると、スムーズに理解できるようになります。
-5. サンプル ファイル: すでにデジタル署名されているサンプル Excel ファイルを用意します。これが新しい署名を追加するファイルになります。
+5. サンプルファイル：既にデジタル署名されているサンプルのExcelファイルを用意してください。このファイルに新しい署名を追加します。
 
 準備が整ったので、コーディングを始めましょう。
 
 ## パッケージのインポート
 
-まず、C# ファイルに必要なパッケージをインポートする必要があります。手順は次のとおりです。
+まず、C#ファイルに必要なパッケージをインポートする必要があります。手順は以下のとおりです。
 
 ```csharp
 using System;
@@ -44,34 +46,34 @@ using System.Text;
 
 ## ステップ1: ソースディレクトリと出力ディレクトリを設定する
 
-Excel ファイルを操作する前に、ソース ファイルの場所と出力ファイルを保存する場所を定義する必要があります。手順は次のとおりです。
+Excelファイルを操作するには、まずソースファイルの保存場所と出力ファイルの保存場所を定義する必要があります。手順は以下のとおりです。
 
 ```csharp
-//ソースディレクトリ
+// ソースディレクトリ
 string sourceDir = "Your Document Directory";
-//出力ディレクトリ
+// 出力ディレクトリ
 string outputDir = "Your Document Directory";
 ```
 
-この手順では、ソース ディレクトリと出力ディレクトリのパスを取得するメソッドを使用します。これらのディレクトリが存在し、必要なファイルが含まれていることを確認します。
+このステップでは、ソースディレクトリと出力ディレクトリのパスを取得するメソッドを使用します。これらのディレクトリが存在し、必要なファイルが含まれていることを確認してください。
 
 ## ステップ2: すでに署名されたワークブックを読み込む
 
-次に、変更したいExcelブックを読み込む必要があります。これは、`Workbook`クラスを作成し、署名されたファイルのパスを渡します。
+次に、変更したいExcelブックを読み込む必要があります。これは、 `Workbook` クラスを作成し、署名されたファイルのパスを渡します。
 
 ```csharp
-//すでにデジタル署名されているワークブックをロードします
+// すでにデジタル署名されているワークブックをロードします
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
-ここでは、次のワークブックを読み込んでいます。`sampleDigitallySignedByCells.xlsx`このファイルがすでに署名されていることを確認してください。
+ここでは、次のワークブックを読み込んでいます。 `sampleDigitallySignedByCells.xlsx`このファイルがすでに署名されていることを確認してください。
 
 ## ステップ3: デジタル署名コレクションを作成する
 
-次に、デジタル署名コレクションを作成しましょう。このコレクションには、ワークブックに追加するすべてのデジタル署名が保存されます。
+それでは、デジタル署名コレクションを作成しましょう。このコレクションには、ワークブックに追加したいすべてのデジタル署名が格納されます。
 
 ```csharp
-//デジタル署名コレクションを作成する
+// デジタル署名コレクションを作成する
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
@@ -79,56 +81,56 @@ Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Asp
 
 ## ステップ4: 新しい証明書を作成する
 
-新しいデジタル署名を作成するには、証明書ファイルを読み込む必要があります。ここで証明書へのパスを指定します。`.pfx`ファイルとそのパスワード。
+新しいデジタル署名を作成するには、証明書ファイルを読み込む必要があります。ここで証明書ファイルへのパスを指定します。 `.pfx` ファイルとそのパスワード。
 
 ```csharp
-//証明書ファイルとそのパスワード
+// 証明書ファイルとそのパスワード
 string certFileName = sourceDir + "AsposeDemo.pfx";
 string password = "aspose";
 
-//新しい証明書を作成する
+// 新しい証明書を作成する
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
-必ず交換してください`AsposeDemo.pfx`実際の証明書ファイル名とパスワードを入力します。
+必ず交換してください `AsposeDemo.pfx` 実際の証明書ファイル名とパスワードを入力します。
 
-## ステップ5: デジタル署名を作成する
+## ステップ5：デジタル署名を作成する
 
-証明書を入手したら、デジタル署名を作成できます。署名の理由と現在の日時も入力する必要があります。
+証明書を入手したら、デジタル署名を作成できます。署名の理由と現在の日時も入力してください。
 
 ```csharp
-//新しいデジタル署名を作成し、デジタル署名コレクションに追加します
+// 新しいデジタル署名を作成し、デジタル署名コレクションに追加します
 Aspose.Cells.DigitalSignatures.DigitalSignature signature = new Aspose.Cells.DigitalSignatures.DigitalSignature(certificate, "Aspose.Cells added new digital signature in existing digitally signed workbook.", DateTime.Now);
 ```
 
-この手順により、コレクションに新しい署名が追加され、後でワークブックに適用します。
+この手順により、新しい署名がコレクションに追加され、後でワークブックに適用されます。
 
-## ステップ 6: デジタル署名コレクションをワークブックに追加する
+## ステップ6: デジタル署名コレクションをワークブックに追加する
 
-ここで、デジタル署名コレクションをワークブックに追加します。ここで魔法が起こります。
+いよいよ、デジタル署名コレクションをワークブックに追加します。ここで魔法が起こります！
 
 ```csharp
-//ワークブック内にデジタル署名コレクションを追加する
+// ワークブック内にデジタル署名コレクションを追加する
 workbook.AddDigitalSignature(dsCollection);
 ```
 
 この行を実行すると、既に署名されているワークブックに新しいデジタル署名が効果的に添付されます。
 
-## ステップ 7: ワークブックを保存して破棄する
+## ステップ7: ワークブックを保存して破棄する
 
 最後に、変更したワークブックを出力ディレクトリに保存し、使用されているリソースを解放します。
 
 ```csharp
-//ワークブックを保存して破棄します。
+// ワークブックを保存して破棄します。
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
 
 この手順により、変更が保存され、ワークブックが適切に破棄されてリソースが解放されます。
 
-## ステップ8: 実行を確認する
+## ステップ8: 実行の確認
 
-最後に、コードが正常に実行されたことを確認することをお勧めします。これは、簡単なコンソール メッセージで行うことができます。
+最後に、コードが正常に実行されたことを確認することをお勧めします。これは、簡単なコンソールメッセージで確認できます。
 
 ```csharp
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
@@ -138,7 +140,7 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 
 ## 結論
 
-これで完了です。Aspose.Cells for .NET を使用して、既に署名されている Excel ファイルに新しいデジタル署名を正常に追加できました。デジタル署名は、ドキュメントの信頼性を保証する強力な手段であり、プログラムで管理する方法がわかりました。財務ドキュメント、契約書、その他の機密情報を扱う場合でも、デジタル署名を実装すると、セキュリティと信頼性を強化できます。
+これで完了です！Aspose.Cells for .NET を使用して、既に署名済みの Excel ファイルに新しいデジタル署名を追加できました。デジタル署名は文書の真正性を保証する強力な手段であり、プログラムで管理する方法も習得できました。財務文書、契約書、その他の機密情報を扱う場合でも、デジタル署名を実装することでセキュリティと信頼性を強化できます。
 
 ## よくある質問
 
@@ -149,16 +151,18 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 はい、デジタル署名コレクションを作成し、同じブックに複数の署名を追加できます。
 
 ### Aspose.Cells はデジタル署名にどのような形式をサポートしていますか?
- Aspose.Cellsは、以下のさまざまな形式をサポートしています。`.pfx`証明書用。
+Aspose.Cellsは、次のようなさまざまな形式をサポートしています。 `.pfx` 証明書用。
 
 ### Aspose.Cells を使用するには、特定のバージョンの .NET が必要ですか?
-チェックしてください[Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/) .NET バージョンとの互換性のためです。
+チェックしてください [Aspose.Cells ドキュメント](https://reference.aspose.com/cells/net/) .NET バージョンとの互換性のためです。
 
 ### Aspose.Cells の一時ライセンスを取得するにはどうすればよいですか?
-一時ライセンスを申請するには[Asposeの購入ページ](https://purchase.aspose.com/temporary-license/).
+一時ライセンスの申請は [Asposeの購入ページ](https://purchase。aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

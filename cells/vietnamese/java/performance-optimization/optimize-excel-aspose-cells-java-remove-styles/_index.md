@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,11 +189,14 @@ A5: Ghé thăm [Tài liệu chính thức của Aspose](https://reference.aspose
 - **Tài liệu**: Khám phá các tham chiếu API chi tiết tại [Tài liệu Aspose](https://reference.aspose.com/cells/java/).
 - **Tải về**: Nhận phiên bản mới nhất từ [Aspose phát hành](https://releases.aspose.com/cells/java/).
 - **Mua**: Bảo vệ giấy phép của bạn thông qua [Mua Aspose](https://purchase.aspose.com/buy).
-- **Dùng thử miễn phí**: Kiểm tra các tính năng với bản dùng thử miễn phí tại [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/).
+- **Dùng thử miễn phí**Kiểm tra các tính năng với bản dùng thử miễn phí tại [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/).
 - **Giấy phép tạm thời**: Nộp đơn xin cấp giấy phép tạm thời cho họ [trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 - **Ủng hộ**Tham gia diễn đàn cộng đồng để được hỗ trợ tại [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

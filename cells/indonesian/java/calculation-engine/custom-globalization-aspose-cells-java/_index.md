@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menerapkan Globalisasi Kustom di Java dengan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
 Membuat aplikasi yang melayani khalayak global memerlukan penanganan berbagai bahasa dan pengaturan regional. Tutorial ini membahas kebutuhan penting untuk menyesuaikan pesan kesalahan dan nilai boolean untuk berbagai bahasa, dengan fokus pada lokalisasi Rusia, menggunakan Aspose.Cells untuk Java.
 
@@ -24,12 +26,12 @@ Di sini, Anda akan menemukan cara menggunakan pustaka Aspose.Cells untuk menerap
 
 Siap untuk memulai? Mari kita bahas prasyarat yang diperlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk menerapkan globalisasi khusus dengan Aspose.Cells di Java, pastikan Anda memiliki:
 - **Lingkungan Pengembangan Java**: JDK 8 atau yang lebih baru terinstal di komputer Anda.
 - **Lingkungan Pengembangan Terpadu (IDE)**: Alat seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Anda.
-- **Pustaka Aspose.Cells**: Versi 25.3, tersedia melalui Maven atau Gradle.
+- **Aspose.Cells könyvtár**: Versi 25.3, tersedia melalui Maven atau Gradle.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
@@ -49,12 +51,12 @@ Untuk menggunakan Aspose.Cells di proyek Anda, sertakan dependensi berikut:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose menawarkan beberapa opsi lisensi:
-- **Uji Coba Gratis**: Unduh uji coba untuk menjelajahi fitur.
-- **Lisensi Sementara**:Dapatkan pengujian ekstensif tanpa batasan.
-- **Pembelian**: Dapatkan lisensi penuh untuk penggunaan komersial.
+- **Ingyenes próbaverzió**: Unduh uji coba untuk menjelajahi fitur.
+- **Ideiglenes engedély**:Dapatkan pengujian ekstensif tanpa batasan.
+- **Vásárlás**: Dapatkan lisensi penuh untuk penggunaan komersial.
 
 Setelah pengaturan Anda selesai, inisialisasi Aspose.Cells di proyek Anda. Berikut contoh untuk memulai:
 ```java
@@ -70,13 +72,13 @@ public class InitializeAspose {
             System.out.println("Error setting license: " + e.getMessage());
         }
 
-        // Buat contoh buku kerja baru
+        // Új munkafüzet-példány létrehozása
         Workbook workbook = new Workbook();
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Globalisasi Rusia
 
@@ -103,7 +105,7 @@ class RussianGlobalization extends GlobalizationSettings {
 }
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - **`getErrorValueString(String err)`**: Menyesuaikan pesan kesalahan tertentu berdasarkan masukan.
 - **`getBooleanValueString(Boolean bv)`**: Menyediakan representasi khusus untuk nilai boolean.
 
@@ -126,26 +128,26 @@ public void Run() throws Exception {
 }
 ```
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
-- **Laporan Keuangan**: Menyesuaikan nilai kesalahan dan boolean untuk laporan keuangan multibahasa.
+- **Pénzügyi jelentések**: Menyesuaikan nilai kesalahan dan boolean untuk laporan keuangan multibahasa.
 - **Alat Perangkat Lunak Lokal**: Terapkan pengaturan khusus bahasa pada perangkat lunak yang digunakan secara global.
 - **Pemrosesan Data Otomatis**: Meningkatkan aplikasi pemrosesan data dengan globalisasi yang disesuaikan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells:
+Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
 - Minimalkan penggunaan memori dengan melepaskan sumber daya setelah operasi buku kerja.
 - Gunakan perhitungan rumus yang efisien untuk mengurangi waktu pemrosesan.
 - Ikuti praktik terbaik manajemen memori Java, seperti menyetel JVM untuk beban kerja yang lebih besar.
 
-## Kesimpulan
+## Következtetés
 
 Sekarang, Anda seharusnya sudah memiliki pemahaman yang kuat tentang cara menerapkan pengaturan globalisasi kustom di Java menggunakan Aspose.Cells. Kemampuan ini menyempurnakan fitur internasionalisasi aplikasi Anda, membuatnya lebih fleksibel dan mudah digunakan di berbagai wilayah.
 
 Sebagai langkah selanjutnya, pertimbangkan untuk menjelajahi opsi lokalisasi tambahan yang ditawarkan oleh Aspose atau bereksperimen dengan pengaturan bahasa lain di luar bahasa Rusia.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Bagaimana cara menerapkan globalisasi khusus ke bahasa lain?**
 A1: Memperpanjang `GlobalizationSettings` dan mengganti metode untuk pesan kesalahan dan nilai boolean bahasa target Anda.
@@ -162,18 +164,21 @@ A4: Optimalkan penggunaan memori dengan melepaskan sumber daya segera dan menggu
 **Q5: Apakah mungkin untuk mengintegrasikan Aspose.Cells dengan sistem lain?**
 A5: Ya, Aspose.Cells mendukung integrasi dengan berbagai sistem perusahaan melalui API yang tangguh.
 
-## Sumber daya
-- **Dokumentasi**:Jelajahi panduan terperinci di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**:Akses rilis terbaru di [Unduhan Aspose](https://releases.aspose.com/cells/java/)
-- **Pembelian**: Beli lisensi untuk penggunaan komersial di [Aspose Pembelian](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: Mulailah dengan uji coba gratis dari [Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**Dapatkan lisensi sementara melalui [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**:Dapatkan bantuan dari komunitas di [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**Részletes útmutatók itt: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**:Akses rilis terbaru di [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: Beli lisensi untuk penggunaan komersial di [Aspose vásárlás](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: Mulailah dengan uji coba gratis dari [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**:Dapatkan bantuan dari komunitas di [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan ini, Anda sudah berada di jalur yang tepat untuk menerapkan fitur globalisasi yang canggih dalam aplikasi Java menggunakan Aspose.Cells. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

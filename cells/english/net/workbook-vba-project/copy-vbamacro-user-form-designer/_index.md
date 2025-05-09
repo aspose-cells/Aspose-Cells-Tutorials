@@ -8,7 +8,9 @@ url: /net/workbook-vba-project/copy-vbamacro-user-form-designer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy VBAMacro User Form Designer Storage to Workbook using Aspose.Cells
@@ -138,6 +140,7 @@ You should visit the [Aspose Support Forum](https://forum.aspose.com/c/cells/9) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

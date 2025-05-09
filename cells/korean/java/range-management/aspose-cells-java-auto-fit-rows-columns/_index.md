@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ workbook.save(outDir + "AutoFitRowsandColumns_out.xls");
 
 ## 실제 응용 프로그램
 
-다음과 같은 시나리오에서는 행과 열을 자동으로 맞추는 방법을 이해하는 것이 매우 중요합니다.
+다음과 같은 상황에서는 행과 열을 자동으로 맞추는 방법을 이해하는 것이 매우 중요합니다.
 - **재무 보고**: 수동 조정 없이 데이터 가시성을 보장합니다.
 - **데이터 분석**: 명확성을 위해 보고서를 자동으로 형식화합니다.
 - **템플릿 생성**: 일관된 행/열 크기로 문서 형식을 표준화합니다.
@@ -171,6 +173,9 @@ Aspose.Cells Java를 보고 도구나 비즈니스 애플리케이션에 통합�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

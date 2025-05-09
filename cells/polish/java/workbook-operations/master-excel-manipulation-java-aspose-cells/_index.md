@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ public class UpdateComboBox {
 
 ## Zastosowania praktyczne
 
-1. **Automatyczne raportowanie**:Generuj i aktualizuj raporty z dynamicznymi kształtami i kontrolkami przy użyciu Aspose.Cells.
+1. **Automatyczne raportowanie**:Generuj i aktualizuj raporty przy użyciu dynamicznych kształtów i kontrolek, korzystając z Aspose.Cells.
 2. **Formularze wprowadzania danych**:Ulepsz formularze programu Excel, integrując pola kombi, aby usprawnić wprowadzanie danych.
 3. **Modelowanie finansowe**:Dostosuj arkusze kalkulacyjne używane w analizie finansowej, dodając elementy interaktywne.
 
@@ -220,6 +222,9 @@ Spróbuj wdrożyć te rozwiązania w swoim kolejnym projekcie i poznaj dalsze fu
 Rozpocznij przygodę z opanowaniem obsługi programu Excel w Javie dzięki Aspose.Cells już dziś!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ In questo tutorial, ti guideremo attraverso l'utilizzo di Aspose.Cells Java per 
 - Calcolo dei grafici per aggiornare i dati e il layout
 - Lettura delle etichette degli assi dai grafici calcolati
 
-Cominciamo a definire i prerequisiti.
+Cominciamo col definire i prerequisiti.
 
 ## Prerequisiti
 
@@ -153,6 +155,9 @@ Seguendo questa guida, sarai pronto a potenziare le tue applicazioni Java con so
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

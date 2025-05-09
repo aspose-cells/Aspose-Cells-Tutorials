@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 
 ## 필수 조건
 
-시작하기 전에 다음 사항이 있는지 확인하세요.
+시작하기에 앞서 다음 사항이 있는지 확인하세요.
 
 - **Java용 Aspose.Cells 라이브러리**Excel 파일 작업에 매우 중요합니다. 이 튜토리얼에서는 25.3 버전을 사용합니다.
 - **자바 개발 키트(JDK)**: 호환되는 JDK 버전을 사용하고 있는지 확인하세요.
@@ -266,6 +268,9 @@ Aspose 플랫폼을 통해 라이선스를 구매하거나 장기 임시 라이�
 지금 Aspose.Cells로 여정을 시작하고 Java에서 Excel을 사용하는 방식을 혁신해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

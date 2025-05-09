@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Günümüzün hızlı tempolu iş ortamında, Excel çalışma kitaplarını etkin bir şekilde yönetmek esastır. Genellikle, grafiklerin yükü olmadan büyük elektronik tabloları işlemeniz veya bunları PDF gibi daha taşınabilir bir biçimde kaydetmeniz gerekir. Bu eğitim, grafikler hariç bir Excel çalışma kitabını yüklemek ve ardından her bir sayfa tek bir sayfada olacak şekilde PDF dosyası olarak kaydetmek için Java için Aspose.Cells'i kullanmanızda size rehberlik edecektir.
 
 Bu yazıda şunları öğreneceksiniz:
-- Çalışma kitapları yüklenirken grafikler nasıl hariç tutulur.
+- Çalışma kitaplarını yüklerken grafikler nasıl hariç tutulur.
 - Uygulamanızı, bir çalışma kitabının her çalışma sayfasını tek sayfalık PDF olarak kaydedecek şekilde nasıl yapılandırabilirsiniz.
 - Aspose.Cells kullanarak Java uygulamalarında performansı optimize etmeye yönelik en iyi uygulamalar.
 
@@ -153,6 +155,9 @@ Sonraki adımlar arasında Aspose.Cells'in daha gelişmiş özelliklerini keşfe
 Bu güçlü özellikleri bugün uygulamaya başlayın ve Aspose.Cells for Java ile Excel çalışma kitabı işleme yeteneklerinizi geliştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

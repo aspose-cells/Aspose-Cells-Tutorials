@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自動資料輸入
@@ -109,15 +111,17 @@ validation.setFormula2("100");
    是的，您需要有效的許可證才能在您的專案中使用 Aspose.Cells for Java。
 
 ### 如何處理 Excel 文件中的資料驗證？
-   您可以使用 Aspose.Cells 實作資料驗證規則，如文章所示。
+   您可以使用 Aspose.Cells 實作資料驗證規則，如文章中所示。
 
 ### 在哪裡可以找到有關 Aspose.Cells for Java 的更多資源和文件？
    您可以在以下位置瀏覽文檔 [https://reference.aspose.com/cells/java/](https://reference。aspose.com/cells/java/).
 
 現在您已經掌握了使用 Aspose.Cells for Java 有效實現資料輸入自動化的知識和工具。開始改進您的資料處理流程並提高您的業務效率。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

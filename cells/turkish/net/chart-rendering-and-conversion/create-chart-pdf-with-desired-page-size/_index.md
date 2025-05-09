@@ -1,14 +1,16 @@
 ---
-title: İstenilen Sayfa Boyutunda Grafik PDF'i Oluşturun
-linktitle: İstenilen Sayfa Boyutunda Grafik PDF'i Oluşturun
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel grafiğinizle bir PDF oluşturun. Bu adım adım kılavuzla nasıl yapacağınızı öğrenin.
-weight: 12
-url: /tr/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": "Aspose.Cells for .NET kullanarak Excel grafiğinizle bir PDF oluşturun. Bu adım adım kılavuzla nasıl yapacağınızı öğrenin."
+"linktitle": "İstenilen Sayfa Boyutunda Grafik PDF'i Oluşturun"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "İstenilen Sayfa Boyutunda Grafik PDF'i Oluşturun"
+"url": "/tr/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İstenilen Sayfa Boyutunda Grafik PDF'i Oluşturun
@@ -27,11 +29,11 @@ C# programlama ve .NET framework hakkında temel bir anlayışa ihtiyacınız ol
 
 ### .NET için Aspose.Cells
 
-Aspose.Cells for .NET'in yüklü olduğundan emin olun. Tüm ayrıntıları şu adreste bulabilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/). 
+Aspose.Cells for .NET'in yüklü olduğundan emin olun. Tüm ayrıntıları şu adreste bulabilirsiniz: [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/). 
 
 ### Geliştirme Ortamı
 
- Geliştirme ortamınızı kurun. Bu, Visual Studio veya C# destekleyen herhangi bir IDE olabilir. Aspose.Cells kütüphanesini şuradan indirin ve yükleyin:[indirme sayfası](https://releases.aspose.com/cells/net/).
+Geliştirme ortamınızı kurun. Bu, Visual Studio veya C# destekleyen herhangi bir IDE olabilir. Aspose.Cells kütüphanesini şuradan indirin ve yükleyin: [indirme sayfası](https://releases.aspose.com/cells/net/).
 
 ### Örnek Excel Dosyası
 
@@ -77,7 +79,7 @@ Sonra, grafiği içeren Excel dosyasını yüklemeniz gerekir. İşte nasıl:
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
- The`Workbook` sınıf, Excel belgenizle etkileşim kurmanız için merkezi öneme sahiptir. Yolun Excel dosyanıza doğru bir şekilde işaret ettiğinden emin olun; buradaki bir hata, kodun geri kalanının yürütülmesini engelleyecektir.
+The `Workbook` sınıf, Excel belgenizle etkileşim kurmanız için merkezi öneme sahiptir. Yolun Excel dosyanıza doğru bir şekilde işaret ettiğinden emin olun; buradaki bir hata, kodun geri kalanının yürütülmesini engelleyecektir.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -88,7 +90,7 @@ Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Aspose.Cells'de çalışma sayfaları sıfırdan başlayarak dizinlenir, bu nedenle`Worksheets[0]` ilk sayfaya atıfta bulunur.
+Aspose.Cells'de çalışma sayfaları sıfırdan başlayarak dizinlenir, bu nedenle `Worksheets[0]` ilk sayfaya atıfta bulunur.
 
 ## Adım 4: İlk Tabloya Erişim
 
@@ -112,7 +114,7 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 
 Bu kodda:
 - PDF daha önce belirttiğiniz çıktı dizinine kaydedilecektir.
--  Sayılar`7, 7` sırasıyla istenilen sayfa boyutunun genişliğini ve yüksekliğini temsil eder.
+- Sayılar `7, 7` sırasıyla istenilen sayfa boyutunun genişliğini ve yüksekliğini temsil eder.
 - PageLayoutAlignmentType.Center, grafiğin sayfada ortalanmasını sağlar.
 
 ## Adım 6: Onay Mesajı
@@ -135,19 +137,21 @@ Tebrikler! Excel dosyasında bulunan bir grafikten PDF oluşturmak için Aspose.
 Aspose.Cells for .NET, .NET uygulamalarında Excel belgelerini programlı olarak oluşturmak, düzenlemek ve dönüştürmek için kullanılır.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose.Cells bir[ücretsiz deneme](https://releases.aspose.com/) Değerlendirme amaçlı.
+Evet, Aspose.Cells bir [ücretsiz deneme](https://releases.aspose.com/) değerlendirme amaçlı.
 
 ### Deneme süremi başlangıç süresinin ötesine uzatmanın bir yolu var mı?  
- Başvuruda bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş testler için.
+Başvuruda bulunabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Genişletilmiş testler için.
 
 ### Ya sorunlarla karşılaşırsam veya sorularım olursa?  
- Aspose topluluğundan yardım isteyebilirsiniz[destek forumu](https://forum.aspose.com/c/cells/9).
+Aspose topluluğundan yardım isteyebilirsiniz [destek forumu](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells'i nasıl satın alabilirim?  
- Aspose.Cells'i şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Aspose.Cells'i şu adresten satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

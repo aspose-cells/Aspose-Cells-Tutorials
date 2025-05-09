@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ sr.toImage(0, outDir + "/WSheetToSImage_out-" + sheet.getName() + ".jpg");
 
 1. **Geração automatizada de relatórios**: Renderize relatórios com muitos dados como imagens para facilitar a distribuição.
 2. **Visualização de Dados**: Converta planilhas complexas em formatos visuais para apresentações.
-3. **Integração com Web Apps**Use imagens renderizadas em aplicativos da web para ferramentas de relatórios dinâmicos.
+3. **Integração com aplicativos da Web**Use imagens renderizadas em aplicativos da web para ferramentas de relatórios dinâmicos.
 4. **Arquivamento de dados**: Crie arquivos de imagens de planilhas importantes para armazenamento de longo prazo.
 5. **Compartilhamento entre plataformas**: Compartilhe visuais de dados em diferentes plataformas onde arquivos do Excel podem não ser suportados.
 
@@ -175,6 +177,9 @@ Ao dominar o Aspose.Cells para Java, você pode aprimorar sua visualização de 
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

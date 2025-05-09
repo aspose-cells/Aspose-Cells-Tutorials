@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Cells for Java ile Excel'de Veri Analizini Öğrenin. Pivot tablonun etkili kullanımı için adım adım kılavuz."
+"description": "Aspose.Cells for Java ile Excel'de Veri Analizini Öğrenin. Etkili pivot tablo kullanımı için adım adım kılavuz."
 "linktitle": "Veri Analizi Excel Pivot"
 "second_title": "Aspose.Cells Java Excel İşleme API'si"
 "title": "Veri Analizi Excel Pivot"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Veri Analizi Excel Pivot
@@ -120,6 +122,7 @@ Evet, Aspose.Cells for Java ticari bir kütüphanedir ve projelerinizde kullanma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ Nauczyłeś się, jak otworzyć plik XLSX programu Excel 2007 i pobrać jego naz
 ### Następne kroki
 - Odkryj więcej funkcji Aspose.Cells odwiedzając [dokumentacja](https://reference.aspose.com/cells/java/).
 - Spróbuj zintegrować Aspose.Cells z większym projektem lub przepływem pracy.
-Gotowy na dalsze eksperymenty? Eksperymentuj z różnymi możliwościami Aspose.Cells i zobacz, jak mogą one ulepszyć Twoje aplikacje Java.
+Gotowy, aby pójść dalej? Eksperymentuj z różnymi możliwościami Aspose.Cells i zobacz, jak mogą one ulepszyć Twoje aplikacje Java.
 
 ## Sekcja FAQ
 1. **Jaka jest różnica pomiędzy plikami XLS i XLSX?**
@@ -133,6 +135,9 @@ Gotowy na dalsze eksperymenty? Eksperymentuj z różnymi możliwościami Aspose.
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

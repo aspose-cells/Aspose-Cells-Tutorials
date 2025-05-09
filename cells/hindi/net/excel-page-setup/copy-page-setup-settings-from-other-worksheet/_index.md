@@ -1,14 +1,16 @@
 ---
-title: अन्य वर्कशीट से पेज सेटअप सेटिंग्स कॉपी करें
-linktitle: अन्य वर्कशीट से पेज सेटअप सेटिंग्स कॉपी करें
-second_title: .NET API संदर्भ के लिए Aspose.Cells
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके वर्कशीट्स के बीच पृष्ठ सेटअप सेटिंग्स की प्रतिलिपि बनाना सीखें, जो आपके स्प्रेडशीट प्रबंधन को बढ़ाने के लिए एकदम सही है।
-weight: 10
-url: /hi/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Cells का उपयोग करके वर्कशीट्स के बीच पृष्ठ सेटअप सेटिंग्स की प्रतिलिपि बनाना सीखें, जो आपके स्प्रेडशीट प्रबंधन को बढ़ाने के लिए एकदम सही है।"
+"linktitle": "अन्य वर्कशीट से पेज सेटअप सेटिंग्स कॉपी करें"
+"second_title": ".NET API संदर्भ के लिए Aspose.Cells"
+"title": "अन्य वर्कशीट से पेज सेटअप सेटिंग्स कॉपी करें"
+"url": "/hi/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # अन्य वर्कशीट से पेज सेटअप सेटिंग्स कॉपी करें
@@ -22,9 +24,9 @@ url: /hi/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
 इससे पहले कि हम कोड में प्रवेश करें, कुछ आवश्यक चीजें हैं जो आपके पास होनी चाहिए:
 
 1. .NET विकास वातावरण: सुनिश्चित करें कि आपके पास .NET-संगत वातावरण स्थापित है, जैसे Visual Studio या आपकी पसंद का कोई अन्य IDE.
-2.  Aspose.Cells लाइब्रेरी: आपको Aspose.Cells लाइब्रेरी की आवश्यकता होगी। आप कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells लाइब्रेरी: आपको Aspose.Cells लाइब्रेरी की आवश्यकता होगी। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
 3. C# की बुनियादी समझ: C# के मूल सिद्धांतों को जानने से आपको निश्चित रूप से अवधारणाओं को बेहतर ढंग से समझने में मदद मिलेगी।
-4.  Aspose.Cells दस्तावेज़ीकरण: अपने आप को इससे परिचित कराएं[प्रलेखन](https://reference.aspose.com/cells/net/) किसी भी उन्नत कॉन्फ़िगरेशन या अतिरिक्त सुविधाओं के लिए जो आपको बाद में उपयोगी लग सकती हैं।
+4. Aspose.Cells दस्तावेज़ीकरण: अपने आप को इससे परिचित कराएं [प्रलेखन](https://reference.aspose.com/cells/net/) किसी भी उन्नत कॉन्फ़िगरेशन या अतिरिक्त सुविधाओं के लिए जो आपको बाद में उपयोगी लग सकती हैं।
 
 अब जबकि हमने अपनी पूर्व-आवश्यकताओं को व्यवस्थित कर लिया है, तो चलिए आवश्यक पैकेजों को आयात करते हैं!
 
@@ -45,7 +47,7 @@ using System;
 ## चरण 1: कार्यपुस्तिका बनाएँ
 
 अपनी कार्यपुस्तिका बनाएं:
- सबसे पहले, आपको इसका एक उदाहरण बनाना होगा`Workbook` कक्षा। यह अनिवार्य रूप से आपका प्रारंभिक बिंदु है। 
+सबसे पहले, आपको इसका एक उदाहरण बनाना होगा `Workbook` कक्षा। यह अनिवार्य रूप से आपका प्रारंभिक बिंदु है। 
 
 ```csharp
 Workbook wb = new Workbook();
@@ -80,7 +82,7 @@ Worksheet TestSheet2 = wb.Worksheets["TestSheet2"];
 ## चरण 4: टेस्टशीट1 के लिए पेपर का आकार निर्धारित करें
 
 पृष्ठ सेटअप संशोधित करें:
- आइए "TestSheet1" का पेपर आकार सेट करें`PaperA3ExtraTransverse`.
+आइए "TestSheet1" का पेपर आकार सेट करें `PaperA3ExtraTransverse`.
 
 ```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
@@ -114,7 +116,7 @@ TestSheet2.PageSetup.Copy(TestSheet1.PageSetup, new CopyOptions());
 ## चरण 7: अपडेट किए गए पेपर साइज़ प्रिंट करें
 
 कागज़ का आकार पुनः जांचें:
-अंत में, आइए पुष्टि करें कि सेटिंग्स सफलतापूर्वक कॉपी हो गई हैं।
+अंत में, पुष्टि करें कि सेटिंग्स सफलतापूर्वक कॉपी हो गई हैं।
 
 ```csharp
 Console.WriteLine("After Paper Size: " + TestSheet1.PageSetup.PaperSize);
@@ -149,16 +151,18 @@ Aspose.Cells .NET अनुप्रयोगों में स्प्रे
 Aspose.Cells मुख्य रूप से .NET भाषाओं का समर्थन करता है, लेकिन विभिन्न भाषाओं के लिए अन्य Aspose लाइब्रेरीज़ भी हैं।
 
 ### क्या Aspose.Cells के लिए कोई निःशुल्क परीक्षण उपलब्ध है?  
- हां, आप डाउनलोड कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) Aspose.Cells का.
+हां, आप डाउनलोड कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) Aspose.Cells का.
 
 ### मैं Aspose.Cells के लिए समर्थन कैसे प्राप्त करूं?  
- आप सहायता प्राप्त करने के लिए निम्न माध्यमों का उपयोग कर सकते हैं:[एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
+आप के माध्यम से समर्थन प्राप्त कर सकते हैं [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 ### क्या मुझे Aspose.Cells के लिए अस्थायी लाइसेंस मिल सकता है?  
-बिल्कुल! आप अनुरोध कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) उत्पाद का मूल्यांकन करने के लिए.
+बिल्कुल! आप अनुरोध कर सकते हैं [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) उत्पाद का मूल्यांकन करने के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

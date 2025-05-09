@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Yalnızca gerekli çalışma sayfalarını yükleyin veya büyük veri kümel
 A:** Hesaplama hatalarından kaçınmak için doğru endekslerin ve konumların ayarlandığından emin olun. Yapılandırmalarınızı üretim çalışma kitaplarına uygulamadan önce her zaman örnek verilerle test edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

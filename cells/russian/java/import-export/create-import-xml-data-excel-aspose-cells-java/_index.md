@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ String xmlUrl = "http://www.aspose.com/docs/download/attachments/434475650/sampl
 
 **Шаг 2: Импорт XML на рабочий лист**
 
-Использовать `importXml()` метод для извлечения и вставки XML-данных в «Лист1», начиная с ячейки A1.
+Использовать `importXml()` метод для извлечения и вставки ваших XML-данных в «Лист1», начиная с ячейки A1.
 
 ```java
 workbook.importXml(xmlUrl, "Sheet1", 0, 0);
@@ -147,7 +149,7 @@ workbook.save(dataDir + "/ImportedXMLData.xlsx");
 
 ## Заключение
 
-В этом руководстве мы рассмотрели, как создать новую книгу Excel и импортировать данные XML с помощью **Aspose.Cells для Java**. Эти возможности открывают многочисленные возможности для автоматизации задач Excel в ваших проектах.
+В этом руководстве мы рассмотрели, как создать новую книгу Excel и импортировать XML-данные с помощью **Aspose.Cells для Java**. Эти возможности открывают многочисленные возможности для автоматизации задач Excel в ваших проектах.
 
 Следующие шаги могут включать изучение дополнительных функций Aspose.Cells или интеграцию его с другими системами, такими как базы данных или веб-приложения. Почему бы не попробовать это сейчас?
 
@@ -172,6 +174,9 @@ workbook.save(dataDir + "/ImportedXMLData.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

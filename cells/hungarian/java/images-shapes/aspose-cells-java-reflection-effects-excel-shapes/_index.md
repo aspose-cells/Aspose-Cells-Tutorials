@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Fokozza Excel-prezentációi vizuális vonzerejét professzionális tükröződ�
 - Tükröződési effektusok alkalmazása Excel alakzatokban
 - Teljesítményoptimalizálás és integráció más rendszerekkel
 
-Nézzük meg, hogyan érheted el ezeket a hatásokat könnyedén. Mielőtt belekezdenénk, győződj meg róla, hogy minden szükséges előfeltétel teljesül.
+Nézzük meg, hogyan érheted el ezeket a hatásokat könnyedén. Mielőtt elkezdenénk, győződj meg róla, hogy minden szükséges előfeltétel teljesül.
 
 ## Előfeltételek
 
@@ -113,7 +115,7 @@ public class ModifyShape {
 }
 ```
 
-#### 3. lépés: Tükröződési effektus tulajdonságainak beállítása
+#### 3. lépés: A tükröződéseffektus tulajdonságainak beállítása
 Konfigurálja a tükröződési effektus tulajdonságait, például az elmosódást, a méretet, az átlátszóságot és a távolságot a kívánt vizuális kimenet eléréséhez.
 
 ```java
@@ -176,7 +178,7 @@ Próbáld ki ezt a megoldást a következő projektedben, hogy lásd, hogyan jav
    - Felfedezés [Aspose dokumentáció](https://reference.aspose.com/cells/java/) és közösségi fórumokon további forrásokért és támogatásért.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
@@ -184,6 +186,9 @@ Próbáld ki ezt a megoldást a következő projektedben, hogy lásd, hogyan jav
 - **Támogatás:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

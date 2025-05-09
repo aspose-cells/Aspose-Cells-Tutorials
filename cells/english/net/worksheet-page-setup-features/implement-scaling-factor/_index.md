@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-scaling-factor/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Scaling Factor in Worksheet
@@ -130,6 +132,7 @@ You can try it with a [free trial](https://releases.aspose.com/), but for full f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

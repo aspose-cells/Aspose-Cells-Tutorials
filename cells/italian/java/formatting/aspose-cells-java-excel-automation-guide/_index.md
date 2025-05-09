@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,7 +180,7 @@ Ecco alcuni scenari reali in cui queste funzionalità possono essere applicate:
 
 ## Considerazioni sulle prestazioni
 
-Quando lavori con Aspose.Cells in Java, tieni a mente questi suggerimenti:
+Quando lavori con Aspose.Cells in Java, tieni presente questi suggerimenti:
 - Ottimizza l'utilizzo della memoria eliminando tempestivamente gli oggetti quando non sono più necessari.
 - Gestire in modo efficiente grandi set di dati per prevenire prestazioni lente.
 - Utilizza le funzioni integrate di Aspose per operazioni in blocco anziché scorrere le celle singolarmente.
@@ -216,6 +218,9 @@ A5: Assicurati che il percorso del file sia corretto e di disporre dei permessi 
 - **Supporto**: [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

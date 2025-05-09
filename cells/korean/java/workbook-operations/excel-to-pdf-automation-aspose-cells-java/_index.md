@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 자동화하는 방법을 알아보세요. 설정 및 구현 단계도 포함되어 있습니다."
+"description": "Aspose.Cells for Java를 사용하여 Excel 파일을 PDF로 자동 변환하는 방법을 알아보세요. 설정 및 구현 단계도 포함되어 있습니다."
 "title": "Java에서 Aspose.Cells를 사용하여 Excel을 PDF로 변환 자동화"
 "url": "/ko/java/workbook-operations/excel-to-pdf-automation-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ Aspose.Cells Java의 자동화 기능은 여러 가지 실제 응용 프로그�
 Aspose.Cells Java를 사용하여 오늘 Excel 데이터를 제어하고 자동화의 힘을 경험해보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

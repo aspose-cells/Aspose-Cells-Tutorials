@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ System.out.println("Accessed worksheet: " + worksheet.getName());
 ```
 
 ### 기능 3: 피벗 테이블 액세스
-피벗 테이블은 Excel에서 데이터를 요약하는 강력한 도구이며, 프로그래밍 방식으로 액세스하면 데이터 분석을 개선할 수 있습니다.
+피벗 테이블은 Excel에서 데이터를 요약하는 강력한 도구이며, 프로그래밍 방식으로 액세스하면 데이터 분석을 향상시킬 수 있습니다.
 
 #### 개요
 이 섹션에서는 지정된 워크시트 내에서 피벗 테이블에 액세스하는 방법을 보여줍니다. 요약된 데이터를 조작하거나 분석해야 할 때 특히 유용합니다.
@@ -199,6 +201,9 @@ A1: 대용량 파일의 경우 통합 문서의 필요한 부분만 로드하여
 A2: 네, Aspose.Cells는 다양한 클라우드 플랫폼에 호스팅된 애플리케이션에 통합될 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

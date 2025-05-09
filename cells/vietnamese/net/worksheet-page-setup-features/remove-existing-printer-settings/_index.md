@@ -1,14 +1,16 @@
 ---
-title: Xóa cài đặt máy in hiện có khỏi trang tính
-linktitle: Xóa cài đặt máy in hiện có khỏi trang tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách xóa cài đặt máy in hiện có khỏi bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này.
-weight: 19
-url: /vi/net/worksheet-page-setup-features/remove-existing-printer-settings/
+"description": "Tìm hiểu cách xóa cài đặt máy in hiện có khỏi bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết từng bước này."
+"linktitle": "Xóa cài đặt máy in hiện có khỏi trang tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xóa cài đặt máy in hiện có khỏi trang tính"
+"url": "/vi/net/worksheet-page-setup-features/remove-existing-printer-settings/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xóa cài đặt máy in hiện có khỏi trang tính
@@ -18,7 +20,7 @@ Nếu bạn đã từng làm việc với các tệp Excel, bạn sẽ biết t�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào phép thuật mã hóa, bạn cần thiết lập một số thứ sau:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình.
-2. Aspose.Cells cho Thư viện .NET: Bạn có thể tải xuống thư viện Aspose.Cells từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống thư viện Aspose.Cells từ [đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Vì hướng dẫn này liên quan đến việc viết mã bằng C#, nên việc nắm vững kiến thức cơ bản về ngôn ngữ này sẽ rất hữu ích.
 4. Tệp Excel mẫu: Bạn sẽ cần một tệp Excel hiện có với các thiết lập máy in mà bạn muốn xóa. Hãy thoải mái tạo một tệp mẫu hoặc sử dụng một tài liệu hiện có.
 Sau khi thiết lập xong môi trường, chúng ta có thể bắt đầu phân tích mã.
@@ -38,14 +40,14 @@ string sourceDir = "Your Document Directory\\";
 // Thư mục đầu ra
 string outputDir = "Your Document Directory\\";
 ```
- Hãy chắc chắn thay thế`"Your Document Directory\\"` với đường dẫn thực tế tới tài liệu của bạn.
+Hãy chắc chắn thay thế `"Your Document Directory\\"` với đường dẫn thực tế tới tài liệu của bạn.
 ## Bước 2: Tải tệp Excel nguồn
 Tiếp theo, hãy tải sổ làm việc (tệp Excel) có chứa cài đặt máy in. Bạn sẽ muốn đảm bảo đường dẫn tệp là chính xác.
 ```csharp
 // Tải tệp Excel nguồn
 Workbook wb = new Workbook(sourceDir + "sampleRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 ```
- Ở đây, chúng tôi đang tải tệp Excel đã chỉ định vào`Workbook` đối tượng được đặt tên`wb`.
+Ở đây, chúng tôi đang tải tệp Excel đã chỉ định vào `Workbook` đối tượng được đặt tên `wb`.
 ## Bước 3: Lấy số lượng các trang tính
 Chúng ta cần biết có bao nhiêu trang tính trong sổ làm việc để có thể lặp lại chúng và kiểm tra mọi cài đặt máy in.
 ```csharp
@@ -77,14 +79,14 @@ Mỗi bảng tính đều có các thuộc tính thiết lập trang, bao gồm 
         Console.WriteLine("PrinterSettings of this worksheet exist.");
 ```
 ## Bước 7: In Chi tiết Bảng tính
-Nếu tìm thấy cài đặt máy in, hãy hiển thị một số thông tin hữu ích về bảng tính và cài đặt máy in của nó.
+Nếu tìm thấy cài đặt máy in, hãy hiển thị một số thông tin hữu ích về bảng tính và cài đặt máy in của bảng tính đó.
 ```csharp
         Console.WriteLine("Sheet Name: " + ws.Name);
         Console.WriteLine("Paper Size: " + ps.PaperSize);
 ```
 Điều này sẽ cho phép chúng tôi xác minh những trang tính nào có cài đặt máy in được xác định.
 ## Bước 8: Xóa cài đặt máy in
- Bây giờ đến phần chính! Chúng tôi sẽ xóa các cài đặt máy in hiện có bằng cách chỉ định`null` đến`PrinterSettings` tài sản.
+Bây giờ đến phần chính! Chúng tôi sẽ xóa các cài đặt máy in hiện có bằng cách chỉ định `null` đến `PrinterSettings` tài sản.
 ```csharp
         // Xóa cài đặt máy in bằng cách đặt chúng thành null
         ps.PrinterSettings = null;
@@ -105,16 +107,18 @@ Và bạn đã có nó! Bạn vừa học cách xóa cài đặt máy in hiện 
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET cho phép các nhà phát triển làm việc với các tệp Excel một cách liền mạch mà không cần cài đặt Microsoft Excel.
 ### Tôi có cần mua Aspose.Cells để sử dụng không?
- Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép. Kiểm tra[đây](https://purchase.aspose.com/buy) để có thêm lựa chọn.
+Bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng để sử dụng lâu dài, bạn sẽ cần phải mua giấy phép. Kiểm tra [đây](https://purchase.aspose.com/buy) để có thêm lựa chọn.
 ### Tôi có thể xóa cài đặt máy in cho tất cả các trang tính cùng một lúc không?
 Có! Như chúng tôi đã trình bày trong hướng dẫn, bạn có thể lặp qua từng bảng tính để xóa các cài đặt.
 ### Có nguy cơ mất dữ liệu khi thay đổi cài đặt máy in không?
 Không, việc xóa cài đặt máy in không ảnh hưởng đến dữ liệu thực tế trong bảng tính của bạn.
 ### Tôi có thể tìm trợ giúp về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy sự hỗ trợ và nguồn lực của cộng đồng tại[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ và nguồn lực của cộng đồng tại [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

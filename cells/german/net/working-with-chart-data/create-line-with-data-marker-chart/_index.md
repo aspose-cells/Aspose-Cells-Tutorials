@@ -1,36 +1,38 @@
 ---
-title: Erstellen eines Liniendiagramms mit Datenmarkierungen
-linktitle: Erstellen eines Liniendiagramms mit Datenmarkierungen
-second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Liniendiagramm mit Datenmarkierungen in Excel erstellen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Diagramme einfach zu erstellen und anzupassen.
-weight: 10
-url: /de/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Erfahren Sie, wie Sie mit Aspose.Cells für .NET ein Liniendiagramm mit Datenmarkierungen in Excel erstellen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Diagramme einfach zu erstellen und anzupassen."
+"linktitle": "Erstellen Sie ein Liniendiagramm mit Datenmarkierungen"
+"second_title": "Aspose.Cells .NET Excel-Verarbeitungs-API"
+"title": "Erstellen Sie ein Liniendiagramm mit Datenmarkierungen"
+"url": "/de/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Erstellen eines Liniendiagramms mit Datenmarkierungen
+# Erstellen Sie ein Liniendiagramm mit Datenmarkierungen
 
 ## Einführung
 
-Haben Sie sich schon einmal gefragt, wie Sie in Excel programmgesteuert beeindruckende Diagramme erstellen können? Nun, schnallen Sie sich an, denn heute tauchen wir in die Erstellung eines Liniendiagramms mit Datenmarkierungen mithilfe von Aspose.Cells für .NET ein. Dieses Tutorial führt Sie durch jeden Schritt und stellt sicher, dass Sie die Diagrammerstellung gut beherrschen, auch wenn Sie gerade erst mit Aspose.Cells beginnen.
+Haben Sie sich schon einmal gefragt, wie Sie in Excel programmgesteuert beeindruckende Diagramme erstellen können? Dann legen Sie los! Heute erstellen wir ein Liniendiagramm mit Datenmarkierungen mit Aspose.Cells für .NET. Dieses Tutorial führt Sie Schritt für Schritt durch die Diagrammerstellung und stellt sicher, dass Sie die Diagrammerstellung auch als Anfänger in Aspose.Cells beherrschen.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie alles bereit haben, um nahtlos mitmachen zu können.
+Bevor wir beginnen, stellen Sie sicher, dass Sie alles vorbereitet haben, um nahtlos mitmachen zu können.
 
-1. Aspose.Cells für .NET-Bibliothek – Sie müssen dies installieren. Sie können es herunterladen[Hier](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells für .NET Bibliothek – Diese müssen Sie installieren. Sie können sie herunterladen [Hier](https://releases.aspose.com/cells/net/).
 2. .NET Framework – Stellen Sie sicher, dass Ihre Entwicklungsumgebung mit der neuesten Version von .NET eingerichtet ist.
 3. IDE (Integrated Development Environment) – Visual Studio wird empfohlen.
-4.  Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) oder schauen Sie sich ihre[Kostenlose Testversion](https://releases.aspose.com/).
+4. Eine gültige Aspose.Cells-Lizenz – Wenn Sie keine haben, können Sie eine anfordern [vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) oder schauen Sie sich ihre [kostenlose Testversion](https://releases.aspose.com/).
 
-Bereit loszulegen? Dann lass es uns aufschlüsseln!
+Bereit loszulegen? Dann lass es uns genauer betrachten!
 
-## Erforderliche Pakete importieren
+## Importieren der erforderlichen Pakete
 
-Stellen Sie zunächst sicher, dass Sie die folgenden Namespaces in Ihr Projekt importieren. Diese stellen die erforderlichen Klassen und Methoden zum Erstellen Ihres Diagramms bereit.
+Importieren Sie zunächst die folgenden Namespaces in Ihr Projekt. Diese stellen die erforderlichen Klassen und Methoden zum Erstellen Ihres Diagramms bereit.
 
 ```csharp
 using System;
@@ -40,7 +42,7 @@ using Aspose.Cells.Charts;
 using System.Drawing;
 ```
 
-Sobald Sie das geschafft haben, können wir mit dem Programmieren beginnen!
+Sobald Sie das verstanden haben, können wir mit dem Programmieren beginnen!
 
 ## Schritt 1: Richten Sie Ihre Arbeitsmappe und Ihr Arbeitsblatt ein
 
@@ -57,11 +59,11 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Stellen Sie sich die Arbeitsmappe als Ihre Excel-Datei und das Arbeitsblatt als das darin enthaltene spezifische Blatt vor. In diesem Fall arbeiten wir mit dem ersten Blatt.
+Stellen Sie sich die Arbeitsmappe als Ihre Excel-Datei und das Arbeitsblatt als das darin enthaltene Arbeitsblatt vor. In diesem Fall arbeiten wir mit dem ersten Arbeitsblatt.
 
 ## Schritt 2: Füllen Sie das Arbeitsblatt mit Daten
 
-Jetzt, da wir unser Arbeitsblatt haben, füllen wir es mit einigen Daten. Wir erstellen zufällige Datenpunkte für zwei Wertereihen.
+Nachdem wir nun unser Arbeitsblatt erstellt haben, füllen wir es mit Daten. Wir erstellen zufällige Datenpunkte für zwei Wertereihen.
 
 ```csharp
 // Spaltentitel festlegen
@@ -99,11 +101,11 @@ int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
 Chart chart = worksheet.Charts[idx];
 ```
 
-Dieses Snippet fügt dem Arbeitsblatt ein Liniendiagramm mit Datenmarkierungen hinzu und platziert es in einem bestimmten Bereich (1,3 bis 20,20). Ziemlich einfach, oder?
+Dieser Codeausschnitt fügt dem Arbeitsblatt ein Liniendiagramm mit Datenmarkierungen hinzu und platziert es in einem bestimmten Bereich (1,3 bis 20,20). Ziemlich einfach, oder?
 
-## Schritt 4: Das Erscheinungsbild des Diagramms anpassen
+## Schritt 4: Anpassen des Diagramm-Erscheinungsbilds
 
-Sobald das Diagramm erstellt ist, können Sie es nach Ihren Wünschen gestalten. Lassen Sie uns den Hintergrund, den Titel und den Diagrammstil ändern.
+Sobald das Diagramm erstellt ist, können Sie es nach Ihren Wünschen gestalten. Ändern wir Hintergrund, Titel und Diagrammstil.
 
 ```csharp
 // Diagrammstil festlegen
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // Vordergrundfarbe auf Weiß setzen
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Festlegen der Eigenschaften des Diagrammtitels
+// Festlegen der Eigenschaften des Diagrammtitels
 chart.Title.Text = "Sample Chart";
 
 // Diagrammtyp festlegen
@@ -124,7 +126,7 @@ chart.Type = ChartType.LineWithDataMarkers;
 
 Hier verleihen wir dem Diagramm ein klares Aussehen, indem wir einen weißen Hintergrund festlegen, eine automatische Skalierung vornehmen und ihm einen aussagekräftigen Titel geben.
 
-## Schritt 5: Serien definieren und Datenpunkte darstellen
+## Schritt 5: Reihen definieren und Datenpunkte darstellen
 
 Nachdem unser Diagramm nun gut aussieht, müssen wir die Datenreihen definieren, die dargestellt werden sollen.
 
@@ -141,7 +143,7 @@ Diese Reihen entsprechen den Datenpunktbereichen, die wir zuvor ausgefüllt habe
 
 ## Schritt 6: Farben hinzufügen und Serienmarkierungen anpassen
 
-Lassen Sie uns dieses Diagramm noch ansprechender gestalten, indem Sie unseren Datenmarkierungen benutzerdefinierte Farben hinzufügen.
+Lassen Sie uns dieses Diagramm noch ansprechender gestalten, indem wir unseren Datenmarkierungen benutzerdefinierte Farben hinzufügen.
 
 ```csharp
 // Erste Serie anpassen
@@ -153,14 +155,14 @@ chart.NSeries[s3_idx].Marker.Area.ForegroundColor = Color.Green;
 chart.NSeries[s3_idx].Marker.Border.IsVisible = false;
 ```
 
-Durch die Anpassung der Farben machen Sie das Diagramm nicht nur funktional, sondern auch optisch ansprechend!
+Durch Anpassen der Farben machen Sie das Diagramm nicht nur funktional, sondern auch optisch ansprechend!
 
 ## Schritt 7: X- und Y-Werte für jede Serie festlegen
 
-Lassen Sie uns abschließend für jede unserer Reihen die X- und Y-Werte zuweisen.
+Lassen Sie uns abschließend die X- und Y-Werte für jede unserer Reihen zuweisen.
 
 ```csharp
-// Legen Sie die X- und Y-Werte der ersten Reihe fest
+// X- und Y-Werte der ersten Reihe festlegen
 chart.NSeries[s2_idx].XValues = "A2: A21";
 chart.NSeries[s2_idx].Values = "B2: B21";
 
@@ -171,7 +173,7 @@ chart.NSeries[s3_idx].Values = "B22: B41";
 
 Die Werte basieren auf den Daten, die wir in Schritt 2 eingegeben haben.
 
-## Schritt 8: Speichern Sie die Arbeitsmappe
+## Schritt 8: Speichern der Arbeitsmappe
 
 Nachdem nun alles eingestellt ist, speichern wir die Arbeitsmappe, damit wir das Diagramm in Aktion sehen können.
 
@@ -180,31 +182,33 @@ Nachdem nun alles eingestellt ist, speichern wir die Arbeitsmappe, damit wir das
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-Und das ist es! Sie haben gerade mit Aspose.Cells für .NET ein Liniendiagramm mit Datenmarkierungen erstellt.
+Und das war's! Sie haben gerade mit Aspose.Cells für .NET ein Liniendiagramm mit Datenmarkierungen erstellt.
 
 ## Abschluss
 
-Das programmgesteuerte Erstellen von Diagrammen in Excel kann entmutigend erscheinen, aber mit Aspose.Cells für .NET ist es so einfach wie das Befolgen einer Schritt-für-Schritt-Anleitung. Vom Einrichten Ihrer Arbeitsmappe bis zum Anpassen des Diagrammaussehens erledigt diese leistungsstarke Bibliothek alles. Egal, ob Sie Berichte, Dashboards oder Datenvisualisierungen erstellen, mit Aspose.Cells ist das ein Kinderspiel.
+Das programmgesteuerte Erstellen von Diagrammen in Excel mag schwierig erscheinen, doch mit Aspose.Cells für .NET ist es so einfach wie eine Schritt-für-Schritt-Anleitung. Von der Einrichtung Ihrer Arbeitsmappe bis zur Anpassung der Diagrammdarstellung erledigt diese leistungsstarke Bibliothek alles. Ob Sie Berichte, Dashboards oder Datenvisualisierungen erstellen – mit Aspose.Cells erledigen Sie alles im Handumdrehen.
 
 ## Häufig gestellte Fragen
 
 ### Kann ich das Diagramm weiter anpassen?  
-Auf jeden Fall! Aspose.Cells bietet jede Menge Anpassungsoptionen, von Schriftarten bis zu Gitternetzlinien und mehr.
+Absolut! Aspose.Cells bietet unzählige Anpassungsmöglichkeiten, von Schriftarten bis hin zu Gitternetzlinien und mehr.
 
 ### Benötige ich eine Lizenz, um Aspose.Cells zu verwenden?  
- Ja, für die volle Funktionalität ist eine Lizenz erforderlich. Sie erhalten eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) oder beginnen Sie mit einem[Kostenlose Testversion](https://releases.aspose.com/).
+Ja, für die volle Funktionalität ist eine Lizenz erforderlich. Sie erhalten eine [vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) oder beginnen Sie mit einem [kostenlose Testversion](https://releases.aspose.com/).
 
 ### Wie kann ich weitere Datenreihen hinzufügen?  
- Fügen Sie einfach weitere Serien hinzu mit dem`NSeries.Add` Methode, um die Zellbereiche für die neuen Daten anzugeben.
+Fügen Sie einfach weitere Serien hinzu, indem Sie `NSeries.Add` -Methode, wobei die Zellbereiche für die neuen Daten angegeben werden.
 
 ### Kann ich das Diagramm als Bild exportieren?  
- Ja, Sie können Diagramme direkt als Bilder exportieren mit dem`Chart.ToImage` Verfahren.
+Ja, Sie können Diagramme direkt als Bilder exportieren, indem Sie `Chart.ToImage` Verfahren.
 
 ### Unterstützt Aspose.Cells 3D-Diagramme?  
-Ja, Aspose.Cells unterstützt eine breite Palette von Diagrammtypen, einschließlich 3D-Diagrammen.
+Ja, Aspose.Cells unterstützt eine Vielzahl von Diagrammtypen, einschließlich 3D-Diagrammen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

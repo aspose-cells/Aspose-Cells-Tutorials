@@ -8,7 +8,9 @@ url: /net/protect-excel-file/protect-specific-row-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Specific Row In Excel Worksheet
@@ -160,6 +162,7 @@ For any inquiries or support, you can visit the [Aspose support forum](https://f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

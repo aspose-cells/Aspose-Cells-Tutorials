@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ Excel을 HTML로 변환하는 것은 다음과 같은 여러 시나리오에서 
 대용량 파일을 변환할 때 성능을 최적화하는 것이 중요합니다.
 - **메모리 관리**: 특히 방대한 스프레드시트의 경우 Java의 메모리 사용량을 모니터링합니다.
 - **일괄 처리**: 리소스 소모를 최소화하기 위해 파일을 일괄적으로 처리합니다.
-- **비동기 변환**메인 애플리케이션 스레드를 차단하지 않으려면 비동기 작업을 구현합니다.
+- **비동기 변환**메인 애플리케이션 스레드 차단을 방지하기 위해 비동기 작업을 구현합니다.
 
 ## 결론
 이 가이드를 따라 하면 Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 변환하는 방법을 배우게 됩니다. 이 기술은 데이터 접근성을 향상시킬 뿐만 아니라 Excel 데이터를 웹 애플리케이션과 통합하는 새로운 가능성을 열어줍니다.
@@ -136,9 +138,9 @@ Aspose.Cells의 기능을 더욱 자세히 알아보려면 다른 파일 형식�
 
 ## FAQ 섹션
 1. **여러 파일을 한 번에 변환할 수 있나요?**
-   - 네, 파일 디렉터리를 순환하여 각 파일에 변환 프로세스를 적용합니다.
+   - 네, 파일 디렉터리를 반복하여 각 파일에 변환 프로세스를 적용합니다.
 2. **HTML에서 고품질 이미지를 보장하려면 어떻게 해야 하나요?**
-   - 사용 `options.setExportImagesAsBase64(true);` HTML 파일에 이미지를 직접 삽입하는 방법.
+   - 사용 `options.setExportImagesAsBase64(true);` HTML 파일 내에 이미지를 직접 삽입하는 방법.
 3. **Excel 파일에 매크로가 있는 경우는 어떻게 되나요?**
    - Aspose.Cells는 데이터와 구조에 초점을 맞추므로 매크로는 HTML로 변환되지 않습니다.
 4. **HTML 출력에서 표 스타일을 사용자 정의할 수 있는 방법이 있나요?**
@@ -158,6 +160,9 @@ Aspose.Cells의 기능을 더욱 자세히 알아보려면 다른 파일 형식�
 오늘 Aspose.Cells for Java를 사용하여 Excel에서 HTML로의 변환을 간소화하는 여정을 시작하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

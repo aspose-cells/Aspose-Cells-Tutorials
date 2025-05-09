@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Zacznijmy od skonfigurowania naszych wymagań wstępnych.
 
 Zanim zaczniesz pisać kod, upewnij się, że masz następujące elementy:
 - **Zestaw narzędzi programistycznych Java (JDK)**: Upewnij się, że na Twoim komputerze jest zainstalowany JDK 8 lub nowszy.
-- **Zintegrowane środowisko programistyczne (IDE)**:Użyj środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse, aby zapewnić sobie płynniejsze środowisko programistyczne.
+- **Zintegrowane środowisko programistyczne (IDE)**:Używaj środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse, aby zapewnić sobie płynniejsze środowisko programistyczne.
 - **Aspose.Cells dla Javy**:Zapoznaj się z tą biblioteką umożliwiającą zaawansowane operacje na plikach Excela.
 
 ## Konfigurowanie Aspose.Cells dla Java
@@ -174,6 +176,9 @@ Postępując zgodnie z tym przewodnikiem, będziesz dobrze wyposażony do wykorz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **臨時執照**：請求臨時許可證以獲得不受限制的擴充功能。
 - **購買**：如需長期使用，請從 Aspose 網站購買完整授權。
 #### 基本初始化
-在您的 Java 應用程式中初始化 Aspose.Cells 如下：
+在您的 Java 應用程式中初始化 Aspose.Cells，如下所示：
 ```java
 import com.aspose.cells.License;
 import java.io.File;
@@ -139,6 +141,9 @@ A5：造訪 Aspose 論壇尋求社群協助，或透過資源中提供的購買�
 透過遵循本指南，您現在可以使用 Aspose.Cells for Java 簡化文件轉換流程。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

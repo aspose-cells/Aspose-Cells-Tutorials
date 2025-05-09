@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Excel'de XML harita verilerini sorgulamak için Aspose.Cells kütüphanesinde us
 Bu öğreticiyi takip ederek, Excel dosyalarındaki XML harita verilerini sorgulamada Aspose.Cells for Java'nın gücünden yararlanmak için iyi bir donanıma sahip olacaksınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

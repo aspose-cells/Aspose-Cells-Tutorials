@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 - Как создать и инициализировать книгу Excel с помощью Aspose.Cells для Java
 - Добавление рабочих листов и доступ к определенным ячейкам
 - Установка значений ячеек и изменение направления текста справа налево
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Давайте начнем с изучения того, что вам нужно, прежде чем погрузиться в кодирование.
 
@@ -219,6 +221,9 @@ workbook.save(dataDir + "/ChangeTextDirection_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

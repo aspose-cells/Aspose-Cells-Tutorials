@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 - Настройка Aspose.Cells в среде Java
 - Загрузка книги Excel с помощью Aspose.Cells
 - Доступ и связывание XML-карт с ячейками рабочего листа
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Прежде чем начать, убедитесь, что ваша среда разработки готова.
 
@@ -156,6 +158,9 @@ A5: Да, после покупки лицензии. Бесплатная пр�
 - **Поддерживать:** [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

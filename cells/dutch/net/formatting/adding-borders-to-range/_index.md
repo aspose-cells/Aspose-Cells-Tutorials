@@ -1,54 +1,59 @@
 ---
-title: Grenzen toevoegen aan een bereik in Excel met behulp van Aspose.Cells voor .NET
-weight: 7700
-limit: 
-description: Leer hoe je grenzen aan een bereik in een Excel-bestand toevoegt met behulp van Aspose.Cells voor .NET. Volg deze stap voor stap gids met voorbeeldcode en gedetailleerde uitleg.
-keywords: [Aspose.Cells for .NET, Excel borders, add borders to range, C# Excel formatting, apply border Excel C#, Excel range border, .NET Excel library]
-url: /nl/net/formatting/adding-borders-to-range/
+"description": "Leer hoe u randen toevoegt aan een bereik in een Excel-bestand met Aspose.Cells voor .NET. Volg deze stapsgewijze handleiding met voorbeeldcode en gedetailleerde uitleg."
+"title": "Randen toevoegen aan een bereik in Excel met Aspose.Cells voor .NET"
+"url": "/nl/net/formatting/adding-borders-to-range/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Grenzen toevoegen aan een bereik in Excel met behulp van Aspose.Cells
+# Randen toevoegen aan een bereik in Excel met Aspose.Cells
   
-Aspose.Cells voor .NET is een krachtige bibliotheek die ontwikkelaars in staat stelt Excel-bestanden programmaal te maken, te manipuleren en te formateren. In dit voorbeeld laten we zien hoe u grenzen aan een specifiek scala van cellen binnen een Excel-werkboek kunt toevoegen met behulp van C#. U leert hoe u een werkboek kunt maken, toegang krijgt tot een werkblad, een bereik kunt definiëren en dikke grenzen in verschillende richtingen kunt toepassen.  
+Aspose.Cells voor .NET is een krachtige bibliotheek waarmee ontwikkelaars programmatisch Excel-bestanden kunnen maken, bewerken en opmaken. In dit voorbeeld laten we zien hoe u met C# randen toevoegt aan een specifiek celbereik in een Excel-werkmap. U leert hoe u een werkmap maakt, een werkblad opent, een bereik definieert en dikke randen in verschillende richtingen toepast. Deze tutorial biedt een praktische aanpak voor Excel-opmaak, waardoor u de visuele structuur van uw spreadsheets eenvoudig kunt verbeteren.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/adding-borders-to-range" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Installatiebepalingen:  
-Om Aspose.Cells te gebruiken voor .NET, volg deze installatie stappen:  
 
-1. Installeer via NuGet:  
-   * Open je Visual Studio project.  
-   * Voer het volgende commando uit in de pakketmanagerconsole:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Installatie-instructies:  
+Om Aspose.Cells voor .NET te gebruiken, volgt u deze installatiestappen:  
+
+1. Installeren via NuGet:  
+   - Open uw Visual Studio-project.  
+   - Voer de volgende opdracht uit in de Package Manager Console:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-   * Als alternatief, gebruik de NuGet Package Manager om te zoeken naar "Aspose.Cells" en het te installeren.  
+   - U kunt ook de NuGet Package Manager gebruiken om naar "Aspose.Cells" te zoeken en dit te installeren.  
 
-2. Download van Aspose website:  
-   * Bezoek de [Downloadpagina Aspose.Cells](https://releases.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-   * Download de nieuwste versie en verwijz naar de DLL in je project.  
+2. Downloaden van Aspose-website:  
+   - Bezoek de [Aspose.Cells downloadpagina](https://releases.aspose.com/cells/net/).  
+   - Download de nieuwste versie en verwijs naar de DLL in uw project.  
 
-3. Verzoek een licentie (optioneel):  
-   * U kunt een aanvraag doen .[tijdelijke vergunning](https://purchase.aspose.com/temporary-license/)of een volledige versie kopen van [Koop een doelwit](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-   * De aanvraag van de licentie in uw project met behulp van:  
+3. Licentie aanvragen (optioneel):  
+   - U kunt een verzoek indienen [tijdelijke licentie](https://purchase.aspose.com/temporary-license/) of koop een volledige versie van [Aspose Aankoop](https://purchase.aspose.com/buy).  
+   - Pas de licentie toe in uw project met behulp van:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
 ## Zie ook  
-Om een vergunning te kopen, ga naar [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-Voor volledige documentatie, bezoek [Aspose.Cells voor .NET Documentatie](https://docs.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-Voor de volledige API-referentie, bekijk [Aspose.Cells voor .NET API Reference](https://reference.aspose.com/cells/net/)\- Ik heb het niet gedaan . 
+Om een licentie te kopen, ga naar [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+Voor volledige documentatie, bezoek [Aspose.Cells voor .NET-documentatie](https://docs.aspose.com/cells/net/).  
+Voor de volledige API-referentie kunt u terecht op [Aspose.Cells voor .NET API-referentie](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

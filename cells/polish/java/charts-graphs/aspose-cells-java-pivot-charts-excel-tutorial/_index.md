@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Etapy uzyskania licencji
 - **Bezpłatna wersja próbna:** Zacznij od bezpłatnego okresu próbnego, aby poznać możliwości pakietu Aspose.Cells.
 - **Licencja tymczasowa:** Uzyskaj tymczasową licencję na potrzeby rozszerzonego testowania i rozwoju.
-- **Zakup:** celu długoterminowego użytkowania należy zakupić licencję od [Oficjalna strona internetowa Aspose](https://purchase.aspose.com/buy).
+- **Zakup:** W celu długoterminowego użytkowania należy zakupić licencję od [Oficjalna strona internetowa Aspose](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja
 Po skonfigurowaniu środowiska i dodaniu zależności zainicjuj Aspose.Cells w następujący sposób:
@@ -162,7 +164,7 @@ Aspose.Cells for Java jest wszechstronny i umożliwia integrację wykresów prze
 
 1. **Sprawozdawczość finansowa:** Zautomatyzuj generowanie paneli finansowych.
 2. **Analiza sprzedaży:** Twórz dynamiczne wizualizacje trendów danych sprzedażowych.
-3. **Zarządzanie zapasami:** Monitoruj poziom zapasów za pomocą wykresów przestawnych.
+3. **Zarządzanie zapasami:** Śledź poziom zapasów za pomocą wykresów przestawnych.
 4. **Spostrzeżenia klientów:** Efektywna analiza wzorców zachowań klientów.
 5. **Zarządzanie projektami:** Monitoruj postęp projektu i alokację zasobów.
 
@@ -209,6 +211,9 @@ Przejrzyj te zasoby, aby dowiedzieć się więcej na temat Aspose.Cells i dowied
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

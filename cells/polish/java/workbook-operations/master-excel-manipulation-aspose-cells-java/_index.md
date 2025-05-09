@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "book1.xls");
 ```
 
-#### Krok 3: Dostęp do kolekcji arkuszy roboczych
+#### Krok 3: Uzyskaj dostęp do kolekcji arkuszy roboczych
 ```java
 WorksheetCollection sheets = wb.getWorksheets();
 ```
@@ -185,6 +187,9 @@ Zrób kolejny krok w manipulowaniu plikami Excela, wdrażając te techniki już 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

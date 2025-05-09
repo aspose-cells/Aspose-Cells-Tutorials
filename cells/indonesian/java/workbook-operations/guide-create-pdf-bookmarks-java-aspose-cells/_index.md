@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Bookmark PDF di Java dengan Aspose.Cells: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 Menavigasi laporan Excel yang rumit menjadi mudah dengan bookmark PDF, yang memungkinkan akses cepat ke titik data tertentu. Panduan ini akan menunjukkan kepada Anda cara membuat dan mengelola bookmark PDF menggunakan **Aspose.Cells untuk Java**.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Memuat dan mengakses buku kerja Excel
 - Membuat dan mengonfigurasi entri penanda PDF
 - Tambahkan entri sub-bookmark ke bookmark utama Anda
@@ -24,17 +26,17 @@ Menavigasi laporan Excel yang rumit menjadi mudah dengan bookmark PDF, yang memu
 
 Mari kita mulai dengan menyiapkan lingkungan kita dan mengeksplorasi bagaimana fungsi ini dapat memperlancar tugas pengelolaan data Anda.
 
-## Prasyarat
+## Előfeltételek
 Sebelum kita mulai, pastikan Anda memiliki:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**:Versi pustaka yang digunakan di sini adalah 25.3.
   
-### Pengaturan Lingkungan
+### Környezet beállítása
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Anda.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan bekerja dengan file Excel pada aplikasi Java.
 
@@ -57,10 +59,10 @@ Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda, Anda dapat menggunakan
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
-Untuk menggunakan Aspose.Cells, Anda dapat memulai dengan uji coba gratis atau memperoleh lisensi sementara untuk menjelajahi kemampuan penuh tanpa batasan evaluasi. Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi dari [Asumsikan](https://purchase.aspose.com/buy).
+### Licencszerzés
+Untuk menggunakan Aspose.Cells, Anda dapat memulai dengan uji coba gratis atau memperoleh lisensi sementara untuk menjelajahi kemampuan penuh tanpa batasan evaluasi. Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi dari [Aspose](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Setelah Anda menyertakan pustaka dalam proyek Anda, inisialisasikan sebagai berikut:
 
 ```java
@@ -69,14 +71,14 @@ License license = new License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita uraikan implementasinya ke dalam beberapa bagian yang dapat dikelola.
 
 ### Memuat dan Mengakses Buku Kerja
-#### Ringkasan
+#### Áttekintés
 Pertama, kita akan memuat buku kerja Excel dan mengakses sel tertentu yang akan berfungsi sebagai tujuan untuk penanda PDF kita.
 
-**Langkah 1: Muat Buku Kerja**
+**1. lépés: A munkafüzet betöltése**
 
 ```java
 import com.aspose.cells.Workbook;
@@ -88,16 +90,16 @@ Workbook wb = new Workbook(dataDir + "/samplePdfBookmarkEntry_DestinationName.xl
 ```
 - **Mengapa**:Memuat buku kerja sangat penting untuk mengakses dan memanipulasi isinya.
 
-**Langkah 2: Mengakses Lembar Kerja Tertentu**
+**2. lépés: Hozzáférés egy adott munkalaphoz**
 
 ```java
-Worksheet ws = wb.getWorksheets().get(0); // Akses lembar kerja pertama
+Worksheet ws = wb.getWorksheets().get(0); // Hozzáférés az első munkalaphoz
 Cell cellC5 = ws.getCells().get("C5"); // Akses sel C5 untuk tujuan penanda buku
 ```
 - **Mengapa**: Mengidentifikasi lembar kerja dan sel tertentu memungkinkan kita membuat penanda yang menunjuk ke lokasi tertentu dalam PDF Anda.
 
 ### Membuat dan Mengonfigurasi Entri Bookmark PDF
-#### Ringkasan
+#### Áttekintés
 Sekarang kita akan membuat entri penanda PDF, mengonfigurasinya dengan teks, tujuan, dan nama.
 
 **Langkah 3: Buat Entri Bookmark**
@@ -113,7 +115,7 @@ bookmarkEntry.setDestinationName("AsposeCells--" + cellC5.getName()); // Nama un
 - **Mengapa**Mengonfigurasi entri ini memastikan bahwa bookmark Anda bermakna dan mudah diidentifikasi dalam PDF.
 
 ### Membuat dan Mengonfigurasi Entri Sub-Bookmark
-#### Ringkasan
+#### Áttekintés
 Sub-bookmark menyediakan navigasi tambahan dalam PDF Anda, meningkatkan pengalaman pengguna.
 
 **Langkah 4: Buat Sub-Bookmark**
@@ -144,7 +146,7 @@ bookmarkEntry.setSubEntry(list);
 - **Mengapa**: Menambahkan sub-bookmark membantu pengguna menelusuri bagian tertentu tanpa menggulir halaman.
 
 ### Konfigurasikan Opsi Penyimpanan PDF dan Simpan Buku Kerja sebagai PDF
-#### Ringkasan
+#### Áttekintés
 Terakhir, kita akan mengonfigurasi opsi penyimpanan dan mengekspor buku kerja kita dengan penanda halaman sebagai berkas PDF.
 
 **Langkah 5: Konfigurasi dan Simpan**
@@ -159,27 +161,27 @@ wb.save(outDir + "/outputPdfBookmarkEntry_DestinationName.pdf", opts);
 ```
 - **Mengapa**: Mengonfigurasi opsi penyimpanan dengan benar memastikan bahwa PDF mempertahankan semua properti yang diinginkan, termasuk penanda.
 
-## Aplikasi Praktis
-1. **Laporan Keuangan**: Menavigasi berbagai bagian laporan keuangan dengan mudah.
-2. **Makalah Akademis**:Arahkan siswa ke temuan atau data utama dalam dokumen besar.
+## Gyakorlati alkalmazások
+1. **Pénzügyi jelentések**: Menavigasi berbagai bagian laporan keuangan dengan mudah.
+2. **Akadémiai dolgozatok**:Arahkan siswa ke temuan atau data utama dalam dokumen besar.
 3. **Dokumentasi Teknis**: Memungkinkan pengguna mengakses bagian tertentu dari manual atau panduan dengan cepat.
 
 Integrasi dengan sistem lain seperti aplikasi web dapat lebih meningkatkan aksesibilitas dan pengalaman pengguna.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - Optimalkan penggunaan sumber daya dengan mengelola ukuran dan kompleksitas buku kerja.
 - Gunakan praktik terbaik manajemen memori Java, seperti melepaskan sumber daya saat tidak lagi diperlukan.
 - Menangani berkas Excel besar secara efisien untuk mencegah hambatan kinerja selama konversi PDF.
 
-## Kesimpulan
+## Következtetés
 Anda kini telah menguasai pembuatan dan pengelolaan bookmark PDF dengan Aspose.Cells untuk Java. Keterampilan ini meningkatkan kegunaan dokumen Anda dan memberikan pengalaman pengguna yang lancar di berbagai platform.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 Bereksperimenlah dengan menambahkan struktur penanda yang lebih kompleks atau mengintegrasikan fungsi ini ke dalam aplikasi yang lebih besar.
 
-**Ajakan Bertindak**:Coba terapkan solusi ini dalam proyek Anda dan lihat bagaimana solusi tersebut mengubah aksesibilitas data!
+**Cselekvésre ösztönzés**:Coba terapkan solusi ini dalam proyek Anda dan lihat bagaimana solusi tersebut mengubah aksesibilitas data!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara menginstal Aspose.Cells untuk Java?**
    - Gunakan Maven atau Gradle untuk menyertakan dependensi seperti yang ditunjukkan di atas.
 2. **Bisakah saya menggunakan ini dengan versi file Excel yang lebih lama?**
@@ -191,15 +193,18 @@ Bereksperimenlah dengan menambahkan struktur penanda yang lebih kompleks atau me
 5. **Apakah ada batasan berapa banyak sub-bookmark yang dapat saya buat?**
    - Tidak ada batasan yang ketat, tetapi pertimbangkan dampaknya terhadap keterbacaan dan kinerja.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

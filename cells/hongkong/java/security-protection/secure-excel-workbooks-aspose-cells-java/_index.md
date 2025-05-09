@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -105,7 +107,7 @@ wb.save(outDir + "/outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 
 ### 性能考慮
 要使用 Aspose.Cells 優化 Java 應用程式：
-- 透過在不再需要時釋放資源來有效地管理記憶體。
+- 透過在不再需要時釋放資源來有效管理記憶體。
 - 對於大型資料集，請謹慎使用多線程，以防止瓶頸。
 遵循這些做法有助於維持企業級應用程式的平穩運作。
 
@@ -134,6 +136,9 @@ wb.save(outDir + "/outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

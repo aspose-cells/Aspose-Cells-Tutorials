@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Bước tiếp theo, hãy cân nhắc tìm hiểu sâu hơn về các chức nă
 Sẵn sàng triển khai giải pháp của bạn? Hãy làm theo các bước sau, khám phá các tài nguyên được cung cấp và bắt đầu cải thiện các ứng dụng Java của bạn với Aspose.Cells ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

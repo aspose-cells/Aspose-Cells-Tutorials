@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Raggruppamento dei dati nelle tabelle pivot
@@ -108,9 +110,11 @@ Le tabelle pivot in Excel vengono utilizzate per riassumere e analizzare grandi 
 ### 3. Posso automatizzare la creazione di tabelle pivot utilizzando Aspose.Cells per Java?
 
 Sì, è possibile automatizzare la creazione di tabelle pivot in Excel utilizzando Aspose.Cells per Java, come dimostrato negli esempi di codice sorgente forniti.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Teraz wiesz, jak tworzyć i konfigurować wykresy bąbelkowe za pomocą Aspose.C
 - **Forum wsparcia**:W razie pytań, [forum wsparcia](https://forum.aspose.com/c/cells/9) jest dostępny.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

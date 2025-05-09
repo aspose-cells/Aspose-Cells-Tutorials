@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells Java: Memutar Teks dengan Bentuk di Excel
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan lembar kerja Excel, Anda mungkin menemukan skenario di mana teks dalam bentuk perlu disejajarkan secara tepat tanpa memutar seluruh bentuk. Tutorial ini akan memandu Anda dalam menggunakan **Aspose.Cells untuk Java** untuk mencapai fungsi ini. Dengan mengikuti langkah-langkah ini, Anda akan mempelajari cara memutar teks secara efisien dalam bentuk sambil menjaga bentuknya tetap statis—sempurna untuk meningkatkan keterbacaan dan penyajian dokumen Excel Anda.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Muat berkas Excel yang ada dengan Aspose.Cells.
 - Mengakses dan memanipulasi sel dan bentuk lembar kerja.
 - Putar teks di dalam bentuk tanpa mengubah orientasinya.
@@ -25,18 +27,18 @@ Saat bekerja dengan lembar kerja Excel, Anda mungkin menemukan skenario di mana 
 
 Mari kita bahas prasyarat yang Anda perlukan untuk memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**: Pustaka ini memungkinkan Anda untuk memanipulasi berkas Excel. Pastikan Anda menggunakan versi 25.3 atau yang lebih baru.
   
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - **Kit Pengembangan Java (JDK)**: Instal JDK 8 atau yang lebih tinggi pada komputer Anda.
 - **ide**: Gunakan Lingkungan Pengembangan Terpadu seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java dan keakraban dengan alat pembangun Maven atau Gradle.
 - Kemampuan memahami struktur berkas Excel akan bermanfaat namun bukanlah hal yang wajib.
 
@@ -56,21 +58,21 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Menggunakan Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
 Untuk mencoba Aspose.Cells, Anda dapat memperoleh lisensi sementara gratis atau membelinya untuk mendapatkan fungsionalitas penuh. Ikuti langkah-langkah berikut:
 
-1. **Uji Coba Gratis**: Unduh perpustakaan dari [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara**Minta lisensi sementara di [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian**:Untuk penggunaan jangka panjang, beli lisensi melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió**: Töltsd le a könyvtárat innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély**Ideiglenes engedély igénylése itt: [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás**:Untuk penggunaan jangka panjang, beli lisensi melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Setelah terinstal, inisialisasi Aspose.Cells di aplikasi Java Anda sebagai berikut:
 
@@ -87,11 +89,11 @@ public class ExcelApp {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Muat Contoh File Excel
 
-#### Ringkasan
+#### Áttekintés
 Memuat berkas Excel yang ada adalah langkah pertama dalam proses kami.
 
 ```java
@@ -101,11 +103,11 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "/sampleRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 
-**Penjelasan**: : Itu `Workbook` class mewakili seluruh lembar kerja Anda. Dengan meneruskan jalur file, Anda memuat dokumen Excel ke dalam memori.
+**Magyarázat**A `Workbook` class mewakili seluruh lembar kerja Anda. Dengan meneruskan jalur file, Anda memuat dokumen Excel ke dalam memori.
 
 ### Fitur 2: Akses Lembar Kerja Pertama
 
-#### Ringkasan
+#### Áttekintés
 Mengakses lembar kerja tertentu memungkinkan kita menargetkan area yang tepat untuk manipulasi teks dan bentuk.
 
 ```java
@@ -114,11 +116,11 @@ import com.aspose.cells.Worksheet;
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
-**Penjelasan**: `getWorksheets()` mengembalikan koleksi semua lembar, sementara `get(0)` mengakses lembar kerja pertama.
+**Magyarázat**: `getWorksheets()` mengembalikan koleksi semua lembar, sementara `get(0)` mengakses lembar kerja pertama.
 
 ### Fitur 3: Tambahkan Pesan ke Sel
 
-#### Ringkasan
+#### Áttekintés
 Menambahkan teks ke sel mudah dilakukan dengan Aspose.Cells.
 
 ```java
@@ -128,11 +130,11 @@ Cell b4 = ws.getCells().get("B4");
 b4.putValue("Text is not rotating with shape because RotateTextWithShape is false.");
 ```
 
-**Penjelasan**: `getCells()` mengambil semua objek sel, dan `putValue` menetapkan teks ke sel tertentu.
+**Magyarázat**: `getCells()` mengambil semua objek sel, dan `putValue` menetapkan teks ke sel tertentu.
 
 ### Fitur 4: Akses Bentuk Pertama di Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Memanipulasi bentuk melibatkan akses ke propertinya untuk menyesuaikan perataan teks.
 
 ```java
@@ -144,11 +146,11 @@ ShapeTextAlignment shapeTextAlignment = sh.getTextBody().getTextAlignment();
 shapeTextAlignment.setRotateTextWithShape(false);
 ```
 
-**Penjelasan**: : Itu `getShapes()` metode mengambil semua bentuk, dan kami memodifikasi perataan teks dengan mengatur `setRotateTextWithShape` menjadi salah.
+**Magyarázat**A `getShapes()` metode mengambil semua bentuk, dan kami memodifikasi perataan teks dengan mengatur `setRotateTextWithShape` menjadi salah.
 
 ### Fitur 5: Simpan File Excel ke Direktori Output
 
-#### Ringkasan
+#### Áttekintés
 Terakhir, simpan kembali perubahan Anda ke berkas baru.
 
 ```java
@@ -156,26 +158,26 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "/outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 
-**Penjelasan**: : Itu `save()` metode menulis semua modifikasi ke direktori keluaran yang ditentukan.
+**Magyarázat**A `save()` metode menulis semua modifikasi ke direktori keluaran yang ditentukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pembuatan Laporan**: Menyesuaikan laporan yang label teksnya penting tanpa mengganggu grafik.
+1. **Jelentésgenerálás**: Menyesuaikan laporan yang label teksnya penting tanpa mengganggu grafik.
 2. **Kustomisasi Dasbor**: Pertahankan visual statis pada dasbor bisnis sambil memutar teks deskriptif.
-3. **Materi Pendidikan**: Buat konten pendidikan dengan anotasi yang jelas dan selaras.
+3. **Oktatási anyagok**: Buat konten pendidikan dengan anotasi yang jelas dan selaras.
 4. **Jaminan Pemasaran**: Desain lembar pemasaran yang memerlukan orientasi bentuk yang konsisten meskipun arah teks bervariasi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 - **Optimalkan Pemuatan File**: Muat hanya lembar kerja yang diperlukan untuk mengurangi penggunaan memori.
-- **Pemrosesan Batch**: Saat memproses banyak berkas, pertimbangkan operasi batch demi efisiensi.
-- **Manajemen Memori**: Buang objek dengan segera dan gunakan pengaturan JVM yang sesuai untuk menangani file Excel berukuran besar.
+- **Kötegelt feldolgozás**: Saat memproses banyak berkas, pertimbangkan operasi batch demi efisiensi.
+- **Memóriakezelés**: Buang objek dengan segera dan gunakan pengaturan JVM yang sesuai untuk menangani file Excel berukuran besar.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah mempelajari cara memanipulasi teks dalam bentuk di Excel menggunakan Aspose.Cells untuk Java. Dengan memahami teknik ini, Anda dapat meningkatkan daya tarik visual dan kejelasan lembar kerja Anda. Langkah selanjutnya termasuk mempelajari lebih banyak fitur yang ditawarkan oleh Aspose.Cells atau mengintegrasikannya dengan sistem lain seperti basis data atau aplikasi web.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menginstal Aspose.Cells untuk Java?**
    - Instal melalui Maven atau Gradle seperti yang ditunjukkan di bagian pengaturan.
@@ -184,21 +186,24 @@ Dalam tutorial ini, kami telah mempelajari cara memanipulasi teks dalam bentuk d
 3. **Bagaimana jika bentuk saya tumpang tindih setelah penyesuaian rotasi teks?**
    - Sesuaikan properti bentuk secara manual untuk memastikan tidak saling tumpang tindih.
 4. **Bagaimana cara memutar teks pada derajat tertentu?**
-   - Menggunakan `setRotationAngle` pada `TextBody` untuk penyesuaian sudut yang tepat.
-5. **Apakah ada dukungan yang tersedia jika saya mengalami masalah?**
+   - Használat `setRotationAngle` pada `TextBody` untuk penyesuaian sudut yang tepat.
+5. **Van elérhető támogatás, ha problémákba ütközöm?**
    - Ya, Aspose menawarkan layanan yang komprehensif [mendukung](https://forum.aspose.com/c/cells/9).
 
-## Sumber daya
+## Erőforrás
 
-- Dokumentasi: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- Unduh: [Rilis](https://releases.aspose.com/cells/java/)
-- Pembelian: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- Uji coba gratis: [Unduhan Aspose](https://releases.aspose.com/cells/java/)
+- Dokumentáció: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- Letöltés: [Kiadások](https://releases.aspose.com/cells/java/)
+- Vásárlás: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- Uji coba gratis: [Aspose letöltések](https://releases.aspose.com/cells/java/)
 - Lisensi sementara: [Lisensi Aspose](https://purchase.aspose.com/temporary-license/)
 
 Bereksperimenlah dengan teknik ini, dan tingkatkan manipulasi dokumen Excel Anda ke tingkat berikutnya menggunakan Aspose.Cells untuk Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

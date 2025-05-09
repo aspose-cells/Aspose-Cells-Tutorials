@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -107,7 +109,7 @@ Bir metin kutusu eklemek ve adlandırmak, elektronik tablolarınıza metinsel bi
        public static void main(String[] args) throws Exception {
            Workbook workbook = new Workbook();
            Worksheet sheet = workbook.getWorksheets().get(0);
-           // Metin kutusu eklemek ve adlandırmak için sonraki adımlar.
+           // Metin kutusu eklemek ve adlandırmak için atılacak diğer adımlar.
        }
    }
    ```
@@ -193,6 +195,9 @@ Bir sonraki adım olarak Aspose.Cells'in diğer özelliklerini keşfetmeyi veya 
    - Tüm gerekli Aspose.Cells bağımlılıklarının doğru şekilde dahil edildiğinden emin olmak için projenizin yapı yapılandırmasını (Maven/Gradle) iki kez kontrol edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

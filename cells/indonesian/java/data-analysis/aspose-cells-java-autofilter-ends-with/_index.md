@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menerapkan Filter Otomatis 'Berakhir Dengan' di Excel Menggunakan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Mengelola kumpulan data besar di Excel bisa jadi menakutkan, terutama jika melibatkan pemfilteran entri yang sering. Mengotomatiskan tugas seperti menerapkan filter otomatis dengan Aspose.Cells for Java dapat menghemat waktu dan meminimalkan kesalahan. Tutorial ini akan memandu Anda menggunakan fungsi filter otomatis 'Ends With' untuk menyederhanakan alur kerja Excel Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan dan menggunakan Aspose.Cells untuk Java.
 - Menerapkan filter 'Berakhir Dengan' di Excel dengan Java.
 - Metode dan konfigurasi utama untuk autofilter.
@@ -25,13 +27,13 @@ Mengelola kumpulan data besar di Excel bisa jadi menakutkan, terutama jika melib
 
 Mari mulai dengan menyiapkan lingkungan Anda untuk mengotomatisasi tugas Excel dengan Java!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+Kezdés előtt győződjön meg arról, hogy a következőkkel rendelkezik:
 
-- **Perpustakaan & Ketergantungan:** Diperlukan Aspose.Cells untuk Java. Tutorial ini menggunakan versi 25.3.
-- **Pengaturan Lingkungan:** Diasumsikan memiliki pemahaman dasar tentang Java dan pengalaman dengan alat bantu pembangunan seperti Maven atau Gradle.
-- **Prasyarat Pengetahuan:** Keakraban dengan pemrograman Java, terutama konsep berorientasi objek.
+- **Könyvtárak és függőségek:** Diperlukan Aspose.Cells untuk Java. Tutorial ini menggunakan versi 25.3.
+- **Környezet beállítása:** Diasumsikan memiliki pemahaman dasar tentang Java dan pengalaman dengan alat bantu pembangunan seperti Maven atau Gradle.
+- **Előfeltételek a tudáshoz:** Keakraban dengan pemrograman Java, terutama konsep berorientasi objek.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -51,12 +53,12 @@ Sertakan Aspose.Cells dalam proyek Anda menggunakan Maven atau Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells beroperasi di bawah model lisensi. Anda dapat:
-- **Uji Coba Gratis:** Unduh lisensi uji coba untuk menguji kemampuan penuh.
-- **Lisensi Sementara:** Ajukan permohonan lisensi sementara untuk evaluasi tanpa batasan.
-- **Pembelian:** Beli lisensi komersial untuk penggunaan produksi.
+- **Ingyenes próbaverzió:** Unduh lisensi uji coba untuk menguji kemampuan penuh.
+- **Ideiglenes engedély:** Ajukan permohonan lisensi sementara untuk evaluasi tanpa batasan.
+- **Vásárlás:** Beli lisensi komersial untuk penggunaan produksi.
 
 Setelah lingkungan Anda siap, inisialisasi Aspose.Cells:
 ```java
@@ -64,11 +66,11 @@ Setelah lingkungan Anda siap, inisialisasi Aspose.Cells:
 Workbook workbook = new Workbook("path_to_your_file.xlsx");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan menguraikan langkah-langkahnya untuk memastikan kejelasan dan kemudahan pemahaman.
 
-### Langkah 1: Muat File Excel Anda
+### 1. lépés: Töltse be az Excel-fájlt
 
 Muat berkas Excel Anda di mana filter otomatis akan diterapkan:
 ```java
@@ -76,11 +78,11 @@ Muat berkas Excel Anda di mana filter otomatis akan diterapkan:
 Workbook workbook = new Workbook(srcDir + "sourceSampleCountryNames.xlsx");
 ```
 
-### Langkah 2: Akses Lembar Kerja
+### 2. lépés: A munkalap elérése
 
 Akses lembar kerja untuk penyaringan:
 ```java
-// Dapatkan lembar kerja pertama
+// Szerezd meg az első munkalapot
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -109,33 +111,33 @@ worksheet.getAutoFilter().refresh();
 workbook.save(outDir + "outSourceSampleCountryNames.xlsx");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Mengotomatiskan filter Excel sangat berharga dalam berbagai skenario:
-1. **Analisis Data:** Persempit kumpulan data besar secara efisien.
-2. **Pelaporan:** Memperlancar penyusunan laporan dengan memfilter data secara otomatis.
-3. **Manajemen Inventaris:** Filter stok barang dengan kode atau pengenal tertentu untuk pelacakan yang efisien.
+1. **Adatelemzés:** Persempit kumpulan data besar secara efisien.
+2. **Jelentéstétel:** Memperlancar penyusunan laporan dengan memfilter data secara otomatis.
+3. **Készletgazdálkodás:** Filter stok barang dengan kode atau pengenal tertentu untuk pelacakan yang efisien.
 
 Jelajahi kemungkinan integrasi, seperti menghubungkan aplikasi Java Anda ke basis data dan mengotomatiskan proses pembuatan laporan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Ketika berhadapan dengan kumpulan data besar:
 - **Optimalkan Waktu Pemuatan Buku Kerja:** Muat hanya lembar kerja dan kolom yang diperlukan.
-- **Manajemen Memori:** Menggunakan `Workbook.dispose()` untuk membebaskan sumber daya setelah operasi.
+- **Memóriakezelés:** Használat `Workbook.dispose()` untuk membebaskan sumber daya setelah operasi.
 - **Penyaringan Efisien:** Batasi rentang sel saat mengatur filter otomatis untuk meningkatkan kinerja.
 
-## Kesimpulan
+## Következtetés
 
 Kini Anda tahu cara menerapkan autofilter 'Ends With' di Excel menggunakan Aspose.Cells untuk Java. Fitur ini meningkatkan kemampuan pengelolaan data, sehingga Anda dapat fokus pada wawasan daripada tugas manual.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan jenis filter lain yang disediakan oleh Aspose.Cells.
 - Jelajahi pengintegrasian fungsi ini ke dalam aplikasi atau alur kerja yang lebih besar.
 
 Siap untuk mengembangkan keterampilan otomatisasi Anda lebih jauh? Pelajari lebih dalam dokumentasinya dan mulailah membangun solusi Excel yang tangguh hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara memulai dengan Aspose.Cells untuk Java?** 
    Tambahkan dependensi pustaka menggunakan Maven atau Gradle, lalu dapatkan lisensi dari Aspose.
@@ -148,16 +150,19 @@ Siap untuk mengembangkan keterampilan otomatisasi Anda lebih jauh? Pelajari lebi
 5. **Di mana saya dapat menemukan lebih banyak contoh penggunaan autofilter?**
    Jelajahi dokumentasi resmi dan forum komunitas untuk kasus penggunaan lanjutan dan contoh kode.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan Komunitas Aspose](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

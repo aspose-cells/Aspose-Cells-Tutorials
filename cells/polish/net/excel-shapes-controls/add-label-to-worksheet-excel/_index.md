@@ -1,29 +1,31 @@
 ---
-title: Dodaj etykietę do arkusza kalkulacyjnego w programie Excel
-linktitle: Dodaj etykietę do arkusza kalkulacyjnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodać etykietę do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z naszego przewodnika krok po kroku. Twórz dynamiczne skoroszyty programu Excel programowo.
-weight: 13
-url: /pl/net/excel-shapes-controls/add-label-to-worksheet-excel/
+"description": "Dowiedz się, jak dodać etykietę do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET, korzystając z naszego przewodnika krok po kroku. Twórz dynamiczne skoroszyty programu Excel programowo."
+"linktitle": "Dodaj etykietę do arkusza kalkulacyjnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj etykietę do arkusza kalkulacyjnego w programie Excel"
+"url": "/pl/net/excel-shapes-controls/add-label-to-worksheet-excel/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj etykietę do arkusza kalkulacyjnego w programie Excel
 
 ## Wstęp
-tym samouczku pokażemy Ci, jak dodać etykietę do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET. Wyobraź sobie, że dynamicznie budujesz plik programu Excel i musisz wstawić etykiety, aby wyjaśnić dane lub dodać instrukcje. Używając Aspose.Cells, możesz to zrobić w zaledwie kilku krokach, nawet bez konieczności instalowania programu Microsoft Excel na swoim komputerze. 
+W tym samouczku pokażemy Ci, jak dodać etykietę do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET. Wyobraź sobie, że dynamicznie budujesz plik programu Excel i musisz wstawić etykiety, aby wyjaśnić dane lub dodać instrukcje. Używając Aspose.Cells, możesz to zrobić w zaledwie kilku krokach, nawet bez konieczności instalowania programu Microsoft Excel na swoim komputerze. 
 ## Wymagania wstępne
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest skonfigurowane:
 - Aspose.Cells dla .NET: Należy zainstalować tę wydajną bibliotekę, która upraszcza pracę z plikami Excela.
 - Środowisko programistyczne: Upewnij się, że masz zgodne środowisko programistyczne, np. Visual Studio.
 - Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# ułatwi Ci naukę.
--  Licencja Aspose.Cells: Aby uniknąć znaków wodnych lub ograniczeń, możesz chcieć uzyskać tymczasową lub pełną licencję. Sprawdź, jak ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+- Licencja Aspose.Cells: Aby uniknąć znaków wodnych lub ograniczeń, możesz chcieć uzyskać tymczasową lub pełną licencję. Sprawdź, jak ją uzyskać [Tutaj](https://purchase.aspose.com/temporary-license/).
 
 ## Importuj pakiety
-Zanim napiszesz jakikolwiek kod, musisz zaimportować wymagane pakiety do swojego projektu C#. Oto, czego potrzebujesz:
+Przed napisaniem jakiegokolwiek kodu musisz zaimportować wymagane pakiety do swojego projektu C#. Oto, czego potrzebujesz:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -58,7 +60,7 @@ W pliku Excel możesz mieć wiele arkuszy kalkulacyjnych. W tym przykładzie bę
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
 ```
- Ten`Worksheets[0]`pobiera pierwszy arkusz w skoroszycie. Możesz odwołać się do tego arkusza według jego indeksu lub nazwy.
+Ten `Worksheets[0]` pobiera pierwszy arkusz w skoroszycie. Możesz odwołać się do tego arkusza według jego indeksu lub nazwy.
 ## Krok 4: Dodaj etykietę do arkusza kalkulacyjnego
 
 Teraz dodajmy etykietę do arkusza kalkulacyjnego. Etykieta jest zasadniczo polem tekstowym, które można dowolnie pozycjonować.
@@ -79,17 +81,17 @@ Następnie możesz chcieć zdefiniować, jak zachowuje się etykieta, gdy komór
 ```csharp
 label.Placement = PlacementType.FreeFloating;
 ```
- Ustawiając typ rozmieszczenia na`FreeFloating`, zapewniasz, że pozycja etykiety jest niezależna od zmiany rozmiaru komórki lub ruchu. Pozostanie tam, gdzie ją umieścisz.
+Ustawiając typ rozmieszczenia na `FreeFloating`, zapewniasz, że pozycja etykiety jest niezależna od zmiany rozmiaru komórki lub ruchu. Pozostanie tam, gdzie ją umieścisz.
 ## Krok 7: Zapisz skoroszyt
 
 Na koniec zapiszemy skoroszyt z dodaną etykietą.
 ```csharp
 workbook.Save(dataDir + "book1.out.xls");
 ```
- To polecenie zapisuje skoroszyt w wyznaczonym katalogu pod nazwą pliku`book1.out.xls`. Możesz otworzyć ten plik w programie Excel, aby zobaczyć etykietę w akcji!
+To polecenie zapisuje skoroszyt w wyznaczonym katalogu pod nazwą pliku `book1.out.xls`. Możesz otworzyć ten plik w programie Excel, aby zobaczyć etykietę w akcji!
 
 ## Wniosek
-I masz to! Dodawanie etykiety do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET to prosty proces. Niezależnie od tego, czy etykietujesz dane, dodajesz komentarze czy podajesz instrukcje, etykiety mogą być potężnym narzędziem, dzięki któremu pliki programu Excel będą bardziej informacyjne i przyjazne dla użytkownika. Wykonując te kroki, możesz programowo tworzyć dynamiczne skoroszyty programu Excel i dostosowywać je do swoich potrzeb.
+masz to! Dodawanie etykiety do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET to prosty proces. Niezależnie od tego, czy etykietujesz dane, dodajesz komentarze czy podajesz instrukcje, etykiety mogą być potężnym narzędziem, dzięki któremu pliki programu Excel będą bardziej informacyjne i przyjazne dla użytkownika. Wykonując te kroki, możesz programowo tworzyć dynamiczne skoroszyty programu Excel i dostosowywać je do swoich potrzeb.
 
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells dla .NET?
@@ -97,14 +99,16 @@ Aspose.Cells for .NET to biblioteka, która umożliwia programistom tworzenie, m
 ### Czy mogę dodać inne kształty do arkusza kalkulacyjnego za pomocą Aspose.Cells?
 Oczywiście! Aspose.Cells obsługuje wiele kształtów, w tym prostokąty, okręgi i wykresy. Proces jest dość podobny do dodawania etykiety.
 ### Czy potrzebuję licencji, aby używać Aspose.Cells dla .NET?
- Tak, możesz wypróbować Aspose.Cells za darmo z ograniczeniami, ale do pełnej funkcjonalności wymagana jest licencja. Możesz uzyskać tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz wypróbować Aspose.Cells za darmo z ograniczeniami, ale do pełnej funkcjonalności wymagana jest licencja. Możesz uzyskać tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Czy mogę stylizować etykietę?
 Tak, możesz dostosować czcionkę, rozmiar i kolor tekstu etykiety, a także jej tło i style obramowania.
 ### Jak poradzić sobie z błędami podczas zapisywania skoroszytu?
 Upewnij się, że katalog, do którego zapisujesz, istnieje i że masz uprawnienia do zapisu. Możesz również obsługiwać wyjątki w swoim kodzie, aby wyłapać wszelkie problemy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

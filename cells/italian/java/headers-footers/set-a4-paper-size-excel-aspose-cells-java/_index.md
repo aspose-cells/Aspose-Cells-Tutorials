@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Workbook workbook = new Workbook();
 ```
 
 #### Passaggio 2: accedere alla raccolta di fogli di lavoro
-Recupera la raccolta di fogli di lavoro all'interno della tua cartella di lavoro. Questo ti consente di interagire con fogli esistenti o appena aggiunti.
+Recupera la raccolta di fogli di lavoro all'interno della tua cartella di lavoro. Questo ti consente di interagire con i fogli esistenti o con quelli appena aggiunti.
 
 ```java
 import com.aspose.cells.WorksheetCollection;
@@ -189,6 +191,9 @@ Per ampliare ulteriormente le tue competenze:
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells Java e scopri tutte le potenzialità della manipolazione dei file Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

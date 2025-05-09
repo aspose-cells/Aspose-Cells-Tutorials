@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Hãy bắt đầu bằng cách thiết lập môi trường của bạn!
 
 ### Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện bắt buộc:** Phiên bản 25.3 của Aspose.Cells dành cho Java.
+- **Thư viện cần thiết:** Phiên bản 25.3 của Aspose.Cells dành cho Java.
 - **Môi trường phát triển:** Thiết lập Java có cài đặt công cụ xây dựng Maven hoặc Gradle.
 - **Cơ sở kiến thức:** Hiểu biết cơ bản về Java và quen thuộc với các thao tác trong Excel.
 
@@ -96,7 +98,7 @@ Sau khi tạo xong bảng tính, việc lưu bảng tính đó dưới dạng PD
 Các `save` Phương pháp này chuyển đổi và lưu tệp Excel của bạn thành nhiều định dạng khác nhau, bao gồm PDF. Tính năng này đảm bảo tính toàn vẹn của dữ liệu khi chia sẻ tài liệu trên nhiều nền tảng khác nhau.
 
 **Các bước thực hiện:**
-1. **Lưu sổ làm việc dưới dạng PDF:**
+1. **Lưu Workbook dưới dạng PDF:**
     ```java
     import com.aspose.cells.Workbook;
     
@@ -165,6 +167,9 @@ Bạn đã sẵn sàng thử chưa? Hãy tự tin tham gia thao tác Excel tự 
 Kiểm soát dữ liệu Excel của bạn ngay hôm nay với Aspose.Cells Java và tận hưởng sức mạnh của tự động hóa!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

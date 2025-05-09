@@ -1,14 +1,16 @@
 ---
-title: Установить ориентацию страницы Excel
-linktitle: Установить ориентацию страницы Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как пошагово настроить ориентацию страницы Excel с помощью Aspose.Cells для .NET. Получите оптимизированные результаты.
-weight: 130
-url: /ru/net/excel-page-setup/set-excel-page-orientation/
+"description": "Узнайте, как пошагово настроить ориентацию страницы Excel с помощью Aspose.Cells для .NET. Получите оптимизированные результаты."
+"linktitle": "Установить ориентацию страницы Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Установить ориентацию страницы Excel"
+"url": "/ru/net/excel-page-setup/set-excel-page-orientation/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установить ориентацию страницы Excel
@@ -22,7 +24,7 @@ url: /ru/net/excel-page-setup/set-excel-page-orientation/
 Прежде чем приступить к работе, важно прояснить несколько моментов, чтобы обеспечить бесперебойный процесс:
 
 1. Visual Studio: Убедитесь, что на вашем компьютере установлена Visual Studio. Здесь вы будете писать свой код.
-2.  Aspose.Cells for .NET: Вам нужна библиотека Aspose.Cells for .NET. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/) если вы еще этого не сделали.
+2. Aspose.Cells for .NET: Вам нужна библиотека Aspose.Cells for .NET. Вы можете [скачать здесь](https://releases.aspose.com/cells/net/) если вы еще этого не сделали.
 3. Базовые знания C#: знакомство с языком программирования C# будет весьма полезным, поскольку это руководство написано на C#.
 4. Рабочее пространство: подготовьте среду кодирования и каталог для сохранения документов, так как они вам понадобятся!
 
@@ -47,7 +49,7 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Здесь замените`"YOUR DOCUMENT DIRECTORY"` с фактическим путем в вашей системе. Думайте об этом как о указании пункта назначения для вашего путешествия.
+Здесь замените `"YOUR DOCUMENT DIRECTORY"` с фактическим путем в вашей системе. Думайте об этом как о указании пункта назначения для вашего путешествия.
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
@@ -58,7 +60,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook();
 ```
 
- Создание нового`Workbook`это как открыть новую чистую страницу в блокноте, готовую для заполнения любой информацией, которую вы захотите!
+Создание нового `Workbook` это как открыть новую чистую страницу в блокноте, готовую для заполнения любой информацией, которую вы захотите!
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -103,19 +105,21 @@ workbook.Save(dataDir + "PageOrientation_out.xls");
 Aspose.Cells для .NET — это мощная библиотека для программного управления файлами Excel с такими функциями, как создание, редактирование, преобразование и т. д.
 
 ### Могу ли я изменить ориентацию на альбомную?
- Да! Вы можете установить ориентацию`PageOrientationType.Landscape` аналогичным образом.
+Да! Вы можете установить ориентацию `PageOrientationType.Landscape` аналогичным образом.
 
 ### Доступна ли поддержка Aspose.Cells?
- Конечно! Вы можете посетить их[форум поддержки](https://forum.aspose.com/c/cells/9) для любых вопросов или помощи.
+Конечно! Вы можете посетить их [форум поддержки](https://forum.aspose.com/c/cells/9) для любых вопросов или помощи.
 
 ### Как получить временную лицензию для Aspose.Cells?
- Вы можете запросить временную лицензию у[здесь](https://purchase.aspose.com/temporary-license/)что позволяет вам опробовать функции без ограничений.
+Вы можете запросить временную лицензию у [здесь](https://purchase.aspose.com/temporary-license/), что позволяет вам опробовать функции без ограничений.
 
 ### Может ли Aspose.Cells обрабатывать большие файлы Excel?
 Да, Aspose.Cells оптимизирован для обработки больших файлов и может эффективно выполнять различные операции.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

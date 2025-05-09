@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ In diesem Tutorial haben Sie gelernt, wie Sie Ihre Excel-Arbeitsmappen mit Aspos
    - Ja, Aspose.Cells unterstützt eine breite Palette von Excel-Dateiformaten, einschließlich älterer Versionen wie `.xls` und neuere wie `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

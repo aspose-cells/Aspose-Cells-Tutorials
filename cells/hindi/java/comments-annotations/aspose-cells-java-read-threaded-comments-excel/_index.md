@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### पैरामीटर और विधियाँ
 - **वर्कबुक**: संपूर्ण एक्सेल फ़ाइल का प्रतिनिधित्व करता है.
-- **कार्यपत्रक**: कार्यपुस्तिका के भीतर एकल शीट को संदर्भित करता है।
+- **कार्यपत्रक**कार्यपुस्तिका के भीतर एकल शीट को संदर्भित करता है।
 - **थ्रेडेडटिप्पणीसंग्रह**किसी सेल से संबद्ध टिप्पणियों का संग्रह.
 
 ## व्यावहारिक अनुप्रयोगों
@@ -148,6 +150,9 @@ Aspose.Cells की अन्य विशेषताओं का अन्व
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Hãy bắt đầu bằng cách thiết lập môi trường của bạn để kh
 ## Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện bắt buộc:** Bao gồm Aspose.Cells for Java vào dự án của bạn bằng Maven hoặc Gradle.
+- **Thư viện cần thiết:** Bao gồm Aspose.Cells for Java vào dự án của bạn bằng Maven hoặc Gradle.
 - **Thiết lập môi trường:** Môi trường phát triển Java được cấu hình (ví dụ: IntelliJ IDEA, Eclipse).
 - **Yêu cầu về kiến thức:** Hiểu biết cơ bản về lập trình Java và IDE.
 
@@ -168,7 +170,7 @@ worksheet.setFirstVisibleColumn(1);
 System.out.println("B column set as the first visible column!");
 ```
 
-##### Thiết lập khả năng hiển thị hàng
+##### Thiết lập khả năng hiển thị của hàng
 
 ```java
 // Đặt hàng thứ 2 (chỉ mục 1) làm hàng đầu tiên hiển thị trong bảng tính
@@ -226,6 +228,9 @@ Bây giờ bạn đã có đủ tài nguyên và kiến thức, hãy bắt đầ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

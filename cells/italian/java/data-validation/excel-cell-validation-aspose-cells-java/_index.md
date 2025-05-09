@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ public class AccessWorksheet {
     }
 }
 ```
-- **Parametri**: IL `workbook.getWorksheets().get(index)` Il metodo recupera i fogli di lavoro tramite l'indice.
+- **Parametri**: IL `workbook.getWorksheets().get(index)` Il metodo recupera i fogli di lavoro tramite indice.
 - **Scopo**: consente di indirizzare le operazioni sui dati a fogli di lavoro specifici.
 
 ### Accedi e convalida la cella C1 (H2)
@@ -140,7 +142,7 @@ public class ValidateCellC1 {
         // Accedi alla cella 'C1'
         Cell cell = worksheet.getCells().get("C1");
 
-        // Inserisci il valore 3, che non dovrebbe superare la convalida
+        // Inserisci il valore 3, che dovrebbe fallire la convalida
         cell.putValue(3);
         boolean isValidValueForThree = cell.getValidationValue();
         
@@ -196,11 +198,11 @@ public class ValidateCellD1 {
 ## Applicazioni pratiche
 La convalida cellulare non riguarda solo l'integrità dei dati di base; ha anche ampie applicazioni pratiche:
 
-1. **Validazione dei dati finanziari**: Applicare vincoli alle cifre finanziarie per impedire inserimenti errati negli strumenti di budget.
+1. **Validazione dei dati finanziari**: Applicare vincoli alle cifre finanziarie per evitare inserimenti errati negli strumenti di budget.
 2. **Moduli di immissione dati**: Utilizzare regole di convalida per garantire che gli utenti inseriscano correttamente i dati nei moduli o nei modelli.
 3. **Sistemi di gestione dell'inventario**: Convalida quantità e codici prodotto, riducendo l'errore umano.
 4. **Cartelle cliniche**: Assicurarsi che i campi dei dati del paziente siano conformi agli standard medici.
-5. **Sistemi di valutazione educativa**: Limitare le voci di valutazione a intervalli validi, mantenendo registrazioni accurate.
+5. **Sistemi di valutazione educativa**: Limitare le voci dei voti a intervalli validi, mantenendo registrazioni accurate.
 
 Queste applicazioni dimostrano la versatilità di Aspose.Cells nel migliorare l'affidabilità dei dati in vari settori.
 
@@ -211,6 +213,9 @@ Quando si lavora con file Excel di grandi dimensioni o con regole di convalida c
 - Profila la tua applicazione per identificare i colli di bottiglia e ottimizzarla di conseguenza.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

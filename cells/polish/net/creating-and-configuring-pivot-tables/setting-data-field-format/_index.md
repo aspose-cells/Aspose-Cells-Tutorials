@@ -1,14 +1,16 @@
 ---
-title: Ustawianie formatu pola danych programowo w .NET
-linktitle: Ustawianie formatu pola danych programowo w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Opanuj formatowanie pól danych w tabelach przestawnych za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz formatowanie danych w programie Excel.
-weight: 19
-url: /pl/net/creating-and-configuring-pivot-tables/setting-data-field-format/
+"description": "Opanuj formatowanie pól danych w tabelach przestawnych za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz formatowanie danych w programie Excel."
+"linktitle": "Ustawianie formatu pola danych programowo w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie formatu pola danych programowo w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/setting-data-field-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie formatu pola danych programowo w .NET
@@ -18,12 +20,12 @@ Jeśli zagłębiasz się w manipulacje plikami Excela przy użyciu .NET, prawdop
 ## Wymagania wstępne
 Zanim wyruszymy w tę podróż, upewnijmy się, że wszystko masz uporządkowane. Oto krótka lista kontrolna tego, czego potrzebujesz:
 1. Visual Studio: Bo kto nie lubi dobrego zintegrowanego środowiska programistycznego (IDE)?
-2.  Biblioteka Aspose.Cells dla .NET: Można ją łatwo pobrać ze strony[Strona wydań Aspose](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells dla .NET: Można ją łatwo pobrać ze strony [Strona wydań Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Jeśli znasz podstawy języka programowania, to jesteś gotowy na wszystko!
 ### Dlaczego Aspose.Cells?
 Aspose.Cells for .NET to potężna biblioteka zaprojektowana specjalnie do zarządzania operacjami plików Excel. Umożliwia ona łatwe czytanie, zapisywanie, manipulowanie i konwertowanie plików Excel. Wyobraź sobie, że możesz programowo tworzyć raporty, tabele przestawne, a nawet wykresy bez konieczności zagłębiania się w interfejs użytkownika Excela — brzmi jak magia, prawda?
 ## Importuj pakiety
-Teraz, gdy mamy już wszystkie wymagania wstępne, przejdźmy do następnych kroków. Zacznij od zaimportowania niezbędnych pakietów. Oto, jak możesz je uruchomić:
+Teraz, gdy mamy już wszystkie wymagania wstępne, przejdźmy do kolejnych kroków. Zacznij od zaimportowania niezbędnych pakietów. Oto, jak możesz je uruchomić:
 ### Utwórz nowy projekt
 Otwórz Visual Studio i utwórz nowy projekt C#. Wybierz szablon aplikacji konsoli, ponieważ będziemy wykonywać przetwarzanie zaplecza.
 ### Dodaj odniesienie do Aspose.Cells
@@ -43,7 +45,7 @@ Dzięki temu uzyskasz dostęp do funkcjonalności oferowanych przez Aspose.Cells
 
 Dobrze, teraz przechodzimy do sedna naszego programu. Będziemy pracować z istniejącym plikiem Excela — nazwijmy go „Book1.xls” na potrzeby tego samouczka.
 ## Krok 1: Zdefiniuj swój katalog danych
-Przede wszystkim musisz wskazać swojemu programowi, gdzie ma znaleźć ten cenny plik Excela.
+Przede wszystkim musisz wskazać programowi, gdzie ma znaleźć ten cenny plik Excela.
 ```csharp
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory"; // Pamiętaj, aby zmienić tę ścieżkę na swoją rzeczywistą ścieżkę!
@@ -78,7 +80,7 @@ Z kolekcji pól możemy uzyskać dostęp do pierwszego. To jak wyjęcie pierwsze
 Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0]; // Pobierz pierwsze pole danych
 ```
 ## Krok 7: Ustaw format wyświetlania danych
-Następnie ustawmy format wyświetlania danych pola pivot. To tutaj możesz zacząć pokazywać znaczące wizualizacje — na przykład procenty:
+Następnie ustawmy format wyświetlania danych pola pivot. Tutaj możesz zacząć pokazywać znaczące wizualizacje — na przykład procenty:
 ```csharp
 // Ustawianie formatu wyświetlania danych
 pivotField.DataDisplayFormat = Aspose.Cells.Pivot.PivotFieldDataDisplayFormat.PercentageOf;
@@ -86,7 +88,7 @@ pivotField.DataDisplayFormat = Aspose.Cells.Pivot.PivotFieldDataDisplayFormat.Pe
 ## Krok 8: Ustaw pole bazowe i element bazowy
 Każde pole pivot może być powiązane z innym polem jako odniesienie bazowe. Skonfigurujmy to:
 ```csharp
-//Ustawianie pola bazowego
+// Ustawianie pola bazowego
 pivotField.BaseFieldIndex = 1; // Użyj odpowiedniego indeksu dla pola bazowego
 // Ustawianie elementu bazowego
 pivotField.BaseItemPosition = Aspose.Cells.Pivot.PivotItemPosition.Next; // Wybierz następny element
@@ -110,16 +112,18 @@ Gratulacje! Właśnie przeszedłeś samouczek dotyczący ustawiania formatów p�
 ### Czy mogę używać Aspose.Cells do tworzenia plików Excela od podstaw?
 Oczywiście! Możesz tworzyć i manipulować plikami Excela za pomocą Aspose.Cells od podstaw.
 ### Czy jest dostępna bezpłatna wersja próbna?
- Tak! Możesz sprawdzić[Bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak! Możesz sprawdzić [Bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Jakie formaty plików Excel obsługuje Aspose.Cells?
 Obsługuje różne formaty, w tym XLS, XLSX, CSV i inne.
 ### Czy muszę płacić za licencję?
- Masz kilka opcji! Możesz kupić licencję na[Kup stronę](https://purchase.aspose.com/buy) Alternatywnie,[Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jest również dostępny.
+Masz kilka opcji! Możesz kupić licencję na [Kup stronę](https://purchase.aspose.com/buy)Alternatywnie, [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jest również dostępny.
 ### Gdzie mogę znaleźć pomoc, jeśli mam problemy?
- Możesz znaleźć u nich wsparcie[Forum wsparcia](https://forum.aspose.com/c/cells/9).
+Możesz znaleźć u nich wsparcie [Forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

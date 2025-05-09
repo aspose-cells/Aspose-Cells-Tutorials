@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metode Enkripsi Buku Kerja
@@ -22,12 +24,12 @@ Di era digital saat ini, keamanan data adalah yang terpenting. Saat menangani in
 
 Sebelum kita menyelami detail implementasinya, mari kita pahami dulu apa itu enkripsi buku kerja dan mengapa itu penting. Enkripsi buku kerja adalah proses pengamanan konten buku kerja Excel dengan menerapkan algoritma enkripsi pada data di dalamnya. Ini memastikan bahwa hanya pengguna yang berwenang dengan kunci dekripsi yang dapat mengakses dan melihat konten buku kerja, menjaga data sensitif Anda aman dari mata-mata.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai bekerja dengan Aspose.Cells untuk Java dan enkripsi, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
-- Aspose.Cells untuk pustaka Java, yang dapat Anda unduh dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java, yang dapat Anda unduh dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Memulai
 
@@ -41,12 +43,12 @@ Mulailah dengan mengimpor pustaka Aspose.Cells for Java ke dalam proyek Java And
 import com.aspose.cells.*;
 ```
 
-### Langkah 2: Muat Buku Kerja Excel
+### 2. lépés: Töltse be az Excel-munkafüzetet
 
 Untuk bekerja dengan buku kerja Excel tertentu, Anda perlu memuatnya ke dalam aplikasi Java Anda. Gunakan kode berikut untuk memuat buku kerja yang sudah ada:
 
 ```java
-// Memuat buku kerja Excel
+// Töltse be az Excel munkafüzetet
 Workbook workbook = new Workbook("path/to/your/workbook.xlsx");
 ```
 
@@ -77,11 +79,11 @@ Setelah mengenkripsi buku kerja, Anda dapat menyimpannya kembali ke sistem file:
 workbook.save("path/to/encrypted/workbook.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Mengamankan buku kerja Excel Anda dengan enkripsi merupakan langkah penting dalam menjaga keamanan data sensitif. Aspose.Cells untuk Java menyederhanakan proses ini dengan menawarkan berbagai metode enkripsi yang dapat Anda integrasikan dengan mudah ke dalam aplikasi Java Anda. Baik Anda lebih suka enkripsi berbasis kata sandi atau enkripsi AES tingkat lanjut, Aspose.Cells siap membantu Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Seberapa amankah enkripsi buku kerja di Aspose.Cells untuk Java?
 
@@ -106,6 +108,7 @@ Aspose.Cells untuk Java terutama berfokus pada buku kerja Excel, tetapi mungkin 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

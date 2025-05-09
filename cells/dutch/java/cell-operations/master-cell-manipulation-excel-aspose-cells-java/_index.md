@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ A5: Absoluut. Het biedt robuuste functies die ideaal zijn voor complexe gegevens
 Door deze tools en technieken onder de knie te krijgen, kunt u uw Excel-gerelateerde projecten met Java verbeteren en de kracht van Aspose.Cells optimaal benutten. Veel plezier met programmeren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

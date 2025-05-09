@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dinamik Pivot Tablolar
@@ -107,9 +109,11 @@ Evet, belirli veri alt kümelerini görüntülemek için pivot tablolara filtrel
 ### S5: Aspose.Cells, Excel'in gelişmiş pivot tablo özelliklerini destekliyor mu?
 
 Evet, Aspose.Cells Excel'in gelişmiş pivot tablo özelliklerine kapsamlı destek sağlayarak karmaşık pivot tablolar oluşturmanıza olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

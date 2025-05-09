@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,7 +272,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "IPCellReference_out.xlsx");
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 ### 実際のユースケース
 
@@ -301,6 +303,9 @@ workbook.save(outDir + "IPCellReference_out.xlsx");
 - 最新の機能とパフォーマンスの向上を活用するには、Aspose.Cells を定期的に更新してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### ライセンス取得手順
 
-Aspose.Cellsは、機能を試すための無料トライアルを提供しています。一時ライセンスを取得するか、ウェブサイトからフルライセンスを購入してすべての機能をご利用いただくことができます。
+Aspose.Cellsは、機能をお試しいただける無料トライアルを提供しています。一時ライセンスを取得するか、ウェブサイトからフルライセンスを購入してすべての機能をご利用いただくことができます。
 
 #### 基本的な初期化とセットアップ
 
@@ -102,7 +104,7 @@ Workbook workbook = new Workbook(FileFormatType.XLSX);
 
 #### ステップ2: IDと表示名を持つコンテンツタイププロパティを追加する
 
-使用 `add` カスタムコンテンツタイプを挿入するメソッドです。ID、表示名、データ型を指定します。
+使用 `add` カスタムコンテンツタイプを挿入するメソッド。ID、表示名、データ型を指定します。
 
 ```java
 // ID、表示名、タイプを持つコンテンツタイププロパティを追加する
@@ -177,7 +179,7 @@ Aspose.Cells のその他の機能を活用して、Excel 操作をさらに自�
 使用 `setNillable(false)` この設定を適用するには、各プロパティにメソッドを設定します。
 
 ### Q4: Aspose.Cells にカスタム コンテンツ タイプを追加するときによく発生する問題は何ですか?
-よくある問題としては、ファイルの保存パス設定が間違っている、古いバージョンのライブラリを使用している、などが挙げられます。パスが正しいこと、依存関係が更新されていることを確認してください。
+よくある問題としては、ファイルの保存パス設定が間違っている、ライブラリのバージョンが古いなどです。パスが正しいこと、依存関係が最新であることを確認してください。
 
 ### Q5: Aspose.Cells に関するその他のリソースやサポートはどこで入手できますか?
 訪問する [ドキュメント](https://reference.aspose.com/cells/java/) 包括的なガイドについては、 [Asposeフォーラム](https://forum.aspose.com/c/cells/9) コミュニティのサポートのため。
@@ -192,6 +194,9 @@ Aspose.Cells のその他の機能を活用して、Excel 操作をさらに自�
 - **サポート**https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

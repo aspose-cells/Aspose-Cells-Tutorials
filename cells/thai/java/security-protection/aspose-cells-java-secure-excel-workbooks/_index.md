@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ workbook.save(outDir + "/AEncryption_out.xls");
    - ใช่ Aspose.Cells รองรับรูปแบบไฟล์ Excel หลากหลาย รวมถึงเวอร์ชันเก่าๆ เช่น `.xls` และแบบใหม่กว่าเช่น `-xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

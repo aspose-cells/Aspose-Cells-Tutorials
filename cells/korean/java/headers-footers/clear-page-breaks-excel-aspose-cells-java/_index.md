@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ public class ClearHorizontalPageBreaks {
         // 페이지 나누기를 계속 진행합니다...
 ```
 
-#### 2단계: 워크시트 액세스 및 중단 해제
+#### 2단계: 워크시트 액세스 및 중단 지우기
 가로 페이지 나누기를 지울 워크시트에 액세스합니다. `clear()` 방법에 대한 `HorizontalPageBreaks` 수집.
 
 ```java
@@ -148,7 +150,7 @@ public class ClearVerticalPageBreaks {
         // 페이지 나누기를 계속 진행합니다...
 ```
 
-#### 2단계: 워크시트 액세스 및 중단 해제
+#### 2단계: 워크시트 액세스 및 중단 지우기
 관련 워크시트에 액세스하고 다음을 사용하여 모든 세로 페이지 나누기를 지웁니다. `clear()` 방법에 대한 `VerticalPageBreaks` 수집.
 
 ```java
@@ -194,6 +196,9 @@ Excel에서 페이지 나누기를 지우면 다음과 같은 여러 가지 경�
 - Java용 Aspose.Cells의 추가 기능을 살펴보고 Excel 문서 처리 기능을 더욱 향상시켜 보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

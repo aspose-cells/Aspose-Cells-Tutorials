@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ W świecie rozwoju oprogramowania programowe zarządzanie plikami Excela może b
 - Jak pobrać informacje o wersji Java z pliku Aspose.Cells.
 - Techniki tworzenia i stylizowania skoroszytów w języku Java.
 - Metody eksportowania arkuszy kalkulacyjnych w formacie HTML z oddzielnymi stylami CSS.
-Przyjrzyjmy się bliżej warunkom wstępnym i zacznijmy!
+Przyjrzyjmy się bliżej wymaganiom wstępnym i zacznijmy!
 
 ## Wymagania wstępne
 Zanim wyruszysz w tę podróż, upewnij się, że masz solidne podstawy w następujących obszarach:
@@ -189,6 +191,9 @@ W tym samouczku dowiedziałeś się, jak wykorzystać moc Aspose.Cells for Java 
 - Poznaj praktyczne zastosowania w swoich projektach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

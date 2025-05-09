@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ Vid det här laget bör du vara bekväm med att ladda Excel-filer till arbetsbö
 
 **Nästa steg:** Utforska Aspose.Cells fulla möjligheter genom att dyka djupare in i dess [dokumentation](https://reference.aspose.com/cells/java/)Överväg att experimentera med mer avancerade funktioner för att utöka din automatiseringsverktygslåda.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 1. **Hur kan jag använda Aspose.Cells i ett projekt som inte är Maven?**
    - Ladda ner JAR-filen från [Aspose nedladdningssida](https://releases.aspose.com/cells/java/) och inkludera den manuellt i din klassväg.
 
@@ -163,6 +165,9 @@ Ge dig ut på din resa mot effektiv Excel-automation idag med Aspose.Cells för 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Migliora le tue applicazioni Java padroneggiando operazioni efficienti sui file 
 
 In questa guida imparerai come:
 - Leggere i dati dai file di testo utilizzando Java
-- Riscrivere i dati elaborati in un file
+- Riscrivi i dati elaborati in un file
 - Utilizza Aspose.Cells per Java per la manipolazione avanzata dei dati
 
 Al termine, sarai in grado di gestire diverse operazioni sui file con sicurezza. Approfondiamo la configurazione del tuo ambiente ed esploriamo queste funzionalità in dettaglio.
@@ -191,6 +193,9 @@ Pronti a portare il vostro sviluppo Java al livello successivo? Implementate que
 Seguendo questa guida completa, sarai sulla buona strada per padroneggiare la gestione dei file in Java con Aspose.Cells. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

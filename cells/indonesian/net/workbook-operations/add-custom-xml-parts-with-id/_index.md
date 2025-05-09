@@ -1,92 +1,94 @@
 ---
-title: Tambahkan Bagian XML Kustom dengan ID ke Buku Kerja
-linktitle: Tambahkan Bagian XML Kustom dengan ID ke Buku Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan bagian XML kustom dengan ID ke buku kerja Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 11
-url: /id/net/workbook-operations/add-custom-xml-parts-with-id/
+"description": "Ebben az átfogó, lépésről lépésre haladó oktatóanyagban megtudhatja, hogyan adhat hozzá egyéni XML-részeket azonosítókkal egy Excel-munkafüzethez az Aspose.Cells for .NET használatával."
+"linktitle": "Egyéni XML-alkatrészek hozzáadása azonosítókkal a munkafüzethez"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Egyéni XML-alkatrészek hozzáadása azonosítókkal a munkafüzethez"
+"url": "/id/net/workbook-operations/add-custom-xml-parts-with-id/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Bagian XML Kustom dengan ID ke Buku Kerja
+# Egyéni XML-alkatrészek hozzáadása azonosítókkal a munkafüzethez
 
-## Perkenalan
-Dalam hal mengelola dan memanipulasi file Excel secara terprogram, Aspose.Cells for .NET menonjol sebagai alat yang hebat. Salah satu fiturnya yang menarik adalah kemampuan untuk mengintegrasikan komponen XML kustom ke dalam buku kerja Excel Anda. Ini mungkin terdengar sedikit teknis, tetapi jangan khawatir! Di akhir panduan ini, Anda akan memiliki pemahaman yang kuat tentang cara menambahkan komponen XML kustom dengan ID ke buku kerja Anda dan mengambilnya saat dibutuhkan. 
-## Prasyarat
-Sebelum kita masuk ke kode, penting untuk menyiapkan beberapa hal:
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda, karena kita akan menggunakannya untuk pengkodean.
-2.  Aspose.Cells untuk .NET: Anda perlu menginstal Aspose.Cells untuk .NET. Jika Anda belum melakukannya, Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
-3. .NET Framework: Kemampuan menggunakan .NET Framework dan bahasa pemrograman C# akan sangat membantu. 
-Setelah Anda memiliki semua prasyaratnya, waktunya untuk menghancurkannya dengan sedikit keajaiban pengkodean!
-## Paket Impor
-Untuk menggunakan Aspose.Cells, Anda perlu menambahkan namespace yang diperlukan di bagian atas kode Anda. Berikut cara melakukannya:
+## Bevezetés
+Az Excel-fájlok programozott kezelésének és manipulálásának terén az Aspose.Cells for .NET egy hatékony eszköz, amely kiemelkedik a többi közül. Az egyik érdekes funkciója az egyéni XML-részek Excel-munkafüzetbe való integrálásának képessége. Ez talán kissé technikainak hangzik, de ne aggódjon! Az útmutató végére alaposan megérti majd, hogyan adhat hozzá azonosítókkal ellátott egyéni XML-részeket a munkafüzetéhez, és hogyan kérheti le azokat szükség esetén. 
+## Előfeltételek
+Mielőtt belemerülnénk a kódba, fontos, hogy néhány dolgot beállítsunk:
+1. Visual Studio: Győződj meg róla, hogy a Visual Studio telepítve van a gépeden, mivel azt fogjuk használni kódoláshoz.
+2. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells .NET-hez készült verzióját. Ha még nem tette meg, megteheti [töltsd le itt](https://releases.aspose.com/cells/net/).
+3. .NET keretrendszer: A .NET keretrendszer és a C# programozási nyelv ismerete előnyös. 
+Ha megvannak az előfeltételek, itt az ideje, hogy egy kis kódolási varázslattal legyőzd őket!
+## Csomagok importálása
+Az Aspose.Cells használatához hozzá kell adni a szükséges névteret a kód elejéhez. Így teheted meg:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Baris ini memungkinkan Anda mengakses semua fungsionalitas yang disediakan oleh Aspose.Cells.
-Setelah kita menyiapkan tahapannya, mari kita bagi prosesnya menjadi beberapa langkah yang mudah dikelola. Dengan cara ini, Anda dapat mengikutinya tanpa merasa kewalahan. 
-## Langkah 1: Buat Buku Kerja Kosong
- Untuk memulai, Anda perlu membuat contoh`Workbook` kelas, yang mewakili buku kerja Excel Anda.
+Ez a sor lehetővé teszi az Aspose.Cells által biztosított összes funkció elérését.
+Most, hogy előkészítettük a terepet, bontsuk le a folyamatot kezelhető lépésekre. Így túlterheltség nélkül követheted a folyamatot. 
+## 1. lépés: Hozzon létre egy üres munkafüzetet
+kezdéshez létre kell hoznod egy példányt a következőből: `Workbook` osztály, amely az Excel-munkafüzetet jelöli.
 ```csharp
-// Membuat buku kerja kosong.
+// Hozz létre egy üres munkafüzetet.
 Workbook wb = new Workbook();
 ```
-Baris sederhana ini menginisialisasi buku kerja baru tempat kita dapat menambahkan bagian XML kustom kita.
-## Langkah 2: Siapkan Data dan Skema XML Anda
-Berikutnya, Anda perlu menyiapkan beberapa data dalam bentuk array byte. Meskipun contoh kita menggunakan data placeholder, dalam skenario dunia nyata, Anda akan mengganti array byte ini dengan data XML aktual dan skema yang ingin Anda integrasikan ke dalam buku kerja Anda.
+Ez az egyszerű sor inicializál egy új munkafüzetet, ahová hozzáadhatjuk az egyéni XML-részeinket.
+## 2. lépés: Az XML-adatok és -séma előkészítése
+Ezután elő kell készítenie néhány adatot egy bájttömb formájában. Bár a példánk helyőrző adatokat használ, egy valós helyzetben ezeket a bájttömböket tényleges XML-adatokkal és sémával kellene helyettesítenie, amelyeket integrálni szeretne a munkafüzetébe.
 ```csharp
-// Beberapa data dalam bentuk array byte.
-// Harap gunakan XML dan Skema yang benar.
+// Néhány adat bájttömb formájában.
+// Kérjük, használjon helyes XML-t és sémát.
 byte[] btsData = new byte[] { 1, 2, 3 };
 byte[] btsSchema = new byte[] { 1, 2, 3 };
 ```
-Ingat, meskipun contoh ini menggunakan array byte sederhana, Anda biasanya akan menggunakan XML dan skema yang valid di sini.
-## Langkah 3: Tambahkan Bagian XML Kustom
- Sekarang saatnya untuk menambahkan komponen XML kustom Anda ke buku kerja. Anda dapat melakukannya dengan memanggil`Add` metode pada`CustomXmlParts` koleksi buku kerja.
+Ne feledd, hogy bár ez a példa egyszerű bájttömböket használ, itt jellemzően érvényes XML-t és sémát használnál.
+## 3. lépés: Egyéni XML-alkatrészek hozzáadása
+Most itt az ideje, hogy hozzáadd az egyéni XML-részeket a munkafüzethez. Ezt a következő meghívásával teheted meg: `Add` módszer a `CustomXmlParts` a munkafüzet gyűjteménye.
 ```csharp
-// Buat empat bagian xml kustom.
+// Hozz létre négy egyéni xml részt.
 wb.CustomXmlParts.Add(btsData, btsSchema);
 wb.CustomXmlParts.Add(btsData, btsSchema);
 wb.CustomXmlParts.Add(btsData, btsSchema);
 wb.CustomXmlParts.Add(btsData, btsSchema);
 ```
-Potongan kode ini menambahkan empat bagian XML kustom yang identik ke buku kerja. Anda dapat menyesuaikannya sesuai kebutuhan Anda.
-## Langkah 4: Tetapkan ID ke Bagian XML Kustom
-Sekarang setelah kita menambahkan bagian XML, mari kita beri masing-masing bagian tersebut sebuah pengenal unik. ID ini akan membantu kita mengambil bagian XML tersebut nanti.
+Ez a kódrészlet négy azonos, egyéni XML-részt ad hozzá a munkafüzethez. Ezt az igényeidnek megfelelően testreszabhatod.
+## 4. lépés: Azonosítók hozzárendelése egyéni XML-alkatrészekhez
+Most, hogy hozzáadtuk az XML részeket, adjunk mindegyiknek egy egyedi azonosítót. Ez az azonosító segíteni fog nekünk később az XML részek lekérésében.
 ```csharp
-//Tetapkan id ke bagian xml kustom.
+// Rendeljen azonosítókat egyéni XML-alkatrészekhez.
 wb.CustomXmlParts[0].ID = "Fruit";
 wb.CustomXmlParts[1].ID = "Color";
 wb.CustomXmlParts[2].ID = "Sport";
 wb.CustomXmlParts[3].ID = "Shape";
 ```
-Pada langkah ini, Anda menetapkan ID yang bermakna seperti "Buah," "Warna," "Olahraga," dan "Bentuk." Ini memudahkan untuk mengidentifikasi dan mengolah bagian-bagiannya setelahnya.
-## Langkah 5: Tentukan ID Pencarian untuk Bagian XML Kustom
-Saat Anda ingin mengambil bagian XML tertentu menggunakan ID-nya, Anda perlu menentukan ID yang Anda cari.
+Ebben a lépésben értelmes azonosítókat rendelsz hozzá, például „Gyümölcs”, „Szín”, „Sportág” és „Alak”. Ez megkönnyíti a megfelelő alkatrészek azonosítását és a velük való munkát később.
+## 5. lépés: Keresési azonosító megadása egyéni XML-részhez
+Ha egy adott XML részt az azonosítója alapján szeretne lekérni, meg kell határoznia a keresett azonosítót.
 ```csharp
-// Tentukan id bagian xml kustom pencarian.
+// Adja meg a keresés egyéni xml alkatrész azonosítóját.
 String srchID = "Fruit";
 srchID = "Color";
 srchID = "Sport";
 ```
-Dalam aplikasi nyata, Anda mungkin ingin menentukan setiap ID secara dinamis, tetapi untuk contoh kita, kita melakukan hardcode beberapa ID.
-## Langkah 6: Cari Bagian XML Kustom berdasarkan ID
-Setelah kita memiliki ID pencarian, saatnya mencari bagian XML khusus yang sesuai dengan ID yang ditentukan.
+Egy valódi alkalmazásban valószínűleg dinamikusan szeretnéd megadni az egyes azonosítókat, de a példánkban néhányat fixen kódolunk.
+## 6. lépés: Egyéni XML-alkatrész keresése azonosító alapján
+Most, hogy megvannak a keresési azonosítóink, itt az ideje, hogy megkeressük a megadott azonosítónak megfelelő egyéni XML részt.
 ```csharp
-// Cari bagian xml khusus berdasarkan id pencarian.
+// Egyéni XML rész keresése a keresési azonosító alapján.
 Aspose.Cells.Markup.CustomXmlPart cxp = wb.CustomXmlParts.SelectByID(srchID);
 ```
- Garis ini memanfaatkan`SelectByID` untuk mencoba menemukan bagian XML yang kita minati.
-## Langkah 7: Periksa Apakah Bagian XML Kustom Ditemukan
-Terakhir, kita perlu memeriksa apakah bagian XML ditemukan dan mencetak pesan yang sesuai ke konsol.
+Ez a vonal kihasználja a `SelectByID` hogy megpróbáljuk megtalálni a minket érdeklő XML részt.
+## 7. lépés: Ellenőrizze, hogy megtalálható-e az egyéni XML-rész
+Végül ellenőriznünk kell, hogy megtalálták-e az XML részt, és egy megfelelő üzenetet kell kiíratnunk a konzolra.
 ```csharp
-// Cetak pesan ditemukan atau tidak ditemukan pada konsol.
+// Nyomtassa ki a talált vagy nem található üzenetet a konzolon.
 if (cxp == null)
 {
     Console.WriteLine("Not Found: CustomXmlPart ID " + srchID);
@@ -97,24 +99,26 @@ else
 }
 Console.WriteLine("AddCustomXMLPartsAndSelectThemByID executed successfully.");
 ```
-Anda berhasil! Pada titik ini, Anda tidak hanya menambahkan komponen XML kustom ke buku kerja Anda, tetapi juga menerapkan fungsi untuk mencari komponen tersebut berdasarkan ID-nya.
-## Kesimpulan
-Dalam artikel ini, kami membahas cara menambahkan komponen XML kustom ke buku kerja Excel menggunakan Aspose.Cells untuk .NET. Dengan mengikuti panduan langkah demi langkah, Anda dapat membuat buku kerja, menambahkan komponen XML kustom, menetapkan ID, dan mengambilnya secara efisien. Fungsionalitas ini dapat sangat berguna saat menangani data dinamis yang perlu ditangani dalam file Excel, membuat aplikasi Anda lebih cerdas dan lebih mampu. 
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?  
-Aspose.Cells adalah pustaka .NET tangguh yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel tanpa perlu menginstal Microsoft Excel.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?  
- Ya! Anda dapat memulai dengan versi uji coba gratis. Cukup[unduh disini](https://releases.aspose.com/).
-### Apakah mungkin untuk menambahkan beberapa bagian XML kustom ke buku kerja?  
-Tentu saja! Anda dapat menambahkan sebanyak mungkin bagian XML khusus yang Anda perlukan, dan masing-masing dapat diberi ID unik untuk memudahkan akses.
-### Bagaimana saya dapat mengambil bagian XML jika saya tidak mengetahui ID-nya?  
- Jika Anda tidak mengetahui ID, Anda dapat mengulang melalui`CustomXmlParts` koleksi untuk melihat bagian-bagian yang tersedia dan ID-nya, sehingga lebih mudah untuk mengidentifikasi dan mengaksesnya.
-### Di mana saya dapat menemukan lebih banyak sumber daya atau dukungan untuk Aspose.Cells?  
- Anda dapat memeriksa[dokumentasi](https://reference.aspose.com/cells/net/) untuk panduan lebih rinci, atau kunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan masyarakat.
+Sikerült! Eddigre már nemcsak egyéni XML-részeket adtál hozzá a munkafüzetedhez, hanem implementáltad a azonosítóik szerinti keresés funkcióját is.
+## Következtetés
+Ebben a cikkben azt vizsgáltuk meg, hogyan adhatunk hozzá egyéni XML-részeket egy Excel-munkafüzethez az Aspose.Cells for .NET használatával. A lépésenkénti útmutató követésével hatékonyan létrehozhattunk egy munkafüzetet, hozzáadhattunk egyéni XML-részeket, hozzárendelhettünk azonosítókat, és lekérhettük azokat. Ez a funkció hihetetlenül hasznos lehet az Excel-fájlokban kezelendő dinamikus adatok kezelésekor, így alkalmazásaink intelligensebbek és hatékonyabbak lesznek. 
+## GYIK
+### Mi az Aspose.Cells?  
+Az Aspose.Cells egy robusztus .NET könyvtár, amely lehetővé teszi a fejlesztők számára Excel fájlok létrehozását, kezelését és konvertálását anélkül, hogy telepíteni kellene a Microsoft Excelt.
+### Ingyenesen használhatom az Aspose.Cells-t?  
+Igen! Ingyenes próbaverzióval kezdheted. [töltsd le itt](https://releases.aspose.com/).
+### Lehetséges több egyéni XML-részt hozzáadni egy munkafüzethez?  
+Természetesen! Annyi egyéni XML-részt adhatsz hozzá, amennyire szükséged van, és mindegyikhez egyedi azonosító rendelhető a könnyű hozzáférés érdekében.
+### Hogyan kérhetek le XML részeket, ha nem ismerem az azonosítókat?  
+Ha nem ismeri az azonosítókat, végigmehet a `CustomXmlParts` gyűjteményben megtekintheti a rendelkezésre álló alkatrészeket és azok azonosítóit, így könnyebben azonosíthatja és elérheti őket.
+### Hol találok további forrásokat vagy támogatást az Aspose.Cells-hez?  
+Megnézheted a [dokumentáció](https://reference.aspose.com/cells/net/) részletes útmutatásért, vagy látogassa meg a [támogató fórum](https://forum.aspose.com/c/cells/9) közösségi segítségért.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

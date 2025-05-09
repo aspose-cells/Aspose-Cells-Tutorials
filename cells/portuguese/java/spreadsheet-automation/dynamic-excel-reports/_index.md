@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Relatórios dinâmicos do Excel
@@ -71,7 +73,7 @@ worksheet.getCells().applyStyle(style, new StyleFlag());
 
 ## Etapa 6: automatizando a atualização de dados
 
-A chave para um relatório dinâmico é a capacidade de atualizar os dados automaticamente. Você pode agendar esse processo ou acioná-lo manualmente. Por exemplo, você pode atualizar os dados de um banco de dados periodicamente ou quando um usuário clica em um botão.
+chave para um relatório dinâmico é a capacidade de atualizar os dados automaticamente. Você pode agendar esse processo ou acioná-lo manualmente. Por exemplo, você pode atualizar os dados de um banco de dados periodicamente ou quando um usuário clica em um botão.
 
 ```java
 // Atualizar dados
@@ -91,7 +93,7 @@ Agora você tem a base para criar relatórios dinâmicos personalizados para sua
 
 ### 1. Qual é a vantagem de usar Aspose.Cells para Java?
 
-O Aspose.Cells para Java oferece um conjunto abrangente de recursos para trabalhar com arquivos do Excel programaticamente. Ele permite criar, editar e manipular arquivos do Excel com facilidade, tornando-se uma ferramenta valiosa para relatórios dinâmicos.
+Aspose.Cells para Java oferece um conjunto abrangente de recursos para trabalhar com arquivos do Excel programaticamente. Ele permite criar, editar e manipular arquivos do Excel com facilidade, tornando-se uma ferramenta valiosa para relatórios dinâmicos.
 
 ### 2. Posso integrar relatórios dinâmicos do Excel com outras fontes de dados?
 
@@ -113,6 +115,7 @@ Sim, o Aspose.Cells para Java permite que você exporte seus relatórios dinâmi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

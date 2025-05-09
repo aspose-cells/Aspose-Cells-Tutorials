@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ comment.getFont().setName("Times New Roman");
 ```
 Tùy chỉnh cài đặt phông chữ giúp tăng khả năng đọc và trình bày.
 
-### Tải và thiết lập hình ảnh trong hình dạng chú thích
+### Tải và thiết lập hình ảnh trong hình dạng bình luận
 
 #### Tổng quan
 Việc thêm hình ảnh vào bình luận có thể làm nổi bật thông tin hoặc các yếu tố thương hiệu như logo.
@@ -173,6 +175,9 @@ Trong khi đoạn mã này tải các tệp cục bộ, bạn có thể sử d�
 - [Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

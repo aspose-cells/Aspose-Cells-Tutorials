@@ -1,14 +1,16 @@
 ---
-title: Ustaw domyślną czcionkę dla opcji zapisywania PDF
-linktitle: Ustaw domyślną czcionkę dla opcji zapisywania PDF
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawić domyślne czcionki dla opcji zapisywania plików PDF przy użyciu Aspose.Cells for .NET, aby mieć pewność, że Twoje dokumenty będą za każdym razem wyglądać idealnie.
-weight: 11
-url: /pl/net/working-with-fonts-in-spreadsheets/set-default-font-for-pdf-save-options/
+"description": "Dowiedz się, jak ustawić domyślne czcionki dla opcji zapisywania plików PDF przy użyciu Aspose.Cells for .NET, aby mieć pewność, że Twoje dokumenty będą za każdym razem wyglądać idealnie."
+"linktitle": "Ustaw domyślną czcionkę dla opcji zapisywania PDF"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustaw domyślną czcionkę dla opcji zapisywania PDF"
+"url": "/pl/net/working-with-fonts-in-spreadsheets/set-default-font-for-pdf-save-options/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw domyślną czcionkę dla opcji zapisywania PDF
@@ -18,7 +20,7 @@ Jeśli chodzi o generowanie raportów, faktur lub innych dokumentów w formacie 
 ## Wymagania wstępne
 Zanim zaczniemy, upewnij się, że masz następujące rzeczy:
 1. Visual Studio: Będziesz potrzebować środowiska programistycznego, takiego jak Visual Studio, aby pisać i wykonywać kod.
-2.  Aspose.Cells dla .NET: Najnowszą wersję można pobrać ze strony[ten link](https://releases.aspose.com/cells/net/)Alternatywnie możesz zainstalować go za pomocą Menedżera pakietów NuGet w programie Visual Studio.
+2. Aspose.Cells dla .NET: Najnowszą wersję można pobrać ze strony [ten link](https://releases.aspose.com/cells/net/)Alternatywnie możesz zainstalować go za pomocą Menedżera pakietów NuGet w programie Visual Studio.
 3. Podstawowa wiedza o języku C#: Zrozumienie podstaw języka C# pomoże Ci zrozumieć przykłady kodu.
 4. Przykładowy plik Excela: Przygotuj przykładowy plik Excela do testowania. Możesz utworzyć plik z różnymi czcionkami i stylami, aby zobaczyć, jak Aspose.Cells radzi sobie z brakującymi czcionkami.
 ## Importuj pakiety
@@ -43,16 +45,16 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do Twoich katalogów.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do Twoich katalogów.
 ## Krok 2: Otwórz plik Excel
- Teraz, gdy mamy już skonfigurowane katalogi, otwórzmy plik Excela, z którym chcesz pracować.`Workbook` Klasa w Aspose.Cells służy do załadowania dokumentu Excel.
+Teraz, gdy mamy już skonfigurowane katalogi, otwórzmy plik Excela, z którym chcesz pracować. `Workbook` Klasa w Aspose.Cells służy do załadowania dokumentu Excel.
 ```csharp
 // Otwórz plik Excel
 Workbook workbook = new Workbook(sourceDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 ```
 Pamiętaj o zastąpieniu nazwy pliku rzeczywistą nazwą pliku.
 ## Krok 3: Skonfiguruj opcje renderowania obrazu
-Następnie musimy skonfigurować opcje renderowania, aby przekonwertować nasz arkusz Excela na format obrazu. Utworzymy wystąpienie`ImageOrPrintOptions`, określając typ obrazu i domyślną czcionkę.
+Następnie musimy skonfigurować opcje renderowania, aby przekonwertować nasz arkusz Excela na format obrazu. Utworzymy wystąpienie `ImageOrPrintOptions`, określając typ obrazu i domyślną czcionkę.
 ```csharp
 // Renderowanie do formatu pliku PNG
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
@@ -60,16 +62,16 @@ imgOpt.ImageType = Drawing.ImageType.Png;
 imgOpt.CheckWorkbookDefaultFont = false;
 imgOpt.DefaultFont = "Times New Roman";
 ```
- W tym fragmencie kodu ustawiamy`CheckWorkbookDefaultFont` nieruchomość do`false`, co oznacza, że jeśli brakuje którejkolwiek czcionki, zamiast niej zostanie użyta określona czcionka domyślna („Times New Roman”).
+W tym fragmencie kodu ustawiamy `CheckWorkbookDefaultFont` nieruchomość do `false`co oznacza, że jeśli brakuje którejkolwiek czcionki, zamiast niej zostanie użyta określona czcionka domyślna („Times New Roman”).
 ## Krok 4: Renderuj arkusz jako obraz
- Teraz wyrenderujmy pierwszy arkusz skoroszytu jako obraz PNG. Użyjemy`SheetRender` klasa, aby to osiągnąć.
+Teraz wyrenderujmy pierwszy arkusz skoroszytu jako obraz PNG. Użyjemy `SheetRender` klasa, aby to osiągnąć.
 ```csharp
 // Wyrenderuj pierwszy arkusz kalkulacyjny do obrazu
 SheetRender sr = new SheetRender(workbook.Worksheets[0], imgOpt);
 sr.ToImage(0, outputDir + "out1_imagePNG.png");
 ```
 ## Krok 5: Zmień typ obrazu i renderuj do TIFF
- Jeśli chcesz wyrenderować ten sam arkusz w innym formacie obrazu, np. TIFF, możesz po prostu zmienić`ImageType` właściwość i powtórz proces renderowania.
+Jeśli chcesz wyrenderować ten sam arkusz w innym formacie obrazu, np. TIFF, możesz po prostu zmienić `ImageType` właściwość i powtórz proces renderowania.
 ```csharp
 // Ustaw na format TIFF
 imgOpt.ImageType = Drawing.ImageType.Tiff;
@@ -77,9 +79,9 @@ WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 wr.ToImage(outputDir + "out1_imageTIFF.tiff");
 ```
 ## Krok 6: Skonfiguruj opcje zapisywania pliku PDF
- Następnie skonfigurujmy opcje zapisu PDF. Utworzymy wystąpienie`PdfSaveOptions`ustaw domyślną czcionkę i określ, że chcesz sprawdzić, czy brakuje niektórych czcionek.
+Następnie skonfigurujmy opcje zapisu PDF. Utworzymy wystąpienie `PdfSaveOptions`, ustaw domyślną czcionkę i określ, że chcesz sprawdzić, czy brakuje niektórych czcionek.
 ```csharp
-// Konfiguruj opcje zapisywania PDF
+// Konfigurowanie opcji zapisywania pliku PDF
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.DefaultFont = "Times New Roman";
 saveOptions.CheckWorkbookDefaultFont = false;
@@ -101,16 +103,18 @@ Aspose.Cells zapewnia elastyczny i solidny sposób obsługi manipulacji plikami 
 ### Czym jest Aspose.Cells?
 Aspose.Cells to potężna biblioteka .NET, która umożliwia programistom manipulowanie plikami Excel bez konieczności instalowania programu Microsoft Excel. Obsługuje różne formaty plików i oferuje bogate funkcje do pracy z arkuszami kalkulacyjnymi.
 ### Jak mogę ustawić domyślną czcionkę dla plików Excel?
- Możesz ustawić domyślną czcionkę za pomocą`PdfSaveOptions` class i określ żądaną nazwę czcionki. Dzięki temu nawet jeśli brakuje czcionki, Twój dokument użyje domyślnej czcionki, którą określiłeś.
+Możesz ustawić domyślną czcionkę za pomocą `PdfSaveOptions` class i określ żądaną nazwę czcionki. Dzięki temu nawet jeśli czcionka będzie brakująca, Twój dokument użyje domyślnej czcionki, którą określiłeś.
 ### Czy mogę konwertować pliki Excel do formatów innych niż PDF?
 Oczywiście! Aspose.Cells pozwala konwertować pliki Excela do różnych formatów, w tym obrazów (PNG, TIFF), HTML, CSV i innych.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
 Aspose.Cells jest produktem komercyjnym, ale możesz wypróbować go za darmo w ograniczonej wersji próbnej. Aby uzyskać pełną funkcjonalność, musisz kupić licencję.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Pomoc dotyczącą Aspose.Cells można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadawać pytania i dzielić się swoimi spostrzeżeniami z innymi użytkownikami i programistami.
+Pomoc dotyczącą Aspose.Cells można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/cells/9), gdzie możesz zadawać pytania i dzielić się swoimi spostrzeżeniami z innymi użytkownikami i programistami.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

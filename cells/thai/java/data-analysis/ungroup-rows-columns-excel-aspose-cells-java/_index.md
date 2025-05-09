@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,10 +165,13 @@ workbook.save(outDir + "UngroupingColumns_out.xls"); // สำหรับคอ
 - [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
 - [ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว](https://releases.aspose.com/cells/java/)
 
-โปรดอย่าลังเลที่จะติดต่อเรา [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) หากคุณมีคำถามเพิ่มเติมหรือต้องการความช่วยเหลือ เริ่มนำโซลูชันเหล่านี้ไปใช้ตั้งแต่วันนี้ และปรับปรุงการจัดการข้อมูล Excel ของคุณให้มีประสิทธิภาพด้วย Aspose.Cells Java!
+โปรดอย่าลังเลที่จะติดต่อเรา [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) หากคุณมีคำถามเพิ่มเติมหรือต้องการความช่วยเหลือ เริ่มนำโซลูชันเหล่านี้ไปใช้ตั้งแต่วันนี้ และปรับปรุงการจัดการข้อมูล Excel ของคุณด้วย Aspose.Cells Java!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

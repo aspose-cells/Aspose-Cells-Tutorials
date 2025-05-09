@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Aspose.Cells for Java предоставляет универсальную пл
 
 ## Соображения производительности
 При работе с Aspose.Cells для достижения оптимальной производительности примите во внимание следующие советы:
-- **Оптимизируйте использование ресурсов**: Минимизируйте использование памяти, обрабатывая только необходимые части файлов Excel.
+- **Оптимизация использования ресурсов**: Минимизируйте использование памяти, обрабатывая только необходимые части файлов Excel.
 - **Управление памятью Java**: Эффективное управление пространством кучи Java при обработке больших электронных таблиц.
 - **Лучшие практики**: Следуйте лучшим практикам обработки исключений и очистки ресурсов, чтобы обеспечить стабильность.
 
@@ -189,6 +191,9 @@ Aspose.Cells for Java предоставляет универсальную пл
 - [Загрузить Aspose.Cells для Java](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

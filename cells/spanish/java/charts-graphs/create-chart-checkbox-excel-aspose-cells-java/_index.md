@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ A continuación se muestran algunos escenarios del mundo real en los que puedes 
 3. **Herramientas educativas:** Cree materiales de aprendizaje dinámicos donde los estudiantes puedan interactuar con el contenido seleccionando diferentes opciones en gráficos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

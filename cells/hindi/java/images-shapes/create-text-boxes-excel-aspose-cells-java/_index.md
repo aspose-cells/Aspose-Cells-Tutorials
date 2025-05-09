@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Aspose.Cells क्या पेशकश कर सकता है, यह ज
 इस गाइड का पालन करके, अब आप उन्नत Excel स्वचालन और स्वरूपण क्षमताओं के लिए अपनी परियोजनाओं में Aspose.Cells Java को एकीकृत करने के लिए अच्छी तरह से सुसज्जित होंगे।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Çalışma Kitabı Baskı Önizleme
-linktitle: Çalışma Kitabı Baskı Önizleme
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel dosyaları için baskı önizlemelerinin nasıl oluşturulacağını öğrenin. Ayrıntılı, takip etmesi kolay bir eğitimde kodlama adımlarını öğrenin.
-weight: 170
-url: /tr/net/excel-workbook/workbook-print-preview/
+"description": "Aspose.Cells for .NET kullanarak Excel dosyaları için baskı önizlemelerinin nasıl oluşturulacağını öğrenin. Ayrıntılı, takip etmesi kolay bir eğitimde kodlama adımlarını öğrenin."
+"linktitle": "Çalışma Kitabı Baskı Önizleme"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Kitabı Baskı Önizleme"
+"url": "/tr/net/excel-workbook/workbook-print-preview/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Kitabı Baskı Önizleme
@@ -22,10 +24,10 @@ Excel dosyalarını yönetme ve düzenleme söz konusu olduğunda, Aspose.Cells 
 Kodlama eylemine geçmeden önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşulların bir kontrol listesi:
 
 1. Visual Studio: Bir IDE'ye ihtiyacınız olacak ve Visual Studio .NET projeleri için harika bir seçimdir.
-2. Aspose.Cells for .NET: Kütüphaneyi indirebilir veya dilerseniz ayaklarınızı ıslatmak için ücretsiz deneme sürümüyle başlayabilirsiniz. Sadece şuraya gidin:[bu bağlantı](https://releases.aspose.com).
+2. Aspose.Cells for .NET: Kütüphaneyi indirebilir veya dilerseniz ayaklarınızı ıslatmak için ücretsiz deneme sürümüyle başlayabilirsiniz. Sadece şuraya gidin: [bu bağlantı](https://releases.aspose.com).
 3. Temel C# Bilgisi: C#'ın temellerini anlamak, herhangi bir aksama olmadan takip etmenize yardımcı olacaktır.
 4. .NET Framework: Bilgisayarınızda .NET Framework'ün uyumlu bir sürümünün yüklü olduğundan emin olun.
-5.  Örnek Bir Excel Dosyası: Bu eğitim için, çalışmak üzere bir Excel dosyasına ihtiyacınız olacak. Adlı bir örnek dosya kullanabilirsiniz.`Book1.xlsx`.
+5. Örnek Bir Excel Dosyası: Bu eğitim için, çalışmak üzere bir Excel dosyasına ihtiyacınız olacak. Adlı bir örnek dosya kullanabilirsiniz. `Book1.xlsx`.
 
 Artık motorlarımız çalıştığına göre, gerekli paketleri içe aktarıp işe koyulalım!
 
@@ -64,7 +66,7 @@ Baskı önizlemelerindeki maceramıza başlamak için, kaynak Excel dosyamızın
 string sourceDir = "Your Document Directory";
 ```
 
- Bu kod, bize yolu bulmamızda yardımcı oluyor`Book1.xlsx` ikamet eder, bu da gelecekte referans vermeyi çok daha kolaylaştırır.
+Bu kod, bize yolu bulmamızda yardımcı oluyor `Book1.xlsx` ikamet eder, bu da gelecekte referans vermeyi çok daha kolaylaştırır.
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
@@ -74,7 +76,7 @@ Artık dizinimizi aldığımıza göre, çalışma kitabını uygulamamıza yük
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
- Burada, bir örnek oluşturuyoruz`Workbook` sınıfa Excel dosyamıza giden yolu beslerken. Bu, içeriğini okumak için bir kitabı açmaya benzer; bu adımla çalışma kitabımızı açmış oluruz.
+Burada, bir örnek oluşturuyoruz `Workbook` sınıfa Excel dosyamıza giden yolu beslerken. Bu, içeriğini okumak için bir kitabı açmaya benzer; bu adımla çalışma kitabımızı açmış oluruz.
 
 ## Adım 3: Yazdırma Seçeneklerini Ayarlayın
 
@@ -84,7 +86,7 @@ Baskı önizlemesini oluşturmadan önce, nasıl işleneceğine dair seçenekler
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
- Bu durumda, bir örnek oluşturuyoruz`ImageOrPrintOptions`Bu da bize baskı önizlememizi nasıl görüntülemek istediğimiz konusunda bir miktar esneklik sağlıyor.
+Bu durumda, bir örnek oluşturuyoruz `ImageOrPrintOptions`Bu da bize baskı önizlememizi nasıl görüntülemek istediğimiz konusunda bir miktar esneklik sağlıyor.
 
 ## Adım 4: Çalışma Kitabı Yazdırma Önizlemesini Oluşturun
 
@@ -119,7 +121,7 @@ Bu kod parçacığında, ilk çalışma sayfasını alıp, kitabınızın belirl
 
 ## Adım 7: Başarı Mesajı
 
-Her şeyin yolunda gittiğini teyit etmek için dostça bir mesajla işi bitirmek her zaman iyidir:
+Her şeyin yolunda gittiğini teyit eden dostça bir mesajla işi bitirmek her zaman iyidir:
 
 ```csharp
 Console.WriteLine("PrintPreview executed successfully.");
@@ -137,19 +139,21 @@ Bu cümle, bir projeyi tamamladıktan sonra son rötuş gibidir; iyi bir iş ç�
 Aspose.Cells, Excel dosya formatlarını işlemek için güçlü bir kütüphanedir ve veri işleme, biçimlendirme ve baskı önizlemeleri oluşturma gibi özellikler sunar.
 
 ### Aspose.Cells'i kullanmak için satın almam gerekiyor mu?
- Ücretsiz deneme sürümüyle başlayabilirsiniz.[bu bağlantı](https://releases.aspose.com) Lisans satın almaya karar vermeden önce.
+Ücretsiz deneme sürümüyle başlayabilirsiniz. [bu bağlantı](https://releases.aspose.com) Lisans satın almaya karar vermeden önce.
 
 ### Aspose.Cells'i herhangi bir .NET uygulamasında kullanabilir miyim?
-Evet, Aspose.Cells, ASP.NET, WinForms ve daha fazlası dahil olmak üzere herhangi bir .NET uygulamasıyla çalışacak şekilde tasarlanmıştır.
+Evet, Aspose.Cells, ASP.NET, WinForms ve daha fazlası dahil olmak üzere herhangi bir .NET uygulamasıyla çalışmak üzere tasarlanmıştır.
 
 ### Daha detaylı dokümanları nerede bulabilirim?
- Kapsamlı belgeleri şu adreste inceleyebilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeleri şu adreste inceleyebilirsiniz: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells kullanırken sorunlarla karşılaşırsam ne olur?
- Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa Aspose forumu aracılığıyla destek alabilirsiniz:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
+Herhangi bir sorunla karşılaşırsanız veya sorularınız varsa Aspose forumu aracılığıyla destek alabilirsiniz: [Aspose Desteği](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

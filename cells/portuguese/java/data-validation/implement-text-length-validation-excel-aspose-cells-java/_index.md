@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Bem-vindo a este tutorial abrangente sobre como utilizar a biblioteca Aspose.Cells em Java para implementar a validação de comprimento de texto em uma pasta de trabalho do Excel. Este guia ajudará você a gerenciar a entrada de dados de forma eficaz, garantindo que as entradas do usuário estejam em conformidade com as restrições de comprimento de texto especificadas, aprimorando assim a integridade dos dados e reduzindo erros.
 
-## que você aprenderá
+## O que você aprenderá
 - Configure seu ambiente com Aspose.Cells para Java
 - Crie uma nova pasta de trabalho e acesse suas células
 - Adicionar e estilizar texto em uma célula do Excel
@@ -193,6 +195,9 @@ Sinta-se à vontade para explorar mais recursos do Aspose.Cells, como gráficos,
 - Sim, o Aspose.Cells suporta vários tipos de validação de dados, permitindo que você aplique regras diferentes em sua pasta de trabalho.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Most pedig nézzük meg, milyen előfeltételeknek kell megfelelnünk, mielőtt 
 Mielőtt elkezdenéd **Aspose.Cells Java-hoz**, győződjön meg arról, hogy a következőkkel rendelkezik:
 
 - **Java fejlesztőkészlet (JDK)**Győződjön meg arról, hogy a JDK telepítve van a gépén. Ez az oktatóanyag feltételezi, hogy a JDK 8-as vagy újabb verzióját használja.
-- **Integrált fejlesztői környezet (IDE)**Használjon olyan IDE-t, mint az IntelliJ IDEA, az Eclipse vagy a NetBeans a kód írásához és kezeléséhez.
+- **Integrált fejlesztői környezet (IDE)**Használj olyan IDE-t, mint az IntelliJ IDEA, az Eclipse vagy a NetBeans a kódod írásához és kezeléséhez.
 - **Alapvető Java programozási ismeretek**A Java programozási fogalmak ismerete segít megérteni a megvalósítás részleteit.
 
 ## Az Aspose.Cells beállítása Java-hoz
@@ -156,6 +158,9 @@ Fedezze fel az Aspose.Cells további funkcióit a következő ellenőrzéssel: [
 Kezdje útját még ma az Aspose.Cells segítségével, és fejlessze Java alkalmazásait az Excel-adatok zökkenőmentes kezelésével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

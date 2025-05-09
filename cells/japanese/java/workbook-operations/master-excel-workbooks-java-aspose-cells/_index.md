@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-Excelファイルをプログラムで管理するのに苦労していませんか？複雑なデータセットの読み込みや、処理済みのレポートの効率的な保存など、適切なツールがないとExcelワークブックの扱いは困難です。そこで、これらのタスクを簡単に簡素化できるように設計された堅牢なライブラリ、Aspose.Cells for Javaの出番です。このチュートリアルでは、Aspose.Cellsを活用してJavaアプリケーションからExcelワークブックの読み込みと保存を行い、ワークシートの図形にアクセスする方法を説明します。
+Excelファイルをプログラムで管理するのに苦労していませんか？複雑なデータセットの読み込みや、処理済みのレポートの効率的な保存など、適切なツールがないとExcelワークブックの扱いは困難です。そこで、これらのタスクを簡単に簡素化できるように設計された強力なライブラリ、Aspose.Cells for Javaの出番です。このチュートリアルでは、Aspose.Cellsを活用してJavaアプリケーションからExcelワークブックの読み込みと保存を行い、ワークシートの図形にアクセスする方法を説明します。
 
 **学習内容:**
 
@@ -196,6 +198,9 @@ Aspose.Cells for Java を使用して Excel ブックの読み込みと保存、
 ソリューションを実装する準備はできましたか? 以下の手順に従い、提供されているリソースを調べて、今すぐ Aspose.Cells を使用して Java アプリケーションの強化を始めましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

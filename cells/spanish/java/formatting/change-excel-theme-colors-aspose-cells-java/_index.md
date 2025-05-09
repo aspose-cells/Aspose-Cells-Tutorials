@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Ahora, profundicemos en el cambio de colores del tema usando Aspose.Cells:
 ### Recuperar los colores del tema actual
 
 #### Descripción general
-Comience abriendo un archivo de Excel existente y recuperando los colores del tema actual. Esto le ayudará a comprender la línea base antes de realizar cambios.
+Comience abriendo un archivo de Excel existente y recuperando sus colores de tema actuales. Esto le ayudará a comprender la línea base antes de realizar cambios.
 
 #### Fragmento de código
 
@@ -196,6 +198,9 @@ Los próximos pasos incluyen experimentar con otras funciones de Aspose.Cells o 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

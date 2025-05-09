@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Các bước xin cấp giấy phép
 
 - **Dùng thử miễn phí**: Tải xuống bản dùng thử miễn phí để kiểm tra các tính năng của Aspose.Cells.
-- **Giấy phép tạm thời**: Xin giấy phép tạm thời để đánh giá mở rộng.
+- **Giấy phép tạm thời**Xin giấy phép tạm thời để đánh giá mở rộng.
 - **Mua**: Hãy mua bản quyền đầy đủ nếu bạn quyết định tích hợp vĩnh viễn vào dự án của mình.
 
 Sau khi cài đặt, hãy khởi tạo và thiết lập Aspose.Cells trong ứng dụng Java của bạn:
@@ -226,6 +228,9 @@ Hãy thử áp dụng những tùy chỉnh này vào dự án của bạn và xe
 Hãy bắt đầu hành trình cùng Aspose.Cells ngay hôm nay và thay đổi cách bạn xử lý dữ liệu bảng tính!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

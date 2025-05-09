@@ -1,40 +1,42 @@
 ---
-title: Dapatkan Detail Odata
-linktitle: Dapatkan Detail Odata
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Temukan cara mengekstrak rincian OData dari Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini.
-weight: 110
-url: /id/net/excel-workbook/get-odata-details/
+"description": "Temukan cara mengekstrak rincian OData dari Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini."
+"linktitle": "Dapatkan Detail Odata"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Dapatkan Detail Odata"
+"url": "/id/net/excel-workbook/get-odata-details/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Detail Odata
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia manajemen data yang terus berkembang, kemampuan untuk menghubungkan, menganalisis, dan memanipulasi data secara efisien telah menjadi kebutuhan utama bagi para pengembang dan organisasi. Hadirlah Aspose.Cells for .NET—API canggih yang dirancang untuk bekerja dengan file Excel secara terprogram. Salah satu fitur unggulannya terletak pada integrasi OData, yang memungkinkan pengguna berinteraksi dengan lancar dengan sumber data yang kompleks. Baik Anda sedang mengerjakan proyek intelijen bisnis berskala besar atau sekadar ingin menyederhanakan proses data Anda, memahami cara mendapatkan detail OData dapat sangat meningkatkan kemampuan Anda. Dalam panduan ini, kami akan memandu Anda melalui proses langkah demi langkah untuk mengekstrak detail OData menggunakan Aspose.Cells for .NET.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita menyelami kode lebih dalam, mari pastikan Anda memiliki semua yang Anda butuhkan untuk mengikuti tutorial ini. Berikut ini yang Anda perlukan:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio. Ini adalah lingkungan yang ideal untuk pengembangan .NET.
-2. Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET dari[Halaman unduhan Aspose](https://releases.aspose.com/cells/net/) Anda juga dapat mencoba versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+2. Pustaka Aspose.Cells: Unduh dan instal pustaka Aspose.Cells untuk .NET dari [Halaman unduhan Aspose](https://releases.aspose.com/cells/net/)Anda juga dapat mencoba versi uji coba gratis dari [itt](https://releases.aspose.com/).
 3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami nuansa kode dengan lebih baik.
 4. Contoh File Excel: Untuk tutorial ini, kami akan menggunakan file Excel bernama "ODataSample.xlsx," yang harus disimpan di direktori kerja Anda.
 
 Setelah komponen-komponen ini siap, Anda siap untuk mulai mengekstrak rincian OData dengan mudah!
 
-## Paket Impor
+## Csomagok importálása
 
 Mari kita mulai perjalanan pengkodean kita dengan mengimpor paket-paket yang diperlukan ke dalam proyek kita. Paket-paket ini akan menyediakan kelas-kelas dan metode-metode yang diperlukan untuk bekerja dengan OData di Aspose.Cells.
 
-### Buat Proyek C# Baru
+### Új C# projekt létrehozása
 
-1. Buka Visual Studio.
+1. Nyisd meg a Visual Studio-t.
 2. Klik "Buat proyek baru."
 3. Pilih "Aplikasi Konsol (.NET Core)" atau "Aplikasi Konsol (.NET Framework)"—sesuai selera Anda.
 4. Beri nama proyek Anda (misalnya, ODataDetailsExtractor) dan klik “Buat.”
@@ -43,14 +45,14 @@ Mari kita mulai perjalanan pengkodean kita dengan mengimpor paket-paket yang dip
 
 Untuk bekerja dengan Aspose.Cells, Anda perlu menginstalnya melalui NuGet Package Manager:
 
-1. Klik kanan pada proyek Anda di Solution Explorer.
-2. Pilih "Kelola Paket NuGet."
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
 3. Pada tab "Telusuri", cari "Aspose.Cells".
-4. Klik “Instal” untuk menambahkan paket ke proyek Anda.
+4. Kattintson a „Telepítés” gombra a csomag projekthez való hozzáadásához.
 
 ### Sertakan Ruang Nama yang Diperlukan
 
- Setelah instalasi selesai, Anda ingin menambahkan namespace yang diperlukan di bagian atas`Program.cs` mengajukan:
+Setelah instalasi selesai, Anda ingin menambahkan namespace yang diperlukan di bagian atas `Program.cs` fájl:
 
 ```csharp
 using Aspose.Cells.QueryTables;
@@ -63,7 +65,7 @@ Setelah lingkungan pengembangan kita siap, saatnya menulis kode utama untuk meng
 
 ## Langkah 1: Siapkan Buku Kerja
 
- Pada langkah awal ini, Anda akan membuat sebuah instance dari`Workbook` kelas dan memuat file Excel Anda:
+Pada langkah awal ini, Anda akan membuat sebuah instance dari `Workbook` kelas dan memuat file Excel Anda:
 
 ```csharp
 // Mengatur direktori sumber
@@ -105,7 +107,7 @@ Di blok ini, kita:
 
 ## Langkah 4: Jalankan & Verifikasi
 
- Terakhir, Anda perlu memastikan bahwa kode berjalan dengan benar dan menghasilkan output yang diharapkan. Tambahkan baris berikut di akhir kode Anda`Main` metode:
+Terakhir, Anda perlu memastikan bahwa kode berjalan dengan benar dan menghasilkan output yang diharapkan. Tambahkan baris berikut di akhir kode Anda `Main` metode:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -113,29 +115,31 @@ Console.WriteLine("GetOdataDetails executed successfully.");
 
 Setelah ditambahkan, jalankan proyek Anda. Anda akan melihat nama koneksi beserta item terkaitnya tercetak jelas di konsol.
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Dalam beberapa langkah sederhana, Anda memanfaatkan kekuatan Aspose.Cells untuk .NET untuk mengekstrak detail OData dari file Excel. Sungguh menakjubkan betapa mudahnya untuk menyelami tugas manajemen data yang rumit dengan alat dan petunjuk yang tepat. Dengan menggunakan Aspose.Cells, Anda tidak hanya mempermudah pekerjaan Anda; Anda juga membuka kemungkinan baru untuk manipulasi data. Sekarang setelah Anda memahami dasar-dasarnya, lanjutkan dan jelajahi kemampuannya lebih jauh—ini adalah pengubah permainan!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells untuk .NET?
+### Mi az Aspose.Cells .NET-hez?
 Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi dokumen Excel tanpa memerlukan Microsoft Excel.
 
-### Bisakah saya menggunakan Aspose.Cells tanpa lisensi?
+### Használhatom az Aspose.Cells-t licenc nélkül?
 Ya, Anda dapat mengunduh uji coba gratis dari situs mereka; namun, ada beberapa batasannya.
 
 ### Apa itu rumus Power Query?
 Rumus Power Query memungkinkan pengguna untuk menyambungkan, menggabungkan, dan mengubah data dari berbagai sumber dalam Excel.
 
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat mengunjungi[Forum Aspose](https://forum.aspose.com/c/cells/9) untuk dukungan dan bantuan masyarakat.
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Meglátogathatod a [Aspose Fórum](https://forum.aspose.com/c/cells/9) untuk dukungan dan bantuan masyarakat.
 
-### Di mana saya dapat membeli Aspose.Cells?
- Anda dapat membeli Aspose.Cells dari mereka[halaman pembelian](https://purchase.aspose.com/buy).
+### Hol lehet Aspose.Cells-t vásárolni?
+Anda dapat membeli Aspose.Cells dari mereka [vásárlási oldal](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

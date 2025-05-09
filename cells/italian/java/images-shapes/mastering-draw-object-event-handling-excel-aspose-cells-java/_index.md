@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ Per utilizzare al meglio Aspose.Cells, è necessaria una licenza. Puoi:
 
 ### Inizializzazione di base
 
-Dopo aver configurato Aspose.Cells, inizializzalo nella tua applicazione Java:
+Una volta configurato Aspose.Cells, inizializzalo nella tua applicazione Java:
 
 ```java
 import com.aspose.cells.*;
@@ -120,7 +122,7 @@ class clsDrawObjectEventHandler extends DrawObjectEventHandler {
 
 #### Conversione di cartelle di lavoro e PDF
 
-Successivamente, implementa la funzionalità per caricare un file Excel, impostare il gestore degli eventi e salvarlo come PDF:
+Successivamente, implementa la funzionalità per caricare un file Excel, impostare il gestore eventi e salvarlo come PDF:
 
 ```java
 void Run() throws Exception {
@@ -191,6 +193,9 @@ Inizia a implementare queste funzionalità oggi stesso e osserva la trasformazio
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

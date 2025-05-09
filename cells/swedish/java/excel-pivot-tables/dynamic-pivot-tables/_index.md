@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamiska pivottabeller
@@ -28,7 +30,7 @@ När du har laddat ner biblioteket lägger du till det i projektets byggsökväg
 
 ## Steg 2: Läs in en arbetsbok
 
-För att arbeta med pivottabeller måste vi först ladda en arbetsbok som innehåller de data vi vill analysera. Du kan göra detta med hjälp av följande kod:
+För att arbeta med pivottabeller behöver vi först ladda en arbetsbok som innehåller de data vi vill analysera. Du kan göra detta med hjälp av följande kod:
 
 ```java
 // Ladda Excel-filen
@@ -45,7 +47,7 @@ Nu när vi har laddat arbetsboken ska vi skapa en pivottabell. Vi behöver ange 
 // Hämta det första arbetsbladet
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Ange dataintervallet för pivottabellen
+// Ange dataområdet för pivottabellen
 String sourceData = "A1:D10"; // Ersätt med ditt dataintervall
 
 // Ange platsen för pivottabellen
@@ -107,9 +109,11 @@ Ja, du kan använda filter på pivottabeller för att visa specifika datadelmän
 ### F5: Stöder Aspose.Cells Excels avancerade pivottabellfunktioner?
 
 Ja, Aspose.Cells erbjuder omfattande stöd för Excels avancerade pivottabellfunktioner, vilket gör att du kan skapa komplexa pivottabeller.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

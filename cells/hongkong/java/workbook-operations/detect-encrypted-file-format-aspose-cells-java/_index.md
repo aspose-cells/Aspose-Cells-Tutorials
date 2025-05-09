@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ public class Main {
 
 4. **確定文件格式類型：**
 
-   使用條件語句評估傳回的檔案格式類型：
+   使用條件語句評估傳回的文件格式類型：
 
    ```java
    if (fileFormatInfo.getFileFormatType() == FileFormatType.EXCEL_97_TO_2003) {
@@ -201,6 +203,9 @@ public class Main {
 透過遵循本指南，您現在可以使用 Java 中的 Aspose.Cells 實現加密檔案的檔案格式偵測。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

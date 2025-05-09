@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Shape and Text Modifications
@@ -66,9 +68,11 @@ Learn how to set margins for comments and shapes in Excel using Aspose.Cells for
 Learn to access non-primitive shapes in Excel using Aspose.Cells for .NET. Discover step-by-step methodologies in this comprehensive guide.
 ### [Refresh OLE Object in Excel](./refresh-ole-object-excel/)
 Learn how to refresh OLE objects in Excel using Aspose.Cells for .NET with a step-by-step guide, enhancing your Excel automation skills seamlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

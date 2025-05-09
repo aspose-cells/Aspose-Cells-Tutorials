@@ -8,7 +8,9 @@ url: /net/worksheet-operations/get-cell-validation-ods/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Cell Validation in ODS File
@@ -88,6 +90,7 @@ You can apply validation using the `Validation` property of the `Cell` class in 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

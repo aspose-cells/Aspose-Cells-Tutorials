@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ class CustomLoadFilter extends LoadFilter {
 
 **解釋：**
 - **`startSheet Method`：** 呼叫每個工作表來設定特定的載入過濾器選項。
-- **`setLoadDataFilterOptions`：** 調整載入的資料類型。例如， `~LoadDataFilterOptions.CHART` 排除圖表載入。
+- **`setLoadDataFilterOptions`：** 調整載入的資料類型。例如， `~LoadDataFilterOptions.CHART` 排除載入圖表。
 
 #### 使用自訂過濾器載入工作簿
 
@@ -188,6 +190,9 @@ class ExportWorksheetsToImages {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

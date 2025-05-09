@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,20 +17,20 @@
 
 Dalam bidang manajemen dan pelaporan data, menyajikan informasi dengan jelas adalah kuncinya. Sering kali, lembar kerja yang panjang dapat menjadi sulit digunakan jika tidak diformat dengan benar. Tutorial ini mengatasi tantangan ini dengan menunjukkan cara menggunakan Aspose.Cells untuk Java untuk menambahkan pemisah halaman horizontal dan vertikal dalam file Excel secara efisien.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membuat instance `Workbook` objek menggunakan Aspose.Cells
 - Metode untuk menambahkan pemisah halaman horizontal dan vertikal
-- Aplikasi praktis dari fitur-fitur ini
+- Ezen tulajdonságok gyakorlati alkalmazásai
 - Tips performa untuk penggunaan optimal
 
 Mari selami cara menguasai penambahan jeda halaman dengan Aspose.Cells Java!
 
-## Prasyarat
+## Előfeltételek
 Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
 
-- **Perpustakaan & Ketergantungan**: Anda memerlukan Aspose.Cells untuk Java. Kami akan membahas instalasi menggunakan Maven dan Gradle.
-- **Pengaturan Lingkungan**Pastikan lingkungan pengembangan Anda diatur untuk menangani aplikasi Java (misalnya, JDK terinstal).
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java.
+- **Könyvtárak és függőségek**: Anda memerlukan Aspose.Cells untuk Java. Kami akan membahas instalasi menggunakan Maven dan Gradle.
+- **Környezet beállítása**Pastikan lingkungan pengembangan Anda diatur untuk menangani aplikasi Java (misalnya, JDK terinstal).
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java.
 
 ### Menyiapkan Aspose.Cells untuk Java
 Untuk memulai Aspose.Cells, Anda perlu mengintegrasikannya ke dalam proyek Anda menggunakan Maven atau Gradle. Berikut caranya:
@@ -47,7 +49,7 @@ Untuk memulai Aspose.Cells, Anda perlu mengintegrasikannya ke dalam proyek Anda 
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 Untuk memanfaatkan Aspose.Cells secara penuh, Anda perlu memperoleh lisensi. Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara untuk pengujian yang lebih ekstensif. Untuk penggunaan komersial, sebaiknya beli lisensi.
 
 Setelah disiapkan, inisialisasi proyek Anda dengan membuat kelas Java baru dan mengimpor pustaka yang diperlukan:
@@ -56,19 +58,19 @@ Setelah disiapkan, inisialisasi proyek Anda dengan membuat kelas Java baru dan m
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Membuat Instansi Objek Buku Kerja
-**Ringkasan**: Langkah pertama dalam memanipulasi file Excel dengan Aspose.Cells adalah membuat contoh buku kerja. Objek ini berfungsi sebagai titik masuk untuk mengakses lembar kerja.
+### Munkafüzet-objektum példányosítása
+**Áttekintés**: Langkah pertama dalam memanipulasi file Excel dengan Aspose.Cells adalah membuat contoh buku kerja. Objek ini berfungsi sebagai titik masuk untuk mengakses lembar kerja.
 
-#### Panduan Langkah demi Langkah
+#### Lépésről lépésre útmutató
 1. **Buat Contoh Baru dari `Workbook` Kelas**
    ```java
    import com.aspose.cells.Workbook;
 
    public class InstantiateWorkbook {
        public static void main(String[] args) throws Exception {
-           // Buat contoh baru dari kelas Buku Kerja
+           // Hozz létre egy új példányt a Workbook osztályból
            Workbook workbook = new Workbook();
            
            // Objek 'buku kerja' sekarang dapat digunakan untuk memanipulasi berkas Excel.
@@ -77,10 +79,10 @@ import com.aspose.cells.Workbook;
    ```
 
 ### Menambahkan Hentian Halaman Horizontal
-**Ringkasan**: Menyesuaikan cara data ditampilkan di seluruh halaman akan meningkatkan keterbacaan. Mari kita lihat cara menambahkan pemisah halaman horizontal di lembar kerja.
+**Áttekintés**: Menyesuaikan cara data ditampilkan di seluruh halaman akan meningkatkan keterbacaan. Mari kita lihat cara menambahkan pemisah halaman horizontal di lembar kerja.
 
-#### Panduan Langkah demi Langkah
-1. **Akses Lembar Kerja Pertama**
+#### Lépésről lépésre útmutató
+1. **Hozzáférés az első munkalaphoz**
 2. **Tambahkan Hentian Halaman Horizontal**
 
 ```java
@@ -91,10 +93,10 @@ import com.aspose.cells.HorizontalPageBreakCollection;
 
 public class AddHorizontalPageBreak {
     public static void main(String[] args) throws Exception {
-        // Buat contoh buku kerja baru
+        // Új munkafüzet-példány létrehozása
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama di buku kerja
+        // A munkafüzet első munkalapjának elérése
         WorksheetCollection worksheets = workbook.getWorksheets();
         Worksheet worksheet = worksheets.get(0);
         
@@ -108,9 +110,9 @@ public class AddHorizontalPageBreak {
 ```
 
 ### Menambahkan Hentian Halaman Vertikal
-**Ringkasan**: Mirip dengan pemisah horizontal, pemisah halaman vertikal dapat membantu mengatur data secara lebih efektif.
+**Áttekintés**: Mirip dengan pemisah horizontal, pemisah halaman vertikal dapat membantu mengatur data secara lebih efektif.
 
-#### Panduan Langkah demi Langkah
+#### Lépésről lépésre útmutató
 1. **Ambil Lembar Kerja Pertama**
 2. **Tambahkan Hentian Halaman Vertikal**
 
@@ -122,7 +124,7 @@ import com.aspose.cells.VerticalPageBreakCollection;
 
 public class AddVerticalPageBreak {
     public static void main(String[] args) throws Exception {
-        // Membuat instance objek buku kerja baru
+        // Új munkafüzet-objektum példányosítása
         Workbook workbook = new Workbook();
         
         // Ambil lembar kerja pertama dari buku kerja
@@ -138,29 +140,29 @@ public class AddVerticalPageBreak {
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Mengintegrasikan Aspose.Cells untuk Java ke dalam proyek Anda menawarkan banyak manfaat nyata:
 
-- **Pembuatan Laporan Otomatis**: Secara otomatis memformat laporan untuk memastikan konsistensi di seluruh halaman.
+- **Automatizált jelentéskészítés**: Secara otomatis memformat laporan untuk memastikan konsistensi di seluruh halaman.
 - **Presentasi Data di Dasbor**Tingkatkan dasbor dengan bagian data yang terorganisir rapi.
-- **Pemrosesan Batch File Excel**: Terapkan aturan pemformatan yang konsisten di beberapa file.
+- **Excel fájlok kötegelt feldolgozása**: Terapkan aturan pemformatan yang konsisten di beberapa file.
 
-## Pertimbangan Kinerja
-Saat bekerja dengan kumpulan data besar, pertimbangkan kiat kinerja berikut:
+## Teljesítménybeli szempontok
+Nagy adathalmazokkal való munka során vegye figyelembe az alábbi teljesítménynövelő tippeket:
 
-- **Optimalkan Penggunaan Memori**: Kelola ukuran dan kompleksitas buku kerja untuk mencegah kelebihan memori.
+- **Memóriahasználat optimalizálása**: Kelola ukuran dan kompleksitas buku kerja untuk mencegah kelebihan memori.
 - **Penggunaan Page Breaks yang Efisien**: Tempatkan jeda secara strategis untuk meningkatkan keterbacaan tanpa mengacaukan struktur dokumen.
 
-## Kesimpulan
+## Következtetés
 Dengan menguasai fitur pemisah halaman Aspose.Cells for Java, Anda dapat meningkatkan penyajian data di Excel secara signifikan. Jelajahi lebih jauh dengan mengintegrasikan teknik-teknik ini ke dalam alur kerja yang lebih kompleks atau menjelajahi fungsi-fungsi tambahan dalam Aspose.Cells.
 
-### Langkah Berikutnya:
+### Következő lépések:
 - Cobalah menerapkan aturan pemformatan khusus.
 - Bereksperimenlah dengan berbagai metode untuk menangani kumpulan data besar secara efisien.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bisakah saya menambahkan beberapa jeda halaman sekaligus?**
-   - Ya, ulangi lokasi yang Anda inginkan dan gunakan `add()` metode untuk masing-masing.
+   - Ya, ulangi lokasi yang Anda inginkan dan gunakan `add()` módszer mindegyikhez.
 2. **Apa yang terjadi jika referensi sel tidak valid saat menambahkan hentian halaman?**
    - Pengecualian mungkin terjadi; pastikan bahwa referensi sel valid dalam konteks lembar kerja.
 3. **Bagaimana cara menghapus jeda halaman?**
@@ -170,18 +172,21 @@ Dengan menguasai fitur pemisah halaman Aspose.Cells for Java, Anda dapat meningk
 5. **Apakah pengaturan ini dapat berfungsi dengan bahasa lain?**
    - Ya, Aspose menyediakan fungsionalitas serupa di C#, Python, dan lainnya, jadi periksa dokumentasi mereka untuk implementasi spesifik.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh](https://releases.aspose.com/cells/java/)
-- [Pembelian](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Mendukung](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltés](https://releases.aspose.com/cells/java/)
+- [Vásárlás](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatás](https://forum.aspose.com/c/cells/9)
 
 Dengan mengikuti panduan lengkap ini, Anda sudah berada di jalur yang tepat untuk memanfaatkan kekuatan Aspose.Cells untuk Java dalam proyek-proyek terkait Excel Anda. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

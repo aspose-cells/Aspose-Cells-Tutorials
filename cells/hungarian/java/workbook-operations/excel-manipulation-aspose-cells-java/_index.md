@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Mire elolvasod ezt az útmutatót, gyakorlati tapasztalatot szerzel ezekkel a fu
 Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Java fejlesztőkészlet (JDK):** 8-as vagy újabb verzió telepítve a gépére.
 - **Integrált fejlesztői környezet (IDE):** Mint például az IntelliJ IDEA vagy az Eclipse Java kód írásához és futtatásához.
-- **Maven vagy Gradle:** A projektfüggőségek kezeléséhez.
+- **Maven vagy Gradle:** Projektfüggőségek kezelésére.
 
 Feltételezzük, hogy rendelkezel a Java programozási alapfogalmak, például az osztályok, objektumok és iterátorok ismeretével. Ha nem, érdemes lehet átnézni a bevezető forrásokat a folytatás előtt.
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Licencszerzés
 Az Aspose.Cells programot ingyenes próbaverzióval kipróbálhatja, vagy ideiglenes licencet szerezhet a korlátozások nélküli teljes funkcionalitás eléréséhez. Kövesse az alábbi lépéseket:
 1. **Ingyenes próbaverzió:** Töltsd le a könyvtárat innen [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/).
-2. **Ideiglenes engedély:** Ideiglenes engedély igénylése a következő címen: [Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+2. **Ideiglenes engedély:** Ideiglenes engedély igénylése a következő címen: [Aspose beszerzési oldal](https://purchase.aspose.com/temporary-license/).
 3. **Vásárlás:** Hosszú távú használathoz vásároljon licencet ugyanazon a weboldalon keresztül.
 
 Az Aspose.Cells inicializálása a projektben:
@@ -67,7 +69,7 @@ License license = new License();
 license.setLicense("path/to/aspose/cells/license.xml");
 ```
 
-Ez a lépés teljes hozzáférést biztosít a funkciókhoz értékelési korlátozások nélkül. 
+Ez a lépés teljes funkcionalitási hozzáférést biztosít értékelési korlátozások nélkül. 
 
 ## Megvalósítási útmutató
 
@@ -138,7 +140,7 @@ while (rowsIterator.hasNext()) {
 3. **Integráció az üzleti intelligencia eszközökkel:** Tisztított és formázott adatok betáplálása BI platformokba, mint például a Tableau vagy a Power BI.
 
 ## Teljesítménybeli szempontok
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - **Memóriakezelés:** Az erőforrásokat mindig hatékonyan kezelje a Workbook objektumok bezárásával a műveletek befejezése után, ahol alkalmazható, a try-with-resources metódust használva.
 - **Kötegelt feldolgozás:** Nagyon nagy adathalmazok esetén érdemes kisebb darabokban feldolgozni az adatokat a memória túlterhelésének elkerülése érdekében.
 
@@ -173,6 +175,9 @@ Ezen források felfedezésével elmélyítheted az Aspose.Cells-szel és annak k
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

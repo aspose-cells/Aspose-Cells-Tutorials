@@ -1,31 +1,33 @@
 ---
-title: Gabungkan Sel dalam Rentang Bernama di Excel
-linktitle: Gabungkan Sel dalam Rentang Bernama di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menggabungkan sel dalam rentang bernama menggunakan Aspose.Cells for .NET dalam tutorial langkah demi langkah ini. Temukan cara memformat, memberi gaya, dan mengotomatiskan laporan Excel.
-weight: 11
-url: /id/net/excel-advanced-named-ranges/merge-cells-in-named-range/
+"description": "Pelajari cara menggabungkan sel dalam rentang bernama menggunakan Aspose.Cells for .NET dalam tutorial langkah demi langkah ini. Temukan cara memformat, memberi gaya, dan mengotomatiskan laporan Excel."
+"linktitle": "Gabungkan Sel dalam Rentang Bernama di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Gabungkan Sel dalam Rentang Bernama di Excel"
+"url": "/id/net/excel-advanced-named-ranges/merge-cells-in-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gabungkan Sel dalam Rentang Bernama di Excel
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan file Excel secara terprogram, salah satu tugas umum yang mungkin Anda hadapi adalah menggabungkan sel dalam rentang bernama. Baik Anda mengotomatiskan pembuatan laporan, membuat dasbor, atau sekadar mengelola kumpulan data besar, menggabungkan sel merupakan teknik penting. Dalam tutorial ini, kita akan menjelajahi cara menggabungkan sel dalam rentang bernama menggunakan Aspose.Cells for .NET—pustaka canggih yang memungkinkan pengembang untuk memanipulasi file Excel tanpa perlu menginstal Microsoft Excel.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
--  Aspose.Cells untuk .NET: Anda dapat mengunduhnya dari[Aspose.Cells merilis halaman](https://releases.aspose.com/cells/net/).
+- Aspose.Cells untuk .NET: Anda dapat mengunduhnya dari [Aspose.Cells merilis halaman](https://releases.aspose.com/cells/net/).
 - .NET Framework terinstal di komputer Anda.
 - Pemahaman dasar tentang C#: Keakraban dengan konsep seperti kelas, metode, dan objek akan membantu.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum kita mulai membuat kode, Anda perlu mengimpor namespace yang diperlukan. Namespace ini akan memberi Anda akses ke fungsionalitas pustaka Aspose.Cells.
 
@@ -37,25 +39,25 @@ using Aspose.Cells;
 
 Setelah prasyarat dan paket-paket selesai, mari beralih ke bagian yang menyenangkan: pengkodean!
 
-Berikut rincian cara menggabungkan sel dalam rentang bernama di lembar Excel menggunakan Aspose.Cells for .NET.
+Berikut rincian cara menggabungkan sel dalam rentang bernama di lembar Excel menggunakan Aspose.Cells untuk .NET.
 
-## Langkah 1: Buat Buku Kerja Baru
+## 1. lépés: Új munkafüzet létrehozása
 
 Hal pertama yang kita butuhkan adalah buku kerja. Buku kerja dalam istilah Excel setara dengan berkas Excel. Mari kita buat satu.
 
 ```csharp
-// Buat Buku Kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook wb1 = new Workbook();
 ```
 
 Dengan menginisialisasi buku kerja baru, kita sekarang memiliki berkas Excel kosong yang siap dimanipulasi. Ini seperti memulai dengan kanvas kosong!
 
-## Langkah 2: Akses Lembar Kerja Pertama
+## 2. lépés: Az első munkalap elérése
 
 Setiap buku kerja berisi lembar kerja, dan dalam kasus ini, kita ingin bekerja dengan lembar kerja pertama. Mari kita ambil lembar kerja tersebut!
 
 ```csharp
-// Dapatkan lembar kerja pertama dalam buku kerja.
+// Szerezd meg a munkafüzet első munkalapját.
 Worksheet worksheet1 = wb1.Worksheets[0];
 ```
 
@@ -66,7 +68,7 @@ Bayangkan lembar kerja sebagai tab-tab individual dalam berkas Excel tempat data
 Sekarang setelah kita memiliki lembar kerja, saatnya membuat rentang. Rentang mengacu pada blok sel, yang dapat mencakup beberapa baris dan kolom.
 
 ```csharp
-//Buat rentang.
+// Buat rentang.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -105,7 +107,7 @@ Range range1 = wb1.Worksheets.GetRangeByName("TestRange");
 
 Mengambil rentang berdasarkan nama memungkinkan kita melakukan operasi lebih lanjut, seperti menambahkan gaya atau memasukkan data.
 
-## Langkah 7: Tentukan Gaya untuk Sel yang Digabungkan
+## Langkah 7: Tentukan Gaya untuk Sel yang Digabung
 
 Apa gunanya sel gabungan jika tampilannya tidak rapi? Mari buat objek gaya untuk menyelaraskan teks dan menerapkan warna latar belakang.
 
@@ -139,9 +141,9 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Itu`StyleFlag` memberi tahu Aspose.Cells properti gaya mana yang akan diterapkan—penyelarasan, bayangan, dsb. Ini memberi Anda kontrol terperinci atas cara gaya diterapkan.
+A `StyleFlag` memberi tahu Aspose.Cells properti gaya mana yang akan diterapkan—penyelarasan, bayangan, dsb. Ini memberi Anda kontrol terperinci atas cara gaya diterapkan.
 
-## Langkah 9: Masukkan Data ke dalam Rentang Gabungan
+## Langkah 9: Masukkan Data ke Rentang Gabungan
 
 Apa itu rentang yang diformat tanpa konten? Mari tambahkan beberapa teks.
 
@@ -157,35 +159,37 @@ Ini menempatkan teks "Selamat Datang di Aspose API" ke dalam sel pertama dari re
 Terakhir, mari simpan buku kerja sebagai berkas Excel.
 
 ```csharp
-// Simpan berkas Excel.
+// Mentse el az Excel fájlt.
 wb1.Save(dataDir + "outputMergeCellsInNamedRange.xlsx");
 ```
 
 Di sini, buku kerja disimpan dengan nama "outputMergeCellsInNamedRange.xlsx" di direktori yang Anda tentukan.
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda telah berhasil menggabungkan sel dalam rentang bernama, menerapkan beberapa format yang cantik, dan bahkan memasukkan beberapa data—semuanya dengan Aspose.Cells untuk .NET. Baik Anda sedang mengerjakan otomatisasi laporan, memanipulasi file Excel, atau sekadar mempelajari teknik baru, panduan langkah demi langkah ini akan memberi Anda dasar yang Anda butuhkan.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bisakah saya menggabungkan beberapa rentang yang tidak bersebelahan di Aspose.Cells?  
 Tidak, Anda hanya dapat menggabungkan sel yang bersebelahan di Aspose.Cells.
 
 ### Bisakah saya membatalkan operasi penggabungan secara terprogram?  
- Setelah sel digabungkan, Anda dapat memisahkannya menggunakan`UnMerge()` metode di Aspose.Cells.
+Setelah sel digabungkan, Anda dapat memisahkannya menggunakan `UnMerge()` metode di Aspose.Cells.
 
 ### Apakah penggabungan sel menghapus data di dalamnya?  
 Jika ada data dalam sel sebelum penggabungan, maka data dari sel pertama dalam rentang akan dipertahankan.
 
 ### Dapatkah saya menerapkan gaya yang berbeda pada sel individual dalam rentang gabungan?  
-Tidak, rentang gabungan berfungsi sebagai satu sel tunggal. Jadi, Anda tidak dapat menerapkan gaya berbeda ke sel individual di dalamnya.
+Tidak, rentang gabungan berfungsi sebagai sel tunggal, jadi Anda tidak dapat menerapkan gaya berbeda ke sel individual di dalamnya.
 
 ### Bagaimana cara mengakses sel yang digabungkan setelah penggabungan?  
 Setelah penggabungan, Anda masih dapat mengakses sel yang digabungkan menggunakan koordinat sudut kiri atasnya.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

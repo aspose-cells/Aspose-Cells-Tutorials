@@ -1,14 +1,16 @@
 ---
-title: Ustaw tytuły i osie na wykresie
-linktitle: Ustaw tytuły i osie na wykresie
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawiać tytuły i osie na wykresach za pomocą Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku, który zawiera przykłady kodu i wskazówki.
-weight: 15
-url: /pl/net/setting-chart-appearance/set-titles-and-axes-in-chart/
+"description": "Dowiedz się, jak ustawiać tytuły i osie na wykresach za pomocą Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku, który zawiera przykłady kodu i wskazówki."
+"linktitle": "Ustaw tytuły i osie na wykresie"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustaw tytuły i osie na wykresie"
+"url": "/pl/net/setting-chart-appearance/set-titles-and-axes-in-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw tytuły i osie na wykresie
@@ -23,8 +25,8 @@ Zanim przejdziemy do samouczka krok po kroku, upewnijmy się, że masz wszystko,
 
 1. Visual Studio: Upewnij się, że w systemie jest zainstalowany program Visual Studio, umożliwiający tworzenie aplikacji .NET.
 2. .NET Framework: Upewnij się, że używasz .NET Framework 4.0 lub nowszego.
-3.  Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells. Znajdziesz ją pod adresem[link do pobrania](https://releases.aspose.com/cells/net/).
-4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci swobodniej podążać za językiem.
+3. Biblioteka Aspose.Cells: Pobierz i zainstaluj bibliotekę Aspose.Cells. Znajdziesz ją pod adresem [link do pobrania](https://releases.aspose.com/cells/net/).
+4. Podstawowa znajomość języka C#: Znajomość programowania w języku C# pomoże Ci swobodniej podążać za kursem.
 
 Mając to wszystko na miejscu, możemy zacząć importować niezbędne pakiety i tworzyć nasz pierwszy wykres w programie Excel!
 
@@ -68,7 +70,7 @@ Następnie musimy uzyskać dostęp do arkusza kalkulacyjnego, w którym wprowadz
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Za pomocą indeksu`0`, uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego dostępnego w naszym skoroszycie.
+Za pomocą indeksu `0`, uzyskujemy dostęp do pierwszego arkusza kalkulacyjnego dostępnego w naszym skoroszycie.
 
 ## Krok 3: Dodaj przykładowe dane
 
@@ -212,16 +214,18 @@ Aspose.Cells to zaawansowana biblioteka umożliwiająca tworzenie i modyfikowani
 Tak! Aspose.Cells obsługuje różne typy wykresów, w tym kolumnowe, słupkowe, liniowe, kołowe i inne.
 
 ### Czy istnieje darmowa wersja Aspose.Cells?
- Tak, możesz wypróbować Aspose.Cells za darmo poprzez[link próbny](https://releases.aspose.com/).
+Tak, możesz wypróbować Aspose.Cells za darmo poprzez [link próbny](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Pełną dokumentację można znaleźć pod adresem[Strona referencyjna Aspose.Cells](https://reference.aspose.com/cells/net/).
+Pełną dokumentację można znaleźć pod adresem [Strona referencyjna Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie społeczności na[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie społeczności na [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

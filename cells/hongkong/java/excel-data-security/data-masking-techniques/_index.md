@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 數據屏蔽技術
@@ -23,7 +25,7 @@
 在深入研究使用 Aspose.Cells for Java 進行資料屏蔽之前，請確保您已滿足以下先決條件：
 
 - 已安裝 Java 開發工具包 (JDK)
-- Aspose.Cells for Java API函式庫
+- Aspose.Cells for Java API 函式庫
 - 對 Java 程式設計有基本的了解
 
 ## 了解資料屏蔽
@@ -42,7 +44,7 @@
 
 ## Aspose.Cells for Java入門
 
-在我們應用資料屏蔽技術之前，讓我們先設定我們的 Java 環境並包含 Aspose.Cells 函式庫。
+在應用資料屏蔽技術之前，讓我們先設定 Java 環境並包含 Aspose.Cells 函式庫。
 
 1. 下載 Aspose.Cells for Java：
 
@@ -133,6 +135,7 @@ Aspose.Cells 主要針對 Java，但 Aspose 也為其他語言（如 .NET、C++ 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

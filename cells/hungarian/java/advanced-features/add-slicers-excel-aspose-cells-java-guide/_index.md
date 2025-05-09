@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ public class SaveExcelWorkbookWithSlicer {
 Az Aspose.Cells for Java segítségével szeletelők hozzáadása javítja az adatelemzést:
 1. **Pénzügyi jelentéstétel:** Szűrje a negyedéves értékesítési adatokat a trendek azonosításához.
 2. **Készletgazdálkodás:** Dinamikusan kezelheti a készletszinteket a termékkategóriák szűrésével.
-3. **HR-analitika:** Hatékonyan elemezze az alkalmazottak teljesítménymutatóit a különböző részlegeken.
+3. **HR-analitika:** Hatékonyan elemezheti az alkalmazottak teljesítménymutatóit a különböző részlegeken.
 Az Aspose.Cells más rendszerekkel való integrálása tovább egyszerűsítheti a munkafolyamatokat.
 
 ## Teljesítménybeli szempontok
@@ -176,6 +178,9 @@ Nagy adathalmazokkal való munka során vegye figyelembe a következőket:
 - **Kötegelt feldolgozás:** Az adatok kötegelt kezelése a memóriahasználat optimalizálása érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

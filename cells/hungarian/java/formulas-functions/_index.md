@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Ismerje meg, hogyan használható az Aspose.Cells Java-ban a külső hivatkozás
 ### [Nevezett tartományképletek kezelése német nyelven az Aspose.Cells Java segítségével](./aspose-cells-java-german-named-ranges/)
 Ismerje meg, hogyan kezelheti a névvel ellátott tartományképleteket az Aspose.Cells for Java segítségével, kifejezetten a német területi beállításhoz igazítva. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
-### [Aspose.Cells Java elsajátítása: Képek és képletek hozzáadása Excel munkafüzetekhez](./aspose-cells-java-images-formulas-excel/)
+### [Aspose.Cells Java elsajátítása: Képek és képletek hozzáadása Excel-munkafüzetekhez](./aspose-cells-java-images-formulas-excel/)
 Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t képek és képletek Excel-munkafüzetekhez való hozzáadásához, ezáltal fejlesztve a táblázatok testreszabási készségeidet.
 
 ### [Nagy számok pontosságának megőrzése az Aspose.Cells használatával Java-ban: Átfogó útmutató](./aspose-cells-java-large-numbers-precision/)
@@ -85,7 +87,7 @@ Tanuld meg, hogyan lehet képletszöveget kinyerni Excel cellákból az Aspose.C
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -93,6 +95,9 @@ Tanuld meg, hogyan lehet képletszöveget kinyerni Excel cellákból az Aspose.C
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

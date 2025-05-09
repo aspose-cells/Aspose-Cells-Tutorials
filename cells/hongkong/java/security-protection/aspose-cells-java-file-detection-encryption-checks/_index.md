@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,7 +166,7 @@ System.out.println("The file is encrypted: " + info.isEncrypted());
 1. **什麼是 Aspose.Cells for Java？**
    - 一個用於在 Java 中處理電子表格檔案的強大庫。
    
-2. **如何檢查檔案是否使用 Aspose.Cells 加密？**
+2. **如何使用 Aspose.Cells 檢查檔案是否有加密？**
    - 使用 `isEncrypted` 方法來自 `FileFormatInfo` 目的。
 
 3. **我可以一次檢測多種文件格式嗎？**
@@ -187,6 +189,9 @@ System.out.println("The file is encrypted: " + info.isEncrypted());
 利用 Aspose.Cells 的強大功能將您的 Java 程式設計提升到新的水平。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

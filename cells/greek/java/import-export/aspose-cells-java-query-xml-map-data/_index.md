@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ for (Object obj : ret) {
 Ακολουθώντας αυτό το σεμινάριο, θα είστε πλήρως εξοπλισμένοι για να αξιοποιήσετε τη δύναμη του Aspose.Cells για Java στην υποβολή ερωτημάτων σε δεδομένα αντιστοίχισης XML μέσα σε αρχεία Excel. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

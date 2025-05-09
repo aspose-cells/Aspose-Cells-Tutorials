@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ Készen állsz arra, hogy elkezdd alkalmazni ezt a megoldást a projektjeidben? 
    - Ügyeljen a fájlformátum-specifikációk közötti eltérésekre a verziók között, például a VBA-projektek vagy makrók kezelésével kapcsolatban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

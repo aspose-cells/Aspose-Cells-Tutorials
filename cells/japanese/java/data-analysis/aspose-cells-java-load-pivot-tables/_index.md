@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-今日の急速に変化するビジネス環境において、大規模なデータセットを効率的に管理・分析することは、開発者とアナリスト双方にとって不可欠です。Aspose.Cells for Javaを用いたExcelファイルのプログラム操作は、データ処理プロセスの合理化と分析機能の強化を実現し、画期的な成果をもたらす可能性があります。このチュートリアルでは、Aspose.Cells for Javaを使用してExcelブックを読み込み、ピボットテーブルにアクセスする方法について説明します。
+今日の急速に変化するビジネス環境において、大規模なデータセットを効率的に管理・分析することは、開発者とアナリストの双方にとって不可欠です。Aspose.Cells for Javaを用いたExcelファイルのプログラム操作は、データ処理プロセスの合理化と分析機能の強化を実現し、画期的な成果をもたらす可能性があります。このチュートリアルでは、Aspose.Cells for Javaを使用してExcelブックを読み込み、ピボットテーブルにアクセスする方法について説明します。
 
 **学習内容:**
 - Aspose.Cells for Java をセットアップして使用します。
@@ -199,6 +201,9 @@ A1: 大きなファイルの場合は、ワークブックの必要な部分だ�
 A2: はい、Aspose.Cells はさまざまなクラウド プラットフォームでホストされているアプリケーションに統合できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Klaar om je vaardigheden in spreadsheetautomatisering naar een hoger niveau te t
 Door Aspose.Cells met Java te gebruiken, kunt u Excel-bestanden in uw applicaties efficiënt beheren en bewerken. Ontdek meer functionaliteiten om het potentieel ervan in uw projecten te maximaliseren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Gộp các ô trong phạm vi được đặt tên trong Excel
-linktitle: Gộp các ô trong phạm vi được đặt tên trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách hợp nhất các ô trong một phạm vi được đặt tên bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Khám phá cách định dạng, tạo kiểu và tự động hóa các báo cáo Excel.
-weight: 11
-url: /vi/net/excel-advanced-named-ranges/merge-cells-in-named-range/
+"description": "Tìm hiểu cách hợp nhất các ô trong một phạm vi được đặt tên bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Khám phá cách định dạng, tạo kiểu và tự động hóa các báo cáo Excel."
+"linktitle": "Gộp các ô trong phạm vi được đặt tên trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Gộp các ô trong phạm vi được đặt tên trong Excel"
+"url": "/vi/net/excel-advanced-named-ranges/merge-cells-in-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gộp các ô trong phạm vi được đặt tên trong Excel
@@ -21,7 +23,7 @@ Khi làm việc với các tệp Excel theo chương trình, một trong những
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị những thứ sau:
 
--  Aspose.Cells cho .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose.Cells](https://releases.aspose.com/cells/net/).
+- Aspose.Cells cho .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose.Cells](https://releases.aspose.com/cells/net/).
 - .NET Framework được cài đặt trên máy của bạn.
 - Hiểu biết cơ bản về C#: Sự quen thuộc với các khái niệm như lớp, phương thức và đối tượng sẽ giúp ích.
 
@@ -66,7 +68,7 @@ Hãy nghĩ về worksheet như các tab riêng lẻ trong một tệp Excel nơi
 Bây giờ chúng ta đã có bảng tính, đã đến lúc tạo một phạm vi. Phạm vi là một khối ô, có thể trải dài trên nhiều hàng và cột.
 
 ```csharp
-//Tạo một phạm vi.
+// Tạo một phạm vi.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -110,7 +112,7 @@ Việc lấy phạm vi theo tên cho phép chúng ta thực hiện các thao tá
 Một ô được hợp nhất có tác dụng gì nếu nó trông không được trau chuốt? Hãy tạo một đối tượng kiểu để căn chỉnh văn bản và áp dụng màu nền.
 
 ```csharp
-// Xác định đối tượng kiểu.
+// Xác định một đối tượng kiểu.
 Style style = wb1.CreateStyle();
 
 // Thiết lập căn chỉnh.
@@ -139,7 +141,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- Các`StyleFlag` cho Aspose.Cells biết thuộc tính kiểu nào cần áp dụng—căn chỉnh, đổ bóng, v.v. Điều này giúp bạn kiểm soát chi tiết cách áp dụng kiểu.
+Các `StyleFlag` cho Aspose.Cells biết thuộc tính kiểu nào cần áp dụng—căn chỉnh, đổ bóng, v.v. Điều này giúp bạn kiểm soát chi tiết cách áp dụng kiểu.
 
 ## Bước 9: Nhập dữ liệu vào phạm vi đã hợp nhất
 
@@ -173,7 +175,7 @@ Và bạn đã có nó! Bạn đã hợp nhất thành công các ô trong một
 Không, bạn chỉ có thể hợp nhất các ô liền kề trong Aspose.Cells.
 
 ### Tôi có thể hoàn tác thao tác hợp nhất theo chương trình không?  
- Sau khi các ô được hợp nhất, bạn có thể hủy hợp nhất chúng bằng cách sử dụng`UnMerge()` phương pháp trong Aspose.Cells.
+Sau khi các ô được hợp nhất, bạn có thể hủy hợp nhất chúng bằng cách sử dụng `UnMerge()` phương pháp trong Aspose.Cells.
 
 ### Việc hợp nhất các ô có xóa dữ liệu trong đó không?  
 Nếu có bất kỳ dữ liệu nào trong các ô trước khi hợp nhất, dữ liệu từ ô đầu tiên của phạm vi sẽ được giữ lại.
@@ -183,9 +185,11 @@ Không, một phạm vi được hợp nhất hoạt động như một ô duy n
 
 ### Làm thế nào để truy cập vào ô đã hợp nhất sau khi hợp nhất?  
 Sau khi hợp nhất, bạn vẫn có thể truy cập vào ô đã hợp nhất bằng cách sử dụng tọa độ ở góc trên cùng bên trái của ô đó.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

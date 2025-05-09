@@ -1,14 +1,16 @@
 ---
-title: Thêm điều khiển Spinner vào trang tính trong Excel
-linktitle: Thêm điều khiển Spinner vào trang tính trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm điều khiển Spinner vào bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
-weight: 23
-url: /vi/net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/
+"description": "Tìm hiểu cách thêm điều khiển Spinner vào bảng tính Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Thêm điều khiển Spinner vào trang tính trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm điều khiển Spinner vào trang tính trong Excel"
+"url": "/vi/net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm điều khiển Spinner vào trang tính trong Excel
@@ -17,9 +19,9 @@ url: /vi/net/excel-shapes-controls/add-spinner-control-to-worksheet-excel/
 Nếu bạn đang tìm hiểu về thế giới tự động hóa Excel bằng .NET, có lẽ bạn đã bắt gặp nhu cầu về các điều khiển tương tác nhiều hơn trong bảng tính của mình. Một trong những điều khiển như vậy là Spinner, cho phép người dùng tăng hoặc giảm giá trị một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm điều khiển Spinner vào bảng tính Excel bằng Aspose.Cells cho .NET. Chúng tôi sẽ chia nhỏ thành các bước dễ hiểu để bạn có thể theo dõi liền mạch. 
 ## Điều kiện tiên quyết
 Trước khi tìm hiểu về mã, hãy đảm bảo bạn đã thiết lập mọi thứ để có trải nghiệm mượt mà:
-1.  Aspose.Cells cho .NET: Đảm bảo bạn có thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải phiên bản mới nhất từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET: Đảm bảo bạn có thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải phiên bản mới nhất từ [liên kết tải xuống](https://releases.aspose.com/cells/net/).
 2. Visual Studio: Bạn nên cài đặt Visual Studio hoặc bất kỳ .NET IDE nào khác mà bạn thích.
-3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng hiểu các đoạn mã. Nếu bạn mới bắt đầu, đừng lo lắng! Tôi sẽ hướng dẫn bạn từng phần.
+3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã một cách dễ dàng. Nếu bạn mới bắt đầu, đừng lo lắng! Tôi sẽ hướng dẫn bạn từng phần.
 ## Nhập gói
 Để sử dụng Aspose.Cells trong dự án của bạn, bạn cần nhập các không gian tên cần thiết. Sau đây là cách bạn có thể thiết lập môi trường của mình:
 ```csharp
@@ -47,7 +49,7 @@ Bây giờ là lúc tạo một bảng tính Excel để thêm điều khiển S
 // Tạo một Workbook mới.
 Workbook excelbook = new Workbook();
 ```
- Các`Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, chúng ta tạo một sổ làm việc mới sẵn sàng để sửa đổi.
+Các `Workbook` lớp biểu diễn một tệp Excel. Bằng cách khởi tạo nó, chúng ta tạo một sổ làm việc mới sẵn sàng để sửa đổi.
 ## Bước 3: Truy cập vào trang tính đầu tiên
 Chúng ta sẽ thêm Spinner vào trang tính đầu tiên trong sổ làm việc.
 ```csharp
@@ -98,7 +100,7 @@ spinner.Placement = PlacementType.FreeFloating;
 spinner.LinkedCell = "A2";
 // Đặt giá trị tối đa.
 spinner.Max = 10;
-//Đặt giá trị tối thiểu.
+// Đặt giá trị tối thiểu.
 spinner.Min = 0;
 // Thiết lập thay đổi gia số cho bộ điều khiển.
 spinner.IncrementalChange = 2;
@@ -121,14 +123,16 @@ Và bạn đã có nó! Bạn đã thêm thành công điều khiển Spinner v�
 ### Tôi có thể tùy chỉnh giao diện của Spinner không?
 Có, bạn có thể thay đổi kích thước, vị trí và thậm chí cả đổ bóng 3D để có giao diện bóng bẩy hơn.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần phải có giấy phép trả phí để sử dụng sản xuất. Kiểm tra[mua tùy chọn](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng cần phải có giấy phép trả phí để sử dụng sản xuất. Hãy xem [mua tùy chọn](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận trợ giúp về Aspose.Cells như thế nào?
- Để được hỗ trợ, hãy truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và tìm câu trả lời.
+Để được hỗ trợ, hãy truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) nơi bạn có thể đặt câu hỏi và tìm câu trả lời.
 ### Có thể thêm nhiều Spinner vào cùng một bảng tính không?
 Chắc chắn rồi! Bạn có thể thêm bao nhiêu Spinner tùy thích bằng cách làm theo các bước tương tự cho mỗi điều khiển.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

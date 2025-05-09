@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 자동 데이터 입력
@@ -16,7 +18,7 @@
 
 오늘날 데이터 중심 사회에서 효율적인 데이터 입력은 기업에 매우 중요합니다. 수동 데이터 입력은 시간을 낭비할 뿐만 아니라 오류 발생 위험도 높입니다. 이러한 과제를 해결하기 위해 Excel 파일 작업을 위한 강력한 Java API인 Aspose.Cells for Java를 사용하여 데이터 입력을 자동화하는 방법을 살펴보겠습니다.
 
-## 데이터 입력을 자동화하는 이유는 무엇입니까?
+## 왜 데이터 입력을 자동화해야 할까요?
 
 기술적인 세부 사항을 살펴보기 전에, 데이터 입력을 자동화하는 것이 왜 필수적인지 알아보겠습니다.
 
@@ -115,9 +117,11 @@ Aspose.Cells for Java를 사용하여 데이터 입력을 자동화하면 데이
    설명서를 다음에서 탐색할 수 있습니다. [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 이제 Aspose.Cells for Java를 사용하여 데이터 입력을 효과적으로 자동화하는 지식과 도구를 갖추게 되었습니다. 데이터 처리 프로세스를 개선하고 비즈니스 효율성을 높여 보세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

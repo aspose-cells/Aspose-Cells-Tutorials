@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ Ten fragment kodu inicjuje nowy, pusty skoroszyt programu Excel. Teraz możesz g
 Tworzenie nowego skoroszytu jest proste dzięki Aspose.Cells Java. Ta funkcja pozwala zacząć od pustej karty i wypełnić skoroszyt danymi programowo.
 
 #### Przegląd
-Nowo utworzony `Workbook` obiekt reprezentuje plik Excel w pamięci. Możesz dodać arkusze, komórki i inne rzeczy przed zapisaniem go na dysku.
+Nowo utworzony `Workbook` obiekt reprezentuje plik Excel w pamięci. Możesz dodać arkusze, komórki i więcej przed zapisaniem go na dysku.
 
 **Krok 1: Zainicjuj skoroszyt**
 ```java
@@ -218,6 +220,9 @@ Nauczyłeś się, jak tworzyć, ładować, manipulować i zapisywać skoroszyty 
 Postępując zgodnie z tym przewodnikiem, powinieneś być dobrze wyposażony, aby wykorzystać możliwości Aspose.Cells dla Java w swoich projektach związanych z Excelem. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

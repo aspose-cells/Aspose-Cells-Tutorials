@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ import com.aspose.cells.Worksheet;
 Worksheet worksheet = workbook.getWorksheets().get(0); // 통합 문서의 첫 번째 워크시트에 액세스합니다.
 ```
 #### 설명
-- 첫 번째 워크시트를 사용하여 검색합니다. `getWorksheets().get(0)`, 이는 다음을 반환합니다. `Worksheet` 물체.
+- 첫 번째 워크시트를 검색합니다. `getWorksheets().get(0)`, 이는 다음을 반환합니다. `Worksheet` 물체.
 ### 피벗 테이블 작업(H2)
 #### 개요
 이 섹션에서는 Excel 워크시트 내에서 피벗 테이블에 액세스하고 조작하는 방법을 다룹니다.
@@ -177,6 +179,9 @@ Aspose.Cells는 다음과 같은 애플리케이션을 통해 데이터 관리�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

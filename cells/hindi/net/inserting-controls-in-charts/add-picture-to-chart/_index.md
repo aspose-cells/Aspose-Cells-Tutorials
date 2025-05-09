@@ -1,14 +1,16 @@
 ---
-title: चार्ट में चित्र जोड़ें
-linktitle: चार्ट में चित्र जोड़ें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel चार्ट में आसानी से चित्र जोड़ना सीखें। बस कुछ सरल चरणों में अपने चार्ट और प्रस्तुतियाँ बढ़ाएँ।
-weight: 11
-url: /hi/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel चार्ट में आसानी से चित्र जोड़ना सीखें। बस कुछ सरल चरणों में अपने चार्ट और प्रस्तुतियाँ बढ़ाएँ।"
+"linktitle": "चार्ट में चित्र जोड़ें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट में चित्र जोड़ें"
+"url": "/hi/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में चित्र जोड़ें
@@ -22,8 +24,8 @@ url: /hi/net/inserting-controls-in-charts/add-picture-to-chart/
 इससे पहले कि हम कोडिंग की बारीकियों में उतरें, कुछ पूर्व-आवश्यकताएं हैं जिनका आपको सुचारू रूप से पालन करने की आवश्यकता है:
 
 - विज़ुअल स्टूडियो: यह वह जगह है जहाँ आप अपना .NET कोड लिखेंगे और चलाएँगे। सुनिश्चित करें कि आपने इसे इंस्टॉल किया हुआ है।
--  .NET के लिए Aspose.Cells: Excel फ़ाइलों के साथ काम करने के लिए आपको इस लाइब्रेरी की ज़रूरत होगी। आप ऐसा कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
-- C# की बुनियादी समझ: यद्यपि मैं आपको कोड के माध्यम से मार्गदर्शन करूंगा, लेकिन C# की बुनियादी बातों की जानकारी होने से चीजें स्पष्ट हो जाएंगी।
+- .NET के लिए Aspose.Cells: Excel फ़ाइलों के साथ काम करने के लिए आपको इस लाइब्रेरी की ज़रूरत होगी। आप ऐसा कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
+- C# की बुनियादी समझ: हालांकि मैं आपको कोड के माध्यम से मार्गदर्शन करूंगा, लेकिन C# की बुनियादी बातों पर पकड़ होने से चीजें स्पष्ट हो जाएंगी।
 
 ### स्थापना चरण
 
@@ -61,7 +63,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- प्रतिस्थापित करें`Your Document Directory` और`Your Output Directory` आपके कंप्यूटर पर वास्तविक पथ के साथ. 
+प्रतिस्थापित करें `Your Document Directory` और `Your Output Directory` आपके कंप्यूटर पर वास्तविक पथ के साथ. 
 
 ## चरण 2: मौजूदा कार्यपुस्तिका लोड करें
 
@@ -106,7 +108,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- यहाँ,`50` और`50` वे X और Y निर्देशांक हैं जहां छवि रखी जाएगी, और`200` छवि की चौड़ाई और ऊंचाई है.
+यहाँ, `50` और `50` वे X और Y निर्देशांक हैं जहां छवि रखी जाएगी, और `200` छवि की चौड़ाई और ऊंचाई है.
 
 ## चरण 6: चित्र का लाइन प्रारूप अनुकूलित करें
 
@@ -119,7 +121,7 @@ Aspose.Cells.Drawing.LineFormat lineformat = pic0.Line;
 // डैश शैली सेट करें.
 lineformat.DashStyle = MsoLineDashStyle.Solid;
 
-// लाइन वजन सेट करें.
+// लाइन वजन निर्धारित करें.
 lineformat.Weight = 4;    
 ```
 
@@ -151,22 +153,24 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 ## अक्सर पूछे जाने वाले प्रश्न
 
 ### क्या मैं एक ही चार्ट में एकाधिक चित्र जोड़ सकता हूँ?
- हाँ! आप कॉल कर सकते हैं`AddPictureInChart` अपनी इच्छानुसार अधिक से अधिक चित्र जोड़ने के लिए इस विधि का कई बार प्रयोग करें।
+हाँ! आप कॉल कर सकते हैं `AddPictureInChart` अपनी इच्छानुसार अधिक से अधिक चित्र जोड़ने के लिए इस विधि का कई बार प्रयोग करें।
 
 ### Aspose.Cells किस छवि प्रारूप का समर्थन करता है?
 Aspose.Cells विभिन्न प्रकार के छवि प्रारूपों का समर्थन करता है, जिनमें PNG, JPEG, BMP और GIF शामिल हैं।
 
 ### क्या मैं चित्र की स्थिति को अनुकूलित कर सकता हूँ?
- निश्चित रूप से! X और Y निर्देशांक`AddPictureInChart` विधि सटीक स्थिति की अनुमति देती है।
+निश्चित रूप से! X और Y निर्देशांक `AddPictureInChart` विधि सटीक स्थिति की अनुमति देती है।
 
 ### क्या Aspose.Cells का उपयोग निःशुल्क है?
-Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं के लिए लाइसेंस की आवश्यकता होती है। आप मूल्य निर्धारण पा सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+Aspose.Cells निःशुल्क परीक्षण प्रदान करता है, लेकिन पूर्ण सुविधाओं के लिए लाइसेंस की आवश्यकता होती है। आप मूल्य निर्धारण पा सकते हैं [यहाँ](https://purchase.aspose.com/buy).
 
 ### मैं और अधिक उदाहरण कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/) अधिक विस्तृत उदाहरण और कार्यक्षमताओं के लिए.
+इसकी जाँच पड़ताल करो [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/net/) अधिक विस्तृत उदाहरण और कार्यक्षमताओं के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

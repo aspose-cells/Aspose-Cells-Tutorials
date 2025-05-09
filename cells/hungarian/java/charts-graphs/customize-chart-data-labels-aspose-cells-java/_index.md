@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Miután a környezeted elkészült, állítsuk be az Aspose.Cells-t. Így kezdhe
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Alapvető inicializálás**: Hozz létre egy `Workbook` példány az Excel-fájlokkal való munka megkezdéséhez.
+3. **Alapvető inicializálás**Hozz létre egy `Workbook` példány az Excel-fájlokkal való munka megkezdéséhez.
 
 ## Megvalósítási útmutató
 
@@ -166,6 +168,9 @@ Az Aspose.Cells képességeinek további felfedezéséhez érdemes lehet más te
 Ez az átfogó útmutató segít abban, hogy hatékonyan testreszabd a diagram adatcímkéit Java alkalmazásaidban az Aspose.Cells segítségével. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

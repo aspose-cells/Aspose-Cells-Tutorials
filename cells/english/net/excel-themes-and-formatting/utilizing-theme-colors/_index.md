@@ -8,7 +8,9 @@ url: /net/excel-themes-and-formatting/utilizing-theme-colors/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utilizing Theme Colors in Excel Programmatically
@@ -127,6 +129,7 @@ You can get a free trial from the [Aspose.Cells free trial page](https://release
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

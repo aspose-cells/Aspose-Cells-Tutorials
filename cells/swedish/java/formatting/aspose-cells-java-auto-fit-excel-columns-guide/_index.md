@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells är ett kommersiellt bibliotek, men du kan utforska dess möjligheter genom:
 - **Gratis provperiod**Ladda ner testversionen för att testa funktionerna.
-- **Tillfällig licens**Ansök om en tillfällig licens för utökad provning.
+- **Tillfällig licens**Begär en tillfällig licens för utökad provning.
 - **Köpa**Köp en licens för fullständig åtkomst och support.
 
 När du har fått din licensfil, initiera Aspose.Cells enligt följande:
@@ -160,6 +162,9 @@ Genom att bemästra den automatiska anpassningsfunktionen i Aspose.Cells för Ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

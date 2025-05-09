@@ -1,17 +1,19 @@
 ---
 "description": "Excel में डायनामिक ड्रॉपडाउन सूचियों की शक्ति का पता लगाएँ। Java के लिए Aspose.Cells का उपयोग करने के लिए चरण-दर-चरण मार्गदर्शिका। इंटरैक्टिव डेटा चयन के साथ अपनी स्प्रेडशीट को बेहतर बनाएँ।"
-"linktitle": "एक्सेल में डायनामिक ड्रॉपडाउन सूचियाँ"
+"linktitle": "एक्सेल में गतिशील ड्रॉपडाउन सूचियाँ"
 "second_title": "Aspose.Cells जावा एक्सेल प्रोसेसिंग एपीआई"
-"title": "एक्सेल में डायनामिक ड्रॉपडाउन सूचियाँ"
+"title": "एक्सेल में गतिशील ड्रॉपडाउन सूचियाँ"
 "url": "/hi/java/data-validation-rules/dynamic-dropdown-lists-in-excel/"
 "weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# एक्सेल में डायनामिक ड्रॉपडाउन सूचियाँ
+# एक्सेल में गतिशील ड्रॉपडाउन सूचियाँ
 
 
 ## एक्सेल में डायनामिक ड्रॉपडाउन सूचियों का परिचय
@@ -115,6 +117,7 @@ workbook.save("DynamicDropdownExample.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

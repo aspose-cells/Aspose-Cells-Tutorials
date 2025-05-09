@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ Worksheet ws = wb.getWorksheets().get(0);
 #### 概述
 建立特定範圍可讓您有效操作資料子集。在此範例中，我們建立範圍 A1:B3。
 #### 實施步驟
-- **創建範圍** 使用 `createRange("A1:B3")` 定義所需的單元格區域。
+- **建立範圍** 使用 `createRange("A1:B3")` 定義所需的單元格區域。
 - **檢索並列印詳細信息** 使用以下方式存取範圍的位址 `getAddress()`。使用行數和列數計算儲存格的總數。
 
 ```java
@@ -165,6 +167,9 @@ System.out.println("Entire Row: " + rng.getEntireRow().getAddress());
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

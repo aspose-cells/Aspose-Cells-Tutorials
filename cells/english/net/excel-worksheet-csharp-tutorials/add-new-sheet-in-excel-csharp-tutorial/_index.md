@@ -8,7 +8,9 @@ url: /net/excel-worksheet-csharp-tutorials/add-new-sheet-in-excel-csharp-tutoria
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add New Sheet In Excel C# Tutorial
@@ -136,6 +138,7 @@ You can explore the [documentation](https://reference.aspose.com/cells/net/) for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

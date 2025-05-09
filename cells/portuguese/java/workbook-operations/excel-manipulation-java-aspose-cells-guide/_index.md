@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Deseja automatizar suas tarefas do Excel ou otimizar o gerenciamento de dados us
 
 Neste guia, vamos nos aprofundar nos fundamentos do uso **Aspose.Cells para Java** para criar pastas de trabalho, acessar planilhas, modificar estilos de células, aplicar esses estilos a um intervalo de células e salvar suas alterações. Seja desenvolvendo software financeiro ou automatizando relatórios, dominar essas funcionalidades pode aumentar significativamente sua produtividade.
 
-### que você aprenderá
+### O que você aprenderá
 - Como configurar o Aspose.Cells para Java em seu ambiente
 - Criação e acesso a pastas de trabalho e planilhas
 - Modificando estilos de células com precisão
@@ -235,6 +237,9 @@ Ao trabalhar com grandes conjuntos de dados ou pastas de trabalho complexas, con
 Ao dominar essas técnicas, você pode melhorar o desempenho e a confiabilidade de suas tarefas de automação do Excel usando o Aspose.Cells em Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

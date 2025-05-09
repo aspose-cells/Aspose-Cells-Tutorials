@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ Workbook workbook = new Workbook(dataDir + "source.xlsx");
 Questo passaggio inizializza il progetto, preparandolo per l'accesso a fogli e grafici.
 
 **2. Foglio di lavoro e grafico di Access**
-Identifica e recupera il primo foglio di lavoro e il primo grafico all'interno del foglio.
+Identifica e recupera il primo foglio di lavoro e il primo grafico presenti nel foglio.
 ```java
 // Ottieni il primo foglio di lavoro
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -153,6 +155,9 @@ Prova a implementare questa funzionalità oggi stesso e migliora le tue capacit�
 - **Forum di supporto:** [Supporto alla comunità Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

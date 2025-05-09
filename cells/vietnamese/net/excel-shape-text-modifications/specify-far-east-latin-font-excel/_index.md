@@ -1,14 +1,16 @@
 ---
-title: Chỉ định Phông chữ Viễn Đông và La tinh trong Excel
-linktitle: Chỉ định Phông chữ Viễn Đông và La tinh trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chỉ định phông chữ Viễn Đông và La-tinh trong Excel bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện và dễ làm theo này.
-weight: 17
-url: /vi/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/
+"description": "Tìm hiểu cách chỉ định phông chữ Viễn Đông và La-tinh trong Excel bằng Aspose.Cells cho .NET trong hướng dẫn toàn diện và dễ làm theo này."
+"linktitle": "Chỉ định Phông chữ Viễn Đông và La tinh trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định Phông chữ Viễn Đông và La tinh trong Excel"
+"url": "/vi/net/excel-shape-text-modifications/specify-far-east-latin-font-excel/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định Phông chữ Viễn Đông và La tinh trong Excel
@@ -20,7 +22,7 @@ Trước khi đi sâu vào chi tiết, có một số điều bạn cần thiế
 ### .NET Framework hoặc .NET Core
 Đảm bảo bạn đã cài đặt .NET Framework hoặc .NET Core trên máy của mình. Thư viện này hoạt động tốt với cả hai.
 ### Cài đặt Aspose.Cells
- Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể[tải xuống từ đây](https://releases.aspose.com/cells/net/) . Nếu bạn không quen với việc cài đặt các gói NuGet, hãy làm theo[hướng dẫn này](https://www.nuget.org/).
+Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể [tải xuống từ đây](https://releases.aspose.com/cells/net/). Nếu bạn không quen với việc cài đặt các gói NuGet, hãy làm theo [hướng dẫn này](https://www.nuget.org/).
 ### Môi trường phát triển tích hợp (IDE)
 Có một IDE như Visual Studio hoặc JetBrains Rider có thể đơn giản hóa việc mã hóa, gỡ lỗi và chạy dự án của bạn.
 ### Kiến thức cơ bản về C#
@@ -29,12 +31,12 @@ Sự quen thuộc với lập trình C# sẽ rất có lợi cho việc thực h
 Trước khi chúng ta có thể làm việc với Aspose.Cells, chúng ta cần nhập các gói cần thiết vào dự án của mình. Sau đây là cách bạn có thể thực hiện:
 ### Tạo một dự án mới
 1. Mở IDE của bạn và tạo một dự án Ứng dụng Console mới.
-2.  Đặt tên cho dự án của bạn theo một cái tên mang tính mô tả, như`FontSpecifyingApp`.
+2. Đặt tên cho dự án của bạn một cái gì đó mang tính mô tả, như `FontSpecifyingApp`.
 ### Thêm gói NuGet Aspose.Cells
 1. Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
-2.  Lựa chọn`Manage NuGet Packages...`.
-3.  Tìm kiếm`Aspose.Cells` và cài đặt nó.
-Sau khi hoàn thành các bước này, bạn sẽ có mọi thứ cần thiết để bắt đầu viết mã!
+2. Lựa chọn `Manage NuGet Packages...`.
+3. Tìm kiếm `Aspose.Cells` và cài đặt nó.
+Khi hoàn thành các bước này, bạn sẽ có mọi thứ cần thiết để bắt đầu viết mã!
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -71,7 +73,7 @@ Aspose.Cells.Drawing.TextBox tb = ws.TextBoxes[idx];
 Hãy nhập một số văn bản. Trong ví dụ này, chúng ta sẽ nhập các ký tự tiếng Nhật để minh họa phông chữ Far East. Đơn giản như viết trong hộp văn bản trên máy tính của bạn!
 ```csharp
 // Thiết lập văn bản cho hộp văn bản.
-tb.Text = "こんにちは世界"; //Câu này có nghĩa là "Xin chào thế giới" trong tiếng Nhật.
+tb.Text = "こんにちは世界"; // Câu này có nghĩa là "Xin chào thế giới" trong tiếng Nhật.
 ```
 ## Bước 6: Chỉ định Phông chữ
 Bây giờ đến phần thú vị! Chúng ta sẽ thiết lập cả phông chữ Latin và Far East cho văn bản. Điều này giống như việc chọn phông chữ hoàn hảo cho một lời mời đám cưới sang trọng!
@@ -100,14 +102,16 @@ Aspose.Cells là thư viện .NET dùng để tạo và quản lý bảng tính 
 ### Tôi có thể sử dụng Aspose.Cells cho các ứng dụng web không?
 Có! Aspose.Cells có thể được sử dụng cho cả ứng dụng máy tính để bàn và ứng dụng web được xây dựng bằng .NET.
 ### Có phiên bản miễn phí của Aspose.Cells không?
- Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/).
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể yêu cầu hỗ trợ và tìm các nguồn tài nguyên có giá trị trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể yêu cầu hỗ trợ và tìm các nguồn tài nguyên có giá trị trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể mua Aspose.Cells ở đâu?
- Bạn có thể mua Aspose.Cells trực tiếp từ[Trang web Aspose](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Cells trực tiếp từ [Trang web Aspose](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

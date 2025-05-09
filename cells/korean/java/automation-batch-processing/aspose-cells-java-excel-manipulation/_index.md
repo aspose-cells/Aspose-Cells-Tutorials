@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ Workbook workbook = new Workbook();
 
 ### 기능 1: 통합 문서 인스턴스화 및 구성
 #### 개요
-이 기능은 Java용 Aspose.Cells를 사용하여 새 Excel 통합 문서 인스턴스를 만드는 방법을 보여줍니다. 이는 데이터 조작 작업의 기반을 형성합니다.
+이 기능은 Java용 Aspose.Cells를 사용하여 새로운 Excel 통합 문서 인스턴스를 만드는 방법을 보여줍니다. 이는 데이터 조작 작업의 기반을 형성합니다.
 
 **1단계:** 새 통합 문서 인스턴스 만들기
 
@@ -187,6 +189,9 @@ Excel 파일을 프로그래밍 방식으로 만들고 조작하는 방법을 �
 - [라이센스 구매](https://purchase.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

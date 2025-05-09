@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,13 +172,13 @@ Fedezze fel az Aspose.Cells fejlettebb funkcióit az átfogó áttekintéssel [d
    - A kompakt, a vázlatos és a táblázatos űrlapok támogatottak.
 
 4. **Hogyan oldhatom meg az Aspose.Cells gyakori problémáit?**
-   - Ellenőrizze a [támogatási fórum](https://forum.aspose.com/c/cells/9) gyakori problémák megoldásaiért.
+   - Ellenőrizze a [támogató fórum](https://forum.aspose.com/c/cells/9) gyakori problémák megoldásaiért.
 
 5. **Alkalmas az Aspose.Cells Java nagy adathalmazokhoz?**
    - Igen, de győződjön meg arról, hogy a rendszer elegendő erőforrással rendelkezik, és kövesse a legjobb gyakorlatokat az optimális teljesítmény érdekében.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Az Aspose.Cells legújabb kiadásai Java-hoz](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Aspose.Cells licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ingyenes próbaverzió beszerzése](https://releases.aspose.com/cells/java/)
@@ -186,6 +188,9 @@ Próbáld meg megvalósítani ezeket a megoldásokat a projektjeidben, és fedez
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

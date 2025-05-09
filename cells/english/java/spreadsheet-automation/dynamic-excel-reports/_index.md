@@ -8,7 +8,9 @@ url: /java/spreadsheet-automation/dynamic-excel-reports/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamic Excel Reports
@@ -113,6 +115,7 @@ Yes, Aspose.Cells for Java allows you to export your dynamic Excel reports to va
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

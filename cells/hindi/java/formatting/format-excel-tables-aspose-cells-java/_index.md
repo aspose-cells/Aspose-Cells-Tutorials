@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ workbook.save("FormataListObject_out.xlsx");
 अपनी परियोजनाओं में इन तकनीकों को लागू करना शुरू करें और देखें कि कैसे Aspose.Cells आपके Excel डेटा प्रबंधन कार्यों को बदल सकता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

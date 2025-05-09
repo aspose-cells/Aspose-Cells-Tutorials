@@ -1,27 +1,29 @@
 ---
-title: Ustawianie formatu pola strony programowo w .NET
-linktitle: Ustawianie formatu pola strony programowo w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo ustawić formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi.
-weight: 21
-url: /pl/net/creating-and-configuring-pivot-tables/setting-page-field-format/
+"description": "Dowiedz się, jak programowo ustawiać formaty pól stron w tabelach przestawnych przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby płynnie zarządzać danymi."
+"linktitle": "Ustawianie formatu pola strony programowo w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustawianie formatu pola strony programowo w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/setting-page-field-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustawianie formatu pola strony programowo w .NET
 
 ## Wstęp
-Tworzenie i manipulowanie plikami Excela za pomocą kodu może być bardzo pomocne, zwłaszcza gdy trzeba analizować duże zbiory danych. Jednym z fantastycznych narzędzi w Twoim arsenale jest Aspose.Cells dla .NET, który umożliwia programową interakcję z plikami Excela i tworzenie złożonych struktur raportowania. W tym samouczku zagłębimy się w to, jak możesz skonfigurować formaty pól stron w tabeli przestawnej za pomocą tej potężnej biblioteki. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, pod koniec tego przewodnika będziesz mieć solidne pojęcie o tym, jak obsługiwać tabele przestawne i ich różne ustawienia w .NET.
+Tworzenie i manipulowanie plikami Excela za pomocą kodu może być bardzo pomocne, zwłaszcza gdy trzeba analizować duże zbiory danych. Jednym z fantastycznych narzędzi w Twoim arsenale jest Aspose.Cells dla .NET, który umożliwia programową interakcję z plikami Excela i tworzenie złożonych struktur raportowania. W tym samouczku zagłębimy się w to, jak można skonfigurować formaty pól stron w tabeli przestawnej za pomocą tej potężnej biblioteki. Niezależnie od tego, czy jesteś doświadczonym programistą, czy początkującym, pod koniec tego przewodnika będziesz mieć solidne pojęcie o tym, jak obsługiwać tabele przestawne i ich różne ustawienia w .NET.
 ## Wymagania wstępne
 Zanim zaczniemy kodować, upewnijmy się, że wszystko jest poprawnie skonfigurowane. Będziesz potrzebować następujących rzeczy:
 - Visual Studio: środowisko robocze, w którym można pisać i wykonywać kod .NET.
--  Aspose.Cells: Możesz pobrać bibliotekę[Tutaj](https://releases.aspose.com/cells/net/).
+- Aspose.Cells: Możesz pobrać bibliotekę [Tutaj](https://releases.aspose.com/cells/net/).
 - Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
--  Plik Excela: Przygotuj plik Excela (np.`Book1.xls`) zawierający dane nadające się do utworzenia tabeli przestawnej. 
- Jeśli jeszcze tego nie zrobiłeś, pobierz bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
+- Plik Excela: Przygotuj plik Excela (np. `Book1.xls`) zawierający dane nadające się do utworzenia tabeli przestawnej. 
+Jeśli jeszcze tego nie zrobiłeś, pobierz bezpłatną wersję próbną Aspose.Cells [Tutaj](https://releases.aspose.com/).
 ## Importuj pakiety
 Aby zacząć, musisz zaimportować odpowiednie pakiety do swojego projektu. Zacznij od dodania odniesień do biblioteki Aspose.Cells w swoim projekcie C#. Oto, jak to zrobić:
 ```csharp
@@ -49,7 +51,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 To pobiera pierwszy arkusz załadowanego skoroszytu. Możesz łatwo zmodyfikować indeks, jeśli pracujesz z wieloma arkuszami.
 ## Krok 3: Dostęp do tabeli przestawnej
- Kontynuując, uzyskajmy dostęp do tabeli przestawnej w wybranym arkuszu. Jeśli używasz pojedynczej tabeli przestawnej, możesz ustawić jej indeks na`0`:
+Kontynuując, uzyskajmy dostęp do tabeli przestawnej w wybranym arkuszu. Jeśli używasz pojedynczej tabeli przestawnej, możesz ustawić jej indeks na `0`:
 ```csharp
 int pivotindex = 0;
 // Dostęp do tabeli przestawnej
@@ -76,9 +78,9 @@ Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0];
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Sum, true);
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Count, true);
 ```
- Włączając`Sum` I`Count` sumy częściowe pozwalają nam szybko podsumować dane w naszym raporcie.
+Włączając `Sum` I `Count` sumy częściowe pozwalają nam szybko podsumować dane w naszym raporcie.
 ## Krok 6: Ustawianie opcji automatycznego sortowania
-Następnie wprowadźmy trochę inteligentnego sortowania. W ten sposób Twoja tabela przestawna uporządkuje dane w sensownym porządku:
+Następnie wprowadźmy trochę inteligentnego sortowania. W ten sposób Twoja tabela przestawna ułoży dane w sensownym porządku:
 ```csharp
 // Ustawianie opcji automatycznego sortowania.
 pivotField.IsAutoSort = true;
@@ -107,16 +109,18 @@ I masz to! Przeszliśmy przez kompleksowe i praktyczne podejście do ustawiania 
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
 ### Jak zainstalować Aspose.Cells?
- Można go pobrać bezpośrednio ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+Można go pobrać bezpośrednio ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 ### Czy mogę używać Aspose.Cells bez instalacji programu Excel?
 Tak, Aspose.Cells jest samodzielną biblioteką, która nie wymaga instalacji programu Microsoft Excel.
 ### Gdzie mogę znaleźć szczegółową pomoc?
- Szczegółową pomoc techniczną i fora można uzyskać pod adresem[Wsparcie Aspose](https://forum.aspose.com/c/cells/9).
+Szczegółową pomoc techniczną i fora można uzyskać pod adresem [Wsparcie Aspose](https://forum.aspose.com/c/cells/9).
 ### Jak mogę uzyskać tymczasową licencję?
- Możesz nabyć tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Możesz nabyć tymczasową licencję od [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

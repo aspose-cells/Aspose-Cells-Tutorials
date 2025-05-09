@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/get-connection-points-shape-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Connection Points of Shape in Excel
@@ -109,6 +111,7 @@ Workbook workbook = new Workbook("path_to_file.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metodi di crittografia della cartella di lavoro
@@ -43,7 +45,7 @@ import com.aspose.cells.*;
 
 ### Passaggio 2: caricare la cartella di lavoro di Excel
 
-Per lavorare con una specifica cartella di lavoro di Excel, è necessario caricarla nell'applicazione Java. Utilizza il seguente codice per caricare una cartella di lavoro esistente:
+Per lavorare con una specifica cartella di lavoro di Excel, è necessario caricarla nell'applicazione Java. Utilizzare il seguente codice per caricare una cartella di lavoro esistente:
 
 ```java
 // Caricare la cartella di lavoro di Excel
@@ -106,6 +108,7 @@ Aspose.Cells per Java si concentra principalmente sulle cartelle di lavoro di Ex
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

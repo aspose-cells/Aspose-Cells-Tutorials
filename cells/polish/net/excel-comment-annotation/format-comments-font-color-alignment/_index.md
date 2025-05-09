@@ -1,14 +1,16 @@
 ---
-title: Formatuj komentarze - czcionka, kolor, wyrównanie
-linktitle: Formatuj komentarze - czcionka, kolor, wyrównanie
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Odkryj, jak bez wysiłku formatować komentarze w programie Excel za pomocą Aspose.Cells dla .NET. Dostosuj czcionkę, rozmiar i wyrównanie, aby ulepszyć swoje arkusze kalkulacyjne.
-weight: 12
-url: /pl/net/excel-comment-annotation/format-comments-font-color-alignment/
+"description": "Odkryj, jak bez wysiłku formatować komentarze w programie Excel za pomocą Aspose.Cells dla .NET. Dostosuj czcionkę, rozmiar i wyrównanie, aby ulepszyć swoje arkusze kalkulacyjne."
+"linktitle": "Formatuj komentarze - czcionka, kolor, wyrównanie"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Formatuj komentarze - czcionka, kolor, wyrównanie"
+"url": "/pl/net/excel-comment-annotation/format-comments-font-color-alignment/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatuj komentarze - czcionka, kolor, wyrównanie
@@ -18,18 +20,18 @@ Jeśli kiedykolwiek czułeś, że Twoje arkusze Excela mogłyby skorzystać z od
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów formatowania komentarzy, jest kilka rzeczy, których będziesz potrzebować:
 1. Konfiguracja środowiska: Upewnij się, że masz zainstalowane środowisko programistyczne .NET, najlepiej Visual Studio.
-2.  Aspose.Cells: Pobierz i zainstaluj Aspose.Cells z[Tutaj](https://releases.aspose.com/cells/net/). Ta biblioteka umożliwi Ci bezproblemową interakcję z plikami Excel.
+2. Aspose.Cells: Pobierz i zainstaluj Aspose.Cells z [Tutaj](https://releases.aspose.com/cells/net/). Ta biblioteka umożliwi Ci bezproblemową interakcję z plikami Excel.
 3. Podstawowa wiedza o języku C#: Choć przeprowadzimy Cię przez kod, podstawowa znajomość języka C# pomoże Ci w razie potrzeby dostosować go do swoich potrzeb.
-4.  Licencja Aspose: Jeśli planujesz używać Aspose.Cells przez dłuższe sesje lub w środowisku produkcyjnym, rozważ zakup licencji[Tutaj](https://purchase.aspose.com/buy) lub użyj tymczasowej licencji[Tutaj](https://purchase.aspose.com/temporary-license/).
+4. Licencja Aspose: Jeśli planujesz używać Aspose.Cells przez dłuższe sesje lub w środowisku produkcyjnym, rozważ zakup licencji [Tutaj](https://purchase.aspose.com/buy) lub użyj tymczasowej licencji [Tutaj](https://purchase.aspose.com/temporary-license/).
 ## Importuj pakiety
 Aby zacząć używać Aspose.Cells, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu. Oto, jak możesz to zrobić:
 ### Utwórz nowy projekt
 - Otwórz program Visual Studio i utwórz nowy projekt.
--  Wybierz aplikację konsolową jako typ projektu i nadaj jej dowolną nazwę, np.`ExcelCommentsDemo`.
+- Wybierz aplikację konsolową jako typ projektu i nadaj mu dowolną nazwę, np. `ExcelCommentsDemo`.
 ### Dodaj bibliotekę Aspose.Cells
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz opcję Zarządzaj pakietami NuGet.
--  Szukaj`Aspose.Cells`i zainstaluj najnowszą wersję.
+- Szukaj `Aspose.Cells`i zainstaluj najnowszą wersję.
 ### Importuj wymagane przestrzenie nazw
 Otwórz główny plik C# i dodaj na górze następujące wiersze:
 ```csharp
@@ -120,7 +122,7 @@ Na koniec nie zapomnij zapisać swojego dzieła:
 // Zapisywanie pliku Excel
 workbook.Save(dataDir + "book1.out.xls");
 ```
-I gotowe! Właśnie utworzyłeś i wystylizowałeś komentarz w Excelu, dzięki czemu wyróżnia się on na ekranie!
+I gotowe! Właśnie utworzyłeś i wystylizowałeś komentarz w programie Excel, dzięki czemu wyróżnia się on na ekranie!
 ## Wniosek
 Gratulacje! Zdobyłeś niezbędne umiejętności, aby upiększyć i ulepszyć swoje komentarze w programie Excel za pomocą Aspose.Cells dla .NET. Nie tylko możesz dodawać proste komentarze, ale teraz możesz dostosowywać czcionki, rozmiary i wymiary według własnego uznania. Może to sprzyjać lepszej komunikacji w zespołach i pomóc wyjaśnić podstawowe dane bez zamieniania arkuszy kalkulacyjnych w bałagan.
 Możesz swobodnie odkrywać dalej rozległe możliwości Aspose.Cells. Niezależnie od tego, czy jest to użytek osobisty, czy środowisko profesjonalne, Twoja gra w Excelu właśnie przeszła od zera do bohatera!
@@ -128,16 +130,18 @@ Możesz swobodnie odkrywać dalej rozległe możliwości Aspose.Cells. Niezależ
 ### Czym jest Aspose.Cells?
 Aspose.Cells to zaawansowana biblioteka dla platformy .NET, która umożliwia programistom bezproblemową pracę z plikami Excela, umożliwiając im programowe tworzenie, modyfikowanie i manipulowanie arkuszami Excela.
 ### Jak mogę otrzymać bezpłatną wersję próbną Aspose.Cells?
- Darmową wersję próbną Aspose.Cells można pobrać ze strony[Tutaj](https://releases.aspose.com/).
+Darmową wersję próbną Aspose.Cells można pobrać ze strony [Tutaj](https://releases.aspose.com/).
 ### Czy Aspose.Cells obsługuje inne formaty plików Excel niż XLS?
 Tak, Aspose.Cells obsługuje różne formaty, takie jak XLSX, XLSM, CSV, ODS i inne!
 ### Czy mogę dodawać komentarze do wielu komórek jednocześnie?
 Tak, możesz przejść przez zakres komórek i dodać komentarze programowo, stosując podobne podejście opisane w tym samouczku.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Aby uzyskać pomoc, możesz odwiedzić forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Aby uzyskać pomoc, możesz odwiedzić forum Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

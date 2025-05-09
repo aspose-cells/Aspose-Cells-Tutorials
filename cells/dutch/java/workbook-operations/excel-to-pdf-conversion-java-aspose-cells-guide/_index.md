@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ A5: Controleer de bestandspaden, zorg dat u de juiste machtigingen hebt en raadp
 Nu u over de juiste hulpmiddelen en kennis beschikt, kunt u met Aspose.Cells efficiënt Excel-bestanden naar PDF's converteren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

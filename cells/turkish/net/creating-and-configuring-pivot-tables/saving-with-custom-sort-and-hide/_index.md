@@ -1,14 +1,16 @@
 ---
-title: .NET'te Özel Sıralama ve Gizleme ile Pivot Tabloları Kaydetme
-linktitle: .NET'te Özel Sıralama ve Gizleme ile Pivot Tabloları Kaydetme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak özel sıralama ve satır gizleme ile pivot tablolarını nasıl kaydedeceğinizi öğrenin. Pratik örneklerle adım adım kılavuz dahildir.
-weight: 26
-url: /tr/net/creating-and-configuring-pivot-tables/saving-with-custom-sort-and-hide/
+"description": "Aspose.Cells for .NET kullanarak özel sıralama ve satır gizleme ile pivot tablolarını nasıl kaydedeceğinizi öğrenin. Pratik örneklerle adım adım kılavuz dahildir."
+"linktitle": ".NET'te Özel Sıralama ve Gizleme ile Pivot Tabloları Kaydetme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Özel Sıralama ve Gizleme ile Pivot Tabloları Kaydetme"
+"url": "/tr/net/creating-and-configuring-pivot-tables/saving-with-custom-sort-and-hide/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Özel Sıralama ve Gizleme ile Pivot Tabloları Kaydetme
@@ -18,9 +20,9 @@ Veri analizi dünyasında, pivot tablolar verileri özetleme, analiz etme ve sin
 ## Ön koşullar
 Kodlamanın inceliklerine dalmadan önce, aşağıdaki ön koşulların mevcut olduğundan emin olun:
 1. Visual Studio: İdeal olarak, .NET projelerinizi idare etmek için sağlam bir IDE istersiniz. Visual Studio harika bir seçimdir.
-2.  .NET için Aspose.Cells: Excel dosyalarını programatik olarak yönetmek için Aspose'un kitaplığına erişmeniz gerekir.[Aspose.Cells for .NET'i buradan indirin](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Excel dosyalarını programatik olarak yönetmek için Aspose'un kitaplığına erişmeniz gerekir. [Aspose.Cells for .NET'i buradan indirin](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# dilindeki temel programlama kavramlarına ve sözdizimine aşinalık, süreci daha sorunsuz hale getirecektir.
-4.  Örnek Excel Dosyası: Adında bir örnek dosya kullanacağız.`PivotTableHideAndSortSample.xlsx`Bu dosyanın belirlenen belge dizininde olduğundan emin olun.
+4. Örnek Excel Dosyası: Adında bir örnek dosya kullanacağız. `PivotTableHideAndSortSample.xlsx`Bu dosyanın belirlenen belge dizininde olduğundan emin olun.
 Geliştirme ortamınızı kurduğunuzda ve örnek dosyanız hazır olduğunda, artık hazırsınız!
 ## Paketleri İçe Aktar
 Artık önkoşulları kontrol ettiğimize göre, gerekli paketleri içe aktaralım. C# dosyanızda, Aspose.Cells'i dahil etmek için aşağıdaki yönergeyi kullanın:
@@ -38,7 +40,7 @@ string outputDir = "Your Document Directory";
 // Çalışma kitabını yükle
 Workbook workbook = new Workbook(sourceDir + "PivotTableHideAndSortSample.xlsx");
 ```
- Bu adımda, kaynak ve çıktı dosyalarınızın depolandığı dizinleri tanımlarsınız.`Workbook`constructor mevcut Excel dosyanızı yükleyerek onu düzenlemeye hazır hale getirecektir.
+Bu adımda, kaynak ve çıktı dosyalarınızın depolandığı dizinleri tanımlarsınız. `Workbook` constructor mevcut Excel dosyanızı yükleyerek onu düzenlemeye hazır hale getirecektir.
 ## Adım 2: Çalışma Sayfasına ve Pivot Tablosuna Erişim
 Şimdi çalışma kitabındaki ilgili çalışma sayfasına erişelim ve üzerinde çalışmak istediğimiz pivot tabloyu seçelim.
 ```csharp
@@ -47,7 +49,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 // Çalışma sayfasındaki ilk pivot tabloya erişin
 var pivotTable = worksheet.PivotTables[0];
 ```
- Bu kesitte,`Worksheets[0]` Excel belgenizdeki ilk sayfayı seçer ve`PivotTables[0]` ilk pivot tabloyu alır. Bu, değiştirmek istediğiniz tam pivot tabloyu hedeflemenize olanak tanır.
+Bu kesitte, `Worksheets[0]` Excel belgenizdeki ilk sayfayı seçer ve `PivotTables[0]` ilk pivot tabloyu alır. Bu, değiştirmek istediğiniz tam pivot tabloyu hedeflemenize olanak tanır.
 ## Adım 3: Pivot Tablo Satırlarını Sırala
 Sonra, verilerimizi düzenlemek için özel sıralama uygulayacağız. Özellikle, puanları azalan düzende sıralayacağız.
 ```csharp
@@ -57,7 +59,7 @@ field.IsAutoSort = true;
 field.IsAscendSort = false;  // alçalan için yanlış
 field.AutoSortField = 0;     // İlk sütuna göre sıralama
 ```
- Burada şunu kullanıyoruz:`PivotField` sıralama parametrelerini ayarlamak için. Bu, pivot tabloya belirtilen satır alanını ilk sütuna göre sıralamasını ve bunu azalan düzende yapmasını söyler. 
+Burada şunu kullanıyoruz: `PivotField` sıralama parametrelerini ayarlamak için. Bu, pivot tabloya belirtilen satır alanını ilk sütuna göre sıralamasını ve bunu azalan düzende yapmasını söyler. 
 ## Adım 4: Verileri Yenileyin ve Hesaplayın
 Sıralamayı uyguladıktan sonra, değişikliklerimizi yansıttığından emin olmak için pivot tablonun verilerini yenilemek çok önemlidir.
 ```csharp
@@ -96,7 +98,7 @@ workbook.Save(outputDir + "PivotTableHideAndSort_out.xlsx");
 ```
 Bu son yenileme her şeyin güncel olduğundan emin olmamızı sağlar ve çalışma kitabını kaydederek yaptığımız tüm değişiklikleri yansıtan yeni bir dosya oluşturursunuz.
 ## Adım 7: Başarılı Olduğunu Onaylayın
-Son olarak, işlemimizin sorunsuz bir şekilde tamamlandığını teyit eden bir başarı mesajı yazdıracağız.
+Son olarak, işlemimizin sorunsuz bir şekilde tamamlandığını teyit etmek için bir başarı mesajı yazdıracağız.
 ```csharp
 Console.WriteLine("PivotTableSortAndHide executed successfully.");
 ```
@@ -109,14 +111,16 @@ Aspose.Cells for .NET, geliştiricilerin Microsoft Excel'e güvenmeden Excel ele
 ### Microsoft Office yüklü olmadan Aspose.Cells'i kullanabilir miyim?
 Kesinlikle! Aspose.Cells bağımsız bir kütüphanedir, bu yüzden Excel dosyalarıyla çalışmak için sisteminizde Microsoft Office'in yüklü olması gerekmez.
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Geçici lisans için başvuruda bulunabilirsiniz.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici lisans için başvuruda bulunabilirsiniz. [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Cells sorunlarıyla ilgili desteği nerede bulabilirim?
- Herhangi bir soru veya sorununuz varsa, şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9)Topluluktan ve Aspose ekibinden destek bulabileceğiniz yer.
+Herhangi bir soru veya sorununuz varsa, şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9)Topluluktan ve Aspose ekibinden destek bulabileceğiniz yer.
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Evet! Satın almadan önce özelliklerini test etmek için Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz. Ziyaret edin[ücretsiz deneme sayfası](https://releases.aspose.com/) Başlamak için.
+Evet! Satın almadan önce özelliklerini test etmek için Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz. Ziyaret edin [ücretsiz deneme sayfası](https://releases.aspose.com/) Başlamak için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

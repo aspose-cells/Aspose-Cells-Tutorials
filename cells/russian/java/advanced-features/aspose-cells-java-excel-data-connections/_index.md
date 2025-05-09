@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ ExternalConnection connection = workbook.getDataConnections().get(0);
 ## Соображения производительности
 
 При работе с Aspose.Cells в Java:
-- **Оптимизируйте использование ресурсов**: Всегда закрывайте рабочие книги после обработки, чтобы освободить ресурсы:
+- **Оптимизация использования ресурсов**: Всегда закрывайте рабочие книги после обработки, чтобы освободить ресурсы:
   ```java
   workbook.dispose();
   ```
@@ -175,6 +177,9 @@ A5: Рассмотрите возможность использования п�
 - **Поддерживать**: [Форум Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

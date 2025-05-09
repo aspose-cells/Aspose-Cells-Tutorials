@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells visuella handledningar
 Dyk ner i våra visuella handledningar för Aspose.Cells, utformade för utvecklare och entusiaster som vill bemästra kalkylbladshantering. Varje handledning täcker viktiga funktioner i Aspose.Cells-biblioteket, från grundläggande operationer som att skapa och formatera kalkylblad till avancerade funktioner som datavisualisering och formelhantering. Oavsett om du är nybörjare eller en erfaren utvecklare, ger våra visuella guider omfattande, lättförståeliga instruktioner tillsammans med praktiska exempel.
@@ -24,46 +26,75 @@ Aspose.Cells för .NET visuella handledningar ger en omfattande steg-för-steg-i
 Lär dig hur du skapar, anpassar och hanterar diagram i .NET-applikationer med Aspose.Cells. Utforska olika diagramtyper med enkla och effektiva exempel.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Skapa och formatera 3D-diagram i Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Ändra storlek på och flytta diagram i Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Ändra riktningen för diagrammets tick-etikett i Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="Skapa PDF från Excel-diagram med angiven sidstorlek" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Skapa ett linjediagram med datamarkörer i Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Hitta typ av X- och Y-värden i diagrampunkter" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Hämta diagramunderrubrik från ODS-fil med Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Ändra formen på en diagramdataetikett i Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Skapa Excel-diagram med Aspose.Cells för .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Rita objekt med Aspose.Cells för .NET](./net/drawing-objects/)
 Lär dig hur du skapar, anpassar och hanterar diagram i .NET-applikationer med Aspose.Cells. Utforska olika diagramtyper med enkla och effektiva exempel.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Ändra Ole-objektetiketter i Excel med hjälp av Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Skapa och spara Excel-filer med Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Ändra textjustering för former i Excel med hjälp av Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Manipulera Z-ordning av former i Excel med hjälp av Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Skapa Excel-arbetsbok med teckensnitt från Fjärran Östern och Latinamerika" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Fyllning av kakelstruktur i Excel med Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Formatering i Aspose.Cells för .NET – Stilar, färger och mer](./net/formatting/)
 Lär dig hur du formaterar i Aspose.Cells för .NET, inklusive stilar, färger, teckensnitt, kantlinjer och mer för professionella Excel-rapporter.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Lägga till kantlinjer till ett område i Excel med hjälp av Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Använd färger och bakgrunder i Excel med Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Sammanfoga celler i Excel med Aspose.Cells för .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Ställ in teckenfärg i Excel-celler med Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Ställa in teckensnittsnamn i Excel med Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Ställ in teckenstorlek i Excel med hjälp av Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Horisontell textjustering i Excel med Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Radbryt text i Excel-celler med hjälp av Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Pivottabeller i Aspose.Cells för .NET](./net/pivot-tables/)
 Lär dig hur du skapar, formaterar och hanterar pivottabeller i Aspose.Cells för .NET. Generera dynamiska rapporter och analysera data enkelt i C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Skapa en pivottabell i Excel med hjälp av Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Spara pivottabell som ODS i Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Här är länkar till några användbara resurser:
@@ -150,10 +181,10 @@ Här är länkar till några användbara resurser:
 - [Tal- och visningsformat i Excel](./net/number-and-display-formats-in-excel/)
 - [Excel-färger och bakgrundsinställningar](./net/excel-colors-and-background-settings/)
 - [Färginställningar och anpassning i Excel](./net/color-settings-and-customization-in-excel/)
-- [Villkorlig formatering i Excel](./net/excel-conditional-formatting/)
+- [Villkorsstyrd formatering i Excel](./net/excel-conditional-formatting/)
 - [Excel-tecken- och cellformatering](./net/excel-character-and-cell-formatting/)
 - [Excel-kantlinjer och formateringsalternativ](./net/excel-borders-and-formatting-options/)
-- [Formateringsmetoder och alternativ i Excel](./net/excel-formatting-methods-and-options/)
+- [Excel-formateringsmetoder och alternativ](./net/excel-formatting-methods-and-options/)
 - [Läser in och sparar Excel-filer med alternativ](./net/loading-and-saving-excel-files-with-options/)
 - [Konvertera Excel-filer till andra format](./net/converting-excel-files-to-other-formats/)
 - [Spara och exportera Excel-filer med alternativ](./net/saving-and-exporting-excel-files-with-options/)
@@ -181,8 +212,10 @@ Här är länkar till några användbara resurser:
 
 
 ## Aspose.Cells för Java-handledningar
+
 {{% alert color="primary" %}}
 Utforska handledningar om Aspose.Cells för Java. Bemästra manipulation av Excel-filer med kodexempel. Förbättra dina Java-kunskaper idag!
+
 {{% /alert %}}
 
 Här är länkar till några användbara resurser:
@@ -219,6 +252,7 @@ Här är länkar till några användbara resurser:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

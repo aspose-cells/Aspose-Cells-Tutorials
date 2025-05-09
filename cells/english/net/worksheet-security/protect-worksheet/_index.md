@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Entire Worksheet using Aspose.Cells
@@ -92,6 +94,7 @@ You can check if a worksheet is protected by using the `IsProtected` property of
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

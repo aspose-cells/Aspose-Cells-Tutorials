@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ public class Main {
 خلال هذا البرنامج التعليمي، تعلمت كيفية إنشاء مستندات Excel وتنسيقها باستخدام Aspose.Cells لجافا. بإتقان هذه التقنيات، يمكنك تحسين قدرة تطبيقك بشكل ملحوظ على التعامل مع مهام جداول البيانات المعقدة بكفاءة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

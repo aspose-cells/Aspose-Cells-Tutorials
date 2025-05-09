@@ -1,14 +1,16 @@
 ---
-title: Çizgi Grafiği Oluştur
-linktitle: Çizgi Grafiği Oluştur
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: .NET için Aspose.Cells kullanarak çarpıcı çizgi grafikleri oluşturun. Verilerinizi etkili bir şekilde görselleştirmek için adım adım kılavuzumuzu izleyin.
-weight: 11
-url: /tr/net/manipulating-chart-types/create-line-chart/
+"description": ".NET için Aspose.Cells kullanarak çarpıcı çizgi grafikleri oluşturun. Verilerinizi etkili bir şekilde görselleştirmek için adım adım kılavuzumuzu izleyin."
+"linktitle": "Çizgi Grafiği Oluştur"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çizgi Grafiği Oluştur"
+"url": "/tr/net/manipulating-chart-types/create-line-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çizgi Grafiği Oluştur
@@ -22,7 +24,7 @@ Verilerinizi çarpıcı bir netlikle görselleştirmeye hazır mısınız? Çizg
 Çizgi grafiği oluşturmanın inceliklerine girmeden önce, aşağıdakileri takip edebilecek donanıma sahip olduğunuzdan emin olalım:
 
 1. Visual Studio: .NET geliştirme için en popüler IDE'lerden biri olduğu için makinenizde Visual Studio'nun yüklü olduğundan emin olun.
-2.  .NET için Aspose.Cells Kütüphanesi: Buradan indirebileceğiniz Aspose.Cells kütüphanesine ihtiyacınız olacak.[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells Kütüphanesi: Buradan indirebileceğiniz Aspose.Cells kütüphanesine ihtiyacınız olacak. [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlama diline aşina olmak, örnekleri ve kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework veya .NET Core: Uygulamalarımızın temelini oluşturacağı için bu iki framework'ten birinin temel kurulumu.
 
@@ -44,7 +46,7 @@ using System.Drawing;
 using Aspose.Cells.Charts;
 ```
 
- Bu satır şunları içe aktarır:`Aspose.Cells` çizgi grafiğimizi oluşturmak için kullanacağımız tüm sınıfları ve metotları içeren namespace.
+Bu satır şunları içe aktarır: `Aspose.Cells` çizgi grafiğimizi oluşturmak için kullanacağımız tüm sınıfları ve metotları içeren namespace.
 
 Şimdi, tüm süreci basit, sindirilebilir adımlara bölelim. Her adım, Aspose.Cells for .NET kullanarak bir çizgi grafiği oluşturmanın mantıksal akışında size rehberlik edecektir.
 
@@ -56,7 +58,7 @@ using Aspose.Cells.Charts;
 // Çıktı dizini
 string outputDir = "Your Output Directory";
 ```
- Yer değiştirmek`"Your Output Directory"`Oluşturulan Excel dosyasını kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"Your Output Directory"` Oluşturulan Excel dosyasını kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
 
@@ -76,7 +78,7 @@ Yeni oluşturduğumuz çalışma kitabımızda, verilerimizi gireceğimiz çalı
 // Yeni eklenen çalışma sayfasının referansını sayfa indeksini geçirerek elde etme
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Burada ilk çalışma sayfasına (indeks) erişiyoruz`0`).
+Burada ilk çalışma sayfasına (indeks) erişiyoruz `0`).
 
 ## Adım 4: Hücrelere Örnek Değerler Ekleyin
 
@@ -131,7 +133,7 @@ Büyük final! Tüm sıkı çalışmanızın ardından, Excel dosyasını kaydet
 // Excel dosyasını kaydetme
 workbook.Save(outputDir + "outputHowToCreateLineChart.xlsx");
 ```
- Bu satır çalışma kitabınızı belirtilen çıktı dizinine şu adla kaydeder:`outputHowToCreateLineChart.xlsx`.
+Bu satır çalışma kitabınızı belirtilen çıktı dizinine şu adla kaydeder: `outputHowToCreateLineChart.xlsx`.
 
 ## Adım 9: Çalıştırın ve Doğrulayın
 
@@ -158,13 +160,15 @@ Evet, Aspose.Cells çizgi grafikler, pasta grafikler, çubuk grafikler ve daha f
 Evet, özelliklerini keşfetmek için ücretsiz deneme sürümünü indirebilirsiniz. Uzun vadeli kullanım için bir lisans satın almayı düşünün.
 
 ### Destek için bir forum var mı?  
- Kesinlikle! Cevapları bulabilir ve sorular sorabilirsiniz[Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Cevapları bulabilir ve sorular sorabilirsiniz [Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
 
 ### Lisans nasıl satın alabilirim?  
- Lisanslar şu adresten kolayca satın alınabilir:[satın alma sayfası](https://purchase.aspose.com/buy).
+Lisanslar şu adresten kolayca satın alınabilir: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

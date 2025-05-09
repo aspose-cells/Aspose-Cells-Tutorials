@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells, özelliklerini keşfetmenize olanak tanıyan ücretsiz bir deneme sunar. Tüm yeteneklerin kilidini açmak için:
 1. **Ücretsiz Deneme**: Aspose web sitesinden indirin ve geçici lisans başvurusunda bulunun.
 2. **Geçici Lisans**: Ziyaret etmek [Aspose'un Lisanslama Sayfası](https://purchase.aspose.com/temporary-license/) Bir tane edinmek için.
-3. **Satın almak**: Uzun süreli kullanım için, şu adresten lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
+3. **Satın almak**Uzun süreli kullanım için, şu adresten lisans satın alın: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
 ### Temel Başlatma ve Kurulum
 Aspose.Cells'i kullanmaya başlamak için:
@@ -171,6 +173,9 @@ Grafik oluşturma, formül hesaplamaları ve çalışma kitabı koruma teknikler
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

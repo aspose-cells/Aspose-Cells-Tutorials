@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ Worksheet ws = wb.getWorksheets().get(0);
 ```
 De forma predeterminada, un libro nuevo contiene una hoja de cálculo. Puede acceder a ella mediante `getWorksheets().get(index)`.
 
-#### Completar la hoja de trabajo con datos
+#### Llene la hoja de trabajo con datos
 ```java
 for (int r = 0; r < 10; r++) {
     for (int c = 0; c < 10; c++) {
@@ -164,7 +166,7 @@ En este tutorial, aprendiste a aprovechar la potencia de Aspose.Cells para Java 
 - Sí, aunque puedes empezar con una prueba gratuita o una licencia temporal, se requiere una licencia comercial para el uso en producción. Más información. [aquí](https://purchase.aspose.com/buy).
 
 **P5: ¿Cómo puedo manejar grandes conjuntos de datos sin tener problemas de memoria?**
-- Utilice las técnicas de gestión de memoria eficiente de Java y procese los datos en fragmentos manejables.
+- Utilice las técnicas de gestión de memoria eficientes de Java y procese los datos en fragmentos manejables.
 
 ## Recursos
 - **Documentación:** Obtenga más información en [Sitio de documentación de Aspose.Cells](https://reference.aspose.com/cells/java/).
@@ -172,6 +174,9 @@ En este tutorial, aprendiste a aprovechar la potencia de Aspose.Cells para Java 
 - **Licencia de compra:** Explora las opciones de licencia en [Página de compra de Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

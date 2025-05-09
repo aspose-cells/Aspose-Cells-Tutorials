@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells предлагает бесплатную пробную версию, позволяющую вам изучить ее возможности. Чтобы разблокировать все возможности:
 1. **Бесплатная пробная версия**: Загрузите с сайта Aspose и подайте заявку на временную лицензию.
 2. **Временная лицензия**: Посещать [Страница лицензирования Aspose](https://purchase.aspose.com/temporary-license/) чтобы получить один.
-3. **Покупка**: Для долгосрочного использования приобретите лицензию через [Покупка Aspose](https://purchase.aspose.com/buy).
+3. **Покупка**Для долгосрочного использования приобретите лицензию через [Покупка Aspose](https://purchase.aspose.com/buy).
 
 ### Базовая инициализация и настройка
 Чтобы начать работу с Aspose.Cells:
@@ -171,6 +173,9 @@ workbook.save(outDir + "/ColoredBackground.ods", com.aspose.cells.SaveFormat.ODS
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

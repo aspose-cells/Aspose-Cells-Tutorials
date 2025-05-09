@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dávkové zpracování Excelu
@@ -109,9 +111,11 @@ Automatizace dávkového zpracování Excelu pomocí Aspose.Cells pro Javu zjedn
    Prozkoumejte dokumentaci k API na adrese [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
 
 Optimalizujte své dávkové úlohy zpracování Excelu a zvyšte produktivitu pomocí Aspose.Cells pro Javu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

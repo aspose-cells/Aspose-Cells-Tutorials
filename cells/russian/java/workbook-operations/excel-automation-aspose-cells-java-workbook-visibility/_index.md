@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## Предпосылки
 
 Перед погружением убедитесь, что у вас есть:
-- **Требуемые библиотеки:** Включите Aspose.Cells для Java в свой проект с помощью Maven или Gradle.
+- **Необходимые библиотеки:** Включите Aspose.Cells для Java в свой проект с помощью Maven или Gradle.
 - **Настройка среды:** Настроенная среда разработки Java (например, IntelliJ IDEA, Eclipse).
 - **Требования к знаниям:** Базовые знания программирования на Java и IDE.
 
@@ -226,6 +228,9 @@ System.out.println("2nd row set as the first visible row!");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

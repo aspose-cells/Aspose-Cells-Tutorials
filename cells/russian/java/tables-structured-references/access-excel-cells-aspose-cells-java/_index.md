@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## Предпосылки
 
 Прежде чем начать, убедитесь, что у вас есть:
-- **Требуемые библиотеки:** Библиотека Aspose.Cells для Java. Используйте Maven или Gradle для управления зависимостями.
+- **Необходимые библиотеки:** Библиотека Aspose.Cells для Java. Используйте Maven или Gradle для управления зависимостями.
 - **Требования к настройке среды:** Базовые знания Java и знакомство с вашей IDE (например, IntelliJ IDEA или Eclipse).
 - **Необходимые знания:** Знакомство со структурами файлов Excel и опыт работы с библиотеками в проектах Java.
 
@@ -149,6 +151,9 @@ public class AccessCellByName {
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

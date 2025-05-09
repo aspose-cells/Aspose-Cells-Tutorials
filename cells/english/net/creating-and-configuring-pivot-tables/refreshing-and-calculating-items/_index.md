@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/refreshing-and-calculating-items
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Refresh and Calculate Items in Pivot Table  in .NET
@@ -88,6 +90,7 @@ You can seek help in the community forums available for Aspose.Cells [here](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

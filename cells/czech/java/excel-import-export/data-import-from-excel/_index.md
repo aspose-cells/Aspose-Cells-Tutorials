@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Import dat z Excelu
@@ -96,9 +98,11 @@ Nyní jste se naučili, jak importovat data z Excelu pomocí knihovny Aspose.Cel
    Navštivte dokumentaci k Aspose.Cells [zde](https://reference.aspose.com/cells/java/) pro podrobné zdroje a příklady.
 
 Nebojte se dále prozkoumat a upravit tento kód tak, aby vyhovoval vašim specifickým požadavkům na import dat. Přejeme vám příjemné programování!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

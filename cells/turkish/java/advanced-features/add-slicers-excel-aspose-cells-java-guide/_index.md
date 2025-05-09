@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Temel Java programlama kavramlarına aşinalık önerilir. Excel dosyalarıyla p
 
 ### Lisans Edinme Adımları
 1. **Ücretsiz Deneme:** Kütüphaneyi indirin ve yeteneklerini deneyin.
-2. **Geçici Lisans:** Genişletilmiş test için geçici lisans talebinde bulunun [Aspose'un Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).
+2. **Geçici Lisans:** Genişletilmiş test için geçici bir lisans talep edin [Aspose'un Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/).
 3. **Lisans Satın Al:** Üretim amaçlı kullanım için, şu adresten tam lisans satın almayı düşünün: [Aspose Satın Alma](https://purchase.aspose.com/buy).
 
 ### Temel Başlatma
@@ -85,7 +87,7 @@ Artık Aspose.Cells for Java'yı keşfetmeye hazırsınız.
 
 Aspose.Cells'i kullanarak dilimleyicileri adım adım bir Excel çalışma kitabına uygulayalım.
 
-### Java için Aspose.Cells Sürümünün Görüntülenmesi
+### Java için Aspose.Cells Sürümünü Görüntüleme
 
 Aspose.Cells sürümünüzü anlamak çok önemlidir:
 ```java
@@ -176,6 +178,9 @@ Büyük veri kümeleriyle çalışırken şunları göz önünde bulundurun:
 - **Toplu İşleme:** Bellek kullanımını optimize etmek için verileri toplu olarak işleyin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

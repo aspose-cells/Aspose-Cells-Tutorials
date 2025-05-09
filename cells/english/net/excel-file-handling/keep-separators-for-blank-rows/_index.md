@@ -8,7 +8,9 @@ url: /net/excel-file-handling/keep-separators-for-blank-rows/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Separators for Blank Rows in Excel
@@ -85,6 +87,7 @@ You can obtain a temporary license for evaluation purposes [here](https://purcha
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Добавить изображение в диаграмму
-linktitle: Добавить изображение в диаграмму
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как легко добавлять изображения в диаграммы Excel с помощью Aspose.Cells для .NET. Улучшите свои диаграммы и презентации всего за несколько простых шагов.
-weight: 11
-url: /ru/net/inserting-controls-in-charts/add-picture-to-chart/
+"description": "Узнайте, как легко добавлять изображения в диаграммы Excel с помощью Aspose.Cells для .NET. Улучшите свои диаграммы и презентации всего за несколько простых шагов."
+"linktitle": "Добавить изображение в диаграмму"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавить изображение в диаграмму"
+"url": "/ru/net/inserting-controls-in-charts/add-picture-to-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить изображение в диаграмму
@@ -19,10 +21,10 @@ url: /ru/net/inserting-controls-in-charts/add-picture-to-chart/
 
 ## Предпосылки
 
-Прежде чем мы перейдем к тонкостям кодирования, необходимо соблюсти несколько предварительных условий, чтобы все прошло гладко:
+Прежде чем мы перейдем к тонкостям кодирования, необходимо выполнить несколько предварительных условий, чтобы все прошло гладко:
 
 - Visual Studio: Здесь вы будете писать и запускать свой код .NET. Убедитесь, что он у вас установлен.
--  Aspose.Cells for .NET: Эта библиотека вам понадобится для работы с файлами Excel. Вы можете[скачать здесь](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Эта библиотека вам понадобится для работы с файлами Excel. Вы можете [скачать здесь](https://releases.aspose.com/cells/net/).
 - Базовые знания C#: Я покажу вам код, но знание основ C# сделает ситуацию более понятной.
 
 ### Этапы установки
@@ -61,7 +63,7 @@ string sourceDir = "Your Document Directory/";
 string outputDir = "Your Output Directory/";
 ```
 
- Заменять`Your Document Directory` и`Your Output Directory` с реальными путями на вашем компьютере. 
+Заменять `Your Document Directory` и `Your Output Directory` с реальными путями на вашем компьютере. 
 
 ## Шаг 2: Загрузите существующую рабочую книгу
 
@@ -97,7 +99,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 
 Вы можете получить доступ к любому рабочему листу, изменив индекс соответствующим образом.
 
-## Шаг 5: Добавьте изображение в диаграмму
+## Шаг 5: Добавьте изображение на диаграмму
 
 Выбрав диаграмму, пришло время добавить изображение! 
 
@@ -106,7 +108,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Picture pic0 = chart.Shapes.AddPictureInChart(50, 50, stream, 200, 200);
 ```
 
- Здесь,`50` и`50` — это координаты X и Y, где будет размещено изображение, и`200` ширина и высота изображения.
+Здесь, `50` и `50` — это координаты X и Y, где будет размещено изображение, и `200` ширина и высота изображения.
 
 ## Шаг 6: Настройте формат линий изображения
 
@@ -151,22 +153,24 @@ Console.WriteLine("AddingPictureInChart executed successfully.");
 ## Часто задаваемые вопросы
 
 ### Можно ли добавить несколько изображений в одну диаграмму?
- Да! Вы можете позвонить`AddPictureInChart` метод несколько раз, чтобы добавить столько изображений, сколько вы хотите.
+Да! Вы можете позвонить `AddPictureInChart` метод несколько раз, чтобы добавить столько изображений, сколько вы хотите.
 
 ### Какие форматы изображений поддерживает Aspose.Cells?
 Aspose.Cells поддерживает различные форматы изображений, включая PNG, JPEG, BMP и GIF.
 
 ### Могу ли я настроить положение изображения?
- Конечно! Координаты X и Y в`AddPictureInChart` метод позволяет точное позиционирование.
+Конечно! Координаты X и Y в `AddPictureInChart` метод позволяет точное позиционирование.
 
 ### Можно ли использовать Aspose.Cells бесплатно?
-Aspose.Cells предлагает бесплатную пробную версию, но для полного функционала требуется лицензия. Вы можете найти цены[здесь](https://purchase.aspose.com/buy).
+Aspose.Cells предлагает бесплатную пробную версию, но для полного функционала требуется лицензия. Вы можете найти цены [здесь](https://purchase.aspose.com/buy).
 
 ### Где я могу найти больше примеров?
- Проверьте[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для более подробных примеров и функциональных возможностей.
+Проверьте [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для более подробных примеров и функциональных возможностей.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

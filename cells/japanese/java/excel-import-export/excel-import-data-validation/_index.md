@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel インポートデータの検証
@@ -80,9 +82,11 @@ Aspose.Cells for Java は、整数、小数、日付、テキストの長さな�
 この包括的なガイドでは、Aspose.Cells for Java を使用して Excel インポートデータの検証を実装するプロセスを解説しました。この記事で概説した手順に従うことで、Java アプリケーションにインポートされたデータの正確性と信頼性を確保できます。データ検証はデータ管理において非常に重要な要素であり、Aspose.Cells for Java はこのプロセスを簡素化します。
 
 ここまでの知識とソースコードを活用して、データ検証機能を強化し、ユーザーエクスペリエンスを向上させる準備が整いました。さあ、コーディングを始めましょう！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

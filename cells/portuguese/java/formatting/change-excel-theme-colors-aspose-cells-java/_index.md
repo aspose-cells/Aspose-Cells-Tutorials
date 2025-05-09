@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ Essas mudanças podem ser integradas com sistemas de CRM, ferramentas de relató
 ## Considerações de desempenho
 
 Ao usar Aspose.Cells:
-- **Otimize o uso da memória**: Para arquivos grandes, considere otimizar as configurações de memória em Java para lidar com conjuntos de dados maiores de forma eficiente.
+- **Otimizar o uso da memória**: Para arquivos grandes, considere otimizar as configurações de memória em Java para lidar com conjuntos de dados maiores de forma eficiente.
 - **Melhores Práticas**: Use APIs de streaming para ler/gravar arquivos grandes para minimizar o consumo de memória.
 
 Essas diretrizes garantem que seu aplicativo funcione sem problemas, mesmo com manipulação extensiva de dados do Excel.
@@ -196,6 +198,9 @@ Os próximos passos incluem experimentar outros recursos do Aspose.Cells ou inte
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

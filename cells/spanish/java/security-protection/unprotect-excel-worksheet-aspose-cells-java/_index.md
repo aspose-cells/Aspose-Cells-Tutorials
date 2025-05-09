@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ workbook.save(dataDir + "USPWorksheet_out.xls");
 
 ### Consejos para la solución de problemas
 
-- **Garantizar la compatibilidad:** Verifique que la versión de Aspose.Cells admita el formato Excel con el que está trabajando.
+- **Garantizar la compatibilidad:** Verifique que la versión de Aspose.Cells admita el formato de Excel con el que está trabajando.
 - **Comprobar contraseñas:** Si una hoja de trabajo está protegida con contraseña, asegúrese de tener la contraseña correcta para desprotegerla.
 
 ## Aplicaciones prácticas
@@ -186,6 +188,9 @@ R: Si bien Aspose.Cells está optimizado para la eficiencia, considere optimizar
 ¡Comience a implementar esta solución hoy para optimizar la gestión de sus archivos de Excel con Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,21 +1,23 @@
 ---
-title: Sửa đổi biểu đồ hình tròn
-linktitle: Sửa đổi biểu đồ hình tròn
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Aspose.Cells cho .NET để sửa đổi biểu đồ hình tròn Excel của bạn một cách dễ dàng. Làm theo hướng dẫn này để biết hướng dẫn từng bước.
-weight: 16
-url: /vi/net/manipulating-chart-types/modify-pie-chart/
+"description": "Mở khóa sức mạnh của Aspose.Cells cho .NET để sửa đổi biểu đồ hình tròn Excel của bạn một cách dễ dàng. Làm theo hướng dẫn này để biết hướng dẫn từng bước."
+"linktitle": "Sửa đổi biểu đồ hình tròn"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sửa đổi biểu đồ hình tròn"
+"url": "/vi/net/manipulating-chart-types/modify-pie-chart/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi biểu đồ hình tròn
 
 ## Giới thiệu
 
-Bạn đã bao giờ tự hỏi làm thế nào để làm đẹp các biểu đồ hình tròn trong bảng tính Excel của mình chưa? Biểu đồ hình tròn có thể là một cách tuyệt vời để trực quan hóa dữ liệu, giúp khán giả của bạn luôn tập trung và được cập nhật thông tin. Tuy nhiên, đôi khi các biểu đồ đó không kể câu chuyện mà bạn muốn chúng kể ngay khi xuất xưởng. Đó là lúc Aspose.Cells for .NET phát huy tác dụng. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp Excel theo chương trình, cung cấp cho bạn các công cụ cần thiết để tùy chỉnh biểu đồ hình tròn của mình đến từng chi tiết nhỏ nhất. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sửa đổi biểu đồ hình tròn bằng Aspose.Cells. Cho dù đó là thay đổi nhãn dữ liệu hay tinh chỉnh tính thẩm mỹ của biểu đồ.
+Bạn đã bao giờ tự hỏi làm thế nào để làm đẹp các biểu đồ hình tròn trong bảng tính Excel của mình chưa? Biểu đồ hình tròn có thể là một cách tuyệt vời để trực quan hóa dữ liệu, giúp khán giả của bạn luôn tập trung và được thông tin. Tuy nhiên, đôi khi các biểu đồ đó không kể câu chuyện mà bạn muốn chúng kể ngay khi xuất xưởng. Đó là lúc Aspose.Cells for .NET phát huy tác dụng. Thư viện mạnh mẽ này cho phép bạn thao tác các tệp Excel theo chương trình, cung cấp cho bạn các công cụ cần thiết để tùy chỉnh biểu đồ hình tròn của mình đến từng chi tiết nhỏ nhất. Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc sửa đổi biểu đồ hình tròn bằng Aspose.Cells. Cho dù đó là thay đổi nhãn dữ liệu hay tinh chỉnh tính thẩm mỹ của biểu đồ.
 
 ## Điều kiện tiên quyết
 
@@ -24,9 +26,9 @@ Trước khi đi sâu vào chi tiết về việc sửa đổi biểu đồ hìn
 - Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 - Aspose.Cells cho .NET: Bạn sẽ cần cài đặt thư viện Aspose.Cells. Cho dù bạn quyết định sử dụng phiên bản đầy đủ hay chọn dùng thử miễn phí, hãy đảm bảo rằng nó đã sẵn sàng.
 - Visual Studio hoặc bất kỳ IDE C# nào: Bạn sẽ cần một môi trường để viết và thực thi mã C#.
--  Tệp mẫu Excel: Đối với hướng dẫn này, một tệp Excel mẫu có tên`sampleModifyPieChart.xlsx` sẽ được sử dụng.
+- Tệp mẫu Excel: Đối với hướng dẫn này, một tệp Excel mẫu có tên `sampleModifyPieChart.xlsx` sẽ được sử dụng.
 
- Bạn có thể tải xuống thư viện Aspose.Cells[đây](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống thư viện Aspose.Cells [đây](https://releases.aspose.com/cells/net/).
 
 ## Nhập gói
 
@@ -39,7 +41,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các gói c�
 1. Mở Visual Studio.
 2. Chọn "Tạo dự án mới".
 3. Chọn một ứng dụng bảng điều khiển C#.
-4.  Đặt tên cho dự án của bạn (ví dụ:`ModifyPieChartDemo`).
+4. Đặt tên cho dự án của bạn (ví dụ: `ModifyPieChartDemo`).
 5. Nhấp vào Tạo.
 
 ## Cài đặt Aspose.Cells
@@ -56,7 +58,7 @@ Bây giờ bạn đã cài đặt thư viện, hãy nhập các không gian tên
 
 ## Nhập không gian tên
 
- Ở đầu trang của bạn`Program.cs` tệp, nhập các không gian tên sau:
+Ở đầu trang của bạn `Program.cs` tệp, nhập các không gian tên sau:
 
 ```csharp
 using System;
@@ -74,7 +76,7 @@ Sau khi hoàn thành, chúng ta đã sẵn sàng chuyển sang phần mã thực
 
 Hãy bắt đầu bằng cách xác định thư mục cho các tệp đầu vào và đầu ra của bạn. Đây là nơi bạn chỉ định vị trí tệp Excel của mình và nơi bạn muốn lưu tệp đã sửa đổi.
 
- Trong của bạn`Main` phương pháp, nhập mã sau:
+Trong của bạn `Main` phương pháp, nhập mã sau:
 
 ```csharp
 // Thư mục đầu ra
@@ -84,18 +86,18 @@ string outputDir = "Your Output Directory Path";
 string sourceDir = "Your Document Directory Path";
 ```
 
- Hãy chắc chắn thay thế`Your Output Directory Path` Và`Your Document Directory Path` với các đường dẫn thực tế trên hệ thống của bạn.
+Hãy chắc chắn thay thế `Your Output Directory Path` Và `Your Document Directory Path` với các đường dẫn thực tế trên hệ thống của bạn.
 
 ## Bước 2: Mở Workbook hiện có
 
- Tiếp theo, chúng ta cần mở tệp Excel có chứa biểu đồ hình tròn mà bạn muốn sửa đổi. Đối với điều này, hãy sử dụng`Workbook` lớp học:
+Tiếp theo, chúng ta cần mở tệp Excel có chứa biểu đồ hình tròn mà bạn muốn sửa đổi. Đối với điều này, hãy sử dụng `Workbook` lớp học:
 
 ```csharp
 // Mở tệp hiện có.
 Workbook workbook = new Workbook(sourceDir + "sampleModifyPieChart.xlsx");
 ```
 
- Trong đoạn trích này, chúng tôi đang tạo một`Workbook` đối tượng và tải tệp Excel của chúng tôi vào đó.
+Trong đoạn trích này, chúng tôi đang tạo một `Workbook` đối tượng và tải tệp Excel của chúng tôi vào đó.
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -106,7 +108,7 @@ Bây giờ, chúng ta hãy đi sâu vào trang tính cụ thể có chứa biể
 Worksheet sheet = workbook.Worksheets[1];
 ```
 
- Bằng cách truy cập vào`Worksheets` bộ sưu tập, chúng ta có thể tìm được trang tính cụ thể mà chúng ta cần.
+Bằng cách truy cập vào `Worksheets` bộ sưu tập, chúng ta có thể tìm được trang tính cụ thể mà chúng ta cần.
 
 ## Bước 4: Lấy biểu đồ
 
@@ -181,9 +183,11 @@ Bạn có thể tìm thấy sự hỗ trợ trong diễn đàn Aspose, nơi các
 
 ### Tôi có cần cài đặt Microsoft Excel để sử dụng Aspose.Cells không?  
 Không, Aspose.Cells hoạt động độc lập với Microsoft Excel. Bạn không cần cài đặt nó trên hệ thống của mình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

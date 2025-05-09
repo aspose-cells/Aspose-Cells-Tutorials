@@ -1,14 +1,16 @@
 ---
-title: Thêm Dấu trang PDF với Điểm đến được Đặt tên trong Aspose.Cells
-linktitle: Thêm Dấu trang PDF với Điểm đến được Đặt tên trong Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tạo PDF tương tác với dấu trang bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này giúp bạn thực hiện dễ dàng.
-weight: 10
-url: /vi/net/rendering-and-export/add-pdf-bookmarks/
+"description": "Tìm hiểu cách tạo PDF tương tác với dấu trang bằng Aspose.Cells cho .NET. Hướng dẫn từng bước này giúp bạn thực hiện dễ dàng."
+"linktitle": "Thêm Dấu trang PDF với Điểm đến được Đặt tên trong Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm Dấu trang PDF với Điểm đến được Đặt tên trong Aspose.Cells"
+"url": "/vi/net/rendering-and-export/add-pdf-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Dấu trang PDF với Điểm đến được Đặt tên trong Aspose.Cells
@@ -18,7 +20,7 @@ Nếu bạn đã từng làm việc với các tài liệu PDF dài, bạn sẽ 
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Để làm theo hướng dẫn này, bạn cần:
 1. Visual Studio: Đây là IDE dành cho phát triển .NET. Hãy đảm bảo bạn đã cài đặt nó trên máy của mình.
-2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/) . Nếu bạn muốn thử trước, hãy lấy[dùng thử miễn phí tại đây](https://releases.aspose.com/).
+2. Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/). Nếu bạn muốn thử trước, hãy lấy [dùng thử miễn phí tại đây](https://releases.aspose.com/).
 3. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản tương thích. Aspose.Cells hỗ trợ nhiều phiên bản .NET.
 4. Kiến thức cơ bản về C#: Nắm được cú pháp C# sẽ giúp bạn hiểu đoạn mã tốt hơn.
 Với những mục này trong bộ công cụ, chúng ta đã sẵn sàng tạo tài liệu PDF có đánh dấu trang!
@@ -110,14 +112,16 @@ Aspose.Cells là một thư viện mạnh mẽ để làm việc với các tệ
 ### Tôi có thể sử dụng Aspose.Cells trong một dự án miễn phí không?
 Có! Aspose cung cấp bản dùng thử miễn phí nếu bạn muốn khám phá các tính năng trước khi mua giấy phép.
 ### Làm thế nào để tôi có được giấy phép sử dụng Aspose.Cells?
- Bạn có thể mua giấy phép trực tiếp từ họ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép trực tiếp từ họ [trang mua hàng](https://purchase.aspose.com/buy).
 ### Aspose.Cells có thể làm việc với những loại tài liệu nào?
 Nó có thể hoạt động với nhiều định dạng khác nhau, bao gồm XLSX, XLS, CSV, PDF và nhiều định dạng khác.
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp vấn đề?
- Bạn có thể tìm thấy sự hỗ trợ trong[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ trong [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Az Aspose.Cells teljes funkcionalitásához licenc szükséges, de elkezdheti egy ingyenes próbaverzióval, vagy kérhet ideiglenes licencet:
 - **Ingyenes próbaverzió**Elérhető itt: [Az Aspose letöltési része](https://releases.aspose.com/cells/java/)
-- **Ideiglenes engedély**Kérjen egyet [itt](https://purchase.aspose.com/temporary-license/)
+- **Ideiglenes engedély**: Kérjen egyet [itt](https://purchase.aspose.com/temporary-license/)
 - **Vásárlás**: Folytassa a vásárlást a következőn keresztül: [hivatalos oldal](https://purchase.aspose.com/buy)
 
 ### Alapvető inicializálás
@@ -95,7 +97,7 @@ Ez a funkció lehetővé teszi sorok összecsukását vagy kibontását.
     workbook.save("YOUR_DATA_DIRECTORY/GroupedRows_out.xls");
     ```
 **Paraméterek magyarázata:**
-- `groupRows(int firstRow, int lastRow, boolean hidden)`: Sorok csoportosítása a következő között: `firstRow` és `lastRow`Ha `hidden` igaz, akkor alapértelmezés szerint össze vannak csukva.
+- `groupRows(int firstRow, int lastRow, boolean hidden)`: Sorok csoportosítása a következők között: `firstRow` és `lastRow`Ha `hidden` igaz, akkor alapértelmezés szerint össze vannak csukva.
 
 ### Oszlopok csoportosítása Excelben az Aspose.Cells Java segítségével
 
@@ -189,12 +191,15 @@ Most már rendelkezik a sorok és oszlopok csoportosításának, valamint az ös
 4. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
    - Használj streameket, és optimalizáld a kódodat a memóriahasználathoz a teljesítményről szóló részben részletezettek szerint.
 5. **Hol találok támogatást, ha problémákba ütközöm?**
-   - Látogassa meg az Aspose's-t [támogatási fórum](https://forum.aspose.com/c/cells/9) segítségért a közösségüktől és a szakértőktől.
+   - Látogassa meg az Aspose's-t [támogató fórum](https://forum.aspose.com/c/cells/9) segítségért a közösségüktől és a szakértőktől.
 
 ## Erőforrás
 - **Dokumentáció**: [Aspose.Cells Java dokumentáció](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

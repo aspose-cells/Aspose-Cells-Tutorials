@@ -1,48 +1,50 @@
 ---
-title: Buat Buku Kerja Bersama
-linktitle: Buat Buku Kerja Bersama
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Sempurna untuk meningkatkan kolaborasi tim.
-weight: 70
-url: /id/net/excel-workbook/create-shared-workbook/
+"description": "Pelajari cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang sederhana ini. Sempurna untuk meningkatkan kolaborasi tim."
+"linktitle": "Megosztott munkafüzet létrehozása"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Megosztott munkafüzet létrehozása"
+"url": "/id/net/excel-workbook/create-shared-workbook/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Buku Kerja Bersama
+# Megosztott munkafüzet létrehozása
 
-## Perkenalan
+## Bevezetés
 
 Membuat buku kerja bersama dapat mengubah cara kerja kolaborasi, terutama jika Anda mengelola data lintas tim atau departemen yang berbeda. Dengan Aspose.Cells untuk .NET, Anda memiliki alat yang tangguh untuk mengelola file Excel secara terprogram. Panduan ini akan memandu Anda melalui langkah-langkah untuk membuat buku kerja bersama, yang akan membuat kolaborasi Anda lebih lancar dan efisien. Baik Anda seorang pemula atau pengembang berpengalaman, Anda akan dimanjakan dengan tutorial sederhana namun hebat ini!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita menyelami seluk-beluk pembuatan buku kerja bersama, mari kita selesaikan beberapa hal:
 
 1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah lingkungan pengembangan tempat Anda dapat menulis dan menjalankan kode.
-2.  Aspose.Cells untuk .NET: Anda harus memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Unduhan Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Anda harus memiliki pustaka Aspose.Cells. Anda dapat mengunduhnya dari [Aspose.Cells letöltések](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Pastikan Anda telah menginstal .NET Framework. Contoh ini akan berfungsi dengan .NET Core atau .NET Framework 4.x.
 4. Pengetahuan Dasar tentang C#: Sedikit pengetahuan tentang pemrograman C# akan sangat membantu. Jika Anda dapat menulis kode dasar, Anda akan berhasil!
 
 Setelah Anda memiliki prasyarat ini, Anda siap untuk mulai membuat buku kerja bersama Anda.
 
-## Paket Impor
+## Csomagok importálása
 
 Sekarang setelah lingkungan kita siap, mari impor paket-paket yang diperlukan agar kita dapat memulai. Berikut ini cara melakukannya:
 
-### Buat Proyek Baru
-1. Buka Visual Studio.
+### Új projekt létrehozása
+1. Nyisd meg a Visual Studio-t.
 2. Buat proyek konsol C# baru.
 3. Beri nama proyek Anda seperti "SharedWorkbookExample".
 
-### Instal Aspose.Cells
+### Az Aspose.Cells telepítése
 1. Klik kanan pada proyek Anda di Solution Explorer dan pilih “Kelola Paket NuGet”.
 2. Cari "Aspose.Cells" dan instal. Ini akan menambahkan referensi yang diperlukan ke proyek Anda.
 
-### Tambahkan Menggunakan Arahan
- Di bagian atas Anda`Program.cs` file, tambahkan perintah berikut menggunakan:
+### Hozzáadás direktívák használatával
+A te tetején `Program.cs` file, tambahkan perintah berikut menggunakan:
 
 ```csharp
 using System;
@@ -55,12 +57,12 @@ Dan begitu saja, Anda telah menyiapkan diri untuk meraih kesuksesan! Mari kita t
 
 Sekarang kita masuk ke bagian yang menarik! Berikut cara membuat buku kerja bersama menggunakan Aspose.Cells untuk .NET, dipecah menjadi beberapa langkah yang mudah diikuti.
 
-## Langkah 1: Mengatur Direktori Output
+## 1. lépés: A kimeneti könyvtár beállítása
 
-Pada langkah ini, Anda akan menentukan di mana file output akan disimpan. Ini seperti memutuskan di mana akan meletakkan kue yang baru dipanggang — Anda ingin memastikan kue tersebut mudah ditemukan nanti!
+Pada langkah ini, Anda akan menentukan di mana file output akan disimpan. Ini seperti menentukan di mana akan menaruh kue yang baru dipanggang — Anda ingin memastikan kue tersebut mudah ditemukan nanti!
 
 ```csharp
-//Direktori keluaran
+//Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
 
@@ -69,30 +71,30 @@ string outputDir = "Your Document Directory";
 Selanjutnya, fokus kita beralih ke pembuatan buku kerja. Di sinilah keajaiban terjadi!
 
 ```csharp
-//Buat objek Buku Kerja
+//Munkafüzet objektum létrehozása
 Workbook wb = new Workbook();
 ```
- Dengan membuat instance`Workbook` kelas, kita menyiapkan buku kerja baru dalam memori. Anggap saja ini seperti membuka lembar kosong baru di Excel, menunggu untuk diisi dengan data.
+A példányosításával `Workbook` kelas, kita menyiapkan buku kerja baru dalam memori. Anggap saja ini seperti membuka lembar kosong baru di Excel, menunggu untuk diisi dengan data.
 
-## Langkah 3: Bagikan Buku Kerja
+## 3. lépés: A munkafüzet megosztása
 
 Saatnya menjadikan buku kerja Anda sebuah mahakarya kolaboratif! Dengan membagikannya, banyak pengguna dapat mengaksesnya secara bersamaan.
 
 ```csharp
-//Bagikan Buku Kerja
-wb.Settings.Shared = true;
+//Munkafüzet megosztása
+wb.Beállításs.Shared = true;
 ```
- Pengaturan`wb.Settings.Shared` ke`true` menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
+Setting `wb.Settings.Shared` hogy `true` menunjukkan bahwa buku kerja ini dapat diakses oleh beberapa pengguna sekaligus. Ini seperti memberikan kunci rumah Anda kepada teman-teman — mereka dapat datang dan pergi sesuka hati!
 
-## Langkah 4: Simpan Buku Kerja Bersama
+## 4. lépés: A megosztott munkafüzet mentése
 
 Sekarang buku kerja Anda sudah siap untuk dibagikan, saatnya menyimpan perubahan. Inilah saatnya untuk menentukan kebenaran!
 
 ```csharp
-//Simpan Buku Kerja Bersama
+//A megosztott munkafüzet mentése
 wb.Save(outputDir + "outputSharedWorkbook.xlsx");
 ```
- Di sini, kami menyimpan buku kerja bersama kami dengan nama`outputSharedWorkbook.xlsx` di direktori keluaran yang ditentukan. Ini akan menghasilkan berkas Excel yang sekarang dapat dibagikan dan dimodifikasi oleh banyak pengguna.
+Di sini, kami menyimpan buku kerja bersama kami dengan nama `outputSharedWorkbook.xlsx` di direktori keluaran yang ditentukan. Ini akan menghasilkan berkas Excel yang sekarang dapat dibagikan dan dimodifikasi oleh banyak pengguna.
 
 ## Langkah 5: Menampilkan Pesan Sukses
 
@@ -103,29 +105,31 @@ Console.WriteLine("CreateSharedWorkbook executed successfully.\r\n");
 ```
 Baris kode sederhana ini menampilkan pesan ke konsol yang menunjukkan bahwa tugas kita telah berhasil diselesaikan. Seperti teriakan kemenangan di garis akhir!
 
-## Kesimpulan 
+## Következtetés 
 
 Membuat buku kerja bersama bukan hanya tentang membuat file Excel; tetapi juga tentang meningkatkan kolaborasi dan efisiensi antar tim. Dengan Aspose.Cells untuk .NET, prosesnya mudah dan ramah pengguna. Dengan mengikuti langkah-langkah yang diuraikan di sini, Anda dapat dengan mudah membuat buku kerja yang memungkinkan banyak pengguna berinteraksi dengannya secara bersamaan. Jadi, tunggu apa lagi? Terjunlah dan mulailah membuat buku kerja bersama yang memberdayakan tim Anda untuk berkolaborasi seperti yang belum pernah terjadi sebelumnya!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu buku kerja bersama?
+### Mi az a megosztott munkafüzet?
 Buku kerja bersama adalah berkas Excel yang memungkinkan banyak pengguna berkolaborasi secara bersamaan.
 
 ### Bisakah saya membatalkan pembagian buku kerja setelah dibagikan?
- Ya, Anda dapat membatalkan pembagian buku kerja dengan mengatur`Shared` properti untuk`false`.
+Ya, Anda dapat membatalkan pembagian buku kerja dengan mengatur `Shared` ingatlan `false`.
 
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
+### Szükségem van licencre az Aspose.Cells használatához?
 Ya, lisensi diperlukan untuk penggunaan Aspose.Cells secara komersial. Anda juga dapat memperoleh uji coba gratis untuk menguji fitur-fiturnya.
 
-### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat menemukan dukungan dan mengajukan pertanyaan di[Forum Dukungan Aspose.Cells](https://forum.aspose.com/c/cells/9).
+### Hol kaphatok támogatást az Aspose.Cells-hez?
+Anda dapat menemukan dukungan dan mengajukan pertanyaan di [Aspose.Cells támogatói fórum](https://forum.aspose.com/c/cells/9).
 
 ### Bagaimana cara mulai menggunakan Aspose.Cells?
- Mulailah dengan mengunduh perpustakaan dari[Unduhan Aspose.Cells](https://releases.aspose.com/cells/net/)halaman dan ikuti langkah-langkah instalasi yang disebutkan dalam panduan ini.
+Mulailah dengan mengunduh perpustakaan dari [Aspose.Cells letöltések](https://releases.aspose.com/cells/net/) halaman dan ikuti langkah-langkah instalasi yang disebutkan dalam panduan ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

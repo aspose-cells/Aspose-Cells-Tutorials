@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -120,7 +122,7 @@ st.setVerticalAlignment(TextAlignmentType.CENTER);
 
 ### Använd stil på ett område
 
-**Översikt:** Använd de definierade stilarna i ditt angivna cellområde.
+**Översikt:** Använd de definierade stilarna i det angivna cellområdet.
 
 ```java
 import com.aspose.cells.StyleFlag;
@@ -197,6 +199,9 @@ Redo att förbättra dina Excel-arbetsflöden? Testa att implementera dessa tekn
 - **Supportforum**: [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

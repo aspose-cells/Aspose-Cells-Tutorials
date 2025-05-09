@@ -1,14 +1,16 @@
 ---
-title: एक्सेल में सेल वैल्यू या रेंज का सिंगल कोट प्रीफ़िक्स सुरक्षित रखें
-linktitle: एक्सेल में सेल वैल्यू या रेंज का सिंगल कोट प्रीफ़िक्स सुरक्षित रखें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: इस आसान चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों में एकल उद्धरण उपसर्गों को संरक्षित करना सीखें।
-weight: 10
-url: /hi/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cell-value-or-range-in-excel/
+"description": "इस आसान चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.Cells का उपयोग करके Excel कक्षों में एकल उद्धरण उपसर्गों को संरक्षित करना सीखें।"
+"linktitle": "एक्सेल में सेल वैल्यू या रेंज का सिंगल कोट प्रीफ़िक्स सुरक्षित रखें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "एक्सेल में सेल वैल्यू या रेंज का सिंगल कोट प्रीफ़िक्स सुरक्षित रखें"
+"url": "/hi/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cell-value-or-range-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल में सेल वैल्यू या रेंज का सिंगल कोट प्रीफ़िक्स सुरक्षित रखें
@@ -22,7 +24,7 @@ url: /hi/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cel
 इससे पहले कि हम इस कोडिंग यात्रा पर निकलें, आइए सुनिश्चित करें कि आपके पास वह सब कुछ है जो आपको चाहिए:
 
 1. विज़ुअल स्टूडियो: आपको अपना .NET कोड चलाने के लिए एक विकास वातावरण की आवश्यकता होगी।
-2.  .NET के लिए Aspose.Cells: सुनिश्चित करें कि आपने इस लाइब्रेरी को डाउनलोड किया है और अपने प्रोजेक्ट में संदर्भित किया है। आप नवीनतम संस्करण यहाँ से प्राप्त कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/).
+2. .NET के लिए Aspose.Cells: सुनिश्चित करें कि आपने इस लाइब्रेरी को डाउनलोड किया है और अपने प्रोजेक्ट में संदर्भित किया है। आप नवीनतम संस्करण यहाँ से प्राप्त कर सकते हैं [लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/).
 3. C# प्रोग्रामिंग की बुनियादी समझ: C# के बारे में जानकारी होना उपयोगी है, खासकर यदि आप कोड में बदलाव करने की योजना बना रहे हों।
 4. विंडोज ऑपरेटिंग सिस्टम: चूंकि Aspose.Cells मुख्य रूप से विंडोज पर केंद्रित है, इसलिए इसे इंस्टॉल करने से चीजें आसान हो जाएंगी।
 
@@ -58,7 +60,7 @@ string outputDir = "Your Document Directory/";
 Workbook wb = new Workbook();
 ```
 
- इस चरण में, हम अपनी कार्यपुस्तिका को आरंभ कर रहे हैं, जहाँ एक्सेल फ़ाइलों का प्रबंधन किया जाएगा।`"Your Document Directory"` उस वास्तविक पथ के साथ जहां आप अपनी फ़ाइलें संग्रहीत करना चाहते हैं.
+इस चरण में, हम अपनी कार्यपुस्तिका को आरंभ कर रहे हैं, जहाँ एक्सेल फ़ाइलों का प्रबंधन किया जाएगा। `"Your Document Directory"` उस वास्तविक पथ के साथ जहां आप अपनी फ़ाइलें संग्रहीत करना चाहते हैं.
 
 ## चरण 2: वर्कशीट तक पहुंचें
 
@@ -118,7 +120,7 @@ Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 
 ## चरण 6: स्टाइलफ़्लैग को समझें
 
- अब, आइए जानें कि`StyleFlag` हमारे उद्धरण उपसर्ग को प्रभावित कर सकता है।
+अब, आइए जानें कि `StyleFlag` हमारे उद्धरण उपसर्ग को प्रभावित कर सकता है।
 
 ```csharp
 // एक रिक्त शैली बनाएँ
@@ -128,14 +130,14 @@ st = wb.CreateStyle();
 StyleFlag flag = new StyleFlag();
 flag.QuotePrefix = false;
 
-// एकल कक्ष A1 से युक्त श्रेणी बनाएँ
+// एकल कक्ष A1 से मिलकर एक श्रेणी बनाएँ
 Range rng = ws.Cells.CreateRange("A1");
 
 // शैली को श्रेणी पर लागू करें
 rng.ApplyStyle(st, flag);
 ```
 
- यहाँ पर समस्या यह है कि!`flag.QuotePrefix = false`, हम प्रोग्राम से कह रहे हैं, "अरे, मौजूदा उपसर्ग को मत छुओ।" तो क्या होता है?
+यहाँ पर समस्या यह है कि! `flag.QuotePrefix = false`, हम प्रोग्राम से कह रहे हैं, "अरे, मौजूदा उपसर्ग को मत छुओ।" तो क्या होता है?
 
 ## चरण 7: उद्धरण उपसर्ग की पुनः जाँच करें
 
@@ -167,7 +169,7 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
-इस दौर में, हम निर्धारित कर रहे हैं`flag.QuotePrefix = true`, जिसका अर्थ है कि हम सेल के उद्धरण उपसर्ग को अद्यतन करना चाहते हैं।
+इस दौर में, हम निर्धारित कर रहे हैं `flag.QuotePrefix = true`, जिसका अर्थ है कि हम सेल के उद्धरण उपसर्ग को अद्यतन करना चाहते हैं।
 
 ## चरण 9: उद्धरण उपसर्ग की अंतिम जांच
 
@@ -199,13 +201,15 @@ Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 सामान्यतः, Aspose.Cells को प्रदर्शन के लिए अनुकूलित किया गया है, लेकिन बहुत बड़े डेटासेट के लिए, मेमोरी और गति का परीक्षण करना हमेशा अच्छा होता है।
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?  
- आप यहां जा सकते हैं[सहयता मंच](https://forum.aspose.com/c/cells/9) समुदाय और Aspose स्टाफ से सहायता के लिए।
+आप यहां जा सकते हैं [सहयता मंच](https://forum.aspose.com/c/cells/9) समुदाय और Aspose स्टाफ से सहायता के लिए।
 
 ### क्या मैं बिना खरीदे Aspose.Cells आज़मा सकता हूँ?  
- बिलकुल! आप निःशुल्क परीक्षण का लाभ उठा सकते हैं[यहाँ](https://releases.aspose.com/).
+बिलकुल! आप निःशुल्क परीक्षण का लाभ उठा सकते हैं [यहाँ](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

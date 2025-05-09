@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,7 +141,7 @@ lineformat.setDashStyle(MsoLineDashStyle.SOLID);
 ```
 **स्पष्टीकरण:** यह निर्दिष्ट निर्देशांकों पर एक टेक्स्टबॉक्स जोड़ता है, इसके पाठ स्वरूप को अनुकूलित करता है, तथा भरण और रेखा शैलियाँ लागू करता है।
 
-### एक्सेल फ़ाइल को सहेजना
+### एक्सेल फ़ाइल सहेजना
 
 **अवलोकन:** अंत में, संशोधित कार्यपुस्तिका को वापस Excel फ़ाइल प्रारूप में सहेजें।
 
@@ -204,6 +206,9 @@ workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
 इस गाइड का पालन करके, आप कस्टम टेक्स्ट एनोटेशन के साथ एक्सेल चार्ट कार्यक्षमताओं को बढ़ाने के लिए अपने जावा प्रोजेक्ट्स में Aspose.Cells को कुशलतापूर्वक एकीकृत कर सकते हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Przyjrzyjmy się bliżej konfiguracji i implementacji!
 Zanim zaczniesz, upewnij się, że masz:
 
 ### Wymagane biblioteki, wersje i zależności
-Do tego samouczka potrzebny jest Aspose.Cells dla Java w wersji 25.3 lub nowszej.
+Do tego samouczka potrzebna jest aplikacja Aspose.Cells dla Java w wersji 25.3 lub nowszej.
 
 ### Wymagania dotyczące konfiguracji środowiska
 - **Zestaw narzędzi programistycznych Java (JDK):** Sprawdź, czy JDK jest zainstalowany na Twoim komputerze.
@@ -180,6 +182,9 @@ tym samouczku pokażemy, jak rozszerzyć `AbstractCalculationEngine` w Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

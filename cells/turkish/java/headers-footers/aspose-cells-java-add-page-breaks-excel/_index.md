@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ public class AddHorizontalPageBreak {
         WorksheetCollection worksheets = workbook.getWorksheets();
         Worksheet worksheet = worksheets.get(0);
         
-        // Çalışma sayfasındaki yatay sayfa sonlarının koleksiyonunu alın
+        // Çalışma sayfasındaki yatay sayfa sonlarının koleksiyonunu edinin
         HorizontalPageBreakCollection hPageBreaks = worksheet.getHorizontalPageBreaks();
         
         // "Y30" hücresine yatay sayfa sonu ekleyin
@@ -182,6 +184,9 @@ Bu kapsamlı kılavuzu takip ederek, Excel ile ilgili projelerinizde Aspose.Cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

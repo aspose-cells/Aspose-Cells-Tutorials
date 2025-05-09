@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## การแนะนำ
 
-คุณกังวลเกี่ยวกับโค้ด Visual Basic for Applications (VBA) ที่ไม่ได้รับการป้องกันในไฟล์ Excel ของคุณหรือไม่ ในยุคที่ข้อมูลสำคัญมักถูกจัดเก็บในสเปรดชีต การรับรองความปลอดภัยของโปรเจ็กต์ VBA ของคุณจึงเป็นสิ่งสำคัญ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java เพื่อโหลด เข้าถึง และป้องกันโปรเจ็กต์ VBA ภายในเวิร์กบุ๊ก Excel
+คุณกังวลเกี่ยวกับโค้ด Visual Basic for Applications (VBA) ที่ไม่ได้รับการป้องกันในไฟล์ Excel ของคุณหรือไม่ ในยุคที่ข้อมูลสำคัญมักถูกจัดเก็บในสเปรดชีต การรับรองความปลอดภัยของโปรเจ็กต์ VBA ของคุณจึงเป็นสิ่งสำคัญ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการใช้ Aspose.Cells สำหรับ Java เพื่อโหลด เข้าถึง และปกป้องโปรเจ็กต์ VBA ภายในเวิร์กบุ๊ก Excel
 
 ### สิ่งที่คุณจะได้เรียนรู้:
 - วิธีการใช้ Aspose.Cells สำหรับ Java เพื่อจัดการเวิร์กบุ๊ก Excel
@@ -112,7 +114,7 @@ import com.aspose.cells.Workbook;
 ```
 
 ##### ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก
-โหลดเวิร์กบุ๊กของคุณตามที่แสดงในฟีเจอร์ 1
+โหลดสมุดงานของคุณตามที่แสดงในฟีเจอร์ 1
 ```java
 Workbook wb = new Workbook(dataDir + "/samplePasswordProtectVBAProject.xlsm");
 ```
@@ -212,6 +214,9 @@ wb.save(outDir + "/outputPasswordProtectVBAProject.xlsm");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

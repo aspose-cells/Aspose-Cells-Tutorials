@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,7 +200,7 @@ Aqui estão alguns casos de uso do mundo real para carregar e processar hiperlin
 ### Considerações de desempenho
 
 Para garantir o desempenho ideal ao usar Aspose.Cells:
-- **Otimize o uso da memória**: Limite o escopo de suas operações processando apenas planilhas e intervalos necessários.
+- **Otimizar o uso da memória**: Limite o escopo de suas operações processando apenas planilhas e intervalos necessários.
 - **Gestão Eficiente de Recursos**: Libere objetos da pasta de trabalho imediatamente após o uso para liberar memória.
 - **Melhores Práticas**: Aproveite os recursos de coleta de lixo do Java para gerenciamento eficiente de memória.
 
@@ -215,6 +217,9 @@ R1: O Aspose.Cells para Java é compatível com Java 8 e versões superiores. Ce
 R2: Sim, ao se concentrar em intervalos ou planilhas específicas, você pode otimizar o desempenho mesmo com arquivos maiores.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

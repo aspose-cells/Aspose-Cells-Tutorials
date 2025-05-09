@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Wir haben das Hinzufügen einer Textbox zu einem Excel-Diagramm mit Aspose.Cells
 Mit dieser Anleitung können Sie Aspose.Cells effizient in Ihre Java-Projekte integrieren und so die Funktionalität von Excel-Diagrammen mit benutzerdefinierten Textanmerkungen erweitern. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

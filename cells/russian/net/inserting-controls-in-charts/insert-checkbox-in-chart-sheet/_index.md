@@ -1,14 +1,16 @@
 ---
-title: Вставить флажок на листе диаграммы
-linktitle: Вставить флажок на листе диаграммы
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как легко вставить флажок в лист диаграммы Excel с помощью Aspose.Cells для .NET, следуя этому пошаговому руководству.
-weight: 13
-url: /ru/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
+"description": "Узнайте, как легко вставить флажок в лист диаграммы Excel с помощью Aspose.Cells для .NET, следуя этому пошаговому руководству."
+"linktitle": "Вставить флажок на листе диаграммы"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Вставить флажок на листе диаграммы"
+"url": "/ru/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вставить флажок на листе диаграммы
@@ -21,11 +23,11 @@ url: /ru/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 
 Прежде чем погрузиться в руководство, давайте убедимся, что у вас все настроено. Вот что вам нужно:
 
-### Visual Studio установлена
+### Visual Studio установлен
 - Прежде всего, вам понадобится Visual Studio. Если она у вас еще не установлена, вы можете скачать ее с сайта Microsoft.
 
 ### Библиотека Aspose.Cells
--  Следующий необходимый инструмент — библиотека Aspose.Cells для .NET. Вы можете легко получить ее из[Сайт Aspose](https://releases.aspose.com/cells/net/) для скачивания. Если вы предпочитаете протестировать перед покупкой, есть также[доступна бесплатная пробная версия](https://releases.aspose.com/).
+- Следующий необходимый инструмент — библиотека Aspose.Cells для .NET. Вы можете легко получить ее из [Сайт Aspose](https://releases.aspose.com/cells/net/) для скачивания. Если вы предпочитаете протестировать перед покупкой, есть также [доступна бесплатная пробная версия](https://releases.aspose.com/).
 
 ### Базовое понимание C#
 - Поскольку мы будем писать код, базовые знания C# будут полезны. Не волнуйтесь, я объясню все по ходу дела!
@@ -48,14 +50,14 @@ url: /ru/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
 
 ### Установить Aspose.Cells через NuGet
 
-После настройки проекта пришло время добавить библиотеку Aspose.Cells. Это можно сделать через менеджер пакетов NuGet:
+После настройки проекта пришло время добавить библиотеку Aspose.Cells. Это можно сделать через NuGet Package Manager:
 - Щелкните правой кнопкой мыши свой проект в обозревателе решений и выберите «Управление пакетами NuGet».
 - Найдите «Aspose.Cells» и нажмите «Установить».
 - Это позволит подключить все необходимые зависимости, что облегчит начало использования библиотеки.
 
 ### Добавьте необходимые директивы using
 
- В верхней части вашего`Program.cs` В файле добавьте следующие директивы using, чтобы сделать функционал Aspose.Cells доступным:
+В верхней части вашего `Program.cs` Добавьте в файл следующие директивы using, чтобы сделать функционал Aspose.Cells доступным:
 ```csharp
 using Aspose.Cells.Charts;
 using System;
@@ -72,11 +74,11 @@ using Aspose.Cells.Drawing;
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Перейдите в указанный вами каталог.
 ```
- Обязательно замените`"C:\\YourOutputDirectory\\"`с путем, по которому вы хотите сохранить свой файл. Думайте об этом как о настройке вашего рабочего пространства; вам нужно знать, куда вы кладете свои инструменты (или, в данном случае, ваш файл Excel).
+Обязательно замените `"C:\\YourOutputDirectory\\"` с путем, по которому вы хотите сохранить свой файл. Думайте об этом как о настройке вашего рабочего пространства; вам нужно знать, куда вы кладете свои инструменты (или, в данном случае, ваш файл Excel).
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
- Далее мы создаем экземпляр`Workbook` класс. Здесь будет проходить вся наша работа.
+Далее мы создаем экземпляр `Workbook` класс. Здесь будет проходить вся наша работа.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -107,7 +109,7 @@ sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 
 ## Шаг 5: Добавление флажка на диаграмму
 
-Теперь мы переходим к самой интересной части — добавлению флажка в нашу диаграмму. Вот как это сделать:
+Теперь мы переходим к самому интересному — добавлению флажка в нашу диаграмму. Вот как это сделать:
 ```csharp
 sheet.Charts[0].Shapes.AddShapeInChart(MsoDrawingType.CheckBox, PlacementType.Move, 400, 400, 1000, 600);
 sheet.Charts[0].Shapes[0].Text = "CheckBox 1";
@@ -137,19 +139,21 @@ workbook.Save(outputDir + "InsertCheckboxInChartSheet_out.xlsx");
 Aspose.Cells — мощная библиотека для создания и обработки файлов Excel в приложениях .NET.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?  
- Да, Aspose предлагает бесплатную пробную версию. Вы можете начать с доступной пробной версии[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию. Вы можете начать с доступной пробной версии [здесь](https://releases.aspose.com/).
 
 ### Сложно ли добавить флажок на лист диаграммы?  
 Вовсе нет! Как показано в этом уроке, это можно сделать всего за несколько простых строк кода.
 
 ### Где я могу купить Aspose.Cells?  
- Вы можете приобрести Aspose.Cells у них[ссылка для покупки](https://purchase.aspose.com/buy).
+Вы можете приобрести Aspose.Cells у них [ссылка для покупки](https://purchase.aspose.com/buy).
 
 ### Как я могу получить поддержку, если у меня возникнут проблемы?  
- Aspose предоставляет форум поддержки, где вы можете задавать вопросы и находить решения. Ознакомьтесь с их[страница поддержки](https://forum.aspose.com/c/cells/9).
+Aspose предоставляет форум поддержки, где вы можете задавать вопросы и находить решения. Ознакомьтесь с их [страница поддержки](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

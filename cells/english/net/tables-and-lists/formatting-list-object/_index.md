@@ -8,7 +8,9 @@ url: /net/tables-and-lists/formatting-list-object/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format List Object in Excel with Aspose.Cells
@@ -115,6 +117,7 @@ Yes, Aspose.Cells is a standalone API that does not require Microsoft Excel to b
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

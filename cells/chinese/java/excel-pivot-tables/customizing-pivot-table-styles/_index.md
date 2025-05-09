@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自定义数据透视表样式
@@ -87,9 +89,11 @@ workbook.save("output.xlsx");
    您可以参考以下 API 文档： [Aspose.Cells for Java API参考](https://reference.aspose.com/cells/java/) 了解详细信息。
 
 现在您已经掌握了在 Aspose.Cells for Java 中创建和自定义数据透视表样式的知识。进一步探索，让您的数据演示更加出色！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/set-titles-and-axes-in-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Titles and Axes in Chart
@@ -223,6 +225,7 @@ You can get community support at the [Aspose forum](https://forum.aspose.com/c/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

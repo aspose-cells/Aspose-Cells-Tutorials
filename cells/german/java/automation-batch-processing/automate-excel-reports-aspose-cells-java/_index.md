@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Iterieren Sie über die Zellen einer Spalte, bestimmen Sie die maximale Brei
 Durch die Nutzung dieser Ressourcen sind Sie gut gerüstet, um Ihre Fähigkeiten weiter zu verbessern und komplexere Excel-Automatisierungsaufgaben zu implementieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

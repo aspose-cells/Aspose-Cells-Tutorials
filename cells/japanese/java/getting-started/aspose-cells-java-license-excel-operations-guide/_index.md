@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,14 +132,14 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 セルの値を変更することは、データ操作において非常に重要です。その方法を見てみましょう。
 
 #### ステップ1: Excelファイルを開く
-使用 `Workbook` 前述のように、ファイルを開くにはクラスを使用します。
+使用 `Workbook` 前述のように、ファイルを開くクラスを使用します。
 
 ```java
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
 #### ステップ2: セルA1にアクセスして変更する
-特定のセルの位置または名前を使用してその値を変更します。
+特定のセルの位置または名前を使用してそのセルにアクセスし、その値を変更します。
 
 ```java
 Cell cell = workbook.getWorksheets().get(0).getCells().get("A1");
@@ -217,6 +219,9 @@ Java で Aspose.Cells を使用する際に最適なパフォーマンスを確�
 このガイドに従うことで、Java アプリケーションで Aspose.Cells を活用して強力な Excel 自動化を実現できるようになります。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bezpieczeństwo danych w programie Excel
@@ -40,9 +42,11 @@ Poznaj skuteczne techniki maskowania danych przy użyciu Aspose.Cells dla Java. 
 Dowiedz się, jak audytować dostęp do plików za pomocą Aspose.Cells for Java API. Przewodnik krok po kroku z kodem źródłowym i FAQ.
 ### [Walidacja danych dla bezpieczeństwa](./data-validation-for-security/)
 Zwiększ bezpieczeństwo danych dzięki Aspose.Cells dla Java. Poznaj kompleksowe techniki walidacji danych. Dowiedz się, jak wdrożyć solidną walidację i ochronę.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

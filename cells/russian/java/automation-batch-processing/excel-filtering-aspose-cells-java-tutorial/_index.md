@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ worksheet.getAutoFilter().refresh();
 Предполагая, что он загружен, как описано ранее.
 
 #### Шаг 2: Сохраните рабочую книгу
-Записать изменения обратно в новый файл:
+Запишите изменения обратно в новый файл:
 
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -208,6 +210,9 @@ A: Да, он поддерживает несколько версий JDK; уб
 Начните использовать возможности Aspose.Cells для Java, чтобы улучшить свои задачи по обработке данных Excel уже сегодня!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

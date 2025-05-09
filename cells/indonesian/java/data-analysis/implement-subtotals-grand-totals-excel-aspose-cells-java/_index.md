@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengimplementasikan Subtotal dan Total Keseluruhan di Excel menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan kumpulan data besar di Excel, meringkas data secara efektif dapat mengubah permainan. Artikel ini memandu Anda menerapkan subtotal dan total keseluruhan dalam lembar Excel Anda menggunakan Aspose.Cells untuk Java—pustaka canggih yang menyederhanakan otomatisasi lembar kerja.
 
@@ -25,11 +27,11 @@ Di akhir tutorial ini, Anda akan mempelajari cara:
 
 Siap untuk menyederhanakan proses analisis data Anda? Mari kita bahas hal-hal penting.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikuti tutorial ini, pastikan Anda memiliki hal berikut:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Anda memerlukan Aspose.Cells untuk Java. Pustaka tersebut dapat disertakan dalam proyek Anda menggunakan Maven atau Gradle:
 
@@ -47,17 +49,17 @@ Anda memerlukan Aspose.Cells untuk Java. Pustaka tersebut dapat disertakan dalam
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Pengaturan Lingkungan
+### Környezet beállítása
 
 Pastikan Anda telah menginstal Java pada sistem Anda dan memahami konsep dasar pemrograman Java.
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
 Anda dapat memperoleh lisensi sementara untuk Aspose.Cells untuk mengeksplorasi kemampuannya secara penuh:
 
-- **Uji Coba Gratis:** Unduh perpustakaan dari [Rilis](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Ajukan permohonan lisensi sementara gratis di [Halaman Pembelian Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi di [Toko Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Unduh perpustakaan dari [Kiadások](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Ajukan permohonan lisensi sementara gratis di [Aspose Vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás:** Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi di [Toko Aspose](https://purchase.aspose.com/buy).
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -67,10 +69,10 @@ Untuk memulai Aspose.Cells, pertama-tama Anda perlu menyiapkan lingkungan pengem
 
    Gunakan Maven atau Gradle untuk menambahkan dependensi seperti yang ditunjukkan di atas.
 
-2. **Dapatkan Lisensi:**
+2. **Licenc beszerzése:**
 
-   - Unduh uji coba gratis dari [Rilis Aspose](https://releases.aspose.com/cells/java/).
-   - Ajukan permohonan lisensi sementara melalui [Aspose Pembelian](https://purchase.aspose.com/temporary-license/).
+   - Unduh uji coba gratis dari [Aspose kiadások](https://releases.aspose.com/cells/java/).
+   - Ideiglenes engedély igénylése a következőn keresztül: [Aspose vásárlás](https://purchase.aspose.com/temporary-license/).
 
 3. **Inisialisasi Aspose.Cells:**
 
@@ -82,20 +84,20 @@ Untuk memulai Aspose.Cells, pertama-tama Anda perlu menyiapkan lingkungan pengem
    Workbook workbook = new Workbook(dataDir);
    ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Ringkasan
+### Áttekintés
 
 Bagian ini akan memandu Anda dalam menerapkan subtotal dan menyesuaikan label di lembar kerja Excel Anda menggunakan Aspose.Cells untuk Java.
 
-### Petunjuk Langkah demi Langkah
+### Lépésről lépésre útmutató
 
 #### 1. Muat Buku Kerja Sumber Anda
 
 Pertama, muat file Excel yang berisi data Anda:
 
 ```java
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 String dataDir = Utils.getSharedDataDir(ImplementSubtotalGrandTotallabels.class) + "TechnicalArticles/";
 
 // Muat buku kerja sumber Anda
@@ -117,13 +119,13 @@ wb.getSettings().setGlobalizationSettings(gsi);
 Akses lembar kerja tertentu tempat Anda ingin menerapkan subtotal:
 
 ```java
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
 #### 4. Terapkan Fungsi Subtotal
 
-Menggunakan `subtotal` metode pada rentang sel yang Anda inginkan, menentukan kolom mana yang akan dijumlahkan dan menggunakan fungsi konsolidasi seperti `SUM`:
+Használat `subtotal` metode pada rentang sel yang Anda inginkan, menentukan kolom mana yang akan dijumlahkan dan menggunakan fungsi konsolidasi seperti `SUM`:
 
 ```java
 // Terapkan subtotal pada A1:B10 untuk kolom 2, 3, dan 4 (pengindeksan dimulai dari 0)
@@ -149,32 +151,32 @@ Terakhir, simpan buku kerja Anda dengan semua perubahan yang diterapkan:
 wb.save(dataDir + "ImplementTotallabels_out.xlsx");
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - Pastikan jalur berkas Excel Anda benar.
 - Pastikan Anda menggunakan indeks yang tepat untuk kolom saat menerapkan subtotal.
 - Verifikasi pengaturan lisensi Anda jika menemui batasan fitur apa pun.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pelaporan Keuangan:** Secara otomatis membuat laporan keuangan dengan data ringkasan.
-2. **Manajemen Inventaris:** Rangkum tingkat stok berdasarkan kategori atau lokasi.
+1. **Pénzügyi jelentéstétel:** Secara otomatis membuat laporan keuangan dengan data ringkasan.
+2. **Készletgazdálkodás:** Rangkum tingkat stok berdasarkan kategori atau lokasi.
 3. **Analisis Penjualan:** Menganalisis data penjualan dengan cepat di berbagai wilayah dan lini produk.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar, ingatlah kiat-kiat berikut:
 
 - Optimalkan pengaturan memori Java Anda untuk menangani file Excel yang lebih besar secara efisien.
 - Gunakan metode Aspose.Cells yang beroperasi pada rentang sel, bukan sel individual, untuk kinerja yang lebih baik.
 
-## Kesimpulan
+## Következtetés
 
 Menerapkan subtotal dan total keseluruhan di Excel menggunakan Aspose.Cells untuk Java adalah proses yang mudah. Dengan mengikuti panduan ini, Anda telah mempelajari cara mengotomatiskan peringkasan data, menyesuaikan label, dan menyempurnakan file Excel Anda secara terprogram. 
 
-Untuk menjelajahi fitur Aspose.Cells lebih lanjut, lihat [Dokumentasi Aspose](https://reference.aspose.com/cells/java/)Cobalah menerapkan teknik ini dalam proyek Anda berikutnya dan lihat berapa banyak waktu yang dihemat!
+Untuk menjelajahi fitur Aspose.Cells lebih lanjut, lihat [Aspose dokumentáció](https://reference.aspose.com/cells/java/)Cobalah menerapkan teknik ini dalam proyek Anda berikutnya dan lihat berapa banyak waktu yang dihemat!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu Aspose.Cells untuk Java?**
    - Aspose.Cells untuk Java adalah pustaka yang memungkinkan pengembang untuk membuat, memodifikasi, dan mengonversi file Excel tanpa memerlukan Microsoft Office.
@@ -186,23 +188,26 @@ Untuk menjelajahi fitur Aspose.Cells lebih lanjut, lihat [Dokumentasi Aspose](ht
    - Ya, dengan menetapkan pengaturan globalisasi sebelum menerapkan subtotal.
 
 4. **Di mana saya dapat mengunduh uji coba gratis Aspose.Cells?**
-   - Mengunjungi [Rilis Aspose](https://releases.aspose.com/cells/java/).
+   - Látogatás [Aspose kiadások](https://releases.aspose.com/cells/java/).
 
 5. **Bagaimana jika aplikasi saya perlu menangani file Excel yang besar?**
    - Optimalkan manajemen memori Java Anda dan gunakan metode pemrosesan data efisien yang disediakan oleh Aspose.Cells.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh](https://releases.aspose.com/cells/java/)
-- [Pembelian](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9) 
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltés](https://releases.aspose.com/cells/java/)
+- [Vásárlás](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9) 
 
 Manfaatkan kekuatan Aspose.Cells untuk Java dan tingkatkan otomatisasi Excel Anda ke tingkat berikutnya!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

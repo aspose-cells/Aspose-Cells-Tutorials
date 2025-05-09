@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Dominando o estilo da pasta de trabalho e a exportação de HTML com Aspose.Cells para Java
 No mundo do desenvolvimento de software, gerenciar arquivos do Excel programaticamente pode ser uma tarefa complexa. Seja gerando relatórios ou lidando com análises de dados, ter as ferramentas certas é crucial. **Aspose.Cells para Java**— uma biblioteca poderosa projetada para simplificar a manipulação de arquivos do Excel em aplicativos Java. Este tutorial guiará você pela recuperação de informações de versão, estilização de pastas de trabalho e exportação de planilhas como HTML com estilos CSS separados. Ao final deste guia, você terá um domínio sólido desses recursos, permitindo que você integre funcionalidades sofisticadas do Excel aos seus projetos Java.
 
-## que você aprenderá
+## O que você aprenderá
 - Como recuperar informações da versão do Aspose.Cells para Java.
 - Técnicas para criar e estilizar pastas de trabalho em Java.
 - Métodos para exportar planilhas como HTML com estilos CSS separados.
@@ -189,6 +191,9 @@ Neste tutorial, você aprendeu a aproveitar o poder do Aspose.Cells para Java pa
 - Explore implementações práticas em seus projetos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

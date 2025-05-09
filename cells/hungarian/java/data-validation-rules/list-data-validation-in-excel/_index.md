@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Listaadatok érvényesítése Excelben
@@ -72,7 +74,7 @@ Ezután határozza meg az Excel-munkalap adott celláira vonatkozó adatérvény
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
-int cellIndex = 0; // A cella, ahol az érvényesítést alkalmazni fogja
+int cellIndex = 0; // A cella, ahol az érvényesítést alkalmazni fogják
 
 DataValidation validation = worksheet.getValidations().get(cellIndex);
 validation.setType(DataValidationType.WHOLE);
@@ -138,6 +140,7 @@ Igen, testreszabhatja a felhasználók által érvénytelen adatok megadásakor 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

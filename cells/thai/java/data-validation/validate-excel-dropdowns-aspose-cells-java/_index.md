@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ Workbook book = new Workbook(dataDir + "sampleValidation.xlsx");
 ```
 *ทำไม:* การโหลดเวิร์กบุ๊กเป็นสิ่งสำคัญสำหรับการเข้าถึงและจัดการไฟล์ Excel ด้วยโปรแกรม
 
-**2. การเข้าถึงแผ่นงาน**
+**2. การเข้าถึงใบงาน**
 ```java
 Worksheet sheet = book.getWorksheets().get("Sheet1");
 ```
@@ -194,6 +196,9 @@ System.out.println("CheckIfValidationInCellDropDown completed successfully");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

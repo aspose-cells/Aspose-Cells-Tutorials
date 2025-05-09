@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Neste tutorial, você aprendeu a configurar o Aspose.Cells para Java e a limitar
 
 Para aprofundar seus conhecimentos, explore recursos adicionais oferecidos pelo Aspose.Cells, como manipulação de dados e criação de gráficos. Experimente diferentes configurações para ver o que funciona melhor para seus casos de uso específicos.
 
-**Próximos passos**: Experimente implementar esta solução em seus projetos e compartilhe suas experiências ou dúvidas abaixo!
+**Próximos passos**: Tente implementar esta solução em seus projetos e compartilhe suas experiências ou dúvidas abaixo!
 
 ## Seção de perguntas frequentes
 
@@ -140,6 +142,9 @@ Para aprofundar seus conhecimentos, explore recursos adicionais oferecidos pelo 
 - **Apoiar**: [Fórum Aspose para Células](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

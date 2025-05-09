@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ VbaProject vbaProject = wb.getVbaProject();
 ```
 
 #### 3. lépés: Ellenőrizze a zár állapotát
-Annak ellenőrzése, hogy a projekt zárolva van-e a megtekintéshez:
+Annak ellenőrzése, hogy a projekt megtekintésre zárolva van-e:
 ```java
 boolean isLockedForViewing = vbaProject.getIslockedForViewing();
 System.out.println("Is VBA Project Locked for Viewing: " + isLockedForViewing);
@@ -136,7 +138,7 @@ A2: Elsősorban `.xls`, `.xlsx`, és `.xlsm` VBA projekteket tartalmazó formát
 3. válasz: Igen, de használati korlátozásokat fog alkalmazni. A teljes funkcionalitás érdekében érdemes lehet ideiglenes vagy teljes licencet vásárolni.
 
 **4. kérdés: Van támogatás más programozási nyelvekhez?**
-V4: Igen, az Aspose hasonló könyvtárakat kínál .NET, C++ és más nyelvekhez. A részletekért tekintse meg a dokumentációjukat.
+V4: Igen, az Aspose hasonló könyvtárakat kínál .NET, C++ és más nyelvekhez. Részletekért tekintse meg a dokumentációjukat.
 
 **5. kérdés: Mit tegyek, ha az alkalmazásom elfogy a memóriából az Aspose.Cells használata közben?**
 A5: Figyelje szorosan az erőforrás-felhasználást, és optimalizálja a kódját a nagy fájlok hatékony kezelésére a fel nem használt erőforrások azonnali felszabadításával.
@@ -150,6 +152,9 @@ A5: Figyelje szorosan az erőforrás-felhasználást, és optimalizálja a kódj
 - **Támogatás**Segítségre van szüksége? Keresse fel a következő elérhetőségeken: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

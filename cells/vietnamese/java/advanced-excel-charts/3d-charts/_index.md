@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biểu đồ 3D
@@ -164,13 +166,14 @@ Aspose.Cells for Java chủ yếu tập trung vào việc tạo biểu đồ 3D 
 
 Có, bạn có thể tự động hóa quy trình cập nhật dữ liệu trong biểu đồ 3D của mình bằng cách tích hợp các nguồn dữ liệu hoặc sử dụng ngôn ngữ lập trình như VBA (Visual Basic for Applications) trong Excel. Aspose.Cells for Java cũng có thể hỗ trợ cập nhật biểu đồ động khi có dữ liệu mới.
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
+### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
 
 Bạn có thể tìm thấy tài liệu và tài nguyên toàn diện về Aspose.Cells for Java tại trang web: [Tài liệu Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

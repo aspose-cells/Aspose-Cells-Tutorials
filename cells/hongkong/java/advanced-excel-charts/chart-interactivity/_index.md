@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 圖表互動性
@@ -74,7 +76,7 @@ chart.getNSeries().get(0).getPoints().getDataLabels().setShowLabelAsDataCallout(
 
 ```java
 // 在資料點新增超連結
-String url = "https://example.com/data-details」；
+String url = "https://example.com/data-details”;
 chart.getNSeries().get(0).getPoints().get(0).getHyperlinks().add(url);
 ```
 
@@ -111,6 +113,7 @@ workbook.save("interactive_chart_output.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ Aspose.Cells를 사용할 때 다음과 같은 성능 최적화 팁을 고려하
 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 차트에 그림을 매끄럽게 추가하는 방법을 알아보았습니다. 이미지를 사용하여 차트를 개선하면 더욱 강렬하고 시각적으로 매력적인 데이터 프레젠테이션을 만들 수 있습니다. 이제 이러한 기술을 익혔으니, Aspose.Cells의 다른 기능들을 살펴보고 프로젝트를 더욱 풍성하게 만들어 보세요.
 
 **다음 단계:**
-- 다양한 차트 유형을 실험해보세요
+- 다양한 차트 유형으로 실험해보세요
 - Aspose.Cells에서 제공하는 추가 사용자 정의 옵션을 살펴보세요.
 
 다음 프로젝트에 이 솔루션을 구현해 보시기 바랍니다. 더 발전시킬 준비가 되셨다면 [Aspose 문서](https://reference.aspose.com/cells/java/) 더욱 고급 기능과 성능을 원하시면.
@@ -186,6 +188,9 @@ Aspose.Cells를 사용할 때 다음과 같은 성능 최적화 팁을 고려하
 - **지원하다:** [질문과 도움을 위한 Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

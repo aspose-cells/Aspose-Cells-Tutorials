@@ -1,14 +1,16 @@
 ---
-title: การติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมใน .NET
-linktitle: การติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
-weight: 20
-url: /th/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress/
+"description": "เรียนรู้วิธีติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้"
+"linktitle": "การติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมใน .NET"
+"url": "/th/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การติดตามความคืบหน้าการแปลงเอกสารด้วยโปรแกรมใน .NET
@@ -19,8 +21,8 @@ url: /th/net/converting-excel-files-to-other-formats/tracking-document-conversio
 ก่อนที่เราจะลงรายละเอียดเกี่ยวกับการติดตามการแปลงเอกสาร มีข้อกำหนดเบื้องต้นบางประการที่คุณควรมี:
 1. ความรู้พื้นฐานเกี่ยวกับ C#: เนื่องจากเราจะใช้ C# ในการเขียนโค้ด ความเข้าใจพื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรมนี้จึงเป็นประโยชน์
 2. ติดตั้ง Visual Studio แล้ว: โปรแกรมนี้จะเป็นสภาพแวดล้อมการพัฒนาของเรา คุณสามารถใช้เวอร์ชันใดก็ได้ตามต้องการ แต่เวอร์ชันล่าสุดก็เป็นตัวเลือกที่ดีเสมอ
-3.  Aspose.Cells สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells แล้ว คุณสามารถดาวน์โหลดได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/cells/net/).
-4.  ไฟล์ Excel: เตรียมไฟล์ Excel ตัวอย่างสำหรับการแปลง คุณสามารถสร้างไฟล์ Excel แบบง่ายๆ`.xlsx` ไฟล์ที่จะติดตามต่อไป
+3. Aspose.Cells สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Cells แล้ว คุณสามารถดาวน์โหลดได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/cells/net/).
+4. ไฟล์ Excel: เตรียมไฟล์ Excel ตัวอย่างสำหรับการแปลง คุณสามารถสร้างไฟล์ Excel แบบง่ายๆ `.xlsx` ไฟล์ที่จะติดตามต่อไป
 ## แพ็คเกจนำเข้า
 ตอนนี้เราได้ครอบคลุมข้อกำหนดเบื้องต้นแล้ว ถึงเวลาที่จะนำเข้าแพ็คเกจที่จำเป็นไปยังโปรเจ็กต์ C# ของคุณ วิธีดำเนินการมีดังนี้:
 ### สร้างโครงการใหม่
@@ -31,7 +33,7 @@ url: /th/net/converting-excel-files-to-other-formats/tracking-document-conversio
 Install-Package Aspose.Cells
 ```
 ### นำเข้าเนมสเปซ
-3.  ที่ด้านบนของคุณ`Program.cs` ไฟล์ เพิ่มคำสั่งต่อไปนี้โดยใช้คำสั่ง:
+3. ที่ด้านบนของคุณ `Program.cs` ไฟล์ เพิ่มคำสั่งต่อไปนี้โดยใช้คำสั่ง:
 ```csharp
 using Aspose.Cells.Rendering;
 using System;
@@ -50,28 +52,28 @@ string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
 string outputDir = "Your Document Directory";
 ```
- อย่าลืมเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางจริงบนระบบของคุณ ซึ่งจะช่วยให้คุณค้นหาไฟล์ได้ง่ายขึ้น
+อย่าลืมเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงบนระบบของคุณ ซึ่งจะช่วยให้คุณค้นหาไฟล์ได้ง่ายขึ้น
 ## ขั้นตอนที่ 2: โหลดเวิร์กบุ๊ก
- ถัดไปคุณต้องโหลดเวิร์กบุ๊ก Excel ของคุณโดยใช้`Workbook` ชั้นเรียน ดังต่อไปนี้:
+ถัดไปคุณต้องโหลดเวิร์กบุ๊ก Excel ของคุณโดยใช้ `Workbook` ชั้นเรียน ดังต่อไปนี้:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "PagesBook1.xlsx");
 ```
- บรรทัดโค้ดนี้จะสร้าง`Workbook` วัตถุที่จะให้เราโต้ตอบกับไฟล์ Excel ที่เราระบุได้
+บรรทัดโค้ดนี้จะสร้าง `Workbook` วัตถุที่จะให้เราโต้ตอบกับไฟล์ Excel ที่เราระบุได้
 ## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการบันทึก PDF
-ตอนนี้เรามาตั้งค่าตัวเลือกการบันทึก PDF กัน นี่คือจุดที่เวทมนตร์ของการติดตามความคืบหน้าเริ่มต้นขึ้น คุณจะสร้างอินสแตนซ์ของ`PdfSaveOptions` และกำหนดการเรียกกลับให้กับมัน
+ตอนนี้เรามาตั้งค่าตัวเลือกการบันทึก PDF กัน นี่คือจุดที่เวทมนตร์ของการติดตามความคืบหน้าเริ่มต้นขึ้น คุณจะสร้างอินสแตนซ์ของ `PdfSaveOptions` และกำหนดการเรียกกลับให้กับมัน
 ```csharp
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 pdfSaveOptions.PageSavingCallback = new TestPageSavingCallback();
 ```
 โดยกำหนดการเรียกกลับแบบกำหนดเอง (`TestPageSavingCallback`) เราสามารถนำตรรกะของเราเองไปใช้เพื่อติดตามความคืบหน้าการแปลงหน้าได้
 ## ขั้นตอนที่ 4: บันทึกสมุดงานเป็น PDF
- เมื่อตั้งค่าทุกอย่างเรียบร้อยแล้ว ก็ถึงเวลาบันทึกสมุดงานของคุณเป็น PDF ใช้`Save` วิธีการของ`Workbook` ชั้นเรียนเป็นอย่างนี้:
+เมื่อตั้งค่าทุกอย่างเรียบร้อยแล้ว ก็ถึงเวลาบันทึกสมุดงานของคุณเป็น PDF ใช้ `Save` วิธีการของ `Workbook` ชั้นเรียนเป็นอย่างนี้:
 ```csharp
 workbook.Save(outputDir + "DocumentConversionProgress.pdf", pdfSaveOptions);
 ```
 บรรทัดนี้จะกระตุ้นกระบวนการแปลงและเรียกใช้วิธีการโทรกลับของเราขณะที่กำลังประมวลผลหน้า
 ## ขั้นตอนที่ 5: นำ Callback Class มาใช้
- ตอนนี้เรามาสร้าง`TestPageSavingCallback` คลาส นี่คือจุดที่คุณกำหนดสิ่งที่จะเกิดขึ้นในตอนเริ่มต้นและตอนสิ้นสุดการบันทึกแต่ละหน้า
+ตอนนี้เรามาสร้าง `TestPageSavingCallback` คลาส นี่คือจุดที่คุณกำหนดสิ่งที่จะเกิดขึ้นในตอนเริ่มต้นและตอนสิ้นสุดการบันทึกแต่ละหน้า
 ```csharp
 public class TestPageSavingCallback : IPageSavingCallback
 {
@@ -103,16 +105,18 @@ public class TestPageSavingCallback : IPageSavingCallback
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารี .NET อันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ได้โดยการใช้โปรแกรม
 ### ฉันจะได้รับทดลองใช้ Aspose.Cells ฟรีได้อย่างไร?
- คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[เว็บไซต์อาโพส](https://releases.aspose.com/).
+คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [เว็บไซต์อาโพส](https://releases-aspose.com/).
 ### สามารถปรับแต่งกระบวนการแปลงได้หรือไม่
 ใช่ โดยการใช้การโทรกลับ คุณสามารถปรับแต่งวิธีการประมวลผลหน้าต่างๆ ในระหว่างการแปลงได้
 ### ฉันสามารถควบคุมชื่อไฟล์เอาท์พุตได้หรือไม่
 แน่นอน! คุณสามารถระบุชื่อใดๆ ก็ได้สำหรับไฟล์เอาต์พุตของคุณเมื่อบันทึกสมุดงาน
 ### ฉันสามารถค้นหาการสนับสนุนสำหรับ Aspose.Cells ได้ที่ไหน
- คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถรับการสนับสนุนได้โดยการเยี่ยมชม [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

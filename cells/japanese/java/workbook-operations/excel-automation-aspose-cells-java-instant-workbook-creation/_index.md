@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-手作業によるデータ入力やスプレッドシートでの繰り返し作業にうんざりしていませんか？これらのプロセスを自動化することで、時間を節約し、エラーを減らし、ワークフローを効率化できます。このチュートリアルでは、Aspose.Cells for Javaを使用してExcelファイルをプログラムで作成・操作する方法を説明します。経験豊富な開発者の方でも、Excel自動化の初心者の方でも、このガイドを活用すれば、JavaでAspose.Cellsを使ったワークブック作成を瞬時にマスターできます。
+手作業によるデータ入力やスプレッドシートでの繰り返し作業にうんざりしていませんか？これらのプロセスを自動化することで、時間を節約し、エラーを減らし、ワークフローを効率化できます。このチュートリアルでは、Aspose.Cells for Java を使用して、プログラムからExcelファイルを作成および操作する方法を説明します。経験豊富な開発者の方でも、Excel自動化の初心者の方でも、このガイドを活用すれば、JavaでAspose.Cellsを使った瞬時のワークブック作成をマスターできます。
 
 ### 学習内容:
 - Javaでワークブックオブジェクトをインスタンス化する
@@ -195,6 +197,9 @@ Aspose.Cells for Javaは、様々な可能性を広げます。以下に、実�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

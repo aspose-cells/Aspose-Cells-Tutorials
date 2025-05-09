@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ index++; // Ökningsindex för nästa OLE-objekt
 ```
 
 ### Felsökningstips
-- **Undantag för fil som inte hittades**Verifiera dina sökvägar till in- och utdatakatalogen.
+- **Undantag för fil som inte hittades**Verifiera dina sökvägar till in- och utdatakataloger.
 - **IOException**Se till att du har skrivbehörighet i din utdatakatalog.
 
 ## Praktiska tillämpningar (H2)
@@ -140,7 +142,7 @@ Du har lärt dig hur man extraherar inbäddade .mol-filer från Excel med hjälp
 
 Testa att implementera den här extraktionsfunktionen idag och ta dina datahanteringsfärdigheter till nästa nivå!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Kan jag extrahera andra filer än .mol med hjälp av Aspose.Cells?**
    - Ja, du kan extrahera olika filtyper som är inbäddade som OLE-objekt i Excel-arbetsböcker.
@@ -168,6 +170,9 @@ Testa att implementera den här extraktionsfunktionen idag och ta dina datahante
 Utforska dessa resurser för att fördjupa din förståelse och maximera potentialen hos Aspose.Cells för Java i dina projekt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

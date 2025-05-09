@@ -1,14 +1,16 @@
 ---
-title: Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel
-linktitle: Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodawać komórki do okna Excel Formula Watch Window przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. To proste i wydajne.
-weight: 10
-url: /pl/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel-formula-watch-window/
+"description": "Dowiedz się, jak dodawać komórki do okna Excel Formula Watch Window przy użyciu Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. To proste i wydajne."
+"linktitle": "Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel"
+"url": "/pl/net/excel-formulas-and-calculation-options/adding-cells-to-microsoft-excel-formula-watch-window/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie komórek do okna obserwacji formuły programu Microsoft Excel
@@ -22,11 +24,11 @@ Czy jesteś gotowy, aby zwiększyć wydajność swojego skoroszytu programu Exce
 Zanim zagłębisz się w szczegóły kodowania, upewnijmy się, że jesteś dobrze przygotowany do wyruszenia w tę podróż. Oto, czego będziesz potrzebować:
 
 - Visual Studio: Upewnij się, że masz zainstalowane Visual Studio. Jeśli nie, czas je pobrać!
-- Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Jeśli jeszcze jej nie pobrałeś, sprawdź[Link do pobrania](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Jeśli jeszcze jej nie pobrałeś, sprawdź [Link do pobrania](https://releases.aspose.com/cells/net/).
 - Podstawowa wiedza o języku C#: Podstawowe informacje na temat programowania w języku C# znacznie ułatwią zrozumienie tego samouczka.
 - .NET Framework: Upewnij się, że w projekcie Visual Studio skonfigurowano zgodną wersję .NET Framework.
 
-Masz wszystko, czego potrzebujesz? Super! Przejdźmy do zabawy — importowania niezbędnych pakietów.
+Masz wszystko, czego potrzebujesz? Super! Przejdźmy do zabawnej części — importowania niezbędnych pakietów.
 
 ## Importuj pakiety
 
@@ -49,7 +51,7 @@ Posiadanie dobrze zdefiniowanego katalogu wyjściowego jest jak posiadanie mapy 
 string outputDir = "Your Document Directory"; // Zastąp swoim aktualnym katalogiem
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` ze ścieżką w systemie. Dzięki temu program będzie dokładnie wiedział, gdzie umieścić plik, gdy zapisze skoroszyt.
+Pamiętaj o wymianie `"Your Document Directory"` ze ścieżką w systemie. Dzięki temu program będzie dokładnie wiedział, gdzie umieścić plik, gdy zapisze skoroszyt.
 
 ## Krok 2: Utwórz pusty skoroszyt
 
@@ -59,7 +61,7 @@ Teraz, gdy nasz katalog jest już ustawiony, utwórzmy pusty skoroszyt. Wyobraź
 Workbook wb = new Workbook();
 ```
 
- Tutaj tworzymy nową instancję`Workbook` klasa. To daje nam świeży, pusty skoroszyt do pracy. 
+Tutaj tworzymy nową instancję `Workbook` klasa. Daje nam to świeży, pusty skoroszyt do pracy. 
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -69,7 +71,7 @@ Mając gotowy skoroszyt, czas uzyskać dostęp do pierwszego arkusza. Każdy sko
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Ten`Worksheets` kolekcja pozwala nam na dostęp do wszystkich arkuszy w skoroszycie. Dzięki`[0]`, skupiamy się konkretnie na pierwszym arkuszu, po prostu dlatego, że jest to najbardziej logiczny punkt wyjścia!
+Ten `Worksheets` kolekcja pozwala nam na dostęp do wszystkich arkuszy w skoroszycie. Dzięki `[0]`skupiamy się konkretnie na pierwszym arkuszu, po prostu dlatego, że jest to najbardziej logiczny punkt wyjścia!
 
 ## Krok 4: Wstawianie wartości całkowitych do komórek
 
@@ -101,7 +103,7 @@ Teraz, gdy mamy już skonfigurowaną formułę, czas dodać ją do okna obserwow
 ws.CellWatches.Add(c1.Name);
 ```
 
- Z`CellWatches.Add`w zasadzie mówimy: „Hej Excel, miej oko na C1!” Dzięki temu wszelkie zmiany w komórkach zależnych formuły zostaną odzwierciedlone w oknie Obserwacja formuły.
+Z `CellWatches.Add`, w zasadzie mówimy: „Hej Excel, miej oko na C1!” Dzięki temu wszelkie zmiany w komórkach zależnych formuły zostaną odzwierciedlone w oknie Obserwacja formuły.
 
 ## Krok 7: Ustaw inną formułę w komórce E1
 
@@ -126,13 +128,13 @@ Dodając E1 w ten sposób, zapewniamy, że nasza druga formuła jest również �
 
 ## Krok 9: Zapisz skoroszyt
 
-Teraz, gdy wszystko jest już na swoim miejscu i wzory można monitorować, możemy zapisać efekty naszej ciężkiej pracy w pliku Excel.
+Teraz, gdy wszystko jest już na swoim miejscu i wzory są skonfigurowane do monitorowania, możemy zapisać naszą ciężką pracę w pliku Excel.
 
 ```csharp
 wb.Save(outputDir + "outputAddCellsToMicrosoftExcelFormulaWatchWindow.xlsx", SaveFormat.Xlsx);
 ```
 
-Ten wiersz zapisuje skoroszyt do określonego katalogu w formacie XLSX.`SaveFormat.Xlsx` część zapewnia, że zostanie zapisany jako nowoczesny plik Excela. Podobnie jak kończenie obrazu i wkładanie go w ramę, ten krok sprawia, że.
+Ten wiersz zapisuje skoroszyt do określonego katalogu w formacie XLSX. `SaveFormat.Xlsx` część zapewnia, że zostanie zapisany jako nowoczesny plik Excela. Podobnie jak kończenie obrazu i wkładanie go w ramę, ten krok sprawia, że.
 
 ## Wniosek
 
@@ -144,20 +146,22 @@ I masz to! Postępując zgodnie z tymi krokami, pomyślnie dodałeś komórki do
 Okno obserwowania formuł w programie Excel umożliwia monitorowanie wartości określonych formuł podczas wprowadzania zmian w arkuszu kalkulacyjnym.
 
 ### Czy potrzebuję licencji, aby używać Aspose.Cells dla .NET?  
- Tak, Aspose.Cells wymaga licencji do użytku komercyjnego, ale możesz zacząć od bezpłatnego okresu próbnego dostępnego na ich stronie[Link do bezpłatnej wersji próbnej](https://releases.aspose.com/).
+Tak, Aspose.Cells wymaga licencji do użytku komercyjnego, ale możesz zacząć od bezpłatnego okresu próbnego dostępnego na ich stronie [Link do bezpłatnej wersji próbnej](https://releases.aspose.com/).
 
 ### Czy mogę używać Aspose.Cells na innych platformach niż .NET?  
 Aspose.Cells zawiera biblioteki dla różnych platform, w tym Java, Android i usług w chmurze.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
- Szczegółową dokumentację Aspose.Cells można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Szczegółową dokumentację Aspose.Cells można znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 
 ### Jak mogę zgłosić problemy lub uzyskać pomoc dotyczącą Aspose.Cells?  
- Możesz uzyskać pomoc od społeczności Aspose w ich[Forum wsparcia](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać pomoc od społeczności Aspose w ich [Forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

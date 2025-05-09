@@ -1,14 +1,16 @@
 ---
-title: Truy cập giá trị của thuộc tính tài liệu trong .NET
-linktitle: Truy cập giá trị của thuộc tính tài liệu trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách truy cập thuộc tính tài liệu trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Quản lý bảng tính của bạn một cách hiệu quả.
-weight: 11
-url: /vi/net/document-properties/accessing-value-of-document-properties/
+"description": "Tìm hiểu cách truy cập thuộc tính tài liệu trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Quản lý bảng tính của bạn một cách hiệu quả."
+"linktitle": "Truy cập giá trị của thuộc tính tài liệu trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Truy cập giá trị của thuộc tính tài liệu trong .NET"
+"url": "/vi/net/document-properties/accessing-value-of-document-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Truy cập giá trị của thuộc tính tài liệu trong .NET
@@ -18,7 +20,7 @@ Trong thế giới kỹ thuật số phát triển nhanh như hiện nay, việc
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, bạn cần lưu ý một số điều sau để đảm bảo hành trình diễn ra suôn sẻ:
 1. Quen thuộc với .NET: Bạn phải có hiểu biết cơ bản về .NET framework và mô hình lập trình của nó.
-2.  Aspose.Cells cho Thư viện .NET: Bạn cần cài đặt thư viện Aspose.Cells trong dự án của mình. Nếu bạn chưa thiết lập, bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Bạn cần cài đặt thư viện Aspose.Cells trong dự án của mình. Nếu bạn chưa thiết lập, bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển: Nên sử dụng IDE phù hợp để phát triển .NET (như Visual Studio).
 Đã hiểu hết chưa? Hoàn hảo! Chúng ta hãy chuyển sang bước thú vị tiếp theo.
 ## Nhập gói
@@ -44,26 +46,26 @@ Aspose.Cells cho phép chúng ta dễ dàng truy xuất và làm việc với c�
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp của bạn. Điều này có thể giống như`"C:\\Documents\\"`.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế đến tệp của bạn. Điều này có thể giống như `"C:\\Documents\\"`.
 ## Bước 2: Khởi tạo đối tượng Workbook
 Tiếp theo, chúng ta sẽ tạo một đối tượng Workbook để mở tệp Excel của bạn. Đối tượng này hoạt động như một cầu nối để truy cập và sửa đổi các thuộc tính tài liệu của bạn.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Thay thế`"sample-document-properties.xlsx"` với tên tệp Excel của bạn. Bây giờ bạn đã tải xong bảng tính và sẵn sàng hoạt động!
+Thay thế `"sample-document-properties.xlsx"` với tên tệp Excel của bạn. Bây giờ bạn đã tải xong bảng tính và sẵn sàng hoạt động!
 ## Bước 3: Lấy Thuộc tính Tài liệu Tùy chỉnh
-Để truy cập vào các thuộc tính tùy chỉnh của tài liệu, bạn sẽ muốn lấy tập hợp các thuộc tính từ các trang tính của sổ làm việc.
+Để truy cập vào các thuộc tính tùy chỉnh của tài liệu, bạn sẽ muốn lấy bộ sưu tập các thuộc tính từ các trang tính của sổ làm việc.
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
- Nghĩ về`customProperties` như một hộp lưu trữ chứa tất cả thông tin quan trọng liên quan đến tệp Excel của bạn.
+Nghĩ về `customProperties` như một hộp lưu trữ chứa tất cả thông tin quan trọng liên quan đến tệp Excel của bạn.
 ## Bước 4: Truy cập Thuộc tính Tài liệu Cụ thể
 Bây giờ, hãy xem qua bộ sưu tập thuộc tính và lấy một thuộc tính tài liệu cụ thể. Đối với ví dụ này, chúng ta sẽ truy cập thuộc tính tùy chỉnh đầu tiên.
 ```csharp
 Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties[0];
 object objectValue = customProperty1.Value;
 ```
-Ở đây, chúng ta sẽ kéo thuộc tính đầu tiên và lưu trữ giá trị của nó. Đây có thể là bất kỳ thứ gì từ chuỗi đến số, tùy thuộc vào nội dung đã nhập.
+Ở đây, chúng ta sẽ kéo thuộc tính đầu tiên và lưu trữ giá trị của nó. Giá trị này có thể là bất kỳ thứ gì từ chuỗi đến số, tùy thuộc vào nội dung đã nhập.
 ## Bước 5: Kiểm tra và Lấy giá trị thuộc tính
 Giả sử chúng ta muốn truy cập một thuộc tính khác và kiểm tra kiểu của nó trước khi trích xuất giá trị của nó. Điều này quan trọng vì các thuộc tính có thể có nhiều kiểu khác nhau.
 ```csharp
@@ -82,16 +84,18 @@ Bây giờ bạn đã được trang bị những kiến thức cơ bản, bạn
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể nộp đơn xin giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+Bạn có thể nộp đơn xin giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể truy cập vào thuộc tính của tài liệu nhúng không?
 Có, bạn có thể truy cập cả thuộc tính tùy chỉnh và thuộc tính nhúng bằng cách sử dụng bộ sưu tập thuộc tính tài liệu.
 ### Tôi có thể lấy những loại thuộc tính tài liệu nào?
 Thuộc tính tài liệu có thể có nhiều loại khác nhau, bao gồm chuỗi, số, ngày tháng và boolean.
 ### Có bản dùng thử miễn phí Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể tìm thấy tùy chọn dùng thử miễn phí tại[liên kết này](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tìm thấy tùy chọn dùng thử miễn phí tại [liên kết này](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

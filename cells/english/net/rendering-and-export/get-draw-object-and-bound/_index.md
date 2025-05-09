@@ -8,7 +8,9 @@ url: /net/rendering-and-export/get-draw-object-and-bound/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Draw Object Boundaries with Aspose.Cells
@@ -164,6 +166,7 @@ For support, visit the [Aspose Forum](https://forum.aspose.com/c/cells/9) where 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

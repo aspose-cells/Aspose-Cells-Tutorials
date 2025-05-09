@@ -1,51 +1,56 @@
 ---
-title: สร้างตาราง Excel ด้วย Aspose.Cells สําหรับ .NET
-weight: 7700
-limit: 
-description: เรียนรู้วิธีการสร้างหนังสือทํางาน Excel, เพิ่มข้อมูลตัวอย่าง, และสร้างตารางคอลัมน์ โดยใช้ Aspose.Cells สําหรับ .NET ด้วยตัวอย่างโค้ดขั้นตอนต่อขั้นตอน
-keywords: [Aspose.Cells for .NET, create Excel chart, generate column chart, Excel automation, C# Excel library, .NET spreadsheet API]
-url: /th/net/charts/setting-category-data/
+"description": "เรียนรู้วิธีการสร้างเวิร์กบุ๊ก Excel เพิ่มข้อมูลตัวอย่าง และสร้างแผนภูมิคอลัมน์โดยใช้ Aspose.Cells สำหรับ .NET พร้อมตัวอย่างโค้ดทีละขั้นตอน"
+"title": "สร้างแผนภูมิ Excel ด้วย Aspose.Cells สำหรับ .NET"
+"url": "/th/net/charts/setting-category-data/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างตาราง Excel ด้วย Aspose.Cells สําหรับ .NET
-ตัวอย่างนี้แสดงให้เห็นวิธีการสร้างหนังสือทํางาน Excel, เติมมันด้วยข้อมูลตัวอย่าง, และสร้างตารางคอลัมน์โดยใช้ Aspose.Cells สําหรับ .NET. คู่มือขั้นตอนครอบคลุมการสร้างหนังสือทํางาน, การเพิ่มข้อมูล, การตั้งตารางประเภท, และการตั้งตาราง. Aspose.Cells ให้บริการ API སྟོབས་ཤུགས་ཅན་สําหรับการอัตโนมัติการสร้างไฟล์ Excel และการ thao tácในแอปพลิเคชัน .NET, ทําให้มันง่ายในการสร้างตารางแบบไดนามิกตามโปรแกรม.  
+# สร้างแผนภูมิ Excel ด้วย Aspose.Cells สำหรับ .NET
+ตัวอย่างนี้สาธิตวิธีการสร้างเวิร์กบุ๊ก Excel การป้อนข้อมูลตัวอย่าง และสร้างแผนภูมิคอลัมน์โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนครอบคลุมถึงการสร้างเวิร์กบุ๊ก การเพิ่มข้อมูล การตั้งค่าป้ายหมวดหมู่ และการกำหนดค่าแผนภูมิ Aspose.Cells มอบ API ที่มีประสิทธิภาพสำหรับการสร้างและจัดการไฟล์ Excel โดยอัตโนมัติในแอปพลิเคชัน .NET ทำให้การสร้างแผนภูมิแบบไดนามิกด้วยโปรแกรมเป็นเรื่องง่าย  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/setting-category-data" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## คําแนะนําการติดตั้ง  
+## คำแนะนำในการติดตั้ง  
 
-เพื่อใช้ Aspose.Cells สําหรับ .NET ติดตามขั้นตอนนี้  
+ในการใช้ Aspose.Cells สำหรับ .NET ให้ทำตามขั้นตอนเหล่านี้:  
 
-1. โครงการผ่าน NuGet Package Manager:  
-   * เปิดโครงการ .NET ของคุณใน Visual Studio  
-   * ไปยัง Tools → NuGet Package Manager → 管理 NuGet Packages for Solution  
-   * ค้นหา Aspose.Cells และติดตั้งฉบับล่าสุด  
+1. ติดตั้งผ่านตัวจัดการแพ็กเกจ NuGet:  
+   - เปิดโครงการ .NET ของคุณใน Visual Studio  
+   - ไปที่เครื่องมือ → ตัวจัดการแพ็กเกจ NuGet → จัดการแพ็กเกจ NuGet สำหรับโซลูชัน  
+   - ค้นหา Aspose.Cells และติดตั้งเวอร์ชันล่าสุด  
 
-   แทนอื่น, โกตั้งมันโดยใช้ คอนโซลผู้จัดการแพ็คเกจ:  
+   อีกวิธีหนึ่งคือติดตั้งโดยใช้ Package Manager Console:  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
 2. ดาวน์โหลดจากเว็บไซต์ Aspose:  
-   * ไปดูหน้าดาวน์โหลดทางการ: [Aspose.Cells สําหรับ .NET](https://releases.aspose.com/cells/net/)  
-   * ดาวน์โหลด DLL และเพิ่มความหมายในโครงการของคุณ  
+   - เยี่ยมชมหน้าดาวน์โหลดอย่างเป็นทางการ: [Aspose.Cells สำหรับ .NET](https://releases.aspose.com/cells/net/)  
+   - ดาวน์โหลด DLL และเพิ่มการอ้างอิงลงในโครงการของคุณ  
 
-3. การสมัครใบอนุญาต (ทางเลือก):  
-   * ได้ใบอนุญาตจาก [เป้าหมายซื้อ](https://purchase.aspose.com/buy)หรือขอ[เอกสารชั่วคราว](https://purchase.aspose.com/temporary-license/). .  
-   * ใช้ใบอนุญาตในรหัสของคุณ  
+3. สมัครใบอนุญาต (ทางเลือก):  
+   - รับใบอนุญาตจาก [การซื้อ Aspose](https://purchase.aspose.com/buy) หรือร้องขอ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).  
+   - ใช้ใบอนุญาตในโค้ดของคุณ:  
      ```csharp
      Aspose.Cells.License license = new Aspose.Cells.License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

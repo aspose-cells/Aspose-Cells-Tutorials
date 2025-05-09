@@ -1,36 +1,38 @@
 ---
-title: Smazat pracovní list aplikace Excel podle názvu C# Tutorial
-linktitle: Odstranit sešit Excel podle názvu
-second_title: Aspose.Cells for .NET API Reference
-description: Přečtěte si, jak odstranit listy Excelu podle názvu pomocí C#. Tento návod pro začátečníky vás provede krok za krokem s Aspose.Cells pro .NET.
-weight: 40
-url: /cs/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-name-csharp-tutorial/
+"description": "Naučte se, jak mazat listy aplikace Excel podle názvu pomocí jazyka C#. Tento tutoriál pro začátečníky vás krok za krokem provede nástrojem Aspose.Cells pro .NET."
+"linktitle": "Smazat list aplikace Excel podle názvu"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Smazat list Excelu podle názvu - tutoriál C#"
+"url": "/cs/net/excel-worksheet-csharp-tutorials/delete-excel-worksheet-by-name-csharp-tutorial/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Smazat pracovní list aplikace Excel podle názvu C# Tutorial
+# Smazat list Excelu podle názvu - tutoriál C#
 
 ## Zavedení
 
-Při programové práci se soubory Excelu, ať už se jedná o vytváření sestav, analýzu dat nebo jen správu záznamů, se může stát, že budete potřebovat odstranit konkrétní listy. V této příručce vás provedu jednoduchým, ale účinným způsobem odstranění listu aplikace Excel podle názvu pomocí Aspose.Cells for .NET. Pojďme se ponořit!
+Při programově práci s excelovými soubory, ať už jde o vytváření sestav, analýzu dat nebo jen o správu záznamů, se může stát, že budete potřebovat odstranit konkrétní listy. V této příručce vás provedu jednoduchým, ale efektivním způsobem, jak odstranit excelový list podle jeho názvu pomocí Aspose.Cells pro .NET. Pojďme se do toho pustit!
 
 ## Předpoklady
 
-Než začneme, je několik věcí, které budete potřebovat, abyste se ujistili, že máte připraveno:
+Než začneme, je tu několik věcí, které si musíte připravit:
 
-1.  Aspose.Cells for .NET Library: Toto je základní komponenta, která umožňuje manipulovat se soubory aplikace Excel. Pokud jste jej ještě nenainstalovali, můžete[stáhněte si to odtud](https://releases.aspose.com/cells/net/).
-2. Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, nejlépe Visual Studio, kde můžete psát a spouštět kód C#.
-3. Základní porozumění C#: I když vysvětlím každý krok, základní znalost C# vám pomůže lépe sledovat.
-4. Soubor Excel: Měli byste mít vytvořený soubor Excel (v tomto tutoriálu budeme odkazovat na "book1.xls"). Pro tento účel můžete vytvořit jednoduchý soubor s několika pracovními listy.
+1. Knihovna Aspose.Cells pro .NET: Toto je základní komponenta, která umožňuje manipulaci s Excelovými soubory. Pokud jste ji ještě nenainstalovali, můžete... [stáhněte si to odtud](https://releases.aspose.com/cells/net/).
+2. Vývojové prostředí: Měli byste mít nastavené vývojové prostředí, nejlépe Visual Studio, kde můžete psát a spouštět kód v jazyce C#.
+3. Základní znalost C#: I když vysvětlím každý krok, základní znalost C# vám pomůže lépe se orientovat.
+4. Soubor Excel: Měli byste mít vytvořený soubor Excel (v tomto tutoriálu budeme odkazovat na „book1.xls“). Pro tento účel můžete vytvořit jednoduchý soubor s několika pracovními listy.
 
-Jakmile máte tyto předpoklady na místě, jste připraveni skočit do skutečného kódování!
+Jakmile budete mít tyto předpoklady splněny, můžete se pustit do samotného kódování!
 
-## Importujte balíčky
+## Importovat balíčky
 
-Nyní naimportujeme potřebné balíčky. To je nezbytné, protože bez těchto balíčků váš program nebude vědět, jak zacházet se soubory aplikace Excel.
+Nyní importujme potřebné balíčky. To je nezbytné, protože bez těchto balíčků váš program nebude vědět, jak pracovat se soubory aplikace Excel.
 
 ```csharp
 using System.IO;
@@ -39,48 +41,48 @@ using Aspose.Cells;
 
 ## Krok 1: Nastavení prostředí
 
-Chcete-li začít, budete chtít nastavit datový proud, který programu umožní číst soubor Excel.
+Pro začátek budete chtít nastavit souborový stream, který programu umožní číst soubor aplikace Excel.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Nezapomeňte nahradit „VÁŠ ADRESÁŘ DOKUMENTŮ“ cestou k umístění vašeho souboru Excel. Toto nastavení zajišťuje, že váš program ví, kde má najít soubory, se kterými bude pracovat.
+Nezapomeňte nahradit „ADRESÁŘ VAŠEHO DOKUMENTU“ cestou k uloženému souboru aplikace Excel. Toto nastavení zajistí, že váš program bude vědět, kde má najít soubory, se kterými bude pracovat.
 
 ## Krok 2: Otevření souboru Excel
 
-S nastavenou cestou k souboru budete muset vytvořit datový proud souboru pro soubor Excel, se kterým chcete manipulovat.
+Po nastavení cesty k souboru budete muset vytvořit souborový stream pro soubor aplikace Excel, který chcete manipulovat.
 
 ```csharp
-// Vytvoření datového proudu souboru obsahujícího soubor Excel, který se má otevřít
+// Vytvoření proudu souborů obsahujícího soubor Excel, který se má otevřít
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Zde otevíráme "book1.xls". Je důležité, aby tento soubor existoval ve vámi určeném adresáři; jinak se setkáte s chybami.
+Zde otevíráme soubor „book1.xls“. Je nezbytné, aby tento soubor existoval ve vámi zadaném adresáři, jinak se setkáte s chybami.
 
-## Krok 3: Vytvoření instance objektu sešitu
+## Krok 3: Vytvoření instance objektu Workbook
 
- Dále budete muset vytvořit a`Workbook` objekt. Tento objekt představuje váš soubor Excel a umožňuje vám manipulovat s jeho obsahem.
+Dále budete muset vytvořit `Workbook` objekt. Tento objekt představuje váš soubor aplikace Excel a umožňuje vám manipulovat s jeho obsahem.
 
 ```csharp
-// Vytvoření instance objektu sešitu
-// Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
+// Vytvoření instance objektu Workbook
+// Otevření souboru Excelu prostřednictvím souborového proudu
 Workbook workbook = new Workbook(fstream);
 ```
 
- V tomto okamžiku vaše`workbook` nyní obsahuje všechna data ze souboru Excel a můžete s ním provádět různé operace.
+V tomto okamžiku, vaše `workbook` nyní obsahuje všechna data ze souboru aplikace Excel a můžete s ním provádět různé operace.
 
-## Krok 4: Odebrání listu podle názvu
+## Krok 4: Odebrání pracovního listu podle názvu
 
-Nyní pojďme k jádru věci – odstranění listu podle jeho názvu. 
+teď se pojďme dostat k jádru věci – odstranění pracovního listu podle jeho názvu. 
 
 ```csharp
-// Odebrání listu pomocí názvu listu
+// Odebrání listu pomocí jeho názvu
 workbook.Worksheets.RemoveAt("Sheet1");
 ```
 
-V tomto příkladu se snažíme odstranit list s názvem "List1". Pokud tento list existuje, bude úspěšně odstraněn. Pokud ne, narazíte na výjimku, takže se ujistěte, že se název přesně shoduje.
+V tomto příkladu se pokoušíme odstranit list s názvem „List1“. Pokud tento list existuje, bude úspěšně odstraněn. Pokud ne, dojde k výjimce, proto se ujistěte, že název přesně odpovídá.
 
 ## Krok 5: Uložení sešitu
 
@@ -91,33 +93,35 @@ Jakmile smažete požadovaný list, je čas uložit změny zpět do souboru.
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-Výstupní soubor můžete podle potřeby přejmenovat nebo přepsat původní soubor. Důležité je, že vaše změny jsou v tomto kroku zachovány!
+Výstupní soubor můžete dle potřeby přejmenovat nebo přepsat původní soubor. Důležité je, aby se v tomto kroku zachovaly vaše změny!
 
 ## Závěr
 
-A tady to máte! Úspěšně jste se naučili, jak odstranit pracovní list aplikace Excel podle názvu pomocí Aspose.Cells for .NET. Tato výkonná knihovna vám umožňuje bez námahy manipulovat se soubory aplikace Excel a s těmito znalostmi můžete dále prozkoumat úpravy a správu dokumentů aplikace Excel pro různé aplikace.
+A tady to máte! Úspěšně jste se naučili, jak smazat list aplikace Excel podle názvu pomocí knihovny Aspose.Cells pro .NET. Tato výkonná knihovna vám umožňuje snadno manipulovat s excelovými soubory a s těmito znalostmi můžete dále prozkoumat úpravy a správu excelových dokumentů v různých aplikacích.
 
-Neváhejte a pohrajte si s dalšími funkcemi knihovny Aspose.Cells a neváhejte experimentovat se složitějšími manipulacemi, jakmile se budete cítit pohodlně.
+Nebojte se experimentovat s dalšími funkcemi knihovny Aspose.Cells a neváhejte experimentovat se složitějšími manipulacemi, jakmile si zvyknete.
 
-## FAQ
+## Často kladené otázky
 
 ### Je Aspose.Cells zdarma k použití?
- Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro další používání si budete muset zakoupit licenci. Můžete získat bezplatnou zkušební verzi[zde](https://releases.aspose.com/).
+Aspose.Cells nabízí bezplatnou zkušební verzi, ale pro další používání si budete muset zakoupit licenci. Bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
 
-### Mohu odstranit více listů najednou?
-Kolekci listů můžete iterovat a odstranit více listů pomocí smyčky. Jen se ujistěte, že spravujete indexy správně.
+### Mohu odstranit více pracovních listů najednou?
+Kolekci pracovních listů můžete iterovat a pomocí smyčky odebrat více listů. Jen se ujistěte, že indexy spravujete správně.
 
-### Co když název listu neexistuje?
-Pokud se pokusíte odebrat list s názvem, který neexistuje, vyvolá výjimku. Je rozumné přidat zpracování chyb, abyste nejprve zkontrolovali existenci listu.
+### Co když název pracovního listu neexistuje?
+Pokud se pokusíte odstranit list s neexistujícím názvem, vyvolá se výjimka. Je rozumné přidat ošetření chyb, které nejprve zkontroluje existenci listu.
 
-### Mohu obnovit smazaný list?
-Jakmile je list odstraněn a změny jsou uloženy, nemůžete jej obnovit, pokud nemáte zálohu původního souboru.
+### Mohu obnovit smazaný pracovní list?
+Jakmile je list odstraněn a změny jsou uloženy, nelze jej obnovit, pokud nemáte zálohu původního souboru.
 
-### Kde najdu další zdroje na Aspose.Cells?
- Můžete se podívat na komplexní[dokumentace](https://reference.aspose.com/cells/net/) k dispozici k prozkoumání dalších funkcí a funkcí.
+### Kde najdu další zdroje o Aspose.Cells?
+Můžete si prohlédnout komplexní [dokumentace](https://reference.aspose.com/cells/net/) k dispozici pro prozkoumání dalších funkcí a možností.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

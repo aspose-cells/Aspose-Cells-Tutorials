@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ Aqui estão alguns cenários do mundo real em que inserir e excluir linhas pode 
 
 ## Considerações de desempenho
 Para garantir o desempenho ideal ao usar Aspose.Cells para Java:
-- **Otimize o uso da memória**: Manipule grandes conjuntos de dados de forma eficiente, liberando recursos não utilizados e gerenciando a alocação de memória adequadamente.
+- **Otimizar o uso da memória**: Manipule grandes conjuntos de dados de forma eficiente, liberando recursos não utilizados e gerenciando a alocação de memória adequadamente.
 - **Processamento em lote**Ao lidar com múltiplas operações, tente agrupá-las para reduzir a sobrecarga de processamento.
 - **Execução Assíncrona**: Se aplicável, execute tarefas não bloqueantes de forma assíncrona para melhorar a capacidade de resposta do aplicativo.
 
@@ -162,6 +164,9 @@ Como próximos passos, considere explorar outros recursos do Aspose.Cells, como 
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

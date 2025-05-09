@@ -1,75 +1,77 @@
 ---
-title: Dapatkan Jangkauan dengan Tautan Eksternal di Lembar Kerja
-linktitle: Dapatkan Jangkauan dengan Tautan Eksternal di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mendapatkan rentang dengan tautan eksternal secara efisien di lembar kerja Excel menggunakan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini.
-weight: 17
-url: /id/net/worksheet-operations/get-range-with-external-links/
+"description": "Ebben az átfogó, lépésről lépésre haladó oktatóanyagban megtudhatja, hogyan lehet hatékonyan külső hivatkozásokkal rendelkező tartományokat lekérni Excel-munkafüzetekben az Aspose.Cells for .NET használatával."
+"linktitle": "Tartomány lekérése külső hivatkozásokkal a munkalapon"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tartomány lekérése külső hivatkozásokkal a munkalapon"
+"url": "/id/net/worksheet-operations/get-range-with-external-links/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dapatkan Jangkauan dengan Tautan Eksternal di Lembar Kerja
+# Tartomány lekérése külső hivatkozásokkal a munkalapon
 
-## Perkenalan
-Dalam dunia yang digerakkan oleh data saat ini, mengelola file Excel secara efisien sangat penting bagi bisnis dan individu. Dengan bantuan alat canggih seperti Aspose.Cells for .NET, bekerja dengan file Excel menjadi mudah. Baik Anda membuat laporan, mengelola data, atau sekadar menganalisis gambar, memahami cara memanipulasi dan mengekstrak data dari lembar kerja dapat menghemat waktu dan mengurangi sakit kepala. Dalam tutorial ini, kita akan mempelajari cara mendapatkan rentang dengan tautan eksternal dalam lembar kerja menggunakan Aspose.Cells for .NET. 
-## Prasyarat
-Sebelum kita masuk ke kode dan berbagai contoh, Anda harus memastikan bahwa Anda memiliki prasyarat berikut:
-1. .NET Framework: Pastikan Anda menjalankan versi .NET Framework yang kompatibel dengan Aspose.Cells.
-2.  Pustaka Aspose.Cells: Anda perlu menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
-3. Visual Studio atau IDE Serupa: Akan membantu jika memiliki IDE yang sesuai untuk menulis dan mengeksekusi kode C# Anda.
-4.  Contoh File Excel: Untuk tutorial ini, gunakan file Excel bernama`SampleExternalReferences.xlsx`, yang seharusnya berisi beberapa tautan eksternal untuk tujuan demonstrasi.
-Setelah daftar periksa itu selesai, mari kita mulai dengan kodenya!
-## Paket Impor
- Untuk mulai menggunakan fungsionalitas Aspose.Cells, Anda perlu mengimpor namespace yang diperlukan ke dalam proyek Anda. Ini akan memungkinkan Anda untuk mengakses kelas-kelas seperti`Workbook`, `Name` , Dan`ReferredArea`. 
-Berikut cara mengatur impor Anda:
+## Bevezetés
+A mai adatvezérelt világban az Excel-fájlok hatékony kezelése kulcsfontosságú mind a vállalkozások, mind a magánszemélyek számára. Az olyan hatékony eszközök segítségével, mint az Aspose.Cells for .NET, az Excel-fájlokkal való munka gyerekjáték. Akár jelentéseket készít, akár adatokat kezel, vagy egyszerűen csak ábrákat elemez, az adatok munkalapokból történő manipulálásának és kinyerésének megértése időt és fejfájást takaríthat meg. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan lehet külső hivatkozásokkal rendelkező tartományt lekérni egy munkalapon az Aspose.Cells for .NET segítségével. 
+## Előfeltételek
+Mielőtt belemerülnénk a kódba és a különféle példákba, meg kell győződnünk arról, hogy a következő előfeltételek teljesülnek:
+1. .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer Aspose.Cells-szel kompatibilis verzióját futtatja.
+2. Aspose.Cells könyvtár: Telepítenie kell az Aspose.Cells könyvtárat. Letöltheti innen: [itt](https://releases.aspose.com/cells/net/).
+3. Visual Studio vagy hasonló IDE: Előnyös, ha van egy megfelelő IDE a C# kód írásához és végrehajtásához.
+4. Minta Excel fájl: Ehhez az oktatóanyaghoz használjon egy Excel fájlt, amelynek neve `SampleExternalReferences.xlsx`, amelynek tartalmaznia kell néhány külső linket demonstrációs célokra.
+Most, hogy ez az ellenőrzőlista már a múlté, lássuk is a kódot!
+## Csomagok importálása
+Az Aspose.Cells funkcionalitásának használatához importálnia kell a szükséges névtereket a projektjébe. Ez lehetővé teszi az olyan osztályok elérését, mint a `Workbook`, `Name`, és `ReferredArea`. 
+Az importálás beállításához kövesse az alábbi lépéseket:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Pastikan pustaka Aspose.Cells direferensikan dengan benar dalam proyek Anda. 
-Setelah mengimpor paket yang dibutuhkan, mari mulai dengan memuat buku kerja yang berisi data yang ingin kita kerjakan. Langkah ini penting karena jika berkas tidak dimuat dengan benar, tidak ada hal lain yang akan berfungsi.
-## Langkah 1: Tentukan Direktori Sumber Anda
-Pertama, tentukan direktori tempat file Excel Anda berada. Ini adalah penugasan string sederhana, tetapi ini menjadi dasar untuk memuat buku kerja Anda.
+Győződj meg róla, hogy az Aspose.Cells könyvtárra megfelelően hivatkoznak a projektedben. 
+Most, hogy importáltuk a szükséges csomagokat, kezdjük azzal, hogy betöltjük azt a munkafüzetet, amely a kívánt adatokat tartalmazza. Ez a lépés kulcsfontosságú, mert ha a fájl nincs megfelelően betöltve, semmi más nem fog működni.
+## 1. lépés: A forráskönyvtár meghatározása
+Először is, add meg azt a könyvtárat, ahol az Excel fájlod található. Ez egy egyszerű karakterlánc-hozzárendelés, de előkészíti a terepet a munkafüzet betöltéséhez.
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
-## Langkah 2: Muat Buku Kerja
- Berikutnya, Anda akan membuat sebuah instance dari`Workbook` dengan meneruskan jalur ke berkas Excel Anda. Pastikan untuk menggabungkan direktori dengan nama berkas.
+## 2. lépés: A munkafüzet betöltése
+Ezután létrehoz egy példányt a következőből: `Workbook` az Excel-fájl elérési útjának átadásával. Ügyeljen arra, hogy a könyvtárat összefűzze a fájlnévvel.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleExternalReferences.xlsx");
 ```
-Sekarang buku kerja Anda telah dimuat dan siap digunakan!
-## Iterasi Melalui Rentang Bernama
-Rentang bernama dapat memuat pranala eksternal. Untuk memeriksa pranala ini, Anda perlu menelusuri rentang bernama pada lembar kerja.
-## Langkah 3: Akses Rentang Bernama
- Anda akan menggunakan`foreach` loop untuk mengulang melalui rentang bernama yang terkandung dalam`workbook.Worksheets.Names`Di sinilah keajaiban terjadi!
+Most már betöltődött a munkafüzet, és készen áll a használatra!
+## Elnevezett tartományokon keresztüli iteráció
+Az elnevezett tartományok külső hivatkozásokat tartalmazhatnak, és ezen hivatkozások vizsgálatához végig kell haladnia a munkalap elnevezett tartományain.
+## 3. lépés: Hozzáférés a névvel ellátott tartományokhoz
+Használni fogsz egy `foreach` ciklus a benne található elnevezett tartományokon keresztüli iterációhoz `workbook.Worksheets.Names`Itt történik a varázslat!
 ```csharp
 foreach (Name namedRange in workbook.Worksheets.Names)
 ```
-## Langkah 4: Dapatkan Area yang Direferensikan
- Dalam loop ini, Anda dapat memanggil metode`GetReferredAreas(true)`pada rentang bernama. Metode ini mengembalikan array`ReferredArea` objek yang menunjuk ke tautan eksternal.
+## 4. lépés: Ajánlott területek beszerzése
+Ezen a cikluson belül meghívhatod a metódust `GetReferredAreas(true)` a megnevezett tartományon. Ez a metódus egy tömböt ad vissza `ReferredArea` külső hivatkozásokra mutató objektumok.
 ```csharp
 ReferredArea[] referredAreas = namedRange.GetReferredAreas(true);
 ```
-## Langkah 5: Periksa Area yang Direferensikan
-Berikut ini adalah pemeriksaan keamanan. Selalu pastikan bahwa area yang dirujuk tidak kosong sebelum melanjutkan untuk memprosesnya.
+## 5. lépés: Ellenőrizze a hivatkozott területeket
+Itt jön egy biztonsági ellenőrzés. Mindig győződjön meg arról, hogy a hivatkozott területek nem üresek, mielőtt megkezdené a feldolgozásukat.
 ```csharp
 if (referredAreas != null)
 ```
-## Melakukan Perulangan Melalui Area yang Dirujuk
-Kini setelah Anda memiliki area yang dirujuk, saatnya menggali lebih dalam dengan menelusuri area tersebut untuk mengekstrak data yang relevan.
-## Langkah 6: Ulangi melalui Area yang Dirujuk
- Gunakan loop for sederhana untuk menelusuri setiap`ReferredArea` objek di dalam`referredAreas` susunan.
+## Áthaladás a hivatkozott területeken
+Most, hogy megvannak a hivatkozott területek, itt az ideje, hogy még mélyebbre ássunk, és végigmenjünk ezeken a területeken, hogy kinyerjük a releváns adatokat.
+## 6. lépés: Ismételje át a hivatkozott területeket
+Használj egy egyszerű for ciklust az egyes részeken való végighaladáshoz `ReferredArea` tárgy a `referredAreas` sor.
 ```csharp
 for (int i = 0; i < referredAreas.Length; i++)
 ```
-## Langkah 7: Ekstrak Informasi dari Setiap Area
- Di sini, Anda akan membuat variabel untuk setiap`ReferredArea` lalu mulai mengekstrak informasi penting seperti apakah itu tautan eksternal, nama lembar, dan detail rentang.
+## 7. lépés: Információk kinyerése az egyes területekről
+Itt létrehozol egy változót mindegyikhez `ReferredArea` majd elkezdheti kinyerni a lényeges információkat, például hogy külső hivatkozásról van-e szó, a munkalap nevét és a tartomány részleteit.
 ```csharp
 ReferredArea referredArea = referredAreas[i];
 Console.WriteLine("IsExternalLink: " + referredArea.IsExternalLink);
@@ -81,30 +83,32 @@ Console.WriteLine("StartRow: " + referredArea.StartRow);
 Console.WriteLine("EndColumn: " + referredArea.EndColumn);
 Console.WriteLine("EndRow: " + referredArea.EndRow);
 ```
-## Menyelesaikan Operasi
-Setelah Anda memproses semua area yang dirujuk, praktik yang baik adalah mengakhiri dengan konfirmasi bahwa operasi telah berhasil dijalankan.
-## Langkah 8: Pesan Konfirmasi
-Terakhir, Anda ingin menampilkan pesan pada konsol yang mengonfirmasi keberhasilan eksekusi operasi.
+## A művelet véglegesítése
+Miután feldolgozta az összes hivatkozott területet, érdemes a művelet végrehajtásának megerősítésével zárni.
+## 8. lépés: Megerősítő üzenet
+Végül egy üzenetet kell kiírnia a konzolra, amely megerősíti a művelet sikeres végrehajtását.
 ```csharp
 Console.WriteLine("GetRangeWithExternalLinks executed successfully.\r\n");
 ```
-## Kesimpulan
-Nah, itu dia! Kami baru saja mempelajari tutorial lengkap tentang cara mendapatkan rentang dengan tautan eksternal dari lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Dengan mengikuti langkah-langkah berikut—memuat buku kerja, mengulangi rentang bernama, mengekstrak area rujukan, dan mengeluarkan hasil—Anda dapat mengelola tautan eksternal dalam file Excel dengan mudah. Aspose.Cells mempermudah tugas-tugas ini, sehingga Anda dapat lebih fokus pada analisis dan tidak terlalu fokus pada pengambilan data.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka yang tangguh untuk membuat, memanipulasi, dan mengonversi lembar kerja Excel dalam aplikasi .NET.
-### Bagaimana cara menginstal Aspose.Cells?
- Anda dapat mengunduh perpustakaan dari[tautan ini](https://releases.aspose.com/cells/net/) dan ikuti petunjuk instalasi yang disediakan di situs.
-### Jenis file Excel apa yang didukung Aspose.Cells?
-Mendukung berbagai format file, termasuk XLS, XLSX, CSV, dan lainnya.
-### Bisakah saya mendapatkan referensi eksternal dari rentang bernama?
- Ya, Anda bisa menggunakan`GetReferredAreas`metode untuk mengakses referensi eksternal yang ditautkan ke rentang bernama.
-### Apakah ada uji coba gratis untuk Aspose.Cells?
- Ya, Anda bisa memulai dengan[uji coba gratis di sini](https://releases.aspose.com/).
+## Következtetés
+És tessék! Épp most vettünk részt egy teljes oktatóanyagon arról, hogyan lehet külső hivatkozásokkal rendelkező tartományokat kinyerni egy Excel-munkalapból az Aspose.Cells for .NET segítségével. A következő lépéseket követve – a munkafüzet betöltése, az elnevezett tartományokon való végighaladás, a hivatkozott területek kinyerése és az eredmények kimenete – könnyedén kezelheti a külső hivatkozásokat az Excel-fájljaiban. Az Aspose.Cells zökkenőmentesen teszi ezeket a feladatokat, lehetővé téve, hogy inkább az elemzésre, és kevesebbet az adatkeresésre koncentráljon.
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy robusztus függvénykönyvtár Excel-táblázatok létrehozásához, kezeléséhez és konvertálásához .NET alkalmazásokban.
+### Hogyan telepítsem az Aspose.Cells-t?
+A könyvtárat letöltheted innen [ezt a linket](https://releases.aspose.com/cells/net/) és kövesse a weboldalon található telepítési utasításokat.
+### Milyen típusú Excel fájlokat támogat az Aspose.Cells?
+Számos fájlformátumot támogat, beleértve az XLS, XLSX, CSV és másokat.
+### Lekérhetek külső hivatkozásokat egy elnevezett tartományból?
+Igen, használhatod a `GetReferredAreas` metódus egy elnevezett tartományhoz kapcsolt külső hivatkozások eléréséhez.
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Igen, elkezdheted egy [ingyenes próba itt](https://releases.aspose.com/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Aspose.Cells は、無料トライアル、評価目的の一時ライセンス�
 
 1. **無料トライアル:** ライブラリをダウンロードするには [releases.aspose.com](https://releases.aspose.com/cells/java/) 限定された機能で試してみます。
 2. **一時ライセンス:** テスト期間中にフル機能にアクセスするための一時ライセンスを取得するには、次のサイトにアクセスしてください。 [purchase.aspose.com/temporary-license/](https://purchase。aspose.com/temporary-license/).
-3. **購入：** 試用版に満足したら、ライセンスを購入してください。 [購入.aspose.com/buy](https://purchase。aspose.com/buy).
+3. **購入：** 試用版に満足したら、ライセンスを購入してください。 [purchase.aspose.com/buy](https://purchase。aspose.com/buy).
 
 ### 基本的な初期化
 
@@ -197,6 +199,9 @@ Aspose.Cells for Java の設定と使用方法を学び、Excel ブックを標�
    - 探索することができます [国際標準化機構（ISO）](https://www.iso.org/standards.html) さまざまな PDF/A 準拠レベルに関する詳細なドキュメントについては、Web サイトをご覧ください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

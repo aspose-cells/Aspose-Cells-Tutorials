@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -216,10 +218,13 @@ Aspose.Cells for Javaを使用して、Excelブックの作成、アクセス、
 - **ライセンスを購入:** [Aspose.Cellsを購入する](https://purchase.aspose.com/buy)
 - **無料トライアル:** [無料トライアルを受ける](https://releases.aspose.com/cells/java/)
 - **一時ライセンス:** [一時ライセンスの申請](https://purchase.aspose.com/temporary-license/)
-- **サポートフォーラム:** [Aspose Cells コミュニティ サポート](https://forum.aspose.com/c/cells/9)
+- **サポートフォーラム:** [Aspose Cells コミュニティサポート](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

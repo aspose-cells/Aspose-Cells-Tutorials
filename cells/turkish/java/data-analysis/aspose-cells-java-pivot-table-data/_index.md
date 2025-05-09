@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Bu bölüm, veri çıkarma ve düzenleme amacıyla bir çalışma sayfası için
 
 ##### Adım 1: PivotTable Sınıfını İçe Aktar
 
-Şunu içe aktardığınızdan emin olun: `PivotTable` sınıf:
+İçeri aktardığınızdan emin olun `PivotTable` sınıf:
 
 ```java
 import com.aspose.cells.PivotTable;
@@ -180,6 +182,9 @@ Aspose.Cells'in ek özelliklerini ve yeteneklerini inceleyerek daha fazlasını 
 Aspose.Cells'i daha derinlemesine inceleyin, Java becerilerinizi geliştirin ve Excel verileriyle etkileşiminizi kökten değiştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

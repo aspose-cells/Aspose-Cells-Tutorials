@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Giới thiệu
 
-Bạn có muốn đơn giản hóa các tác vụ xử lý dữ liệu Excel của mình bằng Java không? Nhiều nhà phát triển gặp phải thách thức khi cố gắng xử lý các công thức bảng tính phức tạp theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn cách tận dụng **Aspose.Cells cho Java** để thiết lập công thức mảng, áp dụng kiểu số, tùy chỉnh phép tính và lưu công việc của bạn một cách hiệu quả. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu với tự động hóa Excel trong Java, hướng dẫn toàn diện này là hoàn hảo cho bạn.
+Bạn có muốn sắp xếp hợp lý các tác vụ xử lý dữ liệu Excel của mình bằng Java không? Nhiều nhà phát triển gặp phải thách thức khi cố gắng xử lý các công thức bảng tính phức tạp theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn cách tận dụng **Aspose.Cells cho Java** để thiết lập công thức mảng, áp dụng kiểu số, tùy chỉnh phép tính và lưu công việc của bạn một cách hiệu quả. Cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu với tự động hóa Excel trong Java, hướng dẫn toàn diện này là hoàn hảo cho bạn.
 
 ### Những gì bạn sẽ học được
 - Cách thiết lập công thức mảng bằng Aspose.Cells
@@ -233,6 +235,9 @@ Sẵn sàng thực hiện bước tiếp theo? Hãy tìm hiểu sâu hơn về c
 - [Mua giấy phép](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

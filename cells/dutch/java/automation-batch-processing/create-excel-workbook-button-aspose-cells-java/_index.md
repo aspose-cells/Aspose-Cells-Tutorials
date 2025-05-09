@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Je hebt nu geleerd hoe je een werkmap met een knop kunt maken met Aspose.Cells v
 U kunt deze bronnen gerust verkennen voor aanvullende ondersteuning en informatie over het effectief gebruiken van Aspose.Cells in uw Java-projecten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

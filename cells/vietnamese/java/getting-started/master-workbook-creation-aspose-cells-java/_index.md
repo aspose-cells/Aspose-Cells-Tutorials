@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá cách tạo sổ làm vi�
 Bằng cách làm theo hướng dẫn này, bạn sẽ được chuẩn bị tốt để triển khai các chức năng Excel mạnh mẽ bằng Aspose.Cells for Java trong các dự án của mình. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

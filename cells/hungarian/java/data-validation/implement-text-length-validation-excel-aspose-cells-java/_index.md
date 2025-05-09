@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 - Szöveghossz-adatellenőrzés megvalósítása Aspose.Cells használatával
 - A munkafüzet mentése az érvényesítések megőrzésével
 
-Kezdjük az előfeltételek ismertetésével.
+Kezdjük az előfeltételek áttekintésével.
 
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
@@ -62,7 +64,7 @@ License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 ## Megvalósítási útmutató
-### Új munkafüzet és hozzáférési cellák létrehozása
+### Új munkafüzet létrehozása és hozzáférési cellák
 Először hozzunk létre egy munkafüzetet, és érjük el az első munkalapjának celláit.
 #### Áttekintés
 A munkafüzet létrehozása a kiindulópontja az Aspose.Cells segítségével végzett bármilyen műveletnek. Ez a funkció lehetővé teszi egy Excel-fájl programozott beállítását a semmiből.
@@ -193,6 +195,9 @@ Fedezd fel nyugodtan az Aspose.Cells további funkcióit, például a diagramké
 - Igen, az Aspose.Cells különféle adatérvényesítési típusokat támogat, lehetővé téve a különböző szabályok érvényesítését a munkafüzetben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

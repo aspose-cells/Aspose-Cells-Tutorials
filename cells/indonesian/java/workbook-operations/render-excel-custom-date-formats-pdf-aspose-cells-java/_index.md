@@ -7,29 +7,31 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konversi Excel ke PDF secara Efisien dengan Format Tanggal Kustom Menggunakan Aspose.Cells untuk Java
-## Perkenalan
+## Bevezetés
 Kesulitan dengan konversi manual file Excel ke PDF yang mempertahankan format tanggal khusus? Sederhanakan proses ini dengan mudah dengan **Aspose.Cells untuk Java**Panduan ini menunjukkan cara mengotomatiskan konversi secara efisien, memastikan presentasi data Anda tetap utuh.
 
-Dalam tutorial ini, Anda akan mempelajari:
+Ebben az oktatóanyagban a következőket fogod megtanulni:
 - Menyiapkan Aspose.Cells untuk Java menggunakan Maven atau Gradle
 - Langkah-langkah untuk mengonversi file Excel dengan format tanggal khusus ke PDF
 - Memecahkan masalah umum selama implementasi
-- Mengoptimalkan kinerja untuk kumpulan data besar
+- Nagy adathalmazok teljesítményének optimalizálása
 Mari kita mulai dengan memastikan lingkungan Anda dikonfigurasi dengan benar.
-## Prasyarat
+## Előfeltételek
 Sebelum memulai, pastikan Anda memiliki hal berikut:
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru.
 - Java Development Kit (JDK) yang sesuai terinstal di komputer Anda (sebaiknya JDK 8+).
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - IDE: Lingkungan Pengembangan Terpadu yang kompatibel seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 - Alat membangun: Maven atau Gradle.
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
 - Keakraban dengan format file Excel dan PDF.
 ## Menyiapkan Aspose.Cells untuk Java
@@ -44,15 +46,15 @@ Tambahkan dependensi berikut ke `pom.xml`:
 </dependency>
 ```
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**Unduh perpustakaan dan mulai dengan uji coba gratis 30 hari.
-- **Lisensi Sementara**: Minta lisensi sementara untuk fitur yang diperluas tanpa batasan.
-- **Pembelian**: Untuk penggunaan jangka panjang, beli lisensi lengkap dari situs web Aspose.
-#### Inisialisasi Dasar
+### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**Unduh perpustakaan dan mulai dengan uji coba gratis 30 hari.
+- **Ideiglenes engedély**: Minta lisensi sementara untuk fitur yang diperluas tanpa batasan.
+- **Vásárlás**: Untuk penggunaan jangka panjang, beli lisensi lengkap dari situs web Aspose.
+#### Alapvető inicializálás
 Inisialisasi Aspose.Cells di aplikasi Java Anda sebagai berikut:
 ```java
 import com.aspose.cells.License;
@@ -66,10 +68,10 @@ public class LicenseSetup {
     }
 }
 ```
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari terapkan konversi file Excel dengan format tanggal khusus ke dalam PDF:
-### Memuat dan Menyimpan Buku Kerja
-#### Langkah 1: Muat Buku Kerja
+### Munkafüzet betöltése és mentése
+#### 1. lépés: A munkafüzet betöltése
 Muat berkas Excel Anda menggunakan Aspose.Cells, pastikan Anda menentukan jalur yang benar.
 ```java
 import com.aspose.cells.Workbook;
@@ -85,40 +87,40 @@ public class ConvertExcelToPdf {
     }
 }
 ```
-#### Langkah 2: Simpan sebagai PDF
+#### 2. lépés: Mentés PDF-ként
 Simpan file Excel yang dimuat sebagai PDF di lokasi yang Anda inginkan:
 ```java
 // Lanjutkan dalam metode utama:
 workbook.save(outDir + "/sampleRenderCustomDateFormat_out.pdf");
 ```
-### Penjelasan Parameter dan Metode
-- **Buku Kerja**: Mewakili keseluruhan dokumen Excel.
+### Paraméterek és módszerek magyarázata
+- **Munkafüzet**: Egy teljes Excel dokumentumot jelöl.
 - **menyimpan()**: Menyimpan buku kerja dalam berbagai format, termasuk PDF. Metode ini mengambil jalur file sebagai parameternya.
-#### Opsi Konfigurasi Utama
+#### Kulcskonfigurációs beállítások
 Pastikan format tanggal khusus diatur dengan benar dalam berkas Excel Anda agar hasil render akurat.
-#### Tips Pemecahan Masalah
-- Verifikasi jalur (`dataDir` Dan `outDir`) ada dengan izin baca/tulis yang sesuai.
+#### Hibaelhárítási tippek
+- Verifikasi jalur (`dataDir` és `outDir`) ada dengan izin baca/tulis yang sesuai.
 - Pastikan Aspose.Cells dikonfigurasi dengan benar, terutama mengenai lisensi.
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut ini beberapa aplikasi di dunia nyata:
-1. **Pelaporan Keuangan**: Hasilkan laporan PDF dari lembar kerja Excel dengan format tanggal khusus untuk laporan triwulanan.
+1. **Pénzügyi jelentéstétel**: Hasilkan laporan PDF dari lembar kerja Excel dengan format tanggal khusus untuk laporan triwulanan.
 2. **Penelitian Akademis**Ubah data penelitian di Excel menjadi PDF yang dapat dibagikan sambil mempertahankan tanggal yang tepat.
-3. **Manajemen Proyek**: Ekspor jadwal dan garis waktu proyek sebagai PDF, memastikan format tanggal yang benar untuk presentasi klien.
-## Pertimbangan Kinerja
+3. **Projektmenedzsment**: Ekspor jadwal dan garis waktu proyek sebagai PDF, memastikan format tanggal yang benar untuk presentasi klien.
+## Teljesítménybeli szempontok
 Saat menangani kumpulan data besar atau konversi volume tinggi:
-### Tips untuk Mengoptimalkan Kinerja
+### Tippek a teljesítmény optimalizálásához
 - Gunakan Aspose.Cells versi terbaru untuk peningkatan kinerja.
 - Optimalkan pengaturan memori Java dengan mengonfigurasi opsi JVM secara tepat.
-### Pedoman Penggunaan Sumber Daya
+### Erőforrás-felhasználási irányelvek
 - Pantau penggunaan CPU dan memori selama eksekusi, terutama saat memproses beberapa file secara bersamaan.
 ### Praktik Terbaik untuk Manajemen Memori Java dengan Aspose.Cells
-- Buang `Workbook` objek dengan benar menggunakan try-with-resources untuk membebaskan sumber daya pasca konversi.
-## Kesimpulan
+- Ártalmatlanítsa `Workbook` objek dengan benar menggunakan try-with-resources untuk membebaskan sumber daya pasca konversi.
+## Következtetés
 Selamat! Anda telah mempelajari cara menggunakan Aspose.Cells untuk Java untuk mengonversi file Excel dengan format tanggal khusus ke PDF secara efisien. Pustaka ini menyederhanakan proses, memastikan keakuratan dan efisiensi dalam tugas penanganan dokumen.
-### Langkah Berikutnya
+### Következő lépések
 - Bereksperimenlah dengan fitur Aspose.Cells lainnya seperti konversi bagan atau manipulasi lembar kerja.
 - Jelajahi pustaka tambahan yang mungkin melengkapi alur kerja Anda.
-## Bagian FAQ
+## GYIK szekció
 **Q1: Bagaimana cara menangani format tanggal yang berbeda di berbagai lembar Excel?**
 A1: Pastikan konsistensi dalam pengaturan format tanggal sebelum menyimpan buku kerja ke PDF. Sesuaikan format tanggal menggunakan konfigurasi gaya sel.
 **Q2: Bagaimana jika hasil PDF saya terlihat berbeda dari berkas Excel?**
@@ -129,16 +131,19 @@ A3: Ya, lakukan pengulangan melalui kumpulan file Excel dan terapkan proses konv
 A4: Tentu saja. Integrasikan kode Java ini ke dalam sistem pemrosesan batch yang lebih besar menggunakan penjadwal atau alat otomatisasi tugas.
 **Q5: Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?**
 A5: Kunjungi forum Aspose untuk bantuan komunitas, atau hubungi dukungan pelanggan mereka secara langsung melalui tautan halaman pembelian yang disediakan dalam sumber daya.
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 Dengan mengikuti panduan ini, Anda sekarang siap untuk menyederhanakan proses konversi dokumen Anda menggunakan Aspose.Cells untuk Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

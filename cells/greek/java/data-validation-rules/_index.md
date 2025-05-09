@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Κανόνες Επικύρωσης Δεδομένων
@@ -42,9 +44,11 @@
 Μάθετε πώς να εφαρμόζετε την επικύρωση δεδομένων υπό όρους χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για ακριβή χειρισμό δεδομένων σε υπολογιστικά φύλλα Excel.
 ### [Εισαγωγή μηνύματος στην επικύρωση δεδομένων](./input-message-in-data-validation/)
 Μάθετε πώς να βελτιώσετε την επικύρωση δεδομένων στο Excel χρησιμοποιώντας το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για τη βελτίωση της ακρίβειας των δεδομένων και καθοδήγηση χρήστη.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

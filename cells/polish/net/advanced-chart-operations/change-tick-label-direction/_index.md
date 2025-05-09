@@ -1,14 +1,16 @@
 ---
-title: Zmień kierunek etykiety znacznika
-linktitle: Zmień kierunek etykiety znacznika
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Szybko zmieniaj kierunek etykiet znaczników na wykresach Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem, aby zapewnić bezproblemową implementację.
-weight: 12
-url: /pl/net/advanced-chart-operations/change-tick-label-direction/
+"description": "Szybko zmieniaj kierunek etykiet znaczników na wykresach Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z tym przewodnikiem, aby zapewnić bezproblemową implementację."
+"linktitle": "Zmień kierunek etykiety znacznika"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zmień kierunek etykiety znacznika"
+"url": "/pl/net/advanced-chart-operations/change-tick-label-direction/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień kierunek etykiety znacznika
@@ -27,7 +29,7 @@ Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Aspose.
 
 ### Aspose.Cells dla .NET
 
-Następnie będziesz potrzebować samej biblioteki Aspose.Cells. Możesz ją łatwo pobrać z[Tutaj](https://releases.aspose.com/cells/net/). Instalacja jest prosta, a Ty będziesz gotowy do pracy zaledwie kilkoma kliknięciami!
+Następnie będziesz potrzebować samej biblioteki Aspose.Cells. Możesz ją łatwo pobrać z [Tutaj](https://releases.aspose.com/cells/net/). Instalacja jest prosta, a Ty będziesz gotowy do pracy zaledwie kilkoma kliknięciami!
 
 ### Podstawowa znajomość języka C#
 
@@ -64,11 +66,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Musisz wymienić`"Your Document Directory"` I`"Your Output Directory"` z rzeczywistymi ścieżkami w Twoim systemie. 
+Musisz wymienić `"Your Document Directory"` I `"Your Output Directory"` z rzeczywistymi ścieżkami w Twoim systemie. 
 
 ## Krok 2: Załaduj skoroszyt
 
-Teraz załadujemy skoroszyt zawierający przykładowy wykres. 
+Teraz załadujemy skoroszyt zawierający nasz przykładowy wykres. 
 
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xlsx");
@@ -78,7 +80,7 @@ Ta linia kodu tworzy nowy obiekt skoroszytu z określonego pliku. To jak otwiera
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
-Następnie chcesz uzyskać dostęp do arkusza kalkulacyjnego zawierającego wykres. Zazwyczaj wykres znajduje się na pierwszym arkuszu kalkulacyjnym, więc go przechwyćmy.
+Następnie chcesz uzyskać dostęp do arkusza zawierającego wykres. Zazwyczaj wykres znajduje się na pierwszym arkuszu, więc go przechwyćmy.
 
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
@@ -108,7 +110,7 @@ Dzięki tej prostej linii na nowo definiujemy orientację etykiet znaczników. T
 
 ## Krok 6: Zapisz plik wyjściowy
 
-Teraz, gdy wprowadziliśmy już zmiany, zapiszmy skoroszyt pod nową nazwą, dzięki czemu będziemy mogli zachować zarówno wersję oryginalną, jak i zmodyfikowaną.
+Teraz, gdy wprowadziliśmy już zmiany, zapiszmy skoroszyt pod nową nazwą, co pozwoli nam zachować zarówno wersję oryginalną, jak i zmodyfikowaną.
 
 ```csharp
 workbook.Save(outputDir + "outputChangeChartDataLableDirection.xlsx");
@@ -118,7 +120,7 @@ Tutaj określamy katalog wyjściowy wraz z nową nazwą pliku. Voila! Twoje zmia
 
 ## Krok 7: Potwierdź wykonanie
 
-Zawsze dobrym pomysłem jest potwierdzenie, że nasz kod został wykonany pomyślnie. Możesz to zrobić, drukując komunikat na konsoli.
+Zawsze dobrym pomysłem jest potwierdzenie, że nasz kod został wykonany pomyślnie. Możesz to zrobić, drukując wiadomość na konsoli.
 
 ```csharp
 Console.WriteLine("ChangeTickLabelDirection executed successfully.");
@@ -139,16 +141,18 @@ Tak, możesz zastosować podobne metody do dowolnego wykresu obsługiwanego prze
 Aspose.Cells obsługuje różne formaty, takie jak XLSX, XLS, CSV i inne!
 
 ### Czy jest dostępna wersja próbna?  
- Oczywiście! Możesz znaleźć bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz znaleźć bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose.Cells?  
- Nie wahaj się szukać pomocy na[Forum Aspose](https://forum.aspose.com/c/cells/9)społeczność i personel pomocniczy reagują bardzo szybko!
+Nie wahaj się szukać pomocy na [Forum Aspose](https://forum.aspose.com/c/cells/9); społeczność i personel pomocniczy reagują bardzo szybko!
 
 ### Czy mogę otrzymać tymczasową licencję?  
- Tak, możesz poprosić o tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, możesz poprosić o tymczasową licencję [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

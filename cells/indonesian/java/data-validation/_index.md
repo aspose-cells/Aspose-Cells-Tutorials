@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial validasi data kami menunjukkan cara memastikan integritas data dalam lembar kerja Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini mengajarkan Anda cara membuat berbagai aturan validasi, menyesuaikan pesan input, mengonfigurasi peringatan kesalahan, dan mengendalikan perilaku validasi secara terprogram. Setiap tutorial menyertakan contoh kode Java lengkap untuk skenario validasi umum, membantu Anda membangun aplikasi yang memandu pengguna menuju entri data yang benar sekaligus mencegah input yang tidak valid.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi validasi data
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -62,10 +64,13 @@ Pelajari cara memvalidasi daftar dropdown di sel Excel menggunakan Aspose.Cells 
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

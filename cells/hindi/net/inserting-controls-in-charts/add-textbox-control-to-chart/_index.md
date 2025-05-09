@@ -1,14 +1,16 @@
 ---
-title: चार्ट में टेक्स्टबॉक्स नियंत्रण जोड़ें
-linktitle: चार्ट में टेक्स्टबॉक्स नियंत्रण जोड़ें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel में चार्ट में TextBox जोड़ना सीखें। अपने डेटा विज़ुअलाइज़ेशन को आसानी से बढ़ाएँ।
-weight: 12
-url: /hi/net/inserting-controls-in-charts/add-textbox-control-to-chart/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel में चार्ट में TextBox जोड़ने का तरीका जानें। अपने डेटा विज़ुअलाइज़ेशन को आसानी से बढ़ाएँ।"
+"linktitle": "चार्ट में टेक्स्टबॉक्स नियंत्रण जोड़ें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट में टेक्स्टबॉक्स नियंत्रण जोड़ें"
+"url": "/hi/net/inserting-controls-in-charts/add-textbox-control-to-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में टेक्स्टबॉक्स नियंत्रण जोड़ें
@@ -22,7 +24,7 @@ url: /hi/net/inserting-controls-in-charts/add-textbox-control-to-chart/
 इससे पहले कि हम कोडिंग शुरू करें, कुछ चीजें हैं जो आपके पास होनी चाहिए:
 
 - C# की बुनियादी समझ: C# प्रोग्रामिंग की बुनियादी समझ मददगार होगी। चिंता न करें; आपको विशेषज्ञ होने की ज़रूरत नहीं है, बस सिंटैक्स को समझने में सहज होना चाहिए।
--  स्थापित Aspose.Cells लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Cells for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/) यदि आपने पहले से ऐसा नहीं किया है।
+- स्थापित Aspose.Cells लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Cells for .NET लाइब्रेरी स्थापित है। आप इसे यहाँ से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/) यदि आपने पहले से ऐसा नहीं किया है।
 - विजुअल स्टूडियो: विजुअल स्टूडियो या किसी भी IDE से परिचित होना आवश्यक है जिसे आप .NET फ्रेमवर्क के लिए उपयोग करना पसंद करते हैं।
 - एक मौजूदा एक्सेल फ़ाइल: इस उदाहरण के लिए, हम "sampleAddingTextBoxControlInChart.xls" नामक एक मौजूदा एक्सेल फ़ाइल के साथ काम करेंगे। आप एक बना सकते हैं या एक नमूना डाउनलोड कर सकते हैं।
 
@@ -51,7 +53,7 @@ string sourceDir = "Your Document Directory";
 // आउटपुट निर्देशिका
 string outputDir = "Your Output Directory";
 ```
- प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` आपके सिस्टम पर वास्तविक पथों के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` और `"Your Output Directory"` आपके सिस्टम पर वास्तविक पथों के साथ.
 
 ## चरण 2: मौजूदा एक्सेल फ़ाइल खोलें
 
@@ -86,7 +88,7 @@ Aspose.Cells.Drawing.TextBox textbox0 = chart.Shapes.AddTextBoxInChart(400, 1100
 
 ## चरण 5: टेक्स्टबॉक्स के लिए टेक्स्ट सेट करें
 
-एक बार जब टेक्स्टबॉक्स तैयार हो जाए, तो उसे कंटेंट से भरने का समय आ जाता है। आप अपने चार्ट के लिए जो भी टेक्स्ट ज़रूरी समझें, उसे जोड़ सकते हैं।
+एक बार जब टेक्स्टबॉक्स अपनी जगह पर आ जाए, तो उसे कंटेंट से भरने का समय आ जाता है। आप अपने चार्ट के लिए जो भी टेक्स्ट ज़रूरी समझें, उसे जोड़ सकते हैं।
 
 ```csharp
 // पाठ भरें.
@@ -99,7 +101,7 @@ textbox0.Text = "Sales By Region";
 अब, चलिए अपने TextBox को अच्छा बनाते हैं! आप फ़ॉन्ट रंग, आकार और शैली जैसे विभिन्न गुणों को अनुकूलित कर सकते हैं।
 
 ```csharp
-// फ़ॉन्ट का रंग सेट करें.
+// फ़ॉन्ट रंग सेट करें.
 textbox0.Font.Color = Color.Maroon; // अपने इच्छित रंग में बदलें
 
 // फ़ॉन्ट को बोल्ड पर सेट करें.
@@ -125,7 +127,7 @@ Aspose.Cells.Drawing.FillFormat fillformat = textbox0.Fill;
 // टेक्स्टबॉक्स का लाइन प्रारूप प्रकार प्राप्त करें.
 Aspose.Cells.Drawing.LineFormat lineformat = textbox0.Line;
 
-// लाइन वजन सेट करें.
+// लाइन वजन निर्धारित करें.
 lineformat.Weight = 2;
 
 // डैश शैली को ठोस पर सेट करें.
@@ -142,7 +144,7 @@ lineformat.DashStyle = Aspose.Cells.Drawing.MsoLineDashStyle.Solid;
 // एक्सेल फ़ाइल को सेव करें.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- प्रतिस्थापित करें`"outputAddingTextBoxControlInChart.xls"` जो भी फ़ाइल नाम आप चाहें, उसका उपयोग करें।
+प्रतिस्थापित करें `"outputAddingTextBoxControlInChart.xls"` जो भी फ़ाइल नाम आप चाहें, उसका उपयोग करें।
 
 ## निष्कर्ष
 
@@ -154,19 +156,21 @@ workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 Aspose.Cells for .NET, Microsoft Excel पर निर्भर हुए बिना Excel फ़ाइलें बनाने, उनमें हेरफेर करने और उन्हें परिवर्तित करने के लिए एक शक्तिशाली लाइब्रेरी है।
 
 ### क्या मैं एक ही चार्ट में एकाधिक टेक्स्टबॉक्स जोड़ सकता हूँ?
-हाँ! आप अलग-अलग स्थितियों के साथ टेक्स्टबॉक्स निर्माण चरणों को दोहराकर अपनी आवश्यकतानुसार जितने चाहें उतने टेक्स्टबॉक्स जोड़ सकते हैं।
+हाँ! आप अलग-अलग स्थितियों के साथ टेक्स्टबॉक्स निर्माण चरणों को दोहराकर जितने चाहें उतने टेक्स्टबॉक्स जोड़ सकते हैं।
 
 ### क्या Aspose.Cells का उपयोग निःशुल्क है?
-Aspose.Cells एक सशुल्क लाइब्रेरी है, लेकिन आप यहां से एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+Aspose.Cells एक सशुल्क लाइब्रेरी है, लेकिन आप यहां से एक निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### मैं Aspose.Cells पर अधिक दस्तावेज़ कहां पा सकता हूं?
- आप व्यापक दस्तावेज़ों तक पहुँच सकते हैं[यहाँ](https://reference.aspose.com/cells/net/).
+आप व्यापक दस्तावेज़ों तक पहुँच सकते हैं [यहाँ](https://reference.aspose.com/cells/net/).
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कैसे प्राप्त कर सकता हूँ?
- आप Aspose सहायता फ़ोरम के माध्यम से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/cells/9).
+आप Aspose सहायता फ़ोरम के माध्यम से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

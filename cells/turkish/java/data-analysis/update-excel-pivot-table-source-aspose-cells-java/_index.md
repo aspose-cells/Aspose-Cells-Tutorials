@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Bu kılavuzda, bir pivot tablonun kaynak verilerinin nasıl değiştirileceğini
 Bu kaynaklar ve bu kapsamlı kılavuzla, artık Java'da Aspose.Cells kullanarak pivot tablo kaynak veri değişikliklerini etkili bir şekilde ele almaya hazırsınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

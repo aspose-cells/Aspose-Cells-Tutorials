@@ -1,90 +1,94 @@
 ---
-title: Ignorujte chyby v Excelu do vykreslování PDF pomocí Aspose.Cells
-linktitle: Ignorujte chyby v Excelu do vykreslování PDF pomocí Aspose.Cells
-second_title: Aspose.Cells .NET Excel Processing API
-description: Bez námahy převádějte Excel do PDF v C# pomocí Aspose.Cells, přičemž ignorujte chyby převodu a zefektivněte svůj pracovní postup.
-weight: 11
-url: /cs/net/error-handling-and-customization-in-aspose-cells/ignore-errors-while-rendering/
+"description": "Snadno převádějte Excel do PDF v C# pomocí Aspose.Cells, ignorujte chyby při převodu a zefektivněte svůj pracovní postup."
+"linktitle": "Ignorování chyb při vykreslování Excelu do PDF pomocí Aspose.Cells"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Ignorování chyb při vykreslování Excelu do PDF pomocí Aspose.Cells"
+"url": "/cs/net/error-handling-and-customization-in-aspose-cells/ignore-errors-while-rendering/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ignorujte chyby v Excelu do vykreslování PDF pomocí Aspose.Cells
+# Ignorování chyb při vykreslování Excelu do PDF pomocí Aspose.Cells
 
 ## Zavedení
-Pokud jde o převod souborů aplikace Excel do formátu PDF, může být setkání s chybami noční můrou, zejména pokud máte co do činění s kritickými daty, která je třeba sdílet nebo archivovat. Ale nepotkej se; Aspose.Cells for .NET je tu, aby zachránil situaci! V této příručce vás provedeme tím, jak ignorovat chyby během procesu převodu. Představte si přeměnu chaotického listu Excelu na vyleštěné PDF bez starostí s přerušováním. Pojďme se ponořit!
+Pokud jde o převod souborů Excel do PDF, může být výskyt chyb noční můrou, zvláště pokud pracujete s kritickými daty, která je třeba sdílet nebo archivovat. Ale nebojte se; Aspose.Cells pro .NET je tu, aby vám pomohl! V této příručce vás provedeme tím, jak ignorovat chyby během procesu převodu. Představte si, že proměníte chaotický excelový list v uhlazený PDF bez potíží s přerušováním. Pojďme se do toho pustit!
 ## Předpoklady
-Než se pustíme do hrubšího převodu Excelu do PDF a ignorujeme otravné chyby, musíte se ujistit, že je na místě několik věcí:
-1. Prostředí .NET: Ujistěte se, že máte na svém počítači nainstalovaný .NET. Ať už používáte .NET Framework nebo .NET Core, Aspose.Cells funguje hladce.
-2.  Knihovna Aspose.Cells: Knihovnu Aspose.Cells musíte mít integrovanou do svého projektu. Pokud jste to ještě neudělali, nebojte se; můžete si to stáhnout[zde](https://releases.aspose.com/cells/net/).
-3. Základní porozumění C#: Tento tutoriál bude používat C#, takže znalost jazyka usnadní práci.
-4. Ukázkový soubor Excel: Připravte si vzorový sešit Excel k testování. Můžete vytvořit takový, u kterého očekáváte, že během převodu vyvolá chyby.
-Nyní, když máme vše na svém místě, můžeme začít s kódováním!
-## Importujte balíčky
-Chcete-li začít, budete muset importovat potřebné jmenné prostory. Aspose.Cells poskytuje řadu funkcí a import těchto balíčků vám pomůže snadno k nim přistupovat.
+Než se pustíme do detailů převodu Excelu do PDF s ignorováním otravných chyb, je třeba se ujistit, že je splněno několik věcí:
+1. Prostředí .NET: Ujistěte se, že máte na svém počítači nainstalované prostředí .NET. Ať už používáte .NET Framework nebo .NET Core, Aspose.Cells funguje bez problémů.
+2. Knihovna Aspose.Cells: Do svého projektu musíte mít integrovanou knihovnu Aspose.Cells. Pokud jste tak ještě neučinili, nebojte se, můžete si ji stáhnout. [zde](https://releases.aspose.com/cells/net/).
+3. Základní znalost jazyka C#: Tento tutoriál bude používat jazyk C#, takže znalost tohoto jazyka vám vše usnadní.
+4. Ukázkový soubor aplikace Excel: Připravte si ukázkový sešit aplikace Excel k testování. Můžete si vytvořit takový, u kterého očekáváte chyby při převodu.
+Teď, když máme vše připravené, pojďme se pustit do kódování!
+## Importovat balíčky
+Nejprve budete muset importovat potřebné jmenné prostory. Aspose.Cells nabízí řadu funkcí a import těchto balíčků vám pomůže k nim snadno přistupovat.
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Než se ponoříte do hlavní logiky procesu převodu, nezapomeňte přidat tyto řádky na začátek souboru C#.
-## Krok 1: Nastavte své adresáře
-Nejprve musíte definovat, kde se nachází váš zdrojový soubor Excel a kam chcete uložit výstupní PDF. Vytvořte proměnné, které budou ukládat tyto cesty k adresářům.
+Než se ponoříme do hlavní logiky procesu převodu, nezapomeňte tyto řádky přidat na začátek souboru C#.
+## Krok 1: Nastavení adresářů
+Nejprve je třeba definovat, kde se nachází váš zdrojový soubor Excel a kam chcete uložit výstupní PDF. Vytvořte proměnné, které budou ukládat tyto cesty k adresářům.
 ```csharp
 //Zdrojový adresář
 string sourceDir = "Your Document Directory";
 //Výstupní adresář
 string outputDir = "Your Document Directory";
 ```
-Vezměte své adresáře a zapojte je do kódu. Ujistěte se, že cesty jsou správné; jinak nenajde vaše soubory!
-## Krok 2: Načtěte ukázkový sešit
-Dále budete chtít načíst sešit aplikace Excel. To zahrnuje vytvoření instance souboru`Workbook` třídy a předání cesty k souboru Excel.
+Vezměte si adresáře a vložte je do kódu. Ujistěte se, že cesty jsou správné, jinak program vaše soubory nenajde!
+## Krok 2: Načtení ukázkového sešitu
+Dále budete chtít načíst sešit aplikace Excel. To zahrnuje vytvoření instance `Workbook` třídy a předáním cesty k vašemu souboru aplikace Excel.
 ```csharp
 //Načtěte ukázkový sešit, který při převodu Excel2Pdf vyvolá chybu
 Workbook wb = new Workbook(sourceDir + "sampleErrorExcel2Pdf.xlsx");
 ```
- Tento řádek inicializuje nový`Workbook` objekt. Nezapomeňte vyměnit`"sampleErrorExcel2Pdf.xlsx"` s názvem souboru vašeho skutečného dokumentu aplikace Excel.
-## Krok 3: Zadejte možnosti uložení PDF
- Zde přichází tajná omáčka: konfigurace`PdfSaveOptions` . Nastavením`IgnoreError` majetek do`true`, můžete bez problémů převést soubor Excel, aniž byste byli zastaveni chybami.
+Tento řádek inicializuje nový `Workbook` předmět. Nezapomeňte jej vyměnit `"sampleErrorExcel2Pdf.xlsx"` s názvem souboru vašeho skutečného dokumentu aplikace Excel.
+## Krok 3: Zadejte možnosti ukládání PDF
+A tady přichází tajná přísada: konfigurace `PdfSaveOptions`Nastavením `IgnoreError` majetek `true`, můžete bez problémů převést soubor Excel, aniž by vás zastavily chyby.
 ```csharp
-//Zadejte možnosti uložení PDF - Ignorovat chybu
+//Zadejte možnosti ukládání PDF - Ignorovat chybu
 PdfSaveOptions opts = new PdfSaveOptions();
 opts.IgnoreError = true;
 ```
-To je vše! S touto konfigurací nyní váš kód zdvořile přehlédne všechny chyby během procesu převodu.
+To je vše! S touto konfigurací váš kód nyní zdvořile přehlédne jakékoli chyby během procesu převodu.
 ## Krok 4: Uložte sešit jako PDF
- Jakmile budete mít sešit načtený a nastavené možnosti uložení, je čas převést a uložit dokument jako PDF. Použijte`Save` metoda`Workbook` třídy za to.
+Jakmile máte načtený sešit a nastavené možnosti ukládání, je čas dokument převést a uložit jako PDF. Použijte `Save` metoda `Workbook` třída pro toto.
 ```csharp
-//Uložte sešit ve formátu PDF pomocí možností uložení PDF
+//Uložení sešitu do PDF pomocí možností ukládání PDF
 wb.Save(outputDir + "outputErrorExcel2Pdf.pdf", opts);
 ```
- Tento řádek vytvoří PDF ve vámi zadaném výstupním adresáři. Jen nezapomeňte vyměnit`"outputErrorExcel2Pdf.pdf"` jakýmkoli názvem, který chcete pro svůj nový PDF.
-## Krok 5: Potvrďte úspěšné provedení
-Nakonec, po uložení PDF je vždy příjemné dát sobě (nebo budoucím uživatelům) vědět, že proces byl úspěšný. Můžete toho dosáhnout jednoduše zprávou konzoly.
+Tento řádek vytvoří PDF soubor ve vámi zadaném výstupním adresáři. Nezapomeňte nahradit `"outputErrorExcel2Pdf.pdf"` s jakýmkoli názvem, který si přejete pro svůj nový PDF.
+## Krok 5: Potvrzení úspěšného provedení
+Nakonec, po uložení PDF je vždycky příjemné dát sobě (nebo budoucím uživatelům) vědět, že proces proběhl úspěšně. Toho dosáhnete jednoduše pomocí konzolové zprávy.
 ```csharp
 Console.WriteLine("IgnoreErrorsWhileRenderingExcelToPdf executed successfully.\r\n");
 ```
-Po spuštění tohoto kódu zkontrolujte svůj výstupní adresář! Měli byste najít své nově vytvořené PDF, bez chyb a připravené ke sdílení.
+Po spuštění tohoto kódu zkontrolujte výstupní adresář! Měli byste najít nově vytvořený PDF soubor, bez chyb a připravený ke sdílení.
 ## Závěr
-A voilà! Úspěšně jste převedli soubor aplikace Excel do formátu PDF a ignorovali jste chyby, které se během cesty objevily. Aspose.Cells for .NET tento proces nejen zjednodušuje, ale umožňuje vám pracovat s vašimi daty efektivně, aniž byste se zabředli do problémů, které se mohou často vyskytnout v souborech aplikace Excel.
-Dodržováním těchto jednoduchých kroků si můžete zachovat produktivitu a zajistit, že základní dokumenty budou bezpečně převedeny a připraveny k distribuci. Takže až příště budete čelit chybě v Excelu během převodu, pamatujte na tento přístup. 
-## FAQ
+voilà! Úspěšně jste převedli soubor Excel do PDF a ignorovali všechny chyby, které se cestou objevily. Aspose.Cells pro .NET nejen zjednodušuje tento proces, ale také vám umožňuje efektivně pracovat s daty, aniž byste se museli zabývat problémy, které se v souborech Excel často vyskytují.
+Dodržováním těchto jednoduchých kroků si můžete udržet produktivitu a zajistit, aby důležité dokumenty byly bezpečně převedeny a připraveny k distribuci. Takže až se příště setkáte s chybou v Excelu během převodu, pamatujte si tento postup. 
+## Často kladené otázky
 ### Co je Aspose.Cells?
-Aspose.Cells je knihovna pro .NET, která umožňuje vývojářům vytvářet, manipulovat a převádět soubory Excelu programově.
-### Mohu použít Aspose.Cells pro jiné účely než převod Excelu do PDF?
-Absolutně! Kromě jiných funkcí můžete vytvářet, upravovat a vykreslovat soubory aplikace Excel.
+Aspose.Cells je knihovna pro .NET, která umožňuje vývojářům programově vytvářet, manipulovat a převádět soubory aplikace Excel.
+### Mohu použít Aspose.Cells k jiným účelům než k převodu z Excelu do PDF?
+Rozhodně! Mimo jiné můžete vytvářet, upravovat a vykreslovat soubory aplikace Excel.
 ### Jak mohu získat dočasnou licenci pro Aspose.Cells?
- Můžete získat dočasnou licenci[zde](https://purchase.aspose.com/temporary-license/).
-### Co když i po ignorování chyb stále narážím na problémy?
- Pokud dojde k neočekávanému chování, obraťte se na[Aspose fóra podpory](https://forum.aspose.com/c/cells/9) o radu nebo pomoc.
+Můžete získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
+### Co když se problémy stále vyskytují i po ignorování chyb?
+Pokud se objeví neočekávané chování, obraťte se na [Fóra podpory Aspose](https://forum.aspose.com/c/cells/9) o radu nebo pomoc.
 ### Je k dispozici bezplatná zkušební verze Aspose.Cells?
- Ano! Aspose.Cells si můžete zdarma vyzkoušet stažením[zde](https://releases.aspose.com/).
+Ano! Aspose.Cells si můžete zdarma vyzkoušet stažením. [zde](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

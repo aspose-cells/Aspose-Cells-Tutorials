@@ -8,7 +8,9 @@ url: /net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Existing Printer Settings Of Worksheets
@@ -169,6 +171,7 @@ Absolutely! You can apply for a [temporary license](https://purchase.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

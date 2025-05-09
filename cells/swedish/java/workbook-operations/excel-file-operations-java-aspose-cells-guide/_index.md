@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Processen innebär att skapa en `Workbook` objektet med sökvägen till din Exce
 
 #### Implementeringssteg
 
-1. **Importera obligatoriska paket**:
+1. **Importera nödvändiga paket**:
    ```java
    import com.aspose.cells.Workbook;
    ```
@@ -193,6 +195,9 @@ I den här handledningen lärde du dig hur du laddar en Excel-arbetsbok med Aspo
 - [Aspose.Cells-dokumentation](https://reference.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

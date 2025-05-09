@@ -1,14 +1,16 @@
 ---
-title: İşleme İçin Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın
-linktitle: İşleme İçin Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET ile Excel'de özel kağıt boyutları ayarlamayı öğrenin. Sorunsuz çalışma sayfası oluşturma için adım adım kılavuz.
-weight: 50
-url: /tr/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
+"description": "Aspose.Cells for .NET ile Excel'de özel kağıt boyutları ayarlamayı öğrenin. Sorunsuz çalışma sayfası oluşturma için adım adım kılavuz."
+"linktitle": "İşleme İçin Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "İşleme İçin Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın"
+"url": "/tr/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # İşleme İçin Çalışma Sayfasının Özel Kağıt Boyutunu Uygulayın
@@ -22,7 +24,7 @@ Excel belgelerini programatik olarak oluşturmak ve özelleştirmek, özellikle 
 Koda dalmadan önce, düzgün bir şekilde ayarladığınızdan emin olalım. Başlamak için ihtiyacınız olanlar şunlardır:
 
 1. Visual Studio veya Herhangi Bir .NET IDE: Visual Studio gibi çalışan bir IDE'niz olduğundan emin olun. Burası tüm kodlama sihrinin gerçekleştiği oyun alanınız olacak.
-2. Aspose.Cells for .NET Paketi: Henüz yapmadıysanız, Aspose.Cells kitaplığını indirip yüklemeniz gerekir. En son sürümü şu adreste bulabilirsiniz:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Paketi: Henüz yapmadıysanız, Aspose.Cells kitaplığını indirip yüklemeniz gerekir. En son sürümü şu adreste bulabilirsiniz: [Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Kod boyunca size rehberlik edeceğiz ancak C#'a aşina olmanız nüansları daha iyi anlamanıza yardımcı olacaktır.
 4. .NET Framework'e Erişim: Projenizin .NET Framework'ün uyumlu bir sürümünü hedefleyecek şekilde ayarlandığından emin olun.
 
@@ -63,7 +65,7 @@ Kodlamaya başlamadan önce çıktı PDF dosyanızı nereye kaydetmek istediğin
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Değiştirdiğinizden emin olun`"YOUR_OUTPUT_DIRECTORY"` PDF belgenizin kaydedilmesini istediğiniz gerçek yol ile. Bunu, yemek pişirmeye başlamadan önce bir masa hazırlamak gibi düşünün; üzerinde çalışmak için temiz bir alana ihtiyacınız var.
+Değiştirdiğinizden emin olun `"YOUR_OUTPUT_DIRECTORY"` PDF belgenizin kaydedilmesini istediğiniz gerçek yol ile. Bunu, yemek pişirmeye başlamadan önce bir masa hazırlamak gibi düşünün; üzerinde çalışmak için temiz bir alana ihtiyacınız var.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -130,22 +132,24 @@ Aspose.Cells kullanarak Excel çalışma sayfalarınız için özel bir kağıt 
 ## SSS
 
 ### Lisans satın almadan Aspose.Cells'i kullanabilir miyim?
- Evet, .NET için Aspose.Cells'in ücretsiz deneme sürümünü deneyebilirsiniz.[Burada](https://releases.aspose.com/).
+Evet, .NET için Aspose.Cells'in ücretsiz deneme sürümünü deneyebilirsiniz. [Burada](https://releases.aspose.com/).
 
 ### Geçici ruhsatın limitlerini aşarsam ne olur?
- Sınırları aşmak filigranlı çıktılara yol açacaktır. Kesintisiz hizmet için kalıcı bir lisans seçmek en iyisidir. Seçenekleri bulabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Sınırları aşmak filigranlı çıktılara yol açacaktır. Kesintisiz hizmet için kalıcı bir lisans seçmek en iyisidir. Seçenekleri bulabilirsiniz [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells .NET Core ile uyumlu mu?
 Evet, Aspose.Cells for .NET, .NET Core'u destekler. Bunu modern uygulamalarınıza sorunsuz bir şekilde entegre edebilirsiniz.
 
 ### Sorun yaşarsam nasıl destek alabilirim?
- Aspose destek forumu aracılığıyla bize ulaşabilirsiniz[Burada](https://forum.aspose.com/c/cells/9) Herhangi bir teknik aksaklıkta yardım için.
+Aspose destek forumu aracılığıyla bize ulaşabilirsiniz [Burada](https://forum.aspose.com/c/cells/9) Herhangi bir teknik aksaklıkta yardım için.
 
 ### Aspose.Cells ile çalışma sayfasının diğer yönlerini özelleştirebilir miyim?
 Kesinlikle! Aspose.Cells, stiller, formüller ve çok daha fazlası dahil olmak üzere çalışma sayfalarını özelleştirmek için sağlam bir özellik seti sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

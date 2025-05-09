@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 폭포 차트
@@ -79,7 +81,7 @@ waterfallChart.getNSeries().add("B2:B6", true);
 waterfallChart.getNSeries().setCategoryData("A2:A6");
 ```
 
-워크시트에 폭포형 차트를 추가하고, 데이터 계열과 범주 데이터를 지정했습니다. 필요에 따라 차트 모양을 더욱 세부적으로 사용자 지정할 수 있습니다.
+워크시트에 폭포형 차트를 추가하고 데이터 계열과 범주 데이터를 지정했습니다. 필요에 따라 차트 모양을 더욱 세부적으로 사용자 지정할 수 있습니다.
 
 ## 5단계: 통합 문서 저장
 
@@ -118,6 +120,7 @@ Java용 Aspose.Cells에 대한 설명서를 다음에서 찾아볼 수 있습니
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

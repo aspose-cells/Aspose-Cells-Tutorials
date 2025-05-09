@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook();
 
 ### ข้อมูลการติดตั้ง
 
-ขั้นตอนการติดตั้งเกี่ยวข้องกับการเพิ่มไลบรารี Aspose.Cells ลงในส่วนที่ต้องมีของโปรเจ็กต์ของคุณ ปฏิบัติตามคำแนะนำด้านบนโดยใช้ Maven หรือ Gradle
+กระบวนการติดตั้งเกี่ยวข้องกับการเพิ่มไลบรารี Aspose.Cells ลงในส่วนที่ต้องมีของโปรเจ็กต์ของคุณ ปฏิบัติตามคำแนะนำด้านบนโดยใช้ Maven หรือ Gradle
 
 ### ขั้นตอนการรับใบอนุญาต
 
@@ -301,6 +303,9 @@ workbook.save(outDir + "IPCellReference_out.xlsx");
 - อัปเดต Aspose.Cells เป็นประจำเพื่อใช้ประโยชน์จากคุณลักษณะล่าสุดและการปรับปรุงประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

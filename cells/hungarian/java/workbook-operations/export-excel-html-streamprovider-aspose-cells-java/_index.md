@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ A `IStreamProvider` A felület lehetővé teszi az adatfolyamok kezelését az e
 
 3. **Exportálási beállítások konfigurálása**
 
-    Olyan módszerek alkalmazása, mint például `setExportFrameScriptsAndProperties`, `setPresentationPreference` stb., a HTML-export viselkedésének konfigurálásához.
+    Olyan módszerek alkalmazása, mint például `setExportFrameScriptsAndProperties`, `setPresentationPreference` stb., a HTML exportálás viselkedésének konfigurálásához.
 
 #### Kulcskonfigurációs beállítások
 
@@ -201,6 +203,9 @@ Az Aspose.Cells funkcióinak további felfedezéséhez érdemes lehet belemerül
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

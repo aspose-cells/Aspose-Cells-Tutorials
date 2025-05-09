@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ import com.aspose.cells.Workbook;
 Workbook workbook = new Workbook();
 ```
 
-### 통합 문서에서 워크시트에 액세스
+### 통합 문서에서 워크시트에 액세스하기
 
 **개요:**
 에이 `WorksheetCollection` 통합 문서 내의 모든 워크시트를 관리하여 개별 시트에 대한 액세스와 수정을 가능하게 합니다.
@@ -187,6 +189,9 @@ A: 네, 이미지 컬렉션을 반복하고 사용하세요. `sheet.getPictures(
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

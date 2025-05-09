@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,7 +159,7 @@ Encontrar partes específicas de XML rapidamente é crucial, especialmente em gr
 
 2. **Recuperar a parte XML**
 
-   Usar `selectByID()` para encontrar e trabalhar com a parte desejada:
+   Usar `selectByID()` para encontrar e trabalhar com a peça desejada:
 
    ```java
    com.aspose.cells.CustomXmlPart xmlPart = workbook.getCustomXmlParts().selectByID(searchID);
@@ -202,6 +204,9 @@ Explore mais integrando essas técnicas em aplicativos maiores ou experimentando
 Embarque em sua jornada com o Aspose.Cells para Java hoje mesmo e transforme a maneira como você lida com pastas de trabalho do Excel em seus aplicativos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

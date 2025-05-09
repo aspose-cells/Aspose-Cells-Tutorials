@@ -8,7 +8,9 @@ url: /net/workbook-operations/work-with-content-type-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Work with Content Type Properties of Workbook
@@ -87,6 +89,7 @@ For any support queries, you can reach out on the [Aspose Support Forum](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Hier zijn enkele praktijkscenario's waarin u de kennis uit deze tutorial kunt to
 3. **Educatieve hulpmiddelen:** Creëer dynamisch leermateriaal waarbij studenten met de inhoud kunnen interacteren door verschillende opties in diagrammen te selecteren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

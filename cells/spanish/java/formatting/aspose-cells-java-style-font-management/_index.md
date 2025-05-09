@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Adquisición de licencias
 Obtenga una licencia para Aspose.Cells:
 - **Prueba gratuita**: Descargar desde [Sitio oficial de Aspose](https://releases.aspose.com/cells/java/) para explorar las funcionalidades básicas.
-- **Licencia temporal**:Adquirir a través de la [página de licencia](https://purchase.aspose.com/temporary-license/) para acceso completo durante la evaluación.
+- **Licencia temporal**:Adquirir a través de [página de licencia](https://purchase.aspose.com/temporary-license/) para acceso completo durante la evaluación.
 - **Compra**:Comprar una licencia permanente en su [página de compra](https://purchase.aspose.com/buy).
 
 ### Inicialización y configuración básicas
@@ -163,6 +165,9 @@ Explora estos recursos para profundizar tu comprensión y ampliar las capacidade
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

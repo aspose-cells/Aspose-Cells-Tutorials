@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 對 Java 程式設計有基本的了解並熟悉 Excel 文件結構將會很有幫助。
 
 ## 設定 Aspose.Cells for Java
-要在您的專案中使用 Aspose.Cells，請按照以下步驟操作：
+若要在您的專案中使用 Aspose.Cells，請按照以下步驟操作：
 1. **新增依賴項**：確保庫透過 Maven 或 Gradle 包含在內，如上所示。
 2. **許可證獲取**：
    - 從免費試用版開始 [Aspose的網站](https://releases。aspose.com/cells/java/).
@@ -150,10 +152,13 @@ wb.save(outDir + "outputTrimBlankColumns.csv", opts);
 - [下載庫](https://releases.aspose.com/cells/java/)
 - [購買許可證](https://purchase.aspose.com/buy)
 - [免費試用版下載](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

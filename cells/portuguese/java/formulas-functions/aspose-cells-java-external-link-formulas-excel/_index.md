@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Inclua Aspose.Cells para Java no seu projeto via Maven ou Gradle.
 - Use um IDE como IntelliJ IDEA, Eclipse ou NetBeans para escrever e executar seu código Java.
 
 ### Pré-requisitos de conhecimento
-Recomenda-se familiaridade básica com programação Java. Entender as estruturas de arquivos do Excel será útil, mas não obrigatório.
+Recomenda-se familiaridade básica com programação Java. Entender estruturas de arquivos do Excel será útil, mas não obrigatório.
 
 ## Configurando Aspose.Cells para Java
 Para começar a usar Aspose.Cells em seu projeto:
@@ -185,6 +187,9 @@ R5: O limite depende da versão do Excel e dos recursos do sistema. Para conjunt
 - [Informações sobre teste gratuito e licença temporária](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

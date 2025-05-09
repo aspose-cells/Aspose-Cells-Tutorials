@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Zvládli jste automatizaci úloh filtrování v Excelu pomocí Aspose.Cells pro 
 - **Podpora**Připojte se ke komunitnímu fóru na adrese [Podpora Aspose](https://forum.aspose.com/c/cells/9) o pomoc.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

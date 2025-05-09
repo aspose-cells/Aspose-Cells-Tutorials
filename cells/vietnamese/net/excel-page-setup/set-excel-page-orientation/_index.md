@@ -1,14 +1,16 @@
 ---
-title: Thiết lập hướng trang Excel
-linktitle: Thiết lập hướng trang Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thiết lập hướng trang Excel từng bước bằng Aspose.Cells cho .NET. Nhận kết quả tối ưu.
-weight: 130
-url: /vi/net/excel-page-setup/set-excel-page-orientation/
+"description": "Tìm hiểu cách thiết lập hướng trang Excel từng bước bằng Aspose.Cells cho .NET. Nhận kết quả tối ưu."
+"linktitle": "Thiết lập hướng trang Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thiết lập hướng trang Excel"
+"url": "/vi/net/excel-page-setup/set-excel-page-orientation/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập hướng trang Excel
@@ -22,7 +24,7 @@ Khi nói đến việc quản lý các tệp Excel theo chương trình, Aspose.
 Trước khi bắt đầu, điều quan trọng là phải chuẩn bị một số điều để đảm bảo trải nghiệm liền mạch:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết mã.
-2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells cho .NET. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+2. Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells cho .NET. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 3. Kiến thức cơ bản về C#: Việc quen thuộc với ngôn ngữ lập trình C# sẽ rất có lợi vì hướng dẫn này được viết bằng C#.
 4. Không gian làm việc: Chuẩn bị sẵn môi trường lập trình và thư mục để lưu tài liệu vì bạn sẽ cần đến nó!
 
@@ -47,7 +49,7 @@ Trước tiên, bạn cần chỉ định nơi bạn sẽ lưu tệp Excel. Đi�
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Ở đây, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn. Hãy nghĩ về nó như là cung cấp điểm đến cho chuyến đi đường bộ của bạn.
+Ở đây, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn. Hãy nghĩ về nó như là cung cấp điểm đến cho chuyến đi đường bộ của bạn.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -58,7 +60,7 @@ Bây giờ, bạn sẽ tạo một thể hiện của lớp Workbook, biểu di�
 Workbook workbook = new Workbook();
 ```
 
- Tạo một cái mới`Workbook`giống như mở một trang giấy trắng trong cuốn sổ tay, sẵn sàng để bạn ghi vào đó bất cứ thông tin nào bạn muốn!
+Tạo một cái mới `Workbook` giống như mở một trang giấy trắng trong cuốn sổ tay, sẵn sàng để bạn ghi vào đó bất cứ thông tin nào bạn muốn!
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -103,19 +105,21 @@ Và bạn đã có nó! Bạn đã cấu hình thành công hướng trang của
 Aspose.Cells for .NET là một thư viện mạnh mẽ để quản lý các tệp Excel theo chương trình với các chức năng như tạo, chỉnh sửa, chuyển đổi, v.v.
 
 ### Tôi có thể thay đổi hướng sang chế độ ngang được không?
- Có! Bạn có thể thiết lập hướng tới`PageOrientationType.Landscape` theo cách tương tự.
+Có! Bạn có thể thiết lập hướng tới `PageOrientationType.Landscape` theo cách tương tự.
 
 ### Có hỗ trợ cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể ghé thăm họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được giải đáp thắc mắc hoặc hỗ trợ.
+Chắc chắn rồi! Bạn có thể ghé thăm họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được giải đáp thắc mắc hoặc hỗ trợ.
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể yêu cầu giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/)cho phép bạn dùng thử các tính năng mà không có giới hạn.
+Bạn có thể yêu cầu giấy phép tạm thời từ [đây](https://purchase.aspose.com/temporary-license/), cho phép bạn dùng thử các tính năng mà không có giới hạn.
 
 ### Aspose.Cells có thể xử lý các tệp Excel lớn không?
 Có, Aspose.Cells được tối ưu hóa để xử lý các tệp lớn và có thể thực hiện nhiều thao tác khác nhau một cách hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

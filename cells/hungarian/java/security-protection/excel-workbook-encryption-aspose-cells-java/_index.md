@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,13 +20,13 @@
 A mai digitális korban kulcsfontosságú az érzékeny Excel-adatok védelme, különösen pénzügyi nyilvántartások, személyes adatok vagy bármilyen bizalmas üzleti adat kezelésekor. A jogosulatlan hozzáférés és a kibertámadások növekvő veszélyével a robusztus biztonsági intézkedések elengedhetetlenek az Excel-fájlok védelméhez. Ez az oktatóanyag végigvezeti Önt az Aspose.Cells Java használatán az Excel-munkafüzetek hatékony titkosításához és védelméhez.
 
 Ebben az átfogó útmutatóban megvizsgáljuk, hogyan:
-- **Excel munkafüzet betöltése** egybe `Workbook` objektum.
+- **Excel-munkafüzet betöltése** egybe `Workbook` objektum.
 - **Jelszóvédelem alkalmazása** hogy biztosítsa a fájlhoz való hozzáférést.
 - **XOR titkosítás használata** az alapvető biztonsági rétegekhez.
 - **Erős kriptográfiai védelem megvalósítása** az Aspose.Cells-szel.
 - **Titkosított munkafüzet mentése** az adatok bizalmasságának megőrzése érdekében.
 
-Az útmutató követésével megtanulhatod, hogyan teheted hatékonyan biztonságossá Excel-munkafüzeteidet az Aspose.Cells Java használatával. Kezdjük az előfeltételek beállításával és a kezdéssel!
+Az útmutató követésével megtudhatja, hogyan teheti hatékonyan biztonságossá Excel-munkafüzeteit az Aspose.Cells Java használatával. Kezdjük az előfeltételek beállításával és a kezdéssel!
 
 ## Előfeltételek
 
@@ -179,6 +181,9 @@ Ezután próbáld meg alkalmazni ezeket a technikákat a projektjeidben, vagy me
    - Igen, támogatja a kötegelt műveleteket, amelyek jelentősen növelhetik a termelékenységet több fájl kezelésekor.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Hogyan lehet GUID-t kinyerni egy OLE objektumból Excelben az Aspose.Cells for Java segítségével
+# Hogyan lehet GUID-t kinyerni egy OLE-objektumból Excelben az Aspose.Cells for Java segítségével
 
 ## Bevezetés
 
@@ -193,6 +195,9 @@ A5: Látogatás [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

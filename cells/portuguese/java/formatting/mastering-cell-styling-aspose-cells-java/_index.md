@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Para começar, siga estas etapas para configurar o Aspose.Cells no seu projeto:
 #### Visão geral
 Esta seção demonstra como criar uma pasta de trabalho e acessar sua primeira planilha.
 
-**Etapa 1: instanciar um objeto de pasta de trabalho**
+**Etapa 1: Instanciar um objeto de pasta de trabalho**
 Comece criando uma instância de `Workbook`, que representa seu arquivo Excel:
 ```java
 // Especificar diretórios para entrada e saída de dados
@@ -171,6 +173,9 @@ Este tutorial ajudará você a começar a estilizar células do Excel em Java us
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

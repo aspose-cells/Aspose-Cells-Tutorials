@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Jako další kroky zvažte prozkoumání dalších funkcí Aspose.Cells nebo jej
    - Zkontrolujte konfiguraci sestavení vašeho projektu (Maven/Gradle), abyste se ujistili, že jsou správně zahrnuty všechny potřebné závislosti Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

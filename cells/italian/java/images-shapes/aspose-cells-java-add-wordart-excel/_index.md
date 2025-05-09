@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ Aspose.Cells per Java è disponibile con licenza commerciale, ma è possibile in
 - **Acquistare:** Se decidi di integrarlo nelle tue applicazioni aziendali, visita [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy).
 
 ### Inizializzazione di base
-Dopo aver configurato la libreria nel tuo ambiente e acquisito una licenza (se necessario), inizializza Aspose.Cells per Java come segue:
+Dopo aver configurato la libreria nel tuo ambiente e aver acquisito una licenza (se necessario), inizializza Aspose.Cells per Java come segue:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -143,7 +145,7 @@ Seguendo questo tutorial, hai imparato come aggiungere testo WordArt ai file Exc
 2. **Posso integrare Aspose.Cells con altri sistemi?**
    - Sì! Aspose.Cells può essere integrato in varie applicazioni Java e pipeline di elaborazione dati.
 3. **Cosa succede se il mio file Excel contiene macro? Funzioneranno dopo aver aggiunto WordArt?**
-   - Le macro non vengono influenzate dall'aggiunta di elementi WordArt, garantendone la piena funzionalità.
+   - L'aggiunta di elementi WordArt non influisce sulle macro, garantendone la piena funzionalità.
 4. **Esiste un limite al numero di forme che posso aggiungere a un foglio Excel?**
    - Non esiste un limite esplicito, ma le prestazioni potrebbero peggiorare con forme eccessivamente complesse.
 5. **Posso utilizzare Aspose.Cells gratuitamente per scopi commerciali?**
@@ -158,6 +160,9 @@ Seguendo questo tutorial, hai imparato come aggiungere testo WordArt ai file Exc
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

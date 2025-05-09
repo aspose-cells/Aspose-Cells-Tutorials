@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reglas de validación de datos
@@ -23,7 +25,7 @@ Aspose.Cells te permite crear reglas de validación de datos personalizadas, ada
 ## Hojas de Excel sin errores, fáciles de crear
 Siguiendo nuestros completos tutoriales sobre reglas de validación de datos con Aspose.Cells para Java, adquirirá la experiencia necesaria para crear hojas de Excel sin errores. Mejore la precisión de sus datos, agilice sus procesos y conviértase en un experto en Excel. ¡Empiece hoy mismo y destaque en Excel!
 
-## Tutoriales de reglas de validación de datos
+## Tutoriales sobre reglas de validación de datos
 ### [Creación de una validación de datos personalizada](./creating-custom-data-validation/)
 Aprenda a crear una validación de datos personalizada con Aspose.Cells para Java. Guía paso a paso con código fuente.
 ### [Listas desplegables dinámicas en Excel](./dynamic-dropdown-lists-in-excel/)
@@ -42,9 +44,11 @@ Aprenda la validación de datos en Excel con Aspose.Cells para Java. Implemente 
 Aprenda a implementar la validación de datos condicional con Aspose.Cells para Java. Guía paso a paso con código fuente para un manejo preciso de datos en hojas de cálculo de Excel.
 ### [Mensaje de entrada en la validación de datos](./input-message-in-data-validation/)
 Aprenda a mejorar la validación de datos en Excel con Aspose.Cells para Java. Guía paso a paso con ejemplos de código para mejorar la precisión de los datos y orientación al usuario.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

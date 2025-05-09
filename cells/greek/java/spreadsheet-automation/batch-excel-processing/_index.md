@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μαζική επεξεργασία Excel
@@ -109,9 +111,11 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    Εξερευνήστε την τεκμηρίωση του API στη διεύθυνση [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) για αναλυτικές πληροφορίες και παραδείγματα.
 
 Βελτιστοποιήστε τις εργασίες επεξεργασίας παρτίδας Excel και αυξήστε την παραγωγικότητα χρησιμοποιώντας το Aspose.Cells για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

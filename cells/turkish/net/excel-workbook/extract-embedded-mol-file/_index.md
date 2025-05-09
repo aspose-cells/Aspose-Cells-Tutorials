@@ -1,14 +1,16 @@
 ---
-title: Gömülü Mol Dosyasını Çıkar
-linktitle: Gömülü Mol Dosyasını Çıkar
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel çalışma kitabından gömülü MOL dosyalarının nasıl kolayca çıkarılacağını öğrenin.
-weight: 90
-url: /tr/net/excel-workbook/extract-embedded-mol-file/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma kitabından gömülü MOL dosyalarının nasıl kolayca çıkarılacağını öğrenin."
+"linktitle": "Gömülü Mol Dosyasını Çıkar"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Gömülü Mol Dosyasını Çıkar"
+"url": "/tr/net/excel-workbook/extract-embedded-mol-file/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gömülü Mol Dosyasını Çıkar
@@ -21,11 +23,11 @@ Hiç gömülü dosyaları, özellikle de MOL dosyalarını bir Excel elektronik 
 
 Çıkarma sürecine dalmadan önce, takip etmek için tam donanımlı olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
 
-- Temel C# Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işe yarayacaktır. Yeni başlıyor olsanız bile, hızınızı koruyabilmelisiniz.
+- C# Temel Bilgisi: C# ile ilgili biraz bilgi sahibi olmak çok işe yarayacaktır. Yeni başlıyor olsanız bile, hızınızı koruyabilmelisiniz.
 - Visual Studio: Sisteminizde Visual Studio'nun yüklü olması gerekir. C# kodunuzu yazmak ve çalıştırmak için gereklidir.
-- Aspose.Cells for .NET: Henüz indirmediyseniz şuraya gidin:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
+- Aspose.Cells for .NET: Henüz indirmediyseniz şuraya gidin: [Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
 - .NET Framework: Uyumlu bir .NET Framework sürümünün yüklü olduğundan emin olun.
--  Gömülü MOL Nesneleri İçeren Bir Excel Dosyası: Örneğimiz için şunu kullanacağız:`EmbeddedMolSample.xlsx`Bu dosyanın çıkarılmaya hazır olduğundan emin olun.
+- Gömülü MOL Nesneleri İçeren Bir Excel Dosyası: Örneğimiz için şunu kullanacağız: `EmbeddedMolSample.xlsx`Bu dosyanın çıkarılmaya hazır olduğundan emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -72,13 +74,13 @@ Bu, gömülü MOL dosyalarınızı içeren Excel dosyasını kullanarak çalış
 
 ## Adım 2: Çalışma Kitabını Yükleyin
 
- Bir kez sahip olduğunuzda`workbook` Örnek Excel dosyamızı kurduktan sonraki adım çalışma kitabını yüklemek ve çıkartmaya hazırlanmak:
+Bir kez sahip olduğunuzda `workbook` Örnek Excel dosyamızı kurduktan sonraki adım çalışma kitabını yüklemek ve çıkartmaya hazırlanmak:
 
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "EmbeddedMolSample.xlsx");
 ```
 
- Bu adımda, yeni bir örnek oluşturuyoruz`Workbook` Excel dosyanızın içeriğine bir köprü görevi gören sınıf. Dosya buraya yüklenir, böylece daha sonra sayfalar arasında yineleme yapabilir ve gömülü MOL nesnelerini bulabiliriz.
+Bu adımda, yeni bir örnek oluşturuyoruz `Workbook` Excel dosyanızın içeriğine bir köprü görevi gören sınıf. Dosya buraya yüklenir, böylece daha sonra sayfalar arasında yineleme yapabilir ve gömülü MOL nesnelerini bulabiliriz.
 
 ## Adım 3: Çalışma Sayfalarında Yineleme Yapın
 
@@ -92,7 +94,7 @@ foreach (Worksheet sheet in workbook.Worksheets)
 }
 ```
 
- Bu kod parçacığıyla, şunu kullanıyoruz:`foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla`OleObjects` koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
+Bu kod parçacığıyla, şunu kullanıyoruz: `foreach` çalışma kitabımızdaki her sayfayı dolaşacak döngü. Erişim yoluyla `OleObjects` koleksiyon, o belirli sayfadaki tüm gömülü nesnelere erişim sağlayabiliriz. 
 
 ## Adım 4: OLE Nesnelerini Çıkarın
 
@@ -138,16 +140,18 @@ Aspose.Cells for .NET, Excel dosyalarını .NET uygulamaları içerisinde düzen
 Kesinlikle! Aspose.Cells, yalnızca MOL dosyalarını değil, PDF'ler, resimler ve daha fazlası gibi çeşitli gömülü dosya biçimlerini çıkarmanıza olanak tanır.
 
 ### Aspose.Cells'i kullanmak için satın almam gerekiyor mu?  
- Ücretsiz deneme sürümü mevcut olsa da, tüm özellikler için bir lisansa ihtiyaç vardır.[buradan satın alın](https://purchase.aspose.com/buy).
+Ücretsiz deneme sürümü mevcut olsa da, tüm özellikler için bir lisansa ihtiyaç vardır. [buradan satın alın](https://purchase.aspose.com/buy).
 
-### Bu işlem için Visual Studio'ya sahip olmak gerekli mi?  
+### Bu işlem için Visual Studio'ya ihtiyaç var mı?  
 Biz Visual Studio kullanarak gösterdik ama siz projenizi çalıştırmak için herhangi bir C# uyumlu IDE'yi kullanabilirsiniz.
 
-### Aspose.Cells için desteği nerede bulabilirim?  
- Erişebilirsiniz[Aspose destek forumları](https://forum.aspose.com/c/cells/9) rehberlik ve sorun giderme için.
+### Aspose.Cells için desteği nereden bulabilirim?  
+Erişebilirsiniz [Aspose destek forumları](https://forum.aspose.com/c/cells/9) rehberlik ve sorun giderme için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

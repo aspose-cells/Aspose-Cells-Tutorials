@@ -1,14 +1,16 @@
 ---
-title: In tờ có cài đặt bổ sung
-linktitle: In tờ có cài đặt bổ sung
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách in bảng tính Excel dễ dàng bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
-weight: 19
-url: /vi/net/worksheet-operations/print-sheet-with-settings/
+"description": "Tìm hiểu cách in bảng tính Excel dễ dàng bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này."
+"linktitle": "In tờ có cài đặt bổ sung"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "In tờ có cài đặt bổ sung"
+"url": "/vi/net/worksheet-operations/print-sheet-with-settings/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # In tờ có cài đặt bổ sung
@@ -19,7 +21,7 @@ Nếu bạn đã từng thấy mình phải xoay xở với các bảng tính Ex
 Trước khi bắt đầu hành trình in ấn này, hãy đảm bảo rằng bạn có mọi thứ cần thiết cho một chuyến đi suôn sẻ:
 1. Visual Studio: Đây là nơi mọi điều kỳ diệu xảy ra. Bạn sẽ cần một IDE hỗ trợ phát triển .NET và Visual Studio là một lựa chọn tuyệt vời.
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework. Aspose.Cells hỗ trợ nhiều framework khác nhau, vì vậy hãy chọn framework phù hợp nhất với nhu cầu của bạn.
-3.  Thư viện Aspose.Cells: Bạn cần phải có được thư viện Aspose.Cells. Bạn có thể dễ dàng lấy nó từ[Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Bạn cần phải có được thư viện Aspose.Cells. Bạn có thể dễ dàng lấy nó từ [Trang tải xuống Aspose.Cells](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Hiểu biết cơ bản về C# sẽ giúp ích rất nhiều. Đừng lo lắng; Tôi sẽ hướng dẫn bạn từng bước trong quá trình lập trình.
 ## Nhập gói
 Trước tiên, chúng ta cần thiết lập môi trường và nhập các gói cần thiết. Sau đây là cách thực hiện:
@@ -41,33 +43,33 @@ Trước khi tải tệp Excel, chúng ta cần chỉ định vị trí tệp. B
 // Thư mục nguồn
 string sourceDir = "Your Document Directory"; // Cập nhật đường dẫn này đến vị trí tệp của bạn
 ```
- Trong dòng này, chúng ta đặt biến`sourceDir` vào thư mục tệp Excel của bạn. Đừng quên thay thế`"Your Document Directory"` với đường dẫn thư mục thực tế nơi lưu trữ tệp Excel của bạn!
+Trong dòng này, chúng ta đặt biến `sourceDir` vào thư mục tệp Excel của bạn. Đừng quên thay thế `"Your Document Directory"` với đường dẫn thư mục thực tế nơi lưu trữ tệp Excel của bạn!
 ## Bước 2: Tải sổ làm việc Excel
 Bây giờ chúng ta đã xác định được đường dẫn tệp, hãy tải sổ làm việc Excel. Đây là nơi Aspose.Cells tỏa sáng.
 ```csharp
 // Tải tệp Excel nguồn
 Workbook workbook = new Workbook(sourceDir + "SheetRenderSample.xlsx");
 ```
- Trong bước này, chúng tôi đang tạo một phiên bản của`Workbook` lớp, kéo vào tệp Excel. Chỉ cần đảm bảo bạn thay thế`"SheetRenderSample.xlsx"` với tên tệp của riêng bạn.
+Trong bước này, chúng tôi đang tạo một phiên bản của `Workbook` lớp, kéo vào tệp Excel. Chỉ cần đảm bảo bạn thay thế `"SheetRenderSample.xlsx"` với tên tệp của riêng bạn.
 ## Bước 3: Xác định tùy chọn hình ảnh hoặc in
- Tiếp theo, chúng ta cần quyết định cách chúng ta muốn bảng tính của mình được hiển thị. Điều này được thực hiện thông qua`ImageOrPrintOptions`.
+Tiếp theo, chúng ta cần quyết định cách chúng ta muốn bảng tính của mình được hiển thị. Điều này được thực hiện thông qua `ImageOrPrintOptions`.
 ```csharp
 ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
 ```
 Đây là nơi bạn có thể thiết lập các tùy chọn như chất lượng tài liệu hoặc cài đặt in. Với mục đích của chúng tôi, chúng tôi để mặc định. Tuy nhiên, nếu bạn muốn tinh chỉnh các tùy chọn này (như thiết lập kích thước trang cụ thể), thì rất dễ thực hiện.
 ## Bước 4: Truy cập vào Bảng tính
-Bây giờ chúng ta sẽ truy cập vào bảng tính từ sổ làm việc. Việc này đơn giản như ăn bánh vậy!
+Bây giờ chúng ta sẽ truy cập vào worksheet từ workbook. Việc này đơn giản như ăn bánh vậy!
 ```csharp
 // Truy cập bảng tính đầu tiên
 Worksheet worksheet = workbook.Worksheets[1];
 ```
- Hãy nhớ rằng, việc lập chỉ mục bắt đầu từ con số không, vì vậy`Worksheets[1]` tham chiếu đến trang thứ hai trong sổ làm việc. Điều chỉnh theo nhu cầu của bạn!
+Hãy nhớ rằng, việc lập chỉ mục bắt đầu từ con số không, vì vậy `Worksheets[1]` tham chiếu đến trang thứ hai trong sổ làm việc. Điều chỉnh theo nhu cầu của bạn!
 ## Bước 5: Thiết lập bản vẽ trang tính
- Với bảng tính có sẵn, chúng ta cần thiết lập`SheetRender` đối tượng sẽ xử lý việc in ấn của chúng ta.
+Với bảng tính có sẵn, chúng ta cần thiết lập `SheetRender` đối tượng sẽ xử lý việc in ấn của chúng ta.
 ```csharp
 SheetRender sheetRender = new SheetRender(worksheet, imgOpt);
 ```
- Điều này tạo ra một`SheetRender` Ví dụ, cho phép chúng ta chỉ định bảng tính và tùy chọn nào sẽ sử dụng.
+Điều này tạo ra một `SheetRender` Ví dụ, cho phép chúng ta chỉ định bảng tính và tùy chọn nào sẽ sử dụng.
 ## Bước 6: Cấu hình cài đặt máy in
 Trước khi gửi tài liệu tới máy in, hãy cấu hình cài đặt máy in sao cho phù hợp với nhu cầu của chúng ta.
 ```csharp
@@ -75,7 +77,7 @@ PrinterSettings printerSettings = new PrinterSettings();
 printerSettings.PrinterName = "<PRINTER NAME>"; // Nhập tên máy in của bạn
 printerSettings.Copies = 2; // Đặt số lượng bản sao bạn muốn
 ```
- Bạn sẽ cần phải thay thế`"<PRINTER NAME>"`với tên máy in bạn đang sử dụng. Ngoài ra, bạn có thể thoải mái điều chỉnh số lượng bản sao nếu cần.
+Bạn sẽ cần phải thay thế `"<PRINTER NAME>"` với tên máy in bạn đang sử dụng. Ngoài ra, bạn có thể thoải mái điều chỉnh số lượng bản sao nếu cần.
 ## Bước 7: Gửi tờ giấy đến máy in
 Cuối cùng, chúng tôi đã sẵn sàng để in! Đây chính là khoảnh khắc bạn đang chờ đợi.
 ```csharp
@@ -90,14 +92,16 @@ Aspose.Cells là một thư viện giàu tính năng cho phép các nhà phát t
 ### Tôi có thể in nhiều trang tính cùng một lúc không?  
 Có, bạn có thể lặp qua nhiều trang tính và áp dụng cùng một logic in cho từng trang tính.
 ### Aspose.Cells có miễn phí không?  
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để truy cập tất cả các tính năng, bạn có thể cần phải mua giấy phép. Tìm hiểu thêm[đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để truy cập tất cả các tính năng, bạn có thể cần phải mua giấy phép. Tìm hiểu thêm [đây](https://purchase.aspose.com/buy).
 ### Làm thế nào tôi có thể tùy chỉnh bản in của mình?  
- Bạn có thể điều chỉnh cài đặt và tùy chọn in thông qua`ImageOrPrintOptions` Và`PrinterSettings` lớp học theo yêu cầu của bạn.
+Bạn có thể điều chỉnh cài đặt và tùy chọn in thông qua `ImageOrPrintOptions` Và `PrinterSettings` lớp học theo yêu cầu của bạn.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?  
- Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose bằng cách truy cập trang web của họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose bằng cách truy cập trang web của họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

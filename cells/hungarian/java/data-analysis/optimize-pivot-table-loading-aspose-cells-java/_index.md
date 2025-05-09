@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,7 +151,7 @@ Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for J
    - Kérjen támogatást a következő címen: [Aspose fóruma](https://forum.aspose.com/c/cells/9) segítségért.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Kiadások és letöltések](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása**: [Vásároljon Aspose termékeket](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Aspose ingyenes próbaverziók](https://releases.aspose.com/cells/java/)
@@ -160,6 +162,9 @@ Böngészd át ezeket az anyagokat, hogy elmélyítsd az Aspose.Cells Java-beli 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

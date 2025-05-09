@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -54,7 +56,7 @@ Győződjön meg róla, hogy a fejlesztői környezete telepítve van a Java SE 
 ### Telepítési információk
 Ahogy fentebb említettük, az Aspose.Cells integrálása a projektedbe Maven vagy Gradle használatával történhet. A függőség hozzáadása után inicializáld és állítsd be az Aspose.Cells-t:
 
-1. **Licenc beszerzése**: Kezdje egy ingyenes próbalicenccel a következő címen: [Aspose weboldala](https://purchase.aspose.com/temporary-license/)Ez a lépés kulcsfontosságú az összes funkció korlátozás nélküli feloldásához.
+1. **Licenc beszerzése**: Kezdje egy ingyenes próbalicenccel a következőtől: [Aspose weboldala](https://purchase.aspose.com/temporary-license/)Ez a lépés kulcsfontosságú az összes funkció korlátozás nélküli feloldásához.
 2. **Alapvető inicializálás**:
     ```java
     import com.aspose.cells.License;
@@ -71,7 +73,7 @@ Ahogy fentebb említettük, az Aspose.Cells integrálása a projektedbe Maven va
     ```
 
 ## Megvalósítási útmutató
-Most bontsuk le a munkafüzetek betöltésének és az érvényesítési szabályok alkalmazásának folyamatát bizonyos cellákra.
+Most pedig bontsuk le a munkafüzetek betöltésének és az érvényesítési szabályok alkalmazásának folyamatát bizonyos cellákon.
 
 ### Munkafüzet betöltése (H2)
 #### Áttekintés
@@ -93,7 +95,7 @@ public class LoadWorkbook {
     }
 }
 ```
-- **Paraméterek**A `Workbook` A konstruktor argumentumként egy fájl elérési utat fogad el.
+- **Paraméterek**A `Workbook` konstruktor argumentumként egy fájl elérési utat fogad el.
 - **Cél**Ez a lépés inicializálja a munkafüzet-objektumot, így az készen áll a manipulációra.
 
 ### Hozzáférési munkalap (H2)
@@ -123,7 +125,7 @@ public class AccessWorksheet {
 
 ### C1 (H2) cella elérése és érvényesítése
 #### Áttekintés
-Ez a szakasz bemutatja, hogyan alkalmazhatunk érvényességi ellenőrzéseket a 'C1' cellán, biztosítva, hogy az adott tartományon belüli értékeket tartalmazzon.
+Ez a szakasz bemutatja, hogyan alkalmazhatunk érvényességi ellenőrzéseket a 'C1' cellán, biztosítva, hogy az értékek egy megadott tartományon belül legyenek.
 
 #### Kódmegvalósítás (H3)
 ```java
@@ -211,6 +213,9 @@ Nagy Excel-fájlok vagy összetett érvényesítési szabályok kezelésekor a t
 - Készítsen profilt az alkalmazásáról a szűk keresztmetszetek azonosítása és ennek megfelelő optimalizálás érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

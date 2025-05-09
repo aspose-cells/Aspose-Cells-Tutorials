@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menampilkan Rumus Lembar Kerja Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Menavigasi melalui buku kerja Excel yang kompleks dapat menjadi tantangan, terutama saat mengaudit atau meninjau rumus sel yang disematkan. Dengan Aspose.Cells untuk Java, menampilkan rumus ini menjadi mudah. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk menampilkan rumus lembar kerja di aplikasi Java Anda. Ideal bagi pengembang yang mengotomatiskan tugas Excel, solusi ini memanfaatkan kekuatan dan fleksibilitas Aspose.Cells.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara menginstal dan mengatur Aspose.Cells untuk Java
 - Langkah-langkah untuk memuat buku kerja Excel dan mengakses lembar kerja tertentu
 - Teknik untuk menampilkan rumus dalam lembar kerja tersebut
@@ -25,9 +27,9 @@ Menavigasi melalui buku kerja Excel yang kompleks dapat menjadi tantangan, terut
 
 Sebelum terjun ke implementasi, mari kita uraikan apa yang Anda butuhkan untuk memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini secara efektif, pastikan Anda memiliki:
+A bemutató hatékony követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi.
 - **Lingkungan Pengembangan Terpadu (IDE)**Seperti IntelliJ IDEA atau Eclipse.
@@ -40,7 +42,7 @@ Selain itu, disarankan untuk memahami konsep dasar pemrograman Java dan manipula
 Mengintegrasikan Aspose.Cells ke dalam proyek Java Anda dapat dilakukan dengan mudah menggunakan Maven atau Gradle. Berikut cara mengaturnya:
 
 **Pakar:**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,18 +52,18 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 **Gradasi:**
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells untuk Java adalah pustaka komersial, tetapi Anda dapat memulai dengan uji coba gratis untuk mengevaluasi kemampuannya. Berikut cara mendapatkannya:
-- **Uji Coba Gratis**Unduh versi terbaru dari [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Minta lisensi sementara melalui [tautan ini](https://purchase.aspose.com/temporary-license/) jika Anda memerlukan waktu lebih lama dari yang diizinkan oleh uji coba.
-- **Pembelian**:Untuk akses penuh, beli lisensi melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**: Töltse le a legújabb verziót innen: [Aspose letöltések](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Ideiglenes engedély igénylése a következőn keresztül: [ezt a linket](https://purchase.aspose.com/temporary-license/) jika Anda memerlukan waktu lebih lama dari yang diizinkan oleh uji coba.
+- **Vásárlás**:Untuk akses penuh, beli lisensi melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Setelah Anda menambahkan Aspose.Cells ke proyek Anda, inisialisasikan dalam aplikasi Java Anda seperti ini:
 ```java
 // Impor kelas yang diperlukan dari Aspose.Cells
@@ -76,7 +78,7 @@ public class ShowFormulas {
         // Memuat buku kerja yang ada dari disk
         Workbook workbook = new Workbook(dataDir + "source.xlsx");
         
-        // Akses lembar kerja pertama di buku kerja
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         // Tampilkan rumus dalam lembar kerja ini
@@ -88,35 +90,35 @@ public class ShowFormulas {
 }
 ```
 
-## Panduan Implementasi
-### Memuat dan Mengakses Buku Kerja Excel
+## Megvalósítási útmutató
+### Excel-munkafüzet betöltése és elérése
 1. **Memuat Buku Kerja Sumber**: Mulailah dengan memuat file Excel Anda yang sudah ada menggunakan `Workbook`.
 2. **Akses Lembar Kerja**:
-   - Menggunakan `workbook.getWorksheets().get(0)` untuk mengakses lembar kerja pertama.
+   - Használat `workbook.getWorksheets().get(0)` untuk mengakses lembar kerja pertama.
 3. **Tampilkan Rumus**:
    - Panggilan `worksheet.setShowFormulas(true);` untuk mengubah tampilan rumus, bukan hasilnya.
 
-### Simpan Perubahan
+### Változtatások mentése
 Setelah membuat perubahan, pastikan Anda menyimpan buku kerja menggunakan `workbook.save()`Langkah ini sangat penting karena menulis semua modifikasi kembali ke file Excel di disk.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Aspose.Cells menawarkan fleksibilitas di berbagai domain. Berikut ini beberapa aplikasi praktisnya:
-1. **Analisis Keuangan**: Audit model keuangan secara cepat dengan meninjau rumus dalam lembar kerja yang rumit.
-2. **Validasi Data**Pastikan integritas data dalam kumpulan data besar dengan memverifikasi logika rumus.
+1. **Pénzügyi elemzés**: Audit model keuangan secara cepat dengan meninjau rumus dalam lembar kerja yang rumit.
+2. **Adatérvényesítés**Pastikan integritas data dalam kumpulan data besar dengan memverifikasi logika rumus.
 3. **Alat Pendidikan**: Buat alat untuk mengajarkan Excel yang secara visual menampilkan rumus di samping hasil.
-4. **Pelaporan Bisnis**: Mengotomatiskan pembuatan laporan bisnis di mana transparansi perhitungan sangat penting.
+4. **Üzleti jelentések**: Mengotomatiskan pembuatan laporan bisnis di mana transparansi perhitungan sangat penting.
 
-## Pertimbangan Kinerja
-- **Mengoptimalkan Penggunaan Sumber Daya**: Minimalkan jejak memori dengan hanya memuat lembar dan rentang data yang diperlukan.
+## Teljesítménybeli szempontok
+- **Erőforrás-felhasználás optimalizálása**: Minimalkan jejak memori dengan hanya memuat lembar dan rentang data yang diperlukan.
 - **Manajemen Memori Java**: Gunakan pengumpulan sampah secara efektif untuk mengelola objek buku kerja, terutama saat menangani file Excel berukuran besar.
 - **Pemrosesan yang Efisien**: Untuk tugas pemrosesan massal, pertimbangkan untuk memparalelkan beban kerja jika memungkinkan.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami mengeksplorasi cara menampilkan rumus lembar kerja di Java menggunakan Aspose.Cells. Keterampilan ini sangat berharga bagi siapa pun yang ingin mengotomatiskan tugas Excel atau mengintegrasikan fungsi spreadsheet ke dalam aplikasi mereka. Selanjutnya, cobalah bereksperimen dengan fitur Aspose.Cells lainnya, seperti kalkulasi rumus atau manipulasi data, untuk lebih menyempurnakan proyek Anda.
 
-Siap untuk menyelami lebih dalam? Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) dan jelajahi lebih lanjut tentang apa yang dapat Anda capai dengan pustaka hebat ini.
+Siap untuk menyelami lebih dalam? Kunjungi [Aspose dokumentáció](https://reference.aspose.com/cells/java/) dan jelajahi lebih lanjut tentang apa yang dapat Anda capai dengan pustaka hebat ini.
 
-## Bagian FAQ
+## GYIK szekció
 **T: Bagaimana cara menangani file Excel berukuran besar tanpa kehabisan memori?**
 A: Pertimbangkan untuk menggunakan `Workbook.setMemorySetting()` untuk mengoptimalkan kinerja buku kerja besar.
 
@@ -126,21 +128,24 @@ A: Ya, ulangi koleksi lembar kerja buku kerja dan terapkan operasi sebagaimana d
 **T: Apakah mungkin untuk mengotomatisasi Excel tanpa menampilkan rumus?**
 A: Tentu saja! Gunakan fitur lain seperti `setShowFormulas(false)` atau lewati tampilan rumus sepenuhnya berdasarkan kebutuhan Anda.
 
-**T: Apa yang harus saya lakukan jika rumus tidak muncul setelah pengaturan.... `setShowFormulas(true)`?**
+**T: Apa yang harus saya lakukan jika rumus tidak muncul setelah pengaturan? `setShowFormulas(true)`?**
 A: Pastikan lembar kerja memiliki rumus yang aktif. Beberapa buku kerja mungkin memiliki sel yang diformat untuk menyembunyikan rumus secara default.
 
 **T: Bagaimana saya dapat mengintegrasikan Aspose.Cells dengan kerangka kerja atau pustaka Java lainnya?**
 A: Aspose.Cells sangat kompatibel dan dapat diintegrasikan dalam Spring, Hibernate, atau kerangka kerja aplikasi berbasis Java lainnya.
 
-## Sumber daya
-- **Dokumentasi**: [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Dapatkan Rilisan Terbaru](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Versi Uji Coba Gratis**: [Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Minta Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Dukungan Komunitas Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Dapatkan Rilisan Terbaru](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Coba Gratis](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély igénylése**: [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose közösségi támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

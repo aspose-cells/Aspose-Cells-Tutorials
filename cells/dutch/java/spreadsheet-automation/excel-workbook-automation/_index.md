@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-werkmapautomatisering
@@ -110,9 +112,11 @@ Hier volgen enkele veelgestelde vragen over Excel-werkmapautomatisering:
    U kunt de API-documentatie raadplegen op [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) voor diepgaande informatie en codevoorbeelden.
 
 Ontdek gerust de meer geavanceerde functies en mogelijkheden van Aspose.Cells voor Java om uw Excel-automatiseringsbehoeften aan te passen. Heeft u specifieke vragen of wilt u meer hulp? Stel ze gerust.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

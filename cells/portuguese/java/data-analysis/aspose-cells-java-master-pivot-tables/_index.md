@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aprenda a criar e modificar tabelas dinâmicas usando o Aspose.Cells para Java. Aprimore suas habilidades de análise de dados do Excel hoje mesmo."
+"description": "Aprenda a criar e modificar tabelas dinâmicas usando o Aspose.Cells para Java. Aprimore suas habilidades de análise de dados no Excel hoje mesmo."
 "title": "Guia completo sobre como dominar tabelas dinâmicas em Java com Aspose.Cells"
 "url": "/pt/java/data-analysis/aspose-cells-java-master-pivot-tables/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Explore outros recursos do Aspose.Cells, como criação de gráficos, cálculos 
 - **Licença temporária:** [Obtenha uma licença temporária](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

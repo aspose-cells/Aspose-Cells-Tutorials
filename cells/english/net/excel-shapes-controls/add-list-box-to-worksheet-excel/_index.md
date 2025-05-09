@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-list-box-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add List Box to Worksheet in Excel
@@ -117,6 +119,7 @@ Just update the input range by inserting more values into the specified cells, a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

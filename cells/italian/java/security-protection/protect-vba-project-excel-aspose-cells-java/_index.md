@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ Per garantire prestazioni ottimali quando si lavora con Aspose.Cells:
 
 - Gestire la memoria in modo efficiente eliminando gli oggetti che non sono più necessari utilizzando `Workbook.dispose()`.
 - Se possibile, ottimizzare l'utilizzo delle risorse gestendo i file Excel di grandi dimensioni in blocchi più piccoli.
-- Per prevenire perdite, seguire le best practice Java per la garbage collection e la gestione della memoria.
+- Per evitare perdite, seguire le best practice Java per la garbage collection e la gestione della memoria.
 
 ## Conclusione
 
@@ -175,6 +177,9 @@ Agisci subito e prova a implementare questa soluzione nei tuoi progetti!
 Intraprendi il tuo viaggio con Aspose.Cells e sfrutta appieno il potenziale dell'elaborazione Excel in Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

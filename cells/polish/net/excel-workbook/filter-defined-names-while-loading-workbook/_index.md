@@ -1,14 +1,16 @@
 ---
-title: Filtruj zdefiniowane nazwy podczas ładowania skoroszytu
-linktitle: Filtruj zdefiniowane nazwy podczas ładowania skoroszytu
-second_title: Aspose.Cells dla .NET API Reference
-description: W tym kompleksowym przewodniku dowiesz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla platformy .NET.
-weight: 100
-url: /pl/net/excel-workbook/filter-defined-names-while-loading-workbook/
+"description": "W tym kompleksowym przewodniku dowiesz się, jak filtrować zdefiniowane nazwy podczas ładowania skoroszytu za pomocą Aspose.Cells dla platformy .NET."
+"linktitle": "Filtruj zdefiniowane nazwy podczas ładowania skoroszytu"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Filtruj zdefiniowane nazwy podczas ładowania skoroszytu"
+"url": "/pl/net/excel-workbook/filter-defined-names-while-loading-workbook/"
+"weight": 100
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Filtruj zdefiniowane nazwy podczas ładowania skoroszytu
@@ -22,9 +24,9 @@ Jeśli zagłębiasz się w manipulację plikami Excela za pomocą Aspose.Cells d
 Zanim przejdziemy do konkretów, upewnijmy się, że masz do dyspozycji wszystkie niezbędne narzędzia. Oto, czego potrzebujesz:
 
 - Podstawowa znajomość programowania w języku C#: Powinieneś znać składnię i koncepcje programowania.
--  Biblioteka Aspose.Cells dla .NET: Upewnij się, że jest zainstalowana i gotowa do użycia. Możesz pobrać bibliotekę z tego[połączyć](https://releases.aspose.com/cells/net/).
+- Biblioteka Aspose.Cells dla .NET: Upewnij się, że jest zainstalowana i gotowa do użycia. Możesz pobrać bibliotekę z tego [połączyć](https://releases.aspose.com/cells/net/).
 - Visual Studio lub dowolne środowisko IDE języka C#: Środowisko programistyczne jest niezbędne do pisania i testowania kodu.
--  Przykładowy plik Excela: Użyjemy pliku Excela o nazwie`sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`. Możesz utworzyć ten plik ręcznie lub pobrać go w razie potrzeby.
+- Przykładowy plik Excela: Użyjemy pliku Excela o nazwie `sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx`Możesz utworzyć ten plik ręcznie lub pobrać go w razie potrzeby.
 
 ## Importuj pakiety
 
@@ -37,19 +39,19 @@ using System.Linq;
 using System.Text;
 ```
 
-Te przestrzenie nazw umożliwiają wykorzystanie pełnego potencjału biblioteki Aspose.Cells do efektywnego manipulowania plikami Excela.
+Te przestrzenie nazw pozwalają wykorzystać pełną moc biblioteki Aspose.Cells do efektywnego manipulowania plikami Excela.
 
 Podzielmy proces filtrowania zdefiniowanych nazw podczas ładowania skoroszytu na przejrzyste i łatwe do opanowania kroki.
 
 ## Krok 1: Określ opcje ładowania
 
- Pierwszą rzeczą, którą zrobimy, będzie utworzenie instancji`LoadOptions` Klasa. Ta klasa pomoże nam określić, jak chcemy załadować nasz plik Excel.
+Pierwszą rzeczą, którą zrobimy, będzie utworzenie instancji `LoadOptions` Klasa. Ta klasa pomoże nam określić, jak chcemy załadować nasz plik Excel.
 
 ```csharp
 LoadOptions opts = new LoadOptions();
 ```
 
- Tutaj inicjujemy nowy obiekt`LoadOptions` Klasa. Ten obiekt umożliwia różne konfiguracje, które skonfigurujemy w następnym kroku.
+Tutaj inicjujemy nowy obiekt `LoadOptions` Klasa. Ten obiekt umożliwia różne konfiguracje, które skonfigurujemy w następnym kroku.
 
 ## Krok 2: Ustaw filtr ładowania
 
@@ -59,7 +61,7 @@ Następnie musimy zdefiniować, jakie dane chcemy odfiltrować podczas ładowani
 opts.LoadFilter = new LoadFilter(~LoadDataFilterOptions.DefinedNames);
 ```
 
-Tylda (~oznacza, że chcemy wykluczyć zdefiniowane nazwy z procesu ładowania. Jest to kluczowe, jeśli chcesz utrzymać obciążenie pracą na niskim poziomie i uniknąć niepotrzebnych danych, które mogą komplikować przetwarzanie.
+Operator tyldy (~) oznacza, że chcemy wykluczyć zdefiniowane nazwy z procesu ładowania. Jest to kluczowe, jeśli chcesz utrzymać obciążenie pracą na niskim poziomie i uniknąć niepotrzebnych danych, które mogą komplikować przetwarzanie.
 
 ## Krok 3: Załaduj skoroszyt
 
@@ -69,7 +71,7 @@ Teraz, gdy nasze opcje ładowania są określone, czas załadować sam skoroszyt
 Workbook wb = new Workbook(sourceDir + "sampleFilterDefinedNamesWhileLoadingWorkbook.xlsx", opts);
 ```
 
- W tym wierszu tworzysz nową instancję`Workbook` klasa, przekazując ścieżkę do przykładowego pliku Excel i opcje ładowania. To ładuje skoroszyt z nazwami zdefiniowanymi i odfiltrowanymi zgodnie ze specyfikacją.
+W tym wierszu tworzysz nową instancję `Workbook` klasa, przekazując ścieżkę do przykładowego pliku Excel i opcje ładowania. To ładuje skoroszyt z nazwami zdefiniowanymi i odfiltrowanymi zgodnie ze specyfikacją.
 
 ## Krok 4: Zapisz plik wyjściowy
 
@@ -93,7 +95,7 @@ Dzięki temu wierszowi jasno pokazujesz, że operacja przebiegła bez żadnych p
 
 ## Wniosek
 
-I masz to! Filtrowanie zdefiniowanych nazw podczas ładowania skoroszytu za pomocą Aspose.Cells dla .NET można wykonać za pomocą kilku prostych kroków. Ten proces jest niezwykle pomocny w scenariuszach, w których musisz usprawnić przetwarzanie danych lub zapobiec wpływowi niepotrzebnych danych na obliczenia.
+masz to! Filtrowanie zdefiniowanych nazw podczas ładowania skoroszytu za pomocą Aspose.Cells dla .NET można wykonać za pomocą kilku prostych kroków. Ten proces jest niezwykle pomocny w scenariuszach, w których musisz usprawnić przetwarzanie danych lub zapobiec wpływowi niepotrzebnych danych na obliczenia.
 
 Postępując zgodnie z tym przewodnikiem, możesz pewnie ładować pliki Excela, kontrolując jednocześnie, jakie dane chcesz wykluczyć. Niezależnie od tego, czy tworzysz aplikacje, które zarządzają dużymi zestawami danych, czy wdrażasz określoną logikę biznesową, opanowanie tej funkcji tylko poprawi Twoje umiejętności manipulowania Excelem.
 
@@ -109,13 +111,15 @@ Tak, Aspose.Cells oferuje różne opcje ładowania umożliwiające filtrowanie r
 Filtrowanie zdefiniowanych nazw może prowadzić do zepsutych formuł, jeśli odwołują się do tych nazw. Będziesz musiał odpowiednio dostosować swoje formuły.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?
- Tak, możesz otrzymać bezpłatną wersję próbną Aspose.Cells, aby przetestować jej możliwości przed zakupem. Sprawdź to[Tutaj](https://releases.aspose.com/).
+Tak, możesz otrzymać bezpłatną wersję próbną Aspose.Cells, aby przetestować jej możliwości przed zakupem. Sprawdź to [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
- Pełną dokumentację i więcej przykładów znajdziesz na stronie referencyjnej Aspose.Cells[Tutaj](https://reference.aspose.com/cells/net/).
+Pełną dokumentację i więcej przykładów znajdziesz na stronie referencyjnej Aspose.Cells [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

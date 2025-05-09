@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ import com.aspose.cells.HtmlSaveOptions;
 import com.aspose.cells.ExportStreamProvider;
 ```
 
-**ステップ2**: 初期化 `HtmlSaveOptions` カスタム ストリーム プロバイダーを設定します。
+**ステップ2**初期化 `HtmlSaveOptions` カスタム ストリーム プロバイダーを設定します。
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.setStreamProvider(new ExportStreamProvider(dataDir));
@@ -169,6 +171,9 @@ Excel ファイルを HTML としてエクスポートすると便利な実際�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Aspose.Cells के साथ काम करते समय प्रदर�
 अपने जावा प्रोजेक्ट्स में Aspose.Cells का प्रभावी ढंग से उपयोग करने के बारे में अतिरिक्त सहायता और जानकारी के लिए इन संसाधनों का पता लगाने के लिए स्वतंत्र महसूस करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

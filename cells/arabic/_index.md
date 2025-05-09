@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # دروس مرئية حول Aspose.Cells
 انغمس في دروسنا المرئية Aspose.Cells المصممة للمطورين والهواة الراغبين في إتقان التعامل مع جداول البيانات. يغطي كل درس الميزات الأساسية لمكتبة Aspose.Cells، بدءًا من العمليات الأساسية كإنشاء جداول البيانات وتنسيقها، وصولًا إلى الوظائف المتقدمة كتصور البيانات ومعالجة الصيغ. سواء كنت مبتدئًا أو مطورًا خبيرًا، توفر أدلتنا المرئية تعليمات شاملة وسهلة المتابعة، إلى جانب أمثلة عملية.
@@ -24,46 +26,75 @@
 تعلّم كيفية إنشاء وتخصيص وإدارة المخططات البيانية في تطبيقات .NET باستخدام Aspose.Cells. استكشف أنواعًا مختلفة من المخططات البيانية من خلال أمثلة سهلة وفعّالة.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="إنشاء وتنسيق المخططات ثلاثية الأبعاد في Excel" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="تغيير حجم الرسم البياني وتغيير موضعه في Excel" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="تغيير اتجاه علامة التجزئة في الرسم البياني في Excel" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="إنشاء ملف PDF من مخطط Excel بحجم صفحة محدد" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="إنشاء مخطط خطي باستخدام علامات البيانات في Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="البحث عن نوع قيم X وY في نقاط الرسم البياني" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="الحصول على عنوان فرعي للمخطط من ملف ODS باستخدام Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="تعديل شكل تسمية بيانات الرسم البياني في Excel" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="إنشاء مخطط Excel باستخدام Aspose.Cells لـ .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [رسم الكائنات باستخدام Aspose.Cells لـ .NET](./net/drawing-objects/)
 تعلّم كيفية إنشاء وتخصيص وإدارة المخططات البيانية في تطبيقات .NET باستخدام Aspose.Cells. استكشف أنواعًا مختلفة من المخططات البيانية من خلال أمثلة سهلة وفعّالة.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="تعديل تسميات كائنات Ole في Excel باستخدام Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="إنشاء ملفات Excel وحفظها باستخدام Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="تعديل محاذاة نص الشكل في Excel باستخدام Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="معالجة ترتيب Z للأشكال في Excel باستخدام Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="إنشاء مصنف Excel باستخدام الخطوط اللاتينية والشرق الأقصى" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="تعبئة نسيج البلاط في Excel باستخدام Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [التنسيق في Aspose.Cells لـ .NET - الأنماط والألوان والمزيد](./net/formatting/)
 تعرف على كيفية تطبيق التنسيق في Aspose.Cells لـ .NET، بما في ذلك الأنماط والألوان والخطوط والحدود والمزيد لتقارير Excel الاحترافية.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="إضافة حدود إلى نطاق في Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="تطبيق الألوان والخلفيات في Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="دمج الخلايا في Excel باستخدام Aspose.Cells لـ .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="تعيين لون الخط في خلايا Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="تعيين اسم الخط في Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="تعيين حجم الخط في Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="محاذاة النص أفقيًا في Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="التفاف النص في خلايا Excel باستخدام Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [جداول المحور في Aspose.Cells لـ .NET](./net/pivot-tables/)
 تعلّم كيفية إنشاء جداول محورية وتنسيقها وإدارتها في Aspose.Cells لـ .NET. أنشئ تقارير ديناميكية وحلل البيانات بسهولة باستخدام C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="إنشاء جدول محوري في Excel باستخدام Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="حفظ جدول محوري بتنسيق ODS في Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 وفيما يلي روابط لبعض الموارد المفيدة:
@@ -181,8 +212,10 @@
 
 
 ## دروس Aspose.Cells لـ Java
+
 {{% alert color="primary" %}}
 استكشف دروس Aspose.Cells لجافا. أتقن التعامل مع ملفات Excel مع أمثلة برمجية. حسّن مهاراتك في جافا اليوم!
+
 {{% /alert %}}
 
 وفيما يلي روابط لبعض الموارد المفيدة:
@@ -219,6 +252,7 @@
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

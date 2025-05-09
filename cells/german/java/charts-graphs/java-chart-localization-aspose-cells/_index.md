@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Entdecken Sie weitere Anpassungsmöglichkeiten und erwägen Sie die Integration 
 Begeben Sie sich auf die Reise, um Diagramme effektiv mit Aspose.Cells zu lokalisieren und so die Reichweite und Wirkung Ihrer Java-Anwendungen zu verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ För att följa den här handledningen effektivt behöver du:
 
 - **Bibliotek och beroenden:** Aspose.Cells för Java (version 25.3) krävs.
 - **Miljöinställningar:** Grundläggande kunskaper i Java-utvecklingsmiljöer som Maven eller Gradle är nödvändiga.
-- **Kunskapsförkunskaper:** Bekantskap med Excel-diagramstrukturer och grundläggande Java-programmeringskoncept.
+- **Kunskapsförkunskapskrav:** Bekantskap med Excel-diagramstrukturer och grundläggande Java-programmeringskoncept.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -81,7 +83,7 @@ public class ExcelThemeApplication {
 
 ## Implementeringsguide
 
-I det här avsnittet går vi igenom processen för att tillämpa teman på en Excel-diagramserie.
+det här avsnittet går vi igenom processen för att tillämpa teman på en Excel-diagramserie.
 
 ### Steg 1: Ladda din Excel-fil
 
@@ -141,7 +143,7 @@ workbook.save(outDir + "/AThemes_out.xlsx");
 
 Tematiska diagram kan användas i olika scenarier, till exempel:
 - **Finansiella rapporter:** Förbättra läsbarheten och det estetiska tilltalandet i presentationer av finansiella data.
-- **Marknadsföringsinstrumentpaneler:** Skapa visuellt sammanhängande dashboards som överensstämmer med varumärkets färger.
+- **Marknadsföringsdashboards:** Skapa visuellt sammanhängande dashboards som överensstämmer med varumärkets färger.
 - **Utbildningsmaterial:** Gör läromedel mer engagerande genom att använda tematiska visuella element.
 
 ## Prestandaöverväganden
@@ -185,6 +187,9 @@ Du har lärt dig hur du tillämpar teman på en diagramserie med Aspose.Cells f�
 - **Stöd:** [Aspose-forumet](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

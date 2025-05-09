@@ -1,131 +1,135 @@
 ---
-title: Membuat Efek Coretan pada Teks di Excel
-linktitle: Membuat Efek Coretan pada Teks di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menerapkan efek coretan pada teks di Excel dengan Aspose.Cells untuk .NET dalam tutorial langkah demi langkah terperinci ini.
-weight: 15
-url: /id/net/working-with-fonts-in-excel/creating-strike-out-effect/
+"description": "Tanuld meg, hogyan alkalmazhatsz áthúzott effektust szövegre Excelben az Aspose.Cells for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban."
+"linktitle": "Áthúzott effektus létrehozása szövegre Excelben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Áthúzott effektus létrehozása szövegre Excelben"
+"url": "/id/net/working-with-fonts-in-excel/creating-strike-out-effect/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Efek Coretan pada Teks di Excel
+# Áthúzott effektus létrehozása szövegre Excelben
 
-## Perkenalan
-Dalam Excel, elemen visual sama pentingnya dengan data itu sendiri. Baik Anda menyorot perubahan penting atau menandai item yang tidak lagi relevan, efek coretan pada teks adalah cara klasik untuk mengelola representasi visual dalam spreadsheet. Dalam panduan ini, kami akan memandu Anda melalui proses penerapan efek coretan pada teks di Excel menggunakan Aspose.Cells for .NET. Tutorial ini tidak hanya akan membahas prasyarat yang diperlukan tetapi juga akan memberikan pendekatan langkah demi langkah untuk memastikan Anda dapat meniru efek ini dengan mudah.
-## Prasyarat
-Sebelum memulai tutorial, pastikan Anda telah memenuhi prasyarat berikut:
-1. Lingkungan Pengembangan: Anda harus menyiapkan lingkungan pengembangan .NET. Ini bisa berupa Visual Studio atau IDE lain yang Anda sukai yang mendukung pengembangan .NET.
-2. Aspose.Cells untuk .NET: Pastikan Anda telah menginstal Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari tautan berikut:[Unduh Aspose.Cells](https://releases.aspose.com/cells/net/).
-3. Pengetahuan Dasar C#: Pemahaman mendasar tentang pemrograman C# sangat membantu karena contoh-contohnya akan dikodekan dalam C#.
-4. .NET Framework: Pastikan proyek Anda menargetkan versi .NET Framework yang kompatibel, biasanya .NET Core atau .NET Framework 4.5 dan yang lebih baru.
-## Paket Impor
-Sebelum Anda menulis kode apa pun, Anda perlu mengimpor namespace yang diperlukan dari Aspose.Cells. Hal ini penting untuk mengakses berbagai fitur yang disediakan oleh pustaka. Berikut ini cara mengimpor namespace yang diperlukan:
+## Bevezetés
+Az Excelben a vizuális elemek ugyanolyan fontosak, mint maguk az adatok. Akár fontos változtatásokat emelsz ki, akár már nem releváns elemeket jelölsz meg, a szöveg áthúzott effektusa klasszikus módja a vizuális ábrázolás kezelésének a táblázatokban. Ebben az útmutatóban végigvezetünk a szöveg áthúzott effektusának Excelben történő megvalósításán az Aspose.Cells for .NET használatával. Ez az oktatóanyag nemcsak a szükséges előfeltételeket ismerteti, hanem lépésről lépésre bemutatja, hogyan biztosíthatod, hogy ezt az effektust könnyedén reprodukálhasd.
+## Előfeltételek
+Mielőtt belemerülnél az oktatóanyagba, győződj meg róla, hogy teljesülnek a következő előfeltételek:
+1. Fejlesztői környezet: Rendelkeznie kell egy beállított .NET fejlesztői környezettel. Ez lehet a Visual Studio vagy bármilyen más IDE, amely támogatja a .NET fejlesztést.
+2. Aspose.Cells .NET-hez: Győződjön meg róla, hogy az Aspose.Cells telepítve van a projektjében. Letöltheti a következő linkről: [Aspose.Cells letöltése](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: A C# programozás alapvető ismerete hasznos, mivel a példák C#-ban lesznek kódolva.
+4. .NET-keretrendszer: Győződjön meg arról, hogy a projektje egy kompatibilis .NET-keretrendszer-verziót céloz meg, általában a .NET Core-t vagy a .NET-keretrendszer 4.5-ös vagy újabb verzióját.
+## Csomagok importálása
+Mielőtt bármilyen kódot írnál, importálnod kell a szükséges névtereket az Aspose.Cells-ből. Ez elengedhetetlen a könyvtár által biztosított különféle funkciók eléréséhez. Így importálhatod a szükséges névtereket:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Dengan impor ini, Anda akan memiliki akses ke kelas Buku Kerja, Lembar Kerja, dan Gaya yang akan digunakan di seluruh tutorial ini.
-Setelah kita menyiapkan langkah-langkahnya, mari kita bagi prosesnya menjadi beberapa langkah yang mudah dikelola. Setiap langkah akan disertai dengan petunjuk yang jelas untuk memandu Anda dalam membuat efek coretan pada teks di Excel.
-## Langkah 1: Tentukan Direktori Dokumen
-Mulailah dengan menentukan jalur penyimpanan dokumen Excel Anda. Ini akan menjadi lokasi penyimpanan berkas output Anda.
+Ezekkel az importálással hozzáférhetsz a Munkafüzet, Munkalap és Stílus osztályokhoz, amelyeket ebben az oktatóanyagban használni fogsz.
+Most, hogy előkészítettük a terepet, bontsuk le a folyamatot kezelhető lépésekre. Minden lépéshez világos utasítások tartoznak, amelyek végigvezetnek az áthúzott effektus létrehozásán a szövegen az Excelben.
+## 1. lépés: A dokumentumkönyvtár meghatározása
+Kezd azzal, hogy megadod az elérési utat, ahová az Excel-dokumentumaid tárolásra kerülnek. Ez lesz a kimeneti fájlok mentési helye.
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur direktori aktual tempat Anda ingin menyimpan berkas Excel. Ini akan menyiapkan direktori untuk keluaran Anda.
-## Langkah 2: Buat Direktori
-Selanjutnya, Anda perlu memastikan bahwa direktori yang Anda tentukan pada langkah sebelumnya ada. Jika tidak ada, Anda dapat membuatnya secara terprogram.
+Csere `"Your Document Directory"` a tényleges könyvtár elérési útjával, ahová az Excel-fájlt menteni szeretné. Ez beállítja a kimenet könyvtárát.
+## 2. lépés: A könyvtár létrehozása
+Ezután meg kell győződnie arról, hogy az előző lépésben megadott könyvtár létezik. Ha nem létezik, programozottan létrehozhatja.
 ```csharp
-// Buat direktori jika belum ada.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-Kode ini memeriksa apakah direktori tersebut ada dan membuatnya jika tidak ada. Ini membantu menghindari kesalahan saat Anda mencoba menyimpan berkas Anda nanti.
-## Langkah 3: Membuat Instansi Objek Buku Kerja
-Sekarang, saatnya membuat objek Workbook baru. Ini adalah dasar dari file Excel Anda, tempat Anda akan menambahkan data dan menerapkan format.
+Ez a kód ellenőrzi, hogy létezik-e a könyvtár, és létrehozza, ha nem. Ez segít elkerülni a hibákat, amikor később megpróbálod menteni a fájlt.
+## 3. lépés: Munkafüzet-objektum példányosítása
+Most itt az ideje létrehozni egy új Workbook objektumot. Ez az Excel-fájl alapja, ahová adatokat fogsz hozzáadni és formázásokat alkalmazni.
 ```csharp
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
- Itu`Workbook` class merupakan file Excel. Dengan membuat instance dari class ini, pada dasarnya Anda membuat dokumen Excel baru.
-## Langkah 4: Tambahkan Lembar Kerja Baru
-Setiap buku kerja dapat berisi beberapa lembar kerja. Mari kita lanjutkan dan buat lembar kerja baru di buku kerja Anda.
+A `Workbook` Az osztály egy Excel-fájlt jelöl. Az osztály egy példányának létrehozásával lényegében egy új Excel-dokumentumot hoz létre.
+## 4. lépés: Új munkalap hozzáadása
+Minden munkafüzet több munkalapot tartalmazhat. Hozzunk létre egy új munkalapot a munkafüzetünkben.
 ```csharp
-// Menambahkan lembar kerja baru ke objek Excel
+// Új munkalap hozzáadása az Excel objektumhoz
 int i = workbook.Worksheets.Add();
 ```
- Itu`Add` metode dari`Worksheets` koleksi menambahkan lembar kerja baru ke buku kerja dan mengembalikan indeksnya. 
-## Langkah 5: Dapatkan Referensi Lembar Kerja Baru
-Setelah Anda membuat lembar kerja, Anda perlu merujuknya untuk operasi mendatang.
+A `Add` a módszer `Worksheets` A gyűjtemény egy új munkalapot ad hozzá a munkafüzethez, és visszaadja annak indexét. 
+## 5. lépés: Az új munkalap referenciájának beszerzése
+Miután létrehozta a munkalapot, a jövőbeni műveletekhez hivatkoznia kell rá.
 ```csharp
-// Mendapatkan referensi lembar kerja yang baru ditambahkan dengan meneruskan indeks lembar kerjanya
+// Az újonnan hozzáadott munkalap hivatkozásának lekérése a munkalap indexének átadásával
 Worksheet worksheet = workbook.Worksheets[i];
 ```
-Di sini, Anda mengambil lembar kerja yang baru dibuat menggunakan indeksnya (`i`). Ini memberi Anda akses untuk memanipulasi lembar kerja.
-## Langkah 6: Akses Sel
- Anda ingin mengakses sel tertentu di lembar kerja Anda tempat Anda akan menerapkan format coretan. Dalam contoh ini, kami menggunakan sel`A1`.
+Itt az újonnan létrehozott munkalapot az indexe (`i`). Ez hozzáférést biztosít a munkalap kezeléséhez.
+## 6. lépés: Hozzáférés egy cellához
+A munkalapon egy adott cellára kell férnie, amelyre az áthúzott formátumot alkalmazni fogja. Ebben a példában a cella `A1`.
 ```csharp
-// Mengakses sel "A1" dari lembar kerja
+// Az „A1” cella elérése a munkalapról
 Aspose.Cells.Cell cell = worksheet.Cells["A1"];
 ```
- Di Excel, sel dirujuk dengan pengidentifikasi kolom dan barisnya (misalnya, "A1"). Kita memperoleh referensi ke sel`A1` untuk manipulasi lebih lanjut.
-## Langkah 7: Tambahkan Nilai ke Sel
- Selanjutnya, mari masukkan beberapa teks ke dalam sel. Kita akan menulis “Hello Aspose!” di sel`A1`.
+Az Excelben a cellákra oszlop- és sorazonosítóikkal hivatkozunk (pl. „A1”). Egy cellára mutató hivatkozást kapunk. `A1` további manipulációhoz.
+## 7. lépés: Érték hozzáadása a cellához
+Ezután illesszünk be szöveget a cellába. Írjuk be a „Hello Aspose!” szöveget a cellába. `A1`.
 ```csharp
-// Menambahkan beberapa nilai ke sel "A1"
+// Érték hozzáadása az "A1" cellához
 cell.PutValue("Hello Aspose!");
 ```
- Itu`PutValue` Metode ini digunakan untuk menetapkan nilai string ke sel. Anda dapat mengubah string ini menjadi apa pun yang ingin Anda tampilkan.
-## Langkah 8: Dapatkan Gaya Sel
-Sekarang setelah kita memiliki teks di sel kita, saatnya mengakses gaya sel untuk menerapkan pemformatan yang kita inginkan, termasuk efek coretan.
+A `PutValue` A metódus karakterláncérték cellához rendelésére szolgál. Ezt a karakterláncot bármilyen megjeleníteni kívánt értékre módosíthatja.
+## 8. lépés: A cella stílusának megszerzése
+Most, hogy van szöveg a cellánkban, itt az ideje, hogy hozzáférjünk a cella stílusához, hogy alkalmazzuk a kívánt formázást, beleértve az áthúzott effektust is.
 ```csharp
-// Mendapatkan gaya sel
+// A cella stílusának megszerzése
 Style style = cell.GetStyle();
 ```
- Itu`GetStyle` metode mengambil gaya sel saat ini, yang memungkinkan Anda mengubah properti seperti jenis font, ukuran, dan efek.
-## Langkah 9: Mengatur Efek Coretan
-Mari terapkan efek strikeout pada teks di dalam sel. Kita akan mengubah gaya font sel.
+A `GetStyle` A metódus lekéri a cella aktuális stílusát, lehetővé téve olyan tulajdonságok módosítását, mint a betűtípus, méret és az effektek.
+## 9. lépés: Állítsa be az áthúzás effektust
+Alkalmazzuk az áthúzott effektust a cella szövegére. Módosítjuk a cella betűstílusát.
 ```csharp
-// Mulai:AturCoretan
-// Mengatur efek coretan pada font
+// ExStart:Áthúzás beállítása
+// A betűtípus áthúzott effektusának beállítása
 style.Font.IsStrikeout = true;
-// ExEnd:TetapkanCoret
+// ExEnd:Áthúzott_beállítás
 ```
- Dengan pengaturan`IsStrikeout` menjadi benar, Anda memerintahkan Excel untuk mencoret teks secara visual pada sel yang dipilih - seperti menandai sesuatu secara visual dari daftar.
-## Langkah 10: Terapkan Gaya ke Sel
-Setelah mengubah gaya, Anda perlu menerapkannya kembali ke sel untuk mencerminkan perubahan.
+Beállítással `IsStrikeout` Ha igazra állítod, akkor arra utasítod az Excelt, hogy vizuálisan húzza át a kijelölt cellában lévő áthúzott szöveget – hasonlóan ahhoz, mintha vizuálisan megjelölne valamit egy listából.
+## 10. lépés: Stílus alkalmazása a cellára
+A stílus módosítása után vissza kell alkalmazni a cellára, hogy a változtatások tükröződjenek.
 ```csharp
-// Menerapkan gaya ke sel
+// Stílus alkalmazása a cellára
 cell.SetStyle(style);
 ```
- Itu`SetStyle` metode memperbarui sel dengan gaya baru, yang sekarang menyertakan format coretan.
-## Langkah 11: Simpan File Excel
- Akhirnya, saatnya untuk menyimpan buku kerja Anda ke direktori yang ditentukan. Dalam contoh ini, kami menyimpan file dengan nama`book1.out.xls`.
+A `SetStyle` A metódus frissíti a cellát az új stílussal, amely mostantól tartalmazza az áthúzott formázást is.
+## 11. lépés: Mentse el az Excel-fájlt
+Végül itt az ideje, hogy mentse a munkafüzetet a megadott könyvtárba. Ebben a példában a fájlt a következő néven mentjük: `book1.out.xls`.
 ```csharp
-// Menyimpan file Excel
+// Az Excel fájl mentése
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
- Itu`Save`metode ini menulis buku kerja ke disk dalam format Excel 97-2003. Anda dapat menentukan format yang berbeda jika diperlukan.
-## Kesimpulan
-Membuat efek coretan pada teks di Excel menggunakan Aspose.Cells for .NET merupakan proses yang mudah jika Anda menguraikannya langkah demi langkah. Dengan mengikuti panduan ini, Anda kini memiliki keterampilan untuk menyempurnakan lembar kerja Anda dengan isyarat visual, menjadikan data Anda tidak hanya informatif tetapi juga menarik secara visual.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka yang hebat untuk mengelola file Excel dalam aplikasi .NET, yang memungkinkan Anda membuat, memanipulasi, dan mengonversi dokumen Excel secara terprogram.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat menggunakannya secara gratis selama masa uji coba. Uji coba gratis tersedia di[Uji Coba Gratis Aspose.Cells](https://releases.aspose.com/).
-### Bagaimana cara membeli Aspose.Cells?
- Anda dapat membeli lisensi untuk Aspose.Cells melalui situs web mereka[Beli Aspose.Cells](https://purchase.aspose.com/buy).
-### Apakah ada contoh yang tersedia untuk penggunaan Aspose.Cells?
- Ya, Anda dapat menemukan banyak contoh dan potongan kode di[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).
-### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan dan bantuan komunitas dari[Forum Aspose](https://forum.aspose.com/c/cells/9).
+A `Save` A metódus a munkafüzetet 97-2003-as Excel formátumban írja a lemezre. Szükség esetén más formátumokat is megadhat.
+## Következtetés
+Az Aspose.Cells for .NET segítségével az Excelben szövegre áthúzott effektus létrehozása lépésről lépésre egyszerűen elvégezhető. Ezt az útmutatót követve most már elsajátíthatod a szükséges készségeket ahhoz, hogy vizuális jelzésekkel gazdagítsd a táblázataidat, így az adataid nemcsak informatívak, hanem vizuálisan is vonzóak is lesznek.
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony függvénykönyvtár Excel-fájlok .NET-alkalmazásokban történő kezeléséhez, amely lehetővé teszi Excel-dokumentumok programozott létrehozását, kezelését és konvertálását.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, ingyenesen használhatod próbaidőszak alatt. Az ingyenes próbaverzió elérhető a következő címen: [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/).
+### Hogyan vásárolhatom meg az Aspose.Cells-t?
+Az Aspose.Cells licencét a weboldalukon keresztül vásárolhatja meg. [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy).
+### Vannak elérhető példák az Aspose.Cells használatára?
+Igen, rengeteg példát és kódrészletet találhatsz a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/).
+### Hol kaphatok támogatást az Aspose.Cells-hez?
+Közösségi támogatást és segítséget kaphatsz a [Aspose Fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

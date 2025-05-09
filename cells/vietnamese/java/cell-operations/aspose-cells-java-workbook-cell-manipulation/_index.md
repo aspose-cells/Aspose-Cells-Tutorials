@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,7 +174,7 @@ Trong suốt hướng dẫn này, chúng tôi đã đề cập đến những đ
 **H: Aspose.Cells có thể xử lý các tệp Excel lớn một cách hiệu quả không?**
 A: Có, nó cung cấp API phát trực tuyến để quản lý bộ nhớ tốt hơn khi xử lý các tập dữ liệu lớn.
 
-**H: Làm thế nào để áp dụng kiểu tùy chỉnh cho ô?**
+**H: Làm thế nào để áp dụng kiểu tùy chỉnh vào ô?**
 A: Sử dụng `Style` đối tượng liên kết với mỗi ô để tùy chỉnh phông chữ, màu sắc và đường viền.
 
 **H: Aspose.Cells có hỗ trợ công thức không?**
@@ -195,6 +197,9 @@ A: Có, Aspose.Cells hỗ trợ xuất sang nhiều định dạng khác nhau nh
 Bằng cách tận dụng các khả năng của Aspose.Cells for Java, bạn có thể cải thiện đáng kể khả năng tạo và thao tác các tệp Excel theo chương trình. Hãy bắt đầu khám phá các tính năng của nó ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

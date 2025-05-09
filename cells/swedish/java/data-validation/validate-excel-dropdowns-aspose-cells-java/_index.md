@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ if (validation.getInCellDropDown()) {
 Efter valideringskontroller, skriv ut ett meddelande om slutförande för att indikera att körningen lyckades.
 
 #### Översikt
-Den här funktionen fungerar som feedback på att din valideringslogik i listrutan har körts utan fel.
+Den här funktionen fungerar som feedback på att din valideringslogik för listrutan har körts utan fel.
 
 ##### Implementeringssteg
 **1. Meddelande om lyckad utskrift**
@@ -194,6 +196,9 @@ Du har nu lärt dig hur du validerar Excel-rullgardinsmenyer med Aspose.Cells f�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

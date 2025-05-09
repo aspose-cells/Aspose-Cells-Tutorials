@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ Ez a szakasz bemutatja, hogyan méretezhetők át a diagram adatcímkéi az Aspo
 
 #### A munkafüzet betöltése
 
-Kezdje azzal, hogy betölti az Excel fájlt, amely a módosítani kívánt diagramokat tartalmazza:
+Kezdje azzal, hogy betölti az Excel fájlt, amely tartalmazza a módosítani kívánt diagramokat:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -114,7 +116,7 @@ public class ResizeChartDataLabelShapeToFitText {
     public static void main(String[] args) throws Exception {
         // (Munkafüzet kódjának betöltése ide...)
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet sheet = book.getWorksheets().get(0);
         
         // Az összes diagram lekérése a munkalapról
@@ -156,13 +158,13 @@ public class ResizeChartDataLabelShapeToFitText {
 ### Hibaelhárítási tippek
 
 - **Diagram nem frissül**: Mindenképpen hívd fel `chart.calculate()` a címke tulajdonságainak módosítása után.
-- **Licencproblémák**Korlátozások esetén ellenőrizze a licencbeállításokat, vagy használja az ideiglenes licenc opciót a teljes funkcionalitás eléréséhez.
+- **Licencproblémák**Korlátozások esetén ellenőrizze a licenc beállításait, vagy használja az ideiglenes licenc opciót a teljes funkcionalitás eléréséhez.
 
 ## Gyakorlati alkalmazások
 
 Íme néhány valós alkalmazás a diagram adatcímkéinek automatikus átméretezésére:
 
-1. **Pénzügyi jelentések**: A feliratok automatikus beállítása a pénzügyi diagramokon belüli változó pénznemértékekhez és százalékokhoz igazodva.
+1. **Pénzügyi jelentések**: A feliratok automatikus beállítása a pénzügyi diagramokon belüli változó pénznemértékekhez és százalékokhoz igazodik.
 2. **Értékesítési irányítópultok**Gondoskodjon arról, hogy az értékesítési táblázatokban szereplő terméknevek vagy leírások hosszuktól függetlenül olvashatók maradjanak.
 3. **Akadémiai kutatás**: Az összetett adathalmazokban, ahol a címkék hossza jelentősen eltér, megőrizhető az érthetőség.
 
@@ -204,6 +206,9 @@ következő lépések magukban foglalhatják az Aspose.Cells további diagram-te
 Böngészd át ezeket az erőforrásokat, hogy elmélyítsd az Aspose.Cells Java-val kapcsolatos ismereteidet és képességeidet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -131,7 +133,7 @@ Mostanra már magabiztosan testreszabhatja a diagramjelmagyarázatokat az Aspose
 **Következő lépések**Próbáld meg megvalósítani ezt a megoldást a következő projektedben, vagy fedezd fel az Aspose.Cells-ben elérhető fejlettebb testreszabási lehetőségeket.
 
 ## GYIK szekció
-1. **Hogyan igényelhetek ideiglenes engedélyt?**
+1. **Hogyan igényelhetek ideiglenes jogosítványt?**
    - Látogassa meg a [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/) oldalt, és kövesse az utasításokat a kódban való alkalmazásához.
 2. **Használhatom ezt a funkciót különböző verziójú Excel-fájlokkal?**
    - Igen, az Aspose.Cells számos Excel formátumot támogat, beleértve az XLSX-et, XLS-t stb.
@@ -150,6 +152,9 @@ Mostanra már magabiztosan testreszabhatja a diagramjelmagyarázatokat az Aspose
 - **Támogatás**Segítségért látogassa meg a következőt: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 No ambiente atual centrado em dados, automatizar tarefas do Microsoft Excel usando Java pode aumentar significativamente a produtividade e economizar tempo. Seja você um desenvolvedor que busca otimizar operações ou um profissional de negócios que busca otimizar fluxos de trabalho, dominar o Aspose.Cells para Java é essencial para o gerenciamento eficaz de arquivos do Excel. Este tutorial o guiará pelos principais recursos do Aspose.Cells com Java, com foco na exibição de versões, criação de pastas de trabalho, carregamento de arquivos com macros VBA e formulários de usuário, cópia de planilhas e módulos VBA e salvamento eficiente de modificações.
 
-## que você aprenderá
+## O que você aprenderá
 - Exibir a versão atual do Aspose.Cells para Java
 - Crie uma pasta de trabalho vazia do Excel
 - Carregar arquivos Excel existentes contendo macros VBA e formulários de usuário
@@ -234,6 +236,9 @@ Este tutorial oferece um guia completo sobre como usar o Aspose.Cells para Java 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

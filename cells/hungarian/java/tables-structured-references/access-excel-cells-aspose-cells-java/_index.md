@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ public class AccessCellByName {
         // Munkafüzet objektum inicializálása
         Workbook workbook = new Workbook(dataDir);
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet worksheet = workbook.getWorksheets().get(0);
         
         // Folytassa a cellaműveleteket...
@@ -118,7 +120,7 @@ Az integrációs lehetőségek közé tartozik az Excel-adatok adatbázisokhoz v
 
 ## Teljesítménybeli szempontok
 Az Aspose.Cells használatakor vegye figyelembe az alábbi teljesítménynövelő tippeket:
-- **Erőforrás-felhasználás optimalizálása:** Hatékonyan kezelheti a memóriát a már nem szükséges objektumok megsemmisítésével.
+- **Erőforrás-felhasználás optimalizálása:** Hatékonyan kezelheti a memóriát a már nem szükséges objektumok eltávolításával.
 - **Kötegelt feldolgozás:** Nagy adathalmazok kötegelt feldolgozása a memóriafogyasztás minimalizálása érdekében.
 - **Java memóriakezelés:** Használja hatékonyan a Java szemétgyűjtési funkcióit a nagyméretű Excel fájlok kezeléséhez.
 
@@ -132,7 +134,7 @@ Fedezze fel az Aspose.Cells további funkcióit, például diagramok létrehozá
 1. **Mi az előnye a cellák név szerinti elérésének?**
    - Ezáltal a kód olvashatóbb és könnyebben karbantartható.
 2. **Használhatom az Aspose.Cells-t teljes licenc nélkül?**
-   - Igen, kipróbálási célból ingyenes próbalicenccel kezdhet.
+   - Igen, ingyenes próbalicenccel kezdhet értékelési célokra.
 3. **Hogyan kezelhetem az elnevezett tartományokat az Aspose.Cells-ben?**
    - Az elnevezett tartományokat előre kell definiálni az Excelben, vagy programozottan kell létrehozni az Aspose API-jával.
 4. **Melyek a memóriakezelés legjobb gyakorlatai nagy fájlokkal való munka során?**
@@ -149,6 +151,9 @@ Fedezze fel az Aspose.Cells további funkcióit, például diagramok létrehozá
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

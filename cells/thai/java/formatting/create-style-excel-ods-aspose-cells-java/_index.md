@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Aspose.Cells เสนอบริการทดลองใช้งานฟ�
 3. **ซื้อ**:สำหรับการใช้งานระยะยาว ให้ซื้อใบอนุญาตผ่าน [การซื้อ Aspose](https://purchase-aspose.com/buy).
 
 ### การเริ่มต้นและการตั้งค่าเบื้องต้น
-วิธีการเริ่มต้นใช้งาน Aspose.Cells:
+ในการเริ่มต้นใช้งาน Aspose.Cells:
 ```java
 import com.aspose.cells.Workbook;
 // สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
@@ -171,6 +173,9 @@ workbook.save(outDir + "/ColoredBackground.ods", com.aspose.cells.SaveFormat.ODS
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

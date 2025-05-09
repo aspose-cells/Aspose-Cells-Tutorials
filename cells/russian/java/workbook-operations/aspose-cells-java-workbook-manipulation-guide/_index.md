@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## Предпосылки
 
 Для выполнения этого руководства убедитесь, что у вас есть следующее:
-- **Требуемые библиотеки:** Библиотека Aspose.Cells для Java версии 25.3 или более поздней.
+- **Необходимые библиотеки:** Библиотека Aspose.Cells для Java версии 25.3 или более поздней.
 - **Среда разработки:** Установленный Java Development Kit (JDK) и подходящая среда разработки, например IntelliJ IDEA или Eclipse.
 - **Необходимые знания:** Базовые знания программирования на Java и знакомство с операциями с файлами Excel.
 
@@ -200,6 +202,9 @@ workbook.save(outDir + "/SetFontStyle_out.xls", FileFormatType.EXCEL_97_TO_2003)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

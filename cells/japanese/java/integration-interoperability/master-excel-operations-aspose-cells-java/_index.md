@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ Aspose.Cells を使用して、既存の Excel ファイルを効率的に読み
 **説明：**
 このコードは、最初のワークシート内のすべての列をその内容に基づいて自動的に調整し、レイアウトと読みやすさを向上させます。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 1. **財務報告:**
    財務データの小計計算を自動化し、レポートプロセスを効率化します。
@@ -201,7 +203,7 @@ Aspose.Cells を使用する際のパフォーマンスを最適化するには:
 **次のステップ:**
 - Aspose.Cells の他の機能を試してみましょう。
 - 高度な構成とカスタマイズを調べます。
-- フィードバックや質問を共有する [Aspose サポートフォーラム](https://forum。aspose.com/c/cells/9).
+- フィードバックや質問は、 [Aspose サポートフォーラム](https://forum。aspose.com/c/cells/9).
 
 ## FAQセクション（H2）
 
@@ -225,6 +227,9 @@ Aspose.Cells を使用する際のパフォーマンスを最適化するには:
 - [Aspose.Cells for Java GitHub リポジトリ](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

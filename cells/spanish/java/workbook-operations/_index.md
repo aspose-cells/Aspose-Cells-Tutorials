@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ Un tutorial de código para Aspose.Words Java
 ### [Exportar Excel a HTML conservando estilos de borde usando Aspose.Cells para Java](./aspose-cells-java-export-excel-html-border-styles/)
 Aprenda a exportar archivos de Excel a HTML con estilos de borde uniformes usando Aspose.Cells para Java. Siga esta guía para configurar e implementar opciones de guardado avanzadas.
 
-### [Exportar Excel a XPS con Aspose.Cells para Java: Guía paso a paso](./aspose-cells-java-export-excel-xps/)
+### [Exportar Excel a XPS con Aspose.Cells para Java: guía paso a paso](./aspose-cells-java-export-excel-xps/)
 Aprenda a exportar archivos de Excel a formato XPS de forma eficiente con Aspose.Cells para Java. Esta guía completa explica cómo cargar, configurar opciones y renderizar libros.
 
 ### [Gestión de advertencias de sustitución de fuentes en Aspose.Cells para Java: una guía completa](./aspose-cells-java-font-substitution-warnings-guide/)
@@ -121,10 +123,10 @@ Aprenda a administrar versiones de libros de Excel y opciones de carga con Aspos
 Aprenda a usar la biblioteca Aspose.Cells en Java para procesar y manipular hojas de cálculo de OpenDocument (ODS). Esta guía abarca la configuración, la carga de hojas de cálculo, la extracción de la configuración de fondo y el guardado de imágenes.
 
 ### [Cómo abrir archivos FODS con Aspose.Cells para Java: una guía completa](./aspose-cells-java-open-fods-files/)
-Aprenda a abrir y manipular archivos FODS en Java con Aspose.Cells. Esta guía explica la configuración, las instrucciones paso a paso y las prácticas recomendadas.
+Aprenda a abrir y manipular archivos FODS en Java con Aspose.Cells. Esta guía abarca la configuración, instrucciones paso a paso y las mejores prácticas.
 
-### [Aspose.Cells para Java: Verificar la versión y los límites de Excel (XLS/XLSX)](./aspose-cells-java-version-max-rows-columns/)
-Aprenda a verificar Aspose.Cells para la versión de Java y a determinar el número máximo de filas/columnas en formatos XLS/XLSX. Domine las operaciones de libros de trabajo con la configuración de Maven/Gradle.
+### [Aspose.Cells para Java: Consultar la versión y los límites de Excel (XLS/XLSX)](./aspose-cells-java-version-max-rows-columns/)
+Aprenda a verificar la versión de Aspose.Cells para Java y a determinar el número máximo de filas/columnas en formatos XLS/XLSX. Domine las operaciones de libros de trabajo con la configuración de Maven/Gradle.
 
 ### [Guía completa para la gestión de libros de trabajo con Aspose.Cells Java](./aspose-cells-java-workbook-management/)
 Domine la gestión de libros de trabajo combinando archivos de Excel eficientemente con Aspose.Cells para Java. Aprenda técnicas de integración y optimización paso a paso.
@@ -165,7 +167,7 @@ Aprenda a convertir libros de Excel a PDF compatibles con PDFA-1a con Aspose.Cel
 ### [Convertir hojas de Excel a imágenes TIFF con Aspose.Cells para Java: una guía completa](./convert-excel-sheets-tiff-aspose-cells-java/)
 Aprenda a convertir hojas de Excel en imágenes TIFF de alta calidad con Aspose.Cells para Java. Esta guía explica cómo cargar libros, configurar opciones de imagen y renderizar hojas de cálculo de forma eficiente.
 
-### [Convertir hojas de Excel en imágenes con Aspose.Cells en Java: una guía completa](./convert-excel-sheets-to-images-aspose-cells-java/)
+### [Convertir hojas de Excel a imágenes con Aspose.Cells en Java: una guía completa](./convert-excel-sheets-to-images-aspose-cells-java/)
 Aprenda a convertir fácilmente hojas de Excel en imágenes de alta calidad con Aspose.Cells para Java. Perfecto para presentaciones, informes e integraciones web.
 
 ### [Convertir Excel a texto con Aspose.Cells para Java: una guía completa](./convert-excel-text-aspose-cells-java/)
@@ -183,7 +185,7 @@ Aprenda a convertir archivos de Excel a PDF optimizados con Aspose.Cells para Ja
 ### [Cómo convertir Excel a PDF en Java con Aspose.Cells: guía paso a paso](./convert-excel-to-pdf-aspose-cells-java/)
 Aprenda a convertir archivos de Excel en PDF de alta calidad sin problemas con Aspose.Cells para Java. Esta guía explica la instalación, la configuración y las prácticas recomendadas.
 
-### [Convertir Excel a PDF con Ajustar Columnas en Java usando Aspose.Cells](./convert-excel-to-pdf-fit-columns-java/)
+### [Convertir Excel a PDF con la función Ajustar columnas en Java usando Aspose.Cells](./convert-excel-to-pdf-fit-columns-java/)
 Aprenda a convertir sin problemas archivos de Excel a PDF con todas las columnas encajadas en una página usando Aspose.Cells para Java.
 
 ### [Convertir Excel a PNG con Aspose.Cells para Java: guía paso a paso](./convert-excel-to-png-aspose-cells-java/)
@@ -376,7 +378,7 @@ Aprenda a gestionar la recuperación automática de libros de Excel en Java con 
 Aprenda a limitar el número de páginas en archivos PDF generados a partir de archivos de Excel con Aspose.Cells para Java. Esta guía ofrece instrucciones paso a paso y aplicaciones prácticas.
 
 ### [Cómo cargar un archivo CSV con Aspose.Cells para Java: una guía completa](./load-csv-aspose-cells-java-tutorial/)
-Aprenda a cargar y manipular archivos CSV de forma eficiente con Aspose.Cells para Java. Siga esta guía paso a paso para mejorar su gestión de datos.
+Aprenda a cargar y manipular archivos CSV eficientemente con Aspose.Cells para Java. Siga esta guía paso a paso para mejorar su gestión de datos.
 
 ### [Administrar libros de trabajo y segmentaciones de datos de Excel con Aspose.Cells para Java: una guía completa](./manage-excel-workbooks-aspose-cells-java/)
 Aprenda a automatizar la gestión de libros de trabajo en Java con Aspose.Cells. Esta guía explica cómo cargar archivos, acceder a hojas de trabajo, eliminar segmentaciones de datos y guardar cambios.
@@ -486,6 +488,9 @@ Aprenda a configurar y administrar propiedades de documentos, como el control de
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

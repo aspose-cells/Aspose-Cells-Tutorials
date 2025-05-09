@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,11 +191,14 @@ Aspose.Cells Java를 사용하여 피벗 테이블에서 특정 행을 로드, �
 ## 자원
 - **선적 서류 비치:** 심층 가이드에 액세스하세요 [Aspose의 참고문헌](https://reference.aspose.com/cells/java/).
 - **다운로드:** 최신 버전을 받으세요 [Aspose의 출시](https://releases.aspose.com/cells/java/).
-- **구입:** 전체 액세스를 위해서는 라이선스를 구매하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).
+- **구입:** 전체 액세스를 위해서는 라이센스를 구매하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).
 - **무료 체험:** 무료 체험판을 통해 기능을 테스트해보세요. [Aspose의 시련](https://releases.aspose.com/cells/java/).
 - **임시 면허:** 임시 라이센스를 취득하여 모든 기능을 탐색하세요. [아스포제](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automazione di Excel con Java
@@ -124,9 +126,11 @@ Aspose.Cells per Java ti consente di automatizzare le attività di Excel in modo
 ---
 
 Questa guida passo passo con esempi di codice sorgente dovrebbe fornirti una solida base per l'automazione di Excel in Java utilizzando Aspose.Cells. Buon divertimento con la programmazione e l'automazione delle tue attività in Excel!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

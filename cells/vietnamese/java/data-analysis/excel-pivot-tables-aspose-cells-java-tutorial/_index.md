@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,12 +38,12 @@ Trước khi bắt đầu, chúng ta hãy cùng tìm hiểu các điều kiện 
 
 ## Điều kiện tiên quyết
 Để thực hiện hướng dẫn này một cách hiệu quả, bạn sẽ cần:
-- **Thư viện bắt buộc:** Aspose.Cells cho Java phiên bản 25.3 trở lên.
+- **Thư viện cần thiết:** Aspose.Cells cho Java phiên bản 25.3 trở lên.
 - **Thiết lập môi trường:** Đảm bảo bạn đã cài đặt và cấu hình Java Development Kit (JDK) tương thích trên hệ thống của mình.
 - **Điều kiện tiên quyết về kiến thức:** Sự quen thuộc với các khái niệm lập trình Java sẽ có lợi nhưng không hoàn toàn bắt buộc.
 
 ## Thiết lập Aspose.Cells cho Java
-Để bắt đầu sử dụng Aspose.Cells for Java, bạn sẽ cần thêm nó như một phần phụ thuộc vào dự án của mình. Sau đây là cách thực hiện:
+Để bắt đầu sử dụng Aspose.Cells for Java, bạn sẽ cần thêm nó dưới dạng phụ thuộc vào dự án của mình. Sau đây là cách thực hiện:
 
 ### Maven
 Thêm đoạn mã sau vào `pom.xml` tài liệu:
@@ -176,6 +178,9 @@ Bước tiếp theo, hãy cân nhắc khám phá các tính năng bổ sung củ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

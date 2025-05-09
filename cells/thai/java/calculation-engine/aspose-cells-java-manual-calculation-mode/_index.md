@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 บทช่วยสอนนี้ควรช่วยให้คุณมีความรู้และเครื่องมือในการจัดการการคำนวณสูตรใน Aspose.Cells สำหรับ Java ได้อย่างมีประสิทธิภาพ ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -250,6 +252,9 @@ public class ReplaceTagsWithText {
 من خلال اتباع هذا الدليل، ستكون مجهزًا بشكل جيد للاستفادة من Aspose.Cells for Java في مشاريعك، مما يعزز الإنتاجية والدقة عند العمل مع ملفات Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

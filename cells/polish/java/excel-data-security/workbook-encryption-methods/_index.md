@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metody szyfrowania skoroszytu
@@ -16,7 +18,7 @@
 
 ## Wprowadzenie do metod szyfrowania skoroszytów
 
-W dzisiejszej erze cyfrowej bezpieczeństwo danych jest najważniejsze. Jeśli chodzi o obsługę poufnych informacji w skoroszytach programu Excel, szyfrowanie staje się krytycznym elementem. Aspose.Cells for Java, potężne API Java do pracy z plikami programu Excel, zapewnia różne metody zabezpieczania skoroszytów za pomocą szyfrowania. W tym kompleksowym przewodniku przyjrzymy się różnym metodom szyfrowania skoroszytów oferowanym przez Aspose.Cells for Java i pokażemy, jak wdrożyć je w aplikacjach Java.
+dzisiejszej erze cyfrowej bezpieczeństwo danych jest najważniejsze. Jeśli chodzi o obsługę poufnych informacji w skoroszytach programu Excel, szyfrowanie staje się krytycznym elementem. Aspose.Cells for Java, potężne API Java do pracy z plikami programu Excel, zapewnia różne metody zabezpieczania skoroszytów za pomocą szyfrowania. W tym kompleksowym przewodniku przyjrzymy się różnym metodom szyfrowania skoroszytów oferowanym przez Aspose.Cells for Java i pokażemy, jak wdrożyć je w aplikacjach Java.
 
 ## Zrozumienie szyfrowania skoroszytu
 
@@ -106,6 +108,7 @@ Aspose.Cells for Java koncentruje się głównie na skoroszytach Excela, ale mo�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Doporučujeme vám vyzkoušet implementaci těchto řešení a zjistit, jak vám
 
 ## Sekce Často kladených otázek
 1. **Jak si nastavím dočasnou licenci pro testování?**
-   - Návštěva [Dočasná licence Aspose](https://purchase.aspose.com/temporary-license/) postupujte podle poskytnutých pokynů.
+   - Návštěva [Dočasná licence Aspose](https://purchase.aspose.com/temporary-license/) a postupujte podle poskytnutých pokynů.
 2. **Mohu k obrázku přidat více řádků podpisu?**
    - Aspose.Cells v současné době podporuje přidání jednoho řádku podpisu na objekt obrázku.
 3. **Jaké formáty souborů podporuje Aspose.Cells?**
@@ -176,6 +178,9 @@ Doporučujeme vám vyzkoušet implementaci těchto řešení a zjistit, jak vám
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

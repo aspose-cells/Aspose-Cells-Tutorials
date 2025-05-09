@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,7 +45,7 @@ Vedd bele ezt a `build.gradle`:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 **Licenc beszerzése:** 
-Az Aspose.Cells ingyenes próbaverziót, ideiglenes licenceket tesztelési célokra, valamint vásárlási lehetőségeket kínál kereskedelmi használatra. Látogassa meg a következőt: [Aspose vásárlás](https://purchase.aspose.com/buy) a megfelelő engedély beszerzésével kapcsolatos további részletekért.
+Az Aspose.Cells ingyenes próbaverziót, ideiglenes licenceket tesztelési célokra, valamint kereskedelmi célú vásárlási lehetőségeket kínál. Látogassa meg a következőt: [Aspose vásárlás](https://purchase.aspose.com/buy) a megfelelő engedély beszerzésével kapcsolatos további részletekért.
 ### Alapvető inicializálás
 Miután beállítottad a projektedet az Aspose.Cells segítségével:
 1. Szükséges osztályok importálása:
@@ -102,10 +104,10 @@ workbook.save(outDir + "/CustomizingThemes_out.xlsx");
 ```
 ## Gyakorlati alkalmazások
 Az egyéni témaszínek különféle valós helyzetekben használhatók:
-1. **Vállalati arculat:** Igazítsa az Excel-jelentéseket a vállalati színsémákhoz az egységes arculat érdekében.
+1. **Vállalati arculat:** Az Excel-jelentések összehangolása a vállalati színsémákkal az egységes arculat érdekében.
 2. **Adatvizualizáció:** Növelje a diagramok és grafikonok vizuális vonzerejét és olvashatóságát.
 3. **Ügyfélprezentációk:** Készítsen vizuálisan lebilincselő prezentációkat, amelyek az ügyfél igényeihez igazodnak.
-4. **Oktatási anyagok:** Tervezzen olyan oktatási tartalmat, amely informatív és vonzó is egyben.
+4. **Oktatási anyagok:** Tervezzen olyan oktatási tartalmakat, amelyek informatívak és vonzóak is egyben.
 ## Teljesítménybeli szempontok
 Amikor Java-ban az Aspose.Cells-szel dolgozol, az optimális teljesítmény érdekében vedd figyelembe a következőket:
 - **Memóriakezelés:** A memória hatékony felhasználásának biztosítása az erőforrások felszabadításával, amikor már nincs rájuk szükség.
@@ -133,6 +135,9 @@ Ebben az oktatóanyagban megtanultad, hogyan valósíthatsz meg egyéni témasz�
 - Ideiglenes engedély: [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

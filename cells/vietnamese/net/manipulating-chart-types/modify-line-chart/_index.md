@@ -1,14 +1,16 @@
 ---
-title: Sửa đổi biểu đồ đường
-linktitle: Sửa đổi biểu đồ đường
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sửa đổi biểu đồ đường trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước này.
-weight: 15
-url: /vi/net/manipulating-chart-types/modify-line-chart/
+"description": "Tìm hiểu cách sửa đổi biểu đồ đường trong Excel bằng Aspose.Cells cho .NET với hướng dẫn chi tiết từng bước này."
+"linktitle": "Sửa đổi biểu đồ đường"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sửa đổi biểu đồ đường"
+"url": "/vi/net/manipulating-chart-types/modify-line-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sửa đổi biểu đồ đường
@@ -22,16 +24,16 @@ Tạo biểu đồ hấp dẫn và nhiều thông tin là điều cần thiết 
 Trước khi đi sâu vào chi tiết về việc sửa đổi biểu đồ, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu. Sau đây là các điều kiện tiên quyết cần thiết:
 
 ### Cài đặt Visual Studio
- Bạn sẽ cần Visual Studio được cài đặt trên máy của mình để viết và chạy mã C# hiệu quả. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Visual Studio](https://visualstudio.microsoft.com/).
+Bạn sẽ cần Visual Studio được cài đặt trên máy của mình để viết và chạy mã C# hiệu quả. Nếu bạn chưa có, bạn có thể tải xuống từ [Trang web của Visual Studio](https://visualstudio.microsoft.com/).
 
 ### Tải xuống Aspose.Cells cho .NET
- Để sử dụng Aspose.Cells, bạn cần thư viện. Bạn có thể dễ dàng tải xuống phiên bản mới nhất từ[liên kết này](https://releases.aspose.com/cells/net/).
+Để sử dụng Aspose.Cells, bạn cần thư viện. Bạn có thể dễ dàng tải xuống phiên bản mới nhất từ [liên kết này](https://releases.aspose.com/cells/net/).
 
 ### Kiến thức cơ bản về C#
 Mặc dù chúng tôi sẽ giải thích mọi thứ từng bước một, nhưng hiểu biết cơ bản về C# sẽ giúp bạn thực hiện hướng dẫn này một cách dễ dàng.
 
 ### Một tập tin Excel hiện có
- Hãy đảm bảo bạn đã chuẩn bị sẵn một tệp Excel có biểu đồ đường. Chúng ta sẽ làm việc với một tệp có tên`sampleModifyLineChart.xlsx`, vì thế hãy chuẩn bị sẵn điều đó nhé. 
+Hãy đảm bảo bạn đã chuẩn bị sẵn một tệp Excel có biểu đồ đường. Chúng ta sẽ làm việc với một tệp có tên `sampleModifyLineChart.xlsx`, vì thế hãy chuẩn bị sẵn điều đó nhé. 
 
 ## Nhập gói
 
@@ -44,7 +46,7 @@ Mở Visual Studio và tạo một dự án C# Console Application mới. Đặt
 Trong dự án của bạn, nhấp chuột phải vào "Tham chiếu" và chọn "Thêm tham chiếu". Tìm kiếm Aspose.Cells và thêm vào dự án của bạn.
 
 ### Nhập các không gian tên cần thiết
- Ở đầu trang của bạn`Program.cs`, bạn sẽ cần phải nhập các không gian tên cần thiết:
+Ở đầu trang của bạn `Program.cs`, bạn sẽ cần phải nhập các không gian tên cần thiết:
 
 ```csharp
 using Aspose.Cells;
@@ -113,7 +115,7 @@ Bạn có thể tăng khả năng đọc bằng cách tùy chỉnh giao diện c
 chart.NSeries[1].Border.Color = Color.Green;
 ```
 
-### Thay đổi màu viền cho loạt thứ ba
+### Thay đổi màu viền cho Series thứ ba
 ```csharp
 chart.NSeries[2].Border.Color = Color.Red;
 ```
@@ -130,7 +132,7 @@ chart.SecondValueAxis.IsVisible = true;
 
 ## Bước 8: Lưu sổ làm việc đã sửa đổi
 
-Sau khi thực hiện mọi sửa đổi, đã đến lúc lưu công việc của chúng ta. 
+Sau khi thực hiện tất cả các sửa đổi, đã đến lúc lưu công việc của chúng ta. 
 
 ```csharp
 workbook.Save(outputDir + "outputModifyLineChart.xlsx");
@@ -154,19 +156,21 @@ Việc sửa đổi biểu đồ đường bằng Aspose.Cells cho .NET không p
 Có, bạn có thể sửa đổi nhiều loại biểu đồ khác nhau (như biểu đồ thanh, biểu đồ tròn, v.v.) bằng các phương pháp tương tự.
 
 ### Có phiên bản dùng thử của Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi có thể thay đổi loại biểu đồ sau khi thêm chuỗi?
-Bạn có thể sử dụng`ChartType` thuộc tính để thiết lập loại biểu đồ mới cho biểu đồ của bạn.
+Bạn có thể sử dụng `ChartType` thuộc tính để thiết lập loại biểu đồ mới cho biểu đồ của bạn.
 
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Kiểm tra tài liệu[đây](https://reference.aspose.com/cells/net/).
+Kiểm tra tài liệu [đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.Cells?
- Hãy đảm bảo tìm kiếm sự trợ giúp trong diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+Hãy đảm bảo tìm kiếm sự trợ giúp trong diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

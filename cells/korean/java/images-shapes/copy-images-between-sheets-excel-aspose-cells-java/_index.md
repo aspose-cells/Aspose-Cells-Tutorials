@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 - Aspose.Cells를 사용하여 Workbook 개체 인스턴스화
 - 통합 문서 내에서 워크시트 액세스 및 조작
 - 한 워크시트에서 다른 워크시트로 이미지(그림) 검색 및 복사
-- Excel 통합 문서에 변경 사항 저장
+- Excel 통합 문서의 변경 사항 저장
 
 먼저, 시작하기에 앞서 필요한 전제 조건을 살펴보겠습니다.
 
@@ -203,6 +205,9 @@ workbook.save(outDir + "CPfOneWToAnother_out.xls");
 이러한 리소스를 탐색하여 Aspose.Cells for Java를 더욱 심층적으로 살펴보고 Excel 자동화 기능을 향상시킬 수 있습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

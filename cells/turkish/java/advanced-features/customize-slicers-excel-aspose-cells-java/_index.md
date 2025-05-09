@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Artık, Aspose.Cells for Java kullanarak Excel'de dilimleyici özelliklerinin na
 Aspose.Cells for Java ile Excel dilimleyici özelleştirmesinde ustalaşma yolculuğunuza başlayın ve veri sunumlarınızı bir üst seviyeye taşıyın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thay đổi hướng nhãn đánh dấu
-linktitle: Thay đổi hướng nhãn đánh dấu
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Thay đổi hướng nhãn tích trong biểu đồ Excel một cách nhanh chóng với Aspose.Cells cho .NET. Làm theo hướng dẫn này để triển khai liền mạch.
-weight: 12
-url: /vi/net/advanced-chart-operations/change-tick-label-direction/
+"description": "Thay đổi hướng nhãn tích trong biểu đồ Excel một cách nhanh chóng với Aspose.Cells cho .NET. Làm theo hướng dẫn này để triển khai liền mạch."
+"linktitle": "Thay đổi hướng nhãn đánh dấu"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thay đổi hướng nhãn đánh dấu"
+"url": "/vi/net/advanced-chart-operations/change-tick-label-direction/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi hướng nhãn đánh dấu
@@ -27,7 +29,7 @@ Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn đã thiết lậ
 
 ### Aspose.Cells cho .NET
 
-Tiếp theo, bạn sẽ cần thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ[đây](https://releases.aspose.com/cells/net/). Đây là quá trình cài đặt đơn giản và bạn có thể sử dụng chỉ sau vài cú nhấp chuột!
+Tiếp theo, bạn sẽ cần thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống từ [đây](https://releases.aspose.com/cells/net/). Đây là quá trình cài đặt đơn giản và bạn có thể sử dụng chỉ sau vài cú nhấp chuột!
 
 ### Hiểu biết cơ bản về C#
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Bạn cần phải thay thế`"Your Document Directory"` Và`"Your Output Directory"` với đường dẫn thực tế trên hệ thống của bạn. 
+Bạn cần phải thay thế `"Your Document Directory"` Và `"Your Output Directory"` với đường dẫn thực tế trên hệ thống của bạn. 
 
 ## Bước 2: Tải Workbook
 
@@ -104,7 +106,7 @@ Chart chart = worksheet.Charts[0];
 chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
 ```
 
-Với dòng đơn giản này, chúng ta đang định nghĩa lại cách định hướng của nhãn đánh dấu. Giống như lật một trang trong sách để có góc nhìn rõ hơn về văn bản!
+Với dòng đơn giản này, chúng tôi đang định nghĩa lại cách định hướng nhãn đánh dấu. Giống như lật một trang trong sách để có góc nhìn rõ hơn về văn bản!
 
 ## Bước 6: Lưu tệp đầu ra
 
@@ -139,16 +141,18 @@ Có, bạn có thể áp dụng các phương pháp tương tự cho bất kỳ 
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau như XLSX, XLS, CSV, v.v.!
 
 ### Có phiên bản dùng thử không?  
- Chắc chắn rồi! Bạn có thể tìm thấy bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể tìm thấy bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose.Cells?  
- Hãy thoải mái tìm kiếm sự giúp đỡ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)cộng đồng và đội ngũ hỗ trợ rất nhiệt tình!
+Hãy thoải mái tìm kiếm sự giúp đỡ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9); cộng đồng và đội ngũ hỗ trợ rất nhiệt tình!
 
 ### Tôi có thể xin giấy phép tạm thời không?  
- Có, bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể yêu cầu giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

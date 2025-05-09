@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Aspose.Cells 可用於各種實際應用，例如：
 透過遵循本指南，您已經邁出了掌握使用 Aspose.Cells for Java 進行 Excel 自動化的重要一步。繼續探索並將這些強大的功能整合到您的應用程式中！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

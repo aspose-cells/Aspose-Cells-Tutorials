@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ String value = ".=GET.CELL(48, INDIRECT(""ZS",FALSE))"; // 注: 数式の先頭�
 // 名前コレクションに新しい名前を追加する
 int nameIndex = wsCol.getNames().add(name);
 
-// 名前付き範囲の数式の値を設定する
+// 名前付き範囲の数式値を設定する
 Name namedRange = wsCol.getNames().get(nameIndex);
 namedRange.setRefersTo(value);
 ```
@@ -163,6 +165,9 @@ Aspose.Cells を使用する際に最適なパフォーマンスを確保する�
 - **サポート**コミュニティに参加してサポートを受ける [Asposeフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

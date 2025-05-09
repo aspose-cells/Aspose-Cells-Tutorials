@@ -1,14 +1,16 @@
 ---
-title: Wyświetlanie lub ukrywanie nagłówków wierszy i kolumn w arkuszu kalkulacyjnym
-linktitle: Wyświetlanie lub ukrywanie nagłówków wierszy i kolumn w arkuszu kalkulacyjnym
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wyświetlać lub ukrywać nagłówki wierszy i kolumn w arkuszach kalkulacyjnych programu Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym szczegółowym samouczkiem.
-weight: 12
-url: /pl/net/worksheet-display/display-hide-row-column-headers/
+"description": "Dowiedz się, jak wyświetlać lub ukrywać nagłówki wierszy i kolumn w arkuszach kalkulacyjnych programu Excel przy użyciu Aspose.Cells dla .NET. Postępuj zgodnie z naszym szczegółowym samouczkiem."
+"linktitle": "Wyświetlanie lub ukrywanie nagłówków wierszy i kolumn w arkuszu kalkulacyjnym"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wyświetlanie lub ukrywanie nagłówków wierszy i kolumn w arkuszu kalkulacyjnym"
+"url": "/pl/net/worksheet-display/display-hide-row-column-headers/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyświetlanie lub ukrywanie nagłówków wierszy i kolumn w arkuszu kalkulacyjnym
@@ -22,7 +24,7 @@ Czy kiedykolwiek znalazłeś się w sytuacji, w której nagłówki wierszy i kol
 Zanim przejdziesz do samouczka, oto czego będziesz potrzebować:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio.
-2.  Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# będzie pomocna, aczkolwiek przewodnik krok po kroku uprości cały proces.
 
 ## Importuj pakiety
@@ -43,7 +45,7 @@ Aby zacząć, musisz zaimportować niezbędne pakiety do swojego projektu C#. Ot
 
 ### Importuj przestrzeń nazw Aspose.Cells
 
- Otwórz główny plik C# (zwykle`Program.cs`) i zaimportuj potrzebną przestrzeń nazw Aspose.Cells, dodając ten wiersz na górze:
+Otwórz główny plik C# (zwykle `Program.cs`) i zaimportuj potrzebną przestrzeń nazw Aspose.Cells, dodając ten wiersz na górze:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Pierwszą rzeczą, którą musisz zrobić, jest określenie ścieżki do katalog
 string dataDir = "Your Document Directory";
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką, gdzie znajdują się Twoje pliki.
 
 ## Krok 5: Utwórz strumień plików
 
@@ -70,11 +72,11 @@ Następnie utworzysz strumień plików, aby otworzyć plik Excel. Umożliwi ci t
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Ta linia kodu otwiera plik Excel o nazwie`book1.xls`. Jeżeli ten plik nie istnieje, upewnij się, że go utworzysz lub zmień odpowiednio jego nazwę.
+Ta linia kodu otwiera plik Excel o nazwie `book1.xls`. Jeżeli ten plik nie istnieje, upewnij się, że go utworzysz lub zmień odpowiednio jego nazwę.
 
 ## Krok 6: Utwórz obiekt skoroszytu
 
- Teraz czas na stworzenie`Workbook` obiekt, który reprezentuje skoroszyt programu Excel. Zainicjuj skoroszyt za pomocą strumienia pliku.
+Teraz czas na stworzenie `Workbook` obiekt, który reprezentuje skoroszyt programu Excel. Zainicjuj skoroszyt za pomocą strumienia pliku.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -92,13 +94,13 @@ Jeśli chcesz uzyskać dostęp do innego arkusza kalkulacyjnego, możesz zmodyfi
 
 ## Krok 8: Ukryj nagłówki
 
- Teraz zaczyna się zabawa! Możesz ukryć nagłówki wierszy i kolumn za pomocą prostej właściwości. Ustawienie`IsRowColumnHeadersVisible` Do`false` osiąga to.
+Teraz zaczyna się zabawa! Możesz ukryć nagłówki wierszy i kolumn za pomocą prostej właściwości. Ustawienie `IsRowColumnHeadersVisible` Do `false` osiąga ten cel.
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Czy to nie jest fajne? Możesz również ustawić to na`true` Jeśli chcesz ponownie wyświetlić nagłówki.
+Czy to nie jest fajne? Możesz również ustawić to na `true` Jeśli chcesz ponownie wyświetlić nagłówki.
 
 ## Krok 9: Zapisz zmodyfikowany plik Excela
 
@@ -110,7 +112,7 @@ workbook.Save(dataDir + "output.xls");
 
 ## Krok 10: Zamknij strumień plików
 
-Aby mieć pewność, że nie dojdzie do wycieków pamięci, zawsze zamykaj strumień plików po zakończeniu pracy z plikami.
+Aby mieć pewność, że nie wystąpią żadne wycieki pamięci, zawsze zamykaj strumień plików po zakończeniu pracy z plikami.
 
 ```csharp
 fstream.Close();
@@ -128,19 +130,21 @@ Możliwość wyświetlania lub ukrywania nagłówków wierszy i kolumn w program
 Aspose.Cells to biblioteka .NET umożliwiająca manipulowanie plikami Excela, ułatwiająca programowe tworzenie, modyfikowanie i konwertowanie arkuszy kalkulacyjnych.
 
 ### Czy mogę ponownie wyświetlić nagłówki po ich ukryciu?
- Tak! Właśnie ustawiłem`worksheet.IsRowColumnHeadersVisible` Do`true` aby ponownie wyświetlić nagłówki.
+Tak! Właśnie ustawiłem `worksheet.IsRowColumnHeadersVisible` Do `true` aby ponownie wyświetlić nagłówki.
 
 ### Czy Aspose.Cells jest darmowy?
- Aspose.Cells to płatna biblioteka, ale możesz ją wypróbować za darmo przez ograniczony czas. Sprawdź ich[Strona bezpłatnej wersji próbnej](https://releases.aspose.com/).
+Aspose.Cells to płatna biblioteka, ale możesz ją wypróbować za darmo przez ograniczony czas. Sprawdź ich [Strona bezpłatnej wersji próbnej](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Więcej szczegółów i metod związanych z Aspose.Cells można znaleźć na stronie[Strona dokumentacji](https://reference.aspose.com/cells/net/).
+Więcej szczegółów i metod związanych z Aspose.Cells można znaleźć na stronie [Strona dokumentacji](https://reference.aspose.com/cells/net/).
 
 ### Co zrobić, jeśli napotkam problemy lub błędy?
- Jeśli napotkasz jakiekolwiek problemy podczas korzystania z Aspose.Cells, możesz zwrócić się o pomoc do ich dedykowanego zespołu[Forum wsparcia](https://forum.aspose.com/c/cells/9).
+Jeśli napotkasz jakiekolwiek problemy podczas korzystania z Aspose.Cells, możesz zwrócić się o pomoc do ich dedykowanego zespołu [Forum wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

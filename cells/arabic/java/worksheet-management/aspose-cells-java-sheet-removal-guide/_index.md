@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ fstream.close();
 باتباع هذا الدليل، ستكون مؤهلاً لإدارة جداول بيانات Excel باستخدام Aspose.Cells في Java بكفاءة. ابدأ بتطبيقه اليوم وشاهد كيف سيُحسّن مشاريعك!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

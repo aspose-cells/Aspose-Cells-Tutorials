@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Ja, u kunt cellen in verschillende werkbladen raadplegen met behulp van standaar
 Geef de gewenste opslagindeling op (bijv. XLS of XLSX) om compatibiliteit met verschillende Excel-versies te behouden. Aspose.Cells ondersteunt meerdere indelingen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

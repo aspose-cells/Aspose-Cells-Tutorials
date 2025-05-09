@@ -1,14 +1,16 @@
 ---
-title: Добавление границ к ячейкам в Excel
-linktitle: Добавление границ к ячейкам в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как добавлять стильные границы к ячейкам в Excel с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству для создания понятных и привлекательных электронных таблиц.
-weight: 14
-url: /ru/net/excel-formatting-and-styling/adding-borders-to-cells/
+"description": "Узнайте, как добавлять стильные границы к ячейкам в Excel с помощью Aspose.Cells для .NET. Следуйте этому пошаговому руководству для создания понятных и привлекательных электронных таблиц."
+"linktitle": "Добавление границ к ячейкам в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Добавление границ к ячейкам в Excel"
+"url": "/ru/net/excel-formatting-and-styling/adding-borders-to-cells/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавление границ к ячейкам в Excel
@@ -18,8 +20,8 @@ url: /ru/net/excel-formatting-and-styling/adding-borders-to-cells/
 ## Предпосылки
 Прежде чем мы перейдем к тонкостям добавления границ к ячейкам Excel с помощью Aspose.Cells, давайте рассмотрим, что вам понадобится для начала работы.
 ### Требования к программному обеспечению
-1. Visual Studio — убедитесь, что у вас установлена Visual Studio, поскольку это будет ваша основная среда разработки.
-2.  Aspose.Cells для .NET - Вам нужна библиотека Aspose.Cells. Если вы ее еще не установили, вы можете скачать ее с[Сайт Aspose](https://releases.aspose.com/cells/net/).
+1. Visual Studio — убедитесь, что у вас установлена Visual Studio, так как это будет ваша основная среда разработки.
+2. Aspose.Cells для .NET - Вам нужна библиотека Aspose.Cells. Если вы ее еще не установили, вы можете скачать ее с [Сайт Aspose](https://releases.aspose.com/cells/net/).
 ### Базовые знания
 Чтобы извлечь максимальную пользу из этого урока, вам необходимо иметь базовые знания о:
 - Язык программирования C#.
@@ -109,16 +111,18 @@ workbook.Save(dataDir + "book1.out.xls");
 ### Что такое Aspose.Cells?
 Aspose.Cells — это мощная библиотека для .NET, которая позволяет разработчикам управлять файлами Excel и работать с ними без необходимости установки Microsoft Excel.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да! Aspose.Cells предлагает бесплатную пробную версию, которую вы можете найти[здесь](https://releases.aspose.com/).
+Да! Aspose.Cells предлагает бесплатную пробную версию, которую вы можете найти [здесь](https://releases.aspose.com/).
 ### Как получить поддержку по Aspose.Cells?
- Для получения поддержки вы можете посетить Aspose.Cells[форум поддержки](https://forum.aspose.com/c/cells/9).
+Для получения поддержки вы можете посетить Aspose.Cells [форум поддержки](https://forum.aspose.com/c/cells/9).
 ### Есть ли временная лицензия?
- Да, вы можете запросить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+Да, вы можете запросить временную лицензию. [здесь](https://purchase.aspose.com/temporary-license/).
 ### Могу ли я настроить не только границы с помощью Aspose.Cells?
 Конечно! Вы можете менять цвета ячеек, шрифты, формулы и многое другое. Возможности безграничны.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

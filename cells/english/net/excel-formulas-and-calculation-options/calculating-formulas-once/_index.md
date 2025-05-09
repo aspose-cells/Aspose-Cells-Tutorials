@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/calculating-formulas-once/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Calculating Formulas Once Programmatically in Excel
@@ -99,6 +101,7 @@ You can get support through the [Aspose forum](https://forum.aspose.com/c/cells/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

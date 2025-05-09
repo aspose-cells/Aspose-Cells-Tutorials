@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Προσαρμογή στυλ Συγκεντρωτικού Πίνακα
@@ -87,9 +89,11 @@ workbook.save("output.xlsx");
    Μπορείτε να ανατρέξετε στην τεκμηρίωση του API στη διεύθυνση [Aspose.Cells για αναφορές API Java](https://reference.aspose.com/cells/java/) για λεπτομερείς πληροφορίες.
 
 Τώρα έχετε τις γνώσεις για να δημιουργείτε και να προσαρμόζετε στυλ συγκεντρωτικών πινάκων στο Aspose.Cells για Java. Εξερευνήστε περαιτέρω και κάντε τις παρουσιάσεις δεδομένων σας πραγματικά εξαιρετικές!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

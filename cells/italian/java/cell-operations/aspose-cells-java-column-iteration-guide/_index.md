@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ while (colsIterator.hasNext()) {
 - **Eccezione ClassNotFound:** Verifica che la dipendenza Aspose.Cells sia stata aggiunta correttamente alla configurazione di build del progetto.
 
 ## Applicazioni pratiche
-L'iterazione a colonne può essere incredibilmente versatile. Ecco alcune applicazioni pratiche:
+L'iterazione a colonna può essere incredibilmente versatile. Ecco alcune applicazioni pratiche:
 
 1. **Trasformazione dei dati**: automatizza i processi di pulizia dei dati scorrendo le colonne per applicare trasformazioni come la riduzione degli spazi vuoti o la conversione dei formati.
 2. **Generazione di report**: Genera report in modo dinamico estraendo dati di colonne specifiche e compilandoli in nuovi fogli o documenti Excel.
@@ -169,6 +171,9 @@ Padroneggiare l'iterazione di colonne con Aspose.Cells apre un mondo di possibil
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells e rivoluziona il modo in cui gestisci i dati Excel in Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

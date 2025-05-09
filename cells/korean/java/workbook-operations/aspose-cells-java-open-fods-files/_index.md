@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ implementation('com.aspose:aspose-cells:25.3')
 
 ### 라이센스 취득 단계
 - **무료 체험:** Aspose에서 무료 평가판을 다운로드하여 라이브러리를 테스트해 보세요.
-- **임시 면허:** 평가에 더 많은 시간이 필요하다면 임시 면허를 신청하세요.
+- **임시 면허:** 평가하는 데 더 많은 시간이 필요하다면 임시 면허를 신청하세요.
 - **구입:** 계속 사용하려면 정식 라이선스를 구매하는 것을 고려해 보세요.
 
 설정이 완료되면 다음과 같이 Aspose.Cells로 프로젝트를 초기화합니다.
@@ -103,7 +105,7 @@ public class OpeningFODSFiles {
 ```
 
 **설명:**
-- `LoadOptions` 로 초기화됩니다 `LoadFormat.FODS`FODS 파일을 사용하고 있음을 Aspose.Cells에 알립니다. 이를 통해 파일 형식을 올바르게 처리할 수 있습니다.
+- `LoadOptions` 로 초기화됩니다 `LoadFormat.FODS`Aspose.Cells에 FODS 파일을 사용하고 있음을 알립니다. 이를 통해 파일 형식을 올바르게 처리할 수 있습니다.
 
 ### 2단계: 통합 문서 만들기 및 파일 열기
 이제 생성하세요 `Workbook` 지정된 로드 옵션을 사용하여 FODS 파일을 엽니다.
@@ -153,7 +155,7 @@ Aspose.Cells for Java를 설정하고 사용하여 FODS 파일을 여는 방법�
    - 네, 메모리 관리와 효율적인 로딩 옵션에 대한 모범 사례를 따르면 됩니다.
 3. **Aspose.Cells를 체험 기간 동안 사용하려면 구매해야 합니까?**
    - 아니요, Aspose 웹사이트에서 무료 평가판을 다운로드할 수 있습니다.
-4. **FODS 파일을 열 때 발생하는 오류를 어떻게 처리합니까?**
+4. **FODS 파일을 열 때 오류를 어떻게 처리하나요?**
    - 파일 경로를 확인하고 호환되는 라이브러리 버전을 사용하고 있는지 확인하세요.
 5. **Aspose.Cells는 Java 개발자에게 어떤 다른 기능을 제공합니까?**
    - 파일을 여는 것 외에도 데이터 조작, 다양한 형식으로 변환하는 등의 기능을 지원합니다.
@@ -167,6 +169,9 @@ Aspose.Cells for Java를 설정하고 사용하여 FODS 파일을 여는 방법�
 - [지원하다](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

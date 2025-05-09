@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Vamos dividir a implementação em seções lógicas com base nos recursos.
 Carregar uma pasta de trabalho do Excel é o primeiro passo. Este recurso demonstra como inicializar e carregar um arquivo do Excel usando o Aspose.Cells para Java.
 
 #### Passos:
-1. **Classes de importação**: Garanta que as classes necessárias sejam importadas.
+1. **Importar Classes**: Garanta que as classes necessárias sejam importadas.
    ```java
    import com.aspose.cells.Workbook;
    ```
@@ -96,7 +98,7 @@ Esse processo permite que você trabalhe com a pasta de trabalho na memória, po
 Acessar conexões de dados é crucial ao lidar com fontes de dados externas vinculadas em um arquivo Excel.
 
 #### Passos:
-1. **Classes de importação**:
+1. **Importar Classes**:
    ```java
    import com.aspose.cells.ExternalConnection;
    ```
@@ -175,6 +177,9 @@ R5: Considere usar métodos de streaming e garanta o gerenciamento adequado de r
 - **Apoiar**: [Fórum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

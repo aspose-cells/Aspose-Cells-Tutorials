@@ -1,14 +1,16 @@
 ---
-title: Sao chép thiết lập trang từ trang tính khác
-linktitle: Sao chép thiết lập trang từ trang tính khác
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Học cách sao chép cài đặt thiết lập trang giữa các trang tính bằng Aspose.Cells cho .NET với hướng dẫn từng bước này, hoàn hảo để nâng cao khả năng quản lý bảng tính của bạn.
-weight: 10
-url: /vi/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/
+"description": "Học cách sao chép cài đặt thiết lập trang giữa các trang tính bằng Aspose.Cells cho .NET với hướng dẫn từng bước này, hoàn hảo để nâng cao khả năng quản lý bảng tính của bạn."
+"linktitle": "Sao chép thiết lập trang từ trang tính khác"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Sao chép thiết lập trang từ trang tính khác"
+"url": "/vi/net/excel-page-setup/copy-page-setup-settings-from-other-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sao chép thiết lập trang từ trang tính khác
@@ -22,9 +24,9 @@ Bạn đã bao giờ thấy mình trong tình huống cần sao chép cài đặ
 Trước khi tìm hiểu về mã, bạn cần phải có một số mục thiết yếu sau:
 
 1. Môi trường phát triển .NET: Đảm bảo bạn đã thiết lập môi trường tương thích với .NET, như Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Biết những kiến thức cơ bản về C# chắc chắn sẽ giúp bạn nắm bắt các khái niệm tốt hơn.
-4.  Tài liệu Aspose.Cells: Làm quen với[tài liệu](https://reference.aspose.com/cells/net/) để biết bất kỳ cấu hình nâng cao hoặc tính năng bổ sung nào mà bạn có thể thấy hữu ích sau này.
+4. Tài liệu Aspose.Cells: Làm quen với [tài liệu](https://reference.aspose.com/cells/net/) để biết bất kỳ cấu hình nâng cao hoặc tính năng bổ sung nào mà bạn có thể thấy hữu ích sau này.
 
 Bây giờ chúng ta đã sắp xếp xong các điều kiện tiên quyết, hãy nhập các gói cần thiết!
 
@@ -45,7 +47,7 @@ Hãy chia nhỏ toàn bộ quy trình thành các bước dễ quản lý để 
 ## Bước 1: Tạo một Workbook
 
 Tạo sổ làm việc của bạn:
- Đầu tiên, bạn cần tạo một phiên bản của`Workbook` lớp. Về cơ bản đây là điểm khởi đầu của bạn. 
+Đầu tiên, bạn cần tạo một phiên bản của `Workbook` lớp. Về cơ bản đây là điểm khởi đầu của bạn. 
 
 ```csharp
 Workbook wb = new Workbook();
@@ -80,7 +82,7 @@ Bây giờ bạn đã có tham chiếu đến cả hai bảng tính để có th
 ## Bước 4: Thiết lập kích thước giấy cho TestSheet1
 
 Sửa đổi thiết lập trang:
- Chúng ta hãy thiết lập kích thước giấy của "TestSheet1" thành`PaperA3ExtraTransverse`.
+Chúng ta hãy thiết lập kích thước giấy của "TestSheet1" thành `PaperA3ExtraTransverse`.
 
 ```csharp
 TestSheet1.PageSetup.PaperSize = PaperSizeType.PaperA3ExtraTransverse;
@@ -149,16 +151,18 @@ Aspose.Cells là một thư viện mạnh mẽ để làm việc với bảng t�
 Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng cũng có các thư viện Aspose khác dành cho các ngôn ngữ khác.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?  
- Có, bạn có thể tải xuống[dùng thử miễn phí](https://releases.aspose.com/) của Aspose.Cells.
+Vâng, bạn có thể tải xuống [dùng thử miễn phí](https://releases.aspose.com/) của Aspose.Cells.
 
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?  
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells không?  
-Chắc chắn rồi! Bạn có thể yêu cầu một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm.
+Chắc chắn rồi! Bạn có thể yêu cầu một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá sản phẩm.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

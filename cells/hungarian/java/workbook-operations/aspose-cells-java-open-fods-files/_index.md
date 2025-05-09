@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ public class OpeningFODSFiles {
         // A forráskönyvtár elérési útja.
         String sourceDir = "path_to_your_directory/";
         
-        // LoadFormat által megadott LoadOptions példányosítása.
+        // A LoadFormat által megadott LoadOptions példányosítása.
         LoadOptions loadOptions = new LoadOptions(LoadFormat.FODS);
 ```
 
@@ -119,7 +121,7 @@ Most hozz létre egy `Workbook` objektum a megadott betöltési beállításokka
 ```
 
 **Magyarázat:**
-- A `Workbook` A konstruktor a fájl elérési útját veszi figyelembe, és `LoadOptions`Ez megnyitja a FODS fájlt, és előkészíti a szerkesztésre.
+- A `Workbook` a konstruktor a fájl elérési útját veszi, és `LoadOptions`Ez megnyitja a FODS fájlt, és előkészíti a szerkesztésre.
 
 ### Hibaelhárítási tippek
 - **Fájlútvonal-hibák:** Győződjön meg arról, hogy a forráskönyvtár elérési útja helyes.
@@ -167,6 +169,9 @@ Készen állsz az indulásra? Alkalmazd ezeket a lépéseket a projektedben, és
 - [Támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-07"
 "description": "Aprenda a ajustar la dirección de las etiquetas de marca en gráficos de Excel con Aspose.Cells para Java. Esta guía proporciona instrucciones paso a paso y ejemplos de código."
-"title": "Cómo cambiar la dirección de las etiquetas de las marcas de un gráfico en Java usando Aspose.Cells"
+"title": "Cómo cambiar la dirección de las etiquetas de las marcas de verificación en un gráfico en Java usando Aspose.Cells"
 "url": "/es/java/charts-graphs/change-chart-tick-label-direction-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Cómo cambiar la dirección de las etiquetas de las marcas de un gráfico en Java usando Aspose.Cells
+# Cómo cambiar la dirección de las etiquetas de las marcas de verificación en un gráfico en Java usando Aspose.Cells
 
 ## Introducción
 
@@ -172,6 +174,9 @@ Los próximos pasos incluyen experimentar con diferentes tipos de gráficos y ex
 ¡Siéntete libre de explorar estos recursos para obtener información y apoyo más detallados!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

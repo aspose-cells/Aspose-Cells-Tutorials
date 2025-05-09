@@ -1,12 +1,14 @@
 ---
-"description": "Aspose.Cells'i diğer Aspose ürünleriyle, üçüncü taraf kütüphanelerle ve harici sistemlerle Java'da entegre etmeye yönelik kapsamlı eğitimler."
+"description": "Aspose.Cells'i diğer Aspose ürünleriyle, üçüncü taraf kütüphanelerle ve Java'daki harici sistemlerle entegre etmeye yönelik kapsamlı eğitimler."
 "title": "Java Uygulamaları için Aspose.Cells Entegrasyon Eğitimleri"
 "url": "/tr/java/integration-interoperability/"
 "weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,6 +65,9 @@ Java'da Öğretmen sınıfının nasıl uygulanacağını, öğrenci verilerinin
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

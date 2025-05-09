@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Agora que configuramos nosso ambiente, vamos analisar o processo de implementaç
 
 Este recurso permite que você configure sua planilha do Excel para usar papel tamanho A4. Vamos detalhar os passos:
 
-#### Etapa 1: instanciar um objeto de pasta de trabalho
+#### Etapa 1: Instanciar um objeto de pasta de trabalho
 Comece criando uma nova instância do `Workbook` classe, que representa um arquivo Excel.
 
 ```java
@@ -189,6 +191,9 @@ Para expandir ainda mais suas habilidades:
 Embarque em sua jornada com o Aspose.Cells Java hoje mesmo e libere todo o potencial da manipulação de arquivos do Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

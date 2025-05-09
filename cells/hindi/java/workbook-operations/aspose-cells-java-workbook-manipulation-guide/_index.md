@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# जावा के लिए Aspose.Cells के साथ कार्यपुस्तिका हेरफेर में महारत हासिल करना
+# Aspose.Cells for Java के साथ कार्यपुस्तिका हेरफेर में महारत हासिल करना
 
 ## परिचय
 
@@ -200,6 +202,9 @@ Aspose.Cells के साथ काम करते समय, प्रदर�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 ### Introdução
 Você quer integrar dados do Excel perfeitamente em aplicativos da web ou precisa de uma maneira dinâmica de compartilhar informações de planilhas on-line? **Aspose.Cells para Java** simplifica esse processo. Esta poderosa biblioteca permite que os desenvolvedores carreguem arquivos Excel em um `Workbook` objeto e exportá-los como HTML com provedores de fluxo personalizados sem esforço. Neste tutorial, exploraremos como o Aspose.Cells Java pode gerenciar dados do Excel com eficiência.
 
-### que você aprenderá
+### O que você aprenderá
 - Carregando um arquivo Excel em um `Workbook` usando Aspose.Cells.
 - Configurando um provedor de fluxo personalizado para exportar arquivos do Excel para HTML.
 - Salvar uma pasta de trabalho como um arquivo HTML com opções de salvamento específicas.
@@ -169,6 +171,9 @@ Agora que você tem todas as informações, é hora de colocar essas habilidades
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

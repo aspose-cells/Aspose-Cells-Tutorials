@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Bloquear linhas específicas é útil ao exibir dados que não devem ser alterad
 #### Visão geral
 Este recurso bloqueia apenas a primeira linha, deixando as outras linhas desbloqueadas para edição.
 
-**Etapa 1: acessar e modificar o estilo**
+**Etapa 1: Acesse e modifique o estilo**
 ```java
 Workbook wb = new Workbook();
 Worksheet sheet = wb.getWorksheets().get(0);
@@ -164,7 +166,7 @@ R1: Sim, você pode definir a propriedade bloqueada em estilos de células indiv
 **P2: Quais são os erros comuns ao aplicar proteção de linha com Aspose.Cells?**
 A2: Os problemas comuns incluem não ter uma licença válida ou uso incorreto de `StyleFlag` objetos. Certifique-se de que sua configuração esteja correta e consulte o [Documentação Aspose](https://reference.aspose.com/cells/java/) para solução de problemas.
 
-**T3: Como aplico diferentes tipos de proteção à minha planilha?**
+**P3: Como aplico diferentes tipos de proteção à minha planilha?**
 A3: Uso `sheet.protect(ProtectionType.XXX)`, onde `XXX` podem ser opções como `CONTENTS`, `OBJECTS`, ou `ALL`.
 
 **T4: É possível proteger uma planilha sem bloquear nenhuma linha?**
@@ -180,6 +182,9 @@ R5: O teste gratuito permite acesso total, mas adiciona uma marca d'água. Solic
 - **Apoiar**: Visite o [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9) para qualquer dúvida.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

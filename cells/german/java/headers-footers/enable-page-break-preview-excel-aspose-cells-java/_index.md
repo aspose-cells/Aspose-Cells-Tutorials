@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ In diesem Tutorial haben Sie gelernt, wie Sie die Seitenumbruchvorschau in Excel
 Mit diesem umfassenden Leitfaden sind Sie bestens gerüstet, Aspose.Cells für Java zu nutzen und Seitenumbruchvorschauen effektiv zu aktivieren. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

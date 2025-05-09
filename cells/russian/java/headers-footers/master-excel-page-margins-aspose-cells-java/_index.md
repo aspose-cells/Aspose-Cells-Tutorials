@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 
 Перед началом работы с Aspose.Cells в Java убедитесь, что у вас есть:
 
-- **Требуемые библиотеки:** Включите библиотеку Aspose.Cells в свой проект. Здесь используется версия 25.3.
+- **Необходимые библиотеки:** Включите библиотеку Aspose.Cells в свой проект. Здесь используется версия 25.3.
 - **Среда разработки:** Подходящая среда разработки (например, IntelliJ IDEA или Eclipse) и JDK, установленные в вашей системе.
 - **Необходимые знания:** Базовые знания программирования на Java, в частности концепций объектно-ориентированного программирования.
 
@@ -173,6 +175,9 @@ workbook.save(dataDir);
    - Убедитесь, что ваша конфигурация сборки (Maven или Gradle) включает правильную запись зависимости для Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

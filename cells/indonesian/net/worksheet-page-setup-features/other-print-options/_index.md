@@ -1,118 +1,122 @@
 ---
-title: Opsi Cetak Lainnya di Lembar Kerja
-linktitle: Opsi Cetak Lainnya di Lembar Kerja
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyesuaikan opsi cetak untuk lembar kerja Excel menggunakan Aspose.Cells untuk .NET dalam panduan komprehensif ini.
-weight: 17
-url: /id/net/worksheet-page-setup-features/other-print-options/
+"description": "Ebben az átfogó útmutatóban megtudhatja, hogyan szabhatja testre az Excel-munkalapok nyomtatási beállításait az Aspose.Cells for .NET használatával."
+"linktitle": "Egyéb nyomtatási beállítások a munkalapon"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Egyéb nyomtatási beállítások a munkalapon"
+"url": "/id/net/worksheet-page-setup-features/other-print-options/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Opsi Cetak Lainnya di Lembar Kerja
+# Egyéb nyomtatási beállítások a munkalapon
 
-## Perkenalan
-Dalam dunia manajemen data, spreadsheet telah menjadi alat yang sangat diperlukan untuk membantu dalam mengatur, menganalisis, dan memvisualisasikan informasi. Salah satu pustaka yang menonjol dalam ekosistem .NET untuk menangani file Excel adalah Aspose.Cells. Pustaka ini menyediakan solusi yang tangguh untuk membuat, mengedit, dan mengonversi file Excel secara terprogram. Namun, yang lebih mengesankan adalah kemampuannya untuk mengontrol berbagai opsi pencetakan langsung dari kode Anda. Baik Anda ingin mencetak garis kisi, tajuk kolom, atau bahkan membuat penyesuaian untuk kualitas draf, Aspose.Cells siap membantu Anda. Dalam tutorial ini, kita akan menyelami seluk-beluk opsi pencetakan yang tersedia dalam lembar kerja menggunakan Aspose.Cells untuk .NET. Jadi, ambil kacamata pengodean Anda dan mari kita mulai!
-## Prasyarat
-Sebelum kita masuk ke kode, ada beberapa hal penting yang perlu Anda siapkan:
-### 1. Lingkungan .NET
-Pastikan Anda memiliki lingkungan pengembangan yang disiapkan untuk .NET. Baik Anda menggunakan Visual Studio, Visual Studio Code, atau IDE lain yang kompatibel dengan .NET, Anda siap melakukannya!
-### 2. Pustaka Aspose.Cells
- Anda memerlukan pustaka Aspose.Cells for .NET. Jika Anda belum menginstalnya, Anda dapat mengunduhnya dari[Aspose.Cells Merilis Halaman](https://releases.aspose.com/cells/net/).
-### 3. Pengetahuan Dasar C#
-Memiliki pemahaman dasar tentang pemrograman C# akan memudahkan Anda untuk mengikutinya. Kami tidak akan membahas sintaksis secara mendalam, tetapi bersiaplah untuk membaca dan memahami sedikit kode.
-### 4. Direktori Dokumen
-Anda perlu memiliki direktori khusus untuk menyimpan file Excel Anda. Catatlah jalur direktori tersebut—Anda akan membutuhkannya!
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor paket yang diperlukan ke dalam berkas C# Anda. Berikut cara melakukannya:
+## Bevezetés
+Az adatkezelés világában a táblázatkezelők nélkülözhetetlen eszközökké váltak, amelyek segítenek az információk rendszerezésében, elemzésében és vizualizációjában. Az Excel-fájlok kezelésében kiemelkedő könyvtár az Aspose.Cells. Robusztus megoldást kínál Excel-fájlok programozott létrehozásához, szerkesztéséhez és konvertálásához. De ami még lenyűgözőbb, az a képessége, hogy közvetlenül a kódból vezérelheti a különféle nyomtatási beállításokat. Akár rácsvonalakat, oszlopfejléceket szeretne nyomtatni, akár a vázlat minőségét szeretné módosítani, az Aspose.Cells segít ebben. Ebben az oktatóanyagban részletesen bemutatjuk a .NET-hez készült Aspose.Cells segítségével egy munkalapon elérhető nyomtatási beállításokat. Szóval, ragadd meg a kódolószemüvegedet, és kezdjük is!
+## Előfeltételek
+Mielőtt belevágnánk a kódba, van néhány alapvető dolog, aminek a helyén kell lennie:
+### 1. .NET környezet
+Győződj meg róla, hogy van beállítva egy .NET fejlesztői környezeted. Akár Visual Studio-t, Visual Studio Code-ot vagy bármilyen más .NET-kompatibilis IDE-t használsz, már indulhatsz is!
+### 2. Aspose.Cells könyvtár
+Szükséged lesz az Aspose.Cells for .NET könyvtárra. Ha még nem telepítetted, letöltheted innen: [Aspose.Cells kiadások oldala](https://releases.aspose.com/cells/net/).
+### 3. C# alapismeretek
+A C# programozás alapjainak ismerete megkönnyíti a haladást. Nem fogunk mélyen belemerülni a szintaxisba, de készülj fel arra, hogy elolvasol és megértesz egy kis kódot.
+### 4. Dokumentumkönyvtár
+Szükséged lesz egy kijelölt könyvtárra az Excel-fájljaid tárolásához. Jegyezd fel ezt a könyvtár elérési útját – szükséged lesz rá!
+## Csomagok importálása
+A kezdéshez importálnod kell a szükséges csomagokat a C# fájlodba. Ezt így teheted meg:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System;
 ```
-Pernyataan impor ini memungkinkan Anda mengakses semua fitur yang disediakan oleh pustaka Aspose.Cells.
-Sekarang, mari kita bagi tutorial kita menjadi beberapa langkah yang mudah diikuti. Kita akan membuat buku kerja, mengatur berbagai opsi cetak, dan menyimpan buku kerja akhir.
-## Langkah 1: Siapkan Direktori Anda
-Sebelum Anda mulai membuat kode, Anda memerlukan folder tempat buku kerja Anda akan disimpan. Siapkan direktori di komputer Anda dan catat jalurnya. Misalnya:
+Ez az import utasítás lehetővé teszi az Aspose.Cells könyvtár összes funkciójának elérését.
+Most bontsuk le az oktatóanyagot könnyen követhető lépésekre. Létrehozunk egy munkafüzetet, beállítjuk a különböző nyomtatási beállításokat, és mentjük a végleges munkafüzetet.
+## 1. lépés: Állítsa be a címtárát
+Mielőtt elkezdenéd a kódolást, szükséged van egy mappára, ahová a munkafüzetedet menteni fogod. Hozz létre egy könyvtárat a gépeden, és jegyezd fel az elérési útját. Például:
 ```plaintext
 C:\Users\YourUsername\Documents\AsposeOutput
 ```
-## Langkah 2: Membuat Instansiasi Objek Buku Kerja
-Untuk mulai bekerja dengan Aspose.Cells, Anda perlu membuat contoh baru dari kelas Workbook. Berikut cara melakukannya:
+## 2. lépés: A munkafüzet objektum példányosítása
+Az Aspose.Cells használatának megkezdéséhez létre kell hoznod a Workbook osztály egy új példányát. Így teheted meg:
 ```csharp
 string dataDir = "C:\\Users\\YourUsername\\Documents\\AsposeOutput\\";
-// Membuat instance objek Buku Kerja
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
-Pada dasarnya Anda sedang mempersiapkan kanvas kosong tempat Anda akan melukis mahakarya Excel Anda!
-## Langkah 3: Akses Pengaturan Halaman
-Setiap lembar kerja memiliki bagian PageSetup yang memungkinkan Anda mengubah opsi pencetakan. Berikut cara mengaksesnya:
+Lényegében egy üres vásznat készítesz elő, amelyre megfested az Excel-remekművedet!
+## 3. lépés: Oldalbeállítás elérése
+Minden munkalapon van egy PageSetup (Oldalbeállítás) rész, amely lehetővé teszi a nyomtatási beállítások finomhangolását. Így érheti el:
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
-Baris ini memberi Anda kontrol atas lembar kerja pertama di buku kerja Anda—anggap saja sebagai pusat perintah untuk semua preferensi pencetakan Anda.
-## Langkah 4: Konfigurasikan Opsi Pencetakan
-Sekarang, mari kita bahas berbagai pilihan cetak yang dapat Anda atur.
-### Izinkan Pencetakan Garis Kisi
-Jika Anda ingin garis kisi ditampilkan saat mencetak, atur properti ini ke true:
+Ez a sor adja meg a munkafüzet első munkalapjának vezérlését – képzelje el úgy, mint az összes nyomtatási beállítás parancsközpontját.
+## 4. lépés: Nyomtatási beállítások konfigurálása
+Most pedig nézzük meg a különféle nyomtatási beállításokat, amelyeket beállíthatunk.
+### Rácsvonalak nyomtatásának engedélyezése
+Ha azt szeretné, hogy a rácsvonalak nyomtatáskor megjelenjenek, állítsa ezt a tulajdonságot igaz értékre:
 ```csharp
 pageSetup.PrintGridlines = true;
 ```
-Garis kisi meningkatkan keterbacaan, jadi seperti memberi bingkai yang bagus pada lembar kerja Anda!
-### Izinkan Pencetakan Judul Baris/Kolom
-Bukankah akan lebih membantu jika judul baris dan kolom Anda dicetak? Anda dapat mengaktifkan fitur ini dengan mudah:
+A rácsvonalak javítják az olvashatóságot, olyan, mintha szép keretet adnál a táblázatodnak!
+### Sor-/oszlopfejlécek nyomtatásának engedélyezése
+Nem lenne hasznos, ha a sor- és oszlopfejlécek kinyomtatva lennének? Ezt a funkciót egyszerűen engedélyezheti:
 ```csharp
 pageSetup.PrintHeadings = true;
 ```
-Hal ini terutama berguna untuk kumpulan data yang lebih besar, di mana Anda mungkin kehilangan jejak apa saja yang ada!
-### Pencetakan Hitam Putih
-Bagi mereka yang lebih menyukai tampilan klasik, berikut cara mengatur pencetakan hitam putih:
+Ez különösen hasznos nagyobb adathalmazok esetén, ahol elveszítheted a fonalat, hogy mi micsoda!
+### Fekete-fehér nyomtatás
+Azok számára, akik a klasszikus megjelenést kedvelik, így állíthatják be a fekete-fehér nyomtatást:
 ```csharp
 pageSetup.BlackAndWhite = true;
 ```
-Ini mirip dengan beralih dari film berwarna ke film hitam-putih yang abadi.
-### Cetak Komentar Seperti yang Ditampilkan
-Jika lembar kerja Anda berisi komentar, dan Anda ingin mencetaknya dalam mode tampilan saat ini, berikut yang harus dilakukan:
+Olyan, mintha színesről egy időtlen fekete-fehér filmre váltanánk.
+### Megjegyzések nyomtatása a megjelenítés szerint
+Ha a munkalap megjegyzéseket tartalmaz, és azokat az aktuális megjelenítési módban szeretné kinyomtatni, akkor a következőket kell tennie:
 ```csharp
 pageSetup.PrintComments = PrintCommentsType.PrintInPlace;
 ```
-Dengan cara ini, pembaca dapat melihat pemikiran Anda di samping data—seperti anotasi dalam buku favorit Anda!
-### Kualitas Cetak Draft
-Jika Anda hanya menginginkan referensi cepat dan bukan produk yang sudah dipoles, pilih kualitas draf:
+Így az olvasók az adatok mellett láthatják a gondolataidat is – akárcsak a kedvenc könyvedben lévő jegyzetek!
+### Vázlat minőségű nyomtatás
+Ha csak egy gyors áttekintésre vágysz, és nem egy kidolgozott termékre, válaszd a vázlatminőséget:
 ```csharp
 pageSetup.PrintDraft = true;
 ```
-Anggap saja seperti mencetak draf kasar sebelum penyuntingan akhir—pekerjaan akan selesai dengan sedikit kerumitan!
-### Menangani Kesalahan Sel
-Terakhir, jika Anda ingin mengelola bagaimana kesalahan sel ditampilkan dalam cetakan, Anda dapat melakukannya dengan:
+Gondolj rá úgy, mintha egy vázlatot nyomtatnál a végső szerkesztés előtt – minimális gonddal elvégzi a munkát!
+### Cellahibák kezelése
+Végül, ha a cellahibák nyomtatásban való megjelenését szeretné kezelni, ezt a következőképpen teheti meg:
 ```csharp
 pageSetup.PrintErrors = PrintErrorsType.PrintErrorsNA;
 ```
-Ini memastikan bahwa kesalahan dalam sel ditampilkan sebagai 'N/A' dan tidak mengacaukan hasil cetak dengan pesan kesalahan.
-## Langkah 5: Simpan Buku Kerja
-Setelah mengatur semua opsi cetak yang diinginkan, saatnya menyimpan buku kerja. Berikut cara melakukannya:
+Ez biztosítja, hogy a cellákban lévő hibák „N/A” jelzéssel jelenjenek meg, ahelyett, hogy hibaüzenetekkel terhelnék a nyomtatást.
+## 5. lépés: A munkafüzet mentése
+Miután beállította az összes kívánt nyomtatási beállítást, itt az ideje menteni a munkafüzetet. Ezt a következőképpen teheti meg:
 ```csharp
 workbook.Save(dataDir + "OtherPrintOptions_out.xls");
 ```
-Baris ini akan menyimpan buku kerja yang Anda konfigurasikan sebagai "OtherPrintOptions_out.xls" di direktori yang Anda tentukan. Selamat, Anda baru saja membuat file Excel dengan pengaturan cetak yang disesuaikan!
-## Kesimpulan
-Nah, itu dia! Anda telah mempelajari cara menyesuaikan opsi pencetakan untuk lembar kerja Excel menggunakan Aspose.Cells for .NET. Dari garis kisi hingga komentar, Anda memiliki alat untuk menyempurnakan hasil cetak dan membuat lembar kerja Anda lebih mudah digunakan. Baik Anda sedang mempersiapkan laporan untuk tim Anda atau sekadar mengelola data Anda dengan lebih efisien, opsi ini akan berguna. Sekarang, cobalah! Anda mungkin akan menemukan alur kerja baru Anda yang berubah.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?  
-Aspose.Cells adalah pustaka yang hebat untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram dalam aplikasi .NET.
-### Bisakah saya mencetak tanpa Aspose.Cells?  
-Ya, tetapi Aspose.Cells menawarkan fitur-fitur canggih untuk mengelola file Excel yang tidak ditawarkan oleh pustaka standar.
-### Apakah Aspose.Cells mendukung format file lain?  
-Ya, ini mendukung berbagai format, termasuk XLSX, CSV, dan HTML.
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?  
- Anda dapat memperoleh lisensi sementara dari Aspose[Halaman Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?  
- Anda bisa mendapatkan bantuan dari komunitas Aspose di[Forum Dukungan](https://forum.aspose.com/c/cells/9).
+Ez a sor a beállított munkafüzetet „OtherPrintOptions_out.xls” néven menti a megadott könyvtárba. Gratulálunk, létrehozott egy Excel-fájlt testreszabott nyomtatási beállításokkal!
+## Következtetés
+És íme! Megtanultad, hogyan szabhatod testre az Excel-munkafüzet nyomtatási beállításait az Aspose.Cells for .NET segítségével. A rácsvonalaktól a megjegyzésekig minden eszköz a rendelkezésedre áll, hogy javítsd a nyomatokat és felhasználóbarátabbá tedd a táblázataidat. Akár a csapatod számára készítesz jelentéseket, akár egyszerűen csak hatékonyabban kezeled az adataidat, ezek a beállítások hasznosak lesznek. Most pedig próbáld ki! Lehet, hogy átalakul az új munkafolyamatod.
+## GYIK
+### Mi az Aspose.Cells?  
+Az Aspose.Cells egy hatékony függvénykönyvtár, amely Excel fájlok programozott létrehozására, kezelésére és konvertálására szolgál .NET alkalmazásokban.
+### Tudok nyomtatni Aspose.Cells nélkül?  
+Igen, de az Aspose.Cells olyan fejlett funkciókat kínál az Excel-fájlok kezeléséhez, amelyeket a szabványos könyvtárak nem.
+### Az Aspose.Cells támogat más fájlformátumokat is?  
+Igen, számos formátumot támogat, beleértve az XLSX-et, a CSV-t és a HTML-t.
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?  
+Ideiglenes engedélyt szerezhet az Aspose-tól. [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+### Hol találok támogatást az Aspose.Cells-hez?  
+Segítséget kérhetsz az Aspose közösségtől a következő címen: [Támogatási fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

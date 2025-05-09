@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,12 +142,15 @@ A5: 네, 적절한 라이선스를 구매하거나 체험판을 이용하시면 
 - **다운로드:** [Aspose.Cells Java 릴리스](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다:** [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 이 가이드에서는 Aspose.Cells for Java를 효과적으로 활용하여 문서 처리 역량을 향상시키는 데 필요한 도구와 지식을 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

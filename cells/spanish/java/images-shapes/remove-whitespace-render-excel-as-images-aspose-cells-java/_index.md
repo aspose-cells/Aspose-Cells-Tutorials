@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ En este tutorial, exploramos cómo Aspose.Cells para Java puede eliminar los esp
 
 ### Próximos pasos
 - Experimente con diferentes tipos de imágenes o configuraciones de página.
-- Explore otras características de Aspose.Cells, como capacidades de manipulación y análisis de datos.
+- Explore otras características de Aspose.Cells, como las capacidades de manipulación y análisis de datos.
 
 Aproveche los recursos a continuación para mejorar aún más sus habilidades:
 ## Sección de preguntas frecuentes (H2)
@@ -191,6 +193,9 @@ A2: Cada hoja se renderiza como una imagen individual por defecto. Combine las i
 A3: Los formatos admitidos incluyen EMF, PNG, JPEG, BMP y GIF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

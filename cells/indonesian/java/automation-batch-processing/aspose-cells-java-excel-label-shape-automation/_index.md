@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Otomatiskan Pembuatan Buku Kerja Excel dengan Aspose.Cells untuk Java: Menambahkan Bentuk Label
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengotomatiskan pembuatan buku kerja Excel menggunakan Java? Dengan Aspose.Cells untuk Java, tugas ini menjadi mudah dan efisien. Tutorial ini akan memandu Anda membuat buku kerja baru, mengakses lembar kerja pertamanya, menambahkan bentuk label, menyesuaikannya, dan menyimpan produk akhir. Di akhir panduan ini, Anda akan memahami cara memanfaatkan Aspose.Cells untuk meningkatkan tugas otomatisasi Excel Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java
 - Mengakses lembar kerja dalam buku kerja
 - Menambahkan dan menyesuaikan bentuk label di lembar kerja Anda
@@ -25,9 +27,9 @@ Apakah Anda ingin mengotomatiskan pembuatan buku kerja Excel menggunakan Java? D
 
 Siap untuk terjun ke dunia otomatisasi Excel dengan Aspose.Cells? Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi.
 - **Lingkungan Pengembangan Terpadu (IDE):** Seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 - **Aspose.Cells untuk Pustaka Java:** Pastikan Anda memiliki versi 25.3 atau yang lebih baru.
@@ -52,47 +54,47 @@ Tambahkan dependensi berikut di `pom.xml`:
 
 ### Menggunakan Gradle
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
+#### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis:** Unduh salinan evaluasi gratis dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara:** Minta lisensi sementara untuk pengujian tanpa batasan di [Halaman Lisensi Sementara Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian:** Untuk akses penuh dan fitur perusahaan, beli lisensi dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió:** Unduh salinan evaluasi gratis dari [Aspose weboldala](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély:** Minta lisensi sementara untuk pengujian tanpa batasan di [Az Aspose ideiglenes engedély oldala](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás:** Untuk akses penuh dan fitur perusahaan, beli lisensi dari [Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-**Inisialisasi Dasar:**
+**Alapvető inicializálás:**
 
 ```java
 import com.aspose.cells.License;
-// Inisialisasi Lisensi Aspose.Cells
+// Aspose.Cells licenc inicializálása
 License license = new License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Membuat Buku Kerja Baru
+### Új munkafüzet létrehozása
 
 Untuk memulai, kita buat contoh buku kerja Excel baru. Ini adalah titik awal untuk pembuatan dokumen Excel apa pun.
 
 ```java
 import com.aspose.cells.Workbook;
-// Buat buku kerja kosong
+// Hozzon létre egy üres munkafüzetet
 Workbook workbook = new Workbook();
 ```
 
-### Mengakses Lembar Kerja Pertama
+### Az első munkalap elérése
 
 Berikutnya, akses lembar kerja pertama dalam buku kerja yang baru dibuat ini untuk melakukan operasi seperti menambahkan bentuk atau entri data.
 
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Worksheets;
-// Dapatkan lembar kerja pertama dari buku kerja
+// Az első munkalap lekérése a munkafüzetből
 Worksheet sheet = workbook.getWorksheets().get(0);
 ```
 
@@ -128,7 +130,7 @@ label.setPlacement(PlacementType.FREE_FLOATING);
 
 ### Mengatur Warna Isi dengan Gradien
 
-Tingkatkan daya tarik visual dengan menetapkan warna isian gradien untuk label. Ini dapat membantu dalam membedakan bagian-bagian atau menyorot informasi.
+Tingkatkan daya tarik visual dengan menetapkan warna isian gradasi untuk label. Ini dapat membantu dalam membedakan bagian-bagian atau menyorot informasi.
 
 ```java
 import com.aspose.cells.Color;
@@ -137,7 +139,7 @@ import com.aspose.cells.GradientStyleType;
 label.getFill().setOneColorGradient(Color.getYellow(), 1, GradientStyleType.HORIZONTAL, 1);
 ```
 
-### Menyimpan Buku Kerja
+### A munkafüzet mentése
 
 Terakhir, simpan buku kerja Anda ke direktori keluaran. Langkah ini menyelesaikan dokumen Anda dan membuatnya siap untuk didistribusikan atau diproses lebih lanjut.
 
@@ -147,36 +149,36 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/AddingLabelControl_out.xls");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells dapat digunakan dalam berbagai aplikasi dunia nyata, seperti:
 1. **Mengotomatiskan Pembuatan Laporan:** Secara otomatis membuat laporan keuangan atau penjualan bulanan.
-2. **Entri dan Pemrosesan Data:** Merampingkan tugas entri data dengan mengisi buku kerja Excel dari basis data.
+2. **Entri dan Pemrosesan Data:** Memudahkan tugas entri data dengan mengisi buku kerja Excel dari basis data.
 3. **Pembuatan Faktur:** Membuat faktur dengan format dan merek yang disesuaikan.
 4. **Pengembangan Dasbor:** Membuat dasbor dinamis untuk visualisasi data waktu nyata.
 
 Integrasi dimungkinkan dengan sistem lain seperti CRM, ERP, atau aplikasi Java khusus untuk meningkatkan proses bisnis.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk kinerja optimal:
+Az optimális teljesítmény érdekében:
 - Kelola penggunaan memori dengan membuang objek yang tidak lagi diperlukan.
 - Manfaatkan fitur multi-threading Aspose.Cells saat memproses kumpulan data besar.
 - Perbarui versi perpustakaan secara berkala untuk perbaikan dan fitur baru.
 
 Praktik terbaik meliputi penanganan pengecualian dengan baik dan mengoptimalkan struktur data untuk meminimalkan konsumsi sumber daya.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, Anda telah mempelajari cara membuat buku kerja Excel dengan bentuk label menggunakan Aspose.Cells untuk Java. Kini Anda siap untuk mengotomatiskan dan menyempurnakan tugas-tugas terkait Excel secara efisien. Untuk eksplorasi lebih lanjut, pertimbangkan untuk mempelajari fitur-fitur Aspose.Cells yang lebih canggih atau mengintegrasikannya dalam aplikasi Java yang lebih besar.
 
 Siap untuk melangkah ke tahap berikutnya? Terapkan teknik-teknik ini dalam proyek Anda dan jelajahi kemungkinan-kemungkinan baru dengan Aspose.Cells!
 
-## Bagian FAQ
+## GYIK szekció
 
 **1. Bagaimana cara menambahkan beberapa bentuk ke lembar kerja?**
 
-Anda dapat menggunakan `addShape` metode beberapa kali, menentukan parameter yang berbeda untuk setiap bentuk.
+Használhatod a `addShape` metode beberapa kali, menentukan parameter yang berbeda untuk setiap bentuk.
 
 **2. Bisakah Aspose.Cells menangani file Excel berukuran besar secara efisien?**
 
@@ -188,23 +190,26 @@ Anda dapat memulai dengan uji coba gratis dan kemudian memilih lisensi sementara
 
 **4. Apakah mungkin untuk menyesuaikan bentuk selain label?**
 
-Tentu saja! Anda dapat menambahkan berbagai jenis bentuk seperti bagan, gambar, dan lainnya menggunakan `MsoDrawingType` nilai-nilai.
+Tentu saja! Anda dapat menambahkan berbagai jenis bentuk seperti bagan, gambar, dan lainnya menggunakan `MsoDrawingType` értékek.
 
 **5. Bagaimana cara mendapatkan dukungan jika saya mengalami masalah?**
 
-Mengunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk bantuan atau periksa dokumentasi lengkap di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+Látogatás [Aspose támogatói fóruma](https://forum.aspose.com/c/cells/9) untuk bantuan atau periksa dokumentasi lengkap di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Unduh Uji Coba Gratis Aspose Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Unduh Uji Coba Gratis Aspose Cells](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
 
 Dengan mengikuti panduan ini, Anda telah mengambil langkah penting untuk menguasai otomatisasi Excel dengan Aspose.Cells untuk Java. Teruslah menjelajahi dan mengintegrasikan fitur-fitur hebat ini ke dalam aplikasi Anda!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

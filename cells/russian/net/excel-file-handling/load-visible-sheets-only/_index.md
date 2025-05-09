@@ -1,14 +1,16 @@
 ---
-title: Загрузить только видимые листы из файла Excel
-linktitle: Загрузить только видимые листы из файла Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как загружать только видимые листы из файлов Excel с помощью Aspose.Cells для .NET, в этом пошаговом руководстве.
-weight: 12
-url: /ru/net/excel-file-handling/load-visible-sheets-only/
+"description": "Узнайте, как загружать только видимые листы из файлов Excel с помощью Aspose.Cells для .NET, в этом пошаговом руководстве."
+"linktitle": "Загрузить только видимые листы из файла Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Загрузить только видимые листы из файла Excel"
+"url": "/ru/net/excel-file-handling/load-visible-sheets-only/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Загрузить только видимые листы из файла Excel
@@ -18,7 +20,7 @@ url: /ru/net/excel-file-handling/load-visible-sheets-only/
 ## Предпосылки
 Прежде чем приступить к изучению руководства, давайте убедимся, что у вас есть все необходимое для его выполнения:
 1. Базовое понимание C#: это руководство предназначено для разработчиков, знакомых с языком программирования C#.
-2.  Aspose.Cells for .NET: Вам необходимо загрузить и настроить библиотеку Aspose.Cells for .NET. Вы можете[скачать библиотеку здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Вам необходимо загрузить и настроить библиотеку Aspose.Cells for .NET. Вы можете [скачать библиотеку здесь](https://releases.aspose.com/cells/net/).
 3. Visual Studio или любая другая IDE: у вас должна быть IDE, в которой вы можете писать и тестировать свой код C#.
 4. .NET Framework: убедитесь, что у вас установлен необходимый .NET Framework для запуска ваших приложений.
 5. Образец файла Excel: для практики создайте образец файла Excel или следуйте предоставленному коду.
@@ -44,7 +46,7 @@ string dataDir = "Your Document Directory";
 string sampleFile = "output.xlsx";
 string samplePath = dataDir + sampleFile;
 ```
- В этом фрагменте кода замените`"Your Document Directory"` на фактический путь, по которому вы хотите сохранить свою книгу. 
+В этом фрагменте кода замените `"Your Document Directory"` на фактический путь, по которому вы хотите сохранить свою книгу. 
 ## Шаг 2: Создайте рабочую книгу
 Далее давайте создадим рабочую книгу и добавим некоторые данные.
 ```csharp
@@ -85,7 +87,7 @@ class CustomLoad : LoadFilter
     }
 }
 ```
--  The`StartSheet` метод проверяет, виден ли каждый лист.
+- The `StartSheet` метод проверяет, виден ли каждый лист.
 - Если он виден, то загружаются все данные с этого листа.
 - Если он не виден, загрузка данных с этого листа пропускается.
 ## Шаг 5: Загрузите рабочую книгу с помощью параметров загрузки
@@ -95,7 +97,7 @@ Workbook loadWorkbook = new Workbook(samplePath, loadOptions);
 Console.WriteLine("Sheet1: A1: {0}", loadWorkbook.Worksheets["Sheet1"].Cells["A1"].Value);
 Console.WriteLine("Sheet2: A1: {0}", loadWorkbook.Worksheets["Sheet2"].Cells["A1"].Value);
 ```
- Этот фрагмент кода использует`loadOptions` для импорта данных только из видимых листов и отображения содержимого ячейки A1 из «Листа1» и «Листа2». 
+Этот фрагмент кода использует `loadOptions` для импорта данных только из видимых листов и отображения содержимого ячейки A1 из «Листа1» и «Листа2». 
 ## Заключение
 И вот оно! Вы успешно научились загружать только видимые листы из файла Excel с помощью Aspose.Cells for .NET. Управление листами Excel может быть легким, если вы знаете, как ограничить извлекаемые данные и работать только с тем, что вам нужно. Это не только повышает эффективность ваших приложений, но и делает ваш код чище и проще в управлении. 
 ## Часто задаваемые вопросы
@@ -104,15 +106,17 @@ Console.WriteLine("Sheet2: A1: {0}", loadWorkbook.Worksheets["Sheet2"].Cells["A1
 ### Для чего используется Aspose.Cells?
 Aspose.Cells используется для работы с файлами Excel без необходимости установки Microsoft Excel, предлагая такие функции, как чтение, запись и управление рабочими листами Excel.
 ### Существует ли пробная версия Aspose.Cells?
- Да, ты можешь.[загрузить бесплатную пробную версию](https://releases.aspose.com/) для проверки его возможностей.
+Да, ты можешь. [загрузить бесплатную пробную версию](https://releases.aspose.com/) для проверки его возможностей.
 ### Где я могу найти документацию по Aspose.Cells?
- The[документация](https://reference.aspose.com/cells/net/) предоставляет исчерпывающую информацию по всем функциям.
+The [документация](https://reference.aspose.com/cells/net/) предоставляет исчерпывающую информацию по всем функциям.
 ### Как приобрести Aspose.Cells?
- Вы можете легко[купить Aspose.Cells](https://purchase.aspose.com/buy) со страницы покупки.
+Вы можете легко [купить Aspose.Cells](https://purchase.aspose.com/buy) со страницы покупки.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

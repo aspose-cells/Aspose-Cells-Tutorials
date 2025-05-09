@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,6 +162,9 @@ workbook.save(dataDir + "MakeCellActive_out.xls");
 Μη διστάσετε να επικοινωνήσετε μέσω του φόρουμ υποστήριξης εάν αντιμετωπίσετε οποιοδήποτε πρόβλημα ή έχετε περαιτέρω ερωτήσεις. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

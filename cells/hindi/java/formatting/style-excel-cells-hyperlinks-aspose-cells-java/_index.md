@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ workbook.save(outDir + "/StyledWorkbook.xls");
 अब जब आपके पास सारी जानकारी और संसाधन हैं, तो आगे बढ़ें और Java में Aspose.Cells के साथ गतिशील Excel फ़ाइलें बनाना शुरू करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

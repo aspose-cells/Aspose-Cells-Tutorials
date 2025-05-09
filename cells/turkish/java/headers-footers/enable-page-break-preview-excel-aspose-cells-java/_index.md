@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Sayfa sonu önizlemesini etkinleştirmek için bazı gerçek dünya uygulamalar�
 
 1. **Finansal Raporlar:** Başlıkların sayfalar arasında bozulmadan kalmasını sağlamak.
 2. **Envanter Listeleri:** Büyük veri kümelerini yazdırırken kategorileri bir arada tutmak.
-3. **Sözleşmeler ve Teklifler:** Müşteri incelemesinden önce belgelerin profesyonelce biçimlendirilmesi.
+3. **Sözleşmeler ve Teklifler:** Müşteri incelemesinden önce dokümanların profesyonelce biçimlendirilmesi.
 4. **Belge Yönetim Sistemleriyle Entegrasyon:** Belge hazırlama iş akışlarının otomatikleştirilmesi.
 5. **Raporların Toplu İşlenmesi:** Birden fazla çalışma kitabına tutarlı biçimlendirme uygulamak.
 
@@ -192,6 +194,9 @@ Bu öğreticiyi takip ederek, Aspose.Cells for Java kullanarak Excel dosyaların
 Bu kapsamlı kılavuzla, sayfa sonu önizlemelerini etkin bir şekilde etkinleştirmek için Aspose.Cells for Java'yı kullanmak için iyi bir donanıma sahip olacaksınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

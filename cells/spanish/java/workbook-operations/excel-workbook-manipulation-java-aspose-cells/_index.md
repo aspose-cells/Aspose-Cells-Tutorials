@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,7 +190,7 @@ workbook.save(outDir + "/StyledCell_out.xls");
 System.out.println("Workbook with styled cell saved successfully!");
 ```
 
-### Cómo agregar un hipervínculo a un archivo externo
+### Agregar un hipervínculo a un archivo externo
 #### Descripción general
 Los hipervínculos pueden ser cruciales para conectar datos entre diferentes archivos. Esta función permite agregar hipervínculos dentro del libro, vinculando celdas con recursos externos de forma eficiente.
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Siguiendo este tutorial, ha aprendido a manipular libros de Excel de forma eficiente con Aspose.Cells para Java. Esta potente herramienta simplifica la creación, modificación y mejora de sus archivos de Excel, permitiéndole centrarse en ofrecer soluciones de datos de alta calidad. Continúe explorando sus funciones para aprovechar al máximo sus capacidades en sus proyectos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

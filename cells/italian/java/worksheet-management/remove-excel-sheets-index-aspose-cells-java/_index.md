@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ Simile alla sezione precedente:
 FileInputStream fstream = new FileInputStream(dataDir + "book.xls");
 Workbook workbook = new Workbook(fstream);
 ```
-##### 2. Chiudi l'utilizzo del post Stream
+##### 2. Chiudi l'utilizzo del post di Stream
 Chiudere sempre i flussi per evitare perdite di memoria:
 ```java
 fstream.close();
@@ -135,6 +137,9 @@ Per guide e documentazione più complete:
 Ci auguriamo che questo tutorial ti permetta di sfruttare appieno il potenziale di Aspose.Cells per Java nelle tue attività di gestione dati. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

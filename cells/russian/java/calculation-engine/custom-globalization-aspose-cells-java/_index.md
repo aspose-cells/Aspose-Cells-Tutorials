@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ A5: Да, Aspose.Cells поддерживает интеграцию с разл
 - **Скачать**: Доступ к последним релизам на [Загрузки Aspose](https://releases.aspose.com/cells/java/)
 - **Покупка**: Купить лицензию для коммерческого использования на [Покупка Aspose](https://purchase.aspose.com/buy)
 - **Бесплатная пробная версия**: Начните с бесплатной пробной версии от [Бесплатная пробная версия Aspose](https://releases.aspose.com/cells/java/)
-- **Временная лицензия**Получите временную лицензию через [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/)
+- **Временная лицензия**: Получите временную лицензию через [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/)
 - **Поддерживать**: Получите помощь от сообщества по адресу [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 Следуя этому руководству, вы будете на пути к реализации мощных функций глобализации в приложениях Java с использованием Aspose.Cells. Удачного кодирования!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ För att börja använda Aspose.Cells för Java, se till att du har:
 - Se till att din IDE stöder Maven eller Gradle
 - Det är meriterande att ha grundläggande Java-programmeringskoncept.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 Grundläggande förståelse för filhantering i Java och kännedom om XML för konfiguration kommer att vara till hjälp.
 
 ## Konfigurera Aspose.Cells för Java
@@ -92,7 +94,7 @@ Med din arbetsbok öppen kan du nu utföra olika åtgärder, till exempel läsa 
 // Åtkomst till det första kalkylbladet i arbetsboken
 var sheet = workbook.getWorksheets().get(0);
 
-// Hämta en specifik cells värde
+// Hämta värdet för en specifik cell
 var cellValue = sheet.getCells().get("A1").getValue();
 System.out.println("Cell A1 Value: " + cellValue);
 ```
@@ -146,6 +148,9 @@ Redo att börja? Försök att implementera dessa steg i ditt nästa Java-projekt
 För mer detaljerad information, se [Aspose-dokumentation](https://reference.aspose.com/cells/java/) och utforska ytterligare resurser för att utöka din förståelse av detta kraftfulla bibliotek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

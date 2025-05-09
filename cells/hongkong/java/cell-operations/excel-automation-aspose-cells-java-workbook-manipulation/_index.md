@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### 許可證獲取
 Aspose.Cells for Java 是商業產品，但您可以先免費試用以評估其功能。
 1. **免費試用：** 下載並測試，不受功能限制。
-2. **臨時執照：** 取得臨時許可證以進行擴展評估。
+2. **臨時執照：** 取得臨時許可證以進行延長評估。
 3. **購買：** 如果 Aspose.Cells 滿足您的需求，請購買完整授權。
 
 ### 基本初始化
@@ -204,6 +206,9 @@ Cell foundCell = worksheet.getCells().find(obj, null, options);
    - 是的，使用 `FindOptions` 配置為查看原始值可讓您執行此類搜尋。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

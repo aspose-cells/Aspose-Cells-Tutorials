@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 3D Grafikler
@@ -162,7 +164,7 @@ Java için Aspose.Cells, öncelikle Excel dosyaları için statik 3B grafikler o
 
 ### 3D grafiklerimdeki verilerin güncellenme sürecini otomatikleştirebilir miyim?
 
-Evet, veri kaynaklarını entegre ederek veya Excel içinde VBA (Visual Basic for Applications) gibi betik dillerini kullanarak 3B grafiklerinizdeki verileri güncelleme sürecini otomatikleştirebilirsiniz. Java için Aspose.Cells ayrıca yeni veriler mevcut olduğunda grafiklerin dinamik olarak güncellenmesine yardımcı olabilir.
+Evet, Excel'de VBA (Visual Basic for Applications) gibi veri kaynaklarını entegre ederek veya betik dillerini kullanarak 3B grafiklerinizdeki verileri güncelleme sürecini otomatikleştirebilirsiniz. Java için Aspose.Cells ayrıca yeni veriler mevcut olduğunda grafiklerin dinamik olarak güncellenmesine yardımcı olabilir.
 
 ### Aspose.Cells for Java için daha fazla kaynak ve belgeyi nerede bulabilirim?
 
@@ -171,6 +173,7 @@ Aspose.Cells for Java için kapsamlı dokümanları ve kaynakları şu web sites
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

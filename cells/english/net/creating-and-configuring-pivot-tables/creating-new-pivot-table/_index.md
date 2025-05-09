@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a New Pivot Table Programmatically in .NET
@@ -139,6 +141,7 @@ You can get support through the [Aspose forum](https://forum.aspose.com/c/cells/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

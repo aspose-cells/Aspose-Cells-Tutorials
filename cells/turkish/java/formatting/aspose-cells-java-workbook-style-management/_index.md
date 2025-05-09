@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ C5: HtmlSaveOptions nesnesi, çıktıyı iyileştirmek için kullanılmayan stil
 Bu öğreticiyi takip ederek projelerinizde Aspose.Cells for Java'yı kullanarak üretkenliği ve verimliliği artırmak için iyi bir donanıma sahip olursunuz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

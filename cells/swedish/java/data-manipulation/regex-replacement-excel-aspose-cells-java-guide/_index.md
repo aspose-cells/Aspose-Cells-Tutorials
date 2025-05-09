@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Innan vi börjar, se till att du har följande:
 - Ett kompatibelt Java Development Kit (JDK), version 8 eller senare.
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
 
-**Kunskapsförkunskaper:**
+**Kunskapsförkunskapskrav:**
 - Grundläggande förståelse för Java-programmering.
 - Bekantskap med reguljära uttryck är bra men inte ett krav.
 
@@ -171,6 +173,9 @@ I den här handledningen lärde du dig hur du använder Aspose.Cells för Java f
 - Stöd: [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

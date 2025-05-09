@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตรวจสอบวันที่ในสเปรดชีต
@@ -58,7 +60,7 @@ Worksheet worksheet = workbook.getWorksheets().get("Sheet1");
 ตอนนี้มาถึงส่วนสำคัญ – การตรวจสอบวันที่ในสเปรดชีต เราจะวนซ้ำในเซลล์ต่างๆ และตรวจสอบว่ามีวันที่ที่ถูกต้องหรือไม่:
 
 ```java
-// วนซ้ำผ่านเซลล์
+// ทำซ้ำผ่านเซลล์
 for (int row = 0; row < worksheet.getCells().getMaxDataRow(); row++) {
     for (int col = 0; col < worksheet.getCells().getMaxDataColumn(); col++) {
         Cell cell = worksheet.getCells().get(row, col);
@@ -112,11 +114,12 @@ workbook.save("updated_excel_file.xlsx");
 
 ### ฉันสามารถหาทรัพยากรและตัวอย่างเพิ่มเติมสำหรับ Aspose.Cells สำหรับ Java ได้ที่ไหน
 
-คุณสามารถอ้างอิงได้จาก [เอกสารอ้างอิง API Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) สำหรับเอกสารและตัวอย่างที่ครอบคลุม
+คุณสามารถอ้างอิงได้ที่ [เอกสารอ้างอิง API Aspose.Cells สำหรับ Java](https://reference.aspose.com/cells/java/) สำหรับเอกสารและตัวอย่างที่ครอบคลุม
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

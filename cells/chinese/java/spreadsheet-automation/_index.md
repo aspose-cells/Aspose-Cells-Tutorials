@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 电子表格自动化
@@ -48,9 +50,11 @@
 了解如何使用 Aspose.Cells（一个强大的 Excel 操作库）通过源代码示例在 Java 中自动执行 Excel 任务。
 ### [Excel 中的数据集成](./data-integration-in-excel/)
 学习如何高效地集成 Excel 数据，从而获得更深入的洞察和决策。本指南包含使用 Aspose.Cells for Java 的源代码，并包含分步指南。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

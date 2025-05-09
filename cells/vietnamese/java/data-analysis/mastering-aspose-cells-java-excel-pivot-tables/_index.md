@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.C
 - Tải một bảng tính hiện có và truy cập các bảng trục của nó
 - Thêm trường vào vùng dữ liệu trong bảng trục
 - Cấu hình tổng cộng cho các hàng và cột
-- Xử lý giá trị null bằng cách hiển thị chuỗi tùy chỉnh
+- Xử lý các giá trị null bằng cách hiển thị các chuỗi tùy chỉnh
 - Thiết lập thứ tự bố trí của các trường trang
 
 Hãy cùng tìm hiểu các điều kiện tiên quyết trước khi bắt đầu triển khai các tính năng này.
@@ -212,6 +214,9 @@ A5: Ghé thăm [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/jav
 Chúc bạn viết mã vui vẻ và thoải mái khám phá thêm với Aspose.Cells cho Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

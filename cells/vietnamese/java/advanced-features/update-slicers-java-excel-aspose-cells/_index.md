@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Việc tối ưu hóa hiệu suất là rất quan trọng khi xử lý các t�
 Trong hướng dẫn này, chúng tôi đã khám phá cách cập nhật slicer trong các tệp Java Excel bằng Aspose.Cells. Bạn đã học cách tải và hiển thị phiên bản thư viện, thao tác slicer theo chương trình và lưu các thay đổi trở lại tệp Excel của mình. Với các kỹ năng này, bạn có thể tự động hóa các quy trình lọc dữ liệu, nâng cao năng suất và độ chính xác trong các tác vụ phân tích dữ liệu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

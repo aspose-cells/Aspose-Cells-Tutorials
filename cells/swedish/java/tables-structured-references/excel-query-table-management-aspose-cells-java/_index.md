@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ Här är några verkliga scenarier där hantering av Excel-frågetabeller med As
 ## Prestandaöverväganden
 
 Att arbeta effektivt med Aspose.Cells innebär:
-- **Optimera minnesanvändning:** Se till att Javas minnesinställningar är inställda för att hantera stora Excel-filer.
+- **Optimera minnesanvändningen:** Se till att Javas minnesinställningar är inställda för att hantera stora Excel-filer.
 - **Effektiv resurshantering:** Stäng arbetsböcker efter bearbetning för att frigöra resurser.
 - **Bästa praxis:** Använd batchoperationer där det är möjligt och undvik onödig fil-I/O under datamanipulation.
 
@@ -199,6 +201,9 @@ Du har nu utforskat hur man läser, modifierar och skriver Excel-frågetabeller 
 Lycka till med kodningen och njut av att hantera Excel-data som ett proffs med Aspose.Cells för Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ workbook.save(outDir + "/TLDValidation_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - نعم، يدعم Aspose.Cells أنواعًا مختلفة من التحقق من صحة البيانات، مما يسمح لك بفرض قواعد مختلفة عبر المصنف الخاص بك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

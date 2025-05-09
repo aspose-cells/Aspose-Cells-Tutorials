@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 ## Что вы узнаете
 - Создайте новую книгу Excel с помощью Aspose.Cells для Java
 - Добавить и настроить текстовое поле на листе Excel
-- Примените предустановленный стиль WordArt, чтобы улучшить презентацию текста
+- Примените предустановленный стиль WordArt, чтобы улучшить презентацию текста.
 - Оптимизируйте производительность при работе с большими наборами данных
 - Изучите реальные применения этих функций
 Готовы ли вы улучшить управление электронными таблицами? Давайте рассмотрим необходимые условия.
@@ -168,6 +170,9 @@ tb.getFont().setSize(44);
 - **Поддерживать**: [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/custom-chart-templates/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Custom Chart Templates
@@ -127,6 +129,7 @@ For comprehensive documentation and examples, visit the Aspose.Cells for Java do
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

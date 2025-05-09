@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Extrahera axeletiketter för Excel-diagram med Aspose.Cells Java: En steg-för-steg-guide
+# Extrahera axeletiketter från Excel-diagram med Aspose.Cells Java: En steg-för-steg-guide
 
 ## Introduktion
 
@@ -153,6 +155,9 @@ Genom att följa den här guiden är du väl rustad för att förbättra dina Ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

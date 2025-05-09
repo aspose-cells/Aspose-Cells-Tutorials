@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ Los rangos con nombre simplifican la gestión de referencias de celdas. Aquí te
 
 Inicialice su libro de trabajo y acceda a su colección de hojas de trabajo:
 ```java
-// Crear una instancia de un nuevo objeto Workbook
+// Crear una instancia de un nuevo objeto de libro de trabajo
 Workbook book = new Workbook();
 
 // Obtenga la colección de hojas de trabajo
@@ -179,6 +181,9 @@ Ha aprendido a usar Aspose.Cells para Java para crear fórmulas complejas median
 ¡Sumérjase en el mundo de los informes dinámicos de Excel con Aspose.Cells para Java y descubra nuevos potenciales en la gestión de datos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

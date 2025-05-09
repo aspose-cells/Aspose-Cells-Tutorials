@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ I likhet med att ställa in A2 justerar den här funktionen ditt arbetsblads pap
        }
    }
    ```
-#### Ställ in pappersstorlek till A4
+#### Ställ in pappersstorleken till A4
 
 **Översikt**
 Det här avsnittet handlar om att ställa in kalkylbladets dimensioner till A4, ett vanligt krav för dokumentgenerering.
@@ -222,6 +224,9 @@ Utforska sedan fler funktioner i Aspose.Cells eller fördjupa dig i avancerade k
 - [Grunderna i Java-programmering](https://docs.oracle.com/javase/tutorial/index.html)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

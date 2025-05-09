@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Pro další průzkum a podrobné informace:
 Dodržováním tohoto tutoriálu jste na dobré cestě k tomu, abyste se stali zdatnými v Aspose.Cells pro Javu, což vám usnadní práci s grafy v Excelu ve vašich projektech.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

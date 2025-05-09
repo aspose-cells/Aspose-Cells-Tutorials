@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Antes de comenzar, asegúrese de tener:
 
 - **Bibliotecas y versiones:** Aspose.Cells para Java versión 25.3.
 - **Configuración del entorno:** JDK instalado y un IDE como IntelliJ IDEA o Eclipse configurado.
-- **Requisitos de conocimiento:** Comprensión básica de programación Java y familiaridad con Excel.
+- **Requisitos de conocimiento:** Conocimiento básico de programación Java y familiaridad con Excel.
 
 ## Configuración de Aspose.Cells para Java
 
@@ -163,6 +165,9 @@ Siguiendo esta guía, ha aprendido a optimizar sus libros de Excel con Aspose.Ce
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

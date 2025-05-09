@@ -8,7 +8,9 @@ url: /net/excel-security/advanced-protection-settings-for-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Protection Settings For Excel Worksheet
@@ -168,6 +170,7 @@ Absolutely! You can find community support and resources on the [Aspose Support 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

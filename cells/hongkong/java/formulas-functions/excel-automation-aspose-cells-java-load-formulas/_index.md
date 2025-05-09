@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 
 在開始之前，請確保您具備以下條件：
 - **Java 開發工具包 (JDK)** 安裝在您的機器上。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 像 IntelliJ IDEA 或 Eclipse 這樣的 IDE。
 
 ### 所需庫
@@ -108,7 +110,7 @@ cells.get("B2").setSharedFormula("=A2*0.09", 13, 1);
 ```
 - **參數說明：** 
   - `setSharedFormula(String formula, int rowCount, int columnCount)`：將共享公式套用到指定範圍。
-  - `formula` 是您要套用的 Excel 運算式。
+  - `formula` 是您想要套用的 Excel 運算式。
   - `rowCount` 和 `columnCount` 定義公式的垂直和水平範圍。
 
 ### 將工作簿儲存到輸出文件
@@ -172,6 +174,9 @@ workbook.save(outDir + "/SSharedFormula_out.xlsx", SaveFormat.XLSX);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

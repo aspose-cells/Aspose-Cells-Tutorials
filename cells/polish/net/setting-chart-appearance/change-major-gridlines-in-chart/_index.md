@@ -1,14 +1,16 @@
 ---
-title: Zmień główne linie siatki na wykresie
-linktitle: Zmień główne linie siatki na wykresie
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zmieniać główne linie siatki na wykresach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku.
-weight: 11
-url: /pl/net/setting-chart-appearance/change-major-gridlines-in-chart/
+"description": "Dowiedz się, jak zmieniać główne linie siatki na wykresach programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego szczegółowego przewodnika krok po kroku."
+"linktitle": "Zmień główne linie siatki na wykresie"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zmień główne linie siatki na wykresie"
+"url": "/pl/net/setting-chart-appearance/change-major-gridlines-in-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmień główne linie siatki na wykresie
@@ -22,7 +24,7 @@ Tworzenie atrakcyjnych wizualnie wykresów w programie Excel jest niezbędne do 
 Zanim zaczniemy, musisz zadbać o kilka rzeczy, aby praca z Aspose.Cells przebiegała bezproblemowo:
 
 - Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Tutaj będziesz pisać i wykonywać swój kod.
--  Aspose.Cells dla .NET: Najnowszą wersję Aspose.Cells można pobrać ze strony[strona internetowa](https://releases.aspose.com/cells/net/) . Jeśli chcesz poeksperymentować przed zakupem, możesz rozważyć zapisanie się na[bezpłatny okres próbny](https://releases.aspose.com/).
+- Aspose.Cells dla .NET: Najnowszą wersję Aspose.Cells można pobrać ze strony [strona internetowa](https://releases.aspose.com/cells/net/). Jeśli chcesz poeksperymentować przed zakupem, możesz rozważyć zapisanie się na [bezpłatny okres próbny](https://releases.aspose.com/).
 - Podstawowa wiedza o języku C#: Znajomość programowania w języku C# ułatwi śledzenie przykładów zawartych w tym samouczku.
 
 Gdy już wszystko skonfigurujemy, możemy zacząć pisać kod!
@@ -50,11 +52,11 @@ Pierwszą rzeczą, którą będziesz chciał zrobić, jest zdefiniowanie, gdzie 
 string outputDir = "Your Output Directory"; // Zaktualizuj wybraną przez siebie ścieżką
 ```
 
- Zastępować`"Your Output Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik.
+Zastępować `"Your Output Directory"` z rzeczywistą ścieżką, pod którą chcesz zapisać plik.
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Następnie należy utworzyć nową instancję`Workbook` Klasa. Ten obiekt będzie reprezentował Twój plik Excel, umożliwiając Ci manipulowanie jego zawartością.
+Następnie należy utworzyć nową instancję `Workbook` Klasa. Ten obiekt będzie reprezentował Twój plik Excel, umożliwiając Ci manipulowanie jego zawartością.
 
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
@@ -65,7 +67,7 @@ Ta linijka kodu inicjuje nowy skoroszyt, który będzie stanowił puste płótno
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
- Po utworzeniu skoroszytu możesz uzyskać dostęp do jego domyślnego arkusza. Arkusze w Aspose.Cells są indeksowane, więc jeśli chcesz pierwszy arkusz, odwołaj się do niego według indeksu`0`.
+Po utworzeniu skoroszytu możesz uzyskać dostęp do jego domyślnego arkusza. Arkusze w Aspose.Cells są indeksowane, więc jeśli chcesz pierwszy arkusz, odwołaj się do niego według indeksu `0`.
 
 ```csharp
 // Uzyskanie odniesienia do nowo dodanego arkusza roboczego poprzez podanie indeksu arkusza
@@ -101,7 +103,7 @@ W tym kodzie określamy typ wykresu (w tym przypadku wykres kolumnowy) i pozycj�
 
 ## Krok 6: Uzyskaj dostęp do instancji wykresu
 
- Po utworzeniu wykresu musimy uzyskać dostęp do jego instancji, aby zmodyfikować jego właściwości. Można to zrobić, pobierając go za pomocą`Charts`kolekcja.
+Po utworzeniu wykresu musimy uzyskać dostęp do jego instancji, aby zmodyfikować jego właściwości. Można to zrobić, pobierając go za pomocą `Charts` kolekcja.
 
 ```csharp
 // Uzyskiwanie dostępu do wystąpienia nowo dodanego wykresu
@@ -142,7 +144,7 @@ chart.NSeries[1].Area.FillFormat.SetOneColorGradient(Color.Lime, 1, Aspose.Cells
 
 W tym kodzie ustawiamy różne kolory dla różnych części wykresu. Dostosowanie wyglądu może sprawić, że Twoje dane będą o wiele bardziej angażujące!
 
-## Krok 9: Zmień główne kolory siatki
+## Krok 9: Zmień główne kolory linii siatki
 
 Teraz czas na główne wydarzenie! Aby zwiększyć czytelność, zmienimy kolor głównych linii siatki wzdłuż obu osi naszego wykresu.
 
@@ -179,7 +181,7 @@ Ten prosty komunikat konsoli informuje, że program został uruchomiony poprawni
 
 ## Wniosek
 
-masz to! Udało Ci się nauczyć, jak zmieniać główne linie siatki na wykresie za pomocą Aspose.Cells dla .NET. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko manipulowałeś plikami Excel programowo, ale także poprawiłeś ich atrakcyjność wizualną dzięki dostosowaniom kolorów. Możesz swobodnie eksperymentować dalej z Aspose.Cells, aby pogłębić swoje umiejętności prezentacji danych i uczynić swoje wykresy jeszcze bardziej dynamicznymi!
+I masz to! Udało Ci się nauczyć, jak zmieniać główne linie siatki na wykresie za pomocą Aspose.Cells dla .NET. Postępując zgodnie z tym przewodnikiem krok po kroku, nie tylko manipulowałeś plikami Excel programowo, ale także poprawiłeś ich atrakcyjność wizualną dzięki dostosowaniom kolorów. Możesz swobodnie eksperymentować dalej z Aspose.Cells, aby pogłębić swoje umiejętności prezentacji danych i uczynić swoje wykresy jeszcze bardziej dynamicznymi!
 
 ## Najczęściej zadawane pytania
 
@@ -187,19 +189,21 @@ masz to! Udało Ci się nauczyć, jak zmieniać główne linie siatki na wykresi
 Aspose.Cells to biblioteka .NET przeznaczona do programowego tworzenia, modyfikowania i zarządzania plikami Excela.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?  
- Tak, możesz zapisać się na bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+Tak, możesz zapisać się na bezpłatny okres próbny [Tutaj](https://releases.aspose.com/).
 
 ### Jak mogę zmienić inne elementy na wykresie za pomocą Aspose.Cells?  
- Można w podobny sposób dostosowywać różne właściwości wykresu, uzyskując dostęp do elementów wykresu za pomocą`Chart` klasy, takie jak tytuły, legendy i etykiety danych.
+Można w podobny sposób dostosowywać różne właściwości wykresu, uzyskując dostęp do elementów wykresu za pomocą `Chart` klasy, takie jak tytuły, legendy i etykiety danych.
 
 ### Jakie formaty plików obsługuje Aspose.Cells?  
 Aspose.Cells obsługuje wiele formatów plików, w tym XLSX, XLS, CSV i inne.
 
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?  
- Szczegółową dokumentację można znaleźć pod adresem[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Szczegółową dokumentację można znaleźć pod adresem [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

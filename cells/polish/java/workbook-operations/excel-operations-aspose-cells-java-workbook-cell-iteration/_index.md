@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ import com.aspose.cells.Cell;
 Iterator cellIterator = book.getWorksheets().get(0).getCells().iterator();
 while (cellIterator.hasNext()) {
     Cell cell = (Cell) cellIterator.next();
-    // Przykładowy proces: Wyświetlanie nazwy i wartości komórki
+    // Przykładowy proces: Drukowanie nazwy i wartości komórki
     System.out.println("Name: " + cell.getName() + ", Value: " + cell.getValue());
 }
 ```
@@ -191,6 +193,9 @@ Zachęcamy Państwa do wypróbowania tych rozwiązań we własnych projektach!
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

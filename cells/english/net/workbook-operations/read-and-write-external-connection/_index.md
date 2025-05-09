@@ -8,7 +8,9 @@ url: /net/workbook-operations/read-and-write-external-connection/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read and Write External Connection of XLSB File
@@ -133,6 +135,7 @@ Yes, Aspose provides a [temporary license](https://purchase.aspose.com/temporary
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

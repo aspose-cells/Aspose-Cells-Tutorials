@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 
 ## Guía de implementación
 
-### Función 1: Copiar opciones con ReferToDestinationSheet
+### Característica 1: Copiar opciones con ReferToDestinationSheet
 
 #### Descripción general
 Esta función le permite mantener las referencias correctas al copiar datos entre hojas. Al configurar `CopyOptions.ReferToDestinationSheet` Si es verdadero, cualquier fórmula en las celdas copiadas ajustará sus referencias para apuntar a la hoja de destino.
@@ -179,6 +181,9 @@ A5: Desechar los objetos de forma adecuada, realizar operaciones en lotes y supe
 - **Foro de soporte**: [Soporte de Aspose](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

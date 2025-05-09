@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Excel File to PPTX Programmatically in .NET
@@ -109,6 +111,7 @@ Yes, you can automate this process by looping through a list of Excel files and 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

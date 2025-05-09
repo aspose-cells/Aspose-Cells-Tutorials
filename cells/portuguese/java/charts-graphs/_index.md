@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Aprenda a criar visualizações de dados atraentes com nossos tutoriais de gráficos Aspose.Cells para Java. Estes guias detalhados orientam você na criação de vários tipos de gráficos, na personalização de elementos gráficos, na formatação de componentes visuais e no trabalho com fontes de dados dinâmicas. Cada tutorial inclui exemplos práticos de código Java que demonstram como implementar gráficos com aparência profissional que visualizam os dados da sua planilha de forma eficaz, aprimorando os recursos analíticos dos seus aplicativos Java baseados em Excel.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações com gráficos e tabelas
 - Implementação passo a passo com exemplos de código completos
@@ -195,6 +197,9 @@ Aprenda a personalizar legendas de gráficos usando o Aspose.Cells para Java. Es
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

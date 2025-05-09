@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tutoriels de traitement de feuilles de calcul Java Aspose.Cells
@@ -118,9 +120,11 @@ Tutoriels complets pour créer des modèles de rapport, générer des documents 
 
 ### [Automatisation et traitement par lots](./automation-batch-processing/)
 Tutoriels étape par étape pour automatiser les tâches Excel, traiter par lots plusieurs fichiers et planifier des opérations avec Aspose.Cells pour Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

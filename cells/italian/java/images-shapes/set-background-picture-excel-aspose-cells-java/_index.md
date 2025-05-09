@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ workbook.save(outDir + "SBPforWorksheet.xlsx");
 ## Considerazioni sulle prestazioni
 ### Ottimizzazione delle prestazioni
 - Riduci al minimo le dimensioni dei file immagine per tempi di caricamento più rapidi.
-- Riutilizzare `Workbook` oggetti ove possibile invece di creare nuove istanze frequentemente.
+- Riutilizzare `Workbook` oggetti ove possibile anziché creare nuove istanze frequentemente.
 
 ### Linee guida per l'utilizzo delle risorse
 - Monitorare l'utilizzo della memoria quando si gestiscono file Excel di grandi dimensioni o immagini ad alta risoluzione.
@@ -164,6 +166,9 @@ Scopri Aspose.Cells Java e scopri subito le potenti funzionalità di manipolazio
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

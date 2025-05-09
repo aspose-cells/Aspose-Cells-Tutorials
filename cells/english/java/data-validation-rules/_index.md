@@ -8,7 +8,9 @@ url: /java/data-validation-rules/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Validation Rules
@@ -42,9 +44,11 @@ Learn Data Validation in Excel using Aspose.Cells for Java. Implement rules, err
 Learn how to implement conditional data validation using Aspose.Cells for Java. Step-by-step guide with source code for accurate data handling in Excel spreadsheets.
 ### [Input Message in Data Validation](./input-message-in-data-validation/)
 Learn how to enhance data validation in Excel using Aspose.Cells for Java. Step-by-step guide with code examples to improve data accuracy and user guidance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

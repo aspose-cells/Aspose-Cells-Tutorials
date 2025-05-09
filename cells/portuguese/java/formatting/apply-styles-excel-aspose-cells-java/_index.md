@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Para começar a usar o Aspose.Cells, você precisa integrá-lo ao seu projeto. V
    - Você pode obter um teste gratuito em [Downloads do Aspose](https://releases.aspose.com/cells/java/).
    - Para uso prolongado, considere comprar uma licença ou obter uma temporária por meio de [Licença Temporária](https://purchase.aspose.com/temporary-license/).
 
-3. **Inicialização básica**: Uma vez instalado, crie uma instância de `Workbook` para começar a criar e manipular arquivos do Excel.
+3. **Inicialização básica**Uma vez instalado, crie uma instância de `Workbook` para começar a criar e manipular arquivos do Excel.
 
 ## Guia de Implementação
 
@@ -205,6 +207,9 @@ Esperamos que este tutorial tenha sido informativo e útil. Boa programação!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

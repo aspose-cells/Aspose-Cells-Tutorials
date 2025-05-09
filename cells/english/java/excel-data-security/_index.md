@@ -8,7 +8,9 @@ url: /java/excel-data-security/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Security
@@ -40,9 +42,11 @@ Learn effective Data Masking Techniques using Aspose.Cells for Java. Safeguard s
 Learn how to audit file access using Aspose.Cells for Java API. Step-by-step guide with source code and FAQs.
 ### [Data Validation for Security](./data-validation-for-security/)
 Enhance Data Security with Aspose.Cells for Java. Explore Comprehensive Data Validation Techniques. Learn How to Implement Robust Validation & Protection.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

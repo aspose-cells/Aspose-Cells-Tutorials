@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -227,7 +229,7 @@ Al dominar Aspose.Cells para Java, descubrirá potentes funciones de automatizac
    - Utilice técnicas de gestión de memoria Java y considere dividir las tareas en partes más pequeñas si es necesario.
 
 2. **¿Puede Aspose.Cells manejar fórmulas complejas durante la conversión a PDF?**
-   - Sí, conserva los cálculos de la fórmula en el PDF resultante.
+   - Sí, conserva los cálculos de fórmulas en el PDF resultante.
 
 3. **¿Cuáles son algunos problemas comunes al reemplazar texto en encabezados y pies de página?**
    - Asegúrese de que los delimitadores en las etiquetas y los reemplazos no entren en conflicto con el contenido real.
@@ -250,6 +252,9 @@ Al dominar Aspose.Cells para Java, descubrirá potentes funciones de automatizac
 Si sigue esta guía, estará bien equipado para aprovechar Aspose.Cells para Java en sus proyectos, mejorando la productividad y la precisión al trabajar con archivos de Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

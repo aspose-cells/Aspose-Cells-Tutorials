@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,12 +22,12 @@ Excel 통합 문서를 프로그래밍 방식으로 관리하는 일은 어려�
 - Excel 통합 문서를 로드합니다.
 - 통합 문서 내의 특정 워크시트에 액세스합니다.
 - Aspose.Cells for Java를 사용하여 효율적으로 열을 삭제합니다.
-- 변경 사항을 Excel 파일에 저장합니다.
+- 변경 사항을 Excel 파일로 저장합니다.
 
 구현에 들어가기 전에 이 튜토리얼에 필요한 전제 조건을 살펴보겠습니다.
 
 ## 필수 조건
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 - 컴퓨터에 Java Development Kit(JDK)가 설치되어 있어야 합니다.
 - IntelliJ IDEA나 Eclipse와 같은 통합 개발 환경(IDE).
 - 종속성 관리를 위해 프로젝트에 Maven 또는 Gradle이 구성되어 있습니다.
@@ -172,10 +174,13 @@ A: JAR을 다운로드하세요 [Aspose 다운로드](https://releases.aspose.co
 - **다운로드:** [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 라이선스 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다:** [Aspose 포럼 지원](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

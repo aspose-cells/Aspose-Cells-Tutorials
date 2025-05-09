@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 
 - **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** จำเป็นต้องมี Aspose.Cells สำหรับ Java (เวอร์ชัน 25.3)
 - **การตั้งค่าสภาพแวดล้อม:** จำเป็นต้องมีความรู้พื้นฐานเกี่ยวกับสภาพแวดล้อมการพัฒนา Java เช่น Maven หรือ Gradle
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยกับโครงสร้างแผนภูมิ Excel และแนวคิดการเขียนโปรแกรม Java ขั้นพื้นฐาน
+- **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยกับโครงสร้างแผนภูมิ Excel และแนวคิดการเขียนโปรแกรม Java ขั้นพื้นฐาน
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -185,6 +187,9 @@ workbook.save(outDir + "/AThemes_out.xlsx");
 - **สนับสนุน:** [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

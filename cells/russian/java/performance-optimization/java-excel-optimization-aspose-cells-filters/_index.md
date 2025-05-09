@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ public class ExcelLoader {
 4. **Что делать, если мое приложение вылетает из-за проблем с памятью?**
    - Рассмотрите возможность использования пользовательских фильтров для сокращения объема загружаемых одновременно данных и соответствующей настройки параметров памяти JVM.
 
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    - Посещать [Документация Aspose](https://reference.aspose.com/cells/java/) для получения подробных руководств и примеров.
 
 ## Ресурсы
@@ -190,6 +192,9 @@ public class ExcelLoader {
 - **Поддерживать:** Получите помощь и обсудите вопросы на [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

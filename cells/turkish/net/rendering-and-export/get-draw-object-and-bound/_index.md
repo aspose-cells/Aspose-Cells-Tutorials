@@ -1,17 +1,19 @@
 ---
-title: Aspose.Cells ile Nesne Sınırlarını Çizin
-linktitle: Aspose.Cells ile Nesne Sınırlarını Çizin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Kapsamlı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de çizim nesnesi sınırlarının nasıl çıkarılacağını keşfedin.
-weight: 15
-url: /tr/net/rendering-and-export/get-draw-object-and-bound/
+"description": "Kapsamlı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de çizim nesnesi sınırlarının nasıl çıkarılacağını keşfedin."
+"linktitle": "Aspose.Cells ile Çizim Nesnesi Sınırlarını Alın"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells ile Çizim Nesnesi Sınırlarını Alın"
+"url": "/tr/net/rendering-and-export/get-draw-object-and-bound/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cells ile Nesne Sınırlarını Çizin
+# Aspose.Cells ile Çizim Nesnesi Sınırlarını Alın
 
 
 ## giriiş
@@ -23,7 +25,7 @@ Aspose.Cells for .NET kullanarak Excel elektronik tablolarından bilgi oluşturm
 Kodlamaya başlamadan önce edinmeniz gereken birkaç ön koşul var:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Tercih ettiğiniz herhangi bir sürümü kullanabilirsiniz.
-2.  .NET için Aspose.Cells: Aspose.Cells'i indirin ve yükleyin[indirme bağlantısı](https://releases.aspose.com/cells/net/) Ücretsiz deneme sürümü de mevcuttur[Burada](https://releases.aspose.com/).
+2. .NET için Aspose.Cells: Aspose.Cells'i indirin ve yükleyin [indirme bağlantısı](https://releases.aspose.com/cells/net/)Ücretsiz deneme sürümü de mevcuttur [Burada](https://releases.aspose.com/).
 3. C# Temel Bilgisi: C# programlamaya aşinalık faydalı olacaktır. Yeniyseniz endişelenmeyin! Her adımda size rehberlik edeceğiz.
 
 Ortamınızı kurduktan sonra gerekli paketlere geçeceğiz.
@@ -49,7 +51,7 @@ Bunu yönetilebilir adımlara bölelim. Çizim nesnesi sınırlarını yakalayan
 
 ## Adım 1: Bir Çizim Nesnesi Olay İşleyicisi Sınıfı Oluşturun
 
- İlk olarak, sınıfı genişleten bir sınıf oluşturmanız gerekir`DrawObjectEventHandler`Bu sınıf çizim olaylarını yönetecek ve nesnenin koordinatlarını çıkarmanıza olanak tanıyacaktır.
+İlk olarak, sınıfı genişleten bir sınıf oluşturmanız gerekir `DrawObjectEventHandler`Bu sınıf çizim olaylarını yönetecek ve nesnenin koordinatlarını çıkarmanıza olanak tanıyacaktır.
 
 ```csharp
 class clsDrawObjectEventHandler : DrawObjectEventHandler
@@ -75,8 +77,8 @@ class clsDrawObjectEventHandler : DrawObjectEventHandler
 }
 ```
 
--  Bu sınıfta, geçersiz kılıyoruz`Draw` Bir çizim nesnesiyle karşılaşıldığında çağrılan yöntem. 
--  Türünü kontrol ediyoruz`DrawObject` Eğer bu bir`Cell` , konumunu ve değerini günlüğe kaydederiz. Eğer bir`Image`, konumunu ve ismini kaydediyoruz.
+- Bu sınıfta, geçersiz kılıyoruz `Draw` Bir çizim nesnesiyle karşılaşıldığında çağrılan yöntem. 
+- Türünü kontrol ediyoruz `DrawObject`Eğer bu bir `Cell`, konumunu ve değerini günlüğe kaydederiz. Eğer bir `Image`, konumunu ve ismini kaydediyoruz.
 
 ## Adım 2: Giriş ve Çıkış Dizinlerini Ayarlayın
 
@@ -90,11 +92,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
--  Yer değiştirmek`"Your Document Directory"` gerçek belgenizin yolu ile. Adlandırılmış bir örnek Excel dosyanız olduğundan emin olun`"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` bu dizinde saklanır.
+- Yer değiştirmek `"Your Document Directory"` gerçek belgenizin yolu ile. Adlandırılmış bir örnek Excel dosyanız olduğundan emin olun `"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` bu dizinde saklanır.
 
 ## Adım 3: Örnek Excel Dosyasını Yükleyin
 
- Dizinler ayarlandıktan sonra artık Excel dosyasını bir örneğe yükleyebiliriz.`Workbook` sınıf.
+Dizinler ayarlandıktan sonra artık Excel dosyasını bir örneğe yükleyebiliriz. `Workbook` sınıf.
 
 ```csharp
 // Örnek Excel dosyasını yükle
@@ -114,7 +116,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## Adım 5: Olay İşleyicisini Ata
 
- Şunu atamak çok önemlidir:`DrawObjectEventHandler` PDF kaydetme seçeneklerimize örnek. Bu adım, özel olay işleyicimizin her çizim nesnesini işlemesini sağlayacaktır.
+Şunu atamak çok önemlidir: `DrawObjectEventHandler` PDF kaydetme seçeneklerimize örnek. Bu adım, özel olay işleyicimizin her çizim nesnesini işlemesini sağlayacaktır.
 
 ```csharp
 // DrawObjectEventHandler sınıfının örneğini atayın
@@ -150,19 +152,21 @@ Console.WriteLine("GetDrawObjectAndBoundUsingDrawObjectEventHandler executed suc
 Aspose.Cells, .NET uygulamalarında Excel dosyalarıyla çalışmak için tasarlanmış, elektronik tablolar oluşturmanıza, düzenlemenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet! Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet! Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells hangi dosya formatlarını destekler?
 Aspose.Cells, XLSX, XLS, CSV, PDF ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 
 ### Aspose.Cells kullanımına dair daha fazla örneği nerede bulabilirim?
- Daha fazla örneği ve ayrıntılı belgeleri sitelerinde inceleyebilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Daha fazla örneği ve ayrıntılı belgeleri sitelerinde inceleyebilirsiniz: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Destek için şu adresi ziyaret edin:[Aspose Forum](https://forum.aspose.com/c/cells/9)Topluluktan soru sorabileceğiniz ve yardım alabileceğiniz bir yer.
+Destek için şu adresi ziyaret edin: [Aspose Forum](https://forum.aspose.com/c/cells/9) Sorularınızı sorabileceğiniz ve topluluktan yardım alabileceğiniz bir yer.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

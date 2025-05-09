@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır
-linktitle: Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET'i kullanarak Excel çalışma sayfalarından yazıcı ayarlarını adım adım kaldırma kılavuzunu keşfedin ve belgenizin baskı kalitesini zahmetsizce artırın.
-weight: 80
-url: /tr/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/
+"description": "Aspose.Cells for .NET'i kullanarak Excel çalışma sayfalarından yazıcı ayarlarını adım adım kaldırma kılavuzunu keşfedin ve belgenizin baskı kalitesini zahmetsizce artırın."
+"linktitle": "Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır"
+"url": "/tr/net/excel-page-setup/remove-existing-printer-settings-of-worksheets/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfalarının Mevcut Yazıcı Ayarlarını Kaldır
@@ -22,8 +24,8 @@ Excel dosyalarını işleyen uygulamalar geliştiriyor veya sadece kişisel kull
 Bu can sıkıcı yazıcı ayarlarını kaldırmaya başlamadan önce, birkaç şeyin yerli yerinde olması gerekir. Hazır olduğunuzdan emin olmak için işte hızlı bir kontrol listesi:
 
 1. Visual Studio Kurulu: .NET kodunuzu yazmak ve çalıştırmak için bir geliştirme ortamı gereklidir. Eğer henüz yoksa, Visual Studio web sitesine gidin ve en son sürümü indirin.
-2.  Aspose.Cells for .NET: Projenizde bu kütüphaneye ihtiyacınız olacak. Bunu şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
-3. Örnek Excel Dosyası: Bu inceleme için yazıcı ayarlarını içeren bir örnek Excel dosyasına ihtiyacınız olacak. Bir tane oluşturabilir veya Aspose tarafından sağlanan demo dosyasını kullanabilirsiniz.
+2. Aspose.Cells for .NET: Projenizde bu kütüphaneye ihtiyacınız olacak. Bunu şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
+3. Örnek Excel Dosyası: Bu adım adım açıklama için yazıcı ayarlarını içeren bir örnek Excel dosyasına ihtiyacınız olacak. Bir tane oluşturabilir veya Aspose tarafından sağlanan demo dosyasını kullanabilirsiniz.
 
 Artık ihtiyacımız olan her şeye sahip olduğumuza göre, koda geçelim!
 
@@ -37,7 +39,7 @@ Mevcut Visual Studio projenizi açın veya yeni bir Konsol Uygulaması projesi o
 
 ### Referans Ekle
 
- Projenizde şuraya gidin:`References` , sağ tıklayın ve seçin`Add Reference...`Aspose.Cells kütüphanesini arayın ve projenize ekleyin.
+Projenizde şuraya gidin: `References`, sağ tıklayın ve seçin `Add Reference...`. Aspose.Cells kütüphanesini arayın ve projenize ekleyin.
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
@@ -64,7 +66,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Burada, şunu değiştirirsiniz:`"Your Document Directory"` Ve`"Your Document Directory"` Dosyalarınızın saklandığı gerçek yollar ile.
+Burada, şunu değiştirirsiniz: `"Your Document Directory"` Ve `"Your Document Directory"` Dosyalarınızın saklandığı gerçek yollar ile.
 
 ## Adım 2: Excel Dosyasını Yükleyin
 
@@ -82,7 +84,7 @@ Bu satır Excel dosyasını açacak ve değişikliklere hazırlayacaktır.
 Artık çalışma kitabımız hazır, şimdi kaç tane çalışma sayfası içerdiğini bulalım:
 
 ```csharp
-//Çalışma kitabının sayfa sayılarını alın
+//Çalışma kitabının sayfa sayısını alın
 int sheetCount = wb.Worksheets.Count;
 ```
 
@@ -103,7 +105,7 @@ Bu döngüde her çalışma sayfasına tek tek erişiyoruz.
 
 ## Adım 5: Yazıcı Ayarlarına Erişin ve Kontrol Edin
 
-Daha sonra, her çalışma sayfasının ayrıntılarını inceleyerek sayfa düzenine erişeceğiz ve yazıcı ayarlarını inceleyeceğiz.
+Daha sonra, her çalışma sayfasının ayrıntılarını inceleyerek sayfa düzenine erişecek ve yazıcı ayarlarını inceleyeceğiz.
 
 ```csharp
 //Erişim çalışma sayfası sayfa düzeni
@@ -118,7 +120,7 @@ if (ps.PrinterSettings != null)
     Console.WriteLine("Paper Size: " + ps.PaperSize);
 ```
 
- Burada, eğer`PrinterSettings` bulunursa, konsol aracılığıyla sayfa adını ve kağıt boyutunu ayrıntılı olarak açıklayan bir geri bildirim sağlıyoruz.
+Burada, eğer `PrinterSettings` bulunursa, konsol aracılığıyla sayfa adını ve kağıt boyutunu ayrıntılı olarak açıklayan bir geri bildirim sağlıyoruz.
 
 ## Adım 6: Yazıcı Ayarlarını Kaldırın
 
@@ -132,7 +134,7 @@ if (ps.PrinterSettings != null)
 }
 ```
 
-Bu kod parçacığında yazıcı ayarlarını etkili bir şekilde temizleyerek her şeyi düzenli ve temiz hale getiriyoruz.
+Bu kod parçasında yazıcı ayarlarını etkili bir şekilde temizleyerek her şeyi düzenli ve temiz hale getiriyoruz.
 
 ## Adım 7: Çalışma Kitabını Kaydedin
 
@@ -155,19 +157,21 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak Excel çalışma sayfal
 Aspose.Cells, geliştiricilerin .NET uygulamalarında Excel dosyaları oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kütüphanedir.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
-Evet, Aspose özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Şuraya göz atın:[ücretsiz deneme bağlantısı](https://releases.aspose.com/).
+Evet, Aspose özelliklerini keşfetmek için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor. Şuraya göz atın: [ücretsiz deneme bağlantısı](https://releases.aspose.com/).
 
 ### Aspose.Cells'i kullanmak için Microsoft Excel'i yüklemem gerekiyor mu?  
-Hayır, Aspose.Cells Microsoft Excel'den bağımsız olarak çalışır. Bilgisayarınızda Excel'in yüklü olmasına gerek yoktur.
+Hayır, Aspose.Cells Microsoft Excel'den bağımsız olarak çalışır. Excel'in makinenize kurulu olmasına gerek yoktur.
 
 ### Sorun yaşarsam nasıl destek alabilirim?  
- Ziyaret edebilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9) Topluluk desteği ve kaynakları için.
+Ziyaret edebilirsiniz [Aspose forumu](https://forum.aspose.com/c/cells/9) Topluluk desteği ve kaynakları için.
 
 ### Geçici lisans var mı?  
- Kesinlikle! Bir başvuruda bulunabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) Sınırlı bir süre boyunca tüm özelliklere sınırsız erişim sağlamak.
+Kesinlikle! Bir başvuruda bulunabilirsiniz [geçici lisans](https://purchase.aspose.com/temporary-license/) Sınırlı bir süre boyunca tüm özelliklere sınırsız erişim sağlamak.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

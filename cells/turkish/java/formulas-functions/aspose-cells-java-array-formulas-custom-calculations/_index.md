@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -41,7 +43,7 @@ Java için Aspose.Cells'e geçmeden önce şunlara sahip olduğunuzdan emin olun
 Şimdi Aspose.Cells'i projenize kuralım!
 
 ## Java için Aspose.Cells Kurulumu
-Java için Aspose.Cells'i kullanmaya başlamak için, bunu projenize bir bağımlılık olarak ekleyin. Maven ve Gradle için kurulum adımları şunlardır:
+Java için Aspose.Cells'i kullanmaya başlamak için, bunu projenize bir bağımlılık olarak ekleyin. İşte Maven ve Gradle için kurulum adımları:
 
 **Usta:**
 
@@ -233,6 +235,9 @@ Bir sonraki adımı atmaya hazır mısınız? Daha gelişmiş konulara dalın ve
 - [Lisans Satın Alın](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

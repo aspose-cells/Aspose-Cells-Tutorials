@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Worksheet ws = wb.getWorksheets().get(0);
 **3. Accesso alla forma e rilevamento di SmartArt**
 
 ```java
-// Accedi prima alla forma
+// Accedi alla prima forma
 Shape sh = ws.getShapes().get(0);
 
 // Determina se la forma è un'arte intelligente
@@ -179,6 +181,9 @@ In questo tutorial, hai imparato a rilevare le forme SmartArt nei file Excel uti
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/unprotect-excel-sheet/unlock-protected-excel-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unlock Protected Excel Sheet
@@ -136,6 +138,7 @@ You can check the [Aspose documentation](https://reference.aspose.com/cells/net/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

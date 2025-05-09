@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dropdown Berjenjang di Excel
@@ -18,11 +20,11 @@
 
 Dalam dunia manipulasi spreadsheet, Aspose.Cells for Java merupakan perangkat canggih yang memberdayakan pengembang untuk bekerja dengan file Excel secara efisien. Salah satu fitur menarik yang ditawarkannya adalah kemampuan untuk membuat dropdown berjenjang di Excel, yang memungkinkan pengguna untuk memilih opsi secara dinamis berdasarkan pilihan sebelumnya. Dalam panduan langkah demi langkah ini, kita akan menyelami proses penerapan dropdown berjenjang menggunakan Aspose.Cells for Java. Jadi, mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
 
-- Aspose.Cells untuk Java: Unduh dan instal dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk Java: Unduh dan instal dari [itt](https://releases.aspose.com/cells/java/).
 - Lingkungan Pengembangan Java: Anda harus menyiapkan lingkungan pengembangan Java di komputer Anda.
 - Pemahaman Dasar tentang Excel: Keakraban dengan Excel dan konsep dasarnya akan sangat membantu.
 
@@ -101,11 +103,11 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
 });
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan lengkap ini, kami menjajaki cara membuat dropdown bertingkat di Excel menggunakan Aspose.Cells untuk Java. Kami mulai dengan menyiapkan prasyarat, membuat buku kerja Excel, mengisi data, lalu mendalami seluk-beluk pembuatan dropdown dan penerapan perilaku bertingkat yang dinamis. Sebagai pengembang, kini Anda memiliki pengetahuan dan alat untuk menyempurnakan file Excel Anda dengan dropdown interaktif, yang memberikan pengalaman pengguna yang lancar.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menambahkan lebih banyak negara dan kota ke menu dropdown?
 
@@ -125,11 +127,12 @@ Meskipun pemahaman dasar tentang Java sangat membantu, Aspose.Cells untuk Java m
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
-Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat mengakses dokumentasi dan sumber daya yang komprehensif untuk Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

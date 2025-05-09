@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ Sikeresen megtanultad, hogyan érheted el és frissítheted a betűtípus-beáll
 
 **Következő lépések:**
 - Fedezze fel a további testreszabási lehetőségeket az Aspose.Cells-ben.
-- Kísérletezz az Aspose.Cells adatbázisokkal való integrálásával az automatizált jelentéskészítéshez.
+- Kísérletezz az Aspose.Cells adatbázisokkal való integrálásával az automatikus jelentéskészítéshez.
 
 ## GYIK szekció
 1. **Milyen rendszerkövetelmények szükségesek az Aspose.Cells használatához?**
@@ -179,6 +181,9 @@ Sikeresen megtanultad, hogyan érheted el és frissítheted a betűtípus-beáll
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

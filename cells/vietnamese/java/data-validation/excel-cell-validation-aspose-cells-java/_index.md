@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ public class ValidateCellC1 {
         // Truy cập ô 'C1'
         Cell cell = worksheet.getCells().get("C1");
 
-        // Nhập giá trị 3, giá trị này sẽ không được xác thực
+        // Nhập giá trị 3, giá trị này sẽ không vượt qua được quá trình xác thực
         cell.putValue(3);
         boolean isValidValueForThree = cell.getValidationValue();
         
@@ -211,6 +213,9 @@ Khi làm việc với các tệp Excel lớn hoặc các quy tắc xác thực p
 - Tạo hồ sơ cho ứng dụng của bạn để xác định điểm nghẽn và tối ưu hóa cho phù hợp.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

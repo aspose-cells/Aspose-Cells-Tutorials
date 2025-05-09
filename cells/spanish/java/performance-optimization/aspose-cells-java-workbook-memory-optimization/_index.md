@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ Ahora, exploremos cómo implementar la optimización de memoria en Aspose.Cells 
 
 ### Configuración de preferencias de memoria en celdas de la hoja de cálculo
 **Descripción general:** Aprenda a aplicar preferencias de memoria a las celdas existentes dentro de una hoja de cálculo para un rendimiento optimizado.
-1. **Acceda a la primera hoja de trabajo:** 
+1. **Accede a la primera hoja de trabajo:** 
    ```java
    Workbook wb = new Workbook();
    wb.getSettings().setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
@@ -137,6 +139,9 @@ Siguiendo este tutorial, ha aprendido a crear y configurar libros de trabajo con
 - **Foro de soporte:** Interactúe con la comunidad para obtener ayuda en [Foros de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

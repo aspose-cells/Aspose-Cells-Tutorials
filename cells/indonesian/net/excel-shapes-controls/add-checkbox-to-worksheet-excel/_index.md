@@ -1,50 +1,52 @@
 ---
-title: Tambahkan Kotak Centang ke Lembar Kerja di Excel
-linktitle: Tambahkan Kotak Centang ke Lembar Kerja di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Temukan cara mudah menambahkan kotak centang ke lembar kerja Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami, lengkap dengan contoh kode dan penjelasan.
-weight: 18
-url: /id/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
+"description": "Temukan cara mudah menambahkan kotak centang ke lembar kerja Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah kami, lengkap dengan contoh kode dan penjelasan."
+"linktitle": "Tambahkan Kotak Centang ke Lembar Kerja di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tambahkan Kotak Centang ke Lembar Kerja di Excel"
+"url": "/id/net/excel-shapes-controls/add-checkbox-to-worksheet-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tambahkan Kotak Centang ke Lembar Kerja di Excel
 
-## Perkenalan
+## Bevezetés
 Dalam hal mengelola data di Excel, ada banyak fungsi dan metode yang dapat menyederhanakan tugas dan menyempurnakan lembar kerja Anda. Salah satu fitur tersebut adalah kotak centang - alat kecil yang praktis yang memungkinkan pengguna membuat pilihan biner langsung di dalam lembar kerja Excel mereka. Dalam panduan ini, kami akan memandu Anda melalui proses menambahkan kotak centang ke lembar kerja Excel menggunakan pustaka Aspose.Cells untuk .NET. Jadi, kencangkan sabuk pengaman dan bersiaplah untuk perjalanan yang mengasyikkan ke dunia otomatisasi Excel!
-## Prasyarat
+## Előfeltételek
 Sebelum kita menyelami seluk-beluk coding, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut ini adalah prasyaratnya:
-- Bahasa Indonesia: Studio Visual: Kami berasumsi Anda memiliki lingkungan kerja yang disiapkan dengan Visual Studio. Jika tidak, Anda dapat dengan mudah mengunduhnya dari[Visual Studio](https://visualstudio.microsoft.com/vs/).
+- Visual Studio: Kami berasumsi Anda memiliki lingkungan kerja yang disiapkan dengan Visual Studio. Jika tidak, Anda dapat dengan mudah mengunduhnya dari [Vizuális Stúdió](https://visualstudio.microsoft.com/vs/).
 - .NET Framework: Pastikan Anda telah menginstal .NET Framework di sistem Anda. Periksa kompatibilitas Aspose.Cells dengan versi .NET Anda.
--  Aspose.Cells untuk .NET: Anda harus mengunduh dan merujuk pustaka Aspose.Cells ke dalam proyek Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/).
+- Aspose.Cells untuk .NET: Anda harus mengunduh dan merujuk pustaka Aspose.Cells ke dalam proyek Anda. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/net/).
 - Pemahaman Dasar C#: Pemahaman dasar tentang pemrograman C# akan membantu Anda mengikuti contoh dengan lebih mudah.
-Jika prasyarat ini telah terpenuhi, mari kita mulai!
-## Paket Impor
+Jika prasyarat ini telah terpenuhi dalam daftar Anda, mari kita mulai!
+## Csomagok importálása
 Sebelum kita mulai membuat kode, kita perlu mengimpor paket yang diperlukan ke dalam proyek C# kita. Pustaka Aspose.Cells sangat penting untuk tugas kita, dan mengimpornya sangat mudah. Cukup ikuti langkah-langkah berikut:
-### Buat Proyek C# baru
-- Buka Visual Studio dan buat Aplikasi Konsol C# baru.
+### Új C# projekt létrehozása
+- Nyisd meg a Visual Studio-t, és hozz létre egy új C# konzolalkalmazást.
 ### Tambahkan Referensi ke Aspose.Cells
-- Klik kanan pada proyek Anda di Solution Explorer.
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
 - Pilih "Kelola Paket NuGet".
 - Di NuGet Package Manager, cari "Aspose.Cells" dan instal.
-### Impor Namespace
+### A névtér importálása
 Di bagian atas file Program.cs Anda, sertakan referensi berikut ke namespace Aspose.Cells:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Sekarang, Anda siap untuk memulai membuat kode!
+Most már készen állsz a kódolásra!
 
 Sekarang kita akan mulai. Berikut adalah petunjuk langkah demi langkah tentang cara menambahkan kotak centang ke lembar kerja Excel menggunakan Aspose.Cells.
-## Langkah 1: Siapkan Direktori
+## 1. lépés: A címtár beállítása
 Pertama, kita perlu memastikan bahwa direktori untuk menyimpan berkas Excel kita ada. Ini merupakan langkah penting karena mencegah terjadinya kesalahan saat kita mencoba menyimpan berkas.
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Buat direktori jika belum ada.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -52,11 +54,11 @@ if (!isExists)
 ## Langkah 2: Buat Buku Kerja Baru
 Selanjutnya, kita perlu membuat contoh buku kerja baru. Ini akan menjadi fondasi untuk seluruh berkas Excel kita.
 ```csharp
-// Buat Buku Kerja baru.
+// Hozz létre egy új munkafüzetet.
 Workbook excelBook = new Workbook();
 ```
 ## Langkah 3: Tambahkan Kotak Centang ke Lembar Kerja
- Sekarang, mari tambahkan kotak centang ke lembar kerja pertama buku kerja kita. Anda dapat menentukan posisi dan ukuran kotak centang menggunakan`Add` metode:
+Sekarang, mari tambahkan kotak centang ke lembar kerja pertama buku kerja kita. Anda dapat menentukan posisi dan ukuran kotak centang menggunakan `Add` metode:
 ```csharp
 // Tambahkan kotak centang ke lembar kerja pertama dalam buku kerja.
 int index = excelBook.Worksheets[0].CheckBoxes.Add(5, 5, 100, 120);
@@ -90,26 +92,28 @@ checkbox.Value = true;
 ## Langkah 8: Simpan File Excel
 Akhirnya, setelah semua langkah ini, tibalah waktunya untuk menyimpan karya agung kita ke direktori yang ditentukan. 
 ```csharp
-// Simpan berkas excel.
+// Mentse el az excel fájlt.
 excelBook.Save(dataDir + "book1.out.xls");
 ```
 Dan begitu saja, Anda telah membuat file Excel dengan kotak centang yang berfungsi!
-## Kesimpulan
+## Következtetés
 Selamat! Anda baru saja menambahkan kotak centang ke lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Pustaka canggih ini memungkinkan berbagai manipulasi lembar kerja, dan menambahkan kotak centang hanyalah awal. Kini Anda dapat menyesuaikan dokumen Excel dengan elemen interaktif yang meningkatkan pengalaman pengguna. Jadi, tunggu apa lagi? Selami dunia otomatisasi Excel dan jelajahi semua kemungkinan yang ditawarkan Aspose.Cells!
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
+## GYIK
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka .NET canggih yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengelola file Excel secara terprogram.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis Aspose.Cells. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/).
-### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Cells?
- Meskipun Anda dapat menggunakan versi uji coba secara gratis, lisensi berbayar diperlukan untuk penggunaan berkelanjutan dan untuk mengakses fitur lengkap. Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy).
-### Di mana saya dapat menemukan dokumentasi untuk Aspose.Cells?
- Dokumentasi lengkap tersedia[Di Sini](https://reference.aspose.com/cells/net/).
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Aspose menawarkan versi uji coba gratis Aspose.Cells. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/).
+### Szükségem van licencre az Aspose.Cells használatához?
+Meskipun Anda dapat menggunakan versi uji coba secara gratis, lisensi berbayar diperlukan untuk penggunaan berkelanjutan dan untuk mengakses fitur lengkap. Anda dapat membelinya [itt](https://purchase.aspose.com/buy).
+### Hol találok dokumentációt az Aspose.Cells-hez?
+Dokumentasi lengkap tersedia [itt](https://reference.aspose.com/cells/net/).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum dukungan Aspose [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

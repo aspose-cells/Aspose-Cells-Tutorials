@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,7 +165,7 @@ Aspose.Cells per Java può essere integrato in varie applicazioni del mondo real
 
 ### Considerazioni sulle prestazioni
 Per ottimizzare le prestazioni quando si utilizza Aspose.Cells per Java:
-- Limitare l'utilizzo della memoria elaborando i dati in blocchi.
+- Limita l'utilizzo della memoria elaborando i dati in blocchi.
 - Smaltire tempestivamente gli oggetti per liberare risorse.
 - Utilizzare algoritmi efficienti per la manipolazione dei dati.
 
@@ -195,6 +197,9 @@ Ora hai una solida base per automatizzare le attività di Excel con Aspose.Cells
 Seguendo questa guida completa, sarai sulla buona strada per padroneggiare l'automazione di Excel con Aspose.Cells per Java. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

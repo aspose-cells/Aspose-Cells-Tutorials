@@ -7,18 +7,20 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Tabel Pivot di Java dengan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin meningkatkan kemampuan analisis data dalam file Excel menggunakan Java? Dengan memanfaatkan Aspose.Cells untuk Java, para pengembang dapat memanipulasi tabel pivot secara efisien dalam buku kerja Excel. Panduan komprehensif ini membahas tantangan dalam memuat buku kerja Excel secara terprogram, mengakses lembar kerja dan tabel pivot, mengonfigurasi format tampilan, dan mengatur format angka untuk bidang data.
 
-**Apa yang Akan Anda Pelajari:**
-- Cara memuat buku kerja Excel menggunakan Aspose.Cells.
+**Amit tanulni fogsz:**
+- Hogyan töltsünk be egy Excel munkafüzetet az Aspose.Cells használatával.
 - Mengakses lembar kerja tertentu dan tabel pivotnya.
 - Mengonfigurasi format tampilan bidang data dalam tabel pivot.
 - Menetapkan indeks bidang dasar dan posisi item.
@@ -26,9 +28,9 @@ Apakah Anda ingin meningkatkan kemampuan analisis data dalam file Excel mengguna
 
 Siap untuk menyelami manipulasi Excel tingkat lanjut dengan Java? Jelajahi bagaimana Aspose.Cells dapat menyederhanakan alur kerja Anda.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi terinstal di sistem Anda.
 - **Lingkungan Pengembangan Terpadu (IDE)**Seperti IntelliJ IDEA atau Eclipse.
 - **Aspose.Cells untuk Pustaka Java**: Versi 25.3 atau yang lebih baru.
@@ -39,7 +41,7 @@ Pastikan Anda memahami pemrograman Java dasar dan memahami konsep file Excel, te
 
 ### Instalasi Maven
 
-Untuk memasukkan Aspose.Cells ke dalam proyek Anda menggunakan Maven, tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Untuk memasukkan Aspose.Cells ke dalam proyek Anda menggunakan Maven, tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -51,18 +53,18 @@ Untuk memasukkan Aspose.Cells ke dalam proyek Anda menggunakan Maven, tambahkan 
 
 ### Instalasi Gradle
 
-Untuk pengguna Gradle, sertakan ini di `build.gradle` mengajukan:
+Untuk pengguna Gradle, sertakan ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
-- **Uji Coba Gratis**Mulailah dengan uji coba gratis untuk menjelajahi kemampuan perpustakaan.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk akses penuh ke fitur tanpa batasan.
-- **Pembelian**Pertimbangkan untuk membeli lisensi untuk penggunaan jangka panjang.
+#### Licencszerzés
+- **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval, hogy felfedezhesse a könyvtár lehetőségeit.
+- **Ideiglenes engedély**: Dapatkan lisensi sementara untuk akses penuh ke fitur tanpa batasan.
+- **Vásárlás**Fontolja meg egy hosszú távú használatra szóló licenc megvásárlását.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 
 Untuk mulai menggunakan Aspose.Cells, inisialisasikan dalam proyek Java Anda:
 
@@ -81,13 +83,13 @@ public class PivotTableExample {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur: Memuat Buku Kerja
 
 Memuat buku kerja Excel mudah dilakukan dengan Aspose.Cells. Fitur ini menunjukkan cara memuat file templat dari direktori yang Anda tentukan.
 
-#### Ringkasan
+#### Áttekintés
 
 Langkah ini melibatkan inisialisasi `Workbook` objek, yang mewakili keseluruhan dokumen Excel. Dengan menentukan jalur ke file Anda, Anda dapat dengan mudah mengakses kontennya secara terprogram.
 
@@ -98,7 +100,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/PivotTable.xls");
 ```
 
-#### Penjelasan
+#### Magyarázat
 - `Workbook`: Mewakili dokumen Excel. Memuat file ke objek ini memungkinkan Anda untuk memanipulasinya menggunakan Aspose.Cells.
 - `dataDir`: Variabel string yang menyimpan jalur ke direktori data Anda.
 
@@ -106,7 +108,7 @@ Workbook workbook = new Workbook(dataDir + "/PivotTable.xls");
 
 Akses lembar kerja dan tabel pivot tertentu dalam buku kerja yang Anda muat dengan mudah.
 
-#### Ringkasan
+#### Áttekintés
 
 Setelah memuat buku kerja, mengakses komponen-komponennya seperti lembar kerja dan tabel pivot sangat penting untuk manipulasi lebih lanjut.
 
@@ -118,7 +120,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
 ```
 
-#### Penjelasan
+#### Magyarázat
 - `worksheet`Mengambil lembar kerja pertama dalam buku kerja.
 - `pivotTable`: Mengakses tabel pivot pertama dalam lembar kerja yang ditentukan.
 
@@ -126,7 +128,7 @@ PivotTable pivotTable = worksheet.getPivotTables().get(0);
 
 Akses dan manipulasi bidang data dalam tabel pivot menggunakan Aspose.Cells.
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini memungkinkan Anda mengambil kumpulan bidang data yang terkait dengan tabel pivot Anda, sehingga memungkinkan penyesuaian lebih lanjut.
 
@@ -136,14 +138,14 @@ import com.aspose.cells.PivotFieldCollection;
 PivotFieldCollection pivotFields = pivotTable.getDataFields();
 ```
 
-#### Penjelasan
+#### Magyarázat
 - `pivotFields`: Mewakili kumpulan bidang data dalam tabel pivot, yang memungkinkan Anda mengulangi dan memodifikasinya sesuai kebutuhan.
 
 ### Fitur: Mengonfigurasi Format Tampilan Bidang Data
 
 Sesuaikan bagaimana bidang data Anda ditampilkan di tabel pivot dengan mengatur format tampilannya.
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini berfokus pada konfigurasi tampilan bidang data, seperti mengubah tampilan numerik menjadi persentase.
 
@@ -155,7 +157,7 @@ PivotField pivotField = pivotFields.get(0);
 pivotField.setDataDisplayFormat(PivotFieldDataDisplayFormat.PERCENTAGE_OF);
 ```
 
-#### Penjelasan
+#### Magyarázat
 - `pivotField`: Mewakili bidang data individual dalam tabel pivot.
 - `setDataDisplayFormat`: Metode yang digunakan untuk mengatur bagaimana data ditampilkan, seperti persentase.
 
@@ -163,7 +165,7 @@ pivotField.setDataDisplayFormat(PivotFieldDataDisplayFormat.PERCENTAGE_OF);
 
 Sesuaikan indeks bidang dasar dan posisi item untuk perhitungan yang akurat di tabel pivot Anda.
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini menunjukkan pengaturan aspek relasional bidang data dalam tabel pivot untuk memastikan agregasi data yang benar.
 
@@ -174,7 +176,7 @@ pivotField.setBaseFieldIndex(1);
 pivotField.setBaseItemPosition(PivotItemPosition.NEXT);
 ```
 
-#### Penjelasan
+#### Magyarázat
 - `setBaseFieldIndex`: Mengatur bidang mana yang digunakan sebagai referensi untuk perhitungan.
 - `setBaseItemPosition`: Menentukan posisi relatif item dalam hubungannya satu sama lain.
 
@@ -182,7 +184,7 @@ pivotField.setBaseItemPosition(PivotItemPosition.NEXT);
 
 Terapkan format angka khusus ke bidang data, untuk meningkatkan keterbacaan dan penyajian.
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini memungkinkan Anda menerapkan gaya pemformatan angka tertentu ke bidang data tabel pivot Anda, seperti format mata uang atau persentase.
 
@@ -190,34 +192,37 @@ Fitur ini memungkinkan Anda menerapkan gaya pemformatan angka tertentu ke bidang
 pivotField.setNumber(10);  // Menerapkan format yang telah ditentukan sebelumnya, misalnya mata uang atau persentase.
 ```
 
-#### Penjelasan
+#### Magyarázat
 - `setNumber`: Metode yang digunakan untuk menerapkan format angka kustom berdasarkan indeks yang ditentukan, yang sesuai dengan gaya yang telah ditetapkan di Aspose.Cells.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pelaporan Keuangan**: Sesuaikan tabel pivot untuk ringkasan keuangan dengan mengatur bidang data untuk menampilkan persentase atau format mata uang.
+1. **Pénzügyi jelentéstétel**: Sesuaikan tabel pivot untuk ringkasan keuangan dengan mengatur bidang data untuk menampilkan persentase atau format mata uang.
 2. **Analisis Data Penjualan**:Agregat data penjualan dan tetapkan indeks bidang dasar untuk menghitung tingkat pertumbuhan secara akurat di berbagai wilayah.
-3. **Manajemen Inventaris**: Gunakan format angka yang disesuaikan untuk menggambarkan tingkat stok secara jelas dalam persentase, membantu pengambilan keputusan yang cepat.
+3. **Készletgazdálkodás**: Gunakan format angka yang disesuaikan untuk menggambarkan tingkat stok secara jelas dalam persentase, membantu pengambilan keputusan yang cepat.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Optimalkan Penggunaan Memori**: Hanya muat lembar kerja dan tabel pivot yang diperlukan saat bekerja dengan file Excel berukuran besar.
+- **Memóriahasználat optimalizálása**: Hanya muat lembar kerja dan tabel pivot yang diperlukan saat bekerja dengan file Excel berukuran besar.
 - **Manipulasi Data yang Efisien**: Minimalkan operasi dalam loop pada bidang data untuk mengurangi waktu pemrosesan.
-- **Memanfaatkan Fitur Aspose.Cells**: Memanfaatkan metode bawaan untuk tugas-tugas umum seperti pemformatan, yang dioptimalkan untuk kinerja.
+- **Használja az Aspose.Cells funkcióit**: Memanfaatkan metode bawaan untuk tugas-tugas umum seperti pemformatan, yang dioptimalkan untuk kinerja.
 
-## Kesimpulan
+## Következtetés
 
 Dengan menguasai penggunaan Aspose.Cells untuk Java, Anda dapat meningkatkan manipulasi file Excel secara signifikan dalam aplikasi Java. Panduan ini memandu Anda dalam memuat buku kerja, mengakses dan memodifikasi tabel pivot, serta mengonfigurasi format tampilan agar sesuai dengan kebutuhan Anda. Untuk eksplorasi lebih lanjut, pertimbangkan untuk mempelajari lebih dalam dokumentasi Aspose.Cells yang ekstensif dan bereksperimen dengan fitur yang lebih canggih.
 
-## Bagian FAQ
+## GYIK szekció
 
 **T: Bagaimana saya dapat menangani file Excel besar secara efisien dengan Aspose.Cells?**
 A: Muat hanya lembar kerja yang diperlukan atau gunakan API streaming untuk memproses kumpulan data besar secara bertahap.
 
 **T: Apa saja kendala umum saat mengonfigurasi tabel pivot di Java menggunakan Aspose.Cells?
-A:** Pastikan indeks dan posisi yang benar telah ditetapkan untuk menghindari kesalahan perhitungan. Selalu uji konfigurasi Anda dengan data sampel sebelum menerapkannya ke buku kerja produksi.
+V:** Pastikan indeks dan posisi yang benar telah ditetapkan untuk menghindari kesalahan perhitungan. Selalu uji konfigurasi Anda dengan data sampel sebelum menerapkannya ke buku kerja produksi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

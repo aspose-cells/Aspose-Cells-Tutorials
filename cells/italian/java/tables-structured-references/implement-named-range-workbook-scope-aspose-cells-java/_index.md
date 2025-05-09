@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ Quando si lavora con Aspose.Cells, soprattutto su cartelle di lavoro di grandi d
 
 ## Conclusione
 
-Seguendo questa guida, hai imparato come creare in modo efficiente un intervallo denominato con ambito cartella di lavoro utilizzando Aspose.Cells Java. Questa funzionalità semplifica la gestione dei dati e migliora la manutenibilità del codice nei tuoi progetti Excel.
+Seguendo questa guida, hai imparato come creare in modo efficiente un intervallo denominato con ambito cartella di lavoro utilizzando Aspose.Cells Java. Questa funzionalità semplifica la gestione dei dati e migliora la manutenibilità del codice nei progetti Excel.
 
 **Prossimi passi:**
 - Esplora le funzionalità aggiuntive di Aspose.Cells, come la creazione di grafici o il calcolo di formule.
@@ -149,6 +151,9 @@ A5: Assicurarsi che i nomi degli intervalli siano univoci e validi nell'intera c
 Per ulteriori informazioni, esplora le risorse disponibili su [Download di Aspose](https://releases.aspose.com/cells/java/) e valutare l'acquisto di una licenza temporanea per un accesso completo.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Khám phá thêm bằng cách thử nghiệm các cấu trúc dữ liệu khác 
 Bằng cách trang bị cho mình kiến thức và công cụ được nêu trong hướng dẫn này, bạn đang trên đường thành thạo các tác vụ nhập và quản lý dữ liệu bằng Aspose.Cells cho Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

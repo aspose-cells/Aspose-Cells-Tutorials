@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thả xuống dạng thác đổ trong Excel
@@ -123,13 +125,14 @@ Có, Aspose.Cells for Java rất linh hoạt và có thể sử dụng trong cá
 
 Mặc dù hiểu biết cơ bản về Java rất hữu ích, Aspose.Cells for Java cung cấp tài liệu và ví dụ mở rộng để hướng dẫn bạn trong suốt quá trình. Với một chút tận tâm và thực hành, bạn có thể thành thạo tính năng này.
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
+### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
 
 Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Cells cho Java tại [đây](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

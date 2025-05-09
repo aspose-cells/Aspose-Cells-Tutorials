@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class ExcelThemeApplication {
 
 ## Guida all'implementazione
 
-In questa sezione esamineremo il processo di applicazione dei temi a una serie di grafici di Excel.
+In questa sezione illustreremo il processo di applicazione dei temi a una serie di grafici di Excel.
 
 ### Passaggio 1: carica il file Excel
 
@@ -167,7 +169,7 @@ Hai imparato come applicare temi a una serie di grafici utilizzando Aspose.Cells
 2. **Posso applicare temi a più serie di grafici contemporaneamente?**
    - Sì, è possibile scorrere la raccolta della serie e applicare i temi in modo simile a quanto dimostrato con la prima serie.
 
-3. **Come faccio a cambiare il tipo di riempimento di un'area del grafico?**
+3. **Come faccio a modificare il tipo di riempimento di un'area del grafico?**
    - Utilizzo `setFillType(FillType)` Metodo per specificare diversi stili di riempimento, come il riempimento sfumato o a motivo.
 
 4. **Aspose.Cells per Java è compatibile con tutte le versioni dei file Excel?**
@@ -185,6 +187,9 @@ Hai imparato come applicare temi a una serie di grafici utilizzando Aspose.Cells
 - **Supporto:** [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

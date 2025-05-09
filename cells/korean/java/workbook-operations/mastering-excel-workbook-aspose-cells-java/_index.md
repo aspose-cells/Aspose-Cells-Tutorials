@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,9 +220,9 @@ Aspose.Cells for Java는 Excel 파일을 프로그래밍 방식으로 처리하�
 
 1. **자동 보고:** 통합 문서를 만들고 스타일을 지정하여 맞춤형 보고서를 즉석에서 생성하세요.
 2. **데이터 변환:** 다양한 소스의 데이터를 잘 구성된 Excel 형식으로 변환합니다.
-3. **재무 분석 도구:** 명확성을 위해 스타일이 지정된 셀을 사용하여 자세한 재무 시트를 만드는 애플리케이션을 개발합니다.
+3. **재무 분석 도구:** 명확성을 위해 스타일이 지정된 셀을 사용하여 자세한 재무제표를 만드는 애플리케이션을 개발합니다.
 
-통합 가능성에는 Excel 파일을 채우기 전에 동적으로 데이터를 가져오기 위해 Java 애플리케이션을 데이터베이스, REST API 또는 기타 시스템에 연결하는 것이 포함됩니다.
+통합 가능성에는 Java 애플리케이션을 데이터베이스, REST API 또는 기타 시스템에 연결하여 Excel 파일을 채우기 전에 동적으로 데이터를 가져오는 것이 포함됩니다.
 
 ## 성능 고려 사항
 
@@ -255,6 +257,9 @@ Java에서 Aspose.Cells를 사용할 때 성능을 최적화하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

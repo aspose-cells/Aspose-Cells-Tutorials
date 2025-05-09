@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ Chart chart = worksheet.getCharts().get(0);
 DataLabels dlbls = chart.getNSeries().get(0).getPoints().get(0).getDataLabels();
 dlbls.setText("Rich Text Label");
 ```
-이 단계에서는 데이터 레이블의 텍스트를 설정하여 풍부한 콘텐츠를 표시합니다.
+이 단계에서는 풍부한 콘텐츠를 표시하기 위해 데이터 레이블의 텍스트를 설정합니다.
 
 ### 데이터 레이블의 글꼴 설정 사용자 정의
 
@@ -178,7 +180,7 @@ A2: 성능 설정을 활용하고 리소스를 현명하게 관리하여 메모�
 **질문 3: 여러 차트를 한 번에 수정할 수 있나요?**
 A3: 네, 워크시트 내의 모든 차트 개체를 반복하고 필요한 수정 사항을 적용합니다.
 
-**질문 4: Aspose.Cells를 사용할 때 흔히 저지르는 실수는 무엇인가요?**
+**Q4: Aspose.Cells를 사용할 때 흔히 저지르는 실수는 무엇인가요?**
 A4: 일반적인 문제로는 파일 작업 중에 리소스를 해제하는 것을 잊거나 예외를 제대로 처리하지 못하는 것이 있습니다.
 
 **Q5: Aspose.Cells를 다른 Java 프레임워크와 통합할 수 있나요?**
@@ -196,6 +198,9 @@ A5: 네, Aspose.Cells는 다양한 Java 기반 프레임워크 및 애플리케�
 이러한 리소스를 탐색하여 이해를 심화하고 프로젝트에서 Aspose.Cells for Java를 최대한 활용하세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

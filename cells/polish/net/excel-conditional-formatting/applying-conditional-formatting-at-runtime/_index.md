@@ -1,14 +1,16 @@
 ---
-title: Stosowanie formatowania warunkowego w czasie wykonywania w programie Excel
-linktitle: Stosowanie formatowania warunkowego w czasie wykonywania w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak stosować formatowanie warunkowe w czasie wykonywania w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 11
-url: /pl/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/
+"description": "Dowiedz się, jak stosować formatowanie warunkowe w czasie wykonywania w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Stosowanie formatowania warunkowego w czasie wykonywania w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Stosowanie formatowania warunkowego w czasie wykonywania w programie Excel"
+"url": "/pl/net/excel-conditional-formatting/applying-conditional-formatting-at-runtime/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stosowanie formatowania warunkowego w czasie wykonywania w programie Excel
@@ -21,7 +23,7 @@ są to potężne narzędzia do analizy i wizualizacji danych. Jedną z wyróżni
 Zanim zagłębisz się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz, aby zacząć:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. Możesz użyć dowolnej wersji, która obsługuje rozwój .NET.
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells dla .NET. Możesz go pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na zgodną wersję .NET Framework.
 
@@ -44,7 +46,7 @@ Teraz podzielimy proces stosowania formatowania warunkowego na łatwiejsze do wy
 Po pierwsze, musisz utworzyć nowy projekt C# w Visual Studio. Oto jak to zrobić:
 
 1. Otwórz program Visual Studio i wybierz polecenie Plik > Nowy > Projekt.
-2. Wybierz aplikację konsolową (.NET Framework) i nadaj nazwę swojemu projektowi.
+2. Wybierz opcję Aplikacja konsolowa (.NET Framework) i nadaj nazwę swojemu projektowi.
 3. Kliknij Utwórz.
 
 ## Krok 2: Dodaj odniesienie Aspose.Cells
@@ -115,7 +117,7 @@ int conditionIndex = fcs.AddCondition(FormatConditionType.CellValue, OperatorTyp
 int conditionIndex2 = fcs.AddCondition(FormatConditionType.CellValue, OperatorType.Between, "50", "100");
 ```
 
- W tym kroku dodajemy dwa warunki: jeden dla wartości pomiędzy`A2` I`100` i inny dla wartości pomiędzy`50` I`100`. Pozwala to na dynamiczne wyróżnianie komórek na podstawie ich wartości.
+W tym kroku dodajemy dwa warunki: jeden dla wartości pomiędzy `A2` I `100`i inny dla wartości pomiędzy `50` I `100`. Pozwala to na dynamiczne wyróżnianie komórek na podstawie ich wartości.
 
 ## Krok 7: Ustaw style formatowania
 Mając nasze warunki, możemy teraz ustawić style formatowania. Zmieńmy kolor tła dla naszych warunków:
@@ -150,17 +152,19 @@ Aspose.Cells to biblioteka .NET umożliwiająca programistom programowe tworzeni
 Tak, Aspose.Cells jest dostępny dla wielu języków programowania, w tym Java, Python i innych.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?
- Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz uzyskać pomoc odwiedzając stronę[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać pomoc odwiedzając stronę [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Tak, licencja jest wymagana do użytku komercyjnego, ale możesz poprosić o licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+Tak, licencja jest wymagana do użytku komercyjnego, ale możesz poprosić o licencję tymczasową [Tutaj](https://purchase.aspose.com/temporary-license/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

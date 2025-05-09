@@ -1,14 +1,16 @@
 ---
-title: Utwórz obiekt listy w programie Excel za pomocą Aspose.Cells
-linktitle: Utwórz obiekt listy w programie Excel za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Utwórz obiekt listy w programie Excel przy użyciu Aspose.Cells dla .NET za pomocą tego szczegółowego przewodnika. Opanuj łatwe zarządzanie danymi i obliczenia.
-weight: 10
-url: /pl/net/tables-and-lists/creating-list-object/
+"description": "Utwórz obiekt listy w programie Excel przy użyciu Aspose.Cells dla .NET z tym szczegółowym przewodnikiem. Opanuj łatwe zarządzanie danymi i obliczenia."
+"linktitle": "Utwórz obiekt listy w programie Excel za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz obiekt listy w programie Excel za pomocą Aspose.Cells"
+"url": "/pl/net/tables-and-lists/creating-list-object/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz obiekt listy w programie Excel za pomocą Aspose.Cells
@@ -28,7 +30,7 @@ Znajomość języka programowania C# znacznie ułatwi Ci nadążanie. Jeśli jes
 Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), aby uruchomić swój kod C#. Visual Studio jest bardzo popularne i obsługuje projekty .NET od razu. Jeśli wolisz alternatywy, możesz użyć JetBrains Rider lub nawet Visual Studio Code.
 
 ### Aspose.Cells dla .NET
- Musisz mieć bibliotekę Aspose.Cells. Jeśli tego nie zrobiłeś, pobierz ją[Tutaj](https://releases.aspose.com/cells/net/) . Możesz również wypróbować go za pomocą bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Musisz mieć bibliotekę Aspose.Cells. Jeśli tego nie zrobiłeś, pobierz ją [Tutaj](https://releases.aspose.com/cells/net/). Możesz również wypróbować go za pomocą bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
 ### Utwórz projekt i odwołaj się do Aspose.Cells
 Upewnij się, że Twój projekt odwołuje się do biblioteki Aspose.Cells, dodając odpowiednie biblioteki DLL.
@@ -86,11 +88,11 @@ Teraz nadchodzi zabawna część dodawania listy! Użyj poniższego wiersza kodu
 listObjects.Add(1, 1, 7, 5, true);
 ```
 
- W tym przypadku parametry (1, 1, 7, 5) definiują współrzędne początkowe i końcowe zakresu danych listy, podczas gdy`true` na końcu oznacza, że twój zakres obejmuje nagłówki. Pomyśl o tym jako o położeniu fundamentu dla twojej listy — dane bazowe muszą być poprawne!
+W tym przypadku parametry (1, 1, 7, 5) definiują współrzędne początkowe i końcowe zakresu danych listy, podczas gdy `true` na końcu oznacza, że twój zakres obejmuje nagłówki. Pomyśl o tym jako o położeniu fundamentu dla twojej listy — dane bazowe muszą być poprawne!
 
 ## Krok 5: Wyświetlanie sum na liście
 
-Jeśli chcesz podsumować swoją listę, możesz włączyć wiersz całkowity dla łatwych obliczeń. Użyj tego wiersza:
+Jeśli chcesz uzyskać podsumowanie swojej listy, możesz włączyć wiersz całkowity dla łatwych obliczeń. Użyj tego wiersza:
 
 ```csharp
 listObjects[0].ShowTotals = true;
@@ -120,7 +122,7 @@ W chwili uruchomienia tego kodu cała Twoja ciężka praca zostanie zapisana w n
 
 ## Wniosek
 
-masz! Właśnie utworzyłeś obiekt listy w programie Excel przy użyciu Aspose.Cells dla .NET. Od konfiguracji środowiska po zapisanie nowego skoroszytu, każdy krok przybliżał Cię do opanowania programowania w programie Excel. Ta metoda nie tylko pomaga w skutecznej organizacji danych, ale także dodaje znaczącą warstwę funkcjonalności do arkuszy kalkulacyjnych.
+I masz! Właśnie utworzyłeś obiekt listy w programie Excel przy użyciu Aspose.Cells dla .NET. Od konfiguracji środowiska po zapisanie nowego skoroszytu, każdy krok przybliżał Cię do opanowania programowania w programie Excel. Ta metoda nie tylko pomaga w skutecznej organizacji danych, ale także dodaje znaczącą warstwę funkcjonalności do arkuszy kalkulacyjnych.
 
 ## Najczęściej zadawane pytania
 
@@ -131,16 +133,18 @@ Aspose.Cells to zaawansowany interfejs API umożliwiający programowe tworzenie 
 Tak! Chociaż ten samouczek koncentruje się na .NET, Aspose.Cells jest dostępny również dla Javy, Androida i Pythona.
 
 ### Czy potrzebuję licencji na Aspose.Cells?  
- Tak, potrzebujesz licencji na pełną funkcjonalność, ale możesz zacząć od bezpłatnej wersji próbnej, aby przetestować rzeczy. Sprawdź to[Tutaj](https://releases.aspose.com/).
+Tak, potrzebujesz licencji na pełną funkcjonalność, ale możesz zacząć od bezpłatnej wersji próbnej, aby przetestować rzeczy. Sprawdź to [Tutaj](https://releases.aspose.com/).
 
 ### Czy muszę mieć zainstalowany program Excel na swoim komputerze?  
-Nie, Aspose.Cells nie wymaga zainstalowania programu Excel na komputerze, aby tworzyć lub edytować pliki Excela.
+Nie, Aspose.Cells nie wymaga zainstalowania programu Excel na komputerze, aby tworzyć lub edytować pliki Excel.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?  
- Aby uzyskać więcej informacji i szczegółową dokumentację, odwiedź witrynę[Tutaj](https://reference.aspose.com/cells/net/).
+Aby uzyskać więcej informacji i szczegółową dokumentację, odwiedź witrynę [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

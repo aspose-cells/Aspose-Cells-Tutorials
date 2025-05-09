@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Basic Excel Functions
@@ -48,9 +50,11 @@ Discover the Power of the MIN Function in Excel with Aspose.Cells for Java. Lear
 Unlock the secrets of Excel text functions with Aspose.Cells for Java. Learn to manipulate, extract, and transform text in Excel effortlessly.
 ### [Excel Date Functions Tutorial](./excel-date-functions-tutorial/)
 Learn Excel Date Functions using Aspose.Cells for Java. Explore step-by-step tutorials with source code.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

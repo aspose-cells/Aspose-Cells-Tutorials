@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 
 在本文中，我們將探討如何使用 Aspose.Cells for Java 來：
 - 從特定目錄載入 Excel 工作簿
-- 匯出工作簿中與 XML 映射連結的所有 XML 數據
+- 在匯出工作簿中與 XML 映射連結的所有 XML 數據
 
 透過遵循本指南，您將增強以程式設計方式操作和利用 Excel 檔案中的資料的能力。在開始之前，讓我們先深入了解您需要什麼。
 
@@ -153,6 +155,9 @@ for (int i = 0; i < wb.getWorksheets().getXmlMaps().getCount(); i++) {
 - **臨時執照**：從 [Aspose 臨時許可證](https://purchase。aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

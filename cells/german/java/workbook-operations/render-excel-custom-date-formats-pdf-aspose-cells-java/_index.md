@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -139,6 +141,9 @@ A5: Besuchen Sie die Aspose-Foren für Community-Unterstützung oder wenden Sie 
 Wenn Sie dieser Anleitung folgen, sind Sie nun in der Lage, Ihre Dokumentkonvertierungsprozesse mit Aspose.Cells für Java zu optimieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Định dạng với Get Style hoặc Set Style trong Excel
-linktitle: Định dạng với Get Style hoặc Set Style trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách định dạng ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ dàng này. Làm chủ các kiểu và đường viền để trình bày dữ liệu chính xác.
-weight: 12
-url: /vi/net/excel-formatting-and-styling/formatting-with-get-style-or-set-style/
+"description": "Tìm hiểu cách định dạng ô Excel bằng Aspose.Cells cho .NET trong hướng dẫn dễ dàng này. Làm chủ các kiểu và đường viền để trình bày dữ liệu chính xác."
+"linktitle": "Định dạng với Get Style hoặc Set Style trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Định dạng với Get Style hoặc Set Style trong Excel"
+"url": "/vi/net/excel-formatting-and-styling/formatting-with-get-style-or-set-style/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng với Get Style hoặc Set Style trong Excel
@@ -18,7 +20,7 @@ Excel là một công cụ mạnh mẽ khi nói đến quản lý dữ liệu v�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào cách định dạng tệp Excel, sau đây là một số điều cần thiết bạn cần lưu ý:
 1. Môi trường .NET: Đảm bảo bạn đã thiết lập môi trường phát triển .NET. Bạn có thể sử dụng Visual Studio, giúp bạn dễ dàng tạo và quản lý dự án.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ[trang](https://releases.aspose.com/cells/net/) , hoặc bạn có thể lựa chọn một[dùng thử miễn phí](https://releases.aspose.com/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells cho .NET. Bạn có thể tải xuống từ [trang](https://releases.aspose.com/cells/net/), hoặc bạn có thể lựa chọn một [dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
 4. Tham chiếu đến Không gian tên: Đảm bảo rằng bạn có các không gian tên cần thiết trong dự án của mình để truy cập các lớp bạn cần.
 ## Nhập gói
@@ -68,7 +70,7 @@ Tiếp theo, hãy nhập văn bản vào ô đã chọn.
 ```csharp
 cell.PutValue("Hello Aspose!");
 ```
- Ở đây, chúng tôi sử dụng`PutValue` phương pháp đặt văn bản thành "Xin chào Aspose!". Thật thú vị khi thấy văn bản của bạn xuất hiện trong Excel!
+Ở đây, chúng tôi sử dụng `PutValue` phương pháp đặt văn bản thành "Xin chào Aspose!". Thật thú vị khi thấy văn bản của bạn xuất hiện trong Excel!
 ## Bước 6: Xác định một đối tượng kiểu
 Tạo đối tượng kiểu để định dạng
 Để áp dụng kiểu, trước tiên chúng ta cần tạo một đối tượng Kiểu.
@@ -79,7 +81,7 @@ style = cell.GetStyle();
 Dòng này lấy kiểu hiện tại của ô A1, cho phép chúng ta sửa đổi nó.
 ## Bước 7: Thiết lập căn chỉnh theo chiều dọc và chiều ngang
 Căn giữa văn bản của bạn
-Hãy điều chỉnh cách căn chỉnh văn bản trong ô để trông đẹp mắt hơn.
+Hãy điều chỉnh căn chỉnh văn bản trong ô để trông đẹp mắt hơn.
 ```csharp
 style.VerticalAlignment = TextAlignmentType.Center;
 style.HorizontalAlignment = TextAlignmentType.Center;
@@ -127,16 +129,18 @@ Và voila! Bây giờ bạn đã định dạng thành công một ô Excel bằ
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ cho phép bạn tạo, thao tác và nhập các tệp Excel bằng các ứng dụng .NET.
 ### Tôi có thể tải xuống phiên bản dùng thử của Aspose.Cells không?
- Có, bạn có thể tải xuống bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?
 Aspose.Cells chủ yếu hỗ trợ .NET, Java và một số ngôn ngữ lập trình khác để thao tác với tệp.
 ### Làm thế nào để định dạng nhiều ô cùng một lúc?
 Bạn có thể lặp qua các tập hợp ô để áp dụng kiểu cho nhiều ô cùng lúc.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Có thể tìm thấy các tài nguyên và tài liệu bổ sung[đây](https://reference.aspose.com/cells/net/).
+Có thể tìm thấy các tài nguyên và tài liệu bổ sung [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

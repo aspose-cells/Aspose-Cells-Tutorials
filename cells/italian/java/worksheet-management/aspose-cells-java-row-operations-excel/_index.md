@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,10 +160,13 @@ Come passaggi successivi, valuta la possibilit√† di esplorare altre funzionalit√
 - [Scarica Aspose.Cells Java](https://releases.aspose.com/cells/java/)
 - [Acquista una licenza](https://purchase.aspose.com/buy)
 - [Accesso di prova gratuito](https://releases.aspose.com/cells/java/)
-- [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

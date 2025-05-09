@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -210,6 +212,9 @@ Postępując zgodnie z tym przewodnikiem, masz teraz narzędzia potrzebne do efe
 Zacznij już dziś odkrywać możliwości pakietu Aspose.Cells for Java i przenieś procesy zarządzania danymi na wyższy poziom!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

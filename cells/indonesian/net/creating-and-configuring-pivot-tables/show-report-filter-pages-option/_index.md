@@ -1,32 +1,34 @@
 ---
-title: Tampilkan Opsi Halaman Filter Laporan di .NET
-linktitle: Tampilkan Opsi Halaman Filter Laporan di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menggunakan Aspose.Cells for .NET secara efektif untuk menampilkan halaman filter laporan di Tabel Pivot. Panduan langkah demi langkah dengan contoh kode lengkap.
-weight: 22
-url: /id/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/
+"description": "Pelajari cara menggunakan Aspose.Cells for .NET secara efektif untuk menampilkan halaman filter laporan di Tabel Pivot. Panduan langkah demi langkah dengan contoh kode lengkap."
+"linktitle": "Tampilkan Opsi Halaman Filter Laporan di .NET"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tampilkan Opsi Halaman Filter Laporan di .NET"
+"url": "/id/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tampilkan Opsi Halaman Filter Laporan di .NET
 
-## Perkenalan
+## Bevezetés
 Pernahkah Anda menemukan diri Anda sedang asyik dengan berkas Excel, mencoba menguraikan semua titik data tersebut dalam Tabel Pivot? Jika demikian, Anda tahu betapa bermanfaatnya laporan yang terorganisasi dengan baik! Hari ini, kita akan membahas opsi "Tampilkan Halaman Filter Laporan" di .NET menggunakan Aspose.Cells. Fitur praktis ini memungkinkan Anda untuk menampilkan halaman individual dengan rapi berdasarkan pilihan filter dari Tabel Pivot Anda. Bukankah itu keren? Mari kita bahas!
-## Prasyarat
+## Előfeltételek
 Sebelum kita memulai perjalanan luar biasa kita untuk menguasai opsi “Tampilkan Halaman Filter Laporan”, ada beberapa prasyarat yang perlu Anda penuhi:
 ### 1. Pemahaman Dasar tentang C# dan .NET
 - Pastikan Anda memiliki pemahaman mendasar tentang pemrograman C# dan dasar-dasar framework .NET. Jangan khawatir jika Anda masih belajar; selama Anda memiliki sedikit pengalaman coding, Anda akan berhasil!
-### 2. Aspose.Cells untuk .NET
--  Anda memerlukan pustaka Aspose.Cells. Jika Anda belum memilikinya, Anda dapat[unduh disini](https://releases.aspose.com/cells/net/).
+### 2. Aspose.Cells .NET-hez
+- Anda memerlukan pustaka Aspose.Cells. Jika Anda belum memilikinya, Anda dapat [töltsd le itt](https://releases.aspose.com/cells/net/).
 ### 3. Visual Studio
 - Microsoft Visual Studio adalah tempat bermain Anda. Pastikan sudah terinstal di sistem Anda, siap untuk memulai petualangan coding Anda.
 ### 4. Contoh File Excel
--  Ambil contoh file Excel yang berisi Tabel Pivot untuk pengujian; kami akan menggunakan file bernama`samplePivotTable.xlsx`.
+- Ambil contoh file Excel yang berisi Tabel Pivot untuk pengujian; kami akan menggunakan file bernama `samplePivotTable.xlsx`.
 Setelah Anda mencentang kotak ini, kita dapat melanjutkan membuat kode menuju kesuksesan menggunakan Aspose.Cells!
-## Paket Impor
+## Csomagok importálása
 Untuk memulai pesta ini, kita perlu mengimpor beberapa paket. Buka Visual Studio Anda dan mulai proyek C# baru. Jangan lupa sertakan namespace awal:
 ```csharp
 using System.IO;
@@ -41,14 +43,14 @@ Sekarang setelah dasar-dasarnya sudah tersusun, mari kita lakukan proses ini sel
 ## Langkah 1: Tentukan Direktori untuk File Anda
 Pada langkah ini, kita akan mengatur direktori untuk file input dan output. Dengan cara ini, program kita akan mengetahui di mana menemukan file dan di mana menyimpan versi yang dimodifikasi.
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Kamu akan menggantikan`"Your Document Directory"` dengan jalur sebenarnya ke folder Anda. Ini seperti memberi program Anda peta—ini membantu program menavigasi dengan benar!
+Kamu akan menggantikan `"Your Document Directory"` dengan jalur sebenarnya ke folder Anda. Ini seperti memberi program Anda peta—ini membantu program menavigasi dengan benar!
 ## Langkah 2: Muat File Template
- Selanjutnya, kita perlu memuat file Excel yang berisi Tabel Pivot kita. Ini dilakukan dengan membuat contoh tabel Pivot.`Workbook` kelas.
+Selanjutnya, kita perlu memuat file Excel yang berisi Tabel Pivot kita. Ini dilakukan dengan membuat contoh tabel Pivot. `Workbook` osztály.
 ```csharp
 // Muat file templat
 Workbook wb = new Workbook(sourceDir + "samplePivotTable.xlsx");
@@ -62,7 +64,7 @@ PivotTable pt = wb.Worksheets[1].PivotTables[0];
 ```
 Baris ini seperti menarik harta karun tersembunyi dari berkas Excel Anda—Anda membawa Tabel Pivot ke dalam konteks C#, tempat Anda dapat memanipulasinya.
 ## Langkah 4: Tampilkan Halaman Filter Laporan
-Di sinilah keajaiban terjadi! Sekarang kita akan menggunakan`ShowReportFilterPage` metode untuk menampilkan halaman filter laporan. Baris ini dapat dikonfigurasikan dalam beberapa cara berdasarkan cara Anda ingin mengatur filter.
+Di sinilah keajaiban terjadi! Sekarang kita akan menggunakan `ShowReportFilterPage` metode untuk menampilkan halaman filter laporan. Baris ini dapat dikonfigurasikan dalam beberapa cara berdasarkan cara Anda ingin mengatur filter.
 ### Opsi A: Berdasarkan Bidang Filter
 ```csharp
 // Tetapkan bidang pivot
@@ -94,23 +96,25 @@ Terakhir, untuk penyelesaian yang manis, mari tambahkan pesan ke konsol bahwa se
 Console.WriteLine("ShowReportFilterPagesOption executed successfully.");
 ```
 Baris ini memberikan umpan balik apakah tugas Anda telah diselesaikan tanpa hambatan. Ini seperti perayaan kecil setelah melakukan semua pengodean itu!
-## Kesimpulan
+## Következtetés
 Selamat! Anda baru saja mempelajari cara memanfaatkan opsi "Tampilkan Halaman Filter Laporan" di .NET menggunakan Aspose.Cells. Anda telah berhasil menavigasi melalui pemuatan file Excel, mengakses Tabel Pivot, dan menampilkan laporan berdasarkan pilihan filter. Baik Anda sedang mempersiapkan laporan bisnis atau hanya mengatur data untuk analisis, teknik ini menyediakan cara mudah untuk meningkatkan presentasi data Anda.
 Jangan ragu untuk menjelajahi lebih banyak fitur dalam Aspose.Cells dan membuka potensi penuh manipulasi Excel Anda. Mari teruskan pencarian kode!
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
+## GYIK
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka serbaguna untuk aplikasi .NET yang memungkinkan Anda memanipulasi file Excel dengan mudah tanpa perlu menginstal Microsoft Excel.
 ### Apakah saya perlu menginstal Excel untuk menggunakan Aspose.Cells?
 Tidak, Anda tidak perlu menginstal Microsoft Excel untuk menggunakan Aspose.Cells. Aplikasi ini beroperasi secara independen.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat mencoba Aspose.Cells dengan uji coba gratis. Temukan[Di Sini](https://releases.aspose.com/).
-### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan melalui[Forum dukungan Aspose](https://forum.aspose.com/c/cells/9).
-### Di mana saya dapat membeli Aspose.Cells?
- Anda dapat membeli lisensi langsung di[situs web](https://purchase.aspose.com/buy).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Anda dapat mencoba Aspose.Cells dengan uji coba gratis. Temukan [itt](https://releases.aspose.com/).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Anda bisa mendapatkan dukungan melalui [Aspose támogatói fórum](https://forum.aspose.com/c/cells/9).
+### Hol vásárolhatok Aspose.Cells-t?
+Anda dapat membeli lisensi langsung di [weboldal](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,6 +163,9 @@ workbook.save(outDir + "/COfAFormula_out.pdf", SaveFormat.PDF);
 अब, आगे बढ़ें और Aspose.Cells for Java का उपयोग करके Excel कार्यपुस्तिकाएँ बनाकर या संशोधित करके अपने नए कौशल का परीक्षण करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

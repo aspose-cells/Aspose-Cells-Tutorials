@@ -1,14 +1,16 @@
 ---
-title: Đặt Tiêu đề In Excel
-linktitle: Đặt Tiêu đề In Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Học cách thiết lập tiêu đề in Excel hiệu quả bằng Aspose.Cells cho .NET. Đơn giản hóa quy trình in của bạn với hướng dẫn từng bước của chúng tôi.
-weight: 170
-url: /vi/net/excel-page-setup/set-excel-print-title/
+"description": "Học cách thiết lập tiêu đề in Excel hiệu quả bằng Aspose.Cells cho .NET. Đơn giản hóa quy trình in của bạn với hướng dẫn từng bước của chúng tôi."
+"linktitle": "Đặt Tiêu đề In Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Đặt Tiêu đề In Excel"
+"url": "/vi/net/excel-page-setup/set-excel-print-title/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Tiêu đề In Excel
@@ -22,7 +24,7 @@ Khi làm việc với bảng tính Excel, việc đảm bảo tính rõ ràng tr
 Trước khi đi sâu vào các bước, hãy đảm bảo rằng bạn đã thiết lập mọi thứ để có thể thực hiện dễ dàng:
 
 1. Đã cài đặt Visual Studio: Bạn sẽ cần có phiên bản Visual Studio đang hoạt động trên máy để có thể chạy các ứng dụng .NET.
-2.  Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống Aspose.Cells cho .NET từ[địa điểm](https://releases.aspose.com/cells/net/). Thư viện này là cốt lõi trong hoạt động quản lý các tệp Excel theo chương trình của chúng tôi.
+2. Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống Aspose.Cells cho .NET từ [địa điểm](https://releases.aspose.com/cells/net/). Thư viện này là cốt lõi trong hoạt động quản lý các tệp Excel theo chương trình của chúng tôi.
 3. Kiến thức lập trình cơ bản: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu và sửa đổi các đoạn mã được cung cấp.
 4. .NET Framework: Đảm bảo bạn đã cài đặt đúng phiên bản .NET để tương thích với Aspose.Cells.
 
@@ -65,11 +67,11 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Chỉ cần thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu tệp Excel của mình. Ví dụ, bạn có thể sử dụng`@"C:\Reports\"`.
+Chỉ cần thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu tệp Excel của mình. Ví dụ, bạn có thể sử dụng `@"C:\Reports\"`.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, chúng ta tạo một thể hiện của`Workbook` lớp, biểu diễn một tệp Excel.
+Tiếp theo, chúng ta tạo một thể hiện của `Workbook` lớp, biểu diễn một tệp Excel.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -79,17 +81,17 @@ Dòng này khởi tạo một bảng tính mới, giúp nó sẵn sàng để th
 
 ## Bước 3: Lấy tham chiếu PageSetup
 
- Bây giờ chúng ta hãy truy cập vào bảng tính`PageSetup` thuộc tính. Đây là nơi hầu hết các cài đặt in của chúng tôi sẽ được cấu hình.
+Bây giờ chúng ta hãy truy cập vào bảng tính `PageSetup` thuộc tính. Đây là nơi hầu hết các cài đặt in của chúng tôi sẽ được cấu hình.
 
 ```csharp
 Aspose.Cells.PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Ở đây, chúng ta đang nắm bắt`PageSetup` từ trang tính đầu tiên. Điều này cho phép chúng ta kiểm soát cách thiết lập trang để in.
+Ở đây, chúng ta đang nắm bắt `PageSetup` từ trang tính đầu tiên. Điều này cho phép chúng ta kiểm soát cách thiết lập trang để in.
 
 ## Bước 4: Xác định Cột Tiêu đề
 
- Để chỉ định những cột nào sẽ được in dưới dạng tiêu đề, chúng tôi gán các định danh cột cho`PrintTitleColumns` tài sản. 
+Để chỉ định những cột nào sẽ được in dưới dạng tiêu đề, chúng tôi gán các định danh cột cho `PrintTitleColumns` tài sản. 
 
 ```csharp
 pageSetup.PrintTitleColumns = "$A:$B";
@@ -121,7 +123,7 @@ Và như vậy, tiêu đề bản in của bạn đã được thiết lập và
 
 ## Phần kết luận
 
-Thiết lập tiêu đề in trong Excel bằng Aspose.Cells cho .NET là một quy trình đơn giản có thể cải thiện đáng kể khả năng đọc của các tài liệu in của bạn. Bằng cách làm theo các bước được nêu trong bài viết này, giờ đây bạn đã có kỹ năng để giữ cho các hàng và cột tiêu đề quan trọng đó hiển thị trong toàn bộ báo cáo của mình. Điều này không chỉ nâng cao khả năng trình bày chuyên nghiệp mà còn tiết kiệm thời gian trong quá trình xem xét!
+Thiết lập tiêu đề in trong Excel bằng Aspose.Cells cho .NET là một quy trình đơn giản có thể cải thiện đáng kể khả năng đọc của các tài liệu in của bạn. Bằng cách làm theo các bước được nêu trong bài viết này, giờ đây bạn đã có kỹ năng để giữ cho các hàng và cột tiêu đề quan trọng đó hiển thị trong suốt báo cáo của mình. Điều này không chỉ nâng cao khả năng trình bày chuyên nghiệp mà còn tiết kiệm thời gian trong quá trình xem xét!
 
 ## Câu hỏi thường gặp
 
@@ -138,10 +140,12 @@ Aspose.Cells cung cấp bản dùng thử miễn phí có giới hạn. Để c�
 Nó hỗ trợ nhiều định dạng khác nhau, bao gồm XLS, XLSX, CSV, v.v.
 
 ### Tôi có thể tìm thêm thông tin ở đâu?
- Bạn có thể khám phá tài liệu[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

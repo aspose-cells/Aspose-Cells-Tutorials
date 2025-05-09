@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Ebben az átfogó útmutatóban megvizsgáljuk, hogyan tölthet be egy Excel-fá
 
 **Amit tanulni fogsz:**
 - Az Aspose.Cells beállítása Java-hoz
-- Munkafüzetek hatékony betöltésének technikái
+- Technikák a munkafüzetek hatékony betöltésére
 - Cellák keresési feltételek alapján történő keresési módszerei
 
 Nézzük át az előfeltételeket, és kezdjük is!
@@ -163,6 +165,9 @@ Kezdje el a hatékony Excel-automatizálás útját még ma az Aspose.Cells for 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ import com.aspose.cells.Workbook;
 
 public class WorkbookExample {
     public static void main(String[] args) throws Exception {
-        // Aspose.Cells for Java を初期化する
+        // Java 用 Aspose.Cells を初期化する
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook initialized successfully!");
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 このチュートリアルでは、Aspose.Cells for Java を使って Excel ブックを効率的に操作する方法を学習しました。この強力なツールは、Excel ファイルの作成、変更、拡張のプロセスを簡素化し、高品質なデータソリューションの提供に集中できるようにします。引き続き機能を試して、プロジェクトでその機能を最大限に活用してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

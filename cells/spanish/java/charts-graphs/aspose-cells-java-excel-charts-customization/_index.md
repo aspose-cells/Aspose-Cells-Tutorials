@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ Crear una instancia de `Workbook` especificando la ruta a su archivo Excel:
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "/book1.xls");
 ```
-*¿Por qué este paso?*Crear una instancia de un libro es esencial para acceder y manipular cualquier dato dentro del archivo Excel.
+*¿Por qué este paso?*:Crear una instancia de un libro es esencial para acceder y manipular cualquier dato dentro del archivo Excel.
 
 ### Función: Acceso a hojas de trabajo
 
@@ -110,7 +112,7 @@ WorksheetCollection worksheets = workbook.getWorksheets();
 ```
 *¿Por qué este paso?*El acceso a las hojas de trabajo es fundamental para determinar dónde se colocará el gráfico.
 
-### Característica: Agregar un gráfico a la hoja de cálculo
+### Característica: Agregar un gráfico a una hoja de cálculo
 
 **Descripción general**:Agregue una representación visual de los datos creando gráficos dentro de la hoja de trabajo especificada.
 
@@ -157,13 +159,13 @@ Series aSeries = nSeries.get(0);
 aSeries.getSeriesLines().setStyle(LineType.DOT);
 aSeries.getMarker().setMarkerStyle(ChartMarkerType.TRIANGLE);
 
-// Ajustar el grosor de línea para otra serie
+// Ajustar el grosor de la línea para otra serie
 aSeries = nSeries.get(1);
 aSeries.getSeriesLines().setWeight(WeightType.MEDIUM_LINE);
 ```
 *¿Por qué este paso?*:La personalización de gráficos ayuda a que sean más reveladores y adaptados a las necesidades específicas de análisis de datos.
 
-### Característica: Guardar libro de trabajo
+### Función: Guardar libro de trabajo
 
 **Descripción general**:Guarde los cambios nuevamente en un formato de archivo Excel una vez realizadas todas las personalizaciones.
 
@@ -220,6 +222,9 @@ Como siguiente paso, considere explorar los tipos de gráficos más avanzados y 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

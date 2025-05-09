@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Eksportowanie Excela do PDF
@@ -63,7 +65,7 @@ public class ExcelToPdfConverter {
 
 Upewnij się, że wymieniasz `"path/to/your/excel/file.xlsx"` z rzeczywistą ścieżką do pliku Excel.
 
-## Krok 3: Konwersja Excela do PDF
+## Krok 3: Konwersja pliku Excel do formatu PDF
 
 Po załadowaniu pliku Excel możemy przejść do konwersji do formatu PDF. Aspose.Cells znacznie upraszcza ten proces:
 
@@ -106,9 +108,11 @@ Chociaż Aspose.Cells jest zoptymalizowany pod kątem wydajnej obsługi dużych 
 P5: Gdzie mogę znaleźć więcej dokumentacji i przykładów dla Aspose.Cells?
 
 Zapoznaj się z dokumentacją API Aspose.Cells na stronie [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) gdzie znajdziesz kompleksową dokumentację i bogactwo przykładów, które pozwolą Ci poszerzyć swoją wiedzę.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

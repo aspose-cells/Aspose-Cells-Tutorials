@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Prima di iniziare, assicurati di avere quanto segue:
 - Un IDE o un editor per scrivere codice Java
 - Sistema di build Maven o Gradle configurato per gestire le dipendenze
 
-Sarà utile una conoscenza di base della programmazione Java e la familiarità con le strutture dei file Excel.
+Sarà utile avere una conoscenza di base della programmazione Java e avere familiarità con le strutture dei file Excel.
 
 ## Impostazione di Aspose.Cells per Java
 
@@ -281,6 +283,9 @@ Hai imparato con successo come aggiungere una casella di testo e impostare l'int
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

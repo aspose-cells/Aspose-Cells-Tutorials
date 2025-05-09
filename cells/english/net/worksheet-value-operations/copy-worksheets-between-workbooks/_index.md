@@ -8,7 +8,9 @@ url: /net/worksheet-value-operations/copy-worksheets-between-workbooks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Worksheets between Two Workbooks using Aspose.Cells
@@ -94,6 +96,7 @@ You can try Aspose.Cells with a [free temporary license](https://purchase.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

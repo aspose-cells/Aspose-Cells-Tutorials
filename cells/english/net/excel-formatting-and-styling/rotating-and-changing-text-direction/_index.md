@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/rotating-and-changing-text-direction/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotating and Changing Text Direction in Excel
@@ -129,6 +131,7 @@ You can check the [documentation](https://reference.aspose.com/cells/net/) for c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

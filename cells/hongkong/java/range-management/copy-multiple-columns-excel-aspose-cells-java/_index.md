@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ workbook.save(outDir + "CMultipleColumns_out.xlsx");
 3. **庫存管理**：快速重組產品庫存，以實現更好的可視性和管理。
 ## 性能考慮
 為確保使用 Aspose.Cells Java 時獲得最佳效能：
-- **優化記憶體使用**：透過分塊處理大型 Excel 文件，而不是一次將整個資料集載入到記憶體中。
+- **優化記憶體使用**：透過分塊處理大型 Excel 檔案而不是一次將整個資料集載入到記憶體中。
 - **高效的數據訪問**：明智地使用單元格引用以最大限度地減少資料檢索時間。
 - **Java最佳實務**：使用 try-with-resources 有效地管理文件操作的資源和適當的異常處理。
 ## 結論
@@ -126,6 +128,9 @@ workbook.save(outDir + "CMultipleColumns_out.xlsx");
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

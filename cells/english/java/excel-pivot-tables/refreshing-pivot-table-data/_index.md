@@ -8,7 +8,9 @@ url: /java/excel-pivot-tables/refreshing-pivot-table-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Refreshing Pivot Table Data
@@ -90,9 +92,11 @@ Refreshing Pivot Table data in Aspose.Cells for Java is a simple yet essential p
    - Yes, you can schedule automatic data refreshes using Aspose.Cells and Java scheduling libraries. This allows you to keep your Pivot Tables up to date without manual intervention.
 
 Now you have the knowledge to refresh Pivot Table data in Aspose.Cells for Java. Keep your analyses accurate and stay ahead in your data-driven decisions.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

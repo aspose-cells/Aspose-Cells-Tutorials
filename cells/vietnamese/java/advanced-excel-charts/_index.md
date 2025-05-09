@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biểu đồ Excel nâng cao
@@ -47,9 +49,11 @@ Tìm hiểu cách tạo hoạt ảnh biểu đồ hấp dẫn bằng Aspose.Cell
 Tìm hiểu cách tạo Biểu đồ thác nước tuyệt đẹp với Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu hiệu quả.
 ### [Biểu đồ tương tác](./chart-interactivity/)
 Tìm hiểu cách tạo biểu đồ tương tác bằng Aspose.Cells for Java. Nâng cao khả năng trực quan hóa dữ liệu của bạn bằng tính tương tác.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

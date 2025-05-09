@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ int sheetIndex = worksheets.add(); // 新しいワークシートを追加しま
 Worksheet sheet = worksheets.get(sheetIndex);
 ```
 
-#### ステップ3：用紙サイズを設定する
+#### ステップ3: 用紙サイズを設定する
 アクセス `PageSetup` ワークシートのオブジェクトを作成し、用紙サイズを A4 に設定します。
 
 ```java
@@ -159,7 +161,7 @@ Aspose.Cells Javaを使用してExcelワークシートの用紙サイズをA4�
 - Aspose.Cells ライブラリの追加機能を調べます。
 - 余白や向きなど、さまざまなページ設定構成を試してみてください。
 
-**行動喚起**今すぐこのソリューションを実装して、Excel ドキュメント管理がいかに効率化されるかを確認してください。
+**行動喚起**今すぐこのソリューションを実装して、Excel ドキュメント管理がどれだけ効率化されるかを確認してください。
 
 ## FAQセクション
 
@@ -189,6 +191,9 @@ Aspose.Cells Javaを使用してExcelワークシートの用紙サイズをA4�
 今すぐ Aspose.Cells Java を使い始め、Excel ファイル操作の可能性を最大限に引き出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

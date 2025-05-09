@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ## Przewodnik wdrażania
 
-### Tworzenie skoroszytu i dodawanie przykładowych wartości
+### Tworzenie skoroszytu i dodawanie wartości przykładowych
 Zacznij od utworzenia skoroszytu i wypełnienia go:
 1. **Zainicjuj skoroszyt**:
    ```java
@@ -163,6 +165,9 @@ Aby uzyskać dalsze informacje i wsparcie, odwiedź stronę [Dokumentacja Aspose
 - Forum wsparcia: [Społeczność komórek Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

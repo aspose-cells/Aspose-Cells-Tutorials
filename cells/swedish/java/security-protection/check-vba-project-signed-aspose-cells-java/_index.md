@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Innan vi börjar, se till att din miljö uppfyller dessa krav:
 
 1. **Bibliotek och beroenden:** Du behöver Aspose.Cells för Java. Den senaste versionen som används här är 25.3.
 2. **Miljöinställningar:** Se till att ditt system har JDK installerat (helst JDK 8 eller senare).
-3. **Kunskapsförkunskaper:** Bekantskap med Java-programmering och grundläggande förståelse för byggverktygen Maven/Gradle.
+3. **Kunskapsförkunskapskrav:** Bekantskap med Java-programmering och grundläggande förståelse för byggverktygen Maven/Gradle.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -151,6 +153,9 @@ Du har nu lärt dig hur du använder Aspose.Cells för Java för att kontrollera
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

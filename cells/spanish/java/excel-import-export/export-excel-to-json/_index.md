@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportar Excel a JSON
@@ -70,15 +72,17 @@ Ahora puede trabajar con los datos JSON según sea necesario. Puede analizarlos,
    Puede utilizar la API Aspose.Cells para navegar y manipular estructuras de datos complejas de Excel antes de exportar a JSON.
 
 ### ¿Puedo personalizar el formato de salida JSON?
-   Sí, puede personalizar el formato de salida JSON utilizando las opciones proporcionadas por JsonSaveOptions de Aspose.Cells para Java.
+   Sí, puede personalizar el formato de salida JSON utilizando las opciones proporcionadas por Aspose.Cells para JsonSaveOptions de Java.
 
 ### ¿Hay una versión de prueba de Aspose.Cells para Java disponible?
    Sí, puedes descargar una versión de prueba de Aspose.Cells para Java desde su sitio web para evaluar sus funciones.
 
 Siéntase libre de explorar más posibilidades con Aspose.Cells para Java para mejorar sus capacidades de procesamiento de datos.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

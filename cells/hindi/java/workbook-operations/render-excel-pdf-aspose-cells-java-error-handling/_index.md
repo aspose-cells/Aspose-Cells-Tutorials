@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ Aspose.Cells का उपयोग करते समय इष्टतम �
 4. **Java के कौन से संस्करण Aspose.Cells for Java के साथ संगत हैं?**
    - Aspose.Cells अधिकांश आधुनिक Java संस्करणों का समर्थन करता है। जाँच करें [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/) विशेष जानकारी के लिए कृपया देखें.
 5. **मुझे और अधिक उदाहरण और समर्थन कहां मिल सकता है?**
-   - दौरा करना [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) या आधिकारिक जाँच करें [प्रलेखन](https://reference.aspose.com/cells/java/).
+   - दौरा करना [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) या आधिकारिक जाँच करें [प्रलेखन](https://reference.aspose.com/cells/java/).
 
 ## संसाधन
 - **प्रलेखन**: [Aspose.Cells जावा संदर्भ](https://reference.aspose.com/cells/java/)
@@ -144,6 +146,9 @@ Aspose.Cells का उपयोग करते समय इष्टतम �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

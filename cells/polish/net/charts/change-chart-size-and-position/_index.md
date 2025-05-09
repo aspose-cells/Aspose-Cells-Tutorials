@@ -1,60 +1,65 @@
 ---
-title: Przewymiar i przełożenie wykresu w Excel za pomocą Aspose.Cells dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak zmienić rozmiar i ponownie położenie wykresu w podręczniku pracy programu Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku z przykładami kodu i instrukcjami instalacji.
-keywords: [Aspose.Cells for .NET, resize chart in Excel, reposition chart, Excel chart manipulation, .NET Excel library, C# Excel chart, modify Excel charts ]
-url: /pl/net/charts/change-chart-size-and-position/
+"description": "Dowiedz się, jak zmienić rozmiar i położenie wykresu w skoroszycie programu Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku z przykładami kodu i instrukcjami instalacji."
+"title": "Zmiana rozmiaru i położenia wykresu w programie Excel przy użyciu Aspose.Cells dla platformy .NET"
+"url": "/pl/net/charts/change-chart-size-and-position/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przewymiar i przemieszczenie wykresu w Excel za pomocą Aspose.Cells 
-Aspose.Cells dla .NET zapewnia potężny API do pracy z plikami Excel programatycznie. W tym przykładzie pokazano, jak zmienić rozmiar i ponownie postawić wykres w księdze roboczej Excel za pomocą Aspose.Cells. Czy musisz dostosować wymiary wykresu lub przenieść go do określonej pozycji, to tutorial przeprowadzi cię przez proces z łatwym do śledzenia kodem C #. Korzystając z Aspose.Cells, możesz bezproblemowo manipulować wykresami Excel, zapewniając, że raporty i prezentacje danych wizualnych są precyzyjnie formatowane.  
+# Zmiana rozmiaru i położenia wykresu w programie Excel za pomocą Aspose.Cells 
+Aspose.Cells dla .NET zapewnia potężne API do programowej pracy z plikami Excel. Ten przykład pokazuje, jak zmienić rozmiar i położenie wykresu w skoroszycie Excela za pomocą Aspose.Cells. Niezależnie od tego, czy musisz dostosować wymiary wykresu, czy przenieść go do określonej pozycji, ten samouczek przeprowadzi Cię przez proces za pomocą łatwego do naśladowania kodu C#. Wykorzystując Aspose.Cells, możesz bezproblemowo manipulować wykresami Excela, zapewniając precyzyjne formatowanie raportów i wizualnych prezentacji danych.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji:  
 
 Aby użyć Aspose.Cells dla .NET, wykonaj następujące kroki:  
 
-1. Instalacja za pomocą Menedżera pakietów NuGet  
-* Otwórz Visual Studio.  
-* Przejdź do Narzędzi → Menedżer pakietów NuGet → Zarządzaj pakietami NuGet dla rozwiązania.  
-* Poszukaj Aspose.Cells.  
-* Kliknij Instalację, aby dodać pakiet do projektu.  
+1. Zainstaluj za pomocą Menedżera pakietów NuGet  
+- Otwórz program Visual Studio.  
+- Przejdź do Narzędzia → Menedżer pakietów NuGet → Zarządzaj pakietami NuGet dla rozwiązania.  
+- Wyszukaj Aspose.Cells.  
+- Kliknij Zainstaluj, aby dodać pakiet do projektu.  
 
-Wpływ do programu:  
+Można również zainstalować go za pomocą konsoli NuGet Package Manager:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```
 
-2. Dodaj przestrzeni nazw w kodzie C#  
+2. Dodaj przestrzeń nazw w kodzie C#  
 ```csharp
 using Aspose.Cells;
 ```
 
-3. Aktywowanie licencji (opcjonalnie, dla pełnych funkcji)  
-Jeżeli masz licencję, należy ją zastosować za pomocą następującego kodu:  
+3. Aktywuj licencję (opcjonalnie, aby uzyskać pełne funkcje)  
+Jeśli posiadasz licencję, zastosuj ją używając poniższego kodu:  
 
 ```csharp
 License license = new License();
 license.SetLicense("Aspose.Cells.lic");
 ```
 
-## Zobacz również
-Bezpłatna próbka[Wystarczy bezpłatny test](https://releases.aspose.com/)\- Nie .  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie . 
+## Zobacz także
+Aby skorzystać z bezpłatnej wersji próbnej, odwiedź stronę [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

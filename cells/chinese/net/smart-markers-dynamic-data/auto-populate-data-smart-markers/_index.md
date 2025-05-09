@@ -1,25 +1,27 @@
 ---
-title: 在 Aspose.Cells 中自动填充跨表数据
-linktitle: 在 Aspose.Cells 中自动填充跨表数据
-second_title: Aspose.Cells .NET Excel 处理 API
-description: 了解如何使用 Aspose.Cells for .NET 库在 Excel 中的多个工作表中自动填充数据。了解简化数据管理任务的分步过程。
-weight: 11
-url: /zh/net/smart-markers-dynamic-data/auto-populate-data-smart-markers/
+"description": "了解如何使用 Aspose.Cells for .NET 库在 Excel 中自动填充多个工作表的数据。逐步学习简化数据管理任务的流程。"
+"linktitle": "在 Aspose.Cells 中自动填充跨表数据"
+"second_title": "Aspose.Cells .NET Excel 处理 API"
+"title": "在 Aspose.Cells 中自动填充跨表数据"
+"url": "/zh/net/smart-markers-dynamic-data/auto-populate-data-smart-markers/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 Aspose.Cells 中自动填充跨表数据
 
 ## 介绍
-在数据管理和自动化领域，高效地跨多个工作表填充数据的能力是一项至关重要的任务。Aspose.Cells for .NET 为这个问题提供了强大的解决方案，使您可以将数据从数据源无缝传输到 Excel 工作簿中的多个工作表。在本教程中，我们将指导您使用 Aspose.Cells 库逐步跨工作表自动填充数据。
+在数据管理和自动化领域，高效地跨多个工作表填充数据至关重要。Aspose.Cells for .NET 为这一问题提供了强大的解决方案，使您可以将数据从数据源无缝传输到 Excel 工作簿中的多个工作表。在本教程中，我们将指导您逐步使用 Aspose.Cells 库自动跨工作表填充数据。
 ## 先决条件
 在深入学习本教程之前，请确保您已满足以下先决条件：
 1. [微软 Visual Studio](https://visualstudio.microsoft.com/downloads/) - 这是使用 Aspose.Cells for .NET 的主要开发环境。
-2. [用于.NET的Aspose.Cells](https://releases.aspose.com/cells/net/) - 您可以从 Aspose 网站下载该库的最新版本。
-首先，您可以使用[免费试用**](https://releases.aspose.com/)或者[**purchase a license](https://purchase.aspose.com/buy) Aspose.Cells for .NET。
+2. [Aspose.Cells for .NET](https://releases.aspose.com/cells/net/) - 您可以从 Aspose 网站下载该库的最新版本。
+首先，您可以使用 [免费试用**](https://releases.aspose.com/) 或者 [**购买许可证](https://purchase.aspose.com/buy) Aspose.Cells for .NET。
 ## 导入包
 首先在 C# 项目中导入必要的包：
 ```csharp
@@ -30,7 +32,7 @@ using System.Text;
 using System.Data;
 ```
 ## 步骤 1：创建数据表
-第一步是创建一个数据表，作为工作表的数据源。在此示例中，我们将创建一个名为“Employees”的简单数据表，其中包含一个列“EmployeeID”：
+第一步是创建一个数据表，作为工作表的数据源。在本例中，我们将创建一个名为“Employees”的简单数据表，其中包含一列“EmployeeID”：
 ```csharp
 //输出目录
 string outputDir = "Your Document Directory";
@@ -61,13 +63,13 @@ dt.Rows.Add(1249);
 dt.Rows.Add(1250);
 ```
 ## 步骤 2：从数据表创建数据读取器
-接下来，我们将创建一个`DataTableReader`来自我们刚刚创建的数据表。这将允许我们使用数据表作为 Aspose.Cells 库的数据源：
+接下来，我们将创建一个 `DataTableReader` 从我们刚刚创建的数据表中获取。这将允许我们将数据表用作 Aspose.Cells 库的数据源：
 ```csharp
 //从数据表创建数据读取器
 DataTableReader dtReader = dt.CreateDataReader();
 ```
 ## 步骤 3：创建新工作簿
-现在，我们将使用`Workbook`Aspose.Cells 提供的类：
+现在，我们将使用 `Workbook` Aspose.Cells提供的类：
 ```csharp
 //创建空工作簿
 Workbook wb = new Workbook();
@@ -78,19 +80,19 @@ Workbook wb = new Workbook();
 //访问第一个工作表并在单元格 A1 中添加智能标记
 Worksheet ws = wb.Worksheets[0];
 ws.Cells["A1"].PutValue("&=Employees.EmployeeID");
-//添加第二张工作表并在单元格 A1 中添加智能标记
+//添加第二个工作表并在单元格 A1 中添加智能标记
 wb.Worksheets.Add();
 ws = wb.Worksheets[1];
 ws.Cells["A1"].PutValue("&=Employees.EmployeeID");
 ```
 ## 步骤 5：创建工作簿设计器
-我们现在创建一个`WorkbookDesigner`对象，它将帮助我们设置数据源并处理智能标记：
+我们现在创建一个 `WorkbookDesigner` 对象，它将帮助我们设置数据源并处理智能标记：
 ```csharp
 //创建工作簿设计器
 WorkbookDesigner wd = new WorkbookDesigner(wb);
 ```
-## 步骤 6：设置数据源
-接下来，我们将设置工作簿设计器的数据源。我们将使用`DataTableReader`我们之前创建并指定要处理的行数：
+## 步骤6：设置数据源
+接下来，我们将设置工作簿设计器的数据源。我们将使用 `DataTableReader` 我们之前创建并指定要处理的行数：
 ```csharp
 //使用数据读取器设置数据源
 wd.SetDataSource("Employees", dtReader, 15);
@@ -111,21 +113,23 @@ Console.WriteLine("AutoPopulateSmartMarkerDataToOtherWorksheets executed success
 ```
 就这样！您已成功使用 Aspose.Cells for .NET 在 Excel 工作簿中的多个工作表中自动填充数据。
 ## 结论
-在本教程中，您学习了如何使用 Aspose.Cells for .NET 库自动填充 Excel 工作簿中多个工作表中的数据。通过利用智能标记和`WorkbookDesigner`类，您可以有效地将数据从数据源传输到工作簿中的各个工作表。
+在本教程中，您学习了如何使用 Aspose.Cells for .NET 库自动填充 Excel 工作簿中多个工作表的数据。通过利用智能标记和 `WorkbookDesigner` 类，您可以有效地将数据从数据源传输到工作簿中的各个工作表。
 ## 常见问题解答
 ### 我可以使用 Aspose.Cells for .NET 自动填充多个工作簿（而不仅仅是工作表）中的数据吗？
-是的，您也可以使用 Aspose.Cells 自动填充多个工作簿中的数据。该过程与我们在本教程中介绍的过程类似，但您需要使用多个`Workbook`对象，而不只是一个。
+是的，您也可以使用 Aspose.Cells 在多个工作簿中自动填充数据。该过程与我们在本教程中介绍的类似，但您需要使用多个 `Workbook` 对象，而不只是一个。
 ### 如何自定义自动填充数据的外观和格式？
-Aspose.Cells 提供了多种格式化选项，您可以将其应用于自动填充的数据。您可以使用库中提供的各种属性和方法设置字体、大小、颜色、边框等。
-### 在自动填充数据时，有没有办法有效地处理大型数据集？
-是的，Aspose.Cells 提供延迟加载和分块等功能，可帮助您更高效地处理大型数据集。您可以在[文档](https://reference.aspose.com/cells/net/).
+Aspose.Cells 提供了丰富的格式化选项，可应用于自动填充的数据。您可以使用库中提供的各种属性和方法设置字体、大小、颜色、边框等。
+### 自动填充数据时，有没有办法有效地处理大型数据集？
+是的，Aspose.Cells 提供延迟加载和分块等功能，可以帮助您更高效地处理大型数据集。您可以在 [文档](https://reference。aspose.com/cells/net/).
 ### 我可以使用 Aspose.Cells 从数据库而不是数据表中自动填充数据吗？
-当然可以！Aspose.Cells 可以处理各种数据源，包括数据库。您可以使用`DataTableReader`或`DataReader`类连接到您的数据库并使用数据进行自动填充。
-### 有没有办法可以自动化跨表格自动填充数据的整个过程？
-是的，您可以创建一个可重复使用的组件或方法来封装我们在本教程中介绍的步骤。这样，您可以轻松地将自动填充逻辑集成到您的应用程序或脚本中，使其成为一个无缝且自动化的过程。
+当然！Aspose.Cells 可以处理各种数据源，包括数据库。您可以使用 `DataTableReader` 或 `DataReader` 类连接到您的数据库并使用数据进行自动填充。
+### 有没有办法实现跨表自动填充数据的整个过程的自动化？
+是的，您可以创建一个可重用的组件或方法来封装我们在本教程中介绍的步骤。这样，您可以轻松地将自动填充逻辑集成到您的应用程序或脚本中，使其成为一个无缝且自动化的过程。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

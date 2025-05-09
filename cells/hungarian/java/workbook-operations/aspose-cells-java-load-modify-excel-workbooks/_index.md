@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Ebben a cikkben a következőket fogjuk tárgyalni:
 - Cellatartományok mozgatása egy munkalapon belül
 - A módosított munkafüzet mentése
 
-Mielőtt belekezdenél, győződj meg róla, hogy minden előfeltétel teljesül, így készen állsz az Aspose.Cells Java-ban történő megvalósítására.
+Mielőtt belekezdenél, győződj meg róla, hogy minden előfeltétel teljesül, így készen állsz az Aspose.Cells Java nyelvű megvalósítására.
 
 ## Előfeltételek
 
@@ -145,7 +147,7 @@ import com.aspose.cells.SaveFormat;
 // A kimeneti könyvtár elérési útjának meghatározása
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// A módosított munkafüzet mentése új fájlba
+// módosított munkafüzet mentése új fájlba
 workbook.save(outDir + "MROfCellsInWorksheet_out.xls", SaveFormat.EXCEL_97_TO_2003);
 ```
 A `save` metódus visszaírja a módosításokat egy Excel fájlba a megadott formátumban.
@@ -203,6 +205,9 @@ További felfedezéshez érdemes lehet kipróbálni az Aspose.Cells által kín�
 Ez az átfogó útmutató segít kiaknázni az Aspose.Cells for Java teljes potenciálját, javítva az Excel fájlkezelést Java alkalmazásokban. Kezdje el még ma, és érjen el új termelékenységi szinteket!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

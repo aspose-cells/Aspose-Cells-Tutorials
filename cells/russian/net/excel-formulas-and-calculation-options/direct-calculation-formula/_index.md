@@ -1,14 +1,16 @@
 ---
-title: Формула прямого расчета в Excel программным способом
-linktitle: Формула прямого расчета в Excel программным способом
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как использовать Aspose.Cells для .NET для программного выполнения вычислений Excel. Пошаговое руководство для простых операций Excel.
-weight: 14
-url: /ru/net/excel-formulas-and-calculation-options/direct-calculation-formula/
+"description": "Узнайте, как использовать Aspose.Cells для .NET для программного выполнения вычислений Excel. Пошаговое руководство для простых операций Excel."
+"linktitle": "Формула прямого расчета в Excel программным способом"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Формула прямого расчета в Excel программным способом"
+"url": "/ru/net/excel-formulas-and-calculation-options/direct-calculation-formula/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Формула прямого расчета в Excel программным способом
@@ -20,7 +22,7 @@ url: /ru/net/excel-formulas-and-calculation-options/direct-calculation-formula/
 ### У вас установлен .NET?
 Убедитесь, что на вашем компьютере установлен .NET Framework. Aspose.Cells для .NET совместим с несколькими версиями .NET, поэтому убедитесь, что у вас установлен как минимум .NET Framework 4.0 или выше.
 ### Получить Aspose.Cells
- Вам нужно будет загрузить и сослаться на библиотеку Aspose.Cells в вашем проекте. Это можно легко сделать через NuGet или загрузить ее напрямую с[их страница релиза](https://releases.aspose.com/cells/net/).
+Вам нужно будет загрузить и сослаться на библиотеку Aspose.Cells в вашем проекте. Это можно легко сделать через NuGet или загрузить ее напрямую с [их страница релиза](https://releases.aspose.com/cells/net/).
 ### Базовые знания C#
 Поскольку наши примеры кода будут на C#, крайне важно, чтобы вы были знакомы с основами языка. Знакомство с концепциями объектно-ориентированного программирования также поможет!
 ### Немного терпения!
@@ -68,7 +70,7 @@ cellA2.PutValue(30);
 ```csharp
 var results = worksheet.CalculateFormula("=Sum(A1:A2)");
 ```
- Здесь мы призываем`CalculateFormula` для вычисления суммы на основе наших входных данных. Это все равно, что попросить Excel сделать за нас тяжелую работу — как удобно!
+Здесь мы призываем `CalculateFormula` для вычисления суммы на основе наших входных данных. Это все равно, что попросить Excel сделать за нас тяжелую работу — как удобно!
 ## Шаг 6: Отображение выходных данных
 Чтобы просмотреть наши расчеты, выведем значения на консоль:
 ```csharp
@@ -84,16 +86,18 @@ System.Console.WriteLine("Result of Sum(A1:A2): " + results.ToString());
 ### Что такое Aspose.Cells для .NET?
 Aspose.Cells для .NET — это мощная библиотека для программного управления файлами Excel, позволяющая создавать, изменять и вычислять электронные таблицы Excel.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, вы можете получить доступ к бесплатной пробной версии по адресу[здесь](https://releases.aspose.com/).
+Да, вы можете получить доступ к бесплатной пробной версии по адресу [здесь](https://releases.aspose.com/).
 ### Необходимо ли знать функции Excel?
 Хоть это и полезно, но не строго необходимо. Использование Aspose.Cells позволяет вам программно обрабатывать функции Excel.
 ### Где я могу найти дополнительную документацию?
-Вы можете найти полную документацию[здесь](https://reference.aspose.com/cells/net/).
+Вы можете найти полную документацию [здесь](https://reference.aspose.com/cells/net/).
 ### Как я могу получить поддержку по Aspose.Cells?
- Для получения поддержки, не стесняйтесь обращаться к ним[форум поддержки](https://forum.aspose.com/c/cells/9).
+Для получения поддержки, не стесняйтесь обращаться к ним [форум поддержки](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -66,7 +68,7 @@ Aprenda a personalizar fórmulas de Excel con GlobalizationSettings usando Aspos
 ### [Detectar y encontrar fórmulas en Excel con Aspose.Cells para Java](./detect-formulas-excel-aspose-cells-java/)
 Domine la detección de fórmulas específicas en archivos de Excel con Aspose.Cells para Java. Aprenda la configuración, la implementación de código y las aplicaciones prácticas para optimizar el procesamiento de datos.
 
-### [Cómo mostrar fórmulas en hojas de cálculo con Aspose.Cells para Java: una guía completa](./display-formula-aspose-cells-java-tutorial/)
+### [Cómo mostrar fórmulas en una hoja de cálculo con Aspose.Cells para Java: una guía completa](./display-formula-aspose-cells-java-tutorial/)
 Aprenda a usar Aspose.Cells para Java para mostrar fórmulas en hojas de cálculo de Excel con este tutorial paso a paso. Ideal para desarrolladores que automatizan tareas de Excel.
 
 ### [Domine las hojas de cálculo dinámicas de Excel en Java con Aspose.Cells: una guía completa](./dynamic-excel-sheets-aspose-cells-java-guide/)
@@ -93,6 +95,9 @@ Aprenda a extraer el texto de fórmulas de celdas de Excel usando Aspose.Cells c
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

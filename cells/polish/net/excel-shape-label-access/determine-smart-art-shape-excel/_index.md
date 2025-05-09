@@ -1,14 +1,16 @@
 ---
-title: Określ, czy kształt jest obiektem Smart Art w programie Excel
-linktitle: Określ, czy kształt jest obiektem Smart Art w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się łatwo sprawdzać, czy kształt w programie Excel jest Smart Art, używając Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. Idealny do automatyzacji zadań w programie Excel.
-weight: 11
-url: /pl/net/excel-shape-label-access/determine-smart-art-shape-excel/
+"description": "Naucz się łatwo sprawdzać, czy kształt w programie Excel jest Smart Art, używając Aspose.Cells dla .NET, korzystając z tego przewodnika krok po kroku. Idealny do automatyzacji zadań w programie Excel."
+"linktitle": "Określ, czy kształt jest obiektem Smart Art w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Określ, czy kształt jest obiektem Smart Art w programie Excel"
+"url": "/pl/net/excel-shape-label-access/determine-smart-art-shape-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ, czy kształt jest obiektem Smart Art w programie Excel
@@ -19,7 +21,7 @@ tym samouczku przeprowadzimy Cię przez kroki wymagane do ustalenia, czy kształ
 ## Wymagania wstępne
 Zanim zagłębimy się w szczegóły techniczne, omówmy, co powinieneś wiedzieć, aby móc korzystać z tego samouczka:
 1. Visual Studio: Tutaj będziemy pisać nasz kod. Upewnij się, że masz wersję zgodną z .NET Framework lub .NET Core.
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją pobrać ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza programistyczna: Znajomość języka C# i zrozumienie takich pojęć, jak klasy i metody, ułatwi ten proces.
 4. Przykładowy plik programu Excel: Będziesz potrzebować również przykładowego pliku programu Excel zawierającego kształty i obiekty Smart Art do celów testowych.
 Po zaznaczeniu tych warunków wstępnych możesz przystąpić do kodowania!
@@ -34,7 +36,7 @@ Zanim zaczniemy pisać kod, musimy zaimportować niezbędne pakiety. Jest to klu
 Aby użyć Aspose.Cells, musisz dodać go do swojego projektu. Oto jak to zrobić:
 1. Menedżer pakietów NuGet:
    - Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań.
-   -  Wybierać`Manage NuGet Packages`.
+   - Wybierać `Manage NuGet Packages`.
    - Wyszukaj „Aspose.Cells” i zainstaluj pakiet.
 2. Sprawdź instalację:
    Przejdź do odniesień do projektu, aby upewnić się, że Aspose.Cells znajduje się na liście. 
@@ -52,21 +54,21 @@ Przede wszystkim musisz określić lokalizację pliku Excel.
 // Katalog źródłowy
 string sourceDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` ze ścieżką, na której jesteś`sampleSmartArtShape.xlsx`plik jest zlokalizowany. To tutaj aplikacja będzie szukać pliku Excel zawierającego kształty, które chcesz sprawdzić.
+Zastępować `"Your Document Directory"` ze ścieżką, na której jesteś `sampleSmartArtShape.xlsx` plik jest zlokalizowany. To tutaj aplikacja będzie szukać pliku Excel zawierającego kształty, które chcesz sprawdzić.
 ## Krok 2: Załaduj skoroszyt programu Excel
- Następnie załadujemy plik Excel do Aspose.Cells`Workbook` klasa.
+Następnie załadujemy plik Excel do Aspose.Cells `Workbook` klasa.
 ```csharp
 // Załaduj przykładowy kształt sztuki inteligentnej - plik Excel
 Workbook wb = new Workbook(sourceDir + "sampleSmartArtShape.xlsx");
 ```
- Ten`Workbook` Klasa jest zasadniczo reprezentacją pliku Excel w kodzie. Tutaj tworzymy instancję`Workbook` i przekazując ścieżkę do naszego pliku Excel, aby mógł zostać przetworzony.
+Ten `Workbook` Klasa jest zasadniczo reprezentacją pliku Excel w kodzie. Tutaj tworzymy instancję `Workbook` i przekazując ścieżkę do naszego pliku Excel, aby mógł zostać przetworzony.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Po załadowaniu skoroszytu musimy uzyskać dostęp do konkretnego arkusza zawierającego kształt.
 ```csharp
 // Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 Worksheet ws = wb.Worksheets[0];
 ```
- Pliki Excel mogą zawierać wiele arkuszy kalkulacyjnych. Indeksując za pomocą`[0]`, uzyskujemy dostęp do pierwszego arkusza w naszym skoroszycie. 
+Pliki Excel mogą zawierać wiele arkuszy kalkulacyjnych. Indeksując za pomocą `[0]`, uzyskujemy dostęp do pierwszego arkusza w naszym skoroszycie. 
 ## Krok 4: Uzyskaj dostęp do kształtu
 Teraz pobierzemy konkretny kształt, który chcemy sprawdzić.
 ```csharp
@@ -80,23 +82,25 @@ Na koniec zaimplementujemy podstawową funkcjonalność — sprawdzenie, czy ksz
 // Określ, czy kształt jest sztuką inteligentną
 Console.WriteLine("Is Smart Art Shape: " + sh.IsSmartArt);
 ```
- Ten`IsSmartArt` własność`Shape` Klasa zwraca wartość logiczną wskazującą, czy kształt jest klasyfikowany jako Smart Art. Używamy`Console.WriteLine` aby wyprowadzić te informacje. 
+Ten `IsSmartArt` własność `Shape` Klasa zwraca wartość logiczną wskazującą, czy kształt jest klasyfikowany jako Smart Art. Używamy `Console.WriteLine` aby wyprowadzić te informacje. 
 ## Wniosek
-W tym samouczku dowiedziałeś się, jak ustalić, czy kształt w arkuszu kalkulacyjnym programu Excel jest grafiką Smart Art przy użyciu Aspose.Cells dla .NET. Dzięki tej wiedzy możesz ulepszyć prezentację danych i usprawnić przepływ pracy. Niezależnie od tego, czy jesteś doświadczonym użytkownikiem programu Excel, czy nowicjuszem, integracja inteligentnych funkcji, takich jak ta, może mieć ogromne znaczenie. 
+tym samouczku dowiedziałeś się, jak ustalić, czy kształt w arkuszu kalkulacyjnym programu Excel jest grafiką Smart Art przy użyciu Aspose.Cells dla .NET. Dzięki tej wiedzy możesz ulepszyć prezentację danych i usprawnić przepływ pracy. Niezależnie od tego, czy jesteś doświadczonym użytkownikiem programu Excel, czy nowicjuszem, integracja inteligentnych funkcji, takich jak ta, może mieć ogromne znaczenie. 
 ## Najczęściej zadawane pytania
 ### Czym jest Smart Art w programie Excel?
 Smart Art to funkcja programu Excel umożliwiająca użytkownikom tworzenie atrakcyjnych wizualnie grafik ilustrujących informacje.
 ### Czy mogę modyfikować kształty Smart Art za pomocą Aspose.Cells?
 Tak, kształtami Smart Art można manipulować programowo, łącznie ze zmianą stylów i szczegółów.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
-Chociaż dostępna jest wersja próbna, Aspose.Cells jest płatną biblioteką. Możesz kupić pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+Chociaż dostępna jest wersja próbna, Aspose.Cells jest płatną biblioteką. Możesz kupić pełną wersję [Tutaj](https://purchase.aspose.com/buy).
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?
- Możesz zwrócić się o pomoc na[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Możesz zwrócić się o pomoc na [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 ### Gdzie mogę znaleźć więcej dokumentacji dla Aspose.Cells?
- Dostępna jest kompleksowa dokumentacja[Tutaj](https://reference.aspose.com/cells/net/).
+Dostępna jest kompleksowa dokumentacja [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

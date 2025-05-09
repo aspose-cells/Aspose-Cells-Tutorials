@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tablas dinámicas dinámicas
@@ -107,9 +109,11 @@ Sí, puede aplicar filtros a las tablas dinámicas para mostrar subconjuntos de 
 ### P5: ¿Aspose.Cells admite las funciones avanzadas de tabla dinámica de Excel?
 
 Sí, Aspose.Cells proporciona un amplio soporte para las funciones avanzadas de tablas dinámicas de Excel, lo que le permite crear tablas dinámicas complejas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

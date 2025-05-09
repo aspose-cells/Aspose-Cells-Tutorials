@@ -1,50 +1,52 @@
 ---
-title: Ubah Bagan Garis
-linktitle: Ubah Bagan Garis
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara memodifikasi diagram garis di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini.
-weight: 15
-url: /id/net/manipulating-chart-types/modify-line-chart/
+"description": "Pelajari cara memodifikasi diagram garis di Excel menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah terperinci ini."
+"linktitle": "Ubah Bagan Garis"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Ubah Bagan Garis"
+"url": "/id/net/manipulating-chart-types/modify-line-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Bagan Garis
 
-## Perkenalan
+## Bevezetés
 
 Membuat bagan yang menarik secara visual dan informatif sangat penting untuk representasi data yang efektif, terutama dalam lingkungan bisnis dan akademis. Namun, bagaimana Anda menyempurnakan bagan garis untuk menyampaikan cerita di balik angka-angka? Di sinilah Aspose.Cells for .NET berperan. Dalam artikel ini, kita akan mendalami penggunaan Aspose.Cells untuk memodifikasi bagan garis yang sudah ada dengan mudah. Kami akan membahas semuanya mulai dari prasyarat hingga petunjuk langkah demi langkah, yang akan membantu Anda memaksimalkan upaya visualisasi data Anda. 
 
-## Prasyarat 
+## Előfeltételek 
 
 Sebelum kita masuk ke inti modifikasi grafik, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai. Berikut adalah prasyarat penting:
 
-### Instal Visual Studio
- Anda memerlukan Visual Studio yang terinstal di komputer Anda untuk menulis dan menjalankan kode C# secara efektif. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari[Situs Visual Studio](https://visualstudio.microsoft.com/).
+### A Visual Studio telepítése
+Anda memerlukan Visual Studio yang terinstal di komputer Anda untuk menulis dan menjalankan kode C# secara efektif. Jika Anda belum memilikinya, Anda dapat mengunduhnya dari [Situs Visual Studio](https://visualstudio.microsoft.com/).
 
-### Unduh Aspose.Cells untuk .NET
- Untuk menggunakan Aspose.Cells, Anda memerlukan pustaka. Anda dapat dengan mudah mengunduh versi terbaru dari[tautan ini](https://releases.aspose.com/cells/net/).
+### Aspose.Cells letöltése .NET-hez
+Untuk menggunakan Aspose.Cells, Anda memerlukan pustaka. Anda dapat mengunduh versi terbaru dengan mudah dari [ezt a linket](https://releases.aspose.com/cells/net/).
 
-### Pengetahuan Dasar C#
+### C# alapismeretek
 Meskipun kami akan menjelaskan semuanya langkah demi langkah, pemahaman dasar tentang C# akan membantu Anda menavigasi tutorial ini dengan lancar.
 
 ### File Excel yang Ada
- Pastikan Anda memiliki file Excel yang siap dengan diagram garis. Kita akan bekerja dengan file bernama`sampleModifyLineChart.xlsx`, jadi simpanlah itu juga. 
+Pastikan Anda memiliki file Excel yang siap dengan diagram garis. Kita akan bekerja dengan file bernama `sampleModifyLineChart.xlsx`, jadi simpanlah itu juga. 
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai, kita perlu menyiapkan proyek kita dengan mengimpor namespace yang diperlukan. Berikut cara melakukannya:
 
-### Buat Proyek Baru di Visual Studio
+### Membuat Proyek Baru di Visual Studio
 Buka Visual Studio dan buat proyek Aplikasi Konsol C# baru. Beri nama yang relevan, seperti "LineChartModifier".
 
-### Tambahkan Referensi ke Aspose.Cells
+### Hivatkozás hozzáadása az Aspose.Cells fájlhoz
 Di proyek Anda, klik kanan pada "Referensi" dan pilih "Tambahkan Referensi". Cari Aspose.Cells dan tambahkan ke proyek Anda.
 
-### Impor Namespace yang Diperlukan
- Di bagian atas Anda`Program.cs`, Anda perlu mengimpor namespace yang diperlukan:
+### Importálja a szükséges névtereket
+A te tetején `Program.cs`, Anda perlu mengimpor namespace yang diperlukan:
 
 ```csharp
 using Aspose.Cells;
@@ -144,29 +146,31 @@ Terakhir, untuk melihat semuanya, jalankan aplikasi konsol Anda. Anda akan melih
 Console.WriteLine("ModifyLineChart executed successfully.");
 ```
 
-## Kesimpulan 
+## Következtetés 
 
 Memodifikasi diagram garis menggunakan Aspose.Cells untuk .NET tidak harus menjadi tugas yang sulit. Seperti yang telah kita lihat, dengan mengikuti langkah-langkah sederhana ini, Anda dapat menambahkan rangkaian data, menyesuaikan visual, dan membuat diagram dinamis yang menceritakan kisah di balik data Anda. Ini tidak hanya memperkuat presentasi Anda tetapi juga meningkatkan pemahaman. Jadi, tunggu apa lagi? Mulailah bereksperimen dengan diagram hari ini dan jadilah ahli visualisasi data!
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk tipe bagan lainnya?
 Ya, Anda dapat memodifikasi berbagai jenis bagan (seperti batang, pai, dsb.) menggunakan metode yang serupa.
 
-### Apakah ada versi uji coba Aspose.Cells yang tersedia?
- Tentu saja! Anda dapat mencobanya secara gratis[Di Sini](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Cells-ből?
+Tentu saja! Anda dapat mencobanya secara gratis [itt](https://releases.aspose.com/).
 
 ### Bagaimana cara mengubah jenis grafik setelah menambahkan seri?
-Anda dapat menggunakan`ChartType` properti untuk menetapkan jenis bagan baru untuk bagan Anda.
+Használhatod a `ChartType` properti untuk menetapkan jenis bagan baru untuk bagan Anda.
 
 ### Di mana saya dapat menemukan dokumentasi yang lebih rinci?
- Lihat dokumentasinya[Di Sini](https://reference.aspose.com/cells/net/).
+Lihat dokumentasinya [itt](https://reference.aspose.com/cells/net/).
 
-### Bagaimana jika saya menemui masalah saat menggunakan Aspose.Cells?
- Pastikan untuk mencari bantuan di forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+### Mi van, ha problémába ütközöm az Aspose.Cells használata közben?
+Pastikan untuk mencari bantuan di forum dukungan Aspose [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

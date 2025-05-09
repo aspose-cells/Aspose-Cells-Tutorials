@@ -1,14 +1,16 @@
 ---
-title: Excel'de Birleştirilmiş Hücreleri Ayırma
-linktitle: Excel'de Birleştirilmiş Hücreleri Ayırma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de birleştirilmiş hücreleri kolayca ayırın. Daha iyi elektronik tablolar oluşturmak için adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/excel-merging-unmerging-cells/unmerge-merged-cells/
+"description": "Aspose.Cells for .NET kullanarak Excel'de birleştirilmiş hücreleri kolayca ayırın. Daha iyi elektronik tablolar oluşturmak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Excel'de Birleştirilmiş Hücreleri Ayırma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Birleştirilmiş Hücreleri Ayırma"
+"url": "/tr/net/excel-merging-unmerging-cells/unmerge-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Birleştirilmiş Hücreleri Ayırma
@@ -25,7 +27,7 @@ Ellerimizi kirletmeden önce, yerinde olması gereken birkaç temel şey var:
 C# programlamaya aşinaysanız ve .NET framework'ü hakkında temel bir anlayışa sahipseniz, harika bir başlangıç yapmışsınız demektir. Değilse, endişelenmeyin! Bu eğitimin anlaşılır olması için tasarlanmıştır, böylece yol boyunca gerekli kavramları öğreneceksiniz.
 
 ### Aspose.Cells Kütüphanesi
-.NET ortamınızda Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şurayı ziyaret ederek kolayca edinebilirsiniz:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
+.NET ortamınızda Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şurayı ziyaret ederek kolayca edinebilirsiniz: [Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
 
 ### IDE Kurulumu
 C# kodlarınızı yazabileceğiniz ve çalıştırabileceğiniz Visual Studio gibi bir geliştirme ortamınız olmalı.
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory"; 
 ```
 
- Değiştirdiğinizden emin olun`"Your Document Directory"` dosyalarınızın gerçek yolunu içerir.
+Değiştirdiğinizden emin olun `"Your Document Directory"` dosyalarınızın gerçek yolunu içerir.
 
 ## Adım 2: Bir Çalışma Kitabı Oluşturun
 
@@ -91,13 +93,13 @@ Bu kod ilk çalışma sayfasını alır. Birleştirilmiş hücreleriniz farklı 
 Sonra, çalışma sayfanızdaki hücrelere bir referans almanız gerekecek. Bu, şu şekilde gerçekleştirilebilir:
 
 ```csharp
-//Tüm hücreleri almak için bir Hücreler nesnesi oluşturun
+// Tüm hücreleri almak için bir Hücreler nesnesi oluşturun
 Cells cells = worksheet.Cells;
 ```
 
 Bu satırla artık çalışma sayfanızdaki tüm hücrelere erişebilir, gerektiğinde bunları düzenleyebilirsiniz.
 
-## Adım 5: Hücreleri ayırın
+## Adım 5: Hücreleri Birleştir
 
 İşte kritik adım geldi: Hücreleri birleştirmeyi kaldırma! Birleştirmeyi kaldırmak istediğiniz birleştirilmiş hücrelerin aralığını belirtmek isteyeceksiniz. Aşağıdaki kodu kullanın:
 
@@ -106,7 +108,7 @@ Bu satırla artık çalışma sayfanızdaki tüm hücrelere erişebilir, gerekti
 cells.UnMerge(5, 2, 2, 3);
 ```
 
- Bu örnekte,`UnMerge` yöntem dört parametre alır: başlangıç satır dizini (5), başlangıç sütun dizini (2), birleştirilecek satır sayısı (2) ve birleştirilecek sütun sayısı (3). Bu parametreleri Excel dosyanızdaki belirli birleştirilmiş hücrelerle eşleşecek şekilde ayarlayın.
+Bu örnekte, `UnMerge` yöntem dört parametre alır: başlangıç satır dizini (5), başlangıç sütun dizini (2), birleştirilecek satır sayısı (2) ve birleştirilecek sütun sayısı (3). Bu parametreleri Excel dosyanızdaki belirli birleştirilmiş hücrelerle eşleşecek şekilde ayarlayın.
 
 ## Adım 6: Çalışma Kitabını Kaydedin
 
@@ -139,7 +141,7 @@ Hücreleri ayırmak sıkıcı görünebilir, özellikle de büyük elektronik ta
 Aspose.Cells, .NET uygulamalarında Excel belgeleri oluşturmak, düzenlemek ve dönüştürmek için güçlü bir kütüphanedir.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- Aspose.Cells ücretsiz deneme sunarken, tam kullanım için lisans gereklidir. Bir tane alabilirsiniz[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ücretsiz deneme sunarken, tam kullanım için lisans gereklidir. Bir tane alabilirsiniz [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Birden fazla sayfadaki hücreleri aynı anda ayırabilir miyim?  
 Evet, bir çalışma kitabındaki birden fazla çalışma sayfası arasında geçiş yapabilir ve gerektiğinde hücreleri ayırabilirsiniz.
@@ -148,10 +150,12 @@ Evet, bir çalışma kitabındaki birden fazla çalışma sayfası arasında ge�
 Evet, Aspose.Cells .NET Core ile uyumludur ve bu sayede çeşitli .NET uygulamaları için çok yönlüdür.
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?  
- Tam dokümantasyonu şu adreste inceleyebilirsiniz:[Aspose.Cells Referans Sayfası](https://reference.aspose.com/cells/net/).
+Tam dokümantasyonu şu adreste inceleyebilirsiniz: [Aspose.Cells Referans Sayfası](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

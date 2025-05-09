@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ for (int i = 0; i < 50; i++) {
 }
 ```
 
-**Passaggio 3.3: definire e definire uno stile per un intervallo**
+**Passaggio 3.3: definire e definire lo stile di un intervallo**
 Crea e assegna uno stile a un intervallo:
 ```java
 Range range = cells.createRange("A1", "D3");
@@ -178,6 +180,9 @@ Hai imparato a creare e formattare intervalli, copiare dati e salvare cartelle d
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

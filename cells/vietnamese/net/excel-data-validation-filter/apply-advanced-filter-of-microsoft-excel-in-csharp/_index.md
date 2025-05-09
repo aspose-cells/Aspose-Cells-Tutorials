@@ -1,14 +1,16 @@
 ---
-title: Áp dụng Bộ lọc nâng cao của Microsoft Excel trong C#
-linktitle: Áp dụng Bộ lọc nâng cao của Microsoft Excel trong C#
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách áp dụng bộ lọc nâng cao trong Excel bằng C# và Aspose.Cells. Có hướng dẫn từng bước để triển khai dễ dàng.
-weight: 10
-url: /vi/net/excel-data-validation-filter/apply-advanced-filter-of-microsoft-excel-in-csharp/
+"description": "Tìm hiểu cách áp dụng bộ lọc nâng cao trong Excel bằng C# và Aspose.Cells. Có hướng dẫn từng bước để triển khai dễ dàng."
+"linktitle": "Áp dụng Bộ lọc nâng cao của Microsoft Excel trong C#"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Áp dụng Bộ lọc nâng cao của Microsoft Excel trong C#"
+"url": "/vi/net/excel-data-validation-filter/apply-advanced-filter-of-microsoft-excel-in-csharp/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Áp dụng Bộ lọc nâng cao của Microsoft Excel trong C#
@@ -22,8 +24,8 @@ Bạn đã bao giờ gặp khó khăn khi cố gắng lọc các tập dữ li�
 Trước khi bắt đầu cuộc phiêu lưu mã hóa này, hãy đảm bảo rằng chúng ta đã được trang bị đầy đủ. Sau đây là các điều kiện tiên quyết cần thiết:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đó là nơi mọi điều kỳ diệu xảy ra.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
-3. .NET Framework: Đảm bảo bạn đã cấu hình để làm việc với .NET Framework (khuyến nghị sử dụng phiên bản 4.0 trở lên).
+2. Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
+3. .NET Framework: Đảm bảo bạn đã cấu hình để làm việc với .NET Framework (khuyến nghị phiên bản 4.0 trở lên).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn theo dõi dễ dàng hơn nhiều.
 5. Tệp Excel mẫu: Chuẩn bị sẵn tệp Excel mẫu để chúng tôi làm việc. Nếu bạn không có, bạn có thể tạo một tệp đơn giản với dữ liệu mẫu.
 
@@ -54,7 +56,7 @@ string sourceDir = "Your Document Directory"; // Chỉ định thư mục tài l
 Workbook wb = new Workbook(sourceDir + "sampleAdvancedFilter.xlsx");
 ```
 
- Trong bước này, chúng ta khai báo một biến`sourceDir` trỏ đến vị trí tệp Excel của bạn. Sau đó, chúng tôi tạo một phiên bản mới của`Workbook` lớp để tải tệp đó. Điều này giống như mở cuốn sách chúng ta muốn đọc!
+Trong bước này, chúng ta khai báo một biến `sourceDir` trỏ đến vị trí tệp Excel của bạn. Sau đó, chúng tôi tạo một phiên bản mới của `Workbook` lớp để tải tệp đó. Điều này giống như mở cuốn sách chúng ta muốn đọc!
 
 ## Bước 2: Truy cập vào Bảng tính đầu tiên
 
@@ -64,7 +66,7 @@ Sau khi tải xong bảng tính, bước tiếp theo là truy cập vào bảng 
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Ở đây, chúng ta đang khai thác vào`Worksheets`thu thập sổ làm việc của chúng tôi và truy cập vào trang tính đầu tiên (thường là chỉ mục 0). Bước này rất quan trọng vì tất cả các hành động lọc của chúng tôi sẽ được thực hiện trên trang tính này.
+Ở đây, chúng ta đang khai thác vào `Worksheets` thu thập sổ làm việc của chúng tôi và truy cập vào trang tính đầu tiên (thường là chỉ mục 0). Bước này rất quan trọng vì tất cả các hành động lọc của chúng tôi sẽ được thực hiện trên trang tính này.
 
 ## Bước 3: Xác định các tham số bộ lọc
 
@@ -88,7 +90,7 @@ string outputDir = "Your Document Directory"; // Chỉ định thư mục đầu
 wb.Save(outputDir + "outputAdvancedFilter.xlsx", SaveFormat.Xlsx);
 ```
 
- Cuối cùng, chúng tôi chỉ định nơi chúng tôi muốn lưu sổ làm việc đã lọc bằng cách sử dụng`Save` phương pháp. Bạn có thể đặt cho nó một tên mới (trong trường hợp này,`outputAdvancedFilter.xlsx`) để giữ nguyên bản gốc.
+Cuối cùng, chúng tôi chỉ định nơi chúng tôi muốn lưu sổ làm việc đã lọc bằng cách sử dụng `Save` phương pháp. Bạn có thể đặt cho nó một tên mới (trong trường hợp này, `outputAdvancedFilter.xlsx`) để giữ nguyên bản gốc.
 
 ## Phần kết luận
 
@@ -103,16 +105,18 @@ Aspose.Cells là một thư viện mạnh mẽ để làm việc với các tệ
 Không, Aspose.Cells hoạt động độc lập và không yêu cầu phải cài đặt Microsoft Excel trên máy của bạn.
 
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử từ[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách tải xuống phiên bản dùng thử từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ nếu gặp vấn đề không?
- Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ của cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ của cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?
- Bạn có thể yêu cầu giấy phép tạm thời từ trang mua hàng của họ[đây](https://purchase.aspose.com/temporary-license/). 
+Bạn có thể yêu cầu giấy phép tạm thời từ trang mua hàng của họ [đây](https://purchase.aspose.com/temporary-license/). 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

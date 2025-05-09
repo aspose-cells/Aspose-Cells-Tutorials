@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ opts.setOptimizationType(PdfOptimizationType.MINIMUM_SIZE);
 ```
 Установка типа оптимизации помогает уменьшить размер PDF-файла, что особенно полезно для совместного использования или архивирования.
 
-**Шаг 3: Сохраните рабочую книгу как PDF-файл в выходной каталог.**
+**Шаг 3: Сохраните рабочую книгу как файл PDF в выходной директории.**
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 String outputPdfPath = outDir + "/SExcelToPDF_out.pdf";
@@ -154,6 +156,9 @@ try {
 Сделайте следующий шаг в своем пути разработки, поэкспериментировав с Aspose.Cells для Java, и выведите процессы преобразования Excel в PDF на новый уровень уже сегодня!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

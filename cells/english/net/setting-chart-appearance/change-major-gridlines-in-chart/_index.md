@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/change-major-gridlines-in-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Major Gridlines in Chart
@@ -201,6 +203,7 @@ You can refer to the detailed documentation at [Aspose.Cells Documentation](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

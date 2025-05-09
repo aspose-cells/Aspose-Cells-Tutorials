@@ -1,14 +1,16 @@
 ---
-title: โหลดแผ่นงานที่มองเห็นได้จากไฟล์ Excel เท่านั้น
-linktitle: โหลดแผ่นงานที่มองเห็นได้จากไฟล์ Excel เท่านั้น
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีโหลดเฉพาะแผ่นงานที่มองเห็นได้จากไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้
-weight: 12
-url: /th/net/excel-file-handling/load-visible-sheets-only/
+"description": "เรียนรู้วิธีโหลดเฉพาะแผ่นงานที่มองเห็นได้จากไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้"
+"linktitle": "โหลดแผ่นงานที่มองเห็นได้จากไฟล์ Excel เท่านั้น"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "โหลดแผ่นงานที่มองเห็นได้จากไฟล์ Excel เท่านั้น"
+"url": "/th/net/excel-file-handling/load-visible-sheets-only/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # โหลดแผ่นงานที่มองเห็นได้จากไฟล์ Excel เท่านั้น
@@ -18,7 +20,7 @@ url: /th/net/excel-file-handling/load-visible-sheets-only/
 ## ข้อกำหนดเบื้องต้น
 ก่อนจะเริ่มเรียนรู้บทช่วยสอน เรามาตรวจสอบก่อนว่าคุณมีข้อมูลทั้งหมดที่จำเป็นสำหรับการทำตาม:
 1. ความเข้าใจพื้นฐานเกี่ยวกับ C#: บทช่วยสอนนี้ได้รับการออกแบบสำหรับนักพัฒนาที่คุ้นเคยกับภาษาการเขียนโปรแกรม C#
-2.  Aspose.Cells สำหรับ .NET: คุณต้องดาวน์โหลดและตั้งค่าไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถ[ดาวน์โหลดห้องสมุดได้ที่นี่](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณต้องดาวน์โหลดและตั้งค่าไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถ [ดาวน์โหลดห้องสมุดได้ที่นี่](https://releases-aspose.com/cells/net/).
 3. Visual Studio หรือ IDE ใดๆ: คุณควรมี IDE ที่คุณสามารถเขียนและทดสอบโค้ด C# ของคุณได้
 4. .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET Framework ที่จำเป็นเพื่อรันแอปพลิเคชันของคุณ
 5. ตัวอย่างไฟล์ Excel: สำหรับการฝึกฝน ให้สร้างไฟล์ Excel ตัวอย่างหรือปฏิบัติตามโค้ดที่ให้มา
@@ -27,7 +29,7 @@ url: /th/net/excel-file-handling/load-visible-sheets-only/
 ขั้นตอนแรกๆ ของโปรเจ็กต์ C# ที่ทำงานกับ Aspose.Cells คือการนำเข้าแพ็คเกจที่จำเป็น ซึ่งจะช่วยให้คุณเข้าถึงฟังก์ชันต่างๆ ทั้งหมดที่ไลบรารีจัดเตรียมไว้ให้ได้ วิธีดำเนินการมีดังนี้
 1. เปิดโครงการของคุณ: เริ่มต้นด้วยการเปิดโครงการ C# ของคุณใน Visual Studio หรือ IDE อื่น ๆ ที่ต้องการ
 2. เพิ่มการอ้างอิง: คลิกขวาที่โครงการของคุณใน Solution Explorer เลือก "เพิ่ม" จากนั้นเลือก "การอ้างอิง" 
-3. เรียกดู Aspose.Cells: ค้นหาไฟล์ Aspose.Cells.dll ที่คุณดาวน์โหลดไว้ก่อนหน้านี้และเพิ่มลงในข้อมูลอ้างอิงโครงการของคุณ
+3. เรียกดู Aspose.Cells: ค้นหาไฟล์ Aspose.Cells.dll ที่คุณดาวน์โหลดไว้ก่อนหน้านี้ และเพิ่มลงในข้อมูลอ้างอิงโครงการของคุณ
 ขั้นตอนนี้มีความสำคัญเนื่องจากจะเชื่อมโยงฟังก์ชันการทำงาน Aspose.Cells เข้ากับโปรเจ็กต์ของคุณ 
 ```csharp
 using System.IO;
@@ -44,9 +46,9 @@ string dataDir = "Your Document Directory";
 string sampleFile = "output.xlsx";
 string samplePath = dataDir + sampleFile;
 ```
- ในโค้ดตัวอย่างนี้ ให้แทนที่`"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกสมุดงานของคุณ 
+ในโค้ดตัวอย่างนี้ ให้แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงที่คุณต้องการบันทึกสมุดงานของคุณ 
 ## ขั้นตอนที่ 2: สร้างสมุดงาน
-ต่อไปเรามาสร้างเวิร์กบุ๊กและเพิ่มข้อมูลบางอย่างกัน
+ต่อไปเราจะสร้างเวิร์กบุ๊กและเพิ่มข้อมูลบางอย่าง
 ```csharp
 // สร้างตัวอย่างสมุดงาน
 Workbook createWorkbook = new Workbook();
@@ -85,7 +87,7 @@ class CustomLoad : LoadFilter
     }
 }
 ```
--  การ`StartSheet` วิธีการตรวจสอบว่าแต่ละแผ่นสามารถมองเห็นได้หรือไม่
+- การ `StartSheet` วิธีการตรวจสอบว่าแต่ละแผ่นสามารถมองเห็นได้หรือไม่
 - หากมองเห็นได้ ระบบจะโหลดข้อมูลทั้งหมดจากชีตนั้น
 - หากไม่ปรากฏ ระบบจะข้ามการโหลดข้อมูลใดๆ จากชีตนั้น
 ## ขั้นตอนที่ 5: โหลดเวิร์กบุ๊กโดยใช้ตัวเลือกโหลด
@@ -95,7 +97,7 @@ Workbook loadWorkbook = new Workbook(samplePath, loadOptions);
 Console.WriteLine("Sheet1: A1: {0}", loadWorkbook.Worksheets["Sheet1"].Cells["A1"].Value);
 Console.WriteLine("Sheet2: A1: {0}", loadWorkbook.Worksheets["Sheet2"].Cells["A1"].Value);
 ```
- ตัวอย่างโค้ดนี้ใช้`loadOptions` เพื่อนำเข้าเฉพาะข้อมูลจากแผ่นงานที่มองเห็นได้และแสดงเนื้อหาของเซลล์ A1 จาก “Sheet1” และ “Sheet2” 
+ตัวอย่างโค้ดนี้ใช้ `loadOptions` เพื่อนำเข้าเฉพาะข้อมูลจากแผ่นงานที่มองเห็นได้และแสดงเนื้อหาของเซลล์ A1 จาก “Sheet1” และ “Sheet2” 
 ## บทสรุป
 และแล้วคุณก็ทำได้! คุณได้เรียนรู้วิธีการโหลดเฉพาะชีตที่มองเห็นได้จากไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET สำเร็จแล้ว การจัดการเวิร์กชีต Excel ของคุณจะเป็นเรื่องง่ายเมื่อคุณรู้วิธีจำกัดข้อมูลที่ดึงมาและทำงานด้วยเฉพาะสิ่งที่คุณต้องการ ซึ่งไม่เพียงแต่ช่วยปรับปรุงประสิทธิภาพของแอปพลิเคชันของคุณเท่านั้น แต่ยังทำให้โค้ดของคุณสะอาดขึ้นและจัดการได้ง่ายขึ้นอีกด้วย 
 ## คำถามที่พบบ่อย
@@ -104,15 +106,17 @@ Console.WriteLine("Sheet2: A1: {0}", loadWorkbook.Worksheets["Sheet2"].Cells["A1
 ### Aspose.Cells ใช้ทำอะไร?
 Aspose.Cells ใช้สำหรับจัดการไฟล์ Excel โดยไม่ต้องติดตั้ง Microsoft Excel และมีฟังก์ชันการทำงานต่างๆ เช่น การอ่าน การเขียน และการจัดการเวิร์กชีต Excel
 ### มี Aspose.Cells เวอร์ชันทดลองใช้หรือไม่
- ใช่คุณสามารถทำได้[ดาวน์โหลดทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆของมัน
+ใช่คุณสามารถทำได้ [ดาวน์โหลดทดลองใช้งานฟรี](https://releases.aspose.com/) เพื่อทดสอบคุณสมบัติต่างๆของมัน
 ### ฉันสามารถหาเอกสารสำหรับ Aspose.Cells ได้ที่ไหน
- การ[เอกสารประกอบ](https://reference.aspose.com/cells/net/) ให้ข้อมูลที่ครอบคลุมเกี่ยวกับคุณสมบัติทั้งหมด
+การ [เอกสารประกอบ](https://reference.aspose.com/cells/net/) ให้ข้อมูลที่ครอบคลุมเกี่ยวกับคุณสมบัติทั้งหมด
 ### ฉันจะซื้อ Aspose.Cells ได้อย่างไร?
- คุณสามารถทำได้ง่ายๆ[ซื้อ Aspose.Cells](https://purchase.aspose.com/buy) จากหน้าการซื้อของพวกเขา
+คุณสามารถทำได้ง่ายๆ [ซื้อ Aspose.Cells](https://purchase.aspose.com/buy) จากหน้าการซื้อของพวกเขา
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ Próbáld ki még ma ezt a kinyerési funkciót, és emeld adatkezelési készs�
 1. **Ki tudok kinyerni .mol kiterjesztésű fájlokat az Aspose.Cells segítségével?**
    - Igen, különféle fájltípusokat kinyerhet OLE-objektumként beágyazva az Excel-munkafüzetekbe.
 
-2. **Mi van, ha a munkafüzetem több, beágyazott objektumokat tartalmazó lapot tartalmaz?**
+2. **Mi van, ha a munkafüzetem több beágyazott objektumokat tartalmazó lapot tartalmaz?**
    - A kód végigmegy minden egyes munkalapon, és feldolgozza az összes beágyazott OLE objektumot.
 
 3. **Hogyan kezeljem hatékonyan a nagy fájlokat?**
@@ -168,6 +170,9 @@ Próbáld ki még ma ezt a kinyerési funkciót, és emeld adatkezelési készs�
 Fedezd fel ezeket az erőforrásokat, hogy elmélyítsd a tudásodat és maximalizáld az Aspose.Cells for Java lehetőségeit a projektjeidben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

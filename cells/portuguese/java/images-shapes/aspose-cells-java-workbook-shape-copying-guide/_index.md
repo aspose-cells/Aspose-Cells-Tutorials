@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
   
 - **Licença temporária:** Solicite uma licença temporária de acesso estendido no Aspose [página de licença temporária](https://purchase.aspose.com/temporary-license/).
 
-- **Comprar:** Para uso a longo prazo, adquira uma licença de [Página de compras da Aspose](https://purchase.aspose.com/buy) para garantir funcionalidade total sem limitações.
+- **Comprar:** Para uso de longo prazo, adquira uma licença de [Página de compras da Aspose](https://purchase.aspose.com/buy) para garantir funcionalidade total sem limitações.
 
 Depois que seu ambiente estiver configurado e as licenças adquiridas, vamos implementar os recursos do Aspose.Cells.
 
@@ -183,6 +185,9 @@ Ao trabalhar com pastas de trabalho grandes ou formas complexas:
 - Minimize o número de operações de forma agrupando-as sempre que possível, reduzindo o tempo de processamento e o consumo de recursos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ workbook.save(outDir + "CAVOfShape_out.xlsx");
 
 ### Hibaelhárítási tippek
 - Győződjön meg arról, hogy minden fájlútvonal helyesen van megadva.
-- Ha hibák merülnek fel, ellenőrizze a könyvtár verzióit, és győződjön meg arról, hogy azok megfelelnek a projekt beállításainak.
+- Hiba esetén ellenőrizze a könyvtár verzióit, és győződjön meg arról, hogy azok megfelelnek a projekt beállításainak.
 
 ## Gyakorlati alkalmazások
 
@@ -135,7 +137,7 @@ Az Aspose.Cells for Java különféle valós helyzetekben alkalmazható:
 ## Teljesítménybeli szempontok
 
 Az optimális teljesítmény érdekében:
-- Minimalizálja a ciklusokban lévő műveleteket a feldolgozási idő csökkentése érdekében.
+- A feldolgozási idő csökkentése érdekében minimalizálja a ciklusokban lévő műveleteket.
 - A Java memória hatékony kezelése a már nem szükséges objektumok törlésével.
 
 Fedezze fel a legjobb gyakorlatokat [itt](https://reference.aspose.com/cells/java/).
@@ -178,6 +180,9 @@ Próbáld ki ezt a megoldást a következő projektedben, és tapasztald meg, ho
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

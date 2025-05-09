@@ -1,14 +1,16 @@
 ---
-title: Ustaw kolejność stron w programie Excel
-linktitle: Ustaw kolejność stron w programie Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Kontroluj kolejność drukowania stron w programie Excel bez wysiłku dzięki Aspose.Cells dla .NET. Dowiedz się, jak dostosować swój przepływ pracy w tym przewodniku krok po kroku.
-weight: 120
-url: /pl/net/excel-page-setup/set-excel-page-order/
+"description": "Kontroluj kolejność drukowania stron w programie Excel bez wysiłku dzięki Aspose.Cells dla .NET. Dowiedz się, jak dostosować swój przepływ pracy w tym przewodniku krok po kroku."
+"linktitle": "Ustaw kolejność stron w programie Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw kolejność stron w programie Excel"
+"url": "/pl/net/excel-page-setup/set-excel-page-order/"
+"weight": 120
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw kolejność stron w programie Excel
@@ -22,7 +24,7 @@ Czy zdarzyło Ci się kiedyś nawigować po chaotycznym bałaganie stron w pliku
 Zanim zagłębisz się w kod, musisz zadbać o kilka rzeczy:
 
 - Środowisko .NET: Upewnij się, że na Twoim komputerze jest skonfigurowane środowisko .NET. Niezależnie od tego, czy jest to .NET Framework czy .NET Core, powinno ono działać płynnie.
--  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Nie martw się — łatwo zacząć! Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/) lub skorzystaj z bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+- Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Nie martw się — łatwo zacząć! Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/) lub skorzystaj z bezpłatnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 - Podstawowa wiedza programistyczna: Podstawowa znajomość programowania w języku C# pomoże Ci lepiej zrozumieć te koncepcje.
 
 ## Importuj pakiety
@@ -49,7 +51,7 @@ Ustawisz zmienną wskazującą na katalog dokumentów w następujący sposób:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- W tym wierszu zamień`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz zapisać plik. Na przykład, jeśli chcesz zapisać plik w folderze o nazwie „ExcelFiles” na pulpicie, może to wyglądać mniej więcej tak:
+W tym wierszu zamień `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz zapisać plik. Na przykład, jeśli chcesz zapisać plik w folderze o nazwie „ExcelFiles” na pulpicie, może to wyglądać mniej więcej tak:
 
 ```csharp
 string dataDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
@@ -66,25 +68,25 @@ Oto jak utworzyć skoroszyt:
 Workbook workbook = new Workbook();
 ```
 
- Ta linia inicjuje nową instancję`Workbook` Klasa, która stanowi podstawowy element obsługi plików Excel w Aspose.Cells.
+Ta linia inicjuje nową instancję `Workbook` Klasa, która stanowi podstawowy element obsługi plików Excel w Aspose.Cells.
 
 ## Krok 3: Uzyskaj dostęp do ustawień strony
 
 
- Teraz musimy uzyskać dostęp do`PageSetup` właściwość arkusza kalkulacyjnego. Pozwoli Ci to dostosować sposób drukowania stron.
+Teraz musimy uzyskać dostęp do `PageSetup` właściwość arkusza kalkulacyjnego. Pozwoli Ci to dostosować sposób drukowania stron.
 
- Aby uzyskać dostęp`PageSetup`, użyj następującego kodu:
+Aby uzyskać dostęp `PageSetup`, użyj następującego kodu:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Tutaj,`workbook.Worksheets[0]` odnosi się do pierwszego arkusza w skoroszycie.`PageSetup` Właściwość ta umożliwi Ci kontrolę nad ustawieniami paginacji Twojego arkusza.
+Tutaj, `workbook.Worksheets[0]` odnosi się do pierwszego arkusza w skoroszycie. `PageSetup` Właściwość ta umożliwi Ci kontrolę nad ustawieniami paginacji Twojego arkusza.
 
 ## Krok 4: Ustaw kolejność drukowania
 
 
- Z`PageSetup`obiekt, czas powiedzieć Excelowi, jak chcesz, aby strony były drukowane. Masz możliwość ustawienia kolejności jako „Over Then Down” lub „Down Then Over”.
+Z `PageSetup` obiekt, czas powiedzieć Excelowi, jak chcesz, aby strony były drukowane. Masz możliwość ustawienia kolejności jako „Over Then Down” lub „Down Then Over”.
 
 Oto kod służący do ustawienia kolejności drukowania:
 
@@ -92,7 +94,7 @@ Oto kod służący do ustawienia kolejności drukowania:
 pageSetup.Order = PrintOrderType.OverThenDown;
 ```
 
- W tym przykładzie wybranie`PrintOrderType.OverThenDown` oznacza, że Excel wydrukuje strony zaczynając od góry do dołu dla każdej kolumny przed przejściem do następnej kolumny. Możesz również wybrać`PrintOrderType.DownThenOver` jeśli wolisz inny układ.
+W tym przykładzie wybranie `PrintOrderType.OverThenDown` oznacza, że Excel wydrukuje strony zaczynając od góry do dołu dla każdej kolumny przed przejściem do następnej kolumny. Możesz również wybrać `PrintOrderType.DownThenOver` jeśli wolisz inny układ.
 
 ## Krok 5: Zapisz skoroszyt
 
@@ -105,7 +107,7 @@ Możesz zapisać skoroszyt za pomocą tego kodu:
 workbook.Save(dataDir + "SetPageOrder_out.xls");
 ```
 
- Upewnij się, że podajesz nazwę pliku, w tym przypadku „SetPageOrder_out.xls”, i sprawdź, czy Twój`dataDir` zmienna prawidłowo wskazuje na docelowy katalog.
+Upewnij się, że podajesz nazwę pliku, w tym przypadku „SetPageOrder_out.xls”, i sprawdź, czy Twój `dataDir` zmienna prawidłowo wskazuje na docelowy katalog.
 
 ## Wniosek
 
@@ -117,19 +119,21 @@ Gratulacje! Właśnie nauczyłeś się, jak ustawić kolejność stron w program
 Aspose.Cells to biblioteka .NET udostępniająca funkcje umożliwiające manipulowanie arkuszami kalkulacyjnymi Microsoft Excel, dzięki którym programiści mogą programowo tworzyć, modyfikować i konwertować pliki Excel.
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
- Możesz poprosić o tymczasową licencję, odwiedzając stronę[Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose.
+Możesz poprosić o tymczasową licencję, odwiedzając stronę [Strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose.
 
 ### Czy mogę zmienić kolejność stron w wielu arkuszach kalkulacyjnych?
- Tak! Możesz uzyskać dostęp do każdego arkusza roboczego`PageSetup` i indywidualnie konfigurować kolejność stron.
+Tak! Możesz uzyskać dostęp do każdego arkusza roboczego `PageSetup` i indywidualnie konfigurować kolejność stron.
 
 ### Jakie są opcje kolejności drukowania stron?
 Możesz wybrać pomiędzy kolejnością drukowania stron „Over Then Down” i „Down Then Over”.
 
 ### Gdzie mogę znaleźć więcej przykładów użycia Aspose.Cells?
-Więcej przykładów i funkcjonalności można znaleźć w[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Więcej przykładów i funkcjonalności można znaleźć w [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

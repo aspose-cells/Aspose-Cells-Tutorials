@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -217,7 +219,7 @@ Aspose.Cells を他のシステムと統合したり、アプリケーション�
 1. **複数のワークシートに透かしを適用する最適な方法は何ですか?**
    - ループを使用して各ワークシートを反復処理し、示されているのと同様に透かしを適用します。
 2. **WordArt のフォント スタイルやサイズを変更できますか?**
-   - はい、パラメータを調整してください `addTextEffect` カスタムフォントとサイズ。
+   - はい、パラメータを調整してください `addTextEffect` カスタムフォントとサイズ用。
 3. **ファイルを保存するときに例外を処理するにはどうすればよいですか?**
    - 保存操作中に発生する可能性のあるファイル I/O エラーを管理するには、try-catch ブロックを使用します。
 4. **評価制限なしで透かしを使用することは可能ですか?**
@@ -235,6 +237,9 @@ Aspose.Cells を他のシステムと統合したり、アプリケーション�
 - **サポートフォーラム**コミュニティに参加して [Aspose サポートフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

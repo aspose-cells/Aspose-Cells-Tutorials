@@ -1,49 +1,54 @@
 ---
-title: Excel 셀에서 텍스트를 Wrap Aspose.Cells를 사용하여 .NET
-weight: 7700
-limit: 
-description: .NET에 대한 Aspose.Cells을 사용하여 Excel 셀에 텍스트를 포장하는 방법을 배우십시오. 이 가이드에는 작업 책자를 만들고, 워크시트를 추가하고 텍스트 포장법을 적용합니다.
-keywords: [Aspose.Cells for .NET, wrap text in Excel, Excel text wrapping, .NET Excel library, format Excel cells, Excel automation, C# Excel tutorial]
-url: /ko/net/formatting/wrapping-text/
----  
+"description": "Aspose.Cells for .NET을 사용하여 Excel 셀에서 텍스트를 줄바꿈하는 방법을 알아보세요. 이 가이드에서는 통합 문서 만들기, 워크시트 추가, 텍스트 줄바꿈 적용 방법을 다룹니다."
+"title": "Aspose.Cells for .NET을 사용하여 Excel 셀의 텍스트 줄바꿈"
+"url": "/ko/net/formatting/wrapping-text/"
+"weight": 7700
+---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wrap Text in Excel Cells Using Aspose.Cells 
+# Aspose.Cells를 사용하여 Excel 셀의 텍스트 줄바꿈 
 
-Wrapping text in Excel cells ensures that long text entries are fully visible without expanding the column width. Using Aspose.Cells for .NET, you can programmatically apply text wrapping to any cell in an Excel worksheet. This tutorial guides you through creating a new Excel workbook, adding a worksheet, inserting text into a cell, and enabling text wrapping. By following these steps, you can efficiently format Excel documents in your C# applications.  
+Excel 셀에서 텍스트 줄바꿈을 사용하면 긴 텍스트 항목이 열 너비를 늘리지 않고도 완전히 표시됩니다. Aspose.Cells for .NET을 사용하면 Excel 워크시트의 모든 셀에 프로그래밍 방식으로 텍스트 줄바꿈을 적용할 수 있습니다. 이 자습서에서는 새 Excel 통합 문서 만들기, 워크시트 추가, 셀에 텍스트 삽입, 텍스트 줄바꿈 활성화 방법을 안내합니다. 다음 단계를 따르면 C# 애플리케이션에서 Excel 문서의 서식을 효율적으로 지정할 수 있습니다.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/wrapping-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## 설치 지침:  
-.NET에서 Aspose.Cells를 사용하려면 다음 단계를 수행하십시오.  
+.NET에서 Aspose.Cells를 사용하려면 다음 단계를 따르세요.  
 
-1. NuGet를 통해 설치:  
-   * 비주얼 스튜디오를 열고  
-   * 도구 → NuGet 패키지 관리자 → 솔루션에 대한 NuGet 패키지를 관리하는 데 이동하십시오.  
-   * Aspose.Cells를 검색하고 설치를 클릭하세요.  
+1. NuGet을 통해 설치:  
+   - Visual Studio를 엽니다.  
+   - 도구 → NuGet 패키지 관리자 → 솔루션용 NuGet 패키지 관리로 이동합니다.  
+   - Aspose.Cells를 검색하고 설치를 클릭합니다.  
 
 2. 패키지 관리자 콘솔을 통해 설치:  
-   * 오픈 툴 → NuGet 패키지 관리자 → 패키지 관리자 콘솔.  
-   * 명령어를 실행하세요:  
+   - 도구 → NuGet 패키지 관리자 → 패키지 관리자 콘솔을 엽니다.  
+   - 다음 명령을 실행합니다.  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
 3. 수동으로 참조 추가:  
-   * .NET DLL에 대한 Aspose.Cells를 다운로드 합니다.[발매 를 투입](https://releases.aspose.com/)\- 그래  
-   * 다운로드 된 Aspose.Cells.dll를 프로젝트 참조에 추가하십시오.  
-## 또한 참조  
-라이선스를 구매하려면[구매 페이지를 설정](https://purchase.aspose.com/buy)\- 그래  
-전체 문서 를 보기 위해 방문 하십시오 [.NET 문서에 대한 Aspose.Cells](https://docs.aspose.com/cells/net/)\- 그래  
-전체 API 참조를 확인하려면 확인합니다 [.NET API 참조의 Aspose.Cells](https://reference.aspose.com/cells/net/)\- 그래 
+   - .NET DLL용 Aspose.Cells를 다운로드하세요. [Aspose 릴리스](https://releases.aspose.com/).  
+   - 다운로드한 Aspose.Cells.dll을 프로젝트 참조에 추가합니다.  
+## 또한 참조하세요  
+라이센스를 구매하려면 다음으로 이동하세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy).  
+전체 문서는 다음을 방문하세요. [.NET용 Aspose.Cells 문서](https://docs.aspose.com/cells/net/).  
+전체 API 참조를 살펴보려면 다음을 확인하세요. [.NET API 참조용 Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

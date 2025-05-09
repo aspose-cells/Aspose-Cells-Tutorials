@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Considere automatizar esse processo como parte de um pipeline de dados maior que
 ## Considerações de desempenho
 
 Ao lidar com arquivos grandes do Excel ou converter vários documentos:
-- **Otimize o uso da memória**: Use configurações de memória apropriadas na sua JVM para um manuseio eficiente do conjunto de dados.
+- **Otimizar o uso da memória**: Use configurações de memória apropriadas na sua JVM para um manuseio eficiente do conjunto de dados.
 - **Processamento em lote**: Processe vários arquivos sequencialmente para minimizar a contenção de recursos.
 - **Melhores práticas do Aspose.Cells**: Siga as práticas recomendadas de gerenciamento de memória Java específicas para Aspose.Cells.
 
@@ -160,6 +162,9 @@ A5: Otimize as configurações de memória Java e processe os arquivos sequencia
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

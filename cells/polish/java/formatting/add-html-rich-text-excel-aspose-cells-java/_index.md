@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Oto kilka przykładów zastosowań z prawdziwego świata, w których dodanie tek
 
 Podczas pracy z Aspose.Cells:
 - **Optymalizacja wykorzystania zasobów**:Ogranicz liczbę komórek w stylu HTML w dużych skoroszytach, aby uniknąć spadków wydajności.
-- **Zarządzanie pamięcią Java**: Używaj efektywnych praktyk zarządzania pamięcią w Javie, aby skutecznie obsługiwać duże zestawy danych. Obejmuje to zamykanie wystąpień skoroszytu natychmiast po użyciu.
+- **Zarządzanie pamięcią Java**Używaj efektywnych praktyk zarządzania pamięcią w Javie, aby skutecznie obsługiwać duże zestawy danych. Obejmuje to zamykanie wystąpień skoroszytu natychmiast po użyciu.
 
 ## Wniosek
 
@@ -146,10 +148,13 @@ O: Choć HTML umożliwia stylizowanie tekstu, w przypadku konkretnego formatowan
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
-Skorzystaj z mocy Aspose.Cells for Java, aby przekształcić obsługę danych i prezentację w programie Excel. Miłego kodowania!
+Skorzystaj z mocy Aspose.Cells for Java, aby przekształcić obsługę i prezentację danych w programie Excel. Miłego kodowania!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

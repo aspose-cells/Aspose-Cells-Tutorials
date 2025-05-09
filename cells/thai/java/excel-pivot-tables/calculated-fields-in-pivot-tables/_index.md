@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฟิลด์ที่คำนวณในตารางสรุปข้อมูล
@@ -66,7 +68,7 @@ pivotTable.calculateData();
 ```
 
 ## บทสรุป
-ขอแสดงความยินดี! คุณได้เรียนรู้วิธีการสร้างฟิลด์คำนวณใน Pivot Tables โดยใช้ Aspose.Cells สำหรับ Java แล้ว วิธีนี้ช่วยให้คุณสามารถคำนวณข้อมูลใน Excel เองได้ ซึ่งจะช่วยเพิ่มประสิทธิภาพในการวิเคราะห์ข้อมูลของคุณ
+ขอแสดงความยินดี! คุณได้เรียนรู้วิธีการสร้างฟิลด์คำนวณใน Pivot Tables โดยใช้ Aspose.Cells สำหรับ Java แล้ว วิธีนี้ช่วยให้คุณสามารถคำนวณข้อมูลภายใน Excel เองได้ ซึ่งจะช่วยเพิ่มประสิทธิภาพในการวิเคราะห์ข้อมูลของคุณ
 
 ## คำถามที่พบบ่อย
 ### จะเกิดอะไรขึ้นหากฉันมีการคำนวณที่ซับซ้อนมากขึ้นที่จะดำเนินการในตารางสรุปข้อมูล?
@@ -87,6 +89,7 @@ pivotTable.calculateData();
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

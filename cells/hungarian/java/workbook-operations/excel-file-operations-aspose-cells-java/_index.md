@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Az Excel-fájlok programozott kezelése kihívást jelenthet, különösen össz
 
 Ebben az oktatóanyagban megtanulod, hogyan kezelheted hatékonyan az Excel-fájlokat az Aspose.Cells Java használatával, a munkafüzetek betöltésére és egyéni elválasztóval történő mentésére összpontosítva. Az útmutató végére gyakorlati tapasztalatot szerezhetsz az olyan kulcsfontosságú funkciókkal kapcsolatban, mint:
 - Meglévő Excel fájl betöltése egy `Workbook` objektum.
-- Konfigurálás `TxtSaveOptions` egyéni elválasztó használatához adatok exportálásakor.
+- Konfigurálás `TxtSaveOptions` egyéni elválasztó használatához adatexportáláskor.
 
 Készen állsz az Excel-kezelés egyszerűsítésére Java-ban? Vágjunk bele!
 
@@ -128,7 +130,7 @@ Amikor egy Excel-fájlt szöveges formátumban, például CSV-ként ment el, sz�
    // ';' beállítása egyéni elválasztójelként a szövegfájl mentéséhez
    toptions.setSeparator(';');
    ```
-4. **A munkafüzet mentése:**
+4. **Munkafüzet mentése:**
    A munkafüzet mentéséhez használja a konfigurált beállításokat.
    ```java
    workbook.save(outDir + "/STFWCSeparator_out.csv");
@@ -149,7 +151,7 @@ Az Aspose.Cells Java-ban sokoldalú, és különféle forgatókönyvekben alkalm
 
 ## Teljesítménybeli szempontok
 
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - **Erőforrás-felhasználási irányelvek:**
   - Figyelje a memóriahasználatot, különösen nagy adathalmazok esetén.
 - **Bevált gyakorlatok:**
@@ -188,6 +190,9 @@ Próbáld ki ezeket a megoldásokat a projektjeidben, és nézd meg, hogyan egys
 - **Vásárlás és licencelés:** Vásárlási vagy licencelési kérdésekkel kapcsolatban látogassa meg a [vásárlási oldal](https://purchase.aspose.com/buy) és [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

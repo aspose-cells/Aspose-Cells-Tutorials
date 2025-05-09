@@ -1,14 +1,16 @@
 ---
-title: Разблокировать защищенный паролем лист Excel
-linktitle: Разблокировать защищенный паролем лист Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как разблокировать защищенную паролем таблицу Excel с помощью Aspose.Cells для .NET. Пошаговое руководство на C#.
-weight: 10
-url: /ru/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
+"description": "Узнайте, как разблокировать защищенную паролем таблицу Excel с помощью Aspose.Cells для .NET. Пошаговое руководство на C#."
+"linktitle": "Разблокировать защищенный паролем лист Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Разблокировать защищенный паролем лист Excel"
+"url": "/ru/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Разблокировать защищенный паролем лист Excel
@@ -27,7 +29,7 @@ url: /ru/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 
 ### Aspose.Cells для .NET
 
- Вам нужен Aspose.Cells for .NET. Вы можете скачать его здесь[здесь](https://releases.aspose.com/cells/net/) . Обязательно ознакомьтесь с документацией, которую можно найти[здесь](https://reference.aspose.com/cells/net/).
+Вам нужен Aspose.Cells for .NET. Вы можете скачать его здесь [здесь](https://releases.aspose.com/cells/net/). Обязательно ознакомьтесь с документацией, которую можно найти [здесь](https://reference.aspose.com/cells/net/).
 
 ### Базовые знания кодирования
 
@@ -54,7 +56,7 @@ url: /ru/net/unprotect-excel-sheet/unlock-password-protected-excel-worksheet/
 2. Выберите «Управление пакетами NuGet».
 3. Найдите «Aspose.Cells» и установите пакет.
 
-И вот, все готово, чтобы начать кодировать!
+И вот, все готово, можно приступать к кодированию!
 
 ### Добавить использование операторов
 
@@ -76,7 +78,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Совет: Заменить`"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находится ваш файл Excel (назовем его`book1.xls`) находится. 
+Совет: Заменить `"YOUR DOCUMENT DIRECTORY"` с фактическим путем, где находится ваш файл Excel (назовем его `book1.xls`) находится. 
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
@@ -106,7 +108,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Unprotect("");
 ```
 
- Если ваш рабочий лист защищен паролем и вы знаете пароль, вам следует заменить пустую строку`""` с реальным паролем. Если вы его не знаете, просто оставьте его пустым и запустите, чтобы проверить, работает ли он.
+Если ваш рабочий лист защищен паролем и вы знаете пароль, вам следует заменить пустую строку `""` с реальным паролем. Если вы его не знаете, просто оставьте его пустым и запустите, чтобы проверить, работает ли он.
 
 ## Шаг 5: Сохраните рабочую книгу
 
@@ -142,19 +144,21 @@ catch (Exception ex)
 Да, вы можете попытаться разблокировать защищенный лист, не зная пароля, оставив поле пароля пустым.
 
 ### Можно ли использовать Aspose.Cells бесплатно?  
- Aspose.Cells предлагает бесплатную пробную версию, но для длительного использования вам необходимо приобрести лицензию. Проверьте их[Купить страницу](https://purchase.aspose.com/buy).
+Aspose.Cells предлагает бесплатную пробную версию, но для длительного использования вам необходимо приобрести лицензию. Проверьте их [Купить страницу](https://purchase.aspose.com/buy).
 
 ### Какие форматы поддерживает Aspose.Cells?  
 Aspose.Cells поддерживает различные форматы Excel, включая XLS, XLSX, CSV и другие.
 
 ### Как установить Aspose.Cells?  
- Вы можете установить его через NuGet или загрузить напрямую с сайта[здесь](https://releases.aspose.com/cells/net/).
+Вы можете установить его через NuGet или загрузить напрямую с сайта [здесь](https://releases.aspose.com/cells/net/).
 
 ### Где я могу получить поддержку по Aspose.Cells?  
- Вы можете найти поддержку сообщества на[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете найти поддержку сообщества на [Форум Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

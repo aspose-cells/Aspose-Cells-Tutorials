@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Podstawowe funkcje programu Excel
@@ -48,9 +50,11 @@ Odkryj moc funkcji MIN w programie Excel z Aspose.Cells dla Javy. Naucz się bez
 Odkryj sekrety funkcji tekstowych Excela dzięki Aspose.Cells dla Java. Naucz się manipulować, wyodrębniać i przekształcać tekst w Excelu bez wysiłku.
 ### [Samouczek dotyczący funkcji daty w programie Excel](./excel-date-functions-tutorial/)
 Poznaj funkcje daty w programie Excel za pomocą Aspose.Cells dla języka Java. Poznaj samouczki krok po kroku z kodem źródłowym.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

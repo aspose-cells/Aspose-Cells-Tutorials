@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,7 +191,7 @@ public class UnhideRowsColumns {
 }
 ```
 **參數：** 
-- `outDir`：要儲存修改後檔案的路徑。
+- `outDir`：要儲存修改文件的路徑。
 
 ## 實際應用
 
@@ -226,11 +228,14 @@ public class UnhideRowsColumns {
 **Q4：使用 Aspose.Cells for Java 有哪些限制？**
 - 儘管功能強大，但在處理極大的 Excel 文件時可能會受到效能限制。
 
-**問題5：如何解決使用 Aspose.Cells 時常見的問題？**
+**問題5：使用 Aspose.Cells 時如何解決常見問題？**
 - 參考他們的 [文件](https://reference.aspose.com/cells/java) 以及社區論壇以獲得支援。
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

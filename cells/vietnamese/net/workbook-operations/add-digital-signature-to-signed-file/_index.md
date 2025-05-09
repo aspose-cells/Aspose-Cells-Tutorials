@@ -1,14 +1,16 @@
 ---
-title: Thêm chữ ký số vào tệp Excel đã ký
-linktitle: Thêm chữ ký số vào tệp Excel đã ký
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm chữ ký số vào tệp Excel đã ký bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Bảo mật tài liệu của bạn.
-weight: 12
-url: /vi/net/workbook-operations/add-digital-signature-to-signed-file/
+"description": "Tìm hiểu cách thêm chữ ký số vào tệp Excel đã ký bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Bảo mật tài liệu của bạn."
+"linktitle": "Thêm chữ ký số vào tệp Excel đã ký"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm chữ ký số vào tệp Excel đã ký"
+"url": "/vi/net/workbook-operations/add-digital-signature-to-signed-file/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chữ ký số vào tệp Excel đã ký
@@ -17,7 +19,7 @@ url: /vi/net/workbook-operations/add-digital-signature-to-signed-file/
 Trong thế giới kỹ thuật số ngày nay, việc đảm bảo tính xác thực và toàn vẹn của tài liệu là rất quan trọng. Chữ ký số đóng vai trò là phương tiện mạnh mẽ để xác minh rằng tài liệu không bị thay đổi và đến từ nguồn hợp pháp. Nếu bạn đang làm việc với các tệp Excel trong .NET và muốn thêm chữ ký số vào tệp đã được ký, bạn đã đến đúng nơi rồi! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm chữ ký số mới vào tệp Excel đã ký hiện có bằng Aspose.Cells cho .NET. 
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
-1.  Aspose.Cells cho .NET: Trước tiên và quan trọng nhất, bạn cần phải cài đặt Aspose.Cells trong môi trường .NET của mình. Bạn có thể tải xuống từ[trang phát hành](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho .NET: Trước tiên và quan trọng nhất, bạn cần phải cài đặt Aspose.Cells trong môi trường .NET của mình. Bạn có thể tải xuống từ [trang phát hành](https://releases.aspose.com/cells/net/).
 2. .NET Framework: Đảm bảo bạn đã thiết lập .NET Framework trên máy của mình. Hướng dẫn này giả định rằng bạn đã quen thuộc với các khái niệm lập trình .NET cơ bản.
 3. Chứng chỉ số: Bạn sẽ cần một chứng chỉ số hợp lệ (ở định dạng .pfx) để tạo chữ ký số. Nếu bạn không có, bạn có thể tạo chứng chỉ tự ký cho mục đích thử nghiệm.
 4. Môi trường phát triển: Trình soạn thảo mã hoặc IDE như Visual Studio nơi bạn có thể viết và thực thi mã C#.
@@ -41,14 +43,14 @@ string sourceDir = "Your Document Directory"; // Thay thế bằng thư mục th
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Thay thế bằng thư mục thực tế của bạn
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi các tệp của bạn được lưu trữ. Điều này thiết lập bối cảnh cho các hoạt động tệp của bạn.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi các tệp của bạn được lưu trữ. Điều này thiết lập bối cảnh cho các hoạt động tệp của bạn.
 ## Bước 2: Tải Workbook đã ký hiện có
 Tiếp theo, bạn sẽ tải sổ làm việc Excel hiện có đã được ký. Đây là nơi phép thuật bắt đầu:
 ```csharp
 // Tải sổ làm việc đã được ký số để thêm chữ ký số mới
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
- Dòng này khởi tạo một cái mới`Workbook` đối tượng với tệp đã chỉ định. Đảm bảo tên tệp khớp với tệp Excel đã ký hiện tại của bạn.
+Dòng này khởi tạo một cái mới `Workbook` đối tượng với tệp đã chỉ định. Đảm bảo tên tệp khớp với tệp Excel đã ký hiện tại của bạn.
 ## Bước 3: Tạo Bộ sưu tập chữ ký số
 Để quản lý chữ ký số của bạn, bạn cần tạo một bộ sưu tập. Điều này cho phép bạn giữ nhiều chữ ký nếu cần:
 ```csharp
@@ -61,11 +63,11 @@ Bây giờ, đã đến lúc tải chứng chỉ số của bạn. Chứng chỉ
 ```csharp
 // Tệp chứng chỉ và mật khẩu của nó
 string certFileName = sourceDir + "AsposeDemo.pfx"; // Tệp chứng chỉ của bạn
-string password = "aspose"; //Mật khẩu chứng chỉ của bạn
+string password = "aspose"; // Mật khẩu chứng chỉ của bạn
 // Tạo chứng chỉ mới
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
- Hãy chắc chắn thay thế`AsposeDemo.pfx` với tên tệp chứng chỉ của bạn và cập nhật mật khẩu cho phù hợp. Bước này rất quan trọng vì nếu không có chứng chỉ chính xác, bạn sẽ không thể tạo chữ ký hợp lệ.
+Hãy chắc chắn thay thế `AsposeDemo.pfx` với tên tệp chứng chỉ của bạn và cập nhật mật khẩu cho phù hợp. Bước này rất quan trọng vì nếu không có chứng chỉ chính xác, bạn sẽ không thể tạo chữ ký hợp lệ.
 ## Bước 5: Tạo chữ ký số mới
 Sau khi chứng chỉ của bạn được tải, bây giờ bạn có thể tạo chữ ký số mới. Chữ ký này sẽ được thêm vào bộ sưu tập của bạn:
 ```csharp
@@ -84,7 +86,7 @@ Bước này sẽ áp dụng chữ ký số mới của bạn vào sổ làm vi�
 ## Bước 7: Lưu sổ làm việc
 Cuối cùng, lưu sổ làm việc với chữ ký số mới được bao gồm. Đây là thời điểm mà mọi công sức của bạn được đền đáp:
 ```csharp
-//Lưu bảng tính và xóa nó.
+// Lưu bảng tính và xóa nó.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -104,15 +106,17 @@ Chữ ký số là một chương trình toán học để xác minh tính xác 
 ### Tôi có cần chứng chỉ đặc biệt để tạo chữ ký số không?
 Có, bạn cần có chứng chỉ số do một cơ quan cấp chứng chỉ (CA) đáng tin cậy cấp để tạo chữ ký số hợp lệ.
 ### Tôi có thể sử dụng chứng chỉ tự ký để thử nghiệm không?
-Hoàn toàn được! Bạn có thể tạo chứng chỉ tự ký cho mục đích phát triển và thử nghiệm, nhưng đối với sản xuất, tốt nhất là sử dụng chứng chỉ từ CA đáng tin cậy.
+Chắc chắn rồi! Bạn có thể tạo chứng chỉ tự ký cho mục đích phát triển và thử nghiệm, nhưng đối với sản xuất, tốt nhất là sử dụng chứng chỉ từ CA đáng tin cậy.
 ### Điều gì xảy ra nếu tôi cố gắng thêm chữ ký vào một tài liệu chưa được ký?
 Nếu bạn thử thêm chữ ký số vào một tài liệu chưa được ký, thao tác này sẽ không có vấn đề gì, nhưng chữ ký gốc sẽ không có.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
- Bạn có thể kiểm tra[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
+Bạn có thể kiểm tra [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

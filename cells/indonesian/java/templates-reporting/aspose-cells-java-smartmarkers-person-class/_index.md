@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells Java: Menerapkan SmartMarkers dengan Kelas Person untuk Laporan Excel Dinamis
 
-## Perkenalan
+## Bevezetés
 
 Mengotomatiskan laporan Excel yang menyertakan data dinamis seperti nama dan usia dapat menjadi hal yang sulit jika dilakukan secara manual. Untungnya, Aspose.Cells untuk Java menyediakan cara yang efisien untuk menangani tugas ini secara terprogram menggunakan SmartMarkers. Tutorial ini memandu Anda melalui penerapan `Person` kelas dengan Aspose.Cells di Java.
 
@@ -24,7 +26,7 @@ Dengan mengikuti panduan langkah demi langkah ini, Anda akan mempelajari cara me
 
 Siap untuk memulai? Pastikan Anda memiliki semua yang dibutuhkan.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai, pastikan Anda dilengkapi dengan:
 - **Kit Pengembangan Java (JDK)**Pastikan JDK 8 atau yang lebih baru terinstal di sistem Anda.
@@ -39,7 +41,7 @@ Untuk mulai menggunakan Aspose.Cells, sertakan dalam proyek Anda. Berikut carany
 
 ### Instalasi Maven
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -51,17 +53,17 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 ### Instalasi Gradle
 
-Untuk pengguna Gradle, sertakan baris ini di `build.gradle` mengajukan:
+Untuk pengguna Gradle, sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Aspose.Cells menawarkan lisensi uji coba gratis untuk menguji fitur-fiturnya secara penuh. Anda dapat memperolehnya dengan mengunjungi [halaman uji coba gratis](https://releases.aspose.com/cells/java/)Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi atau mengajukan lisensi sementara melalui [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells menawarkan lisensi uji coba gratis untuk menguji fitur-fiturnya secara penuh. Anda dapat memperolehnya dengan mengunjungi [ingyenes próbaoldal](https://releases.aspose.com/cells/java/)Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi atau mengajukan lisensi sementara melalui [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Setelah terinstal dan dilisensikan, inisialisasi Aspose.Cells di aplikasi Java Anda:
 
@@ -74,7 +76,7 @@ public class AsposeCellsSetup {
         // Memuat buku kerja dari disk
         Workbook workbook = new Workbook("path_to_your_file.xlsx");
         
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         System.out.println("Aspose.Cells initialized successfully.");
@@ -82,13 +84,13 @@ public class AsposeCellsSetup {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-Mari kita uraikan implementasi menjadi langkah-langkah yang dapat dikelola, dengan fokus pada integrasi SmartMarkers dengan `Person` kelas.
+Mari kita uraikan implementasi menjadi langkah-langkah yang dapat dikelola, dengan fokus pada integrasi SmartMarkers dengan `Person` osztály.
 
 ### Membuat Kelas Orang
 
-Kita `Person` kelas berisi informasi dasar—nama dan usia. Berikut tampilannya:
+A miénk `Person` kelas berisi informasi dasar—nama dan usia. Berikut tampilannya:
 
 ```java
 class Person {
@@ -120,7 +122,7 @@ Buat file Excel baru dan atur penanda Anda. Misalnya, gunakan `&=Person.Name` un
 
 #### Langkah 2: Muat Data ke SmartMarkers
 
-Gunakan Aspose.Cells untuk memuat data dari `Person` kelas:
+Gunakan Aspose.Cells untuk memuat data dari `Person` osztály:
 
 ```java
 import com.aspose.cells.WorkbookDesigner;
@@ -130,7 +132,7 @@ public class SmartMarkerExample {
         // Buat contoh WorkbookDesigner
         WorkbookDesigner designer = new WorkbookDesigner();
         
-        // Muat file template
+        // Muat file templat
         designer.setWorkbook(new Workbook("path_to_template.xlsx"));
         
         // Tambahkan sumber data ke desainer
@@ -141,43 +143,43 @@ public class SmartMarkerExample {
         // Proses SmartMarkers
         designer.process();
         
-        // Simpan buku kerja
+        // A munkafüzet mentése
         designer.getWorkbook().save("output.xlsx");
     }
 }
 ```
 
-### Penjelasan
+### Magyarázat
 
 - **Desainer Buku Kerja**: Kelas ini digunakan untuk bekerja dengan templat Excel yang berisi SmartMarker.
 - **setelSumberData()**: Mengikat sumber data Anda (`Person` array) ke penanda dalam templat.
 - **proses()**: Memproses semua SmartMarker dan mengisinya dengan data yang disediakan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells dapat diintegrasikan ke dalam berbagai skenario:
 
-1. **Pelaporan Otomatis**:Buat laporan untuk departemen SDM dengan memperbarui rincian karyawan secara dinamis.
-2. **Analisis Data**: Mengisi model keuangan dengan data waktu nyata untuk analisis cepat.
-3. **Manajemen Inventaris**: Mengotomatiskan daftar inventaris dan pembaruan dalam sistem ritel.
+1. **Automatizált jelentéskészítés**:Buat laporan untuk departemen SDM dengan memperbarui rincian karyawan secara dinamis.
+2. **Adatelemzés**: Mengisi model keuangan dengan data waktu nyata untuk analisis cepat.
+3. **Készletgazdálkodás**: Mengotomatiskan daftar inventaris dan pembaruan dalam sistem ritel.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk memastikan aplikasi Anda berjalan lancar, pertimbangkan kiat-kiat berikut:
 
-- **Manajemen Memori**: Menggunakan `Workbook.dispose()` untuk membebaskan sumber daya setelah memproses file besar.
-- **Penanganan Data yang Efisien**: Sederhanakan sumber data dengan memuat hanya informasi yang diperlukan.
+- **Memóriakezelés**Használat `Workbook.dispose()` untuk membebaskan sumber daya setelah memproses file besar.
+- **Hatékony adatkezelés**: Sederhanakan sumber data dengan memuat hanya informasi yang diperlukan.
 - **Optimalkan Ukuran Buku Kerja**: Minimalkan jumlah lembar kerja dan gaya yang digunakan.
 
-## Kesimpulan
+## Következtetés
 
 Anda sekarang telah menguasai cara menerapkan `Person` kelas dengan Aspose.Cells menggunakan SmartMarkers di Java. Alat canggih ini dapat menyederhanakan tugas otomatisasi Excel Anda secara signifikan, membuat pembuatan laporan menjadi cepat dan efisien.
 
 Siap untuk lebih banyak lagi? Jelajahi fitur-fitur canggih seperti pembuatan bagan dan validasi data untuk lebih menyempurnakan laporan Anda.
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Bagaimana cara menangani kumpulan data besar dengan Aspose.Cells?**
+1. **Hogyan kezelhetek nagy adathalmazokat az Aspose.Cells segítségével?**
    - Gunakan aliran dan pemrosesan batch untuk mengelola memori secara efisien.
 2. **Bisakah saya menggunakan Aspose.Cells dengan framework Java lainnya?**
    - Ya, ini terintegrasi secara mulus dengan Spring Boot, Hibernate, dll.
@@ -188,19 +190,22 @@ Siap untuk lebih banyak lagi? Jelajahi fitur-fitur canggih seperti pembuatan bag
 5. **Apakah Aspose.Cells cocok untuk aplikasi berkinerja tinggi?**
    - Ya, dengan teknik pengoptimalan yang tepat seperti yang disebutkan di atas.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh](https://releases.aspose.com/cells/java/)
-- [Pembelian](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Mendukung](https://forum.aspose.com/c/cells/9)
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltés](https://releases.aspose.com/cells/java/)
+- [Vásárlás](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatás](https://forum.aspose.com/c/cells/9)
 
 Ambil langkah selanjutnya dan mulai menerapkan Aspose.Cells dalam proyek Anda hari ini!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

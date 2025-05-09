@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ workbook.save("path/to/your/output/file.xlsx");
 
 ## Praktiska tillämpningar
 Att implementera Aspose.Cells för sortering efter kolumnfärg är fördelaktigt i olika scenarier:
-1. **Projektledning:** Prioritera uppgifter efter brådska, vilket anges med färger.
+1. **Projektledning:** Prioritera uppgifter efter brådska som anges med färger.
 2. **Finansiell analys:** Kategorisera data baserat på risknivåer som tilldelats via cellfärger.
 3. **Lageruppföljning:** Sortera artiklar baserat på lagerstatus markerade med olika bakgrundsfärger.
 
@@ -176,6 +178,9 @@ Redo att förbättra dina Excel-bearbetningsmöjligheter? Testa den här lösnin
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

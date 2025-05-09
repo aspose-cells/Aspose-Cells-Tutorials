@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ public class SetShapeMargins {
 }
 ```
 
-### Lưu Tệp Excel Có Sửa Đổi (H2)
+### Lưu File Excel Có Sửa Đổi (H2)
 
 #### Tổng quan
 Sau khi thực hiện thay đổi, bạn sẽ muốn lưu sổ làm việc của mình.
@@ -210,6 +212,9 @@ Bước tiếp theo, hãy cân nhắc khám phá các tính năng nâng cao hơn
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

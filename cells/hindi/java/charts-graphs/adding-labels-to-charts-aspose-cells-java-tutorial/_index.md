@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Aspose.Cells के साथ Java का उपयोग करके अपने Excel चार्ट को प्रोग्रामेटिक रूप से बेहतर बनाएँ। चाहे आप रिपोर्ट को स्वचालित करने वाले डेवलपर हों या विज़ुअल प्रेजेंटेशन को बेहतर बनाने वाले विश्लेषक, लेबल जोड़ने से आपके डेटा विज़ुअलाइज़ेशन को काफ़ी हद तक स्पष्ट किया जा सकता है। यह ट्यूटोरियल आपको Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों में चार्ट लेबल करने की प्रक्रिया के बारे में बताता है।
 
 **आप क्या सीखेंगे:**
-- अपने Java प्रोजेक्ट में Aspose.Cells सेट अप करना
+- अपने जावा प्रोजेक्ट में Aspose.Cells सेट अप करना
 - Aspose.Cells के साथ Excel कार्यपुस्तिकाओं को लोड करना और उनमें हेरफेर करना
 - एक्सेल चार्ट में फ्री-फ्लोटिंग लेबल जोड़ना
 - अद्यतन कार्यपुस्तिका को सहेजना
@@ -154,6 +156,9 @@ Aspose.Cells Java के साथ अपनी यात्रा शुरू 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

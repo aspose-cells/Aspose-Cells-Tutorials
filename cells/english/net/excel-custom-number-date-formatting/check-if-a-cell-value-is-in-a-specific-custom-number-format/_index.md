@@ -8,7 +8,9 @@ url: /net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-spec
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check if a Cell Value is in a Specific Custom Number Format
@@ -149,6 +151,7 @@ You can ask questions or report issues on the [Aspose forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

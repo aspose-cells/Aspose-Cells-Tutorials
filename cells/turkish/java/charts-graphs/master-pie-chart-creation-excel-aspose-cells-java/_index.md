@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 ## giriiş
 Excel'de ilgi çekici ve bilgilendirici pasta grafikleri oluşturmak, ham verileri güçlü içgörülere dönüştürebilir ve böylece bilgili iş kararlarını hızla almanızı sağlar. Microsoft Excel'in yerleşik özellikleriyle mi mücadele ediyorsunuz yoksa Java uygulamalarınızla sorunsuz bir şekilde entegre olan ölçeklenebilir bir çözüm mü arıyorsunuz? Java için Aspose.Cells size yardımcı olmak için burada.
 
-Bu eğitim, Aspose.Cells for Java kullanarak Excel dosyalarında pasta grafikleri oluşturma ve özelleştirme konusunda size rehberlik eder. Verileri nasıl etkili bir şekilde ekleyeceğinizi, grafik öğelerini nasıl yapılandıracağınızı ve çalışma kitabınızı nasıl sonlandıracağınızı keşfedin; hepsi de kolaylıkla ve hassasiyetle.
+Bu eğitim, Aspose.Cells for Java kullanarak Excel dosyalarında pasta grafikleri oluşturma ve özelleştirme konusunda size rehberlik eder. Verileri nasıl etkili bir şekilde ekleyeceğinizi, grafik öğelerini nasıl yapılandıracağınızı ve çalışma kitabınızı nasıl sonlandıracağınızı keşfedin; hepsi kolay ve hassas bir şekilde.
 
 **Ne Öğreneceksiniz:**
 - Java için Aspose.Cells'i kurma ve kullanma
@@ -61,7 +63,7 @@ Workbook workbook = new Workbook();
 ## Uygulama Kılavuzu
 Şimdi, pasta grafiği içeren bir Excel çalışma kitabı oluşturmak için her özelliği adım adım uygulayalım.
 ### 1. Çalışma Kitabını Oluşturma ve Başlatma
-**Genel bakış**:Başlangıç olarak şunu başlatıyoruz: `Workbook` nesneye erişiyoruz ve veri ve grafikleri ekleyeceğimiz ilk çalışma sayfasına erişiyoruz.
+**Genel bakış**: Başlatma işlemiyle başlayalım `Workbook` nesneye erişiyoruz ve veri ve grafikleri ekleyeceğimiz ilk çalışma sayfasına erişiyoruz.
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
@@ -178,6 +180,9 @@ Daha fazla araştırma için diğer grafik türlerini incelemeyi veya Aspose.Cel
    - Verimli veri yükleme tekniklerini kullanın ve çok büyük dosyalar için akış sağlamayı düşünün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

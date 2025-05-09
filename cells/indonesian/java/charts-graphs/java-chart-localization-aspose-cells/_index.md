@@ -7,33 +7,35 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Judul: Menerapkan Lokalisasi Bagan Kustom di Java dengan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia globalisasi saat ini, aplikasi harus melayani beragam audiens dengan mendukung berbagai bahasa dan pengaturan regional. Tutorial ini membahas tantangan melokalkan bagan dalam aplikasi Java menggunakan Aspose.Cells. Dengan memanfaatkan fitur globalisasi bagan yang tangguh, Anda dapat memastikan bahwa perangkat lunak Anda diterima oleh pengguna di seluruh dunia.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara menyesuaikan lokalisasi grafik di Java
 - Menyiapkan Aspose.Cells untuk Java
 - Menerapkan terjemahan khusus bahasa untuk elemen bagan
-- Kasus penggunaan praktis dan kemungkinan integrasi
+- Gyakorlati felhasználási esetek és integrációs lehetőségek
 
-Mari selami bagaimana Anda dapat mencapai lokalisasi yang mulus ini menggunakan Aspose.Cells, pustaka canggih yang dirancang untuk bekerja dengan file Excel di Java.
+Mari selami bagaimana Anda dapat mencapai lokalisasi yang mulus ini menggunakan Aspose.Cells, pustaka hebat yang dirancang untuk bekerja dengan file Excel di Java.
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi terinstal di komputer Anda.
 - **IDE:** Lingkungan pengembangan terintegrasi seperti IntelliJ IDEA atau Eclipse.
 - **Maven atau Gradle:** Untuk mengelola ketergantungan proyek. Pilih satu berdasarkan preferensi Anda.
 
-#### Pustaka dan Ketergantungan yang Diperlukan
+#### Szükséges könyvtárak és függőségek
 
 Untuk menggunakan Aspose.Cells untuk Java, Anda perlu memasukkannya dalam konfigurasi build proyek Anda:
 
@@ -51,13 +53,13 @@ Untuk menggunakan Aspose.Cells untuk Java, Anda perlu memasukkannya dalam konfig
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
-- **Uji Coba Gratis:** Unduh versi uji coba dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk pengujian lanjutan dengan mengunjungi [tautan ini](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Untuk akses penuh, beli lisensi di [Aspose Pembelian](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Unduh versi uji coba dari [Aspose weboldal](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Dapatkan lisensi sementara untuk pengujian lanjutan dengan mengunjungi [ezt a linket](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás:** Untuk akses penuh, beli lisensi di [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-#### Pengaturan Lingkungan
+#### Környezet beállítása
 
 Pastikan lingkungan Anda dikonfigurasi untuk menjalankan aplikasi Java. Jika Anda menggunakan IDE seperti IntelliJ IDEA atau Eclipse, buat proyek baru dan tambahkan Aspose.Cells sebagai dependensi.
 
@@ -89,16 +91,16 @@ public class ChartLocalizationSetup {
 }
 ```
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 #### Lokalisasi Bagan Kustom
 
-**Ringkasan:**
+**Áttekintés:**
 Kustomisasi pelokalan bagan melibatkan penyesuaian label dan judul pada bagan Anda menurut lokal sistem pengguna.
 
 **Langkah 1: Ambil Lokal Sistem**
 
-Ambil pengaturan bahasa sistem saat ini menggunakan Java `Locale` kelas:
+Ambil pengaturan bahasa sistem saat ini menggunakan Java `Locale` osztály:
 
 ```java
 import java.util.Locale;
@@ -138,12 +140,12 @@ public void localizeChart(Chart chart) {
 - `Locale.getDefault().getLanguage()` mengembalikan kode bahasa huruf kecil dua huruf.
 - `chart.getNSeries().get(index)` mengambil seri untuk menetapkan nama.
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
 - **Terjemahan yang Hilang:** Pastikan semua lokal yang diperlukan ditangani dalam logika switch-case Anda.
 - **Bagan Tidak Diperbarui:** Verifikasi bahwa indeks bagan cocok dengan yang digunakan saat menyiapkan rangkaian data.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 **1. Aplikasi Perangkat Lunak Multibahasa:**
 Tingkatkan pengalaman pengguna dengan menampilkan grafik dalam bahasa lokal pengguna, meningkatkan aksesibilitas dan kegunaan.
@@ -154,20 +156,20 @@ Gabungkan bagan lokal ke dalam alat pelaporan untuk melayani operasi bisnis inte
 **3. Platform E-dagang:**
 Sesuaikan visual data penjualan untuk berbagai wilayah guna berkomunikasi lebih baik dengan basis pelanggan yang beragam.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
-- **Optimalkan Penggunaan Memori:** Buat profil penggunaan memori secara teratur saat menangani kumpulan data besar dan bagan yang rumit.
-- **Manajemen Sumber Daya yang Efisien:** Buang objek dan aliran yang tidak digunakan untuk segera membebaskan sumber daya.
-- **Praktik Terbaik:** Memanfaatkan metode Aspose.Cells yang dioptimalkan untuk pemrosesan data guna meningkatkan kinerja.
+- **Memóriahasználat optimalizálása:** Buat profil penggunaan memori secara teratur saat menangani kumpulan data besar dan bagan yang rumit.
+- **Hatékony erőforrás-gazdálkodás:** Buang objek dan aliran yang tidak digunakan untuk segera membebaskan sumber daya.
+- **Bevált gyakorlatok:** Memanfaatkan metode Aspose.Cells yang dioptimalkan untuk pemrosesan data guna meningkatkan kinerja.
 
-### Kesimpulan
+### Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara menyesuaikan pelokalan bagan dalam aplikasi Java menggunakan Aspose.Cells. Kemampuan ini memungkinkan perangkat lunak Anda untuk mendukung audiens global secara efektif dengan mengadaptasi elemen visual sesuai dengan lokasi pengguna.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 Jelajahi opsi penyesuaian lebih lanjut dan pertimbangkan untuk mengintegrasikan pustaka Aspose lainnya untuk fungsionalitas yang lebih baik. Cobalah menerapkan solusi ini dalam proyek Anda hari ini!
 
-### Bagian FAQ
+### GYIK szekció
 
 1. **Bagaimana cara menambahkan lebih banyak bahasa?**
    - Perluas logika peralihan kasus dengan kode bahasa dan terjemahan tambahan.
@@ -181,21 +183,24 @@ Jelajahi opsi penyesuaian lebih lanjut dan pertimbangkan untuk mengintegrasikan 
 4. **Bagaimana cara menangani berbagai jenis grafik?**
    - Gunakan metode serupa untuk elemen bagan lainnya seperti judul, sumbu, dan legenda.
 
-5. **Di mana saya dapat menemukan lebih banyak contoh?**
-   - Periksa [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk panduan dan contoh yang lengkap.
+5. **Hol találok további példákat?**
+   - Ellenőrizze a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk panduan dan contoh yang lengkap.
 
-### Sumber daya
+### Erőforrás
 
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Unduhan Aspose](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Coba Aspose.Cells Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung:** [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Próbálja ki az Aspose.Cells-t ingyen](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
+- **Támogatás:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda untuk melokalkan bagan secara efektif dengan Aspose.Cells, yang akan meningkatkan jangkauan dan dampak aplikasi Java Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

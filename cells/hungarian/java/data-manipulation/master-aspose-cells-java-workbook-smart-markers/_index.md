@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ workbook.save(outDir + "/AllowLeadingApostropheSample_out.xlsx");
 ## Gyakorlati alkalmazások
 1. **Adatjelentés**Jelentések automatikus generálása az adatok előre definiált Excel-sablonokba való beillesztésével.
 2. **Számla generálása**Dinamikus tartalmú számlák létrehozása az ügyfélrendelések alapján.
-3. **Készletgazdálkodás**Készletnyilvántartás frissítése valós idejű készletszintekkel intelligens jelölők segítségével.
+3. **Készletgazdálkodás**: Készletnyilvántartások frissítése valós idejű készletszintekkel intelligens jelölők segítségével.
 4. **Bérszámfejtés**Bérszámfejtések generálása: Az alkalmazottak adatainak és a fizetési információk dinamikus kitöltésével.
 
 ## Teljesítménybeli szempontok
@@ -133,7 +135,7 @@ workbook.save(outDir + "/AllowLeadingApostropheSample_out.xlsx");
 - **Bevált gyakorlatok**Az Aspose.Cells rendszeres frissítésével kihasználhatja a teljesítménybeli fejlesztéseket és a hibajavításokat.
 
 ## Következtetés
-Gratulálunk! Elsajátítottad az Aspose.Cells munkafüzet konfigurálását, az intelligens jelölők feldolgozását és a munkád hatékony mentését. A készségeid további fejlesztéséhez:
+Gratulálunk! Elsajátítottad az Aspose.Cells munkafüzet konfigurálását, az intelligens jelölők feldolgozását és a munkád hatékony mentését. Készségeid további fejlesztéséhez:
 - Fedezze fel az Aspose.Cells további funkcióit.
 - Integrálható más Java könyvtárakkal a szélesebb funkcionalitás érdekében.
 
@@ -162,6 +164,9 @@ Készen állsz arra, hogy Excel-kezelési képességeidet a következő szintre 
 Böngészd át ezeket az anyagokat, hogy elmélyítsd a tudásodat és fejleszd az Excel feldolgozási feladataidat az Aspose.Cells for Java használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

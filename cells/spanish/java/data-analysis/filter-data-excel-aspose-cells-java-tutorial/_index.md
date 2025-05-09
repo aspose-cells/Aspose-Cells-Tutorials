@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Para seguir este tutorial, necesitarás:
 - **Aspose.Cells para Java**Asegúrese de que su proyecto incluya Aspose.Cells versión 25.3 o posterior.
 - **Kit de desarrollo de Java (JDK)**Cualquier versión estable reciente de JDK será suficiente, pero se recomienda JDK 8+.
 - **Entorno de desarrollo integrado (IDE)**:Utilice cualquier IDE como IntelliJ IDEA o Eclipse.
-- **Conocimientos básicos**:Familiaridad con la programación Java y las herramientas de compilación Maven/Gradle.
+- **Conocimientos básicos**:Familiaridad con programación Java y herramientas de compilación Maven/Gradle.
 
 ## Configuración de Aspose.Cells para Java
 
@@ -102,7 +104,7 @@ Workbook workbook = new Workbook(dataDir + "sampleFilterDataWhileLoadingWorkbook
 ```
 
 ### Guardar datos filtrados como PDF
-Después de cargar, es posible que desees guardar los datos filtrados en un formato diferente:
+Después de cargarlos, es posible que desees guardar los datos filtrados en un formato diferente:
 ```java
 import com.aspose.cells.SaveFormat;
 
@@ -153,6 +155,9 @@ A estas alturas, ya deberías tener una sólida comprensión de cómo filtrar da
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

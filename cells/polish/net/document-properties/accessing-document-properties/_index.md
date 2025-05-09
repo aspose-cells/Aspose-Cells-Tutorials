@@ -1,14 +1,16 @@
 ---
-title: Dostęp do właściwości dokumentu w .NET
-linktitle: Dostęp do właściwości dokumentu w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie manipulować programem Excel.
-weight: 10
-url: /pl/net/document-properties/accessing-document-properties/
+"description": "Dowiedz się, jak uzyskać dostęp do właściwości dokumentu w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby skutecznie manipulować programem Excel."
+"linktitle": "Dostęp do właściwości dokumentu w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dostęp do właściwości dokumentu w .NET"
+"url": "/pl/net/document-properties/accessing-document-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostęp do właściwości dokumentu w .NET
@@ -18,8 +20,8 @@ Podczas pracy z plikami Excela czasami trzeba kopać głębiej niż tylko dane w
 ## Wymagania wstępne
 Zanim zagłębisz się w kod, upewnij się, że masz niezbędne komponenty:
 - Visual Studio: Upewnij się, że masz zainstalowany Visual Studio. To najpopularniejsze IDE do tworzenia oprogramowania .NET.
--  Biblioteka Aspose.Cells: Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
-- .NET Framework: Znajomość języka C# i środowiska .NET jest konieczna, aby móc łatwo się poruszać.
+- Biblioteka Aspose.Cells: Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
+- .NET Framework: Aby łatwo sobie poradzić, konieczna jest znajomość języka C# i środowiska .NET.
 ## Importuj pakiety
 Na początek zaimportujmy niezbędne pakiety, które pozwolą nam wykorzystać Aspose.Cells w naszej aplikacji. Oto, jak możesz to skonfigurować:
 ```csharp
@@ -35,13 +37,13 @@ Po pierwsze, musimy określić ścieżkę, w której znajdują się nasze pliki 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku Excel. Ta ścieżka służy jako platforma startowa dla wszystkich naszych operacji.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do pliku Excel. Ta ścieżka służy jako platforma startowa dla wszystkich naszych operacji.
 ## Krok 2: Utwórz obiekt skoroszytu
- Następnie należy utworzyć wystąpienie`Workbook` Klasa. Ten obiekt reprezentuje Twój plik Excel i pozwala nam wykonywać na nim akcje:
+Następnie należy utworzyć wystąpienie `Workbook` Klasa. Ten obiekt reprezentuje Twój plik Excel i pozwala nam wykonywać na nim akcje:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Tutaj ładujemy nasz konkretny plik Excela,`"sample-document-properties.xlsx"`. Ważne jest, aby ten plik znajdował się w określonym katalogu, w przeciwnym razie wystąpią błędy.
+Tutaj ładujemy nasz konkretny plik Excela, `"sample-document-properties.xlsx"`. Ważne jest, aby ten plik znajdował się w określonym katalogu, w przeciwnym razie wystąpią błędy.
 ## Krok 3: Pobierz niestandardowe właściwości dokumentu
 Po załadowaniu skoroszytu możemy skorzystać z jego skarbnicy właściwości. Przyjrzyjmy się, jak można uzyskać dostęp do tych właściwości:
 ```csharp
@@ -54,7 +56,7 @@ Czasami wiesz dokładnie, czego szukasz. Jeśli potrzebujesz dostępu do konkret
 Aspose.Cells.Properties.DocumentProperty customProperty1 = customProperties["ContentTypeId"];
 Console.WriteLine(customProperty1.Name + " " + customProperty1.Value);
 ```
- W tym przykładzie próbujemy uzyskać dostęp do właściwości o nazwie`"ContentTypeId"`. Konsola wyświetli zarówno nazwę, jak i wartość tej właściwości. To sprytny sposób na uzyskanie dokładnie tego, czego potrzebujesz, bez przeszukiwania wszystkich właściwości.
+W tym przykładzie próbujemy uzyskać dostęp do właściwości o nazwie `"ContentTypeId"`. Konsola wyświetli zarówno nazwę, jak i wartość tej właściwości. To sprytny sposób na uzyskanie dokładnie tego, czego potrzebujesz, bez przeszukiwania wszystkich właściwości.
 ## Krok 5: Uzyskaj dostęp do niestandardowej właściwości dokumentu według indeksu
 Co jeśli chcesz przeglądać swoje nieruchomości i wybrać jedną, nie znając jej nazwy z góry? Indeks nieruchomości przychodzi z pomocą:
 ```csharp
@@ -71,14 +73,16 @@ Aspose.Cells for .NET to biblioteka przeznaczona do tworzenia, modyfikowania i k
 ### Czy mogę używać Aspose.Cells do odczytu i zapisu plików Excel?
 Oczywiście! Możesz czytać, zapisywać i modyfikować pliki Excela za pomocą biblioteki, co czyni ją potężnym narzędziem dla każdego programisty .NET.
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Chociaż możesz uzyskać bezpłatną wersję próbną, do pełnej wersji wymagana jest ważna licencja. Możesz kupić jedną[Tutaj](https://purchase.aspose.com/buy).
+Chociaż możesz uzyskać bezpłatną wersję próbną, do pełnej wersji wymagana jest ważna licencja. Możesz kupić jedną [Tutaj](https://purchase.aspose.com/buy).
 ### Czy użytkownicy Aspose.Cells mają dostęp do pomocy technicznej?
- Tak, możesz uzyskać dostęp do obszernych zasobów pomocy technicznej, w tym forów i dokumentacji, dostępnych[Tutaj](https://forum.aspose.com/c/cells/9).
+Tak, możesz uzyskać dostęp do obszernych zasobów pomocy technicznej, w tym forów i dokumentacji, dostępnych [Tutaj](https://forum.aspose.com/c/cells/9).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?
-Możesz złożyć wniosek o tymczasową licencję na ocenę produktu, odwiedzając stronę[ten link](https://purchase.aspose.com/temporary-license/).
+Możesz złożyć wniosek o tymczasową licencję na ocenę produktu, odwiedzając stronę [ten link](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

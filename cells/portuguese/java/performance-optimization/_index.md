@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Aprenda a criar aplicativos de processamento Excel de alto desempenho com nossos tutoriais de otimização do Aspose.Cells para Java. Esses guias práticos demonstram técnicas para gerenciamento eficiente de memória, melhorias no tempo de execução e estratégias para lidar com planilhas grandes de forma eficaz. Cada tutorial inclui exemplos detalhados de código Java e práticas recomendadas para otimizar aspectos críticos de desempenho, garantindo que seus aplicativos permaneçam responsivos e confiáveis mesmo ao trabalhar com grandes quantidades de dados de planilhas.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de otimização de desempenho
 - Implementação passo a passo com exemplos de código completos
@@ -78,6 +80,9 @@ Aprenda a otimizar e gerenciar células de pastas de trabalho do Excel com efici
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

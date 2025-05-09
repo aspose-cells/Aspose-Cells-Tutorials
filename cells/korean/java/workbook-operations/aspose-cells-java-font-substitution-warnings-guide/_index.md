@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 위해 다음과 같은 모범
 - **구매 및 라이센스:** 라이센스를 받거나 무료 평가판을 사용해 보세요. [Aspose 구매](https://purchase.aspose.com/buy) 또는 [Aspose 무료 체험판](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

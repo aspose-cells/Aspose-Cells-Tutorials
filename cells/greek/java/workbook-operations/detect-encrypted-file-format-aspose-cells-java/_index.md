@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ public class Main {
 Ακολουθώντας αυτόν τον οδηγό, είστε πλέον εξοπλισμένοι για να εφαρμόσετε την ανίχνευση μορφής αρχείου για κρυπτογραφημένα αρχεία χρησιμοποιώντας το Aspose.Cells σε Java. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

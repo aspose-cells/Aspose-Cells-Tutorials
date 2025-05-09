@@ -1,14 +1,16 @@
 ---
-title: Excel'de Veri Sıralanırken Sıralama Uyarısı Belirtin
-linktitle: Excel'de Veri Sıralanırken Sıralama Uyarısı Belirtin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel verilerini zahmetsizce sıralayın. Bu kapsamlı eğitimde Excel verilerini etkili bir şekilde yönetmek için adım adım stratejileri öğrenin.
-weight: 11
-url: /tr/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-data-in-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel verilerini zahmetsizce sıralayın. Bu kapsamlı eğitimde Excel verilerini etkili bir şekilde yönetmek için adım adım stratejileri öğrenin."
+"linktitle": "Excel'de Veri Sıralanırken Sıralama Uyarısı Belirtin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Veri Sıralanırken Sıralama Uyarısı Belirtin"
+"url": "/tr/net/excel-data-preservation-warning/specify-sort-warning-while-sorting-data-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Veri Sıralanırken Sıralama Uyarısı Belirtin
@@ -22,9 +24,9 @@ Excel'de verileri sıralamayı hiç denediniz mi, sadece beklenmedik sonuçlarla
 Verileri sıralama konusunda ayrıntılara girmeden önce, yerine getirmeniz gereken birkaç ön koşul vardır:
 
 1. Visual Studio: Bir IDE veya kod düzenleyicisine ihtiyacınız olacak ve Visual Studio, .NET geliştirme için en iyi seçeneklerden biridir.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olduğunuzdan emin olun. Bunu şuradan alabilirsiniz:[İndirme bağlantısı](https://releases.aspose.com/cells/net/) veya ile başla[Ücretsiz deneme](https://releases.aspose.com/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olduğunuzdan emin olun. Bunu şuradan alabilirsiniz: [İndirme bağlantısı](https://releases.aspose.com/cells/net/) veya ile başla [Ücretsiz deneme](https://releases.aspose.com/).
 3. C#'ın Temel Anlayışı: C# ile biraz aşinalık çok işe yarayacaktır. Daha önce C# ile uğraştıysanız, hazırsınız!
-4.  Örnek Excel Dosyası: Adında bir örnek Excel dosyası oluşturabilirsiniz.`sampleSortAsNumber.xlsx` Sıralamak istediğiniz A sütunundaki verilerle.
+4. Örnek Excel Dosyası: Aşağıdaki isimde bir örnek Excel dosyası oluşturabilirsiniz: `sampleSortAsNumber.xlsx` Sıralamak istediğiniz A sütunundaki verilerle.
 
 Bu ön koşulları yerine getirdikten sonra, hemen koda geçebiliriz!
 
@@ -42,7 +44,7 @@ Artık her şeyi yoluna koyduğumuza göre, sıralama sürecini adım adım ince
 
 ## Adım 1: Belge Dizininizi Ayarlayın
 
- İlk olarak, belge dizininize giden yolu belirtmeniz gerekir. Bu, belgenizin bulunduğu yerdir.`sampleSortAsNumber.xlsx` dosya bulunacaktır. Değiştir`"Your Document Directory"`Excel dosyanızın bulunduğu gerçek yol ile.
+İlk olarak, belge dizininize giden yolu belirtmeniz gerekir. Bu, belgenizin bulunduğu yerdir. `sampleSortAsNumber.xlsx` dosya bulunacaktır. Değiştir `"Your Document Directory"` Excel dosyanızın bulunduğu gerçek yol ile.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -50,13 +52,13 @@ string dataDir = "Your Document Directory";
 
 ## Adım 2: Bir Çalışma Kitabı Örneği Oluşturun
 
- Daha sonra, bir örnek oluşturacaksınız`Workbook`Az önce tanımladığınız yolu kullanarak sınıf. Bir çalışma kitabını, elektronik tablolarınız için fiziksel bir klasörün dijital versiyonu olarak düşünün.
+Daha sonra, bir örnek oluşturacaksınız `Workbook` Az önce tanımladığınız yolu kullanarak sınıf. Bir çalışma kitabını, elektronik tablolarınız için fiziksel bir klasörün dijital versiyonu olarak düşünün.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sampleSortAsNumber.xlsx");
 ```
 
- Burada Excel dosyasını yüklüyoruz`workbook` manipülasyon nesnesi.
+Burada Excel dosyasını yüklüyoruz `workbook` manipülasyon nesnesi.
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -80,13 +82,13 @@ Bu kod, sıralamak istediğimiz verileri içeren hücre aralığını belirtir.
 
 ## Adım 5: DataSorter Nesnesini Oluşturun
 
- Sıralamadan önce, bir şeye ihtiyacımız var`DataSorter` sıralama sürecini yönetmek için. Bu, klasörünüzü düzenlemesi için profesyonel bir organizatör kiralamak gibidir.
+Sıralamadan önce, bir şeye ihtiyacımız var `DataSorter` sıralama sürecini yönetmek için. Bu, klasörünüzü düzenlemesi için profesyonel bir organizatör kiralamak gibidir.
 
 ```csharp
 DataSorter sorter = workbook.DataSorter;
 ```
 
- İle`sorter` nesnemiz hazır, şimdi sıralama parametrelerini ayarlayabiliriz.
+İle `sorter` nesnemiz hazır, şimdi sıralama parametrelerini ayarlayabiliriz.
 
 ## Adım 6: Sıralayıcıyı Yapılandırın
 
@@ -103,7 +105,7 @@ sorter.AddKey(idx, SortOrder.Ascending);
 
 ## Adım 7: Sıralamayı Sayı Olarak Belirleyin
 
- Metin olarak saklanan sayıları sıralamanın yaygın sorununu önlemek için,`SortAsNumber` mülkiyetin doğruya çevrilmesi.
+Metin olarak saklanan sayıları sıralamanın yaygın sorununu önlemek için, `SortAsNumber` mülkiyetin doğruya çevrilmesi.
 
 ```csharp
 sorter.SortAsNumber = true;
@@ -147,13 +149,15 @@ Evet, Excel yerleşik sıralama seçenekleri sunar, ancak Aspose.Cells'i kullanm
 Sayılar, tarihler ve metinler dahil olmak üzere çeşitli veri türlerini farklı sıralama düzenleri kullanarak sıralayabilirsiniz.
 
 ### Aspose.Cells için ücretsiz deneme sürümü var mı?  
- Kesinlikle! Ücretsiz denemeyi kontrol edebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi kontrol edebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells için nasıl destek alabilirim?  
- Yardım alabilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+Yardım alabilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

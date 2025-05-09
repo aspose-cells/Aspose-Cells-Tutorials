@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 
 - **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** ติดตั้ง Aspose.Cells สำหรับ Java ใช้ Maven หรือ Gradle เป็นเครื่องมือสร้างของคุณ
 - **การตั้งค่าสภาพแวดล้อม:** คู่มือนี้ถือว่ามีสภาพแวดล้อมการพัฒนา Java ที่มีการติดตั้ง Java SDK ไว้
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความคุ้นเคยกับการเขียนโปรแกรม Java และความรู้พื้นฐานเกี่ยวกับไฟล์ Excel จะเป็นประโยชน์
+- **ข้อกำหนดความรู้เบื้องต้น:** ความคุ้นเคยกับการเขียนโปรแกรม Java และความรู้พื้นฐานเกี่ยวกับไฟล์ Excel จะเป็นประโยชน์
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -199,6 +201,9 @@ A1: สำหรับไฟล์ขนาดใหญ่ ควรพิจา
 A2: ใช่ Aspose.Cells สามารถรวมเข้ากับแอปพลิเคชันที่โฮสต์บนแพลตฟอร์มคลาวด์ต่างๆ ได้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

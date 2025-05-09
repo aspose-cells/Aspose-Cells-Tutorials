@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # データ検証ルール
@@ -42,9 +44,11 @@ Aspose.Cells for Javaを使用してExcelのデータ検証を学習します。
 Aspose.Cells for Javaを使用して条件付きデータ検証を実装する方法を学びます。Excelスプレッドシートで正確なデータ処理を実現するための、ソースコード付きのステップバイステップガイドです。
 ### [データ検証の入力メッセージ](./input-message-in-data-validation/)
 Aspose.Cells for Javaを使用してExcelのデータ検証を強化する方法を学びましょう。データ精度とユーザーガイダンスを向上させるためのコード例を交えたステップバイステップガイドです。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

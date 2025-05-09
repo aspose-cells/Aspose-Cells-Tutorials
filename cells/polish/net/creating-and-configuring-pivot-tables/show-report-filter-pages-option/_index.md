@@ -1,30 +1,32 @@
 ---
-title: Pokaż opcję Filtruj strony raportów w .NET
-linktitle: Pokaż opcję Filtruj strony raportów w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak skutecznie używać Aspose.Cells dla .NET, aby wyświetlać strony filtrów raportów w tabelach przestawnych. Przewodnik krok po kroku z kompletnymi przykładami kodu.
-weight: 22
-url: /pl/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/
+"description": "Dowiedz się, jak skutecznie używać Aspose.Cells dla .NET, aby wyświetlać strony filtrów raportów w tabelach przestawnych. Przewodnik krok po kroku z kompletnymi przykładami kodu."
+"linktitle": "Pokaż opcję Filtruj strony raportów w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pokaż opcję Filtruj strony raportów w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/show-report-filter-pages-option/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pokaż opcję Filtruj strony raportów w .NET
 
 ## Wstęp
-Czy kiedykolwiek znalazłeś się głęboko w pliku Excela, próbując rozszyfrować wszystkie punkty danych w tabeli przestawnej? Jeśli tak, wiesz, jak przydatny może być dobrze zorganizowany raport! Dzisiaj zakasamy rękawy i omówimy opcję „Show Report Filter Pages” w .NET przy użyciu Aspose.Cells. Ta sprytna funkcja pozwala na uporządkowane wyprowadzanie poszczególnych stron na podstawie wyborów filtrów z tabel przestawnych. Czy to nie jest po prostu fajne? Zanurzmy się!
+Czy kiedykolwiek znalazłeś się głęboko w pliku Excela, próbując rozszyfrować wszystkie te punkty danych w tabeli przestawnej? Jeśli tak, wiesz, jak przydatny może być dobrze zorganizowany raport! Dzisiaj zakasamy rękawy i omówimy opcję „Show Report Filter Pages” w .NET przy użyciu Aspose.Cells. Ta sprytna funkcja pozwala na uporządkowane wyprowadzanie poszczególnych stron na podstawie wyborów filtrów z tabel przestawnych. Czy to nie jest po prostu fajne? Zanurzmy się!
 ## Wymagania wstępne
-Zanim wyruszymy w naszą wspaniałą podróż ku opanowaniu opcji „Pokaż strony filtrów raportów”, musisz spełnić kilka warunków wstępnych:
+Zanim wyruszymy w wspaniałą podróż, aby opanować opcję „Pokaż strony filtrów raportów”, musisz spełnić kilka warunków wstępnych:
 ### 1. Podstawowa znajomość języka C# i .NET
 - Upewnij się, że masz podstawową wiedzę na temat programowania w C# i podstaw .NET Framework. Nie przejmuj się, jeśli wciąż się uczysz; dopóki masz trochę doświadczenia w kodowaniu, jesteś w formie!
 ### 2. Aspose.Cells dla .NET
--  Potrzebujesz biblioteki Aspose.Cells. Jeśli jej jeszcze nie masz, możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
-### 3. Program Visual Studio
+- Potrzebujesz biblioteki Aspose.Cells. Jeśli jej jeszcze nie masz, możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
+### 3. Studio wizualne
 - Microsoft Visual Studio to Twój plac zabaw. Upewnij się, że jest skonfigurowany w Twoim systemie i gotowy, abyś mógł rozpocząć swoją przygodę z kodowaniem.
 ### 4. Przykładowy plik Excela
--  Pobierz przykładowy plik Excela zawierający tabele przestawne do testów; będziemy używać pliku o nazwie`samplePivotTable.xlsx`.
+- Pobierz przykładowy plik programu Excel zawierający tabele przestawne do przetestowania; będziemy używać pliku o nazwie `samplePivotTable.xlsx`.
 Po zaznaczeniu tych pól możemy przystąpić do kodowania, które zaprowadzi nas do sukcesu, korzystając z Aspose.Cells!
 ## Importuj pakiety
 Aby rozpocząć tę imprezę, musimy zaimportować kilka pakietów. Otwórz Visual Studio i zainicjuj nowy projekt C#. Nie zapomnij uwzględnić początkowych przestrzeni nazw:
@@ -46,9 +48,9 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Zastąpisz`"Your Document Directory"` z rzeczywistą ścieżką do Twoich folderów. To tak, jakby dać programowi mapę — pomaga mu to w prawidłowej nawigacji!
+Zastąpisz `"Your Document Directory"` z rzeczywistą ścieżką do Twoich folderów. To tak, jakby dać programowi mapę — pomaga mu to w prawidłowej nawigacji!
 ## Krok 2: Załaduj plik szablonu
- Następnie musimy załadować plik Excel zawierający naszą tabelę przestawną. Robimy to, tworząc wystąpienie`Workbook` klasa.
+Następnie musimy załadować plik Excel zawierający naszą tabelę przestawną. Robimy to, tworząc wystąpienie `Workbook` klasa.
 ```csharp
 // Załaduj plik szablonu
 Workbook wb = new Workbook(sourceDir + "samplePivotTable.xlsx");
@@ -62,7 +64,7 @@ PivotTable pt = wb.Worksheets[1].PivotTables[0];
 ```
 Ten wiersz jest jak wyciągnięcie ukrytego skarbu z pliku Excel — przenosisz tabelę przestawną do kontekstu C#, gdzie możesz nią manipulować.
 ## Krok 4: Wyświetl strony filtrów raportów
-Tutaj dzieje się magia! Teraz użyjemy`ShowReportFilterPage` metoda wyświetlania stron filtrów raportów. Ten wiersz można skonfigurować na wiele sposobów w zależności od tego, jak chcesz skonfigurować swoje filtry.
+Tutaj dzieje się magia! Teraz użyjemy `ShowReportFilterPage` metoda wyświetlania stron filtrów raportów. Ten wiersz można skonfigurować na wiele sposobów w zależności od tego, jak chcesz skonfigurować swoje filtry.
 ### Opcja A: Według pola filtra
 ```csharp
 // Ustaw pole przestawne
@@ -103,14 +105,16 @@ Aspose.Cells to wszechstronna biblioteka dla aplikacji .NET umożliwiająca łat
 ### Czy muszę mieć zainstalowany program Excel, aby korzystać z Aspose.Cells?
 Nie, nie potrzebujesz zainstalowanego programu Microsoft Excel, aby używać Aspose.Cells. Działa niezależnie.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, możesz wypróbować Aspose.Cells z bezpłatną wersją próbną. Znajdź ją[Tutaj](https://releases.aspose.com/).
+Tak, możesz wypróbować Aspose.Cells z bezpłatną wersją próbną. Znajdź ją [Tutaj](https://releases.aspose.com/).
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie poprzez[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie poprzez [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
 ### Gdzie mogę kupić Aspose.Cells?
- Możesz zakupić licencję bezpośrednio u nich[strona internetowa](https://purchase.aspose.com/buy).
+Możesz zakupić licencję bezpośrednio u nich [strona internetowa](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

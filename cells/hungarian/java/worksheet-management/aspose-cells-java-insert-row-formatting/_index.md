@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Kezdés előtt győződjön meg arról, hogy a következőkkel rendelkezik:
 - Használjon integrált fejlesztői környezetet (IDE), például IntelliJ IDEA-t, Eclipse-t stb.
 
 ### Ismereti előfeltételek
-- A Java programozás és a fájl I/O műveletek alapvető ismerete.
+- Alapvető ismeretek a Java programozásban és a fájl I/O műveletekben.
 - A Maven vagy Gradle ismerete előnyös, de nem kötelező a függőségek kezelésében.
 
 ## Az Aspose.Cells beállítása Java-hoz
@@ -158,6 +160,9 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan szúrhatunk be formázott s
 Készen állsz arra, hogy ezt a megoldást implementáld a Java alkalmazásodban? Próbáld ki, és nézd meg, hogyan egyszerűsítheti az Aspose.Cells az Excel fájlok kezelését!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

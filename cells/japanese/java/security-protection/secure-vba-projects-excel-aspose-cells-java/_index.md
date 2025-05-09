@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### ライセンス取得手順:
-- **無料トライアル**機能をテストするには、無料トライアルから始めてください。
+- **無料トライアル**機能をテストするには、まず無料トライアルから始めてください。
 - **一時ライセンス**無制限の評価のための一時ライセンスを申請します。
 - **購入**継続して使用する場合は、商用ライセンスを購入してください。
 
@@ -212,6 +214,9 @@ wb.save(outDir + "/outputPasswordProtectVBAProject.xlsm");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

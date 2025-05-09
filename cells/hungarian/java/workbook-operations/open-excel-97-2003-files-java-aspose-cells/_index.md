@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ A régebbi Excel-fájlok, például az Excel 97-es vagy 2003-as verziójából s
 Ezt az oktatóanyagot követve megtanulhatod:
 - Az Aspose.Cells beállítása Java-hoz
 - Az Aspose.Cells használatának lépései Excel 97/2003 fájlok megnyitásához
-- Ezen fájlok olvasásának valós alkalmazásai
+- A fájlok olvasásának valós alkalmazásai
 
 A végére hatékonyan integrálhatod majd ezt a megoldást a projektjeidbe.
 
@@ -134,7 +136,7 @@ V: Igen, megfelelő optimalizálási technikákkal hatékonyan képes kezelni a 
 V: Ingyenes próbaverzió érhető el; azonban éles használathoz licencet kell vásárolnia.
 
 **K: Hol találok további forrásokat és támogatást az Aspose.Cells-hez?**
-A: Látogassa meg a hivatalos [Aspose dokumentáció](https://reference.aspose.com/cells/java/) vagy az ő [támogatási fórum](https://forum.aspose.com/c/cells/9).
+A: Látogassa meg a hivatalos [Aspose dokumentáció](https://reference.aspose.com/cells/java/) vagy az ő [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ## Erőforrás
 - **Dokumentáció:** [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
@@ -146,6 +148,9 @@ A: Látogassa meg a hivatalos [Aspose dokumentáció](https://reference.aspose.c
 Kezdje el az Excel fájlok kezelését Java nyelven az Aspose.Cells segítségével még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

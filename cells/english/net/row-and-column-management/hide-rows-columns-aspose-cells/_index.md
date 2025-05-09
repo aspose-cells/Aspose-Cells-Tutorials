@@ -8,7 +8,9 @@ url: /net/row-and-column-management/hide-rows-columns-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Rows and Columns in Aspose.Cells .NET
@@ -104,6 +106,7 @@ Aspose offers a temporary license option [here](https://purchase.aspose.com/temp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

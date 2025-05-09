@@ -1,14 +1,16 @@
 ---
-title: Mã hóa các tập tin ODS trong .NET
-linktitle: Mã hóa các tập tin ODS trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách mã hóa và giải mã các tệp ODS bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để bảo mật dữ liệu của bạn.
-weight: 12
-url: /vi/net/security-and-encryption/encrypting-ods-files/
+"description": "Tìm hiểu cách mã hóa và giải mã các tệp ODS bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để bảo mật dữ liệu của bạn."
+"linktitle": "Mã hóa các tập tin ODS trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Mã hóa các tập tin ODS trong .NET"
+"url": "/vi/net/security-and-encryption/encrypting-ods-files/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mã hóa các tập tin ODS trong .NET
@@ -19,7 +21,7 @@ Aspose.Cells cung cấp một bộ tính năng mạnh mẽ để xử lý bảng
 ## Điều kiện tiên quyết
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 1. Visual Studio: Môi trường phát triển để viết và kiểm tra mã .NET của bạn.
-2. Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống phiên bản mới nhất từ[đây](https://releases.aspose.com/cells/net/) và cài đặt nó. Ngoài ra, bạn có thể dùng thử mà không mất phí bằng cách sử dụng[dùng thử miễn phí](https://releases.aspose.com/).
+2. Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống phiên bản mới nhất từ [đây](https://releases.aspose.com/cells/net/) và cài đặt nó. Ngoài ra, bạn có thể dùng thử mà không mất phí bằng cách sử dụng [dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Hiểu được những nguyên tắc cơ bản của C# và .NET framework sẽ giúp bạn theo dõi dễ dàng hơn nhiều.
 4. Tệp ODS mẫu: Chuẩn bị tệp ODS mẫu để thử nghiệm. Bạn có thể tạo tệp bằng bất kỳ phần mềm bảng tính nào hỗ trợ định dạng ODS.
 Bây giờ chúng ta đã thiết lập xong nền tảng, hãy nhập các gói cần thiết!
@@ -42,7 +44,7 @@ Install-Package Aspose.Cells
 
 ## Bước 2: Mã hóa tệp ODS
 ### Khởi tạo một đối tượng Workbook
- Để bắt đầu quá trình mã hóa, trước tiên chúng ta cần mở tệp ODS bằng cách sử dụng`Workbook` đối tượng. Sau đây là cách thực hiện:
+Để bắt đầu quá trình mã hóa, trước tiên chúng ta cần mở tệp ODS bằng cách sử dụng `Workbook` đối tượng. Sau đây là cách thực hiện:
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
@@ -50,7 +52,7 @@ string dataDir = "Your Document Directory";
 // Mở tệp ods.
 Workbook workbook = new Workbook(dataDir + "Book1.ods");
 ```
- Trong đoạn trích này, hãy thay thế`"Your Document Directory"` với đường dẫn thực tế nơi tệp ODS của bạn nằm (ví dụ:`@"C:\Documents\"`).
+Trong đoạn trích này, hãy thay thế `"Your Document Directory"` với đường dẫn thực tế nơi tệp ODS của bạn nằm (ví dụ: `@"C:\Documents\"`).
 ### Mật khẩu bảo vệ tập tin
 Tiếp theo, chúng ta sẽ đặt mật khẩu cho sổ làm việc. Sau đây là cách bảo vệ tệp ODS của bạn bằng mật khẩu:
 ```csharp
@@ -59,12 +61,12 @@ workbook.Settings.Password = "1234";
 ```
 Thao tác này sẽ đặt mật khẩu thành "1234". Bạn có thể sử dụng mật khẩu phức tạp hơn để tăng cường bảo mật!
 ### Lưu tệp đã mã hóa
- Cuối cùng, lưu tệp đã mã hóa.`Save` phương pháp này sẽ xử lý việc này một cách liền mạch:
+Cuối cùng, lưu tệp đã mã hóa. `Save` phương pháp này sẽ xử lý việc này một cách liền mạch:
 ```csharp
 // Lưu tệp ODS đã mã hóa.
 workbook.Save(dataDir + "encryptedBook1.out.ods");
 ```
- Bây giờ, bạn sẽ có một tệp ODS được mã hóa có tên là`encryptedBook1.out.ods` được lưu trữ an toàn trong thư mục của bạn.
+Bây giờ, bạn sẽ có một tệp ODS được mã hóa có tên là `encryptedBook1.out.ods` được lưu trữ an toàn trong thư mục của bạn.
 ## Bước 3: Giải mã tệp ODS
 ### Đặt mật khẩu gốc
 Bây giờ chúng ta hãy chuyển sang giải mã tệp ODS mà chúng ta vừa mã hóa. Điều đầu tiên chúng ta cần làm là thiết lập mật khẩu đã được sử dụng trong quá trình mã hóa:
@@ -111,10 +113,12 @@ Chắc chắn rồi! Bạn có thể thiết lập một tập lệnh tự độ
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?
 Có, sử dụng cho mục đích thương mại cần phải có giấy phép, nhưng bạn có thể khám phá các tùy chọn dùng thử miễn phí có sẵn.
 ### Tôi có thể tìm hiểu thêm về các tính năng của Aspose.Cells ở đâu?
- Bạn có thể kiểm tra các thông tin chi tiết[tài liệu](https://reference.aspose.com/cells/net/) để biết thêm thông tin về các tính năng và chức năng.
+Bạn có thể kiểm tra các thông tin chi tiết [tài liệu](https://reference.aspose.com/cells/net/) để biết thêm thông tin về các tính năng và chức năng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

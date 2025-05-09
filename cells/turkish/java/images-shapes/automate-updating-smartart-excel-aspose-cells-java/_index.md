@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ for (Object shp : worksheet.getShapes()) {
 ```java
 shape.setAlternativeText("ReplacedAlternativeText");
 ```
-Alternatif metin ayarlamak, şeklin amacını veya içeriğini metinsel olarak açıklayarak erişilebilirliği artırır.
+Alternatif metin ayarlamak, şeklin amacını veya içeriğini metinsel bir açıklama sağlayarak erişilebilirliği artırır.
 
 ### Çalışma Kitabını SmartArt Güncellemeleriyle Kaydet (H2)
 
@@ -175,6 +177,9 @@ A5: Ziyaret [Aspose'un belgeleri](https://reference.aspose.com/cells/java/) veya
 - **Destek Forumları**: Tartışmalara katılın ve yardım isteyin [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

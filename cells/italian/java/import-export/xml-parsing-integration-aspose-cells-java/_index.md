@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Acquisizione della licenza
 - **Prova gratuita**: Inizia con una prova gratuita per esplorare Aspose.Cells.
-- **Licenza temporanea**: Ottieni una licenza temporanea per una valutazione estesa.
+- **Licenza temporanea**Ottieni una licenza temporanea per una valutazione estesa.
 - **Acquistare**: Per un utilizzo a lungo termine, acquistare una licenza commerciale.
 
 #### Inizializzazione di base
@@ -178,7 +180,7 @@ Abbiamo esplorato come analizzare i dati XML in Java e integrarli in Excel utili
 
 ### Prossimi passi
 
-Sperimenta strutture XML più complesse o altri formati supportati da Aspose.Cells. Esplora [Documentazione di Aspose](https://reference.aspose.com/cells/java/) per funzionalità aggiuntive.
+Sperimenta con strutture XML più complesse o altri formati supportati da Aspose.Cells. Esplora [Documentazione di Aspose](https://reference.aspose.com/cells/java/) per funzionalità aggiuntive.
 
 ## Sezione FAQ
 
@@ -203,6 +205,9 @@ Sperimenta strutture XML più complesse o altri formati supportati da Aspose.Cel
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 在開始之前，請確保您已準備好以下事項：
 - **Java 開發工具包 (JDK)** 安裝在您的機器上。我們建議使用 JDK 8 或更高版本。
 - 用於編寫和運行 Java 程式碼的整合開發環境 (IDE)，例如 IntelliJ IDEA 或 Eclipse。
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 
 ## 設定 Aspose.Cells for Java（H2）
 
@@ -183,6 +185,9 @@ workbook.save(dataDir); // 儲存工作簿並進行更改
 - **支援**：加入社群或透過以下方式獲得協助 [Aspose 論壇](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

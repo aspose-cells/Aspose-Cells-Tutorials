@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel exportálása PDF-be
@@ -105,10 +107,12 @@ Bár az Aspose.Cells a nagyméretű Excel-fájlok hatékony kezelésére van opt
 
 5. kérdés: Hol találok további dokumentációt és példákat az Aspose.Cells-hez?
 
-Az Aspose.Cells API dokumentációját itt tekintheti meg: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) átfogó dokumentációért és rengeteg példaért, amelyekkel tovább bővítheti ismereteit.
+Tekintse meg az Aspose.Cells API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) átfogó dokumentációért és rengeteg példaért, amelyekkel tovább bővítheti ismereteit.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ wb.save(dataDir + "LNOfPagesGenerated_out.pdf", options);
 3. **क्या होगा यदि मेरे PDF में अभी भी सभी पृष्ठ शामिल हों?**
    - अपनी जांच दोबारा करें `PdfSaveOptions` सही सूचकांक और गिनती सेटिंग्स के लिए कॉन्फ़िगरेशन.
 4. **क्या पीडीएफ को सहेजने से पहले उसका पूर्वावलोकन करने का कोई तरीका है?**
-   - पूर्वावलोकन देखने के लिए आपको अतिरिक्त लाइब्रेरी या टूल की आवश्यकता हो सकती है, क्योंकि Aspose.Cells फ़ाइल निर्माण और हेरफेर पर केंद्रित है।
+   - आपको पूर्वावलोकन देखने के लिए अतिरिक्त लाइब्रेरी या टूल की आवश्यकता हो सकती है, क्योंकि Aspose.Cells फ़ाइल निर्माण और हेरफेर पर केंद्रित है।
 5. **मैं Aspose.Cells के साथ लाइसेंसिंग समस्याओं को कैसे संभाल सकता हूँ?**
    - प्रारंभिक परीक्षण के लिए निःशुल्क परीक्षण का उपयोग करें, फिर खरीदने से पहले यदि आवश्यक हो तो अस्थायी लाइसेंस के लिए आवेदन करें।
 
@@ -140,6 +142,9 @@ wb.save(dataDir + "LNOfPagesGenerated_out.pdf", options);
 - **सहायता**: [सेल के लिए एस्पोज फोरम](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

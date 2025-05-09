@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Lär dig hur du automatiserar skapandet och hanteringen av Excel-arbetsböcker med Aspose.Cells för Java. Den här guiden behandlar instansiering, sparande och inställningar av sidinställningar."
+"description": "Lär dig hur du automatiserar skapandet och hanteringen av Excel-arbetsböcker med Aspose.Cells för Java. Den här guiden behandlar instansiering, sparande och inställningar av egenskaper för utskriftsformat."
 "title": "Aspose.Cells Java Skapa och spara Excel-arbetsböcker - En steg-för-steg-guide"
 "url": "/sv/java/workbook-operations/aspose-cells-java-create-save-excel-workbooks/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ För att fördjupa dig i Aspose.Cells funktioner, överväg att utforska mer ava
    - Ja, du kan manuellt ladda ner och lägga till JAR-filer i ditt projekts klassväg.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

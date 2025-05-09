@@ -1,14 +1,16 @@
 ---
-title: สร้างตารางสรุปข้อมูลใหม่ด้วยโปรแกรมใน .NET
-linktitle: สร้างตารางสรุปข้อมูลใหม่ด้วยโปรแกรมใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้การสร้างตารางสรุปข้อมูลด้วยโปรแกรมใน .NET โดยใช้ Aspose.Cells พร้อมคำแนะนำทีละขั้นตอนของเรา วิเคราะห์ข้อมูลของคุณอย่างมีประสิทธิภาพ
-weight: 13
-url: /th/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
+"description": "เรียนรู้การสร้างตารางสรุปข้อมูลด้วยโปรแกรมใน .NET โดยใช้ Aspose.Cells พร้อมคำแนะนำทีละขั้นตอนของเรา วิเคราะห์ข้อมูลของคุณอย่างมีประสิทธิภาพ"
+"linktitle": "สร้างตารางสรุปข้อมูลใหม่ด้วยโปรแกรมใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "สร้างตารางสรุปข้อมูลใหม่ด้วยโปรแกรมใน .NET"
+"url": "/th/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างตารางสรุปข้อมูลใหม่ด้วยโปรแกรมใน .NET
@@ -19,8 +21,8 @@ url: /th/net/creating-and-configuring-pivot-tables/creating-new-pivot-table/
 ## ข้อกำหนดเบื้องต้น
 ก่อนจะเริ่มลงมือ เรามาตรวจสอบกันก่อนว่าคุณเตรียมทุกอย่างพร้อมแล้ว นี่คือสิ่งที่คุณต้องทำ:
 
-1. ติดตั้ง .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ไว้ในเครื่องของคุณแล้ว Aspose.Cells รองรับหลายเวอร์ชัน แต่ควรใช้เวอร์ชันล่าสุดจะดีกว่า
-2.  ไลบรารี Aspose.Cells: คุณต้องมีไลบรารี Aspose.Cells คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/)หรือรับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
+1. ติดตั้ง .NET Framework: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ไว้ในเครื่องของคุณแล้ว Aspose.Cells รองรับเวอร์ชันต่างๆ มากมาย แต่ควรใช้เวอร์ชันล่าสุดจะดีกว่า
+2. ไลบรารี Aspose.Cells: คุณต้องมีไลบรารี Aspose.Cells คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/) หรือรับ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อการประเมินผล
 3. การตั้งค่า IDE: เตรียม IDE ที่เข้ากันได้กับ C# เช่น Visual Studio ซึ่งคุณสามารถเริ่มโปรเจ็กต์ใหม่ได้
 4. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้คุณทำตามได้โดยไม่ต้องติดขัดมากเกินไป
 
@@ -50,7 +52,7 @@ Workbook workbook = new Workbook();
 Worksheet sheet = workbook.Worksheets[0];
 ```
 
- ในขั้นตอนนี้เราจะสร้าง`Workbook`อินสแตนซ์ที่แสดงไฟล์ Excel ของเราและคว้าเวิร์กชีตแรกซึ่งจะเป็นสนามเด็กเล่นสำหรับตารางสรุปข้อมูลของเรา
+ในขั้นตอนนี้เราจะสร้าง `Workbook` อินสแตนซ์ที่แสดงไฟล์ Excel ของเราและคว้าเวิร์กชีตแรกซึ่งจะเป็นสนามเด็กเล่นสำหรับตารางสรุปข้อมูลของเรา
 
 ## ขั้นตอนที่ 2: แทรกข้อมูลลงในเซลล์
 ต่อไปเรามาเติมข้อมูลตัวอย่างลงในเวิร์กชีตของเรา เราจะป้อนแถวสำหรับตัวเลขกีฬา ไตรมาส และยอดขายต่างๆ เพื่อให้ตารางสรุปข้อมูลมีข้อมูลไว้สรุป
@@ -124,20 +126,22 @@ workbook.Save(dataDir + "pivotTable_test_out.xls");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารี .NET อันทรงพลังสำหรับการสร้างและจัดการสเปรดชีต Excel ด้วยโปรแกรม
 
-### Aspose.Cells มีรุ่นทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถรับการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+### มีการทดลองใช้ Aspose.Cells ฟรีหรือไม่
+ใช่ คุณสามารถรับการทดลองใช้ฟรีได้ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถปรับแต่งลักษณะของตารางสรุปข้อมูลได้หรือไม่
 แน่นอน! คุณสามารถปรับแต่งรูปแบบ เค้าโครง และแม้แต่สไตล์ของตารางสรุปข้อมูลตามความต้องการของคุณได้
 
 ### ฉันสามารถหาตัวอย่างและเอกสารเพิ่มเติมเกี่ยวกับ Aspose.Cells ได้จากที่ใด
- คุณสามารถตรวจสอบได้[เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำและตัวอย่างที่ครอบคลุม
+คุณสามารถตรวจสอบได้ [เอกสารประกอบ](https://reference.aspose.com/cells/net/) สำหรับคำแนะนำและตัวอย่างที่ครอบคลุม
 
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้อย่างไร
- คุณสามารถรับการสนับสนุนได้ผ่านทาง[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9).
+คุณสามารถรับการสนับสนุนได้ผ่านทาง [ฟอรั่ม Aspose](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

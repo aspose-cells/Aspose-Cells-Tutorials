@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Lisans Edinimi
 Aspose.Cells'i kullanmadan önce lisans edinin:
 - **Ücretsiz Deneme:** Ücretsiz denemeye başlayın [Aspose'un web sitesi](https://releases.aspose.com/cells/java/).
-- **Geçici Lisans:** Bunun için başvurun [satın alma sayfası](https://purchase.aspose.com/temporary-license/) Sınırsızca keşfetmek.
+- **Geçici Lisans:** Bunun için başvurun [satın alma sayfası](https://purchase.aspose.com/temporary-license/) Sınırsızca keşfetmek için.
 - **Satın almak:** Uzun süreli kullanım için lisans satın alın [Burada](https://purchase.aspose.com/buy).
 
 ## Uygulama Kılavuzu
@@ -156,7 +158,7 @@ Bir sonraki adımı atmaya hazır mısınız? Bu teknikleri projelerinize uygula
    - Doğru kütüphane sürümü uyumluluğunu sağlayın ve tüm bağımlılıkların proje kurulumunuza düzgün bir şekilde dahil edildiğini doğrulayın.
 
 5. **Java için Aspose.Cells kullanımı hakkında daha fazla kaynağı nerede bulabilirim?**
-   - Ziyaret etmek [Aspose'un belgeleri](https://reference.aspose.com/cells/java/) kapsamlı kılavuzlar için veya bunları keşfedin [forumlar](https://forum.aspose.com/c/cells/9) Toplum desteği için.
+   - Ziyaret etmek [Aspose'un belgeleri](https://reference.aspose.com/cells/java/) kapsamlı rehberler için veya bunları keşfedin [forumlar](https://forum.aspose.com/c/cells/9) Toplum desteği için.
 
 ## Kaynaklar
 - **Belgeler:** [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
@@ -167,6 +169,9 @@ Bir sonraki adımı atmaya hazır mısınız? Bu teknikleri projelerinize uygula
 - **Destek:** [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

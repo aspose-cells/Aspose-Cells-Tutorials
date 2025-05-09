@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ A5: Có, Aspose.Cells hỗ trợ tích hợp với nhiều hệ thống doanh ng
 - **Tải về**: Truy cập các bản phát hành mới nhất tại [Tải xuống Aspose](https://releases.aspose.com/cells/java/)
 - **Mua**: Mua giấy phép sử dụng thương mại tại [Mua Aspose](https://purchase.aspose.com/buy)
 - **Dùng thử miễn phí**: Bắt đầu với bản dùng thử miễn phí từ [Dùng thử miễn phí Aspose](https://releases.aspose.com/cells/java/)
-- **Giấy phép tạm thời**Xin giấy phép tạm thời qua [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/)
+- **Giấy phép tạm thời**: Xin giấy phép tạm thời qua [Giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/)
 - **Ủng hộ**: Nhận trợ giúp từ cộng đồng tại [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 Bằng cách làm theo hướng dẫn này, bạn đang trên đường triển khai các tính năng toàn cầu hóa mạnh mẽ trong các ứng dụng Java bằng Aspose.Cells. Chúc bạn viết mã vui vẻ!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

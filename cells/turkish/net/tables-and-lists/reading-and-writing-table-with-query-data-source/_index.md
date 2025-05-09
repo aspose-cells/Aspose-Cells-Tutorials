@@ -1,14 +1,16 @@
 ---
-title: Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz
-linktitle: Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'in gücünü açığa çıkarın. Bu ayrıntılı adım adım kılavuzda sorgu veri kaynaklarıyla tabloları okumayı ve yazmayı öğrenin.
-weight: 15
-url: /tr/net/tables-and-lists/reading-and-writing-table-with-query-data-source/
+"description": ".NET için Aspose.Cells'in gücünü açığa çıkarın. Bu ayrıntılı adım adım kılavuzda sorgu veri kaynaklarıyla tabloları okumayı ve yazmayı öğrenin."
+"linktitle": "Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz"
+"url": "/tr/net/tables-and-lists/reading-and-writing-table-with-query-data-source/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sorgu Veri Kaynağı ile Tabloyu Oku ve Yaz
@@ -20,7 +22,7 @@ Bu veri manipülasyonu yolculuğuna başlamadan önce, takip etmeniz gereken her
 1. .NET'in Temel Bilgileri  
    .NET ortamıyla rahat olmalısınız. Yeni başlıyorsanız, endişelenmeyin! Kavramları kavramak için ihtiyacınız olan tek şey biraz temel bilgidir.
 2. .NET için Aspose.Cells  
-    Projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+   Projenizde Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Görsel Stüdyo  
    Kodunuzu yazarken ve test ederken Visual Studio'yu kurmanız faydalı olacaktır çünkü .NET projeleriyle mükemmel bir şekilde bütünleşir.
 4. Örnek Bir Excel Dosyası  
@@ -48,7 +50,7 @@ Burada, kaynak dosyanızın (giriş Excel dosyası) bulunduğu ve çıktı dosya
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "SampleTableWithQueryTable.xls");
 ```
- Bu satır, bir örnek oluşturur`Workbook`sınıf, temel olarak kod biçiminde Excel dosyanızdır! Değiştir`"SampleTableWithQueryTable.xls"` gerçek dosya adıyla. Dosya adının doğru olduğundan ve dosyanın belirtilen dizinde bulunduğundan emin olun.
+Bu satır, bir örnek oluşturur `Workbook` sınıf, temel olarak kod biçiminde Excel dosyanızdır! Değiştir `"SampleTableWithQueryTable.xls"` gerçek dosya adıyla. Dosya adının doğru olduğundan ve dosyanın belirtilen dizinde bulunduğundan emin olun.
 ## Adım 3: Çalışma Sayfasına Erişim
 Çalışma kitabı yüklendikten sonra, üzerinde değişiklik yapmak istediğiniz belirli çalışma sayfasına erişmeniz gerekir.
 ```csharp
@@ -60,7 +62,7 @@ Artık çalışma sayfanız olduğuna göre, sorgu verilerini içeren tabloyu al
 ```csharp
 ListObject table = worksheet.ListObjects[0];
 ```
- The`ListObjects` koleksiyon, bir çalışma sayfasındaki tüm tabloları tutar ve belirterek`[0]`, ilk tabloyu seçiyorsunuz. Çalışma sayfanızda birden fazla tablo varsa, doğru dizine işaret edin.
+The `ListObjects` koleksiyon, bir çalışma sayfasındaki tüm tabloları tutar ve belirterek `[0]`, ilk tabloyu seçiyorsunuz. Çalışma sayfanızda birden fazla tablo varsa, doğru dizine işaret edin.
 ## Adım 5: Veri Kaynağı Türünü Kontrol Edin
 Herhangi bir değişiklik yapmadan önce tablonun hangi veri kaynağını kullandığını kontrol etmeniz iyi bir fikirdir.
 ```csharp
@@ -90,14 +92,16 @@ Aspose.Cells, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosyaları ol
 ### Aspose.Cells'i diğer dosya formatlarını düzenlemek için kullanabilir miyim?  
 Aspose.Cells, Excel dosyaları konusunda uzmanlaşmış olsa da Aspose, farklı formatlar (örneğin PDF, Word) için çeşitli kütüphaneler sunmaktadır.
 ### Aspose.Cells için lisansa ihtiyacım var mı?  
- Geçici bir lisans mevcuttur[Burada](https://purchase.aspose.com/temporary-license/) ve ayrıca bunu ücretsiz olarak deneyebilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
+Geçici bir lisans mevcuttur [Burada](https://purchase.aspose.com/temporary-license/)ve ayrıca bunu ücretsiz olarak deneyebilirsiniz [ücretsiz deneme](https://releases.aspose.com/).
 ### Aspose.Cells'in dokümanlarını nerede bulabilirim?  
- Tam dokümantasyonu burada bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Tam dokümantasyonu burada bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için nasıl destek alabilirim?  
- Herhangi bir soru veya sorun için Aspose destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Herhangi bir soru veya sorun için Aspose destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

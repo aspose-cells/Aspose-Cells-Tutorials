@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Cell cell = worksheet.getCells().get("A1");
 System.out.println("Before updating the font settings....");
 ```
 
-**Krok 2: Pobierz ustawienia czcionki**
+**Krok 2: Pobierz ustawienia czcionek**
 ```java
 import com.aspose.cells.FontSetting;
 
@@ -179,6 +181,9 @@ Udało Ci się nauczyć, jak uzyskiwać dostęp i aktualizować ustawienia czcio
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

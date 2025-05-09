@@ -1,14 +1,16 @@
 ---
-title: Đặt giá trị định dạng mã của chuỗi biểu đồ
-linktitle: Đặt giá trị định dạng mã của chuỗi biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập mã định dạng giá trị của chuỗi biểu đồ trong Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này. Hoàn hảo cho người mới bắt đầu.
-weight: 17
-url: /vi/net/advanced-chart-operations/set-values-format-code-of-chart-series/
+"description": "Tìm hiểu cách thiết lập mã định dạng giá trị của chuỗi biểu đồ trong Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết này. Hoàn hảo cho người mới bắt đầu."
+"linktitle": "Đặt giá trị định dạng mã của chuỗi biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đặt giá trị định dạng mã của chuỗi biểu đồ"
+"url": "/vi/net/advanced-chart-operations/set-values-format-code-of-chart-series/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt giá trị định dạng mã của chuỗi biểu đồ
@@ -22,9 +24,9 @@ Trong thế giới dữ liệu ngày nay, việc thể hiện trực quan các t
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã sẵn sàng để thành công. Sau đây là những gì bạn cần:
 
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn nắm bắt các khái niệm lập trình một cách dễ dàng.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Một IDE phù hợp để viết và thực thi mã C# của bạn. Bất kỳ phiên bản nào hỗ trợ .NET đều được.
-4.  Tệp Excel: Để minh họa, chúng tôi sẽ sử dụng tệp Excel có tên`sampleSeries_ValuesFormatCode.xlsx`. Đảm bảo bạn đã chuẩn bị sẵn nó trong thư mục làm việc của mình.
+4. Tệp Excel: Để minh họa, chúng tôi sẽ sử dụng tệp Excel có tên `sampleSeries_ValuesFormatCode.xlsx`. Đảm bảo bạn đã chuẩn bị sẵn nó trong thư mục làm việc của mình.
 
 ## Nhập gói
 
@@ -65,7 +67,7 @@ Sau khi thiết lập xong thư mục, đã đến lúc tải tệp Excel mà ch
 Tải tệp Excel cũng giống như mở một cuốn sách trước khi đọc. Nếu không mở, bạn không thể xem nội dung của nó. 
 
 ```csharp
-// Tải tệp Excel nguồn
+// Tải tệp Excel nguồn 
 Workbook wb = new Workbook(sourceDir + "sampleSeries_ValuesFormatCode.xlsx");
 ```
 
@@ -111,7 +113,7 @@ Thiết lập mã định dạng sẽ chuyển đổi các số thô thành th�
 ```csharp
 // Truy cập chuỗi và thiết lập giá trị định dạng mã của nó
 Series srs = ch.NSeries[0];
-srs.ValuesFormatCode = "$#,##0"; //Điều này đặt nó thành định dạng tiền tệ
+srs.ValuesFormatCode = "$#,##0"; // Điều này đặt nó thành định dạng tiền tệ
 ```
 
 ## Bước 7: Lưu tệp Excel đầu ra
@@ -151,13 +153,15 @@ Có, Aspose.Cells yêu cầu giấy phép để sử dụng trong môi trường
 Chắc chắn rồi! Aspose.Cells cung cấp chức năng mạnh mẽ để tạo và tùy chỉnh biểu đồ từ đầu.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể truy cập[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
+Bạn có thể truy cập [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết hướng dẫn chi tiết và tài liệu tham khảo API.
 
 ### Những định dạng nào được hỗ trợ khi lưu tệp Excel?
 Aspose.Cells hỗ trợ nhiều định dạng, bao gồm XLSX, XLS, CSV, PDF, v.v.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/controll-zoom-factor-of-worksh
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Controll Zoom Factor Of Worksheet
@@ -162,6 +164,7 @@ Support is available from the community forum [here](https://forum.aspose.com/c/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

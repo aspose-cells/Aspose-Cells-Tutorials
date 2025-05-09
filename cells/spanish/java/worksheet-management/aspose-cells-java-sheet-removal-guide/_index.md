@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Ya aprendió a eliminar una hoja de cálculo por su nombre con Aspose.Cells para
 Siguiendo esta guía, estará bien preparado para administrar hojas de Excel con Aspose.Cells en Java de forma eficiente. ¡Empiece a implementarlo hoy mismo y descubra cómo puede optimizar sus proyectos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ Egy új Excel-munkafüzet létrehozása magában foglalja egy objektum inicializ
 
 **Új munkafüzet-objektum példányosítása**
 
-Hozzon létre egy új példányt a `Workbook` osztály az Excel-fájl szerkesztésének megkezdéséhez:
+Hozzon létre egy új példányt a `Workbook` osztály az Excel-fájlod szerkesztésének megkezdéséhez:
 
 ```java
 Workbook workbook = new Workbook();
@@ -252,7 +254,7 @@ Igen, érdemes lehet streamelési funkciókat használni a nagyobb adathalmazok 
 Széles választékban állnak rendelkezésre diagramok, beleértve az oszlop-, vonal-, kördiagramokat és egyebeket. A részletekért tekintse meg a dokumentációt.
 
 **5. kérdés: Hogyan kezeljem a licencelési problémákat, ha az alkalmazásom túllépi a próbaverzió korlátait?**
-Fontolja meg egy licenc megvásárlását vagy egy hosszabbított ideiglenes licenc igénylését az Aspose platformján keresztül.
+Fontolja meg egy licenc megvásárlását, vagy egy hosszabbított ideiglenes licenc igénylését az Aspose platformján keresztül.
 
 ## Erőforrás
 
@@ -266,6 +268,9 @@ Fontolja meg egy licenc megvásárlását vagy egy hosszabbított ideiglenes lic
 Indulj el az Aspose.Cells-szel még ma, és forradalmasítsd az Excellel való munkát Java-ban!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

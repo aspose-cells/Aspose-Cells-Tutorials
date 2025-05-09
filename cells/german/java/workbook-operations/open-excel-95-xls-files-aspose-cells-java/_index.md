@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,6 +174,9 @@ Das Öffnen von Excel 95/5.0 XLS-Dateien mit Aspose.Cells Java ist unkompliziert
 - **Unterstützung**: Treten Sie dem Community-Forum bei, um Fragen zu stellen und Erkenntnisse auszutauschen [Hier](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

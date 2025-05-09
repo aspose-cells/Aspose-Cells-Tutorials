@@ -1,14 +1,16 @@
 ---
-title: บันทึกไฟล์ในรูปแบบ HTML
-linktitle: บันทึกไฟล์ในรูปแบบ HTML
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีบันทึกไฟล์ Excel ในรูปแบบ HTML โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้
-weight: 13
-url: /th/net/saving-files-in-different-formats/save-file-in-html-format/
+"description": "เรียนรู้วิธีบันทึกไฟล์ Excel ในรูปแบบ HTML โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนโดยละเอียดนี้"
+"linktitle": "บันทึกไฟล์ในรูปแบบ HTML"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "บันทึกไฟล์ในรูปแบบ HTML"
+"url": "/th/net/saving-files-in-different-formats/save-file-in-html-format/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # บันทึกไฟล์ในรูปแบบ HTML
@@ -18,12 +20,12 @@ url: /th/net/saving-files-in-different-formats/save-file-in-html-format/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่เราจะเริ่มต้น สิ่งสำคัญคือต้องมีสิ่งต่างๆ สองสามอย่างเพื่อให้มั่นใจว่าจะดำเนินไปอย่างราบรื่น:
 1. Visual Studio: หากต้องการทำงานกับ Aspose.Cells สำหรับ .NET ได้อย่างมีประสิทธิภาพ คุณจะต้องติดตั้ง Visual Studio บนคอมพิวเตอร์ของคุณ หากคุณยังไม่มี คุณสามารถดาวน์โหลดได้จากเว็บไซต์ของ Microsoft
-2.  Aspose.Cells สำหรับไลบรารี .NET: คุณจะต้องมีไลบรารีนี้ ข่าวดีก็คือสามารถดาวน์โหลดได้ง่ายจาก[ดาวน์โหลดเซลล์ Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับไลบรารี .NET: คุณจะต้องมีไลบรารีนี้ ข่าวดีก็คือสามารถดาวน์โหลดได้ง่ายจาก [ดาวน์โหลดเซลล์ Aspose](https://releases-aspose.com/cells/net/).
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: เนื่องจากคุณจะเขียนโค้ดด้วย C# ความเข้าใจพื้นฐานเกี่ยวกับภาษาจะช่วยให้คุณทำตามได้โดยไม่รู้สึกว่าหลงทาง
 4. .NET Framework/CORE: ความคุ้นเคยกับ .NET Framework หรือ .NET Core ถือเป็นข้อดี เนื่องจากไลบรารีนี้ได้รับการออกแบบมาให้ทำงานกับกรอบงานเหล่านี้
 คุณมีทุกอย่างครบแล้วหรือยัง? เยี่ยมเลย! มาเริ่มกันเลยดีกว่า
 ## การนำเข้าแพ็คเกจที่จำเป็น
-ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ Aspose.Cells คุณสามารถตั้งค่าได้ดังนี้:
+ขั้นแรก คุณต้องนำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ Aspose.Cells นี่คือวิธีการตั้งค่า:
 ### สร้างโครงการใหม่
 - เปิด Visual Studio
 - คลิกที่ “สร้างโครงการใหม่”
@@ -46,7 +48,7 @@ using Aspose.Cells;
 // เส้นทางไปยังไดเร็กทอรีเอกสาร
 string dataDir = "Your Document Directory"; // ใช้เส้นทางแบบสัมบูรณ์หรือสัมพันธ์ตามความเหมาะสม
 ```
-เหตุใดสิ่งนี้จึงสำคัญ การตั้งค่านี้ให้ถูกต้องจะช่วยให้มั่นใจได้ว่าเมื่อคุณบันทึกไฟล์ คุณจะทราบตำแหน่งที่แน่นอนของไฟล์ นี่คือแผนที่สำหรับการจัดเก็บข้อมูลที่มีค่า!
+เหตุใดสิ่งนี้จึงสำคัญ การตั้งค่านี้ให้ถูกต้องจะช่วยให้มั่นใจได้ว่าเมื่อคุณบันทึกไฟล์ คุณจะทราบตำแหน่งที่แน่นอนของไฟล์ นี่คือแผนที่สำหรับการจัดเก็บข้อมูลที่มีค่าของคุณ!
 ## ขั้นตอนที่ 2: สร้างวัตถุเวิร์กบุ๊ก
 ตอนนี้เรามาสร้างวัตถุเวิร์กบุ๊กใหม่กัน ซึ่งจะเป็นไฟล์ Excel ที่เราสามารถจัดการข้อมูลได้
 ```csharp
@@ -62,7 +64,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.Cells["A1"].PutValue("Hello World");
 worksheet.Cells["A2"].PutValue("This is a sample Excel file.");
 ```
-เหตุใดจึงต้องมีการกรอกข้อมูล การเพิ่มข้อมูลจริงจะทำให้การแปลงข้อมูลมีความหมาย เหมือนกับการลงสีบนผืนผ้าใบเปล่า
+เหตุใดจึงต้องมีการป้อนข้อมูล การเพิ่มข้อมูลจริงจะทำให้การแปลงข้อมูลมีความหมาย เหมือนกับการลงสีบนผืนผ้าใบเปล่า
 ## ขั้นตอนที่ 4: บันทึกเวิร์กบุ๊กเป็น HTML
 สุดท้ายเรามาบันทึกสมุดงานที่เราเพิ่งสร้างไว้ในรูปแบบ HTML กัน!
 ```csharp
@@ -76,16 +78,18 @@ workbook.Save(dataDir + "output.html", SaveFormat.Html);
 ### Aspose.Cells สำหรับ .NET คืออะไร?
 Aspose.Cells สำหรับ .NET เป็นไลบรารี .NET ที่อนุญาตให้ผู้ใช้สร้าง จัดการ และแปลงไฟล์ Excel ได้
 ### ฉันสามารถทดลองใช้ Aspose.Cells ได้โดยไม่ต้องซื้อหรือไม่?
- ใช่! Aspose เสนอให้ทดลองใช้งานฟรี[ที่นี่](https://releases.aspose.com/).
+ใช่! Aspose เสนอให้ทดลองใช้งานฟรี [ที่นี่](https://releases-aspose.com/).
 ### ฉันสามารถบันทึกไฟล์ Excel ของฉันในรูปแบบใดได้บ้าง
 ด้วย Aspose.Cells คุณสามารถบันทึกไฟล์ในรูปแบบต่างๆ รวมถึง PDF, HTML, CSV และอื่นๆ อีกมากมาย
 ### มีชุมชนหรือการสนับสนุนสำหรับ Aspose.Cells หรือไม่
- แน่นอน! คุณสามารถหาความช่วยเหลือได้ใน[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).
+แน่นอน! คุณสามารถหาความช่วยเหลือได้ใน [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 ### ฉันจะได้รับใบอนุญาตชั่วคราวได้อย่างไร?
- คุณสามารถขอใบอนุญาตชั่วคราวได้ผ่านลิงค์นี้:[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+คุณสามารถขอใบอนุญาตชั่วคราวได้ผ่านลิงค์นี้: [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

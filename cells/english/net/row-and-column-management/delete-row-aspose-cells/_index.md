@@ -8,7 +8,9 @@ url: /net/row-and-column-management/delete-row-aspose-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete a Row in Aspose.Cells .NET
@@ -90,6 +92,7 @@ You can try Aspose.Cells for free by getting a [temporary license](https://purch
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

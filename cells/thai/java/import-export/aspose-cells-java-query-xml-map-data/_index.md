@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ for (Object obj : ret) {
 หากทำตามบทช่วยสอนนี้ คุณจะสามารถใช้ความสามารถของ Aspose.Cells สำหรับ Java ในการค้นหาข้อมูลแผนที่ XML ในไฟล์ Excel ได้อย่างมีประสิทธิภาพ ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Bạn có đang gặp khó khăn khi phải điều chỉnh thủ công các b�
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-- **Thư viện bắt buộc:** Bạn sẽ cần thư viện Aspose.Cells for Java (phiên bản 25.3).
+- **Thư viện cần thiết:** Bạn sẽ cần thư viện Aspose.Cells for Java (phiên bản 25.3).
 - **Thiết lập môi trường:** Đảm bảo môi trường phát triển của bạn hỗ trợ Java và có thể xây dựng các dự án bằng Maven hoặc Gradle.
 - **Điều kiện tiên quyết về kiến thức:** Có kiến thức cơ bản về lập trình Java, bao gồm các nguyên tắc hướng đối tượng.
 
@@ -186,6 +188,9 @@ Hãy thử triển khai các giải pháp này vào dự án của bạn và kh�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

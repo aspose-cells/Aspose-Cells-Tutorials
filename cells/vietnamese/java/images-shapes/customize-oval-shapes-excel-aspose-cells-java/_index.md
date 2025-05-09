@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A: Xem lại các mẫu sử dụng bộ nhớ và tối ưu hóa mã của bạ
 Bằng cách làm theo hướng dẫn này, giờ đây bạn đã có thể cải thiện bảng tính Excel của mình bằng các hình dạng tùy chỉnh bằng Aspose.Cells for Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

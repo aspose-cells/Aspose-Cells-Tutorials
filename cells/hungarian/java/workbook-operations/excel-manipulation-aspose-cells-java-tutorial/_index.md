@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ További felfedezéshez próbáljon ki fejlettebb funkciókat, például képlet
 **K: Mi az Aspose.Cells?**
 A: Az Aspose.Cells egy olyan függvénykönyvtár, amely lehetővé teszi a fejlesztők számára, hogy Excel fájlokat hozzanak létre, szerkeszszenek és konvertáljanak Java alkalmazásokban anélkül, hogy telepíteni kellene a Microsoft Office-t.
 
-**K: Hogyan alkalmazhatok különböző betűtípusstílusokat az Aspose.Cells for Java használatával?**
+**K: Hogyan alkalmazhatok különböző betűstílusokat az Aspose.Cells for Java használatával?**
 V: Használhatja a `Font` osztály különféle tulajdonságok, például félkövér, dőlt, méret, szín és aláhúzás típusának beállításához.
 
 **K: Létrehozhatok diagramokat az Aspose.Cells segítségével Java-ban?**
@@ -183,6 +185,9 @@ V: Látogassa meg a [Aspose weboldal](https://purchase.aspose.com/temporary-lice
 - **Támogatás**: Csatlakozz a közösséghez, vagy kérj segítséget a következőn keresztül: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

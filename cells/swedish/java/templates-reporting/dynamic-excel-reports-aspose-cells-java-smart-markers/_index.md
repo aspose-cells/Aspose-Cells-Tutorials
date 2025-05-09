@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,7 +207,7 @@ workbook.save(outDir + "/UsingGenericList_out.xlsx");
 
 ## Praktiska tillämpningar
 
-1. **Utbildningsinstitutioner:** Generera dynamiskt elev-lärarrapporter för läsårets bedömningar.
+1. **Utbildningsinstitutioner:** Generera dynamiskt elev-lärare-rapporter för läsårets bedömningar.
 2. **HR-avdelningar:** Skapa medarbetar- och teamrapporter med dynamiska dataflöden från HR-system.
 3. **Säljteam:** Skapa dashboards för försäljningsprestanda genom att binda realtidsdata till Excel-mallar.
 
@@ -235,6 +237,9 @@ A: Smarta markörer möjliggör kapslade egenskaper, vilket gör att du enkelt k
 A: Alternativen inkluderar en gratis provperiod, en tillfällig licens och ett fullständigt köp. Besök [Asposes webbplats](https://purchase.aspose.com/buy) för mer information.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

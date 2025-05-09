@@ -1,14 +1,16 @@
 ---
-title: Excel'de Şekille Metni Döndürme
-linktitle: Excel'de Şekille Metni Döndürme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de şekillerle metni nasıl döndüreceğinizi öğrenin. Mükemmel Excel sunumu için bu adım adım kılavuzu izleyin.
-weight: 12
-url: /tr/net/excel-shape-text-modifications/rotate-text-shape-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel'de şekillerle metni nasıl döndüreceğinizi öğrenin. Mükemmel Excel sunumu için bu adım adım kılavuzu izleyin."
+"linktitle": "Excel'de Şekille Metni Döndürme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Şekille Metni Döndürme"
+"url": "/tr/net/excel-shape-text-modifications/rotate-text-shape-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Şekille Metni Döndürme
@@ -17,10 +19,10 @@ url: /tr/net/excel-shape-text-modifications/rotate-text-shape-excel/
 Excel dünyasında, görsel temsil, verinin kendisi kadar önemlidir. İster bir rapor hazırlayın ister dinamik bir gösterge paneli tasarlayın, bilgilerin düzenlenme şekli, okunabilirliğini ve genel görünümünü önemli ölçüde etkileyebilir. Peki, hiç metni döndürüp şekillerle şık bir şekilde hizalamak istediniz mi? Şanslısınız! Bu eğitimde, .NET için Aspose.Cells kullanarak şekillerle metni nasıl döndüreceğinizi inceleyeceğiz ve elektronik tablolarınızın yalnızca bilgilendirmekle kalmayıp aynı zamanda etkilemesini sağlayacağız.
 ## Ön koşullar
 Başlamadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1. Visual Studio: Kodumuzu yazacağımız yer olan Visual Studio'nun bilgisayarınızda yüklü olduğundan emin olun.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak.[en son sürümü buradan indirin](https://releases.aspose.com/cells/net/) veya ücretsiz olarak deneyin[ücretsiz deneme](https://releases.aspose.com/).
+1. Visual Studio: Kodumuzu yazacağımız yer olan Visual Studio'nun makinenizde yüklü olduğundan emin olun.
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. [en son sürümü buradan indirin](https://releases.aspose.com/cells/net/) veya ücretsiz olarak deneyin [ücretsiz deneme](https://releases.aspose.com/).
 3. Temel C# Bilgisi: C# ve .NET ortamına aşina olmanız faydalı olacaktır, ancak her adımda size rehberlik edeceğiz.
-4.  Excel Dosyası: Örnek bir Excel dosyası diyelim`sampleRotateTextWithShapeInsideWorksheet.xlsx`, kodumuzu test etmek için gereklidir. Bu dosyayı kolayca erişebileceğiniz bir dizine koymalısınız.
+4. Excel Dosyası: Örnek bir Excel dosyası diyelim `sampleRotateTextWithShapeInsideWorksheet.xlsx`, kodumuzu test etmek için gereklidir. Bu dosyayı kolayca erişebileceğiniz bir dizine koymalısınız.
 Her şey hazır mı? Harika! Hadi eğlenceli kısma geçelim.
 ## Paketleri İçe Aktar
 Atılmak için gerekli paketleri projemize aktarmamız gerekiyor. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
@@ -53,7 +55,7 @@ string sourceDir = "Your Document Directory"; // Belge dizininizi ayarlayın
 //Çıktı dizini
 string outputDir = "Your Document Directory"; // Çıkış dizininizi ayarlayın
 ```
- Yer değiştirmek`"Your Document Directory"` gerçek yolunuzla`sampleRotateTextWithShapeInsideWorksheet.xlsx` dosya bulundu.
+Yer değiştirmek `"Your Document Directory"` gerçek yolunuzla `sampleRotateTextWithShapeInsideWorksheet.xlsx` dosya bulundu.
 ## Adım 2: Örnek Excel Dosyasını Yükleyin
 Şimdi örnek Excel dosyasını yükleyelim. Bu çok önemli çünkü mevcut verileri düzenlemek istiyoruz.
 ```csharp
@@ -88,7 +90,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //RotateTextWithShape'i false olarak ayarlayarak şekli olan metni döndürmeyin.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- Ayarlayarak`RotateTextWithShape` false olarak ayarlayarak metnin dik kalmasını ve şekille birlikte dönmemesini sağlıyoruz, böylece her şey temiz ve düzenli kalıyor.
+Ayarlayarak `RotateTextWithShape` false olarak ayarlayarak metnin dik kalmasını ve şekille birlikte dönmemesini sağlıyoruz, böylece her şey temiz ve düzenli kalıyor.
 ## Adım 7: Çıktı Excel Dosyasını Kaydedin
 Son olarak, değişikliklerimizi yeni bir Excel dosyasına kaydedelim. Bu, düzenlemelerimizi kaybetmememizi ve düzenli bir çıktıya sahip olmamızı sağlar.
 ```csharp
@@ -97,7 +99,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Ve işte bu kadar! Çıktı dosyanız artık kaydedildi, B4 hücresindeki metin ve şekle yapılan ayarlamalar dahil.
 ## Adım 8: Kodu Çalıştırın
- Senin içinde`Main` yöntemini kullanın, yukarıdaki tüm kod parçacıklarını sarın ve projenizi çalıştırın. Değişikliklerin çıktı dosyanıza yansıdığını görün!
+Senin içinde `Main` yöntemini kullanın, yukarıdaki tüm kod parçacıklarını sarın ve projenizi çalıştırın. Değişikliklerin çıktı dosyanıza yansıdığını görün!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,18 +107,20 @@ Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 Aspose.Cells for .NET kullanarak Excel'de şekillerle metni döndürmek ilk başta ayrıntılı bir işlem gibi görünebilir, ancak parçalara ayırdığınızda oldukça basittir. Bu basit adımları izleyerek, elektronik tablolarınızı daha profesyonel ve görsel olarak çekici görünecek şekilde özelleştirebilirsiniz. Şimdi, bunu bir müşteri veya kişisel projeleriniz için yapıyor olun, herkes işinizin kalitesinden övgüyle bahsedecek!
 ## SSS
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Şunu kullanabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) Kütüphaneyi denemek için.
+Evet! Şunu kullanabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) Kütüphaneyi denemek için.
 ### Aspose.Cells hangi Excel sürümlerini destekliyor?
 Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli Excel formatlarını destekler.
 ### Excel'in eski sürümlerinde şekiller içeren metni döndürmek mümkün müdür?
 Evet, bu işlevsellik Aspose.Cells tarafından desteklenen eski formatlara uygulanabilir.
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Kapsamlı içeriği keşfedebilirsiniz[belgeleme](https://reference.aspose.com/cells/net/) Daha fazla bilgi için.
+Kapsamlı içeriği keşfedebilirsiniz [belgeleme](https://reference.aspose.com/cells/net/) Daha fazla bilgi için.
 ### Aspose.Cells için desteği nasıl alabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

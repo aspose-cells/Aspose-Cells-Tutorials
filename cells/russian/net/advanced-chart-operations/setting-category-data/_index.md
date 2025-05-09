@@ -1,14 +1,16 @@
 ---
-title: Настройка данных категории
-linktitle: Настройка данных категории
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как задать данные категории в диаграммах Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для легкой реализации.
-weight: 15
-url: /ru/net/advanced-chart-operations/setting-category-data/
+"description": "Узнайте, как задать данные категории в диаграммах Excel с помощью Aspose.Cells для .NET. Следуйте нашему пошаговому руководству для легкой реализации."
+"linktitle": "Настройка данных категории"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Настройка данных категории"
+"url": "/ru/net/advanced-chart-operations/setting-category-data/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Настройка данных категории
@@ -22,9 +24,9 @@ url: /ru/net/advanced-chart-operations/setting-category-data/
 Прежде чем углубиться в подробности, давайте убедимся, что у вас есть все необходимое:
 
 1. Среда разработки: Убедитесь, что у вас настроена среда разработки .NET. Рекомендуется Visual Studio.
-2.  Библиотека Aspose.Cells for .NET: Загрузите последнюю версию библиотеки с сайта[Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/net/).
+2. Библиотека Aspose.Cells for .NET: Загрузите последнюю версию библиотеки с сайта [Страница загрузки Aspose.Cells](https://releases.aspose.com/cells/net/).
 3. Базовое понимание C#: знакомство с концепциями C# и Excel поможет вам более легко усвоить материал.
-4.  Доступ к документации: Имея доступ к[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) может предоставить дополнительную информацию, если вы застрянете. 
+4. Доступ к документации: Имея доступ к [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) может предоставить дополнительную информацию, если вы застрянете. 
 
 Теперь, когда все готово, давайте шаг за шагом откроем магию работы с Excel.
 
@@ -54,7 +56,7 @@ using Aspose.Cells;
 string outputDir = "Your Output Directory";
 ```
 
- Заменять`"Your Output Directory"` с фактическим путем к месту, где вы хотите сохранить ваш выходной файл Excel. Это гарантирует, что вы точно знаете, где найти ваш готовый продукт!
+Заменять `"Your Output Directory"` с фактическим путем к месту, где вы хотите сохранить ваш выходной файл Excel. Это гарантирует, что вы точно знаете, где найти ваш готовый продукт!
 
 ## Шаг 3: Создание экземпляра объекта Workbook
 
@@ -72,7 +74,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Индекс`0` указывает на первый рабочий лист. В Excel это можно сравнить с открытием первой вкладки в рабочей книге.
+Индекс `0` указывает на первый рабочий лист. В Excel это можно сравнить с открытием первой вкладки в рабочей книге.
 
 ## Шаг 5: Добавление выборочных значений в ячейки
 
@@ -120,7 +122,7 @@ int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0
 
 ## Шаг 8: Доступ к экземпляру диаграммы
 
-Прежде чем мы сможем заполнить диаграмму данными, нам необходимо получить доступ к экземпляру только что созданной диаграммы:
+Прежде чем заполнить диаграмму данными, нам необходимо получить доступ к экземпляру только что созданной диаграммы:
 
 ```csharp
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
@@ -178,7 +180,7 @@ Console.WriteLine("SettingCategoryData executed successfully.");
 Aspose.Cells — это библиотека .NET для управления файлами Excel без необходимости использования Microsoft Excel. Она позволяет программно создавать, редактировать и конвертировать документы Excel.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, вы можете попробовать Aspose.Cells бесплатно. Они предлагают бесплатную пробную версию[здесь](https://releases.aspose.com/).
+Да, вы можете попробовать Aspose.Cells бесплатно. Они предлагают бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
 ### Подходит ли Aspose.Cells для больших наборов данных?
 Конечно! Aspose.Cells разработан для эффективной обработки больших наборов данных, что делает его надежным выбором для приложений с интенсивным использованием данных.
@@ -187,10 +189,12 @@ Aspose.Cells — это библиотека .NET для управления ф
 Вы можете добавлять диаграммы, создав новый объект диаграммы и связав его с диапазонами ячеек, содержащими ваши данные, как показано в этом руководстве.
 
 ### Где я могу найти больше примеров использования Aspose.Cells?
- Вы можете изучить больше примеров и подробную документацию на сайте[Страница документации Aspose.Cells](https://reference.aspose.com/cells/net/).
+Вы можете изучить больше примеров и подробную документацию на сайте [Страница документации Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

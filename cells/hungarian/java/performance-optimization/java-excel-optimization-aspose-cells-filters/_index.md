@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ public class ExcelLoader {
     public static void main(String[] args) throws Exception {
         Workbook workbook = new Workbook("path/to/your/excel/file.xlsx", new CustomLoad());
         
-        // A betöltött munkalap elérése és feldolgozása
+        // A betöltött lap elérése és feldolgozása
         Worksheet sheet2 = workbook.getWorksheets().get("Sheet2");
         // További feldolgozási kód itt
     }
@@ -190,6 +192,9 @@ Készen állsz arra, hogy Java és Excel feldolgozási készségeidet a követke
 - **Támogatás:** Kérjen segítséget és beszélje meg a problémákat a következő oldalon: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

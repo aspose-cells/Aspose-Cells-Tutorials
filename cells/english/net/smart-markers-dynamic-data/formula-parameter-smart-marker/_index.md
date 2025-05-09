@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/formula-parameter-smart-marker/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Formula Parameter in Smart Marker Field Aspose.Cells
@@ -117,6 +119,7 @@ For support, visit the [support forum](https://forum.aspose.com/c/cells/9).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

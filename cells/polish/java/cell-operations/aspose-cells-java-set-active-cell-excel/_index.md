@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,6 +162,9 @@ A: Upewnij się, że w systemie jest wystarczająca ilość pamięci i rozważ z
 Jeśli napotkasz jakiekolwiek problemy lub będziesz mieć dalsze pytania, możesz skontaktować się z nami za pośrednictwem forum wsparcia. Szczęśliwego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

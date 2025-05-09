@@ -1,14 +1,16 @@
 ---
-title: .NET'te Dosyaları Şifreleme
-linktitle: .NET'te Dosyaları Şifreleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel dosyalarınızı parola korumasıyla güvence altına alın. Bu kılavuz sizi adım adım şifreleme konusunda yönlendirir.
-weight: 11
-url: /tr/net/security-and-encryption/encrypting-files/
+"description": "Aspose.Cells for .NET kullanarak Excel dosyalarınızı parola korumasıyla güvence altına alın. Bu kılavuz sizi adım adım şifreleme konusunda yönlendirir."
+"linktitle": ".NET'te Dosyaları Şifreleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Dosyaları Şifreleme"
+"url": "/tr/net/security-and-encryption/encrypting-files/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Dosyaları Şifreleme
@@ -18,7 +20,7 @@ Günümüzün dijital dünyasında, veri güvenliği en önemli önceliktir. İs
 ## Ön koşullar
 Koda dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte bir kontrol listesi:
 1. .NET Framework: .NET Framework'ün uyumlu bir sürümünün yüklü olduğundan emin olun. Aspose.Cells .NET sürümleriyle iyi çalışır, bu nedenle projenize uygun olanı seçin.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini şu adresten indirin:[indirme sayfası](https://releases.aspose.com/cells/net/)Bu güçlü kütüphane Excel dosyalarını zahmetsizce düzenlemenize ve şifrelemenize olanak tanır.
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini şu adresten indirin: [indirme sayfası](https://releases.aspose.com/cells/net/)Bu güçlü kütüphane Excel dosyalarını zahmetsizce düzenlemenize ve şifrelemenize olanak tanır.
 3. Visual Studio: İyi bir IDE işinizi kolaylaştıracaktır, bu yüzden geliştirme çalışmanız için Visual Studio'nun (veya herhangi bir .NET uyumlu IDE'nin) kurulu olduğundan emin olun.
 4. C#'ın Temel Anlayışı: Malzemeleri nasıl ölçeceğinizi biliyorsanız kek pişirmek daha kolaydır, değil mi? Benzer şekilde, C# hakkında biraz bilgi sahibi olmak bu görevi verimli bir şekilde nasıl kodlayacağınızı anlamanıza yardımcı olacaktır.
 Bu maddeleri tamamladığınızda, ilerlemeye hazırsınız!
@@ -45,7 +47,7 @@ Bu adım, alet çantanızın anahtarlarını almak gibidir; kullanacağınız t�
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Burada, değiştirin`"Your Document Directory"` Excel dosyanızın bulunduğu ve şifrelenmiş dosyayı kaydetmek istediğiniz gerçek bir yol ile.
+Burada, değiştirin `"Your Document Directory"` Excel dosyanızın bulunduğu ve şifrelenmiş dosyayı kaydetmek istediğiniz gerçek bir yol ile.
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 Şimdi Excel dosyanızla çalışacak bir Çalışma Kitabı nesnesi oluşturalım.
 ```csharp
@@ -59,7 +61,7 @@ Aspose.Cells'de şifreleme söz konusu olduğunda seçenekleriniz var. Bu örnek
 ```csharp
 // XOR şifreleme türünü belirtin.
 workbook.SetEncryptionOptions(EncryptionType.XOR, 40);
-//Güçlü Şifreleme türünü belirtin (RC4, Microsoft Güçlü Şifreleme Sağlayıcısı).
+// Güçlü Şifreleme türünü belirtin (RC4, Microsoft Güçlü Şifreleme Sağlayıcısı).
 workbook.SetEncryptionOptions(EncryptionType.StrongCryptographicProvider, 128);
 ```
 Bu seçenekleri kullanabileceğiniz kilit türleri gibi düşünün; bazıları daha kısadır ve açılması daha kolaydır (XOR), bazıları ise çok daha zordur (Güçlü Kriptografi Sağlayıcısı).
@@ -68,13 +70,13 @@ Bu seçenekleri kullanabileceğiniz kilit türleri gibi düşünün; bazıları 
 ```csharp
 workbook.Settings.Password = "1234";
 ```
- Değiştirmekten çekinmeyin`"1234"` istediğiniz herhangi bir şifreye. Sadece şunu unutmayın, şifre ne kadar güçlüyse koruma da o kadar iyidir!
+Değiştirmekten çekinmeyin `"1234"` istediğiniz herhangi bir şifreye. Sadece şunu unutmayın, şifre ne kadar güçlüyse koruma da o kadar iyidir!
 ## Adım 5: Şifrelenmiş Excel Dosyasını Kaydedin
 Son olarak şifrelenmiş dosyanızı oluşturmak için değişiklikleri kaydedelim.
 ```csharp
 workbook.Save(dataDir + "encryptedBook1.out.xls");
 ```
- Bu kod satırı çalışma kitabını şu şekilde kaydeder:`encryptedBook1.out.xls` belirttiğiniz dizinde. Kitabı güvenli bir şekilde kilitleyip rafa geri koymak gibi!
+Bu kod satırı çalışma kitabını şu şekilde kaydeder: `encryptedBook1.out.xls` belirttiğiniz dizinde. Kitabı güvenli bir şekilde kilitleyip rafa geri koymak gibi!
 ## Çözüm
 Ve işte oldu! .NET'te Aspose.Cells kullanarak bir Excel dosyasını nasıl şifreleyeceğinizi öğrendiniz. Bu adımları izleyerek hassas verilerinizin iyi korunduğundan emin olursunuz. Sadece şunu unutmayın: koruma sizinle başlar, bu yüzden bilgilerinizi korumak için her zaman gerekli adımları atın. 
 ## SSS
@@ -83,14 +85,16 @@ Aspose.Cells, Excel dosyalarını yönetmek ve işlemek için kullanılan güçl
 ### Excel dosyalarını farklı parola güçleriyle şifreleyebilir miyim?
 Evet, Aspose.Cells kullanırken farklı şifreleme türleri ve güçleri belirleyebilirsiniz.
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümünü buradan indirebilirsiniz[web sitesi](https://releases.aspose.com/).
-### Aspose.Cells için desteği nerede bulabilirim?
- Desteğe Aspose forumundan erişilebilir:[Aspose Desteği](https://forum.aspose.com/c/cells/9).
+Evet, ücretsiz deneme sürümünü buradan indirebilirsiniz [web sitesi](https://releases.aspose.com/).
+### Aspose.Cells için desteği nereden bulabilirim?
+Desteğe Aspose forumundan erişilebilir: [Aspose Desteği](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells'i nasıl satın alabilirim?
- Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Lisansı şuradan satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

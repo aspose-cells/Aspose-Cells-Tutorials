@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -270,6 +272,9 @@ A5: يقوم كائن HtmlSaveOptions بتكوين كيفية حفظ ملفات 
 باتباع هذا البرنامج التعليمي، ستكون جاهزًا تمامًا لاستخدام Aspose.Cells لـ Java في مشاريعك، مما يُحسّن الإنتاجية والكفاءة. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

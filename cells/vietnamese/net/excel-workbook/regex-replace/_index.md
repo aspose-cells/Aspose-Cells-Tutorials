@@ -1,14 +1,16 @@
 ---
-title: Thay thế Regex
-linktitle: Thay thế Regex
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách sử dụng regex thay thế hiệu quả trong Excel với Aspose.Cells cho .NET. Tăng năng suất và độ chính xác trong các tác vụ bảng tính của bạn.
-weight: 140
-url: /vi/net/excel-workbook/regex-replace/
+"description": "Tìm hiểu cách sử dụng regex thay thế hiệu quả trong Excel với Aspose.Cells cho .NET. Tăng năng suất và độ chính xác trong các tác vụ bảng tính của bạn."
+"linktitle": "Thay thế Regex"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thay thế Regex"
+"url": "/vi/net/excel-workbook/regex-replace/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay thế Regex
@@ -22,7 +24,7 @@ Bạn có thấy mệt mỏi khi phải dành hàng giờ để thực hiện nh
 Trước khi đi sâu vào phần lập trình, hãy đảm bảo rằng bạn đã được trang bị đầy đủ cho hành trình phía trước.
 
 1. .NET Framework: Đảm bảo bạn đã thiết lập môi trường .NET. Cho dù là .NET Core hay .NET Framework, bạn đều có thể sử dụng.
-2. Thư viện Aspose.Cells: Thư viện này là chìa khóa để bạn mở khóa các thao tác bảng tính mạnh mẽ. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Thư viện này là chìa khóa để bạn mở khóa các thao tác bảng tính mạnh mẽ. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. IDE: Sử dụng Môi trường phát triển tích hợp (IDE) yêu thích của bạn như Visual Studio, giúp trải nghiệm viết mã của bạn mượt mà hơn nhiều.
 4. Kiến thức lập trình cơ bản: Sự quen thuộc với C# và các khái niệm về biểu thức chính quy sẽ có lợi.
 
@@ -31,7 +33,7 @@ Trước khi đi sâu vào phần lập trình, hãy đảm bảo rằng bạn �
 Để bắt đầu, hãy đảm bảo bạn đã thiết lập dự án của mình bằng cách thêm thư viện Aspose.Cells. Bạn có thể thực hiện việc này thông qua NuGet Package Manager trong Visual Studio.
 
 1. Mở dự án của bạn và điều hướng đến Công cụ > Trình quản lý gói NuGet > Quản lý gói NuGet cho Giải pháp.
-2.  Tìm kiếm`Aspose.Cells` và cài đặt nó.
+2. Tìm kiếm `Aspose.Cells` và cài đặt nó.
 
 Bây giờ bạn đã thiết lập xong, hãy nhập các gói cần thiết cho ứng dụng của chúng ta.
 
@@ -59,7 +61,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Đây,`"Your Document Directory"` Và`"Your Document Directory"` là các hàm tiện ích giúp bạn lấy nguồn và đường dẫn đầu ra một cách thuận tiện. Đảm bảo thư mục nguồn của bạn chứa một tệp có tên`SampleRegexReplace.xlsx` cho ví dụ này.
+Đây, `"Your Document Directory"` Và `"Your Document Directory"` là các hàm tiện ích giúp bạn lấy nguồn và đường dẫn đầu ra một cách thuận tiện. Đảm bảo thư mục nguồn của bạn chứa một tệp có tên `SampleRegexReplace.xlsx` cho ví dụ này.
 
 ## Bước 2: Tải Workbook
 
@@ -69,7 +71,7 @@ Bây giờ chúng ta đã biết các tệp của mình nằm ở đâu, hãy t�
 Workbook workbook = new Workbook(sourceDir + "SampleRegexReplace.xlsx");
 ```
 
- Những gì chúng ta đang làm ở đây là tạo ra một trường hợp mới của`Workbook` class, truyền đường dẫn của tệp nguồn đến hàm tạo. Thao tác này sẽ tải tệp Excel của bạn và chuẩn bị để chỉnh sửa!
+Những gì chúng ta đang làm ở đây là tạo ra một trường hợp mới của `Workbook` class, truyền đường dẫn của tệp nguồn đến hàm tạo. Thao tác này sẽ tải tệp Excel của bạn và chuẩn bị để chỉnh sửa!
 
 ## Bước 3: Cấu hình tùy chọn thay thế
 
@@ -83,9 +85,9 @@ replace.RegexKey = true; // Chỉ rõ rằng chúng tôi đang sử dụng regex
 ```
 
 Trong cấu hình này:
-- `CaseSensitive` được thiết lập để`false`, nghĩa là tìm kiếm "KIM" của chúng ta sẽ bỏ qua chữ hoa hay chữ thường.
-- `MatchEntireCellContents` được thiết lập để`false` vì vậy chúng ta có thể thay thế một phần nội dung của tế bào.
-- `RegexKey` được thiết lập để`true` để chỉ ra rằng chúng tôi sẽ sử dụng biểu thức chính quy cho tìm kiếm của mình.
+- `CaseSensitive` được thiết lập để `false`, nghĩa là tìm kiếm "KIM" của chúng tôi sẽ bỏ qua chữ hoa hay chữ thường.
+- `MatchEntireCellContents` được thiết lập để `false` vì vậy chúng ta có thể thay thế một phần nội dung của tế bào.
+- `RegexKey` được thiết lập để `true` để chỉ ra rằng chúng tôi sẽ sử dụng biểu thức chính quy cho tìm kiếm của mình.
 
 ## Bước 4: Thực hiện thay thế
 
@@ -97,7 +99,7 @@ workbook.Replace("\\bKIM\\b", "^^^TIM^^^", replace);
 
 Trong dòng này:
 - `\\b` biểu thị ranh giới từ trong biểu thức chính quy, đảm bảo chúng ta chỉ thay thế "KIM" khi nó xuất hiện dưới dạng một từ toàn bộ chứ không phải là một phần của từ khác.
-- Chúng tôi thay thế nó bằng "^^^TIM^^^" (chú ý ba dấu mũ). Điều này cho thấy việc thay thế dựa trên biểu thức chính quy có thể dễ dàng như thế nào!
+- Chúng tôi thay thế nó bằng "^^^TIM^^^" (lưu ý ba dấu mũ). Điều này cho thấy việc thay thế dựa trên regex có thể dễ dàng như thế nào!
 
 ## Bước 5: Lưu sổ làm việc
 
@@ -138,10 +140,12 @@ Có, nó hỗ trợ nhiều định dạng khác nhau bao gồm XLS, XLSX, CSV, 
 Có, bạn có thể tạo các mẫu biểu thức chính quy phức tạp hơn để khớp nhiều thuật ngữ cùng lúc.
 
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Cells ở đâu?  
-Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

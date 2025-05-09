@@ -1,14 +1,16 @@
 ---
-title: Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme
-linktitle: Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım eğitimde Aspose.Cells for .NET kullanarak adlandırılmış aralıktaki hücreleri nasıl birleştireceğinizi öğrenin. Excel raporlarını nasıl biçimlendireceğinizi, biçimlendireceğinizi ve otomatikleştireceğinizi keşfedin.
-weight: 11
-url: /tr/net/excel-advanced-named-ranges/merge-cells-in-named-range/
+"description": "Bu adım adım eğitimde Aspose.Cells for .NET kullanarak adlandırılmış aralıktaki hücreleri nasıl birleştireceğinizi öğrenin. Excel raporlarını nasıl biçimlendireceğinizi, biçimlendireceğinizi ve otomatikleştireceğinizi keşfedin."
+"linktitle": "Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme"
+"url": "/tr/net/excel-advanced-named-ranges/merge-cells-in-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Adlandırılmış Aralıktaki Hücreleri Birleştirme
@@ -21,7 +23,7 @@ Excel dosyalarıyla programatik olarak çalışırken karşılaşabileceğiniz y
 
 Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
 
--  Aspose.Cells for .NET: Bunu şu adresten indirebilirsiniz:[Aspose.Cells sürüm sayfası](https://releases.aspose.com/cells/net/).
+- Aspose.Cells for .NET: Bunu şu adresten indirebilirsiniz: [Aspose.Cells sürüm sayfası](https://releases.aspose.com/cells/net/).
 - Bilgisayarınızda .NET Framework yüklü olmalıdır.
 - Temel C# bilgisi: Sınıflar, metotlar ve nesneler gibi kavramlara aşinalık faydalı olacaktır.
 
@@ -66,7 +68,7 @@ Worksheet worksheet1 = wb1.Worksheets[0];
 Artık çalışma sayfamız olduğuna göre, bir aralık oluşturmanın zamanı geldi. Bir aralık, birden fazla satır ve sütuna yayılabilen bir hücre bloğunu ifade eder.
 
 ```csharp
-//Bir aralık yaratın.
+// Bir aralık yaratın.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
@@ -124,7 +126,7 @@ Burada, metni hem yatay hem de dikey olarak ortada hizalıyoruz ve açık mavi (
 
 ## Adım 8: Stili Aralığa Uygulayın
 
-Stili tanımladıktan sonra, bunu birleştirilmiş aralığa uygulamanın zamanı geldi.
+Stili tanımladıktan sonra, bunu birleştirilmiş aralığa uygulama zamanı geldi.
 
 ```csharp
 // Bir StyleFlag nesnesi oluşturun.
@@ -139,7 +141,7 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- The`StyleFlag` Aspose.Cells'e hangi stil özelliklerinin uygulanacağını söyler: hizalama, gölgelendirme, vb. Bu, stilin nasıl uygulanacağı konusunda ayrıntılı kontrol sağlar.
+The `StyleFlag` Aspose.Cells'e hangi stil özelliklerinin uygulanacağını söyler: hizalama, gölgelendirme, vb. Bu, stilin nasıl uygulanacağı konusunda ayrıntılı kontrol sağlar.
 
 ## Adım 9: Birleştirilmiş Aralığa Veri Girin
 
@@ -173,7 +175,7 @@ Ve işte oldu! Adlandırılmış bir aralıktaki hücreleri başarıyla birleşt
 Hayır, Aspose.Cells'de yalnızca bitişik hücreleri birleştirebilirsiniz.
 
 ### Bir birleştirme işlemini program aracılığıyla geri alabilir miyim?  
- Hücreler birleştirildikten sonra, bunları kullanarak ayırabilirsiniz`UnMerge()` Aspose.Cells'deki yöntem.
+Hücreler birleştirildikten sonra, bunları kullanarak ayırabilirsiniz `UnMerge()` Aspose.Cells'deki yöntem.
 
 ### Hücreleri birleştirdiğimde hücrelerdeki veriler silinir mi?  
 Birleştirmeden önce hücrelerde herhangi bir veri varsa, aralığın ilk hücresindeki veriler korunur.
@@ -183,9 +185,11 @@ Hayır, birleştirilmiş aralık tek bir hücre gibi davranır, bu nedenle için
 
 ### Birleştirmeden sonra birleştirilmiş hücreye nasıl erişebilirim?  
 Birleştirme işleminden sonra, birleştirilmiş hücreye sol üst köşesinin koordinatlarını kullanarak erişebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

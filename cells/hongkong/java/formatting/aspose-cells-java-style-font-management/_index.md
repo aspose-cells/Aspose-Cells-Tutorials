@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ Aspose.Cells 可用：
 ## 常見問題部分
 1. **Aspose.Cells for Java 的主要用途是什麼？**
    - 它允許在 Java 應用程式中全面操作和管理 Excel 檔案。
-2. **我怎樣才能同時設定多個單元格的樣式？**
+2. **我如何一次設定多個單元格的樣式？**
    - 遍歷單元格範圍並以程式設計方式套用樣式。
 3. **我可以使用 Aspose.Cells 更改字體大小嗎？**
    - 是的，訪問 `Font` 物件的屬性來根據需要調整大小。
@@ -163,6 +165,9 @@ Aspose.Cells 可用：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

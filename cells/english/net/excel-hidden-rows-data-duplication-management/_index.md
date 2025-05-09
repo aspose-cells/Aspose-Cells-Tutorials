@@ -8,7 +8,9 @@ url: /net/excel-hidden-rows-data-duplication-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Hidden Rows and Data Duplication Management
@@ -34,9 +36,11 @@ Next, let's talk about data duplication, a common yet often overlooked issue. Ha
 Discover how to retrieve hidden row indices after refreshing Auto Filter in Excel using Aspose.Cells for .NET. Simplify your data management.
 ### [Automatically Rename Duplicate Columns When Exporting Excel Data](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
 Automatically rename duplicate columns in Excel with Aspose.Cells for .NET! Follow our step-by-step guide to streamline your data exports effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excluding Unused Styles while Exporting Excel to HTML
@@ -111,6 +113,7 @@ Absolutely! Simply set `opts.ExcludeUnusedStyles` to `false` to include all styl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

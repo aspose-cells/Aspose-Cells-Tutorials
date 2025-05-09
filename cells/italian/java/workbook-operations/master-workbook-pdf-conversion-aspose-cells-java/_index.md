@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ class TestPageSavingCallback implements IPageSavingCallback {
         }
     }
 
-    // Gestire il processo di salvataggio di fine pagina
+    // Gestire il processo di salvataggio a fine pagina
     public void pageEndSaving(PageEndSavingArgs args) {
         if (args.getPageIndex() >= 8) {
             args.setHasMorePages(false); // Interrompi il salvataggio dopo l'indice di pagina 8
@@ -194,6 +196,9 @@ Pronti a migliorare le vostre competenze? Immergetevi nel [Documentazione di Asp
 - **Prova gratuita e licenza temporanea:** Esplora le funzionalità con una prova gratuita o richiedi una licenza temporanea.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

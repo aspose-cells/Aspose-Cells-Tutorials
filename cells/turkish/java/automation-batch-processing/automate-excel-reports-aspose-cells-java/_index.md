@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ C3: Toplu işlem tekniklerini kullanın, akışları derhal kapatarak belleği a
 A4: Yaygın sorunlar arasında yanlış simge verileri veya uyumsuz hücre başvuruları bulunur. Simge setinizin ve hücre konumlarınızın temsil etmeyi amaçladığınız veri mantığıyla doğru şekilde hizalandığından emin olun.
 
 **S5: İçeriklere göre sütun genişliklerini dinamik olarak nasıl özelleştirebilirim?**
-A5: Bir sütundaki hücreler üzerinde yineleme yapın, içeriklerinin gerektirdiği maksimum genişliği belirleyin ve kullanarak ayarlayın `setColumnWidth`.
+A5: Bir sütundaki hücreler üzerinde yineleme yapın, içeriklerinin gerektirdiği maksimum genişliği belirleyin ve şunu kullanarak ayarlayın: `setColumnWidth`.
 
 ## Kaynaklar
 - **Belgeleme**: [Java için Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
@@ -182,6 +184,9 @@ A5: Bir sütundaki hücreler üzerinde yineleme yapın, içeriklerinin gerektird
 Bu kaynaklardan yararlanarak becerilerinizi daha da geliştirmek ve daha karmaşık Excel otomasyon görevlerini uygulamak için iyi bir donanıma sahip olacaksınız.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

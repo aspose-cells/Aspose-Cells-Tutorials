@@ -8,7 +8,9 @@ url: /net/manipulating-chart-types/apply-microsoft-theme-color-in-chart-series/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Microsoft Theme Color in Chart Series
@@ -178,6 +180,7 @@ Yes! You can visit the Aspose forum [here](https://forum.aspose.com/c/cells/9) f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

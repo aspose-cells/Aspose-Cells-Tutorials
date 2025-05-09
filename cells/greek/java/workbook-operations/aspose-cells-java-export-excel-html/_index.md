@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ public class FilePathProvider {
 Ακολουθώντας αυτόν τον οδηγό, θα πρέπει να είστε πλήρως εξοπλισμένοι για να αξιοποιήσετε το Aspose.Cells για Java στην εξαγωγή φύλλων εργασίας Excel ως HTML. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

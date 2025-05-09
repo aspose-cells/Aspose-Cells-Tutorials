@@ -1,14 +1,16 @@
 ---
-title: Excel Wyczyść wszystkie podziały stron
-linktitle: Excel Wyczyść wszystkie podziały stron
-second_title: Aspose.Cells dla .NET API Reference
-description: Odkryj prosty przewodnik, jak wyczyścić wszystkie podziały stron w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać szybkie rezultaty.
-weight: 20
-url: /pl/net/excel-page-breaks/excel-clear-all-page-breaks/
+"description": "Odkryj prosty przewodnik, jak wyczyścić wszystkie podziały stron w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby uzyskać szybkie rezultaty."
+"linktitle": "Excel Wyczyść wszystkie podziały stron"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Excel Wyczyść wszystkie podziały stron"
+"url": "/pl/net/excel-page-breaks/excel-clear-all-page-breaks/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Wyczyść wszystkie podziały stron
@@ -23,17 +25,17 @@ Zanim zagłębisz się w szczegóły usuwania podziałów stron w programie Exce
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio, aby móc uruchamiać projekty .NET.
 2. Aspose.Cells for .NET Library: Musisz pobrać i zainstalować Aspose.Cells for .NET library. Jest nie tylko wydajna, ale także niesamowicie przyjazna dla użytkownika!
-   -  Możesz to znaleźć[tutaj do pobrania](https://releases.aspose.com/cells/net/).
+   - Możesz to znaleźć [tutaj do pobrania](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Niewielka znajomość języka C# pomoże Ci poruszać się po kodzie bardziej komfortowo.
-4. Plik Excela: Przygotuj plik Excela, ponieważ będzie on obiektem naszych testów usuwania podziałów stron.
+4. Plik Excela: Przygotuj plik Excela, ponieważ będzie on obiektem naszego testu usuwania podziałów stron.
 
 ## Importuj pakiety
 
 Aby rozpocząć pracę z Aspose.Cells dla .NET, musisz zaimportować niezbędne pakiety. Oto uproszczona lista kontrolna:
 
 1. Otwórz projekt w programie Visual Studio.
-2.  Idź do`Project` >`Manage NuGet Packages`.
-3.  Wyszukaj Aspose.Cells i kliknij`Install`.
+2. Idź do `Project` > `Manage NuGet Packages`.
+3. Wyszukaj Aspose.Cells i kliknij `Install`.
 4. Dodaj następujące dyrektywy using do pliku C#:
 
 ```csharp
@@ -53,16 +55,16 @@ Aby wdrożyć tę poprawę, musisz zadeklarować ścieżkę dla swojego dokument
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Zastępować`"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik Excel. To tak, jakbyś powiedział swojemu programowi, gdzie znaleźć kość dla psa, zanim nauczysz go jej pobierać!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` z rzeczywistą ścieżką, gdzie znajduje się Twój plik Excel. To tak, jakbyś powiedział swojemu programowi, gdzie znaleźć kość dla psa, zanim nauczysz go jej pobierać!
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
- Teraz czas przenieść plik Excel do naszego świata C#. Robimy to, tworząc`Workbook` obiekt.
+Teraz czas przenieść plik Excel do naszego świata C#. Robimy to, tworząc `Workbook` obiekt.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Pomyśl o`Workbook` obiekt jako twoja skrzynka narzędziowa, gdzie dzieje się cała magia. Za każdym razem, gdy ładujesz plik Excela, nosisz ze sobą swoją skrzynkę narzędziową!
+Pomyśl o `Workbook` obiekt jako twoja skrzynka narzędziowa, gdzie dzieje się cała magia. Za każdym razem, gdy ładujesz plik Excela, nosisz ze sobą swoją skrzynkę narzędziową!
 
 ## Krok 3: Wyczyść poziome podziały stron
 
@@ -80,7 +82,7 @@ Teraz zróbmy to samo dla pionowych podziałów stron.
 ```csharp
 workbook.Worksheets[0].VerticalPageBreaks.Clear();
 ```
-Dzięki tej linijce upewniasz się, że wszystkie pionowe podziały stron również znikną. Po tej operacji Twój arkusz kalkulacyjny będzie wyglądał na odmłodzony — zupełnie jak po dobrym wiosennym porządkowaniu!
+Dzięki tej linii upewniasz się, że wszystkie pionowe podziały stron również znikną. Po tej operacji arkusz kalkulacyjny będzie wyglądał na odmłodzony — zupełnie jak po dobrym wiosennym porządkowaniu!
 
 ## Krok 5: Zapisz zmiany
 
@@ -89,7 +91,7 @@ Na koniec, nie chcesz stracić całej tej ciężkiej pracy, prawda? Czas zapisa�
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 ```
- Tutaj zapisujemy wprowadzone przez nas zmiany w nowym pliku Excel o nazwie`ClearAllPageBreaks_out.xls` w tym samym katalogu, który podaliśmy wcześniej. To twoje trofeum za dobrze wykonaną robotę!
+Tutaj zapisujemy wprowadzone przez nas zmiany w nowym pliku Excel o nazwie `ClearAllPageBreaks_out.xls` w tym samym katalogu, który podaliśmy wcześniej. To twoje trofeum za dobrze wykonaną robotę!
 
 ## Wniosek
 
@@ -101,19 +103,21 @@ Czyszczenie podziałów stron w programie Excel nie musi być trudnym zadaniem. 
 Aspose.Cells for .NET to zaawansowana biblioteka umożliwiająca bezproblemowe zarządzanie plikami programu Excel i manipulowanie nimi w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak! Aspose oferuje bezpłatny okres próbny, w którym możesz przetestować bibliotekę. Możesz zacząć[Tutaj](https://releases.aspose.com/).
+Tak! Aspose oferuje bezpłatny okres próbny, w którym możesz przetestować bibliotekę. Możesz zacząć [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Jeśli napotkasz problemy lub będziesz mieć pytania, możesz szukać pomocy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Jeśli napotkasz problemy lub będziesz mieć pytania, możesz szukać pomocy na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
 
 ### Jak uzyskać tymczasową licencję na Aspose.Cells?
- Możesz ubiegać się o tymczasową licencję, aby odblokować pełne funkcje Aspose.Cells, odwiedzając stronę[ta strona](https://purchase.aspose.com/temporary-license/).
+Możesz ubiegać się o tymczasową licencję, aby odblokować pełne funkcje Aspose.Cells, odwiedzając stronę [ta strona](https://purchase.aspose.com/temporary-license/).
 
 ### Jakie formaty obsługuje Aspose.Cells?
 Aspose.Cells obsługuje różne formaty arkuszy kalkulacyjnych, w tym XLS, XLSX, CSV i inne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

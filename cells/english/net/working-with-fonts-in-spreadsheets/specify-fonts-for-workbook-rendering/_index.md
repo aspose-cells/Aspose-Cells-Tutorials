@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-spreadsheets/specify-fonts-for-workbook-renderin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Fonts for Workbook Rendering
@@ -97,9 +99,11 @@ Generally, yes! You can use any font installed on your system or included in you
 If you don’t specify the font folder or if the folder is incorrect, the output PDF may not render the desired fonts properly.
 ### How can I get support for Aspose.Cells?  
 You can access support or ask questions on the [Aspose support forum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

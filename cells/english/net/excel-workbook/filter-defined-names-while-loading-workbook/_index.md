@@ -8,7 +8,9 @@ url: /net/excel-workbook/filter-defined-names-while-loading-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Filter Defined Names While Loading Workbook
@@ -117,6 +119,7 @@ You can find comprehensive documentation and more examples on the Aspose.Cells r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

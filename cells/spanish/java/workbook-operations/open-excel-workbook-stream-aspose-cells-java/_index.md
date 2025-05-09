@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ En esta guía, explicamos cómo abrir un libro de Excel desde una secuencia de c
 Si sigue esta guía completa, estará bien equipado para aprovechar Aspose.Cells para Java en sus proyectos, mejorando tanto la funcionalidad como la eficiencia.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

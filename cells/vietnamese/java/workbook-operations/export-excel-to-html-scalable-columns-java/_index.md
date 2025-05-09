@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Để sử dụng Aspose.Cells mà không có giới hạn đánh giá, bạn có thể:
 - **Dùng thử miễn phí**: Tải xuống giấy phép dùng thử từ [Trang web của Aspose](https://releases.aspose.com/cells/java/).
-- **Giấy phép tạm thời**Yêu cầu cấp giấy phép tạm thời tại [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
+- **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời tại [Trang giấy phép tạm thời Aspose](https://purchase.aspose.com/temporary-license/).
 - **Mua**: Nhận giấy phép đầy đủ để sử dụng thương mại từ [Trang mua hàng](https://purchase.aspose.com/buy).
 
 ### Khởi tạo cơ bản
@@ -209,6 +211,9 @@ Các bước tiếp theo có thể bao gồm khám phá các tính năng khác c
 Bắt đầu hành trình làm chủ thao tác với tệp Excel bằng Aspose.Cells for Java và cải thiện khả năng trình bày dữ liệu của bạn ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

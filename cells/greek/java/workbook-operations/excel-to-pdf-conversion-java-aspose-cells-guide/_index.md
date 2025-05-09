@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ A5: Ελέγξτε τις διαδρομές αρχείων, βεβαιωθεί�
 Τώρα που έχετε τα εργαλεία και τις γνώσεις, ξεκινήστε να μετατρέπετε αποτελεσματικά αρχεία Excel σε PDF με το Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

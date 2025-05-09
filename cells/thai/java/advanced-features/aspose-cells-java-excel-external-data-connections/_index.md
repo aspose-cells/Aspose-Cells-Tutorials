@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ for (int i = 0; i < connectionCount; i++) {
 1. **การบูรณาการข้อมูล**:ซิงโครไนซ์ข้อมูล Excel ของคุณกับฐานข้อมูลภายนอกโดยอัตโนมัติ
 2. **การรายงานอัตโนมัติ**:ปรับปรุงการสร้างรายงานโดยดึงข้อมูลสดจากแหล่งต่างๆ
 3. **การตรวจสอบระบบ**ติดตามการเปลี่ยนแปลงในการเชื่อมต่อฐานข้อมูลเพื่อตรวจสอบสุขภาพของระบบ
-4. **การตรวจสอบข้อมูล**:ตรวจสอบข้อมูลภายนอกก่อนที่จะนำเข้าสู่แอปพลิเคชันของคุณ
+4. **การตรวจสอบข้อมูล**: ตรวจสอบข้อมูลภายนอกก่อนที่จะนำเข้าสู่แอปพลิเคชันของคุณ
 
 ### การพิจารณาประสิทธิภาพ
 
@@ -195,6 +197,9 @@ for (int i = 0; i < connectionCount; i++) {
 เริ่มทำการบูรณาการและจัดการการเชื่อมต่อข้อมูล Excel ของคุณวันนี้ด้วย Aspose.Cells สำหรับ Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

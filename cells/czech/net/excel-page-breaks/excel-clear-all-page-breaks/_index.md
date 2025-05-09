@@ -1,40 +1,42 @@
 ---
-title: Excel Vymazat všechny konce stránek
-linktitle: Excel Vymazat všechny konce stránek
-second_title: Aspose.Cells for .NET API Reference
-description: Objevte jednoduchého průvodce, jak vymazat všechny konce stránek v Excelu pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro rychlé výsledky.
-weight: 20
-url: /cs/net/excel-page-breaks/excel-clear-all-page-breaks/
+"description": "Objevte jednoduchý návod, jak v Excelu odstranit všechny zalomení stránek pomocí Aspose.Cells pro .NET. Postupujte podle našeho podrobného návodu pro rychlé výsledky."
+"linktitle": "Excel Vymazat všechny konce stránek"
+"second_title": "Referenční příručka k Aspose.Cells pro .NET API"
+"title": "Excel Vymazat všechny konce stránek"
+"url": "/cs/net/excel-page-breaks/excel-clear-all-page-breaks/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Vymazat všechny konce stránek
 
 ## Zavedení
 
-Pokud jste si někdy pohrávali s Excelem, víte, že zalomení stránek může být požehnáním i prokletím. Pomáhají při organizaci rozvržení vaší tabulky pro tisk, ale někdy mohou být nepřehledné nebo špatně umístěné. Ať už připravujete zprávu, finanční výkaz nebo jednoduchý domácí rozpočet, přijít na to, jak vymazat všechny konce stránek v souboru Excel, může být právě to, co potřebujete. Zadejte Aspose.Cells for .NET – robustní knihovnu, se kterou je správa souborů aplikace Excel hračkou. V tomto článku se podíváme na to, jak vymazat všechny konce stránek v excelovém listu krok za krokem, abyste měli vše pod kontrolou a měli přehled, aniž byste se zapotili. Připoutat se; pojďme začít!
+Pokud jste si někdy hráli s Excelem, víte, že zalomení stránek může být zároveň požehnáním i prokletím. Pomáhají s organizací rozvržení tabulky pro tisk, ale někdy se mohou stát nepřehlednými nebo ztracenými. Ať už připravujete zprávu, finanční výkaz nebo jednoduchý rozpočet domácnosti, zjištění, jak vymazat všechny zalomení stránek v souboru Excelu, by mohlo být přesně tím pravým úklidem, který potřebujete. Představujeme Aspose.Cells pro .NET – robustní knihovnu, která usnadňuje správu souborů Excelu. V tomto článku se podíváme na to, jak krok za krokem vymazat všechny zalomení stránek v listu Excelu, abyste měli vše pod kontrolou a měli přehled, aniž byste se museli potit. Připoutejte se a pojďme na to!
 
 ## Předpoklady
 
-Než se ponoříte do toho nejnutnějšího mazání konců stránek v Excelu, musíte se ujistit, že máte splněny následující předpoklady:
+Než se ponoříme do detailů mazání zalomení stránek v Excelu, je třeba se ujistit, že máte splněny následující předpoklady:
 
-1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio pro spouštění projektů .NET.
-2. Knihovna Aspose.Cells for .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells for .NET. Není to jen mocné; je také neuvěřitelně uživatelsky přívětivý!
-   -  Můžete to najít[zde ke stažení](https://releases.aspose.com/cells/net/).
-3. Základní znalost C#: Malá znalost C# vám pomůže procházet kódem pohodlněji.
-4. Soubor Excel: Připravte si soubor Excel, protože to bude náš testovací předmět pro vymazání zalomení stránek.
+1. Visual Studio: Ujistěte se, že máte nainstalované Visual Studio pro spuštění projektů .NET.
+2. Knihovna Aspose.Cells pro .NET: Budete si muset stáhnout a nainstalovat knihovnu Aspose.Cells pro .NET. Je nejen výkonná, ale také neuvěřitelně uživatelsky přívětivá!
+   - Můžeš to najít [zde ke stažení](https://releases.aspose.com/cells/net/).
+3. Základní znalost C#: Trocha znalosti C# vám pomůže pohodlněji se v kódu orientovat.
+4. Soubor aplikace Excel: Připravte si soubor aplikace Excel, protože bude naším testovacím objektem pro mazání zalomení stránek.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Chcete-li začít s Aspose.Cells pro .NET, musíte importovat potřebné balíčky. Zde je zjednodušený kontrolní seznam:
+Abyste mohli začít s Aspose.Cells pro .NET, musíte importovat potřebné balíčky. Zde je zjednodušený kontrolní seznam:
 
-1. Otevřete projekt v sadě Visual Studio.
-2.  Přejít na`Project` >`Manage NuGet Packages`.
-3.  Vyhledejte Aspose.Cells a klikněte`Install`.
-4. Přidejte následující pomocí direktiv do souboru C#:
+1. Otevřete svůj projekt ve Visual Studiu.
+2. Jdi na `Project` > `Manage NuGet Packages`.
+3. Vyhledejte Aspose.Cells a klikněte na `Install`.
+4. Přidejte do souboru C# následující direktivy using:
 
 ```csharp
 using System.IO;
@@ -42,78 +44,80 @@ using Aspose.Cells;
 using System;
 ```
 
-Tyto kroky nás připraví na hraní se sešitem – odstraníme ty otravné konce stránek!
+Tyto kroky nás připraví na práci se sešitem – odstranění otravných zalomení stránek!
 
-Pojďme si to rozdělit na zvládnutelné kroky. S našimi předpoklady jsme již připravili půdu; nyní pojďme k jádru tutoriálu.
+Rozdělme si to na zvládnutelné kroky. Předpoklady jsme si již připravili, teď se pojďme pustit do jádra tutoriálu.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentů
 
-Chcete-li se s tímto vylepšením vypořádat, musíte pro svůj dokument deklarovat cestu. Zde budete uchovávat svůj vstupní soubor Excel a také uložit výstup, jakmile vymažete konce stránek.
+Abyste toto vylepšení zvládli, je třeba deklarovat cestu pro váš dokument. Zde budete ukládat vstupní soubor aplikace Excel a také výstup po odstranění zalomení stránek.
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
- Nahradit`"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor Excel. Je to jako říkat svému programu, kde najít psí kost, než ji naučíte aportovat!
+Nahradit `"YOUR DOCUMENT DIRECTORY"` se skutečnou cestou, kde se nachází váš soubor Excelu. Je to jako byste programu řekli, kde má najít psí kost, než ho naučíte ji načítat!
 
-## Krok 2: Vytvořte instanci objektu sešitu
+## Krok 2: Vytvoření instance objektu Workbook
 
- Nyní je čas přenést váš soubor Excel do našeho světa C#. Toho dosáhneme vytvořením a`Workbook` objekt.
+Nyní je čas přenést váš excelový soubor do našeho světa C#. Uděláme to vytvořením `Workbook` objekt.
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Myslete na`Workbook` objekt jako vaše sada nástrojů, kde se odehrává všechna kouzla. Pokaždé, když načtete soubor aplikace Excel, máte s sebou svou sadu nástrojů!
+Přemýšlejte o `Workbook` objekt jako vaši sadu nástrojů, kde se děje všechna magie. Pokaždé, když načtete soubor aplikace Excel, v podstatě si s sebou berete svou sadu nástrojů!
 
-## Krok 3: Vymažte vodorovné konce stránek
+## Krok 3: Vymazání vodorovných zalomení stránek
 
-Dále se budeme zabývat vodorovnými zalomeními stránek. Tady se věci mohou trochu zamotat a vy budete chtít převzít kontrolu.
+Dále se budeme zabývat horizontálními zalomeními stránek. Tady se věci mohou trochu zkomplikovat a budete chtít převzít kontrolu.
 
 ```csharp
 workbook.Worksheets[0].HorizontalPageBreaks.Clear();
 ```
-Říkáme programu, aby vymazal všechny vodorovné konce stránek na prvním listu. Je to jako vymetat pavučiny z toho vysokého rohu – umožňuje to čistý štít.
+Říkáme programu, aby vymazal všechny vodorovné konce stránek na prvním listu. Je to jako zametat pavučiny z toho horního rohu – umožňuje to čistý začátek.
 
-## Krok 4: Vymažte svislé zalomení stránek
+## Krok 4: Vymazání svislých zalomení stránek
 
-Nyní udělejme totéž pro vertikální konce stránek.
+Nyní udělejme totéž pro svislé zalomení stránek.
 
 ```csharp
 workbook.Worksheets[0].VerticalPageBreaks.Clear();
 ```
-S tímto řádkem zajistíte, že zmizí i všechny svislé konce stránek. Po této operaci bude vaše tabulka omlazená – stejně jako po dobrém jarním úklidu!
+Touto linkou zajistíte, že zmizí i všechny svislé konce stránek. Po této operaci bude vaše tabulka působit osvěženě – jako po dobrém jarním úklidu!
 
 ## Krok 5: Uložte změny
 
-Konečně, nechcete přijít o všechnu tu tvrdou práci, že? Je čas uložit si nově upravený sešit.
+Konečně, nechcete přece přijít o všechnu tu tvrdou práci, že? Je čas si uložit nově upravený sešit.
 
 ```csharp
 workbook.Save(dataDir + "ClearAllPageBreaks_out.xls");
 ```
- Zde ukládáme provedené úpravy do nového souboru aplikace Excel s názvem`ClearAllPageBreaks_out.xls` ve stejném adresáři, který jsme uvedli dříve. Je to vaše trofej za dobře odvedenou práci!
+Zde ukládáme provedené úpravy do nového souboru aplikace Excel s názvem `ClearAllPageBreaks_out.xls` ve stejném adresáři, který jsme uvedli dříve. Je to vaše trofej za dobře odvedenou práci!
 
 ## Závěr
 
-Vymazání zalomení stránek v Excelu nemusí být skličující úkol. S Aspose.Cells for .NET máte mocného spojence, který zjednodušuje proces do několika jednoduchých kroků. Ať už připravujete důležité prezentace nebo jen děláte pořádek v tabulkách, tato praktická knihovna vám umožní soustředit se na to, na čem skutečně záleží. Vyhrňte si rukávy a proměňte své zkušenosti s Excelem!
+Mazání zalomení stránek v Excelu nemusí být náročný úkol. S Aspose.Cells pro .NET máte mocného spojence, který zjednoduší proces do několika jednoduchých kroků. Ať už připravujete důležité prezentace, nebo jen uklízíte tabulky, tato šikovná knihovna vám umožní soustředit se na to, na čem skutečně záleží. Vyhrňte si tedy rukávy a proměňte svůj zážitek z Excelu!
 
-## FAQ
+## Často kladené otázky
 
 ### Co je Aspose.Cells pro .NET?
-Aspose.Cells for .NET je výkonná knihovna, která umožňuje bezproblémovou správu a manipulaci se soubory aplikace Excel v rámci aplikací .NET.
+Aspose.Cells pro .NET je výkonná knihovna, která vám umožňuje bezproblémově spravovat a manipulovat se soubory aplikace Excel v rámci vašich .NET aplikací.
 
 ### Mohu používat Aspose.Cells zdarma?
- Ano! Aspose nabízí bezplatnou zkušební verzi, kde si můžete knihovnu vyzkoušet. Můžete začít[zde](https://releases.aspose.com/).
+Ano! Aspose nabízí bezplatnou zkušební verzi, kde si můžete knihovnu vyzkoušet. Můžete začít [zde](https://releases.aspose.com/).
 
 ### Kde mohu získat podporu pro Aspose.Cells?
- Pokud narazíte na problémy nebo máte dotazy, můžete vyhledat pomoc na fóru podpory Aspose[zde](https://forum.aspose.com/c/cells/9).
+Pokud narazíte na problémy nebo máte dotazy, můžete vyhledat pomoc na fóru podpory Aspose. [zde](https://forum.aspose.com/c/cells/9).
 
 ### Jak získám dočasnou licenci pro Aspose.Cells?
- Můžete požádat o dočasnou licenci k odemknutí všech funkcí Aspose.Cells návštěvou[tuto stránku](https://purchase.aspose.com/temporary-license/).
+dočasnou licenci pro odemknutí všech funkcí Aspose.Cells si můžete požádat na adrese [tato stránka](https://purchase.aspose.com/temporary-license/).
 
 ### Jaké formáty Aspose.Cells podporuje?
 Aspose.Cells podporuje různé formáty tabulek, včetně XLS, XLSX, CSV a dalších.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

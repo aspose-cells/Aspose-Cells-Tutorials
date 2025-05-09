@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -243,6 +245,9 @@ Sau đây là một số tình huống thực tế mà bạn có thể áp dụn
 3. **Công cụ giáo dục:** Tạo tài liệu học tập năng động, trong đó học sinh có thể tương tác với nội dung bằng cách chọn các tùy chọn khác nhau trong biểu đồ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

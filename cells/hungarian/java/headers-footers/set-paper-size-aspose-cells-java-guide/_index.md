@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Ez a funkció bemutatja, hogyan állíthatja be a munkalap papírméretét A2-re
            // Új munkafüzet-példány létrehozása
            Workbook wb = new Workbook();
 
-           // munkafüzet első munkalapjának elérése
+           // A munkafüzet első munkalapjának elérése
            Worksheet ws = wb.getWorksheets().get(0);
    ```
 2. **Papírméret beállítása**
@@ -110,7 +112,7 @@ Az A2-es méret beállításához hasonlóan ez a funkció A3-as méretre módos
            // Új munkafüzet-példány létrehozása
            Workbook wb = new Workbook();
 
-           // munkafüzet első munkalapjának elérése
+           // A munkafüzet első munkalapjának elérése
            Worksheet ws = wb.getWorksheets().get(0);
    ```
 2. **Papírméret beállítása**
@@ -144,7 +146,7 @@ Ez a szakasz a munkalap A4-es méretre állításáról szól, ami a dokumentumo
            // Új munkafüzet-példány létrehozása
            Workbook wb = new Workbook();
 
-           // munkafüzet első munkalapjának elérése
+           // A munkafüzet első munkalapjának elérése
            Worksheet ws = wb.getWorksheets().get(0);
    ```
 2. **Papírméret beállítása**
@@ -178,7 +180,7 @@ Ez a funkció lehetővé teszi a munkalap méretének konfigurálását az Észa
            // Új munkafüzet-példány létrehozása
            Workbook wb = new Workbook();
 
-           // munkafüzet első munkalapjának elérése
+           // A munkafüzet első munkalapjának elérése
            Worksheet ws = wb.getWorksheets().get(0);
    ```
 2. **Papírméret beállítása**
@@ -222,6 +224,9 @@ Ezután fedezze fel az Aspose.Cells további funkcióit, vagy merüljön el a sp
 - [Java programozási alapismeretek](https://docs.oracle.com/javase/tutorial/index.html)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

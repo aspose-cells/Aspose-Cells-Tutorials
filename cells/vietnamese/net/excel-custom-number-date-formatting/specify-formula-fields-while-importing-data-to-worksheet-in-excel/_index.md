@@ -1,14 +1,16 @@
 ---
-title: Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel
-linktitle: Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này.
-weight: 11
-url: /vi/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "Tìm hiểu cách nhập dữ liệu vào các trang tính Excel có trường công thức được chỉ định bằng Aspose.Cells cho .NET trong hướng dẫn chi tiết này."
+"linktitle": "Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel"
+"url": "/vi/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định các trường công thức khi nhập dữ liệu vào bảng tính Excel
@@ -22,7 +24,7 @@ Khi nói đến việc xử lý các tệp Excel theo chương trình, Aspose.Ce
 Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi thứ mình cần. 
 
 1. Visual Studio hoặc bất kỳ môi trường phát triển tích hợp (IDE) .NET nào: Đảm bảo bạn có IDE phù hợp để viết và chạy mã C#.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[Aspose phát hành](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ [Aspose phát hành](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# và các khái niệm lập trình hướng đối tượng sẽ giúp bạn hiểu các ví dụ tốt hơn.
 4. .NET Framework: Hướng dẫn này giả định rằng bạn đang sử dụng .NET Framework 4.5 trở lên.
 
@@ -40,7 +42,7 @@ using System.Collections.Generic;
 
 Điều này cho phép bạn sử dụng các lớp và phương thức do thư viện Aspose.Cells cung cấp mà không cần phải thêm tiền tố không gian tên vào mỗi lần.
 
-Chúng ta hãy chia nhỏ toàn bộ quá trình thành các bước dễ quản lý:
+Chúng ta hãy chia nhỏ toàn bộ quá trình thành các bước dễ quản lý hơn:
 
 ## Bước 1: Xác định thư mục đầu ra
 
@@ -50,7 +52,7 @@ Trước tiên, bạn cần thiết lập nơi bạn muốn lưu tệp Excel c�
 static string outputDir = "Your Document Directory"; // chỉ định thư mục tài liệu của bạn ở đây
 ```
 
- Thay thế`"Your Document Directory"` với đường dẫn tệp thực tế của bạn. Đây là nơi tệp Excel được tạo sẽ được lưu.
+Thay thế `"Your Document Directory"` với đường dẫn tệp thực tế của bạn. Đây là nơi tệp Excel được tạo sẽ được lưu.
 
 ## Bước 2: Tạo một lớp do người dùng định nghĩa cho các mục dữ liệu
 
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Cái này`DataItems` Lớp này sẽ lưu trữ các số nguyên thô và các công thức mà chúng ta sẽ ghi vào bảng tính Excel. 
+Cái này `DataItems` Lớp này sẽ lưu trữ các số nguyên thô và các công thức mà chúng ta sẽ ghi vào bảng tính Excel. 
 
 ## Bước 3: Khởi tạo danh sách để lưu trữ các mục dữ liệu
 
- Chúng tôi sẽ sử dụng một danh sách để lưu trữ nhiều trường hợp của chúng tôi`DataItems` lớp học.
+Chúng tôi sẽ sử dụng một danh sách để lưu trữ nhiều trường hợp của chúng tôi `DataItems` lớp học.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -92,11 +94,11 @@ dis.Add(di);
 // Lặp lại cho các mục dữ liệu bổ sung
 ```
 
- Hãy chắc chắn tùy chỉnh từng cái`DataItems` trường hợp có giá trị và công thức duy nhất.
+Hãy chắc chắn tùy chỉnh từng cái `DataItems` trường hợp có giá trị và công thức duy nhất.
 
 ## Bước 5: Tạo Workbook và Access Worksheet
 
-Tiếp theo, hãy tạo bảng tính và truy cập vào trang tính đầu tiên nơi chúng ta sẽ nhập dữ liệu.
+Tiếp theo, hãy tạo sổ làm việc và truy cập vào trang tính đầu tiên nơi chúng ta sẽ nhập dữ liệu.
 
 ```csharp
 Workbook wb = new Workbook(); // tạo một bảng tính mới
@@ -112,7 +114,7 @@ ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- Trong ví dụ này, hai trường cuối cùng chứa công thức, được biểu thị bằng`true` , trong khi hai trường đầu tiên được đặt thành`false`.
+Trong ví dụ này, hai trường cuối cùng chứa công thức, được biểu thị bằng `true`, trong khi hai trường đầu tiên được đặt thành `false`.
 
 ## Bước 7: Nhập Đối tượng Tùy chỉnh
 
@@ -171,23 +173,25 @@ Và bạn đã có nó! Bạn đã nhập dữ liệu thành công vào một b�
 ## Câu hỏi thường gặp
 
 ### Aspose.Cells là gì?
-Aspose.Cells là một thư viện .NET được thiết kế để tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là thư viện .NET được thiết kế để tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?
- Bạn có thể tải nó xuống từ[Aspose phát hành](https://releases.aspose.com/cells/net/) và tham chiếu nó trong dự án của bạn.
+Bạn có thể tải nó xuống từ [Aspose phát hành](https://releases.aspose.com/cells/net/) và tham chiếu nó trong dự án của bạn.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí có sẵn tại [liên kết này](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
- Các ví dụ và tài liệu bổ sung có thể được tìm thấy tại[Trang tài liệu Aspose](https://reference.aspose.com/cells/net/).
+Các ví dụ và tài liệu bổ sung có thể được tìm thấy tại [Trang tài liệu Aspose](https://reference.aspose.com/cells/net/).
 
 ### Tôi phải làm sao nếu gặp sự cố khi sử dụng Aspose?
- Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

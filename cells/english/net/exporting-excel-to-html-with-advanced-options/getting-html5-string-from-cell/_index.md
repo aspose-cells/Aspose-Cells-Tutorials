@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/getting-html5-string-fro
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Getting HTML5 String from Cell in Excel Programmatically
@@ -94,6 +96,7 @@ You can refer to the complete [Aspose.Cells documentation](https://reference.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

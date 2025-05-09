@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importation de données en masse Excel
@@ -99,9 +101,11 @@ Absolument ! Aspose.Cells pour Java prend en charge l'importation et l'exportat
 Oui, veuillez consulter les informations de licence sur le site Web d'Aspose pour plus de détails sur les licences et les tarifs.
 
 N'hésitez pas à explorer davantage et à adapter les exemples de code à vos besoins spécifiques. Bon codage !
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

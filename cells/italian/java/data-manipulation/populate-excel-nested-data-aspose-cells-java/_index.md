@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introduzione
 
-Gestire in modo efficiente le strutture dati annidate in Excel può rivelarsi una sfida. **Aspose.Cells per Java** Offre una soluzione potente per popolare dinamicamente le cartelle di lavoro di Excel utilizzando indicatori intelligenti. Questo tutorial ti guiderà attraverso il processo, assicurandoti di poter gestire con facilità set di dati complessi come quelli di singoli individui e dei loro familiari.
+Gestire in modo efficiente le strutture di dati annidate in Excel può rivelarsi una sfida. **Aspose.Cells per Java** Offre una soluzione potente per popolare dinamicamente le cartelle di lavoro di Excel utilizzando indicatori intelligenti. Questo tutorial ti guiderà attraverso il processo, assicurandoti di poter gestire con facilità set di dati complessi come quelli di singoli individui e dei loro familiari.
 
 Seguendo questa guida imparerai come:
 - Imposta una nuova cartella di lavoro e un nuovo foglio di lavoro.
@@ -234,6 +236,9 @@ Seguendo questa guida, hai imparato a gestire e popolare in modo efficiente le c
 Per approfondire ulteriormente, puoi provare ad approfondire le funzionalità più avanzate di Aspose.Cells o a sperimentare diversi tipi di strutture dati.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

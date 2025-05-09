@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ class SaveWorkbook {
 Κατακτώντας αυτές τις τεχνικές, μπορείτε να βελτιώσετε την απόδοση και την αξιοπιστία των εργασιών αυτοματοποίησης του Excel χρησιμοποιώντας το Aspose.Cells σε Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

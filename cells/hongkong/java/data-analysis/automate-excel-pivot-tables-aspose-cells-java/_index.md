@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ pivotTable.format(cell.getRow(), cell.getColumn(), style); // 將定義的樣式
 #### 解釋
 - 這 `format` 方法可讓您根據儲存格位置動態套用樣式。
 ### 儲存工作簿 (H2)
-進行變更後，儲存工作簿：
+進行更改後，請儲存您的工作簿：
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // 替換為您的實際輸出目錄路徑
 workbook.save(outDir + "/GetCellObject_out.xlsx"); // 將修改後的工作簿儲存到指定文件
@@ -177,6 +179,9 @@ Aspose.Cells 可以透過以下應用程式徹底改變您的資料管理：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

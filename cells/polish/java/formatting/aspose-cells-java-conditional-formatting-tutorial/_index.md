@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Tak, możesz odwoływać się do komórek w różnych arkuszach, korzystając ze
 Określ pożądany format zapisu (np. XLS lub XLSX), aby zachować zgodność z różnymi wersjami programu Excel. Aspose.Cells obsługuje wiele formatów.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

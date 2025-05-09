@@ -8,7 +8,9 @@ url: /net/workbook-operations/update-power-query-formula-item/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Power Query Formula Item in Workbook
@@ -93,6 +95,7 @@ You can reach out on their supported forum for assistance regarding any issues y
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,50 +1,52 @@
 ---
-title: Menyimpan File di Aspose.Cells untuk .NET
-linktitle: Menyimpan File di Aspose.Cells untuk .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyimpan file di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang mencakup berbagai format file.
-weight: 10
-url: /id/net/file-handling/file-saving-files-in-aspose-cells-for-net/
+"description": "Pelajari cara menyimpan file di Aspose.Cells untuk .NET dengan panduan langkah demi langkah yang mencakup berbagai format file."
+"linktitle": "Menyimpan File di Aspose.Cells untuk .NET"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Menyimpan File di Aspose.Cells untuk .NET"
+"url": "/id/net/file-handling/file-saving-files-in-aspose-cells-for-net/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan File di Aspose.Cells untuk .NET
 
-## Perkenalan
+## Bevezetés
 Dalam hal mengelola dan memanipulasi file Excel di .NET, Aspose.Cells menonjol sebagai pustaka yang fleksibel dan canggih. Baik Anda seorang pengembang yang ingin mengotomatiskan pembuatan laporan atau seseorang yang perlu memproses data keuangan secara sistematis, Aspose.Cells dapat menangani semuanya. Dalam artikel ini, kami akan memandu Anda melalui proses penyimpanan file menggunakan Aspose.Cells untuk .NET, dengan memberikan panduan yang interaktif dan mudah diikuti. Di akhir tutorial ini, Anda akan merasa yakin dengan kemampuan Anda untuk menyimpan buku kerja dalam berbagai format dengan mudah.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita menyelami kodenya, mari kita uraikan apa yang Anda perlukan untuk memulai. Prasyarat ini akan memastikan pengalaman yang lancar.
 
-### Lingkungan Pengembangan .NET
+### .NET fejlesztői környezet
 Pastikan Anda memiliki lingkungan pengembangan .NET yang sesuai. Ini bisa berupa Visual Studio atau IDE lain pilihan Anda yang kompatibel dengan .NET.
 
-### Pustaka Aspose.Cells
- Anda perlu menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/cells/net/) atau menginstalnya melalui NuGet dengan menggunakan perintah berikut di Konsol Manajer Paket Anda:
+### Aspose.Cells könyvtár
+Anda perlu menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/net/) atau menginstalnya melalui NuGet dengan menggunakan perintah berikut di Konsol Manajer Paket Anda:
 ```
 Install-Package Aspose.Cells
 ```
 
-### Pengetahuan Dasar C#
+### C# alapismeretek
 Memiliki pemahaman dasar tentang pemrograman C# akan membantu Anda memahami konsepnya dengan cepat. Pemahaman tentang pemrograman berorientasi objek juga akan bermanfaat.
 
 ### Akses Sistem Berkas
 Pastikan aplikasi Anda memiliki akses ke sistem berkas tempat Anda ingin membaca atau menulis berkas Excel. 
 
-## Mengimpor Paket
+## Csomagok importálása
 
 Sebelum Anda dapat mulai bekerja dengan Aspose.Cells, Anda perlu mengimpor paket yang diperlukan ke lingkungan C# Anda. Berikut cara melakukannya:
 
 ### Mulai Proyek Anda
 1. Buka proyek .NET Anda.
-2. Klik kanan pada proyek Anda di Solution Explorer.
+2. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
 3. Pilih "Tambah" > "Item Baru" > pilih kelas C#.
 
-### Tambahkan Menggunakan Arahan
+### User Directive hozzáadása
 Di bagian atas file C# Anda, Anda perlu menambahkan perintah using berikut:
 ```csharp
 using System.IO;
@@ -54,16 +56,16 @@ Ini memberi tahu aplikasi Anda bahwa Anda akan menggunakan fungsionalitas dari p
 
 Setelah Anda menyiapkan lingkungan dan mengimpor paket yang diperlukan, mari kita masuk ke bagian yang menarik—menyimpan buku kerja Excel Anda dalam berbagai format. Kami akan menguraikan proses ini menjadi beberapa langkah yang mudah diikuti agar lebih jelas.
 
-## Langkah 1: Tentukan Direktori Dokumen
+## 1. lépés: Adja meg a dokumentumkönyvtárat
 
- Pertama, Anda perlu menentukan di mana Anda akan menyimpan file Excel Anda. Dalam kode Anda, atur`dataDir` variabel ke direktori target:
+Pertama, Anda perlu menentukan di mana Anda akan menyimpan file Excel Anda. Dalam kode Anda, atur `dataDir` variabel ke direktori target:
 
 ```csharp
 string dataDir = "Your Document Directory"; 
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya di mana Anda ingin menyimpan file.
+Csere `"Your Document Directory"` dengan jalur sebenarnya di mana Anda ingin menyimpan file.
 
-## Langkah 2: Buat Objek Buku Kerja
+## 2. lépés: Munkafüzet-objektum létrehozása
 
 Berikutnya, Anda perlu membuat objek buku kerja, yang berfungsi sebagai dokumen kerja Anda:
 ```csharp
@@ -100,7 +102,7 @@ Bagi pengguna yang mengadopsi standar dokumen terbuka, berikut caranya:
 workbook.Save(dataDir + "book1.out.ods"); 
 ```
 
-### Simpan sebagai PDF
+### Mentés PDF-ként
 Jika Anda ingin menyimpan buku kerja Anda sebagai PDF agar mudah dibagikan atau dicetak, Anda dapat melakukan ini:
 ```csharp
 workbook.Save(dataDir + "book1.out.pdf"); 
@@ -122,29 +124,31 @@ workbook.Save(dataDir + "book1.out.xml");
 
 Setelah semua kode Anda siap, saatnya menjalankan aplikasi Anda. Pastikan tidak ada kesalahan yang muncul, dan periksa direktori yang ditentukan untuk file yang Anda simpan dalam format yang dipilih. 
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat dengan mudah menyimpan file Excel menggunakan Aspose.Cells untuk .NET dalam berbagai format. Pustaka ini tidak hanya menyederhanakan manipulasi data tetapi juga meningkatkan produktivitas Anda dengan menyediakan berbagai opsi keluaran. Jangan ragu untuk bereksperimen dengan mengintegrasikan Aspose.Cells ke dalam proyek Anda sendiri.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?  
+### Mi az Aspose.Cells?  
 Aspose.Cells adalah pustaka .NET yang digunakan untuk memanipulasi file Excel secara terprogram.
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk membaca file Excel?  
 Tentu saja! Aspose.Cells juga dapat membaca dan memodifikasi file Excel yang ada.
 
-### Apakah ada versi uji coba Aspose.Cells yang tersedia?  
- Ya, Anda dapat mencoba Aspose.Cells secara gratis[Di Sini](https://releases.aspose.com/).
+### Van elérhető próbaverzió az Aspose.Cells-ből?  
+Ya, Anda dapat mencoba Aspose.Cells secara gratis [itt](https://releases.aspose.com/).
 
 ### Format file apa yang dapat didukung Aspose.Cells?  
 Mendukung berbagai format seperti XLS, XLSX, XLSB, ODS, PDF, dan banyak lagi.
 
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?  
- Anda bisa mendapatkan bantuan di[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hol találok támogatást az Aspose.Cells-hez?  
+Segítséget kaphatsz a [Aspose Fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

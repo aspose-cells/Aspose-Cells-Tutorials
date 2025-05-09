@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@ För att börja med Aspose.Cells för Java, se till att:
    - Erfarenhet av Java-utvecklingsmiljöer som Eclipse eller IntelliJ IDEA.
    - Kunskap om byggsystem i Maven eller Gradle är meriterande men inte obligatoriskt.
 
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmeringskoncept.
    - Erfarenhet av att hantera filer och kataloger i Java är meriterande.
 
@@ -183,6 +185,9 @@ När du arbetar med stora arbetsböcker eller komplexa former:
 - Minimera antalet formoperationer genom att gruppera dem där det är möjligt, vilket minskar bearbetningstid och resursförbrukning.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

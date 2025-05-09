@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ Workbook workbook = new Workbook(dataDir + "/SampleBook1.ods");
 
 När du väl har öppnat en ODS-fil är det viktigt att komma åt dess arbetsblad för vidare åtgärder.
 
-**Steg 3: Hämta arbetsbladssamlingen**
+**Steg 3: Hämta kalkylbladssamlingen**
 ```java
 import com.aspose.cells.WorksheetCollection;
 
@@ -192,6 +194,9 @@ Utforska mer avancerade funktioner i Aspose.Cells genom att dyka in i dess omfat
 - **Supportforum:** [Aspose-stöd](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

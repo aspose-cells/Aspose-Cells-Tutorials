@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ Capire come controllare le autorizzazioni del foglio di lavoro può essere fonda
 
 ## Considerazioni sulle prestazioni
 
-Quando lavori con Aspose.Cells, tieni in considerazione queste buone pratiche:
+Quando lavori con Aspose.Cells, tieni a mente queste buone pratiche:
 - **Gestione della memoria**: Utilizzare flussi ed eliminare oggetti in modo appropriato per gestire la memoria in modo efficiente.
 - **Utilizzo delle risorse**: Ottimizza le dimensioni della cartella di lavoro rimuovendo fogli o dati non necessari prima di applicare le impostazioni di protezione.
 - **Suggerimenti per l'ottimizzazione**: Profila il tuo codice per individuare eventuali colli di bottiglia nelle prestazioni, soprattutto quando hai a che fare con set di dati di grandi dimensioni.
@@ -198,6 +200,9 @@ In questo tutorial, abbiamo esplorato come Aspose.Cells per Java possa essere ut
 - **Scaricamento**: Ottieni l'ultima versione da [Rilasci di Aspose](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

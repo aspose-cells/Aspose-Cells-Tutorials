@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Datenintegration in Excel
@@ -109,9 +111,11 @@ Absolut! Aspose.Cells für Java bietet eine leistungsstarke API für die Automat
 Während Aspose.Cells für Java eine robuste Wahl ist, bieten Alternativen wie Apache POI auch Excel-Integrationsfunktionen.
 
 Diese umfassende Anleitung soll Ihnen helfen, die Datenintegration in Excel mit Aspose.Cells für Java zu meistern. Erkunden Sie die Schritte gerne weiter und passen Sie sie an Ihre spezifischen Bedürfnisse an. Viel Spaß bei der Datenintegration!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Experimenteer gerust en ontdek de uitgebreide mogelijkheden die Aspose.Cells bie
    Een voortplantingsformule wordt automatisch bijgewerkt wanneer er nieuwe gegevensrijen worden toegevoegd. Zo wordt voortdurende nauwkeurigheid gegarandeerd zonder handmatige tussenkomst.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Dalam lingkungan yang berpusat pada data saat ini, mengotomatiskan tugas Microsoft Excel menggunakan Java dapat meningkatkan produktivitas dan menghemat waktu secara signifikan. Apakah Anda seorang pengembang yang ingin menyederhanakan operasi atau seorang profesional bisnis yang ingin mengoptimalkan alur kerja, menguasai Aspose.Cells untuk Java sangat penting untuk manajemen file Excel yang efektif. Tutorial ini akan memandu Anda melalui fitur-fitur utama Aspose.Cells dengan Java, dengan fokus pada tampilan versi, pembuatan buku kerja, memuat file dengan makro VBA dan formulir pengguna, menyalin lembar kerja dan modul VBA, dan menyimpan modifikasi secara efisien.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Menampilkan versi Aspose.Cells untuk Java saat ini
 - Membuat buku kerja Excel kosong
 - Muat file Excel yang ada yang berisi makro VBA dan formulir pengguna
@@ -25,10 +27,10 @@ Dalam lingkungan yang berpusat pada data saat ini, mengotomatiskan tugas Microso
 - Transfer modul VBA dari satu buku kerja ke buku kerja lainnya
 - Simpan buku kerja dengan modifikasi secara efisien
 
-## Prasyarat (H2)
+## Előfeltételek (H2)
 Sebelum menyelami fitur Aspose.Cells untuk Java, pastikan Anda memiliki:
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak, verziók és függőségek
 1. **Aspose.Cells untuk Java**Anda memerlukan versi 25.3 atau yang lebih baru.
    - **Pakar**:
      ```xml
@@ -43,20 +45,20 @@ Sebelum menyelami fitur Aspose.Cells untuk Java, pastikan Anda memiliki:
      compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
      ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) 8 atau yang lebih baru terinstal di komputer Anda.
 - Lingkungan Pengembangan Terpadu (IDE) yang cocok seperti IntelliJ IDEA atau Eclipse.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java
 - Keakraban dengan makro Excel dan VBA bermanfaat tetapi tidak diperlukan
 
 ## Menyiapkan Aspose.Cells untuk Java (H2)
 Untuk memulai, pastikan Anda telah menambahkan pustaka Aspose.Cells ke proyek Anda. Berikut caranya:
 
-1. **Instalasi**: Jika menggunakan Maven atau Gradle, tambahkan dependensi seperti yang ditunjukkan di atas.
-2. **Akuisisi Lisensi**: Dapatkan lisensi uji coba gratis dari [Asumsikan](https://purchase.aspose.com/temporary-license/) untuk menghilangkan batasan evaluasi.
-3. **Inisialisasi Dasar**:
+1. **Telepítés**: Jika menggunakan Maven atau Gradle, tambahkan dependensi seperti yang ditunjukkan di atas.
+2. **Licencszerzés**: Dapatkan lisensi uji coba gratis dari [Aspose](https://purchase.aspose.com/temporary-license/) az értékelési korlátok megszüntetése érdekében.
+3. **Alapvető inicializálás**:
    ```java
    // Memuat pustaka Aspose.Cells untuk Java
    import com.aspose.cells.*;
@@ -74,11 +76,11 @@ Untuk memulai, pastikan Anda telah menambahkan pustaka Aspose.Cells ke proyek An
    }
    ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Sekarang, mari selami fitur dan fungsi Aspose.Cells untuk Java.
 
 ### Informasi Versi Tampilan (H2)
-**Ringkasan**: Fitur ini memungkinkan Anda menampilkan versi Aspose.Cells for Java saat ini yang digunakan dalam aplikasi Anda.
+**Áttekintés**: Fitur ini memungkinkan Anda menampilkan versi Aspose.Cells for Java saat ini yang digunakan dalam aplikasi Anda.
 
 #### Langkah 1: Ambil Data Versi
 ```java
@@ -96,7 +98,7 @@ public class VersionDisplay {
 ```
 
 ### Membuat Buku Kerja Kosong (H2)
-**Ringkasan**: Buat buku kerja Excel kosong dengan mudah menggunakan Aspose.Cells.
+**Áttekintés**: Buat buku kerja Excel kosong dengan mudah menggunakan Aspose.Cells.
 
 #### Langkah 1: Inisialisasi Objek Buku Kerja Baru
 ```java
@@ -115,7 +117,7 @@ public class CreateEmptyWorkbook {
 ```
 
 ### Memuat File Excel dengan Makro VBA (H2)
-**Ringkasan**: Mengakses dan memuat berkas Excel yang berisi makro VBA dan formulir pengguna.
+**Áttekintés**: Mengakses dan memuat berkas Excel yang berisi makro VBA dan formulir pengguna.
 
 #### Langkah 1: Tentukan Direktori dan Muat Buku Kerja
 ```java
@@ -133,7 +135,7 @@ public class LoadExcelWithVBA {
 ```
 
 ### Salin Lembar Kerja ke Buku Kerja Target (H2)
-**Ringkasan**: Fitur ini menyalin semua lembar kerja dari buku kerja sumber ke buku kerja target.
+**Áttekintés**: Fitur ini menyalin semua lembar kerja dari buku kerja sumber ke buku kerja target.
 
 #### Langkah 1: Muat Template dan Buat Buku Kerja Target
 ```java
@@ -166,7 +168,7 @@ public class CopyWorksheets {
 ```
 
 ### Salin Modul VBA dari Template ke Buku Kerja Target (H2)
-**Ringkasan**: Mentransfer modul VBA antar buku kerja dan mempertahankan fungsionalitas.
+**Áttekintés**: Mentransfer modul VBA antar buku kerja dan mempertahankan fungsionalitas.
 
 #### Langkah 1: Muat Buku Kerja dan Ulangi Melalui Modul
 ```java
@@ -211,7 +213,7 @@ public class CopyVBAModules {
 ```
 
 ### Simpan Buku Kerja dengan Modifikasi (H2)
-**Ringkasan**Selesaikan dan simpan pekerjaan Anda dengan menyimpan buku kerja yang dimodifikasi.
+**Áttekintés**Selesaikan dan simpan pekerjaan Anda dengan menyimpan buku kerja yang dimodifikasi.
 
 #### Langkah 1: Simpan Buku Kerja yang Dimodifikasi
 ```java
@@ -229,11 +231,14 @@ public class SaveWorkbook {
 }
 ```
 
-## Kesimpulan
+## Következtetés
 Tutorial ini menyediakan panduan lengkap tentang penggunaan Aspose.Cells untuk Java untuk mengotomatiskan tugas Excel, termasuk manajemen versi, pembuatan buku kerja, penanganan makro VBA, dan manipulasi lembar kerja. Dengan mengikuti langkah-langkah ini, Anda dapat mengintegrasikan otomatisasi Excel ke dalam aplikasi Java Anda secara efisien.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Bu eğitimde, Aspose.Cells for Java'yı kullanarak bir Excel çalışma sayfası
 Bu kılavuz, Aspose.Cells for Java'yı kullanarak Excel'de satır silme konusunda kapsamlı bir anlayış sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

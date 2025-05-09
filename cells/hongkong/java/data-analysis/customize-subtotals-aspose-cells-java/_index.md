@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ GlobalizationSettings.setInstance(globalizationSettings);
 4. **與 Apache POI 相比，使用 Aspose.Cells 有哪些好處？**
    - Aspose.Cells 提供高級功能，例如更好的性能和更廣泛的複雜 Excel 操作功能。
 5. **如何解決 Aspose.Cells 的問題？**
-   - 檢查您的許可證設置，確保您使用的是正確的版本，並查閱 [Aspose 論壇](https://forum.aspose.com/c/cells/9) 以獲得支持。
+   - 檢查您的許可證設置，確保您使用的是正確的版本，並諮詢 [Aspose 論壇](https://forum.aspose.com/c/cells/9) 以獲得支持。
 
 ## 資源
 - **文件**：https://reference.aspose.com/cells/java/
@@ -156,6 +158,9 @@ GlobalizationSettings.setInstance(globalizationSettings);
 - **支援**：https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

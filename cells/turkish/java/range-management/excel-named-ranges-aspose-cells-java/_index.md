@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ Artık Excel görevlerini otomatikleştirmek için güçlü bir araç olan Java 
 3. **Formülüm otomatik olarak güncellenmezse ne olur?**
    - Aradığınızdan emin olun `book.calculateFormula()` Değerleri veya formülleri ayarladıktan sonra.
 
-4. **Adlandırılmış bir aralığı nasıl kaldırırım?**
+4. **Adlandırılmış bir aralığı nasıl kaldırabilirim?**
    - Kullanmak `worksheets.getNames().remove(index)` Neresi `index` adlandırılmış aralığın koleksiyondaki pozisyonudur.
 
 5. **Adlandırılmış aralıkların sayısında herhangi bir sınırlama var mı?**
@@ -192,6 +194,9 @@ Artık Excel görevlerini otomatikleştirmek için güçlü bir araç olan Java 
 Bu kılavuzu takip ederek, projelerinizde Aspose.Cells for Java ile adlandırılmış aralıkların gücünden yararlanmak için iyi bir donanıma sahip olacaksınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

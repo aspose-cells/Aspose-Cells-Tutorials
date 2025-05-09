@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 ### Предпосылки
 
 Перед началом убедитесь, что у вас есть:
-1. **Требуемые библиотеки:** Включите Aspose.Cells для Java в свой проект с помощью Maven или Gradle.
+1. **Необходимые библиотеки:** Включите Aspose.Cells для Java в свой проект с помощью Maven или Gradle.
 2. **Настройка среды:** Убедитесь, что на вашем компьютере установлен JDK, и используйте IDE, например IntelliJ IDEA или Eclipse.
 3. **Необходимые знания:** Иметь базовые знания программирования на Java и навыки программной обработки файлов Excel.
 
@@ -180,6 +182,9 @@ wb.save(outDir + "/CCSpacing_out.xlsx", SaveFormat.XLSX);
 Сделайте следующий шаг в освоении Aspose.Cells для Java и откройте новые возможности в работе с файлами Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

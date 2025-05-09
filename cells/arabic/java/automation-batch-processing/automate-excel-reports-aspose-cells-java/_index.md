@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: قم بالتكرار على الخلايا في عمود، وحدد الح�
 من خلال الاستفادة من هذه الموارد، ستكون مجهزًا بشكل جيد لتعزيز مهاراتك بشكل أكبر وتنفيذ مهام أتمتة Excel الأكثر تعقيدًا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

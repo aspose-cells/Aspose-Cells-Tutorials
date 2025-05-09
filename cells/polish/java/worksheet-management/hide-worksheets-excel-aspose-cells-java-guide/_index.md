@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Teraz wiesz, jak ukrywać arkusze kalkulacyjne w plikach Excela za pomocą Aspos
    - Użyj Maven lub Gradle, aby dodać zależności, lub pobierz plik JAR z [Pobieranie Aspose](https://releases.aspose.com/cells/java/).
 2. **Czy mogę ukryć wiele arkuszy kalkulacyjnych jednocześnie?**
    - Tak, przejdź przez pętlę `WorksheetCollection` i zastosuj `setVisible(false)` do każdego.
-3. **jakich formatach mogę zapisać skoroszyt?**
+3. **W jakich formatach mogę zapisać skoroszyt?**
    - Aspose.Cells obsługuje różne formaty, takie jak XLSX, PDF, CSV itp.
 4. **Czy potrzebuję licencji na wszystkie funkcje?**
    - Bezpłatna wersja próbna lub licencja tymczasowa umożliwiają dostęp do większości funkcji. Jednak niektóre zaawansowane funkcje wymagają płatnej licencji.
@@ -145,6 +147,9 @@ Teraz wiesz, jak ukrywać arkusze kalkulacyjne w plikach Excela za pomocą Aspos
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

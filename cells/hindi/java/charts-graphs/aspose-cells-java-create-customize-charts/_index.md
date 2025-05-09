@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -277,6 +279,9 @@ workbook.save(outDir + "SPAsBFillInChart_out.xls");
 इस गाइड का पालन करके, आप आसानी से Aspose.Cells का उपयोग करके जावा अनुप्रयोगों में चार्ट बनाने और अनुकूलित करने में सक्षम होंगे। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

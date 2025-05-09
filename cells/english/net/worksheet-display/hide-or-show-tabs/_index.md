@@ -8,7 +8,9 @@ url: /net/worksheet-display/hide-or-show-tabs/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide or Show Tabs in Worksheet using Aspose.Cells
@@ -131,6 +133,7 @@ You can seek help from the dedicated support forum found [here](https://forum.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

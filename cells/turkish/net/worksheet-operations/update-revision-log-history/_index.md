@@ -1,14 +1,16 @@
 ---
-title: Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle
-linktitle: Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak paylaşılan çalışma kitaplarındaki revizyon günlüğü geçmişini güncellemeyi öğrenin. İşbirliğini basitleştirin ve net belge kayıtları tutun.
-weight: 26
-url: /tr/net/worksheet-operations/update-revision-log-history/
+"description": "Aspose.Cells for .NET kullanarak paylaşılan çalışma kitaplarındaki revizyon günlüğü geçmişini güncellemeyi öğrenin. İşbirliğini basitleştirin ve net belge kayıtları tutun."
+"linktitle": "Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle"
+"url": "/tr/net/worksheet-operations/update-revision-log-history/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Paylaşılan Çalışma Kitabında Revizyon Günlüğü Geçmişini Güncelle
@@ -19,7 +21,7 @@ Excel çalışma kitaplarını etkili bir şekilde yönetmek söz konusu olduğu
 Kod ve örneklere dalmadan önce, yerine getirmeniz gereken birkaç ön koşul var. Endişelenmeyin; bunlar basit!
 ### .NET Geliştirme Ortamı
 1. IDE Kurulumu: .NET kodu yazıp çalıştırabileceğiniz Entegre Geliştirme Ortamı'nın (IDE) kurulu olduğundan emin olun. Visual Studio bunun için harika bir seçenektir.
-2.  Aspose.Cells Kütüphanesi: Projenize .NET için Aspose.Cells'i indirmeniz ve eklemeniz gerekir. En son sürümü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Projenize .NET için Aspose.Cells'i indirmeniz ve eklemeniz gerekir. En son sürümü şu adresten edinebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 3. C# ile aşinalık: Örneklerimizde C# kullanacağımız için dilin temellerine dair bilgi sahibi olmak oldukça faydalı olacaktır.
 Bu ön koşulları tamamladığınızda eğitimi takip etmeye hazır olacaksınız.
 ## Paketleri İçe Aktar
@@ -27,11 +29,11 @@ Bu ön koşulları tamamladığınızda eğitimi takip etmeye hazır olacaksın�
 ### Yeni Bir Proje Oluştur
 - Visual Studio’yu açın.
 - “Yeni proje oluştur”a tıklayın.
--  “Konsol Uygulaması (.NET Framework)” seçeneğini seçin ve buna bir ad verin, örneğin:`ExcelRevisionLogDemo`.
+- “Konsol Uygulaması (.NET Framework)” seçeneğini seçin ve buna bir ad verin, örneğin: `ExcelRevisionLogDemo`.
 ### Aspose.Cells Kütüphanesini ekleyin
 - “Araçlar” menüsüne gidin ve “NuGet Paket Yöneticisi”ni seçin.
 - “Çözüm için NuGet Paketlerini Yönet...” seçeneğini seçin.
--  Arama`Aspose.Cells` ve kurun.
+- Arama `Aspose.Cells` ve kurun.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -45,7 +47,7 @@ Paylaşılan çalışma kitabımızı buraya kaydedeceğiz. Bunu, gerçek işe b
 // Çıktı dizini
 string outputDir = "Your Document Directory"; // Dizin yolunuzu belirtin
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` dosyanın kaydedilmesini istediğiniz gerçek yol ile. 
+Değiştirdiğinizden emin olun `"Your Document Directory"` dosyanın kaydedilmesini istediğiniz gerçek yol ile. 
 ## Adım 2: Boş bir Çalışma Kitabı Oluşturun
 Sonra, boş bir çalışma kitabı oluşturacağız. Bu, bir sanatçının önüne boş bir tuval koymak gibi.
 ```csharp
@@ -59,9 +61,9 @@ Bu satır çalışma kitabının yeni bir örneğini başlatır.
 // Çalışma kitabını paylaş
 wb.Settings.Shared = true;
 ```
- Ayarlayarak`Shared` true olarak ayarladığınızda, birden fazla kullanıcının bu çalışma kitabına erişmesine ve onu değiştirmesine izin vermiş olursunuz.
+Ayarlayarak `Shared` true ise, birden fazla kullanıcının bu çalışma kitabına erişmesine ve onu değiştirmesine izin vermiş olursunuz.
 ## Adım 4: Revizyon Günlüklerinin Geçmişini Koruyarak Günleri Güncelleyin
-İşte sihir burada gerçekleşiyor! Gözden geçirme günlüklerinin ne kadar süreyle saklanması gerektiğini belirteceğiz—bu örnekte 7 gün. Bir günlük girişinin çevrimiçi bir blogda ne kadar süre kalacağına dair bir sınır belirlediğinizi düşünün. 
+İşte sihir burada gerçekleşiyor! Gözden geçirme günlüklerinin ne kadar süreyle saklanması gerektiğini belirteceğiz—bu örnekte 7 gün. Bir günlük girişinin çevrimiçi bir blogda ne kadar süre kalacağına dair bir sınır koymayı düşünün. 
 ```csharp
 // Güncelleme GünleriRevizyon Günlüklerinin Geçmişini Koruma
 wb.Worksheets.RevisionLogs.DaysPreservingHistory = 7;
@@ -73,7 +75,7 @@ Son olarak, değiştirilmiş çalışma kitabımızı kaydedeceğiz. Bunu öneml
 // Çalışma kitabını kaydet
 wb.Save(outputDir + "outputShared_DaysPreservingHistory.xlsx");
 ```
- Birleştirilmiş yolun doğru biçimlendirildiğinden emin olun; değiştirin`outputDir` daha önce tanımladığınız klasör yolu ile.
+Birleştirilmiş yolun doğru biçimlendirildiğinden emin olun; değiştirin `outputDir` daha önce tanımladığınız klasör yolu ile.
 ## Adım 6: Uygulamaya İlişkin Geri Bildirim
 Kaydettikten sonra basit bir konsol günlüğü her şeyin yolunda gittiğini doğrulamaya yardımcı olabilir. 
 ```csharp
@@ -86,17 +88,19 @@ Paylaşılan çalışma kitaplarındaki revizyon günlüğü geçmişini Aspose.
 ### Aspose.Cells for .NET nedir?
 Aspose.Cells for .NET, .NET uygulamaları içerisinde Excel dosyaları oluşturmak ve düzenlemek için tasarlanmış güçlü bir kütüphanedir.
 ### Aspose.Cells'i nasıl indirebilirim?
- Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+Kütüphaneyi şu adresten indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?
- Evet! Özelliklerini test etmek için ücretsiz deneme sürümünü edinebilirsiniz. Kontrol edin[Burada](https://releases.aspose.com/).
+Evet! Özelliklerini test etmek için ücretsiz deneme sürümünü edinebilirsiniz. Kontrol edin [Burada](https://releases.aspose.com/).
 ### Aspose.Cells için desteği nereden alabilirim?
- Yardıma ihtiyacınız varsa, şu adresi ziyaret edin:[Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
+Yardıma ihtiyacınız varsa, şu adresi ziyaret edin: [Aspose.Cells forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells'i nasıl satın alabilirim?
- Güvenli bir şekilde satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Güvenli bir şekilde satın alabilirsiniz [Burada](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

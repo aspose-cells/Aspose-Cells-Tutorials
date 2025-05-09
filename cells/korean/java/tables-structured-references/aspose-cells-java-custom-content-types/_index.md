@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ int index = workbook.getContentTypeProperties().add("MK31", "Simple Data");
 
 #### 3단계: 콘텐츠 유형 속성을 Non-Nillable로 설정
 
-부동산이 비어 있는 상태로 유지되지 않도록 하여 해당 부동산이 매매 불가 상태가 되지 않도록 하세요.
+부동산이 비어 있는 상태로 유지되지 않도록 하여 해당 부동산이 멸실될 수 없도록 하세요.
 
 ```java
 // 추가된 콘텐츠 유형 속성을 nillable로 만들 수 없게 만들기
@@ -147,7 +149,7 @@ workbook.save(outDir + "/WorkingWithContentTypeProperties_out.xlsx");
 사용자 정의 콘텐츠 유형 속성은 다양한 시나리오에서 활용될 수 있습니다.
 
 1. **데이터 관리**메타데이터로 데이터에 자동으로 태그를 지정하여 검색성과 구성을 개선합니다.
-2. **보고 시스템**: 생성 날짜, 작성자 등 필수 메타데이터를 포함하여 보고서를 향상시킵니다.
+2. **보고 시스템**: 생성 날짜, 작성자 등 필수 메타데이터를 내장하여 보고서를 향상시킵니다.
 3. **데이터베이스와의 통합**: 콘텐츠 유형 ID를 사용하여 Excel 시트를 데이터베이스 항목에 매핑합니다.
 
 ## 성능 고려 사항
@@ -192,6 +194,9 @@ Aspose.Cells의 다양한 기능을 살펴보고 Excel 작업을 더욱 자동�
 - **지원하다**: https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

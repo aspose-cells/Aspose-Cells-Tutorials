@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Excel dosyalarınızı Java'da Aspose.Cells ile nasıl koruyacağınızı öğrenin. Bu kılavuz, çalışma sayfalarını güvenli bir şekilde yüklemeyi, erişmeyi, korumayı ve kaydetmeyi kapsar."
-"title": "Excel Dosyalarınızı Java'da Güvende Tutun&#58; Çalışma Sayfası Koruması için Aspose.Cells Kullanma Kılavuzu"
+"title": "Excel Dosyalarınızı Java'da Güvende Tutun - Çalışma Sayfası Koruması için Aspose.Cells Kullanma Kılavuzu"
 "url": "/tr/java/security-protection/excel-file-protection-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,6 +185,9 @@ Aspose.Cells tarafından sunulan grafik düzenleme veya dinamik veri bağlama gi
 Aspose.Cells ile Java uygulamalarınızda daha fazlasını keşfedin ve yeni olanakların kilidini açın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

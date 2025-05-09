@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Innan vi börjar implementera vår lösning, se till att du har följande:
   - Ett Java Development Kit (JDK) installerat på ditt system.
   - En integrerad utvecklingsmiljö (IDE), såsom IntelliJ IDEA eller Eclipse.
 
-- **Kunskapsförkunskaper:**
+- **Kunskapsförkunskapskrav:**
   - Grundläggande förståelse för Java-programmering och filhantering.
   
 ## Konfigurera Aspose.Cells för Java (H2)
@@ -173,7 +175,7 @@ Nu har du verktygen för att identifiera filformat för krypterade filer med Asp
 
 Nästa steg inkluderar att experimentera med olika filtyper, integrera denna funktionalitet i större system eller utforska andra Aspose API:er för att komplettera din lösning.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Hur hanterar jag felaktiga lösenord?**
    - Använd undantagshantering runt `detectFileFormat` metod för att hantera fel på ett smidigt sätt.
@@ -201,6 +203,9 @@ Nästa steg inkluderar att experimentera med olika filtyper, integrera denna fun
 Genom att följa den här guiden är du nu utrustad för att implementera filformatsdetektering för krypterade filer med hjälp av Aspose.Cells i Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

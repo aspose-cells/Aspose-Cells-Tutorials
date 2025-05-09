@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Tăng cường sức hấp dẫn trực quan cho báo cáo Excel của bạn bằng cách đặt hình nền trên bảng tính bằng Aspose.Cells Java. Tính năng này chuyển đổi bảng tính đơn giản thành tài liệu hấp dẫn, lý tưởng cho các bài thuyết trình hoặc sản phẩm giao cho khách hàng.
 
-Trong hướng dẫn này, bạn sẽ học cách thiết lập ảnh nền cho bảng tính Excel bằng thư viện Aspose.Cells trong Java. Chúng tôi sẽ đề cập đến mọi thứ từ điều kiện tiên quyết đến các bước triển khai, các biện pháp thực hành tốt nhất và các ứng dụng thực tế.
+Trong hướng dẫn này, bạn sẽ học cách thiết lập hình nền cho bảng tính Excel bằng thư viện Aspose.Cells trong Java. Chúng tôi sẽ đề cập đến mọi thứ từ điều kiện tiên quyết đến các bước triển khai, các biện pháp thực hành tốt nhất và các ứng dụng thực tế.
 
 **Những gì bạn sẽ học được:**
 - Cách thiết lập Aspose.Cells cho Java
@@ -164,6 +166,9 @@ Khám phá Aspose.Cells Java và mở khóa khả năng xử lý bảng tính m�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

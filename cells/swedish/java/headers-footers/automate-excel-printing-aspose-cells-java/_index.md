@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,7 +184,7 @@ För att säkerställa optimal prestanda när du använder Aspose.Cells:
 
 ## Slutsats
 
-Genom att följa den här guiden har du lärt dig hur du använder Aspose.Cells för Java för att automatisera utskriftsuppgifter effektivt. Med dessa färdigheter kan du nu effektivisera dina dokumentarbetsflöden, spara tid och minska fel i samband med manuella processer. För ytterligare utforskande kan du överväga att integrera andra Aspose.Cells-funktioner som datamanipulation eller Excel-filkonvertering.
+Genom att följa den här guiden har du lärt dig hur du använder Aspose.Cells för Java för att automatisera utskriftsuppgifter effektivt. Med dessa färdigheter kan du nu effektivisera dina dokumentarbetsflöden, spara tid och minska fel i samband med manuella processer. För ytterligare utforskning kan du överväga att integrera andra Aspose.Cells-funktioner som datamanipulation eller Excel-filkonvertering.
 
 ## FAQ-sektion
 
@@ -211,6 +213,9 @@ För mer information, besök dessa användbara resurser:
 - **Tillfällig licens**[Begär tillfällig licens]
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

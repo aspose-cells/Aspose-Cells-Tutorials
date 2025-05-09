@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,24 +17,24 @@
 
 ## Memformat Presentasi Excel: Menambahkan Bayangan Dinamis ke Bentuk dan Kotak Teks
 
-### Perkenalan
+### Bevezetés
 
 Ubah laporan Excel Anda dengan menambahkan efek teks dan bayangan yang menarik secara visual menggunakan Java dan Aspose.Cells. Panduan ini akan menunjukkan kepada Anda cara meningkatkan daya tarik visual lembar kerja Anda, membuatnya lebih menarik untuk presentasi atau pelaporan data.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menerapkan efek teks bayangan di Excel dengan Aspose.Cells
 - Menyiapkan proyek dengan Aspose.Cells untuk Java
 - Aplikasi nyata dari peningkatan teks dinamis
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum melanjutkan, pastikan Anda memiliki:
+Mielőtt folytatná, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-- **Pustaka Aspose.Cells**: Versi 25.3 atau yang lebih baru.
+- **Aspose.Cells könyvtár**: Versi 25.3 atau yang lebih baru.
 - **Lingkungan Pengembangan Java**: Java SDK dan IDE seperti IntelliJ IDEA atau Eclipse.
 - **Pengaturan Maven/Gradle**:Proyek Anda harus menggunakan Maven atau Gradle untuk manajemen ketergantungan.
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak, verziók és függőségek
 
 **Aspose.Cells untuk Java** memungkinkan pembuatan, modifikasi, dan konversi file Excel secara terprogram. Berikut cara memasukkannya ke dalam proyek Anda:
 
@@ -50,11 +52,11 @@ Sebelum melanjutkan, pastikan Anda memiliki:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 
 Pastikan lingkungan Java Anda diatur dengan benar dan Anda memiliki akses ke Maven atau Gradle untuk manajemen ketergantungan.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 
 Disarankan untuk memiliki pengetahuan dasar tentang konsep pemrograman Java dan struktur file Excel.
 
@@ -62,12 +64,12 @@ Disarankan untuk memiliki pengetahuan dasar tentang konsep pemrograman Java dan 
 
 Untuk mulai menggunakan Aspose.Cells untuk Java, ikuti langkah-langkah berikut:
 
-1. **Instalasi**: Tambahkan dependensi ke `pom.xml` (Maven) atau `build.gradle` (Gradle).
-2. **Akuisisi Lisensi**:
-   - Mulailah dengan [uji coba gratis](https://releases.aspose.com/cells/java/), yang memungkinkan Anda menguji semua fitur.
-   - Mendapatkan [lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka panjang tanpa batasan, jika diperlukan.
-   - Beli lisensi penuh melalui [Portal pembelian Aspose](https://purchase.aspose.com/buy) untuk fungsionalitas lengkap.
-3. **Inisialisasi Dasar**: Buat kelas Java baru untuk menginisialisasi Aspose.Cells:
+1. **Telepítés**: Tambahkan dependensi ke `pom.xml` (Maven) atau `build.gradle` (Gradle).
+2. **Licencszerzés**:
+   - Kezdj egy [ingyenes próba](https://releases.aspose.com/cells/java/), yang memungkinkan Anda menguji semua fitur.
+   - Szerezzen be egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka panjang tanpa batasan, jika diperlukan.
+   - Beli lisensi penuh melalui [Portal pembelian Aspose](https://purchase.aspose.com/buy) a teljes funkcionalitás érdekében.
+3. **Alapvető inicializálás**: Buat kelas Java baru untuk menginisialisasi Aspose.Cells:
 
 ```java
 import com.aspose.cells.Workbook;
@@ -86,7 +88,7 @@ public class InitializeAspose {
 
 Bagian ini akan memandu Anda menambahkan efek bayangan ke Kotak Teks dalam lembar kerja Excel.
 
-### Langkah 1: Membuat dan Mengonfigurasi Buku Kerja
+### 1. lépés: Munkafüzet létrehozása és konfigurálása
 
 Siapkan buku kerja Anda dan akses lembar kerja pertama:
 
@@ -94,10 +96,10 @@ Siapkan buku kerja Anda dan akses lembar kerja pertama:
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
-// Inisialisasi buku kerja
+// Munkafüzet inicializálása
 Workbook wb = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet ws = wb.getWorksheets().get(0);
 ```
 
@@ -134,7 +136,7 @@ tb.getFont().setColor(Color.getRed());
 tb.getFont().setSize(16);
 ```
 
-### Langkah 4: Simpan Buku Kerja Anda
+### 4. lépés: Mentse el a munkafüzetét
 
 Terakhir, simpan buku kerja dengan pengaturan baru yang diterapkan:
 
@@ -145,37 +147,37 @@ String dataDir = "path/to/your/directory/";
 wb.save(dataDir + "STESOfShapeOrTextbox_out.xlsx", SaveFormat.XLSX);
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - **Ketergantungan yang Hilang**Pastikan konfigurasi Maven atau Gradle Anda benar.
 - **Masalah Lisensi**: Verifikasi bahwa Anda mempunyai berkas lisensi yang valid dan telah disiapkan dengan benar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut ini adalah beberapa aplikasi dunia nyata untuk menambahkan bayangan efek teks di Excel:
 
 1. **Laporan Data yang Ditingkatkan**: Tambahkan kedalaman visual pada titik data utama agar lebih mudah dibaca.
 2. **Presentasi Pemasaran**: Gunakan teks berbayang pada materi promosi agar terlihat lebih menarik.
-3. **Materi Pendidikan**: Sorot informasi penting dengan efek bayangan untuk kejelasan.
+3. **Oktatási anyagok**: Sorot informasi penting dengan efek bayangan untuk kejelasan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan file Excel berukuran besar, pertimbangkan kiat kinerja berikut:
+Nagyméretű Excel-fájlok kezelésekor vegye figyelembe az alábbi teljesítménynövelő tippeket:
 
-- **Manajemen Memori yang Efisien**: Buang objek yang tidak lagi diperlukan untuk membebaskan sumber daya.
-- **Optimalkan Ukuran File**: Terapkan efek hanya bila diperlukan untuk mengurangi ukuran file dan waktu pemrosesan.
+- **Hatékony memóriakezelés**: Szabadítsd fel az erőforrásokat a már nem szükséges tárgyaktól.
+- **Fájlméret optimalizálása**: Terapkan efek hanya bila diperlukan untuk mengurangi ukuran file dan waktu pemrosesan.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara menambahkan efek teks bayangan ke bentuk dan Kotak Teks di Excel menggunakan Aspose.Cells untuk Java. Fitur ini dapat meningkatkan daya tarik visual laporan Anda secara signifikan, membuatnya lebih menarik dan profesional.
 
-### Langkah Berikutnya
+### Következő lépések
 - Bereksperimenlah dengan preset bayangan yang berbeda-beda.
 - Jelajahi fitur lain yang disediakan oleh Aspose.Cells untuk Java.
 
 Siap untuk mencobanya? Terapkan teknik ini pada proyek Anda berikutnya!
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Apa itu Aspose.Cells untuk Java?**
 A1: Ini adalah pustaka yang memungkinkan Anda membuat, memodifikasi, dan mengonversi file Excel secara terprogram menggunakan Java.
@@ -186,21 +188,24 @@ A2: Ya, Anda dapat memulai dengan uji coba gratis, tetapi ada batasannya. Lisens
 **Q3: Bagaimana cara menginstal Aspose.Cells di proyek Maven saya?**
 A3: Tambahkan ketergantungan ke `pom.xml` seperti yang ditunjukkan sebelumnya.
 
-**Q4: Apa saja masalah umum saat menggunakan Aspose.Cells?**
+**4. kérdés: Milyen gyakori problémák merülhetnek fel az Aspose.Cells használatakor?**
 A4: Ketergantungan yang hilang dan pengaturan lisensi yang salah adalah hal yang umum. Pastikan konfigurasi build Anda sudah benar dan Anda telah menyiapkan file lisensi yang valid.
 
 **Q5: Apakah ada pertimbangan kinerja saat menggunakan Aspose.Cells untuk file besar?**
 A5: Ya, mengelola memori secara efisien dan menerapkan efek hanya bila diperlukan dapat membantu mengoptimalkan kinerja.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

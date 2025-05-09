@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 Этот код настраивает среду для начала импорта данных JSON. `Workbook` объект представляет собой файл Excel, в то время как `Worksheet` позволяет работать с определенным листом.
-### Чтение файла JSON
+### Чтение JSON-файла
 **Обзор**: Считать файл JSON в строку для обработки.
 ```java
 import java.io.BufferedReader;
@@ -131,7 +133,7 @@ workbook.save(outDir + "ImportingFromJson.out.xlsx");
 ## Практические применения
 1. **Анализ данных**: Преобразование журналов JSON в таблицы Excel для лучшего анализа.
 2. **Отчетность**: Автоматизируйте ежемесячные отчеты путем преобразования наборов данных JSON в Excel.
-3. **Интеграция**: Простая интеграция с CRM-системами, выводящими данные в формате JSON.
+3. **Интеграция**: Беспроблемная интеграция с CRM-системами, выводящими данные в формате JSON.
 Узнайте, как Aspose.Cells может интегрировать эти сценарии в ваш рабочий процесс!
 ## Соображения производительности
 - Оптимизируйте использование памяти, обрабатывая большие файлы по частям, если это необходимо.
@@ -165,6 +167,9 @@ workbook.save(outDir + "ImportingFromJson.out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

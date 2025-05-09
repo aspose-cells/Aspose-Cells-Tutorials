@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ workbook.save(dataDir + "ACToPdf_out.pdf", pdfOptions);
 
 **Wyjaśnienie:** Ten `save` metoda zapisuje twój skoroszyt na dysku w określonym formacie. Tutaj używa naszego wcześniej zdefiniowanego `pdfOptions`.
 
-### Ustawianie zgodności skoroszytu dla konwersji PDF
+### Ustawianie zgodności skoroszytu z konwersją PDF
 
 Funkcja ta koncentruje się na ustawianiu poziomów zgodności w ramach `PdfSaveOptions`, co ma kluczowe znaczenie dla zapewnienia integralności dokumentu.
 
@@ -197,6 +199,9 @@ Gotowy, aby zastosować w praktyce to, czego się nauczyłeś? Spróbuj wdroży�
    - Możesz zbadać [Międzynarodowa Organizacja Normalizacyjna (ISO)](https://www.iso.org/standards.html) strona internetowa zawierająca szczegółową dokumentację dotyczącą różnych poziomów zgodności z PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

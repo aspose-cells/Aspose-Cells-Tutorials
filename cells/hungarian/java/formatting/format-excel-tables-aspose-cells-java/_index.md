@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@ Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
 Előnyben részesül a Java programozás alapjainak ismerete és az Excel fájlok kezelésének ismerete.
 
 ## Az Aspose.Cells beállítása Java-hoz
-Az Aspose.Cells használatához függőségként kell hozzáadni a projekthez. Így teheted ezt meg Maven vagy Gradle használatával:
+Az Aspose.Cells használatához függőségként kell hozzáadni a projektedhez. Így teheted ezt meg Maven vagy Gradle használatával:
 
 **Szakértő**
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Licencszerzés
-Az Aspose.Cells ingyenes próbaverziót kínál, és ideiglenes licencet kérhetsz, hogy korlátozások nélkül felfedezhesd a teljes képességeit. Hosszabb távú használathoz érdemes megfontolni a licenc megvásárlását.
+Az Aspose.Cells ingyenes próbaverziót kínál, és ideiglenes licencet kérhetsz, hogy korlátozások nélkül felfedezhesd a teljes funkcióit. Hosszabb távú használathoz érdemes megfontolni a licenc megvásárlását.
 
 1. **Ingyenes próbaverzió**: Töltse le a próbaverziót innen: [Aspose weboldala](https://releases.aspose.com/cells/java/).
 2. **Ideiglenes engedély**Szerezd meg a következőn keresztül: [Az Aspose vásárlási portálja](https://purchase.aspose.com/temporary-license/) az összes funkció feloldásához a tesztelési fázisban.
@@ -152,7 +154,7 @@ Válasszon a különféle beépített stílusok közül, vagy alkossa meg saját
 ```java
 import com.aspose.cells.TableStyleType;
 
-// Táblázatstílus beállítása a vizuális élmény javítása érdekében
+// Táblázatstílus beállítása a vizuális javulás érdekében
 listObject.setTableStyleType(TableStyleType.TABLE_STYLE_MEDIUM_10);
 ```
 
@@ -218,6 +220,9 @@ Megtanultad, hogyan állíthatod be és használhatod az Aspose.Cells Java-beli 
 Kezdje el alkalmazni ezeket a technikákat a projektjeiben, és nézze meg, hogyan alakíthatja át az Aspose.Cells az Excel adatkezelési feladatait.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

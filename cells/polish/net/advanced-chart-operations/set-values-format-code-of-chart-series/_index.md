@@ -1,30 +1,32 @@
 ---
-title: Ustaw kod formatu wartości serii wykresów
-linktitle: Ustaw kod formatu wartości serii wykresów
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawić kod formatu wartości serii wykresów w Aspose.Cells dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne dla początkujących.
-weight: 17
-url: /pl/net/advanced-chart-operations/set-values-format-code-of-chart-series/
+"description": "Dowiedz się, jak ustawić kod formatu wartości serii wykresów w Aspose.Cells dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne dla początkujących."
+"linktitle": "Ustaw wartości Format Kodu Serii Wykresów"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustaw wartości Format Kodu Serii Wykresów"
+"url": "/pl/net/advanced-chart-operations/set-values-format-code-of-chart-series/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw kod formatu wartości serii wykresów
+# Ustaw wartości Format Kodu Serii Wykresów
 
 ## Wstęp
 
-W dzisiejszym świecie opartym na danych wizualna reprezentacja złożonych zestawów danych ma kluczowe znaczenie dla podejmowania decyzji. Wykresy stanowią potężne narzędzie do skutecznego przekazywania spostrzeżeń. Aspose.Cells dla .NET upraszcza ten proces, umożliwiając programistom bezproblemową manipulację plikami Excela i tworzenie oszałamiających wykresów. W tym przewodniku przyjrzymy się, jak ustawić kod formatu wartości serii wykresów za pomocą Aspose.Cells. Więc weź filiżankę kawy i wyruszmy razem w tę podróż kodowania!
+dzisiejszym świecie opartym na danych wizualna reprezentacja złożonych zestawów danych ma kluczowe znaczenie dla podejmowania decyzji. Wykresy stanowią potężne narzędzie do skutecznego przekazywania spostrzeżeń. Aspose.Cells dla .NET upraszcza ten proces, umożliwiając programistom bezproblemową manipulację plikami Excela i tworzenie oszałamiających wykresów. W tym przewodniku przyjrzymy się, jak ustawić kod formatu wartości serii wykresów za pomocą Aspose.Cells. Więc weź filiżankę kawy i wyruszmy razem w tę podróż kodowania!
 
 ## Wymagania wstępne
 
 Zanim przejdziemy do szczegółów, upewnijmy się, że jesteś przygotowany na sukces. Oto, czego potrzebujesz:
 
 1. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci łatwo zrozumieć koncepcje programowania.
-2.  Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Visual Studio: Odpowiednie IDE do pisania i wykonywania kodu C#. Każda wersja obsługująca .NET będzie odpowiednia.
-4.  Plik Excel: W naszej demonstracji wykorzystamy plik Excel o nazwie`sampleSeries_ValuesFormatCode.xlsx`. Upewnij się, że masz go w swoim katalogu roboczym.
+4. Plik Excel: W naszej demonstracji wykorzystamy plik Excel o nazwie `sampleSeries_ValuesFormatCode.xlsx`. Upewnij się, że masz go w swoim katalogu roboczym.
 
 ## Importuj pakiety
 
@@ -65,7 +67,7 @@ Teraz, gdy skonfigurowaliśmy katalogi, czas załadować plik Excela, z którym 
 Wczytanie pliku Excel jest podobne do otwarcia książki przed czytaniem. Bez jej otwarcia nie można zagłębić się w jej zawartość. 
 
 ```csharp
-// Załaduj plik źródłowy Excel
+// Załaduj plik źródłowy Excel 
 Workbook wb = new Workbook(sourceDir + "sampleSeries_ValuesFormatCode.xlsx");
 ```
 
@@ -84,7 +86,7 @@ Worksheet worksheet = wb.Worksheets[0];
 
 Następnie musimy uzyskać dostęp do wykresu, w którym chcemy zmienić format serii.
 
-Wyobraź sobie wykres jako płótno, na którym malujesz swoje arcydzieło wizualizacji danych. Dostęp do niego pozwala nam wykorzystać jego moc!
+Wyobraź sobie wykres jako płótno, na którym malowany jest Twój arcydzieło wizualizacji danych. Dostęp do niego pozwala nam wykorzystać jego moc!
 
 ```csharp
 // Uzyskaj dostęp do pierwszego wykresu
@@ -111,7 +113,7 @@ Ustawienie formatu kodu przekształca surowe liczby w coś bardziej czytelnego �
 ```csharp
 // Uzyskaj dostęp do serii i ustaw jej kod formatu wartości
 Series srs = ch.NSeries[0];
-srs.ValuesFormatCode = "$#,##0"; //Ustawia to format walutowy
+srs.ValuesFormatCode = "$#,##0"; // Ustawia to format walutowy
 ```
 
 ## Krok 7: Zapisz plik wyjściowy Excela
@@ -129,7 +131,7 @@ wb.Save(outputDir + "outputSeries_ValuesFormatCode.xlsx");
 
 Na zakończenie możemy wydrukować komunikat o powodzeniu.
 
-Podobnie jak oklaski na zakończenie występu, tak i potwierdzenie tego daje ciepłe, przyjemne poczucie spełnienia.
+Podobnie jak oklaski na zakończenie występu, tak i to potwierdzenie daje ciepłe, przyjemne poczucie spełnienia.
 
 ```csharp
 Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");
@@ -151,13 +153,15 @@ Tak, Aspose.Cells wymaga licencji do użytku w środowiskach produkcyjnych. Moż
 Oczywiście! Aspose.Cells zapewnia solidną funkcjonalność do tworzenia i dostosowywania wykresów od podstaw.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?
- Możesz uzyskać dostęp do[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
+Możesz uzyskać dostęp do [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/) Aby uzyskać szczegółowe przewodniki i odniesienia do API.
 
 ### Jakie formaty są obsługiwane przy zapisywaniu plików Excel?
 Aspose.Cells obsługuje szeroką gamę formatów, w tym XLSX, XLS, CSV, PDF i inne.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

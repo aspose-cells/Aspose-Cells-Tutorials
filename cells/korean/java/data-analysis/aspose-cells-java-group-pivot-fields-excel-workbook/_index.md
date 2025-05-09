@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ Aspose.Cells를 사용하려면 다음 단계를 따르세요.
   pt.setRefreshDataFlag(true);
   pt.refreshData();
   pt.calculateData();
-  pt.setRefreshDataFlag(false); // 작업 후 플래그를 재설정하세요
+  pt.setRefreshDataFlag(false); // 작업 후 플래그 재설정
   ```
 
 ### 통합 문서를 출력 디렉터리에 저장
@@ -183,6 +185,9 @@ Aspose.Cells 라이브러리의 다른 기능을 살펴보거나 다양한 시�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

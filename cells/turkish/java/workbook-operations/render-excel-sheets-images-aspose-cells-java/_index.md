@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
 ## Uygulama Kılavuzu
-### Özellik 1: BufferedImage'ı Oluşturun ve Doldurun
+### Özellik 1: Bir BufferedImage Oluşturun ve Doldurun
 #### Genel bakış
 Bir oluşturma `BufferedImage` grafikleri programatik olarak çizmenize olanak tanır. Burada, mavi renkle dolu bir resim oluşturacağız.
 **Adım 1: Gerekli Paketleri İçe Aktarın**
@@ -145,6 +147,9 @@ Java'da Aspose.Cells kullanarak Excel sayfalarını resim olarak nasıl oluştur
 Bu araçlar ve ipuçlarıyla, Aspose.Cells ile Java'da Excel sayfa oluşturma konusunda ustalaşma yolunda hızla ilerliyorsunuz!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

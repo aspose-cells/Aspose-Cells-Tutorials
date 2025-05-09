@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ workbook.save(outDir + "ModifyExistingStyle_out.xlsx");
 **3. 如何使用 Aspose.Cells 處理大型 Excel 檔案？**
 - 使用高效的數據處理技術並考慮記憶體管理最佳實踐。
 
-**4. 使用 Aspose.Cells 時我應該在 Excel 中對貨幣值使用什麼數字格式代碼？**
+**4. 使用 Aspose.Cells 時我應該在 Excel 中為貨幣值使用什麼數字格式代碼？**
 - 對於美元貨幣，您可以使用預先定義的格式代碼 `9` （例如， `$#,##0.00`）。
 
 **5. 有沒有辦法先試試 Aspose.Cells 而不立即購買？**
@@ -172,6 +174,9 @@ workbook.save(outDir + "ModifyExistingStyle_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

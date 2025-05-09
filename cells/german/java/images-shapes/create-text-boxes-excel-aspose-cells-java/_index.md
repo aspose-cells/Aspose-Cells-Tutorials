@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Zum Weiterlesen und Erkunden:
 Wenn Sie dieser Anleitung folgen, sollten Sie nun gut gerüstet sein, um mit der Integration von Aspose.Cells Java in Ihre Projekte zu beginnen und so die Automatisierungs- und Formatierungsfunktionen von Excel zu verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

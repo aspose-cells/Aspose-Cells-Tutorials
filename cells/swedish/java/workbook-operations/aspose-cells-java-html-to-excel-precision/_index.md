@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ wb.save(outDir + "/outsampleSelfClosingTags.xlsx");
 ## Praktiska tillämpningar
 Aspose.Cells är mångsidigt för olika verkliga scenarier:
 1. **Datamigrering**Konvertera komplexa HTML-rapporter till Excel för bättre datahantering.
-2. **Webbskrapning**Skrapa webbsidor till strukturerade Excel-format.
+2. **Webskrapning**Skrapa webbsidor till strukturerade Excel-format.
 3. **Rapporteringsverktyg**Automatisera generering av exakta Excel-rapporter från HTML-källor.
 
 ## Prestandaöverväganden
@@ -162,6 +164,9 @@ Genom att följa den här guiden har du lärt dig hur du effektivt laddar HTML-f
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 **Что вы узнаете:**
 - Загрузка и доступ к книгам Excel в Java
 - Настройте параметры рендеринга изображений для оптимального качества
-- С легкостью конвертируйте рабочие листы Excel в изображения
+- Легко конвертируйте рабочие листы Excel в изображения
 - Оптимизируйте производительность и устраняйте распространенные неполадки
 
 Давайте углубимся в реализацию этих функций с помощью Aspose.Cells для Java!
@@ -142,6 +144,9 @@ Aspose.Cells предлагает различные реальные прило
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

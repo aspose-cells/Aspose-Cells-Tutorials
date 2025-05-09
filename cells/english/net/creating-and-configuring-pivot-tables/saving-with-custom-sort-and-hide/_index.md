@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/saving-with-custom-sort-and-hide
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Saving Pivot Tables with Custom Sort and Hide in .NET
@@ -118,6 +120,7 @@ Yes! You can download a free trial version of Aspose.Cells to test its features 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

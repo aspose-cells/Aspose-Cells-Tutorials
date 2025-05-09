@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,7 +199,7 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면:
 ## FAQ 섹션
 
 1. **여러 개의 시트를 하나의 이미지로 렌더링할 수 있나요?**
-   - 네, 구성할 수 있습니다. `SheetRender` 필요한 경우 여러 시트를 결합하는 것을 거부합니다.
+   - 네, 구성할 수 있습니다. `SheetRender` 필요한 경우 여러 시트를 결합하는 데 반대합니다.
 
 2. **대용량 Excel 파일을 어떻게 처리하나요?**
    - 효율적인 메모리 관리 관행을 사용하고 큰 파일을 작은 섹션으로 나누어 처리하는 것을 고려하세요.
@@ -221,6 +223,9 @@ Aspose.Cells를 사용할 때 최적의 성능을 보장하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

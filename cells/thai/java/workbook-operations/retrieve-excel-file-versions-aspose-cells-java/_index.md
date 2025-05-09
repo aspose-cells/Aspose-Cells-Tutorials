@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ public class ExcelVersionDemo {
    - โปรดทราบความแตกต่างในข้อกำหนดรูปแบบไฟล์ระหว่างเวอร์ชันต่างๆ เช่น การจัดการโปรเจ็กต์ VBA หรือแมโคร
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

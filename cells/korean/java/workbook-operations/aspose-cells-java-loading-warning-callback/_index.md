@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ Aspose.Cells 성능을 최적화하려면:
 
 ## FAQ 섹션
 1. **Aspose.Cells의 경고 콜백이란 무엇인가요?**
-   - 이는 Excel 파일을 로딩하는 동안 발생하는 경고를 포착하고 처리하는 메커니즘입니다.
+   - Excel 파일을 로딩하는 동안 발생하는 경고를 포착하고 처리하는 메커니즘입니다.
 2. **라이선스를 바로 구매하지 않고도 Aspose.Cells for Java를 사용할 수 있나요?**
    - 네, 무료 체험판으로 시작해 보세요.
 3. **프로젝트에서 로드 옵션을 어떻게 설정합니까?**
@@ -141,10 +143,13 @@ Aspose.Cells 성능을 최적화하려면:
 - **다운로드**: [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [무료 체험판으로 시작하세요](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼**: [Aspose.Cells 커뮤니티 지원](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

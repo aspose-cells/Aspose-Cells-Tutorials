@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelからのデータインポート
@@ -35,7 +37,7 @@ Aspose.Cells for Java をプロジェクトに追加するには、次の手順�
 1. Aspose.Cells for JavaライブラリをWebサイトからダウンロードします。 [ここ](https://releases。aspose.com/cells/java/).
 2. ダウンロードした JAR ファイルをプロジェクトのクラスパスに含めます。
 
-## Excelからデータを読み取る
+## Excelからデータを読み込む
 
 それでは、Aspose.Cellsを使ってExcelファイルからデータを読み取るJavaコードを書いてみましょう。簡単な例を以下に示します。
 
@@ -69,7 +71,7 @@ public class ExcelDataImport {
 
 このコードでは、Excel ブックを読み込み、特定のセル (A1) にアクセスし、すべての行と列を反復処理してデータを読み取って表示します。
 
-## コードの実行
+## コードを実行する
 
 IDEでJavaコードをコンパイルして実行してください。プロジェクトディレクトリに「input.xlsx」という名前のExcelファイルがあることを確認してください。コードはセルA1のデータとワークシート内のすべてのデータを表示します。
 
@@ -96,9 +98,11 @@ Aspose.Cells for Javaを使ってExcelからデータをインポートする方
    Aspose.Cellsのドキュメントをご覧ください [ここ](https://reference.aspose.com/cells/java/) 詳細なリソースと例については、こちらをご覧ください。
 
 このコードを自由にさらに詳しく調べて、ご自身のデータインポート要件に合わせて調整してください。コーディングを楽しんでください！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

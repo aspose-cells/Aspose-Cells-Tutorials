@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Dowiedz się, jak manipulować skoroszytami programu Excel w Javie za pomocą Aspose.Cells. Ten przewodnik obejmuje tworzenie, zmienianie nazw arkuszy i wydajne zapisywanie zmian."
+"description": "Dowiedz się, jak manipulować skoroszytami programu Excel w Javie za pomocą Aspose.Cells. Ten przewodnik obejmuje tworzenie, zmienianie nazw arkuszy i efektywne zapisywanie zmian."
 "title": "Opanuj manipulację skoroszytem programu Excel w Javie za pomocą Aspose.Cells&#58; Kompleksowy przewodnik"
 "url": "/pl/java/workbook-operations/master-excel-workbook-manipulation-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -237,6 +239,9 @@ tym przewodniku zbadaliśmy podstawy korzystania z Aspose.Cells for Java w celu 
    - Użyj Maven lub Gradle, aby uwzględnić go w projekcie bezpośrednio z repozytorium.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

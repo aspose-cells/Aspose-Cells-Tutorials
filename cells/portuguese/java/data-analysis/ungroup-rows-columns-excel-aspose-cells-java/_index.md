@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Integrar o Aspose.Cells com outros sistemas, como bancos de dados ou serviços w
 
 ## Considerações de desempenho
 
-- **Otimize o uso da memória**: Garanta um gerenciamento de memória eficiente ao lidar com arquivos grandes.
+- **Otimizar o uso da memória**: Garanta um gerenciamento de memória eficiente ao lidar com arquivos grandes.
 - **Melhores Práticas**: Feche as pastas de trabalho após as operações para liberar recursos.
 - **Operações Assíncronas**: Utilize métodos assíncronos, se disponíveis, para manipular conjuntos de dados complexos sem bloquear threads.
 
@@ -167,6 +169,9 @@ Sinta-se à vontade para entrar em contato conosco pelo [Fórum Aspose](https://
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

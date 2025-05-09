@@ -8,7 +8,9 @@ url: /net/customizing-chart-axes-and-units/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Customizing Chart Axes and Units
@@ -31,9 +33,11 @@ Now that you’ve mastered handling the automatic units, it’s time to tackle a
 Learn how to handle automatic units of chart axis in Excel like a pro using Aspose.Cells for .NET! Step-by-step tutorial included.
 ### [Read Axis Labels after Calculating Chart](./read-axis-labels-after-calculating-chart/)
 Unlock your potential with Aspose.Cells for .NET. Learn how to read chart axis labels easily in our detailed step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

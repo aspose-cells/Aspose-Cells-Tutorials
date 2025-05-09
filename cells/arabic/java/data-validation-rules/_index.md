@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # قواعد التحقق من صحة البيانات
@@ -42,9 +44,11 @@
 تعرّف على كيفية تطبيق التحقق الشرطي من البيانات باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع الكود المصدري لمعالجة دقيقة للبيانات في جداول بيانات Excel.
 ### [رسالة الإدخال في التحقق من صحة البيانات](./input-message-in-data-validation/)
 تعرّف على كيفية تحسين التحقق من صحة البيانات في Excel باستخدام Aspose.Cells لجافا. دليل خطوة بخطوة مع أمثلة برمجية لتحسين دقة البيانات وإرشادات المستخدم.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

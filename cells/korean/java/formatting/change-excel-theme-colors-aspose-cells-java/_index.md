@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,7 +182,7 @@ Aspose.Cells를 사용하는 경우:
 2. **Aspose.Cells에 대한 임시 라이선스를 얻으려면 어떻게 해야 하나요?**
    - 임시 면허 신청 [여기](https://purchase.aspose.com/temporary-license/).
 3. **여러 시트의 테마 색상을 한 번에 변경할 수 있나요?**
-   - 네, 각 워크시트를 반복해서 검토하고 변경 사항을 적용하면 됩니다.
+   - 네, 각 워크시트를 반복하면서 변경 사항을 적용하면 됩니다.
 4. **Excel 파일을 프로그래밍 방식으로 수정할 때 흔히 발생하는 문제는 무엇입니까?**
    - 일반적인 문제로는 통합 문서가 올바르게 저장되지 않아 발생하는 파일 손상이나 큰 파일의 경우 발생하는 메모리 오류가 있습니다.
 5. **문서를 저장하기 전에 테마 변경 사항을 미리 볼 수 있는 방법이 있나요?**
@@ -196,6 +198,9 @@ Aspose.Cells를 사용하는 경우:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

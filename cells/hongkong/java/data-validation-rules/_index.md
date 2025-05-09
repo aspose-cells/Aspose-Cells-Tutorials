@@ -8,14 +8,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 資料驗證規則
 
 
 ## 了解資料驗證規則
-資料驗證規則是 Excel 表格建立和管理的一個重要方面。使用 Aspose.Cells for Java，您可以提升您的 Excel 技能並輕鬆確保資料的準確性。在本教學系列中，我們將深入研究資料驗證規則的世界，引導您完成流程的每個步驟。
+資料驗證規則是 Excel 表格建立和管理的一個重要方面。使用 Aspose.Cells for Java，您可以提升您的 Excel 技能並輕鬆確保資料的準確性。在本教程系列中，我們深入研究資料驗證規則的世界，指導您完成流程的每個步驟。
 
 ## 建立自訂驗證規則
 Aspose.Cells 使您能夠建立適合您特定需求的自訂資料驗證規則。無論您是限制輸入值、設定日期範圍或實作複雜條件，我們的教學都會引導您完成整個過程。解鎖防止錯誤和維護 Excel 表中資料一致性的能力。
@@ -42,9 +44,11 @@ Aspose.Cells 使您能夠建立適合您特定需求的自訂資料驗證規則�
 了解如何使用 Aspose.Cells for Java 實作條件資料驗證。帶有原始程式碼的逐步指南，用於在 Excel 電子表格中準確處理資料。
 ### [資料驗證中的輸入訊息](./input-message-in-data-validation/)
 了解如何使用 Aspose.Cells for Java 增強 Excel 中的資料驗證。帶有程式碼範例的分步指南，以提高資料準確性和使用者指導。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

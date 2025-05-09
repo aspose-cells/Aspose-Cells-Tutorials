@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Başlamadan önce aşağıdaki kurulumların yapıldığından emin olun:
 - **Java için Aspose.Cells**: Sürüm 25.3 veya üzeri.
   
 ### Çevre Kurulum Gereksinimleri:
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - IntelliJ IDEA veya Eclipse gibi bir IDE.
 
 ### Bilgi Ön Koşulları:
@@ -186,6 +188,9 @@ Excel veri işleme yeteneklerinizi geliştirmek için bugün Aspose.Cells for Ja
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ public class ExcelToHtmlConverter {
 
 Analicemos la implementación en características distintas para una mejor comprensión.
 
-### Función 1: Cargar libro de trabajo desde archivo
+### Característica 1: Cargar libro de trabajo desde archivo
 
 **Descripción general**Este paso implica cargar un archivo de Excel mediante Aspose.Cells. Es fundamental asegurarse de que la fuente de datos esté correctamente especificada.
 
@@ -209,6 +211,9 @@ Para mayor exploración y documentación, visite el [Documentación de Aspose.Ce
 ¡Embárquese en su viaje hacia el dominio de las manipulaciones de archivos de Excel con Aspose.Cells para Java y mejore su presentación de datos hoy mismo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

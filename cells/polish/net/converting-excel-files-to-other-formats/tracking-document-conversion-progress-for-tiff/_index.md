@@ -1,14 +1,16 @@
 ---
-title: Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET
-linktitle: Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells dla .NET z naszym przewodnikiem krok po kroku. Udoskonal swoje umiejętności zarządzania dokumentami.
-weight: 21
-url: /pl/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress-for-tiff/
+"description": "Naucz się śledzić postęp konwersji TIFF programowo, używając Aspose.Cells dla .NET z naszym przewodnikiem krok po kroku. Udoskonal swoje umiejętności zarządzania dokumentami."
+"linktitle": "Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET"
+"url": "/pl/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress-for-tiff/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Śledzenie postępu konwersji dokumentów dla formatu TIFF programowo w środowisku .NET
@@ -19,7 +21,7 @@ W tym artykule rozłożymy proces na czynniki pierwsze, zapewniając pełne zroz
 ## Wymagania wstępne
 Zanim przejdziemy do zabawy z kodowaniem, upewnijmy się, że masz wszystko na swoim miejscu. Oto, czego będziesz potrzebować, aby zacząć:
 1. Visual Studio: Upewnij się, że masz zainstalowany Visual Studio na swoim komputerze. Tutaj będziesz pisać i testować swój kod.
-2.  Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz pobrać i zainstalować bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# pomoże Ci płynnie poruszać się po kodzie.
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy, aby zanurzyć się w świecie konwersji dokumentów!
 ## Importuj pakiety
@@ -44,13 +46,13 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, w której przechowywany jest plik Excel i gdzie chcesz zapisać pliki TIFF.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką, w której zapisany jest plik Excel i gdzie chcesz zapisać pliki TIFF.
 ## Krok 2: Załaduj skoroszyt
 Teraz załadujmy skoroszyt programu Excel, który chcemy przekonwertować. Aspose.Cells sprawia, że jest to superłatwe! Oto, jak możesz to zrobić:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleUseWorkbookRenderForImageConversion.xlsx");
 ```
- W tym wierszu zamień`"sampleUseWorkbookRenderForImageConversion.xlsx"` z nazwą pliku Excel. Ta linia inicjuje`Workbook`obiekt, który reprezentuje arkusz kalkulacyjny w pamięci.
+W tym wierszu zamień `"sampleUseWorkbookRenderForImageConversion.xlsx"` z nazwą pliku Excel. Ta linia inicjuje `Workbook` obiekt, który reprezentuje arkusz kalkulacyjny w pamięci.
 ## Krok 3: Utwórz opcje obrazu lub wydruku
 Następnie musimy skonfigurować opcje renderowania naszego skoroszytu do formatu TIFF. Tutaj możemy określić różne ustawienia, w tym nasze niestandardowe wywołanie zwrotne zapisywania strony:
 ```csharp
@@ -58,9 +60,9 @@ ImageOrPrintOptions opts = new ImageOrPrintOptions();
 opts.PageSavingCallback = new TestTiffPageSavingCallback();
 opts.ImageType = ImageType.Tiff;
 ```
- Tutaj tworzymy instancję`ImageOrPrintOptions` i mówimy mu, że chcemy użyć naszej niestandardowej klasy wywołania zwrotnego,`TestTiffPageSavingCallback`, aby śledzić postęp. Określamy również, że chcemy, aby typ obrazu wyjściowego był TIFF.
+Tutaj tworzymy instancję `ImageOrPrintOptions` i mówimy mu, że chcemy użyć naszej niestandardowej klasy wywołania zwrotnego, `TestTiffPageSavingCallback`, aby śledzić postęp. Określamy również, że chcemy, aby typ obrazu wyjściowego był TIFF.
 ## Krok 4: Wdróż funkcję zwrotną zapisywania strony
- Istotą śledzenia postępu konwersji jest wdrożenie`IPageSavingCallback` interfejs. Tutaj definiujesz, co się dzieje, gdy każda strona zaczyna i kończy zapisywanie. Oto, jak to skonfigurować:
+Istotą śledzenia postępu konwersji jest wdrożenie `IPageSavingCallback` interfejs. Tutaj definiujesz, co się dzieje, gdy każda strona zaczyna i kończy zapisywanie. Oto, jak to skonfigurować:
 ```csharp
 public class TestTiffPageSavingCallback : IPageSavingCallback
 {
@@ -84,14 +86,14 @@ public class TestTiffPageSavingCallback : IPageSavingCallback
     }
 }
 ```
- W`PageStartSaving` metodą, logujemy indeks strony i całkowitą liczbę stron przed rozpoczęciem zapisywania. Dodatkowo możesz kontrolować, które strony mają zostać wyprowadzone. W tym przypadku pomijamy strony przed indeksem 2. Podobnie w`PageEndSaving`Dzięki tej metodzie rejestrujemy zakończenie zapisywania strony, a także możemy zapobiec zapisywaniu kolejnych stron po indeksie 8.
+W `PageStartSaving` metodą, logujemy indeks strony i całkowitą liczbę stron przed rozpoczęciem zapisywania. Dodatkowo możesz kontrolować, które strony mają zostać wyprowadzone. W tym przypadku pomijamy strony przed indeksem 2. Podobnie w `PageEndSaving` Dzięki tej metodzie rejestrujemy zakończenie zapisywania strony, a także możemy zapobiec zapisywaniu kolejnych stron po indeksie 8.
 ## Krok 5: Renderowanie skoroszytu do obrazów
-Teraz, gdy mamy już skonfigurowane opcje i zaimplementowane wywołanie zwrotne, jesteśmy gotowi renderować skoroszyt! Oto jak to zrobić:
+Teraz, gdy mamy już skonfigurowane opcje i zaimplementowane wywołanie zwrotne, jesteśmy gotowi do renderowania skoroszytu! Oto jak to zrobić:
 ```csharp
 WorkbookRender wr = new WorkbookRender(workbook, opts);
 wr.ToImage(outputDir + "DocumentConversionProgressForTiff_out.tiff");
 ```
- Ta linia tworzy instancję`WorkbookRender` , przechodząc przez nasze`workbook` i opcje, które ustawiliśmy wcześniej. Następnie dzwonimy`ToImage`, określając ścieżkę wyjściową dla naszego pliku TIFF.
+Ta linia tworzy instancję `WorkbookRender`, przechodząc przez nasze `workbook` i opcje, które ustawiliśmy wcześniej. Następnie dzwonimy `ToImage`, określając ścieżkę wyjściową dla naszego pliku TIFF.
 ## Krok 6: Komunikat o powodzeniu
 Na koniec przekażmy informację zwrotną, że nasza konwersja się powiodła. Zawsze miło jest otrzymać potwierdzenie, prawda?
 ```csharp
@@ -107,14 +109,16 @@ Aspose.Cells to biblioteka .NET umożliwiająca programowe manipulowanie plikami
 ### Czy mogę śledzić postęp konwersji w przypadku innych formatów?  
 Tak! Mechanizm wywołania zwrotnego można dostosować również do innych formatów, takich jak PDF lub JPEG.
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?  
- Chociaż możesz wypróbować go za darmo, licencja jest wymagana do pełnej funkcjonalności w produkcji. Więcej informacji znajdziesz[Tutaj](https://purchase.aspose.com/buy).
+Chociaż możesz wypróbować go za darmo, licencja jest wymagana do pełnej funkcjonalności w produkcji. Więcej informacji znajdziesz [Tutaj](https://purchase.aspose.com/buy).
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?  
- Możesz odwiedzić[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)Aby uzyskać pomoc od społeczności i zespołu Aspose.
+Możesz odwiedzić [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9) Aby uzyskać pomoc od społeczności i zespołu Aspose.
 ### Jak rozpocząć korzystanie z Aspose.Cells?  
- Możesz pobrać bibliotekę i sprawdzić[dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać instrukcje i przykłady.
+Możesz pobrać bibliotekę i sprawdzić [dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać instrukcje i przykłady.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

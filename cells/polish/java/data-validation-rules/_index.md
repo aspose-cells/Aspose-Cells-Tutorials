@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reguły walidacji danych
@@ -42,9 +44,11 @@ Poznaj walidację danych w programie Excel za pomocą Aspose.Cells dla Java. Wdr
 Dowiedz się, jak wdrożyć warunkową walidację danych za pomocą Aspose.Cells dla Java. Przewodnik krok po kroku z kodem źródłowym do dokładnej obsługi danych w arkuszach kalkulacyjnych Excel.
 ### [Wiadomość wejściowa w walidacji danych](./input-message-in-data-validation/)
 Dowiedz się, jak ulepszyć walidację danych w programie Excel za pomocą Aspose.Cells for Java. Przewodnik krok po kroku z przykładami kodu, aby poprawić dokładność danych i wskazówkami dla użytkownika.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

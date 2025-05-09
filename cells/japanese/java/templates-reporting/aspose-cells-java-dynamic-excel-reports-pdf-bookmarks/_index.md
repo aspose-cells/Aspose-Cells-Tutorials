@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ import com.aspose.cells.Workbook;
 public class AsposeSetup {
     public static void main(String[] args) {
         Workbook workbook = new Workbook();
-        // ここにコードを入力してください...
+        // ここにあなたのコードを...
     }
 }
 ```
@@ -197,6 +199,9 @@ Aspose.Cells を使用する際に最適なパフォーマンスを確保する�
 - [ライセンスを購入する](https://purchase.aspose.com/pricing/aspose-cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ Java'da Aspose.Cells ile çalışırken:
 ## Çözüm
 Aspose.Cells for Java kullanarak Excel filtreleme görevlerini otomatikleştirmede ustalaştınız. Bu kılavuz, veri işleme yeteneklerinizi geliştirir ve daha büyük projelere entegre edilebilir.
 
-**Sonraki Adımlar**: Uygulamalarınızı zenginleştirmek için grafik ve pivot tablolar gibi daha fazla özelliği keşfedin. Daha sonra ek işlevler uygulamaya çalışın!
+**Sonraki Adımlar**: Uygulamalarınızı zenginleştirmek için grafik ve pivot tablolar gibi daha fazla özelliği keşfedin. Daha sonra ek işlevler uygulamayı deneyin!
 
 ## SSS Bölümü
 1. **Java için Aspose.Cells nedir?**
@@ -154,6 +156,9 @@ Aspose.Cells for Java kullanarak Excel filtreleme görevlerini otomatikleştirme
 - **Destek**: Topluluk forumuna katılın [Aspose Desteği](https://forum.aspose.com/c/cells/9) yardım için.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

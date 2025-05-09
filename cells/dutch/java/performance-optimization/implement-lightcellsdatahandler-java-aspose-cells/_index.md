@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ In deze gids hebt u geleerd hoe u `LightCellsDataHandler` in Java met Aspose.Cel
 Door deze handleiding te volgen, bent u goed op weg om Excel-bestandsverwerking in Java onder de knie te krijgen met Aspose.Cells. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

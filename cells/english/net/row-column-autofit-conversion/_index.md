@@ -8,7 +8,9 @@ url: /net/row-column-autofit-conversion/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Row and Column Auto-fit
@@ -48,9 +50,11 @@ Learn how to auto-fit rows and columns in Excel with Aspose.Cells for .NET. Easy
 Learn how to auto-fit rows for merged cells using Aspose.Cells for .NET effectively and enhance your Excel automation skills.
 ### [Convert Text to Columns in Aspose.Cells .NET](./convert-text-to-columns/)
 Learn how to convert text to columns effortlessly using Aspose.Cells for .NET in this detailed step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel의 동적 드롭다운 목록
@@ -92,7 +94,7 @@ Aspose.Cells for Java를 사용하여 Excel에서 동적 드롭다운 목록을 
 
 ## 자주 묻는 질문
 
-### 드롭다운 목록 소스를 사용자 지정하려면 어떻게 해야 하나요?
+### 드롭다운 목록 소스를 어떻게 사용자 지정할 수 있나요?
 
 드롭다운 목록 소스를 사용자 지정하려면 소스를 정의하는 단계에서 값 배열을 수정하기만 하면 됩니다. 예를 들어, 항목을 추가하거나 제거할 수 있습니다. `fruits` 드롭다운 목록의 옵션을 변경하려면 배열을 사용합니다.
 
@@ -115,6 +117,7 @@ Aspose.Cells for Java를 사용하여 Excel에서 동적 드롭다운 목록을 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

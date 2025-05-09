@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εκπαιδευτικά σεμινάρια επεξεργασίας υπολογιστικών φύλλων Java Aspose.Cells
@@ -118,9 +120,11 @@
 
 ### [Αυτοματοποίηση & Μαζική Επεξεργασία](./automation-batch-processing/)
 Βήμα προς βήμα οδηγίες για την αυτοματοποίηση εργασιών Excel, την επεξεργασία πολλαπλών αρχείων σε παρτίδες και τον προγραμματισμό λειτουργιών με το Aspose.Cells για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

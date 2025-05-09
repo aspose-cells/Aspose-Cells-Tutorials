@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/aligning-text-vertically/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aligning Text Vertically in Excel Cells
@@ -118,9 +120,11 @@ The documentation can be found at [this link](https://reference.aspose.com/cells
 Absolutely! Aspose.Cells can be used in various .NET applications, including web applications, desktop applications, and services.
 ### How do I get support for Aspose.Cells?  
 If you have questions or need help, you can reach out to the Aspose support forum [here](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

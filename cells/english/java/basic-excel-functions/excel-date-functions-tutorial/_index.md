@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/excel-date-functions-tutorial/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Date Functions Tutorial
@@ -181,6 +183,7 @@ To get started with Aspose.Cells for Java, download the library from [here](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

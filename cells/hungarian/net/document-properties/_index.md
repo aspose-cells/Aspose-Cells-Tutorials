@@ -1,41 +1,45 @@
 ---
-title: Dokumentum tulajdonságai
-linktitle: Dokumentum tulajdonságai
-second_title: Aspose.Cells .NET Excel Processing API
-description: A dokumentumtulajdonságokról szóló átfogó oktatóanyagaink segítségével felszabadíthatja az Aspose.Cells for .NET képességeit, hogy javítsa Excel fájlkezelési készségeit.
-weight: 30
-url: /hu/net/document-properties/
+"description": "Fedezd fel az Aspose.Cells for .NET képességeit átfogó dokumentumtulajdonságokkal foglalkozó oktatóanyagaink segítségével, hogy fejleszd Excel fájlkezelési készségeidet."
+"linktitle": "Dokumentum tulajdonságai"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Dokumentum tulajdonságai"
+"url": "/hu/net/document-properties/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentum tulajdonságai
 
 ## Bevezetés
 
-Az Excel dokumentumtulajdonságai úgy működnek, mint a fájl metaadatai. Képzelje el ezt: minden Excel-fájlnak saját személyi igazolványa van, amely olyan fontos információkat tartalmaz, mint a cím, a szerző és a kulcsszavak. Az Aspose.Cells for .NET használatakor ezeknek a tulajdonságoknak a elérése és kezelése gyerekjáték lesz. Ne feledje, hogy ezek a tulajdonságok nemcsak a fájlok rendszerezésében segítenek, hanem javíthatják a dokumentumok kereshetőségét is. Kíváncsi vagy hogyan? Ugorjunk bele az oktatóanyagokba!
+Az Excelben a dokumentumtulajdonságok a fájl metaadataihoz hasonlóan működnek. Képzelje el: minden Excel-fájlnak saját azonosítókártyája van, amely olyan fontos információkat tartalmaz, mint a cím, a szerző és a kulcsszavak. Az Aspose.Cells for .NET használatakor ezeknek a tulajdonságoknak az elérése és kezelése gyerekjáték. Ne feledje, hogy ezek a tulajdonságok nemcsak a fájlok rendszerezésében segítenek, hanem a dokumentumok kereshetőségét is javíthatják. Kíváncsi, hogyan? Vágjunk bele az oktatóanyagokba!
 
-## Hozzáférés a dokumentum tulajdonságaihoz
- Először is beszéljünk a dokumentumtulajdonságok eléréséről a .NET-ben. Ez a kiindulópontod. Képzelje el, hogy tudni szeretné, ki írta egy adott táblázatot – az Aspose.Cells segítségével gyorsan lekérheti ezeket az információkat. A[A dokumentum tulajdonságainak elérése a .NET-ben](./accessing-document-properties/)Az oktatóanyag az útmutató, amely felhasználóbarát áttekintést kínál a rejtett drágakövek megtalálásához a fájlokban. Megtanulhatja az olyan tulajdonságok lekérését, mint a létrehozás dátuma és az utolsó módosítás dátuma, és hidd el, ez egyszerűbb, mint egy vasárnap reggel!
+## Dokumentumtulajdonságok elérése
+Először is, beszéljünk a dokumentumok tulajdonságainak eléréséről .NET-ben. Ez a kiindulópont. Képzeljük el, hogy tudni szeretnénk, ki írt egy adott táblázatot – az Aspose.Cells segítségével ezt az információt gyorsan lekérhetjük. [Dokumentumtulajdonságok elérése .NET-ben](./accessing-document-properties/) Az oktatóanyag a tökéletes útmutató, amely felhasználóbarát útmutatót kínál a fájljaidban található rejtett kincsek megtalálásához. Megtanulod, hogyan kell lekérni olyan tulajdonságokat, mint a létrehozási dátum és az utolsó módosítás dátuma, és hidd el, ez sokkal egyszerűbb, mint egy vasárnap reggel!
 
 ## Dokumentumtulajdonságok hozzáadása
- Most, hogy hozzáférhet a meglévő ingatlanokhoz, mi a teendő, ha fel szeretné venni a sajátját? Itt lép színre a kreativitás! Érdemes lehet Excel-fájljait projektnevekkel vagy egyéb releváns részletekkel megcímkézni. Követve a[Dokumentumtulajdonságok hozzáadása a .NET-ben](./adding-document-properties/) oktatóanyagot, megtudhatja, hogyan gazdagíthatja dokumentumait egyéni tulajdonságokkal. Ez olyan, mintha személyre szabná a fájlokat! Gondoljon csak arra, mint otthona díszítésére; minél több egyedi vonást ad hozzá, annál jobban tükrözi személyiségét.
+Most, hogy hozzáférhetsz a meglévő tulajdonságokhoz, mi van, ha sajátokat szeretnél hozzáadni? Itt jön képbe a kreativitás! Érdemes lehet címkézni az Excel-fájlokat projektnevekkel vagy más releváns részletekkel. A következő lépéseket követve: [Dokumentumtulajdonságok hozzáadása .NET-ben](./adding-document-properties/) Ebben az oktatóanyagban felfedezheted, hogyan gazdagíthatod dokumentumaidat egyéni tulajdonságokkal. Olyan, mintha személyre szabott külsőt adnál a fájljaidnak! Gondolj rá úgy, mint otthonod díszítésére; minél több egyedi elemet adsz hozzá, annál jobban tükrözi a személyiségedet.
 
-## A dokumentumtulajdonságok értékének elérése
- Előfordult már, hogy konkrét információkra volt szüksége egy Excel-fájlból, és úgy érezte, elveszett a számtalan lap között? A[dokumentumtulajdonságok értékének elérése a .NET-ben](./accessing-value-of-document-properties/) Az oktatóanyag ezzel foglalkozik, és megtanítja Önnek, hogyan lehet hatékonyan kinyerni ezeket az értékes információrögöket. A rendszer végigvezeti azokon a módszereken, amelyek adott tulajdonságértékeket kérnek le, így nem kell manuálisan kutatnia az adatok között. Ez az oktatóanyag tökéletes azokra az esetekre, amikor siet vagy több fájllal zsonglőrködik – gondoljon úgy, mintha van egy személyi asszisztense, aki pontosan tudja, hol találhat adatokat a dokumentumokban.
+## Dokumentumtulajdonságok értékének elérése
+Előfordult már, hogy szüksége volt egy adott információra egy Excel-fájlból, és elveszettnek érezte magát a számtalan táblázat között? [Dokumentumtulajdonságok értékének elérése .NET-ben](./accessing-value-of-document-properties/) Ez az oktatóanyag ezt a problémát úgy oldja meg, hogy megtanítja, hogyan kinyerheti hatékonyan ezeket az értékes információmorzsákat. Végigvezetjük Önt olyan módszereken, amelyek adott tulajdonságértékeket kérnek le, így nem kell manuálisan átkutatnia az adatokat. Ez az oktatóanyag tökéletes azokra az esetekre, amikor siet, vagy több fájllal zsonglőrködik – képzelje el úgy, mintha lenne egy személyi asszisztense, aki pontosan tudja, hol keresse az adatokat a dokumentumaiban.
 
-## A dokumentum tulajdonságai oktatóanyagok
-### [A dokumentum tulajdonságainak elérése a .NET-ben](./accessing-document-properties/)
-Ismerje meg, hogyan érheti el a dokumentumtulajdonságokat az Excelben az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre útmutatónkat a hatékony Excel-manipuláció érdekében.
-### [dokumentumtulajdonságok értékének elérése a .NET-ben](./accessing-value-of-document-properties/)
-A lépésenkénti útmutatónkból megtudhatja, hogyan érheti el a dokumentumtulajdonságokat az Excelben az Aspose.Cells for .NET használatával. Hatékonyan kezelheti táblázatait.
-### [Dokumentumtulajdonságok hozzáadása a .NET-ben](./adding-document-properties/)
-Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá dokumentumtulajdonságokat az Excelben az Aspose.Cells for .NET használatával.
+## Dokumentumtulajdonságok oktatóanyagok
+### [Dokumentumtulajdonságok elérése .NET-ben](./accessing-document-properties/)
+Ismerje meg, hogyan érheti el a dokumentumok tulajdonságait Excelben az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a hatékony Excel-kezeléshez.
+### [Dokumentumtulajdonságok értékének elérése .NET-ben](./accessing-value-of-document-properties/)
+Tanulja meg, hogyan érheti el a dokumentumok tulajdonságait Excelben az Aspose.Cells for .NET használatával lépésről lépésre bemutató útmutatónkkal. Kezelje hatékonyan táblázatait.
+### [Dokumentumtulajdonságok hozzáadása .NET-ben](./adding-document-properties/)
+Tanulja meg, hogyan adhat hozzá dokumentumtulajdonságokat az Excelben az Aspose.Cells for .NET használatával ebből a részletes, lépésről lépésre szóló útmutatóból.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

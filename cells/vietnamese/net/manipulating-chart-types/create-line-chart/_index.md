@@ -1,14 +1,16 @@
 ---
-title: Tạo biểu đồ đường
-linktitle: Tạo biểu đồ đường
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tạo biểu đồ đường tuyệt đẹp bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trực quan hóa dữ liệu của bạn một cách hiệu quả.
-weight: 11
-url: /vi/net/manipulating-chart-types/create-line-chart/
+"description": "Tạo biểu đồ đường tuyệt đẹp bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trực quan hóa dữ liệu của bạn một cách hiệu quả."
+"linktitle": "Tạo biểu đồ đường"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo biểu đồ đường"
+"url": "/vi/net/manipulating-chart-types/create-line-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo biểu đồ đường
@@ -22,7 +24,7 @@ Bạn đã sẵn sàng để trực quan hóa dữ liệu của mình một các
 Trước khi đi sâu vào cách tạo biểu đồ đường, hãy đảm bảo rằng bạn đã được trang bị đầy đủ để thực hiện theo:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình vì đây là một trong những IDE phổ biến nhất để phát triển .NET.
-2.  Thư viện Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells, bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn hiểu các ví dụ và đoạn mã tốt hơn.
 4. .NET Framework hoặc .NET Core: Thiết lập cơ bản của một trong hai nền tảng này vì đây sẽ là nền tảng cho các ứng dụng của chúng ta.
 
@@ -44,7 +46,7 @@ using System.Drawing;
 using Aspose.Cells.Charts;
 ```
 
- Dòng này nhập khẩu`Aspose.Cells` không gian tên, chứa tất cả các lớp và phương thức chúng ta sẽ sử dụng để tạo biểu đồ đường.
+Dòng này nhập khẩu `Aspose.Cells` không gian tên, chứa tất cả các lớp và phương thức chúng ta sẽ sử dụng để tạo biểu đồ đường.
 
 Bây giờ, chúng ta hãy chia nhỏ toàn bộ quy trình thành các bước đơn giản, dễ hiểu. Mỗi bước sẽ hướng dẫn bạn qua quy trình hợp lý để tạo biểu đồ đường bằng Aspose.Cells cho .NET.
 
@@ -56,7 +58,7 @@ Bước đầu tiên là xác định nơi bạn muốn lưu tệp đầu ra. Gi
 // Thư mục đầu ra
 string outputDir = "Your Output Directory";
 ```
- Thay thế`"Your Output Directory"`với đường dẫn thực tế mà bạn muốn lưu tệp Excel đã tạo.
+Thay thế `"Your Output Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel đã tạo.
 
 ## Bước 2: Khởi tạo đối tượng Workbook
 
@@ -76,7 +78,7 @@ Trong sổ làm việc mới tạo, chúng ta cần lấy tham chiếu đến tr
 // Lấy tham chiếu của bảng tính mới được thêm vào bằng cách chuyển chỉ mục trang tính của nó
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Ở đây, chúng ta truy cập vào bảng tính đầu tiên (chỉ mục`0`).
+Ở đây, chúng ta truy cập vào bảng tính đầu tiên (chỉ mục `0`).
 
 ## Bước 4: Thêm giá trị mẫu vào ô
 
@@ -131,7 +133,7 @@ Kết thúc tuyệt vời! Sau tất cả công sức bỏ ra, đã đến lúc 
 // Lưu tệp Excel
 workbook.Save(outputDir + "outputHowToCreateLineChart.xlsx");
 ```
- Dòng này lưu sổ làm việc của bạn trong thư mục đầu ra được chỉ định với tên`outputHowToCreateLineChart.xlsx`.
+Dòng này lưu sổ làm việc của bạn trong thư mục đầu ra được chỉ định với tên `outputHowToCreateLineChart.xlsx`.
 
 ## Bước 9: Thực hiện và Xác minh
 
@@ -158,13 +160,15 @@ Có, Aspose.Cells cung cấp hỗ trợ toàn diện cho nhiều loại biểu �
 Có, bạn có thể tải xuống phiên bản dùng thử miễn phí để khám phá các tính năng của nó. Để sử dụng lâu dài, hãy cân nhắc mua giấy phép.
 
 ### Có diễn đàn hỗ trợ không?  
- Chắc chắn rồi! Bạn có thể tìm thấy câu trả lời và đặt câu hỏi trên[Diễn đàn Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể tìm thấy câu trả lời và đặt câu hỏi trên [Diễn đàn Aspose.Cells](https://forum.aspose.com/c/cells/9).
 
 ### Làm thế nào để mua giấy phép?  
- Giấy phép có thể được mua dễ dàng thông qua[trang mua hàng](https://purchase.aspose.com/buy).
+Giấy phép có thể được mua dễ dàng thông qua [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

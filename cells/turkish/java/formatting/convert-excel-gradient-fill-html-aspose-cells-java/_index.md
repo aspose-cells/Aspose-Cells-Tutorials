@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ C5: Evet, Excel dosyalarının bulunduğu bir dizinde döngü yapın ve dönüş
 Java için Aspose.Cells'i öğrenme yolunda bir sonraki adımı atın ve veri sunum projelerinizi geliştirmek için tüm potansiyelinden yararlanın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ピボットテーブルの作成
@@ -45,7 +47,7 @@ String sourceData = "Sheet1!A1:D100"; // これをデータ範囲に変更しま
 ```
 
 ## ステップ4: ピボットテーブルを作成する
-それでは、ピボット テーブルを作成しましょう。
+それでは、ピボットテーブルを作成しましょう。
 
 ```java
 // ピボットテーブルを作成する
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    このチュートリアルで説明されているように、Aspose.Cells for Java API を使用して Java でのピボット テーブルの作成を自動化できます。
 
 これで、Aspose.Cellsを使ってJavaで強力なピボットテーブルを作成するための知識とコードが身につきました。さまざまなデータソースと設定を試して、ニーズに合わせてピボットテーブルをカスタマイズしましょう。データ分析を楽しんでください！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

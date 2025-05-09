@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Du har nu en grundläggande förståelse för hur man skapar och sparar Excel-ar
 Nästa steg kan innebära att integrera dessa funktioner i större projekt eller utforska andra bibliotek för heltäckande datahanteringslösningar.
 ## FAQ-sektion
 1. **Vad är Aspose.Cells för Java?**
-   - Det är ett bibliotek som möjliggör hantering av Excel-filer i Java-applikationer.
+   - Det är ett bibliotek som möjliggör manipulering av Excel-filer i Java-applikationer.
 2. **Hur installerar jag Aspose.Cells med Gradle?**
    - Lägg till `aspose-cells` beroende av din `build.gradle`.
 3. **Kan jag skapa diagram med Aspose.Cells?**
@@ -134,6 +136,9 @@ Nästa steg kan innebära att integrera dessa funktioner i större projekt eller
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

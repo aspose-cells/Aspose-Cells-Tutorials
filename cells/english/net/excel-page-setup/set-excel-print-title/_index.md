@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-print-title/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Print Title
@@ -143,6 +145,7 @@ You can explore the documentation [here](https://reference.aspose.com/cells/net/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

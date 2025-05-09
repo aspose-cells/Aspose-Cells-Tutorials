@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ public class AccessWorksheet {
 }
 ```
 
-**설명**: 워크시트는 다음을 통해 액세스됩니다. `getSheets()`, 그리고 우리는 0부터 시작하는 인덱싱을 사용하여 첫 번째를 얻습니다.
+**설명**: 워크시트는 다음을 통해 액세스됩니다. `getSheets()`, 그리고 우리는 첫 번째를 얻기 위해 0부터 시작하는 인덱싱을 사용합니다.
 
 ### 워크시트에 이미지 삽입
 
@@ -173,7 +175,7 @@ public class InsertImageIntoWorksheet {
 
 **설명**: 사용 `PictureCollection` 이미지를 관리하는 방법 `add(rowIndex, columnIndex, inputStream)` 지정된 위치에 이미지를 삽입합니다.
 
-### 통합 문서를 Excel 파일로 저장
+### 통합 문서를 Excel 파일에 저장
 
 **개요**: 모든 변경 사항이 포함된 통합 문서를 Excel 파일로 저장합니다.
 
@@ -183,7 +185,7 @@ import com.aspose.cells.Workbook;
 
 public class SaveWorkbook {
     public static void main(String[] args) throws Exception {
-        // 새 통합 문서를 만들고 채웁니다.
+        // 새 통합 문서를 만들고 채우세요
         Workbook book = new Workbook();
         
         // 출력 디렉토리 경로를 설정합니다
@@ -235,6 +237,9 @@ A4: 디렉토리 경로가 존재하고 적절한 쓰기 권한이 있는지 확
 A5: 네, JPEG, PNG, BMP, GIF 등 다양한 형식을 지원합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

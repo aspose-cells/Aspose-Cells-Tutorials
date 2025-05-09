@@ -1,36 +1,38 @@
 ---
-title: 实现工作表的自定义纸张尺寸以进行渲染
-linktitle: 实现工作表的自定义纸张尺寸以进行渲染
-second_title: Aspose.Cells for .NET API 参考
-description: 学习使用 Aspose.Cells for .NET 在 Excel 中设置自定义纸张大小。无缝工作表渲染的分步指南。
-weight: 50
-url: /zh/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/
+"description": "学习如何使用 Aspose.Cells for .NET 在 Excel 中设置自定义纸张大小。无缝工作表渲染的分步指南。"
+"linktitle": "实现工作表的自定义纸张大小以进行渲染"
+"second_title": "Aspose.Cells for .NET API参考"
+"title": "实现工作表的自定义纸张大小以进行渲染"
+"url": "/zh/net/excel-page-setup/implement-custom-paper-size-of-worksheet-for-rendering/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 实现工作表的自定义纸张尺寸以进行渲染
+# 实现工作表的自定义纸张大小以进行渲染
 
 ## 介绍
 
-通过编程方式创建和自定义 Excel 文档可以提高您的工作效率，尤其是在处理大量报告或数据条目时。使用 Aspose.Cells for .NET，您可以轻松设置自定义纸张大小以呈现工作表。在本教程中，我们将把该过程分解为易于遵循的步骤，确保您可以无缝实现此功能。无论您是经验丰富的开发人员还是刚刚涉足 .NET 世界，
+通过编程方式创建和自定义 Excel 文档可以提高您的工作效率，尤其是在处理大量报表或数据输入时。使用 Aspose.Cells for .NET，您可以轻松设置自定义纸张大小来渲染工作表。在本教程中，我们将把整个过程分解为易于遵循的步骤，确保您能够无缝地实现此功能。无论您是经验丰富的开发人员，还是刚刚涉足 .NET 领域，
 
 ## 先决条件
 
-在深入研究代码之前，让我们先确保您已正确设置。以下是您开始使用所需的条件：
+在深入代码之前，我们先确保你已经正确设置。以下是你需要做的准备：
 
-1. Visual Studio 或任何 .NET IDE：确保您拥有像 Visual Studio 这样的可运行的 IDE。这将是您实现所有编码魔法的游乐场。
-2. Aspose.Cells for .NET 包：如果您还没有，您需要下载并安装 Aspose.Cells 库。您可以在[Aspose.Cells 下载页面](https://releases.aspose.com/cells/net/).
+1. Visual Studio 或任何 .NET IDE：确保你拥有一个像 Visual Studio 这样的可用 IDE。这将是你所有编程魔法发生的游乐场。
+2. Aspose.Cells for .NET 软件包：如果您尚未安装 Aspose.Cells 库，请先下载并安装。最新版本可在 [Aspose.Cells下载页面](https://releases。aspose.com/cells/net/).
 3. C# 基础知识：虽然我们将指导您完成代码，但熟悉 C# 将帮助您更好地理解细微差别。
 4. 访问 .NET Framework：确保您的项目设置为针对 .NET Framework 的兼容版本。
 
 ## 导入包
 
-安装完所有东西后，就该导入必要的软件包了。这是将 Aspose.Cells 引入项目的地方。操作方法如下：
+安装完所有软件包后，就该导入必要的软件包了。这样就可以将 Aspose.Cells 引入到您的项目中了。操作方法如下：
 
-### 打开你的 IDE
+### 打开你的IDE
 
 打开 Visual Studio 或您喜欢的 .NET IDE。
 
@@ -63,11 +65,11 @@ using System;
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-确保更换`"YOUR_OUTPUT_DIRECTORY"`以及您想要保存 PDF 文档的实际路径。想象一下在开始做饭之前摆好桌子；您需要一个干净的空间来工作。
+确保更换 `"YOUR_OUTPUT_DIRECTORY"` 以及您希望保存 PDF 文档的实际路径。这就像做饭前摆桌子一样；您需要一个干净的空间来工作。
 
 ## 步骤 2：创建工作簿对象
 
-现在，让我们创建工作簿的一个实例。这类似于创建一个空白画布来绘画。
+现在，让我们创建工作簿的一个实例。这类似于创建一块空白画布来绘画。
 
 ```csharp
 Workbook wb = new Workbook();
@@ -83,7 +85,7 @@ Worksheet ws = wb.Worksheets[0];
 
 在这里，你告诉你的代码，“嘿，我想使用这个特定的工作表！” 
 
-## 步骤 4：设置自定义纸张尺寸
+## 步骤4：设置自定义纸张尺寸
 
 现在我们进入最关键的部分。让我们为工作表设置自定义纸张尺寸。
 
@@ -91,7 +93,7 @@ Worksheet ws = wb.Worksheets[0];
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
 
-在这种情况下，我们以英寸为单位指定尺寸。想象一下，这就像量身定制一套西装以使其完美合身 - 每个细节都很重要！
+在这种情况下，我们以英寸为单位指定尺寸。这就像量身定制一套完美合身的西装一样——每个细节都很重要！
 
 ## 步骤 5：访问单元格
 
@@ -101,51 +103,53 @@ ws.PageSetup.CustomPaperSize(6, 4);
 Cell b4 = ws.Cells["B4"];
 ```
 
-这里我们选择单元格 B4。这就像在画布上选择一个特定位置来添加一些文本。
+这里我们选择的是单元格 B4。这就像在画布上选择一个特定位置来添加文本一样。
 
 ## 步骤 6：向单元格添加值
 
-现在，让我们在选择的单元格中添加一条消息：
+现在，让我们在所选单元格中添加一条消息：
 
 ```csharp
 b4.PutValue("Pdf Page Dimensions: 6.00 x 4.00 in");
 ```
 
-这是您向最终用户传达 PDF 页面的自定义尺寸的机会。
+这是您向最终用户传达 PDF 页面自定义尺寸的机会。
 
 ## 步骤 7：将工作簿保存为 PDF 格式
 
-最后，是时候将您的所有辛勤工作成果保存为 PDF 文件了。
+最后，是时候将您的所有辛勤工作保存为 PDF 文件了。
 
 ```csharp
 wb.Save(outputDir + "outputCustomPaperSize.pdf");
 ```
 
-通过此行，您可以告诉程序将您迄今为止所做的一切打包成 PDF 格式。
+通过这一行，您可以告诉程序将您迄今为止所做的一切打包成 PDF 格式。
 
 ## 结论
 
-使用 Aspose.Cells 为您的 Excel 工作表实现自定义纸张大小不仅简单，而且非常有用。通过本指南中列出的步骤，您可以创建完全符合您需求的定制文档。无论您是生成报告还是创建自定义表单，自定义纸张大小的能力都会增强文档的专业性和可用性。 
+使用 Aspose.Cells 为您的 Excel 工作表自定义纸张大小不仅简单，而且非常实用。按照本指南中的步骤，您可以创建完全符合您需求的定制文档。无论您是生成报告还是创建自定义表单，自定义纸张大小的功能都能提升文档的专业性和可用性。 
 
 ## 常见问题解答
 
 ### 我可以在不购买许可证的情况下使用 Aspose.Cells 吗？
-是的，您可以尝试免费试用版 Aspose.Cells for .NET，[这里](https://releases.aspose.com/).
+是的，您可以尝试 Aspose.Cells for .NET 的免费试用版， [这里](https://releases。aspose.com/).
 
-### 如果我超出了临时执照的限制会发生什么？
-超出限制将导致输出带有水印。最好选择永久许可证以获得不间断的服务。您可以找到选项[这里](https://purchase.aspose.com/buy).
+### 如果我超出临时许可证的限制会发生什么？
+超出限制会导致输出带有水印。最好选择永久许可证，以确保服务不中断。您可以找到选项 [这里](https://purchase。aspose.com/buy).
 
 ### Aspose.Cells 与 .NET Core 兼容吗？
 是的，Aspose.Cells for .NET 支持 .NET Core。您可以将其无缝集成到您的现代应用程序中。
 
 ### 如果我遇到问题，如何获得支持？
-您可以通过 Aspose 支持论坛联系我们[这里](https://forum.aspose.com/c/cells/9)以获得解决任何技术问题的帮助。
+您可以通过 Aspose 支持论坛联系我们 [这里](https://forum.aspose.com/c/cells/9) 以获得解决任何技术问题的帮助。
 
 ### 我可以使用 Aspose.Cells 自定义工作表的其他方面吗？
-当然！Aspose.Cells 提供了一套强大的功能来自定义工作表，包括样式、公式等等。
+当然！Aspose.Cells 提供了一系列强大的功能来自定义工作表，包括样式、公式等等。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

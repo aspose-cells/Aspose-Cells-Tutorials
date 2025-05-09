@@ -8,21 +8,23 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi Tanggal dalam Spreadsheet
 
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia pemrosesan data, spreadsheet merupakan alat yang sangat diperlukan, dan pengembang Java sering kali harus bekerja dengan data spreadsheet. Memastikan integritas data sangatlah penting, terutama saat menangani tanggal. Dalam panduan ini, kita akan membahas cara melakukan validasi tanggal dalam spreadsheet menggunakan Aspose.Cells for Java, API yang canggih untuk bekerja dengan file Excel.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita masuk ke validasi tanggal, pastikan Anda telah menyiapkan hal berikut:
 - Lingkungan pengembangan Java telah disiapkan.
-- Aspose.Cells untuk pustaka Java diunduh dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java diunduh dari [itt](https://releases.aspose.com/cells/java/).
 - Pengetahuan dasar tentang cara bekerja dengan file Excel di Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -35,16 +37,16 @@ Untuk memulai, Anda perlu menambahkan pustaka Aspose.Cells ke proyek Java Anda. 
 
 3. Anda sekarang siap untuk mulai bekerja dengan Aspose.Cells di aplikasi Java Anda.
 
-## Langkah 1: Memuat File Excel
+## 1. lépés: Az Excel fájl betöltése
 
 Sebelum memvalidasi tanggal, kita memerlukan file Excel untuk digunakan. Mari kita muat file yang sudah ada untuk contoh ini:
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("your_excel_file.xlsx");
 ```
 
-## Langkah 2: Mengakses Lembar Kerja
+## 2. lépés: Munkalap elérése
 
 Berikutnya, kita akan mengakses lembar kerja spesifik tempat kita ingin melakukan validasi tanggal:
 
@@ -88,11 +90,11 @@ Setelah memvalidasi tanggal, penting untuk menyimpan file Excel yang diperbarui:
 workbook.save("updated_excel_file.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan ini, kita telah mempelajari cara melakukan validasi tanggal dalam spreadsheet menggunakan Aspose.Cells untuk Java. Memastikan keakuratan data tanggal sangat penting dalam berbagai aplikasi, dan dengan Aspose.Cells, Anda memiliki alat yang hebat untuk mencapainya.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
@@ -112,11 +114,12 @@ Ya, Aspose.Cells untuk Java menawarkan berbagai fitur untuk bekerja dengan file 
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan contoh untuk Aspose.Cells untuk Java?
 
-Anda dapat merujuk ke [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/) untuk dokumentasi dan contoh yang lengkap.
+Hivatkozhat a [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/) untuk dokumentasi dan contoh yang lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Kezdjük az előfeltételekkel, hogy minden készen álljon a megvalósításra.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy rendelkezünk a következőkkel:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy:
 
 ### Kötelező könyvtárak
 - Aspose.Cells Java könyvtárhoz (25.3-as vagy újabb verzió).
@@ -178,6 +180,9 @@ Javasoljuk, hogy próbálja ki ezt a megoldást a projektjeiben, és ossza meg t
 Az útmutató követésével felkészült leszel arra, hogy az Aspose.Cells for Java segítségével HTML formátumban exportálhasd az Excel munkalapokat. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

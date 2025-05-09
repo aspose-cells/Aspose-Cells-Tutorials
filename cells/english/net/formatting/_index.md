@@ -7,7 +7,9 @@ url: /net/formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,12 +41,19 @@ With these tutorials, you'll learn how to:
 ## Popular Formatting Tutorials
 
 {{< tutorial-card link="./adding-borders-to-range/" title="Adding Borders to a Range in Excel using Aspose.Cells" imgSrc="./adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./colors-and-background/" title="Apply Colors & Backgrounds in Excel using Aspose.Cells" imgSrc="./colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./merging-cells/" title="Merging Cells in Excel using Aspose.Cells for .NET" imgSrc="./merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./setting-font-color/" title="Set Font Color in Excel Cells using Aspose.Cells" imgSrc="./setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./setting-font-name/" title="Setting Font Name in Excel using Aspose.Cells" imgSrc="./setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./setting-font-size/" title="Set Font Size in Excel Using Aspose.Cells" imgSrc="./setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./text-alignment-horizontal/" title="Horizontal Text Alignment in Excel with Aspose.Cells" imgSrc="./text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./wrapping-text/" title="Wrap Text in Excel Cells Using Aspose.Cells" imgSrc="./wrapping-text/images/thumb.png" >}}
 
 
@@ -267,6 +276,9 @@ Learn how to implement and validate custom number formats using Aspose.Cells for
 Learn how to wrap text in Excel files using Aspose.Cells for .NET, ensuring professional formatting and enhanced readability by keeping cell content visible without expanding column widths.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

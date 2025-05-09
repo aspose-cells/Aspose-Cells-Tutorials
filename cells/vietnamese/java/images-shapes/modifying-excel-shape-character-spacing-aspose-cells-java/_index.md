@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Chúng ta hãy bắt đầu bằng cách tìm hiểu những điều kiện tiê
 ### Điều kiện tiên quyết
 
 Trước khi bắt đầu, hãy đảm bảo bạn có:
-1. **Thư viện bắt buộc:** Bao gồm Aspose.Cells for Java vào dự án của bạn bằng Maven hoặc Gradle.
+1. **Thư viện cần thiết:** Bao gồm Aspose.Cells for Java vào dự án của bạn bằng Maven hoặc Gradle.
 2. **Thiết lập môi trường:** Đảm bảo JDK được cài đặt trên máy của bạn và sử dụng IDE như IntelliJ IDEA hoặc Eclipse.
 3. **Điều kiện tiên quyết về kiến thức:** Có kiến thức cơ bản về lập trình Java và quen thuộc với việc xử lý các tệp Excel theo chương trình.
 
@@ -93,7 +95,7 @@ Workbook wb = new Workbook(dataDir + "/character-spacing.xlsx");
 - **Các thông số:** Hàm tạo sẽ đưa một đường dẫn chuỗi đến tệp Excel của bạn.
 - **Mục đích:** Khởi tạo `Workbook` đối tượng, đại diện cho toàn bộ bảng tính Excel.
 
-### Truy cập Hình dạng từ Bảng tính
+### Truy cập Shape từ Worksheet
 Tiếp theo, truy cập vào hình dạng cụ thể mà bạn muốn sửa đổi khoảng cách văn bản:
 
 #### Tổng quan
@@ -180,6 +182,9 @@ Hãy thử áp dụng những kỹ thuật này vào dự án của bạn ngay h
 Hãy thực hiện bước tiếp theo để thành thạo Aspose.Cells cho Java và khám phá những tiềm năng mới trong việc thao tác với tệp Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotulagem de dados
@@ -16,7 +18,7 @@
 
 ## Introdução à Rotulagem de Dados
 
-rotulagem de dados envolve a adição de informações descritivas ou metadados aos seus dados, tornando-os mais compreensíveis para os usuários. Isso pode incluir a adição de títulos, cabeçalhos, descrições e outras informações às células da planilha.
+A rotulagem de dados envolve a adição de informações descritivas ou metadados aos seus dados, tornando-os mais compreensíveis para os usuários. Isso pode incluir a adição de títulos, cabeçalhos, descrições e outras informações às células da planilha.
 
 ## Configurando seu ambiente
 
@@ -60,7 +62,7 @@ Column column = worksheet.getCells().getColumns().get("B");
 column.setCaption("Expenses");
 ```
 
-## Personalizando Etiquetas
+## Personalização de etiquetas
 
 O Aspose.Cells para Java permite personalizar rótulos alterando fontes, cores e outras opções de formatação. Isso garante que seus rótulos sejam não apenas informativos, mas também visualmente atraentes.
 
@@ -145,6 +147,7 @@ Você pode lidar com erros com elegância usando blocos try-catch para capturar 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

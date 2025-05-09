@@ -1,14 +1,16 @@
 ---
-title: Thêm chú thích có luồng vào bảng tính
-linktitle: Thêm chú thích có luồng vào bảng tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm chú thích theo luồng vào bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Tăng cường cộng tác một cách dễ dàng.
-weight: 10
-url: /vi/net/worksheet-operations/add-threaded-comments/
+"description": "Tìm hiểu cách thêm chú thích theo luồng vào bảng tính Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Tăng cường cộng tác một cách dễ dàng."
+"linktitle": "Thêm chú thích có luồng vào bảng tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm chú thích có luồng vào bảng tính"
+"url": "/vi/net/worksheet-operations/add-threaded-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm chú thích có luồng vào bảng tính
@@ -18,7 +20,7 @@ Bạn có muốn cải thiện bảng tính Excel của mình bằng các chú t
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn đã đáp ứng đủ các điều kiện tiên quyết sau:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình vì đây là IDE phổ biến nhất để phát triển .NET.
-2.  Aspose.Cells for .NET: Bạn cần cài đặt thư viện Aspose.Cells for .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ trang web[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Bạn cần cài đặt thư viện Aspose.Cells for .NET. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ trang web [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# là điều cần thiết vì hướng dẫn này sẽ được viết bằng C#.
 4. .NET Framework: Đảm bảo dự án của bạn được thiết lập với phiên bản .NET Framework tương thích.
 ## Nhập gói
@@ -37,26 +39,26 @@ Trước tiên, chúng ta cần tạo một bảng tính mới để thêm các 
 string outDir = "Your Document Directory"; // Thiết lập thư mục đầu ra của bạn
 Workbook workbook = new Workbook(); // Tạo một bảng tính mới
 ```
- Trong bước này, bạn thiết lập thư mục đầu ra nơi tệp Excel của bạn sẽ được lưu.`Workbook` lớp là điểm vào để tạo và thao tác các tệp Excel trong Aspose.Cells.
+Trong bước này, bạn thiết lập thư mục đầu ra nơi tệp Excel của bạn sẽ được lưu. `Workbook` lớp là điểm vào để tạo và thao tác các tệp Excel trong Aspose.Cells.
 ## Bước 2: Thêm Tác giả cho Bình luận
-Trước khi chúng ta có thể thêm bình luận, chúng ta cần phải xác định tác giả. Tác giả này sẽ được liên kết với các bình luận bạn tạo. Bây giờ chúng ta hãy thêm tác giả.
+Trước khi có thể thêm bình luận, chúng ta cần xác định tác giả. Tác giả này sẽ được liên kết với các bình luận bạn tạo. Bây giờ hãy thêm tác giả.
 ```csharp
 int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Aspose Test", "", ""); // Thêm tác giả
 ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex]; // Nhận tác giả
 ```
- Ở đây, chúng tôi sử dụng`Add` phương pháp tạo tác giả mới. Bạn có thể chỉ định tên tác giả và các thông tin tùy chọn khác (như email) trong các tham số. Tác giả này sẽ được tham chiếu sau khi thêm bình luận.
+Ở đây, chúng tôi sử dụng `Add` phương pháp tạo tác giả mới. Bạn có thể chỉ định tên tác giả và các thông tin tùy chọn khác (như email) trong các tham số. Tác giả này sẽ được tham chiếu sau khi thêm bình luận.
 ## Bước 3: Thêm bình luận theo chủ đề
 Bây giờ chúng ta đã thiết lập xong tác giả, đã đến lúc thêm chú thích theo chủ đề vào một ô cụ thể trong bảng tính. 
 ```csharp
 workbook.Worksheets[0].Comments.AddThreadedComment("A1", "Test Threaded Comment", author); // Thêm bình luận có chủ đề
 ```
- Trong bước này, chúng ta sẽ thêm một bình luận vào ô A1 trên bảng tính đầu tiên. Bạn có thể thay thế`"A1"` với bất kỳ tham chiếu ô nào mà bạn muốn thêm bình luận. Tin nhắn trong dấu ngoặc kép là nội dung của bình luận.
+Trong bước này, chúng tôi đang thêm một bình luận vào ô A1 trên bảng tính đầu tiên. Bạn có thể thay thế `"A1"` với bất kỳ tham chiếu ô nào mà bạn muốn thêm bình luận. Tin nhắn trong dấu ngoặc kép là nội dung của bình luận.
 ## Bước 4: Lưu sổ làm việc
 Sau khi thêm bình luận theo chủ đề, bạn sẽ muốn lưu sổ làm việc để những thay đổi được duy trì.
 ```csharp
 workbook.Save(outDir + "AddThreadedComments_out.xlsx"); // Lưu sổ làm việc
 ```
- Tại đây, sổ làm việc được lưu trong thư mục đầu ra được chỉ định với tên`AddThreadedComments_out.xlsx`Hãy đảm bảo rằng thư mục tồn tại, nếu không bạn sẽ gặp lỗi không tìm thấy tệp.
+Tại đây, sổ làm việc được lưu trong thư mục đầu ra được chỉ định với tên `AddThreadedComments_out.xlsx`. Hãy đảm bảo rằng thư mục tồn tại, nếu không bạn sẽ gặp lỗi không tìm thấy tệp.
 ## Bước 5: Xác nhận thành công
 Cuối cùng, hãy đưa ra thông báo tới bảng điều khiển để cho biết thao tác của chúng ta đã thành công.
 ```csharp
@@ -72,14 +74,16 @@ Bình luận theo chủ đề là bình luận cho phép trả lời và thảo 
 ### Tôi có thể thêm nhiều bình luận vào một ô không?  
 Có, bạn có thể thêm nhiều bình luận theo chủ đề vào một ô duy nhất, cho phép thảo luận sâu rộng.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Trong khi bạn có thể dùng thử Aspose.Cells với bản dùng thử miễn phí, bạn cần có giấy phép để sử dụng sản xuất. Bạn có thể lấy nó[đây](https://purchase.aspose.com/buy).
+Trong khi bạn có thể dùng thử Aspose.Cells với bản dùng thử miễn phí, bạn cần có giấy phép để sử dụng sản xuất. Bạn có thể lấy nó [đây](https://purchase.aspose.com/buy).
 ### Làm thế nào để tôi có thể xem các bình luận trong Excel?  
 Sau khi thêm bình luận, bạn có thể xem chúng bằng cách di chuột qua ô có bình luận hoặc thông qua ngăn bình luận.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?  
- Bạn có thể tham khảo[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm thông tin và ví dụ chi tiết.
+Bạn có thể tham khảo [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) để biết thêm thông tin và ví dụ chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

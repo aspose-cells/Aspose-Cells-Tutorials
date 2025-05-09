@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengisi Buku Kerja Excel dengan Data Menggunakan Aspose.Cells Java dan Smart Markers
 
-**Perkenalan**
+**Bevezetés**
 
 Mengelola kumpulan data besar bisa jadi menantang, terutama jika menyangkut pengisian lembar kerja Excel secara efisien. Dengan kekuatan Aspose.Cells untuk Java, Anda dapat mengotomatiskan proses ini menggunakan penanda cerdas—fitur yang menyederhanakan integrasi data dari basis data ke dalam buku kerja Excel. Panduan ini akan memandu Anda menerapkan solusi yang menggunakan Aspose.Cells Java untuk mengisi Excel dengan data dari basis data Microsoft Access menggunakan penanda cerdas.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 
 - Cara menghubungkan ke basis data dan mengambil data.
 - Membuat dan mengonfigurasi buku kerja Excel untuk penanda pintar.
@@ -26,17 +28,17 @@ Mengelola kumpulan data besar bisa jadi menantang, terutama jika menyangkut peng
   
 Mari kita bahas prasyarat yang Anda perlukan sebelum kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum melanjutkan, pastikan Anda memiliki hal berikut:
 
-- **Perpustakaan & Versi**: Anda akan memerlukan Aspose.Cells untuk Java (versi 25.3 atau lebih baru) dan driver UCanAccess JDBC untuk terhubung dengan database Microsoft Access.
-- **Pengaturan Lingkungan**: Siapkan lingkungan pengembangan dengan JDK yang terinstal. Pastikan IDE Anda mendukung Maven atau Gradle, karena kami akan menggunakan alat-alat pembangunan ini.
-- **Prasyarat Pengetahuan**: Disarankan untuk memiliki pemahaman yang baik tentang pemrograman Java, terutama konektivitas basis data dan operasi Excel dasar.
+- **Könyvtárak és verziók**: Anda akan memerlukan Aspose.Cells untuk Java (versi 25.3 atau lebih baru) dan driver UCanAccess JDBC untuk terhubung dengan database Microsoft Access.
+- **Környezet beállítása**: Siapkan lingkungan pengembangan dengan JDK yang terinstal. Pastikan IDE Anda mendukung Maven atau Gradle, karena kami akan menggunakan alat-alat pembangunan ini.
+- **Ismereti előfeltételek**: Disarankan untuk memiliki pemahaman yang baik tentang pemrograman Java, terutama konektivitas basis data dan operasi Excel dasar.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi
+### Telepítési információk
 
 **Pengaturan Maven:**
 
@@ -52,17 +54,17 @@ Tambahkan dependensi berikut ke `pom.xml`:
 
 **Pengaturan Gradle:**
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Aspose.Cells untuk Java dapat digunakan dengan lisensi uji coba gratis, yang memungkinkan Anda untuk mengevaluasi kemampuan penuhnya tanpa batasan. Anda dapat memperoleh lisensi sementara atau yang dibeli melalui [halaman pembelian](https://purchase.aspose.com/buy). Mengunjungi [Di Sini](https://releases.aspose.com/cells/java/) untuk mengunduh dan mengatur lingkungan Anda.
+Aspose.Cells untuk Java dapat digunakan dengan lisensi uji coba gratis, yang memungkinkan Anda untuk mengevaluasi kemampuan penuhnya tanpa batasan. Anda dapat memperoleh lisensi sementara atau yang dibeli melalui [vásárlási oldal](https://purchase.aspose.com/buy). Mengunjungi [itt](https://releases.aspose.com/cells/java/) untuk mengunduh dan mengatur lingkungan Anda.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Mulailah dengan menginisialisasi Aspose.Cells di proyek Java Anda:
 
@@ -75,7 +77,7 @@ license.setLicense("path/to/your/license/file.lic");
 
 Pengaturan ini memastikan Anda siap mengimplementasikan fitur populasi data dengan Aspose.Cells.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Hubungkan ke Database
 
@@ -87,14 +89,14 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-String srcDir = "YOUR_DATA_DIRECTORY"; // Perbarui jalur ini
+String srcDir = "YOUR_DATA_DIRECTORY"; // Frissítse ezt az elérési utat
 
 Connection conn = DriverManager.getConnection("jdbc:ucanaccess://" + srcDir + "/sampleAutoPopulateSmartMarkerDataToOtherWorksheets.accdb");
 Statement st = conn.createStatement();
 ResultSet rsEmployees = st.executeQuery("SELECT * FROM Employees");
 ```
 
-#### Penjelasan:
+#### Magyarázat:
 
 - **Manajer Pengemudi**Kelas ini memuat driver basis data dan membuat koneksi ke basis data Access Anda.
 - **Koneksi**: Mewakili sesi dengan basis data tertentu.
@@ -117,7 +119,7 @@ ws = wb.getWorksheets().get(1);
 ws.getCells().get("A1").putValue("&=Employees.EmployeeID");
 ```
 
-#### Penjelasan:
+#### Magyarázat:
 
 - **Buku Kerja & Lembar Kerja**: Mewakili buku kerja Excel dan lembar individual.
 - **Penanda Cerdas**: Menggunakan `&=` sintaksis untuk menunjukkan penanda pintar untuk pengikatan data.
@@ -135,7 +137,7 @@ wd.process(0, false); // Proses penanda pintar di lembar kerja pertama
 wd.process(1, false); // Proses penanda pintar di lembar kerja kedua
 ```
 
-#### Penjelasan:
+#### Magyarázat:
 
 - **Desainer Buku Kerja**: Menjembatani desain buku kerja dan pemrosesan data Anda.
 - **setDataSource & proses**: Ikat ResultSet ke penanda pintar Anda dan isi penanda tersebut.
@@ -147,40 +149,40 @@ Terakhir, simpan buku kerja Excel yang telah diisi ke direktori tertentu:
 ```java
 import java.io.File;
 
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // Perbarui jalur ini
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // Frissítse ezt az elérési utat
 wb.save(outDir + "/outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx");
 ```
 
-#### Penjelasan:
+#### Magyarázat:
 
 - **simpan Metode**: Menulis berkas Excel ke sistem berkas Anda.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa kasus penggunaan dunia nyata untuk implementasi ini:
 
 1. **Sistem Manajemen Karyawan**: Secara otomatis memperbarui catatan karyawan di beberapa lembar dalam buku kerja terpusat.
-2. **Pelaporan Keuangan**: Mengisi data keuangan dari basis data ke dalam lembar kerja yang digunakan untuk tujuan akuntansi dan audit.
+2. **Pénzügyi jelentéstétel**: Mengisi data keuangan dari basis data ke dalam lembar kerja yang digunakan untuk tujuan akuntansi dan audit.
 3. **Pelacakan Inventaris**: Pantau tingkat stok dengan mengimpor data penjualan dan inventaris ke Excel.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 - **Mengoptimalkan Kueri Basis Data**: Gunakan kueri SQL yang efisien untuk meminimalkan ukuran kumpulan hasil.
-- **Manajemen Memori**Pastikan Anda menutup koneksi dan sumber daya basis data setelah digunakan.
-- **Pemrosesan Batch**: Untuk kumpulan data besar, pertimbangkan pemrosesan secara batch untuk mengurangi jejak memori.
+- **Memóriakezelés**Pastikan Anda menutup koneksi dan sumber daya basis data setelah digunakan.
+- **Kötegelt feldolgozás**: Untuk kumpulan data besar, pertimbangkan pemrosesan secara batch untuk mengurangi jejak memori.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara menghubungkan aplikasi Java ke database Access, membuat dan mengonfigurasi buku kerja Excel menggunakan Aspose.Cells untuk Java, memproses penanda cerdas dengan sumber data, dan menyimpan hasil akhir. Langkah selanjutnya mencakup menjelajahi fitur Aspose.Cells yang lebih canggih atau mengintegrasikan fungsionalitas ini ke dalam sistem yang lebih besar.
 
-**Ajakan Bertindak**:Coba terapkan teknik ini dalam proyek Anda berikutnya untuk menyederhanakan tugas manajemen data!
+**Cselekvésre ösztönzés**:Coba terapkan teknik ini dalam proyek Anda berikutnya untuk menyederhanakan tugas manajemen data!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu penanda pintar?**
    - Tempat penampung dalam lembar Excel yang diganti dengan data aktual dari basis data.
    
-2. **Bisakah saya menggunakan Aspose.Cells tanpa lisensi?**
+2. **Használhatom az Aspose.Cells-t licenc nélkül?**
    - Ya, tetapi versi uji coba memiliki keterbatasan. Dapatkan lisensi sementara atau permanen untuk fungsionalitas penuh.
 
 3. **Bagaimana cara menangani kesalahan saat menghubungkan ke basis data?**
@@ -192,7 +194,7 @@ Anda kini telah mempelajari cara menghubungkan aplikasi Java ke database Access,
 5. **Apa sajakah kiat kinerja untuk menangani kumpulan data besar?**
    - Optimalkan kueri SQL, kelola memori secara efisien, dan pertimbangkan pemrosesan secara batch.
 
-## Sumber daya
+## Erőforrás
 
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
@@ -202,6 +204,9 @@ Anda kini telah mempelajari cara menghubungkan aplikasi Java ke database Access,
 Panduan komprehensif ini membekali Anda dengan pengetahuan untuk memanfaatkan Aspose.Cells untuk Java, menyederhanakan tugas pengelolaan data Anda melalui otomatisasi. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

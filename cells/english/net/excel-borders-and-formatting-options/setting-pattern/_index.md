@@ -8,7 +8,9 @@ url: /net/excel-borders-and-formatting-options/setting-pattern/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Pattern Programmatically in Excel
@@ -104,6 +106,7 @@ You can define multiple `CellArea` objects and apply different conditional forma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

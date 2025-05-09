@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ public class SaveWorkbook {
 ### Alakzatok elérése és kezelése egy munkalapon
 
 #### Áttekintés
-Az alakzatok fokozzák a munkalapok vizuális vonzerejét. Ez a szakasz az alakzatok Excel-fájlokon belüli elérését és módosítását ismerteti.
+Az alakzatok fokozzák a munkalapok vizuális vonzerejét. Ez a szakasz az Excel-fájlokban található alakzatok elérését és módosítását ismerteti.
 
 **Hozzáférési alakzatok**
 ```java
@@ -220,6 +222,9 @@ Próbálja meg megvalósítani ezeket a megoldásokat a következő projektjébe
 Kezdje el az Excel-manipuláció elsajátítását Java nyelven az Aspose.Cells segítségével még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells
-linktitle: Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak tworzyć interaktywne pliki PDF z zakładkami za pomocą Aspose.Cells dla .NET. Ten przewodnik krok po kroku ułatwia to zadanie.
-weight: 10
-url: /pl/net/rendering-and-export/add-pdf-bookmarks/
+"description": "Dowiedz się, jak tworzyć interaktywne pliki PDF z zakładkami za pomocą Aspose.Cells dla .NET. Ten przewodnik krok po kroku ułatwia to zadanie."
+"linktitle": "Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells"
+"url": "/pl/net/rendering-and-export/add-pdf-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj zakładki PDF z nazwanymi miejscami docelowymi w Aspose.Cells
@@ -17,8 +19,8 @@ url: /pl/net/rendering-and-export/add-pdf-bookmarks/
 Jeśli kiedykolwiek pracowałeś z długimi dokumentami PDF, wiesz, jak trudne może być poruszanie się po stronach informacji. Zakładki odgrywają kluczową rolę w ulepszaniu doświadczenia użytkownika, oferując szybkie punkty nawigacyjne. W tym samouczku zbadamy, jak dodawać zakładki z nazwanymi miejscami docelowymi w pliku PDF wygenerowanym z pliku Excel przy użyciu Aspose.Cells dla .NET.
 ## Wymagania wstępne
 Zanim przejdziemy do konkretów, upewnijmy się, że wszystko jest na swoim miejscu. Aby śledzić ten samouczek, potrzebujesz:
-1. Visual Studio: To IDE do tworzenia aplikacji .NET. Upewnij się, że masz je zainstalowane na swoim komputerze.
-2.  Aspose.Cells dla .NET: Musisz mieć biblioteki Aspose.Cells. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/) Jeśli chcesz najpierw spróbować, chwyć swój[bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
+1. Visual Studio: To jest IDE do tworzenia .NET. Upewnij się, że masz je zainstalowane na swoim komputerze.
+2. Aspose.Cells dla .NET: Musisz mieć biblioteki Aspose.Cells. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/)Jeśli chcesz najpierw spróbować, chwyć swój [bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
 3. .NET Framework: Upewnij się, że masz zainstalowaną kompatybilną wersję. Aspose.Cells obsługuje wiele wersji .NET.
 4. Podstawowa znajomość języka C#: Znajomość składni języka C# pomoże Ci lepiej zrozumieć fragmenty kodu.
 Mając te narzędzia, możesz utworzyć dokument PDF z zakładkami!
@@ -110,14 +112,16 @@ Aspose.Cells to zaawansowana biblioteka do pracy z plikami Excela, umożliwiają
 ### Czy mogę używać Aspose.Cells w darmowym projekcie?
 Tak! Aspose oferuje bezpłatną wersję próbną, jeśli chcesz poznać jej funkcje przed zakupem licencji.
 ### Jak uzyskać licencję na Aspose.Cells?
- Możesz kupić licencję bezpośrednio od nich[strona zakupu](https://purchase.aspose.com/buy).
+Możesz kupić licencję bezpośrednio od nich [strona zakupu](https://purchase.aspose.com/buy).
 ### Z jakimi typami dokumentów może pracować Aspose.Cells?
 Może obsługiwać różne formaty, w tym XLSX, XLS, CSV, PDF i wiele innych.
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
- Wsparcie znajdziesz w[Fora Aspose](https://forum.aspose.com/c/cells/9).
+Wsparcie znajdziesz w [Fora Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

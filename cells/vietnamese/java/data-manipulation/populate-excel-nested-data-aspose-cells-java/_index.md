@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách quản lý v�
 Để khám phá sâu hơn, hãy cân nhắc tìm hiểu thêm các tính năng nâng cao hơn của Aspose.Cells hoặc thử nghiệm các loại cấu trúc dữ liệu khác nhau.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

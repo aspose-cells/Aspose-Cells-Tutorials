@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ Neváhejte experimentovat a prozkoumat rozsáhlé možnosti, které Aspose.Cells
    Propagační vzorec se automaticky aktualizuje s přidáváním nových datových řádků, což zajišťuje nepřetržitou přesnost bez nutnosti ručního zásahu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

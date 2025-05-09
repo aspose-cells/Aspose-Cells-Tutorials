@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells'de Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleme
-linktitle: Aspose.Cells'de Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak yer imleriyle etkileşimli PDF'ler oluşturmayı öğrenin. Bu adım adım kılavuz bunu kolaylaştırır.
-weight: 10
-url: /tr/net/rendering-and-export/add-pdf-bookmarks/
+"description": "Aspose.Cells for .NET kullanarak yer imleriyle etkileşimli PDF'ler oluşturmayı öğrenin. Bu adım adım kılavuz bunu kolaylaştırır."
+"linktitle": "Aspose.Cells'de Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells'de Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleme"
+"url": "/tr/net/rendering-and-export/add-pdf-bookmarks/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells'de Adlandırılmış Hedeflerle PDF Yer İşaretleri Ekleme
@@ -18,7 +20,7 @@ Uzun PDF belgeleriyle çalıştıysanız, sayfalarca bilgi arasında gezinmenin 
 ## Ön koşullar
 Ayrıntılara girmeden önce, her şeyin yerli yerinde olduğundan emin olalım. Bu öğreticiyi takip etmek için şunlara ihtiyacınız var:
 1. Visual Studio: .NET geliştirme için başvurulacak IDE'dir. Makinenizde kurulu olduğundan emin olun.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanelerine sahip olmanız gerekir.[buradan indirin](https://releases.aspose.com/cells/net/) Eğer önce denemek istiyorsanız, hemen alın[ücretsiz deneme burada](https://releases.aspose.com/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanelerine sahip olmanız gerekir. [buradan indirin](https://releases.aspose.com/cells/net/)Eğer önce denemek istiyorsanız, hemen alın [ücretsiz deneme burada](https://releases.aspose.com/).
 3. .NET Framework: Uyumlu bir sürümün yüklü olduğundan emin olun. Aspose.Cells, .NET'in birden fazla sürümünü destekler.
 4. Temel C# Bilgisi: C# sözdizimine hakim olmak, kod parçacıklarını daha iyi anlamanıza yardımcı olacaktır.
 Araç setinizde bu öğeler varsa, yer imleri içeren bir PDF belgesi oluşturmaya hazırız!
@@ -42,7 +44,7 @@ string outputDir = "Your Document Directory"; // örneğin, "C:\\MyOutput\\"
 ```
 Bu adımı çalışma alanınızı hazırlamak olarak düşünün. Tıpkı bir ressamın sehpa veya tuval olmadan başlamayacağı gibi, siz de dosya konumlarınızı belirlemeden kodlamaya başlamamalısınız.
 ## Adım 2: Kaynak Excel Dosyasını Yükleyin
-Şimdi, çalışma kitabı sınıfını kullanarak Excel dosyanızı belleğe yüklememiz gerekiyor.
+Sırada, çalışma kitabı sınıfını kullanarak Excel dosyanızı belleğe yüklememiz gerekiyor.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "samplePdfBookmarkEntry_DestinationName.xlsx");
 ```
@@ -110,14 +112,16 @@ Aspose.Cells, Excel dosyalarıyla çalışmak için güçlü bir kütüphanedir 
 ### Aspose.Cells'i ücretsiz bir projede kullanabilir miyim?
 Evet! Lisans satın almadan önce özelliklerini keşfetmek isterseniz Aspose ücretsiz deneme imkanı sunuyor.
 ### Aspose.Cells için lisans nasıl alabilirim?
- Lisansı doğrudan onlardan satın alabilirsiniz[satın alma sayfası](https://purchase.aspose.com/buy).
+Lisansı doğrudan onlardan satın alabilirsiniz [satın alma sayfası](https://purchase.aspose.com/buy).
 ### Aspose.Cells hangi tür belgelerle çalışabilir?
 XLSX, XLS, CSV, PDF ve daha birçok formatla çalışabilir.
 ### Sorun yaşarsam nereden yardım alabilirim?
- Destek bulabilirsiniz[Aspose forumları](https://forum.aspose.com/c/cells/9).
+Destek bulabilirsiniz [Aspose forumları](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

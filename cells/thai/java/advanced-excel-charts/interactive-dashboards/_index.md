@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แดชบอร์ดแบบโต้ตอบ
@@ -57,7 +59,7 @@ worksheet.getCells().get("A3").putValue("February");
 
 ## การสร้างองค์ประกอบแบบโต้ตอบ
 
-ตอนนี้ มาเพิ่มองค์ประกอบแบบโต้ตอบ เช่น แผนภูมิ ปุ่ม และรายการดรอปดาวน์ ลงในแดชบอร์ดของเรากัน
+ตอนนี้เรามาเพิ่มองค์ประกอบแบบโต้ตอบ เช่น แผนภูมิ ปุ่ม และรายการดรอปดาวน์ ลงในแดชบอร์ดของเรากัน
 
 ### การเพิ่มแผนภูมิ
 
@@ -129,6 +131,7 @@ workbook.save("InteractiveDashboard.xlsx");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

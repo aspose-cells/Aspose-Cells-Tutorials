@@ -1,49 +1,51 @@
 ---
-title: Druckvorschau der Arbeitsmappe
-linktitle: Druckvorschau der Arbeitsmappe
-second_title: Aspose.Cells für .NET API-Referenz
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Codierungsschritte in einem detaillierten, leicht verständlichen Tutorial.
-weight: 170
-url: /de/net/excel-workbook/workbook-print-preview/
+"description": "Erfahren Sie, wie Sie mit Aspose.Cells für .NET Druckvorschauen für Excel-Dateien erstellen. Lernen Sie die Programmierschritte in einem detaillierten, leicht verständlichen Tutorial."
+"linktitle": "Druckvorschau der Arbeitsmappe"
+"second_title": "Aspose.Cells für .NET API-Referenz"
+"title": "Druckvorschau der Arbeitsmappe"
+"url": "/de/net/excel-workbook/workbook-print-preview/"
+"weight": 170
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Druckvorschau der Arbeitsmappe
 
 ## Einführung
 
-Wenn es um die Verwaltung und Bearbeitung von Excel-Dateien geht, ist Aspose.Cells für .NET eine leistungsstarke Bibliothek, die sich hervorhebt. Wenn Sie schon einmal versucht haben, einen kleinen Vorgeschmack darauf zu bekommen, wie Ihre Arbeitsmappe gedruckt aussehen würde, wissen Sie, dass Sie manchmal ein wenig Hilfe brauchen, um alles richtig zu machen. Hier kommen die Druckvorschauen ins Spiel! In diesem Tutorial werden wir mit Aspose.Cells für .NET tief in den Bereich der Druckvorschauen eintauchen. Wir werden untersuchen, wie Sie diese Bibliothek verwenden können, um genaue Darstellungen Ihrer Excel-Dateien zu erhalten, bevor Sie sie an den Drucker senden. Machen Sie sich keine Sorgen, wenn Sie neu darin sind; ich werde Sie Schritt für Schritt durch jedes Detail führen. Also schnappen Sie sich Ihr Lieblingsgetränk und lassen Sie uns diese aufregende Reise beginnen!
+Wenn es um die Verwaltung und Bearbeitung von Excel-Dateien geht, ist Aspose.Cells für .NET eine leistungsstarke Bibliothek, die sich hervorhebt. Wenn Sie schon einmal versucht haben, einen ersten Blick auf das Aussehen Ihrer Arbeitsmappe im Druck zu werfen, wissen Sie, dass Sie manchmal etwas Hilfe benötigen, um alles perfekt zu gestalten. Hier kommen die Druckvorschauen ins Spiel! In diesem Tutorial tauchen wir tief in die Welt der Druckvorschauen mit Aspose.Cells für .NET ein. Wir zeigen Ihnen, wie Sie diese Bibliothek nutzen können, um Ihre Excel-Dateien vor dem Drucken präzise darzustellen. Keine Sorge, falls Sie neu dabei sind; ich führe Sie Schritt für Schritt durch jedes Detail. Also, schnappen Sie sich Ihr Lieblingsgetränk und los geht‘s!
 
 ## Voraussetzungen
 
-Bevor wir uns an die Programmierung machen, sollten wir sicherstellen, dass Sie alles haben, was Sie für den Anfang brauchen. Hier ist eine Checkliste der Voraussetzungen:
+Bevor wir mit dem Programmieren beginnen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg brauchen. Hier ist eine Checkliste mit den Voraussetzungen:
 
 1. Visual Studio: Sie benötigen eine IDE und Visual Studio ist eine gute Wahl für .NET-Projekte.
-2. Aspose.Cells für .NET: Sie können die Bibliothek herunterladen oder, wenn Sie es vorziehen, mit der kostenlosen Testversion beginnen, um sich mit der Bibliothek vertraut zu machen. Gehen Sie einfach zu[dieser Link](https://releases.aspose.com).
+2. Aspose.Cells für .NET: Sie können die Bibliothek herunterladen oder, wenn Sie es vorziehen, mit der kostenlosen Testversion beginnen, um sich mit der Bibliothek vertraut zu machen. Besuchen Sie einfach [dieser Link](https://releases.aspose.com).
 3. Grundkenntnisse in C#: Wenn Sie die Grundlagen von C# verstehen, können Sie problemlos folgen.
 4. .NET Framework: Stellen Sie sicher, dass auf Ihrem Computer eine kompatible Version des .NET Frameworks installiert ist.
-5.  Eine Excel-Beispieldatei: Für dieses Tutorial benötigen Sie eine Excel-Datei zum Arbeiten. Sie können eine Beispieldatei mit dem Namen`Book1.xlsx`.
+5. Eine Excel-Beispieldatei: Für dieses Tutorial benötigen Sie eine Excel-Datei. Sie können eine Beispieldatei mit dem Namen `Book1.xlsx`.
 
-Jetzt, da unsere Motoren auf Touren gekommen sind, importieren wir die erforderlichen Pakete und legen los!
+Nachdem wir unsere Motoren auf Touren gebracht haben, importieren wir die erforderlichen Pakete und legen los!
 
 ## Pakete importieren
 
-Lassen Sie uns zunächst die für unsere Aufgabe benötigten Pakete importieren. So gehen Sie ganz einfach vor:
+Zunächst importieren wir die für unsere Aufgabe benötigten Pakete. So geht's ganz einfach:
 
 ### Öffnen Sie Ihr Visual Studio-Projekt
 
-Öffnen Sie zunächst Ihr vorhandenes Projekt oder erstellen Sie ein neues, wenn Sie von vorne beginnen. Visual Studio macht alles benutzerfreundlich, und dieser einfache Schritt legt die Grundlage für Ihren gesamten Vorgang.
+Öffnen Sie zunächst Ihr bestehendes Projekt oder erstellen Sie ein neues, wenn Sie von Grund auf neu beginnen. Visual Studio macht alles benutzerfreundlich, und dieser einfache Schritt legt den Grundstein für Ihren gesamten Betrieb.
 
 ### Verweis auf Aspose.Cells hinzufügen
 
-Klicken Sie in Ihrem Solution Explorer mit der rechten Maustaste auf Ihr Projekt und wählen Sie „NuGet-Pakete verwalten“. Suchen Sie nach Aspose.Cells und installieren Sie es. Dies ist wichtig, da diese Bibliothek über alle magischen Funktionen verfügt, die wir zum Ausführen unserer Druckvorschauen benötigen.
+Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt und wählen Sie „NuGet-Pakete verwalten“. Suchen Sie nach Aspose.Cells und installieren Sie es. Dies ist wichtig, da diese Bibliothek alle wichtigen Funktionen für die Druckvorschau bietet.
 
 ### Erforderliche Namespaces einschließen
 
-Am Anfang Ihrer C#-Datei sollten Sie einige Namespaces einfügen, um auf die Klassen zuzugreifen, die Sie verwenden werden. So sieht es aus:
+Am Anfang Ihrer C#-Datei sollten Sie einige Namespaces für den Zugriff auf die verwendeten Klassen einfügen. So sieht das aus:
 
 ```csharp
 using Aspose.Cells.Rendering;
@@ -51,20 +53,20 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
-Dies ist, als ob Sie die Tür zu einer völlig neuen Welt von Funktionen öffnen würden, in der Sie Excel-Dateien mühelos bearbeiten können.
+Dies ist, als würden Sie die Tür zu einer völlig neuen Welt von Funktionen öffnen, in der Sie Excel-Dateien mühelos bearbeiten können.
 
 Nachdem wir nun alles vorbereitet haben, können wir uns Schritt für Schritt mit der Erstellung einer Arbeitsmappen-Druckvorschau mit Aspose.Cells befassen.
 
 ## Schritt 1: Definieren Sie das Quellverzeichnis
 
-Um unser Abenteuer mit der Druckvorschau zu beginnen, müssen wir definieren, wo sich unsere Excel-Quelldatei befindet. Dies ist Ihr Einstiegspunkt, also richten wir ihn ein:
+Um mit der Druckvorschau zu beginnen, müssen wir zunächst den Speicherort unserer Excel-Quelldatei definieren. Dies ist Ihr Einstiegspunkt. Richten wir ihn ein:
 
 ```csharp
 // Quellverzeichnis
 string sourceDir = "Your Document Directory";
 ```
 
- Dieser Code hilft uns, den Weg zu finden, wo`Book1.xlsx` befindet, was zukünftige Referenzen wesentlich einfacher macht.
+Dieser Code hilft uns, den Pfad zu finden, wo `Book1.xlsx` befindet, was zukünftige Referenzen wesentlich einfacher macht.
 
 ## Schritt 2: Laden Sie die Arbeitsmappe
 
@@ -74,37 +76,37 @@ Nachdem wir nun unser Verzeichnis haben, laden wir die Arbeitsmappe in unsere An
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
- Hier erstellen wir eine Instanz des`Workbook` Klasse, während wir ihr den Pfad zu unserer Excel-Datei zuführen. Das ist vergleichbar mit dem Öffnen eines Buches, um dessen Inhalt zu lesen; mit diesem Schritt haben wir unsere Arbeitsmappe geöffnet.
+Hier erstellen wir eine Instanz des `Workbook` Klasse, während wir ihr den Pfad zu unserer Excel-Datei zuweisen. Dies ist vergleichbar mit dem Öffnen eines Buches, um dessen Inhalt zu lesen; mit diesem Schritt haben wir unsere Arbeitsmappe geöffnet.
 
 ## Schritt 3: Druckoptionen einrichten
 
-Bevor wir die Druckvorschau generieren, müssen wir die Optionen für die Darstellung festlegen. Das ist, als würde man vor dem Kochen das richtige Rezept auswählen:
+Bevor wir die Druckvorschau generieren, müssen wir die Optionen für deren Darstellung festlegen. Das ist wie die Auswahl des richtigen Rezepts vor dem Kochen:
 
 ```csharp
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 ```
 
- In diesem Fall erstellen wir eine Instanz von`ImageOrPrintOptions`, was uns eine gewisse Flexibilität bei der Anzeige unserer Druckvorschau gibt.
+In diesem Fall erstellen wir eine Instanz von `ImageOrPrintOptions`, was uns eine gewisse Flexibilität bei der Anzeige unserer Druckvorschau gibt.
 
 ## Schritt 4: Erstellen der Arbeitsmappen-Druckvorschau
 
-Jetzt ist es Zeit für die wahre Magie! Wir generieren die Druckvorschau der Arbeitsmappe. So geht's:
+Jetzt kommt die wahre Magie! Wir generieren die Druckvorschau der Arbeitsmappe. So geht's:
 
 ```csharp
 WorkbookPrintingPreview preview = new WorkbookPrintingPreview(workbook, imgOptions);
 ```
 
-Im Moment erstellen wir eine Vorschau unserer gesamten Arbeitsmappe. Stellen Sie sich das so vor, als würden Sie einen Blick auf die Seiten Ihres Buches werfen, bevor Sie mit dem Lesen beginnen. Sie erhalten einen Überblick darüber, was Sie erwartet.
+Wir erstellen gerade eine Vorschau unserer gesamten Arbeitsmappe. Stellen Sie sich das so vor, als würden Sie einen Blick auf die Seiten Ihres Buches werfen, bevor Sie mit dem Lesen beginnen. Sie erhalten einen Überblick über das, was Sie erwartet.
 
-## Schritt 5: Seitenzahl auswerten
+## Schritt 5: Seitenanzahl auswerten
 
-Wie viele Seiten wird Ihre Arbeitsmappe im Ausdruck umfassen? Das finden wir mit dem folgenden Code heraus:
+Wie viele Seiten wird Ihre Arbeitsmappe im Druck umfassen? Das finden wir mit dem folgenden Code heraus:
 
 ```csharp
 Console.WriteLine("Workbook page count: " + preview.EvaluatedPageCount);
 ```
 
-Diese Codezeile gibt uns die Gesamtzahl der Seiten in der Arbeitsmappe an. Dies ist eine wichtige Information, insbesondere wenn Sie das Dokument ausdrucken möchten.
+Diese Codezeile gibt die Gesamtzahl der Seiten in der Arbeitsmappe an. Diese Information ist besonders wichtig, wenn Sie das Dokument ausdrucken möchten.
 
 ## Schritt 6: Erstellen einer Blattdruckvorschau
 
@@ -115,41 +117,43 @@ SheetPrintingPreview preview2 = new SheetPrintingPreview(workbook.Worksheets[0],
 Console.WriteLine("Worksheet page count: " + preview2.EvaluatedPageCount);
 ```
 
-In diesem Snippet holen wir das erste Arbeitsblatt und generieren seine Druckvorschau, ähnlich wie wenn wir uns auf ein bestimmtes Kapitel in Ihrem Buch konzentrieren. Dadurch erhalten wir die Seitenzahl nur für dieses Blatt.
+In diesem Snippet rufen wir das erste Arbeitsblatt ab und generieren dessen Druckvorschau, ähnlich wie beim Fokussieren auf ein bestimmtes Kapitel Ihres Buches. Dadurch erhalten wir die Seitenanzahl nur für dieses Blatt.
 
 ## Schritt 7: Erfolgsmeldung
 
-Es ist immer schön, die Sache mit einer freundlichen Nachricht abzuschließen, um zu bestätigen, dass alles reibungslos gelaufen ist:
+Es ist immer schön, die Dinge mit einer freundlichen Nachricht abzuschließen, um zu bestätigen, dass alles reibungslos gelaufen ist:
 
 ```csharp
 Console.WriteLine("PrintPreview executed successfully.");
 ```
 
-Diese Zeile ist wie der letzte Schliff nach Abschluss eines Projekts – es ist immer hilfreich zu wissen, dass man gute Arbeit geleistet hat!
+Diese Zeile ist wie der letzte Schliff nach Abschluss eines Projekts – es ist immer hilfreich zu wissen, dass Sie gute Arbeit geleistet haben!
 
 ## Abschluss
 
-Und da haben Sie es! Sie haben erfolgreich eine Druckvorschau für Ihre Excel-Arbeitsmappe mit Aspose.Cells für .NET eingerichtet. Wir haben alles abgedeckt, vom Importieren von Paketen bis zur Auswertung der Seitenzahlen sowohl für die gesamte Arbeitsmappe als auch für einzelne Arbeitsblätter. Es ist erstaunlich, wie einfach es sein kann, sich vorzustellen, wie Ihre Arbeitsmappe gedruckt aussehen wird, nicht wahr? Durch die Verwendung von Aspose.Cells stehen Ihnen leistungsstarke Tools zur Verfügung. Egal, ob Sie ein erfahrener Entwickler oder jemand sind, der gerade erst anfängt, diese Bibliothek bietet die Flexibilität und Funktionalität, die Sie benötigen, um Ihre Excel-Dateiverwaltung auf die nächste Stufe zu heben.
+Und fertig! Sie haben mit Aspose.Cells für .NET erfolgreich eine Druckvorschau für Ihre Excel-Arbeitsmappe eingerichtet. Wir haben alles abgedeckt, vom Importieren von Paketen bis zur Auswertung der Seitenanzahl sowohl für die gesamte Arbeitsmappe als auch für einzelne Arbeitsblätter. Es ist erstaunlich, wie einfach es sein kann, sich das Aussehen Ihrer Arbeitsmappe im Druck vorzustellen, nicht wahr? Mit Aspose.Cells stehen Ihnen leistungsstarke Tools zur Verfügung. Egal, ob Sie erfahrener Entwickler oder Anfänger sind – diese Bibliothek bietet Ihnen die Flexibilität und Funktionalität, die Sie brauchen, um Ihre Excel-Dateiverwaltung auf das nächste Level zu heben.
 
 ## Häufig gestellte Fragen
 
 ### Was ist Aspose.Cells?
-Aspose.Cells ist eine leistungsstarke Bibliothek zur Handhabung von Excel-Dateiformaten und bietet Funktionen wie Datenmanipulation, Formatierung und Darstellung von Druckvorschauen.
+Aspose.Cells ist eine leistungsstarke Bibliothek zur Verarbeitung von Excel-Dateiformaten und bietet Funktionen wie Datenmanipulation, Formatierung und Rendern von Druckvorschauen.
 
 ### Muss ich Aspose.Cells kaufen, um es zu verwenden?
- Sie können mit einer kostenlosen Testversion beginnen, die unter verfügbar ist[dieser Link](https://releases.aspose.com) bevor Sie sich für den Kauf einer Lizenz entscheiden.
+Sie können mit einer kostenlosen Testversion beginnen, die unter verfügbar ist [dieser Link](https://releases.aspose.com) bevor Sie sich für den Kauf einer Lizenz entscheiden.
 
 ### Kann ich Aspose.Cells in jeder .NET-Anwendung verwenden?
 Ja, Aspose.Cells ist für die Verwendung mit jeder .NET-Anwendung konzipiert, einschließlich ASP.NET, WinForms und mehr.
 
 ### Wo finde ich ausführlichere Dokumentation?
- Ausführliche Dokumentation finden Sie unter[Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).
+Eine ausführliche Dokumentation finden Sie unter [Aspose.Cells-Dokumentation](https://reference.aspose.com/cells/net/).
 
 ### Was ist, wenn bei der Verwendung von Aspose.Cells Probleme auftreten?
- Wenn Sie auf Probleme stoßen oder Fragen haben, können Sie im Aspose-Forum Unterstützung suchen:[Aspose-Unterstützung](https://forum.aspose.com/c/cells/9).
+Wenn Sie auf Probleme stoßen oder Fragen haben, können Sie über das Aspose-Forum Unterstützung suchen: [Aspose-Unterstützung](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

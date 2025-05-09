@@ -1,14 +1,16 @@
 ---
-title: Chỉ định khả năng tương thích của tệp Excel theo chương trình trong .NET
-linktitle: Chỉ định khả năng tương thích của tệp Excel theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách thao tác bảng trục Excel bằng Aspose.Cells cho .NET, bao gồm cập nhật dữ liệu, cài đặt tương thích và định dạng ô.
-weight: 23
-url: /vi/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Học cách thao tác bảng trục Excel bằng Aspose.Cells cho .NET, bao gồm cập nhật dữ liệu, cài đặt tương thích và định dạng ô."
+"linktitle": "Chỉ định khả năng tương thích của tệp Excel theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chỉ định khả năng tương thích của tệp Excel theo chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chỉ định khả năng tương thích của tệp Excel theo chương trình trong .NET
@@ -22,9 +24,9 @@ Trong thế giới dữ liệu ngày nay, việc quản lý và thao tác các t
 Trước khi bắt đầu giai đoạn mã hóa, hãy đảm bảo bạn có những điều sau:
 
 1. Kiến thức cơ bản về C#: Vì chúng ta sẽ viết mã bằng C#, nên việc quen thuộc với ngôn ngữ này sẽ giúp bạn hiểu hướng dẫn tốt hơn.
-2.  Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống từ[Trang phát hành Aspose Cells](https://releases.aspose.com/cells/net/)Nếu bạn chưa dùng thử, hãy cân nhắc dùng thử miễn phí để khám phá các tính năng trước.
+2. Thư viện Aspose.Cells cho .NET: Bạn có thể tải xuống từ [Trang phát hành Aspose Cells](https://releases.aspose.com/cells/net/). Nếu bạn chưa dùng thử, hãy cân nhắc dùng thử miễn phí để khám phá các tính năng trước.
 3. Visual Studio: Một IDE nơi bạn có thể viết và kiểm tra mã C# của mình một cách hiệu quả.
-4.  Tệp Excel mẫu: Đảm bảo bạn có tệp Excel mẫu, tốt nhất là tệp có chứa bảng trục cho bản demo. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng`sample-pivot-table.xlsx`.
+4. Tệp Excel mẫu: Đảm bảo bạn có tệp Excel mẫu, tốt nhất là tệp có chứa bảng trục cho bản demo. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng `sample-pivot-table.xlsx`.
 
 Với những điều kiện tiên quyết này, chúng ta hãy bắt đầu quá trình viết mã.
 
@@ -55,7 +57,7 @@ Trước tiên, hãy thiết lập thư mục chứa các tệp Excel của bạ
 string dataDir = "Your Document Directory";
 ```
 
- Ở đây, thay thế`"Your Document Directory"`với đường dẫn thực tế đến các tệp Excel của bạn. Đây là nơi tệp bảng trục mẫu của bạn sẽ nằm.
+Ở đây, thay thế `"Your Document Directory"` với đường dẫn thực tế đến các tệp Excel của bạn. Đây là nơi tệp bảng trục mẫu của bạn sẽ nằm.
 
 ## Bước 2: Tải tệp Excel nguồn
 
@@ -66,7 +68,7 @@ Tiếp theo, chúng ta cần tải tệp Excel có chứa bảng trục mẫu.
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- Trong bước này, chúng ta tạo một thể hiện của`Workbook` lớp này sẽ tải tệp Excel được chỉ định. 
+Trong bước này, chúng ta tạo một phiên bản của `Workbook` lớp này sẽ tải tệp Excel được chỉ định. 
 
 ## Bước 3: Truy cập vào các trang tính
 
@@ -107,7 +109,7 @@ cell = cells["B3"];
 cell.PutValue(longStr);
 ```
 
-Mã này rất quan trọng vì nó thiết lập kỳ vọng của bạn về giới hạn dữ liệu, đặc biệt là khi làm việc với các thiết lập tương thích trong Excel.
+Mã này rất quan trọng vì nó thiết lập kỳ vọng của bạn về giới hạn dữ liệu, đặc biệt là khi làm việc với các cài đặt tương thích trong Excel.
 
 ## Bước 5: Kiểm tra độ dài của ô B3
 
@@ -141,7 +143,7 @@ Mỗi đoạn mã này sẽ cập nhật thêm nhiều ô trong bảng tính.
 Tiếp theo, bạn sẽ truy cập vào bảng tính thứ hai, bao gồm dữ liệu bảng tổng hợp.
 
 ```csharp
-//Truy cập vào bảng tính thứ hai có chứa bảng trục
+// Truy cập vào bảng tính thứ hai có chứa bảng trục
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Truy cập bảng trục
@@ -161,7 +163,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- Đây là nơi sự chuyển đổi thực sự bắt đầu. Bằng cách thiết lập`IsExcel2003Compatible` ĐẾN`true`, bạn giới hạn độ dài ký tự ở mức 255 khi làm mới.
+Đây là nơi sự chuyển đổi thực sự bắt đầu. Bằng cách thiết lập `IsExcel2003Compatible` ĐẾN `true`bạn giới hạn độ dài ký tự ở mức 255 khi làm mới.
 
 ## Bước 9: Kiểm tra độ dài sau khi thiết lập khả năng tương thích
 
@@ -180,7 +182,7 @@ Bạn có thể sẽ thấy kết quả xác nhận hiệu ứng cắt bớt n�
 Bây giờ, hãy thay đổi cài đặt tương thích và kiểm tra lại.
 
 ```csharp
-//Bây giờ hãy đặt thuộc tính IsExcel2003Compatible thành false và làm mới lại
+// Bây giờ hãy đặt thuộc tính IsExcel2003Compatible thành false và làm mới lại
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -198,7 +200,7 @@ b5 = pivotSheet.Cells["B5"];
 Console.WriteLine("Length of cell B5 after setting IsExcel2003Compatible property to False: " + b5.StringValue.Length);
 ```
 
-Bạn sẽ thấy kết quả xác nhận việc loại bỏ phần cắt bớt.
+Bạn sẽ thấy kết quả xác nhận việc cắt bớt đã được loại bỏ.
 
 ## Bước 12: Định dạng các ô
 
@@ -224,7 +226,7 @@ Cuối cùng, hãy lưu bảng tính với những thay đổi bạn đã thực
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- Việc lựa chọn định dạng tệp phù hợp là rất quan trọng khi lưu tệp Excel.`Xlsx`Định dạng này được sử dụng rộng rãi và tương thích với nhiều phiên bản Excel.
+Việc lựa chọn định dạng tệp phù hợp là rất quan trọng khi lưu tệp Excel. `Xlsx` Định dạng này được sử dụng rộng rãi và tương thích với nhiều phiên bản Excel.
 
 ## Phần kết luận
 
@@ -242,13 +244,15 @@ Khả năng tương thích của Excel rất quan trọng để đảm bảo cá
 Có, bạn có thể tạo và thao tác Pivot Table theo chương trình bằng Aspose.Cells. Thư viện cung cấp nhiều phương pháp khác nhau để thêm nguồn dữ liệu, trường và tính năng liên quan đến Pivot Table.
 
 ### Làm thế nào để kiểm tra độ dài của chuỗi trong ô Excel?  
-Bạn có thể sử dụng`StringValue` tài sản của một`Cell` đối tượng để lấy nội dung của ô và sau đó gọi`.Length` tính chất để tìm ra độ dài của chuỗi.
+Bạn có thể sử dụng `StringValue` tài sản của một `Cell` đối tượng để lấy nội dung của ô và sau đó gọi `.Length` tính chất để tìm ra độ dài của chuỗi.
 
 ### Tôi có thể tùy chỉnh định dạng ô ngoài chiều cao và chiều rộng của hàng không?  
- Chắc chắn rồi! Aspose.Cells cho phép định dạng ô mở rộng. Bạn có thể thay đổi kiểu phông chữ, màu sắc, đường viền, định dạng số và nhiều hơn nữa thông qua`Style` lớp học.
+Chắc chắn rồi! Aspose.Cells cho phép định dạng ô mở rộng. Bạn có thể thay đổi kiểu phông chữ, màu sắc, đường viền, định dạng số và nhiều hơn nữa thông qua `Style` lớp học.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

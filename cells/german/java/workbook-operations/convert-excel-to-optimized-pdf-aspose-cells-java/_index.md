@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ In dieser Anleitung haben Sie gelernt, wie Sie eine Excel-Datei in ein `Workbook
 Machen Sie den nächsten Schritt auf Ihrem Entwicklungsweg, indem Sie mit Aspose.Cells für Java experimentieren und Ihre Excel-zu-PDF-Konvertierungsprozesse noch heute verbessern!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

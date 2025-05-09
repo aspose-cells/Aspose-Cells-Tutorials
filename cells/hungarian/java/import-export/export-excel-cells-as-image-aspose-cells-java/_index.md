@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Előfordult már, hogy szüksége volt arra, hogy adatokat osszon meg vagy mutasson be egy Excel-fájlból anélkül, hogy a teljes munkafüzetet felfedné? **Aspose.Cells Java-hoz**Bármely cellatartomány kiváló minőségű képekké exportálása egyszerű. Ez az útmutató bemutatja, hogyan valósíthatja meg ezt az Aspose.Cells használatával, amely egy hatékony könyvtár, és leegyszerűsíti az Excel-manipulációkat a Java alkalmazásokban.
 
 Ebben az oktatóanyagban a következőket fogjuk áttekinteni:
-- Az Aspose.Cells beállítása és konfigurálása Java-ban
+- Az Aspose.Cells beállítása és konfigurálása Java-hoz
 - Lépésről lépésre útmutató cellatartomány képként történő exportálásához
 - A munkalap beállításainak, például a nyomtatási területek és a margók módosítása
 
@@ -210,6 +212,9 @@ Böngészd át ezeket az anyagokat, hogy jobban megértsd és megvalósítsd az 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

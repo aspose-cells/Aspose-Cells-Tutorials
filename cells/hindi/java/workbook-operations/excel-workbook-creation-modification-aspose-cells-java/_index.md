@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,13 +57,13 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### लाइसेंस अधिग्रहण
 Aspose.Cells को पूर्ण कार्यक्षमता के लिए लाइसेंस की आवश्यकता है:
 - **मुफ्त परीक्षण**: यहां से डाउनलोड करें [एस्पोज रिलीज](https://releases.aspose.com/cells/java/) सीमाओं के साथ परीक्षण करना।
-- **अस्थायी लाइसेंस**के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [Aspose खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+- **अस्थायी लाइसेंस**: के माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [Aspose खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
 - **खरीदना**निर्बाध पहुंच के लिए, यहां से पूर्ण लाइसेंस खरीदें [Aspose खरीद](https://purchase.aspose.com/buy).
 
 ## Java के लिए Aspose.Cells सेट अप करना
 अपने प्रोजेक्ट में Aspose.Cells को आरंभ और सेट अप करने के लिए:
 1. ऊपर दिखाए अनुसार लाइब्रेरी निर्भरता जोड़ें।
-2. आरंभ करें `Workbook` एक्सेल फाइलों के साथ काम करना शुरू करने के लिए ऑब्जेक्ट का चयन करें।
+2. आरंभ करें `Workbook` एक्सेल फ़ाइलों के साथ काम करना शुरू करने के लिए ऑब्जेक्ट का चयन करें।
 
 यहां बताया गया है कि आप बुनियादी आरंभीकरण कैसे कर सकते हैं:
 
@@ -206,6 +208,9 @@ public class CalculateWorkbookFormulas {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

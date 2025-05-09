@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Dowiedz się, jak efektywnie ładować i iterować wiersze w pliku Excela przy użyciu Aspose.Cells for Java, idealnego narzędzia do analizy danych i zadań automatyzacji."
+"description": "Dowiedz się, jak efektywnie ładować i iterować wiersze w pliku Excela przy użyciu Aspose.Cells for Java, narzędzia idealnego do analizy danych i zadań automatyzacji."
 "title": "Ładowanie i iterowanie wierszy programu Excel za pomocą Aspose.Cells w języku Java — kompleksowy przewodnik"
 "url": "/pl/java/workbook-operations/excel-manipulation-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -173,6 +175,9 @@ Eksplorując te zasoby, możesz pogłębić swoją wiedzę na temat Aspose.Cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

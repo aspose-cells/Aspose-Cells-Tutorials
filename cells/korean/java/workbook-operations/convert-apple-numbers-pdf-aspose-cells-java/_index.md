@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ import com.aspose.cells.Workbook;
 ```
 
 **2. 로드 옵션 지정:**
-인스턴스를 생성합니다 `LoadOptions`숫자 파일을 로드한다는 것을 지정합니다.
+인스턴스를 생성합니다 `LoadOptions`Numbers 파일을 로드한다는 것을 지정합니다.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -182,6 +184,9 @@ Java 애플리케이션을 더욱 향상시키기 위해 Aspose.Cells의 데이�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

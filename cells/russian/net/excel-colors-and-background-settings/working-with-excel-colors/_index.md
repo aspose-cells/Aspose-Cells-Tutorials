@@ -1,14 +1,16 @@
 ---
-title: Работа с цветами Excel программным способом
-linktitle: Работа с цветами Excel программным способом
-second_title: API обработки Excel Aspose.Cells .NET
-description: Научитесь программно изменять цвета ячеек Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства и улучшите представление данных.
-weight: 10
-url: /ru/net/excel-colors-and-background-settings/working-with-excel-colors/
+"description": "Научитесь программно изменять цвета ячеек Excel с помощью Aspose.Cells для .NET с помощью этого пошагового руководства и улучшите представление данных."
+"linktitle": "Работа с цветами Excel программным способом"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Работа с цветами Excel программным способом"
+"url": "/ru/net/excel-colors-and-background-settings/working-with-excel-colors/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Работа с цветами Excel программным способом
@@ -20,7 +22,7 @@ url: /ru/net/excel-colors-and-background-settings/working-with-excel-colors/
 Прежде чем начать, вам необходимо подготовить несколько вещей:
 
 1. Microsoft Visual Studio: это будет ваша среда разработки для написания кода C#.
-2.  Aspose.Cells для .NET: Вам необходимо установить библиотеку Aspose.Cells. Вы можете скачать ее[здесь](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells для .NET: Вам необходимо установить библиотеку Aspose.Cells. Вы можете скачать ее [здесь](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам лучше понять примеры.
 4. .NET Framework: Убедитесь, что у вас также установлен .NET Framework.
 
@@ -49,14 +51,14 @@ if (!IsExists)
  System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- В этом фрагменте замените`"Your Document Directory"` с вашим предпочтительным путем. Это гарантирует вам хорошо организованное рабочее пространство.
+В этом фрагменте замените `"Your Document Directory"` с вашим предпочтительным путем. Это гарантирует вам хорошо организованное рабочее пространство.
 
 ## Шаг 2: Создание экземпляра объекта WorkbookСоздание новой Workbook
 
 Далее давайте создадим новую рабочую книгу, в которой будем работать с цветами:
 
 ```csharp
-// Создание объекта Workbook
+// Создание объекта Workbook 
 Workbook workbook = new Workbook();
 ```
 
@@ -86,7 +88,7 @@ Worksheet worksheet = workbook.Worksheets[i];
 
 ## Шаг 5: Определите и примените стиль к ячейке A1Style Up для вашей первой ячейки
 
-Время для красок! Давайте создадим стиль для ячейки A1:
+Время раскраситься! Давайте создадим стиль для ячейки A1:
 
 ```csharp
 // Определите стиль и получите стиль ячейки A1
@@ -106,7 +108,7 @@ worksheet.Cells["A1"].SetStyle(style);
 
 ## Шаг 6: Определите и примените стиль к ячейке A2. Выделение ячейки A2
 
-Далее, давайте добавим цвет в ячейку A2. Это будет синий на желтом:
+Далее добавим цвет в ячейку A2. Это будет синий на желтом:
 
 ```csharp
 // Получить стиль ячейки А2
@@ -146,19 +148,21 @@ workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 Aspose.Cells — мощная библиотека, позволяющая разработчикам программно создавать, изменять и конвертировать файлы Excel.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да, Aspose предлагает бесплатную пробную версию, которую вы можете загрузить[здесь](https://releases.aspose.com/).
+Да, Aspose предлагает бесплатную пробную версию, которую вы можете загрузить [здесь](https://releases.aspose.com/).
 
 ### Как я могу купить Aspose.Cells?
- Вы можете приобрести лицензию на Aspose.Cells[здесь](https://purchase.aspose.com/buy).
+Вы можете приобрести лицензию на Aspose.Cells [здесь](https://purchase.aspose.com/buy).
 
 ### Доступна ли поддержка Aspose.Cells?
- Конечно! Вы можете получить поддержку на форуме Aspose, доступ к которому можно получить[здесь](https://forum.aspose.com/c/cells/9).
+Конечно! Вы можете получить поддержку на форуме Aspose, доступ к которому можно получить [здесь](https://forum.aspose.com/c/cells/9).
 
 ### Могу ли я получить временную лицензию для Aspose.Cells?
- Да, Aspose позволяет вам получить временную лицензию для ознакомительных целей. Вы можете найти ее[здесь](https://purchase.aspose.com/temporary-license/).
+Да, Aspose позволяет вам получить временную лицензию для ознакомительных целей. Вы можете найти ее [здесь](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

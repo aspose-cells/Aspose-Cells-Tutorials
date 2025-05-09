@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/control-tab-bar-width-of-sprea
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Control Tab Bar Width Of Spreadsheet
@@ -117,6 +119,7 @@ Yes, you can also control the tab color, visibility, and other display options u
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

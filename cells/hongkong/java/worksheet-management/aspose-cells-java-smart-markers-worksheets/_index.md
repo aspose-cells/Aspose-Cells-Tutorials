@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### 概述
 
-在這個功能中，我們初始化一個 `WorkbookDesigner`，設定智慧標記，並對其進行處理以產生具有動態內容的Excel檔案。這非常適合需要在 Excel 範本中填入重複資料的場景。
+在這個特性中，我們初始化一個 `WorkbookDesigner`，設定智慧標記，並對其進行處理以產生具有動態內容的Excel檔案。這非常適合需要在 Excel 範本中填入重複資料的場景。
 
 ##### 步驟 1：設定工作簿設計器
 
@@ -204,6 +206,9 @@ A5：訪問 [Aspose 文檔](https://reference.aspose.com/cells/java/) 以獲得�
 - **支援論壇**： [Aspose 支援](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # معالجة دفعات Excel
@@ -109,9 +111,11 @@ fileWorkbook.save("output.pdf", SaveFormat.PDF);
    استكشف وثائق واجهة برمجة التطبيقات على [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) للحصول على معلومات وأمثلة متعمقة.
 
 قم بتحسين مهام معالجة الدفعات في Excel وزيادة الإنتاجية باستخدام Aspose.Cells لـ Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

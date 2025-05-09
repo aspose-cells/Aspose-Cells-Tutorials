@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/implement-margins/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Margins in Worksheet
@@ -92,6 +94,7 @@ You can buy a license directly from the [Aspose purchase page](https://purchase.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

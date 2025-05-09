@@ -1,45 +1,50 @@
 ---
-title: सुदूर पूर्व और लैटिन फ़ॉन्ट के साथ एक्सेल कार्यपुस्तिका बनाएँ
-weight: 7700
-limit: 
-description: .NET में Aspose.Cells का उपयोग करके एक एक्सेल कार्यपुस्तिका बनाने के लिए सीखें, निर्दिष्ट सुदूर पूर्व और लैटिन फ़ॉन्ट नामों के साथ एक पाठ बॉक्स जोड़ें.
-keywords: [Aspose.Cells, .NET, Excel, workbook, textbox, Far East font, Latin font, coding example]
-url: /hi/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/
+"description": "Aspose.Cells का उपयोग करके .NET में Excel कार्यपुस्तिका बनाना सीखें, निर्दिष्ट सुदूर पूर्व और लैटिन फ़ॉन्ट नामों के साथ एक टेक्स्टबॉक्स जोड़ना सीखें।"
+"title": "सुदूर पूर्व और लैटिन फ़ॉन्ट्स के साथ एक्सेल वर्कबुक बनाएं"
+"url": "/hi/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# सुदूर पूर्व और लैटिन फ़ॉन्ट के साथ एक्सेल कार्यपुस्तिका बनाएँ
+# सुदूर पूर्व और लैटिन फ़ॉन्ट्स के साथ एक्सेल वर्कबुक बनाएं
 
-यह उदाहरण दिखाता है कि एक्सेल कार्यपुस्तिका बनाने के लिए .NET के लिए Aspose.Cells का उपयोग कैसे करें, कार्यपत्रक में एक पाठ बॉक्स जोड़ें, और उस पाठ बॉक्स के भीतर पाठ के लिए सुदूर पूर्व और लैटिन फ़ॉन्ट नाम दोनों सेट करें। कोड कार्यक्षेत्र को आरंभ करना, कार्यपत्रक तत्वों को हेरफेर करना, और विभिन्न भाषा आवश्यकताओं के लिए अनुकूलित विशिष्ट फ़ॉन्ट स्वरूपण के साथ कार्यपुस्तिका को सहेजना दिखाता है।
+यह उदाहरण दर्शाता है कि .NET के लिए Aspose.Cells का उपयोग करके Excel वर्कबुक कैसे बनाई जाती है, वर्कशीट में टेक्स्टबॉक्स कैसे जोड़ा जाता है, तथा उस टेक्स्टबॉक्स के भीतर टेक्स्ट के लिए Far East और Latin दोनों फ़ॉन्ट नाम कैसे सेट किए जाते हैं। कोड वर्कस्पेस को आरंभीकृत करना, वर्कशीट तत्वों में हेरफेर करना, तथा विविध भाषा आवश्यकताओं के लिए अनुकूलित विशिष्ट फ़ॉन्ट स्वरूपण के साथ वर्कबुक को सहेजना दर्शाता है।
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## स्थापना के निर्देश
-1. .NET के लिए Aspose.Cells स्थापित करेंः 
-   * अपने विजुअल स्टूडियो प्रोजेक्ट में NuGet पैकेज प्रबंधक का उपयोग करें:
+## स्थापना निर्देश
+1. .NET के लिए Aspose.Cells स्थापित करें: 
+   - अपने विज़ुअल स्टूडियो प्रोजेक्ट में NuGet पैकेज मैनेजर का उपयोग करें:
      ```
      Install-Package Aspose.Cells
      ```
-   * या डाउनलोड करें DLL से[एस्पोस वेबसाइट](https://www.aspose.com/downloads/cells/net).
+   - या DLL को यहाँ से डाउनलोड करें [Aspose वेबसाइट](https://www.aspose.com/downloads/cells/net).
 
-2. संदर्भ जोड़ें: सुनिश्चित करें कि आपकी परियोजना Aspose.Cells पुस्तकालय का संदर्भ देती है.
+2. संदर्भ जोड़ें: सुनिश्चित करें कि आपका प्रोजेक्ट Aspose.Cells लाइब्रेरी को संदर्भित करता है।
 
-3. आउटपुट निर्देशिका सेट करेंः अद्यतन करें`आउटपुटDir`कोड में चर के साथ वांछित आउटपुट पथ जहां एक्सेल फ़ाइल सहेजा जाएगा.
+3. आउटपुट निर्देशिका सेट करें: अपडेट करें `outputDir` कोड में वांछित आउटपुट पथ के साथ वेरिएबल जहां एक्सेल फ़ाइल सहेजी जाएगी।
 
-4. उदाहरण चलाएँ: प्रदान किए गए C# कोड को अपनी परियोजना में कॉपी करें, संकलित करें, और इसे चलाएँ. आपको आउटपुट पुष्टिकरण देखना चाहिए, और विन्यस्त पाठ बॉक्स के साथ एक्सेल फ़ाइल निर्दिष्ट निर्देशिका में बनाई जाएगी.
+4. उदाहरण चलाएँ: दिए गए C# कोड को अपने प्रोजेक्ट में कॉपी करें, संकलित करें और चलाएँ। आपको आउटपुट पुष्टिकरण दिखाई देना चाहिए, और कॉन्फ़िगर किए गए टेक्स्टबॉक्स के साथ एक्सेल फ़ाइल निर्दिष्ट निर्देशिका में बनाई जाएगी।
 
 ## यह भी देखें  
-लाइसेंस खरीदने के लिए, [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).  
-पूर्ण दस्तावेज के लिए, देखें [.NET प्रलेखन के लिए Aspose.Cells](https://docs.aspose.com/cells/net/).  
-पूर्ण एपीआई संदर्भ का पता लगाने के लिए, जाँच करें [.NET एपीआई संदर्भ के लिए Aspose.Cells](https://reference.aspose.com/cells/net/). 
+लाइसेंस खरीदने के लिए यहां जाएं [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).  
+सम्पूर्ण दस्तावेज़ीकरण के लिए, यहां जाएं [.NET के लिए Aspose.Cells दस्तावेज़ीकरण](https://docs.aspose.com/cells/net/).  
+संपूर्ण API संदर्भ जानने के लिए, देखें [.NET API संदर्भ के लिए Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

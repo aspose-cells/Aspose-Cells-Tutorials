@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - Настройка Aspose.Cells для Java
 - Загрузка книги Excel в ваше приложение
 - Настройка параметров сохранения PDF-файла для обеспечения размещения всех столбцов на одной странице
-- Сохранение рабочей книги в формате PDF-файла
+- Сохранение рабочей книги в виде файла PDF
 
 Давайте погрузимся и рассмотрим, как можно использовать эти мощные функции. Сначала мы рассмотрим предварительные условия.
 
@@ -194,6 +196,9 @@ book.save(outDir + "/FAWorksheetColumns_out.pdf", saveOptions);
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

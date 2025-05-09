@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Teknik Validasi Data Lanjutan
 
 
-## Perkenalan
+## Bevezetés
 
 Validasi data adalah proses mendefinisikan aturan dan batasan untuk mencegah data yang salah atau tidak konsisten masuk ke dalam lembar kerja Excel Anda. Aspose.Cells untuk Java menyediakan serangkaian fitur yang tangguh untuk menerapkan validasi data secara efektif.
 
@@ -84,15 +86,15 @@ dataValidation.setFormula1("01/01/2023");
 dataValidation.setFormula2("12/31/2023");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Validasi data merupakan aspek penting dalam menjaga kualitas data dalam lembar kerja Excel. Aspose.Cells untuk Java menyediakan seperangkat alat yang lengkap untuk menerapkan teknik validasi data dasar dan lanjutan. Dengan mengikuti langkah-langkah yang diuraikan dalam artikel ini, Anda dapat meningkatkan keandalan dan keakuratan aplikasi berbasis data Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
-Anda dapat mengunduh Aspose.Cells untuk Java dari [tautan unduhan](https://releases.aspose.com/cells/java/).
+Anda dapat mengunduh Aspose.Cells untuk Java dari [letöltési link](https://releases.aspose.com/cells/java/).
 
 ### Bisakah saya membuat aturan validasi khusus menggunakan Aspose.Cells untuk Java?
 
@@ -113,6 +115,7 @@ Anda dapat menemukan dokumentasi dan referensi terperinci di [Referensi API Aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

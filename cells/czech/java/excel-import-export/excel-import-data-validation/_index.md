@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ověření dat importu z Excelu
@@ -80,9 +82,11 @@ Ano, Aspose.Cells pro Javu je vhodný pro zpracování komplexních scénářů 
 V této komplexní příručce jsme prozkoumali proces implementace validace dat importu z Excelu pomocí nástroje Aspose.Cells pro Javu. Dodržením kroků popsaných v tomto článku můžete zajistit přesnost a spolehlivost importovaných dat ve vašich aplikacích Java. Validace dat je klíčovým aspektem správy dat a Aspose.Cells pro Javu tento proces zjednodušuje.
 
 Nyní, vyzbrojeni znalostmi a poskytnutým zdrojovým kódem, jste připraveni vylepšit své možnosti ověřování dat a zlepšit uživatelský komfort. Přejeme vám příjemné programování!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

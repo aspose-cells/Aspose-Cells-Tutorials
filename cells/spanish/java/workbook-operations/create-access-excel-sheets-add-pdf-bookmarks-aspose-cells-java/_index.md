@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ En este tutorial, cubriremos:
 ## Prerrequisitos
 Para seguir este tutorial, asegúrese de tener:
 
-### Bibliotecas y dependencias necesarias
+### Bibliotecas y dependencias requeridas
 Necesitará Aspose.Cells para Java versión 25.3 o posterior. Se recomienda usar Maven o Gradle para gestionar sus dependencias eficazmente.
 
 **Experto**
@@ -198,6 +200,9 @@ Este tutorial muestra cómo usar Aspose.Cells para Java para cargar archivos de 
 ¡Comience hoy su viaje con Aspose.Cells y transforme su forma de interactuar con los datos de Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@
 ### Что вы узнаете:
 - Настройте метки сводных таблиц с помощью определенных имен
 - Применение пользовательских настроек глобализации в книгах Excel
-- Экспорт настраиваемых сводных таблиц в формат PDF
+- Экспортировать настроенные сводные таблицы в формат PDF
 - Оптимизируйте библиотеку Aspose.Cells для эффективных приложений Java
 
 Готовы улучшить свои навыки представления данных? Давайте начнем!
@@ -93,7 +95,7 @@ Workbook workbook = new Workbook("path/to/excel/file.xlsx");
    ```
 
 2. **Применить настройки**
-   Загрузите рабочую книгу и примените следующие настройки:
+   Загрузите вашу рабочую книгу и примените следующие настройки:
 
    ```java
    Workbook wb = new Workbook("YOUR_DATA_DIRECTORY/samplePivotTableGlobalizationSettings.xlsx");
@@ -189,6 +191,9 @@ Workbook workbook = new Workbook("path/to/excel/file.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

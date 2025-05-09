@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Bản dùng thử miễn phí bao gồm hình mờ trên tệp đầu ra và gi�
 Bắt đầu hành trình làm chủ tùy chỉnh biểu đồ Excel với Aspose.Cells for Java và nâng cao cách bạn trình bày dữ liệu. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

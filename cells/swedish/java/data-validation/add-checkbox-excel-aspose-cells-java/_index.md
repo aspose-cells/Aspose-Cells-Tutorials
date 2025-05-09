@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Vi uppmuntrar dig att implementera dessa lösningar i dina projekt. Lycka till m
 - Säkerställ korrekta behörigheter och överväg att låsa specifika celler för att förhindra oavsiktliga ändringar när du använder kryssrutor i delade miljöer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

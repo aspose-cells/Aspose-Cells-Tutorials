@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,10 +161,13 @@ workbook.save(outDir + "IGInFirstPageHeaderOnly_out.xlsx");
 - 下載： [Aspose.Cells 發布](https://releases.aspose.com/cells/java/)
 - 購買許可證： [購買 Aspose.Cells](https://purchase.aspose.com/buy)
 - 免費試用： [免費下載](https://releases.aspose.com/cells/java/)
-- 臨時執照： [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- 臨時執照： [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - 支援論壇： [Aspose Cells 社區](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

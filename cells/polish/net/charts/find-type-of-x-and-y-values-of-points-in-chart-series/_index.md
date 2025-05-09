@@ -1,63 +1,68 @@
 ---
-title: Znajdź typ wartości X i Y w punktach wykresu używając Aspose.Cells dla .NET
-weight: 7700
-limit: 
-description: Dowiedz się, jak znaleźć typy wartości X i Y w punktach wykresu za pomocą Aspose.Cells dla .NET. Ładuj plik Excel, dostępuj do wykresu i odzyskaj typy wartości.
-keywords: [Aspose.Cells for .NET, Excel chart, chart points, X value type, Y value type, calculate chart data, retrieve chart values, C# Excel API]
-url: /pl/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/
+"description": "Dowiedz się, jak znaleźć typy wartości X i Y w punktach wykresu przy użyciu Aspose.Cells dla .NET. Załaduj plik Excel, uzyskaj dostęp do wykresu i pobierz typy wartości."
+"title": "Znajdź typ wartości X i Y w punktach wykresu za pomocą Aspose.Cells dla .NET"
+"url": "/pl/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Znajdź typ wartości X i Y w punktach wykresu za pomocą Aspose.Cells  
 
-W tym tutoriale dowiesz się, jak określić rodzaje wartości X i Y dla punktów wykresu w pliku Excel za pomocą Aspose.Cells dla .NET. Jest to przydatne podczas analizy danych wykresu dynamicznie w ramach aplikacji .NET. Zaczniemy od ładowania pliku Excel zawierającego wykres, uzyskania dostępu do arkusza roboczego i wykresu, obliczania danych wykresu i wyciągnięcia typów wartości z konkretnego punktu danych.  
+tym samouczku dowiesz się, jak określić typy wartości X i Y dla punktów wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Jest to przydatne podczas dynamicznej analizy danych wykresu w aplikacji .NET. Zaczniemy od załadowania pliku Excel zawierającego wykres, uzyskania dostępu do arkusza kalkulacyjnego i wykresu, obliczenia danych wykresu i wyodrębnienia typów wartości z określonego punktu danych. Na koniec wydrukujemy te wartości na konsoli w celu weryfikacji.  
 
-Aspose.Cells dla .NET ułatwia programiczną pracę z wykresami programu Excel, umożliwiając deweloperom automatyzowanie złożonych operacji arkusza kalkulacyjnego bez potrzeby programu Microsoft Excel.  
+Dzięki Aspose.Cells for .NET można łatwo programowo pracować z wykresami programu Excel, co pozwala programistom automatyzować złożone operacje na arkuszach kalkulacyjnych bez konieczności korzystania z programu Microsoft Excel.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
 
-Aby użyć Aspose.Cells dla .NET w projekcie, wykonaj następujące kroki:  
+Aby użyć Aspose.Cells dla .NET w swoim projekcie, wykonaj następujące kroki:  
 
-1. Instalacja za pomocą Menedżera pakietów NuGet  
-- Otwórz Visual Studio i przejdź do Narzędzi → Menedżer pakietów NuGet → Zarządzaj pakietami NuGet dla rozwiązania.  
-- Poszukaj Aspose.Cells i kliknij Instalacja.  
+1. Zainstaluj za pomocą Menedżera pakietów NuGet  
+- Otwórz program Visual Studio i przejdź do pozycji Narzędzia → Menedżer pakietów NuGet → Zarządzaj pakietami NuGet dla rozwiązania.  
+- Wyszukaj Aspose.Cells i kliknij Zainstaluj.  
 
-Albo zainstalować za pomocą konsoli Menedżera pakietów NuGet:  
+Można też przeprowadzić instalację za pomocą konsoli NuGet Package Manager:  
 
 ```powershell
 Install-Package Aspose.Cells
 ```  
 
-2. Instalacja za pośrednictwem .NET CLI  
-Jeśli używasz CLI .NET, uruchomi:  
+2. Zainstaluj za pomocą .NET CLI  
+Jeśli używasz interfejsu wiersza poleceń .NET, uruchom:  
 
 ```powershell
 dotnet add package Aspose.Cells
 ```  
 
-3. Dodaj referencję do swojego projektu  
-Once installed, include the following namespace in your C# file:  
+3. Dodaj odniesienie do swojego projektu  
+Po zainstalowaniu uwzględnij następującą przestrzeń nazw w pliku C#:  
 
 ```csharp
 using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```  
 
-## Zobacz również
-Bezpłatna próbka[Wystarczy bezpłatny test](https://releases.aspose.com/)\- Nie .  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie . 
+## Zobacz także
+Aby skorzystać z bezpłatnej wersji próbnej, odwiedź stronę [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

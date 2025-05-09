@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dataimport från Excel
@@ -55,7 +57,7 @@ public class ExcelDataImport {
         Cell cell = worksheet.getCells().get("A1");
         System.out.println("Data in cell A1: " + cell.getStringValue());
 
-        // Åtkomst till och iterera genom rader och kolumner
+        // Åtkomst till och iterering genom rader och kolumner
         for (int row = 0; row < worksheet.getCells().getMaxDataRow() + 1; row++) {
             for (int col = 0; col < worksheet.getCells().getMaxDataColumn() + 1; col++) {
                 Cell dataCell = worksheet.getCells().get(row, col);
@@ -96,9 +98,11 @@ Du har nu lärt dig hur du importerar data från Excel med hjälp av Aspose.Cell
    Besök Aspose.Cells-dokumentationen [här](https://reference.aspose.com/cells/java/) för djupgående resurser och exempel.
 
 Utforska gärna vidare och anpassa den här koden för att passa dina specifika dataimportkrav. Lycka till med kodningen!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

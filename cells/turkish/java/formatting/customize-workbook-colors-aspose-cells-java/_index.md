@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ font.setColor(customColor); // Özel rengin uygulanması
 cell.setStyle(style);
 ```
 
-- **Özelleştirme**: Değiştir `setFont` Hücreler içindeki metin görünümünü değiştirmeye yönelik özellikler.
+- **Özelleştirme**: Değiştir `setFont` Hücreler içindeki metin görünümünü değiştirme özellikleri.
 
 ### Özellik: Çalışma Kitabını Kaydetme (H2)
 
@@ -226,6 +228,9 @@ Bu özelleştirmeleri projelerinizde uygulamayı deneyin ve veri sunumunuzu ne k
 Aspose.Cells ile yolculuğunuza bugün başlayın ve elektronik tablo verilerini işleme şeklinizi değiştirin!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

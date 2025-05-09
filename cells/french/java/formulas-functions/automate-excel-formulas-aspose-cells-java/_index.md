@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ N'hésitez pas à expérimenter et à explorer les nombreuses fonctionnalités d
    Une formule de propagation se met automatiquement à jour à mesure que de nouvelles lignes de données sont ajoutées, garantissant une précision continue sans intervention manuelle.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

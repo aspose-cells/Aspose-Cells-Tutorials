@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ A: Mặc dù Aspose.Cells cho phép linh hoạt trong việc tạo hình dạng,
 Bằng cách làm theo hướng dẫn này, giờ đây bạn đã có đủ khả năng để bắt đầu tích hợp Aspose.Cells Java vào các dự án của mình để nâng cao khả năng định dạng và tự động hóa Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

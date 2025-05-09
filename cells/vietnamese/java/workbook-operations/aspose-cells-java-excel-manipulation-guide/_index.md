@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Hướng dẫn sử dụng Java của Aspose.Cells: Làm chủ thao tác bảng tính Excel
+# Hướng dẫn Java Aspose.Cells: Làm chủ thao tác bảng tính Excel
 
 ## Giới thiệu
 
@@ -104,7 +106,7 @@ Việc thêm bảng tính rất quan trọng khi bạn cần nhiều bảng tín
 Tính năng này hướng dẫn cách thêm một bảng tính và lấy tham chiếu của bảng tính đó trong sổ làm việc của bạn.
 
 #### Thực hiện từng bước:
-##### Khởi tạo một phiên bản Workbook mới
+##### Khởi tạo một phiên bản sổ làm việc mới
 
 ```java
 import com.aspose.cells.Workbook;
@@ -225,6 +227,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học được các kỹ 
 Để tiếp tục khám phá các khả năng của Aspose.Cells, hãy cân nhắc tìm hiểu sâu hơn về các tính năng nâng cao như tạo biểu đồ, xác thực dữ liệu, v.v.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

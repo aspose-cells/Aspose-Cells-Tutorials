@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ cell.setStyle(style);
 
 ### Dinamik Formüllerle INDEX Fonksiyonunun Kullanımı
 
-Dinamik formüller, kullanıcı girdisine veya veri kümesindeki değişikliklere bağlı olarak veri alınmasına olanak tanır.
+Dinamik formüller, kullanıcı girdisine veya veri kümesindeki değişikliklere dayalı olarak veri alınmasına olanak tanır.
 
 3. **INDEX Fonksiyonunu Uygula**
 
@@ -228,6 +230,9 @@ Bu kılavuz, Java ile Aspose.Cells kullanarak dinamik Excel grafikleri oluşturm
 - Bulgularınızı veya sorularınızı geliştirici forumlarında paylaşarak toplulukla etkileşime geçin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

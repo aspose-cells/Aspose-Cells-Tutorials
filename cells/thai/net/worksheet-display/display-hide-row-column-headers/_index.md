@@ -1,14 +1,16 @@
 ---
-title: การแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต
-linktitle: การแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเรา
-weight: 12
-url: /th/net/worksheet-display/display-hide-row-column-headers/
+"description": "เรียนรู้วิธีแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนโดยละเอียดของเรา"
+"linktitle": "การแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต"
+"url": "/th/net/worksheet-display/display-hide-row-column-headers/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแสดงหรือซ่อนส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต
@@ -22,7 +24,7 @@ url: /th/net/worksheet-display/display-hide-row-column-headers/
 ก่อนที่จะเริ่มบทช่วยสอน นี่คือสิ่งที่คุณต้องการ:
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนคอมพิวเตอร์ของคุณแล้ว
-2.  ไลบรารี Aspose.Cells: คุณต้องมีไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/cells/net/).
+2. ไลบรารี Aspose.Cells: คุณต้องมีไลบรารี Aspose.Cells คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases-aspose.com/cells/net/).
 3. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# เป็นสิ่งที่มีประโยชน์ ถึงแม้ว่าคำแนะนำทีละขั้นตอนจะทำให้กระบวนการง่ายขึ้นก็ตาม
 
 ## แพ็คเกจนำเข้า
@@ -43,7 +45,7 @@ url: /th/net/worksheet-display/display-hide-row-column-headers/
 
 ### นำเข้าเนมสเปซ Aspose.Cells
 
- เปิดไฟล์ C# หลักของคุณ (โดยปกติ`Program.cs`) และนำเข้าเนมสเปซ Aspose.Cells ที่จำเป็นโดยเพิ่มบรรทัดนี้ที่ด้านบน:
+เปิดไฟล์ C# หลักของคุณ (โดยปกติ `Program.cs`) และนำเข้าเนมสเปซ Aspose.Cells ที่จำเป็นโดยเพิ่มบรรทัดนี้ที่ด้านบน:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ using Aspose.Cells;
 string dataDir = "Your Document Directory";
 ```
 
- อย่าลืมเปลี่ยน`"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ของคุณตั้งอยู่
+อย่าลืมเปลี่ยน `"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 5: สร้างสตรีมไฟล์
 
@@ -70,11 +72,11 @@ string dataDir = "Your Document Directory";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-บรรทัดโค้ดนี้จะเปิดไฟล์ Excel ที่ชื่อ`book1.xls`. ถ้าไม่มีไฟล์นี้ โปรดสร้างขึ้นมาใหม่หรือเปลี่ยนชื่อให้เหมาะสม
+บรรทัดโค้ดนี้จะเปิดไฟล์ Excel ที่ชื่อ `book1.xls`. ถ้าไม่มีไฟล์นี้ โปรดสร้างขึ้นมาใหม่หรือเปลี่ยนชื่อให้เหมาะสม
 
 ## ขั้นตอนที่ 6: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
- ตอนนี้ถึงเวลาสร้าง`Workbook` ออบเจ็กต์ซึ่งแสดงถึงเวิร์กบุ๊ก Excel ของคุณ เริ่มต้นเวิร์กบุ๊กโดยใช้สตรีมไฟล์
+ตอนนี้ถึงเวลาสร้าง `Workbook` ออบเจ็กต์ซึ่งแสดงถึงเวิร์กบุ๊ก Excel ของคุณ เริ่มต้นเวิร์กบุ๊กโดยใช้สตรีมไฟล์
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -88,17 +90,17 @@ Workbook workbook = new Workbook(fstream);
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-คุณสามารถปรับเปลี่ยนดัชนีในวงเล็บเหลี่ยมได้หากคุณต้องการเข้าถึงเวิร์กชีตอื่น
+คุณสามารถแก้ไขดัชนีในวงเล็บเหลี่ยมได้หากคุณต้องการเข้าถึงเวิร์กชีตอื่น
 
 ## ขั้นตอนที่ 8: ซ่อนส่วนหัว
 
- ตอนนี้มาถึงส่วนสนุกแล้ว! คุณสามารถซ่อนส่วนหัวของแถวและคอลัมน์ได้โดยใช้คุณสมบัติง่ายๆ การตั้งค่า`IsRowColumnHeadersVisible` ถึง`false` บรรลุสิ่งนี้ได้
+ตอนนี้มาถึงส่วนสนุกแล้ว! คุณสามารถซ่อนส่วนหัวของแถวและคอลัมน์ได้โดยใช้คุณสมบัติง่ายๆ การตั้งค่า `IsRowColumnHeadersVisible` ถึง `false` บรรลุสิ่งนี้ได้
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- เรียบร้อยดีใช่ไหมครับ? สามารถตั้งค่าให้`true` หากคุณต้องการแสดงส่วนหัวอีกครั้ง
+เรียบร้อยดีใช่ไหมครับ? สามารถตั้งค่าให้ `true` หากคุณต้องการแสดงส่วนหัวอีกครั้ง
 
 ## ขั้นตอนที่ 9: บันทึกไฟล์ Excel ที่ปรับเปลี่ยนแล้ว
 
@@ -116,7 +118,7 @@ workbook.Save(dataDir + "output.xls");
 fstream.Close();
 ```
 
-ขอแสดงความยินดี! คุณได้จัดการส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET สำเร็จแล้ว 
+ขอแสดงความยินดี! คุณได้จัดการส่วนหัวของแถวและคอลัมน์ในเวิร์กชีต Excel สำเร็จแล้วโดยใช้ Aspose.Cells สำหรับ .NET 
 
 ## บทสรุป
 
@@ -128,19 +130,21 @@ fstream.Close();
 Aspose.Cells คือไลบรารี .NET ที่ช่วยให้สามารถจัดการไฟล์ Excel ได้ ทำให้การสร้าง แก้ไข และแปลงสเปรดชีตด้วยโปรแกรมง่ายขึ้น
 
 ### ฉันสามารถแสดงส่วนหัวอีกครั้งหลังจากซ่อนไว้ได้ไหม
- ใช่ครับ เพียงตั้งค่า`worksheet.IsRowColumnHeadersVisible` ถึง`true` เพื่อแสดงส่วนหัวอีกครั้ง
+ใช่ครับ เพียงตั้งค่า `worksheet.IsRowColumnHeadersVisible` ถึง `true` เพื่อแสดงส่วนหัวอีกครั้ง
 
 ### Aspose.Cells ฟรีหรือเปล่า?
- Aspose.Cells เป็นไลบรารีที่ต้องเสียเงิน แต่คุณสามารถทดลองใช้ฟรีได้ในช่วงเวลาจำกัด ตรวจสอบ[หน้าทดลองใช้งานฟรี](https://releases.aspose.com/).
+Aspose.Cells เป็นไลบรารีที่ต้องเสียเงิน แต่คุณสามารถทดลองใช้ฟรีได้ในช่วงเวลาจำกัด ตรวจสอบ [หน้าทดลองใช้งานฟรี](https://releases-aspose.com/).
 
 ### ฉันสามารถหาเอกสารเพิ่มเติมได้ที่ไหน
- คุณสามารถสำรวจรายละเอียดและวิธีการเพิ่มเติมที่เกี่ยวข้องกับ Aspose.Cells ได้[หน้าเอกสารประกอบ](https://reference.aspose.com/cells/net/).
+คุณสามารถสำรวจรายละเอียดและวิธีการเพิ่มเติมที่เกี่ยวข้องกับ Aspose.Cells ได้ [หน้าเอกสารประกอบ](https://reference-aspose.com/cells/net/).
 
-### จะเกิดอะไรขึ้นหากฉันประสบปัญหาหรือข้อบกพร่อง?
- หากคุณประสบปัญหาใดๆ ขณะใช้ Aspose.Cells คุณสามารถขอความช่วยเหลือจากผู้เชี่ยวชาญได้[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9).
+### จะเกิดอะไรขึ้นหากฉันพบปัญหาหรือข้อบกพร่อง?
+หากคุณประสบปัญหาใดๆ ขณะใช้ Aspose.Cells คุณสามารถขอความช่วยเหลือจากผู้เชี่ยวชาญได้ [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

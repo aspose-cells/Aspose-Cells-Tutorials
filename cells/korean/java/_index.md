@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java 스프레드시트 처리 튜토리얼
@@ -43,7 +45,7 @@ Aspose.Cells for Java로 강력한 Excel 데이터 분석을 경험해 보세요
 ### [Excel 피벗 테이블](./excel-pivot-tables/)
 Aspose.Cells for Java를 사용하여 Excel 피벗 테이블을 완벽하게 활용하세요. 데이터를 손쉽게 생성, 맞춤 설정, 분석하는 방법을 알아보세요.
 ### [고급 Excel 차트](./advanced-excel-charts/)
-Aspose.Cells for Java를 활용한 고급 Excel 차트 튜토리얼을 살펴보세요. 데이터 시각화 기술을 단계별로 향상시켜 보세요. 오늘 바로 차트 작성을 마스터하세요!
+Aspose.Cells for Java를 활용한 고급 Excel 차트 튜토리얼을 살펴보세요. 데이터 시각화 기술을 단계별로 향상시켜 보세요. 오늘 바로 차트 작성의 달인이 되어 보세요!
 ### [Excel 가져오기 내보내기](./excel-import-export/)
 Aspose.Cells for Java를 사용하여 Excel 파일을 손쉽게 가져오고 내보내세요. 원활한 데이터 교환을 위한 단계별 튜토리얼을 살펴보세요. 지금 바로 Excel 활용법을 마스터하세요!
 ### [Excel 데이터 보안](./excel-data-security/)
@@ -60,7 +62,7 @@ Aspose.Cells for Java를 사용하여 Excel 파일에 워크시트를 추가, �
 Aspose.Cells for Java를 사용하여 Excel 셀, 셀 유형, 값, 수식 및 참조 작업을 위한 단계별 자습서입니다.
 
 ### [범위 관리](./range-management/)
-Aspose.Cells Java 튜토리얼을 통해 셀 범위, 선택 영역 작업 및 Excel 스프레드시트에서 대량 작업을 수행하는 방법을 알아보세요.
+Aspose.Cells Java 튜토리얼을 통해 셀 범위, 선택 영역을 다루고 Excel 스프레드시트에서 대량 작업을 수행하는 방법을 알아보세요.
 
 ### [서식](./formatting/)
 Aspose.Cells for Java를 사용하여 Excel에서 셀 서식, 스타일, 조건부 서식, 테마 및 숫자 서식을 지정하는 방법에 대한 전체 자습서입니다.
@@ -118,9 +120,11 @@ Aspose.Cells for Java를 사용하여 보고서 템플릿을 만들고, 문서�
 
 ### [자동화 및 일괄 처리](./automation-batch-processing/)
 Aspose.Cells for Java를 사용하여 Excel 작업을 자동화하고, 여러 파일을 일괄 처리하고, 작업을 예약하는 방법에 대한 단계별 자습서입니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

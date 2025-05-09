@@ -1,14 +1,16 @@
 ---
-title: Excel'de Adlandırılmış Aralığı Kaldır
-linktitle: Excel'de Adlandırılmış Aralığı Kaldır
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: .NET için Aspose.Cells'i kullanarak Excel'de adlandırılmış aralıkların nasıl kaldırılacağını ayrıntılı adım adım talimatlarla öğrenin.
-weight: 11
-url: /tr/net/excel-managing-named-ranges/remove-named-range/
+"description": ".NET için Aspose.Cells'i kullanarak Excel'de adlandırılmış aralıkların nasıl kaldırılacağını ayrıntılı adım adım talimatlarla öğrenin."
+"linktitle": "Excel'de Adlandırılmış Aralığı Kaldır"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Adlandırılmış Aralığı Kaldır"
+"url": "/tr/net/excel-managing-named-ranges/remove-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Adlandırılmış Aralığı Kaldır
@@ -24,9 +26,9 @@ Gerçek kodlamaya geçmeden önce, yerinde olması gereken birkaç şey var:
 
 Aspose.Cells for .NET ile sorunsuz bir şekilde çalışmak için aşağıdakilere sahip olduğunuzdan emin olun:
 
-1.  Visual Studio: Visual Studio'yu indirin ve kurun (Community Edition gayet iyidir)[Visual Studio web sitesi](https://visualstudio.microsoft.com/).
+1. Visual Studio: Visual Studio'yu indirin ve kurun (Community Edition gayet iyidir) [Visual Studio web sitesi](https://visualstudio.microsoft.com/).
 2. .NET Framework: .NET Framework'ün uygun bir sürümünü kullandığınızdan emin olun. Aspose.Cells, .NET Framework 4.0 ve üzerini destekler.
-3. Aspose.Cells Kütüphanesi: Uygulamanızda Aspose.Cells for .NET kütüphanesini indirmeniz ve başvurmanız gerekir. İndirilebilir paketi bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells Kütüphanesi: Uygulamanızda Aspose.Cells for .NET kütüphanesini indirmeniz ve başvurmanız gerekir. İndirilebilir paketi bulabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 
 ### C#'ın Temel Anlayışı
 
@@ -58,7 +60,7 @@ Bu kurulum, Excel sayfalarını kolayca düzenleyebilmeniz için Aspose.Cells ta
 string outputDir = "Your Document Directory Here\\";
 ```
 
- Yer değiştirmek`"Your Document Directory Here\\"`Dosyanızı kaydetmek istediğiniz bilgisayarınızdaki yolu yazın.
+Yer değiştirmek `"Your Document Directory Here\\"` Dosyanızı kaydetmek istediğiniz bilgisayarınızdaki yolu yazın.
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturma
 
@@ -138,7 +140,7 @@ Bu adımda E12 hücresine "Test" kelimesini, I12 hücresine ise 123 sayısını 
 Anlatmak istediğimizi daha iyi açıklamak için birincisine benzer bir adlandırılmış aralık daha oluşturacağız.
 
 ```csharp
-//Başka bir hücre aralığı oluşturun.
+// Başka bir hücre aralığı oluşturun.
 Range range2 = worksheet.Cells.CreateRange("B3", "F3");
 
 // Aralığa bir isim verin.
@@ -213,16 +215,18 @@ Aspose.Cells, Excel dosyalarını program aracılığıyla düzenlemek için tas
 Evet, adlandırılmış aralıklar koleksiyonunda döngü oluşturabilir ve gerektiğinde bunları kaldırabilirsiniz.
 
 ### Deneme sürümü mevcut mu?
- Evet, Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells hangi programlama dillerini destekliyor?
 Başlıca .NET dillerini (C# ve VB.NET dahil) destekler.
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Ziyaret edebilirsiniz[Aspose destek forumu](https://forum.aspose.com/c/cells/9) Herhangi bir sorunuz varsa yardım için.
+Ziyaret edebilirsiniz [Aspose destek forumu](https://forum.aspose.com/c/cells/9) Herhangi bir sorunuz varsa yardım için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

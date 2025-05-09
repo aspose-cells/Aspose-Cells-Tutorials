@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Deseja extrair e gerenciar comentários encadeados de arquivos do Excel com eficiência usando Java? Como muitos desenvolvedores sabem, lidar com dados do Excel, especialmente comentários encadeados, pode ser complexo. Este tutorial orienta você na leitura de comentários encadeados associados a células específicas usando a poderosa biblioteca Aspose.Cells para Java.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando e configurando o Aspose.Cells para Java.
 - Instruções passo a passo sobre como extrair comentários encadeados de uma planilha do Excel.
 - Aplicações práticas desse recurso em cenários do mundo real.
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parâmetros e Métodos
 - **Livro de exercícios**: Representa todo o arquivo do Excel.
-- **Folha de exercícios**: refere-se a uma única planilha dentro da pasta de trabalho.
+- **Folha de exercícios**refere-se a uma única planilha dentro da pasta de trabalho.
 - **Coleção de comentários encadeados**Uma coleção de comentários associados a uma célula.
 
 ## Aplicações práticas
@@ -148,6 +150,9 @@ Pronto para se aprofundar? Experimente implementar esta solução nos seus próp
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

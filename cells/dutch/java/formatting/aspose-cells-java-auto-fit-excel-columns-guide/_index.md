@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Laten we uw gegevensbeheerproces stroomlijnen!
 Voordat u begint, moet u ervoor zorgen dat aan de volgende vereisten is voldaan:
 
 - **Bibliotheken en afhankelijkheden**: Installeer Aspose.Cells voor Java. Wij raden versie 25.3 aan.
-- **Omgevingsinstelling**Stel uw ontwikkelomgeving in met Java JDK en een IDE zoals IntelliJ IDEA of Eclipse.
+- **Omgevingsinstelling**: Stel uw ontwikkelomgeving in met Java JDK en een IDE zoals IntelliJ IDEA of Eclipse.
 - **Kennisvereisten**:Een basiskennis van Java-programmeerconcepten is nuttig.
 
 ### Aspose.Cells instellen voor Java
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells is een commerciële bibliotheek, maar u kunt de mogelijkheden ervan verkennen via:
 - **Gratis proefperiode**: Download de proefversie om de functies te testen.
-- **Tijdelijke licentie**: Vraag een tijdelijke licentie aan voor uitgebreide tests.
+- **Tijdelijke licentie**Vraag een tijdelijke licentie aan voor uitgebreide tests.
 - **Aankoop**: Koop een licentie voor volledige toegang en ondersteuning.
 
 Nadat u uw licentiebestand hebt verkregen, initialiseert u Aspose.Cells als volgt:
@@ -104,7 +106,7 @@ worksheet.autoFitColumn(4, 4, 6);
 
 #### Een Excel-werkmap opslaan
 
-**Overzicht**: Nadat u de wijzigingen hebt aangebracht, slaat u de werkmap weer op schijf op in de door u gewenste indeling.
+**Overzicht**Nadat u de wijzigingen hebt aangebracht, slaat u de werkmap weer op schijf op in de door u gewenste indeling.
 
 **Stap 4: Sla de gewijzigde werkmap op**
 ```java
@@ -118,7 +120,7 @@ workbook.save(outDir + "AutoFitColumnsinaRangeofCells_out.xls", SaveFormat.EXCEL
 
 - **Gegevensrapportage**: Pas automatisch de kolombreedtes aan voor een duidelijkere presentatie van gegevens in bedrijfsrapporten.
 - **Voorraadbeheer**: Zorg ervoor dat productlijsten overzichtelijk zijn opgemaakt, zonder handmatige aanpassingen.
-- **Financiële analyse**Lijn financiële cijfers op alle werkbladen uit voor nauwkeurigere analyses en presentaties.
+- **Financiële analyse**: Lijn financiële cijfers op alle werkbladen uit voor nauwkeurigere analyses en presentaties.
 
 Door Aspose.Cells te integreren met databases of CRM-systemen kunt u uw workflow verder stroomlijnen, zodat Excel-bestanden uit deze bronnen automatisch worden bijgewerkt.
 
@@ -160,6 +162,9 @@ Door de auto-fitfunctie in Aspose.Cells voor Java onder de knie te krijgen, besc
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

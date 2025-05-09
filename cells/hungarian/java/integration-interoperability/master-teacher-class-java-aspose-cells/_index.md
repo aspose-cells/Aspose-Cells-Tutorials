@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ teljesítmény optimalizálása kulcsfontosságú, különösen a nagy adathalma
 
 ## Következtetés
 
-Az útmutató követésével megtanultad, hogyan kell megvalósítani egy `Teacher` osztály, amely kinyúlik `Person`, hatékonyan kezelheti a hallgatói listákat, és integrálhatja az Aspose.Cells for Java-t. Ez az alap lehetővé teszi a bővítést az oktatási adatkezelést magában foglaló összetettebb alkalmazások felé.
+Az útmutató követésével megtanultad, hogyan kell megvalósítani egy `Teacher` osztály, amely innen nyúlik ki `Person`, hatékonyan kezelheti a hallgatói listákat, és integrálhatja az Aspose.Cells for Java-t. Ez az alap lehetővé teszi a bővítést az oktatási adatkezelést magában foglaló összetettebb alkalmazások felé.
 
 **Következő lépések**Fedezze fel az Aspose.Cells további képességeit, vagy finomítsa az osztályszerkezeteket további funkciókkal, például az ütemtervek vagy az értékelések kezelésével.
 
@@ -138,7 +140,7 @@ Az útmutató követésével megtanultad, hogyan kell megvalósítani egy `Teach
    - Győződjön meg arról, hogy minden függőség megfelelően hozzáadva van, és a licencek megfelelően vannak konfigurálva.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 - [Ingyenes próbaverzió információi](https://releases.aspose.com/cells/java/)
@@ -149,6 +151,9 @@ Ezen koncepciók elsajátításával és az Aspose.Cells használatával felkés
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

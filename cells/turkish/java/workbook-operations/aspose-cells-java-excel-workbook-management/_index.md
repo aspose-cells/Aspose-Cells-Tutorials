@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - **Java için Aspose.Cells** Bu eğitim için 25.3 veya üzeri sürüm gereklidir.
 
 ### Çevre Kurulum Gereksinimleri
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Java kodunuzu yazmak ve çalıştırmak için IntelliJ IDEA veya Eclipse gibi bir IDE.
 
 ### Bilgi Önkoşulları
@@ -217,6 +219,9 @@ Daha derine dalmaya hazır mısınız? Bu çözümleri bugün projelerinizde uyg
 Keyifli kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

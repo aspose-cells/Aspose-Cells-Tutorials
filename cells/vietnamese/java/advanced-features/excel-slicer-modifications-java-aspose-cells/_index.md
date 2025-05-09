@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Sẵn sàng để tìm hiểu sâu hơn? Hãy thử áp dụng các kỹ thuật
    - Chỉ xử lý dữ liệu cần thiết, sử dụng luồng để xử lý tệp và tối ưu hóa cấu hình bộ lọc để giảm tính toán lại.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-operations/set-ods-colored-background/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Colored Background in ODS File
@@ -103,9 +105,11 @@ You can download it from the [Aspose.Cells download page](https://releases.aspos
 Absolutely! You can get a free trial of Aspose.Cells from the [Aspose.Cells trial page](https://releases.aspose.com/).
 ### What types of files can I create with Aspose.Cells?
 You can create various spreadsheet formats, including XLSX, XLS, ODS, and many more.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

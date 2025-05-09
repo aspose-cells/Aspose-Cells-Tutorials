@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@
 ### [ตรวจจับรูปทรง SmartArt ในไฟล์ Excel โดยใช้ Aspose.Cells สำหรับ Java](./detect-smartart-shapes-excel-aspose-cells-java/)
 เรียนรู้วิธีการตรวจจับรูปทรง SmartArt ในไฟล์ Excel อย่างมีประสิทธิภาพโดยใช้ Aspose.Cells สำหรับ Java คู่มือนี้ครอบคลุมถึงการตั้งค่า การนำไปใช้งาน และแอปพลิเคชันในทางปฏิบัติ
 
-### [วิธีการปรับระยะขอบรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ Java](./excel-aspose-cells-java-shape-margins/)
+### [วิธีปรับระยะขอบรูปร่างใน Excel โดยใช้ Aspose.Cells สำหรับ Java](./excel-aspose-cells-java-shape-margins/)
 เรียนรู้วิธีการใช้ Aspose.Cells สำหรับ Java เพื่อปรับระยะขอบรูปร่างและการจัดแนวข้อความใน Excel เพื่อปรับปรุงการนำเสนอเอกสารอย่างมีประสิทธิภาพ
 
 ### [การส่งออกแถบข้อมูล Excel เป็นรูปภาพด้วย Aspose.Cells Java](./export-excel-data-bars-images-aspose-cells-java/)
@@ -141,6 +143,9 @@
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ In deze handleiding hebt u geleerd hoe u de brongegevens van een draaitabel kunt
 Met deze bronnen en deze uitgebreide handleiding bent u nu in staat om wijzigingen in de brongegevens van draaitabellen effectief te verwerken met Aspose.Cells in Java. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ System.out.println("Total Pages in First Worksheet: " + pageCount);
 ```
 
 ### Felsökningstips
-- Se till att din arbetsboks sökväg är korrekt.
+- Se till att din arbetsboks filsökväg är korrekt.
 - Kontrollera att du använder en kompatibel version av Aspose.Cells.
 - Dubbelkolla utskriftsinställningarna om sidantalet verkar felaktigt.
 
@@ -195,6 +197,9 @@ A5: Ja, Aspose.Cells kan enkelt integreras i projekt med Maven eller Gradle, vil
 - **Stöd**: [Aspose Community Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

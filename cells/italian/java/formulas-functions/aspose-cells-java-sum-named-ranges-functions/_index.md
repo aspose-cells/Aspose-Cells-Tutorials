@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Questo tutorial ha illustrato come utilizzare intervalli denominati con le funzi
 Questo tutorial offre una comprensione completa dell'implementazione di intervalli denominati e funzioni di somma utilizzando Aspose.Cells per Java. Provalo per sfruttare appieno il potenziale dell'automazione di Excel nelle tue applicazioni!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

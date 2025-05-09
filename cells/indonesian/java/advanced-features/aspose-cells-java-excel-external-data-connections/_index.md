@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Dalam dunia yang digerakkan oleh data saat ini, mengelola koneksi data eksternal secara efisien dalam buku kerja Excel sangat penting untuk integrasi dan analisis data yang lancar. Tutorial ini akan memandu Anda menggunakan pustaka Aspose.Cells yang canggih untuk mengekstrak dan mengelola koneksi ini dengan mudah. Kami akan membahas semuanya mulai dari menyiapkan lingkungan Anda hingga menerapkan aplikasi praktis dari fitur ini.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Cara mengambil koneksi data eksternal dari buku kerja Excel menggunakan Aspose.Cells untuk Java.
 - Mengekstrak informasi terperinci tentang setiap koneksi, termasuk detail dan parameter basis data.
 - Kasus penggunaan praktis dan kemungkinan integrasi dengan sistem lain.
@@ -23,14 +25,14 @@ Dalam dunia yang digerakkan oleh data saat ini, mengelola koneksi data eksternal
 
 Dengan panduan lengkap ini, Anda akan memperoleh keterampilan yang dibutuhkan untuk mengelola koneksi data secara efektif. Mari kita mulai!
 
-### Prasyarat
+### Előfeltételek
 
-Sebelum terjun ke implementasi, pastikan Anda memiliki hal berikut:
+Mielőtt belevágna a megvalósításba, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-#### Perpustakaan yang Diperlukan
+#### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**: Anda memerlukan versi 25.3 atau yang lebih baru. Pustaka ini penting untuk menangani file Excel dan koneksi data eksternalnya.
 
-#### Pengaturan Lingkungan
+#### Környezet beállítása
 - Pastikan lingkungan pengembangan Anda mendukung alat pembangunan Maven atau Gradle.
 - Kemampuan dalam konsep pemrograman Java akan sangat membantu.
 
@@ -39,7 +41,7 @@ Sebelum terjun ke implementasi, pastikan Anda memiliki hal berikut:
 Untuk memulai, Anda perlu menyertakan pustaka Aspose.Cells dalam proyek Anda. Berikut caranya:
 
 **Instalasi Maven:**
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,34 +51,34 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 **Instalasi Gradle:**
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**Mulailah dengan uji coba gratis untuk menjelajahi kemampuan perpustakaan.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk pengujian lanjutan.
-- **Pembelian**:Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi.
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**Mulailah dengan uji coba gratis untuk menjelajahi kemampuan perpustakaan.
+- **Ideiglenes engedély**: Szerezzen be ideiglenes engedélyt meghosszabbított tesztelésre.
+- **Vásárlás**:Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi.
 
-**Inisialisasi dan Pengaturan Dasar**
+**Alapvető inicializálás és beállítás**
 Setelah Anda menambahkan dependensi, Anda dapat menginisialisasi Aspose.Cells di aplikasi Java Anda:
 ```java
 import com.aspose.cells.Workbook;
 
-// Memuat buku kerja Excel
+// Excel-munkafüzet betöltése
 Workbook workbook = new Workbook("path_to_your_excel_file.xlsx");
 ```
 
-### Panduan Implementasi
+### Megvalósítási útmutató
 
 #### Fitur 1: Mengambil Koneksi Data Eksternal
 
-**Ringkasan:** Fitur ini memungkinkan Anda mencantumkan semua koneksi data eksternal dalam buku kerja Excel. Memahami koneksi ini adalah kunci untuk mengelola cara data Anda terintegrasi dengan sistem lain.
+**Áttekintés:** Fitur ini memungkinkan Anda mencantumkan semua koneksi data eksternal dalam buku kerja Excel. Memahami koneksi ini adalah kunci untuk mengelola cara data Anda terintegrasi dengan sistem lain.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 
-##### Langkah 1: Muat Buku Kerja Anda
+##### 1. lépés: A munkafüzet betöltése
 ```java
 String sourceDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(sourceDir + "/sampleRetrievingSQLConnectionData.xlsx");
@@ -94,9 +96,9 @@ Di sini, kami mengakses semua koneksi data eksternal dan menentukan jumlahnya.
 
 #### Fitur 2: Mengekstrak Detail Koneksi Basis Data
 
-**Ringkasan:** Bagian ini berfokus pada pengambilan dan tampilan informasi terperinci dari setiap objek koneksi basis data (DBConnection).
+**Áttekintés:** Bagian ini berfokus pada pengambilan dan tampilan informasi terperinci dari setiap objek koneksi basis data (DBConnection).
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 
 ##### Langkah 1: Koneksi Loop
 ```java
@@ -118,9 +120,9 @@ Loop ini memeriksa apakah suatu objek adalah `DBConnection` dan mengekstrak info
 
 #### Fitur 3: Mengekstrak Detail Parameter Koneksi
 
-**Ringkasan:** Di sini, Anda akan belajar mengakses parameter koneksi terperinci untuk setiap koneksi basis data.
+**Áttekintés:** Di sini, Anda akan belajar mengakses parameter koneksi terperinci untuk setiap koneksi basis data.
 
-**Langkah-langkah Implementasi:**
+**Megvalósítási lépések:**
 
 ##### Langkah 1: Akses Parameter
 ```java
@@ -146,35 +148,35 @@ for (int i = 0; i < connectionCount; i++) {
 ```
 Langkah ini mengulangi parameter koneksi, mengekstrak dan mencetak masing-masing parameter.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
-1. **Integrasi Data**: Secara otomatis menyinkronkan data Excel Anda dengan database eksternal.
-2. **Pelaporan Otomatis**: Tingkatkan pembuatan laporan dengan menarik data langsung dari berbagai sumber.
+1. **Adatintegráció**: Secara otomatis menyinkronkan data Excel Anda dengan database eksternal.
+2. **Automatizált jelentéskészítés**: Tingkatkan pembuatan laporan dengan menarik data langsung dari berbagai sumber.
 3. **Pemantauan Sistem**Melacak perubahan dalam koneksi basis data untuk pemeriksaan kesehatan sistem.
-4. **Validasi Data**: Validasi data eksternal sebelum mengimpornya ke aplikasi Anda.
+4. **Adatérvényesítés**: Validasi data eksternal sebelum mengimpornya ke aplikasi Anda.
 
-### Pertimbangan Kinerja
+### Teljesítménybeli szempontok
 
-Saat bekerja dengan Aspose.Cells, pertimbangkan kiat kinerja berikut:
+Az Aspose.Cells használatakor vegye figyelembe az alábbi teljesítménynövelő tippeket:
 - Minimalkan jumlah kali Anda memuat dan memanipulasi file Excel berukuran besar untuk mengurangi penggunaan memori.
 - Gunakan konstruksi perulangan yang efisien dan batasi operasi dalam perulangan jika memungkinkan.
 - Memanfaatkan fitur manajemen memori Java untuk mengoptimalkan alokasi sumber daya.
 
-### Kesimpulan
+### Következtetés
 
 Sekarang, Anda seharusnya sudah siap untuk menangani koneksi data eksternal di buku kerja Excel menggunakan Aspose.Cells untuk Java. Kemampuan ini sangat berharga untuk aplikasi yang memerlukan integrasi dan analisis data yang kuat. Terus jelajahi fitur-fitur Aspose.Cells yang lengkap untuk lebih menyempurnakan aplikasi Java Anda.
 
-**Langkah Berikutnya:** Pertimbangkan untuk mengintegrasikan fungsi ini ke dalam proyek yang lebih besar atau menjelajahi fitur tambahan dari pustaka Aspose.Cells.
+**Következő lépések:** Pertimbangkan untuk mengintegrasikan fungsi ini ke dalam proyek yang lebih besar atau menjelajahi fitur tambahan dari pustaka Aspose.Cells.
 
-### Bagian FAQ
+### GYIK szekció
 
-1. **Apa itu Aspose.Cells?**
+1. **Mi az Aspose.Cells?**
    - Pustaka Java yang canggih untuk mengelola file Excel, termasuk membaca, menulis, dan memodifikasinya.
    
-2. **Bagaimana cara menangani file Excel besar dengan Aspose.Cells?**
+2. **Hogyan kezelhetek nagy Excel fájlokat az Aspose.Cells segítségével?**
    - Optimalkan dengan meminimalkan penggunaan memori dan teknik penanganan data yang efisien.
 
-3. **Bisakah saya menggunakan Aspose.Cells tanpa lisensi?**
+3. **Használhatom az Aspose.Cells-t licenc nélkül?**
    - Ya, tetapi ada batasannya. Pertimbangkan untuk mendapatkan lisensi sementara atau penuh untuk kemampuan yang lebih luas.
 
 4. **Apa saja kesalahan umum saat menggunakan Aspose.Cells?**
@@ -183,18 +185,21 @@ Sekarang, Anda seharusnya sudah siap untuk menangani koneksi data eksternal di b
 5. **Bagaimana Aspose.Cells mendukung integrasi Java?**
    - Ia menyediakan API tangguh yang terintegrasi secara mulus dengan aplikasi Java, memungkinkan manipulasi file Excel yang efisien.
 
-### Sumber daya
+### Erőforrás
 
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh Versi Terbaru](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Akses Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Informasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Legújabb verzió letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély információk](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah mengintegrasikan dan mengelola koneksi data Excel Anda hari ini dengan Aspose.Cells untuk Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

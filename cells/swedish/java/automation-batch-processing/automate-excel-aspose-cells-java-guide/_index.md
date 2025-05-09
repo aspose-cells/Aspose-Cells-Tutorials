@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ Låt oss bryta ner varje funktion och utforska dess implementering.
     ```
    *Förklaring*Den här koden ställer in texten "Hej Aspose!" i cell A1, vilket demonstrerar direkt cellmanipulation.
 
-### Använda överstruken effekt på teckensnitt
+### Använda överstrukningseffekt på teckensnitt
 
 **Översikt**Förbättra ditt Excel-dokuments utseende genom att använda olika teckensnitt programmatiskt.
 
@@ -192,6 +194,9 @@ Den här guiden guidade dig genom viktiga funktioner i Aspose.Cells för Java oc
 Genom att följa den här guiden är du väl rustad för att automatisera Excel-uppgifter med Aspose.Cells för Java. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Descubra como manipular intervalos de células com eficiência no Excel com nossos tutoriais Java abrangentes do Aspose.Cells. Estes guias passo a passo ensinam como selecionar, copiar, mover e formatar várias células simultaneamente, implementar cálculos baseados em intervalos e automatizar operações entre blocos de células. Cada tutorial fornece exemplos práticos de código Java para tarefas comuns de manipulação de intervalos, ajudando você a criar aplicativos mais eficientes que podem processar dados de planilhas em massa, em vez de célula por célula.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de gerenciamento de intervalo
 - Implementação passo a passo com exemplos de código completos
@@ -93,6 +95,9 @@ Aprenda a desfazer a mesclagem de células em arquivos do Excel com eficiência 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

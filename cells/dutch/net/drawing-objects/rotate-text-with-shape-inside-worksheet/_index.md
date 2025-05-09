@@ -1,51 +1,56 @@
 ---
-title: Verander de tekst-aangestelling van de vorm in Excel met behulp van Aspose.Cells
-weight: 7700
-limit: 
-description: Leer hoe je tekst in een vorm in een Excel-werkblad kunt manipuleren met behulp van Aspose.Cells voor .NET. Stel tekst-aangrijpende eigenschappen in en bewaar het gewijzigde werkboek.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /nl/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Leer hoe u tekst in een vorm in een Excel-werkblad kunt bewerken met Aspose.Cells voor .NET. Stel de tekstuitlijningseigenschappen in en sla de gewijzigde werkmap op."
+"title": "Wijzig de uitlijning van vormtekst in Excel met Aspose.Cells"
+"url": "/nl/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verander de tekst-aangestelling van de vorm in Excel met behulp van Aspose.Cells
+# Wijzig de uitlijning van vormtekst in Excel met Aspose.Cells
 
-Deze handleiding toont hoe je de tekstalinitie binnen een vorm in een Excel- werkblad kunt wijzigen met behulp van Aspose.Cells voor .NET. Door de krachtige functies van Aspose.Cells te gebruiken, kunt u voorkomen dat tekst met een vorm rotatie en tekstalinitie-eigenschappen aanpassen. Het voorbeeld leidt u door een Excel-bestand te laden, een werkblad te bezoeken, tekst in een vorm te wijzigen en het bijgewerkte werkboek te bewaren. Of u nu rapporten automatisert, sjablonen maakt of Excel-visuele oplossingen aanpast, deze stap- voor-stapgids maakt het eenvoudig.  
+Deze tutorial laat zien hoe u de tekstuitlijning binnen een vorm in een Excel-werkblad kunt aanpassen met Aspose.Cells voor .NET. Door gebruik te maken van de krachtige functies van Aspose.Cells kunt u voorkomen dat tekst met een vorm meedraait en de eigenschappen van de tekstuitlijning aanpassen. Het voorbeeld begeleidt u bij het laden van een Excel-bestand, het openen van een werkblad, het wijzigen van tekst in een vorm en het opslaan van de bijgewerkte werkmap. Of u nu rapporten automatiseert, sjablonen maakt of Excel-visuals aanpast, deze stapsgewijze handleiding maakt het eenvoudig.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installatiebepalingen:  
+## Installatie-instructies:  
 
-Om Aspose.Cells voor .NET in uw project te gebruiken, volg deze stappen:  
+Volg deze stappen om Aspose.Cells voor .NET in uw project te gebruiken:  
 
-1. Installeer via NuGet Package Manager:  
-   * Open Visual Studio.  
-   * Ga naar Tools → NuGet Package Manager → NuGet Packages voor Solution beheren.  
-   * Zoek naar Aspose.Cells en installeer de nieuwste versie.  
+1. Installeren via NuGet Package Manager:  
+   - Visual Studio openen.  
+   - Ga naar Extra → NuGet-pakketbeheer → NuGet-pakketten beheren voor oplossing.  
+   - Zoek naar Aspose.Cells en installeer de nieuwste versie.  
 
-2. Installeer via de pakketmanagerconsole:  
-   * Open Pakket Manager Console in Visual Studio.  
-   * Voer het commando uit:  
+2. Installeren via Package Manager Console:  
+   - Open de Package Manager Console in Visual Studio.  
+   - Voer de opdracht uit:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Download van Aspose website:  
-   * Download de nieuwste versie van [Aspose.Cells voor .NET Download](https://releases.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-   * Voeg de DLL toe aan uw projectreferenties.  
+3. Downloaden van Aspose-website:  
+   - Download de nieuwste versie van [Aspose.Cells voor .NET downloaden](https://releases.aspose.com/cells/net/).  
+   - Voeg de DLL toe aan uw projectverwijzingen.  
 
 ## Zie ook  
-Om een vergunning te kopen, ga naar [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-Voor volledige documentatie, bezoek [Aspose.Cells voor .NET Documentatie](https://docs.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-Voor de volledige API-referentie, bekijk [Aspose.Cells voor .NET API Reference](https://reference.aspose.com/cells/net/)\- Ik heb het niet gedaan . 
+Om een licentie te kopen, ga naar [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+Voor volledige documentatie, bezoek [Aspose.Cells voor .NET-documentatie](https://docs.aspose.com/cells/net/).  
+Voor de volledige API-referentie kunt u terecht op [Aspose.Cells voor .NET API-referentie](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

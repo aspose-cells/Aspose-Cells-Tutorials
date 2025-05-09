@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ public class Main {
         // Utwórz nową instancję skoroszytu
         Workbook workbook = new Workbook();
         
-        // Teraz możesz już pracować nad skoroszytem!
+        // Teraz możesz rozpocząć pracę ze skoroszytem!
     }
 }
 ```
@@ -202,6 +204,9 @@ Aby zagłębić się w możliwości Aspose.Cells, rozważ zbadanie bardziej zaaw
    - Tak, możesz ręcznie pobrać i dodać pliki JAR do ścieżki klas swojego projektu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Bu eğitimin sonunda Excel görevlerinizi kolaylıkla otomatikleştireceksiniz. 
 ### Ön koşullar
 
 Başlamadan önce şunlara sahip olduğunuzdan emin olun:
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - Java programlamanın temel bilgisi.
 - IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
 
@@ -220,6 +222,9 @@ Becerilerinizi daha da ileri götürmeye hazır mısınız? Bu çözümü bugün
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

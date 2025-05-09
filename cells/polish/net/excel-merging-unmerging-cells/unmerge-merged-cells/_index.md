@@ -1,14 +1,16 @@
 ---
-title: Rozdzielanie połączonych komórek w programie Excel
-linktitle: Rozdzielanie połączonych komórek w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Łatwe rozdzielanie połączonych komórek w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby tworzyć lepsze arkusze kalkulacyjne.
-weight: 10
-url: /pl/net/excel-merging-unmerging-cells/unmerge-merged-cells/
+"description": "Łatwe rozdzielanie połączonych komórek w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby tworzyć lepsze arkusze kalkulacyjne."
+"linktitle": "Rozdzielanie połączonych komórek w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Rozdzielanie połączonych komórek w programie Excel"
+"url": "/pl/net/excel-merging-unmerging-cells/unmerge-merged-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozdzielanie połączonych komórek w programie Excel
@@ -25,7 +27,7 @@ Zanim zabierzemy się do pracy, jest kilka niezbędnych rzeczy, które musisz mi
 Jeśli znasz programowanie w C# i masz podstawową wiedzę na temat .NET Framework, to masz już dobry start. Jeśli nie, nie martw się! Ten samouczek został zaprojektowany tak, aby był prosty, więc po drodze poznasz niezbędne koncepcje.
 
 ### Biblioteka Aspose.Cells
-Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Możesz ją łatwo pobrać, odwiedzając[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
+Upewnij się, że biblioteka Aspose.Cells jest zainstalowana w środowisku .NET. Możesz ją łatwo pobrać, odwiedzając [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/).
 
 ### Konfiguracja IDE
 Powinieneś mieć przygotowane środowisko programistyczne, np. Visual Studio, w którym będziesz mógł pisać i wykonywać kod C#.
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory"; 
 ```
 
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką do Twoich plików.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką do Twoich plików.
 
 ## Krok 2: Utwórz skoroszyt
 
@@ -91,11 +93,11 @@ Ten kod pobiera pierwszy arkusz. Jeśli połączone komórki znajdują się na i
 Następnie musisz uzyskać odwołanie do komórek w arkuszu kalkulacyjnym. Można to zrobić za pomocą:
 
 ```csharp
-//Utwórz obiekt Cells, aby pobrać wszystkie komórki
+// Utwórz obiekt Cells, aby pobrać wszystkie komórki
 Cells cells = worksheet.Cells;
 ```
 
-Dzięki temu wierszowi masz teraz dostęp do wszystkich komórek w arkuszu kalkulacyjnym, co umożliwia Ci manipulowanie nimi według potrzeb.
+Dzięki temu wierszowi masz teraz dostęp do wszystkich komórek w arkuszu kalkulacyjnym, co pozwala Ci manipulować nimi według potrzeb.
 
 ## Krok 5: Rozdziel komórki
 
@@ -106,7 +108,7 @@ Oto kluczowy krok — rozłączenie komórek! Będziesz chciał określić zakre
 cells.UnMerge(5, 2, 2, 3);
 ```
 
- W tym przykładzie`UnMerge` Metoda przyjmuje cztery parametry: początkowy indeks wiersza (5), początkowy indeks kolumny (2), liczbę wierszy do rozłączenia (2) i liczbę kolumn do rozłączenia (3). Dostosuj te parametry, aby pasowały do konkretnych scalonych komórek w pliku Excel.
+W tym przykładzie `UnMerge` Metoda przyjmuje cztery parametry: początkowy indeks wiersza (5), początkowy indeks kolumny (2), liczbę wierszy do rozłączenia (2) i liczbę kolumn do rozłączenia (3). Dostosuj te parametry, aby pasowały do konkretnych scalonych komórek w pliku Excel.
 
 ## Krok 6: Zapisz skoroszyt
 
@@ -127,7 +129,7 @@ Na koniec, dobrym pomysłem jest potwierdzenie, że wszystko poszło gładko. Mo
 Console.WriteLine("UnMerging the Cells executed successfully.");
 ```
 
-masz! Udało Ci się rozdzielić komórki w pliku Excel przy użyciu Aspose.Cells dla .NET.
+I masz! Udało Ci się rozdzielić komórki w pliku Excel przy użyciu Aspose.Cells dla .NET.
 
 ## Wniosek
 
@@ -139,7 +141,7 @@ Rozdzielanie komórek może wydawać się żmudne, zwłaszcza jeśli masz do czy
 Aspose.Cells to potężna biblioteka służąca do tworzenia, modyfikowania i konwertowania dokumentów Excel w aplikacjach .NET.
 
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?  
- Chociaż Aspose.Cells oferuje bezpłatną wersję próbną, do pełnego wykorzystania wymagana jest licencja. Możesz uzyskać[tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/).
+Chociaż Aspose.Cells oferuje bezpłatną wersję próbną, do pełnego wykorzystania wymagana jest licencja. Możesz uzyskać [tymczasowa licencja tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Czy mogę rozdzielić komórki w wielu arkuszach jednocześnie?  
 Tak, możesz przechodzić przez wiele arkuszy w skoroszycie i w razie potrzeby rozdzielać komórki.
@@ -148,10 +150,12 @@ Tak, możesz przechodzić przez wiele arkuszy w skoroszycie i w razie potrzeby r
 Tak, Aspose.Cells jest kompatybilny z .NET Core, co czyni go wszechstronnym rozwiązaniem dla różnych aplikacji .NET.
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?  
- Pełną dokumentację można znaleźć na stronie[Strona referencyjna Aspose.Cells](https://reference.aspose.com/cells/net/).
+Pełną dokumentację można znaleźć na stronie [Strona referencyjna Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

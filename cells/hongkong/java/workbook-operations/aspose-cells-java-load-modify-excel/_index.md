@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "了解如何使用 Aspose.Cells for Java 有效地載入、存取和修改 Excel 工作簿。非常適合在 Java 應用程式中自動執行報表或整合 Excel 功能。"
+"description": "了解如何使用 Aspose.Cells for Java 有效地載入、存取和修改 Excel 工作簿。非常適合自動化報告或在 Java 應用程式中整合 Excel 功能。"
 "title": "掌握 Aspose.Cells for Java&#58;高效能載入和修改 Excel 工作簿"
 "url": "/zh-hant/java/workbook-operations/aspose-cells-java-load-modify-excel/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@
 
 ## 設定 Aspose.Cells for Java
 
-若要開始在 Java 專案中使用 Aspose.Cells，請將其新增為相依性。以下是使用 Maven 或 Gradle 執行此操作的方法：
+若要開始在 Java 專案中使用 Aspose.Cells，請將其新增為相依性。使用 Maven 或 Gradle 執行此操作的方法如下：
 
 **Maven：**
 ```xml
@@ -112,7 +114,7 @@ license.setLicense("Aspose.Cells.lic");
 
 #### 步驟：
 1. **載入工作簿和存取工作表/表格**：重複使用前面的步驟。
-2. **檢查 DataSourceType**：確定表格是否連結到查詢。
+2. **檢查DataSourceType**：確定表格是否連結到查詢。
    ```java
    import com.aspose.cells.TableDataSourceType;
 
@@ -149,7 +151,7 @@ Aspose.Cells for Java 可以在許多實際場景中使用，例如：
 ## 性能考慮
 
 為了確保在使用 Aspose.Cells 時獲得最佳性能，請考慮以下提示：
-- **記憶體管理**：利用 Java 的記憶體管理功能有效處理大型工作簿。
+- **記憶體管理**：利用 Java 的記憶體管理功能有效率地處理大型工作簿。
 - **批次處理**：如果處理大量資料集，則分批處理資料。
 - **最佳化演算法**：確保您的演算法高效並避免不必要的計算。
 
@@ -188,6 +190,9 @@ Aspose.Cells for Java 可以在許多實際場景中使用，例如：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamiczne tabele przestawne
@@ -107,9 +109,11 @@ Tak, można stosować filtry w tabelach przestawnych w celu wyświetlania okreś
 ### P5: Czy Aspose.Cells obsługuje zaawansowane funkcje tabeli przestawnej programu Excel?
 
 Tak, Aspose.Cells zapewnia szerokie wsparcie dla zaawansowanych funkcji tabel przestawnych programu Excel, umożliwiając tworzenie złożonych tabel przestawnych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 dzisiejszym środowisku zorientowanym na dane efektywne zarządzanie plikami Excela i ich analizowanie ma kluczowe znaczenie dla firm z różnych sektorów. Niezależnie od tego, czy jesteś analitykiem finansowym, specjalistą od analizy biznesowej, czy osobą, która uwielbia skrupulatnie organizować dane, obsługa złożonych plików Excela może być trudna. Ten kompleksowy przewodnik wyjaśnia, jak bez wysiłku załadować skoroszyt Excela i uzyskać dostęp do obszarów referencyjnych w nazwanych zakresach za pomocą Aspose.Cells w Javie.
 
 **Czego się nauczysz:**
-- Tworzenie wystąpienia obiektu Workbook i otwieranie pliku Excel za pomocą Aspose.Cells dla Java.
+- Tworzenie instancji obiektu Workbook i otwieranie pliku Excel za pomocą Aspose.Cells dla Java.
 - Techniki pobierania obszarów odniesionych z nazwanych zakresów w plikach Excela.
 - Wskazówki dotyczące sprawdzania linków zewnętrznych w obrębie tych obszarów.
 - Najlepsze praktyki integrowania Aspose.Cells z istniejącymi systemami.
@@ -193,6 +195,9 @@ W tym samouczku dowiedziałeś się, jak załadować skoroszyt programu Excel za
 - [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

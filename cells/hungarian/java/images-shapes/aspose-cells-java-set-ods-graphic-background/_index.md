@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,7 +184,7 @@ A3: A Java ImageIO osztálya által támogatott bármely képformátum használh
 V5: Az ingyenes próbaverzió értékelési vízjeleket és használati korlátokat tartalmaz, amelyek licenc megvásárlásával feloldhatók.
 
 ## Erőforrás
-- **Dokumentáció:** [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
@@ -192,6 +194,9 @@ V5: Az ingyenes próbaverzió értékelési vízjeleket és használati korláto
 Kezdj el vizuálisan lenyűgöző ODS fájlokat készíteni az Aspose.Cells segítségével még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

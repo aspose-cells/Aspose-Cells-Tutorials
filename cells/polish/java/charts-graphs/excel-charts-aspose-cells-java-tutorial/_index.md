@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ import com.aspose.cells.*;
 
 public class ChartExample {
     public static void main(String[] args) throws Exception {
-        // Utwórz wystąpienie skoroszytu.
+        // Utwórz instancję Skoroszytu.
         Workbook workbook = new Workbook();
         
         // Twój kod wpisz tutaj...
@@ -225,6 +227,9 @@ A4: Użyj wstępnie zdefiniowanych identyfikatorów stylów lub utwórz style ni
 A5: Optymalizacja zakresów danych, minimalizacja złożoności wykresów i efektywne zarządzanie pamięcią poprzez usuwanie obiektów, gdy nie są potrzebne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,6 +118,9 @@ Sie verfügen nun über die Tools, um Excel-Dateien mit Aspose.Cells für Java i
 Tauchen Sie mit Aspose.Cells mühelos in die Welt der Excel-Konvertierungen ein und verändern Sie die Art und Weise, wie Sie Daten teilen und verwalten!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

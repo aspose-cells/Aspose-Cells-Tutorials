@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ Stili çalışma sayfanızın ilk sütununa uygulayın.
 
 ### Performans Hususları
 
-- **Bellek Kullanımını Optimize Edin:** Tekrar kullan `Style` Mümkün olduğunda her hücre veya satır için yeni nesneler oluşturmak yerine.
+- **Bellek Kullanımını Optimize Edin:** Tekrar kullan `Style` Mümkün olduğunda her hücre veya satır için yeni nesneler oluşturmak yerine, nesneleri silin.
 - **Toplu İşleme:** Performansı artırmak için stilleri tek tek uygulamak yerine toplu olarak (örneğin satırlar, sütunlar) uygulayın.
 - **Verimli Veri Yapıları:** Büyük veri kümelerini verimli bir şekilde yönetmek için uygun veri yapılarını kullanın.
 
@@ -174,6 +176,9 @@ Artık Aspose.Cells for Java kullanarak sayı ve özel tarih biçimlerinin nası
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

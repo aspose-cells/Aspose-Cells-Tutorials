@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,6 +224,9 @@ public class ConvertToGroupShape {
 Ακολουθώντας αυτόν τον οδηγό, μπορείτε να διαχειριστείτε και να μετατρέψετε αποτελεσματικά γραφικά SmartArt στο Excel χρησιμοποιώντας Java με Aspose.Cells. Αυτή η δεξιότητα θα βελτιώσει σημαντικά την ικανότητά σας να αυτοματοποιείτε πολύπλοκες εργασίες σε έγγραφα Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

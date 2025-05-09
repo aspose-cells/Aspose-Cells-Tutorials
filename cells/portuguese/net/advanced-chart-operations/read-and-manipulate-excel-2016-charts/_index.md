@@ -1,36 +1,38 @@
 ---
-title: Ler e manipular gráficos do Excel 2016
-linktitle: Ler e manipular gráficos do Excel 2016
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Aprenda a ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET com este guia passo a passo.
-weight: 13
-url: /pt/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
+"description": "Aprenda a ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET com este guia passo a passo."
+"linktitle": "Ler e manipular gráficos do Excel 2016"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Ler e manipular gráficos do Excel 2016"
+"url": "/pt/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ler e manipular gráficos do Excel 2016
 
 ## Introdução
 
-O Excel é uma ferramenta poderosa para visualização e apresentação de dados, mas manipular gráficos programaticamente pode ser bem complexo. É aí que o Aspose.Cells para .NET vem para o resgate! Esta biblioteca robusta permite que os desenvolvedores criem, leiam e manipulem arquivos do Excel perfeitamente. Neste tutorial, vamos nos aprofundar em como ler e manipular gráficos do Excel 2016 usando o Aspose.Cells, tornando o processo direto e eficiente.
+Excel é uma ferramenta poderosa para visualização e apresentação de dados, mas manipular gráficos programaticamente pode ser bastante complexo. É aí que o Aspose.Cells para .NET vem ao resgate! Esta biblioteca robusta permite que desenvolvedores criem, leiam e manipulem arquivos do Excel sem problemas. Neste tutorial, vamos nos aprofundar em como ler e manipular gráficos do Excel 2016 usando o Aspose.Cells, tornando o processo simples e eficiente.
 
 ## Pré-requisitos
 
-Antes de pularmos para o código, vamos garantir que você esteja tudo pronto. Aqui estão os pré-requisitos que você precisará:
+Antes de começarmos a usar o código, vamos garantir que você esteja com tudo pronto. Aqui estão os pré-requisitos necessários:
 
-1.  Aspose.Cells para .NET: Você deve ter esta biblioteca instalada. Se você ainda não o fez, você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
-2. .NET Framework: Certifique-se de ter o .NET Framework instalado em seu ambiente de desenvolvimento. O Aspose.Cells suporta múltiplos frameworks, então verifique a compatibilidade.
-3. IDE: Use um IDE como o Visual Studio para escrever e executar seu código. 
+1. Aspose.Cells para .NET: Você precisa ter esta biblioteca instalada. Se ainda não a instalou, você pode baixá-la [aqui](https://releases.aspose.com/cells/net/).
+2. .NET Framework: Certifique-se de ter o .NET Framework instalado em seu ambiente de desenvolvimento. O Aspose.Cells suporta vários frameworks, portanto, verifique a compatibilidade.
+3. IDE: use um IDE como o Visual Studio para escrever e executar seu código. 
 4. Conhecimento básico de C#: entender os fundamentos da programação em C# tornará muito mais fácil seguir este tutorial.
 
 Agora que temos tudo pronto, vamos prosseguir e importar os pacotes necessários.
 
 ## Pacotes de importação
 
-Para começar, você precisará importar os seguintes namespaces no seu arquivo C#. Isso permitirá que você utilize as classes oferecidas pelo Aspose.Cells.
+Para começar, você precisará importar os seguintes namespaces para o seu arquivo C#. Isso permitirá que você utilize as classes oferecidas pelo Aspose.Cells.
 
 ```csharp
 using System;
@@ -54,22 +56,22 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Substituir`"Your Document Directory"` e`"Your Output Directory"` com os caminhos reais onde seus arquivos estão armazenados.
+Substituir `"Your Document Directory"` e `"Your Output Directory"` com os caminhos reais onde seus arquivos estão armazenados.
 
-## Etapa 2: Carregue a pasta de trabalho
+## Etapa 2: Carregar a pasta de trabalho
 
-Nesta etapa, você carregará o arquivo Excel que contém os gráficos. O Aspose.Cells torna isso fácil com o`Workbook` aula.
+Nesta etapa, você carregará o arquivo Excel que contém os gráficos. O Aspose.Cells facilita isso com o `Workbook` aula.
 
 ```csharp
-// Carregar arquivo excel de origem contendo gráficos do excel 2016
+// Carregar arquivo Excel de origem contendo gráficos do Excel 2016
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Certifique-se de que o arquivo Excel ao qual você está se referindo existe no caminho especificado. Caso contrário, você pode encontrar um erro de arquivo não encontrado.
+Certifique-se de que o arquivo do Excel ao qual você está se referindo exista no caminho especificado. Caso contrário, você poderá encontrar um erro de arquivo não encontrado.
 
 ## Etapa 3: Acesse a planilha
 
-Em seguida, você quer acessar a planilha que contém os gráficos. Normalmente, é a primeira planilha que contém os dados relevantes.
+Em seguida, você precisa acessar a planilha que contém os gráficos. Normalmente, é a primeira planilha que contém os dados relevantes.
 
 ```csharp
 // Acesse a primeira planilha que contém os gráficos
@@ -78,7 +80,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Etapa 4: Percorra os gráficos
 
- Agora, você precisará iterar sobre todos os gráficos presentes na planilha. Aspose.Cells permite que você acesse gráficos facilmente usando o`Charts` propriedade do`Worksheet` aula.
+Agora, você precisará iterar sobre todos os gráficos presentes na planilha. O Aspose.Cells permite que você acesse os gráficos facilmente usando o `Charts` propriedade do `Worksheet` aula.
 
 ```csharp
 // Acesse todos os gráficos um por um e leia seus tipos
@@ -88,7 +90,7 @@ for (int i = 0; i < ws.Charts.Count; i++)
     Chart ch = ws.Charts[i];
 ```
 
-## Etapa 5: Imprimir tipos de gráficos
+## Etapa 5: Tipos de gráficos de impressão
 
 Dentro do loop, imprima o tipo de cada gráfico. Isso ajudará você a entender quais tipos de gráficos estão presentes no seu arquivo Excel.
 
@@ -97,9 +99,9 @@ Dentro do loop, imprima o tipo de cada gráfico. Isso ajudará você a entender 
     Console.WriteLine(ch.Type);
 ```
 
-## Etapa 6: Modifique os títulos dos gráficos
+## Etapa 6: Modificar títulos de gráficos
 
-É aqui que a diversão começa! Você pode alterar dinamicamente o título de cada gráfico com base em seu tipo.
+É aqui que a diversão começa! Você pode alterar dinamicamente o título de cada gráfico com base no seu tipo.
 
 ```csharp
     // Alterar o título dos gráficos de acordo com seus tipos
@@ -111,7 +113,7 @@ Esta etapa personaliza cada gráfico, tornando sua visualização de dados mais 
 
 ## Etapa 7: Salve a pasta de trabalho
 
-Depois de fazer suas alterações, você precisa salvar a pasta de trabalho modificada. Isso é bem direto com Aspose.Cells.
+Depois de fazer as alterações, você precisa salvar a pasta de trabalho modificada. Isso é bem simples com o Aspose.Cells.
 
 ```csharp
 // Salvar a pasta de trabalho
@@ -130,7 +132,7 @@ Console.WriteLine("ReadManipulateExcel2016Charts executed successfully.");
 
 ## Conclusão
 
-Parabéns! Você aprendeu com sucesso como ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET. Esta biblioteca poderosa oferece a flexibilidade para manipular arquivos do Excel programaticamente, tornando seu fluxo de trabalho mais eficiente. Se você precisa atualizar títulos de gráficos, modificar dados ou até mesmo criar novos gráficos, o Aspose.Cells tem tudo o que você precisa.
+Parabéns! Você aprendeu com sucesso a ler e manipular gráficos do Excel 2016 usando o Aspose.Cells para .NET. Esta poderosa biblioteca oferece a flexibilidade necessária para manipular arquivos do Excel programaticamente, tornando seu fluxo de trabalho mais eficiente. Seja para atualizar títulos de gráficos, modificar dados ou até mesmo criar novos gráficos, o Aspose.Cells tem tudo o que você precisa.
 
 ## Perguntas frequentes
 
@@ -138,19 +140,21 @@ Parabéns! Você aprendeu com sucesso como ler e manipular gráficos do Excel 20
 Aspose.Cells para .NET é uma biblioteca para trabalhar com arquivos do Excel programaticamente, permitindo que desenvolvedores criem, leiam, manipulem e convertam arquivos do Excel em aplicativos .NET.
 
 ### Como posso baixar o Aspose.Cells?
- Você pode baixar o Aspose.Cells do site[aqui](https://releases.aspose.com/cells/net/).
+Você pode baixar o Aspose.Cells do site [aqui](https://releases.aspose.com/cells/net/).
 
 ### O Aspose.Cells suporta formatos de arquivo do Excel diferentes de .xlsx?
-Sim! O Aspose.Cells suporta vários formatos de arquivo, incluindo .xls, .csv, .pdf e mais.
+Sim! O Aspose.Cells suporta vários formatos de arquivo, incluindo .xls, .csv, .pdf e muito mais.
 
 ### Existe um teste gratuito disponível para o Aspose.Cells?
- Sim, o Aspose oferece um teste gratuito que você pode acessar[aqui](https://releases.aspose.com/).
+Sim, o Aspose oferece um teste gratuito que você pode acessar [aqui](https://releases.aspose.com/).
 
 ### Onde posso obter suporte para o Aspose.Cells?
- Você pode encontrar suporte e discussões da comunidade no fórum Aspose[aqui](https://forum.aspose.com/c/cells/9).
+Você pode encontrar suporte e discussões da comunidade no fórum Aspose [aqui](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

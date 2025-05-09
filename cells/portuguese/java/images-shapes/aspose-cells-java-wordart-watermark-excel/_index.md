@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Proteger informações confidenciais em documentos do Excel é crucial, especial
 
 Você aprenderá como:
 - Crie e configure uma nova pasta de trabalho do Excel
-- Acessar planilhas dentro da pasta de trabalho
+- Acesse planilhas dentro da pasta de trabalho
 - Adicionar e formatar uma marca d'água do WordArt
 - Salve sua pasta de trabalho com facilidade
 
@@ -51,7 +53,7 @@ Inclua Aspose.Cells em seu projeto usando Maven adicionando a seguinte dependên
 
 **Gradle**
 
-Para projetos que usam Gradle, adicione isto ao seu `build.gradle` arquivo:
+Para projetos que usam Gradle, adicione isso ao seu `build.gradle` arquivo:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -235,6 +237,9 @@ Explore outros recursos do Aspose.Cells integrando-o a outros sistemas ou automa
 - **Fórum de Suporte**:Envolva-se com a comunidade no [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

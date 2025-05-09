@@ -8,7 +8,9 @@ url: /net/excel-character-and-cell-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Character and Cell Formatting
@@ -34,9 +36,11 @@ Imagine you’re working on a sales report, and you want the focus to be on the 
 Learn how to format selected characters in Excel using Aspose.Cells for .NET with our step-by-step tutorial.
 ### [Making a Cell Active Programmatically in Excel](./making-a-cell-active/)
 Learn how to programmatically set an active cell in Excel using Aspose.Cells for .NET with this comprehensive guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

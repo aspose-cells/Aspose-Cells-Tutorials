@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasında Ölçekleme Faktörünü Uygula
-linktitle: Çalışma Sayfasında Ölçekleme Faktörünü Uygula
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak bir çalışma sayfasında ölçekleme faktörünün nasıl uygulanacağını adım adım eğitim, örnekler ve SSS ile öğrenin. Sorunsuz ölçekleme için mükemmel.
-weight: 20
-url: /tr/net/worksheet-page-setup-features/implement-scaling-factor/
+"description": "Aspose.Cells for .NET kullanarak bir çalışma sayfasında ölçekleme faktörünün nasıl uygulanacağını adım adım öğretici, örnekler ve SSS ile öğrenin. Sorunsuz ölçekleme için mükemmel."
+"linktitle": "Çalışma Sayfasında Ölçekleme Faktörünü Uygula"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasında Ölçekleme Faktörünü Uygula"
+"url": "/tr/net/worksheet-page-setup-features/implement-scaling-factor/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasında Ölçekleme Faktörünü Uygula
@@ -21,10 +23,10 @@ Excel çalışma sayfanızı tek bir sayfaya düzgün bir şekilde sığacak şe
 
 Başlamadan önce aşağıdaki gereksinimlerin karşılandığından emin olun:
 
--  .NET için Aspose.Cells:[Buradan indirin](https://releases.aspose.com/cells/net/).
-- IDE: Visual Studio gibi .NET uyumlu herhangi bir IDE.
+- .NET için Aspose.Cells: [Buradan indirin](https://releases.aspose.com/cells/net/).
+- IDE: Visual Studio gibi herhangi bir .NET uyumlu IDE.
 - .NET Framework: Aspose.Cells ile uyumlu .NET sürümü.
--  Lisans: Tam kapasite için bir tane edinin[Geçici lisansı aspose etmek](https://purchase.aspose.com/temporary-license/) veya satın almayı düşünün[tam lisans](https://purchase.aspose.com/buy).
+- Lisans: Tam kapasite için bir tane edinin [Geçici lisansı aspose etmek](https://purchase.aspose.com/temporary-license/) veya satın almayı düşünün [tam lisans](https://purchase.aspose.com/buy).
 
 .NET için Aspose.Cells'i yüklediğinizden emin olun. Her şey hazır olduğunda, gerekli ad alanlarını içe aktaralım.
 
@@ -51,12 +53,12 @@ string dataDir = "Your Document Directory";
 ```
 
 
- Bu satır, çıktı dosyasının kaydedileceği klasöre giden yolu başlatır. Değiştir`"Your Document Directory"` Excel dosyasının gitmesini istediğiniz gerçek yol ile. Basit, değil mi? Bir sonraki adıma geçelim.
+Bu satır, çıktı dosyasının kaydedileceği klasöre giden yolu başlatır. Değiştir `"Your Document Directory"` Excel dosyasının gitmesini istediğiniz gerçek yol ile. Basit, değil mi? Bir sonraki adıma geçelim.
 
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
 
- Excel dosyalarıyla çalışmaya başlamak için, bir örnek oluşturun`Workbook` sınıf. Bu çalışma kitabı tüm çalışma kağıtlarınızı ve verilerinizi tutacaktır.
+Excel dosyalarıyla çalışmaya başlamak için, bir örnek oluşturun `Workbook` sınıf. Bu çalışma kitabı tüm çalışma kağıtlarınızı ve verilerinizi tutacaktır.
 
 ```csharp
 // Yeni bir çalışma kitabı oluştur
@@ -64,7 +66,7 @@ Workbook workbook = new Workbook();
 ```
 
 
- Burada yeni bir tane başlatıyoruz`Workbook` nesne. Bir çalışma kitabını, birden fazla çalışma sayfası içerebilen bütün bir Excel dosyası olarak düşünün. Şu anda boş ama değişiklik yapmamız için hazır.
+Burada yeni bir tane başlatıyoruz `Workbook` nesne. Bir çalışma kitabını, birden fazla çalışma sayfası içerebilen bütün bir Excel dosyası olarak düşünün. Şu anda boş ama değişiklik yapmamız için hazır.
 
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
@@ -77,7 +79,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 ```
 
 
-`Worksheets[0]`burada ilk çalışma sayfasını almak için kullanılır. Excel ile çalışmaya alışkınsanız, bunu basitçe çalışma kitabınızdaki ilk sayfayı seçmek olarak düşünün. İlk sayfayla çalışarak işleri basit tutuyoruz.
+`Worksheets[0]` burada ilk çalışma sayfasını almak için kullanılır. Excel ile çalışmaya alışkınsanız, bunu basitçe çalışma kitabınızdaki ilk sayfayı seçmek olarak düşünün. İlk sayfayla çalışarak işleri basit tutuyoruz.
 
 
 ## Adım 4: Çalışma Sayfası için Ölçekleme Faktörünü Ayarlayın
@@ -95,7 +97,7 @@ Bu satırda, %100'lük bir ölçekleme faktörü uyguluyoruz, yani çalışma sa
 
 ## Adım 5: Ölçekleme Faktörü Uygulanmış Olarak Çalışma Kitabını Kaydedin
 
-Son olarak, çalışma kitabını kaydetme zamanı geldi. Kaydedildiğinde, çalışma sayfanız ayarladığınız ölçekleme faktörünü koruyacak, böylece bir dahaki sefere açtığınızda kullanıma hazır olacaktır.
+Son olarak, çalışma kitabını kaydetme zamanı geldi. Kaydedildiğinde, çalışma sayfanız ayarladığınız ölçekleme faktörünü koruyacak, böylece bir dahaki açışınızda kullanıma hazır olacaktır.
 
 ```csharp
 // Çalışma kitabını belirtilen yola kaydet
@@ -103,7 +105,7 @@ workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
 
- Burada çalışma kitabını dosya adıyla kaydediyoruz`ScalingFactor_out.xls` . Bu dosya ölçekleme faktörünün uygulandığı çalışma sayfanızı içerecektir. Belirtilen yolunuzun (`dataDir`) doğrudur, bu nedenle dosyayı bulmada herhangi bir sorunla karşılaşmazsınız.
+Burada, çalışma kitabını dosya adıyla kaydediyoruz `ScalingFactor_out.xls`. Bu dosya ölçekleme faktörünün uygulandığı çalışma sayfanızı içerecektir. Belirtilen yolunuzun ( `dataDir`) doğrudur, bu nedenle dosyayı bulmada herhangi bir sorunla karşılaşmazsınız.
 
 
 ## Çözüm
@@ -125,10 +127,12 @@ Hayır, ölçekleme faktörünü ayarlamak yalnızca görüntü veya baskı boyu
 Ölçekleme faktörünü 0 olarak ayarlamak geçersizdir ve büyük ihtimalle bir hata verecektir. İstediğiniz yüzde boyutunu temsil eden pozitif değerlere bağlı kalın.
 
 ### Aspose.Cells for .NET'in ölçekleme faktörü özelliğini kullanmak için lisansa ihtiyacım var mı?  
- Bunu bir deneyebilirsin[ücretsiz deneme](https://releases.aspose.com/) , ancak tam işlevsellik için,[geçici](https://purchase.aspose.com/temporary-license/) veya ücretli lisans önerilir.
+Bunu bir deneyebilirsin [ücretsiz deneme](https://releases.aspose.com/), ancak tam işlevsellik için, [geçici](https://purchase.aspose.com/temporary-license/) veya ücretli lisans önerilir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

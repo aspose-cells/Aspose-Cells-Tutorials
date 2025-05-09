@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ Po ustawieniu kryteriów filtrowania odśwież je, aby zastosować zmiany:
 worksheet.getAutoFilter().refresh();
 ```
 
-### Zapisywanie pracy
+### Zapisywanie Twojej pracy
 
 Na koniec zapisz zmodyfikowany plik Excela, aby zachować zmiany:
 
@@ -187,6 +189,9 @@ Więcej szczegółowych informacji i dodatkowe zasoby:
 Dzięki temu przewodnikowi jesteś dobrze wyposażony, aby zacząć używać Aspose.Cells w swoich aplikacjach Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

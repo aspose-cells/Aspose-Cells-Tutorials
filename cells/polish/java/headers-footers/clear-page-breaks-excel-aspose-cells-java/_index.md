@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,9 +193,12 @@ W tym przewodniku przyjrzeliśmy się sposobom usuwania poziomych i pionowych po
 
 **Następne kroki:**
 - Eksperymentuj z różnymi arkuszami i skoroszytami, aby przećwiczyć te techniki.
-- Poznaj dodatkowe funkcje dodatku Aspose.Cells for Java, aby jeszcze bardziej zwiększyć możliwości obsługi dokumentów Excela.
+- Poznaj dodatkowe funkcje dodatku Aspose.Cells for Java, aby jeszcze bardziej zwiększyć możliwości obsługi dokumentów Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

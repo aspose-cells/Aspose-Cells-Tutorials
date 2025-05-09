@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No âmbito da gestão de dados, apresentar as informações de forma organizada é crucial. Este guia demonstra como ajustar linhas automaticamente em arquivos do Excel usando **Aspose.Cells para Java**, tornando seus conjuntos de dados mais legíveis.
 
-## que você aprenderá
+## O que você aprenderá
 - Instanciando uma pasta de trabalho Aspose.Cells em Java.
 - Acessando planilhas e células específicas de forma eficiente.
 - Ajuste automático das alturas das linhas com base no conteúdo.
@@ -52,7 +54,7 @@ Conhecimento básico de programação Java, incluindo conceitos de orientação 
 ## Configurando Aspose.Cells para Java
 Antes de manipular arquivos do Excel usando Aspose.Cells, configure a biblioteca em seu ambiente:
 
-1. **Instalação**: Inclua a dependência Aspose.Cells via Maven ou Gradle, conforme mostrado acima.
+1. **Instalação**Inclua a dependência Aspose.Cells via Maven ou Gradle, conforme mostrado acima.
 2. **Aquisição de Licença**: Comece com um teste gratuito baixando uma licença temporária em [Site da Aspose](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -120,9 +122,9 @@ Este código salva sua pasta de trabalho ajustada em um diretório de saída com
 
 ## Aplicações práticas
 Aqui estão alguns cenários do mundo real em que o ajuste automático de linhas pode ser incrivelmente útil:
-1. **Relatórios financeiros**: Garanta a legibilidade das demonstrações financeiras ajustando dinamicamente os tamanhos das linhas com base em entradas de dados detalhadas.
+1. **Relatórios financeiros**Garanta a legibilidade das demonstrações financeiras ajustando dinamicamente os tamanhos das linhas com base em entradas de dados detalhadas.
 2. **Gestão de Estoque**: Ajuste as listas de inventário para acomodar descrições e quantidades variadas, mantendo uma apresentação limpa.
-3. **Planejamento de Projetos**Aprimore gráficos de Gantt ou cronogramas de projetos onde as tarefas têm descrições que abrangem várias linhas.
+3. **Planejamento de Projetos**: Aprimore gráficos de Gantt ou cronogramas de projetos onde as tarefas têm descrições que abrangem várias linhas.
 4. **Análise de dados**: Otimize os painéis ajustando as linhas ordenadamente em torno de comentários ou resultados de tamanhos variados.
 
 ## Considerações de desempenho
@@ -163,6 +165,9 @@ Com esses recursos, você pode se aprofundar nos recursos do Aspose.Cells para J
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

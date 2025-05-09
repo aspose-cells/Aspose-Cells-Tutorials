@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A2: Χρησιμοποιήστε εξαρτήσεις Maven ή Gradle όπως �
 A3: Ναι, μπορείτε να προσθέσετε πολλούς συντάκτες για να χειρίζεστε διάφορους σχολιαστές στο βιβλίο εργασίας του Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

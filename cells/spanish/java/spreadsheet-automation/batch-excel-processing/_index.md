@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Procesamiento por lotes de Excel
@@ -109,9 +111,11 @@ Automatizar el procesamiento por lotes de Excel con Aspose.Cells para Java simpl
    Explora la documentación de la API en [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para obtener información detallada y ejemplos.
 
 Optimice sus tareas de procesamiento por lotes de Excel y aumente la productividad utilizando Aspose.Cells para Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ Lấy bảng tính đầu tiên từ sổ làm việc:
 ```java
 Worksheet sheet = book.getWorksheets().get(0);
 ```
-**Giải thích:** Các bảng tính được lập chỉ mục bắt đầu từ số không. `get` phương pháp này lấy một trang tính cụ thể theo chỉ mục của nó.
+**Giải thích:** Các bảng tính được lập chỉ mục bắt đầu từ số không. `get` phương thức này lấy một trang tính cụ thể theo chỉ mục của nó.
 
 ##### Bước 3: Lặp lại qua các hàng bằng cách sử dụng Iterator
 Lấy một trình lặp cho các hàng và xử lý chúng:
@@ -173,6 +175,9 @@ Bằng cách khám phá các tài nguyên này, bạn có thể hiểu sâu hơn
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Innan du börjar, se till att du har följande:
 
 - **Obligatoriska bibliotek:** Inkludera Aspose.Cells för Java (version 25.3 eller senare) i ditt projekt.
 - **Miljöinställningar:** Det är förutsatt att du har goda kunskaper i Java-utveckling och byggsystem som Maven eller Gradle.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmeringskoncept, särskilt objektorienterade principer.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmeringskoncept, särskilt objektorienterade principer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -123,7 +125,7 @@ dwb.save(outDir + "outputSpecifyDocumentVersionOfExcelFile.xlsx", dSaveFormat.XL
 ```
 
 ### Felsökningstips
-- Se till att dina filsökvägar är korrekt angivna.
+- Se till att dina filsökvägar är korrekt inställda.
 - Dubbelkolla kompatibiliteten med dina biblioteksversioner om du stöter på fel.
 
 ## Praktiska tillämpningar
@@ -167,6 +169,9 @@ Du har lärt dig hur du ställer in dokumentversionen i en Excel-fil med Aspose.
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

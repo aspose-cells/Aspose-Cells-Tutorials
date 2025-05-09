@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ book.save(outDir + "/SetSimpleFormulaNamedRange_out.xlsx");
 หากทำตามคำแนะนำนี้ คุณก็พร้อมที่จะใช้ประโยชน์จากช่วงที่มีชื่อด้วย Aspose.Cells สำหรับ Java ในโปรเจ็กต์ของคุณแล้ว ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

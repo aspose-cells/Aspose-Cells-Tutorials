@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ public class ExcelConverter {
 ## Hướng dẫn thực hiện
 Chúng tôi sẽ chia nhỏ quá trình triển khai thành ba tính năng chính: chuyển đổi chuỗi HTML sang Excel, tự động điều chỉnh hàng và cột và lưu bảng tính dưới dạng XLSX.
 
-### Chuyển đổi chuỗi HTML sang sổ làm việc
+### Chuyển đổi chuỗi HTML sang Workbook
 Tính năng này cho phép bạn chuyển đổi chuỗi HTML chứa các thẻ lồng nhau thành một bảng tính Excel có cấu trúc. Cách thực hiện như sau:
 
 **1. Chuẩn bị chuỗi HTML của bạn**
@@ -163,7 +165,7 @@ Hãy thử triển khai các tính năng này vào dự án của bạn ngay hô
 **H: Tôi có thể chuyển đổi bảng HTML trực tiếp sang Excel không?**
 A: Có, Aspose.Cells hỗ trợ chuyển đổi trực tiếp các bảng HTML thành bảng tính Excel.
 
-**H: Làm thế nào để xử lý các tập tin HTML lớn một cách hiệu quả?**
+**H: Làm sao để xử lý các tập tin HTML lớn một cách hiệu quả?**
 A: Sử dụng các kỹ thuật phát trực tuyến và quản lý tài nguyên bộ nhớ cẩn thận khi xử lý nội dung HTML mở rộng.
 
 **H: Có thể tùy chỉnh kiểu dáng trong quá trình chuyển đổi không?**
@@ -184,6 +186,9 @@ A: Có, Aspose.Cells hỗ trợ nhiều định dạng đầu ra bao gồm CSV v
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

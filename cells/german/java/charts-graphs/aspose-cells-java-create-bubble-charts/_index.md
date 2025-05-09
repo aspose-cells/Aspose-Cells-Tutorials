@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Sie haben nun gelernt, wie Sie Blasendiagramme mit Aspose.Cells für Java erstel
 - **Support-Forum**: Bei Fragen steht Ihnen die [Support-Forum](https://forum.aspose.com/c/cells/9) ist verfügbar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

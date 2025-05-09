@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -172,7 +174,7 @@ class TestPageSavingCallback implements IPageSavingCallback {
 - अतिरिक्त प्रयोग करें `PdfSaveOptions` विन्यास.
 - अधिक उन्नत उपयोग मामलों के लिए Aspose.Cells की अन्य सुविधाओं का अन्वेषण करें।
 
-अपने कौशल को और आगे ले जाने के लिए तैयार हैं? [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/) और प्रयोग शुरू करें!
+क्या आप अपने कौशल को और आगे ले जाने के लिए तैयार हैं? [Aspose.Cells दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/) और प्रयोग शुरू करें!
 
 ## अक्सर पूछे जाने वाले प्रश्न अनुभाग
 
@@ -194,6 +196,9 @@ class TestPageSavingCallback implements IPageSavingCallback {
 - **निःशुल्क परीक्षण एवं अस्थायी लाइसेंस:** निःशुल्क परीक्षण के साथ सुविधाओं का अन्वेषण करें या अस्थायी लाइसेंस का अनुरोध करें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

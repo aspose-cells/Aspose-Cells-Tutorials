@@ -1,14 +1,16 @@
 ---
-title: .NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme
-linktitle: .NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitabını Strict Open XML Elektronik Tablosu biçiminde nasıl kaydedeceğinizi öğrenin.
-weight: 19
-url: /tr/net/converting-excel-files-to-other-formats/saving-workbook-to-strict-open-xml-spreadsheet-format/
+"description": "Bu ayrıntılı eğitimde Aspose.Cells for .NET kullanarak bir çalışma kitabını Strict Open XML Elektronik Tablosu biçiminde nasıl kaydedeceğinizi öğrenin."
+"linktitle": ".NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme"
+"url": "/tr/net/converting-excel-files-to-other-formats/saving-workbook-to-strict-open-xml-spreadsheet-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Çalışma Kitabını Kesin Açık XML Elektronik Tablo Biçimine Kaydetme
@@ -18,8 +20,8 @@ Merhaba! .NET kullanarak Excel dosya düzenleme dünyasına dalıyorsanız, doğ
 Peki, sizin için ne var? Bu kılavuzun sonunda, yalnızca bir çalışma kitabını bu formatta nasıl kaydedeceğinizi bilmekle kalmayacak, aynı zamanda Aspose.Cells kullanarak Excel dosyalarını nasıl düzenleyeceğiniz konusunda da sağlam bir anlayışa sahip olacaksınız. Başlamaya hazır mısınız? Hadi başlayalım!
 ## Ön koşullar
 Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İhtiyacınız olanlar şunlardır:
-1.  Visual Studio: Visual Studio'nun makinenizde yüklü olduğundan emin olun. Eğer henüz yüklü değilse, indirebilirsiniz[Burada](https://visualstudio.microsoft.com/).
-2.  .NET için Aspose.Cells: Projenize Aspose.Cells eklemeniz gerekecek. Bunu siteden indirebilir veya Visual Studio'daki NuGet Paket Yöneticisini kullanabilirsiniz. Paketi şurada bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+1. Visual Studio: Visual Studio'nun makinenizde yüklü olduğundan emin olun. Eğer henüz yüklü değilse, indirebilirsiniz [Burada](https://visualstudio.microsoft.com/).
+2. .NET için Aspose.Cells: Projenize Aspose.Cells eklemeniz gerekecek. Bunu siteden indirebilir veya Visual Studio'daki NuGet Paket Yöneticisini kullanabilirsiniz. Paketi şurada bulabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Temel C# programlama kavramlarını rahatça anlayabiliyor olmalısınız. Daha önce kodlamayla uğraştıysanız, hazırsınız!
 4. Çıktı Dizini: Excel dosyanızı nereye kaydetmek istediğinize karar verin. Her şeyi düzenli tutmak için makinenizde bir klasör oluşturun.
 Artık ön koşullarınızı tamamladığınıza göre, kodlama kısmına geçebiliriz!
@@ -39,7 +41,7 @@ Başka bir şey yapmadan önce çıktı dizininizi ayarlamanız gerekir. Excel d
 // Çıktı dizini
 string outputDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` dosyanızı kaydetmek istediğiniz gerçek yol ile. Örneğin, onu masaüstünüzdeki “ExcelFiles” adlı bir klasöre kaydetmek istiyorsanız, şunu yazarsınız:
+Yer değiştirmek `"Your Document Directory"` dosyanızı kaydetmek istediğiniz gerçek yol ile. Örneğin, masaüstünüzde “ExcelFiles” adlı bir klasöre kaydetmek istiyorsanız, şunu yazarsınız:
 ```csharp
 string outputDir = @"C:\Users\YourUsername\Desktop\ExcelFiles\";
 ```
@@ -49,14 +51,14 @@ Artık çıktı dizinini ayarladığınıza göre, yeni bir çalışma kitabı o
 // Çalışma kitabı oluştur.
 Workbook wb = new Workbook();
 ```
- Bu kod satırı, yeni bir örneğini başlatır`Workbook` sınıf. Bunu, verilerle doldurmaya hazır, yeni ve boş bir Excel dosyası açmak olarak düşünebilirsiniz!
+Bu kod satırı, yeni bir örneğini başlatır `Workbook` sınıf. Bunu, verilerle doldurmaya hazır, yeni ve boş bir Excel dosyası açmak olarak düşünebilirsiniz!
 ## Adım 3: Uyumluluk Ayarlarını Belirleyin
 Sonra, çalışma kitabımızı Strict Open XML Spreadsheet formatında kaydetmek istediğimizi belirtmemiz gerekir. Bu, diğer Excel programlarıyla uyumluluğu sağlamak için önemli bir adımdır. İşte nasıl yapılacağı:
 ```csharp
-// Belirt - Kesin Açık XML Elektronik Tablosu - Biçim.
+// Belirt - Sıkı Açık XML Elektronik Tablosu - Biçim.
 wb.Settings.Compliance = OoxmlCompliance.Iso29500_2008_Strict;
 ```
- Uyumluluğu ayarlayarak`OoxmlCompliance.Iso29500_2008_Strict`, Aspose.Cells'e çalışma kitabınızın kesinlikle Açık XML standartlarına uymasını istediğinizi söylüyorsunuz.
+Uyumluluğu ayarlayarak `OoxmlCompliance.Iso29500_2008_Strict`, Aspose.Cells'e çalışma kitabınızın kesinlikle Açık XML standartlarına uymasını istediğinizi söylüyorsunuz.
 ## Adım 4: Çalışma Sayfanıza Veri Ekleyin
 Şimdi eğlenceli kısma geliyoruz! Çalışma sayfamıza biraz veri ekleyelim. B4 hücresine dosyamızın Strict Open XML formatında olduğunu belirten bir mesaj yazacağız. İşte nasıl:
 ```csharp
@@ -71,7 +73,7 @@ Neredeyse bitti! Son adım, çalışma kitabınızı daha önce belirttiğimiz �
 // Çıktı Excel dosyasına kaydedin.
 wb.Save(outputDir + "outputSaveWorkbookToStrictOpenXMLSpreadsheetFormat.xlsx", SaveFormat.Xlsx);
 ```
- Bu kod satırı çalışma kitabınızı alır ve onu bir`.xlsx` belirtilen dizindeki dosya. Dosyanıza istediğiniz ismi verebilirsiniz; sadece`.xlsx` eklenti.
+Bu kod satırı çalışma kitabınızı alır ve onu bir `.xlsx` belirtilen dizindeki dosya. Dosyanıza istediğiniz ismi verebilirsiniz; sadece `.xlsx` eklenti.
 ## Adım 6: Başarıyı Onaylayın
 Her şeyi toparlamak için, her şeyin başarıyla yürütüldüğünü bize bildiren küçük bir onay mesajı ekleyelim:
 ```csharp
@@ -83,18 +85,20 @@ Ve işte karşınızda! Aspose.Cells for .NET kullanarak Strict Open XML Spreads
 İster işiniz için veri yönetiyor olun, ister okul için raporlar hazırlıyor olun, bu beceri size iyi hizmet edecektir. O halde devam edin, Aspose.Cells'deki farklı özellikleri deneyin ve neler yaratabileceğinizi görün!
 ## SSS
 ### Strict Open XML Elektronik Tablo formatı nedir?
-Strict Open XML E-Tablo formatı, çeşitli uygulamalar arasında uyumluluğu garanti altına alarak, Open XML standartlarına sıkı sıkıya bağlıdır.
+Strict Open XML E-Tablo formatı, çeşitli uygulamalar arasında uyumluluğu garanti altına alarak, kesinlikle Open XML standartlarına uymaktadır.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Özelliklerini keşfetmek için Aspose.Cells'in ücretsiz deneme sürümüyle başlayabilirsiniz. İndirin[Burada](https://releases.aspose.com/).
+Evet! Özelliklerini keşfetmek için Aspose.Cells'in ücretsiz deneme sürümüyle başlayabilirsiniz. İndirin [Burada](https://releases.aspose.com/).
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Ayrıntılı kılavuzlar ve API referansları için belgeleri kontrol edebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Ayrıntılı kılavuzlar ve API referansları için belgeleri kontrol edebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için desteği nasıl alabilirim?
- Sorularınız varsa veya yardıma ihtiyacınız varsa destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Sorularınız varsa veya yardıma ihtiyacınız varsa, destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
 ### Çalışma kitabını farklı formatlarda kaydedebilir miyim?
 Kesinlikle! Aspose.Cells, ihtiyaçlarınıza bağlı olarak çalışma kitabınızı PDF, CSV ve daha fazlası gibi çeşitli formatlarda kaydetmenize olanak tanır.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

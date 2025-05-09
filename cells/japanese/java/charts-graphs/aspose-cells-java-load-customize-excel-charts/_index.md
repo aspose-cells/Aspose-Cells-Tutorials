@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ chart.calculate();
 Workbook book = new Workbook(dataDir + "sample.xlsx");
 ```
 
-##### 2. カスタムグローバリゼーション設定を行う
+##### 2. カスタムグローバリゼーション設定を設定する
 ```java
 CustomSettings customGlobalizationSettings = new CustomSettings();
 customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
@@ -196,6 +198,9 @@ Aspose.Cellsを他のJavaライブラリと統合することで、高度なデ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

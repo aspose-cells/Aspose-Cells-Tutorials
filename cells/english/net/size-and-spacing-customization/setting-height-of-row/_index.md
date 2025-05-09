@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-height-of-row/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Row Height in Excel with Aspose.Cells
@@ -97,6 +99,7 @@ You can check out the detailed documentation for Aspose.Cells [here](https://ref
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

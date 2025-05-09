@@ -1,14 +1,16 @@
 ---
-title: Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme
-linktitle: Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna (PPTX) nasıl programatik olarak dönüştürebileceğinizi öğrenin.
-weight: 16
-url: /tr/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyasını PowerPoint sunumuna (PPTX) nasıl programatik olarak dönüştürebileceğinizi öğrenin."
+"linktitle": "Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme"
+"url": "/tr/net/converting-excel-files-to-other-formats/converting-excel-file-to-pptx/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Dosyasını .NET'te Programatik Olarak PPTX'e Dönüştürme
@@ -19,16 +21,16 @@ Günümüzün hızlı dünyasında, verileri görsel olarak paylaşmak her zaman
 
 ## Ön koşullar
 
-Koda dalmadan önce, gerekli ön koşullara bir göz atalım. Doğru ortamı kurarak, sorunsuz bir kodlama deneyimi sağlarsınız.
+Koda dalmadan önce, gerekli ön koşullara bir göz atalım. Doğru ortamı kurarak, sorunsuz bir kodlama deneyimi elde edersiniz.
 
-1. .NET için Aspose.Cells'i yükleyin: Öncelikle Aspose.Cells kütüphanesini yüklemeniz gerekir. Bunu Visual Studio'daki NuGet aracılığıyla yapabilir veya DLL'leri şuradan indirebilirsiniz:[Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
+1. .NET için Aspose.Cells'i yükleyin: Öncelikle Aspose.Cells kütüphanesini yüklemeniz gerekir. Bunu Visual Studio'daki NuGet aracılığıyla yapabilir veya DLL'leri şuradan indirebilirsiniz: [Aspose.Cells indirme sayfası](https://releases.aspose.com/cells/net/).
 
 Aşağıdaki komutu kullanarak NuGet üzerinden kurulum yapın:
 ```bash
 Install-Package Aspose.Cells
 ```
 2. Geliştirme Ortamı: Sisteminizde Visual Studio gibi bir .NET geliştirme ortamının kurulu olduğundan emin olun. Bu kılavuz hem .NET Framework hem de .NET Core/5+ ile uyumludur.
-3.  Geçerli Lisans: Aspose.Cells'i test amaçlı lisans olmadan kullanabilirsiniz ancak çıktıda filigran görüntülenecektir. Üretim kullanımı için şuradan bir lisans edinin:[Aspose'un satın alma sayfası](https://purchase.aspose.com/buy) veya birini kullanın[geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm potansiyeli açığa çıkarmak için.
+3. Geçerli Lisans: Aspose.Cells'i test amaçlı lisans olmadan kullanabilirsiniz ancak çıktıda filigran görüntülenecektir. Üretim kullanımı için şuradan bir lisans edinin: [Aspose'un satın alma sayfası](https://purchase.aspose.com/buy) veya birini kullanın [geçici lisans](https://purchase.aspose.com/temporary-license/) Tüm potansiyeli açığa çıkarmak için.
 
 ## Ad Alanlarını İçe Aktar
 
@@ -42,16 +44,16 @@ Artık her şeyi ayarladığınıza göre, bir Excel dosyasını bir PowerPoint 
 
 ## Adım 1: Çalışma Kitabı Nesnesini Başlat
 
- Bu ilk adımda, bir`Workbook` PowerPoint sunumuna dönüştürmek istediğiniz Excel dosyasını yüklemek için nesneyi kullanın.
+Bu ilk adımda, bir `Workbook` PowerPoint sunumuna dönüştürmek istediğiniz Excel dosyasını yüklemek için nesneyi kullanın.
 
- Birini düşünün`Workbook` tüm çalışma sayfaları, formüller, grafikler ve veriler dahil olmak üzere eksiksiz Excel dosyası olarak. Excel dosyanızın içindeki içerikle etkileşime girmek için bu nesneye ihtiyacımız var.
+Birini düşünün `Workbook` tüm çalışma sayfaları, formüller, grafikler ve veriler dahil olmak üzere eksiksiz Excel dosyası olarak. Excel dosyanızın içindeki içerikle etkileşime girmek için bu nesneye ihtiyacımız var.
 
 ```csharp
 string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
 
--  kaynakDir: Değiştir`"Your Document Directory"` Excel dosyanızın yolunu belirtin.
+- kaynakDir: Değiştir `"Your Document Directory"` Excel dosyanızın yolunu belirtin.
 - Çalışma Kitabı: Bu satır Excel dosyanızı yükler (`Book1.xlsx`) belleğe aktarılarak dönüşüme hazır hale getirilir.
 
 ## Adım 2: Çıktı Dizinini Seçin
@@ -66,7 +68,7 @@ string outputDir = "Your Document Directory";
 
 ## Adım 3: Excel'i PPTX'e dönüştürün
 
- İşte sihir geliyor! Bu adımda, şunu kullanacağız:`Save` Excel dosyasını bir PowerPoint sunumu (PPTX) biçimine dönüştürme yöntemi. Aspose.Cells sahne arkasındaki tüm ağır işleri halleder.
+İşte sihir geliyor! Bu adımda, şunu kullanacağız: `Save` Excel dosyasını bir PowerPoint sunumu (PPTX) biçimine dönüştürme yöntemi. Aspose.Cells sahne arkasındaki tüm ağır işleri halleder.
 
 ```csharp
 workbook.Save(outputDir + "Book1.pptx", SaveFormat.Pptx);
@@ -101,13 +103,15 @@ Aspose.Cells, dönüştürme sırasında grafiklerin, tabloların ve diğer gör
 Bu eğitim doğrudan dönüşüme odaklanırken, Aspose.Cells sunumun görünümünü ve düzenini değiştirmek de dahil olmak üzere daha gelişmiş özelleştirmelere olanak tanır.
 
 ### Bu kodu çalıştırmak için lisansa ihtiyacım var mı?
-Bu kodu lisans olmadan çalıştırabilirsiniz ancak çıktıda filigran yer alacaktır. Tam işlevsellik için şunu alabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) veya satın al[lisans](https://purchase.aspose.com/buy).
+Bu kodu lisans olmadan çalıştırabilirsiniz ancak çıktıda filigran yer alacaktır. Tam işlevsellik için şunu alabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) veya satın al [lisans](https://purchase.aspose.com/buy).
 
 ### Birden fazla dosya için dönüştürmeyi otomatikleştirmek mümkün mü?
 Evet, Excel dosyaları listesinde dolaşıp aynı adımları kullanarak bunları PPTX'e dönüştürerek bu işlemi otomatikleştirebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

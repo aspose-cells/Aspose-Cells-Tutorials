@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -70,7 +72,7 @@ I det här avsnittet går vi igenom stegen för att lägga till HTML-rik text i 
 Genom att bädda in HTML i Excel-celler kan du använda formatering som fetstil, kursiv stil, understrykning och anpassade teckensnitt direkt från HTML-taggar. Den här funktionen är särskilt användbar för att skapa visuellt tilltalande rapporter eller instrumentpaneler i Excel.
 
 #### Steg 1: Skapa en arbetsbok och få åtkomst till arbetsbladet
-Skapa först en instans av `Workbook` och få åtkomst till dess första arbetsblad:
+Skapa först en instans av `Workbook` och öppna dess första arbetsblad:
 ```java
 Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -111,7 +113,7 @@ Här är några verkliga användningsfall där det visar sig fördelaktigt att l
 
 ## Prestandaöverväganden
 
-När du arbetar med Aspose.Cells:
+När man arbetar med Aspose.Cells:
 - **Optimera resursanvändningen**Begränsa antalet HTML-formaterade celler i stora arbetsböcker för att undvika prestandafördröjningar.
 - **Java-minneshantering**Använd effektiva minneshanteringsmetoder i Java för att hantera stora datamängder effektivt. Detta inkluderar att stänga arbetsboksinstanser omedelbart efter användning.
 
@@ -150,6 +152,9 @@ Omfamna kraften i Aspose.Cells för Java för att omvandla din Excel-datahanteri
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

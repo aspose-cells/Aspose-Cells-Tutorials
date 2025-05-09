@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Wstęp
 
-W dzisiejszym świecie opartym na danych, efektywne zarządzanie i manipulowanie plikami Excela programowo jest kluczowe. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz w zarządzaniu danymi, opanowanie operacji skoroszytu Excela jest niezbędne. Ten samouczek upraszcza proces, prowadząc Cię przez korzystanie z Aspose.Cells for Java — potężnej biblioteki, która usprawnia te zadania.
+W dzisiejszym świecie zorientowanym na dane, efektywne zarządzanie i manipulowanie plikami Excela programowo jest kluczowe. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz w zarządzaniu danymi, opanowanie operacji skoroszytu Excela jest niezbędne. Ten samouczek upraszcza proces, prowadząc Cię przez korzystanie z Aspose.Cells for Java — potężnej biblioteki, która usprawnia te zadania.
 
 **Czego się nauczysz:**
 - Jak utworzyć obiekt Workbook przy użyciu istniejących plików programu Excel za pomocą Aspose.Cells.
@@ -178,7 +180,7 @@ Ten samouczek wyposażył Cię w umiejętności tworzenia, manipulowania i zapis
 Eksperymentuj z dodatkowymi funkcjonalnościami, takimi jak walidacja danych lub generowanie wykresów, aby jeszcze bardziej rozwinąć swoją wiedzę na temat Aspose.Cells.
 
 ### Wezwanie do działania
-Wypróbuj rozwiązanie już dziś i poznaj bliżej możliwości Aspose.Cells for Java!
+Wypróbuj nasze rozwiązanie już dziś i poznaj bliżej możliwości Aspose.Cells for Java!
 
 ## Sekcja FAQ
 1. **Czym jest Aspose.Cells dla Java?**
@@ -201,6 +203,9 @@ Wypróbuj rozwiązanie już dziś i poznaj bliżej możliwości Aspose.Cells for
 - **Wsparcie:** [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

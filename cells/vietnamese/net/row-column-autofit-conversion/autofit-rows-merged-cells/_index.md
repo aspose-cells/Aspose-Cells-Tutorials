@@ -1,14 +1,16 @@
 ---
-title: Tự động điều chỉnh các hàng cho các ô đã hợp nhất Aspose.Cells .NET
-linktitle: Tự động điều chỉnh các hàng cho các ô đã hợp nhất Aspose.Cells .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tự động điều chỉnh các hàng cho các ô đã hợp nhất bằng Aspose.Cells cho .NET một cách hiệu quả và nâng cao kỹ năng tự động hóa Excel của bạn.
-weight: 14
-url: /vi/net/row-column-autofit-conversion/autofit-rows-merged-cells/
+"description": "Tìm hiểu cách tự động điều chỉnh các hàng cho các ô đã hợp nhất bằng Aspose.Cells cho .NET một cách hiệu quả và nâng cao kỹ năng tự động hóa Excel của bạn."
+"linktitle": "Tự động điều chỉnh các hàng cho các ô đã hợp nhất Aspose.Cells .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tự động điều chỉnh các hàng cho các ô đã hợp nhất Aspose.Cells .NET"
+"url": "/vi/net/row-column-autofit-conversion/autofit-rows-merged-cells/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động điều chỉnh các hàng cho các ô đã hợp nhất Aspose.Cells .NET
@@ -18,7 +20,7 @@ Bạn có mệt mỏi vì phải vật lộn với hành vi kỳ quặc của Ex
 ## Điều kiện tiên quyết
 Trước khi bắt đầu hành trình viết mã này, bạn cần thiết lập một số thứ sau:
 1. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích trên máy của mình.
-2.  Aspose.Cells cho .NET: Đây là hiệp sĩ sáng chói trong lâu đài Excel của chúng tôi. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đây là hiệp sĩ sáng chói trong lâu đài Excel của chúng tôi. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Thiết lập IDE: Bạn có thể sử dụng Visual Studio hoặc bất kỳ IDE tương thích .NET nào cho hướng dẫn này. Đảm bảo bạn thoải mái với cách tạo, chạy và gỡ lỗi một dự án. 
 4. Hiểu biết cơ bản về C#: Biết các nguyên tắc của C# sẽ giúp bạn theo dõi mà không bị vấp ngã bởi các khái niệm. Nếu bạn quen thuộc với việc tạo và thao tác các tệp Excel theo chương trình, bạn đã đứng vững rồi!
 Chúng ta hãy cùng bắt đầu viết mã ngay thôi!
@@ -39,7 +41,7 @@ using System;
 Phần bổ sung này giúp Aspose.Cells có thể sử dụng trong mã của chúng ta. Bây giờ chúng ta có thể bắt đầu cuộc phiêu lưu mã hóa của mình!
 Hãy chia nhỏ ví dụ của chúng ta thành các bước dễ hiểu hơn!
 ## Bước 1: Thiết lập thư mục đầu ra
-Trước khi bắt đầu mã hóa, chúng ta cần xác định thư mục đầu ra. Đây là nơi tệp Excel mới tạo của chúng ta sẽ nằm.
+Trước khi bắt đầu mã hóa, chúng ta cần xác định thư mục đầu ra. Đây là nơi lưu trữ tệp Excel mới tạo của chúng ta.
 ```csharp
 // Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Hãy chắc chắn điều chỉnh theo hướng đi của riêng bạn.
@@ -64,7 +66,7 @@ Bây giờ là lúc tạo một dãy ô và hợp nhất chúng:
 ```csharp
 // Tạo một phạm vi A1:B1
 Range range = _worksheet.Cells.CreateRange(0, 0, 1, 2);
-// Gộp các ô lại
+// Hợp nhất các ô
 range.Merge();
 ```
 Bằng cách hợp nhất các ô A1 và B1, về cơ bản chúng ta đang hợp nhất chúng thành một ô lớn hơn—hoàn hảo để chứa nhiều văn bản hơn. 
@@ -83,12 +85,12 @@ Aspose.Cells.Style style = _worksheet.Cells[0, 0].GetStyle();
 ```
 Dòng này ghi lại cài đặt kiểu hiện tại cho ô của chúng ta, cho phép chúng ta tùy chỉnh thêm.
 ## Bước 7: Thiết lập ngắt dòng văn bản
-Tiếp theo, chúng ta sẽ kích hoạt tính năng ngắt dòng cho ô đã hợp nhất:
+Tiếp theo, chúng ta sẽ kích hoạt tính năng ngắt dòng văn bản cho ô đã hợp nhất:
 ```csharp
 // Đặt văn bản bao quanh trên
 style.IsTextWrapped = true;
 ```
-Bật tính năng ngắt dòng văn bản giống như điều chỉnh lề trong tài liệu Word; nó giúp văn bản của chúng ta vừa vặn mà không tràn vào các ô liền kề.
+Bật tính năng ngắt dòng văn bản giống như điều chỉnh lề trong tài liệu Word; nó giúp văn bản vừa vặn mà không tràn vào các ô liền kề.
 ## Bước 8: Áp dụng Kiểu cho Ô
 Chúng ta cần áp dụng lại phong cách mới tuyệt vời đó vào ô đã hợp nhất:
 ```csharp
@@ -113,7 +115,7 @@ options.AutoFitMergedCellsType = AutoFitMergedCellsType.EachLine;
 ## Bước 11: Tự động điều chỉnh các hàng trong bảng tính
 Bây giờ, cuối cùng chúng ta có thể sử dụng phép thuật của Excel để tự động điều chỉnh các hàng của mình:
 ```csharp
-//Tự động điều chỉnh các hàng trong trang tính (bao gồm cả các ô đã hợp nhất)
+// Tự động điều chỉnh các hàng trong trang tính (bao gồm cả các ô đã hợp nhất)
 _worksheet.AutoFitRows(options);
 ```
 Lúc này, các hàng trong bảng tính của chúng ta sẽ giãn ra và co lại để hiển thị nội dung một cách đẹp mắt. 
@@ -132,21 +134,23 @@ Console.WriteLine("AutofitRowsforMergedCells executed successfully.\r\n");
 Điều này đảm bảo bạn biết rằng không có trục trặc nào trong quá trình thực thi mã của bạn. Bây giờ bạn có thể ngồi lại, thư giãn và chiêm ngưỡng thành quả lao động của mình!
 ## Phần kết luận
 Chỉ trong vài bước, chúng tôi đã giải mã được bí ẩn của việc tự động điều chỉnh các hàng cho các ô đã hợp nhất trong Excel bằng Aspose.Cells cho .NET. Bằng cách làm theo hướng dẫn này, bạn không chỉ có được một kỹ năng có giá trị mà còn giải thoát bản thân khỏi sự bực bội khi gặp sự cố định dạng trong Excel. Cho dù bạn đang quản lý dữ liệu cho một dự án tại nơi làm việc hay lập ngân sách cá nhân, những kỹ năng này chắc chắn sẽ hữu ích.
-Vậy thì tại sao không thử nhỉ? Hãy thử trình soạn thảo mã của bạn và bắt đầu thử nghiệm những gì bạn đã học được hôm nay. Bản thân bạn trong tương lai (và bất kỳ đồng nghiệp nào có thể nhìn thấy bảng tính của bạn) sẽ cảm ơn bạn.
+Vậy, tại sao không thử xem? Hãy vào trình soạn thảo mã của bạn và bắt đầu thử nghiệm những gì bạn đã học được hôm nay. Bản thân bạn trong tương lai (và bất kỳ đồng nghiệp nào có thể nhìn thấy bảng tính của bạn) sẽ cảm ơn bạn.
 ## Câu hỏi thường gặp
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ cho phép bạn tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các chức năng của nó. Chỉ cần vào[đây](https://releases.aspose.com/) để bắt đầu.
+Có! Aspose.Cells cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các chức năng của nó. Chỉ cần vào [đây](https://releases.aspose.com/) để bắt đầu.
 ### Làm thế nào để cài đặt Aspose.Cells?
- Bạn có thể dễ dàng cài đặt nó bằng NuGet trong Visual Studio với lệnh:`Install-Package Aspose.Cells`.
+Bạn có thể dễ dàng cài đặt nó bằng NuGet trong Visual Studio với lệnh: `Install-Package Aspose.Cells`.
 ### Tôi có thể sử dụng ngôn ngữ lập trình nào với Aspose.Cells?
 Được thiết kế chủ yếu cho .NET, Aspose.Cells cũng có thể được sử dụng với các ngôn ngữ tương thích .NET khác như C# và VB.NET.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm thấy trợ giúp và tài nguyên trên diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy trợ giúp và tài nguyên trên diễn đàn Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

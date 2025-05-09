@@ -1,30 +1,32 @@
 ---
-title: Rilevamento del riferimento circolare in Excel tramite programmazione
-linktitle: Rilevamento del riferimento circolare in Excel tramite programmazione
-second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Rileva facilmente riferimenti circolari in Excel usando Aspose.Cells per .NET. Segui la nostra guida passo passo per garantire calcoli accurati nei tuoi fogli di calcolo.
-weight: 13
-url: /it/net/excel-formulas-and-calculation-options/detecting-circular-reference/
+"description": "Rileva facilmente i riferimenti circolari in Excel utilizzando Aspose.Cells per .NET. Segui la nostra guida passo passo per garantire calcoli accurati nei tuoi fogli di calcolo."
+"linktitle": "Rilevamento del riferimento circolare in Excel a livello di programmazione"
+"second_title": "API di elaborazione Excel .NET Aspose.Cells"
+"title": "Rilevamento del riferimento circolare in Excel a livello di programmazione"
+"url": "/it/net/excel-formulas-and-calculation-options/detecting-circular-reference/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rilevamento del riferimento circolare in Excel tramite programmazione
+# Rilevamento del riferimento circolare in Excel a livello di programmazione
 
 ## Introduzione
-Quando si tratta di lavorare con file Excel, uno dei problemi più frustranti che potresti incontrare è un riferimento circolare. Ciò accade quando una formula fa riferimento alla propria cella, direttamente o indirettamente, creando un loop che può confondere il motore di calcolo di Excel. Ma non temere! Con Aspose.Cells per .NET, puoi rilevare a livello di programmazione questi fastidiosi riferimenti circolari, assicurandoti che i tuoi fogli di calcolo rimangano funzionali e precisi. In questa guida, ti guideremo passo dopo passo nel processo, rendendolo semplice come una torta.
+Quando si lavora con i file Excel, uno dei problemi più frustranti che si possono incontrare è il riferimento circolare. Questo accade quando una formula fa riferimento alla propria cella, direttamente o indirettamente, creando un loop che può confondere il motore di calcolo di Excel. Ma niente paura! Con Aspose.Cells per .NET, è possibile rilevare a livello di codice questi fastidiosi riferimenti circolari, garantendo la funzionalità e l'accuratezza dei fogli di calcolo. In questa guida, vi guideremo passo dopo passo attraverso il processo, rendendolo semplicissimo.
 ## Prerequisiti
 Prima di addentrarci nei dettagli del rilevamento dei riferimenti circolari, assicuriamoci di avere tutto il necessario per iniziare:
-1. Visual Studio: assicurati di avere Visual Studio installato sul tuo computer. Questo sarà il tuo ambiente di sviluppo.
+1. Visual Studio: assicurati di aver installato Visual Studio sul tuo computer. Questo sarà il tuo ambiente di sviluppo.
 2. .NET Framework: assicurati di utilizzare una versione compatibile di .NET Framework (almeno .NET Framework 4.0).
-3.  Libreria Aspose.Cells: devi avere la libreria Aspose.Cells. Puoi scaricarla da[Sito web di Aspose](https://releases.aspose.com/cells/net/).
+3. Libreria Aspose.Cells: è necessaria la libreria Aspose.Cells. È possibile scaricarla da [Sito web di Aspose](https://releases.aspose.com/cells/net/).
 4. Conoscenza di base di C#: la familiarità con la programmazione C# sarà utile poiché scriveremo codice in questo linguaggio.
-5. File Excel: Tieni pronto un file Excel che contenga riferimenti circolari per i test. Puoi crearne uno semplice o scaricare un campione.
+5. File Excel: tieni pronto un file Excel contenente riferimenti circolari per i test. Puoi crearne uno semplice o scaricare un esempio.
 Ora che abbiamo chiarito i prerequisiti, passiamo alla parte divertente!
 ## Importa pacchetti
-Prima di poter iniziare a programmare, devi importare i pacchetti necessari. Ecco come fare:
+Prima di iniziare a programmare, è necessario importare i pacchetti necessari. Ecco come fare:
 ### Crea un nuovo progetto
 - Aprire Visual Studio e creare un nuovo progetto di applicazione console C#.
 ### Aggiungi riferimento Aspose.Cells
@@ -32,7 +34,7 @@ Prima di poter iniziare a programmare, devi importare i pacchetti necessari. Ecc
 - Seleziona "Gestisci pacchetti NuGet".
 - Cerca “Aspose.Cells” e installa la versione più recente.
 ### Importa gli spazi dei nomi richiesti
- In cima al tuo`Program.cs` file, importa gli spazi dei nomi necessari:
+In cima al tuo `Program.cs` file, importa gli spazi dei nomi necessari:
 ```csharp
 using System;
 using System.Collections;
@@ -48,14 +50,14 @@ Per prima cosa, devi specificare la directory in cui si trova il tuo file Excel.
 // Directory di input
 string sourceDir = "Your Document Directory";
 ```
- Sostituire`"Your Document Directory"` con il percorso effettivo del file Excel.
+Sostituire `"Your Document Directory"` con il percorso effettivo del file Excel.
 ## Passaggio 2: caricare la cartella di lavoro con LoadOptions
-Poi, caricherai la tua cartella di lavoro Excel. È qui che inizia la magia!
+Ora, carica la tua cartella di lavoro Excel. È qui che inizia la magia!
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 var objWB = new Aspose.Cells.Workbook(sourceDir + "Circular Formulas.xls", loadOptions);
 ```
- Qui stiamo creando una nuova istanza di`LoadOptions` e caricando la cartella di lavoro dal percorso specificato. Assicurati che il nome del file Excel corrisponda!
+Qui stiamo creando una nuova istanza di `LoadOptions` e carica la cartella di lavoro dal percorso specificato. Assicurati che il nome del file Excel corrisponda!
 ## Passaggio 3: abilitare le impostazioni di iterazione
 Per consentire riferimenti circolari, è necessario abilitare le impostazioni di iterazione nella cartella di lavoro.
 ```csharp
@@ -69,7 +71,7 @@ CalculationOptions copts = new CalculationOptions();
 CircularMonitor cm = new CircularMonitor();
 copts.CalculationMonitor = cm;
 ```
- Qui stiamo creando un'istanza di`CalculationOptions` e un'usanza`CircularMonitor`Questo monitor aiuterà a tenere traccia di eventuali riferimenti circolari trovati durante i calcoli.
+Qui stiamo creando un'istanza di `CalculationOptions` e un'usanza `CircularMonitor`Questo monitor aiuterà a tenere traccia di eventuali riferimenti circolari trovati durante i calcoli.
 ## Passaggio 5: calcolare le formule
 Adesso è il momento di calcolare le formule presenti nella tua cartella di lavoro.
 ```csharp
@@ -77,19 +79,19 @@ objWB.CalculateFormula(copts);
 ```
 Questa riga esegue il calcolo e controlla i riferimenti circolari.
 ## Passaggio 6: contare i riferimenti circolari
-Dopo il calcolo, è possibile contare quanti riferimenti circolari sono stati trovati.
+Dopo il calcolo, puoi contare quanti riferimenti circolari sono stati trovati.
 ```csharp
 long lngCircularRef = cm.circulars.Count;
 Console.WriteLine("Circular References found - " + lngCircularRef);
 ```
-Verrà visualizzato il numero di riferimenti circolari rilevati nel file Excel.
+Questo restituirà il numero di riferimenti circolari rilevati nel file Excel.
 ## Passaggio 7: visualizzare i risultati
-Infine, visualizziamo i risultati e confermiamo che il nostro metodo è stato eseguito correttamente.
+Infine, mostriamo i risultati e confermiamo che il nostro metodo è stato eseguito correttamente.
 ```csharp
 Console.WriteLine("DetectCircularReference executed successfully.\r\n");
 ```
 ## Passaggio 8: implementare la classe CircularMonitor
- Per completare il processo, dovrai implementare il`CircularMonitor` classe. Questa classe erediterà da`AbstractCalculationMonitor` e gestire il rilevamento dei riferimenti circolari.
+Per completare il processo, sarà necessario implementare `CircularMonitor` classe. Questa classe erediterà da `AbstractCalculationMonitor` e gestire il rilevamento dei riferimenti circolari.
 ```csharp
 public class CircularMonitor : AbstractCalculationMonitor
 {
@@ -109,23 +111,25 @@ public class CircularMonitor : AbstractCalculationMonitor
     }
 }
 ```
-Questa classe cattura i dettagli di ogni riferimento circolare trovato, incluso il nome del foglio di lavoro e l'indice della cella.
+Questa classe cattura i dettagli di ogni riferimento circolare trovato, tra cui il nome del foglio di lavoro e l'indice della cella.
 ## Conclusione
-Rilevare riferimenti circolari in Excel usando Aspose.Cells per .NET è un processo semplice una volta suddiviso in passaggi gestibili. Seguendo questa guida, puoi identificare e gestire facilmente i riferimenti circolari nei tuoi fogli di calcolo, assicurandoti che i tuoi calcoli rimangano accurati e affidabili. Che tu sia uno sviluppatore esperto o alle prime armi, Aspose.Cells fornisce potenti strumenti per migliorare le tue capacità di manipolazione di Excel. 
+Rilevare riferimenti circolari in Excel utilizzando Aspose.Cells per .NET è un processo semplice, una volta suddiviso in passaggi gestibili. Seguendo questa guida, puoi identificare e gestire facilmente i riferimenti circolari nei tuoi fogli di calcolo, garantendo calcoli accurati e affidabili. Che tu sia uno sviluppatore esperto o alle prime armi, Aspose.Cells offre potenti strumenti per migliorare le tue capacità di manipolazione di Excel. 
 ## Domande frequenti
 ### Che cosa è un riferimento circolare in Excel?
 Un riferimento circolare si verifica quando una formula fa riferimento alla propria cella, causando un ciclo infinito nei calcoli.
-### Come posso rilevare i riferimenti circolari a livello di programmazione?
+### Come posso rilevare riferimenti circolari a livello di programmazione?
 È possibile utilizzare la libreria Aspose.Cells in .NET per rilevare a livello di programmazione i riferimenti circolari implementando un monitor di calcolo personalizzato.
 ### Quali sono i prerequisiti per utilizzare Aspose.Cells?
 È necessario che siano installati Visual Studio, .NET Framework e la libreria Aspose.Cells.
 ### Posso usare Aspose.Cells gratuitamente?
 Sì, Aspose.Cells offre una prova gratuita che puoi utilizzare per esplorarne le funzionalità.
 ### Dove posso trovare maggiori informazioni su Aspose.Cells?
- Puoi visitare il[Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) per informazioni dettagliate ed esempi.
+Puoi visitare il [Documentazione di Aspose.Cells](https://reference.aspose.com/cells/net/) per informazioni dettagliate ed esempi.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

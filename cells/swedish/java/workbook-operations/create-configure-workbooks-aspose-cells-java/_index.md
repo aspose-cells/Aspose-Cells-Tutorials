@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -222,7 +224,7 @@ den här handledningen gick vi igenom viktiga funktioner för att skapa och konf
 
 För att ytterligare förbättra dina färdigheter, utforska ytterligare funktioner som erbjuds av Aspose.Cells. Försök att integrera det med andra system eller experimentera med mer komplexa datavalideringsregler.
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Hur installerar jag Aspose.Cells för Java?**
    - Använd Maven eller Gradle för att lägga till beroendet och konfigurera ditt projekt därefter.
@@ -251,6 +253,9 @@ För att ytterligare förbättra dina färdigheter, utforska ytterligare funktio
 Nu när du har alla verktyg och kunskaper till ditt förfogande kan du börja experimentera med Aspose.Cells för Java för att effektivisera dina Excel-relaterade uppgifter i Java-applikationer. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

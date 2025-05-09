@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ A5: Ja, Aspose.Cells ondersteunt integratie met verschillende bedrijfssystemen v
 - **Download**: Bekijk de nieuwste releases op [Aspose-downloads](https://releases.aspose.com/cells/java/)
 - **Aankoop**: Koop een licentie voor commercieel gebruik op [Aspose Aankoop](https://purchase.aspose.com/buy)
 - **Gratis proefperiode**: Begin met een gratis proefperiode vanaf [Aspose gratis proefperiode](https://releases.aspose.com/cells/java/)
-- **Tijdelijke licentie**Verkrijg een tijdelijke licentie via [Aspose Tijdelijke Licentie](https://purchase.aspose.com/temporary-license/)
+- **Tijdelijke licentie**: Verkrijg een tijdelijke licentie via [Aspose Tijdelijke Licentie](https://purchase.aspose.com/temporary-license/)
 - **Steun**: Krijg hulp van de community op [Aspose Ondersteuningsforum](https://forum.aspose.com/c/cells/9)
 
 Door deze handleiding te volgen, bent u goed op weg met het implementeren van krachtige globalisatiefuncties in Java-applicaties met Aspose.Cells. Veel plezier met coderen!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

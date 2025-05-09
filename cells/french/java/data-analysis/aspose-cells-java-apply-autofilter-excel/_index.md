@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ Vous maîtrisez l'automatisation des tâches de filtrage Excel avec Aspose.Cells
 - **Soutien**:Rejoignez le forum communautaire à [Assistance Aspose](https://forum.aspose.com/c/cells/9) pour obtenir de l'aide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

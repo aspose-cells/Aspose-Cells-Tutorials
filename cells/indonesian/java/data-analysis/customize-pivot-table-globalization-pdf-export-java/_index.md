@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Kustomisasi Globalisasi Tabel Pivot & Ekspor PDF di Java dengan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan dalam menyesuaikan label tabel pivot atau mengekspornya ke PDF? Tutorial ini memandu Anda dalam menerapkan solusi yang tangguh menggunakan pustaka Aspose.Cells for Java yang canggih. Pelajari cara menyesuaikan pengaturan globalisasi tabel pivot dan menyimpan hasil Anda sebagai PDF, yang memastikan presentasi data Anda akurat dan menarik secara visual.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Sesuaikan label tabel pivot dengan nama tertentu
 - Terapkan pengaturan globalisasi kustom di buku kerja Excel
 - Ekspor tabel pivot yang disesuaikan ke format PDF
@@ -25,10 +27,10 @@ Kesulitan dalam menyesuaikan label tabel pivot atau mengekspornya ke PDF? Tutori
 
 Siap untuk meningkatkan keterampilan presentasi data Anda? Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki:
-- **Pustaka Aspose.Cells**: Versi 25.3 atau yang lebih baru.
+Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
+- **Aspose.Cells könyvtár**: Versi 25.3 atau yang lebih baru.
 - **Kit Pengembangan Java (JDK)**: JDK harus diinstal dan disiapkan pada sistem Anda.
 - **Pengaturan IDE**Gunakan IDE seperti IntelliJ IDEA atau Eclipse untuk manajemen kode yang lebih mudah.
 
@@ -54,13 +56,13 @@ Untuk pengguna Gradle, sertakan ini dalam berkas build Anda:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Untuk memanfaatkan Aspose.Cells sepenuhnya tanpa batasan evaluasi:
-- **Uji Coba Gratis**: Unduh lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**: Pertimbangkan untuk membeli untuk penggunaan jangka panjang.
+- **Ingyenes próbaverzió**: Unduh lisensi sementara dari [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás**: Pertimbangkan untuk membeli untuk penggunaan jangka panjang.
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Mulailah dengan menginisialisasi buku kerja Anda dan menyiapkan lingkungan:
 
@@ -69,17 +71,17 @@ Workbook workbook = new Workbook("path/to/excel/file.xlsx");
 // Terapkan pengaturan atau manipulasi sesuai kebutuhan
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan menguraikannya menjadi dua fitur utama: menyesuaikan pengaturan globalisasi tabel pivot dan mengekspor ke PDF.
 
 ### Pengaturan Globalisasi Tabel Pivot Kustom
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini memungkinkan Anda menentukan label spesifik untuk berbagai komponen tabel pivot, memberikan kontrol lebih besar atas tampilannya di berbagai lokal atau format yang disesuaikan.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 1. **Tentukan Label Kustom**
    Buat kelas yang memperluas `GlobalizationSettings`:
 
@@ -102,11 +104,11 @@ Fitur ini memungkinkan Anda menentukan label spesifik untuk berbagai komponen ta
 
 ### Mengekspor ke PDF
 
-#### Ringkasan
+#### Áttekintés
 
 Setelah menyiapkan tabel pivot, Anda mungkin ingin mengekspornya sebagai PDF. Bagian ini menunjukkan cara menyimpan buku kerja Excel yang telah disesuaikan secara efisien.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 1. **Sembunyikan Lembar Data**
    Jika lembar data tidak diperlukan dalam keluaran akhir:
 
@@ -127,7 +129,7 @@ Setelah menyiapkan tabel pivot, Anda mungkin ingin mengekspornya sebagai PDF. Ba
    pt.setRefreshDataFlag(false);
    ```
 
-3. **Simpan sebagai PDF**
+3. **Mentés PDF-ként**
    Siapkan opsi penyimpanan dan ekspor Anda:
 
    ```java
@@ -137,31 +139,31 @@ Setelah menyiapkan tabel pivot, Anda mungkin ingin mengekspornya sebagai PDF. Ba
    wb.save("YOUR_OUTPUT_DIRECTORY/outputPivotTableGlobalizationSettings.pdf", options);
    ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Pelaporan Keuangan**Sesuaikan tabel pivot untuk menampilkan data keuangan dalam format lokal.
+- **Pénzügyi jelentéstétel**Sesuaikan tabel pivot untuk menampilkan data keuangan dalam format lokal.
 - **Analisis Data Penjualan**: Ekspor laporan penjualan sebagai PDF untuk memudahkan distribusi dan pengarsipan.
-- **Manajemen Inventaris**: Gunakan penyesuaian tabel pivot untuk pelacakan inventaris yang lebih baik.
+- **Készletgazdálkodás**: Gunakan penyesuaian tabel pivot untuk pelacakan inventaris yang lebih baik.
 
 Jelajahi bagaimana aplikasi ini dapat menyederhanakan proses bisnis Anda!
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Manajemen Memori**: Buang benda-benda besar untuk mencegah kebocoran memori.
+- **Memóriakezelés**: Buang benda-benda besar untuk mencegah kebocoran memori.
 - **Efisiensi**: Perbarui data hanya bila diperlukan untuk menghemat waktu pemrosesan.
 - **Optimalkan Pengaturan**: Memanfaatkan pengaturan kinerja Aspose.Cells untuk penanganan kumpulan data besar yang lebih baik.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah menguasai penyesuaian pengaturan globalisasi tabel pivot dan mengekspornya sebagai PDF menggunakan Aspose.Cells di Java. Keterampilan ini akan meningkatkan kemampuan Anda untuk menyajikan data secara efektif di berbagai platform dan format.
 
-### Langkah Berikutnya:
+### Következő lépések:
 - Bereksperimenlah dengan konfigurasi label yang berbeda.
 - Jelajahi lebih banyak fitur dalam pustaka Aspose.Cells untuk penyesuaian lebih lanjut.
 
 Siap menerapkan solusi ini? Mulailah dengan mencoba proyek sederhana hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bisakah saya menggunakan Aspose.Cells tanpa Java?**
    - Tidak, panduan ini khusus untuk implementasi Java menggunakan Aspose.Cells untuk Java.
@@ -178,17 +180,20 @@ Siap menerapkan solusi ini? Mulailah dengan mencoba proyek sederhana hari ini!
 5. **Bagaimana cara memecahkan masalah kesalahan kustomisasi label?**
    - Periksa ulang metode penggantian di `GlobalizationSettings` ekstensi dan pastikan cocok dengan format yang diharapkan Aspose.Cells.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
-- [Unduh Versi Terbaru](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
+- [Legújabb verzió letöltése](https://releases.aspose.com/cells/java/)
+- [Licencek vásárlása](https://purchase.aspose.com/buy)
 - [Dapatkan Lisensi Uji Coba Gratis](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Ambil langkah berikutnya dalam perjalanan pengelolaan data Anda dengan Aspose.Cells untuk Java!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

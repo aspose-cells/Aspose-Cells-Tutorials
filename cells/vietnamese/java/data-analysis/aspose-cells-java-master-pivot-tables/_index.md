@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Khám phá các tính năng khác của Aspose.Cells như tạo biểu đồ, t�
 ## Phần Câu hỏi thường gặp
 
 1. **Làm thế nào để tích hợp Aspose.Cells vào ứng dụng Spring Boot?**
-   - Thêm sự phụ thuộc vào bạn `pom.xml` và cấu hình nó trong lớp dịch vụ của bạn.
+   - Thêm sự phụ thuộc vào `pom.xml` và cấu hình nó trong lớp dịch vụ của bạn.
 2. **Aspose.Cells có thể xử lý các tệp lớn một cách hiệu quả không?**
    - Có, với khả năng quản lý bộ nhớ và API phát trực tuyến phù hợp, nó có thể xử lý các tập dữ liệu lớn một cách hiệu quả.
 3. **Một số vấn đề thường gặp khi sửa đổi bảng trục là gì?**
@@ -172,6 +174,9 @@ Khám phá các tính năng khác của Aspose.Cells như tạo biểu đồ, t�
 - **Giấy phép tạm thời:** [Xin giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

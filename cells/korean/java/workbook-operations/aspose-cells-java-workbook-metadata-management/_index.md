@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ System.out.println(workbook.getCustomDocumentProperties().get("test"));
 Aspose.Cells를 사용하는 동안 최적의 성능을 보장하려면 다음과 같은 모범 사례를 고려하세요.
 
 - **리소스 사용 최적화:** 더 이상 필요하지 않은 통합 문서를 닫아 메모리를 효율적으로 관리하세요.
-- **일괄 처리:** 여러 파일을 다루는 경우 로드 시간을 줄이려면 일괄적으로 처리하세요.
+- **일괄 처리:** 여러 파일을 다루는 경우, 로드 시간을 줄이려면 일괄적으로 처리하세요.
 - **적절한 데이터 유형을 사용하세요:** 불필요한 오버헤드를 방지하기 위해 사용자 정의 속성이 적절한 데이터 유형을 사용하는지 확인하세요.
 
 ## 결론
@@ -179,6 +181,9 @@ A5: 방문 [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9) 지역사�
 - **지원하다:** 커뮤니티 및 전문가 지원을 통해 접근하세요. [Aspose 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

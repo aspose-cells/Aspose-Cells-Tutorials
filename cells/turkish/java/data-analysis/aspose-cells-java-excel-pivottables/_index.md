@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 
 Workbook workbook = new Workbook(); // Bir Çalışma Kitabı nesnesini örneklendirir
 ```
-##### Adım 2: Bir Çalışma Sayfası Ekleyin ve Erişim Sağlayın
+##### Adım 2: Bir Çalışma Sayfası Ekleyin ve Erişin
 Daha sonra çalışma kitabınıza bir çalışma sayfası ekleyin ve sonraki işlemler için bu sayfaya erişin:
 
 ```java
@@ -109,7 +111,7 @@ Analiz için çalışma sayfasını örnek verilerle doldurun:
 cell = cells.get("A2"); cell.setValue("Golf");
 cell = cells.get("B2"); cell.setValue("Qtr3");
 cell = cells.get("C2"); cell.setValue(1500);
-// Gerektiğinde diğer satırları doldurmaya devam edin...
+// Gerektiği takdirde diğer satırları doldurmaya devam edin...
 ```
 ### PivotTable Ekleme
 #### Genel bakış
@@ -176,6 +178,9 @@ Sonraki adımlar olarak, grafik oluşturma veya gelişmiş biçimlendirme seçen
 - **İndirmeler:** Aspose.Cells for Java'nın en son sürümünü resmi sitelerinden edinin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

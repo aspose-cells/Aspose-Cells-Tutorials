@@ -1,14 +1,16 @@
 ---
-title: Thêm điều khiển TextBox vào biểu đồ
-linktitle: Thêm điều khiển TextBox vào biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm TextBox vào biểu đồ trong Excel bằng Aspose.Cells cho .NET. Nâng cao khả năng trực quan hóa dữ liệu của bạn một cách dễ dàng.
-weight: 12
-url: /vi/net/inserting-controls-in-charts/add-textbox-control-to-chart/
+"description": "Tìm hiểu cách thêm TextBox vào biểu đồ trong Excel bằng Aspose.Cells cho .NET. Nâng cao khả năng trực quan hóa dữ liệu của bạn một cách dễ dàng."
+"linktitle": "Thêm điều khiển TextBox vào biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm điều khiển TextBox vào biểu đồ"
+"url": "/vi/net/inserting-controls-in-charts/add-textbox-control-to-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm điều khiển TextBox vào biểu đồ
@@ -22,11 +24,11 @@ Tạo biểu đồ động và hấp dẫn trực quan trong Excel là một cá
 Trước khi bắt đầu viết mã, bạn cần chuẩn bị một số điều sau:
 
 - Hiểu biết cơ bản về C#: Nắm vững cơ bản về lập trình C# sẽ hữu ích. Đừng lo lắng; bạn không cần phải là chuyên gia, chỉ cần thoải mái điều hướng cú pháp.
--  Thư viện Aspose.Cells đã cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for .NET. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+- Thư viện Aspose.Cells đã cài đặt: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells for .NET. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 - Visual Studio: Điều cần thiết là phải quen thuộc với Visual Studio hoặc bất kỳ IDE nào mà bạn muốn sử dụng cho .NET framework.
 - Tệp Excel hiện có: Đối với ví dụ này, chúng ta sẽ làm việc với tệp Excel hiện có có tên "sampleAddingTextBoxControlInChart.xls". Bạn có thể tạo một tệp hoặc tải xuống mẫu.
 
-Bây giờ chúng ta đã có mọi thứ, hãy bắt đầu phần viết mã!
+Bây giờ chúng ta đã có mọi thứ, hãy chuyển sang phần viết mã!
 
 ## Nhập gói
 
@@ -42,7 +44,7 @@ using System.Drawing;
 
 ## Bước 1: Xác định thư mục nguồn và thư mục đầu ra của bạn
 
-Trước khi bắt đầu làm việc với tệp Excel, điều quan trọng là phải xác định tệp đầu vào của bạn nằm ở đâu và bạn muốn lưu tệp đầu ra ở đâu. Điều này giúp duy trì tổ chức cho dự án của bạn.
+Trước khi bắt đầu làm việc với tệp Excel, điều quan trọng là phải xác định tệp đầu vào của bạn nằm ở đâu và bạn muốn lưu tệp đầu ra ở đâu. Điều này giúp duy trì sự ngăn nắp cho dự án của bạn.
 
 ```csharp
 // Thư mục nguồn
@@ -51,7 +53,7 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outputDir = "Your Output Directory";
 ```
- Thay thế`"Your Document Directory"` Và`"Your Output Directory"` với các đường dẫn thực tế trên hệ thống của bạn.
+Thay thế `"Your Document Directory"` Và `"Your Output Directory"` với các đường dẫn thực tế trên hệ thống của bạn.
 
 ## Bước 2: Mở tệp Excel hiện có
 
@@ -142,7 +144,7 @@ Bước cuối cùng là lưu các thay đổi bạn đã thực hiện vào m�
 // Lưu tệp excel.
 workbook.Save(outputDir + "outputAddingTextBoxControlInChart.xls");
 ```
- Thay thế`"outputAddingTextBoxControlInChart.xls"` với bất kỳ tên tệp nào bạn thích.
+Thay thế `"outputAddingTextBoxControlInChart.xls"` với bất kỳ tên tệp nào bạn thích.
 
 ## Phần kết luận
 
@@ -157,16 +159,18 @@ Aspose.Cells for .NET là một thư viện mạnh mẽ để tạo, thao tác v
 Có! Bạn có thể thêm bao nhiêu TextBox tùy ý bằng cách lặp lại các bước tạo TextBox với các vị trí khác nhau.
 
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells là một thư viện trả phí, nhưng bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Aspose.Cells là một thư viện trả phí, nhưng bạn có thể tải xuống phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể truy cập tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể truy cập tài liệu toàn diện [đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể tìm kiếm sự hỗ trợ thông qua diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự hỗ trợ thông qua diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,58 +1,60 @@
 ---
-title: Menyimpan Tabel Pivot dalam Format ODS Secara Terprogram di .NET
-linktitle: Menyimpan Tabel Pivot dalam Format ODS Secara Terprogram di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menyimpan Tabel Pivot dalam format ODS menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini.
-weight: 25
-url: /id/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Pelajari cara menyimpan Tabel Pivot dalam format ODS menggunakan Aspose.Cells untuk .NET dengan panduan langkah demi langkah ini."
+"linktitle": "Menyimpan Tabel Pivot dalam Format ODS Secara Terprogram di .NET"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Menyimpan Tabel Pivot dalam Format ODS Secara Terprogram di .NET"
+"url": "/id/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Menyimpan Tabel Pivot dalam Format ODS Secara Terprogram di .NET
 
-## Perkenalan
+## Bevezetés
 Dalam hal mengelola data dalam spreadsheet, tidak ada yang dapat menandingi kekuatan Pivot Table. Pivot Table merupakan alat yang tepat untuk meringkas, menganalisis, dan menyajikan kumpulan data yang kompleks. Hari ini, kita akan membahas penggunaan Aspose.Cells untuk .NET guna menyimpan Pivot Table dalam format ODS. Baik Anda seorang pengembang berpengalaman atau baru mulai menggunakan .NET, panduan ini akan sangat mudah dipahami. 
 Mari kita mulai!
-## Prasyarat
+## Előfeltételek
 Sebelum kita masuk ke kode, ada beberapa hal penting yang Anda perlukan:
 ### 1. Pengetahuan Dasar tentang .NET
 Memiliki pemahaman dasar tentang .NET dan konsep pemrogramannya akan membantu Anda mengikutinya dengan mudah.
-### 2. Aspose.Cells untuk .NET
- Anda perlu menginstal Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari[Aspose merilis halaman](https://releases.aspose.com/cells/net/) Versi uji coba juga tersedia[Di Sini](https://releases.aspose.com/).
+### 2. Aspose.Cells .NET-hez
+Anda perlu menginstal Aspose.Cells untuk .NET. Anda dapat mengunduhnya dari [Aspose kiadási oldal](https://releases.aspose.com/cells/net/)Versi uji coba juga tersedia [itt](https://releases.aspose.com/).
 ### 3. Lingkungan Pengembangan
 Pastikan Anda memiliki IDE seperti Visual Studio tempat Anda dapat menulis dan menguji kode .NET Anda.
 ### 4. Sedikit Kesabaran
 Seperti halnya usaha pengkodean apa pun, kesabaran adalah kuncinya. Jangan khawatir jika sesuatu tidak berjalan sempurna pada awalnya; debugging adalah bagian dari prosesnya.
-## Paket Impor
+## Csomagok importálása
 Untuk bekerja dengan Aspose.Cells, Anda perlu mengimpor namespace yang diperlukan. Tambahkan perintah using berikut di awal berkas kode Anda:
 ```csharp
 using System;
 using Aspose.Cells.Pivot;
 ```
 Baris ini memungkinkan Anda mengakses semua fungsionalitas dalam pustaka Aspose.Cells, sehingga proses pengkodean Anda mudah.
-Sekarang, mari kita uraikan proses tersebut menjadi beberapa langkah yang dapat dikelola.
-## Langkah 1: Siapkan Direktori Output Anda
+Most pedig bontsuk le a folyamatot kezelhető lépésekre.
+## 1. lépés: A kimeneti könyvtár beállítása
 Pertama, Anda perlu menentukan di mana Anda ingin menyimpan berkas ODS. Ini adalah penetapan jalur direktori yang sederhana.
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Pada baris ini, ganti`"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan berkas.
-## Langkah 2: Buat Buku Kerja Baru
+Ebben a sorban cserélje ki `"Your Document Directory"` dengan jalur tempat Anda ingin menyimpan berkas.
+## 2. lépés: Új munkafüzet létrehozása
 Berikutnya, Anda akan membuat objek Buku Kerja baru, yang akan menampung semua data dan struktur Anda, termasuk Tabel Pivot.
 ```csharp
 Workbook workbook = new Workbook();
 ```
 Di sini, Anda pada dasarnya memulai dari awal—anggaplah ini sebagai kanvas kosong tempat Anda akan menciptakan karya agung Anda.
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: A munkalap elérése
 Sekarang setelah kita memiliki buku kerja, kita perlu mulai mengerjakan lembar kerja kita. Aspose.Cells memungkinkan Anda mengakses lembar kerja pertama yang tersedia dengan mudah.
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
 ```
 Baris ini membawa kita ke lembar pertama, siap untuk entri data.
-## Langkah 4: Mengisi Sel dengan Data
+## 4. lépés: Cellák feltöltése adatokkal
 Sekarang saatnya mengisi lembar kerja kita dengan beberapa data. Kita akan menggunakan contoh sederhana dari data penjualan olahraga. 
 Berikut ini cara Anda dapat mengatur nilai di berbagai sel:
 ```csharp
@@ -90,9 +92,9 @@ PivotTableCollection pivotTables = sheet.PivotTables;
 // Menambahkan PivotTable ke lembar kerja
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- Dalam cuplikan ini, kami menentukan rentang data untuk Tabel Pivot dan tempat untuk meletakkannya di lembar kerja. Rentang data`=A1:C8` mencakup area tempat data kami berada.
+Dalam cuplikan ini, kami menentukan rentang data untuk Tabel Pivot dan tempat untuk meletakkannya di lembar kerja. Rentang data `=A1:C8` mencakup area tempat data kami berada.
 ## Langkah 6: Sesuaikan Tabel Pivot Anda
-Selanjutnya, Anda perlu menyesuaikan Tabel Pivot sesuai kebutuhan. Hal ini meliputi pengaturan apa yang ditampilkan, bagaimana data tersebut dikategorikan, dan bagaimana data tersebut dihitung.
+Selanjutnya, Anda perlu menyesuaikan Tabel Pivot sesuai dengan kebutuhan Anda. Hal ini melibatkan pengaturan apa yang ditampilkan, bagaimana data tersebut dikategorikan, dan bagaimana data tersebut dihitung.
 ```csharp
 PivotTable pivotTable = pivotTables[index];
 // Tidak menampilkan total keseluruhan untuk baris.
@@ -106,7 +108,7 @@ pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
 pivotTable.CalculateData();
 ```
 Di sini, Anda memutuskan bidang data mana yang akan diringkas dan bagaimana bidang tersebut harus direpresentasikan. Ini seperti menyiapkan meja untuk pesta makan malam Anda; Anda memutuskan apa yang paling cocok dan bagaimana menyajikannya.
-## Langkah 7: Simpan Buku Kerja Anda
+## 7. lépés: Mentse el a munkafüzetét
 Akhirnya, Anda siap menyimpan pekerjaan Anda ke dalam format ODS yang diinginkan. Berikut cara melakukannya:
 ```csharp
 workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
@@ -118,22 +120,24 @@ Terakhir, sebaiknya periksa apakah prosesnya berhasil diselesaikan. Anda dapat m
 Console.WriteLine("PivotTableSaveInODS executed successfully.");
 ```
 Pesan ini akan muncul di konsol Anda untuk mengonfirmasi bahwa semuanya berjalan lancar. Seperti seorang koki yang memeriksa apakah semuanya sudah matang sempurna sebelum disajikan!
-## Kesimpulan 
+## Következtetés 
 Nah, itu dia! Anda tidak hanya membuat Tabel Pivot menggunakan Aspose.Cells, tetapi juga menyimpannya dalam format ODS. Panduan ini memandu Anda melalui setiap langkah, memastikan Anda dibekali dengan pengetahuan dan keyakinan untuk menangani tugas serupa di masa mendatang.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
+## GYIK
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka canggih yang memungkinkan Anda membuat dan memanipulasi file Excel dalam aplikasi .NET.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat mengunduh versi uji coba gratis dari[Situs web Aspose](https://releases.aspose.com/).
-### Format apa yang didukung Aspose.Cells?
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Anda dapat mengunduh versi uji coba gratis dari [Aspose weboldal](https://releases.aspose.com/).
+### Milyen formátumokat támogat az Aspose.Cells?
 Mendukung banyak format, termasuk XLSX, XLS, ODS, PDF, dan banyak lainnya.
-### Bagaimana cara mendapatkan dukungan untuk Aspose.Cells?
- Anda dapat menemukan bantuan di[Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
-### Apakah ada lisensi sementara yang tersedia?
- Ya, Anda dapat mengajukan lisensi sementara melalui situs Aspose[Di Sini](https://purchase.aspose.com/temporary-license/).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Anda dapat menemukan bantuan di [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
+### Van ideiglenes jogosítvány?
+Ya, Anda dapat mengajukan lisensi sementara melalui situs Aspose [itt](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

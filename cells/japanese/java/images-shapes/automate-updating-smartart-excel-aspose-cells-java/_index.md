@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ wb.save(outDir + "/outputSmartArt.xlsx", options);
 ```
 その `setUpdateSmartArt` このオプションにより、SmartArt の更新が正しく保存されます。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 Excel での SmartArt グラフィックの更新は、さまざまなドメインに適用できます。
 1. **ビジネスレポート**わかりやすくするために視覚的な要素を更新し、レポートの生成を自動化します。
@@ -175,6 +177,9 @@ A5: 訪問 [Asposeのドキュメント](https://reference.aspose.com/cells/java
 - **サポートフォーラム**ディスカッションに参加して助けを求める [Aspose サポートフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

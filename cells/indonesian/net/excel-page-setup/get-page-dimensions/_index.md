@@ -1,56 +1,58 @@
 ---
-title: Dapatkan Dimensi Halaman
-linktitle: Dapatkan Dimensi Halaman
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara mendapatkan dimensi halaman menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini. Sempurna untuk pengembang yang bekerja dengan file Excel.
-weight: 40
-url: /id/net/excel-page-setup/get-page-dimensions/
+"description": "Pelajari cara mendapatkan dimensi halaman menggunakan Aspose.Cells untuk .NET dalam panduan langkah demi langkah ini. Sempurna untuk pengembang yang bekerja dengan file Excel."
+"linktitle": "Dapatkan Dimensi Halaman"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Dapatkan Dimensi Halaman"
+"url": "/id/net/excel-page-setup/get-page-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dapatkan Dimensi Halaman
 
-## Perkenalan
+## Bevezetés
 
 Dalam hal penanganan spreadsheet dalam aplikasi .NET, pustaka Aspose.Cells menonjol sebagai alat tangguh yang memungkinkan pengembang untuk memanipulasi file Excel dengan mudah. Namun, bagaimana Anda mendapatkan dimensi halaman untuk berbagai ukuran kertas dengan pustaka canggih ini? Dalam tutorial ini, kami akan memandu Anda melalui proses ini langkah demi langkah, memastikan bahwa Anda tidak hanya memperoleh wawasan tentang cara kerja Aspose.Cells, tetapi juga menjadi mahir menggunakannya dalam proyek Anda. 
 
-## Prasyarat 
+## Előfeltételek 
 
 Sebelum kita masuk ke bagian pengkodean, ada beberapa hal yang perlu Anda persiapkan agar dapat mengikutinya secara efektif:
 
-### Bahasa Indonesia: Studio Visual
+### Vizuális Stúdió
 Pastikan Anda telah menginstal Visual Studio di komputer Anda. Di sinilah Anda akan menulis dan menjalankan kode .NET Anda.
 
-### Pustaka Aspose.Cells
+### Aspose.Cells könyvtár
 Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Anda bisa mendapatkannya dari:
--  Tautan Unduhan:[Aspose.Cells untuk .NET](https://releases.aspose.com/cells/net/)
+- Tautan Unduhan: [Aspose.Cells .NET-hez](https://releases.aspose.com/cells/net/)
 
-### Pengetahuan Dasar C#
-Akan sangat bermanfaat jika Anda memiliki pemahaman dasar tentang C#. Tutorial ini akan menggunakan konsep-konsep pemrograman dasar yang mudah diikuti.
+### C# alapismeretek
+Akan sangat bermanfaat jika Anda memiliki pemahaman dasar tentang C#. Tutorial ini akan menggunakan konsep pemrograman dasar yang mudah diikuti.
 
 Siap untuk memulai? Mari kita mulai!
 
-## Mengimpor Paket
+## Csomagok importálása
 
 Langkah pertama dalam perjalanan kita adalah mengimpor paket Aspose.Cells yang diperlukan ke dalam proyek C# kita. Berikut cara melakukannya:
 
-### Buat Proyek Baru
+### Új projekt létrehozása
 
- Buka Visual Studio dan buat proyek Aplikasi Konsol C# baru. Anda dapat menamainya apa pun yang Anda suka, mari kita mulai dengan`GetPageDimensions`.
+Buka Visual Studio dan buat proyek Aplikasi Konsol C# baru. Anda dapat menamainya apa pun yang Anda suka, mari kita mulai dengan `GetPageDimensions`.
 
-### Tambahkan Referensi
+### Referenciák hozzáadása
 
 Untuk menggunakan Aspose.Cells, Anda perlu menambahkan referensi ke pustaka:
-- Klik kanan pada proyek Anda di Solution Explorer.
-- Pilih “Kelola Paket NuGet”.
-- Cari “Aspose.Cells” dan instal.
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+- Válassza a „NuGet-csomagok kezelése” lehetőséget.
+- Keresd meg az „Aspose.Cells” fájlt, és telepítsd.
 
-### Tambahkan Menggunakan Arahan
+### Hozzáadás direktívák használatával
 
- Di bagian atas Anda`Program.cs` file, masukkan menggunakan direktif ini untuk mengakses fungsionalitas Aspose.Cells:
+A te tetején `Program.cs` file, masukkan menggunakan direktif ini untuk mengakses fungsionalitas Aspose.Cells:
 
 ```csharp
 using System;
@@ -73,7 +75,7 @@ Workbook book = new Workbook();
 
 Di sini, kita cukup membuat buku kerja baru yang akan menampung data dan konfigurasi spreadsheet kita.
 
-## Langkah 2: Akses Lembar Kerja Pertama
+## 2. lépés: Az első munkalap elérése
 
 Setelah membuat contoh buku kerja, Anda akan ingin mengakses lembar kerja pertama. Setiap buku kerja dapat berisi beberapa lembar kerja, tetapi untuk demonstrasi ini, kita akan menggunakan lembar kerja pertama.
 
@@ -127,29 +129,31 @@ Terakhir, Anda perlu mengonfirmasi bahwa seluruh operasi telah berhasil diselesa
 Console.WriteLine("GetPageDimensions executed successfully.\r\n");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Selamat! Anda kini telah berhasil mempelajari cara mengambil dimensi halaman untuk berbagai ukuran kertas menggunakan Aspose.Cells untuk .NET. Baik Anda sedang mengembangkan alat pelaporan, spreadsheet otomatis, atau fungsi analisis data, kemampuan mengambil dimensi halaman untuk berbagai format dapat sangat berharga. 
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka .NET yang digunakan untuk membuat, memanipulasi, dan mengonversi file Excel tanpa memerlukan Microsoft Excel.
 
 ### Apakah saya perlu menginstal Microsoft Excel untuk menggunakan Aspose.Cells?
 Tidak, Aspose.Cells adalah pustaka mandiri dan tidak memerlukan Excel untuk diinstal.
 
 ### Di mana saya dapat menemukan lebih banyak contoh untuk Aspose.Cells?
- Anda dapat memeriksa dokumentasinya di sini:[Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/net/).
+Anda dapat memeriksa dokumentasinya di sini: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/net/).
 
 ### Apakah ada versi uji coba gratis Aspose.Cells?
- Ya! Anda bisa mendapatkan versi uji coba gratis dari:[Uji Coba Gratis Aspose.Cells](https://releases.aspose.com/).
+Ya! Anda bisa mendapatkan versi uji coba gratis dari: [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/).
 
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan bantuan dengan mengunjungi forum dukungan Aspose:[Dukungan Aspose.Cells](https://forum.aspose.com/c/cells/9).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Anda bisa mendapatkan bantuan dengan mengunjungi forum dukungan Aspose: [Aspose.Cells támogatás](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

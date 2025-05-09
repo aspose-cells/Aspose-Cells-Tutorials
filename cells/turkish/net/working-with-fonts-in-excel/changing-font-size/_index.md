@@ -1,14 +1,16 @@
 ---
-title: Excel'de Yazı Tipi Boyutunu Değiştirme
-linktitle: Excel'de Yazı Tipi Boyutunu Değiştirme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET ile Excel'de yazı tipi boyutlarını nasıl değiştireceğinizi öğrenin. Bu kolay kılavuz, elektronik tablolarınızı daha çekici hale getirmek için adım adım kodlamada size yol gösterir.
-weight: 12
-url: /tr/net/working-with-fonts-in-excel/changing-font-size/
+"description": "Aspose.Cells for .NET ile Excel'de yazı tipi boyutlarını nasıl değiştireceğinizi öğrenin. Bu kolay kılavuz, elektronik tablolarınızı daha çekici hale getirmek için adım adım kodlamada size yol gösterir."
+"linktitle": "Excel'de Yazı Tipi Boyutunu Değiştirme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Yazı Tipi Boyutunu Değiştirme"
+"url": "/tr/net/working-with-fonts-in-excel/changing-font-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Yazı Tipi Boyutunu Değiştirme
@@ -21,7 +23,7 @@ Excel'de yazı tipi boyutlarını değiştirme yolculuğumuza başlamadan önce,
 1. Visual Studio: Öncelikle bilgisayarınızda Visual Studio veya uyumlu herhangi bir IDE yüklü olmalıdır.
 2. .NET Framework: .NET Framework'ün yüklü olduğundan emin olun; çoğu sürüm çalışır, ancak her zaman en son sürüme bağlı kalmak daha iyidir.
 ### .NET için Aspose.Cells
-3.  Aspose.Cells: Aspose.Cells paketini indirip kurmanız gerekiyor; bunu şuraya giderek yapabilirsiniz:[Aspose.Cells for .NET indirme sayfası](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells: Aspose.Cells paketini indirip kurmanız gerekiyor; bunu şuraya giderek yapabilirsiniz: [Aspose.Cells for .NET indirme sayfası](https://releases.aspose.com/cells/net/).
 ### C# Programlamanın Temel Bilgileri
 4. C# Temelleri: C# programlamaya aşinalık şarttır. Eğer henüz rahat değilseniz, temelleri tazelemeyi düşünün. 
 Tüm bu ön koşullar sağlandıktan sonra kodlamaya başlamaya hazırsınız!
@@ -48,14 +50,14 @@ if (!isExists)
 Bu kod parçası dizinin var olup olmadığını kontrol eder. Yoksa, bir tane oluşturur. Bunu bir projeye başlamadan önce temiz bir çalışma alanı hazırlamak olarak düşünün—önemli ama sıklıkla göz ardı edilir!
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 Şimdi yeni bir Excel dosyası oluşturmanın zamanı geldi. 
-Yeni bir çalışma kitabı (aslında bir Excel dosyası) oluşturmak için şu adımları izleyin:
+Yeni bir çalışma kitabı (aslında bir Excel dosyası) oluşturmak için şu adımları takip edebilirsiniz:
 ```csharp
 // Bir Çalışma Kitabı nesnesini örnekleme
 Workbook workbook = new Workbook();
 ```
 Bu aşamada, çalışma kitabınızın temelini atmış olursunuz. Bu, bir sanatçı için boş bir tuval açmaya benzer!
 ## Adım 3: Yeni bir Çalışma Sayfası Ekleyin
-Çalışma kitabınız hazır olduğuna göre, şimdi çalışmalarımızın çoğunu yapacağımız bir çalışma sayfası eklemenin zamanı geldi.
+Çalışma kitabınız hazır olduğuna göre, şimdi çalışmalarımızın çoğunu yapacağımız çalışma sayfasını eklemenin zamanı geldi.
 ```csharp
 // Excel nesnesine yeni bir çalışma sayfası ekleme
 int i = workbook.Worksheets.Add();
@@ -93,7 +95,7 @@ Bu satır, metninizin sunumunu değiştirmenize olanak tanır.
 // Yazı tipi boyutunu 14'e ayarlama
 style.Font.Size = 14;
 ```
-Boyutu tercihinize göre ayarlayabilirsiniz. Bunu bir sohbette sesinizin ne kadar yüksek veya alçak olmasını istediğinizi seçmek olarak düşünün - her şey doğru etkiyi yaratmakla ilgilidir!
+Boyutu tercihinize göre ayarlayabilirsiniz. Bunu bir sohbette sesinizin ne kadar yüksek veya alçak olmasını istediğinizi seçmek olarak düşünün; her şey doğru etkiyi yaratmakla ilgilidir!
 ## Adım 8: Stili Hücreye Uygula
 Yazı tipi boyutunu ayarladıktan sonra hücrede yaptığınız değişiklikleri uygulamanız gerekir.
 ```csharp
@@ -114,16 +116,18 @@ Tebrikler! Artık Aspose.Cells for .NET kullanarak Excel'de yazı tipi boyutunu 
 ### Aspose.Cells Nedir?
 Aspose.Cells, .NET uygulamalarında Excel dosyaları oluşturmak ve düzenlemek için güçlü bir kütüphanedir.
 ### Aspose.Cells'i ücretsiz denemede kullanabilir miyim?
- Evet! Ücretsiz denemeyi şu adresten alabilirsiniz:[web sitesi](https://releases.aspose.com/).
+Evet! Ücretsiz denemeyi şu adresten alabilirsiniz: [web sitesi](https://releases.aspose.com/).
 ### Aspose.Cells kullanıcıları için destek var mı?
- Kesinlikle! Yardım ve desteği şu adreste bulabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Yardım ve desteği şu adreste bulabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells kullanarak Excel dosyalarını hangi dosya biçimlerinde kaydedebilirim?
 XLS, XLSX, CSV ve diğerleri dahil olmak üzere çeşitli formatlarda kaydedebilirsiniz.
 ### Aspose.Cells'i nereden satın alabilirim?
- Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+Lisansı şuradan satın alabilirsiniz: [satın alma sayfası](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

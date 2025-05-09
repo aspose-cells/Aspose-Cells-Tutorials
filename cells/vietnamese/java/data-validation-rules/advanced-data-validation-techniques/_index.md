@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kỹ thuật xác thực dữ liệu nâng cao
@@ -20,13 +22,13 @@ Xác thực dữ liệu là quá trình xác định các quy tắc và ràng bu
 
 ## Thiết lập Aspose.Cells cho Java
 
-Trước khi đi sâu vào các kỹ thuật nâng cao, chúng ta hãy bắt đầu với Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ [Liên kết tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/). Hãy đảm bảo làm theo hướng dẫn cài đặt được cung cấp trong tài liệu tại [Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
+Trước khi đi sâu vào các kỹ thuật nâng cao, chúng ta hãy bắt đầu với Aspose.Cells cho Java. Bạn có thể tải xuống thư viện từ [Liên kết tải xuống Aspose.Cells cho Java](https://releases.aspose.com/cells/java/)Hãy đảm bảo làm theo hướng dẫn cài đặt được cung cấp trong tài liệu tại [Tài liệu tham khảo API Aspose.Cells cho Java](https://reference.aspose.com/cells/java/).
 
 ## Xác thực dữ liệu cơ bản
 
 ### Bước 1: Tạo một Workbook
 
-Trước tiên, hãy tạo một sổ làm việc mới bằng Aspose.Cells for Java. Đây sẽ là điểm khởi đầu cho việc xác thực dữ liệu.
+Đầu tiên, hãy tạo một sổ làm việc mới bằng Aspose.Cells for Java. Đây sẽ là điểm khởi đầu cho việc xác thực dữ liệu.
 
 ```java
 // Mã Java để tạo một bảng tính mới
@@ -113,6 +115,7 @@ Bạn có thể tìm thấy tài liệu chi tiết và tài liệu tham khảo t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.ImageType;
 import com.aspose.cells.PrintingPageType;
 
-// Configura le opzioni dell'immagine
+// Configurare le opzioni dell'immagine
 class ImageConfiguration {
     public static void configureImageOptions() {
         ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
@@ -191,6 +193,9 @@ A2: Ogni foglio viene renderizzato come immagine singola per impostazione predef
 A3: I formati supportati includono EMF, PNG, JPEG, BMP e GIF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

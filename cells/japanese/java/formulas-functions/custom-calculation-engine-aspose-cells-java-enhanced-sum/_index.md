@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ class CustomEngine extends AbstractCalculationEngine {
     public void calculate(CalculationData data) {
         if (data.getFunctionName().toUpperCase().equals("SUM")) {
             double val = (double) data.getCalculatedValue();
-            val += 30; // 合計結果に30を加算する
+            val += 30; // 合計結果に30を加える
             data.setCalculatedValue(val); // 計算値を更新する
         }
     }
@@ -199,7 +201,7 @@ public class CustomCalculationEngineDemo {
    - プロジェクト構成ファイルに適切な依存関係を追加して、Maven または Gradle を使用してセットアップします。
 
 3. **SUM 以外の関数を変更できますか?**
-   - はい、延長できます `AbstractCalculationEngine` Excel でサポートされているあらゆる関数をカスタマイズします。
+   - はい、延長できます `AbstractCalculationEngine` Excel でサポートされている任意の関数をカスタマイズします。
 
 4. **カスタム エンジンでよくある問題は何ですか?**
    - 一般的な問題としては、メソッドのオーバーライドが不適切であることや、ライブラリのバージョンが古いことによる互換性の問題などがあります。
@@ -219,6 +221,9 @@ public class CustomCalculationEngineDemo {
 Aspose.Cells Java でのカスタム計算エンジンの実装を習得したので、スキルを試して、これまでにないほどスプレッドシートを最適化してみましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

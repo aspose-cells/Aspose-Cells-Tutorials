@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Aprenda a proteger documentos do Excel com nossos tutoriais abrangentes de segurança do Aspose.Cells para desenvolvedores Java. Estes guias detalhados demonstram como implementar proteção por senha, aplicar assinaturas digitais, gerenciar a criptografia de documentos e controlar as permissões de usuário programaticamente. Cada tutorial fornece exemplos práticos de código Java para cenários comuns de segurança, ajudando você a criar aplicativos que mantêm a confidencialidade e a integridade dos dados, ao mesmo tempo em que permitem a colaboração adequada no conteúdo da planilha.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de segurança e proteção
 - Implementação passo a passo com exemplos de código completos
@@ -126,6 +128,9 @@ Aprenda a proteger seus documentos do Excel com assinaturas digitais XAdES usand
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

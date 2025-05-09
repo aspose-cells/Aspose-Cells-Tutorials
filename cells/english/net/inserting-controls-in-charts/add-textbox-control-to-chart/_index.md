@@ -8,7 +8,9 @@ url: /net/inserting-controls-in-charts/add-textbox-control-to-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add TextBox Control to Chart
@@ -168,6 +170,7 @@ You can seek assistance through the Aspose support forum [here](https://forum.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

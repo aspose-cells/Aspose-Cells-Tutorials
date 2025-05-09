@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -90,7 +92,7 @@ Hozzáférés adott munkalapokhoz. Itt az első munkalap elérésére összponto
 ```java
 import com.aspose.cells.Worksheet;
 
-Worksheet worksheet = workbook.getWorksheets().get(0); // munkafüzet első munkalapjának elérése
+Worksheet worksheet = workbook.getWorksheets().get(0); // A munkafüzet első munkalapjának elérése
 ```
 
 ### Hozzáférési diagram a munkalapon belül
@@ -156,7 +158,7 @@ Készen állsz arra, hogy az Excel automatizálásodat a következő szintre eme
 ## GYIK szekció
 
 1. **Mi az Aspose.Cells Java-hoz?**
-   Egy olyan függvénykönyvtár, amely lehetővé teszi Excel-fájlok programozott létrehozását, kezelését és konvertálását Java használatával.
+   Egy olyan könyvtár, amely lehetővé teszi Excel-fájlok programozott létrehozását, kezelését és konvertálását Java használatával.
 
 2. **Használhatom az Aspose.Cells-t licenc nélkül?**
    Ingyenes próbaverzióval kezdheted, de korlátozásokkal kell szembenézned. A teljes funkcionalitás eléréséhez szerezz be ideiglenes vagy vásárolt licencet.
@@ -180,6 +182,9 @@ Készen állsz arra, hogy az Excel automatizálásodat a következő szintre eme
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

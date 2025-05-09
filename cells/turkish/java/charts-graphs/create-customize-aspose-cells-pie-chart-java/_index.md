@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -189,7 +191,7 @@ Son olarak sütunları otomatik olarak sığdırın ve çalışma kitabınızı 
 2. **Pazar Payı Raporları**:Bir sektördeki farklı şirketlerin pazar paylarını gösterin.
 3. **Bütçe Tahsisi**:Bir organizasyon içindeki çeşitli departmanlara bütçelerin nasıl dağıtıldığını görselleştirin.
 
-Bu uygulamalar Aspose.Cells'in gerçek dünya senaryolarında ne kadar çok yönlü ve kullanışlı olduğunu göstermektedir.
+Bu uygulamalar Aspose.Cells'in gerçek dünya senaryolarındaki çok yönlülüğünü ve faydasını göstermektedir.
 
 ## Performans Hususları
 Aspose.Cells kullanırken performansı optimize etmek için:
@@ -204,6 +206,9 @@ Bu eğitim, Java'da Aspose.Cells kullanarak bir pasta grafiği oluşturma ve öz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

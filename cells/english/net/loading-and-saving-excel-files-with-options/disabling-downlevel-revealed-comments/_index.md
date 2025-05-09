@@ -8,7 +8,9 @@ url: /net/loading-and-saving-excel-files-with-options/disabling-downlevel-reveal
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Disabling Downlevel Revealed Comments while Saving to HTML
@@ -85,9 +87,11 @@ You can easily apply for a temporary license by visiting the [Aspose website](ht
 No, disabling downlevel revealed comments doesn’t affect the visual appearance of the HTML output. It only prevents the exposure of extra information meant for older browsers.
 ### Can I save the workbook in other formats besides HTML?
 Yes, Aspose.Cells supports a variety of output formats such as PDF, CSV, and TXT. You can explore more options in the [documentation](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

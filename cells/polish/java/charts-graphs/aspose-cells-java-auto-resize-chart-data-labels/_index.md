@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose oferuje bezpłatną wersję próbną umożliwiającą przetestowanie możliwości swoich bibliotek:
 1. **Bezpłatna wersja próbna**:Pobierz tymczasową licencję z [ten link](https://releases.aspose.com/cells/java/) na 30 dni.
-2. **Licencja tymczasowa**: Poproś o dłuższy dostęp za pomocą [strona zakupu](https://purchase.aspose.com/temporary-license/).
+2. **Licencja tymczasowa**: Poproś o dłuższy dostęp za pośrednictwem [strona zakupu](https://purchase.aspose.com/temporary-license/).
 3. **Zakup**:W celu ciągłego użytkowania należy rozważyć zakup pełnej licencji od [Strona zakupu Aspose](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja i konfiguracja
@@ -204,6 +206,9 @@ Kolejne kroki mogą obejmować zbadanie innych opcji dostosowywania wykresów w 
 Zapoznaj się z tymi zasobami, aby pogłębić swoją wiedzę i umiejętności dotyczące Aspose.Cells Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

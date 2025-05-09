@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Innan vi börjar, se till att du har:
 - En kompatibel JDK installerad
 - En IDE som IntelliJ IDEA eller Eclipse
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering
 - Bekantskap med Excel-filstrukturer
 
@@ -162,6 +164,9 @@ Ta nästa steg i din datahanteringsresa med Aspose.Cells för Java och börja im
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

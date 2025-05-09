@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,6 +163,9 @@ W tym samouczku zbadaliśmy, jak wykorzystać Aspose.Cells for Java do wykonywan
 Teraz możesz sprawdzić swoje nowe umiejętności, tworząc lub modyfikując skoroszyty programu Excel za pomocą pakietu Aspose.Cells for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

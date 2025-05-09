@@ -8,7 +8,9 @@ url: /net/saving-files-in-different-formats/save-file-in-pdf-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save File in PDF Format
@@ -88,9 +90,11 @@ Besides PDF, you can save files in various formats like XLSX, CSV, and HTML.
 You can reach out through their [support forum](https://forum.aspose.com/c/cells/9) for assistance.
 ### Where can I find more examples of using Aspose.Cells?
 The [Aspose documentation](https://reference.aspose.com/cells/net/) is an excellent resource for various code examples and tutorials.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

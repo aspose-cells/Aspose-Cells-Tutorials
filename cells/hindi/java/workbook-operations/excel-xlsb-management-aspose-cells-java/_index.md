@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ Workbook wb = new Workbook(dataDir + "/sampleExternalConnection_XLSB.xlsb");
 import com.aspose.cells.DBConnection;
 ```
 
-#### चरण 2: पहले डेटाबेस कनेक्शन तक पहुंचें और उसे पुनः प्राप्त करें
+#### चरण 2: पहले डेटाबेस कनेक्शन तक पहुँचें और उसे पुनः प्राप्त करें
 ```java
 DBConnection dbCon = (DBConnection) wb.getDataConnections().get(0);
 ```
@@ -163,6 +165,9 @@ Aspose.Cells for Java की अपनी समझ को और गहरा �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

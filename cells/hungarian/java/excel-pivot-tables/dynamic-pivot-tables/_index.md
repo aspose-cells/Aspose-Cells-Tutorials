@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dinamikus pivot táblázatok
@@ -28,7 +30,7 @@ Miután letöltötted a könyvtárat, add hozzá a projekted építési útvonal
 
 ## 2. lépés: Munkafüzet betöltése
 
-A pivot táblázatokkal való munkához először be kell töltenünk egy munkafüzetet, amely tartalmazza az elemezni kívánt adatokat. Ezt a következő kóddal teheti meg:
+pivot táblázatokkal való munkához először be kell töltenünk egy munkafüzetet, amely tartalmazza az elemezni kívánt adatokat. Ezt a következő kóddal teheti meg:
 
 ```java
 // Töltsd be az Excel fájlt
@@ -94,7 +96,7 @@ Igen, egyéni számításokat alkalmazhat az adatmezőkre saját logika megvaló
 
 ### 2. kérdés: Hogyan módosíthatom a pivot tábla formázását?
 
-A pivot tábla formázását a stílustulajdonságok elérésével és a kívánt formázás alkalmazásával módosíthatja.
+pivot tábla formázását a stílustulajdonságok elérésével és a kívánt formázás alkalmazásával módosíthatja.
 
 ### 3. kérdés: Lehetséges több pivot táblát létrehozni ugyanazon a munkalapon?
 
@@ -107,9 +109,11 @@ Igen, szűrőket alkalmazhat a kimutatástáblákra bizonyos adathalmazok megjel
 ### 5. kérdés: Az Aspose.Cells támogatja az Excel speciális pivot tábla funkcióit?
 
 Igen, az Aspose.Cells széleskörű támogatást nyújt az Excel speciális pivot tábla funkcióihoz, lehetővé téve összetett pivot táblák létrehozását.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

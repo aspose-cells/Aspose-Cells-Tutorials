@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ style = cell.getStyle();
 boolean updatedQuotePrefix = style.getQuotePrefix(); // Previsto: vero
 ```
 
-#### Utilizzo di StyleFlag per controllare le proprietà dello stile delle celle
+#### Utilizzo di StyleFlag per controllare le proprietà dello stile della cella
 
 Questa funzionalità dimostra come è possibile applicare selettivamente le proprietà di stile utilizzando `StyleFlag` classe.
 
@@ -186,6 +188,9 @@ Seguendo questa guida, ora sei pronto a gestire in modo efficiente i prefissi di
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-page-setup/fit-to-excel-pages-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fit To Excel Pages Options
@@ -117,6 +119,7 @@ Yes, Aspose provides an option for a temporary license, which you can request [h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

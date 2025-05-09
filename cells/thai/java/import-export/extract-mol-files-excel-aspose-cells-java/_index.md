@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ index++; // เพิ่มดัชนีสำหรับวัตถุ OLE 
 
 ## ทรัพยากร
 - **เอกสารประกอบ**- [เอกสาร Java ของ Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **ดาวน์โหลด**- [รุ่นล่าสุดสำหรับ Java](https://releases.aspose.com/cells/java/)
+- **ดาวน์โหลด**- [การเปิดตัวล่าสุดสำหรับ Java](https://releases.aspose.com/cells/java/)
 - **ซื้อ**- [ซื้อใบอนุญาต Aspose.Cells](https://purchase.aspose.com/buy)
 - **ทดลองใช้งานฟรี**- [เริ่มทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/)
 - **ใบอนุญาตชั่วคราว**- [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
@@ -168,6 +170,9 @@ index++; // เพิ่มดัชนีสำหรับวัตถุ OLE 
 สำรวจทรัพยากรเหล่านี้เพื่อเพิ่มความเข้าใจของคุณและเพิ่มศักยภาพของ Aspose.Cells สำหรับ Java ในโครงการของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

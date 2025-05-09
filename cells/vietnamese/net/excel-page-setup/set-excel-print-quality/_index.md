@@ -1,14 +1,16 @@
 ---
-title: Thiết lập chất lượng in Excel
-linktitle: Thiết lập chất lượng in Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thiết lập chất lượng in Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Kỹ thuật mã hóa đơn giản để có kết quả in tốt hơn.
-weight: 160
-url: /vi/net/excel-page-setup/set-excel-print-quality/
+"description": "Tìm hiểu cách thiết lập chất lượng in Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Kỹ thuật mã hóa đơn giản để có kết quả in tốt hơn."
+"linktitle": "Thiết lập chất lượng in Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thiết lập chất lượng in Excel"
+"url": "/vi/net/excel-page-setup/set-excel-print-quality/"
+"weight": 160
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập chất lượng in Excel
@@ -23,9 +25,9 @@ Trước khi đi sâu vào phần mã hóa, hãy đảm bảo bạn đã thiết
 
 1. Kiến thức cơ bản về C#: Sự quen thuộc với ngôn ngữ lập trình C# là điều cần thiết vì chúng ta sẽ viết mã bằng ngôn ngữ này.
 2. Đã cài đặt Visual Studio: Bạn sẽ cần một IDE để viết mã C# và Visual Studio được khuyến khích sử dụng vì có nhiều tính năng mạnh mẽ và dễ sử dụng.
-3. Aspose.Cells cho .NET: Đảm bảo bạn có thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống[đây](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells cho .NET: Đảm bảo bạn có thư viện Aspose.Cells. Bạn có thể dễ dàng tải xuống [đây](https://releases.aspose.com/cells/net/).
 4. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình, tương thích với Aspose.Cells.
-5.  Khóa cấp phép: Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, hãy cân nhắc mua giấy phép nếu bạn dự định sử dụng trong sản xuất. Bạn có thể mua một[đây](https://purchase.aspose.com/buy).
+5. Khóa cấp phép: Trong khi Aspose.Cells cung cấp bản dùng thử miễn phí, hãy cân nhắc mua giấy phép nếu bạn dự định sử dụng trong sản xuất. Bạn có thể mua một [đây](https://purchase.aspose.com/buy).
 
 ## Nhập gói
 
@@ -53,7 +55,7 @@ Bước đầu tiên trong hành trình của chúng ta là xác định đườ
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Giải thích: Thay thế`YOUR DOCUMENT DIRECTORY`với đường dẫn thực tế trên hệ thống của bạn nơi bạn muốn lưu các tệp Excel. Thư mục này sẽ được sử dụng sau khi chúng ta lưu sổ làm việc của mình.
+Giải thích: Thay thế `YOUR DOCUMENT DIRECTORY` với đường dẫn thực tế trên hệ thống của bạn nơi bạn muốn lưu các tệp Excel. Thư mục này sẽ được sử dụng sau khi chúng ta lưu sổ làm việc của mình.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
@@ -63,7 +65,7 @@ Tiếp theo, chúng ta cần tạo một đối tượng sổ làm việc, đây
 Workbook workbook = new Workbook();
 ```
 
- Giải thích: Ở đây, chúng ta tạo một phiên bản mới của`Workbook` lớp. Đối tượng này sẽ lưu trữ tất cả dữ liệu và cài đặt bạn muốn áp dụng vào tệp Excel của mình.
+Giải thích: Ở đây, chúng ta tạo một phiên bản mới của `Workbook` lớp. Đối tượng này sẽ lưu trữ tất cả dữ liệu và cài đặt bạn muốn áp dụng cho tệp Excel của mình.
 
 ## Bước 3: Truy cập trang tính đầu tiên
 
@@ -73,7 +75,7 @@ Mỗi bảng tính đều bao gồm nhiều trang tính và chúng ta cần truy
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Giải thích: Bằng cách gọi`Worksheets[0]`, chúng ta đang truy cập vào trang tính đầu tiên trong sổ làm việc. Trong Excel, các trang tính được lập chỉ mục bắt đầu từ số không.
+Giải thích: Bằng cách gọi `Worksheets[0]`, chúng ta đang truy cập vào trang tính đầu tiên trong sổ làm việc. Trong Excel, các trang tính được lập chỉ mục bắt đầu từ số không.
 
 ## Bước 4: Thiết lập chất lượng in
 
@@ -83,7 +85,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PrintQuality = 180;
 ```
 
- Giải thích:`PrintQuality` Thuộc tính có thể được đặt thành bất kỳ giá trị nào, thường là từ 75 đến 600 dpi (chấm trên một inch). Trong trường hợp này, chúng tôi đặt thành 180 dpi, rất tuyệt vời để cân bằng tốt giữa chất lượng và kích thước tệp.
+Giải thích: `PrintQuality` Thuộc tính có thể được đặt thành bất kỳ giá trị nào, thường là từ 75 đến 600 dpi (chấm trên một inch). Trong trường hợp này, chúng tôi đặt thành 180 dpi, rất tuyệt vời để cân bằng tốt giữa chất lượng và kích thước tệp.
 
 ## Bước 5: Lưu sổ làm việc
 
@@ -93,7 +95,7 @@ Bước cuối cùng là lưu bảng tính của bạn để mọi công sức c
 workbook.Save(dataDir + "SetPrintQuality_out.xls");
 ```
 
- Giải thích: Dòng này lưu sổ làm việc trong thư mục được chỉ định với tên`SetPrintQuality_out.xls`. Hãy đảm bảo rằng thư mục bạn chỉ định tồn tại; nếu không, bạn sẽ gặp lỗi.
+Giải thích: Dòng này lưu sổ làm việc trong thư mục được chỉ định với tên `SetPrintQuality_out.xls`. Hãy đảm bảo rằng thư mục bạn chỉ định tồn tại; nếu không, bạn sẽ gặp lỗi.
 
 ## Phần kết luận
 
@@ -114,10 +116,12 @@ Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng bạn cần mua gi
 Có, chất lượng in cao hơn thường dẫn đến kích thước tệp lớn hơn nhưng cho chất lượng đầu ra tốt hơn.
 
 ### Tôi có thể tìm thêm tài nguyên về Aspose.Cells ở đâu?  
- Bạn có thể khám phá tài liệu[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

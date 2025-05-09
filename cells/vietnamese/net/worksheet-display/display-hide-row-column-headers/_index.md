@@ -1,14 +1,16 @@
 ---
-title: Hiển thị hoặc ẩn tiêu đề hàng và cột trong trang tính
-linktitle: Hiển thị hoặc ẩn tiêu đề hàng và cột trong trang tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách hiển thị hoặc ẩn tiêu đề hàng và cột trong bảng tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi.
-weight: 12
-url: /vi/net/worksheet-display/display-hide-row-column-headers/
+"description": "Tìm hiểu cách hiển thị hoặc ẩn tiêu đề hàng và cột trong bảng tính Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn chi tiết của chúng tôi."
+"linktitle": "Hiển thị hoặc ẩn tiêu đề hàng và cột trong trang tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Hiển thị hoặc ẩn tiêu đề hàng và cột trong trang tính"
+"url": "/vi/net/worksheet-display/display-hide-row-column-headers/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiển thị hoặc ẩn tiêu đề hàng và cột trong trang tính
@@ -22,7 +24,7 @@ Bạn đã bao giờ thấy mình rơi vào tình huống mà các tiêu đề h
 Trước khi bắt đầu hướng dẫn, đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình.
-2.  Thư viện Aspose.Cells: Bạn phải có thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn phải có thư viện Aspose.Cells. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ hữu ích, mặc dù hướng dẫn từng bước sẽ đơn giản hóa quy trình.
 
 ## Nhập gói
@@ -43,7 +45,7 @@ Trước khi bắt đầu hướng dẫn, đây là những gì bạn cần:
 
 ### Nhập không gian tên Aspose.Cells
 
- Mở tệp C# chính của bạn (thường là`Program.cs`) và nhập không gian tên Aspose.Cells cần thiết bằng cách thêm dòng này vào đầu:
+Mở tệp C# chính của bạn (thường là `Program.cs`) và nhập không gian tên Aspose.Cells cần thiết bằng cách thêm dòng này vào đầu:
 
 ```csharp
 using System.IO;
@@ -60,7 +62,7 @@ Bây giờ bạn đã thiết lập nền tảng, chúng ta hãy cùng tìm hi�
 string dataDir = "Your Document Directory";
 ```
 
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tập tin của bạn.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tập tin của bạn.
 
 ## Bước 5: Tạo luồng tệp
 
@@ -70,11 +72,11 @@ Tiếp theo, bạn sẽ tạo một luồng tệp để mở tệp Excel của m
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
-Dòng mã này mở tệp Excel có tên`book1.xls`. Nếu tệp này không tồn tại, hãy tạo một tệp hoặc đổi tên cho phù hợp.
+Dòng mã này mở tệp Excel có tên `book1.xls`. Nếu tệp này không tồn tại, hãy tạo một tệp hoặc đổi tên cho phù hợp.
 
 ## Bước 6: Khởi tạo đối tượng Workbook
 
- Bây giờ, đã đến lúc tạo ra một`Workbook` đối tượng, đại diện cho sổ làm việc Excel của bạn. Khởi tạo sổ làm việc bằng cách sử dụng luồng tệp.
+Bây giờ, đã đến lúc tạo ra một `Workbook` đối tượng, đại diện cho sổ làm việc Excel của bạn. Khởi tạo sổ làm việc bằng cách sử dụng luồng tệp.
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
@@ -92,13 +94,13 @@ Bạn có thể sửa đổi mục lục trong dấu ngoặc vuông nếu bạn 
 
 ## Bước 8: Ẩn tiêu đề
 
- Bây giờ đến phần thú vị! Bạn có thể ẩn tiêu đề hàng và cột bằng một thuộc tính đơn giản. Cài đặt`IsRowColumnHeadersVisible` ĐẾN`false` đạt được điều này.
+Bây giờ đến phần thú vị! Bạn có thể ẩn tiêu đề hàng và cột bằng một thuộc tính đơn giản. Cài đặt `IsRowColumnHeadersVisible` ĐẾN `false` đạt được điều này.
 
 ```csharp
 worksheet.IsRowColumnHeadersVisible = false;
 ```
 
- Không phải là gọn gàng sao? Bạn cũng có thể thiết lập nó thành`true` nếu bạn muốn hiển thị lại tiêu đề.
+Không phải là gọn gàng sao? Bạn cũng có thể thiết lập nó thành `true` nếu bạn muốn hiển thị lại tiêu đề.
 
 ## Bước 9: Lưu tệp Excel đã sửa đổi
 
@@ -128,19 +130,21 @@ Có thể hiển thị hoặc ẩn tiêu đề hàng và cột Excel là một k
 Aspose.Cells là thư viện .NET cho phép thao tác trên các tệp Excel, giúp việc tạo, sửa đổi và chuyển đổi bảng tính theo chương trình trở nên dễ dàng hơn.
 
 ### Tôi có thể hiển thị lại tiêu đề sau khi ẩn chúng không?
- Vâng! Chỉ cần thiết lập`worksheet.IsRowColumnHeadersVisible` ĐẾN`true` để hiển thị lại tiêu đề.
+Vâng! Chỉ cần thiết lập `worksheet.IsRowColumnHeadersVisible` ĐẾN `true` để hiển thị lại tiêu đề.
 
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells là một thư viện trả phí, nhưng bạn có thể dùng thử miễn phí trong thời gian giới hạn. Kiểm tra[Trang dùng thử miễn phí](https://releases.aspose.com/).
+Aspose.Cells là một thư viện trả phí, nhưng bạn có thể dùng thử miễn phí trong thời gian giới hạn. Kiểm tra [Trang dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Tôi có thể tìm thêm tài liệu ở đâu?
- Bạn có thể khám phá thêm chi tiết và phương pháp liên quan đến Aspose.Cells trên[Trang tài liệu](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá thêm chi tiết và phương pháp liên quan đến Aspose.Cells trên [Trang tài liệu](https://reference.aspose.com/cells/net/).
 
 ### Tôi phải làm sao nếu gặp phải sự cố hoặc lỗi?
- Nếu bạn gặp bất kỳ vấn đề nào khi sử dụng Aspose.Cells, bạn có thể yêu cầu trợ giúp trong nhóm chuyên dụng của họ[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Nếu bạn gặp bất kỳ vấn đề nào khi sử dụng Aspose.Cells, bạn có thể yêu cầu trợ giúp trong nhóm chuyên dụng của họ [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

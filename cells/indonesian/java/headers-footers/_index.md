@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Kuasai tata letak halaman dan pengaturan cetak dengan tutorial Aspose.Cells terperinci kami untuk header dan footer di Java. Panduan praktis ini menunjukkan cara membuat dokumen Excel siap cetak profesional dengan mengonfigurasi orientasi halaman, margin, opsi penskalaan, serta header dan footer kustom. Setiap tutorial menyertakan contoh kode Java yang berfungsi yang menunjukkan cara menerapkan penomoran halaman dan tata letak yang konsisten di beberapa lembar kerja, memastikan spreadsheet Anda terlihat sempurna baik di layar maupun saat dicetak.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi header & footer
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -98,10 +100,13 @@ Pelajari cara mengatur dan mengambil ukuran kertas seperti A4, A3, A2, dan Lette
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

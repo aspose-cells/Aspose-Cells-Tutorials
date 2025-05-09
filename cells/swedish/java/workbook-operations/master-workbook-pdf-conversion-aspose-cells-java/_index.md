@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ license.setLicense("path_to_your_license_file");
 
 ## Implementeringsguide
 
-### Arbetsbok som laddas och sparas med PDF-alternativ
+### Arbetsbok laddas och sparas med PDF-alternativ
 
 **Översikt:**
 Den här funktionen möjliggör detaljerad anpassning när du sparar Excel-arbetsböcker som PDF-filer med hjälp av Aspose.Cells. `PdfSaveOptions` och sidsparande återanrop.
@@ -194,6 +196,9 @@ Redo att ta dina färdigheter vidare? Dyk ner i [Aspose.Cells-dokumentation](htt
 - **Gratis provperiod och tillfällig licens:** Utforska funktioner med en gratis provperiod eller begär en tillfällig licens.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

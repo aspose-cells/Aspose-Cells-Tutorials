@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,11 +110,11 @@ Questa modifica SUM personalizzata può rivelarsi preziosa in diversi scenari:
 ## Considerazioni sulle prestazioni
 Per ottimizzare le prestazioni quando si utilizza Aspose.Cells con Java:
 - Gestire la memoria in modo efficiente, soprattutto nelle applicazioni su larga scala.
-- Utilizzare le best practice per caricare ed elaborare i file Excel per ridurre l'utilizzo delle risorse.
+- Utilizzare le best practice per il caricamento e l'elaborazione dei file Excel per ridurre l'utilizzo delle risorse.
 - Aggiornare regolarmente la libreria alle ultime versioni per migliorare le funzionalità e correggere i bug.
 
 ## Conclusione
-Seguendo questo tutorial, hai imparato come estendere il motore di calcolo utilizzando Aspose.Cells per Java per personalizzare `SUM` funzione. Questa personalizzazione può migliorare significativamente le capacità di elaborazione dei dati in ambienti simili a Excel.
+Seguendo questo tutorial, hai imparato come estendere il motore di calcolo utilizzando Aspose.Cells per Java per personalizzare il `SUM` funzione. Questa personalizzazione può migliorare significativamente le capacità di elaborazione dei dati in ambienti simili a Excel.
 
 Per esplorare ulteriormente le funzionalità di Aspose.Cells, valuta la possibilità di sperimentare altre funzioni o di integrare questa soluzione in progetti più ampi. Le possibilità sono infinite!
 
@@ -139,6 +141,9 @@ Per esplorare ulteriormente le funzionalità di Aspose.Cells, valuta la possibil
 Inizia subito a sperimentare Aspose.Cells per Java e scopri nuove potenzialità nelle tue attività di elaborazione dati!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

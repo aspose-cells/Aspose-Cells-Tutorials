@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ Zmiana kierunku etykiet znaczników wykresu może poprawić czytelność, zwłas
 2. **Wizualizacja danych naukowych**:Efektywniejsze dopasowywanie punktów danych do legend.
 3. **Panele biznesowe**:Poprawa wrażeń użytkownika dzięki lepszej orientacji etykiet.
 
-Integracja Aspose.Cells z Java obejmuje inne systemy za pośrednictwem interfejsów API i obsługuje wiele formatów plików, dzięki czemu jest wszechstronny i spełnia różne potrzeby biznesowe.
+Integracja Aspose.Cells z Java obejmuje inne systemy za pośrednictwem interfejsów API i obsługuje wiele formatów plików, dzięki czemu jest wszechstronny i odpowiada różnym potrzebom biznesowym.
 
 ## Rozważania dotyczące wydajności
 Podczas pracy z dużymi zbiorami danych lub wieloma wykresami:
@@ -159,7 +161,7 @@ Kolejne kroki obejmują eksperymentowanie z różnymi typami wykresów i odkrywa
 4. **Czy duże pliki Excela mają wpływ na wydajność?**
    - Rozważ optymalizację operacji skoroszytu w celu uzyskania lepszej wydajności.
 5. **Jak zastosować tymczasową licencję w moim projekcie Java?**
-   - Postępuj zgodnie z instrukcjami dostarczonymi przez Aspose, aby skonfigurować licencjonowanie w kodzie.
+   - Postępuj zgodnie z instrukcjami Aspose, aby skonfigurować licencjonowanie w kodzie.
 
 ## Zasoby
 - [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/)
@@ -172,6 +174,9 @@ Kolejne kroki obejmują eksperymentowanie z różnymi typami wykresów i odkrywa
 Zachęcamy do zapoznania się z tymi zasobami, aby uzyskać bardziej szczegółowe informacje i pomoc!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

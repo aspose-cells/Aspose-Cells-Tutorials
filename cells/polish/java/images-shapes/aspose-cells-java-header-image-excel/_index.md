@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ Postępując zgodnie z tym przewodnikiem, nauczyłeś się, jak ulepszyć swoje 
 4. **Co zrobić, jeśli po zapisaniu mój obraz się nie wyświetla?**
    - Sprawdź, czy ścieżka do obrazu jest prawidłowa i czy jego format jest obsługiwany przez program Excel.
 5. **Czy Aspose.Cells Java jest kompatybilny ze wszystkimi systemami operacyjnymi?**
-   - Aspose.Cells for Java działa na każdej platformie obsługującej Java, w tym Windows, macOS i Linux.
+   - Aspose.Cells for Java działa na każdej platformie obsługującej Javę, w tym Windows, macOS i Linux.
 
 ## Zasoby
 - [Dokumentacja Aspose](https://reference.aspose.com/cells/java/)
@@ -163,6 +165,9 @@ Postępując zgodnie z tym przewodnikiem, nauczyłeś się, jak ulepszyć swoje 
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

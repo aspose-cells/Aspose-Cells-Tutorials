@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ import com.aspose.cells.Workbook;
 
 public class InstantiateWorkbook {
     public static void main(String[] args) throws Exception {
-        // Een instantie van de Workbook-klasse maken
+        // Een instantie van de klasse Workbook maken
         Workbook workbook = new Workbook();
         
         System.out.println("Workbook created successfully.");
@@ -100,7 +102,7 @@ import com.aspose.cells.WorksheetCollection;
 
 public class AccessWorksheets {
     public static void main(String[] args) throws Exception {
-        // Een instantie van de Workbook-klasse maken
+        // Een instantie van de klasse Workbook maken
         Workbook workbook = new Workbook();
 
         // Ontvang de verzameling van alle werkbladen in de werkmap
@@ -170,7 +172,7 @@ import com.aspose.cells.Workbook;
 
 public class SaveWorkbookToFile {
     public static void main(String[] args) throws Exception {
-        // Een instantie van de Workbook-klasse maken
+        // Een instantie van de klasse Workbook maken
         Workbook workbook = new Workbook();
 
         // Geef de map en bestandsnaam op waarin de werkmap moet worden opgeslagen
@@ -214,6 +216,9 @@ Ontdek meer door te duiken in de uitgebreide informatie van Aspose.Cells [docume
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

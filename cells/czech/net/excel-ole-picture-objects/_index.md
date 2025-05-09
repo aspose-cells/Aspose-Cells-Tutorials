@@ -1,52 +1,56 @@
 ---
-title: Excel OLE a obrázkové objekty
-linktitle: Excel OLE a obrázkové objekty
-second_title: Aspose.Cells .NET Excel Processing API
-description: Odemkněte sílu Excelu s Aspose.Cells pro .NET. Osvojte si OLE objekty a manipulaci s obrázky prostřednictvím našich snadno srozumitelných výukových programů.
-weight: 22
-url: /cs/net/excel-ole-picture-objects/
+"description": "Odemkněte sílu Excelu s Aspose.Cells pro .NET. Zvládněte objekty OLE a práci s obrázky pomocí našich snadno srozumitelných tutoriálů."
+"linktitle": "Objekty OLE a obrázky v Excelu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Objekty OLE a obrázky v Excelu"
+"url": "/cs/net/excel-ole-picture-objects/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel OLE a obrázkové objekty
+# Objekty OLE a obrázky v Excelu
 
 ## Zavedení
 
-Ponořte se do světa Aspose.Cells for .NET s našimi komplexními výukovými programy zaměřenými na Excel OLE a obrázkové objekty. Tyto podrobné příručky jsou navrženy tak, aby vám pomohly zvládnout umění manipulace se soubory aplikace Excel. Ať už chcete extrahovat OLE objekty, vkládat obrázky nebo je dokonale umístit, máme pro vás vše! Každý tutoriál obsahuje jasné pokyny a praktické příklady, takže můžete své tabulky vylepšit jako profesionál.
+Ponořte se do světa Aspose.Cells pro .NET s našimi komplexními tutoriály zaměřenými na objekty OLE a obrázky v Excelu. Tyto podrobné návody jsou navrženy tak, aby vám pomohly zvládnout umění manipulace s vašimi soubory Excelu. Ať už chcete extrahovat objekty OLE, vkládat obrázky nebo je dokonale umístit, máme pro vás vše! Každý tutoriál obsahuje jasné pokyny a praktické příklady, abyste mohli vylepšit své tabulky jako profesionál.
 
-## Extrahování objektů OLE z aplikace Excel
+## Extrakce objektů OLE z Excelu
 
- Už jste někdy potřebovali vytáhnout vložený objekt ze souboru aplikace Excel? Tento proces se může zdát skličující, ale při použití Aspose.Cells pro .NET je docela přímočarý. V našem průvodci na[Extrahování objektů OLE z aplikace Excel](./extract-ole-object-from-excel/)najdete úplný rozpis toho, jak efektivně extrahovat tyto prvky s minimálním zmatkem. Představte si, že jste detektiv a prohledáváte data; náš tutoriál vám umožní odhalit skryté poklady ve vašich tabulkách.
+Potřebovali jste někdy vytáhnout vložený objekt ze souboru aplikace Excel? Tento proces se může zdát náročný, ale s Aspose.Cells pro .NET je docela jednoduchý. V našem průvodci na [Extrakce objektů OLE z Excelu](./extract-ole-object-from-excel/), najdete kompletní rozpis toho, jak tyto prvky efektivně extrahovat s minimální námahou. Představte si, že jste detektiv, který prohledává data; náš tutoriál vám umožní odhalit skryté poklady ve vašich tabulkách.
 
 ## Vkládání objektů OLE do Excelu
 
- Jakmile si osvojíte extrakci, proč se nenaučit vkládat objekty OLE zpět do souborů aplikace Excel? Své dokumenty můžete vylepšit fotografiemi, videi a dalšími datovými typy, díky kterým budou vaše prezentace vyjímečné. Náš průvodce dál[Vkládání objektů OLE do Excelu](./insert-ole-object-into-excel/) vás provede celým procesem. S jasnými kroky a příklady je to jako mít osobního učitele, který vás povede na každém kroku.
+Jakmile zvládnete extrakci, proč se nenaučit, jak vkládat objekty OLE zpět do souborů aplikace Excel? Své dokumenty můžete vylepšit fotografiemi, videi a dalšími datovými typy, které dodají vašim prezentacím šmrnc. Náš průvodce [Vkládání objektů OLE do Excelu](./insert-ole-object-into-excel/) vás provede celým procesem. Díky jasným krokům a příkladům je to, jako byste měli osobního lektora, který vás provází každým krokem.
 
-## Přidávání a umístění obrázků v Excelu
+## Přidávání a umisťování obrázků v Excelu
 
- Přidávání vizuálů do vašich excelových listů není jen o estetice; pomáhá to, aby vaše data byla věrnější. V našem[Přidat obrázek do listu aplikace Excel](./add-picture-to-excel/)tutoriálu, ukážeme vám, jak bezproblémově začlenit obrázky do vašich tabulek. Ale počkejte, umístění těchto obrázků je stejně důležité! Chcete je umístit absolutně nebo proporcionálně? Pro oba scénáře máme vyhrazené návody. Podívejte se[Umístění obrázků (absolutně) v Excelu](./position-picture-absolute-excel/) a[Umístění obrázků (proporcionální) v Excelu](./position-picture-proportional-excel/) pro všechny podrobnosti.
+Přidávání vizuálních prvků do excelových tabulek není jen o estetice, ale také pomáhá zpřehlednit vaše data. V našem [Přidat obrázek do listu aplikace Excel](./add-picture-to-excel/) V tomto tutoriálu vám ukážeme, jak bezproblémově začlenit obrázky do tabulek. Ale počkejte, umístění těchto obrázků je stejně důležité! Chcete je umístit absolutně nebo proporcionálně? Pro oba scénáře máme specializované tutoriály. Podívejte se [Umístění obrázků (absolutní) v Excelu](./position-picture-absolute-excel/) a [Umístění obrázků (proporcionální) v Excelu](./position-picture-proportional-excel/) pro všechny detaily.
 
- A nezapomeňme na odkazy na obrázky! Náš tutoriál na[Odkazování na obrázkovou buňku v Excelu](./reference-picture-cell-excel/) vás naučí, jak propojit konkrétní obrázky s buňkami, a přidat do vašich tabulek další vrstvu organizačního vkusu. 
+nezapomínejme na odkazování na obrázky! Náš tutoriál na [Odkazování na buňku s obrázkem v Excelu](./reference-picture-cell-excel/) vás naučí, jak propojit konkrétní obrázky s buňkami, což vašim tabulkám dodá další vrstvu organizačního vkusu. 
 
-## Výukové programy Excel OLE a obrázkové objekty
-### [Extrahujte objekt OLE z aplikace Excel](./extract-ole-object-from-excel/)
-Naučte se extrahovat objekty OLE ze souborů aplikace Excel pomocí Aspose.Cells for .NET. Návod krok za krokem pro snadnou extrakci.
-### [Vložte objekt OLE do aplikace Excel](./insert-ole-object-into-excel/)
-Naučte se vkládat objekty OLE do souborů aplikace Excel pomocí Aspose.Cells for .NET v této komplexní příručce s podrobnými pokyny.
+## Výukové programy pro objekty OLE a obrázky v Excelu
+### [Extrahovat objekt OLE z Excelu](./extract-ole-object-from-excel/)
+Naučte se, jak extrahovat objekty OLE ze souborů aplikace Excel pomocí nástroje Aspose.Cells pro .NET. Podrobný návod pro snadnou extrakci.
+### [Vložení objektu OLE do Excelu](./insert-ole-object-into-excel/)
+Naučte se, jak vkládat objekty OLE do souborů aplikace Excel pomocí Aspose.Cells pro .NET v této komplexní příručce s podrobnými pokyny.
 ### [Přidat obrázek do listu aplikace Excel](./add-picture-to-excel/)
-Naučte se, jak snadno přidávat obrázky do listů aplikace Excel pomocí Aspose.Cells for .NET v tomto komplexním podrobném průvodci. Vylepšete své tabulky.
-### [Umístěte obrázek (absolutně) v aplikaci Excel](./position-picture-absolute-excel/)
-Naučte se, jak absolutně umístit obrázky v Excelu pomocí Aspose.Cells for .NET pomocí tohoto komplexního podrobného tutoriálu.
-### [Umístěte obrázek (proporcionálně) v aplikaci Excel](./position-picture-proportional-excel/)
-Naučte se, jak umístit obrázky proporcionálně v Excelu pomocí Aspose.Cells pro .NET. Udělejte ze svých tabulek vizuálně přitažlivější.
-### [Referenční obrázková buňka v Excelu](./reference-picture-cell-excel/)
-Naučte se, jak odkazovat na obrázkovou buňku v Excelu pomocí Aspose.Cells for .NET pomocí tohoto podrobného kurzu. Vylepšete své tabulky.
+Naučte se v tomto komplexním průvodci krok za krokem, jak snadno přidávat obrázky do excelových listů pomocí Aspose.Cells pro .NET. Vylepšete své tabulky.
+### [Pozice obrázku (absolutní) v Excelu](./position-picture-absolute-excel/)
+Naučte se, jak absolutně umístit obrázky v Excelu pomocí Aspose.Cells pro .NET v tomto komplexním podrobném tutoriálu.
+### [Pozice obrázku (proporcionální) v Excelu](./position-picture-proportional-excel/)
+Naučte se, jak proporcionálně umisťovat obrázky v Excelu pomocí Aspose.Cells pro .NET. Udělejte si tabulky vizuálně atraktivnějšími.
+### [Referenční obrázek buňky v Excelu](./reference-picture-cell-excel/)
+Naučte se, jak odkazovat na buňku s obrázkem v Excelu pomocí Aspose.Cells pro .NET v tomto podrobném tutoriálu. Vylepšete své tabulky.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

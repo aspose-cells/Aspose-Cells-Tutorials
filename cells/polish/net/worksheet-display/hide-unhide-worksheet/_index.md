@@ -1,14 +1,16 @@
 ---
-title: Ukryj, pokaż arkusz roboczy za pomocą Aspose.Cells
-linktitle: Ukryj, pokaż arkusz roboczy za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo ukrywać i pokazywać arkusze kalkulacyjne w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku wypełniony wskazówkami i spostrzeżeniami.
-weight: 18
-url: /pl/net/worksheet-display/hide-unhide-worksheet/
+"description": "Dowiedz się, jak łatwo ukrywać i pokazywać arkusze kalkulacyjne w programie Excel przy użyciu Aspose.Cells dla .NET. Przewodnik krok po kroku wypełniony wskazówkami i spostrzeżeniami."
+"linktitle": "Ukryj, pokaż arkusz roboczy za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ukryj, pokaż arkusz roboczy za pomocą Aspose.Cells"
+"url": "/pl/net/worksheet-display/hide-unhide-worksheet/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukryj, pokaż arkusz roboczy za pomocą Aspose.Cells
@@ -18,7 +20,7 @@ Czy kiedykolwiek zdarzyło Ci się tonąć w zbyt wielu arkuszach kalkulacyjnych
 ## Wymagania wstępne
 Zanim przejdziemy do soczystych szczegółów, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto krótka lista kontrolna:
 1. Podstawowa wiedza o języku C#: Zrozumienie podstaw programowania w języku C# pomoże Ci łatwo zrozumieć fragmenty kodu.
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją łatwo pobrać i rozpocząć bezpłatny okres próbny[Tutaj](https://releases.aspose.com/).
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Możesz ją łatwo pobrać i rozpocząć bezpłatny okres próbny [Tutaj](https://releases.aspose.com/).
 3. Visual Studio lub inne środowisko programistyczne C#: środowisko programistyczne pomoże Ci wydajnie pisać i wykonywać kod.
 4. Pliki Excela: Przygotuj plik Excela (np. „book1.xls”), którym możesz manipulować na potrzeby tego samouczka.
 Masz wszystko? Świetnie! Przejdźmy do zabawy: kodowania.
@@ -35,25 +37,25 @@ Pierwszą rzeczą, którą chcesz zrobić, jest ustawienie ścieżki, w której 
 ```csharp
 string dataDir = "Your Document Directory"; // Zaktualizuj ścieżkę
 ```
- Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką Twoich dokumentów Excel. Na przykład, jeśli Twój dokument znajduje się w`C:\Documents` , następnie ustaw`dataDir` odpowiednio.
+Pamiętaj o wymianie `"Your Document Directory"` z rzeczywistą ścieżką Twoich dokumentów Excel. Na przykład, jeśli Twój dokument znajduje się w `C:\Documents`, następnie ustaw `dataDir` odpowiednio.
 ## Krok 2: Tworzenie strumienia plików
 Następnie utworzymy strumień plików, aby uzyskać dostęp do naszego pliku Excel. Pozwala nam to na odczytywanie i zapisywanie do używanego pliku.
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- W tym wierszu zamień`book1.xls` z nazwą pliku Excel. Ta linia kodu otwiera interesujący Cię plik Excel i przygotowuje go do przetworzenia.
+W tym wierszu zamień `book1.xls` z nazwą pliku Excel. Ta linia kodu otwiera interesujący Cię plik Excel i przygotowuje go do przetworzenia.
 ## Krok 3: Tworzenie instancji obiektu skoroszytu
- Teraz, gdy mamy strumień plików, musimy utworzyć`Workbook` obiekt reprezentujący nasz plik Excel:
+Teraz, gdy mamy strumień plików, musimy utworzyć `Workbook` obiekt reprezentujący nasz plik Excel:
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
-Powoduje to załadowanie pliku Excela do obiektu skoroszytu, co w zasadzie tworzy jego kopię roboczą, którą można modyfikować.
+Powoduje to załadowanie pliku Excel do obiektu skoroszytu, co w zasadzie tworzy jego kopię roboczą, którą można modyfikować.
 ## Krok 4: Dostęp do arkusza kalkulacyjnego
 Czas przejść do konkretów! Aby ukryć lub pokazać arkusz kalkulacyjny, najpierw musisz uzyskać do niego dostęp. Ponieważ arkusze kalkulacyjne w Aspose.Cells są indeksowane od zera, dostęp do pierwszego arkusza kalkulacyjnego wyglądałby tak:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- Jeśli chcesz uzyskać dostęp do innego arkusza kalkulacyjnego, po prostu zamień`0` z prawidłowym numerem indeksu.
+Jeśli chcesz uzyskać dostęp do innego arkusza kalkulacyjnego, po prostu zamień `0` z prawidłowym numerem indeksu.
 ## Krok 5: Ukrywanie arkusza kalkulacyjnego
 Teraz nadchodzi zabawna część — ukrywanie arkusza kalkulacyjnego! Użyj poniższego wiersza, aby ukryć swój pierwszy arkusz kalkulacyjny:
 ```csharp
@@ -61,7 +63,7 @@ worksheet.IsVisible = false;
 ```
 Po wykonaniu tej linijki pierwszy arkusz kalkulacyjny nie będzie już widoczny dla nikogo otwierającego plik Excel. To takie proste!
 ## Krok 6: (Opcjonalnie) Odkrywanie arkusza kalkulacyjnego
- Jeśli w dowolnym momencie zechcesz ponownie wyświetlić ten arkusz kalkulacyjny, po prostu ustaw`IsVisible` nieruchomość do`true`:
+Jeśli w dowolnym momencie zechcesz ponownie wyświetlić ten arkusz kalkulacyjny, po prostu ustaw `IsVisible` nieruchomość do `true`:
 ```csharp
 worksheet.IsVisible = true;
 ```
@@ -71,7 +73,7 @@ Po wprowadzeniu zmian w widoczności arkusza kalkulacyjnego należy zapisać swo
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Ten wiersz zapisuje zmodyfikowany skoroszyt w domyślnym formacie Excel 2003. Możesz swobodnie zmienić nazwę pliku (np.`output.out.xls`) do czegoś bardziej znaczącego.
+Ten wiersz zapisuje zmodyfikowany skoroszyt w domyślnym formacie Excel 2003. Możesz swobodnie zmienić nazwę pliku (np. `output.out.xls`) do czegoś bardziej znaczącego.
 ## Krok 8: Zamykanie strumienia plików
 Na koniec, aby mieć pewność, że nie dojdzie do wycieków pamięci, konieczne jest zamknięcie strumienia pliku:
 ```csharp
@@ -84,16 +86,18 @@ Praca z plikami Excela przy użyciu Aspose.Cells dla .NET może znacznie uprośc
 ### Czym jest Aspose.Cells dla .NET?
 Aspose.Cells for .NET to biblioteka ułatwiająca manipulowanie plikami Excela i zarządzanie nimi w aplikacjach .NET.
 ### Czy mogę ukryć wiele arkuszy kalkulacyjnych jednocześnie?
- Tak! Możesz przejść przez`Worksheets` kolekcja i zestaw`IsVisible` Do`false`dla każdego arkusza, który chcesz ukryć.
+Tak! Możesz przejść przez `Worksheets` kolekcja i zestaw `IsVisible` Do `false` dla każdego arkusza, który chcesz ukryć.
 ### Czy istnieje możliwość ukrycia arkuszy kalkulacyjnych w oparciu o określone warunki?
 Oczywiście! Możesz zaimplementować logikę C#, aby określić, czy arkusz kalkulacyjny powinien być ukryty na podstawie Twoich kryteriów.
 ### Jak mogę sprawdzić, czy arkusz kalkulacyjny jest ukryty?
- Możesz po prostu sprawdzić`IsVisible` właściwość arkusza kalkulacyjnego. Jeśli zwraca`false`, arkusz jest ukryty.
+Możesz po prostu sprawdzić `IsVisible` właściwość arkusza kalkulacyjnego. Jeśli zwraca `false`, arkusz jest ukryty.
 ### Gdzie mogę uzyskać pomoc w kwestiach związanych z Aspose.Cells?
- W przypadku jakichkolwiek problemów lub pytań możesz odwiedzić stronę[Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9).
+W przypadku jakichkolwiek problemów lub pytań możesz odwiedzić stronę [Forum wsparcia Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

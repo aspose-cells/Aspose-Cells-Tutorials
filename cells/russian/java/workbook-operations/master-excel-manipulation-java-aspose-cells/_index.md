@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,7 +184,7 @@ public class UpdateComboBox {
 
 ## Соображения производительности
 
-- **Оптимизируйте использование ресурсов**: Эффективно управляйте памятью, избавляясь от ненужных объектов.
+- **Оптимизация использования ресурсов**: Эффективно управляйте памятью, избавляясь от ненужных объектов.
 - **Лучшие практики**Используйте оптимизированные методы Aspose.Cells для обеспечения бесперебойной работы, особенно при работе с большими файлами.
 
 ## Заключение
@@ -220,6 +222,9 @@ public class UpdateComboBox {
 Начните свой путь к освоению работы с Excel на Java с помощью Aspose.Cells уже сегодня!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

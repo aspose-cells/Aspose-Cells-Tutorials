@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excelデータセキュリティ
@@ -40,9 +42,11 @@ Aspose.Cells for Java を使用した効果的なデータマスキング手法�
 Aspose.Cells for Java APIを使用してファイルアクセスを監査する方法を学びましょう。ソースコードとFAQを含むステップバイステップガイドです。
 ### [セキュリティのためのデータ検証](./data-validation-for-security/)
 Aspose.Cells for Javaでデータセキュリティを強化しましょう。包括的なデータ検証テクニックを探求し、堅牢な検証と保護を実装する方法を学びましょう。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

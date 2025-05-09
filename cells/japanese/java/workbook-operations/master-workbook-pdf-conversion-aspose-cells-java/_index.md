@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-Aspose.Cells for Javaを使用してExcelブックをシームレスにPDFファイルに変換することで、ドキュメント処理を強化します。このチュートリアルでは、Javaでページ保存を行うカスタムコールバックなど、変換プロセスを正確に制御するための強力な機能を紹介します。
+Aspose.Cells for Javaを使用してExcelブックをシームレスにPDFファイルに変換することで、ドキュメント処理能力を向上できます。このチュートリアルでは、Javaでページ保存を行うカスタムコールバックなど、変換プロセスを正確に制御するための強力な機能を紹介します。
 
 **学習内容:**
 - Aspose.Cells for Java をセットアップして使用します。
@@ -72,7 +74,7 @@ license.setLicense("path_to_your_license_file");
 ### PDF オプションを使用したワークブックの読み込みと保存
 
 **概要：**
-この機能により、Aspose.Cellsを使用してExcelブックをPDFファイルとして保存する際に詳細なカスタマイズが可能になります。 `PdfSaveOptions` ページ保存のコールバック。
+この機能により、Aspose.Cellsを使用してExcelブックをPDFファイルとして保存する際に詳細なカスタマイズが可能になります。 `PdfSaveOptions` ページ保存コールバック。
 
 #### ステップ1: ワークブックを読み込む
 
@@ -188,12 +190,15 @@ class TestPageSavingCallback implements IPageSavingCallback {
    - 訪問 [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9) 援助をお願いします。
 
 ## リソース
-- **ドキュメント:** 総合ガイド [Aspose.Cells ドキュメント](https://reference.aspose.com/cells/java)
+- **ドキュメント:** 包括的なガイド [Aspose.Cells ドキュメント](https://reference.aspose.com/cells/java)
 - **ダウンロード：** 最新リリースにアクセスする [Aspose ダウンロードページ](https://releases.aspose.com/cells/java)
 - **ライセンスを購入:** 直接購入オプションは以下からご利用いただけます [Aspose 購入](https://purchase.aspose.com/buy)
 - **無料トライアルと一時ライセンス:** 無料トライアルで機能を確認するか、一時ライセンスをリクエストしてください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

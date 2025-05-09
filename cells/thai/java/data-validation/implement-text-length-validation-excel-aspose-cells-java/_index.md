@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **ทดลองใช้งานฟรี**ดาวน์โหลดใบอนุญาตทดลองใช้งานเพื่อประเมินคุณสมบัติ
 - **ใบอนุญาตชั่วคราว**:ขอใบอนุญาตชั่วคราวหากคุณต้องการเวลาเพิ่มเติม
 - **ซื้อ**:ซื้อลิขสิทธิ์เต็มรูปแบบเพื่อการใช้งานเชิงพาณิชย์
-หลังจากตั้งค่าสภาพแวดล้อมของคุณและขอรับใบอนุญาตแล้ว ให้เริ่มต้นระบบดังต่อไปนี้:
+หลังจากตั้งค่าสภาพแวดล้อมของคุณและรับใบอนุญาตแล้ว ให้เริ่มต้นระบบดังต่อไปนี้:
 
 ```java
 import com.aspose.cells.License;
@@ -82,7 +84,7 @@ Cells cells = workbook.getWorksheets().get(0).getCells();
 ### เพิ่มและกำหนดรูปแบบข้อความในเซลล์
 ตอนนี้เราจะแทรกข้อความลงในเซลล์และปรับแต่งรูปแบบให้กับมัน
 #### ภาพรวม
-การกำหนดรูปแบบสามารถปรับปรุงการอ่านและเน้นข้อมูลอินพุตบางส่วนได้ ต่อไปนี้คือวิธีกำหนดรูปแบบสำหรับการป้อนข้อความ:
+การกำหนดรูปแบบสามารถช่วยให้อ่านได้ง่ายขึ้นและเน้นการป้อนข้อมูลบางส่วนได้ ต่อไปนี้เป็นวิธีกำหนดรูปแบบสำหรับการป้อนข้อมูล:
 
 ```java
 import com.aspose.cells.Style;
@@ -193,6 +195,9 @@ workbook.save(outDir + "/TLDValidation_out.xls", SaveFormat.EXCEL_97_TO_2003);
 - ใช่ Aspose.Cells รองรับประเภทการตรวจสอบข้อมูลต่างๆ ช่วยให้คุณสามารถบังคับใช้กฎต่างๆ ทั่วทั้งเวิร์กบุ๊กของคุณได้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

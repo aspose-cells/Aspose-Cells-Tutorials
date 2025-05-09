@@ -1,14 +1,16 @@
 ---
-title: Konwersja tabeli do ODS przy użyciu Aspose.Cells
-linktitle: Konwersja tabeli do ODS przy użyciu Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się konwertować tabele programu Excel do formatu ODS za pomocą Aspose.Cells dla .NET, korzystając z naszego prostego samouczka krok po kroku.
-weight: 12
-url: /pl/net/tables-and-lists/converting-table-to-ods/
+"description": "Naucz się konwertować tabele programu Excel do formatu ODS za pomocą Aspose.Cells dla .NET, korzystając z naszego prostego samouczka krok po kroku."
+"linktitle": "Konwersja tabeli do ODS przy użyciu Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Konwersja tabeli do ODS przy użyciu Aspose.Cells"
+"url": "/pl/net/tables-and-lists/converting-table-to-ods/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwersja tabeli do ODS przy użyciu Aspose.Cells
@@ -27,7 +29,7 @@ Upewnij się, że masz zainstalowany program Visual Studio w swoim systemie. To 
 
 ### Pobierz bibliotekę Aspose.Cells
 
- Musisz mieć zainstalowaną bibliotekę Aspose.Cells w swoim projekcie. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/). Alternatywnie, jeśli wolisz, możesz dodać go przez NuGet:
+Musisz mieć zainstalowaną bibliotekę Aspose.Cells w swoim projekcie. Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/cells/net/). Alternatywnie, jeśli wolisz, możesz dodać go przez NuGet:
 
 ```bash
 Install-Package Aspose.Cells
@@ -39,7 +41,7 @@ Wiedza o tym, czym są pliki ODS i dlaczego warto przekonwertować je na ten for
 
 ## Importuj pakiety
 
-Na początek musisz zaimportować niezbędne przestrzenie nazw do swojego projektu C#. Pozwoli ci to efektywnie wykorzystać funkcjonalności dostarczane przez Aspose.Cells.
+Na początek musisz zaimportować niezbędne przestrzenie nazw do swojego projektu C#. Pozwala to na efektywne wykorzystanie funkcjonalności udostępnianych przez Aspose.Cells.
 
 1. Otwórz swój projekt C#:
 Uruchom program Visual Studio i otwórz projekt, w którym chcesz zaimplementować tę funkcjonalność.
@@ -60,14 +62,14 @@ Przejdźmy teraz do sedna sprawy: konwersji tabeli programu Excel do formatu ODS
 ## Krok 1: Skonfiguruj katalogi źródłowe i wyjściowe
 
 Co robić:
-Zanim zaczniesz kodować, zdecyduj, gdzie jest przechowywany plik źródłowy programu Excel i gdzie chcesz zapisać plik ODS.
+Zanim zaczniesz kodować, zdecyduj, gdzie ma być zapisany plik źródłowy programu Excel i gdzie chcesz zapisać plik ODS.
 
 ```csharp
 string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką na Twoim komputerze, gdzie przechowywane są Twoje dokumenty. Upewnienie się, że ścieżki są prawidłowe, jest niezbędne, aby uniknąć błędów podczas operacji na plikach.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką na Twoim komputerze, gdzie przechowywane są Twoje dokumenty. Upewnienie się, że ścieżki są prawidłowe, jest niezbędne, aby uniknąć błędów podczas operacji na plikach.
 
 ## Krok 2: Otwórz plik Excel
 
@@ -78,7 +80,7 @@ Musisz otworzyć plik Excela zawierający tabelę, którą chcesz przekonwertowa
 Workbook wb = new Workbook(sourceDir + "SampleTable.xlsx");
 ```
 
- Tutaj inicjujesz nowy`Workbook` obiekt ze ścieżką do pliku Excel. Upewnij się, że „SampleTable.xlsx” to nazwa twojego pliku; jeśli jest inna, dostosuj ją odpowiednio.
+Tutaj inicjujesz nowy `Workbook` obiekt ze ścieżką do pliku Excel. Upewnij się, że „SampleTable.xlsx” to nazwa twojego pliku; jeśli jest inna, dostosuj ją odpowiednio.
 
 ## Krok 3: Zapisz jako plik ODS
 
@@ -89,7 +91,7 @@ Po otwarciu pliku następnym krokiem jest zapisanie go w formacie ODS.
 wb.Save(outputDir + "ConvertTableToOds_out.ods");
 ```
 
-Ten wiersz zapisuje skoroszyt do określonego katalogu wyjściowego pod nazwą „ConvertTableToOds_out.ods”. Możesz nadać mu dowolną nazwę, pod warunkiem, że kończy się na`.ods`.
+Ten wiersz zapisuje skoroszyt do określonego katalogu wyjściowego pod nazwą „ConvertTableToOds_out.ods”. Możesz nadać mu dowolną nazwę, pod warunkiem, że kończy się na `.ods`.
 
 ## Krok 4: Sprawdź, czy konwersja się powiodła
 
@@ -112,19 +114,21 @@ masz to! Konwersja tabeli z pliku Excel do pliku ODS przy użyciu Aspose.Cells d
 Aspose.Cells to potężna biblioteka umożliwiająca zarządzanie plikami Excela i manipulowanie nimi w aplikacjach .NET. 
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Możesz pobrać bezpłatną wersję próbną Aspose.Cells z[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną Aspose.Cells z [Tutaj](https://releases.aspose.com/).
 
 ### Czy użytkownicy Aspose.Cells mają dostęp do pomocy technicznej?
- Oczywiście! Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Oczywiście! Możesz uzyskać wsparcie poprzez [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 ### Jak mogę zakupić stałą licencję na Aspose.Cells?
- Możesz kupić licencję stałą bezpośrednio ze strony zakupu Aspose, którą znajdziesz[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić stałą licencję bezpośrednio ze strony zakupu Aspose, którą znajdziesz [Tutaj](https://purchase.aspose.com/buy).
 
 ### Jakie typy formatów plików mogę konwertować za pomocą Aspose.Cells?
 Dzięki Aspose.Cells możesz konwertować pliki pomiędzy różnymi formatami, w tym XLSX, XLS, ODS, CSV i wieloma innymi!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

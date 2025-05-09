@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ W tym przewodniku nauczyłeś się, jak skutecznie zarządzać zagnieżdżonymi 
 Dzięki temu kompleksowemu przewodnikowi będziesz dobrze przygotowany do radzenia sobie ze złożonymi zadaniami zarządzania danymi w programie Excel przy użyciu Aspose.Cells for Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

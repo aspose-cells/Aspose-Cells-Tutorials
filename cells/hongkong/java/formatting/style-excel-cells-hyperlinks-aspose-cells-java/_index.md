@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 ## 先決條件
 
 要遵循本教程，您需要：
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 整合開發環境 (IDE)，如 IntelliJ IDEA 或 Eclipse。
 - Maven 或 Gradle 用於管理相依性。
 
@@ -161,7 +163,7 @@ workbook.save(outDir + "/StyledWorkbook.xls");
 
 ## 結論
 
-透過學習本教程，您學會如何使用 `Aspose.Cells for Java`。這些技術使您能夠以程式設計方式產生專業級的 Excel 文件。如需進一步探索，請考慮深入了解 Aspose 的廣泛 [文件](https://reference。aspose.com/cells/java/).
+透過學習本教程，您已經學會如何使用 `Aspose.Cells for Java`。這些技術使您能夠以程式設計方式產生專業級的 Excel 文件。如需進一步探索，請考慮深入了解 Aspose 的廣泛 [文件](https://reference。aspose.com/cells/java/).
 
 ## 常見問題部分
 
@@ -192,6 +194,9 @@ workbook.save(outDir + "/StyledWorkbook.xls");
 現在您已經掌握了所有資訊和資源，請繼續使用 Java 中的 Aspose.Cells 建立動態 Excel 檔案！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

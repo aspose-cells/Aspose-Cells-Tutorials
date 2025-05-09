@@ -1,138 +1,142 @@
 ---
-title: Kelompokkan Data dengan Penanda Cerdas di Aspose.Cells .NET
-linktitle: Kelompokkan Data dengan Penanda Cerdas di Aspose.Cells .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Kelompokkan data dengan mudah menggunakan smart marker di Aspose.Cells for .NET. Ikuti panduan lengkap kami untuk petunjuk langkah demi langkah.
-weight: 15
-url: /id/net/smart-markers-dynamic-data/group-data-smart-markers/
+"description": "Csoportosítsd könnyedén az adatokat intelligens jelölőkkel az Aspose.Cells for .NET-ben. Kövesd átfogó útmutatónkat a lépésenkénti utasításokért."
+"linktitle": "Adatok csoportosítása intelligens jelölőkkel az Aspose.Cells .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Adatok csoportosítása intelligens jelölőkkel az Aspose.Cells .NET-ben"
+"url": "/id/net/smart-markers-dynamic-data/group-data-smart-markers/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kelompokkan Data dengan Penanda Cerdas di Aspose.Cells .NET
+# Adatok csoportosítása intelligens jelölőkkel az Aspose.Cells .NET-ben
 
-## Perkenalan
-Apakah Anda ingin mengelola dan menyajikan data secara efisien di Microsoft Excel? Jika demikian, Anda mungkin menemukan Aspose.Cells for .NET. Alat canggih ini dapat membantu Anda mengotomatiskan tugas Excel sekaligus memungkinkan manipulasi data yang kuat. Salah satu fitur yang sangat berguna adalah penggunaan penanda cerdas. Dalam panduan ini, kami akan menguraikan cara mengelompokkan data menggunakan penanda cerdas di Aspose.Cells for .NET langkah demi langkah. Jadi, ambil minuman favorit Anda, buat diri Anda nyaman, dan mari kita mulai!
-## Prasyarat
-Sebelum kita mulai membuat kode, pastikan Anda telah menyiapkan semuanya. Anda memerlukan hal berikut:
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini adalah alat terbaik untuk mengembangkan aplikasi .NET.
-2.  Aspose.Cells untuk .NET: Unduh dan instal Aspose.Cells dari[Di Sini](https://releases.aspose.com/cells/net/).
-3. Contoh Basis Data (Northwind.mdb): Anda memerlukan contoh basis data untuk digunakan. Anda dapat menemukan basis data Northwind secara online dengan mudah.
-4. Pemahaman Dasar C#: Panduan ini mengasumsikan Anda memiliki pemahaman dasar tentang pemrograman C#, sehingga Anda dapat mengikutinya tanpa banyak kesulitan.
-## Paket Impor
-Mari kita mulai dengan mengimpor namespace yang diperlukan. Anda perlu menyertakan yang berikut ini dalam berkas kode Anda:
+## Bevezetés
+Szeretnéd hatékonyan kezelni és bemutatni az adataidat a Microsoft Excelben? Ha igen, akkor lehet, hogy már belebotlottál az Aspose.Cells for .NET eszközbe. Ez a hatékony eszköz segít automatizálni az Excel-feladatokat, miközben lehetővé teszi a robusztus adatkezelést. Az egyik különösen hasznos funkció az intelligens jelölők használata. Ebben az útmutatóban lépésről lépésre bemutatjuk, hogyan csoportosíthatod az adatokat intelligens jelölők segítségével az Aspose.Cells for .NET-ben. Szóval, fogd a kedvenc italodat, helyezd magad kényelembe, és vágjunk bele!
+## Előfeltételek
+Mielőtt belevágnánk a kódolás részleteibe, győződjünk meg róla, hogy minden készen áll. A következőkre lesz szükséged:
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a számítógépén. Ez a legjobb eszköz .NET alkalmazások fejlesztéséhez.
+2. Aspose.Cells .NET-hez: Töltse le és telepítse az Aspose.Cells fájlt innen: [itt](https://releases.aspose.com/cells/net/).
+3. Minta adatbázis (Northwind.mdb): Szükséged lesz egy minta adatbázisra a munkához. A Northwind adatbázist könnyen megtalálhatod online.
+4. C# alapismeretek: Ez az útmutató feltételezi, hogy rendelkezel C# programozási alapismeretekkel, így gond nélkül követheted a tanultakat.
+## Csomagok importálása
+Kezdjük a szükséges névterek importálásával. A következőket kell belefoglalnod a kódfájlodba:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System.Data;
 ```
-Ruang nama ini akan memberi Anda akses ke kelas-kelas yang Anda perlukan untuk terhubung ke basis data Anda dan memanipulasi berkas Excel.
-Sekarang, mari kita uraikan proses pengelompokan data dengan penanda pintar ke dalam langkah-langkah yang mudah diikuti.
-## Langkah 1: Tentukan Direktori untuk Dokumen Anda
-Pertama-tama, Anda perlu menentukan di mana dokumen Anda akan disimpan. Di sinilah Anda akan mengarahkan sumber data dan berkas keluaran. Berikut cara melakukannya:
+Ezek a névterek hozzáférést biztosítanak azokhoz az osztályokhoz, amelyekre szükséged van az adatbázishoz való csatlakozáshoz és az Excel-fájlok kezeléséhez.
+Most bontsuk le az adatok intelligens jelölőkkel történő csoportosításának folyamatát könnyen követhető lépésekre.
+## 1. lépés: A dokumentumok könyvtárának meghatározása
+Először is meg kell határoznod, hogy hol lesznek tárolva a dokumentumaid. Ide fogod irányítani az adatforrást és a kimeneti fájlt. Így teheted meg:
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya di komputer Anda tempat basis data dan berkas keluaran Anda berada.
-## Langkah 2: Buat Koneksi Basis Data
-Selanjutnya, Anda perlu membuat koneksi ke basis data Anda. Ini akan memungkinkan Anda untuk mengkueri data secara efektif. Mari kita aturnya:
+Csere `"Your Document Directory"` a számítógépen található tényleges elérési úttal, ahol az adatbázis és a kimeneti fájl található.
+## 2. lépés: Adatbázis-kapcsolat létrehozása
+Ezután létre kell hoznia egy kapcsolatot az adatbázisával. Ez lehetővé teszi az adatok hatékony lekérdezését. Állítsuk be ezt:
 ```csharp
-//Buat objek koneksi, tentukan info penyedia dan tetapkan sumber data.
+// Hozz létre egy kapcsolati objektumot, add meg a szolgáltató adatait és állítsd be az adatforrást.
 OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=" + dataDir + "Northwind.mdb");
 ```
-String koneksi ini menetapkan bahwa kita menggunakan penyedia Jet OLE DB untuk terhubung ke basis data Access.
-## Langkah 3: Buka Koneksi
-Setelah Anda menentukan koneksi, sekarang saatnya untuk benar-benar membukanya. Berikut cara melakukannya:
+Ez a kapcsolati karakterlánc azt határozza meg, hogy a Jet OLE DB szolgáltatót használjuk az Access-adatbázishoz való csatlakozáshoz.
+## 3. lépés: Nyissa meg a kapcsolatot
+Most, hogy definiáltad a kapcsolatot, itt az ideje megnyitni. Így teheted ezt meg:
 ```csharp
-// Buka objek koneksi.
+// Nyissa meg a kapcsolat objektumot.
 con.Open();
 ```
- Dengan menyebut`con.Open()`, Anda membuat koneksi dan bersiap menjalankan perintah Anda.
-## Langkah 4: Buat Objek Perintah
-Dengan koneksi yang aktif, Anda perlu membuat perintah untuk menjalankan kueri SQL. Perintah ini akan menentukan data apa yang ingin Anda ambil dari basis data Anda.
+Hívással `con.Open()`, létrehozod a kapcsolatot és felkészülsz a parancsok végrehajtására.
+## 4. lépés: Parancsobjektum létrehozása
+Amikor a kapcsolat aktív, létre kell hoznod egy parancsot egy SQL lekérdezés végrehajtásához. Ez a parancs határozza meg, hogy milyen adatokat szeretnél lekérni az adatbázisodból.
 ```csharp
-// Buat objek perintah dan tentukan kueri SQL.
+// Hozz létre egy parancsobjektumot, és add meg az SQL lekérdezést.
 OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
 ```
- Di sini, kami memilih semua rekaman dari`Order Details` tabel. Anda dapat mengubah kueri ini sesuai kebutuhan untuk memfilter atau mengelompokkan data Anda secara berbeda.
-## Langkah 5: Buat Adaptor Data
-Selanjutnya, Anda memerlukan adaptor data yang berfungsi sebagai jembatan antara basis data dan kumpulan data. Adaptor ini seperti penerjemah antara dua lingkungan.
+Itt kiválasztjuk az összes rekordot a következőből: `Order Details` táblázat. Szükség szerint módosíthatja ezt a lekérdezést az adatok eltérő szűréséhez vagy csoportosításához.
+## 5. lépés: Adatadapter létrehozása
+Ezután szükséged lesz egy adatadapterre, amely hidat képez az adatbázisod és az adathalmaz között. Olyan, mint egy fordító a két környezet között.
 ```csharp
-// Membuat objek adaptor data.
+// Hozz létre egy adatadapter objektumot.
 OleDbDataAdapter da = new OleDbDataAdapter();
     
-// Tentukan perintahnya.
+// Adja meg a parancsot.
 da.SelectCommand = cmd;
 ```
-## Langkah 6: Buat DataSet
-Sekarang, mari kita siapkan kumpulan data untuk menampung data yang diambil. Satu kumpulan data dapat berisi beberapa tabel, yang membuatnya sangat serbaguna.
+## 6. lépés: Adatkészlet létrehozása
+Most állítsunk be egy adathalmazt a lekért adatok tárolására. Egy adathalmaz több táblázatot is tartalmazhat, ami hihetetlenül sokoldalúvá teszi.
 ```csharp
-// Membuat objek kumpulan data.
+// Hozz létre egy adathalmaz objektumot.
 DataSet ds = new DataSet();
     
-// Isi dataset dengan catatan tabel.
+// Töltse ki az adathalmazt a tábla rekordjaival.
 da.Fill(ds, "Order Details");
 ```
- Dengan`da.Fill()`, Anda mengisi dataset dengan rekaman dari perintah SQL kami.
-## Langkah 7: Buat Objek DataTable
-Untuk bekerja dengan data kita secara lebih efektif, kita akan membuat DataTable khusus untuk data 'Detail Pesanan':
+Vel `da.Fill()`, az adathalmazt az SQL-parancsunkból származó rekordokkal tölti fel.
+## 7. lépés: Hozz létre egy DataTable objektumot
+Az adatainkkal való hatékonyabb munka érdekében létrehozunk egy adattáblát kifejezetten a „Rendelés részletei” adatokhoz:
 ```csharp
-// Buat tabel data berkenaan dengan tabel kumpulan data.
+// Hozz létre egy adattáblát az adatkészlet-táblához viszonyítva.
 DataTable dt = ds.Tables["Order Details"];
 ```
-Baris ini mengambil tabel bernama “Detail Pesanan” dari kumpulan data dan membuat DataTable untuk penanganan yang lebih mudah.
-## Langkah 8: Inisialisasi WorkbookDesigner
-Saatnya menggunakan Aspose.Cells untuk memanipulasi dokumen Excel kita. Kita akan mulai dengan menginisialisasi`WorkbookDesigner`.
+Ez a sor az adathalmazból kiveszi a „Rendelés részletei” nevű táblázatot, és létrehoz egy DataTable-ot a könnyebb kezelés érdekében.
+## 8. lépés: A WorkbookDesigner inicializálása
+Ideje az Aspose.Cells segítségével manipulálni az Excel dokumentumunkat. Először inicializálunk egy `WorkbookDesigner`.
 ```csharp
-// Buat objek WorkbookDesigner.
+// Hozz létre egy WorkbookDesigner objektumot.
 WorkbookDesigner wd = new WorkbookDesigner();
 ```
-## Langkah 9: Buka Template Excel
-Untuk mengelola data Anda dengan penanda cerdas, Anda memerlukan file Excel templat. File ini harus berisi penanda cerdas tempat data Anda akan ditempatkan.
+## 9. lépés: Nyissa meg az Excel-sablont
+Az adatok intelligens jelölőkkel történő kezeléséhez szükséged van egy Excel-sablonfájlra. Ennek a fájlnak kell tartalmaznia az intelligens jelölőket, amelyek meghatározzák, hogy hova helyezed el az adataidat.
 ```csharp
-// Buka berkas templat (yang berisi penanda pintar).
+// Nyisd meg a sablonfájlt (amely intelligens jelölőket tartalmaz).
 wd.Workbook = new Workbook(dataDir + "Designer.xlsx");
 ```
- Pastikan Anda memiliki`Designer.xlsx` berkas yang dibuat dengan penanda pintar yang ada sebelum ini.
-## Langkah 10: Tetapkan Sumber Data
-Sekarang setelah kita membuat buku kerja dan penanda pintar sudah tersedia, kita dapat mengatur sumber data ke DataTable yang kita buat sebelumnya:
+Győződjön meg róla, hogy megvan a `Designer.xlsx` a fájl, amelyet intelligens jelölőkkel hoztak létre ez előtt.
+## 10. lépés: Az adatforrás beállítása
+Most, hogy létrehoztuk a munkafüzetünket és az intelligens jelölők a helyükön vannak, beállíthatjuk az adatforrást a korábban létrehozott DataTable-re:
 ```csharp
-// Tetapkan datatable sebagai sumber data.
+// Állítsa be az adattáblát adatforrásként.
 wd.SetDataSource(dt);
 ```
-## Langkah 11: Proses Penanda Cerdas
-Langkah ini adalah tempat keajaiban terjadi. Pemrosesan penanda pintar akan mengisi berkas Excel Anda dengan data aktual dari DataTable.
+## 11. lépés: Intelligens jelölők feldolgozása
+Ebben a lépésben történik a varázslat. Az intelligens jelölők feldolgozása kitölti az Excel-fájlt a DataTable tényleges adataival.
 ```csharp
-// Memproses penanda pintar untuk mengisi data ke dalam lembar kerja.
+// Dolgozd ki az intelligens jelölőket az adatokkal a munkalapokban.
 wd.Process(true);
 ```
- Lewat`true` ke`wd.Process()`memberi tahu perancang bahwa kita ingin mengganti penanda pintar dengan data kita yang sebenarnya.
-## Langkah 12: Simpan File Excel
-Terakhir, kita perlu menyimpan berkas Excel yang baru kita buat ke dalam disk. Ini adalah langkah terakhir, dan caranya cukup mudah:
+Múló `true` hogy `wd.Process()` jelzi a tervezőnek, hogy az intelligens jelölőket a tényleges adatainkkal szeretnénk lecserélni.
+## 12. lépés: Mentse el az Excel-fájlt
+Végül mentenünk kell az újonnan kitöltött Excel fájlt lemezre. Ez az utolsó lépés, és meglehetősen egyszerű:
 ```csharp
-// Simpan berkas excel.
+// Mentse el az excel fájlt.
 wd.Workbook.Save(dataDir + "output.xlsx");
 ```
-Selesai! Anda telah mengelompokkan data Anda menggunakan penanda cerdas Aspose.Cells.
-## Kesimpulan
-Menggunakan penanda cerdas di Aspose.Cells for .NET merupakan cara yang ampuh untuk mengelola dan memformat data Anda di Excel dengan mudah. Hanya dengan beberapa baris kode, Anda dapat terhubung ke database, mengambil data, dan mengisi dokumen Excel. Baik Anda melakukan ini untuk pelaporan, analisis, atau hanya untuk menjaga semuanya tetap teratur, metode ini dapat menghemat waktu dan mengurangi kerepotan Anda.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Penanda Cerdas?
-Penanda pintar adalah anotasi khusus dalam templat yang dikenali Aspose.Cells untuk diisi dengan data secara dinamis.
-### Bisakah saya mengelompokkan data secara berbeda?
-Ya! Anda dapat memodifikasi query SQL SELECT untuk melakukan operasi pengelompokan, tergantung pada apa yang Anda butuhkan.
-### Di mana saya dapat menemukan dokumentasi Aspose.Cells?
- Anda dapat mengakses dokumentasi[Di Sini](https://reference.aspose.com/cells/net/).
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.Cells?
- Tentu saja! Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
-### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Cells?
-Untuk pertanyaan atau masalah apa pun, Anda dapat mengunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/cells/9).
+És ezzel kész is vagy! Az Aspose.Cells intelligens jelölőivel csoportosítottad az adataidat.
+## Következtetés
+Az Aspose.Cells for .NET intelligens jelölőinek használata hatékony módja az adatok egyszerű kezelésének és formázásának Excelben. Mindössze néhány sornyi kóddal csatlakozhat az adatbázishoz, adatokat kérhet le, és feltölthet egy Excel-dokumentumot. Akár jelentéskészítéshez, elemzéshez, akár csak a dolgok rendszerezéséhez teszi ezt, ez a módszer időt és energiát takaríthat meg.
+## GYIK
+### Mik azok az intelligens jelölők?
+Az intelligens jelölők speciális annotációk a sablonokban, amelyeket az Aspose.Cells felismer, és dinamikusan kitölti azokat adatokkal.
+### Csoportosíthatom az adatokat másképp?
+Igen! Módosíthatod az SQL SELECT lekérdezésedet csoportosítási műveletek végrehajtásához, attól függően, hogy mire van szükséged.
+### Hol találom az Aspose.Cells dokumentációját?
+Hozzáférhet a dokumentációhoz [itt](https://reference.aspose.com/cells/net/).
+### Van ingyenes próbaverzió az Aspose.Cells-hez?
+Természetesen! Letöltheted az ingyenes próbaverziót [itt](https://releases.aspose.com/).
+### Hogyan kaphatok támogatást az Aspose.Cells-hez?
+Bármilyen kérdés vagy probléma esetén látogassa meg a támogatási fórumot [itt](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

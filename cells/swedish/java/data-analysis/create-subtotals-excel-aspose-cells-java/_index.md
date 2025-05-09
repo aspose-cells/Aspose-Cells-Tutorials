@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 ##### Steg 4: Spara och skriva ut
 Spara slutligen din arbetsbok med de nya delsummorna:
 ```java
-// Spara den ändrade Excel-filen
+// Spara den modifierade Excel-filen
 dataDir + "CreatingSubtotals_out.xls";
 
 // Bekräfta framgång
@@ -154,6 +156,9 @@ A: Ja, den stöder en mängd olika Excel-format, inklusive XLS och XLSX.
 Genom att följa den här guiden bör du nu vara väl rustad för att integrera delsummefunktioner i dina Java-applikationer med hjälp av Aspose.Cells. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

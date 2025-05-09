@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ ImageIO.write(image, "png", new File(outDir + "/background.png"));
 لقد أتقنت الآن تحميل ملفات ODS ومعالجتها باستخدام Aspose.Cells لجافا. من الوصول إلى جداول العمل إلى استخراج تفاصيل الخلفية، أنت جاهز لتحسين تطبيقاتك بقدرات معالجة جداول بيانات متطورة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,8 +58,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### 라이센스 취득 단계
 1. **무료 체험**Aspose에서 평가판 패키지를 다운로드하여 라이브러리를 테스트하세요.
-2. **임시 면허**: 개발 기간 동안 제한 없이 사용할 수 있는 임시 라이선스를 획득합니다.
-3. **구입**: 장기 프로젝트의 경우 라이선스 구매를 고려하세요.
+2. **임시 면허**: 개발 기간 동안 제한 없이 사용할 수 있는 임시 라이선스를 획득하세요.
+3. **구입**: 장기 프로젝트에는 라이선스 구매를 고려하세요.
 
 #### 기본 초기화 및 설정
 프로젝트에 Aspose.Cells를 포함시킨 후 다음과 같이 초기화합니다.
@@ -176,6 +178,9 @@ Aspose.Cells for Java는 다음과 같은 다양한 실제 시나리오에서 �
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

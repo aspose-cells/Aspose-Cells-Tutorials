@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,7 +186,7 @@ Pronti a provarlo? Implementate queste soluzioni e prendete il controllo della g
 4. **Cosa devo fare se la mia tabella pivot non si aggiorna correttamente?**
    - Assicurati che i dati di origine siano aggiornati e controlla le impostazioni di connessione della tabella pivot.
 5. **Come posso personalizzare ulteriormente l'ordinamento della tabella pivot?**
-   - Esplorare `PivotField` Metodi per impostare campi specifici e ordinare gli ordini in base alle proprie esigenze.
+   - Esplorare `PivotField` Metodi per impostare campi specifici e ordinare i criteri in base alle proprie esigenze.
 
 ## Risorse
 - **Documentazione:** Accedi alle guide approfondite su [Riferimento di Aspose](https://reference.aspose.com/cells/java/).
@@ -194,6 +196,9 @@ Pronti a provarlo? Implementate queste soluzioni e prendete il controllo della g
 - **Licenza temporanea:** Esplora tutte le funzionalità ottenendo una licenza temporanea da [Posare](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

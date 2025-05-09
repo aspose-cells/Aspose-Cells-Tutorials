@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ wb.save(dataDir + "ImplementTotallabels_out.xlsx");
 Αγκαλιάστε τη δύναμη του Aspose.Cells για Java και ανεβάστε τον αυτοματισμό του Excel στο επόμενο επίπεδο!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,14 +119,14 @@ workbook.save(outDir + "InsertImageInHeaderFooter_out.xls");
 - **Propósito:** Esta etapa grava todas as modificações de volta em um arquivo no disco.
 
 ### Recursos de Encerramento
-**Fechar fluxos:**
+**Fechar Fluxos:**
 ```java
 inFile.close();
 ```
 - **Importância:** Sempre feche os fluxos de entrada para liberar recursos do sistema e evitar vazamentos de memória.
 
 ## Aplicações práticas
-1. **Relatórios Corporativos:** Adicione logotipos da empresa para branding.
+1. **Relatórios Corporativos:** Adicione logotipos da empresa para fins de branding.
 2. **Projetos Acadêmicos:** Insira emblemas do departamento ou da escola.
 3. **Documentos Financeiros:** Use cabeçalhos para incluir avisos de confidencialidade ou identificadores de planilhas.
 
@@ -163,6 +165,9 @@ Seguindo este guia, você aprendeu a aprimorar suas pastas de trabalho do Excel 
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Wstaw pole wyboru do arkusza wykresu
-linktitle: Wstaw pole wyboru do arkusza wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak w prosty sposób wstawić pole wyboru do arkusza wykresu programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku.
-weight: 13
-url: /pl/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
+"description": "Dowiedz się, jak w prosty sposób wstawić pole wyboru do arkusza wykresu programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego samouczka krok po kroku."
+"linktitle": "Wstaw pole wyboru do arkusza wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wstaw pole wyboru do arkusza wykresu"
+"url": "/pl/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wstaw pole wyboru do arkusza wykresu
@@ -25,7 +27,7 @@ Zanim przejdziemy do samouczka, upewnijmy się, że wszystko jest skonfigurowane
 - Przede wszystkim, będziesz potrzebować Visual Studio. Jeśli jeszcze go nie masz zainstalowanego, możesz go pobrać ze strony Microsoft.
 
 ### Biblioteka Aspose.Cells
--  Następnym niezbędnym narzędziem jest biblioteka Aspose.Cells dla .NET. Można ją łatwo pobrać z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/) do pobrania. Jeśli wolisz przetestować przed zakupem, jest też[dostępna bezpłatna wersja próbna](https://releases.aspose.com/).
+- Następnym niezbędnym narzędziem jest biblioteka Aspose.Cells dla .NET. Można ją łatwo pobrać z [Strona internetowa Aspose](https://releases.aspose.com/cells/net/) do pobrania. Jeśli wolisz przetestować przed zakupem, jest też [dostępna bezpłatna wersja próbna](https://releases.aspose.com/).
 
 ### Podstawowa znajomość języka C#
 - Ponieważ będziemy pisać kod, podstawowa znajomość języka C# będzie przydatna. Nie martw się; będę wyjaśniał wszystko w trakcie!
@@ -43,7 +45,7 @@ Aby zacząć, skonfigurujmy nasz projekt w Visual Studio i zaimportujmy niezbęd
 
 Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli. Wystarczy wykonać następujące proste kroki:
 - Kliknij „Utwórz nowy projekt”.
-- dostępnych opcji wybierz „Aplikacja konsolowa (.NET Framework)”.
+- Z dostępnych opcji wybierz „Aplikacja konsolowa (.NET Framework)”.
 - Nadaj swojemu projektowi nazwę, na przykład „CheckboxInChart”.
 
 ### Zainstaluj Aspose.Cells za pomocą NuGet
@@ -55,7 +57,7 @@ Gdy projekt jest już skonfigurowany, czas dodać bibliotekę Aspose.Cells. Moż
 
 ### Dodaj niezbędne dyrektywy użycia
 
- Na szczycie twojego`Program.cs` plik, dodaj następujące dyrektywy using, aby udostępnić funkcjonalności Aspose.Cells:
+Na szczycie twojego `Program.cs` plik, dodaj następujące dyrektywy using, aby udostępnić funkcjonalności Aspose.Cells:
 ```csharp
 using Aspose.Cells.Charts;
 using System;
@@ -72,11 +74,11 @@ Zanim przejdziemy do ekscytującej części, musimy zdefiniować, gdzie chcemy z
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Przejdź do określonego katalogu
 ```
- Pamiętaj o wymianie`"C:\\YourOutputDirectory\\"`ze ścieżką, w której chcesz zapisać plik. Pomyśl o tym jak o ustawianiu swojego obszaru roboczego; musisz wiedzieć, gdzie umieszczasz swoje narzędzia (lub w tym przypadku plik Excel).
+Pamiętaj o wymianie `"C:\\YourOutputDirectory\\"` ze ścieżką, w której chcesz zapisać plik. Pomyśl o tym jak o ustawianiu swojego obszaru roboczego; musisz wiedzieć, gdzie umieszczasz swoje narzędzia (lub w tym przypadku plik Excel).
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
- Następnie tworzymy instancję`Workbook` klasa. To tutaj będzie się odbywać cała nasza praca.
+Następnie tworzymy instancję `Workbook` klasa. To tutaj będzie się odbywać cała nasza praca.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -125,31 +127,33 @@ Na koniec zapiszmy naszą pracę. Oto ostatni element układanki:
 ```csharp
 workbook.Save(outputDir + "InsertCheckboxInChartSheet_out.xlsx");
 ```
-Ta linia zapisuje nowo utworzony plik Excela z polem wyboru w zdefiniowanym katalogu wyjściowym. To tak, jakby zapieczętować grafikę w etui ochronnym!
+Ta linia zapisuje nowo utworzony plik Excela z polem wyboru w zdefiniowanym katalogu wyjściowym. To tak, jakby zapieczętować grafikę w ochronnym etui!
 
 ## Wniosek
 
-masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz tworzyć interaktywne i dynamiczne arkusze Excela, które oferują świetną funkcjonalność, dzięki czemu Twoje wizualizacje danych będą jeszcze bardziej angażujące.
+I masz! Udało Ci się dodać pole wyboru do arkusza wykresu w pliku Excel przy użyciu Aspose.Cells dla .NET. Wykonując te kroki, możesz tworzyć interaktywne i dynamiczne arkusze Excela, które oferują świetną funkcjonalność, dzięki czemu Twoje wizualizacje danych będą jeszcze bardziej angażujące.
 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?  
-Aspose.Cells to potężna biblioteka do tworzenia i modyfikowania plików Excel w aplikacjach .NET.
+Aspose.Cells to potężna biblioteka służąca do tworzenia i modyfikowania plików Excel w aplikacjach .NET.
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak, Aspose oferuje bezpłatny okres próbny. Możesz zacząć od dostępnej wersji próbnej[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny. Możesz zacząć od dostępnej wersji próbnej [Tutaj](https://releases.aspose.com/).
 
 ### Czy dodanie pola wyboru do arkusza wykresu jest skomplikowane?  
 Wcale nie! Jak pokazano w tym samouczku, można to zrobić w kilku prostych liniach kodu.
 
 ### Gdzie mogę kupić Aspose.Cells?  
- Możesz zakupić Aspose.Cells u nich[link do zakupu](https://purchase.aspose.com/buy).
+Możesz zakupić Aspose.Cells u nich [link do zakupu](https://purchase.aspose.com/buy).
 
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?  
- Aspose udostępnia forum wsparcia, na którym możesz zadawać pytania i znajdować rozwiązania. Sprawdź ich[strona wsparcia](https://forum.aspose.com/c/cells/9).
+Aspose udostępnia forum wsparcia, na którym możesz zadawać pytania i znajdować rozwiązania. Sprawdź ich [strona wsparcia](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

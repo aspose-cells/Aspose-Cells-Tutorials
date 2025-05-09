@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,12 +192,15 @@ A5：是的，Aspose.Cells 可以與各種基於 Java 的框架和應用程式�
 - [下載 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [購買 Aspose.Cells](https://purchase.aspose.com/buy)
 - [免費試用許可證](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 探索這些資源以加深您的理解並在您的專案中充分利用 Aspose.Cells for Java。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

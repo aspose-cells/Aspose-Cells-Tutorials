@@ -7,19 +7,21 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Memunculkan Baris & Kolom Tersembunyi di Excel Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Mengelola kumpulan data besar di Excel sering kali melibatkan penyembunyian dan penyingkapan baris dan kolom untuk memperlancar alur kerja atau fokus pada segmen data tertentu. Dengan kekuatan otomatisasi, Anda dapat mengelola tugas-tugas ini dengan mudah menggunakan **Aspose.Cells untuk Java**, pustaka tangguh yang dirancang untuk membaca, menulis, dan memanipulasi file Excel secara terprogram.
 
 Tutorial ini akan memandu Anda melalui proses menampilkan kembali baris dan kolom dalam buku kerja Excel menggunakan Aspose.Cells Java. Dengan menguasai keterampilan ini, Anda akan meningkatkan kemampuan untuk mengotomatiskan tugas manajemen data secara efisien.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara membuat instance objek Buku Kerja dengan Aspose.Cells.
 - Mengakses lembar kerja dan sel dalam berkas Excel.
 - Menampilkan baris dan kolom tertentu dalam lembar Excel.
@@ -27,11 +29,11 @@ Tutorial ini akan memandu Anda melalui proses menampilkan kembali baris dan kolo
 
 Saat beralih dari penyiapan ke implementasi, pertama-tama mari pastikan Anda telah menyiapkan segalanya untuk perjalanan ini.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami kode, pastikan Anda telah menyiapkan lingkungan yang diperlukan:
 
-### Pustaka, Versi, dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak, verziók és függőségek
 Anda akan memerlukan Aspose.Cells untuk Java. Berikut adalah konfigurasi dependensi untuk alat build yang populer:
 
 **Pakar:**
@@ -48,22 +50,22 @@ Anda akan memerlukan Aspose.Cells untuk Java. Berikut adalah konfigurasi depende
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi Excel akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk mulai menggunakan Aspose.Cells di proyek Anda:
 1. **Tambahkan Ketergantungan:** Gunakan Maven atau Gradle untuk menambahkan Aspose.Cells sebagai dependensi dalam proyek Anda.
-2. **Akuisisi Lisensi:**
-   - Anda dapat memulai dengan memperoleh lisensi uji coba gratis dari [Asumsikan](https://purchase.aspose.com/temporary-license/).
+2. **Licenc beszerzése:**
+   - Anda dapat memulai dengan memperoleh lisensi uji coba gratis dari [Aspose](https://purchase.aspose.com/temporary-license/).
    - Untuk penggunaan berkelanjutan, pertimbangkan untuk membeli lisensi penuh.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Berikut cara menginisialisasi Aspose.Cells:
 ```java
 import com.aspose.cells.*;
@@ -79,12 +81,12 @@ public class ExcelHandler {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang, mari kita bahas setiap fitur langkah demi langkah.
 
 ### Membuat Instansi Buku Kerja
-Untuk mulai memanipulasi file Excel, Anda perlu membuat `Workbook` contoh:
+Untuk mulai memanipulasi file Excel, Anda perlu membuat `Workbook` példány:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -96,7 +98,7 @@ public class UnhideRowsColumns {
     }
 }
 ```
-**Parameternya:** 
+**Paraméterek:** 
 - `dataDir`: Jalur ke berkas Excel yang ingin Anda muat.
 
 ### Mengakses Lembar Kerja dan Sel
@@ -117,7 +119,7 @@ public class UnhideRowsColumns {
     }
 }
 ```
-**Ringkasan:** 
+**Áttekintés:** 
 - Mengambil lembar kerja pertama dari buku kerja.
 - Mengakses semua sel di lembar kerja tersebut.
 
@@ -139,7 +141,7 @@ public class UnhideRowsColumns {
     }
 }
 ```
-**Parameternya:** 
+**Paraméterek:** 
 - `index`: Indeks baris (berbasis 0).
 - `height`: Ketinggian baru untuk baris.
 
@@ -161,11 +163,11 @@ public class UnhideRowsColumns {
     }
 }
 ```
-**Parameternya:** 
+**Paraméterek:** 
 - `index`: Indeks kolom (berbasis 0).
 - `width`: Lebar baru untuk kolom.
 
-### Menyimpan Buku Kerja
+### A munkafüzet mentése
 Terakhir, simpan perubahan Anda:
 ```java
 public class UnhideRowsColumns {
@@ -181,38 +183,38 @@ public class UnhideRowsColumns {
         cells.unhideRow(2, 13.5);
         cells.unhideColumn(1, 8.5);
 
-        // Simpan buku kerja yang dimodifikasi
+        // Mentse el a módosított munkafüzetet
         workbook.save(outDir + "UnhidingRowsandColumns_out.xls");
 
         System.out.println("Workbook saved successfully.");
     }
 }
 ```
-**Parameternya:** 
+**Paraméterek:** 
 - `outDir`: Jalur tempat Anda ingin menyimpan berkas yang dimodifikasi.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Laporan Analisis Data**: Secara otomatis menyiapkan laporan dengan menampilkan bagian yang relevan.
 2. **Manajemen Data Keuangan**: Sesuaikan lembar kerja untuk audit atau tinjauan keuangan.
 3. **Sistem Inventaris**: Sesuaikan visibilitas kategori inventaris berdasarkan peran pengguna.
 4. **Alat Manajemen Proyek**: Ubah daftar tugas untuk memperlihatkan/menyembunyikan detail sesuai kebutuhan.
-5. **Platform Pendidikan**Kelola data kinerja siswa dengan menyesuaikan kolom/baris yang terlihat.
+5. **Oktatási platformok**Kelola data kinerja siswa dengan menyesuaikan kolom/baris yang terlihat.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan file Excel berukuran besar, pertimbangkan kiat pengoptimalan berikut:
+Nagyméretű Excel-fájlok kezelésekor vegye figyelembe az alábbi optimalizálási tippeket:
 - Minimalkan penggunaan memori dengan menutup buku kerja saat tidak digunakan.
 - Gunakan API streaming jika menangani kumpulan data yang sangat besar.
 - Optimalkan pengaturan pengumpulan sampah Java untuk kinerja yang lebih baik.
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan ini, Anda mempelajari cara efektif untuk menampilkan kembali baris dan kolom dalam buku kerja Excel menggunakan Aspose.Cells Java. Dengan teknik-teknik ini, Anda dapat mengotomatiskan dan menyederhanakan proses pengelolaan kumpulan data yang ekstensif.
 
 Langkah selanjutnya termasuk mengeksplorasi lebih banyak fitur Aspose.Cells dan mengintegrasikannya ke dalam proyek yang lebih besar untuk solusi manajemen data yang lebih baik.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Apa saja prasyarat untuk menggunakan Aspose.Cells di proyek saya?**
 - Anda perlu menginstal Java di komputer Anda, bersama dengan pengaturan Maven atau Gradle untuk manajemen ketergantungan.
@@ -227,10 +229,13 @@ Langkah selanjutnya termasuk mengeksplorasi lebih banyak fitur Aspose.Cells dan 
 - Meskipun sangat mumpuni, mungkin ada kendala kinerja dengan file Excel yang sangat besar.
 
 **Q5: Bagaimana saya dapat memecahkan masalah umum saat bekerja dengan Aspose.Cells?**
-- Mengacu pada mereka [dokumentasi](https://reference.aspose.com/cells/java) dan forum komunitas untuk dukungan.
+- Mengacu pada mereka [dokumentáció](https://reference.aspose.com/cells/java) dan forum komunitas untuk dukungan.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,45 @@
 ---
-title: Vytvořte a formátujte 3D graf v programu Excel pomocí Aspose.Cells pro .NET 
-weight: 7700
-limit: 
-description: Aspose.Cells pro .NET, formátování 3D grafu Excel, vytvoření pracovního seznamu Excel C#, přidání grafu v Excel C#, formátování grafu Excel C#, výukový program Aspose.Cells, knihovna .NET Excel  
-keywords: [Aspose.Words for .NET, create chart in Word, customize Y-axis, DOCX chart creation, Word document chart tutorial, .NET Word chart example]
-url: /cs/net/charts/applying-3d-format/
+"description": "Aspose.Cells pro .NET, formátování 3D grafů v Excelu, vytvoření sešitu Excelu v C#, přidání grafu v Excelu v C#, formátování grafu v Excelu v C#, tutoriál k Aspose.Cells, knihovna pro Excel v .NET"
+"title": "Vytváření a formátování 3D grafů v Excelu pomocí Aspose.Cells pro .NET"
+"url": "/cs/net/charts/applying-3d-format/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvořte a formátujte 3D grafy v programu Excel pomocí Aspose.Cells 
+# Vytváření a formátování 3D grafů v Excelu pomocí Aspose.Cells 
 
-Aspose.Cells pro .NET je výkonná knihovna, která umožňuje vývojářům programaticky vytvářet, manipulovat a formátovat soubory Excel. Tento příklad ukazuje, jak vytvořit nový pracovní knižek Excel, vložit data do pracovního listu, přidat graf a aplikovat formátování 3D do série grafů.  
+Aspose.Cells pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a formátovat soubory aplikace Excel. Tento příklad ukazuje, jak vytvořit nový sešit aplikace Excel, vložit data do listu, přidat graf a použít 3D formátování na řadu grafů. V tomto průvodci se naučíte, jak nastavit data kategorií, konfigurovat vlastnosti grafu a vylepšit vizualizaci pomocí 3D efektů pomocí jazyka C#.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/applying-3d-format" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci  
-Chcete-li použít Aspose.Cells pro .NET, postupujte podle těchto kroků:  
+## Pokyny k instalaci  
+Chcete-li použít Aspose.Cells pro .NET, postupujte takto:  
 
-1. Instalace prostřednictvím programu NuGet Package Manager:  
-   * Otevři Visual Studio a jděte do nástroje > Správce balíčků NuGet > Správte balíčky NuGet pro řešení.  
-   * Hledejte Aspose.Cells a nainstalujte ho.  
+1. Instalace přes Správce balíčků NuGet:  
+   - Otevřete Visual Studio a přejděte do nabídky Nástroje > Správce balíčků NuGet > Spravovat balíčky NuGet pro řešení.  
+   - Vyhledejte Aspose.Cells a nainstalujte jej.  
 
-   Nebo instalovat přes konzolu pro správu balíček NuGet:  
+   Nebo nainstalujte pomocí konzole Správce balíčků NuGet:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Stáhněte si poslední verzi:  
-   * Získáte nejnovější verzi na stránce Aspose:  
-     [Snímek Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/)  
+2. Stáhněte si nejnovější verzi:  
+   - Získejte nejnovější verzi z webových stránek Aspose:  
+     [Stáhnout Aspose.Cells pro .NET](https://releases.aspose.com/cells/net/)  
 
-3. Přidejte odkaz do svého projektu:  
-   * Po instalaci zahrněte do svého kódu C# následující názevové místo:  
+3. Přidejte referenci do svého projektu:  
+   - Po instalaci zahrňte do kódu C# následující jmenný prostor:  
      ```csharp
      using Aspose.Cells;
      using Aspose.Cells.Charts;
@@ -44,8 +47,11 @@ Chcete-li použít Aspose.Cells pro .NET, postupujte podle těchto kroků:
      using System;
      using System.Drawing;
      ```  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

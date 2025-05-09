@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/converting-excel-file-to-markd
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Excel File to Markdown Programmatically in .NET
@@ -98,6 +100,7 @@ Yes, it supports older formats like `.xls` as well as newer ones like `.xlsx`.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Ustaw szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET
-linktitle: Ustaw szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak ustawić szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET. Ulepsz swoje pliki Excela dzięki temu prostemu przewodnikowi krok po kroku.
-weight: 11
-url: /pl/net/size-and-spacing-customization/setting-column-width/
+"description": "Dowiedz się, jak ustawić szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET. Ulepsz swoje pliki Excela dzięki temu prostemu przewodnikowi krok po kroku."
+"linktitle": "Ustaw szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ustaw szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET"
+"url": "/pl/net/size-and-spacing-customization/setting-column-width/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw szerokość kolumny w pikselach za pomocą Aspose.Cells dla .NET
@@ -18,9 +20,9 @@ Jeśli chodzi o programową pracę z plikami Excela, posiadanie dokładnej kontr
 ## Wymagania wstępne
 Zanim zakasamy rękawy i zaczniemy, jest kilka rzeczy, które musisz mieć na miejscu:
 1. Visual Studio: To jest Twój plac zabaw, gdzie będziesz pisać i uruchamiać swój kod .NET. Upewnij się, że masz zainstalowaną najnowszą wersję.
-2.  Aspose.Cells dla .NET: Możesz zakupić licencję lub pobrać bezpłatną wersję próbną ze strony[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Ta biblioteka pozwala nam programowo manipulować plikami Excela.
-3. Podstawowa wiedza o C#: Jeśli znasz programowanie w C#, łatwiej będzie ci nadążać. Jeśli nie, nie martw się! Wyjaśnimy każdy krok w sposób jasny.
-4.  Plik Excel: Do tego samouczka będziesz potrzebować istniejącego pliku Excel. Możesz utworzyć go w Excelu i zapisać jako`Book1.xlsx`.
+2. Aspose.Cells dla .NET: Możesz zakupić licencję lub pobrać bezpłatną wersję próbną ze strony [Strona internetowa Aspose](https://releases.aspose.com/cells/net/). Ta biblioteka pozwala nam programowo manipulować plikami Excela.
+3. Podstawowa wiedza o C#: Jeśli znasz programowanie w C#, łatwiej będzie ci nadążać. Jeśli nie, nie martw się! Wyjaśnimy każdy krok wyraźnie.
+4. Plik Excel: Do tego samouczka będziesz potrzebować istniejącego pliku Excel. Możesz utworzyć go w Excelu i zapisać jako `Book1.xlsx`.
 Teraz gdy wszystko jest już gotowe, możemy zaimportować niezbędne pakiety.
 ## Importuj pakiety
 Aby rozpocząć pracę z Aspose.Cells, musisz dodać odwołanie do biblioteki Aspose.Cells w swoim projekcie. Oto kroki, aby to zrobić:
@@ -29,13 +31,13 @@ Uruchom program Visual Studio i otwórz projekt, do którego chcesz dodać funkc
 ### Zainstaluj Aspose.Cells
 Możesz zainstalować bibliotekę za pomocą NuGet Package Manager. Aby to zrobić:
 - Przejdź do Narzędzia > Menedżer pakietów NuGet > Zarządzaj pakietami NuGet dla rozwiązania…
--  Szukaj`Aspose.Cells` i kliknij przycisk Instaluj.
+- Szukaj `Aspose.Cells` i kliknij przycisk Instaluj.
 ### Dodaj dyrektywę Using
 Dodaj następującą dyrektywę using na górze pliku kodu:
 ```csharp
 using System;
 ```
-Teraz, gdy wszystko już skonfigurowaliśmy, możemy przejść do ciekawszej części: krok po kroku ustawiamy szerokość kolumny w pikselach!
+Teraz, gdy wszystko mamy już skonfigurowane, możemy przejść do ciekawszej części: ustawiania szerokości kolumny w pikselach krok po kroku!
 ## Krok 1: Utwórz ścieżki do katalogów
 Zanim zaczniesz manipulować plikiem Excela, zdefiniujmy katalogi źródłowy i wyjściowy. To tutaj znajduje się Twój oryginalny plik i gdzie chcesz zapisać zmodyfikowany plik.
 ```csharp
@@ -44,9 +46,9 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`Book1.xlsx` plik jest zapisywany.
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś `Book1.xlsx` plik jest zapisywany.
 ## Krok 2: Załaduj plik Excel
- Następnie musimy załadować nasz plik Excel do`Workbook` obiekt. Ten obiekt jest jak kontener na plik Excel, pozwalający na interakcję z nim za pomocą kodu.
+Następnie musimy załadować nasz plik Excel do `Workbook` obiekt. Ten obiekt jest jak kontener na plik Excel, pozwalający na interakcję z nim za pomocą kodu.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
@@ -62,7 +64,7 @@ Czas ustawić szerokość kolumny! Z Aspose.Cells jest to słodkie i proste. Okr
 ```csharp
 worksheet.Cells.SetColumnWidthPixel(7, 200);
 ```
-tym przypadku ustawiamy szerokość 8. kolumny (ponieważ indeksy są zerowe) na 200 pikseli. Możesz łatwo dostosować to do swoich wymagań.
+W tym przypadku ustawiamy szerokość 8. kolumny (ponieważ indeksy są zerowe) na 200 pikseli. Możesz łatwo dostosować to do swoich wymagań.
 ## Krok 5: Zapisz zmiany
 Po wszystkich zmianach ważne jest, aby zapisać zmiany w nowym pliku Excel. W ten sposób nie nadpiszesz oryginału, chyba że chcesz.
 ```csharp
@@ -89,9 +91,11 @@ Aspose.Cells jest przeznaczony przede wszystkim dla języków .NET, ale ma równ
 ### Czy istnieje możliwość cofnięcia wprowadzonych zmian?
 Jeśli zapiszesz zmiany w nowym pliku, oryginał pozostanie niezmieniony. Zawsze rób kopie zapasowe podczas wykonywania modyfikacji.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

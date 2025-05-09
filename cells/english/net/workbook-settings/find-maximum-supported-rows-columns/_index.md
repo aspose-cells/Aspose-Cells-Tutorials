@@ -8,7 +8,9 @@ url: /net/workbook-settings/find-maximum-supported-rows-columns/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Find Max Rows and Columns Supported by XLS and XLSX Formats
@@ -89,6 +91,7 @@ Yes, the Aspose.Cells for .NET library supports a wide range of Excel file forma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

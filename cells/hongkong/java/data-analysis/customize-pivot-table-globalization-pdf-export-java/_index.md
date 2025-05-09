@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - 使用特定名稱自訂資料透視表標籤
 - 在 Excel 工作簿中套用自訂全球化設置
 - 將自訂資料透視表匯出為 PDF 格式
-- 優化 Aspose.Cells 庫以實現高效的 Java 應用程式
+- 優化 Aspose.Cells 函式庫以實現高效的 Java 應用程式
 
 準備好提升您的數據展示技能了嗎？讓我們開始吧！
 
@@ -189,6 +191,9 @@ Workbook workbook = new Workbook("path/to/excel/file.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

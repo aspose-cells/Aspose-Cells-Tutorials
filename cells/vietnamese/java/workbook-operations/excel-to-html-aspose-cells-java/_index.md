@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Bạn có thể đánh giá Aspose.Cells bằng bản dùng thử miễn phí b�
 ## Hướng dẫn thực hiện
 
 ### Bước 1: Tải tệp Excel
-Bắt đầu bằng cách tải tệp Excel hiện có của bạn để khởi tạo đối tượng sổ làm việc.
+Bắt đầu bằng cách tải tệp Excel hiện có của bạn để khởi tạo đối tượng bảng tính.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -137,6 +139,9 @@ Sẵn sàng chuyển đổi bảng tính của riêng bạn? Hãy bắt đầu b
 - **Dùng thử miễn phí**: [Aspose.Cells Phiên bản miễn phí](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

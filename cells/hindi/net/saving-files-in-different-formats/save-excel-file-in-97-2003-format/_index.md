@@ -1,14 +1,16 @@
 ---
-title: एक्सेल फ़ाइल को 97-2003 प्रारूप में सहेजें
-linktitle: एक्सेल फ़ाइल को 97-2003 प्रारूप में सहेजें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को 97-2003 फ़ॉर्मेट में सहेजना सीखें। व्यावहारिक जानकारी और चरण-दर-चरण मार्गदर्शन प्राप्त करें।
-weight: 10
-url: /hi/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को 97-2003 फ़ॉर्मेट में सहेजना सीखें। व्यावहारिक जानकारी और चरण-दर-चरण मार्गदर्शन प्राप्त करें।"
+"linktitle": "एक्सेल फ़ाइल को 97-2003 प्रारूप में सहेजें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "एक्सेल फ़ाइल को 97-2003 प्रारूप में सहेजें"
+"url": "/hi/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # एक्सेल फ़ाइल को 97-2003 प्रारूप में सहेजें
@@ -18,7 +20,7 @@ url: /hi/net/saving-files-in-different-formats/save-excel-file-in-97-2003-format
 ## आवश्यक शर्तें
 इससे पहले कि हम इसकी बारीकियों में उतरें, कुछ पूर्व-आवश्यकताएं हैं जिन्हें आपको अपनी सूची में शामिल करना होगा:
 1. .NET की बुनियादी समझ: C# या VB.NET से परिचित होना अत्यंत उपयोगी होगा।
-2.  .NET के लिए Aspose.Cells: सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Cells लाइब्रेरी स्थापित है। यदि आपने अभी तक ऐसा नहीं किया है, तो आप यह कर सकते हैं[यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
+2. .NET के लिए Aspose.Cells: सुनिश्चित करें कि आपके प्रोजेक्ट में Aspose.Cells लाइब्रेरी स्थापित है। यदि आपने अभी तक ऐसा नहीं किया है, तो आप यह कर सकते हैं [यहाँ पर डाउनलोड करो](https://releases.aspose.com/cells/net/).
 3. विजुअल स्टूडियो: विजुअल स्टूडियो या किसी भी .NET संगत IDE जैसा विकास वातावरण कोडिंग और डिबगिंग को सुविधाजनक बनाएगा।
 4. NuGet पैकेज मैनेजर: अपने प्रोजेक्ट में Aspose.Cells की सबसे आसान स्थापना के लिए। 
 एक बार जब आप इन पूर्व-आवश्यकताओं को पूरा कर लेंगे, तो हम काम शुरू करने के लिए तैयार हैं!
@@ -27,7 +29,7 @@ Aspose.Cells के साथ आरंभ करने के लिए, आप
 ### अपना प्रोजेक्ट खोलें
 अपना .NET प्रोजेक्ट Visual Studio में खोलें.
 ### Aspose.Cells स्थापित करें
-यदि आपने अभी तक Aspose.Cells पैकेज स्थापित नहीं किया है, तो आप इसे NuGet के माध्यम से कर सकते हैं। 
+यदि आपने पहले से Aspose.Cells पैकेज स्थापित नहीं किया है, तो आप इसे NuGet के माध्यम से कर सकते हैं। 
 1. टूल्स -> NuGet पैकेज मैनेजर -> समाधान के लिए NuGet पैकेज प्रबंधित करें पर जाएं।
 2. Aspose.Cells खोजें.
 3. इंस्टॉल पर क्लिक करें.
@@ -44,9 +46,9 @@ using Aspose.Cells;
 ```csharp
 string dataDir = "Your Document Directory";
 ```
-- `"Your Document Directory"` : इस प्लेसहोल्डर स्ट्रिंग को उस वास्तविक पथ से बदलें जहाँ आप अपनी एक्सेल फ़ाइल को सहेजना चाहते हैं। यह कुछ इस तरह हो सकता है`"C:\\ExcelFiles\\"`.
+- `"Your Document Directory"`: इस प्लेसहोल्डर स्ट्रिंग को उस वास्तविक पथ से बदलें जहाँ आप अपनी एक्सेल फ़ाइल को सहेजना चाहते हैं। यह कुछ इस तरह हो सकता है `"C:\\ExcelFiles\\"`.
 ## चरण 2: एक नया कार्यपुस्तिका ऑब्जेक्ट बनाएँ
- आगे, चलिए इसका एक नया उदाहरण बनाते हैं`Workbook` क्लास। यहीं पर सारा जादू होता है!
+आगे, चलिए इसका एक नया उदाहरण बनाते हैं `Workbook` क्लास। यहीं पर सारा जादू होता है!
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -72,16 +74,18 @@ workbook.Save(dataDir + "output.xls", SaveFormat.Excel97To2003);
 ### Aspose.Cells क्या है?
 Aspose.Cells .NET के लिए एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को Microsoft Excel इंस्टॉल किए बिना Excel फ़ाइल प्रारूपों के साथ काम करने में सक्षम बनाती है।
 ### मैं .NET के लिए Aspose.Cells कैसे डाउनलोड करूं?
- आप इसे यहां से डाउनलोड कर सकते हैं[इस लिंक](https://releases.aspose.com/cells/net/).
+आप इसे यहां से डाउनलोड कर सकते हैं [इस लिंक](https://releases.aspose.com/cells/net/).
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?
- हां, आप इसे निःशुल्क परीक्षण के साथ आज़मा सकते हैं[यहाँ](https://releases.aspose.com/).
+हां, आप इसे निःशुल्क परीक्षण के साथ आज़मा सकते हैं [यहाँ](https://releases.aspose.com/).
 ### मैं एक्सेल फ़ाइल को किस प्रारूप में सहेज सकता हूँ?
 आप एक्सेल फाइलों को विभिन्न प्रारूपों जैसे XLS, XLSX, CSV, PDF आदि में सहेज सकते हैं।
-### मुझे Aspose.Cells के लिए समर्थन कहां मिल सकता है?
- दौरा करना[Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9) मदद के लिए.
+### मैं Aspose.Cells के लिए समर्थन कहां से प्राप्त कर सकता हूं?
+दौरा करना [Aspose समर्थन मंच](https://forum.aspose.com/c/cells/9) मदद के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,51 +1,55 @@
 ---
-title: Zmiana kierunku znaku wykresu w Excel za pomocą Aspose.Cells 
-weight: 7700
-limit: 
-description: Dowiedz się, jak zmienić kierunek etykietek znaków wykresu w arkuszu roboczym Excel za pomocą Aspose.Cells dla .NET z prostym przykładem kodu.
-keywords: [Aspose.Cells for .NET, change tick label direction, Excel chart labels, .NET Excel library, chart text direction]
-url: /pl/net/charts/change-tick-label-direction/
+"description": "Dowiedz się, jak zmienić kierunek etykiet znaczników wykresu w arkuszu kalkulacyjnym programu Excel za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z prostego przykładu kodu."
+"title": "Zmiana kierunku etykiety znaczników wykresu w programie Excel za pomocą Aspose.Cells"
+"url": "/pl/net/charts/change-tick-label-direction/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zmiana kierunku znaku wykresu w Excel za pomocą Aspose.Cells 
+# Zmiana kierunku etykiety znaczników wykresu w programie Excel za pomocą Aspose.Cells 
 
-W tym przykładzie pokazano, jak modyfikować kierunek etykietek znaków wykresu w arkuszu roboczym Excel za pomocą Aspose.Cells dla .NET. Poprawając kierunek tekstu etykietek osi kategorii, można zwiększyć czytelność danych wykresu. Kod ładuje istniejący workbook Excel, uzyskuje dostęp do pierwszego arkusza roboczego, odbiera wykres, ustawia kierunek etykietek znaków na poziomie, a następnie zapisuje zmieniony workbook. 
+Ten przykład pokazuje, jak modyfikować kierunek etykiet znaczników wykresu w arkuszu kalkulacyjnym programu Excel przy użyciu Aspose.Cells dla .NET. Dostosowując kierunek tekstu etykiet znaczników osi kategorii, możesz poprawić czytelność danych wykresu. Kod ładuje istniejący skoroszyt programu Excel, uzyskuje dostęp do pierwszego arkusza kalkulacyjnego, pobiera wykres, ustawia kierunek etykiety znaczników na poziomy, a następnie zapisuje zmodyfikowany skoroszyt. To podejście zapewnia precyzyjną kontrolę nad orientacją etykiet wykresu w aplikacjach .NET. 
  
 ---
 
 {{< tutorial-widget sourcePath="cells/net/charts/change-tick-label-direction" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrukcje instalacji  
 Aby uruchomić ten przykład, wykonaj następujące kroki:  
 
-1. Instaluj Aspose.Cells dla .NET  
-   * Pobierz z [Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)  
-   * Albo zainstalować za pośrednictwem NuGet:  
+1. Zainstaluj Aspose.Cells dla .NET  
+   - Pobierz z [Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)  
+   - Lub zainstaluj przez NuGet:  
      ```shell
      Install-Package Aspose.Cells
      ```  
 
-2. Zrób swój projekt  
-   * Tworzyć nowy projekt .NET.  
-   * Dodaj odniesienie do Aspose.Cells.dll.  
+2. Skonfiguruj swój projekt  
+   - Utwórz nowy projekt .NET.  
+   - Dodaj odwołanie do Aspose.Cells.dll.  
 
-3. Wykorzystaj kod  
-   * Zastąpienie `"Wykładnik dokumentów"`z prawdziwą drogą pliku.  
-   * Wypełnić program do aktualizacji kierunku znaku kleszcze w wykresie.  
+3. Uruchom kod  
+   - Zastępować `"Your Document Directory"` z rzeczywistą ścieżką do pliku.  
+   - Uruchom program, aby zaktualizować kierunek znaczników na wykresie.  
 
-## Zobacz również
-Bezpłatna próbka[Wystarczy bezpłatny test](https://releases.aspose.com/)\- Nie .  
-Aby kupić licencję, idź do [Strona zakupu](https://purchase.aspose.com/buy)\- Nie .  
-Aby uzyskać pełną dokumentację, odwiedź [Aspose.Cells dla dokumentacji .NET](https://docs.aspose.com/cells/net/)\- Nie .  
-Aby zbadać pełny referencję API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/)\- Nie .
+## Zobacz także
+Aby skorzystać z bezpłatnej wersji próbnej, odwiedź stronę [Bezpłatna wersja próbna Aspose](https://releases.aspose.com/).  
+Aby zakupić licencję przejdź do [Strona zakupu Aspose](https://purchase.aspose.com/buy).  
+Aby uzyskać pełną dokumentację, odwiedź stronę [Dokumentacja Aspose.Cells dla .NET](https://docs.aspose.com/cells/net/).  
+Aby zapoznać się z pełnym odniesieniem do interfejsu API, sprawdź [Aspose.Cells dla .NET API Reference](https://reference.aspose.com/cells/net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

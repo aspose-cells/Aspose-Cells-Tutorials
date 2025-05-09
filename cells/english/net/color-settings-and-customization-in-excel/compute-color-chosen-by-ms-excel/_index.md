@@ -8,7 +8,9 @@ url: /net/color-settings-and-customization-in-excel/compute-color-chosen-by-ms-e
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Compute Color Chosen by MS Excel Programmatically
@@ -95,6 +97,7 @@ Aspose.Cells is optimized for performance, even when dealing with large files. Y
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ public void localizeChart(Chart chart) {
 #### Suggerimenti per la risoluzione dei problemi
 
 - **Traduzioni mancanti:** Assicurati che tutte le impostazioni locali richieste siano gestite nella logica switch-case.
-- **Grafico non aggiornato:** Verificare che gli indici dei grafici corrispondano a quelli utilizzati durante l'impostazione delle serie di dati.
+- **Il grafico non si aggiorna:** Verificare che gli indici dei grafici corrispondano a quelli utilizzati durante l'impostazione delle serie di dati.
 
 ### Applicazioni pratiche
 
@@ -196,6 +198,9 @@ Esplora ulteriori opzioni di personalizzazione e valuta l'integrazione di altre 
 Intraprendi il tuo viaggio per localizzare efficacemente i grafici con Aspose.Cells, migliorando la portata e l'impatto delle tue applicazioni Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

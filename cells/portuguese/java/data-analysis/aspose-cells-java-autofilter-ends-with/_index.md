@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Gerenciar grandes conjuntos de dados no Excel pode ser desafiador, especialmente
 
 **O que você aprenderá:**
 - Configurando e usando Aspose.Cells para Java.
-- Implementando um filtro "Termina com" no Excel com Java.
+- Implementando um filtro 'Termina com' no Excel com Java.
 - Principais métodos e configurações para filtros automáticos.
 - Aplicações reais deste recurso.
 
@@ -158,6 +160,9 @@ Pronto para aprimorar suas habilidades em automação? Aprofunde-se na documenta
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

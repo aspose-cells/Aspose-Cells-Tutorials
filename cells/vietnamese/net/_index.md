@@ -1,69 +1,162 @@
 ---
-title: Aspose.Cells cho các hướng dẫn trực quan .NET
-weight: 10
-limit:
-description: Khám phá Aspose.Cells cho các hướng dẫn trực quan .NET. Học cách quản lý các tệp Excel trong .NET với hướng dẫn từng bước dễ dàng cho các nhà phát triển ở mọi cấp độ.
-keywords:
-url: /vi/net/
+"description": "Khám phá Aspose.Cells cho Hướng dẫn trực quan .NET. Học cách quản lý tệp Excel trong .NET với hướng dẫn từng bước dễ dàng dành cho nhà phát triển ở mọi cấp độ."
+"title": "Aspose.Cells cho .NET Hướng dẫn trực quan"
+"url": "/vi/net/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.Cells cho các hướng dẫn trực quan .NET  
-Aspose.Cells cho các hướng dẫn trực quan .NET cung cấp một trải nghiệm học tập toàn diện, từng bước cho các nhà phát triển muốn tự động hóa xử lý tập tin Excel trong các ứng dụng .NET. Các hướng dẫn này bao gồm một loạt các nhiệm vụ, từ việc tạo bảng tính cơ bản và thao tác dữ liệu đến các tính năng tiên tiến như biểu đồ, bảng xoay và tính toán công thức. Mỗi hướng dẫn được thiết kế để hấp dẫn trực quan và dễ dàng theo dõi, làm cho các nhiệm vụ tự động hóa Excel phức tạp dễ dàng tiếp cận hơn ngay cả cho các nhà phát triển có ít kinh nghiệm.  
 
-Các hướng dẫn được tổ chức thành các trang lồng, mỗi tập trung vào các chức năng cụ thể để tăng tốc quá trình học tập. Cho dù bạn muốn nhập/ Xuất dữ liệu, định dạng các tế bào động, hoặc tạo báo cáo chuyên nghiệp, các hướng dẫn này sẽ hướng dẫn bạn thông qua mã và kỹ thuật cần thiết. Bằng cách theo các hướng dẫn này, bạn sẽ có được những hiểu biết thực tế về việc tối đa hóa khả năng của Aspose.Cells cho .NET và xây dựng các giải pháp bảng tính hiệu quả, giàu tính năng dễ dàng.
+{{< blocks/products/pf/tutorial-page-section >}}
+# Aspose.Cells cho .NET Hướng dẫn trực quan  
+Hướng dẫn trực quan Aspose.Cells for .NET cung cấp trải nghiệm học tập toàn diện, từng bước cho các nhà phát triển muốn tự động hóa quá trình xử lý tệp Excel trong các ứng dụng .NET. Các hướng dẫn này bao gồm nhiều tác vụ, từ việc tạo bảng tính cơ bản và thao tác dữ liệu đến các tính năng nâng cao như biểu đồ, bảng trục và tính toán công thức. Mỗi hướng dẫn được thiết kế để hấp dẫn về mặt trực quan và dễ làm theo, giúp các tác vụ tự động hóa Excel phức tạp dễ tiếp cận hơn ngay cả với các nhà phát triển có ít kinh nghiệm.  
+
+Các hướng dẫn được sắp xếp thành các trang lồng nhau, mỗi trang tập trung vào các chức năng cụ thể để hợp lý hóa quá trình học. Cho dù bạn muốn nhập/xuất dữ liệu, định dạng ô động hay tạo báo cáo chuyên nghiệp, các hướng dẫn này sẽ hướng dẫn bạn qua mã và kỹ thuật cần thiết. Bằng cách làm theo các hướng dẫn này, bạn sẽ có được những hiểu biết thực tế về cách tối đa hóa khả năng của Aspose.Cells cho .NET và xây dựng các giải pháp bảng tính hiệu quả, giàu tính năng một cách dễ dàng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Kiểm soát các biểu đồ với Aspose.Cells trong .NET](./charts/)
-Tìm hiểu cách tạo, tùy chỉnh và quản lý biểu đồ trong các ứng dụng .NET bằng cách sử dụng Aspose.Cells. Khám phá các loại biểu đồ khác nhau với các ví dụ dễ dàng, hiệu quả.
+## [Làm chủ biểu đồ với Aspose.Cells trong .NET](./charts/)
+Tìm hiểu cách tạo, tùy chỉnh và quản lý biểu đồ trong các ứng dụng .NET bằng Aspose.Cells. Khám phá nhiều loại biểu đồ khác nhau với các ví dụ dễ dàng và hiệu quả.
 
-{{< tutorial-card link="./charts/applying-3d-format/" title="Tạo và định dạng các biểu đồ 3D trong Excel" imgSrc="/cells/net/charts/applying-3d-format/images/thumb.png" >}}
-{{< tutorial-card link="./charts/change-chart-size-and-position/" title="Chuyển kích thước và vị trí lại biểu đồ trong Excel" imgSrc="/cells/net/charts/change-chart-size-and-position/images/thumb.png" >}}
-{{< tutorial-card link="./charts/change-tick-label-direction/" title="Thay đổi hướng biểu đồ Tick Label trong Excel" imgSrc="/cells/net/charts/change-tick-label-direction/images/thumb.png" >}}
-{{< tutorial-card link="./charts/create-chart-pdf-with-desired-page-size/" title="Tạo PDF từ Excel Chart với kích thước trang được chỉ định" imgSrc="/cells/net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
-{{< tutorial-card link="./charts/create-line-with-data-marker-chart/" title="Tạo biểu đồ đường với các dấu dữ liệu trong Aspose.Cells" imgSrc="/cells/net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
-{{< tutorial-card link="./charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Tìm các loại giá trị X và Y trong các điểm biểu đồ" imgSrc="/cells/net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
-{{< tutorial-card link="./charts/get-chart-sub-title-for-ods-file/" title="Nhận phụ đề biểu đồ từ tệp ODS bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
-{{< tutorial-card link="./charts/set-shape-type-of-data-labels-of-chart/" title="Thay đổi hình dạng nhãn dữ liệu biểu đồ trong Excel" imgSrc="/cells/net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
-{{< tutorial-card link="./charts/setting-category-data/" title="Tạo biểu đồ Excel với Aspose.Cells cho .NET" imgSrc="/cells/net/charts/setting-category-data/images/thumb.png" >}}
+{{< tutorial-card link="./charts/applying-3d-format/" title="Tạo và định dạng biểu đồ 3D trong Excel" imgSrc="./charts/applying-3d-format/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/change-chart-size-and-position/" title="Thay đổi kích thước và vị trí biểu đồ trong Excel" imgSrc="./charts/change-chart-size-and-position/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/change-tick-label-direction/" title="Thay đổi hướng nhãn đánh dấu biểu đồ trong Excel" imgSrc="./charts/change-tick-label-direction/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/create-chart-pdf-with-desired-page-size/" title="Tạo PDF từ biểu đồ Excel với kích thước trang được chỉ định" imgSrc="./charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/create-line-with-data-marker-chart/" title="Tạo biểu đồ đường với các điểm đánh dấu dữ liệu trong Aspose.Cells" imgSrc="./charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Tìm loại giá trị X và Y trong các điểm biểu đồ" imgSrc="./charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/get-chart-sub-title-for-ods-file/" title="Lấy phụ đề biểu đồ từ tệp ODS bằng Aspose.Cells" imgSrc="./charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/set-shape-type-of-data-labels-of-chart/" title="Sửa đổi hình dạng nhãn dữ liệu biểu đồ trong Excel" imgSrc="./charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./charts/setting-category-data/" title="Tạo biểu đồ Excel với Aspose.Cells cho .NET" imgSrc="./charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Kỹ thuật vẽ đối tượng với Aspose.Cells cho .NET](./drawing-objects/)
-Tìm hiểu cách tạo, tùy chỉnh và quản lý biểu đồ trong các ứng dụng .NET bằng cách sử dụng Aspose.Cells. Khám phá các loại biểu đồ khác nhau với các ví dụ dễ dàng, hiệu quả.
+## [Vẽ Đối Tượng với Aspose.Cells cho .NET](./drawing-objects/)
+Tìm hiểu cách tạo, tùy chỉnh và quản lý biểu đồ trong các ứng dụng .NET bằng Aspose.Cells. Khám phá nhiều loại biểu đồ khác nhau với các ví dụ dễ dàng và hiệu quả.
 
-{{< tutorial-card link="./drawing-objects/access-and-modify-label-of-ole-object/" title="Thay đổi nhãn đối tượng Ole trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/adding-pictures/" title="Tạo và lưu tập tin Excel với Aspose.Cells" imgSrc="/cells/net/drawing-objects/adding-pictures/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Thay đổi định dạng văn bản trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/send-shape-front-or-back-in-worksheet/" title="Điều khiển thứ tự hình dạng Z trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Tạo sổ làm việc Excel với phông chữ Đông xa và Latin" imgSrc="/cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
-{{< tutorial-card link="./drawing-objects/tile-picture-as-texture-inside-shape/" title="Thiết kế Tiling Đền vào Excel bằng Aspose.Cells" imgSrc="/cells/net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+{{< tutorial-card link="./drawing-objects/access-and-modify-label-of-ole-object/" title="Sửa đổi nhãn đối tượng Ole trong Excel bằng Aspose.Cells" imgSrc="./drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/adding-pictures/" title="Tạo và lưu tệp Excel với Aspose.Cells" imgSrc="./drawing-objects/adding-pictures/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Sửa đổi căn chỉnh hình dạng văn bản trong Excel bằng Aspose.Cells" imgSrc="./drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/send-shape-front-or-back-in-worksheet/" title="Thao tác thứ tự Z của các hình dạng trong Excel bằng Aspose.Cells" imgSrc="./drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Tạo sổ làm việc Excel với phông chữ Far East & Latin" imgSrc="./drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./drawing-objects/tile-picture-as-texture-inside-shape/" title="Kết cấu lát gạch trong Excel với Aspose.Cells" imgSrc="./drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Phương thức trong Aspose.Cells cho .NET Style, Colors & More](./formatting/)
-Tìm hiểu cách áp dụng định dạng trong Aspose.Cells cho .NET, bao gồm các phong cách, màu sắc, phông chữ, biên giới và nhiều hơn nữa cho các báo cáo Excel chuyên nghiệp.
+## [Định dạng trong Aspose.Cells cho .NET – Kiểu, Màu sắc & Thêm nữa](./formatting/)
+Tìm hiểu cách áp dụng định dạng trong Aspose.Cells cho .NET, bao gồm kiểu, màu sắc, phông chữ, đường viền và nhiều tính năng khác cho báo cáo Excel chuyên nghiệp.
 
-{{< tutorial-card link="./formatting/adding-borders-to-range/" title="Thêm biên giới vào phạm vi trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/formatting/adding-borders-to-range/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/colors-and-background/" title="Sử dụng Aspose.Cells để áp dụng màu sắc & nền trong Excel" imgSrc="/cells/net/formatting/colors-and-background/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/merging-cells/" title="Thủy bỏ các tế bào trong Excel bằng cách sử dụng Aspose.Cells cho .NET" imgSrc="/cells/net/formatting/merging-cells/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/setting-font-color/" title="Đặt màu phông chữ trong các tế bào Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/formatting/setting-font-color/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/setting-font-name/" title="Đặt tên phông chữ trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/formatting/setting-font-name/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/setting-font-size/" title="Đặt kích thước phông chữ trong Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/formatting/setting-font-size/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/text-alignment-horizontal/" title="Định dạng văn bản ngang trong Excel với Aspose.Cells" imgSrc="/cells/net/formatting/text-alignment-horizontal/images/thumb.png" >}}
-{{< tutorial-card link="./formatting/wrapping-text/" title="Bỏ văn bản trong các tế bào Excel bằng cách sử dụng Aspose.Cells" imgSrc="/cells/net/formatting/wrapping-text/images/thumb.png" >}}
+{{< tutorial-card link="./formatting/adding-borders-to-range/" title="Thêm Đường viền vào một Phạm vi trong Excel bằng Aspose.Cells" imgSrc="./formatting/adding-borders-to-range/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/colors-and-background/" title="Áp dụng Màu sắc & Nền trong Excel bằng Aspose.Cells" imgSrc="./formatting/colors-and-background/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/merging-cells/" title="Gộp các ô trong Excel bằng Aspose.Cells cho .NET" imgSrc="./formatting/merging-cells/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/setting-font-color/" title="Đặt màu chữ trong ô Excel bằng Aspose.Cells" imgSrc="./formatting/setting-font-color/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/setting-font-name/" title="Thiết lập tên phông chữ trong Excel bằng Aspose.Cells" imgSrc="./formatting/setting-font-name/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/setting-font-size/" title="Thiết lập kích thước phông chữ trong Excel bằng Aspose.Cells" imgSrc="./formatting/setting-font-size/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/text-alignment-horizontal/" title="Căn chỉnh văn bản theo chiều ngang trong Excel với Aspose.Cells" imgSrc="./formatting/text-alignment-horizontal/images/thumb.png" >}}
+
+{{< tutorial-card link="./formatting/wrapping-text/" title="Bao quanh văn bản trong ô Excel bằng Aspose.Cells" imgSrc="./formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## [Các bảng xoay trong Aspose.Cells cho .NET](./pivot-tables/)
-Learn how to create, format, and manage pivot tables in Aspose.Cells for .NET. Generate dynamic reports and analyze data effortlessly in C#.
+## [Bảng Pivot trong Aspose.Cells cho .NET](./pivot-tables/)
+Tìm hiểu cách tạo, định dạng và quản lý bảng trục trong Aspose.Cells cho .NET. Tạo báo cáo động và phân tích dữ liệu dễ dàng trong C#.
 
-{{< tutorial-card link="./pivot-tables/create-pivot-table/" title="Tạo một bảng xoay trong Excel sử dụng Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Cung cấp bảng Pivot như ODS trong Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./pivot-tables/create-pivot-table/" title="Tạo Bảng Pivot trong Excel bằng Aspose.Cells" imgSrc="./pivot-tables/create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-tables/pivot-table-save-in-ods/" title="Lưu Pivot Table dưới dạng ODS trong Aspose.Cells" imgSrc="./pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Hướng dẫn
 
+### [Bắt đầu](./getting-started/)
+Tìm hiểu những kiến thức cơ bản về Aspose.Cells cho .NET, bao gồm cài đặt, cấp phép và các thao tác cơ bản trên Excel.
+
+### [Xác thực dữ liệu](./data-validation/)
+Triển khai các quy tắc xác thực dữ liệu Excel mạnh mẽ bằng Aspose.Cells cho .NET để đảm bảo tính chính xác và nhất quán của dữ liệu.
+
+### [Tự động hóa & Xử lý hàng loạt](./automation-batch-processing/)
+Tự động hóa các tác vụ Excel và xử lý nhiều tệp hiệu quả với Aspose.Cells cho .NET.
+
+### [Mẫu & Báo cáo](./templates-reporting/)
+Tạo báo cáo Excel động bằng cách sử dụng các dấu hiệu thông minh, liên kết dữ liệu và tạo mẫu.
+
+### [Công cụ tính toán](./calculation-engine/)
+Tối ưu hóa các phép tính công thức Excel và triển khai logic tính toán tùy chỉnh trong các ứng dụng .NET.
+
+### [Đối tượng OLE & Nội dung nhúng](./ole-objects-embedded-content/)
+Quản lý các đối tượng OLE, tệp nhúng và điều khiển ActiveX trong sổ làm việc Excel theo chương trình.
+
+### [Tích hợp & Khả năng tương tác](./integration-interoperability/)
+Tích hợp Aspose.Cells với các hệ thống khác và mở rộng chức năng Excel trong các ứng dụng .NET.
+
+### [Tối ưu hóa hiệu suất](./performance-optimization/)
+Cải thiện việc sử dụng bộ nhớ và tốc độ thực thi khi xử lý các bảng tính Excel lớn.
+
+### [Tính năng nâng cao](./advanced-features/)
+Khám phá các chức năng phức tạp của Excel như công cụ cắt, siêu liên kết và tiện ích mở rộng web.
+
+### [Xử lý dữ liệu](./data-manipulation/)
+Tìm hiểu các kỹ thuật dọn dẹp, chuyển đổi và quản lý dữ liệu Excel hiệu quả.
+
+### [Nhập khẩu & Xuất khẩu](./import-export/)
+Làm chủ việc nhập và xuất sang nhiều định dạng khác nhau bằng Aspose.Cells cho .NET.
+
+### [Tiêu đề & Chân trang](./headers-footers/)
+Tùy chỉnh thiết lập trang, đầu trang, chân trang và cài đặt in trong tài liệu Excel.
+
+### [Bình luận & Chú thích](./comments-annotations/)
+Thêm, chỉnh sửa và quản lý các bình luận và thảo luận theo chủ đề trong sổ làm việc Excel.
+
+### [Bảo mật & Bảo vệ](./security-protection/)
+Triển khai các tính năng bảo mật, mã hóa và kiểm soát truy cập vào tài liệu Excel.
+
+### [Hình ảnh & Hình dạng](./images-shapes/)
+Tạo, thao tác và tối ưu hóa các thành phần trực quan trong bảng tính Excel.
+
+### [Bảng & Tài liệu tham khảo có cấu trúc](./tables-structured-references/)
+Làm việc với các bảng Excel, danh sách các đối tượng và phạm vi dữ liệu có cấu trúc.
+
+### [Phân tích dữ liệu](./data-analysis/)
+Thực hiện phân tích dữ liệu nâng cao bằng PivotTable, lọc và xử lý dữ liệu phức tạp.
+
+### [Biểu đồ & Đồ thị](./charts-graphs/)
+Tạo, tùy chỉnh và quản lý biểu đồ và hình ảnh dữ liệu trong Excel.
+
+### [Công thức & Hàm](./formulas-functions/)
+Thành thạo việc tạo công thức Excel, tính toán và triển khai hàm tùy chỉnh.
+
+### [Quản lý phạm vi](./range-management/)
+Làm việc hiệu quả với các dải ô, dải được đặt tên và các thao tác dải nâng cao.
+
+### [Hoạt động của tế bào](./cell-operations/)
+Học cách truy cập, thao tác và quản lý từng ô trong bảng tính Excel.
 ### [Bảng tính Excel](./excel-worksheet-csharp-tutorials/)
 Hướng dẫn C# của Aspose.Cells cung cấp hướng dẫn từng bước để thao tác bảng tính Excel một cách dễ dàng và hiệu quả.
 ### [Cài đặt hiển thị Excel](./excel-display-settings-csharp-tutorials)
@@ -91,7 +184,7 @@ Khám phá các hướng dẫn thao tác biểu đồ Aspose.Cells for .NET cầ
 ### [Thiết lập Biểu đồ Xuất hiện](./setting-chart-appearance/)
 xplore Aspose.Cells cho hướng dẫn .NET về thiết lập giao diện biểu đồ. Học cách áp dụng chủ đề, thay đổi đường lưới, thiết lập vùng biểu đồ, tiêu đề, trục và nhiều hơn nữa với hướng dẫn dễ dàng.
 ### [Hoạt động biểu đồ nâng cao](./advanced-chart-operations/)
-Khám phá các hướng dẫn về thao tác biểu đồ nâng cao dành cho Aspose.Cells dành cho .NET, bao gồm biểu đồ 3D, kích thước biểu đồ, nhãn tích và nhiều hơn nữa, với hướng dẫn dễ làm theo.
+Khám phá hướng dẫn sử dụng biểu đồ nâng cao cho Aspose.Cells for .NET, bao gồm biểu đồ 3D, kích thước biểu đồ, nhãn tích và nhiều hơn nữa, với hướng dẫn dễ làm theo.
 ### [Biểu đồ kết xuất và chuyển đổi](./chart-rendering-and-conversion/)
 Khám phá Aspose.Cells để biết hướng dẫn .NET về cách dựng biểu đồ, chuyển đổi và tạo PDF với kích thước trang mong muốn. Hướng dẫn từng bước để xử lý biểu đồ Excel liền mạch.
 ### [Làm việc với dữ liệu biểu đồ](./working-with-chart-data/)
@@ -114,10 +207,10 @@ Khám phá hướng dẫn toàn diện về quản lý các phạm vi được �
 Khám phá hướng dẫn từng bước để xuất và truy xuất dữ liệu Excel bằng Aspose.Cells cho .NET, hoàn hảo cho các nhà phát triển ở mọi cấp độ kỹ năng.
 ### [Excel Tự động lọc và Xác thực](./excel-autofilter-validation/)
 Mở khóa quản lý dữ liệu Excel với Aspose.Cells cho hướng dẫn .NET. Tìm hiểu về lọc tự động và xác thực thập phân để cải thiện bảng tính của bạn.
-### [Tổng phụ và tính toán của Excel](./excel-subtotal-calculation/)
+### [Tổng phụ và phép tính Excel](./excel-subtotal-calculation/)
 Khám phá cách tạo tổng phụ Excel và theo dõi tiền lệ bằng Aspose.Cells cho .NET. Thực hiện theo các hướng dẫn này để nâng cao kỹ năng bảng tính của bạn một cách dễ dàng.
 ### [Phụ thuộc dữ liệu Excel và tính toán](./excel-data-dependency-calculation/)
-Khám phá hướng dẫn về Aspose.Cells for .NET bao gồm các phép tính và phụ thuộc dữ liệu Excel, bao gồm theo dõi các ô phụ thuộc, để nâng cao kỹ năng tự động hóa Excel của bạn.
+Khám phá hướng dẫn Aspose.Cells for .NET bao gồm các phép tính và phụ thuộc dữ liệu Excel, bao gồm theo dõi các ô phụ thuộc, để nâng cao kỹ năng tự động hóa Excel của bạn.
 ### [Xác thực và lọc dữ liệu Excel](./excel-data-validation-filter/)
 Khám phá hướng dẫn Aspose.Cells for .NET về xác thực dữ liệu và bộ lọc Excel—hướng dẫn đơn giản giúp nâng cao năng suất của bạn.
 ### [Căn chỉnh và định dạng dữ liệu Excel](./excel-data-alignment-formatting/)
@@ -157,7 +250,7 @@ Khám phá hướng dẫn chi tiết về cách xử lý tệp trong Aspose.Cell
 ### [Thuộc tính tài liệu](./document-properties/)
 Mở khóa khả năng của Aspose.Cells cho .NET với hướng dẫn toàn diện của chúng tôi về thuộc tính tài liệu để nâng cao kỹ năng quản lý tệp Excel của bạn.
 ### [Chuyển đổi và Kết xuất](./conversion-and-rendering/)
-Khám phá hướng dẫn về Aspose.Cells for .NET, có hướng dẫn nâng cao về cách chuyển đổi và hiển thị các tệp Excel sang các định dạng khác nhau một cách liền mạch.
+Khám phá hướng dẫn về Aspose.Cells dành cho .NET, có hướng dẫn nâng cao về cách chuyển đổi và hiển thị các tệp Excel sang các định dạng khác nhau một cách liền mạch.
 ### [Bảo mật và mã hóa](./security-and-encryption/)
 Mở khóa sức mạnh của Aspose.Cells cho .NET với hướng dẫn của chúng tôi về bảo mật và mã hóa. Học cách phát hiện và mã hóa tệp dễ dàng.
 ### [Hoạt động của bảng tính](./worksheet-operations/)
@@ -241,10 +334,12 @@ Khám phá các hướng dẫn cần thiết về Aspose.Cells cho .NET, bao g�
 ### [Hoạt động của bảng tính](./worksheet-operations/)
 Khám phá hướng dẫn sử dụng sổ làm việc Aspose.Cells for .NET bao gồm truy cập dữ liệu, tùy chỉnh XML, chữ ký, tiện ích mở rộng web, v.v. Nâng cao kỹ năng tự động hóa Excel một cách dễ dàng.
 ### [Hoạt động bản đồ Xml](./xml-map-operations/)
-Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET bao gồm các thao tác ánh xạ XML để nâng cao kỹ năng Excel của bạn một cách dễ dàng.
+Khám phá hướng dẫn toàn diện về Aspose.Cells dành cho .NET bao gồm các thao tác bản đồ XML để nâng cao kỹ năng Excel của bạn một cách dễ dàng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

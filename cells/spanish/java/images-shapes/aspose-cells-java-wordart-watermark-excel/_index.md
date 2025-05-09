@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ Asegúrese de que solo sea visible el texto de su marca de agua ocultando su con
 ```java
 import com.aspose.cells.LineFormat;
 
-// Establezca el formato de línea para que sea invisible
+// Establecer el formato de línea para que sea invisible
 LineFormat lineFormat = wordart.getLine();
 lineFormat.setWeight(0.0);
 ```
@@ -235,6 +237,9 @@ Explore más funciones de Aspose.Cells integrándolo con otros sistemas o automa
 - **Foro de soporte**: Interactuar con la comunidad en el [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

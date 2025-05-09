@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Trabajar con archivos de Excel mediante programación puede ser un desafío, esp
 Antes de sumergirnos en la implementación, asegurémonos de tener todo configurado para el éxito.
 
 ## Prerrequisitos
-Para seguir este tutorial necesitarás:
+Para seguir este tutorial, necesitarás:
 - Java Development Kit (JDK) instalado en su máquina.
 - Un IDE como IntelliJ IDEA o Eclipse.
 - Comprensión básica de los conceptos de programación Java.
@@ -161,6 +163,9 @@ Asegúrese de que la ruta de salida sea válida y verifique que tenga los permis
 - **Foro de soporte:** [Soporte de células Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

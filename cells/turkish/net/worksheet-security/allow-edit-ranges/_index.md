@@ -1,14 +1,16 @@
 ---
-title: Kullanıcıların Aspose.Cells kullanarak Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver
-linktitle: Kullanıcıların Aspose.Cells kullanarak Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında düzenlenebilir aralıklar oluşturmayı öğrenin; böylece belirli hücrelerin düzenlenebilir olmasına izin verirken geri kalanını çalışma sayfası korumasıyla güvence altına alın.
-weight: 10
-url: /tr/net/worksheet-security/allow-edit-ranges/
+"description": "Aspose.Cells for .NET kullanarak Excel çalışma sayfalarında düzenlenebilir aralıklar oluşturmayı öğrenin; böylece belirli hücrelerin düzenlenebilir olmasına izin verirken geri kalanını çalışma sayfası korumasıyla güvence altına alın."
+"linktitle": "Kullanıcıların Aspose.Cells kullanarak Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Kullanıcıların Aspose.Cells kullanarak Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver"
+"url": "/tr/net/worksheet-security/allow-edit-ranges/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kullanıcıların Aspose.Cells kullanarak Çalışma Sayfasındaki Aralıkları Düzenlemesine İzin Ver
@@ -16,11 +18,11 @@ url: /tr/net/worksheet-security/allow-edit-ranges/
 ## giriiş
 Excel belgeleri genellikle istenmeyen düzenlemelerden korumak istediğiniz hassas veriler veya yapılandırılmış içerikler içerir. Ancak, belirli kullanıcılar için düzenlenebilir hale getirmek istediğiniz belirli hücreler veya aralıklar olabilir. İşte tam bu noktada, .NET için Aspose.Cells, belirlenmiş aralıklara düzenleme izinleri verirken tüm bir çalışma sayfasını korumanıza olanak tanıyan güçlü bir araç olarak devreye girer. Yalnızca belirli hücrelerin düzenlenebilir olduğu ve diğerlerinin güvenli kaldığı bir bütçe elektronik tablosunu paylaştığınızı düşünün; Aspose.Cells bunu kolay ve verimli hale getirir.
 ## Ön koşullar
-Kodlama kısmına dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
--  Aspose.Cells for .NET: Aspose.Cells for .NET kitaplığını yüklediğinizden emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+Kodlama kısmına geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
+- Aspose.Cells for .NET: Aspose.Cells for .NET kitaplığını yüklediğinizden emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 - Geliştirme Ortamı: Visual Studio veya herhangi bir C# uyumlu IDE.
 - .NET Framework: Sürüm 4.0 veya üzeri.
-- Lisans: Deneme sınırlamalarından kaçınmak için bir lisans almayı düşünün. Bir lisans alabilirsiniz.[burada geçici lisans](https://purchase.aspose.com/temporary-license/).
+- Lisans: Deneme sınırlamalarından kaçınmak için bir lisans almayı düşünün. Bir lisans alabilirsiniz. [burada geçici lisans](https://purchase.aspose.com/temporary-license/).
 ## Paketleri İçe Aktar
 Kodunuzun başına gerekli Aspose.Cells ad alanını eklediğinizden emin olun:
 ```csharp
@@ -45,14 +47,14 @@ Kodun bu kısmı dizininizin dosya işlemleri için hazır olduğundan emin olur
 ## Adım 2: Çalışma Kitabını ve Çalışma Sayfasını Başlatın
 Şimdi yeni bir çalışma kitabı oluşturup, onun varsayılan çalışma sayfasına erişerek ilerleyelim.
 ```csharp
-// Yeni bir Çalışma Kitabı başlatın
+// Yeni bir Çalışma Kitabı Başlat
 Workbook book = new Workbook();
 // Çalışma kitabındaki ilk çalışma sayfasına erişin
 Worksheet sheet = book.Worksheets[0];
 ```
 Burada, bir Excel çalışma kitabını başlatıyoruz ve içindeki ilk çalışma sayfasını seçiyoruz. Bu çalışma sayfası, koruma ayarlarımızı uygulayacağımız ve düzenlenebilir aralıkları tanımlayacağımız tuval olacak.
 ## Adım 3: Düzenleme Aralıklarına İzin Ver Koleksiyonuna erişin
- Aspose.Cells'in şu şekilde bir özelliği var:`AllowEditRanges`, çalışma sayfası korunduğunda bile düzenlenebilen aralıkların bir koleksiyonudur.
+Aspose.Cells adlı bir özelliğe sahiptir `AllowEditRanges`, çalışma sayfası korunduğunda bile düzenlenebilen aralıkların bir koleksiyonudur.
 ```csharp
 // Düzenleme Aralıklarına İzin Ver koleksiyonuna erişin
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
@@ -83,7 +85,7 @@ Düzenlenebilir aralığımız belirlendikten sonraki adım tüm çalışma sayf
 // Çalışma sayfasına koruma uygulayın ve diğer tüm hücreleri düzenlenemez hale getirin
 sheet.Protect(ProtectionType.All);
 ```
- The`Protect`yöntem, düzenlenebilir olarak tanımladığımız aralıklar hariç tüm çalışma sayfasını kilitler. Bu adım esasen, gerektiğinde belirli hücrelere erişimle güvenli bir "salt okunur" ortam yaratır.
+The `Protect` yöntem, düzenlenebilir olarak tanımladığımız aralıklar hariç tüm çalışma sayfasını kilitler. Bu adım esasen, gerektiğinde belirli hücrelere erişimle güvenli bir "salt okunur" ortam yaratır.
 ## Adım 7: Çalışma Kitabını Kaydedin
 Son adım çalışma kitabını kaydetmektir, böylece ayarlarınız uygulanır ve saklanır.
 ```csharp
@@ -95,18 +97,20 @@ Bu adımda, çalışma kitabımızı 1. Adımda kurduğumuz dizine “protectedr
 .NET için Aspose.Cells, Excel dosyalarınızdaki koruma ve izinleri yönetmek için mükemmel bir yol sunar. Düzenlenebilir aralıklar oluşturarak, belirli alanların erişilebilir kalmasına izin verirken çalışma sayfalarınızı güvence altına alabilirsiniz. Bu işlevsellik, yalnızca birkaç hücrenin düzenleme için açık olması ve diğerlerinin kilitli kalması gereken işbirlikçi belgeler için özellikle yararlıdır.
 ## SSS
 ### Bir çalışma sayfasına birden fazla düzenlenebilir aralık ekleyebilir miyim?
-Evet, yalnızca tekrarlayarak birden fazla aralık ekleyebilirsiniz.`allowRanges.Add()` Her yeni aralık için bir yöntem.
+Evet, yalnızca tekrarlayarak birden fazla aralık ekleyebilirsiniz. `allowRanges.Add()` Her yeni aralık için bir yöntem.
 ### Daha sonra korunan bir aralığı kaldırmak istersem ne olur?
- Kullanın`allowRanges.RemoveAt()` Kaldırmak istediğiniz aralığın indeksini içeren yöntem.
+Kullanın `allowRanges.RemoveAt()` Kaldırmak istediğiniz aralığın indeksini içeren yöntem.
 ### Her aralık için farklı şifre belirleyebilir miyim?
- Kesinlikle. Her biri`ProtectedRange` kendine özgü bir şifreye sahip olabilir ve bu sayede ayrıntılı kontrol sahibi olabilirsiniz.
+Kesinlikle. Her biri `ProtectedRange` kendine özgü bir şifreye sahip olabilir ve bu sayede ayrıntılı kontrol sahibi olabilirsiniz.
 ### Düzenlenebilir aralıklar olmadan çalışma sayfasını korursam ne olur?
 Düzenlenebilir aralıklar tanımlamazsanız, korunduktan sonra tüm çalışma sayfası düzenlenemez hale gelir.
 ### Korunan aralık diğer kullanıcılar tarafından görülebiliyor mu?
 Hayır, koruma dahilidir. Kullanıcılar yalnızca korunan alanı düzenlemeye çalıştıklarında bir parola girmeleri istenecektir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

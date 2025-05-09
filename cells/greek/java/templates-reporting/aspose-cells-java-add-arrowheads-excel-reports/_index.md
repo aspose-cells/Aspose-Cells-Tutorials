@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,8 +59,8 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Για να χρησιμοποιήσετε το Aspose.Cells για Java, μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμαστική περίοδο για να εξερευνήσετε τις δυνατότητές του. Για εκτεταμένη χρήση, εξετάστε το ενδεχόμενο απόκτησης προσωρινής ή πλήρους άδειας χρήσης:
 
-- **Δωρεάν δοκιμή**Κατεβάστε την τελευταία έκδοση από [Aspose Releases](https://releases.aspose.com/cells/java/).
-- **Προσωρινή Άδεια**Υποβάλετε αίτηση για προσωρινή άδεια στο [Αγορά Aspose](https://purchase.aspose.com/temporary-license/).
+- **Δωρεάν δοκιμή**: Κατεβάστε την τελευταία έκδοση από [Aspose Releases](https://releases.aspose.com/cells/java/).
+- **Προσωρινή Άδεια**: Υποβάλετε αίτηση για προσωρινή άδεια στο [Αγορά Aspose](https://purchase.aspose.com/temporary-license/).
 - **Αγορά**Για εμπορική χρήση, αγοράστε μια άδεια χρήσης απευθείας μέσω [Αγορά Aspose](https://purchase.aspose.com/buy).
 
 Μόλις ρυθμιστεί η βιβλιοθήκη, είστε έτοιμοι να ξεκινήσετε τον προγραμματισμό.
@@ -218,6 +220,9 @@ workbook.save(outDir + "/AddinganArrowHead_out.xlsx");
 Α: Ναι, βελτιστοποιήστε τον κώδικα ελαχιστοποιώντας τη δημιουργία αντικειμένων εντός βρόχων και παρακολουθήστε τη χρήση μνήμης για την αποφυγή διαρροών. Χρησιμοποιήστε αποτελεσματικές δομές δεδομένων που παρέχονται από το Aspose.Cells για καλύτερη απόδοση.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

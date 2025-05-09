@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,11 +192,14 @@ A5: परिवर्तनों का निरीक्षण करने 
 - **खरीदना**पूर्ण पहुंच के लिए, यहां जाएं [खरीद पृष्ठ](https://purchase.aspose.com/buy).
 - **मुफ्त परीक्षण**: निःशुल्क परीक्षण के साथ आरंभ करें [Aspose.Cells परीक्षण](https://releases.aspose.com/cells/java/).
 - **अस्थायी लाइसेंस**: अस्थायी लाइसेंस प्राप्त करें [Aspose का लाइसेंसिंग पोर्टल](https://purchase.aspose.com/temporary-license/).
-- **सहायता**किसी भी समस्या के लिए, के माध्यम से संपर्क करें [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9).
+- **सहायता**किसी भी समस्या के लिए, के माध्यम से संपर्क करें [एस्पोज फोरम](https://forum.aspose.com/c/cells/9).
 
 Aspose.Cells for Java के साथ अपनी समझ और क्षमताओं को गहरा करने के लिए इन संसाधनों का अन्वेषण करें। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

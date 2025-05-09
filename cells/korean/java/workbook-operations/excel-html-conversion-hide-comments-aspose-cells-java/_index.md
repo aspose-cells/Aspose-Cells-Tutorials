@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,11 +157,14 @@ Excel 통합 문서를 로드하고, HTML 저장 옵션을 구성하고, 주석 
 
 - **선적 서류 비치**: 포괄적인 세부 정보 [Aspose.Cells 문서](https://reference.aspose.com/cells/java/)
 - **다운로드**: 최신 버전을 받으세요 [출시 페이지](https://releases.aspose.com/cells/java/)
-- **구매 및 체험**: 가격을 알아보고 평가판 라이센스를 받으세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy) 또는 [임시 면허](https://purchase.aspose.com/temporary-license/).
+- **구매 및 체험**: 가격을 알아보고 평가판 라이선스를 받으세요. [Aspose 구매 페이지](https://purchase.aspose.com/buy) 또는 [임시 면허](https://purchase.aspose.com/temporary-license/).
 - **지원하다**: 토론에 참여하세요 [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

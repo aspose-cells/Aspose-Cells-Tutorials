@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -100,7 +102,7 @@ Tanuld meg, hogyan frissítheted hatékonyan a rich text cellákat és a betűt�
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Aspose.Cells Java mesterképzés: Munkafüzet stílusok és hatékony adatfolyam Excelben](./aspose-cells-java-workbook-styles-streaming/)
-Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t egyéni munkafüzet-stílusok létrehozásához és a nagy adathalmazok hatékony streameléséhez a LightCellsDataProvider segítségével. Fejleszd Excel-fájlkezelési készségeidet még ma!
+Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t egyéni munkafüzet-stílusok létrehozásához és a nagy adathalmazok hatékony streameléséhez a LightCellsDataProvider segítségével. Fejleszd Excel fájlkezelési készségeidet még ma!
 
 ### [Mester munkafüzet-stílusok Java-ban az Aspose.Cells segítségével: Teljes körű útmutató](./aspose-cells-java-workbook-styling-guide/)
 Ismerje meg, hogyan használhatja az Aspose.Cells for Java eszközt Excel-munkafüzetek létrehozásához és formázásához. Ez az útmutató a munkafüzetek létrehozását, formázási technikáit és gyakorlati alkalmazásait ismerteti.
@@ -235,7 +237,7 @@ Sajátítsd el az Excel-cellák formázását és a hiperhivatkozások hozzáad�
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -243,6 +245,9 @@ Sajátítsd el az Excel-cellák formázását és a hiperhivatkozások hozzáad�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

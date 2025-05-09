@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ int sheetCount = 1; // Điều chỉnh khi cần thiết
 #### Tùy chọn cấu hình
 - Sửa đổi `sheetCount` để có số lượng bài tập mong muốn ban đầu.
 
-### Tính năng 2: Thêm và cấu hình bảng tính
+### Tính năng 2: Thêm và Cấu hình Bảng tính
 #### Tổng quan
 Tại đây, chúng ta thêm các trang tính mới vào sổ làm việc, đặt tên cho chúng và cấu hình độ rộng cột để tổ chức dữ liệu tốt hơn.
 ```java
@@ -200,6 +202,9 @@ Sẵn sàng bắt đầu chưa? Triển khai giải pháp này vào dự án ti�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

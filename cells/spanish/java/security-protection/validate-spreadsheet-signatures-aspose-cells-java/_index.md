@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,7 +188,7 @@ Para explorar más a fondo, considere profundizar en otras funcionalidades que o
 ## Sección de preguntas frecuentes
 
 1. **¿Puedo utilizar Aspose.Cells sin una licencia?**
-   - Sí, pero la versión de evaluación tiene limitaciones en funcionalidad y tamaño de archivo.
+   - Sí, pero la versión de evaluación tiene limitaciones en cuanto a funcionalidad y tamaño de archivo.
 2. **¿Cómo puedo manejar múltiples firmas digitales en una hoja de cálculo?**
    - Utilice el `DigitalSignatureCollection` para iterar a través de cada firma para su validación.
 3. **¿Qué pasa si mi firma no es válida?**
@@ -205,6 +207,9 @@ Para explorar más a fondo, considere profundizar en otras funcionalidades que o
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

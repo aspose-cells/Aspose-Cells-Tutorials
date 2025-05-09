@@ -1,34 +1,36 @@
 ---
-title: Definir valores Código de formato da série do gráfico
-linktitle: Definir valores Código de formato da série do gráfico
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Aprenda como definir o código de formato de valores de séries de gráficos no Aspose.Cells para .NET com este tutorial detalhado passo a passo. Perfeito para iniciantes.
-weight: 17
-url: /pt/net/advanced-chart-operations/set-values-format-code-of-chart-series/
+"description": "Aprenda a definir o código de formato de valores de séries de gráficos no Aspose.Cells para .NET com este tutorial passo a passo detalhado. Perfeito para iniciantes."
+"linktitle": "Definir valores de formato de código de série de gráfico"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Definir valores de formato de código de série de gráfico"
+"url": "/pt/net/advanced-chart-operations/set-values-format-code-of-chart-series/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Definir valores Código de formato da série do gráfico
+# Definir valores de formato de código de série de gráfico
 
 ## Introdução
 
-No mundo atual, orientado por dados, a representação visual de conjuntos de dados complexos é crucial para a tomada de decisões. Os gráficos servem como uma ferramenta poderosa para comunicar insights de forma eficaz. O Aspose.Cells para .NET simplifica esse processo, permitindo que os desenvolvedores manipulem arquivos do Excel sem esforço e criem gráficos impressionantes. Neste guia, exploraremos como definir o código de formato de valores de séries de gráficos usando o Aspose.Cells. Então, pegue uma xícara de café e vamos embarcar nessa jornada de codificação juntos!
+No mundo atual, orientado por dados, a representação visual de conjuntos de dados complexos é crucial para a tomada de decisões. Os gráficos são uma ferramenta poderosa para comunicar insights de forma eficaz. O Aspose.Cells para .NET simplifica esse processo, permitindo que os desenvolvedores manipulem arquivos do Excel sem esforço e criem gráficos impressionantes. Neste guia, exploraremos como definir o código de formato de valores de séries de gráficos usando o Aspose.Cells. Então, pegue uma xícara de café e vamos embarcar nessa jornada de codificação juntos!
 
 ## Pré-requisitos
 
-Antes de mergulhar nos detalhes, vamos garantir que você esteja preparado para o sucesso. Aqui está o que você precisa:
+Antes de entrarmos em detalhes, vamos garantir que você esteja preparado para o sucesso. Aqui está o que você precisa:
 
-1. Noções básicas de C#: A familiaridade com C# ajudará você a entender os conceitos de programação facilmente.
-2.  Aspose.Cells para .NET: Você precisará da biblioteca Aspose.Cells. Você pode baixá-la[aqui](https://releases.aspose.com/cells/net/).
-3. Visual Studio: Um IDE adequado para escrever e executar seu código C#. Qualquer versão que suporte .NET serve.
-4.  Arquivo Excel: Para nossa demonstração, usaremos um arquivo Excel chamado`sampleSeries_ValuesFormatCode.xlsx`. Certifique-se de tê-lo pronto em seu diretório de trabalho.
+1. Noções básicas de C#: a familiaridade com C# ajudará você a entender os conceitos de programação facilmente.
+2. Aspose.Cells para .NET: Você precisará da biblioteca Aspose.Cells. Você pode baixá-la [aqui](https://releases.aspose.com/cells/net/).
+3. Visual Studio: um IDE adequado para escrever e executar seu código C#. Qualquer versão compatível com .NET serve.
+4. Arquivo Excel: Para nossa demonstração, usaremos um arquivo Excel chamado `sampleSeries_ValuesFormatCode.xlsx`. Certifique-se de tê-lo pronto em seu diretório de trabalho.
 
 ## Pacotes de importação
 
-Primeiramente, vamos importar os pacotes necessários. Este passo é crucial, pois nos permite alavancar as funcionalidades fornecidas pelo Aspose.Cells.
+Primeiramente, vamos importar os pacotes necessários. Esta etapa é crucial, pois nos permite aproveitar as funcionalidades fornecidas pelo Aspose.Cells.
 
 ```csharp
 using System;
@@ -42,13 +44,13 @@ using Aspose.Cells.Charts;
 
 Com essas importações, agora podemos acessar as classes essenciais da biblioteca Aspose que precisamos para manipular arquivos do Excel.
 
-Agora, vamos dividir o processo em etapas simples e digeríveis. Acompanhe enquanto descrevemos como definir o código de formato de valores de séries de gráficos em seus arquivos Excel.
+Agora, vamos dividir o processo em etapas simples e fáceis de entender. Acompanhe enquanto explicamos como definir o código de formato dos valores das séries de gráficos nos seus arquivos do Excel.
 
 ## Etapa 1: Configurar diretórios de origem e saída
 
 Antes de podermos manipular nosso arquivo Excel, precisamos especificar onde ele está localizado e para onde a saída deve ir. 
 
-Pense nisso como preparar o cenário para nossa performance. Se você não sabe onde estão suas entradas e onde quer suas saídas, seu programa se perderá no labirinto de diretórios de arquivos!
+Pense nisso como se estivesse preparando o cenário para a nossa apresentação. Se você não sabe onde estão suas entradas e onde quer suas saídas, seu programa se perderá no labirinto de diretórios de arquivos!
 
 ```csharp
 // Diretório de origem
@@ -58,22 +60,22 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-## Etapa 2: Carregue o arquivo de origem do Excel
+## Etapa 2: Carregar o arquivo de origem do Excel
 
 Agora que definimos nossos diretórios, é hora de carregar o arquivo Excel com o qual queremos trabalhar.
 
-Carregar o arquivo Excel é como abrir um livro antes de ler. Sem abri-lo, você não consegue mergulhar em seu conteúdo. 
+Carregar o arquivo do Excel é como abrir um livro antes de lê-lo. Sem abri-lo, você não consegue mergulhar em seu conteúdo. 
 
 ```csharp
-// Carregue o arquivo Excel de origem
+// Carregar o arquivo de origem do Excel 
 Workbook wb = new Workbook(sourceDir + "sampleSeries_ValuesFormatCode.xlsx");
 ```
 
 ## Etapa 3: Acesse a planilha
 
-Depois que nossa pasta de trabalho estiver carregada, vamos mergulhar na primeira planilha.
+Depois que nossa pasta de trabalho for carregada, vamos analisar a primeira planilha.
 
-Cada planilha em um arquivo Excel age como uma página em um livro. Você quer acessar a página correta para encontrar os dados nos quais está interessado!
+Cada planilha em um arquivo Excel funciona como uma página de um livro. Você precisa acessar a página correta para encontrar os dados de seu interesse!
 
 ```csharp
 // Acesse a primeira planilha
@@ -95,7 +97,7 @@ Chart ch = worksheet.Charts[0];
 
 Com o gráfico pronto, vamos adicionar algumas séries de dados para visualizar.
 
-Adicionar uma série é como adicionar cores à sua pintura. Quanto mais colorido, mais envolvente é a arte!
+Adicionar uma série é como adicionar cores à sua pintura. Quanto mais colorido, mais envolvente será a obra de arte!
 
 ```csharp
 // Adicionar séries usando uma matriz de valores
@@ -111,14 +113,14 @@ Definir o código de formato transforma os números brutos em algo mais legível
 ```csharp
 // Acesse a série e defina seu código de formato de valores
 Series srs = ch.NSeries[0];
-srs.ValuesFormatCode = "$#,##0"; //Isso o define para o formato de moeda
+srs.ValuesFormatCode = "$#,##0"; // Isso o define para o formato de moeda
 ```
 
 ## Etapa 7: Salve o arquivo de saída do Excel
 
 Por fim, precisamos salvar as alterações feitas em um novo arquivo do Excel.
 
-Salvar seu trabalho duro parece recompensador, não é? Isso preserva seus esforços e permite que você compartilhe ou revise seu trabalho a qualquer momento!
+Salvar seu trabalho árduo é gratificante, não é? Isso preserva seus esforços e permite que você compartilhe ou revise seu trabalho a qualquer momento!
 
 ```csharp
 // Salvar o arquivo de saída do Excel
@@ -137,7 +139,7 @@ Console.WriteLine("SetValuesFormatCodeOfChartSeries executed successfully.");
 
 ## Conclusão
 
-Neste tutorial, percorremos o processo de configuração do código de formato de valores de uma série de gráficos usando o Aspose.Cells para .NET. Do carregamento do nosso arquivo Excel até o salvamento do produto final, cada etapa nos aproxima da visualização efetiva dos dados de uma forma que seja significativa e impactante. Agora, você pode usar essas habilidades e aplicá-las aos seus projetos em andamento.
+Neste tutorial, exploramos o processo de definição do código de formato de valores de uma série de gráficos usando o Aspose.Cells para .NET. Do carregamento do arquivo Excel ao salvamento do produto final, cada etapa nos aproxima da visualização eficaz dos dados, de forma significativa e impactante. Agora, você pode aplicar essas habilidades aos seus projetos em andamento.
 
 ## Perguntas frequentes
 
@@ -148,16 +150,18 @@ Aspose.Cells para .NET é uma biblioteca poderosa que permite aos desenvolvedore
 Sim, o Aspose.Cells requer uma licença para uso em ambientes de produção. Você pode optar por uma licença temporária para fins de teste.
 
 ### Posso criar gráficos do zero usando o Aspose.Cells?
-Absolutamente! O Aspose.Cells fornece funcionalidade robusta para criar e personalizar gráficos do zero.
+Com certeza! O Aspose.Cells oferece funcionalidades robustas para criar e personalizar gráficos do zero.
 
 ### Onde posso encontrar mais documentação sobre o Aspose.Cells?
- Você pode acessar o[Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) para guias detalhados e referências de API.
+Você pode acessar o [Documentação do Aspose.Cells](https://reference.aspose.com/cells/net/) para guias detalhados e referências de API.
 
 ### Quais formatos são suportados ao salvar arquivos do Excel?
 O Aspose.Cells suporta uma ampla variedade de formatos, incluindo XLSX, XLS, CSV, PDF e muito mais.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # उन्नत एक्सेल चार्ट
@@ -47,9 +49,11 @@ Aspose.Cells के साथ जावा में ट्रेंडलाइ
 Java के लिए Aspose.Cells के साथ शानदार वॉटरफ़ॉल चार्ट बनाना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
 ### [चार्ट अन्तरक्रियाशीलता](./chart-interactivity/)
 Java के लिए Aspose.Cells का उपयोग करके इंटरैक्टिव चार्ट बनाना सीखें। इंटरैक्टिविटी के साथ अपने डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

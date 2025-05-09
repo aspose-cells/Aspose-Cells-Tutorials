@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ license.setLicense("path_to_your_license_file");
 
 コード実装を管理しやすい機能に分解し、それぞれが Excel グラフ操作の特定の側面に焦点を当ててみましょう。
 
-### Excel ファイルの読み込みとアクセス
+### Excelファイルの読み込みとアクセス
 
 **概要：** この機能は、既存の Excel ファイルを読み込み、そのワークシートにアクセスする方法を示します。 
 
@@ -193,6 +195,9 @@ Excel 自動化スキルを次のレベルに引き上げる準備はできま�
 このチュートリアルに従うことで、Aspose.Cells for Java に習熟し、プロジェクトで Excel グラフを簡単に操作できるようになります。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

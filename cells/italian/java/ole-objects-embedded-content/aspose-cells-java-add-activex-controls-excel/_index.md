@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,9 +198,12 @@ R: Sebbene ottimizzato per le prestazioni, numerose forme e controlli complessi 
 - **Scaricamento**: Accedi all'ultima versione di Aspose.Cells Java da [questa pagina](https://releases.aspose.com/cells/java/).
 - **Acquistare**: Acquista una licenza tramite [Sito di acquisto di Aspose](https://purchase.aspose.com/buy).
 - **Prova gratuita e licenza temporanea**Inizia con l'accesso gratuito o temporaneo tramite i link forniti.
-- **Supporto**: Partecipa alle discussioni o fai domande su [Forum Aspose](https://forum.aspose.com/c/cells/9).
+- **Supporto**Partecipa alle discussioni o fai domande su [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

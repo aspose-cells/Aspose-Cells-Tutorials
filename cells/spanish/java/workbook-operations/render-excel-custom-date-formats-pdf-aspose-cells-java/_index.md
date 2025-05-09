@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ Guarde el archivo Excel cargado como PDF en la ubicación deseada:
 workbook.save(outDir + "/sampleRenderCustomDateFormat_out.pdf");
 ```
 ### Explicación de parámetros y métodos
-- **Libro de trabajo**: Representa un documento completo de Excel.
+- **Libro de trabajo**:Representa un documento completo de Excel.
 - **ahorrar()**Guarda el libro de trabajo en varios formatos, incluido PDF. El método utiliza la ruta del archivo como parámetro.
 #### Opciones de configuración de claves
 Asegúrese de que los formatos de fecha personalizados estén configurados correctamente en su archivo Excel para una representación precisa.
@@ -139,6 +141,9 @@ A5: Visite los foros de Aspose para obtener asistencia de la comunidad o comuní
 Al seguir esta guía, ahora estará preparado para optimizar sus procesos de conversión de documentos utilizando Aspose.Cells para Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

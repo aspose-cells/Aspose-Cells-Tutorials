@@ -1,14 +1,16 @@
 ---
-title: Odczyt i manipulacja wykresami programu Excel 2016
-linktitle: Odczyt i manipulacja wykresami programu Excel 2016
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak odczytywać i modyfikować wykresy programu Excel 2016 za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku.
-weight: 13
-url: /pl/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
+"description": "Dowiedz się, jak odczytywać i modyfikować wykresy programu Excel 2016 za pomocą pakietu Aspose.Cells dla platformy .NET, korzystając z tego przewodnika krok po kroku."
+"linktitle": "Odczyt i manipulacja wykresami programu Excel 2016"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Odczyt i manipulacja wykresami programu Excel 2016"
+"url": "/pl/net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odczyt i manipulacja wykresami programu Excel 2016
@@ -21,7 +23,7 @@ Excel to potężne narzędzie do wizualizacji i prezentacji danych, ale manipulo
 
 Zanim przejdziemy do kodu, upewnijmy się, że wszystko jest skonfigurowane. Oto wymagania wstępne, których będziesz potrzebować:
 
-1.  Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Musisz mieć zainstalowaną tę bibliotekę. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework w swoim środowisku programistycznym. Aspose.Cells obsługuje wiele frameworków, więc sprawdź zgodność.
 3. IDE: Użyj środowiska IDE, np. Visual Studio, do pisania i wykonywania kodu. 
 4. Podstawowa wiedza o języku C#: Zrozumienie podstaw programowania w języku C# znacznie ułatwi korzystanie z tego samouczka.
@@ -54,18 +56,18 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Zastępować`"Your Document Directory"` I`"Your Output Directory"` z rzeczywistymi ścieżkami, w których przechowywane są Twoje pliki.
+Zastępować `"Your Document Directory"` I `"Your Output Directory"` z rzeczywistymi ścieżkami, w których przechowywane są Twoje pliki.
 
 ## Krok 2: Załaduj skoroszyt
 
- tym kroku załadujesz plik Excel zawierający wykresy. Aspose.Cells ułatwia to za pomocą`Workbook` klasa.
+W tym kroku załadujesz plik Excel zawierający wykresy. Aspose.Cells ułatwia to za pomocą `Workbook` klasa.
 
 ```csharp
 // Załaduj plik źródłowy Excel zawierający wykresy Excel 2016
 Workbook wb = new Workbook(sourceDir + "sampleReadManipulateExcel2016Charts.xlsx");
 ```
 
-Upewnij się, że plik Excel, do którego się odwołujesz, istnieje w określonej ścieżce. W przeciwnym razie możesz napotkać błąd „file not found”.
+Upewnij się, że plik Excel, do którego się odwołujesz, istnieje w określonej ścieżce. W przeciwnym razie możesz napotkać błąd file not found.
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -78,7 +80,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Krok 4: Przejrzyj wykresy
 
- Teraz musisz przejść przez wszystkie wykresy znajdujące się w arkuszu kalkulacyjnym. Aspose.Cells umożliwia łatwy dostęp do wykresów za pomocą`Charts` własność`Worksheet` klasa.
+Teraz musisz przejść przez wszystkie wykresy znajdujące się w arkuszu kalkulacyjnym. Aspose.Cells umożliwia łatwy dostęp do wykresów za pomocą `Charts` własność `Worksheet` klasa.
 
 ```csharp
 // Uzyskaj dostęp do wszystkich wykresów jeden po drugim i przeczytaj ich typy
@@ -138,19 +140,21 @@ Gratulacje! Udało Ci się nauczyć, jak czytać i manipulować wykresami Excel 
 Aspose.Cells for .NET to biblioteka umożliwiająca programistyczną pracę z plikami Excela, umożliwiająca programistom tworzenie, odczytywanie, manipulowanie i konwertowanie plików Excela w aplikacjach .NET.
 
 ### Jak mogę pobrać Aspose.Cells?
- Możesz pobrać Aspose.Cells ze strony internetowej[Tutaj](https://releases.aspose.com/cells/net/).
+Możesz pobrać Aspose.Cells ze strony internetowej [Tutaj](https://releases.aspose.com/cells/net/).
 
 ### Czy Aspose.Cells obsługuje inne formaty plików Excel niż .xlsx?
 Tak! Aspose.Cells obsługuje różne formaty plików, w tym .xls, .csv, .pdf i inne.
 
 ### Czy jest dostępna bezpłatna wersja próbna Aspose.Cells?
- Tak, Aspose oferuje bezpłatny okres próbny, do którego możesz uzyskać dostęp[Tutaj](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatny okres próbny, do którego możesz uzyskać dostęp [Tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Wsparcie i dyskusje społecznościowe znajdziesz na forum Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Wsparcie i dyskusje społecznościowe znajdziesz na forum Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

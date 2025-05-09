@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ För att följa den här guiden behöver du:
 - **Integrerad utvecklingsmiljö (IDE)**Använd en IDE som IntelliJ IDEA eller Eclipse.
 - **Maven/Gradle**Bekantskap med Maven eller Gradle för beroendehantering.
 
-**Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och vana vid Excel-filer är meriterande men inte obligatoriskt.
+**Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och vana vid Excel-filer är meriterande men inte obligatoriskt.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -71,7 +73,7 @@ license.setLicense("path/to/your/license/file");
 
 ## Implementeringsguide
 
-I det här avsnittet delar vi upp varje funktion i tydliga steg. Vi ska utforska hur man laddar en arbetsbok, öppnar pivottabeller, ställer in alternativ för automatisk formatering och tillämpar format.
+I det här avsnittet delar vi upp varje funktion i tydliga steg. Vi utforskar hur man laddar en arbetsbok, öppnar pivottabeller, ställer in alternativ för automatisk formatering och tillämpar format.
 
 ### Funktion 1: Läsa in en arbetsbok
 Att ladda en Excel-fil är det första steget i att manipulera dess innehåll programmatiskt. Denna process innebär att skapa en `Workbook` objekt som tillhandahåller metoder för att interagera med Excel-data.
@@ -188,6 +190,9 @@ A5: Besök [Aspose-forumet](https://forum.aspose.com/c/cells/9) för samhällshj
 - **Tillfällig licens**Säker tillfällig åtkomst för omfattande tester på [Aspose tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

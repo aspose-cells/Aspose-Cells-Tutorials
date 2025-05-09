@@ -1,14 +1,16 @@
 ---
-title: Wytnij i wklej komórki w arkuszu kalkulacyjnym
-linktitle: Wytnij i wklej komórki w arkuszu kalkulacyjnym
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wycinać i wklejać komórki w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku.
-weight: 12
-url: /pl/net/worksheet-operations/cut-and-paste-cells/
+"description": "Dowiedz się, jak wycinać i wklejać komórki w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego prostego samouczka krok po kroku."
+"linktitle": "Wytnij i wklej komórki w arkuszu kalkulacyjnym"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wytnij i wklej komórki w arkuszu kalkulacyjnym"
+"url": "/pl/net/worksheet-operations/cut-and-paste-cells/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wytnij i wklej komórki w arkuszu kalkulacyjnym
@@ -21,14 +23,14 @@ Zanim przejdziemy do kodu, musisz spełnić kilka podstawowych wymagań:
 2. Aspose.Cells for .NET Library: Musisz mieć dostęp do biblioteki Aspose.Cells. Możesz ją uzyskać z ich witryny:
 - [Pobierz Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)
 3. Podstawowa wiedza o języku C#: Znajomość języka C# z pewnością pomoże Ci zrozumieć fragmenty kodu zawarte w tym przewodniku.
-Jeśli spełniasz wszystkie wymagania wstępne, możesz zaczynać!
+Jeżeli spełniasz wszystkie wymagania wstępne, możesz zaczynać!
 ## Importuj pakiety
 Teraz, gdy mamy już podstawy, przejdźmy dalej i zaimportujmy niezbędne pakiety. Jest to kluczowe, ponieważ te biblioteki będą obsługiwać operacje, które wykonamy później.
 ### Skonfiguruj swój projekt
 1. Utwórz nowy projekt: Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsolowej C#.
-2.  Dodaj odwołanie do Aspose.Cells: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz opcję „Zarządzaj pakietami NuGet”, wyszukaj`Aspose.Cells`i zainstaluj.
+2. Dodaj odwołanie do Aspose.Cells: Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań, wybierz opcję „Zarządzaj pakietami NuGet”, wyszukaj `Aspose.Cells`i zainstaluj.
 ### Importuj bibliotekę
-W głównym pliku programu umieść na górze pliku przestrzeń nazw Aspose.Cells:
+głównym pliku programu umieść na górze pliku przestrzeń nazw Aspose.Cells:
 ```csharp
 using System;
 ```
@@ -49,7 +51,7 @@ worksheet.Cells[1, 2].Value = 2;
 worksheet.Cells[2, 2].Value = 3;
 worksheet.Cells[2, 3].Value = 4;
 ```
- W tym kroku po prostu dodajemy wartości do określonych komórek. Współrzędne`[row, column]` pomóż nam zlokalizować, gdzie umieścić nasze liczby. Wyobraź sobie, że kładziesz podwaliny pod dom — najpierw musisz położyć fundamenty, prawda?
+W tym kroku po prostu dodajemy wartości do określonych komórek. Współrzędne `[row, column]` pomóż nam zlokalizować, gdzie umieścić nasze liczby. Wyobraź sobie, że kładziesz podwaliny pod dom — najpierw musisz położyć fundamenty, prawda?
 ## Krok 3: Nazwij zakres swoich danych
 Następnie utworzymy nazwany zakres. Jest to podobne do nadania pseudonimu grupie znajomych, aby można było łatwo do nich później odwoływać się.
 ```csharp
@@ -67,7 +69,7 @@ Teraz nadchodzi ekscytująca część! To tutaj faktycznie umieszczamy wycięte 
 ```csharp
 worksheet.Cells.InsertCutCells(cut, 0, 1, ShiftType.Right);
 ```
- Tutaj wstawiamy wycięte komórki do wiersza 0 i kolumny 1 (która jest kolumną B) i`ShiftType.Right` opcja oznacza, że istniejące komórki zostaną przesunięte, aby pomieścić nasze nowo wstawione dane. To jak robienie miejsca dla przyjaciół na kanapie — każdy dostosowuje się, aby się zmieścić!
+Tutaj wstawiamy wycięte komórki do wiersza 0 i kolumny 1 (która jest kolumną B) i `ShiftType.Right` opcja oznacza, że istniejące komórki zostaną przesunięte, aby pomieścić nasze nowo wstawione dane. To jak robienie miejsca dla przyjaciół na kanapie — każdy dostosowuje się, aby się zmieścić!
 ## Krok 6: Zapisz swój skoroszyt
 Po całej ciężkiej pracy nadszedł czas, aby zapisać swoje arcydzieło:
 ```csharp
@@ -78,23 +80,25 @@ Na koniec wydrukujmy wiadomość na konsoli, aby potwierdzić, że wszystko prze
 ```csharp
 Console.WriteLine("CutAndPasteCells executed successfully.");
 ```
-masz to! Zręcznie wyciąłeś i wkleiłeś komórki w arkuszu kalkulacyjnym za pomocą Aspose.Cells dla .NET!
+I masz to! Zręcznie wyciąłeś i wkleiłeś komórki w arkuszu kalkulacyjnym za pomocą Aspose.Cells dla .NET!
 ## Wniosek
 Gratulacje! Teraz jesteś wyposażony w podstawowe umiejętności wycinania i wklejania komórek w arkuszach kalkulacyjnych programu Excel przy użyciu Aspose.Cells dla .NET. Ta podstawowa operacja otwiera drzwi do bardziej złożonych zadań manipulacji danymi i funkcji raportowania, które mogą ulepszyć Twoje aplikacje.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells dla .NET?  
 Aspose.Cells for .NET to zaawansowana biblioteka służąca do programistycznego manipulowania plikami Excel w aplikacjach .NET. 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?  
- Aspose.Cells oferuje bezpłatną wersję próbną. Jednak dla pełnej funkcjonalności wymagany jest zakup licencji.[Kliknij tutaj, aby zapoznać się z opcjami próbnymi.](https://releases.aspose.com/)
+Aspose.Cells oferuje bezpłatną wersję próbną. Jednak do pełnej funkcjonalności wymagany jest zakup licencji. [Kliknij tutaj, aby zapoznać się z opcjami próbnymi.](https://releases.aspose.com/)
 ### Czy mogę kopiować i wklejać wiele komórek jednocześnie?  
 Oczywiście! Aspose.Cells pozwala na łatwą manipulację zakresami, co ułatwia jednoczesne wycinanie i wklejanie wielu komórek.
 ### Gdzie mogę znaleźć więcej dokumentacji?  
- Można znaleźć obszerną dokumentację[Tutaj](https://reference.aspose.com/cells/net/) aby zobaczyć dodatkowe funkcje i przykłady.
+Można znaleźć obszerną dokumentację [Tutaj](https://reference.aspose.com/cells/net/) aby zobaczyć dodatkowe funkcje i przykłady.
 ### Jak mogę uzyskać pomoc, jeśli wystąpią problemy?  
- Jeśli potrzebujesz pomocy, zawsze możesz się z nami skontaktować[Forum Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy społeczności i ekspertów.
+Jeśli potrzebujesz pomocy, zawsze możesz się z nami skontaktować [Forum Aspose](https://forum.aspose.com/c/cells/9) w celu uzyskania pomocy społeczności i ekspertów.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

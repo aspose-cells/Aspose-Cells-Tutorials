@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erweiterte Datenanalyse Excel
@@ -156,7 +158,7 @@ Nachdem Sie Ihre Datenanalyse abgeschlossen haben, müssen Sie die Ergebnisse m�
 // Als PDF exportieren
 workbook.save("analysis_report.pdf", SaveFormat.PDF);
 
-// Exportieren in CSV
+// Als CSV exportieren
 workbook.save("data.csv", SaveFormat.CSV);
 ```
 
@@ -210,6 +212,7 @@ Aspose.Cells für Java unterstützt den Export von Analyseergebnissen in verschi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 
 ### 您將學到什麼：
 - 在 Java 中定義並實作一個簡單的產品類別。
-- 整合 Aspose.Cells 以實現高級 Excel 操作。
+- 整合 Aspose.Cells 以實現進階 Excel 操作。
 - 使用大型資料集優化效能。
 
 在我們深入研究之前，讓我們先設定好您需要的一切！
@@ -209,6 +211,9 @@ class Product implements Serializable {
 - **A4：** 使用 Aspose.Cells 提供的儲存格樣式選項來格式化數字、文字等。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

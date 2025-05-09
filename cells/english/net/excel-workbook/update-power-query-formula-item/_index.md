@@ -8,7 +8,9 @@ url: /net/excel-workbook/update-power-query-formula-item/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Power Query Formula Item
@@ -133,6 +135,7 @@ You can access support through the [Aspose forum](https://forum.aspose.com/c/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

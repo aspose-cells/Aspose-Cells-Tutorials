@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ public class Teacher extends Person {
 }
 ```
 **Giải thích**: 
-- **Tham số của hàm tạo**: Tên và tuổi (từ `Person`) cùng với danh sách các đối tượng học sinh.
+- **Tham số của hàm dựng**: Tên và tuổi (từ `Person`) cùng với danh sách các đối tượng học sinh.
 - **Phương pháp Mục đích**: Các `getStudents()` phương pháp này lấy danh sách học sinh có liên quan.
 
 ### Bước 2: Tích hợp Aspose.Cells
@@ -149,6 +151,9 @@ Bằng cách nắm vững các khái niệm này và sử dụng Aspose.Cells, b
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

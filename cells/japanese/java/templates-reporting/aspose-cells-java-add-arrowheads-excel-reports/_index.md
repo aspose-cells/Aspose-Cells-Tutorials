@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ workbook.save(outDir + "/AddinganArrowHead_out.xlsx");
 ```
 *必ず交換してください `YOUR_OUTPUT_DIRECTORY` 希望する保存場所を指定します。*
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 Aspose.Cells for Java は、Excel ファイルのカスタマイズに基本的な機能以上の機能を提供します。以下に、実用的な使用例をいくつかご紹介します。
 
@@ -218,6 +220,9 @@ A: アクセスするには `getWorksheets().get(index)` 希望するインデ�
 A: はい。ループ内のオブジェクト作成を最小限に抑え、メモリ使用量を監視してメモリリークを防ぐことでコードを最適化してください。パフォーマンスを向上させるには、Aspose.Cellsが提供する効率的なデータ構造を使用してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

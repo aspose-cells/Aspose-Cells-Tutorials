@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 ## 您將學到什麼
 
 - 如何使用 Aspose.Cells for Java 執行公式和函數運算
-- 逐步實現並附帶完整程式碼範例
+- 完整的程式碼範例逐步實現
 - 最佳實踐和優化技術
 - 公式和函數中常見問題的解決方案
 
@@ -79,7 +81,7 @@ Aspose.Words Java 程式碼教程
 了解如何使用 Aspose.Cells for Java 自動執行 Excel 任務。本指南介紹如何載入工作簿並有效地應用共享公式。
 
 ### [如何在 Aspose.Cells for Java 中實作 FormulaText：逐步指南](./implementing-formula-text-aspose-cells-java-guide/)
-了解如何使用 Java 的 Aspose.Cells 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。
+了解如何使用 Aspose.Cells 和 Java 從 Excel 儲存格中提取公式文字。本指南涵蓋設定、實施和實際應用。
 
 
 
@@ -93,6 +95,9 @@ Aspose.Words Java 程式碼教程
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

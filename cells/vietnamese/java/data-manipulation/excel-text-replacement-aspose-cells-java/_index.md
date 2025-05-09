@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Bạn đã chán việc tìm kiếm và thay thế văn bản thủ công trên 
 Cuối cùng, bạn sẽ nâng cao quy trình quản lý dữ liệu Excel của mình bằng cách sử dụng `Aspose.Cells for Java`. Chúng ta hãy bắt đầu với các điều kiện tiên quyết!
 
 ## Điều kiện tiên quyết
-Trước khi tìm hiểu mã, hãy đảm bảo bạn có:
+Trước khi tìm hiểu về mã, hãy đảm bảo bạn có:
 - **Thư viện và các phụ thuộc:** Aspose.Cells cho Java. Sử dụng Maven hoặc Gradle để quản lý các phụ thuộc.
 - **Thiết lập môi trường:** Môi trường phát triển Java đang hoạt động, bao gồm JDK 8+.
 - **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và quen thuộc với cấu trúc tệp Excel.
@@ -63,7 +65,7 @@ Xác định phạm vi cụ thể mà bạn muốn hoạt động diễn ra:
 CellArea area = CellArea.createCellArea("E3", "H6"); // Ví dụ, Từ ô E3 đến H6
 ```
 #### Bước 2: Cấu hình tùy chọn tìm kiếm
-Thiết lập của bạn `FindOptions` về cách thức tiến hành tìm kiếm:
+Thiết lập của bạn `FindOptions` về cách thức tìm kiếm nên được tiến hành:
 ```java
 FindOptions opts = new FindOptions();
 opts.setLookInType(LookInType.VALUES); // Chỉ tìm kiếm trong các giá trị ô
@@ -124,6 +126,9 @@ Hãy hành động ngay hôm nay bằng cách dùng thử giải pháp để s�
 Đối với bất kỳ thắc mắc nào, hãy truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9). Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
 ##### Passaggio 2: popolare i dati campione
-Riempi le prime due colonne con i dati di esempio:
+Riempi le prime due colonne con i dati campione:
 ```java
 // Imposta i valori nella prima colonna
 for (int i = 0; i < 6; i++) {
@@ -186,12 +188,15 @@ A5: La prova gratuita include filigrane di valutazione e limiti di utilizzo, che
 - **Scaricamento:** [Rilasci di Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **Acquista licenza:** [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
 - **Prova gratuita:** [Inizia la prova gratuita](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea:** [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea:** [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Forum di supporto:** [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 Inizia subito a creare file ODS visivamente sorprendenti con Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

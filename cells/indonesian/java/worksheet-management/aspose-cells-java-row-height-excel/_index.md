@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Otomatiskan Penyesuaian Tinggi Baris Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengotomatiskan penyesuaian tinggi baris dalam file Excel dalam aplikasi Java Anda? Apakah Anda ingin menyesuaikan laporan, menyempurnakan presentasi data, atau menyederhanakan alur kerja, menguasai keterampilan ini dapat menghemat waktu dan meningkatkan efisiensi. Dalam tutorial ini, kita akan membahas bagaimana "Aspose.Cells for Java" mempermudah pengaturan tinggi baris.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara menggunakan Aspose.Cells untuk Java untuk mengatur tinggi baris dalam file Excel.
 - Langkah-langkah untuk menginstal dan mengonfigurasi pustaka di proyek Anda.
 - Contoh praktis penyesuaian tinggi baris menggunakan kode.
@@ -25,13 +27,13 @@ Apakah Anda ingin mengotomatiskan penyesuaian tinggi baris dalam file Excel dala
 
 Mari mulai menyiapkan lingkungan Anda dan memulai dengan alat hebat ini!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-- **Perpustakaan yang Diperlukan**: Aspose.Cells untuk Java (versi 25.3 atau yang lebih baru).
-- **Pengaturan Lingkungan**: Lingkungan pengembangan seperti IntelliJ IDEA, Eclipse, atau yang serupa.
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan alat pembangun Maven/Gradle.
+- **Kötelező könyvtárak**: Aspose.Cells untuk Java (versi 25.3 atau yang lebih baru).
+- **Környezet beállítása**: Lingkungan pengembangan seperti IntelliJ IDEA, Eclipse, atau yang serupa.
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan alat pembangun Maven/Gradle.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -39,7 +41,7 @@ Untuk mulai menggunakan Aspose.Cells untuk Java, Anda perlu menyertakannya dalam
 
 ### Instalasi Maven
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -51,20 +53,20 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 ### Instalasi Gradle
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Aspose.Cells menawarkan uji coba gratis, lisensi sementara untuk evaluasi, dan opsi pembelian untuk penggunaan jangka panjang. Untuk memperoleh lisensi:
 
-1. Mengunjungi [Beli Aspose.Cells](https://purchase.aspose.com/buy) untuk membeli atau mendapatkan detail lebih lanjut tentang lisensi.
-2. Mendapatkan [Lisensi Sementara](https://purchase.aspose.com/temporary-license/) jika Anda ingin menguji fitur tanpa batasan.
+1. Látogatás [Vásárolja meg az Aspose.Cells-t](https://purchase.aspose.com/buy) untuk membeli atau mendapatkan detail lebih lanjut tentang lisensi.
+2. Szerezzen be egy [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/) jika Anda ingin menguji fitur tanpa batasan.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Setelah mengatur dependensi, inisialisasi Aspose.Cells di proyek Java Anda:
 
@@ -73,28 +75,28 @@ import com.aspose.cells.Workbook;
 
 public class ExcelSetup {
     public static void main(String[] args) {
-        // Inisialisasi objek Buku Kerja baru
+        // Új munkafüzet-objektum inicializálása
         Workbook workbook = new Workbook("YOUR_DATA_DIRECTORY/book1.xls");
         System.out.println("Workbook initialized successfully!");
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Mengatur Tinggi Baris dalam File Excel
 
 Bagian ini memandu Anda melalui proses pengaturan tinggi baris menggunakan Aspose.Cells untuk Java.
 
-#### Ringkasan
+#### Áttekintés
 
 Pengaturan tinggi baris sangat penting saat menangani visibilitas dan presentasi konten dalam file Excel. Dengan Aspose.Cells, ini dapat dilakukan secara terprogram dengan mudah.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Memuat Buku Kerja yang Ada**
 
-Pertama, buatlah `Workbook` objek untuk memuat file Excel Anda yang sudah ada:
+Először is, hozz létre egy `Workbook` objek untuk memuat file Excel Anda yang sudah ada:
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -102,7 +104,7 @@ Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 *Mengapa*Memuat buku kerja memungkinkan Anda memanipulasi isinya.
 
-**2. Akses Lembar Kerja**
+**2. Nyissa meg a munkalapot**
 
 Akses lembar kerja yang diinginkan tempat Anda ingin menyesuaikan tinggi baris:
 
@@ -132,38 +134,38 @@ workbook.save(outDir + "SettingHeightOfRow_out.xls");
 ```
 *Mengapa*: Menyimpan buku kerja akan menerapkan dan menyimpan modifikasi Anda untuk penggunaan di masa mendatang.
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
-- **Kesalahan: File Tidak Ditemukan**Pastikan jalur berkas sudah benar.
-- **Masalah Memori**: Tutup file yang tidak digunakan untuk mengosongkan sumber daya.
+- **Hiba: A fájl nem található**Pastikan jalur berkas sudah benar.
+- **Memóriaproblémák**: Tutup file yang tidak digunakan untuk mengosongkan sumber daya.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Penyesuaian tinggi baris memiliki banyak aplikasi di dunia nyata:
 
-1. **Pelaporan Keuangan**Sesuaikan laporan untuk meningkatkan keterbacaan.
-2. **Analisis Data**: Meningkatkan penyajian data untuk wawasan yang lebih baik.
+1. **Pénzügyi jelentéstétel**Sesuaikan laporan untuk meningkatkan keterbacaan.
+2. **Adatelemzés**: Meningkatkan penyajian data untuk wawasan yang lebih baik.
 3. **Kustomisasi Template**: Siapkan templat dengan format yang telah ditentukan sebelumnya.
 4. **Pemrosesan Data Otomatis**: Integrasikan dengan sistem yang menghasilkan file Excel secara otomatis.
 5. **Peningkatan Antarmuka Pengguna**: Menyesuaikan antarmuka pengguna dalam Excel untuk memenuhi kebutuhan spesifik.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Optimalkan Penggunaan Memori**: Tutup buku kerja dan sumber daya gratis segera.
+- **Memóriahasználat optimalizálása**: Tutup buku kerja dan sumber daya gratis segera.
 - **Baris Proses Batch**:Saat menyesuaikan beberapa baris, operasi batch dapat meningkatkan kinerja.
 - **Kelola File Besar Secara Efisien**Gunakan teknik streaming untuk kumpulan data yang sangat besar jika berlaku.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara mengatur tinggi baris dalam file Excel menggunakan Aspose.Cells untuk Java. Keterampilan ini sangat berharga untuk menyesuaikan dan mengotomatiskan tugas pemrosesan data Anda. 
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Jelajahi fitur Aspose.Cells lainnya, seperti pemformatan sel atau pembuatan bagan.
 - Integrasikan kemampuan ini ke dalam proyek yang lebih besar.
 
 Siap untuk mencobanya? Terapkan apa yang telah Anda pelajari hari ini pada proyek Anda berikutnya!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa cara terbaik untuk menginstal Aspose.Cells untuk Java?**
    - Gunakan dependensi Maven atau Gradle untuk integrasi yang mulus ke dalam proses pembangunan Anda.
@@ -175,20 +177,23 @@ Siap untuk mencobanya? Terapkan apa yang telah Anda pelajari hari ini pada proye
    - Pertimbangkan untuk mengoptimalkan struktur buku kerja atau memproses data dalam beberapa bagian.
 
 4. **Bagaimana cara memperoleh lisensi sementara untuk Aspose.Cells?**
-   - Kunjungi [Halaman Lisensi Sementara](https://purchase.aspose.com/temporary-license/) di situs web mereka.
+   - Látogassa meg a [Ideiglenes engedély oldal](https://purchase.aspose.com/temporary-license/) di situs web mereka.
 
 5. **Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.Cells untuk Java?**
-   - Itu [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) merupakan sumber yang bagus untuk panduan terperinci dan contoh kode.
+   - A [Aspose dokumentáció](https://reference.aspose.com/cells/java/) merupakan sumber yang bagus untuk panduan terperinci dan contoh kode.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**:Jelajahi panduan lengkap di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
-- **Unduh**:Akses rilis terbaru di [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-- **Opsi Pembelian**:Temukan detail lisensi di [Aspose Pembelian](https://purchase.aspose.com/buy).
-- **Uji Coba Gratis**:Uji coba Aspose.Cells dengan uji coba gratis yang tersedia [Di Sini](https://releases.aspose.com/cells/java/).
-- **Forum Dukungan**: Bergabunglah dalam diskusi dan ajukan pertanyaan di [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9).
+- **Dokumentáció**Fedezze fel az átfogó útmutatókat a következő címen: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés**: A legújabb kiadás elérhető itt: [Aspose letöltések](https://releases.aspose.com/cells/java/).
+- **Vásárlási lehetőségek**:Temukan detail lisensi di [Aspose vásárlás](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**:Uji coba Aspose.Cells dengan uji coba gratis yang tersedia [itt](https://releases.aspose.com/cells/java/).
+- **Támogatási fórumok**: Bergabunglah dalam diskusi dan ajukan pertanyaan di [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

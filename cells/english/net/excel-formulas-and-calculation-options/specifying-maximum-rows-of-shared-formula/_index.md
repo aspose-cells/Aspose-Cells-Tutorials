@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/specifying-maximum-rows-of-shar
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specifying Maximum Rows of Shared Formula in Excel
@@ -107,6 +109,7 @@ You can explore comprehensive documentation [here](https://reference.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

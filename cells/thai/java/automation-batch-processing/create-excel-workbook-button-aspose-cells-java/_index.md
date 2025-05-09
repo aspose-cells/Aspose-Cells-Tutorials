@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 
 - **ห้องสมุดที่จำเป็น:** คุณจะต้องใช้ Aspose.Cells สำหรับ Java เวอร์ชันเสถียรล่าสุด ณ เวลาที่เขียนนี้คือ 25.3
 - **การตั้งค่าสภาพแวดล้อม:** บทช่วยสอนนี้ถือว่าคุณคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิงและการตั้งค่าพื้นฐานของสภาพแวดล้อมการพัฒนา Java (JDK, IDE เช่น IntelliJ IDEA หรือ Eclipse)
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และการทำงานกับไลบรารีภายนอก
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และการทำงานกับไลบรารีภายนอก
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 การรวม Aspose.Cells เข้ากับโปรเจ็กต์ Java ของคุณนั้นทำได้ง่าย ๆ เพียงเพิ่ม Aspose.Cells ให้เป็นส่วนที่ต้องมีโดยใช้ Maven หรือ Gradle:
@@ -171,6 +173,9 @@ workbook.save(dataDir + "/AddingButtonControl_out.xls", SaveFormat.AUTO);
 โปรดอย่าลังเลที่จะสำรวจทรัพยากรเหล่านี้เพื่อรับการสนับสนุนและข้อมูลเพิ่มเติมเกี่ยวกับการใช้ Aspose.Cells อย่างมีประสิทธิภาพในโครงการ Java ของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

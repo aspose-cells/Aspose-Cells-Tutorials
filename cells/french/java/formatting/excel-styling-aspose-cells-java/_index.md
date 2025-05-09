@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -216,6 +218,9 @@ A : Aspose fournit une solution complète [forum d'assistance](https://forum.asp
 - **Documentation:** Explorez l'intégralité [Documentation d'Aspose.Cells](https://docs.aspose.com/cells/java/) pour des fonctionnalités plus avancées.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

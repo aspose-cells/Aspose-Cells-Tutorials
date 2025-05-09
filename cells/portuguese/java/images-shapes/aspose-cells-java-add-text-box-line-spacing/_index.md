@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -187,7 +189,7 @@ public class ExcelDemo {
 }
 ```
 
-### Definir espaçamento entre linhas do parágrafo
+### Definir espaçamento de linha do parágrafo
 
 Personalizar o espaçamento entre linhas pode melhorar a legibilidade. Veja como configurá-lo:
 
@@ -281,6 +283,9 @@ Você aprendeu com sucesso a adicionar uma caixa de texto e definir o espaçamen
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/data-validation-rules/date-validation-in-spreadsheets/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Date Validation in Spreadsheets
@@ -117,6 +119,7 @@ You can refer to the [Aspose.Cells for Java API Reference](https://reference.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

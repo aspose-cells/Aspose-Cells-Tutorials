@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykresy 3D
@@ -144,7 +146,7 @@ Aspose.Cells for Java pozwala na integrację danych z różnych źródeł w wykr
 
 ## Wniosek
 
-tym artykule przyjrzeliśmy się sposobowi tworzenia wykresów 3D przy użyciu Aspose.Cells for Java. Omówiliśmy konfigurację, podstawowe tworzenie wykresów, dostosowywanie i zaawansowane funkcje pracy z wykresami 3D. Aspose.Cells for Java zapewnia solidną i przyjazną dla użytkownika platformę do generowania atrakcyjnych wizualnie i informacyjnych wykresów 3D w programie Excel.
+W tym artykule przyjrzeliśmy się sposobowi tworzenia wykresów 3D przy użyciu Aspose.Cells for Java. Omówiliśmy konfigurację, podstawowe tworzenie wykresów, dostosowywanie i zaawansowane funkcje pracy z wykresami 3D. Aspose.Cells for Java zapewnia solidną i przyjazną dla użytkownika platformę do generowania atrakcyjnych wizualnie i informacyjnych wykresów 3D w programie Excel.
 
 ## Najczęściej zadawane pytania
 
@@ -171,6 +173,7 @@ Pełną dokumentację i zasoby dotyczące Aspose.Cells dla języka Java można z
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

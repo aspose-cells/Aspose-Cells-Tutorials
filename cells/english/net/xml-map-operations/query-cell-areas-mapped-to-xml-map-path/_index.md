@@ -8,7 +8,9 @@ url: /net/xml-map-operations/query-cell-areas-mapped-to-xml-map-path/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Query Cell Areas Mapped to Xml Map Path using Aspose.Cells
@@ -106,6 +108,7 @@ XML mapping is supported in .xlsx files. For other formats, the functionality ma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

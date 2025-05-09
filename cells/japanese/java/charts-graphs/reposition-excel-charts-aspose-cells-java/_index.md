@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Javaを使ってExcelブック内のグラフを正確に再配置するのに�
 - Java を使用して既存の Excel ブックを読み込む
 - 特定のワークシートへのアクセスと操作
 - ワークシート内でグラフオブジェクトを正確に配置する
-- 変更を Excel ファイルに保存する
+- 変更をExcelファイルに保存する
 
 実装に進む前に、必要な前提条件がすべて満たされていることを確認しましょう。
 
@@ -165,7 +167,7 @@ Aspose.Cells を、CRM システムやデータ分析ツールなど、Excel フ
    - ファイルをロードする前に、Aspose.Cells の復号化機能を使用してファイルのロックを解除します。
 4. **CSV や XLSX などの他のファイル形式はサポートされていますか?**
    - はい、Aspose.Cells はさまざまなファイル形式をサポートしています。各タイプに適切な読み込みオプションを使用していることを確認してください。
-5. **より高度なチャート操作テクニックはどこで見つけることができますか?**
+5. **より高度なチャート操作テクニックはどこで見つかりますか?**
    - チェックアウト [Asposeの包括的なドキュメント](https://reference.aspose.com/cells/java/) さらに詳しい情報を得るには、コミュニティ フォーラムをご覧ください。
 
 ## リソース
@@ -174,6 +176,9 @@ Aspose.Cells を、CRM システムやデータ分析ツールなど、Excel フ
 - **購入と無料トライアル**トライアルまたは購入から始めましょう [Asposeのウェブサイト](https://purchase。aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

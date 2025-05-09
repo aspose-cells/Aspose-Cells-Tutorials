@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Cell cell = worksheet.getCells().get("C3");
 باتباع هذا الدليل الشامل، أنت الآن جاهز للعمل بكفاءة مع ملفات SXC باستخدام Aspose.Cells لجافا. سواء كنت مطورًا يسعى لتحسين تطبيقاتك أو مؤسسة تسعى لتبسيط مهام معالجة البيانات، يوفر Aspose.Cells الأدوات اللازمة لتحقيق هذه الأهداف بسلاسة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

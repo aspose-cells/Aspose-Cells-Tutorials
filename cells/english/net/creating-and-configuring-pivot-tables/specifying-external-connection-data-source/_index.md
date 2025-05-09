@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/specifying-external-connection-d
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specifying External Connection Data Source in .NET
@@ -92,6 +94,7 @@ You can apply for a [temporary license here](https://purchase.aspose.com/tempora
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

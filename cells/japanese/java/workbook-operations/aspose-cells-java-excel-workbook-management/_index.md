@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,7 +201,7 @@ Aspose.Cells for Java を使用して Workbook オブジェクトをインスタ
 3. **Aspose.Cells を使用して既存の Excel ファイルを操作できますか?**
    - はい、既存の Excel ブックを簡単に開き、変更し、保存できます。
 
-4. **名前付き範囲とは何ですか? また、なぜ重要なのですか?**
+4. **名前付き範囲とは何ですか? なぜ重要ですか?**
    - 名前付き範囲を使用すると、ブック内の特定のセルまたは領域を簡単に参照できるため、データ操作タスクが簡素化されます。
 
 5. **Aspose.Cells for Java の一般的な問題をトラブルシューティングするにはどうすればよいですか?**
@@ -217,6 +219,9 @@ Aspose.Cells for Java を使用して Workbook オブジェクトをインスタ
 楽しいコーディングを！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

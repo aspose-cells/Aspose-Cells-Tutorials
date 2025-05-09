@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,7 +170,7 @@ Para un uso óptimo de Aspose.Cells con Java:
 
 ## Conclusión
 
-En esta guía, ha aprendido a gestionar eficazmente tablas dinámicas anidadas con Aspose.Cells para Java. Al dominar estas técnicas, podrá garantizar que sus datos de Excel estén siempre precisos y actualizados.
+En esta guía, aprendió a administrar eficazmente tablas dinámicas anidadas con Aspose.Cells para Java. Al dominar estas técnicas, podrá garantizar que sus datos de Excel estén siempre precisos y actualizados.
 
 **Próximos pasos:** Explore otras características de Aspose.Cells, como la manipulación de gráficos o las opciones de formato avanzadas, para mejorar aún más sus aplicaciones.
 
@@ -201,6 +203,9 @@ En esta guía, ha aprendido a gestionar eficazmente tablas dinámicas anidadas c
 Siguiendo esta guía completa, estará bien preparado para abordar tareas complejas de gestión de datos de Excel con Aspose.Cells para Java. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ A folytatáshoz győződjön meg róla, hogy rendelkezik a következőkkel:
 - Integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA vagy az Eclipse
 
 ### Környezeti beállítási követelmények
-projektedbe bele kell foglalnod az Aspose.Cells for Java-t. Az alábbiakban a Maven vagy Gradle használatával kapcsolatos lépéseket láthatod:
+A projektedbe bele kell foglalnod az Aspose.Cells for Java-t. Az alábbiakban a Maven vagy Gradle használatával kapcsolatos lépéseket láthatod:
 
 **Szakértő**
 ```xml
@@ -115,7 +117,7 @@ Az egyes cellák formázása részletes testreszabást tesz lehetővé, példáu
 
 ### Stílus definiálása és alkalmazása egy tartományra
 **Áttekintés:**
-A stílusok cellatartományra való alkalmazása biztosítja a konzisztenciát több adatpont között.
+stílusok cellatartományra való alkalmazása biztosítja a konzisztenciát több adatpont között.
 
 **Megvalósítási lépések:**
 - Hozz létre egy tartományt a formázáshoz:
@@ -205,6 +207,9 @@ Reméljük, hogy ez az oktatóanyag informatív és hasznos volt. Jó kódolást
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Java で Excel ファイルの管理を効率化したいとお考えですか? 
 - ワークブックからデータ接続にアクセスして取得するテクニック。
 - 識別方法 `WebQueryConnection` タイプを入力し、その URL にアクセスします。
 
-始める前に、必要な設定が完了していることを確認してください。
+始める前に、必要な設定が整っていることを確認してください。
 
 ## 前提条件
 
@@ -59,7 +61,7 @@ Java プログラミングと Maven または Gradle での依存関係の処理
 2. **ライセンス取得**：
    - 取得する [無料トライアル](https://releases.aspose.com/cells/java/) 機能を探索します。
    - 実稼働環境で使用する場合は、 [購入ページ](https://purchase。aspose.com/buy).
-3. **初期化とセットアップ**インスタンスを作成する `Workbook` Excel ファイルのパスを指定します。
+3. **初期化とセットアップ**: インスタンスを作成する `Workbook` Excel ファイルのパスを指定します。
 
 ```java
 import com.aspose.cells.Workbook;
@@ -86,7 +88,7 @@ Excelブックの読み込みが最初のステップです。この機能では
    import com.aspose.cells.Workbook;
    ```
 2. **ファイルパスを指定**Excel ファイルへのパスを設定します。
-3. **ワークブックを読み込む**新規作成 `Workbook` 入力ファイル パスを持つインスタンス。
+3. **ワークブックを読み込む**: 新規作成 `Workbook` 入力ファイル パスを持つインスタンス。
 
 このプロセスにより、メモリ内のワークブックを操作して、データの操作と抽出が可能になります。
 
@@ -175,6 +177,9 @@ A5: ストリーミング メソッドの使用を検討し、完了したらワ
 - **サポート**： [Asposeフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

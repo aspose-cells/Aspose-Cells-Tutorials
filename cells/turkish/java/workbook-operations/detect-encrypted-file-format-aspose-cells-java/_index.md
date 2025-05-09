@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Sonraki adımlar arasında farklı dosya türleriyle denemeler yapmak, bu işlev
 Bu kılavuzu takip ederek, artık Java'da Aspose.Cells kullanarak şifrelenmiş dosyalar için dosya biçimi algılamayı uygulamak üzere donanımlısınız. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ Készen állsz a megoldás megvalósítására? Merülj el a dokumentációban, 
 ## GYIK szekció
 
 **1. kérdés: Mi az Aspose.Cells Java-hoz?**
-Az Aspose.Cells for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és konvertáljanak Excel fájlokat anélkül, hogy a gépükön telepítve kellene lennie a Microsoft Excelnek.
+Az Aspose.Cells for Java egy olyan könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, módosítsanak és konvertáljanak Excel fájlokat anélkül, hogy a Microsoft Excelt telepíteni kellene a gépükre.
 
 **2. kérdés: Hogyan telepíthetem az Aspose.Cells-t Maven vagy Gradle használatával?**
 Adja hozzá az útmutató Beállítás szakaszában megadott függőséget a `pom.xml` vagy `build.gradle`.
@@ -178,6 +180,9 @@ Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java
 Ez az oktatóanyag segít beállítani és futtatni az oszlopszélességeket Excelben az Aspose.Cells for Java használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

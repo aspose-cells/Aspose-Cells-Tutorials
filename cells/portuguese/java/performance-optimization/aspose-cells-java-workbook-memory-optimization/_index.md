@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ Agora, vamos explorar como implementar a otimização de memória no Aspose.Cell
 ## Guia de Implementação
 
 ### Criando e configurando uma pasta de trabalho
-**Visão geral:** Esta seção aborda a criação de um `Aspose.Cells Workbook` objeto e definindo suas preferências de memória para lidar com grandes conjuntos de dados de forma eficiente.
+**Visão geral:** Esta seção abrange a criação de um `Aspose.Cells Workbook` objeto e definindo suas preferências de memória para lidar com grandes conjuntos de dados de forma eficiente.
 1. **Criar uma nova pasta de trabalho:** Comece instanciando o `Workbook` aula.
    ```java
    Workbook wb = new Workbook();
@@ -137,6 +139,9 @@ Seguindo este tutorial, você aprendeu a criar e configurar pastas de trabalho c
 - **Fórum de suporte:** Entre em contato com a comunidade para obter assistência em [Fóruns Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

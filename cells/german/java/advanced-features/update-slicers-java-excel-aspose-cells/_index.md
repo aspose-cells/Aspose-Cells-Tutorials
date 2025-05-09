@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ Bei der Verarbeitung großer Dateien oder komplexer Vorgänge ist die Leistungso
 In dieser Anleitung haben wir untersucht, wie Sie Slicer in Java-Excel-Dateien mit Aspose.Cells aktualisieren. Sie haben gelernt, wie Sie die Bibliotheksversion laden und anzeigen, Slicer programmgesteuert bearbeiten und Änderungen in Ihrer Excel-Datei speichern. Mit diesen Kenntnissen können Sie Datenfilterprozesse automatisieren und so die Produktivität und Genauigkeit bei Datenanalyseaufgaben steigern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

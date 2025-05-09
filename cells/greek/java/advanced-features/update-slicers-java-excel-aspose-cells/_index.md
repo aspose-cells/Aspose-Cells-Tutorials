@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -214,6 +216,9 @@ System.out.println("Workbook saved successfully.");
 Σε αυτόν τον οδηγό, εξερευνήσαμε τον τρόπο ενημέρωσης αναλυτών σε αρχεία Java Excel χρησιμοποιώντας το Aspose.Cells. Μάθατε πώς να φορτώνετε και να εμφανίζετε την έκδοση της βιβλιοθήκης, να χειρίζεστε αναλυτές μέσω προγραμματισμού και να αποθηκεύετε τις αλλαγές στο αρχείο Excel σας. Με αυτές τις δεξιότητες, μπορείτε να αυτοματοποιήσετε τις διαδικασίες φιλτραρίσματος δεδομένων, βελτιώνοντας την παραγωγικότητα και την ακρίβεια στις εργασίες ανάλυσης δεδομένων.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

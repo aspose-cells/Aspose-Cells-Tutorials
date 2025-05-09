@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'i JSON'a aktar
@@ -76,9 +78,11 @@ Tebrikler! Aspose.Cells for Java kullanarak Excel verilerini başarıyla JSON'a 
    Evet, Aspose.Cells for Java'nın deneme sürümünü web sitesinden indirip özelliklerini değerlendirebilirsiniz.
 
 Veri işleme yeteneklerinizi geliştirmek için Aspose.Cells for Java ile daha fazla olasılığı keşfetmekten çekinmeyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

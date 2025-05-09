@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## Introduktion
 Har du problem med att hantera anpassade talformat i dina Excel-arbetsböcker med Java? Du är inte ensam! Många utvecklare möter utmaningar när de hanterar komplexa Excel-operationer programmatiskt. Den här omfattande handledningen guidar dig genom att skapa och konfigurera en arbetsbok med Aspose.Cells för Java, med fokus på att hantera anpassade talformat effektivt.
 
-**Primärt nyckelord**Aspose.Cells Java-arbetsbok
+**Primärt sökord**Aspose.Cells Java-arbetsbok
 **Sekundära sökord**Anpassade talformat, arbetsbokskonfiguration
 
 ### Vad du kommer att lära dig:
@@ -132,7 +134,7 @@ c.putValue(2347);
 ### Funktion 3: Hantera anpassat talformat med undantagshantering
 
 #### Översikt
-Att hantera anpassade talformat på ett säkert sätt kräver att man implementerar undantagshantering för att fånga upp fel i ogiltiga format.
+Att hantera anpassade talformat på ett säkert sätt kräver att undantagshantering implementeras för att fånga upp fel i ogiltiga format.
 
 **3.5 Tillämpa och hantera anpassade talformat**
 Försök att ställa in ett anpassat talformat, fånga undantag om det är ogiltigt:
@@ -196,6 +198,9 @@ Utforska ytterligare funktioner som Aspose.Cells erbjuder, såsom avancerad data
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

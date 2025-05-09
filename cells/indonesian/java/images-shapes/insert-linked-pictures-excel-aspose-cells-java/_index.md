@@ -7,39 +7,41 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Memasukkan Gambar Terkait ke Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Memasukkan gambar dinamis ke dalam Excel tanpa menanamkannya sangat penting ketika berhadapan dengan sumber daya yang sering diperbarui seperti logo perusahaan atau konten web. Dengan **Aspose.Cells untuk Java**, Anda dapat menautkan gambar dari web secara efisien langsung ke berkas Excel Anda. Tutorial ini akan memandu Anda dalam menyiapkan dan menyisipkan gambar yang ditautkan menggunakan Aspose.Cells.
 
-### Apa yang Akan Anda Pelajari
+### Amit tanulni fogsz
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda.
 - Memasukkan gambar yang ditautkan ke dalam lembar kerja Excel.
 - Opsi konfigurasi utama untuk kinerja optimal.
-- Memecahkan masalah umum selama implementasi.
+- Gyakori problémák elhárítása a megvalósítás során.
 
 Mari kita mulai dengan prasyarat yang diperlukan untuk mengikuti tutorial ini!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-### Perpustakaan yang Diperlukan
+### Kötelező könyvtárak
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru direkomendasikan.
 - Semua dependensi dikonfigurasi dengan benar dalam proyek Anda.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Lingkungan pengembangan yang kompatibel dengan Java (misalnya, IntelliJ IDEA, Eclipse).
 - Pengaturan Maven atau Gradle jika Anda mengelola dependensi melalui alat ini.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java.
-- Kemampuan dalam menangani file Excel secara terprogram.
+- Jártasság az Excel fájlok programozott kezelésében.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -61,12 +63,12 @@ Ikuti petunjuk instalasi di bawah ini berdasarkan alat manajemen proyek Anda:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
-1. **Uji Coba Gratis**: Unduh uji coba dari [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/) untuk menjelajahi fitur-fiturnya.
-2. **Lisensi Sementara**: Minta lisensi sementara untuk fungsionalitas penuh tanpa batasan di [Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian**: Beli langganan atau lisensi permanen dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+### Licencbeszerzés lépései
+1. **Ingyenes próbaverzió**: Unduh uji coba dari [Unduhan Gratis Aspose](https://releases.aspose.com/cells/java/) hogy felfedezhesd a funkciókat.
+2. **Ideiglenes engedély**: Minta lisensi sementara untuk fungsionalitas penuh tanpa batasan di [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás**: Beli langganan atau lisensi permanen dari [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Setelah menambahkan dependensi, inisialisasi Aspose.Cells sebagai berikut:
 
@@ -75,13 +77,13 @@ import com.aspose.cells.Workbook;
 
 public class ExcelInitializer {
     public static void main(String[] args) throws Exception {
-        Workbook workbook = new Workbook(); // Buat buku kerja baru
+        Workbook workbook = new Workbook(); // Új munkafüzet létrehozása
         System.out.println("Aspose.Cells for Java initialized successfully!");
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan proses penyisipan gambar tertaut ke berkas Excel Anda.
 
@@ -97,7 +99,7 @@ Workbook workbook = new Workbook();
 ```
 
 #### Langkah 2: Menambahkan Gambar Tertaut
-Gunakan `addLinkedPicture` metode untuk menambahkan gambar dari alamat web di sel B2. Parameter menentukan baris, kolom, dan ukuran gambar.
+Használd a `addLinkedPicture` metode untuk menambahkan gambar dari alamat web di sel B2. Parameter menentukan baris, kolom, dan ukuran gambar.
 
 ```java
 import com.aspose.cells.Picture;
@@ -131,27 +133,27 @@ Simpan buku kerja Anda untuk mempertahankan perubahan, pastikan gambar yang dita
 workbook.save("ILPfromWebAddress_out.xlsx");
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - **Gambar Tidak Ditampilkan**Pastikan URL benar dan dapat diakses.
-- **Masalah Memori**: Optimalkan ukuran gambar untuk kinerja yang lebih baik dengan file Excel berukuran besar.
+- **Memóriaproblémák**: Optimalkan ukuran gambar untuk kinerja yang lebih baik dengan file Excel berukuran besar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut ini adalah beberapa skenario dunia nyata di mana penyisipan gambar tertaut dapat bermanfaat:
-1. **Laporan Keuangan**: Tautan ke bagan atau grafik dinamis yang dihosting daring yang diperbarui secara berkala.
+1. **Pénzügyi jelentések**: Tautan ke bagan atau grafik dinamis yang dihosting daring yang diperbarui secara berkala.
 2. **Materi Pemasaran**: Gunakan logo perusahaan terbaru atau gambar promosi dari server web.
-3. **Konten Edukasi**: Sematkan video instruksional atau diagram yang disimpan di cloud.
+3. **Oktatási tartalom**: Sematkan video instruksional atau diagram yang disimpan di cloud.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells untuk Java:
 - Minimalkan penggunaan sumber daya dengan mengoptimalkan ukuran dan format gambar.
 - Kelola memori secara efektif dengan membuang objek saat tidak lagi diperlukan.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara menyisipkan gambar yang ditautkan dari alamat web ke dalam berkas Excel menggunakan Aspose.Cells untuk Java. Keterampilan ini menyempurnakan laporan Anda, menjadikannya lebih dinamis dan interaktif. Langkah selanjutnya meliputi penjelajahan fitur lain seperti manipulasi data atau pembuatan bagan dengan Aspose.Cells.
 
 Siap untuk melangkah lebih jauh? Terapkan solusi ini dalam proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Apa itu gambar tertaut di Excel?**
    - Gambar yang ditautkan menampilkan gambar yang disimpan di luar berkas Excel, dan diperbarui secara otomatis jika gambar eksternal berubah.
 2. **Bisakah saya menggunakan format gambar lain selain JPEG dan GIF?**
@@ -163,15 +165,18 @@ Siap untuk melangkah lebih jauh? Terapkan solusi ini dalam proyek Anda hari ini!
 5. **Bisakah metode ini diotomatisasi untuk kumpulan data besar?**
    - Ya, Anda dapat mengotomatiskan penyisipan gambar menggunakan loop atau pemrosesan batch di Java.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Dapatkan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió igénylése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

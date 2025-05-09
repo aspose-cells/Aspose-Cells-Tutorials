@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - สร้างเวิร์กบุ๊กใหม่และเข้าถึงเซลล์เวิร์กชีต
 - เติมข้อมูลลงในเซลล์เฉพาะเพื่อเตรียมการสร้างแผนภูมิ
 - สร้างแผนภูมิวงกลมจากข้อมูลนี้
-- ปรับแต่งลักษณะของแผนภูมิวงกลมของคุณ รวมทั้งสี หัวเรื่อง และคำอธิบาย
+- ปรับแต่งลักษณะของแผนภูมิวงกลมของคุณ รวมทั้งสี หัวเรื่อง และคำอธิบายแผนภูมิ
 
 ก่อนจะเริ่มลงมือ ให้แน่ใจว่าคุณมีความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และการจัดการการพึ่งพา Maven หรือ Gradle มาตั้งค่าสภาพแวดล้อมของเรากัน!
 
@@ -204,6 +206,9 @@ workbook.save(outDir + "/CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

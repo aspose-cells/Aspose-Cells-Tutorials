@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/change-chart-size-and-position/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Chart Size and Position
@@ -141,6 +143,7 @@ Yes, you can acquire a temporary license to evaluate Aspose.Cells for a short pe
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

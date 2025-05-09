@@ -1,14 +1,16 @@
 ---
-title: Arkusz kalkulacyjny Operacje wartości
-linktitle: Arkusz kalkulacyjny Operacje wartości
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Zapoznaj się z podstawowymi samouczkami dotyczącymi Aspose.Cells dla platformy .NET, które obejmują operacje na wartościach arkusza kalkulacyjnego, dzięki czemu udoskonalą Twoje projekty w programie Excel.
-weight: 28
-url: /pl/net/worksheet-value-operations/
+"description": "Zapoznaj się z podstawowymi samouczkami dotyczącymi Aspose.Cells dla platformy .NET, które obejmują operacje na wartościach arkusza kalkulacyjnego, dzięki czemu udoskonalą Twoje projekty w programie Excel."
+"linktitle": "Arkusz kalkulacyjny Operacje wartości"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Arkusz kalkulacyjny Operacje wartości"
+"url": "/pl/net/worksheet-value-operations/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Arkusz kalkulacyjny Operacje wartości
@@ -21,15 +23,15 @@ Jeśli chodzi o programowe manipulowanie plikami Excela, Aspose.Cells dla .NET w
 
 Nasze samouczki dotyczące operacji wartości arkusza roboczego zostały stworzone, aby pomóc Ci poruszać się po ekscytujących funkcjach Aspose.Cells dla .NET. Oto rzut oka na to, co możesz osiągnąć:
 
-1. Dodaj podziały stron w arkuszu kalkulacyjnym: Chcesz, aby Twoje arkusze kalkulacyjne Excela były gotowe do druku? Dodanie poziomych i pionowych podziałów stron może pomóc zapewnić, że Twoje dane będą uporządkowane na wydrukowanych stronach. Dzięki naszemu przewodnikowi krok po kroku nauczysz się, jak wdrożyć to bez wysiłku.[Przeczytaj więcej](./add-page-breaks/).
+1. Dodaj podziały stron w arkuszu kalkulacyjnym: Chcesz, aby Twoje arkusze kalkulacyjne Excela były gotowe do druku? Dodanie poziomych i pionowych podziałów stron może pomóc zapewnić, że Twoje dane będą uporządkowane na wydrukowanych stronach. Dzięki naszemu przewodnikowi krok po kroku nauczysz się, jak wdrożyć to bez wysiłku. [Przeczytaj więcej](./add-page-breaks/).
 
-2.  Wyczyść wszystkie podziały stron: Masz przepełniony arkusz kalkulacyjny? Nie martw się! Nasz samouczek pokazuje, jak wyczyścić wszystkie podziały stron w ciągu kilku sekund, zapewniając czystą kartę do pracy. W ten sposób możesz uniknąć bałaganu i poprawić czytelność.[Przeczytaj więcej](./clear-all-page-breaks/).
+2. Wyczyść wszystkie podziały stron: Masz przepełniony arkusz kalkulacyjny? Nie martw się! Nasz samouczek pokazuje, jak wyczyścić wszystkie podziały stron w ciągu kilku sekund, zapewniając czystą kartę do pracy. W ten sposób możesz uniknąć bałaganu i poprawić czytelność. [Przeczytaj więcej](./clear-all-page-breaks/).
 
-3.  Kopiuj dane w skoroszycie: Musisz zduplikować dane bez zamieszania? Ten samouczek nauczy Cię, jak skutecznie kopiować dane w skoroszycie. Znajdziesz również pomocne przykłady kodu, które uproszczą ten proces.[Przeczytaj więcej](./copy-data-within-workbook/).
+3. Kopiuj dane w skoroszycie: Musisz zduplikować dane bez zamieszania? Ten samouczek nauczy Cię, jak skutecznie kopiować dane w skoroszycie. Znajdziesz również pomocne przykłady kodu, które uproszczą ten proces. [Przeczytaj więcej](./copy-data-within-workbook/).
 
-4.  Kopiuj arkusze robocze między skoroszytami: Przenoszenie arkuszy roboczych z jednego skoroszytu do drugiego nigdy nie było łatwiejsze. Nasz przewodnik szczegółowo opisuje wymagania wstępne i przeprowadza Cię przez kroki, aby uczynić ten proces płynnym i prostym.[Przeczytaj więcej](./copy-worksheet-between-workbooks/).
+4. Kopiuj arkusze robocze między skoroszytami: Przenoszenie arkuszy roboczych z jednego skoroszytu do drugiego nigdy nie było łatwiejsze. Nasz przewodnik szczegółowo opisuje wymagania wstępne i przeprowadza przez kroki, aby uczynić ten proces płynnym i prostym. [Przeczytaj więcej](./copy-worksheet-between-workbooks/).
 
-5. Przenoszenie lub usuwanie podziałów stron: Jeśli chcesz uporządkować dane lub usunąć określone podziały stron, nasze samouczki szczegółowo opisują potrzebne metody, dzięki którym Twoje arkusze kalkulacyjne pozostaną uporządkowane i funkcjonalne.[Przeczytaj więcej](./move-worksheet-within-workbook/) | [Read more](./remove-specific-page-break/).
+5. Przenoszenie lub usuwanie podziałów stron: Jeśli chcesz uporządkować dane lub usunąć określone podziały stron, nasze samouczki szczegółowo opisują potrzebne metody, dzięki którym Twoje arkusze kalkulacyjne pozostaną uporządkowane i funkcjonalne. [Przeczytaj więcej](./move-worksheet-within-workbook/) | [Przeczytaj więcej](./remove-specific-page-break/).
 
 ## Arkusz kalkulacyjny – samouczki dotyczące operacji wartości
 ### [Dodawanie podziałów stron w arkuszu kalkulacyjnym za pomocą Aspose.Cells](./add-page-breaks/)
@@ -46,9 +48,11 @@ Dowiedz się, jak kopiować arkusze kalkulacyjne między skoroszytami programu E
 Naucz się przenosić arkusze kalkulacyjne w skoroszytach programu Excel za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz zarządzanie plikami programu Excel.
 ### [Usuwanie określonego podziału strony z arkusza kalkulacyjnego za pomocą Aspose.Cells](./remove-specific-page-break/)
 Dowiedz się, jak usuwać określone podziały stron w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z tego szczegółowego przewodnika krok po kroku.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Ebben az oktatóanyagban végigvezetünk egy új munkafüzet-példány létrehoz
 ## Előfeltételek
 A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Java fejlesztőkészlet (JDK)** telepítve a gépedre.
-- **Aspose.Cells Java-hoz** szerepel a projekt függőségei között.
+- **Aspose.Cells Java-hoz** a projekt függőségei között szerepel.
 - Egy előnyben részesített IDE, például IntelliJ IDEA vagy Eclipse beállítás.
 
 ## Az Aspose.Cells beállítása Java-hoz
@@ -151,6 +153,9 @@ Készen állsz, hogy továbbfejleszd a képességeidet? Merülj el mélyebben a 
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

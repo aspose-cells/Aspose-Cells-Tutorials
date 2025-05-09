@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -142,7 +144,7 @@ encrypted.save(outDir + "/outputDecryptedODSFile.ods");
 
 ## Teljesítménybeli szempontok
 - **Java memóriahasználat optimalizálása**: Győződjön meg arról, hogy az alkalmazás hatékonyan kezeli a memóriát, különösen nagy ODS-fájlok feldolgozásakor.
-- **Erőforrás-gazdálkodás**Az Aspose.Cells funkcióinak használata közben a teljesítmény fenntartása érdekében figyelje és állítsa be az erőforrás-elosztást.
+- **Erőforrás-gazdálkodás**Az Aspose.Cells funkcióinak használata közben figyelje és állítsa be az erőforrás-elosztást a teljesítmény fenntartása érdekében.
 
 ## Következtetés
 Most már megtanultad, hogyan titkosíthatod és dekódolhatod az ODS fájlokat az Aspose.Cells for Java segítségével. Ez a funkció felbecsülhetetlen értékű az érzékeny adatok védelmében a különböző alkalmazásokban. A további felfedezéshez érdemes lehet az Aspose.Cells egyéb funkcióit is megvizsgálni, például a formátumkonverziót vagy a fejlett adatkezelést.
@@ -172,6 +174,9 @@ Most már megtanultad, hogyan titkosíthatod és dekódolhatod az ODS fájlokat 
 Az útmutató követésével felkészült leszel arra, hogy fájltitkosítást és visszafejtést valósíts meg Java-alkalmazásaidban az Aspose.Cells használatával. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

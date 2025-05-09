@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 透過遵循本指南，您將獲得利用 Aspose.Cells 管理 Excel 圖表和枚舉處理所需的技能。這些功能可以透過提供強大的資料操作功能顯著增強您的 Java 應用程式。繼續探索庫的文檔以獲得更高級的功能和快樂的編碼！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

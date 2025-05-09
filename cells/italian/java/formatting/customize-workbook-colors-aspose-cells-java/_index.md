@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Crea un tutorial SEO-friendly: personalizzazione dei colori della cartella di lavoro con Aspose.Cells Java
+# Crea un tutorial ricco di SEO: personalizzazione dei colori della cartella di lavoro con Aspose.Cells Java
 
 ## Introduzione
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Fasi di acquisizione della licenza
 
 - **Prova gratuita**: Scarica una versione di prova gratuita per testare le funzionalità di Aspose.Cells.
-- **Licenza temporanea**: Ottieni una licenza temporanea per una valutazione estesa.
+- **Licenza temporanea**Ottieni una licenza temporanea per una valutazione estesa.
 - **Acquistare**: Acquista una licenza completa se decidi di integrarlo in modo permanente nei tuoi progetti.
 
 Una volta installato, inizializza e configura Aspose.Cells nella tua applicazione Java:
@@ -226,6 +228,9 @@ Prova a implementare queste personalizzazioni nei tuoi progetti e scopri come mi
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells e trasforma il modo in cui gestisci i dati dei fogli di calcolo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

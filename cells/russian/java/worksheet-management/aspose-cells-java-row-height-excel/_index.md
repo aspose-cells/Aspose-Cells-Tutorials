@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,7 +179,7 @@ workbook.save(outDir + "SettingHeightOfRow_out.xls");
 4. **Как получить временную лицензию на Aspose.Cells?**
    - Посетите [Страница временной лицензии](https://purchase.aspose.com/temporary-license/) на их сайте.
 
-5. **Где я могу найти больше примеров использования Aspose.Cells для Java?**
+5. **Где можно найти больше примеров использования Aspose.Cells для Java?**
    - The [Документация Aspose](https://reference.aspose.com/cells/java/) отличный ресурс с подробными руководствами и примерами кода.
 
 ## Ресурсы
@@ -189,6 +191,9 @@ workbook.save(outDir + "SettingHeightOfRow_out.xls");
 - **Форумы поддержки**: Присоединяйтесь к обсуждениям и задавайте вопросы в [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

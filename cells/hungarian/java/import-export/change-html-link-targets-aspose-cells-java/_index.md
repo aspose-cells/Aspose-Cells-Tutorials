@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,7 +193,7 @@ Próbálja ki ezt a megoldást a projektjeiben még ma, és nézze meg, hogyan j
 ## Erőforrás
 
 - **Dokumentáció:** [Aspose.Cells Java referencia](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose sejtek kibocsátásai](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Próbálja ki az Aspose.Cells-t ingyen](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
@@ -199,6 +201,9 @@ Próbálja ki ezt a megoldást a projektjeiben még ma, és nézze meg, hogyan j
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

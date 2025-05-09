@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,8 +59,8 @@ implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells for Java를 사용하려면 무료 평가판을 통해 기능을 체험해 보세요. 장기간 사용하려면 임시 라이선스 또는 정식 라이선스를 구매하는 것이 좋습니다.
 
-- **무료 체험**최신 버전을 다운로드하세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/).
-- **임시 면허**임시 면허를 요청하세요 [Aspose 구매](https://purchase.aspose.com/temporary-license/).
+- **무료 체험**: 최신 버전을 다운로드하세요 [Aspose 릴리스](https://releases.aspose.com/cells/java/).
+- **임시 면허**: 임시 면허를 요청하세요 [Aspose 구매](https://purchase.aspose.com/temporary-license/).
 - **구입**: 상업적인 용도로는 라이선스를 직접 구매하세요. [Aspose 구매](https://purchase.aspose.com/buy).
 
 라이브러리를 설정하면 코딩을 시작할 준비가 된 것입니다.
@@ -218,6 +220,9 @@ A: 다음을 사용하여 액세스합니다. `getWorksheets().get(index)` 원�
 A: 네, 루프 내에서 객체 생성을 최소화하여 코드를 최적화하고 메모리 사용량을 모니터링하여 누수를 방지하세요. Aspose.Cells에서 제공하는 효율적인 데이터 구조를 사용하면 성능이 향상됩니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

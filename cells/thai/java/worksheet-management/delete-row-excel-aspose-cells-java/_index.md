@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### การสร้างอินสแตนซ์ของวัตถุสมุดงาน
 
-เริ่มต้นด้วยการสร้าง `Workbook` วัตถุที่แสดงถึงไฟล์ Excel ของคุณ:
+เริ่มต้นด้วยการสร้าง `Workbook` วัตถุที่แสดงไฟล์ Excel ของคุณ:
 
 ```java
 // โหลดไฟล์ Excel ที่มีอยู่
@@ -161,6 +163,9 @@ workbook.save(dataDir + "DeleteARow_out.xls");
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

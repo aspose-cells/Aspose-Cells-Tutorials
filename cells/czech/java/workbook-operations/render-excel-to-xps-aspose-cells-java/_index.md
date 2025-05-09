@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,11 +187,14 @@ A5: Návštěva [Stránka s dočasnou licencí společnosti Aspose](https://purc
 ## Zdroje
 - **Dokumentace:** Prozkoumejte komplexní dokumentaci k API na adrese [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/java/).
 - **Stáhnout:** Získejte přístup k nejnovější verzi Aspose.Cells pro Javu z [Soubory ke stažení Aspose](https://releases.aspose.com/cells/java/).
-- **Nákup:** Kupte si licenci přímo přes [Nákupní stránka Aspose](https://purchase.aspose.com/buy) případě potřeby.
+- **Nákup:** Kupte si licenci přímo přes [Nákupní stránka Aspose](https://purchase.aspose.com/buy) v případě potřeby.
 - **Bezplatná zkušební verze:** Začněte s bezplatnou zkušební verzí a otestujte si možnosti softwaru na adrese [Bezplatné zkušební verze Aspose](https://releases.aspose.com/cells/java/).
 - **Podpora:** Zapojte se do diskusí a vyhledejte pomoc [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

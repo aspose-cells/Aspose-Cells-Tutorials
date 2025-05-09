@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Dowiedz się, jak skonfigurować Aspose.Cells dla języka Java, aby pomijał ukryte arkusze podczas eksportu, zapewniając czyste i zwięzłe dane wyjściowe."
+"description": "Dowiedz się, jak skonfigurować Aspose.Cells dla języka Java, aby pomijał ukryte arkusze podczas eksportu, zapewniając przejrzyste i zwięzłe dane wyjściowe."
 "title": "Jak zapobiec eksportowaniu ukrytych arkuszy kalkulacyjnych w Aspose.Cells Java&#58; Kompletny przewodnik"
 "url": "/pl/java/workbook-operations/prevent-export-hidden-worksheets-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -177,6 +179,9 @@ A5: Zdecydowanie. Aspose.Cells sprawnie zarządza i eksportuje arkusze ze skompl
 - **Zakup**:Aby uzyskać pełny dostęp, rozważ zakup licencji za pośrednictwem [Zakup Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

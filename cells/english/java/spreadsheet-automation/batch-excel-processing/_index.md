@@ -8,7 +8,9 @@ url: /java/spreadsheet-automation/batch-excel-processing/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Batch Excel Processing
@@ -109,9 +111,11 @@ Automating batch Excel processing with Aspose.Cells for Java simplifies the mana
    Explore the API documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in-depth information and examples.
 
 Optimize your batch Excel processing tasks and increase productivity using Aspose.Cells for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ workbook.save(outDir + "/ColoredBackground.ods", com.aspose.cells.SaveFormat.ODS
 
 ## 実用的なアプリケーション
 1. **自動財務報告**カスタマイズされたスタイルで動的な財務諸表を生成します。
-2. **データ分析ダッシュボード**Java アプリケーションからデータ駆動型ダッシュボードに自動的にデータを入力します。
+2. **データ分析ダッシュボード**Java アプリケーションからデータ駆動型ダッシュボードを自動的に作成します。
 3. **プロジェクト管理ツール**プロジェクト計画の生成を自動化し、わかりやすくスタイル設定します。
 4. **在庫追跡システム**プログラムによってインベントリ ログを作成および管理します。
 
@@ -171,6 +173,9 @@ Aspose.Cellsのグラフ作成、数式計算、ワークブック保護など�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ int addCustomPivotTableStyle(Workbook workbook, String styleName, Style firstCol
 void assignElementStyle(TableStyle ts, TableStyleElementType elementType, Style style) {
     int index = ts.getTableStyleElements().add(elementType);
     TableStyleElement e = ts.getTableStyleElements().get(index);
-    e.setElementStyle(style); // 給元素設定指定的樣式
+    e.setElementStyle(style); // 給元素設定指定樣式
 }
 ```
 ### 資料透視表樣式的應用程式和檔案保存
@@ -177,6 +179,9 @@ wb.save(outDir + "/ModifyPivotTableQuickStyle_out.xlsx");
 - [下載 Aspose.Cells for Java](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

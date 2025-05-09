@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Trong hướng dẫn này, bạn đã học cách thay đổi dữ liệu nguồ
 Với các tài nguyên này và hướng dẫn toàn diện, giờ đây bạn đã có thể xử lý hiệu quả các thay đổi dữ liệu nguồn của bảng trục bằng Aspose.Cells trong Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

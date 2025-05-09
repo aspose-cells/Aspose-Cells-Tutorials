@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Att konvertera Excel-datauppsättningar till textformat som CSV samtidigt som sp
 
 ## Förkunskapskrav
 Innan du börjar, se till att du har följande:
-- **Java-utvecklingsmiljö:** JDK installerad och konfigurerad.
+- **Java-utvecklingsmiljö:** JDK installerat och konfigurerat.
 - **Aspose.Cells för Java-biblioteket:** Version 25.3 eller senare krävs.
 - **ID:** Använd IntelliJ IDEA, Eclipse eller någon annan föredragen utvecklingsmiljö.
 
@@ -124,6 +126,9 @@ Utforska ytterligare funktioner i Aspose.Cells, såsom datamanipulation och avan
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

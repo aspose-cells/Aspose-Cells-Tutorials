@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,13 +169,16 @@ A5: 네, Aspose.Cells는 강력한 API를 통해 다양한 엔터프라이즈 �
 - **다운로드**: 최신 릴리스에 액세스하세요 [Aspose 다운로드](https://releases.aspose.com/cells/java/)
 - **구입**: 상업적 사용을 위한 라이센스를 구매하세요 [Aspose 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: 무료 체험판으로 시작하세요 [Aspose 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**임시 면허를 취득하세요 [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: 임시 면허를 취득하세요 [Aspose 임시 면허](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: 커뮤니티에서 도움을 받으세요 [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 이 가이드를 따라 하면 Aspose.Cells를 사용하여 Java 애플리케이션에서 강력한 전역화 기능을 구현하는 데 큰 도움이 될 것입니다. 즐거운 코딩 되세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

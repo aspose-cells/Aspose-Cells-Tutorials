@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Pemformatan Bersyarat di Aspose.Cells Java: Panduan Lengkap
 Manfaatkan kekuatan penyajian data dengan menguasai pemformatan bersyarat di Excel menggunakan Aspose.Cells untuk Java. Panduan ini akan memandu Anda melalui hal-hal penting, yang memungkinkan Anda menyempurnakan lembar kerja dengan format yang dinamis dan menarik secara visual.
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Membuat contoh buku kerja dan lembar kerja
 - Menambahkan dan mengonfigurasi pemformatan bersyarat
 - Menetapkan rentang dan kondisi format
@@ -22,11 +24,11 @@ Manfaatkan kekuatan penyajian data dengan menguasai pemformatan bersyarat di Exc
 
 Beralih dari penggemar Excel menjadi pengembang Java yang dapat mengotomatiskan tugas spreadsheet yang rumit lebih mudah dari yang Anda kira. Mari kita bahas prasyaratnya sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 Sebelum menyelami Aspose.Cells, pastikan lingkungan pengembangan Anda memenuhi persyaratan berikut:
-- **Perpustakaan dan Versi**Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**Pastikan JDK terinstal pada sistem Anda (sebaiknya JDK 8 atau lebih tinggi).
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan buku kerja Excel.
+- **Könyvtárak és verziók**Anda memerlukan Aspose.Cells untuk Java versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**Pastikan JDK terinstal pada sistem Anda (sebaiknya JDK 8 atau lebih tinggi).
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan buku kerja Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 Untuk mulai menggunakan Aspose.Cells di proyek Java Anda, Anda perlu menambahkannya sebagai dependensi. Berikut cara melakukannya menggunakan Maven dan Gradle:
@@ -45,11 +47,11 @@ Untuk mulai menggunakan Aspose.Cells di proyek Java Anda, Anda perlu menambahkan
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Mendapatkan Lisensi
+### Licenc megszerzése
 Aspose.Cells adalah produk komersial, tetapi Anda dapat memulai dengan mengunduh uji coba gratis atau mengajukan lisensi sementara. Ini akan memungkinkan Anda untuk mengeksplorasi kemampuannya secara penuh tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi.
 
-#### Inisialisasi dan Pengaturan Dasar
-Untuk mulai menggunakan Aspose.Cells, buatlah sebuah instance dari `Workbook` kelas:
+#### Alapvető inicializálás és beállítás
+Untuk mulai menggunakan Aspose.Cells, buatlah sebuah instance dari `Workbook` osztály:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -61,12 +63,12 @@ public class InitializeAsposeCells {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Bagian ini membahas fitur utama Aspose.Cells, dipecah menjadi langkah-langkah yang dapat dikelola untuk membantu Anda menerapkan pemformatan bersyarat di Java.
 
 ### Membuat Instansiasi Buku Kerja dan Lembar Kerja
 Membuat buku kerja dan mengakses lembar kerjanya adalah dasar untuk setiap tugas manipulasi Excel:
-#### Ringkasan
+#### Áttekintés
 Anda akan mempelajari cara membuat buku kerja baru dan mengakses lembar kerja pertamanya. Langkah ini penting karena menyiapkan lingkungan tempat semua manipulasi data Anda akan terjadi.
 **Cuplikan Kode:**
 ```java
@@ -75,10 +77,10 @@ import com.aspose.cells.Worksheet;
 
 public class InstantiateWorkbookWorksheet {
     public static void main(String[] args) throws Exception {
-        // Buat objek Buku Kerja baru
+        // Új munkafüzet-objektum létrehozása
         Workbook workbook = new Workbook();
         
-        // Akses lembar kerja pertama di buku kerja
+        // A munkafüzet első munkalapjának elérése
         Worksheet sheet = workbook.getWorksheets().get(0);
         
         System.out.println("Worksheet accessed successfully.");
@@ -88,7 +90,7 @@ public class InstantiateWorkbookWorksheet {
 
 ### Menambahkan Pemformatan Bersyarat
 Fitur ini memungkinkan Anda mengubah gaya sel secara dinamis berdasarkan nilainya.
-#### Ringkasan
+#### Áttekintés
 Menambahkan pemformatan bersyarat meningkatkan keterbacaan data dengan menyorot informasi penting secara otomatis.
 **Langkah 1: Tambahkan Koleksi Kondisi Format**
 ```java
@@ -109,7 +111,7 @@ public class AddConditionalFormatting {
 
 ### Mengatur Rentang Format Bersyarat
 Menentukan rentang untuk format kondisional Anda penting untuk gaya yang ditargetkan.
-#### Ringkasan
+#### Áttekintés
 Anda akan menentukan sel mana yang akan terpengaruh oleh aturan pemformatan bersyarat yang Anda tetapkan.
 **Cuplikan Kode:**
 ```java
@@ -136,7 +138,7 @@ public class SetFormatRange {
 
 ### Menambahkan Kondisi Format Bersyarat
 Inti dari pemformatan bersyarat terletak pada pengaturan kondisi yang memicu gaya tertentu.
-#### Ringkasan
+#### Áttekintés
 Anda akan mempelajari cara membuat aturan yang menerapkan gaya berdasarkan nilai sel, seperti menyorot sel dengan nilai antara 50 dan 100.
 **Pelaksanaan:**
 ```java
@@ -162,7 +164,7 @@ public class AddConditionalFormatCondition {
 
 ### Mengatur Gaya Batas untuk Pemformatan Bersyarat
 Menyesuaikan batas menambahkan lapisan daya tarik visual lainnya ke data Anda.
-#### Ringkasan
+#### Áttekintés
 Fitur ini memungkinkan Anda menentukan gaya dan warna batas yang berlaku saat kondisi format bersyarat terpenuhi.
 **Contoh Kode:**
 ```java
@@ -208,14 +210,17 @@ public class SetBorderStyle {
 }
 ```
 
-## Aplikasi Praktis
-- **Pelaporan Keuangan**: Secara otomatis menyorot sel yang melampaui ambang batas anggaran.
-- **Manajemen Inventaris**Gunakan kode warna untuk tingkat stok di bawah persyaratan minimum.
+## Gyakorlati alkalmazások
+- **Pénzügyi jelentéstétel**: Secara otomatis menyorot sel yang melampaui ambang batas anggaran.
+- **Készletgazdálkodás**Gunakan kode warna untuk tingkat stok di bawah persyaratan minimum.
 - **Dasbor Kinerja**: Menyorot indikator kinerja utama secara real-time.
 
 Mengintegrasikan Aspose.Cells dengan sistem lain seperti basis data atau layanan cloud dapat lebih meningkatkan fungsinya, memungkinkan Anda membuat solusi data yang lebih komprehensif dan otomatis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

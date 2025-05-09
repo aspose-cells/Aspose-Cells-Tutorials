@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 進階資料分析 Excel
@@ -22,7 +24,7 @@ Excel 無疑是一種多功能的資料分析工具，但在處理大型資料�
 
 在我們深入研究使用 Aspose.Cells for Java 進行進階資料分析的世界之前，您需要滿足一些先決條件：
 
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 使用 Java 和您喜歡的 IDE 設定的開發環境。
 - Aspose.Cells for Java 函式庫，您可以從 [這裡](https://releases。aspose.com/cells/java/).
 - 包含可用範例資料的 Excel 電子表格。
@@ -210,6 +212,7 @@ Aspose.Cells for Java 支援將分析結果匯出為各種格式，包括 PDF �
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

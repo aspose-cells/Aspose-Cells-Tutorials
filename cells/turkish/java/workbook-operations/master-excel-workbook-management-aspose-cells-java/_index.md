@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ The `save` method çalışma kitabınızı tüm değişiklikleri koruyarak bir d
 Bu kılavuzu takip ederek artık Aspose.Cells for Java kullanarak Excel çalışma kitaplarını programatik olarak yönetme becerisine sahipsiniz. Bu güçlü araç karmaşık görevleri kolaylaştırır ve Excel dosyalarının işlenmesinde üretkenliği artırır. Veri yönetimi iş akışlarınızı daha da iyileştirmek için özelliklerini keşfetmeye devam edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

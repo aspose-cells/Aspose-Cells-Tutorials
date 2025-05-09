@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ Carregar uma pasta de trabalho existente do Excel é simples com o Aspose.Cells.
    ```
 2. **Entenda os parâmetros:**
    - O `dataDir` é uma string que representa o diretório onde seu arquivo Excel reside.
-   - O construtor do `Workbook` A classe lê e armazena automaticamente todas as planilhas e dados do arquivo Excel especificado.
+   - construtor do `Workbook` A classe lê e armazena automaticamente todas as planilhas e dados do arquivo Excel especificado.
 
 ### Calculando fórmulas em uma pasta de trabalho do Excel
 
@@ -166,12 +168,15 @@ R: O Aspose.Cells pode ler arquivos com macros VBA, mas você não pode modific�
 R: Sim, usando técnicas de eficiência de memória e otimizando a estrutura da sua pasta de trabalho antes da conversão, você pode lidar com arquivos maiores de forma eficaz.
 
 **P: O Aspose.Cells é adequado para processamento em lote de várias pastas de trabalho?**
-R: Com certeza! Você pode iterar facilmente sobre um conjunto de arquivos do Excel, aplicando as mesmas operações de carga, cálculo e conversão em massa.
+R: Com certeza! Você pode iterar facilmente sobre uma coleção de arquivos do Excel, aplicando as mesmas operações de carga, cálculo e conversão em massa.
 
 **P: Como lidar com diferentes localidades ou formatos numéricos ao converter para PDF?**
 R: O Aspose.Cells suporta várias configurações de localidade, que você pode configurar durante a operação de salvamento.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

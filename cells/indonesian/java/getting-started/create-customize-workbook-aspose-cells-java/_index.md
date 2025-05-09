@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Pembuatan & Kustomisasi Buku Kerja di Java Menggunakan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 Membuat dan menyesuaikan buku kerja Excel secara terprogram dapat menjadi pengubah permainan untuk tugas presentasi dan otomatisasi data. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java untuk membuat dan mempersonalisasi buku kerja Excel dengan mudah. Anda akan mempelajari cara menambahkan kotak teks, menyesuaikan propertinya, dan menyimpan buku kerja Anda dalam berbagai format, semuanya dengan kode yang ringkas dan efektif.
 
-### Apa yang Akan Anda Pelajari
+### Amit tanulni fogsz
 - Menyiapkan Aspose.Cells untuk Java dengan Maven atau Gradle.
 - Membuat buku kerja baru dan mengakses lembar kerjanya.
 - Menambahkan dan menyesuaikan kotak teks dalam lembar kerja.
@@ -24,7 +26,7 @@ Membuat dan menyesuaikan buku kerja Excel secara terprogram dapat menjadi pengub
 
 Sebelum kita mulai, pastikan Anda telah menyiapkan semua prasyarat yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 Untuk mengikuti tutorial ini secara efektif:
 - Instal Java Development Kit (JDK) di komputer Anda.
 - Memiliki pemahaman dasar tentang konsep pemrograman Java.
@@ -36,7 +38,7 @@ Mari kita mulai dengan mengintegrasikan Aspose.Cells untuk Java ke dalam proyek 
 Aspose.Cells adalah pustaka tangguh yang memungkinkan manipulasi file Excel secara ekstensif. Anda dapat dengan mudah mengintegrasikannya ke dalam proyek Anda menggunakan Maven atau Gradle.
 
 ### Menggunakan Maven
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -47,24 +49,24 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 ### Menggunakan Gradle
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 Untuk memanfaatkan Aspose.Cells sepenuhnya, pertimbangkan untuk memperoleh lisensi:
-- **Uji Coba Gratis:** Mulailah dengan mengunduh perpustakaan [Di Sini](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk akses penuh tanpa batasan [Di Sini](https://purchase.aspose.com/temporary-license/).
-- **Pembelian:** Untuk penggunaan jangka panjang, beli lisensi permanen [Di Sini](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Mulailah dengan mengunduh perpustakaan [itt](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély:** Dapatkan lisensi sementara untuk akses penuh tanpa batasan [itt](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás:** Untuk penggunaan jangka panjang, beli lisensi permanen [itt](https://purchase.aspose.com/buy).
 
 Setelah lingkungan Anda disiapkan dan lisensi yang diperlukan diperoleh, Anda siap untuk mulai membuat dan menyesuaikan buku kerja.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat dan Mengakses Buku Kerja
-Mulailah dengan menginisialisasi `Workbook`, yang merupakan file Excel baru. Anda kemudian dapat mengakses lembar kerja pertamanya untuk menambahkan konten.
+Kezdje egy inicializálásával `Workbook`, yang merupakan file Excel baru. Anda kemudian dapat mengakses lembar kerja pertamanya untuk menambahkan konten.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -117,15 +119,15 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "/outputSpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.xlsx", SaveFormat.XLSX);
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Dengan memanfaatkan kemampuan ini, Anda dapat:
 - **Otomatisasi Pembuatan Laporan:** Buat laporan dengan data dinamis dan format khusus.
-- **Pembuatan Template:** Mengembangkan templat yang menyertakan kotak teks yang telah ditentukan sebelumnya untuk masukan pengguna.
+- **Sablon létrehozása:** Mengembangkan templat yang menyertakan kotak teks yang telah ditentukan sebelumnya untuk masukan pengguna.
 - **Peningkatan Visualisasi Data:** Tingkatkan lembar Excel dengan anotasi atau instruksi yang disesuaikan.
 
 Mengintegrasikan Aspose.Cells memungkinkan penanganan file Excel yang lancar dalam sistem berbasis Java, meningkatkan produktivitas di berbagai aplikasi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Meningkatkan kode Anda dapat meningkatkan kinerja:
 - Minimalkan pembuatan objek dalam loop untuk mengurangi penggunaan memori.
 - Gunakan aliran untuk memproses kumpulan data besar secara efisien.
@@ -133,15 +135,15 @@ Meningkatkan kode Anda dapat meningkatkan kinerja:
 
 Mengikuti praktik terbaik ini akan memastikan manajemen memori yang efisien saat bekerja dengan Aspose.Cells dalam proyek Java.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara membuat buku kerja, menambahkan kotak teks, menyesuaikannya, dan menyimpan pekerjaan Anda menggunakan Aspose.Cells untuk Java. Pustaka canggih ini menyederhanakan manipulasi file Excel, sehingga Anda dapat fokus pada penyajian data daripada kerumitan penanganan file.
 
 Untuk penjelajahan lebih jauh, pertimbangkan untuk mendalami fitur-fitur yang lebih canggih yang ditawarkan oleh Aspose.Cells, seperti pembuatan bagan atau perhitungan rumus yang rumit.
 
-## Bagian FAQ
+## GYIK szekció
 
 ### 1. Dapatkah saya menambahkan beberapa kotak teks dalam satu lembar kerja?
-Ya, gunakan `add` metode berulang kali dengan koordinat dan dimensi yang berbeda untuk setiap kotak teks.
+Igen, használd a `add` metode berulang kali dengan koordinat dan dimensi yang berbeda untuk setiap kotak teks.
 
 ### 2. Bagaimana cara menangani pengecualian saat menyimpan file?
 Pastikan Anda menangkap dan mengelola `IOExceptions` untuk menangani masalah akses berkas dengan baik.
@@ -150,23 +152,26 @@ Pastikan Anda menangkap dan mengelola `IOExceptions` untuk menangani masalah aks
 Aspose.Cells mendukung berbagai format Excel, termasuk versi XLS lama dan XLSX baru.
 
 ### 4. Bagaimana cara menyesuaikan perataan teks dalam kotak teks?
-Menggunakan `TextOptions` untuk menyesuaikan perataan teks dalam kotak teks Anda menggunakan metode seperti `setTextAlignment`.
+Használat `TextOptions` untuk menyesuaikan perataan teks dalam kotak teks Anda menggunakan metode seperti `setTextAlignment`.
 
 ### 5. Di mana saya dapat menemukan lebih banyak contoh untuk Aspose.Cells Java?
-Kunjungi [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) dan jelajahi forum komunitas untuk wawasan tambahan.
+Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) dan jelajahi forum komunitas untuk wawasan tambahan.
 
-## Sumber daya
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi:** [Beli Sekarang](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Memulai](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Daftar di sini](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan:** [Komunitas Aspose.Cells](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Legújabb kiadások](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása:** [Vásároljon most](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Kezdés](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Jelentkezzen itt](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum:** [Komunitas Aspose.Cells](https://forum.aspose.com/c/cells/9)
 
 Dengan panduan lengkap ini, Anda akan diperlengkapi dengan baik untuk membuat dan menyesuaikan buku kerja Excel menggunakan Aspose.Cells untuk Java. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

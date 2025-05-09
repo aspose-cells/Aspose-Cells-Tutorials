@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -137,7 +139,7 @@ workbook.save(outDir + "/GetCellObject_out.xlsx"); // 変更したワークブ�
 ```
 #### 説明
 - `save` このメソッドはすべての変更をディスクに書き戻し、将来の使用のために変更を保存します。
-## 実践応用（H2）
+## 実践的応用（H2）
 Aspose.Cells は、次のようなアプリケーションでデータ管理に革命をもたらします。
 1. **自動レポート:** Excel 操作を自動化することで、財務レポートや売上レポートの生成を効率化します。
 2. **データ分析:** 手動介入なしで大規模なデータセットを迅速に操作および分析します。
@@ -177,6 +179,9 @@ Aspose.Cells は、次のようなアプリケーションでデータ管理に�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

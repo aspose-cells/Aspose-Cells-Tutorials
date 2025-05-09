@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,15 +17,15 @@
 
 Dalam lanskap digital saat ini, manajemen sumber daya eksternal yang efisien sangat penting bagi pengembang dan bisnis. Tutorial ini berfokus pada penerapan penyedia aliran kustom menggunakan Aspose.Cells dengan Java, yang memungkinkan integrasi sumber daya eksternal yang lancar ke dalam buku kerja Excel Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur dan menggunakan Aspose.Cells untuk Java
 - Menerapkan penyedia aliran kustom di Java
 - Mengonfigurasi buku kerja Excel untuk menangani gambar tertaut
-- Aplikasi dunia nyata dari fitur ini
+- A funkció valós alkalmazásai
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru.
 - Pemahaman dasar tentang pemrograman Java dan bekerja dengan pustaka.
 - Sebuah IDE (seperti IntelliJ IDEA atau Eclipse) yang disiapkan untuk pengembangan Java.
@@ -50,20 +52,20 @@ Untuk menggunakan Aspose.Cells di proyek Java Anda, Anda dapat menginstalnya mel
 implementation('com.aspose:aspose-cells:25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells menawarkan uji coba gratis, lisensi sementara untuk evaluasi, dan opsi pembelian lengkap:
-- **Uji Coba Gratis**: Unduh perpustakaan dari [rilis](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**:Dapatkan melalui [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi tanpa batasan.
-- **Pembelian**:Untuk akses lengkap, kunjungi [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**: Töltsd le a könyvtárat innen: [kiadások](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**Szerezd meg a következőn keresztül: [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) untuk mengevaluasi tanpa batasan.
+- **Vásárlás**:Untuk akses lengkap, kunjungi [Aspose vásárlási oldal](https://purchase.aspose.com/buy).
 
 Setelah pengaturan Anda siap, mari beralih ke penerapan penyedia aliran khusus.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Menerapkan Penyedia Aliran Kustom
 
-**Ringkasan:**
+**Áttekintés:**
 Penyedia aliran kustom memungkinkan Anda mengelola sumber daya eksternal seperti gambar dalam buku kerja Excel. Bagian ini menunjukkan cara menerapkannya menggunakan Aspose.Cells untuk Java.
 
 #### Langkah 1: Tentukan Kelas StreamProvider
@@ -102,7 +104,7 @@ class SP implements IStreamProvider {
 }
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - `initStream`: Membaca file gambar ke dalam array byte dan mengaturnya di `options`.
 - `closeStream`: Tempat penampung untuk penggunaan masa mendatang, tidak diperlukan saat ini.
 
@@ -136,36 +138,36 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 }
 ```
 
-**Penjelasan:**
+**Magyarázat:**
 - Memuat berkas Excel yang berisi sumber daya eksternal.
 - Mengatur penyedia aliran kustom untuk menangani gambar tertaut dalam pengaturan buku kerja.
 - Mengonfigurasi opsi gambar dan menyajikan lembar kerja menjadi gambar.
 
-### Aplikasi Praktis
+### Gyakorlati alkalmazások
 
 Menerapkan penyedia aliran khusus dapat bermanfaat dalam beberapa skenario:
-1. **Pelaporan Otomatis**: Merampingkan manajemen sumber daya dalam laporan dinamis di mana gambar tertaut sering diperbarui.
+1. **Automatizált jelentéskészítés**: Merampingkan manajemen sumber daya dalam laporan dinamis di mana gambar tertaut sering diperbarui.
 2. **Alat Visualisasi Data**: Mengintegrasikan alat visualisasi data waktu nyata dengan Excel, memanfaatkan sumber daya eksternal untuk visual yang lebih baik.
-3. **Proyek Kolaboratif**: Memfasilitasi pembagian dokumen yang membutuhkan banyak sumber daya di antara tim dengan lebih mudah tanpa membuat ukuran file menjadi besar.
+3. **Együttműködési projektek**: Memfasilitasi pembagian dokumen yang membutuhkan banyak sumber daya di antara tim dengan lebih mudah tanpa membuat ukuran file menjadi besar.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat berhadapan dengan kumpulan data besar atau banyak sumber daya:
 - Optimalkan penggunaan memori dengan mengelola aliran secara efisien.
 - Pastikan penanganan dan penutupan aliran yang tepat untuk mencegah kebocoran memori.
 - Manfaatkan fitur bawaan Aspose.Cells untuk peningkatan kinerja, seperti opsi rendering gambar.
 
-## Kesimpulan
+## Következtetés
 
 Menerapkan penyedia aliran kustom di Aspose.Cells dengan Java dapat meningkatkan kemampuan pengelolaan sumber daya Excel Anda secara signifikan. Dengan mengikuti panduan ini, Anda telah mempelajari cara mengonfigurasi buku kerja untuk menangani sumber daya eksternal dengan lancar.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan berbagai jenis sumber daya selain gambar.
 - Jelajahi pengintegrasian teknik ini ke dalam proyek atau sistem yang lebih besar.
 
-Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan, jelajahi [Forum dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk panduan dan wawasan komunitas.
+Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan, jelajahi [Aspose támogatói fórum](https://forum.aspose.com/c/cells/9) untuk panduan dan wawasan komunitas.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Dapatkah saya menggunakan Aspose.Cells dengan framework Java lainnya?**
 Ya, Aspose.Cells kompatibel dengan berbagai kerangka kerja Java seperti Spring Boot. Pastikan dependensi proyek Anda dikonfigurasi dengan benar.
@@ -180,16 +182,19 @@ Meskipun Aspose.Cells tangguh, kinerjanya dapat bervariasi dengan jumlah sumber 
 Ya, Anda dapat memperluas pendekatan ini untuk mengelola jenis sumber daya eksternal lainnya dengan memodifikasi implementasi penyedia aliran.
 
 **Q5: Apa saja fitur lanjutan Aspose.Cells?**
-Jelajahi fitur-fitur seperti validasi data, pembuatan grafik, dan tabel pivot di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
+Jelajahi fitur-fitur seperti validasi data, pembuatan grafik, dan tabel pivot di [Az Aspose dokumentációja](https://reference.aspose.com/cells/java/).
 
-## Sumber daya
-- **Dokumentasi**:Panduan dan referensi terperinci di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/)
-- **Unduh Perpustakaan**:Dapatkan versi terbaru dari [Halaman Rilis](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi**: Amankan lisensi Anda di [Halaman Pembelian Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**:Mulai evaluasi dengan uji coba gratis
+## Erőforrás
+- **Dokumentáció**:Panduan dan referensi terperinci di [Aspose dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltési könyvtár**: Szerezd meg a legújabb verziót innen: [Kiadások oldala](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása**: Amankan lisensi Anda di [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**:Mulai evaluasi dengan uji coba gratis
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

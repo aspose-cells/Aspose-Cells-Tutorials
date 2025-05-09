@@ -1,14 +1,16 @@
 ---
-title: Określ pola formuły podczas importowania danych do arkusza programu Excel
-linktitle: Określ pola formuły podczas importowania danych do arkusza programu Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuł, korzystając z Aspose.Cells for .NET.
-weight: 11
-url: /pl/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "W tym szczegółowym samouczku dowiesz się, jak importować dane do arkuszy Excela z określonymi polami formuły za pomocą Aspose.Cells for .NET."
+"linktitle": "Określ pola formuły podczas importowania danych do arkusza programu Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Określ pola formuły podczas importowania danych do arkusza programu Excel"
+"url": "/pl/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określ pola formuły podczas importowania danych do arkusza programu Excel
@@ -21,8 +23,8 @@ Jeśli chodzi o programowe przetwarzanie plików Excel, Aspose.Cells dla .NET je
 
 Zanim zagłębisz się w kod, upewnij się, że masz wszystko, czego potrzebujesz. 
 
-1. Visual Studio lub dowolne zintegrowane środowisko programistyczne (IDE) .NET: Upewnij się, że dysponujesz odpowiednim środowiskiem IDE, aby móc pisać i uruchamiać kod w języku C#.
-2.  Aspose.Cells dla .NET: Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Możesz ją pobrać ze strony[Aspose wydaje](https://releases.aspose.com/cells/net/).
+1. Visual Studio lub dowolne zintegrowane środowisko programistyczne (IDE) .NET: Upewnij się, że dysponujesz odpowiednim środowiskiem IDE, aby pisać i uruchamiać kod w języku C#.
+2. Aspose.Cells dla .NET: Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Możesz ją pobrać ze strony [Aspose wydaje](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Znajomość języka C# i koncepcji programowania obiektowego pomoże Ci lepiej zrozumieć przykłady.
 4. .NET Framework: W tym samouczku przyjęto założenie, że używasz .NET Framework w wersji 4.5 lub nowszej.
 
@@ -50,7 +52,7 @@ Najpierw musisz ustalić, gdzie chcesz zapisać plik Excel. Oto, jak możesz to 
 static string outputDir = "Your Document Directory"; // podaj tutaj katalog swojego dokumentu
 ```
 
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką pliku. Tutaj zostanie zapisany wygenerowany plik Excel.
+Zastępować `"Your Document Directory"` rzeczywistą ścieżką pliku. Tutaj zostanie zapisany wygenerowany plik Excel.
 
 ## Krok 2: Utwórz klasę zdefiniowaną przez użytkownika dla elementów danych
 
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Ten`DataItems` Klasa będzie zawierać surowe liczby całkowite i formuły, które zapiszemy w arkuszu Excela. 
+Ten `DataItems` Klasa będzie zawierać surowe liczby całkowite i formuły, które zapiszemy w arkuszu Excela. 
 
 ## Krok 3: Zainicjuj listę do przechowywania elementów danych
 
- Użyjemy listy do przechowywania wielu wystąpień naszego`DataItems` klasa.
+Użyjemy listy do przechowywania wielu wystąpień naszego `DataItems` klasa.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -92,7 +94,7 @@ dis.Add(di);
 // Powtórz dla dodatkowych elementów danych
 ```
 
- Pamiętaj, aby dostosować każdy`DataItems` instancja z unikalnymi wartościami i formułami.
+Pamiętaj, aby dostosować każdy `DataItems` instancja z unikalnymi wartościami i formułami.
 
 ## Krok 5: Utwórz skoroszyt i uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -112,7 +114,7 @@ ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- W tym przykładzie ostatnie dwa pola zawierają formuły, co jest oznaczone symbolem`true` , podczas gdy pierwsze dwa pola są ustawione na`false`.
+W tym przykładzie ostatnie dwa pola zawierają formuły, co jest oznaczone symbolem `true`, podczas gdy pierwsze dwa pola są ustawione na `false`.
 
 ## Krok 7: Importuj obiekty niestandardowe
 
@@ -174,20 +176,22 @@ masz to! Udało Ci się zaimportować dane do arkusza Excela za pomocą Aspose.C
 Aspose.Cells to biblioteka .NET przeznaczona do programowego tworzenia, modyfikowania i konwertowania plików Excel.
 
 ### Jak zainstalować Aspose.Cells dla .NET?
- Można go pobrać ze strony[Aspose wydaje](https://releases.aspose.com/cells/net/) i odwołaj się do niego w swoim projekcie.
+Można go pobrać ze strony [Aspose wydaje](https://releases.aspose.com/cells/net/) i odwołaj się do niego w swoim projekcie.
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, Aspose oferuje bezpłatną wersję próbną dostępną pod adresem[ten link](https://releases.aspose.com/).
+Tak, Aspose oferuje bezpłatną wersję próbną dostępną pod adresem [ten link](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć więcej przykładów?
- Dodatkowe przykłady i dokumentację można znaleźć na stronie[Strona dokumentacji Aspose](https://reference.aspose.com/cells/net/).
+Dodatkowe przykłady i dokumentację można znaleźć na stronie [Strona dokumentacji Aspose](https://reference.aspose.com/cells/net/).
 
 ### Co zrobić, jeśli napotkam problemy podczas korzystania z Aspose?
- Możesz szukać pomocy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz szukać pomocy na forum pomocy technicznej Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

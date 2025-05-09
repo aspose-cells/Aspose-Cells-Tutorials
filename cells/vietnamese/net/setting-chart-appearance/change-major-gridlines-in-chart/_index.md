@@ -1,14 +1,16 @@
 ---
-title: Thay đổi các đường lưới chính trong biểu đồ
-linktitle: Thay đổi các đường lưới chính trong biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thay đổi các đường lưới chính trong biểu đồ Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết của chúng tôi.
-weight: 11
-url: /vi/net/setting-chart-appearance/change-major-gridlines-in-chart/
+"description": "Tìm hiểu cách thay đổi các đường lưới chính trong biểu đồ Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước chi tiết của chúng tôi."
+"linktitle": "Thay đổi các đường lưới chính trong biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thay đổi các đường lưới chính trong biểu đồ"
+"url": "/vi/net/setting-chart-appearance/change-major-gridlines-in-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi các đường lưới chính trong biểu đồ
@@ -22,10 +24,10 @@ Tạo biểu đồ hấp dẫn trực quan trong Excel là điều cần thiết
 Trước khi bắt đầu, bạn cần lưu ý một số điều để đảm bảo trải nghiệm mượt mà khi làm việc với Aspose.Cells:
 
 - Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là nơi bạn sẽ viết và thực thi mã của mình.
--  Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất của Aspose.Cells từ[trang web](https://releases.aspose.com/cells/net/) . Nếu bạn muốn thử nghiệm trước khi mua, bạn có thể cân nhắc đăng ký[dùng thử miễn phí](https://releases.aspose.com/).
+- Aspose.Cells cho .NET: Bạn có thể tải xuống phiên bản mới nhất của Aspose.Cells từ [trang web](https://releases.aspose.com/cells/net/). Nếu bạn muốn thử nghiệm trước khi mua, bạn có thể cân nhắc đăng ký [dùng thử miễn phí](https://releases.aspose.com/).
 - Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi các ví dụ trong hướng dẫn này.
 
-Khi bạn đã thiết lập mọi thứ, chúng ta có thể bắt đầu viết code!
+Khi bạn đã thiết lập mọi thứ, chúng ta có thể bắt đầu viết mã!
 
 ## Nhập gói
 
@@ -50,11 +52,11 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước chi tiết 
 string outputDir = "Your Output Directory"; // Cập nhật theo đường dẫn mong muốn của bạn
 ```
 
- Thay thế`"Your Output Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp của mình.
+Thay thế `"Your Output Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp của mình.
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, bạn cần tạo một phiên bản mới của`Workbook` lớp. Đối tượng này sẽ đại diện cho tệp Excel của bạn, cho phép bạn thao tác nội dung của tệp.
+Tiếp theo, bạn cần tạo một phiên bản mới của `Workbook` lớp. Đối tượng này sẽ đại diện cho tệp Excel của bạn, cho phép bạn thao tác nội dung của tệp.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
@@ -65,7 +67,7 @@ Dòng mã này khởi tạo một bảng tính mới, cung cấp một khung tr�
 
 ## Bước 3: Truy cập vào Bảng tính
 
- Sau khi tạo sổ làm việc, bạn có thể truy cập vào trang tính mặc định của nó. Các trang tính trong Aspose.Cells được lập chỉ mục, vì vậy nếu bạn muốn trang tính đầu tiên, bạn hãy tham chiếu đến trang tính đó theo chỉ mục`0`.
+Sau khi tạo sổ làm việc, bạn có thể truy cập vào trang tính mặc định của nó. Các trang tính trong Aspose.Cells được lập chỉ mục, vì vậy nếu bạn muốn trang tính đầu tiên, bạn hãy tham chiếu đến trang tính đó theo chỉ mục `0`.
 
 ```csharp
 // Lấy tham chiếu của bảng tính mới được thêm vào bằng cách chuyển chỉ mục trang tính của nó
@@ -101,7 +103,7 @@ Trong đoạn mã này, chúng ta chỉ định loại biểu đồ (trong trư�
 
 ## Bước 6: Truy cập vào Chart Instance
 
- Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua`Charts`bộ sưu tập.
+Sau khi tạo biểu đồ, chúng ta cần truy cập vào phiên bản của nó để sửa đổi các thuộc tính của nó. Điều này được thực hiện bằng cách truy xuất nó thông qua `Charts` bộ sưu tập.
 
 ```csharp
 // Truy cập vào phiên bản biểu đồ mới được thêm vào
@@ -158,7 +160,7 @@ Các lệnh này thiết lập các đường lưới chính cho trục danh m�
 
 ## Bước 10: Lưu sổ làm việc
 
-Sau khi thực hiện tất cả các sửa đổi, đã đến lúc lưu sổ làm việc. Đây là bước cuối cùng đưa nỗ lực của bạn đến thành quả.
+Sau khi thực hiện tất cả các sửa đổi, đã đến lúc lưu sổ làm việc. Đây là bước cuối cùng đưa nỗ lực của bạn thành quả.
 
 ```csharp
 // Lưu tệp Excel
@@ -187,19 +189,21 @@ Và bạn đã có nó! Bạn đã học thành công cách thay đổi các đ�
 Aspose.Cells là thư viện .NET được thiết kế để tạo, thao tác và quản lý các tệp Excel theo chương trình.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?  
- Có, bạn có thể đăng ký dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể đăng ký dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào tôi có thể thay đổi các thành phần khác trong biểu đồ bằng Aspose.Cells?  
- Bạn có thể tùy chỉnh nhiều thuộc tính biểu đồ tương tự bằng cách truy cập các thành phần biểu đồ thông qua`Chart` lớp, chẳng hạn như tiêu đề, chú thích và nhãn dữ liệu.
+Bạn có thể tùy chỉnh nhiều thuộc tính biểu đồ tương tự bằng cách truy cập các thành phần biểu đồ thông qua `Chart` lớp, chẳng hạn như tiêu đề, chú thích và nhãn dữ liệu.
 
 ### Aspose.Cells hỗ trợ những định dạng tệp nào?  
 Aspose.Cells hỗ trợ nhiều định dạng tệp, bao gồm XLSX, XLS, CSV và nhiều định dạng khác.
 
 ### Tôi có thể tìm tài liệu về Aspose.Cells ở đâu?  
- Bạn có thể tham khảo tài liệu chi tiết tại[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể tham khảo tài liệu chi tiết tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

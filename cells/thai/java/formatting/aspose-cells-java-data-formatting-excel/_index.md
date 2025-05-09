@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ Workbook workbook = new Workbook();
 ```
 สร้างใหม่ `Workbook` อินสแตนซ์ที่จะเริ่มทำงานบนไฟล์ Excel
 
-**2. การเข้าถึงแผ่นงาน**
+**2. การเข้าถึงใบงาน**
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
@@ -174,6 +176,9 @@ worksheet.getCells().getColumns().get(0).applyStyle(style, flag);
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

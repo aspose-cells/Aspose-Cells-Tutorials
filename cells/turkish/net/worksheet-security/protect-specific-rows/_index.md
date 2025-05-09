@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells'i kullanarak Çalışma Sayfasındaki Belirli Satırları Koruyun
-linktitle: Aspose.Cells'i kullanarak Çalışma Sayfasındaki Belirli Satırları Koruyun
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli satırları nasıl koruyacağınızı öğrenin. Verilerinizi etkili bir şekilde güvenceye alın.
-weight: 16
-url: /tr/net/worksheet-security/protect-specific-rows/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki belirli satırları nasıl koruyacağınızı öğrenin. Verilerinizi etkili bir şekilde güvenceye alın."
+"linktitle": "Aspose.Cells'i kullanarak Çalışma Sayfasındaki Belirli Satırları Koruyun"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells'i kullanarak Çalışma Sayfasındaki Belirli Satırları Koruyun"
+"url": "/tr/net/worksheet-security/protect-specific-rows/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells'i kullanarak Çalışma Sayfasındaki Belirli Satırları Koruyun
@@ -21,7 +23,7 @@ Uygulamaya başlamadan önce, bu eğitimi takip edebilmek için karşılamanız 
 2. C# ve .NET'in Temel Anlayışı: Bu eğitim, C#'a aşina olduğunuzu ve .NET programlama konusunda temel bilgiye sahip olduğunuzu varsayar. Bunlara aşina değilseniz, öncelikle bazı giriş kaynaklarına göz atmak isteyebilirsiniz.
 3. Visual Studio veya Herhangi Bir .NET IDE: Kodu çalıştırmak için Visual Studio gibi bir entegre geliştirme ortamına (IDE) ihtiyacınız olacak. Bu, gerekli tüm araçları ve hata ayıklama yeteneklerini sağlar.
 4. Aspose.Cells Lisansı: Değerlendirme sürümü sınırlamalarından kaçınmak istiyorsanız geçerli bir Aspose.Cells lisansına sahip olduğunuzdan emin olun. Yeni başlıyorsanız geçici bir lisans da kullanabilirsiniz.
- Aspose.Cells ve kurulumu hakkında detaylı bilgi için şuraya bakabilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/).
+Aspose.Cells ve kurulumu hakkında detaylı bilgi için şuraya bakabilirsiniz: [belgeleme](https://reference.aspose.com/cells/net/).
 ## Paketleri İçe Aktar
 Aspose.Cells'i kullanmaya başlamak için, C# projenize gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, Excel dosyalarını düzenlemek için gereken sınıflara ve yöntemlere erişmenizi sağlar.
 Gerekli ad alanlarını şu şekilde içe aktarabilirsiniz:
@@ -30,9 +32,9 @@ using System.IO;
 using Aspose.Cells;
 ```
 Bu içe aktarımlar, Aspose.Cells'in işlevselliğine erişim sağlamanız ve .NET projenizde Excel dosyalarıyla etkileşime girmenize olanak tanıması açısından önemlidir.
-Artık önkoşulları ayarladığınıza ve gerekli içe aktarımları yerleştirdiğinize göre, gerçek koda dalmanın zamanı geldi. Netliği sağlamak için süreci birkaç adıma böleceğiz.
+Artık önkoşulları ayarladığınıza ve gerekli içe aktarmaları yerleştirdiğinize göre, gerçek koda dalmanın zamanı geldi. Netliği sağlamak için süreci birkaç adıma böleceğiz.
 ## Adım 1: Proje Dizininizi Ayarlayın
-Herhangi bir programda dosyalarınızı organize etmek anahtardır. İlk olarak, çalışma kitabını depolayabileceğimiz bir dizin oluşturalım. Dizinin var olup olmadığını kontrol ederiz ve gerekirse oluştururuz.
+Herhangi bir programda dosyalarınızı organize etmek önemlidir. Öncelikle çalışma kitabını depolayabileceğimiz bir dizin oluşturalım. Dizinin var olup olmadığını kontrol edip gerekirse oluştururuz.
 ```csharp
 // Belgeler dizinine giden yolu tanımlayın.
 string dataDir = "Your Document Directory";
@@ -43,7 +45,7 @@ if (!IsExists)
 ```
 Burada, Excel dosyalarınızın depolanacağı yolu tanımlarsınız. Klasör yoksa, onu oluştururuz. Bu adım, çalışma kitabınızın kaydedilecek bir yeri olduğundan emin olmak için çok önemlidir.
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
- Daha sonra, şunu kullanarak yeni bir çalışma kitabı oluşturuyoruz:`Workbook` sınıf. Bu sınıf, Excel dosyalarıyla çalışmak için gereken tüm işlevselliği sağlar.
+Daha sonra, şunu kullanarak yeni bir çalışma kitabı oluşturuyoruz: `Workbook` sınıf. Bu sınıf, Excel dosyalarıyla çalışmak için gereken tüm işlevselliği sağlar.
 ```csharp
 // Yeni bir çalışma kitabı oluşturun.
 Workbook wb = new Workbook();
@@ -55,7 +57,7 @@ Bu noktada artık üzerinde çalışabileceğimiz yeni bir çalışma kitabımı
 // Bir çalışma sayfası nesnesi oluşturun ve ilk sayfayı elde edin.
 Worksheet sheet = wb.Worksheets[0];
 ```
- Burada,`Worksheets[0]` çalışma kitabındaki ilk çalışma sayfasını ifade eder (0'dan başlayarak indekslenir).
+Burada, `Worksheets[0]` çalışma kitabındaki ilk çalışma sayfasını ifade eder (0'dan başlayarak indekslenir).
 ## Adım 4: Tüm Sütunların Kilidini Açın
 Excel'de, sayfa korunduğunda hücreler varsayılan olarak kilitlenir. Belirli satırları korumak istiyorsanız, önce sütunların kilidini açmalısınız. Bu adımda, tüm sütunlarda döngüye gireriz ve bunların kilidini açarız.
 ```csharp
@@ -77,11 +79,11 @@ Burada, 0'dan 255'e kadar olan sütunlara (bir Excel çalışma sayfasındaki to
 ## Adım 5: İlk Satırı Kilitleyin
 Artık tüm sütunlar kilitsiz olduğuna göre, satırları korumaya geçebiliriz. Bu adımda, ilk satırı kilitliyoruz, bu da sayfa korunduğunda düzenlenemez hale getirecek.
 ```csharp
-//İlk sıra stilini al.
+// İlk sıra stilini al.
 style = sheet.Cells.Rows[0].Style;
 // Kilitle onu.
 style.IsLocked = true;
-//Bayrağı örneklendir.
+// Bayrağı örneklendir.
 flag = new StyleFlag();
 // Kilit ayarını yapın.
 flag.Locked = true;
@@ -95,7 +97,7 @@ Bu noktada, çalışma sayfasını korumaya hazırız. Bu adım, koruma ayarlar�
 // Sayfayı koruyun.
 sheet.Protect(ProtectionType.All);
 ```
- Kullanarak`ProtectionType.All`açıkça kilidi açılmış olanlar (sütunlarımız gibi) hariç tüm hücrelerin korunduğundan emin oluruz. Bu, korumayı çalışma sayfasına uygulayan adımdır.
+Kullanarak `ProtectionType.All`, açıkça kilidi açılmış olanlar (sütunlarımız gibi) hariç tüm hücrelerin korunduğundan emin oluruz. Bu, korumayı çalışma sayfasına uygulayan adımdır.
 ## Adım 7: Excel Dosyasını Kaydedin
 Son olarak, korumayı uyguladıktan sonra çalışma kitabını kaydediyoruz. Dosyayı kaydetmek istediğiniz biçimi belirtebilirsiniz. Bu örnekte, çalışma kitabını Excel 97-2003 dosyası olarak kaydediyoruz.
 ```csharp
@@ -112,14 +114,16 @@ Evet, döngüyü değiştirerek veya diğer satırlara stiller uygulayarak aynı
 ### Sayfayı koruma altına almadan önce hiçbir sütunun kilidini açmazsam ne olur?  
 Sütunların kilidini açmazsanız, sayfa korunduğunda sütunlar kilitlenir ve kullanıcılar bunlarla etkileşime giremez.
 ### Tüm sütunlar yerine belirli hücrelerin kilidini nasıl açabilirim?  
- Belirli hücrelerin kilidini, stillerine erişerek ve`IsLocked` mülk`false`.
+Belirli hücrelerin kilidini, stillerine erişerek ve `IsLocked` mülk `false`.
 ### Tüm çalışma sayfalarını korumak için bu yöntemi kullanabilir miyim?  
 Evet, tüm hücrelere koruma uygulayarak ve hiçbir hücreyi açık bırakarak çalışma sayfasının tamamını koruyabilirsiniz.
 ### Bir çalışma sayfasının korumasını nasıl kaldırabilirim?  
- Korumayı kaldırmak için çağrı merkezini arayabilirsiniz.`Unprotect`Çalışma sayfasındaki yöntemi belirtin ve koruma şifresini (eğer ayarlanmışsa) sağlayın.
+Korumayı kaldırmak için çağrı merkezini arayabilirsiniz. `Unprotect` Çalışma sayfasındaki yöntemi belirtin ve koruma şifresini (eğer ayarlanmışsa) sağlayın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

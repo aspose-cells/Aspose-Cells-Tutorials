@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ System.out.println("Tabs are now displayed, please check the output file.");
 2. **Aspose.Cells 支援哪些檔案格式？**
    - 它支援各種格式，如 XLS、XLSX、CSV 等。
 3. **我可以將 Aspose.Cells 與其他 Java 程式庫一起使用嗎？**
-   - 是的，它與資料庫連接或 Web 服務建立等任務的庫很好地整合在一起。
+   - 是的，它與資料庫連接或 Web 服務建立等任務的庫很好地整合。
 4. **如果我的應用程式拋出 `FileNotFoundException` 載入 Excel 文件時？**
    - 確保檔案路徑正確且檔案存在於指定位置。
 5. **處理大檔案時如何優化效能？**
@@ -142,10 +144,13 @@ System.out.println("Tabs are now displayed, please check the output file.");
 - [臨時執照](https://purchase.aspose.com/temporary-license/)
 - [支援](https://forum.aspose.com/c/cells/9)
 
-踏上使用 Aspose.Cells for Java 掌握 Excel 標籤操作的旅程，並完全控制您管理和呈現資料的方式！
+開始使用 Aspose.Cells for Java 掌握 Excel 標籤操作的旅程，並完全控制您管理和呈現資料的方式！
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

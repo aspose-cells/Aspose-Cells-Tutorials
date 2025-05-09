@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Επισκόπηση**Δημιουργήστε γρήγορα ένα κενό βιβλίο εργασίας του Excel για να ξεκινήσετε τον χειρισμό δεδομένων.
 
 **Βήμα προς βήμα:**
-1. **Δημιουργία βιβλίου εργασίας**: Δημιουργήστε ένα `Workbook` αντικείμενο.
+1. **Δημιουργία βιβλίου εργασίας**Δημιουργήστε ένα `Workbook` αντικείμενο.
 2. **Κατάλογος εξόδου**: Ορίστε πού θέλετε να αποθηκεύσετε το αρχείο.
 
 ```java
@@ -195,6 +197,9 @@ wb.save(outDir + "CreatingWorkbook_out.ods");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

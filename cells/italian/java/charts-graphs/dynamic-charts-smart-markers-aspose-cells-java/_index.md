@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ Per iniziare a utilizzare Aspose.Cells per Java:
 1. **Installazione**: Aggiungi la dipendenza al tuo progetto `pom.xml` (Maven) o `build.gradle` (Gradle) file come mostrato sopra.
 2. **Acquisizione della licenza**:
    - Scarica un [prova gratuita](https://releases.aspose.com/cells/java/) per funzionalità limitate.
-   - Per un accesso completo, si consiglia di acquisire una licenza temporanea tramite [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/), oppure acquistare una licenza da [Portale di acquisto di Aspose](https://purchase.aspose.com/buy).
+   - Per un accesso completo, si consiglia di acquisire una licenza temporanea tramite [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/), oppure acquista una licenza da [Portale di acquisto di Aspose](https://purchase.aspose.com/buy).
 3. **Inizializzazione di base**: 
    ```java
    import com.aspose.cells.Workbook;
@@ -218,6 +220,9 @@ Hai imparato a usare Aspose.Cells per Java per creare grafici dinamici con indic
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

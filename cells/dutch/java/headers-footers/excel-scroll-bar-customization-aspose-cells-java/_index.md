@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Stappen voor het verkrijgen van een licentie
 Aspose.Cells biedt een gratis proefperiode aan om de mogelijkheden te ontdekken. Voor langdurig gebruik kunt u een tijdelijke licentie aanschaffen of de volledige versie aanschaffen.
 
-1. **Gratis proefperiode**Download de nieuwste versie van [Aspose.Cells Java-releases](https://releases.aspose.com/cells/java/).
+1. **Gratis proefperiode**: Download de nieuwste versie van [Aspose.Cells Java-releases](https://releases.aspose.com/cells/java/).
 2. **Tijdelijke licentie**: Vraag een tijdelijke licentie aan via [Tijdelijke licentie kopen](https://purchase.aspose.com/temporary-license/).
 3. **Aankoop**: Voor volledige toegang, bezoek [Aankoop Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ Met Aspose.Cells voor Java kunt u eenvoudig de instellingen van de schuifbalk in
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

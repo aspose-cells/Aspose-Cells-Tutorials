@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Wstęp
 
-Wyodrębnianie efektów wizualnych, takich jak właściwości kolorów efektu świecenia kształtów w pliku Excel, może mieć kluczowe znaczenie dla zadań, takich jak ulepszanie wizualizacji danych lub niestandardowe raportowanie. Ten samouczek przeprowadzi Cię przez korzystanie z **Aspose.Cells dla Javy** aby osiągnąć to efektywnie.
+Wyodrębnianie efektów wizualnych, takich jak właściwości kolorów efektu świecenia kształtów w pliku Excel, może mieć kluczowe znaczenie dla zadań, takich jak ulepszanie wizualizacji danych lub niestandardowe raportowanie. Ten samouczek przeprowadzi Cię przez korzystanie z **Aspose.Cells dla Javy** aby osiągnąć to skutecznie.
 
 tym kompleksowym przewodniku pokażemy, jak odczytywać i manipulować kolorami efektu świecenia w plikach Excela przy użyciu Aspose.Cells Java, potężnej biblioteki oferującej rozbudowane funkcje automatyzacji programu Excel.
 
@@ -158,6 +160,9 @@ W celu dalszego zgłębiania tej funkcjonalności, rozważ integrację tej funkc
 Rozpocznij już dziś przygodę z automatyzacją programu Excel dzięki Aspose.Cells Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

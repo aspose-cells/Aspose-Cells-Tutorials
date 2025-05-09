@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Visão geral**: Gere rapidamente uma pasta de trabalho vazia do Excel para iniciar sua manipulação de dados.
 
 **Passo a passo:**
-1. **Instanciar pasta de trabalho**: Criar um `Workbook` objeto.
+1. **Instanciar pasta de trabalho**Criar um `Workbook` objeto.
 2. **Diretório de saída**: Defina onde você deseja salvar o arquivo.
 
 ```java
@@ -156,7 +158,7 @@ Considere integrar o Aspose.Cells com outros sistemas baseados em Java para obte
 
 Ao trabalhar com arquivos grandes do Excel, o ajuste de desempenho é crucial:
 
-- **Otimize o uso da memória**: Use práticas eficientes de gerenciamento de memória em seu aplicativo Java.
+- **Otimizar o uso da memória**: Use práticas eficientes de gerenciamento de memória em seu aplicativo Java.
 - **Processamento em lote**: Manipule operações de arquivo em lotes para reduzir a carga e melhorar a velocidade.
 - **Operações Assíncronas**: Implemente processamento assíncrono sempre que possível para E/S não bloqueantes.
 
@@ -195,6 +197,9 @@ Embarque em sua jornada com o Aspose.Cells para Java hoje mesmo e libere todo o 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

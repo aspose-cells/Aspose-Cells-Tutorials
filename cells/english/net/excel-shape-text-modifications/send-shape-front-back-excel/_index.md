@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/send-shape-front-back-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Send Shape Front or Back in Excel
@@ -119,6 +121,7 @@ Yes, you can request a temporary license [here](https://purchase.aspose.com/temp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

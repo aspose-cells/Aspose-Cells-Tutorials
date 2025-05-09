@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # กลยุทธ์การล็อคเซลล์
@@ -37,7 +39,7 @@ Workbook workbook = new Workbook("sample.xlsx");
 // เข้าถึงแผ่นงาน
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// เข้าถึงเซลล์ที่เฉพาะเจาะจง
+// เข้าถึงเซลล์ที่ต้องการ
 Cell cell = worksheet.getCells().get("A1");
 
 // ล็อคเซลล์
@@ -142,6 +144,7 @@ worksheet.protect(ProtectionType.ALL);
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

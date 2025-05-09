@@ -1,14 +1,16 @@
 ---
-title: Định dạng và Giao diện của Bảng Pivot theo Chương trình trong .NET
-linktitle: Định dạng và Giao diện của Bảng Pivot theo Chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Cải thiện bảng trục Excel của bạn với Aspose.Cells cho .NET. Học cách định dạng, tùy chỉnh và tự động hóa trình bày dữ liệu của bạn một cách dễ dàng.
-weight: 16
-url: /vi/net/creating-and-configuring-pivot-tables/formatting-and-look/
+"description": "Cải thiện bảng trục Excel của bạn với Aspose.Cells cho .NET. Học cách định dạng, tùy chỉnh và tự động hóa trình bày dữ liệu của bạn một cách dễ dàng."
+"linktitle": "Định dạng và Giao diện của Bảng Pivot theo Chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Định dạng và Giao diện của Bảng Pivot theo Chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/formatting-and-look/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Định dạng và Giao diện của Bảng Pivot theo Chương trình trong .NET
@@ -18,7 +20,7 @@ Pivot table là công cụ tuyệt vời trong Excel cho phép người dùng t�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu chuyến hành trình này, bạn cần chuẩn bị một số điều cần thiết sau:
 1. Visual Studio: Đây sẽ là môi trường chính để chúng ta viết mã và thử nghiệm.
-2.  Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện này. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng theo dõi.
 4. Tệp Excel: Bạn sẽ cần một tệp Excel hiện có chứa bảng trục. Nếu bạn không có, bạn có thể tạo một tệp đơn giản bằng Microsoft Excel.
 Sau khi thiết lập xong mọi thứ, chúng ta hãy chuyển sang nhập các gói cần thiết!
@@ -45,14 +47,14 @@ Trước tiên, chúng ta sẽ xác định đường dẫn đến tệp Excel c
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế nơi tệp Excel của bạn được lưu trữ.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn.
 ## Bước 2: Tải Workbook
- Tiếp theo, chúng ta cần tải tệp Excel hiện có của bạn. Trong bước này, chúng ta sẽ sử dụng`Workbook` lớp được cung cấp bởi Aspose.Cells.
+Tiếp theo, chúng ta cần tải tệp Excel hiện có của bạn. Trong bước này, chúng ta sẽ sử dụng `Workbook` lớp được cung cấp bởi Aspose.Cells.
 ```csharp
 // Tải một tập tin mẫu
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
- Khi bạn thay thế`"Book1.xls"` với tên tệp thực tế của bạn,`workbook` Đối tượng bây giờ sẽ chứa dữ liệu Excel.
+Khi bạn thay thế `"Book1.xls"` với tên tệp thực tế của bạn, `workbook` Đối tượng bây giờ sẽ chứa dữ liệu Excel.
 ## Bước 3: Truy cập Bảng tính và Bảng trục
 Bây giờ, chúng ta muốn lấy trang tính và bảng trục mà chúng ta sẽ làm việc:
 ```csharp
@@ -93,23 +95,25 @@ Sau khi hoàn tất việc định dạng bảng trục, đừng quên lưu các
 // Lưu tệp Excel
 workbook.Save(dataDir + "output.xls");
 ```
- Thay thế`"output.xls"` với bất kỳ tên nào bạn muốn cho tệp Excel mới được định dạng. Và voilà! Bạn đã định dạng thành công một bảng trục bằng Aspose.Cells cho .NET.
+Thay thế `"output.xls"` với bất kỳ tên nào bạn muốn cho tệp Excel mới được định dạng. Và voilà! Bạn đã định dạng thành công một bảng trục bằng Aspose.Cells cho .NET.
 ## Phần kết luận
 Tóm lại, chúng tôi đã bắt đầu hành trình định dạng bảng trục theo chương trình trong Excel bằng Aspose.Cells cho .NET. Chúng tôi bắt đầu bằng cách nhập các gói cần thiết, tải sổ làm việc Excel hiện có, tùy chỉnh các kiểu bảng trục và cuối cùng lưu đầu ra đã định dạng của chúng tôi. Bằng cách tích hợp các kỹ năng như vậy vào quy trình làm việc của bạn, bạn có thể tự động hóa các tác vụ định dạng tẻ nhạt có thể khiến bạn mất nhiều thời gian quý báu. Vậy, tại sao không thử? Hãy tự mình thử và nâng cao trò chơi Excel của bạn!
 ## Câu hỏi thường gặp
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện mạnh mẽ để thao tác các tệp Excel trong các ứng dụng .NET, cho phép hoàn thành các tác vụ tự động và theo chương trình một cách dễ dàng.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?
- Có! Bạn có thể bắt đầu dùng thử miễn phí bằng cách nhấp vào[đây](https://releases.aspose.com).
+Có! Bạn có thể bắt đầu dùng thử miễn phí bằng cách nhấp vào [đây](https://releases.aspose.com).
 ### Có những loại kiểu bảng trục nào?
- Aspose.Cells cung cấp nhiều kiểu được xác định trước, có thể truy cập thông qua`PivotTableStyleType`.
+Aspose.Cells cung cấp nhiều kiểu được xác định trước, có thể truy cập thông qua `PivotTableStyleType`.
 ### Làm thế nào để tạo bảng trục trong Excel?
 Bạn có thể tạo bảng trục trong Excel bằng cách sử dụng tab "Chèn" trên thanh công cụ và chọn "PivotTable" từ các tùy chọn.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm thấy sự trợ giúp trên diễn đàn Aspose[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự trợ giúp trên diễn đàn Aspose [đây](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

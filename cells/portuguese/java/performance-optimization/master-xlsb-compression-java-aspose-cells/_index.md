@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 No ambiente atual, baseado em dados, gerenciar grandes arquivos do Excel com eficiência é crucial tanto para empresas quanto para desenvolvedores. Seja lidando com relatórios financeiros ou conjuntos de dados extensos, otimizar o tamanho dos arquivos sem comprometer o desempenho pode ser transformador. Este guia completo o orientará no uso **Aspose.Cells para Java** para ajustar o nível de compactação de arquivos XLSB (Excel Binary Workbook), garantindo processamento mais rápido e necessidades de armazenamento reduzidas.
 
-## que você aprenderá
+## O que você aprenderá
 - Configure o Aspose.Cells no seu ambiente Java.
 - Ajuste os níveis de compactação do arquivo XLSB de LEVEL_1 a LEVEL_9.
 - Explore aplicações reais para arquivos compactados do Excel.
@@ -193,6 +195,9 @@ Pronto para experimentar? Acesse [Documentação oficial da Aspose](https://refe
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

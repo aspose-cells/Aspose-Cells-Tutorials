@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A : Chargez uniquement les feuilles de calcul nécessaires ou utilisez des API 
 UN:** Assurez-vous que les index et les positions sont correctement définis pour éviter les erreurs de calcul. Testez toujours vos configurations avec des exemples de données avant de les appliquer aux classeurs de production.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

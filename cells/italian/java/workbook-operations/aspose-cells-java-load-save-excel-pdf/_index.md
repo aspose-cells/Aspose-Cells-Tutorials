@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Nell'attuale contesto aziendale dinamico, gestire in modo efficiente le cartelle
 In questo articolo imparerai:
 - Come escludere i grafici durante il caricamento delle cartelle di lavoro.
 - Come configurare l'applicazione per salvare ogni foglio di lavoro di una cartella di lavoro come un PDF composto da una sola pagina.
-- Best practice per ottimizzare le prestazioni nelle applicazioni Java utilizzando Aspose.Cells.
+- Procedure consigliate per ottimizzare le prestazioni nelle applicazioni Java utilizzando Aspose.Cells.
 
 Prima di addentrarci nei dettagli dell'implementazione, assicuriamoci di avere tutto il necessario.
 
@@ -153,6 +155,9 @@ I prossimi passi prevedono l'esplorazione di funzionalità più avanzate di Aspo
 Inizia a implementare queste potenti funzionalità oggi stesso e potenzia le capacità di elaborazione delle tue cartelle di lavoro Excel con Aspose.Cells per Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kaskadliknande rullgardinsmenyer i Excel
 
 
-## Introduktion till kaskadliknande dropdowns i Excel
+## Introduktion till kaskadlistor i Excel
 
 kalkylbladshanteringens värld står Aspose.Cells för Java som en kraftfull verktygslåda som ger utvecklare möjlighet att arbeta effektivt med Excel-filer. En av de spännande funktionerna som erbjuds är möjligheten att skapa kaskadliknande rullgardinsmenyer i Excel, vilket gör det möjligt för användare att välja alternativ dynamiskt baserat på ett tidigare val. I den här steg-för-steg-guiden kommer vi att dyka in i processen att implementera kaskadliknande rullgardinsmenyer med Aspose.Cells för Java. Så, låt oss komma igång!
 
@@ -86,7 +88,7 @@ countrySheet.getCells().setCellObserver(new ICellObserver() {
             // Fyll i rullgardinsmenyn för städer baserat på valt land
             switch (selectedCountry) {
                 case "USA":
-                    validation.setFormula1("Cities!$A$2:$A$4"); // Befolka med städer i USA
+                    validation.setFormula1("Cities!$A$2:$A$4"); // Befolka med amerikanska städer
                     break;
                 case "Canada":
                     validation.setFormula1("Cities!$B$2:$B$4"); // Befolka med kanadensiska städer
@@ -130,6 +132,7 @@ Du kan få tillgång till omfattande dokumentation och resurser för Aspose.Cell
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

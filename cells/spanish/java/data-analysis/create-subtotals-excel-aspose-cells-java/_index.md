@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ System.out.println("Process completed successfully");
 ### Aplicaciones prácticas
 La implementación de subtotales puede ser beneficiosa en varios escenarios:
 1. **Informes financieros**:Resumir transacciones o ingresos durante períodos específicos.
-2. **Gestión de inventario**:Niveles de existencias agregados por categorías o ubicaciones.
+2. **Gestión de inventario**:Niveles de stock agregados por categorías o ubicaciones.
 3. **Análisis de ventas**:Calcular las ventas totales por región o tipo de producto.
 
 Las posibilidades de integración incluyen la combinación de Aspose.Cells con bases de datos para actualizaciones de datos dinámicas o su uso dentro de aplicaciones Java más grandes para automatizar tareas de informes financieros y comerciales.
@@ -154,6 +156,9 @@ R: Sí, admite una amplia gama de formatos de Excel, incluidos XLS y XLSX.
 Siguiendo esta guía, ya estará bien preparado para incorporar funciones de subtotales en sus aplicaciones Java usando Aspose.Cells. ¡Que disfrute programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

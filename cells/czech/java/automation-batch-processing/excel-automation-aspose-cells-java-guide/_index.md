@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ V tomto tutoriálu jste se naučili, jak využít sílu Aspose.Cells pro Javu k 
 - Vždy důkladně testujte své automatizační skripty a elegantně zpracovávejte výjimky. Ujistěte se, že vaše zdroje dat jsou spolehlivé a aktuální.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

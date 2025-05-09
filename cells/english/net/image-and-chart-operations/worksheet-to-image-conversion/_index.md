@@ -8,7 +8,9 @@ url: /net/image-and-chart-operations/worksheet-to-image-conversion/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Worksheet to Image Conversion in .NET
@@ -116,6 +118,7 @@ A temporary license can be obtained by visiting their [temporary license page](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengamankan Dokumen Excel Anda dengan Tanda Air WordArt Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 Di dunia digital saat ini, melindungi informasi sensitif dalam dokumen Anda lebih penting dari sebelumnya. Baik Anda menangani laporan rahasia atau lembar data kepemilikan, mengamankan file Excel Anda secara efektif dapat menjadi tantangan. Menambahkan tanda air—fitur yang halus namun ampuh—dapat mencegah penggunaan yang tidak sah sekaligus menjaga integritas dokumen.
 
 Tutorial ini akan memandu Anda menerapkan tanda air WordArt "RAHASIA" di Excel menggunakan Aspose.Cells untuk Java. Di akhir panduan ini, Anda akan mempelajari cara meningkatkan keamanan dokumen dengan upaya minimal. Berikut ini hal-hal yang akan Anda pelajari:
@@ -22,17 +24,17 @@ Tutorial ini akan memandu Anda menerapkan tanda air WordArt "RAHASIA" di Excel m
 - Mengunci tanda air untuk mencegah perubahan
 - Menyimpan file Excel Anda yang aman
 
-## Prasyarat
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+## Előfeltételek
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 
-### Pustaka dan Versi yang Diperlukan:
+### Szükséges könyvtárak és verziók:
 - **Aspose.Cells untuk Java** versi 25.3
 - Maven atau Gradle terinstal di sistem Anda
 
-### Persyaratan Pengaturan Lingkungan:
+### Környezeti beállítási követelmények:
 - JDK (Java Development Kit) terinstal (versi 8+ direkomendasikan)
 
-### Prasyarat Pengetahuan:
+### Előfeltételek a tudáshoz:
 - Pemahaman dasar tentang pemrograman Java
 - Keakraban dengan XML dan alat build seperti Maven/Gradle
 
@@ -55,12 +57,12 @@ Untuk menggunakan Aspose.Cells dalam proyek Java Anda, sertakan sebagai dependen
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi:
-1. **Uji Coba Gratis**: Unduh dan uji Aspose.Cells dengan lisensi sementara dari [halaman uji coba gratis](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara**:Dapatkan satu dengan mengunjungi [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk akses fitur lengkap selama evaluasi.
-3. **Pembelian**:Untuk penggunaan jangka panjang, beli langganan dari [Portal pembelian Aspose](https://purchase.aspose.com/buy).
+### Licenc megszerzésének lépései:
+1. **Ingyenes próbaverzió**: Unduh dan uji Aspose.Cells dengan lisensi sementara dari [ingyenes próbaoldal](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély**:Dapatkan satu dengan mengunjungi [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) untuk akses fitur lengkap selama evaluasi.
+3. **Vásárlás**:Untuk penggunaan jangka panjang, beli langganan dari [Portal pembelian Aspose](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar:
+### Alapvető inicializálás és beállítás:
 Setelah Anda menambahkan Aspose.Cells sebagai dependensi, inisialisasikan dalam proyek Java Anda:
 ```java
 import com.aspose.cells.Workbook;
@@ -76,19 +78,19 @@ public class Main {
 ```
 Setelah Aspose.Cells dikonfigurasi, mari lanjutkan dengan menambahkan tanda air.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Menambahkan Tanda Air WordArt
-#### Ringkasan:
+#### Áttekintés:
 Tanda air WordArt di Excel dapat secara efektif mencegah distribusi dokumen Anda yang tidak sah. Di bagian ini, kita akan mempelajari cara menambahkan dan menyesuaikan efek WordArt "RAHASIA" di lembar kerja Anda.
 
 **Langkah 1: Buat atau Muat Buku Kerja**
 ```java
-// Membuat instance objek Buku Kerja baru
+// Új Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
 Langkah ini menginisialisasi file Excel baru tempat Anda dapat mulai menambahkan konten dan tanda air.
 
-**Langkah 2: Akses Lembar Kerja Pertama**
+**2. lépés: Az első munkalap elérése**
 ```java
 Worksheet sheet = workbook.getWorksheets().get(0);
 ```
@@ -144,28 +146,28 @@ Terakhir, simpan dokumen Anda dengan tanda air yang diamankan:
 workbook.save("LkWordArtWatermark_out.xls");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 1. **Laporan Bisnis Rahasia**: Lindungi laporan keuangan yang sensitif dengan menandainya sebagai "RAHASIA" sebelum dibagikan secara internal atau kepada klien.
 2. **Lembar Data Milik**Pastikan informasi hak milik dalam dokumen R&D ditandai untuk mencegah distribusi yang tidak sah.
-3. **Dokumen Hukum**: Gunakan tanda air pada kontrak dan perjanjian untuk mencegah penyalinan yang tidak sah.
+3. **Jogi dokumentumok**: Gunakan tanda air pada kontrak dan perjanjian untuk mencegah penyalinan yang tidak sah.
 
 Mengintegrasikan fitur ini dapat meningkatkan protokol keamanan sistem manajemen data Anda dengan mulus.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Meskipun Aspose.Cells menangani file besar secara efisien, pertimbangkan kiat berikut:
 - **Optimalkan Ukuran Buku Kerja**: Hindari lembar dan bentuk yang tidak diperlukan untuk mengurangi ukuran file.
-- **Manajemen Memori**: Memanfaatkan pengumpul sampah Java dengan melepaskan sumber daya secara eksplisit saat tidak lagi diperlukan.
-- **Pemrosesan Asinkron**: Untuk pemrosesan dokumen secara batch, pertimbangkan metode asinkron untuk meningkatkan kinerja.
+- **Memóriakezelés**: Memanfaatkan pengumpul sampah Java dengan melepaskan sumber daya secara eksplisit saat tidak lagi diperlukan.
+- **Aszinkron feldolgozás**: Untuk pemrosesan dokumen secara batch, pertimbangkan metode asinkron untuk meningkatkan kinerja.
 
-## Kesimpulan
+## Következtetés
 Anda telah berhasil mempelajari cara menerapkan tanda air WordArt yang aman di Excel menggunakan Aspose.Cells untuk Java. Dengan mengintegrasikan fitur ini ke dalam alur kerja dokumen Anda, Anda dapat meningkatkan keamanan dan integritas data secara signifikan. 
 
 Langkah selanjutnya dapat mencakup penjelajahan fungsionalitas lebih canggih yang ditawarkan oleh Aspose.Cells atau menerapkan teknik serupa ke format file lain.
 
-### Ajakan Bertindak
+### Cselekvésre ösztönzés
 Cobalah menerapkan solusinya hari ini dan lihat bagaimana solusi tersebut mengubah praktik manajemen dokumen Anda!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bisakah saya menggunakan gaya teks yang berbeda untuk tanda air saya?**
    - Ya, sesuaikan gaya font, ukuran, dan efek menggunakan `MsoPresetTextEffect`.
 2. **Bagaimana cara memastikan tanda air tetap terlihat di semua lembar?**
@@ -177,15 +179,18 @@ Cobalah menerapkan solusinya hari ini dan lihat bagaimana solusi tersebut mengub
 5. **Bisakah Aspose.Cells menangani file Excel yang terenkripsi?**
    - Ya, ini mendukung pembukaan dan manipulasi buku kerja yang dilindungi dengan lisensi yang sesuai.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Lisensi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

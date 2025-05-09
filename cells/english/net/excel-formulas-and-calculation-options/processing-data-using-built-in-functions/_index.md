@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/processing-data-using-built-in-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Processing Data Using Built-In Functions in Excel
@@ -117,6 +119,7 @@ You can post your questions in the [Aspose support forum](https://forum.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

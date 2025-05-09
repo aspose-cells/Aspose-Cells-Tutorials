@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Aspose.Cells を最大限に活用するには:
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY"; // 実際のディレクトリパスに置き換えます
-Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Excel ファイルをワークブック オブジェクトに読み込む
+Workbook workbook = new Workbook(dataDir + "/source.xlsx"); // Excel ファイルを Workbook オブジェクトに読み込む
 ```
 
 ## 実装ガイド
@@ -139,7 +141,7 @@ String equationText = trendLine.getDataLabels().getText(); // トレンドライ
 ## パフォーマンスに関する考慮事項
 
 大きな Excel ファイルを扱うときは、次のヒントを考慮してください。
-- **メモリ使用量を最適化:** 使用していないときはワークブックを閉じて、リソースを解放します。
+- **メモリ使用量を最適化:** 使用していないときはワークブックを閉じてリソースを解放します。
 - **バッチ処理:** 可能であれば、チャートを一度に処理するのではなく、バッチで処理します。
 - **マルチスレッドを活用する:** 複数のワークブックを並列処理するには、Java の並行処理ユーティリティを使用します。
 
@@ -180,6 +182,9 @@ Excel の自動化を次のレベルに引き上げる準備はできました�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

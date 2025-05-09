@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/exporting-worksheet-css-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exporting Worksheet CSS Separately in Output HTML
@@ -99,9 +101,11 @@ Yes, Aspose.Cells provides various options to customize the HTML output accordin
 Absolutely! Aspose.Cells allows you to manipulate charts, images, and many other elements within a spreadsheet.
 ### Where can I find additional resources?
 Check out the [Aspose.Cells documentation](https://reference.aspose.com/cells/net/) for detailed guides and API references.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

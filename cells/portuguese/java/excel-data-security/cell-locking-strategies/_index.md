@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Estratégias de bloqueio de células
@@ -28,7 +30,7 @@ Antes de começar a trabalhar com o bloqueio de células, vamos garantir que voc
 
 ## Bloqueio básico de células
 
-A base do bloqueio de células reside na marcação de células individuais como bloqueadas ou desbloqueadas. Por padrão, todas as células em uma planilha do Excel são bloqueadas, mas isso só entra em vigor quando você protege a planilha. Aqui está um trecho de código básico para bloquear uma célula usando o Aspose.Cells para Java:
+base do bloqueio de células reside na marcação de células individuais como bloqueadas ou desbloqueadas. Por padrão, todas as células em uma planilha do Excel são bloqueadas, mas isso só entra em vigor quando você protege a planilha. Aqui está um trecho de código básico para bloquear uma célula usando o Aspose.Cells para Java:
 
 ```java
 // Carregar o arquivo Excel
@@ -53,7 +55,7 @@ Este trecho de código simples bloqueia a célula A1 na sua planilha do Excel e 
 
 ## Bloqueio de célula avançado
 
-Aspose.Cells para Java vai além do bloqueio básico de células. Você pode definir regras de bloqueio avançadas, como permitir que usuários ou funções específicas editem determinadas células e, ao mesmo tempo, restringir o acesso a outras. Esse nível de granularidade é inestimável na criação de modelos financeiros complexos ou relatórios colaborativos.
+O Aspose.Cells para Java vai além do bloqueio básico de células. Você pode definir regras de bloqueio avançadas, como permitir que usuários ou funções específicas editem determinadas células e, ao mesmo tempo, restringir o acesso a outras. Esse nível de granularidade é inestimável na criação de modelos financeiros complexos ou relatórios colaborativos.
 
 Para implementar o bloqueio avançado de células, você precisará definir permissões de usuário e aplicá-las a células ou intervalos específicos.
 
@@ -78,7 +80,7 @@ Este trecho de código demonstra como conceder permissões de edição específi
 
 ## Bloqueio condicional de células
 
-bloqueio condicional de células permite bloquear ou desbloquear células com base em condições específicas. Por exemplo, você pode querer bloquear células que contêm fórmulas e, ao mesmo tempo, permitir a entrada de dados em outras células. O Aspose.Cells para Java oferece a flexibilidade necessária para isso por meio de regras de formatação condicional.
+O bloqueio condicional de células permite bloquear ou desbloquear células com base em condições específicas. Por exemplo, você pode querer bloquear células que contêm fórmulas e, ao mesmo tempo, permitir a entrada de dados em outras células. O Aspose.Cells para Java oferece a flexibilidade necessária para isso por meio de regras de formatação condicional.
 
 ```java
 // Criar uma regra de formatação
@@ -121,7 +123,7 @@ Neste artigo, exploramos os aspectos essenciais do bloqueio de células usando o
 
 ### O que é bloqueio de célula?
 
-bloqueio de células é uma técnica usada para impedir alterações não autorizadas em células ou intervalos específicos de uma planilha do Excel. Ele aumenta a segurança e a integridade dos dados, controlando quem pode editar determinadas partes da planilha.
+O bloqueio de células é uma técnica usada para impedir alterações não autorizadas em células ou intervalos específicos de uma planilha do Excel. Ele aumenta a segurança e a integridade dos dados, controlando quem pode editar determinadas partes da planilha.
 
 ### Como protejo uma planilha inteira do Excel?
 
@@ -142,6 +144,7 @@ Para garantir a eficácia das suas estratégias de bloqueio de células, teste-a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

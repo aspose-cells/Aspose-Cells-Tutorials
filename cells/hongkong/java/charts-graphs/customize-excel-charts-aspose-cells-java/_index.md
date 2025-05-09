@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ Aspose.Cells 是一個商業庫，但您可以先免費試用以評估其功能�
 現在您的設定已完成，讓我們開始使用主題顏色自訂 Excel 圖表。
 
 ## 實施指南
-### 載入工作簿和 Access 工作表
+### 載入工作簿和存取工作表
 **概述**：第一步涉及載入現有的 Excel 檔案並存取特定的工作表來操作其內容。
 
 ```java
@@ -147,7 +149,7 @@ workbook.save(outDir + "MicrosoftTheme_out.xlsx");
 - **Java記憶體管理**：分配足夠的堆空間來處理大量 Excel 文件，尤其是在企業環境中。
 
 ## 結論
-現在您已經學習如何使用 Aspose.Cells Java 使用主題顏色自訂 Excel 圖表。這些步驟將幫助您增強資料演示的視覺吸引力並確保不同文件之間的一致性。繼續探索 Aspose.Cells 的更多功能，以進一步提升您的 Excel 自動化能力。
+現在您已經了解如何使用 Aspose.Cells Java 使用主題顏色自訂 Excel 圖表。這些步驟將幫助您增強資料演示的視覺吸引力並確保不同文件之間的一致性。繼續探索 Aspose.Cells 的更多功能，以進一步提升您的 Excel 自動化能力。
 
 後續步驟：
 - 嘗試不同的圖表類型。
@@ -181,6 +183,9 @@ A5：使用與舊版 Excel 相容的格式儲存工作簿 `workbook.saveFormat()
 如果您遇到任何問題或需要進一步的協助，請隨時聯絡支援論壇。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

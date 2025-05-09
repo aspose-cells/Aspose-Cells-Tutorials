@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 소개
 
-체크박스와 같은 동적 요소를 차트에 통합하면 Excel에서 데이터 시각화와 상호 작용성을 향상시킬 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Excel 파일에 기능을 추가하는 데 적합한 대화형 차트를 만드는 방법을 안내합니다.
+Excel에서 체크박스와 같은 동적 요소를 차트에 통합하면 데이터 시각화와 상호작용성을 향상시킬 수 있습니다. 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Excel 파일에 기능을 추가하는 데 적합한 대화형 차트를 만드는 방법을 안내합니다.
 
 **배울 내용:**
 - Java용 Aspose.Cells 설정 및 사용 방법
@@ -243,6 +245,9 @@ public class ChartWithCheckbox {
 3. **교육 도구:** 학생들이 차트에서 다양한 옵션을 선택하여 콘텐츠와 상호 작용할 수 있는 역동적인 학습 자료를 만듭니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

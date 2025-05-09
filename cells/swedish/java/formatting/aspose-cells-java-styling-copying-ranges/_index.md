@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -69,7 +71,7 @@ Cells cells = workbook.getWorksheets().get(0).getCells();
 ```
 
 **Steg 3.2: Fyll i data**
-Fyll kalkylbladet med exempeldata:
+Fyll i kalkylbladet med exempeldata:
 ```java
 for (int i = 0; i < 50; i++) {
     for (int j = 0; j < 10; j++) {
@@ -178,6 +180,9 @@ Du har lärt dig hur du skapar och formaterar områden, kopierar data och sparar
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

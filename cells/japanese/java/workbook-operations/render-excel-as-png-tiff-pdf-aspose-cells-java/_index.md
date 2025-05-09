@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
    imgOpt.setDefaultFont("Times New Roman"); // 不足している文字のデフォルトフォント
    ```
 
-2. **ワークブック全体をレンダリングする:**
+2. **ワークブック全体をレンダリングします。**
    使用 `WorkbookRender` Excel ブック全体を TIFF 画像に変換します。
 
    ```java
@@ -185,6 +187,9 @@ Aspose.Cells for Javaを使用してExcelファイルをPNG、TIFF、PDF形式�
 このガイドを読めば、Aspose.Cells for Javaを使ってExcelファイルをPNG、TIFF、PDF形式に変換できるようになります。これらの汎用的な変換テクニックを活用して、データ共有機能を強化しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

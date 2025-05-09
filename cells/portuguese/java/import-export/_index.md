@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de importação e exportação oferecem orientações abrangentes para a troca de dados entre o Excel e fontes externas usando o Aspose.Cells em Java. Esses guias práticos demonstram como importar de bancos de dados, XML, JSON e arquivos de texto, bem como exportar dados de planilhas para diversos formatos. Cada tutorial inclui exemplos completos de código Java para cenários comuns de troca de dados, ajudando você a construir integrações robustas que mantêm a integridade e a formatação dos dados durante as operações de importação/exportação.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de importação e exportação
 - Implementação passo a passo com exemplos de código completos
@@ -123,6 +125,9 @@ Aprenda a analisar dados XML com eficiência e integrá-los a planilhas do Excel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

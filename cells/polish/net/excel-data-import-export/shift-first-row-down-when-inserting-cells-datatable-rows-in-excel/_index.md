@@ -1,14 +1,16 @@
 ---
-title: Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel
-linktitle: Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji.
-weight: 11
-url: /pl/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/
+"description": "Naucz się wstawiać wiersze DataTable w programie Excel bez przesuwania pierwszego wiersza w dół za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla bezproblemowej automatyzacji."
+"linktitle": "Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel"
+"url": "/pl/net/excel-data-import-export/shift-first-row-down-when-inserting-cells-datatable-rows-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przesuń pierwszy wiersz w dół podczas wstawiania wierszy tabeli danych w programie Excel
@@ -22,10 +24,10 @@ Czy jesteś zmęczony ręcznym przesuwaniem wierszy podczas wstawiania nowych da
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest skonfigurowane:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio (wersja 2017 lub nowsza powinna działać bez problemu).
-2.  Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze tego nie zrobiłeś, możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C# i programu Excel: Podstawowa znajomość programowania w języku C# i działania programu Excel z pewnością pomoże Ci efektywniej nadążać za nauką.
 
- Będziesz także chciał mieć pod ręką przykładowy plik Excela. W tym przewodniku użyjemy przykładu o nazwie`sampleImportTableOptionsShiftFirstRowDown.xlsx`. Możesz utworzyć ten plik lub znaleźć szablon, który odpowiada Twoim potrzebom.
+Będziesz także chciał mieć pod ręką przykładowy plik Excela. W tym przewodniku użyjemy przykładu o nazwie `sampleImportTableOptionsShiftFirstRowDown.xlsx`. Możesz utworzyć ten plik lub znaleźć szablon, który odpowiada Twoim potrzebom.
 
 ## Importuj pakiety
 
@@ -52,7 +54,7 @@ Aby dodać pakiet Aspose.Cells, kliknij prawym przyciskiem myszy swój projekt w
 
 ## Krok 2: Zdefiniuj tabelę danych
 
- Następnie wdrożymy`ICellsDataTable` interfejs do tworzenia klasy, która dostarcza dane do zaimportowania. Oto jak możesz ustrukturyzować`CellsDataTable` klasa:
+Następnie wdrożymy `ICellsDataTable` interfejs do tworzenia klasy, która dostarcza dane do zaimportowania. Oto jak możesz ustrukturyzować `CellsDataTable` klasa:
 
 ```csharp
 class CellsDataTable : ICellsDataTable
@@ -73,7 +75,7 @@ Tutaj definiujemy nazwy kolumn i dane dla każdej kolumny, co ułatwi utworzenie
 
 ## Krok 3: Implementacja elementów interfejsu ICellsDataTable
 
- W ramach`CellsDataTable` klasa, musisz zaimplementować członków`ICellsDataTable` interfejs. Oto wymagana implementacja:
+W ramach `CellsDataTable` klasa, musisz zaimplementować członków `ICellsDataTable` interfejs. Oto wymagana implementacja:
 
 ```csharp
 public object this[string columnName]
@@ -118,7 +120,7 @@ Ta część klasy odpowiada za pobieranie danych, definiowanie liczby wierszy i 
 
 ## Krok 4: Napisz funkcję główną
 
- Teraz utwórzmy`Run`metoda orkiestracji całego procesu importowania tabeli:
+Teraz utwórzmy `Run` metoda orkiestracji całego procesu importowania tabeli:
 
 ```csharp
 public static void Run()
@@ -133,7 +135,7 @@ public static void Run()
 
 ## Krok 5: Ustaw opcje importu
 
- Aby kontrolować zachowanie importu, należy utworzyć wystąpienie`ImportTableOptions` i odpowiednio ustawić właściwości. Konkretnie chcemy ustawić`ShiftFirstRowDown` Do`false`.
+Aby kontrolować zachowanie importu, należy utworzyć wystąpienie `ImportTableOptions` i odpowiednio ustaw właściwości. Konkretnie chcemy ustawić `ShiftFirstRowDown` Do `false`.
 
 ```csharp
     ImportTableOptions opts = new ImportTableOptions();
@@ -142,7 +144,7 @@ public static void Run()
 
 ## Krok 6: Importowanie tabeli danych
 
- Teraz możemy zaimportować dane z naszego`CellsDataTable` do arkusza kalkulacyjnego.
+Teraz możemy zaimportować dane z naszego `CellsDataTable` do arkusza kalkulacyjnego.
 
 ```csharp
     ws.Cells.ImportData(cellsDataTable, 2, 2, opts);
@@ -179,10 +181,12 @@ Oczywiście! Aspose.Cells jest idealny dla aplikacji desktopowych, internetowych
 Możesz tworzyć różnorodne formaty plików Excel, w tym XLSX, XLS, CSV i inne.
 
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Możesz zadać pytania lub znaleźć pomoc w[Fora Aspose](https://forum.aspose.com/c/cells/9).
+Możesz zadać pytania lub znaleźć pomoc w [Fora Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

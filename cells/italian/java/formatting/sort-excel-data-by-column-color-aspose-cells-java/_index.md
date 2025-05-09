@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### Fasi di acquisizione della licenza
-Ottieni una licenza temporanea gratuita per valutare Aspose.Cells senza limitazioni visitando il sito [Sito web di Aspose](https://purchase.aspose.com/temporary-license/) per richiederlo.
+Ottieni una licenza temporanea gratuita per valutare Aspose.Cells senza limitazioni visitando il [Sito web di Aspose](https://purchase.aspose.com/temporary-license/) per richiederlo.
 
 #### Inizializzazione e configurazione di base
 Una volta incluso nel progetto, inizializza Aspose.Cells come segue:
@@ -102,7 +104,7 @@ DataSorter sorter = workbook.getDataSorter();
 ```
 
 ### Aggiungi chiave per l'ordinamento per colore
-**Panoramica:** Definisci come devono essere ordinati i tuoi dati. In questo esempio, ordineremo la Colonna B in ordine decrescente in base al colore di sfondo rosso delle celle.
+**Panoramica:** Definisci come devono essere ordinati i dati. In questo esempio, ordineremo la colonna B in ordine decrescente in base al colore di sfondo rosso delle celle.
 
 ```java
 // Aggiungi la chiave per la colonna B, ordinala in ordine decrescente con il colore di sfondo rosso
@@ -176,6 +178,9 @@ Pronti a migliorare le vostre capacità di elaborazione Excel? Provate questa so
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

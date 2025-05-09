@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Szeretné automatizálni Excel-dokumentumai XPS formátumba konvertálását? Ak
 
 ## Előfeltételek
 
-Kezdés előtt győződjön meg arról, hogy a következők a helyén vannak:
+Mielőtt elkezdené, győződjön meg róla, hogy a következők a helyén vannak:
 
 1. **Java fejlesztőkészlet (JDK):** 8-as vagy újabb verzió telepítve a rendszerére.
 2. **Aspose.Cells könyvtár:** Elérhető Maven vagy Gradle segítségével.
@@ -128,7 +130,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY" + "/ConvertingToXPS_out.xps", SaveFormat.X
 Az optimális teljesítmény biztosítása érdekében:
 
 - **Memóriahasználat kezelése:** Használd `Workbook.dispose()` műveletek után az erőforrások felszabadítása érdekében.
-- **Képbeállítások optimalizálása:** Beállítás `ImageOrPrintOptions` minőség és a fájlméret közötti egyensúly érdekében.
+- **Képbeállítások optimalizálása:** Beállítás `ImageOrPrintOptions` a minőség és a fájlméret közötti egyensúly érdekében.
 - **Kötegelt feldolgozás:** Több fájl kötegelt kezelése a terhelés csökkentése érdekében.
 
 ## Következtetés
@@ -162,7 +164,7 @@ Most már megtanultad, hogyan konvertálhatsz Excel fájlokat XPS formátumba az
 ## Erőforrás
 
 - **Dokumentáció:** [Aspose.Cells Java-hoz](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Kiadások](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon most](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Kezdés](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Kérelem itt](https://purchase.aspose.com/temporary-license/)
@@ -171,6 +173,9 @@ Most már megtanultad, hogyan konvertálhatsz Excel fájlokat XPS formátumba az
 Böngészd át ezeket az anyagokat, hogy bővítsd az Aspose.Cells for Java ismereteidet és képességeidet. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

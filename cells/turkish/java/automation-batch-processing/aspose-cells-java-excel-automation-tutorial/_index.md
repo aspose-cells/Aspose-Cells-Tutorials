@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -74,7 +76,7 @@ class Initialization {
 Öncelikle yeni bir Excel çalışma kitabı oluşturun ve ilk çalışma sayfasına erişin; bu, sonraki işlemler için temel oluşturur.
 
 #### Adım Adım Uygulama:
-**Gerekli Sınıfları İthal Edin:**
+**Gerekli Sınıfları İçeri Aktarın:**
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -122,7 +124,7 @@ style.setShrinkToFit(true);
 Stilleri etkili bir şekilde uygulamak, stillerin nasıl uygulanacağını anlamayı gerektirir. `StyleFlag` çalışır. Bu bölüm, özel bir stilin tüm bir satıra uygulanmasını gösterir.
 
 #### Adım Adım Uygulama:
-**Gerekli Sınıfları İthal Edin:**
+**Gerekli Sınıfları İçeri Aktarın:**
 ```java
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
@@ -167,7 +169,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/FormattedRow_out.xls");
 ## Pratik Uygulamalar
 Java için Aspose.Cells çok yönlüdür. İşte parladığı bazı gerçek dünya senaryoları:
 1. **Finansal Raporlama**: Finansal raporların anlaşılır olması için stil ve format oluşturun.
-2. **Veri Analizi Panoları**: Biçimlendirilmiş veri ızgaraları içeren gösterge panelleri oluşturun.
+2. **Veri Analizi Panoları**: Biçimlendirilmiş veri ızgaraları içeren panolar oluşturun.
 3. **Stok Yönetim Sistemleri**:Envanter listelerinizi özel stillerle geliştirin.
 Aspose.Cells'in API'si kullanılarak diğer sistemlerle entegrasyon kolaylaştırılabiliyor ve bu da onu kurumsal ortamlarda güçlü bir araç haline getiriyor.
 
@@ -204,6 +206,9 @@ Bu kılavuzu takip ederek, Java uygulamalarınızı Excel işlevleriyle gelişti
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

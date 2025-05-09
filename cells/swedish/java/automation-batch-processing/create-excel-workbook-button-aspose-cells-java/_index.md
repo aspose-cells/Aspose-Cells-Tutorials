@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ För att effektivt använda Aspose.Cells för Java, uppfyll följande krav:
 
 - **Obligatoriska bibliotek:** Du behöver Aspose.Cells för Java. Den senaste stabila versionen i skrivande stund är 25.3.
 - **Miljöinställningar:** Den här handledningen förutsätter att du är van vid Maven eller Gradle för beroendehantering och en grundläggande installation av din Java-utvecklingsmiljö (JDK, IDE som IntelliJ IDEA eller Eclipse).
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och arbete med externa bibliotek.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och arbete med externa bibliotek.
 
 ## Konfigurera Aspose.Cells för Java
 Att integrera Aspose.Cells i ditt Java-projekt är enkelt. Lägg till det som ett beroende med hjälp av Maven eller Gradle:
@@ -171,6 +173,9 @@ Du har nu lärt dig hur man skapar en arbetsbok med en knapp med hjälp av Aspos
 Utforska gärna dessa resurser för ytterligare stöd och information om hur du använder Aspose.Cells effektivt i dina Java-projekt!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

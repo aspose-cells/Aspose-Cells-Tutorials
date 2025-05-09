@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ Al aprovechar las opciones de carga personalizadas de Aspose.Cells, puede gestio
 Explore funciones más avanzadas de Aspose.Cells o intégrelo en sus proyectos para obtener capacidades mejoradas de procesamiento de datos.
 
 ## Sección de preguntas frecuentes
-1. **¿Cómo funciona? `LightCellsDataHandler` ¿mejorar el rendimiento?**
+1. **¿Cómo funciona? `LightCellsDataHandler` ¿Mejorar el rendimiento?**
    - Permite una lógica de visitas de celdas personalizada, lo que reduce el uso de memoria durante el procesamiento de grandes conjuntos de datos.
 2. **¿Puedo utilizar Aspose.Cells en un proyecto comercial?**
    - Sí, después de comprar la licencia correspondiente.
@@ -135,6 +137,9 @@ Explore funciones más avanzadas de Aspose.Cells o intégrelo en sus proyectos p
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

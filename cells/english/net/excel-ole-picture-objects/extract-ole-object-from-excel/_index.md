@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/extract-ole-object-from-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract OLE Object from Excel
@@ -122,6 +124,7 @@ You can get support for Aspose.Cells on their [support forum](https://forum.aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-page-order/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Page Order
@@ -131,6 +133,7 @@ You can explore more examples and functionalities in the [Aspose.Cells Documenta
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

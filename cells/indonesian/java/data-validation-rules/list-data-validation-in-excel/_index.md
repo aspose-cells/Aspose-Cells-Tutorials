@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi Data Daftar di Excel
@@ -52,7 +54,7 @@ Sebelum Anda dapat mulai menggunakan Aspose.Cells untuk Java, Anda perlu menyiap
 
 ### Langkah 2: Buat Buku Kerja Excel Baru
 
-Untuk memulai, buat buku kerja Excel baru menggunakan Aspose.Cells untuk Java. Anda dapat melakukannya dengan membuat instance `Workbook` obyek:
+Untuk memulai, buat buku kerja Excel baru menggunakan Aspose.Cells untuk Java. Anda dapat melakukannya dengan membuat instance `Workbook` objektum:
 
 ```java
 Workbook workbook = new Workbook();
@@ -101,7 +103,7 @@ cell.setValidationType(ValidationType.LIST);
 cell.addValidation(validation);
 ```
 
-### Langkah 6: Simpan File Excel
+### 6. lépés: Mentse el az Excel-fájlt
 
 Terakhir, simpan file Excel dengan aturan validasi data yang diterapkan:
 
@@ -109,11 +111,11 @@ Terakhir, simpan file Excel dengan aturan validasi data yang diterapkan:
 workbook.save("validated_data.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Validasi data merupakan aspek mendasar dari manajemen lembar kerja Excel, yang memastikan keakuratan dan keandalan data. Aspose.Cells untuk Java menyederhanakan proses penerapan validasi data, yang memungkinkan pengembang membuat file Excel dengan data terstruktur dan tervalidasi dengan mudah.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
@@ -138,6 +140,7 @@ Ya, Anda dapat menyesuaikan pesan kesalahan yang ditampilkan saat pengguna memas
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

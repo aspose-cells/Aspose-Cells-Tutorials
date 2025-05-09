@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,12 +24,12 @@ Ebben az oktatóanyagban bemutatjuk, hogyan tölthet be egy Excel-munkafüzetet,
 **Amit tanulni fogsz:**
 - Excel munkafüzet betöltése az Aspose.Cells for Java programmal
 - VBA modulok elérése és módosítása a munkafüzetben
-- A módosítások visszamentése a fájlrendszerbe
+- A módosítások mentése vissza a fájlrendszerbe
 
 Kezdjük a környezeted kialakításával!
 
 ## Előfeltételek (H2)
-Mielőtt belemerülnél a kódba, győződj meg róla, hogy minden szükséges dolog megvan:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden szükséges dolog megvan:
 
 ### Szükséges könyvtárak, verziók és függőségek
 Szükséged lesz az Aspose.Cells for Java könyvtárra. Ez az útmutató a 25.3-as verziót használja.
@@ -143,7 +145,7 @@ workbook.save(outDir + "/MVBAorMacroCode_out.xlsm");
 Íme néhány valós forgatókönyv, ahol a VBA-kód programozott módosítása előnyös lehet:
 1. **Adattisztítás és automatizálás**Makrók automatikus frissítése az adatellenőrzéshez több munkafüzetben.
 2. **Egyéni jelentéskészítő eszközök**Az Excel-fájlokba ágyazott jelentéskészítő szkriptek testreszabása a frissített üzleti logika tükrözése érdekében.
-3. **Sablon személyre szabása**: Dinamikus tartalmú standard sablonok módosítása a terjesztés előtt.
+3. **Sablon személyre szabása**: Dinamikus tartalommal rendelkező szabványos sablonok módosítása a terjesztés előtt.
 
 ## Teljesítményszempontok (H2)
 ### Tippek a teljesítmény optimalizálásához
@@ -186,6 +188,9 @@ Megvizsgáltuk, hogyan használható az Aspose.Cells for Java VBA-kód betölté
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

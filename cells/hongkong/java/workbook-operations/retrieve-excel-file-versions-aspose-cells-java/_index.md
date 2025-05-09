@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "了解如何使用 Aspose.Cells for Java 以程式設計方式擷取 Excel 檔案版本。本指南涵蓋從設定到實施的所有步驟，確保跨不同 Excel 格式的相容性。"
-"title": "如何使用 Aspose.Cells for Java 擷取 Excel 檔案版本&#58;開發者指南"
+"title": "如何使用 Aspose.Cells for Java&#58; 擷取 Excel 檔案版本開發者指南"
 "url": "/zh-hant/java/workbook-operations/retrieve-excel-file-versions-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,7 +203,7 @@ public class ExcelVersionDemo {
 ## 性能考慮
 
 為了在使用 Aspose.Cells for Java 時優化效能：
-- **資源管理：** 確保妥善處置 `Workbook` 對象釋放資源。
+- **資源管理：** 確保妥善處置 `Workbook` 對像以釋放資源。
 - **記憶體使用情況：** 監控和管理記憶體使用情況，尤其是在處理大型 Excel 檔案時。
 - **批次：** 如果處理大量文檔，則分批處理文件。
 
@@ -225,6 +227,9 @@ public class ExcelVersionDemo {
    - 注意不同版本的檔案格式規格的差異，例如處理 VBA 專案或巨集。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

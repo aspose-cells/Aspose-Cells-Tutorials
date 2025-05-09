@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Att komma åt specifika Excel-celler med deras namn snarare än numeriska index 
 
 ### Vad du kommer att lära dig
 - Konfigurera och initiera Aspose.Cells för Java i ditt projekt
-- Åtkomst till celler efter deras namn med hjälp av Aspose.Cells
+- Åtkomst till celler efter deras namn med Aspose.Cells
 - Verkliga tillämpningar och praktiska användningsfall
 - Prestandaöverväganden och bästa praxis
 
@@ -30,11 +32,11 @@ Låt oss dyka in i de förutsättningar du behöver för att komma igång med de
 Innan vi börjar, se till att du har:
 - **Obligatoriska bibliotek:** Aspose.Cells för Java-biblioteket. Använd Maven eller Gradle för beroendehantering.
 - **Krav för miljöinstallation:** Grundläggande förståelse för Java och förtrogenhet med din IDE (t.ex. IntelliJ IDEA eller Eclipse).
-- **Kunskapsförkunskaper:** Bekantskap med Excel-filstrukturer och erfarenhet av att arbeta med bibliotek i Java-projekt.
+- **Kunskapsförkunskapskrav:** Bekantskap med Excel-filstrukturer och erfarenhet av att arbeta med bibliotek i Java-projekt.
 
 ## Konfigurera Aspose.Cells för Java
 
-För att använda Aspose.Cells, inkludera det i ditt projekt. Så här lägger du till biblioteket med Maven eller Gradle:
+För att använda Aspose.Cells, inkludera det i ditt projekt. Så här lägger du till biblioteket med hjälp av Maven eller Gradle:
 
 ### Maven
 Lägg till följande beroende till din `pom.xml` fil:
@@ -149,6 +151,9 @@ Utforska ytterligare funktioner i Aspose.Cells, som att skapa diagram eller auto
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

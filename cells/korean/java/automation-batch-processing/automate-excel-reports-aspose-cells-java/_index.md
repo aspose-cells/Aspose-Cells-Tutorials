@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: 열의 셀을 반복하고, 셀 내용에 필요한 최대 너비를 결정�
 이러한 리소스를 활용하면 기술을 더욱 향상시키고 더욱 복잡한 Excel 자동화 작업을 구현하는 데 큰 도움이 될 것입니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
    ```java
    com.aspose.cells.Cells cells = worksheet.getCells();
    ```
-2. **ตั้งค่าค่าเซลล์**
+2. **ตั้งค่าเซลล์**
    เข้าถึงเซลล์ที่ต้องการตามชื่อหรือดัชนีและตั้งค่า:
    ```java
    com.aspose.cells.Cell cell = cells.get("A1");
@@ -142,6 +144,9 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 - [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

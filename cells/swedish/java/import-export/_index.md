@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Lär dig hur du importerar arrayer till Excel med Aspose.Cells för Java. Den h�
 Lär dig hur du effektivt importerar JSON-data till Excel med Aspose.Cells för Java. Följ den här steg-för-steg-guiden för att effektivisera din datatransformationsprocess.
 
 ### [Importera JSON effektivt till Excel med Aspose.Cells för Java: En omfattande guide](./import-json-to-excel-aspose-cells-java/)
-Lär dig hur du importerar JSON-data till Excel effektivt med Aspose.Cells för Java. Den här guiden täcker konfiguration, parsning och export av data sömlöst.
+Lär dig hur du importerar JSON-data till Excel effektivt med Aspose.Cells för Java. Den här guiden täcker installation, parsning och export av data sömlöst.
 
 ### [Importera MS Access-data till Excel med Aspose.Cells för Java: En omfattande guide](./import-ms-access-data-to-excel-aspose-cells-java/)
 Lär dig hur du sömlöst importerar data från Microsoft Access-databaser till Excel-arbetsböcker med Aspose.Cells för Java. Effektivisera ditt arbetsflöde med vår steg-för-steg-guide.
@@ -123,6 +125,9 @@ Lär dig hur du effektivt analyserar XML-data och integrerar dem i Excel-arbetsb
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Innan du börjar, se till att du har:
 2. **Krav för miljöinstallation:** 
    - Ett Java Development Kit (JDK) installerat på din dator
    - En IDE som IntelliJ IDEA eller Eclipse
-3. **Kunskapsförkunskaper:**
+3. **Kunskapsförkunskapskrav:**
    - Grundläggande förståelse för Java-programmering
    - Bekantskap med Maven eller Gradle för beroendehantering
 
@@ -134,6 +136,9 @@ Genom att följa den här guiden har du lärt dig hur du inaktiverar kompatibili
 - [Forum för samhällsstöd](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

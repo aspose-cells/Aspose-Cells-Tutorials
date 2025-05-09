@@ -6,8 +6,11 @@ description: Learn how to add borders to a range in an Excel file using Aspose.C
 keywords: [Aspose.Cells for .NET, Excel borders, add borders to range, C# Excel formatting, apply border Excel C#, Excel range border, .NET Excel library]
 url: /net/formatting/adding-borders-to-range/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Borders to a Range in Excel using Aspose.Cells
@@ -15,9 +18,11 @@ url: /net/formatting/adding-borders-to-range/
 Aspose.Cells for .NET is a powerful library that enables developers to create, manipulate, and format Excel files programmatically. In this example, we demonstrate how to add borders to a specific range of cells within an Excel workbook using C#. You will learn how to create a workbook, access a worksheet, define a range, and apply thick borders in different directions. This tutorial provides a practical approach to Excel formatting, making it easy to enhance the visual structure of your spreadsheets.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/adding-borders-to-range" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions:  
 To use Aspose.Cells for .NET, follow these installation steps:  
@@ -48,7 +53,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

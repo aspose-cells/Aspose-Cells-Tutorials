@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Utforska ytterligare funktioner i Aspose.Cells, såsom diagramkonvertering eller
 Den här handledningen fungerar som en omfattande guide till att konvertera Excel-filer till HTML med Aspose.Cells för Java, vilket säkerställer tydlighet och funktionalitet i dina webbpresentationer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

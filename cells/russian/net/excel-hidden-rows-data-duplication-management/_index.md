@@ -1,14 +1,16 @@
 ---
-title: Скрытые строки Excel и управление дублированием данных
-linktitle: Скрытые строки Excel и управление дублированием данных
-second_title: API обработки Excel Aspose.Cells .NET
-description: Раскройте потенциал Excel с помощью учебных пособий Aspose.Cells для .NET, которые помогут вам легко управлять скрытыми строками и дублировать данные.
-weight: 42
-url: /ru/net/excel-hidden-rows-data-duplication-management/
+"description": "Раскройте потенциал Excel с помощью учебных пособий Aspose.Cells для .NET, которые помогут вам легко управлять скрытыми строками и дублировать данные."
+"linktitle": "Скрытые строки Excel и управление дублированием данных"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Скрытые строки Excel и управление дублированием данных"
+"url": "/ru/net/excel-hidden-rows-data-duplication-management/"
+"weight": 42
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Скрытые строки Excel и управление дублированием данных
@@ -34,9 +36,11 @@ url: /ru/net/excel-hidden-rows-data-duplication-management/
 Узнайте, как получить скрытые индексы строк после обновления Автофильтра в Excel с помощью Aspose.Cells для .NET. Упростите управление данными.
 ### [Автоматически переименовывать повторяющиеся столбцы при экспорте данных Excel](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
 Автоматически переименовывайте дубликаты столбцов в Excel с помощью Aspose.Cells для .NET! Следуйте нашему пошаговому руководству, чтобы упростить экспорт данных.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

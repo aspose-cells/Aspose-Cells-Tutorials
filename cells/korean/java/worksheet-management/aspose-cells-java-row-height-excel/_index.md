@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ workbook.save(outDir + "SettingHeightOfRow_out.xls");
 
 ## FAQ 섹션
 
-1. **Java용 Aspose.Cells를 설치하는 가장 좋은 방법은 무엇입니까?**
+1. **Java에 Aspose.Cells를 설치하는 가장 좋은 방법은 무엇입니까?**
    - 빌드 프로세스에 원활하게 통합하려면 Maven이나 Gradle 종속성을 사용하세요.
 
 2. **콘텐츠에 따라 행 높이를 동적으로 설정할 수 있나요?**
@@ -189,6 +191,9 @@ workbook.save(outDir + "SettingHeightOfRow_out.xls");
 - **지원 포럼**: 토론에 참여하고 질문을 하세요. [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Nu kör vi! Se till att du har uppfyllt alla nödvändiga förkunskaper innan vi
 
 ## Förkunskapskrav
 
-Innan du implementerar Aspose.Cells Java-bibliotek för att ställa in ODS-grafikbakgrunder, se till att du har:
+Innan du implementerar Java-biblioteket Aspose.Cells för att ställa in ODS-grafikbakgrunder, se till att du har:
 
 ### Obligatoriska bibliotek
 - **Aspose.Cells för Java** (version 25.3)
@@ -192,6 +194,9 @@ A5: Den kostnadsfria provperioden inkluderar utvärderingsvattenstämplar och an
 Börja skapa visuellt fantastiska ODS-filer med Aspose.Cells idag!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

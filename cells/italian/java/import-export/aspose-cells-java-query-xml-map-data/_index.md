@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Padroneggiando la libreria Aspose.Cells per l'interrogazione di dati di mappe XM
 Seguendo questo tutorial, sarai pronto a sfruttare la potenza di Aspose.Cells per Java per interrogare i dati di mappe XML all'interno di file Excel. Buon lavoro!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

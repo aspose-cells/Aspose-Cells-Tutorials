@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ A5: Tak, Aspose.Cells można bezproblemowo zintegrować z różnymi frameworkami
 Zapoznaj się z tymi zasobami, aby pogłębić swoją wiedzę i w pełni wykorzystać potencjał Aspose.Cells for Java w swoich projektach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

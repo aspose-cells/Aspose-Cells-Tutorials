@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 평가 제한 없이 Aspose.Cells를 사용하려면 다음을 수행하세요.
 - **무료 체험**: 평가판 라이센스를 다운로드하세요 [Aspose 웹사이트](https://releases.aspose.com/cells/java/).
-- **임시 면허**임시 면허를 요청하세요 [Aspose 임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
+- **임시 면허**: 임시 면허를 요청하세요 [Aspose 임시 라이센스 페이지](https://purchase.aspose.com/temporary-license/).
 - **구입**: 상업적 사용을 위한 전체 라이센스를 받으세요. [구매 페이지](https://purchase.aspose.com/buy).
 
 ### 기본 초기화
@@ -209,6 +211,9 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면 다음 팁을 고려�
 Aspose.Cells for Java를 사용하여 Excel 파일 조작을 마스터하는 여정을 시작하고 오늘부터 데이터 프레젠테이션을 향상시켜 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

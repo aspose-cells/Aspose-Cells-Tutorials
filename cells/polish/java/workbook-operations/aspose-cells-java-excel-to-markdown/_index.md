@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ A: Tak, obsługuje szeroki zakres formatów, takich jak PDF, CSV i HTML. Sprawd�
 - **Zakup i wsparcie:** W przypadku pytań dotyczących zakupów i pomocy technicznej odwiedź stronę [Zakup Aspose](https://purchase.aspose.com/buy) I [Forum Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

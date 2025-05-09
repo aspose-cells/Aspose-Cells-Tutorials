@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/refresh-ole-object-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Refresh OLE Object in Excel
@@ -78,6 +80,7 @@ The Aspose support forum is an excellent resource for any questions or troublesh
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

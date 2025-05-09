@@ -1,17 +1,19 @@
 ---
-title: Chỉ định tác giả trong khi ghi bảo vệ sổ làm việc Excel
-linktitle: Chỉ định tác giả trong khi ghi bảo vệ sổ làm việc Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách bảo vệ sổ làm việc Excel của bạn trong khi chỉ định tác giả bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này.
-weight: 30
-url: /vi/net/excel-security/specify-author-while-write-protecting-excel-workbook/
+"description": "Tìm hiểu cách bảo vệ sổ làm việc Excel của bạn trong khi chỉ định tác giả bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này."
+"linktitle": "Chỉ định tác giả trong khi viết bảo vệ sổ làm việc Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Chỉ định tác giả trong khi viết bảo vệ sổ làm việc Excel"
+"url": "/vi/net/excel-security/specify-author-while-write-protecting-excel-workbook/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Chỉ định tác giả trong khi ghi bảo vệ sổ làm việc Excel
+# Chỉ định tác giả trong khi viết bảo vệ sổ làm việc Excel
 
 ## Giới thiệu
 
@@ -23,7 +25,7 @@ Trước khi đi sâu vào chi tiết thực hiện, điều cần thiết là p
 
 1. Visual Studio: Bạn cần cài đặt Visual Studio đang hoạt động. Đây là nơi bạn sẽ viết và biên dịch mã .NET của mình.
 2. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework. Aspose.Cells hỗ trợ nhiều phiên bản khác nhau, vì vậy hãy chọn phiên bản phù hợp với ứng dụng của bạn.
-3.  Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể lấy nó từ[trang tải xuống chính thức](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Bạn cần có thư viện Aspose.Cells. Bạn có thể lấy nó từ [trang tải xuống chính thức](https://releases.aspose.com/cells/net/).
 4. Hiểu biết cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn dễ dàng thực hiện quá trình viết mã.
 
 ## Nhập gói
@@ -51,7 +53,7 @@ string sourceDir = "YOUR SOURCE DIRECTORY";
 string outputDir = "YOUR OUTPUT DIRECTORY";
 ```
 
- Hãy chắc chắn thay thế`"YOUR SOURCE DIRECTORY"` Và`"YOUR OUTPUT DIRECTORY"` với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu chế tác kiệt tác của mình!
+Hãy chắc chắn thay thế `"YOUR SOURCE DIRECTORY"` Và `"YOUR OUTPUT DIRECTORY"` với các đường dẫn thực tế trên máy của bạn. Hãy nghĩ về điều này như việc tạo ra một không gian làm việc gọn gàng trước khi bạn bắt đầu tạo ra kiệt tác của mình!
 
 ## Bước 2: Tạo một Workbook trống
 
@@ -69,11 +71,11 @@ Giống như một nghệ sĩ bắt đầu với một tấm vải trắng, bạ
 Bảo vệ ghi là một khía cạnh quan trọng, đặc biệt nếu bạn muốn đảm bảo tính toàn vẹn của dữ liệu vẫn còn nguyên vẹn. Bạn có thể làm điều đó bằng mật khẩu.
 
 ```csharp
-//Viết bảo vệ sổ làm việc bằng mật khẩu.
+// Viết bảo vệ sổ làm việc bằng mật khẩu.
 wb.Settings.WriteProtection.Password = "YOUR_PASSWORD";
 ```
 
- Trong dòng này, thay thế`"YOUR_PASSWORD"` với mật khẩu mạnh do bạn chọn. Mật khẩu này hoạt động giống như một cánh cửa bị khóa—chỉ những người có chìa khóa (mật khẩu) mới có thể vào.
+Trong dòng này, thay thế `"YOUR_PASSWORD"` với mật khẩu mạnh do bạn chọn. Mật khẩu này hoạt động như một cánh cửa bị khóa—chỉ những người có chìa khóa (mật khẩu) mới có thể vào.
 
 ## Bước 4: Chỉ định tác giả
 
@@ -84,7 +86,7 @@ Bây giờ chúng ta sẽ chỉ định tác giả của sổ làm việc. Đi�
 wb.Settings.WriteProtection.Author = "YOUR_AUTHOR";
 ```
 
- Hãy chắc chắn thay thế`"YOUR_AUTHOR"` với tên bạn muốn liên kết với tài liệu. Hãy nghĩ về điều này như việc ký tên vào tác phẩm nghệ thuật của bạn—nó cho mọi người biết ai là người cần cảm ơn vì tác phẩm này!
+Hãy chắc chắn thay thế `"YOUR_AUTHOR"` với tên bạn muốn liên kết với tài liệu. Hãy nghĩ về điều này như việc ký tên vào tác phẩm nghệ thuật của bạn—nó cho mọi người biết ai là người cần cảm ơn vì tác phẩm này!
 
 ## Bước 5: Lưu sổ làm việc
 
@@ -95,7 +97,7 @@ Bước cuối cùng là lưu sổ làm việc theo định dạng mong muốn. 
 wb.Save(outputDir + "outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx");
 ```
 
- Tại đây, tệp đầu ra sẽ được lưu trong thư mục đầu ra được chỉ định của bạn với tên`outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Đây chính là nơi công sức của bạn cuối cùng được đền đáp và bạn có thể chia sẻ sổ làm việc của mình với người khác vì biết rằng nó được bảo vệ tốt!
+Tại đây, tệp đầu ra sẽ được lưu trong thư mục đầu ra được chỉ định của bạn với tên `outputSpecifyAuthorWhileWriteProtectingWorkbook.xlsx`. Đây chính là nơi công sức của bạn cuối cùng được đền đáp và bạn có thể chia sẻ sổ làm việc của mình với người khác vì biết rằng nó được bảo vệ tốt!
 
 ## Phần kết luận
 
@@ -104,22 +106,24 @@ Và bạn đã có nó! Bạn đã học cách tạo sổ làm việc Excel, thi
 ## Câu hỏi thường gặp
 
 ### Tôi có thể tùy chỉnh mật khẩu để bảo vệ ghi không?  
- Có, bạn có thể tùy chỉnh mật khẩu theo nhu cầu của mình. Chỉ cần thay thế`YOUR_PASSWORD` bằng mật khẩu bạn muốn.
+Có, bạn có thể tùy chỉnh mật khẩu theo nhu cầu của mình. Chỉ cần thay thế `YOUR_PASSWORD` bằng mật khẩu bạn muốn.
 
 ### Aspose.Cells có miễn phí sử dụng không?  
- Aspose.Cells là một thư viện trả phí, nhưng bạn có thể dùng thử miễn phí với thời gian dùng thử có giới hạn. Truy cập[Liên kết dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
+Aspose.Cells là một thư viện trả phí, nhưng bạn có thể dùng thử miễn phí với thời gian dùng thử có giới hạn. Truy cập [Liên kết dùng thử miễn phí](https://releases.aspose.com/) để bắt đầu.
 
 ### Làm thế nào để mua thư viện Aspose.Cells?  
- Bạn có thể mua Aspose.Cells thông qua[mua trang](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Cells thông qua [mua trang](https://purchase.aspose.com/buy).
 
 ### Tôi có thể sử dụng cách tiếp cận này trong các ứng dụng web không?  
 Hoàn toàn có thể! Aspose.Cells hoạt động trơn tru trên cả ứng dụng máy tính để bàn và web bằng .NET.
 
 ### Tôi phải làm gì nếu cần hỗ trợ?  
- Đối với các câu hỏi và khắc phục sự cố, cộng đồng Aspose rất hữu ích. Bạn có thể truy cập[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+Đối với các câu hỏi và khắc phục sự cố, cộng đồng Aspose rất hữu ích. Bạn có thể truy cập [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được hỗ trợ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/excel-vlookup-tutorial/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel VLOOKUP Tutorial
@@ -112,6 +114,7 @@ For comprehensive documentation on Aspose.Cells for Java, visit their documentat
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ imgOptions.setOnePagePerSheet(true);
 ```
 - **Mục đích:** Tùy chỉnh cách hiển thị từng trang tính thành hình ảnh.
 - **Cấu hình chính:**
-  - `setVerticalResolution` Và `setHorizontalResolution`: Xác định DPI để rõ ràng hơn.
+  - `setVerticalResolution` Và `setHorizontalResolution`: Xác định DPI cho rõ ràng hơn.
   - `setImageType`: Chọn từ các định dạng như JPEG, PNG, v.v.
   - `setOnePagePerSheet`: Đảm bảo các bảng tính lớn được lưu dưới dạng một hình ảnh duy nhất.
 ### Hiển thị một trang tính dưới dạng hình ảnh
@@ -151,6 +153,9 @@ Sẵn sàng triển khai các giải pháp này trong dự án của bạn? Hãy
 Khám phá sâu hơn về Aspose.Cells và bắt đầu xuất bảng tính Excel của bạn dưới dạng hình ảnh ngay hôm nay!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

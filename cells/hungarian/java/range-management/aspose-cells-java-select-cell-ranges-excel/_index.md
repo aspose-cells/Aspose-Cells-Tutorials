@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ További kutatáshoz próbáljon meg különböző adattípusokat manipulálni, 
 Sajátítsd el az Excel-manipuláció mesteri szintjét az Aspose.Cells for Java segítségével, és hozd ki az adatvezérelt alkalmazásaidban rejlő összes lehetőséget!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

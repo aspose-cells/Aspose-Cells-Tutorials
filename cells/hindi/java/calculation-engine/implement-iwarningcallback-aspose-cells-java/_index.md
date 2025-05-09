@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -45,7 +47,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells for Java एक निःशुल्क परीक्षण प्रदान करता है जिसमें सीमित कार्यक्षमता शामिल है। पूर्ण पहुँच के लिए, आप या तो लाइसेंस खरीद सकते हैं या एक अस्थायी लाइसेंस प्राप्त कर सकते हैं। इसे प्राप्त करने के लिए इन चरणों का पालन करें:
 1. **मुफ्त परीक्षण**: लाइब्रेरी को यहां से डाउनलोड करें [Aspose डाउनलोड](https://releases.aspose.com/cells/java/).
 2. **अस्थायी लाइसेंस**: आवेदन करना [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) यदि आपको अस्थायी रूप से पूर्ण कार्यक्षमता की आवश्यकता है।
-3. **खरीदना**: दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदें [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).
+3. **खरीदना**दीर्घकालिक उपयोग के लिए, के माध्यम से लाइसेंस खरीदें [Aspose खरीद पृष्ठ](https://purchase.aspose.com/buy).
 #### मूल आरंभीकरण
 अपने प्रोजेक्ट में Aspose.Cells का उदाहरण बनाकर उसे आरंभ करें. `Workbook` कक्षा:
 ```java
@@ -143,6 +145,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 - [Aspose समर्थन मंच](https://forum.aspose.com/c/cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

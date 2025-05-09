@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Iterera över celler i en kolumn, bestäm den maximala bredden som krävs av
 Genom att utnyttja dessa resurser kommer du att vara väl rustad för att ytterligare förbättra dina färdigheter och implementera mer komplexa automatiseringsuppgifter i Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

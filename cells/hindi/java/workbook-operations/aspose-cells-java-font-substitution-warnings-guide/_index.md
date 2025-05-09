@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Aspose.Cells के साथ काम करते समय, इष्टत�
 - **खरीद और लाइसेंसिंग:** अपना लाइसेंस प्राप्त करें या निःशुल्क परीक्षण का प्रयास करें [Aspose खरीद](https://purchase.aspose.com/buy) या [Aspose निःशुल्क परीक्षण](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

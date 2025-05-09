@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -133,7 +135,7 @@ Ez a funkció lehetővé teszi annak azonosítását, hogy mely munkalapok tarta
 
 #### Lépésről lépésre történő megvalósítás
 **1. lépés: Munkalapok ismétlése**
-Iteráció az összes munkalapon a munkafüzetben:
+Ismételje át a munkafüzet összes munkalapját:
 
 ```java
 for (int i = 0; i < workbook.getWorksheets().getCount(); i++) {
@@ -207,6 +209,9 @@ Igen, integrálható felhőszolgáltatásokkal, például az AWS S3-mal vagy az 
 A memóriahasználat hatékony kezelése érdekében érdemes lehet streamelési API-kat használni, és a feldolgozást kisebb feladatokra bontani.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

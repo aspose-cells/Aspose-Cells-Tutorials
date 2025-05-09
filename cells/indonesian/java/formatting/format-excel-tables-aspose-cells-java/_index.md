@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Di era modern, mengelola dan menyajikan data secara efisien sangat penting bagi para profesional di berbagai bidang. Baik Anda seorang analis atau pengembang, membuat tabel yang terstruktur dan menarik secara visual di Excel dapat meningkatkan kejelasan laporan Anda secara signifikan. Tutorial ini akan memandu Anda memformat ListObjects di Excel menggunakan pustaka Aspose.Cells yang canggih untuk Java. Dengan menguasai teknik-teknik ini, Anda akan dapat mengotomatiskan tugas pembuatan dan pemformatan tabel dengan mudah.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 - Cara mengatur Aspose.Cells untuk Java di proyek Anda
 - Langkah-langkah untuk membuat dan memformat ListObject dalam lembar kerja Excel
 - Metode untuk menerapkan gaya dan menghitung total dalam tabel
@@ -23,18 +25,18 @@ Di era modern, mengelola dan menyajikan data secara efisien sangat penting bagi 
 
 Mari kita mulai dengan membahas prasyarat yang diperlukan untuk tutorial ini.
 
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
+## Előfeltételek
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java** (versi 25.3 atau lebih baru)
 - Java Development Kit (JDK) 8 atau lebih tinggi terinstal di komputer Anda
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Lingkungan Pengembangan Terpadu (IDE) seperti IntelliJ IDEA atau Eclipse
 - Sistem build Maven atau Gradle dikonfigurasi dalam proyek Anda
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java dan keakraban dengan manipulasi file Excel akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -54,20 +56,20 @@ Tambahkan dependensi berikut ke `pom.xml`:
 
 **Bahasa Inggris Gradle**
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells menawarkan uji coba gratis, dan Anda dapat meminta lisensi sementara untuk menjelajahi semua kemampuannya tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi.
 
-1. **Uji Coba Gratis**: Unduh versi evaluasi dari [Situs web Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara**:Dapatkan melalui [Portal pembelian Aspose](https://purchase.aspose.com/temporary-license/) untuk membuka kunci semua fitur selama fase pengujian Anda.
-3. **Pembelian**:Untuk penggunaan komersial, Anda dapat membeli lisensi langsung dari [Toko Aspose](https://purchase.aspose.com/buy).
+1. **Ingyenes próbaverzió**: Töltse le a próbaverziót innen: [Aspose weboldala](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély**Szerezd meg a következőn keresztül: [Az Aspose vásárlási portálja](https://purchase.aspose.com/temporary-license/) untuk membuka kunci semua fitur selama fase pengujian Anda.
+3. **Vásárlás**:Untuk penggunaan komersial, Anda dapat membeli lisensi langsung dari [Toko Aspose](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Setelah pustaka disiapkan dalam proyek Anda, inisialisasikan sebagai berikut:
 
 ```java
@@ -75,27 +77,27 @@ import com.aspose.cells.Workbook;
 
 public class InitializeWorkbook {
     public static void main(String[] args) throws Exception {
-        // Buat contoh buku kerja baru
+        // Új munkafüzet-példány létrehozása
         Workbook workbook = new Workbook();
         
-        // Kode Anda di sini
+        // A kódod itt
         
-        // Simpan buku kerja ke file keluaran
+        // A munkafüzet mentése kimeneti fájlba
         workbook.save("output.xlsx");
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 Sekarang setelah Anda menyiapkannya, mari terapkan solusi pemformatan tabel Excel kita.
 
 ### Membuat dan Menambahkan ListObject
-#### Ringkasan
+#### Áttekintés
 ListObject mirip dengan tabel di Excel. ListObject membantu menyusun data Anda dengan tajuk dan baris, sehingga memudahkan penerapan gaya dan melakukan perhitungan.
 
-**Langkah 1: Inisialisasi Buku Kerja**
+**1. lépés: Munkafüzet inicializálása**
 
-Mulailah dengan membuat contoh `Workbook` kelas.
+Kezdje egy példány létrehozásával a `Workbook` osztály.
 
 ```java
 import com.aspose.cells.Workbook;
@@ -109,7 +111,7 @@ public class FormataListObject {
         // Dapatkan lembar kerja pertama di buku kerja
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // Kode Anda di sini
+        // A kódod itt
     }
 }
 ```
@@ -142,7 +144,7 @@ ListObject listObject = sheet.getListObjects().get(sheet.getListObjects().add("A
 ```
 
 ### Pemformatan dan Gaya
-#### Ringkasan
+#### Áttekintés
 Menerapkan gaya akan meningkatkan keterbacaan. Anda dapat mengatur gaya tabel yang telah ditetapkan atau menyesuaikannya untuk memenuhi kebutuhan tertentu.
 
 **Langkah 4: Terapkan Gaya Tabel**
@@ -176,15 +178,15 @@ Terakhir, simpan buku kerja Anda ke berkas Excel.
 workbook.save("FormataListObject_out.xlsx");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 ListObjects yang diformat sangat berharga dalam skenario seperti:
 1. **Pelaporan Penjualan**:Ringkas dan visualisasikan data penjualan di berbagai wilayah dengan cepat.
-2. **Manajemen Inventaris**: Melacak tingkat inventaris dan menghitung kebutuhan stok ulang secara efisien.
-3. **Analisis Keuangan**: Memberikan wawasan yang jelas tentang metrik keuangan dengan menghitung total secara otomatis.
+2. **Készletgazdálkodás**: Melacak tingkat inventaris dan menghitung kebutuhan stok ulang secara efisien.
+3. **Pénzügyi elemzés**: Memberikan wawasan yang jelas tentang metrik keuangan dengan menghitung total secara otomatis.
 
 Kasus penggunaan ini menunjukkan bagaimana mengotomatisasi pembuatan dan pemformatan tabel dapat menyederhanakan alur kerja dan meningkatkan penyajian data.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat bekerja dengan kumpulan data besar, pertimbangkan hal berikut:
 - Optimalkan penggunaan memori dengan mengelola rentang sel secara efektif.
 - Minimalkan operasi dalam loop untuk meningkatkan kinerja.
@@ -192,11 +194,11 @@ Saat bekerja dengan kumpulan data besar, pertimbangkan hal berikut:
 
 Mengikuti praktik terbaik ini memastikan aplikasi Anda tetap responsif bahkan dengan tugas manipulasi data yang ekstensif.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara menyiapkan dan menggunakan Aspose.Cells untuk Java guna membuat, memformat, dan menyempurnakan ListObjects di Excel. Alat canggih ini tidak hanya mengotomatiskan tugas rutin, tetapi juga meningkatkan penyajian data Anda. Terus jelajahi dokumentasi Aspose.Cells untuk menemukan fitur yang lebih canggih dan mengintegrasikannya ke dalam proyek Anda.
 
-## Bagian FAQ
-1. **Bagaimana cara menangani kumpulan data besar dengan Aspose.Cells?**
+## GYIK szekció
+1. **Hogyan kezelhetek nagy adathalmazokat az Aspose.Cells segítségével?**
    - Memanfaatkan teknik manajemen rentang sel dan pemrosesan batch untuk mengoptimalkan kinerja.
 2. **Bisakah saya menyesuaikan gaya tabel di luar opsi yang telah ditentukan sebelumnya?**
    - Ya, Anda dapat membuat gaya khusus dengan menentukan atribut pemformatan tertentu.
@@ -207,17 +209,20 @@ Anda telah mempelajari cara menyiapkan dan menggunakan Aspose.Cells untuk Java g
 5. **Dapatkah saya menggunakan Aspose.Cells dalam aplikasi komersial?**
    - Ya, tetapi pastikan Anda memiliki lisensi yang sesuai untuk penggunaan komersial.
 
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Mulailah menerapkan teknik ini dalam proyek Anda dan lihat bagaimana Aspose.Cells dapat mengubah tugas manajemen data Excel Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

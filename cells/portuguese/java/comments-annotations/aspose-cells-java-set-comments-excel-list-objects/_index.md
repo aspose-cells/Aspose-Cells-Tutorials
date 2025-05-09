@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ Workbook workbook = new Workbook(dataDir + "source.xlsx");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**Etapa 2: Acesse o objeto List**
+**Etapa 2: Acesse o objeto de lista**
 Recupere o objeto de lista ou tabela dentro da planilha:
 ```java
 import com.aspose.cells.ListObject;
@@ -171,6 +173,9 @@ Parabéns! Você aprendeu a definir comentários em objetos de lista do Excel us
 Explore esses recursos enquanto continua sua jornada com o Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

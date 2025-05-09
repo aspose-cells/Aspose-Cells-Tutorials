@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Java kullanarak Excel çalışma kitabı oluşturma ve stil görevlerinizi geli�
 
 **Ne Öğreneceksiniz:**
 - Yeni bir Çalışma Kitabı nasıl başlatılır ve örnek verilerle nasıl doldurulur
-- Excel sayfalarınızdaki belirli aralıklara stiller uygulama teknikleri
+- Excel sayfalarınızdaki belirli aralıklara stil uygulama teknikleri
 - Stil ve verileri bir aralıktan diğerine etkili bir şekilde kopyalama yöntemleri
 
 Öncelikle ön koşulları ele alarak başlayalım!
@@ -180,6 +182,9 @@ Bu eğitimde, etkili çalışma kitabı başlatma, biçimlendirme ve veri kopyal
 - **Destek Forumu**: [Aspose Destek Topluluğu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

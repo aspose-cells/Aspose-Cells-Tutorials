@@ -1,14 +1,16 @@
 ---
-title: Nhập dữ liệu vào Excel với Định dạng mẫu DB Num tùy chỉnh
-linktitle: Nhập dữ liệu vào Excel với Định dạng mẫu DB Num tùy chỉnh
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách nhập dữ liệu vào Excel với định dạng DB Num tùy chỉnh bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này.
-weight: 10
-url: /vi/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/
+"description": "Tìm hiểu cách nhập dữ liệu vào Excel với định dạng DB Num tùy chỉnh bằng Aspose.Cells cho .NET trong hướng dẫn dễ làm theo này."
+"linktitle": "Nhập dữ liệu vào Excel với Định dạng mẫu DB Num tùy chỉnh"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Nhập dữ liệu vào Excel với Định dạng mẫu DB Num tùy chỉnh"
+"url": "/vi/net/excel-data-import-export/import-data-to-worksheet-in-excel-with-specified-db-num-custom-pattern-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhập dữ liệu vào Excel với Định dạng mẫu DB Num tùy chỉnh
@@ -22,7 +24,7 @@ Khi nói đến thao tác bảng tính, việc nhập dữ liệu vào Excel và
 Trước khi đi sâu vào chi tiết, hãy đảm bảo bạn có mọi thứ mình cần. Sau đây là danh sách kiểm tra nhanh các điều kiện tiên quyết để giúp bạn thành công:
 
 1. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên máy của mình. Aspose.Cells hoạt động liền mạch với nhiều phiên bản .NET khác nhau.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ[liên kết tải xuống](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy nó từ [liên kết tải xuống](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển tích hợp (IDE): Sử dụng IDE như Visual Studio nơi bạn có thể viết và thực thi mã C#.
 4. Kiến thức cơ bản về C#: Có hiểu biết cơ bản về C# sẽ giúp bạn theo dõi các phương pháp viết mã mà chúng tôi sẽ sử dụng trong hướng dẫn này.
 
@@ -34,7 +36,7 @@ Bạn đã hiểu hết chưa? Tuyệt! Chúng ta hãy chuyển sang nhập các
 
 ### Tạo tập tin C# của bạn
 
- Mở IDE của bạn (khuyến khích sử dụng Visual Studio) và tạo một dự án C# mới. Đặt tên cho nó là một cái tên có liên quan như`ExcelDataImport`.
+Mở IDE của bạn (khuyến khích sử dụng Visual Studio) và tạo một dự án C# mới. Đặt tên cho nó là một cái tên có liên quan như `ExcelDataImport`.
 
 ### Tham khảo Aspose.Cells
 
@@ -63,7 +65,7 @@ Bây giờ chúng ta đã có tất cả các điều kiện tiên quyết và �
 string dataDir = "Your Document Directory";
 ```
 
- Trong ví dụ này, thay thế`Your Document Directory` với con đường thực tế của bạn, như`C:\\Users\\YourName\\Documents\\`.
+Trong ví dụ này, thay thế `Your Document Directory` với con đường thực tế của bạn, như `C:\\Users\\YourName\\Documents\\`.
 
 ## Bước 2: Tạo một Workbook
 
@@ -73,7 +75,7 @@ Tiếp theo, bạn sẽ tạo một bảng tính mới, về cơ bản đây ch�
 Workbook wb = new Workbook();
 ```
 
- Ở đây, chúng ta đang tạo ra một cái mới`Workbook` đối tượng. Đây là bức tranh trắng của bạn!
+Ở đây, chúng ta đang tạo ra một cái mới `Workbook` đối tượng. Đây là trang giấy trắng của bạn!
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -87,7 +89,7 @@ Giống như việc lật mở một cuốn sách đến trang đầu tiên, b�
 
 ## Bước 4: Nhập dữ liệu vào ô
 
- Bây giờ, chúng ta hãy điền một số dữ liệu vào một ô. Đối với ví dụ này, chúng ta sẽ nhập giá trị`123` vào ô A1.
+Bây giờ, chúng ta hãy điền một số dữ liệu vào một ô. Đối với ví dụ này, chúng ta sẽ nhập giá trị `123` vào ô A1.
 
 ```csharp
 Cell cell = ws.Cells["A1"];
@@ -114,7 +116,7 @@ Bằng cách nắm bắt phong cách của tế bào, bạn đang chuẩn bị t
 st.Custom = "[DBNum2][$-804]General";
 ```
 
- Dòng này yêu cầu Excel định dạng số`123`theo mẫu DBNum tương ứng với tiếng Trung. Khá gọn gàng, phải không?
+Dòng này yêu cầu Excel định dạng số `123` theo mẫu DBNum tương ứng với tiếng Trung. Khá gọn gàng, phải không?
 
 ## Bước 7: Đặt Kiểu ô được cập nhật
 
@@ -136,7 +138,7 @@ ws.Cells.SetColumnWidth(0, 30);
 
 Ở đây, chúng tôi đang mở rộng chiều rộng cột, để dữ liệu của bạn không bị chật chội. Hãy nghĩ về nó như việc cung cấp không gian cho dữ liệu của bạn để thở!
 
-## Bước 9: Lưu sổ làm việc
+## Bước 9: Lưu Workbook
 
 Cuối cùng, chúng ta hãy lưu kiệt tác này vào định dạng PDF. Đây chính là phần kết tuyệt vời!
 
@@ -161,16 +163,18 @@ Aspose.Cells là một thư viện mạnh mẽ dành cho .NET cho phép các nh�
 Có! Bạn có thể áp dụng nhiều kiểu, định dạng và thậm chí cả công thức khác nhau cho bất kỳ ô nào trong bảng tính của mình.
 
 ### Có bản dùng thử miễn phí không?  
- Chắc chắn rồi! Bạn có thể kiểm tra phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể kiểm tra phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Tôi có thể lưu tệp Excel ở định dạng nào?  
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau bao gồm XLSX, XLS, CSV, PDF và nhiều định dạng khác nữa.
 
 ### Tôi có thể tìm thêm sự hỗ trợ ở đâu?  
- Nếu bạn cần hỗ trợ, hãy ghé thăm họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được cộng đồng và các chuyên gia giúp đỡ.
+Nếu bạn cần hỗ trợ, hãy ghé thăm họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được cộng đồng và các chuyên gia giúp đỡ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

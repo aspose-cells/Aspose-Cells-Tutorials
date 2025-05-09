@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook wb = new Workbook(dataDir + "book1.xls");
 ```
 
-#### चरण 3: वर्कशीट संग्रह तक पहुंचें
+#### चरण 3: वर्कशीट संग्रह तक पहुँचें
 ```java
 WorksheetCollection sheets = wb.getWorksheets();
 ```
@@ -123,7 +125,7 @@ sheets.addCopy("Sheet1");
 ```
 *स्पष्टीकरण*: `addCopy()` निर्दिष्ट शीट की प्रतिलिपि बनाता है, उसे कार्यपुस्तिका में जोड़ता है।
 
-### एक्सेल फ़ाइल को सहेजना
+### एक्सेल फ़ाइल सहेजना
 **अवलोकन**परिवर्तन करने के बाद, Aspose.Cells की सेव कार्यक्षमता का उपयोग करके अपनी कार्यपुस्तिका को डिस्क पर वापस सेव करें।
 
 #### चरण 7: कार्यपुस्तिका लोड करें या उसमें बदलाव करें
@@ -185,6 +187,9 @@ wb.save(outDir + "CopyWithinWorkbook_out.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

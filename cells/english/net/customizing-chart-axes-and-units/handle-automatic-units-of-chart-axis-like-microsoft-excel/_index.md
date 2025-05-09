@@ -8,7 +8,9 @@ url: /net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handle Automatic Units of Chart Axis like Microsoft Excel
@@ -162,6 +164,7 @@ You can seek help from the Aspose community [here](https://forum.aspose.com/c/ce
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

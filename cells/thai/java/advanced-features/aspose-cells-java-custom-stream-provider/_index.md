@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 - วิธีตั้งค่าและใช้ Aspose.Cells สำหรับ Java
 - การนำผู้ให้บริการสตรีมแบบกำหนดเองไปใช้ใน Java
 - การกำหนดค่าเวิร์กบุ๊ก Excel เพื่อจัดการรูปภาพที่เชื่อมโยง
-- การประยุกต์ใช้ฟีเจอร์นี้ในโลกแห่งความเป็นจริง
+- การนำฟีเจอร์นี้ไปใช้ในโลกแห่งความเป็นจริง
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -190,6 +192,9 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

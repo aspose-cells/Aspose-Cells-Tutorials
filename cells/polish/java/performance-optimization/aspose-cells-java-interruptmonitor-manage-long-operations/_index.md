@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ A2: Wdrażaj bloki try-catch wokół operacji, które mogą zostać przerwane, j
 A3: Tak, każda operacja obsługująca ustawianie `InterruptMonitor` może zostać potencjalnie przerwany.
 
 **P4: Jakie są konsekwencje wydajnościowe korzystania z InterruptMonitor?**
-A4: Rozważne wykorzystanie zasobów pozwala na efektywne zarządzanie nimi, ale wymaga starannego monitorowania, aby uniknąć niepotrzebnych zakłóceń.
+A4: Rozważne wykorzystanie zasobów pozwala na efektywne zarządzanie nimi, ale wymaga uważnego monitorowania, aby uniknąć niepotrzebnych zakłóceń.
 
 **P5: W jaki sposób mogę zintegrować Aspose.Cells z innymi frameworkami Java?**
 A5: Integruje się bezproblemowo za pośrednictwem interfejsu API, obsługując popularne biblioteki i struktury Java, co zapewnia rozszerzoną funkcjonalność.
@@ -170,6 +172,9 @@ Dzięki temu przewodnikowi będziesz przygotowany do efektywnego zarządzania d�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

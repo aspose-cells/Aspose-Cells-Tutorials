@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ In questo tutorial, hai imparato come sfruttare la potenza di Aspose.Cells per J
 - Testate sempre attentamente i vostri script di automazione e gestite le eccezioni in modo corretto. Assicuratevi che le vostre fonti dati siano affidabili e aggiornate.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

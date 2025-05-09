@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Templat Bagan Kustom
@@ -22,16 +24,16 @@ Dalam dunia visualisasi data yang terus berkembang, membuat templat bagan kustom
 
 Sebelum kita mulai membuat templat bagan kustom, mari berkenalan dengan Aspose.Cells untuk Java. Ini adalah API yang dirancang untuk memanipulasi file Excel dalam aplikasi Java. Dengan fitur-fiturnya yang ekstensif, ini memungkinkan Anda untuk bekerja dengan lembar kerja Excel, bagan, dan lainnya secara terprogram.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikuti tutorial ini, pastikan Anda memiliki prasyarat berikut:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
-- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Membuat Template Bagan Kustom
 
-### Langkah 1: Menyiapkan Proyek Anda
+### 1. lépés: A projekt beállítása
 
 Mulailah dengan membuat proyek Java baru di Integrated Development Environment (IDE) favorit Anda. Pastikan untuk menambahkan pustaka Aspose.Cells for Java ke dependensi proyek Anda.
 
@@ -44,12 +46,12 @@ import com.aspose.cells.Workbook;
 
 public class ChartTemplateExample {
     public static void main(String[] args) {
-        // Memuat buku kerja Excel
+        // Töltse be az Excel munkafüzetet
         Workbook workbook = new Workbook();
 
-        // Kode Anda di sini
+        // A kódod itt
 
-        // Simpan buku kerja
+        // A munkafüzet mentése
         workbook.save("CustomChartTemplate.xlsx");
     }
 }
@@ -72,7 +74,7 @@ Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 Sekarang, mari kita buat diagram dan sesuaikan dengan kebutuhan Anda. Anda dapat memilih dari berbagai jenis diagram seperti diagram batang, diagram garis, diagram pai, dan lainnya. Berikut ini contoh pembuatan diagram batang:
 
 ```java
-// Tambahkan bagan ke lembar kerja
+// Diagram hozzáadása a munkalaphoz
 int chartIndex = worksheet.getCharts().add(ChartType.BAR, 5, 0, 15, 5);
 Chart chart = worksheet.getCharts().get(chartIndex);
 
@@ -98,15 +100,15 @@ Setelah bagan Anda siap, simpan ke file Excel:
 workbook.save("CustomChartTemplate.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Membuat templat bagan kustom menggunakan Aspose.Cells untuk Java memungkinkan Anda mendesain bagan yang menarik secara visual dan informatif yang disesuaikan dengan kebutuhan spesifik Anda. Baik Anda membuat laporan keuangan, dasbor, atau presentasi berbasis data, Aspose.Cells menyediakan fleksibilitas dan kontrol yang Anda butuhkan.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Untuk menginstal Aspose.Cells untuk Java, kunjungi halaman unduhan [Di Sini](https://releases.aspose.com/cells/java/)Unduh pustaka dan ikuti petunjuk penginstalan yang disediakan dalam dokumentasi.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi halaman unduhan [itt](https://releases.aspose.com/cells/java/)Unduh pustaka dan ikuti petunjuk penginstalan yang disediakan dalam dokumentasi.
 
 ### Jenis bagan apa yang dapat saya buat dengan Aspose.Cells untuk Java?
 
@@ -122,11 +124,12 @@ Tentu saja! Aspose.Cells untuk Java bersifat serbaguna dan dapat menangani skena
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
-Untuk dokumentasi dan contoh yang lengkap, kunjungi dokumentasi Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/).
+Untuk dokumentasi dan contoh yang lengkap, kunjungi dokumentasi Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

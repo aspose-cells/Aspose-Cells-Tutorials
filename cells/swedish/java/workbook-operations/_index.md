@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Våra handledningar om arbetsboksoperationer ger omfattande vägledning för att
 ## Tillgängliga handledningar
 
 ### [Aspose.Cells Java: Skapa och spara Excel-arbetsböcker - En steg-för-steg-guide](./aspose-cells-java-create-save-excel-workbooks/)
-Lär dig hur du automatiserar skapandet och hanteringen av Excel-arbetsböcker med Aspose.Cells för Java. Den här guiden behandlar instansiering, sparande och inställningar av sidinställningar.
+Lär dig hur du automatiserar skapandet och hanteringen av Excel-arbetsböcker med Aspose.Cells för Java. Den här guiden behandlar instansiering, sparande och inställningar av egenskaper för utskriftsformat.
 
 ### [Aspose.Cells Java: Visa version och skapa delad arbetsbok](./aspose-cells-java-display-version-create-shared-workbook/)
 En kodhandledning för Aspose.Words Java
@@ -64,7 +66,7 @@ Lär dig hur du automatiserar skapande, hantering och formatering av Excel-arbet
 En kodhandledning för Aspose.Words Java
 
 ### [Exportera Excel till HTML Bevara kantstilar med Aspose.Cells för Java](./aspose-cells-java-export-excel-html-border-styles/)
-Lär dig hur du exporterar Excel-filer med konsekventa kantlinjer till HTML med Aspose.Cells för Java. Följ den här guiden för att konfigurera och implementera avancerade sparalternativ.
+Lär dig hur du exporterar Excel-filer med konsekventa kantlinjer till HTML med hjälp av Aspose.Cells för Java. Följ den här guiden för att konfigurera och implementera avancerade sparalternativ.
 
 ### [Exportera Excel till XPS med Aspose.Cells för Java: En steg-för-steg-guide](./aspose-cells-java-export-excel-xps/)
 Lär dig hur du effektivt exporterar Excel-filer till XPS-format med Aspose.Cells för Java. Den här omfattande guiden täcker inläsning, inställningsalternativ och rendering av arbetsböcker.
@@ -256,7 +258,7 @@ Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Skapa,
 Lär dig hur du automatiserar Excel-uppgifter med Aspose.Cells för Java. Den här guiden beskriver hur du laddar arbetsböcker och hittar data effektivt.
 
 ### [Excel-automation: Läs in arbetsböcker och frågetabeller med Aspose.Cells Java för effektiv datahantering](./excel-automation-aspose-cells-java-workbook-query-tables/)
-Bemästra Excel-automation med Aspose.Cells för Java genom att läsa in arbetsböcker och hämta resultat från frågetabeller. Öka produktiviteten inom databehandling, rapportering och integration.
+Bemästra Excel-automation med Aspose.Cells för Java genom att läsa in arbetsböcker och hämta resultat från frågetabeller. Öka produktiviteten inom databearbetning, rapportering och integration.
 
 ### [Excel-automation: Konfigurera arbetsboks- och kalkylbladssidor med Aspose.Cells Java](./excel-automation-aspose-cells-java-workbook-setup/)
 Lär dig hur du automatiserar Excel-uppgifter genom att konfigurera arbetsboks- och kalkylbladssidor med Aspose.Cells för Java. Effektivisera dina databehandlingsarbetsflöden.
@@ -291,7 +293,7 @@ Lär dig hur du hanterar Excel-arbetsböcker i Java med Aspose.Cells, inklusive 
 ### [Ladda och iterera Excel-rader med Aspose.Cells i Java: En omfattande guide](./excel-manipulation-aspose-cells-java/)
 Lär dig hur du effektivt laddar och itererar över rader i en Excel-fil med Aspose.Cells för Java, perfekt för dataanalys och automatiseringsuppgifter.
 
-### [Bemästra Excel-manipulation med Aspose.Cells för Java: Handledning för arbetsboksoperationer och cellstilisering](./excel-manipulation-aspose-cells-java-tutorial/)
+### [Bemästra Excel-manipulation med Aspose.Cells för Java: Handledning för arbetsboksoperationer och cellstyling](./excel-manipulation-aspose-cells-java-tutorial/)
 Lär dig hur du programmatiskt skapar, manipulerar och formaterar Excel-arbetsböcker med Aspose.Cells för Java. Den här omfattande handledningen täcker instansiering av arbetsböcker, åtkomst till arbetsblad och cellformatering.
 
 ### [Bemästra Excel-manipulation i Java med Aspose.Cells: En omfattande guide till arbetsboksoperationer](./excel-manipulation-java-aspose-cells-guide/)
@@ -390,7 +392,7 @@ Lär dig hur du effektivt skapar, ändrar och sparar Excel-arbetsböcker med Asp
 ### [Effektiv konvertering från CSV till JSON med Aspose.Cells i Java](./master-csv-to-json-conversion-aspose-cells-java/)
 Bemästra konsten att enkelt konvertera CSV-filer till JSON-format med Aspose.Cells för Java, vilket förbättrar dina datahanterings- och integrationsmöjligheter.
 
-### [Bemästra manipulation av Excel-filer med Aspose.Cells för Java | Handbok för arbetsböcker](./master-excel-manipulation-aspose-cells-java/)
+### [Bemästra manipulation av Excel-filer med Aspose.Cells för Java | Handbok för arbetsboksoperationer](./master-excel-manipulation-aspose-cells-java/)
 Lär dig hur du effektivt hanterar Excel-filer med Aspose.Cells för Java. Den här guiden behandlar installation, arbetsboksfunktioner och bästa praxis.
 
 ### [Bemästra Excel-manipulation i Java: Hantera former och ActiveX-kontroller med Aspose.Cells](./master-excel-manipulation-java-aspose-cells/)
@@ -486,6 +488,9 @@ Lär dig hur du ställer in och hanterar dokumentegenskaper som versionshanterin
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

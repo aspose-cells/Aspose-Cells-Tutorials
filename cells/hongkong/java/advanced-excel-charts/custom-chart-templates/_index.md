@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自訂圖表模板
@@ -20,7 +22,7 @@
 
 ## 了解 Aspose.Cells for Java
 
-在我們開始製作自訂圖表範本之前，讓我們先熟悉一下 Aspose.Cells for Java。它是專為在 Java 應用程式中操作 Excel 檔案而設計的 API。憑藉其豐富的功能，它允許您以程式設計方式處理 Excel 工作表、圖表等。
+在我們開始製作自訂圖表範本之前，讓我們先熟悉一下 Aspose.Cells for Java。它是為在 Java 應用程式中操作 Excel 檔案而設計的 API。憑藉其豐富的功能，它允許您以程式設計方式處理 Excel 工作表、圖表等。
 
 ## 先決條件
 
@@ -57,7 +59,7 @@ public class ChartTemplateExample {
 
 ### 步驟3：新增數據
 
-在建立圖表之前，您需要數據。您可以從現有來源匯入數據，也可以透過程式設計方式產生數據。對於此範例，我們將產生範例資料：
+在建立圖表之前，您需要數據。您可以從現有來源匯入數據，也可以透過程式設計產生數據。對於此範例，我們將產生範例資料：
 
 ```java
 // 向工作表新增數據
@@ -110,7 +112,7 @@ workbook.save("CustomChartTemplate.xlsx");
 
 ### 我可以使用 Aspose.Cells for Java 建立哪些類型的圖表？
 
-Aspose.Cells for Java 支援多種圖表類型，包括長條圖、折線圖、散佈圖、圓餅圖等。您可以自訂這些圖表以滿足您的資料視覺化需求。
+Aspose.Cells for Java 支援多種圖表類型，包括長條圖、折線圖、散點圖、圓餅圖等。您可以自訂這些圖表以滿足您的資料視覺化需求。
 
 ### 我可以將自訂主題應用到我的圖表嗎？
 
@@ -127,6 +129,7 @@ Aspose.Cells for Java 支援多種圖表類型，包括長條圖、折線圖、�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

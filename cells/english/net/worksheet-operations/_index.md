@@ -8,7 +8,9 @@ url: /net/worksheet-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Worksheet Operations
@@ -70,9 +72,11 @@ Learn to set a graphic background in ODS files using Aspose.Cells for .NET with 
 Learn to update revision log history in shared workbooks using Aspose.Cells for .NET. Simplify collaboration and maintain clear document records.
 ### [Utilize Sheet_SheetId Property of OpenXml in Worksheet](./utilize-sheet-sheetid-property/)
 Unlock the power of Excel with Aspose.Cells for .NET. Learn to manipulate Sheet IDs effectively with our step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

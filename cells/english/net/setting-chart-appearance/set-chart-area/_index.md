@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/set-chart-area/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Chart Area
@@ -185,6 +187,7 @@ You can purchase a license directly from the Aspose website [here](https://purch
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

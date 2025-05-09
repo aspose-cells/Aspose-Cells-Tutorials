@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Επαναλάβετε τα κελιά σε μια στήλη, προσδι�
 Αξιοποιώντας αυτούς τους πόρους, θα είστε άρτια εξοπλισμένοι για να βελτιώσετε περαιτέρω τις δεξιότητές σας και να υλοποιήσετε πιο σύνθετες εργασίες αυτοματοποίησης του Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

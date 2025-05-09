@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jenis Bagan Gabungan
@@ -108,15 +110,15 @@ workbook.save("CombinedChart.xlsx");
 chart.toImage("CombinedChart.png", ImageFormat.getPng());
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami telah menjajaki cara membuat tipe bagan gabungan menggunakan Aspose.Cells untuk Java. Kami mulai dengan memahami apa itu Aspose.Cells untuk Java, lalu melanjutkan dengan petunjuk langkah demi langkah untuk membuat bagan gabungan, menambahkan data ke dalamnya, menyesuaikan tampilannya, dan menyimpan/mengekspornya. Dengan Aspose.Cells untuk Java, Anda dapat memanfaatkan kekuatan visualisasi data dalam aplikasi Java Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web Aspose dan unduh pustaka dari [tautan ini](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
+Untuk menginstal Aspose.Cells untuk Java, kunjungi situs web Aspose dan unduh pustaka dari [ezt a linket](https://releases.aspose.com/cells/java/)Ikuti petunjuk instalasi yang tersedia dalam dokumentasi.
 
 ### Bisakah saya membuat jenis bagan lain dengan Aspose.Cells untuk Java?
 
@@ -132,11 +134,12 @@ Tentu saja! Aspose.Cells untuk Java menawarkan opsi penyesuaian yang luas. Anda 
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan contoh untuk Aspose.Cells untuk Java?
 
-Anda dapat menemukan dokumentasi yang lengkap dan banyak contoh kode di situs web Aspose di [Di Sini](https://reference.aspose.com/cells/java/).
+Anda dapat menemukan dokumentasi yang lengkap dan banyak contoh kode di situs web Aspose di [itt](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -211,6 +213,9 @@ Con Aspose.Cells, puoi trasformare il modo in cui gestisci i dati di Excel in Ja
 Intraprendi oggi stesso il tuo percorso verso la padronanza di Excel con Aspose.Cells per Java e rivoluziona il modo in cui gestisci i dati!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML
-linktitle: Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách loại trừ các kiểu không sử dụng khi xuất Excel sang HTML bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
-weight: 10
-url: /vi/net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/
+"description": "Tìm hiểu cách loại trừ các kiểu không sử dụng khi xuất Excel sang HTML bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này."
+"linktitle": "Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML"
+"url": "/vi/net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Loại trừ các kiểu không sử dụng khi xuất Excel sang HTML
@@ -20,7 +22,7 @@ Các tệp Excel có mặt ở khắp mọi nơi trong thế giới kinh doanh, 
 ### 1. Studio trực quan
 Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là nơi bạn sẽ viết và chạy mã .NET của mình.
 ### 2. Aspose.Cells cho .NET
-Tải xuống thư viện Aspose.Cells. Đây là một công cụ mạnh mẽ để quản lý các tệp Excel theo chương trình. Bạn có thể lấy nó từ[đây](https://releases.aspose.com/cells/net/).
+Tải xuống thư viện Aspose.Cells. Đây là một công cụ mạnh mẽ để quản lý các tệp Excel theo chương trình. Bạn có thể lấy nó từ [đây](https://releases.aspose.com/cells/net/).
 ### 3. Kiến thức cơ bản về C#
 Sự quen thuộc với ngôn ngữ lập trình C# sẽ giúp bạn nắm bắt các khái niệm dễ dàng hơn.
 ### 4. Microsoft Excel
@@ -42,14 +44,14 @@ Bây giờ chúng ta đã chuẩn bị mọi thứ, chúng ta có thể chuyển
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Trong dòng trên, thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp HTML. Ví dụ, nó có thể là thứ gì đó như`C:\\Users\\YourName\\Documents\\`.
+Trong dòng trên, thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp HTML. Ví dụ, nó có thể là thứ gì đó như `C:\\Users\\YourName\\Documents\\`.
 ## Bước 2: Tạo một phiên bản Workbook
 Tiếp theo, chúng ta sẽ tạo một sổ làm việc mới. Hãy nghĩ về sổ làm việc như một khung vẽ trống nơi chúng ta có thể tô màu dữ liệu và kiểu của mình:
 ```csharp
 // Tạo sổ làm việc
 Workbook wb = new Workbook();
 ```
- Dòng này khởi tạo một phiên bản mới của`Workbook` lớp. Đây là điểm khởi đầu cho mọi thứ liên quan đến Excel.
+Dòng này khởi tạo một phiên bản mới của `Workbook` lớp. Đây là điểm khởi đầu cho mọi thứ liên quan đến Excel.
 ## Bước 3: Tạo một Style có tên chưa sử dụng
 Mặc dù chúng ta đang cố gắng loại trừ các kiểu không sử dụng, hãy tạo một kiểu để minh họa quy trình tốt hơn:
 ```csharp
@@ -58,7 +60,7 @@ wb.CreateStyle().Name = "UnusedStyle_XXXXXXXXXXXXXX";
 ```
 Trong bước này, chúng ta đang tạo một kiểu mới nhưng không áp dụng cho bất kỳ ô nào. Do đó, nó vẫn chưa được sử dụng—hoàn hảo cho nhu cầu của chúng ta.
 ## Bước 4: Truy cập vào trang tính đầu tiên
-Bây giờ, hãy truy cập vào trang tính đầu tiên trong sổ làm việc của chúng ta. Trang tính là nơi phép thuật dữ liệu xảy ra:
+Bây giờ, chúng ta hãy truy cập vào trang tính đầu tiên trong sổ làm việc của chúng ta. Trang tính là nơi phép thuật dữ liệu xảy ra:
 ```csharp
 // Truy cập bảng tính đầu tiên
 Worksheet ws = wb.Worksheets[0];
@@ -79,7 +81,7 @@ HtmlSaveOptions opts = new HtmlSaveOptions();
 // Bình luận dòng này để bao gồm các kiểu chưa sử dụng
 opts.ExcludeUnusedStyles = true;
 ```
- Trong đoạn mã trên, chúng ta tạo một phiên bản mới của`HtmlSaveOptions` và thiết lập`ExcludeUnusedStyles` ĐẾN`true`Điều này yêu cầu Aspose.Cells xóa bất kỳ kiểu nào không được sử dụng trong đầu ra HTML cuối cùng.
+Trong đoạn mã trên, chúng ta tạo một phiên bản mới của `HtmlSaveOptions` và thiết lập `ExcludeUnusedStyles` ĐẾN `true`Điều này yêu cầu Aspose.Cells xóa bất kỳ kiểu nào không được sử dụng trong đầu ra HTML cuối cùng.
 ## Bước 7: Lưu Workbook ở định dạng HTML
 Cuối cùng, đã đến lúc lưu sổ làm việc của bạn dưới dạng tệp HTML. Đây là phần bổ ích khi tất cả công sức trước đây của bạn được đền đáp:
 ```csharp
@@ -98,18 +100,20 @@ Và thế là xong! Bạn đã học thành công cách loại trừ các kiểu
 Hãy thoải mái thử nghiệm nhiều kiểu tùy chỉnh hơn hoặc các tính năng khác do Aspose.Cells cung cấp và đưa khả năng thao tác với tệp Excel của bạn lên một tầm cao mới!
 ## Câu hỏi thường gặp
 ### Aspose.Cells được sử dụng để làm gì?  
-Aspose.Cells là một thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
+Aspose.Cells là thư viện .NET cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
 Mặc dù có bản dùng thử miễn phí nhưng bạn vẫn cần có giấy phép tạm thời hoặc giấy phép đầy đủ để tiếp tục sử dụng các tính năng nâng cao.
 ### Tôi có thể chuyển đổi Excel sang các định dạng khác ngoài HTML không?  
 Có! Aspose.Cells hỗ trợ chuyển đổi các tệp Excel sang nhiều định dạng khác nhau, bao gồm PDF, CSV, v.v.
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?  
- Bạn có thể nhận được sự trợ giúp từ cộng đồng Aspose.Cells và diễn đàn hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự trợ giúp từ cộng đồng Aspose.Cells và diễn đàn hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể bao gồm những kiểu chưa sử dụng nếu cần không?  
- Chắc chắn rồi! Chỉ cần thiết lập`opts.ExcludeUnusedStyles` ĐẾN`false` bao gồm tất cả các kiểu, dù đã sử dụng hay chưa sử dụng.
+Chắc chắn rồi! Chỉ cần thiết lập `opts.ExcludeUnusedStyles` ĐẾN `false` bao gồm tất cả các kiểu, dù đã sử dụng hay chưa sử dụng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ public class WorkbookInitialization {
         // Hämta det första kalkylbladet (som standard skapat)
         Worksheet srcSheet = workbook.getWorksheets().get(0);
 
-        // Lägg till ett nytt kalkylblad med namnet "Destinationsblad"
+        // Lägg till ett nytt arbetsblad med namnet "Destinationsblad"
         Worksheet dstSheet = workbook.getWorksheets().add("Destination Sheet");
     }
 }
@@ -214,6 +216,9 @@ Du har nu bemästrat hur man skapar och hanterar Excel-arbetsböcker med Aspose.
    - Absolut! Aspose.Cells stöder olika format inklusive XLS och CSV.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

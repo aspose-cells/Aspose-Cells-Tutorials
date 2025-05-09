@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Java를 사용하여 Excel 파일 내 하이퍼링크 생성을 자동화하고 
 - 특정 셀에 하이퍼링크 추가
 - 수정된 통합 문서를 저장합니다.
 
-Aspose.Cells for Java를 사용하여 환경을 설정하고 이러한 기능을 구현하는 방법을 살펴보겠습니다.
+Aspose.Cells for Java를 사용하여 환경을 설정하고 이러한 기능을 구현하는 방법을 알아보겠습니다.
 
 ## 필수 조건
 
@@ -208,6 +210,9 @@ A5: 셀 참조와 URL 형식을 확인하세요. [Aspose 지원 포럼](https://
 - **라이센스 구매:** [Java용 Aspose.Cells 구매](https://purchase.aspose.com/aspose-cells-for-java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

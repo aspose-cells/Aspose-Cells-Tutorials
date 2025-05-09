@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 為了繼續，您需要：
 - **Aspose.Cells for Java函式庫**：確保您已安裝 25.3 或更高版本。
-- **Java 開發環境**：您可以編譯和執行 Java 程式碼的設定（例如，JDK 8+）。
+- **Java 開發環境**：可以編譯和執行 Java 程式碼的設定（例如，JDK 8+）。
 - **Java 基礎知識**：熟悉Java程式設計概念。
 
 ## 設定 Aspose.Cells for Java
@@ -146,7 +148,7 @@ A2：是的，但是功能有限。要獲得完全存取權限，您需要獲得
 **問題3：Aspose.Cells 支援哪些文件格式？**
 A3：它支援 Excel 格式（XLS、XLSX）以及其他一些格式，如 CSV、ODS 等。
 
-**問題 4：使用 Java 處理 Excel 中的大型資料集時如何最佳化效能？**
+**問題 4：如何使用 Java 最佳化 Excel 中處理大型資料集時的效能？**
 A4：盡量減少單元操作中循環的使用，並在可用的情況下利用串流 API。
 
 **Q5：Aspose.Cells適合企業應用嗎？**
@@ -163,6 +165,9 @@ A5：當然。它提供了強大的功能，非常適合企業環境中的複雜
 透過掌握這些工具和技術，您可以使用 Java 增強與 Excel 相關的項目，充分利用 Aspose.Cells 的強大功能。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

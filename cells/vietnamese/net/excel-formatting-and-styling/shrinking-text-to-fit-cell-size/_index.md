@@ -1,14 +1,16 @@
 ---
-title: Thu nhỏ văn bản để vừa với kích thước ô trong Excel
-linktitle: Thu nhỏ văn bản để vừa với kích thước ô trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thu nhỏ văn bản để vừa với kích thước ô trong Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước. Bắt đầu tối ưu hóa bảng tính của bạn.
-weight: 19
-url: /vi/net/excel-formatting-and-styling/shrinking-text-to-fit-cell-size/
+"description": "Tìm hiểu cách thu nhỏ văn bản để vừa với kích thước ô trong Excel bằng Aspose.Cells cho .NET. Có kèm hướng dẫn từng bước. Bắt đầu tối ưu hóa bảng tính của bạn."
+"linktitle": "Thu nhỏ văn bản để vừa với kích thước ô trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thu nhỏ văn bản để vừa với kích thước ô trong Excel"
+"url": "/vi/net/excel-formatting-and-styling/shrinking-text-to-fit-cell-size/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thu nhỏ văn bản để vừa với kích thước ô trong Excel
@@ -18,9 +20,9 @@ Khi làm việc với bảng tính Excel, một thách thức phổ biến mà n
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, điều quan trọng là phải thiết lập bối cảnh với một vài điều kiện tiên quyết. Sau đây là những gì bạn cần:
 1. Môi trường .NET: Bạn nên thiết lập môi trường .NET trên máy của mình. Có thể là Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ phát triển .NET.
-2.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[Liên kết tải xuống Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [Liên kết tải xuống Aspose](https://releases.aspose.com/cells/net/).
 3. Hiểu biết cơ bản về C#: Nắm vững kiến thức cơ bản về lập trình C# sẽ giúp bạn hiểu các đoạn mã trong hướng dẫn này.
-4.  Dùng thử miễn phí hoặc cấp phép: Bạn có thể bắt đầu với[dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép thông qua[Aspose Mua liên kết](https://purchase.aspose.com/buy).
+4. Dùng thử miễn phí hoặc cấp phép: Bạn có thể bắt đầu với [dùng thử miễn phí](https://releases.aspose.com/) hoặc mua giấy phép thông qua [Aspose Mua liên kết](https://purchase.aspose.com/buy).
 Sau khi đã nắm được những điều cần thiết này, chúng ta đã sẵn sàng bắt đầu hành trình làm chủ cách căn chỉnh văn bản trong Excel bằng Aspose.Cells!
 ## Nhập gói
 Trước khi bắt đầu mã hóa, hãy nhập các gói cần thiết. Đây là bước cơ bản cho phép chúng ta truy cập vào chức năng do Aspose.Cells cung cấp. Đảm bảo thêm các không gian tên sau vào đầu tệp C# của bạn:
@@ -43,7 +45,7 @@ if (!IsExists)
 ```
 Tại sao điều này lại quan trọng? Vâng, việc lưu các tệp của bạn trong một thư mục được tổ chức tốt không chỉ giúp mọi thứ gọn gàng mà còn giúp bạn dễ dàng quản lý và tìm kiếm tài liệu sau này.
 ## Bước 2: Khởi tạo một đối tượng Workbook
- Bây giờ thư mục của chúng ta đã được thiết lập, đã đến lúc tạo một phiên bản của`Workbook` lớp. Lớp này rất quan trọng vì nó đại diện cho tài liệu Excel của chúng ta.
+Bây giờ thư mục của chúng ta đã được thiết lập, đã đến lúc tạo một phiên bản của `Workbook` lớp. Lớp này rất quan trọng vì nó đại diện cho tài liệu Excel của chúng ta.
 Chỉ cần tạo một bảng tính như thế này:
 ```csharp
 Workbook workbook = new Workbook();
@@ -80,7 +82,7 @@ cell.SetStyle(style);
 ```
 Vậy là xong! Bây giờ văn bản của bạn không chỉ nằm trong ô mà còn được căn giữa một cách hoàn hảo.
 ## Bước 7: Thu nhỏ văn bản cho vừa vặn
-Bây giờ đến khoảnh khắc mà tất cả chúng ta đều mong đợi—thu nhỏ văn bản đó để vừa với kích thước ô! Đây chính là nơi phép thuật thực sự xảy ra.
+Bây giờ đến khoảnh khắc mà tất cả chúng ta đều mong đợi—thu nhỏ văn bản đó để vừa với kích thước ô! Đây chính là lúc phép thuật thực sự xảy ra.
 Để thu nhỏ văn bản, hãy thêm dòng này:
 ```csharp
 style.ShrinkToFit = true;
@@ -89,8 +91,8 @@ Sau đó, áp dụng lại kiểu cho ô:
 ```csharp
 cell.SetStyle(style);
 ```
-Tính năng này cho phép Excel tự động giảm kích thước phông chữ nếu văn bản quá lớn so với ô. Giống như có một thợ may vô hình may văn bản của bạn vừa với kích thước của ô!
-## Bước 8: Lưu Workbook
+Tính năng này cho phép Excel tự động giảm kích thước phông chữ nếu văn bản quá lớn so với ô. Giống như có một thợ may vô hình may văn bản của bạn vừa với kích thước của ô vậy!
+## Bước 8: Lưu sổ làm việc
 Cuối cùng, đã đến lúc lưu giữ tác phẩm của chúng ta. Bạn đã bỏ công sức và giờ bạn muốn giữ lại kiệt tác của mình.
 Sử dụng mã sau để lưu sổ làm việc:
 ```csharp
@@ -103,16 +105,18 @@ Xin chúc mừng! Bạn vừa học được cách thu nhỏ văn bản để v�
 ### Aspose.Cells là gì?  
 Aspose.Cells là một thư viện .NET mạnh mẽ để tạo và thao tác bảng tính Excel theo chương trình.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Vâng! Bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó trước khi cam kết.
+Vâng! Bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của nó trước khi cam kết.
 ### Aspose.Cells hỗ trợ những ngôn ngữ lập trình nào?  
 Về cơ bản, Aspose.Cells hỗ trợ các ngôn ngữ .NET như C# và VB.NET.
 ### Tôi có thể nhận trợ giúp như thế nào nếu gặp vấn đề?  
- Bạn có thể truy cập hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập hỗ trợ thông qua [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Cells không?  
- Vâng, bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)nếu bạn muốn sử dụng sau thời gian dùng thử.
+Vâng, bạn có thể có được một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) nếu bạn muốn sử dụng sau thời gian dùng thử.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

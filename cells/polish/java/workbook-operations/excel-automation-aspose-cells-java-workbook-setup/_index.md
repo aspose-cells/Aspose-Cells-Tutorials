@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Nabycie licencji
 
 Aby użyć Aspose.Cells dla Java, możesz:
-- **Bezpłatna wersja próbna**:Pobierz wersję próbną, aby przetestować funkcje.
+- **Bezpłatna wersja próbna**:Pobierz pakiet próbny, aby przetestować funkcje.
 - **Licencja tymczasowa**:Poproś o tymczasową licencję w celu rozszerzonej oceny.
 - **Zakup**Aby uzyskać pełny dostęp, należy nabyć stałą licencję.
 
@@ -140,7 +142,7 @@ workbook.save(outDir + "/FitToPagesOptions_out.xls"); // Zapisz zmiany w pliku w
 
 ## Rozważania dotyczące wydajności
 
-- **Zarządzanie pamięcią**:Optymalizacja wykorzystania pamięci poprzez zwolnienie zasobów po przetworzeniu dużych skoroszytów.
+- **Zarządzanie pamięcią**:Optymalizuj wykorzystanie pamięci, zwalniając zasoby po przetworzeniu dużych skoroszytów.
 - **Efektywne przetwarzanie danych**:Zminimalizuj liczbę operacji na danych arkusza kalkulacyjnego, aby zwiększyć wydajność, zwłaszcza podczas pracy z dużymi zbiorami danych.
 
 ## Wniosek
@@ -177,6 +179,9 @@ Teraz Twoja kolej na eksperymentowanie i implementację tych potężnych funkcji
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chèn hình ảnh vào đầu trang chân trang
-linktitle: Chèn hình ảnh vào đầu trang chân trang
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách chèn hình ảnh vào đầu trang và chân trang bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 60
-url: /vi/net/excel-page-setup/insert-image-in-header-footer/
+"description": "Tìm hiểu cách chèn hình ảnh vào đầu trang và chân trang bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Chèn hình ảnh vào đầu trang chân trang"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Chèn hình ảnh vào đầu trang chân trang"
+"url": "/vi/net/excel-page-setup/insert-image-in-header-footer/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn hình ảnh vào đầu trang chân trang
@@ -21,9 +23,9 @@ Khi làm việc với các tệp Excel, tiêu đề và chân trang đóng vai t
 
 Trước khi đi sâu vào mã thực tế, bạn cần chuẩn bị một số thứ sau:
 
-1.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong môi trường .NET của mình. Nếu bạn chưa có, bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells trong môi trường .NET của mình. Nếu bạn chưa có, bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 2. Visual Studio hoặc bất kỳ IDE nào khác: Bạn sẽ cần một môi trường phát triển tích hợp để viết và thực thi mã C#.
-3.  Một hình ảnh mẫu: Chuẩn bị một hình ảnh mà bạn muốn chèn vào đầu trang hoặc chân trang. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng logo công ty có tên là`aspose-logo.jpg`.
+3. Một hình ảnh mẫu: Chuẩn bị một hình ảnh mà bạn muốn chèn vào đầu trang hoặc chân trang. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng logo công ty có tên là `aspose-logo.jpg`.
 4. Kiến thức cơ bản về C#: Mặc dù không bắt buộc, nhưng hiểu biết về C# sẽ giúp bạn dễ dàng thực hiện theo hướng dẫn này hơn.
 5. Truy cập hệ thống tệp: Đảm bảo bạn có quyền truy cập vào hệ thống tệp nơi bạn sẽ đọc hình ảnh và lưu tệp Excel.
 
@@ -47,7 +49,7 @@ Trước tiên, bạn cần chỉ định thư mục chứa các tệp Excel và
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Cập nhật theo đó
 ```
 
- Dòng này thiết lập`dataDir`biến, là đường dẫn cơ sở để xác định vị trí hình ảnh bạn muốn chèn vào tiêu đề.
+Dòng này thiết lập `dataDir` biến, là đường dẫn cơ sở để xác định vị trí hình ảnh bạn muốn chèn vào tiêu đề.
 
 ## Bước 2: Tạo đối tượng sổ làm việc
 
@@ -57,11 +59,11 @@ Tiếp theo, bạn cần tạo một bảng tính mới để thêm hình ảnh 
 Workbook workbook = new Workbook();
 ```
 
- Dòng mã này khởi tạo một phiên bản mới của`Workbook` lớp, cho phép bạn thao tác trên bảng tính Excel.
+Dòng mã này khởi tạo một phiên bản mới của `Workbook` lớp, cho phép bạn thao tác trên bảng tính Excel.
 
 ## Bước 3: Xác định đường dẫn hình ảnh
 
- Đã đến lúc tạo một biến chuỗi để giữ đường dẫn đến hình ảnh bạn muốn sử dụng. Trong trường hợp của chúng tôi, chúng tôi đang sử dụng`aspose-logo.jpg`.
+Đã đến lúc tạo một biến chuỗi để giữ đường dẫn đến hình ảnh bạn muốn sử dụng. Trong trường hợp của chúng tôi, chúng tôi đang sử dụng `aspose-logo.jpg`.
 
 ```csharp
 string logo_url = dataDir + "aspose-logo.jpg";
@@ -79,19 +81,19 @@ byte[] binaryData = new byte[inFile.Length];
 long bytesRead = inFile.Read(binaryData, 0, (int)inFile.Length);
 ```
 
--  Các`FileStream` được sử dụng để mở hình ảnh ở chế độ đọc.
--  Sau đó, chúng ta khai báo một mảng byte`binaryData` để lưu trữ dữ liệu hình ảnh.
--  Cuối cùng, chúng tôi đọc dữ liệu hình ảnh từ`FileStream`.
+- Các `FileStream` được sử dụng để mở hình ảnh ở chế độ đọc.
+- Sau đó, chúng ta khai báo một mảng byte `binaryData` để lưu trữ dữ liệu hình ảnh.
+- Cuối cùng, chúng tôi đọc dữ liệu hình ảnh từ `FileStream`.
 
 ## Bước 5: Truy cập vào Đối tượng Thiết lập Trang
 
- Để thực hiện thay đổi cho tiêu đề, chúng ta phải truy cập`PageSetup` đối tượng liên quan đến bảng tính đầu tiên. 
+Để thực hiện thay đổi cho tiêu đề, chúng ta phải truy cập `PageSetup` đối tượng liên quan đến bảng tính đầu tiên. 
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
 ```
 
- Ở đây, chúng ta có được`PageSetup` đối tượng cho phép chúng ta thao tác các thiết lập in ấn cho bảng tính.
+Ở đây, chúng ta có được `PageSetup` đối tượng cho phép chúng ta thao tác các thiết lập in ấn cho bảng tính.
 
 ## Bước 6: Chèn hình ảnh vào Header
 
@@ -101,7 +103,7 @@ Với dữ liệu nhị phân của hình ảnh trong tay, bây giờ chúng ta 
 pageSetup.SetHeaderPicture(1, binaryData);
 ```
 
- Dòng này đặt hình ảnh vào phần trung tâm của tiêu đề. Tham số`1` chỉ định phần tiêu đề.
+Dòng này đặt hình ảnh vào phần trung tâm của tiêu đề. Tham số `1` chỉ định phần tiêu đề.
 
 ## Bước 7: Thiết lập Nội dung Tiêu đề
 
@@ -127,7 +129,7 @@ Dòng này lưu sổ làm việc với tên tệp đã chỉ định trong thư 
 
 ## Bước 9: Đóng FileStream
 
- Cuối cùng, đừng quên đóng`FileStream` để giải phóng tài nguyên.
+Cuối cùng, đừng quên đóng `FileStream` để giải phóng tài nguyên.
 
 ```csharp
 inFile.Close();
@@ -148,16 +150,18 @@ Aspose.Cells hỗ trợ nhiều định dạng, bao gồm JPEG, PNG, BMP, GIF v�
 Có, bạn có thể chèn hình ảnh riêng biệt vào các phần khác nhau của đầu trang hoặc chân trang bằng cách sử dụng các chỗ giữ chỗ khác nhau.
 
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng có phiên bản được cấp phép để truy cập đầy đủ và có thêm các tính năng. Bạn có thể nhận được[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng có phiên bản được cấp phép để truy cập đầy đủ và có thêm các tính năng. Bạn có thể nhận được [giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể khắc phục sự cố hình ảnh không hiển thị như thế nào?
 Đảm bảo đường dẫn hình ảnh là chính xác và tệp tồn tại. Kiểm tra cả khả năng tương thích định dạng hình ảnh.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu chi tiết[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu chi tiết [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

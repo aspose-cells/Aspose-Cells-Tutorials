@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -103,7 +105,7 @@ public class WorkbookAndCellStyling {
         // A Workbook objektum egy példányának létrehozása
         Workbook wb = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
 ```
 **Cella tartalmának és stílusának módosítása**
@@ -140,7 +142,7 @@ public class ExportWorksheetCSSSeparatelyInHTML {
         // Munkafüzet objektum létrehozása
         Workbook wb = new Workbook();
         
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
         
         // Nyisd meg a B5 cellát, és írj bele egy értéket
@@ -189,6 +191,9 @@ Ebben az oktatóanyagban megtanultad, hogyan használhatod ki az Aspose.Cells fo
 - Fedezze fel a gyakorlati megvalósítási lehetőségeket a projektjeiben.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การตรวจสอบการเข้าถึงไฟล์
@@ -16,7 +18,7 @@
 
 ## บทนำสู่การตรวจสอบการเข้าถึงไฟล์
 
-ในบทช่วยสอนนี้ เราจะมาสำรวจวิธีการตรวจสอบการเข้าถึงไฟล์โดยใช้ Aspose.Cells for Java API Aspose.Cells เป็นไลบรารี Java ที่มีประสิทธิภาพที่ช่วยให้คุณสร้าง จัดการ และจัดการสเปรดชีต Excel ได้ เราจะสาธิตวิธีการติดตามและบันทึกกิจกรรมการเข้าถึงไฟล์ในแอปพลิเคชัน Java ของคุณโดยใช้ API นี้
+ในบทช่วยสอนนี้ เราจะมาสำรวจวิธีการตรวจสอบการเข้าถึงไฟล์โดยใช้ Aspose.Cells สำหรับ Java API Aspose.Cells เป็นไลบรารี Java ที่มีประสิทธิภาพที่ช่วยให้คุณสร้าง จัดการ และจัดการสเปรดชีต Excel ได้ เราจะสาธิตวิธีการติดตามและบันทึกกิจกรรมการเข้าถึงไฟล์ในแอปพลิเคชัน Java ของคุณโดยใช้ API นี้
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -137,6 +139,7 @@ public class Main {
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

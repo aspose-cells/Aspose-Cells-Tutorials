@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # पिवट तालिका शैलियों को अनुकूलित करना
@@ -87,9 +89,11 @@ Aspose.Cells for Java API में पिवट टेबल शैलियो
    आप API दस्तावेज़न का संदर्भ यहां ले सकते हैं [Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/) विस्तृत जानकारी के लिए.
 
 अब आपके पास Aspose.Cells for Java में पिवट टेबल स्टाइल बनाने और कस्टमाइज़ करने का ज्ञान है। आगे की खोज करें और अपने डेटा प्रेजेंटेशन को वाकई असाधारण बनाएं!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

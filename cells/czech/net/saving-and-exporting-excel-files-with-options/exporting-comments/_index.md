@@ -1,93 +1,97 @@
 ---
-title: Export komentářů při ukládání souboru Excel do HTML
-linktitle: Export komentářů při ukládání souboru Excel do HTML
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se snadno exportovat komentáře při ukládání souborů aplikace Excel do HTML pomocí Aspose.Cells for .NET. Chcete-li zachovat anotace, postupujte podle tohoto podrobného průvodce.
-weight: 10
-url: /cs/net/saving-and-exporting-excel-files-with-options/exporting-comments/
+"description": "Naučte se, jak snadno exportovat komentáře a zároveň ukládat soubory Excelu do HTML pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu, jak zachovat anotace."
+"linktitle": "Export komentářů při ukládání souboru Excel do HTML"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Export komentářů při ukládání souboru Excel do HTML"
+"url": "/cs/net/saving-and-exporting-excel-files-with-options/exporting-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export komentářů při ukládání souboru Excel do HTML
 
 ## Zavedení
-V tomto obsáhlém průvodci vše rozebereme krok za krokem, takže i když nejste odborník na programování, budete to moci sledovat. A na konci budete mít křišťálově jasnou představu o tom, jak exportovat tyto neocenitelné komentáře do HTML, díky čemuž budou vaše převody z Excelu do HTML chytřejší a efektivnější.
+této komplexní příručce si vše krok za krokem rozebereme, takže i když nejste programátorský expert, budete schopni sledovat postup. A na konci budete mít křišťálově jasnou představu o tom, jak exportovat tyto neocenitelné komentáře do HTML, což vám zpříjemní a zefektivní převody z Excelu do HTML.
 ## Předpoklady
-Než začneme, je pár věcí, které musíte mít na svém místě. Není třeba se obávat – vše je velmi jednoduché. Zde je to, co potřebujete, abyste mohli začít:
--  Aspose.Cells for .NET: Můžete si jej stáhnout[zde](https://releases.aspose.com/cells/net/).
+Než začneme, je tu pár věcí, které je potřeba mít připravené. Nemusíte se bát – je to docela jednoduché. Zde je to, co potřebujete k zahájení:
+- Aspose.Cells pro .NET: Můžete si ho stáhnout [zde](https://releases.aspose.com/cells/net/).
 - Základní znalost C# a .NET.
-- Prostředí připravené pro vývoj .NET (Visual Studio nebo jakékoli preferované IDE).
-- Ukázkový soubor Excel s komentáři, které chcete exportovat (nebo můžete použít ten, který je uveden ve výukovém programu).
- Pokud nemáte nainstalovaný Aspose.Cells for .NET, můžete to vyzkoušet pomocí a[zkušební verze zdarma](https://releases.aspose.com/) . Potřebujete pomoc s nastavením? Podívejte se na[dokumentace](https://reference.aspose.com/cells/net/) pro vedení.
+- Prostředí připravené pro vývoj v .NET (Visual Studio nebo jakékoli preferované IDE).
+- Ukázkový soubor aplikace Excel s komentáři, které chcete exportovat (nebo můžete použít ten, který je uveden v tutoriálu).
+Pokud nemáte nainstalovaný Aspose.Cells pro .NET, můžete si ho vyzkoušet s [bezplatná zkušební verze](https://releases.aspose.com/)Potřebujete pomoc s nastavením? Podívejte se na [dokumentace](https://reference.aspose.com/cells/net/) pro vodítko.
 ## Import požadovaných balíčků
-Než se pustíme do kódu, musíme naimportovat potřebné jmenné prostory z Aspose.Cells. Ty jsou důležité pro práci se sešity, možnosti uložení HTML a další. Zde je to, co budete muset přidat do horní části souboru C#:
+Než se pustíme do kódu, musíme importovat potřebné jmenné prostory z Aspose.Cells. Ty jsou klíčové pro práci se sešity, možnosti ukládání HTML a další. Zde je to, co budete muset přidat na začátek souboru C#:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-To je vše – jen jeden nezbytný balíček, aby vše fungovalo hladce!
-## Krok 1: Nastavte svůj projekt a importujte Aspose.Cells
-Začněme nastavením vašeho projektu. Otevřete Visual Studio (nebo preferované vývojové prostředí) a vytvořte nový projekt konzolové aplikace v C#. Po nastavení vašeho projektu pokračujte a nainstalujte Aspose.Cells for .NET přes NuGet:
+To je vše – jen jeden základní balíček, aby vše fungovalo hladce!
+## Krok 1: Nastavení projektu a import Aspose.Cells
+Začněme nastavením projektu. Otevřete Visual Studio (nebo vámi preferované vývojové prostředí) a vytvořte nový projekt konzolové aplikace v C#. Po nastavení projektu nainstalujte Aspose.Cells pro .NET pomocí NuGetu:
 1. Otevřete Správce balíčků NuGet.
-2. Vyhledejte Aspose.Cells.
-3. Nainstalujte nejnovější verzi Aspose.Cells pro .NET.
-Tímto způsobem budete připraveni začít kódovat pomocí Aspose.Cells a pracovat se soubory Excelu programově.
-## Krok 2: Načtěte svůj soubor Excel s komentáři
-Nyní, když je váš projekt nastaven, přejděme k načítání souboru Excel. Ujistěte se, že váš soubor obsahuje komentáře, které chcete exportovat do HTML. Začneme načtením souboru do objektu Workbook.
-Jak na to:
+2. Hledat Aspose.Cells.
+3. Nainstalujte si nejnovější verzi Aspose.Cells pro .NET.
+Tímto způsobem budete připraveni začít kódovat s Aspose.Cells a programově pracovat s excelovými soubory.
+## Krok 2: Načtěte soubor Excel s komentáři
+Nyní, když je váš projekt nastavený, pojďme k načtení souboru aplikace Excel. Ujistěte se, že soubor obsahuje komentáře, které chcete exportovat do HTML. Začneme načtením souboru do objektu Workbook.
+Zde je návod, jak to udělat:
 ```csharp
 // Definujte zdrojový adresář
 string sourceDir = "Your Document Directory";
 // Načtěte soubor Excel s komentáři
 Workbook wb = new Workbook(sourceDir + "sampleExportCommentsHTML.xlsx");
 ```
- The`Workbook` class je vaše brána ke zpracování souborů aplikace Excel v Aspose.Cells. V tomto příkladu načítáme soubor s názvem`sampleExportCommentsHTML.xlsx`. Ujistěte se, že je cesta správná, nebo ji nahraďte názvem a cestou vašeho souboru.
-## Krok 3: Nakonfigurujte možnosti exportu HTML
+Ten/Ta/To `Workbook` třída je vaší branou ke zpracování souborů aplikace Excel v Aspose.Cells. V tomto příkladu načítáme soubor s názvem `sampleExportCommentsHTML.xlsx`Ujistěte se, že je cesta správná, nebo ji nahraďte názvem a cestou k souboru.
+## Krok 3: Konfigurace možností exportu HTML
 Nyní přichází klíčová část – konfigurace možností exportu. Protože chceme konkrétně exportovat komentáře, budeme muset tuto funkci povolit pomocí třídy HtmlSaveOptions.
-Postup je následující:
+Zde je návod, jak to udělat:
 ```csharp
-// Nakonfigurujte možnosti uložení HTML
+// Konfigurace možností ukládání HTML
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.IsExportComments = true;
 ```
- Nastavením`IsExportComments` na`true`, dáváme Aspose.Cells pokyn, aby do výstupu HTML zahrnul všechny komentáře ze souboru Excel. Je to jednoduchá, ale výkonná možnost, která zajišťuje, že se během převodu nic důležitého neztratí.
-## Krok 4: Uložte soubor Excel jako HTML
- Nyní, když jsme načetli soubor Excel a nakonfigurovali možnosti exportu, je posledním krokem uložení souboru jako dokumentu HTML. Aspose.Cells to neuvěřitelně usnadňuje. Vše, co musíme udělat, je zavolat na`Save` metoda na našem`Workbook` objekt, předávání v požadovaném výstupním formátu a možnostech.
+Nastavením `IsExportComments` na `true`dáváme Aspose.Cells pokyn, aby do HTML výstupu zahrnul všechny komentáře ze souboru Excel. Je to jednoduchá, ale účinná možnost, která zajistí, že se během převodu nic důležitého neztratí.
+## Krok 4: Uložte soubor Excelu jako HTML
+Nyní, když jsme načetli soubor Excel a nakonfigurovali možnosti exportu, posledním krokem je uložení souboru jako dokumentu HTML. Aspose.Cells to neuvěřitelně usnadňuje. Stačí zavolat funkci `Save` metoda na naší `Workbook` objekt, předáním požadovaného výstupního formátu a možností.
 Zde je kód:
 ```csharp
 // Definujte výstupní adresář
 string outputDir = "Your Document Directory";
-// Uložte sešit do HTML s exportovanými komentáři
+// Uložení sešitu do HTML s exportovanými komentáři
 wb.Save(outputDir + "outputExportCommentsHTML.html", opts);
 ```
- V tomto kroku ukládáme soubor Excel jako dokument HTML a spolu s ním exportujeme komentáře. Stačí vyměnit`"Your Document Directory"`se skutečným adresářem, kam chcete soubor HTML uložit.
+V tomto kroku ukládáme soubor Excel jako dokument HTML a exportujeme s ním komentáře. Stačí nahradit `"Your Document Directory"` se skutečným adresářem, kam chcete soubor HTML uložit.
 ## Krok 5: Spusťte aplikaci
-Nyní, když je vše nastaveno, je čas spustit aplikaci. Otevřete svůj terminál (nebo výstupní okno sady Visual Studio) a uvidíte něco takového:
+Nyní, když je vše nastaveno, je čas spustit vaši aplikaci. Otevřete terminál (nebo výstupní okno Visual Studia) a uvidíte něco jako toto:
 ```plaintext
 ExportCommentsWhileSavingExcelFileToHtml executed successfully.
 ```
-Tato zpráva potvrzuje, že soubor byl úspěšně převeden do HTML a všechny komentáře byly exportovány. Nyní můžete otevřít soubor HTML v libovolném webovém prohlížeči a zobrazit obsah i komentáře, stejně jako se objevily ve vašem původním souboru Excel!
+Tato zpráva potvrzuje, že soubor byl úspěšně převeden do formátu HTML a všechny komentáře byly exportovány. Nyní můžete soubor HTML otevřít v libovolném webovém prohlížeči a zobrazit obsah i komentáře stejně, jako se zobrazovaly v původním souboru aplikace Excel!
 ## Závěr
-A tady to máte! Právě jste se naučili, jak exportovat komentáře ze souboru aplikace Excel do HTML pomocí Aspose.Cells for .NET. Nejen, že je tento proces přímočarý, ale také zajišťuje, že žádná z vašich kritických poznámek nebo anotací nezůstane pozadu při převodu do HTML. Ať už pracujete na generování dynamických sestav nebo jednoduše převádíte soubory aplikace Excel pro webové použití, tato funkce může být skutečným zachráncem.
-## FAQ
-### Mohu exportovat pouze konkrétní komentáře ze souboru aplikace Excel do HTML?  
-Ne, Aspose.Cells exportuje všechny komentáře, když`IsExportComments` je nastaveno na true. Můžete však přizpůsobit, které komentáře mají být zahrnuty, ruční úpravou souboru Excel před exportem.
-### Ovlivňuje export komentářů rozvržení souboru HTML?  
-Vůbec ne! Aspose.Cells zajišťuje, že rozvržení zůstane nedotčené, zatímco komentáře jsou přidávány jako další prvky do souboru HTML.
-### Mohu exportovat komentáře v jiných formátech, jako je PDF nebo Word?  
-Ano! Aspose.Cells podporuje více formátů exportu, včetně PDF a Wordu. Podobné možnosti můžete použít také k zahrnutí komentářů v těchto formátech.
-### Jak mohu zajistit, aby se komentáře objevily na správném místě ve výstupu HTML?  
-Aspose.Cells automaticky zpracovává umisťování komentářů a zajišťuje, že se zobrazí na příslušných místech stejně jako v souboru aplikace Excel.
+A tady to máte! Právě jste se naučili, jak exportovat komentáře z excelového souboru do HTML pomocí Aspose.Cells pro .NET. Tento proces je nejen přímočarý, ale také zajišťuje, že při převodu do HTML nezůstanou žádné důležité poznámky ani anotace. Ať už pracujete na generování dynamických sestav nebo jednoduše převádíte excelové soubory pro webové použití, tato funkce vám může pomoci.
+## Často kladené otázky
+### Mohu exportovat pouze konkrétní komentáře z excelového souboru do HTML?  
+Ne, Aspose.Cells exportuje všechny komentáře, když `IsExportComments` je nastaveno na hodnotu true. Můžete si však přizpůsobit, které komentáře se mají zahrnout, ruční úpravou souboru Excel před exportem.
+### Ovlivňuje export komentářů rozvržení HTML souboru?  
+Vůbec ne! Aspose.Cells zajišťuje, že rozvržení zůstane zachováno, i když jsou komentáře přidávány jako další prvky v souboru HTML.
+### Mohu exportovat komentáře do jiných formátů, jako je PDF nebo Word?  
+Ano! Aspose.Cells podporuje několik exportních formátů, včetně PDF a Wordu. Podobné možnosti můžete použít i k zahrnutí komentářů do těchto formátů.
+### Jak mohu zajistit, aby se komentáře ve výstupu HTML zobrazovaly na správném místě?  
+Aspose.Cells automaticky umisťuje komentáře a zajišťuje jejich zobrazení na správných místech, stejně jako v souboru Excelu.
 ### Je Aspose.Cells kompatibilní se všemi verzemi Excelu?  
-Ano, Aspose.Cells je navržen tak, aby fungoval se všemi hlavními verzemi Excelu a zajistil kompatibilitu s vašimi soubory, ať už jsou ve formátu XLS, XLSX nebo jiných formátech Excelu.
+Ano, Aspose.Cells je navržen tak, aby fungoval se všemi hlavními verzemi Excelu, což zajišťuje kompatibilitu s vašimi soubory, ať už jsou ve formátu XLS, XLSX nebo jiných formátech Excelu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

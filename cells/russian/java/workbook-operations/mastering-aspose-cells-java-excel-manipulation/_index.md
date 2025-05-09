@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Обзор**: Быстро создайте пустую книгу Excel, чтобы начать обработку данных.
 
 **Пошаговое руководство:**
-1. **Создать рабочую книгу**: Создать `Workbook` объект.
+1. **Создать рабочую книгу**Создать `Workbook` объект.
 2. **Выходной каталог**: Определите, где вы хотите сохранить файл.
 
 ```java
@@ -195,6 +197,9 @@ Aspose.Cells для Java универсален и подходит для мн�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

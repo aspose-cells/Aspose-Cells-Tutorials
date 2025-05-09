@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # أتمتة Excel باستخدام Java
@@ -124,9 +126,11 @@ worksheet.getCells().get("A1").setStyle(style);
 ---
 
 سيمنحك هذا الدليل المفصل، مع أمثلة على أكواد المصدر، أساسًا متينًا لأتمتة Excel في Java باستخدام Aspose.Cells. نتمنى لك برمجةً ممتعةً وأتمتةً لمهام Excel!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

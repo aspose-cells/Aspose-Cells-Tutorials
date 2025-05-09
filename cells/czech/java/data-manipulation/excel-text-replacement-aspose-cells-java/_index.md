@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Využitím `Aspose.Cells for Java`, můžete automatizovat nahrazování textu v
 Vyzkoušejte řešení pro zefektivnění vašich úkolů v Excelu ještě dnes a začněte jednat!
 ## Sekce Často kladených otázek
 **Otázka 1:** Jak mám při nahrazování textu řešit rozlišování velkých a malých písmen?
-- **A:** Upravit `opts` nastavení, která chcete zahrnout `setCaseSensitive(true)` případě potřeby.
+- **A:** Upravit `opts` nastavení, která chcete zahrnout `setCaseSensitive(true)` v případě potřeby.
 **Otázka 2:** Mohu nahradit více různých řetězců najednou?
 - **A:** Implementujte samostatné smyčky pro každý řetězec nebo upravte logiku tak, aby zvládala více nahrazení v jednom průchodu.
 **Otázka 3:** Co mám dělat, když je můj soubor Excel příliš velký?
@@ -124,6 +126,9 @@ Pro další zkoumání:
 V případě jakýchkoli dotazů navštivte [Fórum podpory Aspose](https://forum.aspose.com/c/cells/9)Šťastné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

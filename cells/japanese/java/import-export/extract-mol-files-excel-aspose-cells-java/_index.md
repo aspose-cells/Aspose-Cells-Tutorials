@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Aspose.Cells for Java を使用して、Excel に埋め込まれた分子ファイル (.mol) を効率的に抽出する方法を学びましょう。この詳細なステップバイステップガイドで、化学データ分析を効率化しましょう。"
+"description": "Aspose.Cells for Java を使用して、Excel から埋め込まれた分子ファイル (.mol) を効率的に抽出する方法を学びましょう。この詳細なステップバイステップガイドで、化学データ分析を効率化しましょう。"
 "title": "Aspose.Cells Java を使用して Excel から .mol ファイルを抽出する包括的なガイド"
 "url": "/ja/java/import-export/extract-mol-files-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ index++; // 次の OLE オブジェクトのインデックスを増分します
 - **ファイルが見つからない例外**入力および出力ディレクトリのパスを確認してください。
 - **IO例外**出力ディレクトリへの書き込み権限があることを確認してください。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 .mol ファイルを抽出すると、次のようないくつかのシナリオで役立ちます。
 1. **化学データ分析**Excel ベースのデータセットを専門のソフトウェアに統合して、高度な分析を行います。
@@ -168,6 +170,9 @@ Aspose.Cells for Javaを使用してExcelに埋め込まれた.molファイル�
 これらのリソースを参照して理解を深め、プロジェクトにおける Aspose.Cells for Java の可能性を最大限に引き出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/OutlineForm.xlsx");
 Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
 
-#### 步驟 2：存取組件
+#### 第 2 步：訪問組件
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 PivotTable pivotTable = worksheet.getPivotTables().get(0);
@@ -186,6 +188,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/TabularForm.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

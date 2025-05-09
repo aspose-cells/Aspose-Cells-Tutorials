@@ -8,7 +8,9 @@ url: /net/excel-slicers-management/render-slicers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Slicers in Aspose.Cells .NET
@@ -106,6 +108,7 @@ You can get community support at the [Aspose forum](https://forum.aspose.com/c/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

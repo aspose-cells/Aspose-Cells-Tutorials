@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ System.out.println("Name of the cell containing formula: " + cell.getName());
 - Kaynakları serbest bırakmak için kullanılmayan nesneleri derhal elden çıkarın.
 
 ### Java Bellek Yönetimi için En İyi Uygulamalar
-- Düzenli olarak temizleyin `Workbook` Kaynakları serbest bırakmak için kullanımdan sonra nesne.
+- Düzenli olarak temizleyin `Workbook` Kullanımdan sonra kaynakları serbest bırakmak için nesne.
 - Otomatik kaynak yönetimini sağlamak için mümkün olan durumlarda try-with-resources ifadelerini kullanın.
 
 ## Çözüm
@@ -178,6 +180,9 @@ Bu çözümleri projelerinizde uygulamaya çalışmanızı öneririz! Daha fazla
 - [Aspose.Cells Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

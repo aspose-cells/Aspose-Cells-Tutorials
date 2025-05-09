@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Scopri come separare righe e colonne nei file Excel in modo efficiente con Aspose.Cells per Java. Questa guida passo passo illustra la configurazione, l'implementazione e le applicazioni pratiche."
-"title": "Come separare righe e colonne in Excel utilizzando Aspose.Cells Java&#58; una guida passo passo"
+"title": "Come separare righe e colonne in Excel utilizzando Aspose.Cells Java - Guida passo passo"
 "url": "/it/java/data-analysis/ungroup-rows-columns-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Sentiti libero di contattarci su [Forum Aspose](https://forum.aspose.com/c/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

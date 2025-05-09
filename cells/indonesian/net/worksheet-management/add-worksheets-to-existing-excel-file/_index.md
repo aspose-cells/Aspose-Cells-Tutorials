@@ -1,171 +1,175 @@
 ---
-title: Tambahkan Lembar Kerja ke File Excel yang Ada menggunakan Aspose.Cells
-linktitle: Tambahkan Lembar Kerja ke File Excel yang Ada menggunakan Aspose.Cells
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menambahkan lembar kerja ke berkas Excel yang sudah ada di Aspose.Cells for .NET dengan panduan langkah demi langkah ini. Sempurna untuk manajemen data yang dinamis.
-weight: 13
-url: /id/net/worksheet-management/add-worksheets-to-existing-excel-file/
+"description": "Tanuld meg, hogyan adhatsz hozzá munkalapokat egy meglévő Excel-fájlhoz az Aspose.Cells for .NET programban ezzel a lépésről lépésre szóló útmutatóval. Tökéletes a dinamikus adatkezeléshez."
+"linktitle": "Munkalapok hozzáadása meglévő Excel fájlhoz az Aspose.Cells használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Munkalapok hozzáadása meglévő Excel fájlhoz az Aspose.Cells használatával"
+"url": "/id/net/worksheet-management/add-worksheets-to-existing-excel-file/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Lembar Kerja ke File Excel yang Ada menggunakan Aspose.Cells
+# Munkalapok hozzáadása meglévő Excel fájlhoz az Aspose.Cells használatával
 
-## Perkenalan
+## Bevezetés
 
-Dalam tutorial ini, kita akan menyelami hal-hal mendasar tentang menambahkan lembar kerja ke berkas Excel yang sudah ada menggunakan Aspose.Cells for .NET. Tutorial ini akan mencakup prasyarat, impor paket, dan panduan langkah demi langkah untuk menyiapkan dan menjalankan kode Anda.
+Ebben az oktatóanyagban elmélyedünk egy munkalap meglévő Excel-fájlhoz való hozzáadásának alapjaiban az Aspose.Cells for .NET használatával. Az oktatóanyag tartalmazza az előfeltételeket, a csomagok importálását és egy lépésről lépésre szóló útmutatót a kód üzembe helyezéséhez és futtatásához.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk memulai, pastikan Anda memiliki prasyarat berikut:
+Kezdésként győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 
-1.  Aspose.Cells untuk Pustaka .NET:[Unduh di sini](https://releases.aspose.com/cells/net/) atau menginstalnya melalui NuGet menggunakan:
+1. Aspose.Cells .NET könyvtárhoz: [Töltsd le itt](https://releases.aspose.com/cells/net/) vagy telepítsd NuGet-en keresztül a következőképpen:
 ```bash
 Install-Package Aspose.Cells
 ```
-2. Lingkungan .NET: Siapkan lingkungan pengembangan .NET, idealnya .NET Framework 4.0 atau yang lebih baru.
-3. Pengetahuan Dasar C#: Keakraban dengan C# akan membantu Anda mengikutinya dengan lebih mudah.
-4. File Excel untuk Pengujian: Siapkan file Excel yang akan Anda tambahi lembar kerja.
+2. .NET környezet: Állítson be egy .NET fejlesztői környezetet, ideális esetben a .NET Framework 4.0-s vagy újabb verzióját.
+3. C# alapismeretek: A C# ismerete segít abban, hogy könnyebben kövesd a tanultakat.
+4. Excel fájl teszteléshez: Készítsen elő egy Excel fájlt, amelyhez hozzáad egy munkalapot.
 
-## Menyiapkan Lisensi Anda (Opsional)
+## Licenc beállítása (opcionális)
 
- Jika Anda mengerjakan versi berlisensi, terapkan lisensi Anda untuk membuka potensi penuh pustaka tersebut. Untuk lisensi sementara, periksa[tautan ini](https://purchase.aspose.com/temporary-license/).
+Ha licencelt verzión dolgozik, alkalmazza a licencet a könyvtár teljes potenciáljának kiaknázásához. Ideiglenes licenc esetén ellenőrizze a következőt: [ezt a linket](https://purchase.aspose.com/temporary-license/).
 
 
-## Paket Impor
+## Csomagok importálása
 
-Sebelum masuk ke kode, pastikan Anda telah mengimpor paket Aspose.Cells dan System.IO yang diperlukan untuk penanganan file.
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy importáltuk a szükséges Aspose.Cells csomagot és a System.IO-t a fájlkezeléshez.
 
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 
-Mari kita uraikan prosesnya ke dalam langkah-langkah yang jelas untuk membantu Anda memahami bagaimana semuanya berjalan.
+Bontsuk le a folyamatot világos lépésekre, hogy könnyebben megérthesd, hogyan kapcsolódik össze az egész.
 
 
-## Langkah 1: Tentukan Jalur File
+## 1. lépés: A fájl elérési útjának meghatározása
 
-Pada langkah awal ini, Anda akan menentukan direktori tempat file Excel Anda berada. Ini adalah bagian sederhana namun penting untuk membantu program Anda menemukan file tersebut.
+Ebben a kezdeti lépésben meg kell adnia azt a könyvtárat, ahol az Excel-fájljai találhatók. Ez egy egyszerű, de elengedhetetlen rész, amely segít a programnak megtalálni a fájlt.
 
 ```csharp
-// Jalur ke direktori dokumen.
+// A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
 
- Direktori ini harus menunjuk ke tempat Anda`book1.xls` file disimpan. Jika Anda tidak yakin dengan jalurnya, gunakan jalur absolut (misalnya,`C:\\Users\\YourName\\Documents\\`).
+Ennek a könyvtárnak oda kell mutatnia, ahová a `book1.xls` a fájl mentésre kerül. Ha nem biztos az elérési úton, használja az abszolút elérési utat (pl. `C:\\Users\\YourName\\Documents\\`).
 
 
-## Langkah 2: Buka File Excel sebagai FileStream
+## 2. lépés: Nyissa meg az Excel-fájlt FileStream formátumban
 
- Untuk bekerja dengan file Excel yang sudah ada, buka file tersebut sebagai`FileStream`Ini memungkinkan Aspose.Cells untuk membaca dan memanipulasi data berkas.
+Egy meglévő Excel-fájllal való munkához nyissa meg azt egy `FileStream`Ez lehetővé teszi az Aspose.Cells számára a fájladatok olvasását és kezelését.
 
 ```csharp
-// Membuat aliran file yang berisi file Excel yang akan dibuka
+// Létrehoz egy fájlfolyamot, amely tartalmazza a megnyitni kívánt Excel-fájlt.
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- Di Sini,`FileMode.Open` memberitahu program untuk membuka file jika ada. Pastikan`book1.xls`diberi nama dan ditempatkan dengan benar di direktori Anda untuk menghindari kesalahan.
+Itt, `FileMode.Open` utasítja a programot, hogy nyissa meg a fájlt, ha létezik. Győződjön meg róla, hogy `book1.xls` helyesen van elnevezve és elhelyezve a könyvtárban a hibák elkerülése érdekében.
 
 
-## Langkah 3: Buat Instansiasi Objek Buku Kerja
+## 3. lépés: A munkafüzet objektum példányosítása
 
- Selanjutnya, buatlah`Workbook` objek menggunakan FileStream. Objek ini mewakili berkas Excel dan memberi Anda akses ke semua properti dan metodenya.
+Ezután hozzon létre egy `Workbook` objektum a FileStream használatával. Ez az objektum az Excel fájlt jelöli, és hozzáférést biztosít annak összes tulajdonságához és metódusához.
 
 ```csharp
-// Membuat instance objek Buku Kerja
-// Membuka file Excel melalui aliran file
+// Workbook objektum példányosítása
+// Az Excel fájl megnyitása a fájlfolyamon keresztül
 Workbook workbook = new Workbook(fstream);
 ```
 
- Sekarang,`workbook` menampung berkas Excel Anda, siap untuk dimodifikasi.
+Jelenleg, `workbook` tárolja az Excel fájlt, készen áll a módosításokra.
 
 
-## Langkah 4: Tambahkan Lembar Kerja Baru ke Buku Kerja
+## 4. lépés: Új munkalap hozzáadása a munkafüzethez
 
- Setelah membuat contoh buku kerja, langkah selanjutnya adalah menambahkan lembar kerja baru. Di sini, Aspose.Cells menyediakan cara mudah untuk menambahkan lembar kerja baru.`Add()` metode untuk menangani hal ini.
+Miután létrehoztuk a munkafüzet-példányt, a következő lépés egy új munkalap hozzáadása. Itt az Aspose.Cells egy egyszerű `Add()` módszer ennek kezelésére.
 
 ```csharp
-// Menambahkan lembar kerja baru ke objek Buku Kerja
+// Új munkalap hozzáadása a Munkafüzet objektumhoz
 int i = workbook.Worksheets.Add();
 ```
 
- Itu`Add()` metode mengembalikan indeks lembar kerja yang baru ditambahkan, yang dapat Anda gunakan untuk mengakses dan memodifikasinya.
+A `Add()` A metódus visszaadja az újonnan hozzáadott munkalap indexét, amely segítségével elérheti és módosíthatja azt.
 
 
-## Langkah 5: Akses Lembar Kerja yang Baru Ditambahkan berdasarkan Indeks
+## 5. lépés: Az újonnan hozzáadott munkalap elérése index alapján
 
-Setelah lembar kerja ditambahkan, ambil lembar kerja tersebut berdasarkan indeksnya. Ini memungkinkan Anda membuat perubahan lebih lanjut, seperti mengganti nama lembar kerja.
+Miután a munkalapot hozzáadta, az indexe alapján kérheti le. Ez lehetővé teszi további módosítások elvégzését, például a munkalap átnevezését.
 
 ```csharp
-// Mendapatkan referensi lembar kerja yang baru ditambahkan dengan meneruskan indeks lembar kerjanya
+// Az újonnan hozzáadott munkalap hivatkozásának lekérése a munkalap indexének átadásával
 Worksheet worksheet = workbook.Worksheets[i];
 ```
 
- Di Sini,`worksheet` mewakili lembar kosong baru Anda dalam buku kerja.
+Itt, `worksheet` az új üres lapot jelöli a munkafüzetben.
 
 
-## Langkah 6: Ganti Nama Lembar Kerja Baru
+## 6. lépés: Nevezze át az új munkalapot
 
- Memberi nama lembar kerja dapat membantu pengaturan, terutama saat menangani beberapa lembar. Tetapkan nama dengan`Name` milik.
+A munkalap elnevezése segíthet a rendszerezésben, különösen több munkalap kezelésekor. A nevet a következővel adhatja meg: `Name` ingatlan.
 
 ```csharp
-// Mengatur nama lembar kerja yang baru ditambahkan
+// Az újonnan hozzáadott munkalap nevének beállítása
 worksheet.Name = "My Worksheet";
 ```
 
-Jangan ragu untuk mengganti namanya menjadi sesuatu yang bermakna untuk konteks proyek Anda.
+Nyugodtan átnevezheted valami értelmesre a projekted kontextusához.
 
 
-## Langkah 7: Simpan File Excel yang Telah Dimodifikasi
+## 7. lépés: Mentse el a módosított Excel-fájlt
 
-Setelah Anda membuat perubahan, saatnya menyimpan berkas yang dimodifikasi. Anda dapat menyimpannya sebagai berkas baru atau menimpa berkas yang sudah ada.
+Most, hogy elvégezte a módosításokat, itt az ideje menteni a módosított fájlt. Mentheti új fájlként, vagy felülírhatja a meglévőt.
 
 ```csharp
-// Menyimpan file Excel
+// Az Excel fájl mentése
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Menyimpannya sebagai`output.out.xls` menjaga berkas asli tetap utuh. Jika Anda ingin menimpa berkas yang sudah ada, cukup gunakan nama berkas yang sama dengan berkas masukan.
+Mentés másként `output.out.xls` az eredeti fájlt érintetlenül hagyja. Ha felül szeretné írni a meglévő fájlt, egyszerűen használja ugyanazt a fájlnevet, mint a bemeneti fájlé.
 
 
-## Langkah 8: Tutup FileStream
+## 8. lépés: Zárja be a FileStream-et
 
-Terakhir, tutup FileStream untuk melepaskan sumber daya.
+Végül zárja be a FileStream-et az erőforrások felszabadításához.
 
 ```csharp
-// Menutup aliran file untuk membebaskan semua sumber daya
+// A fájlfolyam bezárása az összes erőforrás felszabadításához
 fstream.Close();
 ```
 
-Menutup aliran sangat penting untuk mencegah kebocoran memori, terutama jika Anda bekerja dengan file besar atau beberapa aliran dalam satu program.
+A stream lezárása elengedhetetlen a memóriaszivárgások megelőzése érdekében, különösen akkor, ha nagy fájlokkal vagy több streammel dolgozol egy programban.
 
 
-## Kesimpulan
+## Következtetés
 
-Dengan Aspose.Cells untuk .NET, menambahkan lembar kerja ke berkas Excel yang sudah ada merupakan proses yang mudah. Dengan mengikuti langkah-langkah sederhana ini, Anda dapat dengan mudah membuka berkas Excel, menambahkan lembar baru, mengganti namanya, dan menyimpan perubahan—semuanya dalam beberapa baris kode. Tutorial ini menunjukkan cara melakukan tindakan ini secara terprogram, sehingga memudahkan pengelolaan berkas Excel secara dinamis dalam aplikasi .NET Anda. Jika Anda ingin menambahkan pemrosesan data yang kompleks atau pembuatan laporan yang dinamis, Aspose.Cells menawarkan banyak fitur tambahan untuk dijelajahi.
+Az Aspose.Cells for .NET segítségével egy munkalap hozzáadása egy meglévő Excel-fájlhoz egyszerű folyamat. Ezeket az egyszerű lépéseket követve könnyedén megnyithat egy Excel-fájlt, új munkalapokat adhat hozzá, átnevezheti őket és mentheti a módosításokat – mindezt néhány sornyi kóddal. Ez az oktatóanyag bemutatta, hogyan hajthatja végre ezeket a műveleteket programozottan, megkönnyítve az Excel-fájlok dinamikus kezelését a .NET-alkalmazásokban. Ha összetett adatfeldolgozást vagy dinamikus jelentéskészítést szeretne hozzáadni, az Aspose.Cells számos további funkciót kínál.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Bisakah saya menambahkan beberapa lembar kerja sekaligus?
- Ya! Anda bisa menelepon`workbook.Worksheets.Add()` beberapa kali untuk menambahkan lembar kerja sebanyak yang Anda perlukan.
+### Több munkalapot is hozzáadhatok egyszerre?
+Igen! Hívhatsz! `workbook.Worksheets.Add()` többször is, hogy annyi munkalapot adj hozzá, amennyire szükséged van.
 
-### Bagaimana cara menghapus lembar kerja di Aspose.Cells?
- Menggunakan`workbook.Worksheets.RemoveAt(sheetIndex)` untuk menghapus lembar kerja berdasarkan indeksnya.
+### Hogyan törölhetek egy munkalapot az Aspose.Cells-ben?
+Használat `workbook.Worksheets.RemoveAt(sheetIndex)` munkalap törlése az indexe alapján.
 
-### Apakah Aspose.Cells untuk .NET kompatibel dengan .NET Core?
-Tentu saja, Aspose.Cells untuk .NET mendukung .NET Core, menjadikannya lintas-platform.
+### Az Aspose.Cells for .NET kompatibilis a .NET Core-ral?
+Az Aspose.Cells for .NET természetesen támogatja a .NET Core-t, így több platformon is futtatható.
 
-### Bisakah saya mengatur kata sandi untuk buku kerja?
- Ya, Anda dapat mengatur kata sandi menggunakan`workbook.Settings.Password = "yourPassword";` untuk mengamankan buku kerja.
+### Beállíthatok jelszót a munkafüzethez?
+Igen, beállíthat jelszót a következővel: `workbook.Settings.Password = "yourPassword";` a munkafüzet biztosításához.
 
-### Apakah Aspose.Cells mendukung format file lain seperti CSV atau PDF?
-Ya, Aspose.Cells mendukung berbagai format file, termasuk CSV, PDF, HTML, dan banyak lagi.
+### Az Aspose.Cells támogat más fájlformátumokat is, például CSV-t vagy PDF-et?
+Igen, az Aspose.Cells számos fájlformátumot támogat, beleértve a CSV, PDF, HTML és egyebeket.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

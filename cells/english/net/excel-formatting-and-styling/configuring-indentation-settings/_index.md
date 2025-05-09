@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/configuring-indentation-settings/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Configuring Indentation Settings in Excel
@@ -111,6 +113,7 @@ You can find comprehensive documentation on [Aspose’s reference page](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ Excel 통합 문서 내의 숨겨진 외부 링크를 식별하는 것은 데이
   - Java를 지원하는 개발 환경(예: IntelliJ IDEA, Eclipse)
   - Maven 또는 Gradle 빌드 시스템 설치됨
 
-또한 객체 지향 원칙과 외부 라이브러리를 활용한 작업 등 기본적인 Java 프로그래밍 개념도 잘 알고 있어야 합니다.
+또한 객체 지향 원칙과 외부 라이브러리를 포함한 기본 Java 프로그래밍 개념에 대해서도 잘 알고 있어야 합니다.
 
 ## Java용 Aspose.Cells 설정
 
@@ -180,7 +182,7 @@ public class CheckWorkbookContainsHiddenExternalLinks {
 Aspose.Cells에 필요하므로 개발 환경에서 Java 8 이상을 지원하는지 확인하세요.
 
 ### 통합 문서 메모리 사용량을 효율적으로 관리하려면 어떻게 해야 하나요?
-Workbook 객체를 사용한 후에는 해당 객체를 삭제하고 불필요한 데이터 처리를 방지하여 메모리를 효과적으로 관리합니다.
+Workbook 객체를 사용한 후에는 삭제하고 불필요한 데이터 처리를 방지하여 메모리를 효과적으로 관리합니다.
 
 ### 여러 통합 문서에서 링크 가시성 검사를 자동화할 방법이 있나요?
 네, Java 루프나 일괄 처리 스크립트를 사용하여 프로세스를 스크립팅하여 이 기능을 여러 파일에 동시에 적용할 수 있습니다.
@@ -193,6 +195,9 @@ Workbook 객체를 사용한 후에는 해당 객체를 삭제하고 불필요�
 - [임시 면허](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

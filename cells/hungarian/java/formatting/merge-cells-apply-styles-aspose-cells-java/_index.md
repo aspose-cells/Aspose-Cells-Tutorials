@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,7 +171,7 @@ Ebben az oktatóanyagban megtanultad, hogyan egyesíthetsz cellákat, alkalmazha
 
 A következő lépések közé tartozik az Aspose.Cells fejlettebb funkcióinak feltárása, vagy más rendszerekkel való integrálása átfogó megoldások érdekében.
 
-**Készen állsz arra, hogy kipróbáld ezeket a technikákat?** Menj át a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) további olvasmányokért és letöltésért a könyvtárból [hivatalos oldal](https://releases.aspose.com/cells/java/).
+**Készen állsz kipróbálni ezeket a technikákat?** Menj át a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) további olvasmányokért és letöltésért a könyvtárból [hivatalos oldal](https://releases.aspose.com/cells/java/).
 
 ## GYIK szekció
 1. **Mire használják az Aspose.Cells for Java-t?**
@@ -192,6 +194,9 @@ A következő lépések közé tartozik az Aspose.Cells fejlettebb funkcióinak 
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

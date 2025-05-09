@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@
 
 - **ห้องสมุดที่จำเป็น:** รวมไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ เวอร์ชันที่ใช้ที่นี่คือ 25.3
 - **สภาพแวดล้อมการพัฒนา:** IDE ที่เหมาะสม (เช่น IntelliJ IDEA หรือ Eclipse) และ JDK ติดตั้งบนระบบของคุณ
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java โดยเฉพาะแนวคิดเชิงวัตถุ
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรมภาษา Java โดยเฉพาะแนวคิดเชิงวัตถุ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -173,6 +175,9 @@ workbook.save(dataDir);
    - ตรวจสอบให้แน่ใจว่าการกำหนดค่าการสร้างของคุณ (Maven หรือ Gradle) มีรายการการอ้างอิงที่ถูกต้องสำหรับ Aspose.Cells
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

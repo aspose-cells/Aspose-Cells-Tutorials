@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,19 +19,19 @@
 
 Apakah Anda lelah memeriksa secara manual apakah kata sandi file Excel sudah benar? Dengan alat yang tepat, verifikasi kata sandi dapat diotomatisasi secara efisien dan aman. Tutorial ini memandu Anda menggunakan Aspose.Cells untuk Java untuk memvalidasi kata sandi Excel dengan mudah. 
 
-### Apa yang Akan Anda Pelajari:
+### Amit tanulni fogsz:
 - Cara mengatur Aspose.Cells di proyek Java Anda
 - Teknik untuk memverifikasi kata sandi file Excel secara terprogram
 - Aplikasi praktis validasi kata sandi
-- Tips pengoptimalan kinerja
+- Teljesítményoptimalizálási tippek
 
 Mari selami proses pengaturan dan implementasi!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 Anda memerlukan Aspose.Cells untuk Java. Berikut cara menambahkannya menggunakan Maven atau Gradle.
 
 **Pakar**
@@ -46,24 +48,24 @@ Anda memerlukan Aspose.Cells untuk Java. Berikut cara menambahkannya menggunakan
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Java.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Pemahaman dasar tentang pemrograman Java dan keakraban dengan alat pembangun Maven/Gradle akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk memulai, ikuti langkah-langkah berikut untuk menyiapkan Aspose.Cells di lingkungan Java Anda:
 
-1. **Instalasi**: Gunakan cuplikan dependensi yang disediakan di atas untuk menambahkan Aspose.Cells ke proyek Anda menggunakan Maven atau Gradle.
-2. **Akuisisi Lisensi**:
-   - Anda bisa memulai dengan [uji coba gratis](https://releases.aspose.com/cells/java/) untuk menjelajahi fitur.
-   - Untuk penggunaan yang lebih lama, pertimbangkan untuk mendapatkan lisensi sementara dari [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
-   - Beli lisensi penuh jika diperlukan untuk penerapan tingkat perusahaan di [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+1. **Telepítés**: Gunakan cuplikan dependensi yang disediakan di atas untuk menambahkan Aspose.Cells ke proyek Anda menggunakan Maven atau Gradle.
+2. **Licencszerzés**:
+   - Kezdheted egy [ingyenes próba](https://releases.aspose.com/cells/java/) a funkciók felfedezéséhez.
+   - Untuk penggunaan yang lebih lama, pertimbangkan untuk mendapatkan lisensi sementara dari [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
+   - Beli lisensi penuh jika diperlukan untuk penerapan tingkat perusahaan di [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 
-3. **Inisialisasi Dasar**:
+3. **Alapvető inicializálás**:
    Setelah disiapkan, Anda dapat menginisialisasi Aspose.Cells di proyek Java Anda sebagai berikut:
 
 ```java
@@ -78,7 +80,7 @@ public class SetupExample {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini akan memandu Anda melalui penerapan fitur untuk memvalidasi kata sandi Excel menggunakan Aspose.Cells.
 
@@ -112,7 +114,7 @@ boolean isPasswordValid = FileFormatUtil.verifyPassword(fstream, "1234");
 System.out.println("Password is Valid: " + isPasswordValid);
 ```
 
-- **Parameter**:
+- **Paraméterek**:
   - `FileInputStream`: Aliran masukan dari file Excel yang terenkripsi.
   - `"1234"`: Kata sandi yang ingin Anda validasi.
 
@@ -124,42 +126,42 @@ Selalu pastikan aliran ditutup setelah digunakan untuk mencegah kebocoran sumber
 fstream.close();
 ```
 
-### Tips Pemecahan Masalah
-- Pastikan jalur berkas benar dan dapat diakses.
+### Hibaelhárítási tippek
+- Győződjön meg arról, hogy a fájl elérési útja helyes és elérhető.
 - Verifikasi bahwa versi pustaka Aspose.Cells sesuai dengan persyaratan proyek Anda.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario dunia nyata di mana validasi kata sandi dapat berguna:
 
-1. **Keamanan Data**: Secara otomatis memvalidasi kata sandi untuk file yang berisi informasi sensitif sebelum diproses.
-2. **Alur Kerja Otomatis**: Integrasikan dengan sistem yang memerlukan akses berkala ke file Excel yang dilindungi.
+1. **Adatbiztonság**: Secara otomatis memvalidasi kata sandi untuk file yang berisi informasi sensitif sebelum diproses.
+2. **Automatizált munkafolyamatok**: Integrasikan dengan sistem yang memerlukan akses berkala ke file Excel yang dilindungi.
 3. **Otentikasi Pengguna**: Validasi kata sandi yang dimasukkan pengguna terhadap kata sandi file Excel yang tersimpan dalam aplikasi aman.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells:
+Az Aspose.Cells használata közbeni optimális teljesítmény biztosítása érdekében:
 
-- **Mengoptimalkan Penggunaan Sumber Daya**: Tutup aliran dan lepaskan sumber daya segera setelah digunakan.
-- **Manajemen Memori**:Perhatikan praktik manajemen memori Java untuk mencegah kebocoran, terutama saat memproses file besar.
-- **Pemrosesan Batch**: Saat menangani banyak berkas, pertimbangkan teknik pemrosesan batch untuk meminimalkan overhead.
+- **Erőforrás-felhasználás optimalizálása**: Tutup aliran dan lepaskan sumber daya segera setelah digunakan.
+- **Memóriakezelés**:Perhatikan praktik manajemen memori Java untuk mencegah kebocoran, terutama saat memproses file besar.
+- **Kötegelt feldolgozás**: Saat menangani banyak berkas, pertimbangkan teknik pemrosesan batch untuk meminimalkan overhead.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara memvalidasi kata sandi Excel menggunakan Aspose.Cells di Java. Fitur ini tidak hanya menyederhanakan alur kerja Anda, tetapi juga meningkatkan protokol keamanan seputar data sensitif. Pertimbangkan untuk menjelajahi lebih lanjut fungsi Aspose.Cells guna memperoleh kemampuan manipulasi file tambahan.
 
-### Langkah Berikutnya
+### Következő lépések
 - Bereksperimenlah dengan fitur Aspose.Cells lainnya seperti konversi dokumen atau pembuatan bagan.
 - Integrasikan solusi ini ke dalam aplikasi Anda yang sudah ada untuk mengotomatiskan tugas penanganan Excel.
 
 Siap untuk mempraktikkan pengetahuan ini? Cobalah menerapkan solusi ini dalam proyek kecil dan lihat bagaimana solusi ini dapat mengubah pendekatan Anda dalam mengelola berkas Excel!
 
-## Bagian FAQ
+## GYIK szekció
 
-**Q1: Dapatkah saya menggunakan Aspose.Cells secara gratis?**
-A1: Ya, Anda bisa memulai dengan [uji coba gratis](https://releases.aspose.com/cells/java/) yang menyediakan akses penuh ke semua fitur.
+**1. kérdés: Ingyenesen használhatom az Aspose.Cells-t?**
+A1: Ya, Anda bisa memulai dengan [ingyenes próba](https://releases.aspose.com/cells/java/) yang menyediakan akses penuh ke semua fitur.
 
-**Q2: Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+**2. kérdés: Hogyan kezelhetem hatékonyan a nagyméretű Excel-fájlokat?**
 A2: Gunakan praktik manajemen memori Java dan segera tutup aliran data. Pertimbangkan untuk memecah tugas atau menggunakan pemrosesan batch demi efisiensi.
 
 **Q3: Apa saja pilihan lisensi yang tersedia?**
@@ -169,20 +171,23 @@ A3: Anda dapat memilih lisensi sementara untuk menjelajahi fitur, atau membeli l
 A4: Ya, dengan mengulangi beberapa file dan menerapkan logika validasi kata sandi secara individual.
 
 **Q5: Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Cells?**
-A5: Kunjungi [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) untuk panduan dan contoh yang lengkap.
+A5: Látogassa meg a [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és példákért.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**: https://reference.aspose.com/sel/java/
-- **Unduh**: https://releases.aspose.com/sel/java/
-- **Pembelian**: https://purchase.aspose.com/beli
-- **Uji Coba Gratis**: https://releases.aspose.com/sel/java/
-- **Lisensi Sementara**: https://purchase.aspose.com/lisensi-sementara/
-- **Mendukung**: https://forum.aspose.com/c/sel/9
+- **Dokumentáció**: https://reference.aspose.com/sel/java/
+- **Letöltés**: https://releases.aspose.com/sel/java/
+- **Vásárlás**: https://purchase.aspose.com/beli
+- **Ingyenes próbaverzió**: https://releases.aspose.com/sel/java/
+- **Ideiglenes engedély**: https://purchase.aspose.com/lisensi-sementara/
+- **Támogatás**: https://forum.aspose.com/c/sel/9
 
 Jelajahi sumber daya ini untuk memperdalam pemahaman Anda dan meningkatkan penerapan Aspose.Cells dalam proyek Java. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

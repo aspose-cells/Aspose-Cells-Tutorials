@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,7 +163,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 4. **ฉันจะจัดการชุดข้อมูลขนาดใหญ่ด้วย Aspose.Cells ได้อย่างไร**
    - เพิ่มประสิทธิภาพการตั้งค่า JVM และประมวลผลข้อมูลเป็นชุดเพื่อจัดการหน่วยความจำอย่างมีประสิทธิภาพ
 
-5. **ฉันจะได้รับความช่วยเหลือหากประสบปัญหาได้ที่ไหน?**
+5. **ฉันจะได้รับความช่วยเหลือได้ที่ไหนหากประสบปัญหา?**
    - เยี่ยมชม [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9) เพื่อขอความช่วยเหลือจากสมาชิกชุมชนและผู้เชี่ยวชาญ
 
 ## ทรัพยากร
@@ -175,6 +177,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 คู่มือนี้ควรช่วยให้คุณใช้ Aspose.Cells สำหรับ Java ในโครงการของคุณได้อย่างมีประสิทธิภาพ เพิ่มประสิทธิภาพการจัดการข้อมูลและประสิทธิภาพการทำงาน ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

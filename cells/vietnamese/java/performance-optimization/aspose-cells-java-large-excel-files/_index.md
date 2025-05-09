@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ license.setLicense("path/to/your/license/file.lic");
 
 Sau đây là hướng dẫn từng bước để triển khai giải pháp.
 
-### Tải hiệu quả các tệp Excel lớn
+### Tải các tệp Excel lớn một cách hiệu quả
 Để xử lý các tệp lớn một cách hiệu quả, hãy thiết lập tùy chọn bộ nhớ phù hợp bằng Aspose.Cells `MemorySetting` lựa chọn.
 
 #### Bước 1: Chỉ định Tùy chọn Tải
@@ -152,6 +154,9 @@ Sẵn sàng áp dụng những kỹ năng này vào dự án tiếp theo của b
 Với hướng dẫn toàn diện này, giờ đây bạn đã có đủ khả năng xử lý các tệp Excel lớn một cách chuyên nghiệp bằng Aspose.Cells for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

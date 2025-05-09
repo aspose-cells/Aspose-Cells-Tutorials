@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ Các `IStreamProvider` Giao diện cho phép bạn xử lý luồng trong quá t
 ## Cân nhắc về hiệu suất
 
 - **Tối ưu hóa việc sử dụng tài nguyên**Theo dõi mức sử dụng bộ nhớ và tối ưu hóa việc xử lý luồng để quản lý các tệp Excel lớn một cách hiệu quả.
-- **Quản lý bộ nhớ Java**: Hãy chú ý đến chức năng thu gom rác của Java khi xử lý các tập dữ liệu lớn trong Aspose.Cells. Sử dụng lại các đối tượng khi có thể để giảm chi phí.
+- **Quản lý bộ nhớ Java**: Hãy chú ý đến việc thu gom rác của Java khi xử lý các tập dữ liệu lớn trong Aspose.Cells. Sử dụng lại các đối tượng khi có thể để giảm chi phí.
 
 ## Phần kết luận
 
@@ -201,6 +203,9 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến cách triển kha
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

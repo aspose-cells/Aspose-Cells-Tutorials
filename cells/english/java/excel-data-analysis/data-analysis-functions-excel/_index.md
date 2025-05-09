@@ -8,7 +8,9 @@ url: /java/excel-data-analysis/data-analysis-functions-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Analysis Functions Excel
@@ -117,6 +119,7 @@ For more advanced examples, tutorials, and resources on Aspose.Cells for Java, p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

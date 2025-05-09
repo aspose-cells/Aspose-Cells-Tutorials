@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anpassa pivottabellstilar
@@ -87,9 +89,11 @@ Att anpassa pivottabellstilar i Aspose.Cells för Java API är enkelt och låter
    Du kan läsa API-dokumentationen på [Aspose.Cells för Java API-referenser](https://reference.aspose.com/cells/java/) för detaljerad information.
 
 Nu har du kunskapen för att skapa och anpassa pivottabellstilar i Aspose.Cells för Java. Utforska vidare och gör dina datapresentationer verkligt exceptionella!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

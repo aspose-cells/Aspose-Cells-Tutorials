@@ -7,38 +7,40 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konfigurasikan Opsi PivotTable dengan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Kesulitan untuk menyesuaikan PivotTable di Excel menggunakan Java? Panduan ini akan menunjukkan kepada Anda cara menyederhanakan proses menggunakan **Aspose.Cells untuk Java**Pustaka canggih ini memungkinkan Anda memanipulasi file Excel secara terprogram, sehingga memudahkan penerapan fitur kompleks seperti mengonfigurasi opsi PivotTable.
 
 Dalam tutorial ini, kami akan membahas cara mengatur opsi tampilan untuk nilai null dalam PivotTable dan menyimpan perubahan Anda secara efisien. Dengan mengikuti langkah-langkah ini, Anda akan menyempurnakan cara Anda menangani presentasi data di Excel melalui aplikasi Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengonfigurasi opsi PivotTable menggunakan Aspose.Cells
 - Teknik untuk menampilkan atau menyembunyikan nilai sel kosong
 - Menyimpan file Excel yang Anda sesuaikan
 
 Mari selami pengaturan dan penerapan fitur-fitur ini!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java**: Versi 25.3 atau yang lebih baru.
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Lingkungan pengembangan yang disiapkan dengan JDK (Java Development Kit).
 - IDE seperti IntelliJ IDEA atau Eclipse.
 - Pengetahuan dasar tentang pemrograman Java.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Kemampuan menggunakan PivotTable Excel dan konsep dasar Java akan bermanfaat, tetapi tidak sepenuhnya diperlukan, karena kami akan membahas semuanya langkah demi langkah.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -59,11 +61,11 @@ Untuk mulai menggunakan Aspose.Cells di proyek Anda, pertama-tama Anda perlu men
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis**: Mulailah dengan mengunduh uji coba gratis dari [Halaman rilis Aspose](https://releases.aspose.com/cells/java/)Ini akan memungkinkan Anda menguji fitur-fitur secara penuh tanpa batasan.
-2. **Lisensi Sementara**:Untuk pengujian yang diperpanjang, minta lisensi sementara melalui [Portal pembelian Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian**Jika puas dengan uji coba, pertimbangkan untuk membeli lisensi penuh untuk penggunaan produksi.
+1. **Ingyenes próbaverzió**Kezdésként töltsön le egy ingyenes próbaverziót innen: [Az Aspose kiadási oldala](https://releases.aspose.com/cells/java/)Ini akan memungkinkan Anda menguji fitur-fitur secara penuh tanpa batasan.
+2. **Ideiglenes engedély**:Untuk pengujian yang diperpanjang, minta lisensi sementara melalui [Portal pembelian Aspose](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás**Jika puas dengan uji coba, pertimbangkan untuk membeli lisensi penuh untuk penggunaan produksi.
 
 Setelah Anda memperoleh berkas lisensi, ikuti langkah-langkah berikut untuk menginisialisasi Aspose.Cells di proyek Java Anda:
 
@@ -74,7 +76,7 @@ License license = new License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang setelah lingkungan kita disiapkan, mari masuk ke konfigurasi opsi PivotTable menggunakan Aspose.Cells.
 
@@ -120,53 +122,56 @@ pt.setRefreshDataOnOpeningFile(false);
 wb.save("SettingPivotTableOption_out.xlsx");
 ```
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - **Perpustakaan yang Hilang**Pastikan semua dependensi ditambahkan dengan benar ke konfigurasi build Anda.
 - **Jalur Lisensi Tidak Valid**: Verifikasi jalur yang ditentukan di `setLicense()` benar dan dapat diakses.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa kasus penggunaan dunia nyata di mana konfigurasi PivotTable dapat sangat berguna:
 
-1. **Pelaporan Data**: Secara otomatis memformat laporan dengan menampilkan "N/A" untuk data yang hilang, memastikan kejelasan.
-2. **Analisis Keuangan**: Sesuaikan dasbor keuangan untuk menunjukkan dengan jelas nilai yang tidak ada dalam proyeksi atau hasil.
-3. **Manajemen Inventaris**Sorot entri stok kosong dengan pesan khusus selama audit inventaris.
+1. **Adatjelentés**: Secara otomatis memformat laporan dengan menampilkan "N/A" untuk data yang hilang, memastikan kejelasan.
+2. **Pénzügyi elemzés**: Sesuaikan dasbor keuangan untuk menunjukkan dengan jelas nilai yang tidak ada dalam proyeksi atau hasil.
+3. **Készletgazdálkodás**Sorot entri stok kosong dengan pesan khusus selama audit inventaris.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- Menggunakan `setRefreshDataOnOpeningFile(false)` jika buku kerja Anda tidak memerlukan pembaruan langsung, meningkatkan waktu muat.
+- Használat `setRefreshDataOnOpeningFile(false)` jika buku kerja Anda tidak memerlukan pembaruan langsung, meningkatkan waktu muat.
 - Kelola penggunaan memori secara efektif dengan membuang objek yang tidak diperlukan setelah operasi selesai.
 
-## Kesimpulan
+## Következtetés
 
 Kami telah mempelajari cara mengonfigurasi opsi PivotTable menggunakan Aspose.Cells untuk Java. Dengan menguasai teknik-teknik ini, Anda dapat meningkatkan cara Anda menyajikan dan mengelola data dalam file Excel secara terprogram. 
 
 Langkah selanjutnya dapat mencakup penjelajahan fitur lain seperti integrasi bagan atau manipulasi data tingkat lanjut dengan Aspose.Cells. Cobalah di proyek Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Apa itu Aspose.Cells?**
+1. **Mi az Aspose.Cells?**
    - Pustaka yang canggih untuk mengelola dokumen Excel dalam aplikasi Java.
 2. **Bagaimana cara menampilkan sel kosong sebagai "N/A"?**
-   - Menggunakan `setDisplayNullString(true)` Dan `setNullString("N/A")`.
-3. **Bisakah saya menggunakan Aspose.Cells tanpa lisensi?**
+   - Használat `setDisplayNullString(true)` és `setNullString("N/A")`.
+3. **Használhatom az Aspose.Cells-t licenc nélkül?**
    - Ya, tetapi ada batasannya. Pertimbangkan lisensi sementara atau penuh untuk fitur yang diperluas.
-4. **Di mana saya bisa mendapatkan dukungan jika saya mengalami masalah?**
-   - Kunjungi [Forum Aspose](https://forum.aspose.com/c/cells/9) untuk dukungan masyarakat dan resmi.
-5. **Apakah Aspose.Cells kompatibel dengan semua versi Excel?**
+4. **Hol kaphatok támogatást, ha problémákba ütközöm?**
+   - Látogassa meg a [Aspose Fórum](https://forum.aspose.com/c/cells/9) a közösségi és hivatalos támogatásért.
+5. **Az Aspose.Cells kompatibilis az összes Excel verzióval?**
    - Ya, ini mendukung berbagai format Excel termasuk .xls dan .xlsx.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**:Jelajahi lebih lanjut di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/)
-- **Unduh**:Dapatkan rilis terbaru dari [Rilis Aspose](https://releases.aspose.com/cells/java/)
-- **Pembelian**: Beli lisensi melalui [Portal Pembelian Aspose](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: Uji fitur dengan [versi uji coba gratis](https://releases.aspose.com/cells/java/)
+- **Dokumentáció**:Jelajahi lebih lanjut di [Aspose dokumentáció](https://reference.aspose.com/cells/java/)
+- **Letöltés**: Szerezd meg a legújabb kiadást innen: [Aspose kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: Vásároljon licencet itt: [Aspose Vásárlási Portál](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: Uji fitur dengan [versi uji coba gratis](https://releases.aspose.com/cells/java/)
 
 Panduan ini akan membantu Anda memanfaatkan potensi penuh Aspose.Cells untuk Java dalam mengonfigurasi PivotTable secara efektif. Selamat membuat kode!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

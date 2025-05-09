@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Aprenda a convertir sin problemas archivos de Excel a PDF con todas las columnas encajadas en una página usando Aspose.Cells para Java."
-"title": "Convertir Excel a PDF con Ajustar Columnas en Java usando Aspose.Cells"
+"title": "Convertir Excel a PDF con la función Ajustar columnas en Java usando Aspose.Cells"
 "url": "/es/java/workbook-operations/convert-excel-to-pdf-fit-columns-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ En este tutorial, exploramos cómo usar Aspose.Cells para Java para convertir ar
 - [Foro de soporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

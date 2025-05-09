@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ ca.StartColumn = 1;
 ca.EndColumn = 1;
 fcs.addArea(ca);
 ```
-在這裡，我們定義一個將套用條件格式的儲存格區域（例如，B3）。
+在這裡，我們定義將套用條件格式的儲存格區域（例如，B3）。
 
 ### 根據公式設定條件格式（H3）
 
@@ -232,6 +234,9 @@ workbook.save(outDir + "/CFBasedOnFormula_out.xls", SaveFormat.EXCEL_97_TO_2003)
 透過遵循這些步驟和資源，您將能夠在專案中有效地實施 Aspose.Cells for Java。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ public class PreventExportingHiddenWorksheetContent {
 - **जावा मेमोरी प्रबंधन**: बड़ी कार्यपुस्तिकाओं के प्रसंस्करण के लिए पर्याप्त हीप स्थान आवंटित करने के लिए JVM विकल्पों का उपयोग करें।
 
 ## निष्कर्ष
-इस गाइड का पालन करके, आपने सीखा है कि Aspose.Cells Java का उपयोग करके छिपी हुई वर्कशीट सामग्री को प्रभावी ढंग से निर्यात करने से कैसे रोका जाए। यह क्षमता केवल प्रासंगिक डेटा निर्यात किया जाना सुनिश्चित करके आपकी एक्सेल फ़ाइल हैंडलिंग प्रक्रियाओं को बहुत सरल बना सकती है।
+इस गाइड का पालन करके, आपने सीखा है कि Aspose.Cells Java का उपयोग करके छिपी हुई वर्कशीट सामग्री को प्रभावी ढंग से निर्यात करने से कैसे रोका जाए। यह क्षमता केवल प्रासंगिक डेटा निर्यात किया जाना सुनिश्चित करके आपकी Excel फ़ाइल हैंडलिंग प्रक्रियाओं को बहुत सरल बना सकती है।
 
 आगे की खोज के लिए, Aspose.Cells की अन्य विशेषताओं जैसे कि सूत्र गणना या चार्ट हेरफेर पर विचार करें।
 
@@ -177,6 +179,9 @@ A5: बिल्कुल। Aspose.Cells जटिल सूत्र गणन
 - **खरीदना**पूर्ण पहुँच के लिए, लाइसेंस खरीदने पर विचार करें [Aspose खरीद](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

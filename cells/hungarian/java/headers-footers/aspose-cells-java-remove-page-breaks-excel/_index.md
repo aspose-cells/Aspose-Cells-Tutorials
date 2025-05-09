@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 Az Excel-fájlokban az oldaltörések programozott kezelése kihívást jelenthet a fejlesztők számára. Akár vízszintes, akár függőleges oldaltörések eltávolítását kell automatizálnia Java használatával, **Aspose.Cells Java-hoz** a megoldás. Ez az átfogó útmutató végigvezet az oldaltörések eltávolításán az Excel-táblázatokból az Aspose.Cells Java használatával – ez egy hatékony, táblázatkezelésre tervezett könyvtár.
 
 **Amit tanulni fogsz:**
-- Hogyan lehet példányosítani a Workbook objektumot az Aspose.Cells fájlban?
+- Hogyan lehet példányosítani a Workbook objektumot az Aspose.Cells-ben?
 - Vízszintes és függőleges oldaltörések eltávolításának technikái
 - Környezet beállítása az Aspose.Cells használatához
 - Ezen funkciók valós alkalmazásai
@@ -58,7 +60,7 @@ Az inicializáláshoz `Workbook` objektum, adja meg az Excel-dokumentum fájlel�
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Adja meg itt az adatkönyvtárat
+String dataDir = "YOUR_DATA_DIRECTORY"; // Adja meg az adatkönyvtárat itt
 Workbook workbook = new Workbook(dataDir + "/SampleXLSFile_38kb.xls");
 ```
 
@@ -144,6 +146,9 @@ Ebben az oktatóanyagban megtanultad, hogyan kezelheted és távolíthatod el ha
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

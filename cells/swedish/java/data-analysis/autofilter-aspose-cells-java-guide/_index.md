@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ För att framgångsrikt implementera autofilter med Aspose.Cells för Java, se t
   
 - **Miljöinställningar:** Se till att en kompatibel JDK (JDK 8 eller senare) är installerad.
 
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och förtrogenhet med Excel-filoperationer rekommenderas för effektiv inlärning.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och förtrogenhet med Excel-filoperationer rekommenderas för effektiv inlärning.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -201,6 +203,9 @@ Med dessa resurser är du väl rustad för att fortsätta din resa med Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

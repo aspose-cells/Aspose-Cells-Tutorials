@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Chỉ tải các bảng tính cần thiết hoặc sử dụng API phát tr�
 MỘT:** Đảm bảo các chỉ số và vị trí chính xác được thiết lập để tránh lỗi tính toán. Luôn kiểm tra cấu hình của bạn với dữ liệu mẫu trước khi áp dụng chúng vào sổ làm việc sản xuất.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

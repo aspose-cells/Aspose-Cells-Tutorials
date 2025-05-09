@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Förbättra dina Excel-presentationers visuella attraktionskraft genom att lägg
 
 **Vad du kommer att lära dig:**
 - Konfigurera Aspose.Cells för Java
-- Använda reflektionseffekter i Excel-former
+- Tillämpa reflektionseffekter i Excel-former
 - Optimera prestanda och integrera med andra system
 
 Låt oss dyka ner i hur du enkelt kan uppnå dessa effekter. Se till att du har de nödvändiga förutsättningarna täckta innan vi börjar.
@@ -184,6 +186,9 @@ Försök att implementera den här lösningen i ditt nästa projekt för att se 
 - **Stöd:** [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

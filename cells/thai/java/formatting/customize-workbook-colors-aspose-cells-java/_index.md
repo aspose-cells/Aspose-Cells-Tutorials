@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### ขั้นตอนการรับใบอนุญาต
 
 - **ทดลองใช้งานฟรี**ดาวน์โหลดรุ่นทดลองใช้งานฟรีเพื่อทดสอบคุณสมบัติของ Aspose.Cells
-- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
+- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
 - **ซื้อ**:รับใบอนุญาตเต็มรูปแบบหากคุณตัดสินใจที่จะรวมสิ่งนี้เข้ากับโครงการของคุณอย่างถาวร
 
 เมื่อติดตั้งแล้ว ให้เริ่มต้นและตั้งค่า Aspose.Cells ในแอปพลิเคชัน Java ของคุณ:
@@ -226,6 +228,9 @@ workbook.save("ColorsAndPalette_out.xls", SaveFormat.EXCEL_97_TO_2003);
 เริ่มต้นการเดินทางของคุณด้วย Aspose.Cells วันนี้และเปลี่ยนแปลงวิธีการจัดการข้อมูลสเปรดชีตของคุณ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Questa guida illustra come personalizzare lo stile delle celle e aggiungere controlli casella combinata, migliorando i tuoi fogli di calcolo."
+"description": "Scopri come automatizzare le attività di Excel utilizzando Aspose.Cells per Java. Questa guida illustra come definire lo stile delle celle e aggiungere controlli casella combinata, migliorando i tuoi fogli di calcolo."
 "title": "Padroneggiare Aspose.Cells Java, applicare stili alle celle e aggiungere controlli ComboBox per l'automazione di Excel"
 "url": "/it/java/data-validation/aspose-cells-java-styling-combo-box-controls/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,6 +138,9 @@ Prova a implementare queste soluzioni nei tuoi progetti per scoprire come posson
 Intraprendi il tuo viaggio con Aspose.Cells per Java e sfrutta appieno il potenziale dell'automazione di Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

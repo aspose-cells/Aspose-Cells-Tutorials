@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ workbook.save(outDir + "/AllowLeadingApostropheSample_out.xlsx");
 4. **Обработка заработной платы**: Создавайте платежные ведомости, динамически заполняя данные о сотрудниках и информацию о зарплате.
 
 ## Соображения производительности
-- **Оптимизируйте использование ресурсов**: Обеспечьте эффективное управление памятью, удаляя объекты Workbook, когда они больше не нужны.
+- **Оптимизация использования ресурсов**: Обеспечьте эффективное управление памятью, удаляя объекты Workbook, когда они больше не нужны.
 - **Пакетная обработка**: Обрабатывайте большие наборы данных небольшими пакетами, чтобы минимизировать объем используемой памяти.
 - **Лучшие практики**: Регулярно обновляйте Aspose.Cells, чтобы воспользоваться улучшениями производительности и исправлениями ошибок.
 
@@ -162,6 +164,9 @@ workbook.save(outDir + "/AllowLeadingApostropheSample_out.xlsx");
 Изучите эти ресурсы, чтобы углубить свои знания и улучшить свои задачи обработки Excel с помощью Aspose.Cells для Java. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

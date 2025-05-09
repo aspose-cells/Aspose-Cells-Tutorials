@@ -1,14 +1,16 @@
 ---
-title: Проверьте, имеет ли значение ячейки определенный пользовательский числовой формат
-linktitle: Проверьте, имеет ли значение ячейки определенный пользовательский числовой формат
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства.
-weight: 10
-url: /ru/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/
+"description": "Узнайте, как проверить значения ячеек Excel на соответствие пользовательским числовым форматам с помощью Aspose.Cells для .NET, из этого пошагового руководства."
+"linktitle": "Проверьте, имеет ли значение ячейки определенный пользовательский числовой формат"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Проверьте, имеет ли значение ячейки определенный пользовательский числовой формат"
+"url": "/ru/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-specific-custom-number-format/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Проверьте, имеет ли значение ячейки определенный пользовательский числовой формат
@@ -22,7 +24,7 @@ url: /ru/net/excel-custom-number-date-formatting/check-if-a-cell-value-is-in-a-s
 Прежде чем мы углубимся в код, вам необходимо выполнить несколько предварительных условий:
 
 1. Установленная Visual Studio: убедитесь, что на вашем компьютере установлена Visual Studio (любой версии), так как мы будем работать в среде .NET.
-2.  Библиотека Aspose.Cells for .NET: Вам нужно будет загрузить и добавить библиотеку Aspose.Cells в свой проект. Вы можете получить последнюю версию[здесь](https://releases.aspose.com/cells/net/).
+2. Библиотека Aspose.Cells for .NET: Вам нужно будет загрузить и добавить библиотеку Aspose.Cells в свой проект. Вы можете получить последнюю версию [здесь](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: знакомство с программированием на C# поможет вам без труда освоить материал.
 
 Теперь, когда все необходимые условия выполнены, давайте перейдем непосредственно к импорту необходимых пакетов.
@@ -49,7 +51,7 @@ using System;
 Workbook wb = new Workbook();
 ```
 
- Инициализируя`Workbook`, мы создаем новый файл Excel в памяти, готовый к обработке.
+Инициализируя `Workbook`, мы создаем новый файл Excel в памяти, готовый к обработке.
 
 ## Шаг 2: Настройте параметры рабочей книги
 
@@ -57,10 +59,10 @@ Workbook wb = new Workbook();
 
 ```csharp
 // Включить исключение для недопустимых пользовательских числовых форматов
-wb.Settings.CheckCustomNumberFormat = true;
+wb.Параметрs.CheckCusкmNumberFormat = true;
 ```
 
- Параметр`CheckCustomNumberFormat` к`true` дает указание Aspose.Cells выдавать исключения всякий раз, когда применяется недопустимый формат, что позволяет улучшить обработку ошибок.
+Setting `CheckCustomNumberFormat` to `true` дает указание Aspose.Cells выдавать исключения всякий раз, когда применяется недопустимый формат, что позволяет улучшить обработку ошибок.
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -83,7 +85,7 @@ Cell c = ws.Cells["A1"];
 c.PutValue(2347);
 ```
 
- Используя`PutValue` , мы вставляем число`2347` в ячейку «А1». 
+Используя `PutValue`, мы вставляем число `2347` в ячейку «А1». 
 
 ## Шаг 5: Установите стиль ячейки
 
@@ -135,19 +137,21 @@ Console.WriteLine("CheckCustomNumberFormat executed successfully.");
 Aspose.Cells — это библиотека .NET, предназначенная для создания, обработки и преобразования файлов Excel без необходимости установки Microsoft Excel.
 
 ### Могу ли я попробовать Aspose.Cells бесплатно?
- Да, вы можете загрузить бесплатную пробную версию Aspose.Cells[здесь](https://releases.aspose.com/).
+Да, вы можете загрузить бесплатную пробную версию Aspose.Cells [здесь](https://releases.aspose.com/).
 
 ### Где я могу найти дополнительную документацию?
- Для получения более подробной информации посетите[документация](https://reference.aspose.com/cells/net/).
+Для получения более подробной информации посетите [документация](https://reference.aspose.com/cells/net/).
 
 ### Какие языки программирования поддерживает Aspose.Cells?
 Aspose.Cells в первую очередь поддерживает языки .NET, такие как C# и VB.NET.
 
 ### Как я могу сообщить о проблеме или получить поддержку?
- Вы можете задать вопросы или сообщить о проблемах на[Форум Aspose](https://forum.aspose.com/c/cells/9).
+Вы можете задать вопросы или сообщить о проблемах на [Форум Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

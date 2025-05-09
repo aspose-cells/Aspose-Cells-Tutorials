@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Deze tutorial demonstreerde hoe je benoemde bereiken kunt gebruiken met SOM-func
 Deze tutorial biedt je een uitgebreid inzicht in het implementeren van benoemde bereiken en somfuncties met Aspose.Cells voor Java. Probeer het uit en benut de volledige mogelijkheden van Excel-automatisering in je applicaties!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

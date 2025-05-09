@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,12 +168,15 @@ Redo att utveckla dina kunskaper ytterligare? Försök att implementera den här
 ## Resurser
 - **Dokumentation:** Utforska detaljerade guider på [Aspose-dokumentation](https://reference.aspose.com/cells/java/).
 - **Ladda ner:** Få den senaste utgåvan från [Aspose-utgåvor](https://releases.aspose.com/cells/java/).
-- **Köpa:** Säkra en licens för långsiktig användning på [Aspose-köp](https://purchase.aspose.com/buy).
+- **Köpa:** Säkra en licens för långvarig användning på [Aspose-köp](https://purchase.aspose.com/buy).
 - **Gratis provperiod:** Börja experimentera med en testversion från [Aspose Gratis Provperiod](https://releases.aspose.com/cells/java/).
 - **Tillfällig licens:** Ansök om förlängd testning via [Sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
 - **Stöd:** Engagera dig i samhället och få hjälp på [Aspose Supportforum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

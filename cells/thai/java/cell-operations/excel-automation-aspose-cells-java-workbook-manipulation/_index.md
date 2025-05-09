@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 ก่อนที่จะใช้งานการทำงานอัตโนมัติของ Excel โดยใช้ Aspose.Cells สำหรับ Java โปรดตรวจสอบให้แน่ใจว่าคุณมี:
 1. **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** รวมไลบรารี Aspose.Cells ไว้ในโปรเจ็กต์ของคุณ โดยระบุเวอร์ชัน 25.3 ขึ้นไป
 2. **การตั้งค่าสภาพแวดล้อม:** รองรับ Java ด้วยเครื่องมือสร้าง Maven หรือ Gradle
-3. **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการทำงานของ Excel
+3. **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับการทำงานของ Excel
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -204,6 +206,9 @@ Cell foundCell = worksheet.getCells().find(obj, null, options);
    - ใช่ครับ ใช้ `FindOptions` กำหนดค่าให้ดูค่าเดิมทำให้คุณสามารถค้นหาดังกล่าวได้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

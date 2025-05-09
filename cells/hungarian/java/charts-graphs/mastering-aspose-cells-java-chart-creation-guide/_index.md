@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ A mai adatvezérelt világban az információk hatékony vizualizációja kulcsf
 - Nyomtatási területek és jelmagyarázatok formázása
 - A munkafüzet mentése
 
-Merüljünk el az Aspose.Cells Java-ban való használatának lényegében, hogy bővíthessük diagramkészítési képességeinket.
+Merüljünk el az Aspose.Cells Java-ban való használatának lényegében, hogy fejlesszük diagramkészítési képességeinket.
 
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következőkkel rendelkezik:
@@ -244,6 +246,9 @@ Most már megtanultad, hogyan állítsd be az Aspose.Cells-t Java-ban, hogyan ho
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

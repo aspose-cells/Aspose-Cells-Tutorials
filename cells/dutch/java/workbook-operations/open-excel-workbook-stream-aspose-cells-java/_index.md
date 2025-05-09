@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ In deze handleiding hebben we behandeld hoe je een Excel-werkmap opent vanuit ee
 Als u deze uitgebreide handleiding volgt, bent u goed toegerust om Aspose.Cells voor Java in uw projecten te gebruiken en zowel de functionaliteit als de efficiëntie te verbeteren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

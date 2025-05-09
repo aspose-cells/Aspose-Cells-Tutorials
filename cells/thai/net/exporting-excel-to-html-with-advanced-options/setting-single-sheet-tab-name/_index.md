@@ -1,14 +1,16 @@
 ---
-title: ตั้งค่าชื่อแท็บแผ่นเดียวในการส่งออก HTML
-linktitle: ตั้งค่าชื่อแท็บแผ่นเดียวในการส่งออก HTML
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ตั้งชื่อแท็บชีตเดี่ยวได้อย่างง่ายดายระหว่างการส่งออก HTML โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
-weight: 21
-url: /th/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/
+"description": "ตั้งชื่อแท็บชีตเดี่ยวได้อย่างง่ายดายระหว่างการส่งออก HTML โดยใช้ Aspose.Cells สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย"
+"linktitle": "ตั้งค่าชื่อแท็บแผ่นเดียวในการส่งออก HTML"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ตั้งค่าชื่อแท็บแผ่นเดียวในการส่งออก HTML"
+"url": "/th/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-tab-name/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าชื่อแท็บแผ่นเดียวในการส่งออก HTML
@@ -19,7 +21,7 @@ url: /th/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-
 ก่อนที่เราจะเจาะลึกถึงแก่นแท้ของบทช่วยสอนนี้ เรามาสรุปกันก่อนว่าคุณต้องทำอะไรบ้างเพื่อให้บทช่วยสอนนี้ทำงานได้อย่างราบรื่น:
 ### ซอฟต์แวร์ที่จำเป็น
 - Microsoft Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio แล้ว เนื่องจาก Visual Studio จัดเตรียมสภาพแวดล้อมที่เราจะเขียนและดำเนินการโค้ดของเรา
-- Aspose.Cells สำหรับ .NET: ไลบรารีนี้ควรอ้างอิงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[ดาวน์โหลด Aspose](https://releases.aspose.com/cells/net/).
+- Aspose.Cells สำหรับ .NET: ไลบรารีนี้ควรอ้างอิงในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [ดาวน์โหลด Aspose](https://releases-aspose.com/cells/net/).
 ### ความเข้าใจพื้นฐาน
 - ความคุ้นเคยกับการเขียนโปรแกรม C# ขั้นพื้นฐานถือเป็นสิ่งสำคัญ หากคุณเคยเขียนโค้ดมาก่อน คุณน่าจะคุ้นเคยกับมันดี 
 ### การตั้งค่าโครงการ
@@ -31,8 +33,8 @@ url: /th/net/exporting-excel-to-html-with-advanced-options/setting-single-sheet-
 ### เพิ่มการอ้างอิงถึง Aspose.Cells
 1. คลิกขวาที่โครงการของคุณใน Solution Explorer
 2. เลือก “จัดการแพ็คเกจ NuGet”
-3.  ค้นหา`Aspose.Cells` และติดตั้งแพคเกจ
-4. ขั้นตอนนี้ช่วยให้แน่ใจว่าคุณมีไลบรารีทั้งหมดที่จำเป็นในการทำงานกับไฟล์ Excel
+3. ค้นหา `Aspose.Cells` และติดตั้งแพคเกจ
+4. ขั้นตอนนี้จะช่วยให้คุณมีไลบรารีทั้งหมดที่จำเป็นในการทำงานกับไฟล์ Excel
 ### เพิ่มเนมสเปซที่จำเป็น
 ในไฟล์โค้ดของคุณ เพิ่มเนมสเปซต่อไปนี้ที่ด้านบน:
 ```csharp
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 // ไดเรกทอรีผลลัพธ์
 string outputDir = "Your Document Directory";
 ```
- ที่นี่คุณจะแทนที่`"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีของคุณ ลองนึกถึงขั้นตอนนี้ว่าเป็นการเตรียมฉากสำหรับการแสดง—ทุกอย่างต้องอยู่ในที่ที่เหมาะสม!
+ที่นี่คุณจะแทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงไปยังไดเร็กทอรีของคุณ ลองนึกถึงขั้นตอนนี้ว่าเป็นการเตรียมฉากสำหรับการแสดง—ทุกอย่างต้องอยู่ในที่ที่เหมาะสม!
 ## ขั้นตอนที่ 2: โหลดสมุดงานของคุณ
 ต่อไปเรามาโหลดเวิร์กบุ๊กที่เราต้องการส่งออกกัน
 ```csharp
@@ -87,7 +89,7 @@ options.ExportHiddenWorksheet = true;
 - ExcludeUnusedStyles: ตัดสไตล์ที่ไม่ได้ใช้ออกไป ทำให้ไฟล์ดูเป็นระเบียบเรียบร้อย
 - ExportHiddenWorksheet: หากคุณมีแผ่นงานที่ซ่อนอยู่ ตัวเลือกนี้จะส่งออกแผ่นงานเหล่านั้นด้วย
 ## ขั้นตอนที่ 5: บันทึกสมุดงาน
-ตอนนี้ถึงเวลาสำหรับช่วงเวลาสำคัญที่เราจะบันทึกการเปลี่ยนแปลงของเรา
+ตอนนี้ถึงเวลาที่จะบันทึกการเปลี่ยนแปลงของเรา
 ```csharp
 // บันทึกสมุดงานในรูปแบบ HTML พร้อมตัวเลือกบันทึก HTML ที่ระบุไว้
 wb.Save(outputDir + "outputSampleSingleSheet.htm", options);
@@ -106,16 +108,18 @@ Console.WriteLine("SetSingleSheetTabNameInHtml executed successfully.");
 ### Aspose.Cells สำหรับ .NET คืออะไร?  
 Aspose.Cells สำหรับ .NET เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ในแอปพลิเคชัน .NET ได้ โดยไม่จำเป็นต้องติดตั้ง Microsoft Excel
 ### ฉันสามารถทดลองใช้ Aspose.Cells ฟรีได้หรือไม่?  
-ใช่! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีเพื่อสำรวจคุณสมบัติทั้งหมดก่อนตัดสินใจซื้อ ตรวจดู[ทดลองใช้ฟรีที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีเพื่อสำรวจคุณสมบัติทั้งหมดก่อนตัดสินใจซื้อ ตรวจดู [ทดลองใช้ฟรีที่นี่](https://releases-aspose.com/).
 ### ฉันสามารถหาเอกสารรายละเอียดเพิ่มเติมได้ที่ไหน  
- สำหรับเอกสารประกอบอย่างละเอียด โปรดไปที่[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/).
+สำหรับเอกสารประกอบอย่างละเอียด โปรดไปที่ [เอกสารประกอบ Aspose.Cells](https://reference-aspose.com/cells/net/).
 ### ฉันควรทำอย่างไรหากพบปัญหา?  
- การ[ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) ให้การสนับสนุนชุมชนซึ่งคุณสามารถถามคำถามและค้นหาวิธีแก้ไขได้
+การ [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9) ให้การสนับสนุนชุมชนซึ่งคุณสามารถถามคำถามและค้นหาวิธีแก้ไขได้
 ### เป็นไปได้ไหมที่จะจัดการแผ่นงานที่ซ่อนอยู่ในไฟล์ส่งออก HTML?  
- แน่นอน! โดยการตั้งค่า`options.ExportHiddenWorksheet = true;`, แผ่นที่ซ่อนอยู่จะรวมอยู่ในรายการส่งออก
+แน่นอน! โดยการตั้งค่า `options.ExportHiddenWorksheet = true;`, แผ่นที่ซ่อนอยู่จะรวมอยู่ในรายการส่งออก
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

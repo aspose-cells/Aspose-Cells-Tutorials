@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Az elnevezett tartományok leegyszerűsítik a cellákra való hivatkozást, íg
 // Hozzáférés a munkalapgyűjteményhez
 WorksheetCollection worksheets = book.getWorksheets();
 
-// Adjon hozzá egy új, elnevezett tartományt: „myName”
+// Új, elnevezett tartomány hozzáadása: „myName”
 int index = worksheets.getNames().add("myName");
 ```
 **Magyarázat**: `getNames().add()` egy elnevezett tartományt ad hozzá a munkafüzethez. A visszaadott érték `index` segít hozzáférni ehhez az újonnan létrehozott névhez.
@@ -192,6 +194,9 @@ Most már elsajátítottad az elnevezett tartományok létrehozását és haszn�
 Az útmutató követésével felkészült leszel arra, hogy kihasználd az Aspose.Cells for Java nevű tartományainak erejét a projektjeidben. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

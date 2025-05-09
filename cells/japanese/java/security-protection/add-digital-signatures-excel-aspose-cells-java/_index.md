@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ workbook.addDigitalSignature(dsCollection);
 
 ### ワークブックを保存
 #### 概要
-最後に、新しく追加されたデジタル署名を含むワークブックをファイルに保存します。
+最後に、新しく追加されたデジタル署名を含むブックをファイルに保存します。
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/outputDigitallySignedByCells.xlsx");
@@ -189,6 +191,9 @@ Aspose.Cells for Javaを使ってExcelブックにデジタル署名を追加す
 - より高度なスプレッドシート操作のために Aspose.Cells が提供する追加機能をご覧ください
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

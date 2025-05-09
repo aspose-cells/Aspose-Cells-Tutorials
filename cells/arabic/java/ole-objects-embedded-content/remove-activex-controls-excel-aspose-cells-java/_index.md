@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ workbook.save(outDir + "/RemoveActiveXControl_out.xlsx", SaveFormat.XLSX);
 ابدأ رحلتك مع Aspose.Cells Java اليوم واكتشف الإمكانات الكاملة للتعامل مع ملفات Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

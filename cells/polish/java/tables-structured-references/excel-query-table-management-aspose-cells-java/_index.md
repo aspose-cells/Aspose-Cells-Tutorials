@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -162,7 +164,7 @@ Oto kilka scenariuszy z życia wziętych, w których zarządzanie tabelami zapyt
 Efektywna praca z Aspose.Cells obejmuje:
 - **Optymalizacja wykorzystania pamięci:** Upewnij się, że ustawienia pamięci Java są dostosowane do obsługi dużych plików Excela.
 - **Efektywne zarządzanie zasobami:** Zamknij skoroszyty po przetworzeniu, aby zwolnić zasoby.
-- **Najlepsze praktyki:** W miarę możliwości należy używać operacji wsadowych i unikać zbędnego wprowadzania/wychodzenia plików podczas manipulowania danymi.
+- **Najlepsze praktyki:** W miarę możliwości należy używać operacji wsadowych i unikać zbędnego wprowadzania/wyprowadzania danych w trakcie manipulowania danymi.
 
 ## Wniosek
 
@@ -170,7 +172,7 @@ Poznałeś już, jak czytać, modyfikować i zapisywać tabele zapytań programu
 
 **Następne kroki:**
 - Poznaj bardziej zaawansowane funkcje, takie jak manipulowanie wykresami i obliczanie wzorów.
-- Spróbuj wdrożyć niewielki projekt, który pomoże Ci ugruntować wiedzę na temat zarządzania tabelami zapytań.
+- Spróbuj wdrożyć niewielki projekt, aby ugruntować swoją wiedzę na temat zarządzania tabelami zapytań.
 
 ## Sekcja FAQ
 
@@ -199,6 +201,9 @@ Poznałeś już, jak czytać, modyfikować i zapisywać tabele zapytań programu
 Życzymy przyjemnego kodowania i zarządzania danymi w programie Excel jak profesjonalista dzięki Aspose.Cells for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

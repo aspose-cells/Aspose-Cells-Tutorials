@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,13 +157,16 @@ A5: 스트리밍 기능을 활용하고 데이터를 청크로 처리하여 메�
 - **다운로드**: [Java 릴리스용 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose.Cells 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다**: [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 Aspose.Cells for Java를 사용하여 데이터 관리 여정의 다음 단계를 밟고 오늘부터 이 강력한 기능들을 구현해보세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

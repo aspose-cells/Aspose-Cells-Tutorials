@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Az Aspose.Cells Java-ban számos esetben használható:
 3. **Jelentéskészítő eszközök:** Interaktív jelentéseket hozhat létre, amelyek lehetővé teszik a végfelhasználók számára, hogy gyorsan adatokat kapjanak.
 
 ## Teljesítménybeli szempontok
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 - Minimalizálja a munkafüzetek cikluson belüli megnyitásának és mentésének számát.
 - Használjon hatékony memóriakezelési technikákat, például a már nem szükséges objektumok megsemmisítését.
 - Rendszeresen frissítse a függőségeit a fejlesztések és hibajavítások érdekében.
@@ -184,13 +186,16 @@ Kísérletezz az Aspose.Cells különböző funkcióival, például a diagramok 
 
 ## Erőforrás
 - **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** Szerezd meg a legújabb kiadásokat innen: [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** Szerezd meg a legújabb kiadásokat innen: [Aspose letöltések](https://releases.aspose.com/cells/java/)
 - **Vásárold meg vagy próbáld ki ingyenesen:** Tudjon meg többet a vásárlási lehetőségekről és az ingyenes próbaverziókról a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy) és [Ingyenes próbaverziók](https://releases.aspose.com/cells/java/)
 
 Ez az útmutató szilárd alapot nyújt Excel-munkafüzeteid optimalizálásához az Aspose.Cells segítségével Java nyelven. Jó kódolást!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

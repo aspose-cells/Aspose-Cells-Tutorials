@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perlindungan Kata Sandi Excel
@@ -18,12 +20,12 @@
 
 Di era digital, mengamankan data sensitif Anda adalah hal yang terpenting. Lembar kerja Excel sering kali berisi informasi penting yang perlu dijaga keamanannya. Dalam tutorial ini, kita akan membahas cara menerapkan perlindungan kata sandi Excel menggunakan Aspose.Cells untuk Java. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan data Anda tetap rahasia.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami dunia perlindungan kata sandi Excel dengan Aspose.Cells untuk Java, Anda harus memastikan Anda memiliki alat dan pengetahuan yang diperlukan:
 
 - Lingkungan Pengembangan Java
-- Aspose.Cells untuk Java API (Anda dapat mengunduhnya [Di Sini](https://releases.aspose.com/cells/java/)
+- Aspose.Cells untuk Java API (Anda dapat mengunduhnya [itt](https://releases.aspose.com/cells/java/)
 - Pengetahuan dasar tentang pemrograman Java
 
 ## Menyiapkan Lingkungan
@@ -43,17 +45,17 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        // Buat buku kerja baru
+        // Új munkafüzet létrehozása
         Workbook workbook = new Workbook();
 
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         // Tambahkan beberapa data ke lembar kerja
         worksheet.getCells().get("A1").putValue("Confidential Data");
         worksheet.getCells().get("A2").putValue("More Sensitive Info");
 
-        // Simpan buku kerja
+        // A munkafüzet mentése
         try {
             workbook.save("Sample.xlsx");
             System.out.println("Excel file created successfully.");
@@ -79,7 +81,7 @@ import com.aspose.cells.*;
 
 public class ExcelPasswordProtection {
     public static void main(String[] args) {
-        // Memuat buku kerja yang ada
+        // Töltse be a meglévő munkafüzetet
         Workbook workbook;
         try {
             workbook = new Workbook("Sample.xlsx");
@@ -87,7 +89,7 @@ public class ExcelPasswordProtection {
             // Tetapkan kata sandi untuk buku kerja
             workbook.getSettings().getPassword().setPassword("MySecretPassword");
 
-            // Lindungi buku kerja
+            // A munkafüzet védelme
             workbook.getSettings().getPassword().setPassword("MySecretPassword");
             Protection protection = workbook.getSettings().getProtection();
             protection.setWorkbookProtection(WorkbookProtectionType.ALL);
@@ -104,11 +106,11 @@ public class ExcelPasswordProtection {
 
 Dalam kode ini, kita memuat file Excel yang dibuat sebelumnya, mengatur kata sandi, dan melindungi buku kerja. Anda dapat mengganti `"MySecretPassword"` dengan kata sandi yang Anda inginkan.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kita telah mempelajari cara menambahkan proteksi kata sandi ke file Excel menggunakan Aspose.Cells untuk Java. Ini adalah teknik penting untuk mengamankan data sensitif dan menjaga kerahasiaan. Hanya dengan beberapa baris kode, Anda dapat memastikan bahwa hanya pengguna yang berwenang yang dapat mengakses lembar kerja Excel Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menghapus proteksi kata sandi dari berkas Excel?
 
@@ -133,6 +135,7 @@ Perlindungan kata sandi dalam file Excel merupakan tindakan keamanan yang kuat, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

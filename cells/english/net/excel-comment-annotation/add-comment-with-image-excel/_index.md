@@ -8,7 +8,9 @@ url: /net/excel-comment-annotation/add-comment-with-image-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add a Comment with Image in Excel
@@ -116,9 +118,11 @@ Aspose.Cells offers a free trial, but for full functionality, you will need to p
 Yes, you can customize the font, size, and color of the comment text, and you can also change the shape and size of the comment itself.
 ### Where can I find more documentation on Aspose.Cells?
 You can find comprehensive documentation on Aspose.Cells [here](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

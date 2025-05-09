@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -106,7 +108,7 @@ Bu özellik, Excel hücre adlarını ("C6" gibi) ilgili satır ve sütun dizinle
 import com.aspose.cells.CellsHelper;
 ```
 
-#### Adım 2: Dönüşüm Mantığını Uygula
+#### Adım 2: Dönüşüm Mantığını Uygulayın
 
 Kullanın `CellsHelper.cellNameToIndex` dönüşümü gerçekleştirme yöntemi:
 
@@ -199,6 +201,9 @@ Başlamaya hazır mısınız? Şuraya gidin: [resmi belgeler](https://reference.
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

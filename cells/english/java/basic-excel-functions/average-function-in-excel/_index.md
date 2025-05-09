@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/average-function-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # AVERAGE Function in Excel
@@ -140,6 +142,7 @@ For a comprehensive list of features and advanced functionality, refer to the As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -175,7 +177,7 @@ Aspose.Cells के साथ काम करते समय, इन प्र
 - आप निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं या पूर्ण लाइसेंस खरीद सकते हैं। मूल्यांकन उद्देश्यों के लिए एक अस्थायी लाइसेंस भी उपलब्ध है।
 
 **प्रश्न 4: यदि मुझे कोई समस्या आती है तो क्या कोई सहायता उपलब्ध है?**
-- हां [Aspose फ़ोरम](https://forum.aspose.com/c/cells/9) आपकी सहायता के लिए सामुदायिक और आधिकारिक समर्थन प्रदान करता है।
+- हां [एस्पोज फोरम](https://forum.aspose.com/c/cells/9) आपकी सहायता के लिए सामुदायिक और आधिकारिक समर्थन प्रदान करता है।
 
 **प्रश्न 5: मैं Aspose.Cells को अन्य जावा फ्रेमवर्क के साथ कैसे एकीकृत करूं?**
 - Aspose.Cells को आसानी से Maven या Gradle प्रोजेक्ट में एकीकृत किया जा सकता है। अधिक एकीकरण विकल्पों के लिए, देखें [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/).
@@ -193,6 +195,9 @@ Aspose.Cells के साथ काम करते समय, इन प्र
 इस ट्यूटोरियल का अनुसरण करके, आप Aspose.Cells for Java में निपुण बनने की ओर अग्रसर हैं, जिससे आपके प्रोजेक्ट में Excel चार्ट में हेरफेर करना आसान हो जाएगा।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

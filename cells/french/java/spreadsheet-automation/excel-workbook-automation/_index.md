@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatisation des classeurs Excel
@@ -110,9 +112,11 @@ Voici quelques questions courantes liées à l’automatisation des classeurs Ex
    Vous pouvez vous référer à la documentation de l'API à l'adresse [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pour des informations détaillées et des exemples de code.
 
 N'hésitez pas à explorer les fonctionnalités avancées d'Aspose.Cells pour Java afin de personnaliser vos besoins d'automatisation Excel. Si vous avez des questions spécifiques ou besoin d'aide, n'hésitez pas à nous contacter.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

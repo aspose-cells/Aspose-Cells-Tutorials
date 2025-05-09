@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -188,6 +190,9 @@ Versuchen Sie, diese Lösungen in Ihren Projekten zu implementieren und sehen Si
 - **Kauf und Lizenzierung:** Bei Fragen zum Kauf oder zur Lizenzierung besuchen Sie die [Kaufseite](https://purchase.aspose.com/buy) Und [Seite mit temporärer Lizenz](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

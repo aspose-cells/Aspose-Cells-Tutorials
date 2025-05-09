@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Bu kılavuzu takip ederek, Java için Aspose.Cells'i nasıl kuracağınızı ve 
 ## SSS Bölümü
 
 **1. Yazı tipi rengini değiştirirken birden fazla çalışma sayfasını nasıl idare edebilirim?**
-Her çalışma sayfasını kullanarak yineleyin `workbook.getWorksheets().get(index)` ve ihtiyaç duyduğunuzda stiller uygulayın.
+Her çalışma sayfasını kullanarak yineleyin `workbook.getWorksheets().get(index)` ve ihtiyaç duyduğunuzda stilleri uygulayın.
 
 **2. Sadece bir hücre yerine bir dizi hücrenin yazı tipi rengini değiştirebilir miyim?**
 Evet, istenilen aralıkta dolaşın ve stilleri ayrı ayrı ayarlayın veya aralıktaki tüm hücrelere tek tip bir stil uygulayın.
@@ -185,6 +187,9 @@ Bu teknikleri bugün Java uygulamalarınıza entegre etmeyi deneyin ve Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ public class Feature_SetTextOfChartLegend {
 3. **Визуализация научных данных**: Повысьте ясность, указав конкретные термины в легендах.
 
 ## Соображения производительности
-- **Оптимизируйте использование ресурсов**: Загружайте только необходимые данные и диаграммы, чтобы уменьшить объем памяти.
+- **Оптимизация использования ресурсов**: Загружайте только необходимые данные и диаграммы, чтобы уменьшить объем памяти.
 - **Лучшие практики**: Регулярно обновляйте Aspose.Cells, чтобы воспользоваться преимуществами повышения производительности.
 
 ## Заключение
@@ -150,6 +152,9 @@ public class Feature_SetTextOfChartLegend {
 - **Поддерживать**Для получения помощи посетите [Форум Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial integrasi kami menunjukkan kepada Anda cara menggabungkan Aspose.Cells dengan sistem lain untuk membuat solusi pemrosesan dokumen yang komprehensif di Java. Panduan langkah demi langkah ini menunjukkan integrasi dengan produk Aspose lainnya, pustaka Java pihak ketiga, dan layanan eksternal. Setiap tutorial menyertakan contoh kode Java praktis untuk mengimplementasikan alur kerja lintas format dan pertukaran data antara berbagai jenis dokumen, membantu Anda membangun aplikasi terhubung yang memanfaatkan sepenuhnya kekuatan ekosistem pemrosesan dokumen Aspose.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi integrasi & interoperabilitas
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -59,10 +61,13 @@ Pelajari cara mengimplementasikan kelas Guru di Java, mengelola data siswa, dan 
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

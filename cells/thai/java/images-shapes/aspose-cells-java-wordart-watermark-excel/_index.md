@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,7 +168,7 @@ LineFormat lineFormat = wordart.getLine();
 lineFormat.setWeight(0.0);
 ```
 
-ขั้นตอนนี้จะลบขอบรอบ WordArt ออก โดยจะเน้นความสนใจไปที่ข้อความเพียงอย่างเดียว
+ขั้นตอนนี้จะลบขอบรอบ WordArt ออก โดยจะเน้นความสนใจไปที่ข้อความเท่านั้น
 
 ### บันทึกสมุดงานไปยังไดเร็กทอรีที่ระบุ
 
@@ -190,7 +192,7 @@ workbook.save(outDir + "/AWArtWToWorksheet_out.xls");
 
 ## การประยุกต์ใช้งานจริง
 
-1. **รายงานที่เป็นความลับ**:ใส่ลายน้ำในรายงานก่อนที่จะแชร์ต่อภายในหรือภายนอก
+1. **รายงานที่เป็นความลับ**:รายงานที่ละเอียดอ่อนเกี่ยวกับลายน้ำก่อนที่จะแชร์ภายในหรือภายนอก
 2. **เอกสารร่าง**:ทำเครื่องหมายเวอร์ชันร่างของเอกสารเพื่อป้องกันการแจกจ่ายโดยไม่ตั้งใจ
 3. **การสร้างแบรนด์**:ใช้ลายน้ำเพื่อวัตถุประสงค์ด้านการสร้างแบรนด์ในเทมเพลตของบริษัท
 4. **เอกสารทางกฎหมาย**:เพิ่มลายน้ำ "ข้อมูลลับ" ลงในเอกสารทางกฎหมายเพื่อระบุการเข้าถึงที่จำกัด
@@ -235,6 +237,9 @@ workbook.save(outDir + "/AWArtWToWorksheet_out.xls");
 - **ฟอรั่มสนับสนุน**:มีส่วนร่วมกับชุมชนบน [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Técnicas de mascaramento de dados
@@ -30,7 +32,7 @@ Antes de nos aprofundarmos no mascaramento de dados com o Aspose.Cells para Java
 
 ### O que é mascaramento de dados?
 
-O mascaramento de dados, também conhecido como ofuscação ou anonimização de dados, é o processo de ocultar dados originais para proteger informações sensíveis, mantendo seu formato e estrutura. Isso é crucial para cenários em que os dados precisam ser compartilhados ou usados para testes e desenvolvimento sem expor detalhes sensíveis.
+mascaramento de dados, também conhecido como ofuscação ou anonimização de dados, é o processo de ocultar dados originais para proteger informações sensíveis, mantendo seu formato e estrutura. Isso é crucial para cenários em que os dados precisam ser compartilhados ou usados para testes e desenvolvimento sem expor detalhes sensíveis.
 
 ### Por que o mascaramento de dados é importante
 
@@ -74,7 +76,7 @@ Agora, vamos explorar algumas técnicas comuns de mascaramento de dados usando A
 
 ### 1. Redação
 
-redação envolve a substituição de dados sensíveis por espaços reservados ou valores aleatórios. Isso garante que as informações originais não possam ser inferidas.
+A redação envolve a substituição de dados sensíveis por espaços reservados ou valores aleatórios. Isso garante que as informações originais não possam ser inferidas.
 
 ```java
 // Redigir o valor de uma célula
@@ -124,7 +126,7 @@ Técnicas de mascaramento de dados geralmente são projetadas para serem irrever
 
 ### Há alguma consideração de desempenho ao usar o mascaramento de dados?
 
-O impacto do mascaramento de dados no desempenho depende em grande parte da complexidade do seu conjunto de dados e das técnicas de mascaramento específicas utilizadas. É essencial testar e otimizar para o seu caso de uso específico.
+impacto do mascaramento de dados no desempenho depende em grande parte da complexidade do seu conjunto de dados e das técnicas de mascaramento específicas utilizadas. É essencial testar e otimizar para o seu caso de uso específico.
 
 ### Como posso aprender mais sobre as práticas recomendadas de mascaramento de dados?
 
@@ -133,6 +135,7 @@ Para explorar as melhores práticas de mascaramento e segurança de dados, consi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

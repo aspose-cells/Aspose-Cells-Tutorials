@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ try {
 Αυτός ο ολοκληρωμένος οδηγός έχει σχεδιαστεί για να σας βοηθήσει να εφαρμόσετε αποτελεσματικά τη λειτουργία εξαγωγής σχολίων, διασφαλίζοντας ότι οι εφαρμογές σας προσφέρουν βελτιωμένες εμπειρίες χρήστη.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

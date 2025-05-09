@@ -8,7 +8,9 @@ url: /net/creating-and-configuring-pivot-tables/setting-page-field-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Page Field Format Programmatically in .NET
@@ -118,6 +120,7 @@ You can acquire a temporary license from [here](https://purchase.aspose.com/temp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

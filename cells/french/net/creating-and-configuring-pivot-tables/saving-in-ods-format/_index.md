@@ -1,59 +1,61 @@
 ---
-title: Enregistrement d'un tableau croisé dynamique au format ODS par programmation dans .NET
-linktitle: Enregistrement d'un tableau croisé dynamique au format ODS par programmation dans .NET
-second_title: API de traitement Excel Aspose.Cells .NET
-description: Découvrez comment enregistrer des tableaux croisés dynamiques au format ODS à l'aide d'Aspose.Cells pour .NET avec ce guide étape par étape.
-weight: 25
-url: /fr/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Découvrez comment enregistrer des tableaux croisés dynamiques au format ODS à l’aide d’Aspose.Cells pour .NET avec ce guide étape par étape."
+"linktitle": "Enregistrement d'un tableau croisé dynamique au format ODS par programmation dans .NET"
+"second_title": "API de traitement Excel Aspose.Cells .NET"
+"title": "Enregistrement d'un tableau croisé dynamique au format ODS par programmation dans .NET"
+"url": "/fr/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Enregistrement d'un tableau croisé dynamique au format ODS par programmation dans .NET
 
 ## Introduction
-En matière de gestion des données dans des feuilles de calcul, rien ne rivalise avec la puissance des tableaux croisés dynamiques. Ils constituent un outil incontournable pour résumer, analyser et présenter des ensembles de données complexes. Aujourd'hui, nous allons nous pencher sur l'utilisation d'Aspose.Cells pour .NET pour enregistrer un tableau croisé dynamique au format ODS. Que vous soyez un développeur chevronné ou que vous débutiez avec .NET, vous trouverez ce guide simple. 
+Pour gérer les données dans des feuilles de calcul, rien n'égale la puissance des tableaux croisés dynamiques. C'est un outil incontournable pour synthétiser, analyser et présenter des ensembles de données complexes. Aujourd'hui, nous allons explorer l'utilisation d'Aspose.Cells pour .NET pour enregistrer un tableau croisé dynamique au format ODS. Que vous soyez un développeur expérimenté ou que vous débutiez avec .NET, ce guide vous sera d'une grande aide. 
 C'est parti !
 ## Prérequis
-Avant de passer au code, vous aurez besoin de quelques éléments essentiels :
+Avant de passer au code, voici quelques éléments essentiels dont vous aurez besoin :
 ### 1. Connaissances de base de .NET
 Avoir une compréhension de base de .NET et de ses concepts de programmation vous aidera à suivre facilement.
 ### 2. Aspose.Cells pour .NET
- Vous devez avoir installé Aspose.Cells pour .NET. Vous pouvez le télécharger à partir du[Page de sortie d'Aspose](https://releases.aspose.com/cells/net/) . Une version d'essai est également disponible[ici](https://releases.aspose.com/).
+Vous devez avoir installé Aspose.Cells pour .NET. Vous pouvez le télécharger depuis le [Page de publication d'Aspose](https://releases.aspose.com/cells/net/). Une version d'essai est également disponible [ici](https://releases.aspose.com/).
 ### 3. Environnement de développement
-Assurez-vous de disposer d’un IDE comme Visual Studio dans lequel vous pouvez écrire et tester votre code .NET.
+Assurez-vous d’avoir un IDE comme Visual Studio dans lequel vous pouvez écrire et tester votre code .NET.
 ### 4. Un peu de patience
-Comme pour tout travail de codage, la patience est essentielle. Ne vous inquiétez pas si les choses ne fonctionnent pas parfaitement la première fois ; le débogage fait partie du processus.
-## Paquets d'importation
-Pour travailler avec Aspose.Cells, vous devez importer les espaces de noms nécessaires. Ajoutez la directive using suivante au début de votre fichier de code :
+Comme pour tout projet de codage, la patience est essentielle. Ne vous inquiétez pas si tout ne fonctionne pas parfaitement du premier coup ; le débogage fait partie du processus.
+## Importer des packages
+Pour utiliser Aspose.Cells, vous devez importer les espaces de noms nécessaires. Ajoutez la directive using suivante au début de votre fichier de code :
 ```csharp
 using System;
 using Aspose.Cells.Pivot;
 ```
-Cette ligne vous permet d'accéder à toutes les fonctionnalités de la bibliothèque Aspose.Cells, facilitant ainsi votre processus de codage.
+Cette ligne vous permet d'accéder à toutes les fonctionnalités de la bibliothèque Aspose.Cells, rendant votre processus de codage un jeu d'enfant.
 Maintenant, décomposons le processus en étapes gérables.
 ## Étape 1 : Configurez votre répertoire de sortie
-Vous devez d'abord définir l'emplacement où vous souhaitez enregistrer votre fichier ODS. Il s'agit d'une simple attribution d'un chemin de répertoire.
+Tout d'abord, vous devez définir l'emplacement où vous souhaitez enregistrer votre fichier ODS. Il s'agit simplement d'attribuer un chemin d'accès au répertoire.
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Dans cette ligne, remplacez`"Your Document Directory"` avec le chemin où vous souhaitez enregistrer le fichier.
+Dans cette ligne, remplacez `"Your Document Directory"` avec le chemin où vous souhaitez enregistrer le fichier.
 ## Étape 2 : Créer un nouveau classeur
 Ensuite, vous allez instancier un nouvel objet Workbook, qui contiendra toutes vos données et structures, y compris le tableau croisé dynamique.
 ```csharp
 Workbook workbook = new Workbook();
 ```
-Ici, vous partez de zéro : considérez-le comme une toile vierge sur laquelle vous créerez votre chef-d'œuvre.
-## Étape 3 : Accéder à la feuille de travail
-Maintenant que nous avons notre classeur, nous devons nous mettre au travail sur notre feuille de calcul. Aspose.Cells vous permet d'accéder facilement à la première feuille de calcul disponible.
+Ici, vous repartez de zéro : considérez-le comme une toile vierge sur laquelle vous créerez votre chef-d'œuvre.
+## Étape 3 : Accéder à la feuille de travail
+Maintenant que nous avons notre classeur, nous devons travailler sur notre feuille de calcul. Aspose.Cells vous permet d'accéder facilement à la première feuille de calcul disponible.
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
 ```
 Cette ligne nous amène à la toute première feuille, prête pour la saisie des données.
 ## Étape 4 : Remplir les cellules avec des données
-Il est temps de remplir notre feuille de travail avec quelques données. Nous allons utiliser un exemple simple de données sur les ventes d'articles de sport. 
+Il est temps de remplir notre feuille de calcul avec des données. Nous allons utiliser un exemple simple de données de ventes sportives. 
 Voici comment vous pouvez définir des valeurs dans différentes cellules :
 ```csharp
 Cells cells = sheet.Cells;
@@ -82,20 +84,20 @@ cells["C6"].PutValue(4070);
 cells["C7"].PutValue(5000);
 cells["C8"].PutValue(6430);
 ```
-Dans ces lignes, nous définissons les rubriques et remplissons les données de vente. Considérez cette étape comme le fait de remplir votre garde-manger avant de préparer un repas : meilleurs sont vos ingrédients (données), meilleur est votre repas (analyse).
+Dans ces lignes, nous définissons les rubriques et alimentons les données de vente. Imaginez cette étape comme le remplissage de votre garde-manger avant de cuisiner : plus vos ingrédients (données) sont de qualité, meilleur sera votre repas (analyse).
 ## Étape 5 : Créer un tableau croisé dynamique
-Vient maintenant la partie amusante : créer le tableau croisé dynamique ! Voici comment l'ajouter à votre feuille de calcul :
+Vient maintenant la partie amusante : créer le tableau croisé dynamique ! Voici comment l'ajouter à votre feuille de calcul :
 ```csharp
 PivotTableCollection pivotTables = sheet.PivotTables;
 // Ajout d'un tableau croisé dynamique à la feuille de calcul
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- Dans cet extrait, nous spécifions la plage de données du tableau croisé dynamique et l'emplacement où la placer sur la feuille de calcul. La plage de données`=A1:C8` couvre la zone où existent nos données.
+Dans cet extrait, nous spécifions la plage de données du tableau croisé dynamique et son emplacement dans la feuille de calcul. `=A1:C8` couvre la zone où existent nos données.
 ## Étape 6 : Personnalisez votre tableau croisé dynamique
-Ensuite, vous souhaiterez personnaliser votre tableau croisé dynamique en fonction de vos besoins. Cela implique de contrôler ce qui est affiché, la manière dont les données sont classées et la manière dont elles sont calculées.
+Ensuite, vous devrez personnaliser votre tableau croisé dynamique selon vos besoins. Cela implique de contrôler ce qui est affiché, la façon dont les données sont catégorisées et la façon dont elles sont calculées.
 ```csharp
 PivotTable pivotTable = pivotTables[index];
-// Ne pas afficher les totaux généraux pour les lignes.
+// Désaffichage des totaux généraux pour les lignes.
 pivotTable.RowGrand = false;
 // Faites glisser le premier champ vers la zone de ligne.
 pivotTable.AddFieldToArea(PivotFieldType.Row, 0);
@@ -105,35 +107,37 @@ pivotTable.AddFieldToArea(PivotFieldType.Column, 1);
 pivotTable.AddFieldToArea(PivotFieldType.Data, 2);
 pivotTable.CalculateData();
 ```
-Ici, vous décidez quels champs de données résumer et comment ils doivent être représentés. C'est comme dresser la table pour votre dîner : vous décidez de ce qui convient le mieux et de la manière de le présenter.
-## Étape 7 : Enregistrez votre classeur
-Enfin, vous êtes prêt à enregistrer votre travail dans le format ODS souhaité. Voici comment procéder :
+Ici, vous décidez quels champs de données synthétiser et comment les représenter. C'est comme dresser la table pour un dîner : vous décidez ce qui convient le mieux et comment le présenter.
+## Étape 7 : Enregistrez votre classeur
+Vous êtes enfin prêt à enregistrer votre travail au format ODS souhaité. Voici comment procéder :
 ```csharp
 workbook.Save(outputDir + "PivotTableSaveInODS_out.ods");
 ```
 Avec cette étape, vous terminez votre projet et le sécurisez dans le répertoire de votre choix : une finition satisfaisante !
-## Étape 8 : Vérifiez votre résultat
-Enfin, il est toujours judicieux de vérifier si le processus s'est terminé avec succès. Vous pouvez ajouter un message de console simple :
+## Étape 8 : Vérifiez votre sortie
+Enfin, il est toujours judicieux de vérifier si le processus s'est terminé correctement. Vous pouvez ajouter un message simple dans la console :
 ```csharp
 Console.WriteLine("PivotTableSaveInODS executed successfully.");
 ```
-Ce message apparaîtra dans votre console pour confirmer que tout s'est bien passé. Tout comme un chef qui vérifie si tout est cuit à la perfection avant de servir !
+Ce message apparaîtra sur votre console pour confirmer que tout s'est bien passé. Comme un chef vérifiant la cuisson parfaite avant de servir !
 ## Conclusion 
-Et voilà ! Vous avez non seulement créé un tableau croisé dynamique à l'aide d'Aspose.Cells, mais vous l'avez également enregistré au format ODS. Ce guide vous a accompagné à chaque étape, vous permettant ainsi d'acquérir les connaissances et la confiance nécessaires pour vous attaquer à des tâches similaires à l'avenir.
+Et voilà ! Vous avez non seulement créé un tableau croisé dynamique avec Aspose.Cells, mais vous l'avez également enregistré au format ODS. Ce guide vous a accompagné pas à pas, vous permettant d'acquérir les connaissances et la confiance nécessaires pour entreprendre des tâches similaires à l'avenir.
 ## FAQ
 ### Qu'est-ce qu'Aspose.Cells ?
 Aspose.Cells est une bibliothèque sophistiquée qui vous permet de créer et de manipuler des fichiers Excel dans des applications .NET.
 ### Puis-je utiliser Aspose.Cells gratuitement ?
- Oui, vous pouvez télécharger une version d'essai gratuite à partir du[Site Web d'Aspose](https://releases.aspose.com/).
+Oui, vous pouvez télécharger une version d'essai gratuite à partir du [Site Web d'Aspose](https://releases.aspose.com/).
 ### Quels formats Aspose.Cells prend-il en charge ?
 Il prend en charge de nombreux formats, notamment XLSX, XLS, ODS, PDF et bien d'autres.
-### Comment obtenir de l'aide pour Aspose.Cells ?
- Vous pouvez trouver de l'aide sur le[Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
+### Comment obtenir de l'aide pour Aspose.Cells ?
+Vous pouvez trouver de l'aide sur le [Forum d'assistance Aspose](https://forum.aspose.com/c/cells/9).
 ### Existe-t-il une licence temporaire disponible ?
- Oui, vous pouvez demander une licence temporaire via le site Aspose[ici](https://purchase.aspose.com/temporary-license/).
+Oui, vous pouvez demander une licence temporaire via le site Aspose [ici](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

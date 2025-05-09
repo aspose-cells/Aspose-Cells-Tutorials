@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ import com.aspose.cells.VbaProject;
 // VbaProject의 새 인스턴스를 만듭니다.
 VbaProject vbaProj = new VbaProject();
 
-// 기능을 향상하기 위해 등록된 참조를 추가하세요
+// 기능 향상을 위해 등록된 참조를 추가하세요
 vbaProj.getReferences().addRegisteredReference(
     "stdole",
     "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation"
@@ -156,7 +158,7 @@ Aspose.Cells for Java는 다양한 시나리오에서 사용할 수 있습니다
 
 ## 성능 고려 사항
 Aspose.Cells를 사용할 때 성능을 최적화하려면:
-- 통합 문서를 반복적으로 열고 저장하는 횟수를 최소화하세요.
+- 루프에서 통합 문서를 열고 저장하는 횟수를 최소화하세요.
 - 더 이상 필요하지 않은 객체를 삭제하는 등 효율적인 메모리 관리 기술을 사용합니다.
 - 개선 사항과 버그 수정을 위해 종속성을 정기적으로 업데이트하세요.
 
@@ -191,6 +193,9 @@ Aspose.Cells를 사용할 때 성능을 최적화하려면:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

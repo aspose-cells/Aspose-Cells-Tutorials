@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Je hebt nu geleerd hoe je bellendiagrammen maakt en configureert met Aspose.Cell
 - **Ondersteuningsforum**: Voor eventuele vragen kunt u contact opnemen met de [ondersteuningsforum](https://forum.aspose.com/c/cells/9) is beschikbaar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

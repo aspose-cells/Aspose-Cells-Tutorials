@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Regola il livello di zoom:
 ```java
 worksheet.setZoom(75); // Imposta il fattore di zoom al 75%
 ```
-- **Spiegazione:** IL `setZoom` Il metodo determina la visibilità del foglio di lavoro in Excel, con il 100% come dimensione intera.
+- **Spiegazione:** IL `setZoom` metodo determina la visibilità del foglio di lavoro in Excel, con il 100% come dimensione intera.
 
 **4. Salvare il file modificato**
 Salva le modifiche:
@@ -147,6 +149,9 @@ Inizia subito a migliorare la gestione dei tuoi file Excel sfruttando le potenti
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

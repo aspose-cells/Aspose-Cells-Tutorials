@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 import com.aspose.cells.Workbook;
 
 String dataDir = "YOUR_DATA_DIRECTORY"; // अपना डेटा निर्देशिका पथ यहां परिभाषित करें
-String outDir = "YOUR_OUTPUT_DIRECTORY"; // अपना आउटपुट निर्देशिका पथ यहां परिभाषित करें
+String outDir = "YOUR_OUTPUT_DIRECTORY"; // अपना आउटपुट निर्देशिका पथ यहाँ परिभाषित करें
 Workbook wb = new Workbook(dataDir + "book1.xlsx");
 wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 wb.save(outDir + "ConvertTableToRange_out.xlsx");
@@ -175,6 +177,9 @@ Aspose.Cells का उपयोग करते समय इष्टतम �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

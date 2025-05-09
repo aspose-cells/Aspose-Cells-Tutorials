@@ -8,7 +8,9 @@ url: /net/worksheet-display/control-tab-bar-width/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Control Tab Bar Width in Worksheet using Aspose.Cells
@@ -89,6 +91,7 @@ You can seek support by visiting the [Aspose forum](https://forum.aspose.com/c/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

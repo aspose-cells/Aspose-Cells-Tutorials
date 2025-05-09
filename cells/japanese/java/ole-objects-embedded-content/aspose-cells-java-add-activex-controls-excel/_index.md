@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ wb.save(dataDir + "AAXControl_out.xlsx", SaveFormat.XLSX);
 
 ## 実用的なアプリケーション
 ActiveX コントロールを追加すると、次のようなシナリオで Excel スプレッドシートが強化されます。
-1. **インタラクティブなダッシュボード**トグル ボタンでデータの表示を制御します。
+1. **インタラクティブダッシュボード**トグル ボタンでデータの表示を制御します。
 2. **ワークフローの自動化**Excel 内でアクションまたはスクリプトをトリガーします。
 3. **ユーザー入力の強化**ユーザー設定を直接入力できるようにします。
 
@@ -199,6 +201,9 @@ A: パフォーマンスは最適化されていますが、複雑な図形や�
 - **サポート**ディスカッションに参加したり、質問したり [Asposeフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

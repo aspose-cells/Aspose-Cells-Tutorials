@@ -1,38 +1,40 @@
 ---
-title: Sesuaikan Tingkat Kompresi
-linktitle: Sesuaikan Tingkat Kompresi
-second_title: Referensi API Aspose.Cells untuk .NET
-description: Pelajari cara menyesuaikan tingkat kompresi untuk file Excel menggunakan Aspose.Cells for .NET. Optimalkan ukuran file Anda secara efisien dengan panduan langkah demi langkah ini.
-weight: 50
-url: /id/net/excel-workbook/adjust-compression-level/
+"description": "Pelajari cara menyesuaikan tingkat kompresi untuk file Excel menggunakan Aspose.Cells for .NET. Optimalkan ukuran file Anda secara efisien dengan panduan langkah demi langkah ini."
+"linktitle": "Sesuaikan Tingkat Kompresi"
+"second_title": "Aspose.Cells .NET API-referencia"
+"title": "Sesuaikan Tingkat Kompresi"
+"url": "/id/net/excel-workbook/adjust-compression-level/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sesuaikan Tingkat Kompresi
 
-## Perkenalan
+## Bevezetés
 
 Saat menangani file Excel yang besar, penyimpanan yang efisien adalah kuncinya. Baik Anda seorang pengembang yang ingin mengoptimalkan ukuran file atau analis data yang ingin mempercepat transfer file, memahami cara menyesuaikan tingkat kompresi di Aspose.Cells untuk .NET dapat menjadi pengubah permainan. Dalam panduan ini, kami akan memandu Anda melalui langkah-langkah untuk menyesuaikan tingkat kompresi saat menyimpan file Excel, memastikan Anda mempertahankan kinerja tanpa mengorbankan kualitas.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum menyelami seluk-beluk level kompresi, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai:
 
 1. Pengetahuan Dasar tentang C#: Pemahaman dasar tentang pemrograman C# sangatlah penting. Jika Anda memahami variabel, loop, dan operasi file dasar, Anda siap untuk memulai!
-2. Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari[situs web](https://releases.aspose.com/cells/net/) Jika Anda baru memulai, pertimbangkan untuk mengambil uji coba gratis[Di Sini](https://releases.aspose.com/).
+2. Pustaka Aspose.Cells untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Cells. Anda dapat mengunduhnya dari [weboldal](https://releases.aspose.com/cells/net/)Jika Anda baru memulai, pertimbangkan untuk mengambil uji coba gratis [itt](https://releases.aspose.com/).
 3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda, idealnya Visual Studio, untuk menulis dan mengeksekusi kode C# Anda. 
 4. Contoh Berkas Excel: Siapkan berkas Excel berukuran besar untuk pengujian. Anda dapat membuat berkas Excel atau menggunakan berkas yang sudah ada, tetapi pastikan ukurannya cukup besar untuk melihat efek kompresi.
 
 Jika semua prasyarat itu terpenuhi, mari kita mulai!
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum kita dapat memanipulasi file Excel, kita perlu mengimpor namespace yang diperlukan. Ini adalah langkah penting yang memungkinkan kita mengakses kelas dan metode yang disediakan oleh Aspose.Cells.
 
-### Impor Namespace Aspose.Cells
+### Importálja az Aspose.Cells névteret
 
 ```csharp
 using Aspose.Cells.Rendering;
@@ -40,21 +42,21 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
- Potongan kode ini mengimpor`Aspose.Cells` namespace, yang berisi semua kelas yang dibutuhkan untuk bekerja dengan file Excel.`Aspose.Cells.Xlsb` namespace khusus untuk menangani format file XLSB.
+Potongan kode ini mengimpor `Aspose.Cells` namespace, yang berisi semua kelas yang dibutuhkan untuk bekerja dengan file Excel. `Aspose.Cells.Xlsb` namespace khusus untuk menangani format file XLSB.
 
 Setelah semuanya siap, mari kita bagi proses penyesuaian tingkat kompresi menjadi beberapa langkah yang mudah dikelola. Kita akan menyimpan buku kerja dengan berbagai tingkat kompresi dan mengukur waktu yang dibutuhkan untuk setiap operasi. 
 
-## Langkah 1: Siapkan Direktori Anda
+## 1. lépés: Állítsa be a könyvtárait
 
-Pertama-tama, kita perlu menentukan di mana file kita akan disimpan. Ini melibatkan penentuan direktori sumber untuk file masukan dan direktori keluaran untuk file terkompresi.
+Pertama-tama, kita perlu menentukan di mana file-file kita akan disimpan. Ini melibatkan penentuan direktori sumber untuk file input dan direktori output untuk file-file terkompresi.
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 string outDir = "Your Document Directory";
 ```
 
-## Langkah 2: Muat Buku Kerja
+## 2. lépés: A munkafüzet betöltése
 
 Selanjutnya, kita akan memuat buku kerja Excel yang ingin kita kompres. Di sinilah Anda akan mengarahkan ke berkas Excel Anda yang besar.
 
@@ -62,11 +64,11 @@ Selanjutnya, kita akan memuat buku kerja Excel yang ingin kita kompres. Di sinil
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Baris ini menginisialisasi yang baru`Workbook` objek dengan file yang ditentukan. Pastikan jalur file sudah benar; jika tidak, Anda akan mengalami kesalahan.
+Ez a sor inicializál egy új `Workbook` objek dengan file yang ditentukan. Pastikan jalur file sudah benar; jika tidak, Anda akan mengalami kesalahan.
 
 ## Langkah 3: Buat Opsi Penyimpanan untuk XLSB
 
- Sekarang, kita akan membuat sebuah instance dari`XlsbSaveOptions`, yang memungkinkan kita menentukan bagaimana kita ingin menyimpan buku kerja kita, termasuk tingkat kompresi.
+Sekarang, kita akan membuat sebuah instance dari `XlsbSaveOptions`, yang memungkinkan kita menentukan bagaimana kita ingin menyimpan buku kerja kita, termasuk tingkat kompresi.
 
 ```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
@@ -133,29 +135,31 @@ Console.WriteLine("AdjustCompressionLevel executed successfully.");
 
 Baris ini mengonfirmasi bahwa seluruh proses telah diselesaikan tanpa masalah.
 
-## Kesimpulan
+## Következtetés
 
 Menyesuaikan tingkat kompresi saat menyimpan file Excel dengan Aspose.Cells untuk .NET merupakan teknik yang mudah namun ampuh. Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat dengan mudah memanipulasi ukuran file, membuatnya lebih mudah dikelola untuk penyimpanan dan transfer. Apakah Anda memerlukan akses cepat ke data atau ingin mengoptimalkan kinerja aplikasi Anda, menguasai teknik-teknik ini niscaya akan meningkatkan keterampilan Anda sebagai pengembang.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, manipuláljanak és konvertáljanak Excel fájlokat.
 
-### Bagaimana cara mengunduh Aspose.Cells?
- Anda dapat mengunduh pustaka Aspose.Cells dari[situs web](https://releases.aspose.com/cells/net/).
+### Hogyan tölthetem le az Aspose.Cells fájlt?
+Anda dapat mengunduh pustaka Aspose.Cells dari [weboldal](https://releases.aspose.com/cells/net/).
 
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda akses[Di Sini](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Aspose menawarkan versi uji coba gratis yang dapat Anda akses [itt](https://releases.aspose.com/).
 
 ### Apa saja tingkat kompresi yang tersedia?
 Aspose.Cells mendukung beberapa tingkat kompresi mulai dari Tingkat 1 (kompresi paling sedikit) hingga Tingkat 9 (kompresi maksimum).
 
-### Di mana saya dapat menemukan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan dan mengajukan pertanyaan di[Forum Aspose](https://forum.aspose.com/c/cells/9).
+### Hol találok támogatást az Aspose.Cells-hez?
+Anda bisa mendapatkan dukungan dan mengajukan pertanyaan di [Aspose fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

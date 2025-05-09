@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,9 +21,9 @@ Elege van a manuális adatbevitelből és az ismétlődő táblázatkezelési fe
 
 ### Amit tanulni fogsz:
 - Workbook objektum példányosítása Java-ban
-- munkafüzetben található egyes munkalapok elérése
+- A munkafüzetben található egyes munkalapok elérése
 - Oszlopszélességek beállítása teljes munkalapokon
-- Változtatások hatékony visszamentése Excel-fájlba
+- Változtatások hatékony mentése Excel-fájlba
 
 Készen állsz arra, hogy forradalmasítsd az Excel-feladataidat? Mielőtt belekezdenénk, tekintsük át a szükséges előfeltételeket.
 
@@ -195,6 +197,9 @@ Kezdje el az Excel automatizálási útját még ma, és fedezze fel a hatékony
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

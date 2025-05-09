@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ A5: Ναι, το Aspose.Cells μπορεί να ενσωματωθεί απρό�
 Εξερευνήστε αυτούς τους πόρους για να εμβαθύνετε την κατανόησή σας και να αξιοποιήσετε πλήρως το Aspose.Cells για Java στα έργα σας.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

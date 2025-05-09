@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,7 +185,7 @@ W tym przewodniku dowiedziałeś się, jak wykluczyć makra VBA z skoroszytów p
 
 **Następne kroki:**
 - Eksperymentuj z różnymi opcjami ładowania i zapisywania udostępnianymi przez Aspose.Cells.
-- Odkryj rozległe [Dokumentacja Aspose](https://reference.aspose.com/cells/java/) aby uzyskać dostęp do dalszych funkcjonalności.
+- Odkryj rozległe [Dokumentacja Aspose](https://reference.aspose.com/cells/java/) aby uzyskać więcej funkcjonalności.
 
 Gotowy do wdrożenia tego rozwiązania? Zacznij od bezpłatnego okresu próbnego już dziś!
 
@@ -198,6 +200,9 @@ Gotowy do wdrożenia tego rozwiązania? Zacznij od bezpłatnego okresu próbnego
    - Upewnij się, że ścieżka do pliku jest prawidłowa i sprawdź, czy `LoadOptions` są poprawnie skonfigurowane.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

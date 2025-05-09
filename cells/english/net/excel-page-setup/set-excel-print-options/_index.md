@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-print-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Print Options
@@ -166,6 +168,7 @@ Absolutely! Aspose.Cells is designed to handle large Excel files efficiently.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

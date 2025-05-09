@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Các hàm cơ bản của Excel
@@ -48,9 +50,11 @@ Khám phá sức mạnh của hàm MIN trong Excel với Aspose.Cells cho Java. 
 Mở khóa bí mật của các hàm văn bản Excel với Aspose.Cells for Java. Học cách thao tác, trích xuất và chuyển đổi văn bản trong Excel một cách dễ dàng.
 ### [Hướng dẫn sử dụng hàm ngày tháng trong Excel](./excel-date-functions-tutorial/)
 Tìm hiểu các hàm ngày tháng của Excel bằng Aspose.Cells cho Java. Khám phá hướng dẫn từng bước với mã nguồn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,32 @@
 ---
-title: Określanie zgodności pliku Excel programowo w środowisku .NET
-linktitle: Określanie zgodności pliku Excel programowo w środowisku .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się manipulować tabelami przestawnymi programu Excel za pomocą Aspose.Cells dla platformy .NET, obejmującymi aktualizacje danych, ustawienia zgodności i formatowanie komórek.
-weight: 23
-url: /pl/net/creating-and-configuring-pivot-tables/specifying-compatibility/
+"description": "Naucz się manipulować tabelami przestawnymi programu Excel za pomocą Aspose.Cells dla platformy .NET, obejmującymi aktualizacje danych, ustawienia zgodności i formatowanie komórek."
+"linktitle": "Określanie zgodności pliku Excel programowo w środowisku .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Określanie zgodności pliku Excel programowo w środowisku .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/specifying-compatibility/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Określanie zgodności pliku Excel programowo w środowisku .NET
 
 ## Wstęp
 
-dzisiejszym świecie zorientowanym na dane, zarządzanie i manipulowanie plikami Excela programowo stało się niezbędne dla wielu programistów. Jeśli pracujesz z Excelem w .NET, Aspose.Cells to potężna biblioteka, która ułatwia tworzenie, odczytywanie, modyfikowanie i zapisywanie plików Excela. Jedna z ważnych funkcji tej biblioteki pozwala programowo określić zgodność plików Excela. W tym samouczku zbadamy, jak manipulować plikami Excela, skupiając się szczególnie na zarządzaniu zgodnością za pomocą Aspose.Cells dla .NET. Na koniec zrozumiesz, jak ustawić zgodność plików Excela, zwłaszcza tabel przestawnych, podczas odświeżania i zarządzania danymi.
+W dzisiejszym świecie zorientowanym na dane, zarządzanie i manipulowanie plikami Excela programowo stało się niezbędne dla wielu programistów. Jeśli pracujesz z Excelem w .NET, Aspose.Cells to potężna biblioteka, która ułatwia tworzenie, odczytywanie, modyfikowanie i zapisywanie plików Excela. Jedna z ważnych funkcji tej biblioteki pozwala programowo określić zgodność plików Excela. W tym samouczku zbadamy, jak manipulować plikami Excela, skupiając się szczególnie na zarządzaniu zgodnością za pomocą Aspose.Cells dla .NET. Na koniec zrozumiesz, jak ustawić zgodność plików Excela, zwłaszcza tabel przestawnych, podczas odświeżania i zarządzania danymi.
 
 ## Wymagania wstępne
 
 Zanim przejdziesz do fazy kodowania, upewnij się, że masz następujące rzeczy:
 
 1. Podstawowa znajomość języka C#: Ponieważ będziemy pisać kod w języku C#, znajomość tego języka pomoże Ci lepiej zrozumieć ten samouczek.
-2.  Biblioteka Aspose.Cells dla .NET: Można ją pobrać ze strony[Strona wydań Aspose Cells](https://releases.aspose.com/cells/net/)Jeśli jeszcze tego nie zrobiłeś, rozważ skorzystanie z bezpłatnego okresu próbnego, aby najpierw poznać jego funkcje.
+2. Biblioteka Aspose.Cells dla .NET: Można ją pobrać ze strony [Strona wydań Aspose Cells](https://releases.aspose.com/cells/net/)Jeśli jeszcze tego nie zrobiłeś, rozważ skorzystanie z bezpłatnej wersji próbnej, aby najpierw poznać jej funkcje.
 3. Visual Studio: środowisko IDE, w którym można efektywnie pisać i testować kod C#.
-4.  Przykładowy plik Excela: Upewnij się, że masz przykładowy plik Excela, najlepiej taki, który zawiera tabelę przestawną dla demonstracji. W naszym przykładzie użyjemy`sample-pivot-table.xlsx`.
+4. Przykładowy plik Excela: Upewnij się, że masz przykładowy plik Excela, najlepiej taki, który zawiera tabelę przestawną dla demonstracji. W naszym przykładzie użyjemy `sample-pivot-table.xlsx`.
 
 Mając te wymagania wstępne za sobą, możemy rozpocząć proces kodowania.
 
@@ -55,7 +57,7 @@ Po pierwsze, skonfiguruj katalog, w którym znajdują się pliki Excela. Ważne 
 string dataDir = "Your Document Directory";
 ```
 
- Tutaj zamień`"Your Document Directory"` rzeczywistą ścieżką do plików Excel. To tutaj powinien znajdować się przykładowy plik tabeli przestawnej.
+Tutaj zamień `"Your Document Directory"` z rzeczywistą ścieżką do plików Excel. To tutaj powinien znajdować się przykładowy plik tabeli przestawnej.
 
 ## Krok 2: Załaduj plik źródłowy Excel
 
@@ -66,7 +68,7 @@ Następnie musimy załadować plik Excela zawierający przykładową tabelę prz
 Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
 ```
 
- W tym kroku tworzymy instancję`Workbook` Klasa, która ładuje określony plik Excel. 
+W tym kroku tworzymy instancję `Workbook` Klasa, która ładuje określony plik Excel. 
 
 ## Krok 3: Uzyskaj dostęp do arkuszy kalkulacyjnych
 
@@ -98,7 +100,7 @@ Ten fragment kodu aktualizuje komórkę A3 wartością „FooBar”.
 
 ### Krok 4.2: Modyfikuj komórkę B3 za pomocą długiego ciągu
 
-Teraz wpiszmy do komórki B3 długi ciąg znaków, przekraczający standardowe limity znaków programu Excel.
+Teraz wpiszmy do komórki B3 długi ciąg znaków, który przekracza standardowe limity znaków programu Excel.
 
 ```csharp
 // Uzyskaj dostęp do komórki B3 i ustaw jej dane
@@ -141,7 +143,7 @@ Każdy z tych fragmentów kodu aktualizuje kilka dodatkowych komórek w arkuszu 
 Następnie uzyskasz dostęp do drugiego arkusza, który zawiera dane tabeli przestawnej.
 
 ```csharp
-//Uzyskaj dostęp do drugiego arkusza zawierającego tabelę przestawną
+// Uzyskaj dostęp do drugiego arkusza zawierającego tabelę przestawną
 Worksheet pivotSheet = wb.Worksheets[1];
 
 // Uzyskaj dostęp do tabeli przestawnej
@@ -161,7 +163,7 @@ pivotTable.RefreshData();
 pivotTable.CalculateData();
 ```
 
- To tutaj zaczyna się prawdziwa transformacja. Poprzez ustawienie`IsExcel2003Compatible` Do`true`, podczas odświeżania ograniczasz długość znaków do 255.
+To tutaj zaczyna się prawdziwa transformacja. Poprzez ustawienie `IsExcel2003Compatible` Do `true`podczas odświeżania ograniczasz długość znaków do 255.
 
 ## Krok 9: Sprawdź długość po ustawieniu zgodności
 
@@ -180,7 +182,7 @@ Prawdopodobnie zobaczysz wynik potwierdzający efekt obcięcia, jeśli początko
 Teraz zmieńmy ustawienia zgodności i sprawdźmy ponownie.
 
 ```csharp
-//Teraz ustaw właściwość IsExcel2003Compatible na false i ponownie odśwież
+// Teraz ustaw właściwość IsExcel2003Compatible na false i ponownie odśwież
 pivotTable.IsExcel2003Compatible = false;
 pivotTable.RefreshData();
 pivotTable.CalculateData();
@@ -213,7 +215,7 @@ st.IsTextWrapped = true;
 b5.SetStyle(st);
 ```
 
-Te wiersze kodu ułatwiają odczytywanie danych, dostosowując wymiary komórek i włączając zawijanie tekstu.
+Te wiersze kodu ułatwiają czytanie danych, dostosowując wymiary komórek i włączając zawijanie tekstu.
 
 ## Krok 13: Zapisz skoroszyt
 
@@ -224,7 +226,7 @@ Na koniec zapisz skoroszyt ze zmianami, które wprowadziłeś.
 wb.Save(dataDir + "SpecifyCompatibility_out.xlsx", SaveFormat.Xlsx);
 ```
 
- Wybór odpowiedniego formatu pliku jest kluczowy przy zapisywaniu plików Excel.`Xlsx`Format ten jest powszechnie używany i kompatybilny z wieloma wersjami programu Excel.
+Wybór odpowiedniego formatu pliku jest kluczowy przy zapisywaniu plików Excel. `Xlsx` Format ten jest powszechnie używany i kompatybilny z wieloma wersjami programu Excel.
 
 ## Wniosek
 
@@ -242,13 +244,15 @@ Zgodność z programem Excel jest kluczowa, ponieważ pozwala mieć pewność, �
 Tak, możesz tworzyć i manipulować tabelami przestawnymi programowo, używając Aspose.Cells. Biblioteka udostępnia różne metody dodawania źródeł danych, pól i funkcji powiązanych z tabelami przestawnymi.
 
 ### Jak sprawdzić długość ciągu znaków w komórce programu Excel?  
-Możesz użyć`StringValue` własność`Cell` obiekt, aby pobrać zawartość komórki, a następnie wywołać`.Length` właściwość pozwalająca na ustalenie długości ciągu.
+Możesz użyć `StringValue` własność `Cell` obiekt, aby pobrać zawartość komórki, a następnie wywołać `.Length` właściwość pozwalająca na ustalenie długości ciągu.
 
 ### Czy mogę dostosować formatowanie komórek poza wysokością i szerokością wiersza?  
- Oczywiście! Aspose.Cells umożliwia rozbudowane formatowanie komórek. Możesz zmieniać style czcionek, kolory, obramowania, formaty liczb i wiele więcej za pomocą`Style` klasa.
+Oczywiście! Aspose.Cells umożliwia rozbudowane formatowanie komórek. Możesz zmieniać style czcionek, kolory, obramowania, formaty liczb i wiele więcej za pomocą `Style` klasa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

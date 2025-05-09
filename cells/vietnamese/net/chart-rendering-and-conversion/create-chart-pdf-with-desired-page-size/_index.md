@@ -1,14 +1,16 @@
 ---
-title: Tạo biểu đồ PDF với kích thước trang mong muốn
-linktitle: Tạo biểu đồ PDF với kích thước trang mong muốn
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tạo PDF bằng biểu đồ Excel của bạn bằng Aspose.Cells cho .NET. Tìm hiểu cách thực hiện với hướng dẫn từng bước này.
-weight: 12
-url: /vi/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/
+"description": "Tạo PDF bằng biểu đồ Excel của bạn bằng Aspose.Cells cho .NET. Tìm hiểu cách thực hiện với hướng dẫn từng bước này."
+"linktitle": "Tạo biểu đồ PDF với kích thước trang mong muốn"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo biểu đồ PDF với kích thước trang mong muốn"
+"url": "/vi/net/chart-rendering-and-conversion/create-chart-pdf-with-desired-page-size/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo biểu đồ PDF với kích thước trang mong muốn
@@ -27,11 +29,11 @@ Bạn sẽ cần hiểu biết cơ bản về lập trình C# và .NET framework
 
 ### Aspose.Cells cho .NET
 
-Hãy đảm bảo bạn đã cài đặt Aspose.Cells cho .NET. Bạn có thể tìm thấy tất cả các chi tiết trên[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/). 
+Hãy đảm bảo bạn đã cài đặt Aspose.Cells cho .NET. Bạn có thể tìm thấy tất cả các chi tiết trên [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/). 
 
 ### Môi trường phát triển
 
- Thiết lập môi trường phát triển của bạn. Đây có thể là Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ C#. Tải xuống và cài đặt thư viện Aspose.Cells từ[trang tải xuống](https://releases.aspose.com/cells/net/).
+Thiết lập môi trường phát triển của bạn. Đây có thể là Visual Studio hoặc bất kỳ IDE nào khác hỗ trợ C#. Tải xuống và cài đặt thư viện Aspose.Cells từ [trang tải xuống](https://releases.aspose.com/cells/net/).
 
 ### Tệp Excel mẫu
 
@@ -77,7 +79,7 @@ Tiếp theo, bạn cần tải tệp Excel có chứa biểu đồ. Thực hiệ
 Workbook wb = new Workbook(sourceDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 ```
 
- Các`Workbook` lớp là trung tâm để tương tác với tài liệu Excel của bạn. Đảm bảo đường dẫn trỏ đúng đến tệp Excel của bạn—một lỗi ở đây sẽ ngăn phần còn lại của mã thực thi.
+Các `Workbook` lớp là trung tâm để tương tác với tài liệu Excel của bạn. Đảm bảo đường dẫn trỏ đúng đến tệp Excel của bạn—một lỗi ở đây sẽ ngăn phần còn lại của mã thực thi.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -88,7 +90,7 @@ Sau khi tải xong bảng tính, bước tiếp theo là truy cập vào bảng 
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Trong Aspose.Cells, các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy`Worksheets[0]` đề cập đến tờ đầu tiên.
+Trong Aspose.Cells, các bảng tính được lập chỉ mục bắt đầu từ số không, vì vậy `Worksheets[0]` đề cập đến tờ đầu tiên.
 
 ## Bước 4: Truy cập Biểu đồ đầu tiên
 
@@ -112,7 +114,7 @@ ch.ToPdf(outputDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLa
 
 Trong đoạn mã này:
 - Tệp PDF sẽ được lưu vào thư mục đầu ra mà bạn đã chỉ định trước đó.
--  Các con số`7, 7` lần lượt biểu thị chiều rộng và chiều cao của kích thước trang mong muốn.
+- Các con số `7, 7` lần lượt biểu thị chiều rộng và chiều cao của kích thước trang mong muốn.
 - PageLayoutAlignmentType.Center đảm bảo biểu đồ được căn giữa trang.
 
 ## Bước 6: Tin nhắn xác nhận
@@ -135,19 +137,21 @@ Xin chúc mừng! Bạn vừa học được cách tận dụng Aspose.Cells cho
 Aspose.Cells for .NET được sử dụng để tạo, chỉnh sửa và chuyển đổi các tài liệu Excel theo chương trình trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có, Aspose.Cells cung cấp một[dùng thử miễn phí](https://releases.aspose.com/) cho mục đích đánh giá.
+Có, Aspose.Cells cung cấp một [dùng thử miễn phí](https://releases.aspose.com/) cho mục đích đánh giá.
 
 ### Có cách nào để kéo dài thời gian dùng thử sau thời gian ban đầu không?  
- Bạn có thể nộp đơn xin một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm mở rộng.
+Bạn có thể nộp đơn xin một [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để thử nghiệm mở rộng.
 
 ### Tôi phải làm sao nếu gặp vấn đề hoặc có thắc mắc?  
- Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm kiếm sự trợ giúp từ cộng đồng Aspose trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể mua Aspose.Cells như thế nào?  
- Bạn có thể mua Aspose.Cells từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Cells từ [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Optimización de hojas de Excel con celdas fusionadas mediante Aspose.Cells para Java
+# Dominando la optimización de hojas de Excel con celdas fusionadas usando Aspose.Cells para Java
 
 ## Introducción
 
@@ -206,11 +208,14 @@ Explore más funcionalidades de Aspose.Cells profundizando en su extensa documen
 - **Descargar**: Obtenga la última versión de Aspose.Cells para Java [aquí](https://releases.aspose.com/cells/java/)
 - **Compra**:Considere comprar una licencia para tener acceso completo [aquí](https://purchase.aspose.com/buy)
 - **Prueba gratuita**Pruebe Aspose.Cells con una versión de prueba gratuita disponible en [este enlace](https://releases.aspose.com/cells/java/)
-- **Licencia temporal**Solicite una licencia temporal para explorar funciones avanzadas [aquí](https://purchase.aspose.com/temporary-license/)
+- **Licencia temporal**:Solicita una licencia temporal para explorar funciones avanzadas [aquí](https://purchase.aspose.com/temporary-license/)
 - **Apoyo**:Para cualquier consulta, visite el [Foro de Aspose](https://forum.aspose.com/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

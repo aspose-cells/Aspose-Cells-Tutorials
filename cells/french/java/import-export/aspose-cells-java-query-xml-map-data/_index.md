@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ En maîtrisant la bibliothèque Aspose.Cells pour interroger les données cartog
 En suivant ce tutoriel, vous serez parfaitement équipé pour exploiter la puissance d'Aspose.Cells pour Java et interroger des données cartographiques XML dans des fichiers Excel. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

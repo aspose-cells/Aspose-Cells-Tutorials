@@ -1,32 +1,34 @@
 ---
-title: Nhận Kích thước Trang
-linktitle: Nhận Kích thước Trang
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách lấy kích thước trang bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển làm việc với các tệp Excel.
-weight: 40
-url: /vi/net/excel-page-setup/get-page-dimensions/
+"description": "Tìm hiểu cách lấy kích thước trang bằng Aspose.Cells cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển làm việc với các tệp Excel."
+"linktitle": "Nhận Kích thước Trang"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Nhận Kích thước Trang"
+"url": "/vi/net/excel-page-setup/get-page-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận Kích thước Trang
 
 ## Giới thiệu
 
-Khi nói đến việc xử lý bảng tính trong các ứng dụng .NET, thư viện Aspose.Cells nổi bật như một công cụ mạnh mẽ cho phép các nhà phát triển dễ dàng thao tác các tệp Excel. Nhưng làm thế nào để bạn có được kích thước trang cho nhiều kích cỡ giấy khác nhau bằng thư viện mạnh mẽ này? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước trong quy trình, đảm bảo rằng bạn không chỉ hiểu rõ hơn về cách hoạt động của Aspose.Cells mà còn trở nên thành thạo khi sử dụng nó trong các dự án của mình. 
+Khi nói đến việc xử lý bảng tính trong các ứng dụng .NET, thư viện Aspose.Cells nổi bật như một công cụ mạnh mẽ cho phép các nhà phát triển dễ dàng thao tác các tệp Excel. Nhưng làm thế nào để bạn có được kích thước trang cho nhiều kích thước giấy khác nhau bằng thư viện mạnh mẽ này? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước trong quy trình, đảm bảo rằng bạn không chỉ hiểu rõ hơn về cách hoạt động của Aspose.Cells mà còn trở nên thành thạo khi sử dụng nó trong các dự án của mình. 
 
 ## Điều kiện tiên quyết 
 
-Trước khi đi sâu vào phần mã hóa, bạn cần chuẩn bị một số điều để có thể thực hiện hiệu quả:
+Trước khi đi sâu vào phần mã hóa, bạn cần chuẩn bị một số điều sau để có thể thực hiện hiệu quả:
 
 ### Studio trực quan
 Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và thực thi mã .NET của mình.
 
 ### Thư viện Aspose.Cells
 Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể lấy nó từ:
--  Liên kết tải xuống:[Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/)
+- Liên kết tải xuống: [Aspose.Cells cho .NET](https://releases.aspose.com/cells/net/)
 
 ### Kiến thức cơ bản về C#
 Sẽ rất có lợi nếu bạn có hiểu biết cơ bản về C#. Hướng dẫn này sẽ sử dụng các khái niệm lập trình cơ bản dễ hiểu.
@@ -39,7 +41,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các gói Asp
 
 ### Tạo một dự án mới
 
- Mở Visual Studio và tạo một dự án C# Console Application mới. Bạn có thể đặt tên bất kỳ theo ý thích, chúng ta hãy bắt đầu với`GetPageDimensions`.
+Mở Visual Studio và tạo một dự án C# Console Application mới. Bạn có thể đặt tên bất kỳ theo ý thích, chúng ta hãy bắt đầu với `GetPageDimensions`.
 
 ### Thêm tài liệu tham khảo
 
@@ -50,7 +52,7 @@ Bước đầu tiên trong hành trình của chúng ta là nhập các gói Asp
 
 ### Thêm Sử dụng Chỉ thị
 
- Ở đầu trang của bạn`Program.cs` tệp, chèn lệnh này để truy cập chức năng Aspose.Cells:
+Ở đầu trang của bạn `Program.cs` tệp, chèn lệnh này để truy cập chức năng Aspose.Cells:
 
 ```csharp
 using System;
@@ -81,7 +83,7 @@ Sau khi tạo một phiên bản của sổ làm việc, bạn sẽ muốn truy 
 Worksheet sheet = book.Worksheets[0];
 ```
 
-Dòng này lấy bảng tính đầu tiên, cho phép chúng ta thiết lập kích thước giấy và lấy kích thước tương ứng của chúng.
+Dòng này sẽ lấy bảng tính đầu tiên, cho phép chúng ta thiết lập kích thước giấy và lấy kích thước tương ứng của chúng.
 
 ## Bước 3: Thiết lập kích thước giấy thành A2 và lấy kích thước
 
@@ -140,16 +142,18 @@ Aspose.Cells là thư viện .NET được sử dụng để tạo, xử lý và
 Không, Aspose.Cells là một thư viện độc lập và không yêu cầu phải cài đặt Excel.
 
 ### Tôi có thể tìm thêm ví dụ về Aspose.Cells ở đâu?
- Bạn có thể xem tài liệu ở đây:[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể xem tài liệu ở đây: [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Có phiên bản dùng thử miễn phí của Aspose.Cells không?
- Có! Bạn có thể nhận phiên bản dùng thử miễn phí từ:[Dùng thử miễn phí Aspose.Cells](https://releases.aspose.com/).
+Có! Bạn có thể nhận phiên bản dùng thử miễn phí từ: [Dùng thử miễn phí Aspose.Cells](https://releases.aspose.com/).
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể nhận trợ giúp bằng cách truy cập diễn đàn hỗ trợ Aspose:[Hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận trợ giúp bằng cách truy cập diễn đàn hỗ trợ Aspose: [Hỗ trợ Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

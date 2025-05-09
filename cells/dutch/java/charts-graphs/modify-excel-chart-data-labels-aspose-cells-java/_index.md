@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Ontdek de extra functies die Aspose.Cells biedt, zoals het helemaal opnieuw make
 Door Aspose.Cells voor Java te gebruiken, kunt u uw Excel-gerelateerde workflows nauwkeurig en eenvoudig automatiseren en verbeteren. Veel programmeerplezier!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

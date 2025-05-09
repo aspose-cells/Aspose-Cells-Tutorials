@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ In diesem Handbuch haben wir untersucht, wie Sie horizontale und vertikale Seite
 - Entdecken Sie zusätzliche Funktionen von Aspose.Cells für Java, um Ihre Möglichkeiten zur Excel-Dokumentenverarbeitung weiter zu verbessern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

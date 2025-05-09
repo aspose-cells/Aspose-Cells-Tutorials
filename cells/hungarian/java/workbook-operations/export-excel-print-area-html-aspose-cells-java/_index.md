@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Nehezen ment már egy Excel-fájl egyes részeinek hatékony HTML-be exportálá
 
 **Amit tanulni fogsz:**
 
-- Hogyan lehet Excel munkafüzetet betölteni az Aspose.Cells for Java használatával.
+- Hogyan töltsünk be egy Excel munkafüzetet az Aspose.Cells for Java használatával.
 - Egy adott nyomtatási terület beállítása egy Excel munkalapon belül.
 - A meghatározott nyomtatási terület exportálása HTML formátumba.
 - Ezen funkciók gyakorlati alkalmazásai valós helyzetekben.
@@ -65,7 +67,7 @@ Az Aspose.Cells használatának megkezdéséhez be kell állítania a projektjé
 
    Használj Mavent vagy Gradle-t a fent látható módon az Aspose.Cells beillesztéséhez a projekt függőségeibe.
 
-2. **Licencbeszerzés lépései:**
+2. **Licenc megszerzésének lépései:**
 
    Ingyenes próbalicencet szerezhet be a következő címen: [Az Aspose hivatalos weboldala](https://purchase.aspose.com/temporary-license/)Ez lehetővé teszi az összes funkció korlátozás nélküli felfedezését. Hosszú távú használat esetén érdemes megfontolni egy licenc megvásárlását.
 
@@ -98,7 +100,7 @@ Workbook wb = new Workbook(dataDir + "/sampleInlineCharts.xlsx");
 
 **Magyarázat:**  
 - **`Workbook` Osztály**: Egy Excel fájlt jelöl. A megadott elérési útról betölti a munkafüzetet a memóriába.
-- **Paraméterek**A konstruktor egy karakterlánc argumentumot fogad el, amely a fájl helyét jelzi.
+- **Paraméterek**: A konstruktor egy karakterlánc argumentumot fogad el, amely a fájl helyét jelzi.
 
 ### 2. funkció: Nyomtatási terület beállítása a munkalapon
 
@@ -136,7 +138,7 @@ ws.getPageSetup().setPrintArea("D2:M20");
 
 **Áttekintés**
 
-Ez a funkció csak a munkalap definiált nyomtatási területét exportálja HTML-fájlba.
+Ez a funkció csak a munkalap meghatározott nyomtatási területét exportálja HTML-fájlba.
 
 #### 1. lépés: Nyomtatási terület betöltése és beállítása (a korábban leírtak szerint)
 
@@ -228,6 +230,9 @@ Készen áll a megoldások megvalósítására? Merüljön el a(z) ... által bi
 - **Támogatás:** Kérjen segítséget a közösségtől vagy az Aspose támogató csapatától a [Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

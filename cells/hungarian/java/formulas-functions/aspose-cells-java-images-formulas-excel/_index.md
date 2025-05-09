@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Aspose.Cells Java elsajátítása: Képek és képletek hozzáadása Excel munkafüzetekhez
+# Aspose.Cells Java elsajátítása: Képek és képletek hozzáadása Excel-munkafüzetekhez
 
 ## Bevezetés
 
@@ -301,6 +303,9 @@ workbook.save(outDir + "IPCellReference_out.xlsx");
 - Rendszeresen frissítse az Aspose.Cells-t a legújabb funkciók és teljesítménybeli fejlesztések kihasználása érdekében.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

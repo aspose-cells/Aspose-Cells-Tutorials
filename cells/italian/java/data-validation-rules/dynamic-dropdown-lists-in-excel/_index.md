@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Elenchi a discesa dinamici in Excel
@@ -28,7 +30,7 @@ Prima di addentrarci nella creazione di elenchi a discesa dinamici, assicurati d
 
 Ora iniziamo con la guida passo passo.
 
-## Passaggio 1: configurazione del progetto Java
+## Passaggio 1: impostazione del progetto Java
 
 Per prima cosa, crea un nuovo progetto Java nel tuo IDE e aggiungi la libreria Aspose.Cells per Java alle dipendenze del tuo progetto.
 
@@ -115,6 +117,7 @@ Il numero di elementi nell'elenco a discesa è limitato dalle dimensioni massime
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

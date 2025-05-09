@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ Az útmutató követésével megtanultad, hogyan hozhatsz létre hatékonyan eln
 - Fedezze fel az Aspose.Cells további funkcióit, például a diagramkészítést vagy a képletszámítást.
 - Kísérletezz összetettebb tartományok hozzáadásával és nagyobb alkalmazásokba való integrálásával.
 
-Javasoljuk, hogy próbálja meg megvalósítani ezt a megoldást a következő projektjében. További segítségért forduljon a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) vagy forduljon hozzájuk [támogatási fórum](https://forum.aspose.com/c/cells/9).
+Javasoljuk, hogy próbálja meg megvalósítani ezt a megoldást a következő projektjében. További segítségért forduljon a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) vagy forduljon hozzájuk [támogató fórum](https://forum.aspose.com/c/cells/9).
 
 ## GYIK szekció
 
@@ -149,6 +151,9 @@ A5: Az ütközések elkerülése érdekében győződjön meg arról, hogy a tar
 További információkért tekintse meg a következő forrásokat: [Aspose letöltések](https://releases.aspose.com/cells/java/) és fontolja meg egy ideiglenes licenc beszerzését a teljes funkcionalitású hozzáféréshez.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

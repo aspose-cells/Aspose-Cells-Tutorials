@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 **Что вы узнаете:**
 - Как настроить и использовать Aspose.Cells для Java
-- Реализация пользовательского поставщика потоков в Java
+- Реализация пользовательского поставщика потоков на Java
 - Настройка книги Excel для обработки связанных изображений
 - Реальные применения этой функции
 
@@ -190,6 +192,9 @@ public class ControlExternalResourcesUsingWorkbookSetting {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

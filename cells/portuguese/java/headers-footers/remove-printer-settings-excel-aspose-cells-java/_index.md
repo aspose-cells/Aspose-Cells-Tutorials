@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Como usar o Aspose.Cells Java para remover configurações de impressora de pastas de trabalho do Excel
 
 ## Introdução
-Gerenciar suas pastas de trabalho do Excel com eficiência é crucial, especialmente ao lidar com configurações de impressão que podem não ser mais relevantes ou causar problemas em diferentes ambientes. Com os poderosos recursos do **Aspose.Cells para Java**, você pode automatizar tarefas como remover configurações de impressora de planilhas, simplificando seu fluxo de trabalho e garantindo consistência no manuseio de documentos.
+Gerenciar suas pastas de trabalho do Excel com eficiência é crucial, especialmente ao lidar com configurações de impressão que podem não ser mais relevantes ou causar problemas em diferentes ambientes. Com os poderosos recursos do **Aspose.Cells para Java**, você pode automatizar tarefas como remover configurações da impressora de planilhas, simplificando seu fluxo de trabalho e garantindo consistência no manuseio de documentos.
 
 Neste tutorial, guiaremos você pelo processo de uso do Aspose.Cells para carregar uma pasta de trabalho do Excel e remover quaisquer configurações de impressora existentes. Ao aprender a utilizar esse recurso, você poderá manter pastas de trabalho organizadas e adaptáveis para diversas finalidades.
 
@@ -154,6 +156,9 @@ Com certeza! Suporta vários formatos, incluindo XLS, XLSX, CSV e muito mais.
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

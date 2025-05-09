@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ A Gradle-t használóknak ezt is vegyék figyelembe. `build.gradle` fájl:
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Licencbeszerzés lépései:**
+**Licenc megszerzésének lépései:**
 - **Ingyenes próbaverzió:** Kezdje el egy ingyenes próbaverzióval az Aspose.Cells for Java képességeinek felfedezését.
 - **Ideiglenes engedély:** Ha több időre van szüksége, kérjen ideiglenes engedélyt a [Aspose weboldal](https://purchase.aspose.com/temporary-license/).
 - **Vásárlás:** A teljes hozzáférés és támogatás érdekében vásároljon licencet a következő címen: [Aspose vásárlási oldala](https://purchase.aspose.com/buy).
@@ -133,7 +135,7 @@ workbook.save(outputDir + "/ConvertActiveWorksheetToSVG_out.svg");
 
 ## Teljesítménybeli szempontok
 - **Erőforrás-felhasználás optimalizálása:** A memória hatékony kezelése a munkafüzet-objektumok eltávolításával, amikor már nincs rájuk szükség, a `workbook.dispose()`.
-- **Hatékony adatkezelés:** Csak a szükséges adatokat vagy táblázatokat töltsd be a memóriahasználat minimalizálása érdekében.
+- **Hatékony adatkezelés:** Csak a szükséges adatokat vagy táblázatokat töltse be a memóriahasználat minimalizálása érdekében.
 - **Használja ki a Java szemétgyűjtését:** Gondoskodjon időben történő szemétszállításról a fel nem használt erőforrások felszabadítása érdekében.
 
 ## Következtetés
@@ -164,6 +166,9 @@ Ez az oktatóanyag az Aspose.Cells for Java segítségével munkafüzetek létre
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

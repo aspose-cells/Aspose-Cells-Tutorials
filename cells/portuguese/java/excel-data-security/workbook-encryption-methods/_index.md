@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Métodos de criptografia de pasta de trabalho
@@ -20,7 +22,7 @@ Na era digital atual, a segurança dos dados é primordial. Quando se trata de l
 
 ## Compreendendo a criptografia da pasta de trabalho
 
-Antes de nos aprofundarmos nos detalhes da implementação, vamos primeiro entender o que é criptografia de pasta de trabalho e por que ela é essencial. Criptografia de pasta de trabalho é o processo de proteger o conteúdo de uma pasta de trabalho do Excel aplicando algoritmos de criptografia aos dados nela contidos. Isso garante que apenas usuários autorizados com a chave de descriptografia possam acessar e visualizar o conteúdo da pasta de trabalho, mantendo seus dados confidenciais protegidos de olhares indiscretos.
+Antes de nos aprofundarmos nos detalhes da implementação, vamos entender o que é criptografia de pasta de trabalho e por que ela é essencial. Criptografia de pasta de trabalho é o processo de proteger o conteúdo de uma pasta de trabalho do Excel aplicando algoritmos de criptografia aos dados nela contidos. Isso garante que apenas usuários autorizados com a chave de descriptografia possam acessar e visualizar o conteúdo da pasta de trabalho, mantendo seus dados confidenciais protegidos de olhares indiscretos.
 
 ## Pré-requisitos
 
@@ -85,7 +87,7 @@ Proteger suas pastas de trabalho do Excel com criptografia é uma etapa crucial 
 
 ### Quão segura é a criptografia da pasta de trabalho no Aspose.Cells para Java?
 
-O Aspose.Cells para Java usa algoritmos de criptografia fortes como AES-128 para proteger suas pastas de trabalho, garantindo um alto nível de segurança.
+Aspose.Cells para Java usa algoritmos de criptografia fortes como AES-128 para proteger suas pastas de trabalho, garantindo um alto nível de segurança.
 
 ### Posso alterar o método de criptografia depois de criptografar uma pasta de trabalho?
 
@@ -106,6 +108,7 @@ O Aspose.Cells para Java se concentra principalmente em pastas de trabalho do Ex
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Zanurzmy się i skonfigurujmy nasze środowisko.
 Zanim zaczniesz kodować, upewnij się, że dysponujesz następującymi narzędziami i wiedzą:
 
 - **Zestaw narzędzi programistycznych Java (JDK)**: Upewnij się, że w systemie jest zainstalowany JDK 8 lub nowszy.
-- **Zintegrowane środowisko programistyczne (IDE)**:Użyj środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse, aby zapewnić sobie płynniejsze środowisko programistyczne.
+- **Zintegrowane środowisko programistyczne (IDE)**:Używaj środowiska IDE, takiego jak IntelliJ IDEA lub Eclipse, aby zapewnić sobie płynniejsze środowisko programistyczne.
 - **Biblioteka Aspose.Cells**:Zapoznaj się z Mavenem lub Gradle, aby móc zarządzać zależnościami.
 - **Podstawowe umiejętności Java**:Posiadam dobrą znajomość programowania obiektowego w języku Java.
 
@@ -111,7 +113,7 @@ import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.PlacementType;
 ```
 
-**Krok 2: Dodaj kształt linii do arkusza kalkulacyjnego**
+**Krok 2: Dodaj kształt linii do swojego arkusza kalkulacyjnego**
 ```java
 LineShape line = (LineShape) worksheet.getShapes().addShape(MsoDrawingType.LINE, 7, 0, 1, 0, 85, 250);
 line.setPlacement(PlacementType.FREE_FLOATING);
@@ -142,7 +144,7 @@ line.getLine().setWeight(3);
 #### Przegląd
 Groty strzałek mogą wskazywać kierunek lub przepływ na diagramach. Skonfigurujmy je na naszej linii.
 
-**Krok 1: Importowanie klas Arrowhead**
+**Krok 1: Importuj klasy Arrowhead**
 ```java
 import com.aspose.cells.MsoArrowheadLength;
 import com.aspose.cells.MsoArrowheadStyle;
@@ -218,6 +220,9 @@ A: Dostęp do nich uzyskasz za pomocą `getWorksheets().get(index)` z żądanym 
 A: Tak, optymalizuj kod, minimalizując tworzenie obiektów w pętlach i monitoruj wykorzystanie pamięci, aby zapobiec wyciekom. Używaj wydajnych struktur danych dostarczanych przez Aspose.Cells, aby uzyskać lepszą wydajność.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

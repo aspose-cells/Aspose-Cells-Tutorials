@@ -1,55 +1,60 @@
 ---
-title: Stel letterkleur in Excel-cellen met behulp van Aspose.Cells voor .NET
-weight: 7700
-limit: 
-description: Leer hoe je lettertypen in een Excel-cel kunt instellen met behulp van Aspose.Cells voor .NET. Maak een werkboek, wijzig celstijlen en beveilig het bestand programma.
-keywords: [Aspose.Cells for .NET, Set Font Color in Excel, Change Font Color, Excel Cell Formatting, .NET Excel Library, Modify Excel Styles, C# Excel Formatting]
-url: /nl/net/formatting/setting-font-color/
+"description": "Leer hoe u de tekstkleur in een Excel-cel instelt met Aspose.Cells voor .NET. Maak een werkmap, wijzig de celstijlen en sla het bestand programmatisch op."
+"title": "Letterkleur instellen in Excel-cellen met Aspose.Cells voor .NET"
+"url": "/nl/net/formatting/setting-font-color/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Stel letterkleur in Excel-cellen op met behulp van Aspose.Cells
+## Letterkleur instellen in Excel-cellen met Aspose.Cells
   
-Deze handleiding toont hoe je de letterkleur in een Excel-cel kunt instellen met behulp van Aspose.Cells voor .NET. Je leert hoe je een Excel-werkboek kunt maken, een werkblad kunt toevoegen, een cel s waarde en stijl kunt wijzigen en een aangepaste letterkleur kunt toepassen. Door deze stappen te volgen, kun je de vormgeving van cellen in Excel-bestanden met behulp van C# programmerend controleren. Dit is vooral handig voor het genereren van rapporten, het benadrukken van belangrijke gegevens en het verbeteren van de leesbaarheid van spreadsheets.  
+Deze tutorial laat zien hoe je de tekstkleur in een Excel-cel instelt met Aspose.Cells voor .NET. Je leert hoe je een Excel-werkmap maakt, een werkblad toevoegt, de waarde en stijl van een cel wijzigt en een aangepaste tekstkleur toepast. Door deze stappen te volgen, kun je de celopmaak in Excel-bestanden programmatisch beheren met C#. Dit is vooral handig voor het genereren van rapporten, het markeren van belangrijke gegevens en het verbeteren van de leesbaarheid van spreadsheets.  
  
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-color" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installatie-instructies  
-Om Aspose.Cells te gebruiken voor .NET, volg deze stappen:  
+Volg deze stappen om Aspose.Cells voor .NET te gebruiken:  
 
-1. Installeer via NuGet Package Manager:  
-   * Open Visual Studio.  
-   * Ga naar Tools > NuGet Pakket Manager > NuGet Pakketten beheren voor oplossing.  
-   * Zoek naar Aspose.Cells en installeer de nieuwste versie.  
+1. Installeren via NuGet Package Manager:  
+   - Visual Studio openen.  
+   - Ga naar Extra > NuGet Package Manager > NuGet-pakketten beheren voor oplossing.  
+   - Zoek naar Aspose.Cells en installeer de nieuwste versie.  
 
-2. Installeer via de pakketmanagerconsole:  
-   * Open de pakketmanagerconsole in Visual Studio.  
-   * Voer het volgende commando uit:  
+2. Installeren via Package Manager Console:  
+   - Open de Package Manager Console in Visual Studio.  
+   - Voer de volgende opdracht uit:  
      ```powershell
      Install-Package Aspose.Cells
      ```
 
-3. Download van Aspose website:  
-   * Bezoek [Aspose.Cells voor .NET Download](https://releases.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-   * Download en installeer de laatste DLL's handmatig.  
+3. Downloaden van Aspose-website:  
+   - Bezoek [Aspose.Cells voor .NET downloaden](https://releases.aspose.com/cells/net/).  
+   - Download en installeer de nieuwste DLL's handmatig.  
 
 4. Voeg een verwijzing naar Aspose.Cells toe in uw project:  
-   * In Solution Explorer, klik met de rechterkliek op Referenties.  
-   * Klik op Toevoegen van referentie en blader naar het bestand Aspose.Cells.dll.  
-   * Klik op OK om het toe te voegen aan uw project. 
+   - Klik in Solution Explorer met de rechtermuisknop op Verwijzingen.  
+   - Klik op Verwijzing toevoegen en blader naar het bestand Aspose.Cells.dll.  
+   - Klik op OK om het aan uw project toe te voegen. 
    
 ## Zie ook  
-Om een vergunning te kopen, ga naar [Verkooppagina](https://purchase.aspose.com/buy)\- Ik heb het niet gedaan .  
-Voor volledige documentatie, bezoek [Aspose.Cells voor .NET Documentatie](https://docs.aspose.com/cells/net/)\- Ik heb het niet gedaan .  
-Voor de volledige API-referentie, bekijk [Aspose.Cells voor .NET API Reference](https://reference.aspose.com/cells/net/)\- Ik heb het niet gedaan . 
+Om een licentie te kopen, ga naar [Aspose Aankooppagina](https://purchase.aspose.com/buy).  
+Voor volledige documentatie, bezoek [Aspose.Cells voor .NET-documentatie](https://docs.aspose.com/cells/net/).  
+Voor de volledige API-referentie kunt u terecht op [Aspose.Cells voor .NET API-referentie](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

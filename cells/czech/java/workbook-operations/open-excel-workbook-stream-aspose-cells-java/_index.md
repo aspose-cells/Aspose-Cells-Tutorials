@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ V této příručce jsme se zabývali tím, jak otevřít sešit aplikace Excel 
 Dodržováním tohoto komplexního průvodce budete dobře vybaveni k využití Aspose.Cells pro Javu ve svých projektech, což zvýší jak funkčnost, tak efektivitu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

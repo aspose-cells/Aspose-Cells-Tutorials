@@ -1,19 +1,21 @@
 ---
-title: Pembuatan dan Konversi Grafik
-linktitle: Pembuatan dan Konversi Grafik
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Jelajahi tutorial Aspose.Cells untuk .NET tentang rendering bagan, konversi, dan pembuatan PDF dengan ukuran halaman yang diinginkan. Panduan langkah demi langkah untuk penanganan bagan Excel yang lancar.
-weight: 24
-url: /id/net/chart-rendering-and-conversion/
+"description": "Jelajahi tutorial Aspose.Cells untuk .NET tentang rendering bagan, konversi, dan pembuatan PDF dengan ukuran halaman yang diinginkan. Panduan langkah demi langkah untuk penanganan bagan Excel yang lancar."
+"linktitle": "Pembuatan dan Konversi Grafik"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pembuatan dan Konversi Grafik"
+"url": "/id/net/chart-rendering-and-conversion/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pembuatan dan Konversi Grafik
 
-## Perkenalan
+## Bevezetés
 
 Saat bekerja dengan bagan Excel, Anda memerlukan alat yang tepat untuk membuat, memodifikasi, dan mengonversi data Anda menjadi visual yang profesional dan memukau. Aspose.Cells for .NET menawarkan serangkaian fitur yang membuat proses ini lebih mudah dari sebelumnya. Baik Anda merender bagan, mengonversinya ke PDF, atau menyempurnakan ukuran halaman, tutorial ini akan membantu Anda di setiap langkah.
 
@@ -36,9 +38,11 @@ Temukan cara membuat grafik dalam .NET menggunakan Aspose.Cells. Ikuti tutorial 
 Pelajari cara mengonversi grafik Excel ke PDF menggunakan Aspose.Cells for .NET dengan panduan langkah demi langkah yang mudah ini. Jelajahi kiat-kiat penting dan contoh-contoh pengodean.
 ### [Buat Bagan PDF dengan Ukuran Halaman yang Diinginkan](./create-chart-pdf-with-desired-page-size/)
 Buat PDF dengan bagan Excel Anda menggunakan Aspose.Cells for .NET. Pelajari caranya dengan panduan langkah demi langkah ini.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ ImageIO.write(img1, "jpg", new File(dataDir + "/GTOfWorksheet_out.jpg"));
 Βυθιστείτε βαθύτερα στο Aspose.Cells και ξεκινήστε την εξαγωγή των φύλλων Excel σας ως εικόνες σήμερα!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

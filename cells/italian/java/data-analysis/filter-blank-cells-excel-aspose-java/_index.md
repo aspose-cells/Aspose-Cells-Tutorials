@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@ Prima di implementare questa funzionalità, assicurati di soddisfare i seguenti 
 - Accesso a un terminale o a un'interfaccia a riga di comando.
 
 ### Prerequisiti di conoscenza
-Sarà utile una conoscenza di base della programmazione Java e la familiarità con le strutture dei file Excel.
+Sarà utile avere una conoscenza di base della programmazione Java e avere familiarità con le strutture dei file Excel.
 
 ## Impostazione di Aspose.Cells per Java (H2)
 
@@ -193,6 +195,9 @@ Seguendo questa guida, potrai implementare con sicurezza il filtraggio delle cel
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

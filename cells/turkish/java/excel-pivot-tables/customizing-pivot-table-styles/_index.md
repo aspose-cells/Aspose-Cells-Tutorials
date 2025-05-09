@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tablo Stillerini Özelleştirme
@@ -87,9 +89,11 @@ Aspose.Cells for Java API'de pivot tablo stillerini özelleştirmek basittir ve 
    API belgelerine şu adresten ulaşabilirsiniz: [Java API Referansları için Aspose.Cells](https://reference.aspose.com/cells/java/) Detaylı bilgi için.
 
 Artık Aspose.Cells for Java'da pivot tablo stilleri oluşturma ve özelleştirme bilgisine sahipsiniz. Daha fazlasını keşfedin ve veri sunumlarınızı gerçekten olağanüstü hale getirin!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

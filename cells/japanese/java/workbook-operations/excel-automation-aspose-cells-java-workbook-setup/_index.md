@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-Excelタスクを自動化する際には、ブックの構成管理とワークシートレイアウトの最適化が開発者にとって重要な課題となります。このチュートリアルでは、 **Java 用 Aspose.Cells**新しい設定に焦点を当てる `Workbook` インスタンスの作成とワークシートのページ設定オプションの調整。これらの機能を習得することで、データ処理ワークフローを正確かつ効率的に合理化できます。
+Excelタスクを自動化する際には、ブックの構成管理とワークシートレイアウトの最適化が開発者にとって重要な課題となります。このチュートリアルでは、 **Java 用 Aspose.Cells**、新しい設定に焦点を当てる `Workbook` インスタンスの作成とワークシートのページ設定オプションの調整。これらの機能を習得することで、データ処理ワークフローを正確かつ効率的に合理化できます。
 
 **学習内容:**
 - Aspose.Cells で新しいワークブックをインスタンス化する方法。
@@ -177,6 +179,9 @@ A5: 包括的な [ドキュメント](https://reference.aspose.com/cells/java/) 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,9 +104,9 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Açıklama:
-- **`Workbook`**: Excel dosyasını temsil eder.
+- **`Workbook`**Excel dosyasını temsil eder.
 - **`Worksheet`**: Çalışma kitabındaki bir sayfaya atıfta bulunur.
-- **`Cells`**: Çalışma sayfasındaki hücrelerin bir koleksiyonu.
+- **`Cells`**: Çalışma sayfasındaki hücre koleksiyonu.
 - **`Style`**: Hücreleri biçimlendirmek için kullanılır.
 
 ### Özellik 2: Bir Çalışma Sayfasına Radyo Düğmesi Ekleme
@@ -200,6 +202,9 @@ Bu eğitimde, Aspose.Cells for Java kullanarak bir çalışma sayfası oluşturm
 - **Belgeleme**: Kapsamlı kılavuzlar ve API referansları şu adreste bulunabilir: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ Använda `setArrayFormula` metod kan du tilldela matrisformler programmatiskt.
 Formatering av celler förbättrar läsbarheten. Så här använder du numeriska format:
 
 #### Översikt
-Använd `setNumber` metod på en cells formateringsobjekt för att formatera den.
+Använd `setNumber` metod på en cells stilobjekt för att formatera den.
 
 #### Implementeringssteg
 1. **Hämta och ange stil**
@@ -224,7 +226,7 @@ Redo att ta nästa steg? Fördjupa dig i mer avancerade ämnen eller integrera d
    - Ja, genom att konfigurera anpassade funktioner och använda `CalculationOptions`.
 4. **Vilka är fördelarna med manuellt beräkningsläge?**
    - Det förbättrar prestandan genom att förhindra onödiga omberäkningar.
-5. **Hur sparar jag en arbetsbok som PDF med Aspose.Cells?**
+5. **Hur sparar jag en arbetsbok som PDF med hjälp av Aspose.Cells?**
    - Använd `save` metod med lämplig filändelse (`.pdf`).
 
 ## Resurser
@@ -233,6 +235,9 @@ Redo att ta nästa steg? Fördjupa dig i mer avancerade ämnen eller integrera d
 - [Köp en licens](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

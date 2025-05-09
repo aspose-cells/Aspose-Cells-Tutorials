@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Veri Analizi Excel Formülleri
@@ -112,13 +114,14 @@ Java için Aspose.Cells büyük Excel dosyalarını kolaylıkla işleyebilir, bu
 
 Evet, Aspose.Cells Excel formüllerini çeşitli dillerde destekler ve bu da onu uluslararası kullanıcılar için çok yönlü hale getirir.
 
-### Aspose.Cells for Java için daha fazla öğretici ve kaynağı nerede bulabilirim?
+### Java için Aspose.Cells hakkında daha fazla öğretici ve kaynağı nerede bulabilirim?
 
 Java için Aspose.Cells hakkında ek öğreticileri ve belgeleri şu adreste inceleyebilirsiniz: [Aspose.Cells Java API Başvurusu](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

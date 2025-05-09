@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan du går in på implementeringsdetaljer, se till att du har de nödvändiga
 För att följa den här guiden effektivt, se till att:
 - **Bibliotek och beroenden:** Inkludera Aspose.Cells för Java i ditt projekt via Maven eller Gradle.
 - **Miljöinställningar:** Ha en kompatibel JDK installerad på din maskin.
-- **Kunskapsförkunskaper:** Det är meriterande om du har goda kunskaper i Java-programmering och förståelse för Excel-filstrukturer.
+- **Kunskapsförkunskapskrav:** Det är meriterande om du har goda kunskaper i Java-programmering och förståelse för Excel-filstrukturer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -203,6 +205,9 @@ Den här guiden har utrustat dig med hur du skapar en datavalideringslista i ett
 - **Tillfällig licens:** Begär en tillfällig licens för utökad utvärdering hos [Licenssida](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

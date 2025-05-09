@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ Sí, especificando índices de columna adicionales en el `subtotal` parámetros 
 ### 4. ¿Cómo puedo manejar archivos grandes de Excel de manera eficiente con Aspose.Cells?
 Considere dividir las tareas en operaciones más pequeñas y aprovechar la transmisión si está disponible.
 ### 5. ¿Qué debo hacer si los subtotales no aparecen después de guardar el archivo?
-Asegúrese de que el área de su celda esté definida correctamente y de que haya guardado el libro de trabajo en una ubicación donde se pueda escribir.
+Asegúrese de que el área de su celda esté definida correctamente y de que haya guardado el libro de trabajo en una ubicación en la que se pueda escribir.
 ## Recursos
 - **Documentación**: [Documentación de Aspose.Cells para Java](https://reference.aspose.com/cells/java/)
 - **Descargar**: [Lanzamientos de Aspose.Cells](https://releases.aspose.com/cells/java/)
@@ -150,6 +152,9 @@ Asegúrese de que el área de su celda esté definida correctamente y de que hay
 - **Apoyo**: [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

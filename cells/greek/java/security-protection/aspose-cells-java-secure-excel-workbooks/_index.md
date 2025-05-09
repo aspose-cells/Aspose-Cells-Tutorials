@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ workbook.save(outDir + "/AEncryption_out.xls");
    - Ναι, το Aspose.Cells υποστηρίζει ένα ευρύ φάσμα μορφών αρχείων Excel, συμπεριλαμβανομένων παλαιότερων εκδόσεων όπως `.xls` και νεότερα όπως `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

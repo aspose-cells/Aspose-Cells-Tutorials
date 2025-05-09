@@ -1,14 +1,16 @@
 ---
-title: Excel'de Adlandırılmış Aralıktaki Hücreleri Tanımlama
-linktitle: Excel'de Adlandırılmış Aralıktaki Hücreleri Tanımlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel'de adlandırılmış aralıktaki hücreleri zahmetsizce tanımlayın.
-weight: 10
-url: /tr/net/excel-advanced-named-ranges/identify-cells-in-named-range/
+"description": "Bu kapsamlı adım adım eğitimle Aspose.Cells for .NET'i kullanarak Excel'de adlandırılmış aralıktaki hücreleri zahmetsizce tanımlayın."
+"linktitle": "Excel'de Adlandırılmış Aralıktaki Hücreleri Tanımlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Adlandırılmış Aralıktaki Hücreleri Tanımlama"
+"url": "/tr/net/excel-advanced-named-ranges/identify-cells-in-named-range/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Adlandırılmış Aralıktaki Hücreleri Tanımlama
@@ -29,13 +31,13 @@ Uzman olmanıza gerek yok, ancak C# hakkında temel bir anlayışa sahip olmak �
 
 Makinenizde .NET Framework'ün yüklü olduğundan emin olun. Aspose.Cells çeşitli sürümlerle uyumludur, ancak her zaman en son sürüm tercih edilir.
 
-### Aspose.Cells for .NET Kütüphanesi
+### Aspose.Cells .NET Kütüphanesi
 
- Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/)Eğer karar vermeden önce suları test etmek isterseniz, ücretsiz deneme imkanı sunuyorlar.
+Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/)Eğer karar vermeden önce suları test etmek isterseniz, ücretsiz deneme imkanı sunuyorlar.
 
 ### Adlandırılmış Aralıklı Excel Dosyası
 
- Örneklerimiz için, adında bir Excel dosyası oluşturun`sampleIdentifyCellsInNamedRange.xlsx` ve adlandırılmış bir aralık tanımlayın, diyelim`MyRangeThree`, içinde. Bu önemlidir çünkü örnek kod bu belirli adlandırılmış aralığa dayanır.
+Örneklerimiz için, adında bir Excel dosyası oluşturun `sampleIdentifyCellsInNamedRange.xlsx` ve adlandırılmış bir aralık tanımlayın, diyelim `MyRangeThree`, içinde. Bu önemlidir çünkü örnek kod bu belirli adlandırılmış aralığa dayanır.
 
 Önceden tanımlanmış bir adlandırılmış aralığınız yoksa ne olur? Kod amaçlandığı gibi yürütülmeyecektir, bu yüzden önce bunu ayarladığınızdan emin olun.
 
@@ -63,7 +65,7 @@ Yapmamız gereken ilk şey Excel dosyamızın bulunduğu yolu ayarlamaktır. Bu,
 // Belgeler dizinine giden yol.
 string dataDir = "YOUR DOCUMENTS DIRECTORY";
 ```
- Yer değiştirmek`"YOUR DOCUMENTS DIRECTORY"` sisteminizdeki gerçek yol ile`sampleIdentifyCellsInNamedRange.xlsx` dosya saklanır. Bu, bir arkadaşınıza yol tarifi vermeye benzer — nereye gideceğinizi belirtmeniz gerekir!
+Yer değiştirmek `"YOUR DOCUMENTS DIRECTORY"` sisteminizdeki gerçek yol ile `sampleIdentifyCellsInNamedRange.xlsx` dosya saklanır. Bu, bir arkadaşınıza yol tarifi vermeye benzer — nereye gideceğinizi belirtmeniz gerekir!
 
 ## Adım 2: Yeni Bir Çalışma Kitabı Oluşturun
 
@@ -73,11 +75,11 @@ string dataDir = "YOUR DOCUMENTS DIRECTORY";
 // Yeni bir Çalışma Kitabı örneği oluşturun.
 Workbook workbook = new Workbook(dataDir + "sampleIdentifyCellsInNamedRange.xlsx");
 ```
- Bu satır Excel dosyanızı temsil eden yeni bir Çalışma Kitabı örneğini başlatır. Şunu düşünün`Workbook`tüm elektronik tablolarınızı içeren bir klasör olarak ve bu satırla, o klasörü açmış oldunuz!
+Bu satır Excel dosyanızı temsil eden yeni bir Çalışma Kitabı örneğini başlatır. Şunu düşünün `Workbook` tüm elektronik tablolarınızı içeren bir klasör olarak ve bu satırla, o klasörü açmış oldunuz!
 
 ## Adım 3: Adlandırılmış Aralığı Alın
 
- Daha sonra, daha önce tanımladığımız adlandırılmış aralığı alacağız (bizim durumumuzda,`MyRangeThree`).
+Daha sonra, daha önce tanımladığımız adlandırılmış aralığı alacağız (bizim durumumuzda, `MyRangeThree`).
 
 ```csharp
 // Belirtilen adlandırılmış aralığı alma
@@ -102,7 +104,7 @@ Bu yöntemlerin her biri, adlandırılmış aralık hakkında belirli ayrıntıl
 - `RowCount` adlandırılmış aralığın kaç satırdan oluştuğunu gösterir.
 - `ColumnCount` adlandırılmış aralığın kaç sütundan oluştuğunu gösterir.
 
-Sanki bir kutunun içine girip içinde neler olduğunu ve nasıl dizildiğini görmek gibi!
+Sanki bir kutunun içine girip içinde neler olduğunu ve nasıl düzenlendiğini görmek gibi!
 
 ## Adım 5: Başarılı Olduğunu Göster
 
@@ -132,10 +134,12 @@ Adlandırılmış bir aralık oluşturmak için, dahil etmek istediğiniz hücre
 Zorunlu olmamakla birlikte, C# veya .NET hakkında temel bilgiye sahip olmak, özelliklerini etkili bir şekilde kullanmanıza yardımcı olacaktır.
 
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Kontrol et[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve API referansları için.
+Kontrol et [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) kapsamlı kılavuzlar ve API referansları için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

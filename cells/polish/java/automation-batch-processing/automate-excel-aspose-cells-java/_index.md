@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ Ten kompleksowy przewodnik przeprowadzi Cię przez kluczowe funkcje Aspose.Cells
 - Techniki dodawania i uzyskiwania dostępu do arkuszy kalkulacyjnych
 - Metody dostępu do komórek i ich modyfikacji
 - Tworzenie i nazywanie zakresów w arkuszu kalkulacyjnym
-- Ustawianie obramowań konturowych w określonych zakresach komórek
+- Ustawianie obramowań konturowych dla określonych zakresów komórek
 - Zapisywanie skoroszytu do pliku
 
 Zanim przejdziemy do wdrażania, upewnijmy się, że masz wszystko, co jest potrzebne do rozpoczęcia pracy.
@@ -138,7 +140,7 @@ import com.aspose.cells.Color;
 import com.aspose.cells.Range;
 import com.aspose.cells.CellBorderType;
 
-// Ustaw grubą niebieską ramkę wokół zakresu
+// Ustaw grubą niebieską obwódkę wokół zakresu
 range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 ```
 
@@ -202,6 +204,9 @@ Aby uzyskać dalszą pomoc, zapoznaj się z poniższymi źródłami:
 Spróbuj wdrożyć te funkcje w swoich projektach Java i zobacz, jak Aspose.Cells może usprawnić zadania związane z obsługą plików Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

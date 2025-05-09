@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ V tomto tutoriálu jsme prozkoumali, jak manipulovat s textem v obrazcích v Exc
 Experimentujte s těmito technikami a posuňte manipulaci s dokumenty Excelu na další úroveň pomocí Aspose.Cells pro Javu!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

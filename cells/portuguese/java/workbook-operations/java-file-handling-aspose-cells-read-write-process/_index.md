@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Vamos dividir a implementação em três recursos principais: leitura de arquivo
 
 #### Dicas para solução de problemas
 - Verifique se o diretório de saída é gravável.
-- Usar `flush()` e `close()` métodos apropriadamente se não estiver usando tentar com recursos.
+- Usar `flush()` e `close()` métodos apropriadamente se não estiver usando try-with-resources.
 
 ### Processamento de dados
 **Visão geral**: Demonstre manipulação simples de dados, como converter texto em letras maiúsculas.
@@ -191,6 +193,9 @@ Pronto para levar seu desenvolvimento Java para o próximo nível? Implemente es
 Seguindo este guia completo, você estará no caminho certo para dominar a manipulação de arquivos em Java com Aspose.Cells. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

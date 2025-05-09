@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Trabalhar com arquivos do Excel programaticamente pode ser desafiador, especialm
 
 Neste tutorial, exploraremos como o Aspose.Cells para Java simplifica a manipulação do Excel, permitindo que desenvolvedores criem pastas de trabalho, acessem coleções de células, adicionem valores, carreguem imagens, definam fórmulas, atualizem formas e salvem arquivos. Este guia capacitará você com as habilidades necessárias para utilizar essas funcionalidades de forma eficaz.
 
-### que você aprenderá
+### O que você aprenderá
 
 - Como criar uma nova pasta de trabalho usando Aspose.Cells para Java
 - Acessando e modificando coleções de células em planilhas
@@ -301,6 +303,9 @@ workbook.save(outDir + "IPCellReference_out.xlsx");
 - Atualize regularmente o Aspose.Cells para aproveitar os recursos mais recentes e melhorias de desempenho.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

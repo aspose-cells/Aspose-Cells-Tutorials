@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ import com.aspose.cells.WorksheetCollection;
 
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook();
 ```
 
@@ -139,7 +141,7 @@ import com.aspose.cells.PageSetup;
 
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook();
 
 // ワークブックの最初のワークシートにアクセスし、必要に応じて新しいワークシートを追加する
@@ -202,6 +204,9 @@ Aspose.Cellsの機能をさらに深く理解するには、データのイン�
    - はい、JAR ファイルを手動でダウンロードし、プロジェクトのクラスパスに追加できます。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama
-linktitle: Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı eğitimde, Aspose.Cells for .NET ile özel sıralama listesi kullanarak Excel'de verileri nasıl sıralayacağınızı öğrenin.
-weight: 10
-url: /tr/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
+"description": "Bu kapsamlı eğitimde, Aspose.Cells for .NET ile özel sıralama listesi kullanarak Excel'de verileri nasıl sıralayacağınızı öğrenin."
+"linktitle": "Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama"
+"url": "/tr/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Özel Sıralama Listesiyle Bir Sütundaki Verileri Sıralama
@@ -37,7 +39,7 @@ Projenizde .NET için Aspose.Cells kütüphanesinin yüklü olması gerekir. Bun
 
 1. Projenizi Visual Studio’da açın.
 2. "Araçlar" > "NuGet Paket Yöneticisi" > "Çözüm için NuGet Paketlerini Yönet" seçeneğine gidin.
-3.  Arama`Aspose.Cells` ve en son sürümü yükleyin.
+3. Arama `Aspose.Cells` ve en son sürümü yükleyin.
 
 ### Test için Temel Excel Dosyası
 
@@ -67,7 +69,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Adım 2: Kaynak Excel Dosyasını Yükleyin
 
-Sonra, sıralamak istediğiniz verileri içeren Excel dosyasını yükleyeceğiz. Bu, bir örneğin oluşturulmasıyla yapılır`Workbook` sınıf ve kaynak dosyanızın yolunu geçiriyoruz.
+Sonra, sıralamak istediğiniz verileri içeren Excel dosyasını yükleyeceğiz. Bu, bir örneğin oluşturulmasıyla yapılır `Workbook` sınıf ve kaynak dosyanızın yolunu geçiriyoruz.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -83,7 +85,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Adım 4: Sıralanacak Hücre Alanını Belirleyin
 
- Sıralayacağımız hücre aralığını belirlememiz gerekiyor. Bu örnekte hücreleri A1'den A40'a kadar sıralayacağız.`CellArea.CreateCellArea` hücre alanını tanımlama yöntemi.
+Sıralayacağımız hücre aralığını belirlememiz gerekiyor. Bu örnekte hücreleri A1'den A40'a kadar sıralayacağız. `CellArea.CreateCellArea` hücre alanını tanımlama yöntemi.
 
 ```csharp
 CellArea ca = CellArea.CreateCellArea("A1", "A40");
@@ -141,10 +143,12 @@ Yararlı olsa da, bu eğitimi takip edebilir ve ilerledikçe öğrenebilirsiniz!
 Kesinlikle! Kütüphanenin tüm özelliklerini kısıtlama olmadan test etmek istiyorsanız geçici bir lisans satın alabilirsiniz.
 
 ### Aspose.Cells için örnekleri veya dokümanları indirebilir miyim?
- Evet! Aspose, size büyük ölçüde yardımcı olabilecek kapsamlı belgeler ve örnek projeler sunar. Şuraya göz atın:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Evet! Aspose, size büyük ölçüde yardımcı olabilecek kapsamlı belgeler ve örnek projeler sunar. Şuraya göz atın: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

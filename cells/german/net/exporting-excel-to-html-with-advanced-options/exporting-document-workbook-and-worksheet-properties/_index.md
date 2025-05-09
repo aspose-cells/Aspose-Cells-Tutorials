@@ -1,45 +1,47 @@
 ---
-title: Exportieren von Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in HTML
-linktitle: Exportieren von Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in HTML
-second_title: Aspose.Cells .NET Excel-Verarbeitungs-API
-description: Erfahren Sie, wie Sie mit Aspose.Cells für .NET Excel-Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in HTML exportieren. Einfache Schritt-für-Schritt-Anleitung enthalten.
-weight: 11
-url: /de/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/
+"description": "Erfahren Sie, wie Sie mit Aspose.Cells für .NET Eigenschaften von Excel-Dokumenten, Arbeitsmappen und Arbeitsblättern in HTML exportieren. Einfache Schritt-für-Schritt-Anleitung inklusive."
+"linktitle": "Exportieren von Dokument-Arbeitsmappen- und Arbeitsblatteigenschaften in HTML"
+"second_title": "Aspose.Cells .NET Excel-Verarbeitungs-API"
+"title": "Exportieren von Dokument-Arbeitsmappen- und Arbeitsblatteigenschaften in HTML"
+"url": "/de/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Exportieren von Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften in HTML
+# Exportieren von Dokument-Arbeitsmappen- und Arbeitsblatteigenschaften in HTML
 
 ## Einführung
 
-Beim Umgang mit Tabellenkalkulationen müssen wir Excel-Dateien häufig in verschiedene Formate konvertieren, um sie freizugeben, aufzubewahren oder zu präsentieren. Eine häufige Aufgabe ist das Exportieren von Arbeitsmappen- und Arbeitsblatteigenschaften in das HTML-Format. In diesem Artikel zeigen wir Ihnen Schritt für Schritt, wie Sie dies mit Aspose.Cells für .NET erreichen. Keine Sorge, wenn Sie neu im Programmieren oder in der Aspose-Bibliothek sind; wir erklären es Ihnen Schritt für Schritt, damit Sie es leicht nachvollziehen können!
+Beim Umgang mit Tabellenkalkulationen müssen wir Excel-Dateien häufig in verschiedene Formate konvertieren, um sie zu teilen, aufzubewahren oder zu präsentieren. Eine häufige Aufgabe ist der Export von Arbeitsmappen- und Arbeitsblatteigenschaften ins HTML-Format. In diesem Artikel zeigen wir Ihnen, wie Sie dies mit Aspose.Cells für .NET erreichen. Keine Sorge, wenn Sie noch keine Erfahrung mit Programmierung oder der Aspose-Bibliothek haben; wir erklären es Ihnen Schritt für Schritt, damit Sie es leicht nachvollziehen können!
 
 ## Voraussetzungen
 
-Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie zum Einstieg benötigen:
+Bevor wir uns in den Code vertiefen, stellen wir sicher, dass Sie alles haben, was Sie für den Einstieg benötigen:
 
 1. .NET Framework: Stellen Sie sicher, dass Ihre Entwicklungsumgebung mit .NET Framework eingerichtet ist. Aspose.Cells ist mit .NET Framework-Versionen bis 4.8 kompatibel.
    
-2.  Aspose.Cells für .NET: Sie müssen Aspose.Cells installiert haben. Sie können die Bibliothek von der herunterladen[Downloads Seite](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells für .NET: Sie benötigen Aspose.Cells installiert. Sie können die Bibliothek von der [Download-Seite](https://releases.aspose.com/cells/net/). 
 
-3. IDE: Eine geeignete integrierte Entwicklungsumgebung (IDE) wie Visual Studio vereinfacht Ihre Codierung.
+3. IDE: Eine geeignete integrierte Entwicklungsumgebung (IDE) wie Visual Studio vereinfacht Ihre Codierungserfahrung.
 
-4.  Beispiel-Excel-Datei: Stellen Sie zu Testzwecken sicher, dass Sie eine Excel-Datei mit dem Namen haben`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` in Ihrem Arbeitsverzeichnis.
+4. Beispiel-Excel-Datei: Stellen Sie zu Testzwecken sicher, dass Sie eine Excel-Datei mit dem Namen haben `sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` in Ihrem Arbeitsverzeichnis.
 
 ## Pakete importieren
 
-Nachdem wir nun die Voraussetzungen erfüllt haben, importieren wir zunächst die erforderlichen Pakete in unser C#-Projekt. So können Sie das tun:
+Nachdem wir die Voraussetzungen geklärt haben, importieren wir zunächst die erforderlichen Pakete in unser C#-Projekt. So geht's:
 
 ### Neues Projekt erstellen
 
-- Öffnen Sie Ihre IDE und erstellen Sie ein neues C#-Projekt. Sie können eine Konsolenanwendung auswählen, die sich perfekt zum Ausführen dieser Art von Aufgaben eignet.
+- Öffnen Sie Ihre IDE und erstellen Sie ein neues C#-Projekt. Sie können eine Konsolenanwendung auswählen, die sich ideal für die Ausführung dieser Art von Aufgaben eignet.
 
 ### Fügen Sie das Aspose.Cells NuGet-Paket hinzu
 
-Um das Paket Aspose.Cells hinzuzufügen, führen Sie diese Schritte aus:
+Um das Paket Aspose.Cells hinzuzufügen, führen Sie die folgenden Schritte aus:
 
 - Klicken Sie im Projektmappen-Explorer mit der rechten Maustaste auf Ihr Projekt und wählen Sie „NuGet-Pakete verwalten“ aus.
 - Suchen Sie im NuGet-Paket-Manager nach „Aspose.Cells“ und installieren Sie es.
@@ -56,13 +58,13 @@ using System.Linq;
 using System.Text;
 ```
 
- Damit erhalten wir Zugriff auf die`Workbook` Und`HtmlSaveOptions` Klassen, die wir in unserem Beispiel verwenden werden.
+Dadurch erhalten wir Zugriff auf die `Workbook` Und `HtmlSaveOptions` Klassen, die wir in unserem Beispiel verwenden werden.
 
 Nachdem Sie nun alles eingerichtet haben, unterteilen wir den Vorgang in einfache Schritte.
 
 ## Schritt 1: Richten Sie Ihre Dateiverzeichnisse ein
 
-Zuerst müssen wir angeben, wo unsere Eingabe- und Ausgabedateien gespeichert werden. Initialisieren Sie in Ihrem Code die Verzeichnisse wie folgt:
+Zunächst müssen wir angeben, wo unsere Ein- und Ausgabedateien gespeichert werden. Initialisieren Sie die Verzeichnisse in Ihrem Code wie folgt:
 
 ```csharp
 // Quellverzeichnis
@@ -77,21 +79,21 @@ string outputDir = "Your Document Directory/";  // Aktualisieren Sie mit Ihrem t
 
 ## Schritt 2: Laden Sie Ihre Excel-Datei
 
- Nun müssen wir die Excel-Datei laden mit dem`Workbook` Klasse:
+Nun müssen wir die Excel-Datei laden mit dem `Workbook` Klasse:
 
 ```csharp
-// Laden Sie die Excel-Beispieldatei
+// Laden Sie die Beispiel-Excel-Datei
 Workbook workbook = new Workbook(sourceDir + "sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx");
 ```
 
--  Arbeitsmappeninstanz: Die`Workbook` Der Konstruktor übernimmt den Dateipfad zu Ihrer Excel-Datei und erstellt eine neue Instanz, die Sie bearbeiten können.
+- Arbeitsmappeninstanz: Die `Workbook` Der Konstruktor übernimmt den Dateipfad zu Ihrer Excel-Datei und erstellt eine neue Instanz, die Sie bearbeiten können.
 
 ## Schritt 3: HTML-Speicheroptionen einrichten
 
 Als nächstes geben wir an, wie wir unsere Excel-Daten in HTML speichern möchten:
 
 ```csharp
-// HTML-Speicheroptionen festlegen
+// HTML-Speicheroptionen angeben
 HtmlSaveOptions options = new HtmlSaveOptions();
 
 // Exportieren von Dokument-, Arbeitsmappen- und Arbeitsblatteigenschaften verhindern
@@ -101,7 +103,7 @@ options.ExportWorksheetProperties = false;
 ```
 
 - HtmlSaveOptions: Diese Klasse hilft bei der Verwaltung, wie die Excel-Datei in HTML konvertiert wird.
--  Wir haben mehrere Optionen festgelegt, um`false`weil wir keine Arbeitsmappen- und Arbeitsblatteigenschaften in unsere HTML-Ausgabe einschließen möchten.
+- Wir haben mehrere Optionen festgelegt, um `false` weil wir keine Arbeitsmappen- und Arbeitsblatteigenschaften in unsere HTML-Ausgabe aufnehmen möchten.
 
 ## Schritt 4: Alles in HTML exportieren
 
@@ -112,11 +114,11 @@ Jetzt können wir unsere Arbeitsmappe im HTML-Format speichern:
 workbook.Save(outputDir + "outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```
 
--  Der`Save` Die Methode nimmt zwei Parameter an: den Dateipfad für die HTML-Ausgabedatei und die von uns eingerichteten Optionen. Wenn Sie dies ausführen, wird Ihre HTML-Datei im angegebenen Ausgabeverzeichnis erstellt.
+- Der `Save` Die Methode verwendet zwei Parameter: den Dateipfad für die HTML-Ausgabedatei und die von uns eingerichteten Optionen. Durch Ausführen dieser Methode wird Ihre HTML-Datei im angegebenen Ausgabeverzeichnis erstellt.
 
 ## Schritt 5: Konsolen-Feedback
 
-Lassen Sie uns abschließend in der Konsole ein Feedback geben, um sicherzustellen, dass der Vorgang erfolgreich abgeschlossen wurde:
+Lassen Sie uns abschließend in der Konsole Feedback geben, um zu bestätigen, dass der Vorgang erfolgreich abgeschlossen wurde:
 
 ```csharp
 Console.WriteLine("ExportDocumentWorkbookAndWorksheetPropertiesInHTML executed successfully.");
@@ -124,7 +126,7 @@ Console.WriteLine("ExportDocumentWorkbookAndWorksheetPropertiesInHTML executed s
 
 ## Abschluss
 
-Und so haben Sie Arbeitsmappen- und Arbeitsblatteigenschaften mithilfe von Aspose.Cells für .NET erfolgreich in HTML exportiert! Sie haben einen unkomplizierten Prozess durchlaufen, vom Einrichten Ihrer Umgebung bis zum Exportieren Ihrer Excel-Daten. Das Schöne an der Verwendung von Bibliotheken wie Aspose.Cells ist, dass sie komplexe Aufgaben rationalisieren und Entwicklern das Leben erleichtern. Jetzt können Sie Ihre Tabellenkalkulationen mit HTML breiter teilen, so als ob Sie der Welt einen Blick in Ihre Arbeitsmappen gewähren, ohne ihnen das gesamte Buch zu geben.
+Und schon haben Sie Arbeitsmappen- und Arbeitsblatteigenschaften mit Aspose.Cells für .NET erfolgreich nach HTML exportiert! Sie haben einen unkomplizierten Prozess durchlaufen, von der Einrichtung Ihrer Umgebung bis zum Export Ihrer Excel-Daten. Der Vorteil von Bibliotheken wie Aspose.Cells liegt darin, dass sie komplexe Aufgaben vereinfachen und Entwicklern das Leben erleichtern. Jetzt können Sie Ihre Tabellenkalkulationen mit HTML umfassender teilen, so als ob Sie der Welt einen Blick in Ihre Arbeitsmappen gewähren würden, ohne ihnen das gesamte Buch zu zeigen.
 
 ## Häufig gestellte Fragen
 
@@ -132,19 +134,21 @@ Und so haben Sie Arbeitsmappen- und Arbeitsblatteigenschaften mithilfe von Aspos
 Sie können die Aspose.Cells-Bibliothek über NuGet in Ihrem Visual Studio-Projekt über den NuGet-Paket-Manager installieren.
 
 ### Kann ich die HTML-Ausgabe anpassen?  
- Ja, Aspose.Cells bietet verschiedene Optionen in`HtmlSaveOptions` um anzupassen, wie Ihre Excel-Datei in HTML konvertiert wird.
+Ja, Aspose.Cells bietet verschiedene Optionen in `HtmlSaveOptions` um anzupassen, wie Ihre Excel-Datei in HTML konvertiert wird.
 
 ### Gibt es eine Möglichkeit, Dokumenteigenschaften in den HTML-Export einzubeziehen?  
- Sie können festlegen`ExportDocumentProperties`, `ExportWorkbookProperties` , Und`ExportWorksheetProperties` Zu`true` In`HtmlSaveOptions` wenn Sie sie einschließen möchten.
+Sie können einstellen `ExportDocumentProperties`, `ExportWorkbookProperties`, Und `ExportWorksheetProperties` Zu `true` In `HtmlSaveOptions` wenn Sie sie einschließen möchten.
 
 ### In welche Formate außer HTML kann ich meine Excel-Datei exportieren?  
 Aspose.Cells unterstützt verschiedene Formate, darunter PDF, CSV, XML und andere.
 
 ### Gibt es eine Testversion?  
- Ja, Sie können eine kostenlose Testversion von Aspose.Cells erhalten von der[Webseite](https://releases.aspose.com/).
+Ja, Sie können eine kostenlose Testversion von Aspose.Cells erhalten von der [Webseite](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Gestionar archivos de Excel mediante programación puede ser una tarea abrumador
 
 **Lo que aprenderás:**
 - Cómo configurar Aspose.Cells en su proyecto Java
-- Cómo cargar un archivo de Excel en un objeto de libro de trabajo
+- Cargar un archivo de Excel en un objeto de libro de trabajo
 - Cómo acceder a la colección de celdas de una hoja de cálculo
 - Iteración sobre filas y columnas no vacías
 
@@ -130,7 +132,7 @@ for (int row = 0; row <= cells.getMaxDataRow(); row++) { // Tejer un bucle a tra
 }
 ```
 **Por qué funciona esto:**
-Usando `getMaxDataRow` y `getMaxDataColumn`Puede iterar de manera eficiente únicamente sobre las áreas pobladas de su hoja de cálculo.
+Usando `getMaxDataRow` y `getMaxDataColumn`Puede iterar de manera eficiente únicamente en las áreas pobladas de su hoja de cálculo.
 
 ## Aplicaciones prácticas
 A continuación se muestran algunos casos de uso reales para esta funcionalidad:
@@ -174,6 +176,9 @@ Siguiendo esta guía, ha aprendido a cargar e iterar libros de Excel con Aspose.
 - **Foro de soporte:** [Soporte comunitario de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

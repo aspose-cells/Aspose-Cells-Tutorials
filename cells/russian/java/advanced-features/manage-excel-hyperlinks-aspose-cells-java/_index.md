@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,7 +167,7 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 
 ## Соображения производительности
 
-- **Оптимизируйте использование ресурсов**: Минимизируйте использование памяти, обрабатывая большие файлы Excel по частям, если это возможно.
+- **Оптимизация использования ресурсов**: Минимизируйте использование памяти, обрабатывая большие файлы Excel по частям, если это возможно.
 - **Управление памятью**: Освободите ресурсы и позвоните `Workbook.dispose()` по завершении освободите память.
 - **Асинхронная обработка**: Используйте возможности параллелизма Java для одновременной обработки нескольких рабочих книг без блокировки основного потока.
 
@@ -204,6 +206,9 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 Используя возможности Aspose.Cells, вы можете улучшить свои задачи обработки Excel в приложениях Java. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Kezdjük egy Excel fájl létrehozásával az intelligens jelölők használatá
 
 #### Áttekintés
 
-Ebben a funkcióban inicializálunk egy `WorkbookDesigner`, intelligens jelölőket állíthat be, és feldolgozhatja azokat dinamikus tartalmú Excel-fájl létrehozásához. Ez tökéletes olyan forgatókönyvekhez, ahol ismétlődő adatokra van szükség az Excel-sablonok feltöltéséhez.
+Ebben a funkcióban inicializálunk egy `WorkbookDesigner`, intelligens jelölőket állíthat be, és feldolgozhatja azokat dinamikus tartalmú Excel-fájl létrehozásához. Ez tökéletes olyan esetekben, amikor ismétlődő adatokra van szükség az Excel-sablonok feltöltéséhez.
 
 ##### 1. lépés: A Munkafüzet-tervező beállítása
 
@@ -204,6 +206,9 @@ A5: Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/
 - **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

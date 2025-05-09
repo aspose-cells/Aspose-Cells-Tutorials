@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -109,7 +111,7 @@ public class AccessWorksheet {
         // Töltse be a minta Excel fájlt
         Workbook wb = new Workbook(dataDir + "sampleRemovingSlicer.xlsx");
 
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
 
         System.out.println("Accessed Worksheet: " + ws.getName());
@@ -185,6 +187,9 @@ Következő lépések: Valósítson meg egy kis projektet ezen funkciók felhasz
    - Igen, de korlátozásokkal. Fontolja meg ideiglenes vagy állandó licenc igénylését a teljes funkciók használatához.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

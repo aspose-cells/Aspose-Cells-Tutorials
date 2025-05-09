@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ Workbook workbook = new Workbook();
 Bu, değişiklik için bellekte boş bir Excel dosyası başlatır.
 #### Adım 2: İlk Çalışma Sayfasına Erişim
 ```java
-// Çalışma kitabındaki ilk çalışma kağıdını alın.
+// Çalışma kitabındaki ilk çalışma kağıdını al.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 ### Hücrelere Veri Girme
@@ -148,6 +150,9 @@ Daha fazla araştırma için farklı veri türlerini işlemeyi veya çözümün�
 Aspose.Cells for Java ile Excel manipülasyonunda ustalaşın ve veri odaklı uygulamalarınızın tüm potansiyelini ortaya çıkarın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

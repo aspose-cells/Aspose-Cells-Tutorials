@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 - 프로그래밍 방식으로 워크시트 만들기 및 이름 지정
 - 셀에 스마트 마커 배치 및 구성
 - 데이터 소스 설정 및 스마트 마커 처리
-- 차트 작성을 위해 문자열 값을 숫자 값으로 변환
+- 차트를 위해 문자열 값을 숫자로 변환
 - 차트 추가 및 사용자 지정
 
 시작하기 전에 전제 조건을 살펴보겠습니다.
@@ -218,6 +220,9 @@ Aspose.Cells for Java를 사용하여 스마트 마커를 활용한 동적 차�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

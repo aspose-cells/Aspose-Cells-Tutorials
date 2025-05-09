@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ Detectar formas SmartArt pode ser crucial para várias aplicações:
 
 Ao trabalhar com arquivos grandes do Excel, considere estas dicas:
 
-- **Otimize o uso da memória**: Liberar recursos após processar cada pasta de trabalho usando `wb.dispose()`.
+- **Otimizar o uso da memória**: Liberar recursos após processar cada pasta de trabalho usando `wb.dispose()`.
 - **Carregamento Eficiente**: Carregue somente planilhas ou formas necessárias, se possível.
   
 Essas práticas ajudam a garantir que seu aplicativo seja executado com eficiência sem esgotar os recursos do sistema.
@@ -179,6 +181,9 @@ Neste tutorial, você aprendeu a detectar formas SmartArt em arquivos Excel usan
 - [Fórum de Suporte Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

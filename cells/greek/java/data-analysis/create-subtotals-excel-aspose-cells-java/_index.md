@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,6 +156,9 @@ System.out.println("Process completed successfully");
 Ακολουθώντας αυτόν τον οδηγό, θα πρέπει πλέον να είστε πλήρως εξοπλισμένοι για να ενσωματώσετε λειτουργίες μερικών αθροισμάτων στις εφαρμογές Java σας χρησιμοποιώντας το Aspose.Cells. Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

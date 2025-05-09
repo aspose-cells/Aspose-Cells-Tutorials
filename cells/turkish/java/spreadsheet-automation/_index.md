@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # E-tablo Otomasyonu
@@ -18,7 +20,7 @@ Aspose.Cells for Java'nın gücünü Spreadsheet Automation Tutorials'ımızda k
 
 ## Veri İş Akışınızı Basitleştirin
 
-### Aspose.Cells ile Başlarken
+### Aspose.Cells'e Başlarken
 
 Aspose.Cells for Java'yı kaynaktan indirerek bir adım öne geçin. Eğitimimiz, Java elektronik tablo görevlerinizi otomatikleştirmenizi kolaylaştırarak entegrasyonda size rehberlik eder.
 
@@ -48,9 +50,11 @@ Kaynak kod örnekleriyle Aspose.Cells for Java kullanarak Excel grafik oluşturm
 Excel'de güçlü bir düzenleme kütüphanesi olan Aspose.Cells'i kullanarak kaynak kod örnekleriyle Java'da Excel görevlerini nasıl otomatikleştireceğinizi öğrenin.
 ### [Excel'de Veri Entegrasyonu](./data-integration-in-excel/)
 Daha iyi içgörüler ve karar alma için verileri Excel'e nasıl verimli bir şekilde entegre edeceğinizi öğrenin. Java için Aspose.Cells kullanarak kaynak kodlu adım adım kılavuz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Bạn đã sẵn sàng để tự động hóa các tác vụ Excel của mình 
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-**Thư viện bắt buộc:**
+**Thư viện cần thiết:**
 - **Aspose.Cells cho Java**: Thư viện cốt lõi cho phép thao tác với tệp Excel.
 
 **Yêu cầu thiết lập môi trường:**
@@ -58,7 +60,7 @@ Thêm dòng này vào `build.gradle` tài liệu:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Các bước xin cấp giấy phép:**
+**Các bước xin cấp phép:**
 - **Dùng thử miễn phí:** Tải xuống bản dùng thử miễn phí từ [Tải xuống Aspose](https://releases.aspose.com/cells/java/).
 - **Giấy phép tạm thời:** Nhận giấy phép tạm thời để khám phá đầy đủ các tính năng mà không có giới hạn tại [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 - **Mua:** Để sử dụng lâu dài, hãy mua đăng ký trên [Trang mua hàng Aspose](https://purchase.aspose.com/buy).
@@ -171,6 +173,9 @@ Hãy cân nhắc khám phá các tính năng khác của Aspose.Cells, chẳng h
 - Ủng hộ: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

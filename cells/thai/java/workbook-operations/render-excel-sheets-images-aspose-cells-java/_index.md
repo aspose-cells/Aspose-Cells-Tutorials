@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 หากต้องการทำตามบทช่วยสอนนี้ ให้แน่ใจว่าคุณมี:
 - **ห้องสมุดที่จำเป็น:** การตั้งค่า Maven หรือ Gradle สำหรับการจัดการการอ้างอิง
 - **การตั้งค่าสภาพแวดล้อม:** Java Development Kit (JDK) ได้รับการติดตั้งและกำหนดค่าบนระบบของคุณ
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และความคุ้นเคยกับการจัดการไฟล์ในไดเร็กทอรี
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และความคุ้นเคยกับการจัดการไฟล์ในไดเร็กทอรี
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 Aspose.Cells เป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการสเปรดชีต ช่วยให้คุณสามารถแสดงข้อมูล Excel เป็นรูปภาพได้อย่างมีประสิทธิภาพ คุณสามารถตั้งค่าไลบรารีนี้ได้ดังนี้:
 ### การพึ่งพา Maven
@@ -93,7 +95,7 @@ SheetRender sr = new SheetRender(worksheet, opts);
 sr.toImage(0, g); // เรนเดอร์แผ่นงานในบริบทกราฟิก
 ```
 **การกำหนดค่าที่สำคัญ:**
-- `setOnePagePerSheet(true)`:รับประกันการแสดงผลให้พอดีกับหน้าเดียว
+- `setOnePagePerSheet(true)`:ช่วยให้แน่ใจว่าการแสดงผลพอดีกับหน้าเดียว
 ### คุณสมบัติที่ 3: บันทึก BufferedImage เป็น PNG
 #### ภาพรวม
 การบันทึกภาพที่เรนเดอร์ลงในดิสก์ทำได้โดยตรงโดยใช้คลาส ImageIO ของ Java
@@ -145,6 +147,9 @@ ImageSaver.saveImage(image, "/RWToGraphicContext_out.png");
 ด้วยเครื่องมือและเคล็ดลับเหล่านี้ คุณก็พร้อมที่จะเชี่ยวชาญการเรนเดอร์แผ่นงาน Excel ใน Java ด้วย Aspose.Cells แล้ว!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

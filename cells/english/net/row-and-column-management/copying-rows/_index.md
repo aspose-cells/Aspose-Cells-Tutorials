@@ -8,7 +8,9 @@ url: /net/row-and-column-management/copying-rows/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Rows using Aspose.Cells for .NET
@@ -79,9 +81,11 @@ Absolutely! The `CopyRow` method copies data, formatting, images, and even drawi
 Yes, Aspose.Cells supports .NET Framework, .NET Core, and .NET Standard, providing flexibility across different .NET environments.
 ### Do I need a license to use Aspose.Cells for .NET?  
 While there’s a free trial available, a [temporary or full license](https://purchase.aspose.com/buy) is recommended for full functionality and to remove any limitations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

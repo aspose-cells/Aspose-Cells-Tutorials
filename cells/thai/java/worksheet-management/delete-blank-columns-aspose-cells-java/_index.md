@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ในการเริ่มต้น ให้เริ่มต้นของคุณ `Workbook` วัตถุ ซึ่งทำหน้าที่เป็นจุดเข้าสู่ระบบของคุณในการทำงานกับไฟล์ Excel
 
 ```java
-// สร้างวัตถุเวิร์กบุ๊กเริ่มต้น
+// เริ่มต้นวัตถุเวิร์กบุ๊ก
 Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 ```
 
@@ -162,6 +164,9 @@ workbook.save(dataDir + "DBlankColumns_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

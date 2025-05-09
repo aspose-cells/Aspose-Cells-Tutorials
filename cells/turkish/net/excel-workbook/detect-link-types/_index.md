@@ -1,14 +1,16 @@
 ---
-title: Bağlantı Türlerini Algıla
-linktitle: Bağlantı Türlerini Algıla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel'de köprü metin türlerinin nasıl algılanacağını öğrenin. Kolay adımlar ve kod örnekleri dahildir.
-weight: 80
-url: /tr/net/excel-workbook/detect-link-types/
+"description": "Aspose.Cells for .NET kullanarak Excel'de köprü metin türlerinin nasıl algılanacağını öğrenin. Kolay adımlar ve kod örnekleri dahildir."
+"linktitle": "Bağlantı Türlerini Algıla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Bağlantı Türlerini Algıla"
+"url": "/tr/net/excel-workbook/detect-link-types/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bağlantı Türlerini Algıla
@@ -23,8 +25,8 @@ Hiperlink türlerini incelemeye başlamadan önce, doğru araçlara ve bilgiye s
 
 1. Temel C# Bilgisi: C# programlamaya dair temel bir anlayışa sahip olmak, konuyu sorunsuz bir şekilde takip etmenize yardımcı olacaktır.
 2. Visual Studio Kurulu: .NET uygulamalarınızı çalıştırmak için makinenizde Visual Studio veya uyumlu başka bir IDE'nin kurulu olması gerekir.
-3.  Aspose.Cells for .NET Kütüphanesi: Henüz yapmadıysanız, Aspose.Cells kütüphanesini indirip yüklemeniz gerekir. Bunu bulabilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-4.  Örnek Excel Dosyası: Bu eğitim için, adında bir Excel dosyanız olduğundan emin olun.`LinkTypes.xlsx`Sıfırdan oluşturulabilir veya internetten indirilebilir.
+3. Aspose.Cells for .NET Kütüphanesi: Henüz yapmadıysanız, Aspose.Cells kütüphanesini indirip yüklemeniz gerekir. Bunu bulabilirsiniz [Burada](https://releases.aspose.com/cells/net/).
+4. Örnek Excel Dosyası: Bu eğitim için, adında bir Excel dosyanız olduğundan emin olun. `LinkTypes.xlsx`Sıfırdan oluşturulabilir veya internetten indirilebilir.
 
 Bu ön koşulları yerine getirdiğinizde, artık yola çıkmaya hazırsınız!
 
@@ -55,7 +57,7 @@ Bu içe aktarma işlemleri tamamlandıktan sonra Excel dosyamızı bir profesyon
 
 ## Adım 1: Kaynak Dizini Tanımlayın
 
- Excel dosyamızın nerede olduğunu burada belirtiyoruz. Kaynak dizini ayarlayalım, böylece Aspose.Cells dosyamızı nerede bulacağını bilsin.`LinkTypes.xlsx`.
+Excel dosyamızın nerede olduğunu burada belirtiyoruz. Kaynak dizini ayarlayalım, böylece Aspose.Cells dosyamızı nerede bulacağını bilsin. `LinkTypes.xlsx`.
 
 ```csharp
 // Kaynak dizini tanımlayın
@@ -73,7 +75,7 @@ Sonra, çalışma kitabımızı yükleyeceğiz. Bu, Excel dosyanızı arka pland
 Workbook workbook = new Workbook(SourceDir + "LinkTypes.xlsx");
 ```
 
-İşte olan şey: bir örnek oluşturuyoruz`Workbook` sınıf ve Excel dosyamızın yolunu geçiyoruz. Her şey yolunda giderse, çalışma kitabınız artık iş için açık!
+İşte olan şey: bir örnek oluşturuyoruz `Workbook` sınıf ve Excel dosyamızın yolunu geçiyoruz. Her şey yolunda giderse, çalışma kitabınız artık iş için açık!
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
@@ -84,11 +86,11 @@ Her çalışma kitabının birden fazla çalışma sayfası olabilir. Bu örnekt
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Burada yaptığımız şey, çalışma kitabımızdaki ilk çalışma sayfasını seçmektir. Dizin`[0]` Tıpkı programlama dünyasındaki sayma işlemi gibi, "ilk" anlamına gelir.
+Burada yaptığımız şey, çalışma kitabımızdaki ilk çalışma sayfasını seçmektir. Dizin `[0]` Tıpkı programlama dünyasındaki sayma işlemi gibi, "ilk" anlamına gelir.
 
 ## Adım 4: Bir Aralık Oluşturun
 
- Şimdi, çalışma sayfasında bir aralık tanımlayacağız. Bir aralık, işlemlerimiz için belirli hücreleri hedeflememize olanak tanır. Bu durumda, bir aralık oluşturacağız`A1` ile`A7`, hiperlinklerimizin yer aldığı sayfadır.
+Şimdi, çalışma sayfasında bir aralık tanımlayacağız. Bir aralık, işlemlerimiz için belirli hücreleri hedeflememize olanak tanır. Bu durumda, bir aralık oluşturacağız `A1` ile `A7`, hiperlinklerimizin yer aldığı sayfadır.
 
 ```csharp
 // A1:B3 aralığını oluşturun
@@ -102,11 +104,11 @@ Bu aralıkla, bu hücreler içerisindeki köprü metinlerine kolayca ulaşabilir
 İşte heyecan verici kısım: hiperlinkleri çıkarmak! Hiperlinkleri tanımlı aralığımızdan çıkaracağız.
 
 ```csharp
-//Hiper Bağlantıları aralığa alın
+// Hiper Bağlantıları aralığa alın
 Hyperlink[] hyperlinks = range.Hyperlinks;
 ```
 
- Şimdi,`hyperlinks` belirtilen aralıkta bulunan tüm hiper bağlantıların bir dizisini tutar. İncelenmeyi bekleyen değerli bağlantılarla dolu bir hazine sandığına sahip olduğunuzu hayal edin!
+Şimdi, `hyperlinks` belirtilen aralıkta bulunan tüm hiper bağlantıların bir dizisini tutar. İncelenmeyi bekleyen değerli bağlantılarla dolu bir hazine sandığına sahip olduğunuzu hayal edin!
 
 ## Adım 6: Köprü Bağlantıları Arasında Döngü
 
@@ -119,7 +121,7 @@ foreach (Hyperlink link in hyperlinks)
 }
 ```
 
- Bu döngü her köprü metnini alır, özelliklerine erişir ve bunları konsolda görüntüler.`TextToDisplay` özellik bize hücrede görünen metni verirken`LinkType` bize ne tür bir köprü metni olduğunu söyler (örneğin, harici, dahili, e-posta, vb.). Bu, bağlantının başka bir web sayfasına mı, aynı elektronik tablonun başka bir bölümüne mi yoksa bir e-posta taslağına mı yönlendirdiğini söylemek gibidir!
+Bu döngü her köprü metnini alır, özelliklerine erişir ve bunları konsolda görüntüler. `TextToDisplay` özellik bize hücrede görünen metni verirken `LinkType` bize ne tür bir köprü metni olduğunu söyler (örneğin, harici, dahili, e-posta, vb.). Bu, bağlantının başka bir web sayfasına mı, aynı elektronik tablonun başka bir bölümüne mi yoksa bir e-posta taslağına mı yönlendirdiğini söylemek gibidir!
 
 ## Adım 7: Son Onay Mesajı
 
@@ -150,10 +152,12 @@ Kesinlikle! Aspose.Cells, Excel dosyalarını hem okuyabilir hem de oluşturabil
 Excel dosyalarınızda dahili, harici, e-posta ve hatta diğer belgelere bağlantı türleriyle çalışabilirsiniz.
 
 ### Aspose.Cells için desteği nereden alabilirim?  
- Destek için Aspose forumuna göz atın[Burada](https://forum.aspose.com/c/cells/9).
+Destek için Aspose forumuna göz atın [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

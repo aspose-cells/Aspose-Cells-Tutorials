@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Beachten Sie beim Arbeiten mit großen Arbeitsmappen oder zahlreichen Verbindung
 - Aktualisieren Sie Aspose.Cells für Java regelmäßig, um von Leistungsverbesserungen und Fehlerbehebungen zu profitieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ try {
 คู่มือที่ครอบคลุมนี้ได้รับการออกแบบมาเพื่อช่วยให้คุณใช้งานฟังก์ชันการส่งออกความคิดเห็นได้อย่างมีประสิทธิผล และช่วยให้มั่นใจว่าแอปพลิเคชันของคุณมอบประสบการณ์ผู้ใช้ที่ดียิ่งขึ้น
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

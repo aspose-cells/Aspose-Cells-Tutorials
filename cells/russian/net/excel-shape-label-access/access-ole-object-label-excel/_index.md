@@ -1,14 +1,16 @@
 ---
-title: Доступ к метке объекта OLE в Excel
-linktitle: Доступ к метке объекта OLE в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как получить доступ и изменить метки объектов OLE в Excel с помощью Aspose.Cells для .NET. Простое руководство с включенными примерами кода.
-weight: 10
-url: /ru/net/excel-shape-label-access/access-ole-object-label-excel/
+"description": "Узнайте, как получить доступ и изменить метки объектов OLE в Excel с помощью Aspose.Cells для .NET. Простое руководство с включенными примерами кода."
+"linktitle": "Доступ к метке объекта OLE в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Доступ к метке объекта OLE в Excel"
+"url": "/ru/net/excel-shape-label-access/access-ole-object-label-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Доступ к метке объекта OLE в Excel
@@ -20,7 +22,7 @@ url: /ru/net/excel-shape-label-access/access-ole-object-label-excel/
 Прежде чем мы погрузимся в полный действий мир Aspose.Cells для .NET, вот что вам нужно иметь в своем наборе инструментов:
 1. Установленная среда Visual Studio: это ваша игровая площадка, где вы будете кодировать и тестировать свое приложение C#.
 2. .NET Framework: Убедитесь, что вы работаете с .NET Framework 4.0 или выше. Это даст нашей программе необходимую основу для бесперебойной работы.
-3.  Библиотека Aspose.Cells: Вам понадобится копия библиотеки Aspose.Cells. Вы можете загрузить ее с[здесь](https://releases.aspose.com/cells/net/) . Если вы хотите попробовать его перед покупкой, ознакомьтесь с[бесплатная пробная версия](https://releases.aspose.com/).
+3. Библиотека Aspose.Cells: Вам понадобится копия библиотеки Aspose.Cells. Вы можете загрузить ее с [здесь](https://releases.aspose.com/cells/net/). Если вы хотите попробовать его перед покупкой, ознакомьтесь с [бесплатная пробная версия](https://releases.aspose.com/).
 4. Базовые знания C#: знакомство с C# поможет вам быстро разобраться в коде.
 Разобравшись с этим, давайте углубимся в тонкости доступа и изменения меток на объектах OLE!
 ## Импортные пакеты 
@@ -33,7 +35,7 @@ url: /ru/net/excel-shape-label-access/access-ole-object-label-excel/
 - Выберите «Управление пакетами NuGet».
 - Найдите «Aspose.Cells» и установите библиотеку.
 ### Импорт пространств имен
- В верхней части файла вашей программы (например,`Program.cs`), вам необходимо импортировать необходимые пространства имен:
+В верхней части файла вашей программы (например, `Program.cs`), вам необходимо импортировать необходимые пространства имен:
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -44,7 +46,7 @@ using System.IO;
 Эти пространства имен помогут нам получить доступ к классам и методам, необходимым для наших манипуляций с Excel.
 Теперь, когда все на месте, давайте получим доступ и изменим метку объекта OLE, встроенного в файл Excel. Следуйте пошаговому руководству ниже:
 ## Шаг 1: Укажите исходный каталог
- Сначала мы определяем каталог, в котором находится ваш документ Excel. Заменить`"Your Document Directory"` с фактическим путем к документу.
+Сначала мы определяем каталог, в котором находится ваш документ Excel. Заменить `"Your Document Directory"` с фактическим путем к документу.
 ```csharp
 string sourceDir = "Your Document Directory";
 ```
@@ -53,13 +55,13 @@ string sourceDir = "Your Document Directory";
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleAccessAndModifyLabelOfOleObject.xlsx");
 ```
- Эта строка инициализирует`Workbook` объект, который предоставляет нам доступ ко всем рабочим листам и компонентам файла Excel.
+Эта строка инициализирует `Workbook` объект, который предоставляет нам доступ ко всем рабочим листам и компонентам файла Excel.
 ## Шаг 3: Получите доступ к первому рабочему листу
-Теперь давайте откроем первый лист нашей рабочей книги:
+Теперь давайте откроем первый рабочий лист в нашей рабочей книге:
 ```csharp
 Worksheet ws = wb.Worksheets[0];
 ```
- Здесь,`Worksheets[0]` первый рабочий лист в коллекции.
+Здесь, `Worksheets[0]` первый рабочий лист в коллекции.
 ## Шаг 4: Доступ к первому объекту OLE 
 Далее мы извлечем первый объект OLE:
 ```csharp
@@ -84,7 +86,7 @@ oleObject.Label = "Aspose APIs";
 MemoryStream ms = new MemoryStream();
 wb.Save(ms, SaveFormat.Xlsx);
 ```
-Это сохранит измененную книгу в памяти, что позволит легко получить к ней доступ в дальнейшем.
+Это сохранит нашу измененную книгу в памяти, что позволит легко получить к ней доступ в дальнейшем.
 ## Шаг 8: Установите ссылку на рабочую книгу на значение Null 
 Чтобы очистить память, нам следует установить ссылку на рабочую книгу в значение null:
 ```csharp
@@ -111,7 +113,7 @@ oleObject = ws.OleObjects[0];
 Console.WriteLine("Ole Object Label - After: " + oleObject.Label);
 ```
 ## Шаг 13: Подтверждение выполнения 
-Наконец, сообщите нам об успешном завершении, чтобы мы знали, что все прошло по плану:
+Наконец, отправьте сообщение об успешном завершении, чтобы мы знали, что все прошло по плану:
 ```csharp
 Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ```
@@ -124,14 +126,16 @@ Console.WriteLine("AccessAndModifyLabelOfOleObject executed successfully.");
 ### Может ли Aspose.Cells работать с другими форматами файлов?  
 Да! Aspose.Cells поддерживает множество форматов, включая XLS, XLSX, CSV и другие.
 ### Существует ли бесплатная пробная версия Aspose.Cells?  
- Да! Вы можете попробовать.[здесь](https://releases.aspose.com/).
+Да! Вы можете попробовать. [здесь](https://releases.aspose.com/).
 ### Могу ли я получить доступ к нескольким объектам OLE на рабочем листе?  
-Конечно! Вы можете пройти по циклу`ws.OleObjects` для доступа ко всем встроенным объектам OLE на рабочем листе.
+Конечно! Вы можете пройти по циклу `ws.OleObjects` для доступа ко всем встроенным объектам OLE на рабочем листе.
 ### Как приобрести лицензию на Aspose.Cells?  
- Вы можете купить лицензию напрямую у[здесь](https://purchase.aspose.com/buy).
+Вы можете купить лицензию напрямую у [здесь](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

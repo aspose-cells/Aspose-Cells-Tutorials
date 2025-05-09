@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhập dữ liệu tự động
@@ -111,13 +113,15 @@ Tự động nhập dữ liệu với Aspose.Cells for Java hợp lý hóa quy t
 ### Tôi có thể xử lý xác thực dữ liệu trong tệp Excel như thế nào?
    Bạn có thể triển khai các quy tắc xác thực dữ liệu bằng Aspose.Cells, như được trình bày trong bài viết.
 
-### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells cho Java ở đâu?
+### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Cells for Java ở đâu?
    Bạn có thể khám phá tài liệu tại [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Bây giờ bạn đã có kiến thức và công cụ để tự động nhập dữ liệu hiệu quả bằng Aspose.Cells for Java. Bắt đầu cải thiện quy trình xử lý dữ liệu và nâng cao hiệu quả kinh doanh của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

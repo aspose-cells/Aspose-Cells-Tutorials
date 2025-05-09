@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Bạn đã học cách tạo, tải, thao tác và lưu sổ làm việc Excel b
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị đầy đủ để khai thác các khả năng của Aspose.Cells for Java trong các dự án liên quan đến Excel của mình. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ book.save(dataDir + "NamedRangeToSumValues_out.xlsx");
 本教學將幫助您全面了解如何使用 Aspose.Cells for Java 實作命名範圍和求和函數。嘗試一下，在您的應用程式中充分利用 Excel 自動化的潛力！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

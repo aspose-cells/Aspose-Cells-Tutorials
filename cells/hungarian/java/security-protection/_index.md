@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,10 +39,10 @@ Ismerje meg, hogyan védheti jelszavakkal Excel-fájljait az Aspose.Cells for Ja
 Kód oktatóanyag az Aspose.Words Java-hoz
 
 ### [Aspose.Cells Java: Excel-táblázatok jelszavainak biztonságos betöltése és ellenőrzése](./aspose-cells-java-load-verify-excel-sheets-passwords/)
-Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t Excel munkafüzetek betöltéséhez és a munkalapok jelszavainak hatékony ellenőrzéséhez. Lépésről lépésre útmutatónkkal méltányold az adatbiztonságot.
+Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t Excel munkafüzetek betöltéséhez és a munkalapok jelszavainak hatékony ellenőrzéséhez. Lépésről lépésre útmutatónkkal sajátítsd el az adatbiztonságot.
 
 ### [Excel-munkafüzetek védelme az Aspose.Cells segítségével Java-ban: Jelszóvédelem és titkosítás](./aspose-cells-java-secure-excel-workbooks/)
-Ismerje meg, hogyan teheti biztonságossá az Excel-munkafüzeteket az Aspose.Cells for Java használatával. Jelszóvédelem és erős titkosítás alkalmazása az érzékeny adatok védelme érdekében.
+Ismerje meg, hogyan teheti biztonságossá az Excel-munkafüzeteket az Aspose.Cells for Java használatával. Használjon jelszóvédelmet és erős titkosítást az érzékeny adatok védelme érdekében.
 
 ### [Megosztott munkafüzetek elsajátítása Java nyelven az Aspose.Cells segítségével: Átfogó útmutató a biztonsághoz és a védelemhez](./aspose-cells-java-shared-workbook-management/)
 Ismerje meg, hogyan hozhat létre és kezelhet hatékonyan megosztott munkafüzeteket az Aspose.Cells for Java használatával. Javítsa az együttműködést, tartsa karban a módosítási naplókat, és egyszerűsítse az Excel-kezelési folyamatait.
@@ -118,7 +120,7 @@ Ismerje meg, hogyan védheti Excel-dokumentumait XAdES digitális aláírásokka
 
 ## További források
 
-- [Aspose.Cells Java dokumentációhoz](https://docs.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://docs.aspose.com/cells/java/)
 - [Aspose.Cells Java API-referenciához](https://reference.aspose.com/cells/java/)
 - [Aspose.Cells letöltése Java-hoz](https://releases.aspose.com/cells/java/)
 - [Ingyenes támogatás](https://forum.aspose.com/)
@@ -126,6 +128,9 @@ Ismerje meg, hogyan védheti Excel-dokumentumait XAdES digitális aláírásokka
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

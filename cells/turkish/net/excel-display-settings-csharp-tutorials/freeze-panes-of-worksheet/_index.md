@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasının Bölmelerini Dondur
-linktitle: Çalışma Sayfasının Bölmelerini Dondur
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı eğitimle, adım adım talimatlar ve temel ipuçlarıyla birlikte Aspose.Cells for .NET kullanarak Excel'de bölmeleri nasıl donduracağınızı öğrenin.
-weight: 70
-url: /tr/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
+"description": "Bu kapsamlı eğitimle, adım adım talimatlar ve temel ipuçlarıyla birlikte Aspose.Cells for .NET kullanarak Excel'de bölmeleri nasıl donduracağınızı öğrenin."
+"linktitle": "Çalışma Sayfasının Bölmelerini Dondur"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Bölmelerini Dondur"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Bölmelerini Dondur
@@ -25,13 +27,13 @@ Gerçek kodlama kısmına geçmeden önce, başlamak için ihtiyacınız olan he
 - Kodumuzu yazmak için C# dilini kullanacağımızdan dolayı C# programlama diline aşina olmak önemlidir.
 
 ### Aspose.Cells Yüklendi
--  Geliştirme ortamınızda Aspose.Cells for .NET'in yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuraya gidin:[İndirme bağlantısı](https://releases.aspose.com/cells/net/) Başlamak için.
+- Geliştirme ortamınızda Aspose.Cells for .NET'in yüklü olduğundan emin olun. Henüz yüklemediyseniz, şuraya gidin: [İndirme bağlantısı](https://releases.aspose.com/cells/net/) Başlamak için.
 
 ### Görsel Stüdyo
 - C# uygulamalarınızı oluşturmak ve çalıştırmak için Visual Studio gibi bir IDE'ye ihtiyacınız olacak.
 
 ### Örnek Bir Excel Dosyası
-- Gösterim amaçlı olarak, adını vereceğimiz bir Excel dosyasına ihtiyacınız olacak.`book1.xls`Microsoft Excel veya uyumlu herhangi bir uygulamayı kullanarak basit bir Excel dosyası oluşturabilirsiniz.
+- Gösterim amaçlı olarak, adını vereceğimiz bir Excel dosyasına ihtiyacınız olacak. `book1.xls`Microsoft Excel veya uyumlu herhangi bir uygulamayı kullanarak basit bir Excel dosyası oluşturabilirsiniz.
 
 Bu ön koşullar sağlandığında kodlamaya başlayabiliriz!
 
@@ -62,7 +64,7 @@ Excel dosyanızın bulunduğu dizini belirtin. İşte bir örnek:
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Bu satır dizininize giden yolu ayarlar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla`book1.xls` dosya kaydedilir. Bu, kodunuza Excel dosyasının bulunduğu evinizin adresini vermek gibidir; onu nerede bulacağını bilmesi gerekir!
+Bu satır dizininize giden yolu ayarlar. Değiştir `"YOUR DOCUMENT DIRECTORY"` gerçek yolunuzla `book1.xls` dosya kaydedilir. Bu, kodunuza Excel dosyasının bulunduğu evinizin adresini vermek gibidir; nerede bulacağını bilmesi gerekir!
 
 ## Adım 3: Bir Dosya Akışı Oluşturun
 
@@ -72,17 +74,17 @@ Mevcut Excel dosyasını açmak için bir FileStream kullanın. İşte nasıl:
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 
- The`FileStream` bayt akışı sağlayarak dosyaları okumanıza ve yazmanıza olanak tanır. Basitçe söylemek gerekirse, Excel dosyanıza kapıyı açar, böylece onunla çalışmaya başlayabilirsiniz.
+The `FileStream` bayt akışı sağlayarak dosyaları okumanıza ve yazmanıza olanak tanır. Basitçe söylemek gerekirse, Excel dosyanıza kapıyı açar, böylece onunla çalışmaya başlayabilirsiniz.
 
 ## Adım 4: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Yeni bir tane oluştur`Workbook` Açılan dosya ile çalışacak nesne:
+Yeni bir tane oluştur `Workbook` Açılan dosya ile çalışacak nesne:
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
 
- The`Workbook` nesnesi, hafızadaki tüm Excel dosyanızı temsil eder. Bunu, tüm dosyayı çalışma alanınıza getirmek ve değişiklikler yapmaya başlamak olarak düşünün.
+The `Workbook` nesnesi, hafızadaki tüm Excel dosyanızı temsil eder. Bunu, tüm dosyayı çalışma alanınıza getirmek ve değişiklikler yapmaya başlamak olarak düşünün.
 
 ## Adım 5: Çalışma Sayfasına Erişim
 
@@ -112,7 +114,7 @@ Değişiklikleri yaptıktan sonra çalışma kitabını kaydettiğinizden emin o
 workbook.Save(dataDir + "output.xls");
 ```
 
- Dosyanızı kaydetmek çok önemlidir! Bu satır, dondurulmuş bölmeler dahil yaptığınız tüm değişikliklerin yeni bir Excel dosyasına yazılmasını sağlar.`output.xls`Bunu, önemli mektubunuzu yazdıktan sonra zarfı kapatmak gibi düşünün.
+Dosyanızı kaydetmek çok önemlidir! Bu satır, dondurulmuş bölmeler dahil yaptığınız tüm değişikliklerin yeni bir Excel dosyasına yazılmasını sağlar. `output.xls`Bunu, önemli mektubunuzu yazdıktan sonra zarfı kapatmak gibi düşünün.
 
 ## Adım 8: Dosya Akışını Kapatın
 
@@ -134,19 +136,21 @@ Tebrikler! Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasındaki b
 Bölmeleri dondurmak, büyük veri kümeleri arasında gezinirken belirli satırları veya sütunları görünür tutmanıza olanak tanır.
 
 ### Birden fazla satırı ve sütunu aynı anda dondurabilir miyim?
- Evet, konumlarını belirterek istediğiniz sayıda satır ve sütunu dondurabilirsiniz.`FreezePanes` yöntem.
+Evet, konumlarını belirterek istediğiniz sayıda satır ve sütunu dondurabilirsiniz. `FreezePanes` yöntem.
 
 ### Aspose.Cells'i kullanmak ücretsiz mi?
-Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisans satın almanız gerekecek.[satın alma sayfası](https://purchase.aspose.com/buy) Ayrıntılar için.
+Aspose.Cells ücretsiz deneme sunuyor ancak uzun süreli kullanım için bir lisans satın almanız gerekecek. [satın alma sayfası](https://purchase.aspose.com/buy) Ayrıntılar için.
 
-### Aspose.Cells için desteği nerede bulabilirim?
- Destek almak için:[Aspose forumu](https://forum.aspose.com/c/cells/9)Sorularınızı sorabileceğiniz ve topluluğa çözümler bulabileceğiniz bir yer.
+### Aspose.Cells için desteği nereden bulabilirim?
+Destek almak için: [Aspose forumu](https://forum.aspose.com/c/cells/9)Sorularınızı sorabileceğiniz ve topluluğa çözümler bulabileceğiniz bir yer.
 
 ### Aspose.Cells'i farklı platformlarda kullanabilir miyim?
 Aspose.Cells for .NET, .NET Framework, .NET Core ve .NET Standard ile çalışacak şekilde tasarlanmıştır; bu da onu farklı uygulamalar için çok yönlü hale getirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्वचालित डेटा निष्कर्षण
@@ -111,9 +113,11 @@ Aspose.Cells for Java के साथ डेटा निष्कर्षण 
    API दस्तावेज़न का अन्वेषण करें [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) गहन जानकारी और उदाहरण के लिए.
 
 Aspose.Cells for Java के साथ आज ही अपने डेटा निष्कर्षण कार्यों को स्वचालित करना शुरू करें और अपनी डेटा पुनर्प्राप्ति प्रक्रियाओं को सुव्यवस्थित करें।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

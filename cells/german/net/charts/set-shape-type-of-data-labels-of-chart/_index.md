@@ -1,56 +1,61 @@
 ---
-title: Modifizieren Sie die Form des Chart-Datenlabels in Excel mit Aspose.Cells
-weight: 7700
-limit: 
-description: Erfahren Sie, wie Sie den Formtyp von Datenetiketten in einem Excel-Diagramm mit Aspose.Cells für .NET ändern. Schritt-für-Schritt-Leitfaden mit Code- Beispiel und Anweisungen.
-keywords: [Aspose.Cells, .NET, Excel Chart, Data Labels, Shape Type, Modify Chart, Speech Bubble Oval, Change Shape, C# Excel Automation]
-url: /de/net/charts/set-shape-type-of-data-labels-of-chart/
+"description": "Erfahren Sie, wie Sie mit Aspose.Cells für .NET den Formtyp von Datenbeschriftungen in einem Excel-Diagramm ändern. Schritt-für-Schritt-Anleitung mit Codebeispiel und Anweisungen."
+"title": "Ändern Sie die Form der Diagrammdatenbeschriftung in Excel mit Aspose.Cells"
+"url": "/de/net/charts/set-shape-type-of-data-labels-of-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modifizieren Sie die Form des Chart-Datenlabels in Excel mit Aspose.Cells
-In diesem Tutorial werden wir untersuchen, wie man den Formtyp von Datenlabels in einem Excel-Diagramm mit Aspose.Cells für .NET verändert. Datenlabels in Diagrammen helfen, eine bessere Visualisierung zu ermöglichen, und die Änderung ihrer Form kann die Lesbarkeit verbessern. Dieses Beispiel zeigt, wie man auf ein bestehendes Excel-Diagramm zugreift, die Serien-Datenlabels abruft und ihren Formtyp in eine Speech Bubble Oval (Wedge Ellipse Callout) ändert. Mit ein paar Zeilen C#-Code können Sie die visuelle Anziehungskraft Ihrer Excel-Diagramme effizient verbessern.  
+# Ändern Sie die Form der Diagrammdatenbeschriftung in Excel mit Aspose.Cells
+In diesem Tutorial erfahren Sie, wie Sie die Form von Datenbeschriftungen in einem Excel-Diagramm mit Aspose.Cells für .NET ändern. Datenbeschriftungen in Diagrammen sorgen für eine bessere Visualisierung, und ihre Formänderung kann die Lesbarkeit verbessern. Dieses Beispiel zeigt, wie Sie auf ein vorhandenes Excel-Diagramm zugreifen, die Datenbeschriftungen der Serie abrufen und ihre Form in ein Sprechblasen-Oval (Keilellipsen-Callout) ändern. Mit wenigen Zeilen C#-Code können Sie die visuelle Attraktivität Ihrer Excel-Diagramme effizient steigern.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/set-shape-type-of-data-labels-of-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installationsanweisungen:  
 
-Um Aspose.Cells für .NET in Ihrem Projekt zu verwenden, folgen Sie diesen Schritten:  
+Um Aspose.Cells für .NET in Ihrem Projekt zu verwenden, führen Sie die folgenden Schritte aus:  
 
-1. Installieren Sie über NuGet:  
-   * Öffnen Sie Ihr Visual Studio Projekt.  
-   * Gehen Sie zu Tools > NuGet Package Manager > Manage NuGet Packages for Solution.  
-   * Suchen Sie nach Aspose.Cells und installieren Sie die neueste Version.  
+1. Installation über NuGet:  
+   - Öffnen Sie Ihr Visual Studio-Projekt.  
+   - Gehen Sie zu Tools > NuGet-Paket-Manager > NuGet-Pakete für Lösung verwalten.  
+   - Suchen Sie nach Aspose.Cells und installieren Sie die neueste Version.  
 
-   Oder verwenden Sie die Package Manager Console:  
+   Oder verwenden Sie die Paket-Manager-Konsole:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Laden Sie von der Aspose-Website herunter:  
-   * Besuch[Aspose.Cells für .NET Download](https://releases.aspose.com/cells/net/)und die neuesten DLLs bekommen.  
-   * Fügen Sie den heruntergeladenen DLL-Verweis manuell zu Ihrem Projekt hinzu.  
+2. Download von der Aspose-Website:  
+   - Besuchen [Aspose.Cells für .NET herunterladen](https://releases.aspose.com/cells/net/) und holen Sie sich die neuesten DLLs.  
+   - Fügen Sie den heruntergeladenen DLL-Verweis manuell zu Ihrem Projekt hinzu.  
 
-3. Anwendbarkeit der Lizenz (optional, aber empfohlen):  
-   * Wenn Sie eine Lizenz haben, wenden Sie sie an:  
+3. Wenden Sie die Lizenz an (optional, aber empfohlen):  
+   - Wenn Sie eine Lizenz haben, wenden Sie diese wie folgt an:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```
 	 
 ## Siehe auch
-Für eine kostenlose Testversion besuchen Sie [Werfen Sie sich eine kostenlose Prüfung vor](https://releases.aspose.com/)\- Ich weiß .  
-Um eine Lizenz zu kaufen, gehen Sie zu [Verwenden Sie die Kaufseite](https://purchase.aspose.com/buy)\- Ich weiß .  
-Für die vollständige Dokumentation besuchen Sie [Aspose.Cells für .NET- Dokumentation](https://docs.aspose.com/cells/net/)\- Ich weiß .  
-Um die vollständige API-Verweise zu erforschen, überprüfen Sie [Aspose.Cells für den .NET API-Verweis](https://reference.aspose.com/cells/net/)\- Ich weiß . 
+Für eine kostenlose Testversion besuchen Sie [Kostenlose Aspose-Testversion](https://releases.aspose.com/).  
+Um eine Lizenz zu erwerben, gehen Sie zu [Aspose-Kaufseite](https://purchase.aspose.com/buy).  
+Die vollständige Dokumentation finden Sie unter [Aspose.Cells für .NET-Dokumentation](https://docs.aspose.com/cells/net/).  
+Um die vollständige API-Referenz zu erkunden, schauen Sie sich an [Aspose.Cells für .NET API-Referenz](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

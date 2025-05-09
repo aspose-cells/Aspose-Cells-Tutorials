@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ license.setLicense("path/to/your/license/file.lic");
 ### 建立工作簿並存取儲存格
 
 **概述：**
-我們首先建立工作簿的實例、存取工作表並操作儲存格。
+我們首先建立工作簿的實例，存取工作表並操作儲存格。
 
 1. **初始化工作簿：**
    ```java
@@ -173,6 +175,9 @@ cell.putValue("這是一些文字。");
 - **購買和授權：** 詳細了解許可證和購買信息，請訪問 [Aspose 購買頁面](https://purchase。aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

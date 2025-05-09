@@ -1,14 +1,16 @@
 ---
-title: Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirin
-linktitle: Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirin
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak biçimlendirmeyi kaybetmeden Excel hücrelerinin hizalamasını nasıl değiştireceğinizi öğrenin. Kusursuz kontrol için kapsamlı adım adım kılavuzumuzu izleyin.
-weight: 10
-url: /tr/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/
+"description": "Aspose.Cells for .NET kullanarak biçimlendirmeyi kaybetmeden Excel hücrelerinin hizalamasını nasıl değiştireceğinizi öğrenin. Kusursuz kontrol için kapsamlı adım adım kılavuzumuzu izleyin."
+"linktitle": "Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirin"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirin"
+"url": "/tr/net/excel-data-alignment-formatting/change-cells-alignment-in-excel-without-losing-existing-formatting/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Biçimlendirmeyi Kaybetmeden Excel Hücrelerinin Hizalamasını Değiştirin
@@ -22,9 +24,9 @@ Excel dosyalarını yönetmek bazen bir labirentte gezinmek gibi hissettirebilir
 Gerçek kodlamaya dalmadan önce, her şeyin doğru şekilde ayarlandığından emin olmak önemlidir. İhtiyacınız olanlar şunlardır:
 
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun (.NET'i destekleyen herhangi bir sürüm) yüklü olduğundan emin olun.
-2. .NET için Aspose.Cells: Aspose.Cells kitaplığını şu adresten indirin ve yükleyin:[Aspose'un sitesi](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kitaplığını şu adresten indirin ve yükleyin: [Aspose'un sitesi](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# bağlamında çalışacağımız için C# programlamaya dair biraz bilgi sahibi olmak işimize yarayacaktır.
-4.  Örnek Excel Dosyası: Gösterim için, örnek bir Excel dosyası hazırlayın (örneğin,`sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) bazı başlangıç hücre biçimlendirmeleri içerir.
+4. Örnek Excel Dosyası: Gösterim için, örnek bir Excel dosyası hazırlayın (örneğin, `sampleChangeCellsAlignmentAndKeepExistingFormatting.xlsx`) bazı başlangıç hücre biçimlendirmeleri içerir.
 
 ## Paketleri İçe Aktar
 
@@ -38,7 +40,7 @@ Visual Studio'yu açın ve yeni bir C# projesi oluşturun (konsol uygulaması da
 
 - Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
 - "NuGet Paketlerini Yönet" seçeneğini seçin.
--  Arama`Aspose.Cells` ve kurun.
+- Arama `Aspose.Cells` ve kurun.
 
 ### Gerekli Ad Alanlarını İçe Aktar
 
@@ -66,7 +68,7 @@ string sourceDir = "Your Document Directory\\"; // Gerçek dizininizle değişti
 string outputDir = "Your Document Directory\\"; // Gerçek dizininizle değiştirin
 ```
 
- Bu kod giriş ve çıkış dosyaları için yolları ayarlar. Değiştirdiğinizden emin olun`"Your Document Directory\\"` Bilgisayarınızdaki gerçek yol ile.
+Bu kod giriş ve çıkış dosyaları için yolları ayarlar. Değiştirdiğinizden emin olun `"Your Document Directory\\"` Bilgisayarınızdaki gerçek yol ile.
 
 ## Adım 2: Örnek Excel Dosyasını Yükleyin
 
@@ -95,7 +97,7 @@ Bu örnek ilk çalışma sayfasına erişir. Verileriniz farklı bir sayfadaysa,
 Bir aralık oluşturarak hangi hücreleri değiştirmek istediğinizi belirleyin. Bu seçim, “B2:D7” gibi belirli bir aralığa odaklanacaktır.
 
 ```csharp
-//Hücre aralığı oluştur.
+// Hücre aralığı oluştur.
 Range rng = ws.Cells.CreateRange("B2:D7");
 ```
 
@@ -128,14 +130,14 @@ StyleFlag flag = new StyleFlag();
 flag.Alignments = true;
 ```
 
- Ayarlayarak`Alignments` StyleFlag'ın özelliği`true`, Aspose.Cells'e hizalama stillerini düzgün bir şekilde uygulamasını söylersiniz.
+Ayarlayarak `Alignments` StyleFlag'ın özelliği `true`, Aspose.Cells'e hizalama stillerini düzgün bir şekilde uygulamasını söylersiniz.
 
 ## Adım 7: Stili Hücre Aralığına Uygula
 
 Stilleriniz ve bayraklarınız hazır olduğuna göre, bu stilleri hücre aralığına uygulamanın zamanı geldi:
 
 ```csharp
-//Hücre aralığına stil uygulayın.
+// Hücre aralığına stil uygulayın.
 rng.ApplyStyle(st, flag);
 ```
 
@@ -172,19 +174,21 @@ Mevcut biçimlendirmeyi bozulmadan korurken Excel'deki hücre hizalamasını de�
 Kesinlikle! Performans için optimize edilmiştir ve büyük dosyaları verimli bir şekilde işleyebilir.
 
 ### Aspose.Cells için deneme sürümü mevcut mu?
- Evet! Siteden ücretsiz deneme sürümünü indirebilirsiniz[Ücretsiz deneme](https://releases.aspose.com/).
+Evet! Siteden ücretsiz deneme sürümünü indirebilirsiniz [Ücretsiz deneme](https://releases.aspose.com/).
 
 ### Aspose.Cells hangi programlama dillerini destekliyor?
 Aspose.Cells öncelikle .NET, Java ve ilgili kütüphaneler aracılığıyla birkaç başka dili destekler.
 
 ### Aspose.Cells için nasıl destek alabilirim?
- Herhangi bir sorunuz veya destekle ilgili sorunlarınız varsa şu adresi ziyaret edin:[destek forumu](https://forum.aspose.com/c/cells/9).
+Herhangi bir sorunuz veya destekle ilgili sorunlarınız varsa şu adresi ziyaret edin: [destek forumu](https://forum.aspose.com/c/cells/9).
 
 ### Birden fazla stili aynı anda uygulayabilir miyim?
 Evet, birden fazla Stil nesnesi oluşturabilir ve bunları gerektiğinde sırayla veya koşullu olarak uygulayabilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

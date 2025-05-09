@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Dowiedz się, jak skutecznie sortować dane w programie Excel, używając podwójnych kryteriów z Aspose.Cells dla Java. Ten kompleksowy przewodnik obejmuje wszystko, od konfiguracji po zapisywanie posortowanych plików."
+"description": "Dowiedz się, jak skutecznie sortować dane w programie Excel, używając podwójnych kryteriów z Aspose.Cells dla Javy. Ten kompleksowy przewodnik obejmuje wszystko, od konfiguracji po zapisywanie posortowanych plików."
 "title": "Wydajne sortowanie podwójne danych w programie Excel przy użyciu Aspose.Cells dla języka Java — przewodnik krok po kroku"
 "url": "/pl/java/data-analysis/master-dual-sort-data-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Jeśli chcesz dowiedzieć się więcej na temat możliwości pakietu Aspose.Cell
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

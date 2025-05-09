@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 Dodržováním tohoto návodu jste získali dovednosti potřebné k využití knihovny Aspose.Cells pro správu grafů v Excelu a manipulaci s výčty. Tyto funkce mohou výrazně vylepšit vaše aplikace v Javě tím, že poskytují výkonné funkce pro manipulaci s daty. Pokračujte v prozkoumávání dokumentace knihovny, kde najdete další pokročilé funkce a přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

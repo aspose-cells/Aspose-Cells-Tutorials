@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Aspose.Cells for Java を使って Excel でピボット テーブルを作成する方法
+# Aspose.Cells for Java を使って Excel でピボットテーブルを作成する方法
 
 ## 導入
 
@@ -190,7 +192,7 @@ Aspose.Cells for Javaを使ってExcelでピボットテーブルの作成を自
    - はい、ただし、生成されたドキュメントに評価透かしが入るなど、いくつかの制限があります。
 
 2. **Aspose.Cells を使用して Excel で大規模なデータセットを処理するにはどうすればよいですか?**
-   - 効率的なデータ読み込み技術を活用し、Java アプリケーションのメモリ管理を最適化します。
+   - 効率的なデータ読み込みテクニックを活用し、Java アプリケーションのメモリ管理を最適化します。
 
 3. **1 つのワークブックに複数のピボット テーブルを作成することは可能ですか?**
    - はい、1 つのワークブック内の異なるワークシートに複数のピボット テーブルを追加できます。
@@ -211,6 +213,9 @@ Aspose.Cells for Javaを使ってExcelでピボットテーブルの作成を自
 - [Aspose 購入ページ](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

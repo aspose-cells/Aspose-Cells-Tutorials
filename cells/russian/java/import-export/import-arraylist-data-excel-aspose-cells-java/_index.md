@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Инициализировать рабочую книгу и рабочий лист
 
 ```java
-// Создайте новый объект Workbook, представляющий файл Excel.
+// Создать новый объект Workbook, представляющий файл Excel.
 Workbook workbook = new Workbook();
 
 // Доступ к первому рабочему листу из коллекции рабочей книги.
@@ -145,7 +147,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 
 **Следующие шаги:**
 - Попробуйте реализовать дополнительные функции импорта/экспорта.
-- Изучите всеобъемлющий [Документация Aspose](https://reference.aspose.com/cells/java/) для расширенных вариантов использования.
+- Исследуйте всеобъемлющий [Документация Aspose](https://reference.aspose.com/cells/java/) для расширенных вариантов использования.
 
 ## Раздел часто задаваемых вопросов
 
@@ -175,6 +177,9 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/IFromArrayList_out.xls");
 Это руководство должно помочь вам эффективно использовать Aspose.Cells для Java в ваших проектах, улучшая обработку данных и производительность. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

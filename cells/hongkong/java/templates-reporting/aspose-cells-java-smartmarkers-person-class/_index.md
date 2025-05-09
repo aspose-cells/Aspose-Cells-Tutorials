@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 
 ## 先決條件
 
-在我們開始之前，請確保您已具備：
+在我們開始之前，請確保您已配備：
 - **Java 開發工具包 (JDK)**：確保您的系統上安裝了 JDK 8 或更高版本。
 - **整合開發環境**：任何 Java IDE（例如 IntelliJ IDEA 或 Eclipse）都可以使用。
 - **Maven/Gradle**：熟悉 Maven 或 Gradle 進行依賴管理。
@@ -201,6 +203,9 @@ Aspose.Cells可以整合到各種場景中：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

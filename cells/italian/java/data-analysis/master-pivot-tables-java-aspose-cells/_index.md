@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Ora hai acquisito le basi per impostare e manipolare tabelle pivot in Java con A
 Seguendo questa guida completa, sarai sulla buona strada per sfruttare al meglio le potenti funzionalità di Aspose.Cells per Java nei tuoi progetti basati sui dati. Buona programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

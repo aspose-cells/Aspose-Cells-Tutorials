@@ -6,7 +6,9 @@ url: "/net/calculation-engine/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Excel Calculation Engine for .NET Applications
 
@@ -67,6 +69,9 @@ Explore our tutorials to master the calculation engine capabilities in Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

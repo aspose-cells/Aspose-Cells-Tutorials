@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Låt oss börja med att konfigurera din miljö för att utnyttja denna kraftfull
 Innan du börjar implementera, se till att du har:
 - **Obligatoriska bibliotek och beroenden:** Aspose.Cells för Java-biblioteket (version 25.3 eller senare).
 - **Miljöinställningar:** Erfarenhet av Java-utvecklingsmiljöer som Maven eller Gradle.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmeringskoncept och objektorienterade principer.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmeringskoncept och objektorienterade principer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -200,6 +202,9 @@ I den här guiden har du lärt dig hur du implementerar `LightCellsDataHandler` 
 Genom att följa den här guiden är du på god väg att bemästra Excel-filbehandling i Java med Aspose.Cells. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

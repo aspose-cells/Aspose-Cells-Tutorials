@@ -8,7 +8,9 @@ url: /net/excel-borders-and-formatting-options/setting-font/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Font Programmatically in Excel
@@ -116,6 +118,7 @@ You can find extensive documentation and resources on the [Aspose.Cells Document
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

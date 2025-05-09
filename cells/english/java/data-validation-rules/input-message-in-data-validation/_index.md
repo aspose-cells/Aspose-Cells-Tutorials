@@ -8,7 +8,9 @@ url: /java/data-validation-rules/input-message-in-data-validation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Input Message in Data Validation
@@ -153,6 +155,7 @@ For more information about Aspose.Cells for Java and its features, you can visit
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

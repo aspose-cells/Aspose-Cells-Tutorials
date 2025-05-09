@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ workbook.save(dataDir + "InsertingARowWithFormatting_out.xlsx");
 هل أنت مستعد لتطبيق هذا الحل في تطبيق جافا الخاص بك؟ جرّبه وشاهد كيف يُسهّل Aspose.Cells معالجة ملفات Excel لديك!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

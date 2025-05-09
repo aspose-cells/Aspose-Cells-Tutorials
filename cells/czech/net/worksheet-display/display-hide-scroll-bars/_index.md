@@ -1,101 +1,105 @@
 ---
-title: Zobrazit nebo skrýt posuvníky v listu
-linktitle: Zobrazit nebo skrýt posuvníky v listu
-second_title: Aspose.Cells .NET Excel Processing API
-description: Naučte se, jak efektivně skrýt nebo zobrazit posuvníky v listech aplikace Excel pomocí Aspose.Cells for .NET. Zvyšte uživatelský dojem ze své aplikace.
-weight: 13
-url: /cs/net/worksheet-display/display-hide-scroll-bars/
+"description": "Naučte se, jak efektivně skrýt nebo zobrazit posuvníky v excelových listech pomocí Aspose.Cells pro .NET. Vylepšete uživatelský komfort vaší aplikace."
+"linktitle": "Zobrazení nebo skrytí posuvníků v listu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Zobrazení nebo skrytí posuvníků v listu"
+"url": "/cs/net/worksheet-display/display-hide-scroll-bars/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Zobrazit nebo skrýt posuvníky v listu
+# Zobrazení nebo skrytí posuvníků v listu
 
 ## Zavedení
-Při práci se soubory Excel v aplikacích .NET je kontrola nad nastavením zobrazení zásadní pro poskytování čistého a uživatelsky přívětivého rozhraní. Jednou z často užitečných funkcí je možnost zobrazit nebo skrýt posuvníky v listech. V tomto tutoriálu se podíváme na to, jak zobrazit nebo skrýt posuvníky v listu pomocí Aspose.Cells pro .NET. Ať už vytváříte jednoduchou excelovou sestavu nebo komplexní nástroj pro analýzu dat, zvládnutí těchto nastavení může výrazně zlepšit uživatelský zážitek.
+Při práci s excelovými soubory v aplikacích .NET je pro zajištění čistého a uživatelsky přívětivého rozhraní klíčové mít kontrolu nad nastavením zobrazení. Jednou z často užitečných funkcí je možnost zobrazit nebo skrýt posuvníky v listech. V tomto tutoriálu se podíváme na to, jak zobrazit nebo skrýt posuvníky v listu pomocí Aspose.Cells pro .NET. Ať už vytváříte jednoduchou excelovou sestavu nebo složitý nástroj pro analýzu dat, zvládnutí těchto nastavení může výrazně zlepšit uživatelský komfort.
 ## Předpoklady
-Než se ponoříte do kódu, musíte splnit několik předpokladů, abyste se ujistili, že máte na svém místě:
-1. Základní znalost C# a .NET: Seznámení s koncepty programování v C# a .NET frameworku vám usnadní pokračování.
-2.  Knihovna Aspose.Cells for .NET: V projektu musíte mít nainstalovanou knihovnu Aspose.Cells. Knihovnu si můžete stáhnout z[zde](https://releases.aspose.com/cells/net/).
-3. Vývojové prostředí: Ujistěte se, že máte nastavené vhodné vývojové prostředí, jako je Visual Studio, kde můžete psát a testovat svůj kód C#.
-4.  Soubor Excel: Měli byste mít existující soubor Excel, se kterým můžete pracovat. V tomto tutoriálu budeme používat soubor s názvem`book1.xls`. Umístěte to do svého projektu nebo adresáře, ze kterého budete pracovat.
-Pojďme skočit do masa tutoriálu!
-## Importujte balíčky
-První krok k jakémukoli projektu Aspose.Cells zahrnuje import potřebných jmenných prostorů. To umožňuje naší aplikaci přístup k funkcím, které poskytuje knihovna Aspose.Cells. Níže je uvedeno, jak to můžete udělat v C#:
+Než se ponoříme do kódu, je třeba se ujistit, že máte splněno několik předpokladů:
+1. Základní znalost C# a .NET: Znalost programovacích konceptů v C# a frameworku .NET vám výrazně usnadní sledování textu.
+2. Knihovna Aspose.Cells pro .NET: V projektu musíte mít nainstalovanou knihovnu Aspose.Cells. Knihovnu si můžete stáhnout z [zde](https://releases.aspose.com/cells/net/).
+3. Vývojové prostředí: Ujistěte se, že máte nastavené vhodné vývojové prostředí, například Visual Studio, kde můžete psát a testovat kód v C#.
+4. Soubor aplikace Excel: Měli byste mít existující soubor aplikace Excel, se kterým budete moci pracovat. V tomto tutoriálu použijeme soubor s názvem `book1.xls`Umístěte to do svého projektu nebo do adresáře, ze kterého budete pracovat.
+Pojďme se pustit do jádra tutoriálu!
+## Importovat balíčky
+Prvním krokem v jakémkoli projektu Aspose.Cells je import potřebných jmenných prostorů. To umožňuje naší aplikaci přístup k funkcím poskytovaným knihovnou Aspose.Cells. Níže je uveden návod, jak to provést v C#:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Nezapomeňte je přidat pomocí direktiv v horní části souboru C#.
-Nyní si tento proces rozdělíme do jednoduchých, stravitelných kroků pro skrytí posuvníků v listu pomocí Aspose.Cells for .NET.
+Nezapomeňte je přidat pomocí direktiv na začátek souboru C#.
+Nyní si rozdělme proces na jednoduché a srozumitelné kroky, jak skrýt posuvníky v listu pomocí Aspose.Cells pro .NET.
 ## Krok 1: Nastavení datového adresáře
- Nejprve musíme určit, kde jsou umístěny naše soubory Excel. Toto je místo, kam aplikaci nasměrujete`book1.xls`.
+Nejdříve musíme určit, kde se nacházejí naše soubory Excelu. To je místo, kam má aplikace najít. `book1.xls`.
 ```csharp
-// Cesta k adresáři dokumentů.
+// Cesta k adresáři s dokumenty.
 string dataDir = "Your Document Directory"; // Aktualizujte tuto cestu!
 ```
- Nahradit`"Your Document Directory"`se skutečnou cestou, kde máte`book1.xls` uloženy. Může to být cesta k místní jednotce nebo umístění v síti, jen se ujistěte, že je správná.
-## Krok 2: Vytvoření datového proudu souborů
-Dále vytvoříme souborový stream pro přístup k našemu souboru Excel. Postupujte takto:
+Nahradit `"Your Document Directory"` se skutečnou cestou, kde máte `book1.xls` uloženo. Může se jednat o cestu k místnímu disku nebo síťové umístění, stačí se ujistit, že je správná.
+## Krok 2: Vytvoření souborového streamu
+Dále vytvoříme souborový stream pro přístup k našemu souboru aplikace Excel. Postupujte takto:
 ```csharp
-// Vytvoření datového proudu souboru obsahujícího soubor Excel, který se má otevřít
+// Vytvoření proudu souborů obsahujícího soubor Excel, který se má otevřít
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Tento kód se otevře`book1.xls` pro čtení, což nám dává možnost manipulovat s jeho obsahem.
-## Krok 3: Vytvoření instancí sešitu
- Jakmile máme náš souborový stream připravený, musíme nyní vytvořit instanci a`Workbook` objekt, který nám umožní interakci s obsahem našeho souboru Excel.
+Tento kód se otevírá `book1.xls` pro čtení, což nám dává možnost manipulovat s jeho obsahem.
+## Krok 3: Vytvoření instance sešitu
+Jakmile máme připravený souborový stream, musíme nyní vytvořit instanci `Workbook` objekt, který nám umožní interagovat s obsahem našeho excelového souboru.
 ```csharp
-// Vytvoření instance objektu sešitu
-// Otevření souboru aplikace Excel prostřednictvím datového proudu souborů
+// Vytvoření instance objektu Workbook
+// Otevření souboru Excelu prostřednictvím souborového proudu
 Workbook workbook = new Workbook(fstream);
 ```
- The`Workbook` objekt načte obsah souboru Excel a připraví jej na další úpravy.
-## Krok 4: Skrytí vertikálního posuvníku
- Nyní se vypořádáme se skrytím svislého posuvníku. To je stejně jednoduché jako nastavení vlastnosti na`workbook.Settings` objekt.
+Ten/Ta/To `Workbook` Objekt načte obsah souboru aplikace Excel a připraví ho tak k dalším úpravám.
+## Krok 4: Skrytí svislého posuvníku
+Nyní se pojďme postarat o skrytí svislého posuvníku. Je to stejně jednoduché jako nastavení vlastnosti u `workbook.Settings` objekt.
 ```csharp
-// Skrytí svislého posuvníku souboru Excel
+// Skrytí svislého posuvníku v souboru Excelu
 workbook.Settings.IsVScrollBarVisible = false;
 ```
-Pomocí tohoto řádku kódu říkáme aplikaci, aby skryla svislý posuvník. Nic nebude otravnější než zbytečné posuvníky při prohlížení vašich dat!
+Tímto řádkem kódu říkáme aplikaci, aby skryla svislý posuvník. Při prohlížení dat nebude nic otravnějšího než zbytečné posuvníky!
 ## Krok 5: Skrytí vodorovného posuvníku
-Ale počkat, ještě nekončíme! Skryjme také vodorovný posuvník. Hádáte správně, je to stejný přístup:
+Ale počkejte, ještě nejsme hotovi! Skryjme také vodorovný posuvník. Uhodli jste, je to stejný přístup:
 ```csharp
-// Skrytí vodorovného posuvníku souboru Excel
+// Skrytí vodorovného posuvníku v souboru Excelu
 workbook.Settings.IsHScrollBarVisible = false;
 ```
-Díky tomu zajistíte přehledný pohled na obě osy vašeho listu Excel.
-## Krok 6: Uložení upraveného souboru Excel
-Po provedení změn je čas uložit náš upravený soubor Excel. Budeme muset zadat název výstupního souboru a jeho adresář.
+Díky tomu si zajistíte přehledný pohled na obou osách vašeho excelového listu.
+## Krok 6: Uložení upraveného souboru Excelu
+Po provedení změn je čas uložit upravený soubor Excel. Budeme muset zadat název výstupního souboru a jeho adresář.
 ```csharp
-// Uložení upraveného souboru Excel
+// Uložení upraveného souboru aplikace Excel
 workbook.Save(dataDir + "output.xls");
 ```
- Tím se váš nový soubor Excel uloží jako`output.xls`, odrážející změny, které jste provedli.
-## Krok 7: Zavření streamu souborů
-A konečně, aby vaše aplikace byla efektivní z hlediska zdrojů, nezapomeňte zavřít datový proud souborů. Tím se zabrání únikům paměti a dalším problémům.
+Tím se uloží váš nový soubor Excelu jako `output.xls`, což odráží provedené změny.
+## Krok 7: Uzavření datového proudu souborů
+A konečně, abyste zachovali efektivní využívání zdrojů vaší aplikace, nezapomeňte zavřít souborový proud. Tím se zabrání únikům paměti a dalším problémům.
 ```csharp
-// Zavřením datového proudu souborů uvolníte všechny zdroje
+// Uzavření souborového proudu pro uvolnění všech zdrojů
 fstream.Close();
 ```
-A je to! Dokončili jste kroky ke skrytí obou posuvníků v listu aplikace Excel pomocí Aspose.Cells for .NET.
+A je to! Dokončili jste kroky pro skrytí obou posuvníků v listu aplikace Excel pomocí Aspose.Cells pro .NET.
 ## Závěr
-tomto tutoriálu jsme vás provedli zjednodušenou, ale výkonnou operací při manipulaci s dokumenty aplikace Excel pomocí Aspose.Cells pro .NET. Řízením viditelnosti posuvníků vytvoříte pro své uživatele přehlednější a profesionálnější rozhraní. Může se to zdát jako malý detail, ale jako pověstná třešnička navrchu to může výrazně změnit uživatelský dojem.
-## FAQ
+V tomto tutoriálu jsme vás provedl jednoduchým, ale výkonným postupem pro práci s dokumenty aplikace Excel pomocí Aspose.Cells pro .NET. Ovládáním viditelnosti posuvníků vytvoříte pro své uživatele úhlednější a profesionálnější rozhraní. Může se to zdát jako malý detail, ale jako příslovečná třešnička na dortu to může mít významný vliv na uživatelský zážitek.
+## Často kladené otázky
 ### Co je Aspose.Cells?  
-Aspose.Cells je knihovna .NET, která umožňuje vývojářům efektivně vytvářet, manipulovat a spravovat soubory Excelu, aniž by museli mít nainstalovaný Microsoft Excel.
+Aspose.Cells je knihovna .NET, která umožňuje vývojářům efektivně vytvářet, manipulovat a spravovat soubory Excelu bez nutnosti instalace aplikace Microsoft Excel.
 ### Mohu skrýt pouze jeden z posuvníků?  
 Ano! Svislý nebo vodorovný posuvník můžete selektivně skrýt nastavením příslušné vlastnosti.
 ### Potřebuji licenci k používání Aspose.Cells?  
- Zatímco Aspose.Cells nabízí bezplatnou zkušební verzi, k odemknutí všech funkcí budete muset zakoupit licenci. Více o tom lze nalézt[zde](https://purchase.aspose.com/buy).
+Ačkoli Aspose.Cells nabízí bezplatnou zkušební verzi, pro odemknutí všech funkcí si budete muset zakoupit licenci. Více informací naleznete [zde](https://purchase.aspose.com/buy).
 ### Jaké další funkce mohu používat s Aspose.Cells?  
 Knihovna podporuje širokou škálu funkcí, jako je čtení, psaní, formátování tabulek a provádění složitých výpočtů.
 ### Kde najdu další dokumentaci?  
- Můžete najít komplexní dokumentaci všech vlastností a funkcí Aspose.Cells[zde](https://reference.aspose.com/cells/net/).
+Najdete zde komplexní dokumentaci ke všem funkcím a možnostem Aspose.Cells. [zde](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

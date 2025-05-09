@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ implementation 'com.aspose:aspose-cells:25.3'
 باتباع هذا الدليل، ستمتلك الآن المهارات اللازمة لإدارة مصنفات Excel برمجيًا باستخدام Aspose.Cells for Java. تُبسّط هذه الأداة الفعّالة المهام المعقدة وتُحسّن الإنتاجية في التعامل مع ملفات Excel. واصل استكشاف ميزاتها لتحسين سير عمل إدارة بياناتك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -111,7 +113,7 @@ public class FindoutifVBAProjectisProtected {
         System.out.println("IsProtected - After Protecting VBA Project: " + vbaProj.isProtected());
 ```
 
-#### ステップ4: 最終決定とテスト
+#### ステップ4：最終決定とテスト
 ```java
         // 操作が成功したことを確認する
         System.out.println("FindoutifVBAProjectisProtected Done Successfully");
@@ -175,6 +177,9 @@ Aspose.Cells for Java を使用して、Excel ファイル内の VBA プロジ�
 Aspose.Cells の旅に乗り出し、Java での Excel 処理の可能性を最大限に引き出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

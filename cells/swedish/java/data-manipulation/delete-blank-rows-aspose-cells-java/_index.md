@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -117,7 +119,7 @@ WorksheetCollection sheets = wb.getWorksheets();
 Worksheet sheet = sheets.get(0);
 ```
 ##### 3. Ta bort tomma rader
-Använd `deleteBlankRows()` Metod för att ta bort tomma rader från ditt kalkylblad:
+Använd `deleteBlankRows()` metod för att ta bort tomma rader från ditt kalkylblad:
 ```java
 // Ta bort alla tomma rader från det första kalkylbladet
 sheet.getCells().deleteBlankRows();
@@ -172,6 +174,9 @@ Experimentera med andra funktioner som att formatera celler eller sammanfoga ark
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

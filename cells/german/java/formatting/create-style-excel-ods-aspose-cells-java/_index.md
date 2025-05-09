@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Aspose.Cells bietet eine kostenlose Testversion an, mit der Sie die Funktionen erkunden können. So schalten Sie alle Funktionen frei:
 1. **Kostenlose Testversion**: Laden Sie es von der Aspose-Website herunter und beantragen Sie eine temporäre Lizenz.
 2. **Temporäre Lizenz**: Besuchen [Lizenzierungsseite von Aspose](https://purchase.aspose.com/temporary-license/) um eines zu erhalten.
-3. **Kaufen**: Für die langfristige Nutzung erwerben Sie eine Lizenz über [Aspose Kauf](https://purchase.aspose.com/buy).
+3. **Kaufen**Für die langfristige Nutzung erwerben Sie eine Lizenz über [Aspose Kauf](https://purchase.aspose.com/buy).
 
 ### Grundlegende Initialisierung und Einrichtung
 So beginnen Sie mit Aspose.Cells:
@@ -171,6 +173,9 @@ Entdecken Sie erweiterte Funktionen von Aspose.Cells wie Diagrammerstellung, For
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

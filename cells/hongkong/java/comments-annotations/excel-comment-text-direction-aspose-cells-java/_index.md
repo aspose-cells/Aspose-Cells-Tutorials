@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,13 +150,16 @@ wb.save(dataDir + "CTDOfComment_out.xlsx");
 - [下載 Aspose.Cells for Java](https://releases.aspose.com/cells/java/)
 - [購買 Aspose 產品](https://purchase.aspose.com/buy)
 - [免費試用許可證](https://releases.aspose.com/cells/java/)
-- [臨時執照獲取](https://purchase.aspose.com/temporary-license/)
+- [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/cells/9)
 
 立即開始嘗試使用 Aspose.Cells for Java 並改變您在應用程式中處理 Excel 文件的方式！
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

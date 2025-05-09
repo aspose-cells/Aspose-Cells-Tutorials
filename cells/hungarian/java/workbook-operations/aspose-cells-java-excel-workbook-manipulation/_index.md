@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ Workbook workbook = new Workbook(dataDir + "/DataTable.xlsx");
 #### 2. lépés: Az első munkalap elérése
 ```java
 import com.aspose.cells.Worksheet;
-// munkafüzet első munkalapjának elérése
+// A munkafüzet első munkalapjának elérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 **Magyarázat**: Ez a sor a munkafüzet első munkalapját kéri le, lehetővé téve rajta műveletek végrehajtását.
@@ -158,9 +160,12 @@ Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan használhatjuk az Aspose.Ce
 - **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
-Most pedig tedd próbára új képességeidet Excel munkafüzetek létrehozásával vagy módosításával az Aspose.Cells for Java segítségével!
+Most pedig tedd próbára új készségeidet Excel munkafüzetek létrehozásával vagy módosításával az Aspose.Cells for Java segítségével!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grupowanie danych w tabelach przestawnych
@@ -108,9 +110,11 @@ Możesz dostosować grupowanie danych w tabeli przestawnej za pomocą `PivotFiel
 ### 3. Czy mogę zautomatyzować tworzenie tabel przestawnych za pomocą Aspose.Cells dla Java?
 
 Tak, można zautomatyzować tworzenie tabel przestawnych w programie Excel za pomocą pakietu Aspose.Cells dla języka Java, jak pokazano w podanych przykładach kodu źródłowego.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

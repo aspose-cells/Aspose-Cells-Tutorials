@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Aprenda a otimizar a interface do Excel desativando a Faixa de Opções da Tabela Dinâmica usando o Aspose.Cells para Java. Aprimore fluxos de trabalho de análise de dados com eficiência."
+"description": "Aprenda a otimizar a interface do Excel desabilitando a Faixa de Opções da Tabela Dinâmica usando o Aspose.Cells para Java. Aprimore fluxos de trabalho de análise de dados com eficiência."
 "title": "Como desabilitar a faixa de opções da tabela dinâmica no Excel usando Aspose.Cells para Java"
 "url": "/pt/java/data-analysis/disable-pivottable-ribbon-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -164,6 +166,9 @@ A5: Visita [Documentação oficial da Aspose](https://reference.aspose.com/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

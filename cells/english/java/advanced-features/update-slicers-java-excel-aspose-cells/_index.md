@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Optimizing performance is critical when dealing with large files or complex oper
 In this guide, we explored how to update slicers in Java Excel files using Aspose.Cells. You learned how to load and display the library version, manipulate slicers programmatically, and save changes back to your Excel file. With these skills, you can automate data filtering processes, enhancing productivity and accuracy in data analysis tasks.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

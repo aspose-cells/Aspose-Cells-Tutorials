@@ -1,14 +1,16 @@
 ---
-title: Установка полей для комментариев или фигур в Excel
-linktitle: Установка полей для комментариев или фигур в Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как задать поля для комментариев и фигур в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство включено для легкой реализации.
-weight: 18
-url: /ru/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
+"description": "Узнайте, как задать поля для комментариев и фигур в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство включено для легкой реализации."
+"linktitle": "Установка полей для комментариев или фигур в Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Установка полей для комментариев или фигур в Excel"
+"url": "/ru/net/excel-shape-text-modifications/set-margins-comment-shape-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Установка полей для комментариев или фигур в Excel
@@ -16,13 +18,13 @@ url: /ru/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
 ## Введение
 Когда дело доходит до обработки файлов Excel в приложениях .NET, Aspose.Cells предлагает мощное решение. Независимо от того, являетесь ли вы разработчиком, желающим манипулировать документами Excel, или энтузиастом, стремящимся оптимизировать свой рабочий процесс, знание того, как устанавливать поля для комментариев или фигур в Excel, может поднять ваш проект на новый уровень. Это руководство проведет вас шаг за шагом, гарантируя, что вы поймете и «как», и «почему» за этой функциональностью.
 ## Предпосылки
-Прежде чем погрузиться в мир программирования, давайте убедимся, что у вас есть все необходимое для успешного выполнения этого руководства.
+Прежде чем погрузиться в приключение по написанию кода, давайте убедимся, что у вас есть все необходимое для успешного выполнения этого руководства.
 ### Базовые знания
 Вы должны иметь фундаментальное понимание C# и .NET. Это руководство предназначено для тех, кто имеет хотя бы базовые знания концепций программирования.
 ### Настройка среды
 1. Visual Studio: Убедитесь, что у вас установлена Visual Studio. Это среда разработки, которая упрощает кодирование.
-2.  Библиотека Aspose.Cells: Вам нужна библиотека Aspose.Cells. Если у вас ее еще нет, вы можете ее скачать[здесь](https://releases.aspose.com/cells/net/).
-3. Образец файла Excel: Создайте или загрузите образец файла Excel. Для этого урока мы будем использовать файл с именем`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+2. Библиотека Aspose.Cells: Вам нужна библиотека Aspose.Cells. Если у вас ее еще нет, вы можете ее скачать [здесь](https://releases.aspose.com/cells/net/).
+3. Образец файла Excel: Создайте или загрузите образец файла Excel. Для этого урока мы будем использовать файл с именем `sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Импорт пакетов
 Первый шаг в нашем путешествии включает импорт необходимых пакетов. Вам нужно будет включить пространства имен Aspose.Cells в ваш проект. Это предоставит вам доступ ко всем функциям, которые может предложить Aspose.Cells.
 ### Откройте свой проект
@@ -53,9 +55,9 @@ string sourceDir = "Your Document Directory";
 //Выходной каталог
 string outputDir = "Your Document Directory";
 ```
-Обязательно замените`"Your Document Directory"` с фактическим путем хранения ваших файлов.
+Обязательно замените `"Your Document Directory"` с фактическим путем хранения ваших файлов.
 ## Шаг 2: Загрузите файл Excel
- На этом этапе мы откроем файл Excel, над которым мы планируем работать. Давайте воспользуемся мощью`Workbook` сорт.
+На этом этапе мы откроем файл Excel, над которым мы планируем работать. Давайте воспользуемся мощью `Workbook` сорт.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx");
 ```
@@ -78,7 +80,7 @@ foreach (Shape sh in ws.Shapes)
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Установив`IsAutoMargin`на false, теперь у нас есть контроль над полями.
+Установив `IsAutoMargin` на false, теперь у нас есть контроль над полями.
 ## Шаг 6: Установите поля
 Это важный шаг, где мы определяем поля. Вы можете настроить эти значения в соответствии с вашими потребностями.
 ```csharp
@@ -105,16 +107,18 @@ Console.WriteLine("SetMarginsOfCommentOrShapeInsideTheWorksheet executed success
 ### Что такое Aspose.Cells?
 Aspose.Cells — это библиотека .NET, предназначенная для создания, обработки и преобразования файлов Excel без необходимости установки Microsoft Excel.
 ### Могу ли я использовать Aspose.Cells бесплатно?
- Да! Aspose.Cells предлагает бесплатную пробную версию. Вы можете загрузить ее[здесь](https://releases.aspose.com/).
+Да! Aspose.Cells предлагает бесплатную пробную версию. Вы можете загрузить ее [здесь](https://releases.aspose.com/).
 ### Как приобрести лицензию на Aspose.Cells?
- Вы можете купить лицензию Aspose.Cells, посетив этот сайт.[ссылка для покупки](https://purchase.aspose.com/buy).
+Вы можете купить лицензию Aspose.Cells, посетив этот сайт. [ссылка для покупки](https://purchase.aspose.com/buy).
 ### Легко ли интегрировать библиотеку в существующие проекты?
 Конечно! Aspose.Cells легко интегрируется в проекты .NET, а его API прост.
 ### Где я могу найти поддержку Aspose.Cells?
- Вы можете получить поддержку через Aspose[форум](https://forum.aspose.com/c/cells/9).
+Вы можете получить поддержку через Aspose [форум](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

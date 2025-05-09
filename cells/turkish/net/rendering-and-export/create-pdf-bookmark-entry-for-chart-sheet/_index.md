@@ -1,23 +1,25 @@
 ---
-title: Aspose.Cells'de Grafik Sayfası için PDF Yer İmi Oluşturma
-linktitle: Aspose.Cells'de Grafik Sayfası için PDF Yer İmi Oluşturma
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET'te grafik sayfaları için PDF yer imlerinin nasıl oluşturulacağını öğrenin.
-weight: 13
-url: /tr/net/rendering-and-export/create-pdf-bookmark-entry-for-chart-sheet/
+"description": "Bu kapsamlı adım adım kılavuzla Aspose.Cells for .NET'te grafik sayfaları için PDF yer imlerinin nasıl oluşturulacağını öğrenin."
+"linktitle": "Aspose.Cells'de Grafik Sayfası için PDF Yer İmi Oluşturma"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells'de Grafik Sayfası için PDF Yer İmi Oluşturma"
+"url": "/tr/net/rendering-and-export/create-pdf-bookmark-entry-for-chart-sheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells'de Grafik Sayfası için PDF Yer İmi Oluşturma
 
 ## giriiş
-Aspose.Cells for .NET, geliştiricilerin Excel dosyalarını programatik olarak düzenlemelerine olanak tanır. Kullanışlı özelliklerinden biri de bireysel grafik sayfaları için PDF yer imleri oluşturma yeteneğidir. Bu eğitim, programlama deneyiminiz ne olursa olsun, süreci adım adım takip etmenizi kolaylaştırarak sizi yönlendirecektir. Kod düzenleyicinizi alın ve başlayalım!
+Aspose.Cells for .NET, geliştiricilerin Excel dosyalarını programatik olarak düzenlemelerine olanak tanır. Kullanışlı özelliklerinden biri, bireysel grafik sayfaları için PDF yer imleri oluşturma yeteneğidir. Bu eğitim, programlama deneyiminiz ne olursa olsun, süreci adım adım takip etmenizi kolaylaştırarak sizi yönlendirecektir. Kod düzenleyicinizi alın ve başlayalım!
 ## Ön koşullar
 Başlamadan önce, takip etmeniz gereken her şeye sahip olduğunuzdan emin olalım:
-1.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Eğer henüz sahip değilseniz, şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+1. .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. Eğer henüz sahip değilseniz, şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 2. Visual Studio veya herhangi bir .NET IDE: C# kodunuzu yazabileceğiniz ve çalıştırabileceğiniz bir geliştirme ortamına ihtiyacınız olacak.
 3. C# Temel Anlayışı: Her adımda size rehberlik edeceğiz ancak C# kodlamasının temel bilgisine sahip olmak işinize yarayacaktır.
 4. Örnek Excel Dosyası: Grafikler içeren bir örnek Excel dosyası edinin. Kendiniz bir tane oluşturabilir veya bu alıştırma için bir örnek dosya kullanabilirsiniz.
@@ -28,7 +30,7 @@ Artık önkoşulları tamamladığımıza göre, koda geçelim. Excel dosyaları
 1. Yeni Bir Proje Oluşturun: Visual Studio'yu açın ve yeni bir C# konsol uygulaması oluşturun. Buna "AsposePDFBookmarkExample" diyelim.
 2. Aspose.Cells Referansını Ekle: Solution Explorer'da projenize sağ tıklayın, "NuGet Paketlerini Yönet"i seçin ve "Aspose.Cells"i arayın. En son sürümü yükleyin.
 3. Yönergeleri Kullanarak Ekle:
- Senin içinde`Program.cs` dosyanın en üstüne şu satırları ekleyin:
+Senin içinde `Program.cs` dosyanın en üstüne şu satırları ekleyin:
 ```csharp
 using System;
 using System.Collections;
@@ -45,13 +47,13 @@ Kodunuzu organize etmek için dosyalarımızın nerede bulunacağını tanımlay
 string sourceDir = "Your Document Directory"; // örneğin, @"C:\Documents\"
 string outputDir = "Your Document Directory"; // örneğin, @"C:\Documents\Output\"
 ```
- Yer değiştirmek`Your Document Directory` Örnek Excel dosyanızın saklandığı ve çıktı PDF'inin kaydedilmesini istediğiniz gerçek yollar.
-## Adım 2: Excel Çalışma Kitabını yükleyin
+Yer değiştirmek `Your Document Directory` Örnek Excel dosyanızın saklandığı ve çıktı PDF'inin kaydedilmesini istediğiniz gerçek yollar.
+## Adım 2: Excel Çalışma Kitabını Yükleyin
 Daha sonra, üzerinde işlem yapmak istediğiniz Excel çalışma kitabını yüklememiz gerekiyor.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleCreatePdfBookmarkEntryForChartSheet.xlsx");
 ```
- Burada bir örnek oluşturuyoruz`Workbook` sınıf, örnek Excel dosyamızı yüklüyor. Dosya adının gerçek dosyanızla eşleştiğinden emin olun.
+Burada bir örnek oluşturuyoruz `Workbook` sınıf, örnek Excel dosyamızı yüklüyor. Dosya adının gerçek dosyanızla eşleştiğinden emin olun.
 ## Adım 3: Çalışma Sayfalarına Erişim
 Çalışma kitabı yüklendikten sonra çalışma sayfalarına erişebilirsiniz. 
 ```csharp
@@ -81,7 +83,7 @@ PdfBookmarkEntry ent4 = new PdfBookmarkEntry {
     Text = "Bookmark-IV-Chart2"
 };
 ```
- Her biri`PdfBookmarkEntry`nesnenin bir hedef hücresi ve bir metin etiketi vardır. Bu kurulum, Excel sayfalarındaki alanlara karşılık gelen PDF'de yer imleri oluşturacaktır.
+Her biri `PdfBookmarkEntry` nesnenin bir hedef hücresi ve bir metin etiketi vardır. Bu kurulum, Excel sayfalarındaki alanlara karşılık gelen PDF'de yer imleri oluşturacaktır.
 ## Adım 5: Yer İşareti Girişlerini Düzenleyin
 Yer imlerinin hiyerarşik bir yapısını oluşturmak için onları organize etmemiz gerekir.
 ```csharp
@@ -98,7 +100,7 @@ Bu kod ikinci, üçüncü ve dördüncü yer imlerini ilk yer iminin altına alt
 PdfSaveOptions opts = new PdfSaveOptions();
 opts.Bookmark = ent1;
 ```
- The`PdfSaveOptions` yapılandırma, PDF kaydedildiğinde yer imleri eklememize olanak tanır.
+The `PdfSaveOptions` yapılandırma, PDF kaydedildiğinde yer imleri eklememize olanak tanır.
 ## Adım 7: Çıktı PDF'ini Kaydedin
 Sonunda çalışmanızı kaydetme zamanı geldi!
 ```csharp
@@ -121,12 +123,14 @@ Evet, yer imlerinin hedefini çalışma sayfanızdaki herhangi bir hücre olarak
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
 Aspose.Cells ücretsiz deneme sürümü sunsa da, üretimde tam işlevsellik için ücretli lisans gerekiyor.
 ### Dörtten fazla sayfa için yer imi oluşturabilir miyim?
-Kesinlikle! Koddaki benzer yapıyı takip ederek istediğiniz kadar sayfa için yer imi oluşturabilirsiniz.
+Kesinlikle! Koddaki benzer yapıyı izleyerek istediğiniz kadar sayfa için yer imi oluşturabilirsiniz.
 ### Daha fazla yardımı nerede bulabilirim?
- Şunu kontrol edebilirsiniz:[Aspose topluluk destek forumu](https://forum.aspose.com/c/cells/9) Herhangi bir sorun veya sorunuz için.
+Şunu kontrol edebilirsiniz: [Aspose topluluk destek forumu](https://forum.aspose.com/c/cells/9) Herhangi bir sorun veya sorunuz için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

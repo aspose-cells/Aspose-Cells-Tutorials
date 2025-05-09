@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -191,7 +193,7 @@ public class ValidateCellD1 {
 }
 ```
 - **Parametry**:Ten `putValue` metoda aktualizuje zawartość komórki, podczas gdy `getValidationValue()` sprawdza jego ważność.
-- **Zamiar**: Upewnij się, że wartości wprowadzone w polu „D1” mieszczą się w dozwolonym zakresie.
+- **Zamiar**: Upewnij się, że wartości wpisane w polu „D1” mieszczą się w dozwolonym zakresie.
 
 ## Zastosowania praktyczne
 Walidacja komórek nie służy jedynie do zapewnienia podstawowej integralności danych; ma ona szerokie zastosowanie praktyczne:
@@ -211,6 +213,9 @@ Podczas pracy z dużymi plikami Excela lub złożonymi regułami walidacji wydaj
 - Stwórz profil swojej aplikacji, aby zidentyfikować wąskie gardła i odpowiednio ją zoptymalizować.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # وظائف Excel الأساسية
@@ -48,9 +50,11 @@
 اكتشف أسرار دوال النصوص في Excel مع Aspose.Cells لجافا. تعلم كيفية معالجة النصوص واستخراجها وتحويلها في Excel بسهولة.
 ### [دروس حول وظائف التاريخ في Excel](./excel-date-functions-tutorial/)
 تعلّم دوال البيانات في Excel باستخدام Aspose.Cells في Java. استكشف الدروس التعليمية خطوة بخطوة مع الكود المصدري.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

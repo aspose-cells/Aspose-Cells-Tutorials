@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Cómo implementar un rango con nombre y alcance de libro de trabajo usando Aspose.Cells Java
+# Cómo implementar un rango con nombre con alcance de libro de trabajo usando Aspose.Cells Java
 
 ## Introducción
 
@@ -54,7 +56,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Adquisición de licencias
 
 Para utilizar Aspose.Cells, comience con una prueba gratuita o compre una licencia:
-- **Prueba gratuita**: Obtenga su licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
+- **Prueba gratuita**:Obtenga su licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 - **Compra**:Compra una licencia permanente en [Compra de Aspose](https://purchase.aspose.com/buy).
 
 Después de configurar su entorno y obtener la licencia necesaria, inicialice Aspose.Cells en su proyecto.
@@ -86,7 +88,7 @@ Worksheet sheet = worksheets.get(0);
 ```
 Aquí, accedemos a la primera hoja de trabajo para demostrar la creación de rango.
 
-#### Paso 3: Crear un rango y establecer un nombre
+#### Paso 3: Crear un rango y un nombre de conjunto
 
 A continuación, cree un rango con nombre dentro de las celdas seleccionadas. Este ejemplo crea un rango de A1 a C10:
 ```java
@@ -149,6 +151,9 @@ A5: Asegúrese de que los nombres de rango sean únicos y válidos en todo el li
 Para obtener más información, explore los recursos disponibles en [Descargas de Aspose](https://releases.aspose.com/cells/java/) y considere obtener una licencia temporal para tener acceso a todas las funciones.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

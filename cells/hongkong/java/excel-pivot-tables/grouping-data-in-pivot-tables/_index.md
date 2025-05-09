@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在資料透視表中分組數據
@@ -108,9 +110,11 @@ Excel 中的資料透視表用於匯總和分析大型資料集。它們允許�
 ### 3. 我可以使用 Aspose.Cells for Java 自動建立資料透視表嗎？
 
 是的，您可以使用 Aspose.Cells for Java 自動在 Excel 中建立資料透視表，如提供的原始程式碼範例所示。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

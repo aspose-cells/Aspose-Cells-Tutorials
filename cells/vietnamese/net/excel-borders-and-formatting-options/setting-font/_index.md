@@ -1,24 +1,26 @@
 ---
-title: Thiết lập Font chữ theo chương trình trong Excel
-linktitle: Thiết lập Font chữ theo chương trình trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập phông chữ theo chương trình trong Excel bằng Aspose.Cells cho .NET. Nâng cao bảng tính của bạn bằng phông chữ thời trang.
-weight: 11
-url: /vi/net/excel-borders-and-formatting-options/setting-font/
+"description": "Tìm hiểu cách thiết lập phông chữ theo chương trình trong Excel bằng Aspose.Cells cho .NET. Nâng cao bảng tính của bạn bằng phông chữ thời trang."
+"linktitle": "Thiết lập phông chữ theo chương trình trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập phông chữ theo chương trình trong Excel"
+"url": "/vi/net/excel-borders-and-formatting-options/setting-font/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thiết lập Font chữ theo chương trình trong Excel
+# Thiết lập phông chữ theo chương trình trong Excel
 
 ## Giới thiệu
 Bạn đang muốn thao tác các tệp Excel một cách tinh tế? Bạn đã đến đúng nơi rồi! Aspose.Cells for .NET là một thư viện đặc biệt cho phép các nhà phát triển làm việc với các bảng tính Excel một cách dễ dàng. Một tác vụ phổ biến trong Excel là điều chỉnh kiểu phông chữ của một số ô nhất định, đặc biệt là khi bạn đang xử lý định dạng có điều kiện. Hãy tưởng tượng bạn có thể tự động làm nổi bật dữ liệu quan trọng, giúp báo cáo của bạn không chỉ có chức năng mà còn hấp dẫn về mặt thị giác. Nghe có vẻ tuyệt vời, phải không? Hãy cùng tìm hiểu cách bạn có thể thiết lập kiểu phông chữ theo chương trình bằng Aspose.Cells for .NET.
 ## Điều kiện tiên quyết
 Trước khi bắt tay vào viết mã, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần:
 1. Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio (khuyến nghị phiên bản 2017 trở lên).
-2.  Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang web Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Nếu bạn chưa tải xuống, hãy tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống từ [Trang web Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ hữu ích vì chúng ta sẽ viết mã bằng ngôn ngữ này.
 4. .NET Framework: Đảm bảo bạn đã cài đặt phiên bản .NET Framework tương thích.
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng bắt đầu viết mã!
@@ -40,15 +42,15 @@ Trước tiên, bạn cần xác định thư mục nơi bạn muốn lưu tệp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế trên hệ thống của bạn. Điều này có thể giống như`@"C:\Documents\"` nếu bạn đang làm việc trên Windows.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế trên hệ thống của bạn. Điều này có thể giống như `@"C:\Documents\"` nếu bạn đang làm việc trên Windows.
 ## Bước 2: Khởi tạo một đối tượng Workbook
- Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tạo một sổ làm việc mới. Hãy nghĩ đến`Workbook` đối tượng như một khung vẽ trống nơi bạn sẽ tô màu dữ liệu của mình. Sau đây là cách khởi tạo nó:
+Bây giờ chúng ta đã thiết lập xong thư mục, đã đến lúc tạo một sổ làm việc mới. Hãy nghĩ đến `Workbook` đối tượng như một khung vẽ trống nơi bạn sẽ tô màu dữ liệu của mình. Sau đây là cách khởi tạo nó:
 ```csharp
 // Khởi tạo một đối tượng Workbook
 Workbook workbook = new Workbook();
 ```
 ## Bước 3: Truy cập vào trang tính đầu tiên
- Tiếp theo, chúng ta cần truy cập vào trang tính nơi chúng ta sẽ áp dụng định dạng của mình. Trong một sổ làm việc mới, trang tính đầu tiên thường nằm ở mục lục`0`. Sau đây là cách bạn có thể thực hiện điều đó:
+Tiếp theo, chúng ta cần truy cập vào trang tính nơi chúng ta sẽ áp dụng định dạng của mình. Trong một sổ làm việc mới, trang tính đầu tiên thường nằm ở mục lục `0`. Sau đây là cách bạn có thể thực hiện điều đó:
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
 ```
@@ -92,12 +94,12 @@ fc.Style.Font.Underline = FontUnderlineType.Double;
 fc.Style.Font.Color = Color.Black;
 ```
 Hãy thoải mái thử nghiệm những phong cách này! Có thể bạn muốn một nền sáng hoặc màu sắc khác? Hãy thử xem!
-## Bước 8: Lưu Workbook
+## Bước 8: Lưu sổ làm việc
 Cuối cùng, sau khi bạn đã hoàn thành tất cả công việc khó khăn này, đừng quên lưu kiệt tác của bạn! Sau đây là cách bạn có thể lưu sổ làm việc của mình:
 ```csharp
 workbook.Save(dataDir + "output.xlsx");
 ```
- Dòng này lưu tệp Excel của bạn dưới dạng`output.xlsx` trong thư mục được chỉ định. Hãy đảm bảo bạn có quyền ghi ở vị trí đó!
+Dòng này lưu tệp Excel của bạn dưới dạng `output.xlsx` trong thư mục được chỉ định. Hãy đảm bảo bạn có quyền ghi ở vị trí đó!
 ## Phần kết luận
 Và bạn đã có nó! Bạn vừa học cách thiết lập kiểu phông chữ theo chương trình trong Excel bằng Aspose.Cells cho .NET. Từ việc xác định thư mục tài liệu của bạn đến áp dụng định dạng có điều kiện và cuối cùng là lưu công việc của bạn, giờ đây bạn đã có các công cụ để làm cho các tệp Excel của mình hấp dẫn về mặt hình ảnh và chức năng.
 Cho dù bạn đang tạo báo cáo, tự động hóa tác vụ hay tạo bảng thông tin, việc thành thạo nghệ thuật chỉnh sửa phông chữ có thể nâng cấp bảng tính của bạn từ cơ bản lên đẹp mắt.
@@ -107,14 +109,16 @@ Hoàn toàn có thể! Bạn có thể thêm nhiều điều kiện và chỉ đ
 ### Tôi có thể sử dụng những loại điều kiện nào trong định dạng có điều kiện?  
 Bạn có thể sử dụng nhiều loại điều kiện khác nhau, bao gồm giá trị ô, công thức, v.v. Aspose.Cells cung cấp nhiều tùy chọn phong phú.
 ### Aspose.Cells có miễn phí sử dụng không?  
- Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí với thời gian dùng thử có hạn[đây](https://releases.aspose.com/).
+Aspose.Cells là một sản phẩm thương mại, nhưng bạn có thể dùng thử miễn phí với thời gian dùng thử có hạn [đây](https://releases.aspose.com/).
 ### Tôi có thể định dạng toàn bộ một hàng dựa trên giá trị của một ô không?  
-Có! Bạn có thể thiết lập định dạng cho toàn bộ hàng hoặc cột dựa trên giá trị của một ô cụ thể bằng cách sử dụng định dạng có điều kiện.
+Có! Bạn có thể thiết lập định dạng cho toàn bộ một hàng hoặc cột dựa trên giá trị của một ô cụ thể bằng cách sử dụng định dạng có điều kiện.
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?  
- Bạn có thể tìm thấy tài liệu và nguồn tài nguyên mở rộng trên[Trang tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu và nguồn tài nguyên mở rộng trên [Trang tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ Per iniziare, scarica e aggiungi la libreria Aspose.Cells al tuo progetto utiliz
 
 Aspose offre diverse opzioni di licenza:
 - **Prova gratuita**: Prova le funzionalità complete per 30 giorni.
-- **Licenza temporanea**: Ottieni una licenza temporanea per una valutazione estesa.
+- **Licenza temporanea**Ottieni una licenza temporanea per una valutazione estesa.
 - **Acquista licenza**: Acquisisci una licenza permanente per un utilizzo illimitato.
 
 Visita [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy) per saperne di più sulle opzioni di licenza.
@@ -198,6 +200,9 @@ prossimi passi includono l'esplorazione di funzionalità aggiuntive di Aspose.Ce
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells per Java e scopri tutte le potenzialità dell'elaborazione dei file Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

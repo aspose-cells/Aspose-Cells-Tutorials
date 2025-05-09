@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -108,7 +110,7 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B); // 접근성 표준 준수를 보장합니다
 ```
 
-- **PDF/A 규정을 준수해야 하는 이유는 무엇입니까?** 그만큼 `PDF/A` 표준은 문서가 독립적이고 시간이 지나도 접근이 가능함을 보장하며, 보관 목적으로 매우 중요합니다.
+- **PDF/A 규정을 준수해야 하는 이유는 무엇입니까?** 그만큼 `PDF/A` 표준은 문서가 독립적으로 유지되고 시간이 지나도 접근이 가능하도록 보장하며, 보관 목적으로 매우 중요합니다.
 
 ### 통합 문서를 접근 가능한 PDF로 저장
 
@@ -174,6 +176,9 @@ Excel을 접근 가능한 PDF로 변환하는 것이 매우 중요한 실제 시
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

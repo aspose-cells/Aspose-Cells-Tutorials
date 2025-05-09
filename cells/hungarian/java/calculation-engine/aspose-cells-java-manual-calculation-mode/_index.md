@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Fedezze fel az Aspose.Cells további funkcióit, például az automatizált jele
 Ez az oktatóanyag felvértezi Önt az Aspose.Cells Java-ban történő képletszámítások hatékony kezeléséhez szükséges ismeretekkel és eszközökkel. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Excelファイルには複数のシートが含まれている場合がありま
 WorksheetCollection sheets = workbook.getWorksheets();
 ```
 
-#### ステップ3: 目的のシートを選択する
+#### ステップ3：目的のシートを選択する
 変更したいワークシートを選択します。通常は最初のシート（`index 0`）。
 
 ```java
@@ -102,7 +104,7 @@ WorksheetCollection sheets = workbook.getWorksheets();
 Worksheet sheet = sheets.get(0);
 ```
 
-#### ステップ4：空白の列を削除する
+#### ステップ4: 空白の列を削除する
 活用する `deleteBlankColumns()` 選択したワークシート内のすべての空白の列を削除する方法。
 
 ```java
@@ -162,6 +164,9 @@ workbook.save(dataDir + "DBlankColumns_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

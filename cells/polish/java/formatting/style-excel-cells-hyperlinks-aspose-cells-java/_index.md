@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ O: Tak, Aspose.Cells obsługuje szeroką gamę funkcji programu Excel, co pozwal
 Teraz, gdy masz już wszystkie informacje i zasoby, możesz zacząć tworzyć dynamiczne pliki Excela za pomocą Aspose.Cells w Javie!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

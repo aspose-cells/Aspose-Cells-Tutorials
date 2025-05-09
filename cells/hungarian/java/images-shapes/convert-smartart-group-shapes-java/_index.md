@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ public class AccessShape {
         // Töltse be a minta smart art alakzatot - Excel fájl
         Workbook wb = new Workbook(dataDir + "sampleSmartArtShape_GetResultOfSmartArt.xlsx");
 
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
 
         // A munkalap első alakzatának lekérése és elérése
@@ -162,7 +164,7 @@ public class IsSmartArtShape {
         // Töltse be a minta smart art alakzatot - Excel fájl
         Workbook wb = new Workbook(dataDir + "sampleSmartArtShape_GetResultOfSmartArt.xlsx");
 
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
 
         // A munkalap első alakzatának lekérése és elérése
@@ -191,7 +193,7 @@ public class ConvertToGroupShape {
         // Töltse be a minta smart art alakzatot - Excel fájl
         Workbook wb = new Workbook(dataDir + "sampleSmartArtShape_GetResultOfSmartArt.xlsx");
 
-        // munkafüzet első munkalapjának elérése
+        // A munkafüzet első munkalapjának elérése
         Worksheet ws = wb.getWorksheets().get(0);
 
         // A munkalap első alakzatának lekérése és elérése
@@ -222,6 +224,9 @@ Nagy Excel-fájlokkal vagy többszörös konverziókkal való munka esetén:
 Az útmutató követésével hatékonyan kezelheti és konvertálhatja a SmartArt grafikákat Excelben Java használatával az Aspose.Cells segítségével. Ez a készség jelentősen javítja az összetett feladatok automatizálásának képességét Excel dokumentumokon belül.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/size-and-spacing-customization/setting-column-width/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Column Width in Pixels with Aspose.Cells for .NET
@@ -93,6 +95,7 @@ If you save changes to a new file, the original will remain unchanged. Always ke
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

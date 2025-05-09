@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Per dare il via al tuo percorso con Aspose.Cells per Java, segui questi passaggi
 
 1. **Aggiungi dipendenze:** Per includere Aspose.Cells nel tuo progetto, utilizza Maven o Gradle come mostrato sopra.
 2. **Acquisizione della licenza:**
-   - Ottieni un [licenza di prova gratuita](https://releases.aspose.com/cells/java/) a fini di valutazione.
+   - Ottieni un [licenza di prova gratuita](https://releases.aspose.com/cells/java/) fini di valutazione.
    - Per un uso prolungato, prendere in considerazione la richiesta di un [licenza temporanea](https://purchase.aspose.com/temporary-license/).
    - Acquista il prodotto tramite [Pagina di acquisto di Aspose](https://purchase.aspose.com/buy) per la piena funzionalità.
 
@@ -159,7 +161,7 @@ Pronti a implementare queste strategie nei vostri progetti? Iniziate oggi stesso
 2. **Come gestisco la memoria quando utilizzo Aspose.Cells?**
    - Chiama sempre il `dispose()` metodo dopo aver completato le operazioni della cartella di lavoro per liberare risorse.
 3. **Posso utilizzare Aspose.Cells senza acquistare una licenza?**
-   - Sì, puoi iniziare con un [prova gratuita](https://releases.aspose.com/cells/java/) a fini di valutazione.
+   - Sì, puoi iniziare con un [prova gratuita](https://releases.aspose.com/cells/java/) fini di valutazione.
 4. **Quali sono alcuni problemi comuni quando si utilizza Aspose.Cells?**
    - Le sfide più comuni riguardano la gestione della memoria e le perdite di risorse, che possono essere mitigate mediante l'eliminazione corretta delle istanze delle cartelle di lavoro.
 5. **Come posso integrare Aspose.Cells con altre applicazioni Java?**
@@ -178,6 +180,9 @@ Inizia subito a implementare queste tecniche nei tuoi progetti e scopri i vantag
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

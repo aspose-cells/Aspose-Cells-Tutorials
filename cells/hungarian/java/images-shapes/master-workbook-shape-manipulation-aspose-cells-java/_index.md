@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Bevezetés
 
-Szeretné automatizálni az Excel-feladatokat, vagy integrálni a táblázatkezelő funkciókat a Java-alkalmazásaiba? **Aspose.Cells Java-hoz** lehetővé teszi Excel-fájlok programozott létrehozását, módosítását és kezelését. Ez a hatékony függvénykönyvtár leegyszerűsíti az összetett műveleteket, és robusztus funkciókat kínál, mint például a munkafüzetek létrehozása és az alakzatok kezelése. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan sajátíthatja el ezeket a képességeket az Aspose.Cells for Java használatával.
+Szeretné automatizálni az Excel-feladatokat, vagy integrálni a táblázatkezelő funkciókat Java-alkalmazásaiba? **Aspose.Cells Java-hoz** lehetővé teszi Excel-fájlok programozott létrehozását, módosítását és kezelését. Ez a hatékony függvénykönyvtár leegyszerűsíti az összetett műveleteket, és robusztus funkciókat kínál, mint például a munkafüzetek létrehozása és az alakzatok kezelése. Ebben az oktatóanyagban azt vizsgáljuk meg, hogyan sajátíthatja el ezeket a képességeket az Aspose.Cells for Java használatával.
 
 **Amit tanulni fogsz:**
 - Hogyan lehet egy új munkafüzetet példányosítani Java-ban?
@@ -203,6 +205,9 @@ Készen állsz arra, hogy Java-alapú Excel automatizálási készségeidet a k�
 - [Licenc vásárlása](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

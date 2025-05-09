@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Excelファイルで大規模なデータセットを管理するのは容易で
 - Excel ブックを初期化して読み込みます。
 - ワークシートにアクセスし、自動フィルターの範囲を設定します。
 - 特定の基準でカスタム フィルターを適用します。
-- 変更されたワークブックを効率的に保存します。
+- 変更されたブックを効率的に保存します。
 
 このステップバイステップガイドでは、初心者でもAspose.Cells for Javaを使ってExcelのデータフィルタリングタスクを自動化できます。ワークフローを効率化する方法を学びましょう！
 
@@ -182,7 +184,7 @@ Aspose.Cells をデータベースやクラウド ストレージなどの他の
 ## FAQセクション
 
 **Q: Aspose.Cells で大きな Excel ファイルを処理するにはどうすればよいでしょうか?**
-A: データをバッチで処理し、未使用のオブジェクトを破棄してメモリ使用量を最適化します。
+A: データをバッチで処理し、未使用のオブジェクトを破棄することでメモリ使用量を最適化します。
 
 **Q: Aspose.Cells は Excel 以外のファイル形式でも使用できますか?**
 A: はい、Aspose は CSV、ODS など複数のスプレッドシート形式をサポートしています。
@@ -208,6 +210,9 @@ A: はい、複数の JDK バージョンをサポートしています。ライ
 今すぐ Aspose.Cells for Java のパワーを活用して、Excel データ操作タスクを強化しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

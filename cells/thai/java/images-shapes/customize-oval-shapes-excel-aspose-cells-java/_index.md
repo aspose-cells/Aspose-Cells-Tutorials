@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A: ตรวจสอบรูปแบบการใช้หน่วยค�
 เมื่อทำตามคำแนะนำนี้แล้ว คุณจะพร้อมเพิ่มประสิทธิภาพสเปรดชีต Excel ของคุณด้วยรูปร่างที่กำหนดเองโดยใช้ Aspose.Cells สำหรับ Java ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

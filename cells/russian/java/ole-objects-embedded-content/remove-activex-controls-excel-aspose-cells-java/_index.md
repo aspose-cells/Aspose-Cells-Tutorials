@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@
 - Как загрузить книгу Excel в Java
 - Доступ к фигурам и управление ими на рабочем листе
 - Удаление элементов управления ActiveX из книги
-- Сохранение измененной книги
+- Сохранение измененной рабочей книги
 
 Готовы ли вы оптимизировать управление файлами Excel с помощью Aspose.Cells Java? Давайте рассмотрим предварительные требования и начнем!
 
@@ -30,7 +32,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть следующие настройки:
 
-**Требуемые библиотеки:**
+**Необходимые библиотеки:**
 - Aspose.Cells для Java версии 25.3 или более поздней.
 
 **Настройка среды:**
@@ -190,6 +192,9 @@ workbook.save(outDir + "/RemoveActiveXControl_out.xlsx", SaveFormat.XLSX);
 Начните свое путешествие с Aspose.Cells Java сегодня и раскройте весь потенциал обработки файлов Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

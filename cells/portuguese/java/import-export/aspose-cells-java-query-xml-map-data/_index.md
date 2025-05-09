@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Ao dominar a biblioteca Aspose.Cells para consultar dados de mapas XML no Excel,
 Seguindo este tutorial, você estará bem equipado para aproveitar o poder do Aspose.Cells para Java na consulta de dados de mapas XML em arquivos Excel. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

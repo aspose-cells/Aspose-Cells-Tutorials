@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
-"description": "Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t Excel munkafüzetek betöltéséhez és a munkalapok jelszavainak hatékony ellenőrzéséhez. Lépésről lépésre útmutatónkkal méltányold az adatbiztonságot."
+"description": "Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t Excel munkafüzetek betöltéséhez és a munkalapok jelszavainak hatékony ellenőrzéséhez. Lépésről lépésre útmutatónkkal sajátítsd el az adatbiztonságot."
 "title": "Aspose.Cells Java&#58; Biztonságosan tölti be és ellenőrzi az Excel-táblázatok jelszavait"
 "url": "/hu/java/security-protection/aspose-cells-java-load-verify-excel-sheets-passwords/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,6 +161,9 @@ Az útmutató követésével megtanultad, hogyan tölthetsz be egy Excel-munkaf�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

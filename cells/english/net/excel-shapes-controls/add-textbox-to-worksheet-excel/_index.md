@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-textbox-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add a TextBox to Worksheet in Excel
@@ -160,6 +162,7 @@ While you can use a free trial version, to access full functionality, you will n
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

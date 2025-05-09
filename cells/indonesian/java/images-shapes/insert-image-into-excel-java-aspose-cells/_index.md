@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Memasukkan Gambar ke Excel Menggunakan Java dan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
-Perlu mengotomatiskan penyisipan gambar ke dalam berkas Excel tanpa intervensi manual? Panduan ini akan menunjukkan caranya, menggunakan "Aspose.Cells for Java," pustaka canggih yang menyederhanakan tugas-tugas rumit. Baik mengotomatiskan laporan atau mengintegrasikan fitur visualisasi data, menguasai penyisipan gambar di Excel dapat menghemat waktu dan meningkatkan produktivitas.
+Perlu mengotomatiskan penyisipan gambar ke dalam berkas Excel tanpa intervensi manual? Panduan ini akan menunjukkan kepada Anda caranya, menggunakan "Aspose.Cells for Java," pustaka canggih yang menyederhanakan tugas-tugas rumit. Baik mengotomatiskan laporan atau mengintegrasikan fitur visualisasi data, menguasai penyisipan gambar di Excel dapat menghemat waktu dan meningkatkan produktivitas.
 
-Dalam tutorial ini, Anda akan mempelajari:
+Ebben az oktatóanyagban a következőket fogod megtanulni:
 - Cara mengunduh gambar dari URL
 - Membuat dan memanipulasi buku kerja dengan Aspose.Cells untuk Java
 - Sisipkan gambar ke dalam sel tertentu dalam lembar kerja
@@ -25,11 +27,11 @@ Dalam tutorial ini, Anda akan mempelajari:
 
 Di akhir panduan ini, Anda akan mampu mengintegrasikan gambar ke dalam file Excel menggunakan Java. Mari kita bahas prasyarat yang diperlukan untuk memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi.
-- **Aspose.Cells untuk Java**: Unduh dari [Asumsikan](https://releases.aspose.com/cells/java/).
+- **Aspose.Cells untuk Java**Letöltés innen: [Aspose](https://releases.aspose.com/cells/java/).
 - IDE seperti IntelliJ IDEA atau Eclipse.
 
 Pengetahuan dasar tentang pemrograman Java dan pemahaman operasi I/O akan sangat bermanfaat. Mari kita siapkan Aspose.Cells di lingkungan proyek Anda sekarang.
@@ -48,19 +50,19 @@ Tambahkan dependensi berikut ke `pom.xml`:
 ```
 
 ### Instalasi Gradle
-Untuk Gradle, sertakan ini di `build.gradle` mengajukan:
+Untuk Gradle, sertakan ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh. Anda dapat:
-- **Uji Coba Gratis**: Unduh versi evaluasi untuk menguji fitur.
-- **Lisensi Sementara**: Minta lisensi sementara dari [Di Sini](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**: Beli lisensi jika Anda perlu menggunakan Aspose.Cells tanpa batasan.
+- **Ingyenes próbaverzió**: Unduh versi evaluasi untuk menguji fitur.
+- **Ideiglenes engedély**: Minta lisensi sementara dari [itt](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás**: Beli lisensi jika Anda perlu menggunakan Aspose.Cells tanpa batasan.
 
-### Inisialisasi
+### Inicializálás
 Berikut cara menginisialisasi dan menyiapkan lingkungan Anda:
 
 ```java
@@ -77,13 +79,13 @@ public class InitializeAspose {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan menguraikan setiap fitur langkah demi langkah.
 
 ### Mengunduh Gambar dari URL
 
-**Ringkasan**:Kita akan mengunduh gambar menggunakan Java `URL` Dan `BufferedInputStream`.
+**Áttekintés**:Kita akan mengunduh gambar menggunakan Java `URL` és `BufferedInputStream`.
 
 #### Langkah 1: Tentukan URL Gambar
 ```java
@@ -102,11 +104,11 @@ public class DownloadImageFromURL {
 }
 ```
 
-**Penjelasan**:Kami menggunakan `URL` untuk menghubungkan dan `BufferedInputStream` untuk transfer data yang efisien.
+**Magyarázat**:Kami menggunakan `URL` untuk menghubungkan dan `BufferedInputStream` untuk transfer data yang efisien.
 
-### Membuat Buku Kerja Baru
+### Új munkafüzet létrehozása
 
-**Ringkasan**: Buat buku kerja Excel dengan Aspose.Cells.
+**Áttekintés**: Buat buku kerja Excel dengan Aspose.Cells.
 
 #### Langkah 1: Membuat Instansiasi Objek Buku Kerja
 ```java
@@ -114,17 +116,17 @@ import com.aspose.cells.Workbook;
 
 public class CreateNewWorkbook {
     public static void main(String[] args) throws Exception {
-        // Buat contoh buku kerja baru
+        // Új munkafüzet-példány létrehozása
         Workbook book = new Workbook();
     }
 }
 ```
 
-**Penjelasan**: A `Workbook` Objek tersebut merepresentasikan berkas Excel, sehingga Anda dapat memanipulasinya sesuai kebutuhan.
+**Magyarázat**: A `Workbook` Objek tersebut merepresentasikan berkas Excel, sehingga Anda dapat memanipulasinya sesuai kebutuhan.
 
-### Mengakses Lembar Kerja dari Buku Kerja
+### Munkalap elérése munkafüzetből
 
-**Ringkasan**: Ambil lembar kerja pertama di buku kerja Anda.
+**Áttekintés**: Ambil lembar kerja pertama di buku kerja Anda.
 
 #### Langkah 1: Dapatkan Lembar Kerja Pertama
 ```java
@@ -133,7 +135,7 @@ import com.aspose.cells.Worksheet;
 
 public class AccessWorksheet {
     public static void main(String[] args) throws Exception {
-        // Membuat instance objek Buku Kerja baru
+        // Új Workbook objektum példányosítása
         Workbook book = new Workbook();
         
         // Ambil lembar kerja pertama
@@ -142,13 +144,13 @@ public class AccessWorksheet {
 }
 ```
 
-**Penjelasan**: Lembar kerja diakses melalui `getSheets()`, dan kami menggunakan pengindeksan berbasis nol untuk mendapatkan yang pertama.
+**Magyarázat**: Lembar kerja diakses melalui `getSheets()`, dan kami menggunakan pengindeksan berbasis nol untuk mendapatkan yang pertama.
 
 ### Memasukkan Gambar ke dalam Lembar Kerja
 
-**Ringkasan**: Tambahkan gambar dari InputStream ke sel tertentu di lembar kerja.
+**Áttekintés**: Tambahkan gambar dari InputStream ke sel tertentu di lembar kerja.
 
-#### Langkah 1: Buat Buku Kerja Baru
+#### 1. lépés: Új munkafüzet létrehozása
 ```java
 import com.aspose.cells.PictureCollection;
 import com.aspose.cells.Worksheet;
@@ -171,11 +173,11 @@ public class InsertImageIntoWorksheet {
 }
 ```
 
-**Penjelasan**: Menggunakan `PictureCollection` untuk mengelola gambar. Metode `add(rowIndex, columnIndex, inputStream)` menyisipkan gambar pada posisi yang ditentukan.
+**Magyarázat**Használat `PictureCollection` untuk mengelola gambar. Metode `add(rowIndex, columnIndex, inputStream)` menyisipkan gambar pada posisi yang ditentukan.
 
 ### Menyimpan Buku Kerja ke File Excel
 
-**Ringkasan**: Simpan buku kerja Anda dengan semua perubahan sebagai file Excel.
+**Áttekintés**: Simpan buku kerja Anda dengan semua perubahan sebagai file Excel.
 
 #### Langkah 1: Tentukan Jalur Output dan Simpan
 ```java
@@ -195,29 +197,29 @@ public class SaveWorkbook {
 }
 ```
 
-**Penjelasan**: : Itu `save()` metode menulis buku kerja ke disk, mempertahankan semua data dan gambar.
+**Magyarázat**A `save()` metode menulis buku kerja ke disk, mempertahankan semua data dan gambar.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pembuatan Laporan Otomatis**: Secara otomatis memasukkan bagan atau logo dalam laporan.
-2. **Visualisasi Data**: Tingkatkan lembar kerja dengan representasi data secara grafis.
+1. **Automatizált jelentéskészítés**: Secara otomatis memasukkan bagan atau logo dalam laporan.
+2. **Adatvizualizáció**: Tingkatkan lembar kerja dengan representasi data secara grafis.
 3. **Pembuatan Faktur**: Tambahkan logo perusahaan dan elemen merek ke faktur.
-4. **Materi Pendidikan**: Sematkan diagram dan ilustrasi dalam lembar kerja pendidikan.
-5. **Manajemen Inventaris**: Gunakan gambar untuk identifikasi produk.
+4. **Oktatási anyagok**: Sematkan diagram dan ilustrasi dalam lembar kerja pendidikan.
+5. **Készletgazdálkodás**: Gunakan gambar untuk identifikasi produk.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Manajemen Memori**Pastikan penggunaan memori yang efisien dengan menutup aliran dengan benar setelah penggunaan.
-- **Pemrosesan Batch**: Untuk kumpulan data besar, proses gambar secara batch guna mencegah habisnya sumber daya.
+- **Memóriakezelés**Pastikan penggunaan memori yang efisien dengan menutup aliran dengan benar setelah penggunaan.
+- **Kötegelt feldolgozás**: Untuk kumpulan data besar, proses gambar secara batch guna mencegah habisnya sumber daya.
 - **Optimasi Ukuran Gambar**: Ubah ukuran atau kompres gambar sebelum penyisipan untuk mengurangi ukuran file dan meningkatkan kinerja.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara mengintegrasikan gambar ke dalam berkas Excel menggunakan Aspose.Cells untuk Java. Tutorial ini mencakup pengunduhan gambar, pembuatan buku kerja, akses lembar kerja, penyisipan gambar, dan penyimpanan buku kerja Anda. Jelajahi lebih jauh dengan bereksperimen dengan fitur-fitur tambahan yang ditawarkan oleh Aspose.Cells.
 
 Langkah selanjutnya dapat melibatkan penjelajahan operasi yang lebih kompleks seperti memformat sel atau mengintegrasikan dengan basis data.
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Dapatkah saya menyisipkan beberapa gambar ke dalam lembar kerja?**
 A1: Ya, gunakan `pictures.add()` berulang kali untuk posisi yang berbeda.
@@ -235,6 +237,9 @@ A4: Pastikan jalur direktori ada dan memiliki izin menulis yang sesuai.
 A5: Ya, ini mendukung berbagai format termasuk JPEG, PNG, BMP, GIF, dan lainnya.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

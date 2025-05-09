@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ฟังก์ชันพื้นฐานของ Excel
@@ -48,9 +50,11 @@
 ปลดล็อกความลับของฟังก์ชันข้อความใน Excel ด้วย Aspose.Cells สำหรับ Java เรียนรู้การจัดการ แยก และแปลงข้อความใน Excel ได้อย่างง่ายดาย
 ### [บทช่วยสอนเกี่ยวกับฟังก์ชันวันที่ของ Excel](./excel-date-functions-tutorial/)
 เรียนรู้ฟังก์ชันวันที่ของ Excel โดยใช้ Aspose.Cells สำหรับ Java สำรวจบทช่วยสอนแบบทีละขั้นตอนพร้อมโค้ดต้นฉบับ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

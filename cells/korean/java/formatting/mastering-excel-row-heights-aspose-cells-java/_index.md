@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Excel 파일에서 프로그래밍 방식으로 행 높이를 조정하는 데 �
 ### 배울 내용:
 - Excel 워크시트에서 균일한 행 높이를 설정하는 방법
 - Aspose.Cells 환경 초기화 및 구성
-- 행 높이 조정의 실제 적용
+- 행 높이 조정의 실제 응용 프로그램
 
 이 가이드를 따라 하면 Excel 행 높이 관리와 관련된 모든 문제를 해결하는 데 도움이 될 것입니다. 먼저 이 튜토리얼에 필요한 전제 조건을 살펴보겠습니다.
 
@@ -137,7 +139,7 @@ workbook.save(outDir + "SettingHeightAllRows_out.xls");
 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Excel 워크시트에서 행 높이를 설정하는 방법을 알아보았습니다. 이 기능을 사용하면 스프레드시트의 표현과 사용성이 크게 향상될 수 있습니다.
 
 ### 다음 단계
-다른 Aspose.Cells 기능을 사용하여 스프레드시트 작업을 더욱 자동화하고 최적화해 보세요. 더 고급 기능에 대한 자세한 내용은 관련 문서를 참조하세요!
+다른 Aspose.Cells 기능을 사용하여 스프레드시트 작업을 더욱 자동화하고 최적화해 보세요. 더 고급 기능을 원하시면 관련 문서를 자세히 살펴보세요!
 
 ## FAQ 섹션
 1. **각 행 높이를 어떻게 설정합니까?**
@@ -160,6 +162,9 @@ workbook.save(outDir + "SettingHeightAllRows_out.xls");
 - **지원하다**: [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

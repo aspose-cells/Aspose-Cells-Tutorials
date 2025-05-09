@@ -8,7 +8,9 @@ url: /net/excel-working-with-named-ranges/access-specific-named-range/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Specific Named Range in Excel
@@ -69,6 +71,7 @@ You can find support for Aspose.Cells in the [Aspose forum](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,23 +1,25 @@
 ---
-title: Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells
-linktitle: Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak tworzyć zakładki PDF do arkuszy wykresów w Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
-weight: 13
-url: /pl/net/rendering-and-export/create-pdf-bookmark-entry-for-chart-sheet/
+"description": "Dowiedz się, jak tworzyć zakładki PDF do arkuszy wykresów w Aspose.Cells dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku."
+"linktitle": "Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells"
+"url": "/pl/net/rendering-and-export/create-pdf-bookmark-entry-for-chart-sheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz zakładkę PDF dla arkusza wykresu w Aspose.Cells
 
 ## Wstęp
-Aspose.Cells dla .NET umożliwia programistom manipulowanie plikami Excel programowo. Jedną z jego przydatnych funkcji jest możliwość tworzenia zakładek PDF dla poszczególnych arkuszy wykresów. Ten samouczek przeprowadzi Cię przez proces krok po kroku, ułatwiając Ci śledzenie, niezależnie od Twojego doświadczenia w programowaniu. Weź swój edytor kodu i zanurzmy się!
+Aspose.Cells dla .NET umożliwia programistom manipulowanie plikami Excela programowo. Jedną z jego przydatnych funkcji jest możliwość tworzenia zakładek PDF dla poszczególnych arkuszy wykresów. Ten samouczek przeprowadzi Cię przez proces krok po kroku, ułatwiając Ci śledzenie, niezależnie od Twojego doświadczenia w programowaniu. Weź swój edytor kodu i zanurzmy się!
 ## Wymagania wstępne
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
-1.  Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Jeśli jeszcze jej nie masz, możesz ją pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells dla .NET: Będziesz potrzebować biblioteki Aspose.Cells. Jeśli jeszcze jej nie masz, możesz ją pobrać z [Tutaj](https://releases.aspose.com/cells/net/).
 2. Visual Studio lub dowolne środowisko IDE .NET: Będziesz potrzebować środowiska programistycznego, w którym będziesz mógł pisać i wykonywać kod C#.
 3. Podstawowa znajomość języka C#: Chociaż przeprowadzimy Cię przez każdy krok, podstawowa znajomość kodowania w języku C# okaże się przydatna.
 4. Przykładowy plik Excela: Zdobądź przykładowy plik Excela zawierający wykresy. Możesz utworzyć go samodzielnie lub użyć przykładowego pliku do tego ćwiczenia.
@@ -25,10 +27,10 @@ Po spełnieniu tych warunków wstępnych możesz z łatwością tworzyć zakład
 ## Importuj pakiety
 Teraz, gdy mamy już wszystkie wymagania wstępne, przejdźmy do kodu. Zanim zaczniesz manipulować plikami Excela, musisz zaimportować niezbędne pakiety. Oto, jak to zrobić:
 ### Skonfiguruj swoje środowisko programistyczne
-1. Utwórz nowy projekt: Otwórz Visual Studio i utwórz nową aplikację konsolową C#. Nazwijmy ją „AsposePDFBookmarkExample”.
+1. Utwórz nowy projekt: Otwórz program Visual Studio i utwórz nową aplikację konsolową C#. Nazwijmy ją „AsposePDFBookmarkExample”.
 2. Dodaj odniesienie do Aspose.Cells: Kliknij prawym przyciskiem myszy swój projekt w Solution Explorer, wybierz „Manage NuGet Packages” i wyszukaj „Aspose.Cells”. Zainstaluj najnowszą wersję.
 3. Dodaj dyrektywy Using:
- W twoim`Program.cs` pliku, dodaj na górze następujące wiersze:
+W twoim `Program.cs` pliku, dodaj na górze następujące wiersze:
 ```csharp
 using System;
 using System.Collections;
@@ -42,16 +44,16 @@ Rozłóżmy kod na części tworzące zakładki PDF. Przejdziemy przez każdą c
 ## Krok 1: Zdefiniuj ścieżki katalogów
 Aby uporządkować kod, określmy lokalizację naszych plików.
 ```csharp
-string sourceDir = "Your Document Directory"; // np. @"C:\Documents\"
+string sourceDir = "Your Document Directory"; // np. @"C:\Dokumenty\"
 string outputDir = "Your Document Directory"; // np. @"C:\Dokumenty\Wyjście\"
 ```
- Zastępować`Your Document Directory` z rzeczywistymi ścieżkami, pod którymi zapisany jest przykładowy plik Excela i gdzie ma zostać zapisany wynikowy plik PDF.
+Zastępować `Your Document Directory` z rzeczywistymi ścieżkami, pod którymi zapisany jest przykładowy plik programu Excel i gdzie ma zostać zapisany wynikowy plik PDF.
 ## Krok 2: Załaduj skoroszyt programu Excel
 Następnie musimy załadować skoroszyt programu Excel, którym chcemy manipulować.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleCreatePdfBookmarkEntryForChartSheet.xlsx");
 ```
- Tutaj tworzymy instancję`Workbook` klasa, ładowanie naszego przykładowego pliku Excel. Upewnij się, że nazwa pliku odpowiada Twojemu rzeczywistemu plikowi.
+Tutaj tworzymy instancję `Workbook` klasa, ładowanie naszego przykładowego pliku Excel. Upewnij się, że nazwa pliku odpowiada Twojemu rzeczywistemu plikowi.
 ## Krok 3: Dostęp do arkuszy kalkulacyjnych
 Po załadowaniu skoroszytu można uzyskać dostęp do jego arkuszy. 
 ```csharp
@@ -81,7 +83,7 @@ PdfBookmarkEntry ent4 = new PdfBookmarkEntry {
     Text = "Bookmark-IV-Chart2"
 };
 ```
- Każdy`PdfBookmarkEntry`obiekt ma komórkę docelową i etykietę tekstową. Ta konfiguracja utworzy zakładki w pliku PDF, które odpowiadają obszarom w arkuszach Excela.
+Każdy `PdfBookmarkEntry` obiekt ma komórkę docelową i etykietę tekstową. Ta konfiguracja utworzy zakładki w pliku PDF, które odpowiadają obszarom w arkuszach Excela.
 ## Krok 5: Uporządkuj wpisy zakładek
 Aby utworzyć hierarchiczną strukturę zakładek, musimy je uporządkować.
 ```csharp
@@ -98,7 +100,7 @@ Teraz przygotujmy opcje zapisu pliku PDF z naszymi zakładkami.
 PdfSaveOptions opts = new PdfSaveOptions();
 opts.Bookmark = ent1;
 ```
- Ten`PdfSaveOptions` konfiguracja pozwala na dodawanie zakładek podczas zapisywania pliku PDF.
+Ten `PdfSaveOptions` konfiguracja pozwala na dodawanie zakładek podczas zapisywania pliku PDF.
 ## Krok 7: Zapisz plik wyjściowy PDF
 Na koniec pora zapisać swoją pracę!
 ```csharp
@@ -123,10 +125,12 @@ Aspose.Cells oferuje bezpłatną wersję próbną, jednak do korzystania z pełn
 ### Czy mogę utworzyć zakładki dla więcej niż czterech arkuszy?
 Oczywiście! Możesz tworzyć zakładki dla dowolnej liczby arkuszy, stosując podobną strukturę w kodzie.
 ### Gdzie mogę znaleźć więcej pomocy?
- Możesz sprawdzić[Forum wsparcia społeczności Aspose](https://forum.aspose.com/c/cells/9) w przypadku jakichkolwiek problemów lub pytań.
+Możesz sprawdzić [Forum wsparcia społeczności Aspose](https://forum.aspose.com/c/cells/9) w przypadku jakichkolwiek problemów lub pytań.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

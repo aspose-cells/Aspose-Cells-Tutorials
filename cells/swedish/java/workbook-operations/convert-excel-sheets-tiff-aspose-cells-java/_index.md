@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -43,10 +45,10 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 **Krav för miljöinstallation:**
 Se till att din utvecklingsmiljö stöder Java och har Maven eller Gradle installerat för beroendehantering.
 
-**Kunskapsförkunskaper:**
+**Kunskapsförkunskapskrav:**
 - Grundläggande förståelse för Java-programmering
 - Erfarenhet av att arbeta i en IDE (t.ex. IntelliJ IDEA, Eclipse)
-- Förståelse av fil-I/O-operationer i Java
+- Förståelse för fil-I/O-operationer i Java
 #### Konfigurera Aspose.Cells för Java
 När din miljö är redo och beroenden har lagts till, konfigurera Aspose.Cells.
 **Steg för att förvärva licens:**
@@ -161,6 +163,9 @@ För vidare utforskning, kolla dessa länkar:
 - **Supportforum**: [Aspose Support Community](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

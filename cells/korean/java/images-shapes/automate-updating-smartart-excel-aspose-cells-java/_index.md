@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Excel 통합 문서의 여러 워크시트에 걸쳐 수많은 SmartArt 그래�
 
 이 튜토리얼에서는 Aspose.Cells for Java를 사용하여 Java를 사용하는 Excel 통합 문서의 SmartArt 그래픽을 업데이트하는 방법을 안내합니다. 이 가이드를 마치면 다음 작업을 수행할 수 있습니다.
 - 기존 통합 문서 로드
-- 워크시트와 도형을 반복합니다
+- 워크시트와 도형을 반복합니다.
 - SmartArt 그래픽을 효율적으로 업데이트하세요
 - 업데이트된 구성으로 변경 사항을 저장합니다.
 
@@ -175,6 +177,9 @@ A5: 방문 [Aspose의 문서](https://reference.aspose.com/cells/java/) 추가 �
 - **지원 포럼**: 토론에 참여하고 도움을 구하세요. [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

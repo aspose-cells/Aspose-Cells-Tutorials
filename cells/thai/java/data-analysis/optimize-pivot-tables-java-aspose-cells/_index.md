@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Aspose.Cells สำหรับ Java นำเสนอแอปพลิเค�
 - [เวอร์ชันทดลองใช้งานฟรี](https://releases.aspose.com/cells/java/) (ลิงค์ไปยังเวอร์ชั่นทดลองใช้งานล่าสุด)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

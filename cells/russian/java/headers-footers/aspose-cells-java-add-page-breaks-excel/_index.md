@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -156,7 +158,7 @@ public class AddVerticalPageBreak {
 
 ### Следующие шаги:
 - Попробуйте реализовать пользовательские правила форматирования.
-- Экспериментируйте с различными методами эффективной обработки больших наборов данных.
+- Экспериментируйте с различными методами для эффективной обработки больших наборов данных.
 
 ## Раздел часто задаваемых вопросов
 1. **Можно ли добавить несколько разрывов страниц одновременно?**
@@ -182,6 +184,9 @@ public class AddVerticalPageBreak {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

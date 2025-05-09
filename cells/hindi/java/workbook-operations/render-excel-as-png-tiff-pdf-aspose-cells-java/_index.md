@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 - **प्रचय संसाधन:** बड़े डेटासेट के लिए, मेमोरी ओवरलोड से बचने के लिए फ़ाइलों को बैचों में संसाधित करने पर विचार करें।
 
 ## निष्कर्ष
-अब आप सीख चुके हैं कि जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG, TIFF और PDF फ़ॉर्मेट में कैसे बदला जाता है। ये कौशल आपकी डेटा प्रस्तुति क्षमताओं को महत्वपूर्ण रूप से बढ़ाएँगे। Aspose.Cells की अधिक कार्यक्षमताओं का पता लगाने के लिए, उनके देखें [प्रलेखन](https://reference.aspose.com/cells/java/) या निःशुल्क परीक्षण का प्रयास करें।
+अब आप सीख चुके हैं कि जावा के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG, TIFF और PDF फ़ॉर्मेट में कैसे बदला जाता है। ये कौशल आपकी डेटा प्रस्तुति क्षमताओं को काफ़ी हद तक बढ़ा देंगे। Aspose.Cells की अधिक कार्यक्षमताओं का पता लगाने के लिए, उनके देखें [प्रलेखन](https://reference.aspose.com/cells/java/) या निःशुल्क परीक्षण का प्रयास करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न अनुभाग
 1. **मैं बड़ी एक्सेल फ़ाइलों को कैसे संभालूँ?**
@@ -185,6 +187,9 @@ Workbook workbook = new Workbook(dataDir + "/sample.xlsx");
 इस गाइड के साथ, अब आप Java के लिए Aspose.Cells का उपयोग करके Excel फ़ाइलों को PNG, TIFF और PDF फ़ॉर्मेट में बदलने में सक्षम हैं। इन बहुमुखी रूपांतरण तकनीकों के साथ अपनी डेटा साझा करने की क्षमताओं को बढ़ाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

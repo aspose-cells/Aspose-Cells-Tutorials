@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Elege van abból, hogy manuálisan kell kezelnie a pivot táblázatokkal teli ö
 - Excel munkafüzet betöltése egy `Workbook` objektum.
 - Meghatározott munkalapok elérése a munkafüzeten belül.
 - Pivottáblák kezelése objektumhivatkozások és pozíciók használatával történő elérésével és eltávolításával.
-- A változtatások hatékony visszamentése Excel fájlba.
+- változtatások hatékony visszamentése Excel fájlba.
 
 Mielőtt belevágnánk a megvalósításba, győződjünk meg róla, hogy mindent megfelelően beállítottunk.
 
@@ -210,6 +212,9 @@ Az útmutató követésével most már rendelkezik azokkal az eszközökkel, ame
 Kezdje el felfedezni az Aspose.Cells for Java képességeit még ma, és emelje adatkezelési folyamatait!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

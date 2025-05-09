@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -48,7 +50,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 Sisteminizde Java'nın yüklü ve yapılandırılmış olduğundan emin olun, çünkü Aspose.Cells for Java, JVM üzerinde çalışan bir kütüphanedir.
 
 ### Bilgi Önkoşulları
-Java programlama konusunda temel bir anlayışa sahip olmak ve Excel dosyalarıyla programlı olarak çalışabilmek faydalı olacaktır.
+Java programlama konusunda temel bir anlayışa sahip olmak ve Excel dosyalarıyla programlı olarak çalışmaya aşina olmak faydalı olacaktır.
 
 ## Java için Aspose.Cells Kurulumu
 
@@ -208,6 +210,9 @@ Daha derine dalmaya hazır mısınız? Bu çözümleri bugün projelerinizde uyg
 - **Satın almak**: Lisans satın al [Aspose Satın Alma Sayfası](https://purchase.aspose.com/temporary-license/) Uzun süreli kullanım için.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

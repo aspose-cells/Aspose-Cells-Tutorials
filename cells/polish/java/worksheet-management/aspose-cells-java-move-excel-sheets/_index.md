@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Podczas pracy z dużymi plikami programu Excel lub skomplikowanymi operacjami wy
 - **Operacje wsadowe:** W miarę możliwości łącz wiele operacji jednocześnie, aby skrócić czas przetwarzania.
 - **Najlepsze praktyki dotyczące Aspose.Cells:** Aby uzyskać najlepsze wyniki, postępuj zgodnie ze wskazówkami Aspose dotyczącymi wykorzystania zasobów i optymalizacji pamięci.
 ## Wniosek
-Postępując zgodnie z tym samouczkiem, nauczyłeś się, jak ładować, uzyskiwać dostęp, przenosić i zapisywać arkusze kalkulacyjne programu Excel za pomocą Aspose.Cells dla Java. Te umiejętności są bezcenne w każdym zadaniu manipulacji danymi obejmującym pliki programu Excel. Aby jeszcze bardziej zwiększyć swoje możliwości, rozważ zbadanie dodatkowych funkcji biblioteki Aspose.Cells lub zintegrowanie jej z innymi systemami.
+Postępując zgodnie z tym samouczkiem, nauczyłeś się, jak ładować, uzyskiwać dostęp, przenosić i zapisywać arkusze kalkulacyjne programu Excel za pomocą Aspose.Cells dla Java. Te umiejętności są bezcenne w każdym zadaniu manipulacji danymi obejmującym pliki programu Excel. Aby jeszcze bardziej zwiększyć swoje możliwości, rozważ zapoznanie się z dodatkowymi funkcjami biblioteki Aspose.Cells lub zintegrowanie jej z innymi systemami.
 ## Następne kroki
 - Eksperymentuj z różnymi operacjami arkusza kalkulacyjnego udostępnianymi przez Aspose.Cells.
 - Poznaj możliwości integracji i automatyzacji przepływów pracy przy użyciu tego potężnego narzędzia.
@@ -129,6 +131,9 @@ A5: Tak, możesz uzyskać dostęp do pomocy technicznej za pośrednictwem [Forum
 - **Licencja tymczasowa:** Uzyskaj tymczasową licencję, aby uzyskać pełną funkcjonalność [Tutaj](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,91 +1,95 @@
 ---
-title: Mengatur Tinggi Baris di Lembar Kerja dengan Aspose.Cells untuk .NET
-linktitle: Mengatur Tinggi Baris di Lembar Kerja dengan Aspose.Cells untuk .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Atur tinggi baris dengan mudah di lembar kerja Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan lengkap kami untuk petunjuk langkah demi langkah.
-weight: 13
-url: /id/net/size-and-spacing-customization/setting-height-of-all-rows-in-worksheet/
+"description": "Az Aspose.Cells for .NET segítségével könnyedén beállíthatja a sormagasságokat az Excel-munkafüzetekben. Kövesse átfogó útmutatónkat a lépésenkénti utasításokért."
+"linktitle": "Sormagasság beállítása a munkalapon az Aspose.Cells for .NET segítségével"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Sormagasság beállítása a munkalapon az Aspose.Cells for .NET segítségével"
+"url": "/id/net/size-and-spacing-customization/setting-height-of-all-rows-in-worksheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Tinggi Baris di Lembar Kerja dengan Aspose.Cells untuk .NET
+# Sormagasság beállítása a munkalapon az Aspose.Cells for .NET segítségével
 
-## Perkenalan
-Pernahkah Anda menghadapi dilema dalam menyesuaikan tinggi baris di file Excel secara terprogram? Mungkin Anda telah menghabiskan waktu berjam-jam untuk mengubah ukuran baris secara manual agar semuanya pas. Nah, bagaimana jika saya memberi tahu Anda bahwa ada cara yang lebih baik? Dengan menggunakan Aspose.Cells for .NET, Anda dapat dengan mudah mengatur tinggi baris sesuai dengan kebutuhan Anda, semuanya melalui kode. Dalam tutorial ini, kami akan memandu Anda melalui proses memanipulasi tinggi baris di lembar kerja Excel menggunakan Aspose.Cells for .NET, memperlihatkan langkah-langkah untuk membuatnya mudah dan efisien.
-## Prasyarat
-Sebelum menyelami seluk-beluk kode, ada beberapa prasyarat yang perlu Anda penuhi:
-1. .NET Framework: Pastikan Anda memiliki lingkungan kerja dengan .NET yang terinstal. Ini akan memungkinkan Anda menjalankan pustaka Aspose.Cells dengan lancar.
-2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan menginstal Aspose.Cells. Jika Anda belum melakukannya, jangan khawatir! Langsung saja menuju ke[tautan unduhan](https://releases.aspose.com/cells/net/) dan ambil versi terbaru.
-3. IDE: Anda harus memiliki Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio untuk menulis dan menjalankan kode Anda. Jika Anda belum memilikinya, Anda dapat mengunduh dan menginstalnya dengan mudah!
-Siapkan ini, dan Anda sudah setengah jalan untuk menyesuaikan tinggi baris di lembar kerja Excel Anda secara otomatis!
-## Paket Impor
-Setelah kita membahas dasar-dasarnya, mari kita pastikan impor kita sudah siap. Berikut cara melakukannya:
+## Bevezetés
+Szembesültél már azzal a dilemmával, hogy hogyan kell programozottan beállítani a sormagasságokat Excel-fájlokban? Talán órákat töltöttél a sorok manuális átméretezésével, hogy minden tökéletesen illeszkedjen. Nos, mi lenne, ha azt mondanám, hogy van egy jobb módszer? Az Aspose.Cells for .NET használatával könnyedén beállíthatod a sormagasságokat az igényeid szerint, mindezt kódon keresztül. Ebben az oktatóanyagban végigvezetünk a sormagasságok Excel-munkafüzetben történő manipulálásának folyamatán az Aspose.Cells for .NET használatával, bemutatva a lépéseket, amelyek egyszerűvé és hatékonnyá teszik ezt.
+## Előfeltételek
+Mielőtt belemerülnénk a kódolás részleteibe, van néhány előfeltétel, aminek teljesülnie kell:
+1. .NET keretrendszer: Győződjön meg róla, hogy telepítve van egy .NET-tel rendelkező munkakörnyezet. Ez lehetővé teszi az Aspose.Cells könyvtár zökkenőmentes futtatását.
+2. Aspose.Cells .NET-hez: Le kell töltened és telepítened az Aspose.Cells-t. Ha még nem tetted meg, ne aggódj! Csak látogass el a következő oldalra: [letöltési link](https://releases.aspose.com/cells/net/) és vedd le a legújabb verziót.
+3. IDE: Rendelkeznie kell egy integrált fejlesztői környezettel (IDE), például a Visual Studio-val a kód írásához és futtatásához. Ha nincs ilyen, egyszerűen letöltheti és telepítheti!
+Állítsa be ezeket, és már félúton van az Excel-munkafüzetek sormagasságának automatikus beállításához!
+## Csomagok importálása
+Most, hogy az alapokkal tisztában vagyunk, győződjünk meg róla, hogy az importálási beállítások készen állnak. Így teheted meg:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Paket-paket ini berisi semua yang Anda butuhkan untuk bekerja dengan file Excel dan menangani aliran file dalam C#. Jika Anda belum menginstal paket Aspose.Cells NuGet, lakukan melalui Pengelola Paket NuGet Visual Studio.
-## Langkah 1: Tentukan Direktori Dokumen Anda
-Pertama-tama, Anda perlu menentukan lokasi file Excel Anda. Jalur ini sangat penting! Berikut cara melakukannya:
+Ezek a csomagok mindent tartalmaznak, amire szükséged van az Excel-fájlok kezeléséhez és a fájlfolyamok kezeléséhez C#-ban. Ha még nem telepítetted az Aspose.Cells NuGet csomagot, tedd meg a Visual Studio NuGet csomagkezelőjén keresztül.
+## 1. lépés: Dokumentumkönyvtár meghatározása
+Először is meg kell adnia, hogy hol található az Excel-fájl. Ez az elérési út kritikus fontosságú! Így teheti meg:
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat file Excel Anda disimpan. Langkah kecil ini menjadi dasar bagi semua tindakan yang akan kita lakukan. Anggap saja ini seperti menyiapkan ruang kerja sebelum memulai proyek kerajinan.
-## Langkah 2: Buat Aliran File
-Selanjutnya, mari kita buat aliran file yang memungkinkan kita membuka file Excel. Ini adalah gerbang Anda ke data! Berikut cara melakukannya:
+Csere `"Your Document Directory"` az Excel-fájl tényleges tárolási útvonalával. Ez a kis lépés megalapozza az összes végrehajtandó műveletet. Gondolj rá úgy, mint a munkaterület beállítására, mielőtt belevágnál egy alkotási projektbe.
+## 2. lépés: Fájlfolyam létrehozása
+Következő lépésként hozzunk létre egy fájlfolyamot, amely lehetővé teszi számunkra az Excel-fájl megnyitását. Ez az átjáró az adatokhoz! Így teheted meg:
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
- Pada langkah ini, pastikan bahwa`"book1.xls"` adalah nama berkas Excel Anda. Jika Anda memiliki nama berkas yang berbeda, pastikan untuk menyesuaikannya. Dengan membuka aliran ini, kita siap untuk mengakses dan memanipulasi isi berkas.
-## Langkah 3: Membuat Instansi Objek Buku Kerja
-Dengan aliran file di tangan, saatnya membuat objek buku kerja. Objek ini berfungsi sebagai representasi file Excel kita. Berikut caranya:
+Ebben a lépésben győződjön meg arról, hogy `"book1.xls"` az Excel-fájlod neve. Ha ettől eltérő fájlnevet használsz, akkor mindenképpen módosítsd megfelelően. A stream megnyitásával készen állunk a fájl tartalmának elérésére és kezelésére.
+## 3. lépés: Munkafüzet-objektum példányosítása
+Miután a fájlfolyam a kezünkben van, itt az ideje létrehozni egy munkafüzet-objektumot. Ez az objektum az Excel-fájlunk reprezentációjaként szolgál. Így csináld:
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
-Baris kode ini melakukan keajaiban dengan memuat berkas Excel Anda ke dalam memori, sehingga dapat diakses untuk dimodifikasi. Mirip seperti membuka buku untuk membaca halaman-halamannya!
-## Langkah 4: Akses Lembar Kerja
-Sekarang setelah buku kerja siap, mari kita mulai dengan lembar kerja spesifik yang ingin kita kerjakan. Biasanya, kita mulai dengan lembar kerja pertama, penomoran dimulai dari 0. Berikut caranya:
+Ez a kódsor varázslatosan betölti az Excel fájlt a memóriába, így az könnyen módosítható. Olyan, mintha kinyitnál egy könyvet, hogy elolvasd az oldalait!
+## 4. lépés: A munkalap elérése
+Most, hogy elkészült a munkafüzet, vegyük elő azt a munkalapot, amelyen dolgozni szeretnénk. Általában az első munkalappal kezdünk, a számozás 0-tól kezdődik. Így csináljuk:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Langkah ini penting karena menargetkan lembar tertentu yang ingin Anda ubah. Jika Anda memiliki beberapa lembar kerja, ingatlah untuk menyesuaikan indeksnya agar dapat mengakses lembar kerja yang benar.
-## Langkah 5: Atur Tinggi Baris
-Sekarang tibalah bagian yang menarik—mengatur tinggi baris! Berikut cara mengaturnya ke nilai tertentu, misalnya, 15:
+Ez a lépés elengedhetetlen, mert a módosítani kívánt konkrét munkalapot célozza meg. Ha több munkalapja van, ne felejtse el ennek megfelelően módosítani az indexet, hogy a megfelelő munkalaphoz férhessen hozzá.
+## 5. lépés: Sormagasság beállítása
+Most jön az izgalmas rész – a sormagasság beállítása! Így állíthatod be egy adott értékre, mondjuk 15-re:
 ```csharp
 worksheet.Cells.StandardHeight = 15;
 ```
-Baris kode ini mengatur tinggi semua baris di lembar kerja yang dipilih. Ini seperti mengubah ukuran seluruh bagian taman Anda untuk memastikan setiap tanaman memiliki ruang untuk tumbuh!
-## Langkah 6: Simpan File Excel yang Telah Dimodifikasi
-Setelah kita membuat perubahan, sangat penting untuk menyimpan buku kerja yang baru dimodifikasi! Berikut kodenya:
+Ez a kódsor beállítja a kiválasztott munkalap összes sorának magasságát. Olyan, mintha a kerted egy egész részét átméreteznéd, hogy minden növénynek legyen helye a növekedéshez!
+## 6. lépés: Mentse el a módosított Excel-fájlt
+Miután elvégeztük a módosításokat, elengedhetetlen, hogy mentsük az újonnan módosított munkafüzetet! Íme a kód:
 ```csharp
 workbook.Save(dataDir + "output.out.xls");
 ```
- Pastikan untuk memilih nama berkas yang menunjukkan bahwa ini adalah versi modifikasi dari berkas asli Anda. Sebaiknya Anda menjaga agar berkas asli tetap utuh demi keamanan.`output.out.xls` sekarang akan menjadi file Excel baru Anda dengan tinggi baris yang disesuaikan!
-## Langkah 7: Tutup Aliran File
-Terakhir, jangan lupa untuk menutup aliran file untuk melepaskan sumber daya apa pun. Hal ini penting untuk mencegah kebocoran memori dalam aplikasi Anda. Berikut cara melakukannya:
+Ügyeljen arra, hogy olyan fájlnevet válasszon, amely jelzi, hogy ez az eredeti fájl módosított verziója. Biztonsági okokból érdemes az eredetit érintetlenül tartani. `output.out.xls` mostantól az új Excel-fájlod lesz, módosított sormagasságokkal!
+## 7. lépés: Zárja be a fájlfolyamot
+Végül ne felejtsd el bezárni a fájlfolyamot, hogy felszabadítsd az erőforrásokat. Ez elengedhetetlen a memóriaszivárgások elkerülése érdekében az alkalmazásodban. Így teheted meg:
 ```csharp
 fstream.Close();
 ```
-Dan begitulah, Anda sudah selesai! Anda sekarang telah berhasil menyesuaikan tinggi baris di lembar kerja Excel Anda.
-## Kesimpulan
-Dalam tutorial ini, kami telah menelusuri langkah-langkah yang diperlukan untuk mengatur tinggi baris dalam lembar kerja Excel menggunakan Aspose.Cells for .NET. Ini seperti memiliki kotak peralatan ajaib di tangan Anda—yang memberi Anda kekuatan untuk memodifikasi file Excel dengan mudah. Dari menentukan jalur dokumen hingga menyimpan perubahan, setiap langkah dirancang untuk membantu Anda mengelola data Excel tanpa kerepotan yang biasa terjadi. Manfaatkan kekuatan otomatisasi dan buat hidup Anda sedikit lebih mudah, satu file Excel dalam satu waktu!
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka yang hebat untuk memproses file Excel dalam aplikasi .NET, yang memungkinkan Anda membuat, memanipulasi, dan mengelola data spreadsheet.
-### Bisakah saya menyesuaikan tinggi baris untuk baris tertentu saja?
- Ya! Alih-alih mengatur`StandardHeight` , Anda dapat mengatur tinggi untuk baris individual menggunakan`worksheet.Cells.SetRowHeight(rowIndex, heightValue);`.
-### Apakah saya memerlukan lisensi untuk Aspose.Cells?
- Ya, Aspose.Cells memerlukan lisensi untuk penggunaan komersial. Anda dapat menjelajahi[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
-### Apakah mungkin untuk mengubah ukuran baris secara dinamis berdasarkan konten?
-Tentu saja! Anda dapat menghitung tinggi berdasarkan konten dalam sel, lalu mengaturnya menggunakan loop untuk menyesuaikan setiap baris sesuai kebutuhan.
-### Di mana saya dapat menemukan dokumentasi lebih lanjut?
- Anda dapat menemukan dokumentasi yang lengkap[Di Sini](https://reference.aspose.com/cells/net/) untuk membantu Anda dengan manipulasi Excel lebih lanjut.
+És ezzel kész is vagy! Sikeresen beállítottad a sormagasságokat az Excel-munkafüzetedben.
+## Következtetés
+Ebben az oktatóanyagban végigvezettük Önt az Excel-munkafüzet sormagasságainak beállításához szükséges lépéseken az Aspose.Cells for .NET használatával. Olyan, mintha egy varázslatos eszköztár lenne a kezedben – amely lehetővé teszi az Excel-fájlok erőfeszítés nélküli módosítását. A dokumentum elérési útjának megadásától a módosítások mentéséig minden lépés úgy lett kialakítva, hogy segítsen az Excel-adatok kezelésében a szokásos gondok nélkül. Használja ki az automatizálás erejét, és könnyítse meg az életét egy kicsit, Excel-fájlonként!
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony függvénykönyvtár Excel fájlok .NET alkalmazásokban történő feldolgozásához, amely lehetővé teszi táblázatkezelő adatok létrehozását, manipulálását és kezelését.
+### Beállíthatom a sorok magasságát csak bizonyos sorokra vonatkozóan?
+Igen! Beállítás helyett `StandardHeight`, az egyes sorok magasságát a következővel állíthatja be: `worksheet.Cells.SetRowHeight(rowIndex, heightValue);`.
+### Szükségem van licencre az Aspose.Cells-hez?
+Igen, az Aspose.Cells kereskedelmi célú felhasználásához licenc szükséges. Böngészhet a [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+### Lehetséges a sorok dinamikus átméretezése a tartalom alapján?
+Természetesen! A cellák tartalma alapján kiszámíthatod a magasságot, majd egy ciklus segítségével beállíthatod, hogy szükség szerint módosítsd az egyes sorokat.
+### Hol találok további dokumentációt?
+Bőséges dokumentációt találhat [itt](https://reference.aspose.com/cells/net/) hogy segítsen a további Excel-manipulációkban.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

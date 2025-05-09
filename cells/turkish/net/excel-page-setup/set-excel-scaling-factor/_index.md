@@ -1,14 +1,16 @@
 ---
-title: Excel Ölçekleme Faktörünü Ayarla
-linktitle: Excel Ölçekleme Faktörünü Ayarla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel dosyalarını kolayca düzenlemeyi ve ölçekleme faktörünü özelleştirmeyi öğrenin.
-weight: 180
-url: /tr/net/excel-page-setup/set-excel-scaling-factor/
+"description": "Aspose.Cells for .NET kullanarak Excel dosyalarını kolayca düzenlemeyi ve ölçekleme faktörünü özelleştirmeyi öğrenin."
+"linktitle": "Excel Ölçekleme Faktörünü Ayarla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Ölçekleme Faktörünü Ayarla"
+"url": "/tr/net/excel-page-setup/set-excel-scaling-factor/"
+"weight": 180
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Ölçekleme Faktörünü Ayarla
@@ -19,11 +21,11 @@ Excel dosyalarını programatik olarak işlemeye gelince, Aspose.Cells for .NET,
 
 ## Ön koşullar
 
-Pratik adımlara geçmeden önce, yerine getirmeniz gereken birkaç ön koşul var:
+Pratik adımlara geçmeden önce, yerine getirmeniz gereken birkaç ön koşul bulunmaktadır:
 
 1. Visual Studio Kurulu: Kodumuzu bu ortamda yazacağımız için bilgisayarınızda Visual Studio'nun kurulu olduğundan emin olun.
-2.  Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin bir kopyasını edinin. Bunu şuradan indirebilirsiniz:[Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/) Eğer emin değilseniz, bir ile başlayabilirsiniz[ücretsiz deneme](https://releases.aspose.com/).
-3. Temel C# Bilgisi: C# programlamanın temellerini anlamak, özellikle kütüphanelerle çalışmaya yeni başladıysanız, sizin için faydalı olacaktır.
+2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin bir kopyasını edinin. Bunu şuradan indirebilirsiniz: [Aspose Sürümleri sayfası](https://releases.aspose.com/cells/net/)Eğer emin değilseniz, bir ile başlayabilirsiniz [ücretsiz deneme](https://releases.aspose.com/).
+3. Temel C# Bilgisi: Özellikle kütüphanelerle çalışmaya yeni başladıysanız, C# programlamanın temellerine dair bir anlayışa sahip olmak faydalı olacaktır.
 4. .NET Framework: Projenizin kütüphane için uyumlu bir .NET Framework sürümünü hedeflediğinden emin olun.
 
 Artık neye ihtiyacınız olduğunu belirlediğimize göre, gerekli paketleri içe aktararak başlayabiliriz.
@@ -34,15 +36,15 @@ Herhangi bir kod yazmadan önce, projenize Aspose.Cells kütüphanesine bir refe
 
 ### DLL'yi indirin
 
-1.  Git[Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/) ve .NET sürümünüze uygun paketi indirin.
-2.  İndirilen dosyayı çıkarın ve bulun`Aspose.Cells.dll` dosya.
+1. Git [Aspose İndirmeler sayfası](https://releases.aspose.com/cells/net/) ve .NET sürümünüze uygun paketi indirin.
+2. İndirilen dosyayı çıkarın ve bulun `Aspose.Cells.dll` dosya.
 
 ### Visual Studio'da Referans Ekleme
 
 1. Visual Studio projenizi açın.
 2. Çözüm Gezgini'nde "Referanslar"a sağ tıklayın.
 3. "Referans Ekle"yi seçin. 
-4.  "Gözat"a tıklayın ve konuma gidin`Aspose.Cells.dll` çıkardığınız dosya.
+4. "Gözat"a tıklayın ve konuma gidin `Aspose.Cells.dll` çıkardığınız dosya.
 5. Bunu seçip "Tamam"a tıklayarak projenize ekleyin.
 
 ```csharp
@@ -64,7 +66,7 @@ Excel çalışma sayfalarınızdaki ölçekleme faktörünü ayarlama sürecini 
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
-Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Excel dosyasının kaydedilmesini istediğiniz makinedeki gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` Excel dosyasının kaydedilmesini istediğiniz makinenizdeki gerçek yol ile.
 
 ## Adım 2: Yeni bir Çalışma Kitabı Nesnesi Oluşturun
 
@@ -75,7 +77,7 @@ Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Excel dosyasının ka
 Workbook workbook = new Workbook();
 ```
 
- Burada yeni bir`Workbook` Excel dosyasını temsil eden ve içeriğini düzenlememize olanak tanıyan nesne.
+Burada yeni bir `Workbook` Excel dosyasını temsil eden ve içeriğini düzenlememize olanak tanıyan nesne.
 
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 
@@ -97,7 +99,7 @@ Bu kod satırı çalışma kitabımızdan ilk çalışma sayfasını getirir. Fa
 worksheet.PageSetup.Zoom = 100;
 ```
 
- Ayarlama`Zoom` mülk`100` çalışma sayfanızın gerçek boyutunda yazdırılacağı anlamına gelir. Bu değeri ihtiyaçlarınıza göre ayarlayabilirsiniz; bir sayfaya daha fazla içerik sığdırmak istiyorsanız düşürebilirsiniz.
+Ayarlama `Zoom` mülk `100` çalışma sayfanızın gerçek boyutunda yazdırılacağı anlamına gelir. Bu değeri ihtiyaçlarınıza göre ayarlayabilirsiniz; bir sayfaya daha fazla içerik sığdırmak istiyorsanız düşürebilirsiniz.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
@@ -108,7 +110,7 @@ Gerekli ayarlamaları yaptınız; şimdi değişikliklerinizi kaydetme zamanı.
 workbook.Save(dataDir + "ScalingFactor_out.xls");
 ```
 
- Bu, Excel dosyanızı ölçekleme faktörü uygulanmış halde kaydeder. Dosyanıza geçerli bir dosya adı eklediğinizden emin olun.`dataDir`.
+Bu, Excel dosyanızı ölçekleme faktörü uygulanmış halde kaydeder. Dosyanıza geçerli bir dosya adı eklediğinizden emin olun. `dataDir`.
 
 ## Çözüm
 
@@ -125,16 +127,18 @@ Aspose.Cells for .NET, .NET uygulamalarında Excel dosyaları oluşturmak ve dü
 Evet! Aspose.Cells, .NET framework'ü hedeflediği sürece hem masaüstü hem de web uygulamalarında kullanılabilir.
 
 ### Aspose.Cells için ücretsiz deneme sürümü var mı?  
- Kesinlikle! Ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü edinebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells için dokümanları nerede bulabilirim?  
- Belgeler bulunabilir[Burada](https://reference.aspose.com/cells/net/).
+Belgeler bulunabilir [Burada](https://reference.aspose.com/cells/net/).
 
-### Aspose.Cells için teknik destek nasıl alabilirim?  
- Yardım için şuraya ulaşabilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+### Aspose.Cells için teknik desteği nasıl alabilirim?  
+Yardım için şuraya ulaşabilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Excel Kopyalama Çalışma Sayfası
-linktitle: Excel Kopyalama Çalışma Sayfası
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kolay takip edilebilir adım adım kılavuzla .NET için Aspose.Cells kullanarak bir Excel çalışma sayfasını nasıl kopyalayacağınızı öğrenin. Excel görevlerini otomatikleştirmek isteyen .NET geliştiricileri için idealdir.
-weight: 20
-url: /tr/net/excel-copy-worksheet/excel-copy-worksheet/
+"description": "Bu kolay takip edilebilir adım adım kılavuzla .NET için Aspose.Cells kullanarak bir Excel çalışma sayfasını nasıl kopyalayacağınızı öğrenin. Excel görevlerini otomatikleştirmek isteyen .NET geliştiricileri için idealdir."
+"linktitle": "Excel Kopyalama Çalışma Sayfası"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Excel Kopyalama Çalışma Sayfası"
+"url": "/tr/net/excel-copy-worksheet/excel-copy-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Kopyalama Çalışma Sayfası
@@ -37,7 +39,7 @@ Install-Package Aspose.Cells
 ### Lisans Alın
 Aspose.Cells'in tüm fonksiyonlarını kullanabilmek için lisans almanız en iyisidir.
 
-- [Lisans satın al](https://purchase.aspose.com/buy) veya[Geçici Lisans Talebinde Bulunun](https://purchase.aspose.com/temporary-license/)
+- [Lisans satın al](https://purchase.aspose.com/buy) veya [Geçici Lisans Talebinde Bulunun](https://purchase.aspose.com/temporary-license/)
 
 Lisans olmadan kütüphaneyi kullanmanız çıktı dosyalarınıza filigran uygulayacaktır, bu yüzden lisansınızın hazır olduğundan emin olun!
 
@@ -68,7 +70,7 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 string InputPath = dataDir + "book1.xls";
 ```
 
--  The`dataDir` değişken Excel dosyalarınızın bulunduğu dizin yolunu tutar. Değiştir`"YOUR DOCUMENT DIRECTORY"` gerçek klasör yoluna.
+- The `dataDir` değişken, Excel dosyalarınızın bulunduğu dizin yolunu tutar. Değiştir `"YOUR DOCUMENT DIRECTORY"` gerçek klasör yoluna.
 - `InputPath` üzerinde çalışacağımız Excel dosyasının konumunu depolar (bu durumda, "book1.xls").
 
 Ortamlar (geliştirme, hazırlama, üretim) arasında kolayca geçiş yapabilmeniz için dinamik yollar kullanmak iyi bir fikirdir.
@@ -80,7 +82,7 @@ Daha sonra, tüm bir Excel dosyasını temsil eden Çalışma Kitabı sınıfın
 Workbook wb = new Workbook(InputPath);
 ```
 
--  The`Workbook` nesne, şu konumda bulunan Excel dosyasını yükler:`InputPath`. Aspose.Cells dosyanın ayrıştırılmasıyla ilgilenir, böylece Excel formatının karmaşıklığı konusunda endişelenmenize gerek kalmaz.
+- The `Workbook` nesne, şu konumda bulunan Excel dosyasını yükler: `InputPath`Aspose.Cells dosyanın ayrıştırılmasıyla ilgilenir, böylece Excel formatının karmaşıklığı konusunda endişelenmenize gerek kalmaz.
 
 ## Adım 3: Çalışma Sayfaları Koleksiyonuna Erişim
 Her çalışma kitabının birden fazla çalışma sayfası vardır (bunları Excel dosyanızdaki sekmeler olarak düşünün). Bir çalışma sayfasını kopyalamak için önce bu sayfalara erişmeniz gerekir.
@@ -98,8 +100,8 @@ WorksheetCollection sheets = wb.Worksheets;
 sheets.AddCopy("Sheet1");
 ```
 
--  The`AddCopy` yöntemi mevcut bir çalışma sayfasını (bu durumda "Sayfa1") çoğaltır ve yeni sayfayı çalışma kitabına ekler.
--  Değiştirebilirsin`"Sheet1"` kopyalamak istediğiniz herhangi bir sayfa adı ile.
+- The `AddCopy` yöntemi mevcut bir çalışma sayfasını (bu durumda "Sayfa1") çoğaltır ve yeni sayfayı çalışma kitabına ekler.
+- Değiştirebilirsin `"Sheet1"` kopyalamak istediğiniz herhangi bir sayfa adı ile.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 Son olarak, çalışma sayfasını kopyaladıktan sonra, güncellenmiş Excel dosyasını kaydetme zamanı geldi. Değişiklikleri yeni bir dosyaya kaydetmek için Kaydet yöntemini kullanacağız.
@@ -108,7 +110,7 @@ Son olarak, çalışma sayfasını kopyaladıktan sonra, güncellenmiş Excel do
 wb.Save(dataDir + "CopyWithinWorkbook_out.xls");
 ```
 
--  The`Save` yöntem güncellenen çalışma kitabını yeni bir dosyaya yazar (`CopyWithinWorkbook_out.xls` ). Çıktı dosyası için herhangi bir ad seçebilirsiniz, ancak onu uygun biçimde kaydetmeyi unutmayın (örneğin,`.xls`, `.xlsx`).
+- The `Save` yöntem güncellenen çalışma kitabını yeni bir dosyaya yazar (`CopyWithinWorkbook_out.xls`). Çıktı dosyası için herhangi bir ad seçebilirsiniz, ancak onu uygun biçimde kaydetmeyi unutmayın (örneğin, `.xls`, `.xlsx`).
 
 İşte bu kadar! Excel dosyasındaki bir çalışma sayfasını başarıyla çoğalttınız.
 
@@ -119,22 +121,24 @@ Aspose.Cells for .NET'te bir çalışma sayfasını kopyalamak yalnızca basit d
 ## SSS
 
 ### Aspose.Cells for .NET kullanarak birden fazla çalışma sayfasını aynı anda kopyalayabilir miyim?
- Hayır, bunları tek tek kopyalamanız gerekecek`AddCopy` yöntem. Ancak, birden fazla sayfa arasında kolayca dolaşabilir ve bunları sırayla kopyalayabilirsiniz.
+Hayır, bunları tek tek kopyalamanız gerekecek `AddCopy` yöntem. Ancak, birden fazla sayfa arasında kolayca dolaşabilir ve bunları sırayla kopyalayabilirsiniz.
 
 ### Aspose.Cells for .NET farklı çalışma kitapları arasında çalışma sayfalarının kopyalanmasını destekliyor mu?
- Evet, her iki çalışma kitabını da açıp, farklı çalışma kitapları arasında çalışma sayfalarını kopyalayabilirsiniz.`AddCopy` aralarında bir yöntem var.
+Evet, her iki çalışma kitabını da açıp, farklı çalışma kitapları arasında çalışma sayfalarını kopyalayabilirsiniz. `AddCopy` aralarında bir yöntem var.
 
 ### Aspose.Cells hangi Excel formatlarını destekler?
-Aspose.Cells, Excel formatlarının geniş bir yelpazesini destekler; bunlar arasında şunlar yer alır:`.xls`, `.xlsx`, `.csv`, `.html`ve daha fazlası.
+Aspose.Cells, Excel formatlarının geniş bir yelpazesini destekler; bunlar arasında şunlar yer alır: `.xls`, `.xlsx`, `.csv`, `.html`ve daha fazlası.
 
 ### Aspose.Cells for .NET'i kullanmak için lisansa ihtiyacım var mı?
- Evet, filigranlardan kaçınmak ve kütüphanenin tüm potansiyelini ortaya çıkarmak için geçerli bir lisansa ihtiyacınız var. Ancak, bir lisans talep edebilirsiniz.[ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license) satın almadan önce denemek için.
+Evet, filigranlardan kaçınmak ve kütüphanenin tüm potansiyelini ortaya çıkarmak için geçerli bir lisansa ihtiyacınız var. Ancak, bir lisans talep edebilirsiniz. [ücretsiz geçici lisans](https://purchase.aspose.com/temporary-license) satın almadan önce denemek için.
 
 ### Aspose.Cells'i .NET Core'da çalıştırabilir miyim?
 Evet, Aspose.Cells hem .NET Framework hem de .NET Core ile tam uyumludur ve bu da onu platformlar arası uygulamalar için çok yönlü hale getirir.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ Maven または Gradle を使用して、Aspose.Cells 依存関係をプロジ�
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-フル機能のライセンスをダウンロードして設定します。無料トライアルまたは一時ライセンスとしてご利用いただけます。 [Asposeのウェブサイト](https://purchase。aspose.com/temporary-license/).
+フル機能を使用するには、ライセンスをダウンロードして設定してください。無料トライアルまたは一時ライセンスとしてご利用いただけます。 [Asposeのウェブサイト](https://purchase。aspose.com/temporary-license/).
 
 ### 基本的な初期化
 まずは初期化から始めましょう `Workbook` 物体：
@@ -60,7 +62,7 @@ public class WorkbookExample {
         // 最初のワークシートにアクセスする
         Worksheet sheet = wb.getWorksheets().get(0);
         
-        // ここにコードを入力してください...
+        // ここにあなたのコードを...
     }
 }
 ```
@@ -104,7 +106,7 @@ for (int i = 0; i <= 255; i++) {
 特定の行をロックすることは、ユーザーが変更してはならないデータを表示するときに便利です。
 
 #### 概要
-この機能は最初の行のみをロックし、他の行は編集用にロック解除されたままになります。
+この機能は最初の行のみをロックし、他の行は編集用にロック解除されたままにします。
 
 **ステップ1: スタイルにアクセスして変更する**
 ```java
@@ -180,6 +182,9 @@ A5: 無料トライアルではフルアクセスが可能ですが、透かし�
 - **サポート**訪問 [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9) ご質問がありましたら、お気軽にお問い合わせください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

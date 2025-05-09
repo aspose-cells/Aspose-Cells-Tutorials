@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ wb.save(outDir + "/outputImportResultSet.xlsx");
 ```
 
 ## Ứng dụng thực tế
-1. **Quản lý dữ liệu sinh viên:** Tự động nhập hồ sơ học sinh để phân tích hoặc báo cáo trong Excel.
+1. **Quản lý dữ liệu sinh viên:** Tự động nhập hồ sơ sinh viên để phân tích hoặc báo cáo trong Excel.
 2. **Theo dõi hàng tồn kho:** Tối ưu hóa việc nhập dữ liệu từ cơ sở dữ liệu Access vào bảng tính Excel để quản lý hàng tồn kho.
 3. **Báo cáo bán hàng:** Tạo báo cáo nhanh chóng bằng cách nhập dữ liệu bán hàng trực tiếp vào bảng tính Excel.
 
@@ -190,6 +192,9 @@ Sẵn sàng nâng cao khả năng xử lý dữ liệu của bạn? Thực hiệ
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

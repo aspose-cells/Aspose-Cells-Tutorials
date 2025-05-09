@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Hai difficoltà a preservare i commenti durante la conversione di file Excel in 
 - Esportazione di commenti Excel durante il salvataggio dei file in formato HTML
 - Ottimizza le prestazioni con le migliori pratiche
 
-Analizziamo ora i prerequisiti prima di iniziare a implementare questa funzionalità!
+Analizziamo i prerequisiti prima di iniziare a implementare questa funzionalità!
 
 ## Prerequisiti
 
@@ -202,6 +204,9 @@ Pronti a provarlo? Implementate questa soluzione oggi stesso!
 Questa guida completa è progettata per aiutarti a implementare in modo efficace la funzionalità di esportazione dei commenti, garantendo che le tue applicazioni offrano esperienze utente migliorate.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

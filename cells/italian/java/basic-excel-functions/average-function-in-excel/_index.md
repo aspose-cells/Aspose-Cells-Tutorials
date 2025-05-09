@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Funzione MEDIA in Excel
@@ -56,7 +58,7 @@ Qui popoliamo le celle da A1 ad A4 con valori numerici.
 
 ## Utilizzo della funzione MEDIA
 
-La funzione MEDIA di Excel calcola la media di un intervallo di numeri. Con Aspose.Cells per Java, è possibile ottenere facilmente questo risultato a livello di codice:
+La funzione MEDIA in Excel calcola la media di un intervallo di numeri. Con Aspose.Cells per Java, è possibile ottenere facilmente questo risultato a livello di codice:
 
 ```java
 // Codice Java per calcolare la media utilizzando Aspose.Cells
@@ -94,7 +96,7 @@ Questo codice salva la cartella di lavoro come file PDF.
 
 ## Gestione degli errori
 
-Quando si lavora con file Excel, è fondamentale gestire gli errori in modo corretto. Errori comuni includono riferimenti di cella errati o errori di formula. Ecco un esempio di gestione degli errori:
+Quando si lavora con file Excel, è fondamentale gestire gli errori in modo corretto. Errori comuni includono riferimenti di cella errati o errori nelle formule. Ecco un esempio di gestione degli errori:
 
 ```java
 // Codice Java per la gestione degli errori
@@ -127,7 +129,7 @@ Sì, Aspose.Cells per Java consente di esportare cartelle di lavoro di Excel in 
 
 ### Qual è il vantaggio di utilizzare Aspose.Cells per Java rispetto alla manipolazione manuale di Excel?
 
-Aspose.Cells per Java semplifica l'automazione di Excel, facendoti risparmiare tempo e fatica. Offre funzionalità avanzate e capacità di gestione degli errori, rendendolo un potente strumento per l'automazione di Excel.
+Aspose.Cells per Java semplifica l'automazione di Excel, facendoti risparmiare tempo e fatica. Offre funzionalità avanzate e capacità di gestione degli errori, rendendolo uno strumento potente per l'automazione di Excel.
 
 ### Come posso personalizzare l'aspetto delle celle di Excel?
 
@@ -140,6 +142,7 @@ Per un elenco completo delle caratteristiche e delle funzionalità avanzate, far
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

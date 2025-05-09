@@ -7,14 +7,16 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # 如何使用 Aspose.Cells for Java 建立和存取 Excel 工作表以及新增 PDF 書籤
 
 ## 介紹
-當您需要快速存取特定資料或部分時，瀏覽複雜的電子表格可能會很有挑戰性。本指南透過展示如何使用 Aspose.Cells for Java 載入 Excel 檔案、存取工作表以及建立帶有書籤的註釋的 PDF 來簡化流程。
+當您需要快速存取特定資料或部分時，瀏覽複雜的電子表格可能會很有挑戰性。本指南透過展示如何使用 Aspose.Cells for Java 載入 Excel 檔案、存取工作表以及建立帶有書籤的註釋的 PDF 來簡化此流程。
 
 在本教程中，我們將介紹：
 - 使用 Aspose.Cells for Java 設定您的環境。
@@ -198,6 +200,9 @@ workbook.save(outDir + "/outputCreatePdfBookmarkEntryForChartSheet.pdf", save_op
 立即開始使用 Aspose.Cells 的旅程並改變您與 Excel 資料的互動方式！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

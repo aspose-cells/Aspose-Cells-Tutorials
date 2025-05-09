@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -148,6 +150,9 @@ Um weitere Einblicke zu gewinnen, können Sie verschiedene Datentypen bearbeiten
 Meistern Sie die Excel-Manipulation mit Aspose.Cells für Java und schöpfen Sie das volle Potenzial Ihrer datengesteuerten Anwendungen aus!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

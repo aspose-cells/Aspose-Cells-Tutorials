@@ -1,14 +1,16 @@
 ---
-title: อ่านความคิดเห็นแบบเธรดในเวิร์กชีต
-linktitle: อ่านความคิดเห็นแบบเธรดในเวิร์กชีต
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ปลดล็อกพลังของการอ่านความคิดเห็นแบบเธรดใน Excel ด้วย Aspose.Cells สำหรับ .NET ศึกษาคู่มือทีละขั้นตอนนี้เพื่อการจัดการเอกสารที่ง่ายดาย
-weight: 22
-url: /th/net/worksheet-operations/read-threaded-comments/
+"description": "ปลดล็อกพลังของการอ่านความคิดเห็นแบบเธรดใน Excel ด้วย Aspose.Cells สำหรับ .NET ศึกษาคู่มือทีละขั้นตอนนี้เพื่อการจัดการเอกสารที่ง่ายดาย"
+"linktitle": "อ่านความคิดเห็นแบบเธรดในเวิร์กชีต"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "อ่านความคิดเห็นแบบเธรดในเวิร์กชีต"
+"url": "/th/net/worksheet-operations/read-threaded-comments/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อ่านความคิดเห็นแบบเธรดในเวิร์กชีต
@@ -19,8 +21,8 @@ url: /th/net/worksheet-operations/read-threaded-comments/
 ก่อนที่เราจะเจาะลึกโค้ดและขั้นตอนที่จำเป็นในการอ่านข้อคิดเห็นแบบเธรดใน Excel โดยใช้ Aspose.Cells คุณจะต้องแน่ใจว่าคุณมีสิ่งพื้นฐานบางอย่างอยู่แล้ว:
 1. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# และ .NET Framework ถือเป็นสิ่งสำคัญ เนื่องจากตัวอย่างโค้ดที่ให้ไว้จะอยู่ใน C#
 2. Visual Studio: คุณควรติดตั้ง Visual Studio บนเครื่องของคุณเพื่อใช้รันโค้ด C#
-3.  Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells ลงในโปรเจ็กต์ของคุณ คุณสามารถค้นหาไลบรารีนี้ได้ที่[เว็บไซต์อาโพส](https://releases.aspose.com/cells/net/).
-4.  ไฟล์ Excel ตัวอย่าง: มีไฟล์ Excel ตัวอย่าง (เช่น`ThreadedCommentsSample.xlsx`) บันทึกไว้ในไดเร็กทอรีของคุณซึ่งประกอบด้วยข้อคิดเห็นแบบเธรดเพื่อวัตถุประสงค์ในการทดสอบ
+3. Aspose.Cells สำหรับ .NET: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Cells ลงในโปรเจ็กต์ของคุณ คุณสามารถค้นหาไลบรารีนี้ได้ที่ [เว็บไซต์อาโพส](https://releases-aspose.com/cells/net/).
+4. ไฟล์ Excel ตัวอย่าง: มีไฟล์ Excel ตัวอย่าง (เช่น `ThreadedCommentsSample.xlsx`) บันทึกไว้ในไดเร็กทอรีของคุณซึ่งประกอบด้วยข้อคิดเห็นแบบเธรดเพื่อวัตถุประสงค์ในการทดสอบ
 ## การนำเข้าแพ็คเกจ
 ในการเริ่มต้น คุณจะต้องรวมเนมสเปซที่จำเป็นไว้ในโปรเจ็กต์ C# ของคุณ ซึ่งจะทำให้คุณสามารถใช้ประโยชน์จากฟีเจอร์อันทรงพลังที่ไลบรารี Aspose.Cells จัดเตรียมไว้ได้
 ```csharp
@@ -29,7 +31,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-เพียงเพิ่มคำประกาศเหล่านี้ไว้ที่จุดเริ่มต้นของไฟล์ C# แล้วคุณก็พร้อมที่จะใช้งานฟังก์ชันการทำงานของ Aspose.Cells แล้ว!
+เพียงเพิ่มคำประกาศเหล่านี้ในตอนต้นของไฟล์ C# ของคุณ แล้วคุณก็พร้อมที่จะใช้งานฟังก์ชันการทำงานของ Aspose.Cells แล้ว!
 
 ตอนนี้คุณได้ตั้งค่าโครงการและนำเข้าแพ็คเกจที่จำเป็นแล้ว มาดูขั้นตอนการอ่านความคิดเห็นแบบเธรดในเวิร์กชีต Excel กัน เราจะอธิบายทีละขั้นตอนเพื่อให้แน่ใจว่าทุกอย่างชัดเจนและคุณสามารถทำตามได้อย่างง่ายดาย
 ## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีแหล่งที่มา
@@ -38,9 +40,9 @@ using System.Text;
 // ไดเรกทอรีแหล่งที่มา
 string sourceDir = "Your Document Directory";
 ```
- แทนที่`"Your Document Directory"` พร้อมด้วยเส้นทางจริงของไดเร็กทอรีที่มีไฟล์ Excel ของคุณ
+แทนที่ `"Your Document Directory"` พร้อมด้วยเส้นทางจริงของไดเร็กทอรีที่มีไฟล์ Excel ของคุณ
 ## ขั้นตอนที่ 2: สร้างวัตถุเวิร์กบุ๊ก
- เมื่อคุณตั้งค่าไดเร็กทอรีแล้ว งานถัดไปคือการสร้าง`Workbook` วัตถุ วัตถุนี้ช่วยให้คุณสามารถโหลดและจัดการไฟล์ Excel ได้ 
+เมื่อคุณตั้งค่าไดเร็กทอรีแล้ว งานถัดไปคือการสร้าง `Workbook` วัตถุ วัตถุนี้ช่วยให้คุณสามารถโหลดและจัดการไฟล์ Excel ได้ 
 ```csharp
 // โหลดสมุดงาน
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
@@ -52,7 +54,7 @@ Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 // เข้าถึงแผ่นงานแรก
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- ที่นี่,`Worksheets[0]`หมายถึงเวิร์กชีตแรกในเวิร์กบุ๊ก ซึ่งช่วยให้คุณสามารถเน้นเฉพาะส่วนที่ประกอบด้วยข้อคิดเห็นได้ในไฟล์
+ที่นี่, `Worksheets[0]` หมายถึงเวิร์กชีตแรกในเวิร์กบุ๊ก ซึ่งช่วยให้คุณสามารถเน้นเฉพาะส่วนที่ประกอบด้วยข้อคิดเห็นได้ในไฟล์
 ## ขั้นตอนที่ 4: รับความคิดเห็นแบบเธรด
 ตอนนี้คุณสามารถเข้าถึงเวิร์กชีตได้แล้ว ขั้นตอนต่อไปคือการดึงความคิดเห็นแบบเธรดจากเซลล์ที่ระบุ สำหรับตัวอย่างนี้ ให้กำหนดเป้าหมายเป็นเซลล์ "A1"
 ```csharp
@@ -83,17 +85,19 @@ Console.WriteLine("ReadThreadedComments executed successfully.");
 ### Aspose.Cells คืออะไร?
 Aspose.Cells เป็นไลบรารีอันทรงพลังสำหรับการสร้าง จัดการ และแปลงเอกสาร Excel ในแอปพลิเคชัน .NET
 ### ฉันจะดาวน์โหลด Aspose.Cells ได้อย่างไร?
- คุณสามารถดาวน์โหลด Aspose.Cells ได้จาก[หน้าวางจำหน่ายที่นี่](https://releases.aspose.com/cells/net/).
+คุณสามารถดาวน์โหลด Aspose.Cells ได้จาก [หน้าวางจำหน่ายที่นี่](https://releases-aspose.com/cells/net/).
 ### มีการทดลองใช้ฟรีหรือไม่?
- ใช่! คุณสามารถทดลองใช้ Aspose.Cells ได้ฟรี ค้นหารุ่นทดลองใช้[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถทดลองใช้ Aspose.Cells ได้ฟรี ค้นหารุ่นทดลองใช้ [ที่นี่](https://releases-aspose.com/).
 ### ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Cells ได้หรือไม่
- แน่นอน! คุณสามารถถามคำถามและขอความช่วยเหลือได้ใน[ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9).
+แน่นอน! คุณสามารถถามคำถามและขอความช่วยเหลือได้ใน [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 ### ฉันสามารถซื้อ Aspose.Cells ได้ที่ไหน?
- หากคุณตัดสินใจซื้อ Aspose.Cells คุณสามารถทำได้ดังนี้[ที่นี่](https://purchase.aspose.com/buy).
+หากคุณตัดสินใจซื้อ Aspose.Cells คุณสามารถทำได้ดังนี้ [ที่นี่](https://purchase-aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Excel elektronik tablolarındaki hataları yönetmek, geliştiriciler ve analist
 **Ne Öğreneceksiniz:**
 - Mevcut bir dosyadan çalışma kitabı oluşturun
 - Bir çalışma kitabındaki belirli çalışma sayfalarına erişin
-- Veri bütünlüğünü artırmak için hata kontrol seçeneklerini yönetin
+- Veri bütünlüğünü geliştirmek için hata kontrol seçeneklerini yönetin
 - Değişikliklerinizi Excel dosyasına geri kaydedin
 
 Aspose.Cells for Java ile iş akışınızı kolaylaştıralım ve elektronik tablo yönetimini iyileştirelim.
@@ -184,6 +186,9 @@ Aspose.Cells for Java ile ilgili anlayışınızı ve yeteneklerinizi derinleşt
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

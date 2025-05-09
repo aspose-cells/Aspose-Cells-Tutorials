@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -64,7 +66,7 @@ Workbook workbook = new Workbook();
 ## Hướng dẫn thực hiện
 
 ### Tạo và cấu hình một sổ làm việc
-Tạo bảng tính là bước đầu tiên để bạn thiết lập dữ liệu của mình.
+Tạo bảng tính là bước đầu tiên để bạn thiết lập dữ liệu.
 
 #### Nhập thư viện
 Đảm bảo các mục nhập này được bao gồm ở đầu tệp của bạn:
@@ -204,6 +206,9 @@ Hướng dẫn này hướng dẫn bạn các bước để tạo và tùy chỉ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

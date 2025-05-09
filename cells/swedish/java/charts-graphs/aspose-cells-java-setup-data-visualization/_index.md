@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Innan vi börjar, se till att du har följande:
 - En kompatibel IDE (Eclipse, IntelliJ IDEA)
 - Maven- eller Gradle-byggsystem
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering
 - Bekantskap med Excel-koncept som arbetsböcker och diagram
 
@@ -187,6 +189,9 @@ Genom att följa den här guiden har du lärt dig hur du skapar arbetsböcker, f
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

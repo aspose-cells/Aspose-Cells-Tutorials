@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,7 +142,7 @@ workbook.save("CSfromWorksheets_out.xlsx");
 ```
 
 ### Hibaelhárítási tippek
-- **Gyakori probléma**: A forgatókönyv nem jelenik meg az Excelben.
+- **Gyakori probléma**A forgatókönyv nem jelenik meg az Excelben.
   - Győződjön meg arról, hogy a megfelelő munkalapindexet használja. Ne feledje, hogy az indexek nulla alapúak.
 
 ## Gyakorlati alkalmazások
@@ -183,6 +185,9 @@ Győződjön meg arról, hogy a megfelelő munkalapot módosítja, és ellenőri
 - **Vásárlás**: Vásároljon licencet közvetlenül a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

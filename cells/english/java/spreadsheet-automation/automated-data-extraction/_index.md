@@ -8,7 +8,9 @@ url: /java/spreadsheet-automation/automated-data-extraction/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automated Data Extraction
@@ -111,9 +113,11 @@ Automating data extraction with Aspose.Cells for Java simplifies the process of 
    Explore the API documentation at [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) for in-depth information and examples.
 
 Start automating your data extraction tasks today with Aspose.Cells for Java and streamline your data retrieval processes.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

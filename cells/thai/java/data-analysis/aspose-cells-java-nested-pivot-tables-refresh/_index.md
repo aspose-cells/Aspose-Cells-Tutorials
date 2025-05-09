@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@
 
 - **ห้องสมุดและเวอร์ชัน:** คุณจะต้องมี Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 - **การตั้งค่าสภาพแวดล้อม:** จำเป็นต้องมีสภาพแวดล้อมการพัฒนา Java (แนะนำ JDK 1.8 ขึ้นไป)
-- **ข้อกำหนดเบื้องต้นของความรู้:** มีความคุ้นเคยกับการเขียนโปรแกรม Java และการใช้งาน Excel ขั้นพื้นฐาน
+- **ข้อกำหนดความรู้เบื้องต้น:** มีความคุ้นเคยกับการเขียนโปรแกรม Java และการใช้งาน Excel ขั้นพื้นฐาน
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -187,7 +189,7 @@ for (int idx = 0; idx < ptChildren.length; idx++) {
    - แน่นอน! สามารถบูรณาการกับ Spring Boot, JPA และอื่นๆ ได้อย่างราบรื่น
 
 5. **ฉันจะแก้ไขปัญหาตารางสรุปข้อมูลไม่อัปเดตได้อย่างไร**
-   - ให้แน่ใจว่าคุณโทรทั้งสอง `refreshData()` และ `calculateData()` วิธีการในแต่ละตารางสรุปข้อมูลของเด็ก
+   - ให้แน่ใจว่าคุณโทรทั้งสอง `refreshData()` และ `calculateData()` วิธีการในแต่ละตารางสรุปข้อมูลของลูก
 
 ## ทรัพยากร
 
@@ -201,6 +203,9 @@ for (int idx = 0; idx < ptChildren.length; idx++) {
 หากปฏิบัติตามคำแนะนำที่ครอบคลุมนี้ คุณจะพร้อมรับมือกับงานจัดการข้อมูล Excel ที่ซับซ้อนโดยใช้ Aspose.Cells สำหรับ Java สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

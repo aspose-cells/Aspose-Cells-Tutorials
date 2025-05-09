@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Importazione dati in blocco Excel
@@ -99,9 +101,11 @@ Assolutamente! Aspose.Cells per Java supporta sia l'importazione che l'esportazi
 Sì, per maggiori dettagli sulle licenze e sui prezzi, consulta le informazioni sulle licenze sul sito web di Aspose.
 
 Sentiti libero di esplorare ulteriormente e adattare gli esempi di codice alle tue esigenze specifiche. Buona programmazione!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ Nézzük meg az Aspose.Cells for Java használatával Excelben a sparkline-ok l�
 
 ### 1. lépés: Munkafüzet példányosítása
 
-Az Excel-fájlok kezeléséhez először hozzon létre egy példányt a `Workbook` osztály. Ez szolgál alapul a munkalapok és más funkciók eléréséhez.
+Az Excel-fájlok kezeléséhez először hozzon létre egy példányt a `Workbook` osztály. Ez szolgál alapul a munkalapok és egyéb funkciók eléréséhez.
 ```java
 import com.aspose.cells.*;
 
@@ -111,7 +113,7 @@ for (int i = 0; i < worksheet.getSparklineGroups().getCount(); i++) {
 
     for (int j = 0; j < g.getSparklines().getCount(); j++) { 
         Sparkline gg = g.getSparklines().get(j);
-        // Kinyomtatja az egyes sparkline-ok részleteit, például a sort, az oszlopot és az adattartományt.
+        // Kinyomtatja az egyes sparkline-ok részleteit, például a sort, oszlopot és adattartományt.
     }
 }
 ```
@@ -196,6 +198,9 @@ Megtanultad, hogyan hozhatsz létre és szabhatsz testre sparkline-okat Excelben
 - **Ideiglenes engedély:** Ideiglenes engedélyt igényeljen a következő címen: [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,10 +188,13 @@ public class SetFontSize {
 - **文件:** 探索詳細的 API 參考 [Aspose.Cells Java文檔](https://reference。aspose.com/cells/java/).
 - **下載：** 從 [發布頁面](https://releases。aspose.com/cells/java/).
 - **購買：** 直接從購買許可證 [購買頁面](https://purchase.aspose.com/buy) 如果您需要完全存取權限。
-- **免費試用：** 下載並開始免費試用
+- **免費試用：** 下載即可開始免費試用
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

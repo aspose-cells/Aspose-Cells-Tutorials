@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Vi kommer att konfigurera `TxtLoadOptions` för att ange hur Aspose.Cells ska ha
    TxtLoadOptions loadOptions = new TxtLoadOptions(LoadFormat.CSV);
    ```
 
-2. **Ställ in separator och kodning**:
+2. **Ställ in avgränsare och kodning**:
    
    Definiera avgränsartecknet (t.ex. ett komma) och sätt kodningen till UTF-8:
    
@@ -243,6 +245,9 @@ För att fortsätta utforska vad Aspose.Cells kan erbjuda, överväg att dyka in
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

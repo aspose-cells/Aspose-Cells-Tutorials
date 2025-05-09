@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 ## 導入
 共有ワークブックの管理は、特にリビジョンログの維持やシームレスなチームコラボレーションの確保など、困難な場合があります。Aspose.Cells for Java は、Excel ファイルをプログラムで作成、共有、管理するための強力な機能を提供し、ワークブック管理プロセスを効率化します。
 
-このガイドでは、以下の内容を取り上げます。
+このガイドでは、次の内容を取り上げます。
 - Aspose.Cells for Java の現在のバージョンを表示しています。
 - 共有ワークブックを最初から作成します。
 - 特定の日付の履歴を保存するために、共有ブック内のリビジョン ログを構成します。
@@ -92,7 +94,7 @@ WritableCellSettings writableCellSettings = new WritableCellSettings(wb.getWorks
 writableCellSettings.setShared(true);
 wb.save("YOUR_OUTPUT_DIRECTORY/outputShared_Workbook.xlsx");
 ```
-### 共有ブックの変更ログの履歴を保持しながら更新日数を更新する
+### 共有ワークブックの変更ログの履歴を保持しながら更新日数を更新する
 **概要**共有ブックの変更履歴を保持する日数を調整します。
 
 #### ステップ1: Aspose.Cellsを初期化し、新しいワークブックを作成する
@@ -148,6 +150,9 @@ A5: はい、Spring や Hibernate などの一般的なフレームワークと�
 - **サポートフォーラム**： [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

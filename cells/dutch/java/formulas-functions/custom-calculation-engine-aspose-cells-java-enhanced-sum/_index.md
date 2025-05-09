@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Als volgende stap kunt u overwegen om meer geavanceerde functies van Aspose.Cell
 Nu u de implementatie van een aangepaste berekeningsengine in Aspose.Cells Java onder de knie hebt, kunt u uw vaardigheden op de proef stellen en uw spreadsheets optimaliseren zoals u dat nog nooit eerder hebt gedaan!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Dans ce guide, vous avez appris à modifier les données sources d'un tableau cr
 Grâce à ces ressources et à ce guide complet, vous êtes désormais équipé pour gérer efficacement les modifications des données sources des tableaux croisés dynamiques avec Aspose.Cells en Java. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ Khám phá các tính năng bổ sung của Aspose.Cells như chuyển đổi bi
 Hướng dẫn này đóng vai trò là hướng dẫn toàn diện về cách chuyển đổi tệp Excel sang HTML bằng Aspose.Cells for Java, đảm bảo tính rõ ràng và chức năng trong các bài thuyết trình trên web của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -155,7 +157,7 @@ Questo frammento ricalcola tutte le formule, assicurando che la cartella di lavo
 Regola automaticamente la larghezza delle colonne per adattarla al contenuto, migliorando così la leggibilità e la presentazione.
 
 #### Passaggi:
-- **Adattamento automatico delle colonne:**
+- **Adatta automaticamente le colonne:**
   ```java
   import com.aspose.cells.Worksheet;
   import com.aspose.cells.Workbook;
@@ -225,6 +227,9 @@ In questo tutorial, hai imparato come sfruttare Aspose.Cells per Java per esegui
 - [Repository GitHub di Aspose.Cells per Java](https://github.com/aspose-cells/Aspose.Cells-for-Java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

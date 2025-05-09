@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ A5: Βεβαιωθείτε ότι τα ονόματα περιοχών είνα�
 Για περισσότερες πληροφορίες, εξερευνήστε τους διαθέσιμους πόρους στη διεύθυνση [Λήψεις Aspose](https://releases.aspose.com/cells/java/) και εξετάστε το ενδεχόμενο απόκτησης προσωρινής άδειας χρήσης για πρόσβαση σε πλήρεις λειτουργίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

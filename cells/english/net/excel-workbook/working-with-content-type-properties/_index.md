@@ -8,7 +8,9 @@ url: /net/excel-workbook/working-with-content-type-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working With Content Type Properties
@@ -131,6 +133,7 @@ For more detailed guidance, refer to the [Aspose.Cells Documentation](https://re
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

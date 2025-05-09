@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 스프레드시트 자동화
@@ -43,14 +45,16 @@ Aspose.Cells for Java를 사용하여 소스 코드 예제를 통해 효율적�
 ### [Excel 통합 문서 자동화](./excel-workbook-automation/)
 Aspose.Cells를 사용하여 Java로 Excel 통합 문서 자동화를 배워보세요. 프로그래밍 방식으로 Excel 파일을 만들고, 읽고, 업데이트하세요. 지금 바로 시작하세요!
 ### [Excel 차트 자동화](./automating-excel-charts/)
-Aspose.Cells for Java를 사용하여 Excel 차트 생성 및 사용자 지정을 자동화하는 방법을 소스 코드 예제와 함께 살펴보세요. 차트 작성 작업을 간소화하세요. 
+Aspose.Cells for Java를 사용하여 Excel 차트 생성 및 사용자 지정을 자동화하는 방법을 소스 코드 예제와 함께 살펴보세요. 차트 작업 효율을 높여 보세요. 
 ### [Java를 사용한 Excel 자동화](./excel-automation-with-java/)
 Aspose.Cells는 Excel 조작을 위한 강력한 라이브러리로, 소스 코드 예제를 통해 Java에서 Excel 작업을 자동화하는 방법을 알아봅니다.
 ### [Excel에서 데이터 통합](./data-integration-in-excel/)
 더 나은 통찰력과 의사 결정을 위해 Excel에서 데이터를 효율적으로 통합하는 방법을 알아보세요. Aspose.Cells for Java를 사용하여 소스 코드를 포함한 단계별 가이드를 제공합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### 설명:
-- **`Workbook`**: Excel 파일을 나타냅니다.
+- **`Workbook`**Excel 파일을 나타냅니다.
 - **`Worksheet`**: 통합 문서의 시트를 의미합니다.
 - **`Cells`**: 워크시트의 셀 모음입니다.
 - **`Style`**: 셀 서식을 지정하는 데 사용됩니다.
@@ -200,6 +202,9 @@ Java용 Aspose.Cells를 사용할 때 다음 팁을 고려하세요.
 - **선적 서류 비치**: 포괄적인 가이드와 API 참조는 다음에서 찾을 수 있습니다. [Aspose.Cells 문서](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

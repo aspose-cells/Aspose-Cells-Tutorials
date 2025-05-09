@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Dowiedz się, jak efektywnie tworzyć i optymalizować skoroszyty programu Excel
 ### [Zarządzanie długimi operacjami w Javie przy użyciu Aspose.Cells InterruptMonitor](./aspose-cells-java-interruptmonitor-manage-long-operations/)
 Dowiedz się, jak optymalizować długotrwałe operacje za pomocą Aspose.Cells for Java, korzystając z funkcji InterruptMonitor. Zwiększ wydajność i komfort użytkowania.
 
-### [Efektywne zarządzanie dużymi plikami Excela w Javie z Aspose.Cells](./aspose-cells-java-large-excel-files/)
+### [Efektywne zarządzanie dużymi plikami Excela w Javie za pomocą Aspose.Cells](./aspose-cells-java-large-excel-files/)
 Dowiedz się, jak wydajnie odczytywać i przetwarzać duże pliki Excela za pomocą Aspose.Cells for Java. Zoptymalizuj ustawienia pamięci, bezproblemowo integruj i zwiększ wydajność.
 
 ### [Główny skoroszyt optymalizacji pamięci z Aspose.Cells dla Java](./aspose-cells-java-workbook-memory-optimization/)
@@ -71,13 +73,16 @@ Dowiedz się, jak skutecznie optymalizować i zarządzać komórkami skoroszytu 
 ## Dodatkowe zasoby
 
 - [Dokumentacja Aspose.Cells dla Java](https://docs.aspose.com/cells/java/)
-- [Aspose.Cells dla API Java Odniesienie](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dla API Java Referencja](https://reference.aspose.com/cells/java/)
 - [Pobierz Aspose.Cells dla Java](https://releases.aspose.com/cells/java/)
 - [Bezpłatne wsparcie](https://forum.aspose.com/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

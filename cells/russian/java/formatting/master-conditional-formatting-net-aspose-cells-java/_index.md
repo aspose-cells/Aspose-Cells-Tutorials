@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 
-1. **Требуемые библиотеки:**
+1. **Необходимые библиотеки:**
    - Aspose.Cells для Java версии 25.3 или более поздней
    - Базовая среда разработки Java (JDK, IDE, например IntelliJ IDEA, Eclipse)
 
@@ -206,6 +208,9 @@ Workbook workbook = new Workbook();
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

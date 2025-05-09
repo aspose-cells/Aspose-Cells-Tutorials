@@ -1,14 +1,16 @@
 ---
-title: แปลงแผนภูมิเป็น PDF
-linktitle: แปลงแผนภูมิเป็น PDF
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้การแปลงแผนภูมิ Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนง่ายๆ นี้ สำรวจเคล็ดลับสำคัญและตัวอย่างการเขียนโค้ด
-weight: 11
-url: /th/net/chart-rendering-and-conversion/convert-chart-to-pdf/
+"description": "เรียนรู้การแปลงแผนภูมิ Excel เป็น PDF โดยใช้ Aspose.Cells สำหรับ .NET ด้วยคู่มือทีละขั้นตอนง่ายๆ นี้ สำรวจเคล็ดลับสำคัญและตัวอย่างการเขียนโค้ด"
+"linktitle": "แปลงแผนภูมิเป็น PDF"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "แปลงแผนภูมิเป็น PDF"
+"url": "/th/net/chart-rendering-and-conversion/convert-chart-to-pdf/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงแผนภูมิเป็น PDF
@@ -25,7 +27,7 @@ url: /th/net/chart-rendering-and-conversion/convert-chart-to-pdf/
 ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ไว้ในเครื่องของคุณแล้ว Aspose.Cells เข้ากันได้กับเวอร์ชันต่างๆ แต่จะทำงานได้ดีที่สุดกับเวอร์ชันล่าสุด
 
 ### ห้องสมุดเซลล์ Aspose
- คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/cells/net/)ไลบรารีนี้มาพร้อมกับ API ที่มีฟังก์ชันทั้งหมดที่คุณต้องการสำหรับการจัดการ Excel
+คุณจะต้องมีไลบรารี Aspose.Cells สำหรับ .NET คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/cells/net/)ไลบรารีนี้มาพร้อมกับ API ที่มีฟังก์ชันทั้งหมดที่คุณต้องการสำหรับการจัดการ Excel
 
 ### วิชวลสตูดิโอ
 การติดตั้ง Visual Studio ถือเป็นสิ่งสำคัญ เนื่องจากเป็น IDE ที่ยอดเยี่ยมในการเขียนโค้ด .NET ได้อย่างราบรื่น
@@ -58,7 +60,7 @@ url: /th/net/chart-rendering-and-conversion/convert-chart-to-pdf/
 
 ### นำเข้าเนมสเปซที่จำเป็น
 
- ที่ด้านบนของคุณ`Program.cs` ไฟล์ เพิ่มเนมสเปซต่อไปนี้:
+ที่ด้านบนของคุณ `Program.cs` ไฟล์ เพิ่มเนมสเปซต่อไปนี้:
 
 ```csharp
 using System;
@@ -83,7 +85,7 @@ string outputDir = "Your Output Directory";
 string sourceDir = "Your Document Directory";
 ```
 
- อย่าลืมเปลี่ยน`"Your Output Directory"` และ`"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ของคุณตั้งอยู่
+อย่าลืมเปลี่ยน `"Your Output Directory"` และ `"Your Document Directory"` ด้วยเส้นทางจริงที่ไฟล์ของคุณตั้งอยู่
 
 ## ขั้นตอนที่ 2: โหลดสมุดงาน Excel
 
@@ -160,7 +162,7 @@ Console.WriteLine("ChartToPdf executed successfully.");
 ## คำถามที่พบบ่อย
 
 ### Aspose.Cells สามารถแปลงแผนภูมิหลายรายการพร้อมกันได้หรือไม่
- ใช่ คุณสามารถวนซ้ำผ่านได้`worksheet.Charts` การรวบรวมเพื่อแปลงแผนภูมิแต่ละรายการทีละรายการ
+ใช่ คุณสามารถวนซ้ำผ่านได้ `worksheet.Charts` การรวบรวมเพื่อแปลงแผนภูมิแต่ละรายการทีละรายการ
 
 ### Aspose.Cells เหมาะกับไฟล์ Excel ขนาดใหญ่หรือไม่
 แน่นอน! Aspose.Cells ได้รับการปรับปรุงประสิทธิภาพและสามารถจัดการไฟล์ Excel ขนาดใหญ่ได้อย่างมีประสิทธิภาพ
@@ -169,13 +171,15 @@ Console.WriteLine("ChartToPdf executed successfully.");
 Aspose.Cells รองรับ .NET หลายเวอร์ชัน รวมถึง .NET Framework และ .NET Core
 
 ### ฉันสามารถหาเอกสารโดยละเอียดได้ที่ไหน
- เยี่ยมชม[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
+เยี่ยมชม [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
 
 ### มีเวอร์ชันทดลองใช้งานฟรีหรือไม่?
- ใช่! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+ใช่! คุณสามารถดาวน์โหลดรุ่นทดลองใช้งานฟรีได้จาก [ที่นี่](https://releases-aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ excelbook.save("YOUR_OUTPUT_DIRECTORY/AddingAnOvalShape_out.xls");
 باتباع هذا الدليل، أصبحتَ الآن جاهزًا لتحسين جداول بيانات Excel لديك بأشكال مخصصة باستخدام Aspose.Cells لـ Java. برمجة ممتعة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,35 +1,37 @@
 ---
-title: Criar gráfico de pizza
-linktitle: Criar gráfico de pizza
-second_title: API de processamento do Aspose.Cells .NET Excel
-description: Aprenda a criar um gráfico de pizza no Excel usando Aspose.Cells para .NET com este guia passo a passo. Visualize seus dados sem esforço.
-weight: 12
-url: /pt/net/manipulating-chart-types/create-pie-chart/
+"description": "Aprenda a criar um gráfico de pizza no Excel usando o Aspose.Cells para .NET com este guia passo a passo. Visualize seus dados sem esforço."
+"linktitle": "Criar gráfico de pizza"
+"second_title": "API de processamento do Excel Aspose.Cells .NET"
+"title": "Criar gráfico de pizza"
+"url": "/pt/net/manipulating-chart-types/create-pie-chart/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Criar gráfico de pizza
 
 ## Introdução
 
-Criar gráficos é essencial para representar dados visualmente, e gráficos de pizza são uma das maneiras mais populares de ilustrar como as partes compõem um todo. Com o Aspose.Cells para .NET, você pode automatizar facilmente a geração de gráficos de pizza em arquivos do Excel. Neste tutorial, vamos nos aprofundar em como criar um gráfico de pizza do zero usando o Aspose.Cells para .NET, com um guia passo a passo para tornar o processo suave e direto. Não importa se você é novo na ferramenta ou está procurando aprimorar suas habilidades de automação do Excel, este guia tem tudo o que você precisa!
+Criar gráficos é essencial para representar dados visualmente, e gráficos de pizza são uma das maneiras mais populares de ilustrar como as partes formam um todo. Com o Aspose.Cells para .NET, você pode automatizar facilmente a geração de gráficos de pizza em arquivos do Excel. Neste tutorial, vamos nos aprofundar em como criar um gráfico de pizza do zero usando o Aspose.Cells para .NET, com um guia passo a passo para tornar o processo simples e fácil. Seja você iniciante na ferramenta ou buscando aprimorar suas habilidades de automação do Excel, este guia tem tudo o que você precisa!
 
 ## Pré-requisitos
 
 Antes de mergulhar no código, certifique-se de ter o seguinte configurado:
 
-1.  Biblioteca Aspose.Cells para .NET: Certifique-se de ter o Aspose.Cells instalado em seu projeto. Se você ainda não o instalou, você pode baixá-lo em[aqui](https://releases.aspose.com/cells/net/).
+1. Biblioteca Aspose.Cells para .NET: Certifique-se de ter o Aspose.Cells instalado em seu projeto. Se ainda não o instalou, você pode baixá-lo em [aqui](https://releases.aspose.com/cells/net/).
 2. Ambiente de desenvolvimento .NET: certifique-se de que seu projeto esteja configurado para usar o .NET Framework ou o .NET Core.
 3. Conhecimento básico de C#: você deve estar familiarizado com programação em C#, especialmente programação orientada a objetos (POO).
 
- Para usuários avançados, uma licença temporária pode ser aplicada para desbloquear todos os recursos do Aspose.Cells. Você pode solicitar uma de[aqui](https://purchase.aspose.com/temporary-license/).
+Para usuários avançados, uma licença temporária pode ser aplicada para desbloquear todos os recursos do Aspose.Cells. Você pode solicitar uma em [aqui](https://purchase.aspose.com/temporary-license/).
 
 ## Pacotes de importação
 
-Para começar, importe os namespaces e pacotes necessários para este tutorial. Eles incluem operações básicas de E/S e o pacote Aspose.Cells.
+Para começar, importe os namespaces e pacotes necessários para este tutorial. Estes incluem operações básicas de E/S e o pacote Aspose.Cells.
 
 ```csharp
 using System;
@@ -41,9 +43,9 @@ using System.Drawing;
 using Aspose.Cells.Charts;
 ```
 
-## Etapa 1: Crie uma nova pasta de trabalho
+## Etapa 1: Criar uma nova pasta de trabalho
 
- Primeiro, precisamos criar uma instância do`Workbook` class, que representa o arquivo Excel. Uma pasta de trabalho contém várias planilhas e, para nosso exemplo, trabalharemos com duas planilhas — uma para dados e uma para o gráfico de pizza.
+Primeiro, precisamos criar uma instância do `Workbook` class, que representa o arquivo do Excel. Uma pasta de trabalho contém várias planilhas e, no nosso exemplo, trabalharemos com duas planilhas — uma para dados e outra para o gráfico de pizza.
 
 ```csharp
 Workbook workbook = new Workbook();
@@ -53,7 +55,7 @@ Isso inicializa uma nova pasta de trabalho do Excel. Mas para onde vão os dados
 
 ## Etapa 2: Adicionar dados à planilha
 
-Depois que a pasta de trabalho for criada, precisamos acessar a primeira planilha e dar um nome a ela. É aqui que inseriremos os dados necessários para o gráfico de pizza.
+Após a criação da pasta de trabalho, precisamos acessar a primeira planilha e dar um nome a ela. É aqui que inseriremos os dados necessários para o gráfico de pizza.
 
 ```csharp
 Worksheet sheet = workbook.Worksheets[0];
@@ -95,22 +97,22 @@ Worksheet chartSheet = workbook.Worksheets[sheetIndex];
 chartSheet.Name = "Chart";
 ```
 
-Esta nova planilha hospedará o gráfico de pizza. Dar a ele um nome como "Gráfico" garante que os usuários saibam o que esperar quando abrirem o arquivo.
+Esta nova planilha hospedará o gráfico de pizza. Nomeá-lo como "Gráfico" garante que os usuários saibam o que esperar ao abrir o arquivo.
 
 ## Etapa 4: Crie o gráfico de pizza
 
-Agora é hora de criar o gráfico real. Especificaremos que queremos um gráfico de pizza e definiremos sua posição na planilha.
+Agora é hora de criar o gráfico propriamente dito. Especificaremos que queremos um gráfico de pizza e definiremos sua posição na planilha.
 
 ```csharp
 int chartIndex = chartSheet.Charts.Add(Aspose.Cells.Charts.ChartType.Pie, 5, 0, 25, 10);
 Aspose.Cells.Charts.Chart chart = chartSheet.Charts[chartIndex];
 ```
 
- O método`Add()`aceita parâmetros para o tipo de gráfico (neste caso,`ChartType.Pie`), e sua localização na planilha. Os números representam posições de linha e coluna.
+O método `Add()` aceita parâmetros para o tipo de gráfico (neste caso, `ChartType.Pie`) e sua localização na planilha. Os números representam as posições das linhas e colunas.
 
-## Etapa 5: personalizar a aparência do gráfico
+## Etapa 5: personalize a aparência do gráfico
 
-Um gráfico de pizza não estaria completo sem alguma personalização! Vamos tornar nosso gráfico visualmente atraente ajustando as cores, rótulos e título.
+Um gráfico de pizza não estaria completo sem alguma personalização! Vamos deixar nosso gráfico visualmente atraente ajustando as cores, os rótulos e o título.
 
 ### Definir título do gráfico
 ```csharp
@@ -131,7 +133,7 @@ Definimos o preenchimento de gradiente para a área de plotagem e ocultamos a bo
 
 ## Etapa 6: Definir dados do gráfico
 
- É hora de vincular o gráfico aos nossos dados. O`NSeries` propriedade do gráfico vincula os números de vendas e regiões ao gráfico de pizza.
+É hora de vincular o gráfico aos nossos dados. O `NSeries` propriedade do gráfico vincula os números de vendas e regiões ao gráfico de pizza.
 
 ```csharp
 chart.NSeries.Add("Data!B2:B8", true);
@@ -139,11 +141,11 @@ chart.NSeries.CategoryData = "Data!A2:A8";
 chart.NSeries.IsColorVaried = true;
 ```
 
- A primeira linha especifica que estamos usando os dados de vendas das células`B2:B8` . Também informamos ao gráfico para usar os nomes das regiões de`A2:A8` como rótulos de categoria.
+A primeira linha especifica que estamos usando os dados de vendas das células `B2:B8`. Também informamos ao gráfico para usar os nomes das regiões de `A2:A8` como rótulos de categoria.
 
 ## Etapa 7: Adicionar rótulos de dados
 
-Adicionar rótulos diretamente aos segmentos do gráfico pode facilitar o entendimento. Vamos incluir os nomes das regiões e os valores de vendas dentro das fatias do gráfico de pizza.
+Adicionar rótulos diretamente aos segmentos do gráfico pode facilitar a compreensão. Vamos incluir os nomes das regiões e os valores de vendas nas fatias do gráfico de pizza.
 
 ```csharp
 for (int i = 0; i < chart.NSeries.Count; i++)
@@ -157,7 +159,7 @@ for (int i = 0; i < chart.NSeries.Count; i++)
 
 ## Etapa 8: personalizar a área do gráfico e a legenda
 
-Por fim, vamos dar alguns toques finais à área do gráfico e à legenda. Isso melhora a apresentação geral do gráfico.
+Por fim, vamos dar alguns retoques finais à área do gráfico e à legenda. Isso aprimora a apresentação geral do gráfico.
 
 ### Área do gráfico
 ```csharp
@@ -185,7 +187,7 @@ workbook.Save(outputDir + "outputHowToCreatePieChart.xlsx");
 
 ## Conclusão
 
-Criar um gráfico de pizza com o Aspose.Cells para .NET é um processo simples e personalizável. Seguindo este guia, você pode gerar um gráfico de aparência profissional que transmite insights valiosos em apenas algumas etapas. Seja para relatórios comerciais ou fins educacionais, dominar a criação de gráficos elevará suas habilidades de automação do Excel. Lembre-se, o Aspose.Cells fornece a flexibilidade necessária para criar arquivos Excel impressionantes e orientados a dados sem esforço.
+Criar um gráfico de pizza com o Aspose.Cells para .NET é um processo simples e personalizável. Seguindo este guia, você pode gerar um gráfico com aparência profissional que transmite insights valiosos em apenas algumas etapas. Seja para relatórios comerciais ou fins educacionais, dominar a criação de gráficos elevará suas habilidades de automação do Excel. Lembre-se: o Aspose.Cells oferece a flexibilidade necessária para criar arquivos Excel impressionantes e baseados em dados sem esforço.
 
 ## Perguntas frequentes
 
@@ -193,19 +195,21 @@ Criar um gráfico de pizza com o Aspose.Cells para .NET é um processo simples e
 Sim! O Aspose.Cells suporta vários tipos de gráficos, incluindo gráficos de barras, gráficos de linhas e gráficos de dispersão.
 
 ### Preciso de uma licença paga para usar o Aspose.Cells para .NET?
-Você pode usar a versão gratuita com algumas limitações. Para recursos completos, você precisará de uma licença, que pode ser comprada[aqui](https://purchase.aspose.com/buy).
+Você pode usar a versão gratuita com algumas limitações. Para obter todos os recursos, você precisará de uma licença, que pode ser adquirida [aqui](https://purchase.aspose.com/buy).
 
 ### Posso exportar o gráfico para formatos como PDF ou imagens?
-Absolutamente! O Aspose.Cells permite que você exporte gráficos para vários formatos, incluindo PDF e PNG.
+Com certeza! O Aspose.Cells permite exportar gráficos para vários formatos, incluindo PDF e PNG.
 
 ### É possível estilizar cada fatia de torta com cores diferentes?
- Sim, você pode aplicar cores diferentes a cada fatia definindo o`IsColorVaried` propriedade para`true`, conforme mostrado no tutorial.
+Sim, você pode aplicar cores diferentes a cada fatia definindo o `IsColorVaried` propriedade para `true`, conforme mostrado no tutorial.
 
 ### Posso automatizar a geração de vários gráficos em uma única pasta de trabalho?
-Sim, você pode criar e personalizar quantos gráficos forem necessários em um único arquivo do Excel.
+Sim, você pode criar e personalizar quantos gráficos precisar em um único arquivo do Excel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

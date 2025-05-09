@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Redo att förbättra dina kunskaper i Excel-diagram? Låt oss börja med att gå
 Innan du börjar skapa Excel-diagram, se till att du har följande inställningar redo:
 - **Bibliotek och beroenden:** Aspose.Cells för Java version 25.3 krävs. Se till att din utvecklingsmiljö inkluderar detta bibliotek.
 - **Miljöinställningar:** En kompatibel JDK bör vara installerad på din maskin. Vi kommer att använda Maven eller Gradle för att hantera beroenden, vilket förenklar processen att inkludera Aspose.Cells i ditt projekt.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och förtrogenhet med Excel hjälper dig att förstå koncepten mer effektivt.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och förtrogenhet med Excel hjälper dig att förstå koncepten mer effektivt.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -170,6 +172,9 @@ A: Den [Aspose-forumet](https://forum.aspose.com/c/cells/9) är en utmärkt resu
 - **Support och forum:** Gå med i gemenskapen eller sök hjälp på [Aspose-forumet](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

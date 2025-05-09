@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -39,7 +41,7 @@
    - ตรวจสอบให้แน่ใจว่าระบบของคุณมีการติดตั้ง Maven หรือ Gradle เพื่อจัดการการอ้างอิง
    - ดาวน์โหลดและตั้งค่า JDK เวอร์ชันที่จำเป็นที่เข้ากันได้กับ Aspose.Cells
 
-3. **ข้อกำหนดเบื้องต้นของความรู้:**
+3. **ข้อกำหนดความรู้เบื้องต้น:**
    - ความคุ้นเคยกับแนวคิดการเขียนโปรแกรมภาษา Java
    - ความเข้าใจพื้นฐานเกี่ยวกับสมุดงาน Excel และการจัดรูปแบบตามเงื่อนไข
 
@@ -51,7 +53,7 @@
 
 ### การตั้งค่า Maven
 
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml` ไฟล์:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -206,6 +208,9 @@ Workbook workbook = new Workbook();
      ```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # CSV 내보내기 Java 코드
@@ -79,7 +81,7 @@ IDE에서 Java 코드를 컴파일하고 실행하세요. 프로젝트 디렉터
 ## 자주 묻는 질문
 
 ### 1. CSV 구분 문자를 사용자 정의할 수 있나요?
-   예, 구분 기호 문자를 수정하여 사용자 정의할 수 있습니다. `options.setSeparator(',')` 코드의 줄을 바꿉니다. `','` 원하는 구분 기호로 표시하세요.
+   예, 구분 기호 문자를 수정하여 사용자 정의할 수 있습니다. `options.setSeparator(',')` 코드의 줄을 바꿉니다. `','` 원하는 구분 기호로.
 
 ### 2. Aspose.Cells는 대용량 데이터 세트에 적합합니까?
    네, Aspose.Cells는 대용량 데이터 세트를 효율적으로 처리할 수 있으며 다양한 최적화 옵션을 제공합니다.
@@ -94,9 +96,11 @@ IDE에서 Java 코드를 컴파일하고 실행하세요. 프로젝트 디렉터
    Aspose.Cells 문서를 방문하세요 [여기](https://reference.aspose.com/cells/java/) 포괄적인 자료와 사례를 확인하세요.
 
 자유롭게 탐색하고 이 코드를 자신의 특정 요구 사항에 맞게 수정해 보세요. 즐거운 코딩 되세요!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

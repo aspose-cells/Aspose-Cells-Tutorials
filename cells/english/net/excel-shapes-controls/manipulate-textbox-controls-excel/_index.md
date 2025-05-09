@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/manipulate-textbox-controls-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulate TextBox Controls in Excel
@@ -98,9 +100,11 @@ Yes, Aspose.Cells allows you to add new text boxes using the `AddTextBox` method
 Yes, you'll need to purchase a license, but Aspose also offers a [free trial](https://releases.aspose.com/).
 ### Can I use Aspose.Cells with other programming languages besides C#?
 Yes, Aspose.Cells can be used with any .NET-supported language, such as VB.NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

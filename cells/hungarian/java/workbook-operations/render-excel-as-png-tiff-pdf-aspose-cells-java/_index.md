@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -58,7 +60,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Az Aspose.Cells beállításához kövesse az alábbi lépéseket:
 1. Győződjön meg róla, hogy a fejlesztői környezete készen áll a JDK és a kívánt IDE használatával.
 2. Adjuk hozzá az Aspose.Cells függőséget Maven vagy Gradle használatával a fent látható módon.
-3. Töltsön le egy ideiglenes vagy teljes licencet innen: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) az értékelési korlátok megszüntetése érdekében.
+3. Töltsön le egy ideiglenes vagy teljes licencet innen [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy) az értékelési korlátok megszüntetése érdekében.
 
 **Alapvető inicializálás:**
 Kezdje egy `Workbook` objektum a Java alkalmazásodban:
@@ -103,7 +105,7 @@ Ebben a részben azt vizsgáljuk meg, hogyan lehet Excel fájlokat PNG, TIFF és
    sr.toImage(0, "YOUR_OUTPUT_DIRECTORY/output.png"); // Mentse el a PNG fájlt
    ```
 
-### Excelből TIFF formátumot renderel alapértelmezett betűtípussal
+### Excel TIFF formátumba renderelése alapértelmezett betűtípussal
 **Áttekintés:** Egy teljes Excel-munkafüzetet többoldalas TIFF-képpé alakíthat, ügyelve arra, hogy minden karakter az alapértelmezett betűtípussal jelenjen meg.
 
 #### Lépésről lépésre útmutató:
@@ -176,7 +178,7 @@ Most már megtanultad, hogyan konvertálhatsz Excel fájlokat PNG, TIFF és PDF 
 
 ## Erőforrás
 - **Dokumentáció:** [Aspose.Cells Java dokumentáció](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells Java-hoz letöltések](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells Java-hoz letöltések](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
@@ -185,6 +187,9 @@ Most már megtanultad, hogyan konvertálhatsz Excel fájlokat PNG, TIFF és PDF 
 Ezzel az útmutatóval most már képes leszel Excel fájlokat PNG, TIFF és PDF formátumba konvertálni az Aspose.Cells for Java segítségével. Bővítsd adatmegosztási képességeidet ezekkel a sokoldalú konvertálási technikákkal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

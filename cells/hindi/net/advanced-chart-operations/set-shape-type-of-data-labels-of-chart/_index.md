@@ -1,14 +1,16 @@
 ---
-title: चार्ट के डेटा लेबल का आकार प्रकार सेट करें
-linktitle: चार्ट के डेटा लेबल का आकार प्रकार सेट करें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: .NET के लिए Aspose.Cells का उपयोग करके अनुकूलित डेटा लेबल आकृतियों के साथ अपने Excel चार्ट को बेहतर बनाएँ। अपने डेटा प्रस्तुतिकरण को बेहतर बनाने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 14
-url: /hi/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
+"description": ".NET के लिए Aspose.Cells का उपयोग करके अनुकूलित डेटा लेबल आकृतियों के साथ अपने Excel चार्ट को बेहतर बनाएँ। अपने डेटा प्रस्तुतिकरण को बेहतर बनाने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
+"linktitle": "चार्ट के डेटा लेबल का आकार प्रकार सेट करें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट के डेटा लेबल का आकार प्रकार सेट करें"
+"url": "/hi/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट के डेटा लेबल का आकार प्रकार सेट करें
@@ -21,7 +23,7 @@ url: /hi/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
 
 कोडिंग शुरू करने से पहले, आइए सुनिश्चित करें कि आपने सब कुछ सही तरीके से सेट कर लिया है। आपको ये चीज़ें चाहिए होंगी:
 
-1.  .NET के लिए Aspose.Cells: यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहाँ से डाउनलोड करें[Aspose वेबसाइट](https://releases.aspose.com/cells/net/)यह लाइब्रेरी एक्सेल दस्तावेजों के साथ सभी प्रकार के हेरफेर की अनुमति देती है।
+1. .NET के लिए Aspose.Cells: यदि आपने पहले से ऐसा नहीं किया है, तो इसे यहाँ से डाउनलोड करें [Aspose वेबसाइट](https://releases.aspose.com/cells/net/)यह लाइब्रेरी एक्सेल दस्तावेजों के साथ सभी प्रकार के हेरफेर की अनुमति देती है।
 2. विज़ुअल स्टूडियो: .NET एप्लिकेशन लिखने और चलाने के लिए आपके सिस्टम पर यह इंस्टॉल होना चाहिए। सुनिश्चित करें कि यह वह संस्करण है जो आपकी परियोजना की ज़रूरतों के अनुसार .NET फ्रेमवर्क या .NET कोर का समर्थन करता है।
 3. C# की बुनियादी समझ: बुनियादी प्रोग्रामिंग अवधारणाओं और C# सिंटैक्स से परिचित होना निश्चित रूप से आपको कोड स्निपेट को बेहतर ढंग से समझने में मदद करेगा।
 4. एक्सेल फ़ाइल: आपको काम करने के लिए एक नमूना एक्सेल वर्कबुक की भी आवश्यकता होगी। आप अपनी खुद की बना सकते हैं या किसी मौजूदा वर्कबुक का उपयोग कर सकते हैं।
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- प्रतिस्थापित करें`"Your Document Directory"` और`"Your Output Directory"` आपके मशीन पर वास्तविक पथ के साथ.
+प्रतिस्थापित करें `"Your Document Directory"` और `"Your Output Directory"` आपके मशीन पर वास्तविक पथ के साथ.
 
 ## चरण 2: स्रोत एक्सेल फ़ाइल लोड करें
 
@@ -73,7 +75,7 @@ string outputDir = "Your Output Directory";
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- यह पंक्ति एक नया निर्माण करती है`Workbook` ऑब्जेक्ट को चुनें और उसे अपनी मौजूदा फ़ाइल की ओर इंगित करें। सुनिश्चित करें कि फ़ाइल पथ सही है!
+यह पंक्ति एक नया निर्माण करती है `Workbook` ऑब्जेक्ट को चुनें और उसे अपनी मौजूदा फ़ाइल की ओर इंगित करें। सुनिश्चित करें कि फ़ाइल पथ सही है!
 
 ## चरण 3: पहली वर्कशीट तक पहुँचें
 
@@ -84,7 +86,7 @@ Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xl
 Worksheet ws = wb.Worksheets[0];
 ```
 
- यहाँ, हम पहली वर्कशीट (इंडेक्स) तक पहुँच रहे हैं`0`) यदि आपका चार्ट किसी भिन्न शीट पर स्थित है तो सूचकांक समायोजित करें।
+यहाँ, हम पहली वर्कशीट (इंडेक्स) तक पहुँच रहे हैं `0`यदि आपका चार्ट किसी भिन्न शीट पर स्थित है तो सूचकांक समायोजित करें।
 
 ## चरण 4: पहले चार्ट तक पहुंचें
 
@@ -117,7 +119,7 @@ Series srs = ch.NSeries[0];
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- विभिन्न आकार प्रकारों के साथ प्रयोग करने के लिए स्वतंत्र महसूस करें`DataLabelShapeType.WedgeEllipseCallout` अन्य उपलब्ध विकल्पों के लिए!
+विभिन्न आकार प्रकारों के साथ प्रयोग करने के लिए स्वतंत्र महसूस करें `DataLabelShapeType.WedgeEllipseCallout` अन्य उपलब्ध विकल्पों के लिए!
 
 ## चरण 7: आउटपुट एक्सेल फ़ाइल को सेव करें
 
@@ -132,7 +134,7 @@ wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 
 ## चरण 8: निष्पादित करें और पुष्टि करें
 
-अंत में, अब आपके प्रोग्राम को चलाने का समय आ गया है। निष्पादित करने के बाद, आपको यह संदेश देखना चाहिए कि सब कुछ सुचारू रूप से चला!
+अंत में, अब आपके प्रोग्राम को चलाने का समय आ गया है। निष्पादित करने के बाद, आपको यह संदेश दिखाई देगा कि सब कुछ सुचारू रूप से चला!
 
 ```csharp
 Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
@@ -156,13 +158,15 @@ Aspose.Cells एक शक्तिशाली .NET लाइब्रेरी
 जबकि यह आलेख .NET पर केंद्रित है, Aspose.Cells REST API के माध्यम से Java, PHP, Python और अन्य का भी समर्थन करता है।
 
 ### क्या मुझे Aspose.Cells के लिए भुगतान करना होगा?  
-Aspose.Cells एक वाणिज्यिक उत्पाद है, लेकिन वे एक निःशुल्क परीक्षण प्रदान करते हैं, जिसे आप पा सकते हैं[यहाँ](https://releases.aspose.com/).
+Aspose.Cells एक वाणिज्यिक उत्पाद है, लेकिन वे एक निःशुल्क परीक्षण प्रदान करते हैं, जिसे आप पा सकते हैं [यहाँ](https://releases.aspose.com/).
 
 ### यदि मुझे Aspose.Cells के साथ कोई समस्या आती है तो मुझे सहायता कहां से मिल सकती है?  
- यदि आपको कोई समस्या आती है, तो उनके[सहयता मंच](https://forum.aspose.com/c/cells/9) विशेषज्ञों से सहायता प्राप्त करने के लिए एक बढ़िया संसाधन है।
+यदि आपको कोई समस्या आती है, तो उनके [सहयता मंच](https://forum.aspose.com/c/cells/9) विशेषज्ञों से सहायता प्राप्त करने के लिए एक बढ़िया संसाधन है।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

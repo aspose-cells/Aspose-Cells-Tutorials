@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Bevezetés
 
-Szeretné zökkenőmentesen betölteni egy Excel-munkafüzetet egy fájlból, vagy lekérdezési tábla eredményeit lekérni Java használatával? Akár adatfeldolgozási feladatok automatizálásáról, jelentések generálásáról vagy rendszerek integrálásáról van szó, ezeknek a funkcióknak az elsajátítása jelentősen növelheti a termelékenységet. Ez az oktatóanyag végigvezeti Önt ezen funkciók Aspose.Cells for Java használatával történő megvalósításán.
+Szeretné zökkenőmentesen betölteni egy Excel-munkafüzetet egy fájlból, vagy lekérdezési tábla eredményeit kérni le Java használatával? Akár adatfeldolgozási feladatok automatizálásáról, jelentések generálásáról vagy rendszerek integrálásáról van szó, ezeknek a funkcióknak az elsajátítása jelentősen növelheti a termelékenységet. Ez az oktatóanyag végigvezeti Önt ezen funkciók Aspose.Cells for Java használatával történő megvalósításán.
 
 **Amit tanulni fogsz:**
 - Hogyan lehet Excel munkafüzetet betölteni egy fájlból az Aspose.Cells használatával
@@ -57,7 +59,7 @@ Kezdésként építsd be az Aspose.Cells könyvtárat a projektedbe. Így tehete
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Licencbeszerzés lépései:
+### Licenc megszerzésének lépései:
 1. **Ingyenes próbaverzió**: Töltsön le egy próbacsomagot innen: [Az Aspose ingyenes próbaverziója](https://releases.aspose.com/cells/java/).
 2. **Ideiglenes engedély**Szerezzen be egy ideiglenes licencet az értékelési korlátozások eltávolításához a következőn keresztül: [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 3. **Vásárlás**Hosszú távú használathoz vásároljon licencet a következő címen: [Aspose Vásárlási oldal](https://purchase.aspose.com/buy).
@@ -187,6 +189,9 @@ Használja ki az automatizálás erejét az Aspose.Cells Java segítségével, �
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

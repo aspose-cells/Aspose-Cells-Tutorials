@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@ Bạn đã sẵn sàng chuyển đổi dữ liệu thô thành hình ảnh trự
 
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java**: Đây là thư viện cốt lõi cần thiết. Phiên bản được sử dụng ở đây là 25.3.
 
 ### Yêu cầu thiết lập môi trường:
@@ -58,7 +60,7 @@ Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 - **Dùng thử miễn phí**: Kiểm tra Aspose.Cells với các tính năng hạn chế.
 - **Giấy phép tạm thời**: Xin giấy phép tạm thời để truy cập đầy đủ tính năng trong quá trình đánh giá.
 - **Mua**: Để sử dụng liên tục, hãy mua gói đăng ký.
@@ -187,6 +189,9 @@ Bằng cách làm theo hướng dẫn này, bạn đã học cách tạo sổ l�
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Thiết lập Aspose.Cells rất đơn giản. Sau đây là cách bạn có th�
 1. **Thêm Phụ thuộc:**
    - Sử dụng Maven hoặc Gradle để đưa Aspose.Cells vào dự án của bạn như minh họa ở trên.
 
-2. **Các bước xin cấp giấy phép:**
+2. **Các bước xin cấp phép:**
    - Nhận giấy phép dùng thử miễn phí để khám phá đầy đủ tính năng của Aspose.Cells.
    - Để sử dụng lâu dài, hãy cân nhắc mua giấy phép tạm thời hoặc gói đăng ký. Truy cập [Trang mua hàng của Aspose](https://purchase.aspose.com/buy) để biết thêm thông tin.
 
@@ -183,6 +185,9 @@ Chúng tôi khuyến khích bạn thử áp dụng những kỹ thuật này và
 - [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

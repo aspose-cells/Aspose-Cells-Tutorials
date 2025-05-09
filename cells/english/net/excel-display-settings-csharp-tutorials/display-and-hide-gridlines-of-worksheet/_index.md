@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/display-and-hide-gridlines-of-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Display And Hide Gridlines Of Worksheet
@@ -144,6 +146,7 @@ Aspose.Cells supports a wide range of formats, including `.xls`, `.xlsx`, `.csv`
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

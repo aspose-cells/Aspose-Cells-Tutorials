@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ Győződjön meg arról, hogy a fejlesztői környezet támogatja a Javát, és 
 - Fájl I/O műveletek megértése Java nyelven
 #### Az Aspose.Cells beállítása Java-hoz
 Miután elkészítetted a környezetedet és hozzáadtad a függőségeket, állítsd be az Aspose.Cells-t.
-**Licencbeszerzés lépései:**
+**Licenc megszerzésének lépései:**
 Az Aspose.Cells teljes kihasználásához érdemes lehet licencet beszerezni. Kezdje egy ingyenes próbaverzióval, vagy vásároljon ideiglenes licencet a képességeinek felméréséhez:
 - **Ingyenes próbaverzió:** Látogassa meg a [Aspose letöltési oldal](https://releases.aspose.com/cells/java/) a gyors kezdéshez.
 - **Ideiglenes engedély:** Szerezz egy [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hosszabb értékeléshez.
@@ -161,6 +163,9 @@ További információkért tekintse meg az alábbi linkeket:
 - **Támogatási fórum**: [Aspose támogató közösség](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

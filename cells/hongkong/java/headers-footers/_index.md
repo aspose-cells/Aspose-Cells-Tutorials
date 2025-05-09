@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 ## 您將學到什麼
 
 - 如何使用 Aspose.Cells for Java 執行頁首和頁尾操作
-- 逐步實現並附帶完整程式碼範例
+- 完整的程式碼範例逐步實現
 - 最佳實踐和優化技術
 - 頁首和頁尾常見問題的解決方案
 
@@ -84,7 +86,7 @@ Aspose.Words Java 程式碼教程
 ### [使用 Aspose.Cells for Java 在 Excel 中渲染特定頁面：綜合指南](./render-limited-pages-aspose-cells-java/)
 了解如何使用 Aspose.Cells for Java 從 Excel 檔案呈現有限的頁面，包括設定和最佳化技巧。
 
-### [使用 Aspose.Cells Java 在 Excel 中設定 A4 紙張尺寸：完整指南](./set-a4-paper-size-excel-aspose-cells-java/)
+### [使用 Aspose.Cells Java 在 Excel 中設定 A4 紙張大小：完整指南](./set-a4-paper-size-excel-aspose-cells-java/)
 了解如何使用 Aspose.Cells Java 將 Excel 檔案配置為 A4 紙張大小。本指南涵蓋設定、實施和最佳實務。
 
 ### [在 Aspose.Cells Java 中掌握紙張尺寸設定：輕鬆配置頁首和頁尾](./set-paper-size-aspose-cells-java-guide/)
@@ -102,6 +104,9 @@ Aspose.Words Java 程式碼教程
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

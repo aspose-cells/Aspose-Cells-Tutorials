@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B); // アクセシビリティ�
 
 - **PDF/A 準拠の理由** その `PDF/A` 標準により、ドキュメントが自己完結型となり、長期間アクセス可能になることが保証されます。これはアーカイブ目的には重要です。
 
-### ワークブックをアクセス可能なPDFとして保存する
+### ワークブックをアクセス可能な PDF として保存する
 
 最後に、設定したオプションを使用して、ワークブックを希望の形式で保存します。
 
@@ -174,6 +176,9 @@ Aspose.Cells for Javaを使ってExcelファイルをアクセシブルなPDFに
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

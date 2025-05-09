@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Узнайте, как автоматически изменять размер подписей данных диаграммы в Excel с помощью Aspose.Cells для Java, обеспечивая идеальную подгонку и удобочитаемость."
+"description": "Узнайте, как автоматически изменять размер подписей данных диаграммы в Excel с помощью Aspose.Cells для Java, обеспечивая идеальную подгонку и читаемость."
 "title": "Как автоматически изменять размер подписей данных диаграммы в Excel с помощью Aspose.Cells для Java"
 "url": "/ru/java/charts-graphs/aspose-cells-java-auto-resize-chart-data-labels/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ public class ResizeChartDataLabelShapeToFitText {
 Изучите эти ресурсы, чтобы углубить свои знания и расширить возможности Aspose.Cells Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

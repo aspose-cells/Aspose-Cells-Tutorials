@@ -1,14 +1,16 @@
 ---
-title: Phát hiện định dạng tệp của tệp được mã hóa trong .NET
-linktitle: Phát hiện định dạng tệp của tệp được mã hóa trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách phát hiện hiệu quả định dạng tệp của các tệp được mã hóa trong .NET bằng Aspose.Cells. Hướng dẫn đơn giản dành cho nhà phát triển.
-weight: 10
-url: /vi/net/security-and-encryption/detect-file-format-of-encrypted-files/
+"description": "Tìm hiểu cách phát hiện hiệu quả định dạng tệp của các tệp được mã hóa trong .NET bằng Aspose.Cells. Hướng dẫn đơn giản dành cho nhà phát triển."
+"linktitle": "Phát hiện định dạng tệp của tệp được mã hóa trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Phát hiện định dạng tệp của tệp được mã hóa trong .NET"
+"url": "/vi/net/security-and-encryption/detect-file-format-of-encrypted-files/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Phát hiện định dạng tệp của tệp được mã hóa trong .NET
@@ -19,7 +21,7 @@ Khi làm việc với các định dạng tệp, bạn có thể thường thấ
 Trước khi bắt đầu, bạn cần phải có một số điều kiện tiên quyết sau:
 1. Đã cài đặt Visual Studio: Đảm bảo bạn đã thiết lập Visual Studio hoặc môi trường phát triển .NET khác.
 2. .NET Framework: Đảm bảo bạn đang nhắm tới một .NET Framework tương thích (ít nhất là .NET Core hoặc .NET Framework).
-3. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells cho .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy liên kết tải xuống [đây](https://releases.aspose.com/cells/net/).
 4. Hiểu biết cơ bản về C#: Nắm vững kiến thức cơ bản về lập trình C# sẽ giúp quá trình này diễn ra suôn sẻ hơn.
 Bây giờ chúng ta đã có nền tảng, hãy nhập các gói cần thiết để bắt đầu viết mã.
 ## Nhập gói
@@ -33,16 +35,16 @@ Hãy đảm bảo thêm các lệnh nhập này vào đầu tệp C# của bạn
 Bây giờ, chúng ta hãy chia nhỏ từng bước. Chúng ta sẽ hướng dẫn tạo một chương trình đơn giản để phát hiện định dạng tệp của tệp Excel được mã hóa. Mỗi bước sẽ được chia nhỏ để rõ ràng và dễ theo dõi.
 ## Bước 1: Thiết lập thư mục tập tin của bạn
 
-Trước khi đi sâu vào mã, bạn cần đảm bảo rằng cấu trúc thư mục của bạn đã sẵn sàng. Điều cần thiết là phải biết chính xác nơi các tệp của bạn sẽ được lưu trữ và truy cập.
+Trước khi đi sâu vào mã, bạn cần đảm bảo rằng cấu trúc thư mục của bạn đã được thiết lập. Điều cần thiết là phải biết chính xác nơi các tệp của bạn sẽ được lưu trữ và truy cập.
 
 ```csharp
 // Thư mục nguồn
 string sourceDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục trên máy tính của bạn nơi lưu trữ tệp được mã hóa.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế đến thư mục trên máy tính của bạn nơi lưu trữ tệp được mã hóa.
 ## Bước 2: Chuẩn bị tệp được mã hóa của bạn
 
- Trong bước này, hãy đảm bảo rằng bạn có tệp Excel được mã hóa trong thư mục đã chỉ định. Ở đây, chúng tôi sẽ giả sử tệp có tên là`encryptedBook1.out.tmp`.
+Trong bước này, hãy đảm bảo rằng bạn có tệp Excel được mã hóa trong thư mục đã chỉ định. Ở đây, chúng tôi sẽ giả sử tệp có tên là `encryptedBook1.out.tmp`.
 
 ```csharp
 var filename = sourceDir + "encryptedBook1.out.tmp";
@@ -56,7 +58,7 @@ Stream stream = File.Open(filename, FileMode.Open);
 ```
 ## Bước 4: Phát hiện định dạng tệp
 
- Bây giờ đến phần ma thuật! Sử dụng`FileFormatUtil.DetectFileFormat` Phương pháp này cho phép bạn kiểm tra định dạng tệp. Phương pháp này cũng yêu cầu mật khẩu nếu tệp được mã hóa, vì vậy hãy đảm bảo nhập đúng mật khẩu.
+Bây giờ đến phần ma thuật! Sử dụng `FileFormatUtil.DetectFileFormat` Phương pháp này cho phép bạn kiểm tra định dạng tệp. Phương pháp này cũng yêu cầu mật khẩu nếu tệp được mã hóa, vì vậy hãy đảm bảo nhập đúng mật khẩu.
 
 ```csharp
 FileFormatInfo fileFormatInfo = FileFormatUtil.DetectFileFormat(stream, "1234"); // Mật khẩu là 1234
@@ -79,12 +81,14 @@ Hoàn toàn đúng! Sử dụng các khối try-catch để quản lý các ngo�
 ### Tôi phải làm sao nếu quên mật khẩu?
 Thật không may, bạn sẽ không thể truy cập định dạng tệp nếu không có mật khẩu.
 ### Tôi có thể tải xuống bản dùng thử miễn phí Aspose.Cells không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### Tôi có thể tìm tài liệu chi tiết hơn ở đâu?
- Bạn có thể khám phá tài liệu toàn diện về Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể khám phá tài liệu toàn diện về Aspose.Cells [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Vizuální návody k Aspose.Cells
 Ponořte se do našich vizuálních tutoriálů o Aspose.Cells, které jsou určeny pro vývojáře a nadšence, kteří chtějí zvládnout práci s tabulkami. Každý tutoriál pokrývá základní funkce knihovny Aspose.Cells, od základních operací, jako je vytváření a formátování tabulek, až po pokročilé funkce, jako je vizualizace dat a manipulace se vzorci. Ať už jste začátečník nebo zkušený vývojář, naše vizuální průvodci poskytují komplexní a snadno srozumitelné pokyny spolu s praktickými příklady.
@@ -24,46 +26,75 @@ Vizuální tutoriály Aspose.Cells pro .NET poskytují komplexní a podrobný n�
 Naučte se, jak vytvářet, upravovat a spravovat grafy v aplikacích .NET pomocí Aspose.Cells. Prozkoumejte různé typy grafů s jednoduchými a efektivními příklady.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Vytváření a formátování 3D grafů v Excelu" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Změna velikosti a umístění grafu v Excelu" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Změna směru popisků zaškrtnutí grafu v Excelu" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="Vytvoření PDF z tabulky v Excelu se zadanou velikostí stránky" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Vytvořte spojnicový graf s datovými značkami v Aspose.Cells" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="Nalezení typu hodnot X a Y v bodech grafu" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Získejte titulky grafu ze souboru ODS pomocí Aspose.Cells" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Úprava tvaru popisku dat grafu v Excelu" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Vytvořte tabulku v Excelu s Aspose.Cells pro .NET" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Kreslení objektů pomocí Aspose.Cells pro .NET](./net/drawing-objects/)
 Naučte se, jak vytvářet, upravovat a spravovat grafy v aplikacích .NET pomocí Aspose.Cells. Prozkoumejte různé typy grafů s jednoduchými a efektivními příklady.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Úprava popisků objektů OLE v Excelu pomocí Aspose.Cells" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Vytváření a ukládání souborů aplikace Excel pomocí Aspose.Cells" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Úprava zarovnání textu tvaru v Excelu pomocí Aspose.Cells" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Manipulace s uspořádáním tvarů v ose Z v Excelu pomocí Aspose.Cells" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Vytvořte sešit aplikace Excel s písmy Dálného východu a latinky" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Vyplňování textur dlaždic v Excelu pomocí Aspose.Cells" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Formátování v Aspose.Cells pro .NET – styly, barvy a další](./net/formatting/)
 Naučte se, jak používat formátování v Aspose.Cells pro .NET, včetně stylů, barev, písem, ohraničení a dalších prvků pro profesionální excelovské sestavy.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Přidání ohraničení do oblasti v Excelu pomocí Aspose.Cells" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Použití barev a pozadí v Excelu pomocí Aspose.Cells" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Sloučení buněk v Excelu pomocí Aspose.Cells pro .NET" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Nastavení barvy písma v buňkách aplikace Excel pomocí Aspose.Cells" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Nastavení názvu písma v Excelu pomocí Aspose.Cells" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Nastavení velikosti písma v Excelu pomocí Aspose.Cells" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Horizontální zarovnání textu v Excelu s Aspose.Cells" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Zalamování textu v buňkách aplikace Excel pomocí Aspose.Cells" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Kontingenční tabulky v Aspose.Cells pro .NET](./net/pivot-tables/)
 Naučte se, jak vytvářet, formátovat a spravovat kontingenční tabulky v Aspose.Cells pro .NET. Generujte dynamické sestavy a analyzujte data bez námahy v jazyce C#.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Vytvořte kontingenční tabulku v Excelu pomocí Aspose.Cells" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Uložit kontingenční tabulku jako ODS v Aspose.Cells" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 Toto jsou odkazy na některé užitečné zdroje:
@@ -181,8 +212,10 @@ Toto jsou odkazy na některé užitečné zdroje:
 
 
 ## Výukové programy Aspose.Cells pro Javu
+
 {{% alert color="primary" %}}
 Prozkoumejte tutoriály o Aspose.Cells pro Javu. Zvládněte práci s Excelovými soubory s příklady kódu. Zlepšete si své znalosti Javy ještě dnes!
+
 {{% /alert %}}
 
 Toto jsou odkazy na některé užitečné zdroje:
@@ -219,6 +252,7 @@ Toto jsou odkazy na některé užitečné zdroje:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

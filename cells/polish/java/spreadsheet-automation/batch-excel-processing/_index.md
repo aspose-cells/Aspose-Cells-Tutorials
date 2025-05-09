@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Przetwarzanie wsadowe w programie Excel
@@ -48,7 +50,7 @@ public class BatchExcelProcessing {
 
 ### 3. Ładowanie plików Excel
 
-Aby przetworzyć wiele plików Excel, musisz załadować je do swojej aplikacji. Możesz użyć pętli lub list do zarządzania plikami:
+Aby przetworzyć wiele plików Excel, musisz załadować je do swojej aplikacji. Możesz użyć pętli lub list, aby zarządzać plikami:
 
 ```java
 // Zdefiniuj listę ścieżek plików programu Excel
@@ -109,9 +111,11 @@ Automatyzacja przetwarzania wsadowego Excela za pomocą Aspose.Cells for Java up
    Zapoznaj się z dokumentacją API na stronie [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady.
 
 Zoptymalizuj zadania przetwarzania wsadowego w programie Excel i zwiększ produktywność, korzystając z Aspose.Cells for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ O Excel é fundamental na gestão de dados, mas manipular arquivos do Excel prog
 Este tutorial guiará você na criação de pastas de trabalho a partir de arquivos do Excel, acessando planilhas, recuperando e modificando formas usando o Aspose.Cells para Java.
 
 **O que você aprenderá:**
-- Criação e manipulação de pastas de trabalho em Java
+- Criando e manipulando pastas de trabalho em Java
 - Acessando e ajustando formas de planilhas com facilidade
 - Simplificando seu fluxo de trabalho com código eficiente
 
@@ -178,6 +180,9 @@ Tente implementar esta solução em seu próximo projeto e veja como o Aspose.Ce
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

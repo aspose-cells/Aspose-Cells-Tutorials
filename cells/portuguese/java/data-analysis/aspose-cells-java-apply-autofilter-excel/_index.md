@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ try {
 
 ## Considerações de desempenho
 Ao trabalhar com Aspose.Cells em Java:
-- **Otimize o uso da memória**: Para arquivos grandes, gerencie a memória de forma eficaz para evitar travamentos de aplicativos.
+- **Otimizar o uso da memória**: Para arquivos grandes, gerencie a memória de forma eficaz para evitar travamentos de aplicativos.
 - **Melhores Práticas**: Sempre feche as pastas de trabalho após o processamento usando `try-with-resources` quando aplicável.
 
 ## Conclusão
@@ -154,6 +156,9 @@ Você domina a automatização de tarefas de filtragem do Excel usando o Aspose.
 - **Apoiar**: Junte-se ao fórum da comunidade em [Suporte Aspose](https://forum.aspose.com/c/cells/9) para assistência.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

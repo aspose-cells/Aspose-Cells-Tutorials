@@ -8,7 +8,9 @@ url: /net/exporting-excel-to-html-with-advanced-options/setting-scalable-column-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Scalable Column Width Programmatically in Excel
@@ -101,9 +103,11 @@ You can purchase a license directly from Aspose on their [purchase page](https:/
 Besides HTML, you can convert Excel files to formats like XLSX, CSV, PDF, and more!
 ### How can I get support for Aspose.Cells?
 You can get support by visiting the Aspose [forum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

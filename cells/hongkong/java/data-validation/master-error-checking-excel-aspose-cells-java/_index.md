@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells 是一款商業產品，但您可以先免費試用以探索其功能：
 - **免費試用：** 下載並測試庫功能。
-- **臨時執照：** 無需購買即可擴展測試高級功能。
+- **臨時執照：** 無需購買即可擴展高級功能的測試。
 - **購買：** 購買許可證以供長期使用。
 
 一旦您的專案設定完畢，讓我們使用 Aspose.Cells Java 在 Excel 檔案中實現錯誤檢查。
@@ -184,6 +186,9 @@ A5：是的，Aspose.Cells 支援多種格式，包括 XLSX、CSV 等。
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

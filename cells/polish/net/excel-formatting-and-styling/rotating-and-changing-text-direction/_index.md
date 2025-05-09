@@ -1,14 +1,16 @@
 ---
-title: Obracanie i zmiana kierunku tekstu w programie Excel
-linktitle: Obracanie i zmiana kierunku tekstu w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Zmień kierunek tekstu w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo obracać i dostosowywać tekst.
-weight: 22
-url: /pl/net/excel-formatting-and-styling/rotating-and-changing-text-direction/
+"description": "Zmień kierunek tekstu w programie Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby łatwo obracać i dostosowywać tekst."
+"linktitle": "Obracanie i zmiana kierunku tekstu w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Obracanie i zmiana kierunku tekstu w programie Excel"
+"url": "/pl/net/excel-formatting-and-styling/rotating-and-changing-text-direction/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obracanie i zmiana kierunku tekstu w programie Excel
@@ -18,7 +20,7 @@ Jeśli chodzi o programową pracę z plikami Excela, często stajemy przed wyzwa
 ## Wymagania wstępne
 Zanim przejdziemy do kodowania, upewnij się, że masz przygotowane kilka rzeczy:
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Biblioteka Aspose.Cells dobrze z nim współpracuje.
-2.  Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją pobrać ze strony[strona](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Będziesz potrzebować biblioteki Aspose.Cells dla .NET. Możesz ją pobrać ze strony [strona](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Znajomość programowania w języku C# ułatwi Ci śledzenie kursu.
 4. .NET Framework: Upewnij się, że Twój projekt jest przeznaczony dla platformy .NET Framework, ponieważ Aspose.Cells jest przeznaczony do pracy w tym środowisku.
 Gdy już wszystko będzie gotowe, możesz zacząć!
@@ -31,7 +33,7 @@ Teraz przygotujmy nasz projekt, importując wymagane pakiety. Oto jak możesz to
 - Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań i wybierz opcję Zarządzaj pakietami NuGet.
 - Wyszukaj Aspose.Cells i zainstaluj.
 ### Importuj niezbędne przestrzenie nazw
- Teraz czas na wprowadzenie niezbędnych przestrzeni nazw. Na górze`Program.cs` plik zawiera następujące elementy:
+Teraz czas na wprowadzenie niezbędnych przestrzeni nazw. Na górze `Program.cs` plik zawiera następujące elementy:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -48,7 +50,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Ten kod ustawia katalog do zapisywania pliku Excel. Sprawdza, czy katalog istnieje i tworzy go, jeśli nie. Upewnij się, że zastąpiłeś`"Your Document Directory"` z prawidłową ścieżką.
+Ten kod ustawia katalog do zapisywania pliku Excel. Sprawdza, czy katalog istnieje i tworzy go, jeśli nie. Upewnij się, że zastąpiłeś `"Your Document Directory"` z prawidłową ścieżką.
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 Następnie utwórzmy nowy skoroszyt programu Excel. Tutaj będziemy manipulować naszymi komórkami.
 ```csharp
@@ -56,15 +58,15 @@ Następnie utwórzmy nowy skoroszyt programu Excel. Tutaj będziemy manipulować
 Workbook workbook = new Workbook();
 ```
 
- Tworząc`Workbook` obiekt, w zasadzie zaczynasz od nowego, pustego pliku Excel, który możesz modyfikować.
+Tworząc `Workbook` obiekt, w zasadzie zaczynasz od nowego, pustego pliku Excel, który możesz modyfikować.
 ## Krok 3: Uzyskanie odniesienia do arkusza roboczego
-Teraz przejdź do arkusza, w którym chcesz wprowadzić zmiany.
+Teraz przejdź do arkusza kalkulacyjnego, w którym chcesz wprowadzić zmiany.
 ```csharp
 // Uzyskanie odniesienia do arkusza roboczego
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Ten`Worksheet` obiekt odnosi się do pierwszego arkusza w skoroszycie. Możesz uzyskać dostęp do innych arkuszy, zmieniając indeks.
+Ten `Worksheet` obiekt odnosi się do pierwszego arkusza w skoroszycie. Możesz uzyskać dostęp do innych arkuszy, zmieniając indeks.
 ## Krok 4: Dostęp do konkretnej komórki
 Skupmy się na konkretnej komórce, w tym przypadku „A1”. 
 ```csharp
@@ -96,7 +98,7 @@ Tutaj dzieje się magia! Możesz zmienić kierunek tekstu w ten sposób:
 style.TextDirection = TextDirectionType.RightToLeft;
 ```
 
-Ten wiersz ustawia kierunek tekstu od prawej do lewej, co jest istotne w przypadku języków takich jak arabski czy hebrajski. 
+Ten wiersz ustala kierunek tekstu od prawej do lewej, co jest istotne w przypadku języków takich jak arabski czy hebrajski. 
 ## Krok 8: Stosowanie stylu do komórki
 Po zmianie stylu kierunku tekstu zastosuj te zmiany ponownie do komórki:
 ```csharp
@@ -111,7 +113,7 @@ Na koniec zapiszemy zmiany w nowym pliku Excela.
 workbook.Save(dataDir + "book1.out.xls", SaveFormat.Excel97To2003);
 ```
 
-Ten kod zapisuje skoroszyt z określoną nazwą pliku w zdefiniowanym katalogu. Określony format to Excel 97-2003.
+Ten kod zapisuje skoroszyt o określonej nazwie pliku w zdefiniowanym katalogu. Określony format to Excel 97-2003.
 ## Wniosek
 gotowe! Udało Ci się nauczyć, jak obracać i zmieniać kierunek tekstu w komórce Excela za pomocą Aspose.Cells dla .NET. Czyż nie jest niesamowite, jak kilka linijek kodu może całkowicie zmienić układ i dostępność językową arkusza kalkulacyjnego? Możliwość programowego manipulowania plikami Excela otwiera świat możliwości, od automatyzacji raportów po ulepszanie prezentacji danych.
 ## Najczęściej zadawane pytania
@@ -124,10 +126,12 @@ Aspose.Cells obsługuje różne formaty, takie jak XLSX, CSV i PDF.
 ### Czy muszę zainstalować coś jeszcze oprócz programu Visual Studio?  
 Do projektu należy dodać tylko bibliotekę Aspose.Cells.
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?  
- Możesz sprawdzić[dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+Możesz sprawdzić [dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

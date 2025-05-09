@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells Java 電子表格處理教程
@@ -51,7 +53,7 @@ Aspose.Cells for Java 是一個強大的函式庫，讓 Java 開發人員能夠�
 ### [試算表自動化](./spreadsheet-automation/)
 透過我們全面的教程釋放 Aspose.Cells for Java 的強大功能。逐步學習電子表格自動化，實現高效率的 Java 開發。
 ### [工作簿操作](./workbook-operations/)
-使用這些 Aspose.Cells for Java 教學課程了解如何載入、儲存和轉換 Excel 檔案格式（XLS、XLSX、CSV、PDF、HTML）。
+使用這些 Aspose.Cells for Java 教學課程學習如何載入、儲存和轉換 Excel 檔案格式（XLS、XLSX、CSV、PDF、HTML）。
 
 ### [工作表管理](./worksheet-management/)
 使用 Aspose.Cells for Java 在 Excel 檔案中新增、修改、複製、移動和管理工作表的完整教學。
@@ -118,9 +120,11 @@ Aspose.Cells for Java 是一個強大的函式庫，讓 Java 開發人員能夠�
 
 ### [自動化和批次](./automation-batch-processing/)
 使用 Aspose.Cells for Java 自動執行 Excel 任務、批次處理多個檔案和排程操作的逐步教學。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -84,7 +86,7 @@ Minden egyes funkciót kezelhető részekre bontunk, így biztosítva, hogy zök
    ExternalLink externalLink = wb.getWorksheets().getExternalLinks().get(0);
    ```
    - `getExternalLinks()`: Lekéri a munkafüzet összes külső hivatkozását.
-   - `get(0)`Az első hivatkozáshoz fér hozzá.
+   - `get(0)`Megnyitja az első hivatkozást.
 
 ### Külső hivatkozás adatforrásának módosítása
 **Áttekintés**A külső hivatkozás adatforrásának módosítása elengedhetetlen a csatolt információk manuális beavatkozás nélküli frissítéséhez.
@@ -158,6 +160,9 @@ Készségeid további fejlesztéséhez fedezd fel az Aspose.Cells további funkc
 - [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

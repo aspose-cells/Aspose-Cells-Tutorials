@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 
 - **ห้องสมุดที่จำเป็น:** Aspose.Cells สำหรับ Java เวอร์ชัน 25.3
 - **ข้อกำหนดการตั้งค่าสภาพแวดล้อม:** Java Development Kit (JDK) ที่ติดตั้งบนเครื่องของคุณและ IDE เช่น IntelliJ IDEA หรือ Eclipse
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และมีความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานในการเขียนโปรแกรม Java และมีความคุ้นเคยกับระบบสร้าง Maven หรือ Gradle
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java (H2)
 
@@ -186,6 +188,9 @@ render.toImage("YOUR_OUTPUT_DIRECTORY/ExportWholeWorkbookToXPS_out.xps");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

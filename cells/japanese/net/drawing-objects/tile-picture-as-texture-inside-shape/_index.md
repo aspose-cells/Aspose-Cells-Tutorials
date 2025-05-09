@@ -1,42 +1,47 @@
 ---
-title: Excel を .NET の Aspose.Cells で満たす
-weight: 7700
-limit: 
-description: Excel の 形に ティール テクスチャ 填写 を Excel の Aspose.Cells で 適用 する 方法 を 学び,この 例 を フォロー し て Excel の ファイル を 簡単に 修正 する.
-keywords: [Aspose.Cells, .NET, Excel, Tiling Texture Fill, Shape Modification, Programming Example, File Handling, Workbook, Worksheet]
-url: /ja/net/drawing-objects/tile-picture-as-texture-inside-shape/
+"description": "Aspose.Cells for .NET を使用して、Excel の図形にタイルテクスチャの塗りつぶしを適用する方法を学びます。この例に従えば、Excel ファイルを簡単に変更できます。"
+"title": "Aspose.Cells for .NET を使用した Excel でのタイルテクスチャ塗りつぶし"
+"url": "/ja/net/drawing-objects/tile-picture-as-texture-inside-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel を .NET の Aspose.Cells で満たす
+# Aspose.Cells for .NET を使用した Excel でのタイルテクスチャ塗りつぶし
   
-この例では, Excel ファイルをロードし,特定のワークシートにアクセスし,タイル構造を含む形の埋め込みを変更するために .NET のAspose.Cellsを効果的に使用する方法を示しています.このステップバイ・ステップガイドに従って,開発者は,プログラム的に Excel コンテンツを操作する方法を理解し,高度な機能でアプリケーションを向上させることができます.最終輸出は, Excel ファイル処理におけるAspose.Cellsの力を示し,選択したディレクトリに保存されます.
+この例では、Aspose.Cells for .NET を効果的に使用して Excel ファイルを読み込み、特定のワークシートにアクセスし、図形の塗りつぶしを変更してタイルテクスチャを追加する方法を示します。このステップバイステップガイドに従うことで、開発者は Excel コンテンツをプログラムで操作する方法を迅速に習得し、高度な機能でアプリケーションを拡張できます。最終的な出力は任意のディレクトリに保存され、Excel ファイル処理における Aspose.Cells の威力を発揮します。
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/tile-picture-as-texture-inside-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示
-1. コンピュータに .NET 環境を設定してください.
-2. Aspose.Cells ライブラリを公式Asposeウェブサイトからダウンロードしてインストールするか,NuGet パッケージ管理者を使用するか:
+## インストール手順
+1. マシンに .NET 環境が設定されていることを確認してください。
+2. Aspose の公式 Web サイトから、または NuGet パッケージ マネージャーを使用して、Aspose.Cells ライブラリをダウンロードしてインストールします。
    ```
    Install-Package Aspose.Cells
    ```
-3. Create a new C# project or open your existing .NET project.
-4. プロジェクトにAspose.Cells図書館の参照を追加する.
-5. 提供された例コードをプロジェクトにコピーし,必要なように入力/出力ディレクトリ経路を交換します.
-6. Excel ファイル内の形に塗られたタイルテクスチャの埋め込みを見るためにプロジェクトをまとめ実行します.
+3. 新しい C# プロジェクトを作成するか、既存の .NET プロジェクトを開きます。
+4. プロジェクトに Aspose.Cells ライブラリへの参照を追加します。
+5. 提供されているサンプル コードをプロジェクトにコピーし、必要に応じて入力/出力ディレクトリ パスを置き換えます。
+6. プロジェクトをコンパイルして実行すると、Excel ファイル内の図形に適用されたタイリング テクスチャ塗りつぶしが表示されます。
 
-## また見てください  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ class ExcelStyling {
 
 ## Guía de implementación
 
-### Creación de una instancia de libro de trabajo y acceso a la hoja de trabajo
+### Creación de instancias de libros de trabajo y acceso a hojas de trabajo
 
 **Descripción general:** Comience creando un nuevo `Workbook` Objeto para manipular archivos de Excel. Aprenderá a agregar hojas de cálculo y a acceder a sus celdas para aplicarles estilo.
 
@@ -103,7 +105,7 @@ class InitializeWorkbook {
 
 **Descripción general:** Aprenda a personalizar la apariencia de la celda configurando colores y patrones de fondo.
 
-#### Paso 1: Acceda a la celda de destino
+#### Paso 1: Acceder a la celda de destino
 
 ```java
 import com.aspose.cells.Cells;
@@ -216,6 +218,9 @@ A: Aspose ofrece un completo [foro de soporte](https://forum.aspose.com/c/cells/
 - **Documentación:** Explora la completa [Documentación de Aspose.Cells](https://docs.aspose.com/cells/java/) para funciones más avanzadas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

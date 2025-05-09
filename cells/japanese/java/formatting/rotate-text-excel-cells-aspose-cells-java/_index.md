@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Aspose.Cells を使用して Excel セル内のテキストを回転する方法
 Excel ファイルを開いて、指定されたセル内のテキストを回転し、レイアウトの美観を向上させたり、長いラベルを狭い列に収めたりするプログラムを作成します。
 
 #### ステップバイステップの実装
-**1. 新しいワークブックを作成します。**
+**1. 新しいワークブックを作成する:**
 ```java
 Workbook workbook = new Workbook();
 ```
@@ -145,6 +147,9 @@ A: をご覧ください [Aspose.Cells ドキュメント](https://reference.asp
 - **サポート：** [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ pageSetup.setHeaderPicture(1, picData);
 ```
 - **Açıklama:** `&G` görüntüyü ekleyen özel bir koddur. Bayt dizisi görüntü verilerini tutar.
 
-### Sayfa Adını Başlığa Ayarla
+### Sayfa Adını Başlıkta Ayarla
 **Genel Bakış:** Çok sayfalı belgeler için sayfa adının dinamik olarak başlıklara dahil edilmesi yararlı olabilir.
 
 #### Sayfa Adını Ekle
@@ -163,6 +165,9 @@ Bu kılavuzu takip ederek, Aspose.Cells Java kullanarak Excel çalışma kitapla
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

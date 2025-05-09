@@ -8,7 +8,9 @@ url: /net/excel-merging-unmerging-cells/unmerge-merged-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unmerge Merged Cells in Excel
@@ -153,6 +155,7 @@ You can explore the complete documentation on the [Aspose.Cells Reference Page](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Seskupování dat v kontingenčních tabulkách
@@ -108,9 +110,11 @@ Seskupení dat v kontingenční tabulce si můžete přizpůsobit pomocí `Pivot
 ### 3. Mohu automatizovat vytváření pivotních tabulek pomocí Aspose.Cells pro Javu?
 
 Ano, vytváření kontingenčních tabulek v Excelu můžete automatizovat pomocí Aspose.Cells pro Javu, jak je ukázáno v uvedených příkladech zdrojového kódu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

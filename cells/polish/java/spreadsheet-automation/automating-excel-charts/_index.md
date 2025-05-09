@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatyzacja wykresów programu Excel
@@ -116,10 +118,12 @@ Automatyzacja wykresów Excela za pomocą Aspose.Cells for Java upraszcza proces
 ### 4. Gdzie mogę znaleźć więcej materiałów i dokumentacji dla Aspose.Cells dla Java?
    Zapoznaj się z dokumentacją API na stronie [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) aby uzyskać szczegółowe informacje i przykłady.
 
-łatwością zautomatyzuj zadania związane z wykresami w programie Excel, korzystając z pakietu Aspose.Cells for Java i rozszerz możliwości wizualizacji danych.
+Z łatwością zautomatyzuj zadania związane z wykresami w programie Excel, korzystając z pakietu Aspose.Cells for Java i rozszerz możliwości wizualizacji danych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

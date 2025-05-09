@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Navegar e manipular programaticamente tabelas do Excel pode ser desafiador, especialmente com conjuntos de dados complexos ou automatização de tarefas repetitivas. **Aspose.Cells para Java** oferece uma solução robusta para acessar e modificar arquivos do Excel sem problemas. Este tutorial guiará você pelo uso do Aspose.Cells para manipular tabelas do Excel por meio de células em Java.
 
-### que você aprenderá
+### O que você aprenderá
 
 - Configurando **Aspose.Cells para Java** no seu ambiente de desenvolvimento
 - Acessando uma tabela do Excel a partir de uma célula específica
@@ -174,6 +176,9 @@ Seguindo este guia, você estará no caminho certo para aproveitar todo o potenc
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

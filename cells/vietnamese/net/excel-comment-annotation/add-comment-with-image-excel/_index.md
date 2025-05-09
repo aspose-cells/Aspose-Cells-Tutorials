@@ -1,14 +1,16 @@
 ---
-title: Thêm bình luận bằng hình ảnh trong Excel
-linktitle: Thêm bình luận bằng hình ảnh trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm chú thích bằng hình ảnh trong Excel bằng Aspose.Cells cho .NET. Cải thiện bảng tính của bạn bằng chú thích được cá nhân hóa.
-weight: 10
-url: /vi/net/excel-comment-annotation/add-comment-with-image-excel/
+"description": "Tìm hiểu cách thêm chú thích bằng hình ảnh trong Excel bằng Aspose.Cells cho .NET. Cải thiện bảng tính của bạn bằng chú thích được cá nhân hóa."
+"linktitle": "Thêm bình luận bằng hình ảnh trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm bình luận bằng hình ảnh trong Excel"
+"url": "/vi/net/excel-comment-annotation/add-comment-with-image-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm bình luận bằng hình ảnh trong Excel
@@ -18,9 +20,9 @@ Excel là một công cụ mạnh mẽ để quản lý và phân tích dữ li�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào cách thêm chú thích bằng hình ảnh trong Excel, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình. Đây là nơi bạn sẽ viết và thực thi mã của mình.
-2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các đoạn mã tốt hơn.
-4. Tệp hình ảnh: Chuẩn bị sẵn tệp hình ảnh (như logo) mà bạn muốn nhúng vào bình luận Excel của mình. Đối với hướng dẫn này, chúng tôi sẽ giả sử bạn có tệp có tên`logo.jpg`.
+4. Tệp hình ảnh: Chuẩn bị sẵn tệp hình ảnh (như logo) mà bạn muốn nhúng vào bình luận Excel của mình. Đối với hướng dẫn này, chúng tôi sẽ giả sử bạn có tệp có tên `logo.jpg`.
 5. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework vì Aspose.Cells yêu cầu .NET Framework để hoạt động bình thường.
 Bây giờ chúng ta đã hoàn thành các điều kiện tiên quyết, hãy chuyển sang phần viết mã thực tế!
 ## Nhập gói
@@ -48,13 +50,13 @@ bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-- dataDir: Biến này giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế`"Your Document Directory"` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
+- dataDir: Biến này giữ đường dẫn đến thư mục tài liệu của bạn. Thay thế `"Your Document Directory"` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình.
 - Directory.Exists: Kiểm tra xem thư mục đã tồn tại hay chưa.
 - Directory.CreateDirectory: Nếu thư mục không tồn tại, lệnh này sẽ tạo thư mục.
 ## Bước 2: Khởi tạo một Workbook
- Tiếp theo, chúng ta cần tạo một phiên bản của`Workbook` lớp. Lớp này biểu diễn một bảng tính Excel trong bộ nhớ.
+Tiếp theo, chúng ta cần tạo một phiên bản của `Workbook` lớp. Lớp này biểu diễn một bảng tính Excel trong bộ nhớ.
 ```csharp
-//Khởi tạo một Workbook
+// Khởi tạo một Workbook
 Workbook workbook = new Workbook();
 ```
 - Workbook: Đây là lớp chính trong Aspose.Cells cho phép bạn tạo và thao tác các tệp Excel. Bằng cách khởi tạo nó, về cơ bản bạn đang tạo một workbook Excel mới.
@@ -64,7 +66,7 @@ Bây giờ chúng ta đã có bảng tính, hãy truy cập vào bộ sưu tập
 // Nhận tham chiếu của bộ sưu tập bình luận với trang tính đầu tiên
 CommentCollection comments = workbook.Worksheets[0].Comments;
 ```
-- Phiếu bài tập[ 0]: Điều này truy cập vào trang tính đầu tiên trong sổ làm việc. Hãy nhớ rằng, chỉ mục dựa trên số không, vì vậy`[0]` đề cập đến tờ đầu tiên.
+- Worksheets[0]: Truy cập worksheet đầu tiên trong workbook. Hãy nhớ rằng, chỉ mục bắt đầu từ số không, vì vậy `[0]` đề cập đến tờ đầu tiên.
 - Bình luận: Thuộc tính này cho phép chúng ta truy cập vào bộ sưu tập bình luận trên bảng tính đó.
 ## Bước 4: Thêm chú thích vào ô
 Hãy thêm chú thích vào một ô cụ thể. Trong trường hợp này, chúng ta sẽ thêm chú thích vào ô A1.
@@ -79,7 +81,7 @@ comment.Font.Name = "Times New Roman";
 - bình luận.Lưu ý: Ở đây, chúng ta thiết lập văn bản của bình luận.
 - comment.Font.Name: Thiết lập phông chữ cho văn bản bình luận.
 ## Bước 5: Tải hình ảnh vào luồng
- Bây giờ là lúc tải hình ảnh mà chúng ta muốn nhúng vào bình luận của mình. Chúng ta sẽ sử dụng`MemoryStream` để lưu trữ dữ liệu hình ảnh.
+Bây giờ là lúc tải hình ảnh mà chúng ta muốn nhúng vào bình luận của mình. Chúng ta sẽ sử dụng `MemoryStream` để lưu trữ dữ liệu hình ảnh.
 ```csharp
 // Tải một hình ảnh vào luồng
 Bitmap bmp = new Bitmap(dataDir + "logo.jpg");
@@ -95,7 +97,7 @@ Bây giờ chúng ta cần thiết lập dữ liệu hình ảnh theo hình dạ
 // Đặt dữ liệu hình ảnh thành hình dạng liên quan đến bình luận
 comment.CommentShape.Fill.ImageData = ms.ToArray();
 ```
-- comment.CommentShape.Fill.ImageData: Thuộc tính này cho phép bạn thiết lập hình ảnh cho hình dạng bình luận. Chúng tôi chuyển đổi`MemoryStream` đến một mảng byte sử dụng`ms.ToArray()`.
+- comment.CommentShape.Fill.ImageData: Thuộc tính này cho phép bạn thiết lập hình ảnh cho hình dạng bình luận. Chúng tôi chuyển đổi `MemoryStream` đến một mảng byte sử dụng `ms.ToArray()`.
 ## Bước 7: Lưu sổ làm việc
 Cuối cùng, hãy lưu bảng tính của chúng ta cùng với bình luận và hình ảnh.
 ```csharp
@@ -115,10 +117,12 @@ Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để có đầy �
 ### Tôi có thể tùy chỉnh giao diện của bình luận không?
 Có, bạn có thể tùy chỉnh phông chữ, kích thước và màu sắc của văn bản bình luận và bạn cũng có thể thay đổi hình dạng và kích thước của chính bình luận đó.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Cells [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

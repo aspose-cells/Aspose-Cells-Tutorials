@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ pivotTable.addFieldToArea(com.aspose.cells.PivotFieldType.DATA, 2); // データ
 pivotTable.refreshData();
 pivotTable.calculateData();
 ```
-これらの手順では、フィールドを特定の領域に割り当ててピボット テーブルの構造を設定します。
+これらの手順では、フィールドを特定の領域に割り当てて、ピボット テーブルの構造を設定します。
 
 ##### ステップ4: 行フィールドにカスタムソートを実装する
 ```java
@@ -184,6 +186,9 @@ Aspose.Cells を使用する際に最適なパフォーマンスを確保する�
 今すぐ Aspose.Cells を試して、Java でデータ操作機能を強化しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Zodra je omgeving klaar is, gaan we Aspose.Cells instellen. Zo ga je aan de slag
     License license = new License();
     license.setLicense("path/to/your/license/file");
     ```
-3. **Basisinitialisatie**: Maak een `Workbook` bijvoorbeeld om met Excel-bestanden te gaan werken.
+3. **Basisinitialisatie**Maak een `Workbook` bijvoorbeeld om met Excel-bestanden te gaan werken.
 
 ## Implementatiegids
 
@@ -166,6 +168,9 @@ Om de mogelijkheden van Aspose.Cells verder te verkennen, kunt u experimenteren 
 Deze uitgebreide handleiding stelt u in staat om effectief diagramgegevenslabels in uw Java-applicaties aan te passen met Aspose.Cells. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -163,6 +165,9 @@ A5: Absolut. Es bietet robuste Funktionen, die sich ideal für komplexe Datenver
 Durch die Beherrschung dieser Tools und Techniken können Sie Ihre Excel-Projekte mit Java optimieren und die Leistungsfähigkeit von Aspose.Cells optimal nutzen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

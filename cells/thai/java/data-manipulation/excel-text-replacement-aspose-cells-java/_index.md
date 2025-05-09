@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 ก่อนที่จะดำดิ่งลงไปในโค้ด ให้แน่ใจว่าคุณมี:
 - **ห้องสมุดและสิ่งที่ต้องพึ่งพา:** Aspose.Cells สำหรับ Java ใช้ Maven หรือ Gradle เพื่อจัดการการอ้างอิง
 - **การตั้งค่าสภาพแวดล้อม:** สภาพแวดล้อมการพัฒนา Java ที่ใช้งานได้ รวมถึง JDK 8+
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับโครงสร้างไฟล์ Excel
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับโครงสร้างไฟล์ Excel
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 การเริ่มใช้งาน `Aspose.Cells`, รวมเข้ากับโครงการของคุณ:
@@ -124,6 +126,9 @@ workbook.save("SRDataInRange_out.xlsx");
 หากมีข้อสงสัยใด ๆ โปรดไปที่ [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9). สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

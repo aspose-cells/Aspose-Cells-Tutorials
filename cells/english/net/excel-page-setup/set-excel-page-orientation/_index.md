@@ -8,7 +8,9 @@ url: /net/excel-page-setup/set-excel-page-orientation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Excel Page Orientation
@@ -117,6 +119,7 @@ Yes, Aspose.Cells is optimized for handling large files and can perform various 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

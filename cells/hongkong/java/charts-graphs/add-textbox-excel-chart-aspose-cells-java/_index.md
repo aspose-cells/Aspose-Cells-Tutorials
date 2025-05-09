@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@
 
 ## 設定 Aspose.Cells for Java
 
-要在您的專案中使用 Aspose.Cells，您需要將其新增為依賴項。以下是使用 Maven 或 Gradle 執行此操作的方法：
+要在您的專案中使用 Aspose.Cells，您需要將其新增為依賴項。使用 Maven 或 Gradle 執行此操作的方法如下：
 
 ### Maven
 ```xml
@@ -204,6 +206,9 @@ workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
 透過遵循本指南，您可以有效地將 Aspose.Cells 整合到您的 Java 專案中，以使用自訂文字註解增強 Excel 圖表功能。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

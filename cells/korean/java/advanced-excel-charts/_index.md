@@ -1,5 +1,5 @@
 ---
-"description": "Aspose.Cells for Java를 활용한 고급 Excel 차트 튜토리얼을 살펴보세요. 데이터 시각화 기술을 단계별로 향상시켜 보세요. 오늘 바로 차트 작성을 마스터하세요!"
+"description": "Aspose.Cells for Java를 활용한 고급 Excel 차트 튜토리얼을 살펴보세요. 데이터 시각화 기술을 단계별로 향상시켜 보세요. 오늘 바로 차트 작성의 달인이 되어 보세요!"
 "linktitle": "고급 Excel 차트"
 "second_title": "Aspose.Cells Java Excel 처리 API"
 "title": "고급 Excel 차트"
@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 고급 Excel 차트
@@ -47,9 +49,11 @@ Aspose.Cells for Java를 사용하여 매력적인 차트 애니메이션을 만
 Aspose.Cells for Java를 사용하여 멋진 폭포수 차트를 만드는 방법을 알아보세요. 효과적인 데이터 시각화를 위한 소스 코드가 포함된 단계별 가이드입니다.
 ### [차트 상호 작용](./chart-interactivity/)
 Aspose.Cells for Java를 사용하여 인터랙티브 차트를 만드는 방법을 알아보세요. 인터랙티브 기능으로 데이터 시각화를 더욱 강화하세요.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

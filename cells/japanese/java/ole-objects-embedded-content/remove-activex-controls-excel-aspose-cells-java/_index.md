@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/RemoveActiveXControl_out.xlsx", SaveFormat.XLSX);
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 1. **自動レポート生成:** ActiveX コントロールを削除して、自動レポート生成を効率化します。
 2. **財務モデルにおけるデータクリーニング:** 不要なコントロールを削除して複雑な財務モデルを簡素化し、パフォーマンスと読みやすさを向上させます。
@@ -190,6 +192,9 @@ Aspose.Cells Javaを使用して、ExcelブックからActiveXコントロール
 今すぐ Aspose.Cells Java を使い始め、Excel ファイル操作の可能性を最大限に引き出しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

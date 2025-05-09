@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zabezpečení dat v Excelu
@@ -40,9 +42,11 @@ Naučte se efektivní techniky maskování dat pomocí Aspose.Cells pro Javu. Ch
 Naučte se, jak auditovat přístup k souborům pomocí Aspose.Cells pro Java API. Podrobný návod se zdrojovým kódem a nejčastějšími dotazy.
 ### [Ověřování dat pro zabezpečení](./data-validation-for-security/)
 Zvyšte zabezpečení dat s Aspose.Cells pro Javu. Prozkoumejte komplexní techniky ověřování dat. Naučte se, jak implementovat robustní validaci a ochranu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

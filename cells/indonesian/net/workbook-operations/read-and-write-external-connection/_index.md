@@ -1,39 +1,41 @@
 ---
-title: Membaca dan Menulis Koneksi Eksternal File XLSB
-linktitle: Membaca dan Menulis Koneksi Eksternal File XLSB
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara membaca dan menulis koneksi eksternal dalam file XLSB menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah ini.
-weight: 24
-url: /id/net/workbook-operations/read-and-write-external-connection/
+"description": "Tanuld meg, hogyan olvashatsz és írhatsz külső kapcsolatokat XLSB fájlokban az Aspose.Cells for .NET használatával ebből a lépésről lépésre szóló oktatóanyagból."
+"linktitle": "XLSB fájl külső kapcsolatának olvasása és írása"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "XLSB fájl külső kapcsolatának olvasása és írása"
+"url": "/id/net/workbook-operations/read-and-write-external-connection/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membaca dan Menulis Koneksi Eksternal File XLSB
+# XLSB fájl külső kapcsolatának olvasása és írása
 
-## Perkenalan
+## Bevezetés
 
-Apakah Anda bekerja dengan file Excel dan perlu mengelola koneksi eksternal? Jika Anda sering merasa terjerat dalam manajemen data, khususnya dengan file Excel seperti XLSB, Anda akan dimanjakan. Dalam panduan ini, kami akan membahas secara mendalam kemampuan Aspose.Cells untuk .NET. Kami akan secara khusus membahas cara membaca dan menulis koneksi eksternal dalam file XLSB. Baik Anda seorang pengembang berpengalaman atau pemula yang ingin tahu, Anda akan menemukan wawasan yang dapat ditindaklanjuti di sini yang dapat menghemat waktu dan meningkatkan kemampuan manajemen Excel Anda. Jadi, mari kita mulai!
+Excel-fájlokkal dolgozol, és külső kapcsolatokat kell kezelned? Ha gyakran elakadsz az adatkezelésben, különösen az olyan Excel-fájlokkal, mint az XLSB, akkor igazi élményben lesz részed. Ebben az útmutatóban mélyrehatóan belemerülünk az Aspose.Cells for .NET képességeibe. Kifejezetten azt vizsgáljuk meg, hogyan lehet külső kapcsolatokat olvasni és írni XLSB fájlokban. Akár tapasztalt fejlesztő vagy, akár kíváncsi kezdő, itt hasznos információkat találsz, amelyek időt takaríthatnak meg, és emelhetik az Excel-kezelési képességeidet. Szóval, tűrjük fel az ingujjunkat, és kezdjük el!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai perjalanan ini, pastikan Anda memiliki semua yang dibutuhkan. Berikut ini adalah daftar periksa prasyarat sederhana untuk membantu Anda mempersiapkan diri:
+Mielőtt nekivágnánk ennek az útnak, győződjünk meg róla, hogy minden megvan, amire szükséged van. Íme egy egyszerű ellenőrzőlista az előfeltételekről, amelyek segíthetnek a felkészülésben:
 
-1. Visual Studio: Pastikan Anda memiliki versi Visual Studio yang berjalan di komputer Anda. Anda akan membuat kode dalam C# saat kita bekerja dengan Aspose.Cells.
+1. Visual Studio: Győződj meg róla, hogy a Visual Studio egy futó verziója telepítve van a számítógépeden. C#-ban fogsz kódolni, mivel mi az Aspose.Cells-szel dolgozunk.
    
-2.  Aspose.Cells untuk .NET: Anda memerlukan pustaka Aspose.Cells. Jika Anda belum memilikinya, Anda dapat dengan mudah[unduh disini](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells .NET-hez: Szükséged lesz az Aspose.Cells könyvtárra. Ha még nem rendelkezel vele, könnyen megteheted [töltsd le itt](https://releases.aspose.com/cells/net/). 
 
-3. Berkas XLSB: Siapkan contoh berkas XLSB untuk pengujian. Anda dapat membuatnya dari Excel jika belum memiliki berkas yang tersedia.
+3. XLSB fájl: Készítsen elő egy minta XLSB fájlt tesztelésre. Létrehozhat egyet Excelből, ha nincs kéznél meglévő fájl.
 
-4. Pengetahuan Pemrograman Dasar: Beberapa pengetahuan tentang C# akan membantu Anda memahami potongan kode yang akan kita jelajahi.
+4. Alapvető programozási ismeretek: A C# nyelv ismerete segít megérteni a bemutatásra kerülő kódrészleteket.
 
-Setelah Anda mencentang hal ini dari daftar Anda, kita siap untuk mulai membaca dan memodifikasi koneksi eksternal dalam file XLSB!
+Miután ezeket kipipáltad a listádról, készen állunk arra, hogy belevágjunk az XLSB fájlokon belüli külső kapcsolatok olvasásába és módosításába!
 
-## Paket Impor
+## Csomagok importálása
 
-Untuk memulai, Anda perlu mengimpor namespace yang diperlukan. Potongan kode berikut harus berada di bagian atas berkas C# Anda. Namespace ini memberi Anda akses ke fungsionalitas Aspose.Cells dan membantu menyusun aplikasi Anda dengan benar.
+A kezdéshez importálnia kell a szükséges névtereket. A következő kódrészletnek a C# fájl tetején kell lennie. Ezek a névterek hozzáférést biztosítanak az Aspose.Cells funkciókhoz, és segítenek az alkalmazás megfelelő strukturálásában.
 
 ```csharp
 using System;
@@ -41,97 +43,99 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Langkah ini penting karena memungkinkan Anda memanfaatkan fitur-fitur Aspose.Cells yang hebat tanpa mengacaukan kode Anda.
+Ez a lépés kulcsfontosságú, mivel lehetővé teszi az Aspose.Cells hatékony funkcióinak kihasználását a kód túlzsúfoltsága nélkül.
 
-## Langkah 1: Siapkan Direktori Dokumen
+## 1. lépés: Dokumentumkönyvtárak beállítása
 
-Hal pertama yang paling utama, kita perlu menyiapkan direktori di mana file masukan dan keluaran akan disimpan. 
+Először is be kell állítanunk azokat a könyvtárakat, amelyekben a bemeneti és kimeneti fájlok tárolva lesznek. 
 
 ```csharp
-string sourceDir = "Your Document Directory"; // Contoh: "C:\\ExcelFiles\\"
-string outputDir = "Your Document Directory"; // Contoh: "C:\\ExcelFiles\\"
+string sourceDir = "Your Document Directory"; // Példa: „C:\\ExcelFájlok\\”
+string outputDir = "Your Document Directory"; // Példa: „C:\\ExcelFájlok\\”
 ```
-Anggaplah direktori ini sebagai lemari penyimpanan tempat Anda menyimpan berkas-berkas penting. Anda akan merujuknya selama proses berlangsung.
+Gondolj ezekre a könyvtárakra úgy, mint a tárolószekrényekre, ahol a fontos fájljaidat tárolod. A folyamat során végig hivatkozni fogsz rájuk.
 
-## Langkah 2: Muat File XLSB
+## 2. lépés: Töltse be az XLSB fájlt
 
-Selanjutnya, mari kita muat berkas XLSB yang berisi koneksi eksternal kita. Di sinilah keajaiban dimulai.
+Ezután töltsük be az XLSB fájlt, amely a külső kapcsolatainkat tartalmazza. Itt kezdődik a varázslat.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
-Memuat buku kerja sama seperti membuka buku favorit Anda – Anda akan mendapatkan akses ke semua konten menarik di dalamnya. Pastikan Anda memiliki jalur file yang benar!
+A munkafüzet betöltése hasonló a kedvenc könyved megnyitásához – hozzáférést biztosít az összes csodálatos tartalomhoz. Csak győződj meg róla, hogy a megfelelő fájlelérési utat választottad!
 
-## Langkah 3: Dapatkan Koneksi Basis Data
+## 3. lépés: Adatbázis-kapcsolat lekérése
 
-Sekarang, kita perlu mengakses koneksi eksternal yang ada di buku kerja. Kita khususnya tertarik pada koneksi basis data.
+Most hozzá kell férnünk a munkafüzetben található külső kapcsolatokhoz. Különösen az adatbázis-kapcsolat érdekel minket.
 
 ```csharp
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
-Di sini, kami meminta buku kerja untuk mengungkap koneksi data pertamanya. Bayangkan seperti mengintip di balik tutup untuk melihat apa yang ada di dalamnya; Anda sedang menggali koneksi basis data yang mungkin menyimpan data penting.
+Itt arra kérjük a munkafüzetet, hogy mutassa meg az első adatkapcsolatát. Képzelje el ezt úgy, mintha bekukkantana egy fedél alá, hogy megnézze, mi van benne; feltárja azt az adatbázis-kapcsolatot, amely kritikus adatokat tartalmazhat.
 
-## Langkah 4: Cetak Detail Koneksi
+## 4. lépés: Kapcsolat részleteinek nyomtatása
 
-Sebelum membuat perubahan apa pun, ada baiknya memverifikasi detail koneksi saat ini dengan mencetaknya.
+Mielőtt bármilyen változtatást végrehajtana, érdemes ellenőrizni az aktuális kapcsolati adatokat nyomtatással.
 
 ```csharp
 Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
 ```
-Ini membantu Anda memahami apa yang sedang Anda kerjakan. Bayangkan Anda diberi kunci ruangan terkunci sebelum Anda memutuskan untuk mengganti kuncinya.
+Ez segít megérteni, hogy mivel dolgozol. Képzeld el, hogy átadják neked egy bezárt szoba kulcsait, mielőtt úgy döntenél, hogy kicseréled a zárakat.
 
-## Langkah 5: Ubah Nama Koneksi
+## 5. lépés: Módosítsa a kapcsolat nevét
 
-Sekarang saatnya untuk bertindak! Mari kita ubah nama koneksi basis data menjadi sesuatu yang lebih relevan.
+Most pedig cselekednünk kell! Változtassuk meg az adatbázis-kapcsolat nevét valami relevánsabbra.
 
 ```csharp
 dbCon.Name = "NewCust";
 ```
-Perubahan ini seperti memberi nama baru pada tanaman favorit Anda setelah Anda memindahkannya ke pot lain. Ini membantu Anda menjaga semuanya tetap teratur dan relevan.
+Ez a változtatás olyan, mintha új nevet adnál a kedvenc növényednek, miután átültetted. Segít abban, hogy a dolgok rendszerezettek és relevánsak maradjanak.
 
-## Langkah 6: Simpan File XLSB yang Dimodifikasi
+## 6. lépés: Mentse el a módosított XLSB fájlt
 
-Setelah Anda membuat modifikasi yang diperlukan, Anda perlu menyimpan perubahan Anda kembali ke dalam berkas XLSB.
+Miután elvégezte a szükséges módosításokat, mentse vissza a változtatásokat az XLSB fájlba.
 
 ```csharp
 wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
 ```
-Bayangkan menyimpan perubahan Anda seperti mengunci pintu setelah merenovasi rumah – Anda ingin memastikan semuanya aman dan pembaruan Anda terpelihara.
+módosítások mentését úgy kell elképzelni, mintha bezárnánk az ajtót egy otthonfelújítás után – biztos akarunk lenni abban, hogy minden biztonságban van, és hogy a frissítések megmaradnak.
 
-## Langkah 7: Pesan Konfirmasi
+## 7. lépés: Megerősítő üzenet
 
-Demi ketenangan pikiran, mari tambahkan pesan konfirmasi untuk menunjukkan bahwa proses telah berhasil diselesaikan.
+A nyugalom kedvéért adjunk hozzá egy megerősítő üzenetet, amely jelzi, hogy a folyamat sikeresen befejeződött.
 
 ```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
 ```
-Ini seperti bonus tambahan! Ini meyakinkan Anda bahwa operasi yang baru saja Anda lakukan berjalan lancar.
+Ez olyan, mint a hab a tortán! Megnyugtat, hogy a végrehajtott művelet zökkenőmentesen ment végbe.
 
-## Kesimpulan
+## Következtetés
 
-Dalam panduan ini, kami telah menelusuri proses rumit membaca dan menulis koneksi eksternal dalam file XLSB menggunakan Aspose.Cells untuk .NET. Mulai dari menyiapkan direktori yang diperlukan dan memuat buku kerja hingga mengakses, memodifikasi, dan menyimpan detail koneksi, kini Anda memiliki keterampilan berharga di ujung jari Anda. Aspose.Cells memudahkan Anda bekerja dengan Excel, sehingga Anda dapat lebih fokus pada pengelolaan data dan mengurangi kendala teknis.
+Ebben az útmutatóban végigvezettük magunkat az XLSB fájlok külső kapcsolatainak olvasásának és írásának bonyolult folyamatán az Aspose.Cells for .NET segítségével. A szükséges könyvtárak beállításától és a munkafüzetek betöltésétől kezdve a kapcsolati adatok eléréséig, módosításáig és mentéséig most értékes készségek állnak rendelkezésedre. Az Aspose.Cells segítségével az Excellel való munka gyerekjáték, így többet tudsz koncentrálni az adatkezelésre, és kevesebbet a technikai problémákra.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu berkas XLSB?  
-File XLSB adalah file Excel biner yang menyimpan data lembar kerja dalam format biner, membuatnya lebih ringkas dan lebih cepat dibuka daripada file XLSX tradisional.
+### Mi az XLSB fájl?  
+Az XLSB fájl egy bináris Excel fájl, amely bináris formátumban tárolja a táblázatadatokat, így kompaktabb és gyorsabban megnyitható, mint a hagyományos XLSX fájlok.
 
-### Apakah saya memerlukan lisensi khusus untuk Aspose.Cells?  
- Ya, Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh. Anda dapat mencobanya dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
+### Szükségem van külön licencre az Aspose.Cells-hez?  
+Igen, az Aspose.Cells teljes funkcionalitásához licenc szükséges. Ingyenes próbaverzióval kipróbálhatja. [itt](https://releases.aspose.com/).
 
-### Dapatkah saya mengakses sumber data eksternal selain database dengan Aspose.Cells?  
-Tentu saja! Aspose.Cells mendukung berbagai koneksi data eksternal, termasuk OLEDB dan ODBC. 
+### Hozzáférhetek az adatbázisokon kívüli külső adatforrásokhoz az Aspose.Cells segítségével?  
+Abszolút! Az Aspose.Cells különféle külső adatkapcsolatokat támogat, beleértve az OLEDB-t és az ODBC-t is. 
 
-### Apakah ada forum komunitas untuk pengguna Aspose.Cells?  
- Ya! Anda dapat bergabung dengan[Forum Dukungan Aspose.Cells](https://forum.aspose.com/c/cells/9) untuk berinteraksi dengan pengguna lain dan mencari bantuan.
+### Van közösségi fórum az Aspose.Cells felhasználók számára?  
+Igen! Csatlakozhatsz a [Aspose.Cells támogatói fórum](https://forum.aspose.com/c/cells/9) hogy más felhasználókkal kommunikáljon és segítséget kérjen.
 
-### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Cells?  
- Ya, Aspose menyediakan[lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk pengguna yang ingin mengevaluasi perangkat lunak sebelum membeli.
+### Kaphatok ideiglenes licencet az Aspose.Cells-hez?  
+Igen, az Aspose biztosítja a [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) azoknak a felhasználóknak, akik vásárlás előtt szeretnék kipróbálni a szoftvert.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

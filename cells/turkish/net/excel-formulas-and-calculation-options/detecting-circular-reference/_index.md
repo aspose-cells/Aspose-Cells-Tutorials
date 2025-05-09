@@ -1,14 +1,16 @@
 ---
-title: Excel'de Programatik Olarak Dairesel Referans Algılama
-linktitle: Excel'de Programatik Olarak Dairesel Referans Algılama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım kılavuzumuzu izleyin.
-weight: 13
-url: /tr/net/excel-formulas-and-calculation-options/detecting-circular-reference/
+"description": "Aspose.Cells for .NET kullanarak Excel'deki dairesel referansları kolayca tespit edin. E-tablolarınızda doğru hesaplamalar sağlamak için adım adım kılavuzumuzu izleyin."
+"linktitle": "Excel'de Programatik Olarak Dairesel Referans Algılama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Programatik Olarak Dairesel Referans Algılama"
+"url": "/tr/net/excel-formulas-and-calculation-options/detecting-circular-reference/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Programatik Olarak Dairesel Referans Algılama
@@ -17,14 +19,14 @@ url: /tr/net/excel-formulas-and-calculation-options/detecting-circular-reference
 Excel dosyalarıyla çalışırken karşılaşabileceğiniz en sinir bozucu sorunlardan biri dairesel referanstır. Bu, bir formülün doğrudan veya dolaylı olarak kendi hücresine geri referans vermesiyle olur ve Excel'in hesaplama motorunu şaşırtabilecek bir döngü oluşturur. Ancak korkmayın! .NET için Aspose.Cells ile bu sinir bozucu dairesel referansları programatik olarak tespit edebilir, elektronik tablolarınızın işlevsel ve doğru kalmasını sağlayabilirsiniz. Bu kılavuzda, sizi adım adım bu süreçte yönlendireceğiz ve bunu çocuk oyuncağı haline getireceğiz.
 ## Ön koşullar
 Dairesel referansları tespit etmenin inceliklerine dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
-1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacaktır.
+1. Visual Studio: Makinenizde Visual Studio'nun yüklü olduğundan emin olun. Bu sizin geliştirme ortamınız olacak.
 2. .NET Framework: .NET Framework'ün uyumlu bir sürümünü (en azından .NET Framework 4.0) kullandığınızdan emin olun.
-3.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesine sahip olmanız gerekir. Bunu şuradan indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 4. Temel C# Bilgisi: Bu dilde kod yazacağımız için C# programlamaya aşina olmanız faydalı olacaktır.
 5. Excel Dosyası: Test için dairesel referanslar içeren bir Excel dosyası hazırlayın. Basit bir tane oluşturabilir veya bir örnek indirebilirsiniz.
 Artık ön koşullarımız hazır olduğuna göre, eğlenceli kısma geçebiliriz!
 ## Paketleri İçe Aktar
-Kodlamaya başlamadan önce gerekli paketleri içe aktarmanız gerekir. İşte bunu nasıl yapacağınız:
+Kodlamaya başlamadan önce gerekli paketleri içe aktarmanız gerekir. İşte nasıl yapacağınız:
 ### Yeni Bir Proje Oluştur
 - Visual Studio'yu açın ve yeni bir C# Konsol Uygulaması projesi oluşturun.
 ### Aspose.Cells Referansını Ekle
@@ -32,7 +34,7 @@ Kodlamaya başlamadan önce gerekli paketleri içe aktarmanız gerekir. İşte b
 - "NuGet Paketlerini Yönet" seçeneğini seçin.
 - “Aspose.Cells”i arayın ve en son sürümü yükleyin.
 ### Gerekli Ad Alanlarını İçe Aktar
- En üstte`Program.cs` dosyaya gerekli ad alanlarını içe aktarın:
+En üstte `Program.cs` dosyaya gerekli ad alanlarını içe aktarın:
 ```csharp
 using System;
 using System.Collections;
@@ -48,14 +50,14 @@ Artık her şeyi ayarladığımıza göre, bir Excel dosyasında dairesel refera
 // Giriş dizini
 string sourceDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` Excel dosyanızın gerçek yolunu belirtin.
+Yer değiştirmek `"Your Document Directory"` Excel dosyanızın gerçek yolunu belirtin.
 ## Adım 2: Çalışma Kitabını LoadOptions ile yükleyin
 Sonra Excel çalışma kitabınızı yükleyeceksiniz. Sihir burada başlıyor!
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 var objWB = new Aspose.Cells.Workbook(sourceDir + "Circular Formulas.xls", loadOptions);
 ```
- Burada, yeni bir örnek oluşturuyoruz`LoadOptions` ve belirtilen yoldan çalışma kitabını yükleyin. Excel dosya adınızın eşleştiğinden emin olun!
+Burada, yeni bir örnek oluşturuyoruz `LoadOptions` ve belirtilen yoldan çalışma kitabını yükleyin. Excel dosya adınızın eşleştiğinden emin olun!
 ## Adım 3: Yineleme Ayarlarını Etkinleştir
 Dairesel referanslara izin vermek için çalışma kitabında yineleme ayarlarını etkinleştirmeniz gerekir.
 ```csharp
@@ -69,7 +71,7 @@ CalculationOptions copts = new CalculationOptions();
 CircularMonitor cm = new CircularMonitor();
 copts.CalculationMonitor = cm;
 ```
- Burada, bir örnek oluşturuyoruz`CalculationOptions` ve bir gelenek`CircularMonitor`Bu monitör, hesaplamalar sırasında bulunan dairesel referansların izlenmesine yardımcı olacaktır.
+Burada, bir örnek oluşturuyoruz `CalculationOptions` ve bir gelenek `CircularMonitor`Bu monitör, hesaplamalar sırasında bulunan dairesel referansların izlenmesine yardımcı olacaktır.
 ## Adım 5: Formülleri Hesaplayın
 Şimdi çalışma kitabınızdaki formülleri hesaplamanın zamanı geldi.
 ```csharp
@@ -89,7 +91,7 @@ Son olarak sonuçları görüntüleyelim ve metodumuzun başarıyla çalıştı�
 Console.WriteLine("DetectCircularReference executed successfully.\r\n");
 ```
 ## Adım 8: CircularMonitor Sınıfını Uygulayın
- İşlemi tamamlamak için aşağıdakileri uygulamanız gerekir:`CircularMonitor` sınıf. Bu sınıf, şu sınıftan miras alacaktır:`AbstractCalculationMonitor` ve dairesel referansların tespitini gerçekleştirir.
+İşlemi tamamlamak için aşağıdakileri uygulamanız gerekir: `CircularMonitor` sınıf. Bu sınıf, şu sınıftan miras alacaktır: `AbstractCalculationMonitor` ve dairesel referansların tespitini gerçekleştirir.
 ```csharp
 public class CircularMonitor : AbstractCalculationMonitor
 {
@@ -122,10 +124,12 @@ Visual Studio, .NET Framework ve Aspose.Cells kütüphanesinin yüklü olması g
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
 Evet, Aspose.Cells özelliklerini keşfetmeniz için kullanabileceğiniz ücretsiz bir deneme sürümü sunuyor.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Ziyaret edebilirsiniz[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Detaylı bilgi ve örnekler için.
+Ziyaret edebilirsiniz [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Detaylı bilgi ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

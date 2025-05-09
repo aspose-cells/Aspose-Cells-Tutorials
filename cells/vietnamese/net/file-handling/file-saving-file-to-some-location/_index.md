@@ -1,27 +1,29 @@
 ---
-title: Lưu tệp vào một số vị trí
-linktitle: Lưu tệp vào một số vị trí
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh lưu tệp trong .NET bằng Aspose.Cells. Học cách lưu tệp Excel ở nhiều định dạng một cách dễ dàng.
-weight: 11
-url: /vi/net/file-handling/file-saving-file-to-some-location/
+"description": "Mở khóa sức mạnh lưu tệp trong .NET bằng Aspose.Cells. Học cách lưu tệp Excel ở nhiều định dạng một cách dễ dàng."
+"linktitle": "Lưu tệp vào một số vị trí"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lưu tệp vào một số vị trí"
+"url": "/vi/net/file-handling/file-saving-file-to-some-location/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu tệp vào một số vị trí
 
 ## Giới thiệu
-Khi làm việc với các tệp Excel trong .NET, thư viện Aspose.Cells nổi bật như một công cụ mạnh mẽ. Nó giống như có một con dao đa năng của Quân đội Thụy Sĩ để xử lý các bảng tính, cho phép bạn thao tác, lưu và thậm chí chuyển đổi các tệp này một cách dễ dàng. Bạn đã bao giờ tự hỏi làm thế nào để lưu một sổ làm việc hiệu quả ở nhiều định dạng khác nhau chưa? Vâng, bạn thật may mắn! Bài viết này sẽ hướng dẫn bạn thực hiện quy trình, giúp bạn thực hiện dễ như ăn bánh. Vậy thì, hãy lấy đồ uống yêu thích của bạn và cùng khám phá thế giới của Aspose.Cells!
+Khi làm việc với các tệp Excel trong .NET, thư viện Aspose.Cells nổi bật như một công cụ mạnh mẽ. Nó giống như có một con dao đa năng của Quân đội Thụy Sĩ để xử lý các bảng tính, cho phép bạn thao tác, lưu và thậm chí chuyển đổi các tệp này một cách dễ dàng. Bạn đã bao giờ tự hỏi làm thế nào để lưu hiệu quả một sổ làm việc ở nhiều định dạng khác nhau chưa? Vâng, bạn thật may mắn! Bài viết này sẽ hướng dẫn bạn thực hiện quy trình, giúp bạn thực hiện dễ như ăn bánh. Vậy thì, hãy lấy đồ uống yêu thích của bạn và cùng khám phá thế giới của Aspose.Cells!
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào mã, chúng ta hãy cùng trang bị cho bạn mọi thứ cần thiết để theo dõi một cách liền mạch. Sau đây là những gì bạn cần có:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi chúng ta sẽ viết và thử nghiệm ứng dụng .NET của mình.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần tải xuống thư viện Aspose.Cells. Bạn có thể tải xuống phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/).
 3. .NET Framework: Đảm bảo bạn có phiên bản .NET Framework tương thích với Aspose.Cells, thường hoạt động với .NET Framework 4.0 trở lên.
-4. Hiểu biết cơ bản về C#: Nắm vững cơ bản về lập trình C# sẽ có lợi. Đừng lo lắng; chúng tôi sẽ giải thích mọi thứ từng bước một!
-5.  Đường dẫn tệp: Quyết định nơi bạn muốn lưu các tệp đầu ra. Tạo một thư mục có tên`Your Document Directory` để đơn giản.
+4. Hiểu biết cơ bản về C#: Nắm vững cơ bản về lập trình C# sẽ rất có lợi. Đừng lo lắng; chúng tôi sẽ giải thích từng bước một!
+5. Đường dẫn tệp: Quyết định nơi bạn muốn lưu các tệp đầu ra. Tạo một thư mục có tên `Your Document Directory` để đơn giản.
 Được trang bị những công cụ và kiến thức này, bạn đã sẵn sàng bắt đầu cuộc phiêu lưu lập trình của mình!
 ## Nhập gói
 Để bắt đầu sử dụng thư viện Aspose.Cells, trước tiên bạn cần đưa nó vào dự án của mình. Mở dự án Visual Studio của bạn và thêm tham chiếu thư viện như sau:
@@ -53,18 +55,18 @@ Khi tải sổ làm việc, bạn đang nói rằng, "Này, tôi muốn làm vi�
 // Lưu ở định dạng Excel 97–2003
 workbook.Save(dataDir + "output.xls");
 ```
- Dòng này lưu sổ làm việc của bạn bằng cách sử dụng`.xls` phần mở rộng, là định dạng Excel dành cho các phiên bản trước năm 2007. Giống như việc gửi thư qua dịch vụ bưu chính để đảm bảo thư đến được người nhận lớn tuổi hơn!
+Dòng này lưu sổ làm việc của bạn bằng cách sử dụng `.xls` phần mở rộng, là định dạng Excel dành cho các phiên bản trước năm 2007. Giống như việc gửi thư qua dịch vụ bưu chính để đảm bảo thư đến được người nhận lớn tuổi hơn!
 ## Bước 4: Lưu ở định dạng Excel 2007
-Nếu bạn muốn sử dụng các tính năng từ Excel 2007 trở lên, hãy lưu trong`.xlsx` định dạng là cách để thực hiện. Đây là cách thực hiện:
+Nếu bạn muốn sử dụng các tính năng từ Excel 2007 trở lên, hãy lưu trong `.xlsx` định dạng là cách để thực hiện. Đây là cách thực hiện:
 ```csharp
 // Lưu ở định dạng Excel 2007 xlsx
 workbook.Save(dataDir + "output.xlsx");
 ```
 Bây giờ tệp của bạn đã được khoác lên mình bộ cánh mới nhất, sẵn sàng cho các chức năng hiện đại của Excel! 
 ## Bước 5: Lưu ở định dạng nhị phân của Excel
- Đối với những người muốn lưu tệp với thời gian tải nhanh hơn, định dạng nhị phân Excel`.xlsb` có thể là một cứu cánh. Đây là cách bạn thực hiện:
+Đối với những người muốn lưu tệp với thời gian tải nhanh hơn, định dạng nhị phân Excel `.xlsb` có thể là một cứu cánh. Đây là cách bạn thực hiện:
 ```csharp
-// Lưu ở định dạng Excel 2007 xlsb
+// Lưu ở định dạng xlsb của Excel 2007
 workbook.Save(dataDir + "output.xlsb");
 ```
 Định dạng này cũng phù hợp với các tập dữ liệu lớn hơn vì nó nén kích thước tệp trong khi vẫn đảm bảo toàn bộ dữ liệu của bạn được nguyên vẹn. 
@@ -104,15 +106,17 @@ Aspose.Cells là một thư viện mạnh mẽ cho phép tạo, chỉnh sửa v�
 ### Tôi có thể sử dụng Aspose.Cells với các ngôn ngữ lập trình khác không?
 Có, Aspose.Cells cũng có sẵn cho Java, Python và nhiều ngôn ngữ khác, cho phép sử dụng đa nền tảng.
 ### Có phiên bản miễn phí của Aspose.Cells không?
- Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách truy cập phiên bản dùng thử giới hạn[đây](https://releases.aspose.com/).
+Có, bạn có thể dùng thử Aspose.Cells miễn phí bằng cách truy cập phiên bản dùng thử giới hạn [đây](https://releases.aspose.com/).
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể tìm thấy sự hỗ trợ trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
 ### Tôi có thể mua Aspose.Cells ở đâu?
- Bạn có thể mua giấy phép Aspose.Cells[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép Aspose.Cells [đây](https://purchase.aspose.com/buy).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

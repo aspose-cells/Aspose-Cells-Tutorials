@@ -1,14 +1,16 @@
 ---
-title: Tham chiếu hình ảnh ô trong Excel
-linktitle: Tham chiếu hình ảnh ô trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách tham chiếu ô hình ảnh trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Cải thiện bảng tính của bạn.
-weight: 15
-url: /vi/net/excel-ole-picture-objects/reference-picture-cell-excel/
+"description": "Tìm hiểu cách tham chiếu ô hình ảnh trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Cải thiện bảng tính của bạn."
+"linktitle": "Tham chiếu hình ảnh ô trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tham chiếu hình ảnh ô trong Excel"
+"url": "/vi/net/excel-ole-picture-objects/reference-picture-cell-excel/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tham chiếu hình ảnh ô trong Excel
@@ -18,7 +20,7 @@ Nếu bạn làm việc với bảng tính Excel, bạn có thể đã gặp ph�
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có mọi thứ cần thiết:
 - Visual Studio: Đảm bảo bạn đã cài đặt phiên bản Visual Studio tương thích trên máy của mình để xử lý dự án .NET.
-- Aspose.Cells cho .NET: Bạn sẽ cần phải có thư viện Aspose.Cells. Nếu bạn chưa tải xuống, hãy truy cập[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
+- Aspose.Cells cho .NET: Bạn sẽ cần phải có thư viện Aspose.Cells. Nếu bạn chưa tải xuống, hãy truy cập [Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/) và tải phiên bản mới nhất.
 - Kiến thức cơ bản về C#: Hướng dẫn này giả định rằng bạn đã quen với các khái niệm lập trình C# và .NET. Nếu bạn là người mới, đừng lo lắng; Tôi sẽ giải thích chi tiết từng bước.
 Bây giờ chúng ta đã sẵn sàng, hãy nhập các gói cần thiết!
 ## Nhập gói
@@ -44,7 +46,7 @@ Cells cells = workbook.Worksheets[0].Cells;
 ```
  
 - Bạn xác định đường dẫn nơi bạn muốn lưu tệp Excel của mình.
--  Tạo một cái mới`Workbook` Ví dụ, biểu thị tệp Excel của bạn.
+- Tạo một cái mới `Workbook` Ví dụ, biểu thị tệp Excel của bạn.
 - Truy cập vào các ô trong bảng tính đầu tiên nơi chúng ta sẽ chèn dữ liệu và hình ảnh.
 ## Bước 2: Thêm giá trị chuỗi vào ô
 Bây giờ, hãy thêm một số giá trị chuỗi vào các ô. 
@@ -54,7 +56,7 @@ cells["A1"].PutValue("A1");
 cells["C10"].PutValue("C10");
 ```
  
--  Sử dụng`PutValue` phương pháp này, chúng tôi sẽ điền chuỗi "A1" vào ô A1 và "C10" vào ô C10. Đây chỉ là một ví dụ cơ bản, nhưng nó sẽ giúp chúng tôi chứng minh cách hình ảnh của chúng tôi tham chiếu đến các khu vực này.
+- Sử dụng `PutValue` phương pháp này, chúng tôi sẽ điền chuỗi "A1" vào ô A1 và "C10" vào ô C10. Đây chỉ là một ví dụ cơ bản, nhưng nó sẽ giúp chúng tôi chứng minh cách hình ảnh của chúng tôi tham chiếu đến các khu vực này.
 ## Bước 3: Thêm một hình ảnh trống
 Tiếp theo, chúng ta sẽ thêm hình ảnh vào bảng tính của mình:
 ```csharp
@@ -86,7 +88,7 @@ Cuối cùng, hãy lưu bảng tính của chúng ta vào thư mục được ch
 workbook.Save(dataDir + "output.out.xls");
 ```
 
--  Các`Save`phương pháp này lấy đường dẫn nơi tệp Excel sẽ được lưu trữ, cùng với tên tệp. Sau khi thực hiện, bạn sẽ tìm thấy tệp Excel mới tạo của mình trong thư mục đã chỉ định.
+- Các `Save` phương pháp này lấy đường dẫn nơi tệp Excel sẽ được lưu trữ, cùng với tên tệp. Sau khi thực hiện, bạn sẽ tìm thấy tệp Excel mới tạo của mình trong thư mục đã chỉ định.
 ## Bước 7: Xử lý lỗi
 Để kết thúc, đừng quên đưa vào một số cách xử lý lỗi để bạn có thể phát hiện bất kỳ ngoại lệ nào có thể phát sinh trong khi chạy mã của mình:
 ```csharp
@@ -105,14 +107,16 @@ Aspose.Cells là thư viện .NET để quản lý các tệp Excel, cho phép c
 ### Tôi có thể sử dụng Aspose.Cells với Xamarin không?
 Có, Aspose.Cells có thể được sử dụng trong các dự án Xamarin, cho phép phát triển đa nền tảng để quản lý các tệp Excel.
 ### Có bản dùng thử miễn phí không?
- Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí từ[Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể nhận được bản dùng thử miễn phí từ [Trang dùng thử miễn phí Aspose](https://releases.aspose.com/).
 ### Tôi có thể lưu tệp Excel ở định dạng nào?
 Aspose.Cells hỗ trợ nhiều định dạng khác nhau, bao gồm XLSX, XLS, CSV, PDF, v.v.
 ### Tôi có thể tìm kiếm sự hỗ trợ như thế nào nếu gặp vấn đề?
- Bạn có thể nhận được hỗ trợ thông qua[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9), nơi cộng đồng và nhân viên Aspose có thể hỗ trợ giải đáp thắc mắc của bạn.
+Bạn có thể nhận được hỗ trợ thông qua [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9), nơi cộng đồng và nhân viên Aspose có thể hỗ trợ giải đáp thắc mắc của bạn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

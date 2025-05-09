@@ -1,14 +1,16 @@
 ---
-title: อ่านและเขียนการเชื่อมต่อภายนอกของไฟล์ XLSB
-linktitle: อ่านและเขียนการเชื่อมต่อภายนอกของไฟล์ XLSB
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการอ่านและเขียนการเชื่อมต่อภายนอกในไฟล์ XLSB โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้
-weight: 24
-url: /th/net/workbook-operations/read-and-write-external-connection/
+"description": "เรียนรู้วิธีการอ่านและเขียนการเชื่อมต่อภายนอกในไฟล์ XLSB โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้"
+"linktitle": "อ่านและเขียนการเชื่อมต่อภายนอกของไฟล์ XLSB"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "อ่านและเขียนการเชื่อมต่อภายนอกของไฟล์ XLSB"
+"url": "/th/net/workbook-operations/read-and-write-external-connection/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # อ่านและเขียนการเชื่อมต่อภายนอกของไฟล์ XLSB
@@ -23,13 +25,13 @@ url: /th/net/workbook-operations/read-and-write-external-connection/
 
 1. Visual Studio: ตรวจสอบให้แน่ใจว่าคุณมี Visual Studio เวอร์ชันที่กำลังทำงานติดตั้งอยู่ในคอมพิวเตอร์ของคุณแล้ว คุณจะเขียนโค้ดด้วย C# ในขณะที่เราทำงานกับ Aspose.Cells
    
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Cells หากคุณยังไม่มี คุณสามารถทำได้ง่ายๆ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Cells หากคุณยังไม่มี คุณสามารถทำได้ง่ายๆ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/cells/net/). 
 
 3. ไฟล์ XLSB: เตรียมไฟล์ XLSB ตัวอย่างไว้สำหรับการทดสอบ คุณสามารถสร้างไฟล์จาก Excel ได้หากคุณไม่มีไฟล์ที่มีอยู่
 
-4. ความรู้พื้นฐานด้านการเขียนโปรแกรม: ความคุ้นเคยกับ C# บางส่วนจะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดที่เราจะสำรวจ
+4. ความรู้พื้นฐานด้านการเขียนโปรแกรม: ความคุ้นเคยกับ C# จะช่วยให้คุณเข้าใจชิ้นส่วนโค้ดที่เราจะสำรวจ
 
-เมื่อคุณทำเครื่องหมายในรายการเหล่านี้เรียบร้อยแล้ว เราก็พร้อมที่จะอ่านและแก้ไขการเชื่อมต่อภายนอกภายในไฟล์ XLSB ได้เลย!
+เมื่อคุณทำเครื่องหมายในรายการเหล่านี้เรียบร้อยแล้ว เราก็พร้อมที่จะอ่านและแก้ไขการเชื่อมต่อภายนอกภายในไฟล์ XLSB แล้ว!
 
 ## แพ็คเกจนำเข้า
 
@@ -80,7 +82,7 @@ Console.WriteLine("Connection Name: " + dbCon.Name);
 Console.WriteLine("Command: " + dbCon.Command);
 Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
 ```
-สิ่งนี้ช่วยให้คุณเข้าใจว่าคุณกำลังทำงานกับอะไร ลองนึกภาพว่ามีคนมอบกุญแจห้องที่ถูกล็อคก่อนที่คุณจะตัดสินใจเปลี่ยนกุญแจ
+นี่ช่วยให้คุณเข้าใจว่าคุณกำลังทำงานกับอะไร ลองนึกภาพว่ามีคนมอบกุญแจห้องที่ถูกล็อคก่อนที่คุณจะตัดสินใจเปลี่ยนกุญแจ
 
 ## ขั้นตอนที่ 5: แก้ไขชื่อการเชื่อมต่อ
 
@@ -102,7 +104,7 @@ wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
 
 ## ขั้นตอนที่ 7: ข้อความยืนยัน
 
-เพื่อความสบายใจ ให้เราเพิ่มข้อความยืนยันเพื่อระบุว่ากระบวนการเสร็จสมบูรณ์แล้ว
+เพื่อความสบายใจ ให้เพิ่มข้อความยืนยันเพื่อระบุว่ากระบวนการเสร็จสมบูรณ์แล้ว
 
 ```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
@@ -119,19 +121,21 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 ไฟล์ XLSB เป็นไฟล์ไบนารี Excel ที่จัดเก็บข้อมูลสเปรดชีตในรูปแบบไบนารี ทำให้มีขนาดกะทัดรัดและเปิดได้เร็วกว่าไฟล์ XLSX ทั่วไป
 
 ### ฉันต้องมีใบอนุญาตพิเศษสำหรับ Aspose.Cells หรือไม่?  
- ใช่ Aspose.Cells ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถทดลองใช้งานฟรีได้ที่[ที่นี่](https://releases.aspose.com/).
+ใช่ Aspose.Cells ต้องมีใบอนุญาตจึงจะใช้งานได้เต็มรูปแบบ คุณสามารถทดลองใช้งานฟรีได้ที่ [ที่นี่](https://releases-aspose.com/).
 
 ### ฉันสามารถเข้าถึงแหล่งข้อมูลภายนอกอื่นๆ นอกเหนือจากฐานข้อมูลด้วย Aspose.Cells ได้หรือไม่  
 แน่นอน! Aspose.Cells รองรับการเชื่อมต่อข้อมูลภายนอกต่างๆ รวมถึง OLEDB และ ODBC 
 
 ### มีฟอรัมชุมชนสำหรับผู้ใช้ Aspose.Cells หรือไม่  
- ใช่ครับ! คุณสามารถเข้าร่วมได้[ฟอรั่มสนับสนุน Aspose.Cells](https://forum.aspose.com/c/cells/9) เพื่อมีส่วนร่วมกับผู้ใช้รายอื่นและแสวงหาความช่วยเหลือ
+ใช่ครับ! คุณสามารถเข้าร่วมได้ [ฟอรั่มสนับสนุน Aspose.Cells](https://forum.aspose.com/c/cells/9) เพื่อมีส่วนร่วมกับผู้ใช้รายอื่นและแสวงหาความช่วยเหลือ
 
 ### ฉันสามารถรับใบอนุญาตชั่วคราวสำหรับ Aspose.Cells ได้หรือไม่  
- ใช่ Aspose ให้บริการ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับผู้ใช้ที่ต้องการประเมินซอฟต์แวร์ก่อนการซื้อ
+ใช่ Aspose ให้บริการ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) สำหรับผู้ใช้ที่ต้องการประเมินซอฟต์แวร์ก่อนการซื้อ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

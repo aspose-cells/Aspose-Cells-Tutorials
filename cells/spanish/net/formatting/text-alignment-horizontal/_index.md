@@ -1,43 +1,48 @@
 ---
-title: Alineación horizontal de texto en Excel con Aspose.Cells
-weight: 7700
-limit: 
-description: Aprenda a alinear el texto horizontalmente en las celdas de Excel usando Aspose.Cells para .NET con un ejemplo simple.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /es/net/formatting/text-alignment-horizontal/
+"description": "Aprenda a alinear texto horizontalmente en celdas de Excel usando Aspose.Cells para .NET con un ejemplo simple."
+"title": "Alineación horizontal de texto en Excel con Aspose.Cells"
+"url": "/es/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Alineación horizontal de texto en Excel con Aspose.Cells
 
-Este ejemplo demuestra cómo usar Aspose.Cells para .NET para crear un archivo Excel y establecer la alineación horizontal de texto en una célula específica. El tutorial lo guía a través de la inicialización de un libro de trabajo, la modificación de las propiedades de una célula y el almacenamiento del archivo en formato Excel 97-2003. Perfecto para los desarrolladores que buscan mejorar sus habilidades de manipulación de archivos Excel utilizando Aspose.Cells.
+Este ejemplo demuestra cómo usar Aspose.Cells para .NET para crear un archivo de Excel y configurar la alineación horizontal del texto en una celda específica. El tutorial le guía en la inicialización de un libro, la modificación de las propiedades de una celda y el guardado del archivo en formato Excel 97-2003. Ideal para desarrolladores que desean mejorar sus habilidades de manipulación de archivos de Excel con Aspose.Cells.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación
-1. Descarga e instala Aspose.Cells para .NET desde el [Página de lanzamientos de Aspose](https://releases.aspose.com/cells/net/)¿ Qué ?  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
+1. Descargue e instale Aspose.Cells para .NET desde [Página de lanzamiento de Aspose](https://releases.aspose.com/cells/net/).  
+2. Agregue una referencia a Aspose.Cells.dll en su proyecto C#.  
 3. Utilice el Administrador de paquetes NuGet para instalar Aspose.Cells:  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. Importe los espacios de nombres necesarios en su archivo C#:  
    ```csharp
    using Aspose.Cells;
    ```
 
-## También véase  
-Para comprar una licencia, vaya a [Ponga en marcha la página de compra](https://purchase.aspose.com/buy)¿ Qué ?  
-Para obtener la documentación completa, visite [Aspose.Cells para Documentación .NET](https://docs.aspose.com/cells/net/)¿ Qué ?  
-Para explorar la referencia completa de la API, consulte [Aspose.Cells para la referencia de API .NET](https://reference.aspose.com/cells/net/)¿ Qué ? 
+## Ver también  
+Para comprar una licencia, vaya a [Página de compra de Aspose](https://purchase.aspose.com/buy).  
+Para obtener la documentación completa, visite [Documentación de Aspose.Cells para .NET](https://docs.aspose.com/cells/net/).  
+Para explorar la referencia completa de la API, consulte [Referencia de la API de Aspose.Cells para .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

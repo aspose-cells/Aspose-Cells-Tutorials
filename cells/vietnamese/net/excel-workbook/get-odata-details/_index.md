@@ -1,14 +1,16 @@
 ---
-title: Nhận thông tin chi tiết về Odata
-linktitle: Nhận thông tin chi tiết về Odata
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Khám phá cách trích xuất thông tin chi tiết OData từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
-weight: 110
-url: /vi/net/excel-workbook/get-odata-details/
+"description": "Khám phá cách trích xuất thông tin chi tiết OData từ Excel bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này."
+"linktitle": "Nhận thông tin chi tiết về Odata"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Nhận thông tin chi tiết về Odata"
+"url": "/vi/net/excel-workbook/get-odata-details/"
+"weight": 110
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận thông tin chi tiết về Odata
@@ -22,7 +24,7 @@ Trong thế giới quản lý dữ liệu không ngừng phát triển, khả n�
 Trước khi đi sâu vào mã, hãy đảm bảo bạn có mọi thứ cần thiết để làm theo hướng dẫn này. Sau đây là những gì bạn cần:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Đây là môi trường lý tưởng để phát triển .NET.
-2. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/) . Bạn cũng có thể dùng thử phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+2. Thư viện Aspose.Cells: Tải xuống và cài đặt thư viện Aspose.Cells cho .NET từ [Trang tải xuống Aspose](https://releases.aspose.com/cells/net/). Bạn cũng có thể dùng thử phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu rõ hơn về các sắc thái của mã.
 4. Tệp Excel mẫu: Trong hướng dẫn này, chúng tôi sẽ sử dụng tệp Excel có tên "ODataSample.xlsx", tệp này sẽ được lưu trữ trong thư mục làm việc của bạn.
 
@@ -50,7 +52,7 @@ Hãy bắt đầu hành trình mã hóa của chúng ta bằng cách nhập các
 
 ### Bao gồm các không gian tên cần thiết
 
- Sau khi quá trình cài đặt hoàn tất, bạn sẽ muốn thêm các không gian tên cần thiết vào đầu`Program.cs` tài liệu:
+Sau khi quá trình cài đặt hoàn tất, bạn sẽ muốn thêm các không gian tên cần thiết vào đầu `Program.cs` tài liệu:
 
 ```csharp
 using Aspose.Cells.QueryTables;
@@ -63,7 +65,7 @@ Bây giờ chúng ta đã thiết lập xong môi trường phát triển, đã 
 
 ## Bước 1: Thiết lập sổ làm việc
 
- Trong bước đầu tiên này, bạn sẽ tạo một phiên bản của`Workbook` lớp và tải tệp Excel của bạn:
+Trong bước đầu tiên này, bạn sẽ tạo một phiên bản của `Workbook` lớp và tải tệp Excel của bạn:
 
 ```csharp
 // Đặt thư mục nguồn
@@ -105,7 +107,7 @@ Trong khối này, chúng tôi:
 
 ## Bước 4: Thực hiện & Xác minh
 
- Cuối cùng, bạn cần đảm bảo rằng mã chạy đúng và trả về kết quả mong đợi. Thêm dòng sau vào cuối`Main` phương pháp:
+Cuối cùng, bạn cần đảm bảo rằng mã chạy đúng và trả về kết quả mong đợi. Thêm dòng sau vào cuối `Main` phương pháp:
 
 ```csharp
 Console.WriteLine("GetOdataDetails executed successfully.");
@@ -129,13 +131,15 @@ Có, bạn có thể tải xuống bản dùng thử miễn phí từ trang web 
 Công thức Power Query cho phép người dùng kết nối, kết hợp và chuyển đổi dữ liệu từ nhiều nguồn khác nhau trong Excel.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Bạn có thể ghé thăm[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và giúp đỡ từ cộng đồng.
+Bạn có thể ghé thăm [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9) để được hỗ trợ và giúp đỡ từ cộng đồng.
 
 ### Tôi có thể mua Aspose.Cells ở đâu?
- Bạn có thể mua Aspose.Cells từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Cells từ [trang mua hàng](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

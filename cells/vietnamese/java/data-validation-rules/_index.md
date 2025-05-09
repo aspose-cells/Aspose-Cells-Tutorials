@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quy tắc xác thực dữ liệu
@@ -42,9 +44,11 @@ Tìm hiểu về Xác thực dữ liệu trong Excel bằng Aspose.Cells cho Jav
 Tìm hiểu cách triển khai xác thực dữ liệu có điều kiện bằng Aspose.Cells cho Java. Hướng dẫn từng bước với mã nguồn để xử lý dữ liệu chính xác trong bảng tính Excel.
 ### [Nhập tin nhắn trong Xác thực dữ liệu](./input-message-in-data-validation/)
 Tìm hiểu cách nâng cao xác thực dữ liệu trong Excel bằng Aspose.Cells cho Java. Hướng dẫn từng bước với các ví dụ mã để cải thiện độ chính xác của dữ liệu và hướng dẫn người dùng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

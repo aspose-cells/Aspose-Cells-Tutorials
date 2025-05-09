@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@
 
 ### Lo que aprenderás:
 - Muestra la versión de Aspose.Cells para Java.
-- Cargue un archivo Excel que contenga una segmentación de datos.
+- Cargue un archivo de Excel que contenga una segmentación de datos.
 - Acceder y configurar los ajustes de la hoja de trabajo.
 - Configure las opciones de imagen o impresión para obtener una calidad de salida óptima.
 - Renderice hojas de trabajo en imágenes de alta calidad.
@@ -221,6 +223,9 @@ En este tutorial, hemos explorado cómo usar Aspose.Cells para Java para renderi
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ license.setLicense(fstream);
 **Panoramica**: Genera rapidamente una cartella di lavoro Excel vuota per iniziare la manipolazione dei dati.
 
 **Passo dopo passo:**
-1. **Crea un'istanza della cartella di lavoro**: Crea un `Workbook` oggetto.
+1. **Crea un'istanza della cartella di lavoro**Crea un `Workbook` oggetto.
 2. **Directory di output**: Definisci dove vuoi salvare il file.
 
 ```java
@@ -195,6 +197,9 @@ Intraprendi oggi stesso il tuo viaggio con Aspose.Cells per Java e sfrutta appie
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

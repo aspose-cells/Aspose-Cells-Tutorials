@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Chart chart = charts.get(chartIndex);
 Title title = chart.getTitle();
 title.setText("ASPOSE");
 
-// Grafik başlığının yazı tipi rengini maviye özelleştir
+// Grafik başlığının yazı tipi rengini mavi olarak özelleştirin
 Font font = title.getFont();
 font.setColor(Color.getBlue());
 ```
@@ -212,6 +214,9 @@ Bu eğitimde, başlıkları ayarlayarak, eksen etiketlerini özelleştirerek ve 
 - **Destek**: [Destek için Aspose Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

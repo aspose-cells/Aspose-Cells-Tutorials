@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Fasi di acquisizione della licenza
 Per utilizzare al meglio Aspose.Cells per Java, valuta l'acquisto di una licenza. Puoi iniziare con una prova gratuita o ottenere una licenza temporanea per esplorarne tutte le funzionalità prima di procedere all'acquisto.
 
-1. **Prova gratuita**: Scarica da [Sito web di Aspose](https://releases.aspose.com/cells/java/) e segui le istruzioni di installazione.
+1. **Prova gratuita**: Scarica da [Sito web di Aspose](https://releases.aspose.com/cells/java/) e seguire le istruzioni di installazione.
 2. **Licenza temporanea**: Richiedilo tramite questo link: [Licenza temporanea](https://purchase.aspose.com/temporary-license/).
 3. **Acquistare**: Per un uso a lungo termine, visitare [Acquista Aspose.Cells](https://purchase.aspose.com/buy).
 
@@ -171,7 +173,7 @@ Per iniziare, configura il tuo ambiente di sviluppo utilizzando Maven o Gradle e
 **2. Posso utilizzare Aspose.Cells in un progetto commerciale?**
 Sì, ma per uso commerciale sarà necessario acquistare una licenza.
 
-**3. Quali sono i limiti dei file XLS rispetto a XLSX?**
+**3. Quali sono le limitazioni dei file XLS rispetto a XLSX?**
 file XLS supportano fino a 65.536 righe e 256 colonne, mentre i file XLSX ne supportano molte di più.
 
 **4. Come posso migliorare le prestazioni quando utilizzo Aspose.Cells?**
@@ -186,6 +188,9 @@ Visita il sito ufficiale [Documentazione di Aspose](https://reference.aspose.com
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@
 
 หากต้องการทำตามบทช่วยสอนนี้ โปรดแน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-1. **ไลบรารีและสิ่งที่ต้องพึ่งพา:**
+1. **ไลบรารีและการอ้างอิงที่จำเป็น:**
    - Aspose.Cells สำหรับไลบรารี Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
    - ความคุ้นเคยเบื้องต้นกับการเขียนโปรแกรม Java
    - IDE เช่น IntelliJ IDEA หรือ Eclipse สำหรับการเขียนและรันโค้ดของคุณ
@@ -40,7 +42,7 @@
    - ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณ
    - การตั้งค่าระบบสร้าง Maven หรือ Gradle ในสภาพแวดล้อมการพัฒนาของคุณ
 
-3. **ข้อกำหนดเบื้องต้นของความรู้:**
+3. **ข้อกำหนดความรู้เบื้องต้น:**
    - ความเข้าใจพื้นฐานในการจัดการไฟล์ในภาษา Java
    - ความคุ้นเคยกับรูปแบบไฟล์ Excel และโครงสร้างแผนภูมิ
 
@@ -186,6 +188,9 @@ system.out.println("Picture added to chart successfully.");
 - **สนับสนุน:** [ฟอรัม Aspose สำหรับคำถามและความช่วยเหลือ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/freeze-panes-of-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Freeze Panes Of Worksheet
@@ -148,6 +150,7 @@ Aspose.Cells for .NET is designed to work with .NET Framework, .NET Core, and .N
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

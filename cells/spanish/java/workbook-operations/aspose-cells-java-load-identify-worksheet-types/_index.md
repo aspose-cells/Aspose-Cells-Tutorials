@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ if (ws.getType() == SheetType.DIALOG) {
 
 ## Aplicaciones prácticas
 
-continuación se presentan algunos escenarios del mundo real en los que se pueden aplicar estas funciones:
+A continuación se presentan algunos escenarios del mundo real en los que se pueden aplicar estas funciones:
 
 1. **Generación automatizada de informes**:Identificar y procesar hojas de diálogo para informes interactivos.
 2. **Validación de datos**:Verifique los tipos de hojas de trabajo para garantizar la integridad de los datos antes de procesarlos.
@@ -192,6 +194,9 @@ A: Visita el [Documentación de Aspose](https://reference.aspose.com/cells/java/
 - **Apoyo**: [Foro de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

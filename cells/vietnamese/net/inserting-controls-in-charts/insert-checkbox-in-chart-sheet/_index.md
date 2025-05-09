@@ -1,14 +1,16 @@
 ---
-title: Chèn hộp kiểm vào bảng biểu đồ
-linktitle: Chèn hộp kiểm vào bảng biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chèn hộp kiểm dễ dàng vào biểu đồ Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 13
-url: /vi/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/
+"description": "Tìm hiểu cách chèn hộp kiểm dễ dàng vào biểu đồ Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Chèn hộp kiểm vào bảng biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chèn hộp kiểm vào bảng biểu đồ"
+"url": "/vi/net/inserting-controls-in-charts/insert-checkbox-in-chart-sheet/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chèn hộp kiểm vào bảng biểu đồ
@@ -21,11 +23,11 @@ Nếu bạn đã từng tạo biểu đồ trong Excel, bạn biết rằng chú
 
 Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã thiết lập mọi thứ. Sau đây là những gì bạn cần:
 
-### Visual Studio đã được cài đặt
+### Đã cài đặt Visual Studio
 - Trước tiên và quan trọng nhất, bạn sẽ cần Visual Studio. Nếu bạn chưa cài đặt, bạn có thể tải xuống từ trang web của Microsoft.
 
 ### Thư viện Aspose.Cells
--  Công cụ thiết yếu tiếp theo là thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng lấy nó từ[Trang web Aspose](https://releases.aspose.com/cells/net/) để tải xuống. Nếu bạn muốn thử nghiệm trước khi mua, cũng có một[có bản dùng thử miễn phí](https://releases.aspose.com/).
+- Công cụ thiết yếu tiếp theo là thư viện Aspose.Cells cho .NET. Bạn có thể dễ dàng lấy nó từ [Trang web Aspose](https://releases.aspose.com/cells/net/) để tải xuống. Nếu bạn muốn thử nghiệm trước khi mua, cũng có một [có bản dùng thử miễn phí](https://releases.aspose.com/).
 
 ### Hiểu biết cơ bản về C#
 - Vì chúng ta sẽ viết một số mã, nên hiểu biết cơ bản về C# sẽ có lợi. Đừng lo lắng; Tôi sẽ giải thích mọi thứ khi chúng ta thực hiện!
@@ -55,7 +57,7 @@ Sau khi thiết lập xong dự án, đã đến lúc thêm thư viện Aspose.C
 
 ### Thêm Chỉ thị Sử dụng Cần thiết
 
- Ở đầu trang của bạn`Program.cs` tệp, thêm các lệnh sau để sử dụng các chức năng của Aspose.Cells:
+Ở đầu trang của bạn `Program.cs` tệp, thêm các lệnh sau để sử dụng các chức năng của Aspose.Cells:
 ```csharp
 using Aspose.Cells.Charts;
 using System;
@@ -72,11 +74,11 @@ Trước khi đến phần thú vị, chúng ta cần xác định nơi chúng t
 ```csharp
 string outputDir = "C:\\YourOutputDirectory\\"; // Thay đổi đến thư mục bạn chỉ định
 ```
- Hãy chắc chắn thay thế`"C:\\YourOutputDirectory\\"`với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
+Hãy chắc chắn thay thế `"C:\\YourOutputDirectory\\"` với đường dẫn mà bạn muốn lưu tệp của mình. Hãy nghĩ về điều này như thiết lập không gian làm việc của bạn; bạn cần biết mình sẽ đặt các công cụ của mình ở đâu (hoặc trong trường hợp này là tệp Excel của bạn).
 
 ## Bước 2: Khởi tạo một đối tượng Workbook
 
- Tiếp theo, chúng ta đang tạo một phiên bản của`Workbook` lớp học. Đây là nơi diễn ra mọi công việc của chúng tôi.
+Tiếp theo, chúng ta đang tạo một phiên bản của `Workbook` lớp học. Đây là nơi diễn ra mọi công việc của chúng tôi.
 ```csharp
 Workbook workbook = new Workbook();
 ```
@@ -99,7 +101,7 @@ Hãy coi bước này như việc lựa chọn loại khung ảnh bạn muốn t
 
 ## Bước 4: Thêm Chuỗi Dữ Liệu vào Biểu Đồ của Bạn
 
-Tại thời điểm này, chúng ta hãy điền một số chuỗi dữ liệu vào biểu đồ. Để thêm dữ liệu mẫu:
+Tại thời điểm này, hãy điền một số chuỗi dữ liệu vào biểu đồ. Để thêm dữ liệu mẫu:
 ```csharp
 sheet.Charts[0].NSeries.Add("{1,2,3}", false);
 ```
@@ -117,7 +119,7 @@ Trong đoạn mã này:
 - `PlacementType.Move` có nghĩa là nếu biểu đồ di chuyển thì hộp kiểm cũng sẽ di chuyển.
 - Chúng ta cũng thiết lập vị trí và kích thước của hộp kiểm trong vùng biểu đồ và cuối cùng, chúng ta thiết lập nhãn văn bản của hộp kiểm.
 
-Thêm hộp kiểm cũng giống như việc đặt một quả anh đào lên trên ly kem của bạn; nó làm tăng thêm vẻ đẹp cho toàn bộ bài thuyết trình!
+Thêm hộp kiểm cũng giống như việc đặt một quả anh đào lên trên ly kem của bạn; nó làm cho toàn bộ bài thuyết trình trở nên hấp dẫn hơn!
 
 ## Bước 6: Lưu tệp Excel
 
@@ -137,19 +139,21 @@ Và bạn đã có nó! Bạn đã thêm thành công một hộp kiểm vào m�
 Aspose.Cells là một thư viện mạnh mẽ để tạo và thao tác các tệp Excel trong các ứng dụng .NET.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?  
- Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể bắt đầu với phiên bản dùng thử có sẵn[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí. Bạn có thể bắt đầu với phiên bản dùng thử có sẵn [đây](https://releases.aspose.com/).
 
 ### Việc thêm hộp kiểm vào bảng biểu đồ có phức tạp không?  
 Hoàn toàn không! Như đã trình bày trong hướng dẫn này, điều này có thể thực hiện chỉ bằng một vài dòng mã đơn giản.
 
 ### Tôi có thể mua Aspose.Cells ở đâu?  
- Bạn có thể mua Aspose.Cells từ[liên kết mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Cells từ [liên kết mua hàng](https://purchase.aspose.com/buy).
 
 ### Tôi có thể nhận được hỗ trợ như thế nào nếu gặp vấn đề?  
- Aspose cung cấp diễn đàn hỗ trợ nơi bạn có thể đặt câu hỏi và tìm giải pháp. Hãy xem[trang hỗ trợ](https://forum.aspose.com/c/cells/9).
+Aspose cung cấp diễn đàn hỗ trợ nơi bạn có thể đặt câu hỏi và tìm giải pháp. Hãy xem [trang hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

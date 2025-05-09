@@ -1,14 +1,16 @@
 ---
-title: Зависимость данных Excel и расчет
-linktitle: Зависимость данных Excel и расчет
-second_title: API обработки Excel Aspose.Cells .NET
-description: Ознакомьтесь с учебными пособиями Aspose.Cells для .NET, охватывающими зависимости и вычисления данных Excel, включая трассировку зависимых ячеек, чтобы улучшить свои навыки автоматизации Excel.
-weight: 34
-url: /ru/net/excel-data-dependency-calculation/
+"description": "Ознакомьтесь с учебными пособиями Aspose.Cells для .NET, охватывающими зависимости и вычисления данных Excel, включая трассировку зависимых ячеек, чтобы улучшить свои навыки автоматизации Excel."
+"linktitle": "Зависимость данных Excel и расчет"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Зависимость данных Excel и расчет"
+"url": "/ru/net/excel-data-dependency-calculation/"
+"weight": 34
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Зависимость данных Excel и расчет
@@ -24,9 +26,11 @@ url: /ru/net/excel-data-dependency-calculation/
 ## Учебники по зависимости данных и расчетам в Excel
 ### [Отслеживание зависимых ячеек в Excel](./tracing-dependent-cells-in-excel/)
 Узнайте, как отслеживать зависимые ячейки в Excel с помощью Aspose.Cells для .NET, из этого простого руководства.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

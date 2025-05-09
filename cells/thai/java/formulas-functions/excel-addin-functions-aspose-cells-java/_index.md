@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@
 - การใช้ฟังก์ชัน Add-in ในสูตร Excel
 - การบันทึกสมุดงานที่แก้ไข
 
-เริ่มต้นด้วยการครอบคลุมข้อกำหนดเบื้องต้นที่คุณต้องการก่อนจะเจาะลึกรายละเอียดการใช้งาน!
+เริ่มต้นด้วยการครอบคลุมข้อกำหนดเบื้องต้นที่คุณต้องการก่อนจะเจาะลึกในรายละเอียดการใช้งาน!
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -155,7 +157,7 @@ workbook.save(outDir + "/test_udf.xlsx", com.aspose.cells.SaveFormat.XLSX);
 ### เคล็ดลับการแก้ไขปัญหา
 
 - ตรวจสอบให้แน่ใจว่าสามารถเข้าถึงไฟล์ส่วนเสริมได้จากเส้นทางที่ระบุ
-- ตรวจสอบว่าชื่อฟังก์ชันตรงกันทุกประการกับที่ปรากฏในส่วนเสริม
+- ตรวจสอบว่าชื่อฟังก์ชันตรงกันกับที่ปรากฏในส่วนเสริม
 
 ## การประยุกต์ใช้งานจริง
 
@@ -210,6 +212,9 @@ workbook.save(outDir + "/test_udf.xlsx", com.aspose.cells.SaveFormat.XLSX);
 เริ่มต้นการเดินทางของคุณเพื่อใช้ประโยชน์จากฟังก์ชัน Excel ทั้งหมดใน Java ด้วย Aspose.Cells ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ A beállítás után inicializáld az Aspose.Cells-t így:
 ```java
 import com.aspose.cells.Workbook;
 
-String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjára
+String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjával
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 ```
 
@@ -190,6 +192,9 @@ A5: Látogatás [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/
 - **Támogatás:** Csatlakozzon a beszélgetésekhez és kérjen segítséget a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

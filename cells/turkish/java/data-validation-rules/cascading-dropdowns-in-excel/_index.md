@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Basamaklı Açılır Listeler
@@ -117,7 +119,7 @@ Kesinlikle! Koşullu biçimlendirme, formüller ve grafikler gibi çeşitli Exce
 
 ### Aspose.Cells for Java hem küçük hem de büyük ölçekli projeler için uygun mudur?
 
-Evet, Aspose.Cells for Java çok yönlüdür ve her boyuttaki projede kullanılabilir. İster küçük bir yardımcı program, ister karmaşık bir kurumsal uygulama üzerinde çalışıyor olun, Aspose.Cells for Java Excel ile ilgili görevlerinizi kolaylaştırabilir.
+Evet, Aspose.Cells for Java çok yönlüdür ve her boyuttaki projede kullanılabilir. İster küçük bir yardımcı program ister karmaşık bir kurumsal uygulama üzerinde çalışıyor olun, Aspose.Cells for Java Excel ile ilgili görevlerinizi kolaylaştırabilir.
 
 ### Aspose.Cells for Java ile basamaklı açılır menüleri uygulamak için gelişmiş programlama becerilerine ihtiyacım var mı?
 
@@ -130,6 +132,7 @@ Java için Aspose.Cells'e ilişkin kapsamlı belgelere ve kaynaklara şu adreste
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

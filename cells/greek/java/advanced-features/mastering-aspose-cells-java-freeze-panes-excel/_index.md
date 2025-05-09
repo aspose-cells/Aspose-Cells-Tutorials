@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,6 +145,9 @@ workbook.save(outDir + "FreezePanes_out.xls");
 Για οποιεσδήποτε περαιτέρω ερωτήσεις ή υποστήριξη, επισκεφθείτε τη διεύθυνση [Φόρουμ Aspose](https://forum.aspose.com/c/cells/9)Καλή κωδικοποίηση!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

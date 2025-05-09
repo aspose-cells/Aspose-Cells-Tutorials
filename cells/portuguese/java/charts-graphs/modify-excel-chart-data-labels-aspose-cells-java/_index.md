@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Introdução
 
-Você já precisou automatizar a modificação de rótulos de dados de gráficos em uma pasta de trabalho do Excel? Atualizá-los manualmente pode ser demorado e sujeito a erros, especialmente ao lidar com grandes conjuntos de dados ou vários arquivos. Este tutorial o guiará pelo uso **Aspose.Cells para Java** para carregar uma pasta de trabalho, acessar uma planilha específica, modificar rótulos de dados de séries de gráficos e salvar o arquivo atualizado — tudo programaticamente.
+Você já precisou automatizar a modificação de rótulos de dados de gráficos em uma pasta de trabalho do Excel? Atualizá-los manualmente pode ser demorado e sujeito a erros, especialmente ao lidar com grandes conjuntos de dados ou vários arquivos. Este tutorial o guiará pelo uso **Aspose.Cells para Java** para carregar uma pasta de trabalho, acessar uma planilha específica, modificar rótulos de dados de séries de gráficos e salvar o arquivo atualizado, tudo programaticamente.
 
 ### O que você aprenderá:
 - Como configurar o Aspose.Cells para Java
@@ -81,7 +83,7 @@ Esta seção explicará cada recurso de modificação de rótulos de dados de gr
 #### Visão geral
 Comece carregando um arquivo Excel existente em seu aplicativo Java usando Aspose.Cells, que permite acesso programático ao seu conteúdo.
 
-#### Etapa 1: instanciar um objeto de pasta de trabalho
+#### Etapa 1: Instanciar um objeto de pasta de trabalho
 
 Comece criando um `Workbook` objeto do local de arquivo Excel especificado:
 
@@ -202,6 +204,9 @@ Explore recursos adicionais fornecidos pelo Aspose.Cells, como criar gráficos d
 Ao utilizar o Aspose.Cells para Java, você pode automatizar e aprimorar seus fluxos de trabalho relacionados ao Excel com precisão e facilidade. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

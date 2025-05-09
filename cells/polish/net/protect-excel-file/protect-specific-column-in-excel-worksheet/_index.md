@@ -1,14 +1,16 @@
 ---
-title: Chroń określoną kolumnę w arkuszu kalkulacyjnym programu Excel
-linktitle: Chroń określoną kolumnę w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak skutecznie chronić wybrane kolumny w programie Excel za pomocą pakietu Aspose.Cells for .NET, aby mieć pewność, że Twoje dane pozostaną bezpieczne i niezmienne.
-weight: 80
-url: /pl/net/protect-excel-file/protect-specific-column-in-excel-worksheet/
+"description": "Dowiedz się, jak skutecznie chronić wybrane kolumny w programie Excel za pomocą pakietu Aspose.Cells for .NET, aby mieć pewność, że Twoje dane pozostaną bezpieczne i niezmienne."
+"linktitle": "Chroń określoną kolumnę w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Chroń określoną kolumnę w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/protect-excel-file/protect-specific-column-in-excel-worksheet/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chroń określoną kolumnę w arkuszu kalkulacyjnym programu Excel
@@ -22,11 +24,11 @@ W świecie, w którym zarządzanie danymi staje się coraz bardziej złożone, w
 Zanim zagłębisz się w kod, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Microsoft Visual Studio (najlepiej 2017 lub nowszy). Będzie on służył jako środowisko programistyczne. 
-2.  Biblioteka Aspose.Cells: Musisz mieć pobraną bibliotekę Aspose.Cells i odwołać się do niej w swoim projekcie. Możesz[pobierz bibliotekę tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
+2. Biblioteka Aspose.Cells: Musisz mieć pobraną bibliotekę Aspose.Cells i odwołać się do niej w swoim projekcie. Możesz [pobierz bibliotekę tutaj](https://releases.aspose.com/cells/net/) jeśli jeszcze tego nie zrobiłeś.
 3. Podstawowa znajomość języka C#: Choć przykłady kodu są przejrzyste, podstawowa znajomość języka C# ułatwi Ci wprowadzanie niezbędnych zmian.
 4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na środowisko .NET Framework, w którym obsługiwany jest Aspose.Cells.
 
-A teraz przejdźmy do przyjemnej części — kodowania!
+A teraz przejdźmy do najlepszej części — kodowania!
 
 ## Importuj pakiety
 
@@ -65,7 +67,7 @@ Następnie musimy utworzyć nowy skoroszyt. Aspose.Cells pozwala na łatwe tworz
 Workbook wb = new Workbook();
 ```
 
- Poprzez utworzenie nowego`Workbook`obiekt, zaczynasz od pustej karty, gotowej do dostosowania arkusza kalkulacyjnego.
+Poprzez utworzenie nowego `Workbook` obiekt, zaczynasz od pustej karty, gotowej do dostosowania arkusza kalkulacyjnego.
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -76,7 +78,7 @@ Po utworzeniu skoroszytu należy uzyskać dostęp do pierwszego arkusza, w któr
 Worksheet sheet = wb.Worksheets[0];
 ```
 
- Ten`Worksheet` obiekt pozwala manipulować konkretnym arkuszem w skoroszycie. W tym przypadku używamy pierwszego arkusza.
+Ten `Worksheet` obiekt pozwala manipulować konkretnym arkuszem w skoroszycie. W tym przypadku używamy pierwszego arkusza.
 
 ## Krok 4: Odblokuj wszystkie kolumny
 
@@ -87,7 +89,7 @@ Aby ustawić określone kolumny jako chronione, musisz najpierw odblokować wszy
 Style style;
 // Zdefiniuj obiekt flagi stylu.
 StyleFlag flag;
-// Przejdź przez wszystkie kolumny arkusza i odblokuj je.
+// Przejdź przez wszystkie kolumny arkusza kalkulacyjnego i odblokuj je.
 for (int i = 0; i <= 255; i++)
 {
     style = sheet.Cells.Columns[(byte)i].Style;
@@ -98,7 +100,7 @@ for (int i = 0; i <= 255; i++)
 }
 ```
 
- Ten kod przechodzi przez każdą z pierwszych 256 kolumn. Odblokowuje każdą kolumnę poprzez modyfikację ustawień stylu.`StyleFlag` zapewnia, że zablokowaną właściwość można będzie zastosować później.
+Ten kod przechodzi przez każdą z pierwszych 256 kolumn. Odblokowuje każdą kolumnę poprzez modyfikację ustawień stylu. `StyleFlag` zapewnia, że zablokowaną właściwość można będzie zastosować później.
 
 ## Krok 5: Zablokuj żądaną kolumnę
 
@@ -109,7 +111,7 @@ Teraz będziesz chciał zablokować konkretnie pierwszą kolumnę, pozostawiają
 style = sheet.Cells.Columns[0].Style;
 // Zamknij to.
 style.IsLocked = true;
-//Utwórz instancję flagi.
+// Utwórz instancję flagi.
 flag = new StyleFlag();
 // Ustaw ustawienie blokady.
 flag.Locked = true;
@@ -128,7 +130,7 @@ Następny krok obejmuje włączenie ochrony całego arkusza kalkulacyjnego. Tuta
 sheet.Protect(ProtectionType.All);
 ```
 
- Ten`Protect` Metoda ta zapewnia, że wszystkie elementy arkusza, na których można wykonywać działania, są zabezpieczone, poza obszarami, na które wyraziłeś zgodę (np. odblokowane kolumny).
+Ten `Protect` Metoda ta zapewnia, że wszystkie elementy arkusza, na których można wykonywać działania, są zabezpieczone, poza obszarami, na które wyraziłeś zgodę (np. odblokowane kolumny).
 
 ## Krok 7: Zapisz skoroszyt
 
@@ -139,7 +141,7 @@ Gdy wszystko jest już skonfigurowane i gotowe, czas zapisać skoroszyt, upewnia
 wb.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Ten kod zapisuje skoroszyt w formacie Excel 97-2003 w określonej ścieżce. Upewnij się, że zastąpiłeś`dataDir` z rzeczywistą ścieżką katalogu.
+Ten kod zapisuje skoroszyt w formacie Excel 97-2003 w określonej ścieżce. Upewnij się, że zastąpiłeś `dataDir` z rzeczywistą ścieżką katalogu.
 
 ## Wniosek
 
@@ -154,16 +156,18 @@ Aspose.Cells for .NET to zaawansowana biblioteka przeznaczona do tworzenia, mody
 Tak! Aby chronić wiele kolumn, po prostu powtórz kod blokowania kolumny dla każdej kolumny, którą chcesz chronić.
 
 ### Czy jest dostępna wersja próbna?
- Tak! Możesz eksplorować funkcje Aspose.Cells, używając[bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
+Tak! Możesz eksplorować funkcje Aspose.Cells, używając [bezpłatna wersja próbna tutaj](https://releases.aspose.com/).
 
 ### Jakie formaty plików obsługuje Aspose.Cells?
 Aspose.Cells obsługuje wiele formatów, w tym XLSX, XLS, CSV i inne.
 
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Pomoc i wsparcie społeczności można znaleźć na stronie[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Pomoc i wsparcie społeczności można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

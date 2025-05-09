@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "了解如何使用 Aspose.Cells for Java 将签名行集成到 Excel 文件中的图像中。本指南内容详尽，助您简化文档工作流程。"
+"description": "了解如何使用 Aspose.Cells for Java 将签名行集成到 Excel 文件中的图像中。本指南将帮助您简化文档工作流程。"
 "title": "如何使用 Java 和 Aspose.Cells 在 Excel 中向图像添加签名行"
 "url": "/zh/java/security-protection/add-signature-line-image-excel-java-aspose-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,6 +178,9 @@ workbook.save(dataDir + "CSignatureLine_out.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

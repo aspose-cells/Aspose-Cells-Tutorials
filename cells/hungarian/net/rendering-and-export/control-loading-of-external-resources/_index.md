@@ -1,29 +1,31 @@
 ---
-title: Vezérelje a külső erőforrásokat az Excelből PDF-be az Aspose.Cells-ben
-linktitle: Vezérelje a külső erőforrásokat az Excelből PDF-be az Aspose.Cells-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel, hogyan vezérelheti a külső erőforrásokat az Excelben PDF-be az Aspose.Cells for .NET használatával a könnyen követhető útmutatónk segítségével.
-weight: 12
-url: /hu/net/rendering-and-export/control-loading-of-external-resources/
+"description": "Fedezze fel, hogyan kezelheti a külső erőforrásokat az Excel PDF-be konvertálása során az Aspose.Cells for .NET használatával könnyen követhető útmutatónkkal."
+"linktitle": "Külső erőforrások vezérlése Excelben PDF-be konvertálása Aspose.Cells-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Külső erőforrások vezérlése Excelben PDF-be konvertálása Aspose.Cells-ben"
+"url": "/hu/net/rendering-and-export/control-loading-of-external-resources/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vezérelje a külső erőforrásokat az Excelből PDF-be az Aspose.Cells-ben
+# Külső erőforrások vezérlése Excelben PDF-be konvertálása Aspose.Cells-ben
 
 ## Bevezetés
-A mai digitális korban gyakori feladat az Excel-táblázatok PDF dokumentumokká konvertálása. Legyen szó jelentések, pénzügyi adatok vagy prezentációs anyagok készítéséről, biztosítani szeretné, hogy PDF-fájljai pontosan úgy nézzenek ki, ahogyan azt szeretné. Az Aspose.Cells for .NET egy robusztus könyvtár, amely lehetővé teszi ennek az átalakítási folyamatnak a legapróbb részletéig történő irányítását, különösen az Excel-fájlokat kísérő külső erőforrások, például képek kezelésekor. Ebben az útmutatóban azt mutatjuk be, hogyan irányítható a külső erőforrások az Aspose.Cells segítségével az Excelből PDF-be átalakítási folyamat során. Fogja meg tehát kedvenc italát, és kezdjük is!
+A mai digitális korban az Excel-táblázatok PDF-dokumentumokká konvertálása gyakori feladat. Akár jelentéseket, pénzügyi adatokat vagy prezentációs anyagokat készít, biztosítani szeretné, hogy a PDF-fájlok pontosan úgy nézzenek ki, ahogyan szeretné. Az Aspose.Cells for .NET egy robusztus könyvtár, amely lehetővé teszi a konvertálási folyamat legapróbb részleteinek szabályozását, különösen az Excel-fájlokat kísérő külső erőforrások, például képek kezelésekor. Ebben az útmutatóban elmerülünk abban, hogyan szabályozhatja a külső erőforrásokat az Excel PDF-vé konvertálási folyamata során az Aspose.Cells segítségével. Tehát, fogja meg kedvenc italát, és kezdjük is!
 ## Előfeltételek
-Mielőtt belevágnánk a zűrzavarba, győződjünk meg arról, hogy minden megvan, ami a gördüléshez szükséges. Íme egy gyors ellenőrző lista:
-1. Visual Studio vagy bármely .NET-kompatibilis IDE: Szüksége lesz egy környezetre a kód írásához és teszteléséhez.
-2.  Aspose.Cells for .NET: Ha még nem telepítette, menjen a következőhöz[Aspose letöltések](https://releases.aspose.com/cells/net/) oldalt, és töltse le a legújabb verziót.
-3. Alapvető C# ismerete: Hasznos lesz a C# programozási nyelv ismerete. Ha nem biztos a fogalomban, ne habozzon utánanézni.
-4. Minta Excel-fájl: Készítsen Excel-fájlt bármilyen külső erőforrással, amelyet konvertálni szeretne. Használhatja a mellékelt „samplePdfSaveOptions_StreamProvider.xlsx” mintafájlt.
-5. Képfájl tesztelésre: Ez külső erőforrásként lesz használva az átalakítás során. A "newPdfSaveOptions_StreamProvider.png" képfájl jó helyőrző.
+Mielőtt belevágnánk a lényegbe, győződjünk meg róla, hogy minden megvan, amire szükséged van a kezdéshez. Íme egy gyors ellenőrzőlista:
+1. Visual Studio vagy bármilyen .NET-kompatibilis IDE: Szükséged lesz egy környezetre a kódod írásához és teszteléséhez.
+2. Aspose.Cells .NET-hez: Ha még nem telepítetted, látogass el a következő oldalra: [Aspose letöltések](https://releases.aspose.com/cells/net/) oldalt, és töltsd le a legújabb verziót.
+3. C# alapismeretek: A C# programozási nyelv ismerete hasznos lesz. Ha bizonytalan vagy valamelyik koncepcióban, ne habozz utánanézni.
+4. Minta Excel-fájl: Készítsen elő egy Excel-fájlt, amely tartalmazza a konvertálni kívánt külső erőforrásokat. Használhatja a mellékelt "samplePdfSaveOptions_StreamProvider.xlsx" mintafájlt.
+5. Egy képfájl teszteléshez: Ez külső erőforrásként lesz használva a konvertálás során. A "newPdfSaveOptions_StreamProvider.png" képfájl jó helykitöltő.
 ## Csomagok importálása
-dolgok elindításához importálnia kell a szükséges névtereket az Aspose.Cells könyvtárból. Ez kulcsfontosságú a funkcióinak eléréséhez. Ügyeljen arra, hogy a fájl tetején található direktívák használatával adja hozzá a következőket:
+kezdéshez importálnod kell a szükséges névtereket az Aspose.Cells könyvtárból. Ez elengedhetetlen a funkcióinak eléréséhez. Ügyelj arra, hogy a fájl elejére add hozzá a következő direktívákat:
 ```csharp
 using System.IO;
 using System.Drawing;
@@ -33,9 +35,9 @@ using Aspose.Cells.Drawing;
 using Aspose.Cells.Rendering;
 using System;
 ```
-Ezek a csomagok biztosítják az összes alapvető osztályt és metódust, amelyre a feladatok elvégzéséhez szüksége lesz.
-## 1. lépés: Hozd létre a Stream Provider osztályodat
- Az első feladat egy adatfolyam-szolgáltató osztály létrehozása, amely megvalósítja a`IStreamProvider` felület. Ez az osztály lehetővé teszi a külső erőforrások betöltésének szabályozását.
+Ezek a csomagok minden alapvető osztályt és metódust biztosítanak, amire szükséged lesz a feladataid elvégzéséhez.
+## 1. lépés: Hozza létre a streamszolgáltató osztályát
+Az első teendő egy olyan stream szolgáltató osztály létrehozása, amely megvalósítja a következőt: `IStreamProvider` interfész. Ez az osztály lehetővé teszi a külső erőforrások betöltésének szabályozását.
 ```csharp
 class MyStreamProvider : IStreamProvider
 {
@@ -47,7 +49,7 @@ class MyStreamProvider : IStreamProvider
     {
         string sourceDir = "Your Document Directory";
         Debug.WriteLine("-----Init Stream-----");
-        // Olvassa be az új képet egy memóriafolyamban, és rendelje hozzá a Stream tulajdonsághoz
+        // Olvassa be az új képet egy memóriafolyamból, és rendelje hozzá a Stream tulajdonsághoz.
         byte[] bts = File.ReadAllBytes(sourceDir + "newPdfSaveOptions_StreamProvider.png");
         MemoryStream ms = new MemoryStream(bts);
         options.Stream = ms;
@@ -55,67 +57,69 @@ class MyStreamProvider : IStreamProvider
 }
 ```
 Ebben az osztályban:
-- CloseStream: Ez a metódus a folyam bezárásakor kerül meghívásra. Egyelőre csak egy hibakeresési üzenetet írunk a követéshez.
--  InitStream: Itt kezdődik a varázslat. Itt beolvassa a külső képfájlt bájttömbként, átalakítja memóriafolyammá, és hozzárendeli a`options.Stream` ingatlan.
-## 2. lépés: Állítsa be a forrás- és kimeneti könyvtárakat
-Most, hogy az adatfolyam-szolgáltató készen áll, ideje meghatározni, hol található az Excel-fájl, és hova szeretné menteni a PDF-fájlt.
+- CloseStream: Ez a metódus akkor kerül meghívásra, amikor a stream lezárul. Egyelőre csak egy hibakeresési üzenetet írunk a követéshez.
+- InitStream: Itt kezdődik a varázslat. Itt bájttömbként olvasod be a külső képfájlt, memóriafolyammá alakítod, és hozzárendeled a `options.Stream` ingatlan.
+## 2. lépés: Forrás- és kimeneti könyvtárak beállítása
+Most, hogy a streamelési szolgáltatód készen áll, itt az ideje meghatározni, hogy hol található az Excel-fájlod, és hová szeretnéd menteni a PDF-et.
 ```csharp
-// Forrás könyvtár
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Egyszerűen cserélje ki`"Your Document Directory"` a tényleges elérési úttal a számítógépen, ahol a fájlok találhatók. A fájlok rendszerezése kulcsfontosságú!
-## 3. lépés: Töltse be az Excel fájlt
-Ezután töltse be azt az Excel-fájlt, amelyből létre kívánja hozni a PDF-fájlt.
+Egyszerűen cserélje ki `"Your Document Directory"` a számítógépeden található tényleges elérési úttal. A fájlok rendszerezése kulcsfontosságú!
+## 3. lépés: Töltse be az Excel-fájlt
+Ezután betöltöd azt az Excel fájlt, amelyből a PDF-et létre szeretnéd hozni.
 ```csharp
-// Töltse be a külső képeket tartalmazó Excel forrásfájlt
+// Külső képeket tartalmazó forrás Excel fájl betöltése
 Workbook wb = new Workbook(sourceDir + "samplePdfSaveOptions_StreamProvider.xlsx");
 ```
- Használjuk a`Workbook` osztályt az Aspose.Cellsből, amely az Ön Excel-fájlját képviseli. A fájl különféle külső forrásokat, például képeket tartalmazhat, amelyeket az átalakítás során vezérelni szeretne.
-## 4. lépés: Állítsa be a PDF mentési beállításokat
-Mielőtt a munkafüzetet PDF formátumban menti, adja meg, hogyan szeretné menteni. Ezeket a beállításokat igényei szerint módosíthatja.
+Mi használjuk a `Workbook` osztály az Aspose.Cells fájlból, amely az Excel-fájlodat jelöli. A fájl tartalmazhat különféle külső erőforrásokat, például képeket, amelyeket a konvertálás során vezérelni szeretnél.
+## 4. lépés: PDF mentési beállítások megadása
+Mielőtt PDF formátumban mentené a munkafüzetet, adja meg, hogyan szeretné menteni. Ezeket a beállításokat az igényeinek megfelelően módosíthatja.
 ```csharp
-// Adja meg a Pdf mentési beállításokat – Stream Provider
+// PDF mentési beállítások megadása – Stream szolgáltató
 PdfSaveOptions opts = new PdfSaveOptions();
-opts.OnePagePerSheet = true; // Mentse el az egyes lapot egy új oldalra
+opts.OnePagePerSheet = true; // Minden munkalap mentése új oldalra
 ```
- Itt egy új példányt hozunk létre`PdfSaveOptions` , amely lehetővé teszi a PDF formátumának testreszabását. A`OnePagePerSheet`Az opció praktikus annak biztosítására, hogy minden Excel-lap külön oldalt kapjon a végső PDF-ben.
-## 5. lépés: Jelölje ki az adatfolyam-szolgáltatót
-A beállított PDF-beállítások esetén meg kell mondania az Aspose-nak, hogy az egyéni adatfolyam-szolgáltatót használja külső erőforrásokhoz.
+Itt létrehozunk egy új példányt a következőből: `PdfSaveOptions`amely lehetővé teszi a PDF formátumának testreszabását. `OnePagePerSheet` Ez a beállítás hasznos annak biztosítására, hogy minden Excel-lap külön oldalt kapjon a végső PDF-ben.
+## 5. lépés: A streamszolgáltató hozzárendelése
+Miután beállítottad a PDF-beállításaidat, meg kell mondanod az Aspose-nak, hogy a külső forrásokhoz az egyéni streamszolgáltatódat használja.
 ```csharp
 wb.Settings.StreamProvider = new MyStreamProvider();
 ```
- Ez a vonal köti össze`Workbook` példa a`MyStreamProvider` korábban létrehozott osztályt. Ez azt jelenti, hogy valahányszor külső erőforrásokkal találkozik az átalakítás során, a szolgáltató a megadott módon kezeli azokat.
+Ez a vonal összeköti Önt `Workbook` például a `MyStreamProvider` korábban létrehozott osztály. Ez azt jelenti, hogy amikor a konvertálás során külső erőforrásokba ütközik, a szolgáltató a megadott módon fogja kezelni azokat.
 ## 6. lépés: Mentse el a munkafüzetet PDF formátumban
-Ha mindent beállított, végre eljött az ideje, hogy PDF-ként mentse az Excel-munkafüzetet.
+Miután minden készen állt, végre itt az ideje, hogy PDF formátumban mentse az Excel-munkafüzetet.
 ```csharp
-// Mentse el a munkafüzetet PDF-be
+// Munkafüzet mentése PDF formátumban
 wb.Save(outputDir + "outputPdfSaveOptions_StreamProvider.pdf", opts);
 ```
- Felhívva a`Save` metódussal a munkafüzet objektumon, és átadja a kimeneti könyvtárat a PDF-beállításokkal együtt, akkor az Excel-fájlt gyönyörűen formázott PDF-fájllá konvertálja.
-## 7. lépés: Erősítse meg a sikeres végrehajtást
-A dolgok lezárásaként mindig jó megerősíteni, hogy a folyamat sikeres volt!
+Azzal, hogy felhívja a `Save` metódust a munkafüzet objektumon, és átadja a kimeneti könyvtárat a PDF-beállításokkal együtt, akkor az Excel-fájlt egy szépen formázott PDF-vé alakítja.
+## 7. lépés: A sikeres végrehajtás megerősítése
+Összefoglalva, mindig jó érzés megerősíteni, hogy a folyamat sikeres volt!
 ```csharp
 Console.WriteLine("ControlLoadingOfExternalResourcesInExcelToPDF executed successfully.\r\n");
 ```
-sikerüzenet kinyomtatása a konzolra segít folyamatosan tájékoztatni a művelet állapotáról. Jó szokás, hogy ezeket az apró megerősítéseket belefoglalja a kódjába.
+konzolra kiírt sikerüzenet segít tájékozódni a művelet állapotáról. Jó szokás, ha ezeket a kis visszaigazolásokat beilleszted a kódodba.
 ## Következtetés
-Megvan! Ha követi ezeket az egyszerű lépéseket, az Aspose.Cells segítségével szakszerűen szabályozhatja a külső erőforrások kezelését az Excel PDF-be konvertálása során. Ez azt jelenti, hogy a dokumentumok most már pontosan tartalmazhatnak képeket és egyéb külső elemeket, így minden alkalommal csiszolt végterméket biztosítanak.
+Íme, itt van! Ezeket az egyszerű lépéseket követve szakértőként szabályozhatod, hogy a külső erőforrások hogyan kezelődnek az Excelből PDF-be konvertálás során az Aspose.Cells segítségével. Ez azt jelenti, hogy a dokumentumaid mostantól pontosan tartalmazhatnak képeket és más külső elemeket, így minden alkalommal kifinomult végeredményt biztosítva.
 ## GYIK
 ### Mi az Aspose.Cells?  
-Az Aspose.Cells egy hatékony könyvtár .NET-fejlesztők számára, amely lehetővé teszi Excel-fájlok létrehozását, kezelését, konvertálását és renderelését különféle formátumokban.
-### Hogyan tölthetem le az Aspose.Cells-t?  
- Letöltheti az Aspose.Cells legújabb verzióját a[Letöltési link](https://releases.aspose.com/cells/net/).
-### Kipróbálhatom az Aspose.Cells-t ingyen?  
- Igen! Ingyenes próbaverziót kaphat, ha felkeresi a[Ingyenes próbaoldal](https://releases.aspose.com/).
-### Hol találok támogatást az Aspose.Cells számára?  
- Bármilyen támogatással kapcsolatos kérdés esetén keresse fel a[Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?  
- Ideiglenes jogosítványt igényelhet[itt](https://purchase.aspose.com/temporary-license/).
+Az Aspose.Cells egy hatékony függvénykönyvtár .NET fejlesztők számára, amely lehetővé teszi Excel fájlok létrehozását, kezelését, konvertálását és renderelését különböző formátumokban.
+### Hogyan tölthetem le az Aspose.Cells fájlt?  
+Az Aspose.Cells legújabb verzióját letöltheted innen: [Letöltési link](https://releases.aspose.com/cells/net/).
+### Kipróbálhatom ingyen az Aspose.Cells-t?  
+Igen! Ingyenes próbaverziót kaphatsz, ha ellátogatsz a következő oldalra: [Ingyenes próbaoldal](https://releases.aspose.com/).
+### Hol találok támogatást az Aspose.Cells-hez?  
+Bármilyen támogatással kapcsolatos kérdés esetén látogassa meg a következőt: [Aspose támogatási fórum](https://forum.aspose.com/c/cells/9).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?  
+Ideiglenes jogosítványt lehet igényelni [itt](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

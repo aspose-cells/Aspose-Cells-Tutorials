@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Analicemos la implementación de cada característica usando Aspose.Cells para J
    PivotTable pivotTable = worksheet.getPivotTables().get(0);
    ```
 
-### Acceder a campos de fila en una tabla dinámica
+### Acceder a los campos de fila en la tabla dinámica
 
 **Descripción general:** Comprenda cómo acceder a los campos de fila de una tabla dinámica.
 
@@ -209,6 +211,9 @@ Explora más en [Recursos oficiales de Aspose](https://releases.aspose.com/cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

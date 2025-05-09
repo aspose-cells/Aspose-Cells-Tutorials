@@ -1,43 +1,48 @@
 ---
-title: 在Excel中与Aspose.Cells的水平文本配列
-weight: 7700
-limit: 
-description: 通过简单的例子学习如何在Excel细胞中水平地对齐文本,使用 .NET的Aspose.Cells.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /zh/net/formatting/text-alignment-horizontal/
+"description": "通过一个简单的示例了解如何使用 Aspose.Cells for .NET 在 Excel 单元格中水平对齐文本。"
+"title": "使用 Aspose.Cells 在 Excel 中实现水平文本对齐"
+"url": "/zh/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在Excel中与Aspose.Cells的水平文本配列
+# 使用 Aspose.Cells 在 Excel 中实现水平文本对齐
 
-本例展示了如何使用Aspose.Cells为 .NET创建Excel文件并设置特定细胞中的水平文本对齐.教程指导您通过初始化一个工作簿,修改细胞的属性,并将文件存储在Excel 97-2003格式.
+本示例演示如何使用 Aspose.Cells for .NET 创建 Excel 文件并在特定单元格中设置水平文本对齐方式。本教程将指导您初始化工作簿、修改单元格属性以及将文件保存为 Excel 97-2003 格式。非常适合希望使用 Aspose.Cells 提升 Excel 文件操作技能的开发人员。
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明
-1. 通过网页下载和安装Aspose.Cells[设置发布页面](https://releases.aspose.com/cells/net/)现在,我们要去.  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
-3. 使用NuGet包管理器安装Aspose.Cells:  
+## 安装说明
+1. 从下载并安装 Aspose.Cells for .NET [Aspose 发布页面](https://releases。aspose.com/cells/net/).  
+2. 在您的 C# 项目中添加对 Aspose.Cells.dll 的引用。  
+3. 使用 NuGet 包管理器安装 Aspose.Cells：  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. 在 C# 文件中导入所需的命名空间：  
    ```csharp
    using Aspose.Cells;
    ```
 
-## 查看  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+## 另请参阅  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

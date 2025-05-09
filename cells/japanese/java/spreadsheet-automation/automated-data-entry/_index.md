@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 自動データ入力
@@ -105,7 +107,7 @@ Aspose.Cells for Java によるデータ入力の自動化は、データ管理�
 ### 異なるファイル形式からのデータ入力を自動化できますか?
    はい、もちろんです。Aspose.Cells は、CSV、データベースなど、さまざまなソースからのデータのインポートをサポートしています。
 
-### Aspose.Cells for Java にはライセンス要件はありますか?
+### Aspose.Cells for Java にはライセンス要件がありますか?
    はい、プロジェクトで Aspose.Cells for Java を使用するには有効なライセンスが必要です。
 
 ### Excel ファイルでデータ検証を処理するにはどうすればよいですか?
@@ -115,9 +117,11 @@ Aspose.Cells for Java によるデータ入力の自動化は、データ管理�
    ドキュメントは以下からご覧いただけます。 [https://reference.aspose.com/cells/java/](https://reference。aspose.com/cells/java/).
 
 Aspose.Cells for Javaを使ってデータ入力を効果的に自動化するための知識とツールが揃いました。データ処理プロセスの改善を始めて、ビジネス効率を高めましょう。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

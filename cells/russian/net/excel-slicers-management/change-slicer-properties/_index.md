@@ -1,14 +1,16 @@
 ---
-title: Изменение свойств среза в Aspose.Cells .NET
-linktitle: Изменение свойств среза в Aspose.Cells .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как изменить свойства среза в Excel с помощью Aspose.Cells для .NET. Улучшите представление данных с помощью этого простого пошагового руководства.
-weight: 10
-url: /ru/net/excel-slicers-management/change-slicer-properties/
+"description": "Узнайте, как изменить свойства среза в Excel с помощью Aspose.Cells для .NET. Улучшите представление данных с помощью этого простого пошагового руководства."
+"linktitle": "Изменение свойств среза в Aspose.Cells .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Изменение свойств среза в Aspose.Cells .NET"
+"url": "/ru/net/excel-slicers-management/change-slicer-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изменение свойств среза в Aspose.Cells .NET
@@ -25,7 +27,7 @@ url: /ru/net/excel-slicers-management/change-slicer-properties/
 Убедитесь, что на вашем компьютере установлена Visual Studio. Эта интегрированная среда разработки (IDE) поможет вам писать, отлаживать и запускать код C# без проблем.
   
 ### 2. Aspose.Cells для .NET: 
-Вам нужно будет скачать и установить Aspose.Cells. Вы можете получить его с[Страница загрузки](https://releases.aspose.com/cells/net/).
+Вам нужно будет скачать и установить Aspose.Cells. Вы можете получить его с [Страница загрузки](https://releases.aspose.com/cells/net/).
   
 ### 3. Базовые знания C#: 
 Знакомство с программированием на языке C# значительно поможет вам понять фрагменты кода, которые мы будем использовать.
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 // Выходной каталог
 string outputDir = "Your Document Directory";
 ```
- Просто замените`"Your Document Directory"`с фактическими путями, где находятся ваши файлы. Таким образом, код точно знает, где найти и сохранить файлы, гарантируя плавное выполнение!
+Просто замените `"Your Document Directory"` с фактическими путями, где находятся ваши файлы. Таким образом, код точно знает, где найти и сохранить файлы, гарантируя плавное выполнение!
 
 ## Шаг 2: Загрузите образец файла Excel
 
@@ -72,7 +74,7 @@ string outputDir = "Your Document Directory";
 // Загрузите пример файла Excel, содержащего таблицу.
 Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xlsx");
 ```
- Здесь мы используем`Workbook` class для загрузки нашего файла Excel. Убедитесь, что этот файл существует, или вы столкнетесь с кочкой на дороге!
+Здесь мы используем `Workbook` class для загрузки нашего файла Excel. Убедитесь, что этот файл существует, или вы столкнетесь с кочкой на дороге!
 
 ## Шаг 3: Получите доступ к первому рабочему листу
 
@@ -82,7 +84,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xls
 // Откройте первый рабочий лист.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- В этой строке мы берем первый лист из книги. Если у вас есть еще листы, вы можете заменить`[0]` с индексом нужного листа.
+В этой строке мы берем первый лист из книги. Если у вас есть еще листы, вы можете заменить `[0]` с индексом нужного листа.
 
 ## Шаг 4: Доступ к первой таблице на рабочем листе
 
@@ -118,7 +120,7 @@ slicer.IsPrintable = false;
 slicer.IsLocked = false;
 ```
 
--  Размещение: определяет, как срез взаимодействует с ячейками.`FreeFloating`означает, что он может передвигаться самостоятельно.
+- Размещение: определяет, как срез взаимодействует с ячейками. `FreeFloating` означает, что он может передвигаться самостоятельно.
 - RowHeightPixel и WidthPixel: отрегулируйте размер среза для лучшей видимости.
 - Название: Устанавливает понятную метку для слайсера.
 - Альтернативный текст: предоставляет описание доступности.
@@ -158,16 +160,18 @@ workbook.Save(outputDir + "outputChangeSlicerProperties.xlsx", SaveFormat.Xlsx);
 Aspose.Cells — мощная библиотека для управления файлами Excel в различных форматах, предлагающая обширные возможности для манипулирования данными.
 
 ### Нужно ли мне приобретать Aspose.Cells, чтобы использовать его?
- Вы можете начать с бесплатной пробной версии, но для более длительного использования вы можете рассмотреть возможность покупки лицензии. Ознакомьтесь с нашими[купить опционы](https://purchase.aspose.com/buy).
+Вы можете начать с бесплатной пробной версии, но для более длительного использования вы можете рассмотреть возможность покупки лицензии. Ознакомьтесь с нашими [купить опционы](https://purchase.aspose.com/buy).
 
 ### Могу ли я получить поддержку, если у меня возникнут проблемы?
- Конечно! Вы можете связаться с нами по[форум поддержки](https://forum.aspose.com/c/cells/9) за помощь.
+Конечно! Вы можете связаться с нами по [форум поддержки](https://forum.aspose.com/c/cells/9) за помощь.
 
 ### Могу ли я использовать Aspose.Cells для создания диаграмм?
 Да! Aspose.Cells имеет обширные возможности для создания и управления диаграммами, а также срезы и таблицы данных.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

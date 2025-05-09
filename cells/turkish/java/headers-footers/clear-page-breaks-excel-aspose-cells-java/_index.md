@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -194,6 +196,9 @@ Bu kılavuz boyunca, Aspose.Cells for Java kullanarak Excel dosyalarındaki yata
 - Excel belge işleme yeteneklerinizi daha da geliştirmek için Aspose.Cells for Java'nın ek özelliklerini keşfedin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

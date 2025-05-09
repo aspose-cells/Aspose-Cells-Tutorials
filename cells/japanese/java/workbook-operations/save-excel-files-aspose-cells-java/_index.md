@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -42,7 +44,7 @@ Excelファイルを異なる形式で管理したり変換したりするのに
 
 ## Aspose.Cells for Java のセットアップ
 
-JavaプロジェクトでAspose.Cellsを使用するには、依存関係として追加します。MavenまたはGradleを使用する場合は、以下の手順を実行してください。
+JavaプロジェクトでAspose.Cellsを使用するには、依存関係として追加します。MavenまたはGradleを使用する場合、以下の手順で追加できます。
 
 ### Mavenのセットアップ
 次の依存関係を `pom.xml` ファイル：
@@ -174,6 +176,9 @@ Excel ファイルを複数の形式で保存すると便利な実際のシナ�
 Aspose.Cells Java での旅に乗り出し、さまざまな形式の Excel ファイルの管理方法を変革しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

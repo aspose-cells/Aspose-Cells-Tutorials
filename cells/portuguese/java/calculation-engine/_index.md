@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais sobre mecanismos de cálculo fornecem orientações detalhadas para trabalhar com os recursos de processamento de fórmulas do Aspose.Cells em Java. Esses guias abrangentes demonstram como configurar opções de cálculo, implementar funções personalizadas, controlar o comportamento de recálculo e otimizar a avaliação de fórmulas. Cada tutorial inclui exemplos práticos de código Java para cenários de cálculo comuns, ajudando você a criar aplicativos que processem redes de fórmulas complexas com eficiência, mantendo a precisão e o desempenho dos cálculos.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para executar operações de mecanismo de cálculo
 - Implementação passo a passo com exemplos de código completos
@@ -57,6 +59,9 @@ Aprenda como melhorar o desempenho do Excel com o Aspose.Cells para Java impleme
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

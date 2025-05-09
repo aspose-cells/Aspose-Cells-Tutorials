@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@
 
 ### การตั้งค่า Maven
 
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml`-
+เพิ่มการอ้างอิงนี้ให้กับของคุณ `pom.xml`-
 
 ```xml
 <dependency>
@@ -190,6 +192,9 @@ A5: เยี่ยมชม [หน้าใบอนุญาตชั่ว�
 - **สนับสนุน:** เข้าร่วมการสนทนาและขอความช่วยเหลือเกี่ยวกับ [ฟอรั่มสนับสนุน Aspose](https://forum-aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

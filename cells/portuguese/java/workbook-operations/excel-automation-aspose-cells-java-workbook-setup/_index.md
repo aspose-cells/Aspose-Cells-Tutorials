@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ int sheetIndex = worksheets.add(); // Adicione uma nova planilha e obtenha seu �
 ```
 - **Explicação**: Aqui, `workbook.getWorksheets()` busca a coleção de planilhas. Em seguida, adicionamos uma nova planilha usando `worksheets.add()`, que também retorna o índice da planilha recém-adicionada.
 
-### Recurso 2: Configurar a configuração da página para planilha
+### Recurso 2: Configurar a configuração de página para planilha
 
 Configurar configurações de página permite que você ajuste o conteúdo em várias páginas no Excel, melhorando a legibilidade e a apresentação.
 
@@ -177,6 +179,9 @@ Agora é a sua vez de experimentar e implementar esses recursos poderosos em seu
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

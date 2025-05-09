@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Nyní jste se naučili, jak propojit aplikaci Java s databází Accessu, vytvá�
 Tato komplexní příručka vám poskytne znalosti potřebné k využití Aspose.Cells pro Javu a zefektivnění vašich úkolů správy dat pomocí automatizace. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

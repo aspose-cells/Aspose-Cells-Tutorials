@@ -1,14 +1,16 @@
 ---
-title: Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML
-linktitle: Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wykluczyć nieużywane style podczas eksportowania plików Excel do HTML przy użyciu Aspose.Cells dla .NET, zapoznając się z tym szczegółowym przewodnikiem krok po kroku.
-weight: 10
-url: /pl/net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/
+"description": "Dowiedz się, jak wykluczyć nieużywane style podczas eksportowania plików Excel do HTML przy użyciu Aspose.Cells dla .NET, zapoznając się z tym szczegółowym przewodnikiem krok po kroku."
+"linktitle": "Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML"
+"url": "/pl/net/exporting-excel-to-html-with-advanced-options/excluding-unused-styles/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wykluczanie nieużywanych stylów podczas eksportowania programu Excel do formatu HTML
@@ -20,7 +22,7 @@ Aby skutecznie skorzystać z tego samouczka, musisz najpierw skonfigurować kilk
 ### 1. Visual Studio
 Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. To tutaj będziesz pisać i uruchamiać swój kod .NET.
 ### 2. Aspose.Cells dla .NET
-Pobierz bibliotekę Aspose.Cells. To potężne narzędzie do zarządzania plikami Excel programowo. Możesz je pobrać z[Tutaj](https://releases.aspose.com/cells/net/).
+Pobierz bibliotekę Aspose.Cells. To potężne narzędzie do zarządzania plikami Excel programowo. Możesz je ściągnąć z [Tutaj](https://releases.aspose.com/cells/net/).
 ### 3. Podstawowa wiedza o C#
 Znajomość języka programowania C# pomoże Ci łatwiej zrozumieć omawiane koncepcje.
 ### 4. Microsoft Excel
@@ -37,19 +39,19 @@ using System.Text;
 Ten wiersz daje dostęp do wszystkich funkcjonalności udostępnianych przez bibliotekę Aspose.Cells, umożliwiając łatwe tworzenie i modyfikowanie plików Excela.
 Teraz, gdy wszystko jest gotowe, możemy od razu przejść do samouczka. Poniżej znajduje się przewodnik krok po kroku, który rozbija kod, aby wykluczyć nieużywane style podczas eksportowania plików Excel do HTML.
 ## Krok 1: Ustaw katalog wyjściowy
-Aby zacząć, musimy zdefiniować, gdzie chcemy zapisać nasz wyeksportowany plik HTML. Ten krok jest prosty, a oto, jak to zrobić:
+Aby zacząć, musimy zdefiniować, gdzie chcemy zapisać nasz eksportowany plik HTML. Ten krok jest prosty, a oto, jak to zrobić:
 ```csharp
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- W wierszu powyżej zamień`"Your Document Directory"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik HTML. Na przykład, może to być coś takiego`C:\\Users\\YourName\\Documents\\`.
+W wierszu powyżej zamień `"Your Document Directory"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik HTML. Na przykład, może to być coś takiego `C:\\Users\\YourName\\Documents\\`.
 ## Krok 2: Utwórz instancję skoroszytu
 Następnie utworzymy nowy skoroszyt. Pomyśl o skoroszycie jako o pustym płótnie, na którym możemy malować nasze dane i style:
 ```csharp
 // Utwórz skoroszyt
 Workbook wb = new Workbook();
 ```
- Ta linia inicjuje nową instancję`Workbook` klasa. To twój punkt wyjścia do wszystkiego, co jest związane z Excelem.
+Ta linia inicjuje nową instancję `Workbook` klasa. To twój punkt wyjścia do wszystkiego, co jest związane z Excelem.
 ## Krok 3: Utwórz nieużywany nazwany styl
 Mimo że staramy się wykluczyć nieużywane style, utwórzmy jeden, aby lepiej zilustrować ten proces:
 ```csharp
@@ -79,7 +81,7 @@ HtmlSaveOptions opts = new HtmlSaveOptions();
 // Skomentuj tę linię, aby uwzględnić nieużywane style
 opts.ExcludeUnusedStyles = true;
 ```
- W powyższym kodzie tworzymy nową instancję`HtmlSaveOptions` i ustaw`ExcludeUnusedStyles` Do`true`Informuje Aspose.Cells o konieczności usunięcia wszystkich stylów, które nie są używane w ostatecznym wyniku HTML.
+W powyższym kodzie tworzymy nową instancję `HtmlSaveOptions` i ustaw `ExcludeUnusedStyles` Do `true`Informuje Aspose.Cells o konieczności usunięcia wszystkich stylów, które nie są używane w ostatecznym wyniku HTML.
 ## Krok 7: Zapisz skoroszyt w formacie HTML
 Na koniec nadszedł czas, aby zapisać skoroszyt jako plik HTML. To jest ta satysfakcjonująca część, w której cała Twoja poprzednia praca się opłaca:
 ```csharp
@@ -88,14 +90,14 @@ wb.Save(outputDir + "outputExcludeUnusedStylesInExcelToHTML.html", opts);
 ```
 Tutaj łączysz określony katalog wyjściowy z żądaną nazwą pliku, aby zapisać skoroszyt. Voilà! Twój plik HTML jest gotowy.
 ## Krok 8: Potwierdź powodzenie za pomocą wyjścia konsoli
-Na koniec, ale nie mniej ważne, przekażmy informację zwrotną, że nasz kod wykonał się pomyślnie:
+Na koniec przekażmy informację zwrotną, że nasz kod wykonał się pomyślnie:
 ```csharp
 Console.WriteLine("ExcludeUnusedStylesInExcelToHTML executed successfully.");
 ```
 Ten wiersz po prostu wyświetla na konsoli komunikat o powodzeniu, umożliwiając potwierdzenie, że cały proces przebiegł bez zakłóceń.
 ## Wniosek
 to już koniec! Udało Ci się pomyślnie nauczyć, jak wykluczać nieużywane style podczas eksportowania pliku Excel do HTML przy użyciu Aspose.Cells dla .NET. Ta technika nie tylko pomaga Ci zachować czysty i profesjonalny wygląd treści w sieci, ale także optymalizuje czasy ładowania, zapobiegając niepotrzebnemu rozdęciu stylów. 
-Eksperymentuj swobodnie z niestandardowymi stylami i innymi funkcjami oferowanymi przez Aspose.Cells, aby przenieść manipulacje plikami Excel na nowy poziom!
+Eksperymentuj swobodnie z niestandardowymi stylami i innymi funkcjami oferowanymi przez Aspose.Cells, aby przenieść manipulacje plikami Excela na nowy poziom!
 ## Najczęściej zadawane pytania
 ### Do czego służy Aspose.Cells?  
 Aspose.Cells to biblioteka .NET umożliwiająca programistom programowe tworzenie, edytowanie i konwertowanie plików Excel.
@@ -104,12 +106,14 @@ Dostępna jest bezpłatna wersja próbna, jednak do dalszego korzystania z zaawa
 ### Czy mogę przekonwertować plik Excel do innych formatów niż HTML?  
 Tak! Aspose.Cells obsługuje konwersję plików Excel do różnych formatów, w tym PDF, CSV i innych.
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?  
- Pomocy możesz uzyskać od społeczności Aspose.Cells i forum wsparcia[Tutaj](https://forum.aspose.com/c/cells/9).
+Pomocy możesz uzyskać od społeczności Aspose.Cells i forum wsparcia [Tutaj](https://forum.aspose.com/c/cells/9).
 ### Czy mogę uwzględnić nieużywane style, jeśli będą mi potrzebne?  
- Absolutnie! Po prostu ustaw`opts.ExcludeUnusedStyles` Do`false` aby uwzględnić wszystkie style, zarówno używane, jak i nieużywane.
+Absolutnie! Po prostu ustaw `opts.ExcludeUnusedStyles` Do `false` aby uwzględnić wszystkie style, zarówno używane, jak i nieużywane.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

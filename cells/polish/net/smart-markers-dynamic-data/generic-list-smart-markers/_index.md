@@ -1,14 +1,16 @@
 ---
-title: Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells
-linktitle: Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów.
-weight: 20
-url: /pl/net/smart-markers-dynamic-data/generic-list-smart-markers/
+"description": "Opanuj Aspose.Cells dla .NET z listami generycznymi i inteligentnymi znacznikami, aby bez wysiłku tworzyć dynamiczne raporty Excela. Łatwy przewodnik dla programistów."
+"linktitle": "Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells"
+"url": "/pl/net/smart-markers-dynamic-data/generic-list-smart-markers/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Użyj listy ogólnej w inteligentnych znacznikach Aspose.Cells
@@ -20,7 +22,7 @@ Zanim zagłębimy się w kod, omówmy pokrótce, czego będziesz potrzebować:
 ### Podstawowa wiedza z języka C#
 Powinieneś mieć podstawową wiedzę na temat języka C# i wiedzieć, jak pracować z klasami i obiektami. Jeśli jesteś ożywiony w programowaniu obiektowym, jesteś już na dobrej drodze.
 ### Aspose.Cells dla .NET zainstalowany
- Upewnij się, że masz zainstalowany Aspose.Cells w swoim projekcie .NET. Możesz pobrać bibliotekę z[Strona internetowa Aspose](https://releases.aspose.com/cells/net/). 
+Upewnij się, że masz zainstalowany Aspose.Cells w swoim projekcie .NET. Możesz pobrać bibliotekę z [Strona internetowa Aspose](https://releases.aspose.com/cells/net/). 
 ### Środowisko Visual Studio
 Posiadanie Visual Studio skonfigurowanego na Twoim komputerze jest kluczowe. To najczęstsze środowisko programistyczne, w którym będziesz pisać swój kod C#.
 ### Plik szablonu
@@ -36,9 +38,9 @@ using System.Collections.Generic;
 ```
 Te przestrzenie nazw zapewnią funkcjonalności niezbędne do pracy z plikami Excela i stylizowania komórek.
 ## Krok 1: Zdefiniuj swoje klasy
-Najpierw najważniejsze! Musimy zdefiniować nasze`Person` I`Teacher` klasy. Oto jak:
+Najpierw najważniejsze! Musimy zdefiniować nasze `Person` I `Teacher` klasy. Oto jak:
 ### Zdefiniuj klasę osoby
- Ten`Person` Klasa będzie zawierać podstawowe atrybuty takie jak imię i wiek.
+Ten `Person` Klasa będzie zawierać podstawowe atrybuty takie jak imię i wiek.
 ```csharp
 public class Person
 {
@@ -65,7 +67,7 @@ public class Person
 }
 ```
 ### Zdefiniuj klasę nauczyciela
- Następny jest`Teacher` klasa, która dziedziczy po`Person` klasa. Ta klasa będzie dalej zawierać listę studentów.
+Następny jest `Teacher` klasa, która dziedziczy po `Person` klasa. Ta klasa będzie dalej zawierać listę studentów.
 ```csharp
 public class Teacher : Person
 {
@@ -83,7 +85,7 @@ public class Teacher : Person
 }
 ```
 ## Krok 2: Zainicjuj skoroszyt i utwórz projektanta
-Teraz, gdy mamy już przygotowane klasy, czas zainicjować skoroszyt:
+Teraz, gdy mamy już przygotowane klasy, czas zainicjować nasz skoroszyt:
 ```csharp
 string dataDir = "Your Document Directory"; // Określ katalog dokumentów
 Workbook workbook = new Workbook(); // Nowa instancja skoroszytu
@@ -114,7 +116,7 @@ flag.All = true;
 range.ApplyStyle(style, flag);
 ```
 ## Krok 5: Utwórz instancje nauczyciela i ucznia
- Teraz utwórzmy wystąpienia naszego`Teacher` I`Person` klasy i wypełniać je danymi:
+Teraz utwórzmy wystąpienia naszego `Teacher` I `Person` klasy i wypełniać je danymi:
 ```csharp
 System.Collections.Generic.List<Teacher> list = new System.Collections.Generic.List<Teacher>();
 // Utwórz pierwszy obiekt nauczyciela
@@ -125,7 +127,7 @@ h1.Students = new List<Person>
     new Person("Jamima Winfrey", 18),
     new Person("Reham Smith", 15)
 };
-//Utwórz drugi obiekt nauczyciela
+// Utwórz drugi obiekt nauczyciela
 Teacher h2 = new Teacher("Masood Shankar", 40);
 h2.Students = new List<Person>
 {
@@ -163,15 +165,17 @@ Aspose.Cells to biblioteka .NET umożliwiająca tworzenie i zarządzanie plikami
 ### Czy mogę używać Aspose.Cells do innych formatów plików?
 Tak! Aspose oferuje biblioteki dla formatów PDF, Word i innych, co czyni go wszechstronnym w zarządzaniu dokumentami.
 ### Czy potrzebuję licencji, aby korzystać z Aspose.Cells?
- Możesz rozpocząć bezpłatny okres próbny od[Tutaj](https://releases.aspose.com/), ale do użytku produkcyjnego wymagana jest płatna licencja.
+Możesz rozpocząć bezpłatny okres próbny od [Tutaj](https://releases.aspose.com/), ale do użytku produkcyjnego wymagana jest płatna licencja.
 ### Czym są inteligentne znaczniki?
 Inteligentne znaczniki to symbole zastępcze w szablonach programu Excel, które podczas przetwarzania przez Aspose.Cells są zastępowane rzeczywistymi danymi.
 ### Czy Aspose.Cells nadaje się do dużych zbiorów danych?
 Oczywiście! Aspose.Cells jest zoptymalizowany pod kątem wydajności, co sprawia, że może wydajnie obsługiwać duże zestawy danych.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

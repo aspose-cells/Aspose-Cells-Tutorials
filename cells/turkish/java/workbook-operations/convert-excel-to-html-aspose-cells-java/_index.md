@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ The `save` çalışma kitabınızı dışa aktarmak için yöntem çok önemlidi
 ## Pratik Uygulamalar
 
 1. **Finansal Raporlama**:İşletmeler finansal verileri çevrimiçi gösterge panelleri için HTML'e dönüştürebilir.
-2. **Proje Yönetimi**: Ekipler proje zaman çizelgelerini ve güncellemelerini web sayfaları aracılığıyla paylaşabilirler.
+2. **Proje Yönetimi**:Ekipler proje zaman çizelgelerini ve güncellemelerini web sayfaları aracılığıyla paylaşabilirler.
 3. **Eğitim Materyalleri**:Eğitmenler ders planlarını ve kaynakları yapılandırılmış bir biçimde dağıtabilirler.
 
 Entegrasyon olanakları arasında HTML çıktısının WordPress veya Contentful gibi CMS platformlarına gömülmesi ve böylece uygulamalar arasında veri erişilebilirliğinin artırılması yer alıyor.
@@ -173,10 +175,13 @@ Denemeye hazır mısınız? Bu çözümü bugün projelerinize uygulayın!
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
-Java için Aspose.Cells'i kullanarak veri sunumunu kolaylaştırma yolculuğunuza çıkın. İyi kodlamalar!
+Java için Aspose.Cells'i kullanarak veri sunumunu kolaylaştırma yolculuğunuza başlayın. İyi kodlamalar!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

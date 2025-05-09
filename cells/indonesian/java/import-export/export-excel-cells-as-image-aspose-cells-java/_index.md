@@ -7,31 +7,33 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Mengekspor Sel Excel sebagai Gambar Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Pernahkah Anda perlu berbagi atau menyajikan data dari file Excel tanpa memperlihatkan seluruh buku kerja? Dengan **Aspose.Cells untuk Java**mengekspor rentang sel apa pun menjadi gambar berkualitas tinggi adalah hal yang mudah. Panduan ini akan memandu Anda untuk melakukannya menggunakan Aspose.Cells, pustaka canggih yang menyederhanakan manipulasi Excel dalam aplikasi Java.
 
-Dalam tutorial ini, kita akan membahas:
+Ebben az oktatóanyagban a következőket fogjuk áttekinteni:
 - Menyiapkan dan mengonfigurasi Aspose.Cells untuk Java
 - Petunjuk langkah demi langkah untuk mengekspor rentang sel sebagai gambar
 - Menyesuaikan pengaturan lembar kerja seperti area cetak dan margin
 
 Mari kita mulai dengan memastikan Anda memiliki prasyarat yang diperlukan sebelum memulai perjalanan implementasi Anda.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 1. **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih baru.
 2. **Lingkungan Pengembangan Terpadu (IDE)**Seperti IntelliJ IDEA atau Eclipse untuk pengembangan Java.
 3. **Aspose.Cells untuk Java**: Tersedia melalui Maven atau Gradle.
 
-### Pustaka dan Ketergantungan yang Diperlukan
+### Szükséges könyvtárak és függőségek
 
 Berikut ini cara Anda dapat menyertakan Aspose.Cells dalam proyek Anda:
 
@@ -51,23 +53,23 @@ Berikut ini cara Anda dapat menyertakan Aspose.Cells dalam proyek Anda:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Pengaturan Lingkungan
+### Környezet beállítása
 
 Pastikan lingkungan pengembangan Anda dikonfigurasi dengan Java dan IDE yang kompatibel. Pemahaman terhadap pemrograman Java dan operasi Excel dasar akan membantu Anda mengikutinya dengan lebih efektif.
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk menggunakan Aspose.Cells untuk Java, dapatkan lisensi melalui:
-- **Uji Coba Gratis**: Menguji kemampuan pustaka tanpa batasan.
-- **Lisensi Sementara**: Minta lisensi sementara untuk mengevaluasi fitur yang diperluas.
-- **Pembelian**: Beli lisensi untuk penggunaan jangka panjang. Kunjungi [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**: Menguji kemampuan pustaka tanpa batasan.
+- **Ideiglenes engedély**: Minta lisensi sementara untuk mengevaluasi fitur yang diperluas.
+- **Vásárlás**: Beli lisensi untuk penggunaan jangka panjang. Kunjungi [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Menyiapkan Aspose.Cells mudah dengan dependensi di atas. Berikut cara menginisialisasi dan mengonfigurasinya dalam proyek Anda:
 
 1. **Tambahkan Ketergantungan**: Gunakan Maven atau Gradle seperti yang ditunjukkan sebelumnya.
-2. **Inisialisasi Buku Kerja**: Muat file Excel Anda menggunakan `Workbook`.
+2. **Munkafüzet inicializálása**: Muat file Excel Anda menggunakan `Workbook`.
 
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -76,13 +78,13 @@ Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 Pengaturan ini memungkinkan Anda untuk mulai memanipulasi buku kerja dengan Aspose.Cells.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Mengekspor Rentang Sel sebagai Gambar
 
 Bagian ini menjelaskan cara mengekspor sel tertentu dari lembar kerja Excel Anda ke gambar JPEG menggunakan Aspose.Cells untuk Java.
 
-#### Langkah 1: Muat Buku Kerja
+#### 1. lépés: A munkafüzet betöltése
 
 Mulailah dengan memuat file Excel tempat Anda ingin mengekstrak rentang sel:
 
@@ -91,7 +93,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 ```
 
-#### Langkah 2: Akses Lembar Kerja
+#### 2. lépés: A munkalap elérése
 
 Akses lembar kerja yang berisi sel yang diinginkan:
 
@@ -123,7 +125,7 @@ Di sini, kami mengonfigurasi ekspor untuk menghasilkan satu gambar JPEG per lemb
 
 #### Langkah 5: Membuat dan Menggunakan SheetRender
 
-Memanfaatkan `SheetRender` untuk mengelola rendering lembar kerja Anda sebagai gambar:
+Használd `SheetRender` untuk mengelola rendering lembar kerja Anda sebagai gambar:
 
 ```java
 SheetRender sr = new SheetRender(worksheet, options);
@@ -156,60 +158,63 @@ worksheet.getPageSetup()
 
 Ini memastikan keluaran gambar bersih tanpa batas tambahan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java bersifat serbaguna dan dapat digunakan dalam berbagai skenario:
-1. **Pelaporan**: Mengotomatiskan pembuatan gambar laporan dari data Excel.
-2. **Presentasi Data**: Bagikan wawasan data spesifik dengan pemangku kepentingan melalui gambar.
-3. **Konten Edukasi**: Buat alat bantu visual dari lembar kerja pendidikan.
+1. **Jelentéstétel**: Mengotomatiskan pembuatan gambar laporan dari data Excel.
+2. **Adatmegjelenítés**: Bagikan wawasan data spesifik dengan pemangku kepentingan melalui gambar.
+3. **Oktatási tartalom**: Buat alat bantu visual dari lembar kerja pendidikan.
 
 Mengintegrasikan Aspose.Cells ke dalam aplikasi Anda memungkinkan manipulasi Excel dan fungsionalitas ekspor yang lancar, meningkatkan kemampuan penanganan data di seluruh sistem.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells untuk Java:
-- **Manajemen Memori**: Pastikan penggunaan memori yang efisien dengan membuang objek yang tidak lagi diperlukan.
-- **Pemrosesan Batch**: Menangani beberapa ekspor secara batch untuk mengurangi biaya overhead.
+- **Memóriakezelés**: Pastikan penggunaan memori yang efisien dengan membuang objek yang tidak lagi diperlukan.
+- **Kötegelt feldolgozás**: Menangani beberapa ekspor secara batch untuk mengurangi biaya overhead.
 - **Optimalkan Opsi**: Gunakan opsi gambar seperti `setOnePagePerSheet` untuk memperlancar proses rendering.
 
 Mengikuti pedoman ini akan membantu menjaga kinerja dan penggunaan sumber daya yang optimal.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara mengekspor rentang sel sebagai gambar menggunakan Aspose.Cells untuk Java. Fungsionalitas ini dapat meningkatkan kemampuan presentasi data Anda secara signifikan, sehingga memungkinkan Anda untuk berbagi bagian tertentu secara efisien.
 
 Untuk penjelajahan lebih jauh, pertimbangkan untuk mendalami lebih jauh rangkaian fitur Aspose.Cells yang kaya atau mengintegrasikannya dengan sistem lain untuk manipulasi Excel tingkat lanjut.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menginstal Aspose.Cells untuk Java?**
    - Tambahkan dependensi melalui Maven atau Gradle seperti yang ditunjukkan dalam panduan ini.
 
 2. **Bisakah saya mengekspor ke format selain JPEG?**
-   - Ya, modifikasi `setImageType()` dengan format seperti PNG atau BMP yang didukung oleh Aspose.Cells.
+   - Igen, módosítás `setImageType()` dengan format seperti PNG atau BMP yang didukung oleh Aspose.Cells.
 
 3. **Bagaimana jika area cetak saya tidak sesuai dengan ukuran gambar?**
    - Pastikan rentang dan margin yang Anda tentukan sudah benar; sesuaikan seperlunya untuk hasil yang diinginkan.
 
 4. **Bagaimana cara mendapatkan lisensi uji coba gratis?**
-   - Mengunjungi [Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/) untuk memulai dengan akses tanpa batas.
+   - Látogatás [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/) untuk memulai dengan akses tanpa batas.
 
 5. **Di mana saya dapat menemukan dokumentasi lebih lanjut tentang fitur Aspose.Cells?**
-   - Jelajahi yang komprehensif [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
+   - Jelajahi yang komprehensif [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Dapatkan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Ingyenes próbaverzió igénylése](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Jelajahi sumber daya ini untuk meningkatkan pemahaman dan penerapan Aspose.Cells untuk Java. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

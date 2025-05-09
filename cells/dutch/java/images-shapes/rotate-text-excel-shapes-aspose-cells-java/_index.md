@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,8 +69,8 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 Om Aspose.Cells uit te proberen, kunt u een gratis tijdelijke licentie verkrijgen of de volledige functionaliteit aanschaffen. Volg deze stappen:
 
 1. **Gratis proefperiode**: Download de bibliotheek van [Aspose-downloads](https://releases.aspose.com/cells/java/).
-2. **Tijdelijke licentie**Vraag een tijdelijke licentie aan bij [Aspose Tijdelijke Licentie](https://purchase.aspose.com/temporary-license/).
-3. **Aankoop**: Voor langdurig gebruik, koop een licentie via [Aspose Aankoop](https://purchase.aspose.com/buy).
+2. **Tijdelijke licentie**: Vraag een tijdelijke licentie aan bij [Aspose Tijdelijke Licentie](https://purchase.aspose.com/temporary-license/).
+3. **Aankoop**Voor langdurig gebruik, koop een licentie via [Aspose Aankoop](https://purchase.aspose.com/buy).
 
 ### Basisinitialisatie en -installatie
 
@@ -199,6 +201,9 @@ In deze tutorial hebben we onderzocht hoe je tekst in vormen in Excel kunt bewer
 Experimenteer met deze technieken en til uw Excel-documentmanipulaties naar een hoger niveau met Aspose.Cells voor Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

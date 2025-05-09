@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,11 +148,14 @@ Aspose.Cells Java можно использовать в различных ре
 - **Скачать**: Получите последнюю версию библиотеки от [Загрузки Aspose](https://releases.aspose.com/cells/java/)
 - **Покупка и лицензирование**: Узнайте больше о вариантах покупки и лицензирования на сайте [Покупка Aspose](https://purchase.aspose.com/buy)
 - **Бесплатная пробная версия**: Начните экспериментировать с [бесплатная пробная версия](https://releases.aspose.com/cells/java/)
-- **Временная лицензия**: Получите временную лицензию на расширенное тестирование от [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/)
+- **Временная лицензия**: Получите временную лицензию для расширенного тестирования от [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/)
 
 С этим руководством вы будете хорошо подготовлены к работе с операциями Excel в Java с использованием Aspose.Cells. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

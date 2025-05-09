@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ Java'da Aspose.Cells ile çalışırken:
 
 ## Çözüm
 
-Artık Aspose.Cells for Java kullanarak Excel çalışma kitaplarını nasıl yükleyeceğinizi ve veri bağlantılarına nasıl erişeceğinizi öğrendiniz. Bu güçlü araç, veri işleme görevlerinizi kolaylaştırabilir, otomasyonu geliştirebilir ve harici sistemlerle sorunsuz entegrasyonu kolaylaştırabilir. Daha fazlasını keşfedin [Aspose belgeleri](https://reference.aspose.com/cells/java/) veya Aspose.Cells'in farklı özelliklerini deneyin.
+Artık Excel çalışma kitaplarını nasıl yükleyeceğinizi ve Aspose.Cells for Java kullanarak veri bağlantılarına nasıl erişeceğinizi öğrendiniz. Bu güçlü araç, veri işleme görevlerinizi kolaylaştırabilir, otomasyonu geliştirebilir ve harici sistemlerle sorunsuz entegrasyonu kolaylaştırabilir. Daha fazlasını keşfedin [Aspose belgeleri](https://reference.aspose.com/cells/java/) veya Aspose.Cells'in farklı özelliklerini deneyin.
 
 Yeni becerilerinizi uygulamaya koymaya hazır mısınız? Bu teknikleri bugün projelerinizde uygulamaya başlayın!
 
@@ -175,6 +177,9 @@ C5: Akış yöntemlerini kullanmayı düşünün ve işiniz bittiğinde çalış
 - **Destek**: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ class ExcelInitializer {
     }
 }
 ```
-Gdy Twoje środowisko jest już gotowe, możemy przejść do przewodnika wdrażania, w którym podzielimy każdą funkcję na łatwe do wykonania kroki.
+Gdy Twoje środowisko jest już gotowe, możemy przejść do przewodnika po implementacji, w którym podzielimy każdą funkcję na łatwe do wykonania kroki.
 
 ## Przewodnik wdrażania
 
@@ -172,6 +174,9 @@ A: Odwiedź [Forum Aspose](https://forum.aspose.com/c/cells/9) do dyskusji i wsp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

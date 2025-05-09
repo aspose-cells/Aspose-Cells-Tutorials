@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ workbook.save("AHTMLRText_out.xlsx");
 
 Aspose.Cells के साथ काम करते समय:
 - **संसाधन उपयोग को अनुकूलित करें**: प्रदर्शन में कमी से बचने के लिए बड़ी कार्यपुस्तिकाओं में HTML-शैली वाले कक्षों की संख्या सीमित करें।
-- **जावा मेमोरी प्रबंधन**: बड़े डेटासेट को प्रभावी ढंग से संभालने के लिए जावा में कुशल मेमोरी प्रबंधन प्रथाओं का उपयोग करें। इसमें उपयोग के तुरंत बाद वर्कबुक इंस्टेंस को बंद करना शामिल है।
+- **जावा मेमोरी प्रबंधन**बड़े डेटासेट को प्रभावी ढंग से संभालने के लिए जावा में कुशल मेमोरी प्रबंधन प्रथाओं का उपयोग करें। इसमें उपयोग के तुरंत बाद वर्कबुक इंस्टेंस को बंद करना शामिल है।
 
 ## निष्कर्ष
 
@@ -150,6 +152,9 @@ Aspose.Cells के साथ काम करते समय:
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Aspose.Cells for Java kullanarak kıvılcım çizgilerini zahmetsizce oluşturup
 Günümüzün veri odaklı dünyasında, bilgileri sindirilebilir bir biçimde sunmak hayati önem taşır. Geleneksel Excel grafikleri, birden fazla hücreye dağılmış küçük veri kümeleriyle uğraşırken zahmetli olabilir. Kıvılcım grafikleri girin; elektronik tablonuzda doğrudan bir bakışta hızlı içgörüler sunan minyatür çizgi grafikler. Java için Aspose.Cells ile bu küçük ama güçlü grafikleri yönetmek sorunsuz hale gelir, size zaman kazandırır ve üretkenliği artırır.
 
 **Ne Öğreneceksiniz:**
-- Excel çalışma kitaplarını kolaylıkla yükleyin ve oluşturun.
+- Excel çalışma kitaplarını kolayca yükleyin ve oluşturun.
 - Çalışma sayfalarına etkin bir şekilde erişin ve değiştirin.
 - Veri aralığınıza kıvılcım çizgileri ekleyin ve yapılandırın.
 - Değişiklikleri bir çıktı dizinine kaydedin.
@@ -164,6 +166,9 @@ Bu kılavuzu takip ederek, Excel çalışma kitaplarını ve kıvılcım çizelg
 - Destek: [Aspose Forum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

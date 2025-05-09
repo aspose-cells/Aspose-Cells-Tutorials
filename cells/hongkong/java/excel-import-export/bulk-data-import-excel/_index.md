@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 批次資料匯入Excel
@@ -99,9 +101,11 @@ Aspose.Cells for Java 提供了廣泛的格式化選項和工具來處理複雜�
 是的，請查看 Aspose 網站上的許可信息，以了解有關許可和定價的詳細信息。
 
 請隨意進一步探索並調整程式碼範例以滿足您的特定要求。編碼愉快！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

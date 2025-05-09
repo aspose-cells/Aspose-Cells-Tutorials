@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Você está frustrado com o processo trabalhoso de criar e gerenciar pastas de t
 
 Neste tutorial abrangente, você aprenderá a aproveitar o poder do Aspose.Cells para criar, modificar e aprimorar suas pastas de trabalho do Excel com eficiência. Ao utilizar esta ferramenta robusta, você pode economizar tempo, reduzir erros e se concentrar em fornecer soluções de dados de alta qualidade.
 
-### que você aprenderá
+### O que você aprenderá
 - Como configurar o Aspose.Cells para Java em seu ambiente de desenvolvimento
 - Criando uma nova pasta de trabalho e salvando-a com sucesso
 - Acessando e modificando planilhas dentro da pasta de trabalho
@@ -159,7 +161,7 @@ public class ModifyCell {
     }
 }
 ```
-**2. Defina o valor e o estilo da célula**
+**2. Definir valor e estilo da célula**
 Modifique o conteúdo e a aparência da sua célula.
 ```java
 import com.aspose.cells.Style;
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Ao seguir este tutorial, você aprendeu a manipular pastas de trabalho do Excel com eficiência usando o Aspose.Cells para Java. Esta poderosa ferramenta simplifica o processo de criação, modificação e aprimoramento de seus arquivos do Excel, permitindo que você se concentre em fornecer soluções de dados de alta qualidade. Continue explorando seus recursos para aproveitar ao máximo suas capacidades em seus projetos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

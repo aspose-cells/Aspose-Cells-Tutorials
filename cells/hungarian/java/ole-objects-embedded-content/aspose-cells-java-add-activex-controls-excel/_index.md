@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ Olyan tulajdonságok beállítása, mint a cellák összekapcsolása az interakt
 ```java
 import com.aspose.cells.ActiveXControl;
 
-// Hozzáférés az ActiveX vezérlőobjektumhoz
+// Hozzáférés az ActiveX-vezérlőobjektumhoz
 ActiveXControl c = s.getActiveXControl();
 
 // Vezérlőelem csatolása egy cellához
@@ -134,7 +136,7 @@ Mentse el a munkafüzetet a kívánt formátumban:
 ```java
 import com.aspose.cells.SaveFormat;
 
-// A kimeneti könyvtár meghatározása
+// kimeneti könyvtár meghatározása
 String dataDir = "path/to/your/directory/";
 
 // A munkafüzet mentése Excel-fájlként
@@ -196,9 +198,12 @@ V: Bár a teljesítményre optimalizálva van, számos összetett alakzat és ve
 - **Letöltés**: Az Aspose.Cells Java legújabb verziójának elérése innen: [ez az oldal](https://releases.aspose.com/cells/java/).
 - **Vásárlás**: Licenc vásárlása itt: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 - **Ingyenes próbaverzió és ideiglenes licenc**Kezdésként ingyenes vagy ideiglenes hozzáférést kaphatsz a megadott linkeken keresztül.
-- **Támogatás**: Csatlakozz a beszélgetésekhez, vagy tegyél fel kérdéseket a [Aspose Fórum](https://forum.aspose.com/c/cells/9).
+- **Támogatás**Csatlakozz a beszélgetésekhez, vagy tegyél fel kérdéseket a [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,34 +7,36 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menyalin Beberapa Kolom dalam Lembar Kerja Excel Menggunakan Aspose.Cells Java
-## Perkenalan
+## Bevezetés
 Atur ulang data secara efisien di Excel dengan Aspose.Cells untuk Java. Panduan lengkap ini menunjukkan kepada Anda cara mengotomatiskan penyalinan beberapa kolom dalam lembar kerja, menghemat waktu dan mengurangi kesalahan.
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Siapkan dan gunakan Aspose.Cells untuk Java.
 - Muat buku kerja Excel dan akses lembar kerja tertentu.
 - Salin beberapa kolom secara efisien dalam lembar kerja.
 - Memecahkan masalah implementasi umum.
 
 Mari kita tinjau prasyaratnya terlebih dahulu!
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
-### Pustaka dan Ketergantungan yang Diperlukan
+## Előfeltételek
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+### Szükséges könyvtárak és függőségek
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru.
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - Lingkungan Pengembangan Terpadu (IDE), seperti IntelliJ IDEA atau Eclipse.
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 - Pemahaman dasar tentang pemrograman Java dan bekerja dengan file Excel.
 - Kemampuan menggunakan Maven atau Gradle untuk mengelola dependensi.
 ## Menyiapkan Aspose.Cells untuk Java
 Tambahkan pustaka Aspose.Cells ke proyek Anda menggunakan pengelola dependensi populer:
 ### Pakar
-Sertakan ini di dalam `pom.xml` mengajukan:
+Sertakan ini di dalam `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -43,36 +45,36 @@ Sertakan ini di dalam `pom.xml` mengajukan:
 </dependency>
 ```
 ### Bahasa Inggris Gradle
-Tambahkan ini ke Anda `build.gradle` mengajukan:
+Tambahkan ini ke Anda `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Akuisisi Lisensi
+### Licencszerzés
 Aspose.Cells untuk Java menawarkan uji coba gratis dengan fungsionalitas terbatas, lisensi sementara untuk tujuan pengujian, atau lisensi komersial penuh untuk penggunaan produksi.
-- **Uji Coba Gratis**: Unduh dari [Uji Coba Gratis Aspose](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**: Terapkan pada [Halaman Lisensi Sementara Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**: Beli lisensi penuh melalui [Aspose Pembelian](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**Letöltés innen: [Aspose ingyenes próbaverziók](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Terapkan pada [Aspose ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás**: Beli lisensi penuh melalui [Aspose vásárlás](https://purchase.aspose.com/buy).
 Setelah Anda mendapatkan lisensi, inisialisasikan dalam kode Anda untuk membuka kunci semua fitur:
 ```java
 License license = new License();
 license.setLicense("path_to_your_license.lic");
 ```
-## Panduan Implementasi
-### Memuat dan Mengakses Lembar Kerja
-**Ringkasan**: Mulailah dengan memuat buku kerja Excel yang ada dan mengakses lembar kerja tertentu.
-#### Langkah 1: Muat Buku Kerja
+## Megvalósítási útmutató
+### Munkalapok betöltése és elérése
+**Áttekintés**: Mulailah dengan memuat buku kerja Excel yang ada dan mengakses lembar kerja tertentu.
+#### 1. lépés: A munkafüzet betöltése
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY"; // Ganti dengan jalur direktori data Anda
 Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 ```
-- **Penjelasan**: Menginisialisasi sebuah `Workbook` objek dari berkas yang ada, yang memungkinkan Anda memanipulasi isinya.
-#### Langkah 2: Akses Lembar Kerja
+- **Magyarázat**: Menginisialisasi sebuah `Workbook` objek dari berkas yang ada, yang memungkinkan Anda memanipulasi isinya.
+#### 2. lépés: A munkalap elérése
 ```java
 Cells cells = workbook.getWorksheets().get("Columns").getCells();
 ```
-- **Penjelasan**: Mengakses lembar kerja bernama "Kolom" dan mengambil kumpulan selnya untuk manipulasi.
+- **Magyarázat**: Mengakses lembar kerja bernama "Kolom" dan mengambil kumpulan selnya untuk manipulasi.
 ### Menyalin Beberapa Kolom
-**Ringkasan**: Tunjukkan cara menyalin beberapa kolom dalam lembar kerja yang sama menggunakan Aspose.Cells Java.
+**Áttekintés**: Tunjukkan cara menyalin beberapa kolom dalam lembar kerja yang sama menggunakan Aspose.Cells Java.
 #### Langkah 3: Jalankan Salin Kolom
 ```java
 cells.copyColumns(cells, 0, 6, 3);
@@ -88,25 +90,25 @@ cells.copyColumns(cells, 0, 6, 3);
 String outDir = "YOUR_OUTPUT_DIRECTORY"; // Ganti dengan jalur direktori keluaran Anda
 workbook.save(outDir + "CMultipleColumns_out.xlsx");
 ```
-- **Penjelasan**: Menulis semua perubahan kembali ke file Excel baru di disk.
-### Tips Pemecahan Masalah
+- **Magyarázat**: Menulis semua perubahan kembali ke file Excel baru di disk.
+### Hibaelhárítási tippek
 - Pastikan nama lembar kerja sama persis, termasuk pengaturan huruf besar/kecil.
 - Verifikasi bahwa indeks kolom berada dalam batas rentang data Anda.
 - Periksa izin menulis di direktori keluaran.
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Jelajahi skenario dunia nyata di mana fungsi ini bermanfaat:
-1. **Konsolidasi Data**: Gabungkan kolom dari lembar yang berbeda menjadi satu lembar tanpa kehilangan integritas data.
-2. **Pembuatan Laporan**: Atur ulang data keuangan atau penjualan agar sesuai dengan templat pelaporan yang disesuaikan.
-3. **Manajemen Inventaris**: Segera merestrukturisasi inventaris produk untuk visibilitas dan manajemen yang lebih baik.
-## Pertimbangan Kinerja
+1. **Adatkonszolidáció**: Gabungkan kolom dari lembar yang berbeda menjadi satu lembar tanpa kehilangan integritas data.
+2. **Jelentésgenerálás**: Atur ulang data keuangan atau penjualan agar sesuai dengan templat pelaporan yang disesuaikan.
+3. **Készletgazdálkodás**: Segera merestrukturisasi inventaris produk untuk visibilitas dan manajemen yang lebih baik.
+## Teljesítménybeli szempontok
 Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells Java:
-- **Optimalkan Penggunaan Memori**Menangani file Excel yang besar dengan memprosesnya dalam potongan-potongan daripada memuat seluruh kumpulan data ke dalam memori sekaligus.
-- **Akses Data yang Efisien**: Gunakan referensi sel secara bijak untuk meminimalkan waktu pengambilan data.
+- **Memóriahasználat optimalizálása**Menangani file Excel yang besar dengan memprosesnya dalam potongan-potongan daripada memuat seluruh kumpulan data ke dalam memori sekaligus.
+- **Akses Data yang Efisien**Gunakan referensi sel secara bijak untuk meminimalkan waktu pengambilan data.
 - **Praktik Terbaik Java**: Kelola sumber daya secara efektif dengan mencoba-dengan-sumber-daya untuk operasi file dan penanganan pengecualian yang tepat.
-## Kesimpulan
+## Következtetés
 Panduan ini membahas cara menyalin beberapa kolom dalam lembar kerja menggunakan Aspose.Cells Java, mulai dari menyiapkan lingkungan hingga menerapkan kode. Otomatiskan tugas berulang di Excel dan sederhanakan proses manajemen data Anda.
-**Langkah Berikutnya**: Jelajahi fitur lain Aspose.Cells untuk Java, seperti pemformatan bersyarat atau pembuatan bagan, untuk lebih meningkatkan keterampilan otomatisasi Excel Anda.
-## Bagian FAQ
+**Következő lépések**: Jelajahi fitur lain Aspose.Cells untuk Java, seperti pemformatan bersyarat atau pembuatan bagan, untuk lebih meningkatkan keterampilan otomatisasi Excel Anda.
+## GYIK szekció
 1. **Bagaimana cara mengatasi kesalahan saat menyalin kolom?**
    - Pastikan indeks sumber dan tujuan benar dan dalam batasan data yang tersedia.
 2. **Bisakah saya menyalin kolom di beberapa lembar kerja berbeda dengan Aspose.Cells?**
@@ -117,15 +119,18 @@ Panduan ini membahas cara menyalin beberapa kolom dalam lembar kerja menggunakan
    - Secara umum, tidak ada batasan yang tegas kecuali kendala memori dan batasan kolom Excel (misalnya, 16.384 dalam versi modern).
 5. **Bagaimana cara mengintegrasikan fungsi ini ke dalam aplikasi Java yang ada?**
    - Impor kelas Aspose.Cells, inisialisasi `Workbook` objek dengan jalur berkas Anda, dan terapkan metode seperti yang ditunjukkan.
-## Sumber daya
+## Erőforrás
 - [Dokumentasi Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- [Unduhan Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Vásárolja meg az Aspose.Cells-t](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverziók letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

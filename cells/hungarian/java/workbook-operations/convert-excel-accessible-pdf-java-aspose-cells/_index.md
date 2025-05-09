@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Mielőtt elkezdenénk, győződjünk meg róla, hogy készen állnak a szükség
 
 ## Előfeltételek
 
-folytatáshoz a következőkre lesz szükséged:
+A folytatáshoz a következőkre lesz szükséged:
 
 ### Szükséges könyvtárak és függőségek
 
@@ -174,6 +176,9 @@ Próbálja ki ezt a megoldást a következő projektjében, és javítsa a dokum
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

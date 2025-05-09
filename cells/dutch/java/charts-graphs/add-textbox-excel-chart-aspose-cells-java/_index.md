@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ We hebben het toevoegen van een tekstvak aan een Excel-grafiek met Aspose.Cells 
 Door deze handleiding te volgen, kunt u Aspose.Cells efficiënt integreren in uw Java-projecten om de functionaliteit van Excel-grafieken te verbeteren met aangepaste tekstannotaties. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

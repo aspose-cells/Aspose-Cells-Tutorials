@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Ontdek gerust meer functies van Aspose.Cells, zoals grafieken, draaitabellen en 
 - Ja, Aspose.Cells ondersteunt verschillende typen gegevensvalidatie, zodat u verschillende regels in uw werkmap kunt afdwingen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

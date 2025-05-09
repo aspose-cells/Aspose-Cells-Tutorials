@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/adding-borders-to-cells/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Borders to Cells in Excel
@@ -120,6 +122,7 @@ Absolutely! You can change cell colors, fonts, formulas, and much more. The poss
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj kontrolkę etykiety do wykresu
-linktitle: Dodaj kontrolkę etykiety do wykresu
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodać kontrolkę etykiety do wykresów w Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz wizualizację danych.
-weight: 10
-url: /pl/net/inserting-controls-in-charts/add-label-control-to-chart/
+"description": "Dowiedz się, jak dodać kontrolkę etykiety do wykresów w Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz wizualizację danych."
+"linktitle": "Dodaj kontrolkę etykiety do wykresu"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj kontrolkę etykiety do wykresu"
+"url": "/pl/net/inserting-controls-in-charts/add-label-control-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj kontrolkę etykiety do wykresu
@@ -19,10 +21,10 @@ Wykresy to potężny sposób wizualizacji danych, a czasami dodanie etykiety mo�
 
 ## Wymagania wstępne
 
-Zanim przejdziemy do szczegółów, omówmy, co jest potrzebne na początek:
+Zanim przejdziemy do szczegółów, omówmy, co jest potrzebne, żeby zacząć:
 
-- Podstawowa wiedza o C#: Zrozumienie podstaw programowania w C# jest kluczowe. Jeśli jesteś początkującym, nie martw się – kroki będą jasne i zwięzłe.
-- Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz to zrobić za pomocą Menedżera pakietów NuGet w programie Visual Studio. Jeśli jeszcze tego nie zrobiłeś, sprawdź[link do pobrania](https://releases.aspose.com/cells/net/) dla biblioteki.
+- Podstawowa wiedza o C#: Ważne jest zrozumienie podstaw programowania w C#. Jeśli jesteś początkującym, nie martw się – kroki będą jasne i zwięzłe.
+- Biblioteka Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. Możesz to zrobić za pomocą Menedżera pakietów NuGet w programie Visual Studio. Jeśli jeszcze tego nie zrobiłeś, sprawdź [link do pobrania](https://releases.aspose.com/cells/net/) dla biblioteki.
 - Visual Studio: Będziesz potrzebować zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby pisać i wykonywać kod.
 
 ## Importuj pakiety
@@ -68,7 +70,7 @@ Następnie załadujemy plik Excela zawierający wykres, do którego chcemy doda�
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- Tutaj używamy`Workbook` klasa z Aspose.Cells, aby otworzyć nasz plik Excel. To jak otwieranie drzwi, aby pozwolić kreatywności płynąć!
+Tutaj używamy `Workbook` klasa z Aspose.Cells, aby otworzyć nasz plik Excel. To jak otwieranie drzwi, aby pozwolić kreatywności płynąć!
 
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 
@@ -100,7 +102,7 @@ Teraz nadchodzi ekscytująca część – dodanie etykiety do wykresu. Określim
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- Tutaj,`AddLabelInChart` zajmuje się tworzeniem etykiety na podstawie podanych przez Ciebie współrzędnych i wymiarów. To jak przymocowanie pięknej ramki wokół Twojej pracy artystycznej!
+Tutaj, `AddLabelInChart` zajmuje się tworzeniem etykiety na podstawie podanych przez Ciebie współrzędnych i wymiarów. To jak przymocowanie pięknej ramki wokół Twojej pracy artystycznej!
 
 ## Krok 6: Ustaw tekst etykiety
 
@@ -147,7 +149,7 @@ To tak, jakbyś pokazał światu swój gotowy produkt i czekał na oklaski!
 
 ## Wniosek
 
-I masz! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
+masz! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.Cells dla .NET. Za pomocą zaledwie kilku linijek kodu poprawiłeś przejrzystość wizualnej reprezentacji danych, czyniąc ją o wiele bardziej informacyjną. Pamiętaj, że niezależnie od tego, czy tworzysz prezentację, czy zagłębiasz się w analizę danych, te etykiety mogą być nieocenionymi narzędziami.
 
 ## Najczęściej zadawane pytania
 
@@ -155,7 +157,7 @@ I masz! Udało Ci się dodać kontrolkę etykiety do wykresu za pomocą Aspose.C
 Tak! Możesz zmienić czcionkę, kolor, rozmiar i inne właściwości etykiety, aby dopasować je do swoich potrzeb.
 
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
- Aspose.Cells jest produktem płatnym, jednak możesz zacząć od[bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
+Aspose.Cells jest produktem płatnym, jednak możesz zacząć od [bezpłatny okres próbny](https://releases.aspose.com/) aby poznać jego funkcje.
 
 ### A co jeśli chcę dodać wiele etykiet?
 Możesz powtórzyć kroki dodawania etykiet tyle razy, ile potrzebujesz, za każdym razem zmieniając ich położenie i tekst.
@@ -164,10 +166,12 @@ Możesz powtórzyć kroki dodawania etykiet tyle razy, ile potrzebujesz, za każ
 Jeśli ustawisz typ umiejscowienia na stały, będzie się on przesuwał wraz z danymi wykresu. Jeśli jest swobodnie pływający, pozostanie w określonej pozycji.
 
 ### Gdzie mogę znaleźć bardziej szczegółową dokumentację Aspose.Cells?
- Sprawdź[dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+Sprawdź [dokumentacja](https://reference.aspose.com/cells/net/) aby uzyskać kompleksowe przewodniki i odniesienia do API.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

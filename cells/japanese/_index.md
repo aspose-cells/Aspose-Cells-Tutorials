@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells ビジュアルチュートリアル
 Aspose.Cellsのビジュアルチュートリアルは、スプレッドシート操作を習得したい開発者や愛好家向けに設計されています。各チュートリアルでは、スプレッドシートの作成や書式設定といった基本操作から、データの視覚化や数式操作といった高度な機能まで、Aspose.Cellsライブラリの基本的な機能を網羅しています。初心者の方でも経験豊富な開発者の方でも、このビジュアルガイドは、分かりやすく包括的な手順と実用的な例を提供しています。
@@ -21,49 +23,78 @@ Aspose.Cells for .NET ビジュアルチュートリアルは、.NET アプリ�
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET で Aspose.Cells を使ってチャートを作成する](./net/charts/)
-Aspose.Cells を使用して .NET アプリケーションでグラフを作成、カスタマイズ、管理する方法を学びます。簡単で効率的な例を使って、さまざまな種類のグラフを詳しく見てみましょう。
+Aspose.Cells を使用して .NET アプリケーションでグラフを作成、カスタマイズ、管理する方法を学びます。簡単で効率的な例を使って、さまざまな種類のグラフを探索します。
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Excel で 3D グラフを作成して書式設定する" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Excel でグラフのサイズと位置を変更する" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Excelでグラフの目盛りラベルの方向を変更する" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="指定したページサイズでExcelチャートからPDFを作成する" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Aspose.Cells でデータマーカー付きの折れ線グラフを作成する" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="チャートポイントのX値とY値の種類を見つける" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Aspose.Cells を使用して ODS ファイルからチャートのサブタイトルを取得する" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Excelでグラフのデータラベルの形状を変更する" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Aspose.Cells for .NET で Excel グラフを作成する" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.Cells for .NET でオブジェクトを描画する](./net/drawing-objects/)
-Aspose.Cells を使用して .NET アプリケーションでグラフを作成、カスタマイズ、管理する方法を学びます。簡単で効率的な例を使って、さまざまな種類のグラフを詳しく見てみましょう。
+Aspose.Cells を使用して .NET アプリケーションでグラフを作成、カスタマイズ、管理する方法を学びます。簡単で効率的な例を使って、さまざまな種類のグラフを探索します。
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Aspose.Cells を使用して Excel の OLE オブジェクト ラベルを変更する" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Aspose.Cells で Excel ファイルを作成して保存する" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Aspose.Cells を使用して Excel の図形のテキスト配置を変更する" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Aspose.Cells を使用して Excel の図形の Z オーダーを操作する" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="極東およびラテンフォントを使用した Excel ワークブックの作成" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
-{{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Aspose.Cells を使用した Excel でのタイルテクスチャ塗りつぶし" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Aspose.Cells を使った Excel でのタイルテクスチャ塗りつぶし" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.Cells for .NET の書式設定 - スタイル、色など](./net/formatting/)
 プロフェッショナルな Excel レポートのスタイル、色、フォント、境界線などの書式設定を Aspose.Cells for .NET で適用する方法を学習します。
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Aspose.Cells を使用して Excel の範囲に境界線を追加する" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Aspose.Cells を使用して Excel に色と背景を適用する" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Aspose.Cells for .NET を使用して Excel のセルを結合する" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Aspose.Cells を使用して Excel セルのフォント色を設定する" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Aspose.Cells を使用して Excel でフォント名を設定する" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Aspose.Cells を使用して Excel のフォント サイズを設定する" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Aspose.Cells を使用した Excel での水平方向のテキスト配置" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Aspose.Cells を使用して Excel セル内のテキストを折り返す" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.Cells for .NET のピボット テーブル](./net/pivot-tables/)
 Aspose.Cells for .NET でピボットテーブルを作成、書式設定、管理する方法を学びます。C# で動的なレポートを簡単に生成し、データを分析します。
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Aspose.Cells を使用して Excel でピボット テーブルを作成する" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Aspose.Cells でピボット テーブルを ODS として保存する" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 以下は役に立つリソースへのリンクです:
@@ -110,7 +141,7 @@ Aspose.Cells for .NET でピボットテーブルを作成、書式設定、管�
 - [Excelで名前付き範囲を操作する](./net/excel-working-with-named-ranges/)
 - [Excel でのセルの結合と結合解除](./net/excel-merging-unmerging-cells/)
 - [Excel で名前付き範囲を作成して書式設定する](./net/excel-creating-formatting-named-ranges/)
-- [Excel の名前付き範囲の高度な操作](./net/excel-advanced-named-ranges/)
+- [Excel の名前付き範囲を使用した高度な操作](./net/excel-advanced-named-ranges/)
 - [Excelで名前付き範囲を管理する](./net/excel-managing-named-ranges/)
 - [Excelデータのエクスポートと取得](./net/excel-data-export-retrieval/)
 - [Excelのオートフィルターと検証](./net/excel-autofilter-validation/)
@@ -181,8 +212,10 @@ Aspose.Cells for .NET でピボットテーブルを作成、書式設定、管�
 
 
 ## Aspose.Cells for Java チュートリアル
+
 {{% alert color="primary" %}}
 Aspose.Cells for Javaのチュートリアルをご覧ください。コードサンプルを使ってExcelファイルの操作をマスターしましょう。今すぐJavaスキルを磨きましょう！
+
 {{% /alert %}}
 
 以下は役に立つリソースへのリンクです:
@@ -219,6 +252,7 @@ Aspose.Cells for Javaのチュートリアルをご覧ください。コード�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

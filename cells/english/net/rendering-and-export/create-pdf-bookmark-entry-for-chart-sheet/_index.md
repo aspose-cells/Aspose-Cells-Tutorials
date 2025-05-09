@@ -8,7 +8,9 @@ url: /net/rendering-and-export/create-pdf-bookmark-entry-for-chart-sheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PDF Bookmark for Chart Sheet in Aspose.Cells
@@ -128,6 +130,7 @@ You can check out the [Aspose community support forum](https://forum.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

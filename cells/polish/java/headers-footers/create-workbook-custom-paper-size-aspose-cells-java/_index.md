@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,11 +140,11 @@ Przekonwertuj i zapisz skoroszyt w formacie PDF w celu dystrybucji lub archiwiza
 ## Zastosowania praktyczne
 
 1. **Automatyczne generowanie raportów:** Użyj Aspose.Cells do generowania miesięcznych raportów finansowych z niestandardowymi wymiarami do wydrukowania.
-2. **Dynamiczne tworzenie szablonów:** Twórz szablony, które dostosowują rozmiary papieru na podstawie preferencji użytkownika lub typów danych.
+2. **Dynamiczne tworzenie szablonów:** Twórz szablony dostosowujące rozmiary papieru na podstawie preferencji użytkownika lub typów danych.
 3. **Integracja z systemami biznesowymi:** Płynna integracja z systemami ERP w celu automatycznego generowania faktur i paragonów.
 
 ## Rozważania dotyczące wydajności
-- **Optymalizacja wykorzystania zasobów:** Wykorzystaj wydajne funkcje zarządzania pamięcią pakietu Aspose.Cells, aby obsługiwać duże zbiory danych bez spadku wydajności.
+- **Optymalizacja wykorzystania zasobów:** Wykorzystaj wydajne funkcje zarządzania pamięcią programu Aspose.Cells, aby obsługiwać duże zbiory danych bez pogorszenia wydajności.
 - **Najlepsze praktyki zarządzania pamięcią w Javie:** Zapewnij skuteczność usuwania śmieci poprzez prawidłowe zarządzanie cyklami życia obiektów skoroszytu.
 
 ## Wniosek
@@ -174,6 +176,9 @@ Wypróbuj Aspose.Cells for Java i już dziś wznieś swoje projekty automatyzacj
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

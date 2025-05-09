@@ -7,12 +7,14 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Excel diagram testreszabása Java-ban az Aspose.Cells használatával
-Az Excel-diagramok elengedhetetlenek a hatékony adatvizualizációhoz. Ez az oktatóanyag végigvezet az Excel-diagramok testreszabásán. **Aspose.Cells Java-hoz**, a szövegkörnyezet tördelésének letiltására összpontosítva az adatcímkék áttekinthetőségének javítása érdekében.
+Az Excel-diagramok elengedhetetlenek a hatékony adatvizualizációhoz. Ez az oktatóanyag végigvezet az Excel-diagramok testreszabásán. **Aspose.Cells Java-hoz**, a szövegkörnyezet tördelésének letiltására összpontosítva az adatcímkék olvashatóságának javítása érdekében.
 
 ## Amit tanulni fogsz
 - Excel munkafüzet betöltése egy Java alkalmazásba.
@@ -152,6 +154,9 @@ Az ingyenes próbaverzió vízjeleket tartalmaz a kimeneti fájlokon, és korlá
 Kezdj bele az Excel diagramok testreszabásának elsajátításába az Aspose.Cells for Java segítségével, és fejlesszd az adatprezentációd módját. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

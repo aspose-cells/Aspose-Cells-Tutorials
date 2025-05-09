@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,11 +31,11 @@ Excel 표를 HTML로 변환할 때 특정 CSS ID를 지정하면 접근성과 �
 
 ## 필수 조건
 
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 
 ### 필수 라이브러리, 버전 및 종속성
 - Java 버전 25.3 이상용 Aspose.Cells.
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 
 ### 환경 설정 요구 사항
 - 작동하는 Java 개발 키트(JDK)가 설치되었습니다.
@@ -181,6 +183,9 @@ wb.save(outDir + "outputTableCssId.html", opts);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

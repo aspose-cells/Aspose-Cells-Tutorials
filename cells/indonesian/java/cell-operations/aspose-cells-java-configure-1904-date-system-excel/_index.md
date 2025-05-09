@@ -7,28 +7,30 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Kuasai Sistem Tanggal 1904 di Excel Menggunakan Java Aspose.Cells untuk Operasi Sel yang Efektif
 
-## Perkenalan
+## Bevezetés
 
 Mengelola data historis di Excel dapat menjadi tantangan karena sistem penanggalan yang berbeda seperti sistem penanggalan 1904. Dengan Aspose.Cells untuk Java, Anda dapat dengan mudah mengonfigurasi dan memanipulasi lembar kerja Excel sambil memastikan kompatibilitas dengan berbagai sistem penanggalan. Tutorial ini akan memandu Anda dalam menginisialisasi buku kerja baru, mengaktifkan sistem penanggalan 1904, dan menyimpan perubahan Anda menggunakan Aspose.Cells Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menginisialisasi Buku Kerja Aspose.Cells di Java
 - Mengaktifkan Sistem Tanggal 1904 di File Excel
 - Menyimpan Buku Kerja Anda dengan Konfigurasi yang Diperbarui
 
 Mari kita bahas prasyarat yang diperlukan sebelum Anda memulai.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK)** terinstal di komputer Anda. Disarankan versi 8 atau yang lebih tinggi.
-- **Pakar** atau **Bahasa Inggris Gradle** untuk mengelola dependensi, tergantung pada pengaturan proyek Anda.
+- **Pakar** vagy **Bahasa Inggris Gradle** untuk mengelola dependensi, tergantung pada pengaturan proyek Anda.
 - Pengetahuan dasar tentang Java dan keakraban dengan operasi file Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
@@ -37,7 +39,7 @@ Untuk menggunakan Aspose.Cells for Java di proyek Anda, tambahkan sebagai depend
 
 ### **Pakar**
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -49,17 +51,17 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 ### **Bahasa Inggris Gradle**
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
-Aspose menawarkan uji coba gratis, lisensi sementara, dan opsi untuk membeli lisensi untuk penggunaan komersial. Anda dapat memulai dengan [uji coba gratis](https://releases.aspose.com/cells/java/) atau memperoleh lisensi sementara dari [halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
+Aspose menawarkan uji coba gratis, lisensi sementara, dan opsi untuk membeli lisensi untuk penggunaan komersial. Anda dapat memulai dengan [ingyenes próba](https://releases.aspose.com/cells/java/) atau memperoleh lisensi sementara dari [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda, sertakan pernyataan impor ini:
 
@@ -67,11 +69,11 @@ Untuk menginisialisasi Aspose.Cells di aplikasi Java Anda, sertakan pernyataan i
 import com.aspose.cells.Workbook;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Inisialisasi dan Muat Buku Kerja
 
-#### Ringkasan
+#### Áttekintés
 
 Pertama, buat instance baru dari `Workbook` dan memuat berkas Excel yang ada. Pengaturan ini penting untuk manipulasi lebih lanjut.
 
@@ -85,13 +87,13 @@ String dataDir = "YOUR_DATA_DIRECTORY"; // Pastikan jalur ke file Excel Anda sud
 Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 ```
 
-- **Parameternya:**
+- **Paraméterek:**
   - `dataDir`: Direktori tempat file Excel sumber Anda berada.
   - `"/Mybook.xlsx"`: Nama berkas Excel yang ingin Anda muat.
 
 ### Terapkan Sistem Tanggal 1904
 
-#### Ringkasan
+#### Áttekintés
 
 Sistem penanggalan 1904 penting untuk kompatibilitas dengan aplikasi tertentu. Di sini, kita akan mengaktifkannya di buku kerja Excel kita menggunakan Aspose.Cells.
 
@@ -108,18 +110,18 @@ Workbook workbook = new Workbook(dataDir + "/Mybook.xlsx");
 workbook.getSettings().setDate1904(true);
 ```
 
-- **Konfigurasi Kunci:**
+- **Kulcskonfiguráció:**
   - `getSettings()`: Mengambil pengaturan buku kerja.
   - `setDate1904(true)`: Mengaktifkan sistem tanggal 1904.
 
-#### Tips Pemecahan Masalah
+#### Hibaelhárítási tippek
 
-- Pastikan jalur file Excel Anda benar dan dapat diakses.
+- Győződjön meg arról, hogy az Excel-fájl elérési útja helyes és elérhető.
 - Verifikasi bahwa Anda telah menetapkan versi Aspose.Cells yang benar untuk menghindari masalah kompatibilitas.
 
-### Simpan Buku Kerja
+### Munkafüzet mentése
 
-#### Ringkasan
+#### Áttekintés
 
 Setelah melakukan perubahan, seperti mengaktifkan sistem tanggal 1904, penting untuk menyimpan buku kerja. Langkah ini mengakhiri semua modifikasi yang dilakukan.
 
@@ -139,29 +141,29 @@ workbook.getSettings().setDate1904(true);
 workbook.save(outDir + "/I1904DateSystem_out.xls");
 ```
 
-- **Parameternya:**
+- **Paraméterek:**
   - `outDir`: Direktori tempat Anda ingin menyimpan buku kerja yang dimodifikasi.
   - `"/I1904DateSystem_out.xls"`: Nama berkas Excel keluaran.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pengarsipan Data**: Gunakan fitur ini saat menangani data historis yang memerlukan kompatibilitas dengan sistem lama yang menggunakan sistem tanggal 1904.
-2. **Kompatibilitas Lintas Platform**: Pastikan transisi lancar antara berbagai platform di mana sistem tanggal default mungkin berbeda.
-3. **Pelaporan Keuangan**: Berguna di sektor keuangan untuk menjaga konsistensi di berbagai versi perangkat lunak.
+1. **Adatarchiválás**: Gunakan fitur ini saat menangani data historis yang memerlukan kompatibilitas dengan sistem lama yang menggunakan sistem tanggal 1904.
+2. **Platformfüggetlen kompatibilitás**: Pastikan transisi lancar antara berbagai platform di mana sistem tanggal default mungkin berbeda.
+3. **Pénzügyi jelentéstétel**: Berguna di sektor keuangan untuk menjaga konsistensi di berbagai versi perangkat lunak.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar, pertimbangkan untuk mengoptimalkan kinerja dengan:
 - Membatasi jumlah operasi buku kerja dalam satu sesi untuk mengurangi penggunaan memori.
 - Memanfaatkan praktik manajemen memori Java yang efisien, seperti penyetelan pengumpulan sampah dan dealokasi sumber daya.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara menginisialisasi buku kerja Excel, mengaktifkan sistem tanggal 1904, dan menyimpan perubahan menggunakan Aspose.Cells untuk Java. Dengan keterampilan ini, Anda dapat mengelola sistem tanggal yang rumit dalam file Excel dengan percaya diri.
 
 Untuk lebih mengeksplorasi kemampuan Aspose.Cells, pertimbangkan untuk bereksperimen dengan fitur tambahan seperti kalkulasi rumus atau penataan sel. Terapkan solusi ini hari ini untuk meningkatkan alur kerja manajemen data Anda!
 
-## Bagian FAQ
+## GYIK szekció
 
 **1. Apa itu Sistem Tanggal 1904?**
 Sistem penanggalan 1904 digunakan oleh beberapa versi awal sistem operasi Microsoft Excel dan Macintosh. Sistem ini mulai menghitung hari sejak 1 Januari 1904.
@@ -169,7 +171,7 @@ Sistem penanggalan 1904 digunakan oleh beberapa versi awal sistem operasi Micros
 **2. Bagaimana cara memastikan kompatibilitas dengan aplikasi lain yang menggunakan Aspose.Cells?**
 Pastikan Anda memeriksa persyaratan khusus aplikasi mengenai sistem tanggal dan mengonfigurasikan pengaturan buku kerja Anda sesuai dengan itu menggunakan metode Aspose.Cells.
 
-**3. Dapatkah saya menggunakan Aspose.Cells tanpa lisensi?**
+**3. Használhatom az Aspose.Cells-t licenc nélkül?**
 Ya, tetapi ada batasan penggunaan. Pertimbangkan untuk mendapatkan lisensi sementara atau permanen agar dapat berfungsi secara penuh.
 
 **4. Versi Java apa yang mendukung Aspose.Cells?**
@@ -178,16 +180,19 @@ Aspose.Cells untuk Java mendukung JDK 8 dan versi yang lebih baru. Pastikan ling
 **5. Bagaimana cara memecahkan masalah jika buku kerja tidak tersimpan dengan benar?**
 Verifikasi bahwa Anda mempunyai izin menulis di direktori keluaran, periksa keakuratan jalur berkas, dan pastikan tidak ada contoh buku kerja yang terbuka pada disk.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Beli Lisensi**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Mulai Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Licenc vásárlása**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Ingyenes próbaverzió indítása](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells/9)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Thay đổi kích thước và vị trí biểu đồ
-linktitle: Thay đổi kích thước và vị trí biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách thay đổi kích thước và vị trí của biểu đồ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo này.
-weight: 11
-url: /vi/net/advanced-chart-operations/change-chart-size-and-position/
+"description": "Học cách thay đổi kích thước và vị trí của biểu đồ trong Excel bằng Aspose.Cells cho .NET với hướng dẫn dễ làm theo này."
+"linktitle": "Thay đổi kích thước và vị trí biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thay đổi kích thước và vị trí biểu đồ"
+"url": "/vi/net/advanced-chart-operations/change-chart-size-and-position/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thay đổi kích thước và vị trí biểu đồ
@@ -25,7 +27,7 @@ Trước khi đi sâu vào mã hóa và thao tác biểu đồ, chúng ta hãy l
 - Sự quen thuộc với ngôn ngữ lập trình C# là điều cần thiết. Nếu bạn có thể điều hướng qua cú pháp C#, bạn đã đi trước một bước rồi!
 
 ### Aspose.Cells cho thư viện .NET
--  Bạn cần cài đặt thư viện Aspose.Cells. Nếu bạn chưa có, đừng lo lắng! Bạn có thể dễ dàng tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+- Bạn cần cài đặt thư viện Aspose.Cells. Nếu bạn chưa có, đừng lo lắng! Bạn có thể dễ dàng tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 
 ### Môi trường phát triển
 - Thiết lập môi trường phát triển (như Visual Studio) nơi bạn có thể viết và thực thi mã C# một cách liền mạch.
@@ -65,7 +67,7 @@ Trước tiên, chúng ta cần xác định vị trí tệp nguồn và nơi ch
 Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.xlsx");
 ```
 
- Ở đây, chúng ta tạo một phiên bản mới của`Workbook` class và tải tệp Excel của chúng ta vào đó. Hãy tưởng tượng sổ làm việc như một sổ tay kỹ thuật số chứa tất cả các trang tính và biểu đồ của bạn. Tham số chúng ta đang truyền là đường dẫn đầy đủ đến tệp Excel của chúng ta, vì vậy hãy đảm bảo nó bao gồm tên tệp!
+Ở đây, chúng ta tạo một phiên bản mới của `Workbook` class và tải tệp Excel của chúng ta vào đó. Hãy tưởng tượng sổ làm việc như một sổ tay kỹ thuật số chứa tất cả các trang tính và biểu đồ của bạn. Tham số chúng ta đang truyền là đường dẫn đầy đủ đến tệp Excel của chúng ta, vì vậy hãy đảm bảo nó bao gồm tên tệp!
 
 ## Bước 3: Truy cập vào Bảng tính
 
@@ -73,7 +75,7 @@ Workbook workbook = new Workbook(sourceDir + "sampleChangeChartSizeAndPosition.x
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
- Bây giờ chúng ta đã tải xong bảng tính, chúng ta cần truy cập vào bảng tính cụ thể mà chúng ta muốn làm việc, trong trường hợp này là bảng tính đầu tiên (chỉ mục`[0]`). Giống như việc lật đến đúng trang trong một cuốn sách, bước này giúp chúng ta tập trung vào trang mong muốn để chỉnh sửa.
+Bây giờ chúng ta đã tải xong bảng tính, chúng ta cần truy cập vào bảng tính cụ thể mà chúng ta muốn làm việc, trong trường hợp này là bảng tính đầu tiên (chỉ mục `[0]`). Giống như việc lật đến đúng trang trong một cuốn sách, bước này giúp chúng ta tập trung vào trang mong muốn để chỉnh sửa.
 
 ## Bước 4: Tải biểu đồ
 
@@ -81,7 +83,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 Chart chart = worksheet.Charts[0];
 ```
 
-Với bảng tính đã lấy được, chúng ta sẽ bắt đầu truy cập biểu đồ ngay! Chúng ta sẽ lấy biểu đồ đầu tiên (một lần nữa, chỉ mục`[0]`). Điều này giống như việc chọn tác phẩm nghệ thuật mà bạn muốn tô điểm. Hãy đảm bảo biểu đồ của bạn có trong bảng tính đó, nếu không bạn sẽ phải bối rối!
+Với bảng tính đã lấy được, chúng ta sẽ bắt đầu truy cập vào biểu đồ! Chúng ta sẽ lấy biểu đồ đầu tiên (một lần nữa, chỉ mục `[0]`). Điều này giống như việc chọn tác phẩm nghệ thuật mà bạn muốn tô điểm. Hãy đảm bảo biểu đồ của bạn có trong bảng tính đó, nếu không bạn sẽ phải bối rối!
 
 ## Bước 5: Thay đổi kích thước biểu đồ
 
@@ -90,7 +92,7 @@ chart.ChartObject.Width = 400;
 chart.ChartObject.Height = 300;
 ```
 
- Đã đến lúc thay đổi kích thước của biểu đồ! Ở đây, chúng ta đang thiết lập chiều rộng thành`400` pixel và chiều cao để`300` pixel. Điều chỉnh kích thước cũng giống như việc chọn khung hoàn hảo cho tác phẩm nghệ thuật của bạn—quá lớn hoặc quá nhỏ, thì nó sẽ không vừa với căn phòng.
+Đã đến lúc thay đổi kích thước của biểu đồ! Ở đây, chúng ta đang thiết lập chiều rộng thành `400` pixel và chiều cao để `300` pixel. Điều chỉnh kích thước cũng giống như việc chọn khung hoàn hảo cho tác phẩm nghệ thuật của bạn—quá lớn hoặc quá nhỏ, thì nó sẽ không vừa với căn phòng.
 
 ## Bước 6: Định vị lại biểu đồ
 
@@ -99,7 +101,7 @@ chart.ChartObject.X = 250;
 chart.ChartObject.Y = 150;
 ```
 
- Bây giờ chúng ta đã có kích thước phù hợp, hãy di chuyển biểu đồ! Bằng cách thay đổi`X` Và`Y` thuộc tính, về cơ bản chúng ta đang định vị lại biểu đồ trên bảng tính. Hãy nghĩ về việc kéo bức tranh đóng khung của bạn đến một vị trí mới trên tường để thể hiện vẻ đẹp của nó tốt hơn!
+Bây giờ chúng ta đã có kích thước phù hợp, hãy di chuyển biểu đồ! Bằng cách thay đổi `X` Và `Y` thuộc tính, về cơ bản chúng ta đang định vị lại biểu đồ trên bảng tính. Hãy nghĩ về việc kéo bức tranh đóng khung của bạn đến một vị trí mới trên tường để thể hiện vẻ đẹp của nó tốt hơn!
 
 ## Bước 7: Lưu sổ làm việc
 
@@ -127,19 +129,21 @@ Xin chúc mừng! Bạn vừa học được cách thay đổi kích thước v�
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel trong các ứng dụng .NET.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Mặc dù bạn có thể dùng thử Aspose.Cells miễn phí, nhưng cần phải có giấy phép để tiếp tục sử dụng trong các ứng dụng sản xuất. Bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/buy).
+Mặc dù bạn có thể dùng thử Aspose.Cells miễn phí, nhưng cần phải có giấy phép để tiếp tục sử dụng trong các ứng dụng sản xuất. Bạn có thể lấy một giấy phép [đây](https://purchase.aspose.com/buy).
 
 ### Tôi có thể sử dụng Aspose.Cells mà không cần Visual Studio không?  
 Có, bạn có thể sử dụng Aspose.Cells trong bất kỳ IDE nào tương thích với .NET, nhưng Visual Studio cung cấp các công cụ giúp phát triển dễ dàng hơn.
 
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?  
- Bạn có thể tìm thấy sự hỗ trợ trong đội ngũ tận tâm của họ[Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự hỗ trợ trong đội ngũ tận tâm của họ [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
 
 ### Có giấy phép tạm thời không?  
- Có, bạn có thể mua giấy phép tạm thời để đánh giá Aspose.Cells trong thời gian ngắn, giấy phép này có sẵn[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể mua giấy phép tạm thời để đánh giá Aspose.Cells trong thời gian ngắn, giấy phép này có sẵn [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

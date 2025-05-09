@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 A jogosítvány megszerzése is egyszerű:
 - **Ingyenes próbaverzió**: Ideiglenes licenc letöltése a funkciók korlátozás nélküli teszteléséhez.
-- **Licenc vásárlása**Ha értékesnek találod az Aspose.Cells-t, érdemes megfontolni egy licenc megvásárlását a teljes hozzáférés érdekében.
+- **Licenc vásárlása**Ha értékesnek találod az Aspose.Cells-t, érdemes lehet megvásárolnod egy licencet a teljes hozzáférés érdekében.
 
 ### Megvalósítási útmutató
 
@@ -169,6 +171,9 @@ Most már rendelkezik az Excel-munkafüzetek Aspose.Cells for Java használatáv
 - **Támogatás**: Kérjen segítséget a közösségtől a következő címen: [Aspose Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

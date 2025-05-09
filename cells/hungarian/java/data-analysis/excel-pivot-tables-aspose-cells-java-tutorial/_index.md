@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -135,7 +137,7 @@ PivotField pivotField = pivotFields.get(0); // Első adatmező
 
 pivotField.setDataDisplayFormat(PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST);
 ```
-Ez az első adatmező megjelenítési formátumát állítja be úgy, hogy az értékeket a legnagyobbtól a legkisebbig rangsorolja.
+Ez az első adatmező megjelenítési formátumát állítja be úgy, hogy az értékek a legnagyobbtól a legkisebbig rangsorolódjanak.
 ##### 4. lépés: A pivottábla újraszámítása
 Győződjön meg arról, hogy a változtatások megjelennek a pivot táblázatban.
 ```java
@@ -150,7 +152,7 @@ Az Aspose.Cells for Java hatékony szövetséges lehet számos forgatókönyvben
 
 ## Teljesítménybeli szempontok
 Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdekében:
-- A memóriában tárolt munkafüzet- és munkalap-objektumok számának minimalizálásához használat után azonnal zárja be őket.
+- A memóriában tárolt munkafüzet- és munkalap-objektumok számát minimálisra csökkentheti a használat után azonnali bezárással.
 - Használja hatékonyan a streameket a nagy fájlok kezeléséhez túlzott erőforrás-felhasználás nélkül.
 - Figyeld a Java szemétgyűjtő beállításait, ha különösen nagy adathalmazokkal dolgozol.
 Ezek a gyakorlatok segíthetnek a zökkenőmentes működés fenntartásában és az alkalmazások késleltetésének csökkentésében.
@@ -167,15 +169,18 @@ Következő lépésként érdemes lehet az Aspose.Cells további funkcióit is f
 3. **Használhatom az Aspose.Cells-t licenc nélkül?**
    - Igen, elkezdheti egy ingyenes próbaverzióval, de korlátozásokba ütközhet, például a vízjelezésbe a kimeneti fájlokon.
 4. **Hogyan módosíthatom a pivot táblák egyéb tulajdonságait az Aspose.Cells használatával?**
-   - Fedezze fel a `PivotTable` osztályban a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) a különböző aspektusok, például a sormezők, oszlopmezők és egyebek testreszabására szolgáló módszerekhez.
+   - Fedezze fel a `PivotTable` osztályban a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) a különböző aspektusok, például a sormezők, oszlopmezők és egyebek testreszabására szolgáló metódusokhoz.
 5. **Milyen gyakori problémák merülnek fel az Excel-fájlok programozott kezelésekor?**
    - Gyakori kihívások közé tartozik a fájl I/O kivételek kezelése, a nagy adathalmazok memória-kimerülés nélküli kezelése, valamint az Excel formátumok különböző verziói közötti kompatibilitás biztosítása.
 
 ## Erőforrás
-- [Aspose.Cells Java dokumentációhoz](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells Java-dokumentációhoz](https://reference.aspose.com/cells/java/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

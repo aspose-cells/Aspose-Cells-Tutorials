@@ -1,30 +1,32 @@
 ---
-title: Crea una linea con il grafico dei marcatori dei dati
-linktitle: Crea una linea con il grafico dei marcatori dei dati
-second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Scopri come creare un grafico Line with Data Markers in Excel usando Aspose.Cells per .NET. Segui questa guida passo passo per generare e personalizzare facilmente i grafici.
-weight: 10
-url: /it/net/working-with-chart-data/create-line-with-data-marker-chart/
+"description": "Scopri come creare un grafico a linee con indicatori di dati in Excel utilizzando Aspose.Cells per .NET. Segui questa guida passo passo per generare e personalizzare facilmente i grafici."
+"linktitle": "Crea una linea con un grafico dei marcatori dei dati"
+"second_title": "API di elaborazione Excel .NET Aspose.Cells"
+"title": "Crea una linea con un grafico dei marcatori dei dati"
+"url": "/it/net/working-with-chart-data/create-line-with-data-marker-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea una linea con il grafico dei marcatori dei dati
+# Crea una linea con un grafico dei marcatori dei dati
 
 ## Introduzione
 
-Ti sei mai chiesto come creare grafici sbalorditivi in Excel a livello di programmazione? Bene, allacciati le cinture, perché oggi ci immergiamo nella creazione di un grafico Line with Data Marker usando Aspose.Cells per .NET. Questo tutorial ti guiderà attraverso ogni passaggio, assicurandoti di avere una solida conoscenza della generazione di grafici, anche se hai appena iniziato con Aspose.Cells.
+Vi siete mai chiesti come creare grafici straordinari in Excel a livello di programmazione? Bene, allacciate le cinture, perché oggi ci occuperemo della creazione di un grafico a linee con indicatori di dati utilizzando Aspose.Cells per .NET. Questo tutorial vi guiderà passo dopo passo, assicurandovi di avere una solida conoscenza della generazione di grafici, anche se avete appena iniziato a usare Aspose.Cells.
 
 ## Prerequisiti
 
 Prima di iniziare, assicurati di avere tutto a posto per procedere senza intoppi.
 
-1. Aspose.Cells per la libreria .NET – Dovrai installarla. Puoi scaricarla[Qui](https://releases.aspose.com/cells/net/).
+1. Libreria Aspose.Cells per .NET: è necessario installarla. Puoi scaricarla qui. [Qui](https://releases.aspose.com/cells/net/).
 2. .NET Framework: assicurati che il tuo ambiente di sviluppo sia configurato con la versione più recente di .NET.
 3. IDE (Integrated Development Environment): si consiglia Visual Studio.
-4.  Una licenza Aspose.Cells valida: se non ne hai una, puoi richiederne una[licenza temporanea](https://purchase.aspose.com/temporary-license/) o dai un'occhiata al loro[prova gratuita](https://releases.aspose.com/).
+4. Una licenza Aspose.Cells valida: se non ne hai una, puoi richiederne una [licenza temporanea](https://purchase.aspose.com/temporary-license/) o controlla il loro [prova gratuita](https://releases.aspose.com/).
 
 Pronti a partire? Analizziamolo nel dettaglio!
 
@@ -57,7 +59,7 @@ Workbook workbook = new Workbook();
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Pensa alla cartella di lavoro come al tuo file Excel e al foglio di lavoro come al foglio specifico al suo interno. In questo caso, stiamo lavorando con il primo foglio.
+Considera la cartella di lavoro come il tuo file Excel e il foglio di lavoro come il foglio specifico al suo interno. In questo caso, stiamo lavorando con il primo foglio.
 
 ## Passaggio 2: popolare il foglio di lavoro con i dati
 
@@ -89,7 +91,7 @@ Qui utilizziamo numeri casuali per simulare i dati, ma nelle applicazioni reali 
 
 ## Passaggio 3: aggiungere il grafico al foglio di lavoro
 
-Successivamente, aggiungiamo il grafico al foglio di lavoro e scegliamo il tipo, in questo caso un grafico a linee con indicatori di dati.
+Successivamente, aggiungiamo il grafico al foglio di lavoro e scegliamo il tipo: in questo caso, un grafico a linee con indicatori di dati.
 
 ```csharp
 // Aggiungere un grafico al foglio di lavoro
@@ -99,11 +101,11 @@ int idx = worksheet.Charts.Add(ChartType.LineWithDataMarkers, 1, 3, 20, 20);
 Chart chart = worksheet.Charts[idx];
 ```
 
-Questo frammento aggiunge un grafico a linee con marcatori di dati al foglio di lavoro, posizionandolo in un intervallo specifico (da 1,3 a 20,20). Semplice, vero?
+Questo frammento aggiunge un grafico a linee con indicatori di dati al foglio di lavoro, posizionandolo in un intervallo specifico (da 1, 3 a 20, 20). Semplice, vero?
 
 ## Passaggio 4: personalizzare l'aspetto del grafico
 
-Una volta creato il grafico, puoi personalizzarlo a tuo piacimento. Cambiamo lo sfondo, il titolo e lo stile del grafico.
+Una volta creato il grafico, puoi personalizzarlo a tuo piacimento. Modifichiamo lo sfondo, il titolo e lo stile del grafico.
 
 ```csharp
 // Imposta lo stile del grafico
@@ -115,7 +117,7 @@ chart.AutoScaling = true;
 // Imposta il colore di primo piano su bianco
 chart.PlotArea.Area.ForegroundColor = Color.White;
 
-//Imposta le proprietà del titolo del grafico
+// Imposta le proprietà del titolo del grafico
 chart.Title.Text = "Sample Chart";
 
 // Imposta il tipo di grafico
@@ -126,7 +128,7 @@ Qui diamo al grafico un aspetto pulito impostando uno sfondo bianco, applicando 
 
 ## Passaggio 5: definire le serie e tracciare i punti dati
 
-Ora che il nostro grafico è pronto, dobbiamo definire le serie di dati che verranno tracciate.
+Ora che il nostro grafico è pronto, dobbiamo definire le serie di dati che verranno rappresentate.
 
 ```csharp
 // Imposta le proprietà del titolo dell'asse della categoria
@@ -141,7 +143,7 @@ Queste serie corrispondono agli intervalli di punti dati che abbiamo popolato in
 
 ## Passaggio 6: aggiungere colori e personalizzare i marcatori di serie
 
-Rendiamo questo grafico ancora più accattivante aggiungendo colori personalizzati ai nostri marcatori di dati.
+Rendiamo questo grafico ancora più accattivante aggiungendo colori personalizzati ai nostri indicatori di dati.
 
 ```csharp
 // Personalizza la prima serie
@@ -169,42 +171,44 @@ chart.NSeries[s3_idx].XValues = "A22: A41";
 chart.NSeries[s3_idx].Values = "B22: B41";
 ```
 
-valori si basano sui dati che abbiamo inserito nel passaggio 2.
+I valori si basano sui dati che abbiamo inserito nel passaggio 2.
 
 ## Passaggio 8: salvare la cartella di lavoro
 
 Ora che tutto è impostato, salviamo la cartella di lavoro, così possiamo vedere il grafico in azione.
 
 ```csharp
-// Salvare la cartella di lavoro
+// Salva la cartella di lavoro
 workbook.Save(outputDir + @"LineWithDataMarkerChart.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
 
-Ed ecco fatto! Hai appena creato un grafico a linee con marcatori di dati usando Aspose.Cells per .NET.
+Ed è tutto! Hai appena creato un grafico a linee con indicatori di dati usando Aspose.Cells per .NET.
 
 ## Conclusione
 
-Creare grafici a livello di programmazione in Excel può sembrare scoraggiante, ma con Aspose.Cells per .NET è facile come seguire una ricetta passo dopo passo. Dall'impostazione della cartella di lavoro alla personalizzazione dell'aspetto del grafico, questa potente libreria gestisce tutto. Che tu stia creando report, dashboard o visualizzazioni di dati, Aspose.Cells ti consente di farlo in un attimo.
+Creare grafici a livello di codice in Excel può sembrare scoraggiante, ma con Aspose.Cells per .NET è facile come seguire una ricetta passo passo. Dalla configurazione della cartella di lavoro alla personalizzazione dell'aspetto dei grafici, questa potente libreria gestisce tutto. Che tu stia creando report, dashboard o visualizzazioni di dati, Aspose.Cells ti permette di farlo in un batter d'occhio.
 
 ## Domande frequenti
 
 ### Posso personalizzare ulteriormente il grafico?  
-Assolutamente! Aspose.Cells offre un sacco di opzioni di personalizzazione, dai font alle griglie e altro ancora.
+Assolutamente sì! Aspose.Cells offre tantissime opzioni di personalizzazione, dai font alle griglie e altro ancora.
 
 ### Ho bisogno di una licenza per utilizzare Aspose.Cells?  
- Sì, è richiesta una licenza per la piena funzionalità. Puoi ottenere una[licenza temporanea](https://purchase.aspose.com/temporary-license/) o iniziare con un[prova gratuita](https://releases.aspose.com/).
+Sì, è necessaria una licenza per la piena funzionalità. Puoi ottenere una [licenza temporanea](https://purchase.aspose.com/temporary-license/) o inizia con un [prova gratuita](https://releases.aspose.com/).
 
 ### Come posso aggiungere altre serie di dati?  
- Basta aggiungere altre serie utilizzando il`NSeries.Add` metodo, specificando gli intervalli di celle per i nuovi dati.
+Basta aggiungere serie aggiuntive utilizzando il `NSeries.Add` metodo, specificando gli intervalli di celle per i nuovi dati.
 
 ### Posso esportare il grafico come immagine?  
- Sì, puoi esportare i grafici direttamente come immagini utilizzando`Chart.ToImage` metodo.
+Sì, puoi esportare i grafici direttamente come immagini utilizzando `Chart.ToImage` metodo.
 
 ### Aspose.Cells supporta grafici 3D?  
 Sì, Aspose.Cells supporta un'ampia gamma di tipi di grafici, inclusi i grafici 3D.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

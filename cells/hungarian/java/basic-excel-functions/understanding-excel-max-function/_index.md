@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Az Excel MAX függvényének megértése
@@ -73,7 +75,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 CellArea salesRange = new CellArea();
 salesRange.StartRow = 1; // Feltételezve, hogy az adatok a 2. sortól kezdődnek
 salesRange.StartColumn = 1; // Feltételezve, hogy az adatok a második oszlopban vannak
-salesRange.EndRow = 13; // Feltételezve, hogy 12 hónapnyi adat áll rendelkezésünkre.
+salesRange.EndRow = 13; // Feltételezve, hogy 12 hónapra visszamenőleg rendelkezünk adatokkal.
 salesRange.EndColumn = 1; // Érdekel minket az értékesítési oszlop
 
 // Keresse meg a maximális eladási értéket
@@ -115,6 +117,7 @@ Az Aspose.Cells Java dokumentációját itt tekintheti meg: [itt](https://refere
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

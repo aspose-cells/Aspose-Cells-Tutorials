@@ -1,59 +1,64 @@
 ---
-title: .NET için Aspose.Cells içinde veri işaretçileri ile bir çizgi çizelgesi oluşturun
-weight: 7700
-limit: 
-description: Bir çalışma kitabı oluşturmayı ve .NET için Aspose.Cells kullanarak veri işaretçileri ile bir satır çizelgesi oluşturmayı öğrenin.
-keywords: [Aspose.Cells for .NET, create line chart, data markers, workbook, .NET Excel chart, C# chart example, Excel automation, Aspose.Cells tutorial]
-url: /tr/net/charts/create-line-with-data-marker-chart/
+"description": "Aspose.Cells for .NET kullanarak bir çalışma kitabı oluşturmayı ve veri işaretleyicileriyle bir çizgi grafiği oluşturmayı öğrenin. Kod örnekleriyle bu adım adım kılavuzu izleyin."
+"title": ".NET için Aspose.Cells'de Veri İşaretleyicileriyle Bir Çizgi Grafiği Oluşturun"
+"url": "/tr/net/charts/create-line-with-data-marker-chart/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cellsde veri işaretçileri ile bir çizgi çizelgesi oluşturun
+# Aspose.Cells'de Veri İşaretleyicileriyle Bir Çizgi Grafiği Oluşturun
 
-Bu öğretim kitabı Excel çalışma kitabında Aspose.Cells kullanılarak verilerle bir çizgi çizgi çizgi nasıl oluşturulacağını gösterir. .NET için rastgele veriler nasıl oluşturulacağını öğreneceksiniz.  
+Bu eğitim, Aspose.Cells for .NET kullanarak bir Excel çalışma kitabında veri işaretleyicileriyle bir çizgi grafiğinin nasıl oluşturulacağını gösterir. Rastgele veri üretmeyi, bir çalışma sayfasına eklemeyi ve özelleştirilebilir stillerle görsel olarak çekici bir grafik yapılandırmayı öğreneceksiniz. Kılavuz, çalışma kitabınızı kurmaktan son dosyayı kaydetmeye kadar her şeyi kapsar. Excel raporlarını otomatikleştiriyor veya veri görselleştirmesini geliştiriyor olun, bu adım adım örnek, C# kullanarak çizgi grafiklerini zahmetsizce uygulamanıza yardımcı olacaktır.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/create-line-with-data-marker-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Kurulum talimatları:  
+## Kurulum Talimatları:  
 
-Projeinizde .NET için Aspose.Cells kullanmak için, bu adımları takip edin:  
+Projenizde Aspose.Cells for .NET'i kullanmak için şu adımları izleyin:  
 
-1. NuGet üzerinden yükle:  
-   Visual Studio' da Paket Yöneticisi Konsolu açın ve çalıştırın:  
+1. NuGet üzerinden kurulum:  
+   Visual Studio'da Paket Yöneticisi Konsolunu açın ve şunu çalıştırın:  
    ```powershell
    Install-Package Aspose.Cells
    ```
 
-2. DLL indir:  
-   Alternatif olarak, .NET versiyonunda en son Aspose.Cells i indirebilirsiniz [İndirmelerini Göster](https://releases.aspose.com/cells/net/)\- Evet .
+2. DLL'yi indirin:  
+   Alternatif olarak, Aspose.Cells for .NET'in en son sürümünü şu adresten indirebilirsiniz: [Aspose İndirmeleri](https://releases.aspose.com/cells/net/).
 
-3. İpucu Ekle:  
-   Eğer DLL'i elle indirdiyseniz, `Aspose.Cells.`.NET projenize.
+3. Referans Ekle:  
+   DLL'yi manuel olarak indirdiyseniz, bir referans ekleyin `Aspose.Cells.dll` .NET projenizde.
 
-4. Ad alanı ekle:  
-   C# dosyanıza ekleyin:  
+4. Ad Alanını Dahil Et:  
+   C# dosyanıza şunu ekleyin:  
    ```csharp
    using Aspose.Cells;
    using System;
    using System.Drawing;
    ```
 
-5. Örnek çalıştır:  
-   Verilen C# kodunu projenize kopyalanıp yapıştırın, çıkış dizini güncelleyin ve bir satır çizelgesi ile Excel dosyası oluşturmak için senaryoyu çalıştırın.
+5. Örneği çalıştırın:  
+   Sağlanan C# kodunu projenize kopyalayıp yapıştırın, çıktı dizinini güncelleyin ve betiği çalıştırarak çizgi grafiği içeren bir Excel dosyası oluşturun.
 
-## Ayrıca bakın
-Ücretsiz deneme için ziyaret edin [Özgür Bir Deneme Yapın](https://releases.aspose.com/)\- Evet .  
-Lisans almak için, [Satın alma sayfasını hedef edin](https://purchase.aspose.com/buy)\- Evet .  
-Tam belgeler için ziyaret edin [.NET Belgeleme için Aspose.Cells](https://docs.aspose.com/cells/net/)\- Evet .  
-API referansını incelemek için, kontrol edin [.NET API Referansı için Aspose.Cells](https://reference.aspose.com/cells/net/)\- Evet . 
+## Ayrıca Bakınız
+Ücretsiz deneme için şu adresi ziyaret edin: [Aspose Ücretsiz Deneme](https://releases.aspose.com/).  
+Lisans satın almak için şuraya gidin: [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).  
+Tam dokümantasyon için şu adresi ziyaret edin: [Aspose.Cells for .NET Belgeleri](https://docs.aspose.com/cells/net/).  
+Tam API referansını keşfetmek için şuraya göz atın: [Aspose.Cells for .NET API Başvurusu](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

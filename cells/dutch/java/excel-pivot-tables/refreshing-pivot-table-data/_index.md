@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Draaitabelgegevens vernieuwen
@@ -90,9 +92,11 @@ Het vernieuwen van draaitabelgegevens in Aspose.Cells voor Java is een eenvoudig
    - Ja, u kunt automatische gegevensvernieuwingen plannen met Aspose.Cells en Java-planningsbibliotheken. Zo kunt u uw draaitabellen up-to-date houden zonder handmatige tussenkomst.
 
 Nu weet u hoe u draaitabelgegevens in Aspose.Cells voor Java kunt vernieuwen. Houd uw analyses nauwkeurig en blijf voorop lopen in uw datagestuurde beslissingen.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

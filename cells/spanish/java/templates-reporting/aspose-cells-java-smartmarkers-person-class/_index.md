@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Siguiendo esta guía paso a paso, aprenderá a aprovechar Aspose.Cells para auto
 
 Antes de comenzar, asegúrese de estar equipado con:
 - **Kit de desarrollo de Java (JDK)**:Asegúrese de que JDK 8 o posterior esté instalado en su sistema.
-- **IDE**Cualquier IDE de Java como IntelliJ IDEA o Eclipse funcionará.
+- **IDE**:Cualquier IDE de Java como IntelliJ IDEA o Eclipse funcionará.
 - **Maven/Gradle**:Familiaridad con Maven o Gradle para la gestión de dependencias.
 
 Con estas herramientas en su lugar, está listo para explorar las capacidades de Aspose.Cells para Java.
@@ -201,6 +203,9 @@ Ahora ya dominas cómo implementar un `Person` Clase con Aspose.Cells que usa Sm
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

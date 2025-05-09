@@ -1,14 +1,16 @@
 ---
-title: Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel
-linktitle: Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Cho phép người dùng chỉnh sửa các phạm vi cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước với mã nguồn bằng C#.
-weight: 10
-url: /vi/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/
+"description": "Cho phép người dùng chỉnh sửa các phạm vi cụ thể trong bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước với mã nguồn bằng C#."
+"linktitle": "Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel"
+"url": "/vi/net/protect-excel-file/allow-user-to-edit-ranges-in-excel-worksheet/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cho phép người dùng chỉnh sửa phạm vi trong bảng tính Excel
@@ -22,7 +24,7 @@ Khi làm việc với các bảng tính Excel, tính linh hoạt thường là c
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn có mọi thứ cần thiết để bắt đầu:
 
 1. Môi trường phát triển .NET: Bạn nên thiết lập môi trường phát triển .NET đang hoạt động (có thể là Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn).
-2.  Aspose.Cells cho Thư viện .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn dễ dàng xem qua các ví dụ mã.
 4. Hiểu những điều cơ bản về Excel: Biết cách Excel hoạt động sẽ cung cấp nền tảng cho các chức năng mà chúng ta sẽ thảo luận.
 
@@ -53,7 +55,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Đầu tiên, thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu các tập tin của mình. Mã này kiểm tra xem thư mục có tồn tại không; nếu không, nó sẽ tạo một thư mục.
+Đầu tiên, thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn mà bạn muốn lưu các tập tin của mình. Mã này kiểm tra xem thư mục có tồn tại không; nếu không, nó sẽ tạo một thư mục.
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -64,7 +66,7 @@ Sau khi đã có thư mục làm việc, đã đến lúc tạo bảng tính Exc
 Workbook book = new Workbook();
 ```
 
- Ở đây, chúng tôi đang tạo một phiên bản mới của`Workbook` lớp do Aspose.Cells cung cấp, cho phép chúng ta thao tác với tệp Excel.
+Ở đây, chúng tôi đang tạo một phiên bản mới của `Workbook` lớp do Aspose.Cells cung cấp, cho phép chúng ta thao tác với tệp Excel.
 
 ## Bước 3: Truy cập Bảng tính mặc định
 
@@ -79,14 +81,14 @@ Trong đoạn mã này, chúng ta sẽ truy cập vào trang tính đầu tiên 
 
 ## Bước 4: Nhận Cho phép chỉnh sửa phạm vi
 
- Để cho phép các phạm vi cụ thể của bảng tính để chỉnh sửa, chúng ta cần truy cập`AllowEditRanges` tài sản.
+Để cho phép các phạm vi cụ thể của bảng tính để chỉnh sửa, chúng ta cần truy cập `AllowEditRanges` tài sản.
 
 ```csharp
 // Nhận được phạm vi chỉnh sửa cho phép
 ProtectedRangeCollection allowRanges = sheet.AllowEditRanges;
 ```
 
-Bộ sưu tập này sẽ cho phép chúng ta quản lý những phạm vi có thể chỉnh sửa trong bảng tính của mình.
+Bộ sưu tập này sẽ cho phép chúng ta quản lý những phạm vi nào có thể chỉnh sửa trong bảng tính của mình.
 
 ## Bước 5: Xác định Phạm vi được Bảo vệ
 
@@ -138,7 +140,7 @@ Vậy là xong! Bạn đã tạo thành công một bảng tính Excel giới h�
 Aspose.Cells là một thư viện .NET mạnh mẽ để xử lý các tệp Excel, cung cấp các chức năng như tạo, chỉnh sửa và chuyển đổi bảng tính theo chương trình.
 
 ### Tôi có thể áp dụng nhiều phạm vi có thể chỉnh sửa không?
- Chắc chắn rồi! Bạn có thể gọi`Add` phương pháp trên`allowRanges` thu thập nhiều lần để chỉ định nhiều phạm vi có thể chỉnh sửa.
+Chắc chắn rồi! Bạn có thể gọi `Add` phương pháp trên `allowRanges` thu thập nhiều lần để chỉ định nhiều phạm vi có thể chỉnh sửa.
 
 ### Điều gì xảy ra nếu tôi quên mật khẩu?
 Thật không may, nếu bạn quên mật khẩu cho một phạm vi có thể chỉnh sửa, bạn sẽ cần phải xóa bảo vệ hoặc truy cập tệp theo cách được xác định trước có thể liên quan đến thông tin xác thực.
@@ -147,10 +149,12 @@ Thật không may, nếu bạn quên mật khẩu cho một phạm vi có thể 
 Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể sử dụng để khám phá các tính năng trước khi mua.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
- Bạn có thể kiểm tra[tài liệu](https://reference.aspose.com/cells/net/)để có hướng dẫn và tài liệu tham khảo chi tiết.
+Bạn có thể kiểm tra [tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn và tài liệu tham khảo chi tiết.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

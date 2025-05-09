@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel에서 데이터 통합
@@ -109,9 +111,11 @@ Aspose.Cells for Java는 무료 체험판을 제공하지만, 정식 버전을 �
 Java용 Aspose.Cells가 강력한 선택이기는 하지만 Apache POI와 같은 대안도 Excel 통합 기능을 제공합니다.
 
 이 종합 가이드는 Aspose.Cells for Java를 사용하여 Excel에서 데이터 통합을 완벽하게 익히는 데 도움이 될 것입니다. 더 자세히 살펴보고 필요에 맞게 단계를 조정해 보세요. 즐거운 데이터 통합 되세요!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

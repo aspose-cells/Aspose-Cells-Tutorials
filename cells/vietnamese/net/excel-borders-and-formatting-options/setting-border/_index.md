@@ -1,14 +1,16 @@
 ---
-title: Thiết lập đường viền theo chương trình trong Excel
-linktitle: Thiết lập đường viền theo chương trình trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập đường viền theo chương trình trong Excel bằng Aspose.Cells cho .NET. Tiết kiệm thời gian và tự động hóa các tác vụ Excel của bạn.
-weight: 10
-url: /vi/net/excel-borders-and-formatting-options/setting-border/
+"description": "Tìm hiểu cách thiết lập đường viền theo chương trình trong Excel bằng Aspose.Cells cho .NET. Tiết kiệm thời gian và tự động hóa các tác vụ Excel của bạn."
+"linktitle": "Thiết lập đường viền theo chương trình trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập đường viền theo chương trình trong Excel"
+"url": "/vi/net/excel-borders-and-formatting-options/setting-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập đường viền theo chương trình trong Excel
@@ -23,8 +25,8 @@ Vậy, bạn đã sẵn sàng nâng cao kỹ năng tự động hóa Excel của
 
 Trước khi bắt đầu, hãy đảm bảo bạn đáp ứng các điều kiện tiên quyết sau:
 
-1.  Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình. Nếu chưa có, hãy tải xuống từ[đây](https://visualstudio.microsoft.com/downloads/).
-2.  Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể tải xuống DLL từ[liên kết này](https://releases.aspose.com/cells/net/) hoặc bằng cách sử dụng NuGet trong dự án của bạn:
+1. Visual Studio: Bạn nên cài đặt Visual Studio trên máy của mình. Nếu chưa có, hãy tải xuống từ [đây](https://visualstudio.microsoft.com/downloads/).
+2. Aspose.Cells cho .NET: Bạn cần có thư viện Aspose.Cells. Bạn có thể tải xuống DLL từ [liên kết này](https://releases.aspose.com/cells/net/) hoặc bằng cách sử dụng NuGet trong dự án của bạn:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -54,11 +56,11 @@ Trước tiên, chúng ta cần chỉ định nơi lưu tệp Excel của mình.
 string dataDir = "Your Document Directory";
 ```
 
- Thay thế`"Your Document Directory"` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. 
+Thay thế `"Your Document Directory"` bằng đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. 
 
 ## Bước 2: Tạo một đối tượng Workbook
 
- Tiếp theo, chúng ta hãy tạo một phiên bản của`Workbook` lớp. Phần này sẽ đại diện cho bảng tính Excel của chúng ta.
+Tiếp theo, chúng ta hãy tạo một phiên bản của `Workbook` lớp. Phần này sẽ đại diện cho bảng tính Excel của chúng ta.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
@@ -133,7 +135,7 @@ Cuối cùng, hãy lưu sổ làm việc của chúng ta. Sử dụng mã sau đ
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- Điều này sẽ lưu tệp Excel của bạn dưới dạng`output.xlsx` trong thư mục được chỉ định. 
+Điều này sẽ lưu tệp Excel của bạn dưới dạng `output.xlsx` trong thư mục được chỉ định. 
 
 ## Phần kết luận
 
@@ -145,19 +147,21 @@ Và bạn đã có nó! Bạn đã thiết lập thành công các đường vi�
 Có, Aspose.Cells chủ yếu tập trung vào Excel, nhưng nó cũng cho phép bạn chuyển đổi các tệp Excel sang nhiều định dạng khác nhau như PDF và HTML.
 
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Bạn có thể sử dụng bản dùng thử miễn phí để kiểm tra các chức năng của nó. Để sử dụng lâu dài, bạn sẽ cần mua giấy phép, bạn có thể tìm thấy[đây](https://purchase.aspose.com/buy).
+Bạn có thể sử dụng bản dùng thử miễn phí để kiểm tra các chức năng của nó. Để sử dụng lâu dài, bạn sẽ cần mua giấy phép, bạn có thể tìm thấy [đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để cài đặt Aspose.Cells?  
 Bạn có thể cài đặt Aspose.Cells thông qua NuGet hoặc bằng cách tải xuống DLL từ trang web.
 
 ### Có tài liệu nào có sẵn không?  
- Chắc chắn rồi! Bạn có thể truy cập tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Chắc chắn rồi! Bạn có thể truy cập tài liệu toàn diện [đây](https://reference.aspose.com/cells/net/).
 
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?  
- Bạn có thể truy cập diễn đàn hỗ trợ Aspose để được giải đáp mọi thắc mắc hoặc vấn đề bạn gặp phải:[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể truy cập diễn đàn hỗ trợ Aspose để được giải đáp mọi thắc mắc hoặc vấn đề bạn gặp phải: [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

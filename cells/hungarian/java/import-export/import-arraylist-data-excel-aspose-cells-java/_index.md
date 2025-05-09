@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ További felfedezéshez érdemes lehet kipróbálni az Aspose.Cells fejlettebb f
 ## Erőforrás
 
 - **Dokumentáció:** Részletes útmutatók megtekintése itt: [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** Kezdő lépések [Aspose letöltések](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** Kezdő lépések [Aspose letöltések](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** Vásároljon licencet a [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** Tesztelje a funkciókat egy [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** Jelentkezzen hosszabb értékelésre a következő címen: [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
@@ -175,6 +177,9 @@ További felfedezéshez érdemes lehet kipróbálni az Aspose.Cells fejlettebb f
 Ez az útmutató segít abban, hogy hatékonyan használd az Aspose.Cells for Java-t a projektjeidben, javítva az adatkezelést és a termelékenységet. Jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

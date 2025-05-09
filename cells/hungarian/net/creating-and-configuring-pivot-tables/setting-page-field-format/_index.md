@@ -1,122 +1,126 @@
 ---
-title: Az oldalmező formátumának programozott beállítása .NET-ben
-linktitle: Az oldalmező formátumának programozott beállítása .NET-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan állíthat be programozottan oldalmezőformátumokat a kimutatásokban az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre bemutató oktatóanyagunkat a zökkenőmentes adatkezelés érdekében.
-weight: 21
-url: /hu/net/creating-and-configuring-pivot-tables/setting-page-field-format/
+"description": "Ismerje meg, hogyan állíthatja be az oldalmező-formátumokat a kimutatástáblákban programozottan az Aspose.Cells for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes adatkezeléshez."
+"linktitle": "Oldalmező formátumának programozott beállítása .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Oldalmező formátumának programozott beállítása .NET-ben"
+"url": "/hu/net/creating-and-configuring-pivot-tables/setting-page-field-format/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Az oldalmező formátumának programozott beállítása .NET-ben
+# Oldalmező formátumának programozott beállítása .NET-ben
 
 ## Bevezetés
-Az Excel-fájlok kódon keresztüli létrehozása és manipulálása igen hasznos lehet, különösen akkor, ha nagy adatkészleteket kell elemeznie. Az egyik fantasztikus eszköz az Ön arzenáljában az Aspose.Cells for .NET, amely lehetővé teszi az Excel-fájlokkal való programozott interakciót és összetett jelentési struktúrák létrehozását. Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthat be oldalmezőformátumokat egy kimutatástáblán belül ennek a hatékony könyvtárnak a használatával. Akár tapasztalt fejlesztő, akár kezdő, ennek az útmutatónak a végére alaposan átlátja, hogyan kell kezelni a kimutatástáblákat és azok különféle beállításait a .NET-ben.
+Az Excel-fájlok kódon keresztüli létrehozása és kezelése meglehetősen izgalmas lehet, különösen akkor, ha nagy adathalmazokat kell elemezni. Az egyik fantasztikus eszköz az arzenálodban az Aspose.Cells for .NET, amely lehetővé teszi az Excel-fájlok programozott kezelését és összetett jelentési struktúrák létrehozását. Ebben az oktatóanyagban részletesen bemutatjuk, hogyan állíthatsz be oldalmező-formátumokat egy kimutatástáblázatban ennek a hatékony könyvtárnak a segítségével. Akár tapasztalt fejlesztő vagy, akár kezdő, az útmutató végére alaposan elsajátítod majd a kimutatástáblázatok és azok különböző beállításainak kezelését a .NET-ben.
 ## Előfeltételek
-Mielőtt belemerülnénk a kódolásba, győződjünk meg arról, hogy minden megfelelően van beállítva. A következőkre lesz szüksége:
-- Visual Studio: Olyan munkakörnyezet, ahol megírhatja és végrehajthatja .NET kódját.
--  Aspose.Cells: Letöltheti a könyvtárat[itt](https://releases.aspose.com/cells/net/).
-- Alapvető C# ismerete: A C# programozás ismerete segít jobban megérteni a kódrészleteket.
--  Excel-fájl: Készítsen Excel-fájlt (pl`Book1.xls`) tartalmazza a kimutatás létrehozására alkalmas adatokat. 
- Ha még nem tette meg, szerezze be az Aspose.Cells ingyenes próbaverzióját[itt](https://releases.aspose.com/).
+Mielőtt belevágnánk a kódolásba, győződjünk meg róla, hogy mindent helyesen beállítottunk. A következőkre lesz szükséged:
+- Visual Studio: Egy munkakörnyezet, ahol .NET kódot írhatsz és futtathatsz.
+- Aspose.Cells: Letöltheted a könyvtárat [itt](https://releases.aspose.com/cells/net/).
+- C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódrészleteket.
+- Excel fájl: Készítsen elő egy Excel fájlt (pl. `Book1.xls`), amely PivotTable létrehozásához alkalmas adatokat tartalmaz. 
+Ha még nem tetted meg, töltsd le az Aspose.Cells ingyenes próbaverzióját [itt](https://releases.aspose.com/).
 ## Csomagok importálása
-A dolgok elindításához importálnia kell a megfelelő csomagokat a projektbe. Kezdje azzal, hogy a C# projektben adjon hozzá hivatkozásokat az Aspose.Cells könyvtárhoz. Íme, hogyan kell csinálni:
+A kezdéshez importálnod kell a megfelelő csomagokat a projektedbe. Először adj hozzá hivatkozásokat az Aspose.Cells könyvtárhoz a C# projektedben. Így csináld:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 using System.Drawing;
 using Aspose.Cells.Pivot;
 ```
-Ez az összes szükséges osztályt és módszert be fogja vonni az Excel-fájlok Aspose.Cells használatával történő kezeléséhez.
-## 1. lépés: Állítsa be a munkaterületet
-Kezdje azzal, hogy meghatározza a munkakönyvtárát, ahol az Excel-fájlokat tárolni fogja. Például deklarálhat egy változót így:
+Ez beolvassa az összes szükséges osztályt és metódust, amelyek az Excel fájlok Aspose.Cells használatával történő kezeléséhez szükségesek.
+## 1. lépés: A munkaterület beállítása
+Kezd azzal, hogy meghatározod azt a munkakönyvtárat, ahol az Excel-fájljaid tárolva lesznek. Például deklarálhatsz egy változót, mint ez:
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 ## A munkafüzet betöltése
-Ezután be kell töltenünk az Excel sablonunkat. Ez elengedhetetlen lépés, mert ez határozza meg működésünk kontextusát:
+Következő lépésként be kell töltenünk az Excel-sablonunkat. Ez egy lényeges lépés, mert ez határozza meg a műveleteink kontextusát:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
 Ez a sor betölti a meglévő munkafüzetet a megadott könyvtárból.
-## 2. lépés: Nyissa meg a munkalapot
-A munkafüzet betöltése után ideje elérni a kimutatást vagy az elemezni kívánt adatokat tartalmazó munkalapot. Ezt a következőképpen teheti meg:
+## 2. lépés: A munkalap elérése
+Miután a munkafüzet betöltődött, itt az ideje, hogy elérje azt a munkalapot, amely a kimutatást vagy az elemezni kívánt adatokat tartalmazza. Ezt a következőképpen teheti meg:
 ```csharp
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-Ez megragadja a betöltött munkafüzet első munkalapját. Könnyen módosíthatja az indexet, ha több lappal dolgozik.
-## 3. lépés: A kimutatás elérése
- Folytatva, érjük el a kiválasztott munkalapunkon található PivotTable-t. Ha egyetlen kimutatástáblát használ, beállíthatja az indexét`0`:
+Ez a betöltött munkafüzet első munkalapját fogja be. Az indexet könnyen módosíthatja, ha több munkalappal dolgozik.
+## 3. lépés: A kimutatástábla elérése
+Folytassuk a kiválasztott munkalapon található kimutatástáblázat elérését. Ha egyetlen kimutatástáblázatot használ, akkor az indexét a következőre állíthatja be: `0`:
 ```csharp
 int pivotindex = 0;
 // A PivotTable elérése
 PivotTable pivotTable = worksheet.PivotTables[pivotindex];
 ```
-Ez a kódrészlet kiválasztja az első kimutatást a munkalapon. 
+Ez a kódrészlet kijelöli az első kimutatástáblát a munkalapon. 
 ## 4. lépés: A kimutatás konfigurálása
-Most jön az izgalmas rész! Állítsuk be a kimutatást úgy, hogy a sorok végösszegeit mutassa:
+Most jön az izgalmas rész! Állítsuk be a PivotTable-t úgy, hogy a sorok végösszegeit jelenítse meg:
 ```csharp
 pivotTable.RowGrand = true;
 ```
-Ez a sor biztosítja, hogy a jelentés végösszegeket jelenítsen meg, amelyek hasznos összegzést jelenthetnek az adatok elemzéséhez.
-## 5. lépés: A sormezők elérése és konfigurálása
-Ezután el kell érnünk a kimutatás sormezőit:
+Ez a sor biztosítja, hogy a jelentésben végösszegek jelenjenek meg, amelyek hasznos összefoglalást nyújthatnak az adatelemzés során.
+## 5. lépés: Sormezők elérése és konfigurálása
+Ezután hozzá kell férnünk a PivotTable sormezőihez:
 ```csharp
 Aspose.Cells.Pivot.PivotFieldCollection pivotFields = pivotTable.RowFields;
 ```
-Ez a gyűjtemény lehetővé teszi a mezők szükség szerinti kezelését.
-## Konfigurálja az Első sor mezőt
-Konkrét részösszeg-típusokat szeretne beállítani? Lépjünk be gyűjteményünk első mezőjébe, és állítsuk be:
+Ez a gyűjtemény lehetővé teszi számunkra, hogy szükség szerint manipuláljuk a mezőket.
+## Az első sor mező konfigurálása
+Szeretnénk beállítani bizonyos részösszeg-típusokat? Lépjünk be a gyűjteményünk első mezőjébe, és konfiguráljuk:
 ```csharp
 Aspose.Cells.Pivot.PivotField pivotField = pivotFields[0];
 // Részösszegek beállítása.
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Sum, true);
 pivotField.SetSubtotals(Aspose.Cells.Pivot.PivotFieldSubtotalType.Count, true);
 ```
- Engedélyezésével`Sum` és`Count` részösszegeket, gyorsan összefoglalhatjuk az adatokat jelentésünkben.
+Azáltal, hogy engedélyezi `Sum` és `Count` részösszegek segítségével gyorsan összefoglalhatjuk az adatokat a jelentésünkben.
 ## 6. lépés: Az automatikus rendezési beállítások megadása
-Ezután vessünk játékba egy okos válogatást. Így a kimutatás értelmes sorrendbe rendezi az adatokat:
+Következő lépésként alkalmazzunk egy intelligens rendezést. Így a kimutatástáblázat értelmes sorrendbe rendezi az adatokat:
 ```csharp
 // Automatikus rendezési beállítások megadása.
 pivotField.IsAutoSort = true;
 pivotField.IsAscendSort = true;
-pivotField.AutoSortField = -5; // Egy előre meghatározott rendezési mező használata.
+pivotField.AutoSortField = -5; // Előre definiált rendezési mező használata.
 ```
-Ez a kódrészlet lehetővé teszi az automatikus rendezést, és növekvő sorrendet határoz meg. 
-## 7. lépés: Az automatikus megjelenítési beállítások megadása
-Szeretné tovább szűrni adatait? Az AutoShow opció hasznos bizonyos adatpontok meghatározott feltételek melletti megjelenítéséhez:
+Ez a kódrészlet lehetővé teszi az automatikus rendezést, és növekvő sorrendet ad meg. 
+## 7. lépés: Az automatikus megjelenítés beállításainak megadása
+Szeretné tovább szűrni az adatait? Az AutoShow opció hasznos bizonyos adatpontok megjelenítéséhez meghatározott feltételek mellett:
 ```csharp
-// AutoShow opciók beállítása.
+// Az automatikus megjelenítés beállításainak megadása.
 pivotField.IsAutoShow = true;
 pivotField.IsAscendShow = false;
 pivotField.AutoShowField = 0; // Adja meg az automatikusan megjelenítendő mezőt.
 ```
-Ez biztosítja, hogy a kimutatás csak releváns adatokat jelenítsen meg, javítva az áttekinthetőséget és a fókuszt.
-## 8. lépés: Mentse el munkáját
-Ennyi konfiguráció után nem szeretné elveszíteni a munkáját! Mentse el a módosított munkafüzetet így:
+Ez biztosítja, hogy a kimutatástáblázat csak a releváns adatokat jelenítse meg, ami javítja az áttekinthetőséget és a fókuszt.
+## 8. lépés: A munka mentése
+Mindezen beállítások után biztosan nem akarod elveszíteni a munkádat! Mentsd el a módosított munkafüzetet így:
 ```csharp
 workbook.Save(dataDir + "output.xls");
 ```
-Most már megtalálhatja az újonnan létrehozott Excel fájlt a dokumentumok könyvtárában.
+Most megtalálhatja az újonnan létrehozott Excel fájlt a dokumentumok könyvtárában.
 ## Következtetés
-És megvan! Átfogó és gyakorlatias megközelítést mutattunk be az oldalmezőformátumok programozott beállításához egy kimutatásban az Aspose.Cells for .NET használatával. A megadott egyszerű lépésekkel magabiztosan módosíthatja Excel-adatait jelentéskészítési igényeinek megfelelően. Hihetetlen, hogy mit érhet el, ha egyesíti a C# erejét az Aspose.Cells-szel.
+És íme! Áttekintettünk egy átfogó és praktikus megközelítést az oldalmező-formátumok programozott beállításához egy kimutatástáblában az Aspose.Cells for .NET használatával. A megadott egyszerű lépésekkel magabiztosan módosíthatja Excel-adatait a jelentéskészítési igényeinek megfelelően. Hihetetlen, hogy mit érhet el, ha a C# erejét ötvözi az Aspose.Cells-szel.
 ## GYIK
 ### Mi az Aspose.Cells?
-Az Aspose.Cells egy .NET-könyvtár, amely lehetővé teszi a fejlesztők számára Excel-fájlok programozott létrehozását, kezelését és konvertálását.
-### Hogyan telepíthetem az Aspose.Cells-t?
- Letöltheti közvetlenül a[Aspose honlapja](https://releases.aspose.com/cells/net/).
-### Használhatom az Aspose.Cells-t Excel telepítése nélkül?
-Igen, az Aspose.Cells egy önálló könyvtár, amelyhez nem szükséges a Microsoft Excel telepítése.
+Az Aspose.Cells egy .NET könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, manipuláljanak és konvertáljanak Excel fájlokat.
+### Hogyan telepítsem az Aspose.Cells-t?
+Közvetlenül letöltheted innen: [Aspose weboldal](https://releases.aspose.com/cells/net/).
+### Használhatom az Aspose.Cells-t Excel telepítés nélkül?
+Igen, az Aspose.Cells egy önálló függvénykönyvtár, amelyhez nem szükséges telepíteni a Microsoft Excelt.
 ### Hol találok részletes támogatást?
- Részletes támogatást és fórumot a címen érhet el[Aspose támogatás](https://forum.aspose.com/c/cells/9).
-### Hogyan szerezhetek ideiglenes engedélyt?
- Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
+Részletes támogatást és fórumokat a következő címen érhet el: [Aspose támogatás](https://forum.aspose.com/c/cells/9).
+### Hogyan szerezhetek ideiglenes jogosítványt?
+Ideiglenes jogosítványt szerezhet be [itt](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

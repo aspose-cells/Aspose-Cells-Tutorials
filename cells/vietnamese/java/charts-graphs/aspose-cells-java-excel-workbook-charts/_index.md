@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -230,11 +232,14 @@ Những trường hợp sử dụng này chứng minh tính linh hoạt của As
 - **Hoạt động hàng loạt**: Thực hiện các thao tác trên nhiều lô dữ liệu thay vì từng thao tác một để nâng cao hiệu quả.
 
 **Đề xuất từ khóa:**
-- "Aspose.Cells cho Java"
+- "Aspose.Cells dành cho Java"
 - "Tạo sổ làm việc Excel"
 - "Tích hợp biểu đồ trong Java"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Excel dosyalarını programatik olarak yönetmek, elektronik tablo işlemlerinin
 - Java'da yeni bir Excel Çalışma Kitabı nasıl başlatılır
 - Hücrelerin içine çalışma sayfaları ve resimler ekleme teknikleri
 - E-tablonuzdaki hassas resim konumlandırmasını ayarlama
-- Çalışmanızı diske Excel dosyası olarak kaydetme
+- Çalışmanızı Excel dosyası olarak diske kaydetme
 
 Bu görevleri yerine getirirken Aspose.Cells ile ilgili uygulamalı deneyim kazanacak ve karmaşık Excel işlemlerini sorunsuz bir şekilde gerçekleştirebilecek donanıma sahip olacaksınız.
 
@@ -104,7 +106,7 @@ Veri organizasyonu için birden fazla sayfaya ihtiyaç duyduğunuzda çalışma 
 Bu özellik, bir çalışma sayfası eklemeyi ve çalışma kitabınız içerisinde referansını almayı göstermektedir.
 
 #### Adım Adım Uygulama:
-##### Yeni Bir Çalışma Kitabı Örneği Başlat
+##### Yeni Bir Çalışma Kitabı Örneğini Başlat
 
 ```java
 import com.aspose.cells.Workbook;
@@ -225,6 +227,9 @@ Bu kılavuzu takip ederek, Java'da Aspose.Cells kullanarak Excel dosya düzenlem
 Aspose.Cells'in yeteneklerini keşfetmeye devam etmek için grafik oluşturma, veri doğrulama ve daha fazlası gibi gelişmiş özellikleri incelemeyi düşünün.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,60 +1,65 @@
 ---
-title: 在 Excel 中使用 .NET 的 Aspose.Cells 来重定位图表
-weight: 7700
-limit: 
-description: 学习如何在Excel工作簿中更大尺寸和重新定位图表,使用 .NET的Aspose.Cells. 步骤指南,包含代码示例和安装说明.
-keywords: [Aspose.Cells for .NET, resize chart in Excel, reposition chart, Excel chart manipulation, .NET Excel library, C# Excel chart, modify Excel charts ]
-url: /zh/net/charts/change-chart-size-and-position/
+"description": "学习如何使用 Aspose.Cells for .NET 在 Excel 工作簿中调整图表的大小和位置。包含代码示例和安装说明的分步指南。"
+"title": "使用 Aspose.Cells for .NET 在 Excel 中调整图表大小和位置"
+"url": "/zh/net/charts/change-chart-size-and-position/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在Excel中使用Aspose.Cells来重定位图表 
-对于 .NET 应用程序,Aspose.Cells提供了一个强大的API,可程序化处理Excel文件.本例展示了如何在Excel工作簿中将图表进行更大尺寸和重新定位.无论您需要调整图表尺寸还是将其移动到特定位置,本教程将使用易于跟踪的C#代码来引导您完成该过程.通过利用Aspose.Cells,您可以无地操纵Excel图表,确保您的报告和视觉数据呈现格式精确.  
+# 使用 Aspose.Cells 在 Excel 中调整图表大小和位置 
+Aspose.Cells for .NET 提供了强大的 API，可用于以编程方式处理 Excel 文件。本示例演示如何使用 Aspose.Cells 调整 Excel 工作簿中图表的大小和位置。无论您是需要调整图表尺寸还是将其移动到特定位置，本教程都将通过简单易懂的 C# 代码引导您完成整个过程。利用 Aspose.Cells，您可以无缝地操作 Excel 图表，确保您的报表和可视化数据呈现格式准确。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/charts/change-chart-size-and-position" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 装备说明:  
 
-为了使用 .NET 的Aspose.Cells,请按照以下步骤进行:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## 安装说明：  
+
+要使用 Aspose.Cells for .NET，请按照以下步骤操作：  
 
 1. 通过 NuGet 包管理器安装  
-* 开放视觉工作室.  
-* 导航到工具 → NuGet 包管理器 → 解决方案管理 NuGet 包.  
-* 搜索Aspose.Cells的内容.  
-* 单击安装,将包添加到您的项目中.  
+- 打开 Visual Studio。  
+- 导航到工具 → NuGet 包管理器 → 管理解决方案的 NuGet 包。  
+- 搜索 Aspose.Cells。  
+- 单击“安装”将包添加到您的项目中。  
 
-另一个选择是使用 NuGet 包管理器控制台安装:  
+或者，使用 NuGet 包管理器控制台安装它：  
 
 ```powershell
 Install-Package Aspose.Cells
 ```
 
-2. 在C#代码中添加名字空间  
+2. 在 C# 代码中添加命名空间  
 ```csharp
 using Aspose.Cells;
 ```
 
-3. 激活许可证 (可选,用于全功能)  
-如果您有许可证,请使用以下代码申请:  
+3. 激活许可证（可选，用于完整功能）  
+如果您有许可证，请使用以下代码申请：  
 
 ```csharp
 License license = new License();
 license.SetLicense("Aspose.Cells.lic");
 ```
 
-## 查看
-免费试用,请访问[设法免费试验](https://releases.aspose.com/)现在,我们要去.  
-购买许可证,请访问[设定购买页面](https://purchase.aspose.com/buy)现在,我们要去.  
-查看完整的文件[对于 .NET 文档的Aspose.Cells](https://docs.aspose.com/cells/net/)现在,我们要去.  
-查看全文的API参考[对于 .NET API 参考的Aspose.Cells](https://reference.aspose.com/cells/net/)现在,我们要去. 
+## 另请参阅
+如需免费试用，请访问 [Aspose 免费试用](https://releases。aspose.com/).  
+要购买许可证，请访问 [Aspose 购买页面](https://purchase。aspose.com/buy).  
+如需完整文档，请访问 [Aspose.Cells for .NET文档](https://docs。aspose.com/cells/net/).  
+要探索完整的 API 参考，请查看 [Aspose.Cells for .NET API参考](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

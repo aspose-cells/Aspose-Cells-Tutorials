@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ wb.save(outDir + "outputUsingFormulaParameterInSmartMarkerField.xlsx");
 - **النسخة التجريبية المجانية والترخيص المؤقت:** ابدأ بفترة تجريبية مجانية أو احصل على ترخيص مؤقت من [نسخة تجريبية مجانية من Aspose](https://releases.aspose.com/cells/java/) و [رخصة مؤقتة](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/basic-excel-functions/min-function-in-excel-explained/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # MIN Function in Excel Explained
@@ -125,6 +127,7 @@ To handle errors when using the MIN function in Excel, you can use the IFERROR f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

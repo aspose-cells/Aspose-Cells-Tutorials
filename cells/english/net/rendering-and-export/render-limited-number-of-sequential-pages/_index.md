@@ -8,7 +8,9 @@ url: /net/rendering-and-export/render-limited-number-of-sequential-pages/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Sequential Pages in Aspose.Cells
@@ -107,6 +109,7 @@ You can use the `PrintArea` property in `PageSetup` to define specific areas on 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ tWorkbook workbook = new Workbook();
 
 ### Доступ к рабочим листам
 
-**Обзор:** Доступ к рабочим листам для управления данными в них. Первый рабочий лист обычно является местом, где вносятся первоначальные изменения.
+**Обзор:** Доступ к рабочим листам для управления данными в них. Первый рабочий лист обычно является местом, где вносятся начальные изменения.
 
 ```java
 import com.aspose.cells.Worksheet;
@@ -211,6 +213,9 @@ workbook.save(dataDir);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

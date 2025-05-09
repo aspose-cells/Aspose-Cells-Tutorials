@@ -1,21 +1,23 @@
 ---
-title: Xác định xem kích thước giấy của bảng tính có tự động không
-linktitle: Xác định xem kích thước giấy của bảng tính có tự động không
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách xác định kích thước trang giấy của bảng tính có tự động hay không bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng.
-weight: 20
-url: /vi/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
+"description": "Tìm hiểu cách xác định kích thước trang giấy của bảng tính có tự động hay không bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng."
+"linktitle": "Xác định xem kích thước giấy của bảng tính có tự động không"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Xác định xem kích thước giấy của bảng tính có tự động không"
+"url": "/vi/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xác định xem kích thước giấy của bảng tính có tự động không
 
 ## Giới thiệu
 
-Nếu bạn đang dấn thân vào thế giới thao tác bảng tính bằng Aspose.Cells for .NET, bạn đã có một lựa chọn tuyệt vời. Khả năng tùy chỉnh và quản lý các tệp Excel theo chương trình có thể đơn giản hóa nhiều tác vụ, giúp công việc của bạn hiệu quả hơn. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tác vụ cụ thể: xác định xem cài đặt kích thước giấy của bảng tính có tự động hay không. Vì vậy, hãy đội mũ lập trình của bạn và bắt đầu thôi!
+Nếu bạn đang dấn thân vào thế giới thao tác bảng tính bằng Aspose.Cells for .NET, bạn đã có một lựa chọn tuyệt vời. Khả năng tùy chỉnh và quản lý các tệp Excel theo chương trình có thể đơn giản hóa nhiều tác vụ, giúp công việc của bạn hiệu quả hơn. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một tác vụ cụ thể: xác định xem cài đặt kích thước giấy của bảng tính có tự động hay không. Vì vậy, hãy đội mũ lập trình và bắt đầu thôi!
 
 ## Điều kiện tiên quyết
 
@@ -25,13 +27,13 @@ Trước khi tìm hiểu về mã, hãy đảm bảo rằng bạn có mọi th�
 Trong khi Aspose.Cells đơn giản hóa nhiều tác vụ, thì hiểu biết cơ bản về C# là rất quan trọng. Bạn nên thoải mái đọc và viết mã C# cơ bản.
 
 ### Aspose.Cells cho .NET
-Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ[trang web](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
+Đảm bảo bạn đã cài đặt Aspose.Cells trong dự án của mình. Bạn có thể tải xuống từ [trang web](https://releases.aspose.com/cells/net/) nếu bạn chưa làm như vậy.
 
 ### Môi trường phát triển
 Bạn nên thiết lập một IDE như Visual Studio. Điều này hướng dẫn bạn xử lý và kiểm tra mã của mình một cách hiệu quả.
 
 ### Các tệp Excel mẫu
-Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và`samplePageSetupIsAutomaticPaperSize-True.xlsx`) cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
+Bạn sẽ cần các tập tin mẫu (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Và `samplePageSetupIsAutomaticPaperSize-True.xlsx`) cho mục đích thử nghiệm. Đảm bảo các tệp này nằm trong thư mục nguồn của bạn.
 
 ## Nhập gói
 
@@ -56,7 +58,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Thay thế`YOUR_SOURCE_DIRECTORY` Và`YOUR_OUTPUT_DIRECTORY`với đường dẫn thực tế trên hệ thống của bạn nơi các tập tin sẽ được lưu trữ.
+Thay thế `YOUR_SOURCE_DIRECTORY` Và `YOUR_OUTPUT_DIRECTORY` với đường dẫn thực tế trên hệ thống của bạn nơi các tập tin sẽ được lưu trữ.
 
 ## Bước 2: Tải sổ làm việc Excel
 
@@ -80,14 +82,14 @@ Mã này lấy bảng tính đầu tiên (chỉ mục 0) từ cả hai bảng t�
 
 ## Bước 4: Kiểm tra cài đặt kích thước giấy
 
- Bây giờ đến phần thú vị! Bạn sẽ muốn kiểm tra xem cài đặt kích thước giấy có tự động cho từng trang tính không. Điều này được thực hiện bằng cách kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp. Sử dụng đoạn mã sau:
+Bây giờ đến phần thú vị! Bạn sẽ muốn kiểm tra xem cài đặt kích thước giấy có tự động cho từng trang tính không. Điều này được thực hiện bằng cách kiểm tra `IsAutomaticPaperSize` tài sản của `PageSetup` lớp. Sử dụng đoạn mã sau:
 
 ```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
 ```
 
- Ở đây, chúng tôi đang in kết quả ra bảng điều khiển. Bạn sẽ thấy`True` hoặc`False`, tùy thuộc vào cài đặt của từng bảng tính.
+Ở đây, chúng tôi đang in kết quả ra bảng điều khiển. Bạn sẽ thấy `True` hoặc `False`, tùy thuộc vào cài đặt của từng bảng tính.
 
 ## Bước 5: Kết thúc
 
@@ -110,16 +112,18 @@ Aspose.Cells là thư viện .NET được thiết kế để quản lý các t�
 Có! Aspose.Cells hỗ trợ phát triển đa nền tảng, do đó bạn có thể làm việc trong nhiều môi trường khác nhau có hỗ trợ .NET.
 
 ### Tôi có cần giấy phép sử dụng Aspose.Cells không?
-Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Có thể tìm thấy thêm thông tin chi tiết[đây](https://purchase.aspose.com/buy).
+Mặc dù bạn có thể bắt đầu bằng bản dùng thử miễn phí, nhưng việc sử dụng liên tục đòi hỏi phải mua giấy phép. Bạn có thể tìm thấy thêm thông tin chi tiết [đây](https://purchase.aspose.com/buy).
 
 ### Làm thế nào để kiểm tra xem kích thước trang của bảng tính có tự động trong C# không?
- Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra`IsAutomaticPaperSize` tài sản của`PageSetup` lớp học.
+Như đã trình bày trong hướng dẫn, bạn có thể kiểm tra `IsAutomaticPaperSize` tài sản của `PageSetup` lớp học.
 
 ### Tôi có thể tìm thêm thông tin về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu và hướng dẫn toàn diện [đây](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

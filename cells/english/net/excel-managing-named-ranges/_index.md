@@ -8,7 +8,9 @@ url: /net/excel-managing-named-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Named Ranges in Excel
@@ -30,9 +32,11 @@ There are occasions when named ranges become obsolete or simply clutter up your 
 Learn how to copy named ranges in Excel using Aspose.Cells for .NET with our detailed step-by-step guide. Perfect for beginners.
 ### [Remove Named Range in Excel](./remove-named-range/)
 Learn how to remove named ranges in Excel using Aspose.Cells for .NET with detailed step-by-step instructions.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

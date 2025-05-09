@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # COUNTIF-funktionen i Excel
@@ -74,7 +76,7 @@ Nu kommer den spännande delen – att implementera COUNTIF-funktionen med hjäl
 1. Skapa en formel: Använd `setFormula` metod för att skapa en ANTAL.OM-formel i en cell.
 
 ```java
-// Skapa en ANTALOM-formel
+// Skapa en ANTALOMF-formel
 worksheet.getCells().get("B1").setFormula("=COUNTIF(A1:A5, \"Apples\")");
 ```
 
@@ -155,6 +157,7 @@ Du hittar avancerade handledningar och dokumentation för Aspose.Cells för Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

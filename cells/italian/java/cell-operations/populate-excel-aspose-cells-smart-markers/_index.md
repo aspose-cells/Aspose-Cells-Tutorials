@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ Questa configurazione garantisce che tu sia pronto a implementare le funzionalit
 
 ### Funzionalità 1: connettersi a un database
 
-La connessione a un database è fondamentale per recuperare i dati che andranno a popolare i fogli Excel. In questo caso, utilizziamo il driver JDBC di UCanAccess per stabilire una connessione a un database di Microsoft Access:
+La connessione a un database è fondamentale per recuperare i dati che andranno a popolare i fogli Excel. Qui utilizziamo il driver JDBC di UCanAccess per stabilire una connessione a un database di Microsoft Access:
 
 ```java
 import java.sql.Connection;
@@ -184,7 +186,7 @@ Ora hai imparato come connettere un'applicazione Java a un database di Access, c
    - Sì, ma la versione di prova presenta delle limitazioni. Ottieni una licenza temporanea o permanente per usufruire di tutte le funzionalità.
 
 3. **Come gestisco gli errori durante la connessione al database?**
-   - Utilizza blocchi try-catch per la connessione al database e per il codice di esecuzione delle query.
+   - Utilizza blocchi try-catch per la connessione al database e il codice di esecuzione delle query.
 
 4. **È possibile popolare più fogli Excel con set di dati diversi?**
    - Assolutamente sì, impostando ulteriori marcatori intelligenti e configurando più origini dati in WorkbookDesigner.
@@ -202,6 +204,9 @@ Ora hai imparato come connettere un'applicazione Java a un database di Access, c
 Questa guida completa ti fornisce le conoscenze necessarie per sfruttare al meglio Aspose.Cells per Java, semplificando le tue attività di gestione dei dati attraverso l'automazione. Buon lavoro di programmazione!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

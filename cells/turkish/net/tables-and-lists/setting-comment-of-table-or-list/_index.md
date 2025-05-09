@@ -1,14 +1,16 @@
 ---
-title: Excel'de Tablo veya Listenin Yorumunu Ayarlama
-linktitle: Excel'de Tablo veya Listenin Yorumunu Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Kolay adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de tablolara yorum eklemeyi öğrenin.
-weight: 16
-url: /tr/net/tables-and-lists/setting-comment-of-table-or-list/
+"description": "Kolay adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel'de tablolara yorum eklemeyi öğrenin."
+"linktitle": "Excel'de Tablo veya Listenin Yorumunu Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Tablo veya Listenin Yorumunu Ayarlama"
+"url": "/tr/net/tables-and-lists/setting-comment-of-table-or-list/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Tablo veya Listenin Yorumunu Ayarlama
@@ -16,15 +18,15 @@ url: /tr/net/tables-and-lists/setting-comment-of-table-or-list/
 ## giriiş
 Excel, veri yönetimi ve sunumu için oldukça güçlü bir araçtır. Ancak bazen veri tablolarınıza bağlam eklemeniz gerekir - işte yorumlar burada devreye girer! Bugün, .NET için Aspose.Cells kullanarak Excel'de tablolar veya liste nesneleri için yorumların nasıl ayarlanacağını derinlemesine inceliyoruz. İşbirlikçiler için verilerinizi netleştirmek veya kendiniz için notlar bırakmak istiyorsanız, bu kılavuz süreci zahmetsizce yönetmenize yardımcı olacaktır.
 ## Ön koşullar
-Sulu detaylara dalmadan önce, ördeklerimizi sıraya koyalım. İşte ihtiyacınız olanlar:
+Sulu detaylara dalmadan önce, ördeklerimizi sıraya koyalım. İhtiyacınız olanlar şunlar:
 ### C# ve .NET'in Temel Anlayışı
-C# ve .NET uygulamalarının nasıl çalıştığı konusunda temel bir kavrayışa sahip olmalısınız. Zaten .NET üzerinden kodlama yapıyorsanız, kendinizi evinizde hissedeceksiniz.
+C# ve .NET uygulamalarının nasıl çalıştığı konusunda temel bir kavrayışa sahip olmalısınız. Zaten .NET'te kodlama yapıyorsanız, kendinizi evinizde hissedeceksiniz.
 ### Aspose.Cells Kütüphanesi
- Aspose.Cells kütüphanesine ihtiyacınız olacak. Eğer henüz yoksa, endişelenmeyin! Bunu kolayca şu adresten indirebilirsiniz:[sürüm sayfası](https://releases.aspose.com/cells/net/).
+Aspose.Cells kütüphanesine ihtiyacınız olacak. Eğer henüz yoksa, endişelenmeyin! Bunu kolayca şu adresten indirebilirsiniz: [sürüm sayfası](https://releases.aspose.com/cells/net/).
 ### Visual Studio veya Eşdeğer IDE
 Kodunuzu yazmak için kullanıcı dostu bir yer isteyeceksiniz. Visual Studio, .NET geliştiricileri için popüler bir seçimdir.
 ### Örnek Bir Excel Dosyası
- Çalışmak için bir örnek Excel dosyasına ihtiyacınız olacak. Herhangi birini alın`.xlsx` Sahip olduğunuz dosyayı veya Excel'de hızlıca bir tane oluşturun.
+Çalışmak için bir örnek Excel dosyasına ihtiyacınız olacak. Herhangi birini alın `.xlsx` Sahip olduğunuz dosyayı veya Excel'de hızlıca bir tane oluşturun.
 Kurulumunuz tamamlandıktan sonra paketleri içe aktarmaya ve kodlamaya başlayabiliriz!
 ## Paketleri İçe Aktar
 Ciddi bir kodlama yapmadan önce, gerekli paketleri içe aktaralım. İşte C#'ta nasıl yapılacağı:
@@ -46,7 +48,7 @@ Bu adımda, Excel dosyanızın bulunduğu klasörü işaret eden bir dize deği�
 ```csharp
 Workbook workbook = new Workbook(dataDir + "source.xlsx");
 ```
- Burada, bir örnek oluşturuyorsunuz`Workbook` sınıf. Bu, Excel dosyanızın içeriklerini düzenlemenize olanak tanır. Dosya adının sahip olduğunuzla eşleştiğinden emin olun!
+Burada, bir örnek oluşturuyorsunuz `Workbook` sınıf. Bu, Excel dosyanızın içeriklerini düzenlemenize olanak tanır. Dosya adının sahip olduğunuzla eşleştiğinden emin olun!
 ## Adım 3: İlk Çalışma Sayfasına Erişim
 Listemizdeki bir sonraki adım, masamızın bulunduğu çalışma kağıdını almamız gerekiyor.
 ```csharp
@@ -77,17 +79,19 @@ Ve işte bu kadar! Aspose.Cells for .NET kullanarak Excel'deki bir tabloya veya 
 ### Aspose.Cells for .NET nedir?  
 Aspose.Cells for .NET, .NET uygulamalarından Excel dosyaları oluşturmak, düzenlemek ve dönüştürmek için güçlü bir kütüphanedir.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet, Aspose indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Evet, Aspose indirebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 ### Aspose.Cells için lisans satın almam gerekiyor mu?  
- Aspose.Cells'i deneme sınırlamalarının ötesinde kullanmak istiyorsanız, bir lisans satın almanız gerekecektir. Fiyatlandırma seçeneklerine göz atın[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells'i deneme sınırlamalarının ötesinde kullanmak istiyorsanız, bir lisans satın almanız gerekecektir. Fiyatlandırma seçeneklerine göz atın [Burada](https://purchase.aspose.com/buy).
 ### Aspose.Cells desteği almanın bir yolu var mı?  
-Kesinlikle! Destek forumunda yardım arayabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Kesinlikle! Destek forumunda yardım arayabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells özellikleri hakkında daha fazla ayrıntıyı nerede bulabilirim?  
- Kapsamlı belgeler için şuraya gidin:[Aspose.Cells dokümantasyon sayfası](https://reference.aspose.com/cells/net/).
+Kapsamlı belgeler için şuraya gidin: [Aspose.Cells dokümantasyon sayfası](https://reference.aspose.com/cells/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

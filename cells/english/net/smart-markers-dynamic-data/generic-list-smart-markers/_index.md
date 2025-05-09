@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/generic-list-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Generic List in Smart Markers Aspose.Cells
@@ -173,6 +175,7 @@ Absolutely! Aspose.Cells is optimized for performance, making it capable of hand
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

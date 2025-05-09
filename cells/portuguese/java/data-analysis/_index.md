@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de análise de dados mostram como implementar os poderosos recursos analíticos do Excel usando o Aspose.Cells em Java. Estes guias abrangentes abordam a criação de Tabelas Dinâmicas, a aplicação de filtros avançados, a implementação de operações de classificação e agrupamento e a utilização programática das ferramentas de análise integradas do Excel. Cada tutorial inclui exemplos práticos de código Java para tarefas analíticas comuns, ajudando você a criar aplicativos que podem transformar dados brutos de planilhas em insights significativos por meio de técnicas analíticas compatíveis com o Excel.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de análise de dados
 - Implementação passo a passo com exemplos de código completos
@@ -46,7 +48,7 @@ Aprenda a agrupar campos dinâmicos com eficiência no Excel usando o Aspose.Cel
 Aprenda a usar o Aspose.Cells para Java para carregar pastas de trabalho do Excel, acessar tabelas dinâmicas e recuperar informações de atualização. Simplifique sua análise de dados com nosso guia passo a passo.
 
 ### [Domine tabelas dinâmicas em Java com Aspose.Cells: guia completo](./aspose-cells-java-master-pivot-tables/)
-Aprenda a criar e modificar tabelas dinâmicas usando o Aspose.Cells para Java. Aprimore suas habilidades de análise de dados do Excel hoje mesmo.
+Aprenda a criar e modificar tabelas dinâmicas usando o Aspose.Cells para Java. Aprimore suas habilidades de análise de dados no Excel hoje mesmo.
 
 ### [Atualizar e calcular tabelas dinâmicas aninhadas com Aspose.Cells](./aspose-cells-java-nested-pivot-tables-refresh/)
 Um tutorial de código para Aspose.Words Java
@@ -91,7 +93,7 @@ Aprenda a personalizar rótulos de tabelas dinâmicas e exportá-los como PDF us
 Aprenda a personalizar os nomes dos subtotais e totais gerais em relatórios do Excel usando o Aspose.Cells para Java. Perfeito para desenvolvedores Java que buscam implementar documentos financeiros multilíngues.
 
 ### [Como desabilitar a faixa de opções da tabela dinâmica no Excel usando Aspose.Cells para Java](./disable-pivottable-ribbon-aspose-cells-java/)
-Aprenda a otimizar a interface do Excel desativando a Faixa de Opções da Tabela Dinâmica usando o Aspose.Cells para Java. Aprimore fluxos de trabalho de análise de dados com eficiência.
+Aprenda a otimizar a interface do Excel desabilitando a Faixa de Opções da Tabela Dinâmica usando o Aspose.Cells para Java. Aprimore fluxos de trabalho de análise de dados com eficiência.
 
 ### [Exibir tabelas dinâmicas em formatos compactos, de estrutura de tópicos e tabulares usando Aspose.Cells Java para análise de dados](./display-pivot-tables-aspose-cells-java/)
 Aprenda a exibir tabelas dinâmicas em vários formatos usando o Aspose.Cells Java. Este guia aborda os formatos compacto, estrutura de tópicos e tabular para uma apresentação de dados aprimorada.
@@ -183,6 +185,9 @@ Aprenda a atualizar os dados de origem da tabela dinâmica no Excel usando o Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

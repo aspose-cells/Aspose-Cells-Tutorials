@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
 "description": "Dowiedz się, jak zmienić cele hiperłączy w plikach Excel eksportowanych jako HTML przy użyciu Aspose.Cells dla Java. Ulepsz SEO i doświadczenie użytkownika."
-"title": "Zmiana celów łącza HTML za pomocą Aspose.Cells w Javie — kompleksowy przewodnik"
+"title": "Zmiana celów linków HTML za pomocą Aspose.Cells w Javie — kompleksowy przewodnik"
 "url": "/pl/java/import-export/change-html-link-targets-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Wypróbuj to rozwiązanie już dziś w swoich projektach i zobacz, jak usprawnia
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

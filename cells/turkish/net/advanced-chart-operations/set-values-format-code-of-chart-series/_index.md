@@ -1,14 +1,16 @@
 ---
-title: Grafik Serisinin Değer Biçimi Kodunu Ayarla
-linktitle: Grafik Serisinin Değer Biçimi Kodunu Ayarla
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu detaylı adım adım eğitimle Aspose.Cells for .NET'te grafik serilerinin değer biçimi kodunun nasıl ayarlanacağını öğrenin. Yeni başlayanlar için mükemmel.
-weight: 17
-url: /tr/net/advanced-chart-operations/set-values-format-code-of-chart-series/
+"description": "Bu detaylı adım adım eğitimle Aspose.Cells for .NET'te grafik serilerinin değer biçimi kodunun nasıl ayarlanacağını öğrenin. Yeni başlayanlar için mükemmel."
+"linktitle": "Grafik Serisinin Değer Biçimi Kodunu Ayarla"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafik Serisinin Değer Biçimi Kodunu Ayarla"
+"url": "/tr/net/advanced-chart-operations/set-values-format-code-of-chart-series/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafik Serisinin Değer Biçimi Kodunu Ayarla
@@ -22,9 +24,9 @@ Günümüzün veri odaklı dünyasında, karmaşık veri kümelerinin görsel te
 Ayrıntılara dalmadan önce, başarıya hazır olduğunuzdan emin olalım. İhtiyacınız olanlar şunlar:
 
 1. Temel C# bilgisi: C# bilgisine sahip olmak programlama kavramlarını kolayca kavramanıza yardımcı olacaktır.
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine ihtiyacınız olacak. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Visual Studio: C# kodunuzu yazmak ve çalıştırmak için uygun bir IDE. .NET'i destekleyen herhangi bir sürüm yeterli olacaktır.
-4.  Excel dosyası: Gösterimimiz için, adlı bir Excel dosyası kullanacağız.`sampleSeries_ValuesFormatCode.xlsx`Çalışma dizininizde hazır bulundurduğunuzdan emin olun.
+4. Excel dosyası: Gösterimimiz için, adlı bir Excel dosyası kullanacağız. `sampleSeries_ValuesFormatCode.xlsx`Çalışma dizininizde hazır bulundurduğunuzdan emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -65,7 +67,7 @@ Dizinlerimizi ayarladıktan sonra şimdi üzerinde çalışmak istediğimiz Exce
 Excel dosyasını yüklemek, okumadan önce bir kitabı açmaya benzer. Açmadan, içeriğine dalamazsınız. 
 
 ```csharp
-// Kaynak Excel dosyasını yükleyin
+// Kaynak Excel dosyasını yükleyin 
 Workbook wb = new Workbook(sourceDir + "sampleSeries_ValuesFormatCode.xlsx");
 ```
 
@@ -111,7 +113,7 @@ Biçim kodunu ayarlamak, ham sayıları daha okunabilir bir şeye dönüştürü
 ```csharp
 // Seriye erişin ve değerlerinin biçim kodunu ayarlayın
 Series srs = ch.NSeries[0];
-srs.ValuesFormatCode = "$#,##0"; //Bu, onu para birimi biçimine ayarlar
+srs.ValuesFormatCode = "$#,##0"; // Bu, onu para birimi biçimine ayarlar
 ```
 
 ## Adım 7: Çıktı Excel Dosyasını Kaydedin
@@ -148,16 +150,18 @@ Aspose.Cells for .NET, geliştiricilerin .NET uygulamalarını kullanarak Excel 
 Evet, Aspose.Cells üretim ortamlarında kullanım için bir lisans gerektirir. Test amaçlı geçici bir lisans seçebilirsiniz.
 
 ### Aspose.Cells kullanarak sıfırdan grafikler oluşturabilir miyim?
-Kesinlikle! Aspose.Cells, sıfırdan grafik oluşturma ve özelleştirme için güçlü bir işlevsellik sunar.
+Kesinlikle! Aspose.Cells, sıfırdan grafik oluşturma ve özelleştirme için sağlam bir işlevsellik sunar.
 
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Şuraya erişebilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
+Şuraya erişebilirsiniz: [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
 
 ### Excel dosyalarını kaydederken hangi formatlar destekleniyor?
 Aspose.Cells, XLSX, XLS, CSV, PDF ve daha fazlası dahil olmak üzere çok çeşitli formatları destekler.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

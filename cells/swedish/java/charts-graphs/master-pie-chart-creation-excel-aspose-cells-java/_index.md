@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -110,7 +112,7 @@ Chart chart = charts.get(chartIndex);
 import com.aspose.cells.SeriesCollection;
 
 SeriesCollection serieses = chart.getNSeries();
-// Ange försäljningsdata som diagrammets datakälla
+// Ställ in försäljningsdata som diagrammets datakälla
 serieses.add("B1:B8", true);
 // Ange kategoridata (landsnamn)
 serieses.setCategoryData("A1:A8");
@@ -125,7 +127,7 @@ chart.setShowDataTable(true);
 ```java
 import com.aspose.cells.Color;
 
-// Ange diagramtiteln med formateringsalternativ
+// Ange diagrammets titel med formateringsalternativ
 chart.getTitle().setText("Sales By Region");
 chart.getTitle().getFont().setColor(Color.getBlue());
 chart.getTitle().getFont().setBold(true);
@@ -178,6 +180,9 @@ För ytterligare utforskning kan du överväga att fördjupa dig i andra diagram
    - Använd effektiva tekniker för datainläsning och överväg strömning för mycket stora filer.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

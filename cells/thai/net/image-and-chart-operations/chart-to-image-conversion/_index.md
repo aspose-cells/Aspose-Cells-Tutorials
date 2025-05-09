@@ -1,14 +1,16 @@
 ---
-title: การแปลงแผนภูมิเป็นรูปภาพใน .NET
-linktitle: การแปลงแผนภูมิเป็นรูปภาพใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการแปลงแผนภูมิเป็นรูปภาพใน .NET โดยใช้ Aspose.Cells ด้วยคู่มือทีละขั้นตอนนี้ แปลงแผนภูมิ Excel เป็นรูปภาพคุณภาพสูงได้อย่างง่ายดาย
-weight: 10
-url: /th/net/image-and-chart-operations/chart-to-image-conversion/
+"description": "เรียนรู้วิธีแปลงแผนภูมิเป็นรูปภาพใน .NET โดยใช้ Aspose.Cells ด้วยคู่มือทีละขั้นตอนนี้ แปลงแผนภูมิ Excel เป็นรูปภาพคุณภาพสูงได้อย่างง่ายดาย"
+"linktitle": "การแปลงแผนภูมิเป็นรูปภาพใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การแปลงแผนภูมิเป็นรูปภาพใน .NET"
+"url": "/th/net/image-and-chart-operations/chart-to-image-conversion/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงแผนภูมิเป็นรูปภาพใน .NET
@@ -23,7 +25,7 @@ url: /th/net/image-and-chart-operations/chart-to-image-conversion/
 ### สภาพแวดล้อม .NET
 ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง .NET framework ไว้ในระบบของคุณแล้ว คุณสามารถใช้ Visual Studio หรือสภาพแวดล้อมการพัฒนา .NET อื่นๆ เพื่อเรียกใช้ตัวอย่างนี้ได้
 ### การตั้งค่าใบอนุญาต (ทางเลือก)
- แม้ว่าคุณจะใช้ Aspose.Cells ได้ด้วยการทดลองใช้ฟรี แต่หากต้องการฟังก์ชันการทำงานครบถ้วนโดยไม่มีข้อจำกัด โปรดพิจารณาสมัคร[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อหนึ่งจาก[ที่นี่](https://purchase.aspose.com/buy).
+แม้ว่าคุณจะใช้ Aspose.Cells ได้ด้วยการทดลองใช้ฟรี แต่หากต้องการฟังก์ชันการทำงานครบถ้วนโดยไม่มีข้อจำกัด โปรดพิจารณาสมัคร [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) หรือซื้อหนึ่งจาก [ที่นี่](https://purchase-aspose.com/buy).
 
 ## แพ็คเกจนำเข้า
 ในการเริ่มต้น ให้ลองนำเข้าเนมสเปซที่จำเป็นสำหรับการใช้งานไลบรารี Aspose.Cells วิธีนี้จะช่วยให้เราสามารถจัดการไฟล์ Excel และสร้างรูปภาพได้
@@ -42,7 +44,7 @@ using Aspose.Cells;
 ```csharp
 // กำหนดไดเรกทอรีที่จะบันทึกรูปภาพ
 string dataDir = "Your Document Directory";
-//ตรวจสอบว่าไดเร็กทอรีมีอยู่หรือไม่
+// ตรวจสอบว่าไดเร็กทอรีมีอยู่หรือไม่
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
@@ -63,7 +65,7 @@ Workbook workbook = new Workbook();
 ```csharp
 // เพิ่มแผ่นงานใหม่ลงในสมุดงาน
 int sheetIndex = workbook.Worksheets.Add();
-// ดึงแผ่นงานที่เพิ่มใหม่
+// ดึงข้อมูลแผ่นงานที่เพิ่มใหม่
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
 ## ขั้นตอนที่ 4: เติมข้อมูลลงในเวิร์กชีต
@@ -99,7 +101,7 @@ chart.NSeries.Add("A1:B3", true);
 ## ขั้นตอนที่ 7: แปลงแผนภูมิเป็นรูปภาพ
 ช่วงเวลาแห่งความจริง: เรากำลังจะแปลงแผนภูมิเป็นไฟล์รูปภาพ!
 
- ที่นี่เราใช้`ToImage` วิธีการแปลงแผนภูมิเป็นรูปแบบภาพที่คุณเลือก ในกรณีนี้ เราจะแปลงเป็นรูปแบบ EMF (Enhanced Metafile)
+ที่นี่เราใช้ `ToImage` วิธีการแปลงแผนภูมิเป็นรูปแบบภาพที่คุณเลือก ในกรณีนี้ เราจะแปลงเป็นรูปแบบ EMF (Enhanced Metafile)
 ```csharp
 // แปลงแผนภูมิเป็นรูปภาพและบันทึกลงในไดเร็กทอรี
 chart.ToImage(dataDir + "Chart.emf", ImageFormat.Emf);
@@ -118,16 +120,18 @@ System.Console.WriteLine("Image generated successfully.");
 ### ฉันสามารถแปลงแผนภูมิประเภทต่างๆ ด้วยวิธีนี้ได้หรือไม่
 ใช่ คุณสามารถแปลงแผนภูมิประเภทใดๆ ที่ได้รับการรองรับโดย Aspose.Cells รวมถึงแผนภูมิวงกลม แผนภูมิแท่ง แผนภูมิเส้น และอื่นๆ อีกมากมาย!
 ### สามารถเปลี่ยนรูปแบบภาพได้หรือไม่?
- แน่นอน! แม้ว่าเราจะใช้ EMF ในตัวอย่างนี้ แต่คุณสามารถเปลี่ยนรูปแบบภาพเป็น PNG, JPEG, BMP และอื่นๆ ได้โดยเพียงแค่ปรับเปลี่ยน`ImageFormat` พารามิเตอร์.
+แน่นอน! แม้ว่าเราจะใช้ EMF ในตัวอย่างนี้ แต่คุณสามารถเปลี่ยนรูปแบบภาพเป็น PNG, JPEG, BMP และอื่นๆ ได้โดยเพียงแค่ปรับเปลี่ยน `ImageFormat` พารามิเตอร์.
 ### Aspose.Cells รองรับรูปภาพความละเอียดสูงหรือไม่?
 ใช่ Aspose.Cells ช่วยให้คุณควบคุมความละเอียดของภาพและการตั้งค่าคุณภาพเมื่อส่งออกแผนภูมิไปยังรูปภาพ
 ### ฉันสามารถแปลงแผนภูมิหลาย ๆ รายการเป็นรูปภาพในครั้งเดียวได้ไหม
 ใช่ คุณสามารถวนซ้ำแผนภูมิหลายรายการภายในเวิร์กบุ๊กและแปลงทั้งหมดเป็นรูปภาพได้ด้วยโค้ดเพียงไม่กี่บรรทัด
 ### จำนวนแผนภูมิที่สามารถแปลงได้มีขีดจำกัดหรือไม่
 ไม่มีข้อจำกัดโดยธรรมชาติที่กำหนดโดย Aspose.Cells แต่การประมวลผลข้อมูลจำนวนมากอาจขึ้นอยู่กับหน่วยความจำและความสามารถด้านประสิทธิภาพของระบบของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-07"
 "description": "Tanuld meg, hogyan validálhatod a legördülő listákat az Excel cellákban az Aspose.Cells for Java segítségével. Egyszerűsítsd az adatellenőrzési folyamatot átfogó útmutatónkkal."
-"title": "Hogyan validálhatjuk az Excel legördülő menüit az Aspose.Cells for Java használatával?"
+"title": "Hogyan validáljuk az Excel legördülő menüit az Aspose.Cells for Java használatával?"
 "url": "/hu/java/data-validation/validate-excel-dropdowns-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Hogyan validálhatjuk az Excel legördülő menüit az Aspose.Cells for Java használatával?
+# Hogyan validáljuk az Excel legördülő menüit az Aspose.Cells for Java használatával?
 
 ## Bevezetés
 
@@ -84,7 +86,7 @@ public class ExcelDropdownValidation {
         // Nyissa meg a kívánt munkalapot
         Worksheet sheet = workbook.getWorksheets().get(0);
         
-        // A további műveletekhez szerezd be a sejtek gyűjteményét a munkalapról
+        // Cellagyűjtemény beszerzése a munkalapról további műveletekhez
         Cells cells = sheet.getCells();
     }
 }
@@ -92,7 +94,7 @@ public class ExcelDropdownValidation {
 
 ## Megvalósítási útmutató
 
-Minden egyes funkciót külön-külön megvizsgálunk, lépésről lépésre bemutatva azok megvalósítását.
+Minden egyes funkciót külön-külön megvizsgálunk, lépésről lépésre bemutatva a megvalósításukat.
 
 ### Érvényesítés ellenőrzése az Excel cellák legördülő menüiben
 
@@ -177,7 +179,7 @@ Most már megtanultad, hogyan validálhatod az Excel legördülő menüit az Asp
 1. **Mi az Aspose.Cells Java-hoz?**
    - Egy hatékony könyvtár az Excel-fájlok programozott kezeléséhez, amely különféle funkciókat támogat, például Excel-dokumentumok létrehozását, szerkesztését és érvényesítését.
 2. **Hogyan telepíthetem az Aspose.Cells-t a projektemhez?**
-   - Használj Mavent vagy Gradle-t a fent látható módon az Aspose.Cells hozzáadásához függőségként a projekt konfigurációs fájlodhoz.
+   - Használj Mavent vagy Gradle-t a fent látható módon, hogy az Aspose.Cells-t függőségként add hozzá a projekt konfigurációs fájlodhoz.
 3. **Használhatom az Aspose.Cells-t licenc vásárlása nélkül?**
    - Igen, kipróbálhatod ingyenes próbaverzióval, de egyes funkciók korlátozottak lehetnek, amíg ideiglenes vagy megvásárolt licencet nem szerzel.
 4. **Melyek a legördülő menükből származó ellenőrzések használatának fő előnyei az Excel fájlokban?**
@@ -194,6 +196,9 @@ Most már megtanultad, hogyan validálhatod az Excel legördülő menüit az Asp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

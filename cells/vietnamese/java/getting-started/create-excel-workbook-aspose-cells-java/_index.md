@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,12 +194,15 @@ Bằng cách làm theo hướng dẫn này, giờ đây bạn đã có giải ph
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells)
 
 ### Khuyến nghị từ khóa
-- "Aspose.Cells cho Java"
+- "Aspose.Cells dành cho Java"
 - "Tự động hóa sổ làm việc Excel"
 - "Tích hợp Java Excel"
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

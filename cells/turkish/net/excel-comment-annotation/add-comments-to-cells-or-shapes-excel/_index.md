@@ -1,14 +1,16 @@
 ---
-title: Excel'de Hücrelere veya Şekillere Yorum Ekleme
-linktitle: Excel'de Hücrelere veya Şekillere Yorum Ekleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'deki hücrelere yorum eklemeyi öğrenin. Excel işlevselliğini geliştirmek için yeni başlayanlar için adım adım kılavuz.
-weight: 11
-url: /tr/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/
+"description": "Aspose.Cells for .NET kullanarak Excel'deki hücrelere yorum eklemeyi öğrenin. Excel işlevselliğini geliştirmek için yeni başlayanlar için adım adım kılavuz."
+"linktitle": "Excel'de Hücrelere veya Şekillere Yorum Ekleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Hücrelere veya Şekillere Yorum Ekleme"
+"url": "/tr/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Hücrelere veya Şekillere Yorum Ekleme
@@ -18,9 +20,9 @@ Hücrelere veya şekillere yorum ekleyerek Excel belgelerinizi geliştirmek mi i
 ## Ön koşullar
 Excel sayfalarına yorum ekleme yolculuğumuza başlamadan önce, ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte yerinde olması gerekenler:
 - Visual Studio Kurulu: .NET uygulamalarınızı yazabileceğiniz ve derleyebileceğiniz bir IDE'ye ihtiyacınız olacak. Visual Studio birçok geliştirici için popüler bir seçimdir.
--  Aspose.Cells Paketi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Excel dosyalarını düzenlemek için sağlam bir araçtır. Bunu şuradan indirebilirsiniz:[yayın sayfası](https://releases.aspose.com/cells/net/).
+- Aspose.Cells Paketi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Excel dosyalarını düzenlemek için sağlam bir araçtır. Bunu şuradan indirebilirsiniz: [yayın sayfası](https://releases.aspose.com/cells/net/).
 - Temel C# Bilgisi: Tüm örneklerde bu programlama dili kullanılacağından, C# programlamaya dair temel bir anlayışa sahip olmak faydalı olacaktır.
--  Aspose.Cells Lisansı: Genişletilmiş özellikler için bir lisans satın almayı düşünebilirsiniz, ancak bir lisansla da başlayabilirsiniz.[ücretsiz deneme](https://releases.aspose.com/), sınırlamalarla birlikte gelir.
+- Aspose.Cells Lisansı: Genişletilmiş özellikler için bir lisans satın almayı düşünebilirsiniz, ancak bir lisansla da başlayabilirsiniz. [ücretsiz deneme](https://releases.aspose.com/), sınırlamalarla birlikte gelir.
 ## Paketleri İçe Aktar
 Aspose.Cells ile çalışmaya başlamak için yapmanız gereken ilk şey, C# projenize gerekli paketleri içe aktarmaktır. İşte nasıl yapacağınız:
 ### Projenizi Açın
@@ -36,11 +38,11 @@ Kod dosyanızın en üstüne aşağıdaki using yönergesini ekleyin:
 using System.IO;
 using Aspose.Cells;
 ```
-Artık Aspose.Cells ile Excel dosyalarını düzenlemeye hazırsınız. 
+Artık Aspose.Cells ile Excel dosyalarında işlem yapmaya hazırsınız. 
 
 Ön koşullar halledildikten sonra, rehberin özüne geçelim: Excel dosyasındaki hücrelere veya şekillere yorum ekleme. Bunu adım adım ele alacağız.
 ## Adım 1: Belge Dizinini Ayarlama
-Çalışma Kitabını düzenlemeye başlamadan önce, belgemizin nerede saklanacağını tanımlamamız gerekir. Belge dizininizi nasıl ayarlayacağınız aşağıda açıklanmıştır.
+Çalışma Kitabını düzenlemeye başlamadan önce, belgemizin nerede saklanacağını tanımlamamız gerekir. İşte belge dizininizi ayarlama yöntemi.
 ```csharp
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
@@ -108,13 +110,15 @@ Evet! Hücrelere yaptığınız gibi şekillere de yorum ekleyebilirsiniz.
 Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler.
 ### Aspose.Cells'i kullanmak ücretsiz mi?
 Aspose.Cells ücretsiz deneme sürümü sunuyor, ancak tüm özelliklerden yararlanmak için lisans satın almanız gerekebilir.
-### Aspose.Cells için desteği nerede bulabilirim?
- Destek almak için şu adresi ziyaret edebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9).
+### Aspose.Cells için desteği nereden bulabilirim?
+Destek almak için şu adresi ziyaret edebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9).
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Geçici lisans, aşağıdaki kaynaklardan alınabilir:[Aspose lisans sayfası](https://purchase.aspose.com/temporary-license/).
+Geçici lisans, aşağıdaki kaynaklardan alınabilir: [Aspose lisans sayfası](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

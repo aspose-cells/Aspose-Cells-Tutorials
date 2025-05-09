@@ -8,7 +8,9 @@ url: /net/number-and-display-formats-in-excel/using-built-in-number-formats/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Built-In Number Formats in Excel Programmatically
@@ -127,6 +129,7 @@ No, Aspose.Cells works independently of Microsoft Excel, so you don't need Excel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

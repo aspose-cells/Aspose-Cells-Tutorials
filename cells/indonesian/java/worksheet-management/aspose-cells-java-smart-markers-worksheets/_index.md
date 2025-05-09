@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Selamat datang di panduan definitif tentang memanfaatkan kekuatan Aspose.Cells untuk Java guna menerapkan penanda cerdas dan mengakses lembar kerja dengan lancar. Dalam tutorial ini, kita akan menjelajahi cara mengotomatiskan pembuatan file Excel dengan data dinamis menggunakan fitur-fitur Aspose.Cells yang tangguh.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Cara menginisialisasi `WorkbookDesigner` di Jawa.
 - Gunakan Penanda Cerdas untuk mengisi data secara dinamis.
 - Muat buku kerja yang ada dan akses lembar kerja secara efisien.
@@ -23,9 +25,9 @@ Selamat datang di panduan definitif tentang memanfaatkan kekuatan Aspose.Cells u
 
 Mari selami dunia otomatisasi operasi Excel dengan Aspose.Cells untuk Java!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih tinggi terinstal di sistem Anda.
 - **Aspose.Cells untuk Java**: Sertakan pustaka ini dalam proyek Anda. Tutorial ini menggunakan versi `25.3`.
@@ -51,21 +53,21 @@ Untuk menggabungkan Aspose.Cells ke dalam proyek Java Anda, Anda dapat menggunak
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
 Untuk memanfaatkan Aspose.Cells sepenuhnya, Anda memerlukan lisensi:
 
-- **Uji Coba Gratis**: Unduh paket uji coba dari situs web Aspose untuk menguji fitur-fiturnya.
-- **Lisensi Sementara**Minta lisensi sementara untuk pengujian yang lebih luas tanpa batasan.
-- **Pembelian**: Dapatkan lisensi penuh jika Anda siap mengimplementasikannya dalam produksi.
+- **Ingyenes próbaverzió**: Unduh paket uji coba dari situs web Aspose untuk menguji fitur-fiturnya.
+- **Ideiglenes engedély**Minta lisensi sementara untuk pengujian yang lebih luas tanpa batasan.
+- **Vásárlás**: Dapatkan lisensi penuh jika Anda siap mengimplementasikannya dalam produksi.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Inisialisasi Buku Kerja dan Tetapkan Sumber Data
 
 Mari kita mulai dengan membuat berkas Excel menggunakan Penanda Cerdas, yang memungkinkan pengisian data dinamis.
 
-#### Ringkasan
+#### Áttekintés
 
 Dalam fitur ini, kami menginisialisasi `WorkbookDesigner`, menyiapkan penanda cerdas, dan memprosesnya untuk menghasilkan file Excel dengan konten dinamis. Ini sempurna untuk skenario saat Anda memerlukan data berulang yang diisi dalam templat Excel.
 
@@ -78,7 +80,7 @@ import com.aspose.cells.Worksheet;
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Buat desainer Buku Kerja baru.
+// Hozz létre egy új munkafüzet-tervezőt.
 WorkbookDesigner report = new WorkbookDesigner();
 ```
 
@@ -101,9 +103,9 @@ Kami sedang menyiapkan sel lembar kerja pertama `A1` untuk menggunakan penanda p
 report.setDataSource("VariableArray", new String[] { "English", "Arabic", "Hindi", "Urdu", "French" });
 ```
 
-Itu `setDataSource` metode menetapkan serangkaian string sebagai sumber data untuk penanda cerdas kita. Ini menggantikan placeholder dengan nilai aktual.
+A `setDataSource` metode menetapkan serangkaian string sebagai sumber data untuk penanda cerdas kita. Ini menggantikan placeholder dengan nilai aktual.
 
-##### Langkah 4: Penanda Proses
+##### Langkah 4: Proses Penanda
 
 ```java
 // Proses Penanda Cerdas untuk menggantinya dengan data nyata.
@@ -112,7 +114,7 @@ report.process(false);
 
 Langkah ini memproses semua penanda dalam buku kerja, menggantinya dengan data yang ditentukan.
 
-##### Langkah 5: Simpan Buku Kerja
+##### 5. lépés: Munkafüzet mentése
 
 ```java
 report.getWorkbook().save(outDir + "/variablearray-out.xlsx");
@@ -124,11 +126,11 @@ Terakhir, kami menyimpan buku kerja yang telah diproses ke direktori keluaran ya
 
 Selanjutnya, mari kita lihat bagaimana Anda dapat memuat file Excel yang ada dan mengakses lembar kerjanya.
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini menunjukkan cara memuat buku kerja yang sudah ada sebelumnya dan mengakses lembar kerja pertamanya, yang memungkinkan manipulasi atau pengambilan data lebih lanjut.
 
-##### Langkah 1: Muat Buku Kerja
+##### 1. lépés: Munkafüzet betöltése
 
 ```java
 import com.aspose.cells.Workbook;
@@ -142,7 +144,7 @@ Workbook workbook = new Workbook(dataDir + "/existing-workbook.xlsx");
 
 Potongan kode ini memuat berkas Excel ke dalam memori, yang memungkinkan kita memanipulasinya secara terprogram.
 
-##### Langkah 2: Akses Lembar Kerja
+##### 2. lépés: Hozzáférési munkalap
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -150,14 +152,14 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 
 Di sini, kita mengakses lembar kerja pertama dari buku kerja yang dimuat. Objek ini sekarang dapat digunakan untuk berbagai operasi seperti membaca atau mengubah nilai sel.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-- **Pelaporan Otomatis**: Hasilkan laporan bulanan dengan data dinamis menggunakan templat.
+- **Automatizált jelentéskészítés**: Hasilkan laporan bulanan dengan data dinamis menggunakan templat.
 - **Transformasi Data**: Mengonversi file CSV ke format Excel dengan mengisi penanda pintar.
-- **Manajemen Inventaris**: Perbarui tingkat stok dalam lembar kerja secara otomatis.
+- **Készletgazdálkodás**: Perbarui tingkat stok dalam lembar kerja secara otomatis.
 - **Laporan Nilai Siswa**:Hasilkan lembar nilai yang dipersonalisasi untuk siswa dari data mentah.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat bekerja dengan kumpulan data besar, pertimbangkan hal berikut:
 
@@ -165,20 +167,20 @@ Saat bekerja dengan kumpulan data besar, pertimbangkan hal berikut:
 - Optimalkan memori dengan memproses data dalam potongan-potongan daripada memuat semuanya sekaligus.
 - Perbarui pustaka Aspose.Cells Anda secara berkala untuk peningkatan kinerja dan perbaikan bug.
 
-## Kesimpulan
+## Következtetés
 
 Sekarang, Anda harus merasa nyaman dalam menginisialisasi `WorkbookDesigner`, menggunakan penanda cerdas untuk pengisian data dinamis, dan mengakses lembar kerja dari buku kerja yang ada. Keterampilan ini sangat berharga untuk mengotomatiskan tugas-tugas terkait Excel dalam aplikasi Java.
 
-### Langkah Berikutnya
+### Következő lépések
 
 - Bereksperimenlah dengan berbagai jenis spidol.
 - Jelajahi lebih banyak fitur yang ditawarkan oleh Aspose.Cells untuk manajemen spreadsheet yang komprehensif.
 
-### Ajakan untuk Bertindak
+### Cselekvésre ösztönzés
 
 Siap mengotomatiskan operasi Excel Anda? Terapkan solusinya hari ini, dan rasakan efisiensi yang dihadirkannya pada alur kerja Anda!
 
-## Bagian FAQ
+## GYIK szekció
 
 **Q1: Apa itu Smart Marker di Aspose.Cells?**
 A1: Penanda Cerdas merupakan tempat penampung dalam berkas Excel yang diganti dengan data aktual selama pemrosesan.
@@ -192,18 +194,21 @@ A3: Pertimbangkan untuk menggunakan API streaming dan memproses data secara bert
 **Q4: Apakah mungkin untuk menyesuaikan format file Excel yang dihasilkan?**
 A4: Tentu saja! Anda dapat mengatur berbagai opsi pemformatan seperti font, warna, dan gaya secara terprogram.
 
-**Q5: Di mana saya dapat menemukan lebih banyak contoh penggunaan Aspose.Cells?**
-A5: Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk panduan lengkap dan contoh kode.
+**5. kérdés: Hol találok további példákat az Aspose.Cells használatára?**
+A5: Látogassa meg a [Aspose dokumentáció](https://reference.aspose.com/cells/java/) átfogó útmutatókért és kódmintákért.
 
-## Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Terbaru](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Unduhan Uji Coba](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Forum Dukungan**: [Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Legújabb kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Próbaverziók letöltése](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Ideiglenes engedély beszerzése](https://purchase.aspose.com/temporary-license/)
+- **Támogatási fórum**: [Aspose támogatás](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

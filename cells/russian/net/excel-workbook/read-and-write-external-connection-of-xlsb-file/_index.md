@@ -1,14 +1,16 @@
 ---
-title: Чтение и запись внешнего соединения файла XLSB
-linktitle: Чтение и запись внешнего соединения файла XLSB
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как управлять внешними подключениями в файлах XLSB с помощью Aspose.Cells для .NET в этом подробном руководстве.
-weight: 130
-url: /ru/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
+"description": "Узнайте, как управлять внешними подключениями в файлах XLSB с помощью Aspose.Cells для .NET в этом подробном руководстве."
+"linktitle": "Чтение и запись внешнего соединения файла XLSB"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Чтение и запись внешнего соединения файла XLSB"
+"url": "/ru/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Чтение и запись внешнего соединения файла XLSB
@@ -22,7 +24,7 @@ url: /ru/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 Прежде чем мы начнем, вот несколько вещей, которые вам понадобятся:
 
 1. Базовые знания C#: Знание языка программирования C# очень поможет. Если вам комфортно писать код на C#, то вы готовы!
-2.  Aspose.Cells for .NET: Вам нужно установить эту библиотеку в вашей среде разработки. Если вы этого еще не сделали, вы можете легко ее скачать[здесь](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells for .NET: Вам нужно установить эту библиотеку в вашей среде разработки. Если вы этого еще не сделали, вы можете легко ее скачать [здесь](https://releases.aspose.com/cells/net/). 
 3. IDE: вам понадобится редактор кода или интегрированная среда разработки (IDE), например Visual Studio. 
 4. Образец файла XLSB: Мы будем работать с образцом файла XLSB, который содержит внешние соединения. Вы можете создать свой собственный или загрузить образцы онлайн. 
 
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- В этом фрагменте кода`"Your Document Directory"` и`"Your Document Directory"` предполагается, что они извлекают соответствующие пути для размещения ваших входных и выходных файлов. Вы можете заменить эти методы жестко закодированными путями, если предпочитаете.
+В этом фрагменте кода `"Your Document Directory"` и `"Your Document Directory"` предполагается, что они извлекают соответствующие пути для размещения ваших входных и выходных файлов. Вы можете заменить эти методы жестко закодированными путями, если предпочитаете.
 
 ## Шаг 2: Загрузите файл XLSB
 
@@ -63,7 +65,7 @@ string outputDir = "Your Output Directory";
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
- Просто убедитесь, что ваш файл XLSB находится в указанном месте.`sourceDir`. Если путь правильный, ваша рабочая книга будет готова к работе!
+Просто убедитесь, что ваш файл XLSB находится в указанном месте. `sourceDir`. Если путь правильный, ваша рабочая книга будет готова к работе!
 
 ## Шаг 3: Доступ к внешним подключениям
 
@@ -74,7 +76,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Здесь,`DataConnections[0]` относится к первому соединению в рабочей книге. Мы приводим его как`DBConnection` тип для дальнейших манипуляций.
+Здесь, `DataConnections[0]` относится к первому соединению в рабочей книге. Мы приводим его как `DBConnection` тип для дальнейших манипуляций.
 
 ## Шаг 4: Извлечение информации о подключении
 
@@ -113,7 +115,7 @@ wb.Save(outputDir + "outputExternalConnection_XLSB.xlsb");
 
 ## Шаг 7: Подтверждение выполнения
 
-Наконец, давайте убедимся, что все прошло гладко. Простое сообщение в конце прояснит ситуацию.
+Наконец, давайте убедимся, что все прошло гладко. Простое сообщение в конце все прояснит.
 
 ```csharp
 Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.\r\n");
@@ -131,19 +133,21 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 Файл XLSB — это двоичный формат файла Excel, в котором данные электронной таблицы хранятся в двоичном формате, что делает их более компактными и ускоряет их открытие.
 
 ### Как установить Aspose.Cells для .NET?  
- Вы можете легко загрузить его с сайта Aspose.[здесь](https://releases.aspose.com/cells/net/).
+Вы можете легко загрузить его с сайта Aspose. [здесь](https://releases.aspose.com/cells/net/).
 
 ### Могу ли я использовать Aspose.Cells бесплатно?  
- Да! Вы можете начать с бесплатной пробной версии, которая доступна[здесь](https://releases.aspose.com/).
+Да! Вы можете начать с бесплатной пробной версии, которая доступна [здесь](https://releases.aspose.com/).
 
 ### Поддерживает ли Aspose.Cells другие форматы файлов?  
 Конечно! Aspose.Cells поддерживает множество форматов файлов, включая XLSX, CSV и другие.
 
 ### Куда я могу обратиться за помощью, если у меня возникнут проблемы?  
-Вы можете получить поддержку на форумах Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Вы можете получить поддержку на форумах Aspose. [здесь](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

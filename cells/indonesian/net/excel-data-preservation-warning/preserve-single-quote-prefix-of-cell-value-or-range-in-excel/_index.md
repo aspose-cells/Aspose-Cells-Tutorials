@@ -1,34 +1,36 @@
 ---
-title: Pertahankan Awalan Kutipan Tunggal dari Nilai Sel atau Rentang di Excel
-linktitle: Pertahankan Awalan Kutipan Tunggal dari Nilai Sel atau Rentang di Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mempertahankan awalan tanda kutip tunggal dalam sel Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini.
-weight: 10
-url: /id/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cell-value-or-range-in-excel/
+"description": "Pelajari cara mempertahankan awalan tanda kutip tunggal dalam sel Excel menggunakan Aspose.Cells untuk .NET dengan tutorial langkah demi langkah yang mudah ini."
+"linktitle": "Pertahankan Awalan Kutipan Tunggal dari Nilai Sel atau Rentang di Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Pertahankan Awalan Kutipan Tunggal dari Nilai Sel atau Rentang di Excel"
+"url": "/id/net/excel-data-preservation-warning/preserve-single-quote-prefix-of-cell-value-or-range-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pertahankan Awalan Kutipan Tunggal dari Nilai Sel atau Rentang di Excel
 
-## Perkenalan
+## Bevezetés
 
 Saat mengerjakan file Excel, Anda mungkin menemukan diri Anda dalam situasi di mana Anda perlu mempertahankan awalan tanda kutip tunggal dalam nilai sel. Ini bisa sangat penting ketika data yang Anda tangani memerlukan perhatian ekstra, seperti dalam kasus pengidentifikasi atau string di mana Anda tidak ingin Excel menafsirkan nilainya. Dalam panduan ini, kita akan membahas cara mencapainya menggunakan Aspose.Cells untuk .NET. Jadi, ambil minuman favorit Anda, dan mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai perjalanan pengkodean ini, mari pastikan Anda memiliki semua yang Anda butuhkan:
 
 1. Visual Studio: Anda memerlukan lingkungan pengembangan untuk menjalankan kode .NET Anda.
-2.  Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan merujuk pustaka ini ke proyek Anda. Anda dapat mengambil versi terbaru dari[Tautan unduhan](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Pastikan Anda telah mengunduh dan merujuk pustaka ini ke proyek Anda. Anda dapat mengambil versi terbaru dari [Letöltési link](https://releases.aspose.com/cells/net/).
 3. Pemahaman Dasar Pemrograman C#: Sangat membantu bila Anda mengetahui C#, terutama jika Anda berencana mengubah kodenya.
 4. Sistem Operasi Windows: Karena Aspose.Cells terutama difokuskan pada Windows, menginstalnya akan membuat segalanya lebih lancar.
 
 Sekarang setelah kita memiliki daftar periksa, mari beralih ke bagian yang menyenangkan—pengodean!
 
-## Paket Impor
+## Csomagok importálása
 
 Untuk memulai, kita perlu mengimpor paket-paket yang diperlukan ke dalam proyek C# kita. Berikut ini paket-paket yang harus Anda cari:
 
@@ -48,24 +50,24 @@ Sekarang, mari kita uraikan langkah-langkah untuk mempertahankan awalan tanda ku
 Pertama-tama, kita perlu membuat buku kerja baru dan menentukan direktori untuk file masukan dan keluaran.
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory/";
 
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Document Directory/";
 
-// Buat buku kerja
+// Munkafüzet létrehozása
 Workbook wb = new Workbook();
 ```
 
- Pada langkah ini, kita menginisialisasi buku kerja kita, tempat file Excel akan dikelola. Ganti`"Your Document Directory"` dengan jalur sebenarnya di mana Anda ingin menyimpan berkas Anda.
+Pada langkah ini, kita menginisialisasi buku kerja kita, tempat file Excel akan dikelola. Ganti `"Your Document Directory"` dengan jalur sebenarnya di mana Anda ingin menyimpan berkas Anda.
 
-## Langkah 2: Akses Lembar Kerja
+## 2. lépés: A munkalap elérése
 
 Selanjutnya, kita akan mendapatkan lembar kerja pertama dari buku kerja. Di sinilah tindakan kita akan dilakukan.
 
 ```csharp
-// Akses lembar kerja pertama
+// Első munkalap elérése
 Worksheet ws = wb.Worksheets[0];
 ```
 
@@ -118,7 +120,7 @@ Setelah langkah ini, Anda akan menemukan bahwa awalan kutipan berubah menjadi tr
 
 ## Langkah 6: Pahami StyleFlags
 
- Sekarang, mari kita jelajahi bagaimana`StyleFlag` dapat memengaruhi awalan kutipan kami.
+Sekarang, mari kita jelajahi bagaimana `StyleFlag` dapat memengaruhi awalan kutipan kami.
 
 ```csharp
 // Buat gaya kosong
@@ -135,14 +137,14 @@ Range rng = ws.Cells.CreateRange("A1");
 rng.ApplyStyle(st, flag);
 ```
 
- Inilah kendalanya! Dengan menentukan`flag.QuotePrefix = false`, kita memberi tahu program, “Hei, jangan sentuh awalan yang ada.” Jadi apa yang terjadi?
+Inilah kendalanya! Dengan menentukan `flag.QuotePrefix = false`, kita memberi tahu program tersebut, “Hei, jangan sentuh awalan yang sudah ada.” Jadi apa yang terjadi?
 
 ## Langkah 7: Periksa kembali Awalan Kutipan
 
 Mari kita lihat bagaimana perubahan kita memengaruhi awalan kutipan yang ada.
 
 ```csharp
-// Mengakses gaya sel A1
+// Akses gaya sel A1
 st = cell.GetStyle();
 
 // Cetak nilai Style.QuotePrefix dari sel A1
@@ -167,14 +169,14 @@ flag.QuotePrefix = true;
 rng.ApplyStyle(st, flag);
 ```
 
-Pada putaran ini, kami akan menetapkan`flag.QuotePrefix = true`, yang berarti kita ingin memperbarui awalan kutipan sel.
+Pada putaran ini, kami akan menetapkan `flag.QuotePrefix = true`, yang berarti kita ingin memperbarui awalan kutipan sel.
 
 ## Langkah 9: Pemeriksaan Akhir Awalan Kutipan
 
 Mari selesaikan dengan memeriksa seperti apa awalan kutipan sekarang:
 
 ```csharp
-// Mengakses gaya sel A1
+// Akses gaya sel A1
 st = cell.GetStyle();
 
 // Cetak nilai Style.QuotePrefix dari sel A1
@@ -183,11 +185,11 @@ Console.WriteLine("Quote Prefix of Cell A1: " + st.QuotePrefix);
 
 Pada titik ini, output akan menampilkan false karena kami secara eksplisit menyatakan ingin memperbarui awalan.
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Dengan mengikuti langkah-langkah ini, Anda telah mempelajari cara mempertahankan awalan tanda kutip tunggal dalam nilai sel saat menggunakan Aspose.Cells untuk .NET. Meskipun mungkin tampak seperti detail kecil, menjaga integritas data Anda di Excel dapat menjadi hal yang penting dalam banyak aplikasi, terutama jika Anda menangani pengidentifikasi atau string yang diformat. 
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apa tujuan awalan tanda kutip tunggal di Excel?  
 Awalan tanda kutip tunggal memberi tahu Excel untuk memperlakukan nilai sebagai teks, yang memastikan bahwa nilai tersebut tidak ditafsirkan sebagai angka atau rumus.
@@ -199,13 +201,15 @@ Ya! Aspose.Cells untuk .NET berfungsi baik pada aplikasi desktop maupun web.
 Secara umum, Aspose.Cells dioptimalkan untuk kinerja, tetapi untuk kumpulan data yang sangat besar, selalu baik untuk menguji memori dan kecepatan.
 
 ### Bagaimana saya bisa mendapatkan bantuan jika saya menemui masalah?  
- Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/cells/9) untuk bantuan dari komunitas dan staf Aspose.
+Meglátogathatod a [támogató fórum](https://forum.aspose.com/c/cells/9) untuk bantuan dari komunitas dan staf Aspose.
 
 ### Bisakah saya mencoba Aspose.Cells tanpa membeli?  
- Tentu saja! Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+Tentu saja! Anda dapat mengakses uji coba gratis [itt](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,17 +6,22 @@ description: Learn to create a new Excel file, add a worksheet, and insert an im
 keywords: [Aspose.Cells, .NET, Excel file, create Excel, add worksheet, insert image, save Excel]
 url: /net/drawing-objects/adding-pictures/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create and Save Excel Files with Aspose.Cells
 This tutorial demonstrates how to utilize Aspose.Cells for .NET to create a new Excel file programmatically. You'll learn to check for the existence of a directory, instantiate a Workbook object, add a worksheet, insert an image into a specific cell, and save the file to your desired path. Follow the simple code snippet provided to get started enhancing your Excel automation tasks.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/adding-pictures" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 1. Install Aspose.Cells: Make sure you have the Aspose.Cells library installed. You can do this using NuGet Package Manager by running:
@@ -34,7 +39,9 @@ For complete documentation, visit [Aspose.Cells for .NET Documentation](https://
 To explore the full API reference, check out [Aspose.Cells for .NET API Reference](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET
-linktitle: Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn.
-weight: 21
-url: /vi/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress-for-tiff/
+"description": "Học cách theo dõi tiến trình chuyển đổi TIFF theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước của chúng tôi. Nâng cao kỹ năng quản lý tài liệu của bạn."
+"linktitle": "Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET"
+"url": "/vi/net/converting-excel-files-to-other-formats/tracking-document-conversion-progress-for-tiff/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Theo dõi tiến trình chuyển đổi tài liệu cho TIFF theo chương trình trong .NET
@@ -19,7 +21,7 @@ Trong bài viết này, chúng tôi sẽ chia nhỏ quy trình từng bước, �
 ## Điều kiện tiên quyết
 Trước khi bắt đầu viết mã, hãy đảm bảo bạn đã chuẩn bị mọi thứ. Sau đây là những gì bạn cần để bắt đầu:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Đây là nơi bạn sẽ viết và kiểm tra mã của mình.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể lấy phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết cơ bản về lập trình C# sẽ giúp bạn xử lý mã một cách dễ dàng.
 Khi đã đáp ứng được những điều kiện tiên quyết này, bạn đã sẵn sàng bước vào thế giới chuyển đổi tài liệu!
 ## Nhập gói
@@ -44,13 +46,13 @@ string sourceDir = "Your Document Directory";
 // Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn và nơi bạn muốn lưu tệp TIFF.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ tệp Excel của bạn và nơi bạn muốn lưu tệp TIFF.
 ## Bước 2: Tải Workbook
 Bây giờ, hãy tải sổ làm việc Excel mà chúng ta muốn chuyển đổi. Aspose.Cells giúp việc này trở nên cực kỳ dễ dàng! Sau đây là cách bạn có thể thực hiện:
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "sampleUseWorkbookRenderForImageConversion.xlsx");
 ```
- Trong dòng này, thay thế`"sampleUseWorkbookRenderForImageConversion.xlsx"` với tên tệp Excel của bạn. Dòng này khởi tạo`Workbook`đối tượng đại diện cho bảng tính của bạn trong bộ nhớ.
+Trong dòng này, thay thế `"sampleUseWorkbookRenderForImageConversion.xlsx"` với tên tệp Excel của bạn. Dòng này khởi tạo `Workbook` đối tượng đại diện cho bảng tính của bạn trong bộ nhớ.
 ## Bước 3: Tạo tùy chọn hình ảnh hoặc in
 Tiếp theo, chúng ta cần thiết lập các tùy chọn để hiển thị sổ làm việc của mình thành định dạng TIFF. Đây là nơi chúng ta có thể chỉ định nhiều cài đặt khác nhau, bao gồm cả lệnh gọi lại lưu trang tùy chỉnh của chúng ta:
 ```csharp
@@ -58,9 +60,9 @@ ImageOrPrintOptions opts = new ImageOrPrintOptions();
 opts.PageSavingCallback = new TestTiffPageSavingCallback();
 opts.ImageType = ImageType.Tiff;
 ```
- Ở đây, chúng ta đang tạo một trường hợp của`ImageOrPrintOptions` và nói với nó rằng chúng ta muốn sử dụng lớp gọi lại tùy chỉnh của mình,`TestTiffPageSavingCallback`, để theo dõi tiến trình. Chúng tôi cũng chỉ rõ rằng chúng tôi muốn loại hình ảnh đầu ra là TIFF.
+Ở đây, chúng ta đang tạo một trường hợp của `ImageOrPrintOptions` và nói với nó rằng chúng ta muốn sử dụng lớp gọi lại tùy chỉnh của mình, `TestTiffPageSavingCallback`, để theo dõi tiến trình. Chúng tôi cũng chỉ rõ rằng chúng tôi muốn loại hình ảnh đầu ra là TIFF.
 ## Bước 4: Triển khai lệnh gọi lại lưu trang
- Trọng tâm của việc theo dõi tiến trình chuyển đổi nằm ở việc triển khai`IPageSavingCallback` giao diện. Đây là nơi bạn xác định những gì xảy ra khi mỗi trang bắt đầu và kết thúc lưu. Sau đây là cách thiết lập:
+Trọng tâm của việc theo dõi tiến trình chuyển đổi nằm ở việc triển khai `IPageSavingCallback` giao diện. Đây là nơi bạn xác định những gì xảy ra khi mỗi trang bắt đầu và kết thúc lưu. Sau đây là cách thiết lập:
 ```csharp
 public class TestTiffPageSavingCallback : IPageSavingCallback
 {
@@ -84,14 +86,14 @@ public class TestTiffPageSavingCallback : IPageSavingCallback
     }
 }
 ```
- Trong`PageStartSaving` phương pháp, chúng tôi ghi lại chỉ mục trang và tổng số trang trước khi bắt đầu lưu. Ngoài ra, bạn có thể kiểm soát những trang nào sẽ xuất ra. Trong trường hợp này, chúng tôi bỏ qua các trang trước chỉ mục 2. Tương tự như vậy, trong`PageEndSaving`phương pháp này, chúng tôi ghi lại thời điểm một trang hoàn tất việc lưu và chúng tôi cũng có thể ngăn không cho các trang tiếp theo được lưu sau chỉ mục 8.
+Trong `PageStartSaving` phương pháp, chúng tôi ghi lại chỉ mục trang và tổng số trang trước khi bắt đầu lưu. Ngoài ra, bạn có thể kiểm soát những trang nào sẽ xuất ra. Trong trường hợp này, chúng tôi bỏ qua các trang trước chỉ mục 2. Tương tự như vậy, trong `PageEndSaving` phương pháp này, chúng tôi ghi lại thời điểm một trang hoàn tất việc lưu và chúng tôi cũng có thể ngăn không cho các trang tiếp theo được lưu sau chỉ mục 8.
 ## Bước 5: Kết xuất Workbook thành hình ảnh
 Bây giờ chúng ta đã thiết lập các tùy chọn và triển khai lệnh gọi lại, chúng ta đã sẵn sàng để hiển thị sổ làm việc! Sau đây là cách thực hiện:
 ```csharp
 WorkbookRender wr = new WorkbookRender(workbook, opts);
 wr.ToImage(outputDir + "DocumentConversionProgressForTiff_out.tiff");
 ```
- Dòng này tạo ra một trường hợp của`WorkbookRender` , đang đi qua trong chúng ta`workbook` và các tùy chọn chúng tôi thiết lập trước đó. Sau đó chúng tôi gọi`ToImage`, chỉ định đường dẫn đầu ra cho tệp TIFF của chúng tôi.
+Dòng này tạo ra một trường hợp của `WorkbookRender`, đang đi qua trong chúng ta `workbook` và các tùy chọn chúng tôi thiết lập trước đó. Sau đó chúng tôi gọi `ToImage`, chỉ định đường dẫn đầu ra cho tệp TIFF của chúng tôi.
 ## Bước 6: Thông báo thành công
 Cuối cùng, hãy cung cấp phản hồi cho biết quá trình chuyển đổi của chúng ta đã thành công. Luôn tuyệt vời khi nhận được xác nhận, đúng không?
 ```csharp
@@ -107,14 +109,16 @@ Aspose.Cells là thư viện .NET cho phép bạn thao tác các tệp Excel the
 ### Tôi có thể theo dõi tiến trình chuyển đổi cho các định dạng khác không?  
 Có! Cơ chế gọi lại cũng có thể được điều chỉnh cho các định dạng khác như PDF hoặc JPEG.
 ### Tôi có cần giấy phép để sử dụng Aspose.Cells không?  
- Mặc dù bạn có thể dùng thử miễn phí, nhưng cần có giấy phép để có đầy đủ chức năng trong sản xuất. Bạn có thể tìm thêm thông tin[đây](https://purchase.aspose.com/buy).
+Mặc dù bạn có thể dùng thử miễn phí, nhưng cần có giấy phép để có đầy đủ chức năng trong sản xuất. Bạn có thể tìm thêm thông tin [đây](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận trợ giúp ở đâu nếu gặp vấn đề?  
- Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9)để được cộng đồng và nhóm Aspose hỗ trợ.
+Bạn có thể ghé thăm [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) để được cộng đồng và nhóm Aspose hỗ trợ.
 ### Làm thế nào để bắt đầu sử dụng Aspose.Cells?  
- Bạn có thể tải xuống thư viện và kiểm tra[tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn và ví dụ.
+Bạn có thể tải xuống thư viện và kiểm tra [tài liệu](https://reference.aspose.com/cells/net/) để có hướng dẫn và ví dụ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-### Требуемые библиотеки:
+### Необходимые библиотеки:
 - **Aspose.Cells для Java**: Это необходимая основная библиотека. Здесь используется версия 25.3.
 
 ### Требования к настройке среды:
@@ -187,6 +189,9 @@ workbook.save(outDir + "/SettingCategoryData_out.xls", SaveFormat.EXCEL_97_TO_20
 - [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

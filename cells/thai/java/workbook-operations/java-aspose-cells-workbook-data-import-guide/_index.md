@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ class CellsDataTable {
 ##### 2. การสำรวจข้อมูล
 ใช้ `beforeFirst`- `next`, และ `get` วิธีการวนซ้ำผ่านตารางข้อมูลของคุณอย่างมีประสิทธิภาพ
 
-### คุณสมบัติที่ 2: การจัดการเวิร์กบุ๊กด้วยตัวเลือกการนำเข้าข้อมูล
+### คุณลักษณะที่ 2: การจัดการเวิร์กบุ๊กด้วยตัวเลือกการนำเข้าข้อมูล
 ฟีเจอร์นี้สาธิตวิธีการนำเข้าข้อมูลที่มีโครงสร้างลงในเวิร์กบุ๊ก Excel โดยใช้ Aspose.Cells ซึ่งให้การควบคุมลักษณะการนำเข้า เช่น การเลื่อนแถว
 
 #### ภาพรวม
@@ -194,6 +196,9 @@ public class WorkbookDataImport {
 เมื่อคุณมีความรู้และเครื่องมือต่างๆ ที่ระบุไว้ในคู่มือนี้แล้ว คุณก็พร้อมที่จะเรียนรู้เกี่ยวกับงานนำเข้าและจัดการข้อมูลโดยใช้ Aspose.Cells สำหรับ Java แล้ว ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

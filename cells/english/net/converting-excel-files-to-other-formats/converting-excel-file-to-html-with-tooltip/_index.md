@@ -8,7 +8,9 @@ url: /net/converting-excel-files-to-other-formats/converting-excel-file-to-html-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Excel File to HTML with Tooltip in .NET
@@ -122,6 +124,7 @@ Yes, Aspose offers a [Free Trial](https://releases.aspose.com/) for all of their
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

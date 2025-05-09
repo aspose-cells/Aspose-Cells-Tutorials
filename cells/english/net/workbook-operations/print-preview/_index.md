@@ -8,7 +8,9 @@ url: /net/workbook-operations/print-preview/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Print Preview of Workbook using Aspose.Cells
@@ -95,6 +97,7 @@ Support is available on their [forum](https://forum.aspose.com/c/cells/9).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-conditional-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Conditional Formatting
@@ -28,9 +30,11 @@ Want to explore more examples? Dive into the [applying conditional formatting at
 ## Excel Conditional Formatting Tutorials
 ### [Applying Conditional Formatting at Runtime in Excel](./applying-conditional-formatting-at-runtime/)
 Learn how to apply conditional formatting at runtime in Excel with Aspose.Cells for .NET in this comprehensive, step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

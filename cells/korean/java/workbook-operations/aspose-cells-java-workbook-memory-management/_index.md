@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,7 +169,7 @@ license.setLicense("path/to/your/license/file.lic");
 - 차트나 데이터 검증 등 Aspose.Cells의 다른 기능을 살펴보세요.
 - 이러한 기능을 기존 프로젝트에 통합하세요.
 
-이러한 솔루션을 더욱 심도 있게 탐구하고 여러분의 Java 애플리케이션에 직접 구현해 보시기 바랍니다. 자세한 내용은 다음을 참조하세요. [Aspose 문서](https://reference.aspose.com/cells/java/) 그리고 그들의 것을 시도해보세요 [무료 체험](https://releases.aspose.com/cells/java/).
+이러한 솔루션을 더욱 심도 있게 탐구하고 여러분의 Java 애플리케이션에 직접 구현해 보시기 바랍니다. 자세한 내용은 다음을 참조하세요. [Aspose 문서](https://reference.aspose.com/cells/java/) 그리고 그것을 시도해보세요 [무료 체험](https://releases.aspose.com/cells/java/).
 
 ## FAQ 섹션
 
@@ -178,7 +180,7 @@ license.setLicense("path/to/your/license/file.lic");
 3. **Aspose.Cells의 성능 문제를 해결하려면 어떻게 해야 하나요?**
    적절한 메모리 할당을 보장하고 병목 현상이 있는지 애플리케이션 프로파일링을 고려하세요.
 4. **Aspose.Cells를 클라우드 서비스와 통합할 수 있나요?**
-   네, 다양한 클라우드 스토리지 솔루션과 함께 사용하면 원활한 파일 처리가 가능합니다.
+   네, 다양한 클라우드 스토리지 솔루션과 함께 사용하면 원활하게 파일을 처리할 수 있습니다.
 5. **Aspose.Cells에 사용할 수 있는 라이선스 옵션은 무엇입니까?**
    옵션으로는 무료 체험판 라이선스, 평가용 임시 라이선스, 상업적 구매 플랜 등이 있습니다.
 
@@ -188,6 +190,9 @@ license.setLicense("path/to/your/license/file.lic");
 - [라이센스 구매](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

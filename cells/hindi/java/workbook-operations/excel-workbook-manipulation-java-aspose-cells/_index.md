@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ public class WorkbookExample {
 
 ### नई कार्यपुस्तिका बनाना और सहेजना
 #### अवलोकन
-प्रोग्रामेटिक रूप से Excel वर्कबुक बनाना आपके डेटा प्रबंधन कार्यों को स्वचालित करने का पहला कदम है। यह सुविधा आपको बिना किसी पूर्व-मौजूदा डेटा के एक नई वर्कबुक बनाने की अनुमति देती है।
+प्रोग्रामेटिक रूप से एक्सेल वर्कबुक बनाना आपके डेटा प्रबंधन कार्यों को स्वचालित करने का पहला कदम है। यह सुविधा आपको बिना किसी पूर्व-मौजूदा डेटा के एक नई वर्कबुक बनाने की अनुमति देती है।
 
 #### चरण-दर-चरण निर्देश
 **1. कार्यपुस्तिका को आरंभ करें**
@@ -174,7 +176,7 @@ Style style = cell.getStyle();
 style.getFont().setColor(Color.getBlue());
 style.getFont().setUnderline(FontUnderlineType.SINGLE);
 
-// सेल पर स्टाइल सेटिंग वापस लागू करें
+// स्टाइल सेटिंग को वापस सेल पर लागू करें
 cell.setStyle(style);
 
 System.out.println("Cell modified successfully!");
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 इस ट्यूटोरियल का अनुसरण करके, आपने सीखा है कि जावा के लिए Aspose.Cells का उपयोग करके एक्सेल वर्कबुक को कुशलतापूर्वक कैसे मैनिपुलेट किया जाए। यह शक्तिशाली टूल आपकी एक्सेल फ़ाइलों को बनाने, संशोधित करने और बढ़ाने की प्रक्रिया को सरल बनाता है, जिससे आप उच्च-गुणवत्ता वाले डेटा समाधान देने पर ध्यान केंद्रित कर सकते हैं। अपनी परियोजनाओं में इसकी क्षमताओं का पूरा लाभ उठाने के लिए इसकी विशेषताओं का अन्वेषण करना जारी रखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

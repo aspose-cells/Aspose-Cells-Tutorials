@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/dynamic-formulas-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Dynamic Formulas in Smart Markers Aspose.Cells
@@ -80,9 +82,11 @@ You can check out the comprehensive documentation [here](https://reference.aspos
 Yes! You can download a free trial version from the [Aspose.Cells download page](https://releases.aspose.com/).
 ### What should I do if I face issues while using Aspose.Cells?  
 You can seek support through the [Aspose forum](https://forum.aspose.com/c/cells/9) for help with any issues or queries.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

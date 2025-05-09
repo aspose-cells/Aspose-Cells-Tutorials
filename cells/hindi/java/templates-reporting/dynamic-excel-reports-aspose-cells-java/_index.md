@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "जानें कि Aspose.Cells for Java का लाभ कैसे उठाएं ताकि नामित श्रेणियों और जटिल सूत्रों के साथ गतिशील Excel रिपोर्ट बनाई जा सके। अपने डेटा प्रबंधन कार्यों को कुशलतापूर्वक बढ़ाएँ।"
+"description": "जानें कि Aspose.Cells for Java का लाभ कैसे उठाया जाए ताकि नामित श्रेणियों और जटिल सूत्रों के साथ गतिशील Excel रिपोर्ट बनाई जा सके। अपने डेटा प्रबंधन कार्यों को कुशलतापूर्वक बढ़ाएँ।"
 "title": "Aspose.Cells Java के नामित रेंज और जटिल सूत्रों का उपयोग करके गतिशील Excel रिपोर्ट में महारत हासिल करें"
 "url": "/hi/java/templates-reporting/dynamic-excel-reports-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### लाइसेंस प्राप्ति:
 
 Aspose विभिन्न लाइसेंसिंग विकल्प प्रदान करता है:
-- **मुफ्त परीक्षण:** सुविधाओं का पता लगाने के लिए परीक्षण संस्करण डाउनलोड करें.
+- **मुफ्त परीक्षण:** सुविधाओं का पता लगाने के लिए परीक्षण संस्करण डाउनलोड करें।
 - **अस्थायी लाइसेंस:** मूल्यांकन के दौरान बिना किसी प्रतिबंध के पूर्ण पहुंच के लिए अस्थायी लाइसेंस प्राप्त करें।
 - **खरीदना:** निरंतर उपयोग के लिए लाइसेंस खरीदने पर विचार करें।
 
@@ -179,6 +181,9 @@ range.setRefersTo(
 Aspose.Cells for Java के साथ गतिशील Excel रिपोर्ट्स की दुनिया में गोता लगाएँ और डेटा प्रबंधन में नई संभावनाओं को अनलॉक करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

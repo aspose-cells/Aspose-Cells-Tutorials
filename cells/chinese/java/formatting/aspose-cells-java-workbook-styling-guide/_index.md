@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aspose.Cells for Java 功能多样，可用于各种实际场景：
 通过本教程，您学习了如何使用 Aspose.Cells for Java 创建和设置 Excel 文档的样式。掌握这些技巧，您可以显著提升应用程序处理复杂电子表格任务的能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

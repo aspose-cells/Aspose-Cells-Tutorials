@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ License license = new License();
 license.setLicense("Aspose.Total.Java.lic");
 ```
 ## 實施指南
-本節將指導您使用 Aspose.Cells 在 Java 中自訂 Excel 圖表。
+本節指導您使用 Aspose.Cells 在 Java 中自訂 Excel 圖表。
 ### 功能 1：載入和存取 Excel 工作簿
 首先，將您的工作簿載入到 `Workbook` 目的：
 #### 步驟 1：導入所需的類
@@ -152,6 +154,9 @@ for (int i = 0; i < chart.getNSeries().getCount(); i++) {
 開始使用 Aspose.Cells for Java 掌握 Excel 圖表客製化的旅程並提升您呈現資料的方式。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

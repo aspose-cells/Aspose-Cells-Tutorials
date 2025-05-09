@@ -1,14 +1,16 @@
 ---
-title: Çalışma Kitabında Power Query Formül Öğesini Güncelle
-linktitle: Çalışma Kitabında Power Query Formül Öğesini Güncelle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu kapsamlı adım adım kılavuzda Aspose.Cells for .NET ile Excel'de Power Query formüllerinin nasıl güncelleneceğini öğrenin.
-weight: 27
-url: /tr/net/workbook-operations/update-power-query-formula-item/
+"description": "Bu kapsamlı adım adım kılavuzda Aspose.Cells for .NET ile Excel'de Power Query formüllerinin nasıl güncelleneceğini öğrenin."
+"linktitle": "Çalışma Kitabında Power Query Formül Öğesini Güncelle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Kitabında Power Query Formül Öğesini Güncelle"
+"url": "/tr/net/workbook-operations/update-power-query-formula-item/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Kitabında Power Query Formül Öğesini Güncelle
@@ -18,10 +20,10 @@ Excel'de Power Query kullanarak verileri verimli bir şekilde nasıl yöneteceğ
 ## Ön koşullar
 Örnek kod ve adımlara dalmadan önce, neye ihtiyacınız olacağını gözden geçirelim:
 1. C# ve .NET'in Temel Anlayışı: Biraz kod yazacağımız için C# programlama kavramlarına aşina olmanız faydalı olacaktır.
-2.  .NET için Aspose.Cells'i yükleyin: .NET projenize Aspose.Cells kütüphanesinin entegre olması gerekir. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
-3. Değişikliğe Hazır Bir Excel Dosyası: Güncellemek istediğiniz bir Power Query içeren bir Excel dosyanız olduğundan emin olun. Aşağıdaki gibi bir örnek çalışma kitabına sahip olmanız gerekir:`SamplePowerQueryFormula.xlsx` Emrinizde.
+2. .NET için Aspose.Cells'i yükleyin: .NET projenize Aspose.Cells kütüphanesinin entegre olması gerekir. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
+3. Değişikliğe Hazır Bir Excel Dosyası: Güncellemek istediğiniz bir Power Query içeren bir Excel dosyanız olduğundan emin olun. Aşağıdaki gibi bir örnek çalışma kitabınız olması gerekir: `SamplePowerQueryFormula.xlsx` Emrinizde.
 ## Paketleri İçe Aktar
-Başlamak için, C# dosyanızda aşağıdaki ad alanlarının bulunduğundan emin olun:
+Başlamak için C# dosyanızda aşağıdaki ad alanlarının bulunduğundan emin olun:
 ```csharp
 using Aspose.Cells.DigitalSignatures;
 using Aspose.Cells.QueryTables;
@@ -35,19 +37,19 @@ Bu, özellikle çalışma kitapları ve Power Query verileriyle çalışmak içi
 string SourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
- Bu adımda dizin yollarını belirtirsiniz. Değiştir`"Your Document Directory"` Excel dosyalarınızın kaydedildiği gerçek yol ile. Bu, programa kaynak dosyanızı nerede arayacağını ve güncellenmiş olanı nereye kaydedeceğini söyler.
+Bu adımda dizin yollarını belirtirsiniz. Değiştir `"Your Document Directory"` Excel dosyalarınızın kaydedildiği gerçek yol ile. Bu, programa kaynak dosyanızı nerede arayacağını ve güncellenmiş olanı nereye kaydedeceğini söyler.
 ## Adım 2: Çalışma Kitabını Yükleyin
 Artık çalışma dizinlerinizi ayarladığınıza göre, bir sonraki adım Excel dosyanızı programa yüklemektir.
 ```csharp
 Workbook workbook = new Workbook(SourceDir + "SamplePowerQueryFormula.xlsx");
 ```
- Burada bir tane yaratıyorsunuz`Workbook` belirtilen Excel dosyasını yükleyen nesne.`Workbook`sınıfı, Aspose.Cells kütüphanesinin bir parçasıdır ve Excel dosyası üzerinde gerçekleştireceğiniz tüm işlemler için gereklidir.
+Burada bir tane yaratıyorsunuz `Workbook` belirtilen Excel dosyasını yükleyen nesne. `Workbook` sınıfı, Aspose.Cells kütüphanesinin bir parçasıdır ve Excel dosyası üzerinde gerçekleştireceğiniz tüm işlemler için gereklidir.
 ## Adım 3: Power Query Verilerine Erişim
 Çalışma kitabı yüklendikten sonra, içinde saklanan Power Query formüllerine erişmenin zamanı geldi.
 ```csharp
 DataMashup mashupData = workbook.DataMashup;
 ```
- Bu satırda,`DataMashup` özellik, çalışma kitabındaki Power Query veri yapılarına erişmenize yardımcı olur. Bu özellik, Excel dosyanızda bulunan Power Query verilerinin çeşitli yönleriyle etkileşim kurma yeteneği sağlar.
+Bu satırda, `DataMashup` özellik, çalışma kitabındaki Power Query veri yapılarına erişmenize yardımcı olur. Bu özellik, Excel dosyanızda bulunan Power Query verilerinin çeşitli yönleriyle etkileşim kurma yeteneği sağlar.
 ## Adım 4: Power Query Formüllerinde Döngü
 Power Query verilerine erişildikten sonraki adım, mevcut formüllerin her birini yinelemektir.
 ```csharp
@@ -62,9 +64,9 @@ foreach (PowerQueryFormula formula in mashupData.PowerQueryFormulas)
     }
 }
 ```
- İşte sihrin gerçekleştiği yer burası. Her bir döngüde`PowerQueryFormula` ve sonra her biri aracılığıyla`PowerQueryFormulaItem` .`if` ifadesi "Kaynak" adlı formül öğesini arar ve değerini Power Query'nin başvurmasını istediğiniz kaynak dosyasının yolu olacak şekilde günceller. Bu, Power Query'nin verileri hangi dosyadan çektiğini dinamik olarak değiştirmenize olanak tanır.
+İşte sihrin gerçekleştiği yer burası. Her bir döngüde `PowerQueryFormula` ve sonra her biri aracılığıyla `PowerQueryFormulaItem`. `if` ifadesi "Kaynak" adlı formül öğesini arar ve değerini Power Query'nin başvurmasını istediğiniz kaynak dosyasının yolu olacak şekilde günceller. Bu, Power Query'nin verileri hangi dosyadan çektiğini dinamik olarak değiştirmenize olanak tanır.
 ## Adım 5: Güncellenen Çalışma Kitabını Kaydedin
-Gerekli formül öğelerini güncelledikten sonra son adımınız Çalışma Kitabını kaydetmektir.
+Gerekli formül öğelerini güncelledikten sonra yapmanız gereken son şey Çalışma Kitabını kaydetmektir.
 ```csharp
 workbook.Save(outputDir + "SamplePowerQueryFormula_out.xlsx");
 ```
@@ -81,17 +83,19 @@ Bu basit mesaj konsolda işleminizin başarılı olduğunu teyit edecek ve süre
 ### Aspose.Cells'i herhangi bir .NET sürümüyle kullanabilir miyim?
 Aspose.Cells, .NET Framework ve .NET Core dahil olmak üzere .NET'in birden fazla sürümüyle uyumludur.
 ### Aspose.Cells'i kullanmak ücretsiz mi?
- Aspose.Cells ücretsiz deneme sunuyor ancak sürekli kullanım için lisans gerekiyor. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ücretsiz deneme sunuyor ancak sürekli kullanım için lisans gerekiyor. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 ### Mevcut Excel dosyamda Power Query yoksa ne olur?
 Açıklanan işlem Power Query öğelerinin güncellenmesine odaklanır, bu nedenle dosyanızda bunlar yoksa öncelikle Power Query'yi eklemeniz gerekir.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Kapsamlı rehberlik ve örnekler için belgeleri kontrol edin. Ziyaret edin[belgeleme](https://reference.aspose.com/cells/net/).
+Kapsamlı rehberlik ve örnekler için belgeleri kontrol edin. Ziyaret edin [belgeleme](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells ile ilgili hataları veya sorunları nasıl bildirebilirim?
 Karşılaştığınız herhangi bir sorunla ilgili yardım almak için desteklenen forumlarına ulaşabilirsiniz.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

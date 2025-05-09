@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menerapkan Autofilter di Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengelola dan menganalisis data Excel secara efisien menggunakan Java? Pustaka Aspose.Cells memberdayakan pengembang untuk mengotomatiskan tugas-tugas seperti memfilter dan memproses kumpulan data besar dengan lancar. Panduan komprehensif ini memandu Anda dalam menerapkan filter otomatis di Aspose.Cells untuk Java, menyediakan solusi praktis untuk meningkatkan kemampuan penanganan data Anda.
 
-**Poin-poin Utama:**
+**Főbb tanulságok:**
 - Menyiapkan Aspose.Cells untuk Java
 - Memuat file Excel dan mengakses lembar kerja
 - Menerapkan filter otomatis untuk menyempurnakan visibilitas data
@@ -27,15 +29,15 @@ Di akhir tutorial ini, Anda akan menguasai cara memanfaatkan Aspose.Cells untuk 
 
 Mari kita tinjau prasyaratnya sebelum kita terjun ke coding!
 
-## Prasyarat
+## Előfeltételek
 
 Untuk berhasil menerapkan autofilter dengan Aspose.Cells untuk Java, pastikan Anda memenuhi persyaratan berikut:
 
-- **Perpustakaan dan Ketergantungan:** Kemampuan menggunakan Maven atau Gradle sangat penting karena alat pembangunan ini akan digunakan untuk mengelola dependensi.
+- **Könyvtárak és függőségek:** Kemampuan menggunakan Maven atau Gradle sangat penting karena alat pembangunan ini akan digunakan untuk mengelola dependensi.
   
-- **Pengaturan Lingkungan:** Pastikan JDK yang kompatibel (JDK 8 atau lebih tinggi) telah terpasang.
+- **Környezet beállítása:** Pastikan JDK yang kompatibel (JDK 8 atau lebih tinggi) telah terpasang.
 
-- **Prasyarat Pengetahuan:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi file Excel direkomendasikan untuk pembelajaran yang efektif.
+- **Előfeltételek a tudáshoz:** Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi file Excel direkomendasikan untuk pembelajaran yang efektif.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -55,13 +57,13 @@ Untuk memulai, sertakan pustaka Aspose.Cells dalam proyek Anda:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis:** Mulailah dengan uji coba gratis untuk menjelajahi Aspose.Cells untuk Java.
-2. **Lisensi Sementara:** Dapatkan lisensi sementara untuk menghapus batasan evaluasi.
-3. **Pembelian:** Pertimbangkan untuk membeli lisensi penuh untuk penggunaan jangka panjang.
+1. **Ingyenes próbaverzió:** Mulailah dengan uji coba gratis untuk menjelajahi Aspose.Cells untuk Java.
+2. **Ideiglenes engedély:** Szerezzen be ideiglenes engedélyt az értékelési korlátozások feloldásához.
+3. **Vásárlás:** Pertimbangkan untuk membeli lisensi penuh untuk penggunaan jangka panjang.
 
-#### Inisialisasi dan Pengaturan Dasar
+#### Alapvető inicializálás és beállítás
 Mulailah dengan menginisialisasi perpustakaan seperti yang ditunjukkan di bawah ini:
 
 ```java
@@ -75,13 +77,13 @@ public class InitializeAsposeCells {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Di bagian ini, kami akan menguraikan setiap fitur untuk membantu Anda menerapkan filter otomatis secara efektif.
 
 ### Fitur Satu: Memuat dan Menampilkan Versi Aspose.Cells
 
-#### Ringkasan
+#### Áttekintés
 Pertama, pastikan versi Aspose.Cells yang benar telah dimuat ke dalam proyek Anda. Langkah ini memastikan kompatibilitas dengan fitur lainnya.
 
 ```java
@@ -96,14 +98,14 @@ public class FeatureOne {
 
 ### Fitur Dua: Memuat File Excel dan Mengakses Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 Memuat file Excel yang diinginkan adalah langkah awal untuk mengakses datanya.
 
-**Langkah 1:** Tentukan jalur direktori yang berisi berkas data Anda.
+**1. lépés:** Tentukan jalur direktori yang berisi berkas data Anda.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 ```
-**Langkah 2:** Gunakan Aspose.Cells `Workbook` kelas untuk memuat berkas Excel.
+**2. lépés:** Gunakan Aspose.Cells `Workbook` kelas untuk memuat berkas Excel.
 ```java
 Workbook wb = new Workbook(dataDir + "sampleGetAllHiddenRowsIndicesAfterRefreshingAutoFilter.xlsx");
 Worksheet ws = wb.getWorksheets().get(0);
@@ -111,31 +113,31 @@ Worksheet ws = wb.getWorksheets().get(0);
 
 ### Fitur Tiga: Terapkan Filter Otomatis ke Lembar Kerja dan Segarkan
 
-#### Ringkasan
+#### Áttekintés
 Menerapkan filter otomatis memungkinkan analisis data dinamis dengan menyembunyikan baris yang tidak cocok dengan kriteria tertentu.
 
-**Langkah 1:** Inisialisasi objek lembar kerja (dengan asumsi objek tersebut sudah dimuat).
+**1. lépés:** Inisialisasi objek lembar kerja (dengan asumsi objek tersebut sudah dimuat).
 ```java
 Worksheet ws = null; // Ganti dengan objek lembar kerja yang sebenarnya
 ```
 
-**Langkah 2:** Terapkan filter otomatis ke kolom.
+**2. lépés:** Terapkan filter otomatis ke kolom.
 ```java
 ws.getAutoFilter().addFilter(0, "Orange");
 ```
 Di sini, kami memfilter berdasarkan nilai "Oranye" di kolom pertama.
 
-**Langkah 3:** Segarkan filter otomatis untuk memperbarui indeks baris tersembunyi.
+**3. lépés:** Segarkan filter otomatis untuk memperbarui indeks baris tersembunyi.
 ```java
 int[] rowIndices = ws.getAutoFilter().refresh(true);
 ```
 
 ### Fitur Empat: Ambil dan Tampilkan Indeks Baris Tersembunyi Setelah Filter Otomatis
 
-#### Ringkasan
+#### Áttekintés
 Setelah menerapkan filter, Anda mungkin perlu mengakses indeks baris tersembunyi untuk pemrosesan lebih lanjut.
 
-**Langkah 1:** Ulangi rangkaian indeks baris tersembunyi.
+**1. lépés:** Ulangi rangkaian indeks baris tersembunyi.
 ```java
 int[] rowIndices = null; // Ganti dengan array indeks yang sebenarnya
 for(int i=0; i<rowIndices.length; i++) {
@@ -147,31 +149,31 @@ for(int i=0; i<rowIndices.length; i++) {
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Filter otomatis di Aspose.Cells dapat meningkatkan manajemen data secara signifikan dalam berbagai skenario:
 
 1. **Analisis Data Keuangan:** Filter catatan keuangan dengan cepat untuk fokus pada kategori tertentu seperti "Pendapatan" atau "Pengeluaran".
-2. **Manajemen Inventaris:** Urutkan dan filter daftar inventaris berdasarkan tingkat stok, kategori, atau informasi pemasok.
+2. **Készletgazdálkodás:** Urutkan dan filter daftar inventaris berdasarkan tingkat stok, kategori, atau informasi pemasok.
 3. **Segmentasi Pelanggan:** Atur kumpulan data pelanggan berdasarkan demografi atau riwayat pembelian untuk kampanye pemasaran yang ditargetkan.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat menggunakan Aspose.Cells untuk Java, pertimbangkan tips berikut untuk mengoptimalkan kinerja:
 
-- **Manajemen Memori yang Efisien:** Selalu dekat `Workbook` objek saat selesai untuk mengosongkan memori.
-- **Pemrosesan Batch:** Memproses kumpulan data besar secara massal untuk menghindari penggunaan memori berlebihan.
+- **Hatékony memóriakezelés:** Selalu dekat `Workbook` objek saat selesai untuk mengosongkan memori.
+- **Kötegelt feldolgozás:** Memproses kumpulan data besar secara massal untuk menghindari penggunaan memori berlebihan.
 - **Optimalkan Filter:** Terapkan filter hanya pada kolom yang diperlukan dan segarkan secara bijaksana.
 
-## Kesimpulan
+## Következtetés
 
 Dengan mengikuti panduan ini, Anda telah mempelajari cara memanfaatkan kekuatan autofilter dengan Aspose.Cells untuk Java. Teknik-teknik ini dapat menyederhanakan tugas pemrosesan data Anda secara signifikan. Untuk lebih meningkatkan keterampilan Anda, jelajahi fitur-fitur tambahan Aspose.Cells dan bereksperimenlah dengan kumpulan data yang berbeda.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Pelajari lebih dalam fungsi lainnya seperti manipulasi grafik atau validasi data.
 - Bagikan pengalaman dan solusi Anda di forum pengembang untuk belajar dari orang lain.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa kegunaan utama filter otomatis di Aspose.Cells?**  
    Filter otomatis membantu mengelola kumpulan data Excel yang besar dengan menyembunyikan baris yang tidak relevan secara dinamis berdasarkan kriteria yang ditentukan.
@@ -188,19 +190,22 @@ Dengan mengikuti panduan ini, Anda telah mempelajari cara memanfaatkan kekuatan 
 5. **Bagaimana cara memastikan kinerja optimal saat bekerja dengan berkas Excel berukuran besar?**  
    Gunakan pemrosesan batch, minimalkan penggunaan memori dengan menutup objek segera, dan segarkan filter secara selektif hanya bila diperlukan.
 
-## Sumber daya
+## Erőforrás
 
-- **Dokumentasi:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh:** [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
-- **Pembelian:** [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis:** [Coba Aspose.Cells Gratis](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara:** [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung:** [Forum Aspose](https://forum.aspose.com/c/cells/9)
+- **Dokumentáció:** [Referensi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés:** [Aspose.Cells untuk Rilis Java](https://releases.aspose.com/cells/java/)
+- **Vásárlás:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió:** [Próbáld ki az Aspose.Cells ingyenes verzióját](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély:** [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
+- **Támogatás:** [Aspose Fórumok](https://forum.aspose.com/c/cells/9)
 
 Dengan sumber daya ini, Anda siap untuk melanjutkan perjalanan Anda dengan Aspose.Cells untuk Java dan membuka potensi penuhnya. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

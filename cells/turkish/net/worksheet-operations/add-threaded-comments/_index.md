@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasına Konulu Yorumlar Ekle
-linktitle: Çalışma Sayfasına Konulu Yorumlar Ekle
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına dizili yorumlar eklemeyi öğrenin. İş birliğini zahmetsizce geliştirin.
-weight: 10
-url: /tr/net/worksheet-operations/add-threaded-comments/
+"description": "Bu adım adım eğitimle Aspose.Cells for .NET kullanarak Excel çalışma sayfalarına dizili yorumlar eklemeyi öğrenin. İş birliğini zahmetsizce geliştirin."
+"linktitle": "Çalışma Sayfasına Konulu Yorumlar Ekle"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasına Konulu Yorumlar Ekle"
+"url": "/tr/net/worksheet-operations/add-threaded-comments/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasına Konulu Yorumlar Ekle
@@ -18,7 +20,7 @@ Excel çalışma sayfalarınızı dizili yorumlarla geliştirmek mi istiyorsunuz
 ## Ön koşullar
 Başlamadan önce aşağıdaki ön koşulların mevcut olduğundan emin olun:
 1. Visual Studio: .NET geliştirme için en yaygın IDE olduğundan, makinenizde Visual Studio'nun yüklü olduğundan emin olun.
-2.  Aspose.Cells for .NET: Aspose.Cells for .NET kütüphanesinin yüklü olması gerekir. Eğer henüz yüklemediyseniz, siteden indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cells for .NET kütüphanesinin yüklü olması gerekir. Eğer henüz yüklemediyseniz, siteden indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: Bu eğitim C# dilinde yazılacağından, C# programlamaya aşinalık şarttır.
 4. .NET Framework: Projenizin uyumlu bir .NET Framework sürümü ile kurulduğundan emin olun.
 ## Paketleri İçe Aktar
@@ -37,26 +39,26 @@ Artık ön koşullarımızı oluşturduğumuza ve gerekli paketleri içe aktard�
 string outDir = "Your Document Directory"; // Çıkış dizininizi ayarlayın
 Workbook workbook = new Workbook(); // Yeni bir çalışma kitabı oluştur
 ```
- Bu adımda Excel dosyanızın kaydedileceği çıktı dizinini ayarlarsınız.`Workbook` sınıf, Aspose.Cells'de Excel dosyaları oluşturmak ve düzenlemek için giriş noktasıdır.
+Bu adımda Excel dosyanızın kaydedileceği çıktı dizinini ayarlarsınız. `Workbook` sınıf, Aspose.Cells'de Excel dosyaları oluşturmak ve düzenlemek için giriş noktasıdır.
 ## Adım 2: Yorumlar için bir Yazar Ekleyin
 Yorum ekleyebilmemiz için önce bir yazar tanımlamamız gerekiyor. Bu yazar oluşturduğunuz yorumlarla ilişkilendirilecektir. Şimdi bir yazar ekleyelim.
 ```csharp
 int authorIndex = workbook.Worksheets.ThreadedCommentAuthors.Add("Aspose Test", "", ""); // Yazar ekle
 ThreadedCommentAuthor author = workbook.Worksheets.ThreadedCommentAuthors[authorIndex]; // Yazarı edinin
 ```
- Burada şunu kullanıyoruz:`Add` yeni bir yazar oluşturma yöntemi. Yazarın adını ve diğer isteğe bağlı ayrıntıları (e-posta gibi) parametrelerde belirtebilirsiniz. Bu yazar daha sonra yorum eklerken referans alınacaktır.
+Burada şunu kullanıyoruz: `Add` yeni bir yazar oluşturma yöntemi. Parametrelerde yazarın adını ve diğer isteğe bağlı ayrıntıları (e-posta gibi) belirtebilirsiniz. Bu yazar daha sonra yorum eklerken referans alınacaktır.
 ## Adım 3: Konulu Yorum Ekle
 Artık yazarımızı ayarladığımıza göre, çalışma sayfasındaki belirli bir hücreye konulan bir yorum eklemenin zamanı geldi. 
 ```csharp
 workbook.Worksheets[0].Comments.AddThreadedComment("A1", "Test Threaded Comment", author); // Konulu yorum ekle
 ```
- Bu adımda, ilk çalışma sayfasındaki A1 hücresine bir yorum ekliyoruz. Bunu değiştirebilirsiniz`"A1"` Yorumunuzu eklemek istediğiniz herhangi bir hücre referansıyla. Tırnak içindeki mesaj yorumun içeriğidir.
+Bu adımda, ilk çalışma sayfasındaki A1 hücresine bir yorum ekliyoruz. Bunu değiştirebilirsiniz `"A1"` Yorumunuzu eklemek istediğiniz herhangi bir hücre referansıyla. Tırnak içindeki mesaj yorumun içeriğidir.
 ## Adım 4: Çalışma Kitabını Kaydedin
 Yorumunuzu ekledikten sonra, değişikliklerin kalıcı olması için çalışma kitabınızı kaydetmek isteyebilirsiniz.
 ```csharp
 workbook.Save(outDir + "AddThreadedComments_out.xlsx"); // Çalışma kitabını kaydet
 ```
- Burada, çalışma kitabı belirtilen çıktı dizinine şu adla kaydedilir:`AddThreadedComments_out.xlsx`Dizinin mevcut olduğundan emin olun, aksi takdirde dosya bulunamadı hatasıyla karşılaşırsınız.
+Burada, çalışma kitabı belirtilen çıktı dizinine şu adla kaydedilir: `AddThreadedComments_out.xlsx`. Dizinin mevcut olduğundan emin olun, aksi takdirde dosya bulunamadı hatasıyla karşılaşırsınız.
 ## Adım 5: Başarılı Olduğunu Onaylayın
 Son olarak işlemimizin başarılı olduğunu konsola bildiren bir çıktı gönderelim.
 ```csharp
@@ -70,16 +72,18 @@ Dizili yorumlar yalnızca belge içinde daha zengin bir tartışmaya izin vermek
 ### Excel'de konu anlatımı nedir?  
 Konulu yorum, yorumun içinde yanıtlara ve tartışmalara olanak tanıyan, iş birliğini kolaylaştıran bir yorumdur.
 ### Tek bir hücreye birden fazla yorum ekleyebilir miyim?  
-Evet, tek bir hücreye birden fazla konu başlıklı yorum ekleyebilir, böylece kapsamlı tartışmalara olanak sağlayabilirsiniz.
+Evet, tek bir hücreye birden fazla konu başlıklı yorum ekleyerek kapsamlı tartışmalara olanak sağlayabilirsiniz.
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- Aspose.Cells'i ücretsiz denemeyle deneyebilirsiniz ancak üretim kullanımı için lisans gereklidir. Bunu alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Cells'i ücretsiz denemeyle deneyebilirsiniz ancak üretim kullanımı için lisans gereklidir. Bunu alabilirsiniz [Burada](https://purchase.aspose.com/buy).
 ### Excel'deki yorumları nasıl görebilirim?  
 Yorumları ekledikten sonra yorumun bulunduğu hücrenin üzerine gelerek veya yorumlar bölmesinden yorumlarınızı görüntüleyebilirsiniz.
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?  
- Şuraya başvurabilirsiniz:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha fazla bilgi ve detaylı örnekler için.
+Şuna başvurabilirsiniz: [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Daha fazla bilgi ve detaylı örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

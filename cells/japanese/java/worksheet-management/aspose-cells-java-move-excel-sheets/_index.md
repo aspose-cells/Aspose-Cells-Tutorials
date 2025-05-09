@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ Worksheet sheet = workbook.getWorksheets().get(0); // 最初のワークシー�
 *説明：* Aspose.Cellsのワークシートはゼロインデックスなので、 `get(0)` 最初のワークシートを参照します。
 ### ワークシートを新しい位置に移動する
 **概要：**
-ワークブック内でワークシートの順序を動的に変更して、ワークシートを整理します。
+ワークブック内でワークシートの順序を動的に変更して、ワークシートを再構成します。
 #### ステップ1: ワークシートを移動する
 新しいインデックスを指定してシートを移動します。
 ```java
@@ -129,6 +131,9 @@ A5: はい、サポートは [Asposeフォーラム](https://forum.aspose.com/c/
 - **一時ライセンス:** 全機能を利用するための一時ライセンスを取得する [ここ](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

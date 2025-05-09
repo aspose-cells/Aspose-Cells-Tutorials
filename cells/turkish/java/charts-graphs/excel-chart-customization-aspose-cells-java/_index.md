@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Sağlam hata yönetimi için IOException'ları veya belirli Aspose.Cells istisna
 Excel grafik özelleştirmesinde ustalaşma yolculuğunuza Aspose.Cells for Java ile başlayın ve verilerinizi sunma şeklinizi yükseltin. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

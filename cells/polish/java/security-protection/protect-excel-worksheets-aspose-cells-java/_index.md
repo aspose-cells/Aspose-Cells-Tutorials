@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -184,7 +186,7 @@ W tym samouczku przyjrzeliśmy się, jak można używać Aspose.Cells for Java, 
 
 1. **Jak zmienić wersję Aspose.Cells w Maven?**
    - Zaktualizuj `<version>` oznacz w swoim `pom.xml`.
-2. **Czy mogę ograniczyć zakres operacji w arkuszu kalkulacyjnym?**
+2. **Czy mogę ograniczyć tylko niektóre operacje w arkuszu kalkulacyjnym?**
    - Tak, Aspose.Cells pozwala na dostosowywanie uprawnień dla każdej operacji.
 3. **Co powinienem zrobić, jeśli ustawienia ochrony nie działają zgodnie z oczekiwaniami?**
    - Przed zapisaniem skoroszytu upewnij się, że wszystkie metody ochrony zostały wywołane i sprawdź ścieżki plików.
@@ -198,6 +200,9 @@ W tym samouczku przyjrzeliśmy się, jak można używać Aspose.Cells for Java, 
 - **Pobierać**:Pobierz najnowszą wersję z [Wydania Aspose](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

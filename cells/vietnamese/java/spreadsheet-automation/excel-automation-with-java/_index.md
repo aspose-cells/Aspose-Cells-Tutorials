@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tự động hóa Excel với Java
@@ -23,7 +25,7 @@ Tự động hóa Excel bao gồm các tác vụ như đọc, viết và thao t�
 
 ## 2. Thiết lập dự án Java của bạn
 
-Để bắt đầu, hãy tải xuống Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/). Bao gồm thư viện trong dự án Java của bạn. Sau đây là đoạn mã để thêm Aspose.Cells vào dự án Gradle của bạn:
+Để bắt đầu, hãy tải xuống Aspose.Cells cho Java từ [đây](https://releases.aspose.com/cells/java/)Bao gồm thư viện trong dự án Java của bạn. Sau đây là đoạn mã để thêm Aspose.Cells vào dự án Gradle của bạn:
 
 ```gradle
 dependencies {
@@ -124,9 +126,11 @@ Aspose.Cells for Java cho phép bạn tự động hóa các tác vụ Excel m�
 ---
 
 Hướng dẫn từng bước này với các ví dụ về mã nguồn sẽ cung cấp cho bạn nền tảng vững chắc để tự động hóa Excel trong Java bằng Aspose.Cells. Chúc bạn viết mã và tự động hóa các tác vụ Excel vui vẻ!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

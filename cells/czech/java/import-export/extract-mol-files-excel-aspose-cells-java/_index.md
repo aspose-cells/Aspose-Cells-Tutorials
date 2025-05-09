@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -168,6 +170,9 @@ Vyzkoušejte implementovat tuto funkci extrakce ještě dnes a posuňte své dov
 Prozkoumejte tyto zdroje, abyste prohloubili své znalosti a maximalizovali potenciál Aspose.Cells pro Javu ve svých projektech.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

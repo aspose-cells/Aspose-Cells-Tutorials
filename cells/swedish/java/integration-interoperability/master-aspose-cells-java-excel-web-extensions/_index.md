@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ for (Object obj : taskPanes) {
     System.out.println("IsLocked: " + taskPane.isLocked());
     System.out.println("DockState: " + taskPane.getDockState());
 
-    // Åtkomst till och visningsegenskaper för den associerade WebExtension
+    // Åtkomst till och visning av egenskaper för den associerade WebExtension
     System.out.println("StoreName: " + taskPane.getWebExtension().getReference().getStoreName());
     System.out.println("StoreType: " + taskPane.getWebExtension().getReference().getStoreType());
     System.out.println("WebExtension.Id: " + taskPane.getWebExtension().getId());
@@ -193,6 +195,9 @@ Redo att ta dina Excel-automatiseringskunskaper till nästa nivå? Börja implem
 - **Stöd**: [Aspose-forumet](https://forum.aspose.co)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

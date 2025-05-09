@@ -1,120 +1,124 @@
 ---
-title: Megjegyzések hozzáadása a cellákhoz vagy alakzatokhoz az Excelben
-linktitle: Megjegyzések hozzáadása a cellákhoz vagy alakzatokhoz az Excelben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan adhat megjegyzéseket az Excel celláihoz az Aspose.Cells for .NET használatával. Lépésről lépésre szóló útmutató kezdőknek az Excel funkcióinak bővítéséhez.
-weight: 11
-url: /hu/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/
+"description": "Tanuld meg, hogyan adhatsz megjegyzéseket cellákhoz Excelben az Aspose.Cells for .NET használatával. Lépésről lépésre útmutató kezdőknek az Excel funkcionalitásának bővítéséhez."
+"linktitle": "Megjegyzések hozzáadása cellákhoz vagy alakzatokhoz Excelben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Megjegyzések hozzáadása cellákhoz vagy alakzatokhoz Excelben"
+"url": "/hu/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Megjegyzések hozzáadása a cellákhoz vagy alakzatokhoz az Excelben
+# Megjegyzések hozzáadása cellákhoz vagy alakzatokhoz Excelben
 
 ## Bevezetés
-Szeretné javítani Excel-dokumentumait megjegyzésekkel a cellákhoz vagy alakzatokhoz? Nos, jó helyen jársz! Ez a cikk végigvezeti Önt az Aspose.Cells for .NET használatával, amellyel hatékonyan fűzhet megjegyzéseket az Excel-fájlokhoz. Akár visszajelzést, megjegyzéseket, akár csak baráti megjegyzést szeretne adni, lépésről lépésre lebontjuk, hogy zökkenőmentesen követhesse. Fogja hát meg virtuális eszköztárát, és merüljön el!
+Szeretnéd Excel-dokumentumaidat cellákhoz vagy alakzatokhoz fűzött megjegyzésekkel kiegészíteni? Nos, jó helyen jársz! Ez a cikk végigvezet az Aspose.Cells for .NET használatán, amellyel hatékonyan adhatsz hozzá megjegyzéseket Excel-fájljaidhoz. Akár visszajelzést, megjegyzéseket vagy csak egy barátságos üzenetet szeretnél küldeni, lépésről lépésre lebontjuk, hogy zökkenőmentesen kövesd a folyamatot. Szóval ragadd meg a virtuális eszköztáradat, és vágjunk bele!
 ## Előfeltételek
-Mielőtt belekezdenénk az Excel-táblázatokhoz megjegyzések hozzáadására, győződjön meg arról, hogy minden szükséges eszközzel rendelkezik. Íme, aminek a helyén kell lennie:
-- Telepítve a Visual Studio: Szüksége lesz egy IDE-re, amelyre írhatja és lefordíthatja .NET-alkalmazásait. A Visual Studio sok fejlesztő népszerű választása.
--  Aspose.Cells csomag: Győződjön meg arról, hogy telepítve van az Aspose.Cells könyvtár. Ez egy robusztus eszköz az Excel-fájlok kezeléséhez. Letöltheti a[kiadási oldal](https://releases.aspose.com/cells/net/).
-- Alapvető C# ismerete: A C# programozás alapvető ismerete előnyös lesz, mivel minden példa ezt a programozási nyelvet fogja használni.
--  Aspose.Cells License: A bővített szolgáltatásokhoz fontolja meg a licenc vásárlását, de kezdheti egy[ingyenes próbaverzió](https://releases.aspose.com/), ami korlátokkal jár.
+Mielőtt belekezdenénk az Excel-táblázatok megjegyzéseinek hozzáadásába, győződjünk meg róla, hogy minden szükséges eszközzel rendelkezel. Íme, aminek a helyén kell lennie:
+- Visual Studio telepítve: Szükséged lesz egy IDE-re, ahol .NET alkalmazásokat írhatsz és fordíthatsz. A Visual Studio népszerű választás sok fejlesztő számára.
+- Aspose.Cells csomag: Győződjön meg róla, hogy telepítve van az Aspose.Cells könyvtár. Ez egy robusztus eszköz Excel fájlok kezeléséhez. Letöltheti innen: [kiadási oldal](https://releases.aspose.com/cells/net/).
+- C# alapismeretek: A C# programozás alapvető ismerete előnyös, mivel minden példa ezt a programozási nyelvet fogja használni.
+- Aspose.Cells licenc: Bővített funkciókért érdemes megfontolni egy licenc megvásárlását, de elkezdheted egy [ingyenes próba](https://releases.aspose.com/), ami korlátokkal jár.
 ## Csomagok importálása
-Az Aspose.Cells használatának megkezdéséhez először importálnia kell a szükséges csomagokat a C# projektbe. Íme, hogyan kell csinálni:
-### Nyissa meg projektjét
-Nyissa meg meglévő projektjét a Visual Studióban, vagy hozzon létre egy újat, ha a nulláról kezdi.
-### Telepítse az Aspose.Cells programot
-Az Aspose.Cells csomagot egyszerűen telepítheti a NuGetből. Íme, hogyan:
-1. Kattintson a jobb gombbal a projektre a Solution Explorerben.
-2. Válassza a "NuGet-csomagok kezelése" lehetőséget.
-3. Keresse meg az "Aspose.Cells" kifejezést, és telepítse a legújabb verziót.
-### Nyilatkozat hozzáadása
-A kódfájl tetején direktíva használatával írja be a következőket:
+Az Aspose.Cells használatának megkezdéséhez először is importálni kell a szükséges csomagokat a C# projektedbe. Íme, hogyan teheted meg:
+### Nyisd meg a projektedet
+Nyisd meg a meglévő projektedet a Visual Studióban, vagy hozz létre egy újat, ha a nulláról kezded.
+### Az Aspose.Cells telepítése
+Az Aspose.Cells csomagot egyszerűen telepítheted a NuGetből. Így teheted meg:
+1. Kattintson jobb gombbal a projektjére a Megoldáskezelőben.
+2. Válassza a „NuGet-csomagok kezelése” lehetőséget.
+3. Keresd meg az „Aspose.Cells” fájlt, és telepítsd a legújabb verziót.
+### Hozzáadás utasítás használatával
+A kódfájl tetején szerepeljen a következő using direktíva:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
-Most készen áll az Excel-fájlok manipulálására az Aspose.Cells segítségével. 
+Most már készen állsz az Excel fájlok manipulálására az Aspose.Cells segítségével. 
 
-Az előfeltételek rendezettsége után ugorjunk bele az útmutató lényegébe: megjegyzések fűzéséhez Excel-fájl celláihoz vagy alakzataihoz. Ezt lépésről lépésre fogjuk megtenni.
+Miután az előfeltételekkel tisztáztuk, térjünk át az útmutató lényegére: megjegyzések hozzáadása cellákhoz vagy alakzatokhoz egy Excel-fájlban. Lépésről lépésre haladunk végig rajta.
 ## 1. lépés: A dokumentumkönyvtár beállítása
-Mielőtt elkezdené kezelni a munkafüzetet, meg kell határoznunk, hogy hol tároljuk a dokumentumunkat. Így állíthatja be a dokumentumkönyvtárat.
+Mielőtt elkezdenénk a munkafüzet kezelését, meg kell határoznunk, hogy hol tároljuk a dokumentumunkat. Így állíthatod be a dokumentumkönyvtárat.
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
-// Hozzon létre könyvtárat, ha még nincs jelen.
+// Hozz létre egy könyvtárat, ha az még nem létezik.
 bool IsExists = System.IO.Directory.Exists(dataDir);
 if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-Itt ellenőrizzük, hogy létezik-e a könyvtár. Ha nem, akkor létrehozzuk. Ez olyan, mintha otthona lenne, mielőtt elkezdené a bútorok elrendezését!
+Itt ellenőrizzük, hogy létezik-e a mappa. Ha nem, akkor létrehozzuk. Olyan ez, mintha megbizonyosodnánk arról, hogy van-e otthonod, mielőtt elkezdenéd elrendezni a bútorokat!
 ## 2. lépés: Munkafüzet-objektum példányosítása
-Most létre kell hoznunk egy új munkafüzet-példányt, ahol minden varázslatunkat elvégezzük.
+Most létre kell hoznunk egy új munkafüzet-példányt, ahol elvégezzük az összes varázslatot.
 ```csharp
-// Munkafüzet objektum példányosítása
+// Workbook objektum példányosítása
 Workbook workbook = new Workbook();
 ```
-Gondoljon a munkafüzetre úgy, mint egy üres vászonra, ahol megfestheti Excel remekművét. 
+Gondolj a munkafüzetre úgy, mint egy üres vászonra, amelyre megfestheted az Excel-remekművedet. 
 ## 3. lépés: Új munkalap hozzáadása
-Egy Excel-fájl több lapot is tartalmazhat. Adjunk hozzá egy friss munkalapot a munkafüzetünkhöz.
+Egy Excel fájl több munkalapot is tartalmazhat. Adjunk hozzá egy új munkalapot a munkafüzetünkhöz.
 ```csharp
-// Új munkalap hozzáadása a munkafüzet objektumhoz
+// Új munkalap hozzáadása a Munkafüzet objektumhoz
 int sheetIndex = workbook.Worksheets.Add();
 ```
-Minden nagy művésznek szüksége van egy üres vászonra. Íme, hozzáadunk egyet!
+Minden nagyszerű művésznek szüksége van egy üres vászonra. És most mi is adunk egyet!
 ## 4. lépés: Az új munkalap elérése
-Ezután ragadjon meg egy hivatkozást az új munkalapra a módosítások megkezdéséhez.
+Ezután vegyen egy hivatkozást az új munkalapra a módosítások megkezdéséhez.
 ```csharp
-// Az újonnan hozzáadott munkalap hivatkozásának megszerzése a lapindex átadásával
+// Az újonnan hozzáadott munkalap hivatkozásának lekérése a munkalap indexének átadásával
 Worksheet worksheet = workbook.Worksheets[sheetIndex];
 ```
-Ez a lépés kulcsfontosságú, mert lehetővé teszi, hogy közvetlenül az imént hozzáadott új lappal dolgozzon, például hozzáférést kapjon a munkaasztalhoz.
+Ez a lépés kulcsfontosságú, mert lehetővé teszi, hogy közvetlenül az újonnan hozzáadott munkalappal dolgozzon, mintha csak a munkaasztalához férne hozzá.
 ## 5. lépés: Megjegyzés hozzáadása az F5 cellához
-Most pedig térjünk rá az izgalmas részre – megjegyzés hozzáadása egy adott cellához. Ebben az esetben megjegyzést fűzünk az „F5” cellához.
+Most pedig térjünk át az izgalmas részre – egy adott cellához fűzött megjegyzés fűzésére. Ebben az esetben az „F5” cellához fogunk megjegyzést fűzni.
 ```csharp
 // Megjegyzés hozzáadása az "F5" cellához
 int commentIndex = worksheet.Comments.Add("F5");
 ```
-Tekintsd ezt úgy, mintha egy öntapadó cetlit csatolsz a munkád egy adott részéhez. Segít emlékezni a gondolataidra!
+Gondolj erre úgy, mintha egy öntapadós cetlit ragasztanál a munkád egy adott részére. Segít emlékezni a gondolataidra!
 ## 6. lépés: Az újonnan hozzáadott megjegyzés elérése
-A megjegyzésünk testreszabásához közvetlenül hozzá kell férnünk hozzá.
+A megjegyzés testreszabásához a hozzáadás után azonnal hozzá kell férnünk.
 ```csharp
 // Az újonnan hozzáadott megjegyzés elérése
 Comment comment = worksheet.Comments[commentIndex];
 ```
-Ebben a lépésben lekérjük a cetliünket, hogy ráírhassuk a gondolatainkat.
-## 7. lépés: A megjegyzés megjegyzés beállítása
-Most itt az ideje, hogy feljegyezzük a jegyzetünket. Adjunk hozzá egy kis szöveget a megjegyzéshez.
+Ebben a lépésben visszakeressük az öntapadós jegyzetünket, hogy leírhassuk rá a gondolatainkat.
+## 7. lépés: A megjegyzés beállítása
+Most pedig itt az ideje, hogy leírjuk a jegyzetünket. Adjunk hozzá szöveget a megjegyzéshez.
 ```csharp
-// A megjegyzés megjegyzés beállítása
+// A megjegyzésjegyzet beállítása
 comment.Note = "Hello Aspose!";
 ```
-Képzelje el ezt úgy, hogy felírja a cetlire. Szavakba foglalod a gondolataidat!
-## 8. lépés: Az Excel fájl mentése
-Végül, de nem utolsósorban meg kell mentenünk a kemény munkánkat. Ezzel elmentjük a munkafüzetet a megjegyzésünkkel együtt!
+Képzeld el ezt úgy, mintha egy öntapadós cetlire írnál. Szavakká önted a gondolataidat!
+## 8. lépés: Az Excel-fájl mentése
+Végül, de nem utolsósorban, el kell mentenünk a kemény munkánkat. Ez a munkafüzetet a megjegyzésünkkel együtt menti el!
 ```csharp
 // Az Excel fájl mentése
 workbook.Save(dataDir + "book1.out.xls");
 ```
-Ez a lépés olyan, mintha becsukná a könyvet egy fantasztikus történet megírása után – biztos szeretne lenni abban, hogy megmenti!
+Ez a lépés olyan, mintha egy fantasztikus történet megírása után becsuknád a könyvedet – biztos akarsz lenni benne, hogy megmentik!
 ## Következtetés
-És megvan! Sikeresen megjegyzéseket fűzött egy Excel-fájl celláihoz az Aspose.Cells for .NET segítségével. A megjegyzések hasznosak lehetnek együttműködési projekteknél, vagy egyszerűen emlékeztetőket hagyhatnak maguknak. Most, hogy az egész folyamaton keresztülment, készen áll arra, hogy Excel-készségeit a következő szintre emelje.
+És íme! Sikeresen hozzáadtál megjegyzéseket egy Excel fájl celláihoz az Aspose.Cells for .NET segítségével. A megjegyzések hasznosak lehetnek közös projektekhez, vagy egyszerűen csak emlékeztetők hagyásához magadnak. Most, hogy végigmentél a teljes folyamaton, felkészült vagy arra, hogy Excel-ismereteidet a következő szintre emeld.
 ## GYIK
-### Hozzáadhatok megjegyzéseket az alakzatokhoz az Aspose.Cells használatával?
-Igen! Hasonló módon fűzhet megjegyzéseket az alakzatokhoz, mint a cellákhoz.
+### Hozzáadhatok megjegyzéseket alakzatokhoz az Aspose.Cells használatával?
+Igen! Az alakzatokhoz hasonló módon fűzhet megjegyzéseket, mint a cellákhoz.
 ### Milyen fájlformátumokat támogat az Aspose.Cells?
-Az Aspose.Cells különféle formátumokat támogat, beleértve az XLS-t, XLSX-et, CSV-t és még sok mást.
-### Az Aspose.Cells ingyenesen használható?
-Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkciókhoz licencet kell vásárolnia.
-### Hol találok támogatást az Aspose.Cells számára?
- Támogatást kaphat, ha ellátogat a[Aspose fórum](https://forum.aspose.com/c/cells/9).
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?
- Ideiglenes engedélyt a[Aspose licenc oldal](https://purchase.aspose.com/temporary-license/).
+Az Aspose.Cells különféle formátumokat támogat, beleértve az XLS, XLSX, CSV és egyebeket.
+### Ingyenesen használható az Aspose.Cells?
+Az Aspose.Cells ingyenes próbaverziót kínál, de a teljes funkciók eléréséhez licencet kell vásárolni.
+### Hol találok támogatást az Aspose.Cells-hez?
+Támogatást kaphatsz, ha ellátogatsz a következő oldalra: [Aspose fórum](https://forum.aspose.com/c/cells/9).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?
+Ideiglenes engedélyt lehet beszerezni a [Aspose licencoldal](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

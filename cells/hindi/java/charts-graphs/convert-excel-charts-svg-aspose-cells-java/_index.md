@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@
 ```
 
 ### ग्रैडल
-Gradle प्रोजेक्ट के लिए, अपने में यह लाइन जोड़ें `build.gradle` फ़ाइल:
+Gradle प्रोजेक्ट के लिए, अपने प्रोजेक्ट में यह लाइन जोड़ें `build.gradle` फ़ाइल:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
@@ -161,6 +163,9 @@ chart.toImage(outDir + "CCToImageinSVGFormat_out.svg", options);
 - [सहयता मंच](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

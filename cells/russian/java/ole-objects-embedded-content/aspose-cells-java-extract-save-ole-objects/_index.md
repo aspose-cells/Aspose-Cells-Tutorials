@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 Прежде чем продолжить, убедитесь, что у вас есть:
 
-**Требуемые библиотеки:**
+**Необходимые библиотеки:**
 - Aspose.Cells для Java (версия 25.3 или более поздняя)
 - Совместимость с версиями JDK, подходящими для запуска Aspose.Cells
 
@@ -96,7 +98,7 @@ Workbook workbook = new Workbook(dataDir + "/oleFile.xlsx");
 ```
 
 #### Шаг 2: Извлечение объектов OLE
-Доступ к коллекции объектов OLE на первом рабочем листе:
+Получите доступ к коллекции объектов OLE на первом рабочем листе:
 ```java
 import com.aspose.cells.OleObjectCollection;
 
@@ -196,6 +198,9 @@ oleBook.save("YOUR_OUTPUT_DIRECTORY/object.xlsx");
 - [Форум поддержки сообщества](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

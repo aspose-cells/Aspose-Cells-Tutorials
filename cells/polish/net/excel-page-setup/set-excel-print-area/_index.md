@@ -1,14 +1,16 @@
 ---
-title: Ustaw obszar wydruku programu Excel
-linktitle: Ustaw obszar wydruku programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak ustawić obszar wydruku w arkuszu Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby usprawnić zadania drukowania.
-weight: 140
-url: /pl/net/excel-page-setup/set-excel-print-area/
+"description": "Dowiedz się, jak ustawić obszar wydruku w arkuszu Excela za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby usprawnić zadania drukowania."
+"linktitle": "Ustaw obszar wydruku programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Ustaw obszar wydruku programu Excel"
+"url": "/pl/net/excel-page-setup/set-excel-print-area/"
+"weight": 140
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw obszar wydruku programu Excel
@@ -19,11 +21,11 @@ Jeśli chodzi o programowe zarządzanie plikami Excela, wielu deweloperów zwrac
 
 ## Wymagania wstępne
 
-Zanim zanurzymy się w naszej przygodzie z kodowaniem, poświęćmy chwilę, aby upewnić się, że masz wszystko, czego potrzebujesz, aby podążać za tym. Oto lista kontrolna:
+Zanim zanurzymy się w naszej przygodzie z kodowaniem, poświęćmy chwilę, aby upewnić się, że masz wszystko, czego potrzebujesz, aby to zrobić. Oto lista kontrolna:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio, ponieważ będziemy używać tego środowiska programistycznego.
 2. .NET Framework: Upewnij się, że Twój projekt jest skonfigurowany z .NET Framework zgodnym z Aspose.Cells. Zazwyczaj .NET Core lub .NET Framework 4.5 i nowsze będą działać.
-3.  Biblioteka Aspose.Cells: Będziesz potrzebować Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+3. Biblioteka Aspose.Cells: Będziesz potrzebować Aspose.Cells dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 4. Podstawowa znajomość języka C#: Znajomość składni i struktury języka C# jest niezbędna, ponieważ w tym przewodniku będziemy pisać segmenty kodu.
 
 Gdy już spełnisz te wymagania wstępne, będziesz gotowy, aby wkroczyć w świat operacji w programie Excel!
@@ -45,31 +47,31 @@ Teraz omówmy krok po kroku proces ustawiania obszaru wydruku w programie Excel.
 
 Utwórz zmienną, aby określić lokalizację dokumentów Excela. 
 
- Kiedy pracujesz nad projektem, ważne jest, aby mieć zdefiniowaną ścieżkę, w której znajdują się lub zostaną zapisane Twoje pliki. W naszym przypadku zdefiniujemy zmienną o nazwie`dataDir` następująco:
+Kiedy pracujesz nad projektem, ważne jest, aby mieć zdefiniowaną ścieżkę, w której znajdują się lub zostaną zapisane Twoje pliki. W naszym przypadku zdefiniujemy zmienną o nazwie `dataDir` następująco:
 
 ```csharp
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką na komputerze, gdzie chcesz przechowywać plik Excel. To jak zakładanie obozu bazowego przed wspinaczką na górę!
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką na komputerze, gdzie chcesz przechowywać plik Excel. To jak zakładanie obozu bazowego przed wspinaczką na górę!
 
 ## Krok 2: Utwórz obiekt skoroszytu
 
 Utwórz instancję klasy Workbook.
 
- Teraz czas na stworzenie samego projektu skoroszytu programu Excel. Zrobisz to, tworząc instancję`Workbook` obiekt. Ten krok jest miejscem, w którym zaczyna się cała magia:
+Teraz czas na stworzenie samego projektu skoroszytu programu Excel. Zrobisz to, tworząc instancję `Workbook` obiekt. Ten krok jest miejscem, w którym zaczyna się cała magia:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Pomyśl o`Workbook` klasa jako Twoje płótno. Każdy szczegół, który do niego dodasz, znajdzie odzwierciedlenie w ostatecznym obrazie — Twoim pliku Excel!
+Pomyśl o `Workbook` klasa jako Twoje płótno. Każdy szczegół, który do niego dodasz, znajdzie odzwierciedlenie w ostatecznym obrazie — Twoim pliku Excel!
 
 ## Krok 3: Uzyskaj dostęp do PageSetup
 
 Pobierz obiekt PageSetup pierwszego arkusza kalkulacyjnego.
 
- Każdy arkusz w skoroszycie ma swoje właściwości konfiguracji, takie jak obszar wydruku, orientacja strony i marginesy. Dostęp do tych właściwości uzyskasz za pomocą`PageSetup` klasa. Oto jak złapać pierwszy arkusz`PageSetup`:
+Każdy arkusz w skoroszycie ma swoje właściwości konfiguracji, takie jak obszar wydruku, orientacja strony i marginesy. Dostęp do tych właściwości uzyskasz za pomocą `PageSetup` klasa. Oto jak złapać pierwszy arkusz `PageSetup`:
 
 ```csharp
 PageSetup pageSetup = workbook.Worksheets[0].PageSetup;
@@ -111,19 +113,21 @@ Ustawienie obszaru wydruku w pliku Excel przy użyciu Aspose.Cells dla .NET moż
 Aspose.Cells to biblioteka .NET umożliwiająca tworzenie, modyfikowanie i konwertowanie arkuszy kalkulacyjnych programu Excel bez konieczności korzystania z programu Microsoft Excel.
 
 ### Jak pobrać Aspose.Cells?
- Aspose.Cells dla .NET można pobrać ze strony[strona wydania](https://releases.aspose.com/cells/net/).
+Możesz pobrać Aspose.Cells dla .NET ze strony [strona wydania](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować funkcje biblioteki.
+Tak, Aspose oferuje [bezpłatny okres próbny](https://releases.aspose.com/) aby przetestować funkcje biblioteki.
 
 ### Gdzie mogę znaleźć więcej dokumentacji?
- Pełna dokumentacja jest dostępna na stronie[Strona dokumentacji Aspose.Cells](https://reference.aspose.com/cells/net/).
+Pełna dokumentacja jest dostępna na stronie [Strona dokumentacji Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- W przypadku pytań lub problemów możesz skontaktować się z nami pod adresem[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+W przypadku pytań lub problemów możesz skontaktować się z nami pod adresem [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

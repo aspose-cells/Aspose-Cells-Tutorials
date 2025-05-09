@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Une compréhension de base de la programmation Java, incluant les concepts orien
 ## Configuration d'Aspose.Cells pour Java
 Avant de manipuler des fichiers Excel à l'aide d'Aspose.Cells, configurez la bibliothèque dans votre environnement :
 
-1. **Installation**: Incluez la dépendance Aspose.Cells via Maven ou Gradle comme indiqué ci-dessus.
+1. **Installation**Incluez la dépendance Aspose.Cells via Maven ou Gradle comme indiqué ci-dessus.
 2. **Acquisition de licence**: Commencez par un essai gratuit en téléchargeant une licence temporaire à partir de [Site Web d'Aspose](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -122,7 +124,7 @@ Ce code enregistre votre classeur ajusté dans un répertoire de sortie avec un 
 Voici quelques scénarios réels dans lesquels l’ajustement automatique des lignes peut être incroyablement utile :
 1. **Rapports financiers**:Assurez la lisibilité des états financiers en ajustant dynamiquement la taille des lignes en fonction des entrées de données détaillées.
 2. **Gestion des stocks**: Ajustez les listes d’inventaire pour tenir compte des descriptions et des quantités variables, tout en conservant une présentation claire.
-3. **Planification de projet**Améliorez les diagrammes de Gantt ou les chronologies de projet où les tâches ont des descriptions qui s'étendent sur plusieurs lignes.
+3. **Planification de projet**: Améliorez les diagrammes de Gantt ou les chronologies de projet où les tâches ont des descriptions qui s'étendent sur plusieurs lignes.
 4. **Analyse des données**:Optimisez les tableaux de bord en ajustant soigneusement les lignes autour de commentaires ou de résultats de longueur variable.
 
 ## Considérations relatives aux performances
@@ -163,6 +165,9 @@ Grâce à ces ressources, vous pourrez approfondir les fonctionnalités d'Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

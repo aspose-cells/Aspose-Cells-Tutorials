@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,6 +140,9 @@ Aspose.Cells는 매크로가 활성화된 파일을 읽을 수 있지만, 매크
 이 포괄적인 가이드를 따라 하면 이제 Aspose.Cells for Java를 사용하여 SXC 파일을 효율적으로 작업할 준비가 되었습니다. 애플리케이션 개선을 원하는 개발자든 데이터 처리 작업을 간소화하려는 조직이든, Aspose.Cells는 이러한 목표를 원활하게 달성하는 데 필요한 도구를 제공합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

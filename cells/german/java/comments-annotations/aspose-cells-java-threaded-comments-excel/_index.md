@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -165,6 +167,9 @@ A2: Verwenden Sie Maven- oder Gradle-Abhängigkeiten wie zuvor gezeigt und stell
 A3: Ja, Sie können mehrere Autoren hinzufügen, um verschiedene Kommentatoren in Ihrer Excel-Arbeitsmappe zu verwalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

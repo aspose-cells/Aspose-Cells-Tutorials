@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -87,7 +89,7 @@ public class InitializeWorkbook {
 ```
 
 ## Hướng dẫn thực hiện
-Bây giờ bạn đã thiết lập xong, hãy cùng triển khai giải pháp định dạng bảng Excel của chúng tôi.
+Bây giờ bạn đã thiết lập xong, hãy triển khai giải pháp định dạng bảng Excel của chúng tôi.
 
 ### Tạo và Thêm ListObject
 #### Tổng quan
@@ -218,6 +220,9 @@ Bạn đã học cách thiết lập và sử dụng Aspose.Cells for Java để
 Bắt đầu triển khai các kỹ thuật này vào dự án của bạn và xem Aspose.Cells có thể biến đổi các tác vụ quản lý dữ liệu Excel của bạn như thế nào.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

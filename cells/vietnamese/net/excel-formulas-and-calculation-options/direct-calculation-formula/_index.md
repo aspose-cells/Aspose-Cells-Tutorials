@@ -1,14 +1,16 @@
 ---
-title: Công thức tính toán trực tiếp trong Excel theo chương trình
-linktitle: Công thức tính toán trực tiếp trong Excel theo chương trình
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Khám phá cách sử dụng Aspose.Cells cho .NET để thực hiện các phép tính Excel theo chương trình. Hướng dẫn từng bước để thực hiện các thao tác Excel dễ dàng.
-weight: 14
-url: /vi/net/excel-formulas-and-calculation-options/direct-calculation-formula/
+"description": "Khám phá cách sử dụng Aspose.Cells cho .NET để thực hiện các phép tính Excel theo chương trình. Hướng dẫn từng bước để thực hiện các thao tác Excel dễ dàng."
+"linktitle": "Công thức tính toán trực tiếp trong Excel theo chương trình"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Công thức tính toán trực tiếp trong Excel theo chương trình"
+"url": "/vi/net/excel-formulas-and-calculation-options/direct-calculation-formula/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Công thức tính toán trực tiếp trong Excel theo chương trình
@@ -20,7 +22,7 @@ Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn đã chuẩn bị m
 ### Bạn đã cài đặt .NET chưa?
 Đảm bảo rằng bạn đã cài đặt .NET framework trên máy của mình. Aspose.Cells cho .NET tương thích với nhiều phiên bản .NET, vì vậy hãy đảm bảo rằng bạn đã cài đặt ít nhất .NET Framework 4.0 trở lên.
 ### Nhận Aspose.Cells
- Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Điều này có thể được thực hiện dễ dàng thông qua NuGet hoặc tải xuống trực tiếp từ[trang phát hành của họ](https://releases.aspose.com/cells/net/).
+Bạn sẽ cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Điều này có thể được thực hiện dễ dàng thông qua NuGet hoặc tải xuống trực tiếp từ [trang phát hành của họ](https://releases.aspose.com/cells/net/).
 ### Kiến thức cơ bản về C#
 Vì các mẫu mã của chúng tôi sẽ bằng C#, điều quan trọng là bạn phải thoải mái với những kiến thức cơ bản của ngôn ngữ này. Sự quen thuộc với các khái niệm lập trình hướng đối tượng cũng sẽ giúp ích!
 ### Một chút kiên nhẫn!
@@ -68,7 +70,7 @@ Bây giờ các ô của chúng ta đã được điền số, chúng ta sẽ t�
 ```csharp
 var results = worksheet.CalculateFormula("=Sum(A1:A2)");
 ```
- Ở đây, chúng tôi kêu gọi`CalculateFormula` để tính tổng dựa trên dữ liệu đầu vào của chúng ta. Giống như yêu cầu Excel làm những việc nặng nhọc thay chúng ta vậy—thật tiện lợi!
+Ở đây, chúng tôi kêu gọi `CalculateFormula` để tính tổng dựa trên dữ liệu đầu vào của chúng ta. Giống như yêu cầu Excel làm những việc nặng nhọc thay chúng ta vậy—thật tiện lợi!
 ## Bước 6: Hiển thị đầu ra
 Để xem các tính toán của mình, chúng ta sẽ in các giá trị ra bảng điều khiển:
 ```csharp
@@ -84,16 +86,18 @@ Cho dù là để báo cáo, phân tích dữ liệu hay chỉ đơn giản là 
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là một thư viện mạnh mẽ để quản lý các tệp Excel theo chương trình, cho phép bạn tạo, sửa đổi và tính toán các bảng tính Excel.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, bạn có thể truy cập phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập phiên bản dùng thử miễn phí từ [đây](https://releases.aspose.com/).
 ### Có cần phải biết các hàm trong Excel không?
 Mặc dù hữu ích, nhưng không nhất thiết phải như vậy. Sử dụng Aspose.Cells cho phép bạn xử lý các hàm Excel theo chương trình.
 ### Tôi có thể tìm thêm tài liệu ở đâu?
-Bạn có thể tìm thấy tài liệu toàn diện[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện [đây](https://reference.aspose.com/cells/net/).
 ### Tôi có thể nhận được hỗ trợ cho Aspose.Cells như thế nào?
- Để được hỗ trợ, vui lòng liên hệ với họ[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Để được hỗ trợ, vui lòng liên hệ với họ [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

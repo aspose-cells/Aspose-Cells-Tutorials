@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bảo mật dữ liệu Excel
@@ -40,9 +42,11 @@ Tìm hiểu các Kỹ thuật che giấu dữ liệu hiệu quả bằng Aspose.
 Tìm hiểu cách kiểm tra quyền truy cập tệp bằng Aspose.Cells cho Java API. Hướng dẫn từng bước với mã nguồn và câu hỏi thường gặp.
 ### [Xác thực dữ liệu để bảo mật](./data-validation-for-security/)
 Tăng cường bảo mật dữ liệu với Aspose.Cells cho Java. Khám phá các kỹ thuật xác thực dữ liệu toàn diện. Tìm hiểu cách triển khai xác thực và bảo vệ mạnh mẽ.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

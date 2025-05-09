@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/group-data-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Group Data with Smart Markers in Aspose.Cells .NET
@@ -134,6 +136,7 @@ For any questions or issues, you can visit the support forum [here](https://foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ public class OpenExcel97File {
 
 #### 説明
 - **ワークブック：** Excel ファイルを処理するための中心クラスであり、データの読み取りと書き込みの両方を容易にします。
-- **パスパラメータ:** ファイルパスが正しいことを確認して、 `FileNotFoundException`。
+- **パスパラメータ:** ファイルパスが正しいことを確認してください。 `FileNotFoundException`。
 
 ### トラブルシューティングのヒント
 - Excel ファイル形式を確認して、Excel 97/2003 との互換性を確保します。
@@ -146,6 +148,9 @@ A: 公式ウェブサイトをご覧ください [Aspose ドキュメント](htt
 今すぐ Aspose.Cells を使用して Java で Excel ファイルの管理を始めましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

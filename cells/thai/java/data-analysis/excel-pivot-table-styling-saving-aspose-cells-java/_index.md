@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ pivotTable.formatAll(style);
 ### คุณลักษณะที่ 5: การใช้สไตล์กับเซลล์เฉพาะในตารางสรุปข้อมูล
 
 #### ภาพรวม
-หากต้องการควบคุมอย่างละเอียด ให้ใช้รูปแบบกับเซลล์เฉพาะภายในตารางสรุปข้อมูลของคุณ ซึ่งจะเน้นจุดข้อมูลหรือแถวสำคัญ
+หากต้องการควบคุมให้ละเอียดยิ่งขึ้น ให้ใช้รูปแบบกับเซลล์เฉพาะภายในตารางสรุปข้อมูลของคุณ ซึ่งจะเน้นจุดข้อมูลหรือแถวสำคัญ
 
 #### ใช้รูปแบบกับเซลล์เฉพาะ
 ```java
@@ -207,6 +209,9 @@ workbook.save(outDir + "/FPTCells_out.xlsx");
 - [ดาวน์โหลด Aspose.Cells สำหรับ Java](https://releases.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

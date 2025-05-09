@@ -1,14 +1,16 @@
 ---
-title: Grafikteki Ana Kılavuz Çizgilerini Değiştir
-linktitle: Grafikteki Ana Kılavuz Çizgilerini Değiştir
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET'i kullanarak Excel grafiklerindeki ana kılavuz çizgilerini nasıl değiştireceğinizi öğrenin.
-weight: 11
-url: /tr/net/setting-chart-appearance/change-major-gridlines-in-chart/
+"description": "Ayrıntılı adım adım kılavuzumuzla Aspose.Cells for .NET kullanarak Excel grafiklerindeki ana kılavuz çizgilerini nasıl değiştireceğinizi öğrenin."
+"linktitle": "Grafikteki Ana Kılavuz Çizgilerini Değiştir"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Grafikteki Ana Kılavuz Çizgilerini Değiştir"
+"url": "/tr/net/setting-chart-appearance/change-major-gridlines-in-chart/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafikteki Ana Kılavuz Çizgilerini Değiştir
@@ -22,7 +24,7 @@ Excel'de görsel olarak çekici grafikler oluşturmak, etkili veri sunumu için 
 Başlamadan önce, Aspose.Cells ile çalışırken sorunsuz bir deneyim sağlamak için yerinde olması gereken birkaç şey var:
 
 - Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. Kodunuzu burada yazacak ve çalıştıracaksınız.
--  .NET için Aspose.Cells: Aspose.Cells'in en son sürümünü şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) Satın almadan önce denemek istiyorsanız, bir üyeliğe kaydolmayı düşünebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+- .NET için Aspose.Cells: Aspose.Cells'in en son sürümünü şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/cells/net/)Satın almadan önce denemek istiyorsanız, bir üyeliğe kaydolmayı düşünebilirsiniz. [ücretsiz deneme](https://releases.aspose.com/).
 - Temel C# Bilgisi: C# programlamaya aşina olmak, bu eğitimdeki örnekleri takip etmenizi kolaylaştıracaktır.
 
 Her şeyi ayarladıktan sonra kodumuzu yazmaya başlayabiliriz!
@@ -50,11 +52,11 @@ Yapmak isteyeceğiniz ilk şey çıktı Excel dosyasını nereye kaydetmek isted
 string outputDir = "Your Output Directory"; // İstediğiniz yolla güncelleyin
 ```
 
- Yer değiştirmek`"Your Output Directory"` dosyanızı kaydetmek istediğiniz gerçek yol ile.
+Yer değiştirmek `"Your Output Directory"` dosyanızı kaydetmek istediğiniz gerçek yol ile.
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Daha sonra, yeni bir örnek oluşturmanız gerekir`Workbook` sınıf. Bu nesne Excel dosyanızı temsil edecek ve içeriğini düzenlemenize olanak tanıyacaktır.
+Daha sonra, yeni bir örnek oluşturmanız gerekir `Workbook` sınıf. Bu nesne Excel dosyanızı temsil edecek ve içeriğini düzenlemenize olanak tanıyacaktır.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesini örnekleme
@@ -65,7 +67,7 @@ Bu kod satırı, çalışma sayfamız ve grafiğimiz için boş bir tuval sağla
 
 ## Adım 3: Çalışma Sayfasına Erişim
 
- Çalışma kitabını oluşturduktan sonra, varsayılan çalışma sayfasına erişebilirsiniz. Aspose.Cells'deki çalışma sayfaları dizinlenmiştir, bu nedenle ilk çalışma sayfasını istiyorsanız, ona dizine göre başvurursunuz`0`.
+Çalışma kitabını oluşturduktan sonra, varsayılan çalışma sayfasına erişebilirsiniz. Aspose.Cells'deki çalışma sayfaları dizinlenmiştir, bu nedenle ilk çalışma sayfasını istiyorsanız, ona dizine göre başvurursunuz `0`.
 
 ```csharp
 // Yeni eklenen çalışma sayfasının referansını sayfa indeksini geçirerek elde etme
@@ -97,11 +99,11 @@ Verilerimiz yerli yerindeyken, bir grafik oluşturmanın zamanı geldi. Veri set
 int chartIndex = worksheet.Charts.Add(Aspose.Cells.Charts.ChartType.Column, 5, 0, 25, 10);
 ```
 
-Bu kodda, grafiğin türünü (bu durumda sütun grafiği) ve onu yerleştirmek istediğimiz konumu belirtiyoruz.
+Bu kodda, grafiğin türünü (bu durumda sütun grafiği) ve grafiği yerleştirmek istediğimiz konumu belirtiyoruz.
 
 ## Adım 6: Grafik Örneğine Erişim
 
- Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır:`Charts`koleksiyon.
+Tabloyu oluşturduğumuzda, özelliklerini değiştirmek için örneğine erişmemiz gerekir. Bu, onu şu şekilde alarak yapılır: `Charts` koleksiyon.
 
 ```csharp
 // Yeni eklenen grafiğin örneğine erişim
@@ -187,19 +189,21 @@ Ve işte karşınızda! .NET için Aspose.Cells'i kullanarak bir grafikteki ana 
 Aspose.Cells, Excel dosyalarını program aracılığıyla oluşturmak, düzenlemek ve yönetmek için tasarlanmış bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i ücretsiz deneyebilir miyim?  
- Evet, ücretsiz denemeye kaydolabilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz denemeye kaydolabilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells kullanarak bir grafikteki diğer öğeleri nasıl değiştirebilirim?  
- Benzer şekilde, grafik öğelerine erişerek çeşitli grafik özelliklerini özelleştirebilirsiniz.`Chart` başlıklar, açıklamalar ve veri etiketleri gibi sınıflar.
+Benzer şekilde, grafik öğelerine şu şekilde erişerek çeşitli grafik özelliklerini özelleştirebilirsiniz: `Chart` başlıklar, açıklamalar ve veri etiketleri gibi sınıflar.
 
 ### Aspose.Cells hangi dosya formatlarını destekler?  
 Aspose.Cells, XLSX, XLS, CSV ve diğerleri de dahil olmak üzere birden fazla dosya formatını destekler.
 
 ### Aspose.Cells için dokümanları nerede bulabilirim?  
- Ayrıntılı belgelere şu adresten ulaşabilirsiniz:[Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+Ayrıntılı belgelere şu adresten ulaşabilirsiniz: [Aspose.Cells Belgeleri](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

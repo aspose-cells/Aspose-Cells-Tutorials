@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@
 1. **所需的庫和相依性：**
    - Aspose.Cells for Java 函式庫（版本 25.3 或更高版本）。
    - 像 IntelliJ IDEA 或 Eclipse 這樣的 IDE。
-   - Java 程式設計基礎知識。
+   - Java 程式設計的基本知識。
 2. **環境設定要求：**
    - 您的系統上安裝了 JDK。
    - 在您的專案中設定 Maven 或 Gradle 以進行依賴管理。
@@ -188,6 +190,9 @@ Aspose.Cells Java 提供了超越基本單元格樣式的廣泛功能：
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

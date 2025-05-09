@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # उन्नत डेटा सत्यापन तकनीकें
@@ -20,7 +22,7 @@
 
 ## Java के लिए Aspose.Cells सेट अप करना
 
-इससे पहले कि हम उन्नत तकनीकों में गोता लगाएँ, आइए Aspose.Cells for Java के साथ शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [Aspose.Cells for Java डाउनलोड लिंक](https://releases.aspose.com/cells/java/). दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करना सुनिश्चित करें [Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/).
+इससे पहले कि हम उन्नत तकनीकों में गोता लगाएँ, आइए Aspose.Cells for Java के साथ शुरुआत करें। आप लाइब्रेरी को यहाँ से डाउनलोड कर सकते हैं [Aspose.Cells for Java डाउनलोड लिंक](https://releases.aspose.com/cells/java/)दस्तावेज़ में दिए गए इंस्टॉलेशन निर्देशों का पालन करना सुनिश्चित करें [Aspose.Cells for Java API संदर्भ](https://reference.aspose.com/cells/java/).
 
 ## बुनियादी डेटा सत्यापन
 
@@ -113,6 +115,7 @@ dataValidation.setFormula2("12/31/2023");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

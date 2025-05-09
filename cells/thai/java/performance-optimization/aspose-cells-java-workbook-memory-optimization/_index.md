@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ Workbook wb = new Workbook();
    ```
    - `MEMORY_PREFERENCE`:สั่งให้ Aspose.Cells ใช้หน่วยความจำให้น้อยที่สุดเท่าที่จะเป็นไปได้
 
-### การตั้งค่าหน่วยความจำในเซลล์เวิร์กชีต
+### การตั้งค่าหน่วยความจำบนเซลล์เวิร์กชีต
 **ภาพรวม:** เรียนรู้วิธีการใช้ค่ากำหนดหน่วยความจำกับเซลล์ที่มีอยู่ภายในเวิร์กชีตเพื่อประสิทธิภาพการทำงานที่เหมาะสมที่สุด
 1. **เข้าถึงแผ่นงานแรก:** 
    ```java
@@ -137,6 +139,9 @@ Workbook wb = new Workbook();
 - **ฟอรั่มการสนับสนุน:** มีส่วนร่วมกับชุมชนเพื่อขอความช่วยเหลือเกี่ยวกับ [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

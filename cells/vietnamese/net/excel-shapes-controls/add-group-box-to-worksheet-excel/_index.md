@@ -1,14 +1,16 @@
 ---
-title: Thêm Group Box vào trang tính trong Excel
-linktitle: Thêm Group Box vào trang tính trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thêm hộp nhóm và nút radio trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho nhà phát triển ở mọi cấp độ.
-weight: 24
-url: /vi/net/excel-shapes-controls/add-group-box-to-worksheet-excel/
+"description": "Tìm hiểu cách thêm hộp nhóm và nút radio trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước dành cho nhà phát triển ở mọi cấp độ."
+"linktitle": "Thêm Group Box vào trang tính trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thêm Group Box vào trang tính trong Excel"
+"url": "/vi/net/excel-shapes-controls/add-group-box-to-worksheet-excel/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thêm Group Box vào trang tính trong Excel
@@ -18,7 +20,7 @@ Khi nói đến trình bày dữ liệu, Excel là vua. Thêm các thành phần
 ## Điều kiện tiên quyết
 Trước khi tìm hiểu về mã, bạn cần có một số thứ sau:
 1. Visual Studio: Đảm bảo rằng bạn đã cài đặt Visual Studio trên máy của mình; đây là nơi bạn sẽ viết mã .NET.
-2.  Aspose.Cells cho .NET: Bạn cần tải xuống thư viện này. Bạn có thể tìm thấy nó[đây](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells cho .NET: Bạn cần tải xuống thư viện này. Bạn có thể tìm thấy nó [đây](https://releases.aspose.com/cells/net/). 
 3. Kiến thức cơ bản về C#: Mặc dù tôi sẽ giải thích mọi thứ theo từng bước, nhưng một chút hiểu biết về C# sẽ giúp bạn theo dõi dễ hơn.
 ## Nhập gói
 Đối với bất kỳ dự án nào, trước tiên bạn cần nhập các gói cần thiết. Ở đây, Aspose.Cells sẽ là trọng tâm chính của bạn. Sau đây là cách thực hiện:
@@ -28,7 +30,7 @@ Khởi chạy Visual Studio và mở dự án hiện tại của bạn hoặc t�
 - Nhấp chuột phải vào dự án của bạn trong Solution Explorer.
 - Chọn "Quản lý gói NuGet".
 - Tìm kiếm "Aspose.Cells" và cài đặt nó. Điều này sẽ cho phép bạn sử dụng tất cả các lớp và phương thức được cung cấp bởi thư viện Aspose.Cells.
-## Bước 3: Bao gồm sử dụng Chỉ thị
+## Bước 3: Bao gồm Sử dụng Chỉ thị
 Ở đầu tệp C# của bạn, hãy bao gồm không gian tên Aspose.Cells:
 ```csharp
 using System.IO;
@@ -37,7 +39,7 @@ using Aspose.Cells.Drawing;
 using System.Drawing;
 ```
 Điều này giúp bạn truy cập vào các lớp cần thiết để làm việc với các tệp Excel.
-Bây giờ chúng ta đã thiết lập xong, hãy cùng đi sâu vào trọng tâm của hướng dẫn—thêm hộp nhóm có nút radio vào bảng tính Excel. Chúng tôi sẽ chia nhỏ quy trình này thành nhiều bước để rõ ràng hơn.
+Bây giờ chúng ta đã thiết lập xong, hãy đi sâu vào trọng tâm của hướng dẫn—thêm hộp nhóm có nút radio vào bảng tính Excel. Chúng tôi sẽ chia nhỏ quy trình này thành nhiều bước để rõ ràng hơn.
 ## Bước 1: Thiết lập thư mục tài liệu của bạn
 Trước khi tạo bất kỳ tệp Excel nào, bạn cần xác định nơi bạn muốn lưu tệp đó. Hãy tạo một thư mục nếu nó chưa tồn tại.
 ```csharp
@@ -55,7 +57,7 @@ Tiếp theo, bạn cần tạo một bảng tính Excel để thêm hộp nhóm 
 // Tạo một Workbook mới.
 Workbook excelbook = new Workbook();
 ```
-Dòng này khởi tạo một phiên bản mới của Workbook. Hãy nghĩ về điều này như việc mở một tệp Excel mới, trống sẵn sàng để sửa đổi.
+Dòng này khởi tạo một phiên bản mới của Workbook. Hãy nghĩ về điều này như việc mở một tệp Excel mới, trống, sẵn sàng để sửa đổi.
 ## Bước 3: Thêm hộp nhóm
 Bây giờ, chúng ta hãy thêm hộp nhóm đó. 
 ```csharp
@@ -70,7 +72,7 @@ Bây giờ, chúng ta hãy đặt tên cho hộp nhóm của bạn nhé!
 box.Text = "Age Groups";
 box.Placement = PlacementType.FreeFloating;
 ```
- Chuỗi “Nhóm tuổi” thiết lập nhãn xuất hiện trên hộp nhóm. Thiết lập`Placement` BẰNG`FreeFloating` cho phép hộp có thể di chuyển được—tính linh hoạt là yếu tố quan trọng!
+Chuỗi “Nhóm tuổi” thiết lập nhãn xuất hiện trên hộp nhóm. Thiết lập `Placement` BẰNG `FreeFloating` cho phép hộp có thể di chuyển được—tính linh hoạt là yếu tố quan trọng!
 ## Bước 5: Tạo hộp nhóm 2 chiều
 Mặc dù 3D nghe có vẻ lạ mắt, nhưng chúng tôi sẽ hướng đến giao diện cổ điển.
 ```csharp
@@ -137,7 +139,7 @@ excelbook.Save(dataDir + "book1.out.xls");
 ```
 Dòng mã này ghi các thay đổi của bạn vào một tệp Excel mới có tên "book1.out.xls" trong thư mục bạn chỉ định. Giống như việc niêm phong một phong bì, công việc của bạn hiện được lưu trữ an toàn!
 ## Phần kết luận
-Và đó là hướng dẫn đầy đủ về cách thêm hộp nhóm và nút radio vào bảng tính Excel bằng Aspose.Cells cho .NET! Với mỗi bước, bạn đã học cách thao tác Excel theo chương trình, mở ra cánh cửa đến vô số khả năng tùy chỉnh báo cáo, hình ảnh hóa dữ liệu, v.v. Vẻ đẹp của lập trình là bạn có thể tự động hóa các tác vụ và tạo giao diện thân thiện với người dùng một cách tương đối dễ dàng—hãy tưởng tượng tiềm năng!
+Và đó là tất cả những gì bạn cần—hướng dẫn đầy đủ về cách thêm hộp nhóm và nút radio vào bảng tính Excel bằng Aspose.Cells cho .NET! Với mỗi bước, bạn đã học cách thao tác Excel theo chương trình, mở ra cánh cửa đến vô số khả năng tùy chỉnh báo cáo, hình ảnh hóa dữ liệu, v.v. Vẻ đẹp của lập trình là bạn có thể tự động hóa các tác vụ và tạo giao diện thân thiện với người dùng một cách tương đối dễ dàng—hãy tưởng tượng tiềm năng!
 ## Câu hỏi thường gặp
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET dùng để quản lý các tệp Excel, cho phép thực hiện các tác vụ như đọc, viết và thao tác bảng tính theo chương trình.
@@ -146,12 +148,14 @@ Mặc dù một số kiến thức về lập trình có thể hữu ích, nhưn
 ### Tôi có thể tùy chỉnh giao diện của hộp nhóm và nút không?
 Chắc chắn rồi! Aspose.Cells cung cấp nhiều tùy chọn để tạo kiểu cho hình dạng, bao gồm màu sắc, kích thước và hiệu ứng 3D.
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?
- Vâng! Bạn có thể dùng thử miễn phí bằng cách truy cập[Dùng thử miễn phí Aspose](https://releases.aspose.com/).
+Vâng! Bạn có thể dùng thử miễn phí bằng cách truy cập [Dùng thử miễn phí Aspose](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm tài nguyên hoặc hỗ trợ cho Aspose.Cells ở đâu?
- Các[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) là nơi tuyệt vời để tìm kiếm sự giúp đỡ và chia sẻ kiến thức với cộng đồng.
+Các [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) là nơi tuyệt vời để tìm kiếm sự giúp đỡ và chia sẻ kiến thức với cộng đồng.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

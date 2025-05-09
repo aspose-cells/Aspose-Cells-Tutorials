@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Tận dụng sức mạnh của việc quản lý các kết nối cơ sở dữ
 ## Điều kiện tiên quyết
 Trước khi triển khai giải pháp của chúng tôi, hãy đảm bảo bạn có những điều sau:
 
-1. **Thư viện bắt buộc:** Thư viện Aspose.Cells cho Java phiên bản 25.3.
+1. **Thư viện cần thiết:** Thư viện Aspose.Cells cho Java phiên bản 25.3.
 2. **Yêu cầu thiết lập môi trường:** Môi trường phát triển với Maven hoặc Gradle là trình quản lý phụ thuộc của bạn.
 3. **Điều kiện tiên quyết về kiến thức:** Hiểu biết cơ bản về lập trình Java và thao tác Excel sẽ rất có lợi.
 
@@ -167,6 +169,9 @@ Sẵn sàng đưa ứng dụng Java của bạn lên tầm cao mới? Hãy thử
    - Giấy phép tạm thời cho phép bạn khám phá toàn bộ khả năng của Aspose.Cells trong thời gian dùng thử.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

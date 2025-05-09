@@ -1,14 +1,16 @@
 ---
-title: Quản lý kích thước giấy Excel
-linktitle: Quản lý kích thước giấy Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Học cách quản lý kích thước giấy Excel bằng Aspose.Cells cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước và ví dụ để tích hợp liền mạch.
-weight: 70
-url: /vi/net/excel-page-setup/manage-excel-paper-size/
+"description": "Học cách quản lý kích thước giấy Excel bằng Aspose.Cells cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước và ví dụ để tích hợp liền mạch."
+"linktitle": "Quản lý kích thước giấy Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Quản lý kích thước giấy Excel"
+"url": "/vi/net/excel-page-setup/manage-excel-paper-size/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Quản lý kích thước giấy Excel
@@ -23,7 +25,7 @@ Trước khi đi sâu vào các chi tiết kỹ thuật về cách quản lý k�
 
 1. Hiểu biết cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp quá trình tích hợp Aspose.Cells vào các dự án của bạn dễ dàng hơn đáng kể.
 2. Đã cài đặt Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy để viết và thực thi mã C#.
-3. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải có được Aspose.Cells. Bạn có thể[tải xuống ở đây](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells cho Thư viện .NET: Bạn sẽ cần phải có được Aspose.Cells. Bạn có thể [tải xuống ở đây](https://releases.aspose.com/cells/net/).
 4. Trình quản lý gói NuGet: Đảm bảo bạn có quyền truy cập vào Trình quản lý gói NuGet vì bạn có thể dễ dàng cài đặt Aspose.Cells bằng trình quản lý này.
 
 Với những điều kiện tiên quyết này, chúng ta hãy bắt đầu nhé!
@@ -64,17 +66,17 @@ Trong bước này, bạn sẽ thiết lập thư mục nơi bạn muốn lưu t
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi bạn muốn lưu tệp. Ví dụ, nó có thể là thứ gì đó như`C:\Documents\`.
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế trên hệ thống của bạn nơi bạn muốn lưu tệp. Ví dụ, nó có thể là thứ gì đó như `C:\Documents\`.
 
 ## Bước 2: Tạo một đối tượng Workbook
 
- Tiếp theo, bạn sẽ khởi tạo một`Workbook` đối tượng, đại diện cho tệp Excel của bạn. Sau đây là cách thực hiện:
+Tiếp theo, bạn sẽ khởi tạo một `Workbook` đối tượng, đại diện cho tệp Excel của bạn. Sau đây là cách thực hiện:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- Dòng này tạo một sổ làm việc mới trong bộ nhớ. Nếu bạn đang làm việc với một tệp hiện có, bạn có thể truyền đường dẫn tệp đến`Workbook` người xây dựng.
+Dòng này tạo một sổ làm việc mới trong bộ nhớ. Nếu bạn đang làm việc với một tệp hiện có, bạn có thể truyền đường dẫn tệp đến `Workbook` người xây dựng.
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -94,7 +96,7 @@ Bây giờ đến phần quan trọng—thiết lập kích thước giấy thà
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 ```
 
- Dòng này thiết lập kích thước giấy cho bảng tính được chỉ định là A4. Bạn có thể dễ dàng hoán đổi`PaperA4` với các kích thước giấy khác có sẵn trong`PaperSizeType` liệt kê, chẳng hạn như`PaperLetter` hoặc`PaperA3`.
+Dòng này thiết lập kích thước giấy cho bảng tính được chỉ định là A4. Bạn có thể dễ dàng hoán đổi `PaperA4` với các kích thước giấy khác có sẵn trong `PaperSizeType` liệt kê, chẳng hạn như `PaperLetter` hoặc `PaperA3`.
 
 ## Bước 5: Lưu sổ làm việc
 
@@ -104,7 +106,7 @@ Sau khi đã xác định kích thước giấy, đã đến lúc lưu bảng t�
 workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ```
 
- Dòng này lưu sổ làm việc đã sửa đổi của bạn vào thư mục đã chỉ định. Tên của tệp đầu ra ở đây là`ManagePaperSize_out.xls`, nhưng bạn có thể tùy chỉnh theo nhu cầu của mình.
+Dòng này lưu sổ làm việc đã sửa đổi của bạn vào thư mục đã chỉ định. Tên của tệp đầu ra ở đây là `ManagePaperSize_out.xls`nhưng bạn có thể tùy chỉnh theo nhu cầu của mình.
 
 ## Phần kết luận
 
@@ -113,22 +115,24 @@ Quản lý kích thước giấy trong các trang tính Excel trở nên dễ d�
 ## Câu hỏi thường gặp
 
 ### Tôi có thể thiết lập những kích thước giấy nào khác nhau khi sử dụng Aspose.Cells?
- Aspose.Cells hỗ trợ nhiều kích cỡ giấy khác nhau, bao gồm A3, A4, A5, Letter, v.v. Bạn có thể khám phá`PaperSizeType` liệt kê trong tài liệu.
+Aspose.Cells hỗ trợ nhiều kích cỡ giấy khác nhau, bao gồm A3, A4, A5, Letter, v.v. Bạn có thể khám phá `PaperSizeType` liệt kê trong tài liệu.
 
 ### Tôi có thể thiết lập kích thước giấy cho nhiều trang tính cùng một lúc không?
 Có, bạn có thể truy cập nhiều trang tính trong một vòng lặp và áp dụng cùng một cài đặt kích thước giấy cho từng trang tính.
 
 ### Aspose.Cells có miễn phí sử dụng không?
- Aspose.Cells là một thư viện thương mại; tuy nhiên, nó cung cấp bản dùng thử miễn phí. Bạn có thể yêu cầu[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá đầy đủ các tính năng của nó.
+Aspose.Cells là một thư viện thương mại; tuy nhiên, nó cung cấp bản dùng thử miễn phí. Bạn có thể yêu cầu [giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá đầy đủ các tính năng của nó.
 
 ### Tôi phải xử lý ngoại lệ như thế nào khi làm việc với Aspose.Cells?
 Bạn có thể gói mã của mình trong khối try-catch để xử lý mọi ngoại lệ có thể xảy ra trong quá trình thao tác với sổ làm việc.
 
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể tìm thêm thông tin trong[tài liệu](https://reference.aspose.com/cells/net/) hoặc ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thêm thông tin trong [tài liệu](https://reference.aspose.com/cells/net/) hoặc ghé thăm [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

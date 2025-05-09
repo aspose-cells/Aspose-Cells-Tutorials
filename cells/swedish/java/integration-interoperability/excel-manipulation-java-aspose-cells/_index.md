@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatisera Excel med Java - Skapa tabeller och interaktiva diagram med Aspose.Cells
@@ -190,7 +192,7 @@ Nu ska vi visualisera tabelldata genom att skapa ett dynamiskt diagram med Aspos
 
 * **Strategisk placering av diagram:** De `add()` Metoden placerar diagrammet under tabellen för en tydlig och organiserad layout.
 * **Dynamisk datalänkning:** `setChartDataRange()` kopplar diagrammet direkt till den skapade tabellen och säkerställer att det återspeglar underliggande data.
-* **Betydande axeletiketter:** `setCategoryData()` använder kolumnen "Kategori" för att märka diagrammets X-axel, vilket ger kontext till datavisualiseringen.
+* **Betydande axeletiketter:** `setCategoryData()` använder kolumnen 'Kategori' för att märka diagrammets X-axel, vilket ger kontext till datavisualiseringen.
 * **Noggrann diagramrendering:** De `calculate()` Metoden säkerställer att diagrammet beräknas korrekt och visas med alla datapunkter.
 
 Genom att köra den här uppdaterade koden skapas en Excel-fil som innehåller både datatabellen och ett motsvarande stapeldiagram, vilket ger omedelbar visuell insikt i dina data.
@@ -287,6 +289,9 @@ Genom att bemästra dessa tekniker kan du avsevärt effektivisera dina Excel-bas
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

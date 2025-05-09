@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -229,6 +231,9 @@ De `save` De methode schrijft uw werkmap naar een bestand, waarbij alle wijzigin
 Door deze handleiding te volgen, beschikt u nu over de vaardigheden om Excel-werkmappen programmatisch te beheren met Aspose.Cells voor Java. Deze krachtige tool stroomlijnt complexe taken en verbetert de productiviteit bij het werken met Excel-bestanden. Blijf de functies verkennen om uw workflows voor gegevensbeheer verder te verbeteren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

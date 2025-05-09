@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Versuchen Sie als Nächstes, diese Techniken in Ihren Projekten zu implementiere
    - Ja, es unterstützt Stapelverarbeitungsvorgänge, die die Produktivität bei der Verarbeitung mehrerer Dateien erheblich steigern können.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

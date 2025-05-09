@@ -1,14 +1,16 @@
 ---
-title: Sıkıştırma Seviyesini Ayarla
-linktitle: Sıkıştırma Seviyesini Ayarla
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak Excel dosyaları için sıkıştırma seviyelerini nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuzla dosya boyutlarınızı verimli bir şekilde optimize edin.
-weight: 50
-url: /tr/net/excel-workbook/adjust-compression-level/
+"description": "Aspose.Cells for .NET kullanarak Excel dosyaları için sıkıştırma seviyelerini nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuzla dosya boyutlarınızı verimli bir şekilde optimize edin."
+"linktitle": "Sıkıştırma Seviyesini Ayarla"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Sıkıştırma Seviyesini Ayarla"
+"url": "/tr/net/excel-workbook/adjust-compression-level/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sıkıştırma Seviyesini Ayarla
@@ -21,8 +23,8 @@ Büyük Excel dosyalarını işlemek söz konusu olduğunda, verimli depolama an
 
 Sıkıştırma seviyelerinin ayrıntılarına dalmadan önce, başlamak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1. Temel C# Bilgisi: C# programlamanın temellerini anlamak esastır. Değişkenler, döngüler ve temel dosya işlemleri konusunda rahatsanız, hazırsınız demektir!
-2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) . Eğer yeni başlıyorsanız, ücretsiz denemeyi deneyin[Burada](https://releases.aspose.com/).
+1. C#'ın Temel Bilgisi: C# programlamanın temel bir anlayışı şarttır. Değişkenler, döngüler ve temel dosya işlemleri konusunda rahatsanız, hazırsınız demektir!
+2. Aspose.Cells for .NET Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/cells/net/). Eğer yeni başlıyorsanız, ücretsiz denemeyi deneyin [Burada](https://releases.aspose.com/).
 3. Geliştirme Ortamı: C# kodunuzu yazmak ve yürütmek için geliştirme ortamınızı, tercihen Visual Studio'yu kurun. 
 4. Örnek Excel Dosyası: Test için büyük bir Excel dosyası hazırlayın. Bir tane oluşturabilir veya mevcut herhangi bir dosyayı kullanabilirsiniz, ancak sıkıştırmanın etkilerini görebilecek kadar büyük olduğundan emin olun.
 
@@ -40,7 +42,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 ```
 
- Bu kod parçacığı şunları içe aktarır:`Aspose.Cells` Excel dosyalarıyla çalışmak için gereken tüm sınıfları içeren namespace.`Aspose.Cells.Xlsb` namespace özellikle XLSB dosya formatlarını işlemek içindir.
+Bu kod parçacığı şunları içe aktarır: `Aspose.Cells` Excel dosyalarıyla çalışmak için gereken tüm sınıfları içeren namespace. `Aspose.Cells.Xlsb` namespace özellikle XLSB dosya formatlarını işlemek içindir.
 
 Artık her şeyi ayarladığımıza göre, sıkıştırma seviyelerini ayarlama sürecini yönetilebilir adımlara bölelim. Farklı sıkıştırma seviyelerine sahip bir çalışma kitabı kaydedeceğiz ve her işlem için harcanan zamanı ölçeceğiz. 
 
@@ -62,11 +64,11 @@ Sonra, sıkıştırmak istediğimiz Excel çalışma kitabını yükleyeceğiz. 
 Workbook workbook = new Workbook(sourceDir + "LargeSampleFile.xlsx");
 ```
 
- Bu satır yeni bir satır başlatır`Workbook` Belirtilen dosyaya sahip nesne. Dosya yolunun doğru olduğundan emin olun; aksi takdirde hatalarla karşılaşırsınız.
+Bu satır yeni bir satır başlatır `Workbook` Belirtilen dosyaya sahip nesne. Dosya yolunun doğru olduğundan emin olun; aksi takdirde hatalarla karşılaşırsınız.
 
 ## Adım 3: XLSB için Kaydetme Seçenekleri Oluşturun
 
- Şimdi, bir örnek oluşturacağız`XlsbSaveOptions`, çalışma kitabımızı nasıl kaydetmek istediğimizi, sıkıştırma düzeyi de dahil olmak üzere, belirtmemize olanak tanır.
+Şimdi, bir örnek oluşturacağız `XlsbSaveOptions`, çalışma kitabımızı nasıl kaydetmek istediğimizi, sıkıştırma düzeyi de dahil olmak üzere, belirtmemize olanak tanır.
 
 ```csharp
 XlsbSaveOptions options = new XlsbSaveOptions();
@@ -143,19 +145,21 @@ Excel dosyalarını Aspose.Cells for .NET ile kaydederken sıkıştırma seviyel
 Aspose.Cells, geliştiricilerin Excel dosyalarını program aracılığıyla oluşturmalarına, düzenlemelerine ve dönüştürmelerine olanak tanıyan bir .NET kütüphanesidir.
 
 ### Aspose.Cells'i nasıl indirebilirim?
- Aspose.Cells kütüphanesini şu adresten indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/).
+Aspose.Cells kütüphanesini şu adresten indirebilirsiniz: [web sitesi](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose erişebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
+Evet, Aspose erişebileceğiniz ücretsiz bir deneme sürümü sunuyor [Burada](https://releases.aspose.com/).
 
 ### Mevcut farklı sıkıştırma seviyeleri nelerdir?
 Aspose.Cells, Seviye 1'den (en az sıkıştırma) Seviye 9'a (maksimum sıkıştırma) kadar çeşitli sıkıştırma seviyelerini destekler.
 
-### Aspose.Cells için desteği nerede bulabilirim?
- Destek alabilir ve sorularınızı sorabilirsiniz.[Aspose forumu](https://forum.aspose.com/c/cells/9).
+### Aspose.Cells için desteği nereden bulabilirim?
+Destek alabilir ve sorularınızı sorabilirsiniz. [Aspose forumu](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

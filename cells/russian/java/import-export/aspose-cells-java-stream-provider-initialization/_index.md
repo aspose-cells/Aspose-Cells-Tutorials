@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### Этапы получения лицензии
 - **Бесплатная пробная версия**: Начните с бесплатной пробной лицензии для тестирования Aspose.Cells.
-- **Временная лицензия**: Получите временную лицензию для расширенной оценки.
+- **Временная лицензия**Получите временную лицензию для расширенной оценки.
 - **Покупка**: Для использования в производственных целях приобретите подписку.
 
 ### Базовая инициализация и настройка
@@ -181,6 +183,9 @@ public class ExportStreamProvider implements IStreamProvider {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

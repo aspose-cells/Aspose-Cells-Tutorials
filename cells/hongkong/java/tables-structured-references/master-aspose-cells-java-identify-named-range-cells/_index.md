@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "了解如何使用 Aspose.Cells 和 Java 來有效地識別和操作 Excel 電子表格中指定範圍內的儲存格。"
+"description": "了解如何使用 Aspose.Cells 和 Java 來有效識別和操作 Excel 電子表格中命名範圍內的儲存格。"
 "title": "掌握 Aspose.Cells Java&#58;識別命名範圍內的單元格以進行 Excel 資料操作"
 "url": "/zh-hant/java/tables-structured-references/master-aspose-cells-java-identify-named-range-cells/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ public class IdentifyRangeCells {
    - 命名範圍為儲存格、儲存格群組、行、列甚至複雜範圍指派名稱。
 
 2. **我可以將 Aspose.Cells 與其他程式語言一起使用嗎？**
-   - 是的！ Aspose.Cells 支援多種語言，包括 .NET、C++ 和 Python。
+   - 是的！ Aspose.Cells 支援多種語言，包括.NET、C++ 和 Python。
 
 3. **如何有效率地處理大型 Excel 文件？**
    - 使用 Aspose.Cells 中提供的串流選項來處理數據，而無需將整個檔案載入到記憶體中。
@@ -198,6 +200,9 @@ public class IdentifyRangeCells {
 踏上 Aspose.Cells 之旅，將您的 Java 應用程式提升到新的高度！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,21 +8,23 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bidang Hitung dalam Tabel Pivot
 
-## Perkenalan
+## Bevezetés
 Tabel Pivot merupakan alat yang ampuh untuk menganalisis dan meringkas data di Excel. Namun, terkadang Anda perlu melakukan kalkulasi khusus pada data Anda di dalam Tabel Pivot. Dalam tutorial ini, kami akan menunjukkan kepada Anda cara membuat kolom kalkulasi di Tabel Pivot menggunakan Aspose.Cells untuk Java, yang memungkinkan Anda membawa analisis data Anda ke tingkat berikutnya.
 
-### Prasyarat
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+### Előfeltételek
+Mielőtt elkezdenénk, győződjünk meg róla, hogy a következőkkel rendelkezünk:
 - Aspose.Cells untuk pustaka Java terinstal.
 - Pengetahuan dasar tentang pemrograman Java.
 
 ## Langkah 1: Menyiapkan Proyek Java Anda
-Pertama, buat proyek Java baru di IDE favorit Anda dan sertakan pustaka Aspose.Cells for Java. Anda dapat mengunduh pustaka tersebut dari [Di Sini](https://releases.aspose.com/cells/java/).
+Pertama, buat proyek Java baru di IDE favorit Anda dan sertakan pustaka Aspose.Cells for Java. Anda dapat mengunduh pustaka tersebut dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Langkah 2: Mengimpor Kelas yang Diperlukan
 Dalam kode Java Anda, impor kelas-kelas yang diperlukan dari Aspose.Cells. Kelas-kelas ini akan membantu Anda bekerja dengan Tabel Pivot dan bidang terhitung.
@@ -65,7 +67,7 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## Kesimpulan
+## Következtetés
 Selamat! Anda telah mempelajari cara membuat kolom terhitung di Tabel Pivot menggunakan Aspose.Cells untuk Java. Ini memungkinkan Anda untuk melakukan perhitungan khusus pada data Anda di Excel, meningkatkan kemampuan analisis data Anda.
 
 ## Tanya Jawab Umum
@@ -87,6 +89,7 @@ Selamat! Anda telah mempelajari cara membuat kolom terhitung di Tabel Pivot meng
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

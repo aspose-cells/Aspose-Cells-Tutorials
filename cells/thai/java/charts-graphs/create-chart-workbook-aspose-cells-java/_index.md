@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@
 
 **สิ่งที่คุณจะได้เรียนรู้:**
 - วิธีการสร้างเวิร์กบุ๊กใหม่ในรูปแบบ XLSX
-- การเข้าถึงและการจัดการเวิร์กชีตแรก
+- การเข้าถึงและการจัดการแผ่นงานแรก
 - การเพิ่มข้อมูลสำหรับการสร้างแผนภูมิ
 - สร้างแผนภูมิคอลัมน์ได้อย่างง่ายดาย
 - บันทึกสมุดงานของคุณอย่างมีประสิทธิภาพ
@@ -220,6 +222,9 @@ public class SaveWorkbook {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

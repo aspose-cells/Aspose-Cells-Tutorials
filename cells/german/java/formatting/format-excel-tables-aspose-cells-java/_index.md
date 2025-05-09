@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ Sie haben gelernt, wie Sie Aspose.Cells für Java einrichten und verwenden, um L
 Beginnen Sie mit der Implementierung dieser Techniken in Ihren Projekten und sehen Sie, wie Aspose.Cells Ihre Excel-Datenverwaltungsaufgaben transformieren kann.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

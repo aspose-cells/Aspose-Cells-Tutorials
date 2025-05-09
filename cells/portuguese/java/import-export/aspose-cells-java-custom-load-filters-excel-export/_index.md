@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -65,7 +67,7 @@ License license = new License();
 license.setLicense("path/to/license/file");
 ```
 
-Esta etapa garante que você possa aproveitar totalmente o Aspose.Cells sem limitações.
+Esta etapa garante que você possa aproveitar ao máximo o Aspose.Cells sem limitações.
 
 ## Guia de Implementação
 ### Filtros de carga personalizados
@@ -188,6 +190,9 @@ Seguindo este guia, você estará pronto para aproveitar o poder do Aspose.Cells
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

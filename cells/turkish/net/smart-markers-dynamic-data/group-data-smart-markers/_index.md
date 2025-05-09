@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells .NET'te Akıllı İşaretleyicilerle Grup Verileri
-linktitle: Aspose.Cells .NET'te Akıllı İşaretleyicilerle Grup Verileri
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'te akıllı işaretleyicilerle verileri zahmetsizce gruplandırın. Adım adım talimatlar için kapsamlı kılavuzumuzu izleyin.
-weight: 15
-url: /tr/net/smart-markers-dynamic-data/group-data-smart-markers/
+"description": "Aspose.Cells for .NET'te akıllı işaretleyicilerle verileri zahmetsizce gruplandırın. Adım adım talimatlar için kapsamlı kılavuzumuzu izleyin."
+"linktitle": "Aspose.Cells .NET'te Akıllı İşaretleyicilerle Grup Verileri"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells .NET'te Akıllı İşaretleyicilerle Grup Verileri"
+"url": "/tr/net/smart-markers-dynamic-data/group-data-smart-markers/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells .NET'te Akıllı İşaretleyicilerle Grup Verileri
@@ -18,7 +20,7 @@ Microsoft Excel'de verilerinizi etkin bir şekilde yönetmek ve sunmak mı istiy
 ## Ön koşullar
 Kodlamanın inceliklerine dalmadan önce, her şeyin hazır olduğundan emin olalım. Aşağıdakilere ihtiyacınız olacak:
 1. Visual Studio: Bilgisayarınızda Visual Studio'nun yüklü olduğundan emin olun. .NET uygulamaları geliştirmek için en iyi araçtır.
-2.  .NET için Aspose.Cells: Aspose.Cells'i indirin ve yükleyin[Burada](https://releases.aspose.com/cells/net/).
+2. .NET için Aspose.Cells: Aspose.Cells'i indirin ve yükleyin [Burada](https://releases.aspose.com/cells/net/).
 3. Örnek Veritabanı (Northwind.mdb): Çalışmak için bir örnek veritabanına ihtiyacınız olacak. Northwind veritabanını çevrimiçi olarak kolayca bulabilirsiniz.
 4. C#'ın Temel Anlayışı: Bu kılavuz, C# programlama konusunda temel bir anlayışa sahip olduğunuzu varsayar, böylece fazla sorun yaşamadan takip edebilirsiniz.
 ## Paketleri İçe Aktar
@@ -36,11 +38,11 @@ Bu ad alanları, veritabanınıza bağlanmanız ve Excel dosyalarını düzenlem
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` Bilgisayarınızda veritabanınızın ve çıktı dosyanızın bulunduğu gerçek yol.
+Yer değiştirmek `"Your Document Directory"` Bilgisayarınızda veritabanınızın ve çıktı dosyanızın bulunduğu gerçek yol.
 ## Adım 2: Bir Veritabanı Bağlantısı Oluşturun
 Sonra, veritabanınıza bir bağlantı oluşturmanız gerekir. Bu, verileri etkili bir şekilde sorgulamanıza olanak tanır. Bunu ayarlayalım:
 ```csharp
-//Bağlantı nesnesi oluşturun, sağlayıcı bilgisini belirtin ve veri kaynağını ayarlayın.
+// Bir bağlantı nesnesi oluşturun, sağlayıcı bilgisini belirtin ve veri kaynağını ayarlayın.
 OleDbConnection con = new OleDbConnection("provider=microsoft.jet.oledb.4.0;data source=" + dataDir + "Northwind.mdb");
 ```
 Bu bağlantı dizesi, Access veritabanına bağlanmak için Jet OLE DB sağlayıcısını kullandığımızı belirtir.
@@ -50,14 +52,14 @@ Artık bağlantınızı tanımladığınıza göre, onu gerçekten açmanın zam
 // Bağlantı nesnesini açın.
 con.Open();
 ```
- Arayarak`con.Open()`, bağlantıyı kurarsınız ve komutlarınızı yürütmeye hazır hale gelirsiniz.
+Arayarak `con.Open()`, bağlantıyı kurarsınız ve komutlarınızı yürütmeye hazır hale gelirsiniz.
 ## Adım 4: Bir Komut Nesnesi Oluşturun
 Bağlantınız etkinken, bir SQL sorgusu yürütmek için bir komut oluşturmanız gerekir. Bu komut, veritabanınızdan hangi verileri almak istediğinizi tanımlayacaktır.
 ```csharp
 // Bir komut nesnesi oluşturun ve SQL sorgusunu belirtin.
 OleDbCommand cmd = new OleDbCommand("Select * from [Order Details]", con);
 ```
- Burada, tüm kayıtları seçiyoruz`Order Details` tablo. Verilerinizi farklı şekilde filtrelemek veya gruplandırmak için bu sorguyu gerektiği gibi değiştirebilirsiniz.
+Burada, tüm kayıtları seçiyoruz `Order Details` tablo. Verilerinizi farklı şekilde filtrelemek veya gruplandırmak için bu sorguyu gerektiği gibi değiştirebilirsiniz.
 ## Adım 5: Bir Veri Bağdaştırıcısı Oluşturun
 Sonra, veritabanınız ile veri kümesi arasında köprü görevi gören bir veri adaptörüne ihtiyacınız var. Bu, iki ortam arasında bir çevirmen gibidir.
 ```csharp
@@ -76,7 +78,7 @@ DataSet ds = new DataSet();
 // Veri setini tablo kayıtlarıyla doldurun.
 da.Fill(ds, "Order Details");
 ```
- İle`da.Fill()`, veri setini SQL komutumuzdaki kayıtlarla dolduruyorsunuz.
+İle `da.Fill()`, veri setini SQL komutumuzdaki kayıtlarla dolduruyorsunuz.
 ## Adım 7: Bir DataTable Nesnesi Oluşturun
 Verilerimizle daha etkili bir şekilde çalışmak için, özellikle 'Sipariş Ayrıntıları' verileri için bir DataTable oluşturacağız:
 ```csharp
@@ -85,7 +87,7 @@ DataTable dt = ds.Tables["Order Details"];
 ```
 Bu satır, veri kümesinden “Sipariş Ayrıntıları” adlı tabloyu alır ve daha kolay kullanım için bir DataTable oluşturur.
 ## Adım 8: WorkbookDesigner'ı Başlatın
-Excel belgemizi düzenlemek için Aspose.Cells'i kullanmanın zamanı geldi. Bir başlatarak başlayacağız`WorkbookDesigner`.
+Excel belgemizi düzenlemek için Aspose.Cells'i kullanmanın zamanı geldi. Bir başlatarak başlayacağız `WorkbookDesigner`.
 ```csharp
 // WorkbookDesigner nesnesini oluşturun.
 WorkbookDesigner wd = new WorkbookDesigner();
@@ -96,7 +98,7 @@ Verilerinizi akıllı işaretçilerle yönetmek için bir şablon Excel dosyası
 // Şablon dosyasını (akıllı işaretleyicileri içeren) açın.
 wd.Workbook = new Workbook(dataDir + "Designer.xlsx");
 ```
- Şunlara sahip olduğunuzdan emin olun:`Designer.xlsx` bundan önce akıllı işaretleyiciler kullanılarak oluşturulmuş dosya.
+Şunlara sahip olduğunuzdan emin olun: `Designer.xlsx` bundan önce akıllı işaretçiler kullanılarak oluşturulmuş dosya.
 ## Adım 10: Veri Kaynağını Ayarlayın
 Artık çalışma kitabımızı oluşturduğumuza ve akıllı işaretçiler yerlerine yerleştirildiğine göre, veri kaynağını daha önce oluşturduğumuz DataTable'a ayarlayabiliriz:
 ```csharp
@@ -109,7 +111,7 @@ Bu adım sihrin gerçekleştiği yerdir. Akıllı işaretçileri işlemek Excel 
 // Akıllı işaretleyicileri işleyerek verileri çalışma sayfalarına doldurun.
 wd.Process(true);
 ```
- Geçiş`true` ile`wd.Process()`Tasarımcıya akıllı işaretçileri gerçek verilerimizle değiştirmek istediğimizi söyler.
+Geçiş `true` ile `wd.Process()` Tasarımcıya akıllı işaretçileri gerçek verilerimizle değiştirmek istediğimizi söyler.
 ## Adım 12: Excel Dosyasını Kaydedin
 Son olarak, yeni doldurulmuş Excel dosyamızı diske kaydetmemiz gerekiyor. Bu son adımdır ve oldukça basittir:
 ```csharp
@@ -125,14 +127,16 @@ Akıllı işaretleyiciler, Aspose.Cells'in verileri dinamik olarak doldurmak iç
 ### Verileri farklı şekilde gruplayabilir miyim?
 Evet! İhtiyacınıza bağlı olarak gruplama işlemlerini gerçekleştirmek için SQL SELECT sorgunuzu değiştirebilirsiniz.
 ### Aspose.Cells belgelerini nerede bulabilirim?
- Belgelere erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Belgelere erişebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 ### Aspose.Cells için ücretsiz deneme sürümü mevcut mu?
- Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 ### Aspose.Cells için nasıl destek alabilirim?
-Herhangi bir soru veya sorun için destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Herhangi bir soru veya sorun için destek forumunu ziyaret edebilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

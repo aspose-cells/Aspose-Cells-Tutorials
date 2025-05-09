@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -67,7 +69,7 @@ Nesta seção, detalharemos o processo em recursos principais para facilitar o e
 Carregar formatos não nativos, como SXC, requer opções de carregamento específicas. Isso é crucial ao lidar com planilhas de versões mais antigas de software ou de diferentes pacotes de escritório.
 #### Visão geral
 Este recurso demonstra o carregamento de um arquivo SXC usando o Aspose.Cells, que suporta uma ampla variedade de formatos de planilha além dos nativos do Excel.
-**Etapa 1: especificar opções de carga**
+**Etapa 1: especifique as opções de carga**
 Primeiro, crie `LoadOptions` para o formato SXC:
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
@@ -138,6 +140,9 @@ Aspose.Cells pode ler arquivos habilitados para macro, mas a execução de macro
 Seguindo este guia completo, você estará pronto para trabalhar eficientemente com arquivos SXC usando o Aspose.Cells para Java. Seja você um desenvolvedor que busca aprimorar seus aplicativos ou uma organização que busca otimizar as tarefas de processamento de dados, o Aspose.Cells oferece as ferramentas necessárias para atingir esses objetivos com perfeição.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

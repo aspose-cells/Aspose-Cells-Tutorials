@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,6 +209,9 @@ public class RetrieveChartPointTypes {
 En suivant ce guide, vous avez acquis les compétences nécessaires pour exploiter Aspose.Cells afin de gérer vos graphiques Excel et les énumérations. Ces fonctionnalités peuvent considérablement améliorer vos applications Java grâce à de puissantes fonctionnalités de manipulation de données. Poursuivez votre exploration de la documentation de la bibliothèque pour découvrir des fonctionnalités plus avancées et bon code !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

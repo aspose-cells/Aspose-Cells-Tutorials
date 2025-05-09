@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ public class CustomCalculationEngineDemo {
 ตอนนี้คุณได้เชี่ยวชาญการใช้เครื่องคำนวณแบบกำหนดเองใน Aspose.Cells Java แล้ว นำทักษะของคุณมาทดสอบและเริ่มปรับแต่งสเปรดชีตของคุณเหมือนไม่เคยมีมาก่อน!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

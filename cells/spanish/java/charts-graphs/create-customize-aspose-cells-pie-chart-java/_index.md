@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,7 +188,7 @@ Por último, ajuste automáticamente las columnas y guarde su libro de trabajo.
 
 ## Aplicaciones prácticas
 1. **Análisis demográfico**:Utilice gráficos circulares para mostrar distribuciones de población en diferentes países o regiones.
-2. **Informes de participación de mercado**:Ilustrar la cuota de mercado de diferentes empresas en un sector.
+2. **Informes de participación de mercado**:Ilustrar la cuota de mercado de diferentes empresas de un sector.
 3. **Asignación de presupuesto**:Visualice cómo se asignan los presupuestos en los distintos departamentos dentro de una organización.
 
 Estas aplicaciones demuestran la versatilidad y utilidad de Aspose.Cells en escenarios del mundo real.
@@ -197,13 +199,16 @@ Para optimizar el rendimiento al utilizar Aspose.Cells:
 - Utilice estructuras de datos eficientes para procesar grandes conjuntos de datos.
 - Perfile su aplicación para identificar cuellos de botella.
 
-Adherirse a las mejores prácticas garantiza aplicaciones fluidas y con capacidad de respuesta.
+Cumplir con las mejores prácticas garantiza aplicaciones fluidas y con capacidad de respuesta.
 
 ## Conclusión
 Este tutorial te guió por los pasos para crear y personalizar un gráfico circular con Aspose.Cells en Java. Con este conocimiento, podrás aplicar estas técnicas a diversas tareas de visualización de datos en tus proyectos. Para una exploración más profunda, considera explorar otros tipos de gráficos y las opciones de personalización avanzadas disponibles con Aspose.Cells.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

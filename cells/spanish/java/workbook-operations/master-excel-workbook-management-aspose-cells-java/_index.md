@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ El `Workbook` El constructor inicializa un archivo Excel vacío, listo para pers
 ### Población celular
 Poblar celdas es esencial para generar informes o procesar información:
 
-- **Importar el `Cells` Celdas de la hoja de cálculo de clase y acceso:**
+- **Importar el `Cells` celdas de la hoja de cálculo de clase y acceso:**
   
   ```java
   import com.aspose.cells.Cells;
@@ -229,6 +231,9 @@ El `save` El método escribe su libro de trabajo en un archivo, conservando toda
 Siguiendo esta guía, ahora podrá administrar libros de Excel mediante programación con Aspose.Cells para Java. Esta potente herramienta simplifica tareas complejas y mejora la productividad al gestionar archivos de Excel. Continúe explorando sus funciones para optimizar sus flujos de trabajo de gestión de datos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

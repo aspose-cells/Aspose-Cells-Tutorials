@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Du har nu lärt dig hur du döljer kalkylblad i Excel-filer med hjälp av Aspose
    - Använd Maven eller Gradle för att lägga till beroenden, eller ladda ner JAR-filen från [Aspose-nedladdningar](https://releases.aspose.com/cells/java/).
 2. **Kan jag dölja flera kalkylblad samtidigt?**
    - Ja, gå igenom `WorksheetCollection` och tillämpa `setVisible(false)` till var och en.
-3. **vilka format kan jag spara min arbetsbok?**
+3. **I vilka format kan jag spara min arbetsbok?**
    - Aspose.Cells stöder olika format som XLSX, PDF, CSV, etc.
 4. **Behöver jag en licens för alla funktioner?**
    - En gratis provperiod eller tillfällig licens ger tillgång till de flesta funktioner; vissa avancerade funktioner kräver dock en betald licens.
@@ -145,6 +147,9 @@ Du har nu lärt dig hur du döljer kalkylblad i Excel-filer med hjälp av Aspose
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

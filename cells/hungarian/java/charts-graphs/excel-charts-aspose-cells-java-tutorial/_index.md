@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4: Használjon előre definiált stílusazonosítókat, vagy hozzon létre egy�
 A5: Optimalizálja az adattartományokat, minimalizálja a diagramok bonyolultságát, és hatékonyan kezelje a memóriát a nem szükséges objektumok eltávolításával.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

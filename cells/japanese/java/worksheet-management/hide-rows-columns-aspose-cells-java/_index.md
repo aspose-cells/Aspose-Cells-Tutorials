@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ cells.hideRow(2); // 3行目を非表示にする（インデックスベース�
 ```java
 cells.hideColumn(1); // 2列目を非表示にする
 ```
-列もゼロインデックスで、 `hideColumn(1)` 2番目の列をターゲットにします。
+列もゼロインデックスで、 `hideColumn(1)` 2列目をターゲットにします。
 
 ### 変更したワークブックを保存する
 
@@ -135,7 +137,7 @@ Aspose.CellsをJavaで使用してExcelファイル内の特定の行と列を�
 3. **行または列を非表示にするにはどうすればいいですか?**
    - 使用 `unHideRow(index)` そして `unHideColumn(index)` それぞれ方法。
 4. **大きなファイルで Aspose.Cells を使用する場合、何か制限はありますか?**
-   - 効率的ですが、パフォーマンスはシステム リソースとファイル サイズによって異なる場合があります。
+   - 効率的ですが、システム リソースとファイル サイズによってパフォーマンスが異なる場合があります。
 5. **この方法をWebアプリケーションに適用できますか?**
    - もちろんです! Aspose.Cells は、Java ベースのサーバー側アプリケーションにシームレスに統合できます。
 
@@ -147,6 +149,9 @@ Aspose.CellsをJavaで使用してExcelファイル内の特定の行と列を�
 Excel ファイル管理を強化する準備はできていますか? これらのソリューションを今すぐプロジェクトに実装しましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

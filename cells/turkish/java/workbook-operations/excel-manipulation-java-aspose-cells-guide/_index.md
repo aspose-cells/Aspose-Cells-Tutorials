@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Bu kılavuzda, kullanmanın temellerine dalacağız **Java için Aspose.Cells** 
 - Ortamınızda Java için Aspose.Cells nasıl kurulur
 - Çalışma kitapları ve çalışma sayfaları oluşturma ve bunlara erişme
 - Hücre stillerini hassas bir şekilde değiştirme
-- Bir hücre aralığına stil uygulama
+- Bir dizi hücreye stil uygulama
 - Çalışma kitabını etkili bir şekilde kaydetme
 
 Gerekli araçlarla geliştirme ortamınızı kurarak başlayalım.
@@ -235,6 +237,9 @@ Büyük veri kümeleriyle veya karmaşık çalışma kitaplarıyla çalışırke
 Bu tekniklere hakim olarak, Java'da Aspose.Cells kullanarak Excel otomasyon görevlerinizin performansını ve güvenilirliğini artırabilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/excel-data-analysis/data-analysis-excel-pivot/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Analysis Excel Pivot
@@ -120,6 +122,7 @@ Yes, Aspose.Cells for Java is a commercial library, and you will need a valid li
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

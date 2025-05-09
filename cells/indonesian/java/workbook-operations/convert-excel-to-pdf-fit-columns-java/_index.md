@@ -7,37 +7,39 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konversi Excel ke PDF dengan Fit Columns di Java Menggunakan Aspose.Cells
 
-## Perkenalan
+## Bevezetés
 
 Mencetak file Excel dan menemukan bahwa tidak semua kolom muat pada satu halaman bisa membuat frustrasi. Masalah umum ini dapat diatasi dengan mudah menggunakan Aspose.Cells untuk Java, yang memungkinkan Anda mengonversi file Excel menjadi PDF yang diformat dengan baik. Dalam tutorial ini, kami akan memandu Anda menggunakan Aspose.Cells di Java untuk memuat buku kerja Excel dan menyimpannya sebagai PDF dengan semua kolom yang muat dengan sempurna pada satu halaman.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan Aspose.Cells untuk Java
-- Memuat buku kerja Excel ke aplikasi Anda
+- Excel munkafüzet betöltése az alkalmazásba
 - Mengonfigurasi opsi penyimpanan PDF untuk memastikan semua kolom muat pada satu halaman
 - Menyimpan buku kerja sebagai file PDF
 
 Mari kita bahas dan jelajahi bagaimana Anda dapat memanfaatkan fitur-fitur hebat ini. Pertama, kita akan membahas prasyaratnya.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum mengimplementasikan Aspose.Cells untuk Java, pastikan Anda memiliki yang berikut ini:
 
-### Pustaka, Versi, dan Dependensi yang Diperlukan:
+### Szükséges könyvtárak, verziók és függőségek:
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru.
 - Gunakan alat pembangunan seperti Maven atau Gradle untuk mengelola dependensi dengan mudah.
 
-### Persyaratan Pengaturan Lingkungan:
+### Környezeti beállítási követelmények:
 - Lingkungan pengembangan Anda harus dikonfigurasi untuk menjalankan aplikasi Java (JDK terinstal).
 - IDE seperti IntelliJ IDEA, Eclipse, atau NetBeans akan membantu dalam pengkodean dan debugging.
 
-### Prasyarat Pengetahuan:
+### Előfeltételek a tudáshoz:
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan dalam menangani jalur berkas di aplikasi Java.
 
@@ -61,10 +63,10 @@ Untuk mulai menggunakan Aspose.Cells untuk Java, tambahkan sebagai dependensi. B
 implementation 'com.aspose:aspose-cells:25.3'
 ```
 
-### Langkah-langkah Memperoleh Lisensi:
-- **Uji Coba Gratis:** Unduh uji coba gratis dari situs web Aspose untuk menguji fungsionalitas.
-- **Lisensi Sementara:** Minta lisensi sementara untuk akses fitur lengkap selama evaluasi.
-- **Pembelian:** Beli langganan untuk penggunaan berkelanjutan.
+### Licenc megszerzésének lépései:
+- **Ingyenes próbaverzió:** Unduh uji coba gratis dari situs web Aspose untuk menguji fungsionalitas.
+- **Ideiglenes engedély:** Minta lisensi sementara untuk akses fitur lengkap selama evaluasi.
+- **Vásárlás:** Beli langganan untuk penggunaan berkelanjutan.
 
 Setelah dependensi Anda disiapkan, inisialisasi dan konfigurasikan Aspose.Cells di aplikasi Java Anda seperti yang ditunjukkan di bawah ini:
 
@@ -82,7 +84,7 @@ public class ExcelToPDF {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Sekarang, mari kita uraikan proses mengonversi buku kerja Excel ke PDF, yang semua kolomnya muat pada satu halaman.
 
@@ -95,8 +97,8 @@ Fitur ini memungkinkan Anda untuk memuat file Excel Anda ke dalam Aspose.Cells. 
 import com.aspose.cells.Workbook;
 ```
 
-#### Langkah 2: Buat Contoh Buku Kerja
-Buat contoh dari `Workbook` dengan memuat berkas Excel Anda.
+#### 2. lépés: Munkafüzet-példány létrehozása
+Hozz létre egy példányt a következőből: `Workbook` dengan memuat berkas Excel Anda.
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook book = new Workbook(dataDir + "/TestBook.xlsx");
@@ -104,7 +106,7 @@ Workbook book = new Workbook(dataDir + "/TestBook.xlsx");
 *Penjelasan Parameter:*  
 - **dataDir:** Ganti dengan jalur ke direktori Anda yang berisi berkas Excel.
 
-### Konfigurasikan Opsi Penyimpanan PDF
+### PDF mentési beállítások konfigurálása
 
 Mengonfigurasi opsi penyimpanan sangat penting untuk memastikan bahwa semua kolom muat pada satu halaman dalam PDF yang dihasilkan:
 
@@ -114,15 +116,15 @@ import com.aspose.cells.PdfSaveOptions;
 ```
 
 #### Langkah 4: Siapkan Opsi Penyimpanan
-Konfigurasi `PdfSaveOptions` untuk memastikan tata letak satu halaman per lembar.
+Konfigurálás `PdfSaveOptions` untuk memastikan tata letak satu halaman per lembar.
 ```java
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.setAllColumnsInOnePagePerSheet(true);
 ```
-*Konfigurasi Kunci:* 
+*Kulcskonfiguráció:* 
 - **setelSemuaKolomDalamSatuHalamanPerLembar:** Bila diatur ke benar, opsi ini memastikan semua kolom muat pada satu halaman.
 
-### Simpan Buku Kerja sebagai PDF
+### Munkafüzet mentése PDF formátumban
 
 Terakhir, mari kita lihat cara menyimpan buku kerja sebagai file PDF menggunakan opsi yang telah kita tentukan:
 
@@ -131,7 +133,7 @@ Terakhir, mari kita lihat cara menyimpan buku kerja sebagai file PDF menggunakan
 import com.aspose.cells.SaveFormat;
 ```
 
-#### Langkah 6: Simpan Buku Kerja
+#### 6. lépés: A munkafüzet mentése
 Gunakan yang dikonfigurasi `saveOptions` untuk menyimpan berkas Excel Anda sebagai PDF.
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -140,35 +142,35 @@ book.save(outDir + "/FAWorksheetColumns_out.pdf", saveOptions);
 *Penjelasan Parameter:* 
 - **keluarDir:** Ganti dengan jalur tempat Anda ingin menyimpan PDF keluaran.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 - Pastikan semua jalur berkas benar dan dapat diakses.
 - Jika mengalami kesalahan, periksa dokumentasi Aspose.Cells untuk setiap perubahan atau pembaruan khusus versi.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario dunia nyata di mana mengonversi file Excel ke PDF bisa sangat berguna:
-1. **Pembuatan Laporan:** Secara otomatis mengubah laporan keuangan bulanan menjadi PDF untuk didistribusikan di antara para pemangku kepentingan.
-2. **Berbagi Data:** Berbagi data dengan klien dalam format yang tidak dapat diedit, memastikan konsistensi dan integritas.
-3. **Pengarsipan:** Simpan dokumen penting dalam format standar yang dapat diakses secara universal.
+1. **Jelentéskészítés:** Secara otomatis mengubah laporan keuangan bulanan menjadi PDF untuk didistribusikan di antara para pemangku kepentingan.
+2. **Adatmegosztás:** Berbagi data dengan klien dalam format yang tidak dapat diedit, memastikan konsistensi dan integritas.
+3. **Archiválás:** Simpan dokumen penting dalam format standar yang dapat diakses secara universal.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat menangani file Excel berukuran besar atau buku kerja yang ekstensif, pertimbangkan kiat kinerja berikut:
 - Optimalkan penggunaan memori dengan mengonfigurasi opsi JVM secara tepat.
 - Gunakan struktur data yang efisien dalam aplikasi Java Anda untuk menangani manipulasi data sebelum konversi.
 - Perbarui Aspose.Cells secara berkala untuk memanfaatkan peningkatan kinerja dan fitur terkini.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah mempelajari cara menggunakan Aspose.Cells untuk Java guna mengonversi file Excel menjadi PDF dengan semua kolom yang pas di satu halaman. Proses ini tidak hanya menyederhanakan pengelolaan dokumen tetapi juga meningkatkan kualitas presentasi di berbagai platform.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 - Bereksperimenlah dengan fitur Aspose.Cells tambahan seperti konversi bagan dan gaya sel.
 - Jelajahi kemungkinan integrasi dengan sistem atau basis data lain untuk alur kerja otomatis.
 
 Siap untuk mencobanya? Mulailah menerapkan langkah-langkah ini hari ini, dan ubah proses penanganan Excel Anda!
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Berapa versi Java minimum yang diperlukan untuk Aspose.Cells?** 
    Anda memerlukan setidaknya Java 8 untuk bekerja dengan Aspose.Cells untuk Java.
@@ -176,7 +178,7 @@ Siap untuk mencobanya? Mulailah menerapkan langkah-langkah ini hari ini, dan uba
 2. **Bagaimana cara menangani file besar tanpa mengalami masalah memori?**
    Optimalkan pengaturan JVM dan pertimbangkan untuk memecah tugas jika perlu.
 
-3. **Dapatkah saya menggunakan Aspose.Cells dalam proyek komersial?**
+3. **Használhatom az Aspose.Cells-t egy kereskedelmi projektben?**
    Ya, tetapi pastikan Anda memiliki lisensi yang sesuai untuk mengakses fitur lengkap.
 
 4. **Apa yang terjadi jika file Excel saya berisi gambar? Apakah gambar akan disimpan dalam format PDF?**
@@ -185,15 +187,18 @@ Siap untuk mencobanya? Mulailah menerapkan langkah-langkah ini hari ini, dan uba
 5. **Bagaimana cara menyesuaikan orientasi halaman saat menyimpan sebagai PDF?**
    Gunakan tambahan `PdfSaveOptions` properti seperti `setPageOrientation()` untuk mengatur orientasi yang Anda inginkan.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

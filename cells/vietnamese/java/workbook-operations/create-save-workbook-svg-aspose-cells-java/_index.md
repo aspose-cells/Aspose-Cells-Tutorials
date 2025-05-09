@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Các bước xin cấp giấy phép:**
+**Các bước xin cấp phép:**
 - **Dùng thử miễn phí:** Bắt đầu bằng bản dùng thử miễn phí để khám phá khả năng của Aspose.Cells for Java.
 - **Giấy phép tạm thời:** Nếu bạn cần thêm thời gian, hãy yêu cầu cấp giấy phép tạm thời từ [Trang web Aspose](https://purchase.aspose.com/temporary-license/).
 - **Mua:** Để có quyền truy cập và hỗ trợ đầy đủ, hãy mua giấy phép thông qua [Trang mua hàng của Aspose](https://purchase.aspose.com/buy).
@@ -164,6 +166,9 @@ Hướng dẫn này đề cập đến cách tạo và thao tác sổ làm việ
 - [Diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

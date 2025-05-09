@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -59,7 +61,7 @@ Aspose.Cells for Java cung cấp API toàn diện để làm việc với các t
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Các bước xin cấp giấy phép:
+### Các bước xin cấp phép:
 - **Dùng thử miễn phí:** Tải xuống giấy phép tạm thời [đây](https://purchase.aspose.com/temporary-license/) để khám phá tất cả các tính năng.
 - **Mua:** Để có quyền truy cập đầy đủ, hãy cân nhắc mua giấy phép từ trang web chính thức.
 
@@ -190,6 +192,9 @@ Sẵn sàng nâng cao kỹ năng của bạn lên một tầm cao mới? Hãy th
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

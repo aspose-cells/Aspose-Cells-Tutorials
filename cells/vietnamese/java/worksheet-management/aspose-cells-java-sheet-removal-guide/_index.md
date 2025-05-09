@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Bây giờ bạn đã biết cách xóa một bảng tính theo tên của nó b
 Bằng cách làm theo hướng dẫn này, bạn sẽ được trang bị tốt để quản lý các bảng tính Excel bằng Aspose.Cells trong Java một cách hiệu quả. Hãy bắt đầu triển khai ngay hôm nay và xem cách nó có thể cải thiện các dự án của bạn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

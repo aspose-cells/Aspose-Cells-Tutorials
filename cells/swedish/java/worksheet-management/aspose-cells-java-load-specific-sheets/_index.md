@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx", loadOptions);
 
 ## Praktiska tillämpningar
 
-### Användningsfall för att ladda specifika ark
+### Användningsfall för att läsa in specifika ark
 
 1. **Datarapportering**Ladda endast sammanfattningsblad för rapportgenerering, vilket minskar minnesanvändningen.
 2. **Finansiell analys**Få åtkomst till specifika finansiella data utan att läsa in hela arbetsboken.
@@ -204,6 +206,9 @@ Redo att ta dina kunskaper i Java/Excel-hantering till nästa nivå? Försök at
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

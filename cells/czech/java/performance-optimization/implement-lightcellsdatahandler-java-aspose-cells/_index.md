@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,6 +202,9 @@ V této příručce jste se naučili, jak implementovat `LightCellsDataHandler` 
 Dodržováním tohoto návodu jste na dobré cestě k zvládnutí zpracování souborů Excelu v Javě s Aspose.Cells. Přejeme vám hodně štěstí při programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Tìm hiểu cách chuyển đổi hình ảnh tĩnh thành siêu liên kết có thể nhấp trong Excel bằng Aspose.Cells for Java, giúp tăng cường tính tương tác của bảng tính."
+"description": "Tìm hiểu cách chuyển đổi hình ảnh tĩnh thành siêu liên kết có thể nhấp vào trong Excel bằng Aspose.Cells for Java, giúp tăng cường tính tương tác của bảng tính."
 "title": "Cách thêm siêu liên kết hình ảnh trong Excel bằng Aspose.Cells cho Java"
 "url": "/vi/java/advanced-features/add-image-hyperlinks-excel-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ A5: Các vấn đề thường gặp bao gồm đường dẫn tệp không đú
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

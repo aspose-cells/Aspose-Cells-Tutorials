@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Wir empfehlen Ihnen, die hier besprochene Lösung in Ihren Projekten zu implemen
 Wenn Sie dieser umfassenden Anleitung folgen, können Sie die Excel-Datensortierung in Ihren Java-Anwendungen mit Aspose.Cells sicher implementieren und optimieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,35 +1,37 @@
 ---
-title: Ubah Arah Label Centang
-linktitle: Ubah Arah Label Centang
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Ubah arah label tanda centang pada bagan Excel dengan cepat menggunakan Aspose.Cells untuk .NET. Ikuti panduan ini untuk penerapan yang lancar.
-weight: 12
-url: /id/net/advanced-chart-operations/change-tick-label-direction/
+"description": "Ubah arah label tanda centang pada bagan Excel dengan cepat menggunakan Aspose.Cells untuk .NET. Ikuti panduan ini untuk penerapan yang lancar."
+"linktitle": "Ubah Arah Label Centang"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Ubah Arah Label Centang"
+"url": "/id/net/advanced-chart-operations/change-tick-label-direction/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ubah Arah Label Centang
 
-## Perkenalan
+## Bevezetés
 
-Apakah Anda lelah melihat bagan yang berantakan dengan label tanda centang yang sulit dibaca? Nah, Anda tidak sendirian! Banyak orang kesulitan dengan presentasi visual data mereka, terutama saat bekerja dengan bagan Excel. Untungnya, ada solusi yang praktis: Aspose.Cells untuk .NET. Dalam panduan ini, kami akan memandu Anda mengubah arah label tanda centang di bagan Excel Anda menggunakan pustaka yang hebat ini. Baik Anda seorang pengembang atau hanya penggemar data, memahami cara memanipulasi file Excel secara terprogram akan membuka dunia kemungkinan yang sama sekali baru!
+Apakah Anda lelah melihat bagan yang berantakan dengan label tanda centang yang sulit dibaca? Nah, Anda tidak sendirian! Banyak orang kesulitan dengan penyajian visual data mereka, terutama saat bekerja dengan bagan Excel. Untungnya, ada solusi yang praktis: Aspose.Cells for .NET. Dalam panduan ini, kami akan memandu Anda mengubah arah label tanda centang di bagan Excel Anda menggunakan pustaka yang hebat ini. Baik Anda seorang pengembang atau hanya penggemar data, memahami cara memanipulasi file Excel secara terprogram akan membuka dunia kemungkinan yang sama sekali baru!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita menyelami lebih dalam, mari pastikan Anda telah menyiapkan semuanya untuk memanfaatkan Aspose.Cells sebaik-baiknya. Berikut ini yang Anda perlukan:
 
-### Kerangka .NET
+### .NET keretrendszer
 
-Pastikan Anda telah menginstal .NET framework di komputer Anda. Aspose.Cells bekerja dengan lancar dengan berbagai versi .NET, jadi Anda akan terlindungi selama Anda menggunakan versi yang didukung.
+Pastikan Anda telah menginstal .NET Framework di komputer Anda. Aspose.Cells bekerja dengan lancar dengan berbagai versi .NET, jadi Anda akan terlindungi selama Anda menggunakan versi yang didukung.
 
-### Aspose.Cells untuk .NET
+### Aspose.Cells .NET-hez
 
-Selanjutnya, Anda akan memerlukan pustaka Aspose.Cells itu sendiri. Anda dapat mengunduhnya dengan mudah dari[Di Sini](https://releases.aspose.com/cells/net/)Instalasinya mudah dan Anda dapat langsung menggunakannya hanya dengan beberapa klik!
+Selanjutnya, Anda akan memerlukan pustaka Aspose.Cells itu sendiri. Anda dapat mengunduhnya dengan mudah dari [itt](https://releases.aspose.com/cells/net/)Instalasinya mudah dan Anda dapat langsung menggunakannya hanya dengan beberapa klik!
 
-### Pemahaman Dasar tentang C#
+### A C# alapjainak ismerete
 
 Kemampuan dalam pemrograman C# sangatlah bermanfaat; jika Anda merasa nyaman dengan konsep pengkodean dasar, Anda akan menguasainya dalam waktu singkat. 
 
@@ -37,7 +39,7 @@ Kemampuan dalam pemrograman C# sangatlah bermanfaat; jika Anda merasa nyaman den
 
 Untuk tutorial ini, Anda memerlukan contoh file Excel dengan bagan untuk dicoba. Anda dapat membuatnya, atau mengunduh contoh dari berbagai sumber daring. Kami akan merujuk ke file "SampleChangeTickLabelDirection.xlsx" di seluruh panduan.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum kita mulai membuat kode, mari impor paket-paket yang diperlukan yang akan memungkinkan kita berinteraksi dengan file Excel dan bagan di dalamnya.
 
@@ -57,16 +59,16 @@ Sekarang setelah pengaturan kita beres, mari kita uraikan menjadi beberapa langk
 Pertama-tama mari kita tentukan direktori sumber dan keluaran. Direktori ini akan menampung berkas masukan (tempat kita akan membaca diagram) dan berkas keluaran (tempat diagram yang dimodifikasi akan disimpan).
 
 ```csharp
-// Direktori sumber
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 
-// Direktori keluaran
+// Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
 
- Anda perlu mengganti`"Your Document Directory"` Dan`"Your Output Directory"` dengan jalur sebenarnya pada sistem Anda. 
+Anda perlu mengganti `"Your Document Directory"` és `"Your Output Directory"` a rendszeren található tényleges elérési utakkal. 
 
-## Langkah 2: Muat Buku Kerja
+## 2. lépés: A munkafüzet betöltése
 
 Sekarang, kita akan memuat buku kerja yang berisi contoh bagan kita. 
 
@@ -76,7 +78,7 @@ Workbook workbook = new Workbook(sourceDir + "SampleChangeTickLabelDirection.xls
 
 Baris kode ini membuat objek buku kerja baru dari file yang ditentukan. Mirip seperti membuka buku, dan sekarang kita dapat membaca apa yang ada di dalamnya!
 
-## Langkah 3: Akses Lembar Kerja
+## 3. lépés: A munkalap elérése
 
 Berikutnya, Anda ingin mengakses lembar kerja yang berisi bagan Anda. Biasanya, bagan terletak di lembar kerja pertama, jadi kita akan mengambilnya.
 
@@ -98,7 +100,7 @@ Ini mengasumsikan setidaknya ada satu bagan di lembar kerja. Jika Anda menangani
 
 ## Langkah 5: Ubah Arah Label Centang
 
-Bagian yang menyenangkan tiba! Kita akan mengubah arah label centang menjadi horizontal. Anda juga dapat memilih opsi lain, seperti vertikal atau diagonal, tergantung pada kebutuhan Anda.
+Di sinilah bagian yang menyenangkan! Kita akan mengubah arah label centang menjadi horizontal. Anda juga dapat memilih opsi lain, seperti vertikal atau diagonal, tergantung pada kebutuhan Anda.
 
 ```csharp
 chart.CategoryAxis.TickLabels.DirectionType = ChartTextDirectionType.Horizontal;
@@ -126,29 +128,31 @@ Console.WriteLine("ChangeTickLabelDirection executed successfully.");
 
 Hal ini tidak hanya memberi Anda konfirmasi tetapi juga membuat Anda tetap mendapat informasi tentang status proses. 
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Hanya dengan beberapa langkah, Anda dapat mengubah arah label tanda centang pada bagan Excel Anda menggunakan Aspose.Cells for .NET. Dengan memanfaatkan pustaka yang canggih ini, Anda dapat meningkatkan keterbacaan bagan Anda, sehingga memudahkan audiens Anda untuk menginterpretasikan data. Baik untuk presentasi, laporan, atau proyek pribadi, kini Anda dibekali dengan pengetahuan untuk membuat bagan Excel Anda menarik secara visual.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bisakah saya mengubah arah label centang untuk grafik lainnya?  
 Ya, Anda dapat menerapkan metode serupa ke bagan apa pun yang didukung oleh Aspose.Cells.
 
-### Format file apa yang didukung Aspose.Cells?  
+### Milyen fájlformátumokat támogat az Aspose.Cells?  
 Aspose.Cells mendukung berbagai format seperti XLSX, XLS, CSV, dan banyak lagi!
 
-### Apakah ada versi uji coba yang tersedia?  
- Tentu saja! Anda dapat menemukan uji coba gratis[Di Sini](https://releases.aspose.com/).
+### Van elérhető próbaverzió?  
+Tentu saja! Anda dapat menemukan uji coba gratis [itt](https://releases.aspose.com/).
 
-### Bagaimana jika saya mengalami masalah saat menggunakan Aspose.Cells?  
- Jangan ragu untuk mencari bantuan di[Forum Aspose](https://forum.aspose.com/c/cells/9)komunitas dan staf pendukung cukup responsif!
+### Mi van, ha problémákba ütközöm az Aspose.Cells használata közben?  
+Jangan ragu untuk mencari bantuan di [Aspose fórum](https://forum.aspose.com/c/cells/9); komunitas dan staf pendukung cukup responsif!
 
 ### Bisakah saya mendapatkan lisensi sementara?  
- Ya, Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+Ya, Anda dapat meminta lisensi sementara [itt](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Artık Aspose.Cells for Java ile Excel görevlerini otomatikleştirmek için sa�
 Bu kapsamlı kılavuzu takip ederek, Aspose.Cells for Java ile Excel otomasyonunda ustalaşma yolunda iyi bir mesafe kat edeceksiniz. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

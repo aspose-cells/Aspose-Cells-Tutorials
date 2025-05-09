@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -95,7 +97,7 @@ sourceBook1.combine(sourceBook2);
 ```
 **Magyarázat:** A `combine()` metódus egyesíti az összes lapot innen: `sourceBook2` -ba `sourceBook1`.
 
-#### 4. lépés: Az egyesített munkafüzet mentése
+#### 4. lépés: Mentse el az egyesített munkafüzetet
 Mentse el az egyesített munkafüzetet a kívánt kimeneti könyvtárba:
 ```java
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -151,6 +153,9 @@ Reméljük, hasznosnak találta ezt az útmutatót. Merüljön el az Excel autom
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

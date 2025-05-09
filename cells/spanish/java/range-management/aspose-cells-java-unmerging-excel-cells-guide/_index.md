@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -47,7 +49,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Pasos para la adquisición de la licencia
-- **Prueba gratuita**:Comience con una prueba gratuita para probar las funciones.
+- **Prueba gratuita**Comience con una prueba gratuita para probar las funciones.
 - **Licencia temporal**:Obtener una licencia temporal para pruebas extendidas.
 - **Compra**Considere comprar para obtener acceso y soporte completo.
 
@@ -76,7 +78,7 @@ Dividiremos nuestra tarea en pasos manejables, centrándonos primero en la inici
 ### Acceso y manipulación de celdas de la hoja de cálculo
 **Descripción general:** Aprenda a navegar por hojas de cálculo, recuperar celdas y realizar operaciones específicas como separarlas.
 
-1. **Acceda a la primera hoja de trabajo:**
+1. **Accede a la primera hoja de trabajo:**
    ```java
    import com.aspose.cells.Worksheet;
    import com.aspose.cells.Cells;
@@ -151,6 +153,9 @@ Ya domina los conceptos básicos de la separación de celdas de Excel con Aspose
 Con esta guía, estarás bien preparado para manejar operaciones de Excel en Java usando Aspose.Cells. ¡Que disfrutes programando!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

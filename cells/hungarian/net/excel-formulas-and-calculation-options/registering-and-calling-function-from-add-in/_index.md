@@ -1,119 +1,123 @@
 ---
-title: Funkciók regisztrálása és hívása az Excel bővítményéből
-linktitle: Funkciók regisztrálása és hívása az Excel bővítményéből
-second_title: Aspose.Cells .NET Excel Processing API
-description: Fedezze fel, hogyan regisztrálhat és hívhat függvényeket az Excel bővítményeiből az Aspose.Cells for .NET segítségével az egyszerű, lépésenkénti oktatóanyagunk segítségével.
-weight: 20
-url: /hu/net/excel-formulas-and-calculation-options/registering-and-calling-function-from-add-in/
+"description": "Ismerje meg, hogyan regisztrálhat és hívhat függvényeket bővítményekből az Excelben az Aspose.Cells for .NET használatával egyszerű, lépésről lépésre bemutató oktatóanyagunkkal."
+"linktitle": "Függvények regisztrálása és hívása bővítményből az Excelben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Függvények regisztrálása és hívása bővítményből az Excelben"
+"url": "/hu/net/excel-formulas-and-calculation-options/registering-and-calling-function-from-add-in/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Funkciók regisztrálása és hívása az Excel bővítményéből
+# Függvények regisztrálása és hívása bővítményből az Excelben
 
 ## Bevezetés
-Szeretné javítani az Excel-élményt azáltal, hogy függvényeket hív meg egy bővítményből? Ha igen, akkor jó helyen jársz! Az Excel-bővítmények olyanok, mint a táblázatok tündérkeresztanyjai; varázslatosan kibővítik a funkcionalitást, és egy csomó új eszközt biztosítanak a keze ügyében. Az Aspose.Cells for .NET segítségével pedig minden eddiginél egyszerűbb regisztrálni és használni ezeket a kiegészítő funkciókat. 
-Ebben az útmutatóban végigvezetem a függvények regisztrálásának és meghívásának folyamatán egy Excel-bővítményből az Aspose.Cells for .NET használatával. Lépésről lépésre mindent lebontunk, így pillanatok alatt profinak fogod érezni magad!
+Szeretnéd bővíteni az Excel-élményedet függvények meghívásával egy bővítményből? Ha igen, akkor jó helyen jársz! Az Excel-bővítmények olyanok, mint a táblázatok tündérkeresztanyái; varázslatosan kibővítik a funkcionalitást, és számos új eszközt adnak a kezedbe. Az Aspose.Cells for .NET segítségével pedig minden eddiginél könnyebb regisztrálni és használni ezeket a bővítményfüggvényeket. 
+Ebben az útmutatóban végigvezetlek egy függvény regisztrációjának és meghívásának folyamatán egy Excel bővítményből az Aspose.Cells for .NET használatával. Lépésről lépésre lebontjuk a folyamatot, így pillanatok alatt profinak érezheted magad!
 ## Előfeltételek
-Mielőtt belemerülnénk a kódolási varázslóba, nézzük meg, mit kell a helyén tartani:
-1. Visual Studio: Győződjön meg arról, hogy a Visual Studio be van állítva a gépen. Itt írjuk és futtatjuk a kódunkat.
-2.  Aspose.Cells Library: telepítenie kell az Aspose.Cells könyvtárat. Elkaphatod tőlük[letöltési oldal](https://releases.aspose.com/cells/net/).
-3. Alapvető C# ismerete: A C# egy kis megértése sokat segít; ez segít zökkenőmentesen követni.
-4.  Excel-bővítmények: rendelkeznie kell egy bővítményfájllal (pl`.xlam`), amely a regisztrálni és használni kívánt funkciókat tartalmazza.
-5.  Minta Excel-bővítmény: Ebben az oktatóanyagban egy Excel-bővítményt fogunk használni`TESTUDF.xlam`. Tehát győződjön meg róla, hogy ez a rendelkezésére áll!
-Most, hogy elkészült, feltűrjük az ingujjunkat, és kezdjük a kódolást!
+Mielőtt belemerülnénk a kódolási varázslatba, nézzük meg, mire van szükséged:
+1. Visual Studio: Győződj meg róla, hogy a Visual Studio telepítve van a gépeden. Itt fogjuk megírni és futtatni a kódot.
+2. Aspose.Cells könyvtár: Telepítenie kell az Aspose.Cells könyvtárat. Letöltheti innen: [letöltési oldal](https://releases.aspose.com/cells/net/).
+3. C# alapismeretek: Egy kis C# ismeret sokat segíthet; segít majd zökkenőmentesen követni a tanultakat.
+4. Excel bővítmények: Kell, hogy legyen egy bővítményfájlod (például `.xlam`), amely tartalmazza a regisztrálni és használni kívánt függvényeket.
+5. Egy minta Excel-bővítmény: Ebben az oktatóanyagban egy nevű Excel-bővítményt fogunk használni. `TESTUDF.xlam`Szóval győződj meg róla, hogy ez a rendelkezésedre áll!
+Most, hogy mindennel készen vagy, hajtsuk fel az ingujjunkat, és lássunk hozzá a kódoláshoz!
 ## Csomagok importálása
-A kezdéshez importálnia kell néhány alapvető névteret a C# fájl tetején. A következőket kell tartalmaznia:
+Kezdéshez importálnod kell néhány alapvető névteret a C# fájlod elejére. Íme, amit bele kell foglalnod:
 ```csharp
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 ```
-Ezek a névterek lehetővé teszik az oktatóanyagban használt osztályok és metódusok elérését.
-Bontsuk ezt fel kezelhető lépésekre. Az útmutató végére alapos ismerete lesz arról, hogyan regisztrálhat bővítményfüggvényeket, és hogyan használhatja azokat Excel-munkafüzeteiben.
-## 1. lépés: Állítsa be a forrás- és kimeneti könyvtárakat
-Mielőtt regisztrálná a bővítményt, meg kell határoznia, hogy a bővítmény- és kimeneti fájljai hol fognak élni.
+Ezek a névterek lehetővé teszik a hozzáférést azokhoz az osztályokhoz és metódusokhoz, amelyeket ebben az oktatóanyagban használni fogunk.
+Bontsuk ezt könnyen kezelhető lépésekre. Az útmutató végére alaposan megérti majd, hogyan regisztrálhat bővítményfüggvényeket, és hogyan használhatja azokat az Excel-munkafüzetekben.
+## 1. lépés: A forrás- és kimeneti könyvtárak beállítása
+Mielőtt regisztrálná a bővítményt, meg kell adnia, hogy hol lesznek a bővítmény és a kimeneti fájlok.
 ```csharp
-// Forrás könyvtár
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 // Kimeneti könyvtár
 string outputDir = "Your Document Directory";
 ```
- Cserélje ki`"Your Document Directory"` a tényleges útvonallal, ahol az Ön`.xlam` fájl és kimeneti fájlok mentésre kerülnek. Ez olyan, mint a színpad beállítása a műsor kezdete előtt.
-## 2. lépés: Hozzon létre egy üres munkafüzetet
-Ezután létre kell hoznia egy üres munkafüzetet, ahol játszhatunk a kiegészítő funkciókkal.
+Csere `"Your Document Directory"` a tényleges útvonallal, ahol a `.xlam` A fájl és a kimeneti fájlok mentésre kerülnek. Ez pont olyan, mint a színpad előkészítése a műsor kezdete előtt.
+## 2. lépés: Üres munkafüzet létrehozása
+Ezután létre kell hoznod egy üres munkafüzetet, ahol játszhatunk a bővítményfüggvényekkel.
 ```csharp
 // Üres munkafüzet létrehozása
 Workbook workbook = new Workbook();
 ```
-Ez a kódsor egy új munkafüzetet hoz létre, amely játszóterünkként fog szolgálni. Tekintse úgy, mint egy friss vászonra, amely készen áll a kreatív vonásaira.
-## 3. lépés: Regisztrálja a bővítmény funkciót
-Most pedig térjünk a dolog lényegéhez! Ideje regisztrálni a bővítmény funkcióját. Íme, hogyan kell csinálni:
+Ez a kódsor egy új munkafüzetet hoz létre, amely a játszóterünkként fog szolgálni. Gondolj rá úgy, mint egy friss vászonra, amely készen áll a kreatív húzásaidhoz.
+## 3. lépés: A bővítményfüggvény regisztrálása
+Most pedig térjünk a lényegre! Ideje regisztrálni a bővítményfüggvényt. Így teheted meg:
 ```csharp
-// Regisztrálja a makróképes bővítményt a függvény nevével együtt
+// Makróbarát bővítmény regisztrálása a függvény nevével együtt
 int id = workbook.Worksheets.RegisterAddInFunction(sourceDir + @"TESTUDF.xlam", "TEST_UDF", false);
 ```
- Ez a sor regisztrálja a nevű bővítmény függvényt`TEST_UDF` található a`TESTUDF.xlam` kiegészítő fájl. A`false`paraméter azt jelenti, hogy a bővítmény nincs „elszigetelt” módban betöltve. 
+Ez a sor regisztrálja a nevű bővítményfüggvényt. `TEST_UDF` található a `TESTUDF.xlam` bővítményfájl. A `false` A paraméter azt jelenti, hogy a bővítmény nem „elszigetelt” módban töltődik be. 
 ## 4. lépés: További funkciók regisztrálása (ha vannak)
-Ha ugyanabban a bővítményfájlban több funkció van regisztrálva, azokat is regisztrálhatja!
+Ha több függvény van regisztrálva ugyanabban a bővítményfájlban, azokat is regisztrálhatja!
 ```csharp
-// További funkciók regisztrálása a fájlban (ha van)
+// Regisztráljon további függvényeket a fájlban (ha van ilyen)
 workbook.Worksheets.RegisterAddInFunction(id, "TEST_UDF1");
 ```
-Itt láthatja, milyen egyszerűen lehet több funkciót hozzáadni ugyanabból a bővítményből. Csak rakja egymásra őket, mint az építőkockákat!
-## 5. lépés: Nyissa meg a munkalapot
-Menjünk tovább, és nyissa meg a munkalapot, ahol a funkciónkat fogjuk használni. 
+Itt láthatod, milyen egyszerű több függvényt hozzáadni ugyanabból a bővítményből. Csak rakd őket egymásra, mint az építőkockákat!
+## 5. lépés: A munkalap elérése
+Lépjünk tovább, és lépjünk be abba a munkalapba, ahol a függvényünket fogjuk használni. 
 ```csharp
-// Az első munkalap elérése
+// Első munkalap elérése
 Worksheet worksheet = workbook.Worksheets[0];
 ```
-A képlet elhelyezéséhez elérjük a munkafüzet első munkalapját. Olyan, mintha kinyitnád a szoba ajtaját, ahol a szórakozás történik.
+A munkafüzet első munkalapjához férünk hozzá, hogy elhelyezzük benne a képletet. Olyan, mintha kinyitnánk annak a szobának az ajtaját, ahol a móka zajlik.
 ## 6. lépés: Hozzáférés egy adott cellához
-Ezután ki kell választanunk, hogy melyik cellát szeretnénk használni a képlethez. 
+Következő lépésként ki kell választanunk, hogy melyik cellát szeretnénk használni a képletünkhöz. 
 ```csharp
-// Hozzáférés az első cellához
+// Első cella elérése
 var cell = worksheet.Cells["A1"];
 ```
-Itt az A1 cellára mutatunk. Itt fogjuk eldobni a varázsképletünket. Úgy is gondolhatod, mint egy célpontot a kincsestérképedre!
-## 7. lépés: Állítsa be a képletet
-Itt az ideje a nagyszabású leleplezésnek! Állítsuk be a képletet, amely meghívja a regisztrált függvényünket.
+Itt az A1-es cellára mutatunk. Ide fogjuk beilleszteni a varázsképletünket. Úgy is elképzelheted, mintha egy célpontot tűznél ki a kincsestérképeden!
+## 7. lépés: A képlet beállítása
+Most pedig itt az ideje a nagy leleplezésnek! Állítsuk be a regisztrált függvényünket meghívó képletet.
 ```csharp
-// Állítsa be a bővítményben található képlet nevét
+// A bővítményben található képlet nevének beállítása
 cell.Formula = "=TEST_UDF()";
 ```
-Ezzel a sorral azt mondjuk az Excelnek, hogy az A1 cellán belül használja a függvényünket. Ez olyan, mintha parancsot adna az Excelnek, és azt mondaná: „Hé, csináld!”
-## 8. lépés: Mentse el a munkafüzetet
-Végül, de nem utolsósorban itt az ideje megmenteni remekművünket.
+Ezzel a sorral azt mondjuk az Excelnek, hogy használja a függvényünket az A1 cellában. Olyan, mintha parancsot adnánk az Excelnek, és azt mondanánk: „Hé, csináld ezt!”
+## 8. lépés: A munkafüzet mentése
+Végül, de nem utolsósorban, itt az ideje megmenteni a remekművünket.
 ```csharp
-// Mentse a munkafüzetet XLSX kimeneti formátumba.
+// Munkafüzet mentése XLSX kimeneti formátumban.
 workbook.Save(outputDir + @"test_udf.xlsx", Aspose.Cells.SaveFormat.Xlsx);
 ```
-Itt a munkafüzetünket XLSX-fájlként mentjük. Ez az utolsó lépés olyan, mintha keretbe helyezné a festményét, és felkészülne a bemutatására!
-## 9. lépés: Erősítse meg a végrehajtást
-Végül fejezzük be az egészet egy sikerüzenet kinyomtatásával a konzolra.
+Itt XLSX fájlként mentjük a munkafüzetünket. Ez az utolsó lépés olyan, mintha bekereteznénk a festményünket, és felkészülnénk a kiállításra!
+## 9. lépés: Végrehajtás megerősítése
+Végül fejezzük be az egészet egy sikeres üzenet kiíratásával a konzolra.
 ```csharp
 Console.WriteLine("RegisterAndCallFuncFromAddIn executed successfully.");
 ```
-Ez a vonal a mi győzelmi zászlónk. Ez egy kellemes kis érintés, amely megerősíti, hogy minden simán ment.
+Ez a vonal a győzelmi zászlónkként szolgál. Egy kedves kis utalás annak megerősítésére, hogy minden simán ment.
 ## Következtetés 
-És megvan! Nemcsak azt tanulta meg, hogyan regisztrálhat és hívhat függvényeket az Excel-bővítményekből az Aspose.Cells for .NET használatával, hanem az egyes lépések mélyebb megértését is. Most egy kicsit könnyebb az élet, nem? Miért ne próbálhatná ki saját maga? Merüljön el az Excel-bővítményekben, és helyezze táblázatait az interaktivitás és a funkcionalitás új szintjére.
+És íme! Nemcsak azt tanultad meg, hogyan regisztrálhatsz és hívhatsz függvényeket Excel-bővítményekből az Aspose.Cells for .NET használatával, hanem mélyebben megértetted az egyes lépéseket is. Az élet most egy kicsit könnyebb, nem igaz? Akkor miért ne próbálnád ki magad? Merülj el az Excel-bővítményekben, és adj táblázataidnak egy új interaktivitási és funkcionalitási szintet.
 ## GYIK
-### Mi az Excel-bővítmény?  
-Az Excel-bővítmény egy olyan program, amely egyéni szolgáltatásokat, funkciókat vagy parancsokat ad az Excelhez, lehetővé téve a felhasználók számára a képességek bővítését.
+### Mi az az Excel bővítmény?  
+Az Excel bővítmény egy olyan program, amely egyéni funkciókat, függvényeket vagy parancsokat ad az Excelhez, lehetővé téve a felhasználók számára a képességeinek bővítését.
 ### Használhatom az Aspose.Cells-t helyi telepítés nélkül?  
-Nem, telepítenie kell az Aspose.Cells könyvtárat, hogy használni tudja a .NET-alkalmazásaiban.
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells számára?  
- Meglátogathatod őket[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) további információkért.
-### Meg lehet hívni több függvényt egyetlen bővítményből?  
- Igen! Több funkciót is regisztrálhat ugyanabból a bővítményfájlból a segítségével`RegisterAddInFunction` módszer.
+Nem, telepítenie kell az Aspose.Cells könyvtárat ahhoz, hogy használni tudja a .NET alkalmazásaiban.
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?  
+Meglátogathatod őket [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) további információkért.
+### Lehetséges több függvényt meghívni egyetlen bővítményből?  
+Igen! Több függvényt is regisztrálhat ugyanabból a bővítményfájlból a `RegisterAddInFunction` módszer.
 ### Hol találok további dokumentációt az Aspose.Cells-ről?  
- Átfogó dokumentációjukat megtekintheti az oldalon[itt](https://reference.aspose.com/cells/net/).
+Átfogó dokumentációjukat megtekintheti a weboldalon [itt](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

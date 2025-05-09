@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuka Kunci dan Melindungi Baris Lembar Kerja di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 Mengelola keamanan file Excel Anda secara terprogram sangat penting untuk menjaga integritas data, terutama saat bekerja dengan informasi sensitif seperti catatan keuangan. Dengan Aspose.Cells untuk Java, Anda dapat membuka atau melindungi baris lembar kerja secara efisien, memastikan pengalaman yang mudah digunakan sekaligus menjaga data penting.
 
 Panduan ini mencakup cara untuk:
@@ -23,8 +25,8 @@ Panduan ini mencakup cara untuk:
 
 Di akhir tutorial ini, Anda akan mahir memanfaatkan Aspose.Cells untuk Java untuk meningkatkan keamanan dan kegunaan file Excel Anda.
 
-## Prasyarat
-Pastikan Anda memiliki:
+## Előfeltételek
+Győződjön meg róla, hogy rendelkezik:
 - **Kit Pengembangan Java (JDK)**: Versi 8 atau lebih baru.
 - **Lingkungan Pengembangan Terpadu (IDE)**Seperti IntelliJ IDEA atau Eclipse.
 - **Aspose.Cells untuk Java**Kami merekomendasikan versi 25.3 dari pustaka ini untuk kompatibilitas.
@@ -46,10 +48,10 @@ Tambahkan dependensi Aspose.Cells ke proyek Anda menggunakan Maven atau Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-Unduh dan konfigurasikan lisensi untuk fungsionalitas penuh, tersedia sebagai uji coba gratis atau lisensi sementara di [Situs web Aspose](https://purchase.aspose.com/temporary-license/).
+Unduh dan konfigurasikan lisensi untuk fungsionalitas penuh, tersedia sebagai uji coba gratis atau lisensi sementara di [Aspose weboldala](https://purchase.aspose.com/temporary-license/).
 
-### Inisialisasi Dasar
-Mulailah dengan menginisialisasi `Workbook` obyek:
+### Alapvető inicializálás
+Mulailah dengan menginisialisasi `Workbook` objektum:
 ```java
 import com.aspose.cells.*;
 
@@ -57,20 +59,20 @@ public class WorkbookExample {
     public static void main(String[] args) throws Exception {
         // Buat buku kerja baru atau muat yang sudah ada
         Workbook wb = new Workbook();
-        // Akses lembar kerja pertama
+        // Hozzáférés az első munkalaphoz
         Worksheet sheet = wb.getWorksheets().get(0);
         
-        // Kode Anda di sini...
+        // A kódod itt...
     }
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Buka Kunci Semua Baris di Lembar Kerja
 Membuka kunci semua baris memberi pengguna kemampuan mengedit penuh pada lembar kerja Anda.
 
-#### Ringkasan
+#### Áttekintés
 Metode ini mengulangi setiap baris, menetapkan properti terkuncinya menjadi salah.
 
 **Langkah 1: Akses Buku Kerja dan Lembar Kerja**
@@ -98,12 +100,12 @@ for (int i = 0; i <= 255; i++) {
     sheet.getCells().getRows().get(i).applyStyle(style, flag);
 }
 ```
-**Mengapa Ini Berhasil**: : Itu `setLocked(false)` pemanggilan metode menghapus batasan pengeditan untuk setiap baris yang ditentukan.
+**Mengapa Ini Berhasil**A `setLocked(false)` pemanggilan metode menghapus batasan pengeditan untuk setiap baris yang ditentukan.
 
 ### Kunci Baris Pertama di Lembar Kerja
 Mengunci baris tertentu berguna saat menampilkan data yang tidak boleh diubah oleh pengguna.
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini hanya mengunci baris pertama, membiarkan baris lainnya tidak terkunci untuk diedit.
 
 **Langkah 1: Akses dan Ubah Gaya**
@@ -126,7 +128,7 @@ sheet.getCells().getRows().get(1).applyStyle(style, flag);
 ### Lindungi Lembar Kerja dan Simpan File
 Melindungi lembar kerja memastikan tidak ada modifikasi yang tidak sah yang dibuat.
 
-#### Ringkasan
+#### Áttekintés
 Terapkan perlindungan menyeluruh pada seluruh lembar kerja.
 
 **Langkah 1: Atur Tingkat Perlindungan**
@@ -142,44 +144,47 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 wb.save(outDir + "ProtectedWorksheet_out.xls");
 ```
 
-## Aplikasi Praktis
-- **Pelaporan Keuangan**: Kunci baris untuk mencegah penyuntingan yang tidak sah.
-- **Formulir Pengumpulan Data**: Buka bagian untuk masukan pengguna sambil melindungi area lain.
-- **Manajemen Inventaris**Lindungi rumus dan perhitungan sekaligus izinkan pembaruan inventaris.
+## Gyakorlati alkalmazások
+- **Pénzügyi jelentéstétel**: Kunci baris untuk mencegah penyuntingan yang tidak sah.
+- **Adatgyűjtési űrlapok**: Buka bagian untuk masukan pengguna sambil melindungi area lain.
+- **Készletgazdálkodás**Lindungi rumus dan perhitungan sekaligus izinkan pembaruan inventaris.
 
 Menggabungkan fitur-fitur ini ke dalam sistem perusahaan seperti solusi ERP atau CRM meningkatkan keamanan dan integritas data.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 - **Optimalkan Perulangan**: Proses hanya baris yang diperlukan untuk menghemat sumber daya.
-- **Manajemen Memori**: Lepaskan objek buku kerja segera setelah digunakan.
+- **Memóriakezelés**: Lepaskan objek buku kerja segera setelah digunakan.
 - **Aspose.Cells Efisiensi**: Manfaatkan API Aspose yang efisien untuk menangani kumpulan data besar tanpa penurunan kinerja yang signifikan.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara membuka kunci dan melindungi baris lembar kerja Excel menggunakan Aspose.Cells untuk Java. Keterampilan ini penting untuk menjaga integritas dan keamanan data dalam aplikasi Anda. Bereksperimenlah dengan berbagai jenis perlindungan dan jelajahi fitur tambahan seperti pemformatan bersyarat dan manipulasi bagan yang tersedia dalam pustaka.
 
-## Bagian FAQ
+## GYIK szekció
 **Q1: Bisakah saya membuka kunci sel tertentu, bukan seluruh baris?**
 A1: Ya, Anda dapat mengatur properti terkunci pada gaya sel individual mirip dengan cara yang dilakukan untuk baris.
 
 **Q2: Apa saja kesalahan umum saat menerapkan proteksi baris dengan Aspose.Cells?**
-A2: Masalah umum termasuk tidak memiliki lisensi yang valid atau penggunaan yang salah `StyleFlag` objek. Pastikan pengaturan Anda sudah benar dan konsultasikan [Dokumentasi Aspose](https://reference.aspose.com/cells/java/) untuk pemecahan masalah.
+A2: Masalah umum termasuk tidak memiliki lisensi yang valid atau penggunaan yang salah `StyleFlag` objek. Pastikan pengaturan Anda sudah benar dan konsultasikan [Aspose dokumentáció](https://reference.aspose.com/cells/java/) untuk pemecahan masalah.
 
 **Q3: Bagaimana cara menerapkan jenis perlindungan yang berbeda pada lembar kerja saya?**
-A3: Penggunaan `sheet.protect(ProtectionType.XXX)`, Di mana `XXX` bisa jadi pilihan seperti `CONTENTS`Bahasa Indonesia: `OBJECTS`, atau `ALL`.
+A3: Használat `sheet.protect(ProtectionType.XXX)`, Di mana `XXX` bisa jadi pilihan seperti `CONTENTS`, `OBJECTS`, atau `ALL`.
 
 **Q4: Apakah mungkin untuk melindungi lembar kerja tanpa mengunci baris apa pun?**
 A4: Ya, Anda dapat menerapkan perlindungan pada tingkat lembar kerja sambil membiarkan semua gaya baris tidak terkunci.
 
 **Q5: Berapa lama versi uji coba berlaku?**
-A5: Uji coba gratis memungkinkan akses penuh tetapi menambahkan tanda air. Minta lisensi sementara [Di Sini](https://purchase.aspose.com/temporary-license/) untuk menguji tanpa batasan.
+A5: Uji coba gratis memungkinkan akses penuh tetapi menambahkan tanda air. Minta lisensi sementara [itt](https://purchase.aspose.com/temporary-license/) untuk menguji tanpa batasan.
 
-## Sumber daya
-- **Dokumentasi**: Panduan lengkap dan referensi API di [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/).
-- **Unduh**: Versi terbaru dari [Halaman unduhan Aspose](https://releases.aspose.com/cells/java/).
-- **Pembelian**: Beli lisensi langsung melalui [Portal pembelian Aspose](https://purchase.aspose.com/buy) untuk akses tanpa gangguan.
-- **Mendukung**:Kunjungi [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9) untuk pertanyaan apa pun.
+## Erőforrás
+- **Dokumentáció**: Panduan lengkap dan referensi API di [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés**: Versi terbaru dari [Az Aspose letöltési oldala](https://releases.aspose.com/cells/java/).
+- **Vásárlás**: Beli lisensi langsung melalui [Az Aspose vásárlási portálja](https://purchase.aspose.com/buy) untuk akses tanpa gangguan.
+- **Támogatás**Látogassa meg a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9) bármilyen kérdés esetén.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

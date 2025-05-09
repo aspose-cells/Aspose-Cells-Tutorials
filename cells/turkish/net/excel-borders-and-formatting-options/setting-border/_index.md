@@ -1,14 +1,16 @@
 ---
-title: Excel'de Programatik Olarak Sınır Ayarlama
-linktitle: Excel'de Programatik Olarak Sınır Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak Excel'de sınırları programatik olarak nasıl ayarlayacağınızı öğrenin. Zamandan tasarruf edin ve Excel görevlerinizi otomatikleştirin.
-weight: 10
-url: /tr/net/excel-borders-and-formatting-options/setting-border/
+"description": "Aspose.Cells for .NET kullanarak Excel'de sınırları programatik olarak nasıl ayarlayacağınızı öğrenin. Zamandan tasarruf edin ve Excel görevlerinizi otomatikleştirin."
+"linktitle": "Excel'de Programatik Olarak Sınır Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Excel'de Programatik Olarak Sınır Ayarlama"
+"url": "/tr/net/excel-borders-and-formatting-options/setting-border/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel'de Programatik Olarak Sınır Ayarlama
@@ -23,8 +25,8 @@ Peki, Excel otomasyon becerilerinizi bir üst seviyeye taşımaya hazır mısın
 
 Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-1.  Visual Studio: Makinenizde Visual Studio yüklü olmalıdır. Yoksa, şuradan indirin:[Burada](https://visualstudio.microsoft.com/downloads/).
-2.  .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. DLL'yi şu adresten indirerek edinebilirsiniz:[bu bağlantı](https://releases.aspose.com/cells/net/) veya projenizde NuGet'i kullanarak:
+1. Visual Studio: Makinenizde Visual Studio yüklü olmalıdır. Yoksa, şuradan indirin: [Burada](https://visualstudio.microsoft.com/downloads/).
+2. .NET için Aspose.Cells: Aspose.Cells kütüphanesine sahip olmanız gerekir. DLL'yi şu adresten indirerek edinebilirsiniz: [bu bağlantı](https://releases.aspose.com/cells/net/) veya projenizde NuGet'i kullanarak:
 ```bash
 Install-Package Aspose.Cells
 ```
@@ -54,11 +56,11 @@ Bu ad alanları, Aspose.Cells işlevlerine ve System.Drawing ad alanındaki renk
 string dataDir = "Your Document Directory";
 ```
 
- Yer değiştirmek`"Your Document Directory"` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile. 
+Yer değiştirmek `"Your Document Directory"` Excel dosyanızı kaydetmek istediğiniz gerçek yol ile. 
 
 ## Adım 2: Bir Çalışma Kitabı Nesnesi Oluşturun
 
- Daha sonra, bir örnek oluşturalım`Workbook` sınıf. Bu bizim Excel çalışma kitabımızı temsil edecek.
+Daha sonra, bir örnek oluşturalım `Workbook` sınıf. Bu bizim Excel çalışma kitabımızı temsil edecek.
 
 ```csharp
 // Bir Çalışma Kitabı nesnesini örnekleme
@@ -133,7 +135,7 @@ Son olarak çalışma kitabımızı kaydedelim. Değişiklikleri kaydetmek için
 workbook.Save(dataDir + "output.xlsx");
 ```
 
- Bu Excel dosyanızı şu şekilde kaydedecektir:`output.xlsx` belirtilen dizinde. 
+Bu Excel dosyanızı şu şekilde kaydedecektir: `output.xlsx` belirtilen dizinde. 
 
 ## Çözüm
 
@@ -145,19 +147,21 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak bir Excel dosyasında sınırlar
 Evet, Aspose.Cells öncelikli olarak Excel'e odaklanıyor, ancak Excel dosyalarını PDF ve HTML gibi çeşitli formatlara dönüştürmenize de olanak sağlıyor.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?  
- İşlevlerini test etmek için ücretsiz denemeyi kullanabilirsiniz. Uzun süreli kullanım için, bulabileceğiniz bir lisans satın almanız gerekecektir.[Burada](https://purchase.aspose.com/buy).
+İşlevlerini test etmek için ücretsiz denemeyi kullanabilirsiniz. Uzun süreli kullanım için, bulabileceğiniz bir lisans satın almanız gerekecektir. [Burada](https://purchase.aspose.com/buy).
 
 ### Aspose.Cells'i nasıl kurarım?  
 Aspose.Cells'i NuGet aracılığıyla veya siteden DLL'i indirerek kurabilirsiniz.
 
 ### Herhangi bir doküman mevcut mu?  
- Kesinlikle! Kapsamlı dokümantasyona erişebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kesinlikle! Kapsamlı dokümantasyona erişebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 
 ### Sorun yaşarsam nereden destek alabilirim?  
- Herhangi bir sorunuz veya karşılaştığınız sorun için Aspose destek forumunu ziyaret edebilirsiniz:[Aspose Forum](https://forum.aspose.com/c/cells/9).
+Herhangi bir sorunuz veya karşılaştığınız sorun için Aspose destek forumunu ziyaret edebilirsiniz: [Aspose Forum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ In diesem Handbuch haben Sie gelernt, wie Sie verschachtelte Pivot-Tabellen mit 
 Mit dieser umfassenden Anleitung sind Sie bestens gerüstet, um komplexe Excel-Datenverwaltungsaufgaben mit Aspose.Cells für Java zu bewältigen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

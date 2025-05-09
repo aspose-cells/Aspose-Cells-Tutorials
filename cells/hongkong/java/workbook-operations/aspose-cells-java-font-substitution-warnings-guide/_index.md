@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ## 實施指南
 
-在您的環境準備好之後，讓我們使用 Aspose.Cells for Java 實作字體替換警告。
+準備好環境後，讓我們使用 Aspose.Cells for Java 實作字型替換警告。
 
 ### 實現字體替換警告
 
@@ -171,6 +173,9 @@ public class FontSubstitutionHandler {
 - **購買和授權：** 取得許可證或透過以下方式免費試用 [Aspose 購買](https://purchase.aspose.com/buy) 或者 [Aspose 免費試用](https://releases。aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

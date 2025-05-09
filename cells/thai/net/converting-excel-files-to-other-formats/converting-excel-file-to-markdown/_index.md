@@ -1,14 +1,16 @@
 ---
-title: การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET
-linktitle: การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีแปลงไฟล์ Excel เป็นรูปแบบ Markdown โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เพิ่มประสิทธิภาพการทำงานด้วยการแปลงไฟล์ที่ง่ายดาย
-weight: 13
-url: /th/net/converting-excel-files-to-other-formats/converting-excel-file-to-markdown/
+"description": "เรียนรู้วิธีแปลงไฟล์ Excel เป็นรูปแบบ Markdown โดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนโดยละเอียดนี้ เพิ่มประสิทธิภาพการทำงานด้วยการแปลงไฟล์ที่ง่ายดาย"
+"linktitle": "การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET"
+"url": "/th/net/converting-excel-files-to-other-formats/converting-excel-file-to-markdown/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแปลงไฟล์ Excel เป็น Markdown ด้วยโปรแกรมใน .NET
@@ -21,8 +23,8 @@ url: /th/net/converting-excel-files-to-other-formats/converting-excel-file-to-ma
 - ความเข้าใจพื้นฐานเกี่ยวกับ .NET framework: ความคุ้นเคยกับ .NET และ C# จะเป็นประโยชน์
 - Aspose.Cells สำหรับ .NET: ไลบรารีที่เราจะใช้ในการจัดการการแปลง Excel เป็น Markdown
 - Visual Studio: AC# IDE สำหรับเขียนและรันโค้ดของคุณ
--  ไฟล์ Excel: ไฟล์ Excel ที่คุณต้องการแปลง (เช่น`Book1.xlsx`-
- คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ .NET ได้จาก[หน้าวางจำหน่าย](https://releases.aspose.com/cells/net/) . สำหรับการทดลองใช้ฟรี โปรดไปที่[หน้าทดลองใช้](https://releases.aspose.com/).
+- ไฟล์ Excel: ไฟล์ Excel ที่คุณต้องการแปลง (เช่น `Book1.xlsx`-
+คุณสามารถดาวน์โหลด Aspose.Cells สำหรับ .NET ได้จาก [หน้าวางจำหน่าย](https://releases.aspose.com/cells/net/). สำหรับการทดลองใช้ฟรี โปรดไปที่ [หน้าทดลองใช้](https://releases-aspose.com/).
 ## แพ็คเกจนำเข้า
 ในการเริ่มต้นโครงการของคุณ ให้แน่ใจว่าคุณได้นำเข้าแพ็คเกจที่จำเป็นจาก Aspose.Cells ซึ่งเป็นสิ่งสำคัญสำหรับการทำงานกับไฟล์ Excel และการแปลงเป็นรูปแบบอื่นๆ เช่น Markdown
 ```csharp
@@ -41,7 +43,7 @@ using System;
 ขั้นตอนต่อไปคือการติดตั้งไลบรารี Aspose.Cells สำหรับ .NET ในโปรเจ็กต์ของคุณ ซึ่งสามารถทำได้ผ่านตัวจัดการแพ็กเกจ NuGet
 1. คลิกขวาที่โครงการของคุณใน Solution Explorer
 2. เลือกจัดการแพ็คเกจ NuGet
-3.  ค้นหา`Aspose.Cells` ในแท็บเรียกดู
+3. ค้นหา `Aspose.Cells` ในแท็บเรียกดู
 4. คลิกติดตั้ง
 อีกวิธีหนึ่งคุณสามารถติดตั้งผ่านคอนโซลตัวจัดการแพ็กเกจ NuGet โดยใช้คำสั่ง:
 ```bash
@@ -56,7 +58,7 @@ string sourceDir = "Your Document Directory";
 //ไดเรกทอรีผลลัพธ์
 string outputDir = "Your Document Directory";
 ```
- แทนที่`"Your Document Directory"` พร้อมด้วยเส้นทางจริงไปยังไฟล์ Excel ของคุณและตำแหน่งที่คุณต้องการบันทึกไฟล์ Markdown
+แทนที่ `"Your Document Directory"` พร้อมด้วยเส้นทางจริงไปยังไฟล์ Excel ของคุณและตำแหน่งที่คุณต้องการบันทึกไฟล์ Markdown
 การตั้งค่าเส้นทางไฟล์จะช่วยให้โปรแกรมของคุณทราบชัดเจนว่าจะค้นหาไฟล์ Excel ได้ที่ใด และจะบันทึกไฟล์ Markdown ได้ที่ใด
 ## ขั้นตอนที่ 4: เปิดไฟล์ Excel
 ขั้นตอนต่อไป ให้ใช้ Aspose.Cells เพื่อเปิดเวิร์กบุ๊ก Excel ที่คุณต้องการแปลง ขั้นตอนนี้จะโหลดไฟล์ Excel ลงในหน่วยความจำ ทำให้พร้อมสำหรับการจัดการ
@@ -64,15 +66,15 @@ string outputDir = "Your Document Directory";
 // เปิดไฟล์เทมเพลต
 Workbook workbook = new Workbook(sourceDir + "Book1.xlsx");
 ```
- ที่นี่แทนที่`"Book1.xlsx"` ด้วยชื่อไฟล์ Excel ของคุณ คลาส Workbook เป็นส่วนสำคัญของ Aspose.Cells ที่ใช้แทนไฟล์ Excel
+ที่นี่แทนที่ `"Book1.xlsx"` ด้วยชื่อไฟล์ Excel ของคุณ คลาส Workbook เป็นส่วนสำคัญของ Aspose.Cells ที่ใช้แทนไฟล์ Excel
 การโหลดเวิร์กบุ๊กจะทำให้คุณเข้าถึงข้อมูล สไตล์ และเวิร์กชีตทั้งหมด ซึ่งจำเป็นก่อนที่จะแปลงไปเป็นมาร์กดาวน์
 ## ขั้นตอนที่ 5: แปลง Excel เป็น Markdown
- ในที่สุด มาดูส่วนที่ดีกัน—การแปลงเวิร์กบุ๊ก Excel เป็นไฟล์ Markdown ซึ่งทำได้โดยเรียกใช้เมธอด Save และระบุ`SaveFormat.Markdown`.
+ในที่สุด มาดูส่วนที่ดีกัน—การแปลงเวิร์กบุ๊ก Excel เป็นไฟล์ Markdown ซึ่งทำได้โดยเรียกใช้เมธอด Save และระบุ `SaveFormat-Markdown`.
 ```csharp
 // บันทึกเป็นมาร์กดาวน์
 workbook.Save(outputDir + "Book1.md", SaveFormat.Markdown);
 ```
- โค้ดด้านบนจะแปลงไฟล์ Excel เป็นรูปแบบ Markdown และบันทึกไว้ในไดเร็กทอรีที่คุณระบุ คุณสามารถเปลี่ยนแปลงได้`"Book1.md"` เป็นชื่อไฟล์ใดก็ได้ที่คุณต้องการสำหรับเอาท์พุตแบบ Markdown
+โค้ดด้านบนจะแปลงไฟล์ Excel เป็นรูปแบบ Markdown และบันทึกไว้ในไดเร็กทอรีที่คุณระบุ คุณสามารถเปลี่ยนแปลงได้ `"Book1.md"` เป็นชื่อไฟล์ใดก็ได้ที่คุณต้องการสำหรับเอาท์พุตแบบ Markdown
 วิธีการบันทึกมีความยืดหยุ่นและทรงพลังทำให้คุณสามารถส่งออกไฟล์ Excel เป็นรูปแบบต่างๆ รวมถึง Markdown
 ## ขั้นตอนที่ 6: ดำเนินการและตรวจสอบ
 เมื่อคุณตั้งค่าทุกอย่างเรียบร้อยแล้ว ให้เรียกใช้โปรแกรมและตรวจสอบไดเรกทอรีเอาต์พุตเพื่อตรวจยืนยันว่าไฟล์ Markdown ได้รับการสร้างสำเร็จแล้ว
@@ -87,16 +89,18 @@ Console.WriteLine("ConvertExcelFileToMarkdown executed successfully.");
 ### Aspose.Cells สำหรับ .NET คืออะไร?  
 Aspose.Cells สำหรับ .NET เป็นไลบรารีที่ช่วยให้นักพัฒนาสามารถสร้าง จัดการ และแปลงไฟล์ Excel ภายในแอปพลิเคชัน .NET ได้
 ### ฉันสามารถแปลงรูปแบบอื่นนอกจาก Markdown ได้หรือไม่  
- ใช่! Aspose.Cells รองรับรูปแบบต่างๆ เช่น PDF, CSV และ HTML คุณสามารถใช้`SaveFormat` เพื่อระบุรูปแบบที่ต้องการ
+ใช่! Aspose.Cells รองรับรูปแบบต่างๆ เช่น PDF, CSV และ HTML คุณสามารถใช้ `SaveFormat` เพื่อระบุรูปแบบที่ต้องการ
 ### Aspose.Cells ฟรีหรือเปล่า?  
- Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ คุณต้องมีใบอนุญาตแบบชำระเงิน คุณสามารถรับสิทธิ์ใช้งานแบบชำระเงินได้[ใบอนุญาตชั่วคราวที่นี่](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells เสนอให้ทดลองใช้งานฟรี แต่หากต้องการใช้ฟีเจอร์เต็มรูปแบบ คุณต้องมีใบอนุญาตแบบชำระเงิน คุณสามารถรับสิทธิ์ใช้งานแบบชำระเงินได้ [ใบอนุญาตชั่วคราวที่นี่](https://purchase-aspose.com/temporary-license/).
 ### ฉันสามารถทำการแปลงไฟล์หลาย ๆ ไฟล์แบบอัตโนมัติได้ไหม  
 แน่นอน คุณสามารถวนซ้ำไฟล์ Excel หลายไฟล์ในไดเร็กทอรีและแปลงเป็น Markdown หรือรูปแบบอื่นได้
 ### ห้องสมุดสนับสนุนรูปแบบ Excel รุ่นเก่าหรือไม่?  
- ใช่ มันรองรับรูปแบบเก่ากว่าเช่น`.xls` รวมถึงรุ่นใหม่ๆ เช่น`.xlsx`.
+ใช่ มันรองรับรูปแบบเก่ากว่าเช่น `.xls` รวมถึงรุ่นใหม่ๆ เช่น `-xlsx`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

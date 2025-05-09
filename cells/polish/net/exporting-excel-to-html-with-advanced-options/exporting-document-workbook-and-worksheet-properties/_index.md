@@ -1,21 +1,23 @@
 ---
-title: Eksportowanie właściwości skoroszytu i arkusza dokumentu w formacie HTML
-linktitle: Eksportowanie właściwości skoroszytu i arkusza dokumentu w formacie HTML
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak eksportować właściwości dokumentu, skoroszytu i arkusza kalkulacyjnego programu Excel do HTML przy użyciu Aspose.Cells dla .NET. Łatwy przewodnik krok po kroku w zestawie.
-weight: 11
-url: /pl/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/
+"description": "Dowiedz się, jak eksportować właściwości dokumentu, skoroszytu i arkusza kalkulacyjnego programu Excel do HTML przy użyciu Aspose.Cells dla .NET. Łatwy przewodnik krok po kroku w zestawie."
+"linktitle": "Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML"
+"url": "/pl/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Eksportowanie właściwości skoroszytu i arkusza dokumentu w formacie HTML
+# Eksportowanie właściwości skoroszytu dokumentu i arkusza kalkulacyjnego w formacie HTML
 
 ## Wstęp
 
-Jeśli chodzi o obsługę arkuszy kalkulacyjnych, często musimy konwertować pliki Excela do różnych formatów w celu udostępniania, przechowywania lub prezentacji. Jednym z typowych zadań jest eksportowanie właściwości skoroszytu i arkusza kalkulacyjnego do formatu HTML. W tym artykule przeprowadzimy Cię przez proces realizacji tego za pomocą Aspose.Cells dla .NET. Nie martw się, jeśli jesteś nowicjuszem w kodowaniu lub bibliotece Aspose; rozłożymy to na czynniki pierwsze, aby ułatwić Ci śledzenie!
+Jeśli chodzi o obsługę arkuszy kalkulacyjnych, często musimy konwertować pliki Excela do różnych formatów w celu udostępniania, przechowywania lub prezentacji. Jednym z typowych zadań jest eksportowanie właściwości skoroszytu i arkusza kalkulacyjnego do formatu HTML. W tym artykule przeprowadzimy Cię przez proces realizacji tego przy użyciu Aspose.Cells dla .NET. Nie martw się, jeśli jesteś nowicjuszem w kodowaniu lub bibliotece Aspose; rozłożymy to na czynniki pierwsze, aby ułatwić Ci śledzenie!
 
 ## Wymagania wstępne
 
@@ -23,11 +25,11 @@ Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebuj
 
 1. .NET Framework: Upewnij się, że Twoje środowisko programistyczne jest skonfigurowane z .NET Framework. Aspose.Cells jest zgodne z wersjami .NET Framework do 4.8.
    
-2.  Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz pobrać bibliotekę z[strona pobierania](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells dla .NET: Musisz mieć zainstalowany Aspose.Cells. Możesz pobrać bibliotekę z [strona pobierania](https://releases.aspose.com/cells/net/). 
 
 3. IDE: Odpowiednie zintegrowane środowisko programistyczne (IDE), np. Visual Studio, uprości Twoje doświadczenie kodowania.
 
-4.  Przykładowy plik programu Excel: W celach testowych upewnij się, że masz plik programu Excel o nazwie`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` w Twoim katalogu roboczym.
+4. Przykładowy plik programu Excel: W celach testowych upewnij się, że masz plik programu Excel o nazwie `sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` w Twoim katalogu roboczym.
 
 ## Importuj pakiety
 
@@ -42,7 +44,7 @@ Teraz, gdy omówiliśmy wymagania wstępne, zacznijmy od zaimportowania niezbęd
 Aby dodać pakiet Aspose.Cells, wykonaj następujące kroki:
 
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań i wybierz opcję „Zarządzaj pakietami NuGet”.
-- Menedżerze pakietów NuGet wyszukaj „Aspose.Cells” i zainstaluj.
+- W Menedżerze pakietów NuGet wyszukaj „Aspose.Cells” i zainstaluj.
 - Pakiet ten zawiera klasy i metody niezbędne do pracy z plikami Excela.
 
 ### Importowanie przestrzeni nazw
@@ -56,7 +58,7 @@ using System.Linq;
 using System.Text;
 ```
 
- To da nam dostęp do`Workbook` I`HtmlSaveOptions` klas, które wykorzystamy w naszym przykładzie.
+Dzięki temu uzyskamy dostęp do `Workbook` I `HtmlSaveOptions` klas, które wykorzystamy w naszym przykładzie.
 
 Teraz, gdy wszystko jest już skonfigurowane, podzielmy proces na proste kroki.
 
@@ -77,14 +79,14 @@ string outputDir = "Your Document Directory/";  // Zaktualizuj swoją rzeczywist
 
 ## Krok 2: Załaduj plik Excel
 
- Teraz musimy załadować plik Excela za pomocą`Workbook` klasa:
+Teraz musimy załadować plik Excela za pomocą `Workbook` klasa:
 
 ```csharp
 // Załaduj przykładowy plik Excel
 Workbook workbook = new Workbook(sourceDir + "sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx");
 ```
 
--  Przykład skoroszytu:`Workbook` Konstruktor przyjmuje ścieżkę do pliku Excel i tworzy nową instancję, którą można manipulować.
+- Przykład skoroszytu: `Workbook` Konstruktor przyjmuje ścieżkę do pliku Excel i tworzy nową instancję, którą można manipulować.
 
 ## Krok 3: Skonfiguruj opcje zapisywania HTML
 
@@ -101,7 +103,7 @@ options.ExportWorksheetProperties = false;
 ```
 
 - HtmlSaveOptions: Ta klasa pomaga zarządzać sposobem konwersji pliku Excel na format HTML.
--  Ustawiliśmy kilka opcji`false`ponieważ nie chcemy uwzględniać właściwości skoroszytu i arkusza w naszym wyjściu HTML.
+- Ustawiliśmy kilka opcji `false` ponieważ nie chcemy uwzględniać właściwości skoroszytu i arkusza w naszym wyjściu HTML.
 
 ## Krok 4: Eksportuj wszystko do HTML
 
@@ -112,7 +114,7 @@ Teraz możemy zapisać nasz skoroszyt w formacie HTML:
 workbook.Save(outputDir + "outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```
 
--  Ten`Save` Metoda przyjmuje dwa parametry: ścieżkę do pliku wyjściowego HTML i skonfigurowane przez nas opcje. Uruchomienie tej metody utworzy plik HTML w wyznaczonym katalogu wyjściowym.
+- Ten `Save` Metoda przyjmuje dwa parametry: ścieżkę do pliku wyjściowego HTML i skonfigurowane przez nas opcje. Uruchomienie tej metody utworzy plik HTML w wyznaczonym katalogu wyjściowym.
 
 ## Krok 5: Opinie na temat konsoli
 
@@ -132,19 +134,21 @@ tak po prostu, udało Ci się wyeksportować właściwości skoroszytu i arkusza
 Bibliotekę Aspose.Cells można zainstalować za pośrednictwem NuGet w projekcie Visual Studio, korzystając z Menedżera pakietów NuGet.
 
 ### Czy mogę dostosować wynik HTML?  
- Tak, Aspose.Cells zapewnia różne opcje w`HtmlSaveOptions` aby dostosować sposób konwersji pliku Excel do formatu HTML.
+Tak, Aspose.Cells zapewnia różne opcje w `HtmlSaveOptions` aby dostosować sposób konwersji pliku Excel do formatu HTML.
 
 ### Czy istnieje sposób na uwzględnienie właściwości dokumentu w eksporcie HTML?  
- Możesz ustawić`ExportDocumentProperties`, `ExportWorkbookProperties` , I`ExportWorksheetProperties` Do`true` W`HtmlSaveOptions` jeśli chcesz je uwzględnić.
+Możesz ustawić `ExportDocumentProperties`, `ExportWorkbookProperties`, I `ExportWorksheetProperties` Do `true` W `HtmlSaveOptions` jeśli chcesz je uwzględnić.
 
 ### Do jakich formatów mogę eksportować pliki Excel poza HTML?  
 Aspose.Cells obsługuje różne formaty, w tym PDF, CSV, XML i inne.
 
 ### Czy jest dostępna wersja próbna?  
- Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Cells na stronie[strona internetowa](https://releases.aspose.com/).
+Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Cells na stronie [strona internetowa](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

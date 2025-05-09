@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasından Konulu Yorumları Kaldır
-linktitle: Çalışma Sayfasından Konulu Yorumları Kaldır
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel çalışma sayfalarından iş parçacıklı yorumları kolayca kaldırın. Excel yönetiminizi basitleştirin.
-weight: 23
-url: /tr/net/worksheet-operations/remove-threaded-comments/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel çalışma sayfalarından iş parçacıklı yorumları kolayca kaldırın. Excel yönetiminizi basitleştirin."
+"linktitle": "Çalışma Sayfasından Konulu Yorumları Kaldır"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Çalışma Sayfasından Konulu Yorumları Kaldır"
+"url": "/tr/net/worksheet-operations/remove-threaded-comments/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasından Konulu Yorumları Kaldır
@@ -18,7 +20,7 @@ Dijital çağda, işbirlikli çalışma norm haline geldi ve gerçek zamanlı ge
 ## Ön koşullar
 Başlamadan önce, listenizde kontrol etmeniz gereken birkaç temel şey var:
 1. Temel C# ve .NET Bilgisi: .NET için Aspose.Cells kullandığımızdan, C# programlamaya aşinalık çok önemlidir.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesinin yüklü olması gerekir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 3. Geliştirme Ortamı: C# kodunu yazmak ve çalıştırmak için tercih ettiğiniz IDE'yi (örneğin Visual Studio) ayarlayın.
 4. Örnek Excel Dosyası: Test amaçlı olarak, konu anlatımlı bir Excel dosyası örneği oluşturun veya toplayın.
 ## Paketleri İçe Aktar
@@ -28,7 +30,7 @@ using System;
 ```
 Bu basit içe aktarma ifadesi, Aspose.Cells kütüphanesinin sunduğu tüm güçlü işlevlere erişmenizi sağlayacaktır.
 ## Adım 1: Dosya Yollarınızı Tanımlayın
- Başlamak için Excel dosyalarınızın bulunduğu kaynak ve çıktı dizinini belirlemeniz gerekir. Değiştir`"Your Document Directory"` dosyanızın saklandığı gerçek yol ile.
+Başlamak için Excel dosyalarınızın bulunduğu kaynak ve çıktı dizinini belirlemeniz gerekir. Değiştir `"Your Document Directory"` dosyanızın saklandığı gerçek yol ile.
 ```csharp
 // Kaynak dizini
 string sourceDir = "Your Document Directory";
@@ -36,7 +38,7 @@ string sourceDir = "Your Document Directory";
 string outDir = "Your Document Directory";
 ```
 ## Adım 2: Çalışma Kitabını Yükleyin
- Sırada yeni bir tane başlatmak var`Workbook` kaynak Excel dosyanıza işaret eden nesne. Bu nesne, elektronik tablonuza erişmek ve onu düzenlemek için merkezi bir merkez görevi görecektir.
+Sırada yeni bir tane başlatmak var `Workbook` kaynak Excel dosyanıza işaret eden nesne. Bu nesne, elektronik tablonuza erişmek ve onu düzenlemek için merkezi bir merkez görevi görecektir.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 ```
@@ -46,7 +48,7 @@ Workbook workbook = new Workbook(sourceDir + "ThreadedCommentsSample.xlsx");
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 ## Adım 4: Yorum Toplama İşlemini Alın
- Yorumları yönetmek için şunları elde etmemiz gerekiyor:`CommentCollection` çalışma sayfasından. Bu koleksiyon, dizili yorumlarla kolayca etkileşim kurmanızı sağlar.
+Yorumları yönetmek için şunları elde etmemiz gerekiyor: `CommentCollection` çalışma sayfasından. Bu koleksiyon, dizili yorumlarla kolayca etkileşim kurmanızı sağlar.
 ```csharp
 CommentCollection comments = worksheet.Comments;
 ```
@@ -56,12 +58,12 @@ Belirli bir yorumu kaldırmak istiyorsanız, o yorumla ilişkili yazarı bilmek 
 ThreadedCommentAuthor author = worksheet.Comments.GetThreadedComments("A1")[0].Author;
 ```
 ## Adım 6: Yorumu Kaldırın
- Bir kez sahip olduğunuzda`CommentCollection`, A1 hücresindeki yorumu basit bir kod satırıyla kaldırabilirsiniz. İşte sihir burada gerçekleşiyor!
+Bir kez sahip olduğunuzda `CommentCollection`, A1 hücresindeki yorumu basit bir kod satırıyla kaldırabilirsiniz. İşte sihir burada gerçekleşir!
 ```csharp
 comments.RemoveAt("A1");
 ```
 ## Adım 7: Yorum Yazarını Kaldırın
- Çalışma kitabınızı temiz tutmak için yorumun yazarını da kaldırmak isteyebilirsiniz.`ThreadedCommentAuthorCollection` ve gerekirse yazarı kaldırın:
+Çalışma kitabınızı temiz tutmak için yorumun yazarını da kaldırmak isteyebilirsiniz. `ThreadedCommentAuthorCollection` ve gerekirse yazarı kaldırın:
 ```csharp
 ThreadedCommentAuthorCollection authors = workbook.Worksheets.ThreadedCommentAuthors;
 // A1'deki ilk yorumun Yazarını Kaldır
@@ -83,7 +85,7 @@ Aspose.Cells for .NET kullanarak Excel çalışma sayfalarından iş parçacıkl
 ### Birden fazla hücreden aynı anda yorumları kaldırabilir miyim?
 Evet, bir döngü kullanarak bir dizi hücre üzerinde yineleme yapabilir ve yorumları toplu olarak kaldırabilirsiniz.
 ### Aspose.Cells ücretsiz mi?
- Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümüyle başlayabilirsiniz[Burada](https://releases.aspose.com/).
+Aspose.Cells ücretli bir kütüphanedir, ancak ücretsiz deneme sürümüyle başlayabilirsiniz [Burada](https://releases.aspose.com/).
 ### Aspose.Cells hangi yorum türlerini destekliyor?
 Aspose.Cells, Excel'de dizili yorumları ve düzenli yorumları destekler.
 ### Aspose.Cells Excel'in tüm sürümleriyle uyumlu mudur?
@@ -91,9 +93,11 @@ Evet, Aspose.Cells, XLS ve daha yeni XLSX gibi eski formatlar da dahil olmak üz
 ### Kütüphane çoklu iş parçacığını destekliyor mu?
 Aspose.Cells büyük ölçüde tek iş parçacıklı kullanım için tasarlanmıştır; ancak, gerekirse uygulama mantığınızda iş parçacığı oluşturmayı uygulayabilirsiniz.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

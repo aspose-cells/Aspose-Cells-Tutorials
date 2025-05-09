@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Na era moderna, gerenciar e apresentar dados com eficiência é crucial para profissionais de diversas áreas. Seja você analista ou desenvolvedor, criar tabelas estruturadas e visualmente atraentes no Excel pode melhorar significativamente a clareza dos seus relatórios. Este tutorial guiará você pela formatação de ListObjects no Excel usando a poderosa biblioteca Aspose.Cells para Java. Ao dominar essas técnicas, você poderá automatizar tarefas de criação e formatação de tabelas com facilidade.
 
-## que você aprenderá
+## O que você aprenderá
 - Como configurar o Aspose.Cells para Java em seu projeto
 - Etapas para criar e formatar um ListObject em uma planilha do Excel
 - Métodos para aplicar estilos e calcular totais em uma tabela
@@ -218,6 +220,9 @@ Você aprendeu a configurar e usar o Aspose.Cells para Java para criar, formatar
 Comece a implementar essas técnicas em seus projetos e veja como o Aspose.Cells pode transformar suas tarefas de gerenciamento de dados do Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

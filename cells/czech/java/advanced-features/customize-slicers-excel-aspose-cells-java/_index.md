@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Nyní byste měli mít důkladné znalosti o tom, jak přizpůsobit vlastnosti s
 Vydejte se na cestu k zvládnutí přizpůsobení sliceru v Excelu s Aspose.Cells pro Javu a posuňte své datové prezentace na další úroveň!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

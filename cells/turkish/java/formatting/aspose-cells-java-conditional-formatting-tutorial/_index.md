@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ Evet, standart Excel referansları gibi farklı sayfalardaki hücrelere referans
 Çeşitli Excel sürümleriyle uyumluluğu korumak için istediğiniz kaydetme biçimini (örneğin, XLS veya XLSX) belirtin. Aspose.Cells birden fazla biçimi destekler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

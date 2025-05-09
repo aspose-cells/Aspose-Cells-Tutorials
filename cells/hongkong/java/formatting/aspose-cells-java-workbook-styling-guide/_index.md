@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -128,7 +130,7 @@ public class Main {
 ```
 #### 解釋：
 - **`createStyle()`**：產生一個新的樣式物件。
-- **`setVerticalAlignment()` 和 `setHorizontalAlignment()`**：在儲存格內對齊文字。
+- **`setVerticalAlignment()` 和 `setHorizontalAlignment()`**：對齊儲存格內的文字。
 - **`getFont().setColor(Color.getGreen())`**：將字體顏色變更為綠色，增強可讀性。
 
 ### 功能：樣式的邊框配置
@@ -220,6 +222,9 @@ Aspose.Cells for Java 功能多樣，可用於各種實際場景：
 透過本教學課程，您學習如何使用 Aspose.Cells for Java 建立和設定 Excel 文件的樣式。透過掌握這些技術，您可以顯著增強應用程式高效處理複雜電子表格任務的能力。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

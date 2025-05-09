@@ -1,60 +1,62 @@
 ---
-title: Převod souboru Excel do HTML s popisem v .NET
-linktitle: Převod souboru Excel do HTML s popisem v .NET
-second_title: Aspose.Cells .NET Excel Processing API
-description: Převeďte Excel do HTML pomocí tipů pomocí Aspose.Cells for .NET v několika jednoduchých krocích. Vylepšete své webové aplikace o interaktivní data Excelu bez námahy.
-weight: 12
-url: /cs/net/converting-excel-files-to-other-formats/converting-excel-file-to-html-with-tooltip/
+"description": "Převeďte Excel do HTML s popisky pomocí Aspose.Cells pro .NET v několika jednoduchých krocích. Vylepšete své webové aplikace interaktivními daty z Excelu bez námahy."
+"linktitle": "Převod souboru Excel do HTML pomocí Tooltipu v .NET"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Převod souboru Excel do HTML pomocí Tooltipu v .NET"
+"url": "/cs/net/converting-excel-files-to-other-formats/converting-excel-file-to-html-with-tooltip/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Převod souboru Excel do HTML s popisem v .NET
+# Převod souboru Excel do HTML pomocí Tooltipu v .NET
 
 ## Zavedení
 
-Jedná se o perfektní řešení pro webové aplikace, které potřebují zobrazovat data ze souborů Excel ve formátu vhodném pro prohlížeč. Rozebereme to krok za krokem, takže i když jste v Aspose.Cells noví, na konci tohoto tutoriálu se budete cítit sebejistě. Jste připraveni se ponořit?
+Toto je perfektní řešení pro webové aplikace, které potřebují zobrazovat data z excelových souborů ve formátu, který je uživatelsky přívětivý. Postupně si to rozebereme krok za krokem, takže i když s Aspose.Cells teprve začínáte, budete si na konci tohoto tutoriálu jistí. Jste připraveni se do toho pustit?
 
 ## Předpoklady
 
-Než začneme kódovat, ujistěte se, že máme vše, co potřebujeme:
+Než začneme s kódováním, ujistěme se, že máme vše potřebné:
 
--  Aspose.Cells for .NET: Toto je základní knihovna, která nám umožňuje pracovat se soubory Excelu programově. Můžete si jej stáhnout z[Odkaz ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
-- Vývojové prostředí: Prostředí Windows nebo Mac s nainstalovaným Visual Studio.
-- .NET Framework: Ujistěte se, že máte nainstalované alespoň .NET Framework 4.0 nebo vyšší.
--  Licence: Můžete buď použít a[Dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si kupte celý od[Aspose Koupit stránku](https://purchase.aspose.com/buy).
+- Aspose.Cells pro .NET: Toto je základní knihovna, která nám umožňuje programově pracovat s Excelovými soubory. Můžete si ji stáhnout z [Odkaz ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).
+- Vývojové prostředí: Prostředí Windows nebo Mac s nainstalovaným Visual Studiem.
+- .NET Framework: Ujistěte se, že máte nainstalován alespoň .NET Framework 4.0 nebo vyšší.
+- Licence: Můžete požádat o [Dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si kupte celý od [Nákupní stránka Aspose](https://purchase.aspose.com/buy).
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než se ponoříme do kódu, importujme do našeho projektu potřebné jmenné prostory a balíčky. Jedná se o balíčky, které poskytují všechny funkce pro práci se soubory Excel v Aspose.Cells.
+Než se ponoříme do kódu, importujme do našeho projektu potřebné jmenné prostory a balíčky. Jedná se o balíčky, které poskytují veškeré funkce pro práci s excelovými soubory v Aspose.Cells.
 
 ```csharp
 using System;
 ```
 
-Pojďme si projít každý krok procesu převodu souboru Excel do HTML pomocí popisků.
+Pojďme si projít jednotlivé kroky procesu převodu souboru Excel do HTML pomocí popisků.
 
-## Krok 1: Nastavení vašeho projektu
+## Krok 1: Nastavení projektu
 
-Nejdříve: musíme vytvořit projekt .NET a odkazovat na Aspose.Cells. Začít můžete takto:
+Nejdříve to nejdůležitější: musíme vytvořit .NET projekt a odkazovat na Aspose.Cells. Zde je návod, jak začít:
 
 - Otevřete Visual Studio.
-- Vytvořte nový projekt Console App (.NET Framework).
--  Přidejte do projektu knihovnu DLL Aspose.Cells. Můžete si jej stáhnout ručně z[Odkaz ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) nebo jej nainstalujte přes NuGet spuštěním následujícího příkazu v konzole NuGet Package Manager Console:
+- Vytvořte nový projekt konzolové aplikace (.NET Framework).
+- Přidejte do projektu knihovnu Aspose.Cells DLL. Můžete si ji buď ručně stáhnout z [Odkaz ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/) nebo jej nainstalujte pomocí NuGetu spuštěním následujícího příkazu v konzoli Správce balíčků NuGet:
 
 ```bash
 Install-Package Aspose.Cells
 ```
 
-Tím se do vašeho projektu přidá knihovna Aspose.Cells, která vám dává možnost programově manipulovat se soubory aplikace Excel.
+Tím se do vašeho projektu přidá knihovna Aspose.Cells, která vám umožní programově manipulovat s excelovými soubory.
 
-## Krok 2: Načtení souboru aplikace Excel
+## Krok 2: Načtení souboru Excel
 
-Nyní, když je váš projekt nastaven, je čas načíst soubor Excel, který chcete převést. Soubor může obsahovat libovolná data – například informace o produktu nebo zprávy o prodeji – ale pro tento příklad načteme vzorový soubor s názvem`AddTooltipToHtmlSample.xlsx`.
+Nyní, když je váš projekt nastavený, je čas načíst soubor Excel, který chcete převést. Soubor může obsahovat libovolná data – například informace o produktech nebo prodejní zprávy – ale v tomto příkladu načteme vzorový soubor s názvem `AddTooltipToHtmlSample.xlsx`.
 
-Soubor můžete načíst takto:
+Zde je návod, jak můžete soubor načíst:
 
 ```csharp
 // Zdrojový adresář
@@ -64,24 +66,24 @@ string sourceDir = "Your Document Directory";
 Workbook workbook = new Workbook(sourceDir + "AddTooltipToHtmlSample.xlsx");
 ```
 
- V tomto kroku používáme`Workbook` třídy k otevření souboru Excel. The`Workbook` třída je srdcem Aspose.Cells a poskytuje všechny metody, které potřebujete ke zpracování souborů aplikace Excel.
+V tomto kroku používáme `Workbook` třída pro otevření souboru Excelu. `Workbook` Třída je srdcem Aspose.Cells a poskytuje všechny metody, které potřebujete pro práci se soubory aplikace Excel.
 
-## Krok 3: Konfigurace možností uložení HTML
+## Krok 3: Konfigurace možností ukládání HTML
 
- Než převedeme soubor Excel do HTML, musíme nakonfigurovat možnosti ukládání. V tomto případě chceme zajistit, aby byly ve výstupu HTML zahrnuty popisky. Toto je místo`HtmlSaveOptions` přichází třída.
+Než převedeme soubor Excel do HTML, musíme nakonfigurovat možnosti ukládání. V tomto případě chceme zajistit, aby výstup HTML obsahoval popisky. Zde se `HtmlSaveOptions` přichází třída.
 
-Možnosti nakonfigurujeme takto:
+Zde je návod, jak nakonfigurovat možnosti:
 
 ```csharp
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.AddTooltipText = true;
 ```
 
- Nastavením`AddTooltipText` majetek do`true`, zajistíme, aby se popisky zobrazily, když uživatelé umístí kurzor na buňky ve výstupu HTML.
+Nastavením `AddTooltipText` majetek `true`, zajistíme, aby se při najetí myší na buňky ve výstupu HTML zobrazovaly popisky.
 
-## Krok 4: Uložení souboru Excel jako HTML
+## Krok 4: Uložení souboru Excelu jako HTML
 
- našimi konfigurovanými možnostmi je posledním krokem uložení souboru Excel jako HTML. Zadáme výstupní adresář a název souboru a poté zavoláme`Save` metoda na`Workbook` objekt pro vygenerování souboru HTML.
+Po nastavení možností je posledním krokem uložení souboru Excel ve formátu HTML. Určíme výstupní adresář a název souboru a poté zavoláme funkci `Save` metoda na `Workbook` objekt pro generování HTML souboru.
 
 ```csharp
 // Výstupní adresář
@@ -91,36 +93,38 @@ string outputDir = "Your Document Directory";
 workbook.Save(outputDir + "AddTooltipToHtmlSample_out.html", options);
 ```
 
-Tento kód převede soubor aplikace Excel na dokument HTML s povolenými popisky. Jednoduché, že? A máte hotovo s těžkým zvedáním!
+Tento kód převede soubor aplikace Excel do HTML dokumentu s povolenými popisky. Jednoduché, že? A máte hotovo s tou těžkou prací!
 
 ## Krok 5: Spuštění aplikace
 
- Pro spuštění programu stiskněte`F5` ve Visual Studiu. Jakmile se kód úspěšně spustí, zkontrolujte výstupní adresář pro soubor HTML. Otevřete jej v libovolném prohlížeči a voila! Umístěním ukazatele myši na libovolnou buňku v tabulce zobrazíte popisky v akci.
+Pro spuštění programu stiskněte `F5` ve Visual Studiu. Jakmile se kód úspěšně spustí, zkontrolujte výstupní adresář pro soubor HTML. Otevřete jej v libovolném prohlížeči a voilà! Najeďte myší na libovolnou buňku v tabulce a uvidíte popisky v akci.
 
 ## Závěr
 
-A tady to máte! Převod souboru aplikace Excel do HTML pomocí tipů pomocí Aspose.Cells for .NET je stejně snadný jako 1-2-3. Ať už vytváříte webovou aplikaci nebo jen potřebujete rychlý způsob, jak převést data do formátu vhodného pro web, tato metoda vám ušetří spoustu času. 
+A tady to máte! Převod souboru Excel do HTML s popisky pomocí Aspose.Cells pro .NET je snadný jako 1-2-3. Ať už vytváříte webovou aplikaci, nebo jen potřebujete rychlý způsob, jak převést data do webově přívětivého formátu, tato metoda vám ušetří spoustu času. 
 
-## FAQ
+## Často kladené otázky
 
-### Mohu do konkrétních buněk přidat vlastní popisky?
+### Mohu přidat vlastní popisky k určitým buňkám?
 Ano, můžete ručně nastavit vlastní popisky pro jednotlivé buňky pomocí Aspose.Cells. Tuto funkci můžete přidat před převodem souboru do HTML.
 
-### Je možné převést soubor aplikace Excel s více listy do jednoho souboru HTML?
-Ano! Aspose.Cells vám umožňuje řídit, jak se během převodu zachází s více listy. Všechny listy můžete buď exportovat jako samostatné stránky HTML, nebo je spojit do jednoho souboru.
+### Je možné převést soubor Excel s více listy do jednoho souboru HTML?
+Ano! Aspose.Cells umožňuje ovládat, jak se s více listy zachází během převodu. Můžete buď exportovat všechny listy jako samostatné stránky HTML, nebo je sloučit do jednoho souboru.
 
 
-### Mohu přizpůsobit vzhled popisků v HTML?
-Zatímco Aspose.Cells přidává základní popisky, po převodu je můžete dále stylovat pomocí CSS a JavaScriptu v souboru HTML.
+### Mohu si přizpůsobit vzhled popisků v HTML?
+I když Aspose.Cells přidává základní popisky, můžete je po převodu dále upravovat pomocí CSS a JavaScriptu v souboru HTML.
 
-### Jaké typy souborů aplikace Excel jsou podporovány pro převod do HTML?
- Aspose.Cells podporuje širokou škálu formátů aplikace Excel včetně`.xlsx`, `.xls` a`.xlsb`. Kterýkoli z těchto formátů můžete bez námahy převést do HTML.
+### Jaké typy souborů aplikace Excel jsou podporovány pro převod do formátu HTML?
+Aspose.Cells podporuje širokou škálu formátů Excelu včetně `.xlsx`, `.xls`a `.xlsb`Kterýkoli z těchto formátů můžete bez námahy převést do HTML.
 
-### Mohu vyzkoušet Aspose.Cells zdarma?
- Ano, Aspose nabízí a[Bezplatná zkušební verze](https://releases.aspose.com/) pro všechny jejich produkty, takže můžete prozkoumat všechny možnosti, než se zavážete k nákupu.
+### Mohu si Aspose.Cells vyzkoušet zdarma?
+Ano, Aspose nabízí [Bezplatná zkušební verze](https://releases.aspose.com/) pro všechny jejich produkty, abyste si mohli prozkoumat všechny jejich funkce, než se k koupi rozhodnete.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

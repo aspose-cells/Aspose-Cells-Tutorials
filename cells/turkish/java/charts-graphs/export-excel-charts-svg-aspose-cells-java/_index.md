@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Grafikleri Excel dosyalarından ölçeklenebilir vektör grafiklerine (SVG) akta
 - Bir grafiği Excel dosyasından SVG formatına aktarmaya ilişkin adım adım talimatlar.
 - Büyük veri kümelerini işlerken performans için optimizasyon ipuçları.
 
-Bu özelliği uygulamadan önce gerekli ön koşulları inceleyelim.
+Bu özelliği uygulamadan önce gerekli olan ön koşulları inceleyelim.
 
 ## Ön koşullar
 Başlamadan önce şunlara sahip olduğunuzdan emin olun:
@@ -121,7 +123,7 @@ Grafikleri SVG olarak dışa aktarmak çeşitli gerçek dünya uygulamalarına f
 ## Performans Hususları
 Büyük Excel dosyalarıyla veya birden fazla grafikle çalışırken:
 - Bellek ve CPU döngülerinden tasarruf etmek için yalnızca gerekli sayfaları veya grafikleri işleyerek optimize edin.
-- Kaynak yoğun görevleri verimli bir şekilde halletmek için çöp toplama ayarlaması gibi Java'nın bellek yönetimi özelliklerini kullanın.
+- Kaynak yoğun görevleri verimli bir şekilde yönetmek için çöp toplama ayarlaması gibi Java'nın bellek yönetimi özelliklerini kullanın.
 - Yeni sürümlerdeki performans iyileştirmelerinden faydalanmak için Aspose.Cells'i düzenli olarak güncelleyin.
 
 ## Çözüm
@@ -153,6 +155,9 @@ Bu özelliği bugün uygulamaya çalışın ve Java tabanlı veri işleme yetene
 - **Destek Forumu:** [Aspose Topluluk Desteği](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

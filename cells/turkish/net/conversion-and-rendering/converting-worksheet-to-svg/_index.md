@@ -1,14 +1,16 @@
 ---
-title: .NET'te Çalışma Sayfasını SVG'ye Dönüştürme
-linktitle: .NET'te Çalışma Sayfasını SVG'ye Dönüştürme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasını SVG'ye nasıl dönüştüreceğinizi öğrenin. Excel'i SVG'ye dönüştürmek isteyen .NET geliştiricileri için mükemmeldir.
-weight: 11
-url: /tr/net/conversion-and-rendering/converting-worksheet-to-svg/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak bir Excel çalışma sayfasını SVG'ye nasıl dönüştüreceğinizi öğrenin. Excel'i SVG'ye dönüştürmek isteyen .NET geliştiricileri için mükemmeldir."
+"linktitle": ".NET'te Çalışma Sayfasını SVG'ye Dönüştürme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Çalışma Sayfasını SVG'ye Dönüştürme"
+"url": "/tr/net/conversion-and-rendering/converting-worksheet-to-svg/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Çalışma Sayfasını SVG'ye Dönüştürme
@@ -21,12 +23,12 @@ Bir Excel çalışma sayfasını SVG formatına dönüştürmek istiyorsanız do
 
 Koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım:
 
-1.  .NET için Aspose.Cells: Aspose.Cells for .NET'in en son sürümünü indirin ve yükleyin[Aspose.Cells for .NET](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells for .NET: Aspose.Cells for .NET'in en son sürümünü indirin ve yükleyin [.NET için Aspose.Cells](https://releases.aspose.com/cells/net/).
 2. .NET Geliştirme Ortamı: Visual Studio veya herhangi bir .NET IDE'nin yüklü olması gerekir.
 3. Temel C# Bilgisi: C# bilgisine sahip olmanız gerekiyor, ancak endişelenmeyin, her şeyi açıkça açıklayacağız.
 4. Excel Dosyası: SVG formatına dönüştürmek istediğiniz bir Excel dosyanız hazır olsun.
 
-## Gerekli Paketleri İçe Aktarma
+## Gerekli Paketleri İçeri Aktarma
 
 Kodlama kısmına geçmeden önce, C# dosyanızın en üstüne gerekli ad alanlarını eklediğinizden emin olun.
 
@@ -49,22 +51,22 @@ Artık temelleri öğrendiğimize göre, bir Excel çalışma sayfasını SVG re
 string dataDir = "Your Document Directory";
 ```
 
- Değiştirdiğinizden emin olun`"Your Document Directory"`Excel dosyanızın bulunduğu gerçek yol ile.
+Değiştirdiğinizden emin olun `"Your Document Directory"` Excel dosyanızın bulunduğu gerçek yol ile.
 
-##  Adım 2: Excel Dosyasını Şunu Kullanarak Yükleyin:`Workbook`
+## Adım 2: Excel Dosyasını Şunu Kullanarak Yükleyin: `Workbook`
 
- Daha sonra Excel dosyasını bir örneğe yüklememiz gerekiyor`Workbook` sınıf.`Workbook` sınıf, içindeki tüm çalışma sayfaları da dahil olmak üzere tüm Excel dosyasını temsil eder.
+Daha sonra Excel dosyasını bir örneğe yüklememiz gerekiyor `Workbook` sınıf. `Workbook` sınıf, içindeki tüm çalışma sayfaları da dahil olmak üzere tüm Excel dosyasını temsil eder.
 
 ```csharp
 string filePath = dataDir + "Template.xlsx";
 Workbook book = new Workbook(filePath);
 ```
 
- Burada,`"Template.xlsx"` üzerinde çalıştığınız Excel dosyasının adıdır. Bu dosyanın belirtilen dizinde bulunduğundan emin olun, aksi takdirde hatalarla karşılaşırsınız.
+Burada, `"Template.xlsx"` üzerinde çalıştığınız Excel dosyasının adıdır. Bu dosyanın belirtilen dizinde bulunduğundan emin olun, aksi takdirde hatalarla karşılaşırsınız.
 
-## Adım 3: SVG Dönüştürme için Görüntü veya Yazdırma Seçeneklerini Ayarlayın
+## Adım 3: SVG Dönüşümü için Görüntü veya Yazdırma Seçeneklerini Ayarlayın
 
- Çalışma sayfasını SVG formatına dönüştürebilmemiz için önce resim seçeneklerini belirtmemiz gerekiyor.`ImageOrPrintOptions` sınıf, çalışma sayfasının nasıl dönüştürüleceğini kontrol etmenizi sağlar. Özellikle, şunu ayarlamamız gerekir:`SaveFormat` ile`SVG` ve her çalışma sayfasının tek bir sayfaya dönüştürülmesini sağlayın.
+Çalışma sayfasını SVG formatına dönüştürebilmemiz için önce resim seçeneklerini belirtmemiz gerekiyor. `ImageOrPrintOptions` sınıf, çalışma sayfasının nasıl dönüştürüleceğini kontrol etmenizi sağlar. Özellikle, şunu ayarlamamız gerekir: `SaveFormat` ile `SVG` ve her çalışma sayfasının tek bir sayfaya dönüştürülmesini sağlayın.
 
 ```csharp
 ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
@@ -72,7 +74,7 @@ imgOptions.SaveFormat = SaveFormat.Svg;
 imgOptions.OnePagePerSheet = true;
 ```
 
- The`SaveFormat.Svg` seçeneği çıktı biçiminin SVG olacağını garanti ederken`OnePagePerSheet` her çalışma sayfasının tek bir sayfada işlenmesini sağlar.
+The `SaveFormat.Svg` seçeneği çıktı biçiminin SVG olacağını garanti ederken `OnePagePerSheet` her çalışma sayfasının tek bir sayfada işlenmesini sağlar.
 
 ## Adım 4: Çalışma Kitabındaki Her Çalışma Sayfasını Tekrarlayın
 
@@ -87,19 +89,19 @@ foreach (Worksheet sheet in book.Worksheets)
 
 Bu döngü, çalışma kitabınızda kaç tane çalışma sayfası olursa olsun her birinin işlenmesini sağlar.
 
-##  Adım 5: Bir tane oluşturun`SheetRender` Object for Rendering
+## Adım 5: Bir tane oluşturun `SheetRender` Render için Nesne
 
- Her çalışma sayfası için bir tane oluşturacağız`SheetRender` nesne. Bu nesne, çalışma sayfasını istenen görüntü biçimine, bu durumda SVG'ye dönüştürmekten sorumludur.
+Her çalışma sayfası için bir tane oluşturacağız `SheetRender` nesne. Bu nesne, çalışma sayfasını istenen görüntü biçimine, bu durumda SVG'ye dönüştürmekten sorumludur.
 
 ```csharp
 SheetRender sr = new SheetRender(sheet, imgOptions);
 ```
 
- The`SheetRender` nesne iki argüman alır: dönüştürdüğünüz çalışma sayfası ve daha önce tanımladığınız görüntü seçenekleri.
+The `SheetRender` nesne iki argüman alır: dönüştürdüğünüz çalışma sayfası ve daha önce tanımladığınız görüntü seçenekleri.
 
 ## Adım 6: Çalışma Sayfasını SVG'ye Dönüştürün
 
- Son olarak, döngü içinde her çalışma sayfasını SVG formatına dönüştüreceğiz. Sayfalar arasında yineleme yapmak için iç içe geçmiş bir döngü kullanıyoruz (ancak bu durumda, çalışma sayfası başına yalnızca bir sayfa var,`OnePagePerSheet` seçenek).
+Son olarak, döngü içinde her çalışma sayfasını SVG formatına dönüştüreceğiz. Sayfalar arasında yineleme yapmak için iç içe geçmiş bir döngü kullanıyoruz (ancak bu durumda, çalışma sayfası başına yalnızca bir sayfa var, `OnePagePerSheet` seçenek).
 
 ```csharp
 for (int i = 0; i < sr.PageCount; i++)
@@ -127,13 +129,15 @@ Evet, Aspose.Cells büyük Excel dosyalarını etkili bir şekilde işleyebilir 
 Hayır, Aspose.Cells'de birden fazla çalışma sayfasını dönüştürmek için doğal bir sınır yoktur. Tek kısıtlama sisteminizin belleği ve performansı olacaktır.
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Evet, Aspose.Cells üretim kullanımı için bir lisans gerektirir. Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) veya keşfedin[ücretsiz deneme](https://releases.aspose.com/).
+Evet, Aspose.Cells üretim kullanımı için bir lisans gerektirir. Geçici bir lisans alabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/) veya keşfedin [ücretsiz deneme](https://releases.aspose.com/).
 
 ### SVG çıktısını özelleştirebilir miyim?
- Evet, ayarlayabilirsiniz`ImageOrPrintOptions` SVG çıktısının çözünürlük ve ölçekleme gibi çeşitli yönlerini özelleştirmek için.
+Evet, ayarlayabilirsiniz `ImageOrPrintOptions` SVG çıktısının çözünürlük ve ölçekleme gibi çeşitli yönlerini özelleştirmek için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

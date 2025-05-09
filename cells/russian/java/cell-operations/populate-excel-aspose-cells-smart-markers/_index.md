@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 - Обработка интеллектуальных маркеров с источником данных на Java.
 - Эффективное сохранение заполненной рабочей книги.
   
-Давайте рассмотрим необходимые условия, прежде чем мы начнем!
+Давайте рассмотрим необходимые предварительные условия, прежде чем мы начнем!
 
 ## Предпосылки
 
@@ -202,6 +204,9 @@ wb.save(outDir + "/outputAutoPopulateSmartMarkerDataToOtherWorksheets.xlsx");
 Это всеобъемлющее руководство снабдит вас знаниями по использованию Aspose.Cells для Java, оптимизируя ваши задачи по управлению данными посредством автоматизации. Счастливого кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

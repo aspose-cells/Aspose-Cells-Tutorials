@@ -8,7 +8,9 @@ url: /net/csv-file-handling/csv-file-opening-csv-files/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Opening CSV Files
@@ -78,6 +80,7 @@ To purchase Aspose.Cells, simply visit [this link](https://purchase.aspose.com/b
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

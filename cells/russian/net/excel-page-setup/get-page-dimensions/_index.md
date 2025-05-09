@@ -1,21 +1,23 @@
 ---
-title: Получить размеры страницы
-linktitle: Получить размеры страницы
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как получить размеры страницы с помощью Aspose.Cells для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков, работающих с файлами Excel.
-weight: 40
-url: /ru/net/excel-page-setup/get-page-dimensions/
+"description": "Узнайте, как получить размеры страницы с помощью Aspose.Cells для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков, работающих с файлами Excel."
+"linktitle": "Получить размеры страницы"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Получить размеры страницы"
+"url": "/ru/net/excel-page-setup/get-page-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Получить размеры страницы
 
 ## Введение
 
-Когда дело доходит до обработки электронных таблиц в приложениях .NET, библиотека Aspose.Cells выделяется как надежный инструмент, позволяющий разработчикам легко манипулировать файлами Excel. Но как получить размеры страницы для различных размеров бумаги с помощью этой мощной библиотеки? В этом руководстве мы пройдем процесс шаг за шагом, гарантируя, что вы не только получите представление о работе Aspose.Cells, но и станете экспертом в использовании его в своих проектах. 
+Когда дело доходит до обработки электронных таблиц в приложениях .NET, библиотека Aspose.Cells выделяется как надежный инструмент, позволяющий разработчикам легко манипулировать файлами Excel. Но как получить размеры страницы для различных размеров бумаги с помощью этой мощной библиотеки? В этом руководстве мы шаг за шагом рассмотрим весь процесс, гарантируя, что вы не только получите представление о работе Aspose.Cells, но и станете экспертом в использовании его в своих проектах. 
 
 ## Предпосылки 
 
@@ -26,7 +28,7 @@ url: /ru/net/excel-page-setup/get-page-dimensions/
 
 ### Библиотека Aspose.Cells
 Вам нужно будет загрузить и сослаться на библиотеку Aspose.Cells в вашем проекте. Вы можете получить ее здесь:
--  Ссылка для скачивания:[Aspose.Cells для .NET](https://releases.aspose.com/cells/net/)
+- Ссылка для скачивания: [Aspose.Cells для .NET](https://releases.aspose.com/cells/net/)
 
 ### Базовые знания C#
 Будет полезно, если у вас есть базовые знания C#. В этом руководстве будут использованы основные концепции программирования, которые должны быть простыми для понимания.
@@ -39,7 +41,7 @@ url: /ru/net/excel-page-setup/get-page-dimensions/
 
 ### Создать новый проект
 
- Откройте Visual Studio и создайте новый проект C# Console Application. Вы можете назвать его как угодно, давайте начнем с`GetPageDimensions`.
+Откройте Visual Studio и создайте новый проект C# Console Application. Вы можете назвать его как угодно, давайте начнем с `GetPageDimensions`.
 
 ### Добавить ссылки
 
@@ -50,7 +52,7 @@ url: /ru/net/excel-page-setup/get-page-dimensions/
 
 ### Добавить директивы использования
 
- В верхней части вашего`Program.cs` вставьте эту директиву using для доступа к функциональным возможностям Aspose.Cells:
+В верхней части вашего `Program.cs` вставьте эту директиву using для доступа к функциональным возможностям Aspose.Cells:
 
 ```csharp
 using System;
@@ -140,16 +142,18 @@ Aspose.Cells — это библиотека .NET, используемая дл
 Нет, Aspose.Cells — это автономная библиотека, не требующая установки Excel.
 
 ### Где я могу найти больше примеров для Aspose.Cells?
- С документацией можно ознакомиться здесь:[Документация Aspose.Cells](https://reference.aspose.com/cells/net/).
+С документацией можно ознакомиться здесь: [Документация Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Существует ли бесплатная пробная версия Aspose.Cells?
- Да! Вы можете получить бесплатную пробную версию здесь:[Бесплатная пробная версия Aspose.Cells](https://releases.aspose.com/).
+Да! Вы можете получить бесплатную пробную версию здесь: [Бесплатная пробная версия Aspose.Cells](https://releases.aspose.com/).
 
 ### Как я могу получить поддержку по Aspose.Cells?
- Вы можете получить помощь, посетив форум поддержки Aspose:[Поддержка Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Вы можете получить помощь, посетив форум поддержки Aspose: [Поддержка Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

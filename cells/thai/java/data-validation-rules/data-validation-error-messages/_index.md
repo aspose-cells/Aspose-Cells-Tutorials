@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ข้อความแสดงข้อผิดพลาดการตรวจสอบข้อมูล
@@ -41,7 +43,7 @@ import com.aspose.cells.*;
 
 public class DataValidationDemo {
     public static void main(String[] args) throws Exception {
-        // เริ่มต้นสมุดงาน
+        // การเริ่มต้นสมุดงาน
         Workbook workbook = new Workbook();
         // เข้าถึงแผ่นงาน
         Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -111,6 +113,7 @@ validation.setErrorMessage("Please enter a number between 1 and 100.");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

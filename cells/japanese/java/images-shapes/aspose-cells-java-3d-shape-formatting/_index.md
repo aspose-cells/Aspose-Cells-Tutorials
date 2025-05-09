@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@
 
 **学習内容:**
 - Aspose.Cells を使用して Excel ファイルを読み込み、操作する方法。
-- ブック内の特定のワークシートや図形にアクセスするためのテクニック。
+- ワークブック内の特定のワークシートや図形にアクセスするためのテクニック。
 - 視覚的な魅力を高めるために 3D フォーマット設定を適用するプロセス。
 - Excel ファイルに変更を保存するためのベスト プラクティス。
 
@@ -171,6 +173,9 @@ Aspose.Cells Java のパワーを活用して、Excel データのプレゼン�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Nell'ambito della gestione e dell'analisi dei dati, estrarre informazioni dalle 
 - Accesso e iterazione delle formule di PowerQuery in una cartella di lavoro di Excel.
 - Estrazione di informazioni dettagliate da ogni elemento della formula.
 - Applicazioni pratiche di queste tecniche.
-- Suggerimenti per ottimizzare le prestazioni specifici di Aspose.Cells.
+- Suggerimenti per l'ottimizzazione delle prestazioni specifici di Aspose.Cells.
 
 Pronti a immergervi nella soluzione? Iniziamo configurando il nostro ambiente.
 
@@ -170,6 +172,9 @@ Visita il [Forum di Aspose](https://forum.aspose.com/c/cells/9) per il supporto 
 - **Acquistare**: Acquista una licenza o richiedi una prova su [acquisto.aspose.com](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

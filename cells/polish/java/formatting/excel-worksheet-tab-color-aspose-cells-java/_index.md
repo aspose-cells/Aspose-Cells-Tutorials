@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Dowiedz się, jak dostosować kolory kart arkusza kalkulacyjnego w programie Excel za pomocą Aspose.Cells dla języka Java. Ten przewodnik obejmuje konfigurację, kodowanie i praktyczne zastosowania."
+"description": "Dowiedz się, jak dostosować kolory kart arkusza kalkulacyjnego w programie Excel za pomocą Aspose.Cells for Java. Ten przewodnik obejmuje konfigurację, kodowanie i praktyczne zastosowania."
 "title": "Ustawianie koloru karty arkusza kalkulacyjnego programu Excel za pomocą Aspose.Cells dla języka Java&#58; Kompletny przewodnik"
 "url": "/pl/java/formatting/excel-worksheet-tab-color-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ tym kompleksowym przewodniku krok po kroku omówimy:
 - Pisanie kodu Java w celu zmiany kolorów kart
 - Praktyczne zastosowania i wskazówki dotyczące wydajności
 
-Dzięki temu zrozumiesz lepiej, w jaki sposób Aspose.Cells for Java może usprawnić zarządzanie plikami Excela. Zacznijmy od upewnienia się, że masz niezbędne wymagania wstępne.
+Dzięki temu zrozumiesz lepiej, w jaki sposób Aspose.Cells for Java może usprawnić zarządzanie plikami Excel. Zacznijmy od upewnienia się, że masz niezbędne wymagania wstępne.
 
 ## Wymagania wstępne
 
@@ -103,7 +105,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ##### Ustaw kolor zakładki
 Ustaw kolor zakładki według własnego wyboru:
 ```java
-// Ustaw kolor zakładki arkusza kalkulacyjnego na czerwony
+// Ustaw kolor zakładki arkusza na czerwony
 worksheet.setTabColor(Color.getRed());
 ```
 *Wyjaśnienie*:Ten `setTabColor` Metoda przypisuje nowy kolor do zakładki arkusza. Tutaj używamy `Color.getRed()` w celach demonstracyjnych.
@@ -165,6 +167,9 @@ Przeglądaj te zasoby, aby pogłębić swoje zrozumienie i rozszerzyć możliwo�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

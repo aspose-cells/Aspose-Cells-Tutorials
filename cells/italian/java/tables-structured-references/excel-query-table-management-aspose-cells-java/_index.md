@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -99,7 +101,7 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "SampleQT.xlsx");
 ```
 
-**2. Accedere al foglio di lavoro e alla tabella delle query:**
+**2. Accedi al foglio di lavoro e alla tabella delle query:**
 Individua il foglio di lavoro specifico e la relativa tabella di query che desideri modificare.
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -199,6 +201,9 @@ Hai ora imparato come leggere, modificare e scrivere tabelle di query di Excel u
 Buona programmazione e buon divertimento nella gestione dei dati Excel come un professionista con Aspose.Cells per Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

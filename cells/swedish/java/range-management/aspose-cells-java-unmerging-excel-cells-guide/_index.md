@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Vi kommer att dela upp vår uppgift i hanterbara steg, och först fokusera på i
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    wbk.save(outDir + "UnMergingCellsInWorksheet_out.xls");
    ```
-   *Varför den här koden?* Att spara är avgörande för att dina ändringar ska behållas, och för att säkerställa att alla ändringar behålls i en ny eller befintlig fil.
+   *Varför den här koden?* Att spara är avgörande för att dina ändringar ska behållas, och säkerställa att alla ändringar behålls i en ny eller befintlig fil.
 
 ## Praktiska tillämpningar
 Aspose.Cells Java kan användas i olika verkliga scenarier:
@@ -123,7 +125,7 @@ Du har nu bemästrat grunderna i att separera Excel-celler med hjälp av Aspose.
 - Experimentera med andra funktioner som sammanslagning, stilisering eller diagram.
 - Utforska ytterligare integrationsmöjligheter med företagssystem.
 
-Redo att ta dina kunskaper i kalkylbladshantering till nästa nivå? Försök att implementera dessa tekniker i dina projekt idag!
+Redo att ta dina kunskaper inom kalkylbladshantering till nästa nivå? Försök att implementera dessa tekniker i dina projekt idag!
 
 ## FAQ-sektion
 1. **Kan jag använda Aspose.Cells för Java i kommersiella applikationer?**
@@ -151,6 +153,9 @@ Redo att ta dina kunskaper i kalkylbladshantering till nästa nivå? Försök at
 Med den här guiden är du väl rustad för att hantera Excel-operationer i Java med Aspose.Cells. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

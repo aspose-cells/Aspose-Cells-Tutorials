@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ Teraz nauczyłeś się, jak konwertować pliki Excel do formatu XPS za pomocą A
 ### Następne kroki
 
 - Poznaj dodatkowe funkcje pakietu Aspose.Cells, takie jak manipulowanie danymi i generowanie wykresów.
-- Zintegruj konwersję XPS z większymi przepływami pracy, aby zapewnić automatyczne zarządzanie dokumentami.
+- Zintegruj konwersję XPS z większymi obiegami pracy, aby zapewnić automatyczne zarządzanie dokumentami.
 
 **Wezwanie do działania:** Spróbuj przekonwertować własne pliki Excela korzystając z tego przewodnika i przekonaj się, jak może to usprawnić Twój przepływ pracy!
 
@@ -150,7 +152,7 @@ Teraz nauczyłeś się, jak konwertować pliki Excel do formatu XPS za pomocą A
 2. **Czy mogę przekonwertować wiele arkuszy jednocześnie?**
    - Tak, zapisanie całego skoroszytu w formacie XPS obsługuje wszystkie arkusze łącznie.
 
-3. **Jak efektywnie obsługiwać duże pliki?**
+3. **Jak wydajnie obsługiwać duże pliki?**
    - Stosuj techniki zarządzania pamięcią i optymalizuj ustawienia obrazu, aby zrównoważyć jakość i wydajność.
 
 4. **Czy Aspose.Cells jest kompatybilny z .NET?**
@@ -171,6 +173,9 @@ Teraz nauczyłeś się, jak konwertować pliki Excel do formatu XPS za pomocą A
 Przeglądaj te zasoby, aby zwiększyć swoje zrozumienie i możliwości Aspose.Cells dla Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

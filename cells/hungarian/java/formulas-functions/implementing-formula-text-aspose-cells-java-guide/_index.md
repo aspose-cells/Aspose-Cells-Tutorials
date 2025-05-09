@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ A `FormulaText` függvény lehetővé teszi egy képlet szövegének lekérésé
    // Munkafüzetképletek kiszámítása
    workbook.calculateFormula();
 
-   // Képlet szövegének kiírása az A2 cellából
+   // Képlet szövegének kimenete az A2 cellából
    System.out.println(cellA2.getStringValue());
        }
    }
@@ -186,6 +188,9 @@ Készen állsz arra, hogy a táblázatkezelő automatizálási készségeidet a 
 Az Aspose.Cells Java-val való kombinálásával hatékonyan kezelheti és manipulálhatja az Excel-fájlokat alkalmazásaiban. Fedezzen fel további funkciókat, hogy maximalizálhassa a benne rejlő lehetőségeket projektjeiben!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

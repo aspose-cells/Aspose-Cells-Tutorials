@@ -1,14 +1,16 @@
 ---
-title: Thiết lập dữ liệu biểu đồ
-linktitle: Thiết lập dữ liệu biểu đồ
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập dữ liệu biểu đồ bằng Aspose.Cells cho .NET thông qua hướng dẫn chi tiết từng bước hoàn hảo để nâng cao khả năng trực quan hóa dữ liệu.
-weight: 16
-url: /vi/net/advanced-chart-operations/setting-chart-data/
+"description": "Tìm hiểu cách thiết lập dữ liệu biểu đồ bằng Aspose.Cells cho .NET thông qua hướng dẫn chi tiết từng bước hoàn hảo để nâng cao khả năng trực quan hóa dữ liệu."
+"linktitle": "Thiết lập dữ liệu biểu đồ"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập dữ liệu biểu đồ"
+"url": "/vi/net/advanced-chart-operations/setting-chart-data/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập dữ liệu biểu đồ
@@ -24,7 +26,7 @@ Trước khi bắt đầu, bạn cần chuẩn bị một số thứ để bắt
 ### Cài đặt Aspose.Cells cho .NET
 
 1. Visual Studio: Bạn nên cài đặt Microsoft Visual Studio trên máy tính để viết và thực thi mã .NET.
-2.  Aspose.Cells: Hãy đảm bảo tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells: Hãy đảm bảo tải xuống và cài đặt thư viện Aspose.Cells. Bạn có thể tìm thấy phiên bản mới nhất [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# và .NET framework sẽ rất hữu ích để hiểu các đoạn mã chúng ta sẽ sử dụng trong suốt hướng dẫn này.
 
 ## Nhập gói
@@ -48,7 +50,7 @@ Bây giờ bạn đã chuẩn bị mọi thứ, chúng ta hãy cùng phân tích
 string outputDir = "Your Output Directory";
 ```
 
- Trong bước này, bạn chỉ định nơi bạn muốn lưu tệp Excel của mình. Thay thế`"Your Output Directory"` với đường dẫn thực tế mà bạn muốn tệp nằm. Điều này giống như thiết lập không gian làm việc trước khi bạn bắt đầu vẽ – bạn sẽ không muốn sơn đổ ra khắp nơi!
+Trong bước này, bạn chỉ định nơi bạn muốn lưu tệp Excel của mình. Thay thế `"Your Output Directory"` với đường dẫn thực tế mà bạn muốn tệp nằm. Điều này giống như thiết lập không gian làm việc trước khi bạn bắt đầu vẽ – bạn sẽ không muốn sơn đổ ra khắp nơi!
 
 ## Bước 2: Tạo một Workbook
 
@@ -56,7 +58,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook();
 ```
 
- Ở đây, bạn tạo một phiên bản của`Workbook` class, về cơ bản là tệp Excel của bạn. Hãy nghĩ về nó như một trang giấy trắng đang chờ bạn điền dữ liệu và biểu đồ vào. 
+Ở đây, bạn tạo một phiên bản của `Workbook` class, về cơ bản là tệp Excel của bạn. Hãy nghĩ về nó như một trang giấy trắng đang chờ bạn điền dữ liệu và biểu đồ vào. 
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
@@ -154,19 +156,21 @@ Thiết lập dữ liệu biểu đồ bằng Aspose.Cells cho .NET không phả
 Aspose.Cells là một thư viện .NET cho phép người dùng tạo, chỉnh sửa, chuyển đổi và hiển thị các tệp Excel.
 
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?  
- Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/) và thêm nó vào dự án của bạn thông qua NuGet Package Manager.
+Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/) và thêm nó vào dự án của bạn thông qua NuGet Package Manager.
 
 ### Tôi có thể tạo nhiều loại biểu đồ khác nhau bằng Aspose.Cells không?  
 Có! Aspose.Cells hỗ trợ nhiều loại biểu đồ khác nhau, bao gồm biểu đồ đường, biểu đồ thanh, biểu đồ tròn và nhiều loại khác.
 
 ### Có bản dùng thử miễn phí cho Aspose.Cells không?  
- Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể truy cập bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi nhận được hỗ trợ kỹ thuật cho Aspose.Cells?  
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

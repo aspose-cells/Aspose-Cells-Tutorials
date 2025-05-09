@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 組合圖表類型
@@ -94,7 +96,7 @@ chart.getLegend().setOverlay(true);
 
 ## 儲存和匯出圖表
 
-建立並自訂組合圖表後，您可以將其儲存為 Excel 檔案或將其匯出為各種格式。
+建立並自訂組合圖表後，您可以將其儲存為 Excel 檔案或匯出為各種格式。
 
 ### 步驟 9：將工作簿儲存為 Excel 檔案。
 
@@ -137,6 +139,7 @@ Aspose.Cells for Java 設計為使用者友善型，適合初學者和有經驗�
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

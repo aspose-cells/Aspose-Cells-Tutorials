@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@
 学习如何使用 Aspose.Cells for Java 为 Excel 文件添加数字签名。本指南涵盖设置、加载工作簿以及创建安全的数字签名。
 
 ### [如何使用 Java 和 Aspose.Cells 在 Excel 中向图像添加签名行](./add-signature-line-image-excel-java-aspose-cells/)
-了解如何使用 Aspose.Cells for Java 将签名行集成到 Excel 文件中的图像中。本指南内容详尽，助您简化文档工作流程。
+了解如何使用 Aspose.Cells for Java 将签名行集成到 Excel 文件中的图像中。本指南将帮助您简化文档工作流程。
 
 ### [如何使用 Java 中的 Aspose.Cells 加载和验证受密码保护的 Excel 文件](./aspose-cells-java-excel-password-protection/)
 了解如何使用 Aspose.Cells for Java 为您的 Excel 文件设置密码保护。本指南涵盖如何加载加密工作表、验证修改密码以及如何将这些功能集成到 Java 应用程序中。
@@ -126,6 +128,9 @@ Aspose.Words Java 代码教程
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

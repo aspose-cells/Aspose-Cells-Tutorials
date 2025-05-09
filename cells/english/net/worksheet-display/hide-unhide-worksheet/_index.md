@@ -8,7 +8,9 @@ url: /net/worksheet-display/hide-unhide-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide, Unhide Worksheet using Aspose.Cells
@@ -95,6 +97,7 @@ For any issues or questions, you can visit the [Aspose.Cells Support Forum](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

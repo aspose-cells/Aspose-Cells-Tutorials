@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 मूल्यांकन सीमाओं के बिना Aspose.Cells का उपयोग करने के लिए, आप यह कर सकते हैं:
 - **मुफ्त परीक्षण**: यहां से परीक्षण लाइसेंस डाउनलोड करें [Aspose की वेबसाइट](https://releases.aspose.com/cells/java/).
-- **अस्थायी लाइसेंस**अस्थायी लाइसेंस के लिए अनुरोध करें [Aspose अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+- **अस्थायी लाइसेंस**: अस्थायी लाइसेंस के लिए अनुरोध करें [Aspose अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
 - **खरीदना**: वाणिज्यिक उपयोग के लिए पूर्ण लाइसेंस प्राप्त करें [खरीद पृष्ठ](https://purchase.aspose.com/buy).
 
 ### मूल आरंभीकरण
@@ -85,7 +87,7 @@ public class ExcelToHtmlConverter {
 
 ## कार्यान्वयन मार्गदर्शिका
 
-बेहतर समझ के लिए आइए कार्यान्वयन को अलग-अलग विशेषताओं में विभाजित करें।
+आइए बेहतर समझ के लिए कार्यान्वयन को अलग-अलग विशेषताओं में विभाजित करें।
 
 ### सुविधा 1: फ़ाइल से कार्यपुस्तिका लोड करें
 
@@ -209,6 +211,9 @@ Aspose.Cells का उपयोग करते समय प्रदर्श
 Aspose.Cells for Java के साथ Excel फ़ाइल हेरफेर में महारत हासिल करने के लिए अपनी यात्रा शुरू करें और आज ही अपनी डेटा प्रस्तुति को बढ़ाएं!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

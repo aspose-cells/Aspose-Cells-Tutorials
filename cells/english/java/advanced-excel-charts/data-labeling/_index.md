@@ -8,7 +8,9 @@ url: /java/advanced-excel-charts/data-labeling/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Labeling
@@ -145,6 +147,7 @@ You can handle errors gracefully by using try-catch blocks to catch exceptions a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

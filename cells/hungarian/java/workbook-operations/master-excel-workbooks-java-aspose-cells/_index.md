@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Következő lépésként érdemes lehet mélyebben belemerülni a fejlettebb fun
 Készen állsz a megoldásod megvalósítására? Kövesd az alábbi lépéseket, ismerd meg a rendelkezésre álló forrásokat, és kezdd el fejleszteni Java alkalmazásaidat az Aspose.Cells segítségével még ma!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

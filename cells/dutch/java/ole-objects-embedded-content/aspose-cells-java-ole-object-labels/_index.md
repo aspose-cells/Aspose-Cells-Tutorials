@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -239,6 +241,9 @@ Om optimale prestaties te garanderen bij het gebruik van Aspose.Cells voor Java,
 Door deze handleiding te volgen, hebt u geleerd hoe u OLE-objectlabels kunt wijzigen en verifiëren met Aspose.Cells voor Java. Deze vaardigheden zullen u helpen Excel-bestanden efficiënter te beheren in diverse professionele scenario's. Voor verdere verdieping kunt u zich verdiepen in andere functies van Aspose.Cells om nog meer mogelijkheden te benutten bij uw databeheertaken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

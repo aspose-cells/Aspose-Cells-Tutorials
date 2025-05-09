@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Aspose.Cells Java を使用して Excel シート内の空白セルをフィル�
 String srcDir = Utils.Get_SourceDirectory();
 String outDir = Utils.Get_OutputDirectory();
 
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook(srcDir + "Blank.xlsx");
 ```
 
@@ -141,7 +143,7 @@ workbook.save(outDir + "FilteredBlank.xlsx");
 - ソース ディレクトリ パスが正しく設定されていることを確認します。
 - 特に I/O 操作を扱う場合には、例外を適切に処理します。
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 空白セルをフィルタリングすると便利なシナリオをいくつか示します。
 
@@ -193,6 +195,9 @@ Aspose.Cells のその他の機能を調べて、ライブラリ内で利用可�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

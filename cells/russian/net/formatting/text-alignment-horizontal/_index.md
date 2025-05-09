@@ -1,43 +1,48 @@
 ---
-title: Горизонтальное сопоставление текста в Excel с Aspose.Cells
-weight: 7700
-limit: 
-description: Узнайте, как выровнять текст горизонтально в ячейках Excel с помощью Aspose.Cells для .NET с помощью простого примера.
-keywords: [Aspose.Cells, .NET, Excel, horizontal alignment, text alignment, workbook, cell style]
-url: /ru/net/formatting/text-alignment-horizontal/
+"description": "Узнайте, как выровнять текст по горизонтали в ячейках Excel с помощью Aspose.Cells для .NET на простом примере."
+"title": "Горизонтальное выравнивание текста в Excel с помощью Aspose.Cells"
+"url": "/ru/net/formatting/text-alignment-horizontal/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Горизонтальное сопоставление текста в Excel с Aspose.Cells
+# Горизонтальное выравнивание текста в Excel с помощью Aspose.Cells
 
-Этот пример демонстрирует, как использовать Aspose.Cells для .NET для создания файла Excel и установки горизонтального текстового выравнивания в конкретной ячейке. Учебное пособие поможет вам инициировать рабочую книгу, изменять свойства ячейки и сохранить файл в формате Excel 97-2003.
+В этом примере показано, как использовать Aspose.Cells для .NET для создания файла Excel и установки горизонтального выравнивания текста в определенной ячейке. Учебник проведет вас через инициализацию рабочей книги, изменение свойств ячейки и сохранение файла в формате Excel 97-2003. Идеально подходит для разработчиков, желающих улучшить свои навыки работы с файлами Excel с помощью Aspose.Cells.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/text-alignment-horizontal" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Инструкции по установке
-1. Скачать и установить Aspose.Cells для .NET с [Страница выпуска Aspose](https://releases.aspose.com/cells/net/)\- Я не знаю .  
-2. Add a reference to Aspose.Cells.dll in your C# project.  
-3. Используйте управляющий пакетом NuGet для установки Aspose.Cells:  
+## Инструкция по установке
+1. Загрузите и установите Aspose.Cells для .NET с сайта [Страница релизов Aspose](https://releases.aspose.com/cells/net/).  
+2. Добавьте ссылку на Aspose.Cells.dll в свой проект C#.  
+3. Используйте диспетчер пакетов NuGet для установки Aspose.Cells:  
    ```sh
    Install-Package Aspose.Cells
    ```
-4. Import the required namespaces in your C# file:  
+4. Импортируйте необходимые пространства имен в ваш файл C#:  
    ```csharp
    using Aspose.Cells;
    ```
 
-## См. также  
-Чтобы купить лицензию, зайдите в [Ссылка на страницу покупки](https://purchase.aspose.com/buy)\- Я не знаю .  
-Для полной документации посетите [Aspose.Cells для документации .NET](https://docs.aspose.com/cells/net/)\- Я не знаю .  
-Чтобы узнать полную ссылку на API, ознакомьтесь [Aspose.Cells для ссылки на API .NET](https://reference.aspose.com/cells/net/)\- Я не знаю . 
+## Также см.  
+Чтобы приобрести лицензию, перейдите по ссылке [Страница покупки Aspose](https://purchase.aspose.com/buy).  
+Для получения полной документации посетите [Документация Aspose.Cells для .NET](https://docs.aspose.com/cells/net/).  
+Чтобы изучить полный справочник API, посетите [Справочник API Aspose.Cells для .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

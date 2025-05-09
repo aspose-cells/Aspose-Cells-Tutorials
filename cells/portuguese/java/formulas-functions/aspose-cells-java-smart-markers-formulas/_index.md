@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Ao imprimir a versão do Aspose.Cells, você pode garantir que seu ambiente este
 
 #### Etapas de implementação
 
-**Etapa 1: Importar os pacotes necessários**
+**Etapa 1: Importar pacotes necessários**
 ```java
 import com.aspose.cells.*;
 ```
@@ -192,7 +194,7 @@ Ao implementar os recursos abordados neste tutorial, você desbloqueou recursos 
 - Sintaxe incorreta ou nomes de fontes de dados incompatíveis frequentemente levam a erros. Certifique-se de que suas configurações estejam alinhadas aos requisitos do Aspose.Cells.
 
 **T4: Como integro o Aspose.Cells em um aplicativo web?**
-- Utilize a biblioteca em serviços de backend onde Java é usado, garantindo que todas as dependências estejam configuradas corretamente no servidor.
+- Utilize a biblioteca em serviços de backend onde o Java é usado, garantindo que todas as dependências estejam configuradas corretamente no servidor.
 
 **P5: Há suporte para outros formatos de planilha além do Excel?**
 - O Aspose.Cells suporta vários formatos, como CSV e ODS. Consulte a documentação para recursos específicos de cada formato.
@@ -205,6 +207,9 @@ Ao implementar os recursos abordados neste tutorial, você desbloqueou recursos 
 - **Teste gratuito e licença temporária:** Comece com um teste gratuito ou obtenha uma licença temporária em [Teste gratuito do Aspose](https://releases.aspose.com/cells/java/) e [Licença Temporária](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

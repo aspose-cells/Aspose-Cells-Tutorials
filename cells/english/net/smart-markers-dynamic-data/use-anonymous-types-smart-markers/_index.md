@@ -8,7 +8,9 @@ url: /net/smart-markers-dynamic-data/use-anonymous-types-smart-markers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Anonymous Types with Smart Markers Aspose.Cells
@@ -123,6 +125,7 @@ For more details, check out the [documentation](https://reference.aspose.com/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

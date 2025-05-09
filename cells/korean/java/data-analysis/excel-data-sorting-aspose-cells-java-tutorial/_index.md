@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Java를 사용하여 Excel 파일에서 데이터를 효율적으로 정렬하�
 
 ## 필수 조건
 
-따라오려면 다음 사항이 있는지 확인하세요.
+따라오시려면 다음 사항이 있는지 확인하세요.
 
 ### 필수 라이브러리
 - **자바용 Aspose.Cells**: 버전 25.3 이상을 권장합니다.
@@ -206,12 +208,15 @@ Aspose.Cells는 데이터베이스나 웹 애플리케이션 등 다른 시스�
 - **다운로드**: [Aspose.Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입**: [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험**: [Aspose.Cells 무료 체험판](https://releases.aspose.com/cells/java/)
-- **임시 면허**: [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허**: [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원 포럼**: [Aspose.Cells 지원](https://forum.aspose.com/c/cells/9)
 
 이 포괄적인 가이드를 따르면 Aspose.Cells를 사용하여 Java 애플리케이션에서 Excel 데이터 정렬을 자신 있게 구현하고 최적화할 수 있습니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

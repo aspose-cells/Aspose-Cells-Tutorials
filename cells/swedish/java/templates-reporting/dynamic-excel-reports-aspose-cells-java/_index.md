@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ Genom att följa dessa bästa metoder säkerställer du att din applikation kör
 Du har lärt dig hur du använder Aspose.Cells för Java för att ställa in komplexa formler med namngivna områden, vilket förbättrar dina Excel-baserade datahanteringsuppgifter. Dessa färdigheter kan utökas ytterligare när du utforskar fler funktioner som erbjuds av Aspose.Cells.
 
 ### Nästa steg:
-- Experimentera med olika typer av formler.
+- Experimentera med olika formler.
 - Utforska ytterligare funktioner som diagram och pivottabeller i Aspose.Cells.
 
 Redo att implementera det du har lärt dig? Börja skapa dynamiska rapporter idag!
@@ -179,6 +181,9 @@ Redo att implementera det du har lärt dig? Börja skapa dynamiska rapporter ida
 Dyk ner i världen av dynamiska Excel-rapporter med Aspose.Cells för Java och lås upp nya potentialer inom datahantering!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Προηγμένα γραφήματα Excel
@@ -47,9 +49,11 @@
 Μάθετε πώς να δημιουργείτε εκπληκτικά γραφήματα καταρράκτη με το Aspose.Cells για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για αποτελεσματική οπτικοποίηση δεδομένων.
 ### [Διαδραστικότητα γραφημάτων](./chart-interactivity/)
 Μάθετε πώς να δημιουργείτε διαδραστικά γραφήματα χρησιμοποιώντας το Aspose.Cells για Java. Βελτιώστε την οπτικοποίηση των δεδομένων σας με διαδραστικότητα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

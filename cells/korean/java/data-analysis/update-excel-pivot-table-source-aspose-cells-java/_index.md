@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,6 +203,9 @@ Aspose.Cells를 사용하여 피벗 테이블 소스 데이터를 변경하는 �
 이러한 리소스와 종합 가이드를 통해 이제 Java에서 Aspose.Cells를 사용하여 피벗 테이블 소스 데이터 변경 사항을 효과적으로 처리할 수 있게 되었습니다. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

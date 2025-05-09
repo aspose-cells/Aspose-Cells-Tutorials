@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ O: Tak, korzystanie z interfejsu API przesyłania strumieniowego pozwala skutecz
 Postępując zgodnie z tymi krokami i zasobami, będziesz dobrze wyposażony, aby skutecznie wdrożyć Aspose.Cells for Java w swoich projektach. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,16 +1,18 @@
 ---
 "description": "Poznaj samouczki Aspose.Cells for Java. Opanuj manipulację plikami Excela dzięki przykładom kodu. Popraw swoje umiejętności Java już dziś!"
 "linktitle": "Aspose.Cells dla samouczków Java"
-"title": "Aspose.Cells Java Spreadsheet Processing Tutorials"
+"title": "Aspose.Cells Samouczki przetwarzania arkuszy kalkulacyjnych Java"
 "url": "/pl/java/"
 "weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Cells Java Spreadsheet Processing Tutorials
+# Aspose.Cells Samouczki przetwarzania arkuszy kalkulacyjnych Java
 
 
 ## Wstęp
@@ -84,7 +86,7 @@ Naucz się tworzyć i zarządzać tabelami w programie Excel, zakresami nazwanym
 Kompletne samouczki dotyczące dodawania i manipulowania obrazami, kształtami, wykresami i elementami wizualnymi w programie Excel przy użyciu pakietu Aspose.Cells for Java.
 
 ### [Bezpieczeństwo i ochrona](./security-protection/)
-Samouczki krok po kroku dotyczące wdrażania ochrony skoroszytu, bezpieczeństwa haseł i kontroli dostępu w programie Excel przy użyciu Aspose.Cells dla języka Java.
+Samouczki krok po kroku dotyczące wdrażania ochrony skoroszytu, zabezpieczeń hasłem i kontroli dostępu w programie Excel przy użyciu Aspose.Cells dla języka Java.
 
 ### [Komentarze i adnotacje](./comments-annotations/)
 Naucz się dodawać, edytować i zarządzać komentarzami komórek, notatkami i funkcjami przeglądania w arkuszach kalkulacyjnych programu Excel za pomocą samouczków języka Java dotyczących pakietu Aspose.Cells.
@@ -118,9 +120,11 @@ Kompletne samouczki dotyczące tworzenia szablonów raportów, generowania dokum
 
 ### [Automatyzacja i przetwarzanie wsadowe](./automation-batch-processing/)
 Samouczki krok po kroku dotyczące automatyzacji zadań w programie Excel, przetwarzania wsadowego wielu plików i planowania operacji za pomocą Aspose.Cells dla języka Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

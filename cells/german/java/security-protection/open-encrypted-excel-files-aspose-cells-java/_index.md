@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -169,6 +171,9 @@ Wir empfehlen Ihnen, das Gelernte umzusetzen und zu sehen, wie es Ihre Datenmana
 - **Unterstützung:** Treten Sie der Aspose-Community in ihren Support-Foren bei, um Hilfe und Diskussionen zu erhalten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

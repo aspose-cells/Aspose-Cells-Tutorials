@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Hãy cùng tìm hiểu cách bạn có thể cải thiện quy trình làm việ
 
 Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong các bước sau:
 
-### Thư viện bắt buộc:
+### Thư viện cần thiết:
 - **Aspose.Cells cho Java**: Phiên bản 25.3 trở lên.
   
 ### Yêu cầu thiết lập môi trường:
@@ -164,6 +166,9 @@ A5: Ghé thăm [Tài liệu chính thức của Aspose](https://reference.aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

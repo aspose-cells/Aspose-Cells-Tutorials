@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,11 +116,11 @@ String outDir = "YOUR_OUTPUT_DIRECTORY"; // ตรวจสอบให้แน
 wb.save(outDir + "/outputDisableDownlevelRevealedComments_true.html", opts);
 ```
 
-**เคล็ดลับการแก้ไขปัญหา**:หากการบันทึกล้มเหลว ให้ตรวจสอบเส้นทางไฟล์และการอนุญาต ตรวจสอบว่าไดเร็กทอรีมีอยู่และสามารถเข้าถึงได้
+**เคล็ดลับการแก้ไขปัญหา**หากการบันทึกล้มเหลว ให้ตรวจสอบเส้นทางไฟล์และการอนุญาต ตรวจสอบว่าไดเร็กทอรีมีอยู่และสามารถเข้าถึงได้
 
 ## การประยุกต์ใช้งานจริง
 
-1. **รายงานผ่านเว็บ**:แปลงรายงานทางการเงินเป็น HTML โดยอัตโนมัติเพื่อแสดงบนเว็บในขณะที่ยังคงรักษาความคิดเห็นเป็นส่วนตัว
+1. **รายงานผ่านเว็บ**แปลงรายงานทางการเงินเป็น HTML โดยอัตโนมัติเพื่อแสดงบนเว็บในขณะที่ยังคงรักษาความคิดเห็นเป็นส่วนตัว
 2. **ระบบจัดการเอกสาร**:ใช้ Aspose.Cells เพื่อเตรียมเอกสารพร้อมคำอธิบายประกอบที่เป็นความลับก่อนที่จะอัพโหลดออนไลน์
 3. **แพลตฟอร์มการแบ่งปันข้อมูล**:แชร์ข้อมูล Excel โดยไม่เปิดเผยบันทึกหรือความคิดเห็นที่ละเอียดอ่อนในรูปแบบ HTML ที่แชร์
 
@@ -160,6 +162,9 @@ wb.save(outDir + "/outputDisableDownlevelRevealedComments_true.html", opts);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

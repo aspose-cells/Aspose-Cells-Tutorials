@@ -8,7 +8,9 @@ url: /net/excel-formulas-and-calculation-options/processing-data-using-array-fun
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Processing Data Using Array Function in Excel
@@ -122,6 +124,7 @@ Detailed documentation is available [here](https://reference.aspose.com/cells/ne
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

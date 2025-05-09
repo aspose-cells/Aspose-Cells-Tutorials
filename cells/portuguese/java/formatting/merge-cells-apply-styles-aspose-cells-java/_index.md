@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ public class Main {
 
 ## Guia de Implementação
 
-### Mesclar células em uma planilha
+### Mesclando células em uma planilha
 
 #### Visão geral
 Mesclar células pode simplificar a apresentação de dados combinando várias células em uma, ideal para cabeçalhos ou consolidando informações em colunas e linhas.
@@ -192,6 +194,9 @@ Os próximos passos incluem explorar recursos mais avançados do Aspose.Cells ou
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

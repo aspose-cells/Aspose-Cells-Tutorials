@@ -1,14 +1,16 @@
 ---
-title: XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
-linktitle: XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin.
-weight: 130
-url: /tr/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
+"description": "Bu kapsamlı eğitimde Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağlantıları nasıl yöneteceğinizi öğrenin."
+"linktitle": "XLSB Dosyasının Harici Bağlantısını Oku ve Yaz"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "XLSB Dosyasının Harici Bağlantısını Oku ve Yaz"
+"url": "/tr/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XLSB Dosyasının Harici Bağlantısını Oku ve Yaz
@@ -21,8 +23,8 @@ Merhaba Excel tutkunları! XLSB dosyalarının ve harici bağlantıların büyü
 
 Başlamadan önce ihtiyacınız olacak birkaç şey şunlardır:
 
-1. C# Temel Bilgisi: C# programlama dilini bilmek çok yardımcı olacaktır. C# kodu yazma konusunda rahatsanız, hazırsınız demektir!
-2.  Aspose.Cells for .NET: Bu kütüphanenin geliştirme ortamınıza kurulu olması gerekir. Bunu henüz yapmadıysanız, kolayca indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/). 
+1. C# Temel Bilgisi: C# programlama dilini bilmeniz çok yardımcı olacaktır. C# kodu yazma konusunda rahatsanız, hazırsınız demektir!
+2. Aspose.Cells for .NET: Bu kütüphanenin geliştirme ortamınıza kurulu olması gerekir. Bunu henüz yapmadıysanız, kolayca indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/). 
 3. Bir IDE: Visual Studio gibi bir kod düzenleyicisine veya Entegre Geliştirme Ortamına (IDE) ihtiyacınız olacak. 
 4. Örnek XLSB Dosyası: Harici bağlantılar içeren bir örnek XLSB dosyasıyla çalışacağız. Kendi dosyanızı oluşturabilir veya örnekleri çevrimiçi olarak indirebilirsiniz. 
 
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- Bu kod parçacığında,`"Your Document Directory"` Ve`"Your Document Directory"` giriş ve çıkış dosyalarınızın bulunacağı ilgili yolları getirdiği varsayılır. İsterseniz bu yöntemleri sabit kodlu yollarla değiştirebilirsiniz.
+Bu kod parçacığında, `"Your Document Directory"` Ve `"Your Document Directory"` giriş ve çıkış dosyalarınızın bulunacağı ilgili yolları getirdiği varsayılır. İsterseniz bu yöntemleri sabit kodlu yollarla değiştirebilirsiniz.
 
 ## Adım 2: XLSB Dosyasını Yükleyin
 
@@ -63,7 +65,7 @@ string outputDir = "Your Output Directory";
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
- Sadece XLSB dosyanızın belirtilen konumda olduğundan emin olun`sourceDir`Eğer yol doğruysa çalışma kitabınız manipülasyona hazır olacaktır!
+XLSB dosyanızın belirtilen konumda olduğundan emin olun `sourceDir`Eğer yol doğruysa çalışma kitabınız manipülasyona hazır olacaktır!
 
 ## Adım 3: Harici Bağlantılara Erişim
 
@@ -74,11 +76,11 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Burada,`DataConnections[0]` çalışma kitabındaki ilk bağlantıyı ifade eder. Bunu bir`DBConnection` daha fazla düzenleme için yazın.
+Burada, `DataConnections[0]` çalışma kitabındaki ilk bağlantıyı ifade eder. Bunu bir `DBConnection` daha fazla düzenleme için yazın.
 
 ## Adım 4: Bağlantı Bilgilerini Çıkarın
 
-Artık veritabanı bağlantısına erişebildiğinize göre, ayrıntılarını konsola çıkartıp yazdıralım. Bu, tam olarak neyle çalıştığımızı görmemize yardımcı olacaktır.
+Artık veritabanı bağlantısına erişiminiz olduğuna göre, ayrıntılarını konsola çıkartıp yazdıralım. Bu, tam olarak neyle çalıştığımızı görmemize yardımcı olacaktır.
 
 ```csharp
 // DB Bağlantısının Adını, Komutunu ve Bağlantı Bilgilerini Yazdır
@@ -128,22 +130,24 @@ Ve işte oldu! Aspose.Cells for .NET kullanarak XLSB dosyalarındaki harici bağ
 ## SSS
 
 ### XLSB dosyası nedir?  
-XLSB dosyası, elektronik tablo verilerini ikili biçimde saklayan, böylece daha kompakt ve daha hızlı açılan bir ikili Excel dosya biçimidir.
+XLSB dosyası, elektronik tablo verilerini ikili biçimde saklayan, böylece daha kompakt ve daha hızlı açılan bir Excel dosya biçimidir.
 
 ### Aspose.Cells for .NET'i nasıl kurarım?  
- Bunu Aspose web sitesinden kolayca indirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+Bunu Aspose web sitesinden kolayca indirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?  
- Evet! Ücretsiz denemeyle başlayabilirsiniz, bu da mevcuttur[Burada](https://releases.aspose.com/).
+Evet! Ücretsiz denemeyle başlayabilirsiniz, bu da mevcuttur [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells diğer dosya formatlarını destekliyor mu?  
 Kesinlikle! Aspose.Cells, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli dosya biçimlerini destekler.
 
 ### Sorun yaşarsam nereden yardım alabilirim?  
-Aspose forumlarından destek alabilirsiniz[Burada](https://forum.aspose.com/c/cells/9).
+Aspose forumlarından destek alabilirsiniz [Burada](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

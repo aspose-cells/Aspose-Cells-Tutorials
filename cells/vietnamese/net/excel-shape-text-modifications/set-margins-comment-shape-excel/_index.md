@@ -1,14 +1,16 @@
 ---
-title: Thiết lập lề cho chú thích hoặc hình dạng trong Excel
-linktitle: Thiết lập lề cho chú thích hoặc hình dạng trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập lề cho chú thích và hình dạng trong Excel bằng Aspose.Cells cho .NET. Có hướng dẫn từng bước để dễ dàng triển khai.
-weight: 18
-url: /vi/net/excel-shape-text-modifications/set-margins-comment-shape-excel/
+"description": "Tìm hiểu cách thiết lập lề cho chú thích và hình dạng trong Excel bằng Aspose.Cells cho .NET. Có hướng dẫn từng bước để dễ dàng triển khai."
+"linktitle": "Thiết lập lề cho chú thích hoặc hình dạng trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Thiết lập lề cho chú thích hoặc hình dạng trong Excel"
+"url": "/vi/net/excel-shape-text-modifications/set-margins-comment-shape-excel/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập lề cho chú thích hoặc hình dạng trong Excel
@@ -21,8 +23,8 @@ Trước khi bắt đầu cuộc phiêu lưu viết mã, hãy đảm bảo rằn
 Bạn phải có hiểu biết cơ bản về C# và .NET. Hướng dẫn này dành cho những người có ít nhất kiến thức cơ bản về các khái niệm lập trình.
 ### Thiết lập môi trường
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio. Đây là môi trường phát triển giúp đơn giản hóa việc mã hóa.
-2.  Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
-3. Tệp Excel mẫu: Tạo hoặc tải xuống tệp Excel mẫu. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên`sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
+2. Thư viện Aspose.Cells: Bạn cần thư viện Aspose.Cells. Nếu bạn chưa có, bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
+3. Tệp Excel mẫu: Tạo hoặc tải xuống tệp Excel mẫu. Đối với hướng dẫn này, chúng tôi sẽ sử dụng tệp có tên `sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx`.
 ## Nhập gói
 Bước đầu tiên trong hành trình của chúng ta bao gồm việc nhập các gói cần thiết. Bạn sẽ cần phải bao gồm các không gian tên Aspose.Cells trong dự án của mình. Điều này sẽ cấp cho bạn quyền truy cập vào tất cả các chức năng mà Aspose.Cells cung cấp.
 ### Mở dự án của bạn
@@ -53,9 +55,9 @@ string sourceDir = "Your Document Directory";
 //Thư mục đầu ra
 string outputDir = "Your Document Directory";
 ```
-Hãy chắc chắn rằng bạn thay thế`"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
+Hãy chắc chắn rằng bạn thay thế `"Your Document Directory"` với đường dẫn thực tế nơi các tập tin của bạn được lưu trữ.
 ## Bước 2: Tải tệp Excel
- Trong bước này, chúng ta sẽ mở tệp Excel mà chúng ta dự định làm việc. Hãy khai thác sức mạnh của`Workbook` lớp học.
+Trong bước này, chúng ta sẽ mở tệp Excel mà chúng ta dự định làm việc. Hãy khai thác sức mạnh của `Workbook` lớp học.
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSetMarginsOfCommentOrShapeInsideTheWorksheet.xlsx");
 ```
@@ -78,7 +80,7 @@ Mỗi hình dạng có thể đã có một thiết lập căn chỉnh mà chún
 Aspose.Cells.Drawing.Texts.ShapeTextAlignment txtAlign = sh.TextBody.TextAlignment;
 txtAlign.IsAutoMargin = false;
 ```
- Bằng cách thiết lập`IsAutoMargin`thành sai, bây giờ chúng ta có thể kiểm soát được lề.
+Bằng cách thiết lập `IsAutoMargin` thành sai, bây giờ chúng ta có thể kiểm soát được lề.
 ## Bước 6: Thiết lập lề
 Đây là bước quan trọng để chúng ta xác định biên độ. Bạn có thể tùy chỉnh các giá trị này theo nhu cầu của mình.
 ```csharp
@@ -105,16 +107,18 @@ Xin chúc mừng! Bạn vừa học cách thiết lập lề cho chú thích ho�
 ### Aspose.Cells là gì?
 Aspose.Cells là thư viện .NET được thiết kế để tạo, thao tác và chuyển đổi các tệp Excel mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Aspose.Cells cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có! Aspose.Cells cung cấp bản dùng thử miễn phí. Bạn có thể tải xuống [đây](https://releases.aspose.com/).
 ### Làm thế nào để mua giấy phép sử dụng Aspose.Cells?
- Bạn có thể mua giấy phép Aspose.Cells bằng cách truy cập vào đây[liên kết mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép Aspose.Cells bằng cách truy cập vào đây [liên kết mua hàng](https://purchase.aspose.com/buy).
 ### Thư viện có dễ tích hợp vào các dự án hiện có không?
 Chắc chắn rồi! Aspose.Cells tích hợp dễ dàng vào các dự án .NET và API của nó rất đơn giản.
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Bạn có thể nhận được hỗ trợ thông qua Aspose[diễn đàn](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ thông qua Aspose [diễn đàn](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

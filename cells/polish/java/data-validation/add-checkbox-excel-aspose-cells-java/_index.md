@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Zachęcamy do wdrożenia tych rozwiązań w swoich projektach. Miłego kodowania
 - Upewnij się, że masz odpowiednie uprawnienia i rozważ zablokowanie konkretnych komórek, aby zapobiec niezamierzonym zmianom podczas korzystania z pól wyboru w środowiskach współdzielonych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

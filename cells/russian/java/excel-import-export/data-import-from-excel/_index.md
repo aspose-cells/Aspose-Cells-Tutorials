@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Импорт данных из Excel
@@ -96,9 +98,11 @@ public class ExcelDataImport {
    Посетите документацию Aspose.Cells [здесь](https://reference.aspose.com/cells/java/) для получения подробных ресурсов и примеров.
 
 Не стесняйтесь исследовать дальше и адаптировать этот код в соответствии с вашими конкретными требованиями к импорту данных. Удачного кодирования!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

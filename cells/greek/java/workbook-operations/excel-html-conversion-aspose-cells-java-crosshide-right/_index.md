@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,6 +153,9 @@ wb.save(outDir + "/outputHidingOverlavedContentWithCross.html", opts);
 Αυτό το σεμινάριο χρησιμεύει ως ένας ολοκληρωμένος οδηγός για τη μετατροπή αρχείων Excel σε HTML χρησιμοποιώντας το Aspose.Cells για Java, εξασφαλίζοντας σαφήνεια και λειτουργικότητα στις παρουσιάσεις σας στο διαδίκτυο.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

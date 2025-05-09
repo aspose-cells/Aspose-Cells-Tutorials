@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ Aspose.Cells özelliklerini test etmeniz için ücretsiz deneme sürümü sunuyo
 - **Geçici Lisans**: Değerlendirme sınırlamaları olmaksızın genişletilmiş testler için geçici bir lisans talep edin [Aspose Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 - **Satın almak**: Lisans satın alarak üretim kullanımı için tüm özelliklerin kilidini açın [Aspose Satın Alma Sayfası](https://purchase.aspose.com/buy).
 
-Lisans dosyanızı edindikten sonra Java uygulamanızda kurulumunu yapın:
+Lisans dosyanızı aldıktan sonra Java uygulamanızda kurulumunu yapın:
 ```java
 License license = new License();
 license.setLicense("path/to/your/aspose.cells.lic");
@@ -156,7 +158,7 @@ Aspose.Cells çeşitli sistemlere entegre edilebilir:
 ## Performans Hususları
 
 Aspose.Cells ile çalışırken performansı optimize etmek ve kaynakları verimli bir şekilde yönetmek için şu ipuçlarını göz önünde bulundurun:
-- **Çalışma Kitabı Boyutunu Küçült**: Sadece gerekli sayfaları ve verileri belleğe yükleyin.
+- **Çalışma Kitabı Boyutunu En Aza İndir**: Sadece gerekli sayfaları ve verileri belleğe yükleyin.
 - **Verimli Bellek Yönetimi**: Hafızayı boşaltmak için nesneleri kullandıktan sonra uygun şekilde atın.
 - **Toplu İşleme**:Yükleri azaltmak için birden fazla çalışma kitabını toplu olarak işleyin.
 
@@ -191,6 +193,9 @@ Excel otomasyon projelerinizi geliştirmek için grafik düzenleme veya pivot ta
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,11 +145,14 @@ Aspose.Cells สำหรับ Java มีความหลากหลาย 
 ### ทรัพยากร
 - **เอกสารประกอบ**:สำรวจเพิ่มเติมเกี่ยวกับคุณลักษณะของ Aspose.Cells ได้ที่ [เอกสารประกอบ Aspose.Cells](https://reference-aspose.com/cells/java/).
 - **ดาวน์โหลด**:รับเวอร์ชันล่าสุดของ Aspose.Cells จาก [หน้าเผยแพร่](https://releases-aspose.com/cells/java/).
-- **ซื้อ**: หากต้องการซื้อใบอนุญาต โปรดไปที่ [หน้าการสั่งซื้อ](https://purchase-aspose.com/buy).
+- **ซื้อ**: หากต้องการซื้อใบอนุญาต ให้ไปที่ [หน้าการสั่งซื้อ](https://purchase-aspose.com/buy).
 - **ทดลองใช้งานฟรีและใบอนุญาตชั่วคราว**:ทดลองใช้ Aspose.Cells โดยดาวน์โหลดรุ่นทดลองใช้งานฟรีหรือรับใบอนุญาตชั่วคราวตามลิงก์ที่เกี่ยวข้อง
 เจาะลึกแหล่งข้อมูลเหล่านี้เพื่อเรียนรู้การจัดการแผนภูมิในไฟล์ Excel ด้วย Aspose.Cells สำหรับ Java ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

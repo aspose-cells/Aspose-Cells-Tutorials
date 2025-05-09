@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Siguiendo esta guía, has aprendido a aprovechar el potencial de `FormulaText` F
 Al usar Aspose.Cells con Java, podrá gestionar y manipular archivos de Excel eficientemente en sus aplicaciones. ¡Explore más funcionalidades para maximizar su potencial en sus proyectos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

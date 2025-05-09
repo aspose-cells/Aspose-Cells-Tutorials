@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Ortamınızı kuralım ve Excel dosyalarınızı Aspose.Cells Java ile geliştir
 Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 - **Kütüphaneler ve Bağımlılıklar**: Java için Aspose.Cells'in en son sürümünü yükleyin. Bağımlılıkları yönetmek için Maven veya Gradle kullanılması önerilir.
 - **Çevre Kurulumu**:
-  - Makinenize JDK kurulu.
+  - Makinenizde JDK yüklü.
   - Java geliştirmeyi destekleyen IntelliJ IDEA veya Eclipse gibi bir IDE.
 - **Bilgi Önkoşulları**: Temel Java programlama bilgisine ve Excel dosya yapılarına aşinalığa sahip olmak faydalıdır.
 
@@ -194,6 +196,9 @@ Sonraki adımlar arasında Aspose.Cells'in daha gelişmiş özelliklerini keşfe
 Aspose.Cells for Java'da ustalaşma yolculuğunuza bugün başlayın ve Excel iş akışlarınızı kolaylıkla kolaylaştırın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

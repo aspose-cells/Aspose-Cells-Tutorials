@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,7 +154,7 @@ public class SaveWorkbook {
 **説明：**
 - **ファイルの保存:** その `save` の方法 `Workbook` クラスはファイルをディスクに書き込むために使用されます。
 
-### 実践応用（H2）
+### 実践的応用（H2）
 
 この機能の実際の使用例をいくつか紹介します。
 1. **文書管理システム:** 画像または PDF を OLE オブジェクトとして Excel レポートに埋め込みます。
@@ -198,6 +200,9 @@ Aspose.Cells の機能をさらに詳しく知るには、ドキュメントを�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

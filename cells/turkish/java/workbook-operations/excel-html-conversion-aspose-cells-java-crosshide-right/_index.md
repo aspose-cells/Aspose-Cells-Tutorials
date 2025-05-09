@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -85,7 +87,7 @@ The `save` yöntem çalışma kitabını bir HTML dosyası olarak dönüştürü
 
 ### Özellik 2: Üst Üste Yerleştirilen İçerik için HtmlSaveOptions'ı Yapılandırın
 
-**Genel Bakış:** Bu özellik, Excel'de CrossHideRight yöntemi kullanılarak HTML'e dönüştürülen verilerin üst üste bindirilerek işlenmesini göstererek çıktı dosyalarında açıklık ve okunabilirliği garanti eder.
+**Genel Bakış:** Bu özellik, Excel'de CrossHideRight yöntemi kullanılarak HTML'e dönüştürülen verilerin üst üste bindirilerek işlenmesini ve çıktı dosyalarında netlik ve okunabilirliğin sağlanmasını gösterir.
 
 #### Adım Adım Uygulama
 ##### Adım 1: Çalışma Kitabını Yükleyin (Yukarıdaki Gibi)
@@ -151,6 +153,9 @@ HTML çıktılarında grafik dönüştürme veya koşullu biçimlendirme gibi As
 Bu eğitim, Aspose.Cells for Java kullanarak Excel dosyalarını HTML'ye dönüştürmeye yönelik kapsamlı bir kılavuz görevi görerek web sunumlarınızda netlik ve işlevsellik sağlar.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Вычисляемые поля в сводных таблицах
@@ -81,12 +83,13 @@ pivotTable.calculateData();
 ### Существуют ли какие-либо ограничения для вычисляемых полей в сводных таблицах?
    Вычисляемые поля имеют некоторые ограничения, например, не поддерживают определенные типы вычислений. Обязательно проверьте документацию для получения подробной информации.
 
-### Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?
+### Где я могу найти больше ресурсов по Aspose.Cells для Java?
    Вы можете изучить документацию API по адресу [Документация по Aspose.Cells для Java](https://reference.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

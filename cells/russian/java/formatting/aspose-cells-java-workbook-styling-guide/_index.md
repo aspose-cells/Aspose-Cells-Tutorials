@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aspose.Cells для Java универсален и может использов
 В этом руководстве вы узнали, как создавать и оформлять документы Excel с помощью Aspose.Cells для Java. Освоив эти методы, вы сможете значительно улучшить способность вашего приложения эффективно обрабатывать сложные задачи электронных таблиц.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

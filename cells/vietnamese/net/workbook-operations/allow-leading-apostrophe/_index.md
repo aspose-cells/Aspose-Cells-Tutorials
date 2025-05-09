@@ -1,14 +1,16 @@
 ---
-title: Cho phép dấu nháy đơn đứng đầu trong sổ làm việc bằng cách sử dụng Aspose.Cells
-linktitle: Cho phép dấu nháy đơn đứng đầu trong sổ làm việc bằng cách sử dụng Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách cho phép dấu nháy đơn đứng đầu trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn đơn giản có kèm ví dụ về mã, mẹo và câu hỏi thường gặp.
-weight: 15
-url: /vi/net/workbook-operations/allow-leading-apostrophe/
+"description": "Tìm hiểu cách cho phép dấu nháy đơn đứng đầu trong Excel bằng Aspose.Cells cho .NET. Hướng dẫn đơn giản có kèm ví dụ về mã, mẹo và câu hỏi thường gặp."
+"linktitle": "Cho phép dấu nháy đơn đứng đầu trong sổ làm việc bằng cách sử dụng Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Cho phép dấu nháy đơn đứng đầu trong sổ làm việc bằng cách sử dụng Aspose.Cells"
+"url": "/vi/net/workbook-operations/allow-leading-apostrophe/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cho phép dấu nháy đơn đứng đầu trong sổ làm việc bằng cách sử dụng Aspose.Cells
@@ -18,7 +20,7 @@ Quản lý dữ liệu đã vượt qua hàng loạt ranh giới, phát triển 
 ## Điều kiện tiên quyết
 Trước khi bắt đầu hành trình này, hãy đảm bảo rằng bạn đã chuẩn bị kỹ lưỡng. Sau đây là những gì bạn cần có trong bộ công cụ của mình:
 1. Visual Studio: Việc cài đặt phần mềm này trên hệ thống của bạn là rất quan trọng vì bạn sẽ viết và chạy mã C# để triển khai các chức năng của Aspose.Cells.
-2.  Aspose.Cells cho .NET: Bạn sẽ muốn có thư viện này theo ý của bạn. Bạn có thể tải xuống từ[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn sẽ muốn có thư viện này theo ý của bạn. Bạn có thể tải xuống từ [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Hiểu biết một chút về lập trình C# sẽ giúp ích rất nhiều. Nếu bạn quen thuộc với cấu trúc dữ liệu, bạn đã đi trước một bước.
 4. .NET Framework: Đảm bảo bạn đã cài đặt .NET Framework trên hệ thống của mình để đảm bảo khả năng tương thích với Aspose.Cells.
 ## Nhập gói
@@ -37,7 +39,7 @@ using Aspose.Cells.WebExtensions;
 using System;
 using System.Collections.Generic;
 ```
-Vậy là xong! Bạn đã sẵn sàng để bắt đầu thao tác với các tài liệu Excel bằng Aspose.Cells.
+Vậy là xong! Bạn đã sẵn sàng để bắt đầu xử lý tài liệu Excel bằng Aspose.Cells.
 
 Bây giờ bạn đã nhập các gói cần thiết, chúng ta hãy cùng xem hướng dẫn chi tiết từng bước về cách cho phép sử dụng dấu nháy đơn ở đầu trong bảng tính Excel.
 ## Bước 1: Xác định cấu trúc dữ liệu của bạn
@@ -57,24 +59,24 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 ## Bước 3: Tạo đối tượng WorkbookDesigner
- Các`WorkbookDesigner` lớp đóng vai trò then chốt trong việc xử lý các điểm đánh dấu thông minh trong sổ làm việc của bạn. Sau đây là cách bạn có thể khởi tạo nó:
+Các `WorkbookDesigner` lớp đóng vai trò then chốt trong việc xử lý các điểm đánh dấu thông minh trong sổ làm việc của bạn. Sau đây là cách bạn có thể khởi tạo nó:
 ```csharp
 WorkbookDesigner designer = new WorkbookDesigner();
 ```
 ## Bước 4: Tải Workbook
- Bây giờ là lúc tải sổ làm việc của bạn từ thư mục nguồn đã chỉ định. Đảm bảo bạn có tệp Excel có tên`AllowLeadingApostropheSample.xlsx` trong thư mục đó.
+Bây giờ là lúc tải sổ làm việc của bạn từ thư mục nguồn đã chỉ định. Đảm bảo bạn có tệp Excel có tên `AllowLeadingApostropheSample.xlsx` trong thư mục đó.
 ```csharp
 Workbook workbook = new Workbook(sourceDir + "AllowLeadingApostropheSample.xlsx");
-workbook.Settings.QuotePrefixToStyle = false;
+workbook.Cài đặts.QuotePrefixToStyle = false;
 ```
- Cài đặt`QuotePrefixToStyle`để sai cho phép các dấu nháy đơn đứng đầu được xử lý đúng cách. 
+Setting `QuotePrefixToStyle` để sai cho phép các dấu nháy đơn đứng đầu được xử lý đúng cách. 
 ## Bước 5: Gán Workbook cho Designer
- Sau đó, bạn cần liên kết sổ làm việc của mình với`WorkbookDesigner` đối tượng bạn đã tạo trước đó.
+Sau đó, bạn cần liên kết sổ làm việc của mình với `WorkbookDesigner` đối tượng bạn đã tạo trước đó.
 ```csharp
 designer.Workbook = workbook;
 ```
 ## Bước 6: Tạo dữ liệu mẫu
- Đây là nơi phép thuật xảy ra! Bạn sẽ tạo một danh sách`DataObject` trường hợp—một trường hợp có tên thông thường và một trường hợp khác có dấu nháy đơn ở đầu. 
+Đây là nơi phép thuật xảy ra! Bạn sẽ tạo một danh sách `DataObject` trường hợp—một trường hợp có tên thông thường và một trường hợp khác có dấu nháy đơn ở đầu. 
 ```csharp
 List<DataObject> list = new List<DataObject>
 {
@@ -84,12 +86,12 @@ List<DataObject> list = new List<DataObject>
 ```
 Phần này mô phỏng dữ liệu đầu vào của bạn, cho bạn thấy cách thư viện sẽ xử lý dấu nháy đơn ở đầu.
 ## Bước 7: Thiết lập Nguồn dữ liệu
- Tiếp theo, hãy đặt danh sách này làm nguồn dữ liệu cho bạn`WorkbookDesigner`.
+Tiếp theo, hãy đặt danh sách này làm nguồn dữ liệu cho bạn `WorkbookDesigner`.
 ```csharp
 designer.SetDataSource("sampleData", list);
 ```
 ## Bước 8: Xử lý các điểm đánh dấu thông minh
-Bây giờ đến phần thú vị nhất—xử lý các bút đánh dấu thông minh của bạn!
+Bây giờ đến phần thú vị nhất - xử lý các bút đánh dấu thông minh của bạn!
 ```csharp
 designer.Process();
 ```
@@ -111,16 +113,18 @@ Với kỹ năng mới này, bạn có thể đảm bảo các tệp Excel của
 ### Aspose.Cells dành cho .NET là gì?  
 Aspose.Cells for .NET là một thư viện mạnh mẽ được thiết kế để tạo, thao tác và chuyển đổi các tệp Excel theo chương trình mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể tải Aspose.Cells như thế nào?  
- Bạn có thể tải xuống Aspose.Cells cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/cells/net/).
+Bạn có thể tải xuống Aspose.Cells cho .NET từ [Liên kết tải xuống](https://releases.aspose.com/cells/net/).
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?  
- Chắc chắn rồi! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn[đây](https://releases.aspose.com/).
+Chắc chắn rồi! Bạn có thể bắt đầu với bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### WorkbookDesigner là gì?  
- MỘT`WorkbookDesigner` là một lớp trong Aspose.Cells được sử dụng để làm việc với các tệp Excel mẫu có chứa các dấu hiệu thông minh để liên kết dữ liệu.
+MỘT `WorkbookDesigner` là một lớp trong Aspose.Cells được sử dụng để làm việc với các tệp Excel mẫu có chứa các dấu hiệu thông minh để liên kết dữ liệu.
 ### Tôi có thể tìm sự hỗ trợ ở đâu nếu có thắc mắc?  
- Bạn có thể truy cập diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/c/cells/9) để được trợ giúp giải đáp mọi thắc mắc hoặc vấn đề.
+Bạn có thể truy cập diễn đàn hỗ trợ Aspose [đây](https://forum.aspose.com/c/cells/9) để được trợ giúp giải đáp mọi thắc mắc hoặc vấn đề.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

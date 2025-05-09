@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -144,7 +146,7 @@ System.out.println("Process completed successfully");
 उत्तर: हां, यह XLS और XLSX सहित एक्सेल प्रारूपों की एक विस्तृत श्रृंखला का समर्थन करता है।
 
 ### संसाधन
-- **प्रलेखन**: [Aspose Cells जावा दस्तावेज़ीकरण](https://reference.aspose.com/cells/java/)
+- **प्रलेखन**: [एस्पोज सेल्स जावा डॉक्यूमेंटेशन](https://reference.aspose.com/cells/java/)
 - **डाउनलोड करना**: [जावा के लिए एस्पोज सेल्स रिलीज़](https://releases.aspose.com/cells/java/)
 - **खरीद लाइसेंस**: [Aspose.Cells खरीदें](https://purchase.aspose.com/buy)
 - **मुफ्त परीक्षण**: [Aspose Cells आज़माएँ](https://releases.aspose.com/cells/java/)
@@ -154,6 +156,9 @@ System.out.println("Process completed successfully");
 इस गाइड का पालन करके, अब आप Aspose.Cells का उपयोग करके अपने जावा अनुप्रयोगों में उप-योगात्मक कार्यक्षमताओं को शामिल करने के लिए अच्छी तरह से सुसज्जित हो जाएंगे। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -62,7 +64,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Lisans Edinme Adımları
 Kütüphanenin tüm yeteneklerini sınırlama olmadan keşfetmek için Aspose'dan ücretsiz deneme lisansı alabilirsiniz. Geçici veya kalıcı bir lisansı nasıl edinebileceğiniz aşağıda açıklanmıştır:
-- **Ücretsiz Deneme**: 30 gün boyunca sınırlı özelliklere erişim.
+- **Ücretsiz Deneme**: 30 gün boyunca sınırlı özelliklere erişim sağlayın.
 - **Geçici Lisans**: İsteyin [Burada](https://purchase.aspose.com/temporary-license/) eğer daha uzun süreli testlere ihtiyacınız varsa.
 - **Satın almak**: Tam lisansı şuradan edinin: [Aspose satın alma sayfası](https://purchase.aspose.com/buy).
 
@@ -173,6 +175,9 @@ Daha detaylı bilgi ve ek özellikler için:
 - [Geçici Lisans Talebi](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

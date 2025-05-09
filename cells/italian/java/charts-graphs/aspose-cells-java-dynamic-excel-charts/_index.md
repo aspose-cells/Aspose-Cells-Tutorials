@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -60,7 +62,7 @@ Per utilizzare appieno Aspose.Cells, puoi iniziare con una prova gratuita o acqu
 
 #### Inizializzazione di base
 
-Ecco come configurare e inizializzare Aspose.Cells nel tuo progetto:
+Ecco come impostare e inizializzare Aspose.Cells nel tuo progetto:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -78,7 +80,7 @@ Un intervallo denominato consente un facile riferimento all'interno delle formul
 
 1. **Crea e assegna un nome a un intervallo**
 
-   Per iniziare, crea un intervallo in un foglio Excel e assegnagli un nome:
+   Per iniziare, creiamo un intervallo in un foglio Excel e assegnamogli un nome:
 ```java
 import com.aspose.cells.Cells;
 import com.aspose.cells.Range;
@@ -228,6 +230,9 @@ Questa guida ha fornito una guida dettagliata per la creazione di grafici Excel 
 - Condividi le tue scoperte o domande nei forum degli sviluppatori per interagire con la community.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

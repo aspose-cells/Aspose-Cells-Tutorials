@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Ten samouczek pokazał, jak używać nazwanych zakresów z funkcjami SUMA w Aspo
 Ten samouczek oferuje Ci kompleksowe zrozumienie implementacji nazwanych zakresów i funkcji sum przy użyciu Aspose.Cells dla Java. Wypróbuj go, aby wykorzystać pełny potencjał automatyzacji Excela w swoich aplikacjach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

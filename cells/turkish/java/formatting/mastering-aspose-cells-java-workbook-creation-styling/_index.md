@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -94,7 +96,7 @@ Workbook workbook = new Workbook();
 
 Bu, işleme hazır boş bir çalışma kitabını başlatır.
 
-### Çalışma Sayfalarına Erişim ve Bunları Düzenleme
+### Çalışma Sayfalarına Erişim ve Düzenleme
 
 **Genel Bakış:**  
 Her çalışma kitabı birden fazla çalışma sayfasından oluşur. İşte bunlara nasıl erişebileceğiniz ve bunları nasıl yönetebileceğiniz.
@@ -222,6 +224,9 @@ C5: Doğru dosya yolunu kullandığınızdan ve uygulamanızın belirtilen dizin
 - [Aspose Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

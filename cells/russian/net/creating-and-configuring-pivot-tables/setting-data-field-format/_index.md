@@ -1,14 +1,16 @@
 ---
-title: Программная настройка формата поля данных в .NET
-linktitle: Программная настройка формата поля данных в .NET
-second_title: API обработки Excel Aspose.Cells .NET
-description: Мастер настройки форматов полей данных в сводных таблицах с помощью Aspose.Cells для .NET с этим пошаговым руководством. Улучшите форматирование данных Excel.
-weight: 19
-url: /ru/net/creating-and-configuring-pivot-tables/setting-data-field-format/
+"description": "Мастер настройки форматов полей данных в сводных таблицах с помощью Aspose.Cells для .NET с этим пошаговым руководством. Улучшите форматирование данных Excel."
+"linktitle": "Программная настройка формата поля данных в .NET"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Программная настройка формата поля данных в .NET"
+"url": "/ru/net/creating-and-configuring-pivot-tables/setting-data-field-format/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Программная настройка формата поля данных в .NET
@@ -18,7 +20,7 @@ url: /ru/net/creating-and-configuring-pivot-tables/setting-data-field-format/
 ## Предпосылки
 Прежде чем отправиться в это путешествие, давайте убедимся, что у вас все готово. Вот краткий контрольный список того, что вам нужно:
 1. Visual Studio: Кто не любит хорошую интегрированную среду разработки (IDE)?
-2.  Библиотека Aspose.Cells for .NET: вы можете легко загрузить ее с сайта[Страница релизов Aspose](https://releases.aspose.com/cells/net/).
+2. Библиотека Aspose.Cells for .NET: вы можете легко загрузить ее с сайта [Страница релизов Aspose](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: Если вы понимаете основы языка программирования, то вы готовы к работе!
 ### Почему Aspose.Cells?
 Aspose.Cells for .NET — это мощная библиотека, специально разработанная для управления операциями с файлами Excel. Она позволяет вам легко читать, писать, манипулировать и конвертировать файлы Excel. Представьте себе возможность программно создавать отчеты, сводные таблицы или даже диаграммы без необходимости копаться в пользовательском интерфейсе Excel — звучит как магия, не так ли?
@@ -86,7 +88,7 @@ pivotField.DataDisplayFormat = Aspose.Cells.Pivot.PivotFieldDataDisplayFormat.Pe
 ## Шаг 8: Задайте базовое поле и базовый элемент
 Каждое поле pivot может быть привязано к другому полю в качестве базовой ссылки. Давайте настроим это:
 ```csharp
-//Установка базового поля
+// Установка базового поля
 pivotField.BaseFieldIndex = 1; // Используйте соответствующий индекс для базового поля
 // Установка базового элемента
 pivotField.BaseItemPosition = Aspose.Cells.Pivot.PivotItemPosition.Next; // Выберите следующий элемент
@@ -110,16 +112,18 @@ workbook.Save(dataDir + "output.xls");
 ### Можно ли использовать Aspose.Cells для создания файлов Excel с нуля?
 Конечно! Вы можете создавать и обрабатывать файлы Excel с помощью Aspose.Cells с нуля.
 ### Есть ли бесплатная пробная версия?
- Да! Вы можете проверить[Бесплатная пробная версия](https://releases.aspose.com/).
+Да! Вы можете проверить [Бесплатная пробная версия](https://releases.aspose.com/).
 ### Какие форматы файлов Excel поддерживает Aspose.Cells?
 Поддерживает различные форматы, включая XLS, XLSX, CSV и другие.
 ### Нужно ли мне платить за лицензию?
- У вас есть несколько вариантов! Вы можете приобрести лицензию на[Купить страницу](https://purchase.aspose.com/buy) . В качестве альтернативы,[Временная лицензия](https://purchase.aspose.com/temporary-license/) также доступен.
+У вас есть несколько вариантов! Вы можете приобрести лицензию на [Купить страницу](https://purchase.aspose.com/buy). В качестве альтернативы, [Временная лицензия](https://purchase.aspose.com/temporary-license/) также доступен.
 ### Где я могу найти поддержку, если у меня возникнут проблемы?
- Вы можете найти поддержку на их сайте[Форум поддержки](https://forum.aspose.com/c/cells/9).
+Вы можете найти поддержку на их сайте [Форум поддержки](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/applying-gradient-fill-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Applying Gradient Fill Effects in Excel
@@ -139,6 +141,7 @@ You can find comprehensive documentation [here](https://reference.aspose.com/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

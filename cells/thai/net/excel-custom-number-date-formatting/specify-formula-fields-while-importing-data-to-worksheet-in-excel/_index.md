@@ -1,14 +1,16 @@
 ---
-title: ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel
-linktitle: ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้
-weight: 11
-url: /th/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "เรียนรู้วิธีการนำเข้าข้อมูลลงในแผ่นงาน Excel ด้วยฟิลด์สูตรที่ระบุโดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนโดยละเอียดนี้"
+"linktitle": "ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel"
+"url": "/th/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ระบุฟิลด์สูตรเมื่อนำเข้าข้อมูลไปยังแผ่นงาน Excel
@@ -22,11 +24,11 @@ url: /th/net/excel-custom-number-date-formatting/specify-formula-fields-while-im
 ก่อนที่จะเจาะลึกโค้ด เรามาตรวจสอบก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ 
 
 1. Visual Studio หรือสภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) ของ .NET ใดๆ ตรวจสอบให้แน่ใจว่าคุณมี IDE ที่เหมาะสมในการเขียนและรันโค้ด C# ของคุณ
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องดาวน์โหลดและอ้างอิงไลบรารี Aspose.Cells ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก[การเปิดตัว Aspose](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องดาวน์โหลดและอ้างอิงไลบรารี Aspose.Cells ในโปรเจ็กต์ของคุณ คุณสามารถดาวน์โหลดได้จาก [การเปิดตัว Aspose](https://releases-aspose.com/cells/net/).
 3. ความรู้พื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับ C# และแนวคิดการเขียนโปรแกรมเชิงวัตถุจะช่วยให้คุณเข้าใจตัวอย่างต่างๆ ได้ดีขึ้น
 4. .NET Framework: บทช่วยสอนนี้ถือว่าคุณใช้ .NET Framework 4.5 ขึ้นไป
 
-เมื่อคุณได้จัดการข้อกำหนดเบื้องต้นเรียบร้อยแล้ว ให้เราดำเนินการนำเข้าข้อมูลบางส่วนลงในแผ่นงาน Excel พร้อมฟิลด์สูตรที่ระบุ
+เมื่อคุณได้จัดการข้อกำหนดเบื้องต้นเรียบร้อยแล้ว ให้เราดำเนินการนำเข้าข้อมูลบางส่วนไปยังแผ่นงาน Excel พร้อมฟิลด์สูตรที่ระบุ
 
 ## แพ็คเกจนำเข้า
 
@@ -38,7 +40,7 @@ using System;
 using System.Collections.Generic;
 ```
 
-สิ่งนี้ทำให้คุณสามารถใช้คลาสและวิธีการที่ไลบรารี Aspose.Cells จัดเตรียมไว้ได้โดยไม่ต้องใช้คำนำหน้าเนมสเปซทุกครั้ง
+สิ่งนี้ทำให้คุณสามารถใช้คลาสและวิธีการต่างๆ ที่ไลบรารี Aspose.Cells จัดเตรียมไว้ได้ โดยไม่จำเป็นต้องนำหน้าด้วยเนมสเปซทุกครั้ง
 
 มาแบ่งกระบวนการทั้งหมดออกเป็นขั้นตอนที่สามารถจัดการได้:
 
@@ -50,7 +52,7 @@ using System.Collections.Generic;
 static string outputDir = "Your Document Directory"; // ระบุไดเร็กทอรีเอกสารของคุณที่นี่
 ```
 
- แทนที่`"Your Document Directory"` โดยใช้เส้นทางไฟล์จริงของคุณ นี่คือที่ที่ไฟล์ Excel ที่สร้างขึ้นจะถูกบันทึก
+แทนที่ `"Your Document Directory"` โดยใช้เส้นทางไฟล์จริงของคุณ นี่คือที่ที่ไฟล์ Excel ที่สร้างขึ้นจะถูกบันทึก
 
 ## ขั้นตอนที่ 2: สร้างคลาสที่ผู้ใช้กำหนดสำหรับรายการข้อมูล
 
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- นี้`DataItems` คลาสจะถือจำนวนเต็มดิบและสูตรที่เราจะเขียนลงในแผ่นงาน Excel 
+นี้ `DataItems` คลาสจะเก็บจำนวนเต็มดิบและสูตรที่เราจะเขียนลงในแผ่นงาน Excel 
 
 ## ขั้นตอนที่ 3: สร้างรายการเพื่อเก็บข้อมูล
 
- เราจะใช้รายการเพื่อเก็บอินสแตนซ์ต่างๆ ของเราหลายรายการ`DataItems` ระดับ.
+เราจะใช้รายการเพื่อเก็บอินสแตนซ์ต่างๆ ของเราหลายรายการ `DataItems` ระดับ.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -92,7 +94,7 @@ dis.Add(di);
 // ทำซ้ำสำหรับรายการข้อมูลเพิ่มเติม
 ```
 
- อย่าลืมปรับแต่งแต่ละอย่าง`DataItems` อินสแตนซ์ที่มีค่าและสูตรที่ไม่ซ้ำกัน
+อย่าลืมปรับแต่งแต่ละอย่าง `DataItems` อินสแตนซ์ที่มีค่าและสูตรที่ไม่ซ้ำกัน
 
 ## ขั้นตอนที่ 5: สร้างสมุดงานและเข้าถึงแผ่นงาน
 
@@ -112,7 +114,7 @@ ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- ในตัวอย่างนี้สองฟิลด์สุดท้ายมีสูตรซึ่งระบุด้วย`true` ในขณะที่สองฟิลด์แรกถูกตั้งค่าเป็น`false`.
+ในตัวอย่างนี้สองฟิลด์สุดท้ายมีสูตรซึ่งระบุด้วย `true`ในขณะที่สองฟิลด์แรกถูกตั้งค่าเป็น `false`-
 
 ## ขั้นตอนที่ 7: นำเข้าวัตถุที่กำหนดเอง
 
@@ -126,7 +128,7 @@ ws.Cells.ImportCustomObjects(dis, 0, 0, opts);
 
 ## ขั้นตอนที่ 8: คำนวณสูตร
 
-เนื่องจากเราได้นำเข้าสูตรบางสูตร การคำนวณสูตรเหล่านี้จึงมีความจำเป็น
+เนื่องจากเราได้นำเข้าสูตรบางสูตร การคำนวณสูตรจึงมีความสำคัญมาก
 
 ```csharp
 wb.CalculateFormula();
@@ -174,20 +176,22 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 Aspose.Cells คือไลบรารี .NET ที่ได้รับการออกแบบมาสำหรับการสร้าง จัดการ และแปลงไฟล์ Excel ด้วยโปรแกรม
 
 ### ฉันจะติดตั้ง Aspose.Cells สำหรับ .NET ได้อย่างไร?
- คุณสามารถดาวน์โหลดได้จาก[การเปิดตัว Aspose](https://releases.aspose.com/cells/net/) และอ้างอิงในโครงการของคุณ
+คุณสามารถดาวน์โหลดได้จาก [การเปิดตัว Aspose](https://releases.aspose.com/cells/net/) และอ้างอิงในโครงการของคุณ
 
 ### ฉันสามารถใช้ Aspose.Cells ได้ฟรีหรือไม่?
- ใช่ Aspose เสนอการทดลองใช้ฟรีที่[ลิงค์นี้](https://releases.aspose.com/).
+ใช่ Aspose เสนอการทดลองใช้ฟรีที่ [ลิงค์นี้](https://releases-aspose.com/).
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมได้ที่ไหน
- ตัวอย่างเพิ่มเติมและเอกสารประกอบสามารถพบได้ที่[หน้าเอกสาร Aspose](https://reference.aspose.com/cells/net/).
+ตัวอย่างเพิ่มเติมและเอกสารประกอบสามารถพบได้ที่ [หน้าเอกสาร Aspose](https://reference-aspose.com/cells/net/).
 
 ### จะเกิดอะไรขึ้นหากฉันประสบปัญหาขณะใช้ Aspose?
- คุณสามารถขอความช่วยเหลือจากฟอรัมสนับสนุน Aspose ได้[ที่นี่](https://forum.aspose.com/c/cells/9).
+คุณสามารถขอความช่วยเหลือจากฟอรัมสนับสนุน Aspose ได้ [ที่นี่](https://forum-aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

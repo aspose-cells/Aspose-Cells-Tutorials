@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ try {
 
 #### トラブルシューティングのヒント
 - すべてのカスタム形式が有効な Excel 式であることを確認します。
-- try-catchブロックを使用する `setCustom` 潜在的なエラーを適切に処理するための呼び出し。
+- try-catchブロックを使って `setCustom` 潜在的なエラーを適切に処理するための呼び出し。
 
 ## 実用的なアプリケーション
 Aspose.Cells は、さまざまな実際のシナリオに柔軟性を提供します。
@@ -196,6 +198,9 @@ Aspose.Cells は、さまざまな実際のシナリオに柔軟性を提供し�
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

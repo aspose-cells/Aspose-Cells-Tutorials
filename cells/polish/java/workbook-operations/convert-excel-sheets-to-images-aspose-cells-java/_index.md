@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Zacznijmy od warunków wstępnych!
 
 ## Wymagania wstępne
 
-Przed kontynuowaniem upewnij się, że masz:
+Przed kontynuowaniem upewnij się, że masz następujące rzeczy:
 - **Zestaw narzędzi programistycznych Java (JDK)** zainstalowany na Twoim komputerze.
 - Środowisko IDE, takie jak IntelliJ IDEA lub Eclipse, do pisania i wykonywania kodu Java.
 - Podstawowa znajomość programowania w Javie.
@@ -179,7 +181,7 @@ sr.toImage(0, outDir + "/CTransparentImage_out.png");
 
 - **Optymalizacja wykorzystania pamięci**:W przypadku dużych skoroszytów zarządzaj pamięcią, przetwarzając arkusze pojedynczo.
 - **Ustawienia rozdzielczości**: Należy zachować równowagę między jakością obrazu a rozmiarem pliku; wyższe rozdzielczości zwiększają przejrzystość, ale również wymagania dotyczące przestrzeni dyskowej.
-- **Najlepsze praktyki w Javie**:Wykorzystaj funkcję zbierania śmieci Javy, unieważniając obiekty, które nie są już potrzebne.
+- **Najlepsze praktyki Java**:Wykorzystaj funkcję zbierania śmieci Javy, unieważniając obiekty, które nie są już potrzebne.
 
 ## Wniosek
 
@@ -220,6 +222,9 @@ Zacznij już dziś korzystać z Aspose.Cells for Java, aby usprawnić swoje proc
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

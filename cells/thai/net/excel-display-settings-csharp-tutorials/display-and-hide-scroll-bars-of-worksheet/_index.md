@@ -1,14 +1,16 @@
 ---
-title: การแสดงและซ่อนแถบเลื่อนของแผ่นงาน
-linktitle: การแสดงและซ่อนแถบเลื่อนของแผ่นงาน
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีการแสดงและซ่อนแถบเลื่อนในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนโดยละเอียดและปฏิบัติตามง่ายนี้
-weight: 50
-url: /th/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/
+"description": "เรียนรู้วิธีการแสดงและซ่อนแถบเลื่อนในเวิร์กชีต Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนโดยละเอียดและปฏิบัติตามง่ายนี้"
+"linktitle": "การแสดงและซ่อนแถบเลื่อนของแผ่นงาน"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "การแสดงและซ่อนแถบเลื่อนของแผ่นงาน"
+"url": "/th/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bars-of-worksheet/"
+"weight": 50
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การแสดงและซ่อนแถบเลื่อนของแผ่นงาน
@@ -22,9 +24,9 @@ url: /th/net/excel-display-settings-csharp-tutorials/display-and-hide-scroll-bar
 ก่อนที่จะเริ่มต้น เรามาตรวจสอบกันก่อนว่าคุณมีทุกสิ่งที่คุณต้องการ:
 
 1. ความรู้พื้นฐานเกี่ยวกับ C#: ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม C# จะเป็นประโยชน์เนื่องจากเราจะเขียนชิ้นส่วนโค้ดในภาษา C#
-2.  Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Cells คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/).
-3. การตั้งค่า IDE: สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio หรือตัวแก้ไขโค้ดที่ติดตั้งเพื่อเขียนและดำเนินการโค้ด C#
-4.  ไฟล์ Excel: ไฟล์ Excel ตัวอย่าง (เช่น`book1.xls`) ที่คุณสามารถแก้ไขและทดสอบได้
+2. Aspose.Cells สำหรับ .NET: คุณจะต้องมีไลบรารี Aspose.Cells คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/cells/net/).
+3. การตั้งค่า IDE: สภาพแวดล้อมการพัฒนาแบบบูรณาการ (IDE) เช่น Visual Studio หรือโปรแกรมแก้ไขโค้ดที่ติดตั้งเพื่อเขียนและดำเนินการโค้ด C#
+4. ไฟล์ Excel: ไฟล์ Excel ตัวอย่าง (เช่น `book1.xls`) ที่คุณสามารถแก้ไขและทดสอบได้
 
 เมื่อคุณได้ปฏิบัติตามข้อกำหนดเบื้องต้นเหล่านี้แล้ว เราจึงสามารถเจาะลึกโค้ดได้
 
@@ -51,7 +53,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
   
- แทนที่`YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ Excel ของคุณ ซึ่งจะทำให้โปรแกรมของคุณค้นหาไฟล์ที่จำเป็นเพื่อจัดการได้
+แทนที่ `YOUR DOCUMENT DIRECTORY` ด้วยเส้นทางจริงที่จัดเก็บไฟล์ Excel ของคุณ ซึ่งจะทำให้โปรแกรมของคุณค้นหาไฟล์ที่จำเป็นเพื่อจัดการได้
 
 ## ขั้นตอนที่ 2: สร้างสตรีมไฟล์
 
@@ -62,18 +64,18 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
   
- การ`FileStream`คลาสนี้ช่วยให้คุณสามารถอ่านและเขียนไฟล์ได้ ในกรณีนี้ เราจะเปิดไฟล์ Excel ในโหมดอ่าน
+การ `FileStream` คลาสนี้ช่วยให้คุณสามารถอ่านและเขียนไฟล์ได้ ในกรณีนี้ เราจะเปิดไฟล์ Excel ในโหมดอ่าน
 
 ## ขั้นตอนที่ 3: สร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
- ต่อไปคุณจะต้องสร้าง`Workbook` วัตถุซึ่งแสดงไฟล์ Excel ของคุณในโค้ด
+ต่อไปคุณจะต้องสร้าง `Workbook` วัตถุซึ่งแสดงไฟล์ Excel ของคุณในโค้ด
 
 
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
   
- นี้`Workbook` ตอนนี้วัตถุจะเก็บข้อมูลและการตั้งค่าทั้งหมดของไฟล์ Excel ของคุณ ช่วยให้สามารถจัดการได้ในภายหลัง
+นี้ `Workbook` ตอนนี้วัตถุจะเก็บข้อมูลและการตั้งค่าทั้งหมดของไฟล์ Excel ของคุณ ช่วยให้สามารถจัดการได้ในภายหลัง
 
 ## ขั้นตอนที่ 4: ซ่อนแถบเลื่อนแนวตั้ง
 
@@ -84,7 +86,7 @@ Workbook workbook = new Workbook(fstream);
 workbook.Settings.IsVScrollBarVisible = false;
 ```
   
- โดยการตั้งค่า`IsVScrollBarVisible` ถึง`false`แถบเลื่อนแนวตั้งจะถูกซ่อนจากมุมมอง ซึ่งอาจเป็นประโยชน์อย่างยิ่งเมื่อคุณต้องการจำกัดการเลื่อนในลักษณะที่เป็นมิตรต่อผู้ใช้
+โดยการตั้งค่า `IsVScrollBarVisible` ถึง `false`แถบเลื่อนแนวตั้งจะถูกซ่อนจากมุมมอง ซึ่งอาจเป็นประโยชน์อย่างยิ่งเมื่อคุณต้องการจำกัดการเลื่อนในลักษณะที่เป็นมิตรต่อผู้ใช้
 
 ## ขั้นตอนที่ 5: ซ่อนแถบเลื่อนแนวนอน
 
@@ -106,7 +108,7 @@ workbook.Settings.IsHScrollBarVisible = false;
 workbook.Save(dataDir + "output.xls");
 ```
   
-รหัสนี้จะบันทึกสมุดงานที่แก้ไขภายใต้ชื่อใหม่ (`output.xls`ช่วยป้องกันการเขียนทับไฟล์ต้นฉบับของคุณ ทำให้คุณสามารถรักษาข้อมูลสำรองไว้ได้
+รหัสนี้จะบันทึกสมุดงานที่แก้ไขภายใต้ชื่อใหม่ (`output.xls`) ช่วยป้องกันการเขียนทับไฟล์ต้นฉบับของคุณ ทำให้คุณสามารถรักษาข้อมูลสำรองไว้ได้
 
 ## ขั้นตอนที่ 7: ปิดสตรีมไฟล์
 
@@ -126,22 +128,24 @@ fstream.Close();
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถแสดงแถบเลื่อนอีกครั้งหลังจากซ่อนมันแล้วได้ไหม  
- ใช่แล้ว! คุณเพียงแค่ต้องตั้งค่า`IsVScrollBarVisible` และ`IsHScrollBarVisible` กลับไปที่`true`.
+ใช่แล้ว! คุณเพียงแค่ต้องตั้งค่า `IsVScrollBarVisible` และ `IsHScrollBarVisible` กลับไปที่ `true`-
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?  
- Aspose.Cells ไม่ฟรีทั้งหมด แต่คุณสามารถลองใช้ฟรีได้เป็นเวลาจำกัดหรือพิจารณาซื้อ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells ไม่ฟรีทั้งหมด แต่คุณสามารถลองใช้ฟรีได้เป็นเวลาจำกัดหรือพิจารณาซื้อ [ใบอนุญาตชั่วคราว](https://purchase-aspose.com/temporary-license/).
 
 ### ฉันสามารถจัดการไฟล์ Excel ประเภทใดได้บ้างด้วย Aspose.Cells?  
 คุณสามารถทำงานกับรูปแบบ Excel ต่างๆ ได้ รวมถึง .xls, .xlsx, .xlsm, .xlsb เป็นต้น
 
 ### ฉันสามารถหาตัวอย่างเพิ่มเติมได้ที่ไหน  
- ตรวจสอบ[เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับตัวอย่างและบทช่วยสอนเพิ่มเติม
+ตรวจสอบ [เอกสารประกอบ Aspose.Cells](https://reference.aspose.com/cells/net/) สำหรับตัวอย่างและบทช่วยสอนเพิ่มเติม
 
 ### จะเกิดอะไรขึ้นหากฉันประสบปัญหาขณะใช้ Aspose.Cells?  
-คุณสามารถขอความช่วยเหลือหรือรายงานปัญหาได้ในฟอรัมสนับสนุน Aspose[ที่นี่](https://forum.aspose.com/c/cells/9).
+คุณสามารถขอความช่วยเหลือหรือรายงานปัญหาได้ในฟอรัมสนับสนุน Aspose [ที่นี่](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

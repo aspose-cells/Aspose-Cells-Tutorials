@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -129,7 +131,7 @@ Nyní jste se naučili, jak skrýt pracovní listy v souborech Excelu pomocí kn
    - Pro přidání závislostí použijte Maven nebo Gradle, nebo si stáhněte soubor JAR z [Soubory ke stažení Aspose](https://releases.aspose.com/cells/java/).
 2. **Mohu skrýt více pracovních listů najednou?**
    - Ano, projděte smyčkou `WorksheetCollection` a aplikovat `setVisible(false)` každému.
-3. **jakých formátech mohu uložit svůj sešit?**
+3. **V jakých formátech mohu uložit svůj sešit?**
    - Aspose.Cells podporuje různé formáty jako XLSX, PDF, CSV atd.
 4. **Potřebuji licenci pro všechny funkce?**
    - Bezplatná zkušební verze nebo dočasná licence umožňuje přístup k většině funkcí; některé pokročilé funkce však vyžadují placenou licenci.
@@ -145,6 +147,9 @@ Nyní jste se naučili, jak skrýt pracovní listy v souborech Excelu pomocí kn
 - [Fórum podpory](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ public class Main {
 **Visão geral**
 personalização dos nomes de consolidação permite definir rótulos específicos que refletem melhor o contexto dos seus dados. Essa personalização é alcançada estendendo o `GlobalizationSettings` aula.
 
-#### Etapa 1: estender GlobalizationSettings
+#### Etapa 1: estender as configurações de globalização
 Crie uma nova classe, `CustomSettings`, que substituirá os nomes de funções padrão.
 
 ```java
@@ -188,6 +190,9 @@ Experimente e veja como nomes de consolidação personalizados podem melhorar se
 Explore estes recursos para obter orientação e suporte adicionais sobre o uso do Aspose.Cells Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tömeges adatimportálás Excelből
@@ -62,7 +64,7 @@ for (int row = 0; row < maxRows; row++) {
         Cell cell = worksheet.getCells().get(row, col);
         String cellValue = cell.getStringValue();
         
-        // A cella értékének feldolgozása szükség szerint
+        // A cellaérték feldolgozása szükség szerint
         // (pl. adatbázisba beszúrás, számítások elvégzése stb.)
     }
 }
@@ -99,9 +101,11 @@ Abszolút! Az Aspose.Cells for Java támogatja az adatok importálását és exp
 Igen, kérjük, tekintse át az Aspose weboldalán található licencelési információkat a licenceléssel és az árakkal kapcsolatos részletekért.
 
 Nyugodtan fedezd fel tovább, és igazítsd a kódpéldákat a saját igényeidhez. Jó kódolást!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

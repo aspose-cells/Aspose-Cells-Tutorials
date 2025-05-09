@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel VLOUKUP-handledning
@@ -44,7 +46,7 @@ För att utföra en LETARAD-operation behöver vi en Excel-fil att arbeta med. N
 Workbook workbook = new Workbook("example.xlsx");
 ```
 
-## Utföra LETARAD
+## Utför LETARAD
 
 Nu ska vi utföra en LETARAD-operation för att hitta specifika data i vårt Excel-ark.
 
@@ -112,6 +114,7 @@ För omfattande dokumentation om Aspose.Cells för Java, besök deras dokumentat
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

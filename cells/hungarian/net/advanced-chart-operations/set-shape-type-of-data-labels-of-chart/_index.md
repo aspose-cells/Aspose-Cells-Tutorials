@@ -1,40 +1,42 @@
 ---
-title: Állítsa be a diagram adatcímkéinek alaktípusát
-linktitle: Állítsa be a diagram adatcímkéinek alaktípusát
-second_title: Aspose.Cells .NET Excel Processing API
-description: Az Aspose.Cells for .NET segítségével testreszabott adatcímke-alakzatokkal javíthatja Excel-diagramjait. Kövesse ezt a lépésről-lépésre szóló útmutatót az adatok megjelenítésének javításához.
-weight: 14
-url: /hu/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/
+"description": "Javítsa Excel-diagramjait testreszabott adatcímke-alakzatokkal az Aspose.Cells for .NET használatával. Kövesse ezt a lépésről lépésre szóló útmutatót az adatprezentáció fejlesztéséhez."
+"linktitle": "Diagram adatcímkéinek alakzattípusának beállítása"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Diagram adatcímkéinek alakzattípusának beállítása"
+"url": "/hu/net/advanced-chart-operations/set-shape-type-of-data-labels-of-chart/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Állítsa be a diagram adatcímkéinek alaktípusát
+# Diagram adatcímkéinek alakzattípusának beállítása
 
 ## Bevezetés
 
-Az adatvizualizáció világában a diagramok az összetett információk hozzáférhető módon történő bemutatásának egyik fő módszere. Azonban nem minden adatcímke egyforma! Néha meg kell jeleníteni a címkéket, és a különböző formák használata jelentős változást hozhat. Ha egyéni alakzatokkal szeretné bővíteni az Excel-diagramok adatcímkéit, akkor a megfelelő helyre került. Ez az útmutató végigvezeti Önt, hogyan állíthatja be az adatcímkék alaktípusát egy diagramon az Aspose.Cells for .NET segítségével. Merüljünk el benne!
+Az adatvizualizáció világában a diagramok az összetett információk könnyen hozzáférhető módon történő bemutatásának bevált módszerei. Azonban nem minden adatcímke egyforma! Néha szükség van arra, hogy a címkék kiemelkedjenek, és a különböző alakzatok használata jelentős különbséget jelenthet. Ha egyéni alakzatokkal szeretnéd fokozni az Excel-diagramok adatcímkéit, jó helyen jársz. Ez az útmutató végigvezet azon, hogyan állíthatod be az adatcímkék alakzattípusát egy diagramban az Aspose.Cells for .NET használatával. Vágjunk bele!
 
 ## Előfeltételek
 
-Mielőtt belevágnánk a kódolásba, győződjünk meg arról, hogy minden megfelelően van beállítva. Íme, amire szüksége lesz:
+Mielőtt belevágnánk a kódolásba, győződjünk meg róla, hogy mindent helyesen beállítottál. Íme, amire szükséged lesz:
 
-1.  Aspose.Cells for .NET: Ha még nem tette meg, töltse le a[Aspose honlapja](https://releases.aspose.com/cells/net/). Ez a könyvtár mindenféle manipulációt tesz lehetővé az Excel dokumentumokkal.
-2. Visual Studio: A .NET-alkalmazások írásához és futtatásához ezt telepítenie kell a rendszerére. Győződjön meg arról, hogy az a verzió támogatja a .NET-keretrendszert vagy a .NET Core-t a projekt igényei szerint.
-3. C# alapvető ismerete: Az alapvető programozási fogalmak és a C# szintaxis ismerete minden bizonnyal segít a kódrészletek jobb megértésében.
-4. Excel-fájl: A munkavégzéshez szükség lesz egy minta Excel-munkafüzetre is. Létrehozhat sajátot, vagy használhat bármilyen meglévőt.
+1. Aspose.Cells .NET-hez: Ha még nem tette meg, töltse le innen: [Aspose weboldal](https://releases.aspose.com/cells/net/)Ez a könyvtár mindenféle manipulációt lehetővé tesz az Excel dokumentumokkal.
+2. Visual Studio: Ennek telepítve kell lennie a rendszereden .NET alkalmazások írásához és futtatásához. Győződj meg róla, hogy a .NET Framework vagy a .NET Core verzióját használod a projekted igényeinek megfelelően.
+3. C# alapismeretek: Az alapvető programozási fogalmak és a C# szintaxis ismerete mindenképpen segíteni fog a kódrészletek jobb megértésében.
+4. Egy Excel-fájl: Szükséged lesz egy minta Excel-munkafüzetre is a munkához. Létrehozhatsz sajátot, vagy használhatsz egy meglévőt.
 
-Most, hogy megvannak az előfeltételek, ugorjunk bele!
+Most, hogy megvannak az előfeltételek, vágjunk bele!
 
 ## Csomagok importálása
 
-A kódolás megkezdése előtt importálnia kell a megfelelő Aspose.Cells névtereket. Ez hozzáférést biztosít a könyvtár által kínált gazdag funkciókhoz. Íme, hogyan kell csinálni:
+Mielőtt elkezdenéd a kódolást, importálnod kell a vonatkozó Aspose.Cells névtereket. Ez hozzáférést biztosít a könyvtár által kínált gazdag funkcionalitáshoz. Így teheted meg:
 
-### Az Aspose.Cells importálása
+### Aspose.Cells importálása
 
-Nyissa meg a Visual Studio projektet, és adja hozzá a következőket a C#-fájl tetejéhez.
+Nyisd meg a Visual Studio projektedet, és add hozzá a következő using direktívát a C# fájlod elejéhez:
 
 ```csharp
 using System;
@@ -46,123 +48,125 @@ using Aspose.Cells.Charts;
 using Aspose.Cells.Drawing;
 ```
 
-Ezek a névterek lehetővé teszik a munkafüzetek, munkalapok és diagramok egyszerű létrehozását és kezelését.
+Ezek a névterek lehetővé teszik munkafüzetek, munkalapok és diagramok egyszerű létrehozását és kezelését.
 
-Most, hogy készen vagyunk, merüljünk bele a kódolási részbe! Az egyértelműség kedvéért lépésről lépésre bontjuk le.
+Most, hogy mindennel készen vagyunk, vágjunk bele a kódolásba! Lépésről lépésre lebontjuk az áttekinthetőség kedvéért.
 
-## 1. lépés: Határozza meg a könyvtárait
+## 1. lépés: A könyvtárak meghatározása
 
-Először is határozzuk meg, hol találhatók a fájlok – mind a forrásfájlban, mind a célmappában, ahová menteni szeretné a módosított fájlt.
+Először is határozzuk meg, hogy hol találhatók a fájlok – mind a forrásfájl, mind a célmappát, ahová a módosított fájlt menteni szeretné.
 
 ```csharp
-// Forrás könyvtár
+// Forráskönyvtár
 string sourceDir = "Your Document Directory";
 
 // Kimeneti könyvtár
 string outputDir = "Your Output Directory";
 ```
 
- Cserélje ki`"Your Document Directory"` és`"Your Output Directory"` a gépén lévő tényleges útvonalakkal.
+Csere `"Your Document Directory"` és `"Your Output Directory"` a gépeden lévő tényleges elérési utakkal.
 
-## 2. lépés: Töltse be az Excel forrásfájlt
+## 2. lépés: Töltse be a forrás Excel fájlt
 
-Ezután be kell töltenie azt az Excel-fájlt, amellyel dolgozni szeretne. Itt kezdődik a varázslat!
+Ezután be kell töltened a használni kívánt Excel fájlt. Itt kezdődik a varázslat!
 
 ```csharp
 // Forrás Excel fájl betöltése
 Workbook wb = new Workbook(sourceDir + "sampleSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
- Ez a sor újat hoz létre`Workbook` objektumot, és rámutat a meglévő fájljára. Győződjön meg arról, hogy a fájl elérési útja helyes!
+Ez a sor egy újat hoz létre `Workbook` objektumot, és a meglévő fájlodra mutat. Győződj meg róla, hogy a fájl elérési útja helyes!
 
-## 3. lépés: Nyissa meg az első munkalapot
+## 3. lépés: Az első munkalap elérése
 
-Most, hogy megvan a munkafüzetünk, hozzá kell férnünk a testreszabni kívánt diagramot tartalmazó munkalaphoz.
+Most, hogy elkészült a munkafüzetünk, hozzá kell férnünk ahhoz a munkalaphoz, amely a testreszabni kívánt diagramot tartalmazza.
 
 ```csharp
-// Az első munkalap elérése
+// Első munkalap elérése
 Worksheet ws = wb.Worksheets[0];
 ```
 
- Itt elérjük az első munkalapot (index`0`). Állítsa be az indexet, ha a diagram egy másik lapon található.
+Itt az első munkalapot érjük el (index `0`). Módosítsa az indexet, ha a diagram egy másik munkalapon található.
 
-## 4. lépés: Nyissa meg az első diagramot
+## 4. lépés: Az első diagram elérése
 
-Miután megkapta a munkalapot, ideje elérni a diagramot. Minden munkalap több diagramot is tartalmazhat, de az egyszerűség kedvéért itt maradunk az elsőnél.
+Miután elkészült a munkalapod, itt az ideje, hogy hozzáférj a diagramhoz. Minden munkalap több diagramot is tartalmazhat, de az egyszerűség kedvéért itt az elsőnél maradunk.
 
 ```csharp
-// Hozzáférés az első diagramhoz
+// Első diagram elérése
 Chart ch = ws.Charts[0];
 ```
 
-Ismételten, ha a kívánt diagram nem az első, egyszerűen módosítsa az indexet ennek megfelelően.
+Ismét, ha a kívánt diagram nem az első, akkor csak ennek megfelelően módosítsa az indexet.
 
-## 5. lépés: Nyissa meg a diagramsorozatot
+## 5. lépés: Hozzáférés a diagramsorozathoz
 
-Mivel a diagram már elérhető, mélyebbre kell merülnie az adatcímkék módosításához. A sorozat a diagram adatpontjait képviseli.
+Most, hogy a diagram elérhető, mélyebbre kell ásnia az adatfeliratok módosításához. A sorozat a diagram adatpontjait jelöli.
 
 ```csharp
 // Hozzáférés az első sorozathoz
 Series srs = ch.NSeries[0];
 ```
 
-Itt az első sorozatot célozzuk meg, amely általában azokat a címkéket tartalmazza, amelyeket esetleg módosítani szeretne.
+Itt az első sorozatot célozzuk meg, amely jellemzően azokat a címkéket tartalmazza, amelyeket esetleg módosítani szeretnél.
 
-## 6. lépés: Állítsa be az adatcímkék alaktípusát
+## 6. lépés: Az adatfeliratok alakzattípusának beállítása
 
-Most jöjjön a döntő rész! Állítsuk be az adatcímkék alaktípusát. Az Aspose.Cells különféle alakzatokat támogat, és ebben a példában egy ovális beszédbuborékot választunk a szórakoztató érintés érdekében.
+Most pedig jöjjön a lényeg! Állítsuk be az adatcímkék alakzattípusát. Az Aspose.Cells különféle alakzatokat támogat, és ebben a példában egy ovális beszédbuborékot választunk a móka kedvéért.
 
 ```csharp
-// Állítsa be az adatcímkék alaktípusát, pl. Speech Bubble Oval
+// Az adatcímkék alakzattípusának beállítása, például Beszédbuborék, Ovális
 srs.DataLabels.ShapeType = DataLabelShapeType.WedgeEllipseCallout;
 ```
 
- Nyugodtan kísérletezzen különböző alaktípusokkal a változtatással`DataLabelShapeType.WedgeEllipseCallout` más elérhető lehetőségekre!
+Kísérletezz szabadon különböző alakzatokkal a változtatásokkal `DataLabelShapeType.WedgeEllipseCallout` a többi elérhető opcióra!
 
 ## 7. lépés: Mentse el a kimeneti Excel fájlt
 
-Elvégezte a nehéz emelést, és most itt az ideje, hogy mentse a munkáját. Tegyük vissza a módosított adatcímke alakzatot egy Excel-fájlba.
+Elvégezted a nehéz munkát, most itt az ideje menteni a munkádat. Helyezzük vissza a módosított adatfelirat alakzatot egy Excel-fájlba.
 
 ```csharp
 // Mentse el a kimeneti Excel fájlt
 wb.Save(outputDir + "outputSetShapeTypeOfDataLabelsOfChart.xlsx");
 ```
 
-Ezzel elmenti a módosított munkafüzetet a megadott kimeneti könyvtárba.
+Ez a módosított munkafüzetet a megadott kimeneti könyvtárba menti.
 
-## 8. lépés: Végezze el és hagyja jóvá
+## 8. lépés: Végrehajtás és megerősítés
 
-Végül itt az ideje a program futtatásának. A végrehajtás után látnia kell az üzenetet, amely megerősíti, hogy minden simán ment!
+Végre itt az ideje futtatni a programot. A végrehajtás után egy üzenetnek kell megjelennie, amely megerősíti, hogy minden simán ment!
 
 ```csharp
 Console.WriteLine("SetShapeTypeOfDataLabelsOfChart executed successfully.");
 ```
 
-Ha látja ezt az üzenetet, lépjen a kimeneti könyvtárba az új Excel-fájl ellenőrzéséhez. Nyissa ki, és engedje szabadjára kreativitását az új formájú adatcímkékkel!
+Miután megláttad az üzenetet, menj a kimeneti könyvtárba, és ellenőrizd az új Excel fájlt. Nyisd meg, és engedd szabadjára a kreativitásodat az újonnan formázott adatcímkékkel!
 
 ## Következtetés
 
-És itt van – egy egyszerű útmutató az Excel diagramok adatcímkéinek javításához az Aspose.Cells for .NET használatával! Az alaktípusok testreszabása nemcsak látványosabbá teszi a diagramokat, hanem az adattörténet hatékonyabb közvetítését is segíti. Ne feledje, az adatvizualizáció a tisztaságról és az elkötelezettségről szól. Tehát ne habozzon eljátszani a különböző formákkal és stílusokkal – elvégre adatai megérdemlik a legjobb megjelenítést.
+És íme, itt van egy egyszerű útmutató az Excel-diagramok adatcímkéinek javításához az Aspose.Cells for .NET használatával! Az alakzattípusok testreszabása nemcsak vizuálisan vonzóbbá teszi a diagramokat, hanem hatékonyabban is közvetíti az adatok történetét. Ne feledje, az adatvizualizáció a tisztaságról és az interakcióról szól. Tehát ne habozzon kísérletezni a különböző alakzatokkal és stílusokkal – végül is az adatai megérdemlik a legjobb megjelenítést.
 
 ## GYIK
 
 ### Mi az Aspose.Cells?  
-Az Aspose.Cells egy hatékony .NET-könyvtár, amely lehetővé teszi a fejlesztők számára az Excel-fájlok programozott kezelését.
+Az Aspose.Cells egy hatékony .NET könyvtár, amely lehetővé teszi a fejlesztők számára az Excel fájlok programozott kezelését.
 
-### Módosíthatom az Excel diagramok különböző aspektusait az Aspose segítségével?  
-Teljesen! Az Aspose.Cells kiterjedt funkciókat kínál a diagramok módosításához, beleértve az adatsorokat, címkéket, stílusokat és egyebeket.
+### Módosíthatom egy Excel-diagram különböző aspektusait az Aspose segítségével?  
+Abszolút! Az Aspose.Cells kiterjedt funkciókat kínál a diagramok módosításához, beleértve az adatsorokat, címkéket, stílusokat és egyebeket.
 
-### Milyen programozási nyelveket használhatok az Aspose.Cells-ben?  
-Míg ez a cikk a .NET-re összpontosít, az Aspose.Cells a Java, a PHP, a Python és más funkciókat is támogatja a REST API-kon keresztül.
+### Milyen programozási nyelveket használhatok az Aspose.Cells-szel?  
+Bár ez a cikk a .NET-re összpontosít, az Aspose.Cells támogatja a Java, PHP, Python és más nyelveket is REST API-kon keresztül.
 
-### Fizetnem kell az Aspose.Cellsért?  
-Az Aspose.Cells kereskedelmi termék, de ingyenes próbaverziót kínál, amelyet megtalálhat[itt](https://releases.aspose.com/).
+### Fizetnem kell az Aspose.Cells-ért?  
+Az Aspose.Cells egy kereskedelmi termék, de ingyenes próbaverziót kínálnak, amelyet itt találhat: [itt](https://releases.aspose.com/).
 
-### Hol kaphatok segítséget, ha problémáim vannak az Aspose.Cells-szel?  
- Ha bármilyen problémával találkozik, ők[támogatási fórum](https://forum.aspose.com/c/cells/9) kiváló forrás a szakértők segítségére.
+### Hol kaphatok segítséget, ha problémákba ütközöm az Aspose.Cells használatával?  
+Ha bármilyen problémába ütközik, azok [támogató fórum](https://forum.aspose.com/c/cells/9) nagyszerű forrás, ahol szakértői segítséget kaphatunk.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

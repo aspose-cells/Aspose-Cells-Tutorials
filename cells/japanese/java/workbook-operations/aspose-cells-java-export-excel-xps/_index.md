@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@
 
 **メイヴン:**
 
-Aspose.CellsをMavenプロジェクトに追加するには、次の依存関係を `pom.xml`：
+Aspose.CellsをMavenプロジェクトに追加するには、次の依存関係をプロジェクトに含めます。 `pom.xml`：
 
 ```xml
 <dependency>
@@ -132,7 +134,7 @@ WorkbookRender render = new WorkbookRender(workbook, options);
 render.toImage("YOUR_OUTPUT_DIRECTORY/ExportWholeWorkbookToXPS_out.xps");
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 - **データアーカイブ:** 編集不可能な形式でレポートと財務データをエクスポートし、長期保存します。
 - **他のアプリケーションとの相互運用性:** Excel ファイルを XPS に変換することで、さまざまなプラットフォーム間の互換性を確保します。
@@ -186,6 +188,9 @@ Aspose.Cells を他のシステムと統合すると、シームレスなドキ�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

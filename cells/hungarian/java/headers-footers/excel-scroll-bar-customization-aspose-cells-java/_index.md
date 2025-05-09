@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Kezdjük azzal, hogy megbizonyosodunk arról, hogy rendelkezel a szükséges el�
 
 ## Előfeltételek
 
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+Kezdés előtt győződjön meg róla, hogy rendelkezik a következőkkel:
 
 ### Kötelező könyvtárak
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Licencbeszerzés lépései
 Az Aspose.Cells ingyenes próbaverziót kínál a képességeinek megismeréséhez. Hosszabb távú használathoz ideiglenes licencet vásárolhat, vagy megvásárolhatja a teljes verziót.
 
-1. **Ingyenes próbaverzió**Töltse le a legújabb verziót innen: [Aspose.Cells Java kiadások](https://releases.aspose.com/cells/java/).
+1. **Ingyenes próbaverzió**: Töltse le a legújabb verziót innen: [Aspose.Cells Java kiadások](https://releases.aspose.com/cells/java/).
 2. **Ideiglenes engedély**: Ideiglenes engedély igénylése a következőn keresztül: [Ideiglenes engedély vásárlása](https://purchase.aspose.com/temporary-license/).
 3. **Vásárlás**Teljes hozzáférésért látogasson el ide: [Vásárolja meg az Aspose.Cells-t](https://purchase.aspose.com/buy).
 
@@ -169,6 +171,9 @@ Az Aspose.Cells for Java használatával könnyedén testreszabhatja a görgető
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

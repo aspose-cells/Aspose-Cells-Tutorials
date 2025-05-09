@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Jste připraveni to vyzkoušet? Implementujte toto řešení ještě dnes!
 Tato komplexní příručka vám pomůže efektivně implementovat funkci exportu komentářů a zajistit, aby vaše aplikace poskytovaly vylepšené uživatelské prostředí.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

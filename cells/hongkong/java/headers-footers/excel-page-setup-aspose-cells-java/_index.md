@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,7 +187,7 @@ public class SetupWorkbook {
 ## 性能考慮
 
 為確保使用 Aspose.Cells 時性能流暢：
-- **記憶體管理**：務必丟棄 `Workbook` 對象釋放資源。
+- **記憶體管理**：務必丟棄 `Workbook` 對像以釋放資源。
   
   ```java
   workbook.dispose();
@@ -234,6 +236,9 @@ public class SetupWorkbook {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

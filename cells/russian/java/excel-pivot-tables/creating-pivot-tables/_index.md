@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создание сводных таблиц
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    Вы можете автоматизировать создание сводных таблиц в Java с помощью API Aspose.Cells для Java, как показано в этом руководстве.
 
 Теперь у вас есть знания и код для создания мощных сводных таблиц на Java с использованием Aspose.Cells. Экспериментируйте с различными источниками данных и конфигурациями, чтобы адаптировать сводные таблицы к вашим конкретным потребностям. Удачного анализа данных!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

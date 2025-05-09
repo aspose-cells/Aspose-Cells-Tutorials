@@ -1,45 +1,50 @@
 ---
-title: 極東とラテン文字で Excel ワークブックを作成する
-weight: 7700
-limit: 
-description: Aspose.Cellsを使用して .NET で Excel のワークブックを作成し,極東とラテン語のフォント名で指定されたテキストボックスを追加します.
-keywords: [Aspose.Cells, .NET, Excel, workbook, textbox, Far East font, Latin font, coding example]
-url: /ja/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/
+"description": "Aspose.Cells を使用して .NET で Excel ブックを作成し、指定された極東およびラテン フォント名を含むテキスト ボックスを追加する方法を学習します。"
+"title": "極東およびラテンフォントを使用した Excel ワークブックの作成"
+"url": "/ja/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 極東とラテン文字で Excel ワークブックを作成する
+# 極東およびラテンフォントを使用した Excel ワークブックの作成
 
-この例では, Excel のワークブックを作成し,ワークシートにテキストボックスを追加し,テキストのテキストに極東とラテン文字名を設定する方法を示しています.コードはワークスペースを初期化し,ワークシート要素を操作し,さまざまな言語要件に合わせて特定のフォントフォーマットでワークブックを保存します.
+この例では、Aspose.Cells for .NET を使用して Excel ブックを作成し、ワークシートにテキストボックスを追加し、そのテキストボックス内のテキストにアジア言語とラテン語の両方のフォント名を設定する方法を示します。このコードでは、ワークスペースの初期化、ワークシート要素の操作、そして多様な言語要件に合わせてカスタマイズされたフォント書式でブックを保存する様子を示しています。
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示
-1. .NET に Aspose.Cells をインストールする 
-   * Visual Studio プロジェクトでNuGet パッケージマネージャーを使用します:
+## インストール手順
+1. Aspose.Cells for .NET をインストールします。 
+   - Visual Studio プロジェクトで NuGet パッケージ マネージャーを使用します。
      ```
      Install-Package Aspose.Cells
      ```
-   * ダウンロードする[目標サイト](https://www.aspose.com/downloads/cells/net)やってくれ
+   - またはDLLを以下からダウンロードしてください。 [Aspose ウェブサイト](https://www。aspose.com/downloads/cells/net).
 
-2. 参照を追加する: プロジェクトがAspose.Cellsライブラリに参照することを確認してください.
+2. 参照の追加: プロジェクトが Aspose.Cells ライブラリを参照していることを確認します。
 
-3. 輸出ディレクトリを設定する`出力Dir`Excel ファイルが保存される所望の出力経路を表示するコードの変数.
+3. 出力ディレクトリの設定: `outputDir` コード内の変数に、Excel ファイルを保存する目的の出力パスを指定します。
 
-4. Run the Example: Copy the provided C# code into your project, compile, and run it. You should see the output confirmation, and the Excel file with the configured textbox will be created in the specified directory.
+4. 例を実行する: 提供されているC#コードをプロジェクトにコピーし、コンパイルして実行します。出力確認が表示され、設定されたテキストボックスを含むExcelファイルが指定のディレクトリに作成されます。
 
-## また見てください  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ A4: Minden egyes laphoz hozzáférhet a következőn keresztül: `workbook.getWo
 A5: Mentse el munkafüzeteit régebbi Excel verziókkal kompatibilis formátumokban a következő használatával: `workbook.saveFormat()` opciók.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java-referencia](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-referenciához](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Kezdje egy ingyenes licenccel](https://releases.aspose.com/cells/java/)
@@ -181,6 +183,9 @@ A5: Mentse el munkafüzeteit régebbi Excel verziókkal kompatibilis formátumok
 Ha bármilyen problémába ütközöl, vagy további segítségre van szükséged, nyugodtan keress minket a támogatói fórumon.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

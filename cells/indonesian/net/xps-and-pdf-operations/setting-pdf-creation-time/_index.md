@@ -1,88 +1,92 @@
 ---
-title: Mengatur Waktu Pembuatan PDF di .NET
-linktitle: Mengatur Waktu Pembuatan PDF di .NET
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengatur waktu pembuatan PDF di .NET menggunakan Aspose.Cells. Ikuti panduan langkah demi langkah kami untuk konversi Excel ke PDF yang lancar.
-weight: 11
-url: /id/net/xps-and-pdf-operations/setting-pdf-creation-time/
+"description": "Tanuld meg, hogyan állíthatod be a PDF létrehozási idejét .NET-ben az Aspose.Cells használatával. Kövesd lépésről lépésre szóló útmutatónkat a zökkenőmentes Excel-ből PDF-be konvertáláshoz."
+"linktitle": "PDF létrehozási idejének beállítása .NET-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "PDF létrehozási idejének beállítása .NET-ben"
+"url": "/id/net/xps-and-pdf-operations/setting-pdf-creation-time/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Mengatur Waktu Pembuatan PDF di .NET
+# PDF létrehozási idejének beállítása .NET-ben
 
-## Perkenalan
-Di era digital saat ini, kemampuan untuk mengonversi dokumen ke berbagai format sangat penting bagi banyak aplikasi. Salah satu kebutuhan umum adalah mengonversi lembar kerja Excel ke berkas PDF. Hal ini tidak hanya mempertahankan format, tetapi juga membuat berbagi dan mencetak menjadi jauh lebih mudah. Jika Anda seorang pengembang yang bekerja dengan .NET, Aspose.Cells adalah pustaka fantastis yang menyederhanakan proses ini. Dalam tutorial ini, kita akan membahas cara mengatur waktu pembuatan PDF saat mengonversi berkas Excel ke PDF menggunakan Aspose.Cells untuk .NET.
-## Prasyarat
-Sebelum kita masuk ke inti kode, mari pastikan Anda memiliki semua yang dibutuhkan untuk memulai.
-### Apa yang Anda Butuhkan
-1. Visual Studio: Pastikan Anda telah menginstal Visual Studio di komputer Anda. Ini akan menjadi lingkungan pengembangan Anda.
-2.  Aspose.Cells untuk .NET: Unduh pustaka Aspose.Cells dari[situs web](https://releases.aspose.com/cells/net/)Anda juga dapat memulai dengan uji coba gratis untuk menguji fungsinya.
-3. Pengetahuan Dasar C#: Keakraban dengan pemrograman C# akan membantu Anda memahami potongan kode dengan lebih baik.
-4.  File Excel: Siapkan file Excel untuk konversi. Untuk contoh ini, kami akan menggunakan file bernama`Book1.xlsx`.
-Sekarang setelah Anda menyiapkan prasyaratnya, mari masuk ke bagian yang menyenangkan—mengimpor paket yang diperlukan dan menulis kode!
-## Paket Impor
-Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam berkas C# Anda. Hal ini penting karena memungkinkan Anda mengakses kelas dan metode yang disediakan oleh pustaka Aspose.Cells.
-### Buka Proyek C# Anda
-Buka Visual Studio dan buat proyek baru atau buka proyek yang sudah ada di mana Anda ingin menerapkan fitur konversi PDF.
-### Tambahkan Referensi Aspose.Cells
-Anda dapat menambahkan pustaka Aspose.Cells ke proyek Anda dengan mengklik kanan proyek Anda di Solution Explorer, memilih “Manage NuGet Packages,” dan mencari “Aspose.Cells.” Instal paket tersebut.
-### Mengimpor Ruang Nama
-Di bagian atas file C# Anda, sertakan namespace berikut:
+## Bevezetés
+mai digitális korban a dokumentumok különböző formátumokba konvertálásának képessége számos alkalmazás számára kulcsfontosságú. Az egyik gyakori igény az Excel-táblázatok PDF-fájlokká konvertálása. Ez nemcsak a formázást őrzi meg, hanem sokkal könnyebbé teszi a megosztást és a nyomtatást is. Ha .NET-tel dolgozó fejlesztő vagy, az Aspose.Cells egy fantasztikus könyvtár, amely leegyszerűsíti ezt a folyamatot. Ebben az oktatóanyagban belemerülünk abba, hogyan állíthatod be a PDF létrehozási idejét, amikor egy Excel-fájlt PDF-be konvertálsz az Aspose.Cells for .NET segítségével.
+## Előfeltételek
+Mielőtt belevágnánk a kód részleteibe, győződjünk meg arról, hogy minden a rendelkezésedre áll, amire a kezdéshez szükséged van.
+### Amire szükséged van
+1. Visual Studio: Győződjön meg róla, hogy a Visual Studio telepítve van a gépén. Ez lesz a fejlesztői környezete.
+2. Aspose.Cells .NET-hez: Töltse le az Aspose.Cells könyvtárat a következő helyről: [weboldal](https://releases.aspose.com/cells/net/)Ingyenes próbaverzióval is kipróbálhatod a funkcióit.
+3. C# alapismeretek: A C# programozással való ismeret segít jobban megérteni a kódrészleteket.
+4. Excel-fájl: Készítsen elő egy konvertálásra előkészített Excel-fájlt. Ebben a példában egy nevű fájlt fogunk használni. `Book1.xlsx`.
+Most, hogy az előfeltételek rendeződtek, térjünk át a mókás részre – a szükséges csomagok importálására és a kód megírására!
+## Csomagok importálása
+Kezdésként importálnod kell a szükséges névtereket a C# fájlodba. Ez azért kulcsfontosságú, mert lehetővé teszi az Aspose.Cells könyvtár által biztosított osztályok és metódusok elérését.
+### Nyisd meg a C# projektedet
+Nyisd meg a Visual Studio programot, és hozz létre egy új projektet, vagy nyisson meg egy meglévőt, amelybe a PDF konvertálási funkciót szeretnéd megvalósítani.
+### Aspose.Cells hivatkozás hozzáadása
+Az Aspose.Cells könyvtárat a projektedhez úgy adhatod hozzá, hogy a Megoldáskezelőben jobb gombbal kattintasz a projektedre, kiválasztod a „NuGet csomagok kezelése” lehetőséget, és rákeresel az „Aspose.Cells” csomagra. Telepíted a csomagot.
+### Névterek importálása
+C# fájl tetején szerepeljenek a következő névterek:
 ```csharp
 using System;
 using Aspose.Cells;
 using Aspose.Cells.Charts;
 ```
-Ruang nama ini akan memberi Anda akses ke kelas Buku Kerja dan fungsi penting lainnya.
+Ezek a névterek hozzáférést biztosítanak a Workbook osztályhoz és más alapvető funkciókhoz.
 
-Sekarang setelah paket kita diimpor, mari kita uraikan proses konversi file Excel ke PDF sambil mengatur waktu pembuatan.
-## Langkah 1: Tentukan Direktori Dokumen
-Pertama, Anda perlu menentukan direktori tempat dokumen Anda disimpan. Di sinilah file Excel Anda berada dan tempat PDF keluaran akan disimpan.
+Most, hogy importáltuk a csomagjainkat, bontsuk le az Excel-fájl PDF-be konvertálásának folyamatát, miközben beállítjuk a létrehozási időt.
+## 1. lépés: A dokumentumkönyvtár meghatározása
+Először meg kell adnia azt a könyvtárat, ahová a dokumentumokat tárolja. Ez az a könyvtár, ahol az Excel-fájl található, és ahová a kimeneti PDF-fájl mentésre kerül.
 ```csharp
-string dataDir = "Your Document Directory"; // Tentukan direktori dokumen Anda
+string dataDir = "Your Document Directory"; // Adja meg a dokumentum könyvtárát
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda`Book1.xlsx` file berada. Jalur ini akan membantu aplikasi menemukan file untuk diproses.
-## Langkah 2: Muat File Excel
- Selanjutnya, Anda akan memuat file Excel ke dalam`Workbook` objek. Di sinilah Aspose.Cells unggul, karena memungkinkan Anda bekerja dengan file Excel dengan mudah.
+Csere `"Your Document Directory"` a tényleges útvonallal, ahol a `Book1.xlsx` a fájl található. Ez az elérési út segít az alkalmazásnak megtalálni a fájlt feldolgozáshoz.
+## 2. lépés: Töltse be az Excel fájlt
+Ezután betöltöd az Excel fájlt egy `Workbook` objektum. Itt ragyog az Aspose.Cells, mivel lehetővé teszi az Excel-fájlokkal való erőfeszítés nélküli munkát.
 ```csharp
-string inputPath = dataDir + "Book1.xlsx"; // Jalur ke file Excel Anda
-Workbook workbook = new Workbook(inputPath); // Memuat file Excel
+string inputPath = dataDir + "Book1.xlsx"; // Az Excel-fájl elérési útja
+Workbook workbook = new Workbook(inputPath); // Töltsd be az Excel fájlt
 ```
- Itu`Workbook` class digunakan untuk memuat dan memanipulasi file Excel. Dengan meneruskan jalur input, Anda memberi tahu aplikasi file mana yang akan digunakan.
-## Langkah 3: Buat PdfSaveOptions
- Sekarang saatnya membuat contoh`PdfSaveOptions`Kelas ini memungkinkan Anda menentukan berbagai opsi untuk menyimpan buku kerja Anda sebagai PDF, termasuk waktu pembuatannya.
+A `Workbook` Az osztály Excel fájlok betöltésére és kezelésére szolgál. A bemeneti elérési út átadásával megmondod az alkalmazásnak, hogy melyik fájllal dolgozzon.
+## 3. lépés: PdfSaveOptions létrehozása
+Most itt az ideje létrehozni egy példányt a következőből: `PdfSaveOptions`Ez az osztály lehetővé teszi a munkafüzet PDF formátumban történő mentéséhez szükséges különféle beállítások megadását, beleértve a létrehozási időt is.
 ```csharp
-PdfSaveOptions options = new PdfSaveOptions(); // Buat instance PdfSaveOptions
-options.CreatedTime = DateTime.Now; // Atur waktu pembuatan ke sekarang
+PdfSaveOptions options = new PdfSaveOptions(); // PdfSaveOptions példány létrehozása
+options.CreatedTime = DateTime.Now; // Állítsa a létrehozási időt mostra
 ```
- Dengan pengaturan`options.CreatedTime` ke`DateTime.Now`, Anda memastikan bahwa PDF akan mencerminkan tanggal dan waktu saat ini saat dibuat.
-## Langkah 4: Simpan Buku Kerja sebagai PDF
-Terakhir, Anda akan menyimpan buku kerja sebagai berkas PDF menggunakan opsi yang baru saja Anda tentukan.
+Beállítással `options.CreatedTime` hogy `DateTime.Now`, biztosítod, hogy a PDF tükrözze a létrehozásának aktuális dátumát és időpontját.
+## 4. lépés: Mentse el a munkafüzetet PDF formátumban
+Végül a munkafüzetet PDF-fájlként mentheti az imént meghatározott beállításokkal.
 ```csharp
-workbook.Save(dataDir + "output.pdf", options); //Simpan sebagai PDF
+workbook.Save(dataDir + "output.pdf", options); // Mentés PDF-ként
 ```
- Baris kode ini mengambil buku kerja dan menyimpannya dalam format PDF di lokasi yang ditentukan.`options` parameter dilewatkan untuk menyertakan waktu pembuatan dalam metadata PDF.
+Ez a kódsor a munkafüzetet PDF formátumban menti a megadott helyre. A `options` paraméter átadása után a PDF metaadatok között szerepel a létrehozási idő.
 
-## Kesimpulan
-Nah, itu dia! Anda telah berhasil mengonversi file Excel ke PDF menggunakan Aspose.Cells for .NET, lengkap dengan stempel waktu pembuatan. Fitur ini dapat sangat berguna saat Anda perlu melacak versi dokumen atau saat Anda ingin memberikan informasi kepada penerima tentang kapan dokumen tersebut dibuat.
- Jika Anda ingin menjelajahi lebih banyak fitur Aspose.Cells, jangan ragu untuk memeriksa[dokumentasi](https://reference.aspose.com/cells/net/).
-## Pertanyaan yang Sering Diajukan
-### Apa itu Aspose.Cells?
-Aspose.Cells adalah pustaka hebat untuk .NET yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengonversi file Excel.
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Anda dapat memulai dengan uji coba gratis yang tersedia di[Situs web Aspose](https://releases.aspose.com/).
-### Bagaimana cara mengatur properti PDF lainnya?
- Anda dapat mengatur berbagai properti PDF menggunakan`PdfSaveOptions` kelas, seperti ukuran halaman, kompresi, dan lainnya.
-### Apakah mungkin untuk mengonversi beberapa file Excel sekaligus?
-Ya, Anda dapat mengulang daftar file dan menerapkan proses konversi yang sama pada setiap file.
-### Di mana saya bisa mendapatkan dukungan untuk Aspose.Cells?
- Anda bisa mendapatkan dukungan dari komunitas Aspose di[forum dukungan](https://forum.aspose.com/c/cells/9).
+## Következtetés
+És íme! Sikeresen konvertáltál egy Excel fájlt PDF-be az Aspose.Cells for .NET segítségével, létrehozási időbélyeggel kiegészítve. Ez a funkció hihetetlenül hasznos lehet, ha nyomon kell követned a dokumentum verzióit, vagy ha információt szeretnél adni a címzetteknek a dokumentum létrehozásának időpontjáról.
+Ha az Aspose.Cells további funkcióit szeretné felfedezni, ne habozzon megnézni a [dokumentáció](https://reference.aspose.com/cells/net/).
+## GYIK
+### Mi az Aspose.Cells?
+Az Aspose.Cells egy hatékony .NET könyvtár, amely lehetővé teszi a fejlesztők számára Excel fájlok létrehozását, kezelését és konvertálását.
+### Ingyenesen használhatom az Aspose.Cells-t?
+Igen, elkezdheti egy ingyenes próbaverzióval, amely elérhető a következő címen: [Aspose weboldal](https://releases.aspose.com/).
+### Hogyan állíthatok be egyéb PDF-tulajdonságokat?
+Különböző PDF-tulajdonságokat állíthat be a segítségével `PdfSaveOptions` osztály, például az oldalméret, a tömörítés és egyebek.
+### Lehetséges egyszerre több Excel fájlt konvertálni?
+Igen, végigmehetsz a fájlok listáján, és mindegyikre alkalmazhatod ugyanazt a konvertálási folyamatot.
+### Hol kaphatok támogatást az Aspose.Cells-hez?
+Az Aspose közösség támogatását a következő címen kaphatod: [támogató fórum](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

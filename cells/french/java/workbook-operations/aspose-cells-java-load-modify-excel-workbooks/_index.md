@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -203,6 +205,9 @@ Pour une exploration plus approfondie, explorez les fonctionnalités avancées d
 Ce guide complet vous permet d'exploiter tout le potentiel d'Aspose.Cells pour Java et d'optimiser la gestion de vos fichiers Excel dans vos applications Java. Commencez dès aujourd'hui et atteignez des niveaux de productivité inédits !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

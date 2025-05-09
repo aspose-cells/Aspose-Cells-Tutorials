@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -119,7 +121,7 @@ Excel 통합 문서를 만드는 것은 간단합니다.
 ### 범위 생성
 범위를 사용하면 셀 그룹에 대한 집합적 작업이 가능합니다.
 
-- **가져오기 `Range` 클래스를 만들고 범위를 생성합니다.**
+- **가져오기 `Range` 클래스를 만들고 범위를 만듭니다.**
   
   ```java
   import com.aspose.cells.Range;
@@ -229,6 +231,9 @@ Excel 통합 문서를 만드는 것은 간단합니다.
 이 가이드를 따라 하면 Aspose.Cells for Java를 사용하여 Excel 통합 문서를 프로그래밍 방식으로 관리하는 기술을 습득하게 됩니다. 이 강력한 도구는 복잡한 작업을 간소화하고 Excel 파일 처리 생산성을 향상시킵니다. 데이터 관리 워크플로를 더욱 개선하려면 이 도구의 기능을 계속 살펴보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 Следуя этому руководству, вы узнали, как эффективно управлять рабочими книгами Excel с помощью Aspose.Cells для Java. Этот мощный инструмент упрощает процесс создания, изменения и улучшения ваших файлов Excel, позволяя вам сосредоточиться на предоставлении высококачественных решений для обработки данных. Продолжайте изучать его функции, чтобы в полной мере использовать его возможности в своих проектах.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

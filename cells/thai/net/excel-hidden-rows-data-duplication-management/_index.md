@@ -1,14 +1,16 @@
 ---
-title: การจัดการแถวที่ซ่อนอยู่และการจำลองข้อมูลของ Excel
-linktitle: การจัดการแถวที่ซ่อนอยู่และการจำลองข้อมูลของ Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ปลดล็อกศักยภาพของ Excel ด้วยบทช่วยสอน Aspose.Cells สำหรับ .NET ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับการจัดการแถวที่ซ่อนอยู่และการทำซ้ำข้อมูลได้อย่างง่ายดาย
-weight: 42
-url: /th/net/excel-hidden-rows-data-duplication-management/
+"description": "ปลดล็อกศักยภาพของ Excel ด้วยบทช่วยสอน Aspose.Cells สำหรับ .NET ซึ่งให้ข้อมูลเชิงลึกเกี่ยวกับการจัดการแถวที่ซ่อนอยู่และการทำซ้ำข้อมูลได้อย่างง่ายดาย"
+"linktitle": "การจัดการแถวที่ซ่อนอยู่และการจำลองข้อมูลของ Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การจัดการแถวที่ซ่อนอยู่และการจำลองข้อมูลของ Excel"
+"url": "/th/net/excel-hidden-rows-data-duplication-management/"
+"weight": 42
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการแถวที่ซ่อนอยู่และการจำลองข้อมูลของ Excel
@@ -23,7 +25,7 @@ url: /th/net/excel-hidden-rows-data-duplication-management/
 
 [อ่านเพิ่มเติม](./get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/)
 
-## เปลี่ยนชื่อคอลัมน์ที่ซ้ำกันโดยอัตโนมัติเมื่อส่งออกข้อมูล Excel
+## เปลี่ยนชื่อคอลัมน์ซ้ำโดยอัตโนมัติเมื่อส่งออกข้อมูล Excel
 
 ต่อไปเรามาพูดถึงการซ้ำซ้อนของข้อมูล ซึ่งเป็นปัญหาทั่วไปที่มักถูกมองข้าม คุณเคยลองส่งออกข้อมูลจาก Excel แต่กลับได้คอลัมน์ที่มีชื่อเดียวกันหลายคอลัมน์หรือไม่ มันน่าหงุดหงิดใช่ไหม โชคดีที่ Aspose.Cells สำหรับ .NET ช่วยให้คุณเปลี่ยนชื่อคอลัมน์ที่ซ้ำกันโดยอัตโนมัติ คุณสมบัตินี้ไม่เพียงแต่ทำให้ข้อมูลของคุณง่ายขึ้นเท่านั้น แต่ยังเพิ่มความชัดเจนเมื่อแชร์หรือวิเคราะห์สเปรดชีตของคุณอีกด้วย คุณสามารถนำฟังก์ชันนี้ไปใช้ได้อย่างง่ายดายโดยทำตามคำแนะนำทีละขั้นตอนของเรา เพื่อให้แน่ใจว่าแต่ละคอลัมน์มีตัวระบุเฉพาะก่อนที่ข้อมูลของคุณจะไปถึงรายงาน
 
@@ -32,11 +34,13 @@ url: /th/net/excel-hidden-rows-data-duplication-management/
 ## บทช่วยสอนเกี่ยวกับการจัดการแถวที่ซ่อนอยู่และการทำข้อมูลซ้ำซ้อนใน Excel
 ### [รับดัชนีแถวที่ซ่อนอยู่หลังจากรีเฟรชตัวกรองอัตโนมัติใน Excel](./get-all-hidden-row-indices-after-refreshing-auto-filter-in-excel/)
 ค้นพบวิธีการดึงดัชนีแถวที่ซ่อนอยู่หลังจากรีเฟรชตัวกรองอัตโนมัติใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ทำให้การจัดการข้อมูลของคุณง่ายขึ้น
-### [เปลี่ยนชื่อคอลัมน์ที่ซ้ำกันโดยอัตโนมัติเมื่อส่งออกข้อมูล Excel](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
+### [เปลี่ยนชื่อคอลัมน์ซ้ำโดยอัตโนมัติเมื่อส่งออกข้อมูล Excel](./rename-duplicate-columns-automatically-while-exporting-worksheet-data-in-excel/)
 เปลี่ยนชื่อคอลัมน์ที่ซ้ำกันใน Excel โดยอัตโนมัติด้วย Aspose.Cells สำหรับ .NET! ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อปรับปรุงการส่งออกข้อมูลของคุณได้อย่างง่ายดาย
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

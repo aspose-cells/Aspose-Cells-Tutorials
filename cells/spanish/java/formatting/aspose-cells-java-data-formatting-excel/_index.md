@@ -7,11 +7,13 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Dominando la presentación de datos en Excel: Aplicación de formatos numéricos y de fecha personalizados con Aspose.Cells para Java
+# Dominar la presentación de datos en Excel: Aplicar formatos de números y fechas personalizados con Aspose.Cells para Java
 
 ## Introducción
 
@@ -174,6 +176,9 @@ Ya aprendió a aplicar formatos numéricos y de fecha personalizados con Aspose.
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

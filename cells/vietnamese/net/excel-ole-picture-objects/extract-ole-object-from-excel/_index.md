@@ -1,14 +1,16 @@
 ---
-title: Trích xuất đối tượng OLE từ Excel
-linktitle: Trích xuất đối tượng OLE từ Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách trích xuất các đối tượng OLE từ các tệp Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để trích xuất dễ dàng.
-weight: 10
-url: /vi/net/excel-ole-picture-objects/extract-ole-object-from-excel/
+"description": "Tìm hiểu cách trích xuất các đối tượng OLE từ các tệp Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước để trích xuất dễ dàng."
+"linktitle": "Trích xuất đối tượng OLE từ Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Trích xuất đối tượng OLE từ Excel"
+"url": "/vi/net/excel-ole-picture-objects/extract-ole-object-from-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất đối tượng OLE từ Excel
@@ -18,7 +20,7 @@ Trong thế giới am hiểu công nghệ ngày nay, xử lý các tệp Excel l
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết về việc trích xuất các đối tượng OLE, bạn phải chuẩn bị một số thứ sau:
 1. Kiến thức cơ bản về C#: Nếu bạn quen thuộc với C#, bạn đã đi đúng hướng rồi. Nếu không, đừng lo! Chúng tôi sẽ giải thích rõ ràng.
-2. Aspose.Cells đã cài đặt: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ trang web[đây](https://releases.aspose.com/cells/net/).
+2. Đã cài đặt Aspose.Cells: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể tải xuống từ trang web [đây](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển tương thích: Đảm bảo bạn đã thiết lập môi trường phát triển .NET, chẳng hạn như Visual Studio, sẵn sàng hoạt động.
 4. Tệp Excel mẫu: Bạn sẽ cần một tệp Excel có nhúng các đối tượng OLE để thử nghiệm. 
 Khi bạn đã có đủ những điều kiện tiên quyết này, chúng ta có thể bắt đầu hành trình khám phá thế giới trích xuất đối tượng OLE.
@@ -29,13 +31,13 @@ using System.IO;
 using Aspose.Cells;
 ```
 ## Bước 1: Thiết lập thư mục tài liệu
-Trong bước này, chúng ta sẽ xác định đường dẫn nơi tệp Excel của chúng ta nằm. Bạn có thể tự hỏi tại sao điều này lại quan trọng. Giống như việc thiết lập sân khấu cho một buổi biểu diễn—nó giúp kịch bản biết nơi tìm diễn viên (trong trường hợp của chúng ta là tệp Excel).
+Trong bước này, chúng ta sẽ xác định đường dẫn nơi tệp Excel của chúng ta nằm. Bạn có thể tự hỏi tại sao điều này lại quan trọng. Nó giống như việc thiết lập sân khấu cho một buổi biểu diễn—nó giúp kịch bản biết nơi tìm diễn viên (trong trường hợp của chúng ta là tệp Excel).
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Thay thế`"Your Document Directory"` với đường dẫn thực tế nơi tệp Excel của bạn (`book1.xls`) được lưu trữ.
+Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi tệp Excel của bạn (`book1.xls`) được lưu trữ.
 ## Bước 2: Mở tệp Excel
-Bây giờ chúng ta đã thiết lập thư mục tài liệu, bước tiếp theo là mở tệp Excel. Hãy nghĩ về điều này như việc mở một cuốn sách trước khi bạn bắt đầu đọc—điều cần thiết là phải xem những gì bên trong.
+Bây giờ chúng ta đã thiết lập thư mục tài liệu, bước tiếp theo là mở tệp Excel. Hãy nghĩ đến việc mở một cuốn sách trước khi bạn bắt đầu đọc—điều cần thiết là phải xem những gì bên trong.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
@@ -84,7 +86,7 @@ switch (ole.FileFormatType)
 }
 ```
 ## Bước 7: Lưu đối tượng OLE
- Bây giờ, chúng ta hãy chuyển sang lưu đối tượng OLE. Nếu đối tượng là tệp Excel, chúng ta sẽ lưu nó bằng cách sử dụng`MemoryStream` cho phép chúng ta xử lý dữ liệu trong bộ nhớ trước khi ghi ra. Bước này giống như đóng gói kho báu của bạn trước khi gửi cho bạn bè.
+Bây giờ, chúng ta hãy chuyển sang lưu đối tượng OLE. Nếu đối tượng là tệp Excel, chúng ta sẽ lưu nó bằng cách sử dụng `MemoryStream` cho phép chúng ta xử lý dữ liệu trong bộ nhớ trước khi ghi ra. Bước này giống như đóng gói kho báu của bạn trước khi gửi cho bạn bè.
 ```csharp
 if (ole.FileFormatType == FileFormatType.Xlsx)
 {
@@ -95,7 +97,7 @@ if (ole.FileFormatType == FileFormatType.Xlsx)
     oleBook.Save(dataDir + "Excel_File" + i + ".out.xlsx");
 }
 ```
- Đối với các loại tệp khác, chúng tôi sẽ sử dụng`FileStream` để tạo tập tin trên đĩa.
+Đối với các loại tệp khác, chúng tôi sẽ sử dụng `FileStream` để tạo tập tin trên đĩa.
 ```csharp
 else
 {
@@ -115,12 +117,14 @@ Trích xuất các đối tượng OLE cho phép bạn truy cập và thao tác 
 ### Aspose.Cells có thể xử lý được tất cả các loại tệp nhúng không?
 Có, Aspose.Cells có thể quản lý nhiều đối tượng OLE khác nhau, bao gồm tài liệu Word, bảng tính Excel, bản trình bày PowerPoint và hình ảnh.
 ### Làm thế nào để cài đặt Aspose.Cells cho .NET?
- Bạn có thể cài đặt Aspose.Cells bằng cách tải xuống từ[trang phát hành](https://releases.aspose.com/cells/net/).
+Bạn có thể cài đặt Aspose.Cells bằng cách tải xuống từ [trang phát hành](https://releases.aspose.com/cells/net/).
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
-Bạn có thể nhận được hỗ trợ cho Aspose.Cells trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được hỗ trợ cho Aspose.Cells trên [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

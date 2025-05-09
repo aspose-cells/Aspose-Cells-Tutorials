@@ -1,14 +1,16 @@
 ---
-title: Lưu Pivot Table theo Định dạng ODS theo Chương trình trong .NET
-linktitle: Lưu Pivot Table theo Định dạng ODS theo Chương trình trong .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách lưu Bảng Pivot ở định dạng ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước này.
-weight: 25
-url: /vi/net/creating-and-configuring-pivot-tables/saving-in-ods-format/
+"description": "Tìm hiểu cách lưu Bảng Pivot ở định dạng ODS bằng Aspose.Cells cho .NET với hướng dẫn từng bước này."
+"linktitle": "Lưu Pivot Table theo Định dạng ODS theo Chương trình trong .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Lưu Pivot Table theo Định dạng ODS theo Chương trình trong .NET"
+"url": "/vi/net/creating-and-configuring-pivot-tables/saving-in-ods-format/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lưu Pivot Table theo Định dạng ODS theo Chương trình trong .NET
@@ -21,13 +23,13 @@ Trước khi tìm hiểu về mã, bạn cần có một số điều cần thi�
 ### 1. Kiến thức cơ bản về .NET
 Có hiểu biết cơ bản về .NET và các khái niệm lập trình sẽ giúp bạn dễ dàng theo dõi.
 ### 2. Aspose.Cells cho .NET
- Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ[Trang phát hành Aspose](https://releases.aspose.com/cells/net/) . Phiên bản dùng thử cũng có sẵn[đây](https://releases.aspose.com/).
+Bạn sẽ cần phải cài đặt Aspose.Cells cho .NET. Bạn có thể tải xuống từ [Trang phát hành Aspose](https://releases.aspose.com/cells/net/). Phiên bản dùng thử cũng có sẵn [đây](https://releases.aspose.com/).
 ### 3. Môi trường phát triển
 Hãy đảm bảo rằng bạn có một IDE như Visual Studio nơi bạn có thể viết và kiểm tra mã .NET của mình.
 ### 4. Một chút kiên nhẫn
 Như với bất kỳ nỗ lực mã hóa nào, sự kiên nhẫn là chìa khóa. Đừng lo lắng nếu mọi thứ không hoạt động hoàn hảo ngay lần đầu tiên; gỡ lỗi là một phần của quá trình.
 ## Nhập gói
-Để làm việc với Aspose.Cells, bạn sẽ cần phải nhập các không gian tên cần thiết. Thêm lệnh using sau vào đầu tệp mã của bạn:
+Để làm việc với Aspose.Cells, bạn sẽ cần phải nhập các không gian tên cần thiết. Thêm chỉ thị using sau vào đầu tệp mã của bạn:
 ```csharp
 using System;
 using Aspose.Cells.Pivot;
@@ -39,7 +41,7 @@ Bây giờ, chúng ta hãy chia nhỏ quy trình thành các bước dễ quản
 ```csharp
 string outputDir = "Your Document Directory";
 ```
- Trong dòng này, thay thế`"Your Document Directory"` bằng đường dẫn mà bạn muốn lưu tệp.
+Trong dòng này, thay thế `"Your Document Directory"` bằng đường dẫn bạn muốn lưu tệp.
 ## Bước 2: Tạo một Workbook mới
 Tiếp theo, bạn sẽ khởi tạo một đối tượng Workbook mới, đối tượng này sẽ chứa tất cả dữ liệu và cấu trúc của bạn, bao gồm cả Pivot Table.
 ```csharp
@@ -90,7 +92,7 @@ PivotTableCollection pivotTables = sheet.PivotTables;
 // Thêm PivotTable vào bảng tính
 int index = pivotTables.Add("=A1:C8", "E3", "PivotTable2");
 ```
- Trong đoạn mã này, chúng tôi sẽ chỉ định phạm vi dữ liệu cho Bảng Pivot và vị trí đặt nó trên bảng tính. Phạm vi dữ liệu`=A1:C8` bao phủ khu vực có dữ liệu của chúng tôi.
+Trong đoạn mã này, chúng tôi sẽ chỉ định phạm vi dữ liệu cho Bảng Pivot và vị trí đặt nó trên bảng tính. Phạm vi dữ liệu `=A1:C8` bao phủ khu vực có dữ liệu của chúng tôi.
 ## Bước 6: Tùy chỉnh Bảng Pivot của bạn
 Tiếp theo, bạn sẽ muốn tùy chỉnh Bảng Pivot của mình để phù hợp với nhu cầu của bạn. Điều này bao gồm việc kiểm soát những gì được hiển thị, cách phân loại và cách tính toán dữ liệu.
 ```csharp
@@ -124,16 +126,18 @@ Và bạn đã có nó! Bạn không chỉ tạo một Pivot Table bằng Aspose
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện phức tạp cho phép bạn tạo và thao tác các tệp Excel trong các ứng dụng .NET.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[Trang web Aspose](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ [Trang web Aspose](https://releases.aspose.com/).
 ### Aspose.Cells hỗ trợ những định dạng nào?
 Nó hỗ trợ nhiều định dạng, bao gồm XLSX, XLS, ODS, PDF và nhiều định dạng khác.
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể tìm thấy sự trợ giúp trên[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể tìm thấy sự trợ giúp trên [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Có giấy phép tạm thời không?
- Có, bạn có thể đăng ký giấy phép tạm thời thông qua trang web Aspose[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể đăng ký giấy phép tạm thời thông qua trang web Aspose [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validasi Data Bersyarat
@@ -18,12 +20,12 @@
 
 Sebelum kita menyelami detail validasi data bersyarat, mari kita perkenalkan Aspose.Cells untuk Java secara singkat. Aspose.Cells adalah pustaka Java yang hebat yang memungkinkan pengembang untuk membuat, memanipulasi, dan mengelola lembar kerja Excel tanpa memerlukan Microsoft Excel. Pustaka ini menyediakan berbagai fitur untuk bekerja dengan file Excel, termasuk validasi data.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita memulai, pastikan Anda memiliki prasyarat berikut:
+Mielőtt belekezdenénk, győződjünk meg arról, hogy a következő előfeltételek teljesülnek:
 
 - Java Development Kit (JDK) terinstal di sistem Anda.
-- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+- Aspose.Cells untuk pustaka Java. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ## Langkah 1: Buat Proyek Java Baru
 
@@ -79,7 +81,7 @@ worksheet.getCells().get("A1").setValue(50); // Masukan yang valid
 worksheet.getCells().get("A2").setValue(150); // Masukan tidak valid
 ```
 
-## Langkah 7: Simpan Buku Kerja
+## 7. lépés: A munkafüzet mentése
 
 Terakhir, simpan buku kerja untuk melihat validasi data bersyarat dalam tindakan:
 
@@ -87,15 +89,15 @@ Terakhir, simpan buku kerja untuk melihat validasi data bersyarat dalam tindakan
 workbook.save("ConditionalValidationExample.xlsx");
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah mempelajari cara menerapkan validasi data bersyarat menggunakan Aspose.Cells untuk Java. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat memastikan bahwa data yang dimasukkan ke dalam lembar kerja Excel Anda memenuhi kriteria tertentu, sehingga meningkatkan keakuratan dan keandalan data Anda.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menginstal Aspose.Cells untuk Java?
 
-Aspose.Cells untuk Java dapat diinstal dengan mengunduh pustaka dari situs web di [Di Sini](https://releases.aspose.com/cells/java/).
+Aspose.Cells untuk Java dapat diinstal dengan mengunduh pustaka dari situs web di [itt](https://releases.aspose.com/cells/java/).
 
 ### Dapatkah saya menerapkan validasi data bersyarat ke beberapa sel sekaligus?
 
@@ -116,6 +118,7 @@ Meskipun Aspose.Cells untuk Java menyediakan fitur validasi data yang kuat, pent
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## Giới thiệu
 
-Xác định các liên kết bên ngoài ẩn trong sổ làm việc Excel của bạn là rất quan trọng để kiểm tra nguồn dữ liệu hoặc đảm bảo tính toàn vẹn của sổ làm việc. Hướng dẫn này sẽ hướng dẫn bạn cách sử dụng Aspose.Cells for Java, một thư viện mạnh mẽ giúp đơn giản hóa quy trình này và tăng cường tính minh bạch trong các liên kết dữ liệu, điều này rất cần thiết để báo cáo và tuân thủ chính xác.
+Xác định các liên kết bên ngoài ẩn trong sổ làm việc Excel của bạn là rất quan trọng để kiểm tra nguồn dữ liệu hoặc đảm bảo tính toàn vẹn của sổ làm việc. Hướng dẫn này sẽ hướng dẫn bạn sử dụng Aspose.Cells for Java, một thư viện mạnh mẽ giúp đơn giản hóa quy trình này và tăng cường tính minh bạch trong các liên kết dữ liệu, điều này rất cần thiết để báo cáo và tuân thủ chính xác.
 
 Trong bài viết này, chúng tôi sẽ đề cập đến:
 - **Những gì bạn sẽ học được:**
@@ -179,7 +181,7 @@ Có! Trong khi hướng dẫn này tập trung vào Java, Aspose.Cells có sẵn
 ### Yêu cầu hệ thống để chạy Aspose.Cells là gì?
 Đảm bảo môi trường phát triển của bạn hỗ trợ Java 8 trở lên vì Aspose.Cells yêu cầu điều này.
 
-### Làm thế nào tôi có thể quản lý việc sử dụng bộ nhớ của sổ làm việc một cách hiệu quả?
+### Làm thế nào để quản lý việc sử dụng bộ nhớ của sổ làm việc một cách hiệu quả?
 Hủy bỏ các đối tượng Workbook khi không sử dụng nữa và tránh xử lý dữ liệu không cần thiết để quản lý bộ nhớ hiệu quả.
 
 ### Có cách nào để tự động kiểm tra khả năng hiển thị liên kết trên nhiều sổ làm việc không?
@@ -193,6 +195,9 @@ Có, bạn có thể lập trình quy trình bằng vòng lặp Java hoặc tậ
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

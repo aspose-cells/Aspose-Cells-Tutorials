@@ -8,7 +8,9 @@ url: /net/excel-shapes-controls/add-checkbox-to-worksheet-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Check Box to Worksheet in Excel
@@ -111,6 +113,7 @@ If you have any questions or need assistance, you can visit the Aspose support f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

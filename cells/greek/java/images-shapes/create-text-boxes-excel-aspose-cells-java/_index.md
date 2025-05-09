@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ A: Ενώ το Aspose.Cells επιτρέπει ευελιξία στη δημι�
 Ακολουθώντας αυτόν τον οδηγό, θα πρέπει πλέον να είστε πλήρως εξοπλισμένοι για να ξεκινήσετε την ενσωμάτωση του Aspose.Cells Java στα έργα σας για βελτιωμένες δυνατότητες αυτοματοποίησης και μορφοποίησης του Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

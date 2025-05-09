@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Explicamos como adicionar uma caixa de texto a um gráfico do Excel usando o Asp
 Seguindo este guia, você poderá integrar o Aspose.Cells com eficiência aos seus projetos Java para aprimorar as funcionalidades de gráficos do Excel com anotações de texto personalizadas. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

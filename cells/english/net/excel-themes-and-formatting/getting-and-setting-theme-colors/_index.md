@@ -8,7 +8,9 @@ url: /net/excel-themes-and-formatting/getting-and-setting-theme-colors/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Getting and Setting Theme Colors in Excel
@@ -105,6 +107,7 @@ Absolutely! Aspose.Cells allows you to programmatically apply theme changes acro
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

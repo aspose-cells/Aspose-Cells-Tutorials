@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Nyní jste zvládli vytváření a používání pojmenovaných oblastí pomocí
 Dodržováním tohoto návodu budete dobře vybaveni k využití síly pojmenovaných rozsahů s Aspose.Cells pro Javu ve vašich projektech. Přeji vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

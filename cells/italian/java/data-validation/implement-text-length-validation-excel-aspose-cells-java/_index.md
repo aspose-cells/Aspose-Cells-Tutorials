@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -140,8 +142,8 @@ validation.setOperator(OperatorType.LESS_OR_EQUAL);
 validation.setFormula1("5"); // Definisci la lunghezza massima consentita del testo.
 
 // Configurare la gestione degli errori per l'immissione di dati non validi.
-validation.setShowError(true); // Mostra un messaggio di errore in caso di errore di convalida.
-validation.setAlertStyle(ValidationAlertType.WARNING); // Utilizzare un avviso in stile avviso.
+validation.setShowError(true); // Mostra un messaggio di errore in caso di convalida fallita.
+validation.setAlertStyle(ValidationAlertType.WARNING); // Utilizzare un avviso di tipo avviso.
 validation.setErrorTitle("Text Length Error"); // Imposta il titolo della finestra di dialogo di errore.
 validation.setErrorMessage("Enter a Valid String"); // Definire il testo del messaggio di errore.
 
@@ -193,6 +195,9 @@ Sentiti libero di esplorare altre funzionalità di Aspose.Cells, come la creazio
 - Sì, Aspose.Cells supporta vari tipi di convalida dei dati, consentendoti di applicare regole diverse all'interno della cartella di lavoro.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

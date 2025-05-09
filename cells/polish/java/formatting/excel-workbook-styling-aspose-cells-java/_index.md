@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ Funkcja ta koncentruje się na tworzeniu nowego skoroszytu programu Excel i wype
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Cells;
-// Utwórz nowe wystąpienie klasy Workbook.
+// Utwórz nową instancję klasy Workbook.
 Workbook workbook = new Workbook();
 ```
 
@@ -180,6 +182,9 @@ W tym samouczku zbadaliśmy, jak wykorzystać Aspose.Cells Java do efektywnej in
 - **Forum wsparcia**: [Społeczność wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

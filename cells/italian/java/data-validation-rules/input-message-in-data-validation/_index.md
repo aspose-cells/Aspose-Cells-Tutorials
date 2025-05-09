@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Messaggio di input nella convalida dei dati
@@ -34,7 +36,7 @@ Inizia creando un nuovo progetto Java nell'IDE che hai scelto. Assegnagli un nom
 
 Per utilizzare Aspose.Cells per Java nel tuo progetto, devi aggiungere la libreria Aspose.Cells. Puoi scaricare la libreria dal sito web e aggiungerla al classpath del tuo progetto.
 
-## Aggiungere la convalida dei dati a un foglio di lavoro
+## Aggiunta della convalida dei dati a un foglio di lavoro
 
 Ora che hai impostato il progetto, iniziamo ad aggiungere la convalida dei dati a un foglio di lavoro. Per prima cosa, crea una nuova cartella di lavoro Excel e un foglio di lavoro.
 
@@ -153,6 +155,7 @@ Per ulteriori informazioni su Aspose.Cells per Java e le sue funzionalità, puoi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

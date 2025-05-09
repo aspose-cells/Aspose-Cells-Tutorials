@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Apprenez à gérer et analyser les connexions externes dans les classeurs Excel avec Aspose.Cells pour Java. Simplifiez vos workflows d'intégration de données grâce à ce guide complet."
+"description": "Apprenez à gérer et analyser les connexions externes dans les classeurs Excel avec Aspose.Cells pour Java. Optimisez vos flux d'intégration de données grâce à ce guide complet."
 "title": "Aspose.Cells Java &#58; Maîtriser les connexions des classeurs Excel pour l'intégration et l'analyse des données"
 "url": "/fr/java/import-export/aspose-cells-java-excel-connections/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Lorsque vous travaillez avec de grands classeurs ou de nombreuses connexions, te
 - Mettez régulièrement à jour Aspose.Cells pour Java pour bénéficier d'améliorations de performances et de corrections de bugs.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

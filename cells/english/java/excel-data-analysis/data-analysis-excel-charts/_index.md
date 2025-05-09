@@ -8,7 +8,9 @@ url: /java/excel-data-analysis/data-analysis-excel-charts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Data Analysis Excel Charts
@@ -123,6 +125,7 @@ For more resources and tutorials on Aspose.Cells for Java, visit the documentati
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -193,6 +195,9 @@ Daha detaylı bilgi ve keşif için:
 Bu eğitimi takip ederek, Aspose.Cells for Java konusunda uzmanlaşma yolunda ilerleyecek ve projelerinizde Excel grafik düzenlemeyi kolaylaştıracaksınız.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

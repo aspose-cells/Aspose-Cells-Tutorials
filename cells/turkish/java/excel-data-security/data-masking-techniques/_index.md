@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Veri Maskeleme Teknikleri
@@ -40,7 +42,7 @@ Veri maskeleme çeşitli nedenlerle önemlidir:
 - Uyumluluk: GDPR ve HIPAA gibi pek çok düzenleme kişisel ve gizli bilgilerin korunmasını zorunlu kılmaktadır.
 - Test ve Geliştirme: Maskelenmiş veriler, geliştiricilerin ve test uzmanlarının güvenlikten ödün vermeden gerçekçi veri kümeleriyle çalışmasına olanak tanır.
 
-## Java için Aspose.Cells'e Başlarken
+## Java için Aspose.Cells ile Başlarken
 
 Veri maskeleme tekniklerini uygulayabilmemiz için öncelikle Java ortamımızı ayarlayalım ve Aspose.Cells kütüphanesini ekleyelim.
 
@@ -133,6 +135,7 @@ Veri maskeleme ve veri güvenliği için en iyi uygulamaları keşfetmek amacıy
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

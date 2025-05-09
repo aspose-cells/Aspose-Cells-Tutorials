@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Aspose.Words Java에 대한 코드 튜토리얼
 Aspose.Cells for Java를 사용하여 Excel 파일에서 페이지 나누기를 효율적으로 제거하는 방법을 알아보세요. 이 가이드에서는 가로 및 세로 나누기 제거, 설정 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.Cells Java: 통합 문서 만들기 및 워크시트에 페이지 번호 설정](./aspose-cells-java-workbook-page-setup/)
-Aspose.Cells for Java를 사용하여 효율적으로 통합 문서를 만들고, 워크시트를 추가하고, 페이지 번호를 사용자 지정하는 방법을 알아보세요.
+Java용 Aspose.Cells를 사용하여 효율적으로 통합 문서를 만들고, 워크시트를 추가하고, 페이지 번호를 사용자 지정하는 방법을 알아보세요.
 
 ### [Aspose.Cells Java를 사용하여 효율적인 문서 관리를 위한 통합 문서 및 워크시트 페이지 수 계산](./aspose-cells-java-workbook-pages-counting/)
 Aspose.Cells Java를 사용하여 통합 문서 및 워크시트 페이지 수를 효율적으로 계산하고, 문서 처리를 최적화하고, Java 프로젝트를 개선하는 방법을 알아보세요.
@@ -102,6 +104,9 @@ Aspose.Cells for Java를 사용하여 A4, A3, A2, Letter 등의 용지 크기를
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Utwórz nazwany zakres komórek w programie Excel
-linktitle: Utwórz nazwany zakres komórek w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak łatwo utworzyć nazwany zakres komórek w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Usprawnij zarządzanie danymi.
-weight: 10
-url: /pl/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
+"description": "Dowiedz się, jak łatwo utworzyć nazwany zakres komórek w programie Excel przy użyciu Aspose.Cells dla .NET dzięki temu przewodnikowi krok po kroku. Usprawnij zarządzanie danymi."
+"linktitle": "Utwórz nazwany zakres komórek w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz nazwany zakres komórek w programie Excel"
+"url": "/pl/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz nazwany zakres komórek w programie Excel
@@ -22,7 +24,7 @@ Jeśli kiedykolwiek pracowałeś z programem Excel, wiesz, jak ważne jest, aby 
 Zanim zaczniemy tworzyć nazwane zakresy za pomocą Aspose.Cells, będziemy potrzebować kilku rzeczy do skonfigurowania:
 
 1. Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowany program Visual Studio.
-2.  Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z[strona](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z [strona](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Znajomość programowania w języku C# ułatwi Ci zrozumienie tematu.
 4. .NET Framework: Upewnij się, że Twój projekt jest ukierunkowany na zgodną wersję platformy .NET.
 
@@ -51,7 +53,7 @@ Najpierw musisz określić lokalizację, w której zostanie zapisany plik Excel.
 string dataDir = "Your Document Directory";
 ```
 
- Po prostu zamień`"Your Document Directory"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik Excela. Może to być coś takiego`@"C:\Users\YourName\Documents\"`.
+Po prostu zamień `"Your Document Directory"` z rzeczywistą ścieżką, gdzie chcesz zapisać plik Excela. Może to być coś takiego `@"C:\Users\YourName\Documents\"`.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -119,7 +121,7 @@ Po wprowadzeniu wszystkich tych zmian, następnym krokiem jest zapisanie skorosz
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
- Ten wiersz zapisuje zmiany w pliku o nazwie`outputCreateNamedRangeofCells.xlsx`. Upewnij się, że określona ścieżka jest poprawna; w przeciwnym razie program zgłosi błąd!
+Ten wiersz zapisuje zmiany w pliku o nazwie `outputCreateNamedRangeofCells.xlsx`. Upewnij się, że określona ścieżka jest poprawna; w przeciwnym razie program zgłosi błąd!
 
 ## Krok 8: Sprawdź powodzenie operacji
 
@@ -143,17 +145,19 @@ Zakres nazwany to opisowa nazwa nadana grupie komórek, ułatwiająca odwoływan
 ### Czy mogę utworzyć wiele zakresów nazwanych w jednym arkuszu kalkulacyjnym programu Excel?
 Tak, możesz utworzyć dowolną liczbę zakresów nazwanych w tym samym arkuszu kalkulacyjnym lub w całym skoroszycie.
 
-### Czy muszę kupić Aspose.Cells, żeby z niego korzystać?
+### Czy muszę kupić Aspose.Cells, aby z niego korzystać?
 Aspose.Cells oferuje bezpłatny okres próbny, aby umożliwić Ci zapoznanie się z jego funkcjami. Jednak do długoterminowego użytkowania będziesz musiał kupić licencję.
 
 ### Jakie języki programowania obsługuje Aspose.Cells?
 Aspose.Cells obsługuje przede wszystkim języki .NET, takie jak C#, VB.NET i inne.
 
 ### Gdzie mogę znaleźć dodatkową dokumentację dotyczącą Aspose.Cells?
- Obszerną dokumentację i przykłady można znaleźć na stronie[Strona dokumentacji Aspose.Cells](https://reference.aspose.com/cells/net/).
+Obszerną dokumentację i przykłady można znaleźć na stronie [Strona dokumentacji Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

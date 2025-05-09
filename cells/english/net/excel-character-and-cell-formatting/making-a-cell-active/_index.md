@@ -8,7 +8,9 @@ url: /net/excel-character-and-cell-formatting/making-a-cell-active/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Making a Cell Active Programmatically in Excel
@@ -118,6 +120,7 @@ You can access support for Aspose.Cells through the [Aspose Forum](https://forum
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -21,7 +23,7 @@ Nell'attuale ambiente basato sui dati, convertire complessi fogli di calcolo Exc
 - Configurazione e installazione di Aspose.Cells per Java
 - Caricamento di una cartella di lavoro di Excel e configurazione per il rendering delle immagini
 - Personalizzazione delle opzioni di output come formato e layout
-- Utilizzi pratici dell'esportazione di cartelle di lavoro come immagini
+- Utilizzi pratici dell'esportazione delle cartelle di lavoro come immagini
 
 Seguendo questa guida, imparerai il processo di conversione dei file Excel in immagini utilizzando Aspose.Cells in Java.
 
@@ -134,6 +136,9 @@ Pronti a provarlo? Visitate il [Documentazione di Aspose](https://reference.aspo
 - [Supporto alla comunità](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 Прежде чем начать, убедитесь, что у вас есть:
 
-- **Требуемые библиотеки:** Aspose.Cells для Java версии 25.3 или более поздней. В этом руководстве используются настройки Maven и Gradle.
+- **Необходимые библиотеки:** Aspose.Cells для Java версии 25.3 или более поздней. В этом руководстве используются настройки Maven и Gradle.
 - **Настройка среды:** Совместимый комплект разработки Java (JDK), установленный на вашем компьютере.
 - **Необходимые знания:** Базовые знания программирования Java и знакомство со структурами файлов Excel.
 
@@ -204,6 +206,9 @@ workbook.save(outDir + "/ATBoxControl_out.xls", SaveFormat.EXCEL_97_TO_2003);
 Следуя этому руководству, вы сможете эффективно интегрировать Aspose.Cells в свои проекты Java для улучшения функциональности диаграмм Excel с помощью пользовательских текстовых аннотаций. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

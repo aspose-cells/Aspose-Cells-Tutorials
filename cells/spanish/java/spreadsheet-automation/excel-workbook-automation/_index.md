@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatización de libros de Excel
@@ -97,7 +99,7 @@ A continuación se presentan algunas preguntas comunes relacionadas con la autom
 ### ¿Puedo automatizar tareas de Excel en Java sin tener Excel instalado en mi máquina?
    Sí, puedes. Aspose.Cells para Java te permite trabajar con archivos de Excel sin necesidad de tener instalado Microsoft Excel.
 
-### ¿Cómo puedo formatear celdas o aplicar estilos a datos de Excel usando Aspose.Cells?
+### ¿Cómo formatear celdas o aplicar estilos a datos de Excel usando Aspose.Cells?
    Puedes aplicar diversos formatos y estilos a las celdas con Aspose.Cells. Consulta la documentación de la API para ver ejemplos detallados.
 
 ### ¿Aspose.Cells para Java es compatible con diferentes formatos de archivos de Excel?
@@ -110,9 +112,11 @@ A continuación se presentan algunas preguntas comunes relacionadas con la autom
    Puede consultar la documentación de la API en [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) para obtener información detallada y ejemplos de código.
 
 Explora las funciones y capacidades más avanzadas de Aspose.Cells para Java para adaptarlas a tus necesidades de automatización de Excel. Si tienes alguna pregunta específica o necesitas más ayuda, no dudes en preguntar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

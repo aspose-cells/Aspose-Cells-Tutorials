@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,10 +83,10 @@ options.setOnePagePerSheet(true); // Her sayfayı tek bir sayfada göster
 
 Çalışma kitabını bir resim olarak işleyin:
 ```java
-WorkbookRender render = new WorkbookRender(book, options); // Seçeneklerle görüntüleyiciyi başlat
+WorkbookRender render = new WorkbookRender(book, options); // Oluşturucuyu seçeneklerle başlat
 render.toImage("YOUR_OUTPUT_DIRECTORY/CWorkbooktoImage_out.tiff"); // Çıktı görüntüsünü kaydet
 ```
-**Açıklama**: `WorkbookRender` alır `Workbook` Ve `ImageOrPrintOptions`, Excel dosyasını bir görüntü olarak işleme. Burada kaydetme konumunu ve dosya adını belirtin.
+**Açıklama**: `WorkbookRender` alır `Workbook` Ve `ImageOrPrintOptions`, Excel dosyasını bir görüntü olarak işleyerek. Burada kaydetme konumunu ve dosya adını belirtin.
 
 ### Sorun Giderme İpuçları
 - **Dosya Bulunamadı Hatası**: Giriş dizin yolunuzun doğru olduğunu doğrulayın.
@@ -134,6 +136,9 @@ Denemeye hazır mısınız? Ziyaret edin [Aspose belgeleri](https://reference.as
 - [Topluluk Desteği](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

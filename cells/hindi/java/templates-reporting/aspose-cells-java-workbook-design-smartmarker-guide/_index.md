@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -72,7 +74,7 @@ public class SetupAspose {
         License license = new License();
         license.setLicense("path/to/your/license/file.lic");
 
-        // कार्यपुस्तिका इंस्टेंस बनाएँ
+        // कार्यपुस्तिका इंस्टैंस बनाएँ
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells is ready for action!");
@@ -202,6 +204,9 @@ report.process();
 Java के लिए Aspose.Cells की शक्ति को अपनाएं और अपने डेटा प्रोसेसिंग कार्यों को आसानी से रूपांतरित करें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Innan vi börjar, se till att du har följande inställningar:
 - Java Development Kit (JDK) installerat på ditt system.
 - En IDE som IntelliJ IDEA eller Eclipse.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Erfarenhet av att hantera beroenden med hjälp av Maven eller Gradle.
 
@@ -119,7 +121,7 @@ Hämta dess unika ID:
 
 #### Steg 3: Hämta och skriv ut det unika ID:t
 ```java
-// Hämta det unika ID:t för arbetsbladet
+// Hämta det unika ID:t för kalkylbladet
 String uniqueId = worksheet.getUniqueId();
 
 // Skriv ut det unika ID:t
@@ -186,6 +188,9 @@ Börja använda Aspose.Cells för Java idag för att förbättra dina möjlighet
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trendvonal-elemzés
@@ -80,7 +82,7 @@ workbook.save("output.xlsx");
 
 ## 6. lépés: Eredmények elemzése
 
-Most már van egy diagramod, amelyhez hozzáadtál egy trendvonalat. A trendvonalat, az együtthatókat és az R-négyzet értéket a létrehozott Excel-fájl segítségével tovább elemezheted.
+Most már van egy diagramod, amelyhez hozzáadtál egy trendvonalat. A létrehozott Excel-fájl segítségével tovább elemezheted a trendvonalat, az együtthatókat és az R-négyzet értéket.
 
 ##Következtetés
 
@@ -103,6 +105,7 @@ A diagramot különféle formátumokba exportálhatja az Aspose.Cells segítség
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

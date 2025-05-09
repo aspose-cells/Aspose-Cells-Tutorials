@@ -1,14 +1,16 @@
 ---
-title: .NET'te Belge Özelliklerinin Değerine Erişim
-linktitle: .NET'te Belge Özelliklerinin Değerine Erişim
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET'i kullanarak Excel'de belge özelliklerine nasıl erişeceğinizi adım adım kılavuzumuzla öğrenin. Elektronik tablolarınızı verimli bir şekilde yönetin.
-weight: 11
-url: /tr/net/document-properties/accessing-value-of-document-properties/
+"description": "Aspose.Cells for .NET'i kullanarak Excel'de belge özelliklerine nasıl erişeceğinizi adım adım kılavuzumuzla öğrenin. Elektronik tablolarınızı verimli bir şekilde yönetin."
+"linktitle": ".NET'te Belge Özelliklerinin Değerine Erişim"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Belge Özelliklerinin Değerine Erişim"
+"url": "/tr/net/document-properties/accessing-value-of-document-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Belge Özelliklerinin Değerine Erişim
@@ -18,7 +20,7 @@ Günümüzün hızlı dijital dünyasında, belge özelliklerinin etkili yöneti
 ## Ön koşullar
 Kolları sıvayıp işe koyulmadan önce, yolculuğunuzun sorunsuz geçmesi için ihtiyacınız olan birkaç şey var:
 1. .NET'e aşinalık: .NET framework'ü ve programlama modelini temel düzeyde anlayabilmeniz gerekir.
-2.  Aspose.Cells for .NET Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin yüklü olması gerekir. Henüz kurmadıysanız, şuradan indirebilirsiniz:[Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Kütüphanesi: Projenizde Aspose.Cells kütüphanesinin yüklü olması gerekir. Henüz kurmadıysanız, şuradan indirebilirsiniz: [Aspose sürüm sayfası](https://releases.aspose.com/cells/net/).
 3. Geliştirme Ortamı: .NET geliştirmeye uygun bir IDE (örneğin Visual Studio) şiddetle tavsiye edilir.
 Her şeyi anladınız mı? Mükemmel! Bir sonraki heyecan verici adıma geçelim.
 ## Paketleri İçe Aktar
@@ -26,7 +28,7 @@ Aspose.Cells kütüphanesiyle çalışmak için, kod dosyanızın başına belir
 ### IDE'nizi açın
 .NET projenizin bulunduğu yerdeki tercih ettiğiniz IDE'yi (örneğin Visual Studio) başlatın.
 ### Projenizi Oluşturun veya Açın
-Eğer henüz yapmadıysanız, yeni bir konsol uygulaması oluşturun veya işlevselliği uygulamak istediğiniz mevcut projenizi açın.
+Daha önce yapmadıysanız, yeni bir konsol uygulaması oluşturun veya işlevselliği uygulamak istediğiniz mevcut projenizi açın.
 ### Gerekli Ad Alanlarını İçe Aktar
 Kod dosyanızın en üstüne aşağıdaki ad alanlarını ekleyin:
 ```csharp
@@ -44,19 +46,19 @@ Aspose.Cells, bir Excel dosyasının özel belge özelliklerini kolayca almamız
 // Belgeler dizinine giden yol.
 string dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` dosyanızın gerçek yolu ile. Bu şöyle bir şey olabilir`"C:\\Documents\\"`.
+Yer değiştirmek `"Your Document Directory"` dosyanızın gerçek yolu ile. Bu, şuna benzer bir şey olabilir `"C:\\Documents\\"`.
 ## Adım 2: Çalışma Kitabı Nesnesini Örneklendirin
 Sonra, Excel dosyanızı açmak için bir Çalışma Kitabı nesnesi oluşturacağız. Bu nesne, belge özelliklerinize erişmek ve bunları değiştirmek için bir köprü görevi görür.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "sample-document-properties.xlsx");
 ```
- Yer değiştirmek`"sample-document-properties.xlsx"` Excel dosyanızın adıyla. Artık çalışma kitabımız yüklendi ve harekete geçmeye hazır!
+Yer değiştirmek `"sample-document-properties.xlsx"` Excel dosyanızın adıyla. Artık çalışma kitabımız yüklendi ve harekete geçmeye hazır!
 ## Adım 3: Özel Belge Özelliklerini Alın
 Özel belge özelliklerine erişmek için çalışma kitabınızın çalışma sayfalarındaki özellik koleksiyonunu edinmek isteyeceksiniz.
 ```csharp
 Aspose.Cells.Properties.DocumentPropertyCollection customProperties = workbook.Worksheets.CustomDocumentProperties;
 ```
- Düşünün`customProperties` Excel dosyanızla ilgili tüm kullanışlı bilgi parçalarını tutan bir saklama kutusu olarak.
+Düşünün `customProperties` Excel dosyanızla ilgili tüm kullanışlı bilgi parçalarını tutan bir saklama kutusu olarak.
 ## Adım 4: Belirli Belge Özelliğine Erişim
 Şimdi, özellikler koleksiyonuna bir göz atalım ve belirli bir belge özelliğini yakalayalım. Bu örnek için, ilk özel özelliğe erişeceğiz.
 ```csharp
@@ -82,16 +84,18 @@ Artık temellerle donatıldığınıza göre, daha gelişmiş özellikler deneye
 ### Aspose.Cells Nedir?
 Aspose.Cells, Microsoft Excel'in kurulmasına gerek kalmadan Excel dosyaları oluşturmak, düzenlemek ve dönüştürmek için güçlü bir .NET kütüphanesidir.
 ### Aspose.Cells için geçici lisansı nasıl alabilirim?
- Geçici lisans için başvuruda bulunabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Geçici lisans için başvuruda bulunabilirsiniz [Burada](https://purchase.aspose.com/temporary-license/).
 ### Gömülü belge özelliklerine erişebilir miyim?
 Evet, belge özellik koleksiyonunu kullanarak hem özel hem de gömülü özelliklere erişebilirsiniz.
 ### Hangi tür belge özelliklerini alabilirim?
-Belge özellikleri dize, sayı, tarih ve Boole gibi çeşitli türlerde olabilir.
+Belge özellikleri dize, sayı, tarih ve Boolean gibi çeşitli türlerde olabilir.
 ### Aspose.Cells için ücretsiz deneme sürümü var mı?
- Kesinlikle! Ücretsiz deneme seçeneğini şu adreste bulabilirsiniz:[bu bağlantı](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz deneme seçeneğini şu adreste bulabilirsiniz: [bu bağlantı](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

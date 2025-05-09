@@ -8,7 +8,9 @@ url: /net/excel-data-validation-filter/apply-advanced-filter-of-microsoft-excel-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Advanced Filter of Microsoft Excel in C#
@@ -114,6 +116,7 @@ You can request a temporary license from their purchase page [here](https://purc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

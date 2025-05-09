@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bagan 3D
@@ -22,7 +24,7 @@ Aspose.Cells untuk Java adalah API Java yang hebat untuk bekerja dengan file Exc
 
 Bagan 3D adalah jenis visualisasi data yang menambah kedalaman pada bagan 2D tradisional. Bagan 3D menyediakan cara yang lebih mendalam untuk menyajikan data, sehingga memudahkan pemahaman hubungan yang kompleks dalam kumpulan data. Bagan 3D dapat sangat berguna saat menangani data multidimensi.
 
-## Mengapa menggunakan Aspose.Cells untuk Java untuk membuat bagan 3D?
+## Mengapa menggunakan Aspose.Cells untuk Java untuk membuat grafik 3D?
 
 Aspose.Cells untuk Java menawarkan serangkaian fitur dan alat yang lengkap untuk bekerja dengan file dan bagan Excel. Aplikasi ini menyediakan antarmuka yang mudah digunakan untuk membuat, menyesuaikan, dan memanipulasi bagan, termasuk bagan 3D. Selain itu, Aspose.Cells untuk Java memastikan bahwa bagan yang dihasilkan kompatibel dengan berbagai versi Excel, menjadikannya pilihan yang andal untuk pembuatan bagan.
 
@@ -34,7 +36,7 @@ Sebelum kita mulai membuat grafik 3D, mari kita siapkan Aspose.Cells untuk Java.
 
 Anda dapat mengunduh pustaka Aspose.Cells for Java dari situs web. Setelah diunduh, ikuti petunjuk penginstalan untuk menyiapkan pustaka tersebut di proyek Java Anda.
 
-### Inisialisasi Lisensi
+### Licenc inicializálása
 
 Untuk menggunakan Aspose.Cells untuk Java, Anda perlu menginisialisasi lisensi Anda. Langkah ini penting untuk menghapus batasan evaluasi dan membuka potensi penuh pustaka tersebut.
 
@@ -138,15 +140,15 @@ Untuk meningkatkan daya tarik visual dan kejelasan grafik 3D Anda, Anda dapat me
 
 - Sertakan legenda untuk menjelaskan rangkaian data.
 
-## Integrasi Data
+## Adatintegráció
 
 Aspose.Cells untuk Java memungkinkan Anda untuk mengintegrasikan data dari berbagai sumber ke dalam diagram Anda. Anda dapat memuat data dari basis data, file eksternal, atau bahkan mengambil data real-time dari API. Ini memastikan bahwa diagram Anda tetap mutakhir dan mencerminkan informasi terkini.
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami membahas cara membuat bagan 3D menggunakan Aspose.Cells untuk Java. Kami membahas pengaturan, pembuatan bagan dasar, penyesuaian, dan fitur lanjutan dalam bekerja dengan bagan 3D. Aspose.Cells untuk Java menyediakan platform yang tangguh dan mudah digunakan untuk membuat bagan 3D yang menarik secara visual dan informatif di Excel.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menambahkan beberapa seri data ke bagan 3D?
 
@@ -171,6 +173,7 @@ Anda dapat menemukan dokumentasi dan sumber daya yang lengkap untuk Aspose.Cells
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

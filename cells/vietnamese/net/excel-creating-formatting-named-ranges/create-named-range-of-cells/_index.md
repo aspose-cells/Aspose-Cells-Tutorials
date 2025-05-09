@@ -1,14 +1,16 @@
 ---
-title: Tạo Phạm vi ô được đặt tên trong Excel
-linktitle: Tạo Phạm vi ô được đặt tên trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách dễ dàng tạo một phạm vi ô được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Tối ưu hóa việc quản lý dữ liệu của bạn.
-weight: 10
-url: /vi/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/
+"description": "Tìm hiểu cách dễ dàng tạo một phạm vi ô được đặt tên trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước này. Tối ưu hóa việc quản lý dữ liệu của bạn."
+"linktitle": "Tạo Phạm vi ô được đặt tên trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Tạo Phạm vi ô được đặt tên trong Excel"
+"url": "/vi/net/excel-creating-formatting-named-ranges/create-named-range-of-cells/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Phạm vi ô được đặt tên trong Excel
@@ -22,7 +24,7 @@ Nếu bạn đã từng làm việc với Excel, bạn sẽ biết tầm quan tr
 Trước khi bắt đầu tạo các phạm vi được đặt tên bằng Aspose.Cells, bạn sẽ cần thiết lập một số thứ:
 
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy tính của mình.
-2.  Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ[địa điểm](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Tải xuống và cài đặt Aspose.Cells từ [địa điểm](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn theo dõi dễ dàng hơn.
 4. .NET Framework: Đảm bảo rằng dự án của bạn hướng tới phiên bản .NET tương thích.
 
@@ -51,7 +53,7 @@ Chỉ với dòng mã này, chúng ta có thể truy cập vào tất cả các 
 string dataDir = "Your Document Directory";
 ```
 
- Chỉ cần thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Nó có thể giống như`@"C:\Users\YourName\Documents\"`.
+Chỉ cần thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Nó có thể giống như `@"C:\Users\YourName\Documents\"`.
 
 ## Bước 2: Tạo một Workbook mới
 
@@ -66,7 +68,7 @@ Dòng này khởi tạo một đối tượng sổ làm việc mới mà chúng 
 
 ## Bước 3: Truy cập vào trang tính đầu tiên
 
-Mỗi sổ làm việc có thể có nhiều trang tính và vì mục đích của chúng ta, chúng ta sẽ truy cập trang tính đầu tiên. Hãy nghĩ về việc này giống như việc mở một tab trong tệp Excel.
+Mỗi sổ làm việc có thể có nhiều trang tính và vì mục đích của chúng ta, chúng ta sẽ truy cập trang tính đầu tiên. Hãy nghĩ về nó như việc mở một tab trong tệp Excel.
 
 ```csharp
 // Truy cập vào trang tính đầu tiên trong tệp Excel
@@ -119,7 +121,7 @@ Sau khi thực hiện tất cả những thay đổi này, bước tiếp theo l
 workbook.Save(dataDir + "outputCreateNamedRangeofCells.xlsx");
 ```
 
- Dòng này lưu các thay đổi của bạn vào một tệp có tên`outputCreateNamedRangeofCells.xlsx`. Hãy đảm bảo đường dẫn đã chỉ định là chính xác; nếu không, chương trình sẽ báo lỗi!
+Dòng này lưu các thay đổi của bạn vào một tệp có tên `outputCreateNamedRangeofCells.xlsx`. Hãy đảm bảo đường dẫn đã chỉ định là chính xác; nếu không, chương trình sẽ báo lỗi!
 
 ## Bước 8: Xác minh sự thành công của hoạt động
 
@@ -150,10 +152,12 @@ Aspose.Cells cung cấp bản dùng thử miễn phí để bạn khám phá cá
 Aspose.Cells chủ yếu hỗ trợ các ngôn ngữ .NET như C#, VB.NET, v.v.
 
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể tìm thấy tài liệu và ví dụ mở rộng trên[Trang tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu và ví dụ mở rộng trên [Trang tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

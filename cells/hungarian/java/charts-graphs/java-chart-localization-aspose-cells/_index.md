@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -196,6 +198,9 @@ Fedezzen fel további testreszabási lehetőségeket, és fontolja meg más Aspo
 Kezdje el az Aspose.Cells segítségével hatékonyan lokalizálhatja a diagramokat, növelve Java-alkalmazásai hatókörét és hatását.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

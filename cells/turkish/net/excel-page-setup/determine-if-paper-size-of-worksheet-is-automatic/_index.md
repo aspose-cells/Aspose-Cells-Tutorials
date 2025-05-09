@@ -1,14 +1,16 @@
 ---
-title: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme
-linktitle: Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl belirleyeceğinizi öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin.
-weight: 20
-url: /tr/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/
+"description": "Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl belirleyeceğinizi öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin."
+"linktitle": "Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme"
+"url": "/tr/net/excel-page-setup/determine-if-paper-size-of-worksheet-is-automatic/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Çalışma Sayfasının Kağıt Boyutunun Otomatik Olup Olmadığını Belirleme
@@ -25,13 +27,13 @@ Koda geçmeden önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olal�
 Aspose.Cells birçok görevi basitleştirirken, C#'ın temellerini anlamak çok önemlidir. Temel C# kodunu okuma ve yazma konusunda rahat olmalısınız.
 
 ### .NET için Aspose.Cells
-Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz:[web sitesi](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
+Projenizde Aspose.Cells'in yüklü olduğundan emin olun. Bunu şuradan indirebilirsiniz: [web sitesi](https://releases.aspose.com/cells/net/) Eğer henüz yapmadıysanız.
 
 ### Geliştirme Ortamı
 Visual Studio gibi bir IDE kurulumunuz olmalı. Bu, kodunuzu etkili bir şekilde ele almanız ve test etmeniz konusunda size rehberlik eder.
 
 ### Örnek Excel Dosyaları
-Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve`samplePageSetupIsAutomaticPaperSize-True.xlsx`) test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
+Örnek dosyalara ihtiyacınız olacak (`samplePageSetupIsAutomaticPaperSize-False.xlsx` Ve `samplePageSetupIsAutomaticPaperSize-True.xlsx`) test amaçlıdır. Bu dosyaların kaynak dizininizde olduğundan emin olun.
 
 ## Paketleri İçe Aktar
 
@@ -56,7 +58,7 @@ string sourceDir = "YOUR_SOURCE_DIRECTORY";
 string outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
- Yer değiştirmek`YOUR_SOURCE_DIRECTORY` Ve`YOUR_OUTPUT_DIRECTORY`Dosyaların sisteminizde saklanacağı gerçek yollar ile.
+Yer değiştirmek `YOUR_SOURCE_DIRECTORY` Ve `YOUR_OUTPUT_DIRECTORY` Dosyaların sisteminizde saklanacağı gerçek yollar ile.
 
 ## Adım 2: Excel Çalışma Kitaplarını Yükleyin
 
@@ -80,14 +82,14 @@ Bu kod her iki çalışma kitabından da ilk çalışma sayfasını (indeks 0) a
 
 ## Adım 4: Kağıt Boyutu Ayarını Kontrol Edin
 
- Şimdi eğlenceli kısma geliyoruz! Her çalışma sayfası için kağıt boyutu ayarının otomatik olup olmadığını kontrol etmek isteyeceksiniz. Bu,`IsAutomaticPaperSize` mülkiyeti`PageSetup` sınıf. Aşağıdaki kod parçacığını kullanın:
+Şimdi eğlenceli kısma geliyoruz! Her çalışma sayfası için kağıt boyutu ayarının otomatik olup olmadığını kontrol etmek isteyeceksiniz. Bu, `IsAutomaticPaperSize` mülkiyeti `PageSetup` sınıf. Aşağıdaki kod parçacığını kullanın:
 
 ```csharp
 Console.WriteLine("First Worksheet of First Workbook - IsAutomaticPaperSize: " + ws11.PageSetup.IsAutomaticPaperSize);
 Console.WriteLine("First Worksheet of Second Workbook - IsAutomaticPaperSize: " + ws12.PageSetup.IsAutomaticPaperSize);
 ```
 
- Burada sonuçları konsola yazdırıyoruz. Göreceksiniz`True` veya`False`, her çalışma sayfasının ayarlarına bağlı olarak.
+Burada sonuçları konsola yazdırıyoruz. Göreceksiniz `True` veya `False`, her çalışma sayfasının ayarlarına bağlı olarak.
 
 ## Adım 5: Sonlandırın
 
@@ -99,7 +101,7 @@ Console.WriteLine("DetermineIfPaperSizeOfWorksheetIsAutomatic executed successfu
 
 ## Çözüm 
 
-Ve böylece, Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirlemek için temelleri attınız! Paketleri içe aktarmak, çalışma kitaplarını yüklemek, çalışma sayfalarına erişmek ve kağıt boyutu özelliğini kontrol etmek gibi Excel dosyalarını programatik olarak düzenlerken gerekli olan tüm becerilerle uğraştınız. Unutmayın, Aspose.Cells'in farklı özellikleriyle ne kadar çok deney yaparsanız, uygulamalarınız o kadar güçlü hale gelecektir.
+Ve böylece, Aspose.Cells for .NET kullanarak bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını belirlemek için temelleri attınız! Paketleri içe aktarmak, çalışma kitaplarını yüklemek, çalışma sayfalarına erişmek ve kağıt boyutu özelliğini kontrol etmek için koşturdunuz; hepsi Excel dosyalarını programatik olarak düzenlerken gerekli becerilerdir. Unutmayın, Aspose.Cells'in farklı özellikleriyle ne kadar çok deney yaparsanız, uygulamalarınız o kadar güçlü hale gelecektir.
 
 ## SSS
 
@@ -110,16 +112,18 @@ Aspose.Cells, Excel'in kurulumuna gerek kalmadan Excel elektronik tablo dosyalar
 Evet! Aspose.Cells, platformlar arası geliştirmeyi destekler, böylece .NET'in mevcut olduğu çeşitli ortamlarda çalışabilirsiniz.
 
 ### Aspose.Cells için lisansa ihtiyacım var mı?
-Ücretsiz denemeyle başlayabilmenize rağmen, devam eden kullanım için satın alınmış bir lisans gerekir. Daha fazla ayrıntı şurada bulunabilir:[Burada](https://purchase.aspose.com/buy).
+Ücretsiz denemeyle başlayabilmenize rağmen, devam eden kullanım için satın alınmış bir lisans gerekir. Daha fazla ayrıntı şurada bulunabilir: [Burada](https://purchase.aspose.com/buy).
 
 ### C#'ta bir çalışma sayfasının kağıt boyutunun otomatik olup olmadığını nasıl kontrol edebilirim?
- Rehberde gösterildiği gibi, şunları kontrol edebilirsiniz:`IsAutomaticPaperSize` mülkiyeti`PageSetup` sınıf.
+Rehberde gösterildiği gibi, şunları kontrol edebilirsiniz: `IsAutomaticPaperSize` mülkiyeti `PageSetup` sınıf.
 
 ### Aspose.Cells hakkında daha fazla bilgiyi nerede bulabilirim?
- Kapsamlı dokümantasyon ve eğitimler bulabilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Kapsamlı dokümantasyon ve eğitimler bulabilirsiniz [Burada](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

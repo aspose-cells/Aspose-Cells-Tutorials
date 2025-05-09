@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ O Aspose.Cells para Java pode ser utilizado em vários cenários:
 
 ## Considerações de desempenho
 Ao trabalhar com arquivos grandes ou operações complexas, considere estas dicas:
-- **Otimize o uso da memória**: Processe CSVs em pedaços se a memória for uma preocupação.
+- **Otimizar o uso da memória**: Processe CSVs em pedaços se a memória for uma preocupação.
 - **Regex eficiente**: Use padrões regex eficientes para validação e substituição de caracteres.
 - **Processamento Paralelo**: Utilize as bibliotecas simultâneas do Java para manipular vários arquivos simultaneamente.
 
@@ -166,6 +168,9 @@ Pronto para se aprofundar? Experimente implementar essas soluções no seu próx
 Seguindo este guia, você estará bem equipado para lidar com arquivos CSV com confiança usando o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

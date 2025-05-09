@@ -8,7 +8,9 @@ url: /java/data-validation-rules/dynamic-dropdown-lists-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dynamic Dropdown Lists in Excel
@@ -115,6 +117,7 @@ The number of items in the dropdown list is limited by Excel's maximum worksheet
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

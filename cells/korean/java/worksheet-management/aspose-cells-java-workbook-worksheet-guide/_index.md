@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ public class InstantiateWorkbook {
 }
 ```
 
-### 통합 문서에서 워크시트에 액세스
+### 통합 문서에서 워크시트에 액세스하기
 #### 개요
 인스턴스화한 후 `Workbook`, 워크시트에 접근하는 것은 데이터 조작에 필수적입니다.
 
@@ -214,6 +216,9 @@ Aspose.Cells의 광범위한 내용을 탐색하여 더 자세히 알아보세�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 介紹
 
-難以透過程式管理 Excel 註解？無論您是自動化資料處理的開發人員還是處理大型資料集的分析師，本指南都會展示如何使用強大的 Aspose.Cells for Java 程式庫。我們將介紹如何有效管理和刪除 Excel 註釋，為初學者和經驗豐富的開發人員提供詳細的方法。
+難以透過程式管理 Excel 註解？無論您是自動化資料處理的開發人員還是處理大型資料集的分析師，本指南都會展示如何使用強大的 Aspose.Cells for Java 函式庫。我們將介紹如何有效管理和刪除 Excel 註釋，為初學者和經驗豐富的開發人員提供詳細的方法。
 
 **主要學習內容：**
 - 在 Java 中載入 Excel 工作簿。
@@ -172,6 +174,9 @@ Aspose.Cells for Java可以應用在各種場景上：
    - 僅載入必要的工作表並透過分塊處理資料來優化記憶體使用。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

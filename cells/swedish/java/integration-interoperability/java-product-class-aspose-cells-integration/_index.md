@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -200,7 +202,7 @@ Redo att förbättra dina kunskaper om integration med Java och Excel? Försök 
 - **A1:** Använd try-catch-block runt kritiska operationer. Kontrollera [Aspose-dokumentation](https://reference.aspose.com/cells/java/) för specifika undantagstyper.
 
 **Fråga 2:** Kan jag använda Aspose.Cells gratis?
-- **A2:** Ja, ladda ner en gratis provversion från [Gratis provsida](https://releases.aspose.com/cells/java/)För längre användning utan begränsningar, överväg att skaffa en tillfällig eller fullständig licens.
+- **A2:** Ja, ladda ner en gratis provperiod från [Gratis provsida](https://releases.aspose.com/cells/java/)För längre användning utan begränsningar, överväg att skaffa en tillfällig eller fullständig licens.
 
 **Fråga 3:** Vilka är några vanliga problem vid integration av Java med Aspose.Cells?
 - **A3:** Vanliga problem inkluderar felaktiga beroendeversioner och felkonfigurerade licenser. Se till att dina `pom.xml` eller `build.gradle` filerna är korrekt konfigurerade.
@@ -209,6 +211,9 @@ Redo att förbättra dina kunskaper om integration med Java och Excel? Försök 
 - **A4:** Använd cellformateringsalternativen som tillhandahålls av Aspose.Cells för att formatera siffror, text med mera.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

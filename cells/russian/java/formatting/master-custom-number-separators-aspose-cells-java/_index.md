@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@
 Давайте начнем с того, что убедимся, что у вас все готово для этого урока!
 ## Предпосылки
 Прежде чем приступить к внедрению, убедитесь, что выполнены следующие предварительные условия:
-1. **Требуемые библиотеки:** Вам понадобится Aspose.Cells для Java версии 25.3.
+1. **Необходимые библиотеки:** Вам понадобится Aspose.Cells для Java версии 25.3.
 2. **Настройка среды:** Убедитесь, что ваша среда разработки настроена на использование JDK и IDE, например IntelliJ IDEA или Eclipse.
 3. **Необходимые знания:** Знакомство с основными концепциями программирования на Java и работа с внешними библиотеками будет полезным.
 ## Настройка Aspose.Cells для Java
@@ -126,6 +128,9 @@ workbook.save("SpecifyingCustomSeparators_out.pdf");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

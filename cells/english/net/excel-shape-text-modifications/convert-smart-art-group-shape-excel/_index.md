@@ -8,7 +8,9 @@ url: /net/excel-shape-text-modifications/convert-smart-art-group-shape-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Smart Art to Group Shape in Excel
@@ -105,6 +107,7 @@ Yes, you can easily add it to your project via NuGet Package Manager.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,13 +168,13 @@ Ezzel az oktatóanyaggal megtanultad, hogyan hozhatsz létre és formázhatsz ce
 ## GYIK szekció
 
 **K: Hogyan alkalmazhatok több stílust egy cellára?**
-A: Lánc stílusú beállítások vagy különálló `Style` objektumot, és alkalmazd azt a cellára.
+A: Lánc stílusú beállítások vagy hozzon létre egy különálló `Style` objektumot, és alkalmazd azt a cellára.
 
 **K: Használhatom az Aspose.Cells-t más programozási nyelvekkel?**
 V: Igen, az Aspose.Cells elérhető .NET, C++, Python és más nyelveken. Ellenőrizze a következő címeket: [weboldal](https://www.aspose.com/) a részletekért.
 
 **K: Milyen rendszerkövetelmények szükségesek az Aspose.Cells futtatásához?**
-V: Az Aspose.Cells szerveren vagy fejlesztőgépen történő futtatásához Java 1.8-as vagy újabb verzió szükséges.
+V: Az Aspose.Cells szerveren vagy fejlesztőgépen történő futtatásához Java 1.8 vagy újabb verzió szükséges.
 
 **K: Hogyan oldhatom meg a nem megfelelően megjelenő cellastílusok problémáit?**
 A: Győződjön meg arról, hogy az összes tulajdonság beállítása és a munkafüzet mentése után alkalmazta a stílust.
@@ -192,6 +194,9 @@ V: Igen, az Aspose.Cells az Excel függvények széles skáláját támogatja, l
 Most, hogy minden információval és erőforrással rendelkezel, kezdj el dinamikus Excel fájlokat létrehozni az Aspose.Cells segítségével Java nyelven!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

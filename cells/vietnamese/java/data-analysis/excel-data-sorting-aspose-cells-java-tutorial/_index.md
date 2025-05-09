@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ Hãy bắt đầu bằng cách thiết lập môi trường phát triển của 
 
 ## Điều kiện tiên quyết
 
-Để thực hiện theo, hãy đảm bảo bạn có những thông tin sau:
+Để thực hiện theo, hãy đảm bảo bạn có những điều sau:
 
 ### Thư viện bắt buộc
 - **Aspose.Cells cho Java**: Khuyến nghị sử dụng phiên bản 25.3 trở lên.
@@ -212,6 +214,9 @@ Chúng tôi khuyến khích bạn thử triển khai giải pháp được thả
 Bằng cách làm theo hướng dẫn toàn diện này, bạn có thể tự tin triển khai và tối ưu hóa việc sắp xếp dữ liệu Excel trong các ứng dụng Java của mình bằng Aspose.Cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

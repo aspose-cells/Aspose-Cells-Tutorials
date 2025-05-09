@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 ## 導入
 
-複雑なデータセットを扱う際には、大量のデータを迅速に集計する必要があることがよくあります。Excelのピボットテーブルは、これを実現するための強力なツールです。しかし、これらのテーブルをプログラムで管理するのは難しい場合があります。このガイドでは、Java用のAspose.Cellsライブラリを使用して、Excelのピボットテーブルを簡単に読み込み、スタイルを設定する方法を説明します。
+複雑なデータセットを扱う際には、大量のデータを迅速に集計する必要があることがよくあります。Excelのピボットテーブルは、これを実現するための強力なツールです。しかし、これらのテーブルをプログラムで管理するのは難しい場合があります。このガイドでは、Java用のAspose.Cellsライブラリを使用して、Excelピボットテーブルを簡単に読み込み、スタイルを設定する方法を説明します。
 
 **学習内容:**
 - Aspose.Cells を使用してピボット テーブルを含む Excel ブックを読み込む方法。
@@ -188,6 +190,9 @@ A5: 訪問 [Asposeフォーラム](https://forum.aspose.com/c/cells/9) コミュ
 - **一時ライセンス**包括的なテストのための一時的なアクセスを確保 [Aspose 一時ライセンス](https://purchase。aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizált adatbevitel
@@ -79,7 +81,7 @@ loadOptions.setConvertNumericData(true);
 worksheet.getCells().importCsv("data.csv", 0, 0, loadOptions);
 ```
 
-### 5. Adatérvényesítés
+### 5. Adatellenőrzés
 
 Az adatok pontosságának biztosítása adatérvényesítési szabályok alkalmazásával. Például a bevitelt numerikus értékekre korlátozhatja:
 
@@ -115,9 +117,11 @@ Az adatbevitel automatizálása az Aspose.Cells for Java segítségével leegysz
    A dokumentációt a következő címen tekintheti meg: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 Most már rendelkezik a szükséges tudással és eszközökkel az adatbevitel hatékony automatizálásához az Aspose.Cells for Java használatával. Kezdje el fejleszteni adatkezelési folyamatait, és növelje üzleti hatékonyságát.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

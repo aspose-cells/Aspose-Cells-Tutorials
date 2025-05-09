@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Расширенные диаграммы Excel
@@ -47,9 +49,11 @@
 Узнайте, как создавать потрясающие каскадные диаграммы с помощью Aspose.Cells для Java. Пошаговое руководство с исходным кодом для эффективной визуализации данных.
 ### [Интерактивность диаграммы](./chart-interactivity/)
 Узнайте, как создавать интерактивные диаграммы с помощью Aspose.Cells для Java. Улучшите визуализацию данных с помощью интерактивности.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

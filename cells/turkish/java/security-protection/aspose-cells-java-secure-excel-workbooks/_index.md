@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ Bu eğitimde, Aspose.Cells for Java kullanarak Excel çalışma kitaplarınızı
    - Evet, Aspose.Cells, eski sürümler de dahil olmak üzere çok çeşitli Excel dosya biçimlerini destekler. `.xls` ve daha yenileri gibi `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

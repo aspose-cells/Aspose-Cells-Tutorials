@@ -8,7 +8,9 @@ url: /net/excel-creating-formatting-named-ranges/format-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Ranges in Excel
@@ -198,9 +200,11 @@ Aspose.Cells is compatible with .NET Framework 4.0 and higher, including .NET Co
 
 ### What should I do if I encounter issues while using Aspose.Cells?
 If you face any challenges, feel free to visit the [Aspose Support Forum](https://forum.aspose.com/c/cells/9) for help from the community and Aspose experts.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

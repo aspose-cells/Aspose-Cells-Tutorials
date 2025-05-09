@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ _worksheet.autoFitRows(options);
 ## 常見問題部分
 1. **我可以合併多個工作表的儲存格嗎？**
    - 是的，但您需要在同一個工作簿中分別處理每個工作表。
-2. **所有單元格類型都可以進行文字換行嗎？**
+2. **所有單元格類型都支援文字換行嗎？**
    - 文字換行主要針對基於文字的儲存格而設計，可能不會影響公式或圖像儲存格。
 3. **自動擬合如何影響大型資料集的效能？**
    - 自動擬合雖然提高了可讀性，但會增加大量資料的處理時間；透過選擇性使用來實現最佳化。
@@ -172,6 +174,9 @@ _worksheet.autoFitRows(options);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

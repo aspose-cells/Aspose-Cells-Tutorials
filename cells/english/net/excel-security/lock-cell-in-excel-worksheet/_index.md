@@ -8,7 +8,9 @@ url: /net/excel-security/lock-cell-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lock Cell In Excel Worksheet
@@ -123,6 +125,7 @@ Aspose.Cells offers a free trial for users. However, for continuous use, you nee
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

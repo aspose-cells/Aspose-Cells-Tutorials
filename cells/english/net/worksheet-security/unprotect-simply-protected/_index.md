@@ -8,7 +8,9 @@ url: /net/worksheet-security/unprotect-simply-protected/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unprotect Simply Protected Worksheet using Aspose.Cells
@@ -85,6 +87,7 @@ Yes, Aspose.Cells has versions for Java and other platforms, allowing similar fu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

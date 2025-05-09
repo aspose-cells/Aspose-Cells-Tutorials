@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ tym samouczku pokazano, jak skutecznie usuwać wiele wierszy z arkusza kalkulacy
 W tym przewodniku znajdziesz szczegółowe informacje na temat usuwania wierszy w programie Excel za pomocą pakietu Aspose.Cells for Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

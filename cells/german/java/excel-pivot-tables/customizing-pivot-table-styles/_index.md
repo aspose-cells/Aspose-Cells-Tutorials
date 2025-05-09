@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anpassen von PivotTable-Stilen
@@ -87,9 +89,11 @@ Das Anpassen von Pivot-Tabellen-Stilen in Aspose.Cells für die Java-API ist unk
    Die API-Dokumentation finden Sie unter [Aspose.Cells für Java-API-Referenzen](https://reference.aspose.com/cells/java/) für detaillierte Informationen.
 
 Jetzt verfügen Sie über das Wissen, Pivot-Tabellen-Stile in Aspose.Cells für Java zu erstellen und anzupassen. Entdecken Sie die Möglichkeiten und gestalten Sie Ihre Datenpräsentationen außergewöhnlich!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

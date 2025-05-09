@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fungsi MIN di Excel Dijelaskan
@@ -31,7 +33,7 @@ Sebelum kita menyelami implementasi praktis menggunakan Aspose.Cells untuk Java,
 ```
 
 - `number1`Ini adalah angka atau rentang pertama yang ingin Anda cari nilai minimumnya.
-- `[number2]`Bahasa Indonesia: `[number3]`, ... (opsional): Ini adalah angka atau rentang tambahan yang dapat Anda sertakan untuk menemukan nilai minimum.
+- `[number2]`, `[number3]`, ... (opsional): Ini adalah angka atau rentang tambahan yang dapat Anda sertakan untuk menemukan nilai minimum.
 
 ## Cara Kerja Fungsi MIN
 
@@ -43,7 +45,7 @@ Sekarang setelah kita memahami dengan baik apa fungsi MIN di Excel, mari kita ba
 
 ### Langkah 1: Siapkan Lingkungan Pengembangan Anda
 
-Sebelum Anda mulai membuat kode, pastikan Anda telah menginstal dan mengatur Aspose.Cells untuk Java di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari [Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum Anda mulai membuat kode, pastikan Anda telah menginstal dan mengatur Aspose.Cells untuk Java di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari [itt](https://releases.aspose.com/cells/java/).
 
 ### Langkah 2: Buat Proyek Java
 
@@ -54,7 +56,7 @@ Buat proyek Java baru di Lingkungan Pengembangan Terpadu (IDE) pilihan Anda dan 
 Untuk bekerja dengan file Excel, Anda perlu memuatnya ke aplikasi Java Anda. Berikut cara melakukannya:
 
 ```java
-// Memuat file Excel
+// Töltsd be az Excel fájlt
 Workbook workbook = new Workbook("sample.xlsx");
 ```
 
@@ -63,7 +65,7 @@ Workbook workbook = new Workbook("sample.xlsx");
 Berikutnya, akses lembar kerja tempat Anda ingin menerapkan fungsi MIN:
 
 ```java
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -96,11 +98,11 @@ double minValue = cell.getDoubleValue();
 System.out.println("The minimum value is: " + minValue);
 ```
 
-## Kesimpulan
+## Következtetés
 
 Fungsi MIN di Excel adalah alat praktis untuk menemukan nilai terkecil dalam rentang sel. Bila digabungkan dengan Aspose.Cells for Java, fungsi ini menjadi alat yang ampuh untuk mengotomatiskan tugas-tugas terkait Excel dalam aplikasi Java Anda. Dengan mengikuti langkah-langkah yang diuraikan dalam artikel ini, Anda dapat mengimplementasikan fungsi MIN secara efisien dan memanfaatkan kemampuannya.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara menerapkan fungsi MIN ke rentang sel yang dinamis?
 
@@ -125,6 +127,7 @@ Untuk menangani kesalahan saat menggunakan fungsi MIN di Excel, Anda dapat mengg
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

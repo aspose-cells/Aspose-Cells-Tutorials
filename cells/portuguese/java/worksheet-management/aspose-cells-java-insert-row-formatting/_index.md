@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Workbook workbook = new Workbook("path/to/your/excel/file.xlsx");
 
 Vamos explorar como inserir uma linha com formatação em seu aplicativo Java usando Aspose.Cells.
 
-### Etapa 1: instanciar um objeto de pasta de trabalho
+### Etapa 1: Instanciar um objeto de pasta de trabalho
 
 Crie uma instância do `Workbook` classe, representando seu arquivo Excel:
 ```java
@@ -158,6 +160,9 @@ Neste tutorial, exploramos como inserir uma linha com formatação em um arquivo
 Pronto para implementar esta solução em seu aplicativo Java? Experimente e veja como o Aspose.Cells pode otimizar suas manipulações de arquivos do Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

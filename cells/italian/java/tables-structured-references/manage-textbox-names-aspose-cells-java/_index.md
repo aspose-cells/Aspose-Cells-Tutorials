@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Aggiungere e assegnare un nome a una casella di testo consente di incorporare ef
    ```
 
 2. **Aggiungi casella di testo:**
-   Utilizzare il `add` metodo su `TextBoxCollection` per inserire una casella di testo in coordinate specifiche.
+   Utilizzare il `add` metodo su `TextBoxCollection` per inserire una casella di testo in corrispondenza di coordinate specifiche.
    
    ```java
    int idx = sheet.getTextBoxes().add(10, 10, 100, 50);
@@ -193,6 +195,9 @@ Come passaggi successivi, valuta la possibilit√† di esplorare altre funzionalit√
    - Controlla attentamente la configurazione di build del tuo progetto (Maven/Gradle) per assicurarti che tutte le dipendenze Aspose.Cells necessarie siano incluse correttamente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

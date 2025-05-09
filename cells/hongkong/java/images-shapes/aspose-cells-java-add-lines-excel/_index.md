@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -81,7 +83,7 @@ public class InitializeAspose {
 ## 實施指南
 讓我們分解一下使用 Aspose.Cells 為 Excel 表格新增線條的過程。
 
-### 在 Excel 工作表中新增一行
+### 在 Excel 工作表中新增線條
 **概述：** 我們將向工作表添加三種不同的線條形狀，自訂其樣式，然後儲存結果。
 
 #### 步驟 1：建立工作簿並存取第一個工作表
@@ -190,6 +192,9 @@ System.out.println("Excel file with lines saved successfully!");
 本綜合指南旨在為您提供有效使用 Aspose.Cells Java 增強 Excel 文件所需的知識和工具。今天就開始實施這些技術吧！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

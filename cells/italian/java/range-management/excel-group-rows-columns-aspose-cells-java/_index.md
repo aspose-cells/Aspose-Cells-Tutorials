@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -176,7 +178,7 @@ Ora hai le competenze per raggruppare righe e colonne, nonché per configurare l
 **Prossimi passi:**
 - Esplora altre funzionalità di Aspose.Cells visitando il loro [documentazione](https://reference.aspose.com/cells/java/).
 - Sperimenta diverse tecniche di raggruppamento e definizione dei dati sui tuoi set di dati.
-- Si consiglia di valutare l'integrazione di queste funzionalità in progetti più ampi per la generazione automatizzata di report.
+- Si consiglia di integrare queste funzionalità in progetti più ampi per la generazione automatizzata di report.
 
 ## Sezione FAQ
 
@@ -195,6 +197,9 @@ Ora hai le competenze per raggruppare righe e colonne, nonché per configurare l
 - **Documentazione**: [Documentazione Java di Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

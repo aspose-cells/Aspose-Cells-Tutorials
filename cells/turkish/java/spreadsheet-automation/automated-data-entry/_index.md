@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Otomatik Veri Girişi
@@ -115,9 +117,11 @@ Aspose.Cells for Java ile veri girişini otomatikleştirmek, veri yönetimi sür
    Belgeleri şu adreste inceleyebilirsiniz: [https://reference.aspose.com/hücreler/java/](https://reference.aspose.com/cells/java/).
 
 Artık Aspose.Cells for Java kullanarak veri girişini etkili bir şekilde otomatikleştirmek için gereken bilgi ve araçlara sahipsiniz. Veri işleme süreçlerinizi iyileştirmeye başlayın ve iş verimliliğinizi artırın.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

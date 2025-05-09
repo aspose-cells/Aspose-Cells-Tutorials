@@ -1,14 +1,16 @@
 ---
-title: Dodaj pole kombi do arkusza kalkulacyjnego w programie Excel
-linktitle: Dodaj pole kombi do arkusza kalkulacyjnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak programowo dodać pole kombi do arkusza kalkulacyjnego programu Excel, używając Aspose.Cells dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez każdy szczegół.
-weight: 21
-url: /pl/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/
+"description": "Dowiedz się, jak programowo dodać pole kombi do arkusza kalkulacyjnego programu Excel, używając Aspose.Cells dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez każdy szczegół."
+"linktitle": "Dodaj pole kombi do arkusza kalkulacyjnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj pole kombi do arkusza kalkulacyjnego w programie Excel"
+"url": "/pl/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj pole kombi do arkusza kalkulacyjnego w programie Excel
@@ -18,10 +20,10 @@ Tworzenie interaktywnych arkuszy kalkulacyjnych programu Excel może znacznie po
 W tym samouczku przeprowadzimy Cię przez proces dodawania pola kombi do arkusza kalkulacyjnego w programie Excel przy użyciu Aspose.Cells dla .NET. Jeśli chcesz tworzyć dynamiczne, przyjazne dla użytkownika arkusze kalkulacyjne, ten przewodnik pomoże Ci zacząć.
 ## Wymagania wstępne
 Zanim zagłębimy się w kod, upewnijmy się, że masz wszystko, czego potrzebujesz:
-- Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells dla .NET z[strona do pobrania](https://releases.aspose.com/cells/net/).
+- Aspose.Cells dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Cells dla .NET z [strona do pobrania](https://releases.aspose.com/cells/net/).
 - .NET Framework: Upewnij się, że masz zainstalowany .NET Framework na swoim komputerze. Każda wersja obsługiwana przez Aspose.Cells będzie działać.
 - Środowisko programistyczne: Użyj środowiska IDE, takiego jak Visual Studio, do zarządzania projektem i pisania kodu.
--  Licencja Aspose: Możesz pracować bez licencji w trybie ewaluacyjnym, ale w przypadku pełnej wersji musisz zastosować licencję. Uzyskaj[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli to konieczne.
+- Licencja Aspose: Możesz pracować bez licencji w trybie ewaluacyjnym, ale w przypadku pełnej wersji musisz zastosować licencję. Uzyskaj [licencja tymczasowa](https://purchase.aspose.com/temporary-license/) jeśli to konieczne.
 ## Importuj pakiety
 Aby rozpocząć, musisz zaimportować wymagane przestrzenie nazw do swojego projektu. Oto, czego potrzebujesz:
 ```csharp
@@ -81,7 +83,7 @@ cells["A6"].PutValue("Emp005");
 cells["A7"].PutValue("Emp006");
 ```
 
-- komórki[„B3”].PutValue: Umieszcza etykietę „Pracownik” w komórce B3.
+- cells["B3"].PutValue: Umieszcza etykietę "Pracownik" w komórce B3.
 - Font.IsBold = true: Ustawia tekst na pogrubiony, aby się wyróżniał.
 - Zakres wejściowy: Wprowadź kilka identyfikatorów pracowników w komórkach A2 do A7. Zostaną one wyświetlone na liście rozwijanej pola kombi.
 ## Krok 5: Dodaj pole kombi do arkusza kalkulacyjnego
@@ -132,21 +134,23 @@ workbook.Save(dataDir + "book1.out.xls");
 
 ## Wniosek
 Dodawanie pola kombi do arkuszy kalkulacyjnych programu Excel przy użyciu Aspose.Cells dla .NET to prosty proces, który znacznie zwiększa elastyczność wprowadzania danych. Programowe tworzenie kontrolek formularzy umożliwia łatwe tworzenie interaktywnych arkuszy kalkulacyjnych. Ten samouczek pokazał, jak dodać pole kombi, połączyć je z komórką i skonfigurować zakres wprowadzania danych, a wszystko to przy użyciu Aspose.Cells.
- Aspose.Cells oferuje szeroki zakres funkcji do manipulacji plikami Excel, co czyni go idealnym wyborem dla programistów, którzy chcą zautomatyzować zadania arkusza kalkulacyjnego. Wypróbuj go z[bezpłatny okres próbny](https://releases.aspose.com/).
+Aspose.Cells oferuje szeroki zakres funkcji do manipulacji plikami Excel, co czyni go idealnym wyborem dla programistów, którzy chcą zautomatyzować zadania arkusza kalkulacyjnego. Wypróbuj go z [bezpłatny okres próbny](https://releases.aspose.com/).
 ## Najczęściej zadawane pytania
 ### Czy mogę używać Aspose.Cells bez zainstalowanego programu Excel?
 Tak, Aspose.Cells działa niezależnie od programu Excel i nie wymaga instalacji programu Excel.
 ### Jak zastosować licencję w Aspose.Cells?
- Możesz ubiegać się o licencję, uzyskując ją od[Tutaj](https://purchase.aspose.com/buy) i dzwonię`License.SetLicense()` w twoim kodzie.
+Możesz ubiegać się o licencję, uzyskując ją od [Tutaj](https://purchase.aspose.com/buy) i dzwonię `License.SetLicense()` w twoim kodzie.
 ### Jakie formaty zapisywania plików obsługuje Aspose.Cells?
 Aspose.Cells obsługuje zapisywanie plików w wielu formatach, takich jak XLSX, XLS, CSV, PDF i inne.
 ### Czy liczba pól kombi, które mogę dodać, jest ograniczona?
 Nie, nie ma ścisłego limitu. Możesz dodać tyle pól kombi, ile wymaga Twój projekt.
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie od[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie od [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

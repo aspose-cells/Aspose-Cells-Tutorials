@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ import com.aspose.cells.Workbook;
 Példányosítás egy `Workbook` objektum. Ez az új Excel-fájlt jelöli.
 
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // Határozza meg az útvonalát itt
+String dataDir = "YOUR_DATA_DIRECTORY"; // Határozza meg itt az útvonalát
 
 Workbook workbook = new Workbook();
 ```
@@ -172,6 +174,9 @@ Merülj el a robusztus Excel-alkalmazások létrehozásában a ... segítségév
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

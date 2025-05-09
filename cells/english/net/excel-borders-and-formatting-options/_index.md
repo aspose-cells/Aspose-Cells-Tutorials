@@ -8,7 +8,9 @@ url: /net/excel-borders-and-formatting-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Borders and Formatting Options
@@ -36,9 +38,11 @@ Learn how to set borders programmatically in Excel using Aspose.Cells for .NET. 
 Learn how to set font programmatically in Excel using Aspose.Cells for .NET. Enhance your spreadsheets with stylish fonts.
 ### [Setting Pattern Programmatically in Excel](./setting-pattern/)
 Learn how to set patterns programmatically in Excel using Aspose.Cells for .NET with this step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

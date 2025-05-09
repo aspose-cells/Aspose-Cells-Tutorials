@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ Nézzük meg, milyen előfeltételek szükségesek ehhez az oktatóanyaghoz!
 
 ### Előfeltételek
 
-folytatáshoz a következőkre lesz szükséged:
+A folytatáshoz a következőkre lesz szükséged:
 - **Java fejlesztőkészlet (JDK)**Győződjön meg arról, hogy a JDK 8-as vagy újabb verziója telepítve van a gépén.
 - **Aspose.Cells Java könyvtárhoz**A 25.3-as verziót fogjuk használni. Illeszd be a projekted függőségei közé.
 - **Integrált fejlesztői környezet (IDE)**Használjon olyan IDE-t, mint az IntelliJ IDEA, az Eclipse vagy a NetBeans.
@@ -211,6 +213,9 @@ Ebben az oktatóanyagban megtanultad, hogyan használhatod ki az Aspose.Cells fo
 - Mindig alaposan teszteld az automatizálási szkripteket, és kezeld a kivételeket szabályosan. Győződj meg róla, hogy az adatforrásaid megbízhatóak és naprakészek.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

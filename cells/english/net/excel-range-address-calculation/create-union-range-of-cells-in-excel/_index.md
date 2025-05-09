@@ -8,7 +8,9 @@ url: /net/excel-range-address-calculation/create-union-range-of-cells-in-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Union Range of Cells in Excel
@@ -90,6 +92,7 @@ Yes, you can obtain a [temporary license](https://purchase.aspose.com/temporary-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

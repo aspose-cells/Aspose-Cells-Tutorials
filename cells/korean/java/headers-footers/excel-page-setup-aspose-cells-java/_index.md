@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,7 +187,7 @@ Aspose.Cells가 게임 체인저가 될 수 있는 다음과 같은 실제 시�
 ## 성능 고려 사항
 
 Aspose.Cells를 사용할 때 원활한 성능을 보장하려면:
-- **메모리 관리**: 항상 폐기하세요 `Workbook` 리소스를 해제하기 위한 객체입니다.
+- **메모리 관리**: 항상 폐기하세요 `Workbook` 객체를 해제하여 리소스를 확보합니다.
   
   ```java
   workbook.dispose();
@@ -234,6 +236,9 @@ Aspose.Cells for Java에 대한 이해를 높이고 역량을 확장할 수 있�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

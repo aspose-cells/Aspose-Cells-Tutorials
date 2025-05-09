@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/ClearPivotFields_out.xlsx");
 ```
 *説明*ファイルを保存すると、すべての変更が保持され、将来使用するためにアクセスできるようになります。
-## 実践応用（H2）
+## 実践的応用（H2）
 Aspose.Cells for Java は、さまざまな実用的なアプリケーションを提供します。
 1. **財務報告**Excel での財務レポートの更新を自動化し、ピボット テーブルを統合して主要な指標を要約します。
    
@@ -167,6 +169,9 @@ Aspose.Cellsを使用してJavaでピボットテーブルを最適化する方�
 - [無料試用版](https://releases.aspose.com/cells/java/) （最新試用版へのリンク）
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -79,7 +81,7 @@ A `Workbook` Az osztály lehetővé teszi az Excel fájlok programozott kezelés
     
     public class CreateWorkbook {
         public static void main(String[] args) {
-            String dataDir = "YOUR_DATA_DIRECTORY"; // Adja meg itt az adatkönyvtárat
+            String dataDir = "YOUR_DATA_DIRECTORY"; // Adja meg az adatkönyvtárat itt
             Workbook workbook = new Workbook(); // Létrehoz egy új Workbook objektumot
         }
     }
@@ -156,7 +158,7 @@ Készen állsz kipróbálni? Merülj el magabiztosan az automatizált Excel-szer
 
 ### Erőforrás
 - **Dokumentáció:** [Aspose.Cells Java dokumentáció](https://reference.aspose.com/cells/java/)
-- **Letöltési könyvtár:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Könyvtár letöltése:** [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
 - **Licenc vásárlása:** [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Próbálja ki az Aspose.Cells-t ingyen](https://releases.aspose.com/cells/java/)
 - **Ideiglenes engedély:** [Ideiglenes engedély igénylése](https://purchase.aspose.com/temporary-license/)
@@ -165,6 +167,9 @@ Készen állsz kipróbálni? Merülj el magabiztosan az automatizált Excel-szer
 Vedd át az irányítást Excel-adataid felett még ma az Aspose.Cells Java segítségével, és élvezd az automatizálás erejét!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

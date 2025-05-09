@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Aspose.Cells を使い始めるには、プロジェクトに依存関係とし�
 
 ### ライセンス取得手順
 1. **無料トライアル**Aspose.Cellsの試用版は以下からダウンロードできます。 [ここ](https://releases。aspose.com/cells/java/).
-2. **一時ライセンス**すべての機能を制限なく評価する必要がある場合は、一時ライセンスを取得してください [ここ](https://purchase。aspose.com/temporary-license/).
+2. **一時ライセンス**制限なくすべての機能を評価する必要がある場合は、一時ライセンスを取得してください [ここ](https://purchase。aspose.com/temporary-license/).
 3. **購入**長期使用の場合は、ライセンスの購入を検討してください。 [Asposeの購入ページ](https://purchase。aspose.com/buy).
 
 ### 基本的な初期化とセットアップ
@@ -166,6 +168,9 @@ Aspose.Cells for Javaを使ったExcelワークブックの作成とスタイル
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

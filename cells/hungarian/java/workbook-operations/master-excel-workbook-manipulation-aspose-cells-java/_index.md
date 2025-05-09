@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-09"
 "description": "Tanulja meg, hogyan kezelheti az Excel-munkafüzeteket Java nyelven az Aspose.Cells segítségével. Ez az útmutató a munkalapok létrehozását, átnevezését és a változtatások hatékony mentését ismerteti."
-"title": "Excel munkafüzet-manipuláció mestere Java nyelven az Aspose.Cells segítségével – Átfogó útmutató"
+"title": "Excel munkafüzet-manipuláció mesteri szintje Java nyelven az Aspose.Cells segítségével – Átfogó útmutató"
 "url": "/hu/java/workbook-operations/master-excel-workbook-manipulation-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -61,7 +63,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 #### Licencbeszerzés lépései
 
 1. **Ingyenes próbaverzió**Töltsön le egy ingyenes próbaverziót innen: [Aspose weboldala](https://releases.aspose.com/cells/java/) az Aspose.Cells funkcióinak kiértékeléséhez.
-2. **Ideiglenes engedély**: Szerezzen be ideiglenes engedélyt hosszabbított tesztelésre a következő címen: [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
+2. **Ideiglenes engedély**: Szerezzen be egy ideiglenes engedélyt hosszabbított tesztelésre a következő címen: [ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/).
 3. **Vásárlás**: Fontolja meg a teljes licenc megvásárlását, ha úgy találja, hogy az megfelel az igényeinek a [vásárlási oldal](https://purchase.aspose.com/buy).
 
 #### Alapvető inicializálás
@@ -174,7 +176,7 @@ public class RenameWorksheet {
 ### Változtatásokkal rendelkező Excel-fájl mentése
 
 #### Áttekintés
-A munkafüzet módosítása után elengedhetetlen a mentése. Ez a szakasz a módosítások hatékony mentését ismerteti.
+A munkafüzet módosítása után elengedhetetlen a mentése. Ez a szakasz bemutatja, hogyan mentheti hatékonyan a módosításokat.
 
 ##### 1. lépés: A kimeneti útvonal meghatározása
 
@@ -237,6 +239,9 @@ Ebben az útmutatóban az Aspose.Cells Java-ban való használatának alapjait v
    - Használj Mavent vagy Gradle-t, hogy közvetlenül a repositoryból beilleszd a projektedbe.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

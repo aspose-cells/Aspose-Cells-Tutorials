@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,6 +217,9 @@ R1: Aspose.Cells per Java supporta Java 8 e versioni successive. Assicurati che 
 R2: Sì, concentrandosi su intervalli o fogli di lavoro specifici, è possibile ottimizzare le prestazioni anche con file di grandi dimensioni.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

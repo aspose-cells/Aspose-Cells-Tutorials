@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel CONCATENATE 函數
@@ -120,7 +122,7 @@ workbook.save("concatenated_text.xlsx");
 是的，Aspose.Cells for Java 提供了一種連接文字的替代方法，使用 `Cell.putValue` 方法。您可以連接來自多個單元格的文本，並將結果設置在另一個單元格中，而無需使用公式。
 
 ```java
-// 不使用公式將儲存格 A1、B1 和 C1 中的文字連接到 D1
+// 不使用公式，將儲存格 A1、B1 和 C1 中的文字連接到 D1
 String concatenatedText = text1 + text2 + text3;
 worksheet.getCells().get("D1").putValue(concatenatedText);
 ```
@@ -130,6 +132,7 @@ worksheet.getCells().get("D1").putValue(concatenatedText);
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

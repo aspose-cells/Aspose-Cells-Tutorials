@@ -7,36 +7,38 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Presentasi Data Master: Menata dan Menyalin Rentang di Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Penyajian data yang efektif sangat penting dalam pengambilan keputusan di berbagai bidang seperti keuangan dan sains. Tutorial ini memandu Anda dalam menata dan mengelola data menggunakan Aspose.Cells Java untuk membuat, menata rentang, menyalin data, dan menyimpan buku kerja secara efisien.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Membuat dan menata rentang dalam lembar kerja Excel
 - Menyalin data antar rentang
 - Menyimpan buku kerja bergaya dengan Aspose.Cells Java
 
 Mari mulai dengan menyiapkan lingkungan Anda!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum memulai, pastikan Anda memiliki:
-- **Perpustakaan**: Pustaka Aspose.Cells versi 25.3.
-- **Pengaturan Lingkungan**: Lingkungan pengembangan Java (JDK) dan alat pembangunan seperti Maven atau Gradle.
-- **Basis Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi Excel.
+Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következőkkel:
+- **Könyvtárak**: Pustaka Aspose.Cells versi 25.3.
+- **Környezet beállítása**: Lingkungan pengembangan Java (JDK) dan alat pembangunan seperti Maven atau Gradle.
+- **Tudásbázis**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan operasi Excel.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk menggunakan Aspose.Cells di proyek Java Anda, tambahkan sebagai dependensi menggunakan Maven atau Gradle:
 
 ### Pakar
-Tambahkan ini ke Anda `pom.xml` mengajukan:
+Tambahkan ini ke Anda `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -45,22 +47,22 @@ Tambahkan ini ke Anda `pom.xml` mengajukan:
 </dependency>
 ```
 ### Bahasa Inggris Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-**Akuisisi Lisensi**: Mulailah dengan uji coba gratis dari situs Aspose atau ajukan lisensi sementara untuk penggunaan jangka panjang.
+**Licencszerzés**: Mulailah dengan uji coba gratis dari situs Aspose atau ajukan lisensi sementara untuk penggunaan jangka panjang.
 
 Dengan lingkungan Anda yang siap, mari jelajahi fitur-fitur Aspose.Cells Java!
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Fitur 1: Membuat dan Menata Rentang
 
-#### Ringkasan
+#### Áttekintés
 Tingkatkan keterbacaan data dengan menata rentang Excel menggunakan Aspose.Cells untuk Java. Sesuaikan font, warna, batas, dan banyak lagi.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **Langkah 3.1: Inisialisasi Buku Kerja**
 Buat contoh buku kerja baru:
 ```java
@@ -78,7 +80,7 @@ for (int i = 0; i < 50; i++) {
 }
 ```
 
-**Langkah 3.3: Tentukan dan Gaya Rentang**
+**Langkah 3.3: Tentukan dan Beri Gaya pada Rentang**
 Buat dan tata gaya rentang:
 ```java
 Range range = cells.createRange("A1", "D3");
@@ -105,17 +107,17 @@ flag.setBorders(true);
 range.applyStyle(style, flag);
 ```
 
-#### Penjelasan
-- **Inisialisasi Buku Kerja**: Menyiapkan buku kerja Excel dan mengakses lembar kerja pertama.
+#### Magyarázat
+- **Munkafüzet inicializálása**: Menyiapkan buku kerja Excel dan mengakses lembar kerja pertama.
 - **Populasi Data**: Beriterasi melalui baris dan kolom untuk mengisi data.
 - **Penataan Rentang**: Menentukan rentang, menerapkan font, warna latar belakang, dan gaya batas.
 
 ### Fitur 2: Menyalin Data dari Satu Rentang ke Rentang Lainnya
 
-#### Ringkasan
+#### Áttekintés
 Gandakan atau pindahkan konten dalam file Excel secara efisien dengan menyalin data antar rentang.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 **Langkah 4.1: Tentukan Rentang Tujuan**
 Salin data ke rentang tujuan yang ditentukan:
 ```java
@@ -125,10 +127,10 @@ range2.copyData(range);
 
 ### Fitur 3: Simpan Buku Kerja ke File
 
-#### Ringkasan
+#### Áttekintés
 Pastikan semua perubahan disimpan untuk penggunaan di masa mendatang dengan menyimpan buku kerja.
 
-#### Langkah-langkah Implementasi
+#### Megvalósítási lépések
 **Langkah 5.1: Simpan Buku Kerja**
 Tentukan direktori keluaran dan simpan berkas:
 ```java
@@ -136,48 +138,51 @@ String outDir = "YOUR_OUTPUT_DIRECTORY";
 workbook.save(outDir + "/CopyRangeDataOnly_out.xlsx", SaveFormat.XLSX);
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Jelajahi kasus penggunaan dunia nyata berikut untuk menata dan menyalin rentang:
-1. **Pelaporan Keuangan**: Tingkatkan keterbacaan data keuangan dengan gaya.
-2. **Analisis Data**: Salin hasil analisis untuk perbandingan.
-3. **Manajemen Inventaris**: Lembar gaya untuk mengidentifikasi tingkat stok dengan cepat.
+1. **Pénzügyi jelentéstétel**: Tingkatkan keterbacaan data keuangan dengan gaya.
+2. **Adatelemzés**: Salin hasil analisis untuk perbandingan.
+3. **Készletgazdálkodás**: Lembar gaya untuk mengidentifikasi tingkat stok dengan cepat.
 
-## Pertimbangan Kinerja
-- **Optimalkan Penggunaan Memori**: Gunakan API streaming untuk kumpulan data besar.
+## Teljesítménybeli szempontok
+- **Memóriahasználat optimalizálása**: Gunakan API streaming untuk kumpulan data besar.
 - **Penataan yang Efisien**: Terapkan gaya hanya jika diperlukan untuk mengurangi overhead.
-- **Praktik Terbaik**: Perbarui pustaka Aspose.Cells secara berkala untuk peningkatan kinerja.
+- **Bevált gyakorlatok**: Perbarui pustaka Aspose.Cells secara berkala untuk peningkatan kinerja.
 
-## Kesimpulan
+## Következtetés
 
 Anda telah mempelajari cara membuat dan menata rentang, menyalin data, dan menyimpan buku kerja menggunakan Aspose.Cells Java. Terapkan teknik-teknik ini untuk meningkatkan keterampilan penyajian dan manipulasi data Excel Anda hari ini!
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Cells?**
-   - Kunjungi [Halaman Lisensi Sementara](https://purchase.aspose.com/temporary-license/) untuk melamar.
+1. **Hogyan szerezhetek ideiglenes licencet az Aspose.Cells-hez?**
+   - Látogassa meg a [Ideiglenes licencoldal](https://purchase.aspose.com/temporary-license/) jelentkezni.
 
-2. **Bisakah saya menggunakan Aspose.Cells dengan bahasa pemrograman lain?**
+2. **Használhatom az Aspose.Cells-t más programozási nyelvekkel?**
    - Ya, tersedia untuk .NET dan C++. Periksa dokumentasinya.
 
 3. **Bagaimana jika gaya saya tidak diterapkan dengan benar?**
-   - Memastikan `StyleFlag` pengaturan sesuai dengan pilihan gaya Anda.
+   - Biztosítsa `StyleFlag` pengaturan sesuai dengan pilihan gaya Anda.
 
 4. **Apakah mungkin untuk menyalin rentang dengan format di Java?**
-   - Ya, itu `copyData()` metode menyalin data dan pemformatan secara default.
+   - Igen, a `copyData()` metode menyalin data dan pemformatan secara default.
 
 5. **Bagaimana cara memecahkan masalah kinerja?**
    - Tinjau praktik manajemen memori dan pertimbangkan streaming API untuk file besar.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh](https://releases.aspose.com/cells/java/)
-- [Pembelian](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltés](https://releases.aspose.com/cells/java/)
+- [Vásárlás](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

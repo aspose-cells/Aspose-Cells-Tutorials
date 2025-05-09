@@ -1,24 +1,26 @@
 ---
-title: Hiển thị hoặc ẩn đường lưới trong trang tính
-linktitle: Hiển thị hoặc ẩn đường lưới trong trang tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Mở khóa sức mạnh của Aspose.Cells cho .NET. Tìm hiểu cách ẩn đường lưới trong bảng tính Excel, giúp dữ liệu của bạn hấp dẫn hơn về mặt trực quan.
-weight: 11
-url: /vi/net/worksheet-display/display-hide-gridlines/
+"description": "Mở khóa sức mạnh của Aspose.Cells cho .NET. Tìm hiểu cách ẩn đường lưới trong bảng tính Excel, giúp dữ liệu của bạn hấp dẫn hơn về mặt trực quan."
+"linktitle": "Hiển thị hoặc ẩn đường lưới trong trang tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Hiển thị hoặc ẩn đường lưới trong trang tính"
+"url": "/vi/net/worksheet-display/display-hide-gridlines/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hiển thị hoặc ẩn đường lưới trong trang tính
 
 ## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ xem qua hướng dẫn từng bước về cách hiển thị hoặc ẩn đường lưới trong bảng tính. Chúng tôi sẽ đề cập đến mọi thứ từ các điều kiện tiên quyết đến bản thân mã hóa, giúp bạn nắm bắt quy trình dễ dàng. Hãy cùng tìm hiểu!
+Trong hướng dẫn này, chúng ta sẽ xem qua hướng dẫn từng bước về cách hiển thị hoặc ẩn đường lưới trong bảng tính. Chúng tôi sẽ đề cập đến mọi thứ từ các điều kiện tiên quyết đến bản thân mã hóa, giúp bạn nắm bắt quy trình dễ dàng. Hãy cùng bắt đầu!
 ## Điều kiện tiên quyết
 Trước khi tìm hiểu về mã, bạn cần lưu ý một số điều sau để đảm bảo trải nghiệm mã hóa diễn ra suôn sẻ:
 1. .NET Framework: Đảm bảo bạn có môi trường làm việc được thiết lập với .NET Framework. Hướng dẫn này đã được thử nghiệm trên phiên bản 4.5 trở lên.
-2.  Thư viện Aspose.Cells: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Bạn sẽ cần phải cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ [Trang tải xuống Aspose](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với C# sẽ giúp bạn hiểu mã hóa trôi chảy hơn.
 4. IDE: Sử dụng bất kỳ IDE nào bạn chọn có hỗ trợ phát triển .NET, chẳng hạn như Visual Studio.
 Khi bạn đã chuẩn bị đầy đủ các điều kiện tiên quyết này, chúng ta đã sẵn sàng để bắt đầu viết mã.
@@ -34,15 +36,15 @@ Mỗi dự án mã hóa cần có một nơi để lưu trữ các tệp của m
 ```csharp
 string dataDir = "Your Document Directory"; // Chỉ định thư mục của bạn ở đây
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tệp Excel của bạn.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế nơi lưu trữ các tệp Excel của bạn.
 ## Bước 2: Tạo luồng tệp cho tệp Excel
- Bây giờ chúng ta đã có các thư mục tại chỗ, bước tiếp theo là thiết lập kết nối đến tệp Excel mà bạn muốn chỉnh sửa. Đối với điều này, chúng ta sẽ tạo một`FileStream` sự vật.
+Bây giờ chúng ta đã có các thư mục tại chỗ, bước tiếp theo là thiết lập kết nối đến tệp Excel mà bạn muốn chỉnh sửa. Đối với điều này, chúng ta sẽ tạo một `FileStream` sự vật.
 ```csharp
 FileStream fstream = new FileStream(dataDir + "book1.xls", FileMode.Open);
 ```
 Dòng mã này mở tệp Excel được chỉ định (`book1.xls`) để đọc và ghi. Chỉ cần đảm bảo rằng tệp tồn tại trong thư mục của bạn.
 ## Bước 3: Khởi tạo một đối tượng Workbook
-Với luồng tập tin tại chỗ, bây giờ chúng ta có thể tạo một`Workbook` đối tượng cho phép chúng ta thao tác trên tệp Excel.
+Với luồng tập tin tại chỗ, bây giờ chúng ta có thể tạo một `Workbook` đối tượng cho phép chúng ta thao tác trên tệp Excel.
 ```csharp
 Workbook workbook = new Workbook(fstream);
 ```
@@ -58,7 +60,7 @@ Bây giờ đến phần kỳ diệu! Nếu bạn muốn ẩn đường lưới 
 ```csharp
 worksheet.IsGridlinesVisible = false; // Ẩn đường lưới
 ```
- Cài đặt`IsGridlinesVisible` ĐẾN`false` sẽ xóa những dòng chữ khó chịu, giúp dữ liệu của bạn nổi bật hơn.
+Cài đặt `IsGridlinesVisible` ĐẾN `false` sẽ xóa những dòng chữ khó chịu, giúp dữ liệu của bạn nổi bật hơn.
 ## Bước 6: Lưu sổ làm việc
 Sau khi thực hiện thay đổi cho bảng tính, điều quan trọng là phải lưu các thay đổi. Bạn cần chỉ định tệp đầu ra nơi bảng tính đã sửa đổi sẽ được lưu.
 ```csharp
@@ -75,19 +77,21 @@ fstream.Close();
 Và thế là xong! Bạn đã học thành công cách hiển thị hoặc ẩn đường lưới trong bảng tính Excel bằng thư viện Aspose.Cells cho .NET. Cho dù bạn đang biên tập báo cáo chuyên nghiệp hay chỉ sắp xếp lại bản trình bày dữ liệu, việc ẩn đường lưới có thể cải thiện đáng kể giao diện bảng tính của bạn. 
 ## Câu hỏi thường gặp
 ### Tôi có thể hiển thị lại đường lưới sau khi ẩn chúng không?
- Vâng! Chỉ cần thiết lập`IsGridlinesVisible` tài sản để`true` để hiển thị lại đường lưới.
+Vâng! Chỉ cần thiết lập `IsGridlinesVisible` tài sản để `true` để hiển thị lại đường lưới.
 ### Tôi phải làm sao nếu muốn ẩn đường lưới cho nhiều trang tính?
- Bạn có thể lặp lại Bước 4 và 5 cho mỗi bảng tính bằng cách sử dụng vòng lặp để lặp qua`workbook.Worksheets`.
+Bạn có thể lặp lại Bước 4 và 5 cho mỗi bảng tính bằng cách sử dụng vòng lặp để lặp qua `workbook.Worksheets`.
 ### Aspose.Cells có miễn phí sử dụng không?
-Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để sử dụng rộng rãi hoặc có các tính năng nâng cao, bạn cần phải mua. Kiểm tra[đây](https://purchase.aspose.com/buy) để biết thêm chi tiết.
+Aspose.Cells cung cấp bản dùng thử miễn phí, nhưng để sử dụng rộng rãi hoặc có các tính năng nâng cao, bạn cần phải mua. Kiểm tra [đây](https://purchase.aspose.com/buy) để biết thêm chi tiết.
 ### Tôi có thể thao tác các thuộc tính khác của bảng tính không?
 Chắc chắn rồi! Aspose.Cells rất linh hoạt và cung cấp nhiều thuộc tính để thao tác trên bảng tính, chẳng hạn như định dạng ô, thêm công thức và nhiều hơn nữa.
 ### Tôi có thể nhận hỗ trợ sử dụng Aspose.Cells ở đâu?
- Để được hỗ trợ và giải đáp thắc mắc về Aspose.Cells, bạn có thể truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Để được hỗ trợ và giải đáp thắc mắc về Aspose.Cells, bạn có thể truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

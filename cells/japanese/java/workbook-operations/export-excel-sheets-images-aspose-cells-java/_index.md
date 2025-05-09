@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -122,7 +124,7 @@ ImageIO.write(img1, "jpg", new File(dataDir + "/GTOfWorksheet_out.jpg"));
 Excel シートを画像としてエクスポートすると便利な実際のシナリオをいくつか示します。
 1. **ダッシュボードのプレゼンテーション:** データ量の多いスプレッドシートを画像に変換して、視覚的に魅力的なダッシュボードを作成します。
 2. **レポートへの埋め込み:** PDF レポートまたはプレゼンテーション内でデータの静的画像を使用します。
-3. **非技術系ステークホルダーとの共有:** Excel の全機能を必要としない可能性のある関係者に重要なデータのスナップショットを提供します。
+3. **非技術系の利害関係者との共有:** Excel の全機能を必要としない可能性のある関係者に重要なデータのスナップショットを提供します。
 ## パフォーマンスに関する考慮事項
 大規模なデータセットを扱う場合は、次のヒントを考慮してください。
 - **メモリ使用量を最適化:** 必要なワークシートのみをロードし、使用可能な場合はストリーミング オプションを使用します。
@@ -151,6 +153,9 @@ Aspose.Cells for Javaを使ってExcelシートを画像としてエクスポー
 Aspose.Cells を詳しく理解し、Excel シートを画像としてエクスポートしてみましょう。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

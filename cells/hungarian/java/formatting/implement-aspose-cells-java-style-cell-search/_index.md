@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ import com.aspose.cells.Workbook;
 
 ## Gyakorlati alkalmazások
 
-Az Aspose.Cells Java-ban különféle valós helyzetekben használható, például:
+Az Aspose.Cells for Java különféle valós helyzetekben használható, például:
 - **Adatellenőrzés:** Automatikusan érvényesítse és javítsa az adatformátumokat nagyméretű táblázatokban.
 - **Automatizált jelentéskészítés:** Jelentések generálása a cellastílusok adatkritériumok szerinti dinamikus módosításával.
 - **Integráció adatbázisokkal:** Szinkronizálja az Excel-adatokat az adatbázisrekordokkal stílusalapú keresések segítségével a konzisztencia-ellenőrzés érdekében.
@@ -188,10 +190,13 @@ A3: Igen, vásárlás előtt ingyenes próbaverzióval tesztelheti a funkcióit.
 **5. kérdés: Hogyan menthetem el a módosításokat egy Excel-fájlba az Aspose.Cells használatával?**
 A5: Használja a `save()` módszer egy `Workbook` objektum, megadva a kimeneti útvonalat.
 
-További forrásokért látogasson el a következő oldalra: [Az Aspose hivatalos dokumentációja](https://reference.aspose.com/cells/java/)vagy ha konkrét kérdései vannak, forduljon hozzájuk [támogatási fórum](https://forum.aspose.com/c/cells/9)Jó kódolást!
+További forrásokért látogasson el a következő oldalra: [Az Aspose hivatalos dokumentációja](https://reference.aspose.com/cells/java/)vagy ha konkrét kérdései vannak, forduljon hozzájuk [támogató fórum](https://forum.aspose.com/c/cells/9)Jó kódolást!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

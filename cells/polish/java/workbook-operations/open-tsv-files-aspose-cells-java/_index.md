@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ System.out.println("Cell Name: " + cell.getName() + " Value: " + cell.getStringV
 
 ### Porady dotyczące rozwiązywania problemów
 - **Wyjątek: Nie znaleziono pliku:** Sprawdź, czy ścieżka do pliku jest prawidłowa.
-- **Błędna konfiguracja LoadFormat:** Sprawdź to jeszcze raz `LoadOptions` jest ustawiony na TSV.
+- **Błędna konfiguracja LoadFormat:** Sprawdź to jeszcze raz `LoadOptions` jest ustawiony dla TSV.
 
 ## Zastosowania praktyczne
 
@@ -140,7 +142,7 @@ Poznaj więcej funkcji Aspose.Cells, aby jeszcze bardziej udoskonalić swoje pro
 
 1. **Jak wydajnie obsługiwać duże pliki TSV?**
    - Wykorzystaj techniki przesyłania strumieniowego udostępniane przez Aspose.Cells do przyrostowego przetwarzania danych.
-2. **Czy mogę przekonwertować pliki TSV na inny format za pomocą Aspose.Cells?**
+2. **Czy mogę przekonwertować pliki TSV do innego formatu za pomocą Aspose.Cells?**
    - Tak, możesz łatwo eksportować skoroszyt do różnych formatów, takich jak XLSX lub CSV.
 3. **Jakie są ograniczenia bezpłatnej licencji próbnej?**
    - Ostrzeżenia dotyczące oceny mogą pojawiać się w dokumentach utworzonych przy użyciu bezpłatnej licencji próbnej.
@@ -158,6 +160,9 @@ Poznaj więcej funkcji Aspose.Cells, aby jeszcze bardziej udoskonalić swoje pro
 - [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ Jako další kroky zvažte prozkoumání pokročilejších funkcí Aspose.Cells 
 Nyní, když jste zvládli implementaci vlastního výpočetního enginu v Aspose.Cells v Javě, otestujte si své dovednosti a začněte optimalizovat své tabulky jako nikdy předtím!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

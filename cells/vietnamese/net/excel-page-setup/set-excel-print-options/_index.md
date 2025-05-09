@@ -1,14 +1,16 @@
 ---
-title: Thiết lập tùy chọn in Excel
-linktitle: Thiết lập tùy chọn in Excel
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách thiết lập tùy chọn in trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này.
-weight: 150
-url: /vi/net/excel-page-setup/set-excel-print-options/
+"description": "Tìm hiểu cách thiết lập tùy chọn in trong Excel bằng Aspose.Cells cho .NET với hướng dẫn từng bước toàn diện này."
+"linktitle": "Thiết lập tùy chọn in Excel"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Thiết lập tùy chọn in Excel"
+"url": "/vi/net/excel-page-setup/set-excel-print-options/"
+"weight": 150
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Thiết lập tùy chọn in Excel
@@ -22,7 +24,7 @@ Bạn có thấy chán khi phải trình bày các bảng tính Excel trông h�
 Trước khi tìm hiểu mã, hãy đảm bảo rằng bạn có mọi thứ cần thiết để tiến hành suôn sẻ:
 
 1. Visual Studio hoặc bất kỳ IDE .NET nào: Bạn sẽ muốn có một môi trường phát triển đáng tin cậy.
-2. Thư viện Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện này; bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells cho .NET: Đảm bảo bạn đã cài đặt thư viện này; bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với các khái niệm lập trình C# sẽ giúp bạn hiểu rõ hơn các ví dụ mà chúng tôi sẽ đề cập.
 4. .NET Framework: Đảm bảo dự án của bạn hướng đến phiên bản .NET hỗ trợ Aspose.Cells.
    
@@ -62,18 +64,18 @@ Bây giờ, hãy bắt tay vào thực hiện và tìm hiểu mã lệnh! Chúng
 
 ## Bước 1: Xác định thư mục tài liệu
 
-Bước đầu tiên bao gồm việc chỉ định nơi lưu trữ tệp Excel của bạn. Thay vì mã hóa cứng các đường dẫn trên toàn bộ mã của bạn, hãy giữ cho nó gọn gàng và ngăn nắp.
+Bước đầu tiên bao gồm việc chỉ định nơi tệp Excel của bạn sẽ nằm. Thay vì mã hóa cứng các đường dẫn trên toàn bộ mã của bạn, hãy giữ cho nó gọn gàng và ngăn nắp.
 
 ```csharp
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Thay thế`"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Hãy nghĩ về điều này như việc thiết lập không gian làm việc của bạn trước khi bạn bắt đầu một dự án!
+Thay thế `"YOUR DOCUMENT DIRECTORY"` với đường dẫn thực tế mà bạn muốn lưu tệp Excel của mình. Hãy nghĩ về điều này như việc thiết lập không gian làm việc của bạn trước khi bạn bắt đầu một dự án!
 
 ## Bước 2: Tạo một phiên bản của Workbook
 
- Tiếp theo, chúng ta sẽ cần tạo một`Workbook` đối tượng. Đối tượng này hoạt động như một vùng chứa dữ liệu bảng tính của bạn.
+Tiếp theo, chúng ta sẽ cần tạo một `Workbook` đối tượng. Đối tượng này hoạt động như một vùng chứa dữ liệu bảng tính của bạn.
 
 ```csharp
 // Khởi tạo một đối tượng Workbook
@@ -84,7 +86,7 @@ Workbook workbook = new Workbook();
 
 ## Bước 3: Truy cập Thiết lập Trang
 
- Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập vào`PageSetup` thuộc tính của bảng tính.
+Để kiểm soát cách in bảng tính Excel của bạn, bạn sẽ cần truy cập vào `PageSetup` thuộc tính của bảng tính.
 
 ```csharp
 // Lấy tham chiếu của PageSetup của trang tính
@@ -95,7 +97,7 @@ Trong dòng này, chúng ta đang thiết lập trang cho trang tính đầu ti�
 
 ## Bước 4: Cấu hình Tùy chọn in
 
-Bây giờ đến phần thú vị! Chúng ta có thể tùy chỉnh nhiều cài đặt in khác nhau để làm cho bản Excel in của mình trông chuyên nghiệp.
+Bây giờ đến phần thú vị! Chúng ta có thể tùy chỉnh nhiều cài đặt in khác nhau để làm cho bản Excel đã in trông chuyên nghiệp.
 
 ```csharp
 // Cho phép in lưới
@@ -152,19 +154,21 @@ Xin chúc mừng! Bây giờ bạn đã được trang bị các kỹ năng đ�
 Aspose.Cells là một thư viện .NET mạnh mẽ cho phép thao tác và quản lý các tệp Excel.
 
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?  
- Có, bạn có thể truy cập dùng thử miễn phí Aspose.Cells[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập dùng thử miễn phí Aspose.Cells [đây](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Cells?  
- Bạn có thể yêu cầu giấy phép tạm thời thông qua đây[liên kết](https://purchase.aspose.com/temporary-license/).
+Bạn có thể yêu cầu giấy phép tạm thời thông qua đây [liên kết](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể tìm trợ giúp hoặc hỗ trợ cho Aspose.Cells ở đâu?  
- Truy cập diễn đàn Aspose để được hỗ trợ[đây](https://forum.aspose.com/c/cells/9).
+Truy cập diễn đàn Aspose để được hỗ trợ [đây](https://forum.aspose.com/c/cells/9).
 
 ### Aspose.Cells có phù hợp với các tệp Excel lớn không?  
 Chắc chắn rồi! Aspose.Cells được thiết kế để xử lý các tệp Excel lớn một cách hiệu quả.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

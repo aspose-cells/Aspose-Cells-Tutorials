@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ Segítségért vagy visszajelzésért csatlakozzon a [Aspose Fórum](https://for
 - **Vásárlás és ingyenes próbaverzió**: Tudjon meg többet a licenc beszerzéséről vagy az ingyenes próbaverzió megkezdéséről a következő címen: [Aspose vásárlás](https://purchase.aspose.com/buy) és [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Licentieverwerving
 Aspose.Cells voor Java is een commerciële bibliotheek, maar u kunt beginnen met een gratis proefperiode om de mogelijkheden ervan te evalueren. Zo krijgt u het:
-- **Gratis proefperiode**Download de nieuwste versie van [Aspose-downloads](https://releases.aspose.com/cells/java/).
+- **Gratis proefperiode**: Download de nieuwste versie van [Aspose-downloads](https://releases.aspose.com/cells/java/).
 - **Tijdelijke licentie**: Vraag een tijdelijke licentie aan via [deze link](https://purchase.aspose.com/temporary-license/) als u meer tijd nodig heeft dan de proefperiode toelaat.
 - **Aankoop**: Voor volledige toegang, koop een licentie via [Aspose Aankoop](https://purchase.aspose.com/buy).
 
@@ -141,6 +143,9 @@ A: Aspose.Cells is zeer compatibel en kan worden geïntegreerd in Spring, Hibern
 - **Ondersteuningsforum**: [Aspose Community Support](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

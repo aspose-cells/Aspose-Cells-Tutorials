@@ -1,14 +1,16 @@
 ---
-title: चार्ट में लेबल नियंत्रण जोड़ें
-linktitle: चार्ट में लेबल नियंत्रण जोड़ें
-second_title: Aspose.Cells .NET एक्सेल प्रोसेसिंग API
-description: इस चरण-दर-चरण मार्गदर्शिका के साथ Aspose.Cells for .NET में अपने चार्ट में लेबल नियंत्रण जोड़ने का तरीका जानें। अपने डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।
-weight: 10
-url: /hi/net/inserting-controls-in-charts/add-label-control-to-chart/
+"description": "इस चरण-दर-चरण मार्गदर्शिका के साथ Aspose.Cells for .NET में अपने चार्ट में लेबल नियंत्रण जोड़ने का तरीका जानें। अपने डेटा विज़ुअलाइज़ेशन को बेहतर बनाएँ।"
+"linktitle": "चार्ट में लेबल नियंत्रण जोड़ें"
+"second_title": "Aspose.Cells .NET एक्सेल प्रोसेसिंग API"
+"title": "चार्ट में लेबल नियंत्रण जोड़ें"
+"url": "/hi/net/inserting-controls-in-charts/add-label-control-to-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # चार्ट में लेबल नियंत्रण जोड़ें
@@ -22,7 +24,7 @@ url: /hi/net/inserting-controls-in-charts/add-label-control-to-chart/
 इससे पहले कि हम इसकी बारीकियों में उतरें, आइए जानें कि शुरुआत करने के लिए आपको क्या करना होगा:
 
 - C# का बुनियादी ज्ञान: C# प्रोग्रामिंग की मूल बातें समझना बहुत ज़रूरी है। अगर आप शुरुआती हैं, तो चिंता न करें - चरण स्पष्ट और संक्षिप्त होंगे।
-- Aspose.Cells लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Cells लाइब्रेरी स्थापित है। आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से ऐसा कर सकते हैं। यदि आपने पहले से ऐसा नहीं किया है, तो देखें[लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/) पुस्तकालय के लिए.
+- Aspose.Cells लाइब्रेरी: सुनिश्चित करें कि आपके पास Aspose.Cells लाइब्रेरी स्थापित है। आप Visual Studio में NuGet पैकेज मैनेजर के माध्यम से ऐसा कर सकते हैं। यदि आपने पहले से ऐसा नहीं किया है, तो देखें [लिंक को डाउनलोड करें](https://releases.aspose.com/cells/net/) पुस्तकालय के लिए.
 - विज़ुअल स्टूडियो: आपको अपना कोड लिखने और निष्पादित करने के लिए विज़ुअल स्टूडियो जैसे एकीकृत विकास वातावरण (IDE) की आवश्यकता होगी।
 
 ## पैकेज आयात करें
@@ -31,7 +33,7 @@ url: /hi/net/inserting-controls-in-charts/add-label-control-to-chart/
 
 ### Aspose.Cells शामिल करें
 
-अपने C# प्रोजेक्ट में, अपनी फ़ाइल के शीर्ष पर Aspose.Cells नामस्थान शामिल करना सुनिश्चित करें:
+अपने C# प्रोजेक्ट में, अपनी फ़ाइल के शीर्ष पर Aspose.Cells नामस्थान को शामिल करना सुनिश्चित करें:
 
 ```csharp
 using System;
@@ -57,7 +59,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
-इसे नाटक के लिए मंच तैयार करने जैसा समझें। आपको यह जानना होगा कि आपके अभिनेता (फाइलें) कहां हैं!
+इसे एक नाटक के लिए मंच तैयार करने जैसा समझें। आपको यह जानना होगा कि आपके अभिनेता (फाइलें) कहाँ हैं!
 
 ## चरण 2: मौजूदा फ़ाइल खोलें
 
@@ -68,7 +70,7 @@ string outputDir = "Your Output Directory";
 Workbook workbook = new Workbook(sourceDir + "sampleAddingLabelControlInChart.xls");
 ```
 
- यहाँ, हम उपयोग कर रहे हैं`Workbook` Aspose.Cells से क्लास डाउनलोड करें और अपनी एक्सेल फ़ाइल खोलें। यह रचनात्मकता को प्रवाहित करने के लिए दरवाज़ा खोलने जैसा है!
+यहाँ, हम उपयोग कर रहे हैं `Workbook` Aspose.Cells से क्लास डाउनलोड करें और अपनी एक्सेल फ़ाइल खोलें। यह रचनात्मकता को प्रवाहित करने के लिए दरवाज़ा खोलने जैसा है!
 
 ## चरण 3: वर्कशीट तक पहुंचें
 
@@ -89,7 +91,7 @@ Worksheet sheet = workbook.Worksheets[0];
 Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 ```
 
-यह रेखा किसी गैलरी में कलाकृति का सही टुकड़ा खोजने के समान है। आपका चार्ट इंतज़ार कर रहा है, और अब आप इसे और भी चमकदार बनाने के लिए तैयार हैं!
+यह रेखा गैलरी में कलाकृति का सही टुकड़ा खोजने के समान है। आपका चार्ट इंतज़ार कर रहा है, और अब आप इसे और अधिक चमकदार बनाने के लिए तैयार हैं!
 
 ## चरण 5: चार्ट में लेबल जोड़ें
 
@@ -100,7 +102,7 @@ Aspose.Cells.Charts.Chart chart = sheet.Charts[0];
 Aspose.Cells.Drawing.Label label = chart.Shapes.AddLabelInChart(600, 600, 350, 900);
 ```
 
- यहाँ,`AddLabelInChart` आपके द्वारा निर्दिष्ट निर्देशांक और आयामों के आधार पर एक लेबल बनाने का ध्यान रखता है। यह आपकी कलाकृति के चारों ओर एक सुंदर फ्रेम चिपकाने जैसा है!
+यहाँ, `AddLabelInChart` आपके द्वारा निर्दिष्ट निर्देशांक और आयामों के आधार पर एक लेबल बनाने का ध्यान रखता है। यह आपकी कलाकृति के चारों ओर एक सुंदर फ्रेम चिपकाने जैसा है!
 
 ## चरण 6: लेबल टेक्स्ट सेट करें
 
@@ -155,7 +157,7 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 हाँ! आप अपनी ज़रूरत के हिसाब से लेबल का फ़ॉन्ट, रंग, आकार और अन्य गुण बदल सकते हैं।
 
 ### क्या Aspose.Cells का उपयोग निःशुल्क है?
- Aspose.Cells एक सशुल्क उत्पाद है; हालाँकि, आप एक से शुरू कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) इसकी विशेषताओं का पता लगाने के लिए।
+Aspose.Cells एक सशुल्क उत्पाद है; हालाँकि, आप एक से शुरू कर सकते हैं [मुफ्त परीक्षण](https://releases.aspose.com/) इसकी विशेषताओं का पता लगाने के लिए।
 
 ### यदि मैं एकाधिक लेबल जोड़ना चाहूं तो क्या होगा?
 आप लेबल जोड़ने के चरणों को आवश्यकतानुसार कई बार दोहरा सकते हैं, प्रत्येक बार अलग-अलग स्थिति और पाठ के साथ।
@@ -164,10 +166,12 @@ Console.WriteLine("AddingLabelControlInChart executed successfully.");
 यदि आप प्लेसमेंट प्रकार को निश्चित पर सेट करते हैं, तो यह चार्ट डेटा के साथ आगे बढ़ेगा। यदि फ्री-फ्लोटिंग है, तो यह निर्दिष्ट स्थिति में रहता है।
 
 ### मैं अधिक विस्तृत Aspose.Cells दस्तावेज़ कहां पा सकता हूं?
- इसकी जाँच पड़ताल करो[प्रलेखन](https://reference.aspose.com/cells/net/) व्यापक गाइड और एपीआई संदर्भ के लिए.
+इसकी जाँच पड़ताल करो [प्रलेखन](https://reference.aspose.com/cells/net/) व्यापक गाइड और एपीआई संदर्भ के लिए.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

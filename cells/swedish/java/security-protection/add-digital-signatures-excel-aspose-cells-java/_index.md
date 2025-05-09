@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ workbook.addDigitalSignature(dsCollection);
 ```
 **Förklaring:**
 - Den här metoden bifogar alla signaturer i `dsCollection` till den laddade arbetsboken.
-- Det säkerställer att arbetsbokens integritet nu verifieras mot dessa nya signaturer.
+- Det säkerställer att arbetsboken nu får sin integritet verifierad mot dessa nya signaturer.
 
 ### Spara arbetsboken
 #### Översikt
@@ -179,16 +181,19 @@ När du arbetar med digitala signaturer och stora Excel-filer:
 - Optimera fil-I/O-operationer genom att hantera strömmar korrekt.
 - Övervaka CPU-användningen när flera arbetsböcker bearbetas samtidigt.
 
-Genom att följa dessa bästa metoder säkerställer du att ditt program fungerar smidigt när du hanterar digitalt signerade arbetsböcker.
+Att följa dessa bästa metoder hjälper till att säkerställa att ditt program fungerar smidigt när du hanterar digitalt signerade arbetsböcker.
 
 ## Slutsats
 Du har nu lärt dig hur du lägger till digitala signaturer i Excel-arbetsböcker med hjälp av Aspose.Cells för Java. Detta kraftfulla bibliotek tillhandahåller en robust uppsättning funktioner för att hantera kalkylblad programmatiskt, vilket säkerställer säkerheten och äktheten hos dina dokument.
 
 **Nästa steg:**
 - Experimentera med olika typer av certifikat
-- Utforska ytterligare funktioner som Aspose.Cells erbjuder för mer avancerad kalkylbladshantering
+- Utforska ytterligare funktioner som Aspose.Cells erbjuder för mer avancerad kalkylbladshantering.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

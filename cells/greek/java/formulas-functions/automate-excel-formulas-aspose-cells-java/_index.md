@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -208,6 +210,9 @@ public class ExcelCreator {
    Ένας τύπος διάδοσης ενημερώνεται αυτόματα καθώς προστίθενται νέες γραμμές δεδομένων, εξασφαλίζοντας συνεχή ακρίβεια χωρίς χειροκίνητη παρέμβαση.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

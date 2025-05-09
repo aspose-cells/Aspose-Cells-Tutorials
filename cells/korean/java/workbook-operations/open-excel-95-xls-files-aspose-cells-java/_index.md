@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 
 ## 필수 조건
 
-시작하기 전에 다음 요구 사항이 충족되는지 확인하세요.
+시작하기 전에 다음 요구 사항이 충족되었는지 확인하세요.
 
 ### 필수 라이브러리 및 종속성
 - **자바용 Aspose.Cells**: 버전 25.3 이상.
@@ -39,7 +41,7 @@ Java 프로그래밍에 대한 지식과 IDE 사용 경험이 권장됩니다. J
 
 ## Java용 Aspose.Cells 설정
 
-Maven이나 Gradle을 빌드 도구로 사용하든 Aspose.Cells를 사용하는 것은 간단합니다.
+Maven이나 Gradle을 빌드 도구로 사용하든 Aspose.Cells를 시작하는 것은 간단합니다.
 
 ### Maven 사용
 다음 종속성을 추가하세요. `pom.xml`:
@@ -172,6 +174,9 @@ Aspose.Cells Java를 사용하여 Excel 95/5.0 XLS 파일을 여는 것은 설�
 - **지원하다**: 커뮤니티 포럼에 가입하여 질문을 하고 통찰력을 공유하세요. [여기](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

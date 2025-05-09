@@ -1,14 +1,16 @@
 ---
-title: Обработка автоматических единиц осей диаграммы, как в Microsoft Excel
-linktitle: Обработка автоматических единиц осей диаграммы, как в Microsoft Excel
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как профессионально работать с автоматическими единицами измерения осей диаграммы в Excel с помощью Aspose.Cells для .NET! Пошаговое руководство включено.
-weight: 10
-url: /ru/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/
+"description": "Узнайте, как профессионально работать с автоматическими единицами измерения осей диаграммы в Excel с помощью Aspose.Cells для .NET! Пошаговое руководство включено."
+"linktitle": "Обработка автоматических единиц осей диаграммы, как в Microsoft Excel"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Обработка автоматических единиц осей диаграммы, как в Microsoft Excel"
+"url": "/ru/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-axis-like-microsoft-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Обработка автоматических единиц осей диаграммы, как в Microsoft Excel
@@ -23,8 +25,8 @@ url: /ru/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-ax
 
 1. Установленная среда Visual Studio: для написания и выполнения кода .NET вам понадобится среда IDE, например Visual Studio.
 2. .NET Framework: В этом руководстве предполагается, что вы используете .NET Framework 4.0 или более позднюю версию. Однако Aspose.Cells также совместим с .NET Core.
-3.  Библиотека Aspose.Cells: если вы еще этого не сделали, загрузите библиотеку с сайта Aspose.[здесь](https://releases.aspose.com/cells/net/) . Вы также можете начать с бесплатной пробной версии.[здесь](https://releases.aspose.com/).
-4. Пример файла Excel: Мы будем использовать пример файла Excel с именем`sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Убедитесь, что этот файл готов в вашем рабочем каталоге.
+3. Библиотека Aspose.Cells: если вы еще этого не сделали, загрузите библиотеку с сайта Aspose. [здесь](https://releases.aspose.com/cells/net/). Вы также можете начать с бесплатной пробной версии. [здесь](https://releases.aspose.com/).
+4. Пример файла Excel: Мы будем использовать пример файла Excel с именем `sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx`. Убедитесь, что этот файл готов в вашем рабочем каталоге.
 
 ## Импортные пакеты
 
@@ -43,11 +45,11 @@ url: /ru/net/customizing-chart-axes-and-units/handle-automatic-units-of-chart-ax
 
 1. В обозревателе решений щелкните правой кнопкой мыши «Ссылки».
 2. Выберите «Добавить ссылку».
-3.  Перейдите в папку, куда вы скачали Aspose.Cells, и выберите`Aspose.Cells.dll`.
+3. Перейдите в папку, куда вы скачали Aspose.Cells, и выберите `Aspose.Cells.dll`.
 
 ### Импорт требуемых пространств имен
 
- В верхней части вашего`Program.cs` файл, добавьте следующие пространства имен:
+В верхней части вашего `Program.cs` файл, добавьте следующие пространства имен:
 
 ```csharp
 using System;
@@ -68,7 +70,7 @@ using Aspose.Cells.Charts;
 Прежде чем загружать файл Excel, давайте настроим выходные и исходные каталоги. Это позволит нам указать, где будут храниться наши файлы.
 
 ```csharp
-//Выходной каталог — место сохранения PDF-файла.
+// Выходной каталог — место сохранения PDF-файла.
 string outputDir = "Your Output Directory"; // укажите здесь ваш выходной каталог
 
 // Исходный каталог — где находится образец файла Excel.
@@ -110,7 +112,7 @@ Chart ch = ws.Charts[0];
 
 В Excel одной из ключевых функций диаграмм является обработка автоматических единиц для осей диаграммы, что помогает поддерживать чистоту и понятность визуальных элементов. К счастью, Aspose.Cells позволяет вам легко изменять эти свойства.
 
- Для управления осью вам может потребоваться доступ к`Axis` вашей диаграммы и установите`MajorUnit`:
+Для управления осью вам может потребоваться доступ к `Axis` вашей диаграммы и установите `MajorUnit`:
 
 ```csharp
 // Установить основную единицу измерения для оси Y
@@ -148,7 +150,7 @@ Console.WriteLine("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed su
 Aspose.Cells — мощная библиотека .NET для создания, обработки и преобразования файлов Excel.
 
 ### Могу ли я использовать Aspose.Cells бесплатно?
-Да! Вы можете начать с бесплатной пробной версии[здесь](https://releases.aspose.com/).
+Да! Вы можете начать с бесплатной пробной версии [здесь](https://releases.aspose.com/).
 
 ### Нужно ли мне что-то устанавливать, чтобы начать работу?
 На вашем компьютере установлены только библиотека Aspose.Cells и .NET Framework.
@@ -157,10 +159,12 @@ Aspose.Cells — мощная библиотека .NET для создания,
 Конечно! Aspose.Cells поддерживает различные форматы, такие как XLSX, HTML и изображения.
 
 ### Где я могу найти поддержку, если у меня возникнут проблемы?
- Вы можете обратиться за помощью в сообщество Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Вы можете обратиться за помощью в сообщество Aspose. [здесь](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

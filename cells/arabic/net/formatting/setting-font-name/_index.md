@@ -1,54 +1,59 @@
 ---
-title: إعداد اسم الخط في Excel باستخدام Aspose.Cells ل .NET
-weight: 7700
-limit: 
-description: تعلم كيفية تعيين اسم الخط في ملف Excel باستخدام Aspose.Cells ل .NET. إنشاء دفتر عمل، إضافة ورقة عمل، وتصميم نص الخلية بسهولة.
-keywords: [Aspose.Cells for .NET, set font name in Excel, format Excel text, C# Excel font, change font in Excel, Excel cell formatting, .NET Excel library]
-url: /ar/net/formatting/setting-font-name/
+"description": "تعرّف على كيفية تعيين اسم الخط في ملف Excel باستخدام Aspose.Cells لـ .NET. أنشئ مصنفًا، وأضِف ورقة عمل، ونسّق نص الخلية بسهولة."
+"title": "تعيين اسم الخط في Excel باستخدام Aspose.Cells لـ .NET"
+"url": "/ar/net/formatting/setting-font-name/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إعداد اسم الخط في Excel باستخدام Aspose.Cells
+# تعيين اسم الخط في Excel باستخدام Aspose.Cells
 
-إن تعيين اسم الخط في ملف Excel أمر ضروري للحفاظ على شكل وثيقة مهنية ومتسقة. باستخدام Aspose.Cells ل .NET ، يمكنك بسهولة إنشاء دفتر عمل Excel وإضافة ورقة عمل وتعديل أساليب الخلية. يمركك هذا التعليمية في عملية تعيين اسم الخط المخصص للخلية المحددة في C#. اتبع الدليل خطوة بخطوة وتعزز تصميم مستند Excel بسهولة.  
+يُعدّ تعيين اسم الخط في ملف Excel أمرًا أساسيًا للحفاظ على تنسيق مستند احترافي ومتناسق. باستخدام Aspose.Cells لـ .NET، يمكنك بسهولة إنشاء مصنف Excel، وإضافة ورقة عمل، وتعديل أنماط الخلايا. يشرح هذا البرنامج التعليمي عملية تعيين اسم خط مخصص لخلية معينة في C#. اتبع الدليل خطوة بخطوة لتحسين تنسيق مستند Excel الخاص بك بسهولة.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/setting-font-name" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## تعليمات التثبيت  
 
-للاستخدام Aspose.Cells ل .NET، اتبع هذه الخطوات:  
+لاستخدام Aspose.Cells لـ .NET، اتبع الخطوات التالية:  
 
-1. إثباط عبر NuGet:  
-   افتح مدير الحزمات NuGet في Visual Studio و تشغيل:  
+1. التثبيت عبر NuGet:  
+   افتح مدير الحزم NuGet في Visual Studio وقم بتشغيل:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
 2. التنزيل من موقع Aspose:  
-   * احصل على أحدث نسخة من ["أسبوز.خلايا" تنزيلات](https://releases.aspose.com/cells/net/). . .  
+   - احصل على أحدث إصدار من [تنزيلات Aspose.Cells](https://releases.aspose.com/cells/net/).  
 
-3. إضافة الإشارة إلى Aspose.Cells:  
-   * في مشروعك .NET، أضف إشارة إلى `"تحدثوا. الخلايا".`. . .  
+3. إضافة مرجع إلى Aspose.Cells:  
+   - في مشروع .NET الخاص بك، أضف مرجعًا إلى `Aspose.Cells.dll`.  
 
-4. التقدم بطلب للحصول على الترخيص (اختياري):  
-   * إذا كنت تستخدم نسخة مرخصة، قم بتعيين ملف الترخيص على النحو التالي:  
+4. تطبيق الترخيص (اختياري):  
+   - إذا كنت تستخدم إصدارًا مرخصًا، فقم بإعداد ملف الترخيص على النحو التالي:  
    ```csharp
    License license = new License();
    license.SetLicense("Aspose.Cells.lic");
    ```  
 
-## انظر أيضاً  
-لشراء رخصة، اذهب إلى[صفحة الشراء](https://purchase.aspose.com/buy). . .  
-للحصول على الوثائق الكاملة، زيارة [Aspose.Cells لمستندات .NET](https://docs.aspose.com/cells/net/). . .  
-لمعرفة إشارة API الكاملة، تحقق [Aspose.Cells لمراجعة .NET API](https://reference.aspose.com/cells/net/). . . 
+## انظر أيضا  
+لشراء الترخيص، انتقل إلى [صفحة شراء Aspose](https://purchase.aspose.com/buy).  
+للحصول على الوثائق الكاملة، قم بزيارة [توثيق Aspose.Cells لـ .NET](https://docs.aspose.com/cells/net/).  
+لاستكشاف مرجع واجهة برمجة التطبيقات الكامل، راجع [مرجع واجهة برمجة التطبيقات Aspose.Cells لـ .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -91,7 +93,7 @@ CSV verilerinizi bir Çalışma Kitabına yükledikten ve muhtemelen işledikten
 
 #### Adım Adım Uygulama:
 **1. SaveFormat'ı içe aktarın**
-Dosyayı kaydetmek için aşağıdaki içe aktarmayı sağlayın:
+Dosyayı kaydetmek için aşağıdaki içe aktarımın yapıldığından emin olun:
 ```java
 import com.aspose.cells.SaveFormat;
 ```
@@ -150,6 +152,9 @@ Bu çözümü bugün uygulamaya çalışın ve veri aktarım süreçlerinizi kol
 Aspose.Cells ile yolculuğunuza bugün başlayın ve karmaşık verileri verimli bir şekilde işleme sanatında ustalaşın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

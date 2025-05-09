@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Panduan Rumus SUM Excel
 
 
-## Perkenalan
+## Bevezetés
 
 Microsoft Excel adalah alat yang ada di mana-mana untuk mengolah data, dan rumus SUM adalah salah satu fiturnya yang paling mendasar namun canggih. Aspose.Cells untuk Java membawa manipulasi Excel ke tingkat berikutnya, memungkinkan Anda mengotomatiskan tugas, membuat laporan, dan melakukan kalkulasi rumit dengan mudah. Panduan ini akan membantu Anda membuka potensi penuh rumus SUM dengan Aspose.Cells.
 
@@ -24,20 +26,20 @@ Aspose.Cells untuk Java adalah API Java yang tangguh yang memungkinkan pengemban
 
 ## Menyiapkan Lingkungan
 
-Sebelum mempelajari rumus Excel, penting untuk menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal Java, unduh pustaka Aspose.Cells for Java, dan sertakan dalam proyek Anda. Anda dapat menemukan tautan unduhannya [Di Sini](https://releases.aspose.com/cells/java/).
+Sebelum mempelajari rumus Excel, penting untuk menyiapkan lingkungan pengembangan Anda. Pastikan Anda telah menginstal Java, unduh pustaka Aspose.Cells for Java, dan sertakan dalam proyek Anda. Anda dapat menemukan tautan unduhannya [itt](https://releases.aspose.com/cells/java/).
 
-## Membuat Buku Kerja Baru
+## Új munkafüzet létrehozása
 
 Mari kita mulai dengan membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java. Berikut cuplikan kode dasar untuk membantu Anda memulai:
 
 ```java
-// Inisialisasi buku kerja baru
+// Új munkafüzet inicializálása
 Workbook workbook = new Workbook();
 
 // Tambahkan lembar kerja
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.save("sample.xlsx");
 ```
 
@@ -52,7 +54,7 @@ Sekarang setelah kita memiliki buku kerja, kita perlu menambahkan beberapa data 
 Cell cell = worksheet.getCells().get("A1");
 cell.putValue(10);
 
-// Simpan buku kerja
+// A munkafüzet mentése
 workbook.save("sample.xlsx");
 ```
 
@@ -99,7 +101,7 @@ Di sini, kami menghitung jumlah nilai dalam sel A1 hingga A10 dan D1 hingga D10,
 
 ## SUM Bersyarat dengan Aspose.Cells
 
-Aspose.Cells juga memungkinkan Anda untuk menerapkan rumus SUM bersyarat, yang dapat sangat berguna untuk analisis data yang kompleks. Anda dapat menggunakan fungsi seperti `SUMIF` Dan `SUMIFS` untuk menerapkan kondisi pada jumlah Anda.
+Aspose.Cells juga memungkinkan Anda untuk menerapkan rumus SUM bersyarat, yang dapat sangat berguna untuk analisis data yang kompleks. Anda dapat menggunakan fungsi seperti `SUMIF` és `SUMIFS` untuk menerapkan kondisi pada jumlah Anda.
 
 ```java
 // SUM bersyarat
@@ -121,15 +123,15 @@ Menangani kesalahan dan kasus-kasus ekstrem sangat penting saat bekerja dengan r
 
 Pemformatan sangat penting saat menyajikan data Anda. Aspose.Cells menawarkan berbagai pilihan pemformatan untuk membuat hasil SUM Anda menarik secara visual. Anda dapat menyesuaikan font, warna, batas, dan lainnya untuk membuat lembar kerja yang tampak profesional.
 
-## Kesimpulan
+## Következtetés
 
 Dalam panduan lengkap ini, kami telah menjelajahi rumus Excel SUM dan cara memanfaatkannya menggunakan Aspose.Cells untuk Java. Anda telah mempelajari cara menyiapkan lingkungan, membuat buku kerja, menambahkan data, dan menerapkan rumus SUM dalam berbagai skenario. Dengan pengetahuan ini, Anda dapat menyederhanakan tugas otomatisasi Excel dan memanfaatkan potensi penuh Aspose.Cells.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Bagaimana cara mengunduh Aspose.Cells untuk Java?
 
-Anda dapat mengunduh Aspose.Cells untuk Java dari situs web di [Di Sini](https://releases.aspose.com/cells/java/)Pilih versi yang sesuai dengan kebutuhan Anda dan ikuti petunjuk penginstalan.
+Anda dapat mengunduh Aspose.Cells untuk Java dari situs web di [itt](https://releases.aspose.com/cells/java/)Pilih versi yang sesuai dengan kebutuhan Anda dan ikuti petunjuk penginstalan.
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk Java dalam proyek komersial?
 
@@ -145,11 +147,12 @@ Tentu saja! Aspose.Cells untuk Java mendukung berbagai fungsi Excel, menjadikann
 
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Cells untuk Java?
 
-Anda dapat mengakses dokumentasi lengkap dan sumber daya tambahan untuk Aspose.Cells untuk Java di [Di Sini](https://reference.aspose.com/cells/java/)Jelajahi dokumentasi untuk menemukan fitur dan contoh lanjutan.
+Anda dapat mengakses dokumentasi lengkap dan sumber daya tambahan untuk Aspose.Cells untuk Java di [itt](https://reference.aspose.com/cells/java/)Jelajahi dokumentasi untuk menemukan fitur dan contoh lanjutan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

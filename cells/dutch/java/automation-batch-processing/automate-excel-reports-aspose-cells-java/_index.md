@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -182,6 +184,9 @@ A5: Loop over cellen in een kolom, bepaal de maximale breedte die de inhoud erva
 Door gebruik te maken van deze bronnen bent u beter toegerust om uw vaardigheden verder te verbeteren en complexere Excel-automatiseringstaken uit te voeren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

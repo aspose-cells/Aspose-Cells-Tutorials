@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengotomatiskan Penyortiran Data Excel di Java dengan Aspose.Cells: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin meningkatkan tugas analisis data Anda dengan mengotomatiskan penyortiran data Excel langsung dari buku kerja menggunakan Java? Tutorial ini akan memandu Anda melalui pengaturan dan penerapan penyortiran data Excel yang efisien menggunakan pustaka Aspose.Cells yang canggih. Dengan **Aspose.Cells untuk Java**, Anda dapat mengakses, memanipulasi, dan mengurutkan data Excel secara terprogram dengan mudah.
 
@@ -24,11 +26,11 @@ Dalam artikel ini, kita akan membahas cara memanfaatkan Aspose.Cells untuk mengi
 
 Mari memulai perjalanan ini untuk menyederhanakan operasi Excel Anda dengan Java.
 
-### Prasyarat
+### Előfeltételek
 
 Sebelum kita memulai, pastikan Anda telah menyiapkan hal-hal berikut:
 
-- **Pustaka Aspose.Cells**Anda memerlukan Aspose.Cells versi 25.3 untuk Java.
+- **Aspose.Cells könyvtár**Anda memerlukan Aspose.Cells versi 25.3 untuk Java.
 - **Kit Pengembangan Java (JDK)**Pastikan JDK terinstal dan dikonfigurasi pada sistem Anda.
 - **Pengaturan IDE**: Gunakan IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menjalankan kode Anda.
 
@@ -54,14 +56,14 @@ Untuk menggabungkan Aspose.Cells ke dalam proyek Anda, tambahkan konfigurasi dep
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Untuk memanfaatkan Aspose.Cells secara penuh, Anda dapat memulai dengan uji coba gratis untuk menguji fitur-fiturnya. Untuk penggunaan jangka panjang, pertimbangkan untuk memperoleh lisensi sementara atau membelinya.
 
-1. **Uji Coba Gratis**: Unduh dari [Rilis Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara**: Ajukan permohonan lisensi sementara pada [Halaman Pembelian Aspose](https://purchase.aspose.com/temporary-license/).
+1. **Ingyenes próbaverzió**Letöltés innen: [Aspose kiadások](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély**Ideiglenes engedélyt kell kérnie a következő címen: [Aspose Vásárlási Oldal](https://purchase.aspose.com/temporary-license/).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Sebelum menyelami kode, inisialisasi lingkungan Aspose.Cells Anda:
 
@@ -73,17 +75,17 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book_SourceData.xls");
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan membagi proses ini menjadi tiga fitur berbeda: menginisialisasi buku kerja, mengakses lembar kerja, dan mengonfigurasi penyortiran data.
 
-### Fitur 1: Inisialisasi Buku Kerja
+### 1. funkció: Munkafüzet inicializálása
 
-#### Ringkasan
+#### Áttekintés
 
 Fitur ini menunjukkan cara membuat `Workbook` contoh dari file Excel. Buku Kerja bertindak sebagai titik masuk untuk semua operasi dengan Aspose.Cells.
 
-**Langkah 1**: Membuat instance sebuah `Workbook`
+**1. lépés**: Membuat instance sebuah `Workbook`
 
 ```java
 import com.aspose.cells.Workbook;
@@ -93,15 +95,15 @@ Workbook workbook = new Workbook(dataDir + "Book_SourceData.xls");
 ```
 
 - **Parameter**: Jalur berkas ke berkas Excel sumber Anda.
-- **Tujuan**: Memuat konten Excel ke dalam memori untuk manipulasi.
+- **Cél**: Memuat konten Excel ke dalam memori untuk manipulasi.
 
 ### Fitur 2: Mengakses Lembar Kerja
 
-#### Ringkasan
+#### Áttekintés
 
 Akses lembar kerja tertentu dalam buku kerja Anda. Hal ini penting saat Anda perlu mengoperasikan set data tertentu.
 
-**Langkah 1**: Membuat instance sebuah `Workbook`
+**1. lépés**: Membuat instance sebuah `Workbook`
 
 ```java
 import com.aspose.cells.Workbook;
@@ -111,21 +113,21 @@ String dataDir = "YOUR_DATA_DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "Book_SourceData.xls");
 ```
 
-**Langkah 2**: Akses Lembar Kerja Pertama
+**2. lépés**: Akses Lembar Kerja Pertama
 
 ```java
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-- **Tujuan**: Mengambil referensi ke lembar pertama, memungkinkan operasi data yang ditargetkan.
+- **Cél**: Mengambil referensi ke lembar pertama, memungkinkan operasi data yang ditargetkan.
 
 ### Fitur 3: Pengaturan Penyortiran Data
 
-#### Ringkasan
+#### Áttekintés
 
 Konfigurasikan dan lakukan pengurutan pada rentang sel yang ditentukan menggunakan Aspose.Cells `DataSorter`.
 
-**Langkah 1**: Membuat instance sebuah `Workbook` dan Lembar Kerja Akses
+**1. lépés**: Membuat instance sebuah `Workbook` dan Lembar Kerja Akses
 
 ```java
 import com.aspose.cells.Workbook;
@@ -136,23 +138,23 @@ Workbook workbook = new Workbook(dataDir + "Book_SourceData.xls");
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
-**Langkah 2**: Dapatkan Koleksi Sel
+**2. lépés**: Dapatkan Koleksi Sel
 
 ```java
 import com.aspose.cells.Cells;
 Cells cells = worksheet.getCells();
 ```
 
-**Langkah 3**:Dapatkan `DataSorter` Obyek
+**3. lépés**:Dapatkan `DataSorter` Objektum
 
 ```java
 import com.aspose.cells.DataSorter;
 DataSorter sorter = workbook.getDataSorter();
 ```
 
-- **Tujuan**: Mempersiapkan fungsi penyortiran yang terkait dengan buku kerja.
+- **Cél**: Mempersiapkan fungsi penyortiran yang terkait dengan buku kerja.
 
-**Langkah 4**:Konfigurasikan Urutan Penyortiran dan Kunci
+**4. lépés**:Konfigurasikan Urutan Penyortiran dan Kunci
 
 ```java
 import com.aspose.cells.SortOrder;
@@ -182,17 +184,17 @@ ca.EndColumn = 2;     // Berakhir di kolom C (indeks 2)
 sorter.sort(cells, ca);
 ```
 
-- **Tujuan**: Menjalankan operasi pengurutan pada rentang sel yang ditentukan.
+- **Cél**: Menjalankan operasi pengurutan pada rentang sel yang ditentukan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells Java menawarkan kemampuan manipulasi data Excel yang serbaguna. Berikut ini beberapa aplikasi praktisnya:
 
-1. **Analisis Data**:Otomatiskan penyortiran untuk himpunan data besar guna memperoleh wawasan dengan cepat.
-2. **Pembuatan Laporan**: Urutkan data terlebih dahulu sebelum membuat laporan bulanan.
-3. **Integrasi dengan Basis Data**: Gunakan data yang diurutkan untuk mengisi entri basis data secara efisien.
+1. **Adatelemzés**:Otomatiskan penyortiran untuk himpunan data besar guna memperoleh wawasan dengan cepat.
+2. **Jelentésgenerálás**: Urutkan data terlebih dahulu sebelum membuat laporan bulanan.
+3. **Integráció adatbázisokkal**: Gunakan data yang diurutkan untuk mengisi entri basis data secara efisien.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Saat menangani file Excel berukuran besar, pertimbangkan kiat kinerja berikut:
 
@@ -200,36 +202,39 @@ Saat menangani file Excel berukuran besar, pertimbangkan kiat kinerja berikut:
 - Sesuaikan ukuran tumpukan Java untuk manajemen sumber daya yang lebih baik.
 - Memanfaatkan pemrosesan paralel jika memungkinkan untuk mempercepat operasi.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, kami telah mempelajari bagaimana Aspose.Cells Java menyederhanakan tugas penyortiran data dalam file Excel. Mulai dari menginisialisasi buku kerja hingga mengatur konfigurasi penyortiran yang rumit, kini Anda memiliki pengetahuan untuk menerapkan teknik ini dalam proyek Anda.
 
-### Langkah Berikutnya
+### Következő lépések
 
 Cobalah memperluas fungsionalitas ini dengan mengintegrasikannya ke dalam sistem yang lebih besar atau bereksperimen dengan fitur yang lebih canggih seperti pemformatan bersyarat dan tabel pivot.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu Aspose.Cells untuk Java?**
    - Pustaka yang memungkinkan manipulasi terprogram berkas Excel dalam aplikasi Java.
-2. **Bagaimana cara mengatur Aspose.Cells di proyek saya?**
+2. **Hogyan tudom beállítani az Aspose.Cells-t a projektemben?**
    - Tambahkan dependensi ke konfigurasi build Maven atau Gradle Anda dan unduh JAR dari situs Aspose.
 3. **Bisakah saya mengurutkan data berdasarkan beberapa kriteria?**
    - Ya, dengan mengatur beberapa kunci dan pesanan menggunakan `DataSorter`.
 4. **Apa lisensi sementara untuk Aspose.Cells?**
    - Lisensi sementara menyediakan akses penuh ke semua fitur tanpa batasan untuk tujuan evaluasi.
-5. **Bagaimana cara menangani file Excel berukuran besar secara efisien?**
+5. **Hogyan kezelhetek hatékonyan nagy Excel fájlokat?**
    - Kelola memori dengan hati-hati dan pertimbangkan untuk menambah ukuran tumpukan Java jika perlu.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi Aspose.Cells](https://purchase.aspose.com/buy)
-- [Versi Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Aspose.Cells licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

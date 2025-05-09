@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -19,7 +21,7 @@ Masz problemy z wyodrębnianiem ścieżek XML bezpośrednio z tabel Excela przy 
 **Czego się nauczysz:**
 - Konfigurowanie Aspose.Cells dla Java w projekcie.
 - Ładowanie pliku Excel z danymi XML.
-- Dostęp do arkuszy kalkulacyjnych i obiektów list w skoroszycie.
+- Uzyskiwanie dostępu do arkuszy kalkulacyjnych i obiektów list w skoroszycie.
 - Wyodrębnianie ścieżki XML z określonej tabeli w programie Excel.
 - Implementacja tej funkcjonalności na praktycznych przykładach.
 
@@ -31,7 +33,7 @@ Zanim zaczniesz wdrażać zmiany, upewnij się, że wszystko masz gotowe.
 - **Aspose.Cells dla Javy**: Wersja 25.3 lub nowsza.
 
 ### Wymagania dotyczące konfiguracji środowiska
-- Zainstalowany na Twoim komputerze pakiet JDK (najlepiej JDK 8 lub nowszy).
+- Na Twoim komputerze zainstalowany jest pakiet JDK (najlepiej JDK 8 lub nowszy).
 - Środowisko IDE, np. IntelliJ IDEA lub Eclipse, do pisania i wykonywania kodu.
 
 ### Wymagania wstępne dotyczące wiedzy
@@ -152,6 +154,9 @@ Odkryj [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/java/) aby
 - **Forum wsparcia**: [Społeczność wsparcia Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

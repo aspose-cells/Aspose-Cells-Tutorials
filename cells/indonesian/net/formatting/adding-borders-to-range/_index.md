@@ -1,54 +1,59 @@
 ---
-title: Menambahkan Border ke Range di Excel menggunakan Aspose.Cells untuk .NET
-weight: 7700
-limit: 
-description: Pelajari cara menambahkan batas ke kisaran dalam file Excel menggunakan Aspose.Cells untuk .NET. Ikuti panduan langkah demi langkah ini dengan kode sampel dan penjelasan rinci.
-keywords: [Aspose.Cells for .NET, Excel borders, add borders to range, C# Excel formatting, apply border Excel C#, Excel range border, .NET Excel library]
-url: /id/net/formatting/adding-borders-to-range/
+"description": "Pelajari cara menambahkan batas ke rentang dalam file Excel menggunakan Aspose.Cells for .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan penjelasan terperinci."
+"title": "Menambahkan Batas ke Rentang di Excel menggunakan Aspose.Cells untuk .NET"
+"url": "/id/net/formatting/adding-borders-to-range/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Border ke Range di Excel menggunakan Aspose.Cells
+# Menambahkan Batas ke Rentang di Excel menggunakan Aspose.Cells
   
-Aspose.Cells untuk .NET adalah perpustakaan yang kuat yang memungkinkan pengembang untuk membuat, memanipulasi, dan memformat file Excel secara programatik. Dalam contoh ini, kami menunjukkan bagaimana menambahkan batas ke kisaran sel tertentu dalam buku kerja Excel menggunakan C#. Anda akan belajar cara membuat buku kerja, mengakses lembar kerja, mendefinisikan kisaran, dan menerapkan batas tebal dalam berbagai arah. Tutorial ini memberikan pendekatan praktis untuk pemformatan Excel, sehingga memudahkan untuk meningkatkan struktur visual lembar kerja Anda.  
+Aspose.Cells untuk .NET adalah pustaka canggih yang memungkinkan pengembang membuat, memanipulasi, dan memformat file Excel secara terprogram. Dalam contoh ini, kami menunjukkan cara menambahkan batas ke rentang sel tertentu dalam buku kerja Excel menggunakan C#. Anda akan mempelajari cara membuat buku kerja, mengakses lembar kerja, menentukan rentang, dan menerapkan batas tebal di berbagai arah. Tutorial ini menyediakan pendekatan praktis untuk pemformatan Excel, sehingga memudahkan penyempurnaan struktur visual lembar kerja Anda.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/adding-borders-to-range" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Instruksi pemasangan:  
-Untuk menggunakan Aspose.Cells untuk .NET, ikuti langkah-langkah instalasi ini:  
+## Telepítési utasítások:  
+Untuk menggunakan Aspose.Cells untuk .NET, ikuti langkah-langkah instalasi berikut:  
 
 1. Instal melalui NuGet:  
-   * Buka proyek Visual Studio Anda.  
-   * Jalankan perintah berikut di Konsole Paket Manager:  
+   - Nyisd meg a Visual Studio-projektedet.  
+   - Jalankan perintah berikut di Konsol Manajer Paket:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-   * Atau, gunakan NuGet Package Manager untuk mencari "Aspose.Cells" dan menginstalnya.  
+   - Atau, gunakan NuGet Package Manager untuk mencari "Aspose.Cells" dan menginstalnya.  
 
-2. Unduh dari situs web Aspose:  
-   * Kunjungi [Aspose.Cells halaman download](https://releases.aspose.com/cells/net/)Aku tidak tahu.  
-   * Unduh versi terbaru dan referensi DLL dalam proyek Anda.  
+2. Unduh dari Situs Web Aspose:  
+   - Látogassa meg a [Aspose.Cells letöltési oldal](https://releases.aspose.com/cells/net/).  
+   - Unduh versi terbaru dan rujuk DLL di proyek Anda.  
 
-3. Minta Lisensi (Pilih):  
-   * Anda bisa meminta [lisensi sementara](https://purchase.aspose.com/temporary-license/)atau membeli versi lengkap dari [Berharap Membeli](https://purchase.aspose.com/buy)Aku tidak tahu.  
-   * Lisensi dalam proyek Anda menggunakan:  
+3. Terapkan Lisensi (Opsional):  
+   - Anda dapat meminta [ideiglenes engedély](https://purchase.aspose.com/temporary-license/) atau beli versi lengkap dari [Aspose vásárlás](https://purchase.aspose.com/buy).  
+   - Terapkan lisensi pada proyek Anda menggunakan:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## Lihat juga  
-Untuk membeli lisensi, pergi ke [Aspose halaman pembelian](https://purchase.aspose.com/buy)Aku tidak tahu.  
-Untuk dokumentasi lengkap, kunjungi [Aspose.Cells untuk Dokumen .NET](https://docs.aspose.com/cells/net/)Aku tidak tahu.  
-Untuk menjelajahi referensi API lengkap, periksa [Aspose.Cells untuk Referensi API .NET](https://reference.aspose.com/cells/net/)Aku tidak tahu. 
+## Lihat Juga  
+Untuk membeli lisensi, kunjungi [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy).  
+Untuk dokumentasi lengkap, kunjungi [Aspose.Cells .NET dokumentációhoz](https://docs.aspose.com/cells/net/).  
+Untuk menjelajahi referensi API lengkap, lihat [Aspose.Cells .NET API-referencia](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

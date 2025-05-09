@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Al implementar las funciones de este tutorial, ha descubierto las potentes funci
 - **Prueba gratuita y licencia temporal:** Comience con una prueba gratuita u obtenga una licencia temporal en [Prueba gratuita de Aspose](https://releases.aspose.com/cells/java/) y [Licencia temporal](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

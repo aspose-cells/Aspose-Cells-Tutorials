@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Grafici 3D
@@ -150,7 +152,7 @@ In questo articolo abbiamo illustrato come creare grafici 3D utilizzando Aspose.
 
 ### Come posso aggiungere più serie di dati a un grafico 3D?
 
-Per aggiungere più serie di dati a un grafico 3D, è possibile utilizzare `chart.getNSeries().add()` e specificare l'intervallo di dati per ciascuna serie. Assicurarsi di impostare il tipo di grafico appropriato per ciascuna serie per differenziarle.
+Per aggiungere più serie di dati a un grafico 3D, è possibile utilizzare `chart.getNSeries().add()` specificare l'intervallo di dati per ciascuna serie. Assicurarsi di impostare il tipo di grafico appropriato per ciascuna serie per differenziarle.
 
 ### Posso esportare grafici 3D creati con Aspose.Cells per Java in altri formati?
 
@@ -171,6 +173,7 @@ Sì, puoi automatizzare il processo di aggiornamento dei dati nei grafici 3D int
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

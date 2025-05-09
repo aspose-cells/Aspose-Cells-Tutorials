@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -36,7 +38,7 @@ Prima di integrare Aspose.Cells nel tuo progetto Java, assicurati di avere quant
 - Java Development Kit (JDK) versione 8 o successiva installato sul sistema.
 
 ### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java e della gestione di progetti con Maven o Gradle.
+- Conoscenza di base della programmazione Java e della gestione dei progetti con Maven o Gradle.
 - Sarà utile avere familiarità con i formati di file Excel e con la struttura HTML.
 
 ## Impostazione di Aspose.Cells per Java
@@ -162,6 +164,9 @@ Seguendo questa guida, hai imparato a caricare file HTML in modo efficiente e pr
 - [Forum di supporto](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

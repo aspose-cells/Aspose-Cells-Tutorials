@@ -1,14 +1,16 @@
 ---
-title: Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
-linktitle: Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
-second_title: Tài liệu tham khảo API Aspose.Cells cho .NET
-description: Tìm hiểu cách lấy chiều rộng và chiều cao trang của trang tính trong Aspose.Cells cho .NET bằng hướng dẫn từng bước đơn giản.
-weight: 80
-url: /vi/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/
+"description": "Tìm hiểu cách lấy chiều rộng và chiều cao trang của bảng tính trong Aspose.Cells cho .NET bằng hướng dẫn từng bước đơn giản."
+"linktitle": "Lấy Chiều Rộng Và Chiều Cao Của Trang Tính"
+"second_title": "Tài liệu tham khảo API Aspose.Cells cho .NET"
+"title": "Lấy Chiều Rộng Và Chiều Cao Của Trang Tính"
+"url": "/vi/net/excel-display-settings-csharp-tutorials/get-paper-width-and-height-of-worksheet/"
+"weight": 80
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lấy Chiều Rộng Và Chiều Cao Của Trang Tính
@@ -22,16 +24,16 @@ Bạn đã bao giờ thử in một bảng tính Excel và xử lý các kích t
 Trước khi đi sâu vào phép thuật mã hóa, chúng ta hãy cùng tìm hiểu những gì bạn cần để bắt đầu:
 
 1. Hiểu biết cơ bản về C#: Bạn nên có kiến thức cơ bản về C#. Nếu bạn mới học lập trình, đừng lo lắng! Chúng tôi sẽ hướng dẫn bạn một cách đơn giản.
-2.  Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells cho .NET trên máy của mình. Bạn có thể tải xuống từ[liên kết này](https://releases.aspose.com/cells/net/).
+2. Thư viện Aspose.Cells: Đảm bảo bạn đã cài đặt thư viện Aspose.Cells cho .NET trên máy của mình. Bạn có thể tải xuống từ [liên kết này](https://releases.aspose.com/cells/net/).
 3. Môi trường phát triển .NET: Thiết lập Visual Studio hoặc bất kỳ IDE nào bạn chọn để viết và thực thi mã C#. Nếu bạn không chắc chắn nên bắt đầu từ đâu, Visual Studio Community Edition là lựa chọn đáng tin cậy.
-4.  Tài liệu tham khảo và tài liệu: Làm quen với tài liệu Aspose.Cells để có cái nhìn sâu sắc hơn. Bạn có thể tìm thấy nó[đây](https://reference.aspose.com/cells/net/).
+4. Tài liệu tham khảo và tài liệu: Làm quen với tài liệu Aspose.Cells để có cái nhìn sâu sắc hơn. Bạn có thể tìm thấy nó [đây](https://reference.aspose.com/cells/net/).
 5. Kiến thức cơ bản về tệp Excel: Hiểu cách cấu trúc các tệp Excel (bảng tính, hàng và cột) sẽ giúp ích rất nhiều.
 
 Tuyệt! Bây giờ chúng ta đã kiểm tra xong những điều cần thiết, hãy bắt đầu nhập các gói cần thiết.
 
 ## Nhập gói
 
- Để cuộc sống của chúng ta dễ dàng hơn và tận dụng toàn bộ sức mạnh của Aspose.Cells, chúng ta cần nhập một vài gói. Đơn giản như việc thêm một`using` câu lệnh ở đầu tệp mã của bạn. Sau đây là những gì bạn cần nhập:
+Để làm cho cuộc sống của chúng ta dễ dàng hơn và tận dụng toàn bộ sức mạnh của Aspose.Cells, chúng ta cần nhập một vài gói. Đơn giản như việc thêm một `using` câu lệnh ở đầu tệp mã của bạn. Sau đây là những gì bạn cần nhập:
 
 ```csharp
 using System;
@@ -72,7 +74,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperA2;
 Console.WriteLine("PaperA2: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Trong khối này, chúng tôi đặt kích thước giấy là A2 và sau đó lấy chiều rộng và chiều cao của nó.`PaperWidth` Và`PaperHeight` thuộc tính cung cấp kích thước tính bằng inch. Giống như việc kiểm tra kích thước của khung trước khi đặt ảnh vào đó.
+Trong khối này, chúng tôi đặt kích thước giấy là A2 và sau đó lấy chiều rộng và chiều cao của nó. `PaperWidth` Và `PaperHeight` thuộc tính cung cấp kích thước tính bằng inch. Giống như việc kiểm tra kích thước của khung trước khi đặt ảnh vào đó.
 
 ## Bước 4: Lặp lại cho các kích thước giấy khác
 
@@ -90,7 +92,7 @@ ws.PageSetup.PaperSize = PaperSizeType.PaperLetter;
 Console.WriteLine("PaperLetter: " + ws.PageSetup.PaperWidth + "x" + ws.PageSetup.PaperHeight);
 ```
 
- Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh`PaperSize`tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước hộp dựa trên những gì bạn cần lưu trữ!
+Mỗi khối này mô phỏng bước trước đó nhưng điều chỉnh `PaperSize` tài sản theo đó. Chỉ cần thay đổi chỉ báo kích thước, bạn có thể dễ dàng có được các kích thước giấy khác nhau. Giống như thay đổi kích thước của một hộp dựa trên những gì bạn cần lưu trữ!
 
 ## Phần kết luận
 
@@ -102,19 +104,21 @@ Và bạn đã có nó! Bằng cách làm theo các bước này, bạn có th�
 Aspose.Cells là thư viện .NET được thiết kế để xử lý các tệp Excel mà không cần cài đặt Excel.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn tại[liên kết này](https://releases.aspose.com/).
+Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn tại [liên kết này](https://releases.aspose.com/).
 
 ### Làm thế nào để tôi có thể thiết lập kích thước giấy tùy chỉnh?
- Aspose.Cells cung cấp các tùy chọn để thiết lập kích thước giấy tùy chỉnh bằng cách sử dụng`PageSetup` lớp học.
+Aspose.Cells cung cấp các tùy chọn để thiết lập kích thước giấy tùy chỉnh bằng cách sử dụng `PageSetup` lớp học.
 
 ### Tôi có cần kiến thức lập trình để sử dụng Aspose.Cells không?
 Kiến thức lập trình cơ bản sẽ hữu ích, nhưng bạn có thể làm theo hướng dẫn để hiểu dễ hơn!
 
 ### Tôi có thể tìm thêm ví dụ ở đâu?
- Các[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) cung cấp nhiều ví dụ và hướng dẫn.
+Các [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/) cung cấp nhiều ví dụ và hướng dẫn.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

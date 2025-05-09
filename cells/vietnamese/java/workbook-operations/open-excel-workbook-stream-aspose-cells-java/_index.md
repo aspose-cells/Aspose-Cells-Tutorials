@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Trong hướng dẫn này, chúng tôi đã đề cập đến cách mở sổ l
 Bằng cách làm theo hướng dẫn toàn diện này, bạn sẽ được trang bị đầy đủ để tận dụng Aspose.Cells for Java trong các dự án của mình, nâng cao cả chức năng và hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

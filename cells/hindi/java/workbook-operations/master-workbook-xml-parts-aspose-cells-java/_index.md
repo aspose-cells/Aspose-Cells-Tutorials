@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ Aspose.Cells का उपयोग शुरू करने के लिए, 
 ```
 
 ### ग्रेडेल का उपयोग करना
-Gradle का उपयोग करने वाले लोग इसे अपने में शामिल करें `build.gradle` फ़ाइल:
+जो लोग Gradle का उपयोग कर रहे हैं, वे इसे अपने में शामिल करें `build.gradle` फ़ाइल:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
@@ -202,6 +204,9 @@ Aspose.Cells for Java के साथ कार्यपुस्तिका X
 आज ही Aspose.Cells for Java के साथ अपनी यात्रा शुरू करें, और अपने अनुप्रयोगों में Excel कार्यपुस्तिकाओं को संभालने के तरीके को बदलें!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

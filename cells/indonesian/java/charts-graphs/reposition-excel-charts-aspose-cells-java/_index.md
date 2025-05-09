@@ -7,16 +7,18 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Memposisikan Ulang Grafik Excel dengan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 Kesulitan mengatur ulang posisi grafik secara akurat dalam buku kerja Excel Anda menggunakan Java? Dengan Aspose.Cells untuk Java, Anda dapat memuat, memanipulasi, dan menyimpan file Excel dengan mudah, termasuk mengatur posisi objek grafik secara tepat. Panduan lengkap ini akan memandu Anda memuat buku kerja, mengakses lembar kerja, mengambil dan mengatur ulang posisi grafik, serta menyimpan modifikasi Anda.
 
-**Poin-poin Utama:**
+**Főbb tanulságok:**
 - Menyiapkan Aspose.Cells untuk Java di proyek Anda
 - Memuat buku kerja Excel yang ada menggunakan Java
 - Mengakses dan memanipulasi lembar kerja tertentu
@@ -25,14 +27,14 @@ Kesulitan mengatur ulang posisi grafik secara akurat dalam buku kerja Excel Anda
 
 Sebelum kita masuk ke penerapan, mari pastikan Anda telah memenuhi semua prasyarat yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 Untuk mengikuti tutorial ini secara efektif, Anda memerlukan:
 - **Aspose.Cells untuk Java**: Direkomendasikan versi 25.3 atau yang lebih baru.
 - **Lingkungan Pengembangan Java**: Keakraban dengan pemrograman Java dasar dan JDK yang terinstal di sistem Anda.
 - **Pengaturan IDE**: IDE apa pun seperti IntelliJ IDEA, Eclipse, atau NetBeans cocok untuk menulis dan menjalankan kode.
 
 ## Menyiapkan Aspose.Cells untuk Java
-### Informasi Instalasi
+### Telepítési információk
 **Ketergantungan Maven:**
 Sertakan Aspose.Cells dalam proyek Maven Anda dengan menambahkan dependensi ini ke `pom.xml`:
 ```xml
@@ -43,17 +45,17 @@ Sertakan Aspose.Cells dalam proyek Maven Anda dengan menambahkan dependensi ini 
 </dependency>
 ```
 **Ketergantungan Gradle:**
-Untuk pengguna Gradle, sertakan ini di `build.gradle` mengajukan:
+Untuk pengguna Gradle, sertakan ini di `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
-### Akuisisi Lisensi
+### Licencszerzés
 Sebelum menggunakan Aspose.Cells, pertimbangkan untuk mendapatkan lisensi untuk akses penuh tanpa batasan:
-- **Uji Coba Gratis**:Uji fitur dengan uji coba gratis dari [Asumsikan](https://releases.aspose.com/cells/java/).
-- **Lisensi Sementara**Dapatkan lisensi sementara melalui [Halaman pembelian Aspose](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**:Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi penuh melalui [Asumsikan](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió**:Uji fitur dengan uji coba gratis dari [Aspose](https://releases.aspose.com/cells/java/).
+- **Ideiglenes engedély**: Ideiglenes jogosítvány beszerzése a következőn keresztül: [Az Aspose vásárlási oldala](https://purchase.aspose.com/temporary-license/).
+- **Vásárlás**:Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi penuh melalui [Aspose](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Setelah menyiapkan perpustakaan di proyek Anda, Anda dapat menginisialisasinya dengan konfigurasi dasar:
 ```java
 import com.aspose.cells.Workbook;
@@ -68,10 +70,10 @@ public class InitializeAspose {
     }
 }
 ```
-## Panduan Implementasi
+## Megvalósítási útmutató
 Mari kita jelajahi setiap fitur langkah demi langkah.
-### Muat Buku Kerja
-#### Ringkasan
+### Munkafüzet betöltése
+#### Áttekintés
 Memuat buku kerja adalah langkah awal dalam memanipulasi file Excel dengan Aspose.Cells.
 **H3: Memuat Buku Kerja yang Ada**
 ```java
@@ -83,10 +85,10 @@ Workbook workbook = new Workbook(filePath);
 ```
 - `dataDir`: Jalur ke direktori data Anda.
 - `filePath`: Nama file buku kerja Excel Anda.
-**Penjelasan**: : Itu `Workbook` kelas memungkinkan memuat file Excel yang ada, penting untuk memulai modifikasi apa pun.
+**Magyarázat**A `Workbook` kelas memungkinkan memuat file Excel yang ada, penting untuk memulai modifikasi apa pun.
 
-### Lembar Kerja Akses
-#### Ringkasan
+### Hozzáférési munkalap
+#### Áttekintés
 Mengakses lembar kerja tertentu dalam buku kerja memungkinkan manipulasi yang ditargetkan.
 **H3: Mengambil Lembar Kerja Pertama**
 ```java
@@ -96,10 +98,10 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 - `workbook.getWorksheets()`Mengambil semua lembar kerja dalam buku kerja.
 - `.get(0)`: Mengakses lembar kerja pertama berdasarkan indeks.
-**Penjelasan**: Lembar kerja diindeks dari nol, memungkinkan akses ke lembar tertentu berdasarkan indeksnya.
+**Magyarázat**: Lembar kerja diindeks dari nol, memungkinkan akses ke lembar tertentu berdasarkan indeksnya.
 
 ### Muat Bagan dari Lembar Kerja
-#### Ringkasan
+#### Áttekintés
 Mengambil grafik sangat penting untuk manipulasi mereka.
 **H3: Memuat Objek Bagan**
 ```java
@@ -109,10 +111,10 @@ Chart chart = worksheet.getCharts().get(0);
 ```
 - `worksheet.getCharts()`: Mengambil semua objek bagan dalam lembar kerja yang dipilih.
 - `.get(0)`: Memilih objek bagan pertama berdasarkan indeks.
-**Penjelasan**: Operasi ini penting untuk mengakses dan memanipulasi bagan tertentu di lembar Excel Anda.
+**Magyarázat**: Operasi ini penting untuk mengakses dan memanipulasi bagan tertentu di lembar Excel Anda.
 
 ### Ubah Posisi Objek Bagan
-#### Ringkasan
+#### Áttekintés
 Mengubah posisi bagan melibatkan perubahan lokasinya pada lembar kerja.
 **H3: Mengubah Posisi Grafik**
 ```java
@@ -121,10 +123,10 @@ chart.getChartObject().setY(150);
 ```
 - `setX(int x)`: Mengatur posisi horizontal grafik.
 - `setY(int y)`: Menyesuaikan posisi vertikal.
-**Penjelasan**: Metode ini memungkinkan kontrol yang tepat terhadap lokasi munculnya bagan pada lembar kerja, memastikannya sesuai dengan persyaratan tata letak Anda.
+**Magyarázat**: Metode ini memungkinkan kontrol yang tepat terhadap lokasi munculnya bagan pada lembar kerja, memastikannya sesuai dengan persyaratan tata letak Anda.
 
-### Simpan Buku Kerja
-#### Ringkasan
+### Munkafüzet mentése
+#### Áttekintés
 Setelah membuat modifikasi, menyimpan buku kerja sangat penting untuk mempertahankan perubahan.
 **H3: Menyimpan Buku Kerja yang Dimodifikasi**
 ```java
@@ -135,30 +137,30 @@ workbook.save(outDir + "/CCPosition_out.xls");
 ```
 - `outDir`: Jalur ke direktori keluaran Anda.
 - `.save(String filePath)`: Menyimpan buku kerja ke berkas yang ditentukan.
-**Penjelasan**: : Itu `save` metode ini memastikan semua perubahan ditulis kembali ke berkas Excel, membuatnya tersedia untuk penggunaan atau distribusi lebih lanjut.
+**Magyarázat**A `save` metode ini memastikan semua perubahan ditulis kembali ke berkas Excel, membuatnya tersedia untuk penggunaan atau distribusi lebih lanjut.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 ### Kasus Penggunaan
-1. **Pelaporan Keuangan**: Ubah posisi bagan dalam laporan keuangan untuk meningkatkan visualisasi data.
+1. **Pénzügyi jelentéstétel**: Ubah posisi bagan dalam laporan keuangan untuk meningkatkan visualisasi data.
 2. **Penelitian Akademis**:Mengatur elemen bagan secara efektif dalam makalah penelitian dan presentasi.
 3. **Dasbor Penjualan**: Sesuaikan dasbor dengan memposisikan indikator kinerja utama secara dinamis.
 4. **Analisis Pemasaran**:Sejajarkan metrik pemasaran secara visual untuk wawasan strategis yang lebih baik.
 
-### Kemungkinan Integrasi
+### Integrációs lehetőségek
 Integrasikan Aspose.Cells dengan aplikasi atau sistem Java lain yang memerlukan manipulasi file Excel otomatis, seperti sistem CRM atau alat analisis data.
 
-## Pertimbangan Kinerja
-- **Optimalkan Penggunaan Memori**: Gunakan metode yang hemat memori dan buang objek yang tidak digunakan.
-- **Pemrosesan Batch**: Memproses kumpulan data besar secara batch untuk mempertahankan kinerja.
+## Teljesítménybeli szempontok
+- **Memóriahasználat optimalizálása**: Gunakan metode yang hemat memori dan buang objek yang tidak digunakan.
+- **Kötegelt feldolgozás**: Memproses kumpulan data besar secara batch untuk mempertahankan kinerja.
 - **Manajemen Benang**: Manfaatkan multi-threading untuk pemrosesan bersamaan jika berlaku.
 
-## Kesimpulan
+## Következtetés
 Dalam tutorial ini, kami telah membahas cara mengubah posisi grafik dalam buku kerja Excel menggunakan Aspose.Cells untuk Java. Dengan menguasai langkah-langkah ini, Anda dapat menyempurnakan presentasi data dan menyederhanakan proses penyiapan dokumen.
-**Langkah Berikutnya:** Bereksperimenlah dengan fitur manipulasi bagan lain yang ditawarkan oleh Aspose.Cells atau jelajahi kemampuannya dalam berbagai skenario seperti menangani banyak lembar atau mengotomatiskan seluruh alur kerja.
+**Következő lépések:** Bereksperimenlah dengan fitur manipulasi bagan lain yang ditawarkan oleh Aspose.Cells atau jelajahi kemampuannya dalam berbagai skenario seperti menangani banyak lembar atau mengotomatiskan seluruh alur kerja.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara menginstal Aspose.Cells untuk proyek non-Maven/Gradle?**
-   - Unduh JAR dari [Unduhan Aspose](https://releases.aspose.com/cells/java/) dan menambahkannya ke jalur pembuatan proyek Anda secara manual.
+   - Unduh JAR dari [Aspose letöltések](https://releases.aspose.com/cells/java/) dan menambahkannya ke jalur pembuatan proyek Anda secara manual.
 2. **Bisakah saya mengubah posisi beberapa bagan dalam satu buku kerja?**
    - Ya, ulangi lagi `worksheet.getCharts()` untuk mengakses dan memodifikasi setiap bagan secara individual.
 3. **Bagaimana jika berkas Excel saya dilindungi kata sandi?**
@@ -168,12 +170,15 @@ Dalam tutorial ini, kami telah membahas cara mengubah posisi grafik dalam buku k
 5. **Di mana saya dapat menemukan teknik manipulasi grafik yang lebih canggih?**
    - Memeriksa [Dokumentasi Aspose yang komprehensif](https://reference.aspose.com/cells/java/) dan menjelajahi forum komunitas mereka untuk mendapatkan wawasan tambahan.
 
-## Sumber daya
-- **Dokumentasi**:Jelajahi panduan mendalam di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
-- **Unduh**:Akses versi terbaru dari [Rilis Aspose](https://releases.aspose.com/cells/java/).
-- **Pembelian & Uji Coba Gratis**: Mulailah dengan uji coba atau pembelian melalui [Situs web Aspose](https://purchase.aspose.com/buy).
+## Erőforrás
+- **Dokumentáció**Részletes útmutatók itt: [Aspose dokumentáció](https://reference.aspose.com/cells/java/).
+- **Letöltés**:Akses versi terbaru dari [Aspose kiadások](https://releases.aspose.com/cells/java/).
+- **Vásárlás és ingyenes próbaverzió**: Mulailah dengan uji coba atau pembelian melalui [Aspose weboldala](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

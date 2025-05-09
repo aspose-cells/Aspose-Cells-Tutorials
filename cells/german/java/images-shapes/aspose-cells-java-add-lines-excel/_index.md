@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Bereit, dieses Wissen in die Praxis umzusetzen? Experimentieren Sie zunächst mi
 Dieser umfassende Leitfaden vermittelt Ihnen das notwendige Wissen und die notwendigen Werkzeuge für die effektive Nutzung von Aspose.Cells Java zur Verbesserung Ihrer Excel-Dokumente. Beginnen Sie noch heute mit der Implementierung dieser Techniken!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

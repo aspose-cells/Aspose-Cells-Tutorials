@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Innan du börjar, se till att du har:
 - En fungerande installation av Java Development Kit (JDK).
 - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse.
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Grundläggande förståelse för Java-programmering.
 - Bekantskap med Maven eller Gradle för beroendehantering.
 
@@ -152,6 +154,9 @@ Redo att tillämpa dessa färdigheter i ditt nästa projekt? Testa att implement
 Med den här omfattande guiden är du nu rustad att hantera stora Excel-filer som ett proffs med Aspose.Cells för Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

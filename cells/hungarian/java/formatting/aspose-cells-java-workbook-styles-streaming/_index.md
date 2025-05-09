@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t egyéni munkafüzet-stílusok létrehozásához és a nagy adathalmazok hatékony streameléséhez a LightCellsDataProvider segítségével. Fejleszd Excel-fájlkezelési készségeidet még ma!"
+"description": "Tanuld meg, hogyan használhatod az Aspose.Cells for Java-t egyéni munkafüzet-stílusok létrehozásához és a nagy adathalmazok hatékony streameléséhez a LightCellsDataProvider segítségével. Fejleszd Excel fájlkezelési készségeidet még ma!"
 "title": "Aspose.Cells Java munkafüzet stílusok és hatékony adatfolyam Excelben"
 "url": "/hu/java/formatting/aspose-cells-java-workbook-styles-streaming/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -221,6 +223,9 @@ A megfelelő technikákkal az Aspose.Cells for Java felbecsülhetetlen értékű
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

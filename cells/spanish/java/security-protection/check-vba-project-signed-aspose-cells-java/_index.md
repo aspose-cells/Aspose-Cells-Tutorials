@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -97,7 +99,7 @@ system.out.println("VBA Project is Signed: " + isSigned);
 **Por qué:** Este método verifica la firma digital, proporcionando un valor booleano que indica su presencia.
 
 #### Consejos para la solución de problemas:
-- Asegúrese de que su archivo de Excel sea de `.xlsm` formato ya que admite macros.
+- Asegúrese de que su archivo de Excel sea de `.xlsm` formato que admita macros.
 - Verifique que haya configurado la ruta correcta al archivo de su libro de trabajo.
 
 ## Aplicaciones prácticas
@@ -151,6 +153,9 @@ Ya aprendió a usar Aspose.Cells para Java para comprobar si un proyecto de VBA 
 - [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

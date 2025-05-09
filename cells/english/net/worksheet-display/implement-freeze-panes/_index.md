@@ -8,7 +8,9 @@ url: /net/worksheet-display/implement-freeze-panes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Freeze Panes in Worksheet
@@ -104,6 +106,7 @@ To remove freeze panes, simply call `UnfreezePanes()` on the worksheet.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

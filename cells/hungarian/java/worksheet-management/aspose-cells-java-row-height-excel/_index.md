@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -143,7 +145,7 @@ A sormagasságok beállításának számos valós alkalmazása van:
 
 1. **Pénzügyi jelentéstétel**A jelentések testreszabása az olvashatóság javítása érdekében.
 2. **Adatelemzés**: Javítsa az adatmegjelenítést a jobb betekintés érdekében.
-3. **Sablon testreszabása**: Előre definiált formázással rendelkező sablonok készítése.
+3. **Sablon testreszabása**: Sablonok készítése előre definiált formázással.
 4. **Automatizált adatfeldolgozás**Integrálható olyan rendszerekkel, amelyek automatikusan generálnak Excel-fájlokat.
 5. **Felhasználói felület fejlesztései**: Az Excel felhasználói felületeinek testreszabása az adott igényeknek megfelelően.
 
@@ -189,6 +191,9 @@ Készen állsz kipróbálni? Alkalmazd a ma tanultakat a következő projektedbe
 - **Támogatási fórumok**: Csatlakozz a beszélgetésekhez és tegyél fel kérdéseket a [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

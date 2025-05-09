@@ -8,7 +8,9 @@ url: /net/excel-advanced-named-ranges/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Operations with Named Ranges in Excel
@@ -34,9 +36,11 @@ The beauty of this functionality lies in its ease of use. You can merge cells pr
 Effortlessly identify cells in a named range in Excel using Aspose.Cells for .NET with this comprehensive step-by-step tutorial.
 ### [Merge Cells in Named Range in Excel](./merge-cells-in-named-range/)
 Learn how to merge cells in a named range using Aspose.Cells for .NET in this step-by-step tutorial. Discover how to format, style, and automate Excel reports.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

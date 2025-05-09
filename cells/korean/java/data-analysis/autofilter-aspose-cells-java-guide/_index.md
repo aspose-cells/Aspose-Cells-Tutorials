@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Aspose.Cells의 자동 필터는 다양한 시나리오에서 데이터 관리�
 
 Java에서 Aspose.Cells를 사용할 때 성능을 최적화하기 위해 다음 팁을 고려하세요.
 
-- **효율적인 메모리 관리:** 항상 가까이 `Workbook` 메모리를 확보하기 위해 객체를 생성합니다.
+- **효율적인 메모리 관리:** 항상 닫아요 `Workbook` 메모리를 확보하기 위해 객체를 생성합니다.
 - **일괄 처리:** 과도한 메모리 사용을 피하려면 대용량 데이터 세트를 일괄적으로 처리하세요.
 - **필터 최적화:** 필요한 열에만 필터를 적용하고 신중하게 새로 고칩니다.
 
@@ -194,13 +196,16 @@ Java에서 Aspose.Cells를 사용할 때 성능을 최적화하기 위해 다음
 - **다운로드:** [Java 릴리스용 Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose.Cells를 무료로 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다:** [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 이러한 리소스를 활용하면 Aspose.Cells for Java를 계속 활용하고 잠재력을 최대한 발휘할 수 있습니다. 즐거운 코딩 되세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

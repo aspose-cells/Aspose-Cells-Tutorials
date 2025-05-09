@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ import com.aspose.cells.Worksheet;
 
 class CreateWorkbook {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un nuevo objeto Workbook
+        // Crear una instancia de un nuevo objeto de libro de trabajo
         Workbook workbook = new Workbook();
 
         // Agregar una nueva hoja de trabajo y obtener su referencia
@@ -235,6 +237,9 @@ Al trabajar con conjuntos de datos grandes o libros de trabajo complejos, tenga 
 Al dominar estas técnicas, puede mejorar el rendimiento y la confiabilidad de sus tareas de automatización de Excel utilizando Aspose.Cells en Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Сводные таблицы Excel
@@ -40,9 +42,11 @@ Aspose.Cells для Java позволяет вам автоматизирова�
 Узнайте, как обновить данные сводной таблицы в Aspose.Cells для Java. Поддерживайте актуальность данных без усилий.
 ### [Настройка стилей сводной таблицы](./customizing-pivot-table-styles/)
 Узнайте, как настроить стили сводных таблиц в API Aspose.Cells для Java. Создавайте визуально привлекательные сводные таблицы с легкостью.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

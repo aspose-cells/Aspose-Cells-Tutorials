@@ -8,7 +8,9 @@ url: /net/worksheet-display/get-paper-width-height/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Paper Width and Height for Worksheet Printing
@@ -94,6 +96,7 @@ You can check the [Aspose forum](https://forum.aspose.com/c/cells/9) for communi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

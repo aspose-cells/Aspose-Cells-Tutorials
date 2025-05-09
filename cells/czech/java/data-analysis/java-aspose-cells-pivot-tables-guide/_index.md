@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -218,6 +220,9 @@ A: Načtěte pouze nezbytné pracovní listy nebo použijte streamovací API pro
 A:** Abyste předešli chybám ve výpočtech, ujistěte se, že jsou nastaveny správné indexy a pozice. Před použitím konfigurací v produkčních sešitech je vždy otestujte s ukázkovými daty.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

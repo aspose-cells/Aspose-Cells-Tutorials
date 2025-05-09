@@ -1,45 +1,50 @@
 ---
-title: Skapa Excel-arbetsbok med Fjärran Öst & Latin-tecknamn
-weight: 7700
-limit: 
-description: Lär dig att skapa en Excel-arbetsbok i .NET med hjälp av Aspose.Cells, lägg till en textbok med angivna Fjärran Öst och latinska teckensnamn.
-keywords: [Aspose.Cells, .NET, Excel, workbook, textbox, Far East font, Latin font, coding example]
-url: /sv/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/
+"description": "Lär dig skapa en Excel-arbetsbok i .NET med hjälp av Aspose.Cells, och lägga till en textruta med angivna teckensnitt från Fjärran Östern och Latin."
+"title": "Skapa Excel-arbetsbok med teckensnitt från Fjärran Östern och Latinamerika"
+"url": "/sv/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa Excel-arbetsbok med Fjärran Öst & Latin-tecknamn
+# Skapa Excel-arbetsbok med teckensnitt från Fjärran Östern och Latinamerika
 
-Detta exempel visar hur man använder Aspose.Cells för .NET för att skapa en Excel-arbetsbok, lägga till en textbok till ett arbetsblad och ställa in både Fjärre öster och latinska teckensnamn för texten i den textenboks. Koden visar initializering av arbetsplatsen, manipulering av arbetsbladselement och spara arbetsboken med specifik teckensamling skräddarsydd för olika språkkrav.
+Det här exemplet visar hur man använder Aspose.Cells för .NET för att skapa en Excel-arbetsbok, lägga till en textruta i ett kalkylblad och ange både Fjärran Östern- och latinska teckensnitt för texten i den textrutan. Koden visar hur man initierar arbetsytan, manipulerar kalkylbladselement och sparar arbetsboken med specifik teckensnittsformatering anpassad för olika språkkrav.
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## Installationsinstruktioner
-1. Installa Aspose.Cells för .NET: 
-   * Använd NuGet Package Manager i ditt Visual Studio-projekt:
+## Installationsanvisningar
+1. Installera Aspose.Cells för .NET: 
+   - Använd NuGet Package Manager i ditt Visual Studio-projekt:
      ```
      Install-Package Aspose.Cells
      ```
-   * Eller ladda ner DLL från [Att skapa webbplats](https://www.aspose.com/downloads/cells/net)\- Jag är inte rädd.
+   - Eller ladda ner DLL-filen från [Aspose webbplats](https://www.aspose.com/downloads/cells/net).
 
-2. Lägg till Referenser: Se till att ditt projekt hänvisar till biblioteket Aspose.Cells.
+2. Lägg till referenser: Se till att ditt projekt refererar till Aspose.Cells-biblioteket.
 
-3. Ställ in utgångsdirektoriet: Uppdatera `utgåvaDir`Variabel i koden med önskad utgångsväg där Excel-filen kommer att sparas.
+3. Konfigurera utdatakatalog: Uppdatera `outputDir` variabeln i koden med önskad utdatasökväg där Excel-filen ska sparas.
 
-4. Run the Example: Copy the provided C# code into your project, compile, and run it. You should see the output confirmation, and the Excel file with the configured textbox will be created in the specified directory.
+4. Kör exemplet: Kopiera den angivna C#-koden till ditt projekt, kompilera och kör den. Du bör se bekräftelsen på utdata och Excel-filen med den konfigurerade textrutan skapas i den angivna katalogen.
 
 ## Se även  
-Om du vill köpa en licens, gå till [Sätt in köpsidorna](https://purchase.aspose.com/buy)\- Jag är inte rädd.  
-För fullständig dokumentation, besök [Aspose.Cells för .NET- dokumentation](https://docs.aspose.com/cells/net/)\- Jag är inte rädd.  
-Om du vill se hela API-referensen, kolla in [Aspose.Cells för .NET API Referens](https://reference.aspose.com/cells/net/)\- Jag är inte rädd. 
+För att köpa en licens, gå till [Aspose köpsida](https://purchase.aspose.com/buy).  
+För fullständig dokumentation, besök [Aspose.Cells för .NET-dokumentation](https://docs.aspose.com/cells/net/).  
+För att utforska hela API-referensen, kolla in [Aspose.Cells för .NET API-referens](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

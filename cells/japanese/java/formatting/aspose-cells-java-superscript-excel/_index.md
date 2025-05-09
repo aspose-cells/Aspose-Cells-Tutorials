@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -83,7 +85,7 @@ Aspose.Cells をセットアップしたら、上付き文字機能を段階的�
 **1. ワークブックをインスタンス化する**
 
 ```java
-// Workbook オブジェクトのインスタンス化
+// Workbookオブジェクトのインスタンス化
 Workbook workbook = new Workbook();
 ```
 
@@ -171,7 +173,7 @@ Javaを使ってAspose.Cellsで上付き文字の書式を設定する方法を�
 4. **セル範囲に上付き文字を適用するにはどうすればよいですか?**
    - 目的のセルの範囲を反復処理し、個別にスタイルを適用します。
 5. **Aspose.Cells は無料ですか?**
-   - 制限付きでの無料トライアルをご利用いただけます。フルアクセスをご希望の場合は、ライセンスのご購入をご検討ください。
+   - 機能制限付きの無料トライアルをご利用いただけます。フルアクセスをご希望の場合は、ライセンスのご購入をご検討ください。
 
 ## リソース
 
@@ -183,6 +185,9 @@ Javaを使ってAspose.Cellsで上付き文字の書式を設定する方法を�
 - [サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

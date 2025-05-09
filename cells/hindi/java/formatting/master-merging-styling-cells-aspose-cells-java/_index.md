@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 ### लाइसेंस प्राप्ति चरण
-- **मुफ्त परीक्षण**: यहां से निःशुल्क परीक्षण डाउनलोड करें [Aspose वेबसाइट](https://releases.aspose.com/cells/java/).
+- **मुफ्त परीक्षण**: यहाँ से निःशुल्क परीक्षण डाउनलोड करें [Aspose वेबसाइट](https://releases.aspose.com/cells/java/).
 - **अस्थायी लाइसेंस**विस्तारित परीक्षण के लिए, उनके माध्यम से एक अस्थायी लाइसेंस प्राप्त करें [खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
 - **खरीदना**यदि आप अपनी परियोजना की आवश्यकताओं के लिए लाइब्रेरी की क्षमताओं से संतुष्ट हैं, तो पूर्ण लाइसेंस खरीदें [यहाँ](https://purchase.aspose.com/buy).
 
@@ -172,6 +174,9 @@ _worksheet.autoFitRows(options);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ WorksheetCollection worksheets = workbook.getWorksheets();
 
 L'individuazione di fogli di lavoro specifici consente la manipolazione e l'analisi mirate dei dati.
 
-**Passaggio 4: accedere a un foglio di lavoro specifico**
+**Passaggio 4: accedi a un foglio di lavoro specifico**
 Recupera il primo foglio di lavoro dalla raccolta:
 
 ```java
@@ -192,6 +194,9 @@ Esplora le funzionalità più avanzate di Aspose.Cells immergendoti nella sua co
 - **Forum di supporto:** [Supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

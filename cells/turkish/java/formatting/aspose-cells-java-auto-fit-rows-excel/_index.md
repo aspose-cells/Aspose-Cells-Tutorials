@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ Nesne yönelimli kavramlar, dosya G/Ç işlemleri ve istisna işleme dahil olmak
 ## Java için Aspose.Cells Kurulumu
 Aspose.Cells kullanarak Excel dosyalarını düzenlemeye başlamadan önce, kütüphaneyi ortamınıza kurun:
 
-1. **Kurulum**: Yukarıda gösterildiği gibi Maven veya Gradle aracılığıyla Aspose.Cells bağımlılığını ekleyin.
+1. **Kurulum**Yukarıda gösterildiği gibi Maven veya Gradle aracılığıyla Aspose.Cells bağımlılığını ekleyin.
 2. **Lisans Edinimi**: Geçici bir lisans indirerek ücretsiz denemeye başlayın [Aspose'un web sitesi](https://purchase.aspose.com/temporary-license/).
 
 ```java
@@ -120,9 +122,9 @@ Bu kod, ayarlanmış çalışma kitabınızı yeni bir dosya adıyla bir çıkt�
 
 ## Pratik Uygulamalar
 İşte satırların otomatik olarak sığdırılmasının inanılmaz derecede yararlı olabileceği bazı gerçek dünya senaryoları:
-1. **Finansal Raporlama**: Ayrıntılı veri girişlerine göre satır boyutlarını dinamik olarak ayarlayarak finansal tabloların okunabilirliğini sağlayın.
+1. **Finansal Raporlama**Ayrıntılı veri girişlerine göre satır boyutlarını dinamik olarak ayarlayarak finansal tabloların okunabilirliğini sağlayın.
 2. **Stok Yönetimi**: Değişen açıklamalara ve miktarlara uyum sağlamak için envanter listelerini düzenleyin ve temiz bir sunum sağlayın.
-3. **Proje Planlaması**Görevlerin birden fazla satıra yayılan açıklamaları olduğu Gantt grafiklerini veya proje zaman çizelgelerini geliştirin.
+3. **Proje Planlaması**: Görevlerin birden fazla satıra yayılan açıklamaları olduğu Gantt grafiklerini veya proje zaman çizelgelerini geliştirin.
 4. **Veri Analizi**: Çeşitli uzunluktaki yorumların veya sonuçların etrafına satırları düzgün bir şekilde yerleştirerek gösterge panellerini optimize edin.
 
 ## Performans Hususları
@@ -163,6 +165,9 @@ Bu kaynaklarla, Aspose.Cells for Java'nın yeteneklerini daha derinlemesine ince
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

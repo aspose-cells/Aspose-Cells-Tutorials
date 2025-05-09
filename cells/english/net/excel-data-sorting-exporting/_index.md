@@ -8,7 +8,9 @@ url: /net/excel-data-sorting-exporting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Data Sorting and Exporting
@@ -34,9 +36,11 @@ With the [Export HTML String Value of Cells to DataTable in Excel tutorial](./ex
 Learn how to sort data in Excel using a custom sort list with Aspose.Cells for .NET in this comprehensive tutorial.
 ### [Export HTML String Value of Cells to DataTable in Excel](./export-html-string-value-of-cells-to-datatable-in-excel/)
 Learn how to export HTML string values from Excel cells to a DataTable using Aspose.Cells for .NET in a simple step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

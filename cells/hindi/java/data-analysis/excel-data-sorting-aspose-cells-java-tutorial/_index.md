@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -212,6 +214,9 @@ Aspose.Cells को अन्य प्रणालियों जैसे ड
 इस व्यापक गाइड का पालन करके, आप Aspose.Cells का उपयोग करके अपने जावा अनुप्रयोगों में Excel डेटा सॉर्टिंग को आत्मविश्वास से कार्यान्वित और अनुकूलित कर सकते हैं।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

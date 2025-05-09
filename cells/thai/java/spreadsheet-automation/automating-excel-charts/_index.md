@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การสร้างแผนภูมิ Excel อัตโนมัติ
@@ -117,9 +119,11 @@ chart.getValueAxis().getTitle().setText("Sales (USD)");
    สำรวจเอกสาร API ได้ที่ [https://reference.aspose.com/เซลล์/จาวา/](https://reference.aspose.com/cells/java/) เพื่อข้อมูลเชิงลึกและตัวอย่าง
 
 ทำให้งานสร้างแผนภูมิ Excel ของคุณเป็นแบบอัตโนมัติได้อย่างง่ายดายโดยใช้ Aspose.Cells สำหรับ Java และยกระดับความสามารถในการแสดงภาพข้อมูลของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

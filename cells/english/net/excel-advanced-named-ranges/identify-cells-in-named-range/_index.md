@@ -8,7 +8,9 @@ url: /net/excel-advanced-named-ranges/identify-cells-in-named-range/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Identify Cells in Named Range in Excel
@@ -137,6 +139,7 @@ Check the [Aspose.Cells documentation](https://reference.aspose.com/cells/net/) 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

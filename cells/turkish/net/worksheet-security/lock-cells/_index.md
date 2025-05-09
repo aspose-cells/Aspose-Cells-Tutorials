@@ -1,14 +1,16 @@
 ---
-title: Aspose.Cells kullanarak Çalışma Sayfasındaki Hücreleri Kilitleme
-linktitle: Aspose.Cells kullanarak Çalışma Sayfasındaki Hücreleri Kilitleme
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'deki hücreleri nasıl kilitleyeceğinizi öğrenin. Ayrıntılı kod örnekleri ve kolay talimatlarla verilerinizi koruyun.
-weight: 25
-url: /tr/net/worksheet-security/lock-cells/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel'deki hücreleri nasıl kilitleyeceğinizi öğrenin. Ayrıntılı kod örnekleri ve kolay talimatlarla verilerinizi koruyun."
+"linktitle": "Aspose.Cells kullanarak Çalışma Sayfasındaki Hücreleri Kilitleme"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Aspose.Cells kullanarak Çalışma Sayfasındaki Hücreleri Kilitleme"
+"url": "/tr/net/worksheet-security/lock-cells/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Cells kullanarak Çalışma Sayfasındaki Hücreleri Kilitleme
@@ -20,7 +22,7 @@ Excel çalışma sayfasındaki hücreleri kilitlemek, özellikle belgelerinizi b
 
 Eğitime başlamadan önce, takip etmeniz gereken temel noktalara değinelim.
 
-1.  .NET için Aspose.Cells: Öncelikle Aspose.Cells kütüphanesinin yüklü olduğundan emin olun.[buradan indirin](https://releases.aspose.com/cells/net/) veya Visual Studio'da NuGet aracılığıyla şunu çalıştırarak yükleyin:
+1. .NET için Aspose.Cells: Öncelikle Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. [buradan indirin](https://releases.aspose.com/cells/net/) veya Visual Studio'da NuGet aracılığıyla şunu çalıştırarak yükleyin:
 
 ```bash
 Install-Package Aspose.Cells
@@ -28,7 +30,7 @@ Install-Package Aspose.Cells
 
 2. Geliştirme Ortamı: Bu eğitim, .NET geliştirme ortamı (Visual Studio gibi) kullandığınızı varsayar. C# kodunu çalıştırmaya hazır ve kurulu olduğundan emin olun.
 
-3.  Lisans Kurulumu (İsteğe bağlı): Aspose.Cells ücretsiz deneme sürümüyle kullanılabilmesine rağmen, tam işlevsellik için bir lisansa ihtiyacınız olacak. Bir lisans alabilirsiniz[burada geçici lisans](https://purchase.aspose.com/temporary-license/) Eğer tüm özellik setini test etmek istiyorsanız.
+3. Lisans Kurulumu (İsteğe bağlı): Aspose.Cells ücretsiz deneme sürümüyle kullanılabilmesine rağmen, tam işlevsellik için bir lisansa ihtiyacınız olacak. [burada geçici lisans](https://purchase.aspose.com/temporary-license/) Eğer tüm özellik setini test etmek istiyorsanız.
 
 
 ## Paketleri İçe Aktar
@@ -58,7 +60,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 İşte olanlar:
 - Excel dosyanızın bulunduğu dizini belirtiyoruz.
--  The`Workbook`nesne tüm Excel dosyasını temsil eder ve yükleyerek`Book1.xlsx`, onu hafızamıza getiriyoruz.
+- The `Workbook` nesne tüm Excel dosyasını temsil eder ve yükleyerek `Book1.xlsx`, onu hafızamıza getiriyoruz.
 
 ## Adım 2: İstenilen Çalışma Sayfasına Erişim
 
@@ -85,7 +87,7 @@ worksheet.Cells["A1"].SetStyle(style);
 Bu kod parçacığı:
 - “A1”deki hücreye erişir.
 - Hücrenin geçerli stilini alır.
--  Ayarlar`IsLocked` mülk`true`, hücreyi kilitler.
+- Ayarlar `IsLocked` mülk `true`, hücreyi kilitler.
 - Güncellenen stili hücreye geri uygular.
 
 ## Adım 4: Çalışma Sayfasını Koruyun
@@ -98,12 +100,12 @@ worksheet.Protect(ProtectionType.All);
 ```
 
 İşte bu ne işe yarar:
--  The`Protect` yöntem çağrılır`worksheet` nesne, tüm sayfaya koruma uygulayarak.
--  Biz kullanıyoruz`ProtectionType.All` Her türlü korumayı kapsayarak kilitli hücrelerimizin güvenli kalmasını sağlıyoruz.
+- The `Protect` yöntem çağrılır `worksheet` nesne, tüm sayfaya koruma uygulayarak.
+- Biz kullanıyoruz `ProtectionType.All` her türlü korumayı kapsayacak şekilde, kilitli hücrelerimizin güvenli kalmasını sağlamak.
 
 ## Adım 5: Çalışma Kitabını Kaydedin
 
-Hücre kilitlerini ve çalışma sayfası korumasını uyguladıktan sonra değişikliklerinizi kaydetme zamanı geldi. Bunu yeni bir dosya olarak kaydedebilir veya var olanın üzerine yazabilirsiniz.
+Hücre kilitlerini ve çalışma sayfası korumasını uyguladıktan sonra değişikliklerinizi kaydetme zamanı geldi. Bunu yeni bir dosya olarak kaydedebilir veya mevcut dosyanın üzerine yazabilirsiniz.
 
 ```csharp
 // Kilitli hücrelerle çalışma kitabını kaydet
@@ -111,7 +113,7 @@ workbook.Save(dataDir + "output.xlsx");
 ```
 
 Bu kod:
--  Çalışma kitabını, kilitli hücrelerle birlikte, adlı yeni bir dosyaya kaydeder`output.xlsx` belirtilen dizinde.
+- Çalışma kitabını, kilitli hücrelerle birlikte, adlı yeni bir dosyaya kaydeder `output.xlsx` belirtilen dizinde.
 - Orijinal dosyanın üzerine yazmak istiyorsanız, bunun yerine orijinal dosya adını kullanabilirsiniz.
 
 
@@ -129,17 +131,19 @@ Evet, bir dizi hücre arasında geçiş yapabilir ve aynı stili her hücreye uy
 Evet, hücreleri kilitlemek, etkili olması için çalışma sayfası koruması gerektirir. Bu olmadan, kilitli özellik göz ardı edilir.
 
 ### Aspose.Cells'i ücretsiz denemeyle kullanabilir miyim?
- Kesinlikle! Ücretsiz denemeyle deneyebilirsiniz. Genişletilmiş test için, bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+Kesinlikle! Ücretsiz denemeyle deneyebilirsiniz. Genişletilmiş test için, bir [geçici lisans](https://purchase.aspose.com/temporary-license/).
 
 ### Hücreleri kilitledikten sonra kilidini nasıl açabilirim?
- Ayarlayabilirsiniz`IsLocked` ile`false` Hücrenin stilini seçerek kilidini açın ve ardından çalışma sayfasından korumayı kaldırın.
+Ayarlayabilirsiniz `IsLocked` ile `false` Hücrenin stilini seçerek kilidini açın ve ardından çalışma sayfasından korumayı kaldırın.
 
 ### Çalışma sayfasını şifreyle korumak mümkün müdür?
 Evet, Aspose.Cells çalışma sayfasını korurken parola eklemenize olanak tanır ve bu da ekstra bir güvenlik katmanı sağlar.
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

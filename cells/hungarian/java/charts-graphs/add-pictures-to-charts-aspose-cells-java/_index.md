@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -46,7 +48,7 @@ A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következ
 
 ## Az Aspose.Cells beállítása Java-hoz
 
-Az Aspose.Cells Java-beli használatának elkezdéséhez integrálni kell a projektedbe. Így teheted meg ezt Maven vagy Gradle segítségével:
+Az Aspose.Cells Java-beli használatának elkezdéséhez integrálnod kell a projektedbe. Így teheted meg ezt Maven vagy Gradle segítségével:
 
 **Szakértő:**
 ```xml
@@ -146,7 +148,7 @@ Az Aspose.Cells használatakor vegye figyelembe az alábbi teljesítményoptimal
 
 - **Képméretek optimalizálása:** Használjon megfelelő méretű képeket a memóriahasználat minimalizálása érdekében.
 - **Hatékony memóriakezelés:** A Java-alkalmazásokban található fel nem használt erőforrásokat haladéktalanul megsemmisítse.
-- **Kötegelt feldolgozás:** Több diagram vagy fájl kezelése esetén kötegekben dolgozza fel azokat az erőforrás-felhasználás optimalizálása érdekében.
+- **Kötegelt feldolgozás:** Ha több diagramot vagy fájlt kezel, akkor azokat kötegekben dolgozza fel az erőforrás-felhasználás optimalizálása érdekében.
 
 ## Következtetés
 
@@ -178,7 +180,7 @@ Javasoljuk, hogy a következő projektedben is alkalmazd ezt a megoldást. Ha k�
 ## Erőforrás
 
 További olvasmányokért és forrásokért:
-- **Dokumentáció:** [Aspose.Cells Java-referencia](https://reference.aspose.com/cells/java/)
+- **Dokumentáció:** [Aspose.Cells Java-referenciához](https://reference.aspose.com/cells/java/)
 - **Letöltés:** [Az Aspose.Cells legújabb kiadásai Java-hoz](https://releases.aspose.com/cells/java/)
 - **Vásárlás:** [Aspose.Cells licencek vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió:** [Az Aspose.Cells funkcióinak tesztelése](https://releases.aspose.com/cells/java/)
@@ -186,6 +188,9 @@ További olvasmányokért és forrásokért:
 - **Támogatás:** [Aspose fórum kérdésekért és segítségért](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

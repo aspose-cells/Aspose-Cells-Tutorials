@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ Bezpłatna wersja próbna obejmuje znaki wodne na plikach wyjściowych i limit l
 Rozpocznij swoją podróż do opanowania dostosowywania wykresów Excela z Aspose.Cells dla Java i podnieś poziom sposobu prezentacji danych. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

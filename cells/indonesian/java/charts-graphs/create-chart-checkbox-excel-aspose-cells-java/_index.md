@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Membuat Bagan Interaktif di Excel dengan Kotak Centang Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Meningkatkan visualisasi data dan interaktivitas di Excel dapat dicapai dengan memasukkan elemen dinamis seperti kotak centang ke dalam bagan. Tutorial ini akan memandu Anda membuat bagan interaktif menggunakan Aspose.Cells untuk Java, yang sempurna untuk menambahkan fungsionalitas ke berkas Excel Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Cara mengatur dan menggunakan Aspose.Cells untuk Java
 - Langkah-langkah untuk membuat buku kerja Excel dan menyisipkan grafik
 - Metode untuk menambahkan kotak centang di dalam area bagan Anda
@@ -25,14 +27,14 @@ Meningkatkan visualisasi data dan interaktivitas di Excel dapat dicapai dengan m
 
 Sebelum kita mulai, pastikan Anda memiliki alat dan pengetahuan yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, pastikan Anda memiliki:
+A bemutató követéséhez győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi terinstal di komputer Anda.
 - **Aspose.Cells untuk Java:** Versi terbaru dari pustaka Aspose.Cells. Untuk panduan ini, kami akan menggunakan versi 25.3.
 - **Maven atau Gradle:** Disiapkan dalam lingkungan pengembangan Anda untuk mengelola dependensi.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 
 Meskipun pemahaman dasar tentang pemrograman Java dan keakraban dengan struktur file Excel akan membantu, panduan ini mencakup semua detail yang diperlukan untuk pemula.
 
@@ -42,7 +44,7 @@ Mengintegrasikan Aspose.Cells ke dalam proyek Anda sangatlah mudah. Mari kita mu
 
 ### Menggunakan Maven
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -54,17 +56,17 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 ### Menggunakan Gradle
 
-Sertakan baris ini di `build.gradle` mengajukan:
+Sertakan baris ini di `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
+#### Licencbeszerzés lépései
 
-Untuk mengeksplorasi kemampuan penuh Aspose.Cells, pertimbangkan untuk memperoleh lisensi sementara atau permanen. Anda dapat memulai dengan uji coba gratis dengan mengunduhnya dari [Situs web Aspose](https://releases.aspose.com/cells/java/)Untuk penggunaan produksi, Anda mungkin ingin membeli lisensi atau meminta lisensi sementara untuk tujuan evaluasi.
+Untuk mengeksplorasi kemampuan penuh Aspose.Cells, pertimbangkan untuk memperoleh lisensi sementara atau permanen. Anda dapat memulai dengan uji coba gratis dengan mengunduhnya dari [Aspose weboldala](https://releases.aspose.com/cells/java/)Untuk penggunaan produksi, Anda mungkin ingin membeli lisensi atau meminta lisensi sementara untuk tujuan evaluasi.
 
-#### Inisialisasi Dasar
+#### Alapvető inicializálás
 
 Setelah Aspose.Cells ditambahkan ke proyek Anda, inisialisasikan dalam aplikasi Java Anda sebagai berikut:
 
@@ -73,7 +75,7 @@ import com.aspose.cells.Workbook;
 
 public class AsposeSetup {
     public static void main(String[] args) throws Exception {
-        // Inisialisasi objek Buku Kerja.
+        // Inicializálja a Workbook objektumot.
         Workbook workbook = new Workbook();
         
         System.out.println("Aspose.Cells for Java initialized successfully.");
@@ -81,17 +83,17 @@ public class AsposeSetup {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Setelah lingkungan Anda siap, mari buat bagan dengan kotak centang di Excel.
 
 ### Buat Instansi Buku Kerja dan Tambahkan Bagan
 
-#### Ringkasan
+#### Áttekintés
 
 Bagian ini menjelaskan cara membuat buku kerja Excel dan menambahkan bagan tipe kolom menggunakan Aspose.Cells untuk Java. Bagan membantu memvisualisasikan data secara efektif, sehingga sangat penting untuk laporan dan dasbor.
 
-##### Langkah 1: Buat Buku Kerja Baru
+##### 1. lépés: Új munkafüzet létrehozása
 
 ```java
 import com.aspose.cells.Workbook;
@@ -165,7 +167,7 @@ public class ChartCreation {
 
 ### Tambahkan Kotak Centang ke Bagan
 
-#### Ringkasan
+#### Áttekintés
 
 Dengan menyematkan kotak centang di dalam area bagan Excel, Anda dapat mengubah visibilitas atau fitur lainnya secara dinamis. Bagian ini memandu Anda dalam menyematkan kotak centang di bagan.
 
@@ -211,7 +213,7 @@ public class ChartWithCheckbox {
 
 ### Simpan Buku Kerja sebagai File Excel
 
-#### Ringkasan
+#### Áttekintés
 
 Setelah bagan dan kotak centang dikonfigurasi, simpan buku kerja untuk mempertahankan perubahan Anda.
 
@@ -226,7 +228,7 @@ public class ChartWithCheckbox {
         sheet.getCharts().get(0).getShapes().addShapeInChart(MsoDrawingType.CHECK_BOX, PlacementType.MOVE, 400, 400, 1000, 600);
         sheet.getCharts().get(0).getShapes().get(0).setText("CheckBox 1");
 
-        // Simpan buku kerja
+        // A munkafüzet mentése
         String outDir = "YOUR_OUTPUT_DIRECTORY"; // Ganti dengan jalur direktori keluaran Anda yang sebenarnya.
         workbook.save(outDir + "/InsertCheckboxInChartSheet_out.xlsx");
         
@@ -235,14 +237,17 @@ public class ChartWithCheckbox {
 }
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario dunia nyata di mana Anda dapat menerapkan pengetahuan dari tutorial ini:
 1. **Laporan Interaktif:** Gunakan kotak centang untuk mengubah visibilitas rangkaian data dalam laporan, sehingga meningkatkan interaksi dan penyesuaian pengguna.
-2. **Analisis Data:** Aktifkan atau nonaktifkan kumpulan data tertentu dalam bagan untuk analisis komparatif, sehingga lebih mudah untuk fokus pada aspek tertentu dari data Anda.
+2. **Adatelemzés:** Aktifkan atau nonaktifkan kumpulan data tertentu dalam bagan untuk analisis komparatif, sehingga lebih mudah untuk fokus pada aspek tertentu dari data Anda.
 3. **Alat Pendidikan:** Buat materi pembelajaran yang dinamis di mana siswa dapat berinteraksi dengan konten dengan memilih opsi yang berbeda dalam bagan.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

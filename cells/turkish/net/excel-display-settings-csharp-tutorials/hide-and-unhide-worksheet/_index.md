@@ -1,14 +1,16 @@
 ---
-title: Gizle ve Göster Çalışma Sayfası
-linktitle: Gizle ve Göster Çalışma Sayfası
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Aspose.Cells for .NET kullanarak sayfaları gizleme ve gizlemeyi kaldırmaya yönelik bu eksiksiz kılavuzla Excel çalışma sayfası düzenleme konusunda ustalaşın. Veri yönetiminizi kolaylaştırın.
-weight: 90
-url: /tr/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/
+"description": "Aspose.Cells for .NET kullanarak sayfaları gizleme ve gizlemeyi kaldırmaya yönelik bu eksiksiz kılavuzla Excel çalışma sayfası düzenleme konusunda ustalaşın. Veri yönetiminizi kolaylaştırın."
+"linktitle": "Gizle ve Göster Çalışma Sayfası"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Gizle ve Göster Çalışma Sayfası"
+"url": "/tr/net/excel-display-settings-csharp-tutorials/hide-and-unhide-worksheet/"
+"weight": 90
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gizle ve Göster Çalışma Sayfası
@@ -22,12 +24,12 @@ Veri yönetimi söz konusu olduğunda, Microsoft Excel birçok kişinin bilgiler
 Excel tablolarınızı kontrol altına alma yolculuğuna çıkmadan önce, yolculuğun sorunsuz geçmesini sağlayacak birkaç ön koşul bulunmaktadır:
 
 1. Temel C# Bilgisi: Bu dilde kod yazacağımız için C#'a aşina olmak önemlidir.
-2.  Aspose.Cells for .NET: Aspose.Cells'in yüklü olduğundan emin olun. İndirebilirsiniz[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET: Aspose.Cells'in yüklü olduğundan emin olun. İndirebilirsiniz [Burada](https://releases.aspose.com/cells/net/).
 3. Geliştirme Ortamı: C# kodlarınızı derleyip çalıştırabileceğiniz Visual Studio 2022 benzeri bir IDE.
-4.  Excel Dosyası: İşleme için hazır bir Excel dosyanız olsun. Bu eğitim için, adında bir örnek dosya oluşturalım.`book1.xls`.
+4. Excel Dosyası: İşleme için hazır bir Excel dosyanız olsun. Bu eğitim için, adında bir örnek dosya oluşturalım. `book1.xls`.
 5. .NET Framework: En az .NET Framework 4.5 veya üzeri.
 
-Bu şartları yerine getirdiğinizde artık hazırsınız!
+Bu şartları yerine getirdikten sonra artık hazırsınız!
 
 ## Paketleri İçe Aktar
 
@@ -42,7 +44,7 @@ Artık her şey hazır ve kodlamaya hazır olduğumuza göre, süreci yönetileb
 
 ## Adım 1: Ortamınızı Kurun
 
-Bu adımda, Excel dosyanızın bulunduğu dosya yolunu ayarlayacaksınız. Değiştir`"YOUR DOCUMENT DIRECTORY"` dosyanızın yolunu belirtin.
+Bu adımda, Excel dosyanızın bulunduğu dosya yolunu ayarlayacaksınız. Değiştir `"YOUR DOCUMENT DIRECTORY"` dosyanızın yolunu belirtin.
 
 ```csharp
 // Belgeler dizinine giden yol.
@@ -82,11 +84,11 @@ Elinizde çalışma kitabınız varken, gizlemek istediğiniz belirli çalışma
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Burada, belirli bir sayfayı işaret ediyorsunuz, bir raftaki kitabı seçmek gibi. "İşte üzerinde çalışmak istediğim bu!"
+Burada, belirli bir sayfaya işaret ediyorsunuz, bir raftaki kitabı seçmek gibi. "İşte üzerinde çalışmak istediğim bu!"
 
 ## Adım 5: Çalışma Sayfasını Gizle
 
- Şimdi eğlenceli kısma geliyoruz: çalışma sayfasını gizlemek!`IsVisible` özelliği ile çalışma sayfanızın görünümden kaybolmasını sağlayabilirsiniz.
+Şimdi eğlenceli kısma geliyoruz: çalışma sayfasını gizlemek! `IsVisible` özelliği ile çalışma sayfanızın görünümden kaybolmasını sağlayabilirsiniz.
 
 ```csharp
 // Excel dosyasının ilk çalışma sayfasını gizleme
@@ -104,11 +106,11 @@ Perdeleri indirmek gibi. Veriler hala orada; sadece artık çıplak gözle gör�
 workbook.Save(dataDir + "output.out.xls");
 ```
 
- Burada çalışma kitabını şu şekilde kaydediyoruz:`output.out.xls`. Bu, çalışmanızı bir zarfa koymak gibidir. Eğer kaydetmezseniz, tüm sıkı çalışmanız boşa gidecektir!
+Burada çalışma kitabını şu şekilde kaydediyoruz: `output.out.xls`. Bu, çalışmanızı bir zarfa koymak gibidir. Eğer kaydetmezseniz, tüm sıkı çalışmanız boşa gidecektir!
 
 ## Adım 7: Dosya Akışını Kapatın
 
-Son olarak, dosya akışını kapatmalısınız. Bu adım, sistem kaynaklarını serbest bırakmak ve bellek sızıntılarını önlemek için hayati önem taşır.
+Son olarak dosya akışını kapatmalısınız. Bu adım sistem kaynaklarını serbest bırakmak ve bellek sızıntılarını önlemek için hayati önem taşır.
 
 ```csharp
 // Tüm kaynakları serbest bırakmak için dosya akışını kapatıyorum
@@ -119,7 +121,7 @@ Bunu, ayrıldıktan sonra kapıyı arkanızdan kapatmak olarak düşünün. Bu h
 
 ## Adım 8: Çalışma Sayfasını Göster
 
- Çalışma sayfasının gizliliğini kaldırmak için, şunu ayarlamanız gerekir:`IsVisible` özelliği true'ya geri döndürün. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
+Çalışma sayfasının gizliliğini kaldırmak için, şunu ayarlamanız gerekir: `IsVisible` özelliği true'ya geri döndürün. Bunu nasıl yapacağınız aşağıda açıklanmıştır:
 
 ```csharp
 // Excel dosyasının ilk çalışma sayfasını gösterir
@@ -135,22 +137,24 @@ Aspose.Cells for .NET kullanarak Excel çalışma sayfalarını düzenlemek göz
 ## SSS
 
 ### Birden fazla çalışma sayfasını aynı anda gizleyebilir miyim?
- Evet, döngüye girebilirsiniz`Worksheets` toplama ve ayarlama`IsVisible` Gizlemek istediğiniz her sayfa için özelliği false olarak ayarlayın.
+Evet, döngüye girebilirsiniz `Worksheets` toplama ve ayarlama `IsVisible` Gizlemek istediğiniz her sayfa için özelliği false olarak ayarlayın.
 
 ### Aspose.Cells hangi dosya formatlarını destekler?
-Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler. Tam listeyi kontrol edebilirsiniz[Burada](https://reference.aspose.com/cells/net/).
+Aspose.Cells, XLS, XLSX, CSV ve daha fazlası dahil olmak üzere çeşitli formatları destekler. Tam listeyi kontrol edebilirsiniz [Burada](https://reference.aspose.com/cells/net/).
 
 ### Aspose.Cells'i kullanmak için lisansa ihtiyacım var mı?
- Özelliklerini keşfetmek için ücretsiz denemeyle başlayabilirsiniz. Üretim uygulamaları için tam lisans gereklidir. Daha fazla bilgi edinin[Burada](https://purchase.aspose.com/buy).
+Özelliklerini keşfetmek için ücretsiz denemeyle başlayabilirsiniz. Üretim uygulamaları için tam lisans gereklidir. Daha fazla bilgi edinin [Burada](https://purchase.aspose.com/buy).
 
 ### Belirli koşullara bağlı olarak çalışma sayfalarını gizlemek mümkün müdür?
 Kesinlikle! Kriterlerinize göre bir çalışma sayfasının gizlenip gizlenmeyeceğini belirlemek için kodunuzda koşullu mantığı uygulayabilirsiniz.
 
 ### Aspose.Cells için desteği nasıl alabilirim?
- Desteğe şu şekilde erişebilirsiniz:[Aspose forumu](https://forum.aspose.com/c/cells/9) Herhangi bir soru veya sorununuz için.
+Desteğe şu şekilde erişebilirsiniz: [Aspose forumu](https://forum.aspose.com/c/cells/9) Herhangi bir soru veya sorununuz için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

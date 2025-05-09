@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Seguridad de datos de Excel
@@ -40,9 +42,11 @@ Aprenda técnicas efectivas de enmascaramiento de datos con Aspose.Cells para Ja
 Aprenda a auditar el acceso a archivos con Aspose.Cells para la API de Java. Guía paso a paso con código fuente y preguntas frecuentes.
 ### [Validación de datos para seguridad](./data-validation-for-security/)
 Mejore la seguridad de sus datos con Aspose.Cells para Java. Explore técnicas integrales de validación de datos. Aprenda a implementar una validación y protección robustas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

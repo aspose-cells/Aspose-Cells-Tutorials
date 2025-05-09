@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -75,7 +77,7 @@ Worksheet sheet = workbook.getWorksheets().get(0);
 ### Форматирование ячеек с помощью пользовательских стилей
 
 #### Обзор
-Пользовательские стили позволяют визуально различать важные данные. Мы установим шрифты, цвета и границы для улучшения читаемости и выделения ключевой информации.
+Пользовательские стили позволяют визуально различать важные данные. Мы установим шрифты, цвета и границы, чтобы улучшить читаемость и подчеркнуть ключевую информацию.
 
 #### Пошаговый процесс
 
@@ -211,6 +213,9 @@ validation.addArea("B2", "B10");
 Начните свой путь к мастерству работы с Excel с помощью Aspose.Cells для Java уже сегодня и измените свой подход к управлению данными!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

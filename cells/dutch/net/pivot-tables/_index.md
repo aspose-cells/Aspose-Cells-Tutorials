@@ -1,26 +1,30 @@
 ---
-title: Pivottabel in Aspose.Cells voor .NET 
-weight: 10
-limit:
-description: Leer hoe je pivottabelsen in Aspose.Cells voor .NET kunt maken, formateren en beheren. Genereren van dynamische rapporten en analyseren van gegevens moeiteloos in C#.
-keywords:
-url: /nl/net/pivot-tables/
+"description": "Leer hoe u draaitabellen maakt, opmaakt en beheert in Aspose.Cells voor .NET. Genereer dynamische rapporten en analyseer gegevens moeiteloos in C#."
+"title": "Draaitabellen in Aspose.Cells voor .NET"
+"url": "/nl/net/pivot-tables/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Inleiding 
+## Invoering 
  
-Pivot tables are a powerful feature in Aspose.Cells for .NET, allowing developers to create dynamic, interactive data summaries within Excel files programmatically. With just a few lines of C# code, you can generate pivot tables, define data sources, set row and column fields, apply filters, and even format the output for better readability. Whether you're working with large datasets or need quick insights, pivot tables streamline the data analysis process, making them an essential tool for reporting and business intelligence.  
+Draaitabellen zijn een krachtige functie in Aspose.Cells voor .NET waarmee ontwikkelaars programmatisch dynamische, interactieve gegevenssamenvattingen in Excel-bestanden kunnen maken. Met slechts een paar regels C#-code kunt u draaitabellen genereren, gegevensbronnen definiëren, rij- en kolomvelden instellen, filters toepassen en zelfs de uitvoer opmaken voor een betere leesbaarheid. Of u nu met grote datasets werkt of snel inzicht nodig hebt, draaitabellen stroomlijnen het data-analyseproces en vormen daarmee een essentiële tool voor rapportage en business intelligence.  
 
-Met behulp van Aspose.Cells voor .NET kunt u pivottabellen volledig aanpassen door berekende velden toe te voegen, gegevensaggregeertypen te veranderen en stijlen toe te passen voor een professionele uitstraling. De API ondersteunt geavanceerde functionaliteiten zoals het groeperen van gegevens, het dynamisch verfrissen van pivottabellen en het efficiënt beheren van meerdere gegevensbronnen. Dit stelt ontwikkelaars in staat om de generatie van Excel- verslagen te automatiseren, waardoor gebruikers nauwkeurige, actuele samenvattingen krijgen met minimale inspanning.
+Met Aspose.Cells voor .NET kunt u draaitabellen volledig aanpassen door berekende velden toe te voegen, gegevensaggregatietypen te wijzigen en stijlen toe te passen voor een professionele uitstraling. De API ondersteunt geavanceerde functionaliteiten zoals het groeperen van gegevens, het dynamisch vernieuwen van draaitabellen en het efficiënt verwerken van meerdere gegevensbronnen. Dit stelt ontwikkelaars in staat om de generatie van Excel-rapporten te automatiseren, zodat gebruikers met minimale inspanning nauwkeurige, actuele overzichten krijgen.
 
-{{< tutorial-card link="./create-pivot-table/" title="Maak een pivottabel in Excel met behulp van Aspose.Cells" imgSrc="/cells/net/pivot-tables/create-pivot-table/images/thumb.png" >}}
-{{< tutorial-card link="./pivot-table-save-in-ods/" title="Speer Pivot Table als ODS in Aspose.Cells" imgSrc="/cells/net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+{{< tutorial-card link="./create-pivot-table/" title="Een draaitabel maken in Excel met Aspose.Cells" imgSrc="./create-pivot-table/images/thumb.png" >}}
+
+{{< tutorial-card link="./pivot-table-save-in-ods/" title="Draaitabel opslaan als ODS in Aspose.Cells" imgSrc="./pivot-table-save-in-ods/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

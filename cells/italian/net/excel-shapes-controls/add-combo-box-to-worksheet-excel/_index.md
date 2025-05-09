@@ -1,35 +1,37 @@
 ---
-title: Aggiungi casella combinata al foglio di lavoro in Excel
-linktitle: Aggiungi casella combinata al foglio di lavoro in Excel
-second_title: API di elaborazione Excel .NET Aspose.Cells
-description: Scopri come aggiungere una casella combinata a un foglio di lavoro Excel in modo programmatico usando Aspose.Cells per .NET. Questa guida passo passo ti guida attraverso ogni dettaglio.
-weight: 21
-url: /it/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/
+"description": "Scopri come aggiungere una casella combinata a un foglio di lavoro Excel tramite codice utilizzando Aspose.Cells per .NET. Questa guida dettagliata ti guiderà passo passo in ogni dettaglio."
+"linktitle": "Aggiungi casella combinata al foglio di lavoro in Excel"
+"second_title": "API di elaborazione Excel .NET Aspose.Cells"
+"title": "Aggiungi casella combinata al foglio di lavoro in Excel"
+"url": "/it/net/excel-shapes-controls/add-combo-box-to-worksheet-excel/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aggiungi casella combinata al foglio di lavoro in Excel
 
 ## Introduzione
-La creazione di fogli di calcolo Excel interattivi può migliorare notevolmente l'esperienza utente, soprattutto quando si aggiungono elementi di form come le caselle combinate. Le caselle combinate consentono agli utenti di selezionare opzioni da un elenco predefinito, aggiungendo facilità ed efficienza all'input dei dati. Con Aspose.Cells per .NET, è possibile creare a livello di programmazione caselle combinate nei fogli Excel senza utilizzare Excel direttamente. Questa potente libreria consente agli sviluppatori di manipolare i file Excel in vari modi, inclusa la possibilità di automatizzare i controlli del form.
-In questo tutorial, ti guideremo attraverso il processo di aggiunta di una casella combinata a un foglio di lavoro in Excel utilizzando Aspose.Cells per .NET. Se stai cercando di creare fogli di calcolo dinamici e intuitivi, questa guida ti aiuterà a iniziare.
+La creazione di fogli di calcolo Excel interattivi può migliorare notevolmente l'esperienza utente, soprattutto quando si aggiungono elementi ai moduli come le caselle combinate. Le caselle combinate consentono agli utenti di selezionare opzioni da un elenco predefinito, semplificando ed efficientendo l'inserimento dei dati. Con Aspose.Cells per .NET, è possibile creare caselle combinate nei fogli Excel a livello di codice, senza utilizzare Excel direttamente. Questa potente libreria consente agli sviluppatori di manipolare i file Excel in vari modi, inclusa la possibilità di automatizzare i controlli dei moduli.
+In questo tutorial, ti guideremo attraverso il processo di aggiunta di una casella combinata a un foglio di lavoro in Excel utilizzando Aspose.Cells per .NET. Se desideri creare fogli di calcolo dinamici e intuitivi, questa guida ti aiuterà a iniziare.
 ## Prerequisiti
-Prima di immergerci nel codice, assicuriamoci di avere tutto ciò di cui hai bisogno:
-- Aspose.Cells per .NET: Scarica e installa la libreria Aspose.Cells per .NET da[pagina di download](https://releases.aspose.com/cells/net/).
-- .NET Framework: assicurati di avere .NET Framework installato sul tuo computer. Qualsiasi versione supportata da Aspose.Cells funzionerà.
-- Ambiente di sviluppo: utilizza un IDE come Visual Studio per gestire il tuo progetto e scrivere codice.
--  Licenza Aspose: puoi lavorare senza licenza in modalità di valutazione, ma per una versione completa, dovrai applicare una licenza. Ottieni una[licenza temporanea](https://purchase.aspose.com/temporary-license/) se necessario.
+Prima di immergerci nel codice, assicuriamoci di avere tutto il necessario:
+- Aspose.Cells per .NET: Scarica e installa la libreria Aspose.Cells per .NET da [pagina di download](https://releases.aspose.com/cells/net/).
+- .NET Framework: assicurati di aver installato .NET Framework sul tuo computer. Qualsiasi versione supportata da Aspose.Cells funzionerà.
+- Ambiente di sviluppo: utilizza un IDE come Visual Studio per gestire il progetto e scrivere il codice.
+- Licenza Aspose: puoi lavorare senza licenza in modalità di valutazione, ma per una versione completa dovrai applicare una licenza. Ottieni una [licenza temporanea](https://purchase.aspose.com/temporary-license/) se necessario.
 ## Importa pacchetti
-Per iniziare, devi importare i namespace richiesti nel tuo progetto. Ecco cosa ti serve:
+Per iniziare, devi importare gli spazi dei nomi richiesti nel tuo progetto. Ecco cosa ti serve:
 ```csharp
 using System.IO;
 using Aspose.Cells;
 ```
 Sono essenziali per interagire con i file Excel e manipolare gli elementi dei moduli, come le caselle combinate nella cartella di lavoro.
-Per una facile comprensione, scomponiamo il processo di aggiunta di una casella combinata in più semplici passaggi.
+Per facilitarne la comprensione, scomponiamo il processo di aggiunta di una casella combinata in più semplici passaggi.
 ## Passaggio 1: impostare la directory dei documenti
 Il primo passo è creare una directory in cui salvare i file Excel. Puoi creare una nuova cartella se non esiste già.
 ```csharp
@@ -63,9 +65,9 @@ Cells cells = sheet.Cells;
 ```
 
 - Foglio di lavoro: recupera il primo foglio di lavoro dalla cartella di lavoro.
-- Celle Celle: Ottiene la raccolta di celle dal foglio di lavoro.
+- Celle celle: Ottiene la raccolta di celle dal foglio di lavoro.
 ## Passaggio 4: immettere i valori per la casella combinata
-Ora, dobbiamo inserire alcuni valori nelle celle. Questi valori serviranno come opzioni per la casella combinata.
+Ora dobbiamo inserire alcuni valori nelle celle. Questi valori serviranno come opzioni per la casella combinata.
 
 ```csharp
 // Inserisci un valore.
@@ -81,11 +83,11 @@ cells["A6"].PutValue("Emp005");
 cells["A7"].PutValue("Emp006");
 ```
 
-- cellule["B3"].PutValue: inserisce l'etichetta "Dipendente" nella cella B3.
+- cells["B3"].PutValue: inserisce l'etichetta "Dipendente" nella cella B3.
 - Font.IsBold = true: imposta il testo in grassetto per farlo risaltare.
-- Intervallo di input: inserisce diversi ID dipendente nelle celle da A2 ad A7. Questi appariranno nel menu a discesa della casella combinata.
+- Intervallo di input: consente di inserire diversi ID dipendente nelle celle da A2 ad A7. Questi appariranno nel menu a discesa.
 ## Passaggio 5: aggiungere la casella combinata al foglio di lavoro
-Il passo successivo è aggiungere il controllo combo box al tuo foglio di lavoro. Questa combo box permetterà agli utenti di scegliere uno degli ID dipendente che hai inserito in precedenza.
+Il passaggio successivo consiste nell'aggiungere il controllo casella combinata al foglio di lavoro. Questa casella combinata consentirà agli utenti di selezionare uno degli ID dipendente inseriti in precedenza.
 
 ```csharp
 // Aggiungi una nuova casella combinata.
@@ -103,7 +105,7 @@ comboBox.LinkedCell = "A1";
 comboBox.InputRange = "A2:A7";
 ```
 
-- LinkedCell: collega la selezione della casella combinata alla cella A1. Il valore selezionato dalla casella combinata apparirà in questa cella.
+- LinkedCell: Collega la selezione della casella combinata alla cella A1. Il valore selezionato dalla casella combinata apparirà in questa cella.
 - InputRange: definisce l'intervallo di celle (A2:A7) contenente i valori che popoleranno le opzioni della casella combinata.
 ## Passaggio 7: personalizzare l'aspetto della casella combinata
 È possibile personalizzare ulteriormente la casella combinata specificando il numero di linee del menu a discesa e abilitando l'ombreggiatura 3D per una migliore estetica.
@@ -121,7 +123,7 @@ comboBox.Shadow = true;
 Infine, adattiamo automaticamente le colonne per ottenere un layout pulito e salviamo la cartella di lavoro.
 
 ```csharp
-// Adatta automaticamente le colonne
+// Adatta automaticamente colonne
 sheet.AutoFitColumns();
 // Salva il file.
 workbook.Save(dataDir + "book1.out.xls");
@@ -131,22 +133,24 @@ workbook.Save(dataDir + "book1.out.xls");
 - Salva: salva la cartella di lavoro come file Excel nella directory specificata.
 
 ## Conclusione
-Aggiungere una casella combinata ai tuoi fogli di lavoro Excel usando Aspose.Cells per .NET è un processo semplice che migliora notevolmente la flessibilità di input dei dati. Creando controlli di form a livello di programmazione, puoi creare fogli di calcolo interattivi con facilità. Questo tutorial ti ha mostrato come aggiungere una casella combinata, collegarla a una cella e configurare il suo intervallo di input, il tutto usando Aspose.Cells.
- Aspose.Cells offre una vasta gamma di funzionalità per la manipolazione di file Excel, rendendolo una scelta ideale per gli sviluppatori che desiderano automatizzare le attività dei fogli di calcolo. Provalo con un[prova gratuita](https://releases.aspose.com/).
+Aggiungere una casella combinata ai fogli di lavoro Excel utilizzando Aspose.Cells per .NET è un processo semplice che migliora notevolmente la flessibilità nell'input dei dati. Creando controlli di modulo a livello di codice, è possibile creare fogli di calcolo interattivi con facilità. Questo tutorial ha mostrato come aggiungere una casella combinata, collegarla a una cella e configurarne l'intervallo di input, il tutto utilizzando Aspose.Cells.
+Aspose.Cells offre una vasta gamma di funzionalità per la manipolazione di file Excel, rendendolo la scelta ideale per gli sviluppatori che desiderano automatizzare le attività dei fogli di calcolo. Provalo con un [prova gratuita](https://releases.aspose.com/).
 ## Domande frequenti
 ### Posso usare Aspose.Cells senza Excel installato?
 Sì, Aspose.Cells funziona indipendentemente da Excel e non richiede l'installazione di Excel.
 ### Come faccio ad applicare una licenza in Aspose.Cells?
- È possibile richiedere una licenza ottenendola da[Qui](https://purchase.aspose.com/buy) e chiamando`License.SetLicense()` nel tuo codice.
+È possibile richiedere una licenza ottenendola da [Qui](https://purchase.aspose.com/buy) e chiamando `License.SetLicense()` nel tuo codice.
 ### Quali formati supporta Aspose.Cells per il salvataggio dei file?
-Aspose.Cells supporta il salvataggio di file in diversi formati, come XLSX, XLS, CSV, PDF e altri.
+Aspose.Cells supporta il salvataggio di file in numerosi formati, come XLSX, XLS, CSV, PDF e altri.
 ### C'è un limite al numero di caselle combinate che posso aggiungere?
-No, non esiste un limite preciso: puoi aggiungere tutte le caselle combinate di cui il tuo progetto ha bisogno.
+No, non esiste un limite preciso: puoi aggiungere tutte le caselle combinate di cui ha bisogno il tuo progetto.
 ### Come posso ottenere supporto per Aspose.Cells?
- Puoi ottenere supporto da[Forum di Aspose](https://forum.aspose.com/c/cells/9).
+Puoi ottenere supporto da [Forum di Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

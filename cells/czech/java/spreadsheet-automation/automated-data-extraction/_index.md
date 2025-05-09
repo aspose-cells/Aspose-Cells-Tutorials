@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizovaná extrakce dat
@@ -111,9 +113,11 @@ Automatizace extrakce dat pomocí Aspose.Cells pro Javu zjednodušuje proces na�
    Prozkoumejte dokumentaci k API na adrese [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) pro podrobné informace a příklady.
 
 Začněte automatizovat své úlohy extrakce dat ještě dnes s Aspose.Cells pro Javu a zefektivnite své procesy vyhledávání dat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

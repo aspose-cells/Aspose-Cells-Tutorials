@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,14 +17,14 @@
 
 Dalam bidang manajemen data, membuat anotasi pada lembar kerja secara efektif sangat penting untuk kejelasan dan kolaborasi. Jika Anda menghadapi tantangan dalam menambahkan komentar langsung ke objek tertentu dalam buku kerja Excel menggunakan Java, panduan ini akan membantu. Kami akan membahas cara mengatur komentar untuk objek tabel atau daftar dalam lembar kerja Excel dengan Aspose.Cells untuk Java—solusi lengkap Anda untuk manipulasi Excel tingkat lanjut.
 
-## Apa yang Akan Anda Pelajari:
+## Amit tanulni fogsz:
 - Menginstal dan mengonfigurasi Aspose.Cells untuk Java
 - Teknik untuk mengatur komentar pada Objek Daftar Excel menggunakan pustaka
-- Aplikasi praktis fitur ini dalam skenario dunia nyata
+- A funkció gyakorlati alkalmazásai valós helyzetekben
 - Tips untuk mengoptimalkan kinerja saat menangani kumpulan data besar
 
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
+## Előfeltételek
+Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
 - **Kit Pengembangan Java (JDK):** Versi 8 atau lebih tinggi terinstal di sistem Anda.
 - **IDE:** Lingkungan Pengembangan Terpadu Java seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 - **Maven/Gradle:** Untuk manajemen ketergantungan (opsional tetapi direkomendasikan).
@@ -30,7 +32,7 @@ Sebelum memulai, pastikan Anda memiliki:
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi
+### Telepítési információk
 Untuk mengintegrasikan Aspose.Cells untuk Java di proyek Anda menggunakan Maven atau Gradle:
 
 **Pakar:**
@@ -49,11 +51,11 @@ Untuk mengintegrasikan Aspose.Cells untuk Java di proyek Anda menggunakan Maven 
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 Dapatkan lisensi uji coba gratis atau minta lisensi sementara untuk menjelajahi Aspose.Cells tanpa batasan. Untuk penggunaan jangka panjang, pertimbangkan untuk membeli lisensi penuh.
 
 **Langkah-langkah untuk Pengaturan Lisensi:**
-1. **Unduh Lisensi:** Dapatkan file lisensi Anda dari [Halaman pembelian Aspose](https://purchase.aspose.com/buy).
+1. **Unduh Lisensi:** Dapatkan file lisensi Anda dari [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 2. **Terapkan Lisensi pada Kode Anda:**
    ```java
    import com.aspose.cells.License;
@@ -69,13 +71,13 @@ Dapatkan lisensi uji coba gratis atau minta lisensi sementara untuk menjelajahi 
    }
    ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 ### Mengatur Komentar pada Objek Tabel atau Daftar
 
-#### Ringkasan
+#### Áttekintés
 Fitur ini memungkinkan Anda menambahkan komentar langsung ke objek tabel atau daftar dalam lembar kerja Excel, meningkatkan dokumentasi data dan kolaborasi.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **Langkah 1: Inisialisasi Buku Kerja dan Lembar Kerja**
 Pertama, buka buku kerja Anda yang ada dan akses lembar kerja yang diinginkan:
 ```java
@@ -102,17 +104,17 @@ Tetapkan komentar Anda ke objek daftar:
 lstObj.setComment("This is an Aspose.Cells comment.");
 ```
 
-**Langkah 4: Simpan Buku Kerja**
+**4. lépés: A munkafüzet mentése**
 Terakhir, simpan buku kerja yang diperbarui dengan modifikasi:
 ```java
 workbook.save("YOUR_OUTPUT_DIRECTORY/STheCofTOrListObject_out.xlsx", com.aspose.cells.SaveFormat.XLSX);
 ```
 
 ### Buka dan Simpan Buku Kerja
-#### Ringkasan
+#### Áttekintés
 Fitur ini menunjukkan cara membuka file Excel yang ada, membuat modifikasi, dan menyimpannya menggunakan Aspose.Cells.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 **Buka Buku Kerja**
 Mulailah dengan membuka buku kerja Anda:
 ```java
@@ -125,30 +127,30 @@ Misalnya, ubah konten sel dalam lembar kerja pertama:
 workbook.getWorksheets().get(0).getCells().get("A1").setValue("Hello, Aspose.Cells!");
 ```
 
-**Simpan Perubahan**
+**Változtatások mentése**
 Simpan perubahan Anda untuk mempertahankannya:
 ```java
 workbook.save("YOUR_OUTPUT_DIRECTORY/ModifiedWorkbook_out.xlsx", com.aspose.cells.SaveFormat.XLSX);
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Berikut adalah beberapa kasus penggunaan dunia nyata untuk menetapkan komentar pada objek daftar Excel dengan Aspose.Cells:
-1. **Anotasi Data:** Tingkatkan kejelasan data dengan memberi anotasi pada tabel di lembar kerja bersama.
-2. **Proyek Kolaboratif:** Memfasilitasi kerja tim dengan memberikan komentar spesifik konteks langsung dalam kumpulan data.
+1. **Adatok megjegyzése:** Tingkatkan kejelasan data dengan memberi anotasi pada tabel di lembar kerja bersama.
+2. **Együttműködési projektek:** Memfasilitasi kerja tim dengan memberikan komentar spesifik konteks langsung dalam kumpulan data.
 3. **Jejak Audit:** Menyimpan catatan perubahan atau pembaruan pada kumpulan data melalui komentar terstruktur.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Untuk memastikan kinerja optimal saat menggunakan Aspose.Cells, pertimbangkan kiat berikut:
-- **Manajemen Memori:** Kelola pengaturan memori Java dengan benar, terutama untuk buku kerja besar.
-- **Pemrosesan Batch:** Memproses data secara batch untuk meminimalkan penggunaan sumber daya.
-- **Penanganan Data yang Efisien:** Gunakan metode dan operasi efisien yang disediakan oleh Aspose.Cells untuk menangani kumpulan data yang kompleks.
+- **Memóriakezelés:** Kelola pengaturan memori Java dengan benar, terutama untuk buku kerja besar.
+- **Kötegelt feldolgozás:** Memproses data secara batch untuk meminimalkan penggunaan sumber daya.
+- **Hatékony adatkezelés:** Gunakan metode dan operasi efisien yang disediakan oleh Aspose.Cells untuk menangani kumpulan data yang kompleks.
 
-## Kesimpulan
-Selamat! Anda telah mempelajari cara mengatur komentar pada objek daftar Excel menggunakan Aspose.Cells untuk Java. Fitur hebat ini meningkatkan kemampuan Anda untuk mengelola dan mendokumentasikan spreadsheet secara efektif. Untuk eksplorasi lebih lanjut, pelajari lebih lanjut [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/) atau bereksperimen dengan manipulasi buku kerja yang lebih kompleks.
+## Következtetés
+Selamat! Anda telah mempelajari cara mengatur komentar pada objek daftar Excel menggunakan Aspose.Cells untuk Java. Fitur hebat ini meningkatkan kemampuan Anda untuk mengelola dan mendokumentasikan spreadsheet secara efektif. Untuk eksplorasi lebih lanjut, pelajari lebih lanjut [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/) atau bereksperimen dengan manipulasi buku kerja yang lebih kompleks.
 
-**Langkah Berikutnya:** Cobalah menerapkan fitur-fitur ini dalam proyek Anda untuk menyederhanakan proses manajemen data.
+**Következő lépések:** Cobalah menerapkan fitur-fitur ini dalam proyek Anda untuk menyederhanakan proses manajemen data.
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara mengajukan lisensi untuk Aspose.Cells?**
    - Unduh file lisensi dan gunakan `License` kelas seperti yang ditunjukkan sebelumnya.
 2. **Bisakah saya memberikan komentar pada beberapa objek daftar sekaligus?**
@@ -160,17 +162,20 @@ Selamat! Anda telah mempelajari cara mengatur komentar pada objek daftar Excel m
 5. **Bagaimana cara menangani kumpulan data besar secara efisien?**
    - Memanfaatkan pemrosesan batch dan mengelola pengaturan memori dengan tepat.
 
-## Sumber daya
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+## Erőforrás
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Permintaan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Forum Dukungan Aspose](https://forum.aspose.com/c/cells/9)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license/)
+- [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 Jelajahi sumber daya ini saat Anda melanjutkan perjalanan Anda dengan Aspose.Cells untuk Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,30 +1,38 @@
 ---
-title: Nakreslení objektů s Aspose.Cells pro .NET 
-weight: 10
-limit:
-description: Objevte, jak snadno kreslit a manipulovat tvary, řádky a další objekty v souborech Excel pomocí Aspose.Cells pro .NET.
-keywords:
-url: /cs/net/drawing-objects/
+"description": "Zjistěte, jak snadno kreslit a manipulovat s tvary, čarami a dalšími objekty v souborech aplikace Excel pomocí Aspose.Cells pro .NET."
+"title": "Kreslení objektů pomocí Aspose.Cells pro .NET"
+"url": "/cs/net/drawing-objects/"
+"weight": 10
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Úvod 
+## Zavedení 
  
-Aspose.Cells pro .NET poskytuje vývojářům výkonné funkce pro vytváření a správu objektů kreslení v souborech Excel. Použitím tohoto API můžete snadno vložit tvary, řádky a různé grafika, což zvyšuje vizuální přitažlivost a funkčnost vašich kalkulačních listů. Knižnice podporuje řadu funkcí kreslení, které uživatelům umožňují přizpůsobit rozměry, styly a pozice. Ať už hledáte vyzdvižení trendů dat s řádky, poznámky obsahu s tvary nebo vytváření složitých diagramů přímo v Excel, Aspose.Cells vám vybavuje nástroje potřebné k tomu, abyste své nápady bezproblémově realizovali.
+Aspose.Cells pro .NET poskytuje vývojářům výkonné funkce pro vytváření a správu výkresových objektů v souborech Excelu. Pomocí tohoto API můžete snadno vkládat tvary, čáry a různé grafiky, což zvyšuje vizuální atraktivitu a funkčnost vašich tabulek. Knihovna podporuje řadu kreslicích funkcí a umožňuje uživatelům přizpůsobit rozměry, styly a pozice. Ať už chcete zvýraznit datové trendy pomocí čar, anotovat obsah pomocí tvarů nebo vytvářet složité diagramy přímo v Excelu, Aspose.Cells vám poskytne nástroje potřebné k bezproblémové realizaci vašich nápadů.
 
-Kromě tvorby nabízí Aspose.Cells pro .NET komplexní metody pro manipulaci s kreslenými objekty po jejich přidání. Můžete upravit vlastnosti, jako jsou barva, hranice a rotace, stejně jako odstranit nebo přemístit objekty snadno. Tato úroveň kontroly vám umožňuje dynamicky upravit vizuální obsah podle potřeb projektu. S intuitivním API a podrobnou dokumentací Aspose.Cells zjednodušuje proces práce s kreslenými objekty, což je nezbytný zdroj pro vývojáře, kteří chtějí zlepšit tvorbu a zpracování souborů Excel.
+Kromě vytváření nabízí Aspose.Cells pro .NET komplexní metody pro manipulaci s nakreslenými objekty po jejich přidání. Můžete snadno upravovat vlastnosti, jako je barva, ohraničení a rotace, a také snadno odstraňovat nebo přemisťovat objekty. Tato úroveň kontroly vám umožňuje dynamicky upravovat vizuální obsah podle potřeb vašeho projektu. Díky intuitivnímu API a podrobné dokumentaci Aspose.Cells zjednodušuje proces práce s nakreslenými objekty, což z něj činí nezbytný zdroj pro vývojáře, kteří chtějí vylepšit vytváření a zpracování souborů v Excelu.
 
-{{< tutorial-card link="./access-and-modify-label-of-ole-object/" title="Změnit štítky objektů ole v programu Excel pomocí Aspose.Cells" imgSrc="/cells/net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
-{{< tutorial-card link="./adding-pictures/" title="Vytvořte a ukrýt soubory Excel pomocí Aspose.Cells" imgSrc="/cells/net/drawing-objects/adding-pictures/images/thumb.png" >}}
-{{< tutorial-card link="./rotate-text-with-shape-inside-worksheet/" title="Změnit nastavení textu tvaru v programu Excel pomocí Aspose.Cells" imgSrc="/cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./send-shape-front-or-back-in-worksheet/" title="Manipulace Z-řadí tvarů v programu Excel pomocí Aspose.Cells" imgSrc="/cells/net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
-{{< tutorial-card link="./specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Vytvořte Excel Pracovní knižku s Far East a Latinsky písmen" imgSrc="/cells/net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
-{{< tutorial-card link="./tile-picture-as-texture-inside-shape/" title="Textura na náklaďáku vyplňte v programu Excel Aspose.Cells" imgSrc="/cells/net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+{{< tutorial-card link="./access-and-modify-label-of-ole-object/" title="Úprava popisků objektů OLE v Excelu pomocí Aspose.Cells" imgSrc="./access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
+{{< tutorial-card link="./adding-pictures/" title="Vytváření a ukládání souborů aplikace Excel pomocí Aspose.Cells" imgSrc="./adding-pictures/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-text-with-shape-inside-worksheet/" title="Úprava zarovnání textu tvaru v Excelu pomocí Aspose.Cells" imgSrc="./rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./send-shape-front-or-back-in-worksheet/" title="Manipulace s uspořádáním tvarů v ose Z v Excelu pomocí Aspose.Cells" imgSrc="./send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
+{{< tutorial-card link="./specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="Vytvořte sešit aplikace Excel s písmy Dálného východu a latinky" imgSrc="./specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
+{{< tutorial-card link="./tile-picture-as-texture-inside-shape/" title="Vyplňování textur dlaždic v Excelu pomocí Aspose.Cells" imgSrc="./tile-picture-as-texture-inside-shape/images/thumb.png" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

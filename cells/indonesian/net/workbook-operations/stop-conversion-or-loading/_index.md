@@ -1,29 +1,31 @@
 ---
-title: Hentikan Konversi atau Pemuatan menggunakan Monitor Interupsi
-linktitle: Hentikan Konversi atau Pemuatan menggunakan Monitor Interupsi
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara menghentikan konversi buku kerja di Aspose.Cells untuk .NET menggunakan Interrupt Monitor, dengan tutorial terperinci langkah demi langkah.
-weight: 26
-url: /id/net/workbook-operations/stop-conversion-or-loading/
+"description": "Tanuld meg, hogyan állíthatod le a munkafüzet-konvertálást az Aspose.Cells for .NET-ben az Interrupt Monitor használatával, részletes, lépésről lépésre szóló útmutatóval."
+"linktitle": "Konverzió vagy betöltés leállítása az Interrupt Monitor használatával"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Konverzió vagy betöltés leállítása az Interrupt Monitor használatával"
+"url": "/id/net/workbook-operations/stop-conversion-or-loading/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hentikan Konversi atau Pemuatan menggunakan Monitor Interupsi
+# Konverzió vagy betöltés leállítása az Interrupt Monitor használatával
 
-## Perkenalan
-Bekerja dengan file Excel yang besar sering kali melibatkan proses yang panjang yang dapat menghabiskan waktu dan sumber daya. Namun, bagaimana jika Anda dapat menghentikan proses konversi di tengah jalan saat Anda menyadari ada sesuatu yang perlu diubah? Aspose.Cells untuk .NET memiliki fitur yang disebut Interrupt Monitor, yang memungkinkan Anda untuk menghentikan konversi buku kerja ke format lain seperti PDF. Ini dapat menjadi penyelamat, terutama saat bekerja dengan file data yang besar. Dalam panduan ini, kami akan membahas cara menghentikan proses konversi menggunakan Interrupt Monitor di Aspose.Cells untuk .NET.
-## Prasyarat
-Sebelum memulai, pastikan Anda telah menyiapkan hal-hal berikut:
-1.  Aspose.Cells untuk .NET - Unduh[Di Sini](https://releases.aspose.com/cells/net/).
-2. Lingkungan Pengembangan .NET - Seperti Visual Studio.
-3. Pengetahuan Dasar Pemrograman C# - Keakraban dengan sintaksis C# akan membantu Anda mengikutinya.
-## Paket Impor
-Untuk memulai, mari impor paket-paket yang diperlukan. Paket-paket impor ini meliputi:
-- Aspose.Cells: Pustaka utama untuk memanipulasi file Excel.
-- System.Threading: Untuk mengelola thread, karena contoh ini akan menjalankan dua proses paralel.
+## Bevezetés
+A nagyméretű Excel-fájlokkal való munka gyakran hosszadalmas folyamatokkal jár, amelyek időt és erőforrásokat emészthetnek fel. De mi lenne, ha félúton leállíthatná a konvertálási folyamatot, amikor rájön, hogy valamit módosítani kell? Az Aspose.Cells for .NET rendelkezik egy Megszakításfigyelő nevű funkcióval, amely lehetővé teszi, hogy megszakítsa egy munkafüzet más formátumra, például PDF-re konvertálását. Ez életmentő lehet, különösen nagy adatfájlok esetén. Ebben az útmutatóban bemutatjuk, hogyan szakíthatja meg a konvertálási folyamatot az Aspose.Cells for .NET Megszakításfigyelőjével.
+## Előfeltételek
+Mielőtt belevágna, győződjön meg arról, hogy a következők a helyén vannak:
+1. Aspose.Cells .NET-hez - Töltsd le [itt](https://releases.aspose.com/cells/net/).
+2. .NET fejlesztői környezet – például a Visual Studio.
+3. C# programozási alapismeretek – A C# szintaxis ismerete segít majd a haladásban.
+## Csomagok importálása
+Kezdésként importáljuk a szükséges csomagokat. Ezek az importálások a következőket tartalmazzák:
+- Aspose.Cells: Az Excel fájlok kezelésének fő könyvtára.
+- System.Threading: Szálak kezelésére, mivel ebben a példában két párhuzamos folyamat fog futni.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -32,24 +34,24 @@ using System.Text;
 using System.Threading;
 using System.IO;
 ```
-Mari kita uraikan prosesnya menjadi beberapa langkah terperinci. Setiap langkah akan membantu Anda memahami pentingnya menyiapkan dan menggunakan Interrupt Monitor untuk mengelola konversi buku kerja Excel.
-## Langkah 1: Buat Kelas dan Tetapkan Direktori Output
-Pertama, kita perlu sebuah kelas untuk merangkum fungsi-fungsi kita, beserta direktori tempat berkas keluaran akan disimpan.
+Bontsuk le a folyamatot részletes lépésekre. Minden egyes lépés segít megérteni az Interrupt Monitor beállításának és használatának fontosságát az Excel-munkafüzetek konvertálásának kezeléséhez.
+## 1. lépés: Az osztály létrehozása és a kimeneti könyvtár beállítása
+Először is szükségünk van egy osztályra, amelybe beágyazzuk a függvényeinket, valamint egy könyvtárra, ahová a kimeneti fájlt menteni fogjuk.
 ```csharp
 class StopConversionOrLoadingUsingInterruptMonitor
 {
     static string outputDir = "Your Document Directory";
 }
 ```
- Mengganti`"Your Document Directory"` dengan jalur sebenarnya tempat Anda ingin menyimpan berkas PDF.
-## Langkah 2: Buat Instansi Pemantau Interupsi
-Selanjutnya, buat objek InterruptMonitor. Monitor ini akan membantu mengendalikan proses dengan mengatur kemampuan untuk menghentikannya pada titik tertentu.
+Csere `"Your Document Directory"` a PDF fájl mentésének tényleges elérési útjával.
+## 2. lépés: A megszakításfigyelő példányosítása
+Ezután hozz létre egy InterruptMonitor objektumot. Ez a monitor segít a folyamat vezérlésében azáltal, hogy beállítja a folyamat bármely ponton történő megszakításának lehetőségét.
 ```csharp
 InterruptMonitor im = new InterruptMonitor();
 ```
-Pemantau interupsi ini akan dilampirkan ke buku kerja kita, sehingga memungkinkan kita mengelola proses konversi.
-## Langkah 3: Siapkan Buku Kerja untuk Konversi
-Sekarang, mari kita membuat objek buku kerja, tetapkan InterruptMonitor padanya, lalu akses lembar kerja pertama untuk menyisipkan beberapa contoh teks.
+Ez a megszakításfigyelő csatolva lesz a munkafüzetünkhöz, lehetővé téve számunkra az átalakítási folyamat kezelését.
+## 3. lépés: A munkafüzet beállítása az átalakításhoz
+Most hozzunk létre egy munkafüzet-objektumot, rendeljük hozzá az InterruptMonitor objektumot, majd nyissuk meg az első munkalapot, hogy beszúrjunk néhány mintaszöveget.
 ```csharp
 void CreateWorkbookAndConvertItToPdfFormat()
 {
@@ -60,9 +62,9 @@ void CreateWorkbookAndConvertItToPdfFormat()
     cell.PutValue("This is text.");
 }
 ```
-Kode di atas membuat buku kerja, mengatur InterruptMonitor untuknya, dan menempatkan teks di sel jauh (`J1000000`). Menempatkan teks pada posisi sel ini memastikan bahwa pemrosesan buku kerja akan lebih memakan waktu, sehingga memberikan InterruptMonitor cukup waktu untuk melakukan intervensi.
-## Langkah 4: Simpan Buku Kerja sebagai PDF dan Tangani Gangguan
- Sekarang, mari kita coba menyimpan buku kerja sebagai PDF. Kita akan menggunakan`try-catch` blok untuk menangani gangguan apa pun yang mungkin terjadi.
+A fenti kód létrehoz egy munkafüzetet, beállítja hozzá az InterruptMonitort, és szöveget helyez el egy távoli cellában (`J1000000`). Ha szöveget helyezünk erre a cellapozícióra, az biztosítja, hogy a munkafüzet feldolgozása időigényesebb legyen, így az InterruptMonitornak elegendő ideje lesz beavatkozni.
+## 4. lépés: Munkafüzet mentése PDF formátumban és a megszakítás kezelése
+Most próbáljuk meg PDF formátumban menteni a munkafüzetet. Ehhez egy `try-catch` blokk az esetlegesen felmerülő megszakítások kezelésére.
 ```csharp
 try
 {
@@ -73,9 +75,9 @@ catch (Aspose.Cells.CellsException ex)
     Console.WriteLine("Process Interrupted - Message: " + ex.Message);
 }
 ```
-Jika proses terhenti, pengecualian akan mendeteksinya dan menampilkan pesan yang sesuai. Jika tidak, buku kerja akan disimpan sebagai PDF.
-## Langkah 5: Hentikan Proses Konversi
- Fitur utama di sini adalah kemampuan untuk menghentikan proses. Kami akan menambahkan penundaan menggunakan`Thread.Sleep` dan kemudian menelepon`Interrupt()` metode untuk menghentikan konversi setelah 10 detik.
+Ha a folyamat megszakad, a kivétel észleli azt, és egy megfelelő üzenetet jelenít meg. Ellenkező esetben a munkafüzet PDF formátumban kerül mentésre.
+## 5. lépés: A konverziós folyamat megszakítása
+fő funkció itt a folyamat megszakításának lehetősége. Hozzáadunk egy késleltetést a következővel: `Thread.Sleep` és akkor hívd fel a `Interrupt()` módszer a konverzió leállítására 10 másodperc után.
 ```csharp
 void WaitForWhileAndThenInterrupt()
 {
@@ -83,9 +85,9 @@ void WaitForWhileAndThenInterrupt()
     im.Interrupt();
 }
 ```
-Penundaan ini memberi waktu pada buku kerja untuk mulai mengonversi ke PDF sebelum sinyal interupsi dikirim.
-## Langkah 6: Jalankan Thread Secara Bersamaan
-Untuk menyatukan semuanya, kita perlu memulai kedua fungsi di thread terpisah. Dengan cara ini, konversi buku kerja dan interupsi tunggu dapat terjadi secara bersamaan.
+Ez a késleltetés időt ad a munkafüzetnek a PDF-be konvertálás megkezdésére, mielőtt a megszakításjel elküldésre kerülne.
+## 6. lépés: A szálak egyidejű végrehajtása
+Ahhoz, hogy mindent összefogjunk, mindkét függvényt külön szálon kell elindítanunk. Így a munkafüzet-konverzió és a megszakításvárakozás egyszerre történhet.
 ```csharp
 public void TestRun()
 {
@@ -99,9 +101,9 @@ public void TestRun()
     t2.Join();
 }
 ```
- Kode di atas berjalan`CreateWorkbookAndConvertItToPdfFormat` Dan`WaitForWhileAndThenInterrupt` dalam untaian paralel, menggabungkannya setelah kedua proses selesai.
-## Langkah 7: Eksekusi Akhir
- Terakhir, kami akan menambahkan`Run()` metode untuk mengeksekusi kode.
+A fenti kód lefut `CreateWorkbookAndConvertItToPdfFormat` és `WaitForWhileAndThenInterrupt` párhuzamos szálakban, majd miután mindkét folyamat befejeződött, összekapcsoljuk őket.
+## 7. lépés: Végső végrehajtás
+Végül hozzáadunk egy `Run()` metódus a kód végrehajtásához.
 ```csharp
 public static void Run()
 {
@@ -109,24 +111,26 @@ public static void Run()
     Console.WriteLine("StopConversionOrLoadingUsingInterruptMonitor executed successfully.");
 }
 ```
- Ini`Run` metode adalah titik masuk untuk memulai dan mengamati interupsi dalam tindakan.
-## Kesimpulan
-Dalam tutorial ini, kami mengeksplorasi cara menghentikan proses konversi di Aspose.Cells untuk .NET. Interrupt Monitor adalah alat yang berguna saat bekerja dengan file Excel yang besar, yang memungkinkan Anda menghentikan proses tanpa menunggunya selesai. Ini sangat berguna dalam skenario di mana waktu dan sumber daya sangat berharga, dan umpan balik cepat dibutuhkan.
-## Pertanyaan yang Sering Diajukan
-### Apa itu Interrupt Monitor di Aspose.Cells untuk .NET?  
-Interrupt Monitor memungkinkan Anda menghentikan proses konversi atau pemuatan buku kerja di tengah jalan.
-### Dapatkah saya menggunakan Interrupt Monitor untuk format lain selain PDF?  
-Ya, Anda juga dapat menghentikan konversi ke format lain yang didukung.
-### Bagaimana Thread.Sleep() mempengaruhi waktu interupsi?  
-Thread.Sleep() menciptakan penundaan sebelum memicu interupsi, memberikan waktu untuk memulai konversi.
-### Bisakah saya menghentikan proses sebelum 10 detik?  
- Ya, ubah penundaan di`WaitForWhileAndThenInterrupt()` ke waktu yang lebih singkat.
-### Apakah proses interupsi akan memengaruhi kinerja?  
-Dampaknya minimal, dan sangat bermanfaat untuk mengelola proses yang berjalan lama.
- Untuk informasi lebih lanjut, silakan lihat[Dokumentasi Aspose.Cells untuk .NET](https://reference.aspose.com/cells/net/) Jika Anda butuh bantuan, lihat[Forum Dukungan](https://forum.aspose.com/c/cells/9)atau dapatkan[Uji Coba Gratis](https://releases.aspose.com/).
+Ez `Run` A módszer a belépési pont a megszakítás működés közbeni elindításához és megfigyeléséhez.
+## Következtetés
+Ebben az oktatóanyagban azt vizsgáltuk meg, hogyan szakítható meg a konverziós folyamat az Aspose.Cells for .NET-ben. Az Interrupt Monitor hasznos eszköz nagyméretű Excel-fájlok kezelésekor, lehetővé téve a folyamatok leállítását anélkül, hogy meg kellene várni a befejezésüket. Ez különösen hasznos olyan helyzetekben, amikor az idő és az erőforrások értékesek, és gyors visszajelzésre van szükség.
+## GYIK
+### Mi az az Interrupt Monitor az Aspose.Cells for .NET-ben?  
+A Megszakításfigyelő lehetővé teszi a munkafüzet konvertálásának vagy betöltésének folyamatának félbeszakítását.
+### Használhatom az Interrupt Monitort a PDF-en kívül más formátumokhoz is?  
+Igen, megszakíthatja a konverziókat más támogatott formátumokba is.
+### Hogyan befolyásolja a Thread.Sleep() a megszakítás időzítését?  
+A Thread.Sleep() függvény késleltetést hoz létre a megszakítás kiváltása előtt, időt adva a konverzió megkezdésére.
+### Megszakíthatom a folyamatot 10 másodperc előtt?  
+Igen, módosítsa a késleltetést `WaitForWhileAndThenInterrupt()` rövidebb időre.
+### A megszakítási folyamat hatással lesz a teljesítményre?  
+hatás minimális, és rendkívül előnyös a hosszan futó folyamatok kezeléséhez.
+További információkért lásd a [Aspose.Cells .NET dokumentációhoz](https://reference.aspose.com/cells/net/)Ha segítségre van szüksége, tekintse meg a [Támogatási fórum](https://forum.aspose.com/c/cells/9) vagy szerezz egy [Ingyenes próbaverzió](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

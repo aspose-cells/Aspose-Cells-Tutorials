@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-excel/changing-font-size/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Changing Font Size in Excel
@@ -125,6 +127,7 @@ You can buy the license from the [purchase page](https://purchase.aspose.com/buy
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

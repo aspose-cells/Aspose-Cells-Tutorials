@@ -8,7 +8,9 @@ url: /net/setting-chart-appearance/get-major-gridlines-of-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Major Gridlines of Chart
@@ -175,6 +177,7 @@ Yes! You can try it out by downloading it from [here](https://releases.aspose.co
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

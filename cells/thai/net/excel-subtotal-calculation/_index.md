@@ -1,21 +1,23 @@
 ---
-title: ผลรวมย่อยและการคำนวณของ Excel
-linktitle: ผลรวมย่อยและการคำนวณของ Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: ค้นพบวิธีการสร้างผลรวมย่อยของ Excel และติดตามบรรทัดฐานโดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนเหล่านี้เพื่อพัฒนาทักษะการใช้สเปรดชีตของคุณได้อย่างง่ายดาย
-weight: 33
-url: /th/net/excel-subtotal-calculation/
+"description": "ค้นพบวิธีการสร้างผลรวมย่อยของ Excel และติดตามบรรทัดฐานโดยใช้ Aspose.Cells สำหรับ .NET ทำตามบทช่วยสอนเหล่านี้เพื่อพัฒนาทักษะการใช้สเปรดชีตของคุณได้อย่างง่ายดาย"
+"linktitle": "ผลรวมย่อยและการคำนวณของ Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "ผลรวมย่อยและการคำนวณของ Excel"
+"url": "/th/net/excel-subtotal-calculation/"
+"weight": 33
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ผลรวมย่อยและการคำนวณของ Excel
 
 ## การแนะนำ
 
-การจัดการไฟล์ Excel อาจเป็นเรื่องน่าเบื่อ โดยเฉพาะเมื่อต้องคำนวณผลรวมและดำเนินการรายละเอียด โชคดีที่ Aspose.Cells สำหรับ .NET ทำให้การทำงานอัตโนมัติเป็นเรื่องง่าย ต้องการเพิ่มผลรวมย่อยลงในชุดข้อมูลขนาดใหญ่หรือไม่ หรือบางทีอาจติดตามการพึ่งพาเซลล์ระหว่างแผ่นงาน คุณมาถูกที่แล้ว
+การจัดการไฟล์ Excel อาจเป็นเรื่องน่าเบื่อ โดยเฉพาะเมื่อต้องคำนวณผลรวมและดำเนินการรายละเอียด โชคดีที่ Aspose.Cells สำหรับ .NET ทำให้การทำงานอัตโนมัติเป็นเรื่องง่าย ต้องการเพิ่มผลรวมย่อยลงในชุดข้อมูลขนาดใหญ่หรือไม่ หรืออาจติดตามการพึ่งพาเซลล์ระหว่างแผ่นงานหรือไม่ คุณมาถูกที่แล้ว
 
 ## [สร้างผลรวมย่อยใน Excel](./create-subtotals-in-excel/)
 
@@ -32,9 +34,11 @@ url: /th/net/excel-subtotal-calculation/
 เรียนรู้วิธีการสร้างผลรวมย่อยใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนง่ายๆ นี้
 ### [การติดตามบรรทัดฐานใน Excel](./tracing-precedents-in-excel/)
 เรียนรู้วิธีการติดตามบรรทัดฐานใน Excel ด้วย Aspose.Cells สำหรับ .NET! ค้นพบบทช่วยสอนการเขียนโค้ดแบบทีละขั้นตอนที่จะช่วยเสริมทักษะการใช้สเปรดชีตของคุณ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

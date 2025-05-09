@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
 "description": "Aspose.Cells for Java를 사용하여 Excel 통합 문서에서 텍스트를 효율적으로 로드하고, 액세스하고, 추출하는 방법을 알아보세요. 이 가이드에서는 설정부터 고급 기능까지 모든 것을 다룹니다."
-"title": "Aspose.Cells for Java를 마스터하여 Excel 통합 문서에서 텍스트를 효율적으로 로드하고 추출하는 방법"
+"title": "Aspose.Cells for Java를 마스터하여 Excel 통합 문서에서 텍스트를 효율적으로 로드하고 추출"
 "url": "/ko/java/workbook-operations/mastering-aspose-cells-excel-load-extract-text/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -71,7 +73,7 @@ Aspose.Cells의 기능을 살펴보려면 클래스와 메서드에 대한 친�
 
 Aspose는 다양한 라이선스 옵션을 제공합니다.
 - **무료 체험**: 30일 동안 모든 기능을 테스트해 보세요.
-- **임시 면허**: 장기 평가를 위해 임시 라이센스를 얻으세요.
+- **임시 면허**장기 평가를 위해 임시 라이센스를 얻으세요.
 - **라이센스 구매**: 제한 없는 사용을 위한 영구 라이센스를 취득합니다.
 
 방문하다 [Aspose 구매 페이지](https://purchase.aspose.com/buy) 라이선싱 옵션에 대해 자세히 알아보세요.
@@ -198,6 +200,9 @@ Java용 Aspose.Cells는 다양한 애플리케이션에 통합될 수 있습니�
 지금 Aspose.Cells for Java를 사용하여 여정을 시작하고 Excel 파일 처리의 모든 잠재력을 활용해 보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

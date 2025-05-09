@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ cells.get("C2").setStyle(style);
 ```
 
 #### Vysvětlení:
-- **`Workbook`**: Představuje soubor aplikace Excel.
+- **`Workbook`**Představuje soubor aplikace Excel.
 - **`Worksheet`**: Odkazuje na list v sešitu.
 - **`Cells`**: Kolekce buněk v listu.
 - **`Style`**Používá se pro formátování buněk.
@@ -200,6 +202,9 @@ V tomto tutoriálu jsme se seznámili s tím, jak vytvořit a upravit pracovní 
 - **Dokumentace**Komplexní průvodce a reference API naleznete na adrese [Dokumentace k Aspose.Cells](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

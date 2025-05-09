@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -235,6 +237,9 @@ Wanneer u met grote datasets of complexe werkmappen werkt, dient u rekening te h
 Wanneer u deze technieken onder de knie krijgt, kunt u de prestaties en betrouwbaarheid van uw Excel-automatiseringstaken verbeteren met Aspose.Cells in Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

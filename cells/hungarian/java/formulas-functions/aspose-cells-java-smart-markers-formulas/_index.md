@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,7 +172,7 @@ Az Aspose.Cells for Java különféle alkalmazásokba integrálható, például:
 
 ## Teljesítménybeli szempontok
 
-A teljesítmény optimalizálása az Aspose.Cells használatakor:
+teljesítmény optimalizálása az Aspose.Cells használatakor:
 
 - Hatékonyan kezelje a memóriahasználatot, különösen nagy adathalmazok kezelésekor.
 - Használja az Aspose beépített metódusait a munkafüzet-műveletek egyszerűsítéséhez és a feldolgozási idő csökkentéséhez.
@@ -205,6 +207,9 @@ Az ebben az oktatóanyagban tárgyalt funkciók megvalósításával feloldotta 
 - **Ingyenes próbaverzió és ideiglenes licenc:** Kezdje ingyenes próbaverzióval, vagy szerezzen be ideiglenes licencet a következő címen: [Aspose ingyenes próbaverzió](https://releases.aspose.com/cells/java/) és [Ideiglenes engedély](https://purchase.aspose.com/temporary-license).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

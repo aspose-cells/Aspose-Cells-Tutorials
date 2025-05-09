@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
 #### Acquisizione della licenza
-Aspose.Cells offre una licenza di prova gratuita per valutare le sue funzionalità senza limitazioni per un periodo di tempo limitato. Per acquistarla, segui questi passaggi:
+Aspose.Cells offre una licenza di prova gratuita per valutare le sue funzionalità senza limitazioni per un periodo di tempo limitato. Per ottenerla, segui questi passaggi:
 1. Visita il sito web di Aspose e richiedi una licenza temporanea.
 2. Una volta ottenuta, applica la licenza nella tua applicazione Java prima di utilizzare qualsiasi funzionalità.
 
@@ -101,7 +103,7 @@ public class FeatureWorkbookInitialization {
 L'aggiunta di fogli di lavoro è fondamentale quando sono necessari più fogli per organizzare i dati.
 
 **Panoramica:**
-Questa funzionalità illustra come aggiungere un foglio di lavoro e ottenere il relativo riferimento all'interno della cartella di lavoro.
+Questa funzionalità illustra come aggiungere un foglio di lavoro e come ottenere il relativo riferimento all'interno della cartella di lavoro.
 
 #### Implementazione passo dopo passo:
 ##### Inizializza una nuova istanza della cartella di lavoro
@@ -222,9 +224,12 @@ Per garantire prestazioni ottimali durante l'utilizzo di Aspose.Cells:
 ## Conclusione
 Seguendo questa guida, hai appreso tecniche essenziali per la manipolazione di file Excel utilizzando Aspose.Cells in Java. Queste competenze ti consentono di automatizzare e semplificare efficacemente i tuoi processi di gestione dei dati.
 
-Per continuare a esplorare le funzionalità di Aspose.Cells, prendi in considerazione l'idea di approfondire funzionalità avanzate come la creazione di grafici, la convalida dei dati e altro ancora.
+Per continuare a esplorare le potenzialità di Aspose.Cells, potresti provare ad approfondire le funzionalità avanzate come la creazione di grafici, la convalida dei dati e altro ancora.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

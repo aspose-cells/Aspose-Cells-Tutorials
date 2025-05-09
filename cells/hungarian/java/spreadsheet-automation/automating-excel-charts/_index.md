@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel-diagramok automatizálása
@@ -48,7 +50,7 @@ public class ExcelChartsAutomation {
 
 ### 3. Munkalap létrehozása
 
-diagramokkal való munkához létre kell hoznunk egy munkalapot, és fel kell töltenünk adatokkal:
+A diagramokkal való munkához létre kell hoznunk egy munkalapot, és fel kell töltenünk adatokkal:
 
 ```java
 // Új munkalap létrehozása
@@ -117,9 +119,11 @@ Az Excel-diagramok automatizálása az Aspose.Cells for Java segítségével lee
    Tekintse meg az API dokumentációját a következő címen: [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/) részletes információkért és példákért.
 
 Automatizálja Excel diagramkészítési feladatait könnyedén az Aspose.Cells for Java segítségével, és emelje adatvizualizációs képességeit.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

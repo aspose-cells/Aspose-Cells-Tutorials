@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -26,7 +28,7 @@ Låt oss dyka in på förutsättningarna innan vi börjar implementera dessa fun
 För att följa den här handledningen, se till att du har:
 - **Obligatoriska bibliotek:** Maven- eller Gradle-konfiguration för beroendehantering.
 - **Miljöinställningar:** Ett Java Development Kit (JDK) installerat och konfigurerat på ditt system.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och vana vid hantering av filer i en katalog.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och vana vid hantering av filer i en katalog.
 ## Konfigurera Aspose.Cells för Java
 Aspose.Cells är ett robust bibliotek för kalkylbladshantering, vilket gör att du effektivt kan återge Excel-data som bilder. Så här konfigurerar du det:
 ### Maven-beroende
@@ -93,7 +95,7 @@ SheetRender sr = new SheetRender(worksheet, opts);
 sr.toImage(0, g); // Rendera kalkylbladet i grafikkontexten
 ```
 **Viktiga konfigurationer:**
-- `setOnePagePerSheet(true)`Säkerställer att renderingen passar på en enda sida.
+- `setOnePagePerSheet(true)`Säkerställer att renderingen får plats på en enda sida.
 ### Funktion 3: Spara buffrad bild som PNG
 #### Översikt
 Att spara din renderade bild till disk är enkelt med hjälp av Javas ImageIO-klass.
@@ -145,6 +147,9 @@ Du har lärt dig hur man renderar Excel-ark som bilder med hjälp av Aspose.Cell
 Med dessa verktyg och tips är du på god väg att bemästra Excel-arkrendering i Java med Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ Sie beherrschen nun die Erstellung und Verwendung benannter Bereiche mit Aspose.
 Mit dieser Anleitung sind Sie bestens gerüstet, um die Leistungsfähigkeit benannter Bereiche mit Aspose.Cells für Java in Ihren Projekten zu nutzen. Viel Spaß beim Programmieren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

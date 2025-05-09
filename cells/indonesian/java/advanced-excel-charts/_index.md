@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bagan Excel Lanjutan
@@ -47,9 +49,11 @@ Pelajari cara membuat animasi grafik yang menarik dengan Aspose.Cells untuk Java
 Pelajari cara membuat Diagram Waterfall yang menakjubkan dengan Aspose.Cells untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang efektif.
 ### [Interaktivitas Bagan](./chart-interactivity/)
 Pelajari cara membuat bagan interaktif menggunakan Aspose.Cells untuk Java. Tingkatkan visualisasi data Anda dengan interaktivitas.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

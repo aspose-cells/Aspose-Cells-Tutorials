@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Padroneggiare la gestione delle parti XML delle cartelle di lavoro con Aspose.Ce
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells per Java e trasforma il modo in cui gestisci le cartelle di lavoro di Excel nelle tue applicazioni!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

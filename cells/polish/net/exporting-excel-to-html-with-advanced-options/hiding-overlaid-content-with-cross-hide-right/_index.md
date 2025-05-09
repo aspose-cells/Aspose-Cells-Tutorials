@@ -1,14 +1,16 @@
 ---
-title: Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML
-linktitle: Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: W tym kompleksowym przewodniku dowiesz się, jak ukryć nakładaną zawartość w programie Excel podczas zapisywania w formacie HTML za pomocą Aspose.Cells dla platformy .NET.
-weight: 16
-url: /pl/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/
+"description": "tym kompleksowym przewodniku dowiesz się, jak ukryć nakładaną zawartość w programie Excel podczas zapisywania w formacie HTML za pomocą Aspose.Cells dla platformy .NET."
+"linktitle": "Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML"
+"url": "/pl/net/exporting-excel-to-html-with-advanced-options/hiding-overlaid-content-with-cross-hide-right/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ukrywanie nałożonej zawartości za pomocą funkcji Cross Hide Right podczas zapisywania w formacie HTML
@@ -18,9 +20,9 @@ Czy kiedykolwiek miałeś do czynienia z niechlujnymi plikami Excela, które po 
 ## Wymagania wstępne
 Zanim przejdziemy do szczegółów, upewnijmy się, że wszystko jest poprawnie skonfigurowane! Oto wymagania wstępne, których będziesz potrzebować, aby postępować zgodnie z nimi:
 1. Podstawowa wiedza o C#: Jeśli znasz C#, to świetnie! Będziemy pracować w tym języku, więc zrozumienie podstaw będzie pomocne.
-2.  Aspose.Cells dla .NET Zainstalowane: Musisz zainstalować Aspose.Cells dla .NET. Jeśli jeszcze tego nie zrobiłeś, przejdź do[Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/) aby zacząć.
-3. Zainstalowany program Visual Studio: IDE, takie jak Visual Studio, ułatwi ci życie. Jeśli go nie masz, pobierz go z[strona internetowa](https://visualstudio.microsoft.com/).
-4.  Przykładowy plik Excela: Przygotuj przykładowy plik Excela, którego będziemy używać w naszych przykładach. Utwórz przykładowy plik o nazwie`sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx`.
+2. Aspose.Cells dla .NET Zainstalowane: Musisz zainstalować Aspose.Cells dla .NET. Jeśli jeszcze tego nie zrobiłeś, przejdź do [Strona pobierania Aspose.Cells](https://releases.aspose.com/cells/net/) aby zacząć.
+3. Zainstalowany program Visual Studio: IDE, takie jak Visual Studio, ułatwi ci życie. Jeśli go nie masz, pobierz go z [strona internetowa](https://visualstudio.microsoft.com/).
+4. Przykładowy plik Excela: Przygotuj przykładowy plik Excela, którego będziemy używać w naszych przykładach. Utwórz przykładowy plik o nazwie `sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx`.
 5. .NET Framework lub .NET Core: Upewnij się, że w systemie jest zainstalowany .NET Framework lub .NET Core.
 Zabierzmy się do roboty i zacznijmy kodować! 
 ## Importuj pakiety
@@ -30,7 +32,7 @@ Otwórz Visual Studio i utwórz nowy projekt C#. Możesz wybrać typ projektu Co
 ### Dodaj odniesienie Aspose.Cells
 1. Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 2. Kliknij „Zarządzaj pakietami NuGet”.
-3.  Szukaj`Aspose.Cells` i zainstaluj pakiet.
+3. Szukaj `Aspose.Cells` i zainstaluj pakiet.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -46,10 +48,10 @@ Zacznijmy od załadowania przykładowego pliku Excel.
 string sourceDir = "Your Document Directory";
 //Katalog wyjściowy
 string outputDir = "Your Document Directory";
-//Załaduj przykładowy plik Excel
+// Załaduj przykładowy plik Excel 
 Workbook wb = new Workbook(sourceDir + "sampleHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.xlsx");
 ```
- Tutaj tworzymy instancję`Workbook` klasa, która załaduje nasz plik Excel. Upewnij się tylko, że aktualizujesz`sourceDir` z prawidłową ścieżką do katalogu, w którym znajduje się plik Excel. 
+Tutaj tworzymy instancję `Workbook` klasa, która załaduje nasz plik Excel. Upewnij się, że aktualizujesz `sourceDir` z prawidłową ścieżką do katalogu, w którym znajduje się plik Excel. 
 ## Krok 2: Określ opcje zapisywania HTML
 Następnie musimy skonfigurować opcje zapisu HTML, aby ukryć nakładaną zawartość.
 ```csharp
@@ -57,16 +59,16 @@ Następnie musimy skonfigurować opcje zapisu HTML, aby ukryć nakładaną zawar
 HtmlSaveOptions opts = new HtmlSaveOptions();
 opts.HtmlCrossStringType = HtmlCrossType.CrossHideRight;
 ```
- W tym kroku tworzymy instancję`HtmlSaveOptions` . Ten`HtmlCrossStringType` właściwość jest ustawiona na`CrossHideRight` który mówi bibliotece Aspose.Cells, jak obsługiwać nałożoną zawartość podczas eksportowania do HTML. Pomyśl o tym jak o znalezieniu idealnego filtra do zdjęcia; chcesz wyróżnić tylko właściwe części.
+W tym kroku tworzymy instancję `HtmlSaveOptions`. Ten `HtmlCrossStringType` właściwość jest ustawiona na `CrossHideRight` który mówi bibliotece Aspose.Cells, jak obsługiwać nałożoną zawartość podczas eksportowania do HTML. Pomyśl o tym jak o znalezieniu idealnego filtra do zdjęcia; chcesz wyróżnić tylko właściwe części.
 ## Krok 3: Zapisz skoroszyt jako HTML
 Gdy już wszystko skonfigurujemy, czas zapisać skoroszyt w pliku HTML.
 ```csharp
 // Zapisz do HTML za pomocą HtmlSaveOptions
 wb.Save(outputDir + "outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html", opts);
 ```
-Ten wiersz pobiera nasz skoroszyt (`wb` ) i zapisuje go w określonym katalogu wyjściowym pod nazwą`outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`Stosuje również wcześniej zdefiniowane przez nas opcje, aby zapewnić, że nakładana zawartość jest obsługiwana zgodnie z naszymi potrzebami.
+Ten wiersz pobiera nasz skoroszyt (`wb`) i zapisuje go w określonym katalogu wyjściowym pod nazwą `outputHidingOverlaidContentWithCrossHideRightWhileSavingToHtml.html`. Stosuje również wcześniej zdefiniowane przez nas opcje, aby zapewnić, że nakładana zawartość jest obsługiwana zgodnie z naszymi potrzebami.
 ## Krok 4: Wyjście komunikatu o powodzeniu
-Na koniec dodajmy komunikat o powodzeniu operacji, aby poinformować nas, że wszystko przebiegło pomyślnie.
+Na koniec dodajmy komunikat informujący o powodzeniu operacji.
 ```csharp
 Console.WriteLine("HidingOverlaidContentWithCrossHideRightWhileSavingToHtml executed successfully.");
 ```
@@ -79,16 +81,18 @@ Ten proces naprawdę upraszcza zapisywanie plików Excela do HTML, jednocześnie
 ### Czym jest Aspose.Cells?
 Aspose.Cells to potężna biblioteka .NET zaprojektowana do pracy z plikami Excel. Umożliwia ona bezproblemowe tworzenie, modyfikowanie, konwertowanie i manipulowanie dokumentami Excel w aplikacjach.
 ### Czy mogę używać Aspose.Cells za darmo?
- Tak, Aspose.Cells oferuje[bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz przetestować jego funkcje przed zakupem.
+Tak, Aspose.Cells oferuje [bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz przetestować jego funkcje przed zakupem.
 ### Czy Aspose.Cells obsługuje wszystkie formaty Excela?
 Oczywiście! Aspose.Cells obsługuje szereg formatów Excela, w tym XLS, XLSX i CSV.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Wsparcie znajdziesz na[Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie możesz zadawać pytania i dzielić się doświadczeniami.
+Wsparcie można znaleźć na stronie [Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie możesz zadawać pytania i dzielić się doświadczeniami.
 ### Jak kupić Aspose.Cells?
- Możesz zakupić Aspose.Cells odwiedzając stronę[strona zakupu](https://purchase.aspose.com/buy).
+Możesz zakupić Aspose.Cells odwiedzając stronę [strona zakupu](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

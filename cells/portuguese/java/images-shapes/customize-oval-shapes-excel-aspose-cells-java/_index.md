@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -114,7 +116,7 @@ fillformat.setOneColorGradient(Color.getNavy(), 1, GradientStyleType.HORIZONTAL,
 - `Color.getNavy()` fornece a cor para o gradiente.
 - `GradientStyleType.HORIZONTAL` aplica um efeito de gradiente horizontal.
 
-##### Etapa 4: definir o formato da linha
+##### Etapa 4: definir formato de linha
 Personalize a borda do seu oval:
 ```java
 import com.aspose.cells.LineFormat;
@@ -179,6 +181,9 @@ R: Revise os padrões de uso de memória e otimize seu código para lidar com gr
 Seguindo este guia, você estará preparado para aprimorar suas planilhas do Excel com formas personalizadas usando o Aspose.Cells para Java. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

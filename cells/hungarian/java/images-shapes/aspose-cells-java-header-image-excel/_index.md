@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -25,7 +27,7 @@ A vizuálisan vonzó és professzionális megjelenésű Excel-jelentések létre
 Mielőtt belevágnánk a megvalósításba, győződjünk meg róla, hogy minden szükséges eszköz készen áll. A környezet beállítása egyszerű lesz, ha az előfeltételek teljesülnek.
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+Kezdés előtt győződjön meg róla, hogy rendelkezik a következőkkel:
 
 - **Könyvtárak és verziók:** Aspose.Cells Java 25.3-as verzióhoz.
 - **Környezet beállítása:** JDK telepítve és egy IDE, például IntelliJ IDEA vagy Eclipse konfigurálva.
@@ -117,7 +119,7 @@ workbook.save(outDir + "InsertImageInHeaderFooter_out.xls");
 - **Cél:** Ez a lépés az összes módosítást visszaírja egy lemezen lévő fájlba.
 
 ### Záró források
-**Bezárt streamek:**
+**Bezárás:**
 ```java
 inFile.close();
 ```
@@ -163,6 +165,9 @@ Az útmutató követésével megtanultad, hogyan fejlesztheted Excel-munkafüzet
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

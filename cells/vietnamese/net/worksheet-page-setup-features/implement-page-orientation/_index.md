@@ -1,14 +1,16 @@
 ---
-title: Triển khai định hướng trang trong trang tính
-linktitle: Triển khai định hướng trang trong trang tính
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách thiết lập hướng trang trong bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước đơn giản để trình bày tài liệu tốt hơn.
-weight: 18
-url: /vi/net/worksheet-page-setup-features/implement-page-orientation/
+"description": "Tìm hiểu cách thiết lập hướng trang trong bảng tính Excel bằng Aspose.Cells cho .NET. Hướng dẫn từng bước đơn giản để trình bày tài liệu tốt hơn."
+"linktitle": "Triển khai định hướng trang trong trang tính"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Triển khai định hướng trang trong trang tính"
+"url": "/vi/net/worksheet-page-setup-features/implement-page-orientation/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Triển khai định hướng trang trong trang tính
@@ -18,8 +20,8 @@ Khi nói đến việc định dạng bảng tính, một khía cạnh quan tr�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào chi tiết, hãy đảm bảo rằng bạn đã thiết lập mọi thứ để hoạt động hiệu quả với Aspose.Cells cho .NET.
 ### Những gì bạn cần:
-1.  Visual Studio: Bài viết này giả định rằng bạn đã cài đặt nó; nếu chưa, bạn có thể tải nó từ[Tải xuống Visual Studio](https://visualstudio.microsoft.com/vs/).
-2.  Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện. Bạn có thể lấy nó từ[Trang tải xuống Aspose](https://releases.aspose.com/cells/net/) . Ngoài ra, nếu bạn thích cách tiếp cận thực tế hơn, bạn luôn có thể bắt đầu bằng[dùng thử miễn phí](https://releases.aspose.com/).
+1. Visual Studio: Bài viết này giả định rằng bạn đã cài đặt nó; nếu chưa, bạn có thể tải nó từ [Tải xuống Visual Studio](https://visualstudio.microsoft.com/vs/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần tải xuống và cài đặt thư viện. Bạn có thể lấy nó từ [Trang tải xuống Aspose](https://releases.aspose.com/cells/net/). Ngoài ra, nếu bạn thích cách tiếp cận thực tế hơn, bạn luôn có thể bắt đầu bằng [dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ rất hữu ích vì các ví dụ của chúng tôi sẽ được mã hóa bằng ngôn ngữ này.
 Bây giờ chúng ta đã thiết lập được nền tảng vững chắc, hãy nhập các gói cần thiết để đảm bảo rằng chúng ta đã sẵn sàng.
 ## Nhập gói
@@ -29,7 +31,7 @@ Khởi chạy Visual Studio và tạo một dự án C# mới. Bạn có thể c
 ## Thêm tài liệu tham khảo
 Vào Solution Explorer. Nhấp chuột phải vào dự án của bạn, chọn Manage NuGet Packages và tìm kiếm thư viện Aspose.Cells. Cài đặt nó để đảm bảo tất cả các chức năng đều nằm trong tầm tay bạn.
 ## Nhập thư viện 
- Trong tệp chương trình chính của bạn (thường là`Program.cs`), hãy đảm bảo đưa chỉ thị sau vào đầu:
+Trong tệp chương trình chính của bạn (thường là `Program.cs`), hãy đảm bảo đưa chỉ thị sau vào đầu:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -42,13 +44,13 @@ Bây giờ, chúng ta hãy cùng tìm hiểu quy trình thay đổi hướng tra
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với một con đường thực tế như`"C:\\Documents\\"` nơi bạn muốn lưu tệp Excel đầu ra.
+Hãy chắc chắn thay thế `"Your Document Directory"` với một con đường thực tế như `"C:\\Documents\\"` nơi bạn muốn lưu tệp Excel đầu ra.
 ## Bước 2: Khởi tạo một đối tượng Workbook
 Tiếp theo, chúng ta cần tạo một phiên bản sổ làm việc mới. Đối tượng này về cơ bản là sân chơi của chúng ta để thao tác bảng tính.
 ```csharp
 Workbook workbook = new Workbook();
 ```
- Bằng cách khởi tạo`Workbook`, chúng tôi đã tạo một tệp Excel mới trong bộ nhớ để chúng tôi có thể xây dựng dựa trên đó.
+Bằng cách khởi tạo `Workbook`, chúng tôi đã tạo một tệp Excel mới trong bộ nhớ để chúng tôi có thể xây dựng dựa trên đó.
 ## Bước 3: Truy cập vào trang tính đầu tiên
 Bây giờ chúng ta đã có bảng tính, hãy truy cập vào bảng tính đầu tiên nơi chúng ta sẽ thiết lập hướng trang. 
 ```csharp
@@ -66,25 +68,27 @@ Cuối cùng, đã đến lúc lưu các thay đổi của chúng ta vào tệp 
 ```csharp
 workbook.Save(dataDir + "PageOrientation_out.xls");
 ```
- Ở đây, chúng tôi đang lưu sổ làm việc dưới tên`PageOrientation_out.xls` trong thư mục được chỉ định.
+Ở đây, chúng tôi đang lưu sổ làm việc dưới tên `PageOrientation_out.xls` trong thư mục được chỉ định.
 ## Phần kết luận
 Và cứ như vậy, bạn đã học được cách triển khai định hướng trang trong bảng tính bằng Aspose.Cells cho .NET! Thực sự khá đơn giản khi bạn chia nhỏ từng bước, phải không? Bây giờ, bạn không chỉ có thể định dạng bảng tính của mình tốt hơn mà còn làm cho chúng dễ đọc hơn và trông chuyên nghiệp hơn.
 Với sự gia tăng của công việc từ xa và chia sẻ màn hình, việc có các tài liệu được định dạng tốt thực sự có thể tạo ra sự khác biệt, đặc biệt là trong các bài thuyết trình. Vậy, tại sao không thử áp dụng điều này vào các dự án của riêng bạn? 
 ## Câu hỏi thường gặp
 ### Aspose.Cells có miễn phí không?
- Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu với một[dùng thử miễn phí](https://releases.aspose.com/)cho phép bạn khám phá các tính năng của nó.
+Aspose.Cells là một thư viện trả phí, nhưng bạn có thể bắt đầu với một [dùng thử miễn phí](https://releases.aspose.com/) cho phép bạn khám phá các tính năng của nó.
 ### Tôi có thể thay đổi hướng trang thành Ngang được không?
- Chắc chắn rồi! Chỉ cần thay thế`PageOrientationType.Portrait` với`PageOrientationType.Landscape` trong mã của bạn.
+Chắc chắn rồi! Chỉ cần thay thế `PageOrientationType.Portrait` với `PageOrientationType.Landscape` trong mã của bạn.
 ### Aspose.Cells hỗ trợ những phiên bản .NET nào?
 Aspose.Cells hỗ trợ nhiều phiên bản .NET, bao gồm .NET Framework, .NET Core và .NET Standard.
 ### Tôi có thể nhận được trợ giúp thêm như thế nào nếu gặp vấn đề?
- Để được hỗ trợ, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) nơi cộng đồng và nhóm có thể giúp đỡ bạn.
+Để được hỗ trợ, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9) nơi cộng đồng và nhóm có thể giúp đỡ bạn.
 ### Tôi có thể tìm tài liệu đầy đủ ở đâu?
- Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Cells[đây](https://reference.aspose.com/cells/net/).
+Bạn có thể tìm thấy tài liệu toàn diện về Aspose.Cells [đây](https://reference.aspose.com/cells/net/).
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,7 +143,7 @@ workbook.save("YOUR_OUTPUT_DIRECTORY/TabularForm.xlsx");
 2. **판매 분석:** 개요 양식을 사용하면 판매 데이터를 계층적으로 자세히 살펴볼 수 있습니다.
 3. **재고 관리:** 표 형식은 자세한 품목 목록을 제공합니다.
 
-통합 가능성에는 BI 도구 및 대시보드와 연결하여 데이터 시각화를 향상시키는 것이 포함됩니다.
+BI 도구 및 대시보드와 연결하여 데이터 시각화를 강화하는 등의 통합 가능성이 있습니다.
 
 ## 성능 고려 사항
 
@@ -186,6 +188,9 @@ Aspose.Cells의 포괄적인 기능을 살펴보고 더욱 고급 기능을 탐�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

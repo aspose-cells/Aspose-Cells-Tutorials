@@ -1,14 +1,16 @@
 ---
-title: Xades İmza Desteği
-linktitle: Xades İmza Desteği
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvence altına alın.
-weight: 190
-url: /tr/net/excel-workbook/xades-signature-support/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel dosyalarına Xades imzalarının nasıl ekleneceğini öğrenin. Belgelerinizi güvence altına alın."
+"linktitle": "Xades İmza Desteği"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Xades İmza Desteği"
+"url": "/tr/net/excel-workbook/xades-signature-support/"
+"weight": 190
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xades İmza Desteği
@@ -21,9 +23,9 @@ Günümüzün dijital dünyasında, belgeleri güvence altına almak her zamanki
 
 Başlamadan önce, yerinde olması gereken birkaç şey var:
 
-1.  .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan kolayca indirebilirsiniz:[Aspose web sitesi](https://releases.aspose.com/cells/net/).
+1. .NET için Aspose.Cells: Aspose.Cells kütüphanesinin yüklü olduğundan emin olun. Bunu şuradan kolayca indirebilirsiniz: [Aspose web sitesi](https://releases.aspose.com/cells/net/).
 2. Geliştirme Ortamı: Kodunuzu yazıp çalıştırabileceğiniz çalışan bir .NET geliştirme ortamı (örneğin Visual Studio).
-3. Dijital Sertifika: Şifresiyle birlikte geçerli bir dijital sertifikaya (PFX dosyası) ihtiyacınız var. Bu sertifika, dijital imzayı oluşturmak için gereklidir.
+3. Dijital Sertifika: Şifresiyle birlikte geçerli bir dijital sertifikaya (PFX dosyası) ihtiyacınız var. Bu sertifika dijital imzayı oluşturmak için gereklidir.
 4. Temel C# Bilgisi: C# programlamaya aşina olmak örnekleri daha iyi anlamanıza yardımcı olacaktır.
 
 Bu ön koşulları yerine getirdikten sonra, Excel dosyalarınızda Xades imzalarını uygulamaya başlamaya hazırsınız!
@@ -61,7 +63,7 @@ Ardından imzalamak istediğimiz Excel çalışma kitabını yükleyelim. Mevcut
 Workbook workbook = new Workbook(sourceDir + "sourceFile.xlsx");
 ```
 
- Burada, yeni bir örnek oluşturuyoruz`Workbook` sınıf, kaynak Excel dosyasının yolunu geçirerek. Dosya adının kaynak dizininizde bulunan adla eşleştiğinden emin olun.
+Burada, yeni bir örnek oluşturuyoruz `Workbook` sınıf, kaynak Excel dosyasının yolunu geçirerek. Dosya adının kaynak dizininizde bulunan adla eşleştiğinden emin olun.
 
 ## Adım 3: Dijital Sertifikanızı Hazırlayın
 
@@ -72,18 +74,18 @@ string password = "pfxPassword"; // PFX şifrenizle değiştirin
 string pfx = "pfxFile"; // PFX dosyanızın yolunu kullanarak değiştirin
 ```
 
- Bu adımda, değiştirin`pfxPassword` gerçek şifrenizle ve`pfxFile` PFX dosyanızın yolu ile. Bu, belgenizi imzalamanın anahtarıdır!
+Bu adımda, değiştirin `pfxPassword` gerçek şifrenizle ve `pfxFile` PFX dosyanızın yolu ile. Bu, belgenizi imzalamanın anahtarıdır!
 
 ## Adım 4: Dijital İmzayı Oluşturun
 
- Şimdi, dijital imzayı kullanarak oluşturalım`DigitalSignature` sınıf. İşte sihir burada gerçekleşiyor!
+Şimdi, dijital imzayı kullanarak oluşturalım `DigitalSignature` sınıf. İşte sihir burada gerçekleşiyor!
 
 ```csharp
 DigitalSignature signature = new DigitalSignature(File.ReadAllBytes(pfx), password, "testXAdES", DateTime.Now);
 signature.XAdESType = XAdESType.XAdES;
 ```
 
- Bu kod parçacığında, PFX dosyasını bir bayt dizisine okuyoruz ve yeni bir`DigitalSignature` nesne. Ayrıca şunu da ayarladık`XAdESType` ile`XAdES`İmzamız için olmazsa olmaz olan.
+Bu kod parçacığında, PFX dosyasını bir bayt dizisine okuyoruz ve yeni bir `DigitalSignature` nesne. Ayrıca şunu da ayarladık `XAdESType` ile `XAdES`İmzamız için olmazsa olmaz olan.
 
 ## Adım 5: İmzayı Çalışma Kitabına Ekleyin
 
@@ -95,7 +97,7 @@ dsCollection.Add(signature);
 workbook.SetDigitalSignature(dsCollection);
 ```
 
- Burada bir tane yaratıyoruz`DigitalSignatureCollection`, imzamızı ekleyin ve ardından bu koleksiyonu çalışma kitabına ayarlayın. İmzayı Excel dosyasına bu şekilde ekliyoruz.
+Burada bir tane yaratıyoruz `DigitalSignatureCollection`, imzamızı ekleyin ve ardından bu koleksiyonu çalışma kitabına ayarlayın. İmzayı Excel dosyasına bu şekilde ekliyoruz.
 
 ## Adım 6: İmzalanmış Çalışma Kitabını Kaydedin
 
@@ -106,11 +108,11 @@ workbook.Save(outputDir + "XAdESSignatureSupport_out.xlsx");
 Console.WriteLine("XAdESSignatureSupport executed successfully.");
 ```
 
- Bu kodda çalışma kitabını yeni bir adla kaydediyoruz,`XAdESSignatureSupport_out.xlsx`, çıktı dizininde. Bu adım tamamlandığında konsolda bir başarı mesajı göreceksiniz.
+Bu kodda çalışma kitabını yeni bir adla kaydediyoruz, `XAdESSignatureSupport_out.xlsx`, çıktı dizininde. Bu adım tamamlandığında konsolda bir başarı mesajı göreceksiniz.
 
 ## Çözüm
 
-Ve işte oldu! Aspose.Cells for .NET kullanarak Excel dosyanıza bir Xades imzası başarıyla eklediniz. Bu işlem yalnızca belgelerinizin güvenliğini artırmakla kalmaz, aynı zamanda dosyalarınızın gerçekliğini garanti altına alarak kullanıcılarınızla güven oluşturur. 
+Ve işte oldu! Aspose.Cells for .NET kullanarak Excel dosyanıza bir Xades imzası başarıyla eklediniz. Bu işlem yalnızca belgelerinizin güvenliğini artırmakla kalmaz, aynı zamanda dosyalarınızın gerçekliğini garanti ederek kullanıcılarınızla güven oluşturur. 
 Dijital imzalar, modern belge yönetiminin vazgeçilmez bir parçasıdır ve Aspose.Cells'in gücüyle bunları uygulamalarınızda kolayca uygulayabilirsiniz.
 
 ## SSS
@@ -122,16 +124,18 @@ Xades (XML Advanced Electronic Signatures), elektronik belgelerin bütünlüğü
 Evet, Xades imzası oluşturmak için geçerli bir dijital sertifikaya (PFX dosyası) ihtiyacınız var.
 
 ### Satın almadan önce Aspose.Cells for .NET'i test edebilir miyim?
- Kesinlikle! Ücretsiz denemeyi şuradan alabilirsiniz:[Aspose web sitesi](https://releases.aspose.com/).
+Kesinlikle! Ücretsiz denemeyi şuradan alabilirsiniz: [Aspose web sitesi](https://releases.aspose.com/).
 
 ### Aspose.Cells .NET'in tüm sürümleriyle uyumlu mudur?
- Aspose.Cells, .NET framework'ün çeşitli sürümlerini destekler. Kontrol edin[belgeleme](https://reference.aspose.com/cells/net/) uyumluluk ayrıntıları için.
+Aspose.Cells, .NET framework'ün çeşitli sürümlerini destekler. Kontrol edin [belgeleme](https://reference.aspose.com/cells/net/) uyumluluk ayrıntıları için.
 
 ### Sorun yaşarsam nereden destek alabilirim?
- Ziyaret edebilirsiniz[Aspose forumu](https://forum.aspose.com/c/cells/9) Toplum desteği ve yardımı için.
+Ziyaret edebilirsiniz [Aspose forumu](https://forum.aspose.com/c/cells/9) Toplum desteği ve yardımı için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

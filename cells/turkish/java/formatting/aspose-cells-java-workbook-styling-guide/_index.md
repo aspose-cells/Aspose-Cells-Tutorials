@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -220,6 +222,9 @@ Aspose.Cells kullanırken performansı optimize etmek için:
 Bu eğitim boyunca, Aspose.Cells for Java ile Excel belgelerinin nasıl oluşturulacağını ve biçimlendirileceğini öğrendiniz. Bu tekniklerde ustalaşarak, uygulamanızın karmaşık elektronik tablo görevlerini verimli bir şekilde işleme yeteneğini önemli ölçüde artırabilirsiniz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

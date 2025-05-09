@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,6 +149,9 @@ Artık Excel formüllerini kullanarak nasıl özelleştireceğiniz konusunda sa�
 Aspose.Cells for Java ile ilgili anlayışınızı ve uygulama becerilerinizi daha da geliştirmek için bu kaynaklardan yararlanın. İyi kodlamalar!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

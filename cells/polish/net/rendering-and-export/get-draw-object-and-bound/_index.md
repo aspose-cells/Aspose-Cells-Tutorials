@@ -1,14 +1,16 @@
 ---
-title: Pobierz Rysuj granice obiektów za pomocą Aspose.Cells
-linktitle: Pobierz Rysuj granice obiektów za pomocą Aspose.Cells
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak wyodrębnić granice obiektów rysunkowych w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego kompleksowego przewodnika krok po kroku.
-weight: 15
-url: /pl/net/rendering-and-export/get-draw-object-and-bound/
+"description": "Dowiedz się, jak wyodrębnić granice obiektów rysunkowych w programie Excel za pomocą Aspose.Cells dla platformy .NET, korzystając z naszego kompleksowego przewodnika krok po kroku."
+"linktitle": "Pobierz Rysuj granice obiektów za pomocą Aspose.Cells"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Pobierz Rysuj granice obiektów za pomocą Aspose.Cells"
+"url": "/pl/net/rendering-and-export/get-draw-object-and-bound/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz Rysuj granice obiektów za pomocą Aspose.Cells
@@ -23,8 +25,8 @@ Czy jesteś gotowy, aby zanurzyć się w świecie tworzenia, manipulowania i wyo
 Zanim przejdziemy do kodowania, musisz spełnić kilka warunków wstępnych:
 
 1. Visual Studio: Upewnij się, że masz zainstalowane na swoim komputerze Visual Studio. Możesz użyć dowolnej wersji, którą wolisz.
-2.  Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z[link do pobrania](https://releases.aspose.com/cells/net/) . Dostępna jest również bezpłatna wersja próbna[Tutaj](https://releases.aspose.com/).
-3. Podstawowa wiedza z języka C#: Znajomość programowania w języku C# będzie pomocna. Jeśli jesteś nowy, nie martw się! Poprowadzimy Cię przez każdy krok.
+2. Aspose.Cells dla .NET: Pobierz i zainstaluj Aspose.Cells z [link do pobrania](https://releases.aspose.com/cells/net/). Dostępna jest również bezpłatna wersja próbna [Tutaj](https://releases.aspose.com/).
+3. Podstawowa wiedza o C#: Znajomość programowania w C# będzie pomocna. Jeśli jesteś nowy, nie martw się! Poprowadzimy Cię przez każdy krok.
 
 Gdy już skonfigurujesz środowisko, przejdziemy do niezbędnych pakietów.
 
@@ -49,7 +51,7 @@ Podzielmy to na łatwe do opanowania kroki. Utworzymy klasę, która przechwytuj
 
 ## Krok 1: Utwórz klasę obsługi zdarzeń obiektu rysunkowego
 
- Najpierw musisz utworzyć klasę rozszerzającą`DrawObjectEventHandler`Ta klasa będzie obsługiwać zdarzenia rysowania i umożliwi wyodrębnienie współrzędnych obiektu.
+Najpierw musisz utworzyć klasę rozszerzającą `DrawObjectEventHandler`Ta klasa będzie obsługiwać zdarzenia rysowania i umożliwi wyodrębnienie współrzędnych obiektu.
 
 ```csharp
 class clsDrawObjectEventHandler : DrawObjectEventHandler
@@ -75,12 +77,12 @@ class clsDrawObjectEventHandler : DrawObjectEventHandler
 }
 ```
 
--  W tej klasie nadpisujemy`Draw` metoda, która jest wywoływana za każdym razem, gdy napotkany zostanie obiekt rysunkowy. 
--  Sprawdzamy rodzaj`DrawObject` . Jeśli to jest`Cell` , logujemy jego pozycję i wartość. Jeśli to jest`Image`, zapisujemy jego pozycję i nazwę.
+- W tej klasie nadpisujemy `Draw` metoda, która jest wywoływana za każdym razem, gdy napotkany zostanie obiekt rysunkowy. 
+- Sprawdzamy rodzaj `DrawObject`. Jeśli to jest `Cell`, logujemy jego pozycję i wartość. Jeśli to jest `Image`, zapisujemy jego pozycję i nazwę.
 
 ## Krok 2: Ustaw katalogi wejściowe i wyjściowe
 
-Następnie musisz określić, gdzie znajduje się dokument Excel i gdzie zapisać wynikowy plik PDF.
+Następnie musisz określić, gdzie znajduje się dokument Excela i gdzie zapisać wynikowy plik PDF.
 
 ```csharp
 // Katalog źródłowy
@@ -90,11 +92,11 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Document Directory";
 ```
 
--  Zastępować`"Your Document Directory"` ze ścieżką do Twojego rzeczywistego dokumentu. Upewnij się, że masz przykładowy plik Excel o nazwie`"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` zapisane w tym katalogu.
+- Zastępować `"Your Document Directory"` ze ścieżką do Twojego rzeczywistego dokumentu. Upewnij się, że masz przykładowy plik Excel o nazwie `"sampleGetDrawObjectAndBoundUsingDrawObjectEventHandler.xlsx"` zapisane w tym katalogu.
 
 ## Krok 3: Załaduj przykładowy plik Excel
 
- Po ustawieniu katalogów możemy teraz załadować plik Excela do wystąpienia`Workbook` klasa.
+Po ustawieniu katalogów możemy teraz załadować plik Excela do wystąpienia `Workbook` klasa.
 
 ```csharp
 // Załaduj przykładowy plik Excel
@@ -114,7 +116,7 @@ PdfSaveOptions opts = new PdfSaveOptions();
 
 ## Krok 5: Przypisz obsługę zdarzeń
 
- Ważne jest, aby przypisać`DrawObjectEventHandler` instancji do naszych opcji zapisywania PDF. Ten krok zapewni, że nasz niestandardowy program obsługi zdarzeń przetworzy każdy obiekt rysunkowy.
+Ważne jest, aby przypisać `DrawObjectEventHandler` instancji do naszych opcji zapisywania PDF. Ten krok zapewni, że nasz niestandardowy program obsługi zdarzeń przetworzy każdy obiekt rysunkowy.
 
 ```csharp
 // Przypisz instancję klasy DrawObjectEventHandler
@@ -147,22 +149,24 @@ I masz to! Za pomocą zaledwie kilku kroków możesz uzyskać granice obiektów 
 ## Najczęściej zadawane pytania
 
 ### Czym jest Aspose.Cells?
-Aspose.Cells to rozbudowana biblioteka przeznaczona do pracy z plikami Excel w aplikacjach .NET, umożliwiająca tworzenie, edycję i konwersję arkuszy kalkulacyjnych.
+Aspose.Cells to potężna biblioteka przeznaczona do pracy z plikami Excel w aplikacjach .NET, umożliwiająca tworzenie, edycję i konwersję arkuszy kalkulacyjnych.
 
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Możesz pobrać bezpłatną wersję próbną Aspose.Cells[Tutaj](https://releases.aspose.com/).
+Tak! Możesz pobrać bezpłatną wersję próbną Aspose.Cells [Tutaj](https://releases.aspose.com/).
 
 ### Jakie formaty plików obsługuje Aspose.Cells?
 Aspose.Cells obsługuje różne formaty, w tym XLSX, XLS, CSV, PDF i inne.
 
 ### Gdzie mogę znaleźć więcej przykładów użycia Aspose.Cells?
- Więcej przykładów i szczegółową dokumentację można znaleźć na ich stronie internetowej:[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Więcej przykładów i szczegółową dokumentację można znaleźć na ich stronie internetowej: [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Aby uzyskać pomoc, odwiedź stronę[Forum Aspose](https://forum.aspose.com/c/cells/9)gdzie możesz zadać pytania i uzyskać pomoc od społeczności.
+Aby uzyskać pomoc, odwiedź stronę [Forum Aspose](https://forum.aspose.com/c/cells/9) gdzie możesz zadać pytania i uzyskać pomoc od społeczności.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

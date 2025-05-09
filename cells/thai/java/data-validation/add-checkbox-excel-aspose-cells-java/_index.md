@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -206,7 +208,7 @@ public class Main {
 - สำรวจฟีเจอร์อื่นๆ ของ Aspose.Cells เช่น การสร้างแผนภูมิและการวิเคราะห์ข้อมูล
 - บูรณาการฟังก์ชันนี้เข้ากับแอปพลิเคชันหรือเวิร์กโฟลว์ขนาดใหญ่ที่คุณจัดการ
 
-เราขอเชิญชวนให้คุณนำโซลูชันเหล่านี้ไปใช้ในโครงการของคุณ ขอให้สนุกกับการเขียนโค้ด!
+เราขอสนับสนุนให้คุณนำโซลูชันเหล่านี้ไปใช้ในโครงการของคุณ ขอให้สนุกกับการเขียนโค้ด!
 
 ## ส่วนคำถามที่พบบ่อย
 
@@ -223,6 +225,9 @@ public class Main {
 - ตรวจสอบให้แน่ใจว่ามีการอนุญาตที่ถูกต้อง และพิจารณาการล็อกเซลล์เฉพาะเพื่อป้องกันการเปลี่ยนแปลงที่ไม่ต้องการเมื่อใช้กล่องกาเครื่องหมายในสภาพแวดล้อมที่ใช้ร่วมกัน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

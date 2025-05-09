@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,7 +95,7 @@ Vamos detalhar o processo de filtragem de células em branco em uma planilha do 
 #### Visão geral
 Comece carregando seu arquivo Excel. Você acessará suas planilhas e aplicará filtros conforme necessário.
 
-##### Etapa 1: instanciar um objeto de pasta de trabalho
+##### Etapa 1: Instanciar um objeto de pasta de trabalho
 Criar um `Workbook` objeto para carregar o arquivo Excel:
 
 ```java
@@ -193,6 +195,9 @@ Seguindo este guia, você poderá implementar com segurança a filtragem de cél
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

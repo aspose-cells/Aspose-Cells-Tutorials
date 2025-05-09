@@ -7,24 +7,26 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Mengelola Visibilitas Tab Excel dengan Aspose.Cells di Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengelola visibilitas tab dalam dokumen Excel Anda menggunakan Java? Baik saat menangani data lama atau memerlukan kontrol yang lebih baik atas penyajian informasi, menampilkan atau menyembunyikan tab Excel dapat memperlancar alur kerja Anda. Tutorial ini akan memandu Anda menggunakan Aspose.Cells untuk Java guna memanipulasi visibilitas tab secara efektif.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menyiapkan dan menggunakan Aspose.Cells untuk Java
 - Langkah-langkah untuk menampilkan tab Excel secara terprogram
 - Praktik terbaik untuk mengintegrasikan fungsionalitas ini ke dalam aplikasi yang lebih besar
 
 Di akhir tutorial ini, Anda akan dapat menyesuaikan dokumen Excel dengan mudah. Mari kita mulai!
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita memulai, pastikan Anda memiliki pengaturan dan pengetahuan yang diperlukan:
 
@@ -37,7 +39,7 @@ Sebelum kita memulai, pastikan Anda memiliki pengaturan dan pengetahuan yang dip
 Untuk memulai, Anda perlu menginstal pustaka Aspose.Cells menggunakan Maven atau Gradle:
 
 ### Pakar
-Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
+Tambahkan ketergantungan ini ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,15 +49,15 @@ Tambahkan ketergantungan ini ke `pom.xml` mengajukan:
 ```
 
 ### Bahasa Inggris Gradle
-Sertakan hal berikut dalam formulir Anda `build.gradle` mengajukan:
+Sertakan hal berikut dalam formulir Anda `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
-Untuk menggunakan Aspose.Cells, Anda memerlukan lisensi. Mulailah dengan [uji coba gratis](https://releases.aspose.com/cells/java/) untuk menguji kemampuannya. Untuk produksi, pertimbangkan untuk membeli lisensi permanen atau memperoleh lisensi sementara jika diperlukan.
+#### Licencszerzés
+Untuk menggunakan Aspose.Cells, Anda memerlukan lisensi. Mulailah dengan [ingyenes próba](https://releases.aspose.com/cells/java/) untuk menguji kemampuannya. Untuk produksi, pertimbangkan untuk membeli lisensi permanen atau memperoleh lisensi sementara jika diperlukan.
 
-### Inisialisasi dan Pengaturan Dasar
+### Alapvető inicializálás és beállítás
 Setelah pustaka disertakan dalam proyek Anda, inisialisasi Aspose.Cells sebagai berikut:
 ```java
 import com.aspose.cells.Workbook;
@@ -70,15 +72,15 @@ public class ExcelTabManipulation {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Bagian ini memandu Anda menampilkan tab Excel menggunakan Aspose.Cells untuk Java.
 
 ### Menampilkan Tab dalam File Excel
 Tab dapat ditampilkan atau disembunyikan berdasarkan kebutuhan Anda. Berikut cara menampilkannya:
 
-#### Langkah 1: Muat Buku Kerja
-Muat file Excel Anda ke dalam `Workbook` obyek:
+#### 1. lépés: A munkafüzet betöltése
+Töltsd be az Excel fájlodat egy `Workbook` objektum:
 ```java
 String dataDir = "path/to/your/directory/";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -91,41 +93,41 @@ workbook.getSettings().setShowTabs(true);
 ```
 Metode ini mengubah visibilitas tab berdasarkan preferensi Anda.
 
-#### Langkah 3: Simpan Buku Kerja yang Dimodifikasi
+#### 3. lépés: A módosított munkafüzet mentése
 Simpan perubahan Anda kembali ke dalam sebuah berkas. Ini akan mempertahankan modifikasi:
 ```java
 workbook.save(dataDir + "DisplayTab_out.xls");
 System.out.println("Tabs are now displayed, please check the output file.");
 ```
 
-### Tips Pemecahan Masalah
-- **Masalah Jalur File**Pastikan jalur direktori data Anda benar dan dapat diakses.
+### Hibaelhárítási tippek
+- **Fájlútvonal-problémák**Pastikan jalur direktori data Anda benar dan dapat diakses.
 - **Kekhawatiran Kompatibilitas**: Ingatlah bahwa Aspose.Cells mendukung berbagai format Excel. Pilih format yang tepat untuk menyimpan file berdasarkan kebutuhan Anda.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Menampilkan tab di Excel bisa menjadi penting dalam beberapa skenario:
-1. **Presentasi Data**: Tingkatkan pengalaman pengguna dengan memungkinkan navigasi yang mudah antar lembar.
-2. **Pembuatan Laporan**: Tingkatkan kejelasan saat membuat laporan dengan beberapa bagian atau tipe data.
+1. **Adatmegjelenítés**: Tingkatkan pengalaman pengguna dengan memungkinkan navigasi yang mudah antar lembar.
+2. **Jelentésgenerálás**: Tingkatkan kejelasan saat membuat laporan dengan beberapa bagian atau tipe data.
 3. **Alat Pendidikan**: Membuat materi di mana siswa perlu beralih di antara kumpulan data yang berbeda dengan cepat.
 
 Integrasi dengan sistem lain dapat memperlancar pembuatan dan pembagian laporan otomatis di seluruh platform.
 
-## Pertimbangan Kinerja
-Saat bekerja dengan file Excel berukuran besar:
-- **Optimalkan Penggunaan Memori**Gunakan API streaming Aspose.Cells untuk memproses kumpulan data besar secara efisien.
-- **Manajemen Sumber Daya**: Pantau penggunaan memori aplikasi Anda secara berkala untuk mencegah kebocoran atau konsumsi berlebihan.
+## Teljesítménybeli szempontok
+Nagyméretű Excel-fájlokkal való munka során:
+- **Memóriahasználat optimalizálása**Gunakan API streaming Aspose.Cells untuk memproses kumpulan data besar secara efisien.
+- **Erőforrás-gazdálkodás**: Pantau penggunaan memori aplikasi Anda secara berkala untuk mencegah kebocoran atau konsumsi berlebihan.
 
 Mengadopsi praktik terbaik dalam manajemen memori Java memastikan bahwa aplikasi Anda tetap responsif dan efisien.
 
-## Kesimpulan
+## Következtetés
 Anda telah mempelajari cara memanipulasi visibilitas tab Excel menggunakan Aspose.Cells untuk Java. Pustaka canggih ini menyediakan kerangka kerja yang kuat untuk menangani tugas Excel yang rumit secara terprogram. Untuk meningkatkan keterampilan Anda, jelajahi fitur tambahan yang disediakan oleh Aspose.Cells seperti manipulasi data dan pembuatan bagan.
 
-**Langkah Berikutnya**: Integrasikan fungsionalitas tampilan tab ke dalam aplikasi yang lebih besar atau otomatisasi proses pembuatan laporan Anda dengan kemampuan baru ini!
+**Következő lépések**: Integrasikan fungsionalitas tampilan tab ke dalam aplikasi yang lebih besar atau otomatisasi proses pembuatan laporan Anda dengan kemampuan baru ini!
 
-## Bagian FAQ
+## GYIK szekció
 1. **Bagaimana cara menyembunyikan tab alih-alih menampilkannya?**
-   - Mengatur `showTabs` ke `false`: `workbook.getSettings().setShowTabs(false);`
-2. **Format file apa yang didukung Aspose.Cells?**
+   - Készlet `showTabs` hogy `false`: `workbook.getSettings().setShowTabs(false);`
+2. **Milyen fájlformátumokat támogat az Aspose.Cells?**
    - Mendukung berbagai format seperti XLS, XLSX, CSV, dan banyak lagi.
 3. **Bisakah saya menggunakan Aspose.Cells dengan pustaka Java lainnya?**
    - Ya, ini terintegrasi dengan baik dengan pustaka untuk tugas-tugas seperti konektivitas basis data atau pembuatan layanan web.
@@ -134,18 +136,21 @@ Anda telah mempelajari cara memanipulasi visibilitas tab Excel menggunakan Aspos
 5. **Bagaimana saya dapat mengoptimalkan kinerja saat memproses berkas besar?**
    - Pertimbangkan untuk menggunakan API streaming Aspose.Cells untuk menangani data dalam potongan daripada memuat seluruh buku kerja ke dalam memori.
 
-## Sumber daya
-- [Dokumentasi](https://reference.aspose.com/cells/java/)
-- [Unduh](https://releases.aspose.com/cells/java/)
-- [Pembelian](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- [Mendukung](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- [Dokumentáció](https://reference.aspose.com/cells/java/)
+- [Letöltés](https://releases.aspose.com/cells/java/)
+- [Vásárlás](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+- [Támogatás](https://forum.aspose.com/c/cells/9)
 
 Mulailah perjalanan Anda untuk menguasai manipulasi tab Excel dengan Aspose.Cells untuk Java, dan ambil kendali penuh atas cara Anda mengelola dan menyajikan data Anda!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

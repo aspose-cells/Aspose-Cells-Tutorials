@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### Этапы получения лицензии
 
 - **Бесплатная пробная версия**: Загрузите бесплатную пробную версию, чтобы протестировать функции Aspose.Cells.
-- **Временная лицензия**: Получите временную лицензию для расширенной оценки.
+- **Временная лицензия**Получите временную лицензию для расширенной оценки.
 - **Покупка**: Приобретите полную лицензию, если вы решите интегрировать это в свои проекты на постоянной основе.
 
 После установки инициализируйте и настройте Aspose.Cells в вашем приложении Java:
@@ -226,6 +228,9 @@ workbook.save("ColorsAndPalette_out.xls", SaveFormat.EXCEL_97_TO_2003);
 Начните свое путешествие с Aspose.Cells сегодня и измените свой способ обработки данных электронных таблиц!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

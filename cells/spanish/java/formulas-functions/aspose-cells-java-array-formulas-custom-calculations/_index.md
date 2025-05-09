@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,7 +173,7 @@ Establezca el modo de cálculo en manual para optimizar el rendimiento antes de 
 
    String outDir = "YOUR_OUTPUT_DIRECTORY";
    
-   // Establezca el modo de cálculo en MANUAL
+   // Establecer el modo de cálculo en MANUAL
    workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);
    ```
 
@@ -233,6 +235,9 @@ Ya domina la creación de fórmulas matriciales, la aplicación de estilos numé
 - [Comprar una licencia](https://purchase.aspose.com/pricing/aspose.cells)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

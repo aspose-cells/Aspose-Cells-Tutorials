@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 タスクを管理しやすいステップに分割し、最初にワークブックの初期化、次にセルの操作、最後に変更の保存に焦点を当てます。
 
 ### ワークブックの初期化
-**概要：** まず、既存のExcelファイルを読み込みます。 `Workbook` 物体。
+**概要：** まず、既存のExcelファイルを `Workbook` 物体。
 
 1. **必要なパッケージをインポートします。**
    ```java
@@ -151,6 +153,9 @@ Aspose.Cells for Java を使って Excel セルの結合を解除する基本を
 このガイドを読めば、Aspose.Cells を使って Java で Excel 操作を処理できるようになります。コーディングを楽しみましょう！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

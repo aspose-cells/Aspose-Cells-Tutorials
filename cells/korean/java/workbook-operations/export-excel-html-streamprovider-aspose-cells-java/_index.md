@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,7 +160,7 @@ public class AsposeInit {
 ### 사용 사례
 
 1. **자동 보고**: 웹 기반 보고서를 위해 Excel 데이터를 HTML로 내보냅니다.
-2. **데이터 공유**: 형식화된 데이터를 이메일로 보내거나 웹사이트에서 공유합니다.
+2. **데이터 공유**: 이메일을 통해 형식화된 데이터를 보내거나 웹사이트에서 공유합니다.
 3. **웹 앱과의 통합**: 웹 애플리케이션에서 스프레드시트의 동적 콘텐츠를 제공합니다.
 4. **템플릿 생성**: 스프레드시트 데이터로 채워진 HTML 템플릿을 만듭니다.
 
@@ -176,12 +178,12 @@ public class AsposeInit {
 
 이 튜토리얼에서는 다음을 구현하는 방법을 다루었습니다. `IStreamProvider` Aspose.Cells for Java를 사용하여 Excel 파일을 HTML로 효율적으로 내보내는 인터페이스를 제공합니다. 다양한 설정을 구성하고 실제 애플리케이션을 이해함으로써 Java 프로젝트에서 데이터 처리 역량을 향상시킬 수 있습니다.
 
-Aspose.Cells의 기능을 더욱 자세히 알아보려면 고급 기능을 살펴보거나 다른 서비스와 통합하는 것을 고려하세요.
+Aspose.Cells 기능을 더욱 자세히 알아보려면 고급 기능을 살펴보거나 다른 서비스와 통합하는 것을 고려하세요.
 
 ## FAQ 섹션
 
 1. **IStreamProvider는 무엇에 사용되나요?**
-   - 파일을 내보내는 동안 사용자 정의 스트림 처리를 처리하고, 데이터가 어떻게, 어디에 기록되는지에 대한 제어를 제공하는 데 사용됩니다.
+   - 파일을 내보내는 동안 사용자 정의 스트림 처리를 처리하고, 데이터가 어디에 어떻게 기록되는지에 대한 제어를 제공하는 데 사용됩니다.
 2. **Maven 프로젝트에 Aspose.Cells를 어떻게 설치하나요?**
    - 위에 제공된 종속성 스니펫을 추가하세요. `pom.xml`.
 3. **HTML 이외의 다른 형식으로 Excel 파일을 내보낼 수 있나요?**
@@ -201,6 +203,9 @@ Aspose.Cells의 기능을 더욱 자세히 알아보려면 고급 기능을 살�
 - [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

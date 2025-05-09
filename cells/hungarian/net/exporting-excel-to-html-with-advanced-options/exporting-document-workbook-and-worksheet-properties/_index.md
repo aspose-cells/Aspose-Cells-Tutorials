@@ -1,53 +1,55 @@
 ---
-title: Dokumentum munkafüzet és munkalap tulajdonságainak exportálása HTML-ben
-linktitle: Dokumentum munkafüzet és munkalap tulajdonságainak exportálása HTML-ben
-second_title: Aspose.Cells .NET Excel Processing API
-description: Ismerje meg, hogyan exportálhat Excel-dokumentumot, munkafüzetet és munkalap-tulajdonságokat HTML-be az Aspose.Cells for .NET használatával. Könnyű, lépésről lépésre útmutatót tartalmaz.
-weight: 11
-url: /hu/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/
+"description": "Ismerd meg, hogyan exportálhatsz Excel dokumentumok, munkafüzetek és munkalapok tulajdonságait HTML-be az Aspose.Cells for .NET használatával. Egyszerű, lépésről lépésre útmutató mellékelve."
+"linktitle": "Dokumentum munkafüzet és munkalap tulajdonságainak exportálása HTML-ben"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Dokumentum munkafüzet és munkalap tulajdonságainak exportálása HTML-ben"
+"url": "/hu/net/exporting-excel-to-html-with-advanced-options/exporting-document-workbook-and-worksheet-properties/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dokumentum munkafüzet és munkalap tulajdonságainak exportálása HTML-ben
 
 ## Bevezetés
 
-Amikor a táblázatok kezeléséről van szó, gyakran tapasztaljuk, hogy Excel-fájlokat kell különböző formátumokká alakítanunk megosztáshoz, megőrzéshez vagy bemutatáshoz. Az egyik gyakori feladat a munkafüzet és munkalap tulajdonságainak exportálása HTML formátumba. Ebben a cikkben bemutatjuk, hogyan érheti el ezt az Aspose.Cells for .NET használatával. Ne aggódjon, ha még nem ismeri a kódolást vagy az Aspose könyvtárat; lépésről lépésre lebontjuk, hogy könnyen követhető legyen!
+Táblázatok kezelésekor gyakran kell Excel-fájlokat különböző formátumokba konvertálnunk megosztás, megőrzés vagy bemutatás céljából. Az egyik gyakori feladat a munkafüzetek és munkalapok tulajdonságainak HTML formátumba exportálása. Ebben a cikkben bemutatjuk, hogyan valósíthatod meg ezt az Aspose.Cells for .NET használatával. Ne aggódj, ha még csak most ismerkedsz a kódolással vagy az Aspose könyvtárral; lépésről lépésre lebontjuk, hogy könnyen követhető legyen!
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk a kódba, győződjünk meg arról, hogy mindennel rendelkezünk, ami az induláshoz szükséges:
+Mielőtt belemerülnénk a kódba, győződjünk meg róla, hogy minden a rendelkezésünkre áll, amire a kezdéshez szükségünk van:
 
-1. .NET-keretrendszer: Győződjön meg arról, hogy a fejlesztői környezet a .NET-keretrendszerrel van beállítva. Az Aspose.Cells kompatibilis a .NET-keretrendszer 4.8-ig terjedő verzióival.
+1. .NET-keretrendszer: Győződjön meg arról, hogy a fejlesztői környezete telepítve van a .NET-keretrendszerrel. Az Aspose.Cells kompatibilis a .NET-keretrendszer 4.8-as verziójáig.
    
-2.  Aspose.Cells for .NET: telepítenie kell az Aspose.Cells programot. A könyvtár letölthető a[letöltési oldal](https://releases.aspose.com/cells/net/). 
+2. Aspose.Cells .NET-hez: Telepítenie kell az Aspose.Cells-t. A könyvtárat letöltheti innen: [letöltési oldal](https://releases.aspose.com/cells/net/). 
 
-3. IDE: A megfelelő integrált fejlesztési környezet (IDE), mint például a Visual Studio, leegyszerűsíti a kódolási élményt.
+3. IDE: Egy megfelelő integrált fejlesztői környezet (IDE), mint például a Visual Studio, leegyszerűsíti a kódolási folyamatot.
 
-4.  Minta Excel-fájl: Tesztelési célokra győződjön meg róla, hogy van egy Excel-fájl neve`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` a munkakönyvtárában.
+4. Minta Excel fájl: Tesztelési célokból győződjön meg arról, hogy rendelkezik egy Excel fájllal, amelynek neve `sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx` a munkakönyvtáradban.
 
 ## Csomagok importálása
 
-Most, hogy az előfeltételeket lefedtük, kezdjük a szükséges csomagok importálásával a C# projektünkben. Ezt a következőképpen teheti meg:
+Most, hogy áttekintettük az előfeltételeket, kezdjük a szükséges csomagok importálásával a C# projektünkbe. Így teheted ezt meg:
 
-### Hozzon létre egy új projektet
+### Új projekt létrehozása
 
-- Nyissa meg az IDE-jét, és hozzon létre egy új C#-projektet. Választhat egy konzolalkalmazást, amely tökéletes az ilyen típusú feladatok futtatásához.
+- Nyisd meg az IDE-det, és hozz létre egy új C# projektet. Választhatsz egy konzolalkalmazást, amely tökéletes az ilyen típusú feladatok futtatásához.
 
 ### Adja hozzá az Aspose.Cells NuGet csomagot
 
 Az Aspose.Cells csomag hozzáadásához kövesse az alábbi lépéseket:
 
-- Kattintson a jobb gombbal a projektre a Solution Explorerben, és válassza a "NuGet-csomagok kezelése" lehetőséget.
-- NuGet Package Managerben keresse meg az „Aspose.Cells” kifejezést, és telepítse.
-- Ez a csomag biztosítja az Excel fájlokkal való munkavégzéshez szükséges osztályokat és módszereket.
+- Kattintson jobb gombbal a projektjére a Megoldáskezelőben, és válassza a „NuGet-csomagok kezelése” lehetőséget.
+- A NuGet csomagkezelőben keresd meg az „Aspose.Cells” fájlt, és telepítsd.
+- Ez a csomag biztosítja a szükséges osztályokat és metódusokat az Excel fájlokkal való munkához.
 
 ### Névterek importálása
 
-Győződjön meg arról, hogy a fő programfájl tetején tartalmazza a következő névtereket:
+A fő programfájl tetején győződjön meg arról, hogy a következő névtereket tartalmazza:
 
 ```csharp
 using System;
@@ -56,67 +58,67 @@ using System.Linq;
 using System.Text;
 ```
 
- Ez hozzáférést biztosít számunkra a`Workbook` és`HtmlSaveOptions` osztályok, amelyeket példánkban fogunk használni.
+Ez hozzáférést biztosít számunkra a `Workbook` és `HtmlSaveOptions` osztályok, amelyeket a példánkban fogunk használni.
 
-Most, hogy elkészült, bontsuk le a folyamatot egyszerű lépésekre.
+Most, hogy minden készen áll, bontsuk le a folyamatot egyszerű lépésekre.
 
 ## 1. lépés: Állítsa be a fájlkönyvtárakat
 
-Először is meg kell határoznunk, hogy a bemeneti és kimeneti fájljaink hol legyenek. A kódban inicializálja a könyvtárakat a következőképpen:
+Először is meg kell adnunk, hogy hol lesznek a bemeneti és kimeneti fájljaink. A kódodban inicializáld a könyvtárakat a következőképpen:
 
 ```csharp
-// Forrás könyvtár
-string sourceDir = "Your Document Directory/";  // Frissítse a tényleges útvonalat
+// Forráskönyvtár
+string sourceDir = "Your Document Directory/";  // Frissítsd a tényleges útvonaladdal
 
 // Kimeneti könyvtár
-string outputDir = "Your Document Directory/";  // Frissítse a tényleges útvonalat
+string outputDir = "Your Document Directory/";  // Frissítsd a tényleges útvonaladdal
 ```
 
-- Forráskönyvtár: Itt van a bemeneti Excel fájl (`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx`) tárolva van.
-- Kimeneti könyvtár: Ez az az elérési út, ahová a kimeneti HTML-fájlt el kívánja menteni.
+- Forráskönyvtár: Ide kerül a bemeneti Excel-fájl (`sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx`) tárolva van.
+- Kimeneti könyvtár: Ez az az elérési út, ahová a kimeneti HTML-fájlt menteni szeretné.
 
 ## 2. lépés: Töltse be az Excel-fájlt
 
- Most be kell töltenünk az Excel fájlt a`Workbook` osztály:
+Most be kell töltenünk az Excel fájlt a következővel: `Workbook` osztály:
 
 ```csharp
-// Töltse be az Excel mintafájlt
+// Töltse be a minta Excel fájlt
 Workbook workbook = new Workbook(sourceDir + "sampleExportDocumentWorkbookAndWorksheetPropertiesInHTML.xlsx");
 ```
 
--  Munkafüzet Példa: A`Workbook` A konstruktor eléri az Excel-fájl elérési útját, és létrehoz egy új példányt, amelyet kezelhet.
+- Munkafüzet-példány: A `Workbook` A konstruktor a fájl elérési útját veszi az Excel-fájlhoz, és létrehoz egy új példányt, amelyet manipulálhatsz.
 
-## 3. lépés: Állítsa be a HTML mentési beállításokat
+## 3. lépés: HTML mentési beállítások megadása
 
-Ezután megadjuk, hogyan szeretnénk Excel-adatainkat HTML-be menteni:
+Ezután meghatározzuk, hogyan szeretnénk HTML-be menteni az Excel-adatainkat:
 
 ```csharp
-// Adja meg a HTML mentési beállításokat
+// HTML mentési beállítások megadása
 HtmlSaveOptions options = new HtmlSaveOptions();
 
-// A dokumentum, munkafüzet és munkalap tulajdonságainak exportálásának megakadályozása
+// Dokumentum-, munkafüzet- és munkalaptulajdonságok exportálásának megakadályozása
 options.ExportDocumentProperties = false;
 options.ExportWorkbookProperties = false;
 options.ExportWorksheetProperties = false;
 ```
 
-- HtmlSaveOptions: Ez az osztály segít kezelni, hogy az Excel-fájl hogyan lesz konvertálva HTML-be.
--  Több lehetőséget is beállítottunk`false`mert nem szeretnénk munkafüzet és munkalap tulajdonságait belefoglalni a HTML-kimenetünkbe.
+- HtmlSaveOptions: Ez az osztály segít kezelni, hogy az Excel fájl hogyan konvertálódik HTML-re.
+- Több lehetőséget is beállítottunk `false` mert nem szeretnénk munkafüzet- és munkalaptulajdonságokat belefoglalni a HTML-kimenetünkbe.
 
-## 4. lépés: Exportáljon mindent HTML-be
+## 4. lépés: Minden exportálása HTML-be
 
-Most már készen állunk munkafüzetünk HTML formátumba mentésére:
+Most már készen állunk arra, hogy HTML formátumban mentsük el a munkafüzetünket:
 
 ```csharp
-// Exportálja az Excel fájlt HTML formátumba a HTML mentési beállításokkal
+// Exportálja az Excel fájlt HTML-be a HTML mentési beállításokkal
 workbook.Save(outputDir + "outputExportDocumentWorkbookAndWorksheetPropertiesInHTML.html", options);
 ```
 
--  A`Save` metódus két paramétert igényel: a kimeneti HTML-fájl elérési útját és az általunk beállított beállításokat. Ennek futtatása létrehozza a HTML-fájlt a kijelölt kimeneti könyvtárban.
+- A `Save` A metódus két paramétert fogad el: a kimeneti HTML fájl elérési útját és a beállított beállításokat. A metódus futtatása létrehozza a HTML fájlt a megadott kimeneti könyvtárban.
 
-## 5. lépés: Visszajelzés a konzolról
+## 5. lépés: Konzol visszajelzése
 
-Végül adjunk néhány visszajelzést a konzolon, hogy tudjuk, a folyamat sikeresen befejeződött:
+Végül adjunk visszajelzést a konzolon, hogy tudjuk, a folyamat sikeresen befejeződött:
 
 ```csharp
 Console.WriteLine("ExportDocumentWorkbookAndWorksheetPropertiesInHTML executed successfully.");
@@ -124,27 +126,29 @@ Console.WriteLine("ExportDocumentWorkbookAndWorksheetPropertiesInHTML executed s
 
 ## Következtetés
 
-És ehhez hasonlóan sikeresen exportálta a munkafüzet és a munkalap tulajdonságait HTML-be az Aspose.Cells for .NET segítségével! Ön egy egyszerű folyamatot követett, a környezet beállításától az Excel-adatok exportálásáig. Az Aspose.Cells-hez hasonló könyvtárak használatának szépsége az, hogy egyszerűsíti az összetett feladatokat, megkönnyítve a fejlesztők életét. Mostantól szélesebb körben is megoszthatja táblázatait a HTML-lel, mintha a világ bekukkanthatna a munkafüzeteibe anélkül, hogy átadná nekik a teljes könyvet.
+És ezzel sikeresen exportáltad a munkafüzet és a munkalap tulajdonságait HTML-be az Aspose.Cells for .NET segítségével! Egy egyszerű folyamatot követtél, a környezet beállításától az Excel-adatok exportálásáig. Az olyan könyvtárak használatának szépsége, mint az Aspose.Cells, abban rejlik, hogy leegyszerűsíti az összetett feladatokat, megkönnyítve a fejlesztők életét. Mostantól szélesebb körben megoszthatod a táblázataidat HTML segítségével, mintha csak a világ láthatná a munkafüzeteidet anélkül, hogy a teljes könyvet odaadnád nekik.
 
 ## GYIK
 
-### Hogyan telepíthetem az Aspose.Cells for .NET fájlt?  
-Az Aspose.Cells könyvtárat a NuGet segítségével telepítheti a Visual Studio projektben a NuGet Package Manager segítségével.
+### Hogyan telepíthetem az Aspose.Cells for .NET-et?  
+Az Aspose.Cells könyvtárat a NuGet segítségével telepítheted a Visual Studio projektedbe a NuGet csomagkezelőn keresztül.
 
 ### Testreszabhatom a HTML kimenetet?  
- Igen, az Aspose.Cells különféle lehetőségeket kínál`HtmlSaveOptions` az Excel-fájl HTML-formátumba való konvertálásának testreszabásához.
+Igen, az Aspose.Cells különféle lehetőségeket kínál `HtmlSaveOptions` az Excel-fájl HTML-re konvertálásának testreszabásához.
 
-### Van mód a dokumentum tulajdonságainak belefoglalására a HTML-exportálásba?  
- Beállíthatod`ExportDocumentProperties`, `ExportWorkbookProperties` , és`ExportWorksheetProperties` hogy`true` be`HtmlSaveOptions` ha be akarja venni őket.
+### Van mód arra, hogy a HTML exportban szerepeljenek a dokumentum tulajdonságai?  
+Beállíthatja `ExportDocumentProperties`, `ExportWorkbookProperties`, és `ExportWorksheetProperties` hogy `true` ban `HtmlSaveOptions` ha szeretnéd őket belefoglalni.
 
-### Milyen formátumokba exportálhatom az Excel fájlomat a HTML-en kívül?  
-Az Aspose.Cells különféle formátumokat támogat, beleértve a PDF, CSV, XML és más formátumokat.
+### HTML-en kívül milyen formátumokba exportálhatom az Excel fájljaimat?  
+Az Aspose.Cells számos formátumot támogat, beleértve a PDF, CSV, XML és másokat.
 
-### Létezik próbaverzió?  
- Igen, beszerezheti az Aspose.Cells ingyenes próbaverzióját a[weboldal](https://releases.aspose.com/).
+### Van elérhető próbaverzió?  
+Igen, letöltheti az Aspose.Cells ingyenes próbaverzióját a következő helyről: [weboldal](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -56,7 +58,7 @@ Vedd bele ezt a `build.gradle` fájl:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Licencbeszerzés lépései:
+#### Licenc megszerzésének lépései:
 - **Ingyenes próbaverzió**: Kezdje egy ingyenes próbaverzióval a funkciók teszteléséhez.
 - **Ideiglenes engedély**Kérjen ideiglenes engedélyt korlátlan ideig tartó kiértékeléshez.
 - **Vásárlás**Folyamatos használathoz vásároljon kereskedelmi licencet.
@@ -212,6 +214,9 @@ Ebben az oktatóanyagban bemutattuk, hogyan tölthet be egy Excel-munkafüzetet,
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

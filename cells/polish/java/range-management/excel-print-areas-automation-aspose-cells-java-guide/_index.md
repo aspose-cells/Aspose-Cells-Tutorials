@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -186,6 +188,9 @@ Dalsze informacje i wsparcie znajdziesz w następujących zasobach:
 Rozpocznij przygodę z automatyzacją przetwarzania danych w programie Excel za pomocą Aspose.Cells i zmień sposób, w jaki przetwarzasz dane!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

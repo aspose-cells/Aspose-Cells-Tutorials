@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -16,7 +18,7 @@
 modern, adatvezérelt környezetben a hatékony adatkezelés elengedhetetlen. Akár adatelemző, akár szoftverfejlesztő vagy, a pivot táblák elsajátítása gyorsan átalakíthatja a nyers adatokat hasznosítható információkká. Ez az oktatóanyag végigvezet a pivot táblák optimalizálásán az Aspose.Cells Java könyvtár használatával, a frissítési és rendezési funkciókra összpontosítva.
 
 **Amit tanulni fogsz:**
-- Pivot tábla adatainak hatékony betöltése és frissítése
+- Pivot táblaadatok hatékony betöltése és frissítése
 - Pivot tábla sorainak dinamikus rendezése
 - Meghatározott sorok elrejtése kritériumok alapján
 - Optimalizált munkafüzet mentése
@@ -187,13 +189,16 @@ Készen állsz kipróbálni? Vezesd be ezeket a megoldásokat, és vedd át az i
    - Felfedezés `PivotField` metódusok adott mezők beállításához és rendezési sorrendek igény szerinti rendezéséhez.
 
 ## Erőforrás
-- **Dokumentáció:** Részletes útmutatókért látogasson el ide: [Aspose hivatkozása](https://reference.aspose.com/cells/java/).
+- **Dokumentáció:** Részletes útmutatókért látogasson el a következő címre: [Aspose hivatkozása](https://reference.aspose.com/cells/java/).
 - **Letöltés:** Szerezd meg a legújabb verziót innen: [Aspose kiadványai](https://releases.aspose.com/cells/java/).
 - **Vásárlás:** Teljes hozzáféréshez vásároljon licencet a következő címen: [Az Aspose vásárlási oldala](https://purchase.aspose.com/buy).
 - **Ingyenes próbaverzió:** Tesztelje a funkciókat ingyenes próbaverzióval a következő címen: [Aspose próbái](https://releases.aspose.com/cells/java/).
 - **Ideiglenes engedély:** Fedezze fel az összes funkciót ideiglenes licenc beszerzésével [Aspose](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

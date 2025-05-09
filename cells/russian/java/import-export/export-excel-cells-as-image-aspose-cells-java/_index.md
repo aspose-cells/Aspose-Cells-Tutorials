@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,7 +197,7 @@ Aspose.Cells для Java универсален и может использов
    - Посещать [Бесплатная пробная версия Aspose](https://releases.aspose.com/cells/java/) чтобы начать работу с неограниченным доступом.
 
 5. **Где я могу найти дополнительную документацию по функциям Aspose.Cells?**
-   - Изучите всеобъемлющий [Документация Aspose.Cells](https://reference.aspose.com/cells/java/).
+   - Исследуйте всеобъемлющий [Документация Aspose.Cells](https://reference.aspose.com/cells/java/).
 
 ## Ресурсы
 
@@ -210,6 +212,9 @@ Aspose.Cells для Java универсален и может использов
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

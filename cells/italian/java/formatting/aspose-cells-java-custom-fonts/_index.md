@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Per una maggiore flessibilità, è possibile definire diverse sorgenti di font, 
 
 ##### Passaggio 4: definire FolderFontSource
 
-Crea un `FolderFontSource` oggetto per i font basati su directory:
+Crea un `FolderFontSource` oggetto per font basati su directory:
 
 ```java
 FolderFontSource sourceFolder = new FolderFontSource(fontFolder1, false);
@@ -196,6 +198,9 @@ Con questa guida completa, ora sei pronto a implementare in modo efficace le imp
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

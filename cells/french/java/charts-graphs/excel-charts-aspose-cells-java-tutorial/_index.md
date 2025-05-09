@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ A4 : Utilisez des identifiants de style prédéfinis ou créez des styles perso
 A5 : Optimisez les plages de données, minimisez la complexité des graphiques et gérez efficacement la mémoire en supprimant les objets lorsqu'ils ne sont pas nécessaires.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

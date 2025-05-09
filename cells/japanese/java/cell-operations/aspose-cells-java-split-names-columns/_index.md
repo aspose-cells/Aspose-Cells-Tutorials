@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -145,7 +147,7 @@ Aspose.Cells をデータベースや Web アプリケーションなどの他�
 
 このガイドでは、Aspose.Cells Javaを使用して名前を列に効果的に分割する方法を学習しました。このスキルは、Excelファイル内のデータ管理能力を大幅に向上させます。
 
-次のステップとして、セルの書式設定やグラフの生成など、Aspose.Cells の他の機能を調べることを検討してください。
+次のステップとして、セルの書式設定やグラフの生成など、Aspose.Cells の他の機能を検討してみてください。
 
 ご質問がありましたら、下記の FAQ セクションからお気軽にお問い合わせください。また、より高度な使用例については、Aspose.Cells を引き続きお試しください。
 
@@ -177,6 +179,9 @@ A: XLSX、XLS、CSV など、幅広い Excel ファイル形式をサポート�
 コーディングを楽しんで、プロジェクトで Aspose.Cells Java のパワーをフルに活用してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

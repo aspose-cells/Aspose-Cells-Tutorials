@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ A5: Die kostenlose Testversion bietet vollen Zugriff, fügt aber ein Wasserzeich
 - **Unterstützung**: Besuchen Sie die [Aspose Support Forum](https://forum.aspose.com/c/cells/9) für alle Fragen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ Ce tutoriel a montré comment utiliser des plages nommées avec les fonctions SO
 Ce tutoriel vous offre une compréhension complète de l'implémentation des plages nommées et des fonctions de somme avec Aspose.Cells pour Java. Essayez-le pour exploiter tout le potentiel de l'automatisation Excel dans vos applications !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

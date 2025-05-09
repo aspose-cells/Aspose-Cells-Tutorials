@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -126,7 +128,7 @@ import com.aspose.cells.*;
 
 2. **Spara arbetsboken som en PDF:**
 
-   Spara den laddade arbetsboken i PDF-format och bädda in versionsinformationen:
+   Spara den inlästa arbetsboken i PDF-format och bädda in versionsinformationen:
 
    ```java
    wb.save(outDir + "/output-" + CellsHelper.getVersion() + ".pdf");
@@ -190,6 +192,9 @@ Experimentera med ytterligare funktioner i Aspose.Cells, som diagramkonvertering
 Den här guiden ger en omfattande översikt över hur du använder Aspose.Cells för Java för att konvertera Excel-filer till PDF, vilket säkerställer att du har de verktyg och den kunskap som behövs för att implementera lösningen effektivt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

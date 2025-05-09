@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ public class Main {
 ### Munkafüzet celláinak létrehozása és formázása
 
 **Áttekintés:**
-Kezdje egy munkafüzet létrehozásával és a cellák formázásával, hogy a HTML-kimenetben hatékony adatmegjelenítést biztosítson.
+Kezdje egy munkafüzet létrehozásával és a cellák formázásával, hogy biztosítsa az adatok hatékony megjelenítését a HTML-kimenetben.
 
 #### 1. lépés: Munkafüzet-objektum létrehozása
 Hozz létre egy példányt a következőből: `Workbook`, amely egy Excel-fájlt jelöl.
@@ -181,6 +183,9 @@ Ez az oktatóanyag bemutatta, hogyan használható az Aspose.Cells for Java füg
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

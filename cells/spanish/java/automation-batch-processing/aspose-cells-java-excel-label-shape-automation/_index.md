@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ Visita [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9) Para obte
 Al seguir esta guía, habrás dado un paso esencial para dominar la automatización de Excel con Aspose.Cells para Java. ¡Sigue explorando e integrando estas potentes funciones en tus aplicaciones!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

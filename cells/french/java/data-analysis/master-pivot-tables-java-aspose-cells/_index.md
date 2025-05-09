@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -247,6 +249,9 @@ Vous maîtrisez désormais les bases de la configuration et de la manipulation d
 En suivant ce guide complet, vous serez sur la bonne voie pour exploiter pleinement les puissantes fonctionnalités d'Aspose.Cells pour Java dans vos projets axés sur les données. Bon codage !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membatasi Halaman PDF di Java Menggunakan Aspose.Cells: Panduan Langkah demi Langkah
 
-## Perkenalan
+## Bevezetés
 
 Mengonversi file Excel ke format PDF sambil hanya menyertakan halaman tertentu merupakan persyaratan umum, terutama saat menangani lembar kerja berukuran besar. Panduan ini menunjukkan cara membatasi jumlah halaman yang dibuat menggunakan Aspose.Cells untuk Java.
 
@@ -24,19 +26,19 @@ Aspose.Cells adalah pustaka canggih yang memungkinkan pengembang bekerja secara 
 
 Sebelum memulai implementasi, pastikan Anda telah menyiapkan semuanya.
 
-## Prasyarat
+## Előfeltételek
 
-Untuk mengikuti tutorial ini, Anda memerlukan:
-- **Perpustakaan dan Versi**: Pastikan Anda memiliki Aspose.Cells versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: Diperlukan lingkungan Java Development Kit (JDK) yang berfungsi.
-- **Prasyarat Pengetahuan**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
+A bemutató követéséhez a következőkre lesz szükséged:
+- **Könyvtárak és verziók**: Pastikan Anda memiliki Aspose.Cells versi 25.3 atau yang lebih baru.
+- **Környezet beállítása**: Diperlukan lingkungan Java Development Kit (JDK) yang berfungsi.
+- **Ismereti előfeltételek**: Pemahaman dasar tentang pemrograman Java dan keakraban dengan sistem pembangunan Maven atau Gradle.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Untuk memulai, integrasikan Aspose.Cells ke dalam proyek Java Anda menggunakan Maven atau Gradle:
 
 ### Pengaturan Maven
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -46,22 +48,22 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 ```
 
 ### Pengaturan Gradle
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Langkah-langkah Memperoleh Lisensi
-- **Uji Coba Gratis**: Unduh pustaka untuk menguji fitur-fiturnya.
-- **Lisensi Sementara**: Dapatkan lisensi sementara untuk akses penuh selama masa uji coba Anda.
-- **Pembelian**:Untuk penggunaan jangka panjang, Anda dapat membeli lisensi.
+#### Licencbeszerzés lépései
+- **Ingyenes próbaverzió**: Unduh pustaka untuk menguji fitur-fiturnya.
+- **Ideiglenes engedély**: Dapatkan lisensi sementara untuk akses penuh selama masa uji coba Anda.
+- **Vásárlás**: Untuk penggunaan jangka panjang, Anda dapat membeli lisensi.
 
-**Inisialisasi dan Pengaturan Dasar**
+**Alapvető inicializálás és beállítás**
 Mulailah dengan membuat contoh `Workbook` dengan jalur ke berkas Excel Anda. Ini memungkinkan Anda untuk memanipulasi atau mengonversinya sesuai kebutuhan.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
-### Langkah 1: Muat File Excel Anda
+### 1. lépés: Töltse be az Excel-fájlt
 Buka dokumen Excel untuk konversi:
 ```java
 // Tentukan direktori tempat file Anda berada
@@ -70,12 +72,12 @@ String dataDir = Utils.getSharedDataDir(LimitNumberofPagesGenerated.class) + "Te
 // Buka file Excel yang ada
 Workbook wb = new Workbook(dataDir + "TestBook.xlsx");
 ```
-*Mengapa langkah ini?* Memuat buku kerja Anda penting untuk mengakses isinya dan mempersiapkan konversi.
+*Miért ez a lépés?* Memuat buku kerja Anda penting untuk mengakses isinya dan mempersiapkan konversi.
 
-### Langkah 2: Konfigurasikan Opsi Penyimpanan PDF
-Mendirikan `PdfSaveOptions` untuk menentukan halaman yang Anda inginkan dalam PDF keluaran:
+### 2. lépés: PDF mentési beállítások konfigurálása
+Beállítás `PdfSaveOptions` untuk menentukan halaman yang Anda inginkan dalam PDF keluaran:
 ```java
-// Buat Instansi PdfSaveOptions
+// Buat PdfSaveOptions
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Tentukan halaman awal (indeks berbasis 0) dan jumlah halaman
@@ -84,43 +86,43 @@ options.setPageCount(2); // Sertakan dua halaman
 ```
 *Mengapa parameter ini?* Konfigurasi ini memastikan hanya rentang halaman yang diinginkan yang disertakan dalam PDF Anda.
 
-### Langkah 3: Simpan sebagai PDF
+### 3. lépés: Mentés PDF-ként
 Simpan buku kerja sebagai PDF dengan opsi yang ditentukan:
 ```java
 // Simpan dokumen ke format PDF dengan halaman terbatas
 wb.save(dataDir + "LNOfPagesGenerated_out.pdf", options);
 ```
-*Mengapa langkah ini?* Di sinilah Anda mengonversi dan mengeluarkan berkas Excel Anda menjadi PDF terbatas.
+*Miért ez a lépés?* Di sinilah Anda mengonversi dan mengeluarkan berkas Excel Anda menjadi PDF terbatas.
 
-### Tips Pemecahan Masalah
-- **Masalah Jalur File**: Pastikan jalur berkas Anda benar. Gunakan jalur relatif atau absolut berdasarkan struktur proyek Anda.
+### Hibaelhárítási tippek
+- **Fájlútvonal-problémák**: Pastikan jalur berkas Anda benar. Gunakan jalur relatif atau absolut berdasarkan struktur proyek Anda.
 - **Ketidakcocokan Versi**: Selalu verifikasi bahwa versi Aspose.Cells Anda cocok dengan yang ditentukan dalam berkas build Anda untuk menghindari masalah kompatibilitas.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Membatasi halaman PDF dapat bermanfaat dalam skenario seperti:
-1. **Laporan Keuangan**: Hanya cetak ringkasan triwulanan yang relevan dari laporan tahunan yang komprehensif.
+1. **Pénzügyi jelentések**: Hanya cetak ringkasan triwulanan yang relevan dari laporan tahunan yang komprehensif.
 2. **Dokumen Intranet**: Menghasilkan dokumen departemen tertentu untuk penggunaan internal tanpa membebani pengguna dengan data yang tidak perlu.
-3. **Dokumentasi Hukum**: Ekstrak dan bagikan hanya bagian-bagian yang relevan dari kontrak yang panjang.
+3. **Jogi dokumentáció**: Ekstrak dan bagikan hanya bagian-bagian yang relevan dari kontrak yang panjang.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Saat bekerja dengan file Excel berukuran besar, pertimbangkan kiat berikut untuk mengoptimalkan kinerja:
-- **Manajemen Memori**:Gunakan praktik manajemen memori Java secara efektif dengan membuang objek yang tidak lagi diperlukan.
-- **Penanganan File yang Efisien**: Selalu tutup aliran file setelah digunakan untuk segera mengosongkan sumber daya.
+Nagyméretű Excel-fájlok kezelésekor a teljesítmény optimalizálása érdekében vegye figyelembe az alábbi tippeket:
+- **Memóriakezelés**:Gunakan praktik manajemen memori Java secara efektif dengan membuang objek yang tidak lagi diperlukan.
+- **Hatékony fájlkezelés**: Selalu tutup aliran file setelah digunakan untuk segera mengosongkan sumber daya.
 - **Mengoptimalkan Pemrosesan**: Memproses data dalam potongan-potongan jika menangani kumpulan data yang sangat besar.
 
-## Kesimpulan
+## Következtetés
 
 Dalam tutorial ini, Anda telah mempelajari cara menyiapkan Aspose.Cells untuk Java dan membatasi jumlah halaman saat mengonversi file Excel ke PDF. Teknik ini sangat berguna untuk membuat dokumen ringkas dari spreadsheet yang luas.
 
 Untuk menambah pengetahuan Anda, jelajahi fitur-fitur tambahan yang ditawarkan oleh Aspose.Cells, seperti manipulasi data dan pembuatan bagan. Bereksperimenlah dengan konfigurasi yang berbeda untuk melihat apa yang paling sesuai untuk kasus penggunaan spesifik Anda.
 
-**Langkah Berikutnya**:Coba terapkan solusi ini dalam proyek Anda dan bagikan pengalaman atau pertanyaan Anda di bawah ini!
+**Következő lépések**:Coba terapkan solusi ini dalam proyek Anda dan bagikan pengalaman atau pertanyaan Anda di bawah ini!
 
-## Bagian FAQ
+## GYIK szekció
 
-1. **Bagaimana cara memulai dengan Aspose.Cells?**
+1. **Hogyan kezdjem el az Aspose.Cells használatát?**
    - Mulailah dengan mengunduh pustaka dan mengintegrasikannya ke proyek Java Anda menggunakan Maven atau Gradle.
 2. **Bisakah saya membatasi halaman ke rentang yang tidak berurutan?**
    - Ya, Anda dapat mengatur indeks halaman tertentu untuk mencapai ini.
@@ -131,15 +133,18 @@ Untuk menambah pengetahuan Anda, jelajahi fitur-fitur tambahan yang ditawarkan o
 5. **Bagaimana saya dapat menangani masalah lisensi dengan Aspose.Cells?**
    - Manfaatkan uji coba gratis untuk pengujian awal, lalu ajukan lisensi sementara jika diperlukan sebelum membeli.
 
-## Sumber daya
-- **Dokumentasi**: [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
-- **Unduh**: [Rilis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Pembelian**: [Beli Aspose.Cells](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Uji Coba Gratis Aspose.Cells](https://releases.aspose.com/cells/java/)
-- **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
-- **Mendukung**: [Forum Aspose untuk Sel](https://forum.aspose.com/c/cells/9)
+## Erőforrás
+- **Dokumentáció**: [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
+- **Letöltés**: [Aspose.Cells kiadások](https://releases.aspose.com/cells/java/)
+- **Vásárlás**: [Vásároljon Aspose.Cells-t](https://purchase.aspose.com/buy)
+- **Ingyenes próbaverzió**: [Aspose.Cells ingyenes próbaverzió](https://releases.aspose.com/cells/java/)
+- **Ideiglenes engedély**: [Szerezzen be egy ideiglenes jogosítványt](https://purchase.aspose.com/temporary-license/)
+- **Támogatás**: [Forum Aspose untuk Sel](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

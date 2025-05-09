@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -121,7 +123,7 @@ workbook.save(dataDir + "CutAndPasteCells.xlsx");
 
 Funkcja ta może być przydatna w różnych scenariuszach:
 1. **Migracja danych**:Ponowne uporządkowanie danych podczas procesów migracji bez konieczności ręcznej edycji.
-2. **Dostosowania szablonów**Dynamiczna modyfikacja plików szablonów na podstawie danych wprowadzonych przez użytkownika lub zestawów danych.
+2. **Dostosowania szablonu**Dynamiczna modyfikacja plików szablonów na podstawie danych wprowadzonych przez użytkownika lub zestawów danych.
 3. **Automatyczne raportowanie**:Generowanie raportów, w których sekcje wymagają programowej reorganizacji.
 
 ## Rozważania dotyczące wydajności
@@ -163,6 +165,9 @@ A5: Zdecydowanie. Oferuje solidne funkcje idealne do złożonych zadań przetwar
 Opanowując te narzędzia i techniki, możesz udoskonalić swoje projekty związane z Excelem za pomocą Javy, wykorzystując w pełni moc Aspose.Cells. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

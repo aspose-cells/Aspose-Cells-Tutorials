@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel import export
@@ -31,7 +33,7 @@ Az Excel importálásának és exportálásának elsajátításával az Aspose.C
 Ismerd meg, hogyan importálhatsz tömeges adatokat Excelből az Aspose.Cells for Java API használatával. Egyszerűsítsd az adatfeldolgozást ezzel a lépésről lépésre szóló útmutatóval.
 ### [Excel adatexportálási módszerek](./excel-data-export-methods/)
 Fedezd fel az Excel adatexportálási metódusainak lehetőségeit az Aspose.Cells for Java használatával. Tanulj gyakorlati forráskód példákkal ebben az átfogó útmutatóban. Optimalizáld adatkezelési készségeidet még ma!
-### [CSV exportálás Java kódban](./csv-export-java-code/)
+### [CSV exportálás Java kódhoz](./csv-export-java-code/)
 Tanuld meg, hogyan exportálhatsz adatokat CSV formátumba az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a zökkenőmentes CSV exportáláshoz.
 ### [Excel exportálása PDF-be](./exporting-excel-to-pdf/)
 Tanuld meg, hogyan exportálhatsz Excel-fájlokat könnyedén PDF-be az Aspose.Cells for Java segítségével. Lépésről lépésre útmutatónk leegyszerűsíti a folyamatot. Kezdd el a konvertálást még ma!
@@ -44,10 +46,12 @@ Ismerd meg, hogyan exportálhatsz Excel-adatokat JSON-ba az Aspose.Cells for Jav
 ### [Excel import adatérvényesítés](./excel-import-data-validation/)
 Tanuld meg, hogyan valósíthatsz meg Excel import adatellenőrzést az Aspose.Cells for Java használatával ezzel az átfogó, lépésről lépésre haladó útmutatóval. Biztosítsd az adatok pontosságát és fokozd a felhasználói élményt. 
 ### [Excel exportálása HTML Java-ba](./export-excel-to-html-java/)
-Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal együtt, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be.
+Tanuld meg, hogyan exportálhatsz Excelt HTML-be Java nyelven az Aspose.Cells for Java segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a forráskóddal, hogy zökkenőmentesen konvertálhasd Excel-fájljaidat HTML-be.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

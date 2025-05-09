@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Handledning för datumfunktioner i Excel
@@ -119,7 +121,7 @@ int daysDifference = worksheet.getCells().get("A3").getIntValue();
 System.out.println("Days Difference: " + daysDifference);
 ```
 
-### Att hitta slutet av månaden
+### Hitta slutet av månaden
 
 Med Aspose.Cells för Java kan du enkelt hitta slutet av månaden för ett givet datum med hjälp av funktionen EOMONTH.
 
@@ -181,6 +183,7 @@ För att komma igång med Aspose.Cells för Java, ladda ner biblioteket från [h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

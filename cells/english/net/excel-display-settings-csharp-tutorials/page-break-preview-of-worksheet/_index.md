@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/page-break-preview-of-workshee
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Page Break Preview Of Worksheet
@@ -137,6 +139,7 @@ Yes, you can loop through your workbook's worksheets and apply the same property
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

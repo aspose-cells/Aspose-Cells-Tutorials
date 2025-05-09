@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Escolha um diretório apropriado para salvar o arquivo modificado. O formato pad
 A integração do Aspose.Cells com outros sistemas, como bancos de dados e aplicativos da web, pode automatizar os processos de geração e distribuição de relatórios de forma eficaz.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Manipule pastas de trabalho grandes processando-as em partes.
+- **Otimizar o uso da memória**: Manipule pastas de trabalho grandes processando-as em partes.
 - **Manipulação Eficiente de Dados**Use o acesso direto à célula para operações mais rápidas em vez de iterar por intervalos inteiros quando possível.
 - **Melhores Práticas**: Garanta o tratamento adequado de exceções para gerenciar erros de tempo de execução com elegância e liberar recursos imediatamente após o processamento.
 
@@ -145,6 +147,9 @@ Agora você aprendeu a ocultar planilhas em arquivos do Excel usando o Aspose.Ce
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Du har nu lärt dig hur du tar bort ett kalkylblad med dess namn med hjälp av A
 Genom att följa den här guiden kommer du att vara väl rustad för att effektivt hantera Excel-ark med Aspose.Cells i Java. Börja implementera idag och se hur det kan förbättra dina projekt!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

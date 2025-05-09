@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -201,9 +203,12 @@ Các bước tiếp theo có thể bao gồm khám phá các chức năng bổ s
 - **Giấy phép tạm thời**: [Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 - **Ủng hộ**: [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9)
 
-Bằng cách tận dụng các khả năng của Aspose.Cells, bạn có thể cải thiện các tác vụ xử lý Excel trong các ứng dụng Java. Chúc bạn viết mã vui vẻ!
+Bằng cách tận dụng các khả năng của Aspose.Cells, bạn có thể nâng cao khả năng xử lý tác vụ Excel trong các ứng dụng Java. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

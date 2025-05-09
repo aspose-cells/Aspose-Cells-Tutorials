@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -185,12 +187,15 @@ Skorzystaj z poniższych zasobów, aby jeszcze bardziej rozwinąć swoje umieję
 A1: Zwiększ rozmiar sterty Java za pomocą `-Xmx` flagę podczas uruchamiania aplikacji. Rozważ przetwarzanie danych w blokach.
 
 **P2: Czy Aspose.Cells może renderować wiele arkuszy do jednego pliku obrazu?**
-A2: Każdy arkusz jest domyślnie renderowany jako indywidualny obraz. Połącz obrazy po renderowaniu, jeśli to konieczne.
+A2: Każdy arkusz jest domyślnie renderowany jako pojedynczy obraz. Połącz obrazy po renderowaniu, jeśli to konieczne.
 
 **P3: Jakie formaty obrazów są obsługiwane w Aspose.Cells dla Java?**
 A3: Obsługiwane formaty to EMF, PNG, JPEG, BMP i GIF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

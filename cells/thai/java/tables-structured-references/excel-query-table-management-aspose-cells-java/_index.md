@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -40,7 +42,7 @@
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
-หากต้องการใช้ Aspose.Cells ในโปรเจ็กต์ของคุณ ให้เพิ่มเป็นส่วนที่ต้องมี ดังนี้:
+หากต้องการใช้ Aspose.Cells ในโปรเจ็กต์ของคุณ ให้เพิ่มเป็นส่วนที่ต้องมี วิธีการมีดังนี้:
 
 **เมเวน:**
 ```xml
@@ -196,9 +198,12 @@ System.out.println("Preserve Formatting: " + preserveFormatting);
 - **ทดลองใช้งานฟรี:** ทดสอบคุณสมบัติด้วยเวอร์ชันทดลองใช้ที่มีใน [การเปิดตัว](https://releases.aspose.com/cells/java/)
 - **ใบอนุญาตชั่วคราว:** รับมันได้ผ่านทาง [ใบอนุญาตชั่วคราว Aspose](https://purchase.aspose.com/temporary-license/)
 
-สนุกกับการเขียนโค้ดและเพลิดเพลินกับการจัดการข้อมูล Excel เหมือนมืออาชีพด้วย Aspose.Cells สำหรับ Java!
+สนุกกับการเขียนโค้ดและเพลิดเพลินกับการจัดการข้อมูล Excel แบบมืออาชีพด้วย Aspose.Cells สำหรับ Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -103,7 +105,7 @@ cells.get("C2").setStyle(style);
 
 #### Förklaring:
 - **`Workbook`**Representerar en Excel-fil.
-- **`Worksheet`**: Refererar till ett blad i arbetsboken.
+- **`Worksheet`**: Refererar till ett ark i arbetsboken.
 - **`Cells`**En samling celler i kalkylbladet.
 - **`Style`**Används för att formatera celler.
 
@@ -200,6 +202,9 @@ I den här handledningen utforskade vi hur man skapar och formaterar ett kalkylb
 - **Dokumentation**Omfattande guider och API-referenser finns på [Aspose.Cells-dokumentation](https://reference.aspose.com/cells/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

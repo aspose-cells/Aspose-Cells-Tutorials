@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -180,6 +182,9 @@ U zou nu een goed begrip moeten hebben van hoe u slicer-eigenschappen in Excel k
 Ga aan de slag met het aanpassen van Excel-slicers met Aspose.Cells voor Java en til uw gegevenspresentaties naar een hoger niveau!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

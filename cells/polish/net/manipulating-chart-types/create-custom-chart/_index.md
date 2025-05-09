@@ -1,14 +1,16 @@
 ---
-title: Utwórz niestandardowy wykres
-linktitle: Utwórz niestandardowy wykres
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak tworzyć niestandardowe wykresy w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, który pomoże Ci udoskonalić umiejętności wizualizacji danych.
-weight: 10
-url: /pl/net/manipulating-chart-types/create-custom-chart/
+"description": "Dowiedz się, jak tworzyć niestandardowe wykresy w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku, który pomoże Ci udoskonalić umiejętności wizualizacji danych."
+"linktitle": "Utwórz niestandardowy wykres"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Utwórz niestandardowy wykres"
+"url": "/pl/net/manipulating-chart-types/create-custom-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Utwórz niestandardowy wykres
@@ -22,7 +24,7 @@ Tworzenie niestandardowych wykresów w programie Excel przy użyciu biblioteki A
 Zanim zagłębimy się w szczegóły tworzenia wykresów, upewnijmy się, że masz wszystko na swoim miejscu. Oto, czego potrzebujesz:
 
 1. Visual Studio lub dowolne środowisko IDE zgodne z platformą .NET: To będzie Twój plac zabaw do pisania i testowania kodu.
-2.  Aspose.Cells for .NET Library: Upewnij się, że masz zainstalowaną tę bibliotekę. Możesz ją pobrać[Tutaj](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells for .NET Library: Upewnij się, że masz zainstalowaną tę bibliotekę. Możesz ją pobrać [Tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa znajomość języka C#: Przydatna będzie dla Ciebie znajomość podstawowych koncepcji języka C#, ponieważ będziemy ich używać w przykładach kodu.
 4. Przykładowy zestaw danych: Do tworzenia wykresów niezbędne są pewne dane. W naszym przykładzie użyjemy prostego zestawu danych, ale możesz go dostosować do swoich potrzeb.
 
@@ -55,7 +57,7 @@ Zamiast „Twojego katalogu wyjściowego” możesz określić rzeczywistą ści
 
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
 
- Teraz należy rozpocząć od utworzenia nowego wystąpienia`Workbook`Klasa. Jest to podstawowy element składowy wszelkich operacji Excela przy użyciu Aspose.Cells.
+Teraz należy rozpocząć od utworzenia nowego wystąpienia `Workbook` Klasa. Jest to podstawowy element składowy wszelkich operacji Excela przy użyciu Aspose.Cells.
 
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
@@ -73,7 +75,7 @@ Następnie musisz uzyskać odniesienie do arkusza, w którym będą znajdować s
 Worksheet worksheet = workbook.Worksheets[0];
 ```
 
-Ten wiersz uzyskuje dostęp do pierwszego arkusza kalkulacyjnego (indeks 0). Aspose.Cells pozwala na posiadanie wielu arkuszy kalkulacyjnych, dzięki czemu możesz dokonać odpowiedniego wyboru.
+Ten wiersz uzyskuje dostęp do pierwszego arkusza kalkulacyjnego (indeks 0). Aspose.Cells pozwala na posiadanie wielu arkuszy kalkulacyjnych, dzięki czemu możesz wybierać odpowiednio.
 
 ## Krok 4: Dodawanie przykładowych danych do arkusza kalkulacyjnego
 
@@ -114,7 +116,7 @@ Po dodaniu wykresu musimy się do niego odwołać, aby móc dalej nim manipulowa
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
- W tym momencie masz`chart` obiekt, którego właściwości można modyfikować według potrzeb.
+W tym momencie masz `chart` obiekt, którego właściwości można modyfikować według potrzeb.
 
 ## Krok 7: Dodawanie serii danych do wykresu
 
@@ -147,7 +149,7 @@ Po wszystkich tych konfiguracjach nadszedł czas, aby zapisać plik Excel. Oto, 
 workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 ```
 
- Upewnij się, że dodałeś nazwę pliku z`.xlsx` rozszerzenie zapewniające prawidłowe zapisanie skoroszytu.
+Upewnij się, że dodałeś nazwę pliku z `.xlsx` rozszerzenie zapewniające prawidłowe zapisanie skoroszytu.
 
 ## Wniosek
 
@@ -161,19 +163,21 @@ Pamiętaj, że siła wykresów tkwi w ich zdolności do opowiadania historii, cz
 Aspose.Cells to zaawansowana biblioteka do pracy z plikami Excela w aplikacjach .NET, umożliwiająca manipulowanie, tworzenie i konwersję dokumentów Excela.
 
 ### Jak zainstalować Aspose.Cells dla .NET?
- Można zainstalować go za pomocą NuGet w programie Visual Studio lub pobrać bibliotekę bezpośrednio ze strony[Tutaj](https://releases.aspose.com/cells/net/).
+Można zainstalować go za pomocą NuGet w programie Visual Studio lub pobrać bibliotekę bezpośrednio ze strony [Tutaj](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę tworzyć różne rodzaje wykresów?
 Oczywiście! Aspose.Cells obsługuje różne typy wykresów, w tym wykresy kolumnowe, liniowe, kołowe i słupkowe.
 
 ### Czy istnieje sposób na uzyskanie tymczasowej licencji na Aspose.Cells?
- Tak, możesz uzyskać tymczasową licencję od[ten link](https://purchase.aspose.com/temporary-license/).
+Tak, możesz uzyskać tymczasową licencję od [ten link](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Cells?
- Możesz zapoznać się z pełną dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z pełną dokumentacją [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

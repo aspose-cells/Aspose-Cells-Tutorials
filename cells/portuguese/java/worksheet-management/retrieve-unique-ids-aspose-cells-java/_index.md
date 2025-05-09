@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -141,10 +143,10 @@ A recuperação de IDs exclusivos tem diversas aplicações no mundo real:
 ## Considerações de desempenho
 
 Trabalhar eficientemente com arquivos grandes do Excel é crucial:
-- **Otimize o uso da memória**Carregue somente os dados necessários na memória ao trabalhar com conjuntos de dados extensos.
+- **Otimizar o uso da memória**Carregue somente os dados necessários na memória ao trabalhar com conjuntos de dados extensos.
 - **Melhores Práticas**: Use APIs de streaming, se disponíveis, para manipular arquivos grandes sem sobrecarregar os recursos do sistema.
 
-Essas considerações garantem que seu aplicativo permaneça responsivo e com eficiência de recursos.
+Essas considerações garantem que seu aplicativo permaneça responsivo e eficiente em termos de recursos.
 
 ## Conclusão
 
@@ -186,6 +188,9 @@ Comece a aproveitar o Aspose.Cells para Java hoje mesmo para aprimorar seus recu
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

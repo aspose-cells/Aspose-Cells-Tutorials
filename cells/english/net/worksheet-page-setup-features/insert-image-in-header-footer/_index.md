@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/insert-image-in-header-footer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Image in Header Footer of Worksheet
@@ -104,9 +106,11 @@ You can dive deep into the features and functions of Aspose.Cells by visiting th
 Yes, as long as you have the .NET runtime environment, you can use Aspose.Cells in any .NET compatible development environment.
 ### What should I do if I encounter issues?
 If you run into any problems or need support, check the [Aspose support forum](https://forum.aspose.com/c/cells/9) for help from the community and developers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -195,6 +197,9 @@ Je hebt nu geleerd hoe je een werkblad op naam kunt verwijderen met Aspose.Cells
 Door deze handleiding te volgen, bent u goed toegerust om Excel-sheets efficiënt te beheren met Aspose.Cells in Java. Begin vandaag nog met de implementatie en ontdek hoe het uw projecten kan verbeteren!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,13 +8,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keamanan Data Excel
 
 
-## Perkenalan
+## Bevezetés
 Di era di mana data adalah raja, memastikan keamanan lembar kerja Excel Anda adalah yang terpenting. Baik Anda berurusan dengan data keuangan yang sensitif, laporan bisnis rahasia, atau informasi penting lainnya, sangat penting untuk melindungi file Excel Anda dari akses dan gangguan yang tidak sah. Aspose.Cells untuk Java menyediakan alat yang hebat untuk meningkatkan keamanan data Excel Anda, dan dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah penting untuk melindungi data berharga Anda.
 
 
@@ -24,7 +26,7 @@ Perlindungan kata sandi adalah garis pertahanan pertama Anda. Dengan Aspose.Cell
 ## Enkripsi Berkas
 Di dunia yang saling terhubung saat ini, enkripsi file adalah suatu keharusan. Aspose.Cells untuk Java memungkinkan Anda mengenkripsi file Excel Anda menggunakan algoritma enkripsi standar industri. Kami akan memandu Anda melalui proses enkripsi file Anda dan menguraikannya bila diperlukan.
 
-## Validasi Data
+## Adatérvényesítés
 Memastikan integritas data sangatlah penting. Kami akan membahas cara menggunakan aturan validasi data untuk mencegah entri data yang salah. Dengan Aspose.Cells untuk Java, Anda dapat mengatur aturan validasi data yang membatasi input data ke kriteria tertentu, memastikan lembar Excel Anda tetap akurat dan bebas kesalahan.
 
 ## Tutorial Keamanan Data Excel
@@ -40,9 +42,11 @@ Pelajari Teknik Penyamaran Data yang efektif menggunakan Aspose.Cells untuk Java
 Pelajari cara mengaudit akses file menggunakan Aspose.Cells untuk API Java. Panduan langkah demi langkah dengan kode sumber dan Tanya Jawab Umum.
 ### [Validasi Data untuk Keamanan](./data-validation-for-security/)
 Tingkatkan Keamanan Data dengan Aspose.Cells untuk Java. Jelajahi Teknik Validasi Data yang Komprehensif. Pelajari Cara Menerapkan Validasi & Perlindungan yang Kuat.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Tutorial operasi sel kami menyediakan panduan terperinci untuk memanipulasi sel-sel individual dalam lembar kerja Excel dengan Java. Ikuti panduan praktis ini untuk mempelajari cara membaca dan menulis berbagai jenis data, mengakses sel dengan referensi, mengelola pemformatan sel, dan menerapkan pola penelusuran sel yang efisien. Tutorial ini mencakup contoh kode Java lengkap untuk operasi sel umum, membantu Anda membangun aplikasi yang dapat mengontrol konten lembar kerja secara tepat hingga ke tingkat sel individual.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi sel
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -92,10 +94,13 @@ Tutorial kode untuk Aspose.Words Java
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

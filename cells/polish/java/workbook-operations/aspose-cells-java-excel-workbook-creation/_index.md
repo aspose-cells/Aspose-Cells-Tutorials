@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ Aspose.Cells Java oferuje wszechstronność w różnych domenach. Oto kilka rzec
 5. **Zarządzanie zapasami**:Używaj skoroszytów do dynamicznego prowadzenia i aktualizowania rejestrów zapasów, integrując je z istniejącymi bazami danych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

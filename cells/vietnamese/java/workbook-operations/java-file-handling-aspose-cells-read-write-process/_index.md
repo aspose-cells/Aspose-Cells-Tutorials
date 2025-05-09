@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ Chúng ta hãy chia nhỏ quá trình triển khai thành ba tính năng cốt l
    ```
 
 2. **Xử lý từng dòng**
-   - Sử dụng phương pháp để chuyển đổi từng dòng thành chữ in hoa.
+   - Sử dụng phương pháp để chuyển đổi từng dòng thành chữ hoa.
 
    ```java
    List<String> processData(List<String> inputLines) {
@@ -191,6 +193,9 @@ Bạn đã sẵn sàng đưa quá trình phát triển Java của mình lên m�
 Bằng cách làm theo hướng dẫn toàn diện này, bạn đang trên đường thành thạo cách xử lý tệp trong Java với Aspose.Cells. Chúc bạn viết mã vui vẻ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,9 +33,9 @@
 ## ข้อกำหนดเบื้องต้น
 
 ก่อนที่จะดำเนินการใช้งาน ให้แน่ใจว่าคุณมี:
-- **ไลบรารีและสิ่งที่ต้องพึ่งพา:** ไลบรารี Aspose.Cells สำหรับ Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
+- **ไลบรารีและการอ้างอิงที่จำเป็น:** ไลบรารี Aspose.Cells สำหรับ Java (เวอร์ชัน 25.3 หรือใหม่กว่า)
 - **การตั้งค่าสภาพแวดล้อม:** มีความคุ้นเคยกับสภาพแวดล้อมการพัฒนา Java เช่น Maven หรือ Gradle
-- **ข้อกำหนดเบื้องต้นของความรู้:** ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรม Java และหลักการเชิงวัตถุ
+- **ข้อกำหนดความรู้เบื้องต้น:** ความเข้าใจพื้นฐานเกี่ยวกับแนวคิดการเขียนโปรแกรม Java และหลักการเชิงวัตถุ
 
 ## การตั้งค่า Aspose.Cells สำหรับ Java
 
@@ -200,6 +202,9 @@ public boolean processCell(Cell cell) {
 หากทำตามคำแนะนำนี้ คุณก็จะสามารถเรียนรู้การประมวลผลไฟล์ Excel ใน Java ด้วย Aspose.Cells ได้อย่างคล่องแคล่ว ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

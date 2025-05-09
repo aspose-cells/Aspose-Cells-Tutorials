@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rumus Excel Analisis Data
@@ -35,10 +37,10 @@ Sekarang setelah lingkungan kita siap, mari jelajahi beberapa teknik analisis da
 Rumus SUM adalah salah satu fungsi yang paling umum digunakan untuk analisis data di Excel. Rumus ini memungkinkan Anda untuk menjumlahkan sejumlah angka dengan cepat. Berikut ini cara menggunakannya dengan Aspose.Cells untuk Java:
 
 ```java
-// Membuat buku kerja
+// Munkafüzet létrehozása
 Workbook workbook = new Workbook();
 
-// Akses lembar kerja pertama
+// Hozzáférés az első munkalaphoz
 Worksheet worksheet = workbook.getWorksheets().get(0);
 
 // Masukkan data ke dalam sel
@@ -90,15 +92,15 @@ pivotTable.refreshData();
 pivotTable.calculateData();
 ```
 
-## Kesimpulan
+## Következtetés
 
 Dalam artikel ini, kami telah menjajaki analisis data di Excel menggunakan Aspose.Cells untuk Java. Kami mulai dengan memperkenalkan pustaka dan menyiapkan lingkungan Java. Kemudian, kami membahas rumus Excel dasar seperti SUM dan AVERAGE untuk analisis data. Terakhir, kami membahas teknik lanjutan seperti tabel pivot.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
 ### Apakah Aspose.Cells untuk Java gratis untuk digunakan?
 
-Tidak, Aspose.Cells untuk Java adalah pustaka komersial dengan biaya lisensi. Anda dapat mengunjungi [Situs web Aspose](https://www.aspose.com/) untuk mempelajari lebih lanjut tentang harganya.
+Tidak, Aspose.Cells untuk Java adalah pustaka komersial dengan biaya lisensi. Anda dapat mengunjungi [Aspose weboldal](https://www.aspose.com/) untuk mempelajari lebih lanjut tentang harganya.
 
 ### Dapatkah saya menggunakan Aspose.Cells untuk Java di aplikasi desktop dan web?
 
@@ -119,6 +121,7 @@ Anda dapat menjelajahi tutorial dan dokumentasi tambahan tentang Aspose.Cells un
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

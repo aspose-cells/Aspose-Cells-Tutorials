@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ class SP implements IStreamProvider {
         options.setStream(baout);
     }
 
-    // Método para cerrar la transmisión si es necesario (no utilizado aquí).
+    // Método para cerrar la transmisión si es necesario (no se utiliza aquí).
     public void closeStream(StreamProviderOptions arg0) throws Exception {
     }
 }
@@ -190,6 +192,9 @@ Explore funciones como validación de datos, gráficos y tablas dinámicas en [D
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-page-setup-features/get-page-dimensions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Page Dimensions of Worksheet
@@ -87,6 +89,7 @@ You can install Aspose.Cells using NuGet Package Manager in Visual Studio or dow
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

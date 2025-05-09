@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Prošli jsme si přidání textového pole do grafu v Excelu pomocí Aspose.Cell
 Dodržováním tohoto návodu můžete efektivně integrovat Aspose.Cells do svých projektů v Javě a vylepšit tak funkce grafů v Excelu pomocí vlastních textových anotací. Přejeme vám příjemné programování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

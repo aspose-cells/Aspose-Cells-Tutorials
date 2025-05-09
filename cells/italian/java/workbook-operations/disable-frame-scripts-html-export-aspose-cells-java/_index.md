@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ In questa sezione esploreremo come disabilitare l'esportazione degli script dei 
 Questa funzionalità consente di controllare l'output HTML impedendo l'inclusione di script di frame e proprietà del documento.
 
 #### Passaggio 1: caricare una cartella di lavoro esistente
-Carica la cartella di lavoro di Excel in un `Workbook` oggetto:
+Carica la tua cartella di lavoro Excel in un `Workbook` oggetto:
 ```java
 import com.aspose.cells.Workbook;
 
@@ -124,7 +126,7 @@ w.save(dataDir + "ModifiedSample_out.xlsx");
 
 ## Considerazioni sulle prestazioni
 L'ottimizzazione di Aspose.Cells per Java prevede:
-- Utilizzo efficiente della memoria: evitare di caricare cartelle di lavoro di grandi dimensioni interamente in memoria; valutare l'esecuzione in streaming o l'elaborazione di blocchi.
+- Utilizzo efficiente della memoria: evitare di caricare cartelle di lavoro di grandi dimensioni interamente in memoria; valutare l'ipotesi di eseguire lo streaming o l'elaborazione di blocchi.
 - Gestione delle risorse: garantire la corretta eliminazione degli oggetti della cartella di lavoro per liberare rapidamente le risorse.
 
 ## Conclusione
@@ -134,7 +136,7 @@ Seguendo questa guida, hai imparato come disabilitare efficacemente gli script d
 Esplora altre funzionalità di Aspose.Cells controllando [documentazione ufficiale](https://reference.aspose.com/cells/java/) o sperimentando diverse manipolazioni della cartella di lavoro.
 
 ## Sezione FAQ
-1. **Cosa sono gli script frame?**
+1. **Cosa sono i frame script?**
    - Gli script frame sono segmenti di codice JavaScript incorporati nei file HTML che possono eseguire varie funzioni quando caricati in un browser.
 2. **Posso continuare a manipolare le cartelle di lavoro dopo aver disabilitato le esportazioni degli script?**
    - Sì, la manipolazione della cartella di lavoro è indipendente dalle impostazioni di esportazione dello script.
@@ -150,12 +152,15 @@ Esplora altre funzionalità di Aspose.Cells controllando [documentazione ufficia
 - **Scaricamento**: [Rilasci di Aspose.Cells](https://releases.aspose.com/cells/java/)
 - **Acquistare**: [Acquista Aspose.Cells](https://purchase.aspose.com/buy)
 - **Prova gratuita**: [Ottieni una prova gratuita](https://releases.aspose.com/cells/java/)
-- **Licenza temporanea**: [Richiedi una licenza temporanea](https://purchase.aspose.com/temporary-license/)
+- **Licenza temporanea**: [Richiedi la licenza temporanea](https://purchase.aspose.com/temporary-license/)
 - **Supporto**: [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 Intraprendi oggi stesso il tuo viaggio con Aspose.Cells e migliora le tue applicazioni Java gestendo in modo fluido i dati Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

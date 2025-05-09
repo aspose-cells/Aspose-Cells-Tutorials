@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -102,7 +104,7 @@ Cells cells = worksheet.getCells();
 ```java
 import com.aspose.cells.Cell;
 
-// "A5"의 셀을 가져옵니다
+// "A5"에서 셀을 가져옵니다
 Cell cell = cells.get("A5");
 ```
 
@@ -174,13 +176,16 @@ Aspose.Cells for Java를 사용하여 Excel 셀에서 데이터를 가져오는 
 - **다운로드:** [Aspose Cells 출시](https://releases.aspose.com/cells/java/)
 - **구입:** [Aspose.Cells 구매](https://purchase.aspose.com/buy)
 - **무료 체험:** [Aspose.Cells를 사용해 보세요](https://releases.aspose.com/cells/java/)
-- **임시 면허:** [임시 면허를 받으세요](https://purchase.aspose.com/temporary-license/)
+- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
 - **지원하다:** [Aspose 포럼](https://forum.aspose.com/c/cells/9)
 
 Aspose.Cells for Java를 사용하여 여정을 시작하고 애플리케이션에서 Excel 데이터 조작의 모든 잠재력을 활용하세요!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Chuyển đổi văn bản thành cột trong Aspose.Cells .NET
-linktitle: Chuyển đổi văn bản thành cột trong Aspose.Cells .NET
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách chuyển đổi văn bản thành cột dễ dàng bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này.
-weight: 15
-url: /vi/net/row-column-autofit-conversion/convert-text-to-columns/
+"description": "Tìm hiểu cách chuyển đổi văn bản thành cột dễ dàng bằng Aspose.Cells cho .NET trong hướng dẫn từng bước chi tiết này."
+"linktitle": "Chuyển đổi văn bản thành cột trong Aspose.Cells .NET"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Chuyển đổi văn bản thành cột trong Aspose.Cells .NET"
+"url": "/vi/net/row-column-autofit-conversion/convert-text-to-columns/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển đổi văn bản thành cột trong Aspose.Cells .NET
@@ -17,9 +19,9 @@ url: /vi/net/row-column-autofit-conversion/convert-text-to-columns/
 Trong thế giới quản lý dữ liệu nhịp độ nhanh ngày nay, hiệu quả là chìa khóa. Cho dù bạn là một nhà phân tích xử lý số liệu hay một chuyên gia kinh doanh chuẩn bị báo cáo, bạn thường thấy mình cần phải thao tác dữ liệu một cách nhanh chóng và chính xác. Nếu bạn đã từng phải xử lý các tên trong một ô duy nhất mà bạn cần chia thành các cột riêng biệt, bạn sẽ biết nó có thể tẻ nhạt như thế nào. Rất may, Aspose.Cells for .NET cung cấp một giải pháp tinh tế để chia văn bản thành các cột. Trong hướng dẫn này, chúng ta sẽ hướng dẫn quy trình chuyển đổi văn bản thành các cột bằng Aspose.Cells.
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn đã thiết lập xong. Sau đây là những gì bạn cần:
-1.  Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ[Trang web của Microsoft](https://visualstudio.microsoft.com/downloads/).
+1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình. Nếu bạn chưa có, bạn có thể tải xuống từ [Trang web của Microsoft](https://visualstudio.microsoft.com/downloads/).
 2. .NET Framework: Đảm bảo rằng bạn đang làm việc trong một dự án nhắm mục tiêu đến phiên bản tương thích của .NET Framework. Aspose.Cells tương thích với .NET Core, .NET Framework và các nền tảng khác.
-3.  Thư viện Aspose.Cells: Bạn cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể lấy nó từ[Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/).
+3. Thư viện Aspose.Cells: Bạn cần tải xuống và tham chiếu thư viện Aspose.Cells trong dự án của mình. Bạn có thể lấy nó từ [Trang Tải xuống Aspose](https://releases.aspose.com/cells/net/).
 4. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu hướng dẫn này dễ dàng hơn.
 ## Nhập gói
 Để mọi thứ bắt đầu, chúng ta cần nhập các gói Aspose.Cells cần thiết. Sau đây là cách bạn có thể thực hiện:
@@ -36,9 +38,9 @@ Trước tiên, bạn cần cấu hình thư mục nơi bạn sẽ lưu tệp đ
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
--  Thay thế`"Your Document Directory"`với đường dẫn thực tế nơi bạn muốn lưu tệp của mình. Ví dụ, bạn có thể sử dụng`C:\\Documents\\AsposeOutput\\`.
+- Thay thế `"Your Document Directory"` với đường dẫn thực tế nơi bạn muốn lưu tệp của mình. Ví dụ, bạn có thể sử dụng `C:\\Documents\\AsposeOutput\\`.
 ## Bước 2: Tạo một phiên bản Workbook
-Tiếp theo, hãy tạo sổ làm việc của chúng ta. Về cơ bản, đây là tệp mà tất cả dữ liệu của bạn sẽ được xử lý.
+Tiếp theo, chúng ta hãy tạo sổ làm việc. Về cơ bản, đây là tệp nơi tất cả dữ liệu của bạn sẽ được xử lý.
 ```csharp
 // Tạo một phiên bản sổ làm việc.
 Workbook wb = new Workbook();
@@ -71,7 +73,7 @@ opts.Separator = ' ';
 ```
 - Bằng cách xác định khoảng trắng làm dấu phân cách, chúng ta thông báo cho Aspose rằng đây là nơi cần phân tách tên.
 ## Bước 6: Chia cột thành nhiều cột
- Đây là phép thuật! Bây giờ chúng ta sẽ chia nội dung của cột A thành hai cột riêng biệt (tên ở cột A và họ ở cột B) bằng cách sử dụng`TextToColumns` phương pháp.
+Đây là phép thuật! Bây giờ chúng ta sẽ chia nội dung của cột A thành hai cột riêng biệt (tên ở cột A và họ ở cột B) bằng cách sử dụng `TextToColumns` phương pháp.
 ```csharp
 // Chia cột A thành hai cột bằng phương thức TextToColumns().
 // Bây giờ cột A sẽ có tên và cột B sẽ có họ.
@@ -84,24 +86,26 @@ Cuối cùng, hãy lưu sổ làm việc với những thay đổi đã thực h
 // Lưu bảng tính ở định dạng xlsx.
 wb.Save(dataDir + "outputTextToColumns.xlsx");
 ```
-- Hãy đảm bảo bạn đặt tên cho tệp có ý nghĩa. Trong trường hợp này, chúng tôi sẽ lưu tệp dưới dạng`outputTextToColumns.xlsx`, nhưng bạn có thể đổi tên thành bất cứ tên nào bạn thấy phù hợp.
+- Hãy đảm bảo bạn đặt tên cho tệp có ý nghĩa. Trong trường hợp này, chúng tôi sẽ lưu tệp dưới dạng `outputTextToColumns.xlsx`, nhưng bạn có thể đổi tên thành bất cứ tên nào bạn thấy phù hợp.
 ## Phần kết luận
- Và bạn đã có nó! Bạn vừa học cách chuyển đổi văn bản thành cột bằng Aspose.Cells cho .NET. Đây là một công cụ mạnh mẽ giúp đơn giản hóa việc xử lý dữ liệu, cho phép bạn thực hiện các thao tác từng mất hàng giờ chỉ bằng một vài dòng mã đơn giản. Bây giờ, lần sau khi bạn cần tách tên hoặc văn bản khác, bạn có thể thực hiện dễ dàng. Đừng quên khám phá[Tài liệu của Aspose](https://reference.aspose.com/cells/net/) để có thêm nhiều tính năng và tùy chỉnh nâng cao có thể nâng cao kỹ năng xử lý dữ liệu của bạn!
+Và bạn đã có nó! Bạn vừa học cách chuyển đổi văn bản thành cột bằng Aspose.Cells cho .NET. Đây là một công cụ mạnh mẽ giúp đơn giản hóa việc xử lý dữ liệu, cho phép bạn thực hiện các thao tác từng mất hàng giờ chỉ bằng một vài dòng mã đơn giản. Bây giờ, lần sau khi bạn cần tách tên hoặc văn bản khác, bạn có thể thực hiện dễ dàng. Đừng quên khám phá [Tài liệu của Aspose](https://reference.aspose.com/cells/net/) để có thêm nhiều tính năng và tùy chỉnh nâng cao có thể nâng cao kỹ năng xử lý dữ liệu của bạn!
 ## Câu hỏi thường gặp
 ### Aspose.Cells là gì?
 Aspose.Cells là một thư viện .NET mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi bảng tính Excel một cách hiệu quả mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn từ[Trang dùng thử của Aspose](https://releases.aspose.com/).
+Có! Bạn có thể bắt đầu với bản dùng thử miễn phí có sẵn từ [Trang dùng thử của Aspose](https://releases.aspose.com/).
 ### Tôi có thể tìm thấy hỗ trợ cho Aspose.Cells ở đâu?
- Đối với bất kỳ thắc mắc hoặc vấn đề nào, bạn có thể truy cập[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
+Đối với bất kỳ thắc mắc hoặc vấn đề nào, bạn có thể truy cập [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/cells/9).
 ### Học Aspose.Cells có dễ không?
 Chắc chắn rồi! Với các ví dụ trực quan và tài liệu hướng dẫn chi tiết, ngay cả người mới bắt đầu cũng có thể học nhanh chóng.
 ### Aspose.Cells còn cung cấp những tính năng nào khác?
 Ngoài việc chỉnh sửa văn bản, Aspose.Cells còn hỗ trợ tạo biểu đồ, xác thực dữ liệu, tính toán công thức và nhiều chức năng khác!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

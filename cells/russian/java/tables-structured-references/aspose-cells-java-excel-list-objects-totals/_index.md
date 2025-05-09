@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 Перед использованием Aspose.Cells Java убедитесь, что у вас есть:
 - **Комплект разработчика Java (JDK):** На вашем компьютере должна быть установлена JDK 8 или более поздняя версия.
-- **ИДЕ:** Используйте любую современную IDE, например IntelliJ IDEA или Eclipse.
+- **ИДЕ:** Используйте любую современную среду разработки, например IntelliJ IDEA или Eclipse.
 - **Библиотека Aspose.Cells для Java:** Необходим для доступа к его функциям.
 
 ## Настройка Aspose.Cells для Java
@@ -89,7 +91,7 @@ ListObjectCollection listObjects = sheet.getListObjects();
 **Обзор:** Добавьте новые объекты списка на рабочий лист, указав диапазон данных и включив заголовки.
 
 ```java
-// Добавить объект списка из строки 1, столбца 1 по строку 11, столбца 5 с включенными заголовками
+// Добавить объект списка из строки 1, столбца 1 по строку 11, столбец 5 с включенными заголовками
 listObjects.add(0, 0, 10, 4, true);
 ```
 
@@ -178,6 +180,9 @@ workbook.save(outDir + dataDir);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

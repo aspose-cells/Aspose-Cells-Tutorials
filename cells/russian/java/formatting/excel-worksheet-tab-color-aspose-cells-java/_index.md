@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -130,7 +132,7 @@ workbook.save(outDir + "worksheettabcolor.xls");
 
 ## Соображения производительности
 Чтобы обеспечить оптимальную производительность при использовании Aspose.Cells для Java:
-- **Оптимизируйте использование ресурсов**: Минимизируйте использование памяти, закрывая рабочие книги сразу после выполнения операций.
+- **Оптимизация использования ресурсов**: Минимизируйте использование памяти, закрывая рабочие книги сразу после выполнения операций.
 - **Управление памятью Java**: Будьте внимательны к настройкам JVM и сборке мусора, особенно в крупномасштабных приложениях.
 - **Лучшие практики**: Регулярно обновляйте Aspose.Cells до последней версии для повышения производительности и исправления ошибок.
 
@@ -165,6 +167,9 @@ workbook.save(outDir + "worksheettabcolor.xls");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

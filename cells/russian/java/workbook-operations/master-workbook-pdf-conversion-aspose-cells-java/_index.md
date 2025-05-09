@@ -1,17 +1,19 @@
 ---
 "date": "2025-04-07"
 "description": "Узнайте, как преобразовать рабочие книги Excel в оптимизированные файлы PDF с помощью Aspose.Cells для Java с подробными руководствами по внедрению и расширенными параметрами."
-"title": "Полное руководство по преобразованию рабочих книг в PDF-файлы с использованием Aspose.Cells Java"
+"title": "Полное руководство по конвертации рабочих книг в PDF-файлы с использованием Aspose.Cells Java"
 "url": "/ru/java/workbook-operations/master-workbook-pdf-conversion-aspose-cells-java/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
-# Полное руководство по преобразованию рабочих книг в PDF-файлы с использованием Aspose.Cells Java
+# Полное руководство по конвертации рабочих книг в PDF-файлы с использованием Aspose.Cells Java
 
 ## Введение
 
@@ -194,6 +196,9 @@ class TestPageSavingCallback implements IPageSavingCallback {
 - **Бесплатная пробная версия и временная лицензия:** Изучите возможности бесплатной пробной версии или запросите временную лицензию.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

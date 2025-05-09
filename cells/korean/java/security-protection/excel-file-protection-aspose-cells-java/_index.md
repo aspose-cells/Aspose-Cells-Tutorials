@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 
 ## 필수 조건
 
-따라하려면 다음 사항이 있는지 확인하세요.
+따라오려면 다음 사항이 있는지 확인하세요.
 - **자바용 Aspose.Cells** 라이브러리(버전 25.3 이상).
 - Java 프로그래밍에 대한 기본적인 이해와 종속성 관리를 위한 Maven 또는 Gradle에 대한 익숙함이 필요합니다.
 - IntelliJ IDEA나 Eclipse와 같은 IDE를 사용하여 코드를 작성하고 실행합니다.
@@ -183,6 +185,9 @@ Aspose.Cells가 제공하는 차트 조작이나 동적 데이터 바인딩과 �
 Aspose.Cells를 사용하여 Java 애플리케이션에서 더욱 다양한 가능성을 탐색하고 새로운 가능성을 열어보세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

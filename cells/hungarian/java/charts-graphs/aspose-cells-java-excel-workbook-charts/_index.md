@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Az Excel-fájlok programozott létrehozása és kezelése kihívást jelenthet, 
 **Amit tanulni fogsz:**
 - Az Aspose.Cells beállítása Java-hoz
 - Új munkafüzet létrehozása és munkalapok hozzáadása
-- Táblázatok feltöltése adatokkal programozott módon
+- Táblázatok programozott feltöltése adatokkal
 - Diagramok hozzáadása és konfigurálása a munkafüzetben
 - 3D formázás alkalmazása a vizuális megjelenés fokozása érdekében
 - A végleges Excel fájl mentése
@@ -235,6 +237,9 @@ Az Aspose.Cells használatakor az optimális teljesítmény biztosítása érdek
 - "Diagramok integrálása Java-ban"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

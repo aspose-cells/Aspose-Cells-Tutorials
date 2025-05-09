@@ -1,14 +1,16 @@
 ---
-title: Xoay Văn bản có Hình dạng trong Excel
-linktitle: Xoay Văn bản có Hình dạng trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách xoay văn bản có hình dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước này để có bản trình bày Excel hoàn hảo.
-weight: 12
-url: /vi/net/excel-shape-text-modifications/rotate-text-shape-excel/
+"description": "Tìm hiểu cách xoay văn bản có hình dạng trong Excel bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước này để có bản trình bày Excel hoàn hảo."
+"linktitle": "Xoay Văn bản có Hình dạng trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Xoay Văn bản có Hình dạng trong Excel"
+"url": "/vi/net/excel-shape-text-modifications/rotate-text-shape-excel/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Xoay Văn bản có Hình dạng trong Excel
@@ -18,9 +20,9 @@ Trong thế giới Excel, biểu diễn trực quan cũng quan trọng như chí
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã có mọi thứ cần thiết:
 1. Visual Studio: Đảm bảo bạn đã cài đặt Visual Studio trên máy của mình, vì đó là nơi chúng ta sẽ viết code.
-2.  Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể[tải phiên bản mới nhất tại đây](https://releases.aspose.com/cells/net/) hoặc dùng thử miễn phí với[dùng thử miễn phí](https://releases.aspose.com/).
+2. Aspose.Cells cho .NET: Bạn sẽ cần thư viện Aspose.Cells. Bạn có thể [tải phiên bản mới nhất tại đây](https://releases.aspose.com/cells/net/) hoặc dùng thử miễn phí với [dùng thử miễn phí](https://releases.aspose.com/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với môi trường C# và .NET sẽ rất hữu ích, mặc dù chúng tôi sẽ hướng dẫn bạn từng bước thực hiện.
-4.  Tệp Excel: Một tệp Excel mẫu, chúng ta hãy gọi nó là`sampleRotateTextWithShapeInsideWorksheet.xlsx`, là cần thiết để kiểm tra mã của chúng tôi. Bạn nên đặt tệp này vào một thư mục mà bạn có thể dễ dàng truy cập.
+4. Tệp Excel: Một tệp Excel mẫu, chúng ta hãy gọi nó là `sampleRotateTextWithShapeInsideWorksheet.xlsx`, là cần thiết để kiểm tra mã của chúng tôi. Bạn nên đặt tệp này vào một thư mục mà bạn có thể dễ dàng truy cập.
 Bạn đã chuẩn bị mọi thứ chưa? Tuyệt vời! Hãy cùng bắt đầu phần thú vị nhé.
 ## Nhập gói
 Để bắt đầu, chúng ta cần nhập các gói cần thiết vào dự án của mình. Sau đây là cách thực hiện:
@@ -53,7 +55,7 @@ string sourceDir = "Your Document Directory"; // Thiết lập thư mục tài l
 //Thư mục đầu ra
 string outputDir = "Your Document Directory"; // Thiết lập thư mục đầu ra của bạn
 ```
- Thay thế`"Your Document Directory"` với con đường thực tế nơi bạn`sampleRotateTextWithShapeInsideWorksheet.xlsx` tập tin được đặt ở đâu.
+Thay thế `"Your Document Directory"` với con đường thực tế nơi bạn `sampleRotateTextWithShapeInsideWorksheet.xlsx` tập tin được đặt ở đâu.
 ## Bước 2: Tải tệp Excel mẫu
 Bây giờ, hãy tải tệp Excel mẫu. Điều này rất quan trọng vì chúng ta muốn thao tác dữ liệu hiện có.
 ```csharp
@@ -88,7 +90,7 @@ Aspose.Cells.Drawing.Texts.ShapeTextAlignment shapeTextAlignment = sh.TextBody.T
 //Không xoay văn bản có hình dạng bằng cách đặt RotateTextWithShape thành false.
 shapeTextAlignment.RotateTextWithShape = false;
 ```
- Bằng cách thiết lập`RotateTextWithShape` thành sai, chúng ta đảm bảo rằng văn bản vẫn thẳng đứng và không xoay theo hình dạng, do đó giữ cho mọi thứ gọn gàng và có tổ chức.
+Bằng cách thiết lập `RotateTextWithShape` thành sai, chúng ta đảm bảo rằng văn bản vẫn thẳng đứng và không xoay theo hình dạng, do đó giữ cho mọi thứ gọn gàng và có tổ chức.
 ## Bước 7: Lưu tệp Excel đầu ra
 Cuối cùng, hãy lưu các thay đổi của chúng ta vào một tệp Excel mới. Điều này đảm bảo chúng ta không mất các chỉnh sửa và có đầu ra gọn gàng.
 ```csharp
@@ -97,7 +99,7 @@ wb.Save(outputDir + "outputRotateTextWithShapeInsideWorksheet.xlsx");
 ```
 Và thế là xong! Tệp đầu ra của bạn hiện đã được lưu, bao gồm văn bản trong ô B4 và các điều chỉnh đã thực hiện cho hình dạng.
 ## Bước 8: Thực thi mã
- Trong của bạn`Main` phương pháp, gói tất cả các đoạn mã trên và chạy dự án của bạn. Xem những thay đổi được phản ánh trong tệp đầu ra của bạn!
+Trong của bạn `Main` phương pháp, gói tất cả các đoạn mã trên và chạy dự án của bạn. Xem những thay đổi được phản ánh trong tệp đầu ra của bạn!
 ```csharp
 Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 ```
@@ -105,18 +107,20 @@ Console.WriteLine("RotateTextWithShapeInsideWorksheet executed successfully.");
 Xoay văn bản có hình dạng trong Excel bằng Aspose.Cells cho .NET thoạt đầu có vẻ là một quá trình phức tạp, nhưng khi bạn phân tích nó thì lại khá đơn giản. Bằng cách làm theo các bước đơn giản này, bạn có thể tùy chỉnh bảng tính của mình để trông chuyên nghiệp hơn và hấp dẫn hơn về mặt hình ảnh. Bây giờ, cho dù bạn đang làm điều này cho khách hàng hay các dự án cá nhân của mình, mọi người sẽ đều khen ngợi về chất lượng công việc của bạn!
 ## Câu hỏi thường gặp
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Vâng! Bạn có thể sử dụng[dùng thử miễn phí](https://releases.aspose.com/) để dùng thử thư viện.
+Vâng! Bạn có thể sử dụng [dùng thử miễn phí](https://releases.aspose.com/) để dùng thử thư viện.
 ### Aspose.Cells hỗ trợ những phiên bản Excel nào?
 Aspose.Cells hỗ trợ nhiều định dạng Excel, bao gồm XLS, XLSX, CSV, v.v.
 ### Có thể xoay văn bản có hình dạng trong các phiên bản Excel cũ hơn không?
 Có, chức năng này có thể được áp dụng cho các định dạng cũ hơn được Aspose.Cells hỗ trợ.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Cells ở đâu?
- Bạn có thể khám phá toàn diện[tài liệu](https://reference.aspose.com/cells/net/) để có thêm thông tin chi tiết.
+Bạn có thể khám phá toàn diện [tài liệu](https://reference.aspose.com/cells/net/) để có thêm thông tin chi tiết.
 ### Làm thế nào để tôi nhận được hỗ trợ cho Aspose.Cells?
- Bạn có thể yêu cầu hỗ trợ bằng cách truy cập[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể yêu cầu hỗ trợ bằng cách truy cập [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

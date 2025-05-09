@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@ Kodlamaya başlamadan önce ortamınızı ayarlayalım!
 ## Ön koşullar
 
 Başlamadan önce şunlara sahip olduğunuzdan emin olun:
-- Sisteminizde Java Geliştirme Kiti (JDK) yüklü.
+- Sisteminizde Java Development Kit (JDK) yüklü.
 - IntelliJ IDEA veya Eclipse gibi Entegre Geliştirme Ortamı (IDE).
 - Java programlamanın temel bilgisi.
 
@@ -80,7 +82,7 @@ Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 
 **Açıklama:**
 - `Workbook` sınıfı Excel dosyanızı başlatır ve yükler.
-- Excel dosyanızın yolunu şunu kullanarak belirtin: `dataDir`.
+- Excel dosyanızın yolunu kullanarak belirtin `dataDir`.
 
 ### Erişim Çalışma Sayfası ve Tablosu
 
@@ -161,6 +163,9 @@ Uygulamaya başlamaya hazır mısınız? Dalın [Aspose.Cells belgeleri](https:/
 - [Destek Forumu](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

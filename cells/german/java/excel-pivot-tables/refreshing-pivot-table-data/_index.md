@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aktualisieren von PivotTable-Daten
@@ -90,9 +92,11 @@ Das Aktualisieren von PivotTable-Daten in Aspose.Cells für Java ist ein einfach
    - Ja, Sie können automatische Datenaktualisierungen mit Aspose.Cells und Java-Planungsbibliotheken planen. So halten Sie Ihre Pivot-Tabellen ohne manuelle Eingriffe auf dem neuesten Stand.
 
 Jetzt wissen Sie, wie Sie PivotTable-Daten in Aspose.Cells für Java aktualisieren. Sorgen Sie für präzise Analysen und bleiben Sie bei Ihren datenbasierten Entscheidungen immer einen Schritt voraus.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

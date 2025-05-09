@@ -1,33 +1,35 @@
 ---
-title: Sloučit buňky v pojmenovaném rozsahu v Excelu
-linktitle: Sloučit buňky v pojmenovaném rozsahu v Excelu
-second_title: Aspose.Cells .NET Excel Processing API
-description: V tomto podrobném kurzu se dozvíte, jak sloučit buňky v pojmenovaném rozsahu pomocí Aspose.Cells for .NET. Zjistěte, jak formátovat, upravovat a automatizovat sestavy Excel.
-weight: 11
-url: /cs/net/excel-advanced-named-ranges/merge-cells-in-named-range/
+"description": "tomto podrobném tutoriálu se naučte, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET. Objevte, jak formátovat, stylovat a automatizovat sestavy v Excelu."
+"linktitle": "Sloučení buněk v pojmenované oblasti v Excelu"
+"second_title": "Rozhraní API pro zpracování dat v Excelu Aspose.Cells v .NET"
+"title": "Sloučení buněk v pojmenované oblasti v Excelu"
+"url": "/cs/net/excel-advanced-named-ranges/merge-cells-in-named-range/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sloučit buňky v pojmenovaném rozsahu v Excelu
+# Sloučení buněk v pojmenované oblasti v Excelu
 
 ## Zavedení
 
-Při programové práci se soubory Excelu je jedním z běžných úkolů, se kterými se můžete setkat, slučování buněk v pojmenovaném rozsahu. Ať už automatizujete generování sestav, vytváříte řídicí panely nebo jednoduše spravujete velké datové sady, slučování buněk je základní technikou. V tomto tutoriálu prozkoumáme, jak sloučit buňky v pojmenovaném rozsahu pomocí Aspose.Cells for .NET – výkonné knihovny, která umožňuje vývojářům manipulovat se soubory Excelu, aniž by museli mít nainstalován Microsoft Excel.
+Při programově práci s excelovými soubory je jedním z běžných úkolů, se kterými se můžete setkat, slučování buněk v pojmenované oblasti. Ať už automatizujete generování sestav, vytváříte dashboardy nebo jednoduše spravujete velké datové sady, slučování buněk je nezbytnou technikou. V tomto tutoriálu se podíváme na to, jak sloučit buňky v pojmenované oblasti pomocí Aspose.Cells pro .NET – výkonné knihovny, která umožňuje vývojářům manipulovat s excelovými soubory bez nutnosti instalace Microsoft Excelu.
 
 ## Předpoklady
 
-Než začneme, ujistěte se, že máte připraveno následující:
+Než začneme, ujistěte se, že máte připravené následující:
 
--  Aspose.Cells for .NET: Můžete si jej stáhnout z[Stránka vydání Aspose.Cells](https://releases.aspose.com/cells/net/).
-- .NET Framework nainstalovaný na vašem počítači.
-- Základní porozumění C#: Pomůže vám znalost pojmů, jako jsou třídy, metody a objekty.
+- Aspose.Cells pro .NET: Můžete si ho stáhnout z [Stránka s vydáním Aspose.Cells](https://releases.aspose.com/cells/net/).
+- Na vašem počítači nainstalovaný .NET Framework.
+- Základní znalost jazyka C#: Znalost konceptů, jako jsou třídy, metody a objekty, vám pomůže.
 
-## Importujte balíčky
+## Importovat balíčky
 
-Než se vrhneme na kódování, musíte importovat potřebné jmenné prostory. Tyto jmenné prostory vám umožní přístup k funkcím knihovny Aspose.Cells.
+Než se pustíme do kódování, je potřeba importovat potřebné jmenné prostory. Tyto jmenné prostory vám poskytnou přístup k funkcím knihovny Aspose.Cells.
 
 ```csharp
 using System;
@@ -35,42 +37,42 @@ using System.IO;
 using Aspose.Cells;
 ```
 
-předpoklady a balíčky z cesty, pojďme se přesunout k zábavnější části: kódování!
+Když máme za sebou předpoklady a balíčky, pojďme se přesunout k té zábavné části: programování!
 
-Zde je rozpis toho, jak můžete sloučit buňky v pojmenované oblasti v listu aplikace Excel pomocí Aspose.Cells for .NET.
+Zde je rozpis postupu, jak sloučit buňky v pojmenované oblasti v excelovém listu pomocí Aspose.Cells pro .NET.
 
 ## Krok 1: Vytvořte nový sešit
 
-První věc, kterou potřebujeme, je pracovní sešit. Sešit v podmínkách aplikace Excel je ekvivalentem souboru aplikace Excel. Pojďme si jeden vytvořit.
+První věc, kterou potřebujeme, je sešit. Sešit je v Excelu ekvivalentem excelového souboru. Vytvořme si jeden.
 
 ```csharp
-// Vytvořte nový sešit.
+// Vytvořte instanci nového sešitu.
 Workbook wb1 = new Workbook();
 ```
 
-Inicializací nového sešitu máme nyní prázdný soubor Excel připravený k manipulaci. Je to jako začít s prázdným plátnem!
+Inicializací nového sešitu máme nyní prázdný soubor aplikace Excel připravený k manipulaci. Je to jako začít s prázdným plátnem!
 
-## Krok 2: Otevřete první list
+## Krok 2: Přístup k prvnímu pracovnímu listu
 
-Každý sešit obsahuje pracovní listy a v tomto případě chceme pracovat s tím prvním. Vezmeme to!
+Každý sešit obsahuje pracovní listy a v tomto případě chceme pracovat s prvním z nich. Pojďme se ho chopit!
 
 ```csharp
-// Získejte první pracovní list v sešitu.
+// Získejte první list v sešitu.
 Worksheet worksheet1 = wb1.Worksheets[0];
 ```
 
-Představte si list jako jednotlivé karty v souboru aplikace Excel, kde jsou uložena skutečná data. Ve výchozím nastavení se dostáváme na úplně první kartu.
+Představte si pracovní list jako jednotlivé záložky v souboru aplikace Excel, kde se nacházejí skutečná data. Ve výchozím nastavení přistupujeme k úplně první záložce.
 
-## Krok 3: Vytvořte rozsah buněk
+## Krok 3: Vytvořte oblast buněk
 
-Nyní, když máme náš pracovní list, je čas vytvořit rozsah. Rozsah označuje blok buněk, který může zahrnovat více řádků a sloupců.
+Nyní, když máme pracovní list, je čas vytvořit oblast. Oblast označuje blok buněk, který může zahrnovat více řádků a sloupců.
 
 ```csharp
-//Vytvořte rozsah.
+// Vytvořte rozsah.
 Range mrange = worksheet1.Cells.CreateRange("D6", "I12");
 ```
 
-Zde vybíráme buňky od D6 do I12 – blok, který pokrývá více řádků a sloupců. Brzy tento sortiment sloučíme!
+Zde vybíráme buňky od D6 do I12 – blok, který pokrývá více řádků a sloupců. Tento rozsah brzy sloučíme!
 
 ## Krok 4: Pojmenujte rozsah
 
@@ -81,22 +83,22 @@ Pojmenování rozsahu usnadňuje pozdější odkazování, zejména při práci 
 mrange.Name = "TestRange";
 ```
 
-Pojmenováním tohoto rozsahu „TestRange“ jej můžeme později v kódu rychle načíst, aniž bychom museli znovu zadávat souřadnice buňky.
+Pojmenováním tohoto rozsahu „TestRange“ jej můžeme později v kódu rychle načíst, aniž bychom museli znovu zadávat souřadnice buněk.
 
-## Krok 5: Sloučení rozsahu buněk
+## Krok 5: Sloučení oblasti buněk
 
-Nyní ke kouzlu – sloučení buněk v rozsahu, který jsme právě vytvořili!
+A teď ta magie – sloučení buněk v oblasti, kterou jsme právě vytvořili!
 
 ```csharp
-// Sloučit buňky rozsahu.
+// Sloučit buňky v oblasti.
 mrange.Merge();
 ```
 
-Tento krok sloučí všechny buňky od D6 do I12 do jediné buňky. Ideální pro věci, jako jsou tituly nebo souhrny!
+Tento krok sloučí všechny buňky od D6 do I12 do jedné buňky. Ideální pro věci jako nadpisy nebo shrnutí!
 
-## Krok 6: Načtěte pojmenovaný rozsah
+## Krok 6: Načtení pojmenovaného rozsahu
 
-Jakmile jsou buňky sloučeny, můžeme chtít použít nějaké formátování. Nejprve načteme náš pojmenovaný rozsah.
+Jakmile jsou buňky sloučeny, můžeme je naformátovat. Nejprve si načtěme naši pojmenovanou oblast.
 
 ```csharp
 // Získejte rozsah.
@@ -105,9 +107,9 @@ Range range1 = wb1.Worksheets.GetRangeByName("TestRange");
 
 Načtení rozsahu podle názvu nám umožňuje provádět další operace, jako je přidávání stylů nebo zadávání dat.
 
-## Krok 7: Definujte styl pro sloučené buňky
+## Krok 7: Definování stylu pro sloučené buňky
 
-K čemu je sloučená buňka, když nevypadá vyleštěně? Vytvořme objekt stylu, který zarovná text a použije barvu pozadí.
+K čemu je sloučená buňka, když nevypadá elegantně? Vytvořme stylový objekt pro zarovnání textu a použití barvy pozadí.
 
 ```csharp
 // Definujte objekt stylu.
@@ -120,9 +122,9 @@ style.Pattern = BackgroundType.Solid;
 style.ForegroundColor = System.Drawing.Color.Aqua;
 ```
 
-Zde zarovnáváme text vodorovně i svisle na střed a nastavíme světle modrou (aqua) barvu pozadí. Stylové, že?
+Zde zarovnáváme text vodorovně i svisle na střed a nastavujeme světle modrou (aqua) barvu pozadí. Stylové, že?
 
-## Krok 8: Použijte styl na rozsah
+## Krok 8: Použití stylu na rozsah
 
 Po definování stylu je čas jej aplikovat na sloučený rozsah.
 
@@ -139,53 +141,55 @@ flag.CellShading = true;
 range1.ApplyStyle(style, flag);
 ```
 
- The`StyleFlag` říká Aspose.Cells, které vlastnosti stylu použít – zarovnání, stínování atd. To vám dává podrobnou kontrolu nad tím, jak je styl aplikován.
+Ten/Ta/To `StyleFlag` říká Aspose.Cells, které vlastnosti stylu má použít – zarovnání, stínování atd. To vám dává podrobnou kontrolu nad tím, jak se styl aplikuje.
 
-## Krok 9: Zadejte data do sloučeného rozsahu
+## Krok 9: Vložení dat do sloučeného rozsahu
 
-Co je to formátovaný rozsah bez obsahu? Přidejme nějaký text.
+Co je formátovaný rozsah bez obsahu? Pojďme přidat nějaký text.
 
 ```csharp
-// Zadejte data do rozsahu.
+// Vložte data do rozsahu.
 range1[0, 0].PutValue("Welcome to Aspose APIs.");
 ```
 
-To umístí text "Welcome to Aspose APIs" do první buňky našeho sloučeného rozsahu. Při slučování buňky se tento text rozprostírá přes všechny buňky od D6 do I12.
+Tím se do první buňky sloučeného rozsahu vloží text „Vítejte v Aspose API“. Po sloučení buněk se tento text rozprostře přes všechny buňky od D6 do I12.
 
 ## Krok 10: Uložte soubor Excel
 
 Nakonec uložme sešit jako soubor aplikace Excel.
 
 ```csharp
-// Uložte soubor aplikace Excel.
+// Uložte soubor Excelu.
 wb1.Save(dataDir + "outputMergeCellsInNamedRange.xlsx");
 ```
 
-Zde je sešit uložen pod názvem "outputMergeCellsInNamedRange.xlsx" ve vámi zadaném adresáři.
+Zde je sešit uložen s názvem „outputMergeCellsInNamedRange.xlsx“ do vámi zadaného adresáře.
 
 ## Závěr
 
-A tady to máte! Úspěšně jste sloučili buňky v pojmenovaném rozsahu, použili krásné formátování a dokonce jste vložili některá data – to vše pomocí Aspose.Cells pro .NET. Ať už pracujete na automatizaci sestav, manipulaci s excelovými soubory nebo se jen učíte nové techniky, tento podrobný průvodce by vám měl poskytnout základ, který potřebujete.
+tady to máte! Úspěšně jste sloučili buňky v pojmenované oblasti, použili krásné formátování a dokonce i zadali nějaká data – to vše s Aspose.Cells pro .NET. Ať už pracujete na automatizaci sestav, manipulaci s excelovými soubory nebo se jen učíte nové techniky, tento podrobný průvodce by vám měl poskytnout základ, který potřebujete.
 
-## FAQ
+## Často kladené otázky
 
-### Mohu v Aspose.Cells sloučit více nesouvislých rozsahů?  
-Ne, v Aspose.Cells můžete sloučit pouze sousedící buňky.
+### Mohu sloučit více nesousedících rozsahů v Aspose.Cells?  
+Ne, v Aspose.Cells můžete sloučit pouze souvislé buňky.
 
-### Mohu vrátit operaci sloučení programově?  
- Jakmile jsou buňky sloučeny, můžete je zrušit pomocí`UnMerge()` metoda v Aspose.Cells.
+### Mohu programově vrátit zpět operaci sloučení?  
+Jakmile jsou buňky sloučeny, můžete je rozpojit pomocí `UnMerge()` metoda v Aspose.Cells.
 
-### Odstraní sloučení buněk data v nich?  
-Pokud jsou v buňkách před sloučením nějaká data, zachovají se data z první buňky rozsahu.
+### Odstraní se sloučením buněk data v nich?  
+Pokud se v buňkách před sloučením nacházejí nějaká data, zachovají se data z první buňky rozsahu.
 
-### Mohu použít různé styly na jednotlivé buňky ve sloučeném rozsahu?  
-Ne, sloučený rozsah funguje jako jedna buňka, takže na jednotlivé buňky v ní nemůžete použít různé styly.
+### Mohu na jednotlivé buňky ve sloučeném rozsahu použít různé styly?  
+Ne, sloučený rozsah se chová jako jedna buňka, takže na jednotlivé buňky v něm nelze použít různé styly.
 
-### Jak získám přístup ke sloučené buňce po sloučení?  
-Po sloučení můžete ke sloučené buňce stále přistupovat pomocí souřadnic jejího levého horního rohu.
+### Jak se dostanu ke sloučené buňce po sloučení?  
+Po sloučení máte stále přístup ke sloučené buňce pomocí souřadnic jejího levého horního rohu.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

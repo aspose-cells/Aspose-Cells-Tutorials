@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -225,6 +227,9 @@ Dzięki temu przewodnikowi poznałeś podstawowe techniki manipulacji plikami Ex
 Aby dalej zgłębiać możliwości pakietu Aspose.Cells, rozważ zapoznanie się z zaawansowanymi funkcjami, takimi jak tworzenie wykresów, sprawdzanie poprawności danych i inne.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

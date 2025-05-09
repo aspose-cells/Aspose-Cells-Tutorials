@@ -8,7 +8,9 @@ url: /net/worksheet-security/implement-advanced-protection-settings/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Implement Advanced Protection Settings in Worksheet using Aspose.Cells
@@ -108,6 +110,7 @@ You can visit the [Aspose Forum](https://forum.aspose.com/c/cells/9) for communi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

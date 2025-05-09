@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pivot Tablo Verilerini Yenileme
@@ -90,9 +92,11 @@ Aspose.Cells for Java'da Pivot Tablo verilerini yenilemek, raporlarınızın ve 
    - Evet, Aspose.Cells ve Java zamanlama kütüphanelerini kullanarak otomatik veri yenilemelerini zamanlayabilirsiniz. Bu, Pivot Tablolarınızı manuel müdahale olmadan güncel tutmanızı sağlar.
 
 Artık Aspose.Cells for Java'da Pivot Table verilerini yenileme bilgisine sahipsiniz. Analizlerinizi doğru tutun ve veri odaklı kararlarınızda önde olun.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

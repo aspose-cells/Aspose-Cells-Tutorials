@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ HTML을 사용하여 서식이 풍부한 텍스트를 삽입하여 Excel 스프�
 시작하기 전에 다음 사항이 있는지 확인하세요.
 
 1. **라이브러리 및 종속성**Java 버전 25.3 이상에 Aspose.Cells가 필요합니다.
-2. **환경 설정**: 이 튜토리얼에서는 Maven이나 Gradle과 같은 Java 개발 환경에 대한 기본적인 지식이 있다고 가정합니다.
+2. **환경 설정**이 튜토리얼에서는 Maven이나 Gradle과 같은 Java 개발 환경에 대한 기본적인 지식이 있다고 가정합니다.
 3. **지식 전제 조건**: Java 프로그래밍과 XML 기반 빌드 도구(Maven/Gradle)에 대한 기본적인 이해가 권장됩니다.
 
 ## Java용 Aspose.Cells 설정
@@ -106,14 +108,14 @@ workbook.save("AHTMLRText_out.xlsx");
 Excel에 HTML이 풍부한 텍스트를 추가하는 것이 유익한 실제 사용 사례는 다음과 같습니다.
 
 1. **재무 보고서**: 주요 재무 지표를 굵고 색상이 있는 글꼴로 서식을 지정하여 명확성과 시각적 매력을 높입니다.
-2. **대시보드**HTML 스타일을 사용하여 더 나은 데이터 시각화를 구현하고, 대시보드를 보다 상호 작용적이고 유익하게 만듭니다.
+2. **대시보드**: HTML 스타일을 사용하여 더 나은 데이터 시각화를 구현하고, 대시보드를 보다 상호 작용적이고 유익하게 만듭니다.
 3. **마케팅 자료**: Excel에서 바로 맞춤형 마케팅 보고서를 만들고, 스타일이 적용된 텍스트를 통해 브랜드 일관성을 보장합니다.
 
 ## 성능 고려 사항
 
 Aspose.Cells를 사용할 때:
 - **리소스 사용 최적화**: 성능 지연을 방지하려면 대용량 통합 문서에서 HTML 스타일의 셀 수를 제한하세요.
-- **자바 메모리 관리**: Java에서 효율적인 메모리 관리 기법을 사용하여 대용량 데이터 세트를 효과적으로 처리합니다. 여기에는 사용 후 통합 문서 인스턴스를 즉시 닫는 것이 포함됩니다.
+- **자바 메모리 관리**Java에서 효율적인 메모리 관리 기법을 사용하여 대용량 데이터 세트를 효과적으로 처리합니다. 여기에는 사용 후 통합 문서 인스턴스를 즉시 닫는 것이 포함됩니다.
 
 ## 결론
 
@@ -150,6 +152,9 @@ Aspose.Cells for Java의 강력한 기능으로 Excel 데이터 처리 및 프�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,12 +6,14 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Cells 시각적 튜토리얼
 스프레드시트 조작을 마스터하고 싶은 개발자와 마니아를 위해 설계된 Aspose.Cells 비주얼 튜토리얼을 살펴보세요. 각 튜토리얼은 스프레드시트 생성 및 서식 지정과 같은 기본 작업부터 데이터 시각화 및 수식 조작과 같은 고급 기능까지 Aspose.Cells 라이브러리의 필수 기능을 다룹니다. 초보자부터 숙련된 개발자까지, 저희 비주얼 가이드는 실용적인 예제와 함께 포괄적이고 따라 하기 쉬운 지침을 제공합니다.
 
-저희 튜토리얼은 중첩된 페이지로 구성되어 체계적인 학습 방식을 제공합니다. 사용자는 차트 작업, 워크시트 관리, 파일 변환 등 다양한 주제를 탐색할 수 있습니다. 각 섹션은 점진적으로 실력을 향상시키도록 구성되어 새롭게 습득한 지식을 프로젝트에 효과적으로 적용할 수 있도록 도와줍니다. Aspose.Cells의 잠재력을 최대한 발휘할 수 있도록 이 교육 여정에 함께하세요!
+저희 튜토리얼은 중첩된 페이지로 구성되어 체계적인 학습 방식을 제공합니다. 사용자는 차트 작업, 워크시트 관리, 파일 변환 등 다양한 주제를 탐색할 수 있습니다. 각 섹션은 점진적으로 실력을 향상시키도록 구성되어 새롭게 습득한 지식을 프로젝트에 효과적으로 적용할 수 있도록 도와줍니다. 이 교육 여정에 참여하여 Aspose.Cells의 잠재력을 최대한 활용하세요!
 
 ## [.NET용 Aspose.Cells 시각적 튜토리얼](./net/)
 
@@ -24,46 +26,75 @@ Aspose.Cells for .NET Visual Tutorials는 .NET 애플리케이션에서 Excel �
 Aspose.Cells를 사용하여 .NET 애플리케이션에서 차트를 만들고, 사용자 지정하고, 관리하는 방법을 알아보세요. 쉽고 효율적인 예제를 통해 다양한 차트 유형을 살펴보세요.
 
 {{< tutorial-card link="./net/charts/applying-3d-format/" title="Excel에서 3D 차트 만들기 및 서식 지정" imgSrc="./net/charts/applying-3d-format/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-chart-size-and-position/" title="Excel에서 차트 크기 조정 및 위치 변경" imgSrc="./net/charts/change-chart-size-and-position/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/change-tick-label-direction/" title="Excel에서 차트 눈금 레이블 방향 변경" imgSrc="./net/charts/change-tick-label-direction/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/create-chart-pdf-with-desired-page-size/" title="지정된 페이지 크기로 Excel 차트에서 PDF 만들기" imgSrc="./net/charts/create-chart-pdf-with-desired-page-size/images/thumb.png" >}}
-{{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Aspose.Cells에서 데이터 마커를 사용하여 선형 차트 만들기" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
+{{< tutorial-card link="./net/charts/create-line-with-data-marker-chart/" title="Aspose.Cells에서 데이터 마커가 있는 선형 차트 만들기" imgSrc="./net/charts/create-line-with-data-marker-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/" title="차트 포인트에서 X 및 Y 값 유형 찾기" imgSrc="./net/charts/find-type-of-x-and-y-values-of-points-in-chart-series/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/get-chart-sub-title-for-ods-file/" title="Aspose.Cells를 사용하여 ODS 파일에서 차트 자막 가져오기" imgSrc="./net/charts/get-chart-sub-title-for-ods-file/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/set-shape-type-of-data-labels-of-chart/" title="Excel에서 차트 데이터 레이블 모양 수정" imgSrc="./net/charts/set-shape-type-of-data-labels-of-chart/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/charts/setting-category-data/" title="Aspose.Cells for .NET을 사용하여 Excel 차트 만들기" imgSrc="./net/charts/setting-category-data/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.Cells for .NET을 사용하여 객체 그리기](./net/drawing-objects/)
 Aspose.Cells를 사용하여 .NET 애플리케이션에서 차트를 만들고, 사용자 지정하고, 관리하는 방법을 알아보세요. 쉽고 효율적인 예제를 통해 다양한 차트 유형을 살펴보세요.
 
 {{< tutorial-card link="./net/drawing-objects/access-and-modify-label-of-ole-object/" title="Aspose.Cells를 사용하여 Excel에서 Ole 개체 레이블 수정" imgSrc="./net/drawing-objects/access-and-modify-label-of-ole-object/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/adding-pictures/" title="Aspose.Cells를 사용하여 Excel 파일 만들기 및 저장" imgSrc="./net/drawing-objects/adding-pictures/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/" title="Aspose.Cells를 사용하여 Excel에서 도형 텍스트 정렬 수정" imgSrc="./net/drawing-objects/rotate-text-with-shape-inside-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/send-shape-front-or-back-in-worksheet/" title="Aspose.Cells를 사용하여 Excel에서 도형의 Z 순서 조작" imgSrc="./net/drawing-objects/send-shape-front-or-back-in-worksheet/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/" title="극동 및 라틴 글꼴을 사용하여 Excel 통합 문서 만들기" imgSrc="./net/drawing-objects/specify-far-east-and-latin-name-of-font-in-text-options-of-shape/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/drawing-objects/tile-picture-as-texture-inside-shape/" title="Aspose.Cells를 사용하여 Excel에서 타일링 텍스처 채우기" imgSrc="./net/drawing-objects/tile-picture-as-texture-inside-shape/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET용 Aspose.Cells의 서식 지정 – 스타일, 색상 등](./net/formatting/)
 전문적인 Excel 보고서를 위해 스타일, 색상, 글꼴, 테두리 등 Aspose.Cells for .NET에서 서식을 적용하는 방법을 알아보세요.
 
 {{< tutorial-card link="./net/formatting/adding-borders-to-range/" title="Aspose.Cells를 사용하여 Excel 범위에 테두리 추가" imgSrc="./net/formatting/adding-borders-to-range/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/colors-and-background/" title="Aspose.Cells를 사용하여 Excel에 색상 및 배경 적용" imgSrc="./net/formatting/colors-and-background/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/merging-cells/" title="Aspose.Cells for .NET을 사용하여 Excel에서 셀 병합" imgSrc="./net/formatting/merging-cells/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-color/" title="Aspose.Cells를 사용하여 Excel 셀의 글꼴 색상 설정" imgSrc="./net/formatting/setting-font-color/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-name/" title="Aspose.Cells를 사용하여 Excel에서 글꼴 이름 설정" imgSrc="./net/formatting/setting-font-name/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/setting-font-size/" title="Aspose.Cells를 사용하여 Excel에서 글꼴 크기 설정" imgSrc="./net/formatting/setting-font-size/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/text-alignment-horizontal/" title="Aspose.Cells를 사용한 Excel의 가로 텍스트 정렬" imgSrc="./net/formatting/text-alignment-horizontal/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/formatting/wrapping-text/" title="Aspose.Cells를 사용하여 Excel 셀의 텍스트 줄바꿈" imgSrc="./net/formatting/wrapping-text/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [.NET용 Aspose.Cells의 피벗 테이블](./net/pivot-tables/)
 Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식을 지정하고, 관리하는 방법을 알아보세요. C#에서 동적 보고서를 생성하고 데이터를 손쉽게 분석해 보세요.
 
 {{< tutorial-card link="./net/pivot-tables/create-pivot-table/" title="Aspose.Cells를 사용하여 Excel에서 피벗 테이블 만들기" imgSrc="./net/pivot-tables/create-pivot-table/images/thumb.png" >}}
+
 {{< tutorial-card link="./net/pivot-tables/pivot-table-save-in-ods/" title="Aspose.Cells에서 피벗 테이블을 ODS로 저장" imgSrc="./net/pivot-tables/pivot-table-save-in-ods/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 다음은 유용한 자료에 대한 링크입니다.
@@ -181,8 +212,10 @@ Aspose.Cells for .NET에서 피벗 테이블을 만들고, 서식을 지정하�
 
 
 ## Java 튜토리얼을 위한 Aspose.Cells
+
 {{% alert color="primary" %}}
 Aspose.Cells for Java 튜토리얼을 살펴보세요. 코드 예제를 통해 Excel 파일 조작을 마스터하세요. 오늘 바로 Java 실력을 향상시켜 보세요!
+
 {{% /alert %}}
 
 다음은 유용한 자료에 대한 링크입니다.
@@ -219,6 +252,7 @@ Aspose.Cells for Java 튜토리얼을 살펴보세요. 코드 예제를 통해 E
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

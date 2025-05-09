@@ -1,14 +1,16 @@
 ---
-title: Komórka obrazu odniesienia w programie Excel
-linktitle: Komórka obrazu odniesienia w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak odwołać się do komórki obrazu w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz swoje arkusze kalkulacyjne.
-weight: 15
-url: /pl/net/excel-ole-picture-objects/reference-picture-cell-excel/
+"description": "Dowiedz się, jak odwołać się do komórki obrazu w programie Excel za pomocą Aspose.Cells dla .NET dzięki temu samouczkowi krok po kroku. Ulepsz swoje arkusze kalkulacyjne."
+"linktitle": "Komórka obrazu odniesienia w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Komórka obrazu odniesienia w programie Excel"
+"url": "/pl/net/excel-ole-picture-objects/reference-picture-cell-excel/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Komórka obrazu odniesienia w programie Excel
@@ -18,8 +20,8 @@ Jeśli pracujesz z arkuszami kalkulacyjnymi programu Excel, prawdopodobnie spotk
 ## Wymagania wstępne
 Zanim zaczniemy, upewnijmy się, że masz wszystko, czego potrzebujesz:
 - Visual Studio: Upewnij się, że na Twoim komputerze jest zainstalowana zgodna wersja programu Visual Studio, aby móc obsłużyć projekt .NET.
-- Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze jej nie pobrałeś, przejdź do[Strona pobierania Aspose](https://releases.aspose.com/cells/net/) i pobierz najnowszą wersję.
-- Podstawowa wiedza o C#: Ten przewodnik zakłada, że znasz koncepcje programowania C# i .NET. Jeśli jesteś nowy, nie martw się; wyjaśnię każdy krok szczegółowo.
+- Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Jeśli jeszcze jej nie pobrałeś, przejdź do [Strona pobierania Aspose](https://releases.aspose.com/cells/net/) i pobierz najnowszą wersję.
+- Podstawowa wiedza o C#: Ten przewodnik zakłada, że znasz koncepcje programowania w C# i .NET. Jeśli jesteś nowy, nie martw się; wyjaśnię każdy krok szczegółowo.
 Teraz gdy wszystko jest już gotowe, możemy zaimportować niezbędne pakiety!
 ## Importuj pakiety
 Aby wykorzystać moc Aspose.Cells, musisz zaimportować odpowiednie przestrzenie nazw do swojego projektu. Oto jak to zrobić:
@@ -44,7 +46,7 @@ Cells cells = workbook.Worksheets[0].Cells;
 ```
  
 - Określ ścieżkę, pod którą chcesz zapisać plik Excela.
--  Utwórz nowy`Workbook` instancja, która reprezentuje Twój plik Excel.
+- Utwórz nowy `Workbook` instancja, która reprezentuje Twój plik Excel.
 - Przejdź do komórek w pierwszym arkuszu, w których wstawimy dane i zdjęcie.
 ## Krok 2: Dodaj wartości ciągu do komórek
 Teraz dodajmy do komórek kilka wartości ciągów znaków. 
@@ -54,7 +56,7 @@ cells["A1"].PutValue("A1");
 cells["C10"].PutValue("C10");
 ```
  
--  Korzystanie z`PutValue` metodą wypełniamy komórkę A1 ciągiem „A1”, a komórkę C10 ciągiem „C10”. To tylko podstawowy przykład, ale pomoże nam pokazać, jak nasz obrazek odwołuje się do tych obszarów.
+- Korzystanie z `PutValue` metodą wypełniamy komórkę A1 ciągiem „A1”, a komórkę C10 ciągiem „C10”. To tylko podstawowy przykład, ale pomoże nam pokazać, jak nasz obrazek odwołuje się do tych obszarów.
 ## Krok 3: Dodaj pusty obraz
 Następnie dodamy do naszego arkusza kalkulacyjnego kształt obrazka:
 ```csharp
@@ -86,7 +88,7 @@ Na koniec zapiszemy nasz skoroszyt w wyznaczonym katalogu:
 workbook.Save(dataDir + "output.out.xls");
 ```
 
--  Ten`Save`Metoda pobiera ścieżkę, w której plik Excel będzie przechowywany, wraz z nazwą pliku. Po wykonaniu tej czynności znajdziesz nowo utworzony plik Excel w określonym folderze.
+- Ten `Save` Metoda pobiera ścieżkę, w której plik Excel będzie przechowywany, wraz z nazwą pliku. Po wykonaniu tej czynności znajdziesz nowo utworzony plik Excel w określonym folderze.
 ## Krok 7: Obsługa błędów
 Podsumowując, nie zapomnij o dodaniu obsługi błędów, dzięki czemu będziesz w stanie wychwycić wszelkie wyjątki, które mogą wystąpić podczas uruchamiania kodu:
 ```csharp
@@ -98,21 +100,23 @@ catch (Exception ex)
 
 - Spowoduje to wyświetlenie wszystkich komunikatów o błędach na konsoli, co pomoże Ci debugować, jeśli coś nie działa zgodnie z oczekiwaniami. Pamiętaj, nawet najlepsi programiści czasami mają problemy!
 ## Wniosek
-I masz! Udało Ci się odwołać do obrazu w komórce Excela za pomocą Aspose.Cells dla .NET. Ta prosta, ale potężna technika może ulepszyć sposób prezentacji danych, sprawiając, że arkusze kalkulacyjne są nie tylko bardziej informacyjne, ale również bardziej atrakcyjne wizualnie. Niezależnie od tego, czy tworzysz raporty, pulpity nawigacyjne czy prezentacje danych, możliwość dołączania obrazów powiązanych z danymi komórki jest nieoceniona.
+masz! Udało Ci się odwołać do obrazu w komórce Excela za pomocą Aspose.Cells dla .NET. Ta prosta, ale potężna technika może ulepszyć sposób prezentacji danych, sprawiając, że arkusze kalkulacyjne są nie tylko bardziej informacyjne, ale również bardziej atrakcyjne wizualnie. Niezależnie od tego, czy tworzysz raporty, pulpity nawigacyjne czy prezentacje danych, możliwość dołączania obrazów powiązanych z danymi komórki jest nieoceniona.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
 Aspose.Cells to biblioteka .NET służąca do zarządzania plikami Excela, umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów Excela bez konieczności instalowania programu Microsoft Excel.
 ### Czy mogę używać Aspose.Cells z Xamarin?
 Tak, Aspose.Cells można używać w projektach Xamarin, co pozwala na tworzenie narzędzi umożliwiających zarządzanie plikami Excel na wielu platformach.
 ### Czy jest dostępna bezpłatna wersja próbna?
- Oczywiście! Możesz uzyskać bezpłatną wersję próbną od[Strona bezpłatnej wersji próbnej Aspose](https://releases.aspose.com/).
+Oczywiście! Możesz uzyskać bezpłatną wersję próbną od [Strona bezpłatnej wersji próbnej Aspose](https://releases.aspose.com/).
 ### W jakich formatach mogę zapisać pliki Excela?
 Aspose.Cells obsługuje różne formaty, w tym XLSX, XLS, CSV, PDF i inne.
 ### Gdzie mogę szukać pomocy, jeśli napotkam problemy?
- Możesz uzyskać wsparcie poprzez[Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9), gdzie społeczność i pracownicy Aspose mogą udzielić Ci pomocy.
+Możesz uzyskać wsparcie poprzez [Forum wsparcia Aspose](https://forum.aspose.com/c/cells/9), gdzie społeczność i pracownicy Aspose mogą udzielić Ci pomocy.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

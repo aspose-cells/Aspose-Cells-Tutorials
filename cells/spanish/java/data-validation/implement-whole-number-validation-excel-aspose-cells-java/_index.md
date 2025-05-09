@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -86,7 +88,7 @@ WorksheetCollection worksheets = workbook.getWorksheets();
 A continuación, acceda a la colección de validación de la hoja de trabajo para aplicar las validaciones de datos.
 
 #### Pasos:
-1. **Acceda a la primera hoja de trabajo:** Recupere la primera hoja de trabajo de su libro de trabajo.
+1. **Accede a la primera hoja de trabajo:** Recupere la primera hoja de trabajo de su libro de trabajo.
 2. **Obtener colección de validaciones:** Obtener el `ValidationCollection` de la hoja de trabajo.
 
 ```java
@@ -187,6 +189,9 @@ Los próximos pasos podrían incluir la exploración de otros tipos de validaci�
 - **Apoyo:** https://forum.aspose.com/c/cells/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

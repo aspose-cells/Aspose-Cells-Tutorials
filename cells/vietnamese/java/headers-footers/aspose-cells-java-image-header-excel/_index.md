@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ Bước này ghi sổ làm việc đã cấu hình vào một thư mục đượ
 Tham khảo tài liệu Aspose.Cells trên [tối ưu hóa bộ nhớ](https://reference.aspose.com/cells/java/) cho các kỹ thuật dành riêng cho Java.
 
 ## Phần kết luận
-Bạn đã học cách thêm tiêu đề hình ảnh vào Excel bằng Aspose.Cells for Java, giúp tăng cường giao diện chuyên nghiệp cho bảng tính của bạn. Khám phá thêm các tính năng như xác thực dữ liệu hoặc lập biểu đồ tiếp theo.
+Bạn đã học cách thêm tiêu đề hình ảnh trong Excel bằng Aspose.Cells for Java, giúp tăng cường giao diện chuyên nghiệp cho bảng tính của bạn. Khám phá thêm các tính năng như xác thực dữ liệu hoặc lập biểu đồ tiếp theo.
 
 Để đọc thêm và hỗ trợ, hãy truy cập [Tài liệu của Aspose](https://reference.aspose.com/cells/java/).
 
@@ -163,6 +165,9 @@ Bạn đã học cách thêm tiêu đề hình ảnh vào Excel bằng Aspose.Ce
 - Diễn đàn hỗ trợ: [Cộng đồng Aspose Cells](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

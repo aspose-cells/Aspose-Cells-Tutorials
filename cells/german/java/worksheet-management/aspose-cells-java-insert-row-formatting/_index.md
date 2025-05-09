@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -158,6 +160,9 @@ In diesem Tutorial haben wir gezeigt, wie Sie mit Aspose.Cells Java eine formati
 Sind Sie bereit, diese Lösung in Ihre Java-Anwendung zu implementieren? Probieren Sie es aus und sehen Sie, wie Aspose.Cells Ihre Excel-Dateimanipulationen optimieren kann!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

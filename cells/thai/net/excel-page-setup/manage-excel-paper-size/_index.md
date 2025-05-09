@@ -1,14 +1,16 @@
 ---
-title: การจัดการขนาดกระดาษ Excel
-linktitle: การจัดการขนาดกระดาษ Excel
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้การจัดการขนาดกระดาษ Excel โดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ให้คำแนะนำแบบทีละขั้นตอนและตัวอย่างสำหรับการผสานรวมที่ราบรื่น
-weight: 70
-url: /th/net/excel-page-setup/manage-excel-paper-size/
+"description": "เรียนรู้การจัดการขนาดกระดาษ Excel โดยใช้ Aspose.Cells สำหรับ .NET คู่มือนี้ให้คำแนะนำแบบทีละขั้นตอนและตัวอย่างสำหรับการผสานรวมที่ราบรื่น"
+"linktitle": "การจัดการขนาดกระดาษ Excel"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "การจัดการขนาดกระดาษ Excel"
+"url": "/th/net/excel-page-setup/manage-excel-paper-size/"
+"weight": 70
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การจัดการขนาดกระดาษ Excel
@@ -23,7 +25,7 @@ url: /th/net/excel-page-setup/manage-excel-paper-size/
 
 1. ความเข้าใจพื้นฐานเกี่ยวกับ C#: ความคุ้นเคยกับการเขียนโปรแกรม C# จะช่วยให้กระบวนการบูรณาการ Aspose.Cells เข้ากับโปรเจ็กต์ของคุณง่ายขึ้นอย่างมาก
 2. ติดตั้ง Visual Studio: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Visual Studio บนเครื่องของคุณเพื่อเขียนและดำเนินการโค้ด C#
-3. Aspose.Cells สำหรับไลบรารี .NET: คุณจะต้องได้รับ Aspose.Cells คุณสามารถ[ดาวน์โหลดได้ที่นี่](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells สำหรับไลบรารี .NET: คุณจะต้องได้รับ Aspose.Cells คุณสามารถ [ดาวน์โหลดได้ที่นี่](https://releases-aspose.com/cells/net/).
 4. ตัวจัดการแพ็กเกจ NuGet: ตรวจสอบให้แน่ใจว่าคุณสามารถเข้าถึงตัวจัดการแพ็กเกจ NuGet ได้ เนื่องจากคุณสามารถติดตั้ง Aspose.Cells โดยใช้ตัวจัดการนี้ได้อย่างง่ายดาย
 
 เมื่อคำนึงถึงข้อกำหนดเบื้องต้นเหล่านี้แล้ว มาเริ่มกันเลย!
@@ -64,17 +66,17 @@ using System;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณที่คุณต้องการบันทึกไฟล์ ตัวอย่างเช่น อาจเป็นบางอย่างเช่น`C:\Documents\`.
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางจริงบนระบบของคุณที่คุณต้องการบันทึกไฟล์ ตัวอย่างเช่น อาจเป็นบางอย่างเช่น `C:\Documents\`-
 
 ## ขั้นตอนที่ 2: สร้างวัตถุเวิร์กบุ๊ก
 
- ต่อไปคุณจะสร้างตัวอย่าง`Workbook` วัตถุซึ่งแสดงไฟล์ Excel ของคุณ ดังต่อไปนี้:
+ต่อไปคุณจะสร้างตัวอย่าง `Workbook` วัตถุซึ่งแสดงไฟล์ Excel ของคุณ ดังต่อไปนี้:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
- บรรทัดนี้จะสร้างเวิร์กบุ๊กใหม่ในหน่วยความจำ หากคุณกำลังทำงานกับไฟล์ที่มีอยู่ คุณสามารถส่งเส้นทางไฟล์ไปยัง`Workbook` ผู้สร้าง
+บรรทัดนี้จะสร้างเวิร์กบุ๊กใหม่ในหน่วยความจำ หากคุณกำลังทำงานกับไฟล์ที่มีอยู่ คุณสามารถส่งเส้นทางไฟล์ไปยัง `Workbook` ผู้สร้าง
 
 ## ขั้นตอนที่ 3: เข้าถึงแผ่นงานแรก
 
@@ -94,7 +96,7 @@ Worksheet worksheet = workbook.Worksheets[0];
 worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 ```
 
- บรรทัดนี้จะกำหนดขนาดกระดาษสำหรับเวิร์กชีตที่ระบุเป็น A4 คุณสามารถสลับเปลี่ยนได้อย่างง่ายดาย`PaperA4` พร้อมกระดาษขนาดอื่น ๆ ให้เลือก`PaperSizeType` การนับ เช่น`PaperLetter` หรือ`PaperA3`.
+บรรทัดนี้จะกำหนดขนาดกระดาษสำหรับเวิร์กชีตที่ระบุเป็น A4 คุณสามารถสลับเปลี่ยนได้อย่างง่ายดาย `PaperA4` พร้อมกระดาษขนาดอื่น ๆ ให้เลือก `PaperSizeType` การนับ เช่น `PaperLetter` หรือ `PaperA3`-
 
 ## ขั้นตอนที่ 5: บันทึกสมุดงาน
 
@@ -104,7 +106,7 @@ worksheet.PageSetup.PaperSize = PaperSizeType.PaperA4;
 workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ```
 
- บรรทัดนี้จะบันทึกเวิร์กบุ๊กที่คุณแก้ไขลงในไดเร็กทอรีที่ระบุ ชื่อของไฟล์เอาต์พุตที่นี่คือ`ManagePaperSize_out.xls`แต่คุณก็สามารถกำหนดเองได้ตามความต้องการ
+บรรทัดนี้จะบันทึกเวิร์กบุ๊กที่คุณแก้ไขลงในไดเร็กทอรีที่ระบุ ชื่อของไฟล์เอาต์พุตที่นี่คือ `ManagePaperSize_out.xls`แต่คุณก็สามารถกำหนดเองได้ตามความต้องการ
 
 ## บทสรุป
 
@@ -113,22 +115,24 @@ workbook.Save(dataDir + "ManagePaperSize_out.xls");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถตั้งค่าขนาดกระดาษที่แตกต่างกันได้อะไรบ้างโดยใช้ Aspose.Cells
- Aspose.Cells รองรับขนาดกระดาษหลากหลาย เช่น A3, A4, A5, Letter และอื่นๆ คุณสามารถสำรวจขนาดกระดาษต่างๆ ได้`PaperSizeType` การแจงนับในเอกสาร
+Aspose.Cells รองรับขนาดกระดาษหลากหลาย เช่น A3, A4, A5, Letter และอื่นๆ คุณสามารถสำรวจขนาดกระดาษต่างๆ ได้ `PaperSizeType` การแจงนับในเอกสาร
 
 ### ฉันสามารถตั้งค่าขนาดกระดาษสำหรับเวิร์กชีตหลายแผ่นพร้อมกันได้ไหม
 ใช่ คุณสามารถเข้าถึงเวิร์กชีตหลายแผ่นได้แบบวนซ้ำและใช้การตั้งค่าขนาดกระดาษเดียวกันกับแต่ละแผ่นได้
 
 ### การใช้ Aspose.Cells ฟรีหรือไม่?
- Aspose.Cells เป็นไลบรารีเชิงพาณิชย์ อย่างไรก็ตาม ไลบรารีนี้ให้ทดลองใช้งานฟรี คุณสามารถร้องขอได้[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อประเมินคุณสมบัติทั้งหมดของมัน
+Aspose.Cells เป็นไลบรารีเชิงพาณิชย์ อย่างไรก็ตาม ไลบรารีนี้ให้ทดลองใช้งานฟรี คุณสามารถร้องขอได้ [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อประเมินคุณสมบัติทั้งหมดของมัน
 
 ### ฉันจะจัดการข้อยกเว้นอย่างไรเมื่อทำงานกับ Aspose.Cells?
 คุณสามารถห่อโค้ดของคุณในบล็อก try-catch เพื่อจัดการข้อยกเว้นใดๆ ที่อาจเกิดขึ้นในระหว่างการจัดการเวิร์กบุ๊ก
 
 ### ฉันสามารถค้นหาทรัพยากรและการสนับสนุนเพิ่มเติมสำหรับ Aspose.Cells ได้จากที่ใด
- คุณสามารถหาข้อมูลเพิ่มเติมได้ใน[เอกสารประกอบ](https://reference.aspose.com/cells/net/) หรือเยี่ยมชม[ฟอรั่มสนับสนุน](https://forum.aspose.com/c/cells/9).
+คุณสามารถหาข้อมูลเพิ่มเติมได้ใน [เอกสารประกอบ](https://reference.aspose.com/cells/net/) หรือเยี่ยมชม [ฟอรั่มสนับสนุน](https://forum-aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@ Este tutorial le guía en el uso de Aspose.Cells para Java para combinar y separ
 **Lo que aprenderás:**
 - Configurar su entorno para utilizar Aspose.Cells para Java.
 - Técnicas para fusionar un rango de celdas en una celda unificada.
-- Métodos para desunir celdas previamente fusionadas.
+- Métodos para desvincular celdas previamente fusionadas.
 - Ejemplos prácticos y casos de uso del mundo real.
 - Consejos de optimización del rendimiento específicos de Aspose.Cells para Java.
 
@@ -200,6 +202,9 @@ En este tutorial, aprendiste a combinar y separar celdas con Aspose.Cells para J
 - **Soporte y foros:** Interactúe con la comunidad en el [Foro de Aspose](https://forum.aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

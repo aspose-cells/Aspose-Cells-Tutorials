@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -174,7 +176,7 @@ point.getArea().setForegroundColor(Color.getCyan());
 
 1. **Informes financieros**:Mejore los gráficos de ganancias trimestrales con títulos y colores distintos para mayor claridad.
 2. **Paneles de ventas**: Utilice etiquetas de eje dinámico para reflejar diferentes categorías de productos o regiones.
-3. **Visualización de datos de atención médica**:Codifique por colores los puntos de datos de pacientes en estudios de investigación médica para un análisis rápido.
+3. **Visualización de datos de atención médica**Codifique por colores los puntos de datos de pacientes en estudios de investigación médica para un análisis rápido.
 
 ## Consideraciones de rendimiento (H2)
 
@@ -212,6 +214,9 @@ En este tutorial, aprendiste a usar Aspose.Cells para Java para mejorar los grá
 - **Apoyo**: [Foro de soporte de Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

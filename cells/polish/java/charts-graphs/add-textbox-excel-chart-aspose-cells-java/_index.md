@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -204,6 +206,9 @@ Przeszliśmy przez dodawanie pola tekstowego do wykresu Excela przy użyciu Aspo
 Postępując zgodnie z tym przewodnikiem, możesz skutecznie zintegrować Aspose.Cells ze swoimi projektami Java, aby ulepszyć funkcjonalności wykresów Excela za pomocą niestandardowych adnotacji tekstowych. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

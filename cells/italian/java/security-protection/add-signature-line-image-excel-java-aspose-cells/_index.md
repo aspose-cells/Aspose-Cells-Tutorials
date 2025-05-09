@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -18,7 +20,7 @@ Gestire le firme digitali nei documenti è fondamentale, soprattutto quando si g
 
 **Cosa imparerai:**
 - Impostazione di una nuova cartella di lavoro e configurazione
-- Inserimento di immagini nei fogli di lavoro di Excel
+- Inserimento di immagini nei fogli di lavoro Excel
 - Aggiunta di linee di firma personalizzabili alle immagini
 - Procedure consigliate per l'installazione e l'utilizzo di Aspose.Cells
 
@@ -53,7 +55,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Fasi di acquisizione della licenza
 Aspose.Cells per Java offre una prova gratuita che fornisce accesso completo alle funzionalità dell'API, consentendo di testare le funzionalità prima dell'acquisto. Per un utilizzo prolungato, si consiglia di acquistare una licenza temporanea o permanente:
 - **Prova gratuita:** Scarica da [Rilasci di Aspose](https://releases.aspose.com/cells/java/).
-- **Licenza temporanea:** Ottenere tramite [Acquista Aspose](https://purchase.aspose.com/temporary-license/) a fini di valutazione.
+- **Licenza temporanea:** Ottenere tramite [Acquista Aspose](https://purchase.aspose.com/temporary-license/) fini di valutazione.
 - **Acquista licenza:** Visita [Acquista Aspose Cells](https://purchase.aspose.com/buy) per una licenza permanente.
 
 Dopo aver configurato la libreria e attivato la licenza, passiamo alla guida all'implementazione, in cui analizzeremo passo dopo passo ogni funzionalità.
@@ -89,7 +91,7 @@ Workbook workbook = new Workbook();
 ```java
 var sheet = workbook.getWorksheets().get(0);
 ```
-*Spiegazione:* fogli di lavoro sono indicizzati a partire da zero, quindi `get(0)` accede al primo foglio di lavoro.
+*Spiegazione:* I fogli di lavoro sono indicizzati a partire da zero, quindi `get(0)` accede al primo foglio di lavoro.
 
 **Passaggio 3: aggiungere l'immagine al foglio di lavoro**
 ```java
@@ -159,7 +161,7 @@ Ti invitiamo a provare a implementare queste soluzioni e a scoprire come possono
 
 ## Sezione FAQ
 1. **Come posso impostare una licenza temporanea per i test?**
-   - Visita [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/) seguire le istruzioni fornite.
+   - Visita [Licenza temporanea Aspose](https://purchase.aspose.com/temporary-license/) e seguire le istruzioni fornite.
 2. **Posso aggiungere più righe di firma a un'immagine?**
    - Attualmente, Aspose.Cells supporta l'aggiunta di una singola riga di firma per ogni oggetto immagine.
 3. **Quali formati di file supporta Aspose.Cells?**
@@ -176,6 +178,9 @@ Ti invitiamo a provare a implementare queste soluzioni e a scoprire come possono
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

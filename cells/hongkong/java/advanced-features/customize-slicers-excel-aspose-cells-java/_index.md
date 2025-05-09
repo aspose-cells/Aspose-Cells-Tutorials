@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -150,7 +152,7 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 
 ## 結論
 
-現在，您應該對如何使用 Aspose.Cells for Java 在 Excel 中自訂切片器屬性有了深入的了解。這些功能可以顯著改善應用程式內的資料互動和視覺化。
+現在，您應該對如何使用 Aspose.Cells for Java 在 Excel 中自訂切片器屬性有了深入的了解。這些功能可以顯著改善應用程式中的資料互動和視覺化。
 
 **後續步驟：** 探索進一步的客製化選項和與其他系統的集成，以增強基於 Excel 的解決方案。
 
@@ -180,6 +182,9 @@ workbook.save("outputChangeSlicerProperties.xlsx", SaveFormat.XLSX);
 踏上使用 Aspose.Cells for Java 掌握 Excel 切片器客製化的旅程，並將您的資料示範提升到一個新的水平！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

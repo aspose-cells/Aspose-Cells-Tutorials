@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -115,7 +117,7 @@ public class FeatureAccessWorksheets {
 Este recurso permite que você identifique e recupere uma planilha específica pelo seu índice dentro da coleção.
 
 #### Implementação passo a passo
-##### Acessar uma planilha específica (H3)
+##### Acessar uma Planilha Específica (H3)
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Workbook;
@@ -199,6 +201,9 @@ O Aspose.Cells Java oferece versatilidade em diversos domínios. Aqui estão alg
 5. **Gestão de Estoque**: Use pastas de trabalho para manter e atualizar registros de inventário dinamicamente, integrando-os com bancos de dados existentes.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

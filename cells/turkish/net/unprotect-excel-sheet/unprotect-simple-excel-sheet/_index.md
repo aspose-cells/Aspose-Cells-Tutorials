@@ -1,14 +1,16 @@
 ---
-title: Basit Excel Sayfasını Korumayı Kaldır
-linktitle: Basit Excel Sayfasını Korumayı Kaldır
-second_title: Aspose.Cells for .NET API Başvurusu
-description: Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel sayfalarının korumasını nasıl kolayca kaldıracağınızı öğrenin. Verilerinize kısa sürede yeniden erişin.
-weight: 30
-url: /tr/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/
+"description": "Bu adım adım kılavuzla Aspose.Cells for .NET kullanarak Excel sayfalarının korumasını nasıl kolayca kaldıracağınızı öğrenin. Verilerinize kısa sürede yeniden erişin."
+"linktitle": "Basit Excel Sayfasını Korumayı Kaldır"
+"second_title": "Aspose.Cells for .NET API Başvurusu"
+"title": "Basit Excel Sayfasını Korumayı Kaldır"
+"url": "/tr/net/unprotect-excel-sheet/unprotect-simple-excel-sheet/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Basit Excel Sayfasını Korumayı Kaldır
@@ -22,7 +24,7 @@ Excel dosyaları, kullanıcıların bilgilerini etkili bir şekilde düzenlemele
 Gerçek korumayı kaldırma sürecine dalmadan önce, yerinde olması gereken birkaç şey var:
 
 1. Visual Studio: .NET geliştirme için Visual Studio'nun yüklü olduğundan emin olun. Bu ortam, Aspose.Cells kütüphaneleriyle sorunsuz bir şekilde çalışmayı kolaylaştırır.
-2.  Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini yüklemeniz gerekecektir. Bunu şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells Kütüphanesi: Aspose.Cells kütüphanesini yüklemeniz gerekecektir. Bunu şuradan indirebilirsiniz: [Burada](https://releases.aspose.com/cells/net/).
 3. Temel C# Bilgisi: C# programlamanın temellerini anlamak, kodun Aspose.Cells kütüphanesiyle nasıl etkileşime girdiğini anlamanıza yardımcı olacaktır.
 4. Örnek Excel Dosyası: Korumasız işlemi test etmek için şifreli veya şifresiz korunan basit bir Excel dosyanız olsun.
 5. Microsoft Excel (isteğe bağlı): Aspose.Cells tarafından yapılan değişikliklerin doğruluğunu doğrulamak için Excel'i elinizin altında bulundurmak her zaman işe yarar.
@@ -33,7 +35,7 @@ Artık her şeyi sıraladığımıza göre, ortamımızı hızlıca ayarlayalım
 
 ### Projenizi Kurma
 
- Visual Studio'nuzu açın ve yeni bir C# projesi oluşturun.`Solution Explorer` , projenize sağ tıklayın ve Yeni Öğe Ekle'yi seçin.... C# Sınıfını seçin ve uygun şekilde adlandırın (örneğin,`ExcelUnprotector.cs`).
+Visual Studio'nuzu açın ve yeni bir C# projesi oluşturun. `Solution Explorer`, projenize sağ tıklayın ve Yeni Öğe Ekle'yi seçin.... C# Sınıfını seçin ve uygun şekilde adlandırın (örneğin, `ExcelUnprotector.cs`).
 
 ### Aspose.Cells'i yükleme
 
@@ -64,11 +66,11 @@ Yapmanız gereken ilk şey Excel dosyanızın bulunduğu dizinin yolunu belirtme
 string dataDir = "YOUR DOCUMENT DIRECTORY"; // Bunu gerçek yolunuza değiştirin
 ```
 
- Değiştirdiğinizden emin olun`"YOUR DOCUMENT DIRECTORY"` Excel dosyanıza giden gerçek yol ile.
+Değiştirdiğinizden emin olun `"YOUR DOCUMENT DIRECTORY"` Excel dosyanıza giden gerçek yol ile.
 
 ## Adım 2: Çalışma Kitabı Nesnesini Örnekleme
 
- Daha sonra, bir örnek oluşturmanız gerekir`Workbook`Excel dosyanızı açmak için class'ı kullanın.
+Daha sonra, bir örnek oluşturmanız gerekir `Workbook` Excel dosyanızı açmak için class'ı kullanın.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -104,7 +106,7 @@ Bu kod hedeflenen çalışma sayfanızdaki tüm korumaları etkili bir şekilde 
 workbook.Save(dataDir + "output.out.xls", SaveFormat.Excel97To2003);
 ```
 
- Burada, korumasız çalışma kitabını yeni bir dosyaya kaydediyoruz.`output.out.xls` aynı dizinde.`SaveFormat.Excel97To2003` parametresi, kaydetmek istediğiniz formatı belirtir.
+Burada, korumasız çalışma kitabını yeni bir dosyaya kaydediyoruz. `output.out.xls` aynı dizinde. `SaveFormat.Excel97To2003` parametresi, kaydetmek istediğiniz formatı belirtir.
 
 ## Çözüm
 
@@ -122,13 +124,15 @@ Evet, Excel dosyanızda kütüphanenin yöntemlerini kullanarak şifrenizi koruy
 Kesinlikle! Kütüphane hem eski hem de yeni Excel formatlarını (.xls ve .xlsx) destekler.
 
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet, Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, Aspose.Cells'in ücretsiz deneme sürümünü indirebilirsiniz [Burada](https://releases.aspose.com/).
 
 ### Aspose.Cells kullanımı hakkında daha fazla bilgiyi nerede bulabilirim?
- Şuraya başvurabilirsiniz:[belgeleme](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
+Şuna başvurabilirsiniz: [belgeleme](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve API referansları için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

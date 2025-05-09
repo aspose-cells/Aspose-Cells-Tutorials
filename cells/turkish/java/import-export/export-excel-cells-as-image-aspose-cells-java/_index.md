@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -123,7 +125,7 @@ Burada, her sayfada bir JPEG resim üretecek şekilde dışa aktarmayı yapılan
 
 #### Adım 5: SheetRender'ı Oluşturun ve Kullanın
 
-Faydalanmak `SheetRender` çalışma sayfanızın bir resim olarak işlenmesini yönetmek için:
+Faydalanmak `SheetRender` Çalışma sayfanızın bir resim olarak işlenmesini yönetmek için:
 
 ```java
 SheetRender sr = new SheetRender(worksheet, options);
@@ -210,6 +212,9 @@ Aspose.Cells for Java'nın anlaşılmasını ve uygulanmasını geliştirmek iç
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

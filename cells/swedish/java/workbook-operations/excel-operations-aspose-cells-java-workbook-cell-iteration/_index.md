@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -166,7 +168,7 @@ Vid det här laget bör du ha en gedigen förståelse för hur man laddar arbets
 
 Vi uppmuntrar dig att prova att implementera dessa lösningar i dina egna projekt!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 1. **Hur installerar jag Aspose.Cells för Java?**
    - Du kan lägga till den via Maven eller Gradle som visas i installationsavsnittet.
 
@@ -180,7 +182,7 @@ Vi uppmuntrar dig att prova att implementera dessa lösningar i dina egna projek
    - En testversion finns tillgänglig; du behöver en licens för kommersiell användning.
 
 5. **Hur felsöker jag problem med celliteration?**
-   - Kontrollera dina intervalldefinitioner och se till att arbetsboken läses in korrekt.
+   - Kontrollera dina intervalldefinitioner och se till att arbetsboken laddas korrekt.
 
 ## Resurser
 - [Dokumentation](https://reference.aspose.com/cells/java/)
@@ -191,6 +193,9 @@ Vi uppmuntrar dig att prova att implementera dessa lösningar i dina egna projek
 - [Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

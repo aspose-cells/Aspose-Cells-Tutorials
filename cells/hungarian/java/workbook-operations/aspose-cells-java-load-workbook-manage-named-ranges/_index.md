@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ import com.aspose.cells.Workbook;
 ##### 2. lépés: Meglévő munkafüzet betöltése
 Adja meg az Excel-fájl elérési útját, és töltse be az Aspose.Cells használatával.
 ```java
-String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjára
+String dataDir = "YOUR_DATA_DIRECTORY"; // Cserélje le a könyvtár elérési útjával
 Workbook workbook = new Workbook(dataDir + "/book1.xls");
 ```
 **Magyarázat:** Itt, `dataDir` a tényleges könyvtárral kell helyettesíteni, ahol a `.xls` fájl található. A `Workbook` A konstruktor inicializálja és betölti a megadott Excel fájlt.
@@ -162,6 +164,9 @@ Ez az átfogó útmutató célja, hogy felvértezze Önt a szükséges eszközö
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

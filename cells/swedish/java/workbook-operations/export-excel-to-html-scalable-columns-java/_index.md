@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@ Med Aspose.Cells kan du automatisera Excel-operationer och uppnå sömlös integ
 - Hur man bäddar in bilder med Base64-kodning
 - Steg-för-steg-installation och användning av Aspose.Cells för Java
 
-Låt oss dyka in i förutsättningarna innan vi börjar.
+Låt oss gå in på förutsättningarna innan vi börjar.
 
 ## Förkunskapskrav
 
@@ -187,7 +189,7 @@ Nästa steg kan innefatta att utforska andra funktioner i Aspose.Cells eller int
    - Använd verktygen för beroendehantering av Maven eller Gradle som visas ovan.
 
 3. **Kan jag använda den här lösningen i kommersiella tillämpningar?**
-   - Ja, men du behöver en giltig licens från Aspose för att undvika begränsningar i utvärderingen.
+   - Ja, men du behöver en giltig licens från Aspose för att undvika utvärderingsbegränsningar.
 
 4. **Varför är skalbara kolumnbredder viktiga?**
    - De säkerställer att dina HTML-exporter anpassar sig väl till olika skärmstorlekar och upplösningar.
@@ -209,6 +211,9 @@ För ytterligare utforskning och dokumentation, besök [Aspose.Cells för Java-d
 Ge dig ut på din resa mot att bemästra Excel-filmanipulationer med Aspose.Cells för Java och förbättra din datapresentation idag!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

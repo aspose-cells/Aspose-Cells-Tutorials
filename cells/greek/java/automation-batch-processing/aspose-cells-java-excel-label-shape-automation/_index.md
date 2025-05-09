@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -205,6 +207,9 @@ workbook.save(outDir + "/AddingLabelControl_out.xls");
 Ακολουθώντας αυτόν τον οδηγό, έχετε κάνει ένα ουσιαστικό βήμα προς την τελειοποίηση του αυτοματισμού του Excel με το Aspose.Cells για Java. Συνεχίστε να εξερευνάτε και να ενσωματώνετε αυτές τις ισχυρές λειτουργίες στις εφαρμογές σας!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

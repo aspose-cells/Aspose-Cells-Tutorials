@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Pelajari cara membangun aplikasi pemrosesan Excel berkinerja tinggi dengan tutorial pengoptimalan Aspose.Cells kami untuk Java. Panduan praktis ini menunjukkan teknik untuk manajemen memori yang efisien, peningkatan waktu eksekusi, dan strategi untuk menangani spreadsheet besar secara efektif. Setiap tutorial mencakup contoh kode Java terperinci dan praktik terbaik untuk mengoptimalkan aspek kinerja yang penting, memastikan aplikasi Anda tetap responsif dan andal bahkan saat bekerja dengan data spreadsheet dalam jumlah besar.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi optimasi kinerja
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -74,10 +76,13 @@ Pelajari cara mengoptimalkan dan mengelola sel buku kerja Excel secara efisien m
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

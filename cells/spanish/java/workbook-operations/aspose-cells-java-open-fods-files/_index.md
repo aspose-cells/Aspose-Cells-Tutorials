@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aprenda a abrir y manipular archivos FODS en Java con Aspose.Cells. Esta guía explica la configuración, las instrucciones paso a paso y las prácticas recomendadas."
+"description": "Aprenda a abrir y manipular archivos FODS en Java con Aspose.Cells. Esta guía abarca la configuración, instrucciones paso a paso y las mejores prácticas."
 "title": "Cómo abrir archivos FODS con Aspose.Cells para Java&#58; una guía completa"
 "url": "/es/java/workbook-operations/aspose-cells-java-open-fods-files/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -167,6 +169,9 @@ Ha aprendido a configurar y usar Aspose.Cells para Java para abrir archivos FODS
 - [Apoyo](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

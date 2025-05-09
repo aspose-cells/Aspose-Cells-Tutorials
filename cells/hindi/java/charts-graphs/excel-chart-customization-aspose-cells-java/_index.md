@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -152,6 +154,9 @@ for (int i = 0; i < chart.getNSeries().getCount(); i++) {
 Aspose.Cells for Java के साथ एक्सेल चार्ट कस्टमाइज़ेशन में महारत हासिल करने की अपनी यात्रा शुरू करें और डेटा प्रस्तुत करने के तरीके को बेहतर बनाएँ। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -207,9 +209,12 @@ workbook.save(outDir + "DPTableFromWorksheet_out.xlsx");
 - [임시 면허 요청](https://purchase.aspose.com/temporary-license/)
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
-지금 당장 Aspose.Cells for Java의 기능을 탐색하여 데이터 관리 프로세스를 한 단계 업그레이드해 보세요!
+지금 당장 Aspose.Cells for Java의 기능을 탐색하고 데이터 관리 프로세스를 한 단계 업그레이드하세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

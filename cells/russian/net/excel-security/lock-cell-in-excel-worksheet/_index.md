@@ -1,14 +1,16 @@
 ---
-title: Блокировка ячейки на листе Excel
-linktitle: Блокировка ячейки на листе Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Научитесь блокировать ячейки в листах Excel с помощью Aspose.Cells для .NET. Простое пошаговое руководство по безопасному управлению данными.
-weight: 20
-url: /ru/net/excel-security/lock-cell-in-excel-worksheet/
+"description": "Научитесь блокировать ячейки в листах Excel с помощью Aspose.Cells для .NET. Простое пошаговое руководство по безопасному управлению данными."
+"linktitle": "Блокировка ячейки на листе Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Блокировка ячейки на листе Excel"
+"url": "/ru/net/excel-security/lock-cell-in-excel-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Блокировка ячейки на листе Excel
@@ -21,7 +23,7 @@ url: /ru/net/excel-security/lock-cell-in-excel-worksheet/
 
 Прежде чем мы перейдем к деталям кода, вам нужно подготовить несколько вещей:
 
-1.  Aspose.Cells для .NET: Загрузите и установите последнюю версию Aspose.Cells для .NET с сайта[Сайт Aspose](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells для .NET: Загрузите и установите последнюю версию Aspose.Cells для .NET с сайта [Сайт Aspose](https://releases.aspose.com/cells/net/).
 2. IDE: Среда разработки, настроенная для .NET. Популярные варианты включают Visual Studio или JetBrains Rider.
 3. Базовое понимание C#: Хотя мы проведем вас по коду шаг за шагом, наличие базового понимания программирования на C# поможет вам быстрее усвоить концепции.
 4. Ваш каталог документов: убедитесь, что у вас настроен каталог, в котором вы можете хранить файлы Excel для тестирования.
@@ -47,11 +49,11 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- Обязательно замените`"YOUR DOCUMENT DIRECTORY"` с реальным путем на вашем компьютере. Это может быть что-то вроде`@"C:\MyExcelFiles\"`.
+Обязательно замените `"YOUR DOCUMENT DIRECTORY"` с реальным путем на вашем компьютере. Это может быть что-то вроде `@"C:\MyExcelFiles\"`.
 
 ## Шаг 2: Загрузите свою рабочую книгу
 
-Далее вам нужно загрузить книгу Excel, в которой вы собираетесь заблокировать ячейки. Это делается путем создания экземпляра`Workbook` класс и указав его в нужном файле Excel.
+Далее вам нужно загрузить книгу Excel, в которой вы собираетесь заблокировать ячейки. Это делается путем создания экземпляра `Workbook` класс и указав его в нужном файле Excel.
 
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -115,13 +117,15 @@ workbook.Save(dataDir + "output.xlsx");
 Если вы забудете пароль, вы не сможете снять защиту с рабочего листа, поэтому крайне важно сохранить его в безопасности.
 
 ### Могу ли я разблокировать ячейки, если они заблокированы?
- Конечно! Вы можете разблокировать ячейки, установив`IsLocked` собственность`false` и снятие защиты.
+Конечно! Вы можете разблокировать ячейки, установив `IsLocked` собственность `false` и снятие защиты.
 
 ### Можно ли использовать Aspose.Cells бесплатно?
-Aspose.Cells предлагает бесплатную пробную версию для пользователей. Однако для постоянного использования необходимо приобрести лицензию. Посетите[Страница покупки Aspose](https://purchase.aspose.com/buy) для более подробной информации.
+Aspose.Cells предлагает бесплатную пробную версию для пользователей. Однако для постоянного использования необходимо приобрести лицензию. Посетите [Страница покупки Aspose](https://purchase.aspose.com/buy) для более подробной информации.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # أمان بيانات Excel
@@ -40,9 +42,11 @@
 تعرّف على كيفية تدقيق الوصول إلى الملفات باستخدام Aspose.Cells لواجهة برمجة تطبيقات Java. دليل خطوة بخطوة مع الكود المصدري والأسئلة الشائعة.
 ### [التحقق من صحة البيانات لأغراض الأمان](./data-validation-for-security/)
 عزز أمان بياناتك مع Aspose.Cells لجافا. استكشف تقنيات التحقق الشاملة من البيانات. تعلم كيفية تطبيق عمليات تحقق وحماية فعّالة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

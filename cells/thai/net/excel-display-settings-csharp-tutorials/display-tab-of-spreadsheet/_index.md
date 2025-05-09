@@ -1,14 +1,16 @@
 ---
-title: แท็บแสดงของสเปรดชีต
-linktitle: แท็บแสดงของสเปรดชีต
-second_title: เอกสารอ้างอิง Aspose.Cells สำหรับ API .NET
-description: เรียนรู้วิธีแสดงแท็บของสเปรดชีตโดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เรียนรู้การทำงานอัตโนมัติของ Excel ได้อย่างง่ายดายใน C#
-weight: 60
-url: /th/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
+"description": "เรียนรู้วิธีแสดงแท็บของสเปรดชีตโดยใช้ Aspose.Cells สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ เรียนรู้การทำงานอัตโนมัติของ Excel ได้อย่างง่ายดายใน C#"
+"linktitle": "แท็บแสดงของสเปรดชีต"
+"second_title": "เอกสารอ้างอิง API Aspose.Cells สำหรับ .NET"
+"title": "แท็บแสดงของสเปรดชีต"
+"url": "/th/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/"
+"weight": 60
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แท็บแสดงของสเปรดชีต
@@ -21,7 +23,7 @@ url: /th/net/excel-display-settings-csharp-tutorials/display-tab-of-spreadsheet/
 
 ก่อนที่เราจะเข้าสู่โค้ดจริง เรามาตรวจสอบกันก่อนว่าคุณจัดเตรียมทุกอย่างเรียบร้อยแล้ว นี่คือสิ่งที่คุณต้องการ:
 
-1.  Aspose.Cells สำหรับไลบรารี .NET – ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว คุณสามารถ[ดาวน์โหลดห้องสมุดได้ที่นี่](https://releases.aspose.com/cells/net/).
+1. Aspose.Cells สำหรับไลบรารี .NET – ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งแล้ว คุณสามารถ [ดาวน์โหลดห้องสมุดได้ที่นี่](https://releases-aspose.com/cells/net/).
 2. .NET Framework – ตรวจสอบให้แน่ใจว่าคุณกำลังใช้ .NET Framework เวอร์ชันที่เข้ากันได้ Aspose.Cells สำหรับ .NET รองรับ .NET Framework เวอร์ชันตั้งแต่ 2.0 ขึ้นไป
 3. สภาพแวดล้อมการพัฒนา – Visual Studio หรือ IDE C# อื่นๆ เหมาะสำหรับงานนี้
 4. ความรู้พื้นฐานเกี่ยวกับ C# – คุณไม่จำเป็นต้องเป็นผู้เชี่ยวชาญ แต่การเข้าใจไวยากรณ์พื้นฐานก็จะช่วยคุณได้
@@ -47,7 +49,7 @@ using Aspose.Cells;
 string dataDir = "YOUR DOCUMENT DIRECTORY";
 ```
 
- แทนที่`"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางไดเรกทอรีจริงบนระบบของคุณ ไดเรกทอรีนี้จะเป็นที่ที่คุณโหลดไฟล์ Excel ที่มีอยู่และบันทึกผลลัพธ์
+แทนที่ `"YOUR DOCUMENT DIRECTORY"` ด้วยเส้นทางไดเรกทอรีจริงบนระบบของคุณ ไดเรกทอรีนี้จะเป็นที่ที่คุณโหลดไฟล์ Excel ที่มีอยู่และบันทึกผลลัพธ์
 
 ## ขั้นตอนที่ 2: การสร้างอินสแตนซ์ของวัตถุเวิร์กบุ๊ก
 
@@ -57,17 +59,17 @@ string dataDir = "YOUR DOCUMENT DIRECTORY";
 Workbook workbook = new Workbook(dataDir + "book1.xls");
 ```
 
- ที่นี่เราสร้างอินสแตนซ์ใหม่ของคลาส Workbook และเปิดไฟล์ชื่อ`book1.xls`. ตรวจสอบให้แน่ใจว่าไฟล์มีอยู่ในไดเร็กทอรีที่คุณระบุ
+ที่นี่เราสร้างอินสแตนซ์ใหม่ของคลาส Workbook และเปิดไฟล์ชื่อ `book1.xls`. ตรวจสอบให้แน่ใจว่าไฟล์มีอยู่ในไดเร็กทอรีที่คุณระบุ
 
 ## ขั้นตอนที่ 3: แสดงแท็บ
 
 ใน Excel คุณสามารถซ่อนหรือแสดงแท็บด้านล่าง (Sheet1, Sheet2 เป็นต้น) ได้ โดยใช้ Aspose.Cells คุณสามารถควบคุมการมองเห็นของแท็บเหล่านี้ได้อย่างง่ายดาย มาเปิดการมองเห็นของแท็บกัน
 
 ```csharp
-workbook.Settings.ShowTabs = true;
+workbook.การตั้งค่าs.ShowTabs = true;
 ```
 
- การตั้งค่า`ShowTabs` ถึง`true` จะทำให้แน่ใจว่าแท็บจะมองเห็นได้เมื่อคุณเปิดไฟล์ Excel
+Setting `ShowTabs` ถึง `true` จะทำให้แน่ใจว่าแท็บจะมองเห็นได้เมื่อคุณเปิดไฟล์ Excel
 
 ## ขั้นตอนที่ 4: บันทึกไฟล์ Excel ที่ปรับเปลี่ยนแล้ว
 
@@ -77,7 +79,7 @@ workbook.Settings.ShowTabs = true;
 workbook.Save(dataDir + "output.xls");
 ```
 
- ไฟล์จะถูกบันทึกด้วยชื่อ`output.xls` ในไดเร็กทอรีที่ระบุไว้ก่อนหน้านี้ คุณยังสามารถเลือกชื่อหรือรูปแบบไฟล์อื่นได้ (เช่น`.xlsx`) หากจำเป็น
+ไฟล์จะถูกบันทึกด้วยชื่อ `output.xls` ในไดเร็กทอรีที่ระบุไว้ก่อนหน้านี้ คุณยังสามารถเลือกชื่อหรือรูปแบบไฟล์อื่นได้ (เช่น `.xlsx`) หากจำเป็น
 
 ## บทสรุป
 
@@ -86,7 +88,7 @@ workbook.Save(dataDir + "output.xls");
 ## คำถามที่พบบ่อย
 
 ### ฉันสามารถซ่อนแท็บใน Excel โดยใช้ Aspose.Cells สำหรับ .NET ได้หรือไม่
- แน่นอน! ตั้งค่าง่ายๆ`workbook.Settings.ShowTabs = false;` และบันทึกไฟล์ ซึ่งจะซ่อนแท็บเมื่อเปิดเวิร์กบุ๊ก
+แน่นอน! ตั้งค่าง่ายๆ `workbook.Settings.ShowTabs = false;` และบันทึกไฟล์ ซึ่งจะซ่อนแท็บเมื่อเปิดเวิร์กบุ๊ก
 
 ### Aspose.Cells รองรับคุณลักษณะอื่นๆ ของ Excel เช่น แผนภูมิและตารางสรุปข้อมูลหรือไม่
 ใช่ Aspose.Cells เป็นไลบรารีที่ครอบคลุมซึ่งรองรับฟีเจอร์ Excel เกือบทั้งหมด รวมถึงแผนภูมิ ตารางสรุป สูตร และอื่นๆ อีกมากมาย
@@ -97,11 +99,13 @@ workbook.Save(dataDir + "output.xls");
 ### ฉันสามารถแปลงไฟล์ Excel เป็นรูปแบบอื่นโดยใช้ Aspose.Cells ได้หรือไม่
 ใช่ Aspose.Cells รองรับการแปลงไฟล์ Excel เป็นรูปแบบต่างๆ เช่น PDF, HTML, CSV และอื่นๆ
 
-### Aspose.Cells มีรุ่นทดลองใช้งานฟรีหรือไม่
- ใช่ คุณสามารถดาวน์โหลดได้[ทดลองใช้ฟรีที่นี่](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติทั้งหมดของ Aspose.Cells ก่อนการซื้อ
+### มีการทดลองใช้ Aspose.Cells ฟรีหรือไม่
+ใช่ คุณสามารถดาวน์โหลดได้ [ทดลองใช้ฟรีที่นี่](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติทั้งหมดของ Aspose.Cells ก่อนการซื้อ
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

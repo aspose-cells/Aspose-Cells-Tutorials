@@ -1,25 +1,27 @@
 ---
-title: .NET'te Pivot Tablosunun Biçim Seçeneklerini Ayarlama
-linktitle: .NET'te Pivot Tablosunun Biçim Seçeneklerini Ayarlama
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Pivot Tabloları zahmetsizce biçimlendirmek için Aspose.Cells for .NET'i kullanmayı öğrenin. Veri sunumunuzu geliştirmek için adım adım teknikleri keşfedin.
-weight: 20
-url: /tr/net/creating-and-configuring-pivot-tables/setting-format-options/
+"description": "Pivot Tabloları zahmetsizce biçimlendirmek için Aspose.Cells for .NET'i kullanmayı öğrenin. Veri sunumunuzu geliştirmek için adım adım teknikleri keşfedin."
+"linktitle": ".NET'te Pivot Tablosunun Biçim Seçeneklerini Ayarlama"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": ".NET'te Pivot Tablosunun Biçim Seçeneklerini Ayarlama"
+"url": "/tr/net/creating-and-configuring-pivot-tables/setting-format-options/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # .NET'te Pivot Tablosunun Biçim Seçeneklerini Ayarlama
 
 ## giriiş
-Emrinizde olan verilerin muazzam hacmi karşısında hiç bunaldığınız oldu mu? Ya da bu verileri açık ve içgörülü bir şekilde sunmakta zorluk çektiğiniz oldu mu? Eğer öyleyse, aramıza hoş geldiniz! Bugün, .NET için Aspose.Cells kütüphanesini kullanarak Excel'deki Pivot Tabloların muhteşem dünyasına dalıyoruz. Pivot Tablolar, veri sunumunun süper kahramanları olabilir, yığınla sayıyı karar vermeyi kolaylaştıran yapılandırılmış, içgörülü raporlara dönüştürebilir. Bu bir oyun değiştirici değil mi?
+Emrinizde olan verinin muazzam hacmi karşısında hiç bunaldığınız oldu mu? Ya da bu verileri açık ve içgörülü bir şekilde sunmakta zorluk çektiğiniz oldu mu? Eğer öyleyse, aramıza hoş geldiniz! Bugün, .NET için Aspose.Cells kütüphanesini kullanarak Excel'deki Pivot Tabloların muhteşem dünyasına dalıyoruz. Pivot Tablolar, veri sunumunun süper kahramanları olabilir, yığınla sayıyı karar vermeyi kolaylaştıran yapılandırılmış, içgörülü raporlara dönüştürebilir. Bu bir oyun değiştirici değil mi?
 ## Ön koşullar
 Eğitime geçmeden önce, başarılı olmak için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşullar:
 1. C# Temel Bilgisi: C# programlama dili hakkında temel bir anlayışa sahip olmalısınız. Temel konularda rahatsanız, bunu ele almaya hazırsınız!
 2. Visual Studio veya Herhangi Bir C# IDE: Visual Studio gibi entegre bir geliştirme ortamına (IDE) ihtiyacınız olacak. Sihir burada gerçekleşir. 
-3. Aspose.Cells Kütüphanesi: Aspose.Cells'in gücünden yararlanmak için bu paketi indirmeniz gerekir. Bunu şu adreste kolayca bulabilirsiniz:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
+3. Aspose.Cells Kütüphanesi: Aspose.Cells'in gücünden yararlanmak için bu paketi indirmeniz gerekir. Bunu şu adreste kolayca bulabilirsiniz: [Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/).
 4. Excel Dosyası: Öğreticiyi uygulamak için örnek bir Excel dosyası gereklidir. Bu alıştırma için bir Excel sayfasında (örneğin "Book1.xls") basit bir veri kümesi oluşturmaktan çekinmeyin.
 5. .NET Framework: Bilgisayarınızda .NET Framework'ün yüklü olduğundan emin olun.
 Hepsini anladınız mı? Harika! Şimdi ilk adımımıza geçelim.
@@ -30,7 +32,7 @@ Visual Studio'nuzu (veya kullandığınız herhangi bir C# IDE'yi) açın ve yen
 ### Aspose.Cells Referansını Ekle
 1. Çözüm Gezgini’nde projenizin üzerine sağ tıklayın.
 2. NuGet Paketlerini Yönet'i seçin.
-3.  Arama kutusuna şunu yazın:`Aspose.Cells` ve kurun.
+3. Arama kutusuna şunu yazın: `Aspose.Cells` ve kurun.
 Şimdi, kütüphaneyi getirmeye hazırsınız. Kod dosyanızın başına aşağıdaki using yönergesini eklemeniz gerekecek:
 ```csharp
 using System.IO;
@@ -45,9 +47,9 @@ Zemin hazır olduğuna göre, sürecin her bir bölümünü adım adım inceleye
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Yer değiştirmek`"Your Document Directory"` "Book1.xls" dosyanızın saklandığı gerçek yol ile. Bu, programın giriş dosyasını nerede arayacağını bilmesine yardımcı olur.
+Yer değiştirmek `"Your Document Directory"` "Book1.xls" dosyanızın saklandığı gerçek yol ile. Bu, programın giriş dosyasını nerede arayacağını bilmesine yardımcı olur.
 ## Adım 2: Şablon Dosyasını Yükleyin
- Sonra, üzerinde değişiklik yapmak istediğimiz Excel dosyasını yükleyeceğiz. Bu, şu şekilde yapılır:`Workbook` sınıf.
+Sonra, üzerinde değişiklik yapmak istediğimiz Excel dosyasını yükleyeceğiz. Bu, şu şekilde yapılır: `Workbook` sınıf.
 ```csharp
 Workbook workbook = new Workbook(dataDir + "Book1.xls");
 ```
@@ -70,7 +72,7 @@ Biçimlendirmeye başlayalım! Pivot Tablomuzdaki satırlar için genel toplamla
 ```csharp
 pivotTable.RowGrand = true;
 ```
- Bu özelliği şu şekilde ayarlayın:`true` Pivot Tablonuzdaki her satırın altında genel toplamları görüntüler. Özetler sağlamanın basit ama etkili bir yoludur.
+Bu özelliği şu şekilde ayarlayın: `true` Pivot Tablonuzdaki her satırın altında genel toplamları görüntüler. Özetler sağlamanın basit ama etkili bir yoludur.
 ## Adım 6: Sütunlar için Pivot Tablo Genel Toplamlarını Ayarlayın
 Tıpkı satırlar için büyük toplamları belirlediğimiz gibi, sütunlar için de bunu yapabiliriz.
 ```csharp
@@ -109,10 +111,12 @@ Evet, Aspose.Cells Pivot Tablolar oluşturmanıza, değiştirmenize ve yönetmen
 ### Aspose.Cells ücretsiz mi?
 Aspose.Cells ücretli bir kütüphanedir ancak ücretsiz deneme sürümü mevcuttur.
 ### Aspose.Cells hakkında daha fazla dokümanı nerede bulabilirim?
- Şuna bir göz atın:[Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve örnekler için.
+Şuna bir göz atın: [Aspose.Cells belgeleri](https://reference.aspose.com/cells/net/) Ayrıntılı kılavuzlar ve örnekler için.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

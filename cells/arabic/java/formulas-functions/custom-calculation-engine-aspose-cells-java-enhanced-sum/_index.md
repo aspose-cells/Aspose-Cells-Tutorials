@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -219,6 +221,9 @@ public class CustomCalculationEngineDemo {
 الآن بعد أن أتقنت تنفيذ محرك حساب مخصص في Aspose.Cells Java، اختبر مهاراتك وابدأ في تحسين جداول البيانات الخاصة بك كما لم يحدث من قبل!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

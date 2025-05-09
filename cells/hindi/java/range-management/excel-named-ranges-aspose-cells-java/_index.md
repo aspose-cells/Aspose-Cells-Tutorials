@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -192,6 +194,9 @@ book.save(outDir + "/SetSimpleFormulaNamedRange_out.xlsx");
 इस गाइड का पालन करके, आप अपनी परियोजनाओं में Aspose.Cells for Java के साथ नामित श्रेणियों की शक्ति का उपयोग करने के लिए अच्छी तरह से सुसज्जित हैं। हैप्पी कोडिंग!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Изменить линейный график
-linktitle: Изменить линейный график
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как изменять линейные диаграммы в Excel с помощью Aspose.Cells для .NET, с помощью этого подробного пошагового руководства.
-weight: 15
-url: /ru/net/manipulating-chart-types/modify-line-chart/
+"description": "Узнайте, как изменять линейные диаграммы в Excel с помощью Aspose.Cells для .NET, с помощью этого подробного пошагового руководства."
+"linktitle": "Изменить линейный график"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Изменить линейный график"
+"url": "/ru/net/manipulating-chart-types/modify-line-chart/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изменить линейный график
@@ -22,16 +24,16 @@ url: /ru/net/manipulating-chart-types/modify-line-chart/
 Прежде чем мы перейдем к тонкостям модификации диаграмм, давайте убедимся, что у вас есть все необходимое для начала. Вот основные предварительные условия:
 
 ### Установить Visual Studio
- Вам понадобится Visual Studio, установленная на вашем компьютере, чтобы эффективно писать и запускать код C#. Если у вас ее еще нет, вы можете загрузить ее с[Сайт Visual Studio](https://visualstudio.microsoft.com/).
+Вам понадобится Visual Studio, установленная на вашем компьютере, чтобы эффективно писать и запускать код C#. Если у вас ее еще нет, вы можете загрузить ее с [Сайт Visual Studio](https://visualstudio.microsoft.com/).
 
 ### Загрузить Aspose.Cells для .NET
- Для использования Aspose.Cells вам нужна библиотека. Вы можете легко загрузить последнюю версию с[эта ссылка](https://releases.aspose.com/cells/net/).
+Для использования Aspose.Cells вам нужна библиотека. Вы можете легко загрузить последнюю версию с [эта ссылка](https://releases.aspose.com/cells/net/).
 
 ### Базовые знания C#
 Хотя мы объясним все шаг за шагом, базовые знания C# помогут вам легко освоить это руководство.
 
 ### Существующий файл Excel
- Убедитесь, что у вас есть готовый файл Excel с линейной диаграммой. Мы будем работать с файлом под названием`sampleModifyLineChart.xlsx`, так что и это тоже имейте под рукой. 
+Убедитесь, что у вас есть готовый файл Excel с линейной диаграммой. Мы будем работать с файлом под названием `sampleModifyLineChart.xlsx`, так что и это тоже имейте под рукой. 
 
 ## Импортные пакеты
 
@@ -44,7 +46,7 @@ url: /ru/net/manipulating-chart-types/modify-line-chart/
 В своем проекте щелкните правой кнопкой мыши «Ссылки» и выберите «Добавить ссылку». Найдите Aspose.Cells и добавьте его в свой проект.
 
 ### Импортируйте необходимые пространства имен
- В верхней части вашего`Program.cs`, вам потребуется импортировать необходимые пространства имен:
+В верхней части вашего `Program.cs`, вам потребуется импортировать необходимые пространства имен:
 
 ```csharp
 using Aspose.Cells;
@@ -154,19 +156,21 @@ Console.WriteLine("ModifyLineChart executed successfully.");
 Да, вы можете изменять различные типы диаграмм (например, столбчатые, круговые и т. д.), используя аналогичные методы.
 
 ### Доступна ли пробная версия Aspose.Cells?
- Конечно! Вы можете попробовать бесплатно[здесь](https://releases.aspose.com/).
+Конечно! Вы можете попробовать бесплатно [здесь](https://releases.aspose.com/).
 
 ### Как изменить тип диаграммы после добавления серии?
-Вы можете использовать`ChartType` свойство, чтобы задать новый тип диаграммы для вашего графика.
+Вы можете использовать `ChartType` свойство, чтобы задать новый тип диаграммы для вашего графика.
 
 ### Где я могу найти более подробную документацию?
- Ознакомьтесь с документацией[здесь](https://reference.aspose.com/cells/net/).
+Ознакомьтесь с документацией [здесь](https://reference.aspose.com/cells/net/).
 
 ### Что делать, если у меня возникнут проблемы при использовании Aspose.Cells?
- Обязательно обратитесь за помощью на форум поддержки Aspose.[здесь](https://forum.aspose.com/c/cells/9).
+Обязательно обратитесь за помощью на форум поддержки Aspose. [здесь](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

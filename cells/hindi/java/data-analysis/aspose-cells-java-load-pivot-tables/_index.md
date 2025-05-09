@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,6 +201,9 @@ A1: बड़ी फ़ाइलों के लिए, कार्यपु�
 A2: हाँ, Aspose.Cells को विभिन्न क्लाउड प्लेटफ़ॉर्म पर होस्ट किए गए अनुप्रयोगों में एकीकृत किया जा सकता है।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

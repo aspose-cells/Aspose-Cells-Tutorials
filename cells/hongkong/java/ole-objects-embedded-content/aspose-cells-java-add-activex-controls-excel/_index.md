@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -38,7 +40,7 @@
 - Maven 或 Gradle 來管理相依性。
 
 ### 知識前提
-- Java 程式設計基礎知識。
+- Java 程式設計的基本知識。
 - 熟悉Excel檔案結構和操作。
 
 ## 設定 Aspose.Cells for Java
@@ -199,6 +201,9 @@ A：依賴項錯誤和檔案路徑不正確是常見的；確保正確設定和�
 - **支援**：加入討論或提問 [Aspose 論壇](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,14 @@
 ---
-"description": "Tutorial completi per l'implementazione di filtri automatici, slicer, collegamenti ipertestuali, connessioni esterne e funzionalità avanzate di Excel con Aspose.Cells per Java."
+"description": "Tutorial completi per l'implementazione di filtri automatici, filtri, collegamenti ipertestuali, connessioni esterne e funzionalità avanzate di Excel con Aspose.Cells per Java."
 "title": "Tutorial sulle funzionalità avanzate di Excel per Aspose.Cells Java"
 "url": "/it/java/advanced-features/"
 "weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -93,6 +95,9 @@ Scopri come automatizzare gli aggiornamenti degli slicer nei file Excel con Aspo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

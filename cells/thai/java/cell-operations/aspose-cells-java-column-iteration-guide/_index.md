@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -73,7 +75,7 @@ import com.aspose.cells.Workbook;
 
 public class ExcelInitializer {
     public static void main(String[] args) throws Exception {
-        // เริ่มต้นเวิร์กบุ๊กด้วยไฟล์ที่มีอยู่
+        // เริ่มต้นสมุดงานด้วยไฟล์ที่มีอยู่
         Workbook book = new Workbook("path/to/your/excel/file.xlsx");
         
         System.out.println("Workbook loaded successfully!");
@@ -166,9 +168,12 @@ while (colsIterator.hasNext()) {
 - **ใบอนุญาตชั่วคราว:** [การขอใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 - **สนับสนุน:** [ฟอรั่ม Aspose](https://forum.aspose.com/c/cells/9)
 
-เริ่มต้นการเดินทางของคุณด้วย Aspose.Cells วันนี้ และปฏิวัติวิธีการจัดการข้อมูล Excel ใน Java ของคุณ!
+เริ่มต้นการเดินทางของคุณด้วย Aspose.Cells วันนี้ และปฏิวัติวิธีการจัดการข้อมูล Excel ใน Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

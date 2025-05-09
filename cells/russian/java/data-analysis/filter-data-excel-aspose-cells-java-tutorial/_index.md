@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -125,7 +127,7 @@ workbook.save(dataDir + "sampleFilterDataWhileLoadingWorkbook_out.pdf", SaveForm
 При работе с большими наборами данных примите во внимание следующие советы по оптимизации производительности:
 - **Управление памятью**: Загружайте только необходимые данные, чтобы освободить ресурсы памяти.
 - **Параметры загрузки**: Использовать `LoadOptions` разумно, чтобы избежать ненужных затрат на обработку.
-- **Эффективная обработка данных**: Эффективная обработка и управление данными в вашем приложении.
+- **Эффективная обработка данных**: Эффективная обработка и манипулирование данными в вашем приложении.
 
 ## Заключение
 К настоящему моменту вы должны иметь четкое представление о том, как фильтровать данные Excel при загрузке рабочих книг с помощью Aspose.Cells для Java. Этот метод может значительно оптимизировать использование ресурсов и оптимизировать ваши приложения. Для дальнейшего изучения рассмотрите возможность экспериментов с различными `LoadDataFilterOptions` или интеграция Aspose.Cells в более крупные проекты.
@@ -153,6 +155,9 @@ workbook.save(dataDir + "sampleFilterDataWhileLoadingWorkbook_out.pdf", SaveForm
 - [Форум поддержки](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

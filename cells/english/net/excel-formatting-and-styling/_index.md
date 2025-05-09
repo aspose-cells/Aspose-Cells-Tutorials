@@ -8,7 +8,9 @@ url: /net/excel-formatting-and-styling/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel Formatting and Styling
@@ -70,9 +72,11 @@ Learn how to align text vertically in Excel cells using Aspose.Cells for .NET wi
 Transform text direction in Excel with Aspose.Cells for .NET. Follow our step-by-step guide to rotate and adjust text easily.
 ### [Wrapping Long Text within Cells in Excel](./wrapping-long-text-within-cells/)
 Learn how to wrap long text in Excel cells with Aspose.Cells for .NET in this easy-to-follow guide. Transform your spreadsheets effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

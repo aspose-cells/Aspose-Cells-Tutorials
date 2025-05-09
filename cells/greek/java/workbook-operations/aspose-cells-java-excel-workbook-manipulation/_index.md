@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -161,6 +163,9 @@ workbook.save(outDir + "/COfAFormula_out.pdf", SaveFormat.PDF);
 Τώρα, προχωρήστε και δοκιμάστε τις νέες σας δεξιότητες δημιουργώντας ή τροποποιώντας βιβλία εργασίας του Excel χρησιμοποιώντας το Aspose.Cells για Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

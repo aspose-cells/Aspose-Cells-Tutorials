@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ A: Przejrzyj wzorce wykorzystania pamięci i zoptymalizuj swój kod, aby wydajni
 Postępując zgodnie z tym przewodnikiem, jesteś teraz wyposażony w narzędzia do ulepszania arkuszy kalkulacyjnych programu Excel za pomocą niestandardowych kształtów przy użyciu Aspose.Cells dla języka Java. Miłego kodowania!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -105,7 +107,7 @@ workbook.save(outDir + "/ANRWWScope_out.xls");
 O Aspose.Cells para Java é versátil, com aplicações em vários domínios:
 1. **Automatizando Relatórios**: Gere relatórios financeiros ou estatísticos automaticamente.
 2. **Processamento de dados**Manipule grandes conjuntos de dados com eficiência lendo e gravando arquivos do Excel.
-3. **Integração com Web Apps**: Use o Aspose.Cells para gerenciar arquivos Excel enviados pelo usuário em aplicativos da web.
+3. **Integração com aplicativos da Web**: Use o Aspose.Cells para gerenciar arquivos Excel enviados pelo usuário em aplicativos da web.
 ## Considerações de desempenho
 Ao usar o Aspose.Cells, otimizar o desempenho é crucial:
 - **Otimize o uso de recursos**: Limite o número de células ou intervalos que estão sendo manipulados ao mesmo tempo.
@@ -134,6 +136,9 @@ Os próximos passos podem envolver a integração dessas funcionalidades em proj
 - [Fórum de Suporte](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

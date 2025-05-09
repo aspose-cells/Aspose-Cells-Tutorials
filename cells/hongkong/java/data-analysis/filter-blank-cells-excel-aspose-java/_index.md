@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -118,7 +120,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 #### 概述
 使用 Aspose.Cells 的過濾功能從資料集中刪除空白行。
 
-##### 步驟3：套用空白單元格過濾器
+##### 步驟 3：套用空白單元格過濾器
 致電 `matchBlanks` 設定空白單元格過濾器的方法：
 
 ```java
@@ -193,6 +195,9 @@ workbook.save(outDir + "FilteredBlank.xlsx");
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

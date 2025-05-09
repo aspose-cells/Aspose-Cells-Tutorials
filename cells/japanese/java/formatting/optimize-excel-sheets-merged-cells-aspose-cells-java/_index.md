@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Excelで複雑なデータを効果的に管理するには、読みやすさと
 - Aspose.Cells を使用して新しいワークブックをインスタンス化する
 - ワークシートへのアクセスと操作
 - セル範囲を効果的に結合する
-- 結合セルに値を挿入する
+- 結合されたセルに値を挿入する
 - 読みやすさを向上させるためのスタイルの適用
 - 結合されたセルのカスタム オプションを使用して行を自動調整する
 - 指定されたディレクトリにワークブックを保存する
@@ -43,7 +45,7 @@ Excelで複雑なデータを効果的に管理するには、読みやすさと
 依存関係を効果的に管理するため、開発環境が Maven または Gradle プロジェクトを処理できるように構成されていることを確認してください。
 
 ### 知識の前提条件
-Javaプログラミングの基本的な概念とExcelファイルの操作経験があればなお良いでしょう。ただし、手順は初心者でも分かりやすく設計されています。
+Javaプログラミングの基本的な概念とExcelファイルの操作経験があればなお良いでしょう。ただし、手順は初心者でも分かりやすく説明されています。
 
 ## Aspose.Cells for Java のセットアップ
 
@@ -211,6 +213,9 @@ workbook.save(dataDir);
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

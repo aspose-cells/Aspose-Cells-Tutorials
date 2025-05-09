@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - **Licença Temporária**: Para testes mais abrangentes, solicite uma licença temporária.
 - **Comprar**: Se atender às suas necessidades, considere comprar uma licença completa.
 
-Após configurar a biblioteca e adquirir uma licença adequada, inicialize-a no seu projeto. Abaixo, um exemplo de configuração:
+Após configurar a biblioteca e adquirir uma licença adequada, inicialize-a no seu projeto. Abaixo está um exemplo de configuração:
 
 ```java
 import com.aspose.cells.License;
@@ -203,6 +205,9 @@ Para aprofundar seu conhecimento, explore mais recursos do Aspose.Cells ou integ
 Ao explorar esses recursos, você pode se aprofundar no Aspose.Cells para Java e aprimorar seus recursos de automação do Excel. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

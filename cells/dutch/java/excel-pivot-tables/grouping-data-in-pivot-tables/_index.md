@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gegevens groeperen in draaitabellen
@@ -76,7 +78,7 @@ workbook.save("output_grouped.xlsx");
 
 ## Stap 3: Groepering aanpassen
 
-kunt de groeperingsinstellingen verder aanpassen, zoals het opgeven van datumgebaseerde groeperingsintervallen of aangepaste groeperingsregels. Hier is een voorbeeld van het aanpassen van datumgebaseerde groepering:
+U kunt de groeperingsinstellingen verder aanpassen, zoals het opgeven van datumgebaseerde groeperingsintervallen of aangepaste groeperingsregels. Hier is een voorbeeld van het aanpassen van datumgebaseerde groepering:
 
 ```java
 // Toegang tot het veld 'Datum' in de draaitabel (ervan uitgaande dat het een datumveld is)
@@ -103,14 +105,16 @@ Draaitabellen in Excel worden gebruikt om grote datasets samen te vatten en te a
 
 ### 2. Hoe kan ik de groepering van gegevens in een draaitabel aanpassen?
 
-kunt de groepering van gegevens in een draaitabel aanpassen met behulp van de `PivotField` klasse in Aspose.Cells voor Java. Hiermee kunt u groeperingscriteria opgeven, zoals datumgebaseerde intervallen of aangepaste regels.
+U kunt de groepering van gegevens in een draaitabel aanpassen met behulp van de `PivotField` klasse in Aspose.Cells voor Java. Hiermee kunt u groeperingscriteria opgeven, zoals datumgebaseerde intervallen of aangepaste regels.
 
 ### 3. Kan ik het maken van draaitabellen automatiseren met Aspose.Cells voor Java?
 
 Ja, u kunt het maken van draaitabellen in Excel automatiseren met Aspose.Cells voor Java, zoals wordt gedemonstreerd in de meegeleverde broncodevoorbeelden.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

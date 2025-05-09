@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ Worksheet worksheet = workbook.getWorksheets().get(0);
 *Magyarázat*Ez a lépés kulcsfontosságú annak meghatározásához, hogy melyik munkalapot fogod módosítani.
 
 **4. Sormagasság beállítása**
-Standard magasság beállítása a kijelölt munkalap összes sorához:
+Szabványos magasság beállítása a kijelölt munkalap összes sorához:
 ```java
 worksheet.getCells().setStandardHeight(15f);
 ```
@@ -160,6 +162,9 @@ Kísérletezz más Aspose.Cells funkciókkal a táblázatkezelési feladatok tov
 - **Támogatás**: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

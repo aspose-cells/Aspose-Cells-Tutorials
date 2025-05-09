@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-excel/using-font-underline-type/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Font Underline Type in Excel
@@ -122,9 +124,11 @@ Yes! Aspose offers a free trial and a temporary license for evaluation purposes.
 Aspose.Cells supports various formats including XLS, XLSX, CSV, and many more.
 ### Where can I find help or support for Aspose.Cells?
 You can access community support and forums on the Aspose website.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

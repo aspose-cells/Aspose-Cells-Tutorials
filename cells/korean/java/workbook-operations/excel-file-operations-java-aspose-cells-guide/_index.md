@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ Aspose.Cells를 시작하려면 다음 초기화 단계를 따르세요.
    ```
 
 4. **반복 및 세부 정보 인쇄**:
-   - 각각을 반복합니다 `ReferredArea` 관련 세부 정보를 추출하여 표시하려는 객체입니다.
+   - 각각을 반복합니다 `ReferredArea` 관련 세부 정보를 추출하고 표시하는 데 사용됩니다.
    ```java
    if (referredAreas != null) {
        for (ReferredArea referredArea : referredAreas) {
@@ -193,6 +195,9 @@ Aspose.Cells를 시작하려면 다음 초기화 단계를 따르세요.
 - [Aspose.Cells 문서](https://reference.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

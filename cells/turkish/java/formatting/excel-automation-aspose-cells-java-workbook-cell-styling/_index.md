@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,7 +200,7 @@ Kullanın `Style` yazı tipi özelliklerini ve diğer hücre niteliklerini deği
 Java için Aspose.Cells çok sayıda gerçek dünya uygulaması sunar:
 1. **Otomatik Rapor Oluşturma:** Aylık finansal raporları, biçimlendirilmiş başlıklarla otomatik olarak oluşturun.
 2. **Veri Analizi:** Önemli metrikleri vurgulamak için koşullu biçimlendirmeyi uygulayarak veri görselleştirmesini geliştirin.
-3. **Toplu Veri İşleme:** Büyük veri kümelerini, stiller ve formülleri programlı olarak uygulayarak verimli bir şekilde yönetin.
+3. **Toplu Veri İşleme:** Büyük veri kümelerini etkili bir şekilde yönetin, stilleri ve formülleri programlı olarak uygulayın.
 
 ## Performans Hususları
 
@@ -216,7 +218,7 @@ Bu kılavuzda, Java'da Aspose.Cells kullanarak Excel çalışma kitapları oluş
 - Hücreleriniz için daha gelişmiş stil seçeneklerini deneyin.
 - Verimliliği en üst düzeye çıkarmak için bu işlevselliği daha büyük uygulamalara veya iş akışlarına entegre edin.
 
-**Harekete Geçme Çağrısı:** Bu teknikleri bugünden itibaren projelerinizde uygulamaya başlayın ve Excel otomasyonunda ustalaşma yolunda ilk adımı atın!
+**Harekete Geçme Çağrısı:** Bu teknikleri bugünden itibaren projelerinizde uygulamaya başlayın ve Excel otomasyonunda ustalığa doğru ilk adımı atın!
 
 ## SSS Bölümü
 
@@ -224,10 +226,13 @@ Bu kılavuzda, Java'da Aspose.Cells kullanarak Excel çalışma kitapları oluş
    - Bu kılavuzda özetlendiği gibi Maven veya Gradle bağımlılıklarını kullanın.
 2. **Aspose.Cells ile tüm satır veya sütunları biçimlendirebilir miyim?**
    - Evet, aralıklara stilleri kullanarak uygulayabilirsiniz `StyleFlag` sınıf.
-3. **Aspose.Cells Java için hangi dosya formatlarını destekliyor?**
+3. **Aspose.Cells Java için hangi dosya formatlarını destekler?**
    - XLSX ve CSV dahil olmak üzere çeşitli Excel formatlarını destekler.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

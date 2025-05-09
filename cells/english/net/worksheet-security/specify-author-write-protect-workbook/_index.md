@@ -8,7 +8,9 @@ url: /net/worksheet-security/specify-author-write-protect-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Author while Write Protecting Workbook using Aspose.Cells
@@ -88,6 +90,7 @@ Comprehensive documentation is available at the [Aspose.Cells reference guide](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

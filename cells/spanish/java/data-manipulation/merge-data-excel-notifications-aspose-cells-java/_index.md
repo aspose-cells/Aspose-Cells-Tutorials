@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -23,7 +25,7 @@ Aspose.Cells para Java es una potente herramienta que permite a los desarrollado
 - Configuración de Aspose.Cells para Java
 - Fusionar datos mediante marcadores inteligentes
 - Implementación de notificaciones durante el proceso de fusión de datos
-- Mejores prácticas para la optimización del rendimiento
+- Mejores prácticas para optimizar el rendimiento
 
 Analicemos los requisitos previos antes de comenzar nuestro viaje con Aspose.Cells Java.
 
@@ -222,6 +224,9 @@ Siguiendo esta guía, ha aprendido a usar Aspose.Cells para Java eficazmente par
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

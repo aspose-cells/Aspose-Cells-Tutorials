@@ -8,7 +8,9 @@ url: /net/excel-ole-picture-objects/position-picture-proportional-excel/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Position Picture (Proportional) in Excel
@@ -113,6 +115,7 @@ For any queries, feel free to visit the [support forum](https://forum.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

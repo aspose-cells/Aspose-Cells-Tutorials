@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -78,7 +80,7 @@ public class InitializeAsposeCells {
 
 ## Guida all'implementazione
 
-Analizzeremo l'implementazione nelle sue caratteristiche principali, fornendoti passaggi dettagliati e frammenti di codice per iniziare.
+Analizzeremo nel dettaglio l'implementazione nelle sue funzionalità principali, fornendoti passaggi dettagliati e frammenti di codice per iniziare.
 
 ### Funzionalità 1: Creazione di istanze e configurazione della cartella di lavoro
 
@@ -228,6 +230,9 @@ In questa guida, hai imparato come creare e configurare cartelle di lavoro di Ex
    - Supporta vari formati Excel, tra cui XLSX e CSV.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

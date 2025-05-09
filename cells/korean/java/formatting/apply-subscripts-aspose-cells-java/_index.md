@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,13 +53,13 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### 라이센스 취득
 
-Aspose.Cells는 무료 체험판, 임시 라이선스, 유료 버전을 제공합니다. 먼저 다운로드하세요. [무료 체험](https://releases.aspose.com/cells/java/) 제한 없이 기능을 탐색할 수 있습니다. 장기 테스트 또는 프로덕션 사용의 경우 [임시 면허](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells는 무료 체험판, 임시 라이선스, 유료 버전을 제공합니다. 먼저 다음 링크를 다운로드하세요. [무료 체험](https://releases.aspose.com/cells/java/) 제한 없이 기능을 탐색할 수 있습니다. 장기 테스트 또는 프로덕션 사용의 경우 [임시 면허](https://purchase.aspose.com/temporary-license/).
 
 #### 기본 초기화
 
 프로젝트에서 Aspose.Cells를 사용하려면:
 1. Java 환경을 설정하고 Maven 또는 Gradle 종속성을 추가합니다.
-2. 초기화 `Workbook` Excel 파일 작업을 시작하려면 개체를 선택합니다.
+2. 초기화 `Workbook` Excel 파일 작업을 시작하려면 개체를 클릭합니다.
 
 ### 구현 가이드
 
@@ -148,6 +150,9 @@ Java의 구독자 서식 기능에 Aspose.Cells를 사용하면 다음과 같은
 Aspose.Cells for Java를 사용하여 강력한 Excel 자동화 기능을 활용해보세요. 더 자세한 정보를 얻으려면 포괄적인 설명서를 꼭 살펴보세요.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

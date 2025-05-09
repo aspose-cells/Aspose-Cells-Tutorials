@@ -1,37 +1,39 @@
 ---
-title: Decimale gegevensvalidatie in Excel
-linktitle: Decimale gegevensvalidatie in Excel
-second_title: Aspose.Cells .NET Excel-verwerkings-API
-description: Ontdek hoe u decimale gegevensvalidatie implementeert in Excel met Aspose.Cells voor .NET met onze eenvoudig te volgen gids. Verbeter moeiteloos de gegevensintegriteit.
-weight: 11
-url: /nl/net/excel-autofilter-validation/decimal-data-validation-in-excel/
+"description": "Ontdek hoe u decimale gegevensvalidatie in Excel implementeert met Aspose.Cells voor .NET met onze gebruiksvriendelijke handleiding. Verbeter moeiteloos de gegevensintegriteit."
+"linktitle": "Decimale gegevensvalidatie in Excel"
+"second_title": "Aspose.Cells .NET Excel-verwerkings-API"
+"title": "Decimale gegevensvalidatie in Excel"
+"url": "/nl/net/excel-autofilter-validation/decimal-data-validation-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Decimale gegevensvalidatie in Excel
 
 ## Invoering
 
-Het maken van spreadsheets met nauwkeurige gegevens is essentieel voor duidelijke communicatie in elk bedrijf. Een manier om de nauwkeurigheid van gegevens te garanderen, is door het gebruik van gegevensvalidatie in Excel. In deze tutorial gaan we de kracht van Aspose.Cells voor .NET gebruiken om een decimaal gegevensvalidatiemechanisme te maken dat uw gegevens betrouwbaar en schoon houdt. Als u uw Excel-spel wilt verbeteren, bent u hier aan het juiste adres!
+Het creëren van spreadsheets met nauwkeurige gegevens is essentieel voor heldere communicatie in elk bedrijf. Eén manier om de nauwkeurigheid van gegevens te garanderen, is door gebruik te maken van gegevensvalidatie in Excel. In deze tutorial gaan we de kracht van Aspose.Cells voor .NET gebruiken om een decimaal gegevensvalidatiemechanisme te creëren dat uw gegevens betrouwbaar en schoon houdt. Als u uw Excel-vaardigheden wilt verbeteren, bent u hier aan het juiste adres!
 
 ## Vereisten
 
 Voordat u aan de slag gaat met de code, moet u ervoor zorgen dat alles klaar staat voor een soepele ervaring:
 
 1. Visual Studio: Download en installeer Visual Studio als u dat nog niet gedaan hebt. Het is de perfecte omgeving voor het ontwikkelen van .NET-applicaties.
-2.  Aspose.Cells voor .NET: U moet de Aspose.Cells-bibliotheek aan uw project toevoegen. U kunt deze downloaden via[deze link](https://releases.aspose.com/cells/net/).
-3. Basiskennis van C#: Hoewel we alles stap voor stap uitleggen, geeft een basiskennis van C#-programmering u een beter begrip van de concepten.
+2. Aspose.Cells voor .NET: Je moet de Aspose.Cells-bibliotheek aan je project toevoegen. Je kunt deze downloaden via [deze link](https://releases.aspose.com/cells/net/).
+3. Basiskennis van C#: We leggen alles stap voor stap uit, maar als u een basiskennis van C#-programmering hebt, krijgt u een beter beeld van de concepten.
 4. .NET Framework: Zorg ervoor dat u het benodigde .NET Framework hebt geïnstalleerd dat compatibel is met Aspose.Cells.
 5. Bibliotheken: Verwijs naar de Aspose.Cells-bibliotheek in uw project om compilatiefouten te voorkomen.
 
-Nu we de basis hebben besproken, kunnen we beginnen met het leukste gedeelte: coderen.
+Nu we de basis hebben besproken, kunnen we beginnen met het leukste deel: coderen.
 
 ## Pakketten importeren
 
-Om te beginnen moet u de benodigde pakketten importeren in uw C#-bestand. Dit stelt u in staat om toegang te krijgen tot Aspose.Cells-functionaliteiten.
+Om te beginnen moet u de benodigde pakketten importeren in uw C#-bestand. Dit geeft u toegang tot de functionaliteiten van Aspose.Cells.
 
 ```csharp
 using System.IO;
@@ -39,7 +41,7 @@ using Aspose.Cells;
 using System;
 ```
 
-Door deze regel boven aan uw bestand op te nemen, geeft u C# opdracht om te zoeken naar de Aspose.Cells-functionaliteit waarmee u Excel-bestanden kunt bewerken.
+Door deze regel bovenaan uw bestand op te nemen, geeft u C# opdracht om te zoeken naar de Aspose.Cells-functionaliteit waarmee u Excel-bestanden kunt bewerken.
 
 Nu we alles hebben voorbereid, gaan we de stappen doorlopen die nodig zijn om decimale gegevensvalidatie in een Excel-werkblad te maken.
 
@@ -51,9 +53,9 @@ Voordat u bestanden kunt opslaan, moet u ervoor zorgen dat uw documentenmap corr
 string dataDir = "Your Document Directory";
 ```
 
- Vervangen`"Your Document Directory"` met het pad waar u uw Excel-bestanden wilt opslaan.
+Vervangen `"Your Document Directory"` met het pad waar u uw Excel-bestanden wilt opslaan.
 
-## Stap 2: Controleer of de directory bestaat
+## Stap 2: Controleren of de directory bestaat
 
 Met dit fragment wordt gecontroleerd of de map bestaat en wordt deze aangemaakt als dat niet het geval is:
 
@@ -63,19 +65,19 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
-Deze stap is alsof je ervoor zorgt dat je werkruimte klaar is voordat je aan een nieuw project begint. Geen rommel, geen stress!
+Deze stap is vergelijkbaar met ervoor zorgen dat je werkruimte klaar is voordat je aan een nieuw project begint. Geen rommel, geen stress!
 
 ## Stap 3: Een werkmapobject maken
 
-Laten we nu een nieuw werkmapobject maken, dat in feite een Excel-bestand is:
+Laten we vervolgens een nieuw werkmapobject maken. Dit is in feite een Excel-bestand:
 
 ```csharp
 Workbook workbook = new Workbook();
 ```
 
-Beschouw een werkboek als een leeg canvas voor uw gegevens. Op dit punt heeft het geen inhoud, maar is het klaar om te worden geschilderd.
+Beschouw een werkmap als een leeg canvas voor je gegevens. Op dit moment heeft het nog geen inhoud, maar is het klaar om geschilderd te worden.
 
-## Stap 4: Maak en open het werkblad
+## Stap 4: Het werkblad maken en openen
 
 
 Laten we nu een werkblad maken en het eerste werkblad in de werkmap openen:
@@ -84,7 +86,7 @@ Laten we nu een werkblad maken en het eerste werkblad in de werkmap openen:
 Worksheet ExcelWorkSheet = workbook.Worksheets[0];
 ```
 
-Net zoals een boek meerdere pagina's heeft, kan een werkboek meerdere werkbladen hebben. We richten ons momenteel op de eerste.
+Net zoals een boek meerdere pagina's heeft, kan een werkboek meerdere werkbladen hebben. We concentreren ons momenteel op het eerste.
 
 ## Stap 5: De validatiecollectie verkrijgen
 
@@ -108,11 +110,11 @@ ca.StartColumn = 0;
 ca.EndColumn = 0;
 ```
 
-Hier bepalen we dat de gegevensvalidatie wordt toegepast op één enkele cel, namelijk de eerste cel in het werkblad (A1).
+Hier bepalen we dat de gegevensvalidatie wordt toegepast op één enkele cel, meer specifiek de eerste cel in het werkblad (A1).
 
 ## Stap 7: Validatie maken en toevoegen
 
-Laten we ons validatieobject maken en toevoegen aan de validatieverzameling:
+Laten we ons validatieobject maken en het toevoegen aan de validatieverzameling:
 
 ```csharp
 Validation validation = validations[validations.Add(ca)];
@@ -128,11 +130,11 @@ Vervolgens specificeren we het type validatie dat we willen:
 validation.Type = ValidationType.Decimal;
 ```
 
-Door het type in te stellen op Decimaal, instrueren we Excel om decimale waarden te verwachten in de gevalideerde cel.
+Door het type in te stellen op Decimaal, instrueren we Excel om decimale waarden in de gevalideerde cel te verwachten.
 
 ## Stap 9: Geef de operator op
 
-Nu specificeren we de voorwaarde voor toegestane waarden. We willen ervoor zorgen dat de ingevoerde gegevens tussen twee bereiken vallen:
+Nu specificeren we de voorwaarden voor toegestane waarden. We willen ervoor zorgen dat de ingevoerde gegevens tussen twee bereiken vallen:
 
 ```csharp
 validation.Operator = OperatorType.Between;
@@ -140,7 +142,7 @@ validation.Operator = OperatorType.Between;
 
 Zie het als het trekken van een grenslijn. Elk getal buiten dit bereik wordt afgewezen, zodat uw gegevens schoon blijven!
 
-## Stap 10: Stel limieten voor validatie vast
+## Stap 10: Stel limieten vast voor validatie
 
 Vervolgens stellen we de onder- en bovengrens voor onze validatie in:
 
@@ -149,7 +151,7 @@ validation.Formula1 = Decimal.MinValue.ToString();
 validation.Formula2 = Decimal.MaxValue.ToString();
 ```
 
-Met deze limieten wordt elk decimaal getal, hoe groot of klein ook, geaccepteerd, zolang het maar geldig is!
+Met deze limieten wordt elk decimaal getal, ongeacht hoe groot of klein, geaccepteerd, zolang het maar geldig is!
 
 ## Stap 11: Het foutbericht aanpassen
 
@@ -159,7 +161,7 @@ Laten we ervoor zorgen dat gebruikers weten waarom hun invoer is afgewezen door 
 validation.ErrorMessage = "Please enter a valid integer or decimal number";
 ```
 
-Dit zorgt voor een gebruiksvriendelijke ervaring, omdat u inzicht krijgt in wat u moet invoeren.
+Dit leidt tot een gebruiksvriendelijke ervaring, omdat u richtlijnen krijgt over wat u moet invoeren.
 
 ## Stap 12: Definieer het validatiegebied
 
@@ -183,7 +185,7 @@ Nu we ons validatiegebied hebben gedefinieerd, kunnen we het toepassen:
 validation.AddArea(area);
 ```
 
-Uw validatie is nu stevig op zijn plaats, klaar om eventuele onjuiste invoer te detecteren!
+Uw validatie staat nu goed op zijn plaats en is klaar om eventuele onjuiste invoer te detecteren!
 
 ## Stap 14: Sla de werkmap op
 
@@ -193,12 +195,12 @@ Laten we ten slotte de werkmap opslaan met onze decimale gegevensvalidatie:
 workbook.Save(dataDir + "output.out.xls");
 ```
 
-En daar heb je het! Je hebt met succes een werkmap met decimale gegevensvalidatie gemaakt met Aspose.Cells voor .NET.
+En voilà! Je hebt met succes een werkmap met decimale gegevensvalidatie gemaakt met Aspose.Cells voor .NET.
 
 ## Conclusie
 
-Het implementeren van decimale gegevensvalidatie in Excel met Aspose.Cells voor .NET is een fluitje van een cent wanneer u deze eenvoudige stappen volgt. U zorgt er niet alleen voor dat de gegevens schoon en gestructureerd blijven, maar u verbetert ook de algehele gegevensintegriteit in uw spreadsheets, waardoor ze betrouwbaar en gebruiksvriendelijk worden.
-Of u nu in de financiële wereld, projectmanagement of een ander vakgebied zit dat gebruikmaakt van datarapportage, het beheersen van deze vaardigheden zal uw productiviteit aanzienlijk verbeteren. Dus ga uw gang, probeer het eens! Uw spreadsheets zullen u er dankbaar voor zijn.
+Het implementeren van decimale gegevensvalidatie in Excel met Aspose.Cells voor .NET is een fluitje van een cent wanneer u deze eenvoudige stappen volgt. U zorgt er niet alleen voor dat de gegevens schoon en gestructureerd blijven, maar verbetert ook de algehele gegevensintegriteit in uw spreadsheets, waardoor ze betrouwbaar en gebruiksvriendelijk worden.
+Of je nu in de financiële wereld, projectmanagement of een ander vakgebied werkt dat datarapportage gebruikt, het beheersen van deze vaardigheden zal je productiviteit aanzienlijk verhogen. Dus ga je gang, probeer het eens! Je spreadsheets zullen je dankbaar zijn.
 
 ## Veelgestelde vragen
 
@@ -206,19 +208,21 @@ Of u nu in de financiële wereld, projectmanagement of een ander vakgebied zit d
 Gegevensvalidatie in Excel is een functie waarmee u het type gegevens dat in een bepaalde cel of bereik kan worden ingevoerd, kunt beperken. Zo blijft de integriteit van de gegevens gewaarborgd.
 
 ### Kan ik de foutmelding bij gegevensvalidatie aanpassen?
-Ja! U kunt aangepaste foutmeldingen opgeven om gebruikers te begeleiden wanneer er onjuiste gegevens worden ingevoerd.
+Ja! U kunt aangepaste foutmeldingen opgeven om gebruikers te helpen bij onjuiste gegevensinvoer.
 
 ### Is Aspose.Cells gratis te gebruiken?
- Aspose.Cells biedt een gratis proefperiode, maar u hebt een licentie nodig voor langdurig gebruik. U kunt meer informatie vinden over het verkrijgen van een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
+Aspose.Cells biedt een gratis proefperiode aan, maar voor langdurig gebruik heb je een licentie nodig. Meer informatie over het verkrijgen van een tijdelijke licentie vind je hier. [hier](https://purchase.aspose.com/temporary-license/).
 
-### Welke gegevenstypen kan ik valideren in Excel?
+### Welke gegevenstypen kan ik in Excel valideren?
 Met Aspose.Cells kunt u verschillende gegevenstypen valideren, waaronder gehele getallen, decimalen, datums, lijsten en aangepaste formules.
 
 ### Waar kan ik meer Aspose.Cells-documentatie vinden?
- U kunt de uitgebreide documentatie verkennen[hier](https://reference.aspose.com/cells/net/).
+U kunt de uitgebreide documentatie verkennen [hier](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

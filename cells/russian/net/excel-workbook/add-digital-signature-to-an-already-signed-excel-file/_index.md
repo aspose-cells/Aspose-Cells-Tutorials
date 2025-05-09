@@ -1,14 +1,16 @@
 ---
-title: Добавить цифровую подпись к уже подписанному файлу Excel
-linktitle: Добавить цифровую подпись к уже подписанному файлу Excel
-second_title: Справочник API Aspose.Cells для .NET
-description: Узнайте, как добавить цифровую подпись к уже подписанному файлу Excel с помощью Aspose.Cells для .NET, воспользовавшись этим подробным пошаговым руководством.
-weight: 30
-url: /ru/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/
+"description": "Узнайте, как добавить цифровую подпись к уже подписанному файлу Excel с помощью Aspose.Cells для .NET, воспользовавшись этим подробным пошаговым руководством."
+"linktitle": "Добавить цифровую подпись к уже подписанному файлу Excel"
+"second_title": "Справочник API Aspose.Cells для .NET"
+"title": "Добавить цифровую подпись к уже подписанному файлу Excel"
+"url": "/ru/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-file/"
+"weight": 30
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Добавить цифровую подпись к уже подписанному файлу Excel
@@ -21,8 +23,8 @@ url: /ru/net/excel-workbook/add-digital-signature-to-an-already-signed-excel-fil
 
 Прежде чем мы перейдем к тонкостям кодирования, вам необходимо иметь под рукой несколько вещей:
 
-1.  Aspose.Cells для .NET: Убедитесь, что в вашем проекте .NET установлена библиотека Aspose.Cells. Вы можете загрузить ее с[сайт](https://releases.aspose.com/cells/net/).
-2.  Файл сертификата: Вам понадобится действительный файл сертификата (обычно`.pfx`файл), содержащий ваш цифровой сертификат. Убедитесь, что вы знаете пароль для этого файла.
+1. Aspose.Cells для .NET: Убедитесь, что в вашем проекте .NET установлена библиотека Aspose.Cells. Вы можете загрузить ее с [сайт](https://releases.aspose.com/cells/net/).
+2. Файл сертификата: Вам понадобится действительный файл сертификата (обычно `.pfx` файл), содержащий ваш цифровой сертификат. Убедитесь, что вы знаете пароль для этого файла.
 3. Среда разработки: настройте среду разработки с помощью Visual Studio или любой другой IDE, поддерживающей .NET.
 4. Базовые знания C#: знакомство с программированием на C# поможет вам легко освоить материал.
 5. Образцы файлов: Имейте образец файла Excel, который уже имеет цифровую подпись. Это будет файл, в который вы добавите новую подпись.
@@ -57,14 +59,14 @@ string outputDir = "Your Document Directory";
 
 ## Шаг 2: Загрузите уже подписанную рабочую книгу
 
- Далее вам нужно загрузить книгу Excel, которую вы хотите изменить. Это делается путем создания экземпляра`Workbook` класс и передача пути к подписанному файлу.
+Далее вам нужно загрузить книгу Excel, которую вы хотите изменить. Это делается путем создания экземпляра `Workbook` класс и передача пути к подписанному файлу.
 
 ```csharp
 // Загрузите рабочую книгу, которая уже имеет цифровую подпись.
 Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDigitallySignedByCells.xlsx");
 ```
 
- Здесь мы загружаем рабочую книгу с именем`sampleDigitallySignedByCells.xlsx`. Убедитесь, что этот файл уже подписан.
+Здесь мы загружаем рабочую книгу с именем `sampleDigitallySignedByCells.xlsx`. Убедитесь, что этот файл уже подписан.
 
 ## Шаг 3: Создайте коллекцию цифровых подписей
 
@@ -75,11 +77,11 @@ Aspose.Cells.Workbook workbook = new Aspose.Cells.Workbook(sourceDir + "sampleDi
 Aspose.Cells.DigitalSignatures.DigitalSignatureCollection dsCollection = new Aspose.Cells.DigitalSignatures.DigitalSignatureCollection();
 ```
 
-Этот шаг имеет решающее значение, поскольку он позволяет вам управлять несколькими подписями при необходимости.
+Этот шаг имеет решающее значение, поскольку он позволяет вам при необходимости управлять несколькими подписями.
 
 ## Шаг 4: Создайте новый сертификат
 
- Вам необходимо загрузить файл сертификата для создания новой цифровой подписи. Здесь вы указываете путь к вашему`.pfx` файл и его пароль.
+Вам необходимо загрузить файл сертификата для создания новой цифровой подписи. Здесь вы указываете путь к вашему `.pfx` файл и его пароль.
 
 ```csharp
 // Файл сертификата и его пароль
@@ -90,7 +92,7 @@ string password = "aspose";
 System.Security.Cryptography.X509Certificates.X509Certificate2 certificate = new System.Security.Cryptography.X509Certificates.X509Certificate2(certFileName, password);
 ```
 
- Обязательно замените`AsposeDemo.pfx`и пароль с фактическим именем файла сертификата и паролем.
+Обязательно замените `AsposeDemo.pfx` и пароль с фактическим именем файла сертификата и паролем.
 
 ## Шаг 5: Создайте цифровую подпись
 
@@ -119,7 +121,7 @@ workbook.AddDigitalSignature(dsCollection);
 Наконец, вам нужно будет сохранить измененную книгу в выходном каталоге и освободить все используемые ресурсы.
 
 ```csharp
-//Сохраните рабочую книгу и утилизируйте ее.
+// Сохраните рабочую книгу и утилизируйте ее.
 workbook.Save(outputDir + "outputDigitallySignedByCells.xlsx");
 workbook.Dispose();
 ```
@@ -134,7 +136,7 @@ workbook.Dispose();
 Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed successfully.\r\n");
 ```
 
-Это дает понять, что ваша операция прошла успешно, а это всегда приятно видеть!
+Это дает понять, что операция прошла успешно, а это всегда приятно видеть!
 
 ## Заключение
 
@@ -149,16 +151,18 @@ Console.WriteLine("AddDigitalSignatureToAnAlreadySignedExcelFile executed succes
 Да, вы можете создать коллекцию цифровых подписей и добавить несколько подписей в одну и ту же книгу.
 
 ### Какие форматы цифровых подписей поддерживает Aspose.Cells?
- Aspose.Cells поддерживает различные форматы, включая`.pfx` для сертификатов.
+Aspose.Cells поддерживает различные форматы, включая `.pfx` для сертификатов.
 
 ### Нужна ли мне определенная версия .NET для использования Aspose.Cells?
- Проверьте[Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для совместимости с вашей версией .NET.
+Проверьте [Документация Aspose.Cells](https://reference.aspose.com/cells/net/) для совместимости с вашей версией .NET.
 
 ### Как получить временную лицензию для Aspose.Cells?
- Вы можете запросить временную лицензию у[Страница покупки Aspose](https://purchase.aspose.com/temporary-license/).
+Вы можете запросить временную лицензию у [Страница покупки Aspose](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

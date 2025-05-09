@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 ### การขอใบอนุญาต
 - **ทดลองใช้งานฟรี**:เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจความสามารถทั้งหมดของ Aspose.Cells
 - **ใบอนุญาตชั่วคราว**:สำหรับการทดสอบแบบขยายเวลา กรุณาขอใบอนุญาตชั่วคราวจากเว็บไซต์ของ Aspose
-- **ซื้อ**:ซื้อใบอนุญาตใช้งานในการผลิต
+- **ซื้อ**:ซื้อใบอนุญาตใช้งานเพื่อการผลิต
 
 ## คู่มือการใช้งาน
 
@@ -180,6 +182,9 @@ workbook.save(outDir + "/CopiedDataAndStyle.xlsx");
 - **ฟอรั่มสนับสนุน**- [ชุมชนสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

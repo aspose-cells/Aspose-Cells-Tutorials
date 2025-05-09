@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -92,7 +94,7 @@ public class FeatureWorkbookInitialization {
         // 新しいワークブックオブジェクトをインスタンス化する
         Workbook workbook = new Workbook();
         
-        // これで、このブックに対して操作を実行できるようになりました。
+        // これで、このワークブックに対して操作を実行できるようになりました。
     }
 }
 ```
@@ -225,6 +227,9 @@ Aspose.Cells を使用する際に最適なパフォーマンスを確保する�
 Aspose.Cells の機能をさらに詳しく調べるには、グラフの作成、データの検証などの高度な機能を検討してください。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

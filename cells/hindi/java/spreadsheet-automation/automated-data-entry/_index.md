@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # स्वचालित डेटा प्रविष्टि
@@ -115,9 +117,11 @@ Aspose.Cells for Java के साथ डेटा प्रविष्टि 
    आप यहां पर दस्तावेज देख सकते हैं [https://reference.aspose.com/cells/java/](https://reference.aspose.com/cells/java/).
 
 अब आपके पास Aspose.Cells for Java का उपयोग करके डेटा प्रविष्टि को प्रभावी ढंग से स्वचालित करने का ज्ञान और उपकरण हैं। अपनी डेटा हैंडलिंग प्रक्रियाओं में सुधार करना शुरू करें और अपनी व्यावसायिक दक्षता को बढ़ाएँ।
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

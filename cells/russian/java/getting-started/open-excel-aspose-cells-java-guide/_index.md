@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,6 +148,9 @@ System.out.println("Cell A1 Value: " + cellValue);
 Более подробную информацию см. [Документация Aspose](https://reference.aspose.com/cells/java/) и изучите дополнительные ресурсы, чтобы расширить свое понимание этой мощной библиотеки.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

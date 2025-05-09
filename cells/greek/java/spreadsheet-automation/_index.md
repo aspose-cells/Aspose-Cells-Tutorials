@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αυτοματοποίηση υπολογιστικών φύλλων
@@ -48,9 +50,11 @@
 Μάθετε πώς να αυτοματοποιείτε εργασίες Excel σε Java με παραδείγματα πηγαίου κώδικα χρησιμοποιώντας το Aspose.Cells, μια ισχυρή βιβλιοθήκη για χειρισμό του Excel.
 ### [Ενοποίηση δεδομένων στο Excel](./data-integration-in-excel/)
 Μάθετε πώς να ενσωματώνετε αποτελεσματικά δεδομένα στο Excel για καλύτερες πληροφορίες και λήψη αποφάσεων. Οδηγός βήμα προς βήμα με πηγαίο κώδικα χρησιμοποιώντας το Aspose.Cells για Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

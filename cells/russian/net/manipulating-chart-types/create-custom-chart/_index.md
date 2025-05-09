@@ -1,14 +1,16 @@
 ---
-title: Создать пользовательскую диаграмму
-linktitle: Создать пользовательскую диаграмму
-second_title: API обработки Excel Aspose.Cells .NET
-description: Узнайте, как создавать пользовательские диаграммы в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по улучшению навыков визуализации данных.
-weight: 10
-url: /ru/net/manipulating-chart-types/create-custom-chart/
+"description": "Узнайте, как создавать пользовательские диаграммы в Excel с помощью Aspose.Cells для .NET. Пошаговое руководство по улучшению навыков визуализации данных."
+"linktitle": "Создать пользовательскую диаграмму"
+"second_title": "API обработки Excel Aspose.Cells .NET"
+"title": "Создать пользовательскую диаграмму"
+"url": "/ru/net/manipulating-chart-types/create-custom-chart/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Создать пользовательскую диаграмму
@@ -22,7 +24,7 @@ url: /ru/net/manipulating-chart-types/create-custom-chart/
 Прежде чем мы углубимся в тонкости создания диаграммы, давайте убедимся, что у вас все на месте. Вот что вам нужно:
 
 1. Visual Studio или любая совместимая с .NET IDE: это будет ваша игровая площадка для написания и тестирования кода.
-2.  Библиотека Aspose.Cells for .NET: Убедитесь, что у вас установлена эта библиотека. Вы можете скачать ее[здесь](https://releases.aspose.com/cells/net/).
+2. Библиотека Aspose.Cells for .NET: Убедитесь, что у вас установлена эта библиотека. Вы можете скачать ее [здесь](https://releases.aspose.com/cells/net/).
 3. Базовые знания C#: вам будет полезно усвоить основные концепции C#, поскольку мы будем использовать их в наших примерах кода.
 4. Образец набора данных: Для создания диаграмм необходимо иметь некоторые данные. В нашем примере мы будем использовать простой набор данных, но вы можете адаптировать его под свои нужды.
 
@@ -55,7 +57,7 @@ string outputDir = "Your Output Directory"; // Измените это на же
 
 ## Шаг 2: Создание экземпляра объекта Workbook
 
- Теперь вам нужно начать с создания нового экземпляра`Workbook`класс. Это фундаментальный строительный блок для любых операций Excel с использованием Aspose.Cells.
+Теперь вам нужно начать с создания нового экземпляра `Workbook` класс. Это фундаментальный строительный блок для любых операций Excel с использованием Aspose.Cells.
 
 ```csharp
 // Создание объекта Workbook
@@ -114,7 +116,7 @@ int chartIndex = worksheet.Charts.Add(ChartType.Column, 5, 0, 25, 10);
 Aspose.Cells.Charts.Chart chart = worksheet.Charts[chartIndex];
 ```
 
- На этом этапе у вас есть`chart` объект, позволяющий изменять его свойства по мере необходимости.
+На этом этапе у вас есть `chart` объект, позволяющий изменять его свойства по мере необходимости.
 
 ## Шаг 7: Добавление ряда данных в диаграмму
 
@@ -147,7 +149,7 @@ chart.NSeries[1].Type = Aspose.Cells.Charts.ChartType.Line;
 workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 ```
 
- Обязательно добавьте имя файла с`.xlsx` расширение, обеспечивающее правильное сохранение рабочей книги.
+Обязательно добавьте имя файла с `.xlsx` расширение, обеспечивающее правильное сохранение рабочей книги.
 
 ## Заключение
 
@@ -161,19 +163,21 @@ workbook.Save(outputDir + "outputHowToCreateCustomChart.xlsx");
 Aspose.Cells — мощная библиотека для работы с файлами Excel в приложениях .NET, позволяющая манипулировать, создавать и преобразовывать документы Excel.
 
 ### Как установить Aspose.Cells для .NET?
- Вы можете установить его через NuGet в Visual Studio или загрузить библиотеку напрямую с сайта[здесь](https://releases.aspose.com/cells/net/).
+Вы можете установить его через NuGet в Visual Studio или загрузить библиотеку напрямую с сайта [здесь](https://releases.aspose.com/cells/net/).
 
 ### Могу ли я создавать разные типы диаграмм?
 Конечно! Aspose.Cells поддерживает различные типы диаграмм, включая столбчатые, линейные, круговые и линейчатые диаграммы.
 
 ### Есть ли способ получить временную лицензию для Aspose.Cells?
- Да, вы можете получить временную лицензию от[эта ссылка](https://purchase.aspose.com/temporary-license/).
+Да, вы можете получить временную лицензию от [эта ссылка](https://purchase.aspose.com/temporary-license/).
 
 ### Где я могу найти дополнительную документацию по Aspose.Cells?
- Вы можете изучить полную документацию[здесь](https://reference.aspose.com/cells/net/).
+Вы можете изучить полную документацию [здесь](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

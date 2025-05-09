@@ -8,7 +8,9 @@ url: /net/rendering-and-export/avoid-blank-page-in-output-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Avoid Blank Page in Output PDF in Aspose.Cells
@@ -92,6 +94,7 @@ After downloading, you can include Aspose.Cells in your project through NuGet Pa
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

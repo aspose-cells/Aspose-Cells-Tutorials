@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -215,11 +217,14 @@ public class SaveWorkbook {
    - Aspose.Cells поддерживает XLSX, XLS, CSV, PDF и другие.
 4. **Как эффективно обрабатывать большие наборы данных?**
    - Обрабатывайте данные по частям, чтобы эффективно управлять использованием памяти.
-5. **Где я могу найти дополнительные ресурсы по Aspose.Cells для Java?**
+5. **Где я могу найти больше ресурсов по Aspose.Cells для Java?**
    - Посетите [официальная документация](https://docs.aspose.com/cells/java/) и изучите форумы сообщества.
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

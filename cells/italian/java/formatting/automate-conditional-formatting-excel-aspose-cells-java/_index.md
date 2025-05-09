@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ fcs.addArea(ca1);
 - Regolazione `StartRow`, `StartColumn`, `EndRow`, E `EndColumn` definisce questo intervallo.
 
 ### Aggiunta di condizioni di formato condizionale
-Infine, aggiungi delle condizioni alla tua regola:
+Infine, aggiungi le condizioni alla tua regola:
 ```java
 import com.aspose.cells.FormatConditionType;
 import com.aspose.cells.OperatorType;
@@ -182,6 +184,9 @@ I prossimi passi prevedono la sperimentazione di diversi tipi di condizioni e l'
 - Supporto: [Forum Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -52,7 +54,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 - Базовые знания программирования на Java.
 - Знакомство со структурами и операциями файлов Excel.
 
-Рассмотрев эти предварительные условия, давайте настроим Aspose.Cells для Java.
+Удовлетворив этим предварительным требованиям, давайте настроим Aspose.Cells для Java.
 
 ## Настройка Aspose.Cells для Java
 Aspose.Cells — это надежная библиотека, которая упрощает работу с файлами Excel в Java. Вот как начать:
@@ -186,6 +188,9 @@ workbook.save(outDir + "UHProperty-out.xls");
 - **Поддерживать**: [Форум поддержки Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

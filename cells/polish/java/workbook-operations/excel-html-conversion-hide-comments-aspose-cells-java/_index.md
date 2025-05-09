@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -51,7 +53,7 @@ Uwzględnij to w swoim `build.gradle` plik:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-**Nabycie licencji**: Zacznij od bezpłatnej wersji próbnej lub tymczasowej licencji od Aspose, aby ocenić możliwości biblioteki. W przypadku długoterminowego użytkowania rozważ zakup subskrypcji.
+**Nabycie licencji**: Zacznij od bezpłatnej wersji próbnej lub tymczasowej licencji od Aspose, aby ocenić możliwości biblioteki. Do długoterminowego użytkowania rozważ zakup subskrypcji.
 
 ### Podstawowa inicjalizacja
 Po skonfigurowaniu zainicjuj obiekt skoroszytu w Javie:
@@ -160,6 +162,9 @@ Aby jeszcze lepiej wykorzystać potencjał biblioteki, rozważ eksperymentowanie
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

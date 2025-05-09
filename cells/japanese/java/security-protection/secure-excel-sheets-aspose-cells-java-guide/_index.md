@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -151,7 +153,7 @@ Excel シートを保護する準備はできましたか? まずは、提供さ
    - 各ワークシートをループし、必要な保護を適用します。 `WorksheetCollection`。
 
 **2. すでに保護されているワークシートの保護を解除できますか?**
-   - はい、使用します `worksheet.unprotect("password")` 正しいパスワードを入力してください。
+   - はい、使います `worksheet.unprotect("password")` 正しいパスワードを入力してください。
 
 **3. ユーザーロールごとに保護オプションをカスタマイズする方法はありますか?**
    - Aspose.Cells はロールベースの権限を直接サポートしていませんが、Java アプリケーションの条件に基づいてプログラムでさまざまな保護を設定できます。
@@ -174,6 +176,9 @@ Excel シートを保護する準備はできましたか? まずは、提供さ
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

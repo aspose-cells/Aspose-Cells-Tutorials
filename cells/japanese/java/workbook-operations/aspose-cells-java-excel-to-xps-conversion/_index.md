@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -88,7 +90,7 @@ Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 読み込んだら、 `save` ExcelファイルをXPS形式に変換して保存する方法。出力パスと形式（`SaveFormat.XPS`) を保存します。
 
 #### ステップ2：変換して保存する
-次を使用して、ブックを XPS ドキュメントに変換します。
+次を使用して、ワークブックを XPS ドキュメントに変換します。
 ```java
 workbook.save("QEToXPSConversion_out.xps", SaveFormat.XPS);
 ```
@@ -144,6 +146,9 @@ Aspose.Cells for Javaを使ってExcelファイルをXPSファイルに変換す
 - [Aspose サポートフォーラム](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

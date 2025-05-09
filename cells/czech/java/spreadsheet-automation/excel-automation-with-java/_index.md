@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatizace Excelu s Javou
@@ -124,9 +126,11 @@ Aspose.Cells pro Javu vám umožňuje efektivně automatizovat úlohy v Excelu. 
 ---
 
 Tato podrobná příručka s příklady zdrojového kódu by vám měla poskytnout solidní základ pro automatizaci Excelu v Javě pomocí Aspose.Cells. Přejeme vám příjemné programování a automatizaci vašich úkolů v Excelu!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Techniki maskowania danych
@@ -16,7 +18,7 @@
 
 ## Wstęp
 
-W świecie bezpieczeństwa danych ochrona poufnych informacji jest najważniejsza. Maskowanie danych, znane również jako anonimizacja danych, jest kluczową techniką stosowaną do ochrony poufnych danych przy jednoczesnym zachowaniu ich użyteczności. W tym artykule opisano, jak wdrożyć techniki maskowania danych przy użyciu Aspose.Cells for Java, potężnego interfejsu API do pracy z plikami Excel. Przeprowadzimy proces krok po kroku, podając przykłady kodu i spostrzeżenia.
+świecie bezpieczeństwa danych ochrona poufnych informacji jest najważniejsza. Maskowanie danych, znane również jako anonimizacja danych, jest kluczową techniką stosowaną do ochrony poufnych danych przy jednoczesnym zachowaniu ich użyteczności. W tym artykule opisano, jak wdrożyć techniki maskowania danych przy użyciu Aspose.Cells for Java, potężnego interfejsu API do pracy z plikami Excel. Przeprowadzimy proces krok po kroku, podając przykłady kodu i spostrzeżenia.
 
 ## Wymagania wstępne
 
@@ -77,7 +79,7 @@ Teraz przyjrzyjmy się kilku powszechnie stosowanym technikom maskowania danych 
 Redakcja polega na zastąpieniu poufnych danych symbolami zastępczymi lub losowymi wartościami. Zapewnia to, że oryginalnych informacji nie można wywnioskować.
 
 ```java
-// Redagowanie wartości komórki
+// Usuń wartość komórki
 cell.putValue("Sensitive Data");
 cell.setFormulaLocal("REDACT()");
 ```
@@ -133,6 +135,7 @@ Aby poznać najlepsze praktyki dotyczące maskowania danych i ich bezpieczeństw
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

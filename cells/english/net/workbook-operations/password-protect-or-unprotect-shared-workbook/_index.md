@@ -8,7 +8,9 @@ url: /net/workbook-operations/password-protect-or-unprotect-shared-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Password Protect or Unprotect Shared Workbook
@@ -85,9 +87,11 @@ While this tutorial is focused on .NET, Aspose.Cells is also available for Java,
 You can find more examples and detailed documentation on the [Aspose.Cells documentation page](https://reference.aspose.com/cells/net/).
 ### What should I do if I encounter support issues?
 If you face any challenges, feel free to visit the [Aspose forum](https://forum.aspose.com/c/cells/9) for community support.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

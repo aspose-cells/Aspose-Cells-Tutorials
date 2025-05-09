@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -157,6 +159,9 @@ In deze tutorial heb je geleerd hoe je je Excel-werkmappen kunt beveiligen met A
    - Ja, Aspose.Cells ondersteunt een breed scala aan Excel-bestandsindelingen, inclusief oudere versies zoals `.xls` en nieuwere zoals `.xlsx`.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

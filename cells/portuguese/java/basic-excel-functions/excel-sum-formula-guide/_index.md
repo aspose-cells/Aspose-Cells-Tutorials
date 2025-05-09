@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Guia de Fórmulas SOMA do Excel
@@ -78,7 +80,7 @@ workbook.save("sample.xlsx");
 
 Neste exemplo, usamos o `setFormula` método para aplicar a fórmula SOMA à célula B1, somando os valores nas células A1 a A10.
 
-## Aplicando SOMA em diferentes intervalos
+## Aplicando SUM em diferentes intervalos
 
 Você também pode aplicar a fórmula SOMA a vários intervalos na sua planilha. Por exemplo, se você tiver dados em colunas ou linhas diferentes que deseja adicionar separadamente, faça assim:
 
@@ -150,6 +152,7 @@ Você pode acessar documentação abrangente e recursos adicionais para Aspose.C
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

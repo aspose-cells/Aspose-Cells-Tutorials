@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -49,7 +51,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 ### Configurazione dell'ambiente
 
-Assicurati di avere Java installato sul tuo sistema e di avere familiarità con i concetti base della programmazione Java.
+Assicurati di aver installato Java sul tuo sistema e di avere familiarità con i concetti base della programmazione Java.
 
 ### Fasi di acquisizione della licenza
 
@@ -90,7 +92,7 @@ Questa sezione ti guiderà nell'applicazione dei subtotali e nella personalizzaz
 
 ### Istruzioni passo passo
 
-#### 1. Carica la cartella di lavoro di origine
+#### 1. Carica la tua cartella di lavoro di origine
 
 Per prima cosa, carica il file Excel contenente i tuoi dati:
 
@@ -203,6 +205,9 @@ Per esplorare ulteriormente le funzionalità di Aspose.Cells, consulta [Document
 Sfrutta la potenza di Aspose.Cells per Java e porta l'automazione di Excel a un livello superiore!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

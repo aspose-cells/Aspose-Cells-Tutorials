@@ -8,7 +8,9 @@ url: /net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read And Write External Connection Of XLSB File
@@ -145,6 +147,7 @@ You can get support from the Aspose forums [here](https://forum.aspose.com/c/cel
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

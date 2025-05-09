@@ -8,7 +8,9 @@ url: /net/inserting-controls-in-charts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Inserting Controls in Charts
@@ -46,9 +48,11 @@ Learn how to easily add pictures to Excel charts using Aspose.Cells for .NET. En
 Learn how to add a TextBox to charts in Excel using Aspose.Cells for .NET. Enhance your data visualization effortlessly.
 ### [Insert Checkbox in Chart Sheet](./insert-checkbox-in-chart-sheet/)
 Learn how to easily insert a checkbox in an Excel chart sheet using Aspose.Cells for .NET with this step-by-step tutorial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

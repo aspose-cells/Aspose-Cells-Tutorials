@@ -1,14 +1,16 @@
 ---
-title: Đầu ra trang trống nếu không có gì để in trong Aspose.Cells
-linktitle: Đầu ra trang trống nếu không có gì để in trong Aspose.Cells
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách in trang trắng bằng Aspose.Cells cho .NET, đảm bảo báo cáo của bạn luôn trông chuyên nghiệp, ngay cả khi trống.
-weight: 17
-url: /vi/net/rendering-and-export/output-blank-page-when-nothing-to-print/
+"description": "Tìm hiểu cách in trang trắng bằng Aspose.Cells cho .NET, đảm bảo báo cáo của bạn luôn trông chuyên nghiệp, ngay cả khi trống."
+"linktitle": "Đầu ra trang trống nếu không có gì để in trong Aspose.Cells"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Đầu ra trang trống nếu không có gì để in trong Aspose.Cells"
+"url": "/vi/net/rendering-and-export/output-blank-page-when-nothing-to-print/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đầu ra trang trống nếu không có gì để in trong Aspose.Cells
@@ -17,7 +19,7 @@ url: /vi/net/rendering-and-export/output-blank-page-when-nothing-to-print/
 Khi làm việc với các tệp Excel, chúng ta thường muốn đảm bảo rằng các báo cáo của mình hoàn hảo, nghĩa là từng chi tiết được ghi lại chính xác như chúng ta mong muốn – ngay cả khi điều đó bao gồm cả việc in các trang trắng. Bạn đã bao giờ thấy mình trong tình huống mong muốn in một trang trắng nhưng không có gì xuất hiện chưa? Thật bực bội, phải không? May mắn thay, Aspose.Cells for .NET có một tính năng cho phép bạn in một trang trắng khi không có gì để in trên bảng tính. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách triển khai chức năng này từng bước. Vậy hãy cùng bắt đầu ngay nhé!
 ## Điều kiện tiên quyết
 Trước khi bắt đầu mã hóa và triển khai, bạn cần thiết lập một số thứ trên máy của mình:
-1.  Aspose.Cells cho Thư viện .NET: Trước tiên và quan trọng nhất, hãy đảm bảo rằng bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ[trang tải xuống](https://releases.aspose.com/cells/net/). 
+1. Aspose.Cells cho Thư viện .NET: Trước tiên và quan trọng nhất, hãy đảm bảo rằng bạn đã cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống từ [trang tải xuống](https://releases.aspose.com/cells/net/). 
 2. Môi trường phát triển: Đảm bảo bạn đang làm việc trong môi trường phát triển .NET phù hợp, chẳng hạn như Visual Studio.
 3. Hiểu biết cơ bản về C#: Hướng dẫn này giả định rằng bạn có hiểu biết cơ bản về lập trình C# và cách làm việc với các ứng dụng .NET.
 4. Kiến thức về cách làm việc với tệp Excel: Biết cách sử dụng Excel và các chức năng của nó sẽ giúp bạn hiểu rõ hơn về hướng dẫn này.
@@ -38,7 +40,7 @@ Trước khi làm bất cứ điều gì khác, hãy thiết lập thư mục đ
 ```csharp
 string outputDir = "Your Document Directory"; // Chỉ định đường dẫn của riêng bạn ở đây
 ```
- Hãy chắc chắn thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp hình ảnh của mình.
+Hãy chắc chắn thay thế `"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu tệp hình ảnh của mình.
 ## Bước 2: Tạo một phiên bản Workbook
 Bây giờ chúng ta đã có một thư mục, đã đến lúc tạo một sổ làm việc mới. Hãy nghĩ về sổ làm việc như một bức tranh mới đang chờ kiệt tác của bạn!
 ```csharp
@@ -58,7 +60,7 @@ ImageOrPrintOptions opts = new ImageOrPrintOptions();
 opts.ImageType = Drawing.ImageType.Png;
 opts.OutputBlankPageWhenNothingToPrint = true;
 ```
-Trong đoạn mã này, chúng ta định nghĩa rằng chúng ta muốn đầu ra là hình ảnh PNG và muốn in ra một trang trắng nếu không có gì để hiển thị.
+Trong đoạn mã này, chúng tôi xác định rằng chúng tôi muốn đầu ra là hình ảnh PNG và muốn in một trang trắng nếu không có gì để hiển thị.
 ## Bước 5: Kết xuất trang tính trống thành hình ảnh
 Với các tùy chọn được thiết lập, giờ đây chúng ta có thể kết xuất bảng tính trống của mình thành hình ảnh. Bước này là nơi mọi thứ chúng ta đã làm cho đến nay kết hợp lại với nhau. 
 ```csharp
@@ -78,16 +80,18 @@ Và bạn đã có nó! Bạn đã thiết lập thành công Aspose.Cells để
 ### Aspose.Cells là gì?  
 Aspose.Cells là một thư viện .NET mạnh mẽ để xử lý các tệp Excel mà không cần cài đặt Microsoft Excel.
 ### Tôi có thể dùng thử Aspose.Cells miễn phí không?  
- Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể tải xuống phiên bản dùng thử miễn phí [đây](https://releases.aspose.com/).
 ### Tôi có thể mua Aspose.Cells ở đâu?  
- Bạn có thể mua Aspose.Cells từ[trang mua hàng](https://purchase.aspose.com/buy).
+Bạn có thể mua Aspose.Cells từ [trang mua hàng](https://purchase.aspose.com/buy).
 ### Có cách nào để xin được giấy phép tạm thời để dùng thử không?  
-Có, bạn có thể mua giấy phép tạm thời cho Aspose.Cells[đây](https://purchase.aspose.com/temporary-license/).
+Có, bạn có thể mua giấy phép tạm thời cho Aspose.Cells [đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi phải làm gì nếu gặp vấn đề?  
- Kiểm tra[diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được cộng đồng trợ giúp hoặc liên hệ với bộ phận hỗ trợ của Aspose.
+Kiểm tra [diễn đàn hỗ trợ](https://forum.aspose.com/c/cells/9) để được cộng đồng trợ giúp hoặc liên hệ với bộ phận hỗ trợ của Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

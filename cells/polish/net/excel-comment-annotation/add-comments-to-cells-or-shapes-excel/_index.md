@@ -1,14 +1,16 @@
 ---
-title: Dodawanie komentarzy do komórek lub kształtów w programie Excel
-linktitle: Dodawanie komentarzy do komórek lub kształtów w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak dodawać komentarze do komórek w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla początkujących, który pomoże Ci ulepszyć funkcjonalność programu Excel.
-weight: 11
-url: /pl/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/
+"description": "Dowiedz się, jak dodawać komentarze do komórek w programie Excel za pomocą Aspose.Cells dla .NET. Przewodnik krok po kroku dla początkujących, który pomoże Ci ulepszyć funkcjonalność programu Excel."
+"linktitle": "Dodawanie komentarzy do komórek lub kształtów w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodawanie komentarzy do komórek lub kształtów w programie Excel"
+"url": "/pl/net/excel-comment-annotation/add-comments-to-cells-or-shapes-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodawanie komentarzy do komórek lub kształtów w programie Excel
@@ -18,9 +20,9 @@ Czy chcesz ulepszyć swoje dokumenty Excela, dodając komentarze do komórek lub
 ## Wymagania wstępne
 Zanim rozpoczniemy naszą podróż do dodawania komentarzy do arkuszy Excela, upewnijmy się, że masz wszystko, czego potrzebujesz. Oto, co powinieneś mieć:
 - Zainstalowany program Visual Studio: Będziesz potrzebować IDE, w którym możesz pisać i kompilować aplikacje .NET. Program Visual Studio jest popularnym wyborem dla wielu programistów.
--  Pakiet Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. To solidne narzędzie do manipulowania plikami Excel. Możesz je pobrać ze strony[strona wydania](https://releases.aspose.com/cells/net/).
+- Pakiet Aspose.Cells: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Cells. To solidne narzędzie do manipulowania plikami Excel. Możesz je pobrać ze strony [strona wydania](https://releases.aspose.com/cells/net/).
 - Podstawowa znajomość języka C#: Podstawowa znajomość programowania w języku C# będzie pomocna, ponieważ wszystkie przykłady będą wykorzystywać ten język programowania.
--  Licencja Aspose.Cells: Aby uzyskać rozszerzone funkcje, rozważ zakup licencji, ale możesz też zacząć od[bezpłatny okres próbny](https://releases.aspose.com/), co wiąże się z pewnymi ograniczeniami.
+- Licencja Aspose.Cells: Aby uzyskać rozszerzone funkcje, rozważ zakup licencji, ale możesz też zacząć od [bezpłatny okres próbny](https://releases.aspose.com/), co wiąże się z pewnymi ograniczeniami.
 ## Importuj pakiety
 Aby rozpocząć pracę z Aspose.Cells, pierwszą rzeczą, którą musisz zrobić, jest zaimportowanie niezbędnych pakietów do swojego projektu C#. Oto, jak to zrobić:
 ### Otwórz swój projekt
@@ -51,7 +53,7 @@ if (!IsExists)
 ```
 Tutaj sprawdzamy, czy katalog istnieje. Jeśli nie, tworzymy go. To tak, jakbyśmy upewnili się, że masz dom, zanim zaczniesz ustawiać meble!
 ## Krok 2: Tworzenie instancji obiektu skoroszytu
-Teraz musimy utworzyć nową instancję skoroszytu, w której będziemy wykonywać całą naszą magię.
+Teraz musimy utworzyć nową instancję skoroszytu, w której wykonamy całą naszą pracę.
 ```csharp
 // Tworzenie instancji obiektu skoroszytu
 Workbook workbook = new Workbook();
@@ -93,14 +95,14 @@ comment.Note = "Hello Aspose!";
 ```
 Wyobraź sobie, że piszesz na swojej karteczce samoprzylepnej. Przelewasz swoje myśli na słowa!
 ## Krok 8: Zapisywanie pliku Excel
-Na koniec, ale nie mniej ważne, musimy zapisać naszą ciężką pracę. To zapisze skoroszyt z dołączonym naszym komentarzem!
+Na koniec, ale nie mniej ważne, musimy zapisać naszą ciężką pracę. To zapisze skoroszyt z dołączonym komentarzem!
 ```csharp
 // Zapisywanie pliku Excel
 workbook.Save(dataDir + "book1.out.xls");
 ```
 Ten krok jest jak zamknięcie książki po napisaniu fantastycznej historii — chcesz mieć pewność, że zostanie ona zapisana!
 ## Wniosek
-masz to! Udało Ci się dodać komentarze do komórek w pliku Excela za pomocą Aspose.Cells dla .NET. Komentarze mogą być przydatne w projektach grupowych lub po prostu do pozostawiania przypomnień dla siebie. Teraz, gdy przeszedłeś przez cały proces, jesteś przygotowany, aby przenieść swoje umiejętności Excela na wyższy poziom.
+I masz to! Udało Ci się dodać komentarze do komórek w pliku Excela za pomocą Aspose.Cells dla .NET. Komentarze mogą być przydatne w projektach grupowych lub po prostu do pozostawiania przypomnień dla siebie. Teraz, gdy przeszedłeś przez cały proces, jesteś przygotowany, aby przenieść swoje umiejętności Excela na wyższy poziom.
 ## Najczęściej zadawane pytania
 ### Czy mogę dodawać komentarze do kształtów używając Aspose.Cells?
 Tak! Możesz dodawać komentarze do kształtów w podobny sposób, jak robisz to w przypadku komórek.
@@ -109,12 +111,14 @@ Aspose.Cells obsługuje różne formaty, w tym XLS, XLSX, CSV i inne.
 ### Czy korzystanie z Aspose.Cells jest bezpłatne?
 Aspose.Cells oferuje bezpłatną wersję próbną, jednak aby uzyskać dostęp do wszystkich funkcji, może być konieczny zakup licencji.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Możesz uzyskać pomoc odwiedzając stronę[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać pomoc odwiedzając stronę [Forum Aspose](https://forum.aspose.com/c/cells/9).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Cells?
- Tymczasową licencję można uzyskać w[Strona licencji Aspose](https://purchase.aspose.com/temporary-license/).
+Tymczasową licencję można uzyskać w [Strona licencji Aspose](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

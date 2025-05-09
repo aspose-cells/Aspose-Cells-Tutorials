@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -112,7 +114,7 @@ Zapisanie skoroszytu przy użyciu tych opcji zapewnia odpowiednie ukrycie nakła
 
 1. **Sprawozdawczość biznesowa**:Udostępniaj interesariuszom dynamiczne raporty programu Excel w formie stron internetowych, dzięki czemu dane będą łatwe w nawigacji i nie będą się powtarzać.
 2. **Zasoby edukacyjne**:Konwertuj złożone arkusze kalkulacyjne do interaktywnych formatów HTML na potrzeby platform do nauki online.
-3. **Wizualizacja danych**:Ulepsz prezentację danych, osadzając przekonwertowane pliki HTML w panelach sterowania i witrynach internetowych.
+3. **Wizualizacja danych**:Ulepsz prezentację danych, osadzając przekonwertowane pliki HTML w pulpitach nawigacyjnych i witrynach internetowych.
 
 ## Rozważania dotyczące wydajności
 
@@ -151,6 +153,9 @@ Poznaj dodatkowe funkcje Aspose.Cells, takie jak konwersja wykresów i formatowa
 Niniejszy samouczek stanowi kompleksowy przewodnik po konwersji plików Excel do formatu HTML przy użyciu pakietu Aspose.Cells for Java, zapewniając przejrzystość i funkcjonalność prezentacji internetowych.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,14 +1,16 @@
 ---
-title: Dodaj łuk do arkusza kalkulacyjnego w programie Excel
-linktitle: Dodaj łuk do arkusza kalkulacyjnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się dodawać łuki do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć projekty arkuszy kalkulacyjnych.
-weight: 16
-url: /pl/net/excel-shapes-controls/add-arc-to-worksheet-excel/
+"description": "Naucz się dodawać łuki do arkuszy kalkulacyjnych programu Excel za pomocą Aspose.Cells dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ulepszyć projekty arkuszy kalkulacyjnych."
+"linktitle": "Dodaj łuk do arkusza kalkulacyjnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dodaj łuk do arkusza kalkulacyjnego w programie Excel"
+"url": "/pl/net/excel-shapes-controls/add-arc-to-worksheet-excel/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dodaj łuk do arkusza kalkulacyjnego w programie Excel
@@ -19,7 +21,7 @@ Tworzenie atrakcyjnych wizualnie arkuszy kalkulacyjnych programu Excel jest kluc
 Zanim zagłębimy się w zawiłości dodawania łuków do arkusza kalkulacyjnego, ważne jest, aby upewnić się, że masz kilka rzeczy na miejscu. Oto wymagania wstępne, których będziesz potrzebować, aby zacząć:
 1. Visual Studio: Musisz mieć zainstalowany na swoim komputerze program Visual Studio, ponieważ w naszym programie będziemy używać języka C#.
 2. .NET Framework: Upewnij się, że masz zainstalowany .NET Framework lub .NET Core. Aspose.Cells obsługuje oba.
-3. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać ze strony[Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/) strona.
+3. Aspose.Cells dla .NET: Musisz mieć bibliotekę Aspose.Cells. Możesz ją pobrać ze strony [Pobieranie Aspose.Cells](https://releases.aspose.com/cells/net/) strona.
 4. Podstawowa znajomość języka C#: Znajomość języka C# pomoże Ci bez problemu śledzić fragmenty kodu.
 ## Importuj pakiety
 Aby rozpocząć pracę z Aspose.Cells w swoim projekcie, musisz zaimportować niezbędne pakiety. Oto jak to zrobić:
@@ -32,7 +34,7 @@ Aby rozpocząć pracę z Aspose.Cells w swoim projekcie, musisz zaimportować ni
 - Kliknij prawym przyciskiem myszy swój projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
 - Wyszukaj „Aspose.Cells” i zainstaluj.
-Teraz możesz rozpocząć kodowanie dodawania łuków.
+Teraz możesz rozpocząć kodowanie dodawania łukowego.
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -63,7 +65,7 @@ Teraz dodajmy pierwszy kształt łuku do arkusza kalkulacyjnego.
 // Dodaj kształt łuku.
 Aspose.Cells.Drawing.ArcShape arc1 = excelbook.Worksheets[0].Shapes.AddArc(2, 0, 2, 0, 130, 130);
 ```
- Tutaj dodajemy łuk do pierwszego arkusza kalkulacyjnego. Parametry definiują pozycję i rozmiar łuku:`(left, top, width, height, startAngle, endAngle)`To jak kreślenie odcinka koła!
+Tutaj dodajemy łuk do pierwszego arkusza kalkulacyjnego. Parametry definiują pozycję i rozmiar łuku: `(left, top, width, height, startAngle, endAngle)`To jak kreślenie odcinka koła!
 ## Krok 4: Dostosuj pierwszy łuk
 Po dodaniu łuku możesz chcieć dostosować jego wygląd.
 ```csharp
@@ -110,18 +112,20 @@ Ta linia działa jak naciśnięcie przycisku zapisz. Zapisujemy naszą pracę w 
 tym samouczku zbadaliśmy proces dodawania kształtów łuków do arkusza kalkulacyjnego programu Excel przy użyciu Aspose.Cells dla .NET. Dzięki prostemu przewodnikowi krok po kroku nauczyłeś się, jak utworzyć nowy skoroszyt, dodać łuki, dostosować ich wygląd i zapisać dokument. Ta możliwość nie tylko poprawia atrakcyjność wizualną arkuszy kalkulacyjnych, ale także sprawia, że prezentacje danych są bardziej pouczające. Niezależnie od tego, czy tworzysz wykresy, raporty, czy po prostu eksperymentujesz, używanie kształtów, takich jak łuki, może dodać kreatywny akcent do Twoich projektów.
 ## Najczęściej zadawane pytania
 ### Czym jest Aspose.Cells?
-Aspose.Cells to zaawansowana biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excela programowo, bez konieczności używania programu Microsoft Excel.
+Aspose.Cells to potężna biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie plików Excela programowo, bez konieczności używania programu Microsoft Excel.
 ### Czy muszę zainstalować program Microsoft Excel, aby korzystać z Aspose.Cells?
 Nie, Aspose.Cells jest całkowicie niezależny i nie wymaga instalacji programu Microsoft Excel.
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak, możesz wypróbować Aspose.Cells, używając ich[Bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak, możesz wypróbować Aspose.Cells, używając ich [Bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Jakie języki programowania obsługuje Aspose.Cells?
 Aspose.Cells obsługuje wiele języków, w tym C#, VB.NET i inne.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Cells?
- Możesz uzyskać wsparcie poprzez[Forum Aspose](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać wsparcie poprzez [Forum Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

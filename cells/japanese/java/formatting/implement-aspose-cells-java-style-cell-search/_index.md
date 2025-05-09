@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -22,7 +24,7 @@
 - Excel ブックをアプリケーションに読み込みます。
 - ワークブック内のワークシートと特定のセルのスタイルにアクセスします。
 - 検索オプションを使用して、スタイルに基づいてセルを検索および変更します。
-- 変更されたワークブックを効率的に保存します。
+- 変更されたブックを効率的に保存します。
 
 まずは、この手順を実行するために必要な前提条件から始めましょう。
 
@@ -162,7 +164,7 @@ Aspose.Cells for Java は、次のようなさまざまな実際のシナリオ�
 
 Java で大規模なデータセットを操作する場合は、次のパフォーマンスのヒントを考慮してください。
 - **メモリ使用量を最適化:** メモリを節約するために、必要なワークシートまたは範囲のみを読み込みます。
-- **効率的な検索:** 使用 `FindOptions` 検索範囲を賢く制限して速度を向上させましょう。
+- **効率的な検索:** 使用 `FindOptions` 検索範囲を賢く制限し、速度を向上させます。
 - **リソースの管理:** メモリ リークを防ぐために、使用後はオブジェクトを適切に破棄します。
 
 ## 結論
@@ -192,6 +194,9 @@ A5: `save()` 方法 `Workbook` 出力パスを指定するオブジェクト。
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

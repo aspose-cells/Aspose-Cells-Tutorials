@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Anpassade diagrammallar
@@ -16,7 +18,7 @@
 
 ## Anpassad diagrammall
 
-I den ständigt föränderliga världen av datavisualisering är det viktigt att skapa anpassade diagrammallar för att effektivt förmedla din datas historia. Aspose.Cells för Java tillhandahåller en kraftfull verktygsuppsättning för att generera dynamiska och anpassade diagram i Java-applikationer. I den här steg-för-steg-guiden utforskar vi hur man utnyttjar funktionerna i Aspose.Cells för Java för att skapa fantastiska anpassade diagrammallar. Nu kör vi!
+den ständigt föränderliga världen av datavisualisering är det viktigt att skapa anpassade diagrammallar för att effektivt förmedla din datas historia. Aspose.Cells för Java tillhandahåller en kraftfull verktygsuppsättning för att generera dynamiska och anpassade diagram i Java-applikationer. I den här steg-för-steg-guiden utforskar vi hur man utnyttjar funktionerna i Aspose.Cells för Java för att skapa fantastiska anpassade diagrammallar. Nu kör vi!
 
 ## Förstå Aspose.Cells för Java
 
@@ -127,6 +129,7 @@ För omfattande dokumentation och exempel, besök Aspose.Cells för Java-dokumen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

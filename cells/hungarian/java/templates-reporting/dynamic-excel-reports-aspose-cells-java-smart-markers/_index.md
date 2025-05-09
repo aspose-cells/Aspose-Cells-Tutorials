@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -96,7 +98,7 @@ Workbook workbook = new Workbook();
 
 #### 3.2. lépés: Az első munkalap elérése
 ```java
-// A munkafüzet első munkalapjának lekérése
+// munkafüzet első munkalapjának lekérése
 Worksheet worksheet = workbook.getWorksheets().get(0);
 ```
 
@@ -235,6 +237,9 @@ A: Az intelligens jelölők lehetővé teszik a beágyazott tulajdonságok haszn
 V: A lehetőségek közé tartozik az ingyenes próbaverzió, az ideiglenes licenc és a teljes vásárlás. Látogassa meg a következőt: [Aspose weboldala](https://purchase.aspose.com/buy) további információkért.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

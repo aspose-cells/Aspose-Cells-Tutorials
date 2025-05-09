@@ -1,51 +1,56 @@
 ---
-title: Modificar a alinhamento de texto de forma no Excel usando Aspose.Cells
-weight: 7700
-limit: 
-description: Aprenda a manipular texto dentro de uma forma em uma folha de trabalho do Excel usando Aspose.Cells para .NET. Configure propriedades de alinhamento de texto e salve o manual de trabalho modificado.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /pt/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Aprenda a manipular texto dentro de uma forma em uma planilha do Excel usando o Aspose.Cells para .NET. Defina as propriedades de alinhamento do texto e salve a pasta de trabalho modificada."
+"title": "Modificar o alinhamento do texto da forma no Excel usando Aspose.Cells"
+"url": "/pt/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modificar a alinhamento de texto de forma no Excel usando Aspose.Cells
+# Modificar o alinhamento do texto da forma no Excel usando Aspose.Cells
 
-Este tutorial demonstra como modificar o alinhamento de texto dentro de uma forma em uma folha de trabalho do Excel usando Aspose.Cells para .NET. Aproveitando as poderosas características de Aspose.Cells, você pode evitar que o texto gire com uma forma e personalizar as propriedades de alinhamento de texto. O exemplo o guia através do carregamento de um arquivo do Excel, acessar uma folha de trabalho, modificar o texto dentro de uma forma e salvar o livro de trabalho atualizado. Se você está automatizando relatórios, criando modelos ou personalizando visuais do Excel, este guia passo a passo torna isso simples.  
+Este tutorial demonstra como modificar o alinhamento do texto dentro de uma forma em uma planilha do Excel usando o Aspose.Cells para .NET. Aproveitando os poderosos recursos do Aspose.Cells, você pode impedir que o texto gire com uma forma e personalizar as propriedades de alinhamento do texto. O exemplo orienta você no carregamento de um arquivo do Excel, no acesso a uma planilha, na modificação do texto dentro de uma forma e no salvamento da pasta de trabalho atualizada. Seja para automatizar relatórios, criar modelos ou personalizar visuais do Excel, este guia passo a passo simplifica tudo.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instruções de instalação:  
 
-Para usar Aspose.Cells para .NET no seu projeto, siga estes passos:  
+Para usar o Aspose.Cells para .NET em seu projeto, siga estas etapas:  
 
-1. Instalar através do Gerente de Pacotes NuGet:  
-   * Abre o Visual Studio.  
-   * Vá para Ferramentas → Gerente de Pacotes NuGet → Gerencie Pacotes NuGet para Solução.  
-   * Procure Aspose.Cells e instale a versão mais recente.  
+1. Instalar via Gerenciador de Pacotes NuGet:  
+   - Abra o Visual Studio.  
+   - Acesse Ferramentas → Gerenciador de Pacotes NuGet → Gerenciar Pacotes NuGet para Solução.  
+   - Procure por Aspose.Cells e instale a versão mais recente.  
 
-2. Instalar através da Consola do Gestor de Pacotes:  
-   * Console de Gestor de Pacotes Aberto no Visual Studio.  
-   * Executa o comando:  
+2. Instalar via Console do Gerenciador de Pacotes:  
+   - Abra o Console do Gerenciador de Pacotes no Visual Studio.  
+   - Execute o comando:  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Descarregar do site Aspose:  
-   * Baixe a versão mais recente de [Aspose.Cells para .NET Download](https://releases.aspose.com/cells/net/)\- Não .  
-   * Adicione o DLL às referências do projeto.  
+3. Baixe do site da Aspose:  
+   - Baixe a versão mais recente em [Baixar Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).  
+   - Adicione a DLL às referências do seu projeto.  
 
 ## Veja também  
-Para comprar uma licença, vai para o[Aponta a página de compra](https://purchase.aspose.com/buy)\- Não .  
-Para obter a documentação completa, visite [Aspose.Cells para Documentação .NET](https://docs.aspose.com/cells/net/)\- Não .  
-Para explorar a referência completa da API, verifique [Aspose.Cells para Referência de API .NET](https://reference.aspose.com/cells/net/)\- Não . 
+Para adquirir uma licença, acesse [Página de compra da Aspose](https://purchase.aspose.com/buy).  
+Para documentação completa, visite [Documentação do Aspose.Cells para .NET](https://docs.aspose.com/cells/net/).  
+Para explorar a referência completa da API, confira [Referência da API Aspose.Cells para .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ Door deze handleiding te volgen, hebt u geleerd hoe u Excel-werkmappen efficiën
 Als u de mogelijkheden verder wilt verkennen, kunt u zich verdiepen in de geavanceerdere functies van Aspose.Cells of experimenteren met verschillende typen datastructuren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

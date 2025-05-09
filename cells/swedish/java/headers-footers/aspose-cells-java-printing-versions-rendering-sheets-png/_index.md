@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -30,7 +32,7 @@ För att följa den här handledningen, se till att du har:
 
 - **Bibliotek och versioner:** Aspose.Cells för Java version 25.3.
 - **Krav för miljöinstallation:** En fungerande Java-utvecklingsmiljö med Maven eller Gradle konfigurerad.
-- **Kunskapsförkunskaper:** Grundläggande kunskaper om Java-programmeringskoncept som klasser, metoder och undantagshantering.
+- **Kunskapsförkunskapskrav:** Grundläggande kunskaper om Java-programmeringskoncept som klasser, metoder och undantagshantering.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -176,6 +178,9 @@ Redo att testa Aspose.Cells fulla potential? Börja implementera det idag!
 - [Aspose Supportforum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

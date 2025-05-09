@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -113,7 +115,7 @@ Se encontrar problemas, certifique-se de que a biblioteca Aspose.Cells esteja ad
 4. **Visualizações de dados personalizadas**: Permitindo que os usuários configurem visualizações que referenciam dados pelo nome da célula em vez do índice.
 
 ## Considerações de desempenho
-- **Otimize o uso da memória**: Use Aspose.Cells de forma eficiente minimizando a criação de objetos dentro de loops.
+- **Otimizar o uso da memória**: Use Aspose.Cells de forma eficiente minimizando a criação de objetos dentro de loops.
 - **Usar APIs de streaming**: Para grandes conjuntos de dados, aproveite os recursos de streaming no Aspose.Cells para reduzir o consumo de memória.
 - **Melhores Práticas**: Atualize regularmente sua biblioteca Aspose.Cells para se beneficiar de melhorias de desempenho e correções de bugs.
 
@@ -146,6 +148,9 @@ Neste tutorial, você aprendeu a converter índices de células em nomes usando 
 Sinta-se à vontade para explorar esses recursos e experimentar seu novo conhecimento do Aspose.Cells para Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -153,7 +155,7 @@ wb.save(outDir + "CopyWithinWorkbook_out.xls");
 ## Considerazioni sulle prestazioni
 Ottimizzare le prestazioni quando si lavora con file Excel di grandi dimensioni è essenziale:
 
-- **Gestione della memoria**: Assicurare la corretta gestione delle risorse per evitare perdite di memoria smaltire correttamente gli oggetti dopo l'uso.
+- **Gestione della memoria**: Garantire la corretta gestione delle risorse per evitare perdite di memoria smaltire correttamente gli oggetti dopo l'uso.
 - **Accesso efficiente ai dati**: Ridurre al minimo il numero di operazioni di lettura/scrittura all'interno dei loop per aumentare la velocità.
 - **Operazioni batch**: Se possibile, eseguire aggiornamenti in batch anziché più modifiche singole.
 
@@ -185,6 +187,9 @@ Fai il passo successivo nel tuo percorso di manipolazione dei file Excel impleme
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

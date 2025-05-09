@@ -1,14 +1,16 @@
 ---
-title: Pobierz wymiary strony
-linktitle: Pobierz wymiary strony
-second_title: Aspose.Cells dla .NET API Reference
-description: Dowiedz się, jak uzyskać wymiary strony za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Idealne dla programistów pracujących z plikami Excel.
-weight: 40
-url: /pl/net/excel-page-setup/get-page-dimensions/
+"description": "Dowiedz się, jak uzyskać wymiary strony za pomocą Aspose.Cells dla .NET w tym przewodniku krok po kroku. Idealne dla programistów pracujących z plikami Excel."
+"linktitle": "Pobierz wymiary strony"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Pobierz wymiary strony"
+"url": "/pl/net/excel-page-setup/get-page-dimensions/"
+"weight": 40
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pobierz wymiary strony
@@ -26,7 +28,7 @@ Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. 
 
 ### Biblioteka Aspose.Cells
 Musisz pobrać i odwołać się do biblioteki Aspose.Cells w swoim projekcie. Możesz ją pobrać z:
--  Link do pobrania:[Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)
+- Link do pobrania: [Aspose.Cells dla .NET](https://releases.aspose.com/cells/net/)
 
 ### Podstawowa wiedza z języka C#
 Przydatne byłoby, gdybyś miał podstawową wiedzę na temat języka C#. Ten samouczek będzie wykorzystywał podstawowe koncepcje programowania, które powinny być łatwe do zrozumienia.
@@ -39,7 +41,7 @@ Pierwszym krokiem w naszej podróży jest zaimportowanie niezbędnych pakietów 
 
 ### Utwórz nowy projekt
 
- Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli C#. Możesz nazwać go jak chcesz, wybierzmy`GetPageDimensions`.
+Otwórz Visual Studio i utwórz nowy projekt aplikacji konsoli C#. Możesz nazwać go jak chcesz, wybierzmy `GetPageDimensions`.
 
 ### Dodaj odniesienia
 
@@ -50,7 +52,7 @@ Aby użyć Aspose.Cells, należy dodać odwołania do biblioteki:
 
 ### Dodaj dyrektywy Using
 
- Na szczycie twojego`Program.cs` plik, wstaw tę dyrektywę, aby uzyskać dostęp do funkcjonalności Aspose.Cells:
+Na szczycie twojego `Program.cs` plik, wstaw tę dyrektywę, aby uzyskać dostęp do funkcjonalności Aspose.Cells:
 
 ```csharp
 using System;
@@ -59,7 +61,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Teraz, gdy zaimportowaliśmy niezbędne pakiety, jesteśmy na dobrej drodze! 
+Teraz, gdy zaimportowaliśmy już niezbędne pakiety, jesteśmy na dobrej drodze! 
 
 Teraz pokażemy Ci, jak pobierać wymiary różnych rozmiarów papieru, przechodząc przez każdy krok. 
 
@@ -140,16 +142,18 @@ Aspose.Cells to biblioteka .NET służąca do tworzenia, edytowania i konwertowa
 Nie, Aspose.Cells jest samodzielną biblioteką i nie wymaga instalacji programu Excel.
 
 ### Gdzie mogę znaleźć więcej przykładów dla Aspose.Cells?
- Możesz sprawdzić dokumentację tutaj:[Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
+Możesz sprawdzić dokumentację tutaj: [Dokumentacja Aspose.Cells](https://reference.aspose.com/cells/net/).
 
 ### Czy istnieje bezpłatna wersja próbna Aspose.Cells?
- Tak! Możesz otrzymać darmową wersję próbną z:[Aspose.Cells Bezpłatna wersja próbna](https://releases.aspose.com/).
+Tak! Możesz otrzymać darmową wersję próbną z: [Aspose.Cells Bezpłatna wersja próbna](https://releases.aspose.com/).
 
 ### Gdzie mogę uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Pomoc możesz uzyskać odwiedzając forum wsparcia Aspose:[Wsparcie Aspose.Cells](https://forum.aspose.com/c/cells/9).
+Pomoc możesz uzyskać odwiedzając forum wsparcia Aspose: [Wsparcie Aspose.Cells](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

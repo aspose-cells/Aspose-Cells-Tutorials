@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -147,7 +149,7 @@ public class ProtectSharedWorkbook {
 Узнайте, как снять защиту паролем с общей рабочей книги, разрешив доступ к ее содержимому по мере необходимости.
 
 #### Шаги:
-**3.4 Снятие защиты с рабочей книги**
+**3.4 Снятие защиты рабочей книги**
 ```java
 import com.aspose.cells.Workbook;
 
@@ -160,7 +162,7 @@ public class UnprotectSharedWorkbook {
         String password = "1234";
         wb.unprotectSharedWorkbook(password);
         
-        // Сохраните незащищенную книгу
+        // Сохраните незащищенную книгу.
         String outDir = "YOUR_OUTPUT_DIRECTORY";
         wb.save(outDir + "/outputUnprotectedSharedWorkbook.xlsx");
     }
@@ -202,6 +204,9 @@ Aspose.Cells для Java можно применять в различных р�
    - Aspose.Cells можно легко интегрировать в Spring Boot, Spring MVC или любой другой фреймворк на основе Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

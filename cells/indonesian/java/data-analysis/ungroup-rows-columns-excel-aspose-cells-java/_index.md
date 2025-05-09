@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Memisahkan Baris & Kolom di Excel Menggunakan Aspose.Cells Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda kesulitan dengan data yang dikelompokkan dalam lembar Excel yang mempersulit analisis atau presentasi? Pengelompokan baris dan kolom merupakan fitur umum di Excel untuk menyederhanakan tampilan, tetapi terkadang perlu dibalik. Tutorial ini memandu Anda untuk memisahkan baris dan kolom tersebut dengan mudah menggunakan Aspose.Cells untuk Java.
 
@@ -24,17 +26,17 @@ Di akhir panduan ini, Anda akan mempelajari:
 
 Mari kita bahas prasyarat yang diperlukan sebelum memulai.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum kita mulai membuat kode, pastikan Anda memiliki hal berikut:
 
-- **Perpustakaan yang Diperlukan**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru diperlukan.
-- **Pengaturan Lingkungan**: Pemahaman dasar tentang Java dan IDE seperti IntelliJ IDEA atau Eclipse.
-- **Prasyarat Pengetahuan**: Keakraban dengan operasi Excel dan pemrograman Java.
+- **Kötelező könyvtárak**: Aspose.Cells untuk Java versi 25.3 atau yang lebih baru diperlukan.
+- **Környezet beállítása**: Pemahaman dasar tentang Java dan IDE seperti IntelliJ IDEA atau Eclipse.
+- **Ismereti előfeltételek**: Keakraban dengan operasi Excel dan pemrograman Java.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-### Informasi Instalasi
+### Telepítési információk
 
 Untuk menggabungkan Aspose.Cells dalam proyek Anda, ikuti langkah-langkah berikut:
 
@@ -52,11 +54,11 @@ Untuk menggabungkan Aspose.Cells dalam proyek Anda, ikuti langkah-langkah beriku
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi
+### Licencbeszerzés lépései
 
-1. **Uji Coba Gratis**Mulailah dengan uji coba gratis untuk menjelajahi fitur Aspose.Cells.
-2. **Lisensi Sementara**: Minta lisensi sementara untuk akses fitur lengkap selama pengembangan.
-3. **Pembelian**: Pertimbangkan untuk membeli jika Anda membutuhkan layanan jangka panjang dan tanpa gangguan.
+1. **Ingyenes próbaverzió**Mulailah dengan uji coba gratis untuk menjelajahi fitur Aspose.Cells.
+2. **Ideiglenes engedély**: Minta lisensi sementara untuk akses fitur lengkap selama pengembangan.
+3. **Vásárlás**: Pertimbangkan untuk membeli jika Anda membutuhkan layanan jangka panjang dan tanpa gangguan.
 
 Setelah terinstal dan dilisensikan, inisialisasi proyek Anda dengan mengimpor kelas yang diperlukan:
 
@@ -66,7 +68,7 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.Cells;
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memisahkan Baris di Excel
 
@@ -117,29 +119,29 @@ workbook.save(outDir + "UngroupingRows_out.xls"); // Untuk baris
 workbook.save(outDir + "UngroupingColumns_out.xls"); // Untuk kolom
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Berikut adalah beberapa skenario di mana pengelompokan fitur dapat bermanfaat:
 
-1. **Analisis Keuangan**: Pisahkan data untuk pemeriksaan terperinci laporan keuangan.
-2. **Manajemen Proyek**Sesuaikan tugas yang dikelompokkan atau jadwal waktu dalam rencana proyek.
-3. **Pelaporan Data**Siapkan lembar Excel untuk presentasi dengan mengubah pengelompokan.
+1. **Pénzügyi elemzés**: Pisahkan data untuk pemeriksaan terperinci laporan keuangan.
+2. **Projektmenedzsment**Sesuaikan tugas yang dikelompokkan atau jadwal waktu dalam rencana proyek.
+3. **Adatjelentés**Siapkan lembar Excel untuk presentasi dengan mengubah pengelompokan.
 
 Mengintegrasikan Aspose.Cells dengan sistem lain seperti basis data atau layanan web dapat mengotomatiskan proses ini lebih jauh, sehingga meningkatkan efisiensi.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-- **Optimalkan Penggunaan Memori**: Pastikan manajemen memori yang efisien saat menangani file besar.
-- **Praktik Terbaik**: Tutup buku kerja setelah operasi untuk mengosongkan sumber daya.
-- **Operasi Asinkron**: Gunakan metode asinkron jika tersedia untuk menangani kumpulan data kompleks tanpa memblokir thread.
+- **Memóriahasználat optimalizálása**: Pastikan manajemen memori yang efisien saat menangani file besar.
+- **Bevált gyakorlatok**: Tutup buku kerja setelah operasi untuk mengosongkan sumber daya.
+- **Aszinkron műveletek**: Gunakan metode asinkron jika tersedia untuk menangani kumpulan data kompleks tanpa memblokir thread.
 
-## Kesimpulan
+## Következtetés
 
 Memisahkan baris dan kolom di Excel menggunakan Aspose.Cells Java mudah dilakukan setelah Anda memahami dasar-dasarnya. Panduan ini membahas pengaturan lingkungan Anda, penerapan fitur pemisahan, dan aplikasi praktis dari fungsi-fungsi ini.
 
 Untuk lebih mengeksplorasi kemampuan Aspose.Cells atau mengintegrasikan fitur yang lebih canggih ke dalam proyek Anda, pertimbangkan untuk menjelajahi dokumentasi dan sumber daya tambahan.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Dapatkah saya menggunakan Aspose.Cells untuk Java dengan bahasa pemrograman lain?**
    - Sementara panduan ini berfokus pada Java, Aspose menyediakan pustaka untuk .NET, C++, Python, dan lainnya.
@@ -156,17 +158,20 @@ Untuk lebih mengeksplorasi kemampuan Aspose.Cells atau mengintegrasikan fitur ya
 5. **Apa saja fitur lanjutan Aspose.Cells selain pengelompokan dan pemisahan pengelompokan?**
    - Jelajahi fungsionalitas seperti perhitungan rumus, pembuatan bagan, dan konversi PDF melalui dokumentasi resmi.
 
-## Sumber daya
+## Erőforrás
 
 - [Dokumentasi Java Aspose.Cells](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis dan Lisensi Sementara](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió és ideiglenes licenc](https://releases.aspose.com/cells/java/)
 
-Jangan ragu untuk menghubungi kami di [Forum Aspose](https://forum.aspose.com/c/cells/9) Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan. Mulailah menerapkan solusi ini hari ini dan sederhanakan pengelolaan data Excel Anda dengan Aspose.Cells Java!
+Jangan ragu untuk menghubungi kami di [Aspose Fórum](https://forum.aspose.com/c/cells/9) Jika Anda memiliki pertanyaan lebih lanjut atau memerlukan bantuan. Mulailah menerapkan solusi ini hari ini dan sederhanakan pengelolaan data Excel Anda dengan Aspose.Cells Java!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -32,7 +34,7 @@ Låt oss börja med att täcka de förutsättningar du behöver innan du förbä
 Innan du börjar, se till att du har:
 1. **Obligatoriska bibliotek:** Inkludera Aspose.Cells för Java i ditt projekt med Maven eller Gradle.
 2. **Miljöinställningar:** Se till att JDK är installerat på din maskin och använd en IDE som IntelliJ IDEA eller Eclipse.
-3. **Kunskapsförkunskaper:** Har grundläggande kunskaper i Java-programmering och är van vid att hantera Excel-filer programmatiskt.
+3. **Kunskapsförkunskapskrav:** Har grundläggande kunskaper i Java-programmering och är van vid att hantera Excel-filer programmatiskt.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -180,6 +182,9 @@ Försök att implementera dessa tekniker i dina projekt idag!
 Ta nästa steg i att bemästra Aspose.Cells för Java och lås upp nya potentialer inom Excel-filmanipulation!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

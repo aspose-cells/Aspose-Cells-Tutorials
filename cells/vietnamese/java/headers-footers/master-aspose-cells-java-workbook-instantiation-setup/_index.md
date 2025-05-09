@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -199,10 +201,13 @@ Trong hướng dẫn này, bạn đã học cách tạo một bảng tính Excel
 ## Tài nguyên
 - **Tài liệu:** Khám phá hướng dẫn chi tiết tại [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/java/).
 - **Tải xuống:** Nhận phiên bản mới nhất từ [Trang tải xuống của Aspose](https://releases.aspose.com/cells/java/).
-- **Mua:** Có được giấy phép trực tiếp thông qua [Cổng mua hàng của Aspose](https://purchase.aspose.com/buy).
+- **Mua:** Nhận giấy phép trực tiếp thông qua [Cổng mua hàng của Aspose](https://purchase.aspose.com/buy).
 - **Dùng thử miễn phí:** Kiểm tra tính năng bằng bản dùng thử miễn phí.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -20,7 +22,7 @@ Ulepsz swoje wykresy Excela programowo, używając Javy z Aspose.Cells. Niezale�
 **Czego się nauczysz:**
 - Konfigurowanie Aspose.Cells w projekcie Java
 - Ładowanie i manipulowanie skoroszytami programu Excel za pomocą Aspose.Cells
-- Dodawanie etykiet swobodnie poruszających się do wykresów programu Excel
+- Dodawanie etykiet swobodnych do wykresów programu Excel
 - Zapisywanie zaktualizowanego skoroszytu
 
 ## Wymagania wstępne
@@ -117,7 +119,7 @@ Ulepszanie prezentacji danych poprzez dodawanie etykiet można stosować w róż
 Zoptymalizuj swoją aplikację Java za pomocą Aspose.Cells, stosując się do poniższych najlepszych praktyk:
 - **Zarządzanie pamięcią:** Zamknij skoroszyty po przetworzeniu, aby efektywniej zarządzać zasobami.
 - **Przetwarzanie wsadowe:** Przetwarzaj wiele plików w partiach, aby zmniejszyć zużycie zasobów.
-- **Użyj najnowszej wersji:** Bądź na bieżąco z najnowszą wersją, aby zapewnić optymalną wydajność i bezpieczeństwo.
+- **Użyj najnowszej wersji:** Bądź na bieżąco z najnowszą wersją, aby zapewnić sobie optymalną wydajność i bezpieczeństwo.
 
 ## Wniosek
 
@@ -154,6 +156,9 @@ Rozpocznij swoją podróż z Aspose.Cells Java, aby odblokować potężne możli
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

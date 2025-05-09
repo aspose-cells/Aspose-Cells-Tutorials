@@ -1,14 +1,16 @@
 ---
-title: Sắp xếp dữ liệu trong một cột với danh sách sắp xếp tùy chỉnh trong Excel
-linktitle: Sắp xếp dữ liệu trong một cột với danh sách sắp xếp tùy chỉnh trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách sắp xếp dữ liệu trong Excel bằng danh sách sắp xếp tùy chỉnh với Aspose.Cells cho .NET trong hướng dẫn toàn diện này.
-weight: 10
-url: /vi/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/
+"description": "Tìm hiểu cách sắp xếp dữ liệu trong Excel bằng danh sách sắp xếp tùy chỉnh với Aspose.Cells cho .NET trong hướng dẫn toàn diện này."
+"linktitle": "Sắp xếp dữ liệu trong một cột với danh sách sắp xếp tùy chỉnh trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Sắp xếp dữ liệu trong một cột với danh sách sắp xếp tùy chỉnh trong Excel"
+"url": "/vi/net/excel-data-sorting-exporting/sort-data-in-a-column-with-custom-sort-list-in-excel/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sắp xếp dữ liệu trong một cột với danh sách sắp xếp tùy chỉnh trong Excel
@@ -37,7 +39,7 @@ Sau đây là cách thực hiện:
 
 1. Mở dự án của bạn trong Visual Studio.
 2. Vào "Công cụ" > "Trình quản lý gói NuGet" > "Quản lý gói NuGet cho Solution".
-3.  Tìm kiếm`Aspose.Cells` và cài đặt phiên bản mới nhất.
+3. Tìm kiếm `Aspose.Cells` và cài đặt phiên bản mới nhất.
 
 ### Tệp Excel cơ bản để kiểm tra
 
@@ -67,7 +69,7 @@ string outputDir = "Your Document Directory\\";
 
 ## Bước 2: Tải tệp Excel nguồn
 
-Tiếp theo, chúng ta sẽ tải tệp Excel chứa dữ liệu bạn muốn sắp xếp. Điều này được thực hiện bằng cách tạo một phiên bản của`Workbook` lớp và truyền đường dẫn đến tệp nguồn của bạn.
+Tiếp theo, chúng ta sẽ tải tệp Excel chứa dữ liệu bạn muốn sắp xếp. Điều này được thực hiện bằng cách tạo một phiên bản của `Workbook` lớp và truyền đường dẫn đến tệp nguồn của bạn.
 
 ```csharp
 Workbook wb = new Workbook(sourceDir + "sampleSortData_CustomSortList.xlsx");
@@ -83,7 +85,7 @@ Worksheet ws = wb.Worksheets[0];
 
 ## Bước 4: Chỉ định vùng ô để sắp xếp
 
- Chúng ta cần xác định phạm vi ô mà chúng ta sẽ sắp xếp. Trong ví dụ này, chúng ta sẽ sắp xếp các ô từ A1 đến A40. Sử dụng`CellArea.CreateCellArea` phương pháp xác định diện tích ô.
+Chúng ta cần xác định phạm vi ô mà chúng ta sẽ sắp xếp. Trong ví dụ này, chúng ta sẽ sắp xếp các ô từ A1 đến A40. Sử dụng `CellArea.CreateCellArea` phương pháp xác định diện tích ô.
 
 ```csharp
 CellArea ca = CellArea.CreateCellArea("A1", "A40");
@@ -138,13 +140,15 @@ Có! Bạn có thể thêm các khóa bổ sung để sắp xếp theo nhiều c
 Mặc dù hữu ích, bạn có thể làm theo hướng dẫn này và học trong quá trình học! Có một số hiểu biết cơ bản về C# sẽ nâng cao trải nghiệm học tập của bạn.
 
 ### Có thể sử dụng giấy phép tạm thời cho Aspose.Cells không?
-Chắc chắn rồi! Bạn có thể mua giấy phép tạm thời nếu muốn dùng thử toàn bộ tính năng của thư viện mà không bị hạn chế.
+Chắc chắn rồi! Bạn có thể mua giấy phép tạm thời nếu muốn kiểm tra đầy đủ các tính năng của thư viện mà không bị hạn chế.
 
 ### Tôi có thể tải xuống ví dụ hoặc tài liệu về Aspose.Cells không?
- Có! Aspose cung cấp tài liệu mở rộng và các dự án mẫu có thể hỗ trợ bạn rất nhiều. Hãy xem[Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+Có! Aspose cung cấp tài liệu mở rộng và các dự án mẫu có thể hỗ trợ bạn rất nhiều. Hãy xem [Tài liệu Aspose.Cells](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

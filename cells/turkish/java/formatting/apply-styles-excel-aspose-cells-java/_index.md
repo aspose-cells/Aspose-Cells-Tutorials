@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -63,7 +65,7 @@ Aspose.Cells'i kullanmaya başlamak için onu projenize entegre etmeniz gerekir.
    - Ücretsiz deneme sürümünü şu adresten edinebilirsiniz: [Aspose İndirmeleri](https://releases.aspose.com/cells/java/).
    - Uzun süreli kullanım için bir lisans satın almayı veya geçici bir lisans edinmeyi düşünün. [Geçici Lisans](https://purchase.aspose.com/temporary-license/).
 
-3. **Temel Başlatma**: Kurulduktan sonra, bir örnek oluşturun `Workbook` Excel dosyaları oluşturmaya ve düzenlemeye başlamak.
+3. **Temel Başlatma**Kurulduktan sonra, bir örnek oluşturun `Workbook` Excel dosyaları oluşturmaya ve düzenlemeye başlamak.
 
 ## Uygulama Kılavuzu
 
@@ -205,6 +207,9 @@ Bu eğitimin bilgilendirici ve faydalı olmasını umuyoruz. İyi kodlamalar!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

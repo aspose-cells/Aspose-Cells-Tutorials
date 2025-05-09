@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ workbook.save(dataDir + "DCChecker_out.xls");
 ## 실제 응용 프로그램
 다음과 같은 경우에는 호환성 검사를 비활성화하는 것이 유용할 수 있습니다.
 1. 자동 보고 시스템: 다양한 Excel 버전을 사용하여 여러 부서에 대한 보고서를 생성합니다.
-2. 소프트웨어 배포: 호환성 경고를 발생시키지 않고 소프트웨어에서 생성된 스프레드시트를 배포합니다.
+2. 소프트웨어 배포: 호환성 경고를 발생시키지 않고 소프트웨어로 생성된 스프레드시트를 배포합니다.
 3. 데이터 통합 프로젝트: 오래된 Excel 형식이 표준인 레거시 시스템과 통합합니다.
 
 ## 성능 고려 사항
@@ -134,6 +136,9 @@ workbook.save(dataDir + "DCChecker_out.xls");
 - [커뮤니티 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

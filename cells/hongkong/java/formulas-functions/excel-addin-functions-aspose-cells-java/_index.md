@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -98,7 +100,7 @@ public class ExcelApp {
 
 讓我們逐步了解如何使用 Aspose.Cells for Java 實作並使用 Excel 外掛功能。
 
-### 註冊啟用巨集的加載項函數
+### 註冊啟用巨集的外掛函數
 
 #### 概述
 
@@ -210,6 +212,9 @@ workbook.save(outDir + "/test_udf.xlsx", com.aspose.cells.SaveFormat.XLSX);
 踏上旅程，利用 Aspose.Cells 充分發揮 Java 中 Excel 函數的強大功能。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

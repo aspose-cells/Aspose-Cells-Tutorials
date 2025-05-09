@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -197,7 +199,7 @@ Aby jeszcze lepiej wykorzystać możliwości pakietu Aspose.Cells, rozważ ekspe
 ## Sekcja FAQ
 
 **P: Czy mogę zastosować formatowanie warunkowe programowo?**
-O: Tak, Aspose.Cells obsługuje formatowanie warunkowe, co pozwala na stosowanie reguł opartych na wartościach komórek.
+O: Tak, Aspose.Cells obsługuje formatowanie warunkowe, co pozwala na stosowanie reguł na podstawie wartości komórek.
 
 **P: Jak wydajnie obsługiwać duże pliki Excela?**
 A: Aby zoptymalizować wydajność dużych zbiorów danych, należy korzystać z przetwarzania wsadowego i zapewnić odpowiednie zarządzanie pamięcią.
@@ -216,6 +218,9 @@ A: Aspose zapewnia kompleksowe [forum wsparcia](https://forum.aspose.com/c/cells
 - **Dokumentacja:** Odkryj całość [Dokumentacja Aspose.Cells](https://docs.aspose.com/cells/java/) aby uzyskać dostęp do bardziej zaawansowanych funkcji.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

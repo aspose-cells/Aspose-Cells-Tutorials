@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exportar Excel para HTML Java
@@ -35,7 +37,7 @@ Comece criando um novo projeto Java no seu Ambiente de Desenvolvimento Integrado
 
 Adicione a biblioteca Aspose.Cells para Java ao classpath do seu projeto. Se estiver usando Maven, inclua a biblioteca no seu `pom.xml` arquivo.
 
-## Etapa 3: Carregar arquivo Excel
+## Etapa 3: Carregar arquivo do Excel
 
 Nesta etapa, você carregará o arquivo Excel que deseja exportar para HTML. Você pode fazer isso criando um `Workbook` objeto e carregando o arquivo Excel usando seu caminho.
 
@@ -84,6 +86,7 @@ Para recursos mais avançados e opções de personalização, consulte a documen
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

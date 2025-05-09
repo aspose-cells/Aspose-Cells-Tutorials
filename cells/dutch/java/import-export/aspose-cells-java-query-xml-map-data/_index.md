@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -149,6 +151,9 @@ Door de Aspose.Cells-bibliotheek voor het opvragen van XML-kaartgegevens in Exce
 Door deze tutorial te volgen, bent u goed toegerust om de kracht van Aspose.Cells voor Java te benutten bij het opvragen van XML-kaartgegevens in Excel-bestanden. Veel plezier met coderen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

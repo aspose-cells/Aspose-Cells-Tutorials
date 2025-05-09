@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adatérvényesítési szabályok
@@ -42,9 +44,11 @@ Tanulja meg az adatérvényesítést Excelben az Aspose.Cells for Java használa
 Ismerje meg, hogyan valósíthat meg feltételes adatellenőrzést az Aspose.Cells for Java használatával. Lépésről lépésre útmutató forráskóddal a pontos adatkezeléshez Excel-táblázatokban.
 ### [Beviteli üzenet az adatellenőrzés során](./input-message-in-data-validation/)
 Ismerje meg, hogyan javíthatja az adatellenőrzést Excelben az Aspose.Cells for Java használatával. Lépésről lépésre útmutató kódpéldákkal az adatok pontosságának javításához és felhasználói útmutatás.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

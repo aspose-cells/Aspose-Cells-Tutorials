@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -202,6 +204,9 @@ Agora você aprendeu a conectar um aplicativo Java a um banco de dados Access, c
 Este guia abrangente fornece o conhecimento necessário para aproveitar o Aspose.Cells para Java, otimizando suas tarefas de gerenciamento de dados por meio da automação. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

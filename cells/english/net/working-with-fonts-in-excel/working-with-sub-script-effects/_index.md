@@ -8,7 +8,9 @@ url: /net/working-with-fonts-in-excel/working-with-sub-script-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Sub Script Effects in Excel
@@ -110,6 +112,7 @@ You can apply for a temporary license through the [Temporary license page](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

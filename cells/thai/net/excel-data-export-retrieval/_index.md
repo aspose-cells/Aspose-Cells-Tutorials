@@ -1,14 +1,16 @@
 ---
-title: การส่งออกและการดึงข้อมูล Excel
-linktitle: การส่งออกและการดึงข้อมูล Excel
-second_title: API การประมวลผล Excel ของ Aspose.Cells .NET
-description: สำรวจบทช่วยสอนแบบทีละขั้นตอนสำหรับการส่งออกและการดึงข้อมูล Excel โดยใช้ Aspose.Cells สำหรับ .NET เหมาะสำหรับนักพัฒนาในทุกระดับทักษะ
-weight: 31
-url: /th/net/excel-data-export-retrieval/
+"description": "สำรวจบทช่วยสอนแบบทีละขั้นตอนสำหรับการส่งออกและการดึงข้อมูล Excel โดยใช้ Aspose.Cells สำหรับ .NET เหมาะสำหรับนักพัฒนาในทุกระดับทักษะ"
+"linktitle": "การส่งออกและการดึงข้อมูล Excel"
+"second_title": "API การประมวลผล Excel ของ Aspose.Cells .NET"
+"title": "การส่งออกและการดึงข้อมูล Excel"
+"url": "/th/net/excel-data-export-retrieval/"
+"weight": 31
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # การส่งออกและการดึงข้อมูล Excel
@@ -21,14 +23,16 @@ url: /th/net/excel-data-export-retrieval/
 
 จุดแวะแรกของการเดินทางของเราคือการเรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel Aspose.Cells ช่วยให้สิ่งนี้ง่ายยิ่งขึ้น! ด้วยโค้ดเพียงไม่กี่บรรทัด คุณสามารถดึงข้อมูลจากเซลล์ใดก็ได้ในสเปรดชีตของคุณ ลองนึกภาพว่าคุณสามารถดึงค่าเฉพาะจากชุดข้อมูลขนาดใหญ่ได้อย่างรวดเร็วและแม่นยำได้อย่างไร ไม่ใช่แค่การอ่านข้อมูลเท่านั้น แต่คุณยังได้รับการควบคุมไฟล์ Excel ของคุณอย่างสมบูรณ์อีกด้วย
 
-ต้องการทราบวิธีการทำหรือไม่? ลองดูคู่มือฉบับย่อนี้[ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/) และเริ่มจัดการข้อมูล Excel ของคุณเหมือนมืออาชีพ!
+ต้องการทราบวิธีการทำหรือไม่? ลองดูคู่มือฉบับย่อนี้ [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/) และเริ่มจัดการข้อมูล Excel ของคุณเหมือนมืออาชีพ!
 
 ## บทช่วยสอนการส่งออกและดึงข้อมูล Excel
 ### [ดึงข้อมูลจากเซลล์ใน Excel](./retrieve-data-from-cells-in-excel/)
 เรียนรู้วิธีดึงข้อมูลจากเซลล์ Excel โดยใช้ Aspose.Cells สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ ซึ่งเหมาะสำหรับทั้งผู้เริ่มต้นและนักพัฒนาที่มีประสบการณ์
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

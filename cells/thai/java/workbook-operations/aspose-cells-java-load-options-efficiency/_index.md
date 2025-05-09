@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -77,7 +79,7 @@ opts.setLightCellsDataHandler((LightCellsDataHandler) v);
 
 `LightCellsDataHandler` ช่วยให้สามารถจัดการวิธีการเยี่ยมชมเซลล์ได้อย่างมีประสิทธิภาพ ช่วยลดการใช้หน่วยความจำสำหรับชุดข้อมูลขนาดใหญ่
 
-### การโหลดสมุดงานด้วยตัวเลือกที่กำหนดเอง
+### การโหลดเวิร์กบุ๊กด้วยตัวเลือกที่กำหนดเอง
 การโหลดเวิร์กบุ๊กโดยใช้ตัวเลือกแบบกำหนดเองสามารถปรับปรุงประสิทธิภาพของไฟล์ Excel จำนวนมากได้อย่างมีนัยสำคัญ
 
 **ขั้นตอนที่ 1: กำหนดค่า LoadOptions**
@@ -135,6 +137,9 @@ int sheetCount = wb.getWorksheets().getCount();
 - [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Låt oss börja med att se till att du har allt klart för den här handledninge
 Innan du börjar implementera, se till att du uppfyller dessa förutsättningar:
 1. **Obligatoriska bibliotek:** Du behöver Aspose.Cells för Java version 25.3.
 2. **Miljöinställningar:** Se till att din utvecklingsmiljö är konfigurerad med JDK och en IDE som IntelliJ IDEA eller Eclipse.
-3. **Kunskapsförkunskaper:** Det är meriterande om du har grundläggande Java-programmeringskoncept och har goda kunskaper i externa bibliotek.
+3. **Kunskapsförkunskapskrav:** Det är meriterande om du har grundläggande Java-programmeringskoncept och har goda kunskaper i externa bibliotek.
 ## Konfigurera Aspose.Cells för Java
 För att använda Aspose.Cells för Java måste du lägga till det som ett beroende i ditt projekt. Så här gör du detta med populära byggverktyg:
 **Maven**
@@ -126,6 +128,9 @@ Den här handledningen ger dig möjlighet att förbättra dina Excel-baserade ap
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

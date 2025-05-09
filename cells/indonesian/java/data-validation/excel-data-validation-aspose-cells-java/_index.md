@@ -7,13 +7,15 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Daftar Validasi Data Excel Menggunakan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Memastikan integritas data dalam spreadsheet sangat penting, terutama saat pengguna memasukkan data. Salah satu metode yang efektif adalah menggunakan "Validasi Data"—fitur yang membatasi input pengguna ke daftar nilai yang diizinkan yang telah ditetapkan sebelumnya. Panduan ini menunjukkan cara mengimplementasikan fungsionalitas ini dengan pustaka Aspose.Cells untuk Java.
 
@@ -26,16 +28,16 @@ Sepanjang tutorial ini, kita akan mempelajari cara membuat Daftar Validasi Data 
 
 Sebelum masuk ke detail implementasi, pastikan Anda telah memenuhi prasyarat yang diperlukan.
 
-## Prasyarat
+## Előfeltételek
 
 Untuk mengikuti panduan ini secara efektif, pastikan:
-- **Perpustakaan dan Ketergantungan:** Sertakan Aspose.Cells untuk Java dalam proyek Anda melalui Maven atau Gradle.
-- **Pengaturan Lingkungan:** Pasang JDK yang kompatibel di komputer Anda.
-- **Prasyarat Pengetahuan:** Kemampuan dalam pemrograman Java dan pemahaman struktur file Excel akan bermanfaat.
+- **Könyvtárak és függőségek:** Sertakan Aspose.Cells untuk Java dalam proyek Anda melalui Maven atau Gradle.
+- **Környezet beállítása:** Pasang JDK yang kompatibel di komputer Anda.
+- **Előfeltételek a tudáshoz:** Kemampuan dalam pemrograman Java dan pemahaman struktur file Excel akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
-Untuk memulai, tambahkan pustaka Aspose.Cells ke proyek Anda:
+Kezdésként add hozzá az Aspose.Cells könyvtárat a projektedhez:
 
 **Pakar:**
 ```xml
@@ -51,14 +53,14 @@ Untuk memulai, tambahkan pustaka Aspose.Cells ke proyek Anda:
 implementation(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
 Aspose.Cells untuk Java adalah produk komersial. Namun, Anda dapat memperoleh uji coba gratis atau meminta lisensi sementara:
-1. **Uji Coba Gratis:** Unduh pustaka dari situs resmi Aspose untuk mulai bereksperimen.
-2. **Lisensi Sementara:** Mengunjungi [Halaman Lisensi Sementara Aspose](https://purchase.aspose.com/temporary-license/) untuk lisensi tanpa biaya dan terbatas waktu.
-3. **Pembelian:** Pertimbangkan untuk membeli lisensi penuh untuk penggunaan jangka panjang.
+1. **Ingyenes próbaverzió:** Unduh pustaka dari situs resmi Aspose untuk mulai bereksperimen.
+2. **Ideiglenes engedély:** Látogatás [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/) untuk lisensi tanpa biaya dan terbatas waktu.
+3. **Vásárlás:** Pertimbangkan untuk membeli lisensi penuh untuk penggunaan jangka panjang.
 
-### Inisialisasi
+### Inicializálás
 
 Setelah menambahkan Aspose.Cells sebagai dependensi dan menangani lisensi Anda:
 ```java
@@ -73,13 +75,13 @@ public class ListDataValidation {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Kami akan membagi proses ini ke dalam beberapa langkah:
 
-### Buat Buku Kerja Baru
+### Új munkafüzet létrehozása
 
-Mulailah dengan menginisialisasi `Workbook` obyek:
+Mulailah dengan menginisialisasi `Workbook` objektum:
 ```java
 // Inisialisasi buku kerja baru.
 Workbook workbook = new Workbook();
@@ -90,7 +92,7 @@ System.out.println("Workbook initialized.");
 
 Buat dan akses lembar kerja untuk aplikasi daftar:
 ```java
-// Mengakses lembar kerja pertama.
+// Az első munkalap elérése.
 Worksheet validSheet = workbook.getWorksheets().get(0);
 
 // Menambahkan lembar untuk penyimpanan data.
@@ -150,35 +152,35 @@ Pertahankan perubahan dengan menyimpan buku kerja Anda:
 // Tentukan direktori keluaran.
 String dataDir = Utils.getSharedDataDir(ListDataValidation.class) + "Data/";
 
-// Simpan berkas Excel.
+// Mentse el az Excel fájlt.
 workbook.save(dataDir + "LDValidation_out.xls");
 System.out.println("Process completed successfully.");
 ```
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Validasi Data Excel dapat digunakan secara efektif dalam berbagai skenario:
 1. **Formulir dan Survei:** Batasi opsi dropdown ke respons yang telah ditentukan sebelumnya untuk pengumpulan data yang konsisten.
-2. **Manajemen Inventaris:** Batasi entri ke ID produk atau kategori yang valid.
-3. **Pelaporan Keuangan:** Kontrol rentang masukan untuk nilai moneter, pastikan keakuratannya.
+2. **Készletgazdálkodás:** Batasi entri ke ID produk atau kategori yang valid.
+3. **Pénzügyi jelentéstétel:** Kontrol rentang masukan untuk nilai moneter, pastikan keakuratannya.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk kinerja optimal dengan Aspose.Cells:
-- **Penggunaan Sumber Daya:** Buang benda-benda yang tidak diperlukan secara efisien.
-- **Praktik Terbaik:** Menggunakan `try-with-resources` untuk aliran file dan mengelola kumpulan data besar secara efektif.
+- **Erőforrás-felhasználás:** Buang benda-benda yang tidak diperlukan secara efisien.
+- **Bevált gyakorlatok:** Használat `try-with-resources` untuk aliran file dan mengelola kumpulan data besar secara efektif.
 
-## Kesimpulan
+## Következtetés
 
 Panduan ini telah membekali Anda untuk membuat Daftar Validasi Data dalam lembar Excel menggunakan Aspose.Cells untuk Java, yang akan meningkatkan integritas data dan pengalaman pengguna. Sekarang Anda sudah terbiasa dengan prosesnya:
 - Bereksperimenlah dengan berbagai jenis validasi.
 - Integrasikan solusi ini ke dalam aplikasi Java Anda yang sudah ada.
 - Jelajahi fitur tambahan Aspose.Cells untuk lebih menyempurnakan proyek Anda.
 
-### Langkah Berikutnya:
+### Következő lépések:
 - Terapkan solusi ini dalam proyek Anda berikutnya untuk manajemen data yang efisien.
 
-## Bagian FAQ
+## GYIK szekció
 
 **1. Apa itu Aspose.Cells untuk Java?**
    - Pustaka canggih yang memfasilitasi manipulasi berkas Excel secara terprogram.
@@ -193,16 +195,19 @@ Panduan ini telah membekali Anda untuk membuat Daftar Validasi Data dalam lembar
    - Ukurannya biasanya dibatasi oleh batasan asli Excel, bukan Aspose.Cells.
 
 **5. Bagaimana cara memecahkan masalah kesalahan dengan Aspose.Cells?**
-   - Mengunjungi [Forum Aspose](https://forum.aspose.com/c/cells/9) untuk solusi dan dukungan komunitas.
+   - Látogatás [Aspose Fórum](https://forum.aspose.com/c/cells/9) untuk solusi dan dukungan komunitas.
 
-## Sumber daya
-- **Dokumentasi:** Jelajahi panduan terperinci di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
-- **Unduh:** Dapatkan versi terbaru dari [Rilis Aspose](https://releases.aspose.com/cells/java/).
-- **Pembelian:** Dapatkan lisensi melalui [Portal Pembelian Aspose](https://purchase.aspose.com/buy).
-- **Uji Coba Gratis:** Uji fitur dengan uji coba gratis di situs Aspose.
-- **Lisensi Sementara:** Minta lisensi sementara untuk evaluasi yang diperpanjang di [Halaman Lisensi](https://purchase.aspose.com/temporary-license/).
+## Erőforrás
+- **Dokumentáció:** Jelajahi panduan terperinci di [Dokumentasi Aspose](https://reference.aspose.com/cells/java/).
+- **Letöltés:** Dapatkan versi terbaru dari [Aspose kiadások](https://releases.aspose.com/cells/java/).
+- **Vásárlás:** Dapatkan lisensi melalui [Aspose Vásárlási Portál](https://purchase.aspose.com/buy).
+- **Ingyenes próbaverzió:** Uji fitur dengan uji coba gratis di situs Aspose.
+- **Ideiglenes engedély:** Minta lisensi sementara untuk evaluasi yang diperpanjang di [Halaman Lisensi](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

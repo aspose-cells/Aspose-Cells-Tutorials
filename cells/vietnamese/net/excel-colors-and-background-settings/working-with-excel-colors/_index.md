@@ -1,14 +1,16 @@
 ---
-title: Làm việc với màu Excel theo chương trình
-linktitle: Làm việc với màu Excel theo chương trình
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Học cách thay đổi màu ô Excel theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này và nâng cao khả năng trình bày dữ liệu của bạn.
-weight: 10
-url: /vi/net/excel-colors-and-background-settings/working-with-excel-colors/
+"description": "Học cách thay đổi màu ô Excel theo chương trình bằng Aspose.Cells cho .NET với hướng dẫn từng bước này và nâng cao khả năng trình bày dữ liệu của bạn."
+"linktitle": "Làm việc với màu Excel theo chương trình"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Làm việc với màu Excel theo chương trình"
+"url": "/vi/net/excel-colors-and-background-settings/working-with-excel-colors/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Làm việc với màu Excel theo chương trình
@@ -20,7 +22,7 @@ Bạn có muốn cải thiện các tệp Excel của mình bằng cách thêm m
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 
 1. Microsoft Visual Studio: Đây sẽ là môi trường phát triển để bạn viết mã C#.
-2.  Aspose.Cells cho .NET: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống[đây](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho .NET: Bạn cần cài đặt thư viện Aspose.Cells. Bạn có thể tải xuống [đây](https://releases.aspose.com/cells/net/).
 3. Kiến thức cơ bản về C#: Sự quen thuộc với lập trình C# sẽ giúp bạn hiểu các ví dụ tốt hơn.
 4. .NET Framework: Đảm bảo bạn cũng đã cài đặt .NET Framework.
 
@@ -49,14 +51,14 @@ if (!IsExists)
  System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Trong đoạn trích này, hãy thay thế`"Your Document Directory"` theo đường dẫn bạn muốn. Điều này đảm bảo bạn có một không gian làm việc được tổ chức tốt.
+Trong đoạn trích này, hãy thay thế `"Your Document Directory"` theo đường dẫn bạn muốn. Điều này đảm bảo bạn có một không gian làm việc được tổ chức tốt.
 
 ## Bước 2: Khởi tạo đối tượng WorkbookTạo một Workbook mới
 
 Tiếp theo, chúng ta hãy tạo một bảng tính mới để làm việc với màu sắc:
 
 ```csharp
-// Khởi tạo một đối tượng Workbook
+// Khởi tạo một đối tượng Workbook 
 Workbook workbook = new Workbook();
 ```
 
@@ -146,19 +148,21 @@ Bạn đã tạo thành công một tệp Excel với các ô đầy màu sắc 
 Aspose.Cells là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi các tệp Excel theo cách lập trình.
 
 ### Tôi có thể sử dụng Aspose.Cells miễn phí không?
- Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/).
+Có, Aspose cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống [đây](https://releases.aspose.com/).
 
 ### Tôi có thể mua Aspose.Cells như thế nào?
- Bạn có thể mua giấy phép cho Aspose.Cells[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép cho Aspose.Cells [đây](https://purchase.aspose.com/buy).
 
 ### Có hỗ trợ cho Aspose.Cells không?
- Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose, nơi bạn có thể truy cập[đây](https://forum.aspose.com/c/cells/9).
+Chắc chắn rồi! Bạn có thể nhận được sự hỗ trợ từ diễn đàn Aspose, nơi bạn có thể truy cập [đây](https://forum.aspose.com/c/cells/9).
 
 ### Tôi có thể nhận được giấy phép tạm thời cho Aspose.Cells không?
- Có, Aspose cho phép bạn nhận được giấy phép tạm thời cho mục đích đánh giá. Bạn có thể tìm thấy nó[đây](https://purchase.aspose.com/temporary-license/).
+Có, Aspose cho phép bạn nhận được giấy phép tạm thời cho mục đích đánh giá. Bạn có thể tìm thấy nó [đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

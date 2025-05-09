@@ -8,7 +8,9 @@ url: /net/worksheet-display/split-panes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Panes in Worksheet using Aspose.Cells
@@ -84,6 +86,7 @@ Yes, while you can try Aspose.Cells with a free trial, a license is required for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

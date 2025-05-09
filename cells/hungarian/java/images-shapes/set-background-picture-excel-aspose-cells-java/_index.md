@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Kezdjük az előfeltételek megvitatásával.
 
 A bemutató követéséhez a következőkre lesz szükséged:
 - **Könyvtárak és függőségek**Győződjön meg róla, hogy az Aspose.Cells for Java könyvtár 25.3-as verziójával rendelkezik.
-- **Környezeti beállítási követelmények**: Egy működő fejlesztői környezet telepített JDK-val.
+- **Környezeti beállítási követelmények**Egy működő fejlesztői környezet telepített JDK-val.
 - **Ismereti előfeltételek**Ismeri a Java programozást, és alapvető ismeretekkel rendelkezik a Maven vagy Gradle build eszközökről.
 
 ## Az Aspose.Cells beállítása Java-hoz
@@ -164,6 +166,9 @@ Merülj el az Aspose.Cells Java világában, és fedezd fel a hatékony tábláz
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

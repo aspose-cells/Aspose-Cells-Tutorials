@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -101,7 +103,7 @@ Shape shape3 = worksheet.getShapes().get(2);
 ```
 
 **Шаг 4: Измените настройки формы**
-Измените значения настроек, чтобы настроить внешний вид каждой фигуры:
+Измените значения корректировки, чтобы настроить внешний вид каждой фигуры:
 ```java
 shape1.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d); // Изменить форму1
 double adjustmentValueForShape2 = 0.8d;
@@ -178,6 +180,9 @@ Aspose.Cells для Java можно применять в различных р�
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

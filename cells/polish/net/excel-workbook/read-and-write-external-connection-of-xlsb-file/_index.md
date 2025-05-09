@@ -1,14 +1,16 @@
 ---
-title: Odczyt i zapis połączenia zewnętrznego pliku XLSB
-linktitle: Odczyt i zapis połączenia zewnętrznego pliku XLSB
-second_title: Aspose.Cells dla .NET API Reference
-description: W tym kompleksowym samouczku dowiesz się, jak zarządzać połączeniami zewnętrznymi w plikach XLSB przy użyciu Aspose.Cells dla platformy .NET.
-weight: 130
-url: /pl/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
+"description": "tym kompleksowym samouczku dowiesz się, jak zarządzać połączeniami zewnętrznymi w plikach XLSB przy użyciu Aspose.Cells dla platformy .NET."
+"linktitle": "Odczyt i zapis połączenia zewnętrznego pliku XLSB"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Odczyt i zapis połączenia zewnętrznego pliku XLSB"
+"url": "/pl/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Odczyt i zapis połączenia zewnętrznego pliku XLSB
@@ -21,8 +23,8 @@ Hej, entuzjaści Excela! Jesteście gotowi zanurzyć się w fascynujący świat 
 
 Zanim zaczniemy, oto kilka rzeczy, których będziesz potrzebować:
 
-1. Podstawowa wiedza o C#: Znajomość języka programowania C# będzie bardzo pomocna. Jeśli czujesz się swobodnie pisząc kod C#, jesteś gotowy!
-2.  Aspose.Cells dla .NET: Musisz mieć tę bibliotekę zainstalowaną w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz ją łatwo pobrać[Tutaj](https://releases.aspose.com/cells/net/). 
+1. Podstawowa wiedza o C#: Znajomość języka programowania C# będzie bardzo pomocna. Jeśli czujesz się swobodnie pisząc kod C#, to jesteś gotowy!
+2. Aspose.Cells dla .NET: Musisz mieć tę bibliotekę zainstalowaną w swoim środowisku programistycznym. Jeśli jeszcze tego nie zrobiłeś, możesz ją łatwo pobrać [Tutaj](https://releases.aspose.com/cells/net/). 
 3. IDE: Będziesz potrzebować edytora kodu lub zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio. 
 4. Przykładowy plik XLSB: Będziemy pracować z przykładowym plikiem XLSB, który zawiera połączenia zewnętrzne. Możesz utworzyć własny lub pobrać próbki online. 
 
@@ -39,7 +41,7 @@ using System.Linq;
 using System.Text;
 ```
 
-Dzięki importom uzyskujesz dostęp do funkcji niezbędnych do obsługi plików Excela i ich połączeń.
+Dzięki importom uzyskujesz dostęp do funkcji, które będą Ci potrzebne do manipulowania plikami Excela i ich połączeniami.
 
 ## Krok 1: Skonfiguruj katalogi
 
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- W tym fragmencie kodu,`"Your Document Directory"` I`"Your Document Directory"` zakłada się, że pobierają odpowiednie ścieżki, gdzie będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
+W tym fragmencie kodu, `"Your Document Directory"` I `"Your Document Directory"` zakłada się, że pobierają odpowiednie ścieżki, gdzie będą znajdować się Twoje pliki wejściowe i wyjściowe. Możesz zastąpić te metody ścieżkami zakodowanymi na stałe, jeśli wolisz.
 
 ## Krok 2: Załaduj plik XLSB
 
@@ -63,18 +65,18 @@ Teraz czas załadować plik Excela do obiektu Workbook. Daje to możliwość man
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
- Upewnij się, że plik XLSB znajduje się w określonym miejscu`sourceDir`. Jeśli ścieżka jest poprawna, Twój skoroszyt będzie gotowy do pracy!
+Upewnij się, że plik XLSB znajduje się w określonym miejscu `sourceDir`. Jeśli ścieżka jest poprawna, Twój skoroszyt będzie gotowy do pracy!
 
 ## Krok 3: Dostęp do połączeń zewnętrznych
 
 Po załadowaniu skoroszytu możesz uzyskać dostęp do jego połączeń zewnętrznych. W naszym przypadku pobierzemy pierwsze połączenie z bazą danych.
 
 ```csharp
-// Odczytaj pierwsze połączenie zewnętrzne, które jest w rzeczywistości połączeniem DB
+// Odczytaj pierwsze połączenie zewnętrzne, które w rzeczywistości jest połączeniem DB
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- Tutaj,`DataConnections[0]` odnosi się do pierwszego połączenia w skoroszycie. Rzucamy je jako`DBConnection` wpisz w celu dalszej manipulacji.
+Tutaj, `DataConnections[0]` odnosi się do pierwszego połączenia w skoroszycie. Rzucamy je jako `DBConnection` wpisz w celu dalszej manipulacji.
 
 ## Krok 4: Wyodrębnij informacje o połączeniu
 
@@ -123,7 +125,7 @@ Ta wiadomość zapewni Cię, że kod został wykonany poprawnie i wszystkie zmia
 
 ## Wniosek
 
-I masz to! Udało Ci się nauczyć, jak odczytywać i zapisywać połączenia zewnętrzne w plikach XLSB przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tymi krokami, możesz skutecznie zarządzać połączeniami danych w programie Excel, dzięki czemu praca z programem Excel będzie znacznie bardziej usprawniona i mniej frustrująca. Pamiętaj, że niezależnie od tego, czy obsługujesz rozległe zestawy danych, czy po prostu organizujesz informacje, Aspose.Cells ma narzędzia, których potrzebujesz.
+masz to! Udało Ci się nauczyć, jak odczytywać i zapisywać połączenia zewnętrzne w plikach XLSB przy użyciu Aspose.Cells dla .NET. Postępując zgodnie z tymi krokami, możesz skutecznie zarządzać połączeniami danych w programie Excel, dzięki czemu praca z programem Excel będzie znacznie bardziej usprawniona i mniej frustrująca. Pamiętaj, że niezależnie od tego, czy obsługujesz rozległe zestawy danych, czy po prostu organizujesz informacje, Aspose.Cells ma narzędzia, których potrzebujesz.
 
 ## Najczęściej zadawane pytania
 
@@ -131,19 +133,21 @@ I masz to! Udało Ci się nauczyć, jak odczytywać i zapisywać połączenia ze
 Plik XLSB to binarny format pliku programu Excel, który przechowuje dane arkusza kalkulacyjnego w formacie binarnym, dzięki czemu jest on bardziej kompaktowy i szybciej się go otwiera.
 
 ### Jak zainstalować Aspose.Cells dla .NET?  
- Można go łatwo pobrać ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/cells/net/).
+Można go łatwo pobrać ze strony internetowej Aspose [Tutaj](https://releases.aspose.com/cells/net/).
 
 ### Czy mogę używać Aspose.Cells za darmo?  
- Tak! Możesz zacząć od bezpłatnego okresu próbnego, który jest dostępny[Tutaj](https://releases.aspose.com/).
+Tak! Możesz zacząć od bezpłatnego okresu próbnego, który jest dostępny [Tutaj](https://releases.aspose.com/).
 
 ### Czy Aspose.Cells obsługuje inne formaty plików?  
 Oczywiście! Aspose.Cells obsługuje wiele formatów plików, w tym XLSX, CSV i inne.
 
 ### Gdzie mogę szukać pomocy, jeśli napotkam problemy?  
-Wsparcie możesz uzyskać na forach Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Możesz uzyskać pomoc na forach Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

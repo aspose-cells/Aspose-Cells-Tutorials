@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,7 +39,7 @@ Scopri come proteggere i tuoi file Excel con password utilizzando Aspose.Cells p
 Un tutorial sul codice per Aspose.Words Java
 
 ### [Aspose.Cells Java: carica e verifica in modo sicuro le password dei fogli Excel](./aspose-cells-java-load-verify-excel-sheets-passwords/)
-Scopri come utilizzare Aspose.Cells per Java per caricare una cartella di lavoro Excel e verificare le password dei fogli di lavoro in modo efficiente. Padroneggia la sicurezza dei dati con la nostra guida passo passo.
+Scopri come utilizzare Aspose.Cells per Java per caricare una cartella di lavoro di Excel e verificare le password dei fogli di lavoro in modo efficiente. Padroneggia la sicurezza dei dati con la nostra guida passo passo.
 
 ### [Proteggere le cartelle di lavoro di Excel con Aspose.Cells per Java: protezione con password e crittografia](./aspose-cells-java-secure-excel-workbooks/)
 Scopri come proteggere le cartelle di lavoro di Excel utilizzando Aspose.Cells per Java. Implementa la protezione con password e una crittografia avanzata per salvaguardare i dati sensibili.
@@ -126,6 +128,9 @@ Scopri come proteggere i tuoi documenti Excel con firme digitali XAdES utilizzan
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

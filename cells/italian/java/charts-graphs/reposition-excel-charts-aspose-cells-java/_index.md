@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -50,7 +52,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ### Acquisizione della licenza
 Prima di utilizzare Aspose.Cells, valuta la possibilità di ottenere una licenza per un accesso completo senza limitazioni:
 - **Prova gratuita**: Prova le funzionalità con una prova gratuita da [Posare](https://releases.aspose.com/cells/java/).
-- **Licenza temporanea**Ottieni una licenza temporanea tramite [Pagina di acquisto di Aspose](https://purchase.aspose.com/temporary-license/).
+- **Licenza temporanea**: Ottieni una licenza temporanea tramite [Pagina di acquisto di Aspose](https://purchase.aspose.com/temporary-license/).
 - **Acquistare**Per un utilizzo a lungo termine, si consiglia di acquistare una licenza completa tramite [Posare](https://purchase.aspose.com/buy).
 
 ### Inizializzazione di base
@@ -174,6 +176,9 @@ In questo tutorial, abbiamo illustrato come riposizionare i grafici all'interno 
 - **Acquisto e prova gratuita**: Inizia con una prova o acquista tramite [Il sito web di Aspose](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

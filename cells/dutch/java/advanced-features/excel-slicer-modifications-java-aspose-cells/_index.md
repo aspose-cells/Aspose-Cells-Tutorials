@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -223,6 +225,9 @@ Klaar om er dieper in te duiken? Probeer deze technieken vandaag nog in uw proje
    - Verwerk alleen de noodzakelijke gegevens, gebruik streams voor bestandsverwerking en optimaliseer slicerconfiguraties om herberekeningen te beperken.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

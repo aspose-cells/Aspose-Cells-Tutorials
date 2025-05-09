@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -250,6 +252,9 @@ public class ReplaceTagsWithText {
 Ακολουθώντας αυτόν τον οδηγό, θα είστε άρτια εξοπλισμένοι για να αξιοποιήσετε το Aspose.Cells για Java στα έργα σας, βελτιώνοντας την παραγωγικότητα και την ακρίβεια κατά την εργασία με αρχεία Excel.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

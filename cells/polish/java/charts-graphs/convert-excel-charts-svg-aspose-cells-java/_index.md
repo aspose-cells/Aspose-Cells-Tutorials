@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -89,7 +91,7 @@ Po załadowaniu przejdź do konkretnego arkusza kalkulacyjnego i wykresu, który
 ```java
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.Chart;
-// Otwórz pierwszy arkusz kalkulacyjny i jego pierwszy wykres.
+// Otwórz pierwszy arkusz kalkulacyjny i pierwszy wykres.
 Worksheet worksheet = workbook.getWorksheets().get(0);
 Chart chart = worksheet.getCharts().get(0);
 ```
@@ -161,6 +163,9 @@ Gotowy do rozpoczęcia wdrażania? Zanurz się w [Dokumentacja Aspose.Cells](htt
 - [Forum wsparcia](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Kuasai tabel Excel dan data terstruktur dengan tutorial Aspose.Cells terperinci kami untuk pengembang Java. Panduan langkah demi langkah ini menunjukkan cara membuat dan menyesuaikan tabel Excel, menerapkan rentang bernama, bekerja dengan referensi terstruktur, dan mengelola data tabular secara efisien. Setiap tutorial menyediakan contoh kode Java praktis yang menunjukkan cara memanfaatkan fungsionalitas tabel Excel untuk aplikasi spreadsheet yang lebih mudah dikelola dan canggih dengan struktur data yang terorganisasi dengan jelas.
 
-## Apa yang Akan Anda Pelajari
+## Amit tanulni fogsz
 
 - Cara menggunakan Aspose.Cells untuk Java untuk melakukan operasi tabel & referensi terstruktur
 - Implementasi langkah demi langkah dengan contoh kode lengkap
@@ -34,7 +36,7 @@ Pelajari cara menambahkan dan mengelola properti tipe konten kustom secara efisi
 Pelajari cara mengotomatiskan objek daftar Excel menggunakan Aspose.Cells untuk Java, yang memungkinkan baris total dan perhitungan dengan mudah. Sempurna untuk pelaporan data dan manajemen inventaris.
 
 ### [Aspose.Cells Java: Menguasai Manipulasi Tabel Excel melalui Sel](./aspose-cells-java-manipulate-excel-tables/)
-Pelajari cara memanipulasi tabel Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup pengaturan, akses, modifikasi, dan penyimpanan data tabel secara efisien.
+Pelajari cara memanipulasi tabel Excel menggunakan Aspose.Cells untuk Java. Panduan ini mencakup penyiapan, akses, modifikasi, dan penyimpanan data tabel secara efisien.
 
 ### [Konversi Tabel Excel ke Rentang Menggunakan Aspose.Cells Java: Panduan Langkah demi Langkah](./convert-excel-tables-ranges-aspose-cells-java/)
 Pelajari cara mengotomatiskan konversi tabel Excel ke rentang menggunakan Aspose.Cells untuk Java. Ikuti panduan lengkap ini untuk manajemen data yang efisien.
@@ -62,10 +64,13 @@ Pelajari cara menggunakan Aspose.Cells dengan Java untuk mengidentifikasi dan me
 - [Referensi API Aspose.Cells untuk Java](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
 - [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

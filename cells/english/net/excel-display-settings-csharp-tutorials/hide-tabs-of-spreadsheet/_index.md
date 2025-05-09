@@ -8,7 +8,9 @@ url: /net/excel-display-settings-csharp-tutorials/hide-tabs-of-spreadsheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Tabs Of Spreadsheet
@@ -125,6 +127,7 @@ Aspose.Cells is one of the most powerful libraries for manipulating Excel files 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

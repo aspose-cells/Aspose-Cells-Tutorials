@@ -8,7 +8,9 @@ url: /net/inserting-controls-in-charts/add-picture-to-chart/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Picture to Chart
@@ -168,6 +170,7 @@ Check out the [Aspose.Cells documentation](https://reference.aspose.com/cells/ne
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

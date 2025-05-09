@@ -1,51 +1,56 @@
 ---
-title: Excel で Aspose.Cells を使って形式テキストアライナメントを変更する
-weight: 7700
-limit: 
-description: Excel の ワークシート の 形状 の 中 に テキスト を 操作 する 方法 を 学ぶ.NET の Aspose.Cells を 活用 する.テキスト の 配列 属性 を 設定 し,修正 さ れ た ワークブック を 保存 する.
-keywords: [Aspose.Cells, Excel shape text, modify text alignment, RotateTextWithShape, .NET Excel manipulation, Aspose.Cells example, Excel text formatting]
-url: /ja/net/drawing-objects/rotate-text-with-shape-inside-worksheet/
+"description": "Aspose.Cells for .NET を使用して、Excel ワークシート内の図形内のテキストを操作する方法を学びます。テキストの配置プロパティを設定し、変更したワークブックを保存します。"
+"title": "Aspose.Cells を使用して Excel の図形のテキスト配置を変更する"
+"url": "/ja/net/drawing-objects/rotate-text-with-shape-inside-worksheet/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Excel で Aspose.Cells を使って形式テキストアライナメントを変更する
+# Aspose.Cells を使用して Excel の図形のテキスト配置を変更する
 
-このチュートリアルでは, .NET のAspose.Cellsを使用して Excel のワークシート内の形状の内部のテキストの並列を変更する方法を示します. Aspose.Cells の強力な機能を利用することで,テキストが形状で回転するのを防ぐことができ,テキストの並列属性をカスタマイズすることができます.この例は Excel ファイルをロードし,ワークシートにアクセスし,形状の内部のテキストを変更し,更新されたワークブックを保存します.レポートを自動化したり,テンプレートを作成したり, Excel ビジュアルをカスタマイズしたりするかどうか,このステップ・バイ・ステップガイドは簡単になります.  
+このチュートリアルでは、Aspose.Cells for .NET を使用して、Excel ワークシート内の図形内のテキスト配置を変更する方法を説明します。Aspose.Cells の強力な機能を活用することで、図形に合わせてテキストが回転するのを防ぎ、テキスト配置プロパティをカスタマイズできます。このチュートリアルでは、Excel ファイルの読み込み、ワークシートへのアクセス、図形内のテキストの変更、そして更新されたブックの保存までを順を追って説明します。レポートの自動化、テンプレートの作成、Excel ビジュアルのカスタマイズなど、どのような作業でも、このステップバイステップのガイドが簡単に行えます。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/drawing-objects/rotate-text-with-shape-inside-worksheet" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示:  
+## インストール手順:  
 
-プロジェクトで .NET のAspose.Cellsを使用するには,次の手順を実行してください.  
+プロジェクトで Aspose.Cells for .NET を使用するには、次の手順に従います。  
 
-1. NuGet パッケージ管理者によるインストール:  
-   * ビジュアル・スタジオを開け  
-   * ツール → NuGet パッケージ管理者 → ソリューションのための NuGet パッケージ管理へ  
-   * Aspose.Cellsを検索して最新バージョンをインストールします  
+1. NuGet パッケージ マネージャー経由でインストールします。  
+   - Visual Studio を開きます。  
+   - [ツール] → [NuGet パッケージ マネージャー] → [ソリューションの NuGet パッケージの管理] に移動します。  
+   - Aspose.Cells を検索し、最新バージョンをインストールします。  
 
-2. パッケージ管理者コンソールでインストールする  
-   * Visual Studio でパッケージマネージャーコンソールを開く  
-   * コマンドを実行する:  
+2. パッケージ マネージャー コンソール経由でインストールします。  
+   - Visual Studio でパッケージ マネージャー コンソールを開きます。  
+   - 次のコマンドを実行します。  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
-3. Aspose ウェブサイトからダウンロードする:  
-   * ダウンロードする最新バージョン[.NET のダウンロードのためのAspose.Cells](https://releases.aspose.com/cells/net/)やってくれ  
-   * プロジェクト参照に DLL を追加する.  
+3. Aspose Web サイトからダウンロード:  
+   - 最新バージョンをダウンロードするには [Aspose.Cells for .NET のダウンロード](https://releases。aspose.com/cells/net/).  
+   - DLL をプロジェクト参照に追加します。  
 
-## また見てください  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

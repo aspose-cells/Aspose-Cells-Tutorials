@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -179,6 +181,9 @@ book.save(dataDir + "NamedRangeToSumValues_out.xlsx");
 Этот учебник предлагает вам полное понимание реализации именованных диапазонов и функций суммирования с использованием Aspose.Cells для Java. Попробуйте, чтобы использовать весь потенциал автоматизации Excel в ваших приложениях!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

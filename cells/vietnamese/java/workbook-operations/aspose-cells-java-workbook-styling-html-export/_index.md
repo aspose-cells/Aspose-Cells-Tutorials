@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -124,7 +126,7 @@ public class WorkbookAndCellStyling {
 }
 ```
 **Giải thích**: 
-- `Workbook` Và `Worksheet` các đối tượng được sử dụng để thao tác với các tệp Excel.
+- `Workbook` Và `Worksheet` các đối tượng được sử dụng để thao tác với các tập tin Excel.
 - Kiểu dáng tế bào được thực hiện bằng cách sử dụng `Style` lớp, cho phép tùy chỉnh như màu phông chữ.
 
 ### Tính năng 3: Xuất riêng CSS của trang tính trong HTML
@@ -189,6 +191,9 @@ Trong hướng dẫn này, bạn đã học cách khai thác sức mạnh của 
 - Khám phá những ứng dụng thực tế trong dự án của bạn.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -28,7 +30,7 @@ Egyszerűsítsük az adatkezelési folyamatát. Először is győződjön meg ar
 
 Mielőtt elkezdenénk, győződjünk meg róla, hogy rendelkezünk a következőkkel:
 - **Könyvtárak és verziók**Aspose.Cells Java 25.3-as vagy újabb verzióhoz.
-- **Környezet beállítása**Egy Java fejlesztői környezet (JDK) és egy IDE, mint például az IntelliJ IDEA vagy az Eclipse.
+- **Környezet beállítása**Egy Java fejlesztői környezet (JDK) és egy integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA vagy az Eclipse.
 - **Ismereti előfeltételek**Alapvető Java programozási ismeretek és jártasság a Maven vagy Gradle build rendszerekben.
 
 ## Az Aspose.Cells beállítása Java-hoz
@@ -160,6 +162,9 @@ Megtanultad, hogyan exportálhatsz egyéni tulajdonságokat egy Excel-fájlból 
 - [Támogatási fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

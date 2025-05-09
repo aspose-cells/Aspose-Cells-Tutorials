@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -17,7 +19,7 @@
 
 Aprimore seus arquivos de Planilha OpenDocument (ODS) adicionando fundos gráficos visualmente atraentes. Este guia passo a passo demonstra como definir um fundo gráfico usando a poderosa biblioteca Aspose.Cells para Java, transformando planilhas simples em documentos com aparência profissional.
 
-### que você aprenderá
+### O que você aprenderá
 - Configurando e usando Aspose.Cells para Java.
 - Etapas para adicionar um fundo gráfico a uma planilha ODS.
 - Melhores práticas para integrar o Aspose.Cells aos seus projetos.
@@ -192,6 +194,9 @@ R5: O teste gratuito inclui marcas d'água de avaliação e limites de uso, que 
 Comece a criar arquivos ODS visualmente impressionantes com o Aspose.Cells hoje mesmo!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -136,7 +138,7 @@ dataDir += "/SFUnderlineType_out.xls";
 workbook.save(dataDir); // 変更を加えたワークブックを保存する
 ```
 
-## 実践応用（H2）
+## 実践的応用（H2）
 
 これらの機能の実際の使用例をいくつか紹介します。
 1. **自動レポート**主要なデータ ポイントを強調表示するスタイル設定を含むレポートを動的に生成します。
@@ -183,6 +185,9 @@ A: をご覧ください [Aspose ウェブサイト](https://purchase.aspose.com
 - **サポート**コミュニティに参加するか、 [Asposeフォーラム](https://forum。aspose.com/c/cells/9).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

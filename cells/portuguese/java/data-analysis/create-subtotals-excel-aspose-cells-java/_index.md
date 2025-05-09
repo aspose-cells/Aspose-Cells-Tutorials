@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -15,7 +17,7 @@
 
 Criar subtotais em uma pasta de trabalho do Excel é uma tarefa crucial para resumir grandes conjuntos de dados com eficiência. Com a poderosa biblioteca Aspose.Cells para Java, você pode automatizar esse processo programaticamente. Este tutorial guiará você pelo uso do Aspose.Cells para criar subtotais em seus aplicativos Java.
 
-## que você aprenderá
+## O que você aprenderá
 - Configurando Aspose.Cells para Java em seu projeto
 - Instruções passo a passo sobre como criar subtotais em uma planilha do Excel
 - Casos de uso prático para implementar este recurso
@@ -115,7 +117,7 @@ As possibilidades de integração incluem combinar o Aspose.Cells com bancos de 
 
 ### Considerações de desempenho
 Ao trabalhar com grandes conjuntos de dados, considere estas dicas:
-- **Otimize o uso da memória**Descarte imediatamente quaisquer objetos não utilizados.
+- **Otimizar o uso da memória**Descarte imediatamente quaisquer objetos não utilizados.
 - **Processamento em lote**: Processe os dados em blocos, se possível, para gerenciar a memória de forma eficiente.
 - **Melhores práticas do Aspose.Cells**: Siga as diretrizes da documentação do Aspose para um desempenho ideal.
 
@@ -154,6 +156,9 @@ R: Sim, ele suporta uma ampla variedade de formatos do Excel, incluindo XLS e XL
 Seguindo este guia, você estará bem equipado para incorporar funcionalidades de subtotal em seus aplicativos Java usando Aspose.Cells. Boa programação!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

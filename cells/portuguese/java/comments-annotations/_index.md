@@ -6,7 +6,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -14,7 +16,7 @@
 
 Nossos tutoriais de comentários e anotações mostram como implementar recursos colaborativos em documentos do Excel usando o Aspose.Cells para Java. Estes guias passo a passo abordam a criação e formatação de comentários em células, o gerenciamento de discussões encadeadas, o controle da visibilidade dos comentários e o uso programático de ferramentas de revisão. Cada tutorial inclui exemplos práticos de código Java que demonstram como aprimorar suas planilhas com notas explicativas e mecanismos de feedback para apoiar a colaboração em equipe.
 
-## que você aprenderá
+## O que você aprenderá
 
 - Como usar Aspose.Cells para Java para realizar operações de comentários e anotações
 - Implementação passo a passo com exemplos de código completos
@@ -63,6 +65,9 @@ Um tutorial de código para Aspose.Words Java
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

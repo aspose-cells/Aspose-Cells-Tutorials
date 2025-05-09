@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-07"
-"description": "Aprende a configurar el tamaño de fuente en archivos de Excel con Aspose.Cells para Java con este tutorial paso a paso. ¡Mejora tus habilidades de formato de documentos hoy mismo!"
+"description": "Aprenda a configurar el tamaño de fuente en archivos de Excel con Aspose.Cells para Java con este tutorial paso a paso. ¡Mejore sus habilidades de formato de documentos hoy mismo!"
 "title": "Establecer el tamaño de fuente en Excel con Aspose.Cells Java - Guía completa"
 "url": "/es/java/formatting/aspose-cells-java-set-font-size-excel/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -190,6 +192,9 @@ Para explorar más a fondo Aspose.Cells, considere profundizar en su extensa doc
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

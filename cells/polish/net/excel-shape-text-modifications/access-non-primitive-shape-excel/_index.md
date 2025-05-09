@@ -1,14 +1,16 @@
 ---
-title: Dostęp do kształtu nieprymitywnego w programie Excel
-linktitle: Dostęp do kształtu nieprymitywnego w programie Excel
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Naucz się uzyskiwać dostęp do nieprymitywnych kształtów w programie Excel za pomocą Aspose.Cells dla .NET. Odkryj metodologie krok po kroku w tym kompleksowym przewodniku.
-weight: 19
-url: /pl/net/excel-shape-text-modifications/access-non-primitive-shape-excel/
+"description": "Naucz się uzyskiwać dostęp do nieprymitywnych kształtów w programie Excel za pomocą Aspose.Cells dla .NET. Odkryj metodologie krok po kroku w tym kompleksowym przewodniku."
+"linktitle": "Dostęp do kształtu nieprymitywnego w programie Excel"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Dostęp do kształtu nieprymitywnego w programie Excel"
+"url": "/pl/net/excel-shape-text-modifications/access-non-primitive-shape-excel/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Dostęp do kształtu nieprymitywnego w programie Excel
@@ -19,20 +21,20 @@ Czy kiedykolwiek natknąłeś się na nieprymitywny kształt w pliku Excel i zas
 Zanim przejdziemy do kodu, musisz spełnić kilka warunków wstępnych:
 1. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest niezbędna do płynnego zrozumienia tekstu.
 2. Visual Studio: Powinieneś mieć zainstalowany Visual Studio na swoim komputerze. Tutaj napiszemy nasz kod.
-3.  Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję[Tutaj](https://releases.aspose.com/cells/net/).
-4. Plik Excel: Utwórz lub uzyskaj plik Excel zawierający nieprymitywne kształty do testowania. W tym samouczku użyjemy`"NonPrimitiveShape.xlsx"`.
+3. Biblioteka Aspose.Cells: Musisz mieć zainstalowaną bibliotekę Aspose.Cells. Możesz pobrać najnowszą wersję [Tutaj](https://releases.aspose.com/cells/net/).
+4. Plik Excel: Utwórz lub uzyskaj plik Excel zawierający nieprymitywne kształty do testowania. W tym samouczku użyjemy `"NonPrimitiveShape.xlsx"`.
 Gdy już spełnisz te wymagania, możemy przejść do najprzyjemniejszej części!
 ## Importuj pakiety
 Pierwszym krokiem do uruchomienia wszystkiego jest zaimportowanie niezbędnych pakietów do projektu C#. Oto, co musisz zrobić:
 ### Utwórz nowy projekt
 - Otwórz program Visual Studio i utwórz nowy projekt aplikacji konsolowej C#.
--  Wybierz odpowiednią nazwę dla swojego projektu, np.`AsposeShapeAccess`.
+- Wybierz odpowiednią nazwę dla swojego projektu, np. `AsposeShapeAccess`.
 ### Zainstaluj pakiet NuGet Aspose.Cells
 - Kliknij prawym przyciskiem myszy projekt w Eksploratorze rozwiązań.
 - Wybierz „Zarządzaj pakietami NuGet”.
--  Szukaj`Aspose.Cells` i kliknij „Zainstaluj”.
+- Szukaj `Aspose.Cells` i kliknij „Zainstaluj”.
 ### Importuj przestrzeń nazw
- Na szczycie twojego`Program.cs` plik, zaimportuj przestrzeń nazw Aspose.Cells, dodając następujący wiersz:
+Na szczycie twojego `Program.cs` plik, zaimportuj przestrzeń nazw Aspose.Cells, dodając następujący wiersz:
 ```csharp
 using System.IO;
 using Aspose.Cells;
@@ -46,13 +48,13 @@ Zanim przejdziemy do dostępu do kształtów, musimy określić katalog, w któr
 ```csharp
 string dataDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś`NonPrimitiveShape.xlsx` plik jest zapisywany. 
+Zastępować `"Your Document Directory"` z rzeczywistą ścieżką, gdzie jesteś `NonPrimitiveShape.xlsx` plik jest zapisywany. 
 ## Krok 2: Załaduj skoroszyt
 Teraz, gdy mamy już skonfigurowaną ścieżkę dokumentu, czas załadować skoroszyt. Oto, jak to zrobić:
 ```csharp
 Workbook workbook = new Workbook(dataDir + "NonPrimitiveShape.xlsx");
 ```
- Ta linia tworzy nowy`Workbook`obiekt, który odczytuje plik Excel, który wcześniej określiłeś.
+Ta linia tworzy nowy `Workbook` obiekt, który odczytuje plik Excel, który wcześniej określiłeś.
 ## Krok 3: Uzyskaj dostęp do arkusza kalkulacyjnego
 Następnie uzyskamy dostęp do pierwszego arkusza w skoroszycie. Zróbmy to:
 ```csharp
@@ -114,21 +116,23 @@ foreach (ShapePathPoint pathPoint in segmentPoints)
 ```
 Dzięki temu w praktyce uzyskujemy współrzędne każdego punktu definiującego nasz nieprymitywny kształt — to fantastyczny sposób na wizualizację tego, co dzieje się „pod maską”!
 ## Wniosek
-I masz to! Udało Ci się uzyskać dostęp i zbadać szczegóły nieprymitywnych kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Ta potężna biblioteka otwiera świat możliwości manipulowania plikami programu Excel, niezależnie od tego, czy generujesz raporty, tworzysz dynamiczne arkusze kalkulacyjne, czy obsługujesz złożone kształty. Jeśli masz jakieś pytania lub potrzebujesz dalszej pomocy, nie wahaj się skontaktować z nami!
+masz to! Udało Ci się uzyskać dostęp i zbadać szczegóły nieprymitywnych kształtów w programie Excel przy użyciu Aspose.Cells dla .NET. Ta potężna biblioteka otwiera świat możliwości manipulowania plikami programu Excel, niezależnie od tego, czy generujesz raporty, tworzysz dynamiczne arkusze kalkulacyjne, czy obsługujesz złożone kształty. Jeśli masz jakieś pytania lub potrzebujesz dalszej pomocy, nie wahaj się skontaktować z nami!
 ## Najczęściej zadawane pytania
 ### Czym są kształty nieprymitywne w programie Excel?
 Kształty nieprymitywne to złożone kształty składające się z wielu segmentów i krzywych, a nie z prostych form geometrycznych.
 ### Jak zainstalować Aspose.Cells dla .NET?
- Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać z ich strony[strona](https://releases.aspose.com/cells/net/).
+Można go zainstalować za pomocą Menedżera pakietów NuGet w programie Visual Studio lub pobrać z ich strony [strona](https://releases.aspose.com/cells/net/).
 ### Czy mogę używać Aspose.Cells za darmo?
-Tak, możesz pobrać bezpłatną wersję próbną z ich strony internetowej, aby zapoznać się z jej funkcjami[Tutaj](https://releases.aspose.com/).
+Tak, możesz pobrać bezpłatną wersję próbną z ich strony internetowej, aby zapoznać się z jej funkcjami [Tutaj](https://releases.aspose.com/).
 ### Jakie są korzyści ze stosowania Aspose.Cells?
 Aspose.Cells oferuje zaawansowane funkcje umożliwiające programowe manipulowanie arkuszami kalkulacyjnymi programu Excel bez konieczności instalowania programu Excel na komputerze.
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Cells?
- Pomoc i wsparcie możesz uzyskać na forum społeczności Aspose[Tutaj](https://forum.aspose.com/c/cells/9).
+Pomoc i wsparcie możesz uzyskać na forum społeczności Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

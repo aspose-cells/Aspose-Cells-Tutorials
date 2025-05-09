@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Bemästra Excel-automation med Aspose.Cells för Java genom att läsa in arbetsböcker och hämta resultat från frågetabeller. Öka produktiviteten inom databehandling, rapportering och integration."
+"description": "Bemästra Excel-automation med Aspose.Cells för Java genom att läsa in arbetsböcker och hämta resultat från frågetabeller. Öka produktiviteten inom databearbetning, rapportering och integration."
 "title": "Excel Automation' Läs in arbetsböcker och frågetabeller med Aspose.Cells Java för effektiv datahantering"
 "url": "/sv/java/workbook-operations/excel-automation-aspose-cells-java-workbook-query-tables/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Innan du börjar, se till att du har följande:
 - En utvecklingsmiljö kompatibel med Maven eller Gradle
 - Grundläggande kunskaper i Java-programmering
 
-### Kunskapsförkunskaper:
+### Kunskapsförkunskapskrav:
 - Bekantskap med Excel-arbetsböcker och frågetabeller
 - Förståelse för hantering av Java-filer
 
@@ -187,6 +189,9 @@ Omfamna kraften i automatisering med Aspose.Cells Java och förändra hur du int
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

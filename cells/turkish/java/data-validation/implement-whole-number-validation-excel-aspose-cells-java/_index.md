@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -159,7 +161,7 @@ Bu örnekler, Aspose.Cells for Java'nın finans sektöründen envanter yönetimi
 ## Performans Hususları
 - **Verimli Bellek Kullanımı:** Kullanmak `Workbook.dispose()` Çalışma kitabını bitirdiyseniz kaynakları serbest bırakın.
 - **Doğrulama Aralıklarını Optimize Edin:** Yükü azaltmak için yalnızca gerekli olduğu durumlarda doğrulamaları uygulayın.
-- **Toplu İşleme:** Daha iyi performans için büyük veri kümeleriyle çalışırken çalışma kitaplarını gruplar halinde işleyin.
+- **Toplu İşleme:** Daha iyi performans için büyük veri kümeleriyle çalışırken çalışma kitaplarını toplu olarak işleyin.
 
 ## Çözüm
 Bu öğreticiyi takip ederek, Aspose.Cells for Java kullanarak bir Excel çalışma kitabını nasıl başlatacağınızı, çalışma sayfası doğrulamalarına nasıl erişeceğinizi ve bunları nasıl yöneteceğinizi, tam sayı veri doğrulamasını nasıl uygulayacağınızı ve çalışma kitabınızı nasıl kaydedeceğinizi öğrendiniz. Bu bilgi, Excel uygulamalarındaki veri girişi süreçlerinin güvenilirliğini artırır.
@@ -187,6 +189,9 @@ Sonraki adımlar arasında Aspose.Cells tarafından sağlanan diğer veri doğru
 - **Destek:** https://forum.aspose.com/c/hücreler/9
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

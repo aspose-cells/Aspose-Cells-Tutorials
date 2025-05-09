@@ -1,14 +1,16 @@
 ---
-title: Analiza buforowanych rekordów Pivot podczas ładowania pliku Excel w .NET
-linktitle: Analiza buforowanych rekordów Pivot podczas ładowania pliku Excel w .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak analizować buforowane rekordy pivot w .NET przy użyciu Aspose.Cells. Prosty przewodnik po efektywnym zarządzaniu plikami Excela i tabelami przestawnymi.
-weight: 28
-url: /pl/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/
+"description": "Dowiedz się, jak analizować buforowane rekordy pivot w .NET przy użyciu Aspose.Cells. Prosty przewodnik po wydajnym zarządzaniu plikami Excela i tabelami przestawnymi."
+"linktitle": "Analiza buforowanych rekordów Pivot podczas ładowania pliku Excel w .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Analiza buforowanych rekordów Pivot podczas ładowania pliku Excel w .NET"
+"url": "/pl/net/creating-and-configuring-pivot-tables/parsing-pivot-cached-records/"
+"weight": 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Analiza buforowanych rekordów Pivot podczas ładowania pliku Excel w .NET
@@ -20,7 +22,7 @@ Zanim zanurzysz się w morzu kodowania z Aspose.Cells, jest kilka rzeczy, które
 ### Studio wizualne
 - Upewnij się, że masz zainstalowaną kopię Visual Studio. To zaufany statek, który pozwoli Ci płynnie poruszać się po kodzie.
 ### Aspose.Cells dla .NET
--  Musisz mieć zainstalowany Aspose.Cells. Możesz go kupić za pośrednictwem ich[strona internetowa](https://purchase.aspose.com/buy) lub zacznij od[bezpłatny okres próbny](https://releases.aspose.com/).
+- Musisz mieć zainstalowany Aspose.Cells. Możesz go kupić za pośrednictwem ich [strona internetowa](https://purchase.aspose.com/buy) lub zacznij od [bezpłatny okres próbny](https://releases.aspose.com/).
 ### Podstawowa wiedza z języka C#
 - Ten przewodnik zakłada, że posiadasz podstawową wiedzę o C#. To tak, jakbyś znał liny przed wypłynięciem.
 ### Plik Excela z tabelą przestawną
@@ -46,9 +48,9 @@ string sourceDir = "Your Document Directory";
 //Katalog źródłowy
 string outputDir = "Your Document Directory";
 ```
- Zastępować`"Your Document Directory"` z rzeczywistą ścieżką, gdzie przechowywane są pliki Excela. Ten krok jest kluczowy, ponieważ jeśli katalogi nie są ustawione poprawnie, nie możemy znaleźć naszych plików, tak jakbyśmy zgubili się na morzu!
+Zastępować `"Your Document Directory"` rzeczywistą ścieżką, gdzie przechowywane są pliki Excela. Ten krok jest kluczowy, ponieważ jeśli katalogi nie są ustawione poprawnie, nie możemy znaleźć naszych plików, tak jakbyśmy zgubili się na morzu!
 ## Krok 2: Utwórz opcje ładowania
-Następnie musimy utworzyć instancję`LoadOptions`. Tutaj możemy ustawić pewne parametry dotyczące sposobu ładowania pliku Excel.
+Następnie musimy utworzyć instancję `LoadOptions`. Tutaj możemy ustawić pewne parametry dotyczące sposobu ładowania pliku Excel.
 ```csharp
 //Utwórz opcje ładowania
 LoadOptions options = new LoadOptions();
@@ -60,7 +62,7 @@ Włączmy opcję analizowania rekordów pamięci podręcznej przestawiania, usta
 //Ustaw ParsingPivotCachedRecords na true, wartość domyślna to false
 options.ParsingPivotCachedRecords = true;
 ```
-Domyślnie parsowanie buforowanych rekordów pivot jest ustawione na false. Ustawienie na true jest kluczowe dla wyodrębnienia danych, których potrzebujemy z tabel przestawnych, podobnie jak rozbijanie powierzchni wody w celu znalezienia skarbów poniżej!
+Domyślnie parsowanie buforowanych rekordów pivot jest ustawione na false. Ustawienie na true jest kluczowe dla wyodrębnienia potrzebnych nam danych z tabel przestawnych, podobnie jak rozbijanie powierzchni wody w celu znalezienia skarbów poniżej!
 ## Krok 4: Załaduj plik Excel
 Teraz możemy załadować nasz plik Excel!
 ```csharp
@@ -122,16 +124,18 @@ I oto mamy to! Udało Ci się przeanalizować buforowane rekordy pivot podczas �
 ### Czym jest Aspose.Cells?
 Aspose.Cells to potężna biblioteka .NET służąca do programowego zarządzania plikami Excela i manipulowania nimi.
 ### Jak rozpocząć korzystanie z Aspose.Cells?
- Możesz zacząć używać Aspose.Cells, pobierając je ze strony[strona](https://releases.aspose.com/cells/net/) i postępując zgodnie z instrukcją instalacji.
+Możesz zacząć używać Aspose.Cells, pobierając je ze strony [strona](https://releases.aspose.com/cells/net/) i postępując zgodnie z instrukcją instalacji.
 ### Czy mogę wypróbować Aspose.Cells za darmo?
- Tak! Aspose oferuje[bezpłatny okres próbny](https://releases.aspose.com/)dzięki czemu możesz zapoznać się z jego funkcjami przed dokonaniem zakupu.
+Tak! Aspose oferuje [bezpłatny okres próbny](https://releases.aspose.com/) dzięki czemu możesz zapoznać się z jego funkcjami przed dokonaniem zakupu.
 ### Gdzie mogę znaleźć dokumentację Aspose.Cells?
- Szczegółową dokumentację można znaleźć[Tutaj](https://reference.aspose.com/cells/net/).
+Szczegółową dokumentację można znaleźć [Tutaj](https://reference.aspose.com/cells/net/).
 ### Jak uzyskać pomoc techniczną dotyczącą Aspose.Cells?
- Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose, aby uzyskać pomoc[Tutaj](https://forum.aspose.com/c/cells/9).
+Jeśli potrzebujesz wsparcia, możesz odwiedzić forum Aspose [Tutaj](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

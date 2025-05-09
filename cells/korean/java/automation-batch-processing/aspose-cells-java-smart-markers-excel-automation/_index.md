@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -146,7 +148,7 @@ workbook.save(outDir + "UHProperty-out.xls");
 ## 실제 응용 프로그램
 실제 시나리오에서 Aspose.Cells Java를 적용하는 방법은 다음과 같습니다.
 1. **자동 보고**: Excel 템플릿에 데이터를 입력하여 동적 보고서를 생성합니다.
-2. **데이터 통합**: 다양한 소스의 데이터를 Excel 시트에 직접 원활하게 통합합니다.
+2. **데이터 통합**: 다양한 소스의 데이터를 Excel 시트에 원활하게 통합합니다.
 3. **템플릿 사용자 정의**: 다양한 부서나 프로젝트에 맞게 Excel 템플릿을 손쉽게 사용자 정의할 수 있습니다.
 4. **일괄 처리**: 여러 개의 Excel 파일을 일괄 처리하여 시간과 리소스를 절약합니다.
 
@@ -186,6 +188,9 @@ Excel 자동화 기술을 한 단계 더 발전시킬 준비가 되셨나요? �
 - **지원하다**: [Aspose 지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

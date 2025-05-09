@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -171,6 +173,9 @@ Nyní jste se naučili, jak vytvořit sešit s tlačítkem pomocí knihovny Aspo
 Neváhejte a prozkoumejte tyto zdroje, kde najdete další podporu a informace o efektivním používání Aspose.Cells ve vašich projektech v Javě!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

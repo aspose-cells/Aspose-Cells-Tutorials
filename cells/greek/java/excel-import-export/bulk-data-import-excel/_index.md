@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μαζική εισαγωγή δεδομένων Excel
@@ -99,9 +101,11 @@ for (int row = 0; row < maxRows; row++) {
 Ναι, ανατρέξτε στις πληροφορίες αδειοδότησης στον ιστότοπο της Aspose για λεπτομέρειες σχετικά με την αδειοδότηση και την τιμολόγηση.
 
 Μη διστάσετε να εξερευνήσετε περαιτέρω και να προσαρμόσετε τα παραδείγματα κώδικα στις συγκεκριμένες απαιτήσεις σας. Καλή κωδικοποίηση!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

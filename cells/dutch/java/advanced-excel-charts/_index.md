@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Geavanceerde Excel-grafieken
@@ -47,9 +49,11 @@ Leer hoe je boeiende diagramanimaties maakt met Aspose.Cells voor Java. Inclusie
 Leer hoe je verbluffende watervaldiagrammen maakt met Aspose.Cells voor Java. Stapsgewijze handleiding met broncode voor effectieve datavisualisatie.
 ### [Grafiekinteractiviteit](./chart-interactivity/)
 Leer hoe u interactieve grafieken maakt met Aspose.Cells voor Java. Verbeter uw datavisualisatie met interactiviteit.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

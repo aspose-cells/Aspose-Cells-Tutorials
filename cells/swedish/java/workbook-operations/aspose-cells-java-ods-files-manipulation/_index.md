@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -234,6 +236,9 @@ När du arbetar med Aspose.Cells i Java, tänk på följande tips för att optim
 Du har nu bemästrat hur man laddar och manipulerar ODS-filer med Aspose.Cells för Java. Från att komma åt kalkylblad till att extrahera bakgrundsinformation är du utrustad för att förbättra dina applikationer med sofistikerade kalkylbladsbearbetningsfunktioner.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

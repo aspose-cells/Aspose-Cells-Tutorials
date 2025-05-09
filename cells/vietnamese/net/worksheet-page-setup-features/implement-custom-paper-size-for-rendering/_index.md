@@ -1,28 +1,30 @@
 ---
-title: Triển khai Kích thước giấy tùy chỉnh trong Bảng tính để Kết xuất
-linktitle: Triển khai Kích thước giấy tùy chỉnh trong Bảng tính để Kết xuất
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Tìm hiểu cách triển khai kích thước giấy tùy chỉnh trong bảng tính bằng Aspose.Cells cho .NET. Các bước dễ dàng để tạo tài liệu PDF tùy chỉnh.
-weight: 14
-url: /vi/net/worksheet-page-setup-features/implement-custom-paper-size-for-rendering/
+"description": "Tìm hiểu cách triển khai kích thước giấy tùy chỉnh trong bảng tính bằng Aspose.Cells cho .NET. Các bước dễ dàng để tạo tài liệu PDF tùy chỉnh."
+"linktitle": "Triển khai Kích thước giấy tùy chỉnh trong Bảng tính để Kết xuất"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Triển khai Kích thước giấy tùy chỉnh trong Bảng tính để Kết xuất"
+"url": "/vi/net/worksheet-page-setup-features/implement-custom-paper-size-for-rendering/"
+"weight": 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Triển khai Kích thước giấy tùy chỉnh trong Bảng tính để Kết xuất
 
 ## Giới thiệu
-Trong bài viết này, chúng ta sẽ đi sâu vào thế giới của Aspose.Cells for .NET—một thư viện mạnh mẽ giúp đơn giản hóa thao tác và kết xuất tệp Excel. Chúng tôi sẽ hướng dẫn bạn cách triển khai kích thước giấy tùy chỉnh trong bảng tính và tạo tệp PDF với các kích thước độc đáo đó. Hướng dẫn từng bước này sẽ trang bị cho bạn mọi thứ bạn cần, cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình lập trình của mình.
+Trong bài viết này, chúng ta sẽ đi sâu vào thế giới của Aspose.Cells for .NET—một thư viện mạnh mẽ giúp đơn giản hóa thao tác và kết xuất tệp Excel. Chúng tôi sẽ hướng dẫn bạn cách triển khai kích thước giấy tùy chỉnh trong bảng tính và tạo tệp PDF với các kích thước độc đáo đó. Hướng dẫn từng bước này sẽ trang bị cho bạn mọi thứ bạn cần, cho dù bạn là một nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu hành trình lập trình của mình.
 Bạn đã sẵn sàng học chưa? Hãy bắt đầu thôi!
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, bạn cần chuẩn bị một số thứ sau:
 1. Kiến thức cơ bản về C#: Hiểu về C# sẽ giúp bạn điều hướng qua các đoạn mã hiệu quả hơn.
-2.  Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải xuống trực tiếp từ[liên kết này](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells cho Thư viện .NET: Đảm bảo bạn đã cài đặt thư viện. Bạn có thể tải xuống trực tiếp từ [liên kết này](https://releases.aspose.com/cells/net/).
 3. Visual Studio hoặc bất kỳ IDE nào hỗ trợ C#: Bạn sẽ cần một môi trường phát triển tương thích để viết và kiểm tra mã của mình.
 4. .NET Framework: Đảm bảo bạn có .NET framework phù hợp để Aspose.Cells có thể hoạt động hiệu quả.
-5.  Truy cập vào Tài liệu: Luôn luôn tốt khi có[Tài liệu Aspose](https://reference.aspose.com/cells/net/) hữu ích để tham khảo.
+5. Truy cập vào Tài liệu: Luôn luôn tốt khi có [Tài liệu Aspose](https://reference.aspose.com/cells/net/) hữu ích để tham khảo.
 Bây giờ chúng ta đã có đủ những điều cần thiết, hãy chuyển sang nhập các gói cần thiết.
 ## Nhập gói
 Để bắt đầu sử dụng Aspose.Cells trong dự án của bạn, bạn sẽ cần nhập các không gian tên cần thiết. Sau đây là cách bạn có thể thực hiện trong mã C# của mình:
@@ -31,7 +33,7 @@ using System.IO;
 using Aspose.Cells;
 using System;
 ```
-Đảm bảo các không gian tên này được bao gồm ở đầu tệp của bạn. Chúng sẽ cung cấp các hàm và lớp cần thiết để thao tác với sổ làm việc của bạn.
+Đảm bảo các không gian tên này được bao gồm ở đầu tệp của bạn. Chúng sẽ cung cấp các hàm và lớp cần thiết để thao tác sổ làm việc của bạn.
 ## Bước 1: Thiết lập môi trường
 Đầu tiên và quan trọng nhất, hãy đảm bảo môi trường phát triển của bạn được cấu hình đúng:
 - Mở IDE của bạn: Khởi chạy Visual Studio (hoặc IDE mà bạn thích).
@@ -57,7 +59,7 @@ Bây giờ đến phần thú vị! Bạn sẽ thiết lập kích thước gi�
 // Đặt kích thước giấy tùy chỉnh theo đơn vị inch
 ws.PageSetup.CustomPaperSize(6, 4);
 ```
-Trong trường hợp này, chúng tôi đang xác định kích thước giấy là 6 inch chiều rộng và 4 inch chiều cao. Đây là cơ hội để bạn tạo ra các tài liệu nổi bật với kích thước độc đáo!
+Trong trường hợp này, chúng tôi sẽ xác định kích thước giấy là 6 inch chiều rộng và 4 inch chiều cao. Đây là cơ hội để bạn tạo ra các tài liệu nổi bật với kích thước độc đáo!
 ## Bước 5: Truy cập vào một ô cụ thể
 Tiếp theo, chúng ta hãy làm việc với một ô cụ thể trong bảng tính, tại đó chúng ta sẽ thêm một số thông tin về kích thước giấy.
 ```csharp
@@ -85,17 +87,19 @@ Và bạn đã có nó! Bạn đã triển khai thành công một kích thướ
 ## Câu hỏi thường gặp
 ### Aspose.Cells dành cho .NET là gì?
 Aspose.Cells for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác và hiển thị các tệp Excel trong các ứng dụng .NET.
-### Tôi có thể thiết lập nhiều kích cỡ giấy cho các bảng tính khác nhau không?
+### Tôi có thể thiết lập nhiều kích thước giấy cho các bảng tính khác nhau không?
 Có, mỗi bảng tính có thể có kích thước giấy tùy chỉnh riêng bằng phương pháp nêu trên.
 ### Tôi có thể lưu bảng tính của mình ở định dạng tệp nào?
 Bạn có thể lưu bảng tính của mình ở nhiều định dạng khác nhau, bao gồm XLSX, XLS và PDF, cùng nhiều định dạng khác.
 ### Có mất phí gì khi sử dụng Aspose.Cells không?
- Aspose.Cells cung cấp bản dùng thử miễn phí; tuy nhiên, bạn cần mua giấy phép để tiếp tục sử dụng sau thời gian dùng thử. Bạn có thể khám phá thêm[đây](https://purchase.aspose.com/buy).
+Aspose.Cells cung cấp bản dùng thử miễn phí; tuy nhiên, bạn cần mua giấy phép để tiếp tục sử dụng sau thời gian dùng thử. Bạn có thể khám phá thêm [đây](https://purchase.aspose.com/buy).
 ### Tôi có thể nhận được hỗ trợ ở đâu nếu gặp vấn đề?
- Bạn có thể nhận được sự hỗ trợ và tham gia với cộng đồng trên[Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+Bạn có thể nhận được sự hỗ trợ và tham gia với cộng đồng trên [Diễn đàn Aspose](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

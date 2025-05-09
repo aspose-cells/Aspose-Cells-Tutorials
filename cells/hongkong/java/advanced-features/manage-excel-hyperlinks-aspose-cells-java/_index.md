@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -55,7 +57,7 @@
 
 ## 設定 Aspose.Cells for Java
 
-要開始使用 Aspose.Cells for Java，您需要將其包含在您的專案中。你可以透過 Maven 或 Gradle 添加它：
+要開始使用 Aspose.Cells for Java，您需要將其包含在您的專案中。以下是透過 Maven 或 Gradle 添加它的方法：
 
 **Maven**
 ```xml
@@ -204,6 +206,9 @@ workbook.save(outputDir + "HyperlinksSample_out.xlsx");
 透過利用 Aspose.Cells 的功能，您可以增強 Java 應用程式中的 Excel 處理任務。編碼愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

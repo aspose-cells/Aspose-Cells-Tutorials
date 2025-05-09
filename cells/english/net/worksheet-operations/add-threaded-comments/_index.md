@@ -8,7 +8,9 @@ url: /net/worksheet-operations/add-threaded-comments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Threaded Comments in Worksheet
@@ -81,6 +83,7 @@ You can refer to the [Aspose.Cells documentation](https://reference.aspose.com/c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

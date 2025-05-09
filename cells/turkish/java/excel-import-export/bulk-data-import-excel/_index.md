@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Toplu Veri İçe Aktarma Excel
@@ -99,9 +101,11 @@ Kesinlikle! Java için Aspose.Cells, Excel dosyalarına veri aktarmayı ve Excel
 Evet, lisanslama ve fiyatlandırma hakkında ayrıntılı bilgi için lütfen Aspose web sitesindeki lisanslama bilgilerini inceleyin.
 
 Daha fazlasını keşfetmekten ve kod örneklerini özel gereksinimlerinizi karşılayacak şekilde uyarlamaktan çekinmeyin. İyi kodlamalar!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -31,7 +33,7 @@ Innan du börjar, se till att du har:
 
 - **Obligatoriska bibliotek:** Aspose.Cells för Java version 25.3 eller senare. Den här handledningen använder Maven- och Gradle-inställningar.
 - **Miljöinställningar:** Ett kompatibelt Java Development Kit (JDK) installerat på din dator.
-- **Kunskapsförkunskaper:** Grundläggande förståelse för Java-programmering och förtrogenhet med Excel-filstrukturer.
+- **Kunskapsförkunskapskrav:** Grundläggande förståelse för Java-programmering och förtrogenhet med Excel-filstrukturer.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -204,6 +206,9 @@ Vi har gått igenom hur man lägger till en textbox i ett Excel-diagram med hjä
 Genom att följa den här guiden kan du effektivt integrera Aspose.Cells i dina Java-projekt för att förbättra Excel-diagramfunktionerna med anpassade textanteckningar. Lycka till med kodningen!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

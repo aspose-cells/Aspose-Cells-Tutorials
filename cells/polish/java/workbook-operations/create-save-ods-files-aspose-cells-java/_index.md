@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -183,7 +185,7 @@ Teraz wiesz, jak tworzyć i zapisywać pliki ODS za pomocą Aspose.Cells dla Jav
 
 ### Sekcja FAQ
 
-**P1: Jak poradzić sobie z wyjątkami podczas zapisywania plików ODS?**
+**P1: Jak radzić sobie z wyjątkami podczas zapisywania plików ODS?**
 A1: Użyj bloków try-catch do zarządzania wyjątkami IOException, które mogą wystąpić podczas operacji na plikach.
 
 **P2: Czy Aspose.Cells może generować wykresy w pliku ODS?**
@@ -204,12 +206,15 @@ A5: Tak, Aspose.Cells można bezproblemowo zintegrować z różnymi frameworkami
 - **Pobierać**: [Strona wydań](https://releases.aspose.com/cells/java/)
 - **Zakup**: [Kup licencję](https://purchase.aspose.com/buy)
 - **Bezpłatna wersja próbna**: [Rozpocznij bezpłatny okres próbny](https://releases.aspose.com/cells/java/)
-- **Licencja tymczasowa**: [Poproś teraz](https://purchase.aspose.com/temporary-license/)
+- **Licencja tymczasowa**: [Zapytaj teraz](https://purchase.aspose.com/temporary-license/)
 - **Forum wsparcia**: [Wsparcie Aspose](https://forum.aspose.com/c/cells/9)
 
 Rozpocznij przygodę z Aspose.Cells for Java już dziś i ułatw sobie zarządzanie arkuszami kalkulacyjnymi!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

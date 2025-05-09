@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 动态数据透视表
@@ -107,9 +109,11 @@ pivotTable.calculateData();
 ### Q5：Aspose.Cells 是否支持 Excel 的高级数据透视表功能？
 
 是的，Aspose.Cells 为 Excel 的高级数据透视表功能提供了广泛的支持，允许您创建复杂的数据透视表。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

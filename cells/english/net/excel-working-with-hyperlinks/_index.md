@@ -8,7 +8,9 @@ url: /net/excel-working-with-hyperlinks/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Working with Hyperlinks in Excel
@@ -33,9 +35,11 @@ Learn how to add external file links in Excel using Aspose.Cells for .NET with t
 Learn to add internal links to cells in Excel sheets using Aspose.Cells for .NET. Enhance navigation in your spreadsheets effortlessly.
 ### [Add Link to URL in Excel](./add-link-to-url/)
 Discover how to easily add a URL hyperlink in Excel using Aspose.Cells for .NET with this detailed tutorial. Streamline your spreadsheets.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

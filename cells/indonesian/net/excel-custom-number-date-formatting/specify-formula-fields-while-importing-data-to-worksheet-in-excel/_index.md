@@ -1,34 +1,36 @@
 ---
-title: Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel
-linktitle: Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel
-second_title: API Pemrosesan Excel Aspose.Cells .NET
-description: Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini.
-weight: 11
-url: /id/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/
+"description": "Pelajari cara mengimpor data ke dalam lembar Excel dengan bidang rumus tertentu menggunakan Aspose.Cells untuk .NET dalam tutorial terperinci ini."
+"linktitle": "Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel"
+"second_title": "Aspose.Cells .NET Excel feldolgozási API"
+"title": "Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel"
+"url": "/id/net/excel-custom-number-date-formatting/specify-formula-fields-while-importing-data-to-worksheet-in-excel/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tentukan Bidang Rumus Saat Mengimpor Data ke Lembar Excel
 
-## Perkenalan
+## Bevezetés
 
 Jika berbicara tentang penanganan berkas Excel secara terprogram, Aspose.Cells for .NET merupakan alat yang sangat berharga. Alat ini menyediakan fungsionalitas yang tangguh untuk membuat, memodifikasi, dan memanipulasi lembar kerja Excel dengan mudah. Salah satu fitur menarik yang ditawarkannya adalah kemampuan untuk menentukan bidang rumus saat mengimpor data ke dalam lembar Excel. Bayangkan Anda sedang mengerjakan laporan keuangan dan perlu menghitung total secara otomatis berdasarkan masukan pengguna. Tutorial ini akan memandu Anda langkah demi langkah untuk mencapainya dengan pendekatan yang jelas dan lugas.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum masuk ke kode, mari pastikan Anda memiliki semua yang dibutuhkan. 
 
 1. Visual Studio atau lingkungan pengembangan terpadu (IDE) .NET apa pun: Pastikan Anda memiliki IDE yang sesuai untuk menulis dan menjalankan kode C# Anda.
-2.  Aspose.Cells untuk .NET: Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari[Aspose merilis](https://releases.aspose.com/cells/net/).
+2. Aspose.Cells untuk .NET: Anda perlu mengunduh dan merujuk pustaka Aspose.Cells di proyek Anda. Anda dapat mengunduhnya dari [Aspose kiadások](https://releases.aspose.com/cells/net/).
 3. Pengetahuan dasar C#: Keakraban dengan C# dan konsep pemrograman berorientasi objek akan membantu Anda memahami contoh-contoh dengan lebih baik.
 4. .NET Framework: Tutorial ini mengasumsikan Anda menggunakan .NET Framework 4.5 atau yang lebih tinggi.
 
 Setelah Anda menyelesaikan prasyarat, mari lanjutkan untuk mengimpor beberapa data ke dalam lembar Excel dengan bidang rumus yang ditentukan.
 
-## Paket Impor
+## Csomagok importálása
 
 Sebelum Anda mulai menulis kode, Anda perlu mengimpor namespace Aspose.Cells yang diperlukan. Hal ini biasanya dilakukan di bagian atas berkas C# Anda:
 
@@ -40,17 +42,17 @@ using System.Collections.Generic;
 
 Hal ini memungkinkan Anda untuk menggunakan kelas dan metode yang disediakan oleh pustaka Aspose.Cells tanpa perlu menambahkan awalan namespace setiap saat.
 
-Mari kita uraikan keseluruhan proses menjadi langkah-langkah yang dapat dikelola:
+Mari kita uraikan seluruh proses menjadi langkah-langkah yang dapat dikelola:
 
-## Langkah 1: Tentukan Direktori Output
+## 1. lépés: A kimeneti könyvtár meghatározása
 
-Pertama, Anda perlu menentukan di mana Anda ingin menyimpan berkas Excel Anda. Berikut cara melakukannya:
+Pertama, Anda perlu menentukan di mana Anda ingin menyimpan berkas Excel Anda. Berikut ini cara melakukannya:
 
 ```csharp
 static string outputDir = "Your Document Directory"; // tentukan direktori dokumen Anda di sini
 ```
 
- Mengganti`"Your Document Directory"` dengan jalur berkas Anda yang sebenarnya. Di sinilah berkas Excel yang dihasilkan akan disimpan.
+Csere `"Your Document Directory"` dengan jalur berkas Anda yang sebenarnya. Di sinilah berkas Excel yang dihasilkan akan disimpan.
 
 ## Langkah 2: Buat Kelas yang Ditentukan Pengguna untuk Item Data
 
@@ -66,11 +68,11 @@ class DataItems
 }
 ```
 
- Ini`DataItems` Kelas akan menampung bilangan bulat mentah dan rumus yang akan kita tulis pada lembar Excel. 
+Ez `DataItems` Kelas akan menampung bilangan bulat mentah dan rumus yang akan kita tulis pada lembar Excel. 
 
 ## Langkah 3: Inisialisasi Daftar untuk Menampung Item Data
 
- Kami akan menggunakan daftar untuk menampung beberapa contoh`DataItems` kelas.
+Kami akan menggunakan daftar untuk menampung beberapa contoh `DataItems` osztály.
 
 ```csharp
 List<DataItems> dis = new List<DataItems>();
@@ -92,7 +94,7 @@ dis.Add(di);
 // Ulangi untuk item data tambahan
 ```
 
- Pastikan untuk menyesuaikan masing-masing`DataItems` contoh dengan nilai dan rumus yang unik.
+Pastikan untuk menyesuaikan masing-masing `DataItems` contoh dengan nilai dan rumus yang unik.
 
 ## Langkah 5: Buat Buku Kerja dan Akses Lembar Kerja
 
@@ -112,11 +114,11 @@ ImportTableOptions opts = new ImportTableOptions();
 opts.IsFormulas = new bool[] { false, false, true, true };
 ```
 
- Dalam contoh ini, dua bidang terakhir berisi rumus, yang ditunjukkan oleh`true` , sedangkan dua bidang pertama diatur ke`false`.
+Dalam contoh ini, dua bidang terakhir berisi rumus, yang ditunjukkan oleh `true`, sedangkan dua bidang pertama diatur ke `false`.
 
 ## Langkah 7: Impor Objek Kustom
 
-Sekarang semuanya sudah disiapkan, mari impor daftar item data kita ke dalam lembar kerja.
+Sekarang semuanya sudah disiapkan, mari impor daftar item data ke dalam lembar kerja.
 
 ```csharp
 ws.Cells.ImportCustomObjects(dis, 0, 0, opts);
@@ -164,30 +166,32 @@ Console.WriteLine("SpecifyFormulaFieldsWhileImportingDataToWorksheet executed su
 
 Ini memberi Anda umpan balik langsung bahwa kode telah berfungsi tanpa masalah.
 
-## Kesimpulan
+## Következtetés
 
 Nah, itu dia! Anda telah berhasil mengimpor data ke dalam lembar Excel menggunakan Aspose.Cells for .NET dan menentukan bidang rumus. Dengan mengikuti langkah-langkah ini, Anda dapat menerapkan teknik serupa untuk mengotomatiskan tugas pemrosesan data yang disesuaikan dengan kebutuhan Anda. Baik Anda mengolah angka untuk laporan atau sekadar mengelola data, menguasai seni manipulasi Excel dengan Aspose adalah keterampilan yang layak dimiliki.
 
-## Pertanyaan yang Sering Diajukan
+## GYIK
 
-### Apa itu Aspose.Cells?
+### Mi az Aspose.Cells?
 Aspose.Cells adalah pustaka .NET yang dirancang untuk membuat, memanipulasi, dan mengonversi file Excel secara terprogram.
 
-### Bagaimana cara menginstal Aspose.Cells untuk .NET?
- Anda dapat mengunduhnya dari[Aspose merilis](https://releases.aspose.com/cells/net/) dan merujuknya dalam proyek Anda.
+### Hogyan telepíthetem az Aspose.Cells for .NET-et?
+Letöltheted innen: [Aspose kiadások](https://releases.aspose.com/cells/net/) és hivatkozz rá a projektedben.
 
-### Bisakah saya menggunakan Aspose.Cells secara gratis?
- Ya, Aspose menawarkan uji coba gratis yang tersedia di[tautan ini](https://releases.aspose.com/).
+### Ingyenesen használhatom az Aspose.Cells-t?
+Ya, Aspose menawarkan uji coba gratis yang tersedia di [ezt a linket](https://releases.aspose.com/).
 
-### Di mana saya dapat menemukan lebih banyak contoh?
- Contoh dan dokumentasi tambahan dapat ditemukan di[Halaman dokumentasi Aspose](https://reference.aspose.com/cells/net/).
+### Hol találok további példákat?
+Contoh dan dokumentasi tambahan dapat ditemukan di [Halaman dokumentasi Aspose](https://reference.aspose.com/cells/net/).
 
 ### Bagaimana jika saya mengalami masalah saat menggunakan Aspose?
- Anda dapat mencari bantuan dari forum dukungan Aspose[Di Sini](https://forum.aspose.com/c/cells/9).
+Anda dapat mencari bantuan dari forum dukungan Aspose [itt](https://forum.aspose.com/c/cells/9).
  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

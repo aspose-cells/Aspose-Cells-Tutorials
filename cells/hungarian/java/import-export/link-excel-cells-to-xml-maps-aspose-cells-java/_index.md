@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -34,7 +36,7 @@ A hatékony követés érdekében alapvető Java programozási ismeretekkel kell
 ## Az Aspose.Cells beállítása Java-hoz
 
 ### Szakértő
-Az Aspose.Cells Maven használatával történő integrálásához add hozzá a következő függőséget a `pom.xml`:
+Az Aspose.Cells Mavennel történő integrálásához a projektedbe, add hozzá a következő függőséget a `pom.xml`:
 
 ```xml
 <dependency>
@@ -156,6 +158,9 @@ V5: Igen, licenc megvásárlása után. Az ingyenes próbaverzió korlátozások
 - **Támogatás:** [Aspose Támogatási Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -132,7 +134,7 @@ IL `IStreamProvider` L'interfaccia consente di gestire i flussi durante il proce
 
 #### Opzioni di configurazione chiave
 
-- **Esportazione di script e proprietà dei frame**: Controlla se gli script e le proprietà sono inclusi nell'HTML esportato.
+- **Esporta script e proprietà dei frame**: Controlla se gli script e le proprietà sono inclusi nell'HTML esportato.
   
   ```java
   public void setExportFrameScriptsAndProperties(boolean b) {
@@ -174,7 +176,7 @@ IL `IStreamProvider` L'interfaccia consente di gestire i flussi durante il proce
 
 ## Conclusione
 
-In questo tutorial, abbiamo spiegato come implementare il `IStreamProvider` Interfaccia che utilizza Aspose.Cells per Java per esportare file Excel in HTML in modo efficiente. Configurando diverse impostazioni e comprendendo le applicazioni reali, è possibile migliorare le capacità di gestione dei dati nei progetti Java.
+In questo tutorial abbiamo spiegato come implementare il `IStreamProvider` Interfaccia che utilizza Aspose.Cells per Java per esportare file Excel in HTML in modo efficiente. Configurando diverse impostazioni e comprendendo le applicazioni reali, è possibile migliorare le capacità di gestione dei dati nei progetti Java.
 
 Per esplorare ulteriormente le funzionalità di Aspose.Cells, prendi in considerazione l'idea di approfondire funzionalità più avanzate o di integrarle con altri servizi.
 
@@ -201,6 +203,9 @@ Per esplorare ulteriormente le funzionalità di Aspose.Cells, prendi in consider
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

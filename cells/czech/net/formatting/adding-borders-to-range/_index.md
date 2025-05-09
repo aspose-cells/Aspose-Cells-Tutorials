@@ -1,54 +1,59 @@
 ---
-title: Přidávání hranic do rozmezí v programu Excel pomocí Aspose.Cells pro .NET
-weight: 7700
-limit: 
-description: Naučte se přidat hranice do rozmezí v souboru Excel pomocí Aspose.Cells pro .NET. Následujte tento krok za krokem průvodce s vzorem kódu a podrobnými vysvětlením.
-keywords: [Aspose.Cells for .NET, Excel borders, add borders to range, C# Excel formatting, apply border Excel C#, Excel range border, .NET Excel library]
-url: /cs/net/formatting/adding-borders-to-range/
+"description": "Naučte se, jak přidat ohraničení do oblasti v souboru aplikace Excel pomocí Aspose.Cells pro .NET. Postupujte podle tohoto podrobného návodu s ukázkovým kódem a podrobným vysvětlením."
+"title": "Přidání ohraničení do oblasti v Excelu pomocí Aspose.Cells pro .NET"
+"url": "/cs/net/formatting/adding-borders-to-range/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidávání hranic do rozmezí v programu Excel pomocí Aspose.Cells
+# Přidání ohraničení do oblasti v Excelu pomocí Aspose.Cells
   
-Aspose.Cells pro .NET je výkonná knihovna, která umožňuje vývojářům programaticky vytvářet, manipulovat a formátovat soubory Excel. V tomto příkladu ukážeme, jak přidat hranice k konkrétní škále buněk v rámci pracovního seznamu Excel pomocí C#. Naučíte se vytvářet pracovní knihu, přístup k pracovní listě, definovat škálu a aplikovat tlusté hranice v různých směrech. Tento výuk poskytuje praktický přístup k formátování Excel, což usnadňuje zlepšení vizuální struktury vašich kalkulačních listů.  
+Aspose.Cells pro .NET je výkonná knihovna, která umožňuje vývojářům programově vytvářet, manipulovat a formátovat soubory aplikace Excel. V tomto příkladu si ukážeme, jak přidat ohraničení do určité oblasti buněk v sešitu aplikace Excel pomocí jazyka C#. Naučíte se, jak vytvořit sešit, jak přistupovat k listu, definovat oblast a jak použít silné ohraničení v různých směrech. Tento tutoriál nabízí praktický přístup k formátování v aplikaci Excel, což usnadňuje vylepšení vizuální struktury tabulek.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/adding-borders-to-range" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## Příkazy na instalaci:  
-Chcete-li použít Aspose.Cells pro .NET, postupujte podle těchto instalačních kroků:  
 
-1. Instalace prostřednictvím NuGet:  
-   * Otevři svůj projekt Visual Studio.  
-   * V konzole pro správu balíček spěchejte následující příkaz:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## Pokyny k instalaci:  
+Chcete-li použít Aspose.Cells pro .NET, postupujte podle těchto kroků instalace:  
+
+1. Instalace přes NuGet:  
+   - Otevřete svůj projekt ve Visual Studiu.  
+   - Spusťte následující příkaz v konzoli Správce balíčků:  
      ```powershell
      Install-Package Aspose.Cells
      ```
-   * Alternativně použijte NuGet Package Manager pro vyhledávání Aspose.Cells a instalaci.  
+   - Případně můžete pomocí Správce balíčků NuGet vyhledat soubor „Aspose.Cells“ a nainstalovat jej.  
 
-2. Stáhněte si z webové stránky Aspose:  
-   * Navštivte [Složba Aspose.Cells](https://releases.aspose.com/cells/net/)\- Ne , ne .  
-   * Stáhněte si nejnovější verzi a odkažte na DLL ve svém projektu.  
+2. Stáhnout z webových stránek Aspose:  
+   - Navštivte [Stránka ke stažení Aspose.Cells](https://releases.aspose.com/cells/net/).  
+   - Stáhněte si nejnovější verzi a ve svém projektu odkazujte na knihovnu DLL.  
 
-3. Žádost o licenci (nepotřební):  
-   * Můžete požádat o[dočasná licence](https://purchase.aspose.com/temporary-license/)nebo kupovat plnou verzi z [Předpokládej nákup](https://purchase.aspose.com/buy)\- Ne , ne .  
-   * Uložte licenci do svého projektu pomocí:  
+3. Požádat o licenci (volitelné):  
+   - Můžete požádat o [dočasná licence](https://purchase.aspose.com/temporary-license/) nebo si zakoupit plnou verzi od [Nákup Aspose](https://purchase.aspose.com/buy).  
+   - Použijte licenci ve svém projektu pomocí:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
 ## Viz také  
-Chcete-li si koupit licenci, jděte na [Uložte stránku nákupu](https://purchase.aspose.com/buy)\- Ne , ne .  
-Pro úplnou dokumentaci navštivte [Aspose.Cells pro dokumentaci .NET](https://docs.aspose.com/cells/net/)\- Ne , ne .  
-Pro úplné zkoumání referenčního protokolu API se podívejte [Aspose.Cells pro referenční aplikaci .NET API](https://reference.aspose.com/cells/net/)\- Ne , ne . 
+Chcete-li zakoupit licenci, přejděte na [Nákupní stránka Aspose](https://purchase.aspose.com/buy).  
+Úplnou dokumentaci naleznete na [Dokumentace k Aspose.Cells pro .NET](https://docs.aspose.com/cells/net/).  
+Chcete-li si prohlédnout kompletní referenci API, podívejte se na [Referenční příručka k Aspose.Cells pro .NET API](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,57 +1,62 @@
 ---
-title: Crear una tabla pivot en Excel usando Aspose.Cells para .NET
-weight: 7700
-limit: 
-description: Aprende cómo crear una tabla pivot en un archivo Excel utilizando Aspose.Cells para .NET. Esta guía paso a paso demuestra la adición de datos y la generación de una tabla pivot.
-keywords: [Aspose.Cells for .NET, create Pivot Table, Excel Pivot Table, .NET Excel library, generate Pivot Table, Excel automation, C# Pivot Table, data summarization, Aspose.Cells example]
-url: /es/net/pivot-tables/create-pivot-table/
+"description": "Aprenda a crear una tabla dinámica en un archivo de Excel con Aspose.Cells para .NET. Esta guía paso a paso muestra cómo agregar datos y generar una tabla dinámica."
+"title": "Crear una tabla dinámica en Excel usando Aspose.Cells para .NET"
+"url": "/es/net/pivot-tables/create-pivot-table/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Crea una tabla pivot en Excel usando Aspose.Cells
+# Crear una tabla dinámica en Excel usando Aspose.Cells
 
-Crear Tablas Pivot en Excel programáticamente nunca ha sido más fácil! Con Aspose.Cells para .NET, puede generar un libro de trabajo de Excel, agregar datos estructurados y crear una Tabla Pivot para el análisis de datos dinámicos. Este tutorial le guía a través de la inicialización de un libro de trabajo, llenando los datos, insertando una Tabla Pivot y configurando su estructuratodo en C#. Ya sea que esté automatizando informes o analizando datos de ventas, este ejemplo le ayudará a agilizar el proceso de manera eficiente.  
+¡Crear tablas dinámicas en Excel mediante programación nunca ha sido tan fácil! Con Aspose.Cells para .NET, puede generar un libro de Excel, agregar datos estructurados y crear una tabla dinámica para el análisis dinámico de datos. Este tutorial le guiará en la inicialización de un libro, la introducción de datos, la inserción de una tabla dinámica y la configuración de su estructura, todo en C#. Tanto si automatiza informes como si analiza datos de ventas, este ejemplo le ayudará a optimizar el proceso.  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/pivot-tables/create-pivot-table" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Instrucciones de instalación
-Para usar Aspose.Cells para .NET en su proyecto, siga estos pasos:  
+Para utilizar Aspose.Cells para .NET en su proyecto, siga estos pasos:  
 
-1. Instalar a través de NuGet:  
-   * Abre el estudio visual.  
-   * Ve a Herramientas > Gerente de paquetes NuGet > Gerenciamiento de paquetes NuGet para Solución.  
-   * Busca Aspose.Cells y instalala.  
+1. Instalar mediante NuGet:  
+   - Abra Visual Studio.  
+   - Vaya a Herramientas > Administrador de paquetes NuGet > Administrar paquetes NuGet para la solución.  
+   - Busque Aspose.Cells e instálelo.  
 
-   Alternativamente, instale a través de la consola de gestión de paquetes NuGet:  
+   Alternativamente, instálelo a través de la consola del administrador de paquetes NuGet:  
    ```powershell
    Install-Package Aspose.Cells
    ```  
 
-2. Descarga desde el sitio web de Aspose:  
-   * Visita el[Aspose.Cells para .NET Página de descarga](https://releases.aspose.com/cells/net/)¿ Qué ?  
-   * Descarga y extrae los archivos de la biblioteca.  
-   * Añadir la referencia Aspose.Cells.dll a su proyecto .NET.  
+2. Descargar desde el sitio web de Aspose:  
+   - Visita el [Página de descarga de Aspose.Cells para .NET](https://releases.aspose.com/cells/net/).  
+   - Descargue y extraiga los archivos de la biblioteca.  
+   - Agregue la referencia Aspose.Cells.dll a su proyecto .NET.  
 
-3. Aplicar una licencia (opcional):  
-   * Comprar una licencia de [Aspone](https://purchase.aspose.com/buy)o obtener un [licencia temporal](https://purchase.aspose.com/temporary-license/)¿ Qué ?  
-   * Aplica la licencia en tu código:  
+3. Solicitar una licencia (opcional):  
+   - Comprar una licencia de [Supongamos](https://purchase.aspose.com/buy) o conseguir uno [licencia temporal](https://purchase.aspose.com/temporary-license/).  
+   - Aplique la licencia en su código:  
      ```csharp
      License license = new License();
      license.SetLicense("Aspose.Cells.lic");
      ```  
 
-## También véase  
-Para comprar una licencia, vaya a [Ponga en marcha la página de compra](https://purchase.aspose.com/buy)¿ Qué ?  
-Para obtener la documentación completa, visite [Aspose.Cells para Documentación .NET](https://docs.aspose.com/cells/net/)¿ Qué ?  
-Para explorar la referencia completa de la API, consulte [Aspose.Cells para la referencia de API .NET](https://reference.aspose.com/cells/net/)¿ Qué ? 
+## Ver también  
+Para comprar una licencia, vaya a [Página de compra de Aspose](https://purchase.aspose.com/buy).  
+Para obtener la documentación completa, visite [Documentación de Aspose.Cells para .NET](https://docs.aspose.com/cells/net/).  
+Para explorar la referencia completa de la API, consulte [Referencia de la API de Aspose.Cells para .NET](https://reference.aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

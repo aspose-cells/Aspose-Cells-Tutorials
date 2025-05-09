@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -57,7 +59,7 @@ implementation 'com.aspose:aspose-cells:25.3'
 
 ### Adquisición de licencias
 
-Aspose.Cells es un producto comercial, pero puedes obtener una prueba gratuita para explorar sus funciones. Considera comprar una licencia para uso a largo plazo.
+Aspose.Cells es un producto comercial, pero puedes obtener una prueba gratuita para explorar sus funciones. Considera adquirir una licencia para uso a largo plazo.
 
 Para inicializar y configurar Aspose.Cells en su aplicación Java:
 ```java
@@ -175,7 +177,7 @@ Aprendió a crear y personalizar minigráficos en Excel con Aspose.Cells para Ja
 **1. ¿Qué son los sparklines?**
    Los sparklines son pequeños gráficos colocados en una sola celda para representar tendencias en conjuntos de datos.
 
-**2. ¿Cómo puedo cambiar el tipo de minigráfico?**
+**2. ¿Cómo cambio el tipo de minigráfico?**
    Usar `SparklineType` al agregar nuevos sparklines para especificar tipos como LÍNEA o COLUMNA.
 
 **3. ¿Puedo aplicar sparklines a varias hojas de cálculo a la vez?**
@@ -196,6 +198,9 @@ Aprendió a crear y personalizar minigráficos en Excel con Aspose.Cells para Ja
 - **Licencia temporal:** Solicite una licencia temporal a través de [Página de licencia temporal](https://purchase.aspose.com/temporary-license/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

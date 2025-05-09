@@ -1,14 +1,16 @@
 ---
-title: Zmiana właściwości fragmentatora w Aspose.Cells .NET
-linktitle: Zmiana właściwości fragmentatora w Aspose.Cells .NET
-second_title: Aspose.Cells .NET API przetwarzania programu Excel
-description: Dowiedz się, jak zmienić właściwości fragmentatora w programie Excel za pomocą Aspose.Cells dla .NET. Ulepsz prezentację danych dzięki temu prostemu samouczkowi krok po kroku.
-weight: 10
-url: /pl/net/excel-slicers-management/change-slicer-properties/
+"description": "Dowiedz się, jak zmienić właściwości fragmentatora w programie Excel za pomocą Aspose.Cells dla .NET. Ulepsz prezentację danych dzięki temu prostemu samouczkowi krok po kroku."
+"linktitle": "Zmiana właściwości fragmentatora w Aspose.Cells .NET"
+"second_title": "Aspose.Cells .NET API przetwarzania programu Excel"
+"title": "Zmiana właściwości fragmentatora w Aspose.Cells .NET"
+"url": "/pl/net/excel-slicers-management/change-slicer-properties/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Zmiana właściwości fragmentatora w Aspose.Cells .NET
@@ -25,7 +27,7 @@ Zanim przejdziemy do części poświęconej kodowaniu, musisz spełnić kilka wa
 Upewnij się, że masz zainstalowany program Visual Studio na swoim komputerze. To zintegrowane środowisko programistyczne (IDE) pomoże Ci pisać, debugować i uruchamiać kod C# bezproblemowo.
   
 ### 2. Aspose.Cells dla .NET: 
-Musisz pobrać i zainstalować Aspose.Cells. Możesz go pobrać ze strony[Strona do pobrania](https://releases.aspose.com/cells/net/).
+Musisz pobrać i zainstalować Aspose.Cells. Możesz go pobrać ze strony [Strona do pobrania](https://releases.aspose.com/cells/net/).
   
 ### 3. Podstawowa wiedza o języku C#: 
 Znajomość programowania w języku C# znacznie pomoże Ci zrozumieć fragmenty kodu, z których będziemy korzystać.
@@ -62,7 +64,7 @@ string sourceDir = "Your Document Directory";
 // Katalog wyjściowy
 string outputDir = "Your Document Directory";
 ```
- Po prostu zamień`"Your Document Directory"` rzeczywistymi ścieżkami, gdzie znajdują się Twoje pliki. W ten sposób kod dokładnie wie, gdzie znaleźć i zapisać pliki, zapewniając płynne wykonanie!
+Po prostu zamień `"Your Document Directory"` z rzeczywistymi ścieżkami, gdzie znajdują się Twoje pliki. W ten sposób kod dokładnie wie, gdzie znaleźć i zapisać pliki, zapewniając płynne wykonanie!
 
 ## Krok 2: Załaduj przykładowy plik Excel
 
@@ -72,7 +74,7 @@ Teraz czas załadować przykładowy plik Excela do programu. Ta czynność jest 
 // Załaduj przykładowy plik Excela zawierający tabelę.
 Workbook workbook = new Workbook(sourceDir + "sampleCreateSlicerToExcelTable.xlsx");
 ```
- Tutaj wykorzystujemy`Workbook` klasa, aby załadować nasz plik Excel. Upewnij się, że ten plik istnieje, inaczej trafisz na przeszkodę na drodze!
+Tutaj wykorzystujemy `Workbook` klasa, aby załadować nasz plik Excel. Upewnij się, że ten plik istnieje, inaczej trafisz na przeszkodę!
 
 ## Krok 3: Uzyskaj dostęp do pierwszego arkusza kalkulacyjnego
 
@@ -82,7 +84,7 @@ Po załadowaniu skoroszytu należy przejść do konkretnego arkusza, z którym c
 // Otwórz pierwszy arkusz kalkulacyjny.
 Worksheet worksheet = workbook.Worksheets[0];
 ```
- W tym wierszu pobieramy pierwszy arkusz z skoroszytu. Jeśli masz więcej arkuszy, możesz je zastąpić`[0]` z indeksem interesującego Cię arkusza.
+W tym wierszu pobieramy pierwszy arkusz z skoroszytu. Jeśli masz więcej arkuszy, możesz je zastąpić `[0]` indeksem interesującego Cię arkusza.
 
 ## Krok 4: Uzyskaj dostęp do pierwszej tabeli w arkuszu kalkulacyjnym
 
@@ -118,7 +120,7 @@ slicer.IsPrintable = false;
 slicer.IsLocked = false;
 ```
 
--  Umiejscowienie: Określa sposób interakcji krajalnicy z komórkami.`FreeFloating`oznacza, że może się poruszać niezależnie.
+- Umiejscowienie: Określa sposób interakcji krajalnicy z komórkami. `FreeFloating` oznacza, że może się poruszać niezależnie.
 - RowHeightPixel i WidthPixel: Dostosuj rozmiar fragmentatora, aby uzyskać lepszą widoczność.
 - Tytuł: Ustawia przyjazną etykietę dla krajalnicy.
 - AlternativeText: Zawiera opis dostępności.
@@ -143,11 +145,11 @@ Teraz, gdy wszystko jest na swoim miejscu, pozostało tylko zapisać skoroszyt z
 // Zapisz skoroszyt w formacie wyjściowym XLSX.
 workbook.Save(outputDir + "outputChangeSlicerProperties.xlsx", SaveFormat.Xlsx);
 ```
-ten sposób zmodyfikowany plik Excela zostanie zapisany w określonym katalogu wyjściowym.
+W ten sposób zmodyfikowany plik Excela zostanie zapisany w określonym katalogu wyjściowym.
 
 ## Wniosek
 
-I masz to! Udało Ci się zmienić właściwości fragmentatora za pomocą Aspose.Cells dla .NET. Manipulowanie plikami Excel nigdy nie było łatwiejsze, a teraz możesz sprawić, by te fragmentatory pracowały dla Ciebie jak nigdy dotąd. Niezależnie od tego, czy prezentujesz dane interesariuszom, czy po prostu zarządzasz swoimi raportami, użytkownicy końcowi docenią interaktywną i atrakcyjną wizualnie prezentację danych.
+I masz! Udało Ci się zmienić właściwości fragmentatora za pomocą Aspose.Cells dla .NET. Manipulowanie plikami Excel nigdy nie było łatwiejsze, a teraz możesz sprawić, by te fragmentatory pracowały dla Ciebie jak nigdy dotąd. Niezależnie od tego, czy prezentujesz dane interesariuszom, czy po prostu zarządzasz swoimi raportami, użytkownicy końcowi docenią interaktywną i atrakcyjną wizualnie prezentację danych.
 
 ## Najczęściej zadawane pytania
 
@@ -158,16 +160,18 @@ Fragmentatory to filtry wizualne pozwalające użytkownikom bezpośrednio filtro
 Aspose.Cells to potężna biblioteka umożliwiająca zarządzanie plikami Excela w różnych formatach, oferująca szerokie możliwości manipulowania danymi.
 
 ### Czy muszę kupić Aspose.Cells, aby z niego korzystać?
- Możesz zacząć od bezpłatnego okresu próbnego, ale w przypadku dłuższego użytkowania możesz rozważyć zakup licencji. Sprawdź nasze[kup opcje](https://purchase.aspose.com/buy).
+Możesz zacząć od bezpłatnego okresu próbnego, ale w przypadku dłuższego użytkowania możesz rozważyć zakup licencji. Sprawdź nasze [kup opcje](https://purchase.aspose.com/buy).
 
 ### Czy mogę liczyć na pomoc, jeśli wystąpią jakieś problemy?
- Oczywiście! Możesz się skontaktować na[forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.
+Oczywiście! Możesz się skontaktować na [forum wsparcia](https://forum.aspose.com/c/cells/9) po pomoc.
 
 ### Czy mogę używać Aspose.Cells również do tworzenia wykresów?
 Tak! Aspose.Cells ma rozbudowane funkcje tworzenia i manipulowania wykresami, oprócz slicerów i tabel danych.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Menambahkan Slicer ke Excel dengan Aspose.Cells untuk Java: Panduan Pengembang
 
-## Perkenalan
+## Bevezetés
 
 Dalam dunia yang digerakkan oleh data saat ini, mengelola kumpulan data besar di Excel bisa jadi menantang. Aspose.Cells untuk Java menawarkan fitur-fitur canggih seperti pemotong untuk menyederhanakan penyaringan dan analisis data. Tutorial ini akan memandu Anda menambahkan pemotong ke buku kerja Excel Anda menggunakan Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Menampilkan versi Aspose.Cells untuk Java
 - Memuat buku kerja Excel yang ada
 - Mengakses lembar kerja dan tabel tertentu
@@ -26,11 +28,11 @@ Dalam dunia yang digerakkan oleh data saat ini, mengelola kumpulan data besar di
 
 Mari kita mulai dengan beberapa prasyarat sebelum masuk ke kode.
 
-## Prasyarat
+## Előfeltételek
 
 Sebelum mengimplementasikan Aspose.Cells untuk Java, pastikan Anda memiliki:
 
-### Pustaka dan Versi yang Diperlukan
+### Szükséges könyvtárak és verziók
 
 Sertakan Aspose.Cells sebagai dependensi menggunakan Maven atau Gradle:
 
@@ -48,30 +50,30 @@ Sertakan Aspose.Cells sebagai dependensi menggunakan Maven atau Gradle:
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Persyaratan Pengaturan Lingkungan
+### Környezeti beállítási követelmények
 - Java Development Kit (JDK) terinstal di komputer Anda.
 - Lingkungan Pengembangan Terpadu (IDE), seperti IntelliJ IDEA atau Eclipse, untuk mengkode dan menjalankan aplikasi Anda.
 
-### Prasyarat Pengetahuan
+### Ismereti előfeltételek
 Disarankan untuk memahami konsep dasar pemrograman Java. Memahami cara bekerja dengan file Excel secara terprogram akan bermanfaat, tetapi bukan hal yang wajib.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
 Pertama, atur Aspose.Cells di lingkungan proyek Anda dengan mendapatkan uji coba gratis atau lisensi sementara dari situs web resmi:
 
-### Langkah-langkah Memperoleh Lisensi
-1. **Uji Coba Gratis:** Unduh pustaka dan bereksperimenlah dengan kemampuannya.
-2. **Lisensi Sementara:** Minta lisensi sementara untuk pengujian yang diperpanjang di [Halaman Lisensi Sementara Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Beli Lisensi:** Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi penuh dari [Aspose Pembelian](https://purchase.aspose.com/buy).
+### Licencbeszerzés lépései
+1. **Ingyenes próbaverzió:** Unduh pustaka dan bereksperimenlah dengan kemampuannya.
+2. **Ideiglenes engedély:** Minta lisensi sementara untuk pengujian yang diperpanjang di [Az Aspose ideiglenes licencoldala](https://purchase.aspose.com/temporary-license/).
+3. **Licenc vásárlása:** Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi penuh dari [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 Inisialisasi Aspose.Cells di aplikasi Java Anda:
 ```java
 import com.aspose.cells.*;
 
 public class SetupAsposeCells {
     public static void main(String[] args) throws Exception {
-        // Tetapkan lisensi jika tersedia
+        // Licenc beállítása, ha elérhető
         License license = new License();
         license.setLicense("path/to/your/license/file.lic");
 
@@ -81,7 +83,7 @@ public class SetupAsposeCells {
 ```
 Dengan ini, Anda siap menjelajahi Aspose.Cells untuk Java.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari menerapkan pemotong dalam buku kerja Excel langkah demi langkah menggunakan Aspose.Cells.
 
@@ -163,19 +165,22 @@ public class SaveExcelWorkbookWithSlicer {
     }
 }
 ```
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 Menambahkan pemotong dengan Aspose.Cells untuk Java meningkatkan analisis data:
-1. **Pelaporan Keuangan:** Filter data penjualan triwulanan untuk mengidentifikasi tren.
-2. **Manajemen Inventaris:** Kelola tingkat stok secara dinamis dengan memfilter kategori produk.
+1. **Pénzügyi jelentéstétel:** Filter data penjualan triwulanan untuk mengidentifikasi tren.
+2. **Készletgazdálkodás:** Kelola tingkat stok secara dinamis dengan memfilter kategori produk.
 3. **Analisis SDM:** Menganalisis metrik kinerja karyawan di seluruh departemen secara efisien.
-Mengintegrasikan Aspose.Cells dengan sistem lain dapat lebih menyederhanakan alur kerja.
+Mengintegrasikan Aspose.Cells dengan sistem lain dapat lebih memperlancar alur kerja.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 Saat bekerja dengan kumpulan data besar, pertimbangkan:
-- **Manajemen Memori:** Tutup buku kerja dan lepaskan sumber daya setelah diproses.
-- **Pemrosesan Batch:** Menangani data secara batch untuk mengoptimalkan penggunaan memori.
+- **Memóriakezelés:** Tutup buku kerja dan lepaskan sumber daya setelah diproses.
+- **Kötegelt feldolgozás:** Menangani data secara batch untuk mengoptimalkan penggunaan memori.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

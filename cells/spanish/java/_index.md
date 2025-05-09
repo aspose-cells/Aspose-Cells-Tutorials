@@ -1,16 +1,18 @@
 ---
 "description": "Explora los tutoriales de Aspose.Cells para Java. Domina la manipulación de archivos de Excel con ejemplos de código. ¡Mejora tus conocimientos de Java hoy mismo!"
 "linktitle": "Tutoriales de Aspose.Cells para Java"
-"title": "Tutoriales de procesamiento de hojas de cálculo en Java con Aspose.Cells"
+"title": "Tutoriales de procesamiento de hojas de cálculo en Java de Aspose.Cells"
 "url": "/es/java/"
 "weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutoriales de procesamiento de hojas de cálculo en Java con Aspose.Cells
+# Tutoriales de procesamiento de hojas de cálculo en Java de Aspose.Cells
 
 
 ## Introducción
@@ -60,7 +62,7 @@ Tutoriales completos para agregar, modificar, copiar, mover y administrar hojas 
 Tutoriales paso a paso para trabajar con celdas de Excel, tipos de celdas, valores, fórmulas y referencias utilizando Aspose.Cells para Java.
 
 ### [Gestión de pastizales](./range-management/)
-Aprenda a trabajar con rangos de celdas, selecciones y realizar operaciones masivas en hojas de cálculo de Excel con estos tutoriales de Java de Aspose.Cells.
+Aprenda a trabajar con rangos de celdas, selecciones y realizar operaciones masivas en hojas de cálculo de Excel con estos tutoriales de Java Aspose.Cells.
 
 ### [Formato](./formatting/)
 Tutoriales completos sobre formato de celdas, estilos, formato condicional, temas y formatos de números en Excel usando Aspose.Cells para Java.
@@ -118,9 +120,11 @@ Tutoriales completos para crear plantillas de informes, generar documentos e imp
 
 ### [Automatización y procesamiento por lotes](./automation-batch-processing/)
 Tutoriales paso a paso para automatizar tareas de Excel, procesar por lotes varios archivos y programar operaciones con Aspose.Cells para Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

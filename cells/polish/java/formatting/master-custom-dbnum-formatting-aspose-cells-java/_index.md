@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -138,7 +140,7 @@ public class Main {
 ## Zastosowania praktyczne
 Aspose.Cells umożliwia szereg praktycznych zastosowań:
 1. **Sprawozdawczość finansowa**:Dostosowywanie formatów numerycznych dokumentów finansowych w celu zapewnienia zgodności ze standardami księgowymi.
-2. **Analityka danych**:Stosuj precyzyjne formatowanie liczb w celu wizualizacji i raportowania danych.
+2. **Analiza danych**:Stosuj precyzyjne formatowanie liczb w celu wizualizacji i raportowania danych.
 3. **Systemy ERP**:Ulepsz systemy ERP, integrując niestandardowe wyświetlacze numeryczne w celu ulepszenia interfejsów użytkownika.
 
 ## Rozważania dotyczące wydajności
@@ -179,6 +181,9 @@ Gotowy na kolejny krok? Spróbuj wdrożyć te funkcje w swoich projektach i zoba
 Rozpocznij przygodę z Aspose.Cells już dziś i udoskonal sposób obsługi danych Excela w Javie!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/worksheet-security/protect-rows/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Rows in Worksheet using Aspose.Cells
@@ -114,6 +116,7 @@ Yes! You can lock individual ranges in a row by setting the `IsLocked` property 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

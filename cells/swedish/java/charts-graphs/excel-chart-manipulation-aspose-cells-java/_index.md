@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -35,7 +37,7 @@ Innan du börjar, se till att du har följande:
   - Ett fungerande Java Development Kit (JDK) version 8 eller senare
   - En integrerad utvecklingsmiljö (IDE) som IntelliJ IDEA eller Eclipse
 
-- **Kunskapsförkunskaper:** Grundläggande kunskaper i Java-programmering och Excel-filstrukturer är meriterande.
+- **Kunskapsförkunskapskrav:** Grundläggande kunskaper i Java-programmering och Excel-filstrukturer är meriterande.
 
 ## Konfigurera Aspose.Cells för Java
 
@@ -180,6 +182,9 @@ Redo att ta din Excel-automatisering till nästa nivå? Börja implementera dess
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

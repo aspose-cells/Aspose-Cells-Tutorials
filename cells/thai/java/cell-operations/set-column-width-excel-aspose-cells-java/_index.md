@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -178,6 +180,9 @@ Aspose.Cells สำหรับ Java เป็นไลบรารีที่�
 บทช่วยสอนนี้จะช่วยให้คุณตั้งค่าและใช้งานการตั้งค่าความกว้างของคอลัมน์ใน Excel ได้โดยใช้ Aspose.Cells สำหรับ Java ขอให้สนุกกับการเขียนโค้ด!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

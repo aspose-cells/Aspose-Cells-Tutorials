@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -29,7 +31,7 @@
 ก่อนที่จะเริ่มต้น ให้แน่ใจว่าคุณมี:
 
 ### ห้องสมุดที่จำเป็น
-- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 หรือใหม่กว่า
+- Aspose.Cells สำหรับ Java เวอร์ชัน 25.3 ขึ้นไป
 
 ### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
 - Java Development Kit (JDK) ติดตั้งอยู่บนระบบของคุณ
@@ -60,7 +62,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 #### ขั้นตอนการรับใบอนุญาต
 - **ทดลองใช้งานฟรี**เริ่มต้นด้วยใบอนุญาตทดลองใช้งานฟรีเพื่อทดสอบ Aspose.Cells
-- **ใบอนุญาตชั่วคราว**: การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
+- **ใบอนุญาตชั่วคราว**การขอใบอนุญาตชั่วคราวเพื่อการประเมินผลขยายเวลา
 - **ซื้อ**:สำหรับการใช้ในการผลิต กรุณาซื้อการสมัครสมาชิก
 
 ### การเริ่มต้นและการตั้งค่าเบื้องต้น
@@ -112,7 +114,7 @@ public class ExportStreamProvider implements IStreamProvider {
             file.mkdirs();
         }
 
-        // สร้างเส้นทางสำหรับสตรีมแบบกำหนดเองโดยอิงตามเส้นทางเริ่มต้นและไดเรกทอรีเอาต์พุต
+        // สร้างเส้นทางสำหรับสตรีมแบบกำหนดเองตามเส้นทางเริ่มต้นและไดเรกทอรีเอาต์พุต
         String defaultPath = options.getDefaultPath();
         String path = outDir + defaultPath.substring(defaultPath.lastIndexOf("/") + 1);
         options.setCustomPath(path);
@@ -181,6 +183,9 @@ public class ExportStreamProvider implements IStreamProvider {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

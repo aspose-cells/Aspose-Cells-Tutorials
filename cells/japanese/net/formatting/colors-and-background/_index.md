@@ -1,53 +1,58 @@
 ---
-title: .NET のAspose.Cellsを使用して Excel でカラーと背景を適用する
-weight: 7700
-limit: 
-description: .NET の Aspose.Cells を使用して Excel に色や背景スタイルを適用する方法について学びます. セルフォーマットをカスタマイズして Excel 97-2003 形式でワークブックを保存します.
-keywords: [Aspose.Cells for .NET, Excel colors, Excel background, format Excel cells, set cell style, .NET Excel library, apply colors in Excel, Excel customization]
-url: /ja/net/formatting/colors-and-background/
+"description": "Aspose.Cells for .NET を使用して、Excel で色や背景スタイルを適用する方法を学びます。セルの書式設定をカスタマイズし、ワークブックを Excel 97-2003 形式で保存します。"
+"title": "Aspose.Cells for .NET を使用して Excel に色と背景を適用する"
+"url": "/ja/net/formatting/colors-and-background/"
+"weight": 7700
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
   
-# Aspose.Cellsを使用して Excel でカラーと背景を適用する
+# Aspose.Cells を使用して Excel に色と背景を適用する
   
-.NETのAspose.Cellsは,開発者が Excel のワークシートをプログラム的にフォーマットして,色や背景スタイルを細胞に適用する.この例では, Excel のワークブックを作成し,ワークシートを追加し,異なる前景と背景色を持つセルスタイルをカスタマイズし,ファイルを Excel 97-2003 形式で保存する方法を示しています. Aspose.Cellsを活用することで,開発者は簡単にスプレッドシートの美学を向上させ,データの読みやすさを向上させることができます.  
+Aspose.Cells for .NET を使用すると、開発者は Excel ワークシートのセルに色や背景スタイルを適用することで、プログラム的に書式設定を行うことができます。この例では、Excel ブックを作成し、ワークシートを追加し、前景色と背景色を変えてセルスタイルをカスタマイズし、ファイルを Excel 97-2003 形式で保存する方法を示します。Aspose.Cells を活用することで、開発者はスプレッドシートの見栄えを容易に向上させ、データの読みやすさを向上させることができます。  
 
 ---
+
 {{< tutorial-widget sourcePath="cells/net/formatting/colors-and-background" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
-## 設置指示  
-.NETのAspose.Cellsを始めるには,次の手順をご覧ください.  
 
-1. .NET のAspose.Cellsをダウンロードしてインストールする  
-   * ダウンロードする最新バージョン[Aspose.Cells ダウンロード](https://releases.aspose.com/cells/net/)やってくれ  
-   * Visual Studio で NuGet を使用してインストールします:  
+{{< blocks/products/pf/tutorial-page-section >}}
+## インストール手順  
+Aspose.Cells for .NET を使い始めるには、次の手順に従います。  
+
+1. Aspose.Cells for .NET をダウンロードしてインストールする  
+   - 最新バージョンをダウンロードするには [Aspose.Cells のダウンロード](https://releases。aspose.com/cells/net/).  
+   - Visual Studio で NuGet を使用してインストールします。  
      ```powershell
      Install-Package Aspose.Cells
      ```  
 
 2. 名前空間参照を追加する  
-   In your C# project, include:  
+   C# プロジェクトに以下を含めます。  
    ```csharp
    using Aspose.Cells;
    using System.Drawing;
    ```  
 
-3. Excel セルに色と背景を適用する  
-   * 新しいものを創り出す`作業簿`対象  
-   * 復元する`作業表`特定のセルにカスタムスタイルを適用します  
-   * 変更された作業簿を保存する`.xls`形式  
+3. Excelセルに色と背景を適用する  
+   - 新規作成 `Workbook` 物体。  
+   - 取得する `Worksheet` 特定のセルにカスタム スタイルを適用します。  
+   - 変更したワークブックを保存する `.xls` 形式。  
 
-## また見てください  
-ライセンスを購入するには [購入ページを設定する](https://purchase.aspose.com/buy)やってくれ  
-完全なドキュメントは,訪問してください [.NETドキュメントのAspose.Cells](https://docs.aspose.com/cells/net/)やってくれ  
-詳細については,チェックしてください [.NET API参照のAspose.Cells](https://reference.aspose.com/cells/net/)やってくれ 
+## こちらもご覧ください  
+ライセンスを購入するには、 [Aspose 購入ページ](https://purchase。aspose.com/buy).  
+完全なドキュメントについては、 [Aspose.Cells for .NET ドキュメント](https://docs。aspose.com/cells/net/).  
+完全なAPIリファレンスについては、 [Aspose.Cells for .NET API リファレンス](https://reference。aspose.com/cells/net/). 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

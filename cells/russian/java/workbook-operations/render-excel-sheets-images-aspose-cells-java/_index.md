@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -24,7 +26,7 @@
 Давайте рассмотрим предварительные условия, прежде чем приступить к реализации этих функций.
 ## Предпосылки
 Чтобы следовать этому руководству, убедитесь, что у вас есть:
-- **Требуемые библиотеки:** Настройка Maven или Gradle для управления зависимостями.
+- **Необходимые библиотеки:** Настройка Maven или Gradle для управления зависимостями.
 - **Настройка среды:** Java Development Kit (JDK), установленный и настроенный в вашей системе.
 - **Необходимые знания:** Базовые знания программирования на Java и навыки работы с файлами в каталоге.
 ## Настройка Aspose.Cells для Java
@@ -145,6 +147,9 @@ ImageSaver.saveImage(image, "/RWToGraphicContext_out.png");
 Используя эти инструменты и советы, вы будете на пути к освоению рендеринга таблиц Excel на Java с помощью Aspose.Cells!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

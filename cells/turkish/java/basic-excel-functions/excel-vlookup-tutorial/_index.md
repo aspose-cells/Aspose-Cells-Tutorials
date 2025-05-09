@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Excel VLOOKUP Eğitimi
@@ -16,7 +18,7 @@
 
 ## giriiş
 
-Bu kapsamlı eğitimde, güçlü Aspose.Cells for Java API'sini kullanarak Excel VLOOKUP dünyasına dalacağız. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kılavuz, VLOOKUP işlemlerini zahmetsizce gerçekleştirmek için Aspose.Cells for Java'nın potansiyelinden yararlanma adımlarında size yol gösterecektir.
+Bu kapsamlı eğitimde, güçlü Aspose.Cells for Java API'sini kullanarak Excel VLOOKUP dünyasına dalacağız. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kılavuz, VLOOKUP işlemlerini zahmetsizce gerçekleştirmek için Aspose.Cells for Java'nın potansiyelinden yararlanma adımlarında size yol gösterecek.
 
 ## Ön koşullar
 
@@ -112,6 +114,7 @@ Java için Aspose.Cells hakkında kapsamlı belgeler için belgeler sayfasını 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

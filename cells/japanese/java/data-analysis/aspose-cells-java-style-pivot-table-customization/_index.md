@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -68,7 +70,7 @@ public class SetupAspose {
 }
 ```
 ## 実装ガイド
-Aspose.Cells を使用してスタイルを作成し、適用する方法を説明します。
+Aspose.Cells を使用してスタイルを作成し、適用する方法を見てみましょう。
 ### スタイルの作成
 #### 概要
 このセクションでは、カスタム フォント スタイルを作成して Excel セルに特定の色を適用し、読みやすさと美しさを向上させる方法について説明します。
@@ -177,6 +179,9 @@ wb.save(outDir + "/ModifyPivotTableQuickStyle_out.xlsx");
 - [Aspose.Cells for Javaをダウンロード](https://releases.aspose.com/cells/java)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

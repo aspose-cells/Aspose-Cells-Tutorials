@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -160,7 +162,7 @@ A4: Az Aspose.Cells számos Excel formátumot támogat, például az XLSX-et és
 V5: A nagy fájlok és az összetett műveletek növelhetik a memóriahasználatot. Optimalizáljon adattömbökben történő feldolgozással vagy hatékony adatszerkezetek használatával.
 
 ## Erőforrás
-- **Dokumentáció**: [Aspose.Cells Java-referencia](https://reference.aspose.com/cells/java/)
+- **Dokumentáció**: [Aspose.Cells Java-referenciához](https://reference.aspose.com/cells/java/)
 - **Letöltés**: [Kiadások oldala](https://releases.aspose.com/cells/java/)
 - **Vásárlás**: [Licenc vásárlása](https://purchase.aspose.com/buy)
 - **Ingyenes próbaverzió**: [Próbaverziók letöltése](https://releases.aspose.com/cells/java/)
@@ -170,6 +172,9 @@ V5: A nagy fájlok és az összetett műveletek növelhetik a memóriahasználat
 Fedezd fel ezeket az erőforrásokat, hogy elmélyítsd az Aspose.Cells for Java megértését, és kiaknázd az Excel-manipulációban rejlő összes lehetőséget az alkalmazásaidban.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

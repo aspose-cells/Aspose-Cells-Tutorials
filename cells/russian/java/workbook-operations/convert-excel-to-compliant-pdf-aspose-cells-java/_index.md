@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -116,7 +118,7 @@ PdfSaveOptions pdfOptions = new PdfSaveOptions();
 pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
 ```
 
-**Объяснение:** `PdfSaveOptions` позволяет вам определить, как рабочая книга сохраняется в формате PDF. Настройка соответствия гарантирует, что ваш вывод будет соответствовать таким стандартам, как PDF/A, что повышает долговечность и совместимость документа.
+**Объяснение:** `PdfSaveOptions` позволяет вам определить, как рабочая книга будет сохранена в формате PDF. Настройка соответствия гарантирует, что ваш вывод будет соответствовать таким стандартам, как PDF/A, что повышает долговечность и совместимость документа.
 
 ##### Шаг 3: Сохраните рабочую книгу в формате PDF.
 
@@ -197,6 +199,9 @@ pdfOptions.setCompliance(PdfCompliance.PDF_A_1_B);
    - Вы можете исследовать [Международная организация по стандартизации (ИСО)](https://www.iso.org/standards.html) веб-сайт с подробной документацией по различным уровням соответствия PDF/A.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -80,7 +82,7 @@ Workbook workbook = new Workbook();
 Cells cells = workbook.getWorksheets().get(0).getCells();
 ```
 ### Dodawanie i stylizowanie tekstu w komórce
-Teraz wstawimy tekst do komórki i zastosujemy do niego styl.
+Teraz wstawimy tekst do komórki i zastosujemy do niej styl.
 #### Przegląd
 Stylizacja może zwiększyć czytelność i podkreślić pewne dane wejściowe. Oto jak ustawić styl dla swojego tekstu wejściowego:
 
@@ -193,6 +195,9 @@ Możesz swobodnie odkrywać więcej funkcji Aspose.Cells, takich jak wykresy, ta
 - Tak, Aspose.Cells obsługuje różne typy walidacji danych, co pozwala na egzekwowanie różnych reguł w całym skoroszycie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

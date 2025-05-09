@@ -8,7 +8,9 @@ url: /net/protect-excel-file/protect-column-in-excel-worksheet/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Protect Column In Excel Worksheet
@@ -183,6 +185,7 @@ You can find comprehensive documentation on Aspose.Cells for .NET [here](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

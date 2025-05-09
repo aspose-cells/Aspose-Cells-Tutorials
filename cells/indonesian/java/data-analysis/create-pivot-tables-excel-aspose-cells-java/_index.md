@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Cara Membuat Tabel Pivot di Excel dengan Aspose.Cells untuk Java
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengotomatiskan tugas analisis data secara efisien? Membuat tabel pivot secara manual bisa jadi membosankan, terutama jika datasetnya besar. **Aspose.Cells untuk Java** menyediakan solusi yang tangguh dengan mengaktifkan pembuatan tabel pivot dinamis secara terprogram. Tutorial ini akan memandu Anda membuat tabel pivot yang efektif menggunakan Aspose.Cells di Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Siapkan Aspose.Cells untuk Java di proyek Anda
 - Membuat dan menyiapkan data dalam file Excel
 - Terapkan tabel pivot untuk meringkas data Anda secara efektif
@@ -26,18 +28,18 @@ Apakah Anda ingin mengotomatiskan tugas analisis data secara efisien? Membuat ta
 
 Mari ubah data mentah menjadi laporan mendalam menggunakan Aspose.Cells untuk Java.
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki hal berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következőkkel rendelkezünk:
 
-### Pustaka yang dibutuhkan:
+### Szükséges könyvtárak:
 - **Aspose.Cells untuk Java** versi 25.3 atau lebih baru.
 
-### Pengaturan Lingkungan:
+### Környezet beállítása:
 - IDE yang kompatibel seperti IntelliJ IDEA atau Eclipse.
 - JDK (Java Development Kit) terinstal di sistem Anda.
 
-### Prasyarat Pengetahuan:
+### Előfeltételek a tudáshoz:
 - Pemahaman dasar tentang pemrograman Java.
 - Kemampuan menggunakan Excel dan tabel pivot.
 
@@ -59,12 +61,12 @@ Untuk memulai, integrasikan pustaka Aspose.Cells ke dalam proyek Java Anda mengg
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Langkah-langkah Memperoleh Lisensi:
-1. **Uji Coba Gratis:** Unduh uji coba gratis dari [Unduhan Aspose](https://releases.aspose.com/cells/java/).
-2. **Lisensi Sementara:** Dapatkan lisensi sementara untuk fitur yang diperluas di [Aspose Lisensi Sementara](https://purchase.aspose.com/temporary-license/).
-3. **Pembelian:** Untuk akses penuh, beli lisensi di [Aspose Pembelian](https://purchase.aspose.com/buy).
+### Licenc megszerzésének lépései:
+1. **Ingyenes próbaverzió:** Unduh uji coba gratis dari [Aspose letöltések](https://releases.aspose.com/cells/java/).
+2. **Ideiglenes engedély:** Dapatkan lisensi sementara untuk fitur yang diperluas di [Aspose ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+3. **Vásárlás:** Untuk akses penuh, beli lisensi di [Aspose vásárlás](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar:
+### Alapvető inicializálás:
 ```java
 import com.aspose.cells.*;
 
@@ -74,7 +76,7 @@ public class PivotTableExample {
         License license = new License();
         license.setLicense("path_to_your_license.lic");
 
-        Workbook workbook = new Workbook(); // Buat buku kerja baru
+        Workbook workbook = new Workbook(); // Új munkafüzet létrehozása
         WorksheetCollection sheets = workbook.getWorksheets();
 
         // Kode Anda akan berada di sini
@@ -84,7 +86,7 @@ public class PivotTableExample {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Membuat Lembar Data
 
@@ -92,7 +94,7 @@ Mulailah dengan menyiapkan berkas Excel Anda dengan data contoh untuk membuat ta
 
 **Langkah 1: Siapkan Data**
 ```java
-// Mengakses lembar kerja pertama di buku kerja
+// A munkafüzet első munkalapjának elérése
 Worksheet sheet = sheets.get(0);
 sheet.setName("Data");
 Cells cells = sheet.getCells();
@@ -148,7 +150,7 @@ pivotTable.setAutoFormatType(PivotTableAutoFormatType.REPORT_6);
 // Menambahkan bidang ke area berbeda di tabel pivot
 pivotTable.addFieldToArea(PivotFieldType.ROW, 0); // Bidang karyawan di area baris
 pivotTable.addFieldToArea(PivotFieldType.ROW, 2); // Bidang produk di area baris
-pivotTable.addFieldToArea(PivotFieldType.ROW, 1); // Lapangan seperempat di area baris
+pivotTable.addFieldToArea(PivotFieldType.ROW, 1); // Seperempat lapangan di area baris
 pivotTable.addFieldToArea(PivotFieldType.COLUMN, 3); // Bidang benua di area kolom
 pivotTable.addFieldToArea(PivotFieldType.DATA, 5); // Bidang penjualan di area data
 
@@ -156,35 +158,35 @@ pivotTable.addFieldToArea(PivotFieldType.DATA, 5); // Bidang penjualan di area d
 pivotTable.getDataFields().get(0).setNumber(7);
 ```
 
-**Langkah 4: Simpan File Excel**
+**4. lépés: Mentse el az Excel-fájlt**
 ```java
 workbook.save("output.xlsx");
 ```
 
-### Tips Pemecahan Masalah:
+### Hibaelhárítási tippek:
 - Pastikan semua rentang data dan referensi ditentukan dengan benar.
 - Validasi apakah lisensi Aspose.Cells Anda telah disiapkan jika Anda menemui batasan apa pun.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 1. **Analisis Penjualan:** Secara otomatis membuat laporan penjualan berdasarkan kuartal, produk, dan wilayah.
-2. **Manajemen Inventaris:** Buat tabel pivot untuk melacak tingkat inventaris di berbagai gudang dan kategori produk.
+2. **Készletgazdálkodás:** Buat tabel pivot untuk melacak tingkat inventaris di berbagai gudang dan kategori produk.
 3. **Analisis SDM:** Rangkum metrik kinerja karyawan atau catatan kehadiran untuk peninjauan yang mudah.
-4. **Pelaporan Keuangan:** Konsolidasikan data keuangan menjadi laporan komprehensif dengan intervensi manual minimal.
+4. **Pénzügyi jelentéstétel:** Konsolidasikan data keuangan menjadi laporan komprehensif dengan intervensi manual minimal.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 - **Mengoptimalkan Pemuatan Data:** Muat hanya rentang data yang diperlukan untuk mengurangi penggunaan memori.
 - **Pemformatan yang Efisien:** Terapkan pemformatan dengan cermat untuk menghindari waktu komputasi yang berlebihan selama pembuatan tabel pivot.
-- **Manajemen Memori:** Menggunakan `try-with-resources` pernyataan jika berlaku dan memastikan sumber daya ditutup dengan benar setelah digunakan.
+- **Memóriakezelés:** Használat `try-with-resources` pernyataan jika berlaku dan memastikan sumber daya ditutup dengan benar setelah digunakan.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah mempelajari cara mengotomatiskan pembuatan tabel pivot di Excel menggunakan Aspose.Cells untuk Java. Dengan mengintegrasikan pustaka yang canggih ini, Anda dapat mengubah data mentah menjadi laporan yang berwawasan secara efisien. Jelajahi lebih jauh dengan menyesuaikan desain tabel pivot Anda atau mengotomatiskan aspek tambahan dari manipulasi file Excel.
 
 Langkah selanjutnya termasuk bereksperimen dengan kumpulan data yang berbeda dan mengeksplorasi fitur lain yang ditawarkan oleh Aspose.Cells untuk meningkatkan kemampuan pelaporan Anda.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Dapatkah saya menggunakan Aspose.Cells untuk Java tanpa lisensi?**
    - Ya, tetapi dengan beberapa batasan seperti tanda air evaluasi pada dokumen yang dihasilkan.
@@ -201,16 +203,19 @@ Langkah selanjutnya termasuk bereksperimen dengan kumpulan data yang berbeda dan
 5. **Bagaimana cara memperbarui tabel pivot yang ada di Excel menggunakan Aspose.Cells?**
    - Akses objek tabel pivot, ubah properti atau sumber datanya, lalu simpan kembali buku kerja.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose.Cells](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells dokumentáció](https://reference.aspose.com/cells/java/)
 - [Unduh Aspose.Cells untuk Java](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Unduh Uji Coba Gratis](https://releases.aspose.com/cells/java/)
-- [Aplikasi Lisensi Sementara](https://purchase.aspose.com/temporary-license)
-- [Halaman Pembelian Aspose](https://purchase.aspose.com/buy)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió letöltése](https://releases.aspose.com/cells/java/)
+- [Ideiglenes engedélykérelem](https://purchase.aspose.com/temporary-license)
+- [Aspose Vásárlási Oldal](https://purchase.aspose.com/buy)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -198,6 +200,9 @@ workbook.save(outDir + "/outputCreatePdfBookmarkEntryForChartSheet.pdf", save_op
 Ξεκινήστε το ταξίδι σας με το Aspose.Cells σήμερα και μεταμορφώστε τον τρόπο που αλληλεπιδράτε με τα δεδομένα του Excel!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

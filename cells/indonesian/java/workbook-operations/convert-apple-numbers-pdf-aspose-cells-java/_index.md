@@ -7,31 +7,33 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Konversi Apple Numbers ke PDF Menggunakan Aspose.Cells untuk Java: Panduan Lengkap
 
-## Perkenalan
+## Bevezetés
 
 Dalam lingkungan yang digerakkan oleh data saat ini, mengonversi dan mengelola spreadsheet secara efisien sangatlah penting bagi bisnis. Apakah Anda perlu mengonversi spreadsheet Apple Numbers ke dalam format yang dapat diakses secara universal seperti PDF? Panduan ini menunjukkan cara melakukannya dengan mudah menggunakan Aspose.Cells untuk Java.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Memuat dan memanipulasi spreadsheet yang kompatibel dengan Excel dengan Aspose.Cells
 - Langkah-langkah untuk mengonversi file Apple Numbers ke PDF menggunakan Aspose.Cells untuk Java
 - Praktik terbaik untuk mengoptimalkan kinerja dan manajemen memori
 
 Di akhir panduan ini, Anda akan menyederhanakan proses konversi dokumen dengan mudah. Mari atur lingkungan pengembangan Anda dan mulai mengonversi spreadsheet Apple Numbers ke PDF dengan mudah.
 
-### Prasyarat
+### Előfeltételek
 
 Pastikan Anda telah memenuhi prasyarat berikut sebelum memulai:
 - **Kit Pengembangan Java (JDK):** JDK 8 atau lebih tinggi harus diinstal pada sistem Anda.
 - **IDE:** Gunakan IDE Java seperti IntelliJ IDEA, Eclipse, atau NetBeans.
 - **Aspose.Cells untuk Pustaka Java:** Kami akan menggunakan versi 25.3 dari pustaka ini.
 
-#### Pustaka dan Ketergantungan yang Diperlukan
+#### Szükséges könyvtárak és függőségek
 
 Untuk mengintegrasikan Aspose.Cells untuk Java ke dalam proyek Anda, tambahkan melalui Maven atau Gradle:
 
@@ -49,9 +51,9 @@ Untuk mengintegrasikan Aspose.Cells untuk Java ke dalam proyek Anda, tambahkan m
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-#### Akuisisi Lisensi
+#### Licencszerzés
 
-Mulailah dengan uji coba gratis atau beli lisensi sementara untuk pengujian lebih lanjut. Kunjungi [Situs web Aspose](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi Anda.
+Mulailah dengan uji coba gratis atau beli lisensi sementara untuk pengujian lebih lanjut. Kunjungi [Aspose weboldal](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi Anda.
 
 ### Menyiapkan Aspose.Cells untuk Java
 
@@ -73,16 +75,16 @@ Setelah menambahkan dependensi yang diperlukan, inisialisasi dan atur Aspose.Cel
 
 Setelah pengaturan selesai, sekarang kita dapat fokus mengonversi file Apple Numbers ke PDF.
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 ### Memuat Lembar Kerja Angka
 
 Langkah pertama dalam proses konversi kami adalah memuat file Apple Numbers menggunakan Aspose.Cells untuk Java. Fitur ini memungkinkan Anda menangani data spreadsheet secara efektif.
 
-#### Ringkasan
-Memuat file Numbers melibatkan menentukan opsi pemuatan yang benar dan memanfaatkan `Workbook` kelas.
+#### Áttekintés
+Memuat file Numbers melibatkan menentukan opsi pemuatan yang benar dan memanfaatkan `Workbook` osztály.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Impor Kelas yang Diperlukan:**
 ```java
@@ -91,7 +93,7 @@ import com.aspose.cells.Workbook;
 ```
 
 **2. Tentukan Opsi Muatan:**
-Buat contoh dari `LoadOptions`, yang menunjukkan bahwa Anda memuat file Numbers:
+Hozz létre egy példányt a következőből: `LoadOptions`, yang menunjukkan bahwa Anda memuat file Numbers:
 ```java
 String dataDir = "YOUR_DATA_DIRECTORY";
 String outDir = "YOUR_OUTPUT_DIRECTORY";
@@ -101,64 +103,64 @@ LoadOptions opts = new LoadOptions(com.aspose.cells.LoadFormat.NUMBERS);
 ```
 
 **3. Muat Buku Kerja:**
-Gunakan `Workbook` kelas untuk memuat lembar kerja Numbers Anda dengan opsi yang ditentukan:
+Használd a `Workbook` kelas untuk memuat lembar kerja Numbers Anda dengan opsi yang ditentukan:
 ```java
 Workbook wb = new Workbook(dataDir + "/sampleNumbersByAppleInc.numbers", opts);
 ```
 
-### Simpan Buku Kerja sebagai PDF
+### Munkafüzet mentése PDF formátumban
 
 Setelah memuat, Anda dapat mengonversi dan menyimpan buku kerja dalam format PDF.
 
-#### Ringkasan
-Menyimpan file melibatkan menentukan direktori output dan format yang diinginkan menggunakan Aspose.Cells' `save` metode.
+#### Áttekintés
+Menyimpan file melibatkan menentukan direktori output dan format yang diinginkan menggunakan Aspose.Cells' `save` módszer.
 
-#### Implementasi Langkah demi Langkah
+#### Lépésről lépésre történő megvalósítás
 
 **1. Muat Buku Kerja:**
-Pastikan Anda `Workbook` contoh (`wb`) dimuat seperti yang ditunjukkan sebelumnya.
+Biztosítsa a `Workbook` contoh (`wb`) dimuat seperti yang ditunjukkan sebelumnya.
 
 **2. Simpan sebagai PDF:**
 Konversi dan simpan buku kerja ke file PDF:
 ```java
-// Simpan buku kerja dalam format PDF
+// Munkafüzet mentése PDF formátumban
 wb.save(outDir + "/outputNumbersByAppleInc.pdf", com.aspose.cells.SaveFormat.PDF);
 ```
 
-#### Opsi Konfigurasi Utama
-- **Direktori Keluaran**: Memastikan `outDir` diatur dengan benar untuk menyimpan file.
+#### Kulcskonfigurációs beállítások
+- **Kimeneti könyvtár**Biztosítsa `outDir` diatur dengan benar untuk menyimpan file.
 - **Penamaan File**: Sesuaikan nama file keluaran sesuai kebutuhan.
 
-### Tips Pemecahan Masalah
+### Hibaelhárítási tippek
 
 - Jika berkas Numbers tidak dimuat, verifikasi jalur dan nama berkas sudah benar.
 - Periksa apakah Aspose.Cells mendukung versi Apple Numbers tertentu yang Anda gunakan.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
-1. **Pelaporan Bisnis:** Ubah laporan keuangan dari Numbers ke PDF untuk didistribusikan.
-2. **Analisis Data:** Ubah hasil analisis data ke dalam format yang dapat dibagikan.
-3. **Manajemen Proyek:** Bagikan rencana dan jadwal proyek dalam format yang dapat diakses secara universal.
+1. **Üzleti jelentések:** Ubah laporan keuangan dari Numbers ke PDF untuk didistribusikan.
+2. **Adatelemzés:** Ubah hasil analisis data ke dalam format yang dapat dibagikan.
+3. **Projektmenedzsment:** Bagikan rencana dan jadwal proyek dalam format yang dapat diakses secara universal.
 
 Kemungkinan integrasi termasuk menghubungkan fungsi ini dengan aplikasi web atau sistem pelaporan otomatis.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
-Untuk memastikan kinerja yang optimal:
+Az optimális teljesítmény biztosítása érdekében:
 - Kelola penggunaan memori dengan membebaskan sumber daya setelah memproses file besar.
 - Memanfaatkan pengumpulan sampah Java secara efektif untuk alokasi memori.
 - Pantau kinerja aplikasi menggunakan alat pembuatan profil.
 
-## Kesimpulan
+## Következtetés
 
 Anda kini telah menguasai cara mengonversi lembar kerja Apple Numbers ke PDF menggunakan Aspose.Cells untuk Java. Alat canggih ini menyederhanakan proses konversi dan menyempurnakan manajemen dokumen di berbagai platform.
 
-**Langkah Berikutnya:**
+**Következő lépések:**
 Jelajahi fitur tambahan Aspose.Cells, seperti manipulasi data dan pembuatan bagan, untuk lebih menyempurnakan aplikasi Java Anda.
 
-Coba terapkan solusinya sendiri dengan uji coba gratis, dan jelajahi lebih lanjut di [Dokumentasi resmi Aspose](https://reference.aspose.com/cells/java/).
+Coba terapkan solusinya sendiri dengan uji coba gratis, dan jelajahi lebih lanjut di [Az Aspose hivatalos dokumentációja](https://reference.aspose.com/cells/java/).
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Apa itu Aspose.Cells untuk Java?**
    - Ini adalah pustaka tangguh yang memungkinkan pemrosesan lembar kerja dalam aplikasi Java.
@@ -168,20 +170,23 @@ Coba terapkan solusinya sendiri dengan uji coba gratis, dan jelajahi lebih lanju
    - Uji coba gratis tersedia; untuk fitur yang diperluas, diperlukan pembelian lisensi.
 4. **Bagaimana cara menangani kesalahan saat memuat lembar kerja?**
    - Pastikan jalur berkas benar dan Anda menggunakan format yang didukung.
-5. **Apa persyaratan sistem untuk menjalankan Aspose.Cells?**
+5. **Milyen rendszerkövetelmények szükségesek az Aspose.Cells futtatásához?**
    - Direkomendasikan menggunakan Java 8 atau yang lebih tinggi; tidak ada kendala perangkat keras khusus di luar kebutuhan aplikasi umum.
 
-## Sumber daya
+## Erőforrás
 
-- [Dokumentasi Aspose](https://reference.aspose.com/cells/java/)
-- [Unduh Aspose.Cells](https://releases.aspose.com/cells/java/)
-- [Beli Lisensi](https://purchase.aspose.com/buy)
-- [Uji Coba Gratis dan Lisensi Sementara](https://releases.aspose.com/cells/java/)
+- [Aspose dokumentáció](https://reference.aspose.com/cells/java/)
+- [Aspose.Cells letöltése](https://releases.aspose.com/cells/java/)
+- [Licenc vásárlása](https://purchase.aspose.com/buy)
+- [Ingyenes próbaverzió és ideiglenes licenc](https://releases.aspose.com/cells/java/)
 
 Jelajahi sumber daya ini untuk pembelajaran dan dukungan lebih lanjut. Selamat membuat kode!
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

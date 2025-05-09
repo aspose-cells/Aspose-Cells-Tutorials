@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -37,9 +39,9 @@ Innan vi börjar, se till att du har följande inställningar:
 - Ett Java Development Kit (JDK) installerat på din maskin.
 - En IDE som IntelliJ IDEA, Eclipse eller någon annan textredigerare med Java-stöd.
 
-**Kunskapsförkunskaper:**
+**Kunskapsförkunskapskrav:**
 - Grundläggande förståelse för Java-programmering.
-- Kunskap om hantering av filsökvägar i Java.
+- Bekantskap med hantering av filsökvägar i Java.
 
 ## Konfigurera Aspose.Cells för Java (H2)
 
@@ -63,7 +65,7 @@ compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 
 Aspose.Cells är ett kommersiellt bibliotek, men du kan börja med en gratis provperiod för att utvärdera dess funktioner:
 
-1. **Gratis provperiod:** Ladda ner biblioteket från [Asposes gratisutgåva](https://releases.aspose.com/cells/java/) för tillfälligt bruk.
+1. **Gratis provperiod:** Ladda ner biblioteket från [Asposes fria utgåva](https://releases.aspose.com/cells/java/) för tillfälligt bruk.
 2. **Tillfällig licens:** Skaffa en tillfällig licens genom att besöka [Aspose tillfällig licens](https://purchase.aspose.com/temporary-license/).
 3. **Köpa:** För kontinuerlig användning, överväg att köpa en licens från [Aspose-köp](https://purchase.aspose.com/buy).
 
@@ -162,7 +164,7 @@ Nu har du lärt dig hur du effektivt tar bort ActiveX-kontroller från Excel-arb
 
 Varför vänta? Börja implementera dessa tekniker i dina projekt idag!
 
-## Vanliga frågor och svar (H2)
+## Vanliga frågor (H2)
 
 1. **Vad är en ActiveX-kontroll i Excel?**
    - En ActiveX-kontroll är en komponent som utökar funktionaliteten i Excel genom att tillhandahålla interaktiva element som knappar och formulär.
@@ -190,6 +192,9 @@ Varför vänta? Börja implementera dessa tekniker i dina projekt idag!
 Ge dig ut på din resa med Aspose.Cells Java idag och lås upp den fulla potentialen av Excel-filmanipulation!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

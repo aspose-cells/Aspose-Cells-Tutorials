@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -170,6 +172,9 @@ A4: يدعم Aspose.Cells تنسيقات Excel متنوعة، مثل XLSX وXLS.
 استكشف هذه الموارد لتعميق فهمك لـ Aspose.Cells for Java وإطلاق العنان للإمكانات الكاملة للتعامل مع Excel في تطبيقاتك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

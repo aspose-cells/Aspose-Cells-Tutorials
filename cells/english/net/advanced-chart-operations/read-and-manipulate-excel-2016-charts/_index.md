@@ -8,7 +8,9 @@ url: /net/advanced-chart-operations/read-and-manipulate-excel-2016-charts/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read and Manipulate Excel 2016 Charts
@@ -152,6 +154,7 @@ You can find support and community discussions in the Aspose forum [here](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

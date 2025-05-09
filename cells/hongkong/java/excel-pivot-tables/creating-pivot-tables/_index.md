@@ -8,7 +8,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 建立資料透視表
@@ -102,9 +104,11 @@ workbook.save("output.xlsx");
    您可以使用 Aspose.Cells for Java API 在 Java 中自動建立資料透視表，如本教學所示。
 
 現在您已經掌握了使用 Aspose.Cells 在 Java 中建立強大的資料透視表的知識和程式碼。嘗試不同的資料來源和配置來根據您的特定需求自訂資料透視表。祝您數據分析愉快！
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -7,17 +7,19 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
 # Menguasai Aspose.Cells Java: Mengotomatiskan Buku Kerja Excel
 
-## Perkenalan
+## Bevezetés
 
 Apakah Anda ingin mengotomatiskan pembuatan dan pengelolaan buku kerja Excel di aplikasi Java Anda? Panduan lengkap ini akan membantu Anda menguasai Aspose.Cells untuk Java, pustaka tangguh yang menyederhanakan pekerjaan dengan file Excel. Dengan mengikuti tutorial ini, Anda akan mempelajari cara membuat buku kerja, mengelola lembar kerja, mengatur tinggi baris, menyalin rentang sambil mempertahankan format, dan menyimpan dokumen—semuanya dalam kenyamanan editor kode Anda.
 
-**Apa yang Akan Anda Pelajari:**
+**Amit tanulni fogsz:**
 - Membuat buku kerja Excel baru menggunakan Aspose.Cells untuk Java
 - Menginisialisasi dan mengelola lembar kerja dalam buku kerja
 - Mengatur tinggi baris tertentu di lembar kerja sumber
@@ -26,13 +28,13 @@ Apakah Anda ingin mengotomatiskan pembuatan dan pengelolaan buku kerja Excel di 
 
 Siap untuk meningkatkan keterampilan manajemen Excel otomatis Anda? Mari kita mulai dengan menyiapkan lingkungan Anda!
 
-## Prasyarat
+## Előfeltételek
 
-Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
+Mielőtt elkezdenénk, győződjünk meg arról, hogy a következő előfeltételekkel rendelkezünk:
 
-1. **Perpustakaan dan Ketergantungan**Anda memerlukan Aspose.Cells untuk Java, versi 25.3 atau lebih tinggi.
-2. **Pengaturan Lingkungan**Pastikan lingkungan pengembangan Anda mendukung Maven atau Gradle, seperti IntelliJ IDEA atau Eclipse.
-3. **Prasyarat Pengetahuan**: Keakraban dengan pemrograman Java dan pemahaman dasar tentang file Excel akan bermanfaat.
+1. **Könyvtárak és függőségek**Anda memerlukan Aspose.Cells untuk Java, versi 25.3 atau lebih tinggi.
+2. **Környezet beállítása**Pastikan lingkungan pengembangan Anda mendukung Maven atau Gradle, seperti IntelliJ IDEA atau Eclipse.
+3. **Ismereti előfeltételek**: Keakraban dengan pemrograman Java dan pemahaman dasar tentang file Excel akan bermanfaat.
 
 ## Menyiapkan Aspose.Cells untuk Java
 
@@ -40,7 +42,7 @@ Untuk mengintegrasikan Aspose.Cells ke dalam proyek Anda, ikuti langkah-langkah 
 
 **Pakar**
 
-Tambahkan dependensi berikut ke `pom.xml` mengajukan:
+Tambahkan dependensi berikut ke `pom.xml` fájl:
 
 ```xml
 <dependency>
@@ -52,17 +54,17 @@ Tambahkan dependensi berikut ke `pom.xml` mengajukan:
 
 **Bahasa Inggris Gradle**
 
-Sertakan ini di dalam `build.gradle` mengajukan:
+Sertakan ini di dalam `build.gradle` fájl:
 
 ```gradle
 compile(group: 'com.aspose', name: 'aspose-cells', version: '25.3')
 ```
 
-### Akuisisi Lisensi
+### Licencszerzés
 
-Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh, tetapi Anda dapat memulai dengan uji coba gratis dengan mengunduhnya dari [halaman uji coba gratis](https://releases.aspose.com/cells/java/)Untuk penggunaan yang lebih lama, pertimbangkan untuk memperoleh lisensi sementara atau permanen melalui [portal pembelian](https://purchase.aspose.com/buy).
+Aspose.Cells memerlukan lisensi untuk fungsionalitas penuh, tetapi Anda dapat memulai dengan uji coba gratis dengan mengunduhnya dari [ingyenes próbaoldal](https://releases.aspose.com/cells/java/)Untuk penggunaan yang lebih lama, pertimbangkan untuk memperoleh lisensi sementara atau permanen melalui [vásárlási portál](https://purchase.aspose.com/buy).
 
-### Inisialisasi Dasar
+### Alapvető inicializálás
 
 Setelah lingkungan Anda disiapkan dan Aspose.Cells ditambahkan sebagai dependensi, Anda dapat memulai dengan membuat instance `Workbook`:
 
@@ -78,15 +80,15 @@ public class InitializeAspose {
 }
 ```
 
-## Panduan Implementasi
+## Megvalósítási útmutató
 
 Mari kita uraikan implementasinya menjadi fitur-fitur yang dapat dikelola:
 
 ### Fitur 1: Pembuatan dan Inisialisasi Buku Kerja
 
-**Ringkasan**Fitur ini menunjukkan cara membuat buku kerja Excel dan menginisialisasi lembar kerja.
+**Áttekintés**Fitur ini menunjukkan cara membuat buku kerja Excel dan menginisialisasi lembar kerja.
 
-#### Buat Buku Kerja Baru
+#### Új munkafüzet létrehozása
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -104,11 +106,11 @@ public class WorkbookInitialization {
     }
 }
 ```
-*Penjelasan*: Cuplikan ini menginisialisasi buku kerja baru dan mengakses lembar default. Cuplikan ini juga menambahkan lembar kerja baru bernama "Lembar Tujuan".
+*Magyarázat*: Cuplikan ini menginisialisasi buku kerja baru dan mengakses lembar default. Cuplikan ini juga menambahkan lembar kerja baru bernama "Lembar Tujuan".
 
 ### Fitur 2: Mengatur Tinggi Baris di Lembar Kerja Sumber
 
-**Ringkasan**Tetapkan tinggi baris tertentu untuk menyesuaikan tata letak Excel Anda.
+**Áttekintés**Tetapkan tinggi baris tertentu untuk menyesuaikan tata letak Excel Anda.
 
 #### Atur Tinggi Baris
 ```java
@@ -124,11 +126,11 @@ public class SetRowHeight {
     }
 }
 ```
-*Penjelasan*: Kode ini mengatur tinggi baris keempat di lembar kerja sumber. Perhatikan bahwa baris dan kolom memiliki indeks nol.
+*Magyarázat*: Kode ini mengatur tinggi baris keempat di lembar kerja sumber. Perhatikan bahwa baris dan kolom memiliki indeks nol.
 
 ### Fitur 3: Membuat dan Menyalin Rentang dengan Tinggi Baris
 
-**Ringkasan**: Pelajari cara membuat rentang sel dan menyalinnya antar lembar kerja sambil mempertahankan atribut tertentu seperti tinggi baris.
+**Áttekintés**: Pelajari cara membuat rentang sel dan menyalinnya antar lembar kerja sambil mempertahankan atribut tertentu seperti tinggi baris.
 
 #### Membuat dan Menyalin Rentang
 ```java
@@ -158,13 +160,13 @@ public class CopyRangeWithRowHeights {
     }
 }
 ```
-*Penjelasan*:Contoh ini menunjukkan penyalinan rentang dari satu lembar kerja ke lembar kerja lain sambil mempertahankan tinggi baris menggunakan `PasteType.ROW_HEIGHTS`.
+*Magyarázat*:Contoh ini menunjukkan penyalinan rentang dari satu lembar kerja ke lembar kerja lain sambil mempertahankan tinggi baris menggunakan `PasteType.ROW_HEIGHTS`.
 
 ### Fitur 4: Menyimpan Buku Kerja dalam Format XLSX
 
-**Ringkasan**Selesaikan buku kerja Anda dan simpan sebagai berkas Excel.
+**Áttekintés**Selesaikan buku kerja Anda dan simpan sebagai berkas Excel.
 
-#### Simpan Buku Kerja
+#### Munkafüzet mentése
 ```java
 import com.aspose.cells.Workbook;
 import com.aspose.cells.SaveFormat;
@@ -180,17 +182,17 @@ public class SaveWorkbook {
     }
 }
 ```
-*Penjelasan*: Kode ini menyimpan buku kerja Anda ke lokasi tertentu dalam format XLSX, membuatnya siap digunakan di Excel.
+*Magyarázat*: Kode ini menyimpan buku kerja Anda ke lokasi tertentu dalam format XLSX, membuatnya siap digunakan di Excel.
 
-## Aplikasi Praktis
+## Gyakorlati alkalmazások
 
 Aspose.Cells untuk Java dapat digunakan dalam berbagai skenario dunia nyata:
 
-1. **Pelaporan Keuangan**: Otomatisasi pembuatan laporan keuangan dengan membuat dan mengisi templat Excel.
-2. **Analisis Data**: Integrasikan dengan alat analisis data untuk memproses awal kumpulan data sebelum visualisasi.
-3. **Manajemen Inventaris**:Buat lembar inventaris secara otomatis, pastikan format dan tata letak konsisten di seluruh dokumen.
+1. **Pénzügyi jelentéstétel**: Otomatisasi pembuatan laporan keuangan dengan membuat dan mengisi templat Excel.
+2. **Adatelemzés**: Integrasikan dengan alat analisis data untuk memproses awal kumpulan data sebelum visualisasi.
+3. **Készletgazdálkodás**:Buat lembar inventaris secara otomatis, pastikan format dan tata letak konsisten di seluruh dokumen.
 
-## Pertimbangan Kinerja
+## Teljesítménybeli szempontok
 
 Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells di Java:
 
@@ -198,22 +200,25 @@ Untuk mengoptimalkan kinerja saat menggunakan Aspose.Cells di Java:
 - Pantau penggunaan memori untuk mencegah habisnya sumber daya, terutama dengan buku kerja besar.
 - Memanfaatkan pemrosesan asinkron untuk tugas yang melibatkan komputasi berat atau operasi I/O.
 
-## Kesimpulan
+## Következtetés
 
-Anda kini telah menguasai pembuatan dan pengelolaan buku kerja Excel menggunakan Aspose.Cells untuk Java. Dari menginisialisasi buku kerja hingga mengatur tinggi baris dan menyimpan dokumen, Anda siap untuk mengotomatiskan tugas-tugas terkait Excel secara efisien. Untuk terus menjelajahi apa yang ditawarkan Aspose.Cells, lihat [dokumentasi resmi](https://reference.aspose.com/cells/java/) dan bereksperimen dengan fitur tambahan.
+Anda kini telah menguasai pembuatan dan pengelolaan buku kerja Excel menggunakan Aspose.Cells untuk Java. Dari menginisialisasi buku kerja hingga mengatur tinggi baris dan menyimpan dokumen, Anda siap untuk mengotomatiskan tugas-tugas terkait Excel secara efisien. Untuk terus menjelajahi apa yang ditawarkan Aspose.Cells, lihat [hivatalos dokumentáció](https://reference.aspose.com/cells/java/) dan bereksperimen dengan fitur tambahan.
 
-## Bagian FAQ
+## GYIK szekció
 
 1. **Bagaimana cara menginstal Aspose.Cells untuk Java di proyek saya?**
    - Tambahkannya sebagai dependensi menggunakan Maven atau Gradle, seperti yang ditunjukkan dalam tutorial ini.
 
 2. **Bisakah saya menyalin format sel beserta tinggi baris?**
-   - Ya, gunakan `PasteType.FORMATS` untuk mempertahankan atribut pemformatan selama penyalinan.
+   - Igen, használom `PasteType.FORMATS` untuk mempertahankan atribut pemformatan selama penyalinan.
 
 3. **Apakah ada dukungan untuk format file Excel lain selain XLSX?**
    - Tentu saja! Aspose.Cells mendukung berbagai format termasuk XLS dan CSV.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

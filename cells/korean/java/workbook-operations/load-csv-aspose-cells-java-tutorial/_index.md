@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -127,7 +129,7 @@ Workbook workbook = new Workbook(dataDir + "Book_CSV.csv", loadOptions);
 
 ## 실제 응용 프로그램
 
-1. **데이터 분석:** CSV 데이터를 로드합니다 `Workbook` Aspose.Cells의 강력한 기능을 사용하여 분석합니다.
+1. **데이터 분석:** CSV 데이터를 로드합니다. `Workbook` Aspose.Cells의 강력한 기능을 사용하여 분석합니다.
 2. **자동 보고:** 자동 보고서 생성 시스템에 CSV 로딩을 통합합니다.
 3. **데이터 마이그레이션:** 엔터프라이즈 애플리케이션 내에서 CSV 데이터 세트를 Excel 형식으로 마이그레이션하는 작업을 용이하게 합니다.
 
@@ -176,6 +178,9 @@ Workbook workbook = new Workbook(dataDir + "Book_CSV.csv", loadOptions);
 - [지원 포럼](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

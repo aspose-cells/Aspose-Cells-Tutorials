@@ -1,14 +1,16 @@
 ---
-title: XLSB फ़ाइल का बाहरी कनेक्शन पढ़ें और लिखें
-linktitle: XLSB फ़ाइल का बाहरी कनेक्शन पढ़ें और लिखें
-second_title: .NET API संदर्भ के लिए Aspose.Cells
-description: इस व्यापक ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके XLSB फ़ाइलों में बाहरी कनेक्शन प्रबंधित करना सीखें।
-weight: 130
-url: /hi/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
+"description": "इस व्यापक ट्यूटोरियल में .NET के लिए Aspose.Cells का उपयोग करके XLSB फ़ाइलों में बाहरी कनेक्शन प्रबंधित करना सीखें।"
+"linktitle": "XLSB फ़ाइल का बाहरी कनेक्शन पढ़ें और लिखें"
+"second_title": ".NET API संदर्भ के लिए Aspose.Cells"
+"title": "XLSB फ़ाइल का बाहरी कनेक्शन पढ़ें और लिखें"
+"url": "/hi/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/"
+"weight": 130
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XLSB फ़ाइल का बाहरी कनेक्शन पढ़ें और लिखें
@@ -22,7 +24,7 @@ url: /hi/net/excel-workbook/read-and-write-external-connection-of-xlsb-file/
 आरंभ करने से पहले, यहां कुछ चीजें हैं जिनकी आपको आवश्यकता होगी:
 
 1. C# का बुनियादी ज्ञान: C# प्रोग्रामिंग भाषा के बारे में जानकारी होना बहुत मददगार होगा। अगर आप C# कोड लिखने में सहज हैं, तो आप तैयार हैं!
-2.  .NET के लिए Aspose.Cells: आपको अपने डेवलपमेंट एनवायरनमेंट में यह लाइब्रेरी इंस्टॉल करनी होगी। अगर आपने अभी तक ऐसा नहीं किया है, तो आप इसे आसानी से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/). 
+2. .NET के लिए Aspose.Cells: आपको अपने डेवलपमेंट एनवायरनमेंट में यह लाइब्रेरी इंस्टॉल करनी होगी। अगर आपने अभी तक ऐसा नहीं किया है, तो आप इसे आसानी से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/). 
 3. IDE: आपको एक कोड संपादक या एक एकीकृत विकास वातावरण (IDE) जैसे कि विजुअल स्टूडियो की आवश्यकता होगी। 
 4. नमूना XLSB फ़ाइल: हम एक नमूना XLSB फ़ाइल के साथ काम करेंगे जिसमें बाहरी कनेक्शन शामिल हैं। आप अपनी खुद की फ़ाइल बना सकते हैं या ऑनलाइन नमूने डाउनलोड कर सकते हैं। 
 
@@ -43,7 +45,7 @@ using System.Text;
 
 ## चरण 1: निर्देशिकाएँ सेट करें
 
-अपनी XLSB फ़ाइल के साथ काम करने से पहले, आपको अपनी स्रोत और आउटपुट निर्देशिकाएँ सेट अप करनी होंगी। अपनी फ़ाइलों को व्यवस्थित रखने के लिए यह कदम ज़रूरी है।
+अपनी XLSB फ़ाइल के साथ काम करने से पहले, आपको अपनी स्रोत और आउटपुट निर्देशिकाएँ सेट अप करनी होंगी। यह कदम आपकी फ़ाइलों को व्यवस्थित रखने के लिए ज़रूरी है।
 
 ```csharp
 // स्रोत निर्देशिका
@@ -52,7 +54,7 @@ string sourceDir = "Your Document Directory";
 string outputDir = "Your Output Directory";
 ```
 
- इस कोड स्निपेट में,`"Your Document Directory"` और`"Your Document Directory"` माना जाता है कि ये विधियाँ आपके इनपुट और आउटपुट फ़ाइलों के लिए संबंधित पथ प्राप्त करती हैं। यदि आप चाहें तो इन विधियों को हार्डकोडेड पथों से बदल सकते हैं।
+इस कोड स्निपेट में, `"Your Document Directory"` और `"Your Document Directory"` माना जाता है कि ये विधियाँ आपके इनपुट और आउटपुट फ़ाइलों के लिए संबंधित पथ प्राप्त करती हैं। यदि आप चाहें तो इन विधियों को हार्डकोडेड पथों से बदल सकते हैं।
 
 ## चरण 2: XLSB फ़ाइल लोड करें
 
@@ -63,7 +65,7 @@ string outputDir = "Your Output Directory";
 Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 ```
 
- बस यह सुनिश्चित करें कि आपकी XLSB फ़ाइल निर्दिष्ट स्थान पर स्थित है`sourceDir`यदि पथ सही है, तो आपकी कार्यपुस्तिका हेरफेर के लिए तैयार हो जाएगी!
+बस यह सुनिश्चित करें कि आपकी XLSB फ़ाइल निर्दिष्ट स्थान पर स्थित है `sourceDir`यदि पथ सही है, तो आपकी कार्यपुस्तिका हेरफेर के लिए तैयार हो जाएगी!
 
 ## चरण 3: बाहरी कनेक्शन तक पहुंचें
 
@@ -74,7 +76,7 @@ Workbook wb = new Workbook(sourceDir + "sampleExternalConnection_XLSB.xlsb");
 Aspose.Cells.ExternalConnections.DBConnection dbCon = wb.DataConnections[0] as Aspose.Cells.ExternalConnections.DBConnection;
 ```
 
- यहाँ,`DataConnections[0]` कार्यपुस्तिका में पहले कनेक्शन को संदर्भित करता है। हम इसे एक के रूप में कास्ट कर रहे हैं`DBConnection` आगे हेरफेर के लिए टाइप करें।
+यहाँ, `DataConnections[0]` कार्यपुस्तिका में पहले कनेक्शन को संदर्भित करता है। हम इसे एक के रूप में कास्ट कर रहे हैं `DBConnection` आगे हेरफेर के लिए टाइप करें।
 
 ## चरण 4: कनेक्शन जानकारी निकालें
 
@@ -98,7 +100,7 @@ Console.WriteLine("Connection Info: " + dbCon.ConnectionInfo);
 dbCon.Name = "NewCust";
 ```
 
-कोड की यह पंक्ति आपके कनेक्शन का नाम बदलकर उसके मूल नाम से "NewCust" कर देती है। यह एक सरल लेकिन प्रभावशाली बदलाव है!
+कोड की यह पंक्ति आपके कनेक्शन का नाम बदलकर उसका मूल नाम "NewCust" कर देती है। यह एक सरल लेकिन प्रभावशाली बदलाव है!
 
 ## चरण 6: अपने परिवर्तन सहेजें
 
@@ -131,19 +133,21 @@ Console.WriteLine("ReadAndWriteExternalConnectionOfXLSBFile executed successfull
 XLSB फ़ाइल एक बाइनरी एक्सेल फ़ाइल प्रारूप है जो स्प्रेडशीट डेटा को बाइनरी प्रारूप में संग्रहीत करता है, जिससे यह अधिक कॉम्पैक्ट और खोलने में तेज़ हो जाता है।
 
 ### मैं .NET के लिए Aspose.Cells कैसे स्थापित करूं?  
- आप इसे आसानी से Aspose वेबसाइट से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/cells/net/).
+आप इसे आसानी से Aspose वेबसाइट से डाउनलोड कर सकते हैं [यहाँ](https://releases.aspose.com/cells/net/).
 
 ### क्या मैं Aspose.Cells का निःशुल्क उपयोग कर सकता हूँ?  
- हाँ! आप एक निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं, जो उपलब्ध है[यहाँ](https://releases.aspose.com/).
+हाँ! आप एक निःशुल्क परीक्षण के साथ शुरुआत कर सकते हैं, जो उपलब्ध है [यहाँ](https://releases.aspose.com/).
 
 ### क्या Aspose.Cells अन्य फ़ाइल स्वरूपों का समर्थन करता है?  
 बिल्कुल! Aspose.Cells XLSX, CSV, और अधिक सहित विभिन्न फ़ाइल स्वरूपों का समर्थन करता है।
 
 ### यदि मुझे कोई समस्या आती है तो मैं सहायता कहां से प्राप्त कर सकता हूं?  
-आप Aspose फ़ोरम से सहायता प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/cells/9).
+आप Aspose फ़ोरम से सहायता प्राप्त कर सकते हैं [यहाँ](https://forum.aspose.com/c/cells/9).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

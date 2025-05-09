@@ -1,14 +1,16 @@
 ---
-title: Cài đặt màu sắc và tùy chỉnh trong Excel
-linktitle: Cài đặt màu sắc và tùy chỉnh trong Excel
-second_title: API xử lý Excel Aspose.Cells .NET
-description: Làm chủ cài đặt màu sắc và tùy chỉnh trong Excel với Aspose.Cells cho .NET. Tìm hiểu cách tính toán màu sắc đã chọn của Excel theo chương trình trong hướng dẫn từng bước này.
-weight: 27
-url: /vi/net/color-settings-and-customization-in-excel/
+"description": "Làm chủ cài đặt màu sắc và tùy chỉnh trong Excel với Aspose.Cells cho .NET. Tìm hiểu cách tính toán màu sắc đã chọn của Excel theo chương trình trong hướng dẫn từng bước này."
+"linktitle": "Cài đặt màu sắc và tùy chỉnh trong Excel"
+"second_title": "API xử lý Excel Aspose.Cells .NET"
+"title": "Cài đặt màu sắc và tùy chỉnh trong Excel"
+"url": "/vi/net/color-settings-and-customization-in-excel/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cài đặt màu sắc và tùy chỉnh trong Excel
@@ -25,10 +27,12 @@ Một tính năng hấp dẫn của Excel là định dạng có điều kiện.
 
 ## Hướng dẫn cài đặt và tùy chỉnh màu sắc trong Excel
 ### [Tính toán màu được chọn bởi MS Excel theo chương trình](./compute-color-chosen-by-ms-excel/)
-Tìm hiểu cách tính toán màu được MS Excel chọn bằng Aspose.Cells cho .NET. Làm theo hướng dẫn từng bước này để truy cập màu định dạng có điều kiện của Excel theo chương trình.
+Tìm hiểu cách tính toán màu được MS Excel chọn bằng Aspose.Cells cho .NET. Thực hiện theo hướng dẫn từng bước này để truy cập màu định dạng có điều kiện của Excel theo chương trình.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

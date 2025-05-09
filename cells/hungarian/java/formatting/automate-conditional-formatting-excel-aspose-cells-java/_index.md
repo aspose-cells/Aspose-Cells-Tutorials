@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ Az Aspose.Cells Java-ban többféle helyzetben is használható:
 Nagy adathalmazokkal való munka során vegye figyelembe a következőket:
 - Az alkalmazott feltételek és tartományok számának minimalizálása.
 - Hatékony adatszerkezetek használata a munkafüzet tartalmának kezeléséhez.
-- Java alkalmazások memória-felhasználásának rendszeres monitorozása az Aspose.Cells segítségével.
+- Java alkalmazások memóriahasználatának rendszeres monitorozása az Aspose.Cells segítségével.
 
 ## Következtetés
 Ebben az oktatóanyagban megtanultad, hogyan használhatod az Aspose.Cells for Java-t feltételes formázási szabályok dinamikus létrehozásához és alkalmazásához Excel-fájlokban. Ezen feladatok automatizálásával növelheted a termelékenységet, és a projektek stratégiaibb aspektusaira koncentrálhatsz.
@@ -182,6 +184,9 @@ A következő lépések közé tartozik a különböző típusú feltételekkel 
 - Támogatás: [Aspose Fórum](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

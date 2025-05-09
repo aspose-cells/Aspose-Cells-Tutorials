@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -33,7 +35,7 @@ Java를 사용하여 Excel 파일을 자동화하고 개선하는 세계에 오�
 
 ### 환경 설정 요구 사항
 - Java 코드를 작성하고 실행하려면 IntelliJ IDEA나 Eclipse와 같은 적합한 IDE가 필요합니다.
-- 종속성 관리를 위해 Maven이나 Gradle을 사용합니다.
+- 종속성 관리를 위해 Maven 또는 Gradle을 사용합니다.
 
 ### 지식 전제 조건
 Java 프로그래밍에 대한 기본적인 이해와 Excel 작업에 대한 지식이 권장됩니다. 이러한 개념이 처음이라면, 진행하기 전에 입문 자료를 먼저 살펴보는 것이 좋습니다.
@@ -181,6 +183,9 @@ public class AddVBAModuleAndCode {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

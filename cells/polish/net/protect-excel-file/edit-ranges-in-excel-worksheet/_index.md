@@ -1,14 +1,16 @@
 ---
-title: Edytuj zakresy w arkuszu kalkulacyjnym programu Excel
-linktitle: Edytuj zakresy w arkuszu kalkulacyjnym programu Excel
-second_title: Aspose.Cells dla .NET API Reference
-description: Naucz się edytować zakresy w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET dzięki temu kompleksowemu przewodnikowi zawierającemu instrukcje krok po kroku.
-weight: 20
-url: /pl/net/protect-excel-file/edit-ranges-in-excel-worksheet/
+"description": "Naucz się edytować zakresy w arkuszach kalkulacyjnych programu Excel za pomocą Aspose.Cells dla platformy .NET dzięki temu kompleksowemu przewodnikowi zawierającemu instrukcje krok po kroku."
+"linktitle": "Edytuj zakresy w arkuszu kalkulacyjnym programu Excel"
+"second_title": "Aspose.Cells dla .NET API Reference"
+"title": "Edytuj zakresy w arkuszu kalkulacyjnym programu Excel"
+"url": "/pl/net/protect-excel-file/edit-ranges-in-excel-worksheet/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Edytuj zakresy w arkuszu kalkulacyjnym programu Excel
@@ -22,7 +24,7 @@ Jeśli chodzi o edycję arkuszy kalkulacyjnych programu Excel, jedną z najpotę
 Zanim przejdziemy do kodowania, upewnijmy się, że wszystko jest gotowe. Oto, czego potrzebujesz:
 
 1. Visual Studio: Upewnij się, że masz zainstalowany program Visual Studio. Wersja community działa doskonale.
-2.  Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Możesz[pobierz tutaj](https://releases.aspose.com/cells/net/).
+2. Biblioteka Aspose.Cells: Potrzebujesz biblioteki Aspose.Cells dla .NET. Możesz [pobierz tutaj](https://releases.aspose.com/cells/net/).
 3. Podstawowa wiedza o języku C#: Podstawowa znajomość języka C# okaże się bardzo przydatna.
 4. Konfiguracja projektu: Utwórz nową aplikację konsolową C# w programie Visual Studio.
 
@@ -53,7 +55,7 @@ if (!IsExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
 
- Zastępować`"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz przechowywać swoje pliki. Może to być coś takiego`@"C:\ExcelFiles\"`.
+Zastępować `"YOUR DOCUMENT DIRECTORY"` ze ścieżką, w której chcesz przechowywać swoje pliki. Może to być coś takiego `@"C:\ExcelFiles\"`.
 
 ## Krok 2: Utwórz nowy skoroszyt
 
@@ -90,7 +92,7 @@ Ta linia pobiera kolekcję, w której będziesz zarządzać swoimi chronionymi z
 
 ## Krok 5: Zdefiniuj i utwórz zakres chroniony
 
-W tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
+tym momencie jesteśmy gotowi zdefiniować zakres, w którym chcesz zezwolić na edycję. Utwórzmy ten zakres.
 
 ```csharp
 // Zdefiniuj ProtectedRange
@@ -101,7 +103,7 @@ int idx = allowRanges.Add("r2", 1, 1, 3, 3);
 proteced_range = allowRanges[idx];
 ```
 
-powyższym kodzie tworzymy chroniony zakres o nazwie „r2”, który umożliwia edycję komórek od wiersza 1, kolumny 1 do wiersza 3, kolumny 3 (co w żargonie Excela oznacza blok A1 do C3). Możesz dostosować te indeksy według potrzeb.
+W powyższym kodzie tworzymy chroniony zakres o nazwie „r2”, który umożliwia edycję komórek od wiersza 1, kolumny 1 do wiersza 3, kolumny 3 (co w żargonie Excela oznacza blok A1 do C3). Możesz dostosować te indeksy według potrzeb.
 
 ## Krok 6: Ustaw hasło 
 
@@ -112,7 +114,7 @@ Ustawienie hasła dla chronionego zakresu zapewnia, że tylko osoby znające has
 proteced_range.Password = "YOUR_PASSWORD";
 ```
 
- Zastępować`"YOUR_PASSWORD"` z hasłem, które sam wybierzesz. Pamiętaj tylko, żeby nie było za proste — pomyśl o tym jak o zamykaniu skrzyni ze skarbami!
+Zastępować `"YOUR_PASSWORD"` z hasłem, które sam wybierzesz. Pamiętaj tylko, żeby nie było za proste — pomyśl o tym jak o zamykaniu skrzyni ze skarbami!
 
 ## Krok 7: Zabezpiecz arkusz
 
@@ -134,7 +136,7 @@ W końcu dotarliśmy do ostatniego kroku naszego samouczka — zapisania skorosz
 book.Save(dataDir + "protectedrange.out.xls");
 ```
 
-Spowoduje to zapisanie chronionego skoroszytu jako`protectedrange.out.xls` w podanym przez Ciebie katalogu.
+Spowoduje to zapisanie chronionego skoroszytu jako `protectedrange.out.xls` w podanym przez Ciebie katalogu.
 
 ## Wniosek
 
@@ -149,16 +151,18 @@ Aspose.Cells to zaawansowana biblioteka .NET umożliwiająca programistom progra
 Tak, używając Aspose.Cells, możesz zdefiniować konkretne zakresy edytowalne i zabezpieczyć resztę arkusza kalkulacyjnego.
 
 ### Czy jest dostępna wersja próbna Aspose.Cells?  
- Oczywiście! Możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+Oczywiście! Możesz pobrać bezpłatną wersję próbną [Tutaj](https://releases.aspose.com/).
 
 ### Czy mogę używać Aspose.Cells z innymi językami programowania?  
 Choć ten samouczek skupia się na platformie .NET, Aspose.Cells jest dostępny dla kilku języków programowania, w tym Java i Cloud APIs.
 
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Cells?  
- Możesz zapoznać się z pełną dokumentacją[Tutaj](https://reference.aspose.com/cells/net/).
+Możesz zapoznać się z pełną dokumentacją [Tutaj](https://reference.aspose.com/cells/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

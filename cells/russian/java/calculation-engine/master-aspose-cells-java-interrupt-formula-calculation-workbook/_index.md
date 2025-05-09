@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -27,7 +29,7 @@
 ## Предпосылки
 Прежде чем начать, убедитесь, что у вас есть следующее:
 
-### Требуемые библиотеки:
+### Необходимые библиотеки:
 - **Aspose.Cells для Java:** Убедитесь, что в вашем проекте доступна версия 25.3 или более поздняя.
 
 ### Настройка среды:
@@ -164,6 +166,9 @@ public void Run() throws Exception {
 Следуя этому всеобъемлющему руководству, вы теперь готовы эффективно внедрять и использовать функции прерывания расчета формул Aspose.Cells for Java. Удачного кодирования!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

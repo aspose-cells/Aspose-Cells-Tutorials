@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -154,7 +156,7 @@ workbook.save(outDir + "/outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
 1. **Aspose.Cells 라이선스가 유효한지 어떻게 확인할 수 있나요?**
    - 라이센스 파일 경로가 올바르게 설정되었는지 확인하고 호출하세요. `license.setLicense()` 검증하다.
 2. **다양한 필터가 적용된 여러 통합 문서를 동시에 로드할 수 있나요?**
-   - 네, 별도로 구성합니다. `LoadOptions` 필요에 따라 각 통합 문서에 대한 인스턴스를 추가합니다.
+   - 네, 별도로 구성합니다. `LoadOptions` 필요에 따라 각 통합 문서에 대한 인스턴스를 제공합니다.
 3. **통합 문서가 저장되지 않으면 어떻게 해야 하나요?**
    - 출력 디렉토리의 파일 권한을 확인하고 디스크 공간이 충분한지 확인하세요.
 4. **로딩하는 동안 주석이나 워크시트와 같은 다른 요소를 제외하려면 어떻게 해야 하나요?**
@@ -173,6 +175,9 @@ workbook.save(outDir + "/outputFilterDefinedNamesWhileLoadingWorkbook.xlsx");
 Aspose.Cells for Java에 대한 이해와 역량을 심화할 수 있는 다음 리소스를 살펴보세요. 즐거운 코딩 되세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

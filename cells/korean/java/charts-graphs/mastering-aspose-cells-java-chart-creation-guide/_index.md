@@ -1,13 +1,15 @@
 ---
 "date": "2025-04-08"
-"description": "Aspose.Cells for Java를 사용하여 Excel에서 마스터 차트를 만드는 방법을 알아보세요. 통합 문서를 설정하고, 생성하고, 데이터를 입력하고, 차트를 추가하고, 서식을 지정하고, 통합 문서를 효과적으로 저장하는 방법을 알아보세요."
+"description": "Aspose.Cells for Java를 사용하여 Excel에서 마스터 차트를 만드는 방법을 알아보세요. 통합 문서를 설정하고, 만들고, 데이터를 입력하고, 차트를 추가하고, 서식을 지정하고, 통합 문서를 효과적으로 저장하는 방법을 알아보세요."
 "title": "Aspose.Cells for Java 차트 만들기 및 서식 지정에 대한 포괄적인 가이드"
 "url": "/ko/java/charts-graphs/mastering-aspose-cells-java-chart-creation-guide/"
 "weight": 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -244,6 +246,9 @@ public class SavingTheWorkbook {
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

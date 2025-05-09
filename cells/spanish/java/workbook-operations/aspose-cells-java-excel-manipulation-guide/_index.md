@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -76,7 +78,7 @@ public class SetupAsposeCells {
 Esta sección profundiza en los detalles de implementación de varias características de Aspose.Cells.
 
 ### Característica 1: Inicialización del libro de trabajo
-Inicializar un libro de trabajo es el primer paso para administrar archivos de Excel con Java.
+Inicializar un libro es el primer paso para administrar archivos de Excel con Java.
 
 **Descripción general:**
 Creando una instancia de `Workbook` Representa un nuevo archivo Excel, listo para modificaciones.
@@ -89,7 +91,7 @@ import com.aspose.cells.Workbook;
 
 public class FeatureWorkbookInitialization {
     public static void main(String[] args) throws Exception {
-        // Crear una instancia de un nuevo objeto Workbook
+        // Crear una instancia de un nuevo objeto de libro de trabajo
         Workbook workbook = new Workbook();
         
         // Ahora puedes realizar operaciones en este libro de trabajo.
@@ -115,7 +117,7 @@ public class FeatureAddWorksheet {
         // Paso 1: crea una nueva instancia de la clase Workbook.
         Workbook workbook = new Workbook();
         
-        // Paso 2: Agregue una nueva hoja de trabajo al libro y obtenga su índice.
+        // Paso 2: agregue una nueva hoja de trabajo al libro y obtenga su índice.
         int sheetIndex = workbook.getWorksheets().add();
         
         // Paso 3: Obtenga la referencia a la hoja de trabajo recién agregada utilizando su índice.
@@ -225,6 +227,9 @@ Siguiendo esta guía, ha aprendido técnicas esenciales para la manipulación de
 Para continuar explorando las capacidades de Aspose.Cells, considere profundizar en las funciones avanzadas como creación de gráficos, validación de datos y más.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

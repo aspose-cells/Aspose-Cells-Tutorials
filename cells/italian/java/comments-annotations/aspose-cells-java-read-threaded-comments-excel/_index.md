@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -104,7 +106,7 @@ for (Object obj : threadedComments) {
 
 ### Parametri e metodi
 - **Quaderno di lavoro**: Rappresenta l'intero file Excel.
-- **Foglio di lavoro**: Si riferisce a un singolo foglio all'interno della cartella di lavoro.
+- **Foglio di lavoro**Si riferisce a un singolo foglio all'interno della cartella di lavoro.
 - **Raccolta di commenti con thread**Raccolta di commenti associati a una cella.
 
 ## Applicazioni pratiche
@@ -148,6 +150,9 @@ Pronti ad approfondire? Provate a implementare questa soluzione nei vostri proge
 - [Forum di supporto Aspose](https://forum.aspose.com/c/cells/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

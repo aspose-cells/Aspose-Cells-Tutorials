@@ -1,14 +1,16 @@
 ---
-title: Sayfa Kurulum Ayarlarını Kaynaktan Hedef Çalışma Sayfasına Kopyala
-linktitle: Sayfa Kurulum Ayarlarını Kaynaktan Hedef Çalışma Sayfasına Kopyala
-second_title: Aspose.Cells .NET Excel İşleme API'si
-description: Aspose.Cells for .NET kullanarak çalışma sayfaları arasında sayfa düzeni ayarlarının nasıl kopyalanacağını öğrenin! Geliştiriciler için hızlı ve kolay bir kılavuz.
-weight: 10
-url: /tr/net/worksheet-page-setup-features/copy-page-setup-settings/
+"description": "Aspose.Cells for .NET kullanarak çalışma sayfaları arasında sayfa düzeni ayarlarının nasıl kopyalanacağını öğrenin! Geliştiriciler için hızlı ve kolay bir kılavuz."
+"linktitle": "Sayfa Kurulum Ayarlarını Kaynaktan Hedef Çalışma Sayfasına Kopyala"
+"second_title": "Aspose.Cells .NET Excel İşleme API'si"
+"title": "Sayfa Kurulum Ayarlarını Kaynaktan Hedef Çalışma Sayfasına Kopyala"
+"url": "/tr/net/worksheet-page-setup-features/copy-page-setup-settings/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfa Kurulum Ayarlarını Kaynaktan Hedef Çalışma Sayfasına Kopyala
@@ -18,7 +20,7 @@ Kendinizi Excel'de birden fazla sayfayı idare ederken, çeşitli biçimlendirme
 ## Ön koşullar
 Kodlamanın inceliklerine dalmadan önce, bu eğitimi başarıyla takip etmek için ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım. İşte ön koşullar:
 1. C# Programlamanın Temel Bilgileri: Kodlama örnekleri basit olsa da, C# ile ilgili bazı bilgilere sahip olmak kavramları daha iyi anlamanıza yardımcı olacaktır.
-2.  Aspose.Cells Kütüphanesi: Başlamak için, .NET projenizde Aspose.Cells kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, şuraya gidin:[Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
+2. Aspose.Cells Kütüphanesi: Başlamak için, .NET projenizde Aspose.Cells kütüphanesinin yüklü olması gerekir. Henüz yüklemediyseniz, şuraya gidin: [Aspose.Cells İndirme Sayfası](https://releases.aspose.com/cells/net/) ve en son sürümü edinin.
 3. Visual Studio veya Herhangi Bir C# IDE: C# programlama için bir Entegre Geliştirme Ortamı (IDE) kurulumuna ihtiyacınız olacak. Visual Studio, sağlam özellikleri nedeniyle şiddetle tavsiye edilir.
 4. .NET Framework: Projenizin Aspose.Cells ile iyi çalışan .NET Framework'ün uyumlu bir sürümünü hedeflediğinden emin olun.
 5. Çalışma Kitapları ve Çalışma Sayfaları Hakkında Temel Bilgiler: Bu eğitim boyunca Excel'de Çalışma Kitapları ve Çalışma Sayfalarının ne olduğunu bilmek önemlidir çünkü bunları işleyeceğiz.
@@ -38,7 +40,7 @@ Workbook wb = new Workbook();
 ```
 Bu kod satırı yeni bir çalışma kitabı başlatır. İşte böyle, sihrinizi bekleyen boş bir sayfanız var!
 ## Adım 2: Çalışma Sayfaları Ekleyin
-Sonra, çalışma kitabımıza iki test çalışma kağıdı ekleyeceğiz. Deneylerimizi burada gerçekleştireceğiz. Bunu nasıl yapabileceğinizi burada görebilirsiniz:
+Sonra, çalışma kitabımıza iki test çalışma kağıdı ekleyeceğiz. Deneylerimizi burada gerçekleştireceğiz. Bunu nasıl yapabileceğinizi anlatalım:
 ```csharp
 wb.Worksheets.Add("TestSheet1");
 wb.Worksheets.Add("TestSheet2");
@@ -78,21 +80,23 @@ Console.WriteLine("After Paper Size: " + TestSheet2.PageSetup.PaperSize);
 ```
 Şimdi TestSheet2'nin TestSheet1'den sayfa boyutu ayarlarını aldığını görmelisiniz! Hem heyecan verici hem de tatmin edici, değil mi?
 ## Çözüm
-Ve işte karşınızda! Aspose.Cells for .NET kullanarak sayfa düzeni ayarlarını bir çalışma sayfasından diğerine kopyalamayı başarıyla öğrendiniz. Bu teknik yalnızca basit değil, aynı zamanda harika bir zaman tasarrufudur. Raporlarınızı otomatikleştirmeyi veya birden fazla sayfada tutarlı biçimlendirmeyi sürdürmeyi hayal edin! Bu kütüphanenin gücünden yararlanarak belge yönetimi sürecinizde yeni bir verimlilik düzeyine ulaşabilirsiniz.
+Ve işte oldu! Aspose.Cells for .NET kullanarak sayfa düzeni ayarlarını bir çalışma sayfasından diğerine kopyalamayı başarıyla öğrendiniz. Bu teknik yalnızca basit değil, aynı zamanda harika bir zaman tasarrufudur. Raporlarınızı otomatikleştirmeyi veya birden fazla sayfada tutarlı biçimlendirmeyi sürdürmeyi hayal edin! Bu kütüphanenin gücünden yararlanarak belge yönetimi sürecinizde yeni bir verimlilik düzeyine ulaşabilirsiniz.
 ## SSS
 ### Aspose.Cells Nedir?
 Aspose.Cells, Excel dosyalarını yönetmek için güçlü bir .NET kütüphanesidir ve geliştiricilerin elektronik tabloları programlı bir şekilde oluşturmasını, düzenlemesini ve dönüştürmesini sağlar.
 ### Aspose.Cells'i ücretsiz kullanabilir miyim?
- Evet! Şunu kullanabilirsiniz:[ücretsiz deneme](https://releases.aspose.com/) Özellikleri test etmek için kullanılabilir, ancak uzun vadeli projeler için lisans satın alınması önerilir.
+Evet! Şunu kullanabilirsiniz: [ücretsiz deneme](https://releases.aspose.com/) Özellikleri test etmek için kullanılabilir, ancak uzun vadeli projeler için lisans satın alınması önerilir.
 ### Teknik destek nasıl alabilirim?
-Teknik desteğe şu şekilde ulaşabilirsiniz:[Aspose destek forumu](https://forum.aspose.com/c/cells/9) Uzmanların sorularınıza yardımcı olabileceği yer.
+Teknik desteğe şu şekilde ulaşabilirsiniz: [Aspose destek forumu](https://forum.aspose.com/c/cells/9) Uzmanların sorularınıza yardımcı olabileceği yer.
 ### Geçici lisans var mı?
- Evet, Aspose.Cells'in tüm yeteneklerini test etmek istiyorsanız, başvuruda bulunabilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphaneyi sınırlı bir süre kullanmak.
+Evet, Aspose.Cells'in tüm yeteneklerini test etmek istiyorsanız, başvuruda bulunabilirsiniz. [geçici lisans](https://purchase.aspose.com/temporary-license/) Kütüphaneyi sınırlı bir süre kullanmak.
 ### Sayfa kurulum seçeneklerimi özelleştirebilir miyim?
 Kesinlikle! Aspose.Cells, sayfa düzenlerini özelleştirmek için kenar boşlukları, üstbilgiler, altbilgiler ve daha fazlası dahil olmak üzere çok çeşitli seçenekler sunar.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

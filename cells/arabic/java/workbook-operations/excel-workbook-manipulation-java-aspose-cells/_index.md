@@ -7,7 +7,9 @@
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 
@@ -232,6 +234,9 @@ System.out.println("Workbook with hyperlink saved successfully!");
 باتباع هذا البرنامج التعليمي، ستتعلم كيفية التعامل بكفاءة مع مصنفات Excel باستخدام Aspose.Cells لجافا. تُبسّط هذه الأداة الفعّالة عملية إنشاء ملفات Excel وتعديلها وتحسينها، مما يتيح لك التركيز على تقديم حلول بيانات عالية الجودة. واصل استكشاف ميزاتها للاستفادة القصوى من إمكانياتها في مشاريعك.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
